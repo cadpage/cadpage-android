@@ -18,29 +18,32 @@ Subject:Dispatch\nDispatch ** 10:49 ** ABDOMINAL PAIN / PROBLEMS ** 101 COBBLEST
 Subject:Dispatch\nDispatch ** 18:28 ** TRANSPORT-MEDICAL ** 1200 DRIVING PARK AVE ** NEWARK WAYNE CO ** SUNSET DR * FREY ST ** 332-2494 **
 Subject:Dispatch\nDispatch ** 22:04 ** BARN/GARAGE FIRE ** 735 BOHNER ** - ** ONTARIO COUNTY **  ** 
 
+Contact: Jeff Zorn <jzorn82@gmail.com>
+Sender: williamsonfireco@fdcms.info
+(6556 LAKE AVE) Dispatch ** 09:44 ** HAZARDOUS CONDITIONS ** 6556 LAKE AVE ** RAILROAD AVE * POUND RD ** -Apt: 8 **  **
+
 */
 
 public class NYWayneCountyParser extends FieldProgramParser {
     
     public NYWayneCountyParser() {
       super("WAYNE COUNTY", "NY",
-             "DISPATCH TIME CALL ADDR! NAME X PHONE");
+             "DISPATCH TIME CALL ADDR! PLACENAME? X APT? PHONE");
     }
     
     @Override
     public String getFilter() {
-      return "newarkamb@fdcms.info";
+      return "newarkamb@fdcms.info,williamsonfireco@fdcms.info";
     }
 
 	  @Override
 	  protected boolean parseMsg(String subject, String body, Data data) {
-	    if (!subject.equals("Dispatch")) return false;
 	    body = body + " ";
 	    return parseFields(body.split(" \\*\\* "), data);
 	  }
 
 	  // Name field ignores standalone dashes
-	  private class MyNameField extends NameField {
+	  private class MyPlaceNameField extends PlaceNameField {
       @Override
       public void parse(String field, Data data) {
         if (field.equals("-")) return;
@@ -51,10 +54,27 @@ public class NYWayneCountyParser extends FieldProgramParser {
 	  // Cross street field might have neighboring county
 	  private class MyCrossField extends CrossField {
 	    @Override
+	    public boolean canFail() {
+	      return true;
+	    }
+	    
+	    @Override
+	    public boolean checkParse(String field, Data data) {
+	      if (field.toUpperCase().endsWith(" COUNTY")) {
+	        data.strCity = field;
+	      } else if (field.contains(" * ")) {
+          field  = field.replace('*', '&');
+          super.parse(field, data);
+	      } else return false;
+	      return true;
+	    }
+	    
+	    @Override
 	    public void parse(String field, Data data) {
 	      if (field.toUpperCase().endsWith(" COUNTY")) {
 	        data.strCity = field;
 	      }  else {
+	        field  = field.replace('*', '&');
 	        super.parse(field, data);
 	      }
 	    }
@@ -64,13 +84,28 @@ public class NYWayneCountyParser extends FieldProgramParser {
 	      return "X CITY";
 	    }
 	  }
+	  
+	  private class MyAptField extends AptField {
+	    @Override
+	    public boolean canFail() {
+	      return true;
+	    }
+	    
+	    @Override
+	    public boolean checkParse(String field, Data data) {
+	      if (!field.startsWith("-Apt:"))  return false;
+	      super.parse(field.substring(5).trim(), data);
+	      return true;
+	    }
+	  }
 
     @Override
     protected Field getField(String name) {
       if (name.equals("DISPATCH")) return new SkipField("Dispatch", true);
       if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
-      if (name.equals("NAME")) return new MyNameField();
+      if (name.equals("PLACENAME")) return new MyPlaceNameField();
       if (name.equals("X")) return new MyCrossField();
+      if (name.equals("APT")) return new MyAptField();
       return super.getField(name);
     }
 	  

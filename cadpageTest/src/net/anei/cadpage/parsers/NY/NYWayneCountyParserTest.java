@@ -20,7 +20,7 @@ public class NYWayneCountyParserTest extends BaseParserTest {
         "CALL:FALLS",
         "ADDR:1542 STEBBINS RD",
         "NAME:HERMAN, ELAINE",
-        "X:STUART AVE * TELLIER RD",
+        "X:STUART AVE & TELLIER RD",
         "PHONE:315-331-6505");
 
     doTest("T2",
@@ -29,7 +29,7 @@ public class NYWayneCountyParserTest extends BaseParserTest {
         "CALL:MEDICAL ALARM ACTIVATION",
         "ADDR:790 E MAPLE AVE",
         "NAME:ADT",
-        "X:DRUMLIN CT * CUYLER ST",
+        "X:DRUMLIN CT & CUYLER ST",
         "PHONE:877-238-7730");
 
     doTest("T3",
@@ -38,7 +38,7 @@ public class NYWayneCountyParserTest extends BaseParserTest {
         "CALL:BREATHING PROBLEMS",
         "ADDR:5400 ROUTE 31",
         "NAME:HALL, JANET",
-        "X:WHITBECK RD * W UNION ST",
+        "X:WHITBECK RD & W UNION ST",
         "PHONE:315-359-3978");
 
     doTest("T4",
@@ -47,7 +47,7 @@ public class NYWayneCountyParserTest extends BaseParserTest {
         "CALL:HOUSE FIRE",
         "ADDR:106 HILL ST",
         "NAME:VZW CALL",
-        "X:LYONS ST * STANSELL ST",
+        "X:LYONS ST & STANSELL ST",
         "PHONE:315-690-9286");
 
     doTest("T5",
@@ -55,8 +55,8 @@ public class NYWayneCountyParserTest extends BaseParserTest {
         "TIME:10:49",
         "CALL:ABDOMINAL PAIN / PROBLEMS",
         "ADDR:101 COBBLESTONE TER",
-        "NAME:FINGER LAKES DD",
-        "X:VIENNA ST * VIENNA ST",
+        "PLACE:FINGER LAKES DD",
+        "X:VIENNA ST & VIENNA ST",
         "PHONE:315-");
 
     doTest("T6",
@@ -64,8 +64,8 @@ public class NYWayneCountyParserTest extends BaseParserTest {
         "TIME:18:28",
         "CALL:TRANSPORT-MEDICAL",
         "ADDR:1200 DRIVING PARK AVE",
-        "NAME:NEWARK WAYNE CO",
-        "X:SUNSET DR * FREY ST",
+        "PLACE:NEWARK WAYNE CO",
+        "X:SUNSET DR & FREY ST",
         "PHONE:332-2494");
 
     doTest("T7",
@@ -74,7 +74,18 @@ public class NYWayneCountyParserTest extends BaseParserTest {
         "CALL:BARN/GARAGE FIRE",
         "ADDR:735 BOHNER",
         "CITY:ONTARIO COUNTY");
+  }
+  
+  @Test
+  public void testJeffZorn() {
 
+    doTest("T1",
+        "(6556 LAKE AVE) Dispatch ** 09:44 ** HAZARDOUS CONDITIONS ** 6556 LAKE AVE ** RAILROAD AVE * POUND RD ** -Apt: 8 **  **",
+        "TIME:09:44",
+        "CALL:HAZARDOUS CONDITIONS",
+        "ADDR:6556 LAKE AVE",
+        "X:RAILROAD AVE & POUND RD",
+        "APT:8");
   }
   
   public static void main(String[] args) {
