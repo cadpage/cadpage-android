@@ -24,6 +24,7 @@ Sender: 9-1-1"@mcc.co.mercer.pa.us
 "9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 201 ERIE ST GROV: @ALLIED NEWS / THE HERALD EID: 2354451 TYPE CODE: ELI CALLER NA
 "9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 123 W MAIN ST GROV: @GROVE CITY BOROUGH EID: 2354882 TYPE CODE: BRU CALLER NAME: C
 "mercer 9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 160 GEORGE JUNIOR RD GROV: @GROVE CITY ARMORY EID: 2374687 TYPE CODE: SERV CALLER NAME: ERIC MERSHIMER CALLER
+"Mercer 9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 12 STAFFORDSHIRE DR PINE EID: 2377509 TYPE CODE: HF CALLER NAME: MICHELLE GAIMFLEY CALLER ADDR: 109 GEORGE JU
 
  */
 
@@ -102,6 +103,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "COOL", "COOLSPRING TWP",
       "GROV", "GROVE CITY",
       "JACK", "JACKSON TWP",
+      "PINE", "PINE",
       "STON", "STONEBORO"
   });
   
