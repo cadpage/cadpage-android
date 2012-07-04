@@ -28,8 +28,9 @@ Sender: 27538
 LOC:NICHOLS RD / ASHMAN DESC:ENG SQUAD TENDER APT: TYP:*M*MUTUAL AID
 
 Contact: Eric Brown <e.j.brown678@gmail.com>
-Sender: 27538
+Sender: 27538,34292
 LOC:442 S 24TH DESC:32F- DIFF BREATH   STOMACH PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
+LOC:2898 APOLLO DESC:33F     DIFF BREATHING APT: TYP:*M*SICK PERSON IN PROGRESS
 
 Contact: Josh Mosher <mosherj2@gmail.com>
 Sender: 27538
@@ -48,7 +49,7 @@ public class MISaginawCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "27538";
+    return "27538,34292";
   }
   
   private static final Pattern GPS_PTN = Pattern.compile("LAT: <([+-]?[\\d\\.]+)> +LONG: <([+-]?[\\d\\.]+)>");
