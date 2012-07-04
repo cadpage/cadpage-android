@@ -25,6 +25,7 @@ Sender: 9-1-1"@mcc.co.mercer.pa.us
 "9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 123 W MAIN ST GROV: @GROVE CITY BOROUGH EID: 2354882 TYPE CODE: BRU CALLER NAME: C
 "mercer 9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 160 GEORGE JUNIOR RD GROV: @GROVE CITY ARMORY EID: 2374687 TYPE CODE: SERV CALLER NAME: ERIC MERSHIMER CALLER
 "Mercer 9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 12 STAFFORDSHIRE DR PINE EID: 2377509 TYPE CODE: HF CALLER NAME: MICHELLE GAIMFLEY CALLER ADDR: 109 GEORGE JU
+"Mercer 9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 1237 WALNUT ST STON EID: 2377268 TYPE CODE: STR CALLER NAME: KIM ALLEN CALLER ADDR: 527 FREDONIA RD LAKE TIME
 
  */
 
@@ -119,6 +120,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "CHIM", "Chimney Fire",
       "BRU", "Brush Fire",
       "MUT", "Mutual Aid",
+      "STR", "Structure Fire",
       "TREE", "Tree down",
       "FALM", "Fire alarm"
   });
