@@ -126,6 +126,14 @@ public class PAMercerCountyParserTest extends BaseParserTest {
         "ID:2377509",
         "CALL:House fire",
         "NAME:MICHELLE GAIMFLEY");
+
+    doTest("T15",
+        "\"Mercer 9-1-1\"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 1237 WALNUT ST STON EID: 2377268 TYPE CODE: STR CALLER NAME: KIM ALLEN CALLER ADDR: 527 FREDONIA RD LAKE TIME",
+        "ADDR:1237 WALNUT ST",
+        "CITY:STONEBORO",
+        "ID:2377268",
+        "CALL:Structure Fire",
+        "NAME:KIM ALLEN");
  }
   
   public static void main(String[] args) {
