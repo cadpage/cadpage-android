@@ -83,7 +83,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "PRI:1",
         "ADDR:19 CHILI AV",
         "MADDR:19 CHILI AVE",
-        "CITY:Scottsville",
+        "CITY:SCOTTSVILLE",
         "PLACE:GROUP HOME",
         "CALL:6D4",
         "INFO:MALE 50 TROUBLE BREATHING--CLAMMY AND FEVERISH--");
@@ -94,7 +94,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "BOX:0320",
         "PRI:2",
         "ADDR:521 NORTH RD",
-        "CITY:Scottsville",
+        "CITY:SCOTTSVILLE",
         "PLACE:KAYLEIGH STEELLMAN RES",
         "CALL:23C1",
         "INFO:XFER FROM 211/CLR REQ AMB FOR 19 YO F INTOX, HX OF SUICIDAL TENDENCIES, V IOLENT, NOT ALERT, SOUNDED LIKE SHE WAS BREATHING ABNORMALLY PER 211, F H/U ON 211");
@@ -105,7 +105,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "BOX:0450",
         "PRI:1P",
         "ADDR:851 SCOTTSVILLE MUMFORD RD",
-        "CITY:Wheatland",
+        "CITY:WHEATLAND",
         "CALL:17D3",
         "INFO:71 YO HUSBAND HAS FALLEN / NOT ALERT");
 
@@ -115,7 +115,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "BOX:0450",
         "PRI:1P",
         "ADDR:851 SCOTTSVILLE MUMFORD RD",
-        "CITY:Wheatland",
+        "CITY:WHEATLAND",
         "CALL:17D3",
         "INFO:71 YO HUSBAND HAS FALLEN / NOT ALERT --");
 
@@ -125,7 +125,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "BOX:0330",
         "PRI:4",
         "ADDR:2 RACE ST",
-        "CITY:Scottsville",
+        "CITY:SCOTTSVILLE",
         "CALL:26A1",
         "INFO:89 YO F/BLADDER INFECTION /PAIN IN URINATION AND BACK PAIN");
 
@@ -135,7 +135,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "BOX:0330",
         "PRI:1",
         "ADDR:385 SCOTTSVILLE MUMFORD RD",
-        "CITY:Scottsville",
+        "CITY:SCOTTSVILLE",
         "PLACE:SCOF",
         "CALL:TEST",
         "INFO:TESTING SCOE'S TONES, PLEASE DISREGARD AND HAVE A GOOD NIGHT! --");
@@ -146,7 +146,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "BOX:0310",
         "PRI:3",
         "ADDR:724 NORTH RD",
-        "CITY:Scottsville",
+        "CITY:SCOTTSVILLE",
         "PLACE:ROOM 6",
         "CALL:RBCST",
         "INFO:,NEED A DRIVER OR A MEDIC TO COMPLETE THE CREW W/ 4M16 - GATES A4569 TAKING THE ALS PORTION --");
@@ -157,7 +157,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "BOX:0310",
         "PRI:1",
         "ADDR:724 NORTH RD",
-        "CITY:Scottsville",
+        "CITY:SCOTTSVILLE",
         "PLACE:ROOM 6",
         "CALL:6D4",
         "INFO:48 YO M - TRBL BREATHING - IS CLAMMY - ALERT --");
@@ -168,7 +168,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "BOX:0330",
         "PRI:1",
         "ADDR:MAIN ST & RT 251",
-        "CITY:Scottsville",
+        "CITY:SCOTTSVILLE",
         "CALL:29D2N",
         "INFO:CAR TOOK OFF OUT OF COUNTY PARK -- EJECTED ONE OF THE PPL OUT OF THE CAR -- NOW TRYING TO LOAD HER INTO CAR AND LEAVE LOOK TO BE INTOX -- BLU CAR POSS SUBU IMPREZA 4D COMPACT");
 
@@ -178,7 +178,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "BOX:0320",
         "PRI:2",
         "ADDR:NORTH RD & ROCHESTER ST",
-        "CITY:Scottsville",
+        "CITY:SCOTTSVILLE",
         "PLACE:MOBILE GAS STATION",
         "CALL:EMSA",
         "INFO:ODOR OF NATURAL GAS INSIDE THE BLDG - M IN BACK COOKING --");
@@ -189,7 +189,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "BOX:0320",
         "PRI:4",
         "ADDR:8 GENESEE ST",
-        "CITY:Scottsville",
+        "CITY:SCOTTSVILLE",
         "PLACE:JOHN HOLTZ RES",
         "CALL:26A2",
         "INFO:68 YO MALE - SHAKING - POSS HIGH FEVER - COMPS ETA 15 MINS TO LOC --");
@@ -200,7 +200,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "BOX:0320",
         "PRI:4",
         "ADDR:498 NORTH RD",
-        "CITY:Scottsville",
+        "CITY:SCOTTSVILLE",
         "CALL:7A1",
         "INFO:67 YO MALE RADIATOR SPLASHED ANTI FREEZE ON HIM /BURNING ON HIS CHEST AND FACE --");
 
