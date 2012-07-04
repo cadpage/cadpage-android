@@ -47,9 +47,8 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "CALL:Fire - Alarm",
         "ADDR:251 S PENN STREET EXT",
         "MADDR:251 S PENN STREET",
-        "X:Punxsutawney DEAD END / CLIFF ST 20-A",
-        "CITY:Snyder",
-        "PLACE:Hill");
+        "CITY:Punxsutawney",
+        "X:DEAD END / CLIFF ST 20-A Snyder Hill");
 
     doTest("T2",
         "prvs=0518956c10=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Structure Fire 251 S PENN ST Punxsutawney",
@@ -79,6 +78,15 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "X:CRISSMAN ALY / W MAHONING ST",
         "CITY:Punxsutawney",
         "INFO:40-A Snyder Hill");
+
+    doTest("T6",
+        "prvs=05312311d9=dispatch@jeffersoncountypa.com (Incident) Tree Down GASKILL AVE ALTMAN AVE Punxsutawney 20-A Snyder Hill",
+        "CALL:Tree Down",
+        "ADDR:GASKILL AVE",
+        "MADDR:GASKILL AVE & ALTMAN AVE",
+        "X:ALTMAN AVE",
+        "CITY:Punxsutawney",
+        "PLACE:20-A Snyder Hill");
   }
   
   public static void main(String[] args) {
