@@ -80,10 +80,22 @@ public class OHEnglewoodParserTest extends BaseParserTest {
         "CALL:CHECK NORTH SIDE OF THE ROAD FOR A POSS FIELD FIRE",
         "ADDR:RINEHART RD & SWEET POTATO RIDGE RD",
         "CITY:CLAYTON");
+
+    doTest("T8",
+        "FRM:CAD@englewood.oh.us\n" +
+        "MSG:630 EM98:15:51:00-45:E45:MEDIC - 65YOF BACK DOOR SHORTNESS OF BREATH EXTREME PAIN ALL OVER :@322 HEATHER ST UNIT 6,ENGLEWOOD:\r\n",
+
+        "UNIT:630 EM98",
+        "TIME:15:51:00",
+        "CODE:45:E45",
+        "CALL:MEDIC - 65YOF BACK DOOR SHORTNESS OF BREATH EXTREME PAIN ALL OVER",
+        "ADDR:322 HEATHER ST",
+        "APT:6",
+        "CITY:ENGLEWOOD");
     
   }
   
   public static void main(String[] args) {
-    new OHEnglewoodParserTest().generateTests("T11", "UNIT TIME CODE CALL ADDR APT CITY INFO");
+    new OHEnglewoodParserTest().generateTests("T1", "UNIT TIME CODE CALL ADDR APT CITY INFO");
   }
 }

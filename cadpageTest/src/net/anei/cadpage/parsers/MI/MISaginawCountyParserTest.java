@@ -84,6 +84,12 @@ public class MISaginawCountyParserTest extends BaseParserTest {
         "ADDR:442 S 24TH",
         "INFO:32F- DIFF BREATH   STOMACH PAIN",
         "CALL:SICK PERSON IN PROGRESS");
+
+    doTest("T1",
+        "LOC:2898 APOLLO DESC:33F     DIFF BREATHING APT: TYP:*M*SICK PERSON IN PROGRESS",
+        "ADDR:2898 APOLLO",
+        "INFO:33F     DIFF BREATHING",
+        "CALL:SICK PERSON IN PROGRESS");
   }
   
   @Test
