@@ -18,6 +18,7 @@ prvs=0518956c10=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com
 prvs=0516eca2ae=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) MVA ROUTE 119 / ROUTE 436 Young Narrative:
 prvs=0514f9c90b=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) MVA 3637 ROUTE 36 SPRING RD / HOLLIS LN Oliver SMITH HAULINGNarrative: 5-A Coolspring
 prvs=0512e03127=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Structure Fire 106 FOUNDRY ST CRISSMAN ALY / W MAHONING ST Punxsutawney Narrative: 40-A Snyder Hill
+prvs=05312311d9=dispatch@jeffersoncountypa.com (Incident) Tree Down GASKILL AVE ALTMAN AVE Punxsutawney 20-A Snyder Hill
 
 */
 
@@ -43,11 +44,13 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
       body = body.substring(0,pt).trim();
     }
 
+    // SNYDER HILL in info section confuses the smart address parer
+    body = body.replace("Snyder Hill", "Snyder-Hill");
     parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_PAD_FIELD, body, data);
     data.strCross = getPadField();
-    String extra = getLeft();
+    String extra = getLeft().replace("Snyder-Hill", "Snyder Hill");
     
-    if (extra.contains(" / ")) {
+    if (data.strCross.length() == 0 && extra.contains(" / ")) {
       data.strCross = extra;
     } else {
       data.strPlace = extra;

@@ -4709,6 +4709,7 @@ Contact: Randy Kibilko <mcsert15@gmail.com>
 Sender: cad@mydomain.com
 CAD:FYI: ;06/22/2012 01:39:53;4566 S GREENVILLE RD;Event spawned from STRUCTURE FIRE. [06/22/2012 01:38:55 TMORTENSEN]
 CAD:FYI: ;06/29/2012 14:52:54;215 N STATE ST;wire across the roadway [06/29/12 14:53:21 AHIRKAWAY]    CAD:Update: ;06/29/2012 14:52:54;300 N STATE ST;PHONE AND CABLE WIRES, TIRED OFF [06/29/12 15:10:51 JJOURDAN] wire across the roadway [06/29/12 14:53:21 AHIRKAWAY]
+CAD:FYI: ;07/03/2012 18:09:20;N LINCOLN ST/E DAY ST;LINE HANGING LOW - POLE TO HOUSE [07/03/12 18:10:19 MROSE] In the city of stanton mi.
 **********************************************************
 Rensseleaer County, NY
 Contact: "David R. Young JR." <dave@impressions-dj.com>, 5183658048@messaging.sprintpcs.com
