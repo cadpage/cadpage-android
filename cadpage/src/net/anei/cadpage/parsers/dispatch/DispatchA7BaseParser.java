@@ -17,8 +17,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchA7BaseParser extends FieldProgramParser {
   
-  private int initCityIndex = 0;
+  private int initCityIndex = -1;
   private  String[] cityIndex = null;
+  private Properties cityCodes = null;
   
   public DispatchA7BaseParser(int initCityIndex, String[] cityIndex, 
                                   String defCity, String defState, String program) {
@@ -39,6 +40,12 @@ public class DispatchA7BaseParser extends FieldProgramParser {
     super(cityCodes, defCity, defState, program);
     this.initCityIndex = initCityIndex;
     this.cityIndex = cityIndex;
+    this.cityCodes = cityCodes;
+  }
+  
+  public DispatchA7BaseParser(Properties cityCodes, String defCity, String defState, String program) {
+    super(cityCodes, defCity, defState, program);
+    this.cityCodes = cityCodes;
   }
   
   /**
@@ -84,27 +91,47 @@ public class DispatchA7BaseParser extends FieldProgramParser {
     
     else {
       parseAddress(sAddr, data);
-      match = CITY_CODE_PTN.matcher(city);
-      if (match.matches()) {
-        data.strCity = getCity(match.group(1));
-      } else {
-        data.strCity = city;
-      }
+      data.strCity = getCity(city);
     }
   }
   private static final Pattern CROSS_MARK = Pattern.compile(" X/| s?btwn[: ]");
   private static final Pattern PLACE_MARK = Pattern.compile(" -+ ");
-  private static final Pattern CITY_CODE_PTN = Pattern.compile("(\\d{2})\\b.*");
 
   /**
-   * Convert numeric city code to a city name
+   * Convert city code to a city name
    * @param cityCode numeric city code
    * @return name of city
    */
   protected String getCity(String cityCode) {
-    int iCity = Integer.parseInt(cityCode);
-    iCity = iCity - initCityIndex;
-    if (iCity < 0 || iCity >= cityIndex.length) return "";
-    return cityIndex[iCity];
+    Matcher match = CITY_CODE_PTN.matcher(cityCode);
+    if (match.matches()) {
+      int iCity = Integer.parseInt(match.group(1));
+      iCity = iCity - initCityIndex;
+      if (iCity < 0 || iCity >= cityIndex.length) return "";
+      return cityIndex[iCity];
+    } else if (cityCodes != null) {
+      return convertCodes(cityCode, cityCodes);
+    } else {
+      return cityCode;
+    }
+  }
+  private static final Pattern CITY_CODE_PTN = Pattern.compile("(\\d{2})\\b.*");
+  
+  private class A7AddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      parseAddressA7(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT CITY PLACE X";
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new A7AddressField();
+    return super.getField(name);
   }
 }

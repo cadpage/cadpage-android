@@ -1254,7 +1254,7 @@ Jeremy Emph (csvff69@gmail.com)(csvff69@aol.com) // $15
 "McLean, Scott" (mclean5522@gmail.com)<Scott.McLean@fire.ca.gov> // Butte County, CA
 Joshua VanSteenburg(jvansteenburg1985@gmail.com)
 %%04/09/2012
-Levon Ellian (MCP2461@aol.com)
+Levon Ellian (mcp2461@gmail.com)(MCP2461@aol.com)
 %%04/10/2012
 FRANCIS BAUER (pgfd702@gmail.com)(pgfdid702@gmail.com)(pgfd702@comcast.net)
 %%04/11/2012
@@ -2457,3 +2457,5 @@ isaac marroquin <isaac.marroquin1@gmail.com>
 "Sam~i~Am" Samantha Huffman (emt5074@gmail.com) <emt5074@live.com>
 Shane Henry <avocahose15@gmail.com>
 Matthew Stephenson <lexinghton33@gmail.com>
+%%07/03/2012
+Michael Peterein <dunklinfireemt@gmail.com>
