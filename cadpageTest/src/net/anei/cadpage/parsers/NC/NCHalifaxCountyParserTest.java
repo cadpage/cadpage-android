@@ -58,6 +58,85 @@ public class NCHalifaxCountyParserTest extends BaseParserTest {
         "CITY:ROANOKE RAPIDS",
         "CALL:FIRE-SMOKE",
         "UNIT:FI14");
+    
+  }
+  
+  @Test
+  public void testTreyEvans() {
+
+    doTest("T1",
+        "HalifaxCoE911:* 1159 BACON RD* * * LITTLETON* * * * * ARSON* * * * 122,FI21* * * * *",
+        "ADDR:1159 BACON RD",
+        "CITY:LITTLETON",
+        "CALL:ARSON",
+        "UNIT:122,FI21");
+
+    doTest("T2",
+        "HalifaxCoE911:* ODELL LITTLETON RD // NEAR PANCEA SPRINGS* * * LITTLETON* * * * FIRE-BRUSH* * * * FI21* * * * *",
+        "ADDR:ODELL LITTLETON RD",
+        "MADDR:NEAR PANCEA SPRINGS,ODELL LITTLETON RD",
+        "CITY:LITTLETON",
+        "PLACE:NEAR PANCEA SPRINGS",
+        "INFO:FIRE-BRUSH",
+        "UNIT:FI21");
+
+    doTest("T3",
+        "HalifaxCoE911:* 110 WOODLAWN CT* * * LITTLETON* * * * * ALARM-FIRE* * * * FI21* * * * *",
+        "ADDR:110 WOODLAWN CT",
+        "CITY:LITTLETON",
+        "CALL:ALARM-FIRE",
+        "UNIT:FI21");
+
+    doTest("T4",
+        "HalifaxCoE911:* FAUCETTE STORE RD // 158* * * LITTLETON* * * * * WRECK UNKPI* * * * FI21,MED1,R154,SHP1* * * *",
+        "ADDR:FAUCETTE STORE RD",
+        "MADDR:158,FAUCETTE STORE RD",
+        "CITY:LITTLETON",
+        "PLACE:158",
+        "CALL:WRECK UNKPI",
+        "UNIT:FI21,MED1,R154,SHP1");
+
+    doTest("T5",
+        "HalifaxCoE911:* 105 SMOKETREE CT* * * LITTLETON* * * * * FIRE-CHECK* * * * FI21* * * * *",
+        "ADDR:105 SMOKETREE CT",
+        "CITY:LITTLETON",
+        "CALL:FIRE-CHECK",
+        "UNIT:FI21");
+
+    doTest("T6",
+        "HalifaxCoE911:* 130 EAST END AVE* * * LITTLETON* * * * * FIRE-SMOKE* * * * FI21* * * * *",
+        "ADDR:130 EAST END AVE",
+        "CITY:LITTLETON",
+        "CALL:FIRE-SMOKE",
+        "UNIT:FI21");
+
+    doTest("T7",
+        "HalifaxCoE911:* 863 ODELL LITTLETON RD* * * LITTLETON* * * * * WRECK UNKPI* * * EMS1,FI21,MED1* * * * *",
+        "ADDR:863 ODELL LITTLETON RD",
+        "CITY:LITTLETON",
+        "CALL:WRECK UNKPI",
+        "UNIT:EMS1,FI21,MED1");
+
+    doTest("T8",
+        "HalifaxCoE911:* 1515 GOLF COURSE RD* * * LITTLETON* * * * * FIRE-BRUSH* * * FI21* * * * *",
+        "ADDR:1515 GOLF COURSE RD",
+        "CITY:LITTLETON",
+        "CALL:FIRE-BRUSH",
+        "UNIT:FI21");
+
+    doTest("T9",
+        "HalifaxCoE911:* BIG REID RD* * * LITTLETON* * * * * FIRE-BRUSH* * * * F2101,FI21* * * * *",
+        "ADDR:BIG REID RD",
+        "CITY:LITTLETON",
+        "CALL:FIRE-BRUSH",
+        "UNIT:F2101,FI21");
+
+    doTest("T10",
+        "HalifaxCoE911:* HWY 903 // FLEMING DAIR RD* * * LITTLETON* * * * * FIRE-ELEC* * * * FI21* * * * *",
+        "ADDR:HWY 903 & FLEMING DAIR RD",
+        "CITY:LITTLETON",
+        "CALL:FIRE-ELEC",
+        "UNIT:FI21");
   }
 
   public static void main(String[] args) {

@@ -118,6 +118,14 @@ public class PAMercerCountyParserTest extends BaseParserTest {
         "ID:2374687",
         "CALL:SERV",
         "NAME:ERIC MERSHIMER");
+
+    doTest("T14",
+        "\"Mercer 9-1-1\"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 12 STAFFORDSHIRE DR PINE EID: 2377509 TYPE CODE: HF CALLER NAME: MICHELLE GAIMFLEY CALLER ADDR: 109 GEORGE JU",
+        "ADDR:12 STAFFORDSHIRE DR",
+        "CITY:PINE",
+        "ID:2377509",
+        "CALL:House fire",
+        "NAME:MICHELLE GAIMFLEY");
  }
   
   public static void main(String[] args) {
