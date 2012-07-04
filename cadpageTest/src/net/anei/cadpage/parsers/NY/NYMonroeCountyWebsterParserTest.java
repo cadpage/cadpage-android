@@ -73,6 +73,139 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "(Scottsville Amb.) SCOE  B:0310 1  L:19 CHILI AV ,SCO - GROUP HOME T:6D4    X: MALE 50 TROUBLE BREATHING--CLAMMY AND FEVERISH--",
+        "SRC:SCOE",
+        "BOX:0310",
+        "PRI:1",
+        "ADDR:19 CHILI AV",
+        "MADDR:19 CHILI AVE",
+        "CITY:Scottsville",
+        "PLACE:GROUP HOME",
+        "CALL:6D4",
+        "INFO:MALE 50 TROUBLE BREATHING--CLAMMY AND FEVERISH--");
+
+    doTest("T2",
+        "(Scottsville Amb.) SCOE  B:0320 2  L:521 NORTH RD ,SCO - KAYLEIGH STEELLMAN RES T:23C1   X: XFER FROM 211/CLR REQ AMB FOR 19 YO F INTOX, HX OF SUICIDAL TENDENCIES, V IOLENT, NOT ALERT, SOUNDED LIKE SHE WAS BREATHING ABNORMALLY PER 211, F H/U ON 211 ",
+        "SRC:SCOE",
+        "BOX:0320",
+        "PRI:2",
+        "ADDR:521 NORTH RD",
+        "CITY:Scottsville",
+        "PLACE:KAYLEIGH STEELLMAN RES",
+        "CALL:23C1",
+        "INFO:XFER FROM 211/CLR REQ AMB FOR 19 YO F INTOX, HX OF SUICIDAL TENDENCIES, V IOLENT, NOT ALERT, SOUNDED LIKE SHE WAS BREATHING ABNORMALLY PER 211, F H/U ON 211");
+
+    doTest("T3",
+        "SCOE  B:0450 1P L:851 SCOTTSVILLE MUMFORD RD ,WHE T:17D3   X: 71 YO HUSBAND HAS FALLEN / NOT ALERT",
+        "SRC:SCOE",
+        "BOX:0450",
+        "PRI:1P",
+        "ADDR:851 SCOTTSVILLE MUMFORD RD",
+        "CITY:Wheatland",
+        "CALL:17D3",
+        "INFO:71 YO HUSBAND HAS FALLEN / NOT ALERT");
+
+    doTest("T4",
+        "SCOE B:0450 1P L:851 SCOTTSVILLE MUMFORD RD ,WHE T:17D3 X: 71 YO HUSBAND HAS FALLEN / NOT ALERT --",
+        "SRC:SCOE",
+        "BOX:0450",
+        "PRI:1P",
+        "ADDR:851 SCOTTSVILLE MUMFORD RD",
+        "CITY:Wheatland",
+        "CALL:17D3",
+        "INFO:71 YO HUSBAND HAS FALLEN / NOT ALERT --");
+
+    doTest("T5",
+        "SCOE B:0330 4 L:2 RACE ST ,SCO T:26A1 X: 89 YO F/BLADDER INFECTION /PAIN IN URINATION AND BACK PAIN",
+        "SRC:SCOE",
+        "BOX:0330",
+        "PRI:4",
+        "ADDR:2 RACE ST",
+        "CITY:Scottsville",
+        "CALL:26A1",
+        "INFO:89 YO F/BLADDER INFECTION /PAIN IN URINATION AND BACK PAIN");
+
+    doTest("T6",
+        "SCOE B:0330 1 L:385 SCOTTSVILLE MUMFORD RD ,SCO -- SCOF T:TEST X: TESTING SCOE'S TONES, PLEASE DISREGARD AND HAVE A GOOD NIGHT! --",
+        "SRC:SCOE",
+        "BOX:0330",
+        "PRI:1",
+        "ADDR:385 SCOTTSVILLE MUMFORD RD",
+        "CITY:Scottsville",
+        "PLACE:SCOF",
+        "CALL:TEST",
+        "INFO:TESTING SCOE'S TONES, PLEASE DISREGARD AND HAVE A GOOD NIGHT! --");
+
+    doTest("T7",
+        "SCOE B:0310 3 L:724 NORTH RD ,SCO - ROOM 6 T:RBCST X: ,NEED A DRIVER OR A MEDIC TO COMPLETE THE CREW W/ 4M16 - GATES A4569 TAKING THE ALS PORTION --",
+        "SRC:SCOE",
+        "BOX:0310",
+        "PRI:3",
+        "ADDR:724 NORTH RD",
+        "CITY:Scottsville",
+        "PLACE:ROOM 6",
+        "CALL:RBCST",
+        "INFO:,NEED A DRIVER OR A MEDIC TO COMPLETE THE CREW W/ 4M16 - GATES A4569 TAKING THE ALS PORTION --");
+
+    doTest("T8",
+        "SCOE B:0310 1 L:724 NORTH RD ,SCO - ROOM 6 T:6D4 X: 48 YO M - TRBL BREATHING - IS CLAMMY - ALERT --",
+        "SRC:SCOE",
+        "BOX:0310",
+        "PRI:1",
+        "ADDR:724 NORTH RD",
+        "CITY:Scottsville",
+        "PLACE:ROOM 6",
+        "CALL:6D4",
+        "INFO:48 YO M - TRBL BREATHING - IS CLAMMY - ALERT --");
+
+    doTest("T9",
+        "SCOE B:0330 1 L:MAIN ST/RT 251 ,SCO T:29D2N X: CAR TOOK OFF OUT OF COUNTY PARK -- EJECTED ONE OF THE PPL OUT OF THE CAR -- NOW TRYING TO LOAD HER INTO CAR AND LEAVE LOOK TO BE INTOX -- BLU CAR POSS SUBU IMPREZA 4D COMPACT",
+        "SRC:SCOE",
+        "BOX:0330",
+        "PRI:1",
+        "ADDR:MAIN ST & RT 251",
+        "CITY:Scottsville",
+        "CALL:29D2N",
+        "INFO:CAR TOOK OFF OUT OF COUNTY PARK -- EJECTED ONE OF THE PPL OUT OF THE CAR -- NOW TRYING TO LOAD HER INTO CAR AND LEAVE LOOK TO BE INTOX -- BLU CAR POSS SUBU IMPREZA 4D COMPACT");
+
+    doTest("T10",
+        "SCOE B:0320 2 L:NORTH RD/ROCHESTER ST ,SCO - MOBILE GAS STATION T:EMSA X: ODOR OF NATURAL GAS INSIDE THE BLDG - M IN BACK COOKING --",
+        "SRC:SCOE",
+        "BOX:0320",
+        "PRI:2",
+        "ADDR:NORTH RD & ROCHESTER ST",
+        "CITY:Scottsville",
+        "PLACE:MOBILE GAS STATION",
+        "CALL:EMSA",
+        "INFO:ODOR OF NATURAL GAS INSIDE THE BLDG - M IN BACK COOKING --");
+
+    doTest("T11",
+        "SCOE B:0320 4 L:8 GENESEE ST ,SCO - JOHN HOLTZ RES T:26A2 X: 68 YO MALE - SHAKING - POSS HIGH FEVER - COMPS ETA 15 MINS TO LOC --",
+        "SRC:SCOE",
+        "BOX:0320",
+        "PRI:4",
+        "ADDR:8 GENESEE ST",
+        "CITY:Scottsville",
+        "PLACE:JOHN HOLTZ RES",
+        "CALL:26A2",
+        "INFO:68 YO MALE - SHAKING - POSS HIGH FEVER - COMPS ETA 15 MINS TO LOC --");
+
+    doTest("T12",
+        "SCOE B:0320 4 L:498 NORTH RD ,SCO T:7A1 X: 67 YO MALE RADIATOR SPLASHED ANTI FREEZE ON HIM /BURNING ON HIS CHEST AND FACE --",
+        "SRC:SCOE",
+        "BOX:0320",
+        "PRI:4",
+        "ADDR:498 NORTH RD",
+        "CITY:Scottsville",
+        "CALL:7A1",
+        "INFO:67 YO MALE RADIATOR SPLASHED ANTI FREEZE ON HIM /BURNING ON HIS CHEST AND FACE --");
+
+  }
+  
   public static void main(String[] args) {
     new NYMonroeCountyWebsterParserTest().generateTests("T1");
   }
