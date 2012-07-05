@@ -78,9 +78,23 @@ public class ALMadisonCountyParserTest extends BaseParserTest {
         "ADDR:2979 OLD HIGHWAY 431",
         "PLACE:NO NAME: COMMERCIAL & RESIDENTAL APT COMPLEX: @2979 OLD HWY 431",
         "CITY:OWENS CROSS ROADS");
+
+    doTest("T10",
+        "(IPS I/Page Notification) Loc: 124 8TH ST TRI EVT#: C1205250 TYPE: FR TIME: 07:44:04 GRID ID: 2222",
+        "ADDR:124 8TH ST",
+        "CITY:TRIANA",
+        "ID:C1205250",
+        "CALL:FIRE/RESCUE");
+
+    doTest("T11",
+        "(IPS I/Page Notification) Loc: 140 FEARN DR TRI EVT#: C1205345 TYPE: DOM TIME: 19:54:32 GRID ID: 2225",
+        "ADDR:140 FEARN DR",
+        "CITY:TRIANA",
+        "ID:C1205345",
+        "CALL:DOM");
   }
   
   public static void main(String[] args) {
-    new ALMadisonCountyParserTest().generateTests("T9", "ADDR PLACE CITY ID CALL");
+    new ALMadisonCountyParserTest().generateTests("T1", "ADDR PLACE CITY ID CALL");
   }
 }
