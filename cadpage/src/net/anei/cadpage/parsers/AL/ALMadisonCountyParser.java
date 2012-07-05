@@ -29,6 +29,11 @@ Contact: Rick Phillips <rick81997@yahoo.com>
 Sender: cad.page@madco911.com
 Subject:IPS I/Page Notification\nLoc: 2979 OLD HIGHWAY 431 OXRD: @NO NAME: COMMERCIAL & RESIDENTAL APT COMPLEX: alias 2979 OLD HWY 431 EVT
 
+Contact: shamond rice <freefalling2010@gmail.com>
+Sender: cad.page@madco911.com
+(IPS I/Page Notification) Loc: 124 8TH ST TRI EVT#: C1205250 TYPE: FR TIME: 07:44:04 GRID ID: 2222
+(IPS I/Page Notification) Loc: 140 FEARN DR TRI EVT#: C1205345 TYPE: DOM TIME: 19:54:32 GRID ID: 2225
+
  */
 
 
@@ -42,7 +47,8 @@ public class ALMadisonCountyParser extends SmartAddressParser {
       "MDCO",  "MADISON COUNTY",
       "HSV",   "HUNTSVILLE",
       "NEWH",  "NEW HOPE",
-      "OXRD",  "OWENS CROSS ROADS"
+      "OXRD",  "OWENS CROSS ROADS",
+      "TRI",   "TRIANA"
   });
   
   private static final Properties TYPE_CODES = buildCodeTable(new String[]{
