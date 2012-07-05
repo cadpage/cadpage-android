@@ -251,6 +251,262 @@ public class PACambriaCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testActive911A() {
+
+    doTest("T1",
+        "[CAD incident] Date: 07/02/12\n" +
+        "Time: 16:18:01\n" +
+        "Nature: STB-STAND BY\n" +
+        "Add: 237 LINCOLN ST-JO\n" +
+        "Cross: WALNUT ST-JO MORRELL PL-JO DOWNTOW\n" +
+        "9",
+
+        "DATE:07/02/12",
+        "TIME:16:18:01",
+        "CALL:STB-STAND BY",
+        "ADDR:237 LINCOLN ST", 
+        "CITY:JOHNSTOWN",
+        "X:WALNUT ST & MORRELL PL & DOWNTOW",
+        "UNIT:9");
+
+    doTest("T2",
+        "[CAD incident] Date: 07/02/12\n" +
+        "Time: 17:05:40\n" +
+        "Nature: 01A01-Alpha  ABDOMINAL PAIN\n" +
+        "Add: 207 OTTAWA ST-RI\n" +
+        "Cross: ARBUTUS AVE-RI WESLEY DR-RI ZONE 2\n" +
+        "9",
+
+        "DATE:07/02/12",
+        "TIME:17:05:40",
+        "CALL:01A01-Alpha  ABDOMINAL PAIN",
+        "ADDR:207 OTTAWA ST",
+        "CITY:RICHLAND TWP",
+        "X:ARBUTUS AVE & WESLEY DR & ZONE 2",
+        "UNIT:9");
+
+    doTest("T3",
+        "[CAD incident] Date: 07/02/12\n" +
+        "Time: 18:46:33\n" +
+        "Nature: 26A10-Alpha  SICK PERSON\n" +
+        "Add: 428 BELLA VISTA DR-RI\n" +
+        "Cross: GREENWICH RD-RI PAWNEE RD-RI ZONE\n" +
+        "9",
+
+        "DATE:07/02/12",
+        "TIME:18:46:33",
+        "CALL:26A10-Alpha  SICK PERSON",
+        "ADDR:428 BELLA VISTA DR",
+        "CITY:RICHLAND TWP",
+        "X:GREENWICH RD & PAWNEE RD & ZONE",
+        "UNIT:9");
+
+    doTest("T4",
+        "[CAD incident] Date: 07/02/12\n" +
+        "Time: 20:34:15\n" +
+        "Nature: 17D03-Delta FALL\n" +
+        "Add: 3324 ELTON RD-RI\n" +
+        "Cross: GIBBY LN-RI HOOVER ST-RI ZONE 1\n" +
+        "9",
+
+        "DATE:07/02/12",
+        "TIME:20:34:15",
+        "CALL:17D03-Delta FALL",
+        "ADDR:3324 ELTON RD",
+        "CITY:RICHLAND TWP",
+        "X:GIBBY LN & HOOVER ST & ZONE 1",
+        "UNIT:9");
+
+    doTest("T5",
+        "[CAD incident] Date: 07/02/12\nTime: 20:46:25\nNature: ALS-ALS EMS CALL\nAdd: 663 BUNKERHILL RD CENTRAL CITY\nCross: \n9",
+        "DATE:07/02/12",
+        "TIME:20:46:25",
+        "CALL:ALS-ALS EMS CALL",
+        "ADDR:663 BUNKERHILL RD",
+        "CITY:CENTRAL CITY",
+        "UNIT:9");
+
+    doTest("T6",
+        "[CAD incident] Date: 07/02/12\n" +
+        "Time: 20:49:13\n" +
+        "Nature: 09E01-Echo CARDIAC ARREST\n" +
+        "Add: 349 VO TECH DR-RI\n" +
+        "Cross: ELTON RD-RI SCHOOLHOUSE RD-RI ZONE\n" +
+        "9, M381, 3",
+
+        "DATE:07/02/12",
+        "TIME:20:49:13",
+        "CALL:09E01-Echo CARDIAC ARREST",
+        "ADDR:349 VO TECH DR",
+        "CITY:RICHLAND TWP",
+        "X:ELTON RD & SCHOOLHOUSE RD & ZONE",
+        "UNIT:9, M381, 3");
+
+    doTest("T7",
+        "[CAD incident] Date: 07/03/12\nTime: 01:15:05\nNature: NET-NON EMERGENCY TRANSFER\nAdd: LOCAL TRANSFER - A91\nCross: \n9",
+        "DATE:07/03/12",
+        "TIME:01:15:05",
+        "CALL:NET-NON EMERGENCY TRANSFER",
+        "ADDR:LOCAL TRANSFER",
+        "CITY:A91",
+        "UNIT:9");
+
+    doTest("T8",
+        "[CAD incident] Date: 07/03/12\n" +
+        "Time: 05:18:10\n" +
+        "Nature: 30B01-Bravo TRAUMATIC INJURY\n" +
+        "Add: 429 INDUSTRIAL PARK RD-RI\n" +
+        "Cross: OAKRIDGE DR-RI ALLENBILL DR-RI ZON\n" +
+        "9",
+
+        "DATE:07/03/12",
+        "TIME:05:18:10",
+        "CALL:30B01-Bravo TRAUMATIC INJURY",
+        "ADDR:429 INDUSTRIAL PARK RD",
+        "CITY:RICHLAND TWP",
+        "X:OAKRIDGE DR & ALLENBILL DR & ZON",
+        "UNIT:9");
+
+    doTest("T9",
+        "[CAD incident] Date: 07/03/12\n" +
+        "Time: 06:57:07\n" +
+        "Nature: 26D01-Delta  SICK PERSON\n" +
+        "Add: 134 KINZEY ST-GE\n" +
+        "Cross: ALFRED ST-GE BENTWOOD AVE-GE\n" +
+        "9",
+
+        "DATE:07/03/12",
+        "TIME:06:57:07",
+        "CALL:26D01-Delta  SICK PERSON",
+        "ADDR:134 KINZEY ST",
+        "CITY:GEISTOWN",
+        "X:ALFRED ST & BENTWOOD AVE",
+        "UNIT:9");
+
+    doTest("T10",
+        "[CAD incident] Date: 07/03/12\n" +
+        "Time: 07:16:15\n" +
+        "Nature: 10D01-Delta CHEST PAIN\n" +
+        "Add: 202 HUFF ST-ADAM\n" +
+        "Cross: THOMPSON AVE-ADAM ROBERTS AVE-ADAM\n" +
+        "Sta 78, 9",
+
+        "DATE:07/03/12",
+        "TIME:07:16:15",
+        "CALL:10D01-Delta CHEST PAIN",
+        "ADDR:202 HUFF ST",
+        "CITY:ADAMS TWP",
+        "X:THOMPSON AVE-ADAM ROBERTS AVE-ADAM",
+        "UNIT:Sta 78, 9");
+
+    doTest("T11",
+        "[CAD incident] Date: 07/03/12\nTime: 12:44:20\nNature: NET-NON EMERGENCY TRANSFER\nAdd: LOCAL TRANSFER - A93\nCross: \n9",
+        "DATE:07/03/12",
+        "TIME:12:44:20",
+        "CALL:NET-NON EMERGENCY TRANSFER",
+        "ADDR:LOCAL TRANSFER",
+        "CITY:A93",
+        "UNIT:9");
+
+    doTest("T12",
+        "[CAD incident] Date: 07/03/12\n" +
+        "Time: 13:09:09\n" +
+        "Nature: 25A01-Alpha  PSYCHIATRIC PROBLEM\n" +
+        "Add: 207 STONEHEDGE CT-RI\n" +
+        "Cross: WALTERS AVE-RI WALTERS AVE-RI ZONE\n" +
+        "9",
+
+        "DATE:07/03/12",
+        "TIME:13:09:09",
+        "CALL:25A01-Alpha  PSYCHIATRIC PROBLEM",
+        "ADDR:207 STONEHEDGE CT",
+        "CITY:RICHLAND TWP",
+        "X:WALTERS AVE & WALTERS AVE & ZONE",
+        "UNIT:9");
+
+    doTest("T13",
+        "[CAD incident] Date: 07/03/12\n" +
+        "Time: 15:20:30\n" +
+        "Nature: 25A02-Alpha PSYCHIATRIC PROBLEM\n" +
+        "Add: 1425 SCALP AVE-RI\n" +
+        "Cross: EISENHOWER BLVD-RI DWIGHT DR-RI ZO\n" +
+        "9",
+
+        "DATE:07/03/12",
+        "TIME:15:20:30",
+        "CALL:25A02-Alpha PSYCHIATRIC PROBLEM",
+        "ADDR:1425 SCALP AVE",
+        "CITY:RICHLAND TWP",
+        "X:EISENHOWER BLVD & DWIGHT DR & ZO",
+        "UNIT:9");
+
+    doTest("T14",
+        "[CAD incident] Date: 07/03/12\n" +
+        "Time: 15:25:52\n" +
+        "Nature: 12D04-Delta SEIZURES\n" +
+        "Add: 101 CLAIR ST-LO\n" +
+        "Cross: TERRY ST-LO OHIO ST-LO LORAIN BORO\n" +
+        "9, M381",
+
+        "DATE:07/03/12",
+        "TIME:15:25:52",
+        "CALL:12D04-Delta SEIZURES",
+        "ADDR:101 CLAIR ST",
+        "CITY:LORAIN",
+        "X:TERRY ST & OHIO ST & LORAIN BORO",
+        "UNIT:9, M381");
+
+    doTest("T15",
+        "[CAD incident] Date: 07/03/12\n" +
+        "Time: 18:40:18\n" +
+        "Nature: 26A10-Alpha  SICK PERSON\n" +
+        "Add: 349 VO TECH DR-RI\n" +
+        "Cross: ELTON RD-RI SCHOOLHOUSE RD-RI ZONE\n" +
+        "9",
+
+        "DATE:07/03/12",
+        "TIME:18:40:18",
+        "CALL:26A10-Alpha  SICK PERSON",
+        "ADDR:349 VO TECH DR",
+        "CITY:RICHLAND TWP",
+        "X:ELTON RD & SCHOOLHOUSE RD & ZONE",
+        "UNIT:9");
+
+    doTest("T16",
+        "[CAD incident] Date: 07/03/12\n" +
+        "Time: 21:52:49\n" +
+        "Nature: SS-EMS STATION STILL\n" +
+        "Add: 500 GALLERIA DR-RI\n" +
+        "Cross: RT219 NORTH ON RAMP-RI OAKRIDGE DR\n" +
+        "9",
+
+        "DATE:07/03/12",
+        "TIME:21:52:49",
+        "CALL:SS-EMS STATION STILL",
+        "ADDR:500 GALLERIA DR",
+        "CITY:RICHLAND TWP",
+        "X:RT219 NORTH ON RAMP & OAKRIDGE DR",
+        "UNIT:9");
+
+    doTest("T17",
+        "[CAD incident] Date: 07/03/12\n" +
+        "Time: 22:00:08\n" +
+        "Nature: 28C10G-Charlie STROKE\n" +
+        "Add: 122 CARWYN DR-RI\n" +
+        "Cross: WORK DR-RI SCALP AVE-RI ZONE 2\n" +
+        "9",
+
+        "DATE:07/03/12",
+        "TIME:22:00:08",
+        "CALL:28C10G-Charlie STROKE",
+        "ADDR:122 CARWYN DR",
+        "CITY:RICHLAND TWP",
+        "X:WORK DR & SCALP AVE & ZONE 2",
+        "UNIT:9");
+   
+  }
+  
   
   public static void main(String[] args) {
     new PACambriaCountyParserTest().generateTests("T1");
