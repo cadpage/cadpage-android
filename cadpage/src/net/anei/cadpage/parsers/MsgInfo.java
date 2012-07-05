@@ -633,7 +633,7 @@ public class MsgInfo {
     // Generally google ignores appt numbers, but it chokes on one that
     // starts with a #
     ipt = sAddress.lastIndexOf(' ');
-    if (ipt+1 < sAddress.length() && sAddress.charAt(ipt+1) == '#') {
+    if (ipt >= 0 && ipt+1 < sAddress.length() && sAddress.charAt(ipt+1) == '#') {
       sAddress = sAddress.substring(0, ipt).trim();
     }
     return sAddress;
