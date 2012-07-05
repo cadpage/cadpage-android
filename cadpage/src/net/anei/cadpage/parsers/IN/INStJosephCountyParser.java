@@ -53,19 +53,6 @@ Sender: rc.588@c-msg.net
 (NC)[!] CRASH009 G-453 03/23/12 30750 SR 2 HW NC :(56000) LARRISON DRPI
 (NC)[!] COMAL009 G-428 03/23/12 31869 CHICAGO TR NC :(51452) HAMILTON TRGENERAL FIRE-SIMPLEX SECURITY
 
-
-From Brian,
-The 4 digit # before, ME12, PENN4 is the time of dispatch
-
-ME12 is Medic 12, ME11 is Medic 11, etc, 10, 13, 14, 41, 45
-
-PENN4 would be it is in Penn District 4
-No I have NO CLUE why that number is appearing that is new.
-
-As far as the other time trailing not sure on that obviously we have some consistency issues with either the cad or the dispatchers
-
-Looking again some of those numbers are apparatus such as 1660 is an EMS chase car, etc. I am thinking that is what those are
-
 */
 
 
