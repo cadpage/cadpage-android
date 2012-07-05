@@ -95,7 +95,7 @@ public class INWayneCountyParser extends MsgParser {
           loop = true;
         }
       }
-    } while (loop);
+    } while (loop && ndx<flds.length);
     
     for ( ; ndx<flds.length; ndx++) {
       fld = flds[ndx].trim();
