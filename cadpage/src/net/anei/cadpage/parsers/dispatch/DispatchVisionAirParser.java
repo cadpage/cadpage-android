@@ -26,27 +26,39 @@ Stamford, CT
  * 2700 BEDFORD ST* C* * * * 654 STRUCT* * * 203- -* * * * * 5/12/2012 10:11:52 PM : pos2 : SESTABROOK FIRE IN APT C. 5/12/2012 10:11:40 PM : pos2 : SESTABROOK FIRE IN APT C. 5/12/2012 10:10:50 PM : pos2 : SESTABROOK Cross streets: LOCUST LN//HIGH RIDGE RD 5/12/2012 10:10:16 PM : pos2 : SESTABROOK: Cross streets: LOCUST:
  * 243 TRESSER BLVD* * * * * 644 MED LIFE* * MARRIOTT STAMFORD* 203-357-9555* * * * * 06/18/2012 09:23:23 : pos1 : AMSMITH ** EMD Case Complete ** 06/18/2012 09:23:20 : pos1 : AMSMITH ** EMD Recommended Dispatch ** Response Text: Charlie Dispatch Level: 06C01 CAD Incident Code: 06C01 Key Questions: 56 year old, Male, Co
  * 58 E CROSS RD* * * * * 654 STRUCT* * JAMES* 203-595-6454* * * * * 06/18/2012 13:36:31 : pos1 : AMSMITH Cross streets: HOPE ST//HAWKS HILL RD SMELL OF SMOKE OR ELECTRICAL BURNING FROM THE WASHING MACHINE...*
+911Fire:* 42 HALLOWEEN BLVD* * * * * 654 STRUCT* * * 203-667-1756* * * * 7/5/2012 11:54:59 PM : pos11 : AMITCHELL SAFETY OFC WARD RESPONDING, NOT ETA... 7/5/2012 11:53:26 PM : pos11 : AMITCHELL UNIT 4, REQUESTING FIRE MARSHALL, AND SAFETY OFFICER... 7/5/2012 11:50:17 PM : pos8 : CZARMSKY EVACUATED 07/05/2012 23:48:46 : pos12 : JMASTRO E3 RIT TEAM 07/05/2012 23:47:30 : pos4 : LJORDHAMO NUMEROUS CALL..PARTIES ALL OUT 07/05/2012 23:47:10 : pos2 : HFALLON ADVISED TO EVACUATE 07/05/2012 23:47:01 : pos2 : HFALLON ANOTHER CALLER SEE FLAMES IN THE BASEMENT 07/05/2012 23:46:21 : pos3 : MSEMMEL Cross streets: GLEASON AV//SAINT MARYS ST FIRE IN THE BASEMENT*
 
 */
 
 public class DispatchVisionAirParser extends FieldProgramParser {
   
-  private String prefix;
+  private String[] prefixs;
   
   public DispatchVisionAirParser(String prefix, String defCity, String defState) {
+    this(new String[]{prefix}, defCity, defState);
+  }
+  
+  public DispatchVisionAirParser(String[] prefixs, String defCity, String defState) {
     super(defCity, defState,
-           "ADDR APT UNK UNK UNK CALL UNK PLACENAME PHONE UNK UNK UNK UNK EXTRA! INFO+");
-    this.prefix = prefix;
+           "ADDR APT UNK UNK UNK CALL UNK PLACENAME PHONE UNK+? EXTRA! INFO+");
+    this.prefixs = prefixs;
   }
   
   private static final Pattern DELIM = Pattern.compile("(?<!\\*)\\* ");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith(prefix)) return false;
-    body = body.substring(prefix.length()).trim();
+    boolean found = false;
+    for (String prefix : prefixs) {
+      if (body.startsWith(prefix)) {
+        body = body.substring(prefix.length()).trim();
+        found = true;
+        break;
+      }
+    }
+    if (!found) return false;
     if (body.endsWith("*")) body = body.substring(0,body.length()-1).trim();
-    return parseFields(DELIM.split(body), 14, data);
+    return parseFields(DELIM.split(body), 12, data);
   }
   
   private static final Pattern START_STAR_PTN = Pattern.compile("^\\*+");
@@ -58,14 +70,19 @@ public class DispatchVisionAirParser extends FieldProgramParser {
     }
   }
 
-  private static final Pattern EXTRA_MARKER = Pattern.compile("^(\\d?\\d/\\d?\\d/\\d{4}) (\\d?\\d:\\d?\\d:\\d?\\d(?: [AP]M)?) : (pos\\d) : ");
+  private static final Pattern EXTRA_MARKER = Pattern.compile("^(\\d?\\d/\\d?\\d/\\d{4}) (\\d?\\d:\\d?\\d:\\d?\\d(?: [AP]M)?) : (pos\\d+) : ");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
   private static final Pattern CLEANUP_PTN = Pattern.compile("\\*\\* EMD (?:Case Entry Finished|Case Complete|Recommended Dispatch) \\*\\*|\\bResponse Text:|\\bKey Questions:");
   private class BaseExtraField extends Field {
     @Override
-    public void parse(String field, Data data) {
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
       Matcher match = EXTRA_MARKER.matcher(field);
-      if (!match.find()) abort();
+      if (!match.find()) return false;
       data.strDate = match.group(1);
       String time = match.group(2);
       if (time.endsWith("M")) {
@@ -91,6 +108,12 @@ public class DispatchVisionAirParser extends FieldProgramParser {
       }
       field = CLEANUP_PTN.matcher(field).replaceAll("").trim().replaceAll("  +", " ");
       data.strSupp = append(data.strSupp, "\n", field);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
     
     @Override
