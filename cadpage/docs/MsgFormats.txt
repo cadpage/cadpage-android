@@ -1988,6 +1988,11 @@ Structure Fire  117,S RUNNING DEER CIR ;DUDLEY  DUDLEY [76]
 Traffic Accident-Inj    1574,    DURHAM LAKE RD ; DUDLEY  DUDLEY    [68]
 Gas Leak        105,    ROLLINGWOOD CT ;  DUDLEY    DUDLEY    [71]
 ***************************************************************************
+Cass County, ND (NDCassCountyParser)
+Accident - Injury 15605 29 ST SE CAST 02/10/12 16:21 CFS #: 430 10-50 ROLLOVER I  Nature Of Call: 10-50 ROLLOVER I  Nature Of Call: 10-50 ROLLOVER  9500-CASTFIR 6611-CASTAMB 608 8800-CASSRES
+Accident - Injury 102 LANGER AVE S CAST CENEX PETRO SERVE - 102 LANGER AVE S - CAST04/03/12 12:15 CFS #: 967 MEDICAL  Dispatch received by unit 3523 Dispatch received by unit 3518  M WAS HIT BY HIS OWN VEH  Nature Of Call: MEDICAL  9500-CASTFIR 6611-CASTAMB 609 8800-CASSRES
+Residential Fire 321 8 AVE N CAST 03/27/12 20:57 CFS #: 787 RESIDENTIAL FIRE  SMELLS HOT UP IN COMPS DAUGHTERS ROOM  Nature Of Call: RESIDENTIAL FIRE  9501-CASTFIR
+***************************************************************************
 Las Vegas, NV (NVLasVegasParser)
 (SMS) I: 4273738 U: 3901, P: 3, G: 3423, PH: 17 L: 2711 W WINDMILL LN# , B: , AL: PC:, 1A N:1A], 17:07:17 [Geographic Area: 2711 W WINDMILL LN]
 (SMS) I: 4274400 U: 3901, P: 2, G: 3217, PH: 61 L: S DURANGO DR / W MAULE AVE# , B: , AL: PC:, 32B N:32B], 19:02:59 [Geographic Area: S DURANGO
@@ -4749,16 +4754,6 @@ BUSHY HILL RD&OVERLOOK TER TYPE:VR. REPORTED PARTY ENTRAPT
 **********************************************************
 **********************************************************
 **********************************************************
-Cass County, ND
-Contact: scott mcconnell <mcconnellscooter@gmail.com>,7014297950@vzwpix.com
-Sender: dispatch@rrrdc.org
-
-Accident - Injury 15605 29 ST SE CAST 02/10/12 16:21 CFS #: 430 10-50 ROLLOVER I  Nature Of Call: 10-50 ROLLOVER I  Nature Of Call: 10-50 ROLLOVER  9500-CASTFIR 6611-CASTAMB 608 8800-CASSRES
-Accident - Injury 102 LANGER AVE S CAST CENEX PETRO SERVE - 102 LANGER AVE S - CAST04/03/12 12:15 CFS #: 967 MEDICAL  Dispatch received by unit 3523 Dispatch received by unit 3518  M WAS HIT BY HIS OWN VEH  Nature Of Call: MEDICAL  9500-CASTFIR 6611-CASTAMB 609 8800-CASSRES
-Residential Fire 321 8 AVE N CAST 03/27/12 20:57 CFS #: 787 RESIDENTIAL FIRE  SMELLS HOT UP IN COMPS DAUGHTERS ROOM  Nature Of Call: RESIDENTIAL FIRE  9501-CASTFIR
-Residential Fire 411 8 AVE S CAST 06/24/12 13:52 CFS #: 963 RESIDENTIAL FIRE  Nature Of Call: RESIDENTIAL FIRE  ELEMENT IN BASEMENT IT ON FIRE, CAN NOT TURN IT OFF  Nature Of Call: RMF  9500-CASTFIR
-Grass Fire 15556 37 ST SE CAST GORDYS - 15556 37 ST SE - CAST06/27/12 21:32 CFS #: 962 GRASS FIRE  Nature Of Call: GRASS FIRE  9500-CASTFIR
-Vehicle Fire CAST 322 mm I94 CASS W06/18/12 09:15 CFS #: 277 VEH ON FIRE  BLAZER  NO HAZMAT IN VEH.  UNSURE EXACTLY WHICH EXIT.  THINKS 324, BUT COULD BE 322  ON WB OFF RAMP.    FLAMES IN ENG  Nature Of Call: VEH ON FIRE  
 **********************************************************
 Monroe County, NY (alt)
 COntact: Matthew Jarrett <mjarrett@scottsvilleems.org>
