@@ -2557,6 +2557,11 @@ Kanawha County, WV (WVKanawhaCountyParser)
 (Message Forwarded by PageGate)  DECREASED LOC (SEMI-UNRESPONSIVE) reported at 2700 MOUNTAINEER BLVD in SOUTH CHARLESTON on 02/10/12 18:43
 (Message Forwarded by PageGate)  SHORTNESS OF BREATH reported at 5218 1/2 INDIANA ST in SOUTH CHARLESTON on 02/10/12 19:03
 ***************************************************************************
+Mineral County, WV (WVMineralCountyParser)
+S: M: ??? PFD:2012:0140 >2012-06-17 21:14:30 >ALERTED >ODOR UNKNOWN >47 WEST HAMPSHIRE ST, PIEDMONT
+S: M: ??? PFD:2012:0143 >2012-06-24 12:47:25 >ALERTED >CARBON MONOXIDE/ETC-8 >49 1/2 THIRD STREET
+S: M: ??? PFD:2012:0142 >2012-06-23 11:27:29 >ALERTED >TREE DOWN >119 RIORDIN RD WESTERNPORT
+***************************************************************************
 Eau Claire, WI (WIEauClaireParser)
 [Case# 11-253]  @5:23:16 AM // Brunswick // W2250 Rim Rock Rd // Vehicle Fire // vehicle fire, no exposures
 [Case# 11-252]  @7:21:18 PM // Washington // 4940 Meadowbrook Ln // Sounding Fire Alarm // sounding fire alarm, showing 1st & 2nd floor smoke detector
@@ -4743,18 +4748,6 @@ BUSHY HILL RD&OVERLOOK TER TYPE:VR. REPORTED PARTY ENTRAPT
 **********************************************************
 **********************************************************
 **********************************************************
-Mineral County, WV
-Contact: Chris Green <mediccgreen@gmail.com>
-Sender: xdc@mineralcounty911.com
-** WESTERNPORT call is in ALleghany County, PA
-S: M: ??? PFD:2012:0140 >2012-06-17 21:14:30 >ALERTED >ODOR UNKNOWN >47 WEST HAMPSHIRE ST, PIEDMONT
-S: M: ??? PFD:2012:0143 >2012-06-24 12:47:25 >ALERTED >CARBON MONOXIDE/ETC-8 >49 1/2 THIRD STREET
-S: M: ??? PFD:2012:0142 >2012-06-23 11:27:29 >ALERTED >TREE DOWN >119 RIORDIN RD WESTERNPORT
-S: M: ??? PFD:2012:0144 >2012-06-25 18:45:52 >ALERTED >MVA W/INJURIES >RT 46, BETWEEN KEYSER& PIEDMONT
-S: M: ??? PFD:2012:0145 >2012-06-28 18:43:10 >ALERTED >STAND BY >CO 20 STATION
-S: M: ??? PFD:2012:0155 >2012-07-01 11:46:49 >ALERTED >TREE DOWN >322 GREEN ST WESTERNPORT
-S: M: ??? PFD:2012:0154 >2012-07-01 10:46:31 >ALERTED >FIRE GARAGE >OFF OF PLUM RUN RD TO ROGERS DRIVE; 1641 RIDGELEY, RIDGELEY, MNRL WV
-S: M: ??? PFD:2012:0153 >2012-07-01 10:34:47 >ALERTED >UNCONSC/FAINT-31 >57 ERIN ST, PIEDMONT (;)
 **********************************************************
 Cass County, ND
 Contact: scott mcconnell <mcconnellscooter@gmail.com>,7014297950@vzwpix.com
