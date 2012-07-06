@@ -21,8 +21,6 @@ Subject:911 CALL\n20513 HIGHWAY Y  CrossStreets: RHINEHART LN 0.19 mi S REDBUD R
 Subject:911 CALL\n5369 QUINCE RD  CrossStreets: DENNISON LN 0.03 mi E CROW RD 0.71 mi W TA INJURY ESN: pg8 Call Number: 762973
 Subject:911 CALL\n13724 HIGHWAY 43, Apt. 29 TEEPEE MHP CrossStreets: AVALON LN 0.22 mi N LONNIE LN 0.33 mi SW STRUCTURE FIRE-D / MH-PORTABLE OFC 
 Subject:911 CALL\n5156 JESSICA LN  CrossStreets: CROW RD 0.31 mi W FALL ESN: pg6 Call Number: 762520
-Newton County, MO
-Contact: Active911.com
 
 Contact: Active911
 Agency name: Redings Mill Fire District Location: Joplin, MO 
