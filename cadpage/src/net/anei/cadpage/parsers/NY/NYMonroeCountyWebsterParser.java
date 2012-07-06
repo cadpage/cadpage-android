@@ -53,7 +53,7 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
   
   @Override
   public String getFilter() {
-    return "@rednmxcad.com";
+    return "@rednmxcad.com,messaging@iamresponding.com";
   }
 
   @Override
@@ -75,7 +75,7 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "BRI", " BRIGHTON",
+      "BRI", "BRIGHTON",
       "BRO", "BROCKPORT",
       "CHI", "CHILI",
       "CHU", "CHURCHVILLE",
