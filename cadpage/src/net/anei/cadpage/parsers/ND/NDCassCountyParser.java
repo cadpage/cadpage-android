@@ -66,7 +66,7 @@ public class NDCassCountyParser extends SmartAddressParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "CAST", "CASTELTON",
+      "CAST", "CASSELTON",
       "CASS", ""
   });
 }
