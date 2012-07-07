@@ -2,7 +2,7 @@ package net.anei.cadpage.parsers.AL;
 
 import java.util.Properties;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
@@ -37,11 +37,59 @@ Sender: cad.page@madco911.com
  */
 
 
-public class ALMadisonCountyParser extends SmartAddressParser {
+public class ALMadisonCountyParser extends FieldProgramParser {
   
   private static final String CAD_MARKER = "IPS I/Page Notification";
-  private static final String[] KEYWORDS = 
-    new String[]{"EVENT", "Loc", "EVT#", "TYPE", "TIME"};
+  
+  public ALMadisonCountyParser() {
+    super(CITY_TABLE, "MADISON COUNTY", "AL",
+           "EVENT:ID? Loc:ADDR! EVT#:ID TYPE:CALL TIME:TIME GRID_ID:MAP");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "cad.page@madco911.com,rescue1-bounces@rescuesquad.net";
+  }
+
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+   if (! subject.contains(CAD_MARKER)) {
+     if (! body.startsWith(CAD_MARKER + " / ")) return false;
+      body = body.substring(CAD_MARKER.length()+3);
+    }
+   
+    return super.parseMsg(body, data);
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replaceAll(" alias ", " @");
+      Parser p = new Parser(field);
+      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, p.get(": @"), data);
+      data.strPlace = p.get();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT PLACE";
+    }
+  }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCall = convertCodes(field, TYPE_CODES);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CALL")) return new MyCallField();
+    return super.getField(name);
+  }
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "MDCO",  "MADISON COUNTY",
@@ -62,36 +110,4 @@ public class ALMadisonCountyParser extends SmartAddressParser {
       "F/OUTSIDE_FIRE", "OUTSIDE FIRE",
       "F/STRUCTURE",    "STRUCTURE FIRE"
   });
-  
-  public ALMadisonCountyParser() {
-    super(CITY_TABLE, "MADISON COUNTY", "AL");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "cad.page@madco911.com,rescue1-bounces@rescuesquad.net";
-  }
-
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    
-   if (! subject.contains(CAD_MARKER)) {
-     if (! body.startsWith(CAD_MARKER + " / ")) return false;
-      body = body.substring(CAD_MARKER.length()+3);
-    }
-   
-    body = body.replaceAll(" alias ", " @");
-    Properties props = parseMessage(body, KEYWORDS);
-    String sAddr = props.getProperty("Loc");
-    if (sAddr == null) return false;
-    Parser p = new Parser(sAddr);
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, p.get(": @"), data);
-    data.strPlace = p.get();
-    
-    data.strCallId = props.getProperty("EVT#", "");
-    if (data.strCallId.length() == 0) data.strCallId = props.getProperty("EVENT:", "");
-    data.strCall = convertCodes(props.getProperty("TYPE", ""), TYPE_CODES);
-    
-    return true;
-  }
 }
