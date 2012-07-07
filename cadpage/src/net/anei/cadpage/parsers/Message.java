@@ -84,13 +84,13 @@ public class Message {
     Pattern.compile(":(\\d)of(\\d)$")
   };
   private static final Pattern OPT_OUT_PTN = Pattern.compile("TXT STOP.*$");
-  private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
   
   private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
     Pattern.compile("^(?:\\*.*\\*)?([\\w\\.]+@[\\w\\.]+)( +/ +/ +)"),
     Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n"),
     Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?((?:[\\w.!\\-]+|\\\"[\\w.!\\- ]+\\\")@[\\w.]+)[\\s:]"),
-    Pattern.compile("^\\*\\d+: \\*([\\w\\w]+@[\\w\\.]+) +")
+    Pattern.compile("^\\*\\d+: \\*([\\w\\w]+@[\\w\\.]+) +"),
+    Pattern.compile("Fr:(\\S+)\\s+")
   };
   private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)(?:\\n|: )");
   private static final Pattern FRM_TAG_PATTERN = Pattern.compile("\n *FRM:");
@@ -120,6 +120,8 @@ public class Message {
     // Remove leading Fwd: flag
     Matcher match = FWD_HEADER_PTN.matcher(body);
     if (match.find()) body = trimLead(body.substring(match.end()));
+    
+    if (body.startsWith("Pagecopy-")) body = body.substring(9);
     
     // Dummy loop we can break out of
     do {
@@ -246,16 +248,6 @@ public class Message {
           body = trimLead(body.substring(ipt+5));
           break;
         }
-      }
-      
-      /* Decode patterns that look like this
-       * Pagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medical Priority Info] RESPONSE: P1 STA 1
-       */
-      match = PAGECOPY_PATTERN.matcher(body);
-      if (match.find()) {
-        parseAddress = match.group(1);
-        body = trimLead(body.substring(match.end()));
-        break;
       }
       
       /* Decode patterns that look like this
