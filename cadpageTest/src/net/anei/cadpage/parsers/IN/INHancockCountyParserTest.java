@@ -65,6 +65,16 @@ public class INHancockCountyParserTest extends BaseParserTest {
         "MAP:18",
         "UNIT:T71 BCFP1",
         "INFO:Aircraft into a cart; Vietest building");
+
+    doTest("T6",
+        "Lifting Assistance/1549 S JEANNE CT NEW PALESTINE/DEAD END & S FOX COVE BLV/88/ E42 M42 FG2 SCFP1/75 yo male",
+        "CALL:Lifting Assistance",
+        "ADDR:1549 S JEANNE CT",
+        "INFO:75 yo male",
+        "CITY:NEW PALESTINE",
+        "X:DEAD END & S FOX COVE BLV",
+        "MAP:88",
+        "UNIT:E42 M42 FG2 SCFP1");
   }
   
   @Test

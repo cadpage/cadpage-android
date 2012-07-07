@@ -20,14 +20,16 @@ public class ALMadisonCountyParserTest extends BaseParserTest {
         "CITY:MADISON COUNTY",
         "PLACE:URGENT MEDCARE",
         "ID:C1009726",
-        "CALL:MEDICAL");
+        "CALL:MEDICAL",
+        "TIME:13:36:55");
         
     doTest("T2",
         "IPS I/Page Notification / Loc: 2525 OLD RAILROAD BED RD MDCO EVT#: C1009579 TYPE: M TIME: 16:53:25",
         "ADDR:2525 OLD RAILROAD BED RD",
         "CITY:MADISON COUNTY",
         "ID:C1009579",
-        "CALL:MEDICAL");
+        "CALL:MEDICAL",
+        "TIME:16:53:25");
   
     doTest("T3",
         "IPS I/Page Notification / Loc: HIGHWAY 53/KELLY SPRING RD HSV: alias HWY 53/KELLY SPRING EVT#: C1009577 TYPE: MVA/I TIME: 14:12:44",
@@ -35,35 +37,40 @@ public class ALMadisonCountyParserTest extends BaseParserTest {
         "CITY:HUNTSVILLE",
         "PLACE:HWY 53/KELLY SPRING",
         "ID:C1009577",
-        "CALL:MVA W/ INJURY");
+        "CALL:MVA W/ INJURY",
+        "TIME:14:12:44");
     
     doTest("T4",
         "IPS I/Page Notification / Loc: 101 VASSER CIR MDCO EVT#: C1009575 TYPE: M TIME: 13:54:54",
         "ADDR:101 VASSER CIR",
         "CITY:MADISON COUNTY",
         "ID:C1009575",
-        "CALL:MEDICAL");
+        "CALL:MEDICAL",
+        "TIME:13:54:54");
     
     doTest("T5",
         "IPS I/Page Notification / Loc: 106 CHESAPEAKE BLVD MDCO EVT#: C1009490 TYPE: M TIME: 16:04:25",
         "ADDR:106 CHESAPEAKE BLVD",
         "CITY:MADISON COUNTY",
         "ID:C1009490",
-        "CALL:MEDICAL");
+        "CALL:MEDICAL",
+        "TIME:16:04:25");
     
     doTest("T6",
         "IPS I/Page Notification / Loc: 120 EMERALD DR MDCO EVT#: C1009484 TYPE: M TIME: 12:07:46",
         "ADDR:120 EMERALD DR",
         "CITY:MADISON COUNTY",
         "ID:C1009484",
-        "CALL:MEDICAL");
+        "CALL:MEDICAL",
+        "TIME:12:07:46");
     
     doTest("T7",
         "(IPS I/Page Notification) EVENT: E1105513 Loc: 116 DRYSDALE DR MDCO EVT#: E1105513 TYPE: M TIME: 08:48:15",
         "ADDR:116 DRYSDALE DR",
         "CITY:MADISON COUNTY",
         "ID:E1105513",
-        "CALL:MEDICAL");
+        "CALL:MEDICAL",
+        "TIME:08:48:15");
 
     doTest("T8",
         "(R1 IPS I/Page Notification) Loc: TIMBERLANE AV NW/POPLAR AV NW HSV  EVT#: E1120841 TYPE: MVA/E TIME: 13:42:06",
@@ -71,7 +78,8 @@ public class ALMadisonCountyParserTest extends BaseParserTest {
         "MADDR:TIMBERLANE AVE NW & POPLAR AVE NW",
         "CITY:HUNTSVILLE",
         "ID:E1120841",
-        "CALL:MVA W/ ENTRAPMENT");
+        "CALL:MVA W/ ENTRAPMENT",
+        "TIME:13:42:06");
 
     doTest("T9",
         "Subject:IPS I/Page Notification\nLoc: 2979 OLD HIGHWAY 431 OXRD: @NO NAME: COMMERCIAL & RESIDENTAL APT COMPLEX: alias 2979 OLD HWY 431 EVT",
@@ -84,17 +92,21 @@ public class ALMadisonCountyParserTest extends BaseParserTest {
         "ADDR:124 8TH ST",
         "CITY:TRIANA",
         "ID:C1205250",
-        "CALL:FIRE/RESCUE");
+        "CALL:FIRE/RESCUE",
+         "TIME:07:44:04",
+         "MAP:2222");
 
     doTest("T11",
         "(IPS I/Page Notification) Loc: 140 FEARN DR TRI EVT#: C1205345 TYPE: DOM TIME: 19:54:32 GRID ID: 2225",
         "ADDR:140 FEARN DR",
         "CITY:TRIANA",
         "ID:C1205345",
-        "CALL:DOM");
+        "CALL:DOM",
+        "TIME:19:54:32",
+        "MAP:2225");
   }
   
   public static void main(String[] args) {
-    new ALMadisonCountyParserTest().generateTests("T1", "ADDR PLACE CITY ID CALL");
+    new ALMadisonCountyParserTest().generateTests("T1", "ADDR PLACE CITY ID CALL TIME");
   }
 }
