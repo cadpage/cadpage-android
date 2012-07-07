@@ -6,6 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.C2DMReceiver;
+import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.donation.DeveloperToolsManager;
@@ -125,9 +126,11 @@ public class VendorManager {
    * @param context current context
    */
   void reconnect(Context context) {
-    boolean register = false;
-    for (Vendor vendor : vendorList) {
-      if (vendor.reconnect(context, register)) register = true;;
+    
+    // Used to be more complicated.  Now we just request a new registration ID
+    // if one already exists
+    if (ManagePreferences.registrationId() != null) {
+      C2DMReceiver.register(context);
     }
   }
   

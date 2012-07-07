@@ -3006,9 +3006,6 @@ Contact:Mario Orlassino <morlassi@gmail.com>
 Sender: bfc-alert@bfc1.net
 System: Alarm Data Interface
 RESCUE-AMBULANCE\n18:09\n06/01/11\nELDERLY FEMALE-STROKE\n3 BALDWIN BLVD\nBAYARD AVE / KNOLLWOOD AVE\nMAP 6-C\nRESCUE-AMBULANCE \n16:19 \n06/13/11 \nMALE DIZZY \n80 GODFREY AVE \nMOUNTAIN AVE / MURRAY ST \nMAP 17-B \nGENERAL-WIRE \n19:07 \n06/14/11 \nWIRES BURNING POLE TO POLE \n122 BAYVILLE AVE \nSCHOOL ST / GARDEN ST \nMAP 7-A \n
-Contact: "Andrew Moreno" <a_moreno@verizon.net>
-Sender: 2ndSignal@secondsignal.com
-(* ) RESCUE\n7:29 PM\n181 MEADOWBROOK ROAD\nMERRICK\nAKEL CT\nWILLIS AVE\nMALE IN PAIN/PREVIOUS MVA\n1-516-324-2379   support@2sig.com
 **********************************************************
 Harris County, TX
 Contact: Nathan Mathews <nbmathews807@gmail.com>
@@ -4733,7 +4730,14 @@ Rensseleaer County, NY
 Contact: "David R. Young JR." <dave@impressions-dj.com>, 5183658048@messaging.sprintpcs.com
 DELTA DETERMINATE DIABETIC PROBLEM, 17 ARBOR DR -29
 **********************************************************
-**********************************************************
+Nassau County, NY (alternate)
+Contact: "Andrew Moreno" <a_moreno@verizon.net> (old)
+Sender: 2ndSignal@secondsignal.com
+(* ) RESCUE\n7:29 PM\n181 MEADOWBROOK ROAD\nMERRICK\nAKEL CT\nWILLIS AVE\nMALE IN PAIN/PREVIOUS MVA\n1-516-324-2379   support@2sig.com
+
+Contact: "Starkie, James" <james.starkie@richmond.edu>
+Sender: 2ndSignal@2sig.com
+(*) RESCUE\r\n12:06 PM\r\n128 HEWLETT AVE N\r\nMERRICK\r\nSMITH ST\r\nLOINES AVE\r\nDR GOLDSTEINS OFFICE-CHEST PAIN\r\n1-516-324-2379   pport@2sig.com
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4785,6 +4789,18 @@ HOPMEADOW ST&WOODLAND ST TYPE:PA Truck hit telephone pole south of Woodland Stre
 4 BROOK RIDGE TYPE:FA CALLED IN BY ALARM COMPANY
 12 CRANE PL TYPE:LS life star, end of cul de sac
 BUSHY HILL RD&ALBANY TNPK TYPE:VR mva rollover w/extrication
+**********************************************************
+Olmstead County, MN
+Contact: Joe Manning <jlmanning@gmail.com>
+Sender: @rochestermn.gov
+(Main St N 20 ST NW) Two vehicle Accident with injuries, neck and head pain\r\n\r\nJeff Wellik\r\nPublic Safety Communications\r\nRochester Police/Olmsted County Sh
+(4639 grove st se) Elderly male stroke symptoms, blurred vision weak legs
+(200 lakeshore dr nw) Med
+(200 lakeshore dr nw  florence park) medical
+(500 6 st ne) Medical
+(6220 70 ST SW) Male with chest pains  6220 70 ST SW
+(medical 1106 Sunrise Ct SE  baby with siezure)
+(101 schumann dr nw) GRASS FIRE ON W SIDE OF KWIK TRIP
 **********************************************************
 **********************************************************
 Contact: Active911

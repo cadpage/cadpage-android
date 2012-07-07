@@ -4,6 +4,7 @@ import net.anei.cadpage.C2DMReceiver;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import android.app.Activity;
+import android.widget.Toast;
 
 /*
 I have an authorization code
@@ -34,6 +35,20 @@ public class MagicWordEvent extends DonateQueryEvent {
     // Special word that nobody knows about that will reset the C2DM registration code
     if (input.equalsIgnoreCase("ZAPIT")) {
       C2DMReceiver.unregister(activity);
+      return true;
+    }
+    
+    // More special words to enable and disable GCM registration
+    if (input.equalsIgnoreCase("GCMON")) {
+      ManagePreferences.setGcmEnabled(true);
+      Toast.makeText(activity, "GCM Enabled", Toast.LENGTH_LONG).show();
+      C2DMReceiver.register(activity);
+      return true;
+    }
+    if (input.equalsIgnoreCase("GCMOFF")) {
+      ManagePreferences.setGcmEnabled(false);
+      Toast.makeText(activity, "GCM Disabled", Toast.LENGTH_LONG).show();
+      C2DMReceiver.register(activity);
       return true;
     }
     

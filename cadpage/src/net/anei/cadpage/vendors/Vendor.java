@@ -322,7 +322,7 @@ abstract class Vendor {
     
     // If already enabled, we don't have to do anything
     if (enabled) {
-      reconnect(context, false);
+      sendReregister(context, ManagePreferences.registrationId());
       return;
     }
 
@@ -384,7 +384,10 @@ abstract class Vendor {
       // If we got a discovery URI from the vendor, send directly to that
       // It isn't our problem if it isn't accepted
       if (discoverUri != null) {
-        Uri uri = discoverUri.buildUpon().appendQueryParameter("CadpageRegId", registrationId).build();
+        Uri uri = discoverUri.buildUpon()
+            .appendQueryParameter("type", ManagePreferences.gcmEnabled() ? "GCM" : "C2DM")
+            .appendQueryParameter("CadpageRegId", registrationId)
+            .build();
         HttpService.addHttpRequest(context, new HttpRequest(uri){});
       } 
       
@@ -399,27 +402,9 @@ abstract class Vendor {
     
     // Otherwise, if we are registered with this server, pass the new registration
     // ID to them
-    else if (enabled) {
+    else if (enabled || broken) {
       sendReregister(context, registrationId);            
     }
-  }
-
-  /**
-   * Send current registration ID to vendor
-   * @param context current context
-   * @param registerRequested true if previous vendor requested a new registration ID
-   * @param returns true if we requested new registration ID
-   */
-  boolean reconnect(Context context, boolean registerRequested) {
-    if (enabled || broken) {
-      String registrationId = ManagePreferences.registrationId();
-      if (registrationId == null && !registerRequested) {
-        if (!C2DMReceiver.register(context)) showNotice(context, R.string.vendor_reg_failure_msg, null);
-        return true;
-      }
-      sendReregister(context, registrationId);
-    }
-    return false;
   }
   
   /**
@@ -447,12 +432,15 @@ abstract class Vendor {
         boolean newStat = ((status / 100) == 2);
         
         // A 299 response indicates that the server has been having trouble with our registration ID
-        // and we should request another one.  Actually all we do is unregister the one we have.  Once
-        // the unregister is acknowledged, an new registration will be automatically requested
-        if (status == 299) C2DMReceiver.unregister(context);
+        // and we should request another one.
+        if (status == 299) C2DMReceiver.register(context);
         
         // If nothing has changed, all is well
         if (enabled == newStat) return;
+        
+        // If we are using the new GCM protocol, it has it's own way of getting the new registration ID
+        // to our servers.  So we don't have to do anything drastic if the reregister request fails
+        if (enabled && ManagePreferences.gcmEnabled()) return;
         
         // If response was successful, we don't care about any details
         enabled = newStat;
@@ -515,7 +503,7 @@ abstract class Vendor {
     if (account != null) builder = builder.appendQueryParameter("account", account);
     if (token != null) builder = builder.appendQueryParameter("token", token);
     if (phone != null) builder = builder.appendQueryParameter("phone", phone);
-    builder = builder.appendQueryParameter("type", "C2DM");
+    builder = builder.appendQueryParameter("type", ManagePreferences.gcmEnabled() ? "GCM" : "C2DM");
     if (registrationId != null) builder = builder.appendQueryParameter("CadpageRegId", registrationId);
     builder.appendQueryParameter("version", getClientVersion());
     

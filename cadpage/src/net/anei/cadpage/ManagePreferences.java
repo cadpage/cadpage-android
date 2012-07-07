@@ -705,6 +705,21 @@ public class ManagePreferences {
     prefs.putString(R.string.pref_registration_id_key, regId);
   }
   
+  public static boolean gcmEnabled() {
+    return prefs.getBoolean(R.string.pref_gcm_enabled_key);
+  }
+  
+  public static void setGcmEnabled(boolean value) {
+    prefs.putBoolean(R.string.pref_gcm_enabled_key, value);
+  }
+  
+  public static boolean newVersion(int versionCode) {
+    int prevVersion = prefs.getInt(R.string.pref_prev_version_code, 0);
+    if (versionCode == prevVersion) return false;
+    prefs.putInt(R.string.pref_prev_version_code, versionCode);
+    return true;
+  }
+  
   public static String ledColor() {
     return prefs.getString(R.string.pref_flashled_color_key, R.string.pref_flashled_color_default);
   }
@@ -842,7 +857,9 @@ public class ManagePreferences {
         R.string.pref_auth_last_date_key,
         R.string.pref_auth_run_days_key,
         
-        R.string.pref_registration_id_key
+        R.string.pref_registration_id_key,
+        R.string.pref_gcm_enabled_key,
+        R.string.pref_prev_version_code
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();

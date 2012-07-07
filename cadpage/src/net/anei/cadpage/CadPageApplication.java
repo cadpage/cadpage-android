@@ -37,6 +37,13 @@ public class CadPageApplication extends Application {
       // Restore any pending SMS message merges
       SmsMsgAccumulator.setup(this);
       
+      // If a new version of Cadpage has been installed
+      // we are supposed request a new GCM registration ID
+      if (ManagePreferences.newVersion(versionCode) &&
+          ManagePreferences.registrationId() != null) {
+        C2DMReceiver.register(this);
+      }
+      
     } catch (Exception ex) {
       TopExceptionHandler.initializationFailure(this, ex);
     }

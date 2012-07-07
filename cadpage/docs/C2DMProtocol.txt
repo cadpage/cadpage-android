@@ -43,14 +43,14 @@ req=profile    request by user for specific information about their account
     account         Account number/string reported in REGISTER request to device
     phone           Phone number reported in REGISTER request to device
     token           Security token reported in REGISTER request to device
-    type            C2DM for now (Another code my be used in future for Apple Push connections)
+    type            GCM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    New Cadpage registration ID
 
     This will come from a web browser, you can do any interaction you want with it
 
 req=register - initial user request to register phone
     phone           Phone number if we have it (for Android tablets we probably will not)
-    type            C2DM for now (Another code my be used in future for Apple Push connections)
+    type            GCM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    Cadpage registration ID, this is what you need to send messages to this device
     version         Cadpage client version
 
@@ -66,7 +66,7 @@ req=reregister  Used by Cadpage to report a change to the device registration ID
     account         Account number/string reported in REGISTER request to device
     phone           Phone number reported in REGISTER request to device
     token           Security token reported in REGISTER request to device
-    type            C2DM for now (Another code my be used in future for Apple Push connections)
+    type            GCM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    New Cadpage registration ID
     version         Cadpage client version
     
@@ -83,7 +83,7 @@ req=unregister     Used by Cadpage to inidicate user request to unregister their
     account         Account number/string reported in REGISTER request to device
     phone           Phone number reported in REGISTER request to device
     token           Security token reported in REGISTER request to device
-    type            C2DM for now (Another code my be used in future for Apple Push connections)
+    type            GCM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    New Cadpage registration ID
     version         Cadpage client version
     
@@ -92,12 +92,13 @@ req=unregister     Used by Cadpage to inidicate user request to unregister their
     If user is not registered with your service, you should send an req=unregister
     request to the registration ID that is passed.
     
-Once you have a Cadpage registration ID, you can send messages to the device.  The
-technical details are explained at http://code.google.com/android/c2dm/
+Once you have a GCM registration ID, you can send messages to the device.  The
+technical details are explained at http://developer.android.com/guide/google/gcm/index.html
 
-You have to use
-account: alerts@cadpage.org
-password: c@dpagealerts
+You will have to use a Google server ID which will only be good for a selected 
+list of server IP addresses.  Different vendors get different server ID's.  To get yours
+email Cadpage support with a list of server IP addresses that will be using.  This can be
+a block of addresses such as 196.78.5.0/24.
 
 The message you send to Cadpage consists of set of name/value pairs.  The name
 keywords Cadpage will look for are
@@ -221,6 +222,41 @@ so we can't tell if it starts with *CADPAGEQ*.
 Note that none of these will work if the pages is relayed through another
 messaging service that adds it's own message headers. 
 
+
+**** Migration from older C2DM implementation
+
+GCM technical documenation can be found at http://developer.android.com/guide/google/gcm/index.html
+
+Primary differences are ...
+1) The request should be sent to a new endpoint: https://android.googleapis.com/gcm/send.
+2) The Authorization header of the request should contain the API key generated during sign up. 
+   This key replaces the deprecated ClientLogin Auth token.  We generate this key for you, send
+   us a request including the IP address(s) or address blocks of the servers that will be
+   generating GCM messages
+3) Server may report that a registration ID has been invalidated and replaced with a new one.  
+   You need to retain and use the new registration ID for this device
+4) You can now send one page to up to 1000 devices with one request
+5) You should drop the collapse_key parameter.  This makes turns the request into a message with 
+   payload request.  Maximum message size has been increased to 4KB.
+6) JSON format is supported
+
+The basic Cadpage protocol is about the same except that we pass a type field with "GCM" 
+instead of "C2DM".  You must keep track of which one you got and use
+the the appropriate Google messaging protocol to communicate with that device
+
+The current releases of Cadpage default to C2DM functionality.  You can change this by
+selecting Settings > Payment Status > I have an authorization code
+and enterring GCMON to enable GCM messaging and GCMOFF to disable it
+
+Once CodeMessaging and Active911 have GCM implemented, I will release a version of Cadpage
+that only does GCM communications. it will still be a while before
+all existing Cadpage users migrate to it, so C2DM communication will need to be supported 
+for some time.  It will be appropriate, and proper, to return an error screen for register
+requests, asking users to install the most recent version of Cadpage first.
+
+It will also be possible to scan your tables for users still registered under the old C2DM 
+protocol and send them a C2DM message advising them to install the latest version of Cadpage, 
+possibly warning that support for older versions of Cadpage will be dropped at some future date
 
 **** Finance issues:
 

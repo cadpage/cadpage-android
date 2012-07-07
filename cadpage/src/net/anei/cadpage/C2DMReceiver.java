@@ -42,6 +42,7 @@ public class C2DMReceiver extends BroadcastReceiver {
   private static final String ACTION_C2DM_REGISTERED = "com.google.android.c2dm.intent.REGISTRATION";
   private static final String ACTION_C2DM_RECEIVE = "com.google.android.c2dm.intent.RECEIVE";
   private static final String C2DM_SENDER_EMAIL = "alerts@cadpage.org";
+  private static final String GCM_PROJECT_ID = "1027194726673";
   
   private static Activity curActivity = null;
 
@@ -176,7 +177,7 @@ public class C2DMReceiver extends BroadcastReceiver {
     
     // Reconstruct message from data from intent fields
     String from = intent.getStringExtra("from");
-    if (from == null) from = "C2DM";
+    if (from == null) from = "GCM";
     String subject = intent.getStringExtra("subject");
     if (subject == null) subject = "";
     String location = intent.getStringExtra("format");
@@ -289,7 +290,7 @@ public class C2DMReceiver extends BroadcastReceiver {
   public static boolean register(Context context) {
     Intent intent = new Intent(ACTION_C2DM_REGISTER);
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
-    intent.putExtra("sender", C2DM_SENDER_EMAIL);
+    intent.putExtra("sender", ManagePreferences.gcmEnabled() ? GCM_PROJECT_ID : C2DM_SENDER_EMAIL);
     return context.startService(intent) != null;
   }
 
