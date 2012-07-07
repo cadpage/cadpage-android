@@ -9,6 +9,12 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("MISaginawCounty",
+        "Pagecopy-LOC:255 N MAIN DESC:RM 7-A 93/F FELL HIP PAIN APT: TYP:*M*SICK PERSON IN PROGRESS",
+        "ken@cadpage.org",
+        "",
+        "LOC:255 N MAIN DESC:RM 7-A 93/F FELL HIP PAIN APT: TYP:*M*SICK PERSON IN PROGRESS");
+    
     doParseTest("PAJeffersonCounty",
         "prvs=0518956c10=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Fire - Alarm 251 S PENN STREET EXT Punxsutawney DEAD END / CLIFF ST 20-A Snyder Hill",
         "dispatch@jeffersoncountypa.com",

@@ -121,6 +121,53 @@ public class MISaginawCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "Pagecopy-LOC:255 N MAIN DESC:RM 7-A 93/F FELL HIP PAIN APT: TYP:*M*SICK PERSON IN PROGRESS",
+        "ADDR:255 N MAIN",
+        "INFO:RM 7-A 93/F FELL HIP PAIN",
+        "CALL:SICK PERSON IN PROGRESS");
+
+    doTest("T2",
+        "Pagecopy-LOC:W WASHINGTON / S 1ST DESC:MOTORCYCLE DRIVER APT: TYP:*M*INJURY ACCIDENT JUST OCCD FIRE",
+        "ADDR:W WASHINGTON & S 1ST",
+        "INFO:MOTORCYCLE DRIVER",
+        "CALL:INJURY ACCIDENT JUST OCCD FIRE");
+
+    doTest("T3",
+        "Pagecopy-LOC:10189 SARLE RD DESC:GRASS FIRE APT: TYP:*M*FIRE OUTSIDE",
+        "ADDR:10189 SARLE RD",
+        "INFO:GRASS FIRE",
+        "CALL:FIRE OUTSIDE");
+
+    doTest("T4",
+        "Pagecopy-LOC:SARLE RD / WEBSTER DESC:ON SARLE BTW WEBSTER/CARTER APT: TYP:*M*WIRE DOWN ARCING",
+        "ADDR:SARLE RD & WEBSTER",
+        "INFO:ON SARLE BTW WEBSTER/CARTER",
+        "CALL:WIRE DOWN ARCING");
+
+    doTest("T5",
+        "Pagecopy-LOC:CARTER RD / MIDLAND RD DESC:JUST N OF INT - 31 FE HEAT STROKE APT: TYP:*M*SICK PERSON IN PROGRESS",
+        "ADDR:CARTER RD & MIDLAND RD",
+        "INFO:JUST N OF INT - 31 FE HEAT STROKE",
+        "CALL:SICK PERSON IN PROGRESS");
+
+    doTest("T6",
+        "Pagecopy-LOC:CARTER RD / SARLE RD DESC:UPDATED INFO -POSS AT ADMIRAL APT: TYP:*M*SICK PERSON IN PROGRESS",
+        "ADDR:CARTER RD & SARLE RD",
+        "INFO:UPDATED INFO -POSS AT ADMIRAL",
+        "CALL:SICK PERSON IN PROGRESS");
+
+    doTest("T7",
+        "Pagecopy-LOC:10340 MIDLAND RD DESC:ASSIST PD W/ENTRY APT: TYP:*M*MUTUAL AID",
+        "ADDR:10340 MIDLAND RD",
+        "INFO:ASSIST PD W/ENTRY",
+        "CALL:MUTUAL AID");
+
+  }
+  
   public static void main(String[] args) {
     new MISaginawCountyParserTest().generateTests("T1");
   }
