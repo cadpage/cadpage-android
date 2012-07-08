@@ -1095,6 +1095,11 @@ Litchfield County, CT (CTLitchfieldCountyParser)
 (LCD) MEDIC 4 RESPOND TO 70 CHAPEL HILL RD   SHERMAN, , 92Y M DIFF BREATH, 6-D-2 :12:36
 (LCD) MEDIC 4 RESPOND TO  WELLERS BRIDGE RD   HEMLOCK ROXBURY, ,   TRAFFIC ACCIDENT,  :10:44
 ***************************************************************************
+Middlesex County, CT (CTMiddlesexCountyParser)
+(DURHAM FIRE CALL CAD Page for CFS 061312-31) \nhttp://maps.google.com/maps?q=+41.48618%20-72.65719\nFire Alarm\n18 WEATHERVANE HILL\nApt: \nDH       \nCross Streets : MAIDEN LANE \nCaller: ADT OP YSG\nDisp Time: 06/13/12 11:36:52
+(DURHAM FIRE CALL CAD Page for CFS 061312-47) \nhttp://maps.google.com/maps?q=+41.44852%20-72.70119\nFire Alarm\n471 NEW HAVEN RD\nApt: \nDH       \nCross Streets : SAW MILL RD * CANTERBURY DR \nCaller: \nDisp Time: 06/13/12 18:03:43
+(DURHAM FIRE CALL CAD Page for CFS 061412-5) \nhttp://maps.google.com/maps?q=+41.48025%20-72.66325\nUnconcious/Unresponsive ALS\nMAIDEN LANE and BEAR ROCK RD\nApt: \nDH       \nCross Streets : SYCAMORE DR * MAIDEN LANE \nCaller: ATTMO\nDisp Time: 06/14/12 04:22:21
+***************************************************************************
 Montville, CT (CTMontvilleParser)
 (Imc Solutions Page) MOTOR VEHICLE ACCIDENT\nCUMBERLAND FARMS\n863 NORWICH NEW LONDON TPKE \nMONTVILLE\nFire District: MFD1\n5/24/2012 18:17
 (Imc Solutions Page) STRUCTURE FIRE\nVILLAGE APARTMENTS, LLC\n82 JEROME RD \nMONTVILLE\nFire District: MFD1\n6/2/2012 16:36

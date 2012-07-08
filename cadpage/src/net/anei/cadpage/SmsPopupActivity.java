@@ -544,7 +544,7 @@ public class SmsPopupActivity extends Activity {
         ttsInitialized = true;
         speakMessage();
       } else {
-        Toast.makeText(SmsPopupActivity.this, R.string.error_message, Toast.LENGTH_SHORT);
+        Toast.makeText(SmsPopupActivity.this, R.string.error_message, Toast.LENGTH_SHORT).show();
       }
     }
   };
