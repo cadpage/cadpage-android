@@ -2442,6 +2442,11 @@ Harris County NWEMS, TX (TXHarrisCountyNWEMSParser)
   / * 28602 TOMBALL PKWY* * * * * 19D04* HEART PROBLEMS-Clammy* * * M-1* * * * *
   / * 502 JAMES ST* * * * * 17A01* FALL - Not Dangerous* * * M-1* * * * *
 *******************************************************************************
+Hays County, TX (TXHaysCountyParser)
+(Alarm - ESD6FIRE - SEIZURES) ESD6 RESPOND TO 14030 N GREEN HILLS LOOP FOR SEIZURES DET CODE: 12D02
+(Alarm - ESD6FIRE - HEMORRHAGE / LAC) ESD6 RESPOND TO 1150 ENCHANTED OAKS DR FOR HEMORRHAGE / LAC DET CODE: 21B01
+(Alarm - ESD6FIRE - BREATHING PROBLEMS) ESD6 RESPOND TO 191 CANTERBURY DR [AUSTIN FOR BREATHING PROBLEMS DET CODE: 06D02
+*******************************************************************************
 Humble TX (TXHumbleParser)
 [AVFD EMS] - Cardiac -- 17111 Dawn Shadows Dr, Humble -- Map: 376H- -- Xst's: Forest Rain Ln Old Arbor -- Units: E-M29 -- 201105590
 [AVFD EMS] - Diabetic Emergency -- 5310 Moonshadows Dr, Humble -- Map: 337S- -- Xst's: Pocito Ct Wellswood Ct -- Units: E-M29 -- 201105542
@@ -4837,3 +4842,4 @@ Sender: rc.439@c-msg.net
 (VEST) [VEST] ASSIS004 12 Ic# 22 ASSIS004 Ds# 121002 Al# 1 Utl# 4-34 06/30/1213279 ADAMS RD HA <> CHERRY FARM TRVEST REQUESTED BY SJCPD FOR TREE IN THE ROADWAY 1754
 (VEST) [VEST] CRASH012 12 Ic# 28 CRASH012 Ds# 130001 Al# 1 Utl# G-115 07/04/121800 W LINCOLNWAY HW OS <> N PEONY AVHEAD ON CRASH 2244
 (VEST) [VEST] CRASH004 12 Ic# 37 CRASH004 Ds# 121001 Al# 1 Utl# G-2 07/04/1250585 SR 23 HW HA <> BIRCH RDROLLOVER NO ENTRAPMENT 2317
+**********************************************************
