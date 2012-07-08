@@ -103,17 +103,17 @@ public class DispatchA7BaseParser extends FieldProgramParser {
    * @return name of city
    */
   protected String getCity(String cityCode) {
-    Matcher match = CITY_CODE_PTN.matcher(cityCode);
-    if (match.matches()) {
-      int iCity = Integer.parseInt(match.group(1));
-      iCity = iCity - initCityIndex;
-      if (iCity < 0 || iCity >= cityIndex.length) return "";
-      return cityIndex[iCity];
-    } else if (cityCodes != null) {
-      return convertCodes(cityCode, cityCodes);
-    } else {
-      return cityCode;
+    if (cityIndex != null) {
+      Matcher match = CITY_CODE_PTN.matcher(cityCode);
+      if (match.matches()) {
+        int iCity = Integer.parseInt(match.group(1));
+        iCity = iCity - initCityIndex;
+        if (iCity < 0 || iCity >= cityIndex.length) return "";
+        return cityIndex[iCity];
+      }
     }
+    if (cityCodes != null) return convertCodes(cityCode, cityCodes);
+    return cityCode;
   }
   private static final Pattern CITY_CODE_PTN = Pattern.compile("(\\d{2})\\b.*");
   
