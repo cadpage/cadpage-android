@@ -285,7 +285,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     if (name.equals("CALL2")) return new Call2Field();
     if (name.equals("MUTUAL")) return new MutualField();
     if (name.equals("SRC")) return new MySourceField();
-    if (name.equals("PRI")) return new PriorityField("\\d");
+    if (name.equals("PRI")) return new PriorityField("\\d", true);
     if (name.equals("CODE")) return new CodeField("\\d\\d[A-Z]\\d\\d[A-Za-z]?");
     if (name.equals("XINFO")) return new CrossInfoField();
     return super.getField(name);
