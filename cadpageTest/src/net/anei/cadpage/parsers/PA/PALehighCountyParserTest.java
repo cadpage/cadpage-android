@@ -363,9 +363,22 @@ public class PALehighCountyParserTest extends BaseParserTest {
         "INFO:Original Location : ALLENTOWN FD",
         "TIME:22:51",
         "UNIT:FD/E3711 FD/E2011 FD/E3011 FD/E3112 FD/E1112 FD/R1141 FD/TK231");
+
+    doTest("T31",
+        "ST3100 TYP: DWELLING FIRE AD: 4753 YORKSHIRE DR CTY: LOWER MACUNGIE LOC: HIDDEN VALLEY FARMS CN: BECKY CMT1: **FIRE CALL-GAS ODOR INSIDE CMT2: GAS LEAK IN HOUSE TIME: 18:25 UNTS: FD/E3112 FD/TA2521 FD/E711 FD/RH6651 XST: 1997 STRATHMORE DR XST2: 2117 SOUTHHAMP\r",
+        "SRC:ST3100",
+        "CALL:FIRE CALL-GAS ODOR INSIDE",
+        "ADDR:4753 YORKSHIRE DR",
+        "CITY:LOWER MACUNGIE TWP",
+        "PLACE:HIDDEN VALLEY FARMS",
+        "NAME:BECKY",
+        "INFO:GAS LEAK IN HOUSE",
+        "TIME:18:25",
+        "UNIT:FD/E3112 FD/TA2521 FD/E711 FD/RH6651",
+        "X:1997 STRATHMORE DR & 2117 SOUTHHAMP");
  }
   
   public static void main(String[] args) {
-    new PALehighCountyParserTest().generateTests("T1");
+    new PALehighCountyParserTest().generateTests("T31");
   }
 }
