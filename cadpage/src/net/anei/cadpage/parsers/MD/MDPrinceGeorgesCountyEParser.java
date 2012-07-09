@@ -66,6 +66,8 @@ Contact: Active911
 [CAD Feed] PIA, Acc w/Inj, DOCTORS HOSPITAL, PP, at 8118 GOOD LUCK RD, PP, btwn HANOVER PKY and MALLERY DR, TGA2, 4807, 5411 B 3, CIT CALLED STATION ADV 9I INFRONT OF THE HOSPITAL ON GOOD LUCK, Units:A848, E828\n
 [CAD Feed] PIA, Acc w/Inj, DOCTORS HOSPITAL, PP, at 8118 GOOD LUCK RD, PP, btwn HANOVER PKY and MALLERY DR, TGA2, 4807, 5411 B 3, CIT CALLED STATION ADV 9I INFRONT OF THE HOSPITAL ON GOOD LUCK, Units:A848, E828\n
 [CAD Feed] LOC, Lock In/Out, 9443 ANNAPOLIS RD, PP, btwn FONTANA DR and CARTER AVE, TGA2, 4802, 5411 E 6, ANIMAL LOCKED INSIDE OF CAR,,, Unit:E828\n
+BUILDF, Building Fire, 3304 CURTIS DR #104, PP, btwn SCOTTISH AVE and END, TGC3, 2914, 5649 J 6, Fire ProQA recommends dispatch at this time, Units:BO883, E805, E827, E829, PE842, QT838, TK826, TW821
+HOUSEF, House Fire, 4503 32ND ST, MR, btwn WEBSTER ST and WINDOM RD, TGA3, 5505, 5409 F 9, COMP ADV NEAR THE ES SCHOOL, CAN SEE ALOT OF SMOKE UNK EXACTLY WHERE ITS COMING FRM, Units:AU716, BO881, CAN801, E808, E812, E833, PE830, TK716, TK814, TK828, WI
 
 Contact: CodeMessaging
 [PG09] ALS1, Medic Local, 3521 54TH AVE #1, PP, btwn MACBETH ST and NEWTON ST, TGA2, 0916, 5530 B 1, Medical ProQA recommends dispatch at this time, Units:A830, E809B, PE830
@@ -181,7 +183,11 @@ public class MDPrinceGeorgesCountyEParser extends FieldProgramParser {
   private class MyUnitField extends UnitField {
     @Override
     public void parse(String field, Data data) {
-      data.strUnit = append(data.strUnit, ",", field);
+      if (field.equals("WI")) {
+        if (!data.strCall.contains("(Working)")) data.strCall += " (Working)";
+      } else {
+        data.strUnit = append(data.strUnit, ",", field);
+      }
     }
   }
   
