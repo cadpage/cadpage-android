@@ -43,7 +43,7 @@ public class NYSuffolkCountyAllParserTest {
     }
   }
   
-  public static class TestAmherst extends NYAmherstParserTest {
+  public static class TestAmherst extends NYErieCountyDParserTest {
     public TestAmherst() {
       setParser(new NYSuffolkCountyAllParser());
     }
