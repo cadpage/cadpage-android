@@ -107,7 +107,25 @@ public class FLManateeCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "MY", "MYAKKA CITY",
-      "UB", "BRADENTON"
+      "AM",   "Anna Maria",
+      "BB",   "Bradenton Beach",
+      "BR",   "Bradenton",
+      "CZ",   "Cortez",
+      "DE",   "Desoto County",
+      "EL",   "Ellenton",
+      "HA",   "Hardee County",
+      "HB",   "Holmes Beach",
+      "HC",   "Hillsborough County",
+      "LBK",  "Longboat Key",
+      "LK",   "Longboat Key",
+      "MY",   "Myakka City",
+      "PA",   "Palmetto",
+      "PI",   "Pinellas County",
+      "PR",   "Parrish",
+      "SARA", "Sarasota County",
+      "SM",   "Sarasota",
+      "UB",   "Bradenton",
+      "UP",   "Palmetto",
+      "WM",   "Wimauma"
   });
 }
