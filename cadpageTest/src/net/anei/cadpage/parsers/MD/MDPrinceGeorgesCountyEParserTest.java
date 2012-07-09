@@ -209,15 +209,15 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
         "BOX:3808",
         "UNIT:TW810");
 
-    doTest("T1",
+    doTest("T17",
         "TR F121850028: Confined Space Rescu, 4706 HOLLYWOOD RD, PP, btwn 47TH PL and 48TH AVE, TGD3, 1102, Units:A812, AU816, BO886, C699, E811, EMSDO, HC816, MD812, NSO, TR806, TS814, WI",
         "ID:F121850028",
-        "CALL:Confined Space Rescu",
+        "CALL:Confined Space Rescu (Working)",
         "ADDR:4706 HOLLYWOOD RD",
         "X:47TH PL and 48TH AVE",
         "CH:TGD3",
         "BOX:1102",
-        "UNIT:A812,AU816,BO886,C699,E811,EMSDO,HC816,MD812,NSO,TR806,TS814,WI");
+        "UNIT:A812,AU816,BO886,C699,E811,EMSDO,HC816,MD812,NSO,TR806,TS814");
  
   }
   
@@ -611,6 +611,30 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
         "INFO:ANIMAL LOCKED INSIDE OF CAR",
         "UNIT:E828");
 
+    doTest("T34",
+        "BUILDF, Building Fire, 3304 CURTIS DR #104, PP, btwn SCOTTISH AVE and END, TGC3, 2914, 5649 J 6, Fire ProQA recommends dispatch at this time, Units:BO883, E805, E827, E829, PE842, QT838, TK826, TW821",
+        "CODE:BUILDF",
+        "CALL:Building Fire",
+        "ADDR:3304 CURTIS DR",
+        "APT:104",
+        "X:SCOTTISH AVE and END",
+        "CH:TGC3",
+        "BOX:2914",
+        "MAP:5649 J 6",
+        "UNIT:BO883,E805,E827,E829,PE842,QT838,TK826,TW821");
+
+    doTest("T35",
+        "HOUSEF, House Fire, 4503 32ND ST, MR, btwn WEBSTER ST and WINDOM RD, TGA3, 5505, 5409 F 9, COMP ADV NEAR THE ES SCHOOL, CAN SEE ALOT OF SMOKE UNK EXACTLY WHERE ITS COMING FRM, Units:AU716, BO881, CAN801, E808, E812, E833, PE830, TK716, TK814, TK828, WI",
+        "CODE:HOUSEF",
+        "CALL:House Fire (Working)",
+        "ADDR:4503 32ND ST",
+        "X:WEBSTER ST and WINDOM RD",
+        "CH:TGA3",
+        "BOX:5505",
+        "MAP:5409 F 9",
+        "INFO:COMP ADV NEAR THE ES SCHOOL / CAN SEE ALOT OF SMOKE UNK EXACTLY WHERE ITS COMING FRM",
+        "UNIT:AU716,BO881,CAN801,E808,E812,E833,PE830,TK716,TK814,TK828");
+
   }
   
   @Test
@@ -631,12 +655,12 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
     doTest("T2",
         "[PGWFD] F121510277: House Fire, 5311 LORRAINE DR, PP, btwn JOYCE DR and END, TGC3, 2931, Units:A827, EMSDO, MD829, SSO, WI",
         "ID:F121510277",
-        "CALL:House Fire",
+        "CALL:House Fire (Working)",
         "ADDR:5311 LORRAINE DR",
         "X:JOYCE DR and END",
         "CH:TGC3",
         "BOX:2931",
-        "UNIT:A827,EMSDO,MD829,SSO,WI");
+        "UNIT:A827,EMSDO,MD829,SSO");
 
     doTest("T3",
         "[BATT6] F121520221: House Gas Leak, 3713 GREEN ASH CT, PP, btwn GREEN ASH LN and END, TA11, 4101, Units:BO886, PE712, PE841, TK812, TK831",
@@ -651,32 +675,31 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
     doTest("T4",
         "[PGWFD] F121520220: Building Fire, 4221 BRANCH AVE, PP, btwn SB BRANCH AVE ONRP EB IVERSON ST and ST BARNABAS RD, TGC3, 2907, Units:A827, BO881, EMSDO, MD826, NSO, WI",
         "ID:F121520220",
-        "CALL:Building Fire",
+        "CALL:Building Fire (Working)",
         "ADDR:4221 BRANCH AVE",
         "X:SB BRANCH AVE ONRP EB IVERSON ST and ST BARNABAS RD",
         "CH:TGC3",
         "BOX:2907",
-        "UNIT:A827,BO881,EMSDO,MD826,NSO,WI");
+        "UNIT:A827,BO881,EMSDO,MD826,NSO");
 
     doTest("T5",
         "[SAFE] F121520220: Building Fire, 4221 BRANCH AVE, PP, btwn SB BRANCH AVE ONRP EB IVERSON ST and ST BARNABAS RD, TGC3, 2907, Units:A827, BO881, EMSDO, MD826, NSO, WI",
         "ID:F121520220",
-        "CALL:Building Fire",
+        "CALL:Building Fire (Working)",
         "ADDR:4221 BRANCH AVE",
         "X:SB BRANCH AVE ONRP EB IVERSON ST and ST BARNABAS RD",
         "CH:TGC3",
         "BOX:2907",
-        "UNIT:A827,BO881,EMSDO,MD826,NSO,WI");
+        "UNIT:A827,BO881,EMSDO,MD826,NSO");
 
     doTest("T6",
         "[PGWFD] F121520346: PIA w/Entrapment, 2254 HANNON ST, PP, btwn FORDHAM ST and 23RD AVE, TGB3, 3412, Unit:WI",
         "ID:F121520346",
-        "CALL:PIA w/Entrapment",
+        "CALL:PIA w/Entrapment (Working)",
         "ADDR:2254 HANNON ST",
         "X:FORDHAM ST and 23RD AVE",
         "CH:TGB3",
-        "BOX:3412",
-        "UNIT:WI");
+        "BOX:3412");
 
     doTest("T7",
         "[BATT4] F121530476: Street Alarm, 4108 CRITTENDEN ST, HP, btwn 40TH PL and RHODE ISLAND AVE, TA11, 5511, Units:BO884, E809B, E855, TK809, TW807",
@@ -721,12 +744,12 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
     doTest("T11",
         "[SAFE] F121540252: Water Rescue, NATIONAL HARBOR, PP, at 300 WATERFRONT ST, PP, TGD3, 5801, Units:BO885, BT847, BT856, E847, EMSDO, MD847, NSO, PA842, PE842, TR806, WI, WR856, WR857",
         "ID:F121540252",
-        "CALL:Water Rescue",
+        "CALL:Water Rescue (Working)",
         "PLACE:NATIONAL HARBOR",
         "ADDR:300 WATERFRONT ST",
         "CH:TGD3",
         "BOX:5801",
-        "UNIT:BO885,BT847,BT856,E847,EMSDO,MD847,NSO,PA842,PE842,TR806,WI,WR856,WR857");
+        "UNIT:BO885,BT847,BT856,E847,EMSDO,MD847,NSO,PA842,PE842,TR806,WR856,WR857");
   
   }
  
