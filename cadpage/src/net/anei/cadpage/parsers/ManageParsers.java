@@ -166,6 +166,9 @@ public class ManageParsers {
         "PADelawareCountyE",  "PADelawareCountyD",      // 12/30/2011 
         "CTRoxbury",          "CTNorthwestPublicSafety",// 03/21/2012 
         "PAErieCountyEnergyCare", "PAErieCountyEmergyCare", //04/07/2012
+        "NYAmherst",          "NYErieCountyD",          // 07/09/2012
+        "NYErieCountyA",      "NYErieCounty",           // 07/09/2012
+        
   });
 
 }

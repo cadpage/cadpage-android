@@ -885,11 +885,6 @@ Dix Hills, NY (NYDixHillsParser)
 2010-001919 01:48 *** 16- Rescue *** 179 OAKFIELD AV BRUZZESE, ROCCO  SEAMAN NECK RD 6-D-3 RESPIRATORY KFIELD AV DIXHIL TYPE: RESPIRATORY LOC: 179  OAKFI
 2010-001923 11:44 *** 16- Rescue *** 337 DEER PARK AV SUNRISE ASSISTED LIVING RED MAPLE LA Alert
 *******************************************************************************
-Amherst, NY (NYAmherstParser)
-CLA 10990 Keller Rd. EMS 80M slurred speech
-CLA 9970 Greiner Rd. EMS Finger laceration
-CLA 5727 Marthas Vineyard EMS 55 y/o fell
-*******************************************************************************
 Suffolk County, NY (Port Jefferson Volunteer Ambulance) (NYSuffolkCountyDParser)
 UNKNOWN PROBLEM - STANDING, SITTING UP, MOVING OR TALKING code: 32-B-1 at: 3 STANDISH DR c/s: CHIPPENDALE DR d/t: 06/30 00:01:30
 PSYCHIATRIC / ABNORMAL BEHAVIOR / SUICIDE - NON SUICIDAL AND ALERT code: 25-A-1 at: 60 N COUNTRY RD c/s: PINE HILL RD d/t: 06/30 19:53:51
@@ -1741,11 +1736,6 @@ PV-1: Type:EMS P4 |Address: 1434 ROUTE 44 , PLEASANT VALLEY, New York  |Nature: 
 PV-1: Type:Alarm Fire |Address: 1903 ROUTE 44 , PLEASANT VALLEY, New York |Nature: AFA -2ND FLOOR PULL-WEST SIDE |Cross:BREWSTER LN -
 ***************************************************************************
 Erie County, NY (NYErieCountyAParser)
-AMH 238 WESTFIELD RD EMS 79 YO F/  CHEST PAIN
-AMH 52 ENDICOTT DR EMS 82 YO M
-AMH 670 LONGMEADOW RD EMS 71 Y/O F CHEST PAINS, DIFFICULTY BREATHING
-***************************************************************************
-Erie County, NY (NYErieCountyAParser)
 ALERT@ERIE.GOV FIRE CO-DETECTOR 262 MILLER ST APT: GARAGE LANCASTER TOWN CO DETECTOR ACTIV / NO SYMPTOMS
 ALERT@ERIE.GOV EMS 4779 TRANSIT RD LANCASTER TOWN GREEN DODGE CALIBER 25 YO FEMALE FEELS AS THOUGH SHE MAY PASS OUT
 ALERT@ERIE.GOV EMS 4805 TRANSIT RD APT: 1106 LANCASTER TOWN EMS- 59 YO MALE, LEG PAIN AS A RESULT OF A FALL EARLIER
@@ -1755,9 +1745,7 @@ NOTIFICATIONS 85 MANITOU ST DEPEW DEPEW FIRE DEPARTMENT- DAILY TEST
 NOTIFICATIONS 85 MANITOU ST DEPEW CONDUCTED THE DAILY FIRE RADIO AND PAGER TEST
 4569 BROADWAY DEPEW COMMERCIAL FIRE ALARM COMING FROM THE BANQUET ROOM
 ***************************************************************************
-Erie County, NY (NYErieCountyAParser)
-(Call) FIRE RESIDENTIAL 6680 LAKE SHORE RD EVANS FOREGIN OBJECT STRUCK A LIVE ELECTRICAL OUTLET.?\n(Call) EMS 1425 STURGEON PT RD EVANS H/NE/RM ACT  CARBON MONOXIDE DETECTOR WITH ILLNESS IN THE RESIDENCE?\n(Call) NE ACT FOR A ENGINE M/A TO LAKEVIEW FOR AN AUTO ACCIDENT ROUTE 5 AND OLD LAKESHORE RD?\n***************************************************************************
-Erie County, NY (NYErieCountyBParser)
+Erie County, NY (NYErieCountyBParser
 NYK| Erie County (Lancaster)| Technical Rescue| | Como Park|PD O/S reporting pedestrian walk bridge collapse- 1 victim with leg trapped- request FD with saws| NYK109| 16:54
 NYK / NYK| Buffalo| 1 Alarm Fire| | 63 Crestwood Ave|F20 O/S reporting fire in a dwelling-victims rescued-ACW| NYK109| 12:13\n\nNYK| Erie County (Lancaster)| 1 Alarm Fire| 453.500| 17 E Drullard Ave|Lancaster FD O/S Rep Fire in a 2 Story Occ Brick Apt Bldg. AHW| NYK004| 22:29
 ***************************************************************************
@@ -1765,6 +1753,15 @@ Erie County, NY (NYErieCountyCParser)
 Erie_Alert EDEN 2097 SHERMAN- 1 YOA MALE CHOKING 15 TO HALL NEED 1 ADD'L  <NOREPLY>
 Erie_Alert MES/NCEMS: ALL MEMBERS PARTICIPATING IN THE MEMORIAL DAY PARADE MEET @ HALL ON MON 5/28 @ 0815 HRS IN FULL DRESS UNIFORM  <NOREPLY>
 Erie_Alert ANIMAL INJURY  TN OF EDEN EDEN 805+707 TO REESPOND COLD TO 2880 BELKNAP FOR INJURED ANIMAL EXTRACTION  <NOREPLY>
+*******************************************************************************
+Erie County, NY (NYErieCuntyDParser)
+CLA 10990 Keller Rd. EMS 80M slurred speech
+CLA 9970 Greiner Rd. EMS Finger laceration
+CLA 5727 Marthas Vineyard EMS 55 y/o fell
+***************************************************************************
+Erie County, NY (NYErieCountyEParser)
+(Call) FIRE RESIDENTIAL 6680 LAKE SHORE RD EVANS FOREGIN OBJECT STRUCK A LIVE ELECTRICAL OUTLET.?\n(Call) EMS 1425 STURGEON PT RD EVANS H/NE/RM ACT  CARBON MONOXIDE DETECTOR WITH ILLNESS IN THE RESIDENCE?\n(Call) NE ACT FOR A ENGINE M/A TO LAKEVIEW FOR AN AUTO ACCIDENT ROUTE 5 AND OLD LAKESHORE RD?\n***************************************************************************
+Erie County, NY (NYErieCountyBParser)
 ***************************************************************************
 Genesee County, NY (NYGeneseeCountyParser)
 [Dispatch]  Acc PIAA ** 392.3 RT 90 E** , BATAVIA - ** ONE VEHICLE ROLLOVER ** LEWISTON RD, I 90 / KELSEY RD, I 90 ** 07/12/11 17:29 **

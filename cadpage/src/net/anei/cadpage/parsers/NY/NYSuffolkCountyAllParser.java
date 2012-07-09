@@ -18,7 +18,7 @@ public class NYSuffolkCountyAllParser extends GroupBestParser {
         new NYSuffolkCountyDParser(),
         new NYSuffolkCountyEParser(),
         new NYDixHillsParser(),
-        new NYAmherstParser()
+        new NYErieCountyDParser()
     });
   }
 }

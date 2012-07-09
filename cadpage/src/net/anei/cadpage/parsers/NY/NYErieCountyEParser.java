@@ -6,16 +6,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Erie County, NY
-Contact: "Buttino, John" <John.Buttino@erie.gov>   (network administrator)
-AMH 238 WESTFIELD RD EMS 79 YO F/  CHEST PAIN
-AMH 52 ENDICOTT DR EMS 82 YO M
-AMH 670 LONGMEADOW RD EMS 71 Y/O F CHEST PAINS, DIFFICULTY BREATHING
-AMH 3030 SHERIDAN DR EMS RM 146 58 M TROUBLE BREATHING
-AMH 35 ELM RD EMS 69M CHEST/ARM PAIN
-
-Contact: brad marshall <northspartans@gmail.com>
-Sender: 777075442231
-ALERT@ERIE.GOV AMH KLEIN W RD&FOREST N RD MVA 2 CAR MVA - HEAD INJURY
 
 Contact: nyerpa96 <nyerpa96@gmail.com>
 ALERT@ERIE.GOV FIRE CO-DETECTOR 262 MILLER ST APT: GARAGE LANCASTER TOWN CO DETECTOR ACTIV / NO SYMPTOMS
@@ -80,11 +70,11 @@ TRH             EMS-Transportation Hot
 */
 
 
-public class NYErieCountyAParser extends SmartAddressParser {
+public class NYErieCountyEParser extends SmartAddressParser {
   
   private Message msg;
   
-  public NYErieCountyAParser() {
+  public NYErieCountyEParser() {
     super(CITY_LIST, "ERIE COUNTY", "NY");
   }
 
@@ -97,23 +87,15 @@ public class NYErieCountyAParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (body.startsWith("AMH ")) return parseAmhMsg(body.substring(4), data);
     if (msg.getAddress().equals("ALERT@ERIE.GOV")) return parseErieMsg(body, data);
     if (subject.equals("Call") || msg.getAddress().startsWith("9300")) return parseDepewMsg(body, data); 
     return false;
   }
 
-  public boolean parseAmhMsg(String body, Data data) {
-    parseAddress(StartType.START_ADDR, body, data);
-    data.strCall = getLeft();
-    
-    return true;
-  }
-
   private boolean parseErieMsg(String body, Data data) {
     parseAddress(StartType.START_CALL, body, data);
     data.strSupp = getLeft();
-    return true;
+    return data.strCity.length() > 0;
   }
 
   private boolean parseDepewMsg(String body, Data data) {
