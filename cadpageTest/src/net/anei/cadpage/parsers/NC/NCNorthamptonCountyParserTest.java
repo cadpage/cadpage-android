@@ -54,6 +54,13 @@ public class NCNorthamptonCountyParserTest extends BaseParserTest {
         "CITY:LITTLETON",
         "CALL:ASSISTANCE",
         "UNIT:FS11");
+
+    doTest("T6",
+        "S: M:Northampton911:* 125 FIRMAN MYRICK ST* * * GASTON* * FIGHT* * * * 475,EMS8* * * * * ",
+        "ADDR:125 FIRMAN MYRICK ST",
+        "CITY:GASTON",
+        "CALL:FIGHT",
+        "UNIT:475,EMS8");
   }
 
   public static void main(String[] args) {
