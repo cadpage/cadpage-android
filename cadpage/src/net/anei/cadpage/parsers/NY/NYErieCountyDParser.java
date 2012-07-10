@@ -28,6 +28,10 @@ Contact: brad marshall <northspartans@gmail.com>
 Sender: 777075442231
 ALERT@ERIE.GOV AMH KLEIN W RD&FOREST N RD MVA 2 CAR MVA - HEAD INJURY
 
+Contact: Michael Grant <mike18435@gmail.com>
+Sender: ALERT@ERIE.GOV
+ALERT@ERIE.GOV WMV 5403 MAIN ST EMA APT 308 /
+
 */
 
 
@@ -54,7 +58,8 @@ public class NYErieCountyDParser extends MsgParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CLA", "CLARENCE",
-      "AMH", "AMHERST"
+      "AMH", "AMHERST",
+      "WMV", "WILLIAMSVILLE"
   });
 }
 	
