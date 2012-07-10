@@ -96,6 +96,16 @@ public class NYErieCountyDParserTest extends BaseParserTest {
         "CITY:AMHERST",
         "ADDR:KLEIN W RD & FOREST N RD",
         "CALL:MVA 2 CAR MVA - HEAD INJURY");
+  }
+  
+  @Test
+  public void testWilliamsville() {
+
+    doTest("T1",
+        "ALERT@ERIE.GOV WMV 5403 MAIN ST EMA APT 308 /",
+        "CITY:WILLIAMSVILLE",
+        "ADDR:5403 MAIN ST",
+        "CALL:EMA APT 308 /");
     
   }
   
