@@ -71,7 +71,8 @@ public class Message {
   // Patterns used to perform front end descrambling
   private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \" +");
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\\n+DISCLA.*$| *\\[Attachment\\(s\\) removed\\]$", Pattern.CASE_INSENSITIVE);
-  private static final Pattern FWD_HEADER_PTN = Pattern.compile("^Fwd:|^\\[FWD?:[^\\]]*?\\] *\n(?:.*Original Message.*\n)?", Pattern.CASE_INSENSITIVE);
+  private static final Pattern ORIG_MSG_PTN = Pattern.compile("(?:\n|^)--+Original Message--+\n", Pattern.CASE_INSENSITIVE);
+  private static final Pattern FWD_PTN = Pattern.compile("^FWD?:");
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
     Pattern.compile("^(\\d) *of *(\\d):"),
@@ -117,9 +118,12 @@ public class Message {
     // Remove trailing disclaimer(s)
     body = DISCLAIMER_PTN.matcher(body).replaceFirst("");
     
-    // Remove leading Fwd: flag
-    Matcher match = FWD_HEADER_PTN.matcher(body);
-    if (match.find()) body = trimLead(body.substring(match.end()));
+    // Remove leading Original Message forwarding flag flag
+    Matcher match = ORIG_MSG_PTN.matcher(body);
+    if (match.find()) {
+      parseSubject = "";
+      body = trimLead(body.substring(match.end()));
+    }
     
     if (body.startsWith("Pagecopy-")) body = body.substring(9);
     
@@ -367,6 +371,9 @@ public class Message {
     }
     
     if (body.startsWith("MSG:")) body = trimLead(body.substring(4));
+    
+    match = FWD_PTN.matcher(parseSubject);
+    if (match.find()) parseSubject = parseSubject.substring(match.end()).trim();
     
     // Last check, if we ended up with no message, use the last subject as the message
     if (body.length() == 0) {
