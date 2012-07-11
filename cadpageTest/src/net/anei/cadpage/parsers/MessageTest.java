@@ -9,6 +9,20 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("CODouglasCounty",
+        "ken@cadpage.org",
+        "FW: Dispatch",
+        "-----Original Message-----\nFrom: Norris Croom [mailto:NCroom@crgov.com] \nSent: Tuesday, July 03, 2012 5:02 AM\nTo: Mike Horn; Michael Moore; Craig Rollins; Matt Rettmer\nSubject: FW: Dispatch\n\n\n-------------------------------------------\nFrom: dcso@douglas.co.us[SMTP:DCSO@DOUGLAS.CO.US]\nSent: Tuesday, July 03, 2012 5:02:16 AM\nTo: Norris Croom\nSubject: Dispatch\nAuto forwarded by a Rule\n\nCall: F LIFT ASSIST Location: 1050 HIGHLAND RIDGE WAY 101 / Map: AH29D2 Units: E154 XXX154  HIGHLAND VISTA AVE / HIGHLAND VISTA AVE Common Name: Time: 07/03/12 05:01 Narrative:  E911 Info - Class of Service: WPH2 Special Response Info: PSAP=DCSO--DOUGLAS WIRELESS VERIFY PD  VE 2012-00002042",        
+        "dcso@douglas.co.us[SMTP:DCSO@DOUGLAS.CO.US]",
+        "Dispatch",
+        "Call: F LIFT ASSIST Location: 1050 HIGHLAND RIDGE WAY 101 / Map: AH29D2 Units: E154 XXX154  HIGHLAND VISTA AVE / HIGHLAND VISTA AVE Common Name: Time: 07/03/12 05:01 Narrative:  E911 Info - Class of Service: WPH2 Special Response Info: PSAP=DCSO--DOUGLAS WIRELESS VERIFY PD  VE 2012-00002042");
+    
+    doParseTest("CODouglasCounty",
+        "[FW: Dispatch] \n-----Original Message-----\nFrom: Norris Croom [mailto:NCroom@crgov.com] \nSent: Tuesday, July 03, 2012 5:02 AM\nTo: Mike Horn; Michael Moore; Craig Rollins; Matt Rettmer\nSubject: FW: Dispatch\n\n\n-------------------------------------------\nFrom: dcso@douglas.co.us[SMTP:DCSO@DOUGLAS.CO.US]\nSent: Tuesday, July 03, 2012 5:02:16 AM\nTo: Norris Croom\nSubject: Dispatch\nAuto forwarded by a Rule\n\nCall: F LIFT ASSIST Location: 1050 HIGHLAND RIDGE WAY 101 / Map: AH29D2 Units: E154 XXX154  HIGHLAND VISTA AVE / HIGHLAND VISTA AVE Common Name: Time: 07/03/12 05:01 Narrative:  E911 Info - Class of Service: WPH2 Special Response Info: PSAP=DCSO--DOUGLAS WIRELESS VERIFY PD  VE 2012-00002042",        
+        "dcso@douglas.co.us[SMTP:DCSO@DOUGLAS.CO.US]",
+        "Dispatch",
+        "Call: F LIFT ASSIST Location: 1050 HIGHLAND RIDGE WAY 101 / Map: AH29D2 Units: E154 XXX154  HIGHLAND VISTA AVE / HIGHLAND VISTA AVE Common Name: Time: 07/03/12 05:01 Narrative:  E911 Info - Class of Service: WPH2 Special Response Info: PSAP=DCSO--DOUGLAS WIRELESS VERIFY PD  VE 2012-00002042");
+    
     doParseTest("NJGloucvesterCountyB",
         "ken@cadpage.org",
         "FW: Automatic R&R Notification",
