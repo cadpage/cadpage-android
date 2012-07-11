@@ -39,7 +39,7 @@ S: Automatic R&amp;R Notification\n  \nIncident Number  : 2012-00000234         
 
 public class DispatchA5Parser extends FieldProgramParser {
   
-  private static final Pattern KEYWORD_TRAIL_PTN = Pattern.compile("[ \\.]+:");
+  private static final Pattern KEYWORD_TRAIL_PTN = Pattern.compile("[ \\.]+:|(?: \\.){2,}(?=\n)");
   private static final Pattern CALL_TIME_DATE_PTN = Pattern.compile("\\bCall Time- ([0-9:]+) +Date- ([0-9/]+) *\n.*?(?=\nArea:)", Pattern.DOTALL);
   
   public DispatchA5Parser(String defCity, String defState) {
