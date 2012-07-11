@@ -129,7 +129,7 @@ public class NJGloucesterCountyBParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testActive911() {
+  public void testActive911A() {
 
     doTest("T1",
         "[FW: Automatic R&R Notification] \n" +
@@ -1716,6 +1716,668 @@ public class NJGloucesterCountyBParserTest extends BaseParserTest {
         "NAME:ERIN",
         "UNIT:0818101 10-1 0818103 F1038 0818109 E1092 0818109 E1096",
         "INFO:BERWYN RD");
+
+  }
+  
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        "[FW: Automatic R&R Notification]  \n\n" +
+        "-----Original Message-----\n" +
+        "From: MRBREYER@S105KD4M.CO.GLOUCESTER.NJ.US\n" +
+        "[mailto:MRBREYER@S105KD4M.CO.GLOUCESTER.NJ.US] \n" +
+        "Sent: Tuesday, July 03, 2012 8:43 PM\n" +
+        "To: sta281@co.gloucester.nj.us\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00023464                    ORI: 0815281\n" +
+        "Station: 28-1  \n" +
+        "Incident Type  . : ALRM F ALARM FIRE           Priority: 3  \n" +
+        "Incident Location: 410 ANDBRO DR\n" +
+        "Venue: PITMAN  \n" +
+        "Located Between  : N WOODBURY RD/DEAD END Common Name. . . : BRI SCOT\n" +
+        "BUSINESS CENTER \n\n" +
+        "Call Time- 20:42:25                                Date- 07/03/2012  \n" +
+        "Dispatch -              En-route-              On-scene-              Depart\n" +
+        "1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - \n\n" +
+        "Area:    O              Section :    O         Beat  . :    O        Map . .\n" +
+        ":  \n" +
+        "Grid:  K16              Quadrant: 2802         District: 2802 \n\n" +
+        "Phone Number: (800) 633-2677                Call Source:  TEL \n\n" +
+        "Caller. . . : RADER/3220 \n\n" +
+        "Nature of Call : N WOODBURY RD/DEAD END \n\n" +
+        "Additional Info\n" +
+        "  GEN  \n" +
+        "  8565891250    WILL ATTMP \n\n" +
+        "Address Checks \n\n" +
+        "Building-GEO : Commercial Bldg  \n" +
+        "  Const. Type . :    Metal Pre-Fab  \n" +
+        "  Truss Type. . :    Metal Pre-Fab  \n" +
+        "  Water Source  :    Hydrant  \n" +
+        "  # of Floors . :    1 STORY  \n" +
+        "  Pre-Plan. . . :    YES SEE F24 DOCUMENTS  \n" +
+        "  Gas Authority      South Jersey Gas  \n" +
+        "  Elec Authority     Atlantic City Electric  \n" +
+        "  Water Authority    Municipal Utility Authority  \n" +
+        "  Local Station      28-1  \n" +
+        "  File Updated  :    10/20/08  \n" +
+        "  Knox Box Loc  :    N/A  \n" +
+        "  Nearby Hydrant:    ANDBRO DR  \n" +
+        "  Hazards . . . :    HEAVY MACHINERY  \n" +
+        "  Bldg Dimension:    306 X 150  \n" +
+        "  Gas Shutoff . :    DIV D  \n" +
+        "  Elec. Shutoff :    DIV D  \n" +
+        "  Water Shutoff :    DIV A  \n" +
+        "  Sprnk Shutoff :    DIV D  \n" +
+        "  Alarm Shutoff :    DIV A  \n" +
+        "  BUSN/RES NAME :    MULTIPLE BUSINESSES  \n" +
+        "  EMER CONTACT  :    ANDY ANDERSON  \n" +
+        "  PHONE NUMBER  :    856.491.5247  \n" +
+        "  NARRATIVE     :    PREPLAN ATTACHED  \n" +
+        " Building Narrative\n" +
+        "  BUILDING PRE-PLAN 410 ANDBRO DR \n\n" +
+        "Additional Inc#s:  \n" +
+        " 0815283     201200023464 \n\n" +
+        "The Call Taker is GIGLIOTTI WILLIAM L\n" +
+        "The Dispatcher is BREYER MICHAEL R",
+
+        "ID:2012-00023464",
+        "SRC:28-1",
+        "CALL:ALRM F ALARM FIRE",
+        "PRI:3",
+        "ADDR:410 ANDBRO DR",
+        "CITY:PITMAN",
+        "X:N WOODBURY RD/DEAD END",
+        "PLACE:BRI SCOT BUSINESS CENTER",
+        "TIME:20:42:25",
+        "DATE:07/03/2012",
+        "MAP:2802/2802/O/O",
+        "PHONE:(800) 633-2677",
+        "NAME:RADER/3220",
+        "INFO:N WOODBURY RD/DEAD END");
+
+    doTest("T2",
+        "[FW: Automatic R&R Notification]  \n\n" +
+        "-----Original Message-----\n" +
+        "From: KJWESTON@S105KD4M.CO.GLOUCESTER.NJ.US\n" +
+        "[mailto:KJWESTON@S105KD4M.CO.GLOUCESTER.NJ.US] \n" +
+        "Sent: Wednesday, July 04, 2012 12:20 PM\n" +
+        "To: sta281@co.gloucester.nj.us\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00023536                    ORI: 0815281\n" +
+        "Station: 28-1  \n" +
+        "Incident Type  . : ALRM F ALARM FIRE           Priority: 3  \n" +
+        "Incident Location: 430 ANDBRO DR\n" +
+        "Venue: PITMAN  \n" +
+        "Located Between  : N WOODBURY RD/DEAD END Common Name. . . : TECTUBES \n\n" +
+        "Call Time- 12:19:46                                Date- 07/04/2012  \n" +
+        "Dispatch - 12:20:11     En-route-              On-scene-              Depart\n" +
+        "1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - \n\n" +
+        "Area:    O              Section :    O         Beat  . :    O        Map . .\n" +
+        ":  \n" +
+        "Grid:  K16              Quadrant: 2802         District: 2802 \n\n" +
+        "Phone Number: (856) 371-8402                Call Source:  TEL \n\n" +
+        "Caller. . . : LAUREN KELL \n\n" +
+        "Units sent  :  \n" +
+        " 0815281     28-1 \n\n" +
+        "Nature of Call : N WOODBURY RD/DEAD END \n\n" +
+        "Additional Info\n" +
+        "  FIRE ALARM SOUNDING CALLER OUTSIDE \n\n" +
+        "Address Checks \n\n" +
+        "Building-GEO : Commercial Bldg  \n" +
+        "  Const. Type . :    Masonry Block  \n" +
+        "  Truss Type. . :    Metal Pre-Fab  \n" +
+        "  Water Source  :    Hydrant  \n" +
+        "  # of Floors . :    2 STORY  \n" +
+        "  Pre-Plan. . . :    YES SEE F24 DOCUMENTS  \n" +
+        "  Gas Authority      South Jersey Gas  \n" +
+        "  Elec Authority     Atlantic City Electric  \n" +
+        "  Water Authority    Municipal Utility Authority  \n" +
+        "  Local Station      28-1  \n" +
+        "  File Updated  :    10/20/08  \n" +
+        "  Knox Box Loc  :    N/A  \n" +
+        "  Nearby Hydrant:    REAR PARKING LOT  \n" +
+        "  Hazards . . . :    MACHINERY  \n" +
+        "  Bldg Dimension:    162 X 249  \n" +
+        "  Gas Shutoff . :    N/A  \n" +
+        "  Elec. Shutoff :    DIV B  \n" +
+        "  Water Shutoff :    DIV A  \n" +
+        "  Sprnk Shutoff :    DIV B  \n" +
+        "  Alarm Shutoff :    DIV A  \n" +
+        "  BUSN/RES NAME :    MULTIPLE BUSINESS  \n" +
+        "  EMER CONTACT  :    ANDY ANDERSON  \n" +
+        "  PHONE NUMBER  :    856.491.5247  \n" +
+        "  NARRATIVE     :    PREPLAN ATTACHED \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is ZELINSKY NICK J\n" +
+        "The Dispatcher is WESTON KARLEE J",
+
+        "ID:2012-00023536",
+        "SRC:28-1",
+        "CALL:ALRM F ALARM FIRE",
+        "PRI:3",
+        "ADDR:430 ANDBRO DR",
+        "CITY:PITMAN",
+        "X:N WOODBURY RD/DEAD END",
+        "PLACE:TECTUBES",
+        "TIME:12:19:46",
+        "DATE:07/04/2012",
+        "MAP:2802/2802/O/O",
+        "PHONE:(856) 371-8402",
+        "NAME:LAUREN KELL",
+        "UNIT:0815281 28-1",
+        "INFO:N WOODBURY RD/DEAD END");
+
+    doTest("T3",
+        "[FW: Automatic R&R Notification]  \n\n" +
+        "-----Original Message-----\n" +
+        "From: KJWESTON@S105KD4M.CO.GLOUCESTER.NJ.US\n" +
+        "[mailto:KJWESTON@S105KD4M.CO.GLOUCESTER.NJ.US] \n" +
+        "Sent: Wednesday, July 04, 2012 4:05 PM\n" +
+        "To: sta281@co.gloucester.nj.us\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00023554                    ORI: 0815283\n" +
+        "Station: 28-1  \n" +
+        "Incident Type  . : SMOK F SMOKE INV            Priority: 3  \n" +
+        "Incident Location: 100 TRACK AVE\n" +
+        "Venue: PITMAN  \n" +
+        "Located Between  : W HOLLY AVE/DEAD END Common Name. . . : ALCYON LAKE PARK \n\n" +
+        "Call Time- 16:04:37                                Date- 07/04/2012  \n" +
+        "Dispatch - 16:05:12     En-route-              On-scene-              Depart\n" +
+        "1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - \n\n" +
+        "Area:    O              Section :    O         Beat  . :    O        Map . .\n" +
+        ":  \n" +
+        "Grid:  L16              Quadrant: 2806         District: 2806 \n\n" +
+        "Phone Number: (000) 000-0000                Call Source:  TEL \n\n" +
+        "Units sent  :  \n" +
+        " 0815281     28-1                 0815283     28-3 \n\n" +
+        "Nature of Call : W HOLLY AVE/DEAD END \n\n" +
+        "Additional Info\n" +
+        "  IST DRIVE WAY \n\n" +
+        "Address Checks \n\n" +
+        "Building-GEO : Recreation Area (Park)  \n" +
+        "  Water Source  :    Hydrant  \n" +
+        "  Pre-Plan. . . :    YES SEE F24 DOCUMENTS  \n" +
+        "  Water Authority    Municipal Utility Authority  \n" +
+        "  Local Station      28-1  \n" +
+        "  File Updated  :    08/26/08  \n" +
+        "  Nearby Hydrant:    TRACK AVE AT GATE  \n" +
+        "  BUSN/RES NAME :    ALCYON LAKE PARK  \n" +
+        "  EMER CONTACT  :    PITMAN POLICE  \n" +
+        "  PHONE NUMBER  :    856.589.3500  (911)  \n" +
+        "  NARRATIVE     :    PRE-PLAN ATTACHED  \n" +
+        " Building Narrative\n" +
+        "  SITE PLAN ALCYON LAKE PARK \n\n" +
+        "Additional Inc#s:  \n" +
+        " 0815281     201200023554 \n\n" +
+        "The Call Taker is HAUCK JAMES J\n" +
+        "The Dispatcher is WESTON KARLEE J",
+
+        "ID:2012-00023554",
+        "SRC:28-1",
+        "CALL:SMOK F SMOKE INV",
+        "PRI:3",
+        "ADDR:100 TRACK AVE",
+        "CITY:PITMAN",
+        "X:W HOLLY AVE/DEAD END",
+        "PLACE:ALCYON LAKE PARK",
+        "TIME:16:04:37",
+        "DATE:07/04/2012",
+        "MAP:2806/2806/O/O",
+        "UNIT:0815281 28-1 0815283 28-3",
+        "INFO:W HOLLY AVE/DEAD END");
+
+    doTest("T4",
+        "[FW: Automatic R&R Notification]  \n\n" +
+        "-----Original Message-----\n" +
+        "From: JRGRESKO@S105KD4M.CO.GLOUCESTER.NJ.US\n" +
+        "[mailto:JRGRESKO@S105KD4M.CO.GLOUCESTER.NJ.US] \n" +
+        "Sent: Wednesday, July 04, 2012 7:48 PM\n" +
+        "To: sta281@co.gloucester.nj.us\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00023582                    ORI: 0815283\n" +
+        "Station: 28-1A  \n" +
+        "Incident Type  . : STBY F STAND BY             Priority: 5  \n" +
+        "Incident Location: 100 TRACK AVE\n" +
+        "Venue: PITMAN  \n" +
+        "Located Between  : W HOLLY AVE/DEAD END Common Name. . . : ALCYON LAKE PARK \n\n" +
+        "Call Time- 19:47:52                                Date- 07/04/2012  \n" +
+        "Dispatch - 19:48:11     En-route-              On-scene-              Depart\n" +
+        "1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - \n\n" +
+        "Area:    O              Section :    O         Beat  . :    O        Map . .\n" +
+        ":  \n" +
+        "Grid:  L16              Quadrant: 2806         District: 2806 \n\n" +
+        "Phone Number: (000) 000-0000                Call Source:  589 \n\n" +
+        "Caller. . . : 2800 \n\n" +
+        "Units sent  :  \n" +
+        " 0815281     28-1A \n\n" +
+        "Nature of Call : W HOLLY AVE/DEAD END \n\n" +
+        "Additional Info\n" +
+        "  FIREWORKS STAND BY \n\n" +
+        "Address Checks \n\n" +
+        "Building-GEO : Recreation Area (Park)  \n" +
+        "  Water Source  :    Hydrant  \n" +
+        "  Pre-Plan. . . :    YES SEE F24 DOCUMENTS  \n" +
+        "  Water Authority    Municipal Utility Authority  \n" +
+        "  Local Station      28-1  \n" +
+        "  File Updated  :    08/26/08  \n" +
+        "  Nearby Hydrant:    TRACK AVE AT GATE  \n" +
+        "  BUSN/RES NAME :    ALCYON LAKE PARK  \n" +
+        "  EMER CONTACT  :    PITMAN POLICE  \n" +
+        "  PHONE NUMBER  :    856.589.3500  (911)  \n" +
+        "  NARRATIVE     :    PRE-PLAN ATTACHED  \n" +
+        " Building Narrative\n" +
+        "  SITE PLAN ALCYON LAKE PARK \n\n" +
+        "Additional Inc#s:  \n" +
+        " 0815281     201200023582 \n\n" +
+        "The Call Taker is GRESKO JOHN R\n" +
+        "The Dispatcher is GRESKO JOHN R",
+
+        "ID:2012-00023582",
+        "SRC:28-1A",
+        "CALL:STBY F STAND BY",
+        "PRI:5",
+        "ADDR:100 TRACK AVE",
+        "CITY:PITMAN",
+        "X:W HOLLY AVE/DEAD END",
+        "PLACE:ALCYON LAKE PARK",
+        "TIME:19:47:52",
+        "DATE:07/04/2012",
+        "MAP:2806/2806/O/O",
+        "NAME:2800",
+        "UNIT:0815281 28-1A",
+        "INFO:W HOLLY AVE/DEAD END");
+
+    doTest("T5",
+        "[FW: Automatic R&R Notification]  \n\n" +
+        "-----Original Message-----\n" +
+        "From: KEMAYCOC@S105KD4M.CO.GLOUCESTER.NJ.US\n" +
+        "[mailto:KEMAYCOC@S105KD4M.CO.GLOUCESTER.NJ.US] \n" +
+        "Sent: Friday, July 06, 2012 2:16 PM\n" +
+        "To: sta281@co.gloucester.nj.us\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00023805                    ORI: 0815283\n" +
+        "Station: 28-1  \n" +
+        "Incident Type  . : BRSH F BRUSH                Priority: 4  \n" +
+        "Incident Location: 100 TRACK AVE\n" +
+        "Venue: PITMAN  \n" +
+        "Located Between  : W HOLLY AVE/DEAD END Common Name. . . : ALCYON LAKE PARK \n\n" +
+        "Call Time- 14:14:56                                Date- 07/06/2012  \n" +
+        "Dispatch - 14:15:35     En-route-              On-scene-              Depart\n" +
+        "1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - \n\n" +
+        "Area:    O              Section :    O         Beat  . :    O        Map . .\n" +
+        ":  \n" +
+        "Grid:  L16              Quadrant: 2806         District: 2806 \n\n" +
+        "Phone Number: (609) 743-0566                Call Source:  TEL \n\n" +
+        "Caller. . . : MIKE ZEE \n\n" +
+        "Units sent  :  \n" +
+        " 0815281     28-1                 0815283     28-3 \n\n" +
+        "Nature of Call : W HOLLY AVE/DEAD END \n\n" +
+        "Additional Info\n" +
+        "  BRUSH FIRE IN THE WOODS \n\n" +
+        "Address Checks \n\n" +
+        "Building-GEO : Recreation Area (Park)  \n" +
+        "  Water Source  :    Hydrant  \n" +
+        "  Pre-Plan. . . :    YES SEE F24 DOCUMENTS  \n" +
+        "  Water Authority    Municipal Utility Authority  \n" +
+        "  Local Station      28-1  \n" +
+        "  File Updated  :    08/26/08  \n" +
+        "  Nearby Hydrant:    TRACK AVE AT GATE  \n" +
+        "  BUSN/RES NAME :    ALCYON LAKE PARK  \n" +
+        "  EMER CONTACT  :    PITMAN POLICE  \n" +
+        "  PHONE NUMBER  :    856.589.3500  (911)  \n" +
+        "  NARRATIVE     :    PRE-PLAN ATTACHED  \n" +
+        " Building Narrative\n" +
+        "  SITE PLAN ALCYON LAKE PARK \n\n" +
+        "Additional Inc#s:  \n" +
+        " 0815281     201200023805 \n\n" +
+        "The Call Taker is GISMONDI ETTORE J\n" +
+        "The Dispatcher is MAYCOCK KATHRYN ELIZABTH",
+
+        "ID:2012-00023805",
+        "SRC:28-1",
+        "CALL:BRSH F BRUSH",
+        "PRI:4",
+        "ADDR:100 TRACK AVE",
+        "CITY:PITMAN",
+        "X:W HOLLY AVE/DEAD END",
+        "PLACE:ALCYON LAKE PARK",
+        "TIME:14:14:56",
+        "DATE:07/06/2012",
+        "MAP:2806/2806/O/O",
+        "PHONE:(609) 743-0566",
+        "NAME:MIKE ZEE",
+        "UNIT:0815281 28-1 0815283 28-3",
+        "INFO:W HOLLY AVE/DEAD END");
+
+    doTest("T6",
+        "[FW: Automatic R&R Notification]  \n\n" +
+        "-----Original Message-----\n" +
+        "From: CFBASILE@S105KD4M.CO.GLOUCESTER.NJ.US\n" +
+        "[mailto:CFBASILE@S105KD4M.CO.GLOUCESTER.NJ.US] \n" +
+        "Sent: Saturday, July 07, 2012 6:03 AM\n" +
+        "To: sta281@co.gloucester.nj.us\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00023896                    ORI: 081528\n" +
+        "Station: 28-1  \n" +
+        "Incident Type  . :  RUB F RUBBISH              Priority: 3  \n" +
+        "Incident Location: WESLEY AVE\n" +
+        "Venue: PITMAN  \n" +
+        "  Cross Street . : CHESTNUT AVE \n\n" +
+        "Call Time- 06:02:16                                Date- 07/07/2012  \n" +
+        "Dispatch - 06:02:51     En-route-              On-scene-              Depart\n" +
+        "1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - \n\n" +
+        "Area:    O              Section :    O         Beat  . :    O        Map . .\n" +
+        ":  \n" +
+        "Grid:  L16              Quadrant: 2803         District: 2803 \n\n" +
+        "Phone Number: (000) 000-0000                Call Source:  TEL \n\n" +
+        "Caller. . . : 106 \n\n" +
+        "Units sent  :  \n" +
+        " 0815281     28-1                 0815283     28-3 \n\n" +
+        "Nature of Call : CHESTNUT AVE \n\n" +
+        "Additional Info\n" +
+        "  TRASH CAN ON FIRE \n\n" +
+        "Additional Inc#s:  \n" +
+        " 0815281     201200023896             0815283     201200023896 \n\n" +
+        "The Call Taker is BLACK TESA L\n" +
+        "The Dispatcher is BASILE CHRISTOPHER S",
+
+        "ID:2012-00023896",
+        "SRC:28-1",
+        "CALL:RUB F RUBBISH",
+        "PRI:3",
+        "ADDR:WESLEY AVE",
+        "MADDR:WESLEY AVE & CHESTNUT AVE",
+        "CITY:PITMAN",
+        "X:CHESTNUT AVE",
+        "TIME:06:02:16",
+        "DATE:07/07/2012",
+        "MAP:2803/2803/O/O",
+        "NAME:106",
+        "UNIT:0815281 28-1 0815283 28-3",
+        "INFO:CHESTNUT AVE");
+
+    doTest("T7",
+        "[FW: Automatic R&R Notification]  \n\n" +
+        "-----Original Message-----\n" +
+        "From: GDROEMMI@S105KD4M.CO.GLOUCESTER.NJ.US\n" +
+        "[mailto:GDROEMMI@S105KD4M.CO.GLOUCESTER.NJ.US] \n" +
+        "Sent: Saturday, July 07, 2012 8:53 AM\n" +
+        "To: sta281@co.gloucester.nj.us\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00023912                    ORI: 0815283\n" +
+        "Station: 28-1  \n" +
+        "Incident Type  . : ALMC F CO ALARM             Priority: 3  \n" +
+        "Incident Location: 9 N OAK AVE\n" +
+        "Venue: PITMAN  \n" +
+        "Located Between  : W HOLLY AVE/WALNUT AVE \n\n" +
+        "Call Time- 08:52:09                                Date- 07/07/2012  \n" +
+        "Dispatch - 08:52:48     En-route-              On-scene-              Depart\n" +
+        "1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - \n\n" +
+        "Area:    O              Section :    O         Beat  . :    O        Map . .\n" +
+        ":  \n" +
+        "Grid:  L15              Quadrant: 2806         District: 2806 \n\n" +
+        "Phone Number: (856) 589-0745                Call Source:  911 \n\n" +
+        "Caller. . . : STEPHANIE GROSSMAN \n\n" +
+        "Units sent  :  \n" +
+        " 0815281     28-1                 0815283     28-3 \n\n" +
+        "Nature of Call : W HOLLY AVE/WALNUT AVE \n\n" +
+        "Additional Info\n" +
+        "  ALRM IS SOUNDING CHANGED THE BATTERIES \n\n" +
+        "Additional Inc#s:  \n" +
+        " 0815281     201200023912 \n\n" +
+        "The Call Taker is RICHARDS BRYAN D\n" +
+        "The Dispatcher is ROEMMICH GLENN D",
+
+        "ID:2012-00023912",
+        "SRC:28-1",
+        "CALL:ALMC F CO ALARM",
+        "PRI:3",
+        "ADDR:9 N OAK AVE",
+        "CITY:PITMAN",
+        "X:W HOLLY AVE/WALNUT AVE",
+        "TIME:08:52:09",
+        "DATE:07/07/2012",
+        "MAP:2806/2806/O/O",
+        "PHONE:(856) 589-0745",
+        "NAME:STEPHANIE GROSSMAN",
+        "UNIT:0815281 28-1 0815283 28-3",
+        "INFO:W HOLLY AVE/WALNUT AVE");
+
+    doTest("T8",
+        "[FW: Automatic R&R Notification]  \n\n" +
+        "-----Original Message-----\n" +
+        "From: GDROEMMI@S105KD4M.CO.GLOUCESTER.NJ.US\n" +
+        "[mailto:GDROEMMI@S105KD4M.CO.GLOUCESTER.NJ.US] \n" +
+        "Sent: Saturday, July 07, 2012 11:08 AM\n" +
+        "To: sta281@co.gloucester.nj.us\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00023934                    ORI: 0815283\n" +
+        "Station: 28-1  \n" +
+        "Incident Type  . : BRSH F BRUSH                Priority: 4  \n" +
+        "Incident Location: LAMBS RD\n" +
+        "Venue: PITMAN  \n" +
+        "  Cross Street . : ACCESS RD \n\n" +
+        "Call Time- 11:06:06                                Date- 07/07/2012  \n" +
+        "Dispatch - 11:07:30     En-route-              On-scene-              Depart\n" +
+        "1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - \n\n" +
+        "Area:    O              Section :    O         Beat  . :    O        Map . .\n" +
+        ":    C  \n" +
+        "Grid:  K15              Quadrant: 2806         District: 2806 \n\n" +
+        "Phone Number: (000) 000-0000                Call Source:  TEL \n\n" +
+        "Caller. . . : QUINCY \n\n" +
+        "Units sent  :  \n" +
+        " 0815281     28-1                 0815283     28-3 \n\n" +
+        "Nature of Call : ACCESS RD \n\n" +
+        "Additional Info\n" +
+        "  RQ 1 ENGINE  - REKINDLE \n\n" +
+        "Additional Inc#s:  \n" +
+        " GCEMS       201200023934             0815281     201200023934 \n\n" +
+        "The Call Taker is MAYCOCK KATHRYN ELIZABTH The Dispatcher is ROEMMICH GLENN\n" +
+        "D",
+
+        "ID:2012-00023934",
+        "SRC:28-1",
+        "CALL:BRSH F BRUSH",
+        "PRI:4",
+        "ADDR:LAMBS RD",
+        "MADDR:LAMBS RD & ACCESS RD",
+        "CITY:PITMAN",
+        "X:ACCESS RD",
+        "TIME:11:06:06",
+        "DATE:07/07/2012",
+        "MAP:2806/2806/O/O",
+        "NAME:QUINCY",
+        "UNIT:0815281 28-1 0815283 28-3",
+        "INFO:ACCESS RD");
+
+    doTest("T9",
+        "[FW: Automatic R&R Notification]  \n\n" +
+        "-----Original Message-----\n" +
+        "From: BDRICHAR@S105KD4M.CO.GLOUCESTER.NJ.US\n" +
+        "[mailto:BDRICHAR@S105KD4M.CO.GLOUCESTER.NJ.US] \n" +
+        "Sent: Saturday, July 07, 2012 11:31 AM\n" +
+        "To: sta281@co.gloucester.nj.us\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00023936                    ORI: 0810221\n" +
+        "Station: 28-1  \n" +
+        "Incident Type  . : ALRM F ALARM FIRE           Priority: 3  \n" +
+        "Incident Location: 190 LAMBS RD\n" +
+        "Venue: MANTUA  \n" +
+        "Located Between  : WASHINGTON TWP LINE/BETHEL MILL RD Common Name. . . :\n" +
+        "LAMBS RD ASSEMBLY CHURCH \n\n" +
+        "Call Time- 11:26:19                                Date- 07/07/2012  \n" +
+        "Dispatch - 11:30:45     En-route-              On-scene-              Depart\n" +
+        "1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - \n\n" +
+        "Area:   J4              Section :   J4         Beat  . :    J        Map . .\n" +
+        ":  \n" +
+        "Grid:  J16              Quadrant: 2206         District: 2212 \n\n" +
+        "Phone Number: (800) 633-2677                Call Source:  TEL \n\n" +
+        "Caller. . . : FRANKLIN/3681 \n\n" +
+        "Units sent  :  \n" +
+        " 0810221     22-1                 0815281     F2811 \n\n" +
+        "Nature of Call : WASHINGTON TWP LINE/BETHEL MILL RD \n\n" +
+        "Additional Info\n" +
+        "  FIRE 1ST FL\n" +
+        "  LOC 8565893655 \n\n" +
+        "Narrative  \n" +
+        " R 2201                                            BDRICHARDS 11:27:09  \n" +
+        " R 2217                                            BDRICHARDS 11:27:49 \n\n" +
+        "Additional Inc#s:  \n" +
+        " 0815281     201200023936 \n\n" +
+        "The Call Taker is MAYCOCK KATHRYN ELIZABTH The Dispatcher is ROEMMICH GLENN\n" +
+        "D",
+
+        "ID:2012-00023936",
+        "SRC:28-1",
+        "CALL:ALRM F ALARM FIRE",
+        "PRI:3",
+        "ADDR:190 LAMBS RD",
+        "CITY:MANTUA",
+        "X:WASHINGTON TWP LINE/BETHEL MILL RD",
+        "PLACE:LAMBS RD ASSEMBLY CHURCH",
+        "TIME:11:26:19",
+        "DATE:07/07/2012",
+        "MAP:2212/2206/J4/J4",
+        "PHONE:(800) 633-2677",
+        "NAME:FRANKLIN/3681",
+        "UNIT:0810221 22-1 0815281 F2811",
+        "INFO:WASHINGTON TWP LINE/BETHEL MILL RD");
+
+    doTest("T10",
+        "[FW: Automatic R&R Notification]  \n\n" +
+        "-----Original Message-----\n" +
+        "From: KRLANSDO@S105KD4M.CO.GLOUCESTER.NJ.US\n" +
+        "[mailto:KRLANSDO@S105KD4M.CO.GLOUCESTER.NJ.US] \n" +
+        "Sent: Monday, July 09, 2012 9:49 AM\n" +
+        "To: sta281@co.gloucester.nj.us\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00024196                    ORI: 0815281\n" +
+        "Station: 28-1  \n" +
+        "Incident Type  . : ALRM F ALARM FIRE           Priority: 3  \n" +
+        "Incident Location: 208 PITMAN AVE\n" +
+        "Venue: PITMAN  \n" +
+        "Located Between  : HIGHLAND TER/S FERNWOOD AVE \n\n" +
+        "Call Time- 09:48:01                                Date- 07/09/2012  \n" +
+        "Dispatch -              En-route-              On-scene-              Depart\n" +
+        "1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - \n\n" +
+        "Area:    O              Section :    O         Beat  . :    O        Map . .\n" +
+        ":    C  \n" +
+        "Grid:  L16              Quadrant: 2802         District: 2802 \n\n" +
+        "Phone Number: (800) 434-4000                Call Source:  TEL \n\n" +
+        "Caller. . . : ABSOLUTE SEC OP GJ02 \n\n" +
+        "Nature of Call : HIGHLAND TER/S FERNWOOD AVE \n\n" +
+        "Additional Info\n" +
+        "  MEIHOFER RESD - BASEMENT SMOKE DET ACTIVATION\n" +
+        "  RE#2420417 \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is HAUCK JAMES J\n" +
+        "The Dispatcher is LANSDOWNE KENNETH R",
+
+        "ID:2012-00024196",
+        "SRC:28-1",
+        "CALL:ALRM F ALARM FIRE",
+        "PRI:3",
+        "ADDR:208 PITMAN AVE",
+        "CITY:PITMAN",
+        "X:HIGHLAND TER/S FERNWOOD AVE",
+        "TIME:09:48:01",
+        "DATE:07/09/2012",
+        "MAP:2802/2802/O/O",
+        "PHONE:(800) 434-4000",
+        "NAME:ABSOLUTE SEC OP GJ02",
+        "INFO:HIGHLAND TER/S FERNWOOD AVE");
+
+    doTest("T11",
+        "[FW: Automatic R&R Notification]  \n\n" +
+        "-----Original Message-----\n" +
+        "From: KRLANSDO@S105KD4M.CO.GLOUCESTER.NJ.US\n" +
+        "[mailto:KRLANSDO@S105KD4M.CO.GLOUCESTER.NJ.US] \n" +
+        "Sent: Monday, July 09, 2012 11:14 AM\n" +
+        "To: sta281@co.gloucester.nj.us\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00024211                    ORI: 0815281\n" +
+        "Station: 28-1  \n" +
+        "Incident Type  . : ALRM F ALARM FIRE           Priority: 3  \n" +
+        "Incident Location: 208 PITMAN AVE\n" +
+        "Venue: PITMAN  \n" +
+        "Located Between  : HIGHLAND TER/S FERNWOOD AVE \n\n" +
+        "Call Time- 11:12:35                                Date- 07/09/2012  \n" +
+        "Dispatch - 11:14:25     En-route-              On-scene-              Depart\n" +
+        "1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - \n\n" +
+        "Area:    O              Section :    O         Beat  . :    O        Map . .\n" +
+        ":    C  \n" +
+        "Grid:  L16              Quadrant: 2802         District: 2802 \n\n" +
+        "Phone Number: (800) 434-4000                Call Source:  589 \n\n" +
+        "Caller. . . : ABSOLUTE/PG03 \n\n" +
+        "Units sent  :  \n" +
+        " 0815281     28-1 \n\n" +
+        "Nature of Call : HIGHLAND TER/S FERNWOOD AVE \n\n" +
+        "Additional Info\n" +
+        "  BASEMENT SMOKE\n" +
+        "  MEIHOUSER  NO PHONE AVAILABLE  RE:2420417 \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is GALLO ANDREW M\n" +
+        "The Dispatcher is LANSDOWNE KENNETH R",
+
+        "ID:2012-00024211",
+        "SRC:28-1",
+        "CALL:ALRM F ALARM FIRE",
+        "PRI:3",
+        "ADDR:208 PITMAN AVE",
+        "CITY:PITMAN",
+        "X:HIGHLAND TER/S FERNWOOD AVE",
+        "TIME:11:12:35",
+        "DATE:07/09/2012",
+        "MAP:2802/2802/O/O",
+        "PHONE:(800) 434-4000",
+        "NAME:ABSOLUTE/PG03",
+        "UNIT:0815281 28-1",
+        "INFO:HIGHLAND TER/S FERNWOOD AVE");
 
   }
   

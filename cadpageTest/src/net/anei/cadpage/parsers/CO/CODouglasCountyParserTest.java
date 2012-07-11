@@ -600,7 +600,7 @@ public class CODouglasCountyParserTest extends BaseParserTest {
         "Call: F MED ASSIST Location: 5760 CALEY LN / Map: AI33B Units: E153 MED154 XXX153  N BEDFORD AVE / ROCKAWAY AVE Common Name: Time: 07/05/12 06:32 Narrative:  2012-00002061",
 
         "CALL:F MED ASSIST",
-        "ADDR:5760 CALEY LN",
+        "ADDR:5760 CALEY LN",  // Google knows this a E CALEY LN
         "MAP:AI33B",
         "UNIT:E153 MED154 XXX153",
         "X:N BEDFORD AVE / ROCKAWAY AVE",
@@ -777,7 +777,7 @@ public class CODouglasCountyParserTest extends BaseParserTest {
         "Call: F MED ASSIST Location: 403 N  PERRY ST / Map: AI30A Units: E151 MED151 XXX152  FOURTH ST / FIFTH ST Common Name: REYN ROCK ASSISTED LIVING 403 PERRY STTime: 07/05/12 19:47 Narrative:  2012-00002068",
 
         "CALL:F MED ASSIST",
-        "ADDR:403 N  PERRY ST",
+        "ADDR:403 N  PERRY ST",  // Google knows this as PERRY ST
         "MAP:AI30A",
         "UNIT:E151 MED151 XXX152",
         "X:FOURTH ST / FIFTH ST",
