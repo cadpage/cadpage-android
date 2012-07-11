@@ -406,7 +406,7 @@ public abstract class MsgParser {
        // if it is, we will trim that part off.
        iEndPt = body.length();
        int iTempPt = iEndPt;
-       for (int cnt = 1; cnt <= 2; cnt++) {
+       for (int cnt = 1; cnt <= 3; cnt++) {
          iTempPt = body.lastIndexOf(' ', iTempPt-1);
          if (iTempPt < 0) break;
          String tail = body.substring(iTempPt+1);
