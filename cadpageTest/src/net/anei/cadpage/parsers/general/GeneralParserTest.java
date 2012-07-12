@@ -18,16 +18,6 @@ public class GeneralParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
-        
-    doTest("T32",
-        "S:!  M:R Water Rescue: 500 GRIFFIN RD, Grants Pass: 7/9/2012 5:44:21 PM: Quad-104191: 7501, 7514, 7551, M2, J1, 7531: : \n",
-        "CALL:R Water",
-        "ADDR:500 GRIFFIN RD",
-        "INFO:Grants Pass: 7501, 7514, 7551, 7531: :",
-        "DATE:7/9/2012",
-        "TIME:17:44:21",
-        "MAP:104191",
-        "UNIT:M2,J1");
 
     doTest("T1",
         "2010-189098*1211 PECAN ST***CONOVER**OVERDOSE*********",
@@ -284,5 +274,15 @@ public class GeneralParserTest extends BaseParserTest {
         "X:ROUTE 322 ELK TWP MC ALARMS 6077869897",
         "MAP:G-10",
         "ID:2012-0000012260");
+        
+    doTest("T32",
+        "S:!  M:R Water Rescue: 500 GRIFFIN RD, Grants Pass: 7/9/2012 5:44:21 PM: Quad-104191: 7501, 7514, 7551, M2, J1, 7531: : \n",
+        "CALL:R Water",
+        "ADDR:500 GRIFFIN RD",
+        "INFO:Grants Pass: 7501, 7514, 7551, 7531: :",
+        "DATE:7/9/2012",
+        "TIME:17:44:21",
+        "MAP:104191",
+        "UNIT:M2,J1");
   }
 }

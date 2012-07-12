@@ -88,6 +88,20 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "CALL:TRAUMATIC INJURIES");
   }
   
+  @Test
+  public void testNewParser() {
+
+    doTest("T1",
+        "358 R SANDS RD ABERDEEN, MDL 31D02, 2012031517, 15:45:55, M31 UNCONSCIOUSNESS/FAINTING (NEAR),\r",
+        "ADDR:358 R SANDS RD",
+        "CITY:ABERDEEN",
+        "CODE:31D02",
+        "ID:2012031517",
+        "TIME:15:45:55",
+        "UNIT:M31",
+        "INFO:UNCONSCIOUSNESS/FAINTING (NEAR)");
+  }
+  
 
   public static void main(String[] args) {
     new NCMooreCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID TIME UNIT CALL INFO");
