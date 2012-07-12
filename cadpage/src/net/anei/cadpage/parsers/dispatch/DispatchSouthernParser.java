@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.dispatch;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
@@ -56,6 +56,7 @@ Moore County, NC
 [[911 NOTIFICATION] ]  632 SAND PIT RD ABERDEEN MDL 07A01 2011025721 11:06:58 M7 BURNS/EXPLOSIONS
 [[911 NOTIFICATION] ]  218 BERRY ST PINE BLUFF 2011026135 14:36:24 F67 OUTSIDE FIRE/WOODS/BRUSH TREE ON FIRE
 [[911 NOTIFICATION] ]  1 E NEW ENGLAND /S PEAR 2011025862 07:31:07 F67 OUTSIDE FIRE/WOODS/BRUSH
+358 R SANDS RD ABERDEEN, MDL 31D02, 2012031517, 15:45:55, M31 UNCONSCIOUSNESS/FAINTING (NEAR),\r
 
 Polk County, NC
 polkcounty911:767 THERMAL VIEW DR TRYON SMITH 828817313307:38:26 FALL VICTIM 89 YO FEMALE FROM STORY RD TO SKYUKA RD
@@ -173,9 +174,13 @@ OARNOLD:12433 MAPLE ST GLADE SPRING CARDINAL TRAVEL CENTER 2764296000 1215775 11
 OARNOLD:13168 MEADOWVIEW SQ MEADOWVIEW SOUTHWEST VIRGINIA COMMUNITY/DONNA KENESTER 2765251632 1212903 16:11:00 HEADACHE BAD HEAD ACHE NP
 MEVANS:33573 CROWEVILLE DR GLADE SPRING BAILEY, JOHNNY C 2764295596 1218704 20:34:45 SICK CALL 83YO MALE BAD STOMACH ISSUES AND HURTING IN H
 
+New comma delimited text formats
+
+Moore County, NC
+358 R SANDS RD ABERDEEN, MDL 31D02, 2012031517, 15:45:55, M31 UNCONSCIOUSNESS/FAINTING (NEAR),\r
 */
 
-public class DispatchSouthernParser extends SmartAddressParser {
+public class DispatchSouthernParser extends FieldProgramParser {
   
   // Flag indicating  a leading dispatch name is required
   public static final int DSFLAG_DISPATCH_ID = 0x01;
@@ -215,7 +220,8 @@ public class DispatchSouthernParser extends SmartAddressParser {
   }
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState, int flags) {
-    super(cityList, defCity, defState);
+    super(cityList, defCity, defState,
+          "ADDR/S CODE? ID TIME INFO!");
     this.leadDispatch = (flags & DSFLAG_DISPATCH_ID) != 0;
     this.optDispatch = (flags & DSFLAG_OPT_DISPATCH_ID) != 0;
     this.unitId = (flags & DSFLAG_UNIT) != 0;
@@ -227,6 +233,13 @@ public class DispatchSouthernParser extends SmartAddressParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    // See if this looks like one of the new comma delimited page formats
+    // If it is, let FieldProgramParser handle it
+    String[] flds = body.split(",");
+    if (flds.length >= 5) {
+      return parseFields(flds, data);
+    }
     
     // Message must always start with dispatcher ID, which we promptly discard
     if (leadDispatch || optDispatch) {
@@ -320,5 +333,45 @@ public class DispatchSouthernParser extends SmartAddressParser {
     sExtra = p.get();
     parseAddress(StartType.START_CALL, sExtra, data);
     data.strSupp = getLeft();
+  }
+  
+  //  Classes for handling the new comma delimited format
+  
+  private class MyCodeField extends CodeField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("MDL ")) return false;
+      data.strCode = field.substring(4).trim();
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+  }
+  
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      parseExtra(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "UNIT CALL INFO";
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CODE"))  return new MyCodeField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
 }

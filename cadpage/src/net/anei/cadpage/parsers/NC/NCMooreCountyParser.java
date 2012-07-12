@@ -20,7 +20,8 @@ Contact: Stephanie Dziok <dzioks@gmail.com>
 Contact: David Alston <davidalston66@gmail.com>
 Sender: dispatch911@moorecountync.gov
 232 ALLEN LN ABERDEEN MDL 30A01 2012028950 15:18:54 M30 TRAUMATIC INJURIES\r
-
+358 R SANDS RD ABERDEEN, MDL 31D02, 2012031517, 15:45:55, M31 UNCONSCIOUSNESS/FAINTING (NEAR),\r
+ 
 */
 
 public class NCMooreCountyParser extends DispatchSouthernParser {
