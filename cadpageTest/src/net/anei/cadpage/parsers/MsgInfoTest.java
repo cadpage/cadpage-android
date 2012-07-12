@@ -91,6 +91,7 @@ public class MsgInfoTest {
     doMapTest("BLK2", "6000 OBLKA ST,KENBURG,XX", "6000 OBLKA ST");
     doMapTest("BLK3", "100 OAK FEST RD,KENBURG,XX", "{100} OAK FEST RD");
     doMapTest("BLK4", "2700 BRAGG BLVD,KENBURG,XX", "2700-BLK BRAGG BLVD");
+    doMapTest("BLK5", "2700 BRAGG BLVD,KENBURG,XX", "2700 BLOCK OF BRAGG BLVD");
     
     doMapTest("AV", "150 BLACK AVE,KENBURG,XX", "150 BLACK AV");
     doMapTest("HW", "HWY 20,KENBURG,XX", "HW 20");

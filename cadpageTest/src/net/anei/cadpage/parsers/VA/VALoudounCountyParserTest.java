@@ -105,6 +105,18 @@ public class VALoudounCountyParserTest extends BaseParserTest {
         "UNIT:W612 ER602 TL602 K623 A6122 BC602 ECO12 ACO12",
         "BOX:1222",
         "MAP:4922 G01");
+
+    doTest("T10",
+        "CC_Message_Notification@usamobility.net Call:SF-STRUCTURE FIRE,1200 BLOCK OF DUNVEGAN DRIVE Apt:,X-St:,K604,Box:FQ   ,ADC: [42]\r\n" +
+        "\r\n" +
+        "-- \r\n" +
+        "[LC609]\r",
+
+        "CALL:SF-STRUCTURE FIRE",
+        "ADDR:1200 BLOCK OF DUNVEGAN DRIVE",
+        "MADDR:1200 DUNVEGAN DRIVE",
+        "UNIT:K604",
+        "BOX:FQ");
  }
   
   public static void main(String[] args) {
