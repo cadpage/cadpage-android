@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-      Pattern.compile("^(\\d?\\d/\\d?\\d/\\d{4}) (\\d?\\d:\\d?\\d:\\d?\\d(?: [AP]M)?) : (pos\\d) : ");
+      Pattern.compile("\\b[A-Z]{1,4}[0-9]{1,4}(?:,? +[A-Z]{1,4}[0-9]{1,4})*\\b");
   
   public static void main(String[] args) {
-    doTest("6/11/2012 5:32:43 PM : pos2 : SESTABROOK CALLER AND HIS WIFE WILL BE OUT");
+    doTest("R Water Rescue: 500 GRIFFIN RD, Grants Pass: 7/9/2012 5:44:21 PM: Quad-104191: 7501, 7514, 7551, M2, J1, 7531: :");
   }
   
   private static void doTest(String test) {

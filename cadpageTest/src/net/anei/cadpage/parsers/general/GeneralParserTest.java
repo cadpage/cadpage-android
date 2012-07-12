@@ -18,6 +18,16 @@ public class GeneralParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
+        
+    doTest("T32",
+        "S:!  M:R Water Rescue: 500 GRIFFIN RD, Grants Pass: 7/9/2012 5:44:21 PM: Quad-104191: 7501, 7514, 7551, M2, J1, 7531: : \n",
+        "CALL:R Water",
+        "ADDR:500 GRIFFIN RD",
+        "INFO:Grants Pass: 7501, 7514, 7551, 7531: :",
+        "DATE:7/9/2012",
+        "TIME:17:44:21",
+        "MAP:104191",
+        "UNIT:M2,J1");
 
     doTest("T1",
         "2010-189098*1211 PECAN ST***CONOVER**OVERDOSE*********",
@@ -201,7 +211,6 @@ public class GeneralParserTest extends BaseParserTest {
     
     doTest("T22",
         "CAD:WCRS;424;02/23/2011 14:14:08;ACCIDENT W/INJURY;750 FISHING CREEK ARBOR RD",
-        "ID:424",
         "DATE:02/23/2011",
         "TIME:14:14:08",
         "CALL:ACCIDENT W/INJURY",
@@ -256,8 +265,8 @@ public class GeneralParserTest extends BaseParserTest {
         "REF 3791 S CRANBERRY BLVD XST PRINCE LN, VEHICLE ACCIDENT WITH EXTRACTION,2 PTS ALL PT'S STABLE , FIRE DISPATCH 2641 /UNIT ON SCENE- BN8,E81,NPF3,",
         "CALL:REF",
         "ADDR:3791 S CRANBERRY BLVD",
-        "INFO:XST PRINCE LN, VEHICLE ACCIDENT WITH EXTRACTION, 2 PTS ALL PT'S STABLE, FIRE DISPATCH 2641 /UNIT ON SCENE- BN8, NPF3",
-        "UNIT:E81");
+        "INFO:XST PRINCE LN, VEHICLE ACCIDENT WITH EXTRACTION, 2 PTS ALL PT'S STABLE, FIRE DISPATCH 2641 /UNIT ON SCENE- BN8",
+        "UNIT:E81,NPF3");
     
     doTest("T30",
         "(Dispatch) 03/23/12 * 11:11:49 * HOUSE FIRE * * 64 RICHARDS LA,88   (NV) *  *  * ** X-STRT DARIEN RD - COVERED * NCC *  *  *  *  * Dispatch *",
@@ -275,8 +284,5 @@ public class GeneralParserTest extends BaseParserTest {
         "X:ROUTE 322 ELK TWP MC ALARMS 6077869897",
         "MAP:G-10",
         "ID:2012-0000012260");
-        
-    
   }
-  
 }
