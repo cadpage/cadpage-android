@@ -237,7 +237,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     // See if this looks like one of the new comma delimited page formats
     // If it is, let FieldProgramParser handle it
     String[] flds = body.split(",");
-    if (flds.length >= 5) {
+    if (flds.length >= 4) {
       return parseFields(flds, data);
     }
     
