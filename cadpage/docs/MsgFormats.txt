@@ -5050,3 +5050,8 @@ Unit:M590A Status:Dispatched ALS MEDICAL ; 1107 APEX AVE ; ; UNKNOWN / LIFESTYLE
 Contact: 4843343577@messaging.sprintpcs.com
 Unit:CO61 Status:Dispatched CMA ; 303 WYNDCLIFFE AVE ; ; HILLTOP CT / CHESTNUT ST, WINTERSON DR ; Muni: HAMBURG ;
 Unit:CO61 Status:Dispatched AFA ; 218 PINE ST ; ; S PEACH ALY / S 2 ST ; Muni: HAMBURG ; ; 07/12/12 06:37
+
+Contact: Mike Roth <mroth@springtwpberks.org>
+Unit:CO85 Status:Dispatched MVAWITH ; 1780 ACORN DR ; ; TIMBER LN / GRAVEL HILL DR ; Muni: SPRING ; FM SCREAMING SHE IS BLEEDING/  ; 07/12/12 02:03\n\nSent by Berks County RSAN to CO85 All Call
+Unit:E85-2 Status:Dispatched HAZMAT ; 2227 MCKINLEY AVE ; ; UNKNOWN / WEST WYOMISSING BLVD ; Muni: SPRING ; CHF85 AND E85-2 EN FOR ODOR OF GASOLINE IN RESIDENCE ; 07/11/12 10:07\n\nSent by Berks County RSAN to CO85 All Call
+Unit:REN85 Status:Dispatched SF ; 44 WATER ST ; ; POTTSVILLE PKE / N 5 STREET HWY ; Muni: MUHLENBERG ; elderly fm / not answering questions  ; 07/12/12 00:54\n\nSent by Berks County RSAN to CO85 All Call

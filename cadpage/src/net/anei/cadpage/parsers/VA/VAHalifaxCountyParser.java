@@ -26,6 +26,10 @@ Sender: halifaxeoc@co.halifax.va.us
 (from Central) 12-024641 RESIDENTIAL\r\n\r\nReported: 06/21/2012 18:23:30\r\n\r\n2123 HORSESHOE TRL\r\n\r\nHUELL MATTHEWS HWY //DEAD END\r\n\r\nALTON
 (from Central) 12-024654 GENERAL COMPLAINT - SICK\r\n\r\nReported: 06/21/2012 20:13:43\r\n\r\n1419 WASHINGTON AVE\r\n\r\nEDMUNDS ST / WEBSTER/ST\r\n\r\nSOUTH BOSTON
 
+Contact: ray mason <raycls8@gmail.com>
+Sender: halifaxeoc@co.halifax.va.us
+S:from Central M:12-027904 GENERAL COMPLAINT - SICK\n\nReported: 07/12/2012 06:45:04\n\n3180 LP BAILEY MEM HWY\n\nCARTER S LN /  DUDLEY/RD\n\nSEKPEH HOME FOR ADULTS  HALIFAX\n\n\n\n
+
  */
 public class VAHalifaxCountyParser extends DispatchShieldwareParser {
   

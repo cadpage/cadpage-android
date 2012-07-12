@@ -67,6 +67,7 @@ public class BillingManager {
    * @param activity
    */
   public void startPurchase(Activity activity) {
+    if (mService == null) return;
     int year = Calendar.getInstance().get(Calendar.YEAR);
     String item = "cadpage_" + year;
     String payload = ManagePreferences.purchaseDateString();
