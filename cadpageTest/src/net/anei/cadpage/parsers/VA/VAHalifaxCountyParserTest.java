@@ -142,6 +142,26 @@ public class VAHalifaxCountyParserTest extends BaseParserTest {
         "CITY:SOUTH BOSTON");
   }
   
+  @Test
+  public void testRayMason() {
+
+    doTest("T1",
+        "S:from Central M:12-027904 GENERAL COMPLAINT - SICK\n\n" +
+        "Reported: 07/12/2012 06:45:04\n\n" +
+        "3180 LP BAILEY MEM HWY\n\n" +
+        "CARTER S LN /  DUDLEY/RD\n\n" +
+        "SEKPEH HOME FOR ADULTS  HALIFAX\n\n\n\n",
+
+        "ID:12-027904",
+        "CALL:GENERAL COMPLAINT - SICK",
+        "DATE:07/12/2012",
+        "TIME:06:45:04",
+        "ADDR:3180 LP BAILEY MEM HWY",
+        "X:CARTER S LN /  DUDLEY/RD",
+        "PLACE:SEKPEH HOME FOR ADULTS",
+        "CITY:HALIFAX");
+ }
+  
   public static void main(String[] args) {
     new VAHalifaxCountyParserTest().generateTests("T1");
   }
