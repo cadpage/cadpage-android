@@ -80,6 +80,17 @@ public class NDCassCountyParserTest extends BaseParserTest {
         "TIME:09:15",
         "ID:277",
         "INFO:VEH ON FIRE  BLAZER  NO HAZMAT IN VEH.  UNSURE EXACTLY WHICH EXIT.  THINKS 324, BUT COULD BE 322  ON WB OFF RAMP.    FLAMES IN ENG");
+
+    doTest("T7",
+        "Accident - Injury 14666 42 ST SE CHAF 07/10/12 18:37 CFS #: 23 3 WHEELER 1050I  Nature Of Call: 3 WHEELER 1050I  43YOA M, AWAKE AND BREATHING  Nature Of Call: MDF  9501-CASTFIR 6612-CASTAMB 608 8800-CASSRES",
+        "CALL:Accident - Injury",
+        "ADDR:14666 42 ST SE",
+        "CITY:CHAFFEE",
+        "DATE:07/10/12",
+        "TIME:18:37",
+        "ID:23",
+        "INFO:3 WHEELER 1050I  43YOA M, AWAKE AND BREATHING",
+        "UNIT:9501-CASTFIR 6612-CASTAMB 608 8800-CASSRES");
   }
 
   public static void main(String[] args) {
