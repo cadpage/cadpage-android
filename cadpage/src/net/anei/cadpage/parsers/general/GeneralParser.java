@@ -10,12 +10,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class GeneralParser extends SmartAddressParser {
   
-  private static final Pattern DATE_PATTERN = Pattern.compile("\\b\\d\\d/\\d\\d/\\d\\d(\\d\\d)?\\b");
-  private static final Pattern TIME_PATTERN = Pattern.compile("\\b\\d\\d(?::\\d\\d)+\\b");
+  private static final Pattern DATE_PATTERN = Pattern.compile("\\b(\\d\\d?/\\d\\d?/\\d\\d(\\d\\d)?)\\b[,;:]?");
+  private static final Pattern TIME_PATTERN = Pattern.compile("\\b(\\d\\d?(?::\\d\\d?){1,2})( [AP]M)?\\b[,;:]?", Pattern.CASE_INSENSITIVE);
   private static final String DELIM_PATTERN_STR = ";|,|~|\\*|\\n|\\||\\b[A-Z][A-Za-z0-9-#]*:|\\bC/S:|\\b[A-Z][A-Za-z]*#";
   private static Pattern DELIM_PATTERN; // will be filled in by constructor
-  private static final Pattern CALL_ID_PATTERN = Pattern.compile("\\d[\\d-]+\\d");
+  private static final Pattern CALL_ID_PATTERN = Pattern.compile("\\d{2,4}-\\d{5,}|[A-Z]{1,2}\\d{6,}|\\d{11,}");
   private static final Pattern UNIT_PATTERN = Pattern.compile("([A-Z]{1,4}[0-9]{1,4}\\s+)+");
+  private static final Pattern MAP_PATTERN = Pattern.compile("\\b(?:quad|map|grid)-([A-Z0-9]+)[,:;]?",Pattern.CASE_INSENSITIVE);
   
   // Field types that we can identify 
   private enum FieldType {SKIP, CALL, PLACE, ADDRESS, CITY, APT, CROSS, BOX, UNIT, MAP, ID, PHONE, SUPP, CODE, SRC, NAME};
@@ -128,12 +129,28 @@ public class GeneralParser extends SmartAddressParser {
     // Strip out any date and time fields
     Matcher match = DATE_PATTERN.matcher(body);
     if (match.find()) {
-      data.strDate = match.group();
+      data.strDate = match.group(1);
       body = match.replaceAll("");
     }
     match = TIME_PATTERN.matcher(body);
     if (match.find()) {
-      data.strTime = match.group();
+      String time = match.group(1);
+      String ext = match.group(2);
+      body = match.replaceAll("");
+      if (ext != null) {
+        if (ext.charAt(1) == 'P') {
+          int pt = time.indexOf(':');
+          int hr = Integer.parseInt(time.substring(0,pt));
+          hr += 12;
+          time = Integer.toString(hr) + time.substring(pt);
+        }
+      }
+      data.strTime = time;
+    }
+    
+    match = MAP_PATTERN.matcher(body);
+    if (match.find()) {
+      data.strMap = match.group(1);
       body = match.replaceAll("");
     }
 
@@ -331,8 +348,8 @@ public class GeneralParser extends SmartAddressParser {
         }
         
         // Nope, lets see if it looks like a unit list
-        if (data.strUnit.length() == 0 && UNIT_PATTERN.matcher(fld + " ").matches()) {
-          data.strUnit = fld;
+        if (UNIT_PATTERN.matcher(fld + " ").matches()) {
+          data.strUnit = append(data.strUnit, ",", fld);
           continue;
         }
         
