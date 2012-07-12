@@ -235,10 +235,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     
     // See if this looks like one of the new comma delimited page formats
-    // If it is, let FieldProgramParser handle it
+    // If it is, let FieldProgramParser handle it.
     String[] flds = body.split(",");
     if (flds.length >= 4) {
-      return parseFields(flds, data);
+      if (parseFields(flds, data)) return true;
+      data.initialize();
     }
     
     // Message must always start with dispatcher ID, which we promptly discard
@@ -371,6 +372,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CODE"))  return new MyCodeField();
+    if (name.equals("ID")) return new IdField("\\d{10}", true);
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
