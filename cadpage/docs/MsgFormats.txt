@@ -4998,3 +4998,20 @@ Sender: rc.439@c-msg.net
 (VEST) [VEST] CRASH012 12 Ic# 28 CRASH012 Ds# 130001 Al# 1 Utl# G-115 07/04/121800 W LINCOLNWAY HW OS <> N PEONY AVHEAD ON CRASH 2244
 (VEST) [VEST] CRASH004 12 Ic# 37 CRASH004 Ds# 121001 Al# 1 Utl# G-2 07/04/1250585 SR 23 HW HA <> BIRCH RDROLLOVER NO ENTRAPMENT 2317
 **********************************************************
+Berks County, PA (replace)
+Contact: "john.manmiller" <john.manmiller@gmail.com>
+Sender: 7172203767
+GENERAL ALERT berks.co45rsix.roamsecure.net UnitCO45 StatusDispatched ALS MEDICAL  304 S FRANKLIN ST  E CEDAR ST W C...
+
+Contact: "kreinert@lyons35fire.com" <kreinert@lyons35fire.com>
+Unit:M590A Status:Dispatched ALS MEDICAL ; 215 TOWER RD ; ; S PARK AVE / CLAY RD ; Muni: LONGSWAMP ; 64 YOM / IN ACTIVE SIEZURE  ; 07/10/12 12:57
+Unit:M590B Status:Dispatched MVAUNK ; W MAIN ST NORMAL AVE ; ; ; Muni: KUTZTOWN ; ; 07/10/12 14:06
+
+Contact: Diana York <hawkmeadow@gmail.com>
+(berks.535@rsix.roamsecure.net) Unit:M535A Status:Dispatched ALS MEDICAL ; 281 MOSELEM CHURCH RD ; ; SCHWOYER RD / MISTY LN ; Muni: RICHMOND ; 79 YOF/VOMITING/COUGHING/PAIN IN SIDE ; 07/11/12 10:04 Sent by Berks County RSAN to Fleetwood EMS All CALL -- You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
+
+Contact: Duane Good <duaneg123@gmail.com>
+Unit:585A Status:Dispatched MVAWITH ; 2330 INTERSTATE 78 E ; I78 MP 23.3 EB; UNKNOWN / RAMP B7 ; Muni: UPPER BERN ; 2 vehs/ ILVER SEDAN / UNK INJS / TX TO PSP  ; 07/11/12 16:33 On Jul 11, 2012 5:55 PM, "Ken Corbin" <ken@cadpage.org> wrote:
+Unit:M590A Status:Dispatched MVAWITH ; S BALDY ST TREXLER AVE ; ; ; Muni: KUTZTOWN ; ; 07/11/12 07:10
+Unit:M590A Status:Dispatched BLS MEDICAL ; 625 SPRING ST ; PENNSYLVANIA DIALYSIS; CROSSING DR / N 6 ST ; Muni: WYOMISSING ; ; 07/10/12 19:58
+Unit:M590B Status:Dispatched MVAUNK ; W MAIN ST NORMAL AVE ; ; ; Muni: KUTZTOWN ; ; 07/10/12 14:06
