@@ -19,8 +19,8 @@ public class INWayneCountyParserTest extends BaseParserTest {
         "DATE:05/31",
         "TIME:20:20",
         "ADDR:81 S 14TH ST",
-        "APT:209 209",
-        "CALL:ALERT",
+        "APT:209",
+        "CALL:209",
         "PLACE:MERLE HENDERSON APTS",
         "X:E MAIN ST & S A ST",
         "INFO:70 Y/O FEMALE.;CONSC AND ALERT. ABLE TO SPEAK. ; DB JUST STARTED.");
@@ -100,6 +100,15 @@ public class INWayneCountyParserTest extends BaseParserTest {
         "CALL:ALERT",
         "PLACE:LELAND RESIDENCE",
         "X:S 10TH ST & S 9TH ST");
+
+    doTest("T10",
+        "(911) 07/13 10:34 322 S 8TH ST OVERDOSE:  S C ST//S E ST MALE TOOK MEDICINE LAST NIGHT APPROX MIDNIGHT SARAQIL AND VISITRIL  UNKNOWN AMOUNT HE IS SLEEPING NOW",
+        "DATE:07/13",
+        "TIME:10:34",
+        "ADDR:322 S 8TH ST",
+        "CALL:OVERDOSE",
+        "X:S C ST & S E ST MALE TOOK MEDICINE LAST NIGHT APPROX MIDNIGHT SARAQIL AND VISITRIL",
+        "INFO:UNKNOWN AMOUNT HE IS SLEEPING NOW");
   }
   
   public static void main(String[] args) {

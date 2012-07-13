@@ -100,10 +100,37 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "TIME:15:45:55",
         "UNIT:M31",
         "INFO:UNCONSCIOUSNESS/FAINTING (NEAR)");
+
+    doTest("T2",
+        "232 ALLEN LN ABERDEEN MDL 30A01 2012028950 15:18:54 M30 TRAUMATIC INJURIES\r",
+        "ADDR:232 ALLEN LN",
+        "CITY:ABERDEEN",
+        "CODE:30A01",
+        "ID:2012028950",
+        "TIME:15:18:54",
+        "UNIT:M30",
+        "CALL:TRAUMATIC INJURIES");
+
+    doTest("T3",
+        "3216 CALLAWAY RD, 2012031795, 05:27:06, F65 MUTUAL AID, COMMERCIAL STRUCTURE CROSS STREET MONTROSE",
+        "ADDR:3216 CALLAWAY RD",
+        "ID:2012031795",
+        "TIME:05:27:06",
+        "UNIT:F65",
+        "CALL:MUTUAL AID");
+
+    doTest("T4",
+        "S: M:1885 ADDOR RD ABERDEEN, 2012031801, 07:04:25, F18 STORM DAMAGE, ",
+        "ADDR:1885 ADDOR RD",
+        "CITY:ABERDEEN",
+        "ID:2012031801",
+        "TIME:07:04:25",
+        "UNIT:F18",
+        "CALL:STORM DAMAGE");
   }
   
 
   public static void main(String[] args) {
-    new NCMooreCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID TIME UNIT CALL INFO");
+    new NCMooreCountyParserTest().generateTests("T2", "ADDR CITY PLACE CODE ID TIME UNIT CALL INFO");
   }
 }
