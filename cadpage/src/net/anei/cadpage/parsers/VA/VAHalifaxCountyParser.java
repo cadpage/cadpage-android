@@ -30,6 +30,10 @@ Contact: ray mason <raycls8@gmail.com>
 Sender: halifaxeoc@co.halifax.va.us
 S:from Central M:12-027904 GENERAL COMPLAINT - SICK\n\nReported: 07/12/2012 06:45:04\n\n3180 LP BAILEY MEM HWY\n\nCARTER S LN /  DUDLEY/RD\n\nSEKPEH HOME FOR ADULTS  HALIFAX\n\n\n\n
 
+Contact: 1502 Mobile <hcrs1502@gmail.com>
+Sender: halifaxeoc@co.halifax.va.us
+(from Central) 12-028036 SHORTNESS OF BREATH, ETC.\n\nReported: 07/13/2012 02:52:32\n\n1002 MELON RD\n\nPHILPOTT RD /  SCHOO/L HOUSE RD\n\nTURBEVILLE FI
+
  */
 public class VAHalifaxCountyParser extends DispatchShieldwareParser {
   
@@ -45,6 +49,8 @@ public class VAHalifaxCountyParser extends DispatchShieldwareParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("from Central")) return false;
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.toUpperCase().startsWith("TURBEVILLE")) data.strCity = data.strCity.substring(0,10);
+    return true;
   }
 }
