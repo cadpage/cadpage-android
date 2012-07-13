@@ -19,6 +19,7 @@ Residential Fire 411 8 AVE S CAST 06/24/12 13:52 CFS #: 963 RESIDENTIAL FIRE  Na
 Grass Fire 15556 37 ST SE CAST GORDYS - 15556 37 ST SE - CAST06/27/12 21:32 CFS #: 962 GRASS FIRE  Nature Of Call: GRASS FIRE  9500-CASTFIR
 Vehicle Fire CAST 322 mm I94 CASS W06/18/12 09:15 CFS #: 277 VEH ON FIRE  BLAZER  NO HAZMAT IN VEH.  UNSURE EXACTLY WHICH EXIT.  THINKS 324, BUT COULD BE 322  ON WB OFF RAMP.    FLAMES IN ENG  Nature Of Call: VEH ON FIRE
 Accident - Injury 14666 42 ST SE CHAF 07/10/12 18:37 CFS #: 23 3 WHEELER 1050I  Nature Of Call: 3 WHEELER 1050I  43YOA M, AWAKE AND BREATHING  Nature Of Call: MDF  9501-CASTFIR 6612-CASTAMB 608 8800-CASSRES
+Accident - Injury 148 AVE SE 33 ST SE WHEA 07/12/12 14:49 CFS #: 147 VEH ON TOP OF SOMEONE  Dispatch received by unit 3519  THEY THINK HE'S CODE 100  Nature Of Call: VEH ON TOP OF SOMEONE  9500-CASTFIR 6612-CASTAMB 609 8800-CASSRES
 
 */
 
@@ -47,7 +48,7 @@ public class NDCassCountyParser extends SmartAddressParser {
     String sAddr = body.substring(0,match.start()).trim();
     String sInfo = body.substring(match.end()).trim();
     
-    parseAddress(StartType.START_CALL, sAddr, data);
+    parseAddress(StartType.START_CALL, FLAG_IMPLIED_INTERSECT, sAddr, data);
     String sPlace = getLeft();
     int pt = sPlace.indexOf(" - ");
     if (pt >= 0) sPlace = sPlace.substring(0,pt).trim();
@@ -69,6 +70,7 @@ public class NDCassCountyParser extends SmartAddressParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CAST", "CASSELTON",
       "CHAF", "CHAFFEE",
+      "WHEA", "WHEATLAND",
       
       "CASS", ""
 

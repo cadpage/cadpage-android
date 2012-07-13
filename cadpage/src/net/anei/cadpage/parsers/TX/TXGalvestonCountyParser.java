@@ -70,13 +70,15 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
     return "SRC " + super.getProgram();
   }
   
-  private static final Pattern AVE_X_ST_PTN = Pattern.compile("\\b(AVE [A-Z]) ST\\b");
+  private static final Pattern AVE_X_ST_PTN = Pattern.compile("\\bAVE ([A-Z]) ST\\b");
+  private static final Pattern AVE_X_ST_PTN2 = Pattern.compile("\\bAVE_([A-Z]) ST\\b");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith("FYI:")) field = field.substring(4).trim();
+      field = AVE_X_ST_PTN.matcher(field).replaceAll("AVE_$1 ST");
       super.parse(field, data);
-      data.strAddress = AVE_X_ST_PTN.matcher(data.strAddress).replaceAll("$1");
+      data.strAddress = AVE_X_ST_PTN2.matcher(data.strAddress).replaceAll("AVE $1");
     }
     
     @Override

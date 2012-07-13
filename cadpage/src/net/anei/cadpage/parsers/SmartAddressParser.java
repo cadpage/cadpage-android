@@ -679,17 +679,20 @@ public abstract class SmartAddressParser extends MsgParser {
         if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_CONNECTOR)) {
           if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX) && 
               !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
-          if (isType(sAddr+1, ID_NUMBERED_ROAD_SFX) && isType(sAddr+1, ID_ROUTE_PFX)) {
-            if (isType(sAddr+2, ID_NUMBER)) break;
-            if (isType(sAddr+2, ID_ROUTE_PFX_EXT) && isType(sAddr+3, ID_NUMBER)) break;
-            
-            // Well, this certainly looks like it is a numbered street or route
-            // rather than a house number.  But there are districts with streets
-            // named for saints, so if the next token is ST, give it a chance
-            // to be a valid street name
-            if (tokens[sAddr+1].equalsIgnoreCase("ST")) {
-              sEnd = findRoadEnd(sAddr+1);
-              if (sEnd > 0) break;
+          if (isType(sAddr+1, ID_NUMBERED_ROAD_SFX)) {
+            if (isType(sAddr+1, ID_ROUTE_PFX)) {
+              if (isType(sAddr+2, ID_NUMBER|ID_ALPHA_ROUTE)) break;
+              if (isType(sAddr+2, ID_ROUTE_PFX_EXT) && isType(sAddr+3, ID_NUMBER|ID_ALPHA_ROUTE)) break;
+              
+              // Well, this certainly looks like it is a numbered street or route
+              // rather than a house number.  But there are districts with streets
+              // named for saints, so if the next token is ST, give it a chance
+              // to be a valid street name
+              if (tokens[sAddr+1].equalsIgnoreCase("ST")) {
+                sEnd = findRoadEnd(sAddr+1);
+                if (sEnd > 0) break;
+              }
+              return false;
             }
             return false;
           }
