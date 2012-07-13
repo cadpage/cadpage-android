@@ -1,10 +1,6 @@
 package net.anei.cadpage.parsers.VA;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 
 
@@ -31,49 +27,22 @@ CAD:0101;STRUCTURE FIRE - COMMERCIAL;333 CARRIAGE HOUSE LN;WEST SHIRLEY AVE;VETE
 
 */
 
-public class VAFauquierCountyParser extends FieldProgramParser {
+public class VAFauquierCountyParser extends DispatchOSSIParser {
   
   public VAFauquierCountyParser() {
     super("Fauquier County", "VA",
-        "CAD:BOX CALL! ADDR! X X UNIT");
+        "BOX CALL! ADDR! X/Z+? UNIT! CH");
   }
 
   @Override
   public String getFilter() {
     return "@c-msg.net";
   }
-
+  
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    if (! parseFields(body.split(";"), 5, data)) return false;
-
-  return true;
-}
-  
-  private static final Pattern UNIT_PTN = Pattern.compile(" *\\b(CO\\d|ST\\d)+(\\d\\d[A-Z])\\b* ");// Unit is labeled as CO# or ST# Channel could be any #Letter
-  private class MyUnitField extends UnitField {
-    
-    @Override
-    public void parse(String field, Data data) {    
-    super.parse(field, data);
-    Matcher match = UNIT_PTN.matcher(field);
-    if (match.find()) {
-      data.strUnit = match.group(1);
-      data.strChannel = match.group(2);
-  } 
-    }
-    @Override
-    public String getFieldNames() {
-      return "UNIT CH";
-    }
+  public Field getField(String name) {
+    if (name.equals("UNIT")) return new UnitField("(?:CO|ST)\\d+");
+    return super.getField(name);
   }
-    @Override
-    protected Field getField(String name) {
-      if (name.equals("UNIT")) return new MyUnitField();
-      return super.getField(name);   
-    }
-    
-
-  
 }
 
