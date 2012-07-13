@@ -17,7 +17,9 @@ public class PaidLimboDonateEvent extends DonateScreenEvent {
   
   public PaidLimboDonateEvent() {
     super(AlertStatus.YELLOW, R.string.donate_paid_limbo_title, R.string.donate_paid_limbo_text,
-           ReqMoneyGroup.instance(), MagicWordEvent.instance());
+           ReqMoneyGroup.instance(), 
+           MagicWordEvent.instance(),
+           DonateWhatsUpEvent.instance());
   }
 
   @Override

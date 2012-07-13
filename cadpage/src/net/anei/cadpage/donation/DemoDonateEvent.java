@@ -15,7 +15,9 @@ public class DemoDonateEvent extends DonateScreenEvent {
     super(AlertStatus.YELLOW, R.string.donate_demo_title, R.string.donate_demo_text,
            ReqMoneyGroup.instance(), MagicWordEvent.instance(),
            Android16DonateEvent.instance(),
-           NoUserDonateEvent.instance(), WrongUserDonateEvent.instance());
+           NoUserDonateEvent.instance(), 
+           WrongUserDonateEvent.instance(),
+           DonateWhatsUpEvent.instance());
   }
 
   @Override
