@@ -45,6 +45,10 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
+    doTest(CALL, "MVA ROLLOVER/20 HWY SERGEANT RD",
+                 "CALL:MVA ROLLOVER /",
+                 "ADDR:20 HWY SERGEANT RD");
+    
     doTest(ADDR, FLAG_NO_IMPLIED_APT, "9922 OLD STATE RD 90 YO FEMALE DIFF BREATHING",
                  "ADDR:9922 OLD STATE RD");
     
@@ -601,6 +605,9 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:BLOOD RD & N AUNT SALLY AV");
     doTest(ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, "JUNK BLOOD RD N AUNT SALLY AV",
         "ADDR:JUNK BLOOD RD & N AUNT SALLY AV");
+    doTest(CALL, FLAG_IMPLIED_INTERSECT, "Accident - Injury 148 AVE SE 33 ST SE BIG BAD JOHNS",
+        "CALL:Accident - Injury",
+        "ADDR:148 AVE SE & 33 ST SE");
   }
   
   @Test

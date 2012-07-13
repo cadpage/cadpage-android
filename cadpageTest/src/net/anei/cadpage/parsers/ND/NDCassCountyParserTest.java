@@ -91,6 +91,17 @@ public class NDCassCountyParserTest extends BaseParserTest {
         "ID:23",
         "INFO:3 WHEELER 1050I  43YOA M, AWAKE AND BREATHING",
         "UNIT:9501-CASTFIR 6612-CASTAMB 608 8800-CASSRES");
+
+    doTest("T18",
+        "Accident - Injury 148 AVE SE 33 ST SE WHEA 07/12/12 14:49 CFS #: 147 VEH ON TOP OF SOMEONE  Dispatch received by unit 3519  THEY THINK HE'S CODE 100  Nature Of Call: VEH ON TOP OF SOMEONE  9500-CASTFIR 6612-CASTAMB 609 8800-CASSRES",
+        "CALL:Accident - Injury",
+        "ADDR:148 AVE SE & 33 ST SE",
+        "CITY:WHEATLAND",
+        "DATE:07/12/12",
+        "TIME:14:49",
+        "ID:147",
+        "INFO:VEH ON TOP OF SOMEONE  Dispatch received by unit 3519  THEY THINK HE'S CODE 100",
+        "UNIT:9500-CASTFIR 6612-CASTAMB 609 8800-CASSRES");
   }
 
   public static void main(String[] args) {
