@@ -22,6 +22,7 @@ The 209 is an apartment or room #. In Indiana, a 10-52 is a medical run. A 10-50
 (911) 06/01 13:27 3601 E MAIN ST : Landmark Comment: WALMART PLAZA Landmark: WALMART  37TH ST//34TH ST  ;JUST INSIDE THE GROCERY ENTRANCE
 (911) 06/01 00:00 BEELOR RD // US 27 10-50 UNK: 3081 BEELOR RD S US 27 // LIBERY AV  VEH IN THE DITCH NO DESC
 (911) 06/01 09:43 900 S A ST : Landmark: LELAND RESIDENCE  S 10TH ST//S 9TH ST
+(911) 07/13 10:34 322 S 8TH ST OVERDOSE:  S C ST//S E ST MALE TOOK MEDICINE LAST NIGHT APPROX MIDNIGHT SARAQIL AND VISITRIL  UNKNOWN AMOUNT HE IS SLEEPING NOW
 
 */
 
@@ -47,16 +48,16 @@ public class INWayneCountyParser extends MsgParser {
     if (!match.matches()) return false;
     data.strDate = match.group(1);
     data.strTime = match.group(2);
-    String sAddr = match.group(3).trim();
+    String sAddr = match.group(3);
     String sExtra = match.group(4).trim();
     
     int pt = sAddr.lastIndexOf(" 10-");
+    if (pt < 0) pt = sAddr.lastIndexOf(' ');
     if (pt >= 0) {
       data.strCall = sAddr.substring(pt+1);
       sAddr = sAddr.substring(0,pt).trim();
-    } else {
-      data.strCall = "ALERT";
     }
+    if (data.strCall.length() == 0) data.strCall = "ALERT";
     pt = sAddr.lastIndexOf('#');
     if (pt >= 0) {
       data.strApt = sAddr.substring(pt+1).trim();
