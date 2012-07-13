@@ -4904,6 +4904,8 @@ SHOWING  CAR IN
 
 DW UNK IF ANYONE HOME    NEAR SHAYS
 
+CAD MSG: *D F2       POCONO MOUNTAIN WEST 215 PANTHER LN\9sOFFICE EXT 81400  // GENRAL FIRE ALARM\r\n\r
+
 **********************************************************
 Unknown
 Contact: Kevin Harris <kev911er@msn.com>
@@ -4915,6 +4917,10 @@ Contact: Tom Macco <tmacco1@gmail.com>
 Sender: zoll@goldcross.org
 (Gold Cross Alert - part 1 of 1) RC:W824 RUSCH RD//BRILLION/Non Emergency/Hemorhage / Laceration//<None>/Run# 9652/18:21/911 Call (County)//
 **********************************************************
+Lake County, FL (Alternate)
+Contact: "Jones, Randy" <RJones@lakecountyfl.gov>
+Sender: Comm@lakeems.org
+SFR 32640 WEBBS WAY, SORRENTO. 75% INVOLVED. SEMINOLE E34 RESP FOR ASSISTANCE. TRAFFIC ON PS6\r
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5046,6 +5052,8 @@ Unit:535A Status:Dispatched BLS TRAUMA ; 2 W PINE ST ; ; S FRANKLIN ST, E PINE S
 Contact: "thirty5tripleuno@yahoo.com" <thirty5tripleuno@yahoo.com>
 Unit:M590A Status:Dispatched ALS MEDICAL ; 7723 HAMILTON BLVD ; ; ; Muni: ; UPPERMACUNGIE TWP- LEHIGH CO/ ; 07/11/12 21:51
 Unit:M590A Status:Dispatched ALS MEDICAL ; 1107 APEX AVE ; ; UNKNOWN / LIFESTYLE LN ; Muni: MAXATAWNY ; 20ish yof layin on ground /is cons ; 07/11/12 20:41
+Unit:M590A Status:Dispatched ALS TRAUMA ; 15620 KUTZTOWN RD ; ; UNKNOWN / CHURCH RD ; Muni: MAXATAWNY ; 10 YOF FELL FROM A WINDOW  UNCONS ; 07/12/12 12:38
+Unit:M590A Status:Dispatched BLS MEDICAL ; 247 RHOADES RD ; ; NUNEMAKER RD / ROTH RD ; Muni: GREENWICH ; RESPONDING FOR BLSMED ; 07/12/12 15:14
 
 Contact: 4843343577@messaging.sprintpcs.com
 Unit:CO61 Status:Dispatched CMA ; 303 WYNDCLIFFE AVE ; ; HILLTOP CT / CHESTNUT ST, WINTERSON DR ; Muni: HAMBURG ;
@@ -5055,3 +5063,6 @@ Contact: Mike Roth <mroth@springtwpberks.org>
 Unit:CO85 Status:Dispatched MVAWITH ; 1780 ACORN DR ; ; TIMBER LN / GRAVEL HILL DR ; Muni: SPRING ; FM SCREAMING SHE IS BLEEDING/  ; 07/12/12 02:03\n\nSent by Berks County RSAN to CO85 All Call
 Unit:E85-2 Status:Dispatched HAZMAT ; 2227 MCKINLEY AVE ; ; UNKNOWN / WEST WYOMISSING BLVD ; Muni: SPRING ; CHF85 AND E85-2 EN FOR ODOR OF GASOLINE IN RESIDENCE ; 07/11/12 10:07\n\nSent by Berks County RSAN to CO85 All Call
 Unit:REN85 Status:Dispatched SF ; 44 WATER ST ; ; POTTSVILLE PKE / N 5 STREET HWY ; Muni: MUHLENBERG ; elderly fm / not answering questions  ; 07/12/12 00:54\n\nSent by Berks County RSAN to CO85 All Call
+
+Contact: VJ GREEK <vjgreek@gmail.com>
+Unit:R1 Status:Dispatched MVAUNK ; OAK LN / RICHMOND ST ; ; ; Muni: LOWER ALSACE ; mc into ditch / on oak ln / ; 07/12/12 12
