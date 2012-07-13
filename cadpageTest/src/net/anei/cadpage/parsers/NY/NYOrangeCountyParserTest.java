@@ -18,4 +18,10 @@ public class NYOrangeCountyParserTest {
       setParser(new NYOrangeCountyParser());
     }
   }
+  
+  public static class TestC extends NYOrangeCountyCParserTest {
+    public TestC() {
+      setParser(new NYOrangeCountyParser());
+    }
+  }
 }
