@@ -45,9 +45,8 @@ public class VAFauquierCountyParserTest extends BaseParserTest {
         "CAD:0304;OUTSIDE/BRUSH/DUMPSTER FIRE;3800-BLK COBBLER MOUNTAIN RD;EASTVIEW LN;DOUBLE J LN;CO3;11B",
         "BOX:0304",
         "CALL:OUTSIDE/BRUSH/DUMPSTER FIRE",
-        "ADDR:3800-BLK",
-        "MADDR:3800 & EASTVIEW LN",
-        "APT::COBBLER MOUNTAIN RD",
+        "ADDR:3800-BLK COBBLER MOUNTAIN RD",
+        "MADDR:3800 COBBLER MOUNTAIN RD",
         "X:EASTVIEW LN & DOUBLE J LN",
         "UNIT:CO3",
         "CH:11B");
@@ -90,7 +89,7 @@ public class VAFauquierCountyParserTest extends BaseParserTest {
     doTest("T9",
         "CAD:0366;VEHICLE FIRE - COMMERCIAL;160 I-66 E;I-66;CO3;11C",
         "BOX:0366",
-        "CALL:VEHICLE FIRE - UNIT:COMMERCIAL",
+        "CALL:VEHICLE FIRE - COMMERCIAL",
         "ADDR:160 I-66 E",
         "MADDR:160 I 66 E",
         "X:I-66",
@@ -147,12 +146,11 @@ public class VAFauquierCountyParserTest extends BaseParserTest {
     doTest("T15",
         "CAD:0101;STRUCTURE FIRE - COMMERCIAL;333 CARRIAGE HOUSE LN;WEST SHIRLEY AVE;VETERANS DR;CO1;11C",
         "BOX:0101",
-        "CALL:STRUCTURE FIRE - UNIT:COMMERCIAL",
+        "CALL:STRUCTURE FIRE - COMMERCIAL",
         "ADDR:333 CARRIAGE HOUSE LN",
         "X:WEST SHIRLEY AVE & VETERANS DR",
         "UNIT:CO1",
         "CH:11C");
-
 
   }
   
