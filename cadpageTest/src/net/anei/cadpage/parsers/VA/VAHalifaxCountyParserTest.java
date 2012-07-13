@@ -160,6 +160,25 @@ public class VAHalifaxCountyParserTest extends BaseParserTest {
         "X:CARTER S LN /  DUDLEY/RD",
         "PLACE:SEKPEH HOME FOR ADULTS",
         "CITY:HALIFAX");
+  }
+  
+  @Test
+  public void test() {
+
+    doTest("T1",
+        "(from Central) 12-028036 SHORTNESS OF BREATH, ETC.\n\n" +
+        "Reported: 07/13/2012 02:52:32\n\n" +
+        "1002 MELON RD\n\n" +
+        "PHILPOTT RD /  SCHOO/L HOUSE RD\n\n" +
+        "TURBEVILLE FI",
+
+        "ID:12-028036",
+        "CALL:SHORTNESS OF BREATH, ETC.",
+        "DATE:07/13/2012",
+        "TIME:02:52:32",
+        "ADDR:1002 MELON RD",
+        "X:PHILPOTT RD /  SCHOO/L HOUSE RD",
+        "CITY:TURBEVILLE");
  }
   
   public static void main(String[] args) {
