@@ -97,7 +97,7 @@ public class COGarfieldCountyParser extends SmartAddressParser {
     // The address field may contain a leading place name, and usually contains a
     // trailing city code.  Unfortunately dispatch is pretty sloppy about separating
     // these fields with blanks, so we won't count on blank separators.
-    for (int len = 2; len<=4; len+=2) {
+    for (int len = 2; len<=4; len++) {
       int pt = sAddr.length() - len;
       if (pt >= 0) {
         String city = CITY_CODES.getProperty(sAddr.substring(pt));
@@ -124,9 +124,12 @@ public class COGarfieldCountyParser extends SmartAddressParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "GS",   "GLENWOOD SPRINGS",
+      "RIF",  "RIFLE",
       "SILT", "SILT",
       "NC",   "NEW CASTLE",
       "Z1",   "Z1",
-      "Z2",   "Z2"
+      "Z2",   "Z2",
+      "Z3",   "Z3"
   });
 }
