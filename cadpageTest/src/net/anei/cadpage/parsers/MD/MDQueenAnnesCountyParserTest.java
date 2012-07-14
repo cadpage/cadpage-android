@@ -65,7 +65,6 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
         "(text message) qac911:*D 4-2 CO ALARM 212 NORTHFIELD WAY LOCAL BOX Q04",
         "CALL:4-2 CO ALARM",
         "ADDR:212 NORTHFIELD WAY",
-        "INFO:LOCAL",
         "BOX:Q04");
     
     doTest("T8",
@@ -206,7 +205,6 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
         "[CAD] D 7-1 CO ALARM 72 ADAM DR LOCAL BOX Q07",
         "CALL:7-1 CO ALARM",
         "ADDR:72 ADAM DR",
-        "INFO:LOCAL",
         "BOX:Q07");
 
   }
@@ -244,6 +242,28 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
         "CITY:KENT",
         "ADDR:10788 CHESTERVILLE RD",
         "INFO:MULTIPLE UNITS HOT KENT");
+  }
+  
+  @Test
+  public void testActive911A() {
+
+    doTest("T1",
+        "[Text Message] QA911com:*D 1-2 GENERAL FIRE ALARM 200 TERRIPAN GROVE LOCAL BOX Q01\n",
+        "CALL:1-2 GENERAL FIRE ALARM",
+        "ADDR:200 TERRIPAN GROVE",
+        "BOX:Q01");
+
+    doTest("T2",
+        "[Text Message] QA911com:*D 1-8 TRAUMATIC INJURY BASKIN ROBINS/ DUNKIN DOUGNUTS @1243 SHOPPIN POSS DANG BODY AREA Q01\n",
+        "CALL:1-8 TRAUMATIC INJURY BASKIN ROBINS/DUNKIN DOUGNUTS",
+        "ADDR:1243 SHOPPIN POSS DANG BODY AREA",
+        "BOX:Q01");
+
+    doTest("T3",
+        "[Text Message] QA911com:*G 1-8 TRAUMATIC INJURY BASKIN ROBINS/ DUNKIN DOUGNUTS @1243 SHOPPIN POSS DANG BODY AREA Q01\n",
+        "CALL:1-8 TRAUMATIC INJURY BASKIN ROBINS/DUNKIN DOUGNUTS",
+        "ADDR:1243 SHOPPIN POSS DANG BODY AREA",
+        "BOX:Q01");
 
   }
   
