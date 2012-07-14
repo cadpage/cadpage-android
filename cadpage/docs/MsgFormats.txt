@@ -5079,3 +5079,6 @@ Unit:REN85 Status:Dispatched SF ; 44 WATER ST ; ; POTTSVILLE PKE / N 5 STREET HW
 
 Contact: VJ GREEK <vjgreek@gmail.com>
 Unit:R1 Status:Dispatched MVAUNK ; OAK LN / RICHMOND ST ; ; ; Muni: LOWER ALSACE ; mc into ditch / on oak ln / ; 07/12/12 12
+
+Contact: alerts@cadpage.org
+(berks.co85@rsix.roamsecure.net) Unit:CO85 Status:Dispatched MF ; 828 BLUE GATE LN ; ; PERSIMMON DR / HEARTHSTONE LN ; Muni: SPRING ; ; 07/13/12 14:09 Sent by Berks County RSAN to CO85 All Call -- You received this message because you registered on Alert Berks. 

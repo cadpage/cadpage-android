@@ -126,6 +126,7 @@ public class COGarfieldCountyParser extends SmartAddressParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "GS",   "GLENWOOD SPRINGS",
       "RIF",  "RIFLE",
+      "SIL",  "SILT",
       "SILT", "SILT",
       "NC",   "NEW CASTLE",
       "Z1",   "Z1",

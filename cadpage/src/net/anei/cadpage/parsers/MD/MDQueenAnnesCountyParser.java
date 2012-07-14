@@ -66,12 +66,17 @@ Sender: rc.579@c-msg.net
 Contact: "emteric7@yahoo.com" <emteric7@yahoo.com>
 [CAD] D KENT MUTUAL AID 10788 CHESTERVILLE RD MULTIPLE UNITS HOT KENT
 
+Contact: Active911.com
+[Text Message] QA911com:*D 1-2 GENERAL FIRE ALARM 200 TERRIPAN GROVE LOCAL BOX Q01\n
+[Text Message] QA911com:*D 1-8 TRAUMATIC INJURY BASKIN ROBINS/ DUNKIN DOUGNUTS @1243 SHOPPIN POSS DANG BODY AREA Q01\n
+[Text Message] QA911com:*G 1-8 TRAUMATIC INJURY BASKIN ROBINS/ DUNKIN DOUGNUTS @1243 SHOPPIN POSS DANG BODY AREA Q01\n
+
 ******************************************************************************/
 
 public class MDQueenAnnesCountyParser extends SmartAddressParser {
   
   private static final Pattern MARKER = Pattern.compile("^(?:(?:qac911|QA911com):\\*)?[DG] ");
-  private static final Pattern BOX_PTN = Pattern.compile("\\b(?:BOX )?([A-Z]{1,2}\\d{2})$");
+  private static final Pattern BOX_PTN = Pattern.compile("\\b(?:(?:LOCAL )?BOX )?([A-Z]{1,2}\\d{2})$");
   private static final Pattern CALL_PTN = Pattern.compile("(?:\\d{1,2}-\\d{1,2} |(.*) MUTUAL AID\\b).*");
   
   public MDQueenAnnesCountyParser() {
@@ -89,6 +94,13 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
     Matcher match = MARKER.matcher(body);
     if (match.find()) body = body.substring(match.end());
     
+    // Strip box from end of text
+    match = BOX_PTN.matcher(body);
+    if (match.find()) {
+      data.strBox = match.group(1);
+      body = body.substring(0, match.start()).trim();
+    } 
+    
     // OK, go do your magic!!
     parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_AT_BOTH, body, data);
     
@@ -100,16 +112,6 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
     
     // Parse box number from what is left
     String sExtra = getLeft();
-    match = BOX_PTN.matcher(sExtra);
-    if (match.find()) {
-      data.strBox = match.group(1);
-      sExtra = sExtra.substring(0, match.start()).trim();
-    } 
-
-    // BOX is required, unless this was a mutual aid call
-    else {
-      if (city == null) return false;
-    }
     
     // What is left is usually supplemental info.  But if the smart address parser
     // picked a place name from the end of the the address, just append what is
@@ -119,7 +121,8 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
     } else {
       data.strSupp = sExtra;
     }
-    
-    return true;
+
+    // BOX is required, unless this was a mutual aid call
+    return (city != null || data.strBox.length() > 0);
   }
 }
