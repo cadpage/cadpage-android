@@ -124,8 +124,8 @@ public class Message {
       if (!match.find()) break;
       String from = match.group(1).trim();
       if (from != null) parseAddress = from;
-      String subj = match.group(2).trim();
-      if (subj != null) parseSubject = subj;
+      String subj = match.group(2);
+      if (subj != null) parseSubject = subj.trim();
       body = trimLead(body.substring(match.end()));
     }
     
