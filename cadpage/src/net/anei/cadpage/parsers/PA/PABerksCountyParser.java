@@ -1,266 +1,166 @@
 package net.anei.cadpage.parsers.PA;
 
-import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
-Berks County, PA
-Contact: "thirty5tripleuno@yahoo.com" <thirty5tripleuno@yahoo.com>
-CAD MSG: *D MVAUNK   E STATE ST / S KEMP ST 0082 2 VEH / COMP IS ANDREW BROOKS / INVOLVED // AT THE INTERSECTION B
-CAD MSG: *D MVAWITH  102 BEAVER CREEK RD 0087 1 VEH / SPUN OUT / MALE OCC (COMP'S HUSBAND) BELIEVES HE FRACTURED H
-CAD MSG: *D FTEST    STATION 35 @110 PARK AV 0082 BERKS TESING THE TEXT PAGING SYSTEM NO ACTION REQUIRED
-CAD MSG: *D MVAUNK   NOBLE ST / BASTIAN RD 0079 ONE CAR, OCCUPIED, INTO A FIELD // ONLY LANDMARK SHE COULD MEN﻿﻿
-CAD MSG: *D SF       28 NOBLE ST 0081 SEES FLAMES IN BASEMENT //ADVISED TO EVAC /
-CAD MSG: *D MVAENT   FORGEDALE RD / DAVIDS DR 0087 2VEHS HEAD ON/2 VICTIMS ENTRAPPED /1 FEMALE SERIOUSLY INJ/BLEED﻿﻿
-Subject:1/2\nCAD MSG: *D FTELE    STATION 35 @110 PARK AV 0082 CALL REF ITEMS SHE HAS THAT ARE BELEIVED TO BELONG TO YOUR COMPA
-
-Contact: Jesse Zerbe <medicjz@gmail.com>
-CAD MSG: *D ALSMED   107 ALLISON PL 0072 80YOM /RESP DIFF / SPITTING UP BLOOD //BEEN INCREASING OVER THE PAST
-
+Berks County, PA (replace)
+Contact: "john.manmiller" <john.manmiller@gmail.com>
+Contact: "kreinert@lyons35fire.com" <kreinert@lyons35fire.com>
+Contact: Diana York <hawkmeadow@gmail.com>
 Contact: Duane Good <duaneg123@gmail.com>
-Sender: alrt_1ODM@berks.alertpa.org
-CAD MSG: *D ALSMED   106 MAIN ST 0063 56 YOF THROAT FEELS LIKE IS SWELLING CLOSED /BREAKING OUT IN RASH/RESP
+Contact: "jamesmiller4525@gmail.com" <jamesmiller4525@gmail.com>
+Contact: "thirty5tripleuno@yahoo.com" <thirty5tripleuno@yahoo.com>
+Contact: 4843343577@messaging.sprintpcs.com
+Contact: Mike Roth <mroth@springtwpberks.org>
+Contact: VJ GREEK <vjgreek@gmail.com>
+Sender: alrt_3WPJ@berks.alertpa.org,@rsix.roamsecure.net
+Unit:M590A Status:Dispatched ALS MEDICAL ; 215 TOWER RD ; ; S PARK AVE / CLAY RD ; Muni: LONGSWAMP ; 64 YOM / IN ACTIVE SIEZURE  ; 07/10/12 12:57
+Unit:M590B Status:Dispatched MVAUNK ; W MAIN ST NORMAL AVE ; ; ; Muni: KUTZTOWN ; ; 07/10/12 14:06
+Unit:M535A Status:Dispatched ALS MEDICAL ; 281 MOSELEM CHURCH RD ; ; SCHWOYER RD / MISTY LN ; Muni: RICHMOND ; 79 YOF/VOMITING/COUGHING/PAIN IN SIDE ; 07/11/12 10:04 Sent by Berks County RSAN to Fleetwood EMS All CALL -- You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
+Unit:M535A Status:Dispatched ALS MEDICAL ; 224 FAITH DR ; ; GENESIS DR, HOPE DR / HOPE DR ; Muni: MAIDENCREEK ; 39YOM/NOT MAKING SENSE/LAYING ON THE FL ; 07/11/12 21:59 Sent by Berks County RSAN to Fleetwood EMS All CALL -- You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
+Unit:585A Status:Dispatched MVAWITH ; 2330 INTERSTATE 78 E ; I78 MP 23.3 EB; UNKNOWN / RAMP B7 ; Muni: UPPER BERN ; 2 vehs/ ILVER SEDAN / UNK INJS / TX TO PSP  ; 07/11/12 16:33 On Jul 11, 2012 5:55 PM, "Ken Corbin" <ken@cadpage.org> wrote:
+Unit:M590A Status:Dispatched MVAWITH ; S BALDY ST TREXLER AVE ; ; ; Muni: KUTZTOWN ; ; 07/11/12 07:10
+Unit:M590A Status:Dispatched BLS MEDICAL ; 625 SPRING ST ; PENNSYLVANIA DIALYSIS; CROSSING DR / N 6 ST ; Muni: WYOMISSING ; ; 07/10/12 19:58
+Unit:M590B Status:Dispatched MVAUNK ; W MAIN ST NORMAL AVE ; ; ; Muni: KUTZTOWN ; ; 07/10/12 14:06
+Unit:R27 Status:Dispatched MVAUNK ; ROUTE 183 MILL RD ; ; ; Muni: UPPER TULPEHOCKEN ; ; 07/12/12 04:48
+Unit:535A Status:Dispatched BLS TRAUMA ; 2 W PINE ST ; ; S FRANKLIN ST, E PINE ST /NEW ALY ; Muni: FLEETWOOD ; 79 YOM FELL IN THE DRIVEWAY ; 07/11/12 14:13
+Unit:M590A Status:Dispatched ALS MEDICAL ; 7723 HAMILTON BLVD ; ; ; Muni: ; UPPERMACUNGIE TWP- LEHIGH CO/ ; 07/11/12 21:51
+Unit:M590A Status:Dispatched ALS MEDICAL ; 1107 APEX AVE ; ; UNKNOWN / LIFESTYLE LN ; Muni: MAXATAWNY ; 20ish yof layin on ground /is cons ; 07/11/12 20:41
+Unit:M590A Status:Dispatched ALS TRAUMA ; 15620 KUTZTOWN RD ; ; UNKNOWN / CHURCH RD ; Muni: MAXATAWNY ; 10 YOF FELL FROM A WINDOW  UNCONS ; 07/12/12 12:38
+Unit:M590A Status:Dispatched BLS MEDICAL ; 247 RHOADES RD ; ; NUNEMAKER RD / ROTH RD ; Muni: GREENWICH ; RESPONDING FOR BLSMED ; 07/12/12 15:14
+Unit:M590A Status:Dispatched LIFT ASSIST ; 35 S WHITEOAK ST SHADE RES ; ; SANDER ALY, N WHITEOAK ST / NORMAL AVE ; Muni: KUTZTOWN ; 74YOM FELL NOT INJ JUST NEEDS HELP GETTING UP ; 07/12/12 17:38
+Unit:M590A Status:Dispatched BLS MEDICAL ; 247 RHOADES RD ; ; NUNEMAKER RD / ROTH RD ; Muni: GREENWICH ; RESPONDING FOR BLSMED ; 07/12/12 15:14
+Unit:M590A Status:Dispatched ALS TRAUMA ; 15620 KUTZTOWN RD ; ; UNKNOWN / CHURCH RD ; Muni: MAXATAWNY ; 10 YOF FELL FROM A WINDOW  UNCONS ; 07/12/12 12:38
+Unit:CO61 Status:Dispatched CMA ; 303 WYNDCLIFFE AVE ; ; HILLTOP CT / CHESTNUT ST, WINTERSON DR ; Muni: HAMBURG ;
+Unit:CO61 Status:Dispatched AFA ; 218 PINE ST ; ; S PEACH ALY / S 2 ST ; Muni: HAMBURG ; ; 07/12/12 06:37
+Unit:CO85 Status:Dispatched MVAWITH ; 1780 ACORN DR ; ; TIMBER LN / GRAVEL HILL DR ; Muni: SPRING ; FM SCREAMING SHE IS BLEEDING/  ; 07/12/12 02:03\n\nSent by Berks County RSAN to CO85 All Call
+Unit:E85-2 Status:Dispatched HAZMAT ; 2227 MCKINLEY AVE ; ; UNKNOWN / WEST WYOMISSING BLVD ; Muni: SPRING ; CHF85 AND E85-2 EN FOR ODOR OF GASOLINE IN RESIDENCE ; 07/11/12 10:07\n\nSent by Berks County RSAN to CO85 All Call
+Unit:REN85 Status:Dispatched SF ; 44 WATER ST ; ; POTTSVILLE PKE / N 5 STREET HWY ; Muni: MUHLENBERG ; elderly fm / not answering questions  ; 07/12/12 00:54\n\nSent by Berks County RSAN to CO85 All Call
+Unit:R1 Status:Dispatched MVAUNK ; OAK LN / RICHMOND ST ; ; ; Muni: LOWER ALSACE ; mc into ditch / on oak ln / ; 07/12/12 12
 
-Contact: jarrod emes <jkemes@gmail.com>
-Sender: _1ZLG@berks.alertpa.org
-CAD MSG: *D MVAWITH  I78 / MP 39.6 EB 0078 MC DRIVER DOWN IN THE ROADWAY / NOT MOVING / 2 TT PULLED OFF TO THE SI
-
-Contact: support@active911.com
-Sender: alert_2NTE@berks.alertpa.org
-CAD MSG: *D BLSTRAUM 101 DOE MOUNTAIN LN @BEAR CREEK SKI AREA 0086   14YOM/BROKEN LEFT WRIST/CON AND ALERT/PT WILL BE IN THE SKI PATROLE RO
-
-Contact: Joe Mcglynn <jmladder57@gmail.com>
-Sender: 1410000029
-FRM: \nMSG:CAD MSG: *D SF       65B MEADOW GLEN LN 0034 HEAVY SMOKE, GETTING WORSE; POSSIBLY COMING FROM DOWNSTAIRS APT; HUNGU
-
-Contact: Michael Wertz <jrfirefighter85@msn.com>
-CAD MSG: *D SF       DIRECTLINK @2561 BERNVILLE RD 0054 PENSKI ENTERANCE / BUILDING 1 TRANSFORMER ROOM / SMOKE IN THE BUILDING
-CAD MSG: *D AFA      RHMC C BUILDING @600 SPRUCE ST 0038 BLDG C/GENERAL FIRE/ATN/610-988-8222
-
-COntact: Diana York <hawkmeadow@gmail.com>
-Sender: alrt_350Z@berks.alertpa.org
-CAD MSG: *D ALSMED   459 MEMORIAL HWY 0091 F IN SEIZURES / 1YOF /
-
-Contact: Phoenix <aphoenixrising13@gmail.com>
-Sender: 1410000075
-FRM: \nMSG:CAD MSG: *D AFA      1501 ELIZABETH AV @THOMS TAVERN 0067 KEYPAD FIRE ALM ZONE 95 BUS # 484-794-6038 / GRUMPY'S BARB
-
-Contact: support@active911.com
-Sender: @berks.alertpa.org
-(berks.co45@rsix.roamsecure.net) CAD MSG: *D MVAUNK   WILLOW RD / OAK LN 0091 1 VEH/ OFF THE ROAD INTO THE TREES/ ON WILLOW RD IN THE BEND RIGHT AFT\n\nSent by Berks County RSAN to CO45 All Call\n\n--\n\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
-(berks.co45@rsix.roamsecure.net) CAD MSG: *D SF       50 MISTY LN 0084 HOUSE ON FIRE /COMP DEAN WINTERS/SMOKE COMING OUT OF WINDOWS/ COMP\n\nSent by Berks County RSAN to CO45 All Call\n\n--\n\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
-(berks.co45@rsix.roamsecure.net) CAD MSG: *D MVAWITH  81 FORGEDALE RD ;NEAR BICK RD 0087 VEH STRUCK SOMEKIND OF CONCRETE FIXTURE/SHE IS CHECKING ON INJURIES/PO\n\nSent by Berks County RSAN to CO45 All Call\n\n--\n\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
-[berks.575@rsix.roamsecure.net] CAD MSG: *D ALSMED   120 TREXLER AV @KUTZTOWN MANORAPT 221  0081 78YOM/PEG TUB CAME OUT/FLUIDS IN HIS LUNGS/TO RHMC/HX DEMENTIA ,DIABET\nSent by Berks County RSAN to Topton EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-[berks.575@rsix.roamsecure.net] CAD MSG: *D ALSMED   403 HEILMAN HSE ; TOPTON LUTHERAN HOME 1 S HOME AVAPT 403  0086 83YOF/ COUGHING UP BLOOD / NORMAL BREATHING / BRIGHT RED/ TO RHMC/\nSent by Berks County RSAN to Topton EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-[berks.575@rsix.roamsecure.net] CAD MSG: *D ALSMED   1 S HOME AV @TOPTON LUTHERAN HOMEAPT 137A  0086 A WING / ROTUNDA ENTRANCE / 83 YOM / ADEMA IN THE LEFT LEG / WEAKNESS\nSent by Berks County RSAN to Topton EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-[berks.co85@rsix.roamsecure.net] CAD MSG: *D SF       721 DANIEL DRAPT 2  0066 FIRE IN BATHROOM\nSent by Berks County RSAN to CO85 All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-[berks.co85@rsix.roamsecure.net] CAD MSG: *D SF       1007 MT LAUREL AV ;FLR 2APT 3  0066 ALARMS SOUNDING //SMOKE SHOWING //\nSent by Berks County RSAN to CO85 All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-[berks.co85@rsix.roamsecure.net] CAD MSG: *D LIFTASST 1348 WEST WYOMISSING CTAPT P  0043 59 YOF /FELL BUT NOT INJ /COMP JUST NEEDS HELP GETTING HER UP /COMP\nSent by Berks County RSAN to CO85 All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-[rfdall@rsix.roamsecure.net] CAD MSG: *G RSF      423 S 16 ST 0019 2ND FLR FRONT WINDOW / FLAMES SHOWING / THEYRE TRYING TO PUT THE FIRE\nSent by Berks County RSAN to Reading Fire All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-
-** NOT PARSING YET ***
-Contact: "greek@vjgreek.com" <greek@vjgreek.com>
-CAD MSG: *D FSB      CITY SB 1, 10, 36, 55, 64,69 @ CITY FIRE INCIDENT CITY 2ND ALARM FIRE/E1 AND E64 RESPOND INTO THE CITYI
-
+Contact: Active911
+(berks.co85@rsix.roamsecure.net) Unit:CO85 Status:Dispatched MF ; 828 BLUE GATE LN ; ; PERSIMMON DR / HEARTHSTONE LN ; Muni: SPRING ; ; 07/13/12 14:09 Sent by Berks County RSAN to CO85 All Call -- You received this message because you registered on Alert Berks. 
+[berks.650@rsix.roamsecure.net] Unit:M650A Status:Dispatched BLS MEDICAL ; 1320 BROADCASTING RD ; ; MERIDIAN BLVD / CONNEL DR ; Muni: SPRING ; RESPONDING FOR BLS MED / DIRECT CALL TO STATION / NFI ; 07/12/12 15:18\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650B Status:Dispatched ALS MEDICAL ; 3121 STATE HILL RD RM17 ; COLUMBIA COTTAGE; YERGER BLVD, WESTBURY DR / LELAND WAY ; Muni: SPRING ; FEMALE CHEST PAIN  ; 07/12/12 15:19\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650E Status:Dispatched CLASS 4 MENTAL ; 107 S 5 ST ROOM 5 ; ; FRANKLIN ST / CHESTNUT ST ; Muni: READING ; FEELING SUICIDAL ; 07/12/12 19:20\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650I Status:Dispatched ALS MEDICAL ; 404 S CHURCH ST ROOM 1 ; GOLDEN RIDGE; PATTERSON DR / PATTERSON DR ; Muni: ROBESONIA ; 88 YOF/ POS TIA ; 07/12/12 19:59\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650E Status:Dispatched ALS MEDICAL ; 1802 TULPEHOCKEN RD RM 277 ; ; UNKNOWN / KISSINGER LN ; Muni: WYOMISSING ; 88 YOF/  ; 07/12/12 21:28\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650I Status:Dispatched ALS MEDICAL ; 101 E FRONT ST ; ; S MAIN ST, N MAIN ST / N WOLF ST ; Muni: BERNVILLE ; 63YOM LABORED BREATHING ; 07/12/12 22:17\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650A Status:Dispatched ALS MEDICAL ; 3012 SUSANNA DR ; ; DANIEL DR / KATHARINE DR ; Muni: SPRING ; ALS ; 07/12/12 22:34\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650B Status:Dispatched DOMESTIC INJURY ; 654 ANNE DR ; ; UNKNOWN / CHRISTOPHER DR ; Muni: WERNERSVILLE ; COMP VS EX HUSB OF GIRLFRIEND/  ; 07/12/12 22:45\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:650T Status:Dispatched CLASS 4 MENTAL ; 4050 CONRAD WEISER PRKWY 4 ; ; MARION DR / SHERIDAN RD ; Muni: MARION ; 21YOF/NEEDS TO BE 302 ; 07/12/12 23:37\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650E Status:Dispatched ALS MEDICAL ; 511 HUNTERS RD ; ; UNKNOWN / UNKNOWN ; Muni: CUMRU ; 76YOM/ BLOOD SUGAR 35/  ; 07/12/12 23:52\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650A Status:Dispatched ALS MEDICAL ; 350 SPORTSMAN RD ; WERNERSVILLE STATE HOSPITAL; WSH ORCHARD RD / WSH MAIN ST ; Muni: SOUTH HEIDELBERG ; 26YOM COUGHING UP BLOOD ; 07/13/12 00:01\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650A Status:Dispatched BLS MEDICAL ; 517 OAK HILL LN ; ; UNKNOWN / UNKNOWN ; Muni: SPRING ; 84 YOF VOMITTING ; 07/13/12 00:51\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650A Status:Dispatched ALS MEDICAL ; 135 BALTHASER RD ; ; N ARTHUR DR, S ARTHUR DR / PRESTON RD ; Muni: SOUTH HEIDELBERG ; 42YOF/ COMP IS PT/  ; 07/13/12 06:39\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650E Status:Enroute BLS MEDICAL ; 1801 CAMBRIDGE AVE D20 ; TENNIS PARK CONDOS; OLD MILL RD / LAUERS LN ; Muni: WYOMISSING ; ; 07/13/12 08:05\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650A Status:Dispatched ALS MEDICAL ; 2701 NORTH MERIDIAN BLVD ; IHOP; BROADCASTING RD / MERIDIAN BLVD ; Muni: SPRING ; ML IN 20'S HAVING SEIZURE ; 07/13/12 10:25\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650E Status:Dispatched ALS MEDICAL ; 1863 LINCOLN AVE VINCENT BECKER RES ; ; BRANDYWINE RD / BRANDYWINE CT ; Muni: WYOMISSING ; 92 YOM ARM IS NUMB/RIGHT EYE DROOPY ; 07/13/12 11:20\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650A Status:Dispatched CLASS 4 MENTAL ; 13 BIRCHWOOD RD ; ; LARCHWOOD RD, CEDARWOOD RD / LARCHWOOD RD ; Muni: WYOMISSING ; sam crisis ; 07/13/12 11:30\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650I Status:Dispatched ALS MEDICAL ; 356 S FREEMAN ST ; ; E MEADOW AVE / W FREEMAN ST, FURNACE ST ; Muni: ROBESONIA ; 90 YOF / VERY WEAK / DEHYDRATED  ; 07/13/12 12:06\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650B Status:Dispatched ALS MEDICAL ; 310 STITZER AVE ; ; E WILSON AVE, W WILSON AVE / E NORMAN ST, W NORMAN ST ; Muni: WERNERSVILLE ; 88 YOM NOT RESPONDING WELL ; 07/13/12 12:40\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.650@rsix.roamsecure.net] Unit:M650B Status:Dispatched BLS TRAUMA ; 2912 STATE HILL RD APT B3 ; ; No Cross Streets Found ; Muni: SPRING ; BERKSHIRE ESTATES APTS ; 07/13/12 13:43\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
 
 */
 
-public class PABerksCountyParser extends SmartAddressParser {
-  
-  private static final Pattern MARKER = Pattern.compile("CAD MSG: \\*[DG] ");
-  private static final Pattern MUNI_CODE_PAT = Pattern.compile(" 00(\\d\\d) ");
+public class PABerksCountyParser extends FieldProgramParser {
   
   public PABerksCountyParser() {
-    super("BERKS COUNTY", "PA");
+    super("BERKS COUNTY", "PA",
+           "UNITCALL! ADDR/iS! PLACE! X! Muni:CITY! INFO DATETIME");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "@berks.alertpa.org,@rsix.roamsecure.net";
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-
-    // Strip off any prefix
-    Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    body = body.substring(match.start());
     
-    // Strip of trailing fluff
-    int pt = body.indexOf('\n');
+    // Strip off message trailer
+    int pt = body.indexOf("Sent by Berks County RSAN");
     if (pt >= 0) body = body.substring(0,pt).trim();
     
-    // Extract primary call description
-    if (body.length() < 20) return false;
-    String call = body.substring(12, 20).trim();
-    String desc = CALL_CODES.getProperty(call);
-    if (desc != null) call = call + " - " + desc;
-    data.strCall = call;
-    body = body.substring(20);
-    
-    // Look for a 4 digit station ID, this marks the end of the address
-    match = MUNI_CODE_PAT.matcher(body);
-    if (! match.find()) return false;
-    
-    String muniCode = match.group(1);
-    int iMuniCode = Integer.parseInt(muniCode);
-    iMuniCode -= FIRST_MUNI_CODE;
-    if (iMuniCode >= 0 && iMuniCode < MUNI_CODES.length && MUNI_CODES[iMuniCode] != null) {
-      data.strCity = MUNI_CODES[iMuniCode];
-    } else {
-      data.strCity = muniCode;
-    }
-    String address = body.substring(0, match.start()).trim();
-    body = body.substring(match.end()).trim();
-    
-    // Check for cross street
-    pt = address.indexOf(" ;NEAR ");
-    if (pt >= 0) {
-      data.strCross = address.substring(pt+7).trim();
-      address = address.substring(0,pt).trim();
-    }
-    
-    // See if address ends with an APT designation
-    pt = address.indexOf("APT ");
-    if (pt >= 0) {
-      data.strApt = address.substring(pt+4).trim();
-      address = address.substring(0,pt).trim();
-    }
-    
-    // Check for floor
-    pt = address.indexOf(";FLR ");
-    if (pt >= 0) {
-      data.strApt = append(address.substring(pt+1), " - APT ", data.strApt);
-      address = address.substring(0,pt).trim();
-    }
-    
-    // An '@' splits place name from address
-    // They aren't consistent about which is which, so we will use the address
-    // check logic to make that determination
-    pt = address.indexOf('@');
-    if (pt < 0) pt = address.indexOf(';');
-    if (pt >= 0) {
-      String part1 = address.substring(0, pt).trim();
-      String part2 = address.substring(pt+1).trim();
-      Result res1 = parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, part1);
-      Result res2 = parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, part2);
-      if (res1.getStatus() > res2.getStatus()) {
-        res1.getData(data);
-        data.strPlace = append(data.strPlace, " - ", part2);
-      } else {
-        res2.getData(data);
-        data.strPlace = append(part1, " - ", data.strPlace);
-      }
-    } else {
-      parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, address, data);
-    }
-    
-    // Anything beyond that is supplemental info
-    data.strSupp = body.replaceAll("//+", "/");
-    
-    return true;
+    return parseFields(body.split(";"), data);
   }
   
-  private static final int FIRST_MUNI_CODE = 19;
-  private static final String[] MUNI_CODES = new String[]{
-    /*19*/  "READING",
-    /*20*/  null,
-    /*21*/  "MOUNT PENN",
-    /*22*/  "ST. LAWRENCE",
-    /*23*/  "LOWER ALSACE TWP",
-    /*24*/  "ALSACE TWP",
-    /*25*/  "EXETER TWP",
-    /*26*/  "AMITY TWP",
-    /*27*/  "DOUGLASS TWP",
-    /*28*/  "UNION TWP",
-    /*29*/  "BIRDSBORO",
-    /*30*/  "NEW MORGAN",
-    /*31*/  "ROBESON TWP",
-    /*32*/  "CAERNARVON TWP",
-    /*33*/  "BRECKNOCK TWP",
-    /*34*/  "CUMRU TWP",
-    /*35*/  "MOHTON",
-    /*36*/  "SHILLINGTON",
-    /*37*/  "KENHORST",
-    /*38*/  "WEST READING",
-    /*39*/  "WYOMISSING",
-    /*40*/  null,
-    /*41*/  "OLD WYOMISSING HILLS",
-    /*42*/  "OLD WEST LAWN",
-    /*43*/  "SPRING TWP",
-    /*44*/  "SINKING SPRINGS",
-    /*45*/  "SOUTH HEIDELBERG TWP",
-    /*46*/  "WERNERSVILLE",
-    /*47*/  "ROBESONIA",
-    /*48*/  "HEIDELBERG",
-    /*49*/  "WOMELSDORF",
-    /*50*/  null,
-    /*51*/  "MARION TWP",
-    /*52*/  "NORTH HEIDELBERG",
-    /*53*/  "LOWER HEIDELBERG",
-    /*54*/  "BERN TWP",
-    /*55*/  "CENTRE TWP",
-    /*56*/  "PENN TWP",
-    /*57*/  "BERNVILLE",
-    /*58*/  "JEFFERSON TWP",
-    /*59*/  "UPPER BERN TWP",
-    /*60*/  "CENTERPORT",
-    /*61*/  "TILDEN TWP",
-    /*62*/  "UPPER TULPEHOCKEN TWP",
-    /*63*/  "STRAUSSTOWN",
-    /*64*/  "BETHEL TWP",
-    /*65*/  "TULPEHOCKEN TWP",
-    /*66*/  "MUHLENBERG TWP",
-    /*67*/  "LAURELDALE",
-    /*68*/  null,
-    /*69*/  "ONTELAUNEE TWP",
-    /*70*/  null,
-    /*71*/  "LEESPORT",
-    /*72*/  "MAIDENCREEK TWP",
-    /*73*/  "PERRY TWP",
-    /*74*/  "SHOEMAKERSVILE",
-    /*75*/  "WINDSOR TWP",
-    /*76*/  "HAMBURG",
-    /*77*/  "ALBANY TWP",
-    /*78*/  "GREENWICH TWP",
-    /*79*/  "MAXATAWNY TWP",
-    /*80*/  "LENHARTSVILLE",
-    /*81*/  "KUTZTOWN",
-    /*82*/  "LYONS",
-    /*83*/  "FLEETWOOD",
-    /*84*/  "RICHMOND TWP",
-    /*85*/  "TOPTON",
-    /*86*/  "LONGSWAMP TWP",
-    /*87*/  "ROCKLAND TWP",
-    /*88*/  "DISTRICT TWP",
-    /*89*/  "PIKE TWP",
-    /*90*/  null,
-    /*91*/  "RUSCOMBMANOR TWP",
-    /*92*/  "OLEY TWP",
-    /*93*/  "EARL TWP",
-    /*94*/  "BOYERTOWN",
-    /*95*/  "COLEBROOKDALE TWP",
-    /*96*/  "BECHTELSVILLE",
-    /*97*/  "WASHINGTON TWP",
-    /*98*/  "BALLY",
-    /*99*/  "HEREFORD TWP"
-  };
+  private static final Pattern UNIT_CALL_PTN = Pattern.compile("Unit:([-A-Z0-9]+) Status:(?:Dispatched|Enroute) (.*)");
+  private class MyUnitCallField extends Field {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = UNIT_CALL_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strUnit = match.group(1);
+      data.strCall = match.group(2).trim();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "UNIT CALL";
+    }
+  }
   
-  private static final Properties CALL_CODES = buildCodeTable(new String[]{
-      "MVAENT", "Accident w/ entrapment",
-      "MVAUNK", "Accident unknown inj",
-      "MVAWITH", "Accident w/ injury",
-      "SF", "Structure Fire",
-      "RSF", "Reading Structure Fire",
-      "RAFA", "Reading Fire Alarm",
-      "REMERG", "Reading Emerge",
-      "RMISC", "Reading Misc",
-      "RBF", "Reading Brush Fire",
-      "BF", "Brush Fire",
-      "CMA", "Carbon Monoxide",
-      "AFA", "Fire Alarm",
-      "VF", "Vehicle Fire",
-      "FS", "Fire Service",
-      "FSB", "Fire Scene Standby"
-  });
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.endsWith(" RES")) {
+        field = field.substring(0,field.length()-4).trim();
+        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, field, data);
+        data.strName = getLeft();
+      } else {
+        super.parse(field, data);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " NAME";
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("No Cross Streets Found")) return;
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern INFO_CITY_COUNTY_PTN  = Pattern.compile("(.*)-(.*)/(.*)");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = INFO_CITY_COUNTY_PTN.matcher(field);
+      if (match.matches()) {
+        data.strCity = match.group(1).trim() + ',' + match.group(2).trim();
+        field = match.group(3).trim();
+      }
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d");
+  private class MyDateTimeField extends DateTimeField {
+    @Override
+    public void parse(String field, Data data) {
+      if (!DATE_TIME_PTN.matcher(field).matches()) return;
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("UNITCALL")) return new MyUnitCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    return super.getField(name);
+  }
+  
 }

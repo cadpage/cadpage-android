@@ -1174,7 +1174,7 @@ public abstract class SmartAddressParser extends MsgParser {
               inApt = ndx;
               stApt = ndx + 1;
             }
-            else if (tokens[ndx].startsWith("#")) {
+            else if (isAptToken(tokens[ndx], false)) {
               inApt = stApt = ndx;
             }
           }
@@ -1599,12 +1599,49 @@ public abstract class SmartAddressParser extends MsgParser {
   private boolean isAptToken(int ndx) {
     if (isFlagSet(FLAG_NO_IMPLIED_APT)) return false;
     if (ndx >= tokens.length) return false;
-    String token = tokens[ndx];
-    
-    if (token.length() > 4) return false;
-    char chr = token.charAt(0);
-    return (chr == '#' || Character.isDigit(chr));
+    return isAptToken(tokens[ndx], true);
   }
+  
+  /**
+   * Determine if token is a valid single apartment token
+   * @param token token to be checked
+   * @param numberOK true if tokens that start with a digit should be considered valid
+   * @return true if this is an apartment token
+   */
+  private boolean isAptToken(String token, boolean numberOK) {
+    int pt = getAptBreak(token);
+    if (pt < 0) return false;
+    if (token.length()-pt > 4) return false;
+    if (pt == 0) return numberOK;
+    String prefix = token.substring(0,pt).toUpperCase();
+    Integer flags = dictionary.get(prefix);
+    return flags != null && (flags & ID_APPT) != 0;
+  }
+
+  /**
+   * Extract the Apt value from a token that has previously been
+   * identified as a single word apartment token
+   * @param token token to be checked
+   * @return apartment value
+   */
+  private String getAptValue(String token) {
+    int pt = getAptBreak(token);
+    return token.substring(pt);
+  }
+  
+  /**
+   * Identify the break between the Apt keyword and value in a token
+   * that we are trying to identify as a single word apt token
+   * @param token Token to be checked
+   * @return offset into token of start of apartment value
+   */
+  private int getAptBreak(String token) {
+    if (token.startsWith("#")) return 1;
+    Matcher match = DIGIT.matcher(token);
+    if (match.find()) return match.start();
+    return -1;
+  }
+  private static final Pattern DIGIT = Pattern.compile("\\d");
   
   /**
    * This class contains a searchable list of multi word items.  It will be
@@ -1782,7 +1819,7 @@ public abstract class SmartAddressParser extends MsgParser {
       
       if (startApt >= 0) {
         data.strApt = buildData(startApt, end, 0);
-        if (data.strApt.startsWith("#")) data.strApt = data.strApt.substring(1);
+        if (startApt == initApt) data.strApt = getAptValue(data.strApt);
         end = initApt;
       }
       

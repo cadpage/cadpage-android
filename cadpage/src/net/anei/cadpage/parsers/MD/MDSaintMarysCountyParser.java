@@ -218,7 +218,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
         // parse the previous address and drop through to treat this
         // one as the first cross street
         lastResult.getData(data);
-        data.strApt = lastResult.getLeft();
+        data.strApt = append(data.strApt, "-", lastResult.getLeft());
         ndx++;
         
       case 3:
