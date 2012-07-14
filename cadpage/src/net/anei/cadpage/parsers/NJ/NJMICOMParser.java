@@ -64,7 +64,7 @@ public class NJMICOMParser extends MsgParser {
   
   @Override
   public String getLocName() {
-    return "MICOM (northern NJ), NJ";
+    return "MICCOM (northern NJ), NJ";
   }
 
   @Override
