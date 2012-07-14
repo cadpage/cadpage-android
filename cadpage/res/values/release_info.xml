@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07062012</string>
-  <string name="release_version">v1.5.45</string>
+  <string name="release_date">07142012</string>
+  <string name="release_version">v1.5.46</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 New Locations:\n
-Montcalm County, NY\n
-Monroe County, NY (alt)\n
-Cass County, ND\n
-Blount County, TN\n
-Summit County, UT\n
-Washington County, VA\n
-Mineral County, VW\n
+Garfield County, CO\n
+Middlesex County, CT\n
+New Castle County, DE (alt)\n
+Orange County, NY (alt)\n
+Hays County, TX\n
 \n
 Location Parsing Fixes:\n
+General Location\n
+Douglas County, CO\n
 Madison County, AL\n
-Stamford, CT\n
 Wayne County, IN\n
-Prince George"'"s County, MD\n
+Prince Georges County, MD\n
+Queen Annes County, MD\n
 Saginaw County, MI\n
-MICON, NJ\n
-Currituck County, NC\n
-Lincoln County, NC\n
 Guilford County, NC\n
-Pitt County, NC\n
-Cambria County, PA\n
-Jefferson County, PA\n
-Lebanon County, PA\n
-Mercer County, PA\n
-Washington County, PA\n
-York County, PA\n
-Pennington County,SD\n
-Collin County, TX\n
-Galveston County, TX\n
-Harris County ESD#1, TX\n
-William County, VA\n
+Moore County, NC\n
+Wilkes County, NC\n
+Cass County, ND\n
+Berks County, PA\n
+Erie County, PA\n
+Halifax County, VA\n
+Loudoun County, VA\n
 \n
 General Fixes:\n
-Fixed force close in Map search logic\n
+Added support for next generation direct paging protocol\n
+Force close in subscription purchase logic\n
   </string>  
 </resources>
   
