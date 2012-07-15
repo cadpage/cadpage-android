@@ -63,6 +63,7 @@ ERIE911:28C2L >STROKE-ABNORMAL BREATH <2HRS 835 LINDEN AVE XS: W LAKE RD MILLCRE
 Contact: Matt Exley <mexley46@gmail.com>
 Sender: messaging@iamresponding.com
 FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:69C >STRUCTURE FIRE CHARLEY RESPONS 705 POTOMAC AVE XS: W LAKE RD MILLCREEK TWP\r\n
+FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:10D1 >CHEST PAIN - PATIENT NOT ALERT 4101 RIDGEWOOD DR XS: VISTA DR MILLCREEK TWP\r\n
 
 */
 
