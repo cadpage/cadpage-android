@@ -368,7 +368,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
  }
   
   @Test
-  public void test() {
+  public void testMattExley() {
 
     doTest("T1",
         "FRM:messaging@iamresponding.com\n" +
@@ -380,6 +380,17 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "ADDR:705 POTOMAC AVE",
         "CITY:MILLCREEK TWP",
         "X:W LAKE RD");
+
+    doTest("T2",
+        "FRM:messaging@iamresponding.com\n" +
+        "SUBJ:West Ridge Fire\n" +
+        "MSG:10D1 >CHEST PAIN - PATIENT NOT ALERT 4101 RIDGEWOOD DR XS: VISTA DR MILLCREEK TWP\r\n",
+
+        "SRC:West Ridge Fire",
+        "CALL:CHEST PAIN - PATIENT NOT ALERT",
+        "ADDR:4101 RIDGEWOOD DR",
+        "CITY:MILLCREEK TWP",
+        "X:VISTA DR");
 
   }
   

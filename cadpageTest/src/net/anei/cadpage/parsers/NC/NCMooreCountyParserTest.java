@@ -127,10 +127,19 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "TIME:07:04:25",
         "UNIT:F18",
         "CALL:STORM DAMAGE");
-  }
+
+    doTest("T5",
+        "S: M:675 WHITE ROCK RD VASS, 2012031934, 02:47:52, M29 TRAFFIC ACCIDENT,",
+        "ADDR:675 WHITE ROCK RD",
+        "CITY:VASS",
+        "ID:2012031934",
+        "TIME:02:47:52",
+        "UNIT:M29",
+        "CALL:TRAFFIC ACCIDENT");
+ }
   
 
   public static void main(String[] args) {
-    new NCMooreCountyParserTest().generateTests("T2", "ADDR CITY PLACE CODE ID TIME UNIT CALL INFO");
+    new NCMooreCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID TIME UNIT CALL INFO");
   }
 }
