@@ -1,15 +1,12 @@
 package net.anei.cadpage.parsers.MD;
 
 import java.util.Properties;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /***
 Cambridge, MD
-Very Similar to Fredrick County, MD, May be same vendor
 Contact:ryan travers <traversboy@gmail.com>
 Sender:dor911@docogonet.com
 DOR911:CT:COMMERCIAL FIRE ALAR 2715 OCEAN GTWY @HOLIDAY INN CAMB BOX:1-1 DUE:EN1-1 EN1-2 :DC
@@ -17,20 +14,18 @@ DOR911:CT:GAS LEAK OUTSIDE 513 RACE ST CAMB BOX:1-2 DUE: EN1-1 EN1-2 :DC
 DOR911:CT:VEHICLE FIRE HARDEES @800 WOODS RD CAMB BOX:1-1 DUE:EN1-3 EN1-4 :DC
 DOR911:CT:STRUCTURE FIRE 118 VIRGINIA AVE CAMB BOX:1-1 DUE: EN1-1 EN1-2 EN1-3 RS1-1 TW1-1 P100 :DC
 DOR911:CT:SICK PERSON 5226 WOODS RD @CAMBRIDGE CLUB APT 6 APT 6127 CAMB BOX:1-1 DUE: P101 RS1-1 :DC
+
+Contact: Jeff Lewis <jeff.lewis37@yahoo.com>
+Sender: DOR911@docogonet.com
+DOR911:CANCEL LAST ALERT AUTH OF ALARM CO 835 :DC\r
+
 ***/
 
-public class MDCambridgeParser extends SmartAddressParser {
-
-  private static final String[]Cambridgekeywords = new String[]{"CT", "BOX", "DUE",};
-  private static final Pattern MARKER = Pattern.compile("@\\d");
-  
-  private static final Properties CITY_CODE_TABLE = 
-    buildCodeTable(new String[]{
-        "CAMB","Cambridge"
-    });
+public class MDCambridgeParser extends FieldProgramParser {
 
   public MDCambridgeParser(){
-    super(CITY_CODE_TABLE, "CAMBRIDGE", "MD");
+    super(CITY_CODES, "CAMBRIDGE", "MD",
+           "CT:ADDR/S0C! BOX:BOX! DUE:UNIT!");
   }
 
   
@@ -38,48 +33,41 @@ public class MDCambridgeParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
     
     
-    if (!body.contains("DOR911") ) return false;
-    
-    // If there is a : right after city then there is Supp data between City Code and ESZ:
-    body = body.substring(body.indexOf(":")+1);
-    
-    Properties props = parseMessage(body, Cambridgekeywords);
-    String strAddr = props.getProperty("CT","");
-    
-    // Everything changes if this is a Mutual aid call
-    int ipt = strAddr.indexOf(" @MA ");
-    if (ipt >= 0) {
-      data.strCall = "Mutual Aid: " + strAddr.substring(0, ipt).trim();
-      int ipt2 = strAddr.indexOf(':', ipt);
-      if (ipt2 < 0) ipt2 = strAddr.length();
-      data.strCity = strAddr.substring(ipt+5, ipt2).trim();
-      strAddr = strAddr.substring(ipt2+1).trim().replaceAll("@", "");
-      parseAddress(strAddr, data);
-    }
-
-    else {
-      Matcher match = MARKER.matcher(body);
-      if (! match.find()) {
-      Parser p = new Parser(strAddr);
-      strAddr = p.get('@');
-      data.strPlace = p.get();
-      } 
-      parseAddress(StartType.START_CALL, strAddr, data);
-    }
-    
-    data.strBox = props.getProperty("BOX", "");
-    data.strUnit = props.getProperty("DUE", "");
-    int iptb = data.strPlace.length();
-    if (iptb >1 ) {
-      // This address has a place name so City is in place
-      int idx = data.strPlace.lastIndexOf(" ");
-      data.strCity= data.strPlace.substring(idx).trim();
-      data.strPlace = data.strPlace.substring(0,idx).trim();
-    } 
-    data.strCity = convertCodes(data.strCity, CITY_CODE_TABLE);
-    if (data.strUnit.contains(":DC") ) {
-        data.strUnit = data.strUnit.substring(0,data.strUnit.indexOf(":")).trim();
-      }
-    return true;
+    if (!body.startsWith("DOR911:") ) return false;
+    body = body.substring(7).trim();
+    if (body.endsWith(":DC")) body = body.substring(0,body.length()-3).trim();
+    return super.parseMsg(body, data);
   }
+    
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // Everything changes if this is a Mutual aid call
+      int ipt = field.indexOf(" @MA ");
+      if (ipt >= 0) {
+        data.strCall = "Mutual Aid: " + field.substring(0, ipt).trim();
+        int ipt2 = field.indexOf(':', ipt);
+        if (ipt2 < 0) ipt2 = field.length();
+        data.strCity = field.substring(ipt+5, ipt2).trim();
+        field = field.substring(ipt2+1).trim().replaceAll("@", "");
+        parseAddress(field, data);
+      }
+  
+      else {
+        super.parse(field, data);
+      }
+    }
+  }
+    
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
+  private static final Properties CITY_CODES = 
+    buildCodeTable(new String[]{
+        "CAMB","Cambridge"
+  });
 }
