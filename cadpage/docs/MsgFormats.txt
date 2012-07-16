@@ -4034,10 +4034,8 @@ Sender: alarm-bounces@libertycornerfire.org
 Liberty Corner, NJ (Sommerset County)
 Contact: support@active911.com
 Sender: <RGizienski@bernardspd.org>
-Subject: [Alarm] FD-2012-000137
-Body: 8323 @ 3575 VALLEY RD [CR 512]/MT AIRY RD [CR 525]  , BASKING RIDGE - GAS LEAK.
-Subject: [Alarm] (no subject)
-Body:  54 ALEXANDRIA WY (HAMPTON CT TO SALEM CT) CO ALARM NEGATIVE ILLNESS, CASE # 139
+([Alarm] FD-2012-000137) 8323 @ 3575 VALLEY RD [CR 512]/MT AIRY RD [CR 525]  , BASKING RIDGE - GAS LEAK.
+([Alarm] (no subject))  54 ALEXANDRIA WY (HAMPTON CT TO SALEM CT) CO ALARM NEGATIVE ILLNESS, CASE # 139
 **********************************************************
 Marion County (N), OR (Replacement)  
 Contact: Louis Gisler <lgisler1@gmail.com>
@@ -4322,8 +4320,7 @@ Agency name: Williamstown Fire Co. #1 Location: Williamstown, NJ (Gloucester Cou
 Contact: Active911.com
 Sender: "GC RSAN #367031" <alert367031@private.gloucesteralert.com>
 From: "GC RSAN #367299" <alert367299@private.gloucesteralert.com>
-Subject: Gloucester ERC Alert
-Body: ALL members report 10:30am in class A uniforms for a parade detail.
+(Gloucester ERC Alert) ALL members report 10:30am in class A uniforms for a parade detail.
 
 Sent to FD 29-1 WILLIAMSTOWN FC (Voice/Fax Dialer, e-mail accounts, Pagers, cell phones devices) through Gloucester County RSAN
 **********************************************************
