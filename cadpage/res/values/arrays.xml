@@ -628,6 +628,7 @@
     <item>SCYorkCounty</item>
     <item>SDMinnehahaCounty</item>
     <item>SDPenningtonCounty</item>
+    <item>SDUnionCounty</item>
     <item>TNAndersonCounty</item>
     <item>TNBlountCounty</item>
     <item>TNCumberlandCounty</item>
@@ -1083,6 +1084,7 @@
     <item>York County, SC</item>
     <item>Minnehaha County, SD</item>
     <item>Pennington County, SD</item>
+    <item>Union County, SD</item>
     <item>Anderson County, TN</item>
     <item>Blount County, TN</item>
     <item>Cumberland County, TN</item>

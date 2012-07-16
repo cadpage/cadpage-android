@@ -2378,6 +2378,11 @@ Minnehaha county, SD (SDMinnehahaCountyParser)
 930 Quad 460 - BR 904 SNOWBERRY AVE BR Conv Seizure C3 2011-00000374
 930 Quad 2060 - VS I 90 MM 410 VS Sick Person C1 2011-00000028
 *******************************************************************************
+Union County, SD (SDUnionCountyParser)
+(J:SICK PERSON/212 E SAWGRASS TRL DAKOTA DUNES/DAKOTA DUNES BLVD & PEBBLE BEACH DR/) SICK PERSON/212 E SAWGRASS TRL DAKOTA DUNES/DAKOTA DUNES BLVD & PEBBLE BEACH DR/DDUNES/ 72EMS9/CANCER PATIENT--58YR FEMALE
+(J:FIRE ALARM/663 W SAWGRASS TRL DAKOTA DUNES/FIRETHORN TRL & SPYGLASS CIR/DDUNES/) FIRE ALARM/663 W SAWGRASS TRL DAKOTA DUNES/FIRETHORN TRL & SPYGLASS CIR/DDUNES/ 72E5/HOUSE SMOKE DETECTORS---HESSE RES
+(J:GRASS FIRE/1 UNKNOWN ST NORTH SIOUX UNKNS/NSIOUX/ 72B1 72EMS9 72E4 72E5 72F7 72Q) GRASS FIRE/1 UNKNOWN ST NORTH SIOUX UNKNS/NSIOUX/ 72B1 72EMS9 72E4 72E5 72F7 72Q6 72R8/COUNTY RD 23  IN 2 DIFF SPOTS FIRE S THAT ARE 200SQ FT
+*******************************************************************************
 Pennington county, SD (SDPenningtonCountyParser)
 (page ) Unit:29H1 Status:dispatched diabetic 12823 old hill city rd pennco Problem: blood sugar issues. Patient info: 1 patient(s) 58 years old; female
 (page ) Unit:29H1 Status:dispatched seizure 209 Main St Hill City Cafe ProQA Medical Dispatch Message Sent; Dispatch code: 12-D-02 Problem :SE
@@ -5046,4 +5051,3 @@ Sender: rc.439@c-msg.net
 (VEST) [VEST] CRASH012 12 Ic# 28 CRASH012 Ds# 130001 Al# 1 Utl# G-115 07/04/121800 W LINCOLNWAY HW OS <> N PEONY AVHEAD ON CRASH 2244
 (VEST) [VEST] CRASH004 12 Ic# 37 CRASH004 Ds# 121001 Al# 1 Utl# G-2 07/04/1250585 SR 23 HW HA <> BIRCH RDROLLOVER NO ENTRAPMENT 2317
 **********************************************************
-
