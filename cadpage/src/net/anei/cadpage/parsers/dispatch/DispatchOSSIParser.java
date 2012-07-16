@@ -203,7 +203,7 @@ public class DispatchOSSIParser extends FieldProgramParser {
   
   @Override
   protected Field getField(String name) {
-    if (name.equals("FYI")) return new SkipField("FYI:");
+    if (name.equals("FYI")) return new SkipField("FYI:|Update:");
     return super.getField(name);
   }
 }

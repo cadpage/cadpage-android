@@ -382,7 +382,7 @@ public abstract class SmartAddressParser extends MsgParser {
    * numeric value in which higher values indicate better addresses
    */
   protected int checkAddress(String address, int extra) {
-    return parseAddress(StartType.START_ADDR, 0, address).getStatus(extra);
+    return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, address).getStatus(extra);
   }
 
   /**

@@ -1,8 +1,7 @@
 package net.anei.cadpage.parsers.TX;
 
-import java.util.HashSet;
 import java.util.Properties;
-import java.util.Set;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -40,13 +39,82 @@ CAD:FYI: ;120027776;02/12/2012 23:38:48;FIRE STRUCTURE;1402 CHEYENNE RD;LARAMIE 
 CAD:FYI: ;120027767;02/12/2012 23:05:32;BREATHING PROBLEMS;1652 KNOLL RIDGE CIR;SHADOW CREST DR;LCFD;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT:
 CAD:FYI: ;120112563;06/11/2012 08:33:17;HEAT COLD EXPOSURE;201-147 N SHADY SHORES RD;LAKE DALLAS;E OVERLY DR;LCFD;[Medical Priority Info] P
 
+Contact: Active911
+Agency name: Argyle Fire District Location: Argyle, TX 
+Sender: CAD@dentoncounty.com
+
+(Message Forwarded by PageGate)120123579;06/25/2012 19:30:24;ARFD;CITIZEN ASSIST;422 WOLF RUN RD;COYOTE CT;BARTONVILLE
+(Message Forwarded by PageGate)120123585;06/25/2012 19:35:41;ARFD;TRAFFIC TRANSPORT INCIDENT;MICHELLE WAY/ROBSON RANCH RD;DENTON COUNTY
+(Message Forwarded by PageGate)120123782;06/26/2012 03:17:55;ARFD;FALLS;1281 MEADOWS AVE;BONHAM PKWY;SHEPHERD CT;DENTON COUNTY
+(Message Forwarded by PageGate)120124118;06/26/2012 14:07:04;ARFD;SICK PERSON;648 MANOR DR;FRENCHTOWN RD;ARGYLE
+(Message Forwarded by PageGate)120124562;06/27/2012 05:52:55;ARFD;CHEST PAIN;HATCHER,ART;11258 FINCHER RD;COSMOS WAY;NATURE TRL;DENTON COUNTY
+(Message Forwarded by PageGate)120124848;8500 HOLDER RD;FLORANCE RD;DENTON COUNTY;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120124979;06/27/2012 17:25:14;ARFD;FALLS;PARADISE FOODS;1213 FM 407;OASIS DR;CORRAL CITY DR;CORRAL CITY
+(Message Forwarded by PageGate)120124988;8400 HOLDER RD;FLORANCE RD;DENTON COUNTY;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120125044;06/27/2012 18:59:35;ARFD;HEAT COLD EXPOSURE;LANTANA TRL/BLUESTEM DR;DENTON COUNTY
+(Message Forwarded by PageGate)Update: ;120125642;06/28/2012 13:13:56;FIRE VEHICLE;80MM I 35 W;DENTON;DFD;E511;req argyle engine  [06/28/12 13:14:10 MERWIN]
+(Message Forwarded by PageGate)120125869;06/28/2012 18:58:33;ARFD;TRAFFIC TRANSPORT INCIDENT;JUSTIN RD/LANTANA TRL;DENTON COUNTY
+(Message Forwarded by PageGate)120126224;06/29/2012 07:20:20;ARFD;ODOR INVESTIGATION;636 FRENCHTOWN RD;MANOR DR;W JETER RD;DENTON COUNTY
+(Message Forwarded by PageGate)120126534;8400 HOLDER RD;FLORANCE RD;DENTON COUNTY;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120126602;7830 FAUGHT RD;FAITH LN;NORTHLAKE;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120126894;06/29/2012 23:25:26;ARFD;TRAFFIC TRANSPORT INCIDENT;FM 1171/N I 35 W SERV;NORTHLAKE
+(Message Forwarded by PageGate)120127311;06/30/2012 14:14:41;ARFD;FALLS;SANTE CENTER FOR HEALING;914 COUNTRY CLUB RD;THORNRIDGE CIR;QUAIL CREEK LN;DENTON COUNTY
+(Message Forwarded by PageGate)120127604;E HICKORY HILL RD/N GIBBONS RD;ARGYLE;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120127678;06/30/2012 22:44:47;ARFD;UNCONSCIOUS FAINTING;1132 DAYTON DR;BURNETT DR;LELAND DR;DENTON COUNTY
+(Message Forwarded by PageGate)120127771;07/01/2012 00:12:50;ARFD;OVERDOSE POISONING;SANTE CENTER FOR HEALING;914 COUNTRY CLUB RD;THORNRIDGE CIR;QUAIL CREEK LN;DENTON COUNTY
+(Message Forwarded by PageGate)120128263;07/01/2012 18:53:30;ARFD;ROAD BLOCKAGE HAZARD;OLD ALTON BRIDGE;2800 OLD ALTON RD;COPPER CANYON RD;DENTON COUNTY
+(Message Forwarded by PageGate)120128290;07/01/2012 19:50:36;ARFD;SICK PERSON;8000 STEEPLECHASE CIR;E FM 407;E FM 407;DENTON COUNTY
+(Message Forwarded by PageGate)120128542;07/02/2012 04:48:20;ARFD;BREATHING PROBLEMS;8801 JUSTIN RD;JERNIGAN RD;TANGLEWOOD;COPPER CANYON
+(Message Forwarded by PageGate)120129423;07/03/2012 08:33:08;ARFD;TRAFFIC TRANSPORT INCIDENT;9039 LANTANA TRL;JUSTIN RD;TANNER PKWY;DENTON COUNTY
+(Message Forwarded by PageGate)120129561;07/03/2012 11:24:23;ARFD;HEART PROBLEMS;E FM 407/E JETER RD;BARTONVILLE
+(Message Forwarded by PageGate)120129623;07/03/2012 13:06:14;ARFD;SICK PERSON;JUSTIN RD/TERRACINA BLVD;FLOWER MOUND
+(Message Forwarded by PageGate)120129918;07/03/2012 21:16:20;ARFD;TRAFFIC TRANSPORT INCIDENT;JUSTIN RD/TERRACINA BLVD;DOUBLE OAK
+(Message Forwarded by PageGate)120130067;07/03/2012 22:56:58;ARFD;DISTURBANCE DOMESTIC;14049 CORRAL CITY DR;HALEY LN;MEAGAN LN;CORRAL CITY
+(Message Forwarded by PageGate)120130099;79MM I 35 W;ARGYLE;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120130405;07/04/2012 11:03:47;ARFD;UNCONSCIOUS FAINTING;8651 WESTON LN;OWENS ST;KEELER ST;DENTON COUNTY
+(Message Forwarded by PageGate)120130728;2652 E FM 407;BRANCH CROSSING;7 11;BARTONVILLE;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120130832;1074 CEDAR CREEK RD;FINCHER RD;DENTON COUNTY;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120130868;FM 407/CLEVELAND GIBBS RD;NORTHLAKE;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120131272;2800 OLD ALTON RD;COPPER CANYON RD;OLD ALTON BRIDGE;DENTON COUNTY;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120131352;07/05/2012 02:49:10;ARFD;CARDIAC OR RESP ARREST;8651 WESTON LN;OWENS ST;KEELER ST;DENTON COUNTY
+(Message Forwarded by PageGate)120131394;10391 CLEVELAND GIBBS RD;MULKEY RD;NORTHLAKE;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120132568;07/06/2012 14:15:49;ARFD;TRAFFIC TRANSPORT INCIDENT;NORTHLAKE POLICE DEPARTMENT;1400 FM 407;KAY LN;THOMPSON RD;NORTHLAKE
+(Message Forwarded by PageGate)120133179;8220 PRIMROSE TRL;FORTNER RD;DENTON COUNTY;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120133268;07/07/2012 09:43:22;ARFD;ALARM FIRE;SANTE CENTER FOR HEALING;914 COUNTRY CLUB RD;THORNRIDGE CIR;QUAIL CREEK LN;DENTON COUNTY
+(Message Forwarded by PageGate)120133902;07/08/2012 01:02:45;ARFD;HEMORRHAGE LACERATIONS;1281 MEADOWS AVE;BONHAM PKWY;SHEPHERD CT;DENTON COUNTY
+(Message Forwarded by PageGate)120134746;07/09/2012 08:17:36;ARFD;CHEST PAIN;1554 POST OAK LN;PIN OAK CT;TIMBER OAKS CT;BARTONVILLE
+(Message Forwarded by PageGate)120134890;07/09/2012 11:04:39;ARFD;EYE PROBLEMS INJURIES;8621 BAYBERRY AVE;SILVER LEAF CIR;SCARLET TRL;DENTON COUNTY
+(Message Forwarded by PageGate)120135035;07/09/2012 14:26:05;ARFD;ALARM FIRE;1221 GOLF CLUB DR;MUSTANG WAY;CAPITAL DR;DENTON COUNTY
+(Message Forwarded by PageGate)120135091;07/09/2012 15:45:34;ARFD;ALARM FIRE;900 RANCH RD;COPPER CANYON
+(Message Forwarded by PageGate)120135166;07/09/2012 17:50:00;ARFD;FIRE UNKNOWN;E FM 407/S GIBBONS RD;ARGYLE
+(Message Forwarded by PageGate)120135186;BRIAR HILL LN/DAVID FORT RD;DENTON COUNTY;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120135644;07/10/2012 09:43:07;ARFD;STROKE;8800 WESTON LN;OWENS ST;KEELER ST;DENTON COUNTY
+(Message Forwarded by PageGate)120135954;07/10/2012 17:45:02;ARFD;FALLS;9145 CALVERT RD;POWELL RD;FOSTER ST;DENTON COUNTY
+(Message Forwarded by PageGate)120136148;07/10/2012 23:53:53;ARFD;STROKE;1487 POST OAK LN;PIN OAK CT;TIMBER OAKS CT;BARTONVILLE
+(Message Forwarded by PageGate)120136548;07/11/2012 13:16:39;ARFD;TRAFFIC TRANSPORT INCIDENT;STONECREST RD/SQUIRREL RUN RD;ARGYLE
+(Message Forwarded by PageGate)120136588;07/11/2012 14:19:04;ARFD;ALARM FIRE;1110 MASON ST;BONHAM PKWY;DENTON COUNTY
+(Message Forwarded by PageGate)120136929;07/12/2012 06:59:10;ARFD;TRAFFIC TRANSPORT INCIDENT;79MM I 35 W;ARGYLE
+(Message Forwarded by PageGate)120137001;07/12/2012 08:33:24;ARFD;TRAFFIC TRANSPORT INCIDENT;LIBERTY CHRISTIAN SCHOOL;1301 S HWY 377;KEITH RD;HWY 377;ARGYLE
+(Message Forwarded by PageGate)FYI: ;120137131;07/12/2012 11:32:15;WELFARE CONCERN;1129 DAYTON DR;DENTON COUNTY;BURNETT DR;ARFD;46YO CONS BRN POSS LOW BLOOD SUGAR  [07/12/12 11:32:00 MELLIS]\n{3433} REQ MEDICS POSS 46YO LOW BLOOD SUGAR  [07/12/12 11:31:42 MELLIS]\nCOMP WANTS CONTACT FROM OFFICER WITH OUTCOME //  [07/12/12 11:2
+(Message Forwarded by PageGate)Update: ;120137131;07/12/2012 11:32:15;ARFD;DIABETIC PROBLEMS;1129 DAYTON DR;BURNETT DR;LELAND DR;DENTON COUNTY
+(Message Forwarded by PageGate)120137131;07/12/2012 11:32:15;ARFD;DIABETIC PROBLEMS;1129 DAYTON DR;BURNETT DR;LELAND DR;DENTON COUNTY
+(Message Forwarded by PageGate)120137189;07/12/2012 13:02:41;ARFD;ALARM FIRE;900 RANCH RD;COPPER CANYON
+(Message Forwarded by PageGate)120137297;07/12/2012 15:41:07;ARFD;SICK PERSON;2465 COPPER CANYON RD;LONG TAIL TRL;OLD ALTON RD;DENTON COUNTY
+(Message Forwarded by PageGate)120137645;07/13/2012 03:01:08;ARFD;ALARM FIRE;9125 CALVERT RD;POWELL RD;FOSTER ST;DENTON COUNTY
+(Message Forwarded by PageGate)120138595;07/14/2012 04:58:29;ARFD;CHEST PAIN;310 CANYON OAKS DR;HUNTERS HILL CIR;FAWN HOLLOW DR;DENTON COUNTY
+(Message Forwarded by PageGate)120138791;1000 CHINN CHAPEL RD;DENTON COUNTY;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120138896;FAUGHT RD/EVELYN LN;DENTON COUNTY;ARFD;FIRE GRASS
+(Message Forwarded by PageGate)120138965;07/14/2012 16:40:28;ARFD;SICK PERSON;304 WILLOW ST;OAK DR;OLD JUSTIN RD;ARGYLE
+(Message Forwarded by PageGate)120139309;07/15/2012 00:24:06;ARFD;PREGNANCY CHILDBIRTH;77MM I 35 W;ARGYLE
+(Message Forwarded by PageGate)120139734;07/15/2012 15:19:37;ARFD;ODOR INVESTIGATION;LIBERTY CHRISTIAN SCHOOL;1301 S HWY 377;KEITH RD;HWY 377;ARGYLE
+
  */
 
 public class TXDentonCountyParser extends DispatchOSSIParser {
   
   public TXDentonCountyParser() {
-    super(CITY_CODES, "DENTON COUNTY", "TX",
-          "FYI? ( ID ( DATIME CALL NAME? ADDR/s X/Z+? CITY INFO+ | ADDR X X CITY CALL ) | CALL ADDR CITY INFO+ )");
+    super(CITY_LIST, "DENTON COUNTY", "TX",
+          "FYI? ( ID ( DATIME SRC? CALL NAME? ADDR/s X/Z+? CITY | ADDR X/Z+? CITY SRC? CALL ) | CALL ADDR CITY ) INFO+");
   }
   
   @Override
@@ -59,11 +127,35 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
     return "Lake Cities Fire Department";
   }
 
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (subject.equals("Message Forwarded by PageGate") && !body.startsWith("CAD:")) body = "CAD:" + body;
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.length() == 4) {
+      String city = CITY_CODES.getProperty(data.strCity);
+      if (city != null) {
+        if (data.strSource.length() == 0) data.strSource = data.strCity;
+        data.strCity = city;
+      }
+    }
+    return true;
+  }
+
   private class MyIdField extends IdField {
     public MyIdField() {
       setPattern(Pattern.compile("\\d{9}"));
     }
   }
+  
+  
+  
+  private static final Pattern SOURCE_PTN = Pattern.compile("[A-Z]{2}FD"); 
+  private class MySourceField extends SourceField {
+    public MySourceField() {
+      setPattern(SOURCE_PTN);
+    }
+  }
+  
   
   private static final Pattern SERV_PTN = Pattern.compile("\\bSERV\\b");
   private class MyAddressField extends AddressField {
@@ -74,46 +166,36 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
     }
   }
   
-  private class MyCrossField extends CrossField {
+  private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (CITY_SET.contains(field.toUpperCase())) data.strCity = field;
-      else data.strCross = field;
+      Matcher match = SOURCE_PTN.matcher(field);
+      if (match.matches()) {
+        data.strSource = field;
+        if (data.strCity.length() == 0) data.strCity = field;
+        return;
+      }
+      if (checkAddress(field) > 0) {
+        data.strCross = append(data.strCross, " & ", field);
+      } else {
+        super.parse(field, data);
+      }
     }
   }
   
-  private static final Pattern CITY_PTN = Pattern.compile("[A-Z]{4}");
-  private class MyCityField extends CityField {
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      if (!CITY_PTN.matcher(field).matches()) return false;
-      parse(field, data);
-      return true;
-    }
-    
-    @Override
-    public void parse(String field, Data data) {
-      if (data.strCity.length() > 0) return;
-      super.parse(field, data);
-    }
-  }
   
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("DATIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d");
+    if (name.equals("SRC")) return new MySourceField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ARFD", "ARGYLE",
       "CORI", "CORINTH",
       "LAKE", "LAKE DALLAS",
       "LVFD", "LEWISVILLE",
@@ -122,11 +204,31 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
       "LCFD", ""
   });
   
-  private static final Set<String> CITY_SET = new HashSet<String>();
-  static {
-    for (Object obj : CITY_CODES.values()) {
-      String city = (String)obj;
-      if (city.length() > 0) CITY_SET.add(city);
-    }
-  }
+  private static final String[] CITY_LIST = new String[]{
+    "ARFD", 
+    "CORI", 
+    "LAKE", 
+    "LVFD", 
+    "HICK", 
+    "SHAD", 
+    "LCFD",
+
+    "ARGYLE",
+    "BARTONVILLE",
+    "COPPER CANYON",
+    "CORRAL CITY",
+    "CORINTH",
+    "DENTON",
+    "DOUBLE OAK",
+    "FLOWER MOUND",
+    "HICKORY CREEK",
+    "LAKE DALLAS",
+    "LEWISVILLE",
+    "NORTHLAKE",
+    "HICKORY CREEK",
+    "SHADY SHORES",
+    
+    "DENTON COUNTY"
+    
+  };
 }
