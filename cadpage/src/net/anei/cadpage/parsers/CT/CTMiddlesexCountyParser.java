@@ -149,6 +149,7 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
       "kw", "KILLINGWORTH",
       "MD", "MIDDLETOWN",
       "md", "MIDDLETOWN",
+      
       "OL", "OLD LYME",
       "ol", "OLD LYME",
       "OS", "OLD SAYBROOK",
