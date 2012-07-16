@@ -175,9 +175,19 @@ public class VAWashingtonCountyParserTest extends BaseParserTest {
         "ID:1218892",
         "TIME:15:55:06",
         "INFO:DIFFICULTY BREATHING MY MOTHER HAS SHORTNESS OF BREATH, SHE IS");
+
+    doTest("T17",
+        "KHAYES:1 INTERSTAE 81 26 SB OFFRAMP SWEET, KEVIN 5405211892 1220763 21:08:44 FIRE BRUSH FIRE RIGHT AT THE INTERSECTION OF EXIT 26 SB AND COLLEGE DR",
+        "ADDR:1 INTERSTAE 81 26 SB OFFRAMP",
+        "MADDR:1 INTERSTAE 81 26 OFFRAMP",
+        "NAME:SWEET, KEVIN",
+        "PHONE:5405211892",
+        "ID:1220763",
+        "TIME:21:08:44",
+        "INFO:FIRE BRUSH FIRE RIGHT AT THE INTERSECTION OF EXIT 26 SB AND COLLEGE DR");
   }
   
   public static void main(String[] args) {
-    new VAWashingtonCountyParserTest().generateTests("T14", "PLACE ADDR APT CITY NAME PHONE ID TIME CALL INFO");
+    new VAWashingtonCountyParserTest().generateTests("T1", "PLACE ADDR APT CITY NAME PHONE ID TIME CALL INFO");
   }
 }
