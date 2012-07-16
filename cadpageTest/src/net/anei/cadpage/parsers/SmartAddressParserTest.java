@@ -567,8 +567,6 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testCheckAddress() {
-    assertEquals(4, parser.checkAddress("HOW DO WE GET TO KEN TOWN"));
-    assertEquals(0, parser.checkAddress("HOW DO WE GET TO KEN TOWN EXTRA"));
     assertEquals(3, parser.checkAddress("400 N BLACK HAWK DR"));
     assertEquals(0, parser.checkAddress("400 N BLACK HAWK DR EXTRA"));
     assertEquals(2, parser.checkAddress("US 50 & SE JEFFERSON ST"));
