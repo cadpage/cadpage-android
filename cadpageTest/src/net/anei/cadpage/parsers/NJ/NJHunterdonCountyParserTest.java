@@ -191,6 +191,63 @@ public class NJHunterdonCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testActive911A() {
+
+    doTest("T1",
+        "(91 Fire/Rescue) 91RS:HEART AT: (91)QUAKERTOWN FIRE COMPANY / 67 QUAKERTOWN RD NEAR: R615 (PITTSTOWN RD) TO QUAKER 12064800 20 YOM > HMC::",
+        "SRC:91RS",
+        "CALL:HEART AT",
+        "CITY:Quakertown",
+        "PLACE:QUAKERTOWN FIRE COMPANY",
+        "ADDR:67 QUAKERTOWN RD",
+        "X:R615 (PITTSTOWN RD) TO QUAKER",
+        "ID:12064800",
+        "INFO:20 YOM > HMC::");
+
+    doTest("T2",
+        "(91 Fire/Rescue) 91FD:WOOD/BRU: (21)96 OAK GROVE RD NEAR: FEATHERBED LANE TO DECKER RD 12065010 FIELD FIRE::",
+        "SRC:91FD",
+        "CALL:WOOD/BRU",
+        "CITY:Raritan Twp",
+        "ADDR:96 OAK GROVE RD",
+        "X:FEATHERBED LANE TO DECKER RD",
+        "ID:12065010",
+        "INFO:FIELD FIRE::");
+
+    doTest("T3",
+        "(91 Fire/Rescue) 91RS:AMB NEED: (91)WAL-MART STORE / 1 WAL-MART PLAZA NEAR: SERVICE RD TO DEAD END 12065030 76 YOF::HIT HEAD / PAIN",
+        "SRC:91RS",
+        "CALL:AMB NEED",
+        "CITY:Quakertown",
+        "PLACE:WAL-MART STORE",
+        "ADDR:1 WAL-MART PLAZA",
+        "X:SERVICE RD TO DEAD END",
+        "ID:12065030",
+        "INFO:76 YOF::HIT HEAD / PAIN");
+
+    doTest("T4",
+        "(91 Fire/Rescue) 91RS:AMB NEED: (91)223 PITTSTOWN RD NEAR: HOGBACK RD TO LOYALIST WAY 12065190 85 YOM::SEVERE LEG PAIN / NO CHEST PAIN / NO DIFF BREATHING",
+        "SRC:91RS",
+        "CALL:AMB NEED",
+        "CITY:Quakertown",
+        "ADDR:223 PITTSTOWN RD",
+        "X:HOGBACK RD TO LOYALIST WAY",
+        "ID:12065190",
+        "INFO:85 YOM::SEVERE LEG PAIN / NO CHEST PAIN / NO DIFF BREATHING");
+
+    doTest("T5",
+        "(91 Fire/Rescue) 91FD:BUILDING: (14)25 MAIN ST E NEAR: WASHINGTON AVE TO NASSAU RD 12065559 FLAMES SHOWING::BASEMENT FIRE",
+        "SRC:91FD",
+        "CALL:BUILDING",
+        "CITY:High Bridge",
+        "ADDR:25 MAIN ST E",
+        "X:WASHINGTON AVE TO NASSAU RD",
+        "ID:12065559",
+        "INFO:FLAMES SHOWING::BASEMENT FIRE");
+
+  }
+  
   public static void main(String[] args) {
     new NJHunterdonCountyParserTest().generateTests("T1", "SRC CALL CITY PLACE ADDR APT X ID INFO");
   }
