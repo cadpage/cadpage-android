@@ -474,7 +474,7 @@ public class DispatchBParser extends SmartAddressParser {
         "STROKE/CVA PATIENT",
         "STROKE (CVA) BREATH NORM > 35",
         "STRUC FIRE-SINGLE RESIDENTIAL",
-//        "STRUCTURE FIRE",
+        "STRUCTURE FIRE",                          // Locked :(
         "STRUCTURE FIRE CHARLEY RESPONS",
         "STRUCTURE FIRE DELTA RESPONSE",
         "STRUCTURE FIRE - LOW HAZARD",

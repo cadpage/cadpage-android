@@ -105,7 +105,6 @@ public class DispatchDAPROParser extends FieldProgramParser {
     body = body.replace(" Run# ", " Run: ");
     
     if (! super.parseMsg(body, data)) return false;
-    if (data.strAddress.length() == 0) return false;
     return true;
   }
   
@@ -133,7 +132,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "SRC TIME CALL ADDR CITY";
+      return "SRC TIME CALL ADDR APT CITY";
     }
   }
   
