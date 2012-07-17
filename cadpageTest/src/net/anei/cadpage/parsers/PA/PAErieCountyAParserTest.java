@@ -275,6 +275,14 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "ADDR:10707 WATTSBURG RD",
         "CITY:GREENE TWP",
         "X:MAY RD");
+
+    doTest("T11",
+        ".... (Kuhl Hose Fire) ERIE911:69D >STRUCTURE FIRE DELTA RESPONSE 5019 MARKWOOD DR XS: VICTORY DR HARBORCREEK TWP",
+        "SRC:ERIE911",
+        "CALL:STRUCTURE FIRE DELTA RESPONSE",
+        "ADDR:5019 MARKWOOD DR",
+        "CITY:HARBORCREEK TWP",
+        "X:VICTORY DR");
  }
   
   @Test
