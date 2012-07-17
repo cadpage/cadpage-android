@@ -42,4 +42,10 @@ public class NJBurlingtonCountyParserTest {
       setParser(new NJBurlingtonCountyParser());
     }
   }
+  
+  public static class TestG extends NJBurlingtonCountyGParserTest {
+    public TestG() {
+      setParser(new NJBurlingtonCountyParser());
+    }
+  }
 }
