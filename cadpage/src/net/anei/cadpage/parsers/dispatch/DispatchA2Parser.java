@@ -57,7 +57,7 @@ public class DispatchA2Parser extends FieldProgramParser {
         int pt = field.lastIndexOf(',');
         if (pt >= 0) {
           parseAddress(field.substring(0,pt).trim(), data);
-          data.strCity = field.substring(pt).trim();
+          data.strCity = field.substring(pt+1).trim();
         } else {
           Parser p = new Parser(" " + field + " ");
           parseAddress(p.get(" STA "), data);
