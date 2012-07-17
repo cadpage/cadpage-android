@@ -31,11 +31,21 @@ Sender: hces@hunterdon.co.nj.us
 22RS:UNCON A: (46)76 OLD MOUNTAIN RD NEAR: CHERRY ST TO CONRAIL RR TRACKS 12007379 63YOM::SYNCOPE HX DIABETIES
 22RS:LACCER: (24)24 OLD MINE RD NEAR: COKESBURY RD TO DEAD END 12007354 FACIAL LACERATION::30'S YOA MALE CUT ON FOREHEAD FROM FALLING GLASS, REPLACING WINDO
 
+Contact: Active911.com
+Agency name: Quakertown Fire Company Location: Franklin Township, NJ 
+Sender: messaging@iamresponding.com
+
+(91 Fire/Rescue) 91RS:HEART AT: (91)QUAKERTOWN FIRE COMPANY / 67 QUAKERTOWN RD NEAR: R615 (PITTSTOWN RD) TO QUAKER 12064800 20 YOM > HMC::
+(91 Fire/Rescue) 91FD:WOOD/BRU: (21)96 OAK GROVE RD NEAR: FEATHERBED LANE TO DECKER RD 12065010 FIELD FIRE::
+(91 Fire/Rescue) 91RS:AMB NEED: (91)WAL-MART STORE / 1 WAL-MART PLAZA NEAR: SERVICE RD TO DEAD END 12065030 76 YOF::HIT HEAD / PAIN
+(91 Fire/Rescue) 91RS:AMB NEED: (91)223 PITTSTOWN RD NEAR: HOGBACK RD TO LOYALIST WAY 12065190 85 YOM::SEVERE LEG PAIN / NO CHEST PAIN / NO DIFF BREATHING
+(91 Fire/Rescue) 91FD:BUILDING: (14)25 MAIN ST E NEAR: WASHINGTON AVE TO NASSAU RD 12065559 FLAMES SHOWING::BASEMENT FIRE
+
  */
 
 public class NJHunterdonCountyParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]+):([A-Z 0-9]+): *\\((\\d+)\\) *(.*?) NEAR: *(.*?) (\\d{8})\\b *(.*?)");
+  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]+):([A-Z /0-9]+): *\\((\\d+)\\) *(.*?) NEAR: *(.*?) (\\d{8})\\b *(.*?)");
   
   public NJHunterdonCountyParser() {
     super("HUNTERDON COUNTY", "NJ");
@@ -103,7 +113,7 @@ public class NJHunterdonCountyParser extends MsgParser {
       "57", "Pottersville",
       "74", "Branchburg",
       "79", "Neshanic/Hillsborough",
-      "91", "Quackertown",
+      "91", "Quakertown",
       "92", "Milford",
       "93", "Country Hills",
       "94", "Delaware Valley",
