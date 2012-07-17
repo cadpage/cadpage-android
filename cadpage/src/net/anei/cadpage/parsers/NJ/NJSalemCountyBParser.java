@@ -20,6 +20,30 @@ Sender: msg@cfmsg.com
 (Chief ALT) [STA:7] -- Motor Vehicle Accident -- 430 N Broadway Way Pennsville Township NJ - Cross STS:Rt 130 Overpass -- Caller: 520
 (Chief ALT) [STA:7] -- Structure Fire - Medium Hazard -- 709 S Broadway Way Pennsville Township NJ - Cross STS:Sharp St And Lighthouse Rd -- Caller: LS-5
 
+Contact: Active911
+Agency name: Parsonsburg Vol. Fire Co. Location: Parsonsburg, MD 
+From: msg@cfmsg.com
+
+(Chief ALT) [STA:6] -- Automatic Alarm -- 32000 Campus Dr Parsonsburg MD - Cross STS:Walston Switch Rd 
+(Chief ALT) [STA:6] -- Psychiatric Emergency -- 6115 Ruth St Parsonsburg MD - Cross STS:Steve St - Florence St
+(Chief ALT) [STA:6] -- Medical Assist -- 6115 Ruth St Parsonsburg MD - Cross STS:Steve St - Florence St
+(Chief ALT) [STA:6] -- Seizure -- 6858 Zion Church Rd Parsonsburg MD - Cross STS:Old Ocean City Rd - Morris Leonard Rd
+(Chief ALT) [STA:6] -- Sick Subject -- 7573 Parsonsburg Rd Parsonsburg MD - Cross STS:Old Oak Ln - Gadwall Ln
+(Chief ALT) [STA:6] -- Medical Assist -- 7573 Parsonsburg Rd Parsonsburg MD - Cross STS:Old Oak Ln - Gadwall Ln
+(Chief ALT) [STA:6] -- Difficulty Breathing -- 31550 Winterplace Pkwy Parsonsburg MD - Cross STS:Hobbs Rd - Blue Ribbon Rd
+(Chief ALT) [STA:6] -- Subject Fallen -- 7466 Madeline Cir Parsonsburg MD - Cross STS:Jones Hastings Rd - Jones Hastings Rd
+(Chief ALT) [STA:6] -- Pro Qa Ems -- 33322 Wango Rd Parsonsburg MD - Cross STS:Bear Swamp Rd - Chicken Ln
+(Chief ALT) [STA:6] -- Sick Subject -- 31550 Winterplace Pkwy Parsonsburg MD - Cross STS:Hobbs Rd - Blue Ribbon Rd
+(Chief ALT) [STA:6] -- Difficulty Breathing -- 6840 Mt Vernon Ave Parsonsburg MD - Cross STS:Old Ocean City Rd
+(Chief ALT) [STA:6] -- Allergic Reaction -- 33442 Bob Smith Rd Parsonsburg MD - Cross STS:Dagsboro Rd - Esham Rd
+(Chief ALT) [STA:6] -- Trash Fire -- Old Ocean City Rd & zion Church Rd Parsonsburg MD
+(Chief ALT) [STA:6] -- Pi Accident -- Ocean Gtwy & walston Switch Rd Parsonsburg MD
+(Chief ALT) [STA:6] -- Pi Accident -- Ocean Gtwy & walston Switch Rd Parsonsburg MD
+(Chief ALT) [STA:6] -- Pi Accident -- E Line Rd & melson Church Rd Delmar MD
+(Chief ALT) [STA:6] -- Chest Pain -- 7290 Walston Switch Rd Parsonsburg MD - Cross STS:Rushmore Dr - Morris Leonard Rd
+(Chief ALT) [STA:6] -- Subject Fallen -- 31679 Dilworth Ave Parsonsburg MD - Cross STS:Brantley Dr - Cromwell Ave
+(Chief ALT) [STA:6] -- Stroke -- 31375 John Deere Dr Parsonsburg MD - Cross STS:Hobbs Rd - Mid Atlantic Ln
+
  */
 
 public class NJSalemCountyBParser extends FieldProgramParser {
@@ -102,6 +126,8 @@ public class NJSalemCountyBParser extends FieldProgramParser {
   
   private static String[] CITY_LIST = new String[]{
     "NEW CASTLE DE",
+    "DELMAR MD",
+    "PARSONSBURG MD",
     "CARNEYS POINT TOWNSHIP NJ",
     "PENNSVILLE TOWNSHIP NJ"
   };
