@@ -4798,10 +4798,63 @@ Contact: Michael Cooper <michael4alarm@gmail.com>
 Sender: Dispatch@sccda.org
 Comment: attic fire,  Fire - Residential AT: 4543 Cambrook Dr APT:  BUS: NOTTINGHAM FOREST/KISKER CHL: 04 Cottleville B2\r
 **********************************************************
-Monroe County, NY
+Unknown
+Contact: Kevin Harris <kev911er@msn.com>
+Sender: Dispatch@Pacific.com
+S:!  M:R Water Rescue: 500 GRIFFIN RD, Grants Pass: 7/9/2012 5:44:21 PM: Quad-104191: 7501, 7514, 7551, M2, J1, 7531: : \n
+**********************************************************
+Calumet County, WI (alternate)
+Contact: Tom Macco <tmacco1@gmail.com>
+Sender: zoll@goldcross.org
+(Gold Cross Alert - part 1 of 1) RC:W824 RUSCH RD//BRILLION/Non Emergency/Hemorhage / Laceration//<None>/Run# 9652/18:21/911 Call (County)//
+(Gold Cross Alert - part 1 of 1) RC:723 S MAIN ST//BRILLION/Emergency/Heart Problems//<None>/Run# 9888/06:05/911 Call (County)//
+**********************************************************
+Lake County, FL (Alternate)
+Contact: "Jones, Randy" <RJones@lakecountyfl.gov>
+Sender: Comm@lakeems.org
+SFR 32640 WEBBS WAY, SORRENTO. 75% INVOLVED. SEMINOLE E34 RESP FOR ASSISTANCE. TRAFFIC ON PS6\r
+**********************************************************
+Suffolk County, NY
+Contact: Jim Lull <jlull65@gmail.com>
+Sender: Bob@relaycom.com
+RELAY TRAILER PARK RIVER RD 1ST TRAILER ON RIGHT HAND SIDE POSSIBLE HEART
+FROM RELAY 1279 EAST MAIN EASTERN CARDIOLOGY MALE CHEST PAINS
+FROM RELAY TANGER 2 STE 1401 EPIC JEANS 40ISH FEMALE PASSING OUT
+**********************************************************
+Onslow County, NC
+Contact: Kim Cytryszewski <kimcytryszewski@gmail.com>
+Sender: CAD@onslowcountync.gov
+CAD:100 VANCE LN/RIGGS RD;DIST: 158.12 FT;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20C\r
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+Monroe County, PA
 Contact: "Daniel Wade" <danielw@wadeville.com>
 Sender: emergin@monroeco911.com
 CAD MSG: *D F1 WASHINGTON PL / PRESIDENTIAL DR 203 POCONO FARMS / CALLER REPORTING\n\nWORKING FIRE / NO ONE IN THE RESIDENCE
+CAD MSG: *D F1 255 SUMMIT AVE 209 HOUSE FIRE / APPEARS TO BE VACANT / UNK IF ANYONE LIVES THERE OR NOT /
+CAD MSG: *D F2 GEISINGER FAMILY PRA / COMMERCE CT 203 GESINGER MT POCONO // BLACK GRAND AM ON FIRE// UNK IF ANYONE IS IN IT/
+CAD MSG: *D F1 HATCHERY DR / PARADISE VALLEY RD 208 RTE 940/TROUT HATCHERY// FULLY INVOLVED// NO VEHICLES INT HE D/W DOESN
+CAD MSG: *D F2 JACK WILLIAMS TIRE / RTE 940 403 JACK WILLIAMS TIRE 839-8300 OFFICE/BATHROOM SMOKE DET WILL ATEM
+CAD MSG: *D E45J S I380 HWY / MM 1 POC SUM HWY 215 ONE VEH OFF THE FEMALE WITH NUMBNESS AND HUSBAND UNABLE TO GET OF THE
+CAD MSG: *D F2 FS 33 POCONO SUMMIT 215 SPECIAL ASSIGNMENT AT STATION AT THIS TIME
+CAD MSG: *D F2      7021 VISTA DR 203 PCP LOT G61 FIRE ALARM KEEPS GOING OFF / DOES\NOT BELIVE ITS THE BATT
+CAD MSG: *D F2      WHITE TAIL DR / FAIRWAY DR 203 FAIRWAY DR//SOMETHING IN THE MIDDLE OF THE STREET IS ON FIRE/UNK WHAT
+CAD MSG: *D E45J      RTE 196 / RYANS RD 203 2 CAR MVA WITH INJURY AND ENTRAPMENT//CALLER NOT INVOLVED//CALLER STAT
+CAD MSG: *D F1      WINDING WAY / SHADY SIDE DR 203 HOUSE FIRE FLAMES SHOWING  CAR IN DW UNK IF ANYONE HOME    NEAR SHAYS
+CAD MSG: *D F2       POCONO MOUNTAIN WEST 215 PANTHER LN          OFFICE EXT 81400  // GENRAL FIRE ALARM\r\n\r
 
 
 Some things i learned from our PITA(Pain In The Ass) communications 
@@ -4870,131 +4923,77 @@ in the CAD. The "/" once again are inputed
 
     by the dispatcher.
 
+Municipality(Twp.) Codes    
 
-Here are a few texts:
+Barrett     201 
+Hamilton    205 
+Pocono    209 
+Stroud      214
+Chestnuthill    202 
+Jackson   206 
+Polk      210 
+Tobyhanna   215
+Coolbaugh   203 
+Lehman    101 
+Price     211 
+Tunkhannock   216
+Delaware Water Gap  401 
+Middle Smithfield 207 
+Ross      212 
+East Stroudsburg  402 
+Mount Pocono    403 
+Smithfield    213 
+Eldred      204 
+Paradise    208 
+Stroudsburg   404
+  
+F1  Fire & EMS Dispatch
+F2  Fire Dispatch
+F3  Fire Officers Dispatch
 
+E1 Acute Abdomen        
+E2 Amputation       
+E3 Anaphylazia        
+E4 Burns          
+E45J  Motor Vehicle Accident with Entrapment
+E5 Cardiac
+E6 Cardiac ARREST
+E7 Spinal Injury
+E8 CVA/Stroke
+E9 Diabetic
+E10 DOA
+E11 Fever
+E12 Dislocation/Fracture
+E13 GI Bleeding
+E14 Gunshot Wound
+E15 Hemmorage
+E16 Abuse
+E17 Internal
+E18 Nausea/Vomiting
+E19 Obstetrics
+E20 Overdose
+E21 Paralysis
+E22 Penetrating Wounds
+E23 Poisoning
+E24 Psychological
+E25 Respiratory ARREST
+E26 Respiratory Distress
+E27 Convulsions/Seizures
+E28 Shock
+E29 Sprain/Strain
+E30 Unconscious/Fainting
+E31 Minor Trauma
+E32 Major Trauma
+E33 Multiple Systems Trauma
+E34 Unknown/Excited Caller
+E35 Unknown/General Illness
+E36 Refused/Cancelled
+E37 MED-ALERT Alarm
+E45 Motor Vehicle Accident
+E55 Fire Scene Standby
+E82 Emergency Transport
+E83 Non Emergency Transport
 
-CAD MSG: *D F1 255 SUMMIT AVE 209 HOUSE FIRE / APPEARS TO BE VACANT / UNK 
-IF ANYONE LIVES
-
-THERE OR NOT /
-
-
-CAD MSG: *D F2 GEISINGER FAMILY PRA / COMMERCE CT 203 GESINGER MT POCONO // 
-BLACK GRAND
-
-AM ON FIRE// UNK IF ANYONE IS IN IT/
-
-
-CAD MSG: *D F1 HATCHERY DR / PARADISE VALLEY RD 208 RTE 940/TROUT 
-HATCHERY// FULLY INVOLV
-
-ED// NO VEHICLES INT HE D/W DOESN
-
-
-CAD MSG: *D F2 JACK WILLIAMS TIRE / RTE 940 403 JACK WILLIAMS TIRE 839-8300 
-OFFICE/BATHROOM
-
-SMOKE DET WILL ATEM
-
-
-CAD MSG: *D E45J S I380 HWY / MM 1 POC SUM HWY 215 ONE VEH OFF THE FEMALE 
-WITH NUMBNESS
-
-AND HUSBAND UNABLE TO GET OF THE
-
-
-CAD MSG: *D F2 FS 33 POCONO SUMMIT 215 SPECIAL ASSIGNMENT AT STATION AT 
-THIS TIME
-
-
------------------------------
-
-
-ALL of our texts are sent from address: emergin@monroeco911.com
-
-
-The texts that i get are the same as the texts sent to a verizon phone.
-
-
-ATT is different. Theres seem to come from a different number everytime. 
-But it still has the emergin email in it.
-
-Here are some of those and i attached some pics of them to this email:
-
-
-FRM:emergin@monroeco911.com
-
-MSG:CAD MSG: *D F2      7021 VISTA DR 203 PCP LOT G61 FIRE ALARM KEEPS GOING OFF / DOES\NOT BELIVE ITS THE BATT
-
-
-FRM:emergin@monroeco911.com
-
-MSG:CAD MSG: *D F2      WHITE TAIL DR / FAIRWAY DR 203 FAIRWAY DR// 
-SOMETHING IN THE MIDDLE
-
-OF THE STREET IS ON FIRE/UNK WHAT
-
-
-FRM:emergin@monroeco911.com
-
-MSG:CAD MSG: *D E45J      RTE 196 / RYANS RD 203 2 CAR MVA WITH INJURY AND 
-ENTRAPMENT//CAL
-
-LER NOT INVOLVED//CALLER STAT
-
-
-FRM:emergin@monroeco911.com
-
-MSG:CAD MSG: *D F1      WINDING WAY / SHADY SIDE DR 203 HOUSE FIRE FLAMES 
-SHOWING  CAR IN
-
-DW UNK IF ANYONE HOME    NEAR SHAYS
-
-CAD MSG: *D F2       POCONO MOUNTAIN WEST 215 PANTHER LN\9sOFFICE EXT 81400  // GENRAL FIRE ALARM\r\n\r
-
-**********************************************************
-Unknown
-Contact: Kevin Harris <kev911er@msn.com>
-Sender: Dispatch@Pacific.com
-S:!  M:R Water Rescue: 500 GRIFFIN RD, Grants Pass: 7/9/2012 5:44:21 PM: Quad-104191: 7501, 7514, 7551, M2, J1, 7531: : \n
-**********************************************************
-Calumet County, WI (alternate)
-Contact: Tom Macco <tmacco1@gmail.com>
-Sender: zoll@goldcross.org
-(Gold Cross Alert - part 1 of 1) RC:W824 RUSCH RD//BRILLION/Non Emergency/Hemorhage / Laceration//<None>/Run# 9652/18:21/911 Call (County)//
-(Gold Cross Alert - part 1 of 1) RC:723 S MAIN ST//BRILLION/Emergency/Heart Problems//<None>/Run# 9888/06:05/911 Call (County)//
-**********************************************************
-Lake County, FL (Alternate)
-Contact: "Jones, Randy" <RJones@lakecountyfl.gov>
-Sender: Comm@lakeems.org
-SFR 32640 WEBBS WAY, SORRENTO. 75% INVOLVED. SEMINOLE E34 RESP FOR ASSISTANCE. TRAFFIC ON PS6\r
-**********************************************************
-Suffolk County, NY
-Contact: Jim Lull <jlull65@gmail.com>
-Sender: Bob@relaycom.com
-RELAY TRAILER PARK RIVER RD 1ST TRAILER ON RIGHT HAND SIDE POSSIBLE HEART
-FROM RELAY 1279 EAST MAIN EASTERN CARDIOLOGY MALE CHEST PAINS
-FROM RELAY TANGER 2 STE 1401 EPIC JEANS 40ISH FEMALE PASSING OUT
-**********************************************************
-Onslow County, NC
-Contact: Kim Cytryszewski <kimcytryszewski@gmail.com>
-Sender: CAD@onslowcountync.gov
-CAD:100 VANCE LN/RIGGS RD;DIST: 158.12 FT;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20C\r
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Contact: Active911
