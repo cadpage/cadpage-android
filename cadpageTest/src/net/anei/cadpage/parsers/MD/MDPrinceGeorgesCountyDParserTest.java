@@ -133,6 +133,16 @@ public class MDPrinceGeorgesCountyDParserTest extends BaseParserTest {
         "UNIT:E807 TK809 E807B TK801 BO884",
         "ADDR:5906 62ND AVE",
         "X:GREENVALE PKY and 64TH AVE");
+
+    doTest("T13",
+        "(CAD)[PG09] 12: BUILDING FIRE  At: 07/17 20:50  Dispatch: E809 BO884  All: E812 TK812 E811 TK814 E807B TK801 E809 BO884  To: 5211 PAINT BRANCH PKY (52ND AVE and RIVERSIDE AVE)  ",
+        "SRC:PG09",
+        "CALL:BUILDING FIRE",
+        "DATE:07/17",
+        "TIME:20:50",
+        "UNIT:E812 TK812 E811 TK814 E807B TK801 E809 BO884",
+        "ADDR:5211 PAINT BRANCH PKY",
+        "X:52ND AVE and RIVERSIDE AVE");
   }
   
   public static void main(String[] args) {
