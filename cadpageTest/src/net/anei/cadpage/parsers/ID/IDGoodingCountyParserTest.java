@@ -95,7 +95,14 @@ public class IDGoodingCountyParserTest extends BaseParserTest {
         "CALL:UTILITY PROBLEMS",
         "ADDR:145 N HAGERMAN ST",
         "CITY:WENDELL");
-  }
+
+    doTest("T11",
+        " SIRCOMM / 3:15 PM\nNEW EVENT WND092\nFIREB\nBRUSH/GRASS FIRE\n314 QUAIL RUN LN\n",
+        "TIME:12:03:15",
+        "SRC:WND092",
+        "CALL:BRUSH/GRASS FIRE",
+        "ADDR:314 QUAIL RUN LN");
+ }
   
   @Test
   public void testParser2() {
