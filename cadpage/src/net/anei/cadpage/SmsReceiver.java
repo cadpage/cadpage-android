@@ -161,9 +161,6 @@ public class SmsReceiver extends BroadcastReceiver {
     // Add new message to the message queue
     SmsMessageQueue.getInstance().addNewMsg(message);
     
-    // If running in restricted mode, that's all we do
-    if (! DonationManager.instance().isEnabled()) return;
-    
     // Publish message contents if so requested
     if (ManagePreferences.publishPages()) message.broadcastIntent(context, false);
   
