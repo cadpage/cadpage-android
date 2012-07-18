@@ -215,6 +215,18 @@ public class NJGloucesterCountyAParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testJohnGodish() {
+
+    doTest("T1",
+        "(COUNTY OF GLOUCESTER (#384823) Dispatch) Sta:10-3\nType:WIRE\nLoc:CHAPEL HEIGHTS RD             \nVen:WASHINGTON\nDsp-\nClr- STOP",
+        "SRC:10-3",
+        "CALL:WIRE",
+        "ADDR:CHAPEL HEIGHTS RD",
+        "CITY:WASHINGTON TWP");
+
+  }
+  
   public static void main(String[] args) {
     new NJGloucesterCountyAParserTest().generateTests("T1", "SRC CALL ADDR APT CITY");
   }

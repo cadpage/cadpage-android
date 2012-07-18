@@ -263,6 +263,14 @@ public class NYNassauCountyDParserTest extends BaseParserTest {
         "DATE:06/01/12",
         "TIME:12:07");
 
+    doTest("T10",
+        "***Rescue Call*** 576 SALISBURY PARK DR CS: HEDGE LN TOA: 15:10 07/16/12",
+        "CALL:Rescue Call",
+        "ADDR:576 SALISBURY PARK DR",
+        "X:HEDGE LN",
+        "DATE:07/16/12",
+        "TIME:15:10");
+
   }
   
   public static void main(String[] args) {
