@@ -23,7 +23,8 @@ Contact: Dewey Thomas <dewey@codemessaging.net>
 [PG09] 9: INJURED/SICK\nAt: 04/12 04:42\nDispatch: A809\nAll: A809\nTo: 6001 LOGAN WAY #C10 (EMERSON ST and TOWNSEND WAY)
 [PG09] 28: BUILDING FIRE\nAt: 04/12 00:12\nDispatch: TK809 BO882\nAll: E828 PE830 E833 E833B TW833 TK809 SQ806 BO882\nTo: 8500 ANNAPOLIS RD
 [PG09] 13: STREET ALARM  At: 04/13 12:37  Dispatch: TK809 BO884  All: E807 TK809 E807B TK801 BO884  To: 5906 62ND AVE (GREENVALE PKY and 64TH AVE)  
-
+(CAD)[PG09] 12: BUILDING FIRE  At: 07/17 20:50  Dispatch: E809 BO884  All: E812 TK812 E811 TK814 E807B TK801 E809 BO884  To: 5211 PAINT BRANCH PKY (52ND AVE and RIVERSIDE AVE)  
+ 
 */
 
 public class MDPrinceGeorgesCountyDParser extends FieldProgramParser {
@@ -38,7 +39,7 @@ public class MDPrinceGeorgesCountyDParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (subject.length() == 0) return false;
-    data.strSource = subject;
+    data.strSource = new Parser(subject).getLast('|');;
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     body = body.substring(match.end()).replace('\n', ' ').trim();
