@@ -381,7 +381,8 @@ public class SDUnionCountyParserTest extends BaseParserTest {
         "CALL:INJURED/FALL",
         "ADDR:220 S DERBY LN",
         "CITY:NORTH SIOUX",
-        "PLACE:LOT57 NORTH SIOUX COTTONWOOD TRAILER COURT",
+        "APT:57",
+        "PLACE:NORTH SIOUX COTTONWOOD TRAILER COURT",
         "SRC:NSIOUX",
         "UNIT:72EMS9",
         "INFO:Using ProQA Medical");

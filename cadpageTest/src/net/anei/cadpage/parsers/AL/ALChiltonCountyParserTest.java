@@ -40,7 +40,8 @@ public class ALChiltonCountyParserTest extends BaseParserTest {
 
     doTest("T4",
         "100 COUNTY RD 99 LOT 5 VERBENA 2011043298 18:37:55 SHORTNESS OF BREATH GRANDMOTHER ON CHEMO NOT DOING GOOD ",
-        "ADDR:100 COUNTY RD 99 LOT 5",
+        "ADDR:100 COUNTY RD 99",
+        "APT:5",
         "CITY:VERBENA",
         "ID:2011043298",
         "TIME:18:37:55",

@@ -8,7 +8,7 @@ import org.junit.Test;
 public class MNOlmstedCountyParserTest extends BaseParserTest {
   
   public MNOlmstedCountyParserTest() {
-    setParser(new MNOlmstedCountyParser(), "OLMSTEAD COUNTY", "MN");
+    setParser(new MNOlmstedCountyParser(), "OLMSTED COUNTY", "MN");
   }
   
   @Test

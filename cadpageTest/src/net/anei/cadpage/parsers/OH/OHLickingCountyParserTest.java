@@ -30,7 +30,7 @@ public class OHLickingCountyParserTest extends BaseParserTest {
         "LC911:ABDOMINAL PAIN   76  YARDNER ST   LOT 9 JOHNSTOWN",
         "CALL:ABDOMINAL PAIN",
         "ADDR:76 YARDNER ST",
-        "APT:LOT 9",
+        "APT:9",
         "CITY:JOHNSTOWN");
 
     doTest("T4",

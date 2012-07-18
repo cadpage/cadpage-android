@@ -411,7 +411,8 @@ public class TNAndersonCountyParserTest extends BaseParserTest {
         "[E911] RESC FIRST RESP - 8100 YOUNT RD LOT 42  CLINTON, TN - PAIN-CHEST - 214048\n",
         "SRC:RESC FIRST RESP",
         "CALL:PAIN-CHEST",
-        "ADDR:8100 YOUNT RD LOT 42",
+        "ADDR:8100 YOUNT RD",
+        "APT:42",
         "CITY:CLINTON",
         "ID:214048");
 

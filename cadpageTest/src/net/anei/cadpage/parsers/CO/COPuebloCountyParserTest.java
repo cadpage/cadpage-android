@@ -37,7 +37,8 @@ public class COPuebloCountyParserTest extends BaseParserTest {
         "(Page ) 09:18AM 12/11 rural fire  33550 hwy 96 E Lot 379 35 yof convulsions",
         "ADDR:33550 hwy 96 E",
         "CALL:rural fire",
-        "INFO:Lot 379 35 yof convulsions");
+        "APT:379",
+        "INFO:35 yof convulsions");
     
     doTest("T5",
         "(Page ) 11:45PM 11/15 ATTN RURAL FIRE: 1917 n santa fe ave...at the car wash....39yof...seizure...jaa",

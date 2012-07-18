@@ -107,7 +107,8 @@ public class VAFranklinCountyParserTest extends BaseParserTest {
         "MAILBOX:S04 WELLBEING CHECK 560 FARM VIEW RD LOT 2 GLA CFS# 2011-031424 CROSS: GREENWAY RD/PINE GROVE RD",
         "SRC:S04",
         "CALL:WELLBEING CHECK",
-        "ADDR:560 FARM VIEW RD LOT 2",
+        "ADDR:560 FARM VIEW RD",
+        "APT:2",
         "CITY:Glade Hill",
         "ID:2011-031424",
         "X:GREENWAY RD/PINE GROVE RD");

@@ -82,8 +82,9 @@ public class NYChautauquaCountyParserTest extends BaseParserTest {
         "SRC:MSP CAD",
         "TIME:14:05",
         "CALL:EMS CALL",
-        "ADDR:4900 RT430 lot 1",
-        "MADDR:4900 RT 430 lot 1",
+        "ADDR:4900 RT430",
+        "MADDR:4900 RT 430",
+        "APT:1",
         "CITY:Ellery",
         "UNIT:A481");
 
