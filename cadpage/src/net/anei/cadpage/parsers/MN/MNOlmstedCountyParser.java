@@ -3,10 +3,6 @@ package net.anei.cadpage.parsers.MN;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/**
- * This class parses messages from some as yet unidentified CAD software vendor
- **/
-
 /*
 Olmsted County, MN
 Contact: Joe Manning <jlmanning@gmail.com>
