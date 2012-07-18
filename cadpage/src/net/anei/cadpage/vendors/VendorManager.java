@@ -127,10 +127,12 @@ public class VendorManager {
    */
   void reconnect(Context context) {
     
-    // Used to be more complicated.  Now we just request a new registration ID
-    // if one already exists
-    if (ManagePreferences.registrationId() != null) {
-      C2DMReceiver.register(context);
+    // If there are any enabled or broken vendors, request a new registration ID
+    for (Vendor vendor : vendorList) {
+      if (vendor.isEnabled() || vendor.isBroken()) {
+        C2DMReceiver.register(context);
+        break;
+      }
     }
   }
   
