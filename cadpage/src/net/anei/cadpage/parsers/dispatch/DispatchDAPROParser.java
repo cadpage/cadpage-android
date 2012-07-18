@@ -107,7 +107,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
     if (! super.parseMsg(body, data)) return false;
     return true;
   }
-  
+
   private static final Pattern TIME_PTN = Pattern.compile("^(\\d\\d:\\d\\d) ");
   private class MyAddressField extends AddressField {
     
