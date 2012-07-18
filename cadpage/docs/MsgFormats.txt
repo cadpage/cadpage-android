@@ -1538,6 +1538,11 @@ CAD MSG: *D A3   57       HANSON BLVD NW / ANDOVER BLVD NW  NE CORNER..SMOKE/CHA
 CAD MSG: *D A3   39F      17844 XEON ST NW  FIRE ALARM... SMOKE OR HEAT UPSTAIRS OR IN GARAGE... SMALL DOG ONSITE INC:10019638  
 CAD MSG: *D A3   45F      14950 HANSON BLVD NW @ANDOVER ELEMENTARY  PLANNED FIRE DRILL AT 1330 ... WILL CALL BACK WHEN COMPLETE INC:10019627   
 ***************************************************************************
+Olmsted County, MN (MNOlmstedCountyParser)
+(Main St N 20 ST NW) Two vehicle Accident with injuries, neck and head pain\r\n\r\nJeff Wellik\r\nPublic Safety Communications\r\nRochester Police/Olmsted County Sh
+(4639 grove st se) Elderly male stroke symptoms, blurred vision weak legs
+(200 lakeshore dr nw) Med
+***************************************************************************
 Calhoun County, MS (MSCalhounCountyParser)
 (Dispatch Alert) Call Type: BANNER EMR\nCity: VARDAMAN\nAddress: 10 CR 117
 (Dispatch Alert) Call Type: BANNER EMR\nCity: VARDAMAN\nAddress: 123 N MAIN ST
@@ -4983,50 +4988,7 @@ CAD:100 VANCE LN/RIGGS RD;DIST: 158.12 FT;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20C
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Simsbury, CT
-Contact: Andrew Gaines <againes128@gmail.com>
-System: Inforad
-From: 93001001 - 93001050
-
-BF- Brush Fire
-CO - Carbon Monoxide
-DW - Down Wires
-FA - Fire Alarm
-HMSM - Hazmat Small
-HMLG - Hazmat Large
-LS - Lift Star
-MR - Mountain Rescue
-MA - Mutual Aid
-OG - Odor of Gas
-PA - Police Assist
-RF - Rubbish Fire
-VA - Vehicle Accident
-VR - Vehicle Rescue
-WB - Water in Building
-WR - Water Rescue
-
-8 ROSWELL RD Suite: 1 TYPE:SF new oven making noises smells like burning rubber
-530 BUSHY HILL RD Suite: 03 TYPE:FA
-235 FARMS VILLAGE RD TYPE:VA 2 CAR MVA WITH FLUIDS
-BUSHY HILL RD&OVERLOOK TER TYPE:VR. REPORTED PARTY ENTRAPT
-57 WEST MOUNTAIN RD TYPE:VA CAR OFF ROAD INTO TREE. POLICE ON SCENE REQ FD
-7 WHITNEY LA TYPE:SA smell of smoke in area - can see "film" in air
-HOPMEADOW ST&WOODLAND ST TYPE:PA Truck hit telephone pole south of Woodland Street across from DB breaking the guide wire. Police re quest FD check pole.
-4 BROOK RIDGE TYPE:FA CALLED IN BY ALARM COMPANY
-12 CRANE PL TYPE:LS life star, end of cul de sac
-BUSHY HILL RD&ALBANY TNPK TYPE:VR mva rollover w/extrication
 **********************************************************
-Olmstead County, MN
-Contact: Joe Manning <jlmanning@gmail.com>
-Sender: @rochestermn.gov
-(Main St N 20 ST NW) Two vehicle Accident with injuries, neck and head pain\r\n\r\nJeff Wellik\r\nPublic Safety Communications\r\nRochester Police/Olmsted County Sh
-(4639 grove st se) Elderly male stroke symptoms, blurred vision weak legs
-(200 lakeshore dr nw) Med
-(200 lakeshore dr nw  florence park) medical
-(500 6 st ne) Medical
-(6220 70 ST SW) Male with chest pains  6220 70 ST SW
-(medical 1106 Sunrise Ct SE  baby with siezure)
-(101 schumann dr nw) GRASS FIRE ON W SIDE OF KWIK TRIP
 **********************************************************
 Tarrant County, TX
 Contact: "Jerritt Gideon" <j.gideon@tcfirealarm.com>

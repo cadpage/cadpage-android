@@ -6,7 +6,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.C2DMReceiver;
-import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.donation.DeveloperToolsManager;
