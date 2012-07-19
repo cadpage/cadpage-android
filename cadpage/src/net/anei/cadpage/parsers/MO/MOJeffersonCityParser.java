@@ -34,6 +34,13 @@ FRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:Aston, Nora 22:35 Medical Alarm 
 1410000043:  1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:1101 1401 1110 112 CCPager  17:53 Fire Alarm - 2709 LILAC -Cross\nStreets- DEAD END / S\n(Con't) 2 of 2\nCOUNTRY CLUB DR   RESIDENTAL- PIERSONS - FIRE MAIN FLOOR\n(End)
 1410000038:  1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:1201 1401 1531 114 CCPager  17:45 Accident with Injuries - 8000 D BLK\n-Cross Streets-\n(Con't) 2 of 2\nSCRIVNER RD / BATES RD   RP JUST HEARD THE ACCIDENT  UNKNOWN INJURY\n(End)
 
+Contact: Adam Bashore <cowboyup61589@gmail.com>
+Sender: paging@jeffcitymo.org
+ 1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:15:51 Mutual Aid  - 20 MAPLE RD,OLEAN -Cross Streets-  127 TO STATION 2  122 RESP STATION 2\n(Con't) 2 of 2\nEQUIPMENT AND PERSONNEL  STRUCTURE FIRE - ANIMALS AND AMMUNIT Degraffenreid, Jenny\n(End)
+ 1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:18:50 Natural Cover  1201 1210 1220 1320 1120 114 CCPager  - -Cross Streets- BAINER RD,\n(Con't) 2 of 2\nLOESCH RD / WALNUT ACRES RD, ZION RD  GRASS ON FIRE AT THE LOW WATER CROSSING -  Taylor, Tiffany\n(End)
+ 1 of 3\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:12:23 Fire Investigation 1301 111 CCPager  - 614 UPPER BOTTOM RD -Cross Streets- NATIONAL\n(Con't) 2 of 3\nST / PLACID VALLEY LN LN  CLOSE TO THE ROADWAY, SMOKE VISIBLE.  TRASH ON THE GROUND BURNING CLOSE TO HEAVY VEGITATION. NO ONE\n(Con't) 3 of 3\nStiefermann, Angela\n(End)
+ 1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:00:05 Structure Fire  - 56757 RT C -Cross Streets- FAHRNI RD / ROBERTA DR  RL REQUESTING\n(Con't) 2 of 2\nCOLE COUNTY FOR TANKER ASSISTANCE  MONT COUNTY SENDING EMS TO STANDBY WITH OFFICERS   Irey, Rachel\n(End)
+
 Jefferson County, MO
 Contact: support@active911.com
 Sender: paging@jeffcitymo.org
@@ -135,6 +142,7 @@ public class MOJeffersonCityParser extends MsgParser {
   private static final Pattern NUMBER_PTN = Pattern.compile("\\b\\d{2,}\\b");
   private static final Pattern UNIT_PTN = Pattern.compile("(?:(?: |^)[A-Z]+\\d+)+$", Pattern.CASE_INSENSITIVE);
   private static final Pattern UNIT2_PTN = Pattern.compile("(?:(?: |^)[A-Z]+\\d+)+ ", Pattern.CASE_INSENSITIVE);
+  private static final Pattern TRAIL_NAME_PTN = Pattern.compile("(?: *-)?((?: +[A-Z][a-z]+,?)? +[A-Z][a-z]+)$");
   
   public MOJeffersonCityParser() {
     super("JEFFERSON CITY", "MO");
@@ -167,8 +175,15 @@ public class MOJeffersonCityParser extends MsgParser {
     String sPart1 = match.group(3).trim();
     String sPart2 = match.group(4);
     
-    if (sPart1.endsWith(" JEFFERSON CITY")) sPart1 = sPart1.substring(0,sPart1.length()-15);
-    int pt = sPart1.indexOf(" - ");
+    int pt = sPart1.lastIndexOf(',');
+    if (pt >= 0) {
+      data.strCity = sPart1.substring(pt+1).trim();
+      sPart1 = sPart1.substring(0,pt).trim();
+    }
+    else if (sPart1.endsWith(" JEFFERSON CITY")) {
+      sPart1 = sPart1.substring(0,sPart1.length()-15);
+    }
+    pt = sPart1.indexOf(" - ");
     if (pt >= 0) {
       data.strCall = sPart1.substring(0,pt).trim();
       parseAddress(sPart1.substring(pt+3).trim(), data);
@@ -179,7 +194,13 @@ public class MOJeffersonCityParser extends MsgParser {
     
     Parser p = new Parser(sPart2);
     String sCross = p.get("  ");
-    data.strSupp = p.get();
+    String info = p.get();
+    match = TRAIL_NAME_PTN.matcher(info);
+    if (match.find()) {
+      data.strName = append(data.strName, " / ", match.group(1).trim());
+      info = info.substring(0,match.start());
+    }
+    data.strSupp = info;
     
     match = UNIT_PTN.matcher(sCross);
     if (match.find()) {
