@@ -252,6 +252,57 @@ public class PACambriaCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testJasonTroxel() {
+
+    doTest("T1",
+        "DATE: 07/19/12\n | 04:59:54\n | 17B01-BRAVO FALL\n | 4112 SPRINGHILL RD-PORT\n | CRESTWOOD LN-PORT STEVEN DR-PORT S\n | Sta 89",
+        "DATE:07/19/12",
+        "TIME:04:59:54",
+        "CALL:17B01-BRAVO FALL",
+        "ADDR:4112 SPRINGHILL RD",
+        "CITY:PORTAGE TWP",
+        "X:CRESTWOOD LN-PORT STEVEN DR-PORT S",
+        "UNIT:Sta 89");
+
+    doTest("T2",
+        "DATE: 07/18/12\n | 15:08:20\n | 17A01-ALPHA FALL\n | 112 MISSION LN-PORT\n | DEAD END DULANCEY DR-PORT\n | Sta 89",
+        "DATE:07/18/12",
+        "TIME:15:08:20",
+        "CALL:17A01-ALPHA FALL",
+        "ADDR:112 MISSION LN",
+        "CITY:PORTAGE TWP",
+        "X:DEAD END DULANCEY DR-PORT",
+        "UNIT:Sta 89");
+
+    doTest("T3",
+        "DATE: 07/17/12\n" +
+        " | 21:26:08\n" +
+        " | 31C01-CHARLIE SYNCOPAL EPISODE\n" +
+        " | 119 MISSION LN-PORT\n" +
+        " | DEAD END DULANCEY DR-PORT\n" +
+        " | Sta 89, Sta 75",
+
+        "DATE:07/17/12",
+        "TIME:21:26:08",
+        "CALL:31C01-CHARLIE SYNCOPAL EPISODE",
+        "ADDR:119 MISSION LN",
+        "CITY:PORTAGE TWP",
+        "X:DEAD END DULANCEY DR-PORT",
+        "UNIT:Sta 89, Sta 75");
+
+    doTest("T4",
+        "DATE: 07/19/12\n | 09:33:31\n | 10C04-CHARLIE\\2sCHEST PAIN\n | 1060 LLOYD ST-NG\n | FOSTER ST-NG ROBERTS ST-NG\n | Sta 46",
+        "DATE:07/19/12",
+        "TIME:09:33:31",
+        "CALL:10C04-CHARLIE\\2sCHEST PAIN",
+        "ADDR:1060 LLOYD ST",
+        "CITY:NANTY GLO",
+        "X:FOSTER ST & ROBERTS ST",
+        "UNIT:Sta 46");
+
+  }
+  
+  @Test
   public void testActive911A() {
 
     doTest("T1",

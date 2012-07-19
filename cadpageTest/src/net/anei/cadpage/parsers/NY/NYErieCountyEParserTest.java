@@ -63,6 +63,12 @@ public class NYErieCountyEParserTest extends BaseParserTest {
         "CITY:WEST SENECA",
         "INFO:GENERAL FIRE ALARM GOING OFF");
 
+    doTest("T7",
+        "ALERT@ERIE.GOV EMS 13191 CENTERLINE RD F-FELL UNK IF INJURED",
+        "CALL:EMS",
+        "ADDR:13191 CENTERLINE RD",
+        "INFO:F-FELL UNK IF INJURED");
+
   }
   
   @Test
