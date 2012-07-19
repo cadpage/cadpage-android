@@ -59,6 +59,19 @@ Sender: dispatch@ci.woodburn.or.us
 (Incident) UNC F:228 STEELHAMMER RD, SILVERTON:::NORTH 7:R404, D411, MED24::41 YOM IN AND OUT CONS/DIFF BREA/A:4/8/2012 1:32:13 PM
 (Incident) UNC F:1015 OAK ST 20 , SILVERTON:SILVER CLIFF ESTATES:::R404, D411, MED24::39 YOF UNC/BREA/A DIAB EMERGECY:4/8/2012
 
+Contact: Active911
+Agency name: Aurora Fire Department Location: Aurora, OR 
+Sender: Dispatch@ci.woodburn.or.us
+
+(Incident) SICK F:12748 DONALD LOOP RD NE, MARION COUNTY::::P924, E914, MED21::95 YOM UTI / UNK FURTHER INFO:
+(Incident) MVA INJURY F:LAT: 45.2758, LON: -122.77::::E914, TVFR-E52, AMR1::2 VEH MVA/IN MEDIAN/UNK INJURY/REAR ENDED:
+(Incident) MVA INJURY F:HW 99E MP 24:HW 99E MP 24:::R903, E914, AMR1:::
+(Incident) MVA INJURY F:I5 NB MP 278:I5 NB MP 278:::E21, E914, E926, MED23::2 VEH MVA/1 MALE LAYING ON GROUND:
+(Incident) FIRE ASSIST:7875 SW FAIRWAY DR, WILSONVILLE::::E914::TRI-PLEX FIRE / FLAMES SHOWING / OPS 35:
+(Incident) FIRE ASSIST:7875 SW FAIRWAY DR, WILSONVILLE::::P924, E914, E926::TRI-PLEX FIRE / FLAMES SHOWING / OPS 35:
+(Incident) ALM FIRE F:25496 S HWY 99E, CLACKAMAS COUNTY:TOP O HILL RESTAURANT:::R903, E914, T909::GENERAL FIRE:
+(Incident) ALM FIRE F:23766 3RD ST NE, MARION COUNTY::::E926::SMOKE ALARM GOING OFF:
+(Incident) SICK F:13681 WISTERIA DR NE, MARION COUNTY::::E914, MED21::88YOM C/B/A HIP PAIN FROM A FALL:
 
 ** NOT PARSING **
 ((2319) Hi Gina ) MED NO :1285 TIERRA LYNN DR    :    Map:2028 :20YOM C/DIFF B/A FEVER LOW HEMOGLOBIN :09/28/2011 :20:24 :
@@ -70,10 +83,11 @@ public class ORMarionCountyNParser extends FieldProgramParser {
   private static final Pattern CALL_ID_PTN = Pattern.compile("\\d{1,5}");
   private static final Pattern LEAD_PTN = Pattern.compile("^: *[/)\\|] *");
   private static final Pattern TIME_PTN = Pattern.compile("\\b(\\d{1,2}):(\\d{1,2}):(\\d{1,2})\\b");
+  private static final Pattern GPS_PTN = Pattern.compile("\\bLAT: *([+-]?[\\d.]+), *LON: *([+-]?[\\d.]+)\\b");
   
   public ORMarionCountyNParser() {
     super(CITY_LIST, "MARION COUNTY", "OR",
-           "CALL ( ADDRCITY ( CITY | APT ) X MAP UNIT! INFO+? DATETIME | ADDR1 ADDR1 ADDR1 ADDR1 ( CITY | APT ) ADDR2 ADDR2 ADDR2  MAP UNIT! INFO DATE TIME )");
+           "CALL ( ADDRCITY ( DUPADDR | CITY | PLACE ) X MAP UNIT! INFO+? DATETIME | ADDR1 ADDR1 ADDR1 ADDR1 ( CITY | APT ) ADDR2 ADDR2 ADDR2  MAP UNIT! INFO DATE TIME )");
   }
   
   private String address[] = new String[2];
@@ -95,6 +109,9 @@ public class ORMarionCountyNParser extends FieldProgramParser {
     // Time field has to be protected from being broken up by colon field separators
     body = TIME_PTN.matcher(body).replaceAll("$1-$2-$3");
     
+    // As does a GPS address field
+    body = GPS_PTN.matcher(body).replaceAll("$1,$2");
+    
     address[0] = address[1] = "";
     if (! parseFields(body.split(":"), 6, data)) return false;
     
@@ -107,6 +124,66 @@ public class ORMarionCountyNParser extends FieldProgramParser {
       parseAddress(append(address[0], " & ", address[1]), data);
     }
     return true;
+  }
+  
+  private static final Pattern ALPHA_PTN = Pattern.compile("[A-Z]");
+  private class MyAddressCityField extends AddressCityField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      
+      // This field can be a number of different things depending on whether or not it
+      // contains a comma and/or an upper case alpha character
+      boolean hasComma = field.contains(",");
+      boolean hasAlpha = ALPHA_PTN.matcher(field).find();
+      
+      // Fields with Alpha characters are more or less normal
+      if (hasAlpha) {
+        
+        // If it has a comma it is a normal address, city field
+        if (hasComma) {
+          super.parse(field, data);
+        } 
+        
+        // If not, it is a plain address field
+        else {
+          parseAddress(field, data);
+        }
+      }
+
+      // Fields without alpha characters are wierd
+      else {
+        
+        // If it has a comma, it is GPS location and just goes in the address field
+        if (hasComma) {
+          data.strAddress = field;
+        }
+        
+        // If not, it is the start of an old style address where the address is broken into
+        // four separate fields, the first of which contains the house number or is empty
+        // This is the only time we fail so we can take the split address branch
+        else return false;
+      }
+      return true;
+    }
+  }
+  
+  // SOmetimes, what should be the city or apt field contains a duplicate of the
+  // previous address field
+  private class MyDupAddressField extends SkipField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return field.equals(getRelativeField(-1));
+    }
   }
   
   private class MyAddressField extends AddressField {
@@ -167,6 +244,8 @@ public class ORMarionCountyNParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("DUPADDR")) return new MyDupAddressField();
     if (name.equals("ADDR1")) return new MyAddressField(0);
     if (name.equals("ADDR2")) return new MyAddressField(1);
     if (name.equals("UNIT")) return new MyUnitField();
@@ -219,6 +298,12 @@ public class ORMarionCountyNParser extends FieldProgramParser {
     "WACONDA",
     "WEST STAYTON",
 
-    "LYONS"
+    "LYONS",
+    
+    "WILSONVILLE",
+    
+    "CLACKAMAS COUNTY",
+    "MARION COUNTY",
+    "LINN COUNTY"
   };
 }
