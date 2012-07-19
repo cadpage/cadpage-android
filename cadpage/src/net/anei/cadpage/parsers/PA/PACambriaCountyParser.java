@@ -34,7 +34,6 @@ Contact: support@active911.com
 Sender; "Cambria 9-1-1" <alerts@cambria.ealertgov.com>
 Date: 01/24/12\nTime: 18:02:50\nNature: 69D03-Delta STRUCTURE FIRE\nLocation: 7458 ADMIRAL PEARY HWY-CB\nSta 70, Sta 71, Sta 72, Sta 75
 
-Cambria County, PA (alternate)
 Contact: Brian Flora <USMARINE_2002@yahoo.com>
 Sender: alerts@cambria.ealertgov.com
 DATE: 06/13/12\r\n | 13:21:53\r\n | 25B06V-BRAVO PSYCHIATRIC PROBLEM\r\n | 1109 DEVEAUX ST-WC\r\n | NUMBER 1 RD-WC FRAZIER ST-WC\r\n | Sta 64
@@ -47,6 +46,13 @@ DATE: 06/12/12\r\n | 11:14:25\r\n | 10C01-CHARLIE CHEST PAIN\r\n | 1100 W HIGH S
 DATE: 06/12/12\r\n | 09:56:39\r\n | 52C03S-CHARLIE SMOKE DETECTOR ALARM\r\n | 140 E CARROLL ST-CL\r\n | BEDE ST-CL N CHURCH ST-CL\r\n | Sta 5
 DATE: 06/11/12\r\n | 23:56:26\r\n | 28C03L-CHARLIE STROKE\r\n | 429 MANOR DR-CM\r\n | WINDY VALLEY RD-CM\r\n | Sta 48
 DATE: 06/13/12\r\n | 15:52:42\r\n | 18C05-CHARLIE  HEADACHE\r\n | 236 JAMESWAY RD-CM\r\n | WALMART DR-CM ADMIRAL PEARY HWY-CM\r\n | Sta 48
+
+Contact: "Jason \"Paco\" Troxel" <paco8325@gmail.com>
+Sender: alerts@cambria.ealertgov.com
+DATE: 07/19/12\n | 04:59:54\n | 17B01-BRAVO FALL\n | 4112 SPRINGHILL RD-PORT\n | CRESTWOOD LN-PORT STEVEN DR-PORT S\n | Sta 89
+DATE: 07/18/12\n | 15:08:20\n | 17A01-ALPHA FALL\n | 112 MISSION LN-PORT\n | DEAD END DULANCEY DR-PORT\n | Sta 89
+DATE: 07/17/12\n | 21:26:08\n | 31C01-CHARLIE SYNCOPAL EPISODE\n | 119 MISSION LN-PORT\n | DEAD END DULANCEY DR-PORT\n | Sta 89, Sta 75
+DATE: 07/19/12\n | 09:33:31\n | 10C04-CHARLIE\2sCHEST PAIN\n | 1060 LLOYD ST-NG\n | FOSTER ST-NG ROBERTS ST-NG\n | Sta 46
 
 Contact: Active911
 [CAD incident] Date: 07/02/12\nTime: 16:18:01\nNature: STB-STAND BY\nAdd: 237 LINCOLN ST-JO\nCross: WALNUT ST-JO MORRELL PL-JO DOWNTOW\n9
