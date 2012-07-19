@@ -285,6 +285,78 @@ public class MOJeffersonCityParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testParser3() {
+
+    doTest("T1",
+        " 1 of 2\n" +
+        "FRM:paging@jeffcitymo.org\n" +
+        "SUBJ:DONOTREPLY\n" +
+        "MSG:15:51 Mutual Aid  - 20 MAPLE RD,OLEAN -Cross Streets-  127 TO STATION 2  122 RESP STATION 2\n" +
+        "(Con't) 2 of 2\n" +
+        "EQUIPMENT AND PERSONNEL  STRUCTURE FIRE - ANIMALS AND AMMUNIT Degraffenreid, Jenny\n" +
+        "(End)",
+
+        "TIME:15:51",
+        "CALL:Mutual Aid",
+        "ADDR:20 MAPLE RD",
+        "CITY:OLEAN",
+        "X:127 TO STATION 2",
+        "INFO:122 RESP STATION 2 EQUIPMENT AND PERSONNEL  STRUCTURE FIRE - ANIMALS AND AMMUNIT",
+        "NAME:Degraffenreid, Jenny");
+
+    doTest("T2",
+        " 1 of 2\n" +
+        "FRM:paging@jeffcitymo.org\n" +
+        "SUBJ:DONOTREPLY\n" +
+        "MSG:18:50 Natural Cover  1201 1210 1220 1320 1120 114 CCPager  - -Cross Streets- BAINER RD,\n" +
+        "(Con't) 2 of 2\n" +
+        "LOESCH RD / WALNUT ACRES RD, ZION RD  GRASS ON FIRE AT THE LOW WATER CROSSING -  Taylor, Tiffany\n" +
+        "(End)",
+
+        "TIME:18:50",
+        "CALL:Natural Cover",
+        "ADDR:1201 1210 1220 1320 1120 114 CCPager  -",
+        "X:BAINER RD, LOESCH RD / WALNUT ACRES RD, ZION RD",
+        "INFO:GRASS ON FIRE AT THE LOW WATER CROSSING",
+        "NAME:Taylor, Tiffany");
+
+    doTest("T3",
+        " 1 of 3\n" +
+        "FRM:paging@jeffcitymo.org\n" +
+        "SUBJ:DONOTREPLY\n" +
+        "MSG:12:23 Fire Investigation 1301 111 CCPager  - 614 UPPER BOTTOM RD -Cross Streets- NATIONAL\n" +
+        "(Con't) 2 of 3\n" +
+        "ST / PLACID VALLEY LN LN  CLOSE TO THE ROADWAY, SMOKE VISIBLE.  TRASH ON THE GROUND BURNING CLOSE TO HEAVY VEGITATION. NO ONE\n" +
+        "(Con't) 3 of 3\n" +
+        "Stiefermann, Angela\n" +
+        "(End)",
+
+        "TIME:12:23",
+        "CALL:Fire Investigation 1301 111 CCPager",
+        "ADDR:614 UPPER BOTTOM RD",
+        "X:NATIONAL ST / PLACID VALLEY LN LN",
+        "INFO:CLOSE TO THE ROADWAY, SMOKE VISIBLE.  TRASH ON THE GROUND BURNING CLOSE TO HEAVY VEGITATION. NO ONE",
+        "NAME:Stiefermann, Angela");
+
+    doTest("T4",
+        " 1 of 2\n" +
+        "FRM:paging@jeffcitymo.org\n" +
+        "SUBJ:DONOTREPLY\n" +
+        "MSG:00:05 Structure Fire  - 56757 RT C -Cross Streets- FAHRNI RD / ROBERTA DR  RL REQUESTING\n" +
+        "(Con't) 2 of 2\n" +
+        "COLE COUNTY FOR TANKER ASSISTANCE  MONT COUNTY SENDING EMS TO STANDBY WITH OFFICERS   Irey, Rachel\n" +
+        "(End)",
+
+        "TIME:00:05",
+        "CALL:Structure Fire",
+        "ADDR:56757 RT C",
+        "X:FAHRNI RD / ROBERTA DR",
+        "INFO:RL REQUESTING COLE COUNTY FOR TANKER ASSISTANCE  MONT COUNTY SENDING EMS TO STANDBY WITH OFFICERS",
+        "NAME:Irey, Rachel");
+
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",
@@ -1059,6 +1131,6 @@ public class MOJeffersonCityParserTest extends BaseParserTest {
   }
 
   public static void main(String[] args) {
-    new MOJeffersonCityParserTest().generateTests("T24", "UNIT NAME TIME CALL ADDR X INFO");
+    new MOJeffersonCityParserTest().generateTests("T1", "UNIT NAME TIME CALL ADDR CITY X INFO");
   }
 }
