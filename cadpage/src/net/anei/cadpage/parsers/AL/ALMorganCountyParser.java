@@ -21,12 +21,20 @@ CAD:GORDON DR SW/CENTRAL PKWY SW STRUCTURE FIRE 11009333 DFS1
 CAD:1002 15TH AV SW RESIDENTIAL FIRE ALARM DOUTHIT ST SW FAYE ST SW 11011144 DFS1
 CAD:400-BLK EVERETT DR SW STRUCTURE FIRE SANDLIN RD SW WILLIAMS ST SW 11011173 DFS6
 
+Contact: Active911
+Agency name: Mud Tavern Volunteer Fire Rescue Location: Decatur, Al 
+Sender: CAD@morgan911.org
+
+224 HAROLD DR UNCONSCIOUS OR SYNCOPE CAT1 MODAUS RD SW MIRIAM PVT DR 12007229 MTFS
+72 PARKER ST TRAUMA WITH INJURY CAT2 W CHAPEL HILL RD W CHAPEL HILL RD 12007332 MTFS
+77 RUSSELL RD CHEST PAIN CAT1 W CHAPEL HILL RD 12007354 MTFS
+
 */
 
 
 public class ALMorganCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("CAD:(.*?)(?: (\\d{8}))?(?: (DFS\\d))?");
+  private static final Pattern MASTER = Pattern.compile("(?:CAD:)?(.*?)(?: (\\d{8}))?(?: (DFS\\d|MTFS))?");
   private static final Pattern CAT_PTN = Pattern.compile(" +CAT(\\d)\\b *");
 
   public ALMorganCountyParser() {
