@@ -40,6 +40,7 @@ public class CadPageApplication extends Application {
       // If a new version of Cadpage has been installed
       // we are supposed request a new GCM registration ID
       if (ManagePreferences.newVersion(versionCode) &&
+          ManagePreferences.gcmEnabled() &&
           ManagePreferences.registrationId() != null) {
         C2DMReceiver.register(this);
       }

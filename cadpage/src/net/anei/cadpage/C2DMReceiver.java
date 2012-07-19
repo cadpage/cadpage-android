@@ -88,7 +88,7 @@ public class C2DMReceiver extends BroadcastReceiver {
     String regId = intent.getStringExtra("unregistered");
     if (regId != null) {
       Log.w("C2DM registration cancelled: " + regId);
-      ManagePreferences.setRegistrationId(null);
+//      ManagePreferences.setRegistrationId(null);
       VendorManager.instance().unregisterC2DMId(context, regId);
       return;
     }
