@@ -89,6 +89,38 @@ public class ALMorganCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testActive911A() {
+
+    doTest("T1",
+        "224 HAROLD DR UNCONSCIOUS OR SYNCOPE CAT1 MODAUS RD SW MIRIAM PVT DR 12007229 MTFS",
+        "ADDR:224 HAROLD DR",
+        "CALL:UNCONSCIOUS OR SYNCOPE",
+        "PRI:1",
+        "X:MODAUS RD / SW MIRIAM PVT DR",
+        "ID:12007229",
+        "SRC:MTFS");
+
+    doTest("T2",
+        "72 PARKER ST TRAUMA WITH INJURY CAT2 W CHAPEL HILL RD W CHAPEL HILL RD 12007332 MTFS",
+        "ADDR:72 PARKER ST",
+        "CALL:TRAUMA WITH INJURY",
+        "PRI:2",
+        "X:W CHAPEL HILL RD / W CHAPEL HILL RD",
+        "ID:12007332",
+        "SRC:MTFS");
+
+    doTest("T3",
+        "77 RUSSELL RD CHEST PAIN CAT1 W CHAPEL HILL RD 12007354 MTFS",
+        "ADDR:77 RUSSELL RD",
+        "CALL:CHEST PAIN",
+        "PRI:1",
+        "X:W CHAPEL HILL RD",
+        "ID:12007354",
+        "SRC:MTFS");
+
+  }
+  
   public static void main(String[] args) {
     new ALMorganCountyParserTest().generateTests("T1", "PLACE ADDR CALL PRI X ID SRC");
   }
