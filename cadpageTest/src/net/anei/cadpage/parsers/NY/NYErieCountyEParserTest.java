@@ -56,6 +56,13 @@ public class NYErieCountyEParserTest extends BaseParserTest {
         "CITY:LANCASTER TOWN",
         "INFO:CO DETECTOR NO SYMPTOMS REFER TWIN DISTRICT FD");
 
+    doTest("T6",
+        "ALERT@ERIE.GOV FIRE-COMMERCIAL 2170 UNION RD WSE GENERAL FIRE ALARM GOING OFF.",
+        "CALL:FIRE-COMMERCIAL",
+        "ADDR:2170 UNION RD",
+        "CITY:WEST SENECA",
+        "INFO:GENERAL FIRE ALARM GOING OFF");
+
   }
   
   @Test
