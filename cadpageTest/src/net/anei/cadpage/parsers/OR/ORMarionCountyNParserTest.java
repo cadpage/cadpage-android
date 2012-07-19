@@ -388,14 +388,90 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "(Incident) UNC F:1015 OAK ST 20 , SILVERTON:SILVER CLIFF ESTATES:::R404, D411, MED24::39 YOF UNC/BREA/A DIAB EMERGECY:4/8/2012",
         "CALL:UNC F",
         "ADDR:1015 OAK ST 20",
-        "APT:SILVER CLIFF ESTATES",
+        "PLACE:SILVER CLIFF ESTATES",
         "CITY:SILVERTON",
         "UNIT:R404, D411, MED24",
         "INFO:39 YOF UNC/BREA/A DIAB EMERGECY");
 
   }
   
+  @Test
+  public void testActive911A() {
+
+    doTest("T1",
+        "(Incident) SICK F:12748 DONALD LOOP RD NE, MARION COUNTY::::P924, E914, MED21::95 YOM UTI / UNK FURTHER INFO:",
+        "CALL:SICK F",
+        "ADDR:12748 DONALD LOOP RD NE",
+        "CITY:MARION COUNTY",
+        "UNIT:P924, E914, MED21",
+        "INFO:95 YOM UTI / UNK FURTHER INFO");
+
+    doTest("T2",
+        "(Incident) MVA INJURY F:LAT: 45.2758, LON: -122.77::::E914, TVFR-E52, AMR1::2 VEH MVA/IN MEDIAN/UNK INJURY/REAR ENDED:",
+        "CALL:MVA INJURY F",
+        "ADDR:45.2758,-122.77",
+        "UNIT:E914, TVFR-E52, AMR1",
+        "INFO:2 VEH MVA/IN MEDIAN/UNK INJURY/REAR ENDED");
+
+    doTest("T3",
+        "(Incident) MVA INJURY F:HW 99E MP 24:HW 99E MP 24:::R903, E914, AMR1:::",
+        "CALL:MVA INJURY F",
+        "ADDR:HW 99E MP 24",
+        "MADDR:HWY 99E MP 24",
+        "UNIT:R903, E914, AMR1");
+
+    doTest("T4",
+        "(Incident) MVA INJURY F:I5 NB MP 278:I5 NB MP 278:::E21, E914, E926, MED23::2 VEH MVA/1 MALE LAYING ON GROUND:",
+        "CALL:MVA INJURY F",
+        "ADDR:I5 NB MP 278",
+        "MADDR:I 5 MP 278",
+        "UNIT:E21, E914, E926, MED23",
+        "INFO:2 VEH MVA/1 MALE LAYING ON GROUND");
+
+    doTest("T5",
+        "(Incident) FIRE ASSIST:7875 SW FAIRWAY DR, WILSONVILLE::::E914::TRI-PLEX FIRE / FLAMES SHOWING / OPS 35:",
+        "CALL:FIRE ASSIST",
+        "ADDR:7875 SW FAIRWAY DR",
+        "CITY:WILSONVILLE",
+        "UNIT:E914",
+        "INFO:TRI-PLEX FIRE / FLAMES SHOWING / OPS 35");
+
+    doTest("T6",
+        "(Incident) FIRE ASSIST:7875 SW FAIRWAY DR, WILSONVILLE::::P924, E914, E926::TRI-PLEX FIRE / FLAMES SHOWING / OPS 35:",
+        "CALL:FIRE ASSIST",
+        "ADDR:7875 SW FAIRWAY DR",
+        "CITY:WILSONVILLE",
+        "UNIT:P924, E914, E926",
+        "INFO:TRI-PLEX FIRE / FLAMES SHOWING / OPS 35");
+
+    doTest("T7",
+        "(Incident) ALM FIRE F:25496 S HWY 99E, CLACKAMAS COUNTY:TOP O HILL RESTAURANT:::R903, E914, T909::GENERAL FIRE:",
+        "CALL:ALM FIRE F",
+        "ADDR:25496 S HWY 99E",
+        "PLACE:TOP O HILL RESTAURANT",
+        "CITY:CLACKAMAS COUNTY",
+        "UNIT:R903, E914, T909",
+        "INFO:GENERAL FIRE");
+
+    doTest("T8",
+        "(Incident) ALM FIRE F:23766 3RD ST NE, MARION COUNTY::::E926::SMOKE ALARM GOING OFF:",
+        "CALL:ALM FIRE F",
+        "ADDR:23766 3RD ST NE",
+        "CITY:MARION COUNTY",
+        "UNIT:E926",
+        "INFO:SMOKE ALARM GOING OFF");
+
+    doTest("T9",
+        "(Incident) SICK F:13681 WISTERIA DR NE, MARION COUNTY::::E914, MED21::88YOM C/B/A HIP PAIN FROM A FALL:",
+        "CALL:SICK F",
+        "ADDR:13681 WISTERIA DR NE",
+        "CITY:MARION COUNTY",
+        "UNIT:E914, MED21",
+        "INFO:88YOM C/B/A HIP PAIN FROM A FALL");
+ 
+  }
+  
   public static void main(String[] args) {
-    new ORMarionCountyNParserTest().generateTests("T2");
+    new ORMarionCountyNParserTest().generateTests("T1");
   }
 }

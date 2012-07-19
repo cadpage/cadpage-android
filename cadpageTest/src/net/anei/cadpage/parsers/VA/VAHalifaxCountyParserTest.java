@@ -160,10 +160,40 @@ public class VAHalifaxCountyParserTest extends BaseParserTest {
         "X:CARTER S LN /  DUDLEY/RD",
         "PLACE:SEKPEH HOME FOR ADULTS",
         "CITY:HALIFAX");
+
+    doTest("T2",
+        "S:from Central M:12-028722 SHORTNESS OF BREATH, ETC. \n\n" +
+        "Reported: 07/18/2012 15:08:17 \n\n" +
+        "1237 LEE SYD MOORE RD \n\n" +
+        "GREEN LEVEL RD / MAC/DONALD RD \n\n" +
+        "SCOTTSBURG \n\n\n\n",
+
+        "ID:12-028722",
+        "CALL:SHORTNESS OF BREATH, ETC.",
+        "DATE:07/18/2012",
+        "TIME:15:08:17",
+        "ADDR:1237 LEE SYD MOORE RD",
+        "X:GREEN LEVEL RD / MAC/DONALD RD",
+        "CITY:SCOTTSBURG");
+
+    doTest("T3",
+        "S:from Central M:12-028699 GENERAL COMPLAINT - SICK \n\n" +
+        "Reported: 07/18/2012 12:25:26 \n\n" +
+        "2199 GRUBBY RD \n\n" +
+        "DOUGS TRL / COATES T/RL \n\n" +
+        "HALIFAX \n\n\n\n",
+
+        "ID:12-028699",
+        "CALL:GENERAL COMPLAINT - SICK",
+        "DATE:07/18/2012",
+        "TIME:12:25:26",
+        "ADDR:2199 GRUBBY RD",
+        "X:DOUGS TRL / COATES T/RL",
+        "CITY:HALIFAX");
   }
   
   @Test
-  public void test() {
+  public void testMobile() {
 
     doTest("T1",
         "(from Central) 12-028036 SHORTNESS OF BREATH, ETC.\n\n" +
