@@ -24,6 +24,9 @@ Sender: 911CENTER@co.somerset.pa.us
 Contact: Marc Jackson <marcmjackson@gmail.com>
 [FIRES >STRUCTURE FIRE]  911CENTER:MAIN ST BOSWELL LEWIS,NANCY 8146299728 Cad: 2012-0000017870
 
+Contact: "Samuel Dively" <8142794645@vzwpix.com>
+(FIREB >FIRE BRUSH) 911CENTER:TOOLAND RD XS: COMPS RD FAIRHOPE BUD CLAYTON/ CSX RR 8002320144 Map: Grids:, Cad: 2012-0000019181
+
 Contact: Active911
 Agency name: Hooversville EMS Location: Hooversville, PA
 Sender:911CENTER@co.somerset.pa.us 
