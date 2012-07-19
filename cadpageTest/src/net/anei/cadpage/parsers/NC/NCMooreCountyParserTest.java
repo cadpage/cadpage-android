@@ -136,6 +136,15 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "TIME:02:47:52",
         "UNIT:M29",
         "CALL:TRAFFIC ACCIDENT");
+
+    doTest("T6",
+        "S: M:128 JOHNS WAY VASS, MDL 31D03, 11:05:29, M31 UNCONSCIOUSNESS/FAINTING (NEAR),",
+        "ADDR:128 JOHNS WAY",
+        "CITY:VASS",
+        "CODE:31D03",
+        "TIME:11:05:29",
+        "UNIT:M31",
+        "INFO:UNCONSCIOUSNESS/FAINTING (NEAR)");
  }
   
 

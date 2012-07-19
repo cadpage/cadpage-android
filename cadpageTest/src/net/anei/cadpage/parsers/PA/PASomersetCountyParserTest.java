@@ -96,6 +96,21 @@ public class PASomersetCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testSamDively() {
+
+    doTest("T1",
+        "(FIREB >FIRE BRUSH) 911CENTER:TOOLAND RD XS: COMPS RD FAIRHOPE BUD CLAYTON/ CSX RR 8002320144 Map: Grids:, Cad: 2012-0000019181",
+        "CALL:FIRE BRUSH",
+        "ADDR:TOOLAND RD",
+        "MADDR:TOOLAND RD & COMPS RD",
+        "X:COMPS RD",
+        "NAME:FAIRHOPE BUD CLAYTON / CSX RR",
+        "PHONE:8002320144",
+        "ID:2012-0000019181");
+
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",
