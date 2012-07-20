@@ -390,6 +390,14 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "X:W LAKE RD");
 
     doTest("T2",
+        "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:17D3 >FALLS - NOT ALERT 3924 W RIDGE RD XS: HAMLET AVE MILLCREEK TWP\r\n",
+        "SRC:West Ridge Fire",
+        "CALL:FALLS - NOT ALERT",
+        "ADDR:3924 W RIDGE RD",
+        "CITY:MILLCREEK TWP",
+        "X:HAMLET AVE");
+
+    doTest("T3",
         "FRM:messaging@iamresponding.com\n" +
         "SUBJ:West Ridge Fire\n" +
         "MSG:10D1 >CHEST PAIN - PATIENT NOT ALERT 4101 RIDGEWOOD DR XS: VISTA DR MILLCREEK TWP\r\n",

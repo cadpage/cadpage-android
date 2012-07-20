@@ -130,6 +130,15 @@ public class PAYorkCountyCParserTest extends BaseParserTest {
         "ADDR:1972 W  PHILADELPHIA ST",
         "CALL:FIRE STRUCT RESID");
 
+    doTest("T7",
+        "Subject:Station 41\n  163 COOL CREEK MANOR DR \r\nHELLAM TWP\r\n  \r\nKENNETH WAY / SETH CT\r\n    3134\r\n     SICK PERSON CL 1\r\n\r\n\r",
+        "SRC:Station 41",
+        "ADDR:163 COOL CREEK MANOR DR",
+        "CITY:HELLAM TWP",
+        "X:KENNETH WAY / SETH CT",
+        "MAP:3134",
+        "CALL:SICK PERSON CL 1");
+
   }
   
   public static void main(String[] args) {
