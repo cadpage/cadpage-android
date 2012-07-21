@@ -168,6 +168,7 @@ public class ManageParsers {
         "PAErieCountyEnergyCare", "PAErieCountyEmergyCare", //04/07/2012
         "NYAmherst",          "NYErieCountyD",          // 07/09/2012
         "NYErieCountyA",      "NYErieCounty",           // 07/09/2012
+        "NJWayneCounty",      "NJWayneTownship"         // 07/20/2012
         
   });
 

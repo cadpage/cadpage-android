@@ -16,10 +16,10 @@ Sender: cad@waynetownship.com
 
 */
 
-public class NJWayneCountyParser extends DispatchProphoenixParser {
+public class NJWayneTownshipParser extends DispatchProphoenixParser {
   
-  public NJWayneCountyParser() {
-    super("WAYNE COUNTY", "NJ");
+  public NJWayneTownshipParser() {
+    super("WAYNE TOWNSHIP", "NJ");
   }
   
   @Override
