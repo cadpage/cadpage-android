@@ -34,7 +34,7 @@ Ocean City, MD
 (Chief ALT) [700 Auto] - Nature:Auto Alarm - LOC:2700 Baltimore Ave - Dunes Motel - ADD:(s) (n)boardwalk OCMD - Cross STS:28th St & 27th St
 [Chief ALT]  [700 Auto] - Nature:Auto Alarm - LOC:1701 Atlantic Ave - Holiday Inn Hotel & Suites - ADD:(s) (n)boardwalk OCMD - Cross STS:18th St & 17th St
 
-Kent County, DE (Alternate)
+Kent County, DE (B)
 (Chief ALT) [KCPS] - [911, Kent] NWS UPGRADED LAST TO A WARNING, WILL BE IN WESTERN KENT COUNTY AROUND 22:30 HRS.
 (Chief ALT) [40 EMS] - 26A10 - Sick Person - Unwell/Ill -- 2536 Skeeter Neck Rd, Frederica -- Xst's: Bowers Beach Rd / E Front St -- Caller: High Vue Logging Inc
 (Chief ALT) [KCPS] - [911, Kent] NWS UPGRADED LAST TO A WARNING, WILL BE IN WESTERN KENT COUNTY AROUND 22:30 HRS.
@@ -47,6 +47,39 @@ Kent County, DE (Alternate)
 (Chief ALT) [40 EMS] - 6C1 - Breathing Problems -- 294 Lake Shore Dr, Frederica -- High Point Mhp -- Xst's: Kiwi Ct / Kylie Ln -- Caller: Hurd Shirley
 (Chief ALT) [40 Fire] - 17A2 - Falls - Non-Recent -- 254 Lake Shore Dr, Frederica -- High Point Mhp -- Xst's: Tyson Ln / Ibis Ct -- Caller: Spink Kimberley
 (Chief ALT) [40 Fire] - Outside Fire-Unknown 2124 BOWERS BEACH RD, Frederica -- Xst's: Grm Dr / Whitwell Delight Rd
+
+[Chief ALT] [46 Fire] -- Stand-By,Cover-up -- 110 Firehouse Ln Marydel - Cross Sts: Strauss Av\n
+[Chief ALT] [46 Fire] -- Outside Fire-Small -- Wolf Creek Blvd/ Glenda Rd Dover - Cross Sts: None\n
+[Chief ALT] [46 Fire] -- Stand-By,Cover-up -- 2898 Arthursville Rd Hartly - Cross Sts: Main St\n Everetts Corner R Cross St2: Main St\n Everetts\n
+[Chief ALT] [46 Fire] -- Structure-Commercial -- 1481 N Dupont Hwy Dover - Cross Sts: W Rustic L - Caller:HILL, ANTONETTE\n
+[Chief ALT] [46 Fire] -- Alarms-Residential (single) -- 40 Saulsbury Rd Dover - Cross Sts: Carver R\n
+[Chief ALT] [46 Fire] -- Outside Fire-Field,Grass,Woods -- 1365 N Dupont Hwy Dover - Cross Sts: Dover Mal - Caller:dfd\n
+[Chief ALT] [46 Fire] -- 29D2L MVC Motorcycle/Bicycle -- 1131 N Dupont Hwy Dover - Cross Sts: Unknow - Caller:CODY\n
+[Chief ALT] [46 Fire] -- 29B4 MVC Unknown -- College Rd/ Mckee Rd Dover - Cross Sts: None - Caller:JAKE\n
+[Chief ALT] [46 Fire] -- Electrical Hazard-Arcing -- 1001 Forrest Ave Dover - Cross Sts: Saulsbury Rd\n Forest S Cross St2: Saulsbury\n
+[Chief ALT] [46 Fire] -- Fuel Spill (Small) -- 411 S Queen St Dover - Cross Sts: Dupont S\n
+[Chief ALT] [46 Fire] -- Alarms CO-Residential (single) -- 39 Kentwood Dr Dover - Cross Sts: Bismark D\n
+[Chief ALT] [46 Fire] -- Outside Fire-Small -- 1368 Rose Valley School Rd Dover - Cross Sts: Unknow\n
+[Chief ALT] [46 Fire] -- Search -- 1200 N Dupont Hwy Dover - Cross Sts: College R - Caller:DFD\n
+[Chief ALT] [46 Fire] -- 6D1 Breathing Problems -- 14 Fair Wind Pl Dover - Cross Sts: Bay Tree R - Caller:LUKE\n
+[Chief ALT] [46 Fire] -- Outside Fire-Small -- 100 Haman Dr Dover - Cross Sts: Kesselring Av - Caller:TORRES, DIANNA\n
+[Chief ALT] [46 Fire] -- Outside Fire-Small -- 217 Rose Valley School Rd Dover - Cross Sts: Hazlettville R - Caller:KWNTCOM\n
+[Chief ALT] [46 Fire] -- Vehicle Fire -- 439 Phoenix Dr Dover - Cross Sts: Santa Fe D - Caller:RILEY, EDEDE, E\n
+[Chief ALT] [46 Fire] -- Outside Fire-Small -- 75 Quail Hollow Dr Dover - Cross Sts: Village D - Caller:AUSTIN, THERESA\n
+[Chief ALT] [46 Fire] -- Alarms-Residential (single) -- 868 Woodcrest Dr Dover - Cross Sts: Woodcrest Tur - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Outside Fire-Small -- State Hwy 1  - Cross Sts: None - Caller:BAER, BRETT\n
+[Chief ALT] [46 Fire] -- Structure-Residential Single -- 880 Buttner Pl Dover - Cross Sts: Dead En\n
+[Chief ALT] [46 Fire] -- Alarms-Commercial -- 800 Otis Dr Dover - Cross Sts: Fowler C - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Fuel Spill (Small) -- KENT CO COURT HOUSE -- 414 Federal St Dover - Cross Sts: William Penn S - Caller:SHANER, DISPATCHER\n
+[Chief ALT] [46 Fire] -- Alarms-High Life Hazard -- LUTHER VILLAGE 1, LUTHER VILLAGE 2 -- 101 Babb Dr Dover - Cross Sts: Nob Hill R\n
+[Chief ALT] [46 Fire] -- Alarms-Commercial -- COMPASSIONATE PAIN MANAGEMENT -- 740 S New St Dover - Cross Sts: South S - Caller:44, DES\n
+[Chief ALT] [46 Fire] -- Alarms-Residential (multiple) -- APT-PINE GROVE APTS -- 255 Webbs Ln Dover - Cross Sts: John Clark Rd\n Mayberry L Cross St2: John Clark R - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Alarms-High Life Hazard -- SILVER LAKE CENTER -- 1080 Silver Lake Blvd Dover - Cross Sts: Unknow - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Alarms-Commercial -- 22 The Green Dover - Cross Sts: Bank L - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Alarms-Commercial -- CHRIST CHURCH -- 501 S State St Dover - Cross Sts: W Water St\n Water S Cross St2: W Water S - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Alarms-Commercial -- 800 Otis Dr Dover - Cross Sts: Fowler C - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Alarms-Residential (single) -- 281 Sheffield Dr Dover - Cross Sts: Norwich Wa - Caller:ADT\n
+[Chief ALT] [46 Fire] -- Structure-Mobile Home/Trailer -- 243 Kentwood Dr Dover - Cross Sts: Phoenix D - Caller:SHANON\n
 
  */
 public class DispatchAegisParser extends FieldProgramParser {
@@ -72,13 +105,15 @@ public class DispatchAegisParser extends FieldProgramParser {
     if (subjects.length != 2 || !subjects[0].equals("Chief ALT")) return false;
     data.strSource = subjects[1];
     
-    if (body.startsWith("-")) body = body.substring(1).trim();
+    while (body.startsWith("-")) body = body.substring(1).trim();
     String[] flds = DELIM.split(body);
     if (flds.length > 1) {
       if (parseFields(DELIM.split(body), data)) return true;
     }
     
-    data.strPlace = body;
+    String src = data.strSource;
+    data.parseGeneralAlert(body);
+    data.strSource = src;
     return true;
   }
   
