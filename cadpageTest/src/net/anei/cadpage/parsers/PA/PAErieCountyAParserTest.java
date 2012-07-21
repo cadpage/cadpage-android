@@ -283,6 +283,14 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "ADDR:5019 MARKWOOD DR",
         "CITY:HARBORCREEK TWP",
         "X:VICTORY DR");
+
+    doTest("T12",
+        ".... (Kuhl Hose Fire) ERIE911:10D4 >CHEST PAIN - CLAMMY 10370 ETTER RD XS: LAKE PLEASANT RD GREENE TWP",
+        "SRC:ERIE911",
+        "CALL:CHEST PAIN - CLAMMY",
+        "ADDR:10370 ETTER RD",
+        "CITY:GREENE TWP",
+        "X:LAKE PLEASANT RD");
  }
   
   @Test

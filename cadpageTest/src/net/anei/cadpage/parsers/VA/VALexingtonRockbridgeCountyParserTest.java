@@ -95,9 +95,17 @@ public class VALexingtonRockbridgeCountyParserTest extends BaseParserTest {
         "MADDR:I 81 N BOUND",
         "UNIT:CO09A,LXRS1,",
         "CITY:LEXINGTON");
-  }
+
+    doTest("T11",
+        "[CAD] Type: ACCIDENT MVC Loc: RD 11 CHURCH Units: FAIR1, City: FAIRFIELD 7/20/2012 3:16:56 AM 079.266657ALI Y Coordinate: 037.896663",
+        "CALL:ACCIDENT MVC",
+        "ADDR:RD 11 CHURCH",
+        "UNIT:FAIR1,",
+        "CITY:FAIRFIELD",
+        "INFO:079.266657ALI Y Coordinate: 037.896663");
+ }
   
   public static void main(String[] args) {
-    new VALexingtonRockbridgeCountyParserTest().generateTests("T10");
+    new VALexingtonRockbridgeCountyParserTest().generateTests("T1");
   }
 }
