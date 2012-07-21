@@ -24,6 +24,10 @@ Sender: @c-msg.net
 Contact: Dave Wheeler <wheelerdh@gmail.com>
 S:LCAD M:[LCAD] Type: ACCIDENT MVC Loc: I-81 N BOUND Units: CO09A,LXRS1, City: LEXINGTON 8/14/2011 2:36:17 PM **Nearest Address: \n\n
 
+Contact: Brent <brentaust18@gmail.com>
+Sender: 411911
+[CAD] Type: ACCIDENT MVC Loc: RD 11 CHURCH Units: FAIR1, City: FAIRFIELD 7/20/2012 3:16:56 AM 079.266657ALI Y Coordinate: 037.896663
+
  */
 
 public class VALexingtonRockbridgeCountyParser extends FieldProgramParser {
@@ -39,12 +43,12 @@ public class VALexingtonRockbridgeCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@c-msg.net";
+    return "@c-msg.net,411911";
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.contains("LCAD")) return false;
+    if (!subject.contains("CAD")) return false;
     
     // Strip off data field from end of message
     int pt = body.indexOf("\nMessage");
