@@ -4836,6 +4836,10 @@ Contact: Kim Cytryszewski <kimcytryszewski@gmail.com>
 Sender: CAD@onslowcountync.gov
 CAD:100 VANCE LN/RIGGS RD;DIST: 158.12 FT;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20C\r
 **********************************************************
+Fayette County, PA (alternate)
+Contact: Bill Hickle <bhickle29@gmail.com>
+Sender: 4129533352
+21 auto fire alarm Brownsville House Apts asst ST6
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5037,3 +5041,30 @@ Sender: rc.439@c-msg.net
 (VEST) [VEST] CRASH012 12 Ic# 28 CRASH012 Ds# 130001 Al# 1 Utl# G-115 07/04/121800 W LINCOLNWAY HW OS <> N PEONY AVHEAD ON CRASH 2244
 (VEST) [VEST] CRASH004 12 Ic# 37 CRASH004 Ds# 121001 Al# 1 Utl# G-2 07/04/1250585 SR 23 HW HA <> BIRCH RDROLLOVER NO ENTRAPMENT 2317
 **********************************************************
+From:alrt_30E8@rsan.pwcgov.org
+Body:(1/2) 20-Jul-2012/11:33:08/INVEST/11708 NOKESVILLE RD / 11700 VINT HILL RD ,PWC /25/E525 /thick smoke coming from wooded area n
+Body:(2/2) ear new bristow village // no flames just smoke
+Send time:1342784020000
+Rec time: 1342798452455
+
+From:alrt_30D0@rsan.pwcgov.org
+Body:(1/2) The Staffing Office will be closed today from 09:00 to 11:00. If you need immediate assistance please call Station 16 at
+Send time:1342774368000
+Rec time: 1342788789326
+
+From:alrt_30D0@rsan.pwcgov.org
+Body:(2/2) 703-368-0859.
+Send time:1342774380000
+Rec time: 1342788804644
+
+From:alrt_30C6@rsan.pwcgov.org
+Body:(1/4) Date: 7/20/12\2s\r\nA: 2,10,16\2s\r\nM: 1,3,4,7,9,11,12,*,14,17,20,23,24,25,31,33\2s\r\nE: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,
+Body:(3/4) 503: Crispin\2s\r\nBC 504: Shiftlett\2s\r\nBC 531: Wheeler\2s\r\nBC 581: Palermo\2s\r\nBC 582: Franzello\2s\r\n\2s\r\nDuty HM:\3s\r\n\2s\r\nFM: Tyson
+Send time:1342765016000
+Rec time: 1342779440300
+
+From:alrt_30C6@rsan.pwcgov.org
+Body:(2/4) 18,20,23,24,25,31,32,33\2s\r\nK: 3,5,6,15,16\2s\r\nR: 1,4,10,32\2s\r\nT: 11,33\2s\r\nTW: 1,12,13\2s\r\n\2s\r\nBC 501: Cooke\2s\r\nBC 502: Wykes\2s\r\nBC
+Body:(4/4) SF: Briggs\2s\r\n\2s\r\nUFRO: Wood
+Send time:1342765027000
+Rec time: 1342779460619

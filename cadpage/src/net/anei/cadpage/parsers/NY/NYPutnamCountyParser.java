@@ -67,6 +67,7 @@ Station numbers FYI
 public class NYPutnamCountyParser extends MsgParser {
   
   private static final Pattern STA_MARKER = Pattern.compile("[\\| ]STA ");
+  private static final Pattern TSP_PATTERN = Pattern.compile("\\bTSP\\b");
 
 
   public NYPutnamCountyParser() {
@@ -90,7 +91,9 @@ public class NYPutnamCountyParser extends MsgParser {
     Parser p = new Parser(sPart1);
     data.strCall = p.get('|');
     data.strPlace = p.get('|');
-    parseAddress(p.get(','), data);
+    String sAddr = p.get(',');
+    sAddr = TSP_PATTERN.matcher(sAddr).replaceAll("TACONIC STATE PKWY");
+    parseAddress(sAddr, data);
     data.strCity = p.get("|APT");
     data.strApt = p.get();
     p = new Parser(sPart2);
