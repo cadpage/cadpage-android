@@ -26,6 +26,10 @@ Contact: Doug Brydge <dbrydge@gmail.com>
 Sender: CAD@co.augusta.va.us
 CAD@co.augusta.va.us Msg: CAD:FYI: :AUTOMOBILE ACCIDENT:BROADVIEW ACRES:SANGERS LN/JEFFERSON HWY
 
+Contact: Drew Siegel <drewasiegel@gmail.com>
+Sender: CAD@co.augusta.va.us
+CAD:INJURY (TRAUMATIC):AUGUSTA NURSING&REHAB:83 CROSSROADS LN:ROOM 224-B:GOOSE CREEK RD:CNTY-1\r
+
  */
 
 public class VAAugustaCountyParser extends DispatchOSSIParser {

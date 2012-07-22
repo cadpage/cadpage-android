@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.CA;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -24,13 +26,18 @@ Sender: AEUCAD@fire.ca.gov
 Contact: "fyregoose@hotmail.com" <fyregoose@hotmail.com>
 (CAD Page) 25-Sep-2011/19:06:43: MED, CODE 2: Inc# 022661: 1000 HY 193 / 3000 HY 49 ,COOL  E22 M61 72; ; X: -121 0.9537  Y: 38 53.2183;
 
+Contact: "farlymot@hotmail.com" <farlymot@hotmail.com>
+Sender: AEUCAD@fire.ca.gov
+(CAD Page) 21-Jul-2012/18:36:57; FIRE, WILDLAND; Inc# 016722; 6085BLK W CHINA HILL RD ,EL_DORADO; B2709 U8113 E2751 E2769 E2784 E2774 E2752 E2782 E46 D2741 W46 W
+
  */
 
 
 public class CAElDoradoCountyParser extends MsgParser {
   
-  private static final Pattern MARKER = Pattern.compile("^\\d{1,2}-\\w{3}-\\d{4}/\\d\\d:\\d\\d:\\d\\d: ");
-  private static final Pattern MASTER = Pattern.compile("^(.*?): Inc# (.*?): (.*?) ,(.*? )(?:\\((.*?)\\) )? *(.*?)(?:;|$)");
+  private static final Pattern MARKER = Pattern.compile("^(\\d{1,2}-\\w{3}-\\d{4})/(\\d\\d:\\d\\d:\\d\\d)[:;] ");
+  private static final Pattern MASTER = Pattern.compile("^(.*?)[:;] Inc# (.*?)[:;] (.*?) ,(.*?)[ ;](?:\\((.*?)\\) )? *(.*?)(?:;|$)");
+  private static final DateFormat DATE_FMT = new SimpleDateFormat("dd-MMM-yyyy");
   
   public CAElDoradoCountyParser() {
     super("EL DORADO COUNTY", "CA");
@@ -47,6 +54,8 @@ public class CAElDoradoCountyParser extends MsgParser {
     if (!subject.equals("CAD Page")) return false;
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
+    setDate(DATE_FMT, match.group(1), data);
+    data.strTime = match.group(2);
     body = body.substring(match.end()).trim();
     
     match = MASTER.matcher(body);
@@ -64,8 +73,8 @@ public class CAElDoradoCountyParser extends MsgParser {
     data.strUnit = match.group(6).trim();
     
     body = body.substring(match.end()).trim();
-    if (body.startsWith(";")) body = body.substring(1).trim();
-    if (body.endsWith(";")) body = body.substring(0,body.length()-1).trim();
+    if (body.startsWith(";") || body.startsWith(";")) body = body.substring(1).trim();
+    if (body.endsWith(";") || body.endsWith(";")) body = body.substring(0,body.length()-1).trim();
     data.strGPSLoc = body;
     
     return true;
