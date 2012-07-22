@@ -87,6 +87,14 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "X:ALTMAN AVE",
         "CITY:Punxsutawney",
         "PLACE:20-A Snyder Hill");
+
+    doTest("71",
+        "prvs=054676518f=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Misc. Fire S20 MED50  313 WOODLAND AVE Punxsutawney BLAIR ST / CAMBRIA ST 20-A Snyder Hill",
+        "CALL:Misc Fire S20 MED50",
+        "ADDR:313 WOODLAND AVE",
+        "CITY:Punxsutawney",
+        "X:BLAIR ST / CAMBRIA ST",
+        "PLACE:20-A Snyder Hill");
   }
   
   public static void main(String[] args) {
