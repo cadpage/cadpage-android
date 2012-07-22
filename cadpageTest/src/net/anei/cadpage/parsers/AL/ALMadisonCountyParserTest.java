@@ -106,7 +106,21 @@ public class ALMadisonCountyParserTest extends BaseParserTest {
         "MAP:2225");
   }
   
+  @Test
+  public void testChadTillman() {
+
+    doTest("T1",
+        "(IPS I/Page Notification) Loc: 1567 YARBROUGH RD MDCO EVT#: E1232245 TYPE: MVA/E TIME: 03:21:57 GRID ID: 936",
+        "ADDR:1567 YARBROUGH RD",
+        "CITY:MADISON COUNTY",
+        "ID:E1232245",
+        "CALL:MVA W/ ENTRAPMENT",
+        "TIME:03:21:57",
+        "MAP:936");
+
+  }
+  
   public static void main(String[] args) {
-    new ALMadisonCountyParserTest().generateTests("T1", "ADDR PLACE CITY ID CALL TIME");
+    new ALMadisonCountyParserTest().generateTests("T1", "ADDR PLACE CITY ID CALL TIME MAP");
   }
 }

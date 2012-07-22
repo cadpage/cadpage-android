@@ -12,6 +12,18 @@ public class VANewKentCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testTravisLongest() {
+
+    doTest("T1",
+        "MAILBOX:F3 ASSIST ANOTHER AGENCY KENTLAND TRL/COLONIAL DOWN CFS# 2012-018312",
+        "SRC:F3",
+        "CALL:ASSIST ANOTHER AGENCY",
+        "ADDR:KENTLAND TRL & COLONIAL DOWN",
+        "ID:2012-018312");
+ 
+  }
+  
+  @Test
   public void testActive911A() {
 
     doTest("T1",

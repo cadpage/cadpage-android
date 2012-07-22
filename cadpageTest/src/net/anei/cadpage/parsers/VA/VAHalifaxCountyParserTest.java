@@ -190,6 +190,22 @@ public class VAHalifaxCountyParserTest extends BaseParserTest {
         "ADDR:2199 GRUBBY RD",
         "X:DOUGS TRL / COATES T/RL",
         "CITY:HALIFAX");
+
+    doTest("T4",
+        "S:from Central M:12-028910 FALLEN PATIENT \n\n" +
+        "Reported: 07/19/2012 20:32:58 \n\n" +
+        "621 BERRY HILL RD \n\n" +
+        "PATTERSON AVE / HILL/ TOP DR \n\n" +
+        "BERRY HILL NURSING HOME  SOUTH BOSTON \n\n\n\n",
+
+        "ID:12-028910",
+        "CALL:FALLEN PATIENT",
+        "DATE:07/19/2012",
+        "TIME:20:32:58",
+        "ADDR:621 BERRY HILL RD",
+        "X:PATTERSON AVE / HILL/ TOP DR",
+        "PLACE:BERRY HILL NURSING HOME",
+        "CITY:SOUTH BOSTON");
   }
   
   @Test
