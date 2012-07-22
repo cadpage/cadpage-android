@@ -5042,8 +5042,7 @@ Sender: rc.439@c-msg.net
 (VEST) [VEST] CRASH004 12 Ic# 37 CRASH004 Ds# 121001 Al# 1 Utl# G-2 07/04/1250585 SR 23 HW HA <> BIRCH RDROLLOVER NO ENTRAPMENT 2317
 
 **********************************************************
-
-Kent County, DE (alternate or replace)
+Kent County, DE (alternate)
 Contact: Active911
 [Chief ALT] [46 Fire] -- Stand-By,Cover-up -- 110 Firehouse Ln Marydel - Cross Sts: Strauss Av\n
 [Chief ALT] [46 Fire] -- Outside Fire-Small -- Wolf Creek Blvd/ Glenda Rd Dover - Cross Sts: None\n
