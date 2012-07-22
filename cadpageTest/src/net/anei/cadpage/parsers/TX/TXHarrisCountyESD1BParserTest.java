@@ -14,17 +14,17 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
   @Test
   public void testRunReport() {
 
-    doTest("T11",
+    doTest("T1",
         "ID#:11-08-29436 - UNIT:L32 - DISP: 21:06:25 - ER: - OUT: - TO: - AT: - AIR: 21:0",
         "CALL:RUN REPORT",
         "PLACE:ID#:11-08-29436 - UNIT:L32 - DISP: 21:06:25 - ER: - OUT: - TO: - AT: - AIR: 21:0");
 
-    doTest("T12",
+    doTest("T2",
         "FRM:cadnoreply@proxy.hcec.com\nMSG:ID#:12-06-21170- UNIT:E13 - DISP: 11:19:11 - ER: - OUT: - AIR: 11:23:42",
         "CALL:RUN REPORT",
         "PLACE:ID#:12-06-21170- UNIT:E13 - DISP: 11:19:11 - ER: - OUT: - AIR: 11:23:42");
 
-    doTest("T13",
+    doTest("T3",
         "FRM:cadnoreply@proxy.hcec.com\nMSG:ID#:12-06-21170- UNIT:BRU23 - DISP: 10:57:35 - ER: - OUT: - AIR: 11:23:56",
         "CALL:RUN REPORT",
         "PLACE:ID#:12-06-21170- UNIT:BRU23 - DISP: 10:57:35 - ER: - OUT: - AIR: 11:23:56");
@@ -49,7 +49,7 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "ID:11-06-20710",
         "CALL:FIRE - PreAlert",
         "ADDR:16217 Ridlon",
-        "APT:intra SERVICES",
+        "PLACE:intra SERVICES",
         "MAP:498C",
         "X:SHEILA LN/WOODLAND D");
 
@@ -66,7 +66,8 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "ID:11-06-20627",
         "CALL:29A1 MOTOR VEHICLE A",
         "ADDR:16410 Ave D",
-        "APT:AVE D APTS-1",
+        "PLACE:AVE D APTS",
+        "APT:1",
         "MAP:498D",
         "X:WOODLAND DR/CEDAR L");
   }
@@ -113,7 +114,7 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "ID:11-07-25416",
         "CALL:HEMORRHAGE/LACERATIO",
         "ADDR:12370 S San Circle Dr",
-        "APT:UNK TRAILER PARK",
+        "PLACE:UNK TRAILER PARK",
         "MAP:456C",
         "X:BARK");
 
@@ -123,7 +124,7 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "CODE:55B04",
         "CALL:ELECTRICAL HAZARD",
         "ADDR:16102 E Ih 10",
-        "APT:OLD RIVER CHURCH DAY",
+        "PLACE:OLD RIVER CHURCH DAY",
         "MAP:498G",
         "X:IH 10 EAST BAYOU RAMP/IH 10 SH");
 
@@ -153,7 +154,7 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "ID:11-08-26006",
         "CALL:Citizen Assist",
         "ADDR:5500 E Bw 8 N",
-        "APT:big tex storage",
+        "PLACE:big tex storage",
         "MAP:457Y",
         "X:BW 8 NB WALLISVILLE EXIT RAMP/",
         "BOX:2005");
@@ -189,7 +190,7 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "ID:11-08-26039",
         "CALL:FUEL SPILL",
         "ADDR:15880 Wallisville Rd",
-        "APT:LEGEND OAKS",
+        "PLACE:LEGEND OAKS",
         "MAP:457V",
         "X:HIDDEN PARK DR/HYACINTH PATH W",
         "BOX:2005");
@@ -271,7 +272,7 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testAcive911() {
+  public void testAcive911A() {
 
     doTest("T1",
         "[] ID#:12-06-23555 - - 60B1 GAS LEAK/ODOR ( - 11000 E Canal Rd - Apt: - Bldg: - Key Map: 460J - Cross Streets:OAK AVE/HOLLY DR - Box #:1705\n",
@@ -306,9 +307,414 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "CALL:Address changed to:");
     
   }
+  
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        "ID#:12-07-26086 - UNIT:GPE1 - Call Rcvd: 10:35:44 - DISP: 10:47:25 - ER: - OUT: - TO: - AT: - AIR: 10:57:50",
+        "CALL:RUN REPORT",
+        "PLACE:ID#:12-07-26086 - UNIT:GPE1 - Call Rcvd: 10:35:44 - DISP: 10:47:25 - ER: - OUT: - TO: - AT: - AIR: 10:57:50");
+
+    doTest("T2",
+        "ID#:12-07-26106 - UNIT:E11 - DISP: 12:30:22 - ER: - OUT: - AIR: 12:31:28",
+        "CALL:RUN REPORT",
+        "PLACE:ID#:12-07-26106 - UNIT:E11 - DISP: 12:30:22 - ER: - OUT: - AIR: 12:31:28");
+
+    doTest("T3",
+        "ID#:12-07-26109 - UNIT:E31 - Call Rcvd: 12:37:33 - DISP: 12:38:15 - ER: - OUT: - TO: - AT: - AIR: 12:44:01",
+        "CALL:RUN REPORT",
+        "PLACE:ID#:12-07-26109 - UNIT:E31 - Call Rcvd: 12:37:33 - DISP: 12:38:15 - ER: - OUT: - TO: - AT: - AIR: 12:44:01");
+
+    doTest("T4",
+        "ID#:12-07-26309 - UNIT:E31 - Call Rcvd: 22:36:45 - DISP: 22:37:39 - ER: 22:40:01 - OUT: 22:47:50 - TO: - AT: - AIR: 23:05:03",
+        "CALL:RUN REPORT",
+        "PLACE:ID#:12-07-26309 - UNIT:E31 - Call Rcvd: 22:36:45 - DISP: 22:37:39 - ER: 22:40:01 - OUT: 22:47:50 - TO: - AT: - AIR: 23:05:03");
+
+    doTest("T5",
+        "ID#:12-07-26353 - UNIT:SQ31 - Call Rcvd: 06:57:00 - DISP: 06:58:43 - ER: - OUT: 07:06:50 - TO: - AT: - AIR: 07:11:00",
+        "CALL:RUN REPORT",
+        "PLACE:ID#:12-07-26353 - UNIT:SQ31 - Call Rcvd: 06:57:00 - DISP: 06:58:43 - ER: - OUT: 07:06:50 - TO: - AT: - AIR: 07:11:00");
+
+    doTest("T6",
+        "ID#:12-07-26416 - UNIT:E21 - Call Rcvd: 16:40:37 - DISP: 16:41:39 - ER: 16:43:12 - OUT: 16:44:28 - TO: - AT: - AIR: 17:19:35",
+        "CALL:RUN REPORT",
+        "PLACE:ID#:12-07-26416 - UNIT:E21 - Call Rcvd: 16:40:37 - DISP: 16:41:39 - ER: 16:43:12 - OUT: 16:44:28 - TO: - AT: - AIR: 17:19:35");
+    
+  }
+  
+  @Test
+  public void testActive911C() {
+
+    doTest("T1",
+        "ID#:12-07-26090 - - FIRE - PreAlert - 2409 Foley Rd - Apt: - Bldg: CROSBY FIRE STATION - Key Map: NOT F - Cross Streets:BRIDGEWOOD DR/SUMMIT TRAIL RD - Box #:8004",
+        "ID:12-07-26090",
+        "ADDR:2409 Foley Rd",
+        "PLACE:CROSBY FIRE STATION",
+        "X:BRIDGEWOOD DR/SUMMIT TRAIL RD",
+        "MAP:NOT F",
+        "CALL:FIRE - PreAlert",
+        "BOX:8004");
+
+    doTest("T2",
+        " ID#:12-07-26090 - Address changed to:123 TEST STREET - Cross Streets:Dead End/Dead End - Key Map:496K",
+        "ID:12-07-26090",
+        "ADDR:123 TEST STREET",
+        "X:Dead End/Dead End",
+        "MAP:496K",
+        "CALL:Address changed to:");
+
+    doTest("T3",
+        " ID#:12-07-26090 - Address changed to:5335 ALDINE BENDER RD - Cross Streets:CROSSWINDS DR/SURLES DR - Key Map:374Z",
+        "ID:12-07-26090",
+        "ADDR:5335 ALDINE BENDER RD",
+        "X:CROSSWINDS DR/SURLES DR",
+        "MAP:374Z",
+        "CALL:Address changed to:");
+
+    doTest("T4",
+        "GPM1 - - MEDICAL - PreAlert - 5335 ALDINE BENDER RD - Apt: - Bldg: TIMBER RID - Key Map:374Z - Cross Streets:CROSSWINDS DR/SURLES DR - Box #:2601",
+        "ADDR:5335 ALDINE BENDER RD",
+        "PLACE:TIMBER RID",
+        "X:CROSSWINDS DR/SURLES DR",
+        "MAP:374Z",
+        "UNIT:GPM1",
+        "CALL:MEDICAL - PreAlert",
+        "BOX:2601");
+
+    doTest("T5",
+        " ID#:12-07-26090 - Address changed to:123 S DIAMONDHEAD BLVD - Cross Streets:CORAL BAY ST/PORT OCALL ST - Key Map:419C",
+        "ID:12-07-26090",
+        "ADDR:123 S DIAMONDHEAD BLVD",
+        "X:CORAL BAY ST/PORT OCALL ST",
+        "MAP:419C",
+        "CALL:Address changed to:");
+
+    doTest("T6",
+        "ID#:12-07-26090 - - MEDICAL - PreAlert - 123 S DIAMONDHEAD BLVD - Apt: - Bldg: - Key Map: 419C - Cross Streets:CORAL BAY ST/PORT OCALL ST - Box #:8005",
+        "ID:12-07-26090",
+        "ADDR:123 S DIAMONDHEAD BLVD",
+        "X:CORAL BAY ST/PORT OCALL ST",
+        "MAP:419C",
+        "CALL:MEDICAL - PreAlert",
+        "BOX:8005");
+
+    doTest("T7",
+        "SQ31 - 31D03 - 31D3 UNCONSCIOUS PAR - 433 Northpark Central Dr - Apt: - Bldg: ZOYTO - Key Map:332Y - Cross Streets:NORTHVIEW PARK DR/WOODHAM DR - Box #:1101",
+        "ADDR:433 Northpark Central Dr",
+        "PLACE:ZOYTO",
+        "X:NORTHVIEW PARK DR/WOODHAM DR",
+        "MAP:332Y",
+        "UNIT:SQ31",
+        "CODE:31D03",
+        "CALL:31D3 UNCONSCIOUS PAR",
+        "BOX:1101");
+
+    doTest("T8",
+        "E11 - 69D06T - 69D6 FIRE IN THE RE - 4723 Cicada Ln - Apt: - Bldg: - Key Map:414G - Cross Streets:BOREAS/CRIEFFE RD - Box #:2506",
+        "ADDR:4723 Cicada Ln",
+        "X:BOREAS/CRIEFFE RD",
+        "MAP:414G",
+        "UNIT:E11",
+        "CODE:69D06T",
+        "CALL:69D6 FIRE IN THE RE",
+        "BOX:2506");
+
+    doTest("T9",
+        " ID#:12-07-26186 - Address changed to:4715 CICADA LN - Cross Streets:BOREAS/CRIEFFE RD - Key Map:414G",
+        "ID:12-07-26186",
+        "ADDR:4715 CICADA LN",
+        "X:BOREAS/CRIEFFE RD",
+        "MAP:414G",
+        "CALL:Address changed to:");
+
+    doTest("T10",
+        "SQ31 - 06E01 - 6E1 RESPIRATORY - 503 Salma Ct - Apt: - Bldg: - Key Map:372H - Cross Streets:Dead End/DESERT MARIGOLD DR - Box #:1103",
+        "ADDR:503 Salma Ct",
+        "X:Dead End/DESERT MARIGOLD DR",
+        "MAP:372H",
+        "UNIT:SQ31",
+        "CODE:06E01",
+        "CALL:6E1 RESPIRATORY",
+        "BOX:1103");
+
+    doTest("T11",
+        "SQ31 - - 12A1 SEIZURES - 15516 Martineau St - Apt: - Bldg: - Key Map:373R - Cross Streets:MARVELL DR/GREENBRIAR COLONY D - Box #:1106",
+        "ADDR:15516 Martineau St",
+        "X:MARVELL DR/GREENBRIAR COLONY D",
+        "MAP:373R",
+        "UNIT:SQ31",
+        "CALL:12A1 SEIZURES",
+        "BOX:1106");
+
+    doTest("T12",
+        "E11 - 12C01E - 12C1 SEIZURES - 15516 Martineau St - Apt: - Bldg: - Key Map:373R - Cross Streets:MARVELL DR/GREENBRIAR COLONY D - Box #:1106",
+        "ADDR:15516 Martineau St",
+        "X:MARVELL DR/GREENBRIAR COLONY D",
+        "MAP:373R",
+        "UNIT:E11",
+        "CODE:12C01E",
+        "CALL:12C1 SEIZURES",
+        "BOX:1106");
+
+    doTest("T13",
+        "E11 - 69D01 - 69D1 STRUCTURE FIRE - 12345 Vickery St - Apt: - Bldg: OLESON ELE - Key Map:414G - Cross Streets:CHARRITON DR/ALDINE MAIL RD - Box #:2506",
+        "ADDR:12345 Vickery St",
+        "PLACE:OLESON ELE",
+        "X:CHARRITON DR/ALDINE MAIL RD",
+        "MAP:414G",
+        "UNIT:E11",
+        "CODE:69D01",
+        "CALL:69D1 STRUCTURE FIRE",
+        "BOX:2506");
+
+    doTest("T14",
+        "E31 - 29D02m - 29D2 MOTOR VEHICLE A - 14900 North Fwy - Apt: 203 - Bldg: VALUE PLAC - Key Map:372C - Cross Streets:Dead End/AIRTEX ENTR NB 45 - Box #:1103",
+        "ADDR:14900 North Fwy",
+        "APT:203",
+        "PLACE:VALUE PLAC",
+        "X:Dead End/AIRTEX ENTR NB 45",
+        "MAP:372C",
+        "UNIT:E31",
+        "CODE:29D02m",
+        "CALL:29D2 MOTOR VEHICLE A",
+        "BOX:1103");
+
+    doTest("T15",
+        "E11 - - 69D6 FIRE IN THE RE - 823 Bandon Ln - Apt: - Bldg: - Key Map:372H - Cross Streets:PRAIRIE LARKSPUR DR/REMINGTON - Box #:1103",
+        "ADDR:823 Bandon Ln",
+        "X:PRAIRIE LARKSPUR DR/REMINGTON",
+        "MAP:372H",
+        "UNIT:E11",
+        "CALL:69D6 FIRE IN THE RE",
+        "BOX:1103");
+
+    doTest("T16",
+        "SQ31 - - 29A1 MOTOR VEHICLE A - Hardy Toll Rd / Rankin Hardy Toll R - Apt: - Bldg: - Key Map:373F - Cross Streets: - Box #:1104",
+        "ADDR:Hardy Toll Rd & Rankin Hardy Toll R",
+        "MAP:373F",
+        "UNIT:SQ31",
+        "CALL:29A1 MOTOR VEHICLE A",
+        "BOX:1104");
+
+    doTest("T17",
+        " - - 29A1 MOTOR VEHICLE A - N Sam Houston Pkwy E / Hardy Bw 8 W - Apt: - Bldg: - Key Map:373S - Cross Streets: - Box #:4102",
+        "ADDR:N Sam Houston Pkwy E & Hardy Bw 8 W",
+        "MAP:373S",
+        "CALL:29A1 MOTOR VEHICLE A",
+        "BOX:4102");
+
+    doTest("T18",
+        "E11 - - 29A1 MOTOR VEHICLE A - N Sam Houston Pkwy E / Hardy Bw 8 W - Apt: - Bldg: - Key Map:373S - Cross Streets: - Box #:4102",
+        "ADDR:N Sam Houston Pkwy E & Hardy Bw 8 W",
+        "MAP:373S",
+        "UNIT:E11",
+        "CALL:29A1 MOTOR VEHICLE A",
+        "BOX:4102");
+
+    doTest("T19",
+        "SQ31 - 29D02n - 29D2 MOTOR VEHICLE A - E Hardy Rd / N Sam Houston Pkwy E - Apt: - Bldg: THE PIT HA - Key Map:373T - Cross Streets: - Box #:1106",
+        "ADDR:E Hardy Rd & N Sam Houston Pkwy E",
+        "PLACE:THE PIT HA",
+        "MAP:373T",
+        "UNIT:SQ31",
+        "CODE:29D02n",
+        "CALL:29D2 MOTOR VEHICLE A",
+        "BOX:1106");
+
+    doTest("T20",
+        "SQ31 - - BREATHING PROBLEMS - 17630 Wayforest Dr - Apt: 390 - Bldg: AGUSTA - Key Map:373J - Cross Streets:HARVEST TIME LN/RICHCREST DR - Box #:1106",
+        "ADDR:17630 Wayforest Dr",
+        "APT:390",
+        "PLACE:AGUSTA",
+        "X:HARVEST TIME LN/RICHCREST DR",
+        "MAP:373J",
+        "UNIT:SQ31",
+        "CALL:BREATHING PROBLEMS",
+        "BOX:1106");
+
+    doTest("T21",
+        "E11 - 06C01A - 6C1 RESPIRATORY - 17630 Wayforest Dr - Apt: 390 - Bldg: AGUSTA - Key Map:373J - Cross Streets:HARVEST TIME LN/RICHCREST DR - Box #:1106",
+        "ADDR:17630 Wayforest Dr",
+        "APT:390",
+        "PLACE:AGUSTA",
+        "X:HARVEST TIME LN/RICHCREST DR",
+        "MAP:373J",
+        "UNIT:E11",
+        "CODE:06C01A",
+        "CALL:6C1 RESPIRATORY",
+        "BOX:1106");
+
+    doTest("T22",
+        "SQ31 - - 29A1 MOTOR VEHICLE A - E Richey Rd / Oil Center Blvd - Apt: - Bldg: - Key Map:333X - Cross Streets: - Box #:1102",
+        "ADDR:E Richey Rd & Oil Center Blvd",
+        "MAP:333X",
+        "UNIT:SQ31",
+        "CALL:29A1 MOTOR VEHICLE A",
+        "BOX:1102");
+
+    doTest("T23",
+        "SQ31 - - 29A1 MOTOR VEHICLE A - 16600 E Hardy Rd - Apt: - Bldg: - Key Map:373K - Cross Streets:Dead End/RANKIN RD - Box #:1106",
+        "ADDR:16600 E Hardy Rd",
+        "X:Dead End/RANKIN RD",
+        "MAP:373K",
+        "UNIT:SQ31",
+        "CALL:29A1 MOTOR VEHICLE A",
+        "BOX:1106");
+
+    doTest("T24",
+        "E11 - - 69D6 FIRE IN THE RE - 14330 E Hardy Rd - Apt: - Bldg: MOGAS - Key Map:373X - Cross Streets:PINAFORE LN/BUSCHONG - Box #:1107",
+        "ADDR:14330 E Hardy Rd",
+        "PLACE:MOGAS",
+        "X:PINAFORE LN/BUSCHONG",
+        "MAP:373X",
+        "UNIT:E11",
+        "CALL:69D6 FIRE IN THE RE",
+        "BOX:1107");
+
+    doTest("T25",
+        "E31 - 69D03 - 69D3 COMMERCIAL BUI - 14330 E Hardy Rd - Apt: - Bldg: MOGAS - Key Map:373X - Cross Streets:PINAFORE LN/BUSCHONG - Box #:1107",
+        "ADDR:14330 E Hardy Rd",
+        "PLACE:MOGAS",
+        "X:PINAFORE LN/BUSCHONG",
+        "MAP:373X",
+        "UNIT:E31",
+        "CODE:69D03",
+        "CALL:69D3 COMMERCIAL BUI",
+        "BOX:1107");
+
+    doTest("T26",
+        "SQ31 - 12A02E - 12A2 SEIZURES - 830 Vista Grove Cir - Apt: - Bldg: - Key Map:332Z - Cross Streets:GROVEDALE DR/GROVEDALE DR - Box #:1108",
+        "ADDR:830 Vista Grove Cir",
+        "X:GROVEDALE DR/GROVEDALE DR",
+        "MAP:332Z",
+        "UNIT:SQ31",
+        "CODE:12A02E",
+        "CALL:12A2 SEIZURES",
+        "BOX:1108");
+
+    doTest("T27",
+        "E11 - - 29A1 MOTOR VEHICLE A - N Sam Houston Pkwy E / Aldine Westf - Apt: - Bldg: - Key Map:373U - Cross Streets: - Box #:1106",
+        "ADDR:N Sam Houston Pkwy E & Aldine Westf",
+        "MAP:373U",
+        "UNIT:E11",
+        "CALL:29A1 MOTOR VEHICLE A",
+        "BOX:1106");
+
+    doTest("T28",
+        "E31 - - ODOR(STRANGE, UNKNOW - 507 Remington Lodge Ct - Apt: - Bldg: - Key Map:372D - Cross Streets:REMINGTON PARK DR/Dead End - Box #:1103",
+        "ADDR:507 Remington Lodge Ct",
+        "X:REMINGTON PARK DR/Dead End",
+        "MAP:372D",
+        "UNIT:E31",
+        "CALL:ODOR(STRANGE, UNKNOW",
+        "BOX:1103");
+
+    doTest("T29",
+        "E11 - 69D09 - 69D9 SHED ON FIRE - 14615 Aldine Westfield Rd - Apt: - Bldg: CHRISTIAN - Key Map:373Z - Cross Streets:BUSCHONG/ALDINE BENDER RD - Box #:1107",
+        "ADDR:14615 Aldine Westfield Rd",
+        "PLACE:CHRISTIAN",
+        "X:BUSCHONG/ALDINE BENDER RD",
+        "MAP:373Z",
+        "UNIT:E11",
+        "CODE:69D09",
+        "CALL:69D9 SHED ON FIRE",
+        "BOX:1107");
+
+    doTest("T30",
+        "SQ31 - 29D02m - 29D2 MOTOR VEHICLE A - 818 Richcrest Dr - Apt: - Bldg: GREENBRIAR - Key Map:373J - Cross Streets:CHISHOLM TRL/WAYFOREST DR - Box #:1106",
+        "ADDR:818 Richcrest Dr",
+        "PLACE:GREENBRIAR",
+        "X:CHISHOLM TRL/WAYFOREST DR",
+        "MAP:373J",
+        "UNIT:SQ31",
+        "CODE:29D02m",
+        "CALL:29D2 MOTOR VEHICLE A",
+        "BOX:1106");
+
+    doTest("T31",
+        "SQ31 - - 29A1 MOTOR VEHICLE A - North Fwy / Airtex - Apt: - Bldg: - Key Map:372C - Cross Streets: - Box #:1103",
+        "ADDR:North Fwy & Airtex",
+        "MAP:372C",
+        "UNIT:SQ31",
+        "CALL:29A1 MOTOR VEHICLE A",
+        "BOX:1103");
+
+    doTest("T32",
+        "E31 - 52C03G - 52C3 ALARMS - 16110 North Fwy - Apt: - Bldg: CARMAX - Key Map:332U - Cross Streets:RICHEY EXIT NB 45/RICHEY ENTR - Box #:1101",
+        "ADDR:16110 North Fwy",
+        "PLACE:CARMAX",
+        "X:RICHEY EXIT NB 45/RICHEY ENTR",
+        "MAP:332U",
+        "UNIT:E31",
+        "CODE:52C03G",
+        "CALL:52C3 ALARMS",
+        "BOX:1101");
+
+    doTest("T33",
+        "E31 - - 53A1 CITIZEN ASSIST - 19423 Remington Prairie Dr - Apt: - Bldg: - Key Map:372G - Cross Streets:REMINGTON GREEN CT/REMINGTON B - Box #:1103",
+        "ADDR:19423 Remington Prairie Dr",
+        "X:REMINGTON GREEN CT/REMINGTON B",
+        "MAP:372G",
+        "UNIT:E31",
+        "CALL:53A1 CITIZEN ASSIST",
+        "BOX:1103");
+
+    doTest("T34",
+        "E11 - 69D06 - 69D6 FIRE IN THE RE - 2719 Brea Crest St - Apt: - Bldg: - Key Map:414N - Cross Streets:INNSBURY DR/SHADY LN - Box #:2502",
+        "ADDR:2719 Brea Crest St",
+        "X:INNSBURY DR/SHADY LN",
+        "MAP:414N",
+        "UNIT:E11",
+        "CODE:69D06",
+        "CALL:69D6 FIRE IN THE RE",
+        "BOX:2502");
+
+    doTest("T35",
+        "E21 - - 52B1 ALARMS - 2700 W W Thorne Blvd - Apt: - Bldg: N HARRIS C - Key Map:333S - Cross Streets:E HARDY RD/OIL CENTER BLVD - Box #:1102",
+        "ADDR:2700 W W Thorne Blvd",
+        "PLACE:N HARRIS C",
+        "X:E HARDY RD/OIL CENTER BLVD",
+        "MAP:333S",
+        "UNIT:E21",
+        "CALL:52B1 ALARMS",
+        "BOX:1102");
+
+    doTest("T36",
+        "SQ31 - 10D04 - 10D4 CARDIAC - 22226 Queenbury Hills Dr - Apt: - Bldg: - Key Map:332R - Cross Streets:LANCASTER LAKE DR/RED ALDER CI - Box #:1108",
+        "ADDR:22226 Queenbury Hills Dr",
+        "X:LANCASTER LAKE DR/RED ALDER CI",
+        "MAP:332R",
+        "UNIT:SQ31",
+        "CODE:10D04",
+        "CALL:10D4 CARDIAC",
+        "BOX:1108");
+
+    doTest("T37",
+        "SQ31 - - BREATHING PROBLEMS - 15403 E Vantage Pkwy - Apt: - Bldg: THE WORD C - Key Map:373V - Cross Streets:N SAM HOUSTON PKWY E/WAVERLY D - Box #:1106",
+        "ADDR:15403 E Vantage Pkwy",
+        "PLACE:THE WORD C",
+        "X:N SAM HOUSTON PKWY E/WAVERLY D",
+        "MAP:373V",
+        "UNIT:SQ31",
+        "CALL:BREATHING PROBLEMS",
+        "BOX:1106");
+
+    doTest("T38",
+        "E11 - 06D02 - 6D2 RESPIRATORY - 15403 E Vantage Pkwy - Apt: - Bldg: THE WORD C - Key Map:373V - Cross Streets:N SAM HOUSTON PKWY E/WAVERLY D - Box #:1106",
+        "ADDR:15403 E Vantage Pkwy",
+        "PLACE:THE WORD C",
+        "X:N SAM HOUSTON PKWY E/WAVERLY D",
+        "MAP:373V",
+        "UNIT:E11",
+        "CODE:06D02",
+        "CALL:6D2 RESPIRATORY",
+        "BOX:1106");
+
+  }
 
   public static void main(String[] args) {
-    new TXHarrisCountyESD1BParserTest().generateTests("T11");
+    new TXHarrisCountyESD1BParserTest().generateTests("T1");
   }
 
 }
