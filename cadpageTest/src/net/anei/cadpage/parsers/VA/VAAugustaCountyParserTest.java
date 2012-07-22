@@ -87,17 +87,14 @@ public class VAAugustaCountyParserTest extends BaseParserTest {
         "CALL:AUTOMOBILE ACCIDENT",
         "PLACE:BROADVIEW ACRES",
         "ADDR:SANGERS LN & JEFFERSON HWY");
-  }
-  
-  // @Test
-  public void testFixLater() {
 
-    doTest("T10",
-        "CAD:AUTOMOBILE ACCIDENT:I81NB AREA MM 217.9",
-        "CALL:AUTOMOBILE ACCIDENT",
-        "ADDR:I-81 PLACE:AREA MM 217.9",
-        "MADDR:I 81 PLACE:AREA MM 217.9");
-    
+    doTest("T11",
+        "CAD:INJURY (TRAUMATIC):AUGUSTA NURSING&REHAB:83 CROSSROADS LN:ROOM 224-B:GOOSE CREEK RD:CNTY-1\r",
+        "CALL:INJURY (TRAUMATIC)",
+        "PLACE:AUGUSTA NURSING&REHAB",
+        "ADDR:83 CROSSROADS LN",
+        "X:GOOSE CREEK RD & CNTY-1",
+        "INFO:ROOM 224-B");
   }
   
   public static void main(String[] args) {
