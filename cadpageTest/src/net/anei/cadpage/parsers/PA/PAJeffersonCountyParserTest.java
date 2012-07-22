@@ -28,7 +28,8 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "CALL:Structure Fire",
         "ADDR:CRICKET RD & VO TECH RD",  // Not mapping
         "CITY:Winslow",
-        "INFO:612 TO STATION  634 TO STATION UNKNOWN INJURIES  POSSIBLE  ENTRAPMENT. BOX 6-F");
+        "INFO:612 TO STATION  634 TO STATION UNKNOWN INJURIES  POSSIBLE  ENTRAPMENT.",
+        "BOX:6-F");
 
     doTest("T3",
         "prvs=0484c9755a=dispatch@jeffersoncountypa.com (Incident) Fire - Alarm. 3823 ROUTE 310 HIMES HILL RD / CHIPS RD Winslow.    Narrative:  basement smoke detector-  6-C Fire Tower",
@@ -36,7 +37,9 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "ADDR:3823 ROUTE 310",
         "X:HIMES HILL RD / CHIPS RD",
         "CITY:Winslow",
-        "INFO:basement smoke detector-  6-C Fire Tower");
+        "INFO:basement smoke detector",
+        "BOX:6-C",
+        "CH:Fire Tower");
   }
   
   @Test
@@ -48,7 +51,9 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "ADDR:251 S PENN STREET EXT",
         "MADDR:251 S PENN STREET",
         "CITY:Punxsutawney",
-        "X:DEAD END / CLIFF ST 20-A Snyder Hill");
+        "X:DEAD END / CLIFF ST",
+        "BOX:20-A",
+        "CH:Snyder Hill");
 
     doTest("T2",
         "prvs=0518956c10=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Structure Fire 251 S PENN ST Punxsutawney",
@@ -69,7 +74,8 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "X:SPRING RD / HOLLIS LN",
         "CITY:Oliver",
         "PLACE:SMITH HAULING",
-        "INFO:5-A Coolspring");
+        "BOX:5-A",
+        "CH:Coolspring");
 
     doTest("T5",
         "prvs=0512e03127=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Structure Fire 106 FOUNDRY ST CRISSMAN ALY / W MAHONING ST Punxsutawney Narrative: 40-A Snyder Hill",
@@ -77,7 +83,8 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "ADDR:106 FOUNDRY ST",
         "X:CRISSMAN ALY / W MAHONING ST",
         "CITY:Punxsutawney",
-        "INFO:40-A Snyder Hill");
+        "BOX:40-A",
+        "CH:Snyder Hill");
 
     doTest("T6",
         "prvs=05312311d9=dispatch@jeffersoncountypa.com (Incident) Tree Down GASKILL AVE ALTMAN AVE Punxsutawney 20-A Snyder Hill",
@@ -86,18 +93,38 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "MADDR:GASKILL AVE & ALTMAN AVE",
         "X:ALTMAN AVE",
         "CITY:Punxsutawney",
-        "PLACE:20-A Snyder Hill");
+        "BOX:20-A",
+        "CH:Snyder Hill");
 
-    doTest("71",
+    doTest("7",
         "prvs=054676518f=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Misc. Fire S20 MED50  313 WOODLAND AVE Punxsutawney BLAIR ST / CAMBRIA ST 20-A Snyder Hill",
         "CALL:Misc Fire S20 MED50",
         "ADDR:313 WOODLAND AVE",
         "CITY:Punxsutawney",
         "X:BLAIR ST / CAMBRIA ST",
-        "PLACE:20-A Snyder Hill");
+        "BOX:20-A",
+        "CH:Snyder Hill");
+
+    doTest("T8",
+        "prvs=054477bfa6=dispatch@jeffersoncountypa.com (Incident) Structure Fire E30 E20 E40 TK40 SQ30 R20 R40 T20 T40 MED50  143 WOODDALE DR Bell ALBION RD / ACORN LN 30-B Snyder Hill",
+        "CALL:Structure Fire E30 E20 E40 TK40 SQ30 R20 R40 T20 T40 MED50",
+        "ADDR:143 WOODDALE DR",
+        "X:ALBION RD / ACORN LN",
+        "CITY:Bell",
+        "BOX:30-B",
+        "CH:Snyder Hill");
+
+    doTest("T9",
+        "prvs=054676518f=dispatch@jeffersoncountypa.com (Incident) Structure Fire E30 E20 E40 TK40 T20 T40 MED50  118 CLARK ST Punxsutawney HAMPTON AVE, RIDGE AVE / N PENN ST 30-A Snyder Hi",
+        "CALL:Structure Fire E30 E20 E40 TK40 T20 T40 MED50",
+        "ADDR:118 CLARK ST",
+        "X:HAMPTON AVE, RIDGE AVE / N PENN ST",
+        "CITY:Punxsutawney",
+        "BOX:30-A",
+        "CH:Snyder Hi");
   }
   
   public static void main(String[] args) {
-    new PAJeffersonCountyParserTest().generateTests("T1", "CALL ADDR APT X CITY PLACE INFO");
+    new PAJeffersonCountyParserTest().generateTests("T1", "CALL ADDR APT X CITY PLACE INFO BOX CH");
   }
 }
