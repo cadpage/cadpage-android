@@ -8,6 +8,10 @@ import net.anei.cadpage.parsers.dispatch.DispatchDAPROParser;
 
 /*
 New Kent County, VA
+Contact: Travis Longest <twlfire911@gmail.com>
+Sender: MAILBOX@co.newkent.state.va.us
+MAILBOX:F3 ASSIST ANOTHER AGENCY KENTLAND TRL/COLONIAL DOWN CFS# 2012-018312
+
 Contact: Active911 
 Agency name: New Kent Fire Rescue Location: New Kent, VA
 Sender: MAILBOX@co.newkent.state.va.us

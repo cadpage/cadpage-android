@@ -63,7 +63,7 @@ public class DispatchShieldwareParser extends FieldProgramParser {
     if (!match.find()) return false;
     data.strCallId = match.group(1);
     body = body.substring(match.end());
-    return parseFields(body.split("\n+"), data);
+    return parseFields(body.split("(?: *\n)+"), data);
   }
   
   @Override
