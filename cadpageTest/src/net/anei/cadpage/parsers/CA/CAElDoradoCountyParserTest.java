@@ -139,6 +139,18 @@ public class CAElDoradoCountyParserTest extends BaseParserTest {
         "MADDR:6085 W CHINA HILL RD",
         "CITY:EL DORADO",
         "UNIT:B2709 U8113 E2751 E2769 E2784 E2774 E2752 E2782 E46 D2741 W46 W");
+
+    doTest("T12",
+        "(CAD Page) 22-Jul-2012/12:23:38; MED, TRAFFIC COLLISION; Inc# 016781; 4732 HY 193 / 4600 MALTBY MINE RD ,GEORGETOWN; GEOCHF GEOENG M61 61 E51 E2752; X: -120 53.3",
+        "DATE:07/22/2012",
+        "TIME:12:23:38",
+        "CALL:MED, TRAFFIC COLLISION",
+        "ID:016781",
+        "ADDR:4732 HY 193 & 4600 MALTBY MINE RD",
+        "MADDR:4732 HWY 193",
+        "CITY:GEORGETOWN",
+        "UNIT:GEOCHF GEOENG M61 61 E51 E2752",
+        "GPS:X: -120 53.3");
   }
   
   public static void main(String[] args) {
