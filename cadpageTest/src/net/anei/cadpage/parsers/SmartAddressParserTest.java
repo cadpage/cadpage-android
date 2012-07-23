@@ -26,7 +26,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final int FLAG_CROSS_FOLLOWS = SmartAddressParser.FLAG_CROSS_FOLLOWS;
   private static final int FLAG_NO_IMPLIED_APT = SmartAddressParser.FLAG_NO_IMPLIED_APT;
   
-  private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN"};
+  private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN", "9999"};
   private static final String DEF_CITY = "STATE OF MIND";
   private static final String DEF_STATE = "XX";
 
@@ -44,6 +44,14 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblems() {
+    
+    doTest(ADDR, FLAG_CROSS_FOLLOWS, "WHITE TAIL DR / FAIRWAY DR 9999 FAIRWAY DR//SOMETHING IN THE MIDDLE OF THE STREET IS ON FIRE/UNK WHAT",
+        "ADDR:WHITE TAIL DR & FAIRWAY DR",
+        "CITY:9999");
+    
+    doTest(ADDR, FLAG_CROSS_FOLLOWS, "POCONO MOUNTAIN WEST 9999 PANTHER LN          OFFICE EXT 81400  // GENRAL FIRE ALARM",
+                 "ADDR:POCONO MOUNTAIN WEST",
+                 "CITY:9999");
     
     doTest(CALL, "MVA ROLLOVER/20 HWY SERGEANT RD",
                  "CALL:MVA ROLLOVER /",
