@@ -22,7 +22,7 @@ public class DonationManager {
   // How long a release exemption lasts
   public static final int REL_EXEMPT_DAYS = 10;
   
-  public enum DonationStatus {FREE, LIFE, AUTH_DEPT, SPONSOR, PAID, PAID_WARN, PAID_EXPIRE, 
+  public enum DonationStatus {FREE, LIFE, AUTH_DEPT, NEW, SPONSOR, PAID, PAID_WARN, PAID_EXPIRE, 
                                PAID_LIMBO, DEMO, DEMO_EXPIRE, EXEMPT};
   
   // Cached calculated values are only valid until this time
@@ -118,6 +118,9 @@ public class DonationManager {
         }
       } else if (limbo) status = DonationStatus.PAID_LIMBO;
       else status = DonationStatus.PAID_EXPIRE;
+    } else if ("General".equals(ManagePreferences.location()) &&
+                ManagePreferences.filter().length()<=1) {
+      status = DonationStatus.NEW;
     } else if (sponsor != null) status = DonationStatus.SPONSOR;
     else {
       if (daysTillExpire >= 0) status = DonationStatus.DEMO;

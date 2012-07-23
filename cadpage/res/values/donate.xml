@@ -187,6 +187,14 @@
     better location can be implemented.
   </string>
   
+  <string name="donate_new_user_title">New User</string>
+  <string name="donate_new_user_text">
+    Cadpage will not do anything with your current default settings.  You need to go
+    into the Location Settings and either select a location corresponding to your 
+    area or set the From: (filter) to the email address or phone number that sends
+    you your text pages
+  </string>
+  
   <string name="donate_sponsor_title">Sponsored by %s</string>
   <string name="donate_sponsor_text">
     You are using a service sponsored by\n%s\n 

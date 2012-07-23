@@ -11,6 +11,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 /*
 El Dorado County, CA
 Contact: Ken Pauley <ken@pauley.org>
+Contact: "fyregoose@hotmail.com" <fyregoose@hotmail.com>
+Contact: "farlymot@hotmail.com" <farlymot@hotmail.com>
 Sender: AEUCAD@fire.ca.gov
 
 (CAD Page) 15-May-2011/16:10:27: HAZ, ELECTRICAL: Inc# 010021: 5537 MORGAN RANCH LOOP ,GEORGETOWN  GEOCHF GEOENG M61 61; ; X: -120 50.5096  Y: 38 54.859
@@ -22,13 +24,9 @@ Sender: AEUCAD@fire.ca.gov
 (CAD Page) 20-Jun-2011/16:46:01: MEDICAL: Inc# 013054: UNIVERSITY FALLS GATE @ =L(38.906110,-120.645832) ,GEORGETOWN  GEOCHF E33F M61 65 GEOENG; ; X: -120 38.749
 (CAD Page) 11-Aug-2011/06:18:13: MEDICAL: Inc# 018175: 5031 CEDAR DR ,GEORGETOWN  GEOCHF GEOENGN M61 61; ; X: -120 49.9174  Y: 38 53.4478;
 (CAD Page) 10-Aug-2011/10:03:52: MED, TRAFFIC COLLISION: Inc# 018090: 15250 WENTWORTH SPRINGS RD / 999998 ELEVEN PINES 14N08 ,GEORGETOWN_RANGER_DISTRI GEOCHF E54
-
-Contact: "fyregoose@hotmail.com" <fyregoose@hotmail.com>
 (CAD Page) 25-Sep-2011/19:06:43: MED, CODE 2: Inc# 022661: 1000 HY 193 / 3000 HY 49 ,COOL  E22 M61 72; ; X: -121 0.9537  Y: 38 53.2183;
-
-Contact: "farlymot@hotmail.com" <farlymot@hotmail.com>
-Sender: AEUCAD@fire.ca.gov
 (CAD Page) 21-Jul-2012/18:36:57; FIRE, WILDLAND; Inc# 016722; 6085BLK W CHINA HILL RD ,EL_DORADO; B2709 U8113 E2751 E2769 E2784 E2774 E2752 E2782 E46 D2741 W46 W
+(CAD Page) 22-Jul-2012/12:23:38; MED, TRAFFIC COLLISION; Inc# 016781; 4732 HY 193 / 4600 MALTBY MINE RD ,GEORGETOWN; GEOCHF GEOENG M61 61 E51 E2752; X: -120 53.3
 
  */
 

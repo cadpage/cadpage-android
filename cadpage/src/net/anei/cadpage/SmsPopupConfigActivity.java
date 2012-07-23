@@ -10,6 +10,7 @@ import net.anei.cadpage.preferences.EditTextPreference;
 import net.anei.cadpage.preferences.LocationCheckBoxPreference;
 import net.anei.cadpage.preferences.LocationListPreference;
 import net.anei.cadpage.preferences.LocationManager;
+import net.anei.cadpage.preferences.OnDialogClosedListener;
 import net.anei.cadpage.vendors.VendorManager;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
@@ -29,7 +30,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   private String parserDefCity = "";
   private String parserDefState = "";
   private CheckBoxPreference overrideFilterPref;
-  private EditTextPreference filterPref;
+  private net.anei.cadpage.preferences.EditTextPreference filterPref;
   private CheckBoxPreference genAlertPref;
   
   private CheckBoxPreference overrideDefaultPref;
@@ -122,13 +123,25 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
 
     genAlertPref = (CheckBoxPreference)
         findPreference(getString(R.string.pref_gen_alert_key));
-    filterPref = (EditTextPreference)findPreference(getString(R.string.pref_filter_key));
+    filterPref = (net.anei.cadpage.preferences.EditTextPreference)
+        findPreference(getString(R.string.pref_filter_key));
     filterPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
       @Override
       public boolean onPreferenceChange(Preference preference, Object newValue) {
         String filter = (String)newValue;
         genAlertPref.setEnabled(filter.length() > 1 || parserFilter.length() > 0);
         return true;
+      }
+    });
+    filterPref.setDialogClosedListener(new OnDialogClosedListener(){
+      @Override
+      public void onDialogClosed(boolean positiveResult) {
+        if (positiveResult) {
+          if ("General".equals(saveLocation)) {
+            DonationManager.instance().reset();
+            MainDonateEvent.instance().refreshStatus();
+          }
+        }
       }
     });
 
