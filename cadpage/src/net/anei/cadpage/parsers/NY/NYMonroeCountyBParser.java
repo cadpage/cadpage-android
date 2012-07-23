@@ -8,74 +8,31 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
-Berks County, PA
-Contact: "thirty5tripleuno@yahoo.com" <thirty5tripleuno@yahoo.com>
-CAD MSG: *D MVAUNK   E STATE ST / S KEMP ST 0082 2 VEH / COMP IS ANDREW BROOKS / INVOLVED // AT THE INTERSECTION B
-CAD MSG: *D MVAWITH  102 BEAVER CREEK RD 0087 1 VEH / SPUN OUT / MALE OCC (COMP'S HUSBAND) BELIEVES HE FRACTURED H
-CAD MSG: *D FTEST    STATION 35 @110 PARK AV 0082 BERKS TESING THE TEXT PAGING SYSTEM NO ACTION REQUIRED
-CAD MSG: *D MVAUNK   NOBLE ST / BASTIAN RD 0079 ONE CAR, OCCUPIED, INTO A FIELD // ONLY LANDMARK SHE COULD MEN﻿﻿
-CAD MSG: *D SF       28 NOBLE ST 0081 SEES FLAMES IN BASEMENT //ADVISED TO EVAC /
-CAD MSG: *D MVAENT   FORGEDALE RD / DAVIDS DR 0087 2VEHS HEAD ON/2 VICTIMS ENTRAPPED /1 FEMALE SERIOUSLY INJ/BLEED﻿﻿
-Subject:1/2\nCAD MSG: *D FTELE    STATION 35 @110 PARK AV 0082 CALL REF ITEMS SHE HAS THAT ARE BELEIVED TO BELONG TO YOUR COMPA
+Monroe County, PA
+Contact: "Daniel Wade" <danielw@wadeville.com>
+Sender: emergin@monroeco911.com
 
-Contact: Jesse Zerbe <medicjz@gmail.com>
-CAD MSG: *D ALSMED   107 ALLISON PL 0072 80YOM /RESP DIFF / SPITTING UP BLOOD //BEEN INCREASING OVER THE PAST
-
-Contact: Duane Good <duaneg123@gmail.com>
-Sender: alrt_1ODM@berks.alertpa.org
-CAD MSG: *D ALSMED   106 MAIN ST 0063 56 YOF THROAT FEELS LIKE IS SWELLING CLOSED /BREAKING OUT IN RASH/RESP
-
-Contact: jarrod emes <jkemes@gmail.com>
-Sender: _1ZLG@berks.alertpa.org
-CAD MSG: *D MVAWITH  I78 / MP 39.6 EB 0078 MC DRIVER DOWN IN THE ROADWAY / NOT MOVING / 2 TT PULLED OFF TO THE SI
-
-Contact: support@active911.com
-Sender: alert_2NTE@berks.alertpa.org
-CAD MSG: *D BLSTRAUM 101 DOE MOUNTAIN LN @BEAR CREEK SKI AREA 0086   14YOM/BROKEN LEFT WRIST/CON AND ALERT/PT WILL BE IN THE SKI PATROLE RO
-
-Contact: Joe Mcglynn <jmladder57@gmail.com>
-Sender: 1410000029
-FRM: \nMSG:CAD MSG: *D SF       65B MEADOW GLEN LN 0034 HEAVY SMOKE, GETTING WORSE; POSSIBLY COMING FROM DOWNSTAIRS APT; HUNGU
-
-Contact: Michael Wertz <jrfirefighter85@msn.com>
-CAD MSG: *D SF       DIRECTLINK @2561 BERNVILLE RD 0054 PENSKI ENTERANCE / BUILDING 1 TRANSFORMER ROOM / SMOKE IN THE BUILDING
-CAD MSG: *D AFA      RHMC C BUILDING @600 SPRUCE ST 0038 BLDG C/GENERAL FIRE/ATN/610-988-8222
-
-COntact: Diana York <hawkmeadow@gmail.com>
-Sender: alrt_350Z@berks.alertpa.org
-CAD MSG: *D ALSMED   459 MEMORIAL HWY 0091 F IN SEIZURES / 1YOF /
-
-Contact: Phoenix <aphoenixrising13@gmail.com>
-Sender: 1410000075
-FRM: \nMSG:CAD MSG: *D AFA      1501 ELIZABETH AV @THOMS TAVERN 0067 KEYPAD FIRE ALM ZONE 95 BUS # 484-794-6038 / GRUMPY'S BARB
-
-Contact: support@active911.com
-Sender: @berks.alertpa.org
-(berks.co45@rsix.roamsecure.net) CAD MSG: *D MVAUNK   WILLOW RD / OAK LN 0091 1 VEH/ OFF THE ROAD INTO THE TREES/ ON WILLOW RD IN THE BEND RIGHT AFT\n\nSent by Berks County RSAN to CO45 All Call\n\n--\n\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
-(berks.co45@rsix.roamsecure.net) CAD MSG: *D SF       50 MISTY LN 0084 HOUSE ON FIRE /COMP DEAN WINTERS/SMOKE COMING OUT OF WINDOWS/ COMP\n\nSent by Berks County RSAN to CO45 All Call\n\n--\n\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
-(berks.co45@rsix.roamsecure.net) CAD MSG: *D MVAWITH  81 FORGEDALE RD ;NEAR BICK RD 0087 VEH STRUCK SOMEKIND OF CONCRETE FIXTURE/SHE IS CHECKING ON INJURIES/PO\n\nSent by Berks County RSAN to CO45 All Call\n\n--\n\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
-[berks.575@rsix.roamsecure.net] CAD MSG: *D ALSMED   120 TREXLER AV @KUTZTOWN MANORAPT 221  0081 78YOM/PEG TUB CAME OUT/FLUIDS IN HIS LUNGS/TO RHMC/HX DEMENTIA ,DIABET\nSent by Berks County RSAN to Topton EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-[berks.575@rsix.roamsecure.net] CAD MSG: *D ALSMED   403 HEILMAN HSE ; TOPTON LUTHERAN HOME 1 S HOME AVAPT 403  0086 83YOF/ COUGHING UP BLOOD / NORMAL BREATHING / BRIGHT RED/ TO RHMC/\nSent by Berks County RSAN to Topton EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-[berks.575@rsix.roamsecure.net] CAD MSG: *D ALSMED   1 S HOME AV @TOPTON LUTHERAN HOMEAPT 137A  0086 A WING / ROTUNDA ENTRANCE / 83 YOM / ADEMA IN THE LEFT LEG / WEAKNESS\nSent by Berks County RSAN to Topton EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-[berks.co85@rsix.roamsecure.net] CAD MSG: *D SF       721 DANIEL DRAPT 2  0066 FIRE IN BATHROOM\nSent by Berks County RSAN to CO85 All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-[berks.co85@rsix.roamsecure.net] CAD MSG: *D SF       1007 MT LAUREL AV ;FLR 2APT 3  0066 ALARMS SOUNDING //SMOKE SHOWING //\nSent by Berks County RSAN to CO85 All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-[berks.co85@rsix.roamsecure.net] CAD MSG: *D LIFTASST 1348 WEST WYOMISSING CTAPT P  0043 59 YOF /FELL BUT NOT INJ /COMP JUST NEEDS HELP GETTING HER UP /COMP\nSent by Berks County RSAN to CO85 All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-[rfdall@rsix.roamsecure.net] CAD MSG: *G RSF      423 S 16 ST 0019 2ND FLR FRONT WINDOW / FLAMES SHOWING / THEYRE TRYING TO PUT THE FIRE\nSent by Berks County RSAN to Reading Fire All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
-
-** NOT PARSING YET ***
-Contact: "greek@vjgreek.com" <greek@vjgreek.com>
-CAD MSG: *D FSB      CITY SB 1, 10, 36, 55, 64,69 @ CITY FIRE INCIDENT CITY 2ND ALARM FIRE/E1 AND E64 RESPOND INTO THE CITYI
-
+CAD MSG: *D F1 WASHINGTON PL / PRESIDENTIAL DR 203 POCONO FARMS / CALLER REPORTING\n\nWORKING FIRE / NO ONE IN THE RESIDENCE
+CAD MSG: *D F1 255 SUMMIT AVE 209 HOUSE FIRE / APPEARS TO BE VACANT / UNK IF ANYONE LIVES THERE OR NOT /
+CAD MSG: *D F2 GEISINGER FAMILY PRA / COMMERCE CT 203 GESINGER MT POCONO // BLACK GRAND AM ON FIRE// UNK IF ANYONE IS IN IT/
+CAD MSG: *D F1 HATCHERY DR / PARADISE VALLEY RD 208 RTE 940/TROUT HATCHERY// FULLY INVOLVED// NO VEHICLES INT HE D/W DOESN
+CAD MSG: *D F2 JACK WILLIAMS TIRE / RTE 940 403 JACK WILLIAMS TIRE 839-8300 OFFICE/BATHROOM SMOKE DET WILL ATEM
+CAD MSG: *D E45J S I380 HWY / MM 1 POC SUM HWY 215 ONE VEH OFF THE FEMALE WITH NUMBNESS AND HUSBAND UNABLE TO GET OF THE
+CAD MSG: *D F2 FS 33 POCONO SUMMIT 215 SPECIAL ASSIGNMENT AT STATION AT THIS TIME
+CAD MSG: *D F2      7021 VISTA DR 203 PCP LOT G61 FIRE ALARM KEEPS GOING OFF / DOES\NOT BELIVE ITS THE BATT
+CAD MSG: *D F2      WHITE TAIL DR / FAIRWAY DR 203 FAIRWAY DR//SOMETHING IN THE MIDDLE OF THE STREET IS ON FIRE/UNK WHAT
+CAD MSG: *D E45J      RTE 196 / RYANS RD 203 2 CAR MVA WITH INJURY AND ENTRAPMENT//CALLER NOT INVOLVED//CALLER STAT
+CAD MSG: *D F1      WINDING WAY / SHADY SIDE DR 203 HOUSE FIRE FLAMES SHOWING  CAR IN DW UNK IF ANYONE HOME    NEAR SHAYS
+CAD MSG: *D F2       POCONO MOUNTAIN WEST 215 PANTHER LN          OFFICE EXT 81400  // GENRAL FIRE ALARM\r\n\r
 
 */
 
 public class NYMonroeCountyBParser extends SmartAddressParser {
   
-  private static final Pattern MARKER = Pattern.compile("CAD MSG: \\*[DG] ");
-  private static final Pattern MUNI_CODE_PAT = Pattern.compile(" 00(\\d\\d) ");
+  private static final Pattern MARKER = Pattern.compile("CAD MSG: \\*[DG] ([A-Z0-9]+) +");
   
   public NYMonroeCountyBParser() {
-    super("BERKS COUNTY", "PA");
+    super(CITY_CODES, "MONROE COUNTY", "PA");
   }
 
   @Override
@@ -84,183 +41,91 @@ public class NYMonroeCountyBParser extends SmartAddressParser {
     // Strip off any prefix
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
+    data.strCall = match.group(1);
     body = body.substring(match.start());
     
-    // Strip of trailing fluff
-    int pt = body.indexOf('\n');
-    if (pt >= 0) body = body.substring(0,pt).trim();
+    parseAddress(StartType.START_ADDR, body, data);
     
-    // Extract primary call description
-    if (body.length() < 20) return false;
-    String call = body.substring(12, 20).trim();
-    String desc = CALL_CODES.getProperty(call);
-    if (desc != null) call = call + " - " + desc;
-    data.strCall = call;
-    body = body.substring(20);
-    
-    // Look for a 4 digit station ID, this marks the end of the address
-    match = MUNI_CODE_PAT.matcher(body);
-    if (! match.find()) return false;
-    
-    String muniCode = match.group(1);
-    int iMuniCode = Integer.parseInt(muniCode);
-    iMuniCode -= FIRST_MUNI_CODE;
-    if (iMuniCode >= 0 && iMuniCode < MUNI_CODES.length && MUNI_CODES[iMuniCode] != null) {
-      data.strCity = MUNI_CODES[iMuniCode];
-    } else {
-      data.strCity = muniCode;
-    }
-    String address = body.substring(0, match.start()).trim();
-    body = body.substring(match.end()).trim();
-    
-    // Check for cross street
-    pt = address.indexOf(" ;NEAR ");
-    if (pt >= 0) {
-      data.strCross = address.substring(pt+7).trim();
-      address = address.substring(0,pt).trim();
+    String call = convertCodes(data.strCall, CALL_CODES);
+    if (call != null) {
+      data.strCode = data.strCall;
+      data.strCall = call;
     }
     
-    // See if address ends with an APT designation
-    pt = address.indexOf("APT ");
-    if (pt >= 0) {
-      data.strApt = address.substring(pt+4).trim();
-      address = address.substring(0,pt).trim();
-    }
-    
-    // Check for floor
-    pt = address.indexOf(";FLR ");
-    if (pt >= 0) {
-      data.strApt = append(address.substring(pt+1), " - APT ", data.strApt);
-      address = address.substring(0,pt).trim();
-    }
-    
-    // An '@' splits place name from address
-    // They aren't consistent about which is which, so we will use the address
-    // check logic to make that determination
-    pt = address.indexOf('@');
-    if (pt < 0) pt = address.indexOf(';');
-    if (pt >= 0) {
-      String part1 = address.substring(0, pt).trim();
-      String part2 = address.substring(pt+1).trim();
-      Result res1 = parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, part1);
-      Result res2 = parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, part2);
-      if (res1.getStatus() > res2.getStatus()) {
-        res1.getData(data);
-        data.strPlace = append(data.strPlace, " - ", part2);
-      } else {
-        res2.getData(data);
-        data.strPlace = append(part1, " - ", data.strPlace);
-      }
-    } else {
-      parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, address, data);
-    }
-    
-    // Anything beyond that is supplemental info
-    data.strSupp = body.replaceAll("//+", "/");
-    
+    String extra = getLeft();
+    data.strSupp = extra.replace('\n', ' ').replaceAll("  +", " ");
     return true;
   }
   
-  private static final int FIRST_MUNI_CODE = 19;
-  private static final String[] MUNI_CODES = new String[]{
-    /*19*/  "READING",
-    /*20*/  null,
-    /*21*/  "MOUNT PENN",
-    /*22*/  "ST. LAWRENCE",
-    /*23*/  "LOWER ALSACE TWP",
-    /*24*/  "ALSACE TWP",
-    /*25*/  "EXETER TWP",
-    /*26*/  "AMITY TWP",
-    /*27*/  "DOUGLASS TWP",
-    /*28*/  "UNION TWP",
-    /*29*/  "BIRDSBORO",
-    /*30*/  "NEW MORGAN",
-    /*31*/  "ROBESON TWP",
-    /*32*/  "CAERNARVON TWP",
-    /*33*/  "BRECKNOCK TWP",
-    /*34*/  "CUMRU TWP",
-    /*35*/  "MOHTON",
-    /*36*/  "SHILLINGTON",
-    /*37*/  "KENHORST",
-    /*38*/  "WEST READING",
-    /*39*/  "WYOMISSING",
-    /*40*/  null,
-    /*41*/  "OLD WYOMISSING HILLS",
-    /*42*/  "OLD WEST LAWN",
-    /*43*/  "SPRING TWP",
-    /*44*/  "SINKING SPRINGS",
-    /*45*/  "SOUTH HEIDELBERG TWP",
-    /*46*/  "WERNERSVILLE",
-    /*47*/  "ROBESONIA",
-    /*48*/  "HEIDELBERG",
-    /*49*/  "WOMELSDORF",
-    /*50*/  null,
-    /*51*/  "MARION TWP",
-    /*52*/  "NORTH HEIDELBERG",
-    /*53*/  "LOWER HEIDELBERG",
-    /*54*/  "BERN TWP",
-    /*55*/  "CENTRE TWP",
-    /*56*/  "PENN TWP",
-    /*57*/  "BERNVILLE",
-    /*58*/  "JEFFERSON TWP",
-    /*59*/  "UPPER BERN TWP",
-    /*60*/  "CENTERPORT",
-    /*61*/  "TILDEN TWP",
-    /*62*/  "UPPER TULPEHOCKEN TWP",
-    /*63*/  "STRAUSSTOWN",
-    /*64*/  "BETHEL TWP",
-    /*65*/  "TULPEHOCKEN TWP",
-    /*66*/  "MUHLENBERG TWP",
-    /*67*/  "LAURELDALE",
-    /*68*/  null,
-    /*69*/  "ONTELAUNEE TWP",
-    /*70*/  null,
-    /*71*/  "LEESPORT",
-    /*72*/  "MAIDENCREEK TWP",
-    /*73*/  "PERRY TWP",
-    /*74*/  "SHOEMAKERSVILE",
-    /*75*/  "WINDSOR TWP",
-    /*76*/  "HAMBURG",
-    /*77*/  "ALBANY TWP",
-    /*78*/  "GREENWICH TWP",
-    /*79*/  "MAXATAWNY TWP",
-    /*80*/  "LENHARTSVILLE",
-    /*81*/  "KUTZTOWN",
-    /*82*/  "LYONS",
-    /*83*/  "FLEETWOOD",
-    /*84*/  "RICHMOND TWP",
-    /*85*/  "TOPTON",
-    /*86*/  "LONGSWAMP TWP",
-    /*87*/  "ROCKLAND TWP",
-    /*88*/  "DISTRICT TWP",
-    /*89*/  "PIKE TWP",
-    /*90*/  null,
-    /*91*/  "RUSCOMBMANOR TWP",
-    /*92*/  "OLEY TWP",
-    /*93*/  "EARL TWP",
-    /*94*/  "BOYERTOWN",
-    /*95*/  "COLEBROOKDALE TWP",
-    /*96*/  "BECHTELSVILLE",
-    /*97*/  "WASHINGTON TWP",
-    /*98*/  "BALLY",
-    /*99*/  "HEREFORD TWP"
-  };
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "101",   "Lehman",
+      "201",   "Barrett",
+      "202",   "Chestnuthill",
+      "203",   "Coolbaugh",
+      "204",   "Eldred",
+      "205",   "Hamilton",
+      "206",   "Jackson",
+      "207",   "Middle Smithfield",
+      "208",   "Paradise",
+      "209",   "Pocono",
+      "210",   "Polk",
+      "211",   "Price",
+      "212",   "Ross",
+      "213",   "Smithfield",
+      "214",   "Stroud",
+      "215",   "Tobyhanna",
+      "216",   "Tunkhannock",
+      "401",   "Delaware Water Gap",
+      "402",   "East Stroudsburg",
+      "403",   "Mount Pocono",
+      "404",   "Stroudsburg"
+  });
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
-      "MVAENT", "Accident w/ entrapment",
-      "MVAUNK", "Accident unknown inj",
-      "MVAWITH", "Accident w/ injury",
-      "SF", "Structure Fire",
-      "RSF", "Reading Structure Fire",
-      "RAFA", "Reading Fire Alarm",
-      "REMERG", "Reading Emerge",
-      "RMISC", "Reading Misc",
-      "RBF", "Reading Brush Fire",
-      "BF", "Brush Fire",
-      "CMA", "Carbon Monoxide",
-      "AFA", "Fire Alarm",
-      "VF", "Vehicle Fire",
-      "FS", "Fire Service",
-      "FSB", "Fire Scene Standby"
+      "F1",   "Fire & EMS Dispatch",
+      "F2",   "Fire Dispatch",
+      "F3",   "Fire Officers Dispatch",
+      "E1",   "Acute Abdomen",
+      "E2",   "Amputation",
+      "E3",   "Anaphylazia",
+      "E4",   "Burns",
+      "E45J", "Motor Vehicle Accident with Entrapment",
+      "E5",   "Cardiac",
+      "E6",   "Cardiac ARREST",
+      "E7",   "Spinal Injury",
+      "E8",   "CVA/Stroke",
+      "E9",   "Diabetic",
+      "E10",  "DOA",
+      "E11",  "Fever",
+      "E12",  "Dislocation/Fracture",
+      "E13",  "GI Bleeding",
+      "E14",  "Gunshot Wound",
+      "E15",  "Hemmorage",
+      "E16",  "Abuse",
+      "E17",  "Internal",
+      "E18",  "Nausea/Vomiting",
+      "E19",  "Obstetrics",
+      "E20",  "Overdose",
+      "E21",  "Paralysis",
+      "E22",  "Penetrating Wounds",
+      "E23",  "Poisoning",
+      "E24",  "Psychological",
+      "E25",  "Respiratory ARREST",
+      "E26",  "Respiratory Distress",
+      "E27",  "Convulsions/Seizures",
+      "E28",  "Shock",
+      "E29",  "Sprain/Strain",
+      "E30",  "Unconscious/Fainting",
+      "E31",  "Minor Trauma",
+      "E32",  "Major Trauma",
+      "E33",  "Multiple Systems Trauma",
+      "E34",  "Unknown/Excited Caller",
+      "E35",  "Unknown/General Illness",
+      "E36",  "Refused/Cancelled",
+      "E37",  "MED-ALERT Alarm",
+      "E45",  "Motor Vehicle Accident",
+      "E55",  "Fire Scene Standby",
+      "E82",  "Emergency Transport",
+      "E83",  "Non Emergency Transport"
   });
 }
