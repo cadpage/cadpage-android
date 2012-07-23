@@ -1150,6 +1150,30 @@ public abstract class SmartAddressParser extends MsgParser {
     
     for (int ndx = srcNdx; ndx < tokens.length; ndx++) {
       
+      // Is there a city here?
+      int endCity = findEndCity(ndx);
+      if (endCity >= 0) {
+        if (!anchorEnd || endCity == tokens.length) {
+          if (result.startAddress < 0) result.initAddress = result.startAddress = stNdx;
+          result.initPlace = inPlace;
+          result.startPlace = stPlace;
+          result.initApt = inApt;
+          result.startApt = stApt;
+          result.startCross = stCross;
+          result.startCity = ndx;
+          result.endAll = endCity;
+          
+          // If there is a pad field, it might have the misfortune to be a 
+          // place name that includes a local city name.  So we will call
+          // ourselves recursively in an attempt to find another city name
+          // behind this one
+          if (padField && endCity < tokens.length) {
+            parseToCity(stNdx, endCity+1, result);
+          }
+          return true;
+        }
+      }
+      
       // Only check for fun stuff if it isn't inside a pad field
       if (!padField) {
         
@@ -1182,30 +1206,6 @@ public abstract class SmartAddressParser extends MsgParser {
           
           // Check for cross street marker
           if (isType(ndx, ID_CROSS_STREET)) stCross = ndx + 1;
-        }
-      }
-      
-      // Is there a city here?
-      int endCity = findEndCity(ndx);
-      if (endCity >= 0) {
-        if (!anchorEnd || endCity == tokens.length) {
-          if (result.startAddress < 0) result.initAddress = result.startAddress = stNdx;
-          result.initPlace = inPlace;
-          result.startPlace = stPlace;
-          result.initApt = inApt;
-          result.startApt = stApt;
-          result.startCross = stCross;
-          result.startCity = ndx;
-          result.endAll = endCity;
-          
-          // If there is a pad field, it might have the misfortune to be a 
-          // place name that includes a local city name.  So we will call
-          // ourselves recursively in an attempt to find another city name
-          // behind this one
-          if (padField && endCity < tokens.length) {
-            parseToCity(stNdx, endCity+1, result);
-          }
-          return true;
         }
       }
     }

@@ -1,4 +1,4 @@
-package net.anei.cadpage.parsers.NY;
+package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
 import java.util.regex.Matcher;
@@ -27,12 +27,17 @@ CAD MSG: *D F2       POCONO MOUNTAIN WEST 215 PANTHER LN          OFFICE EXT 814
 
 */
 
-public class NYMonroeCountyBParser extends SmartAddressParser {
+public class PAMonroeCountyParser extends SmartAddressParser {
   
   private static final Pattern MARKER = Pattern.compile("CAD MSG: \\*[DG] ([A-Z0-9]+) +");
   
-  public NYMonroeCountyBParser() {
+  public PAMonroeCountyParser() {
     super(CITY_CODES, "MONROE COUNTY", "PA");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "emergin@monroeco911.com";
   }
 
   @Override
@@ -42,9 +47,9 @@ public class NYMonroeCountyBParser extends SmartAddressParser {
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     data.strCall = match.group(1);
-    body = body.substring(match.start());
+    body = body.substring(match.end()).replaceAll("//+", "/");
     
-    parseAddress(StartType.START_ADDR, body, data);
+    parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT | FLAG_CROSS_FOLLOWS, body, data);
     
     String call = convertCodes(data.strCall, CALL_CODES);
     if (call != null) {
@@ -53,7 +58,33 @@ public class NYMonroeCountyBParser extends SmartAddressParser {
     }
     
     String extra = getLeft();
-    data.strSupp = extra.replace('\n', ' ').replaceAll("  +", " ");
+    extra = extra.replace('\n', ' ').replaceAll("  +", " ");
+    Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, extra);
+    if (res.getStatus() > 0) {
+      res.getData(data);
+      extra = res.getLeft();
+    }
+    data.strSupp = extra;
+    
+    // Dispatch has teh unfortunate habbit of coding place names as the first part of what looks like
+    // an intersection.  We will try to undo the damage that results
+    
+    String sAddr = data.strAddress;
+    int pt = sAddr.indexOf('&');
+    if (pt >= 0) {
+      String part1 = sAddr.substring(0,pt).trim();
+      String part2 = sAddr.substring(pt+1).trim();
+      if (checkAddress(part1) == 0 && checkAddress(part2) > 0) {
+        data.strPlace = part1;
+        data.strAddress = part2;
+      }
+    } else if (data.strCross.length() > 0) {
+      if (checkAddress(sAddr) == 0) {
+        data.strPlace = sAddr;
+        data.strAddress = data.strCross;
+        data.strCross = "";
+      }
+    }
     return true;
   }
   

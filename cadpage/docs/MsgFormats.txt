@@ -2354,7 +2354,12 @@ Mercer County, PA (PAMercerCountyParser)
 "9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: N BROAD ST/LINCOLN AVE GROV EID: 2360315 TYPE CODE: MVU CALLER NAME: LARRY GRACE CALLER ADDR: 522 E MAIN ST E
 "9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 666 FLOWER ST GROV EID: 2363268 TYPE CODE: COM CALLER NAME:  CALLER ADDR: 109 GEORGE JUNIOR RD PINE TIME: 20:
 "9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 597 CLARKSVILLE RD COOL: alias 597 RT 258 0 COOL EID: 2366343 TYPE CODE: HF CALLER NAME: 
-***************************************************************************
+**************************************************************************
+Monroe County, PA (PAMonroeCountyParser)
+CAD MSG: *D F1 WASHINGTON PL / PRESIDENTIAL DR 203 POCONO FARMS / CALLER REPORTING\n\nWORKING FIRE / NO ONE IN THE RESIDENCE
+CAD MSG: *D F1 255 SUMMIT AVE 209 HOUSE FIRE / APPEARS TO BE VACANT / UNK IF ANYONE LIVES THERE OR NOT /
+CAD MSG: *D F2 GEISINGER FAMILY PRA / COMMERCE CT 203 GESINGER MT POCONO // BLACK GRAND AM ON FIRE// UNK IF ANYONE IS IN IT/
+**************************************************************************
 Montgomery county, Pa (PAMontgomeryCountyAParser)
 Subject:Dispatch\n09:39 * RESCUE - WATER * 316 RIVER RD * - *
 Subject:Dispatch\n11:12 * PUMP DETAIL * 114 KOEGEL LN * - * 
@@ -4856,145 +4861,6 @@ Sender: 4129533352
 **********************************************************
 **********************************************************
 **********************************************************
-
-
-Some things i learned from our PITA(Pain In The Ass) communications 
-center:
-
-
-First:
-
-    "CAD MSG:" = Message from the CAD
-
-
-Second:
-
-    "*D" = Dispatch
-
-
-Third:
-
-    "F1" = Dispatching Fire AND EMS
-
-    "F2" = Dispatching Fire ONLY
-
-    "F3" = Dispatching Officers ONLY
-
-    "E45J" = Dispatching Fire for Jaws(Entrapment) and EMS
-
-    There may be more i am finding out that information.
-
-
-Fourth:
-
-    Location " WASHINGTON PL / PRESIDENTIAL DR"
-
-    We are going thru the 911 readdressing now and are almost complete. So 
-in the location field it will be an
-
-    address with a house number. Such as "255 SUMMIT AVE". The "/" you see 
-in this example is inputed by 
-
-    the dispatcher, not the CAD. It may also be a business name followed by 
-the address. Such as "JACK 
-
-    WILLIAMS TIRE / RTE 940" or "GEISINGER FAMILY PRA / COMMERCE CT". It 
-may be on the interstate. 
-
-    Such as "S I380 HWY / MM 1POC SUM HWY". Again ALL of the "/" are 
-inputed by the dispatcher not the 
-
-    CAD.
-
-
-Fifth:
-
-    Township Code "203" or "215" or "403" or "208"
-
-    I am getting a list of these for the whole county.
-
-
-Sixth(LAST):
-
-    Remarks "POCONO FARMS / CALLER REPORTING WORKING FIRE / NO ONE IN THE 
-RESIDENCE"
-
-    First 70 characters of the the remarks field the dispatcher puts into 
-in the CAD. The "/" once again are inputed
-
-    by the dispatcher.
-
-Municipality(Twp.) Codes    
-
-Barrett     201 
-Hamilton    205 
-Pocono    209 
-Stroud      214
-Chestnuthill    202 
-Jackson   206 
-Polk      210 
-Tobyhanna   215
-Coolbaugh   203 
-Lehman    101 
-Price     211 
-Tunkhannock   216
-Delaware Water Gap  401 
-Middle Smithfield 207 
-Ross      212 
-East Stroudsburg  402 
-Mount Pocono    403 
-Smithfield    213 
-Eldred      204 
-Paradise    208 
-Stroudsburg   404
-  
-F1  Fire & EMS Dispatch
-F2  Fire Dispatch
-F3  Fire Officers Dispatch
-
-E1 Acute Abdomen        
-E2 Amputation       
-E3 Anaphylazia        
-E4 Burns          
-E45J  Motor Vehicle Accident with Entrapment
-E5 Cardiac
-E6 Cardiac ARREST
-E7 Spinal Injury
-E8 CVA/Stroke
-E9 Diabetic
-E10 DOA
-E11 Fever
-E12 Dislocation/Fracture
-E13 GI Bleeding
-E14 Gunshot Wound
-E15 Hemmorage
-E16 Abuse
-E17 Internal
-E18 Nausea/Vomiting
-E19 Obstetrics
-E20 Overdose
-E21 Paralysis
-E22 Penetrating Wounds
-E23 Poisoning
-E24 Psychological
-E25 Respiratory ARREST
-E26 Respiratory Distress
-E27 Convulsions/Seizures
-E28 Shock
-E29 Sprain/Strain
-E30 Unconscious/Fainting
-E31 Minor Trauma
-E32 Major Trauma
-E33 Multiple Systems Trauma
-E34 Unknown/Excited Caller
-E35 Unknown/General Illness
-E36 Refused/Cancelled
-E37 MED-ALERT Alarm
-E45 Motor Vehicle Accident
-E55 Fire Scene Standby
-E82 Emergency Transport
-E83 Non Emergency Transport
-
 **********************************************************
 **********************************************************
 Contact: Active911
@@ -5027,7 +4893,6 @@ Sender: rc.439@c-msg.net
 (VEST) [VEST] ASSIS004 12 Ic# 22 ASSIS004 Ds# 121002 Al# 1 Utl# 4-34 06/30/1213279 ADAMS RD HA <> CHERRY FARM TRVEST REQUESTED BY SJCPD FOR TREE IN THE ROADWAY 1754
 (VEST) [VEST] CRASH012 12 Ic# 28 CRASH012 Ds# 130001 Al# 1 Utl# G-115 07/04/121800 W LINCOLNWAY HW OS <> N PEONY AVHEAD ON CRASH 2244
 (VEST) [VEST] CRASH004 12 Ic# 37 CRASH004 Ds# 121001 Al# 1 Utl# G-2 07/04/1250585 SR 23 HW HA <> BIRCH RDROLLOVER NO ENTRAPMENT 2317
-
 **********************************************************
 Kent County, DE (alternate)
 Contact: Active911
