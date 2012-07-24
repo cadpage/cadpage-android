@@ -121,6 +121,7 @@ public class CALakeCountyParser extends FieldProgramParser {
       "FDSC", "Smoke Check",
       "FDPA", "Public Assist",
       "FDLL", "Life Line Alert",
+      "FDLD", "Lines Down",
       "FDVF", "Vehicle Fire",
       "FDWF", "Wildland Fire",
       "FDWR", "Water Rescue",
