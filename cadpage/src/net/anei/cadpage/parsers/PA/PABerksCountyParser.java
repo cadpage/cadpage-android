@@ -17,7 +17,8 @@ Contact: "thirty5tripleuno@yahoo.com" <thirty5tripleuno@yahoo.com>
 Contact: 4843343577@messaging.sprintpcs.com
 Contact: Mike Roth <mroth@springtwpberks.org>
 Contact: VJ GREEK <vjgreek@gmail.com>
-Sender: alrt_3WPJ@berks.alertpa.org,@rsix.roamsecure.net
+Contact: Buddy <fwardiv@gmail.com>
+Sender: alrt_3WPJ@berks.alertpa.org,@rsix.roamsecure.net,14100
 Unit:M590A Status:Dispatched ALS MEDICAL ; 215 TOWER RD ; ; S PARK AVE / CLAY RD ; Muni: LONGSWAMP ; 64 YOM / IN ACTIVE SIEZURE  ; 07/10/12 12:57
 Unit:M590B Status:Dispatched MVAUNK ; W MAIN ST NORMAL AVE ; ; ; Muni: KUTZTOWN ; ; 07/10/12 14:06
 Unit:M535A Status:Dispatched ALS MEDICAL ; 281 MOSELEM CHURCH RD ; ; SCHWOYER RD / MISTY LN ; Muni: RICHMOND ; 79 YOF/VOMITING/COUGHING/PAIN IN SIDE ; 07/11/12 10:04 Sent by Berks County RSAN to Fleetwood EMS All CALL -- You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
@@ -76,7 +77,7 @@ public class PABerksCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@berks.alertpa.org,@rsix.roamsecure.net";
+    return "@berks.alertpa.org,@rsix.roamsecure.net,14100";
   }
 
   @Override
