@@ -155,6 +155,36 @@ public class NCCabarrusCountyBParserTest extends BaseParserTest {
          "PLACE:WHITLEY TRK COMPANY / JJTC INC/ DBA WHITLEY TRUCK",
          "PHONE:7047862610");
 
+     doTest("T7",
+         "1021:FYI: |1|COMMERCIAL FIRE ALARM|250 BISHOP LN|CONCORD LAKE RD|2|21KA|07/23/2012 19:01:22|BRIAN CENTER|7047886400|1205076",
+         "DATE:07/23/2012",
+         "TIME:19:01:22",
+         "CALL:COMMERCIAL FIRE ALARM",
+         "ADDR:250 BISHOP LN",
+         "X:CONCORD LAKE RD",
+         "PRI:2",
+         "UNIT:21KA",
+         "ID:1205076");
+
+     doTest("T8",
+         "1019:07/23/2012 16:08:00|HAZARDOUS MATERIALS|611 VEGA ST NW|SUTRO FOREST DR NW|FALLING LEAF DR NW",
+         "DATE:07/23/2012",
+         "TIME:16:08:00",
+         "CALL:HAZARDOUS MATERIALS",
+         "ADDR:611 VEGA ST NW",
+         "X:SUTRO FOREST DR NW & FALLING LEAF DR NW");
+
+     doTest("T9",
+         "1018:FYI: |1|COMMERCIAL FIRE ALARM|5571 CONCORD PKWY S|SANDUSKY BLVD|EVERETTE DR|5|593A|07/23/2012 15:59:21|CMS NATIONWIDE CUP GARAGE|7044554381|1205066",
+         "DATE:07/23/2012",
+         "TIME:15:59:21",
+         "CALL:COMMERCIAL FIRE ALARM",
+         "ADDR:5571 CONCORD PKWY S",
+         "X:SANDUSKY BLVD & EVERETTE DR",
+         "PRI:5",
+         "UNIT:593A",
+         "ID:1205066");
+
   }
   
   public static void main(String[] args) {
