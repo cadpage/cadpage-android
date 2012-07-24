@@ -117,7 +117,8 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "ID:2012031795",
         "TIME:05:27:06",
         "UNIT:F65",
-        "CALL:MUTUAL AID");
+        "CALL:MUTUAL AID",
+        "INFO:COMMERCIAL STRUCTURE CROSS STREET MONTROSE");
 
     doTest("T4",
         "S: M:1885 ADDOR RD ABERDEEN, 2012031801, 07:04:25, F18 STORM DAMAGE, ",
@@ -145,6 +146,16 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "TIME:11:05:29",
         "UNIT:M31",
         "INFO:UNCONSCIOUSNESS/FAINTING (NEAR)");
+
+    doTest("T7",
+        "144 SHADY WOOD CT WEST END, FDL 69D06, 08:46:34, F69 STRUCTURE FIRE, WOKE UP AND HER STOVE WOULDNT OPEN.\r",
+        "ADDR:144 SHADY WOOD CT",
+        "CITY:WEST END",
+        "CODE:69D06",
+        "TIME:08:46:34",
+        "UNIT:F69",
+        "CALL:STRUCTURE FIRE",
+        "INFO:WOKE UP AND HER STOVE WOULDNT OPEN.");
  }
   
 

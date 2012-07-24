@@ -41,7 +41,7 @@ public class CAShastaCountyParserTest extends BaseParserTest {
         "CALL:MEDICAL",
         "ADDR:21017 JOANNA",
         "SRC:BELLAVISTA",
-        "X:11650 BLK HELENA DR & 21018BLK  JOANNA WY",
+        "X:21018BLK  JOANNA WY & 11650 BLK HELENA DR",
         "MAP:3225",
         "ID:009041",
         "UNIT:VOL33",
