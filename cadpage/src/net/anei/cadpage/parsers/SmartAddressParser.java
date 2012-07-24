@@ -171,7 +171,7 @@ public abstract class SmartAddressParser extends MsgParser {
   // street name
   private static final int ID_STREET_NAME_PREFIX = 0x400000;
   
-  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+)?(?:-?[A-Z])?", Pattern.CASE_INSENSITIVE);
+  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
   // List of multiple word cities
   private MultiWordList mWordCities = null;
