@@ -221,7 +221,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState, int flags) {
     super(cityList, defCity, defState,
-          "ADDR/S CODE? ID? TIME INFO!");
+          "ADDR/S CODE? ID? TIME INFO! INFO2");
     this.leadDispatch = (flags & DSFLAG_DISPATCH_ID) != 0;
     this.optDispatch = (flags & DSFLAG_OPT_DISPATCH_ID) != 0;
     this.unitId = (flags & DSFLAG_UNIT) != 0;
@@ -346,7 +346,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      if (!field.startsWith("MDL ")) return false;
+      if (!field.startsWith("MDL ") && !field.startsWith("FDL ")) return false;
       data.strCode = field.substring(4).trim();
       return true;
     }
@@ -369,12 +369,25 @@ public class DispatchSouthernParser extends FieldProgramParser {
     }
   }
   
+  private class MyInfo2Field extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strCall.length() == 0) {
+        data.strCall = data.strSupp;
+        data.strSupp = field;
+      } else {
+        super.parse(field, data);
+      }
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("CODE"))  return new MyCodeField();
     if (name.equals("ID")) return new IdField("\\d{10}", true);
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("INFO2")) return new MyInfo2Field();
     return super.getField(name);
   }
 }
