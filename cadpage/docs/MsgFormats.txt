@@ -956,6 +956,11 @@ Nassau County, NY (NYNassauCountyDParser)
 *** 45) BRUSH *** 1 MILLER RD CS: HEMPSTEAD TPKE TOA: 14:48 03-29-11
 *** 11) AFA -HOUSE *** 21 CLARK ST CS: EILEEN AVE TOA: 08:09 03-29-11
 *******************************************************************************
+Nassau County, NY (NYNassauCountyFParser)
+(*) RESCUE\n11:06 AM\n1815 CAMP AVE\nNO MERRICK\nRHODE AVE\nMAEDER AVE\nKNEE PAIN\n1-516-324-2379   support@2sig.com
+(*) RESCUE\n11:26 AM\n1409 BELLMORE AVE\nNO BELLMORE\nWALLEN LA\nWARING ST\nSICK FEMALE\n1-516-324-2379   support@2sig.com
+(*) RESCUE\n3:29 PM\n404 LINDEN ST\nBELLMORE\nTHE CREEK\nNEWBRIDGE ROAD\n91/M STROKE\n1-516-324-2379   support@2sig.com
+*******************************************************************************
 Nassau County, NY (NYNassauCountyElmontParser)
 (4/7/2011 10:37) Call:  Sub: RESC 2095 DUTCH BROADWAY ELMONT Cross: GLAFIL ST & ELMONT ROADMALE WITH HAND STUCK IN BOX CRUSHER 12-B5, ZONE 5
 (4/11/2011 16:24) Call: MVAFIRE Sub: MVA 2095 DUTCH BROADWAY ELMONT Cross: GLAFIL ST & ELMONT ROADCAR INTO POLE CAR SMOKING 12-B5, ZONE 5
@@ -4801,15 +4806,6 @@ Rensseleaer County, NY
 Contact: "David R. Young JR." <dave@impressions-dj.com>, 5183658048@messaging.sprintpcs.com
 DELTA DETERMINATE DIABETIC PROBLEM, 17 ARBOR DR -29
 **********************************************************
-Nassau County, NY (alternate)
-Contact: "Andrew Moreno" <a_moreno@verizon.net> (old)
-Sender: 2ndSignal@secondsignal.com
-(* ) RESCUE\n7:29 PM\n181 MEADOWBROOK ROAD\nMERRICK\nAKEL CT\nWILLIS AVE\nMALE IN PAIN/PREVIOUS MVA\n1-516-324-2379   support@2sig.com
-
-Contact: "Starkie, James" <james.starkie@richmond.edu>
-Sender: 2ndSignal@2sig.com
-(*) RESCUE\r\n12:06 PM\r\n128 HEWLETT AVE N\r\nMERRICK\r\nSMITH ST\r\nLOINES AVE\r\nDR GOLDSTEINS OFFICE-CHEST PAIN\r\n1-516-324-2379   pport@2sig.com
-**********************************************************
 St Charles County, MO (alternate)
 Contact: Michael Cooper <michael4alarm@gmail.com>
 Sender: Dispatch@sccda.org
@@ -4940,4 +4936,5 @@ Contact: Active911
 [Chief ALT] [46 Fire] -- Alarms-Commercial -- 800 Otis Dr Dover - Cross Sts: Fowler C - Caller:DFD\n
 [Chief ALT] [46 Fire] -- Alarms-Residential (single) -- 281 Sheffield Dr Dover - Cross Sts: Norwich Wa - Caller:ADT\n
 [Chief ALT] [46 Fire] -- Structure-Mobile Home/Trailer -- 243 Kentwood Dr Dover - Cross Sts: Phoenix D - Caller:SHANON\n
+**********************************************************
 **********************************************************
