@@ -164,6 +164,8 @@ public class NCCabarrusCountyBParserTest extends BaseParserTest {
          "X:CONCORD LAKE RD",
          "PRI:2",
          "UNIT:21KA",
+         "PLACE:BRIAN CENTER",
+         "PHONE:7047886400",
          "ID:1205076");
 
      doTest("T8",
@@ -183,6 +185,8 @@ public class NCCabarrusCountyBParserTest extends BaseParserTest {
          "X:SANDUSKY BLVD & EVERETTE DR",
          "PRI:5",
          "UNIT:593A",
+         "PLACE:CMS NATIONWIDE CUP GARAGE",
+         "PHONE:7044554381",
          "ID:1205066");
 
   }
