@@ -11,7 +11,8 @@ public class MDCecilCountyParser extends GroupBestParser {
   
   public MDCecilCountyParser() {
     super(new MDCecilCountyAParser(),
-           new MDCecilCountyBParser());
+           new MDCecilCountyBParser(),
+           new MDCecilCountyCParser());
   }
   
 }
