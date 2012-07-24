@@ -364,7 +364,14 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     String stCode = null;
     int startNdx = -1;
     for (int ndx = 0; ndx <= locValues.length; ndx++) {
-      String stPrefix = (ndx < locValues.length ? locValues[ndx].substring(0,2) : "**");
+      String locValue = (ndx < locValues.length ? locValues[ndx] : "******");
+      int len = 2;
+      if (locValue.startsWith("Z")) {
+        len++;
+        if (locValue.startsWith("ZCA")) len += 2;
+      }
+      String stPrefix = locValue.substring(0,len);
+      if (stPrefix.equals("St")) stPrefix = "Ge";  // Standard parsers go in General parser group
       if (stCode == null || ! stCode.equals(stPrefix)) {
         if (stCode != null) {
           String stName = stateNames[stNdx++];

@@ -96,7 +96,7 @@ public class ManageParsers {
       pkg = location.substring(0,2);
     } else if (location.startsWith("Dispatch")) {
       pkg = "dispatch";
-    } else if (location.startsWith("General")) {
+    } else if (location.startsWith("General") || location.startsWith("Standard")) {
       pkg = "general";
     }
     StringBuffer sb = new StringBuffer();

@@ -62,7 +62,7 @@ public class LocationManager {
     STATE_MAP.put("WI", "WISCONSIN");
   }
   
-  // Special location code comparator that makes adjustements for the
+  // Special location code comparator that makes adjustments for the
   // difference between actual state order and state abbreviation order
   private static final Comparator<String> LOC_COMPARE = new Comparator<String>(){
     @Override
@@ -73,7 +73,7 @@ public class LocationManager {
     }
 
     private String convert(String str) {
-      if (str.equals("General")) return "";
+      if (str.equals("General")) return "  " + str;
       String pfx = str.substring(0,2);
       String state = STATE_MAP.get(pfx);
       if (state != null) str = state + str.substring(2);
