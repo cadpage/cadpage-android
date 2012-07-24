@@ -20,4 +20,10 @@ public class MDCecilCountyParserTest {
     }
   }
   
+  public static class TestC extends MDCecilCountyCParserTest {
+    public TestC() {
+      setParser(new MDCecilCountyParser());
+    }
+  }
+  
 }
