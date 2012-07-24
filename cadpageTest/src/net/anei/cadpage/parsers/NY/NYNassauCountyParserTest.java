@@ -32,6 +32,12 @@ public class NYNassauCountyParserTest {
     }
   }
   
+  public static class TestF extends NYNassauCountyFParserTest {
+    public TestF() {
+      setParser(new NYNassauCountyParser());
+    }
+  }
+  
   public static class TestRedAlert extends NYNassauCountyRedAlertParserTest {
     public TestRedAlert() {
       setParser(new NYNassauCountyParser());
