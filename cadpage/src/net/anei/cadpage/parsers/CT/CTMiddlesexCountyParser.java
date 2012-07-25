@@ -89,6 +89,78 @@ Sender: @smtp115.sbc.mail.gq1.yahoo.com
 (CAD Page for CFS 071512-16) \nhttp://maps.google.com/maps?q=+41.30798%20-72.33295\nMVA Medic ALS\n22 SHORE RD\nApt: \nOL       \nCross Streets : FERRY RD * AMTRAK \nCaller: VERIZON WIRELESS\nWater\Info: HLFW07 300 FERRY RD\n\nDisp Time: 07/15/12 08:10:45
 (CAD Page for CFS 071512-25) \nhttp://maps.google.com/maps?q=+41.28534%20-72.27652\nInjured Person  BLS\n69 OLD COLONY RD\nApt: \nOL       \nCross Streets : PURTILL AVE * HARTUNG PL \nCaller: \nWater\Info: HLHY 59 OLD COLONY\n\nDisp Time: 07/15/12 09:46:44\n\n\n
 
+Agency name: Chester Hose Co. Location: Chester, CT 
+Sender: @smtp107.sbc.mail.mud.yahoo.com,LogiSYS CAD
+
+(CAD Page for CFS 062612-35) \nhttp://maps.google.com/maps?q=+41.40815%20-72.44095\nLife Call -Medical Alarm\n101 MIDDLESEX AVE\nApt: \nCH       \nCross Streets : OLD DEPOT RD * GROTE RD \nCaller: MEDICAL ALARM\nWater\Info: Hydrant: 103 Mx Ave\nHydrant: 77 Mx Ave\nHydrant: Mx Ave/Grote Rd\n\nDisp Time: 06/26/12 14:06:39
+(CAD Page for CFS 062612-50) \nhttp://maps.google.com/maps?q=+41.42297%20-72.44717\nPsychiatric BLS\n218 MIDDLESEX AVE\nApt: D22\nCH       \nCross Streets : CASTLE VIEW DR * DENLAR DR \nCaller: \nWater\Info: Hydrant: Mx Ave at shopping Center\nHydrant: Mx Ave (opp Castle View)\n\nDisp Time: 06/26/12 16:40:03
+(CAD Page for CFS 062612-54) \nhttp://maps.google.com/maps?q=+41.40202%20-72.44430\nInjured Person  BLS\n132 MAIN ST\nApt: \nCH       \nCross Streets : SCHOOL LANE * MIDDLESEX AVE \nCaller: CHESTERFIELDS HEALTH CAR\nWater\Info: Hydrant: Main St, west of School La\nHydrant: Main St, in front of Chesterfield's\nHydrant: Main St/Mx Av\n\nDisp Time: 06/26/12 18:25:39
+(CAD Page for CFS 062612-56) \nhttp://maps.google.com/maps?q=+41.40794%20-72.51049\nFire Alarm\n87 CEDAR LAKE RD\nApt: \nCH       \nCross Streets : DAVID RD * JENNINGS POND RD \nCaller: ADT\nWater\Info: Standpipe: Cedar Lake Rd/Lakeview Ave\nBoat launch, end of Bishop Road\n\nDisp Time: 06/26/12 19:05:07
+(CAD Page for CFS 062612-67) \nhttp://maps.google.com/maps?q=+41.39946%20-72.47517\nGENERAL WEAKNESS\n3 S WIG HILL RD\nApt: 41\nCH       \nCross Streets : W MAIN ST * TURKEY HILL RD \nCaller: HEALTH MGMT,RYDERS\nWater\Info: Standpipe: West Main St/Hoopole Hill\nPond: South Wig/Wig Hill Rd\n\nDisp Time: 06/26/12 20:39:41
+(CAD Page for CFS 062712-26) \nhttp://maps.google.com/maps?q=+41.38833%20-72.52768\nFire Alarm\n317 W MAIN ST\nApt: 14\nCH       \nCross Streets : BUTTER JONES RD * ROUTE 148 \nCaller: usa central\nWater\Info: Draft from Cedar Lake\n\nDisp Time: 06/27/12 11:15:30
+(CAD Page for CFS 062712-60) \nhttp://maps.google.com/maps?q=+41.39896%20-72.46510\nWires Down -Call NU\n100 W MAIN ST\nApt: \nCH       \nCross Streets : SPRING ST * INSPIRATION LANE \nCaller: VERIZON WIRELESS\nWater\Info: Hydrant: 82 West Main\nWaterhole: West Main/Hoopole Hill\n\nDisp Time: 06/27/12 17:12:38
+(CAD Page for CFS 062912-6) \nhttp://maps.google.com/maps?q=+41.42893%20-72.45178\nGENERAL WEAKNESS\n268 MIDDLESEX AVE\nApt: 1\nCH       \nCross Streets : GOOSE HILL RD * SAYBROOK RD \nCaller: VZWU\nWater\Info: Boat launch, end of Parkers Point La\n\nDisp Time: 06/29/12 07:50:36
+(CAD Page for CFS 062912-43) \nhttp://maps.google.com/maps?q=+41.40970%20-72.44025\nMinor MVA -No Medic\nGROTE RD and MIDDLESEX AVE\nApt: \nCH       \nCross Streets : GROTE RD \nCaller: \nDisp Time: 06/29/12 16:15:27
+(CAD Page for CFS 063012-98) \nhttp://maps.google.com/maps?q=+41.39946%20-72.47517\nFire Alarm\n3 S WIG HILL RD\nApt: \nCH       \nCross Streets : W MAIN ST * TURKEY HILL RD \nCaller: USA Central\nWater\Info: Standpipe: West Main St/Hoopole Hill\nPond: South Wig/Wig Hill Rd\n\nDisp Time: 06/30/12 20:36:10
+(CAD Page for CFS 070112-20) \nhttp://maps.google.com/maps?q=+41.40086%20-72.44209\nUnconcious/Unresponsive ALS\n48 MIDDLESEX AVE\nApt: \nCH\nCross Streets : PRATT ST * RAILROAD AVE \nCaller: SAYBROOK AT HADDAM,THE\nWater\Info: Hydrant: Mx Ave/Main St\nHydrant: 37 Mx Ave (north of Gilbert Hill)\nHydrant: 77 Mx Ave\n\nDisp Time: 07/01/12 11:23:14
+(CAD Page for CFS 070112-34) \nhttp://maps.google.com/maps?q=+41.40936%20-72.42899\nDrowning ALS\n61 DOCK RD\nApt: \nCH\nCross Streets : VALLEY RAILROAD \nCaller: \nWater\Info: Hydrant: in front of Cozy Castle\nDraft from Connecticut River\n\nDisp Time: 07/01/12 13:45:55
+(CAD Page for CFS 070312-17) \nhttp://maps.google.com/maps?q=+41.40690%20-72.43349\nPolice General\n60 RAILROAD AVE\nApt: \nCH       \nCross Streets : VALLEY RAILROAD \nCaller: SPRINT NEXTEL - IDEN\nWater\Info: Hydrant: 60 Railroad Ave (Ch. Auto/Marine)\nConnecticut River, end of Railroad Ave\n\nDisp Time: 07/03/12 08:48:29
+(CAD Page for CFS 070312-28) \nhttp://maps.google.com/maps?q=+41.42893%20-72.45178\nAbdominal Pain ALS\n268 MIDDLESEX AVE\nApt: \nCH\nCross Streets : GOOSE HILL RD * SAYBROOK RD \nCaller: EAGLE LANDING\nWater\Info: Boat launch, end of Parkers Point La\n\nDisp Time: 07/03/12 11:13:01
+(CAD Page for CFS 070412-4) \nhttp://maps.google.com/maps?q=+41.40202%20-72.44430\nInjured Person  BLS\n132 MAIN ST\nApt: \nCH       \nCross Streets : SCHOOL LANE * MIDDLESEX AVE \nCaller: CHESTERFIELDS HEALTH CAR\nWater\Info: Hydrant: Main St, west of School La\nHydrant: Main St, in front of Chesterfield's\nHydrant: Main St/Mx Av\n\nDisp Time: 07/04/12 02:50:29
+(CAD Page for CFS 070412-18) \nhttp://maps.google.com/maps?q=+-1.00000%20--1.00000\nSYNCOPE\nMain at the market\nApt: \nch\nCaller: \nDisp Time: 07/04/12 10:36:58
+(CAD Page for CFS 070412-45) \nhttp://maps.google.com/maps?q=+41.40903%20-72.51273\nOverdose ALS\n99 CEDAR LAKE RD\nApt: \nCH       \nCross Streets : DAVID RD * JENNINGS POND RD \nCaller: FIXED ATTMO 8006356840 O\nWater\Info: Standpipe: Cedar Lake Rd/Lakeview Ave\nBoat launch, end of Bishop Road\n\nDisp Time: 07/04/12 16:05:07
+(CAD Page for CFS 070412-49) \nhttp://maps.google.com/maps?q=+41.42297%20-72.44717\nBasic Life Support \n218 MIDDLESEX AVE\nApt: C14\nCH\nCross Streets : CASTLE VIEW DR * DENLAR DR \nCaller: LANE,FRANCES\nDisp Time: 07/04/12 16:52:25
+(CAD Page for CFS 070512-33) \nhttp://maps.google.com/maps?q=+41.38551%20-72.45010\nMVA Medic ALS\n1 S65\nApt: \nCH     \nCross Streets : EXIT 5 SB * ENTR 5 SB \nCaller: T-Mobile, USA\nDisp Time: 07/05/12 11:50:22
+(CAD Page for CFS 070512-63) \nhttp://maps.google.com/maps?q=+41.40527%20-72.50705\nInjured Person  BLS\nCEDAR LAKE RD and DAVID RD\nApt: \nCH       \nCross Streets : CEDAR LAKE RD * BROOKSIDE RD \nCaller: car 7\nDisp Time: 07/05/12 19:04:43
+(CAD Page for CFS 070612-28) \nhttp://maps.google.com/maps?q=+41.42839%20-72.45273\nFire Alarm\n136 GOOSE HILL RD\nApt: \nCH       \nCross Streets : OLD COUNTY RD * MIDDLESEX AVE \nCaller: adt op ogm\nWater\Info: Standpipe: 104 Goose, south end of pond\nBoat launch, end of Parkers Point La\n\nDisp Time: 07/06/12 12:44:32
+(CAD Page for CFS 070612-43) \nhttp://maps.google.com/maps?q=+41.40156%20-72.50703\nGENERAL SICKNESS\n21 LAUREL ST\nApt: \nCH       \nCross Streets : CEDAR ST \nCaller: REDAK,HARVEY & JUSTINE\nWater\Info: Standpipe: Cedar Lake opp Birch St\n\nDisp Time: 07/06/12 15:05:35
+(CAD Page for CFS 070712-35) \nhttp://maps.google.com/maps?q=+41.42893%20-72.45178\nBasic Life Support \n268 MIDDLESEX AVE\nApt: \nCH\nCross Streets : GOOSE HILL RD * SAYBROOK RD \nCaller: EAGLE LANDING\nWater\Info: Boat launch, end of Parkers Point La\n\nDisp Time: 07/07/12 14:09:22
+(CAD Page for CFS 070812-52) \nhttp://maps.google.com/maps?q=+41.42893%20-72.45178\nAbdominal Pain BLS\n268 MIDDLESEX AVE\nApt: \nCH       \nCross Streets : GOOSE HILL RD * SAYBROOK RD \nCaller: EAGLE LANDING\nWater\Info: Boat launch, end of Parkers Point La\n\nDisp Time: 07/08/12 17:19:37
+(CAD Page for CFS 070812-72) \nhttp://maps.google.com/maps?q=+41.42893%20-72.45178\nGENERAL SICKNESS\n268 MIDDLESEX AVE\nApt: \nCH       \nCross Streets : GOOSE HILL RD * SAYBROOK RD \nCaller: EAGLE LANDING\nWater\Info: Boat launch, end of Parkers Point La\n\nDisp Time: 07/08/12 21:12:30
+(CAD Page for CFS 070912-8) \nhttp://maps.google.com/maps?q=+41.42031%20-72.44348\nChest Pain ALS\n57 CASTLE VIEW DR\nApt: \nCH\nCross Streets : KIRTLAND AVE * MIDDLESEX AVE \nCaller: COOK,WILLIAM\nDisp Time: 07/09/12 07:20:58
+(CAD Page for CFS 070912-21) \nhttp://maps.google.com/maps?q=+41.42893%20-72.45178\nAbdominal Pain BLS\n268 MIDDLESEX AVE\nApt: \nCH       \nCross Streets : GOOSE HILL RD * SAYBROOK RD \nCaller: EAGLE LANDING\nWater\Info: Boat launch, end of Parkers Point La\n\nDisp Time: 07/09/12 10:47:44
+(CAD Page for CFS 070912-26) \nhttp://maps.google.com/maps?q=+41.41022%20-72.46832\nInjured Person  BLS\n34 DEEP HOLLOW RD\nApt: \nCH       \nCross Streets : WIG HILL RD \nCaller: VERIZON WIRELESS\nWater\Info: Hydrant: Deep Hollow/Liberty\n\nDisp Time: 07/09/12 11:31:58
+(CAD Page for CFS 071012-2) \nhttp://maps.google.com/maps?q=+41.40470%20-72.45490\nCardiac Arrest ALS\n3 RIDGE RD\nApt: \nCH       \nCross Streets : HIGH ST * JOHNSON RD \nCaller: VERIZON WIRELESS\nWater\Info: Hydrant: Ridge Rd/High St\nHydrant: 17 Ridge Rd\n\nDisp Time: 07/10/12 00:42:31
+(CAD Page for CFS 071012-26) \nhttp://maps.google.com/maps?q=+41.42352%20-72.45718\nFire Alarm\n13 HIGH FIELD LANE\nApt: \nCH       \nCross Streets : GOOSE HILL RD \nCaller: alarm systems inc op 897\nWater\Info: Standpipe: 104 Goose, south end of pond\n\nDisp Time: 07/10/12 10:41:35
+(CAD Page for CFS 071012-28) \nhttp://maps.google.com/maps?q=+41.38834%20-72.50771\nTraumatic Injury ALS\n51 WINTHROP RD\nApt: \nCH       \nCross Streets : PINE KNOLL DR * AVIATION DR \nCaller: WHELEN ENGINEERING CO\nWater\Info: Standpipe: pond at Whelen\n\nWater\Info: Draft from Cedar Lake\nStandpipe: pond at Whelen\n\nDisp Time: 07/10/12 10:58:49
+(CAD Page for CFS 071012-59) \nhttp://maps.google.com/maps?q=+41.42204%20-72.49747\nAdvanced Life Support\n2 N78\nApt: \nCH       \nCross Streets : ENTR 7 NB * TURKEY HILL RD \nCaller: VERIZON WIRELESS\nDisp Time: 07/10/12 22:34:14
+(CAD Page for CFS 071112-45) \nhttp://maps.google.com/maps?q=+41.38973%20-72.43520\nPsychiatric BLS\n8 READ ST\nApt: c\nDR\nCross Streets : PROSPECT ST * KIRTLAND ST \nCaller: SCRIVEN,DAVID,A\nDisp Time: 07/11/12 14:55:08
+(CAD Page for CFS 071112-53) \nhttp://maps.google.com/maps?q=+41.38834%20-72.50771\nInjured Person  BLS\n51 WINTHROP RD\nApt: \nCH       \nCross Streets : PINE KNOLL DR * AVIATION DR \nCaller: WHELEN ENGINEERING CO\nWater\Info: Standpipe: pond at Whelen\n\nWater\Info: Draft from Cedar Lake\nStandpipe: pond at Whelen\n\nDisp Time: 07/11/12 16:59:51
+(CAD Page for CFS 071112-64) \nhttp://maps.google.com/maps?q=+41.42297%20-72.44717\nLife Call -Medical Alarm\n218 MIDDLESEX AVE\nApt: A1\nCH       \nCross Streets : CASTLE VIEW DR * DENLAR DR \nCaller: LINK TO LIFE\nWater\Info: Hydrant: Mx Ave at shopping Center\nHydrant: Mx Ave (opp Castle View)\n\nDisp Time: 07/11/12 22:59:58
+(CAD Page for CFS 071212-9) \nhttp://maps.google.com/maps?q=+41.39946%20-72.47517\nFire Alarm\n3 S WIG HILL RD\nApt: \nCH       \nCross Streets : W MAIN ST * TURKEY HILL RD \nCaller: usa centeral\nWater\Info: Standpipe: West Main St/Hoopole Hill\nPond: South Wig/Wig Hill Rd\n\nDisp Time: 07/12/12 08:06:48
+(CAD Page for CFS 071212-13) \nhttp://maps.google.com/maps?q=+41.42893%20-72.45178\nPsychiatric BLS\n268 MIDDLESEX AVE\nApt: \nCH       \nCross Streets : GOOSE HILL RD * SAYBROOK RD \nCaller: EAGLE LANDING\nWater\Info: Boat launch, end of Parkers Point La\n\nDisp Time: 07/12/12 08:49:35
+(CAD Page for CFS 071212-30) \nhttp://maps.google.com/maps?q=+41.39948%20-72.47023\nMinor MVA -No Medic\n129 W MAIN ST\nApt: \nCH       \nCross Streets : SPRING ST * INSPIRATION LANE \nCaller: SPRINTPCS\nWater\Info: Waterhole: West Main/Hoopole Hill\n\nDisp Time: 07/12/12 11:57:46
+(CAD Page for CFS 071212-40) \nhttp://maps.google.com/maps?q=+41.38994%20-72.43497\nPsychiatric BLS\n12 READ ST\nApt: C\nDR       \nCross Streets : PROSPECT ST * KIRTLAND ST \nCaller: MOBILE CRISIS * KATHY\nWater\Info: CORNER KIRTLAND & READ\n\nDisp Time: 07/12/12 14:46:07
+(CAD Page for CFS 071212-68) \nhttp://maps.google.com/maps?q=+41.37923%20-72.55943\nStructure Fire\n42 SWAN LAKE TR\nApt: \nKW\nCross Streets : BRIDLE PATH TR * BOULDER TR \nCaller: DAIGLE,GEORGE A\nDisp Time: 07/12/12 20:27:26
+(CAD Page for CFS 071212-69) \nhttp://maps.google.com/maps?q=+41.42893%20-72.45178\nALTERED MENTAL STATUS\n268 MIDDLESEX AVE\nApt: \nCH       \nCross Streets : GOOSE HILL RD * SAYBROOK RD \nCaller: EAGLE LANDING\nWater\Info: Boat launch, end of Parkers Point La\n\nDisp Time: 07/12/12 20:44:39
+(CAD Page for CFS 071312-53) \nhttp://maps.google.com/maps?q=+41.38833%20-72.52768\nLift Assist BLS\n317 W MAIN ST\nApt: 6203\nCH\nCross Streets : BUTTER JONES RD * ROUTE 148 \nCaller: CHESTER VILLAGE WEST\nDisp Time: 07/13/12 16:39:45
+(CAD Page for CFS 071312-60) \nhttp://maps.google.com/maps?q=+41.40202%20-72.44430\nALTERED MENTAL STATUS\n132 MAIN ST\nApt: 2\nCH       \nCross Streets : SCHOOL LANE * MIDDLESEX AVE \nCaller: CHESTERFIELDS HEALTH CAR\nWater\Info: Hydrant: Main St, west of School La\nHydrant: Main St, in front of Chesterfield's\nHydrant: Main St/Mx Av\n\nDisp Time: 07/13/12 18:53:31
+(CAD Page for CFS 071312-69) \nhttp://maps.google.com/maps?q=+41.39629%20-72.45059\nGENERAL SICKNESS\n69 MAPLE ST\nApt: \nCH\nCross Streets : PROSPECT ST * STRAITS RD \nCaller: CROMARTY,JOHN & ANN\nDisp Time: 07/13/12 20:31:33
+(CAD Page for CFS 071412-43) \nhttp://maps.google.com/maps?q=+41.40640%20-72.47694\nChest Pain ALS\n56 WIG HILL RD\nApt: \nCH       \nCross Streets : N67 * S76 \nCaller: SPRINTPCS\nWater\Info: Standpipe: Wig Hill/South Wig\n\nWater\Info: Hydrant: Deep Hollow/Liberty St\nStandpipe: Wig Hill/South Wig\n\nDisp Time: 07/14/12 14:46:18
+(CAD Page for CFS 071412-80) \nhttp://maps.google.com/maps?q=+41.40202%20-72.44430\nALTERED MENTAL STATUS\n132 MAIN ST\nApt: \nCH       \nCross Streets : SCHOOL LANE * MIDDLESEX AVE \nCaller: SLEEPER,E\nWater\Info: Hydrant: Main St, west of School La\nHydrant: Main St, in front of Chesterfield's\nHydrant: Main St/Mx Av\n\nDisp Time: 07/14/12 21:04:41
+(CAD Page for CFS 071412-82) \nhttp://maps.google.com/maps?q=+41.40732%20-72.46606\nElectrical Fire Pole/Wire\n15 WIG HILL RD\nApt: \nCH       \nCross Streets : PLEASANT ST * N67 \nCaller: VERIZON WIRELESS\nWater\Info: Hydrant: Deep Hollow/Liberty St\nStandpipe: Wig Hill/South Wig\n\nDisp Time: 07/14/12 21:39:44
+(CAD Page for CFS 071512-3) \nhttp://maps.google.com/maps?q=+41.40681%20-72.43185\nInjured Person  BLS\n72 RAILROAD AVE\nApt: \nCH       \nCross Streets : VALLEY RAILROAD \nCaller: \nWater\Info: Hydrant: 60 Railroad Ave (Ch. Auto/Marine)\nConnecticut River, end of Railroad Ave\n\nDisp Time: 07/15/12 00:19:03
+(CAD Page for CFS 071512-50) \nhttp://maps.google.com/maps?q=+41.41271%20-72.41878\nMarine Rescue\n54 SELDEN RD\nApt: \nLY\nCross Streets : JOSHUATOWN RD \nCaller: \nDisp Time: 07/15/12 17:34:41
+(CAD Page for CFS 071512-60) \nhttp://maps.google.com/maps?q=+41.38833%20-72.52768\nInjured Person  BLS\n317 W MAIN ST\nApt: 5101\nCH\nCross Streets : BUTTER JONES RD * ROUTE 148 \nCaller: CHESTER VILLAGE WEST\nDisp Time: 07/15/12 21:00:50
+(CAD Page for CFS 071612-7) \nhttp://maps.google.com/maps?q=+41.40586%20-72.50800\nElectrical Fire Pole/Wire\n75 CEDAR LAKE RD\nApt: \nCH       \nCross Streets : DAVID RD * JENNINGS POND RD \nCaller: HAMILTON,ROBERT\nWater\Info: Standpipe: Cedar Lake Rd/Lakeview Ave\nBoat launch, end of Bishop Road\n\nDisp Time: 07/16/12 06:24:20
+(CAD Page for CFS 071712-67) \nhttp://maps.google.com/maps?q=+41.40202%20-72.44430\nInjured Person  BLS\n132 MAIN ST\nApt: \nCH       \nCross Streets : SCHOOL LANE * MIDDLESEX AVE \nCaller: CHESTERFIELDS HEALTH CAR\nWater\Info: Hydrant: Main St, west of School La\nHydrant: Main St, in front of Chesterfield's\nHydrant: Main St/Mx Av\n\nDisp Time: 07/17/12 18:21:10
+(CAD Page for CFS 071812-28) \nhttp://maps.google.com/maps?q=+41.39415%20-72.51026\nMinor MVA -No Medic\n250 W MAIN ST\nApt: \nCH       \nCross Streets : WINTHROP RD * SYPHER RD \nCaller: ATTMO\nWater\Info: Draft from Cedar Lake\n\nDisp Time: 07/18/12 13:43:58
+(CAD Page for CFS 071812-36) \nhttp://maps.google.com/maps?q=+41.42893%20-72.45178\nPsychiatric BLS\n268 MIDDLESEX AVE\nApt: \nCH       \nCross Streets : GOOSE HILL RD * SAYBROOK RD \nCaller: EAGLE LANDING\nWater\Info: Boat launch, end of Parkers Point La\n\nDisp Time: 07/18/12 14:56:46
+(CAD Page for CFS 071812-60) \nhttp://maps.google.com/maps?q=+41.40202%20-72.44430\nLOW BLOOD PRESSURE\n132 MAIN ST\nApt: 2\nCH       \nCross Streets : SCHOOL LANE * MIDDLESEX AVE \nCaller: CHESTERFIELDS HEALTH CAR\nWater\Info: Hydrant: Main St, west of School La\nHydrant: Main St, in front of Chesterfield's\nHydrant: Main St/Mx Av\n\nDisp Time: 07/18/12 20:33:15
+(CAD Page for CFS 071912-17) \nhttp://maps.google.com/maps?q=+41.38833%20-72.52768\nGENERAL SICKNESS\n317 W MAIN ST\nApt: 1007\nCH       \nCross Streets : BUTTER JONES RD * ROUTE 148 \nCaller: CHESTER VILLAGE WEST\nWater\Info: Draft from Cedar Lake\n\nDisp Time: 07/19/12 09:52:21
+(CAD Page for CFS 072012-50) \nhttp://maps.google.com/maps?q=+41.45723%20-72.52968\nMVA Medic ALS\n2 N89\nApt: \nHD       \nCross Streets : BEAVER MEADOW RD * ENTR 8 NB \nCaller: VERIZON WIRELESS\nDisp Time: 07/20/12 18:27:33
+(CAD Page for CFS 072112-10) \nhttp://maps.google.com/maps?q=+41.39529%20-72.47178\nRespiratory Distress ALS\n23 HOOP POLE HILL RD\nApt: \nCH       \nCross Streets : W MAIN ST * PINNACLE LANE \nCaller: DEROO, ROBERT\nWater\Info: Waterhole: West Main/Hoophole Hill\nWaterhole: West Main/West Wig Hill\n\nDisp Time: 07/21/12 07:17:36
+(CAD Page for CFS 072112-39) \nhttp://maps.google.com/maps?q=+41.39946%20-72.47517\nAdvanced Life Support\n3 S WIG HILL RD\nApt: \nCH       \nCross Streets : W MAIN ST * TURKEY HILL RD \nCaller: HEALTH MGMT,RYDERS\nWater\Info: Standpipe: West Main St/Hoopole Hill\nPond: South Wig/Wig Hill Rd\n\nDisp Time: 07/21/12 14:31:19
+(CAD Page for CFS 072212-28) \nhttp://maps.google.com/maps?q=+41.40202%20-72.44430\nInjured Person  BLS\n132 MAIN ST\nApt: \nCH       \nCross Streets : SCHOOL LANE * MIDDLESEX AVE \nCaller: CHESTERFIELDS HEALTH CAR\nWater\Info: Hydrant: Main St, west of School La\nHydrant: Main St, in front of Chesterfield's\nHydrant: Main St/Mx Av\n\nDisp Time: 07/22/12 10:53:45
+(CAD Page for CFS 072212-28) \nhttp://maps.google.com/maps?q=+41.40202%20-72.44430\nALTERED MENTAL STATUS\n132 MAIN ST\nApt: \nCH       \nCross Streets : SCHOOL LANE * MIDDLESEX AVE \nCaller: CHESTERFIELDS HEALTH CAR\nWater\Info: Hydrant: Main St, west of School La\nHydrant: Main St, in front of Chesterfield's\nHydrant: Main St/Mx Av\n\nDisp Time: 07/22/12 10:53:45
+(CAD Page for CFS 072212-51) \nhttp://maps.google.com/maps?q=+41.40673%20-72.43442\nBasic Life Support \nRAILROAD AVE and GROTE RD\nApt: \nCH       \nCross Streets : MARINA VIEW DR * GROTE RD \nCaller: \nDisp Time: 07/22/12 14:05:50
+(CAD Page for CFS 072312-13) \nhttp://maps.google.com/maps?q=+41.39405%20-72.46024\nChest Pain ALS\n41 BOKUM RD\nApt: \nCH       \nCross Streets : GORHAM RD * W BRIDGE ST \nCaller: MARVIN, SALLY\nWater\Info: Hydrant: Bokum Road/West Main\nHydrant: W Bridge St/W Bridge La, DR\n\nDisp Time: 07/23/12 08:06:52
+(CAD Page for CFS 072312-42) \nhttp://maps.google.com/maps?q=+41.40202%20-72.44430\nInjured Person  BLS\n132 MAIN ST\nApt: \nCH       \nCross Streets : SCHOOL LANE * MIDDLESEX AVE \nCaller: CHESTERFIELDS HEALTH CAR\nWater\Info: Hydrant: Main St, west of School La\nHydrant: Main St, in front of Chesterfield's\nHydrant: Main St/Mx Av\n\nDisp Time: 07/23/12 16:28:23
+(CAD Page for CFS 072312-67) \nhttp://maps.google.com/maps?q=+41.40302%20-72.45104\nInjured Person  BLS\n1 MAIN ST\nApt: \nCH       \nCross Streets : WATER ST * SPRING ST \nCaller: VERIZON WIRELESS\nWater\Info: Hydrant: Main/Water Streets\nHydrant: Main/Maple Streets\n\nDisp Time: 07/23/12 19:50:40
+(CAD Page for CFS 072412-36) \nhttp://maps.google.com/maps?q=+41.41880%20-72.44481\nUnconcious/Unresponsive ALS\n189 MIDDLESEX AVE\nApt: \nCH       \nCross Streets : KINGS HWY * CASTLE VIEW DR \nCaller: VERIZON WIRELESS\nWater\Info: Hydrant: Mx Ave/Kings Hwy\nHydrant: Mx Ave at shopping Center\n\nDisp Time: 07/24/12 12:50:07
+(CAD Page for CFS 072412-39) \nhttp://maps.google.com/maps?q=+41.40600%20-72.44194\nPsychiatric BLS\n86 MIDDLESEX AVE\nApt: \nCH\nCross Streets : OLD DEPOT RD * GROTE RD \nCaller: GATEWAY COMMUNITY TREATM\nDisp Time: 07/24/12 13:30:12
+(CAD Page for CFS 072412-41) \nhttp://maps.google.com/maps?q=+41.38834%20-72.50771\nHIGH BLOOD PRESSURE\n51 WINTHROP RD\nApt: \nCH       \nCross Streets : PINE KNOLL DR * AVIATION DR \nCaller: WHELEN ENGINEERING CO\nWater\Info: Standpipe: pond at Whelen\n\nWater\Info: Draft from Cedar Lake\nStandpipe: pond at Whelen\n\nDisp Time: 07/24/12 13:41:49
+
 */
 
 public class CTMiddlesexCountyParser extends FieldProgramParser {
@@ -97,7 +169,7 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
   
   public CTMiddlesexCountyParser() {
     super(CITY_CODES, "MIDDLESEX COUNTY", "CT",
-          "HTTP! CALL! ADDR! Apt:APT! CITY! Cross_Streets:X? Caller:NAME! Disp_Time:DATETIME!");
+          "GPS! CALL! ADDR! Apt:APT! CITY! Cross_Streets:X? Caller:NAME! Disp_Time:DATETIME!");
   }
 
   @Override
@@ -118,6 +190,18 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
     return "ID " + super.getProgram();
   }
   
+  private static final Pattern GPS_PATTERN = Pattern.compile("http://maps\\.google\\.com/maps\\?q=([-+]*\\d+\\.\\d+ +[-+]*\\d+\\.\\d+)");
+  private class MyGPSField extends GPSField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("%20", " ");
+      Matcher match = GPS_PATTERN.matcher(field);
+      if (!match.matches()) abort();
+      String gps =  match.group(1);
+      if (!gps.equals("+-1.00000 --1.00000")) super.parse(match.group(1), data);
+    }
+  }
+  
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -136,20 +220,27 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("HTTP")) return new SkipField("http://maps.google.com.*", true);
+    if (name.equals("GPS")) return new MyGPSField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CH", "CHESTER",
+      "ch", "CHESTER",
       "DH", "DURHAM",
       "dh", "DURHAM",
+      "DR", "DEEP RIVER",
+      "dr", "DEEP RIVER",
+      "HD", "HADDAM",
+      "hd", "HADDAM",
+      "LY", "LYME",
+      "ly", "LYME",
       "KW", "KILLINGWORTH",
       "kw", "KILLINGWORTH",
       "MD", "MIDDLETOWN",
       "md", "MIDDLETOWN",
-      
       "OL", "OLD LYME",
       "ol", "OLD LYME",
       "OS", "OLD SAYBROOK",
