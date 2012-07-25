@@ -28,6 +28,9 @@ CodeMessaging client 446
 (29CAD) [!] Box:29-6 Loc:201 MARKET ST HFX DAUP XSts:S SECOND ST ,S THIRD ST Event Type:CHEST PAIN Class: Disp: M/PC81,13-1,20-2
 (29CAD) [!] Box:29-2 Loc:676 DUNKEL SCHOOL RD HFT DAUP XSts:CATERPILLAR LN ,KEIFFER RD Event Type:BREATHING PROBLEMS Class: 1 Disp: 13-2,6-5
 (21CAD) [!] Box:21-4 Loc:179 WOLFE RD WST DAUP XSts:RAKERS MILL RD ,HENNINGER RD Event Type:BREATHING PROBLEMS Class: 1 Disp: P21
+[!] Box:54-9 Loc:SUSQUEHANNA RIVER LDT DAUP XSts:DEAD END ,UPASS Event Type:WATER RESCUE (SWIFT, STILL, ICE) HUMAN(S) Class: 1 Disp: W54,W88,E54
+[!] Box:54-2 Loc:1674 ROUNDTOP RD LDT DAUP XSts:SCHOOLHOUSE RD ,WALTONVILLE RD Event Type:TRAFFIC / TRANSPORTATION ACCIDENT ENTRAPMENT / CONFINEMENT Class: Disp: E54,R88
+[!] Box:88-3 Loc:107 MILL ST MDT DAUP: APT 7 I @INTERFAITH APTS XSts:POPLAR ST ,GRUBB ST Event Type:HEART PROBLEMS / A.I.C.D. Class: 1 Disp: R88
 
  */
 
@@ -45,8 +48,7 @@ public class PADauphinCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.endsWith("CAD|!")) return false;
-    data.strSource = subject.substring(0,subject.length()-2);
+
     if (!super.parseMsg(body, data)) return false;
     if (data.strAddress.length() == 0) {
       data.strAddress = data.strCross.replace('/', '&');
