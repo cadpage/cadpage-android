@@ -110,6 +110,13 @@ public class VAPrinceGeorgeCountyParserTest extends BaseParserTest {
         "MADDR:43 I 95 N",
         "CITY:PETERSBURG");
 
+    doTest("T13",
+        "1199:CAD:FIRE STRUCTURE;13586 PUMPHOUSE RD;GOLF COURSE DR;THWEATT DR;DISP",
+        "ID:1199",
+        "CALL:FIRE STRUCTURE",
+        "ADDR:13586 PUMPHOUSE RD",
+        "X:GOLF COURSE DR & THWEATT DR & DISP");
+
   }
   
   public static void main(String[] args) {
