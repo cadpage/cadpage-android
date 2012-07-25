@@ -26,6 +26,10 @@ Contact: "joeclary@yahoo.com" <joeclary@yahoo.com>
 Sender: CAD@messages.princegeorgeva.org
 1108:CAD:ACCIDENT UNKNOWN INJURY;43 I95 N;PETE
 
+Contact: Patrick Hart <joeclary27@gmail.com>
+Sender: cad@princegeorgeva.org
+1199:CAD:FIRE STRUCTURE;13586 PUMPHOUSE RD;GOLF COURSE DR;THWEATT DR;DISP
+
 ***/
 
 public class VAPrinceGeorgeCountyParser extends DispatchOSSIParser {
@@ -37,7 +41,7 @@ public class VAPrinceGeorgeCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "cad@messages.princegeorgeva.org";
+    return "cad@messages.princegeorgeva.org,cad@princegeorgeva.org";
   }
 
   private static final String AUTO_AID_PFX = "FIRE AUTOMATIC AID - ";
