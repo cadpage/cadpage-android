@@ -512,7 +512,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // in this address.  If we do find them, pack them so they will parse
     // into a single token
     String gpsCoords = null;
-    Matcher match = MsgInfo.GPSPattern.matcher(address);
+    Matcher match = MsgInfo.GPS_PATTERN.matcher(address);
     if (match.find()) {
       gpsCoords = match.group(1) + ',' + match.group(2); 
       address = address.substring(0, match.start()) + gpsCoords 

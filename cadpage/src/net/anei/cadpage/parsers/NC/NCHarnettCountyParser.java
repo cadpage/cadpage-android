@@ -1,81 +1,19 @@
 package net.anei.cadpage.parsers.NC;
 
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.GroupBestParser;
 
 /* 
 Harnett County, NC
-Contact: Beverly Williams <bwilliams.co9@gmail.com>
-Contact: Keith combs <keithcombs2007@gmail.com>
-Contact: Michael Moston <mikemoston@gmail.com>
-Contact: edward woodall <ewoodall1971@gmail.com>
-Sender: cadpage@harnett.org
-
-1102-012074*8326 NC 27 W***LILLINGTON***RESIDENTIAL STRUCTURE FIRE****1175****
-S: M:1107-061052*3058 CRAWFORD RD***ERWIN***MOTOR VEHICLE ACCIDENT****1186****\n
-FRM:cadpage@harnett.org\nMSG:1108-070330*1995 BETHEL BAPTIST RD***SPRING LAKE***ELECTRICAL HAZARD****1120****
-1109-079514*117 SCRANTON CT***CAMERON***EMS DEAD ON ARRIVAL CODE 3****1109****
-
-Contact: Chris McCormick <mac3295@gmail.com>
-FRM:cadpage@harnett.org\nMSG:1111-092766*1 CLARK RD***LILLINGTON***MISC. FIRE****1175****
-FRM:cadpage@harnett.org\nMSG:1111-093153*8030 RAY MEDE***SPRING LAKE***MUTUAL AID WITH OTHER COUNTY********
-FRM:cadpage@harnett.org\nMSG:1201-003613*2728 DARROCH RD*****FIRE OTHER*********
-FRM:cadpage@harnett.org\nMSG:1201-002111*11860 NC 210 S*****FIRE RES STR*********
-
-Contact: Roy Gibbs <boham29@gmail.com>
-B1201-004551*11 BROOK LN*****EMS ABD PAIN*********
-1201-009149*1 YOUNG RD***ANGIER**FIRE ILLEGAL*********
-1202-010125*1101 SILAS MOORE RD***BENSON**EMS SICK*********
-1202-010135*51 ELLIE CT***FUQUAY VARINA**FIRE RES STR*********
-
-Contact: Chris McCormick <mac3295@gmail.com>
-FRM:cadpage@harnett.org\nMSG:1201-006955*2802 WALKER RD***LINDEN**FIRE RES STR*********
-
-Contact: Roy Gibbs <boham29@gmail.com>
-1202-017757*137 MERCHANT DR***ANGIER**EMS BACK PN*******Hazards: No**
-
-Contact: Ryan Davis <hemifreak16@gmail.com>
-1203-021836*DARK WOOD DR***SPRING LAKE**FIRE SMO INV*******Hazards: No**
-
-Contact: Jeff Johnson <rfdjjohnson@gmail.com>
-1112-103007*2915 MATTHEWS MILL POND RD***ANGIER***MOTOR VEHICLE ACCIDENT****1143****
 
 */
 
-public class NCHarnettCountyParser extends FieldProgramParser {
+public class NCHarnettCountyParser extends GroupBestParser {
   
   public NCHarnettCountyParser() {
-    super(CITY_LIST, "HARNETT COUNTY", "NC",
-           "ID ADDR CITY? CALL!");
+    super(new NCHarnettCountyAParser(), new NCHarnettCountyBParser());
   }
   
-  @Override
-  public String getFilter() {
-    return "cadpage@harnett.org";
-  }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    String flds[] = body.split("\\*+");
-    if (flds.length < 3) return false;
-    return parseFields(flds, data);
-  }
-  
-  private class MyIdField extends IdField {
-    public MyIdField() {
-      setPattern(Pattern.compile("\\d{4}-\\d{6}"), true);
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ID")) return new MyIdField();
-    return super.getField(name);
-  }
-  
-  private static final String[] CITY_LIST = new String[]{
+  static final String[] CITY_LIST = new String[]{
     
     // Townships
     "ANDERSON CREEK",
@@ -129,6 +67,10 @@ public class NCHarnettCountyParser extends FieldProgramParser {
     "ANGIER",
     "BENSON",
     "FUQUAY VARINA",
-    "FUQUAY-VARINA"
+    "FUQUAY-VARINA",
+    
+    // Moore County
+    "ABERDEEN",
+    "SOUTHERN PINES"
   };
 }

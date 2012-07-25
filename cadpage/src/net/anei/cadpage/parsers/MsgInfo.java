@@ -353,7 +353,7 @@ public class MsgInfo {
    * set of coordinates that Google Maps will recognize
    */
   private static String parseGPSCoords(String address) {
-    Matcher match = GPSPattern.matcher(address);
+    Matcher match = GPS_PATTERN.matcher(address);
     if (!match.find()) return null;
 
     double c1 = cvtGpsCoord(match.group(1));
@@ -378,7 +378,7 @@ public class MsgInfo {
     return "" + latitude + "," + longitude;
   }
   
-  public static final Pattern GPSPattern = 
+  public static final Pattern GPS_PATTERN = 
     Pattern.compile("\\b([+-]?[0-9]+\\.[0-9]{4,}|[+-]?[0-9]+:[0-9]+:[0-9]+\\.[0-9]{4,})[,\\W]\\W*([+-]?[0-9]+\\.[0-9]{4,}|[+-]?[0-9]+:[0-9]+:[0-9]+\\.[0-9]{4,})\\b");
 
   /**
@@ -413,7 +413,7 @@ public class MsgInfo {
     
     if (strBaseMapAddress != null) return strBaseMapAddress;
     
-    if (GPSPattern.matcher(strAddress).find()) {
+    if (GPS_PATTERN.matcher(strAddress).find()) {
       strBaseMapAddress = strAddress;
       return strBaseMapAddress;
     }
