@@ -31,16 +31,13 @@ Sender: 777166991580
 .... (31 Carmel VAC) TRANSFER/INTERFACILITY|PHC| 670 STONELEIGH AV,CARMEL |STA 12 XS VISTA ON THE LAKE /ALEXANDRA CT
 
 Contact: mahopacfire2003 <mahopacfire2003@gmail.com>
-Sender: messaging@iamresponding.com
-(11 Brewster) PSYCHIATRIC/ABNORMAL BEHAVIOR|PUTNAM AVENUE APARTMENTS| 34 PUTNAM AV,BREWSTER |APT C2 |STA 11 XS EAGLES RIDGE  RD/PUTNAM TERR|NARR WPH1-NE
-
+Contact: "Wm. Walters" <lcff791@gmail.com>
 Contact: James Gagliardo <ffgagsemt@gmail.com>
 Sender: messaging@iamresponding.com
+(11 Brewster) PSYCHIATRIC/ABNORMAL BEHAVIOR|PUTNAM AVENUE APARTMENTS| 34 PUTNAM AV,BREWSTER |APT C2 |STA 11 XS EAGLES RIDGE  RD/PUTNAM TERR|NARR WPH1-NE
  1 of 2\nFRM:messaging@iamresponding.com\nSUBJ:23 Putnam Lake\nMSG:DRILL|| 112 OLD ROUTE 6,CARMEL |STA 12 XS ROUTE 6 /HUGHSON RD|NARR CHILD SAFEYT\n(Con' 2 of 2\nEXPO PERSON: (COMPLAINANT) (FMLS)   BUREAU OF EMERGENCY SERVICES\r\n(End)
- 
-Contact: "Wm. Walters" <lcff791@gmail.com>
-Sender: messaging@iamresponding.com
 Subject:17 Lake Carmel\nSMOKE INVESTIGATION|| 17 EMERSON RD,KENT |STA 17 XS TICONDEROGA  RD/BALDWIN RD|NARR SMOKE INVESTIGATION/CALL\r
+FRM:messaging@iamresponding.com\nSUBJ:23 Putnam Lake\nMSG:TRAFFIC/TRANSPORTATION ACCIDEN||  |STA 23 XS FAIRFIELD  DR/S LAKEDR|NARR WPH1-E 2 CAR PIAA\r\n
 
 Station numbers FYI
 11 Brewster
@@ -93,16 +90,22 @@ public class NYPutnamCountyParser extends MsgParser {
     data.strPlace = p.get('|');
     String sAddr = p.get(',');
     sAddr = TSP_PATTERN.matcher(sAddr).replaceAll("TACONIC STATE PKWY");
-    parseAddress(sAddr, data);
     data.strCity = p.get("|APT");
     data.strApt = p.get();
     p = new Parser(sPart2);
     data.strSource = p.get(' ');
-    data.strCross = p.get('|');
-    if (data.strCross.equals("XS")) data.strCross = "";
-    if (data.strCross.startsWith("XS ")) data.strCross = data.strCross.substring(3).trim();
+    String sCross = p.get('|');
+    if (sCross.equals("XS")) sCross = "";
+    if (sCross.startsWith("XS ")) sCross = sCross.substring(3).trim();
     data.strSupp = p.get();
     if (data.strSupp.startsWith("NARR ")) data.strSupp = data.strSupp.substring(5).trim();
+    
+    if (sAddr.length() == 0) {
+      sAddr = sCross;
+      sCross = "";
+    }
+    parseAddress(sAddr, data);
+    data.strCross = sCross;
     return true;
   }
   
