@@ -100,6 +100,8 @@ FRM:3-13-0@rednmx.com\nMSG:Ambulance Call: A/M RESP at 2100 SMITHTOWN AVENUE, RO
 Contact: Ralph Oswald <medic154@gmail.com>
 Sender: hamptonbays@rednmxcad.com
 Ambulance Call, Chest Pains: A/F at 10 Holzman Drive, Hampton Bays  c/s: Newtown Road . . 12:33:48
+Ambulance Call, Victim of a Fall: E/M at 6 Rowland Court, Hampton Bays  c/s: Lynn Avenue . . 13:32:36
+Ambulance Call, Siezures: *** 2nd alarm\r\na/m siezures @ RUMBA at 43 Canoe Place Road South, Hampton Bays  c/s: Carter Avenue . . 19:57:19
 
 */
 
@@ -109,11 +111,6 @@ public class NYSuffolkCountyCParser extends DispatchRedAlertParser {
   
   public NYSuffolkCountyCParser() {
     super("SUFFOLK COUNTY","NY");
-  }
-
-  @Override
-  public String getFilter() {
-    return "paging@alpinesoftware.com,@rednmxcad.com,@rednmx.com";
   }
   
   @Override

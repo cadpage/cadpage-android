@@ -23,6 +23,7 @@ sender: paging@dixhillsfd.xohost.com
 Contact: Ralph Oswald <medic154@gmail.com>
 Sender: paging1@firerescuesystems.xohost.com
 SIG 3 DRV/EMT 2012-001184 08:53 *** 16- Rescue *** 99 DIX HWY KWON, HEE SOO Dix Hills HQ 28-C-5C STROKE (CVA) HWY DIXHIL TYPE: STROKE (CVA) LOC
+2012-001402 15:28 *** 23- Misc Fire *** DEER PARK AV DEER PARK AV & S SERVICE RD Dix Hills HQ
 
 *** Google doesn't understand PA, translate to CARLS STRAIGHT PATH & S SERVICE RD
 */

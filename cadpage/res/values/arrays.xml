@@ -252,6 +252,7 @@
     <item>WA Washington</item>
     <item>WV West Virginia</item>
     <item>WI Wisconsin</item>
+    <item>WY Wyoming</item>
     <item>ZCAAB Alberta, CA</item>
     <item>ZAU Australia</item>
     <item>ZUK United Kingdom</item>
@@ -713,6 +714,7 @@
     <item>WIKenoshaCounty</item>
     <item>WIOutagamieCounty</item>
     <item>WIWinnebagoCounty</item>
+    <item>WYNatronaCounty</item>
     <item>ZCAABLacombeCounty</item>
     <item>ZAUNewSouthWales</item>
     <item>ZAUGeneral</item>
@@ -1179,6 +1181,7 @@
     <item>Kenosha County, WI</item>
     <item>Outagamie County, WI</item>
     <item>Winnebago County, WI</item>
+    <item>Natrona County, WY</item>
     <item>Lacombe County, AB</item>
     <item>New South Wales, AU</item>
     <item>Generic Location</item>
