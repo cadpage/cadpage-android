@@ -87,12 +87,15 @@ public class OHClermontCountyParser extends DispatchBParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    body = body.replace("CAD#","Cad:");
+  
     if (body.startsWith("/ ")) body = body.substring(2).trim();
     return super.parseMsg(body, data);
   }
 
   @Override
   protected boolean isPageMsg(String body) {
-    return body.contains(" Cad:") && !body.startsWith("EVENT: ");
-  }
+    return body.contains(" Cad:") | body.contains("CAD#") && !body.startsWith("EVENT: ");
+    
+}
 }
