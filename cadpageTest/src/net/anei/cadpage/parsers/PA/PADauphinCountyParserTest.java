@@ -194,6 +194,35 @@ public class PADauphinCountyParserTest extends BaseParserTest {
         "CALL:BREATHING PROBLEMS",
         "PRI:1",
         "UNIT:P21");
+    doTest("T18",
+        "[!] Box:54-9 Loc:SUSQUEHANNA RIVER LDT DAUP XSts:DEAD END ,UPASS Event Type:WATER RESCUE (SWIFT, STILL, ICE) HUMAN(S) Class: 1 Disp: W54,W88,E54",
+        "BOX:54-9",
+        "ADDR:SUSQUEHANNA RIVER",
+        "MADDR:SUSQUEHANNA RIVER & DEAD END",
+        "CITY:LONDONDERRY TWP",
+        "X:DEAD END / UPASS",
+        "CALL:WATER RESCUE (SWIFT, STILL, ICE) HUMAN(S)",
+        "PRI:1",
+        "UNIT:W54,W88,E54");
+
+    doTest("T19",
+        "[!] Box:54-2 Loc:1674 ROUNDTOP RD LDT DAUP XSts:SCHOOLHOUSE RD ,WALTONVILLE RD Event Type:TRAFFIC / TRANSPORTATION ACCIDENT ENTRAPMENT / CONFINEMENT Class: Disp: E54,R88",
+        "BOX:54-2",
+        "ADDR:1674 ROUNDTOP RD",
+        "CITY:LONDONDERRY TWP",
+        "X:SCHOOLHOUSE RD / WALTONVILLE RD",
+        "CALL:TRAFFIC / TRANSPORTATION ACCIDENT ENTRAPMENT / CONFINEMENT",
+        "UNIT:E54,R88");
+
+    doTest("T20",
+        "[!] Box:88-3 Loc:107 MILL ST MDT DAUP: APT 7 I @INTERFAITH APTS XSts:POPLAR ST ,GRUBB ST Event Type:HEART PROBLEMS / A.I.C.D. Class: 1 Disp: R88",
+        "BOX:88-3",
+        "ADDR:107 MILL ST MDT DAUP:",
+        "APT:7 I @INTERFAITH APTS",
+        "X:POPLAR ST / GRUBB ST",
+        "CALL:HEART PROBLEMS / A.I.C.D.",
+        "PRI:1",
+        "UNIT:R88");
  }
   
   public static void main(String[] args) {
