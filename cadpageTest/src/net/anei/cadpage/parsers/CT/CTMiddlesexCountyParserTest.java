@@ -26,6 +26,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/13/12 11:36:52",
 
         "ID:061312-31",
+        "GPS:+41.48618 -72.65719",
         "CALL:Fire Alarm",
         "ADDR:18 WEATHERVANE HILL",
         "CITY:DURHAM",
@@ -46,6 +47,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/13/12 18:03:43",
 
         "ID:061312-47",
+        "GPS:+41.44852 -72.70119",
         "CALL:Fire Alarm",
         "ADDR:471 NEW HAVEN RD",
         "CITY:DURHAM",
@@ -65,6 +67,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/14/12 04:22:21",
 
         "ID:061412-5",
+        "GPS:+41.48025 -72.66325",
         "CALL:Unconcious/Unresponsive ALS",
         "ADDR:MAIDEN LANE and BEAR ROCK RD",
         "MADDR:MAIDEN LANE & BEAR ROCK RD",
@@ -87,6 +90,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/15/12 15:35:55",
 
         "ID:061512-51",
+        "GPS:+41.43734 -72.71928",
         "CALL:Fire Alarm",
         "ADDR:809 NEW HAVEN RD",
         "APT:-R",
@@ -107,6 +111,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/20/12 12:24:24",
 
         "ID:062012-32",
+        "GPS:+41.48282 -72.68172",
         "CALL:Minor MVA -No Medic",
         "ADDR:310 MAIN ST",
         "CITY:DURHAM",
@@ -127,6 +132,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/21/12 17:22:22",
 
         "ID:062112-63",
+        "GPS:+41.47446 -72.68228",
         "CALL:MVA Medic ALS",
         "ADDR:68 MAPLE AVE",
         "CITY:DURHAM",
@@ -147,6 +153,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/22/12 15:48:27",
 
         "ID:062212-43",
+        "GPS:+41.47400 -72.68024",
         "CALL:Minor MVA -No Medic",
         "ADDR:154 MAIN ST",
         "CITY:DURHAM",
@@ -166,6 +173,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/23/12 07:42:19",
 
         "ID:062312-10",
+        "GPS:+41.47818 -72.68108",
         "CALL:Minor MVA -No Medic",
         "ADDR:MAIN ST and WALLINGFORD RD",
         "MADDR:MAIN ST & WALLINGFORD RD",
@@ -186,6 +194,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/23/12 21:06:27",
 
         "ID:062312-66",
+        "GPS:+41.47828 -72.67083",
         "CALL:Wires Down -Call NU",
         "ADDR:135 PICKETT LANE",
         "CITY:DURHAM",
@@ -206,6 +215,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/24/12 14:21:09",
 
         "ID:062412-49",
+        "GPS:+41.47896 -72.68120",
         "CALL:Minor MVA -No Medic",
         "ADDR:238 MAIN ST",
         "CITY:DURHAM",
@@ -226,6 +236,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/25/12 08:30:13",
 
         "ID:062512-13",
+        "GPS:+41.33698 -72.58493",
         "CALL:Structure Fire",
         "ADDR:24 COW PEN HILL RD",
         "CITY:KILLINGWORTH",
@@ -246,6 +257,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/25/12 16:21:16",
 
         "ID:062512-65",
+        "GPS:+41.48772 -72.64230",
         "CALL:Fire Alarm",
         "ADDR:255 JOHNSON LANE",
         "CITY:DURHAM",
@@ -266,6 +278,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/25/12 20:31:21",
 
         "ID:062512-87",
+        "GPS:+41.49094 -72.65092",
         "CALL:Electrical Fire Pole/Wire",
         "ADDR:HADDAM QUARTER RD and ARBUTUS ST",
         "MADDR:HADDAM QUARTER RD & ARBUTUS ST",
@@ -287,6 +300,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/26/12 00:16:19",
 
         "ID:062612-1",
+        "GPS:+41.46590 -72.67495",
         "CALL:Brush Fire",
         "ADDR:HIGGANUM RD and CHERRY LANE",
         "MADDR:HIGGANUM RD & CHERRY LANE",
@@ -307,6 +321,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/30/12 11:30:15",
 
         "ID:063012-41",
+        "GPS:+41.46674 -72.65959",
         "CALL:Electrical Fire Pole/Wire",
         "ADDR:291 HIGGANUM RD",
         "CITY:DURHAM",
@@ -327,8 +342,9 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/05/12 07:03:07",
 
         "ID:070512-9",
+        "GPS:+41.49594 -72.64658",
         "CALL:Fire Alarm",
-        "ADDR:23 CHEYENNE TR",  // Not mapping
+        "ADDR:23 CHEYENNE TR", // Not Mapping
         "CITY:DURHAM",
         "X:ARBUTUS ST",
         "NAME:early detection",
@@ -367,7 +383,6 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "ADDR:ROUTE 149 AND ROUTE 16",
         "DATE:07/08/12",
         "TIME:01:23:01");
-
   }
   
   @Test
@@ -386,6 +401,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/22/12 23:37:06",
 
         "ID:062212-75",
+        "GPS:+41.28611 -72.27805",
         "CALL:Psychiatric BLS",
         "ADDR:63 HARTFORD AVE",
         "CITY:OLD LYME",
@@ -406,6 +422,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/26/12 12:58:25",
 
         "ID:062612-31",
+        "GPS:+41.28835 -72.27751",
         "CALL:Basic Life Support",
         "ADDR:25 SWAN AVE",
         "CITY:OLD LYME",
@@ -426,6 +443,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/26/12 14:38:18",
 
         "ID:062612-38",
+        "GPS:+41.30446 -72.25576",
         "CALL:BEE STING REACTION",
         "ADDR:3 FOX CHASE LANE",
         "CITY:OLD LYME",
@@ -445,6 +463,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/27/12 08:14:33",
 
         "ID:062712-10",
+        "GPS:+41.34336 -72.30941",
         "CALL:GENERAL WEAKNESS",
         "ADDR:115 SILL LANE",
         "CITY:OLD LYME",
@@ -466,6 +485,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/28/12 18:01:46",
 
         "ID:062812-39",
+        "GPS:+41.35931 -72.29515",
         "CALL:Seizures ALS",
         "ADDR:76 GRASSY HILL RD",
         "CITY:OLD LYME",
@@ -487,6 +507,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/29/12 10:33:12",
 
         "ID:062912-14",
+        "GPS:+41.30351 -72.27782",
         "CALL:Basic Life Support",
         "ADDR:30 WYCHWOOD RD",
         "CITY:OLD LYME",
@@ -509,6 +530,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/29/12 12:57:32",
 
         "ID:062912-30",
+        "GPS:+41.30316 -72.26485",
         "CALL:ALTERED MENTAL STATUS",
         "ADDR:285 MILE CREEK RD",
         "CITY:OLD LYME",
@@ -529,6 +551,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/30/12 12:49:28",
 
         "ID:063012-53",
+        "GPS:+41.28296 -72.28382",
         "CALL:SYNCOPE",
         "ADDR:5 WEST END DR",
         "CITY:OLD LYME",
@@ -550,6 +573,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/30/12 14:33:23",
 
         "ID:063012-65",
+        "GPS:+41.31915 -72.34690",
         "CALL:MVA Medic ALS",
         "ADDR:2 N6970",
         "CITY:OLD LYME",
@@ -572,6 +596,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/30/12 17:36:37",
 
         "ID:063012-90",
+        "GPS:+41.35479 -72.30378",
         "CALL:Basic Life Support",
         "ADDR:54 ROGERS LAKE TR",
         "CITY:OLD LYME",
@@ -592,6 +617,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 06/30/12 21:09:24",
 
         "ID:063012-103",
+        "GPS:+41.36244 -72.29684",
         "CALL:GENERAL WEAKNESS",
         "ADDR:55 HICKORY ST",
         "CITY:OLD LYME",
@@ -612,6 +638,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/01/12 15:55:41",
 
         "ID:070112-44",
+        "GPS:+41.30718 -72.29227",
         "CALL:Seizures ALS",
         "ADDR:5 FLAT ROCK HILL RD",
         "CITY:OLD LYME",
@@ -633,6 +660,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/01/12 17:44:58",
 
         "ID:070112-75",
+        "GPS:+41.28461 -72.27786",
         "CALL:Unconcious/Unresponsive ALS",
         "ADDR:88 HARTFORD AVE",
         "CITY:OLD LYME",
@@ -655,6 +683,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/02/12 11:33:49",
 
         "ID:070212-31",
+        "GPS:+41.30627 -72.25845",
         "CALL:Injured Person  BLS",
         "ADDR:436 SHORE RD",
         "APT:108",
@@ -676,6 +705,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/02/12 12:16:00",
 
         "ID:070212-32",
+        "GPS:+41.30123 -72.27529",
         "CALL:Injured Person  BLS",
         "ADDR:3 CHANTICLEER LANE",
         "CITY:OLD LYME",
@@ -697,6 +727,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/02/12 13:25:45",
 
         "ID:070212-37",
+        "GPS:+41.33535 -72.31360",
         "CALL:Respiratory Distress ALS",
         "ADDR:48 BOSTON POST RD",
         "CITY:OLD LYME",
@@ -736,6 +767,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/04/12 18:20:14",
 
         "ID:070412-57",
+        "GPS:+41.28034 -72.28979",
         "CALL:Injured Person  BLS",
         "ADDR:100 WEST END DR",
         "CITY:OLD LYME",
@@ -775,6 +807,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/05/12 15:58:07",
 
         "ID:070512-54",
+        "GPS:+41.30798 -72.30020",
         "CALL:Psychiatric BLS",
         "ADDR:25 ROWLAND RD",
         "APT:-1",
@@ -798,6 +831,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/05/12 20:10:31",
 
         "ID:070512-66",
+        "GPS:+41.34836 -72.29934",
         "CALL:Injured Person  BLS",
         "ADDR:166 BOSTON POST RD",
         "CITY:OLD LYME",
@@ -818,7 +852,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
 
         "ID:070512-68",
         "CALL:Respiratory Distress ALS",
-        "ADDR:HAWKS nest beach rd", // Not mapping
+        "ADDR:HAWKS nest beach rd",   // Not mapping
         "APT:e5",
         "CITY:OLD LYME",
         "DATE:07/05/12",
@@ -837,6 +871,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/05/12 23:32:28",
 
         "ID:070512-75",
+        "GPS:+41.28771 -72.27810",
         "CALL:Chest Pain ALS",
         "ADDR:36 HARTFORD AVE",
         "CITY:OLD LYME",
@@ -858,6 +893,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/06/12 08:12:48",
 
         "ID:070612-8",
+        "GPS:+41.32356 -72.32825",
         "CALL:MVA Medic ALS",
         "ADDR:1 S7070",
         "CITY:OLD LYME",
@@ -879,6 +915,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/06/12 08:34:11",
 
         "ID:070612-12",
+        "GPS:+41.28749 -72.27522",
         "CALL:Injured Person  BLS",
         "ADDR:33 GORTON AVE",
         "CITY:OLD LYME",
@@ -900,6 +937,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/06/12 10:20:39",
 
         "ID:070612-22",
+        "GPS:+41.34414 -72.30615",
         "CALL:Respiratory Distress ALS",
         "ADDR:124 BOSTON POST RD",
         "CITY:OLD LYME",
@@ -921,6 +959,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/06/12 13:43:39",
 
         "ID:070612-32",
+        "GPS:+41.28270 -72.30608",
         "CALL:Traumatic Injury ALS",
         "ADDR:9 SPRINGFIELD RD",
         "CITY:OLD LYME",
@@ -941,6 +980,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/06/12 15:06:14",
 
         "ID:070612-44",
+        "GPS:+41.30684 -72.26255",
         "CALL:Respiratory Distress ALS",
         "ADDR:2 ASCOT LANE",
         "CITY:OLD LYME",
@@ -962,6 +1002,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/06/12 23:13:15",
 
         "ID:070612-90",
+        "GPS:+41.28541 -72.28234",
         "CALL:Traumatic Injury ALS",
         "ADDR:54 COLUMBUS AVE",
         "CITY:OLD LYME",
@@ -983,6 +1024,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/07/12 13:38:33",
 
         "ID:070712-31",
+        "GPS:+41.28541 -72.28234",
         "CALL:ALTERED MENTAL STATUS",
         "ADDR:54 COLUMBUS AVE",
         "CITY:OLD LYME",
@@ -1004,6 +1046,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/07/12 15:53:40",
 
         "ID:070712-47",
+        "GPS:+41.32367 -72.32745",
         "CALL:Respiratory Distress ALS",
         "ADDR:85 LYME ST",
         "CITY:OLD LYME",
@@ -1024,6 +1067,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/09/12 13:53:24",
 
         "ID:070912-46",
+        "GPS:+41.30123 -72.27529",
         "CALL:Lift Assist BLS",
         "ADDR:3 CHANTICLEER LANE",
         "CITY:OLD LYME",
@@ -1045,6 +1089,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/10/12 13:51:15",
 
         "ID:071012-36",
+        "GPS:+41.32120 -72.33965",
         "CALL:Psychiatric BLS",
         "ADDR:21 NECK RD",
         "CITY:OLD LYME",
@@ -1066,6 +1111,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/10/12 22:53:16",
 
         "ID:071012-61",
+        "GPS:+41.28525 -72.28076",
         "CALL:Hazmat",
         "ADDR:60 CORSINO AVE",
         "CITY:OLD LYME",
@@ -1087,6 +1133,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/11/12 12:58:30",
 
         "ID:071112-37",
+        "GPS:+41.28551 -72.27319",
         "CALL:Injured Person  BLS",
         "ADDR:59 SALTAIRE DR",
         "CITY:OLD LYME",
@@ -1109,6 +1156,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/11/12 13:37:00",
 
         "ID:071112-39",
+        "GPS:+41.30741 -72.25650",
         "CALL:Advanced Life Support",
         "ADDR:445 SHORE RD",
         "CITY:OLD LYME",
@@ -1148,6 +1196,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/11/12 23:53:52",
 
         "ID:071112-66",
+        "GPS:+41.29445 -72.25405",
         "CALL:Advanced Life Support",
         "ADDR:53 HILLCREST RD",
         "CITY:OLD LYME",
@@ -1169,6 +1218,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/12/12 09:57:25",
 
         "ID:071212-17",
+        "GPS:+41.28875 -72.27919",
         "CALL:Fall 10  -ALS",
         "ADDR:18 PORTLAND AVE",
         "CITY:OLD LYME",
@@ -1189,6 +1239,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/12/12 13:22:33",
 
         "ID:071212-35",
+        "GPS:+41.33588 -72.31274",
         "CALL:Advanced Life Support",
         "ADDR:58 BOSTON POST RD",
         "CITY:OLD LYME",
@@ -1211,6 +1262,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/13/12 07:34:26",
 
         "ID:071312-12",
+        "GPS:+41.34942 -72.28587",
         "CALL:Advanced Life Support",
         "ADDR:249 BOSTON POST RD",
         "APT:1",
@@ -1232,6 +1284,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/13/12 11:53:06",
 
         "ID:071312-32",
+        "GPS:+41.31145 -72.40325",
         "CALL:Structure Fire",
         "ADDR:1 PHEASANT HILL LANE",
         "CITY:OLD SAYBROOK",
@@ -1253,6 +1306,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/13/12 13:02:27",
 
         "ID:071312-40",
+        "GPS:+41.34791 -72.34145",
         "CALL:Seizures ALS",
         "ADDR:17 COULT LANE",
         "CITY:OLD LYME",
@@ -1274,6 +1328,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/13/12 19:33:06",
 
         "ID:071312-65",
+        "GPS:+41.29526 -72.25557",
         "CALL:Seizures ALS",
         "ADDR:33 HILLCREST RD",
         "CITY:OLD LYME",
@@ -1294,6 +1349,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/13/12 20:18:46",
 
         "ID:071312-68",
+        "GPS:+41.28572 -72.28076",
         "CALL:Chest Pain ALS",
         "ADDR:54 CORSINO AVE",
         "CITY:OLD LYME",
@@ -1314,6 +1370,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/14/12 07:47:42",
 
         "ID:071412-5",
+        "GPS:+41.31332 -72.33125",
         "CALL:Respiratory Distress ALS",
         "ADDR:9 LYME ST",
         "APT:1A",
@@ -1336,6 +1393,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/14/12 09:37:42",
 
         "ID:071412-11",
+        "GPS:+41.28548 -72.29464",
         "CALL:Abdominal Pain BLS",
         "ADDR:9 HAYWAGON DR",
         "CITY:OLD LYME",
@@ -1357,6 +1415,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/14/12 20:56:51",
 
         "ID:071412-79",
+        "GPS:+41.28034 -72.28993",
         "CALL:Cardiac Arrest ALS",
         "ADDR:102 WEST END DR",
         "CITY:OLD LYME",
@@ -1378,6 +1437,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/15/12 03:57:55",
 
         "ID:071512-13",
+        "GPS:+41.36070 -72.29430",
         "CALL:Injured Person  BLS",
         "ADDR:5 COACH DR",
         "CITY:OLD LYME",
@@ -1399,6 +1459,7 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/15/12 08:10:45",
 
         "ID:071512-16",
+        "GPS:+41.30798 -72.33295",
         "CALL:MVA Medic ALS",
         "ADDR:22 SHORE RD",
         "CITY:OLD LYME",
@@ -1420,12 +1481,1553 @@ public class CTMiddlesexCountyParserTest extends BaseParserTest {
         "Disp Time: 07/15/12 09:46:44\n\n\n",
 
         "ID:071512-25",
+        "GPS:+41.28534 -72.27652",
         "CALL:Injured Person  BLS",
         "ADDR:69 OLD COLONY RD",
         "CITY:OLD LYME",
         "X:PURTILL AVE & HARTUNG PL",
         "DATE:07/15/12",
         "TIME:09:46:44");
+  }
+  
+  @Test
+  public void testActive911C() {
+
+    doTest("T1",
+        "(CAD Page for CFS 062612-35) \n" +
+        "http://maps.google.com/maps?q=+41.40815%20-72.44095\n" +
+        "Life Call -Medical Alarm\n" +
+        "101 MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : OLD DEPOT RD * GROTE RD \n" +
+        "Caller: MEDICAL ALARM\n" +
+        "Water\\Info: Hydrant: 103 Mx Ave\n" +
+        "Hydrant: 77 Mx Ave\n" +
+        "Hydrant: Mx Ave/Grote Rd\n\n" +
+        "Disp Time: 06/26/12 14:06:39",
+
+        "ID:062612-35",
+        "GPS:+41.40815 -72.44095",
+        "CALL:Life Call -Medical Alarm",
+        "ADDR:101 MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:OLD DEPOT RD & GROTE RD",
+        "NAME:MEDICAL ALARM",
+        "DATE:06/26/12",
+        "TIME:14:06:39");
+
+    doTest("T2",
+        "(CAD Page for CFS 062612-50) \n" +
+        "http://maps.google.com/maps?q=+41.42297%20-72.44717\n" +
+        "Psychiatric BLS\n" +
+        "218 MIDDLESEX AVE\n" +
+        "Apt: D22\n" +
+        "CH       \n" +
+        "Cross Streets : CASTLE VIEW DR * DENLAR DR \n" +
+        "Caller: \n" +
+        "Water\\Info: Hydrant: Mx Ave at shopping Center\n" +
+        "Hydrant: Mx Ave (opp Castle View)\n\n" +
+        "Disp Time: 06/26/12 16:40:03",
+
+        "ID:062612-50",
+        "GPS:+41.42297 -72.44717",
+        "CALL:Psychiatric BLS",
+        "ADDR:218 MIDDLESEX AVE",
+        "APT:D22",
+        "CITY:CHESTER",
+        "X:CASTLE VIEW DR & DENLAR DR",
+        "DATE:06/26/12",
+        "TIME:16:40:03");
+
+    doTest("T3",
+        "(CAD Page for CFS 062612-54) \n" +
+        "http://maps.google.com/maps?q=+41.40202%20-72.44430\n" +
+        "Injured Person  BLS\n" +
+        "132 MAIN ST\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : SCHOOL LANE * MIDDLESEX AVE \n" +
+        "Caller: CHESTERFIELDS HEALTH CAR\n" +
+        "Water\\Info: Hydrant: Main St, west of School La\n" +
+        "Hydrant: Main St, in front of Chesterfield's\n" +
+        "Hydrant: Main St/Mx Av\n\n" +
+        "Disp Time: 06/26/12 18:25:39",
+
+        "ID:062612-54",
+        "GPS:+41.40202 -72.44430",
+        "CALL:Injured Person  BLS",
+        "ADDR:132 MAIN ST",
+        "CITY:CHESTER",
+        "X:SCHOOL LANE & MIDDLESEX AVE",
+        "NAME:CHESTERFIELDS HEALTH CAR",
+        "DATE:06/26/12",
+        "TIME:18:25:39");
+
+    doTest("T4",
+        "(CAD Page for CFS 062612-56) \n" +
+        "http://maps.google.com/maps?q=+41.40794%20-72.51049\n" +
+        "Fire Alarm\n" +
+        "87 CEDAR LAKE RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : DAVID RD * JENNINGS POND RD \n" +
+        "Caller: ADT\n" +
+        "Water\\Info: Standpipe: Cedar Lake Rd/Lakeview Ave\n" +
+        "Boat launch, end of Bishop Road\n\n" +
+        "Disp Time: 06/26/12 19:05:07",
+
+        "ID:062612-56",
+        "GPS:+41.40794 -72.51049",
+        "CALL:Fire Alarm",
+        "ADDR:87 CEDAR LAKE RD",
+        "CITY:CHESTER",
+        "X:DAVID RD & JENNINGS POND RD",
+        "NAME:ADT",
+        "DATE:06/26/12",
+        "TIME:19:05:07");
+
+    doTest("T5",
+        "(CAD Page for CFS 062612-67) \n" +
+        "http://maps.google.com/maps?q=+41.39946%20-72.47517\n" +
+        "GENERAL WEAKNESS\n" +
+        "3 S WIG HILL RD\n" +
+        "Apt: 41\n" +
+        "CH       \n" +
+        "Cross Streets : W MAIN ST * TURKEY HILL RD \n" +
+        "Caller: HEALTH MGMT,RYDERS\n" +
+        "Water\\Info: Standpipe: West Main St/Hoopole Hill\n" +
+        "Pond: South Wig/Wig Hill Rd\n\n" +
+        "Disp Time: 06/26/12 20:39:41",
+
+        "ID:062612-67",
+        "GPS:+41.39946 -72.47517",
+        "CALL:GENERAL WEAKNESS",
+        "ADDR:3 S WIG HILL RD",
+        "APT:41",
+        "CITY:CHESTER",
+        "X:W MAIN ST & TURKEY HILL RD",
+        "NAME:HEALTH MGMT,RYDERS",
+        "DATE:06/26/12",
+        "TIME:20:39:41");
+
+    doTest("T6",
+        "(CAD Page for CFS 062712-26) \n" +
+        "http://maps.google.com/maps?q=+41.38833%20-72.52768\n" +
+        "Fire Alarm\n" +
+        "317 W MAIN ST\n" +
+        "Apt: 14\n" +
+        "CH       \n" +
+        "Cross Streets : BUTTER JONES RD * ROUTE 148 \n" +
+        "Caller: usa central\n" +
+        "Water\\Info: Draft from Cedar Lake\n\n" +
+        "Disp Time: 06/27/12 11:15:30",
+
+        "ID:062712-26",
+        "GPS:+41.38833 -72.52768",
+        "CALL:Fire Alarm",
+        "ADDR:317 W MAIN ST",
+        "APT:14",
+        "CITY:CHESTER",
+        "X:BUTTER JONES RD & ROUTE 148",
+        "NAME:usa central",
+        "DATE:06/27/12",
+        "TIME:11:15:30");
+
+    doTest("T7",
+        "(CAD Page for CFS 062712-60) \n" +
+        "http://maps.google.com/maps?q=+41.39896%20-72.46510\n" +
+        "Wires Down -Call NU\n" +
+        "100 W MAIN ST\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : SPRING ST * INSPIRATION LANE \n" +
+        "Caller: VERIZON WIRELESS\n" +
+        "Water\\Info: Hydrant: 82 West Main\n" +
+        "Waterhole: West Main/Hoopole Hill\n\n" +
+        "Disp Time: 06/27/12 17:12:38",
+
+        "ID:062712-60",
+        "GPS:+41.39896 -72.46510",
+        "CALL:Wires Down -Call NU",
+        "ADDR:100 W MAIN ST",
+        "CITY:CHESTER",
+        "X:SPRING ST & INSPIRATION LANE",
+        "NAME:VERIZON WIRELESS",
+        "DATE:06/27/12",
+        "TIME:17:12:38");
+
+    doTest("T8",
+        "(CAD Page for CFS 062912-6) \n" +
+        "http://maps.google.com/maps?q=+41.42893%20-72.45178\n" +
+        "GENERAL WEAKNESS\n" +
+        "268 MIDDLESEX AVE\n" +
+        "Apt: 1\n" +
+        "CH       \n" +
+        "Cross Streets : GOOSE HILL RD * SAYBROOK RD \n" +
+        "Caller: VZWU\n" +
+        "Water\\Info: Boat launch, end of Parkers Point La\n\n" +
+        "Disp Time: 06/29/12 07:50:36",
+
+        "ID:062912-6",
+        "GPS:+41.42893 -72.45178",
+        "CALL:GENERAL WEAKNESS",
+        "ADDR:268 MIDDLESEX AVE",
+        "APT:1",
+        "CITY:CHESTER",
+        "X:GOOSE HILL RD & SAYBROOK RD",
+        "NAME:VZWU",
+        "DATE:06/29/12",
+        "TIME:07:50:36");
+
+    doTest("T9",
+        "(CAD Page for CFS 062912-43) \n" +
+        "http://maps.google.com/maps?q=+41.40970%20-72.44025\n" +
+        "Minor MVA -No Medic\n" +
+        "GROTE RD and MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : GROTE RD \n" +
+        "Caller: \n" +
+        "Disp Time: 06/29/12 16:15:27",
+
+        "ID:062912-43",
+        "GPS:+41.40970 -72.44025",
+        "CALL:Minor MVA -No Medic",
+        "ADDR:GROTE RD and MIDDLESEX AVE",
+        "MADDR:GROTE RD & MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:GROTE RD",
+        "DATE:06/29/12",
+        "TIME:16:15:27");
+
+    doTest("T10",
+        "(CAD Page for CFS 063012-98) \n" +
+        "http://maps.google.com/maps?q=+41.39946%20-72.47517\n" +
+        "Fire Alarm\n" +
+        "3 S WIG HILL RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : W MAIN ST * TURKEY HILL RD \n" +
+        "Caller: USA Central\n" +
+        "Water\\Info: Standpipe: West Main St/Hoopole Hill\n" +
+        "Pond: South Wig/Wig Hill Rd\n\n" +
+        "Disp Time: 06/30/12 20:36:10",
+
+        "ID:063012-98",
+        "GPS:+41.39946 -72.47517",
+        "CALL:Fire Alarm",
+        "ADDR:3 S WIG HILL RD",
+        "CITY:CHESTER",
+        "X:W MAIN ST & TURKEY HILL RD",
+        "NAME:USA Central",
+        "DATE:06/30/12",
+        "TIME:20:36:10");
+
+    doTest("T11",
+        "(CAD Page for CFS 070112-20) \n" +
+        "http://maps.google.com/maps?q=+41.40086%20-72.44209\n" +
+        "Unconcious/Unresponsive ALS\n" +
+        "48 MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH\n" +
+        "Cross Streets : PRATT ST * RAILROAD AVE \n" +
+        "Caller: SAYBROOK AT HADDAM,THE\n" +
+        "Water\\Info: Hydrant: Mx Ave/Main St\n" +
+        "Hydrant: 37 Mx Ave (north of Gilbert Hill)\n" +
+        "Hydrant: 77 Mx Ave\n\n" +
+        "Disp Time: 07/01/12 11:23:14",
+
+        "ID:070112-20",
+        "GPS:+41.40086 -72.44209",
+        "CALL:Unconcious/Unresponsive ALS",
+        "ADDR:48 MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:PRATT ST & RAILROAD AVE",
+        "NAME:SAYBROOK AT HADDAM,THE",
+        "DATE:07/01/12",
+        "TIME:11:23:14");
+
+    doTest("T12",
+        "(CAD Page for CFS 070112-34) \n" +
+        "http://maps.google.com/maps?q=+41.40936%20-72.42899\n" +
+        "Drowning ALS\n" +
+        "61 DOCK RD\n" +
+        "Apt: \n" +
+        "CH\n" +
+        "Cross Streets : VALLEY RAILROAD \n" +
+        "Caller: \n" +
+        "Water\\Info: Hydrant: in front of Cozy Castle\n" +
+        "Draft from Connecticut River\n\n" +
+        "Disp Time: 07/01/12 13:45:55",
+
+        "ID:070112-34",
+        "GPS:+41.40936 -72.42899",
+        "CALL:Drowning ALS",
+        "ADDR:61 DOCK RD",
+        "CITY:CHESTER",
+        "X:VALLEY RAILROAD",
+        "DATE:07/01/12",
+        "TIME:13:45:55");
+
+    doTest("T13",
+        "(CAD Page for CFS 070312-17) \n" +
+        "http://maps.google.com/maps?q=+41.40690%20-72.43349\n" +
+        "Police General\n" +
+        "60 RAILROAD AVE\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : VALLEY RAILROAD \n" +
+        "Caller: SPRINT NEXTEL - IDEN\n" +
+        "Water\\Info: Hydrant: 60 Railroad Ave (Ch. Auto/Marine)\n" +
+        "Connecticut River, end of Railroad Ave\n\n" +
+        "Disp Time: 07/03/12 08:48:29",
+
+        "ID:070312-17",
+        "GPS:+41.40690 -72.43349",
+        "CALL:Police General",
+        "ADDR:60 RAILROAD AVE",
+        "CITY:CHESTER",
+        "X:VALLEY RAILROAD",
+        "NAME:SPRINT NEXTEL - IDEN",
+        "DATE:07/03/12",
+        "TIME:08:48:29");
+
+    doTest("T14",
+        "(CAD Page for CFS 070312-28) \n" +
+        "http://maps.google.com/maps?q=+41.42893%20-72.45178\n" +
+        "Abdominal Pain ALS\n" +
+        "268 MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH\n" +
+        "Cross Streets : GOOSE HILL RD * SAYBROOK RD \n" +
+        "Caller: EAGLE LANDING\n" +
+        "Water\\Info: Boat launch, end of Parkers Point La\n\n" +
+        "Disp Time: 07/03/12 11:13:01",
+
+        "ID:070312-28",
+        "GPS:+41.42893 -72.45178",
+        "CALL:Abdominal Pain ALS",
+        "ADDR:268 MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:GOOSE HILL RD & SAYBROOK RD",
+        "NAME:EAGLE LANDING",
+        "DATE:07/03/12",
+        "TIME:11:13:01");
+
+    doTest("T15",
+        "(CAD Page for CFS 070412-4) \n" +
+        "http://maps.google.com/maps?q=+41.40202%20-72.44430\n" +
+        "Injured Person  BLS\n" +
+        "132 MAIN ST\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : SCHOOL LANE * MIDDLESEX AVE \n" +
+        "Caller: CHESTERFIELDS HEALTH CAR\n" +
+        "Water\\Info: Hydrant: Main St, west of School La\n" +
+        "Hydrant: Main St, in front of Chesterfield's\n" +
+        "Hydrant: Main St/Mx Av\n\n" +
+        "Disp Time: 07/04/12 02:50:29",
+
+        "ID:070412-4",
+        "GPS:+41.40202 -72.44430",
+        "CALL:Injured Person  BLS",
+        "ADDR:132 MAIN ST",
+        "CITY:CHESTER",
+        "X:SCHOOL LANE & MIDDLESEX AVE",
+        "NAME:CHESTERFIELDS HEALTH CAR",
+        "DATE:07/04/12",
+        "TIME:02:50:29");
+
+    doTest("T16",
+        "(CAD Page for CFS 070412-18) \n" +
+        "http://maps.google.com/maps?q=+-1.00000%20--1.00000\n" +
+        "SYNCOPE\n" +
+        "Main at the market\n" +
+        "Apt: \n" +
+        "ch\n" +
+        "Caller: \n" +
+        "Disp Time: 07/04/12 10:36:58",
+
+        "ID:070412-18",
+        "CALL:SYNCOPE",
+        "ADDR:Main at the market",
+        "CITY:CHESTER",
+        "DATE:07/04/12",
+        "TIME:10:36:58");
+
+    doTest("T17",
+        "(CAD Page for CFS 070412-45) \n" +
+        "http://maps.google.com/maps?q=+41.40903%20-72.51273\n" +
+        "Overdose ALS\n" +
+        "99 CEDAR LAKE RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : DAVID RD * JENNINGS POND RD \n" +
+        "Caller: FIXED ATTMO 8006356840 O\n" +
+        "Water\\Info: Standpipe: Cedar Lake Rd/Lakeview Ave\n" +
+        "Boat launch, end of Bishop Road\n\n" +
+        "Disp Time: 07/04/12 16:05:07",
+
+        "ID:070412-45",
+        "GPS:+41.40903 -72.51273",
+        "CALL:Overdose ALS",
+        "ADDR:99 CEDAR LAKE RD",
+        "CITY:CHESTER",
+        "X:DAVID RD & JENNINGS POND RD",
+        "NAME:FIXED ATTMO 8006356840 O",
+        "DATE:07/04/12",
+        "TIME:16:05:07");
+
+    doTest("T18",
+        "(CAD Page for CFS 070412-49) \n" +
+        "http://maps.google.com/maps?q=+41.42297%20-72.44717\n" +
+        "Basic Life Support \n" +
+        "218 MIDDLESEX AVE\n" +
+        "Apt: C14\n" +
+        "CH\n" +
+        "Cross Streets : CASTLE VIEW DR * DENLAR DR \n" +
+        "Caller: LANE,FRANCES\n" +
+        "Disp Time: 07/04/12 16:52:25",
+
+        "ID:070412-49",
+        "GPS:+41.42297 -72.44717",
+        "CALL:Basic Life Support",
+        "ADDR:218 MIDDLESEX AVE",
+        "APT:C14",
+        "CITY:CHESTER",
+        "X:CASTLE VIEW DR & DENLAR DR",
+        "NAME:LANE,FRANCES",
+        "DATE:07/04/12",
+        "TIME:16:52:25");
+
+    doTest("T19",
+        "(CAD Page for CFS 070512-33) \n" +
+        "http://maps.google.com/maps?q=+41.38551%20-72.45010\n" +
+        "MVA Medic ALS\n" +
+        "1 S65\n" +
+        "Apt: \n" +
+        "CH     \n" +
+        "Cross Streets : EXIT 5 SB * ENTR 5 SB \n" +
+        "Caller: T-Mobile, USA\n" +
+        "Disp Time: 07/05/12 11:50:22",
+
+        "ID:070512-33",
+        "GPS:+41.38551 -72.45010",
+        "CALL:MVA Medic ALS",
+        "ADDR:1 S65",
+        "CITY:CHESTER",
+        "X:EXIT 5 SB & ENTR 5 SB",
+        "NAME:T-Mobile, USA",
+        "DATE:07/05/12",
+        "TIME:11:50:22");
+
+    doTest("T20",
+        "(CAD Page for CFS 070512-63) \n" +
+        "http://maps.google.com/maps?q=+41.40527%20-72.50705\n" +
+        "Injured Person  BLS\n" +
+        "CEDAR LAKE RD and DAVID RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : CEDAR LAKE RD * BROOKSIDE RD \n" +
+        "Caller: car 7\n" +
+        "Disp Time: 07/05/12 19:04:43",
+
+        "ID:070512-63",
+        "GPS:+41.40527 -72.50705",
+        "CALL:Injured Person  BLS",
+        "ADDR:CEDAR LAKE RD and DAVID RD",
+        "MADDR:CEDAR LAKE RD & DAVID RD",
+        "CITY:CHESTER",
+        "X:CEDAR LAKE RD & BROOKSIDE RD",
+        "NAME:car 7",
+        "DATE:07/05/12",
+        "TIME:19:04:43");
+
+    doTest("T21",
+        "(CAD Page for CFS 070612-28) \n" +
+        "http://maps.google.com/maps?q=+41.42839%20-72.45273\n" +
+        "Fire Alarm\n" +
+        "136 GOOSE HILL RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : OLD COUNTY RD * MIDDLESEX AVE \n" +
+        "Caller: adt op ogm\n" +
+        "Water\\Info: Standpipe: 104 Goose, south end of pond\n" +
+        "Boat launch, end of Parkers Point La\n\n" +
+        "Disp Time: 07/06/12 12:44:32",
+
+        "ID:070612-28",
+        "GPS:+41.42839 -72.45273",
+        "CALL:Fire Alarm",
+        "ADDR:136 GOOSE HILL RD",
+        "CITY:CHESTER",
+        "X:OLD COUNTY RD & MIDDLESEX AVE",
+        "NAME:adt op ogm",
+        "DATE:07/06/12",
+        "TIME:12:44:32");
+
+    doTest("T22",
+        "(CAD Page for CFS 070612-43) \n" +
+        "http://maps.google.com/maps?q=+41.40156%20-72.50703\n" +
+        "GENERAL SICKNESS\n" +
+        "21 LAUREL ST\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : CEDAR ST \n" +
+        "Caller: REDAK,HARVEY & JUSTINE\n" +
+        "Water\\Info: Standpipe: Cedar Lake opp Birch St\n\n" +
+        "Disp Time: 07/06/12 15:05:35",
+
+        "ID:070612-43",
+        "GPS:+41.40156 -72.50703",
+        "CALL:GENERAL SICKNESS",
+        "ADDR:21 LAUREL ST",
+        "CITY:CHESTER",
+        "X:CEDAR ST",
+        "NAME:REDAK,HARVEY & JUSTINE",
+        "DATE:07/06/12",
+        "TIME:15:05:35");
+
+    doTest("T23",
+        "(CAD Page for CFS 070712-35) \n" +
+        "http://maps.google.com/maps?q=+41.42893%20-72.45178\n" +
+        "Basic Life Support \n" +
+        "268 MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH\n" +
+        "Cross Streets : GOOSE HILL RD * SAYBROOK RD \n" +
+        "Caller: EAGLE LANDING\n" +
+        "Water\\Info: Boat launch, end of Parkers Point La\n\n" +
+        "Disp Time: 07/07/12 14:09:22",
+
+        "ID:070712-35",
+        "GPS:+41.42893 -72.45178",
+        "CALL:Basic Life Support",
+        "ADDR:268 MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:GOOSE HILL RD & SAYBROOK RD",
+        "NAME:EAGLE LANDING",
+        "DATE:07/07/12",
+        "TIME:14:09:22");
+
+    doTest("T24",
+        "(CAD Page for CFS 070812-52) \n" +
+        "http://maps.google.com/maps?q=+41.42893%20-72.45178\n" +
+        "Abdominal Pain BLS\n" +
+        "268 MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : GOOSE HILL RD * SAYBROOK RD \n" +
+        "Caller: EAGLE LANDING\n" +
+        "Water\\Info: Boat launch, end of Parkers Point La\n\n" +
+        "Disp Time: 07/08/12 17:19:37",
+
+        "ID:070812-52",
+        "GPS:+41.42893 -72.45178",
+        "CALL:Abdominal Pain BLS",
+        "ADDR:268 MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:GOOSE HILL RD & SAYBROOK RD",
+        "NAME:EAGLE LANDING",
+        "DATE:07/08/12",
+        "TIME:17:19:37");
+
+    doTest("T25",
+        "(CAD Page for CFS 070812-72) \n" +
+        "http://maps.google.com/maps?q=+41.42893%20-72.45178\n" +
+        "GENERAL SICKNESS\n" +
+        "268 MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : GOOSE HILL RD * SAYBROOK RD \n" +
+        "Caller: EAGLE LANDING\n" +
+        "Water\\Info: Boat launch, end of Parkers Point La\n\n" +
+        "Disp Time: 07/08/12 21:12:30",
+
+        "ID:070812-72",
+        "GPS:+41.42893 -72.45178",
+        "CALL:GENERAL SICKNESS",
+        "ADDR:268 MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:GOOSE HILL RD & SAYBROOK RD",
+        "NAME:EAGLE LANDING",
+        "DATE:07/08/12",
+        "TIME:21:12:30");
+
+    doTest("T26",
+        "(CAD Page for CFS 070912-8) \n" +
+        "http://maps.google.com/maps?q=+41.42031%20-72.44348\n" +
+        "Chest Pain ALS\n" +
+        "57 CASTLE VIEW DR\n" +
+        "Apt: \n" +
+        "CH\n" +
+        "Cross Streets : KIRTLAND AVE * MIDDLESEX AVE \n" +
+        "Caller: COOK,WILLIAM\n" +
+        "Disp Time: 07/09/12 07:20:58",
+
+        "ID:070912-8",
+        "GPS:+41.42031 -72.44348",
+        "CALL:Chest Pain ALS",
+        "ADDR:57 CASTLE VIEW DR",
+        "CITY:CHESTER",
+        "X:KIRTLAND AVE & MIDDLESEX AVE",
+        "NAME:COOK,WILLIAM",
+        "DATE:07/09/12",
+        "TIME:07:20:58");
+
+    doTest("T27",
+        "(CAD Page for CFS 070912-21) \n" +
+        "http://maps.google.com/maps?q=+41.42893%20-72.45178\n" +
+        "Abdominal Pain BLS\n" +
+        "268 MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : GOOSE HILL RD * SAYBROOK RD \n" +
+        "Caller: EAGLE LANDING\n" +
+        "Water\\Info: Boat launch, end of Parkers Point La\n\n" +
+        "Disp Time: 07/09/12 10:47:44",
+
+        "ID:070912-21",
+        "GPS:+41.42893 -72.45178",
+        "CALL:Abdominal Pain BLS",
+        "ADDR:268 MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:GOOSE HILL RD & SAYBROOK RD",
+        "NAME:EAGLE LANDING",
+        "DATE:07/09/12",
+        "TIME:10:47:44");
+
+    doTest("T28",
+        "(CAD Page for CFS 070912-26) \n" +
+        "http://maps.google.com/maps?q=+41.41022%20-72.46832\n" +
+        "Injured Person  BLS\n" +
+        "34 DEEP HOLLOW RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : WIG HILL RD \n" +
+        "Caller: VERIZON WIRELESS\n" +
+        "Water\\Info: Hydrant: Deep Hollow/Liberty\n\n" +
+        "Disp Time: 07/09/12 11:31:58",
+
+        "ID:070912-26",
+        "GPS:+41.41022 -72.46832",
+        "CALL:Injured Person  BLS",
+        "ADDR:34 DEEP HOLLOW RD",
+        "CITY:CHESTER",
+        "X:WIG HILL RD",
+        "NAME:VERIZON WIRELESS",
+        "DATE:07/09/12",
+        "TIME:11:31:58");
+
+    doTest("T29",
+        "(CAD Page for CFS 071012-2) \n" +
+        "http://maps.google.com/maps?q=+41.40470%20-72.45490\n" +
+        "Cardiac Arrest ALS\n" +
+        "3 RIDGE RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : HIGH ST * JOHNSON RD \n" +
+        "Caller: VERIZON WIRELESS\n" +
+        "Water\\Info: Hydrant: Ridge Rd/High St\n" +
+        "Hydrant: 17 Ridge Rd\n\n" +
+        "Disp Time: 07/10/12 00:42:31",
+
+        "ID:071012-2",
+        "GPS:+41.40470 -72.45490",
+        "CALL:Cardiac Arrest ALS",
+        "ADDR:3 RIDGE RD",
+        "CITY:CHESTER",
+        "X:HIGH ST & JOHNSON RD",
+        "NAME:VERIZON WIRELESS",
+        "DATE:07/10/12",
+        "TIME:00:42:31");
+
+    doTest("T30",
+        "(CAD Page for CFS 071012-26) \n" +
+        "http://maps.google.com/maps?q=+41.42352%20-72.45718\n" +
+        "Fire Alarm\n" +
+        "13 HIGH FIELD LANE\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : GOOSE HILL RD \n" +
+        "Caller: alarm systems inc op 897\n" +
+        "Water\\Info: Standpipe: 104 Goose, south end of pond\n\n" +
+        "Disp Time: 07/10/12 10:41:35",
+
+        "ID:071012-26",
+        "GPS:+41.42352 -72.45718",
+        "CALL:Fire Alarm",
+        "ADDR:13 HIGH FIELD LANE",
+        "CITY:CHESTER",
+        "X:GOOSE HILL RD",
+        "NAME:alarm systems inc op 897",
+        "DATE:07/10/12",
+        "TIME:10:41:35");
+
+    doTest("T31",
+        "(CAD Page for CFS 071012-28) \n" +
+        "http://maps.google.com/maps?q=+41.38834%20-72.50771\n" +
+        "Traumatic Injury ALS\n" +
+        "51 WINTHROP RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : PINE KNOLL DR * AVIATION DR \n" +
+        "Caller: WHELEN ENGINEERING CO\n" +
+        "Water\\Info: Standpipe: pond at Whelen\n\n" +
+        "Water\\Info: Draft from Cedar Lake\n" +
+        "Standpipe: pond at Whelen\n\n" +
+        "Disp Time: 07/10/12 10:58:49",
+
+        "ID:071012-28",
+        "GPS:+41.38834 -72.50771",
+        "CALL:Traumatic Injury ALS",
+        "ADDR:51 WINTHROP RD",
+        "CITY:CHESTER",
+        "X:PINE KNOLL DR & AVIATION DR",
+        "NAME:WHELEN ENGINEERING CO",
+        "DATE:07/10/12",
+        "TIME:10:58:49");
+
+    doTest("T32",
+        "(CAD Page for CFS 071012-59) \n" +
+        "http://maps.google.com/maps?q=+41.42204%20-72.49747\n" +
+        "Advanced Life Support\n" +
+        "2 N78\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : ENTR 7 NB * TURKEY HILL RD \n" +
+        "Caller: VERIZON WIRELESS\n" +
+        "Disp Time: 07/10/12 22:34:14",
+
+        "ID:071012-59",
+        "GPS:+41.42204 -72.49747",
+        "CALL:Advanced Life Support",
+        "ADDR:2 N78",
+        "CITY:CHESTER",
+        "X:ENTR 7 NB & TURKEY HILL RD",
+        "NAME:VERIZON WIRELESS",
+        "DATE:07/10/12",
+        "TIME:22:34:14");
+
+    doTest("T33",
+        "(CAD Page for CFS 071112-45) \n" +
+        "http://maps.google.com/maps?q=+41.38973%20-72.43520\n" +
+        "Psychiatric BLS\n" +
+        "8 READ ST\n" +
+        "Apt: c\n" +
+        "DR\n" +
+        "Cross Streets : PROSPECT ST * KIRTLAND ST \n" +
+        "Caller: SCRIVEN,DAVID,A\n" +
+        "Disp Time: 07/11/12 14:55:08",
+
+        "ID:071112-45",
+        "GPS:+41.38973 -72.43520",
+        "CALL:Psychiatric BLS",
+        "ADDR:8 READ ST",
+        "APT:c",
+        "CITY:DEEP RIVER",
+        "X:PROSPECT ST & KIRTLAND ST",
+        "NAME:SCRIVEN,DAVID,A",
+        "DATE:07/11/12",
+        "TIME:14:55:08");
+
+    doTest("T34",
+        "(CAD Page for CFS 071112-53) \n" +
+        "http://maps.google.com/maps?q=+41.38834%20-72.50771\n" +
+        "Injured Person  BLS\n" +
+        "51 WINTHROP RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : PINE KNOLL DR * AVIATION DR \n" +
+        "Caller: WHELEN ENGINEERING CO\n" +
+        "Water\\Info: Standpipe: pond at Whelen\n\n" +
+        "Water\\Info: Draft from Cedar Lake\n" +
+        "Standpipe: pond at Whelen\n\n" +
+        "Disp Time: 07/11/12 16:59:51",
+
+        "ID:071112-53",
+        "GPS:+41.38834 -72.50771",
+        "CALL:Injured Person  BLS",
+        "ADDR:51 WINTHROP RD",
+        "CITY:CHESTER",
+        "X:PINE KNOLL DR & AVIATION DR",
+        "NAME:WHELEN ENGINEERING CO",
+        "DATE:07/11/12",
+        "TIME:16:59:51");
+
+    doTest("T35",
+        "(CAD Page for CFS 071112-64) \n" +
+        "http://maps.google.com/maps?q=+41.42297%20-72.44717\n" +
+        "Life Call -Medical Alarm\n" +
+        "218 MIDDLESEX AVE\n" +
+        "Apt: A1\n" +
+        "CH       \n" +
+        "Cross Streets : CASTLE VIEW DR * DENLAR DR \n" +
+        "Caller: LINK TO LIFE\n" +
+        "Water\\Info: Hydrant: Mx Ave at shopping Center\n" +
+        "Hydrant: Mx Ave (opp Castle View)\n\n" +
+        "Disp Time: 07/11/12 22:59:58",
+
+        "ID:071112-64",
+        "GPS:+41.42297 -72.44717",
+        "CALL:Life Call -Medical Alarm",
+        "ADDR:218 MIDDLESEX AVE",
+        "APT:A1",
+        "CITY:CHESTER",
+        "X:CASTLE VIEW DR & DENLAR DR",
+        "NAME:LINK TO LIFE",
+        "DATE:07/11/12",
+        "TIME:22:59:58");
+
+    doTest("T36",
+        "(CAD Page for CFS 071212-9) \n" +
+        "http://maps.google.com/maps?q=+41.39946%20-72.47517\n" +
+        "Fire Alarm\n" +
+        "3 S WIG HILL RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : W MAIN ST * TURKEY HILL RD \n" +
+        "Caller: usa centeral\n" +
+        "Water\\Info: Standpipe: West Main St/Hoopole Hill\n" +
+        "Pond: South Wig/Wig Hill Rd\n\n" +
+        "Disp Time: 07/12/12 08:06:48",
+
+        "ID:071212-9",
+        "GPS:+41.39946 -72.47517",
+        "CALL:Fire Alarm",
+        "ADDR:3 S WIG HILL RD",
+        "CITY:CHESTER",
+        "X:W MAIN ST & TURKEY HILL RD",
+        "NAME:usa centeral",
+        "DATE:07/12/12",
+        "TIME:08:06:48");
+
+    doTest("T37",
+        "(CAD Page for CFS 071212-13) \n" +
+        "http://maps.google.com/maps?q=+41.42893%20-72.45178\n" +
+        "Psychiatric BLS\n" +
+        "268 MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : GOOSE HILL RD * SAYBROOK RD \n" +
+        "Caller: EAGLE LANDING\n" +
+        "Water\\Info: Boat launch, end of Parkers Point La\n\n" +
+        "Disp Time: 07/12/12 08:49:35",
+
+        "ID:071212-13",
+        "GPS:+41.42893 -72.45178",
+        "CALL:Psychiatric BLS",
+        "ADDR:268 MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:GOOSE HILL RD & SAYBROOK RD",
+        "NAME:EAGLE LANDING",
+        "DATE:07/12/12",
+        "TIME:08:49:35");
+
+    doTest("T38",
+        "(CAD Page for CFS 071212-30) \n" +
+        "http://maps.google.com/maps?q=+41.39948%20-72.47023\n" +
+        "Minor MVA -No Medic\n" +
+        "129 W MAIN ST\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : SPRING ST * INSPIRATION LANE \n" +
+        "Caller: SPRINTPCS\n" +
+        "Water\\Info: Waterhole: West Main/Hoopole Hill\n\n" +
+        "Disp Time: 07/12/12 11:57:46",
+
+        "ID:071212-30",
+        "GPS:+41.39948 -72.47023",
+        "CALL:Minor MVA -No Medic",
+        "ADDR:129 W MAIN ST",
+        "CITY:CHESTER",
+        "X:SPRING ST & INSPIRATION LANE",
+        "NAME:SPRINTPCS",
+        "DATE:07/12/12",
+        "TIME:11:57:46");
+
+    doTest("T39",
+        "(CAD Page for CFS 071212-40) \n" +
+        "http://maps.google.com/maps?q=+41.38994%20-72.43497\n" +
+        "Psychiatric BLS\n" +
+        "12 READ ST\n" +
+        "Apt: C\n" +
+        "DR       \n" +
+        "Cross Streets : PROSPECT ST * KIRTLAND ST \n" +
+        "Caller: MOBILE CRISIS * KATHY\n" +
+        "Water\\Info: CORNER KIRTLAND & READ\n\n" +
+        "Disp Time: 07/12/12 14:46:07",
+
+        "ID:071212-40",
+        "GPS:+41.38994 -72.43497",
+        "CALL:Psychiatric BLS",
+        "ADDR:12 READ ST",
+        "APT:C",
+        "CITY:DEEP RIVER",
+        "X:PROSPECT ST & KIRTLAND ST",
+        "NAME:MOBILE CRISIS * KATHY",
+        "DATE:07/12/12",
+        "TIME:14:46:07");
+
+    doTest("T40",
+        "(CAD Page for CFS 071212-68) \n" +
+        "http://maps.google.com/maps?q=+41.37923%20-72.55943\n" +
+        "Structure Fire\n" +
+        "42 SWAN LAKE TR\n" +
+        "Apt: \n" +
+        "KW\n" +
+        "Cross Streets : BRIDLE PATH TR * BOULDER TR \n" +
+        "Caller: DAIGLE,GEORGE A\n" +
+        "Disp Time: 07/12/12 20:27:26",
+
+        "ID:071212-68",
+        "GPS:+41.37923 -72.55943",
+        "CALL:Structure Fire",
+        "ADDR:42 SWAN LAKE TR",
+        "CITY:KILLINGWORTH",
+        "X:BRIDLE PATH TR & BOULDER TR",
+        "NAME:DAIGLE,GEORGE A",
+        "DATE:07/12/12",
+        "TIME:20:27:26");
+
+    doTest("T41",
+        "(CAD Page for CFS 071212-69) \n" +
+        "http://maps.google.com/maps?q=+41.42893%20-72.45178\n" +
+        "ALTERED MENTAL STATUS\n" +
+        "268 MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : GOOSE HILL RD * SAYBROOK RD \n" +
+        "Caller: EAGLE LANDING\n" +
+        "Water\\Info: Boat launch, end of Parkers Point La\n\n" +
+        "Disp Time: 07/12/12 20:44:39",
+
+        "ID:071212-69",
+        "GPS:+41.42893 -72.45178",
+        "CALL:ALTERED MENTAL STATUS",
+        "ADDR:268 MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:GOOSE HILL RD & SAYBROOK RD",
+        "NAME:EAGLE LANDING",
+        "DATE:07/12/12",
+        "TIME:20:44:39");
+
+    doTest("T42",
+        "(CAD Page for CFS 071312-53) \n" +
+        "http://maps.google.com/maps?q=+41.38833%20-72.52768\n" +
+        "Lift Assist BLS\n" +
+        "317 W MAIN ST\n" +
+        "Apt: 6203\n" +
+        "CH\n" +
+        "Cross Streets : BUTTER JONES RD * ROUTE 148 \n" +
+        "Caller: CHESTER VILLAGE WEST\n" +
+        "Disp Time: 07/13/12 16:39:45",
+
+        "ID:071312-53",
+        "GPS:+41.38833 -72.52768",
+        "CALL:Lift Assist BLS",
+        "ADDR:317 W MAIN ST",
+        "APT:6203",
+        "CITY:CHESTER",
+        "X:BUTTER JONES RD & ROUTE 148",
+        "NAME:CHESTER VILLAGE WEST",
+        "DATE:07/13/12",
+        "TIME:16:39:45");
+
+    doTest("T43",
+        "(CAD Page for CFS 071312-60) \n" +
+        "http://maps.google.com/maps?q=+41.40202%20-72.44430\n" +
+        "ALTERED MENTAL STATUS\n" +
+        "132 MAIN ST\n" +
+        "Apt: 2\n" +
+        "CH       \n" +
+        "Cross Streets : SCHOOL LANE * MIDDLESEX AVE \n" +
+        "Caller: CHESTERFIELDS HEALTH CAR\n" +
+        "Water\\Info: Hydrant: Main St, west of School La\n" +
+        "Hydrant: Main St, in front of Chesterfield's\n" +
+        "Hydrant: Main St/Mx Av\n\n" +
+        "Disp Time: 07/13/12 18:53:31",
+
+        "ID:071312-60",
+        "GPS:+41.40202 -72.44430",
+        "CALL:ALTERED MENTAL STATUS",
+        "ADDR:132 MAIN ST",
+        "APT:2",
+        "CITY:CHESTER",
+        "X:SCHOOL LANE & MIDDLESEX AVE",
+        "NAME:CHESTERFIELDS HEALTH CAR",
+        "DATE:07/13/12",
+        "TIME:18:53:31");
+
+    doTest("T44",
+        "(CAD Page for CFS 071312-69) \n" +
+        "http://maps.google.com/maps?q=+41.39629%20-72.45059\n" +
+        "GENERAL SICKNESS\n" +
+        "69 MAPLE ST\n" +
+        "Apt: \n" +
+        "CH\n" +
+        "Cross Streets : PROSPECT ST * STRAITS RD \n" +
+        "Caller: CROMARTY,JOHN & ANN\n" +
+        "Disp Time: 07/13/12 20:31:33",
+
+        "ID:071312-69",
+        "GPS:+41.39629 -72.45059",
+        "CALL:GENERAL SICKNESS",
+        "ADDR:69 MAPLE ST",
+        "CITY:CHESTER",
+        "X:PROSPECT ST & STRAITS RD",
+        "NAME:CROMARTY,JOHN & ANN",
+        "DATE:07/13/12",
+        "TIME:20:31:33");
+
+    doTest("T45",
+        "(CAD Page for CFS 071412-43) \n" +
+        "http://maps.google.com/maps?q=+41.40640%20-72.47694\n" +
+        "Chest Pain ALS\n" +
+        "56 WIG HILL RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : N67 * S76 \n" +
+        "Caller: SPRINTPCS\n" +
+        "Water\\Info: Standpipe: Wig Hill/South Wig\n\n" +
+        "Water\\Info: Hydrant: Deep Hollow/Liberty St\n" +
+        "Standpipe: Wig Hill/South Wig\n\n" +
+        "Disp Time: 07/14/12 14:46:18",
+
+        "ID:071412-43",
+        "GPS:+41.40640 -72.47694",
+        "CALL:Chest Pain ALS",
+        "ADDR:56 WIG HILL RD",
+        "CITY:CHESTER",
+        "X:N67 & S76",
+        "NAME:SPRINTPCS",
+        "DATE:07/14/12",
+        "TIME:14:46:18");
+
+    doTest("T46",
+        "(CAD Page for CFS 071412-80) \n" +
+        "http://maps.google.com/maps?q=+41.40202%20-72.44430\n" +
+        "ALTERED MENTAL STATUS\n" +
+        "132 MAIN ST\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : SCHOOL LANE * MIDDLESEX AVE \n" +
+        "Caller: SLEEPER,E\n" +
+        "Water\\Info: Hydrant: Main St, west of School La\n" +
+        "Hydrant: Main St, in front of Chesterfield's\n" +
+        "Hydrant: Main St/Mx Av\n\n" +
+        "Disp Time: 07/14/12 21:04:41",
+
+        "ID:071412-80",
+        "GPS:+41.40202 -72.44430",
+        "CALL:ALTERED MENTAL STATUS",
+        "ADDR:132 MAIN ST",
+        "CITY:CHESTER",
+        "X:SCHOOL LANE & MIDDLESEX AVE",
+        "NAME:SLEEPER,E",
+        "DATE:07/14/12",
+        "TIME:21:04:41");
+
+    doTest("T47",
+        "(CAD Page for CFS 071412-82) \n" +
+        "http://maps.google.com/maps?q=+41.40732%20-72.46606\n" +
+        "Electrical Fire Pole/Wire\n" +
+        "15 WIG HILL RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : PLEASANT ST * N67 \n" +
+        "Caller: VERIZON WIRELESS\n" +
+        "Water\\Info: Hydrant: Deep Hollow/Liberty St\n" +
+        "Standpipe: Wig Hill/South Wig\n\n" +
+        "Disp Time: 07/14/12 21:39:44",
+
+        "ID:071412-82",
+        "GPS:+41.40732 -72.46606",
+        "CALL:Electrical Fire Pole/Wire",
+        "ADDR:15 WIG HILL RD",
+        "CITY:CHESTER",
+        "X:PLEASANT ST & N67",
+        "NAME:VERIZON WIRELESS",
+        "DATE:07/14/12",
+        "TIME:21:39:44");
+
+    doTest("T48",
+        "(CAD Page for CFS 071512-3) \n" +
+        "http://maps.google.com/maps?q=+41.40681%20-72.43185\n" +
+        "Injured Person  BLS\n" +
+        "72 RAILROAD AVE\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : VALLEY RAILROAD \n" +
+        "Caller: \n" +
+        "Water\\Info: Hydrant: 60 Railroad Ave (Ch. Auto/Marine)\n" +
+        "Connecticut River, end of Railroad Ave\n\n" +
+        "Disp Time: 07/15/12 00:19:03",
+
+        "ID:071512-3",
+        "GPS:+41.40681 -72.43185",
+        "CALL:Injured Person  BLS",
+        "ADDR:72 RAILROAD AVE",
+        "CITY:CHESTER",
+        "X:VALLEY RAILROAD",
+        "DATE:07/15/12",
+        "TIME:00:19:03");
+
+    doTest("T49",
+        "(CAD Page for CFS 071512-50) \n" +
+        "http://maps.google.com/maps?q=+41.41271%20-72.41878\n" +
+        "Marine Rescue\n" +
+        "54 SELDEN RD\n" +
+        "Apt: \n" +
+        "LY\n" +
+        "Cross Streets : JOSHUATOWN RD \n" +
+        "Caller: \n" +
+        "Disp Time: 07/15/12 17:34:41",
+
+        "ID:071512-50",
+        "GPS:+41.41271 -72.41878",
+        "CALL:Marine Rescue",
+        "ADDR:54 SELDEN RD",
+        "CITY:LYME",
+        "X:JOSHUATOWN RD",
+        "DATE:07/15/12",
+        "TIME:17:34:41");
+
+    doTest("T50",
+        "(CAD Page for CFS 071512-60) \n" +
+        "http://maps.google.com/maps?q=+41.38833%20-72.52768\n" +
+        "Injured Person  BLS\n" +
+        "317 W MAIN ST\n" +
+        "Apt: 5101\n" +
+        "CH\n" +
+        "Cross Streets : BUTTER JONES RD * ROUTE 148 \n" +
+        "Caller: CHESTER VILLAGE WEST\n" +
+        "Disp Time: 07/15/12 21:00:50",
+
+        "ID:071512-60",
+        "GPS:+41.38833 -72.52768",
+        "CALL:Injured Person  BLS",
+        "ADDR:317 W MAIN ST",
+        "APT:5101",
+        "CITY:CHESTER",
+        "X:BUTTER JONES RD & ROUTE 148",
+        "NAME:CHESTER VILLAGE WEST",
+        "DATE:07/15/12",
+        "TIME:21:00:50");
+
+    doTest("T51",
+        "(CAD Page for CFS 071612-7) \n" +
+        "http://maps.google.com/maps?q=+41.40586%20-72.50800\n" +
+        "Electrical Fire Pole/Wire\n" +
+        "75 CEDAR LAKE RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : DAVID RD * JENNINGS POND RD \n" +
+        "Caller: HAMILTON,ROBERT\n" +
+        "Water\\Info: Standpipe: Cedar Lake Rd/Lakeview Ave\n" +
+        "Boat launch, end of Bishop Road\n\n" +
+        "Disp Time: 07/16/12 06:24:20",
+
+        "ID:071612-7",
+        "GPS:+41.40586 -72.50800",
+        "CALL:Electrical Fire Pole/Wire",
+        "ADDR:75 CEDAR LAKE RD",
+        "CITY:CHESTER",
+        "X:DAVID RD & JENNINGS POND RD",
+        "NAME:HAMILTON,ROBERT",
+        "DATE:07/16/12",
+        "TIME:06:24:20");
+
+    doTest("T52",
+        "(CAD Page for CFS 071712-67) \n" +
+        "http://maps.google.com/maps?q=+41.40202%20-72.44430\n" +
+        "Injured Person  BLS\n" +
+        "132 MAIN ST\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : SCHOOL LANE * MIDDLESEX AVE \n" +
+        "Caller: CHESTERFIELDS HEALTH CAR\n" +
+        "Water\\Info: Hydrant: Main St, west of School La\n" +
+        "Hydrant: Main St, in front of Chesterfield's\n" +
+        "Hydrant: Main St/Mx Av\n\n" +
+        "Disp Time: 07/17/12 18:21:10",
+
+        "ID:071712-67",
+        "GPS:+41.40202 -72.44430",
+        "CALL:Injured Person  BLS",
+        "ADDR:132 MAIN ST",
+        "CITY:CHESTER",
+        "X:SCHOOL LANE & MIDDLESEX AVE",
+        "NAME:CHESTERFIELDS HEALTH CAR",
+        "DATE:07/17/12",
+        "TIME:18:21:10");
+
+    doTest("T53",
+        "(CAD Page for CFS 071812-28) \n" +
+        "http://maps.google.com/maps?q=+41.39415%20-72.51026\n" +
+        "Minor MVA -No Medic\n" +
+        "250 W MAIN ST\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : WINTHROP RD * SYPHER RD \n" +
+        "Caller: ATTMO\n" +
+        "Water\\Info: Draft from Cedar Lake\n\n" +
+        "Disp Time: 07/18/12 13:43:58",
+
+        "ID:071812-28",
+        "GPS:+41.39415 -72.51026",
+        "CALL:Minor MVA -No Medic",
+        "ADDR:250 W MAIN ST",
+        "CITY:CHESTER",
+        "X:WINTHROP RD & SYPHER RD",
+        "NAME:ATTMO",
+        "DATE:07/18/12",
+        "TIME:13:43:58");
+
+    doTest("T54",
+        "(CAD Page for CFS 071812-36) \n" +
+        "http://maps.google.com/maps?q=+41.42893%20-72.45178\n" +
+        "Psychiatric BLS\n" +
+        "268 MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : GOOSE HILL RD * SAYBROOK RD \n" +
+        "Caller: EAGLE LANDING\n" +
+        "Water\\Info: Boat launch, end of Parkers Point La\n\n" +
+        "Disp Time: 07/18/12 14:56:46",
+
+        "ID:071812-36",
+        "GPS:+41.42893 -72.45178",
+        "CALL:Psychiatric BLS",
+        "ADDR:268 MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:GOOSE HILL RD & SAYBROOK RD",
+        "NAME:EAGLE LANDING",
+        "DATE:07/18/12",
+        "TIME:14:56:46");
+
+    doTest("T55",
+        "(CAD Page for CFS 071812-60) \n" +
+        "http://maps.google.com/maps?q=+41.40202%20-72.44430\n" +
+        "LOW BLOOD PRESSURE\n" +
+        "132 MAIN ST\n" +
+        "Apt: 2\n" +
+        "CH       \n" +
+        "Cross Streets : SCHOOL LANE * MIDDLESEX AVE \n" +
+        "Caller: CHESTERFIELDS HEALTH CAR\n" +
+        "Water\\Info: Hydrant: Main St, west of School La\n" +
+        "Hydrant: Main St, in front of Chesterfield's\n" +
+        "Hydrant: Main St/Mx Av\n\n" +
+        "Disp Time: 07/18/12 20:33:15",
+
+        "ID:071812-60",
+        "GPS:+41.40202 -72.44430",
+        "CALL:LOW BLOOD PRESSURE",
+        "ADDR:132 MAIN ST",
+        "APT:2",
+        "CITY:CHESTER",
+        "X:SCHOOL LANE & MIDDLESEX AVE",
+        "NAME:CHESTERFIELDS HEALTH CAR",
+        "DATE:07/18/12",
+        "TIME:20:33:15");
+
+    doTest("T56",
+        "(CAD Page for CFS 071912-17) \n" +
+        "http://maps.google.com/maps?q=+41.38833%20-72.52768\n" +
+        "GENERAL SICKNESS\n" +
+        "317 W MAIN ST\n" +
+        "Apt: 1007\n" +
+        "CH       \n" +
+        "Cross Streets : BUTTER JONES RD * ROUTE 148 \n" +
+        "Caller: CHESTER VILLAGE WEST\n" +
+        "Water\\Info: Draft from Cedar Lake\n\n" +
+        "Disp Time: 07/19/12 09:52:21",
+
+        "ID:071912-17",
+        "GPS:+41.38833 -72.52768",
+        "CALL:GENERAL SICKNESS",
+        "ADDR:317 W MAIN ST",
+        "APT:1007",
+        "CITY:CHESTER",
+        "X:BUTTER JONES RD & ROUTE 148",
+        "NAME:CHESTER VILLAGE WEST",
+        "DATE:07/19/12",
+        "TIME:09:52:21");
+
+    doTest("T57",
+        "(CAD Page for CFS 072012-50) \n" +
+        "http://maps.google.com/maps?q=+41.45723%20-72.52968\n" +
+        "MVA Medic ALS\n" +
+        "2 N89\n" +
+        "Apt: \n" +
+        "HD       \n" +
+        "Cross Streets : BEAVER MEADOW RD * ENTR 8 NB \n" +
+        "Caller: VERIZON WIRELESS\n" +
+        "Disp Time: 07/20/12 18:27:33",
+
+        "ID:072012-50",
+        "GPS:+41.45723 -72.52968",
+        "CALL:MVA Medic ALS",
+        "ADDR:2 N89",
+        "CITY:HADDAM",
+        "X:BEAVER MEADOW RD & ENTR 8 NB",
+        "NAME:VERIZON WIRELESS",
+        "DATE:07/20/12",
+        "TIME:18:27:33");
+
+    doTest("T58",
+        "(CAD Page for CFS 072112-10) \n" +
+        "http://maps.google.com/maps?q=+41.39529%20-72.47178\n" +
+        "Respiratory Distress ALS\n" +
+        "23 HOOP POLE HILL RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : W MAIN ST * PINNACLE LANE \n" +
+        "Caller: DEROO, ROBERT\n" +
+        "Water\\Info: Waterhole: West Main/Hoophole Hill\n" +
+        "Waterhole: West Main/West Wig Hill\n\n" +
+        "Disp Time: 07/21/12 07:17:36",
+
+        "ID:072112-10",
+        "GPS:+41.39529 -72.47178",
+        "CALL:Respiratory Distress ALS",
+        "ADDR:23 HOOP POLE HILL RD",
+        "CITY:CHESTER",
+        "X:W MAIN ST & PINNACLE LANE",
+        "NAME:DEROO, ROBERT",
+        "DATE:07/21/12",
+        "TIME:07:17:36");
+
+    doTest("T59",
+        "(CAD Page for CFS 072112-39) \n" +
+        "http://maps.google.com/maps?q=+41.39946%20-72.47517\n" +
+        "Advanced Life Support\n" +
+        "3 S WIG HILL RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : W MAIN ST * TURKEY HILL RD \n" +
+        "Caller: HEALTH MGMT,RYDERS\n" +
+        "Water\\Info: Standpipe: West Main St/Hoopole Hill\n" +
+        "Pond: South Wig/Wig Hill Rd\n\n" +
+        "Disp Time: 07/21/12 14:31:19",
+
+        "ID:072112-39",
+        "GPS:+41.39946 -72.47517",
+        "CALL:Advanced Life Support",
+        "ADDR:3 S WIG HILL RD",
+        "CITY:CHESTER",
+        "X:W MAIN ST & TURKEY HILL RD",
+        "NAME:HEALTH MGMT,RYDERS",
+        "DATE:07/21/12",
+        "TIME:14:31:19");
+
+    doTest("T60",
+        "(CAD Page for CFS 072212-28) \n" +
+        "http://maps.google.com/maps?q=+41.40202%20-72.44430\n" +
+        "Injured Person  BLS\n" +
+        "132 MAIN ST\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : SCHOOL LANE * MIDDLESEX AVE \n" +
+        "Caller: CHESTERFIELDS HEALTH CAR\n" +
+        "Water\\Info: Hydrant: Main St, west of School La\n" +
+        "Hydrant: Main St, in front of Chesterfield's\n" +
+        "Hydrant: Main St/Mx Av\n\n" +
+        "Disp Time: 07/22/12 10:53:45",
+
+        "ID:072212-28",
+        "GPS:+41.40202 -72.44430",
+        "CALL:Injured Person  BLS",
+        "ADDR:132 MAIN ST",
+        "CITY:CHESTER",
+        "X:SCHOOL LANE & MIDDLESEX AVE",
+        "NAME:CHESTERFIELDS HEALTH CAR",
+        "DATE:07/22/12",
+        "TIME:10:53:45");
+
+    doTest("T61",
+        "(CAD Page for CFS 072212-28) \n" +
+        "http://maps.google.com/maps?q=+41.40202%20-72.44430\n" +
+        "ALTERED MENTAL STATUS\n" +
+        "132 MAIN ST\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : SCHOOL LANE * MIDDLESEX AVE \n" +
+        "Caller: CHESTERFIELDS HEALTH CAR\n" +
+        "Water\\Info: Hydrant: Main St, west of School La\n" +
+        "Hydrant: Main St, in front of Chesterfield's\n" +
+        "Hydrant: Main St/Mx Av\n\n" +
+        "Disp Time: 07/22/12 10:53:45",
+
+        "ID:072212-28",
+        "GPS:+41.40202 -72.44430",
+        "CALL:ALTERED MENTAL STATUS",
+        "ADDR:132 MAIN ST",
+        "CITY:CHESTER",
+        "X:SCHOOL LANE & MIDDLESEX AVE",
+        "NAME:CHESTERFIELDS HEALTH CAR",
+        "DATE:07/22/12",
+        "TIME:10:53:45");
+
+    doTest("T62",
+        "(CAD Page for CFS 072212-51) \n" +
+        "http://maps.google.com/maps?q=+41.40673%20-72.43442\n" +
+        "Basic Life Support \n" +
+        "RAILROAD AVE and GROTE RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : MARINA VIEW DR * GROTE RD \n" +
+        "Caller: \n" +
+        "Disp Time: 07/22/12 14:05:50",
+
+        "ID:072212-51",
+        "GPS:+41.40673 -72.43442",
+        "CALL:Basic Life Support",
+        "ADDR:RAILROAD AVE and GROTE RD",
+        "MADDR:RAILROAD AVE & GROTE RD",
+        "CITY:CHESTER",
+        "X:MARINA VIEW DR & GROTE RD",
+        "DATE:07/22/12",
+        "TIME:14:05:50");
+
+    doTest("T63",
+        "(CAD Page for CFS 072312-13) \n" +
+        "http://maps.google.com/maps?q=+41.39405%20-72.46024\n" +
+        "Chest Pain ALS\n" +
+        "41 BOKUM RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : GORHAM RD * W BRIDGE ST \n" +
+        "Caller: MARVIN, SALLY\n" +
+        "Water\\Info: Hydrant: Bokum Road/West Main\n" +
+        "Hydrant: W Bridge St/W Bridge La, DR\n\n" +
+        "Disp Time: 07/23/12 08:06:52",
+
+        "ID:072312-13",
+        "GPS:+41.39405 -72.46024",
+        "CALL:Chest Pain ALS",
+        "ADDR:41 BOKUM RD",
+        "CITY:CHESTER",
+        "X:GORHAM RD & W BRIDGE ST",
+        "NAME:MARVIN, SALLY",
+        "DATE:07/23/12",
+        "TIME:08:06:52");
+
+    doTest("T64",
+        "(CAD Page for CFS 072312-42) \n" +
+        "http://maps.google.com/maps?q=+41.40202%20-72.44430\n" +
+        "Injured Person  BLS\n" +
+        "132 MAIN ST\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : SCHOOL LANE * MIDDLESEX AVE \n" +
+        "Caller: CHESTERFIELDS HEALTH CAR\n" +
+        "Water\\Info: Hydrant: Main St, west of School La\n" +
+        "Hydrant: Main St, in front of Chesterfield's\n" +
+        "Hydrant: Main St/Mx Av\n\n" +
+        "Disp Time: 07/23/12 16:28:23",
+
+        "ID:072312-42",
+        "GPS:+41.40202 -72.44430",
+        "CALL:Injured Person  BLS",
+        "ADDR:132 MAIN ST",
+        "CITY:CHESTER",
+        "X:SCHOOL LANE & MIDDLESEX AVE",
+        "NAME:CHESTERFIELDS HEALTH CAR",
+        "DATE:07/23/12",
+        "TIME:16:28:23");
+
+    doTest("T65",
+        "(CAD Page for CFS 072312-67) \n" +
+        "http://maps.google.com/maps?q=+41.40302%20-72.45104\n" +
+        "Injured Person  BLS\n" +
+        "1 MAIN ST\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : WATER ST * SPRING ST \n" +
+        "Caller: VERIZON WIRELESS\n" +
+        "Water\\Info: Hydrant: Main/Water Streets\n" +
+        "Hydrant: Main/Maple Streets\n\n" +
+        "Disp Time: 07/23/12 19:50:40",
+
+        "ID:072312-67",
+        "GPS:+41.40302 -72.45104",
+        "CALL:Injured Person  BLS",
+        "ADDR:1 MAIN ST",
+        "CITY:CHESTER",
+        "X:WATER ST & SPRING ST",
+        "NAME:VERIZON WIRELESS",
+        "DATE:07/23/12",
+        "TIME:19:50:40");
+
+    doTest("T66",
+        "(CAD Page for CFS 072412-36) \n" +
+        "http://maps.google.com/maps?q=+41.41880%20-72.44481\n" +
+        "Unconcious/Unresponsive ALS\n" +
+        "189 MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : KINGS HWY * CASTLE VIEW DR \n" +
+        "Caller: VERIZON WIRELESS\n" +
+        "Water\\Info: Hydrant: Mx Ave/Kings Hwy\n" +
+        "Hydrant: Mx Ave at shopping Center\n\n" +
+        "Disp Time: 07/24/12 12:50:07",
+
+        "ID:072412-36",
+        "GPS:+41.41880 -72.44481",
+        "CALL:Unconcious/Unresponsive ALS",
+        "ADDR:189 MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:KINGS HWY & CASTLE VIEW DR",
+        "NAME:VERIZON WIRELESS",
+        "DATE:07/24/12",
+        "TIME:12:50:07");
+
+    doTest("T67",
+        "(CAD Page for CFS 072412-39) \n" +
+        "http://maps.google.com/maps?q=+41.40600%20-72.44194\n" +
+        "Psychiatric BLS\n" +
+        "86 MIDDLESEX AVE\n" +
+        "Apt: \n" +
+        "CH\n" +
+        "Cross Streets : OLD DEPOT RD * GROTE RD \n" +
+        "Caller: GATEWAY COMMUNITY TREATM\n" +
+        "Disp Time: 07/24/12 13:30:12",
+
+        "ID:072412-39",
+        "GPS:+41.40600 -72.44194",
+        "CALL:Psychiatric BLS",
+        "ADDR:86 MIDDLESEX AVE",
+        "CITY:CHESTER",
+        "X:OLD DEPOT RD & GROTE RD",
+        "NAME:GATEWAY COMMUNITY TREATM",
+        "DATE:07/24/12",
+        "TIME:13:30:12");
+
+    doTest("T68",
+        "(CAD Page for CFS 072412-41) \n" +
+        "http://maps.google.com/maps?q=+41.38834%20-72.50771\n" +
+        "HIGH BLOOD PRESSURE\n" +
+        "51 WINTHROP RD\n" +
+        "Apt: \n" +
+        "CH       \n" +
+        "Cross Streets : PINE KNOLL DR * AVIATION DR \n" +
+        "Caller: WHELEN ENGINEERING CO\n" +
+        "Water\\Info: Standpipe: pond at Whelen\n\n" +
+        "Water\\Info: Draft from Cedar Lake\n" +
+        "Standpipe: pond at Whelen\n\n" +
+        "Disp Time: 07/24/12 13:41:49",
+
+        "ID:072412-41",
+        "GPS:+41.38834 -72.50771",
+        "CALL:HIGH BLOOD PRESSURE",
+        "ADDR:51 WINTHROP RD",
+        "CITY:CHESTER",
+        "X:PINE KNOLL DR & AVIATION DR",
+        "NAME:WHELEN ENGINEERING CO",
+        "DATE:07/24/12",
+        "TIME:13:41:49");
 
   }
   
