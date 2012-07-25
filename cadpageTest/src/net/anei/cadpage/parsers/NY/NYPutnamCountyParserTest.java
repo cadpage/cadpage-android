@@ -134,6 +134,16 @@ public class NYPutnamCountyParserTest extends BaseParserTest {
         "SRC:17",
         "X:TICONDEROGA  RD/BALDWIN RD",
         "INFO:SMOKE INVESTIGATION/CALL");
+
+    doTest("T14",
+        "FRM:messaging@iamresponding.com\n" +
+        "SUBJ:23 Putnam Lake\n" +
+        "MSG:TRAFFIC/TRANSPORTATION ACCIDEN||  |STA 23 XS FAIRFIELD  DR/S LAKEDR|NARR WPH1-E 2 CAR PIAA\r\n",
+
+        "CALL:TRAFFIC/TRANSPORTATION ACCIDEN",
+        "SRC:23",
+        "ADDR:FAIRFIELD  DR & S LAKEDR",
+        "INFO:WPH1-E 2 CAR PIAA");
  
   }
   
