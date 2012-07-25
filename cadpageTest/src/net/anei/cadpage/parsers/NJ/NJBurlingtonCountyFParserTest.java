@@ -128,7 +128,100 @@ public class NJBurlingtonCountyFParserTest extends BaseParserTest {
         "INFO:TENANT HAVING STOMACH PAIN",
         "TIME:11:08:43",
         "DATE:06/27/2012");
-  
+    doTest("T12",
+        "[DISPATCH]EMS E EMS Call LOC: 907 PLEASANT VALLEY AV VEN: Mt Laurel XS: EASTGATE DR/S CHURCH ST NATURE: FEM DIZZY & LIGHT HEADED 13:48:34 07/10/2012",
+        "CALL:EMS E EMS Call",
+        "ADDR:907 PLEASANT VALLEY AV",
+        "MADDR:907 PLEASANT VALLEY AVE",
+        "CITY:Mount Laurel",
+        "X:EASTGATE DR/S CHURCH ST",
+        "INFO:FEM DIZZY & LIGHT HEADED",
+        "TIME:13:48:34",
+        "DATE:07/10/2012");
+
+    doTest("T13",
+        "[DISPATCH]EMS E EMS Call LOC: 110 LAUREL LA VEN: Mt Laurel XS: LAUREL LA/HOLLY LA NATURE: FALL VIC,, LACERATION TO HEAD 18:16:26 07/05/2012",
+        "CALL:EMS E EMS Call",
+        "ADDR:110 LAUREL LA",
+        "MADDR:110 LAUREL LN",
+        "CITY:Mount Laurel",
+        "X:LAUREL LA/HOLLY LA",
+        "INFO:FALL VIC,, LACERATION TO HEAD",
+        "TIME:18:16:26",
+        "DATE:07/05/2012");
+
+    doTest("T14",
+        "[DISPATCH]132 E UnkMedEmrg LOC: 159 BIRCHFIELD CT A VEN: Mt Laurel XS: BIRCHFIELD DR/DEAD END NATURE: 71 YEAR OLD FEM/ACTIVATED ALERT/RUSKIN, 18:51:28 07/05/2012",
+        "CALL:132 E UnkMedEmrg",
+        "ADDR:159 BIRCHFIELD CT A",
+        "CITY:Mount Laurel",
+        "X:BIRCHFIELD DR/DEAD END",
+        "INFO:71 YEAR OLD FEM/ACTIVATED ALERT/RUSKIN,",
+        "TIME:18:51:28",
+        "DATE:07/05/2012");
+
+    doTest("T15",
+        "[DISPATCH]EMS E EMS Call LOC: 13 GOLDENROD DR VEN: Mt Laurel XS: MORNING GLORY DR/ NATURE: F/FEELING WEAK 16:06:14 07/13/2012",
+        "CALL:EMS E EMS Call",
+        "ADDR:13 GOLDENROD DR",
+        "CITY:Mount Laurel",
+        "X:MORNING GLORY DR/",
+        "INFO:F/FEELING WEAK",
+        "TIME:16:06:14",
+        "DATE:07/13/2012");
+
+    doTest("T16",
+        "[DISPATCH]EMS E EMS Call LOC: 3740 RT295 SB VEN: Mt Laurel XS: RT73 EXITS/RT38 EXITS NATURE: M/V ACCIDENT SHOULDER INJURY BLS ONLY 15:44:57 07/14/2012",
+        "CALL:EMS E EMS Call",
+        "ADDR:3740 RT295 SB",
+        "MADDR:3740 RT 295",
+        "CITY:Mount Laurel",
+        "X:RT73 EXITS/RT38 EXITS",
+        "INFO:M/V ACCIDENT SHOULDER INJURY BLS ONLY",
+        "TIME:15:44:57",
+        "DATE:07/14/2012");
+
+    doTest("T17",
+        "[DISPATCH]EMS E EMS Call LOC: 250 CENTURY PY VEN: Mt Laurel XS: FELLOWSHIP RD/FELLOWSHIP RD NATURE: EMPLOYEE W/HEADACHE / VOMITING // 12:48:33 07/18/2012",
+        "CALL:EMS E EMS Call",
+        "ADDR:250 CENTURY PY",
+        "MADDR:250 CENTURY PKWY",
+        "CITY:Mount Laurel",
+        "X:FELLOWSHIP RD/FELLOWSHIP RD",
+        "INFO:EMPLOYEE W/HEADACHE / VOMITING",
+        "TIME:12:48:33",
+        "DATE:07/18/2012");
+
+    doTest("T18",
+        "[DISPATCH]EMS E EMS Call LOC: 101 DIEMER DR VEN: Mt Laurel XS: CRAWFORD PL/PACILLI PL NATURE: CLLR COMING DOWN FROM ALCOHOL WITHDRAWAL 18:24:46 07/18/2012",
+        "CALL:EMS E EMS Call",
+        "ADDR:101 DIEMER DR",
+        "CITY:Mount Laurel",
+        "X:CRAWFORD PL/PACILLI PL",
+        "INFO:CLLR COMING DOWN FROM ALCOHOL WITHDRAWAL",
+        "TIME:18:24:46",
+        "DATE:07/18/2012");
+
+    doTest("T19",
+        "[DISPATCH]EMS E EMS Call LOC: 121 WAVERLY AV VEN: Mt Laurel XS: FEDERAL ST/CHURCH RD NATURE: MVA OCCURED IN D10,,,ONE SUBJ W/FACIAL 13:40:27 06/25/2012",
+        "CALL:EMS E EMS Call",
+        "ADDR:121 WAVERLY AV",
+        "MADDR:121 WAVERLY AVE",
+        "CITY:Mount Laurel",
+        "X:FEDERAL ST/CHURCH RD",
+        "INFO:MVA OCCURED IN D10,,,ONE SUBJ W/FACIAL",
+        "TIME:13:40:27",
+        "DATE:06/25/2012");
+
+    doTest("T20",
+        "[DISPATCH]EMS E EMS Call LOC: 5711 ADELAIDE DR VEN: Mt Laurel XS: LINDALE DR/LINDALE DR NATURE: FEM POSS STROKE 08:17:02 06/25/2012",
+        "CALL:EMS E EMS Call",
+        "ADDR:5711 ADELAIDE DR",
+        "CITY:Mount Laurel",
+        "X:LINDALE DR/LINDALE DR",
+        "INFO:FEM POSS STROKE",
+        "TIME:08:17:02",
+        "DATE:06/25/2012");
   }
   
   public static void main(String[] args) {
