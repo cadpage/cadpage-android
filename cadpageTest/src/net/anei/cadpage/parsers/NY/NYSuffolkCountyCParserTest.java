@@ -447,6 +447,26 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "X:Newtown Road",
         "TIME:12:33:48");
 
+    doTest("T2",
+        "Ambulance Call, Victim of a Fall: E/M at 6 Rowland Court, Hampton Bays  c/s: Lynn Avenue . . 13:32:36",
+        "CALL:Ambulance Call, Victim of a Fall",
+        "INFO:E/M",
+        "ADDR:6 Rowland Court",
+        "CITY:Hampton Bays",
+        "X:Lynn Avenue",
+        "TIME:13:32:36");
+
+    doTest("T3",
+        "Ambulance Call, Siezures: *** 2nd alarm\r\n" +
+        "a/m siezures @ RUMBA at 43 Canoe Place Road South, Hampton Bays  c/s: Carter Avenue . . 19:57:19",
+
+        "CALL:Ambulance Call, Siezures",
+        "INFO:*** 2nd alarm a/m siezures @ RUMBA",
+        "ADDR:43 Canoe Place Road South",
+        "CITY:Hampton Bays",
+        "X:Carter Avenue",
+        "TIME:19:57:19");
+
   }
   
   
