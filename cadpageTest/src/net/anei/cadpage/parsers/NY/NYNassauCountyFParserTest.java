@@ -595,10 +595,213 @@ public class NYNassauCountyFParserTest extends BaseParserTest {
         "X:WYNSUM AVE & JUDITH DR",
         "INFO:UNRESP FEMALE",
         "PHONE:1-516-324-2379");
+
+    doTest("T51",
+        "[* ] 01  TRAN\r\n5:06 PM\r\n2162 REDMOND ROAD\r\nNO MERRICK\r\nWHITTIER AVE\r\nTAFT AVE\r\nF/FELL\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n",
+        "CALL:01  TRAN",
+        "TIME:17:06:00",
+        "ADDR:2162 REDMOND ROAD",
+        "CITY:NO MERRICK",
+        "X:WHITTIER AVE & TAFT AVE",
+        "INFO:F/FELL",
+        "PHONE:1-516-324-2379");
+
+    doTest("T52",
+        "[* ] MUTUAID\r\n5:53 PM\r\n58 SHONNARD AVE\r\nFREEPORT\r\nCOMMERCIAL ST\r\nPARSONS AVE\r\n\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n",
+        "CALL:MUTUAID",
+        "TIME:17:53:00",
+        "ADDR:58 SHONNARD AVE",
+        "CITY:FREEPORT",
+        "X:COMMERCIAL ST & PARSONS AVE",
+        "PHONE:1-516-324-2379");
+
+    doTest("T53",
+        "[* ] MULTIPL\r\n" +
+        "5:58 PM\r\n" +
+        "1802 NEWBRIDGE ROAD\r\n" +
+        "NO BELLMORE\r\n" +
+        "CATHERINE PL\r\n" +
+        "KENNETH AVE\r\n" +
+        "STOMACH PAINS\r\n" +
+        "1-516-324-2379   support@2sig.com\r\n" +
+        "\r\n\n",
+
+        "CALL:MULTIPL",
+        "TIME:17:58:00",
+        "ADDR:1802 NEWBRIDGE ROAD",
+        "CITY:NO BELLMORE",
+        "X:CATHERINE PL & KENNETH AVE",
+        "INFO:STOMACH PAINS",
+        "PHONE:1-516-324-2379");
+
+    doTest("T54",
+        "[* ] RESCUE\r\n7:42 PM\r\n1667 CENTRAL AVE\r\nNO MERRICK\r\n3RD AVE\r\n2ND AVE\r\nSICK FEMALE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n",
+        "CALL:RESCUE",
+        "TIME:19:42:00",
+        "ADDR:1667 CENTRAL AVE",
+        "CITY:NO MERRICK",
+        "X:3RD AVE & 2ND AVE",
+        "INFO:SICK FEMALE",
+        "PHONE:1-516-324-2379");
+
+    doTest("T55",
+        "[* ] RESCUE\r\n" +
+        "2:45 PM\r\n" +
+        "19 JUNIPER AVE\r\n" +
+        "MERRICK\r\n" +
+        "ALFRED (W) ROAD\r\n" +
+        "ALFRED (E) ROAD\r\n" +
+        "WEAK FEMALE\r\n" +
+        "1-516-324-2379   support@2sig.com\r\n" +
+        "\r\n\n",
+
+        "CALL:RESCUE",
+        "TIME:14:45:00",
+        "ADDR:19 JUNIPER AVE",
+        "CITY:MERRICK",
+        "X:ALFRED (W) ROAD & ALFRED (E) ROAD",
+        "INFO:WEAK FEMALE",
+        "PHONE:1-516-324-2379");
+
+    doTest("T56",
+        "[* ] RESCUE\r\n10:08 AM\r\n1667 CENTRAL AVE\r\nNO MERRICK\r\n3RD AVE\r\n2ND AVE\r\nSEIZURES\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n",
+        "CALL:RESCUE",
+        "TIME:10:08:00",
+        "ADDR:1667 CENTRAL AVE",
+        "CITY:NO MERRICK",
+        "X:3RD AVE & 2ND AVE",
+        "INFO:SEIZURES",
+        "PHONE:1-516-324-2379");
+
+    doTest("T57",
+        "[* ] MULTIPL\r\n" +
+        "10:36 AM\r\n" +
+        "1150 LITTLE WHALENECK ROAD\r\n" +
+        "NO MERRICK\r\n" +
+        "WILSON AVE\r\n" +
+        "SUFFOLK DR\r\n" +
+        "DIFF BREATHING\r\n" +
+        "1-516-324-2379   support@2sig.com\r\n" +
+        "\r\n\n",
+
+        "CALL:MULTIPL",
+        "TIME:10:36:00",
+        "ADDR:1150 LITTLE WHALENECK ROAD",
+        "CITY:NO MERRICK",
+        "X:WILSON AVE & SUFFOLK DR",
+        "INFO:DIFF BREATHING",
+        "PHONE:1-516-324-2379");
+
+    doTest("T58",
+        "[* ] RESCUE\r\n10:05 AM\r\n2065 FREEMAN AVE\r\nBELLMORE\r\nWOODBINE AVE\r\nSWENSON PL\r\nSICK FEMALE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n",
+        "CALL:RESCUE",
+        "TIME:10:05:00",
+        "ADDR:2065 FREEMAN AVE",
+        "CITY:BELLMORE",
+        "X:WOODBINE AVE & SWENSON PL",
+        "INFO:SICK FEMALE",
+        "PHONE:1-516-324-2379");
+
+    doTest("T59",
+        "[* ] RESCUE\r\n11:37 PM\r\n165 STUYVESANT AVE\r\nMERRICK\r\nMADISON ST\r\nBABYLON TPK\r\nBACK PAIN\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n",
+        "CALL:RESCUE",
+        "TIME:23:37:00",
+        "ADDR:165 STUYVESANT AVE",
+        "CITY:MERRICK",
+        "X:MADISON ST & BABYLON TPK",
+        "INFO:BACK PAIN",
+        "PHONE:1-516-324-2379");
+
+    doTest("T60",
+        "[* ] RESCUE\r\n" +
+        "9:35 AM\r\n" +
+        "1802 NEWBRIDGE ROAD\r\n" +
+        "NO BELLMORE\r\n" +
+        "CATHERINE PL\r\n" +
+        "KENNETH AVE\r\n" +
+        "CHEST PAINS/SICK FEMALE\r\n" +
+        "1-516-324-2379   support@2sig.com\r\n" +
+        "\r\n\n",
+
+        "CALL:RESCUE",
+        "TIME:09:35:00",
+        "ADDR:1802 NEWBRIDGE ROAD",
+        "CITY:NO BELLMORE",
+        "X:CATHERINE PL & KENNETH AVE",
+        "INFO:CHEST PAINS/SICK FEMALE",
+        "PHONE:1-516-324-2379");
+
+    doTest("T61",
+        "[* ] RESCUE\r\n12:13 PM\r\n2065 FREEMAN AVE\r\nBELLMORE\r\nWOODBINE AVE\r\nSWENSON PL\r\nSICK FEMALE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n",
+        "CALL:RESCUE",
+        "TIME:12:13:00",
+        "ADDR:2065 FREEMAN AVE",
+        "CITY:BELLMORE",
+        "X:WOODBINE AVE & SWENSON PL",
+        "INFO:SICK FEMALE",
+        "PHONE:1-516-324-2379");
+
+    doTest("T62",
+        "[* ] RESCUE\r\n" +
+        "3:20 PM\r\n" +
+        "2809 SCHOOL ST\r\n" +
+        "BELLMORE\r\n" +
+        "BELLMORE AVE\r\n" +
+        "ST MARKS (S) AVE\r\n" +
+        "UNABLE TO URINATE\r\n" +
+        "1-516-324-2379   support@2sig.com\r\n" +
+        "\r\n\n",
+
+        "CALL:RESCUE",
+        "TIME:15:20:00",
+        "ADDR:2809 SCHOOL ST",
+        "CITY:BELLMORE",
+        "X:BELLMORE AVE & ST MARKS (S) AVE",
+        "INFO:UNABLE TO URINATE",
+        "PHONE:1-516-324-2379");
+
+    doTest("T63",
+        "[* ] RESCUE\r\n9:28 PM\r\n2908 CHERYL ROAD\r\nMERRICK\r\nWYNSUM AVE\r\nJUDITH DR\r\nUNRESP FEMALE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n",
+        "CALL:RESCUE",
+        "TIME:21:28:00",
+        "ADDR:2908 CHERYL ROAD",
+        "CITY:MERRICK",
+        "X:WYNSUM AVE & JUDITH DR",
+        "INFO:UNRESP FEMALE",
+        "PHONE:1-516-324-2379");
+
+    doTest("T64",
+        "[* ] RESCUE\r\n" +
+        "9:36 AM\r\n" +
+        "2527 BELLMORE AVE\r\n" +
+        "BELLMORE\r\n" +
+        "MERRICK ROAD\r\n" +
+        "PUBLIC HWY\r\n" +
+        "DEHYDRATED MALE\r\n" +
+        "1-516-324-2379   support@2sig.com\r\n" +
+        "\r\n\n",
+
+        "CALL:RESCUE",
+        "TIME:09:36:00",
+        "ADDR:2527 BELLMORE AVE",
+        "CITY:BELLMORE",
+        "X:MERRICK ROAD & PUBLIC HWY",
+        "INFO:DEHYDRATED MALE",
+        "PHONE:1-516-324-2379");
+
+    doTest("T65",
+        "[* ] RESCUE\r\n12:45 PM\r\n12 BRIARCLIFF DR\r\nNO MERRICK\r\nWINDSOR PL\r\nWILLIAM ST\r\nSTROKE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n",
+        "CALL:RESCUE",
+        "TIME:12:45:00",
+        "ADDR:12 BRIARCLIFF DR",
+        "CITY:NO MERRICK",
+        "X:WINDSOR PL & WILLIAM ST",
+        "INFO:STROKE",
+        "PHONE:1-516-324-2379");
    
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyFParserTest().generateTests("T1");
+    new NYNassauCountyFParserTest().generateTests("T51");
   }
 }
