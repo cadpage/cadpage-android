@@ -71,7 +71,7 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911center@co.genesee.ny.us,7771";
+    return "911center@co.genesee.ny.us,777";
   }
 
   @Override
