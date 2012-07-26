@@ -70,6 +70,21 @@ Sender: 2ndSignal@2sig.com
 (*) RESCUE\n12:13 PM\n2065 FREEMAN AVE\nBELLMORE\nWOODBINE AVE\nSWENSON PL\nSICK FEMALE\n1-516-324-2379   support@2sig.com
 (*) RESCUE\n3:20 PM\n2809 SCHOOL ST\nBELLMORE\nBELLMORE AVE\nST MARKS (S) AVE\nUNABLE TO URINATE\n1-516-324-2379   support@2sig.com
 (*) RESCUE\n9:28 PM\n2908 CHERYL ROAD\nMERRICK\nWYNSUM AVE\nJUDITH DR\nUNRESP FEMALE\n1-516-324-2379   support@2sig.com\n\n
+[* ] 01  TRAN\r\n5:06 PM\r\n2162 REDMOND ROAD\r\nNO MERRICK\r\nWHITTIER AVE\r\nTAFT AVE\r\nF/FELL\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] MUTUAID\r\n5:53 PM\r\n58 SHONNARD AVE\r\nFREEPORT\r\nCOMMERCIAL ST\r\nPARSONS AVE\r\n\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] MULTIPL\r\n5:58 PM\r\n1802 NEWBRIDGE ROAD\r\nNO BELLMORE\r\nCATHERINE PL\r\nKENNETH AVE\r\nSTOMACH PAINS\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] RESCUE\r\n7:42 PM\r\n1667 CENTRAL AVE\r\nNO MERRICK\r\n3RD AVE\r\n2ND AVE\r\nSICK FEMALE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] RESCUE\r\n2:45 PM\r\n19 JUNIPER AVE\r\nMERRICK\r\nALFRED (W) ROAD\r\nALFRED (E) ROAD\r\nWEAK FEMALE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] RESCUE\r\n10:08 AM\r\n1667 CENTRAL AVE\r\nNO MERRICK\r\n3RD AVE\r\n2ND AVE\r\nSEIZURES\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] MULTIPL\r\n10:36 AM\r\n1150 LITTLE WHALENECK ROAD\r\nNO MERRICK\r\nWILSON AVE\r\nSUFFOLK DR\r\nDIFF BREATHING\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] RESCUE\r\n10:05 AM\r\n2065 FREEMAN AVE\r\nBELLMORE\r\nWOODBINE AVE\r\nSWENSON PL\r\nSICK FEMALE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] RESCUE\r\n11:37 PM\r\n165 STUYVESANT AVE\r\nMERRICK\r\nMADISON ST\r\nBABYLON TPK\r\nBACK PAIN\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] RESCUE\r\n9:35 AM\r\n1802 NEWBRIDGE ROAD\r\nNO BELLMORE\r\nCATHERINE PL\r\nKENNETH AVE\r\nCHEST PAINS/SICK FEMALE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] RESCUE\r\n12:13 PM\r\n2065 FREEMAN AVE\r\nBELLMORE\r\nWOODBINE AVE\r\nSWENSON PL\r\nSICK FEMALE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] RESCUE\r\n3:20 PM\r\n2809 SCHOOL ST\r\nBELLMORE\r\nBELLMORE AVE\r\nST MARKS (S) AVE\r\nUNABLE TO URINATE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] RESCUE\r\n9:28 PM\r\n2908 CHERYL ROAD\r\nMERRICK\r\nWYNSUM AVE\r\nJUDITH DR\r\nUNRESP FEMALE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] RESCUE\r\n9:36 AM\r\n2527 BELLMORE AVE\r\nBELLMORE\r\nMERRICK ROAD\r\nPUBLIC HWY\r\nDEHYDRATED MALE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
+[* ] RESCUE\r\n12:45 PM\r\n12 BRIARCLIFF DR\r\nNO MERRICK\r\nWINDSOR PL\r\nWILLIAM ST\r\nSTROKE\r\n1-516-324-2379   support@2sig.com\r\n\r\n\n
 
 */
 
@@ -91,7 +106,7 @@ public class NYNassauCountyFParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("*")) return false;
+    if (!subject.trim().equals("*")) return false;
     if (body.endsWith(" support@2sig.com")) {
       body = body.substring(0,body.length()-17).trim();
     }

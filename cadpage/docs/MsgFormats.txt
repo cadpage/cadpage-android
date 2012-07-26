@@ -922,7 +922,9 @@ SICK - NO PRIORITY SYMPTOMS (COMPLAINT CONDITIONS 2-11 NOT IDENTIFIED) code: 26-
 BURNS (SCALDS) / EXPLOSION - FIRE ALARM (UNKNOWN SITUATION) code: 7-A-2 at: 11 BRADDOCK CT c/s: STRATHMORE CT d/t: 06/28 19:37:00
 *******************************************************************************
 Suffolk County, NY (NYSuffolkCountyEParser)
-/RELAY /201 TROT BROOK LANE FEMALE FACIAL INJURY\n/FROM RELAY /1035 PARKWAY\nFEMALE WITH CHEST PAINS\n/FROM RELAY /641 NORTHVILLE TPKE & FISHEL\nFEMALE IS SICK\n/FROM RELAY /MERCY HIGH SCHOOL\nYOUNG ADULT HEAD INJURY\nWEIGHT ROOM\n/FROM RELAY /ATLANTIS MARINE WORLD\nGIFT SHOP  FEMALE INJURIES FROM A FALL\n/FROM RELAY /819 E MAIN\nDEPT OF SOCIAL SVCS\nPOSSIBLE OVER DOSE\n/FROM RELAY /UNITED COMPREHENSIVE CARE\n170 OLD COUNTRY RD\nADULT MALE TROUBLE BREATHING\n/FROM RELAY /TANGER 2 STE 101 NY&CO\nFEMALE SUBJECT ILL\n*******************************************************************************
+/RELAY /201 TROT BROOK LANE FEMALE FACIAL INJURY\n
+/FROM RELAY /1035 PARKWAY\nFEMALE WITH CHEST PAINS\n
+/FROM RELAY /641 NORTHVILLE TPKE & FISHEL\nFEMALE IS SICK\n
 *******************************************************************************
 * DispatchProphoenixParser
 *******************************************************************************
@@ -4775,37 +4777,6 @@ Contact: "sta32jp@yahoo.com" <sta32jp@yahoo.com>
 Sender: linn911@linnsheriff.org
 FRM:linn911@linnsheriff.org\nSUBJ:!\nMSG:DIABETIC PROB/32717 OLD MILL RD/06-08-12/21:20:12/63 year old, Male, Conscious, Breathing.  Diabetic/E32/
 **********************************************************
-San Joaquin County, CA
-Contact: John <john499@live.com>
-1 of 2
-FRM:LifecomCellPaging@amr.net
-MSG:BS18-1    ZUM-110502      Medical Aid                     3232 E Munford Ave                           
-(Con't) 2 of 2
-     Dead End/S STATE ROUBldg:            Apt: 3
-(End)
-
-FRM:LifecomCellPaging@amr.net
-MSG:BS18-1    Dispatched: 00:45:33 Enroute: 00:48:05 On Scene: 01:00:47 AOR: 01:20:35
-
- 1 of 2
-FRM:LifecomCellPaging@amr.net
-MSG:BS18-1    ZUM-110503      Medical Aid                     1840 S B St                                  
-(Con't) 2 of 2
-     E FOURTH ST/E FIFTH Bldg:            Apt:
-(End)
-
-FRM:LifecomCellPaging@amr.net
-MSG:BS18-1    Dispatched: 02:01:53 Enroute: 02:04:23 On Scene: 02:05:26 AOR: 02:26:24
-
-FRM:LifecomCellPaging@amr.net
-MSG:E18-1 11020566     Fire Alarm - Co  5045 S State Route 99 E F E ARCH RD/E SUNNY RD 830A
-
-Contact: David Reinhard <r26loki@hotmail.com>
-Sender: LifecomCellPaging@amr.net
-Body: 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\r\n(End)
-
-12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386     Assigned Units: E9-3,E9-2,E26-2,BC9-0
-**********************************************************
 Unknown
 Contact:  Matt Exley <mexley46@gmail.com>
 From:messaging@iamresponding.com
@@ -4841,18 +4812,19 @@ Contact: "Jones, Randy" <RJones@lakecountyfl.gov>
 Sender: Comm@lakeems.org
 SFR 32640 WEBBS WAY, SORRENTO. 75% INVOLVED. SEMINOLE E34 RESP FOR ASSISTANCE. TRAFFIC ON PS6\r
 **********************************************************
-Suffolk County, NY
-Contact: Jim Lull <jlull65@gmail.com>
-Sender: Bob@relaycom.com
-RELAY TRAILER PARK RIVER RD 1ST TRAILER ON RIGHT HAND SIDE POSSIBLE HEART
-FROM RELAY 1279 EAST MAIN EASTERN CARDIOLOGY MALE CHEST PAINS
-FROM RELAY TANGER 2 STE 1401 EPIC JEANS 40ISH FEMALE PASSING OUT
-**********************************************************
 Fayette County, PA (alternate)
 Contact: Bill Hickle <bhickle29@gmail.com>
 Sender: 4129533352
 21 auto fire alarm Brownsville House Apts asst ST6
 **********************************************************
+Ray County, MO (replace?)
+Contact: "Lee O'Dell" <leeodell@woodheightsfire.com>
+Sender: dispatch@raycounty911.com
+TEST PAGE FOR 7/25/17 18:40 THIS IS A TEST ONLY
+LP LEAK @ 12507 ORRICK RD CRSS ST W 124TH & FREDERICKSBURG CALLED IN BY WHFD 800
+TEST TEXT. 08:31. 07/25/2012.
+(Weather Alert) Fire Weather Warning for Ray from 1:00 PM Wed until 8:00 PM Wed (EDT)
+(911) ALL FIREFIGHTERS  REPORT TO STATION FOR CLEAN UP PER 800
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4866,6 +4838,21 @@ Sender: 4129533352
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+Suffolk County, NY
+Contact: Jim Lull <jlull65@gmail.com>
+Sender: Bob@relaycom.com
+NYSuffolkCountyEParser
+
+RELAY TRAILER PARK RIVER RD 1ST TRAILER ON RIGHT HAND SIDE POSSIBLE HEART
+FROM RELAY 1279 EAST MAIN EASTERN CARDIOLOGY MALE CHEST PAINS
+FROM RELAY TANGER 2 STE 1401 EPIC JEANS 40ISH FEMALE PASSING OUT
+FROM RELAY DEAD AIR PAGE
+FROM RELAY 629 W MAIN ST BY GAS STATION
+FROM RELAY 35 OPEN DRIVE ADULT FEMALE SICK
+FROM RELAY 1106 WEST MAIN FEMALE DIFFICULTY BREATHING
+FROM RELAY 1145 MIDDLE ROAD APARTMENT 7M ELDERLY FEMALE POSSIBLE HEART
+FROM RELAY 1355 ROANOKE AVE APT 8 FEMALE ABDOMINAL
 **********************************************************
 Suffolk County, NY (Alternate)
 Contact: Devin McGuinness <radio5390@aol.com>
@@ -4902,6 +4889,19 @@ CAD:100 VANCE LN/RIGGS RD;DIST: 158.12 FT;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20C
 CAD:485 OLD 30 RD;MORTON ELEMENTARY;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20DCAD:227 MIDDLE RIDGE DR;ALARMS;HFD;8D
 CAD:100 BELGRADE SWANSBORO RD/FREEDOM WAY;DIST: 235.62 FT;STRUCTURE FIRE;SFD;17A
 CAD:1000 YORKTOWN LN;LIBERTY POINTE APARTMENTS;STRUCTURE FIRE;PGFD;11B
+**********************************************************
+San Joaquin County, CA
+Contact: John <john499@live.com>
+1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BS18-1    ZUM-110502      Medical Aid                     3232 E Munford Ave\n(Con't) 2 of 2\n     Dead End/S STATE ROUBldg:            Apt: 3\n(End)
+FRM:LifecomCellPaging@amr.net\nMSG:BS18-1    Dispatched: 00:45:33 Enroute: 00:48:05 On Scene: 01:00:47 AOR: 01:20:35
+ 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BS18-1    ZUM-110503      Medical Aid                     1840 S B St\n(Con't) 2 of 2\n     E FOURTH ST/E FIFTH Bldg:            Apt:\n(End)
+FRM:LifecomCellPaging@amr.net\nMSG:BS18-1    Dispatched: 02:01:53 Enroute: 02:04:23 On Scene: 02:05:26 AOR: 02:26:24
+FRM:LifecomCellPaging@amr.net\nMSG:E18-1 11020566     Fire Alarm - Co  5045 S State Route 99 E F E ARCH RD/E SUNNY RD 830A
+
+Contact: David Reinhard <r26loki@hotmail.com>
+Sender: LifecomCellPaging@amr.net
+1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\r\n(End)
+1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BC9-0 12018079\5sTraffic Collisi W Eleventh St / S Bird Rd\27sT327A\11s\n(Con't) 2 of 2\n\4sAssigned Units: E9-2,T26-2,E9-6,T9-1,BC9-0\r\n(End)
 **********************************************************
 **********************************************************
 **********************************************************

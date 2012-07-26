@@ -49,8 +49,6 @@ LMED1 10-50 TRAFFIC/TRANSPORTATION INCIDENT SALEM RD & 174TH  Description: CLAY 
 LFD 10-50 TRAFFIC/TRANSPORTATION INCIDENT SALEM RD LAWSON Description: One mile south of Lawson on Salem Road. Just South of the Golf Course
 LFD SUICIDE ATTEMPT IP OR JO ENTRYWAY TO WATKINS MILL  Description: SUICIDAL SUBJ\n\nCrossStreets:
 
-
-
 Please respond to 15796 Hwy M, Rayville, MO\nmale subj. is 10-55 and suicidal\ncall came in 3rd party from excelsior springs pd\nall units responding t
 
 */
