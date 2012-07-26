@@ -711,6 +711,16 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "CALL:6D2 RESPIRATORY",
         "BOX:1106");
 
+    doTest("T39",
+        "E7 - 67B01 - 67B1 SMALL TRASH FIR - 11025 United St - Apt: - Bldg: - Key Map:414U - Cross Streets:ELL RD/LONE OAK RD - Box #:2505",
+        "ADDR:11025 United St",
+        "X:ELL RD/LONE OAK RD",
+        "MAP:414U",
+        "UNIT:E7",
+        "CODE:67B01",
+        "CALL:67B1 SMALL TRASH FIR",
+        "BOX:2505");
+
   }
 
   public static void main(String[] args) {
