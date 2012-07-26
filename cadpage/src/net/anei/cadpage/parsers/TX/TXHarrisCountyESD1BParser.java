@@ -100,7 +100,7 @@ E21 - - 52B1 ALARMS - 2700 W W Thorne Blvd - Apt: - Bldg: N HARRIS C - Key Map:3
 SQ31 - 10D04 - 10D4 CARDIAC - 22226 Queenbury Hills Dr - Apt: - Bldg: - Key Map:332R - Cross Streets:LANCASTER LAKE DR/RED ALDER CI - Box #:1108
 SQ31 - - BREATHING PROBLEMS - 15403 E Vantage Pkwy - Apt: - Bldg: THE WORD C - Key Map:373V - Cross Streets:N SAM HOUSTON PKWY E/WAVERLY D - Box #:1106
 E11 - 06D02 - 6D2 RESPIRATORY - 15403 E Vantage Pkwy - Apt: - Bldg: THE WORD C - Key Map:373V - Cross Streets:N SAM HOUSTON PKWY E/WAVERLY D - Box #:1106
-
+E7 - 67B01 - 67B1 SMALL TRASH FIR - 11025 United St - Apt: - Bldg: - Key Map:414U - Cross Streets:ELL RD/LONE OAK RD - Box #:2505
 
 *** Not parsing 
 []  - - 32B1 UNKNOWN PROBLEM - 123 Test Street - Apt: - Bldg: TESTING AP - Key Map:496K - Cross Streets:Dead End/Dead End - Box #:4104\n
