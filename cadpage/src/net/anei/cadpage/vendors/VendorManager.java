@@ -6,6 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.C2DMReceiver;
+import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.donation.DeveloperToolsManager;
@@ -127,9 +128,16 @@ public class VendorManager {
   void reconnect(Context context) {
     
     // If there are any enabled or broken vendors, request a new registration ID
+    // That should do the job in GCM mode, but in C2DM mode, requesting a new 
+    // registration ID when you already have one doesn't do anything.  We will have
+    // to unregister the existing ID.  
     for (Vendor vendor : vendorList) {
       if (vendor.isEnabled() || vendor.isBroken()) {
-        C2DMReceiver.register(context);
+        if (ManagePreferences.gcmEnabled()) {
+          C2DMReceiver.register(context);
+        } else {
+          C2DMReceiver.unregister(context);
+        }
         break;
       }
     }
