@@ -118,6 +118,11 @@ New Hanover County, NC (NCHanoverCountyParser)
 CAD:ST21;ELEVATOR MALFUN OCCUPANTS IN;1109 BOWFIN LN;2522580313;stoke in elevator [05/10/12 05:59:33 ANL] [Fire Priority Info] RESPONSE: Alpha RESPONDER SCRIPT: Elevator / Escalator Rescue. Elevator malfunction -- occupants inside
 CAD:ST21;WATER PROBLEM;501 S DOW RD;DOG PARK;broken water pipe gushing water [05/07/12 20:21:48 LAM] PRE ALERT GIVEN [05/07/12 20:22:42 KDN] [Fire Priority Info] RESPONSE: Alpha RESPONDER SCRIPT: Citizen Assist / Service Call. Water probl;M
 ***************************************************************************
+Onslow County, NC (NCOnslowCountyParser)
+CAD:100 VANCE LN/RIGGS RD;DIST: 158.12 FT;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20C\r
+CAD:141 SHADY ST;STRUCTURE FIRE;PGFD;11B
+CAD:417 LITTLE CREEK CT;ELECTRICAL HAZARD;WOFD;20D
+***************************************************************************
 Rowan County, NC (NCRowanCountyParser)
 CAD:10C4 CHEST PAIN;201 N FRANKLIN ST;SWINK ST;PARK ST;CHGV;4301;RFG1
 CAD:FIRE DEPT SERVICE ASSIGNMENT;213 WASHINGTON ST;KLONDALE ST;CHGV;4301
@@ -4850,28 +4855,6 @@ MED CALL @ LAWSON MANOR RM 103 79 YO MALE CONS BREATHING PULLED FOLEY AND IS BLE
 **********************************************************
 **********************************************************
 **********************************************************
-Onslow County, NC
-Contact: Chris Bennett <fireman2497@gmail.com>
-Sender: CAD@ocmail2.onslownc.gov
-1 of 2\nFRM:CAD@ocmail2.onslownc.gov\nMSG:CAD:CONVULSIONS/SEIZURES;187 COSTON RD;RICH;10;[Medical Priority Info]
-Key Questions Complete RESPONSE:\n(Con't 2 of 2\nDelta RESPONDER SCRIPT: 13 year old, Male, Conscious, Breathing. Convulsions
-/ Seizures. CONTINUOUS or MULTIPLE seizures (Epileptic or P(End)
-
-Contact: <cecilhigginbotham@gmail.com>
-Sender: CAD@onslowcountync.gov
-FRM:CAD@onslowcountync.gov\nMSG:CAD:202 ZACHARY LN;6;BREATHING PROBLEMS;06D01
-
-Contact: Kim Cytryszewski <kimcytryszewski@gmail.com>,2526220424@messaging.sprintpcs.com
-Sender: CAD@onslowcountync.gov
-CAD:100 VANCE LN/RIGGS RD;DIST: 158.12 FT;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20C\r
-CAD:141 SHADY ST;STRUCTURE FIRE;PGFD;11B
-CAD:417 LITTLE CREEK CT;ELECTRICAL HAZARD;WOFD;20D
-CAD:1061 RIGGS RD/SMITH RD;DIST: 16.79 FT;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20B
-CAD:1612 RIGGS RD;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20C
-CAD:100 VANCE LN/RIGGS RD;DIST: 158.12 FT;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20C
-CAD:485 OLD 30 RD;MORTON ELEMENTARY;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20DCAD:227 MIDDLE RIDGE DR;ALARMS;HFD;8D
-CAD:100 BELGRADE SWANSBORO RD/FREEDOM WAY;DIST: 235.62 FT;STRUCTURE FIRE;SFD;17A
-CAD:1000 YORKTOWN LN;LIBERTY POINTE APARTMENTS;STRUCTURE FIRE;PGFD;11B
 **********************************************************
 San Joaquin County, CA
 Contact: John <john499@live.com>
