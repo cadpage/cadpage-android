@@ -46,6 +46,10 @@ Subject:CAD Page for CFS 020412-294\nRECD: 18:34:31\nTG: OPS 1\nINC: CHEST PAINS
 Contact: charles philpot <philpotcharles@yahoo.com>
 Subject:CAD Page for CFS 021212-276\nRECD: 21:58:39\nTG: OPS 2\nINC: Auto Fire Alarm\nLOC: 730 MARTIN LUTHER KING JR BLVD\nAPT: \nBLDG: \nE
 
+Contact: Rob Pruitt <repruitt@gmail.com>
+Sender: cad@orangecountync.gova
+cad@orangecountync.gov Subject:CAD Page for CFS 072612-408\nRECD: 18:24:42\r\nTG: OPS 2\r\nINC: GAS, NATURAL LEAK\r\nLOC: 109 SERRANO WAY\r\nAPT: \r\nBLDG: \r\nEMD: \r\n\r
+
  */
 
 
@@ -60,7 +64,7 @@ public class NCOrangeCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@cedargrovefire.org,cadpage@orangeem.org";
+    return "@cedargrovefire.org,cadpage@orangeem.org,cad@orangecountync.gov";
   }
 
   @Override
