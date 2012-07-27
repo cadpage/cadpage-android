@@ -406,7 +406,7 @@ public class MsgInfo {
    */
   private static final Pattern UK_POST_CODE_PTN = Pattern.compile("^[A-Z]{1,2}\\d{1,2}[A-Z]? \\d[A-Z]{2} +");
   private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O ");
-  private static final Pattern CROSS_DELIM = Pattern.compile("[&/,@]| - ");
+  private static final Pattern CROSS_DELIM = Pattern.compile("[&/,@]| - | AND ", Pattern.CASE_INSENSITIVE);
   public String getBaseMapAddress() {
     
     if (strAddress.length() == 0) return strAddress;
@@ -456,7 +456,10 @@ public class MsgInfo {
       if (strCross.length() > 0) {
         String sCross = strCross;
         Matcher match = CROSS_DELIM.matcher(sCross);
-        if (match.find()) sCross = sCross.substring(0,match.start()).trim();
+        if (match.find()) {
+          sCross = sCross.substring(0,match.start()).trim();
+          if (sCross.equals(sAddr)) sCross = strCross.substring(match.end()).trim(); 
+        }
         sCross = cleanStreetSuffix(sCross);
         sCross = cleanBounds(sCross);
         sCross = cleanRoutes(sCross);
