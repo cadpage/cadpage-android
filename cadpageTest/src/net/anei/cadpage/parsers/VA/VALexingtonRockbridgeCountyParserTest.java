@@ -96,7 +96,7 @@ public class VALexingtonRockbridgeCountyParserTest extends BaseParserTest {
         "UNIT:CO09A,LXRS1,",
         "CITY:LEXINGTON");
   }
-  C
+
   public static void main(String[] args) {
     new VALexingtonRockbridgeCountyParserTest().generateTests("T1");
   }
