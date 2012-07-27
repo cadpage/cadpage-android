@@ -67,7 +67,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   
   public NYNassauCountyFiretrackerParser() {
     super("NASSAU COUNTY", "NY", 
-           "ADDR/SCP! C/S:X TOA:SKIP");
+           "ADDR/SCP! C/S:X TOA:TIME Town_Of:CITY");
   }
   
   @Override
@@ -88,8 +88,9 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
     if (body.startsWith("*FSMFD* ") || body.startsWith("FSMFD")) {
       data.strSource = "FSMFD";
       Parser p = new Parser(body);
-      p.get("TOA:");
-      p.get(" ");
+      p.get(' ');
+      data.strDate = p.get("TOA:");
+      data.strTime = p.get(" ");
       data.strCall = p.get('[');
       p.get(']');
       body = p.get();
@@ -155,10 +156,20 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
     }
   }
   
+  private class MyTimeField extends TimeField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      data.strTime = p.get(' ');
+      data.strDate = p.get();
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
+    if (name.equals("TIME")) return new MyTimeField();
     return super.getField(name);
   }
   

@@ -926,6 +926,11 @@ Suffolk County, NY (NYSuffolkCountyEParser)
 /FROM RELAY /1035 PARKWAY\nFEMALE WITH CHEST PAINS\n
 /FROM RELAY /641 NORTHVILLE TPKE & FISHEL\nFEMALE IS SICK\n
 *******************************************************************************
+Suffolk County, NY (NYSuffolkCountyFiretrackerParser)
+(FirePage) ** MASTIC BEACH VAC ** [7-A-2 FI] 340 W DOGWOOD RD Mastic Beach C/S:LYNBROOK DR AND WOODSIDE DR Add't Info: Responde
+(FirePage) ** MASTIC BEACH VAC ** [6-C-1 AB] 154 BAYVIEW DR Mastic Beach C/S:MAPLE RD W AND NARCISSUS RD W Add't Info: ........
+(FirePage) ** MASTIC BEACH VAC ** [29-D-2M ] ORCHID DR Mastic Beach C/S:ORCHID DR AND CEDAR RD E Add't Info: MVA Number of pati
+*******************************************************************************
 * DispatchProphoenixParser
 *******************************************************************************
 ***************************************************************************

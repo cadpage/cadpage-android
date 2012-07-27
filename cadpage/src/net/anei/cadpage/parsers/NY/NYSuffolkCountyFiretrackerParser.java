@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
-Suffolk County, NY (Alternate)
+Suffolk County, NY (Firetracker)
 Contact: Devin McGuinness <radio5390@aol.com>
 Sender: dispatch@firetracker.net 
 System: Firetracker
