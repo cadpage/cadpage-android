@@ -4867,7 +4867,7 @@ FRM:LifecomCellPaging@amr.net\nMSG:E18-1 11020566     Fire Alarm - Co  5045 S St
 Contact: David Reinhard <r26loki@hotmail.com>
 Sender: LifecomCellPaging@amr.net
 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\r\n(End)
-1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BC9-0 12018079\5sTraffic Collisi W Eleventh St / S Bird Rd\27sT327A\11s\n(Con't) 2 of 2\n\4sAssigned Units: E9-2,T26-2,E9-6,T9-1,BC9-0\r\n(End)
+1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BC9-0 12018079     Traffic Collisi W Eleventh St / S Bird Rd                           T327A           \n(Con't) 2 of 2\n    Assigned Units: E9-2,T26-2,E9-6,T9-1,BC9-0\r\n(End)
 **********************************************************
 **********************************************************
 **********************************************************

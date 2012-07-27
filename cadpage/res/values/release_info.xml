@@ -1,44 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07192012</string>
-  <string name="release_version">v1.5.47</string>
+  <string name="release_date">07272012</string>
+  <string name="release_version">v1.5.48</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 New Locations:\n
-Simsbury, CT\n
-Olmsted County, MN\n
-Burlington County, NJ (alt)\n
-Ocean County, NJ\n
-Jackson County, OR\n
-Montgomery County, PA\n
-Union County, SC\n
-Tarrant County, TX\n
-Lunenburg County, VA\n
-New Kent County, VA\n
+Standard Format A\n
+Boyd County, KY\n
+Cecil County, MD (alt)\n
+Nassau County, NY (alt)\n
+Suffolk County, NY (alt)\n
+Harnett County, NC (alt)\n
+Onslow County, NC\n
+Monroe County, PA\n
+Fauquier County, VA\n
+Natrona County, WY\n
 \n
 Location Parsing Fixes:\n
-Morgan County, AL\n
-Sonoma County, CA\n
-Middlesex County, CT\n
-Gooding County, ID\n
-Cambridge, MD\n
-Prince Georges County, MD\n
-Jefferson City, MO\n
-Hunterdon County, NJ\n
-Chenango County, NY\n
-Erie County, NY\n
-Moore County, NC\n
-Surry County, NC\n
-Salem County, NJ\n
-Marion County, OR\n
-Erie County, PA\n
-Denton County, TX\n
+El Dorado County, CA\n
+Lake County, CA\n
+Montgomery County, MD\n
+Genesee County, NY\n
+Nassau County, NY\n
+Putnam County, NY\n
+Suffolk County, NY\n
+Cabarrus County, NC\n
+Harris County ESD#1, TX\n
+Halifax County, VA\n
+Jefferson County, VA\n
+Prince George County, VA\n
+Lexington Rockbridge County, VA\n
+Renamed Wayne County, NJ to Wayne Township, NJ\n
 \n
 General Fixes:\n
-Force close processing some text pages\n
-Cadpage can no longer be installed on SD card\n
+United Street name treeted as Unit: ED\n
   </string>  
 </resources>
   
