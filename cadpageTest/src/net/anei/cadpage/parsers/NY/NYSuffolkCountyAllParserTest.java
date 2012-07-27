@@ -37,14 +37,14 @@ public class NYSuffolkCountyAllParserTest {
     }
   }
   
-  public static class TestDixHills extends NYDixHillsParserTest {
-    public TestDixHills() {
+  public static class TestFiretracker extends NYSuffolkCountyFiretrackerParserTest {
+    public TestFiretracker() {
       setParser(new NYSuffolkCountyAllParser());
     }
   }
   
-  public static class TestAmherst extends NYErieCountyDParserTest {
-    public TestAmherst() {
+  public static class TestDixHills extends NYDixHillsParserTest {
+    public TestDixHills() {
       setParser(new NYSuffolkCountyAllParser());
     }
   }

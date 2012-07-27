@@ -196,6 +196,21 @@ public class FLManateeCountyParserTest extends BaseParserTest {
         "MAP:1129-E");
 
     doTest("T6",
+        "  Location: 33947 SR 64 E MY Estimated Address: EST TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: SMALL OUTSIDE FIRE TIME: 20:23:44 MAP GRID: 1603-B",
+        "ADDR:33947 SR 64 E",
+        "MADDR:33947 FL 64 E",
+        "CITY:Myakka City",
+        "PLACE:EST",
+        "CALL:OUTSIDE FIRE INSIDE LOCATION:",
+        "INFO:SMALL OUTSIDE FIRE",
+        "TIME:20:23:44",
+        "MAP:1603-B");
+  }
+  
+  @Test
+  public void testChrisMelser() {
+
+    doTest("T1",
         "  Location: LEGACY BLVD/UNIVERSITY PKWY UB Estimated Address TYPE CODE: MVC W/ INJS (FIRE/EMS) INSIDE LOCATION: SUB TYPE: RE-ENTRAPMENT TIME: 17:24:28 MAP GRID:",
         "ADDR:LEGACY BLVD & UNIVERSITY PKWY",
         "CITY:Bradenton",
