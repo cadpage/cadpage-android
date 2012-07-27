@@ -151,9 +151,20 @@ public class CAElDoradoCountyParserTest extends BaseParserTest {
         "CITY:GEORGETOWN",
         "UNIT:GEOCHF GEOENG M61 61 E51 E2752",
         "GPS:X: -120 53.3");
+
+    doTest("T13",
+        "(CAD Page) 26-Jul-2012/02:31:20; MEDICAL; Inc# 017152; 5780 TRAVERSE CREEK RD ,GARDEN_VALLEY; E2752 M61 52 E51; X: -120 48.3054 Y: 38 49.5004;",
+        "DATE:07/26/2012",
+        "TIME:02:31:20",
+        "CALL:MEDICAL",
+        "ID:017152",
+        "ADDR:5780 TRAVERSE CREEK RD",
+        "CITY:GARDEN VALLEY",
+        "UNIT:E2752 M61 52 E51",
+        "GPS:X: -120 48.3054 Y: 38 49.5004");
   }
   
   public static void main(String[] args) {
-    new CAElDoradoCountyParserTest().generateTests("T11", "DATE TIME CALL ID ADDR CITY PLACE UNIT GPS");
+    new CAElDoradoCountyParserTest().generateTests("T1", "DATE TIME CALL ID ADDR CITY PLACE UNIT GPS");
   }
 }

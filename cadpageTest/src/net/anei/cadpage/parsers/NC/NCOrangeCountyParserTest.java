@@ -139,6 +139,23 @@ public class NCOrangeCountyParserTest extends BaseParserTest {
         "CALL:Auto Fire Alarm",
         "ADDR:730 MARTIN LUTHER KING JR BLVD",
         "TIME:21:58:39");
+
+    doTest("T9",
+        "cad@orangecountync.gov Subject:CAD Page for CFS 072612-408\n" +
+        "RECD: 18:24:42\r\n" +
+        "TG: OPS 2\r\n" +
+        "INC: GAS, NATURAL LEAK\r\n" +
+        "LOC: 109 SERRANO WAY\r\n" +
+        "APT: \r\n" +
+        "BLDG: \r\n" +
+        "EMD: \r\n" +
+        "\r",
+
+        "ID:072612-408",
+        "CH:OPS 2",
+        "CALL:GAS, NATURAL LEAK",
+        "ADDR:109 SERRANO WAY",
+        "TIME:18:24:42");
   
   }
   
