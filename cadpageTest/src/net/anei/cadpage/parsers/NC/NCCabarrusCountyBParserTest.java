@@ -189,6 +189,18 @@ public class NCCabarrusCountyBParserTest extends BaseParserTest {
          "PHONE:7044554381",
          "ID:1205066");
 
+     doTest("T10",
+         "1036:FYI: |1|RESIDENTIAL FIRE ALARM|506 CHANNING CIR NW|HANOVER DR NW|DEWITT CT NW|(S)ZEMOSA ACRES SD (N)ZEMOSA ACRES|7|732|07/27/2012 10:29:32|1205141",
+         "DATE:07/27/2012",
+         "TIME:10:29:32",
+         "CALL:RESIDENTIAL FIRE ALARM",
+         "ADDR:506 CHANNING CIR NW",
+         "X:HANOVER DR NW & DEWITT CT NW",
+         "PRI:7",
+         "UNIT:732",
+         "INFO:(S)ZEMOSA ACRES SD (N)ZEMOSA ACRES",
+         "ID:1205141");
+
   }
   
   public static void main(String[] args) {

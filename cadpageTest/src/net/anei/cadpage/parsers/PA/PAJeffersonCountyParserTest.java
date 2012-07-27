@@ -122,6 +122,16 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "CITY:Punxsutawney",
         "BOX:30-A",
         "CH:Snyder Hi");
+
+    doTest("T1",
+        "prvs=0555093757=dispatch@jeffersoncountypa.com (Incident) Tree Down S20  558 ROBINSON ST Bell HALL ST / DEAD END 20-B Snyder Hill",
+        "CALL:Tree Down S20",
+        "ADDR:558 ROBINSON ST",
+        "X:HALL ST",
+        "CITY:Bell",
+        "PLACE:/ DEAD END",
+        "BOX:20-B",
+        "CH:Snyder Hill");
   }
   
   public static void main(String[] args) {
