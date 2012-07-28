@@ -4865,6 +4865,8 @@ Sender: zoll@goldcross.org
 (Gold Cross Alert - part 1 of 1) RC:W824 RUSCH RD//BRILLION/Non Emergency/Hemorhage / Laceration//<None>/Run# 9652/18:21/911 Call (County)//
 (Gold Cross Alert - part 1 of 1) RC:723 S MAIN ST//BRILLION/Emergency/Heart Problems//<None>/Run# 9888/06:05/911 Call (County)//
 (Gold Cross Alert - part 1 of 1) RC:W2377 USHY 10//BRILLION/Non Emergency/Sick Person//<None>/Run# 10629/20:58/911 Call (County)//
+(Gold Cross Alert - part 1 of 1) RC:220 ACHIEVEMENT DR//BRILLION/Non Emergency/Fall Victim//<None>/Run# 10637/04:21/911 Call (County)//
+
 **********************************************************
 **********************************************************
 **********************************************************

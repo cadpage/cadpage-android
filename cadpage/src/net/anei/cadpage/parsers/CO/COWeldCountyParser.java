@@ -63,6 +63,10 @@ Sender: 86245
 Fr:<wrc-hiplink@weldcorcc.co\nSu:Dispatch\nTxt: 24\nTAU\nD\n37TH ST @ 38TH AVE\nEVMIA\n3751\nCAME ACROSS A TA / REQ LAW & PM'S ROUTINE\nProQA Medical Case 84958 Aborted 1. Caller hung up\n\n\nid:7
 Fr:<wrc-hiplink@weldcorcc.co\nSu:Dispatch\nTxt: 37\nSIPF\nD\n31195 6TH ST\nKE\n37\nSPEECH SLURRED, VISION IS BLURRY, PAIN ON 1 SIDE OF HEAD\n\n\nid:12
 
+Ryan Fuller <rfuller131@gmail.com>
+Sender: 7772
+WELD COUNTY 24\nSIPF\nD\n3222 11TH AVE ;GROVE APTS\nEV\n24A\nMALE PASSED OUT DK IN FRONT OF APT BUILDING STOP
+
  */
 
 
@@ -79,7 +83,7 @@ public class COWeldCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "7771,wrc-hiplink@weldcorcc.com";
+    return "777,wrc-hiplink@weldcorcc.com";
   }
 
   @Override
