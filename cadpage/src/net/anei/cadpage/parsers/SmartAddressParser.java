@@ -24,7 +24,7 @@ public abstract class SmartAddressParser extends MsgParser {
    * Type code indicating what kind of information might preceed the address
    * portion of this message
    */
-  public  enum StartType {START_ADDR, START_CALL, START_PLACE, START_SKIP};
+  public  enum StartType {START_ADDR, START_CALL, START_CALL_PLACE, START_PLACE, START_SKIP};
   
   /**
    * Flag indicating that the start field (either CALL, PLACE, or SKIP) must
@@ -95,6 +95,12 @@ public abstract class SmartAddressParser extends MsgParser {
    * street name instead of a city should be suppressed
    */
   public static final int FLAG_CROSS_FOLLOWS = 0x0800;
+  
+  /**
+   * Flag indicating that there my not be a blank delimiter between the
+   * address and the data field in front of it
+   */
+  public static final int FLAG_START_FLD_NO_DELIM = 0x1000;
   
   private Properties cityCodes = null;
   
@@ -390,6 +396,8 @@ public abstract class SmartAddressParser extends MsgParser {
    * @param sType indicates what we now about start of address field
    *         START_ADDR - field starts with the address
    *         START_CALL - field starts with call description followed by address
+   *         START_CALL_PLACE - field starts will call description possibly followed by place name
+   *         START_PLACE - field starts with a place name
    *         START_SKIP - field starts with something we aren't interested in,
    *                      followed by address
    * @param address address field to be parsed
@@ -404,6 +412,8 @@ public abstract class SmartAddressParser extends MsgParser {
    * @param sType indicates what we now about start of address field
    *         START_ADDR - field starts with the address
    *         START_CALL - field starts with call description followed by address
+   *         START_CALL_PLACE - field starts will call description possibly followed by place name
+   *         START_PLACE - field starts with a place name
    *         START_SKIP - field starts with something we aren't interested in,
    *                      followed by address
    * @param flags - Special processing flags                     
@@ -431,6 +441,8 @@ public abstract class SmartAddressParser extends MsgParser {
    * @param sType indicates what we now about start of address field
    *         START_ADDR - field starts with the address
    *         START_CALL - field starts with call description followed by address
+   *         START_CALL_PLACE - field starts will call description possibly followed by place name
+   *         START_PLACE - field starts with a place name
    *         START_SKIP - field starts with something we aren't interested in,
    *                      followed by address
    * @param flags - Special processing flags                     
@@ -447,6 +459,8 @@ public abstract class SmartAddressParser extends MsgParser {
    * @param sType indicates what we now about start of address field
    *         START_ADDR - field starts with the address
    *         START_CALL - field starts with call description followed by address
+   *         START_CALL_PLACE - field starts will call description possibly followed by place name
+   *         START_PLACE - field starts with a place name
    *         START_SKIP - field starts with something we aren't interested in,
    *                      followed by address
    * @param flags - Special processing flags                     
@@ -475,7 +489,8 @@ public abstract class SmartAddressParser extends MsgParser {
 
     // If we have a call dictionary, and address starts with a call, search
     // the dictionary to see if address line starts with matching call
-    if (sType == StartType.START_CALL && callDictionary != null) {
+    if ((sType == StartType.START_CALL || sType == StartType.START_CALL_PLACE) 
+         && callDictionary != null) {
       
       // Search the call dictionary sorted set for the highest entry less than or
       // equal to message body.  If the body starts with this string, we have a
@@ -487,16 +502,17 @@ public abstract class SmartAddressParser extends MsgParser {
       String firstWord = new Parser(address).get(' ');
       SortedSet<String> tail =  callDictionary.tailSet(address);
       for (String call : tail) {
-        if (address.startsWith(call)) {
+        if (address.toUpperCase().startsWith(call)) {
           
           // We have a match.  Store the call (without the trailing space)
           // in the result call prefix.  Remove the call prefix from the address
           // line, and set the start type to start with the address
-          result.callPrefix = call.trim();
+          result.callPrefix = address.substring(0,call.length()-1);
           address = address.substring(call.length()).trim();
           if (address.startsWith("@")) address = address.substring(2).trim();
           if (address.startsWith("REPORTED AT ")) address = address.substring(12).trim();
-          sType = StartType.START_ADDR;
+          sType = (sType == StartType.START_CALL_PLACE ? StartType.START_PLACE : StartType.START_ADDR);
+          this.flags &= ~FLAG_START_FLD_REQ;
         }
         
         // If the prospective call no longer starts with the first word
@@ -1055,10 +1071,10 @@ public abstract class SmartAddressParser extends MsgParser {
     // to whatever the prefix would be assigned as.  If prefix was being
     // skipped or there is no prefix, assign everything to the address
     if (result.startAddress < 0) {
-      if (sType == StartType.START_CALL || sType == StartType.START_PLACE) {
-        result.initAddress = result.startAddress = endAddr;
-      } else {
+      if (sType == StartType.START_ADDR || sType == StartType.START_SKIP) {
         result.initAddress = result.startAddress = 0;
+      } else {
+        result.initAddress = result.startAddress = endAddr;
       }
     }
     
@@ -1833,17 +1849,32 @@ public abstract class SmartAddressParser extends MsgParser {
         end = startAddress;
       }
       
+      // Before we figure out with to do with the leading start field, see if some of it
+      // should be stripped off and added to the address
+      // If result status indicates that we did not find a street number, check the start
+      // field for any trailing digits.  If we find any, strip them off and prepend them to
+      // the address field
+      String startFld = buildData(0, initAddress, 0);
+      if (isFlagSet(FLAG_START_FLD_NO_DELIM) && status < 3) {
+        int pt = startFld.length();
+        while (pt > 0 && Character.isDigit(startFld.charAt(pt-1))) pt--;
+        if (pt < startFld.length()) {
+          data.strAddress = append(startFld.substring(pt), " ", data.strAddress);
+          startFld = startFld.substring(0,pt).trim();
+        }
+      }
+      
+      if (callPrefix != null) data.strCall = callPrefix;
       switch (startType) {
       case START_CALL:
-        data.strCall = append(data.strCall, " / ", buildData(0, initAddress, 0).replaceAll(" / ", "/"));
+      case START_CALL_PLACE:
+        data.strCall = append(data.strCall, " / ", startFld.replaceAll(" / ", "/"));
         break;
       case START_PLACE:
         if (data.strPlace.length() == 0) {
-          data.strPlace = buildData(0, initAddress, 0).replaceAll(" / ", "/");
+          data.strPlace = startFld.replaceAll(" / ", "/");
         }
         break;
-      case START_ADDR:
-        if (callPrefix != null) data.strCall = callPrefix;
       }
     }
     

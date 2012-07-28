@@ -22,6 +22,11 @@ RES3 M33 CO3 W3 EMS2  ACCIDENT PERSONAL INJURY 5807 PENN FOREST PL XST  MERRIMAN
 W3  ALS 3556 KENWICK TRL XST  VERONA TRL   OVERHILL TRL 5/6/2012 3:56:38 PM
 CO7 W7 CO3 W3 RES7 M7 L3 BATT1 EMS2  Residential Structure Fire 7249 BIRCH CT XST  SOUTH MOUNTAIN DR   PINE CT 5/6/2012 4:56:42 PM
 
+Contact: Active911.com
+[] CO7 W7 CO3 W3 CO6 W6 RES7 M7 L3 BATT1 EMS2  COMMERCIAL FIRE ALARM LOWES FRANKLIN4224 VALLEY AVE XST
+[] CO7 W7 CO3 E3 RES7 M7 L3 BATT1  COMMERCIAL GAS LEAK HUNTING HILLS COUNTRY CLUB5220 HUNTING HILLS DR XST  FOX RIDGE RD   FLINTLOCK RD
+[] CO3 W3 CO7 W7 CO11 E11 RES3 M31 L3 EMS2  COMMERCIAL FIRE ALARM CAVE SPRING HIGH3712 CHAPARRAL DR XST
+
  */
 
 
@@ -34,6 +39,16 @@ public class VARoanokeCountyParser extends SmartAddressParser {
   
   public VARoanokeCountyParser() {
     super("ROANOKE COUNTY", "VA");
+    setupCallList(
+        "ACCIDENT PERSONAL INJURY",
+        "ALS",
+        "COMMERCIAL FIRE ALARM",
+        "COMMERCIAL GAS LEAK",
+        "COMMERCIAL STRUCTURE FIRE",
+        "RESIDENTIAL FIRE ALARM",
+        "RESIDENTIAL GAS LEAK",
+        "RESIDENTIAL STRUCTURE FIRE"
+    );
   }
 
   @Override
@@ -63,8 +78,19 @@ public class VARoanokeCountyParser extends SmartAddressParser {
       body = body.substring(match.end()).trim();
       good = true;
     }
+    if (!good) return false;
     
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, body, data);
-    return good;
+    parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_ANCHOR_END | FLAG_START_FLD_NO_DELIM, body, data);
+    
+    // See if we should split a place name from the call description
+    if (data.strPlace.length() == 0) {
+      pt = data.strCall.indexOf('(');
+      if (pt >= 0) {
+        data.strPlace = data.strCall.substring(pt+1).trim();
+        if (data.strPlace.endsWith(")")) data.strPlace = data.strPlace.substring(0,data.strPlace.length()-1).trim(); 
+        data.strCall = data.strCall.substring(0,pt).trim();
+      }
+    }
+    return true;
   }
 }

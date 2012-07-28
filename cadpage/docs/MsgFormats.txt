@@ -4811,12 +4811,6 @@ Contact: Kevin Harris <kev911er@msn.com>
 Sender: Dispatch@Pacific.com
 S:!  M:R Water Rescue: 500 GRIFFIN RD, Grants Pass: 7/9/2012 5:44:21 PM: Quad-104191: 7501, 7514, 7551, M2, J1, 7531: : \n
 **********************************************************
-Calumet County, WI (alternate)
-Contact: Tom Macco <tmacco1@gmail.com>
-Sender: zoll@goldcross.org
-(Gold Cross Alert - part 1 of 1) RC:W824 RUSCH RD//BRILLION/Non Emergency/Hemorhage / Laceration//<None>/Run# 9652/18:21/911 Call (County)//
-(Gold Cross Alert - part 1 of 1) RC:723 S MAIN ST//BRILLION/Emergency/Heart Problems//<None>/Run# 9888/06:05/911 Call (County)//
-**********************************************************
 Lake County, FL (Alternate)
 Contact: "Jones, Randy" <RJones@lakecountyfl.gov>
 Sender: Comm@lakeems.org
@@ -4864,6 +4858,13 @@ FRM:LifecomCellPaging@amr.net\nMSG:T26-1 12018446     Structure Fire   16658 S O
  1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:T26-1     FRC-120542      Structure Fire                  10331 S Priest Rd                            \n(Con't) 2 of 2\n     E GALIN RD/E KRELL LBldg:            Apt:\n(End)
  1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:E26-1 12018116     Vegetation Fire I 5 NB / S KASSON RD                                H5C3            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E26-1\n(End)
  1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\n(End)
+**********************************************************
+Calumet County, WI (alternate)
+Contact: Tom Macco <tmacco1@gmail.com>
+Sender: zoll@goldcross.org
+(Gold Cross Alert - part 1 of 1) RC:W824 RUSCH RD//BRILLION/Non Emergency/Hemorhage / Laceration//<None>/Run# 9652/18:21/911 Call (County)//
+(Gold Cross Alert - part 1 of 1) RC:723 S MAIN ST//BRILLION/Emergency/Heart Problems//<None>/Run# 9888/06:05/911 Call (County)//
+(Gold Cross Alert - part 1 of 1) RC:W2377 USHY 10//BRILLION/Non Emergency/Sick Person//<None>/Run# 10629/20:58/911 Call (County)//
 **********************************************************
 **********************************************************
 **********************************************************

@@ -48,6 +48,10 @@ public class PADauphinCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    String[] flds = subject.split("\\|");
+    if (!flds[flds.length-1].equals("!")) return false;
+    if (flds.length > 1) data.strSource = flds[0];
 
     if (!super.parseMsg(body, data)) return false;
     if (data.strAddress.length() == 0) {
