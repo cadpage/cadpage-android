@@ -590,6 +590,20 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "SRC:KE",
         "UNIT:37",
         "INFO:SPEECH SLURRED, VISION IS BLURRY, PAIN ON 1 SIDE OF HEAD / id:12");
+  }
+  
+  @Test
+  public void testRyanFuller() {
+
+    doTest("T1",
+        "WELD COUNTY 24\nSIPF\nD\n3222 11TH AVE ;GROVE APTS\nEV\n24A\nMALE PASSED OUT DK IN FRONT OF APT BUILDING STOP",
+        "CODE:SIPF",
+        "CALL:SICK AND INJURED POLICE/FIRE",
+        "ADDR:3222 11TH AVE",
+        "PLACE:GROVE APTS",
+        "SRC:EV",
+        "UNIT:24A",
+        "INFO:MALE PASSED OUT DK IN FRONT OF APT BUILDING STOP");
 
   }
   

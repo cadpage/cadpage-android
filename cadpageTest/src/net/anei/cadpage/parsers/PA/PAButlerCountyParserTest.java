@@ -68,6 +68,19 @@ public class PAButlerCountyParserTest extends BaseParserTest {
   
   }
   
+  @Test
+  public void testPJPensanka() {
+
+    doTest("T1",
+        ":FLODB >FLOODING / BASEMENT 337 CLAY AVE MARS BORO KEN SCOTT Map: Grids:00000,000 Cad: 2012-0000053246",
+        "CALL:FLOODING/BASEMENT",
+        "ADDR:337 CLAY AVE",
+        "CITY:MARS",
+        "NAME:KEN SCOTT",
+        "ID:2012-0000053246");
+
+  }
+  
   public static void main(String[] args) {
     new PAButlerCountyParserTest().generateTests("T1", "CALL ADDR CITY X PLACE NAME PHONE MAP ID");
   }
