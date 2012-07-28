@@ -12,6 +12,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   private static final StartType ADDR = StartType.START_ADDR;
   private static final StartType CALL = StartType.START_CALL;
+  private static final StartType CALL_PLACE = StartType.START_CALL_PLACE;
   private static final StartType PLACE = StartType.START_PLACE;
   private static final StartType SKIP = StartType.START_SKIP;
   
@@ -25,6 +26,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final int FLAG_ONLY_CROSS = SmartAddressParser.FLAG_ONLY_CROSS;
   private static final int FLAG_CROSS_FOLLOWS = SmartAddressParser.FLAG_CROSS_FOLLOWS;
   private static final int FLAG_NO_IMPLIED_APT = SmartAddressParser.FLAG_NO_IMPLIED_APT;
+  private static final int FLAG_START_FLD_NO_DELIM = SmartAddressParser.FLAG_START_FLD_NO_DELIM;
   
   private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN", "9999"};
   private static final String DEF_CITY = "STATE OF MIND";
@@ -744,16 +746,42 @@ public class SmartAddressParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testNoDelim() {
+    doTest(CALL, FLAG_START_FLD_NO_DELIM, "FIRE ALARM231 BLACK ST",
+         "CALL:FIRE ALARM",
+         "ADDR:231 BLACK ST");
+
+    doTest(CALL, FLAG_START_FLD_NO_DELIM, "FIRE ALARM6 231 BLACK ST",
+         "CALL:FIRE ALARM6",
+         "ADDR:231 BLACK ST");
+
+    doTest(CALL, FLAG_START_FLD_NO_DELIM, "FIRE ALARM BLACK ST",
+         "CALL:FIRE ALARM",
+         "ADDR:BLACK ST");
+  }
+  
+  @Test
   public void testCallPrefixList() {
     doTest(CALL, FLAG_ANCHOR_END, "BLUE EYED GIRL W/GLASSES AND NOTHING ELSE",
            "CALL:BLUE EYED GIRL W/GLASSES",
            "ADDR:AND NOTHING ELSE");
+    
     doTest(CALL, FLAG_ANCHOR_END, "BLUE EYED GIRL W/O GLASSES AND NOTHING ELSE",
         "CALL:BLUE EYED GIRL",
         "ADDR:W & O GLASSES AND NOTHING ELSE");
+    
     doTest(CALL, FLAG_ANCHOR_END, "BLUE EYED SUNSHINE 500 N 30 ST",
         "CALL:BLUE EYED SUNSHINE",
         "ADDR:500 N 30 ST");
+    
+    doTest(CALL_PLACE, "EMS-UNCONSCIOUS 100 BLACK ST",
+        "CALL:EMS-UNCONSCIOUS",
+        "ADDR:100 BLACK ST");
+    
+    doTest(CALL_PLACE, "EMS-UNCONSCIOUS JOES BAR 100 BLACK ST",
+        "CALL:EMS-UNCONSCIOUS",
+        "PLACE:JOES BAR",
+        "ADDR:100 BLACK ST");
   }
   
   @Override

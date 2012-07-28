@@ -16,7 +16,7 @@ public class NJBurlingtonCountyFParserTest extends BaseParserTest {
         "[MLCAD] EMS E EMS Call Loc: 5142 CHURCH RD Ven: Mt Laurel XS: PREAKNESS DR/SHARP RD Nature: SON IS CHOKING // 15:44:31 02/14/2012",
         "CALL:EMS E EMS Call",
         "ADDR:5142 CHURCH RD",
-        "CITY:Mt Laurel",
+        "CITY:Mount Laurel",
         "X:PREAKNESS DR/SHARP RD",
         "INFO:SON IS CHOKING",
         "TIME:15:44:31",
