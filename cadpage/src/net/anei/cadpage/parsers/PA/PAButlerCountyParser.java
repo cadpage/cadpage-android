@@ -16,6 +16,10 @@ Contact: Kenneth Chiacchia <chiacchiakb@gmail.com>
 Sender: 6245
 "."@co.butler.pa.us :ALAF >ALARM/FIRE 804 PROSPECT RD CONNOQ TWP GAURDIAN Map: Grids:00000,000 Cad: 2012-0000035901
 
+Contact: PJ Pesanka <pjp@pjpesanka.com>
+Sender: "."@co.butler.pa.us
+:FLODB >FLOODING / BASEMENT 337 CLAY AVE MARS BORO KEN SCOTT Map: Grids:00000,000 Cad: 2012-0000053246
+
 */
 
 public class PAButlerCountyParser extends DispatchBParser {
@@ -33,6 +37,7 @@ public class PAButlerCountyParser extends DispatchBParser {
   public boolean parseMsg(String body, Data data) {
     
     if (! super.parseMsg(body, data)) return false;
+    if (data.strCity.endsWith(" BORO")) data.strCity = data.strCity.substring(0,data.strCity.length()-5).trim();
     if (data.strCity.equals("CONNOQ TWP")) data.strCity = "CONNOQUENESSING TWP";
     if (data.strMap.equals("00000,000")) data.strMap = "";
     return true;
@@ -41,29 +46,29 @@ public class PAButlerCountyParser extends DispatchBParser {
   private static final String[] CITY_LIST = new String[]{
     "BUTLER",
     
-    "BRUIN",
-    "CALLERY",
-    "CHERRY VALLEY",
-    "CHICORA",
-    "CONNOQUENESSING",
-    "EAST BUTLER",
-    "EAU CLAIRE",
-    "EVANS CITY",
-    "FAIRVIEW",
-    "HARMONY",
-    "HARRISVILLE",
-    "KARNS CITY",
-    "MARS",
-    "PETROLIA",
-    "PORTERSVILLE",
-    "PROSPECT",
-    "SAXONBURG",
-    "SEVEN FIELDS",
-    "SLIPPERY ROCK",
-    "VALENCIA",
-    "WEST LIBERTY",
-    "WEST SUNBURY",
-    "ZELIENOPLE",
+    "BRUIN BORO",
+    "CALLERY BORO",
+    "CHERRY VALLEY BORO",
+    "CHICORA BORO",
+    "CONNOQUENESSING BORO",
+    "EAST BUTLER BORO",
+    "EAU CLAIRE BORO",
+    "EVANS CITY BORO",
+    "FAIRVIEW BORO",
+    "HARMONY BORO",
+    "HARRISVILLE BORO",
+    "KARNS CITY BORO",
+    "MARS BORO",
+    "PETROLIA BORO",
+    "PORTERSVILLE BORO",
+    "PROSPECT BORO",
+    "SAXONBURG BORO",
+    "SEVEN FIELDS BORO",
+    "SLIPPERY ROCK BORO",
+    "VALENCIA BORO",
+    "WEST LIBERTY BORO",
+    "WEST SUNBURY BORO",
+    "ZELIENOPLE BORO",
     
     "ADAMS TWP",
     "ALLEGHENY TWP",
