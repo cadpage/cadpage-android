@@ -334,6 +334,46 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "X:4664 CREEK RD & 4746 CREEK RD");
   }
   
+  @Test
+  public void testKeith() {
+
+    doTest("T1",
+        "HC:A/A - INJURY 600 S I275 EX UNTC 600 S I275 ** AUTO ACCIDENT / PERSON INJURED ** Original Location : 600 S I275 00:26 HFE72 XST: 597 N I275 EX XST2: 609 N I275 EX",
+        "ADDR:600 S I275 EX",
+        "MADDR:600 S I 275",
+        "CITY:UNION TWP",
+        "PLACE:600 S I275",
+        "CALL:AUTO ACCIDENT / PERSON INJURED",
+        "INFO:Original Location : 600 S I275",
+        "TIME:00:26",
+        "UNIT:HFE72",
+        "X:597 N I275 EX & 609 N I275 EX");
+
+    doTest("T2",
+        "HC:FIRE ALARM 5355 STONE BARN RD INDN BROWN RES. MARK-INDN PD ** FIRE ALARM ** Original Location : BROWN RES. 19:41 HFE66 HFE72 HFFG5 HFMDRF XST: 8500 INDIAN HILL RD",
+        "ADDR:5355 STONE BARN RD",
+        "CITY:INDIAN HILL",
+        "PLACE:BROWN RES MARK-INDN PD",
+        "CALL:FIRE ALARM",
+        "INFO:Original Location : BROWN RES.",
+        "TIME:19:41",
+        "UNIT:HFE66 HFE72 HFFG5 HFMDRF",
+        "X:8500 INDIAN HILL RD");
+
+    doTest("T3",
+        "HC:VEHICLE FIRE 582 N I275 EX MILF 582 N I275 ** VEHICLE FIRE ** Original Location : 582 N I275 13:23 HFE72 HFFG2 XST: 650 STATE RT 131 XST2: 762 HWY 50",
+        "ADDR:582 N I275 EX",
+        "MADDR:582 N I 275",
+        "CITY:MILFORD",
+        "PLACE:582 N I275",
+        "CALL:VEHICLE FIRE",
+        "INFO:Original Location : 582 N I275",
+        "TIME:13:23",
+        "UNIT:HFE72 HFFG2",
+        "X:650 STATE RT 131 & 762 HWY 50");
+
+  }
+  
   public static void main(String[] args) {
     new OHHamiltonCountyParserTest().generateTests("T1", "ADDR CITY APT PLACE CALL INFO TIME UNIT X");
   }

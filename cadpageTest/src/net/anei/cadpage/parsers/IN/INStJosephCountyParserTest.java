@@ -12,6 +12,21 @@ public class INStJosephCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testRunReport() {
+
+    doTest("T1",
+        "(SWtimes)[!] 07:53AM 07/13/2012 ->Inc Addr = 19000 ROOSEVELT RDEquip = SWD2Create = 7 48 48Asgned = 7 49 16Eroute = 7 49 32Scene = 7 52 10Transp =Arrive =Avail = 7 54 16Rpt # = 12-20000575",
+        "CALL:RUN REPORT",
+        "PLACE:07:53AM 07/13/2012 ->Inc Addr = 19000 ROOSEVELT RDEquip = SWD2Create = 7 48 48Asgned = 7 49 16Eroute = 7 49 32Scene = 7 52 10Transp =Arrive =Avail = 7 54 16Rpt # = 12-20000575");
+
+    doTest("T2",
+        "(SWtimes)[!] 10:31AM 07/13/2012 ->Inc Addr = 59235 HOLLYWOOD BLEquip = SWD1Create = 10 00 34Asgned = 10 01 04Eroute = 10 01 27Scene = 10 05 11Transp =Arrive =Avail = 10 32 32Rpt # = 12-20000576",
+        "CALL:RUN REPORT",
+        "PLACE:10:31AM 07/13/2012 ->Inc Addr = 59235 HOLLYWOOD BLEquip = SWD1Create = 10 00 34Asgned = 10 01 04Eroute = 10 01 27Scene = 10 05 11Transp =Arrive =Avail = 10 32 32Rpt # = 12-20000576");
+   
+  }
+  
+  @Test
   public void testEricYoder() {
 
     doTest("T1",
@@ -302,7 +317,7 @@ public class INStJosephCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testActive911() {
+  public void testActive911A() {
 
     doTest("T1",
         "(NC)[!] INVES 03/23/12 POPPY LN :( ) OBTAIN MORE LOCATION INFOBETWEEN HICKORY AND HOLLY - UNKNOWN TYPE FIRE",
@@ -333,7 +348,282 @@ public class INStJosephCountyParserTest extends BaseParserTest {
  
   }
   
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        "(SW)[!] CRASH020 164-183 07/13/12 19000 ROOSEVELT RD SW :(61750) MIAMI RDUNKNOWN INJURY",
+        "CALL:CRASH020 164-183",
+        "ADDR:19000 ROOSEVELT RD SW",
+        "ID:61750",
+        "X:MIAMI RD",
+        "INFO:UNKNOWN INJURY");
+
+    doTest("T2",
+        "(SW)[!] MEDIC020 G-191 07/13/12 59235 HOLLYWOOD BL SW :(23500) DRAKE STM CHEST PAIN",
+        "CALL:MEDIC020",
+        "UNIT:G-191",
+        "ADDR:59235 HOLLYWOOD BL SW",
+        "ID:23500",
+        "X:DRAKE ST",
+        "INFO:M CHEST PAIN");
+
+    doTest("T3",
+        "(SW)[!] MEDIC020 156-164 07/13/12 19971 KERN RD SW :(61000) SHIRLEY AVM. POSS MI - AT SW2- CHARLIE VIA PHONE",
+        "CALL:MEDIC020 156-164",
+        "ADDR:19971 KERN RD SW",
+        "ID:61000",
+        "X:SHIRLEY AV",
+        "INFO:M POSS MI - AT SW2- CHARLIE VIA PHONE");
+
+    doTest("T4",
+        "(SW)[!] STRUC020 G-102 07/14/12 56720 SUNDOWN RD SW :(24300) HURON STSMELL OF SOMETHING BURNING LIGHT HAZE IN THE HOUSE",
+        "CALL:STRUC020",
+        "UNIT:G-102",
+        "ADDR:56720 SUNDOWN RD SW",
+        "ID:24300",
+        "X:HURON ST",
+        "INFO:SMELL OF SOMETHING BURNING LIGHT HAZE IN THE HOUSE");
+
+    doTest("T5",
+        "(SW)[!] CRASH020 07/14/12 2 BYPASS HW SW :(57800) MAYFLOWER RDUNKNOWN INJURY ROLLOVER ACCIDENT - E/B LANE - FROM SJCFD",
+        "CALL:CRASH020",
+        "ADDR:2 BYPASS HW SW",
+        "MADDR:2 BYPASS HWY SW",
+        "ID:57800",
+        "X:MAYFLOWER RD",
+        "INFO:UNKNOWN INJURY ROLLOVER ACCIDENT - E / B LANE - FROM SJCFD");
+
+    doTest("T6",
+        "(SW)[!] ASSIS020 202-203 07/14/12 24000 ROOSEVELT RD SW :(61000) OAK RDHORSE IS JAMMED IN THE DOOR",
+        "CALL:ASSIS020 202-203",
+        "ADDR:24000 ROOSEVELT RD SW",
+        "ID:61000",
+        "X:OAK RD",
+        "INFO:HORSE IS JAMMED IN THE DOOR");
+
+    doTest("T7",
+        "(SW)[!] MEDIC020 G-102 07/14/12 24805 SR 2 HW SW :( ) ST JOSEPH VALLEY PKF. RAPID HEART RATE - CLAMMY -BACK PX",
+        "CALL:MEDIC020",
+        "UNIT:G-102",
+        "ADDR:24805 SR 2 HW SW",
+        "MADDR:24805 IN 2 SW",
+        "INFO:ST JOSEPH VALLEY PKF. RAPID HEART RATE - CLAMMY -BACK PX");
+
+    doTest("T8",
+        "(SW)[!] MEDIC020 G-101 07/14/12 56892 ELMER AV SW :(23600) FORD STF. D/B",
+        "CALL:MEDIC020",
+        "UNIT:G-101",
+        "ADDR:56892 ELMER AV SW",
+        "MADDR:56892 ELMER AVE SW",
+        "ID:23600",
+        "X:FORD ST",
+        "INFO:F D / B");
+
+    doTest("T9",
+        "(SW)[!] MEDIC020 G-165 07/15/12 18833 DIAMOND POINTE CT SW :(61500) CARRINGTON DRM. FELL",
+        "CALL:MEDIC020",
+        "UNIT:G-165",
+        "ADDR:18833 DIAMOND POINTE CT SW",
+        "ID:61500",
+        "X:CARRINGTON DR",
+        "INFO:M FELL");
+
+    doTest("T10",
+        "(SW)[!] MEDIC020 G-137 07/15/12 59248 KERIA TR SW :(20201) W IRELAND RDM. FELL - UNCONSCIOUS - IFO CHURCH",
+        "CALL:MEDIC020",
+        "UNIT:G-137",
+        "ADDR:59248 KERIA TR SW",
+        "ID:20201",
+        "X:W IRELAND RD",
+        "INFO:M FELL - UNCONSCIOUS - IFO CHURCH");
+
+    doTest("T11",
+        "(SW)[!] RESAL020 G-156 07/15/12 19900 LUCINDA ST SW :(60938) S ST JOSEPH STRESIDENTIAL FIRE ALARM - HALLWAY SMOKE",
+        "CALL:RESAL020",
+        "UNIT:G-156",
+        "ADDR:19900 LUCINDA ST SW",
+        "ID:60938",
+        "X:S ST JOSEPH ST",
+        "INFO:RESIDENTIAL FIRE ALARM - HALLWAY SMOKE");
+
+    doTest("T12",
+        "(SW)[!] MEDIC020 G-89 07/15/12 55439 MEADOWVIEW AV SW :(22836) HARTZER AVF FELL INJ TO HEAD",
+        "CALL:MEDIC020",
+        "UNIT:G-89",
+        "ADDR:55439 MEADOWVIEW AV SW",
+        "MADDR:55439 MEADOWVIEW AVE SW",
+        "ID:22836",
+        "X:HARTZER AV",
+        "INFO:F FELL INJ TO HEAD");
+
+    doTest("T13",
+        "(SW)[!] MEDIC020 G-158 07/16/12 60717 LOCUST RD SW :(21500) CARRIAGE DRF FELL LIFT ASSIST ONLY",
+        "CALL:MEDIC020",
+        "UNIT:G-158",
+        "ADDR:60717 LOCUST RD SW",
+        "ID:21500",
+        "X:CARRIAGE DR",
+        "INFO:F FELL LIFT ASSIST ONLY");
+
+    doTest("T14",
+        "(SW)[!] MEDIC020 G-164 07/16/12 61577 MIAMI MEADOWS CT SW :(61621) FELLOW STMALE HIT WITH A SH",
+        "CALL:MEDIC020",
+        "UNIT:G-164",
+        "ADDR:61577 MIAMI MEADOWS CT SW",
+        "ID:61621",
+        "X:FELLOW ST",
+        "INFO:MALE HIT WITH A SH");
+
+    doTest("T15",
+        "(SW)[!] MEDIC020 G-164 07/17/12 61686 GREENTREE DR SW :(19222) MONTROSE DRM DIABETIC RXN",
+        "CALL:MEDIC020",
+        "UNIT:G-164",
+        "ADDR:61686 GREENTREE DR SW",
+        "ID:19222",
+        "X:MONTROSE DR",
+        "INFO:M DIABETIC RXN");
+
+    doTest("T16",
+        "(SW)[!] MEDIC020 G-89 07/17/12 55556 MOSS RD SW :(23000) ARDMORE TR20 Y/O M POSSIBLE SUDDEN DEATH FROM SJCPD",
+        "CALL:MEDIC020",
+        "UNIT:G-89",
+        "ADDR:55556 MOSS RD SW",
+        "ID:23000",
+        "X:ARDMORE TR",
+        "INFO:20 Y / O M POSSIBLE SUDDEN DEATH FROM SJCPD");
+
+    doTest("T17",
+        "(SW)[!] CRASH020 G-102 07/17/12 24200 SR 2 HW SW :(56500) CHAPEL LNUNKNOWN INJURY ACCIDENT",
+        "CALL:CRASH020",
+        "UNIT:G-102",
+        "ADDR:24200 SR 2 HW SW",
+        "MADDR:24200 IN 2 SW",
+        "ID:56500",
+        "INFO:CHAPEL LNUNKNOWN INJURY ACCIDENT");
+
+    doTest("T18",
+        "(SW)[!] INVES002 59-81 07/17/12 24883 US 20 HW CL :(53000) OLIVE RDSTRONG ODOR OF NATURAL GAS",
+        "CALL:INVES002 59-81",
+        "ADDR:24883 US 20 HW",
+        "MADDR:24883 US 20",
+        "CITY:CLAY TWP",
+        "ID:53000",
+        "X:OLIVE RD",
+        "INFO:STRONG ODOR OF NATURAL GAS");
+
+    doTest("T19",
+        "(SW)[!] MEDIC020 G-125 07/17/12 22400 SR 23 HW SW :(58500) BYPASS RDBLACK JEEP - F. FEELING FAINT",
+        "CALL:MEDIC020",
+        "UNIT:G-125",
+        "ADDR:22400 SR 23 HW SW",
+        "MADDR:22400 IN 23 SW",
+        "ID:58500",
+        "X:BYPASS RD",
+        "INFO:BLACK JEEP - F FEELING FAINT");
+
+    doTest("T20",
+        "(SW)[!] MEDIC020 G-136 07/17/12 59591 LEE RD SW :(21816) W IRELAND RDM. POSS STROKE",
+        "CALL:MEDIC020",
+        "UNIT:G-136",
+        "ADDR:59591 LEE RD SW",
+        "ID:21816",
+        "X:W IRELAND RD",
+        "INFO:M POSS STROKE");
+
+    doTest("T21",
+        "(SW)[!] MEDIC020 203-204 07/24/12 62052 OAK RD SW :(23500) ROOSEVELT RDF STRUCK IN THE FACE WITH A HORSE",
+        "CALL:MEDIC020 203-204",
+        "ADDR:62052 OAK RD SW",
+        "ID:23500",
+        "X:ROOSEVELT RDF ST",
+        "INFO:RUCK IN THE FACE WITH A HORSE");
+
+    doTest("T22",
+        "(SW)[!] MEDIC020 G-89 07/25/12 55096 MOSS RD SW :(23115) EDISON RDM. FELL - STRUCK HIS HEAD",
+        "CALL:MEDIC020",
+        "UNIT:G-89",
+        "ADDR:55096 MOSS RD SW",
+        "ID:23115",
+        "X:EDISON RD",
+        "INFO:M FELL - STRUCK HIS HEAD");
+
+    doTest("T23",
+        "(SW)[!] CRASH020 G-101 07/25/12 56000 MAYFLOWER RD SW :(23500) FILMORE RDUNK",
+        "CALL:CRASH020",
+        "UNIT:G-101",
+        "ADDR:56000 MAYFLOWER RD SW",
+        "ID:23500",
+        "X:FILMORE RD",
+        "INFO:UNK");
+
+    doTest("T24",
+        "(SW)[!] MEDIC020 G-89 07/25/12 55591 MELROSE AV SW :(23200) SIDNEY AVM ABD PX THROWING UP CHEST PX NUMBNESS L ARM",
+        "CALL:MEDIC020",
+        "UNIT:G-89",
+        "ADDR:55591 MELROSE AV SW",
+        "MADDR:55591 MELROSE AVE SW",
+        "ID:23200",
+        "X:SIDNEY AV",
+        "INFO:M ABD PX THROWING UP CHEST PX NUMBNESS L ARM");
+
+    doTest("T25",
+        "(SW)[!] MEDIC020 G-185 07/25/12 62430 LOCUST RD SW :(21500) ROOSEVELT RDF UNRESPONSIVE",
+        "CALL:MEDIC020",
+        "UNIT:G-185",
+        "ADDR:62430 LOCUST RD SW",
+        "ID:21500",
+        "X:ROOSEVELT RD",
+        "INFO:F UNRESPONSIVE");
+
+    doTest("T26",
+        "(SW)[!] INVES020 G-101 07/25/12 56227 OAK RD SW :(23900) FILMORE RDUNK TYPE FIRE ON BUTTERNUT BEHIND THIS ADDRESS",
+        "CALL:INVES020",
+        "UNIT:G-101",
+        "ADDR:56227 OAK RD SW",
+        "ID:23900",
+        "X:FILMORE RD",
+        "INFO:UNK TYPE FIRE ON BUTTERNUT BEHIND THIS ADDRESS");
+
+    doTest("T27",
+        "(SW)[!] MEDIC020 G-209 07/26/12 24125 NEW RD SW :(63500) OAK RDM. SUGAR 27",
+        "CALL:MEDIC020",
+        "UNIT:G-209",
+        "ADDR:24125 NEW RD SW",
+        "ID:63500",
+        "X:OAK RD",
+        "INFO:M SUGAR 27");
+
+    doTest("T28",
+        "(SW)[!] INVES020 G-156 07/26/12 19502 PULLING ST SW :(60700) FELLOW STBURNING SMELL IN THE BASE",
+        "CALL:INVES020",
+        "UNIT:G-156",
+        "ADDR:19502 PULLING ST SW",
+        "ID:60700",
+        "X:FELLOW ST",
+        "INFO:BURNING SMELL IN THE BASE");
+
+    doTest("T29",
+        "(SW)[!] MEDIC020 G-156 07/26/12 19778 YODER ST SW :(60500) CARROLL STF D",
+        "CALL:MEDIC020",
+        "UNIT:G-156",
+        "ADDR:19778 YODER ST SW",
+        "ID:60500",
+        "X:CARROLL ST",
+        "INFO:F D");
+
+    doTest("T30",
+        "(SW)[!] MEDIC020 G-158 07/27/12 60788 GREENRIDGE CT SW :(21758) CARRIAGE DRM.UNKNOWN MEDICAL",
+        "CALL:MEDIC020",
+        "UNIT:G-158",
+        "ADDR:60788 GREENRIDGE CT SW",
+        "ID:21758",
+        "X:CARRIAGE DR",
+        "INFO:MUNKNOWN MEDICAL");
+   
+  }
+  
   public static void main(String[] args) {
-    new INStJosephCountyParserTest().generateTests("T1","CALL UNIT ADDR CITY ID X INFO");
+    new INStJosephCountyParserTest().generateTests("T1","CALL UNIT ADDR CITY ID X INFO PLACE");
   }
 }
