@@ -4840,11 +4840,30 @@ MED CALL 16864 HWY M CRS ST W 168TH & W 176TH 95 YO F NOT BREATHING NOT CONS COL
 disregard 10-50 at 4025 hwy 10 wood heights per troop 1181 non injury road is no longer blocked
 MED CALL @ LAWSON MANOR RM 103 79 YO MALE CONS BREATHING PULLED FOLEY AND IS BLEEDING
 **********************************************************
-Hamilton County, OH
-Contact: Kieth <kiethw@fronter.com>
-HC:A/A - INJURY 600 S I275 EX UNTC 600 S I275 ** AUTO ACCIDENT / PERSON INJURED ** Original Location : 600 S I275 00:26 HFE72 XST: 597 N I275 EX XST2: 609 N I275 EX
-HC:FIRE ALARM 5355 STONE BARN RD INDN BROWN RES. MARK-INDN PD ** FIRE ALARM ** Original Location : BROWN RES. 19:41 HFE66 HFE72 HFFG5 HFMDRF XST: 8500 INDIAN HILL RD
-HC:VEHICLE FIRE 582 N I275 EX MILF 582 N I275 ** VEHICLE FIRE ** Original Location : 582 N I275 13:23 HFE72 HFFG2 XST: 650 STATE RT 131 XST2: 762 HWY 50
+San Joaquin County, CA
+Contact: John <john499@live.com>
+1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BS18-1    ZUM-110502      Medical Aid                     3232 E Munford Ave\n(Con't) 2 of 2\n     Dead End/S STATE ROUBldg:            Apt: 3\n(End)
+FRM:LifecomCellPaging@amr.net\nMSG:BS18-1    Dispatched: 00:45:33 Enroute: 00:48:05 On Scene: 01:00:47 AOR: 01:20:35
+ 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BS18-1    ZUM-110503      Medical Aid                     1840 S B St\n(Con't) 2 of 2\n     E FOURTH ST/E FIFTH Bldg:            Apt:\n(End)
+FRM:LifecomCellPaging@amr.net\nMSG:BS18-1    Dispatched: 02:01:53 Enroute: 02:04:23 On Scene: 02:05:26 AOR: 02:26:24
+FRM:LifecomCellPaging@amr.net\nMSG:E18-1 11020566     Fire Alarm - Co  5045 S State Route 99 E F E ARCH RD/E SUNNY RD 830A
+
+Contact: David Reinhard <r26loki@hotmail.com>
+Sender: LifecomCellPaging@amr.net
+1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\r\n(End)
+1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BC9-0 12018079     Traffic Collisi W Eleventh St / S Bird Rd                           T327A           \n(Con't) 2 of 2\n    Assigned Units: E9-2,T26-2,E9-6,T9-1,BC9-0\r\n(End)
+FRM:LifecomCellPaging@amr.net\nMSG:T26-1     12018446    Dispatched:18:49:50Enroute:        On Scene:        AOR:18:51:14
+**********************************************************
+Cecil County, MD (B?)
+Contact: "bradfordsnyder@verizon.net" <bradfordsnyder@verizon.net>
+Sender: waterwitch71@verizon.net
+ABDOMINAL PAIN\r\n01A01 (ABDOMINAL PAIN )\r\n35 N MAIN ST\r\nCENTER ST\r\nVANNORT DR\r\nPD\r\n12010817\r\n20:20:03\r\nMB 700  EMS OPS\r\n@A07 @PM1\r\n[P ABD PAIN ;22 YEAR OLD,
+FRM:LifecomCellPaging@amr.net\nMSG:T26-1     12018446    Dispatched:18:49:50Enroute:18:51:55On Scene:18:53:54AOR:19:15:58
+FRM:LifecomCellPaging@amr.net\nMSG:T26-1 12018446     Structure Fire   16658 S Ore Claim Trl     W CLAIM STAKE AVE/W  L142A       
+ 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:T26-1 12018446     Structure Fire   16658 S Ore Claim Trl     W CLAIM STAKE AVE/W  L142A               \n(Con't) 2 of 2\n                 Assigned Units:T26-1,E11-1,T26-1,E3-4,E3-1,LM\n(End)
+ 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:T26-1     FRC-120542      Structure Fire                  10331 S Priest Rd                            \n(Con't) 2 of 2\n     E GALIN RD/E KRELL LBldg:            Apt:\n(End)
+ 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:E26-1 12018116     Vegetation Fire I 5 NB / S KASSON RD                                H5C3            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E26-1\n(End)
+ 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\n(End)
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4861,20 +4880,26 @@ HC:VEHICLE FIRE 582 N I275 EX MILF 582 N I275 ** VEHICLE FIRE ** Original Locati
 **********************************************************
 **********************************************************
 **********************************************************
-San Joaquin County, CA
-Contact: John <john499@live.com>
-1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BS18-1    ZUM-110502      Medical Aid                     3232 E Munford Ave\n(Con't) 2 of 2\n     Dead End/S STATE ROUBldg:            Apt: 3\n(End)
-FRM:LifecomCellPaging@amr.net\nMSG:BS18-1    Dispatched: 00:45:33 Enroute: 00:48:05 On Scene: 01:00:47 AOR: 01:20:35
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BS18-1    ZUM-110503      Medical Aid                     1840 S B St\n(Con't) 2 of 2\n     E FOURTH ST/E FIFTH Bldg:            Apt:\n(End)
-FRM:LifecomCellPaging@amr.net\nMSG:BS18-1    Dispatched: 02:01:53 Enroute: 02:04:23 On Scene: 02:05:26 AOR: 02:26:24
-FRM:LifecomCellPaging@amr.net\nMSG:E18-1 11020566     Fire Alarm - Co  5045 S State Route 99 E F E ARCH RD/E SUNNY RD 830A
+**********************************************************
+St Joseph County, IN (alternate)
+Contact: support@active911.com
+Agency name: Southwest Central Fire Territory Location: South Bend, IN 
+Sender: @c-msg.net
 
-Contact: David Reinhard <r26loki@hotmail.com>
-Sender: LifecomCellPaging@amr.net
-1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\r\n(End)
-1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BC9-0 12018079     Traffic Collisi W Eleventh St / S Bird Rd                           T327A           \n(Con't) 2 of 2\n    Assigned Units: E9-2,T26-2,E9-6,T9-1,BC9-0\r\n(End)
-**********************************************************
-**********************************************************
+Fr:<alerts@etieline.com>\nSu:\nTxt: 08:49PM 07/24/2012 Ic# 26 MEDIC020 Ds# 135001 Al# 1 Utl# 203-204 07/24/1262052 OAK RD SW :(23500) ROOSEVELT RDF STRUCK IN THE FACE WITH A HORSE 2050,014ME10 ,SWD2
+Fr:<alerts@etieline.com>\nSu:\nTxt: 07:51AM 07/25/2012 Ic# 3 MEDIC020 Ds# 135002 Al# 1 Utl# G-89 07/25/1255096 MOSS RD SW :(23115) EDISON RDM. FELL - STRUCK HIS HEAD 0751,0141660 ,ME12 ,SWD1
+Fr:<alerts@etieline.com>\nSu:\nTxt: 09:14AM 07/25/2012 Ic# 4 CRASH020 Ds# 135002 Al# 1 Utl# G-101 07/25/1256000 MAYFLOWER RD SW :(23500) FILMORE RDUNK 0914,014SWD1
+Fr:<alerts@etieline.com>\nSu:\nTxt: 06:00PM 07/25/2012 Ic# 17 MEDIC020 Ds# 135002 Al# 1 Utl# G-89 07/25/1255591 MELROSE AV SW :(23200) SIDNEY AVM ABD PX THROWING UP CHEST PX NUMBNESS L ARM 1800,006ME11 ,SWD1
+Fr:<alerts@etieline.com>\nSu:\nTxt: 08:41PM 07/25/2012 Ic# 21 MEDIC020 Ds# 135001 Al# 1 Utl# G-185 07/25/1262430 LOCUST RD SW :(21500) ROOSEVELT RDF UNRESPONSIVE 2040,006ME41 ,CLAME,SWD2
+Fr:<alerts@etieline.com>\nSu:\nTxt: 10:14PM 07/25/2012 Ic# 25 INVES020 Ds# 135002 Al# 1 Utl# G-101 07/25/1256227 OAK RD SW :(23900) FILMORE RDUNK TYPE FIRE ON BUTTERNUT BEHIND THIS ADDRESS 2214,014SWD1
+Fr:<alerts@etieline.com>\nSu:\nTxt: 12:54PM 07/26/2012 Ic# 9 MEDIC020 Ds# 135001 Al# 1 Utl# G-209 07/26/1224125 NEW RD SW :(63500) OAK RDM. SUGAR 27 1254,006ME11 ,1660 ,SWD2
+Fr:<alerts@etieline.com>\nSu:\nTxt: 02:20PM 07/26/2012 Ic# 15 INVES020 Ds# 135001 Al# 1 Utl# G-156 07/26/1219502 PULLING ST SW :(60700) FELLOW STBURNING SMELL IN THE BASEMENT, NO SMOKE OR FLAMES SEEN, SMOKEALARMS ARE NOW GOING OFF 1420,0065 PPL AND 2 K9S HAVE EVACUATE (01/02)
+Fr:<alerts@etieline.com>\nSu:\nTxt: 06:55PM 07/26/2012 Ic# 24 MEDIC020 Ds# 135001 Al# 1 Utl# G-156 07/26/1219778 YODER ST SW :(60500) CARROLL STF DIZZY, SWETY, DIABETIC HX 1854,010SWD2
+Fr:<alerts@etieline.com>\nSu:\nTxt: 05:41PM 07/27/2012 Ic# 29 MEDIC020 Ds# 135001 Al# 1 Utl# G-158 07/27/1260788 GREENRIDGE CT SW :(21758) CARRIAGE DRM.UNKNOWN MEDICAL 1741,006ME10 ,SWD2
+
+Fr:<alerts@etieline.com>\nSu:\nTxt: 09:15PM 07/24/2012 ->Inc Addr = 62052 OAK RDEquip = SWD2Create = 20 50 01Asgned = 20 50 34Eroute = 20 51 13Scene  = 20 57 42Transp =Arrive =Avail  = 21 16 14Rpt # = 12-20000621
+Fr:<alerts@etieline.com>\nSu:\nTxt: 08:12AM 07/25/2012 ->Inc Addr = 55096 MOSS RDEquip = SWD1Create =  7 51 32Asgned =  7 52 23Eroute =  7 53 28Scene  =  7 56 46Transp =Arrive =Avail  =  8 12 57Rpt # = 12-20000622
+Fr:<alerts@etieline.com>\nSu:\nTxt: 09:31AM 07/25/2012 ->Inc Addr = 56000 MAYFLOWER RDEquip = SWD1Create =  9 14 26Asgned =  9 14 52Eroute =  9 15 27Scene  =  9 16 02Transp =Arrive =Avail  =  9 31 49Rpt # = 12-20000623
 **********************************************************
 Contact: Active911
 Agency name: St. Joseph Co VEST Location: Southbend, IN 
