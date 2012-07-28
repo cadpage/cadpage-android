@@ -4840,6 +4840,11 @@ MED CALL 16864 HWY M CRS ST W 168TH & W 176TH 95 YO F NOT BREATHING NOT CONS COL
 disregard 10-50 at 4025 hwy 10 wood heights per troop 1181 non injury road is no longer blocked
 MED CALL @ LAWSON MANOR RM 103 79 YO MALE CONS BREATHING PULLED FOLEY AND IS BLEEDING
 **********************************************************
+Hamilton County, OH
+Contact: Kieth <kiethw@fronter.com>
+HC:A/A - INJURY 600 S I275 EX UNTC 600 S I275 ** AUTO ACCIDENT / PERSON INJURED ** Original Location : 600 S I275 00:26 HFE72 XST: 597 N I275 EX XST2: 609 N I275 EX
+HC:FIRE ALARM 5355 STONE BARN RD INDN BROWN RES. MARK-INDN PD ** FIRE ALARM ** Original Location : BROWN RES. 19:41 HFE66 HFE72 HFFG5 HFMDRF XST: 8500 INDIAN HILL RD
+HC:VEHICLE FIRE 582 N I275 EX MILF 582 N I275 ** VEHICLE FIRE ** Original Location : 582 N I275 13:23 HFE72 HFFG2 XST: 650 STATE RT 131 XST2: 762 HWY 50
 **********************************************************
 **********************************************************
 **********************************************************
