@@ -894,6 +894,11 @@ Hoke Co 911:795 TC JONES RD* * * * * **EMD* * * * * * * * 09/15/2011 14:36:26 : 
 Hoke Co 911:385 SUNSET LAKE RD* * * * * **EMD* * * * * * * * 09/19/2011 06:20:35 : pos2 : SCOOPER9403 Cross streets: 7100 ARABIA RD//DEAD END Cross streets: 205
 Hoke Co 911:6020 PHILLIPI CHURCH RD* * * * * **26 SICK PERS* * * * * * * * 09/18/2011 00:57:12 : pos1 : LGRADY7274 ** EMD Case Complete ** Key Questions: 46 yea
 *******************************************************************************
+Trumbull County, OH (OHTrumbullCountyParser)
+*3481 NILES CORTLAND RD NE*12**BAZETTA TWP***UNKNOWN PROBLEM/UNCLASSIFIED***STA11****07/10/2012 10:10:24 : pos7 : ASP   Cross streets: WINDSOR PL//GREENBRIAR  Landmark: CASS LAKE TRAILER PARK  Geo Comment: STATE RD/AKA ST RTE 46  NBH: MVA AT NILES CORTLAND @ GREENBRIER STA 11/12/13*
+*2438 ELM RD EXT NE***BAZETTA TWP***CRASH WITH REPORTED INJURIES***STA11,STA13****07/10/2012 17:49:50 : pos3 : RLC   Landmark: MUSCLE & MORE AUTO SALES  Cross streets: HOAGLAND BLACKSTUB RD//BURNETT DR  Geo Comment: STATE RD/AKA ST RTE 5  GUY RAN FROM THE SCENE*
+*2755 HOAGLAND BLACKSTUB RD***BAZETTA TWP***ODOR INVESTIGATION***STA11****07/10/2012 19:29:40 : pos4 : JB   THIRD PARTY CALL UNK WHAT TYPE OF ODOR / LIKE SOMETHING BURNING     07/10/2012 19:29:12 : pos4 : JB   Cross streets: JANET DR//JOHNSON PLANK RD  Landmark: BAZETTA ELEMENTARY SCHOOL  Geo Comment: COUNTY RD #203/AKA BAZETTA RD  330/847-9199 DAUGHTER IS WORKING AT CONSESSION STAND / SMELLING A BURNING ODOR*
+*******************************************************************************
 *******************************************************************************
 * Suffolk County NY Collection
 *******************************************************************************
@@ -4829,20 +4834,6 @@ MED CALL 16864 HWY M CRS ST W 168TH & W 176TH 95 YO F NOT BREATHING NOT CONS COL
 disregard 10-50 at 4025 hwy 10 wood heights per troop 1181 non injury road is no longer blocked
 MED CALL @ LAWSON MANOR RM 103 79 YO MALE CONS BREATHING PULLED FOLEY AND IS BLEEDING
 **********************************************************
-San Joaquin County, CA
-Contact: John <john499@live.com>
-1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BS18-1    ZUM-110502      Medical Aid                     3232 E Munford Ave\n(Con't) 2 of 2\n     Dead End/S STATE ROUBldg:            Apt: 3\n(End)
-FRM:LifecomCellPaging@amr.net\nMSG:BS18-1    Dispatched: 00:45:33 Enroute: 00:48:05 On Scene: 01:00:47 AOR: 01:20:35
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BS18-1    ZUM-110503      Medical Aid                     1840 S B St\n(Con't) 2 of 2\n     E FOURTH ST/E FIFTH Bldg:            Apt:\n(End)
-FRM:LifecomCellPaging@amr.net\nMSG:BS18-1    Dispatched: 02:01:53 Enroute: 02:04:23 On Scene: 02:05:26 AOR: 02:26:24
-FRM:LifecomCellPaging@amr.net\nMSG:E18-1 11020566     Fire Alarm - Co  5045 S State Route 99 E F E ARCH RD/E SUNNY RD 830A
-
-Contact: David Reinhard <r26loki@hotmail.com>
-Sender: LifecomCellPaging@amr.net
-1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\r\n(End)
-1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BC9-0 12018079     Traffic Collisi W Eleventh St / S Bird Rd                           T327A           \n(Con't) 2 of 2\n    Assigned Units: E9-2,T26-2,E9-6,T9-1,BC9-0\r\n(End)
-FRM:LifecomCellPaging@amr.net\nMSG:T26-1     12018446    Dispatched:18:49:50Enroute:        On Scene:        AOR:18:51:14
-**********************************************************
 Calumet County, WI (alternate)
 Contact: Tom Macco <tmacco1@gmail.com>
 Sender: zoll@goldcross.org
@@ -4856,15 +4847,6 @@ Contact: Brad Penn <penn367@gmail.com>
 Sender: +17172203767
 ALARM SMOKE DETECTOR ACTIVATION 4200 ROSEMONT AV UPPER DARBY TWP X: CHILDS AV & BURNLEY LN Units: 0201008 SMOKE DETEC... http://active911.com/aHSfdUCP
 **********************************************************
-Cecil County, MD (alternate) ** Double check this, I think it got  misplaced!!
-Contact: "bradfordsnyder@verizon.net" <bradfordsnyder@verizon.net>
-Sender: waterwitch71@verizon.net
-FRM:LifecomCellPaging@amr.net\nMSG:T26-1     12018446    Dispatched:18:49:50Enroute:18:51:55On Scene:18:53:54AOR:19:15:58
-FRM:LifecomCellPaging@amr.net\nMSG:T26-1 12018446     Structure Fire   16658 S Ore Claim Trl     W CLAIM STAKE AVE/W  L142A       
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:T26-1 12018446     Structure Fire   16658 S Ore Claim Trl     W CLAIM STAKE AVE/W  L142A               \n(Con't) 2 of 2\n                 Assigned Units:T26-1,E11-1,T26-1,E3-4,E3-1,LM\n(End)
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:T26-1     FRC-120542      Structure Fire                  10331 S Priest Rd                            \n(Con't) 2 of 2\n     E GALIN RD/E KRELL LBldg:            Apt:\n(End)
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:E26-1 12018116     Vegetation Fire I 5 NB / S KASSON RD                                H5C3            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E26-1\n(End)
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\n(End)
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4894,6 +4876,27 @@ GAS LEAK OUTSIDE\r\n\nGASOUT (GAS LEAK OUTSIDE )\r\n\nCONOWINGO RD / RT 222 - RO
 HOUSE FIRE\r\n\nHOUSE (HOUSE FIRE )\r\n\n161 WILLARD DR\r\n\nSTITES LN\r\n\nLONGACRE DR\r\n\nNE\r\n\n12010825\r\n\n22:43:45\r\n\nFB 402\2sOPS 6\r\n\n@R04 @T04 @E04 @E04 @L04 @A04 @T08 @E05 @E0
 FALL\r\n\n17D01 (FALL )\r\n\n188 SKYLINE DR\r\n\nCONO\r\n\n12010787\r\n\n10:10:41\r\n\nEMS OPS MB705\r\n\n@A07 @PM1\r\n\n[P MAN FELL OFF THE ROOF ;40 YEAR OLD, MALE, UNCONSCIOUS, BREATHIN
 CHEST PAIN\n\n10D04 (CHEST PAIN )\n\n52 CRAIG CT\n\nCONO\n\n12005115\n\n21:13:22\n\nEMS OSP 0703\n\n@A07 @PM1\n\n443 655 0295 CEL[P HUSB HAVING CHEST PAINS ;51 YEAR OLD, MA
+**********************************************************
+San Joaquin County, CA
+Contact: John <john499@live.com>
+1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BS18-1    ZUM-110502      Medical Aid                     3232 E Munford Ave\n(Con't) 2 of 2\n     Dead End/S STATE ROUBldg:            Apt: 3\n(End)
+FRM:LifecomCellPaging@amr.net\nMSG:BS18-1    Dispatched: 00:45:33 Enroute: 00:48:05 On Scene: 01:00:47 AOR: 01:20:35
+ 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BS18-1    ZUM-110503      Medical Aid                     1840 S B St\n(Con't) 2 of 2\n     E FOURTH ST/E FIFTH Bldg:            Apt:\n(End)
+FRM:LifecomCellPaging@amr.net\nMSG:BS18-1    Dispatched: 02:01:53 Enroute: 02:04:23 On Scene: 02:05:26 AOR: 02:26:24
+FRM:LifecomCellPaging@amr.net\nMSG:E18-1 11020566     Fire Alarm - Co  5045 S State Route 99 E F E ARCH RD/E SUNNY RD 830A
+
+Contact: David Reinhard <r26loki@hotmail.com>
+Sender: LifecomCellPaging@amr.net
+1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\r\n(End)
+1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BC9-0 12018079     Traffic Collisi W Eleventh St / S Bird Rd                           T327A           \n(Con't) 2 of 2\n    Assigned Units: E9-2,T26-2,E9-6,T9-1,BC9-0\r\n(End)
+FRM:LifecomCellPaging@amr.net\nMSG:T26-1     12018446    Dispatched:18:49:50Enroute:        On Scene:        AOR:18:51:14
+FRM:LifecomCellPaging@amr.net\nMSG:T26-1     12018446    Dispatched:18:49:50Enroute:18:51:55On Scene:18:53:54AOR:19:15:58
+FRM:LifecomCellPaging@amr.net\nMSG:T26-1 12018446     Structure Fire   16658 S Ore Claim Trl     W CLAIM STAKE AVE/W  L142A       
+ 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:T26-1 12018446     Structure Fire   16658 S Ore Claim Trl     W CLAIM STAKE AVE/W  L142A               \n(Con't) 2 of 2\n                 Assigned Units:T26-1,E11-1,T26-1,E3-4,E3-1,LM\n(End)
+ 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:T26-1     FRC-120542      Structure Fire                  10331 S Priest Rd                            \n(Con't) 2 of 2\n     E GALIN RD/E KRELL LBldg:            Apt:\n(End)
+ 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:E26-1 12018116     Vegetation Fire I 5 NB / S KASSON RD                                H5C3            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E26-1\n(End)
+ 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\n(End)
+FRM:LifecomCellPaging@amr.net\nMSG:E26-1\5s12018782\4sDispatched:00:37:41Enroute:00:40:05On Scene:\8sAOR:00:42:38\r\n
 **********************************************************
 **********************************************************
 St Joseph County, IN (alternate)
@@ -4966,3 +4969,4 @@ Contact: Active911
 [Chief ALT] [46 Fire] -- Structure-Mobile Home/Trailer -- 243 Kentwood Dr Dover - Cross Sts: Phoenix D - Caller:SHANON\n
 **********************************************************
 **********************************************************
+T

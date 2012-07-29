@@ -22,7 +22,7 @@ Sender: 911Fire@ci.stamford.ct.us
 public class CTStamfordParser extends DispatchVisionAirParser {
   
   public CTStamfordParser() {
-    super(new String[]{"* ", "911Fire:* "}, 
+    super(new String[]{"* ", "911Fire:* "}, "UNK PLACENAME PHONE",
           "STAMFORD", "CT");
   }
   
