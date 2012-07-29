@@ -24,5 +24,9 @@ class CodeMessagingVendor extends Vendor {
   boolean isAvailable() {
     return true;
   }
-  
+
+  @Override
+  boolean isVendorAddress(String address) {
+    return address.endsWith("@c-msg.net");
+  }
 }

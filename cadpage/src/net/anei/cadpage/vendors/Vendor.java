@@ -43,6 +43,10 @@ abstract class Vendor {
   // True if we have have identified text pages coming from this vendor
   private boolean textPage = false;
   
+  // When user asks to disable text page checking, it only works until they
+  // install the next release.  The disabled release ID is stored here
+  private boolean disableTextPageCheck = false;
+  
   // True if we are in processing of registering with vendor server
   private boolean inProgress = false;
   
@@ -145,6 +149,17 @@ abstract class Vendor {
   }
   
   /**
+   * Determine if the sender address of a messages indicates that it originated with this vendor
+   * @param address  message sender addres
+   * @return true if this address is associated with this vendor
+   */
+  boolean isVendorAddress(String address) {
+    
+    // Always return false.  Vendor classes usually override this to add their own logic
+    return false;
+  }
+  
+  /**
    * @return support email address
    */
   String getEmailAddress() {
@@ -221,12 +236,13 @@ abstract class Vendor {
     token = prefs.getString("token", null);
     
     textPage = prefs.getBoolean("textPage", false);
+    disableTextPageCheck = prefs.getBoolean("disableTextPageCheck", false);
   }
   
   /**
    * @return Name of sponsoring agency if an active vendor is sponsoring Cadpage
    */
-  public String getSponsor() {
+  String getSponsor() {
     if (isSponsored() && isEnabled()) return title;
     return null;
   }
@@ -247,12 +263,28 @@ abstract class Vendor {
    * Set the text page received flag to selected value
    * @param textPage new value
    */
-  public void setTextPage(boolean textPage) {
+  void setTextPage(boolean textPage) {
     if (enabled) return;
     if (textPage == this.textPage) return;
     this.textPage = textPage;
     SharedPreferences.Editor editor = prefs.edit();
     editor.putBoolean("textPage", textPage);
+    editor.commit();
+  }
+  
+  /**
+   * Called when users asks us not to bug them about text paging status
+   */
+  void setDisableTextPageCheck(boolean disableTextPageCheck) {
+    if (disableTextPageCheck == this.disableTextPageCheck) return;
+    if (disableTextPageCheck && !textPage) return;
+    this.disableTextPageCheck = disableTextPageCheck;
+    SharedPreferences.Editor editor = prefs.edit();
+    if (textPage) {
+      textPage = false;
+      editor.putBoolean("textPage", textPage);
+    }
+    editor.putBoolean("disableTextPageCheck", disableTextPageCheck);
     editor.commit();
   }
   
@@ -265,6 +297,7 @@ abstract class Vendor {
     sb.append("\nenabled:" + enabled);
     sb.append("\nbroken:" + broken);
     sb.append("\ntextPage:" + textPage);
+    sb.append("\ndisableTextPageCheck:" + disableTextPageCheck);
     if (enabled || broken) {
       sb.append("\naccount:" + account);
       sb.append("\ntoken:" + token);
@@ -283,6 +316,28 @@ abstract class Vendor {
    */
   boolean isBroken() {
     return broken;
+  }
+  
+  /**
+   * @param status context of request
+   *         0 - return raw status
+   *         1 - should we show startup register screen
+   *         2 - should we show register screen in donation menus
+   * @return text page status of vendor
+   */
+  boolean isTextPage(int status) {
+    
+    // If we haven't see a text page then the answer is always no
+    if (!textPage) return false;
+    
+    // If startup request, return true unless user has asked us not to
+    if (status == 1) return !disableTextPageCheck;
+    
+    // If donation menu, return true if vendor is sponsored
+    if (status == 2) return isSponsored();
+    
+    // Otherewise, always return true
+    return true;
   }
 
   /**
@@ -318,7 +373,7 @@ abstract class Vendor {
    * @param context current context
    * @param uri URI included in discover request or null if user request
    */
-  public void registerReq(Context context, Uri uri) {
+  void registerReq(Context context, Uri uri) {
     
     // If already enabled, we don't have to do anything
     if (enabled) {

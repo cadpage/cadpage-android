@@ -7,7 +7,8 @@ package net.anei.cadpage.donation;
 public class ReqMoneyGroup extends EventGroup {
   
   public ReqMoneyGroup() {
-    super(AndroidDonateEvent.instance(), 
+    super(Vendor2Event.instance(),
+          AndroidDonateEvent.instance(), 
           DonateAndroidUnsuportedEvent.instance(), 
           AndroidDonateBetaEvent.instance(),
           AndroidDonateProblemEvent.instance(),

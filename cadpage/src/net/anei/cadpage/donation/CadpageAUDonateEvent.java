@@ -16,8 +16,10 @@ public class CadpageAUDonateEvent extends DonateScreenEvent {
   
   public CadpageAUDonateEvent() {
     super(AlertStatus.GREEN, R.string.donate_cadpage_au_title, R.string.donate_cadpage_au_text,
+           Vendor2Event.instance(),
            AndroidDonateEvent.instance(),
-           PaypalDonateEvent.instance());
+           PaypalDonateEvent.instance(),
+           MagicWordEvent.instance());
   }
   
   @Override

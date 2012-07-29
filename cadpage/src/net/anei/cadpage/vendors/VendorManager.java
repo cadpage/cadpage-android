@@ -21,6 +21,8 @@ import android.preference.PreferenceScreen;
  */
 public class VendorManager {
   
+  private Context context;
+  
   // List of supported vendors
   private Vendor[] vendorList = new Vendor[]{
     new CodeMessagingVendor(),
@@ -32,6 +34,7 @@ public class VendorManager {
    * @param context current context
    */
   public void setup(Context context) {
+    this.context = context;
     for (Vendor vendor : vendorList) {
       vendor.setup(context);
     }
@@ -207,11 +210,12 @@ public class VendorManager {
   /**
    * Check for a C2DM discovery text message
    * @param context current context
+   * @param address message sender address
    * @param message received text message
    * @return possibly modified text message to be processed, of null if
    * this was a discovery query that should not be visible to anything else
    */
-  public String discoverQuery(Context context, String message) {
+  public String discoverQuery(Context context, String address, String message) {
     
     // There are two kinds of discover messages.  A standalone query
     // always begins with a fixed string and contains an http URL
@@ -245,6 +249,11 @@ public class VendorManager {
         if (tag != null && tag.length()>=4 && message.startsWith(tag)) {
           vendor.setTextPage(true);
           message = message.substring(tag.length());
+          break;
+        }
+        
+        if (vendor.isVendorAddress(address)) {
+          vendor.setTextPage(true);
           break;
         }
       }
@@ -298,6 +307,65 @@ public class VendorManager {
     if (pt > 0) pt = host.lastIndexOf('.', pt-1);
     if (pt >= 0) host = host.substring(pt+1);
     return host;
+  }
+
+  /**
+   * Do new release reset processing
+   */
+  public void newReleaseReset() {
+    
+    // Reset all disable text page checks when a new release is installed
+    for (Vendor vendor : vendorList) {
+      vendor.setDisableTextPageCheck(false);
+    }
+  }
+  
+  /**
+   * See if there is a direct paging vendor that has discovered it is still getting
+   * old fashion text pages
+   * @param status context of request
+   *         0 - return raw status
+   *         1 - should we show startup register screen
+   *         2 - should we show register screen in donation menus
+   * @return true if there is one, false otherwise
+   */
+  public boolean findTextPageVendor(int status) {
+    lastTextPageVendor = null;
+    for (Vendor vendor : vendorList) {
+      if (vendor.isTextPage(status)) {
+        lastTextPageVendor = vendor;
+        return true;
+      }
+    }
+    lastTextPageVendor = null;
+    return false;
+  }
+  private Vendor lastTextPageVendor = null;
+  
+  /**
+   * return a resource ID defining it's title of text paging vendor
+   * discovered by findTextPageVendor()
+   * @return valid text title if found, -1 otherwise
+   */
+  public String getTextPageVendorName() {
+    return context.getString(lastTextPageVendor.getTitleId());
+  }
+  
+  /**
+   * Register user with direct page vendor found by findTextPageVendor()
+   * @param context current context
+   */
+  public void  registerTextPageVendor(Context context) {
+    VendorActivity.launchActivity(context, lastTextPageVendor);
+  }
+  
+  /**
+   * Process user request to ignore direct direct page vendor found by 
+   * findTextPageVendor()
+   * @param context current context
+   */
+  public void  ignoreTextPageVendor() {
+    lastTextPageVendor.setDisableTextPageCheck(true);
   }
   
   /**

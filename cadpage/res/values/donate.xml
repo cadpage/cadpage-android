@@ -203,4 +203,24 @@
     are using services provided by this sponsor.
   </string>
   
+  <string name="vendor_title">Register with %s</string>
+  <string name="vendor_text">
+    You appear to be getting text pages from %s.  You can register to get direct pages from
+    them, which don\'t rely on text messaging, eliminating several problems associated
+    with text messages.  
+  </string>
+  
+  <string name="vendor_help_title">What is direct paging?</string>
+  <string name="vendor_help_text">
+    Direct paging allows message servicing agencies to push pages to Cadpage directly through 
+    the data networks, without relying on text paging.  Which eliminates both the text message fees
+    and the length limits carriers impose on text messages.  And most agencies pay Cadpage out of
+    the money they get from departments and dispatch centers, so we don\'t expect direct paging users
+    to purchase a Cadpage subscription.
+  </string>
+  
+  <string name="vendor_ignore_title">Leave things the way they are</string>
+  
+  <string name="vendor_register_title">Register for direct paging</string>
+  
 </resources>

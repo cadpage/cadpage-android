@@ -1,7 +1,9 @@
 package net.anei.cadpage;
 
 import net.anei.cadpage.billing.BillingManager;
+import net.anei.cadpage.donation.DonateActivity;
 import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.donation.Vendor1Event;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ListActivity;
@@ -119,6 +121,13 @@ public class CallHistoryActivity extends ListActivity {
       if (! ManagePreferences.release().equals(release)) {
         ManagePreferences.setRelease(release);
         showDialog(RELEASE_DIALOG);
+      }
+      
+      // If not, see if we have discovered a direct page vendor sending us text pages
+      else {
+        Vendor1Event event = Vendor1Event.instance();
+        if (event.isEnabled()) DonateActivity.launchActivity(this, event);
+
       }
     }
     
