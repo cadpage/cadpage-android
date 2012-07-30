@@ -4821,19 +4821,6 @@ Contact: Bill Hickle <bhickle29@gmail.com>
 Sender: 4129533352
 21 auto fire alarm Brownsville House Apts asst ST6
 **********************************************************
-Ray County, MO (replace)
-Contact: "Lee O'Dell" <leeodell@woodheightsfire.com>
-Sender: dispatch@raycounty911.com
-TEST PAGE FOR 7/25/17 18:40 THIS IS A TEST ONLY
-LP LEAK @ 12507 ORRICK RD CRSS ST W 124TH & FREDERICKSBURG CALLED IN BY WHFD 800
-TEST TEXT. 08:31. 07/25/2012.
-(Weather Alert) Fire Weather Warning for Ray from 1:00 PM Wed until 8:00 PM Wed (EDT)
-(911) ALL FIREFIGHTERS  REPORT TO STATION FOR CLEAN UP PER 800
-MED CALL 16864 HWY M CRS ST W 168TH & W 176TH 95 YO F NOT BREATHING NOT CONS COLD TO TOUCH
-10-50 injuries unknown road blocked at 4025 hwy 10 wood heights crs st hwy o and brian st 3 occupants
-disregard 10-50 at 4025 hwy 10 wood heights per troop 1181 non injury road is no longer blocked
-MED CALL @ LAWSON MANOR RM 103 79 YO MALE CONS BREATHING PULLED FOLEY AND IS BLEEDING
-**********************************************************
 Calumet County, WI (alternate)
 Contact: Tom Macco <tmacco1@gmail.com>
 Sender: zoll@goldcross.org
@@ -4847,6 +4834,10 @@ Contact: Brad Penn <penn367@gmail.com>
 Sender: +17172203767
 ALARM SMOKE DETECTOR ACTIVATION 4200 ROSEMONT AV UPPER DARBY TWP X: CHILDS AV & BURNLEY LN Units: 0201008 SMOKE DETEC... http://active911.com/aHSfdUCP
 **********************************************************
+Unknown
+Contact: Colin Candy <colincandy51@gmail.com>
+Sender: scesitgroup@strathcona.ca
+(CAD Message) Date: 2012-07-29 10:48:02\nType: 29D2k - Traffic Incidents\nLocation: TWP RD 550 /Rng rd 171, Lamont County\nUnits Respo
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4861,6 +4852,20 @@ ALARM SMOKE DETECTOR ACTIVATION 4200 ROSEMONT AV UPPER DARBY TWP X: CHILDS AV & 
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+Ray County, MO (replace)
+Contact: "Lee O'Dell" <leeodell@woodheightsfire.com>
+Sender: dispatch@raycounty911.com
+TEST PAGE FOR 7/25/17 18:40 THIS IS A TEST ONLY
+LP LEAK @ 12507 ORRICK RD CRSS ST W 124TH & FREDERICKSBURG CALLED IN BY WHFD 800
+TEST TEXT. 08:31. 07/25/2012.
+(Weather Alert) Fire Weather Warning for Ray from 1:00 PM Wed until 8:00 PM Wed (EDT)
+(911) ALL FIREFIGHTERS  REPORT TO STATION FOR CLEAN UP PER 800
+MED CALL 16864 HWY M CRS ST W 168TH & W 176TH 95 YO F NOT BREATHING NOT CONS COLD TO TOUCH
+10-50 injuries unknown road blocked at 4025 hwy 10 wood heights crs st hwy o and brian st 3 occupants
+disregard 10-50 at 4025 hwy 10 wood heights per troop 1181 non injury road is no longer blocked
+MED CALL @ LAWSON MANOR RM 103 79 YO MALE CONS BREATHING PULLED FOLEY AND IS BLEEDING
+(outside fire) FIRE IS ON HIGHRIDGE LAST ROAD IN CRYSTAL LAKES\r\nVERY EAST OF THE ROAD
 **********************************************************
 Cecil County, MD (alternate)
 Contact: "bradfordsnyder@verizon.net" <bradfordsnyder@verizon.net>
@@ -4969,4 +4974,3 @@ Contact: Active911
 [Chief ALT] [46 Fire] -- Structure-Mobile Home/Trailer -- 243 Kentwood Dr Dover - Cross Sts: Phoenix D - Caller:SHANON\n
 **********************************************************
 **********************************************************
-T

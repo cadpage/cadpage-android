@@ -55,6 +55,7 @@ public class NYSuffolkCountyFiretrackerParser extends FieldProgramParser {
   
   private static final String[] CITY_LIST = new String[]{
     "MASTIC BEACH",
-    "SHIRLEY"
+    "SHIRLEY",
+    "SMITH POINT"
   };
 }
