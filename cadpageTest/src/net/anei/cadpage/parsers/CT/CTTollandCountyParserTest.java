@@ -156,6 +156,13 @@ public class CTTollandCountyParserTest extends BaseParserTest {
         "CALL:ALS SICK/ALTMENTSTAT",
         "X:LOVE LN / SOUTH ST",
         "ID:2012-00000205");
+
+    doTest("T19",
+        "(TN Alert) 573 CRYSTAL LAKE RD / Tolland Vehicle Accident CAR VS TREE, ? DOA 03:26 Cross Street WEBBER RD / ROLLING MEADOW DR, WILLOW CREEK DR 20",
+        "ADDR:573 CRYSTAL LAKE RD",
+        "CITY:Tolland",
+        "CALL:Vehicle Accident CAR VS TREE, ? DOA",
+        "X:WEBBER RD / ROLLING MEADOW DR, WILLOW CREEK DR 20");
  }
   
   public static void main(String[] args) {

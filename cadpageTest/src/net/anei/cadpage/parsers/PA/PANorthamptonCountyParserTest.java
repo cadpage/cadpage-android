@@ -229,6 +229,16 @@ public class PANorthamptonCountyParserTest extends BaseParserTest {
         "CITY:EAST ALLEN",
         "NAME:WALTON, CECELIA",
         "ID:2012-0000100946");
+
+    doTest("T9",
+        "[f20]FIRED >DWELLING FIRE 912-14 CENTRE ST EASTON MALE CALLER Map: Grids:0,0 Cad: 2012-0000136112",
+        "UNIT:f20",
+        "CALL:DWELLING FIRE",
+        "ADDR:912-14 CENTRE ST",
+        "MADDR:912 CENTRE ST",
+        "CITY:EASTON",
+        "NAME:MALE CALLER",
+        "ID:2012-0000136112");
   }
   
   public static void main(String[] args) {

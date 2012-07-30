@@ -88,6 +88,26 @@ public class NYSuffolkCountyFiretrackerParserTest extends BaseParserTest {
         "X:GUNTER PL AND ETNA PL",
         "INFO:AM FELL DOWN S");
 
+    doTest("T9",
+        "Subject:FirePage\n** MASTIC BEACH VAC ** [31-D-2 U] SMITH POINT PARK PAVILLION Smith Point\r\n7/29/2012 TOA:21:46 [FireTracker]\r",
+        "SRC:MASTIC BEACH VAC",
+        "CALL:31-D-2 U",
+        "ADDR:SMITH POINT PARK PAVILLION",
+        "CITY:Smith Point",
+        "DATE:7/29/2012",
+        "TIME:21:46");
+
+    doTest("T10",
+        "Subject:FirePage\n" +
+        "** MASTIC BEACH VAC ** [5-A-1 NO] 24 OLD CHURCH RD Mastic Beach Add't\r\n" +
+        "Info: Number of patients: 1 Responder script: \r",
+
+        "SRC:MASTIC BEACH VAC",
+        "CALL:5-A-1 NO",
+        "ADDR:24 OLD CHURCH RD",
+        "CITY:Mastic Beach",
+        "INFO:Number of patients: 1 Responder script:");
+
   }
   
   public static void main(String[] args) {

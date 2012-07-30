@@ -185,6 +185,16 @@ public class VAWashingtonCountyParserTest extends BaseParserTest {
         "ID:1220763",
         "TIME:21:08:44",
         "INFO:FIRE BRUSH FIRE RIGHT AT THE INTERSECTION OF EXIT 26 SB AND COLLEGE DR");
+
+    doTest("T18",
+        "OARNOLD:120 MAPLE ST GLADE SPRING ROBERT CRAFT 5403090091 1224127 11:26:10 MVA ADV HE IS IN A WRECK AT THE INT OF MAPLE ST AND W GLADE ST",
+        "ADDR:120 MAPLE ST",
+        "CITY:GLADE SPRING",
+        "NAME:ROBERT CRAFT",
+        "PHONE:5403090091",
+        "ID:1224127",
+        "TIME:11:26:10",
+        "INFO:MVA ADV HE IS IN A WRECK AT THE INT OF MAPLE ST AND W GLADE ST");
   }
   
   public static void main(String[] args) {
