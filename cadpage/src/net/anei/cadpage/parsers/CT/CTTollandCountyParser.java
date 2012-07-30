@@ -47,6 +47,10 @@ Contact: Peter Krawetzky <pkrawetzky@gmail.com>
 Sender: Administrator@tollandcounty911.com
 (TN Alert) 664 SILVER ST / APT B Coventry ALS SICK/ALT.MENT.STAT. 18:38 Cross Street LOVE LN / SOUTH ST 2012-00000205
 
+Contact: Bernard Hoffman <bernardhoffman@gmail.com>
+Sender: Administrator@tollandcounty911.com
+(TN Alert) 573 CRYSTAL LAKE RD / Tolland Vehicle Accident CAR VS TREE, ? DOA 03:26 Cross Street WEBBER RD / ROLLING MEADOW DR, WILLOW CREEK DR 20
+
 */
 
 public class CTTollandCountyParser extends SmartAddressParser {
