@@ -56,9 +56,15 @@ public class CONorthglennEMSParserTest extends BaseParserTest {
         "ID:575",
         "ADDR:5486 RIVERDALE WAY",
         "CALL:287 / Injured Party");
+
+    doTest("T8",
+        " - part 1 of 1 / RC:Job# 0028-A/ Run# 7024/ was Canceled: Fire Department Standby/20:11/20:11/20:11/20:15/20:25\n\n",
+        "ID:7024",
+        "CALL:RUN REPORT",
+        "PLACE:was Canceled: Fire Department Standby/20:11/20:11/20:11/20:15/20:25");
  }
   
   public static void main(String[] args) {
-    new CONorthglennEMSParserTest().generateTests("T1", "ID ADDR CALL");
+    new CONorthglennEMSParserTest().generateTests("T1", "ID ADDR CALL PLACE");
   }
 }

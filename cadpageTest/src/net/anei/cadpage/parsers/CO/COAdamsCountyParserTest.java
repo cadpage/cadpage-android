@@ -81,6 +81,15 @@ public class COAdamsCountyParserTest extends BaseParserTest {
         "Subject:IPS I/Page Notification\n510.5 S 2nd Ave major incident-- hazmat  no additional equip needed at this time\r\n\r\n\r",
         "ADDR:510.5 S 2nd Ave",
         "CALL:major incident-- hazmat no additional equip needed at this time");
+
+    doTest("T10",
+        "Subject:IPS I/Page Notification\n" +
+        "40200 E QUINCY AVE 18:40:46 TYPE CODE: NONSTR CALLER NAME:  TIME: 18:40:46 Comments:  WILL BE HOUSE NUMBER\r",
+
+        "ADDR:40200 E QUINCY AVE",
+        "CALL:NONSTR",
+        "TIME:18:40:46",
+        "INFO:WILL BE HOUSE NUMBER");
   }
   
   @Test
