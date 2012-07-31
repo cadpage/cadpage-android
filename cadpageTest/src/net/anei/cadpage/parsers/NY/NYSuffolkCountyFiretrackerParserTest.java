@@ -107,7 +107,6 @@ public class NYSuffolkCountyFiretrackerParserTest extends BaseParserTest {
         "ADDR:24 OLD CHURCH RD",
         "CITY:Mastic Beach",
         "INFO:Number of patients: 1 Responder script:");
-
   }
   
   public static void main(String[] args) {
