@@ -29,6 +29,10 @@ Contact: "Schuppe, Michael" <mschuppe@brightonfire.org>
 Sender: ipspage@adcom911.org
 Subject:IPS I/Page Notification\n510.5 S 2nd Ave major incident-- hazmat  no additional equip needed at this time\r\n\r\n\r
 
+Contact: Dennis Hoke <dennishoke34@gmail.com>
+Sender: ipspage@adcom911.org
+Subject:IPS I/Page Notification\n40200 E QUINCY AVE 18:40:46 TYPE CODE: NONSTR CALLER NAME:  TIME: 18:40:46 Comments:  WILL BE HOUSE NUMBER\r
+
 Contact: support@active911.com
 (IPS I/Page Notification) 8055 WASHINGTON ST ADAM ADAM: @STATION 31 13:45:48 TYPE CODE: EMS CALLER NAME: FIL MARTINEZ TIME: 13:45:48 Comments:  TEST CARD
 

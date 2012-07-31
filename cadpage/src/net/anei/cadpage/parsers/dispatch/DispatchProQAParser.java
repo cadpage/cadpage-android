@@ -26,6 +26,7 @@ Northglenn EMS, CO
 - part 1 of 1 / RC:Run# 10119/E 60TH AVE & DAHLIA ST//./Unconscious / Fainting/
 Subject:- part 1 of 1\nRC:Run# 3769/3015 CALIFORNIA ST//out of control child hit head/Not Known//\n
 Subject:- part 1 of 1\nRun# 5678/ 1301 PONTIAC ST/ Fall Victim\n
+ - part 1 of 1 / RC:Job# 0028-A/ Run# 7024/ was Canceled: Fire Department Standby/20:11/20:11/20:11/20:15/20:25\n\n
 
 Medstar SW IL
 [- part 1 of 1]  RC:Run# 34870/64 WEST BOUND//across from weight station/////male subj white car hit by a truck isp en route/<PROQA_DET>
@@ -81,7 +82,12 @@ public class DispatchProQAParser extends FieldProgramParser {
     
     data.strCallId = body.substring(pt, pt2).trim();
 
-    body = body.substring(pt2+1);
+    body = body.substring(pt2+1).trim();
+    if (body.startsWith("was Canceled:")) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      return true;
+    }
     pt = body.indexOf("ProQA comments:");
     if (pt >= 0) body = body.substring(0,pt).trim();
 

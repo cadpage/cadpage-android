@@ -6,6 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 Northglenn and Comerce City (Adams County), CO
 contact: Brad Jones <brad@jones.name>
 Contact: Carl Nelson <firstdue@gmail.com>
+Contact: Alan Mikes <alanmark64@gmail.com>
 sender: dispatch@northglennambulance.com
 
 - part 1 of 1 / RC:Run# 10174/6211 OLIVE ST///Pregnancy / Childbirth/
@@ -15,9 +16,8 @@ sender: dispatch@northglennambulance.com
 - part 1 of 1 / RC:Run# 10119/E 60TH AVE & DAHLIA ST//./Unconscious / Fainting/
 Subject:- part 1 of 1\nRC:Run# 3769/3015 CALIFORNIA ST//out of control child hit head/Not Known//\n
 Subject:- part 1 of 1\nRun# 5678/ 1301 PONTIAC ST/ Fall Victim\n
-
-Contact: Alan Mikes <alanmark64@gmail.com>
 (- part 1 of 1) RC:Run# 575/5486 RIVERDALE WAY/287//Injured Party//
+ - part 1 of 1 / RC:Job# 0028-A/ Run# 7024/ was Canceled: Fire Department Standby/20:11/20:11/20:11/20:15/20:25\n\n
 
 */
 
