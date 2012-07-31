@@ -467,6 +467,16 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "X:Carter Avenue",
         "TIME:19:57:19");
 
+    doTest("T4",
+        "Ambulance Call, Chest Pains: A/F at 25 Ponquogue Avenue, Hampton Bays  c/s: East Montauk Highway   O: Senior - Community Center . . 11:14:08",
+        "CALL:Ambulance Call, Chest Pains",
+        "INFO:A/F",
+        "ADDR:25 Ponquogue Avenue",
+        "CITY:Hampton Bays",
+        "X:East Montauk Highway",
+        "PLACE:Senior - Community Center",
+        "TIME:11:14:08");
+
   }
   
   
