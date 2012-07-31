@@ -53,7 +53,7 @@ public class FLSarasotaCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "7771,93001";
+    return "777,93001";
   }
   
   @Override

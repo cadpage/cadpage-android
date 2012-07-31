@@ -135,7 +135,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "mplus@co.saint-marys.md.us,mplus@STMARYSMD.COM,7771";
+    return "mplus@co.saint-marys.md.us,mplus@STMARYSMD.COM,777";
   }
 
   @Override

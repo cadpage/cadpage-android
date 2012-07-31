@@ -65,7 +65,7 @@ public class NCMecklenburgCountyBParser extends SmartAddressParser {
   }
   
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
+  public boolean parseMsg(String body, Data data) {
     
     // Rule out A variant message
     if (body.length() >= 100) {

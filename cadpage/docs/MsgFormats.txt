@@ -3331,10 +3331,6 @@ Contact: Brandon Norris <lawranger197@gmail.com>
 Sender: messaging@iamresponding.com
 (Station 13) 7/11/2011 16:16:30;DIFFICULTY SPEAKING BREATHING;ST13,ST19;4737 DESERT RIDGE RD;HYPONY TRL
 **********************************************************
-NYC, NY
-Contact: Danny Ackerman <danny.ackerman@gmail.com>
-331 W 24th St - Bet: W 24th St / 8th Ave & W 24th St - Apt: 10F - 1st floor - Call ID: 250-9851
-**********************************************************
 Lycoming County, PA
 Contact: "Justin Chenault" <chenaujl@gmail.com>
 (CAD Page for CFS 071111-29) Mon Jul 11 2011 08:39 MED\nE CANT WALK\n3891 W 4TH ST\nWOO\nApt: \nCross Streets : PALMER INDUSTRIAL RD * ANTLERS LN
@@ -4839,18 +4835,32 @@ Contact: Colin Candy <colincandy51@gmail.com>
 Sender: scesitgroup@strathcona.ca
 (CAD Message) Date: 2012-07-29 10:48:02\nType: 29D2k - Traffic Incidents\nLocation: TWP RD 550 /Rng rd 171, Lamont County\nUnits Respo
 **********************************************************
+Matthews, NC (Mecklenburg County)
+Contact: Matthew Clark <maclark014@gmail.com>
+Sender: cadmail@medic911.co
+cadmail¡medic911.com Subject:CAD email 2310 Matthews Township Py in front of hobby lobby/ silveFire - Routine 53-Citizen Assist/Se
+cadmail¡medic911.com Subject:CAD email 1401 Matthews Township Py FIRST CHAR PHYS - STE 200 Delta 31- Unconsciousness/
+cadmail¡medic911.com Subject:CAD email 2925 Senna Dr Piazza Ventures Fire - Emergency 52F-Alarm-FIRE
+cadmail¡medic911.com Subject:CAD email 350 Crestdale Rd Charlie 04- Assault
+cadmail¡medic911.com Subject:CAD email 3127 Weddington Rd YMCA Siskey Branch AED,gym Charlie 17- Falls/Back injur
+**********************************************************
+**********************************************************
+NYC, NY
+Contact: Danny Ackerman <danny.ackerman@gmail.com>
+331 W 24th St - Bet: W 24th St / 8th Ave & W 24th St - Apt: 10F - 1st floor - Call ID: 250-9851
+
+Unknown
+Contact: drummer12r <drummer12r@aol.com>
+6910 Ave U - Bet: E 69Th St & E 70Th St - Apt: 5J - 5th floor - Call ID: 894-1440
+2915 Brighton 6Th St - Bet: Neptune Ave & Brighton 6Th Ct - Call ID: 893-5600
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Ray County, MO (replace)
@@ -4902,6 +4912,86 @@ FRM:LifecomCellPaging@amr.net\nMSG:T26-1 12018446     Structure Fire   16658 S O
  1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:E26-1 12018116     Vegetation Fire I 5 NB / S KASSON RD                                H5C3            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E26-1\n(End)
  1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\n(End)
 FRM:LifecomCellPaging@amr.net\nMSG:E26-1\5s12018782\4sDispatched:00:37:41Enroute:00:40:05On Scene:\8sAOR:00:42:38\r\n
+FRM:LifecomCellPaging@amr.net\nMSG:T26-1\5s12018873\4sDispatched:05:47:04Enroute:05:49:25On Scene:05:55:03AOR:06:01:39\r\n
+**********************************************************
+Clevelend County, NC
+Contact: Richard Carroll <crrll19@gmail.com>
+Sender: CAD@clevelandcounty.com
+
+[LAW] = Law enforcement ?
+
+CAD:7044775828-CHEST PA-1861 E MARION ST-CAMDEN CT-BORDERS RD-[Medical Priority Info] PROBLEM: TINGLING DOWN HER ARMS # PATS: 1 AGE: 30 Years SEX: Female CO
+CAD:10-50 PI-CHARLES RD/W DIXON BLVD-[LAW] 2 cars [07/25/12 19:10:38 C89] Aborted by Medical Priority with code: 1. Caller hung up [07/25/12 19:10:23 C89]
+CAD:7042978331-SEIZURES-117 PALMER ST-E MARION ST-AIRLINE AV-[Medical Priority Info] PROBLEM: seizure # PATS: 1 AGE: 22 Years SEX: Male CONSCIOUS: No BREATH
+CAD:KELIOSA-SEIZURES-313 S POST RD-GARRETT DR-KINGS ROAD EXT-[Medical Priority Info] PROBLEM: seizure # PATS: 1 AGE: 3 Years SEX: Female CONSCIOUS: No BREAT
+CAD:10-50 PI-CHARLES RD/W DIXON BLVD-[LAW] 2 cars [07/25/12 19:10:38 C89] Aborted by Medical Priority with code: 1. Caller hung up [07/25/12 19:10:23 C89]
+**********************************************************
+CCE Central Dispatch
+Charlevoix, Cheboygan and Emmet Counties, MI
+Contact: Greg Clark <gclark@cce911.com>
+System: Pagegate
+CAD: Msg:FYI: ;PERSONAL INJURY ACCIDENT;RBFR;409 N DIVISION RD/SUMMIT PARK DR;2 VEH PI. ONE VEH INTO THE TREES  [07/24/12 11:46:46 KMATELSKI]<10><13><10>
+CAD:Msg:FYI: ;MEDIC TRANSPORT;AEAM;416 CONNABLE AV;GOING TO CHEBOYGAN HOSPIC  [07/24/2012 11:57:20 KHEWITT]<10><13><10>
+CAD:Msg:Update: ;AMBULANCE;EJAM;5632 RICHARDS RD;[Medical Priority Info] PROBLEM: HUSBAND FEELING FAINT 82YM   # PATS: 1   AGE: 82   SEX: Male   CONSCIOUS: Yes   BREATHING: Yes  [07/24/12 12:15:28 KMATELSKI]<10>[Medical Priority Info] RESPONSE: Ambula<13><10>
+CAD:FYI: ;FIRE ASSIST OTHER AGENCY;RBFD;2499 RESORT PIKE RD/INTERTOWN RD;Event spawned from PROPERTY DAMAGE ACCIDENT.  [07/24/2012 13:51:20 VNOBLE]<10>SEMI TRUCK TIPPED OVER, NO OTHER VEHS ARE SEEN.  DRIVER APPEARS TO BE OUT WALKING AROUND. IT IS JUST THE TRAILER THAT TIPPED<13><10>
+**********************************************************
+Lawrence County, OH
+Contact: Law Co 911 Alert <alert@lawco911.org>
+Sender: alert@lawco911.org
+Our addresses in the county are probably unique to most of the country. 
+Streets inside the corporation limits of a city or village have normal 
+road names (Main St., Buckhorn Ave., ect) however streets that are 
+outside of the limits have road numbers. The first number in the address 
+is the house number the next portion is the road type and the last 
+number is the road's number.
+
+Examples:
+
+  * 123 Twp Rd 4567 ["123" is the house number, "Twp Rd" is the road
+    type, "4567" is the road number (there are hundreds of different
+    township road numbers)].
+  * 98 State Rte 243 (The same format applies as above however this
+    address is on a state route. There are dozens of those in the county).
+  * 456 Pvt Dr 8852 Co Rd 132 (The same format applies as above
+    however this address is on a private *drive*. These addresses
+    include the public road that connects to the private drive. There
+    are dozens of those in the county).
+  * *789 Pvt Rd 8874 Twp Rd 1258 *(The same format applies as above
+    however this address is on a private *road*. These addresses also
+    include the public road that connects to the private drive.There are
+    dozens of those in the county)
+  * *US 52 / Co Rd 450* (This is an intersection. As you can see it
+    follows the normal formatting but without the house number. The two
+    roads are separated by a "/")
+1 of 2
+FRM:alert@lawco911.org <mailto:FRM%3Aalert@lawco911.org>
+MSG:alert:[136]- NATURE: E 48 LOCATION: ## TWP RD #### FAYETTE TWP 
+COMMENTS: CALLER STATES A CHILD FELL OFF THE
+(Con't) 2 of 2
+COUCH AND IS N OT RESPONSIVE SHE IS BREATHING. AVA SCHRODY IS THE CHILD. 
+CO DY IS ALSO IN ROUTE. FD ALSO ALERTED(End_)_
+
+  * 1 of 2 - Obviously this is message one of two
+  * *FRM:alert@lawco911.org* - this is the email address that the
+    message was sent from
+  * *MSG:alert:[136]* - The alert was sent by dispatcher 136
+  * *NATURE: E 48* - This is the nature code from the CAD software (i.e.
+    "E 48" is an EMS call (E) for an unconscious patient (48)
+  * *LOCATION: ## TWP RD ####* - This is the address that are formatted
+    as discussed in the previous emails.
+  * COMMENTS - These are the comments entered into the CAD software by
+    the dispatcher.
+  * *(Con't)* - Message continued
+  * 2 of 2 - Message two of two
+  * *(END)* - End of message
+
+alert:[121]- NATURE: F 15B LOCATION: US 52 / CO RD 450 PERRY TW P COMMENTS: +038.420273 -082.572212 CF=100% Example of an intersection call that came from a cell phone.
+alert:[121]- NATURE: E 29 LOCATION: 943 MARION PKE COAL GROVE COMMENTS: Example of a call from a address inside a muni cipality.
+alert:[121]- NATURE: E 49 LOCATION: 59 PVT DR 7882 CO RD 15 FA YETTE TWP COMMENTS: Example of a call from a private drive . "Fayette Twp" is the name of the township the call is loca ted in
+alert:[121]- NATURE: E 10M LOCATION: 6405 STATE RTE 141 LAWRENC E TWP This is an example of a call at an address on a st ate route.
+alert:[121]- NATURE: S 72 LOCATION: 2101 N 2 ST IRONTON COMMEN TS: This is an example of a run inside a municipality wi th a street direction. In long form this would be 2101 North 2nd Street Ironton, Ohio
+alert:[121]- NATURE: ABD LOCATION: 989 TWP RD 161 FAYETTE TWP COMMENTS: This is an example of a call on a township ro ad.
+alert:[121]- NATURE: E 48A LOCATION: 24 TWP RD 1101 W FAYETTE T WP COMMENTS: This is an example of a call on a township wi th a direction. The long form would be 24 Township Road 1101 West
 **********************************************************
 **********************************************************
 St Joseph County, IN (alternate)

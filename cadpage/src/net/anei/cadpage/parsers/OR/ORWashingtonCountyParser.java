@@ -51,7 +51,7 @@ public class ORWashingtonCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "930010,77710";
+    return "930010,777";
   }
 
   @Override

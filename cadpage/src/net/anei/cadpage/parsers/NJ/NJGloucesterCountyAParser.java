@@ -64,7 +64,7 @@ public class NJGloucesterCountyAParser extends FieldProgramParser {
  
   @Override
   public String getFilter() {
-    return "@private.gloucesteralert.com,7771";
+    return "@private.gloucesteralert.com,777";
   }
 
   @Override

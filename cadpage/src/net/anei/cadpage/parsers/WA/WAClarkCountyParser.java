@@ -40,7 +40,7 @@ public class WAClarkCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "7771";
+    return "777";
   }
 
   @Override
