@@ -70,7 +70,17 @@ public class CTMontvilleParserTest extends BaseParserTest {
         "ADDR:6 CRANDALL HILL RD",
         "APT:A",
         "INFO:COLD RESPONSE / LEG PAIN / NUMBNESS");
- }
+
+    doTest("T6",
+        "(Imc Solutions Page) AMBULANCE EMERGENCY\r\nMARKHAM, ELIZABETH\r\n3 POLLY'S LN \r\nMONTVILLE\r\nFire District: MOH1\r\n7/28/2012 22:32",
+        "CALL:AMBULANCE EMERGENCY",
+        "NAME:MARKHAM, ELIZABETH",
+        "ADDR:3 POLLY'S LN",
+        "CITY:MONTVILLE",
+        "UNIT:MOH1",
+        "DATE:7/28/2012",
+        "TIME:22:32");
+}
   
   public static void main(String[] args) {
     new CTMontvilleParserTest().generateTests("T1");
