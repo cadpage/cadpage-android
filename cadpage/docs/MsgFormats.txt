@@ -1147,6 +1147,11 @@ Litchfield County, CT (CTLitchfieldCountyParser)
 (LCD) MEDIC 4 RESPOND TO 70 CHAPEL HILL RD   SHERMAN, , 92Y M DIFF BREATH, 6-D-2 :12:36
 (LCD) MEDIC 4 RESPOND TO  WELLERS BRIDGE RD   HEMLOCK ROXBURY, ,   TRAFFIC ACCIDENT,  :10:44
 ***************************************************************************
+Madison, CT (CTMadisonParser)
+Madison: FALLS- BLS COLD*- 17-B-1  00100  BRADLEY RD  X-STR: -  OLD ROUTE 79/WALL ST Premise: HEARTH AT TUXIS POND
+Madison: UNCONS/FAINTING- NOT ALERT- ALS HOT- 31-D-3  00032  LIBERTY ST  X-STR: -  Hilltop Dr/Grove Ave Premise: 32 LIBERTY ST
+Madison: HEART/ BLS COLD - 19-A-1  00009  NECK RD  X-STR: -  /Shorelands Dr Premise: WATROUS NURSING CENTER
+***************************************************************************
 Middlesex County, CT (CTMiddlesexCountyParser)
 (DURHAM FIRE CALL CAD Page for CFS 061312-31) \nhttp://maps.google.com/maps?q=+41.48618%20-72.65719\nFire Alarm\n18 WEATHERVANE HILL\nApt: \nDH       \nCross Streets : MAIDEN LANE \nCaller: ADT OP YSG\nDisp Time: 06/13/12 11:36:52
 (DURHAM FIRE CALL CAD Page for CFS 061312-47) \nhttp://maps.google.com/maps?q=+41.44852%20-72.70119\nFire Alarm\n471 NEW HAVEN RD\nApt: \nDH       \nCross Streets : SAW MILL RD * CANTERBURY DR \nCaller: \nDisp Time: 06/13/12 18:03:43
