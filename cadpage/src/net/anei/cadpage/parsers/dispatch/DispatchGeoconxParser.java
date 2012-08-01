@@ -91,7 +91,7 @@ public class DispatchGeoconxParser extends FieldProgramParser {
   public DispatchGeoconxParser(Set<String> citySet, String defCity, String defState,
                            boolean noSubject) {
     super(defCity, defState,
-           "CALL ( ADDR/Z END | NAMEPH? ADDR INFO )");
+           "CALL ( ADDR/Z END | NAMEPH? ADDR INFO+ )");
   }
   
   @Override

@@ -108,7 +108,7 @@ public class Message {
     body = decode(body);
     
     // Get rid of any \r characters
-    body = body.replace("\r\n", "\n").replace('\r', '\n');
+    body = body.replaceAll("\r+\n", "\n").replace('\r', '\n');
     
     // default address and subject to obvious values
     parseAddress = fromAddress;
