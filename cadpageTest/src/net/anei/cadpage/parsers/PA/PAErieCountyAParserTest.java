@@ -415,6 +415,16 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "ADDR:4101 RIDGEWOOD DR",
         "CITY:MILLCREEK TWP",
         "X:VISTA DR");
+  }
+  
+  @Test
+  public void testMattFuller() {
+
+    doTest("T1",
+        ".... (Kuhl Hose Fire) ERIE911:AUG 1 THROUGHT AUG 7 LAKE PLEASANT RD CLOSED IN ERIE CO & ARBUCKLE RD HRS 0730 & 1630 WEEKDAYS",
+        "SRC:ERIE911",
+        "CALL:GENERAL ALERT",
+        "PLACE:AUG 1 THROUGHT AUG 7 LAKE PLEASANT RD CLOSED IN ERIE CO & ARBUCKLE RD HRS 0730 & 1630 WEEKDAYS");
 
   }
   
