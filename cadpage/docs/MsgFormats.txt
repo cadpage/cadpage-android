@@ -4942,6 +4942,7 @@ CAD:10-50 PI-CHARLES RD/W DIXON BLVD-[LAW] 2 cars [07/25/12 19:10:38 C89] Aborte
 CAD:7042978331-SEIZURES-117 PALMER ST-E MARION ST-AIRLINE AV-[Medical Priority Info] PROBLEM: seizure # PATS: 1 AGE: 22 Years SEX: Male CONSCIOUS: No BREATH
 CAD:KELIOSA-SEIZURES-313 S POST RD-GARRETT DR-KINGS ROAD EXT-[Medical Priority Info] PROBLEM: seizure # PATS: 1 AGE: 3 Years SEX: Female CONSCIOUS: No BREAT
 CAD:10-50 PI-CHARLES RD/W DIXON BLVD-[LAW] 2 cars [07/25/12 19:10:38 C89] Aborted by Medical Priority with code: 1. Caller hung up [07/25/12 19:10:23 C89]
+CAD:SPRINT PCS-9802953855-FIREAPT-415 GARDNER ST-SMITH ST-MARTIN ST-kitchen on fire at aprtment 5 they are trying to get every one out of adjacent apts [07/
 **********************************************************
 CCE Central Dispatch
 Charlevoix, Cheboygan and Emmet Counties, MI

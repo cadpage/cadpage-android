@@ -126,6 +126,161 @@ public class NJGloucesterCountyBParserTest extends BaseParserTest {
         "CALL:RUN REPORT",
         "PLACE:Importance: High\n \n** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n** ** ** ** \nIncident Number  : 2012-00020243                    ORI: 0818103\nStation: 10-3 \nIncident Type  . : ALMC F CO ALARM             Priority: 3 \nIncident Location: 811 MARLBOROUGH ST\nVenue: WASHINGTON\nCall Time- 20:50:34                                Date- 06/12/2012 \nDispatch - 20:54:43     En-route- 20:54:43     On-scene-\nDepart 1- \nArrive 2 -              Depart 2-              In-statn-\nCleared - 20:57:12\nArea:   R2              Section : 1004         Beat  . :    R \nGrid:  K21              Quadrant: 1017         District: 1017\nPhone Number: (856) 481-4361                Call Source:  TEL\nCaller. . . : PAUL FISHER\nNature of Call : 811 MARLBOROUGH ST\nAdditional Info\n  CO ALARM REDING 210 REQ FD\nNarrative\n Information on the units assigned to the call follows. \n    Unit: 10-2    Radio:           Ofcr 1:            Ofcr 2: \n       DSP: 06/12/12  20:51:29     ENR: 06/12/12  20:56:10 \n       ARV: 06/12/12  20:59:16     DPT:             :  : \n       QTR:             :  :       CLR: 06/12/12  21:37:16 \n    Unit: F1032   Radio:           Ofcr 1:     F1032  Ofcr 2: \n       DSP: 06/12/12  20:54:43     ENR: 06/12/12  20:54:43 \n       ARV:             :  :       DPT:             :  : \n       QTR:             :  :       CLR: 06/12/12  20:57:12 \n    Unit: E1094   Radio:           Ofcr 1:            Ofcr 2: \n       DSP: 06/12/12  21:18:52     ENR: 06/12/12  21:19:51 \n       ARV: 06/12/12  21:22:45     DPT:             :  : \n       QTR:             :  :       CLR: 06/12/12  22:33:24 \n CALLER ADVISED TO EXIT RES                        JJVERRECCH 20:50:18 \n R 1022 W/3                                        JBLAWRENCE 20:56:27 \n R 1021 W/3                                        JBLAWRENCE 20:57:38 \n O 1021                                            JBLAWRENCE 20:59:23 \n O 1022                                            JBLAWRENCE 21:03:13 \n PROGRESS REPORT.............NEG READINGS W/       JBLAWRENCE 21:18:58 \n METERS,REQUEST 1 BLS TO CHECK HOMEOWNER           JBLAWRENCE 21:19:22\nThe Call Taker is VERRECCHIO JOHN J\nThe Dispatcher is MCGARVEY RAYMOND E");
 
+    doTest("T3",
+        "[FW: Automatic R&R Notification]  \r\n" +
+        "\r\n" +
+        "-----Original Message-----\r\n" +
+        "From: GVASSARA@S105KD4M.CO.GLOUCESTER.NJ.US\r\n" +
+        "[mailto:GVASSARA@S105KD4M.CO.GLOUCESTER.NJ.US] \r\n" +
+        "Sent: Saturday, July 28, 2012 12:49 AM\r\n" +
+        "To: sta281@co.gloucester.nj.us\r\n" +
+        "Subject: Automatic R&R Notification\r\n" +
+        "Importance: High\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "  \r\n" +
+        "** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** **\r\n" +
+        "** ** **  \r\n" +
+        "Incident Number  : 2012-00026509                    ORI: 0815281\r\n" +
+        "Station: 28-1  \r\n" +
+        "Incident Type  . : ALRM F ALARM FIRE           Priority: 3  \r\n" +
+        "Incident Location: 150 N SUMMIT AVE\r\n" +
+        "Venue: PITMAN  \r\n" +
+        "Common Name. . . : RONALD MARK ASSOCIATES \r\n" +
+        "\r\n" +
+        "Call Time- 00:28:00                                Date- 07/28/2012  \r\n" +
+        "Dispatch - 00:28:37     En-route- 00:34:57     On-scene- 00:36:48     Depart\r\n" +
+        "1-  \r\n" +
+        "Arrive 2 -              Depart 2-              In-statn-\r\n" +
+        "Cleared - 00:49:04 \r\n" +
+        "\r\n" +
+        "Area:    O              Section :    O         Beat  . :    O  \r\n" +
+        "Grid:  L16              Quadrant: 2802         District: 2802 \r\n" +
+        "\r\n" +
+        "Phone Number: (800) 633-2677                Call Source:  TEL \r\n" +
+        "\r\n" +
+        "Caller. . . : GCSI OP- 3647 \r\n" +
+        "\r\n" +
+        "Units sent  :  \r\n" +
+        " 081528      FM28                 0815281     28-1  \r\n" +
+        " 0815283     28-3 \r\n" +
+        "\r\n" +
+        "Nature of Call : 150 N SUMMIT AVE \r\n" +
+        "\r\n" +
+        "Additional Info\r\n" +
+        "  WATER FLOW ALARM\r\n" +
+        "  8565826766 \r\n" +
+        "\r\n" +
+        "Narrative\r\n" +
+        " Information on the units assigned to the call follows.  \r\n" +
+        "    Unit: FM28    Radio:           Ofcr 1:            Ofcr 2:  \r\n" +
+        "       DSP:             :  :       ENR:             :  :  \r\n" +
+        "       ARV: 07/28/12  00:37:05     DPT:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 07/28/12  00:49:04  \r\n" +
+        "    Unit: 28-1    Radio:           Ofcr 1:            Ofcr 2:  \r\n" +
+        "       DSP: 07/28/12  00:28:37     ENR: 07/28/12  00:34:57  \r\n" +
+        "       ARV: 07/28/12  00:36:48     DPT:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 07/28/12  00:49:04  \r\n" +
+        "    Unit: 28-3    Radio:           Ofcr 1:            Ofcr 2:  \r\n" +
+        "       DSP: 07/28/12  00:28:37     ENR: 07/28/12  00:31:46  \r\n" +
+        "       ARV: 07/28/12  00:33:46     DPT:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 07/28/12  00:49:04  \r\n" +
+        " R 28101                                           GVASSARAS   0:29:28  \r\n" +
+        " R 28301                                           GVASSARAS   0:29:35  \r\n" +
+        " O 28101                                           GVASSARAS   0:31:35  \r\n" +
+        " R 2832 W/5                                        GVASSARAS   0:31:49  \r\n" +
+        " O 28301                                           GVASSARAS   0:32:14  \r\n" +
+        " R 2831 W/3                                        GVASSARAS   0:32:59  \r\n" +
+        " O 2832                                            GVASSARAS   0:33:48  \r\n" +
+        " O 2831                                            GVASSARAS   0:34:26  \r\n" +
+        " R 2816 W/4                                        GVASSARAS   0:35:02  \r\n" +
+        "  2832 ACTIVATED KNOX BOX                          GVASSARAS   0:36:12  \r\n" +
+        " O 2816                                            GVASSARAS   0:36:53  \r\n" +
+        " R 2811                                            GVASSARAS   0:42:13  \r\n" +
+        " O 2811                                            GVASSARAS   0:42:39 \r\n" +
+        "\r\n" +
+        "The Call Taker is GRESKO JOHN R\r\n" +
+        "The Dispatcher is LAWRENCE JOSEPH B\r\n" +
+        "\r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:-----Original Message-----\nFrom: GVASSARA@S105KD4M.CO.GLOUCESTER.NJ.US\n[mailto:GVASSARA@S105KD4M.CO.GLOUCESTER.NJ.US] \nSent: Saturday, July 28, 2012 12:49 AM\nTo: sta281@co.gloucester.nj.us\nSubject: Automatic R&R Notification\nImportance: High\n\n\n  \n** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** **\n** ** **  \nIncident Number  : 2012-00026509                    ORI: 0815281\nStation: 28-1  \nIncident Type  . : ALRM F ALARM FIRE           Priority: 3  \nIncident Location: 150 N SUMMIT AVE\nVenue: PITMAN  \nCommon Name. . . : RONALD MARK ASSOCIATES \n\nCall Time- 00:28:00                                Date- 07/28/2012  \nDispatch - 00:28:37     En-route- 00:34:57     On-scene- 00:36:48     Depart\n1-  \nArrive 2 -              Depart 2-              In-statn-\nCleared - 00:49:04 \n\nArea:    O              Section :    O         Beat  . :    O  \nGrid:  L16              Quadrant: 2802         District: 2802 \n\nPhone Number: (800) 633-2677                Call Source:  TEL \n\nCaller. . . : GCSI OP- 3647 \n\nUnits sent  :  \n 081528      FM28                 0815281     28-1  \n 0815283     28-3 \n\nNature of Call : 150 N SUMMIT AVE \n\nAdditional Info\n  WATER FLOW ALARM\n  8565826766 \n\nNarrative\n Information on the units assigned to the call follows.  \n    Unit: FM28    Radio:           Ofcr 1:            Ofcr 2:  \n       DSP:             :  :       ENR:             :  :  \n       ARV: 07/28/12  00:37:05     DPT:             :  :  \n       QTR:             :  :       CLR: 07/28/12  00:49:04  \n    Unit: 28-1    Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 07/28/12  00:28:37     ENR: 07/28/12  00:34:57  \n       ARV: 07/28/12  00:36:48     DPT:             :  :  \n       QTR:             :  :       CLR: 07/28/12  00:49:04  \n    Unit: 28-3    Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 07/28/12  00:28:37     ENR: 07/28/12  00:31:46  \n       ARV: 07/28/12  00:33:46     DPT:             :  :  \n       QTR:             :  :       CLR: 07/28/12  00:49:04  \n R 28101                                           GVASSARAS   0:29:28  \n R 28301                                           GVASSARAS   0:29:35  \n O 28101                                           GVASSARAS   0:31:35  \n R 2832 W/5                                        GVASSARAS   0:31:49  \n O 28301                                           GVASSARAS   0:32:14  \n R 2831 W/3                                        GVASSARAS   0:32:59  \n O 2832                                            GVASSARAS   0:33:48  \n O 2831                                            GVASSARAS   0:34:26  \n R 2816 W/4                                        GVASSARAS   0:35:02  \n  2832 ACTIVATED KNOX BOX                          GVASSARAS   0:36:12  \n O 2816                                            GVASSARAS   0:36:53  \n R 2811                                            GVASSARAS   0:42:13  \n O 2811                                            GVASSARAS   0:42:39 \n\nThe Call Taker is GRESKO JOHN R\nThe Dispatcher is LAWRENCE JOSEPH B");
+
+    doTest("T4",
+        "[FW: Automatic R&R Notification]  \r\n" +
+        "\r\n" +
+        "-----Original Message-----\r\n" +
+        "From: GSKLAR@S105KD4M.CO.GLOUCESTER.NJ.US\r\n" +
+        "[mailto:GSKLAR@S105KD4M.CO.GLOUCESTER.NJ.US] \r\n" +
+        "Sent: Sunday, July 29, 2012 5:07 PM\r\n" +
+        "To: sta281@co.gloucester.nj.us\r\n" +
+        "Subject: Automatic R&R Notification\r\n" +
+        "Importance: High\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "  \r\n" +
+        "** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** **\r\n" +
+        "** ** **  \r\n" +
+        "Incident Number  : 2012-00026707                    ORI: 0815281\r\n" +
+        "Station: 28-1  \r\n" +
+        "Incident Type  . : MEDE E MED EMERG            Priority: 3  \r\n" +
+        "Incident Location: 9 SIMPSON CT\r\n" +
+        "Venue: PITMAN \r\n" +
+        "\r\n" +
+        "Call Time- 15:58:18                                Date- 07/29/2012  \r\n" +
+        "Dispatch - 16:09:44     En-route- 16:14:33     On-scene- 16:15:33     Depart\r\n" +
+        "1-  \r\n" +
+        "Arrive 2 -              Depart 2-              In-statn-\r\n" +
+        "Cleared - 16:27:51 \r\n" +
+        "\r\n" +
+        "Area:    O              Section :    O         Beat  . :    O  \r\n" +
+        "Grid:  L16              Quadrant: 2802         District: 2802 \r\n" +
+        "\r\n" +
+        "Phone Number: (856) 879-5273                Call Source:  TEL \r\n" +
+        "\r\n" +
+        "Caller. . . : TIM \r\n" +
+        "\r\n" +
+        "Nature of Call : 9 SIMPSON CT \r\n" +
+        "\r\n" +
+        "Additional Info\r\n" +
+        "  14F DISLOCATED KNEE \r\n" +
+        "\r\n" +
+        "Narrative\r\n" +
+        " Information on the units assigned to the call follows.  \r\n" +
+        "    Unit: E8300   Radio:           Ofcr 1:     E8300  Ofcr 2:  \r\n" +
+        "       DSP: 07/29/12  16:16:17     ENR: 07/29/12  16:16:17  \r\n" +
+        "       ARV:             :  :       DPT:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 07/29/12  16:29:21  \r\n" +
+        "    Unit: E8275   Radio:           Ofcr 1:            Ofcr 2:  \r\n" +
+        "       DSP: 07/29/12  15:58:35     ENR: 07/29/12  16:00:32  \r\n" +
+        "       ARV: 07/29/12  16:05:37     DPT: 07/29/12  16:28:59  \r\n" +
+        "       AR2: 07/29/12  16:43:50     DP2:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 07/29/12  17:07:16  \r\n" +
+        "    Unit: E8266   Radio:           Ofcr 1:            Ofcr 2:  \r\n" +
+        "       DSP: 07/29/12  16:10:28     ENR: 07/29/12  16:10:28  \r\n" +
+        "       ARV: 07/29/12  16:11:54     DPT:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 07/29/12  16:30:11  \r\n" +
+        "    Unit: F2800   Radio:           Ofcr 1:            Ofcr 2:  \r\n" +
+        "       DSP: 07/29/12  16:13:50     ENR: 07/29/12  16:13:50  \r\n" +
+        "       ARV: 07/29/12  16:14:22     DPT:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 07/29/12  16:27:36  \r\n" +
+        "    Unit: 28-1    Radio:           Ofcr 1:            Ofcr 2:  \r\n" +
+        "       DSP: 07/29/12  16:09:44     ENR: 07/29/12  16:14:33  \r\n" +
+        "       ARV: 07/29/12  16:15:36     DPT:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 07/29/12  16:27:44  \r\n" +
+        "    Unit: F2818   Radio:           Ofcr 1:     F2818  Ofcr 2:  \r\n" +
+        "       DSP: 07/29/12  16:15:26     ENR: 07/29/12  16:15:26  \r\n" +
+        "       ARV: 07/29/12  16:15:33     DPT:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 07/29/12  16:27:51  \r\n" +
+        " UNIT: E8275   UMH                                            16:28:59 \r\n" +
+        "\r\n" +
+        "The Call Taker is SANTILLI JOSEPH C\r\n" +
+        "The Dispatcher is ZELINSKY NICK J\r\n" +
+        "\r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:-----Original Message-----\nFrom: GSKLAR@S105KD4M.CO.GLOUCESTER.NJ.US\n[mailto:GSKLAR@S105KD4M.CO.GLOUCESTER.NJ.US] \nSent: Sunday, July 29, 2012 5:07 PM\nTo: sta281@co.gloucester.nj.us\nSubject: Automatic R&R Notification\nImportance: High\n\n\n  \n** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** **\n** ** **  \nIncident Number  : 2012-00026707                    ORI: 0815281\nStation: 28-1  \nIncident Type  . : MEDE E MED EMERG            Priority: 3  \nIncident Location: 9 SIMPSON CT\nVenue: PITMAN \n\nCall Time- 15:58:18                                Date- 07/29/2012  \nDispatch - 16:09:44     En-route- 16:14:33     On-scene- 16:15:33     Depart\n1-  \nArrive 2 -              Depart 2-              In-statn-\nCleared - 16:27:51 \n\nArea:    O              Section :    O         Beat  . :    O  \nGrid:  L16              Quadrant: 2802         District: 2802 \n\nPhone Number: (856) 879-5273                Call Source:  TEL \n\nCaller. . . : TIM \n\nNature of Call : 9 SIMPSON CT \n\nAdditional Info\n  14F DISLOCATED KNEE \n\nNarrative\n Information on the units assigned to the call follows.  \n    Unit: E8300   Radio:           Ofcr 1:     E8300  Ofcr 2:  \n       DSP: 07/29/12  16:16:17     ENR: 07/29/12  16:16:17  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 07/29/12  16:29:21  \n    Unit: E8275   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 07/29/12  15:58:35     ENR: 07/29/12  16:00:32  \n       ARV: 07/29/12  16:05:37     DPT: 07/29/12  16:28:59  \n       AR2: 07/29/12  16:43:50     DP2:             :  :  \n       QTR:             :  :       CLR: 07/29/12  17:07:16  \n    Unit: E8266   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 07/29/12  16:10:28     ENR: 07/29/12  16:10:28  \n       ARV: 07/29/12  16:11:54     DPT:             :  :  \n       QTR:             :  :       CLR: 07/29/12  16:30:11  \n    Unit: F2800   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 07/29/12  16:13:50     ENR: 07/29/12  16:13:50  \n       ARV: 07/29/12  16:14:22     DPT:             :  :  \n       QTR:             :  :       CLR: 07/29/12  16:27:36  \n    Unit: 28-1    Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 07/29/12  16:09:44     ENR: 07/29/12  16:14:33  \n       ARV: 07/29/12  16:15:36     DPT:             :  :  \n       QTR:             :  :       CLR: 07/29/12  16:27:44  \n    Unit: F2818   Radio:           Ofcr 1:     F2818  Ofcr 2:  \n       DSP: 07/29/12  16:15:26     ENR: 07/29/12  16:15:26  \n       ARV: 07/29/12  16:15:33     DPT:             :  :  \n       QTR:             :  :       CLR: 07/29/12  16:27:51  \n UNIT: E8275   UMH                                            16:28:59 \n\nThe Call Taker is SANTILLI JOSEPH C\nThe Dispatcher is ZELINSKY NICK J");
+
   }
   
   @Test

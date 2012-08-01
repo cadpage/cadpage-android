@@ -71,7 +71,7 @@ public class Message {
   // Patterns used to perform front end descrambling
   private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \" +");
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\\n+DISCLA.*$| *\\[Attachment\\(s\\) removed\\]$", Pattern.CASE_INSENSITIVE);
-  private static final Pattern EXCHANGE_FWD_PTN = Pattern.compile("^(?:\\[FWD?:.*\\] *\n)?(?:--+(?:Original Message)?--+\n)?From: *(.*?)\n(?:\\[?mailto:.*]\n)?(?:Sent:.*\n)?(?:To:.*\n)?(?:Subject: (.*)\n)?(?:Auto forwarded by a Rule)?");
+  private static final Pattern EXCHANGE_FWD_PTN = Pattern.compile("^(?:\\[FWD?:.*\\] *\n)?(?:--+(?:Original Message)?--+\n)?From: *(.*?)\n(?:\\[?mailto:.*\\] *\n)?(?:Sent:.*\n)?(?:To:.*\n)?(?:Subject: (.*)\n)?(?:Importance:.*\n)?(?:Auto forwarded by a Rule)?");
   private static final Pattern FWD_PTN = Pattern.compile("^FWD?:");
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
