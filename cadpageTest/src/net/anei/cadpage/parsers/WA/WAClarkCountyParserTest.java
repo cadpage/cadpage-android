@@ -227,6 +227,22 @@ public class WAClarkCountyParserTest extends BaseParserTest {
         "UNIT:E91,M43");
   }
   
+  @Test
+  public void testCEbling() {
+
+    doTest("T1",
+        "LOC: 2210 NE 284TH AVE CLK MAP: 2324 OPS:   UNKNOWN PROBLEM SUB TYPE: B2 PRI: 4 TIME: 09:37:54 EV#: 12210465 ALARM: 1  Disp: E91,M43\r\n",
+        "ADDR:2210 NE 284TH AVE",
+        "MAP:2324",
+        "CALL:UNKNOWN PROBLEM",
+        "CODE:B2",
+        "PRI:4",
+        "TIME:09:37:54",
+        "ID:12210465",
+        "UNIT:E91,M43");
+
+  }
+  
   public static void main(String[] args) {
     new WAClarkCountyParserTest().generateTests("T1");
   }
