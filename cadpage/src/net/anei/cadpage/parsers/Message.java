@@ -80,9 +80,11 @@ public class Message {
     Pattern.compile("^ *(\\d)/(\\d) / "),
     Pattern.compile("^\\( *(\\d) +of +(\\d) *\\)"),
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+) /(\\d)/(\\d) /"),
-    Pattern.compile("^Subject:(\\d)/(\\d)\\n"),
     Pattern.compile("\\[(\\d) of (\\d)\\]$"),
     Pattern.compile(":(\\d)of(\\d)$")
+  };
+  private static final Pattern[] SUBJECT_HEADER_PTNS = new Pattern[]{
+    Pattern.compile("^(\\d)/(\\d)$")
   };
   private static final Pattern OPT_OUT_PTN = Pattern.compile("TXT STOP.*$");
   
@@ -388,6 +390,16 @@ public class Message {
       } else {
         body = parseSubject;
         parseSubject = "";
+      }
+    }
+    
+    for (Pattern ptn : SUBJECT_HEADER_PTNS) {
+      match = ptn.matcher(parseSubject);
+      if (match.find()) {
+        msgIndex = match.group(1).charAt(0)-'0';
+        msgCount = match.group(2).charAt(0)-'0';
+        if (match.start() == 0) parseSubject = parseSubject.substring(match.end()).trim();
+        else parseSubject = parseSubject.substring(0,match.start()).trim();
       }
     }
     
