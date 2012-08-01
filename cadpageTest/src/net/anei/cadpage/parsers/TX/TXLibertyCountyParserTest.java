@@ -18,6 +18,7 @@ public class TXLibertyCountyParserTest extends BaseParserTest {
         "[FIRE CALL]  FM834 NEAR BASEBALL FIELDS POSS OUT OF CONTROL GRASS FIRE",
         "CALL:FIRE CALL",
         "ADDR:FM-834",
+        "MADDR:FM 834",
         "INFO:NEAR BASEBALL FIELDS POSS OUT OF CONTROL GRASS FIRE");
 
     doTest("T2",
