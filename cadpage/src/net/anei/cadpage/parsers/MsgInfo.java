@@ -460,6 +460,7 @@ public class MsgInfo {
           sCross = sCross.substring(0,match.start()).trim();
           if (sCross.equals(sAddr)) sCross = strCross.substring(match.end()).trim(); 
         }
+        if (parser != null) sCross = parser.adjustMapAddress(sCross);
         sCross = cleanStreetSuffix(sCross);
         sCross = cleanBounds(sCross);
         sCross = cleanRoutes(sCross);
@@ -646,7 +647,7 @@ public class MsgInfo {
   // This method breaks those up into two separate tokens, also dropping any
   // direction qualifiers
   private static final Pattern ROUTE_PTN =
-    Pattern.compile("\\b(RT|RTE|HW|HWY|US|ST|I|CO|CR|CORD|SRT?|I)-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b(RT|RTE|HW|HWY|US|ST|SH|FM|I|CO|CR|CORD|SRT?|I)-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern ROUTE_PTN2 =
     Pattern.compile("\\b([A-Z]{2})(\\d{1,3})(?:[NSEW]B)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SRT_PTN = Pattern.compile("\\bSRT?\\b", Pattern.CASE_INSENSITIVE);
@@ -726,7 +727,7 @@ public class MsgInfo {
     return sAddress;
   }
   
-  private static final Pattern ST_PTN = Pattern.compile("(?<=^|& ?|\\d ?(?:[NSEW] ?)?)ST(?= +\\d+)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern ST_PTN = Pattern.compile("(?<=^|& ?|\\d ?(?:[NSEW] ?)?)S[TH](?= +\\d+)\\b", Pattern.CASE_INSENSITIVE);
   private String cleanSTRoutes(String sAddress) {
     
     // Google gets confused by the ST abbreviation for State hwy.  We have a couple choices but lets use
