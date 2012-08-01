@@ -68,6 +68,10 @@ FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:69C >STRUCTURE FIRE C
 FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:17D3 >FALLS - NOT ALERT 3924 W RIDGE RD XS: HAMLET AVE MILLCREEK TWP\r\n
 FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:10D1 >CHEST PAIN - PATIENT NOT ALERT 4101 RIDGEWOOD DR XS: VISTA DR MILLCREEK TWP\r\n
 
+Contact: Matt Fuller <mfullererie@gmail.com>
+Sender: 777202844752
+.... (Kuhl Hose Fire) ERIE911:AUG 1 THROUGHT AUG 7 LAKE PLEASANT RD CLOSED IN ERIE CO & ARBUCKLE RD HRS 0730 & 1630 WEEKDAYS
+
 */
 
 public class PAErieCountyAParser extends DispatchBParser {
@@ -104,10 +108,16 @@ public class PAErieCountyAParser extends DispatchBParser {
     } while (false);
     
     boolean result = super.parseMsg(body, data);
-    result = result && 
-      (data.strCross.length() > 0 || 
-       data.strCity.length() > 0 || 
-       data.strCallId.length() > 0);
+    if (result) {
+      result =  
+          (data.strCross.length() > 0 || 
+           data.strCallId.length() > 0);
+      if (!result) {
+        int pt = body.indexOf('>');
+        result = (pt >= 0 && pt <= 20);
+      }
+      
+    }
     if (!result && body.startsWith("ERIE911:")) {
       data.parseGeneralAlert(body.substring(8).trim());
       data.strSource = "ERIE911";
