@@ -285,9 +285,116 @@ public class ALColbertCountyParserTest extends BaseParserTest {
         "ADDR:145 ADAY DR",
         "CITY:CHEROKEE");
 
+    doTest("T25",
+        "[E911] MVC / C INJURIES\r\r\nMCCREARY, PHILIP L 3970 HAWK PRIDE MOUNTAIN RD, TUSCUMBIA\r\n\r\n\r\n",
+        "CALL:MVC / C INJURIES",
+        "NAME:MCCREARY, PHILIP L",
+        "ADDR:3970 HAWK PRIDE MOUNTAIN RD",
+        "CITY:TUSCUMBIA");
+
+    doTest("T26",
+        "[E911] ABD PAIN\r\r\nBST QUICK SERVICE 5082 WOODMONT DR, TUSCUMBIA\r\r\n54F DIFF BREATHING\r\n\r\n\r\n",
+        "CALL:ABD PAIN",
+        "PLACE:BST QUICK SERVICE",
+        "ADDR:5082 WOODMONT DR",
+        "CITY:TUSCUMBIA",
+        "INFO:54F DIFF BREATHING");
+
+    doTest("T27",
+        "[E911] SICK PERSON\r\r\nJEFFERY CAMPBELL 2335 COLBURN MILL RD, RUSSELLVILLE\r\r\n19/F\r\n\r\n\r\n",
+        "CALL:SICK PERSON",
+        "NAME:JEFFERY CAMPBELL",
+        "ADDR:2335 COLBURN MILL RD",
+        "CITY:RUSSELLVILLE",
+        "INFO:19/F");
+
+    doTest("T28",
+        "[E911] SICK PERSON\r\r\nCORNELIUS, TERESA SULLIVAN 200 JOHNSON DR, A8, CHEROKEE\r\r\n45/F OVERDOSE\r\n\r\n\r\n",
+        "CALL:SICK PERSON",
+        "NAME:CORNELIUS, TERESA SULLIVAN",
+        "ADDR:200 JOHNSON DR",
+        "CITY:CHEROKEE",
+        "INFO:45/F OVERDOSE",
+        "APT:A8");
+
+    doTest("T29",
+        "[E911] SICK PERSON\r\r\nMITCHELL HOLLINGSWORTH NURSING A 1101 TYLER AV, MUSCLE SHOALS\r\n\r\n\r\n",
+        "CALL:SICK PERSON",
+        "PLACE:MITCHELL HOLLINGSWORTH NURSING A",
+        "ADDR:1101 TYLER AV",
+        "MADDR:1101 TYLER AVE",
+        "CITY:MUSCLE SHOALS");
+
+    doTest("T30",
+        "[E911] SICK PERSON\r\r\n 1101 TYLER AV, MUSCLE SHOALS\r\r\n77/M\r\n\r\n\r\n",
+        "CALL:SICK PERSON",
+        "ADDR:1101 TYLER AV",
+        "MADDR:1101 TYLER AVE",
+        "CITY:MUSCLE SHOALS",
+        "INFO:77/M");
+
+    doTest("T31",
+        "[E911] SICK PERSON\r\r\nLEONARD L SHEFFIELD 4450 ELLEDGE LN, LOT 61, MUSCLE SHOALS\r\r\n63/M\r\n\r\n\r\n",
+        "CALL:SICK PERSON",
+        "PLACE:LEONARD L SHEFFIELD",
+        "ADDR:4450 ELLEDGE LN",
+        "CITY:MUSCLE SHOALS",
+        "INFO:63/M",
+        "APT:LOT 61");
+
+    doTest("T32",
+        "[E911] VOMITING\r\r\nG S FULTON 105 WOODMONT CT, 8, TUSCUMBIA\r\r\n74/F\r\n\r\n\r\n",
+        "CALL:VOMITING",
+        "PLACE:G S FULTON",
+        "ADDR:105 WOODMONT CT",
+        "CITY:TUSCUMBIA",
+        "INFO:74/F",
+        "APT:8");
+
+    doTest("T33",
+        "[E911] LIFTING ASST\r\r\nDIMPLE MCDOUGAL 1020 N LAFAYETTE ST, TUSCUMBIA\r\r\n85F\r\n\r\n\r\n",
+        "CALL:LIFTING ASST",
+        "NAME:DIMPLE MCDOUGAL",
+        "ADDR:1020 N LAFAYETTE ST",
+        "CITY:TUSCUMBIA",
+        "INFO:85F");
+
+    doTest("T34",
+        "[E911] FALL\r\r\nDIMPLE MCDOUGAL 1020 N LAFAYETTE ST, TUSCUMBIA\r\r\n85F\r\n\r\n\r\n",
+        "CALL:FALL",
+        "NAME:DIMPLE MCDOUGAL",
+        "ADDR:1020 N LAFAYETTE ST",
+        "CITY:TUSCUMBIA",
+        "INFO:85F");
+
+    doTest("T35",
+        "[E911] CHEST PAIN\r\r\nSHADY COURT MOTEL 2905 NE 12TH AV, SHEFFIELD\r\r\n55F DIFF BREATHING\r\n\r\n\r\n",
+        "CALL:CHEST PAIN",
+        "PLACE:SHADY COURT MOTEL",
+        "ADDR:2905 NE 12TH AV",
+        "MADDR:2905 NE 12TH AVE",
+        "CITY:SHEFFIELD",
+        "INFO:55F DIFF BREATHING");
+
+    doTest("T36",
+        "[E911] BREATHING PROBLEM\r\r\nJIMMIE H MORGAN 108 NE CONGRESS ST, MUSCLE SHOALS\r\r\n73/F\r\n\r\n\r\n",
+        "CALL:BREATHING PROBLEM",
+        "PLACE:JIMMIE H MORGAN",
+        "ADDR:108 NE CONGRESS ST",
+        "CITY:MUSCLE SHOALS",
+        "INFO:73/F");
+
+    doTest("T37",
+        "[E911] DIABETIC PROBLEM\r\r\nBST QUICK SERVICE 116 SPRINGER DR, TUSCUMBIA\r\r\n29/F\r\n\r\n\r\n",
+        "CALL:DIABETIC PROBLEM",
+        "PLACE:BST QUICK SERVICE",
+        "ADDR:116 SPRINGER DR",
+        "CITY:TUSCUMBIA",
+        "INFO:29/F");
+
   }
   
   public static void main(String[] args) {
-    new ALColbertCountyParserTest().generateTests("T1");
+    new ALColbertCountyParserTest().generateTests("T25");
   }
 }
