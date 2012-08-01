@@ -4822,14 +4822,6 @@ Contact: Bill Hickle <bhickle29@gmail.com>
 Sender: 4129533352
 21 auto fire alarm Brownsville House Apts asst ST6
 **********************************************************
-Calumet County, WI (alternate)
-Contact: Tom Macco <tmacco1@gmail.com>
-Sender: zoll@goldcross.org
-(Gold Cross Alert - part 1 of 1) RC:W824 RUSCH RD//BRILLION/Non Emergency/Hemorhage / Laceration//<None>/Run# 9652/18:21/911 Call (County)//
-(Gold Cross Alert - part 1 of 1) RC:723 S MAIN ST//BRILLION/Emergency/Heart Problems//<None>/Run# 9888/06:05/911 Call (County)//
-(Gold Cross Alert - part 1 of 1) RC:W2377 USHY 10//BRILLION/Non Emergency/Sick Person//<None>/Run# 10629/20:58/911 Call (County)//
-(Gold Cross Alert - part 1 of 1) RC:220 ACHIEVEMENT DR//BRILLION/Non Emergency/Fall Victim//<None>/Run# 10637/04:21/911 Call (County)//
-**********************************************************
 Delaware County, PA (?)
 Contact: Brad Penn <penn367@gmail.com>
 Sender: +17172203767
@@ -4891,6 +4883,8 @@ MED CALL 16864 HWY M CRS ST W 168TH & W 176TH 95 YO F NOT BREATHING NOT CONS COL
 disregard 10-50 at 4025 hwy 10 wood heights per troop 1181 non injury road is no longer blocked
 MED CALL @ LAWSON MANOR RM 103 79 YO MALE CONS BREATHING PULLED FOLEY AND IS BLEEDING
 (outside fire) FIRE IS ON HIGHRIDGE LAST ROAD IN CRYSTAL LAKES\r\nVERY EAST OF THE ROAD
+med call@13511 stewart rd crs sts w 130th and w140th 70 yo male con diff breathing possible stroke
+med call @ 210 w 8th ter lawson mo transfer to esmc 62 yo female con & breathing seizure activity
 **********************************************************
 Cecil County, MD (alternate)
 Contact: "bradfordsnyder@verizon.net" <bradfordsnyder@verizon.net>
@@ -4943,6 +4937,8 @@ CAD:7042978331-SEIZURES-117 PALMER ST-E MARION ST-AIRLINE AV-[Medical Priority I
 CAD:KELIOSA-SEIZURES-313 S POST RD-GARRETT DR-KINGS ROAD EXT-[Medical Priority Info] PROBLEM: seizure # PATS: 1 AGE: 3 Years SEX: Female CONSCIOUS: No BREAT
 CAD:10-50 PI-CHARLES RD/W DIXON BLVD-[LAW] 2 cars [07/25/12 19:10:38 C89] Aborted by Medical Priority with code: 1. Caller hung up [07/25/12 19:10:23 C89]
 CAD:SPRINT PCS-9802953855-FIREAPT-415 GARDNER ST-SMITH ST-MARTIN ST-kitchen on fire at aprtment 5 they are trying to get every one out of adjacent apts [07/
+CAD:CICILIA-8286444392-FIRE/HAZ-354 WASHBURN SWITCH RD-LILLCO DR-AMBER LN-GAS LEAK INSIDE THE HOUSE [07/31/12 21:18:19 C84]
+CAD:AT&T MOBILITY-9118385620-FIRE/MIS-705 E DIXON BLVD-WAL-MART-EARL RD-GROVE ST
 **********************************************************
 CCE Central Dispatch
 Charlevoix, Cheboygan and Emmet Counties, MI
@@ -5019,6 +5015,15 @@ alert:[121]- NATURE: E 10M LOCATION: 6405 STATE RTE 141 LAWRENC E TWP This is an
 alert:[121]- NATURE: S 72 LOCATION: 2101 N 2 ST IRONTON COMMEN TS: This is an example of a run inside a municipality wi th a street direction. In long form this would be 2101 North 2nd Street Ironton, Ohio
 alert:[121]- NATURE: ABD LOCATION: 989 TWP RD 161 FAYETTE TWP COMMENTS: This is an example of a call on a township ro ad.
 alert:[121]- NATURE: E 48A LOCATION: 24 TWP RD 1101 W FAYETTE T WP COMMENTS: This is an example of a call on a township wi th a direction. The long form would be 24 Township Road 1101 West
+**********************************************************
+Calumet County, WI (alternate)
+Contact: Tom Macco <tmacco1@gmail.com>
+Sender: zoll@goldcross.org
+(Gold Cross Alert - part 1 of 1) RC:W824 RUSCH RD//BRILLION/Non Emergency/Hemorhage / Laceration//<None>/Run# 9652/18:21/911 Call (County)//
+(Gold Cross Alert - part 1 of 1) RC:723 S MAIN ST//BRILLION/Emergency/Heart Problems//<None>/Run# 9888/06:05/911 Call (County)//
+(Gold Cross Alert - part 1 of 1) RC:W2377 USHY 10//BRILLION/Non Emergency/Sick Person//<None>/Run# 10629/20:58/911 Call (County)//
+(Gold Cross Alert - part 1 of 1) RC:220 ACHIEVEMENT DR//BRILLION/Non Emergency/Fall Victim//<None>/Run# 10637/04:21/911 Call (County)//
+(Gold Cross Alert - part 1 of 1) RC:130 CALUMET ST//BRILLION/Non Emergency/Allergies/walk in w/ bee sting/ does not want to be transported by ambulance/<None>/Ru
 **********************************************************
 **********************************************************
 St Joseph County, IN (alternate)
