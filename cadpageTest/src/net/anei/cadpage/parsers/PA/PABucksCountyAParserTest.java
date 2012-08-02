@@ -1179,7 +1179,7 @@ public class PABucksCountyAParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser3() {
+  public void testEdAckerman() {
 
     doTest("T1",
         "FRM:Bucks RSAN\n" +
@@ -1235,7 +1235,7 @@ public class PABucksCountyAParserTest extends BaseParserTest {
         "ID:FD1201397",
         "UNIT:E4-1");
 
-    doTest("T1",
+    doTest("T4",
         "FRM:Bucks RSAN\n" +
         "SUBJ:1/1\n" +
         "MSG:STA1 STA65 STA2 STA4 STA3:FAPT\n" +
@@ -1256,6 +1256,18 @@ public class PABucksCountyAParserTest extends BaseParserTest {
         "TIME:10:01:14",
         "ID:FD1202073",
         "UNIT:L65 L2 MSS11 E4 Q73 R4");
+
+    doTest("T5",
+        "FRM:Bucks RSAN\nSUBJ:1/1\nMSG:STA4 STA6:GASL\nadr:BROWNSVILLE RD/PHILADELPHIA AV ,43\nbox:04004\ntm:12:45:04 FD1210910  Run: E4 E6=",
+        "SRC:STA4 STA6",
+        "CALL:GASL - GAS LEAK",
+        "BOX:04004",
+        "ADDR:BROWNSVILLE RD & PHILADELPHIA AV",
+        "MADDR:BROWNSVILLE RD & PHILADELPHIA AVE",
+        "CITY:LOWER SOUTHAMPTON TWP",
+        "TIME:12:45:04",
+        "ID:FD1210910",
+        "UNIT:E4 E6");
 
   }
   

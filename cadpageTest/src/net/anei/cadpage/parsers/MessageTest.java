@@ -9,6 +9,15 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("PABucksCounty",
+        "ken@cadpage.org",
+        "",
+        "FRM:Bucks RSAN\nSUBJ:1/1\nMSG:STA4 STA6:GASL\nadr:BROWNSVILLE RD/PHILADELPHIA AV ,43\nbox:04004\ntm:12:45:04 FD1210910  Run: E4 E6=",
+        "Bucks RSAN",
+        "",
+        "STA4 STA6:GASL\nadr:BROWNSVILLE RD/PHILADELPHIA AV ,43\nbox:04004\ntm:12:45:04 FD1210910  Run: E4 E6=",
+        1, 1);
+    
     doParseTest("NJGloucesterCounty",
         "ken@cadpage.org",
         "FW: Automatic R&R Notification",
@@ -332,8 +341,9 @@ public class MessageTest {
     doParseTest("PABerksCounty",
         "FRM:\nSUBJ:1/2\nMSG:CAD MSG: *D TREESDWN FORGEDALE RD / CLAY VALLEY RD 0087 PSP IS REQ FIRE\nCO FOR TREE REMOVAL FROM ROADWAY // PSP NOT ON LOC BC",
         "ken@cadpage.org",
-        "1/2",
-        "CAD MSG: *D TREESDWN FORGEDALE RD / CLAY VALLEY RD 0087 PSP IS REQ FIRE\nCO FOR TREE REMOVAL FROM ROADWAY // PSP NOT ON LOC BC");
+        "",
+        "CAD MSG: *D TREESDWN FORGEDALE RD / CLAY VALLEY RD 0087 PSP IS REQ FIRE\nCO FOR TREE REMOVAL FROM ROADWAY // PSP NOT ON LOC BC",
+        1, 2);
     
     doParseTest("MIMobileMedicalRsponse",
         "prvs=10825513db=mailghost@mobilemedical.org (<CAD> - part 1 of 1) Congratulations to Mary Remington!",
