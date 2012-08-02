@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.IL;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -19,13 +20,14 @@ System: Sunguard OSSI
 S: M:67:FYI: ;STRUCTURE FIRE/GENERAL;2932 RODMAN AV\n
 S: M:68:CANCEL;2932 RODMAN AV; RIA\n
 S: M:69:Update: ;FIRE MUTUAL AID;2932 RODMAN AV\n
+@RIFD: 17437:;MEDICAL CALL;767 30TH ST;RI
 
 */
 
 public class ILRockIslandCountyParser extends MsgParser {
   
   private static final Pattern MASTER = 
-      Pattern.compile("(?:@([A-Z]+): )?(\\d+):([\\w: ]*);([^;]+?);([^;]+?)");
+      Pattern.compile("(?:@([A-Z]+): )?(\\d+):([\\w: ]*);([^;]+?);([^;]+?)(?:;([A-Z]+))?");
   
   public ILRockIslandCountyParser() {
     super("ROCK ISLAND COUNTY", "IL");
@@ -51,9 +53,15 @@ public class ILRockIslandCountyParser extends MsgParser {
       data.strCall = match.group(4).trim();
       sAddr = match.group(5).trim();
     }
+    String city = match.group(6);
+    if (city != null) data.strCity = convertCodes(city, CITY_CODES);
       
     parseAddress(sAddr, data);
     return true;
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "RI", "ROCK ISLAND"
+  });
   
 }
