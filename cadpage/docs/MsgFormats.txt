@@ -1102,6 +1102,11 @@ Shasta County, CA
 (CAD Page) MED, TRAFFIC COLLISION; 21044 HWY 299 E / 11760 NEAL LN ,BELLAVISTA ; ; ; Map: 3225; Inc# 009230; B2413 VOL33 E2462; VEH
 (CAD Page) MEDICAL; 21018BLK  JOANNA WY ,BELLAVISTA ; 21017 JOANNA; 11650 BLK HELENA DR; Map: 3225; Inc# 009041; VOL33; 69f, loc
 ***************************************************************************
+San Joaquin County, CA (CASanJquaquinCountyParser)
+T26-1     FRC-120542      Structure Fire                  10331 S Priest Rd                                 E GALIN RD/E KRELL LBldg:            Apt:
+E18-1 11020566     Fire Alarm - Co  5045 S State Route 99 E F E ARCH RD/E SUNNY RD 830A
+      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386                Assigned Units: E9-3,E9-2,E26-2,BC9-0
+***************************************************************************
 Sonoma County, CA (CASonomaCountyParser)
 Loc: HWY1/VALLEY FORD ROAD VFR BOX: 3540 TYP:TC CN: CHP LOG # 632 C#: TYPE CODE: TC CALLER NAME: CHP LOG # 632 CALLER ADDR:  TIME: 11:07:31 COM: ** Case n
 Loc: 1320 BAY VIEW ST BBY:@ BODEGA UNION CHURCH BOX: 3433 B3 TYP: GAS-IN CN: BODEGA BAY UNION CHURCH C#: (707)875-3559 TYPE CODE: GAS-IN CALLER NAME: BODEGA
@@ -4743,30 +4748,6 @@ med call @ 210 w 8th ter lawson mo transfer to esmc 62 yo female con & breathing
 **********************************************************
 **********************************************************
 **********************************************************
-San Joaquin County, CA
-Contact: John <john499@live.com>
-1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BS18-1    ZUM-110502      Medical Aid                     3232 E Munford Ave\n(Con't) 2 of 2\n     Dead End/S STATE ROUBldg:            Apt: 3\n(End)
-FRM:LifecomCellPaging@amr.net\nMSG:BS18-1    Dispatched: 00:45:33 Enroute: 00:48:05 On Scene: 01:00:47 AOR: 01:20:35
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BS18-1    ZUM-110503      Medical Aid                     1840 S B St\n(Con't) 2 of 2\n     E FOURTH ST/E FIFTH Bldg:            Apt:\n(End)
-FRM:LifecomCellPaging@amr.net\nMSG:BS18-1    Dispatched: 02:01:53 Enroute: 02:04:23 On Scene: 02:05:26 AOR: 02:26:24
-FRM:LifecomCellPaging@amr.net\nMSG:E18-1 11020566     Fire Alarm - Co  5045 S State Route 99 E F E ARCH RD/E SUNNY RD 830A
-
-Contact: David Reinhard <r26loki@hotmail.com>
-Sender: LifecomCellPaging@amr.net
-1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\r\n(End)
-1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:BC9-0 12018079     Traffic Collisi W Eleventh St / S Bird Rd                           T327A           \n(Con't) 2 of 2\n    Assigned Units: E9-2,T26-2,E9-6,T9-1,BC9-0\r\n(End)
-FRM:LifecomCellPaging@amr.net\nMSG:T26-1     12018446    Dispatched:18:49:50Enroute:        On Scene:        AOR:18:51:14
-FRM:LifecomCellPaging@amr.net\nMSG:T26-1     12018446    Dispatched:18:49:50Enroute:18:51:55On Scene:18:53:54AOR:19:15:58
-FRM:LifecomCellPaging@amr.net\nMSG:T26-1 12018446     Structure Fire   16658 S Ore Claim Trl     W CLAIM STAKE AVE/W  L142A       
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:T26-1 12018446     Structure Fire   16658 S Ore Claim Trl     W CLAIM STAKE AVE/W  L142A               \n(Con't) 2 of 2\n                 Assigned Units:T26-1,E11-1,T26-1,E3-4,E3-1,LM\n(End)
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:T26-1     FRC-120542      Structure Fire                  10331 S Priest Rd                            \n(Con't) 2 of 2\n     E GALIN RD/E KRELL LBldg:            Apt:\n(End)
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:E26-1 12018116     Vegetation Fire I 5 NB / S KASSON RD                                H5C3            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E26-1\n(End)
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\n(End)
-FRM:LifecomCellPaging@amr.net\nMSG:E26-1\5s12018782\4sDispatched:00:37:41Enroute:00:40:05On Scene:\8sAOR:00:42:38\r\n
-FRM:LifecomCellPaging@amr.net\nMSG:T26-1\5s12018873\4sDispatched:05:47:04Enroute:05:49:25On Scene:05:55:03AOR:06:01:39\r\n
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:T26-2 12018956\5sMedical Aid\5s25600 S Chrisman Rd\12sW SCHULTE RD/ELISSAG T354B\11s\n(Con't) 2 of 2\n\4sAssigned Units: T26-2\r\n(End)
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:T9-1\2s12018957\5sTraffic Collisi I 580 Eb / S Corral Hollow Rd\23sH580C1\10s\n(Con't) 2 of 2\n\4sAssigned Units: E9-4,E9-8,T9-1,BC9-0,E26-1\r\n(End)
- 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:\6s12019053\5sMedical Aid\5s25600 S Chrisman Rd\12sW SCHULTE RD/ELISSAG T354B\11s\n(Con't) 2 of 2\n\4sAssigned Units: T26-2\r\n(End)
 **********************************************************
 Clevelend County, NC
 Contact: Richard Carroll <crrll19@gmail.com>
