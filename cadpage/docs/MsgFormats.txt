@@ -2088,6 +2088,11 @@ CAD:5413 MONROE ANSONVILLE RD;CHEST PAIN EMD;S09;B-CF2;CLARK ST;ANSONVILLE RD;01
 CAD:226 S MAIN ST;GATEWOOD VILLAGE;FIRE ALARM EFD;S09;B2;HINSON ST;GOODWILL LN;01/16/2011 14:04:24
 CAD:1299 WITMORE RD/OLD MONROE MARSHVILLE RD;ACCIDENT EMD;S09;B-CF2;01/21/2011 16:59:15
 ***************************************************************************
+Wake County, NC (NCWakeCountyParser)
+[WCPS] Inc: FBD : \nMap: 010Q \nAdd: 2412 MOLLYNICK LN \nLoc:  \nApt:  \nCS:    /   THOMPSON MILL RD \nUnt: SHB263,\nTG: T15\nCty: WCWF \nComm:
+[WCPS] Inc: FBD : \nMap: 002X \nAdd: 3229 OLIVE GROVE CHURCH RD \nLoc:  \nApt:  \nCS:  OLD WEAVER TRL   /   \nUnt: SHB399,\nTG: T15\nCty: WCCR
+[WCPS] Inc: FWF : \nMap: 039W \nAdd: 6160 JOHNSDALE RD \nLoc:  \nApt:  \nUnt: RFC20,RFAIR1,RFC10,\nTG: \nCty: RA
+***************************************************************************
 Wayne County, NC (NCWayneCountyParser)
 Structure Fire  117,S RUNNING DEER CIR ;DUDLEY  DUDLEY [76]
 Traffic Accident-Inj    1574,    DURHAM LAKE RD ; DUDLEY  DUDLEY    [68]
@@ -4634,165 +4639,6 @@ Contact: Doug Bickerstaff <d.bickerstaff@northmeckrescue.org>
 Sender: cadmail@medic911.com
 Subject:CAD email\n13825 Hunton Ln               110B      Olde Knox Commons *SNF*       Bravo-BLS COLD                17BC-Falls/Back inju\r
 **********************************************************
-Looks like email only pages
-
-Wake County, NC
-Contact: "A.C. Rich" <ac_rich@earthlink.net>  (Chief)
-Sender: wcps@wakegov.com
-System: Motorola Printrax
-
-AN  ANGIER
-WCAN  ANGIER WAKE CO
-AP  APEX
-WCAP  APEX WAKE CO
-CA  CARY
-WCCA  CARY WAKE CO
-WCCL  CLAYTON WAKE CO
-WCCR  CREEDMOOR WAKE CO
-WCDU  DURHAM WAKE CO
-FV  FUQUAY-VARINA
-WCFV  FUQUAY-VARINA WAKE CO
-GR  GARNER
-WCGR  GARNER WAKE CO
-HS  HOLLY SPRINGS
-WCHS  HOLLY SPRINGS WAKE CO
-KD  KNIGHTDALE
-WCKD  KNIGHTDALE WAKE CO
-MV  MORRISVILLE
-WCMV  MORRISVILLE WAKE CO
-WCNH  NEW HILL WAKE CO
-RA  RALEIGH
-WCRA  RALEIGH WAKE CO
-RDU RDU
-RO  ROLESVILLE
-WCRO  ROLESVILLE WAKE CO
-WF  WAKE FOREST
-WCWF  WAKE FOREST WAKE CO
-WD  WENDELL
-WCWD  WENDELL WAKE CO
-WCWS  WILLOW SPRINGS WAKE CO
-WCYV  YOUNGSVILLE WAKE CO
-ZB  ZEBULON
-WCZB  ZEBULON WAKE CO
-
-
-[WCPS]  
-Inc: FBD : 
-Map: 010Q 
-Add: 2412 MOLLYNICK LN 
-Loc:  
-Apt:  
-CS:    /   THOMPSON MILL RD 
-Unt: SHB263,
-TG: T15
-Cty: WCWF 
-Comm:
-
-[WCPS]  
-Inc: FBD : 
-Map: 002X 
-Add: 3229 OLIVE GROVE CHURCH RD 
-Loc:  
-Apt:  
-CS:  OLD WEAVER TRL   /   
-Unt: SHB399,
-TG: T15
-Cty: WCCR
-
-Inc: FWF : 
-Map: 039W 
-Add: 6160 JOHNSDALE RD 
-Loc:  
-Apt:  
-Unt: RFC20,RFAIR1,RFC10,
-TG: 
-Cty: RA
-
-[WCPS]  
-Inc: FBD : 
-Map: 009O 
-Add: 12525 ONEAL RD 
-Loc:  
-Apt:  
-CS:  MONTHAVEN DR   /   NOLABEE LN 
-Unt: SHB263,
-TG: T14
-Cty: WCWF 
-
-
-Probably obsolete
-Contact: "wendelldispatch@yahoo.com" <wendelldispatch@yahoo.com>
-Sender: wcps@wakegov.com
-
-From: wcps@wakegov.com
-Date: Thu, Apr 7, 2011 2:55 pm
-Subject: WCPS
-To: <wendelldispatch@yahoo.com>
-
-Incident: FHEART: 
-Map: 066O 
-Address: 6437 FALCONWOOD DR 
-Location:  
-Apt:  
-Cross:  CARRINGTON WOODS DR   /   MARTIN POND RD 
-Units: WEB114,
-Talk Group: T16
-City: WCWD 
-Comments: **CARDIAC**
-PRIMARY UNIT CHANGED TO: FD/WEB114
-R
-
-Date: Wed, Apr 6, 2011 7:47 pm
-Subject: WCPS
-To: <wendelldispatch@yahoo.com>
-
-Incident: FGRASS: 
-Map: 066I 
-Address: US 64, HWY EB / WENDELL BLVD 
-Location: EXIT 429 WENDELL BLV 
-Apt:  
-Cross: 
-Units: WEB114,
-Talk Group: O1
-City: WCKD 
-Comments: **GRASS FIRE**
-ORIGINAL LOCATION : EXIT 429 WENDELL BLV
-ON RI
-
-From: wcps@wakegov.com
-Date: Wed, Apr 6, 2011 4:45 pm
-Subject: WCPS
-To: <wendelldispatch@yahoo.com>
-
-Incident: F50IC : 
-Map: 066D 
-Address: US 64, HWY E / ROLESVILLE RD 
-Location: EXIT 430 WB ROLESVIL 
-Apt:  
-Cross: 
-Units: WEE113,WER110,
-Talk Group: T16
-City: WCWD 
-Comments: **ACCIDENT-WITH INJURIES**
-4 VEH ACCIDENT ....JUST EAS
-
-From: wcps@wakegov.com
-Date: Wed, Apr 6, 2011 5:16 pm
-Subject: WCPS
-To: <wendelldispatch@yahoo.com>
-
-Incident: FSEIZ : 
-Map: 066D 
-Address: US 64, HWY E / ROLESVILLE RD 
-Location:  
-Apt:  
-Cross: 
-Units: WEB114,
-Talk Group: T17
-City: WCWD 
-Comments: **SEIZURES**
-ON THE EB, PASSED THE EXIT, IN THE MEDIAN, PT IS INSIDE A GRY NISSAN
-**********************************************************
 Linn County, OR (alternate or replacement?)
 Contact: "sta32jp@yahoo.com" <sta32jp@yahoo.com>
 Sender: linn911@linnsheriff.org
@@ -4874,13 +4720,6 @@ Mutual Aid Water Rescue - Fairway Dr @ the Potomac River - Co's 18, 11, 6, 25, 1
 Hazmat Incident - 21635 Red Rum Dr. Co's 23, 6, 22, 11, 18, M699, BC601, BC603, EM601, SO600, H619, FM603, M619, FM619. ops on 6D
 AUTO ACCIDENT ENTRAPMENT - LOUDOUN COUNTY PARKWAY/CENTER ST - CO'S 19, 9, 15, 7, M415, BC603, EM601, SO600, AIRC3 OPS ON 6L TAC 31 
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
 Ray County, MO (replace)
 Contact: "Lee O'Dell" <leeodell@woodheightsfire.com>
 Sender: dispatch@raycounty911.com
@@ -4896,6 +4735,12 @@ MED CALL @ LAWSON MANOR RM 103 79 YO MALE CONS BREATHING PULLED FOLEY AND IS BLE
 (outside fire) FIRE IS ON HIGHRIDGE LAST ROAD IN CRYSTAL LAKES\r\nVERY EAST OF THE ROAD
 med call@13511 stewart rd crs sts w 130th and w140th 70 yo male con diff breathing possible stroke
 med call @ 210 w 8th ter lawson mo transfer to esmc 62 yo female con & breathing seizure activity
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
 **********************************************************
 **********************************************************
 San Joaquin County, CA
@@ -5023,6 +4868,13 @@ Sender: zoll@goldcross.org
 (Gold Cross Alert - part 1 of 1) RC:220 ACHIEVEMENT DR//BRILLION/Non Emergency/Fall Victim//<None>/Run# 10637/04:21/911 Call (County)//
 (Gold Cross Alert - part 1 of 1) RC:130 CALUMET ST//BRILLION/Non Emergency/Allergies/walk in w/ bee sting/ does not want to be transported by ambulance/<None>/Ru
 **********************************************************
+Ashtabula County, OH
+Contact: "Shane Gregory" <lsgregoryshane@fairpoint.net>
+Sender: Sheriffadmin@ashtabulacounty.us
+FIRE, 320 EAST MAIN ST ORWELL, EASTON RD,ORWELL//LEFFINGWELL DR,ORWELL, HEAVY SMOKE COMING FROM A RESIDENCE BEHIND MIDWAY 
+FIRE, 4396 MONTGOMERY RD WINDSOR TWP, MONTGOMERY RD,ORWELL TWP//WINDSOR-MECHANICSVILLE RD,WINDSOR TWP, HEAVY SMOKE IN THE AREA OF THIS LOCATION THAT
+FIRE, 3595 US RT 322 ORWELL TWP, PARKER RD,ORWELL TWP//, LARGE BON FIRE IN A FIELD ACROSS THE STREET FROM THIS ADDRESS, APPEARS UNATTENDED, NEAR A S
+**********************************************************
 **********************************************************
 St Joseph County, IN (alternate)
 Contact: support@active911.com
@@ -5092,5 +4944,6 @@ Contact: Active911
 [Chief ALT] [46 Fire] -- Alarms-Commercial -- 800 Otis Dr Dover - Cross Sts: Fowler C - Caller:DFD\n
 [Chief ALT] [46 Fire] -- Alarms-Residential (single) -- 281 Sheffield Dr Dover - Cross Sts: Norwich Wa - Caller:ADT\n
 [Chief ALT] [46 Fire] -- Structure-Mobile Home/Trailer -- 243 Kentwood Dr Dover - Cross Sts: Phoenix D - Caller:SHANON\n
+**********************************************************
 **********************************************************
 **********************************************************
