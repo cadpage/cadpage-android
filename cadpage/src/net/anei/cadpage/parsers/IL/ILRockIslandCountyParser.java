@@ -61,7 +61,9 @@ public class ILRockIslandCountyParser extends MsgParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "RI", "ROCK ISLAND"
+      "MO",   "MOLINE",
+      "RI",   "ROCK ISLAND",
+      "RIA",  "ROCK ISLAND ARSENAL"
   });
   
 }
