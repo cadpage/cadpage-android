@@ -70,9 +70,17 @@ public class ILRockIslandCountyParserTest extends BaseParserTest {
         "ADDR:2932 RODMAN AV",
         "MADDR:2932 RODMAN AVE");
 
+    doTest("T4",
+        "@RIFD: 17437:;MEDICAL CALL;767 30TH ST;RI",
+        "SRC:RIFD",
+        "ID:17437",
+        "CALL:MEDICAL CALL",
+        "ADDR:767 30TH ST",
+        "CITY:ROCK ISLAND");
+
   }
   
   public static void main(String[] args) {
-    new ILRockIslandCountyParserTest().generateTests("T1", "SRC ID CALL ADDR");
+    new ILRockIslandCountyParserTest().generateTests("T1", "SRC ID CALL ADDR CITY");
   }
 }
