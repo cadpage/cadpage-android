@@ -92,7 +92,32 @@ public class OHEnglewoodParserTest extends BaseParserTest {
         "ADDR:322 HEATHER ST",
         "APT:6",
         "CITY:ENGLEWOOD");
-    
+
+    doTest("T9",
+        "FRM:CAD@englewood.oh.us\nMSG:EM98:12:53:13-45::MEDIC/ 65 YOF, STOMACH PAINS:@824 HILE LN,ENGLEWOOD:\r\n",
+        "UNIT:EM98",
+        "TIME:12:53:13",
+        "CODE:45:",
+        "CALL:MEDIC/ 65 YOF, STOMACH PAINS",
+        "ADDR:824 HILE LN",
+        "CITY:ENGLEWOOD");
+
+    doTest("T10",
+        " 1 of 2\n" +
+        "FRM:CAD@englewood.oh.us\n" +
+        "MSG:EE98 EM98 OP72:17:04:27-53B::2 VEH CRASH - 1 VEH ON SIDE:@404 W NATIONAL RD,ENGLEWOOD:KEYBOX FRONT DOOR LEFT,\n" +
+        "(Con't) 2 of 2\n" +
+        "FDC SE CORNER IN FENCE\r\n" +
+        "(End)",
+
+        "UNIT:EE98 EM98 OP72",
+        "TIME:17:04:27",
+        "CODE:53B:",
+        "CALL:2 VEH CRASH - 1 VEH ON SIDE",
+        "ADDR:404 W NATIONAL RD",
+        "CITY:ENGLEWOOD",
+        "INFO:KEYBOX FRONT DOOR LEFT, FDC SE CORNER IN FENCE");
+      
   }
   
   public static void main(String[] args) {

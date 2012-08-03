@@ -91,10 +91,45 @@ Sender: @c-msg.net
 (SW)[!] MEDIC020 G-156 07/26/12 19778 YODER ST SW :(60500) CARROLL STF D
 (SW)[!] MEDIC020 G-158 07/27/12 60788 GREENRIDGE CT SW :(21758) CARRIAGE DRM.UNKNOWN MEDICAL
 
+Contact: support@active911.com
+Agency name: Southwest Central Fire Territory Location: South Bend, IN 
+Sender: @c-msg.net
+
+Fr:<alerts@etieline.com>\nSu:\nTxt: 08:49PM 07/24/2012 Ic# 26 MEDIC020 Ds# 135001 Al# 1 Utl# 203-204 07/24/1262052 OAK RD SW :(23500) ROOSEVELT RDF STRUCK IN THE FACE WITH A HORSE 2050,014ME10 ,SWD2
+Fr:<alerts@etieline.com>\nSu:\nTxt: 07:51AM 07/25/2012 Ic# 3 MEDIC020 Ds# 135002 Al# 1 Utl# G-89 07/25/1255096 MOSS RD SW :(23115) EDISON RDM. FELL - STRUCK HIS HEAD 0751,0141660 ,ME12 ,SWD1
+Fr:<alerts@etieline.com>\nSu:\nTxt: 09:14AM 07/25/2012 Ic# 4 CRASH020 Ds# 135002 Al# 1 Utl# G-101 07/25/1256000 MAYFLOWER RD SW :(23500) FILMORE RDUNK 0914,014SWD1
+Fr:<alerts@etieline.com>\nSu:\nTxt: 06:00PM 07/25/2012 Ic# 17 MEDIC020 Ds# 135002 Al# 1 Utl# G-89 07/25/1255591 MELROSE AV SW :(23200) SIDNEY AVM ABD PX THROWING UP CHEST PX NUMBNESS L ARM 1800,006ME11 ,SWD1
+Fr:<alerts@etieline.com>\nSu:\nTxt: 08:41PM 07/25/2012 Ic# 21 MEDIC020 Ds# 135001 Al# 1 Utl# G-185 07/25/1262430 LOCUST RD SW :(21500) ROOSEVELT RDF UNRESPONSIVE 2040,006ME41 ,CLAME,SWD2
+Fr:<alerts@etieline.com>\nSu:\nTxt: 10:14PM 07/25/2012 Ic# 25 INVES020 Ds# 135002 Al# 1 Utl# G-101 07/25/1256227 OAK RD SW :(23900) FILMORE RDUNK TYPE FIRE ON BUTTERNUT BEHIND THIS ADDRESS 2214,014SWD1
+Fr:<alerts@etieline.com>\nSu:\nTxt: 12:54PM 07/26/2012 Ic# 9 MEDIC020 Ds# 135001 Al# 1 Utl# G-209 07/26/1224125 NEW RD SW :(63500) OAK RDM. SUGAR 27 1254,006ME11 ,1660 ,SWD2
+Fr:<alerts@etieline.com>\nSu:\nTxt: 02:20PM 07/26/2012 Ic# 15 INVES020 Ds# 135001 Al# 1 Utl# G-156 07/26/1219502 PULLING ST SW :(60700) FELLOW STBURNING SMELL IN THE BASEMENT, NO SMOKE OR FLAMES SEEN, SMOKEALARMS ARE NOW GOING OFF 1420,0065 PPL AND 2 K9S HAVE EVACUATE (01/02)
+Fr:<alerts@etieline.com>\nSu:\nTxt: 06:55PM 07/26/2012 Ic# 24 MEDIC020 Ds# 135001 Al# 1 Utl# G-156 07/26/1219778 YODER ST SW :(60500) CARROLL STF DIZZY, SWETY, DIABETIC HX 1854,010SWD2
+Fr:<alerts@etieline.com>\nSu:\nTxt: 05:41PM 07/27/2012 Ic# 29 MEDIC020 Ds# 135001 Al# 1 Utl# G-158 07/27/1260788 GREENRIDGE CT SW :(21758) CARRIAGE DRM.UNKNOWN MEDICAL 1741,006ME10 ,SWD2
+
+Fr:<alerts@etieline.com>\nSu:\nTxt: 09:15PM 07/24/2012 ->Inc Addr = 62052 OAK RDEquip = SWD2Create = 20 50 01Asgned = 20 50 34Eroute = 20 51 13Scene  = 20 57 42Transp =Arrive =Avail  = 21 16 14Rpt # = 12-20000621
+Fr:<alerts@etieline.com>\nSu:\nTxt: 08:12AM 07/25/2012 ->Inc Addr = 55096 MOSS RDEquip = SWD1Create =  7 51 32Asgned =  7 52 23Eroute =  7 53 28Scene  =  7 56 46Transp =Arrive =Avail  =  8 12 57Rpt # = 12-20000622
+Fr:<alerts@etieline.com>\nSu:\nTxt: 09:31AM 07/25/2012 ->Inc Addr = 56000 MAYFLOWER RDEquip = SWD1Create =  9 14 26Asgned =  9 14 52Eroute =  9 15 27Scene  =  9 16 02Transp =Arrive =Avail  =  9 31 49Rpt # = 12-20000623
+
+Contact: Active911
+Agency name: St. Joseph Co VEST Location: Southbend, IN 
+Sender: rc.439@c-msg.net
+(*CAD*) [CAD] [VEST] FIELD021 12 Ic# 11 FIELD021 Ds# 125001 Al# 1 Utl# 142-143 06/27/122 BYPASS HW PE <> ELM RDSOUTH SIDE OF ROAD - JUST E/O ELM 1147 TESTING 245 JUST TESTING DO NOT RESPOND
+(*CAD*) [CAD] [VEST] FIELD021 12 Ic# 11 FIELD021 Ds# 125001 Al# 1 Utl# 142-143 06/27/122 BYPASS HW PE <> ELM RDSOUTH SIDE OF ROAD - JUST E/O ELM 1147 TESTING 245 JUST TESTING DO NOT RESPOND
+(*CAD*) [CAD] [VEST] FIELD021 12 Ic# 11 FIELD021 Ds# 125001  Utl# 142-143 06/27/122 BYPASS HW PE <> ELM RDSOUTH SIDE OF ROAD - JUST E/O ELM 1147 TESTING 250 JUST TESTING DO NOT RESPOND
+(VEST) [VEST] INVES021 12 Ic# 20 INVES021 Ds# 125003 Al# 1 Utl# G-145 06/29/1211400 DRAGOON TR PE <> BASSWOOD RDFIELD FIRE FROM LINES DOWN - BETWEEN DRAGOON AND 12TH 1400
+(VEST) [VEST] ASSIS010 12 Ic# 51 ASSIS010 Ds# 132001 Al# 1 Utl# 06/29/12101 HARRISON ST LI <> JEFFERSON STVEST. LIVE LINE DOWN IN ROADWAY. 2224
+(VEST) [VEST] INVES002 12 Ic# 5 INVES002 Ds# 120001 Al# 1 Utl# 61-62 06/30/1253272 JUNIPER RD CL <> OAKMONT SOUTH DRTREE AND LINES DOWN AND THEIR LIVE 0616
+(VEST) [VEST] INVES021 12 Ic# 15 INVES021 Ds# 125003 Al# 1 Utl# G-117 06/30/1258211 ASH RD PE <> HARRISON RDTREE AND LINES DOWN 1327
+(VEST) [VEST] ASSIS004 12 Ic# 22 ASSIS004 Ds# 121002 Al# 1 Utl# 4-34 06/30/1213279 ADAMS RD HA <> CHERRY FARM TRVEST REQUESTED BY SJCPD FOR TREE IN THE ROADWAY 1754
+(VEST) [VEST] CRASH012 12 Ic# 28 CRASH012 Ds# 130001 Al# 1 Utl# G-115 07/04/121800 W LINCOLNWAY HW OS <> N PEONY AVHEAD ON CRASH 2244
+(VEST) [VEST] CRASH004 12 Ic# 37 CRASH004 Ds# 121001 Al# 1 Utl# G-2 07/04/1250585 SR 23 HW HA <> BIRCH RDROLLOVER NO ENTRAPMENT 2317
+
 */
 
 
 public class INStJosephCountyParser extends DispatchA6Parser {
+  
+  private static Pattern MID_SEQUENCE_PTN = Pattern.compile(" =Ic# ([^#]*?) Ds# ([^#]+?) Al# ([^#]+?) Utl# (?:(.*?) )?(\\d\\d/\\d\\d/\\d\\d)");
   
   // Pattern we use to try to find the missing space between the cross street and info
   private static Pattern CROSS_BREAK = Pattern.compile("\\)[ A-Z0-9]+ (?:(?:RD|HW)(?! )|(?:ST|AV|TR|DR)(?![AEIOU ]))");
@@ -106,11 +141,17 @@ public class INStJosephCountyParser extends DispatchA6Parser {
   
   @Override
   public String getFilter() {
-    return "@c-msg.net";
+    return "@c-msg.net,alerts@etieline.com";
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    // This is going to be interesting.  Different departments get radically differnt page formats, 
+    // but they all share the same sender space, and all have some features in common.  All of which
+    // makes me thing they are originating from the  same dispatch center with some interesting post
+    // genreation changes.  We will try to handle them all in one text parser
+    
     
     // Check for a run report pattern
     if (body.contains(" ->Inc Addr = ")) {

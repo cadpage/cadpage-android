@@ -96,10 +96,56 @@ public class MNAnokaCountyParserTest extends BaseParserTest {
         "CALL:51 - Fire (Building)",
         "ADDR:844 140 LN NW",
         "INFO:OVEN ON FIRE.. FLAME IS OUT AND STILL LOTS OF SMOKE SMOKE.. EVERYONE IS OUT OF THE HOMEINC:11017847");
-        
+         
+  }
+  
+  @Test
+  public void testKristoferMiller() {
+
+    doTest("T1",
+        "CAD MSG: *D B2   39F      11841 KENTUCKY AV N  FA...ZONE 12...NO ANSWER...TRANSFERRED TO HENN FOR PD INC:12014995",
+        "SRC:B2",
+        "CALL:39F - Alarm (Fire)",
+        "ADDR:11841 KENTUCKY AV N",
+        "MADDR:11841 KENTUCKY AVE N",
+        "INFO:FA...ZONE 12...NO ANSWER...TRANSFERRED TO HENN FOR PD",
+        "ID:12014995");
+
+    doTest("T2",
+        "CAD MSG: *D B1   45F      900 BOB EHLEN DR @FEDERAL PREMIUM AMMUNITION  BURN AT 1130 INC:12015105",
+        "SRC:B1",
+        "CALL:45F - Fire Drill",
+        "ADDR:900 BOB EHLEN DR",
+        "PLACE:FEDERAL PREMIUM AMMUNITION",
+        "INFO:BURN AT 1130",
+        "ID:12015105");
+
+    doTest("T3",
+        "CAD MSG: *D B1   32R      E MAIN ST / BRIDGE  SEEING A MALE SITTING ON THE BRIDGE/ ABT READY TO JUMP/ WHT MALE WEARING A WHT TSHIRT AND",
+        "SRC:B1",
+        "CALL:32R - Rescue",
+        "ADDR:E MAIN ST",
+        "INFO:SEEING A MALE SITTING ON THE BRIDGE/ ABT READY TO JUMP/ WHT MALE WEARING A WHT TSHIRT AND");
+
+    doTest("T4",
+        "CAD MSG: *D B1   51       1708 5 AV S  FIRE IN THE GARAGE...ATTACHED TO THE HOUSE... INC:12015275",
+        "SRC:B1",
+        "CALL:51 - Fire (Building)",
+        "ADDR:1708 5 AV S",
+        "MADDR:1708 5 AVE S",
+        "INFO:FIRE IN THE GARAGE...ATTACHED TO THE HOUSE...",
+        "ID:12015275");
+
+    doTest("T5",
+        "CAD MSG: *D B1   57       833 FREMONT ST  ON PARK STREET BEHIND LOCATION..VERY LARGE RECREATIONAL FIRE..UNK IF ATTENDED OR NOTINC:120152",
+        "SRC:B1",
+        "CALL:57 - Fire (Misc)",
+        "ADDR:833 FREMONT ST",
+        "INFO:ON PARK STREET BEHIND LOCATION..VERY LARGE RECREATIONAL FIRE..UNK IF ATTENDED OR NOTINC:120152");
+   
   }
   
   public static void main(String[] args) {
-    new MNAnokaCountyParserTest().generateTests("T10", "SRC CALL ADDR PLACE INFO ID");
+    new MNAnokaCountyParserTest().generateTests("T1", "SRC CALL ADDR PLACE INFO ID");
   }
 }
