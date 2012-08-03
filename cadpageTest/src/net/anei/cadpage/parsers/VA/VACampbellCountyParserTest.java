@@ -70,7 +70,7 @@ public class VACampbellCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void test() {
+  public void testMarkMoss() {
 
     doTest("T1",
         "MAILBOX:SQ01 HEADACHE 002243 BEDFORD HWY LYN CFS# 2012-018620\r",
@@ -114,8 +114,21 @@ public class VACampbellCountyParserTest extends BaseParserTest {
         "CITY:ALTAVISTA",
         "ADDR:1280 MAIN ST A",
         "ID:2012-018645");
- 
   }
+  
+  @Test
+  public void testDavidBishiop() {
+ 
+
+    doTest("T1",
+        "MAILBOX:SQ02 STROKE 001468 LYNBROOK RD RUS CFS# 2012-037665 45 YO FEMALE POSSIBLE STROKE LEFT SIDE PAIN IN SHOULDER AND BACK OF HEAD NUMBNESS Dispatcher:L267@08/0",
+        "SRC:SQ02",
+        "CALL:STROKE",
+        "ADDR:1468 LYNBROOK RD",
+        "CITY:RUSTBURG",
+        "ID:2012-037665",
+        "INFO:45 YO FEMALE POSSIBLE STROKE LEFT SIDE PAIN IN SHOULDER AND BACK OF HEAD NUMBNESS Dispatcher:L267@08/0");
+ }
   
   public static void main(String[] args) {
     new VACampbellCountyParserTest().generateTests("T1", "SRC CALL CITY ADDR ID INFO");
