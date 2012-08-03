@@ -120,10 +120,10 @@ vendor:     Assigned vendor code
             
 For regular message requests    
 Either content or contentURL must be specified, everything else is optional.    
-from - Sender address (default C2DM)
+sender - Sender address (default C2DM)
 subject - Message subject (optional)
 content - Actual message content
-content_url - URL from from which message content can be retrieved 
+content_url - URL from which message content can be retrieved 
              (use only if sending actual content exceeds the maximum size limit)
 format - Format/location parsing code (default, use user configured location code)
 vendor - Your vendor code.  Not required, but it does help us tag the message display

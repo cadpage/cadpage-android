@@ -176,7 +176,7 @@ public class C2DMReceiver extends BroadcastReceiver {
                                 long timestamp) {
     
     // Reconstruct message from data from intent fields
-    String from = intent.getStringExtra("from");
+    String from = intent.getStringExtra("sender");
     if (from == null) from = "GCM";
     String subject = intent.getStringExtra("subject");
     if (subject == null) subject = "";
