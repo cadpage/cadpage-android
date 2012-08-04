@@ -84,7 +84,8 @@ public class OHTrumbullCountyParser extends DispatchVisionAirParser {
   private static final Pattern MARKER = Pattern.compile(" : pos\\d : ");
   
   public OHTrumbullCountyParser() {
-    super("*", "UNK UNK UNIT", "TRUMBULL COUNTY", "OH");
+    super("*", "TRUMBULL COUNTY", "OH", 
+           "ADDR APT CH CITY EMPTY+? CALL! UNK UNK UNIT UNK+? EXTRA! INFO+");
   }
   
   @Override

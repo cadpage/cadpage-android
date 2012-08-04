@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 /*
 Handles parsing for a vendor identified as VisionCAD
 
-Camden County, GA
+Camden County, GA (version 1)
 astudstill@co.camden.ga.us:2011-101695* HIGHWAY 17 STEFFANS* * * KINGSLAND* * Traffic Stop* TRAFFIC STOP* * * 1128,1140,1150,1152,509,514,523,532,LS3,R3* * Med
 astudstill@co.camden.ga.us:2011-104696* 4059 MARTIN LUTHER KING BLVD* N4* * 514,541,546,ENG4,LS4,MED4 KINGSLAND* * INJURY* INJURY* 509,ENG5,LS3* * Medical: No
 astudstill@co.camden.ga.us:2011-101995* 405 & HIGHWAY 40 OLD WAFFLE HOUSE* * * KINGSLAND* * ACCIDENT* ACCIDENT* ELAINE* 386-208-4465* 514,541,546,ENG4,LS4,MED4
@@ -18,13 +18,13 @@ astudstill@co.camden.ga.us:2011-104843* 429 EAGLE BLVD* * * KINGSLAND* * PERSON 
 astudstill@co.camden.ga.us:2011-181161* ADVANCE COLLISION CENTER* * * KINGSLAND* * WIRE DOWN* WIRE DOWN* JOHN* 316-258-1559* ENG4,LS4* * Medical: No* Haz
 astudstill@co.camden.ga.us:2012-037466* BOONE AND SUMMERBROOK* * * KINGSLAND* * INVESTIGATE* INVESTIGATE SUSPICIOUS PERSON/VEHICLE* JUAN RODRIGUEZ* 912-8
 
-Northampton County, NC
+Northampton County, NC (version 1)
 S: M:Northampton911:* URIAH MARTIN RD // NEAR CEMETERY* * * CONWAY* * FIRE - BRUSH* * * * EMS3,FS20* * Medical: No* Hazards: No* * 
 S: M:Northampton911:* BOAT LANDING* * * WELDON* * MISSING PERS* * * * EMS8,FS20* * Medical: No* Hazards: No* * 
 S: M:Northampton911:* 907 HORNE RD* * * PENDLETON* * FIRE - SMOKE* * * * EMS3,FS18,FS20* * Medical: No* Hazards: No* * 
 S: M:Northampton911:* 203 WHITE ST* * * CONWAY* * ODOR OF GAS* * * * FS20* * Medical: No* Hazards: No* * 
 
-Halifax County, NC
+Halifax County, NC (version 0)
 HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* JACKSON ST // 7TH ST* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * C181,C182,FI14* * * * *
 HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* HWY 158 // AVE* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * EMS4,EMS6,FI14* * * * *
 HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 1403 EAST 10TH ST* * * ROANOKE RAPIDS* * * * * FIRE-ELEC* * * * FI14* * * * *
@@ -32,7 +32,7 @@ HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* PILAND ST* * * ROANOKE RAPID
 HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* SUBWAY // JULLIAN R ALLSBROOK* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * FI14* * * * *
 HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 93 ROANOKE AVE* * * ROANOKE RAPIDS* * * * * FIRE-SMOKE* * * * FI14* * * * *
 
-Pender County, NC
+Pender County, NC (version 0)
 911-:=12-010417* OLD MAPLE HILL RD N // NC HWY 50* * * * * * * * * 29-TRAFFIC/TRANSPORTATION ACCIDENTS* * * FD13* * * * *
 911-:=12-012441* OLD MAPLE HILL RD N // NC HWY 50* * * * * * * * * BRUSH/FOREST FIRE (RP 1-4)* * * FD13* * * * *
 911-:=12-012596* HOLLINGSWORTH DR // NC HWY 50* * * * * * * * * 29-TRAFFIC/TRANSPORTATION ACCIDENTS* * * FD13* * * * *
@@ -40,7 +40,7 @@ Pender County, NC
 911-:=12-009752* 5471 NC HWY 50* * * * * * * * * 29-TRAFFIC/TRANSPORTATION ACCIDENTS* * * FD13* * * * *
 911-:=12-009855* 14976 NC HWY 53 EAST* * * * * * * * * ASSIST EMS* * * FD13,FD15* * * * *
 
-Sampson County, NC
+Sampson County, NC (version 0)
 EMS:2012-013061* 2280 HOBBTON HWY* * * CLINTON* WEDGEWOOD LN* BUMPY LN* K12* * ABDOMINAL* ABDOMINAL PAIN* CSRS,EMS79* 1328A* Medical: No* Hazards:  
 EMS:2012-013062* 219 W CARTER ST* * * CLINTON* BARDEN ST* BUNTING ST* L11* * BREATH DIFF* BREATHING DIFFICULTIES* CSRS,EMS75* 1379* Medical: No* Hazards: No* 02/2
 EMS:2012-013047* I40 MM 343* * * NEWTON GROVE* MCLAMB RD UNDERPASS* EXIT 343 HOBBTON HWY* D11* * MVA I* MOTOR VEHICLE ACCIDENT WITH INJURIES* EMS79* 1263* Medical
@@ -61,7 +61,7 @@ EMS:2012-012826* 939 SOUTHWEST BLVD* * TAC3* CLINTON* MARTIN LUTH KING BLV* * L1
 EMS:2012-012816* 301 MAIN ST* * * NEWTON GROVE* E CIRCLE ST* N CHURCH ST* C11* Landmark Comment: UPDATED 2-02* BREATH DIFF* BREATHING DIFFICULTIES* EMS71,EMS72,NG
 EMS:2012-017694* 79 ROMAY MCKOY LN* * * ROSE HILL* BILL TOWN RD* LOOPS BACK TO ITSELF* S14* Geo Comment: *24* ABDOMINAL* ABDOMINAL PAIN* EMS77* 1352A* Medical: No
 
-Butler County, OH
+Butler County, OH (version 0)
 BCSO:12-026842* 7897 JESSIES WY* * * * MORRIS RD* TYLERSVILLE RD* * NBH: JESSIE`S LANDING CONDOS* MEDICAL* LIFE SQUAD REQUEST* * * FFTLS* * Line16=Medical: No* Line17=Hazards: No* Line18=05/18/2012 21:06:12 : pos1 : RLONEILL Cross streets: MORRIS RD//TYLERSVILLE RD NBH: JESSIE`S LANDING CONDOS 80 YO MALE URINATING BLOOD*
 BCSO:12-026840* 4090 MILLIKIN RD* * * * FAIRCREST* LIBERTY FAIRFIELD RD* * * MEDICAL* LIFE SQUAD REQUEST* * * FFTLS* * Line16=Medical: No* Line17=Hazards: No* Line18=05/18/2012 20:47:29 : pos4 : dkrednour Cross streets: FAIRCREST//LIBERTY FAIRFIELD RD 41 YOM,. DIABETIC UNRESPONSIVE*
 BCSO:12-026808* 6926 CHESTNUT OAK CT* * * * * JOCELYN DR* * NBH: ASHWOOD SUBD* MEDICAL* LIFE SQUAD REQUEST* WOLFER, NORBERT* * * * Line16=Medical: No* Line17=Hazards: No* Line18=05/18/2012 17:39:09 : pos5 : PDFRYER REQUESTING SILENT APPROACH 05/18/2012 17:38:51 : pos5 : PDFRYER Cross streets: //JOCELYN DR NBH: ASHWOOD SUBD 90 YO FEMALE RUNNING FEVER, UNABLE TO WALK - DIABETIC*
@@ -85,8 +85,6 @@ public class DispatchA3Parser extends FieldProgramParser {
              "ID? ADDR/SXP APT CH CITY! X X MAP INFO1 CALL INFO ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
            : version == 1 ?
                "ID? ADDR/SXP APT CH CITY! INFO CALL INFO ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
-           : version == 2 ?
-               "ID? ADDR/SXP APT CH CITY! INFO CALL INFO NAME PHONE UNIT INFO+"
            : null);
     this.prefix = prefix;
   }
@@ -200,23 +198,12 @@ public class DispatchA3Parser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern UNIT_PTN = Pattern.compile("^[^ ]*,[^ ]* ");
-  private class BaseCityField extends CityField {
-    @Override
-    public void parse(String field, Data data) {
-      Matcher match = UNIT_PTN.matcher(field);
-      if (match.find()) field = field.substring(match.end()).trim();
-      super.parse(field, data);
-    }
-  }
-  
   
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new IdField("\\d{2,4}-\\d{6}", true);
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("CH")) return new BaseChannelField();
-    if (name.equals("CITY")) return new BaseCityField();
     if (name.equals("INFO1")) return new BaseInfo1Field();
     if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("NAME")) return new BaseNameField();

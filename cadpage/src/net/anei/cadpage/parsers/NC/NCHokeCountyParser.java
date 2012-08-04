@@ -25,7 +25,8 @@ Hoke Co 911:100 WAYSIDE RD* * * * * **AC/PI* * * * * * * * 04/25/2012 18:18:57 :
 public class NCHokeCountyParser extends DispatchVisionAirParser {
   
   public NCHokeCountyParser() {
-    super("Hoke Co 911:", "HOKE COUNTY", "NC");
+    super("Hoke Co 911:", "HOKE COUNTY", "NC", 
+           "ADDR APT CH CITY EMPTY+? CALL! UNK+? EXTRA! INFO+");
   }
   
   @Override

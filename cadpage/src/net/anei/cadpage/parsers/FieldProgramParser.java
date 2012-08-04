@@ -2253,6 +2253,22 @@ public class FieldProgramParser extends SmartAddressParser {
   }
   
   /**
+   * Empty field processor
+   * Field which must be empty
+   */
+  private class EmptyField extends SkipField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return field.length() == 0;
+    }
+  }
+  
+  /**
    * End field processor
    * Does no field processing but can be tested.  Succeeds only if it working
    * on a data a field beyond the limits of the field array
@@ -2297,6 +2313,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("ID")) return new IdField();
     if (name.equals("PHONE")) return new PhoneField();
     if (name.equals("INFO")) return new InfoField();
+    if (name.equals("UNK")) return new InfoField();    // For unknown fields never known to be non-empty
     if (name.equals("SRC")) return new SourceField();
     if (name.equals("CODE")) return new CodeField();
     if (name.equals("NAME")) return new NameField();
@@ -2311,6 +2328,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("URL")) return new InfoUrlField();
     if (name.equals("SKIP")) return new SkipField();
     if (name.equals("INTLS")) return new InitialsField();
+    if (name.equals("EMPTY")) return new EmptyField();
     if (name.equals("END")) return new EndField();
     
     // TODO Add and END field processor that does nothing but can test for

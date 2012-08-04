@@ -100,22 +100,12 @@ public class DispatchVisionAirParser extends FieldProgramParser {
   
   private String[] prefixs;
   
-  public DispatchVisionAirParser(String prefix, String defCity, String defState) {
-    this(new String[]{prefix}, null, defCity, defState);
+  public DispatchVisionAirParser(String prefix, String defCity, String defState, String program) {
+    this(new String[]{prefix}, defCity, defState, program);
   }
   
-  public DispatchVisionAirParser(String prefix, String varFields, String defCity, String defState) {
-    this(new String[]{prefix}, varFields, defCity, defState);
-  }
-  
-  public DispatchVisionAirParser(String[] prefixs, String defCity, String defState) {
-    this(prefixs, null, defCity, defState);
-    this.prefixs = prefixs;
-  }
-  
-  public DispatchVisionAirParser(String[] prefixs, String varFields, String defCity, String defState) {
-    super(defCity, defState,
-           "ADDR APT UNK CITY SKIP+? CALL! " + (varFields != null ? varFields + " " : "") + "UNK+? EXTRA! INFO+");
+  public DispatchVisionAirParser(String[] prefixs, String defCity, String defState, String program) {
+    super(defCity, defState, program);
     this.prefixs = prefixs;
   }
   
@@ -147,16 +137,9 @@ public class DispatchVisionAirParser extends FieldProgramParser {
   private static final Pattern START_STAR_PTN = Pattern.compile("^\\*+");
   private class BaseCallField extends CallField {
     @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      if (field.length() == 0) return false;
+    public void parse(String field, Data data) {
       field = START_STAR_PTN.matcher(field).replaceFirst("");
       super.parse(field, data);
-      return true;
     }
   }
 
@@ -232,19 +215,11 @@ public class DispatchVisionAirParser extends FieldProgramParser {
     }
   }
   
-  private class UnknownField extends Field {
-    @Override
-    public void parse(String field, Data data) {
-      data.strSupp = field;
-    }
-  }
-  
   @Override
   protected Field getField(String name) {
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("EXTRA")) return new BaseExtraField();
-    if (name.equals("UNK")) return new UnknownField();
     return super.getField(name);
   }
   
