@@ -1,13 +1,10 @@
 package net.anei.cadpage.parsers.CO;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /* 
-Cecil County, MD
+Jefferson County, CO
 Contact: CodeMessaging
 Sender: @c-msg.net
 
@@ -23,7 +20,6 @@ Sender: @c-msg.net
 [WRCAD] Add:7777 W 29th Ave Type: PSYCH PgH-18 Units:WR1,WM1Radio:TAC2 Case#:0704201205966-001341
 [WRCAD] Add:4407 Teller St Type: CPRA PgG-18 Units:WR1,WM1Radio:TAC2 Case#:0630201205966-001302
 
-
 */
 
 public class COJeffersonCountyParser extends FieldProgramParser {
@@ -31,7 +27,7 @@ public class COJeffersonCountyParser extends FieldProgramParser {
 
   public COJeffersonCountyParser() {
     super("Jefferson County", "CO",
-        "Add:ADDR! Type:CALL! Units:UNIT Case#:ID");
+        "Add:ADDR! Type:CALL! Pg:MAP! Units:UNIT! Radio:CH! Case#:ID!");
   }
 
   @Override
@@ -41,34 +37,11 @@ public class COJeffersonCountyParser extends FieldProgramParser {
   }
   @Override 
   public boolean parseMsg(String subject, String body, Data data) {
-    body = body.replace("Radio:", " Radio:");  
-    if (!subject.startsWith("WRCAD")) return false; 
-    return true;
+    if (!subject.equals("WRCAD")) return false; 
+    body = body.replace("Radio:", " Radio:").replace(" Pg", " Pg:");
+    return super.parseMsg(body, data);
   }  
-  private static final Pattern UNIT = Pattern.compile("([A-Z0-9]+) (Radio:[A-z]d/)");
-  private class MyUnitField extends UnitField {
-    @Override
-    public void parse(String field, Data data) {
-      Matcher match = UNIT.matcher(field);
-      if (match.find()) {
-        data.strUnit = match.group(1);
-        data.strChannel = match.group(2);
-        field = field.substring(0,match.start());
-      }
-      super.parse(field, data);
-    }
-  
-    @Override
-    public String getFieldNames() {
-      return "UNIT CH";
-    }
-  }
-  @Override
-  public Field getField(String name) {
-    if (name.equals("UNIT")) return new MyUnitField();
-    return super.getField(name);
-  }
-  }
+}
   
 
 

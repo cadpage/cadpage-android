@@ -1142,6 +1142,11 @@ Garfield County, CO (COGarfieldCountyParser)
 (CAD Page) FSmoke Check Location  15000 CORD 313 Z2 2012 00000388     
 (CAD Page) Code Location  CHAIR BAR RD CORD 331 Z2 2012 00000389     
 ***************************************************************************
+Jefferson County, CO (COJeffersonCountyParser)
+[WRCAD] Add:3745 Quail St Type: UNKM PgH-16 Units:WR1,WM4Radio:TAC2 Case#:0708201205966-001385
+[WRCAD] Add:2650 Harlan St Type: UNKM PgH-19 Units:WR1,WM1Radio:TAC2 Case#:0714201205966-001431
+[WRCAD] Add:4345 Everett St Type: FALL PgG-17 Units:WM1,WR1Radio:TAC2 Case#:0627201205966-001283
+***************************************************************************
 Larimer County, CO (COLarimerCountyParser)
 (BFPD) (CFS) Power Lines Down/Arcing        // E County Road 4 & Weld County // Apt/Lot            // Radio:MAC 5 NE                       //
 (BFPD) (CFS) MVA Unk Injury                 // 248790 Interstate 25 Sb // Apt/Lot            // Radio:TALK GP3                       // MM 249 SB I25
