@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.NC;
 
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchVisionAirParser;
 
 /*
 Davie County, NC
@@ -49,16 +49,17 @@ Contact: support@active911.com
 [] 911:Call #120731-9241* Address:2229 NC HWY 801 S* * * City:ADVANCE* * Type:FA* FIRE ALARM* KANDICE BOGER* PH#:336-940-6957* Units:12* IRA:* Medical: No* Hazards: No* NARR:07/31/2012 19:49:01 : pos1 : MCROWE Cross streets: SAM COPE RD//DEER HOLLOW LN*\r\n\n
 [] 911:Call #120802-9449* Address:645 NC HWY 801 S* * * City:ADVANCE* * Type:50PI* ACCIDENT/INJURY* REYNOLDS WAYNE* PH#:336-998-2845* Units:12* IRA:* Medical: No* Hazards: No* NARR:08/02/2012 09:07:33 : pos2 : STHOMPKINS Cross streets: BOWDEN RD//UNDERPASS RD 08/02/2012 09:07:04 : pos2 : STHOMPKINS 3 cars*\r\n\n
 [] 911:Call #120802-9475* Address:142 NC HWY 801 N* * * City:ADVANCE* * Type:SF* STRUCTURE FIRE* BARRY* PH#:336-817-2358* Units:12,24* IRA:* Medical: No* Hazards: No* NARR:08/02/2012 11:40:07 : pos4 : ABURTON Cross streets: US HWY 158//I40 EB 08/02/2012 11:39:55 : pos4 : ABURTON Cross streets: PEACHTREE LN//CARTER RD Cross streets: US HWY 158//DEADEND NBH: OFF 4900 BLOCK US HWY 158 GEN AND BUILDING*\r\n\n
+
  */
 
 
-public class NCDavieCountyParser extends FieldProgramParser {
+public class NCDavieCountyParser extends DispatchVisionAirParser {
   
   private static final Pattern DELIM = Pattern.compile("\\*(?: \\*)*"); 
   
   public NCDavieCountyParser() {
-    super("DAVIE COUNTY", "NC",
-           "ID Address:ADDR! City:CITY! Geo_Comment:INFO2? NBH:INFO3 Type:CALL CALL NAME PH:PHONE Units:UNIT IRA:SKIP INFO+ Geo_Comment:INFO2");
+    super("911:Call #", "DAVIE COUNTY", "NC",
+           "ID Address:ADDR! City:CITY! INFO+ Type:CALL CALL NAME PH#:PHONE Units:UNIT IRA:SKIP? INFO+ NARR:EXTRA INFO+");
   }
 
   @Override
@@ -66,7 +67,6 @@ public class NCDavieCountyParser extends FieldProgramParser {
     int ipt = body.indexOf("911:Call #");
     if (ipt < 0) return false;
     body = body.substring(ipt+10).trim();
-    body = body.replace("PH#:", "PH:");
     return parseFields(DELIM.split(body), data);
   }
   
