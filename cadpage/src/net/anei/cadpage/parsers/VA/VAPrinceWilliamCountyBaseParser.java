@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.VA;
 
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -25,6 +26,12 @@ abstract class VAPrinceWilliamCountyBaseParser extends FieldProgramParser {
   public String getFilter() {
     return "cc_message_notification@usamobility.net,@rsan.pwcgov.org";
   }
+  
+  @Override
+  public String adjustMapAddress(String sAddress) {
+    return TN_PTN.matcher(sAddress).replaceAll("TURN");
+  }
+  private static final Pattern TN_PTN = Pattern.compile("\\bTN\\b", Pattern.CASE_INSENSITIVE);
   
   private class BaseCodeField extends CodeField {
     @Override
