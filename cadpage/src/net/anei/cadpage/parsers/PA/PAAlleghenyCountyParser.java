@@ -83,20 +83,18 @@ public class PAAlleghenyCountyParser extends MsgParser {
       data.expectMore = false;
       body = body.substring(0, pt).trim();
     }
-    pt = body.indexOf(" TXT STOP");
-    if (pt >= 0) {
-      data.expectMore = false;
-      body = body.substring(0, pt).trim();
-    }
     
     // Split body into comma separated fields
     String[] flds = body.split(" *, *");
     int fldCnt = flds.length;
     if (fldCnt < 6) return false;
     
-    // Fields 0 & 2 make up the call, field 1 is call priority
-    data.strCall = flds[0] + " - " + flds[2];
+    // Fields 0 is code
+    // Field 1 is priority
+    // Field 2 is call description
+    data.strCode = flds[0];
     data.strPriority = flds[1];
+    data.strCall = flds[2];
     
     // Field 3 is up for grabs
     // Field 4 should be a 3 character town code
