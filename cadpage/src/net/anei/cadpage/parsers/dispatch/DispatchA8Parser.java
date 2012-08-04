@@ -95,7 +95,7 @@ public class DispatchA8Parser extends FieldProgramParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("DISPATCH")) return new SkipField("Dispatch", true);
-    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d(?::\\d\\d)?");
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d(?::\\d\\d)?|", true);
     if (name.equals("PLACE")) return new BasePlaceField();
     return super.getField(name);
   }
