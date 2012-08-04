@@ -2522,9 +2522,9 @@ SICK PERSON | 223, ROYAL OAKS DR;MARYVILLE (MEDINAH CIR / MEDINAH CIR) | 73 YR F
 MEDICAL ALARM | 247, ROYAL OAKS DR;MARYVILLE (MEDINAH CIR / WINGED FOOT DR) | MURRAY RES | 2012-06-25 06:40:47 |
 *******************************************************************************
 Cumberland County, TN (TNCumberlandCountyParser)
-911-CENTER:1046 INJURY ACCIDENT LANTANA AT STORIE 7656250985 COUNTY
-911-CENTER:1072A FIRE ALARM 912 GERONIMO LN 9317470058 COUNTY WIDE
-911-CENTER:1072B FIRE, BRUSH/WOODS 18 JASPER DR 931 COUNTY WIDE
+(E911) FIRE ALARM/10-72A\r\n115 HUNTINGTON DR\r\nKEY PAD ALARM
+(E911) FIRE ALARM/10-72A\r\nSTONEHENGE DR\r\nGENERAL/COMMERCIAL BUILDING SYSTEMS/800-877-3624
+(E911) MVA-INJ/10-46\r\nPEAVINE RD BY ACE HARDWARE\r\nJUV COMPLAINING OF CHEST PAINS , 2 VEHS
 *******************************************************************************
 Hamilton County, TN (TNHamiltonCountyParser)
 RT:ACC1HW-HWY ACCIDENT WITH INJURIES  Loc:INTERSTATE 75 S, HAMILTON COUNTY (BRADLEY COUNTY/MILE MARKER 13.2)  #[1320-1560]
@@ -4768,12 +4768,6 @@ Please respond to 15796 Hwy M, Rayville, MO\nmale subj. is 10-55 and suicidal\nc
 **********************************************************
 **********************************************************
 **********************************************************
-Cumberland County, TN (replace)
-Contact: Jeremy <fyrboy55@gmail.com>
-Sender: dispatch@911email.net
-(E911) FIRE ALARM/10-72A\r\n115 HUNTINGTON DR\r\nKEY PAD ALARM
-(E911) FIRE ALARM/10-72A\r\nSTONEHENGE DR\r\nGENERAL/COMMERCIAL BUILDING SYSTEMS/800-877-3624
-(E911) MVA-INJ/10-46\r\nPEAVINE RD BY ACE HARDWARE\r\nJUV COMPLAINING OF CHEST PAINS , 2 VEHS
 **********************************************************
 Lawrence County, OH
 Contact: Law Co 911 Alert <alert@lawco911.org>
