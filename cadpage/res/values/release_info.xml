@@ -1,41 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07272012</string>
-  <string name="release_version">v1.5.48</string>
+  <string name="release_date">08032012</string>
+  <string name="release_version">v1.5.49</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 New Locations:\n
-Standard Format A\n
-Boyd County, KY\n
+San Joaquin County, CA\n
+Jefferson County, CO\n
+Madison, CT\n
 Cecil County, MD (alt)\n
-Nassau County, NY (alt)\n
-Suffolk County, NY (alt)\n
-Harnett County, NC (alt)\n
-Onslow County, NC\n
-Monroe County, PA\n
-Fauquier County, VA\n
-Natrona County, WY\n
+Charlevoix County, MI\n
+Cheboygan County, MI\n
+Emmet County, MI\n
+Trumbell County, OH\n
+Seminole County, OK\n
+Orange County, NY (alt)\n
+Cleveland County, NC\n
 \n
 Location Parsing Fixes:\n
-El Dorado County, CA\n
-Lake County, CA\n
-Montgomery County, MD\n
-Genesee County, NY\n
-Nassau County, NY\n
-Putnam County, NY\n
+Colbert County, AL\n
+Maricopa County, AZ\n
+Lake COunty, CA\n
+Northglenn EMS, CO\n
+Weld County, CO\n
+Rock Island County, IL\n
+St Joseph County, IN\n
+Greene County, MO\n
 Suffolk County, NY\n
-Cabarrus County, NC\n
-Harris County ESD#1, TX\n
-Halifax County, VA\n
-Jefferson County, VA\n
-Prince George County, VA\n
-Lexington Rockbridge County, VA\n
-Renamed Wayne County, NJ to Wayne Township, NJ\n
+Union County, NC\n
+Englewood, OH\n
+Allegheny County, PA\n
+Butler County, PA\n
+Erie County, PA\n
+Cumberland County, TN\n
+Campbell County, VA\n
+Prince William County, VA\n
+Roanoke County, VA\n
+Clark County, WA\n
 \n
 General Fixes:\n
-United Street name treeted as Unit: ED\n
+All default sender address filters looking for numbers starting with 7771 changed to 777\n
+Direct Paging reconnect will completely reset connection\n
   </string>  
 </resources>
   
