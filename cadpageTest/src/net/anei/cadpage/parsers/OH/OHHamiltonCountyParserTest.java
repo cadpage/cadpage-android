@@ -372,6 +372,17 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "UNIT:HFE72 HFFG2",
         "X:650 STATE RT 131 & 762 HWY 50");
 
+    doTest("T4",
+        "HC:FIRE ALARM 600 CHAMBER DR MILF HOMEWOOD SUITES OHIO ALARM ** FIRE ALARM ** Original Location : HOMEWOOD SUITES 11:45 HFE71 HFFG3 XST: BEECHWOOD RD",
+        "ADDR:600 CHAMBER DR",
+        "CITY:MILFORD",
+        "PLACE:HOMEWOOD SUITES OHIO ALARM",
+        "CALL:FIRE ALARM",
+        "INFO:Original Location : HOMEWOOD SUITES",
+        "TIME:11:45",
+        "UNIT:HFE71 HFFG3",
+        "X:BEECHWOOD RD");
+
   }
   
   public static void main(String[] args) {
