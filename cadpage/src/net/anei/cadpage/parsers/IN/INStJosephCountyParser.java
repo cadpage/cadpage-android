@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.IN;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -95,6 +97,10 @@ Contact: support@active911.com
 Agency name: Southwest Central Fire Territory Location: South Bend, IN 
 Sender: @c-msg.net
 
+Fr:<alerts@etieline.com>\nSu:\nTxt: 09:15PM 07/24/2012 ->Inc Addr = 62052 OAK RDEquip = SWD2Create = 20 50 01Asgned = 20 50 34Eroute = 20 51 13Scene  = 20 57 42Transp =Arrive =Avail  = 21 16 14Rpt # = 12-20000621
+Fr:<alerts@etieline.com>\nSu:\nTxt: 08:12AM 07/25/2012 ->Inc Addr = 55096 MOSS RDEquip = SWD1Create =  7 51 32Asgned =  7 52 23Eroute =  7 53 28Scene  =  7 56 46Transp =Arrive =Avail  =  8 12 57Rpt # = 12-20000622
+Fr:<alerts@etieline.com>\nSu:\nTxt: 09:31AM 07/25/2012 ->Inc Addr = 56000 MAYFLOWER RDEquip = SWD1Create =  9 14 26Asgned =  9 14 52Eroute =  9 15 27Scene  =  9 16 02Transp =Arrive =Avail  =  9 31 49Rpt # = 12-20000623
+
 Fr:<alerts@etieline.com>\nSu:\nTxt: 08:49PM 07/24/2012 Ic# 26 MEDIC020 Ds# 135001 Al# 1 Utl# 203-204 07/24/1262052 OAK RD SW :(23500) ROOSEVELT RDF STRUCK IN THE FACE WITH A HORSE 2050,014ME10 ,SWD2
 Fr:<alerts@etieline.com>\nSu:\nTxt: 07:51AM 07/25/2012 Ic# 3 MEDIC020 Ds# 135002 Al# 1 Utl# G-89 07/25/1255096 MOSS RD SW :(23115) EDISON RDM. FELL - STRUCK HIS HEAD 0751,0141660 ,ME12 ,SWD1
 Fr:<alerts@etieline.com>\nSu:\nTxt: 09:14AM 07/25/2012 Ic# 4 CRASH020 Ds# 135002 Al# 1 Utl# G-101 07/25/1256000 MAYFLOWER RD SW :(23500) FILMORE RDUNK 0914,014SWD1
@@ -105,10 +111,6 @@ Fr:<alerts@etieline.com>\nSu:\nTxt: 12:54PM 07/26/2012 Ic# 9 MEDIC020 Ds# 135001
 Fr:<alerts@etieline.com>\nSu:\nTxt: 02:20PM 07/26/2012 Ic# 15 INVES020 Ds# 135001 Al# 1 Utl# G-156 07/26/1219502 PULLING ST SW :(60700) FELLOW STBURNING SMELL IN THE BASEMENT, NO SMOKE OR FLAMES SEEN, SMOKEALARMS ARE NOW GOING OFF 1420,0065 PPL AND 2 K9S HAVE EVACUATE (01/02)
 Fr:<alerts@etieline.com>\nSu:\nTxt: 06:55PM 07/26/2012 Ic# 24 MEDIC020 Ds# 135001 Al# 1 Utl# G-156 07/26/1219778 YODER ST SW :(60500) CARROLL STF DIZZY, SWETY, DIABETIC HX 1854,010SWD2
 Fr:<alerts@etieline.com>\nSu:\nTxt: 05:41PM 07/27/2012 Ic# 29 MEDIC020 Ds# 135001 Al# 1 Utl# G-158 07/27/1260788 GREENRIDGE CT SW :(21758) CARRIAGE DRM.UNKNOWN MEDICAL 1741,006ME10 ,SWD2
-
-Fr:<alerts@etieline.com>\nSu:\nTxt: 09:15PM 07/24/2012 ->Inc Addr = 62052 OAK RDEquip = SWD2Create = 20 50 01Asgned = 20 50 34Eroute = 20 51 13Scene  = 20 57 42Transp =Arrive =Avail  = 21 16 14Rpt # = 12-20000621
-Fr:<alerts@etieline.com>\nSu:\nTxt: 08:12AM 07/25/2012 ->Inc Addr = 55096 MOSS RDEquip = SWD1Create =  7 51 32Asgned =  7 52 23Eroute =  7 53 28Scene  =  7 56 46Transp =Arrive =Avail  =  8 12 57Rpt # = 12-20000622
-Fr:<alerts@etieline.com>\nSu:\nTxt: 09:31AM 07/25/2012 ->Inc Addr = 56000 MAYFLOWER RDEquip = SWD1Create =  9 14 26Asgned =  9 14 52Eroute =  9 15 27Scene  =  9 16 02Transp =Arrive =Avail  =  9 31 49Rpt # = 12-20000623
 
 Contact: Active911
 Agency name: St. Joseph Co VEST Location: Southbend, IN 
@@ -129,11 +131,11 @@ Sender: rc.439@c-msg.net
 
 public class INStJosephCountyParser extends DispatchA6Parser {
   
-  private static Pattern MID_SEQUENCE_PTN = Pattern.compile(" =Ic# ([^#]*?) Ds# ([^#]+?) Al# ([^#]+?) Utl# (?:(.*?) )?(\\d\\d/\\d\\d/\\d\\d)");
-  
   // Pattern we use to try to find the missing space between the cross street and info
-  private static Pattern CROSS_BREAK = Pattern.compile("\\)[ A-Z0-9]+ (?:(?:RD|HW)(?! )|(?:ST|AV|TR|DR)(?![AEIOU ]))");
-  private static Pattern UNIT_PTN = Pattern.compile(" +([A-Z]-\\d+)");
+  private static Pattern CROSS_BREAK = Pattern.compile("\\)[ A-Z0-9]+? (?:(?:RD|HW)(?! )|(?:ST|AV|TR|DR)(?![AEIOU ]))");
+  private static Pattern MAP_PTN = Pattern.compile(" +([A-Z]-\\d+|\\d{2,3}-\\d{2,3})");
+  private static Pattern LEAD_DATE_TIME = Pattern.compile("^(\\d\\d:\\d\\d[AP]M) (\\d\\d/\\d\\d/\\d{4}) ");
+  private static DateFormat TIME_FMT = new SimpleDateFormat("hh:mmaa");;
   
   public INStJosephCountyParser() {
     super(CITY_CODES, "ST JOSEPH COUNTY", "IN");
@@ -167,11 +169,18 @@ public class INStJosephCountyParser extends DispatchA6Parser {
       int pt = match.end();
       body = body.substring(0,pt) + " " + body.substring(pt);
     }
+    
+    match = LEAD_DATE_TIME.matcher(body);
+    if (match.find()) {
+      setTime(TIME_FMT, match.group(1), data);
+      data.strDate = match.group(2);
+      body = body.substring(match.end()).trim();
+    }
     if (! super.parseMsg(body, data)) return false;
     data.strAddress = data.strAddress.replace("*", "");
-    match = UNIT_PTN.matcher(data.strCall);
+    match = MAP_PTN.matcher(data.strCall);
     if (match.find()) {
-      data.strUnit = match.group(1);
+      data.strMap = match.group(1);
       data.strCall = data.strCall.substring(0,match.start());
     }
     return true;
@@ -183,6 +192,7 @@ public class INStJosephCountyParser extends DispatchA6Parser {
       "GE", "GERMAN TWP",
       "GR", "GREEN TWP",
       "HA", "HARRIS TWP",
+      "LI", "LIBERTY TWP",
       "MA", "MADISON TWP",
       "MI", "MISHAWAKA",
       "NC", "NEW CARLISLE",
@@ -192,6 +202,7 @@ public class INStJosephCountyParser extends DispatchA6Parser {
       "PO", "PORTAGE TWP",
       "SB", "SOUTH BEND",
       "SO", "SW CENTRAL",
+      "SW", "",
       "WA", "WARREN TWP",
 
   });
