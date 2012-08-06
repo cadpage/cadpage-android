@@ -41,9 +41,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchOSSIParser extends FieldProgramParser {
   
+  private static final Pattern LEAD_ID_PTN = Pattern.compile("^(\\d+):");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d/\\d\\d/\\d{2,4}) (\\d\\d:\\d\\d:\\d\\d)\\b");
   
   private boolean leadID = false;
+  private boolean optLeadId = false;
   private boolean dateTimeReq = false;
   
   // Pattern searching for a leading square bracket or semicolon
@@ -75,6 +77,10 @@ public class DispatchOSSIParser extends FieldProgramParser {
     if (program.startsWith("ID:")) {
       leadID = true;
       program = program.substring(3).trim();
+    } else if (program.startsWith("ID?:")) {
+      leadID = true;
+      optLeadId = true;
+      program = program.substring(4).trim();
     }
     if (program.endsWith(" DATETIME!")) {
       dateTimeReq = true;
@@ -95,11 +101,11 @@ public class DispatchOSSIParser extends FieldProgramParser {
     
     // If format has a leading ID, strip that off
     if (leadID) {
-      int pt = body.indexOf(':');
-      if (pt < 0) return false;
-      data.strCallId = body.substring(0,pt).trim();
-      if (!NUMERIC.matcher(data.strCallId).matches()) return false;
-      body = body.substring(pt+1).trim();
+      Matcher match = LEAD_ID_PTN.matcher(body);
+      if (match.find()) {
+        data.strCallId = match.group(1);
+        body = body.substring(match.end()).trim();
+      } else if (!optLeadId) return false;
     }
     
     // Body must start with 'CAD:'
