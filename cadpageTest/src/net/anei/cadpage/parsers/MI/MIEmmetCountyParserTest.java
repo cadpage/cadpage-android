@@ -125,7 +125,26 @@ public class MIEmmetCountyParserTest extends BaseParserTest {
         "INFO:FEMALE WITH CHEST PAIN    # PATS: 1   AGE: 49   SEX: Female   CONSCIOUS: Yes   BREATHING: Yes / <10><13><10>",
         "DATE:07/23/12",
         "TIME:09:15:45");
-   
+
+    doTest("T13",
+        "3106:CAD:FYI: ;FIRE;CHFD;611 MACKINAW AV;SMOKE POURING OUT OF BACK OF NEIGHBOR`S RES KIDDY CORNER FROM RP`S. RP LIVES ON MACKINAW AV & NEIGHBOR IS ON DRESSER. RP DOE",
+        "ID:3106",
+        "CALL:FIRE",
+        "SRC:CHFD",
+        "ADDR:611 MACKINAW AV",
+        "MADDR:611 MACKINAW AVE",
+        "INFO:SMOKE POURING OUT OF BACK OF NEIGHBOR`S RES KIDDY CORNER FROM RP`S. RP LIVES ON MACKINAW AV & NEIGHBOR IS ON DRESSER. RP DOE");
+
+    doTest("T14",
+        "3108:CAD:FYI: ;FIRE;BCFD;819 WILSON RD S;THERE IS A FIRE BEHIND HER WASHER & DRYER. [08/05/12 23:34:00 SBAVERY]",
+        "ID:3108",
+        "CALL:FIRE",
+        "SRC:BCFD",
+        "ADDR:819 WILSON RD S",
+        "INFO:THERE IS A FIRE BEHIND HER WASHER & DRYER.",
+        "DATE:08/05/12",
+        "TIME:23:34:00");
+  
   }
   
   public static void main(String[] args) {
