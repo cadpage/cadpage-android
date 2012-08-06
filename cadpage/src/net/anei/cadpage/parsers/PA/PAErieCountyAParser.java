@@ -4,7 +4,7 @@ package net.anei.cadpage.parsers.PA;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchBParser;
+import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 
 /*
@@ -71,10 +71,11 @@ FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:10D1 >CHEST PAIN - PA
 Contact: Matt Fuller <mfullererie@gmail.com>
 Sender: 777202844752
 .... (Kuhl Hose Fire) ERIE911:AUG 1 THROUGHT AUG 7 LAKE PLEASANT RD CLOSED IN ERIE CO & ARBUCKLE RD HRS 0730 & 1630 WEEKDAYS
+.... (Kuhl Hose Fire) ERIE911:ABD PN - FEM PAIN ABOVE NAV>45 2415 GUNNISON RD XS: KOSIOREK DR Cad: 2012-0000095124
 
 */
 
-public class PAErieCountyAParser extends DispatchBParser {
+public class PAErieCountyAParser extends DispatchB2Parser {
   
   private static final Pattern MARKER2 = Pattern.compile("^[0-9A-Z]+ ?>");
  
@@ -94,6 +95,7 @@ public class PAErieCountyAParser extends DispatchBParser {
     do {
       if (body.startsWith("ERIE911:")) {
         data.strSource = "ERIE911";
+        body = body.substring(8).trim();
         break;
       }
       
@@ -118,8 +120,8 @@ public class PAErieCountyAParser extends DispatchBParser {
       }
       
     }
-    if (!result && body.startsWith("ERIE911:")) {
-      data.parseGeneralAlert(body.substring(8).trim());
+    if (!result && data.strSource.equals("ERIE911")) {
+      data.parseGeneralAlert(body.trim());
       data.strSource = "ERIE911";
       result = true;
     }

@@ -268,6 +268,7 @@ public abstract class MsgParser {
   protected boolean isPageMsg(String body, String[] keywords) {
     int ipt = 0;
     for (String keyword : keywords) {
+      keyword = keyword + ":";
       ipt = body.indexOf(keyword, ipt);
       if (ipt < 0) return false;
       ipt += keyword.length();
