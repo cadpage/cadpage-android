@@ -10,6 +10,8 @@ Montgomery county, Pa
 public class PAMontgomeryCountyParser extends GroupBestParser {
   
   public PAMontgomeryCountyParser() {
-    super(new PAMontgomeryCountyAParser(), new PAMontgomeryCountyBParser());
+    super(new PAMontgomeryCountyAParser(), 
+           new PAMontgomeryCountyBParser(),
+           new PAMontgomeryCountyCParser());
   }
 }

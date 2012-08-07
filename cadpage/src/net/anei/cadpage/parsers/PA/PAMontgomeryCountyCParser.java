@@ -29,37 +29,38 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
   
   public PAMontgomeryCountyCParser() {
     super("Montgomery County", "PA",
-        "ADDR UNIT:UNIT?  Place:PLACE? XST:X NAT:CALL BOX:BOX");
+        "ADDR TRUCKS:UNITADDR?  Place:PLACE? XST:X! NAT:CALL! BOX:BOX!");
    }
+  
+  @Override 
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.startsWith("K")) return false;
+    body = body.replace(": @", " Place:").replace(",BOX", " BOX");
+    return super.parseMsg(body, data) && data.strAddress.length() > 0;
+  }
 
   @Override
   public String getFilter() {
     return "@c-msg.net";
   }
-  private class MyUnitField extends Field {
+  private class MyUnitAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       int pt = field.indexOf(' ');
       if (pt < 0) abort();
-      data.strAddress = field.substring(pt+1).trim();
       data.strUnit = field.substring(0,pt).trim();
+      super.parse(field.substring(pt+1).trim(), data);
     }
     
     @Override
     public String getFieldNames() {
-      return "UNIT ADDR";
+      return "UNIT " + super.getFieldNames();
     }
   }
-    @Override 
-    public boolean parseMsg(String subject, String body, Data data) {
-      if (!subject.startsWith("K")) return false;
-      body = body.replace(": @", " Place:").replace(",BOX", " BOX").replace("TRUCKS:", "UNIT:");
-      return super.parseMsg(body, data);
-    }
-
-@Override
-protected Field getField(String name) {
-  if (name.equals("UNIT")) return new MyUnitField();
-  return super.getField(name);
-}
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("UNITADDR")) return new MyUnitAddressField();
+    return super.getField(name);
+  }
 }
