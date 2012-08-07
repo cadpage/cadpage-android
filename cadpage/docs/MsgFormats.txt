@@ -4775,7 +4775,6 @@ Please respond to 15796 Hwy M, Rayville, MO\nmale subj. is 10-55 and suicidal\nc
 34686 w 206th elderly male difficulty breathing\r\ncross streets wilderness camp and coon branch road
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4860,6 +4859,39 @@ FIRE, 3595 US RT 322 ORWELL TWP, PARKER RD,ORWELL TWP//, LARGE BON FIRE IN A FIE
 INJURY CRASH, 862 US RT 322\2sW COLEBROOK TWP, FEE RD,COLEBROOK TWP//ST RT 46,COLEBROOK TWP, 1 VEHICLE MVA, DRIVER IS IN THE DITCH, UNRESPONSIVE, IS 
 FIRE, 7437 ST RT 45 ORWELL TWP, HAGUE RD,ORWELL TWP//NEW HUDSON RD,ORWELL TWP, SOMEONE BURNING TRASH SOUTH OF THIS LOCATION
 **********************************************************
+Calaveras County, CA
+Contact: "Allendorf, Ed" <Ed.Allendorf@fire.ca.gov>
+Sender: tcucad@FIRE.CA.GOV
+Subject: CAD Page
+
+Inc# 007259: MTC MARK TWAIN CONV HOSPITAL @ 900 MOUNTAIN RANCH RD #22 ,CALAVERAS_COUNTY :Map  467/19D_018: LAT/LONG X: -120
+                                           :Incident Type:Comment               :Resource Dispatched
+40.1947  Y: 38 11.4804: MEDICAL: 64 YO F POSS STROKE: D4494
+
+Inc# 007256: 5489 TONAPAH RD ,CALAVERAS_COUNTY :Map  2647/32A_001: LAT/LONG X: -120 22.6286  Y: 38 10.1916: MEDICAL: 77 YO F FV POSS FX
+             :Resources Dispatched
+ANKLE: 43 E4480 D4494
+
+Inc# 007104: NATURAL BRIDGES @ =L(38.051636,-120.470996) ,CALAVERAS_COUNTY :Map  509/37B_005: LAT/LONG X: -120 28.2597  Y: 38 3.09816:
+Incidnent type                      :Comment: Resources Dispatched
+MED, TRAFFIC COLLISION: MVA: 24 22 E4452
+
+Inc# 007077: 18455 OAK ST ,TUOLUMNE_CITY :Map  3249: LAT/LONG X: -120 14.3925  Y: 37 57.4074: FIRE, RESIDENTIAL:Smoke from structure :
+Resources Dispatched
+B4415 E4485 E4465 E761 73 81 53 72 56 B795 WT518 WT569 WT768 P701 DUTYCHF FIUXTO D4494
+
+Inc# 007072: FOOTHILL PEDIATRICS (ANGELS) @ 445 MAIN ST S ,ANGELS_CAMP :Map  508/30C_016: LAT/LONG X: -120 33.0980  Y: 38 4.67964:
+Incident Type: Comment                                                       : Resources Dispatched
+MEDICAL: 78 YO F SEIZURES SILENT APPROACH M-24: D4494 21 E4472
+
+Inc# 006809: 1262 PENNSYLVANIA GULCH RD / 1222 SKUNK RANCH RD ,MURPHYS :Map  2797/31A_024: LAT/LONG X: -120 26.1135  Y: 38 7.82106:
+Incident Type      :Coment: Resources Dispatched
+FIRE, WILDLAND:Veg Fire  : E4472 D4494 HCVL2 HCVL4
+
+Inc# 007059: COLUMBIA SKY MHP @ 10956 GREEN ST #247 ,COLUMBIA :Map  3097/38B_013: : LAT/LONG X: -120 24.3873  Y: 38 2.23038: MEDICAL:
+Comment                                           :Resource Dispatched
+50 YO DIABETIC UNRESPONSIVE: D4494
+**********************************************************
 **********************************************************
 **********************************************************
 Kent County, DE (alternate)
@@ -4899,57 +4931,4 @@ Contact: Active911
 **********************************************************
 **********************************************************
 **********************************************************
-Casper, WY (NATRONA COUNTY)
-Contact: Active911
-Agency name: PSCC Location: Casper, WY 
-Sender: <csphiplink@cityofcasperwy.com>
-  
-(Message From Hiplink) NCSO\nFire assist\n2515 DOANE LN; Paula Kraushaar residence\nNCSW\nC45\ncoming from hallway\nhas had two hits on it\ncould not contact resp
-(Message From Hiplink) NCSO\nFire assist\nCOUNTY LINE RD\nNCSE\nC42
-(Message From Hiplink) NCSO\nFire assist\n3408 APPLEGATE DR; comments\nNCSO\nC57\ne6 responded to field behind this address / area of of trappers route / they\nbelieve it's county / they found a lot of dump trailers with construction trash\nand are requesting a deputy
-(Message From Hiplink) NCSO\nHazardous Mat\n19100 INTERSTATE 25; MP 191;UNDERPASS\nNCSE\nC41\nOILY SUBSTANCE ON THE RD UNDER THE UNDERPASS / RP ALMOST CRASHED / 1/4 MILE LONG / UNKN WHAT IT IS AND IT IS VERY SLICK\nSTARTS AT THE OFF RAMP / UNDER THE UNDERPASS AND ALMOST TO
-(Message From Hiplink) NCSO\nFire assist\n23000 INTERSTATE 25; MP 230\nMWRD\nC56\n**tac 4**\n\nRP SAYS THE FIRE IS ABOUT 20 YARDS IN SIZE\nHE IS SEEING FLAMES\non the west side of the highway per rp\nON THE SOUTH BOUND SIDE OF THE ROAD\nRP IS NOT SEEING ANY STRUCTURES / THE ONL
-(Message From Hiplink) Respond to Herrington and Village for possible hostagesituation / first responders please pickup upruss and shane at the county shop
-(Message From Hiplink) NCSO\nExplosives\n1855 SOUTH LOOP AVE; Def Tech\nNCSW\nC33\nexplosives for disposal
-(Message From Hiplink) NCSO\nFire assist\nE ORMSBY RD; COMMENTS\nNCSN\nC16\ntac 5\n\nCALLBACK=(307)258-8361 LAT=42.849918 LON=-106.274765 UNC=25\nTAKE ORMSBY RD 10.5 MILES FROM I25 FOLLOWING THE FLAGGING\nTHE FIRE IS ABOUT 1/4 ACRE BUT HE IS STILL A LITTLE WAYS AWAY
-(Message From Hiplink) NCSO\nSmoke Investig\nCASPER MOUNTAIN RD; WEST END\nMTRD\nC49\ntac 6\n\nRP REPORTING SMOKE ON THE WEST END OF THE MTN\nRIGHT BENEATH THE DARK CLOUDS THERE APPEARS TO BE SMOKE COMING FROM THE BACK\nSIDE OF THE MTN
-(Message From Hiplink) Robbery Suspect Silver smaller SUV - White Male mid 30's tan shorts, black shirt, black bb cap - left 410 SW Wyoming unk DOT
-(Message From Hiplink) Robbery suspect from this morning is in Custody.thank you
-(Message From Hiplink) NCSO\nExplosives\n1855 SOUTH LOOP AVE; Def Tech\nNCSW\nC33\nexplosives for disposal
-(Message From Hiplink) NCSO\nFire assist\n17800 INTERSTATE 25; MP 178\nNCSE\nC46\ntac 5\nnb lane just east of 178\nlittle strip on fire\nabout 250-300 yards off the side of the road\nits past the fence and up on a hil\nanother rp, about 300 yards north of the highway, starting
-(Message From Hiplink) NCSO\nExplosives\n1855 SOUTH LOOP AVE; Defense Technology\nNCSW\nC33\ncreated for C33
-(Message From Hiplink) NCSO\nFire assist\n10995 E WAGON TRAIL RD\nNCSE\nC63\n****tac 5****\n\nwildland fire\nhalf the size of a car in size\nbehind this address\nrp son is trying to put the fire out with a shovel
-(Message From Hiplink) NCSO\nFire assist\n14200 W POISON SPIDER RD; POISON SPIDER;\nNCSW\nC12\nCALLBACK=(307)262-5083 LAT=42.834567 LON=-106.562533 UNC=46\napprox 2 miles north/west of poison spider school\nthe rp says the fire is about 3 acres big
-(Message From Hiplink) NCSO\nFire assist\nW POISON SPIDER RD\nALRD\nC45\ntac 4\n\nrp sees lots of smoke\nsilvery white smoke\nrp is on poison spider about 3 mileswest of school and says that they see smoke\nabout 4 miles to the north of them\nlooks like west of mills ranch abou
-(Message From Hiplink) NCSO\nFire assist\n5800 S POPLAR ST\nNCSS\nC49\ntac 5\n\nzone 30 smoke\nLeslie Chapin -- is there and can not find any problems\n472-3177
-(Message From Hiplink) NCSO\nFire assist\n28300 W US HIGHWAY 20-26; MP 32\nNCSW\nC27\ntac 4\n\nsouth of this mm -- about  1mile off the road --\nstates east of the wheat fields west of where the old natrona shed used to be\nlarger than a house\nnot a lot of flames\nunk if there
-(Message From Hiplink) NCSO\nFire assist\n10300 THIRTY THREE MILE RD\nNCSW\nC62\n**tac 4**\n\nneighbor to the south / lightening started a fire\nrp can see flames she is about 1/4 mile from the neighbor\n----------------\nNCSO briefing notified\n----------------\nrp says the way
-(Message From Hiplink) NCSO\nSmoke Investig\n2571 EAST END RD\nMTRD\nC14\ntac 4\nrp says she smells smoke\nthinks it might be a campefire at beartrap\ncant see smoke or flames\njust smells is\nsince about 0300
-(Message From Hiplink) NCSO\nSmoke Investig\n11155 W GOOSE EGG RD\nMTRD\nC60\n1 mile from the goose egg inn smelling smoke add contact info 2346579
-(Message From Hiplink) NCSO\nFire assist\nKORTES RD; COMMENTS\nALRD\nC30\nTOWARDS CLARKWELL RANCH -- THERE IS A LARGE WILDLAND FIRE AND CARBON CO IS REQUESTING ASSISTANCE FROM US
-(Message From Hiplink) CPD\nBomb Incident\n201 N DAVID ST;fremont county\nPD-3\nC33\ncreated per c33  assist in fremont county
-(Message From Hiplink) CPD\nTest Spillman\n201 N DAVID ST; CPD\nPD-3\nA119\nPage the BANKS group --- this is to be done every 1st Monday of every month per\nthe chief at 10 00hrs\n\n--send text message that states --\n\nThis is a test, and to call 307-235-8278 to confirm recei
-(Message From Hiplink) NCSO\nFire assist\nTWELVE MILE RD & W POISON SPIDER RD\nNCSW\nC12\ntac 5  near the platte river gun club\nfire appears to be dying down a little bit\n20-50 yards wide at this time
-(Message From Hiplink) NCSO\nFire assist\nCOLE CREEK RD\nNCSE\nC12\ntac 4\n\n\nCALLBACK=(307)259-5500 LAT=42.865455 LON=-106.207924 UNC=28\nfire in the grass at the bridge on cole creek\nsecond rp, about the size of a camp trailer\nit's really growing from the wind\nno structure
-(Message From Hiplink) NCSO\nExplosives\n515 E 13TH ST\nNCSO\nC33\nold ammo and fireworks
-(Message From Hiplink) NCSO\nFire assist\n1922 ABSAROKA TRL; heinve res\nNCSW\nC64\naudiable smoke alarm / hallway / vivent is attemtping to contact respond / p210 8773203858
-(Message From Hiplink) NCSO\nFire assist\n37250 STATE HIGHWAY 259;WEST OF MIDWEST\nMWRD\nFD1\ntac 4\n\nMADISON18 / RP CAN SEE SMOKE IN THE FIELD\nCAN SEE SMOKE\nRP CAN SEE THE SUB OFFICE AND SMOKE\nRP IS ON CREW 6 RD / CAN SEE SMOKE / THINKS IT IS ABOUT 8  MILES EAST OF\nMIDWES
-(Message From Hiplink) CPD\nTest Spillman\n201 N DAVID ST; logging new units\nPD-3\nA245
-(Message From Hiplink) NCSO\nSmoke Investig\nCOLE CREEK RD\nNCSE\nC14\ntac 4\nper c14 he sees column of smoke
-(Message From Hiplink) NCSO\nFire assist\n1949 N PYRITE RD; Cathedral Energy\nNCSW\nNCSO\nzone 11 fire alarm\nalarm co will call resp\nshe thinks they may be switching out batteries\nright before they got the alarm they got a low battery\nsignal
-(Message From Hiplink) NCSO\nAlert 1-Aircraf\n8500 AIRPORT PKY; AIRPORT\nNCSW\nC56\ntac 6\n\nglider making a cross landing
-(Message From Hiplink) NCSO\nExplosives\n2888 SIX MILE RD\nNCSW\nC56\nrp found a tube with  duct tape on the ends and some kind of fertalizer in it thrown in his yard\nrp thinks it is a pipe bomb of some kind
-(Message From Hiplink) CPD\nProj. Lifesave\n2885 INDIAN SPRINGS DR\nPD-6\nA209\nrichard jackson has wandered away / was found at the mini mart last week / freq # 215945 he is in cad under Carl and he answers to Carl
-
-NCSO
-CPD
-
-ALRD / C45
-BCSW / C33 / C45
-MTRD / C49 
-NCSE / C41 / C42 / C46 / C63
-NCSO / C57
-NCSN / C16
-NCSW / C12 / C33 
-NWRD / C56
 **********************************************************

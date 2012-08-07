@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.WY;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -283,12 +284,50 @@ Sender: csphiplink@cityofcasperwy.com
 (Message From Hiplink) CFD \nMedical\n2130 W 41ST ST\n216\nE2\ntac 4\n\nnon emergent per law to check on an elderly female
 (Message From Hiplink) CFD \nWildland FIRE\n1886 STATION RD\n315\nE3\ntac 4
 
+Contact: Active911
+Agency name: PSCC Location: Casper, WY 
+Sender: <csphiplink@cityofcasperwy.com>
+  
+(Message From Hiplink) NCSO\nFire assist\n2515 DOANE LN; Paula Kraushaar residence\nNCSW\nC45\ncoming from hallway\nhas had two hits on it\ncould not contact resp
+(Message From Hiplink) NCSO\nFire assist\nCOUNTY LINE RD\nNCSE\nC42
+(Message From Hiplink) NCSO\nFire assist\n3408 APPLEGATE DR; comments\nNCSO\nC57\ne6 responded to field behind this address / area of of trappers route / they\nbelieve it's county / they found a lot of dump trailers with construction trash\nand are requesting a deputy
+(Message From Hiplink) NCSO\nHazardous Mat\n19100 INTERSTATE 25; MP 191;UNDERPASS\nNCSE\nC41\nOILY SUBSTANCE ON THE RD UNDER THE UNDERPASS / RP ALMOST CRASHED / 1/4 MILE LONG / UNKN WHAT IT IS AND IT IS VERY SLICK\nSTARTS AT THE OFF RAMP / UNDER THE UNDERPASS AND ALMOST TO
+(Message From Hiplink) NCSO\nFire assist\n23000 INTERSTATE 25; MP 230\nMWRD\nC56\n**tac 4**\n\nRP SAYS THE FIRE IS ABOUT 20 YARDS IN SIZE\nHE IS SEEING FLAMES\non the west side of the highway per rp\nON THE SOUTH BOUND SIDE OF THE ROAD\nRP IS NOT SEEING ANY STRUCTURES / THE ONL
+(Message From Hiplink) NCSO\nExplosives\n1855 SOUTH LOOP AVE; Def Tech\nNCSW\nC33\nexplosives for disposal
+(Message From Hiplink) NCSO\nFire assist\nE ORMSBY RD; COMMENTS\nNCSN\nC16\ntac 5\n\nCALLBACK=(307)258-8361 LAT=42.849918 LON=-106.274765 UNC=25\nTAKE ORMSBY RD 10.5 MILES FROM I25 FOLLOWING THE FLAGGING\nTHE FIRE IS ABOUT 1/4 ACRE BUT HE IS STILL A LITTLE WAYS AWAY
+(Message From Hiplink) NCSO\nSmoke Investig\nCASPER MOUNTAIN RD; WEST END\nMTRD\nC49\ntac 6\n\nRP REPORTING SMOKE ON THE WEST END OF THE MTN\nRIGHT BENEATH THE DARK CLOUDS THERE APPEARS TO BE SMOKE COMING FROM THE BACK\nSIDE OF THE MTN
+(Message From Hiplink) NCSO\nExplosives\n1855 SOUTH LOOP AVE; Def Tech\nNCSW\nC33\nexplosives for disposal
+(Message From Hiplink) NCSO\nFire assist\n17800 INTERSTATE 25; MP 178\nNCSE\nC46\ntac 5\nnb lane just east of 178\nlittle strip on fire\nabout 250-300 yards off the side of the road\nits past the fence and up on a hil\nanother rp, about 300 yards north of the highway, starting
+(Message From Hiplink) NCSO\nExplosives\n1855 SOUTH LOOP AVE; Defense Technology\nNCSW\nC33\ncreated for C33
+(Message From Hiplink) NCSO\nFire assist\n10995 E WAGON TRAIL RD\nNCSE\nC63\n****tac 5****\n\nwildland fire\nhalf the size of a car in size\nbehind this address\nrp son is trying to put the fire out with a shovel
+(Message From Hiplink) NCSO\nFire assist\n14200 W POISON SPIDER RD; POISON SPIDER;\nNCSW\nC12\nCALLBACK=(307)262-5083 LAT=42.834567 LON=-106.562533 UNC=46\napprox 2 miles north/west of poison spider school\nthe rp says the fire is about 3 acres big
+(Message From Hiplink) NCSO\nFire assist\nW POISON SPIDER RD\nALRD\nC45\ntac 4\n\nrp sees lots of smoke\nsilvery white smoke\nrp is on poison spider about 3 mileswest of school and says that they see smoke\nabout 4 miles to the north of them\nlooks like west of mills ranch abou
+(Message From Hiplink) NCSO\nFire assist\n5800 S POPLAR ST\nNCSS\nC49\ntac 5\n\nzone 30 smoke\nLeslie Chapin -- is there and can not find any problems\n472-3177
+(Message From Hiplink) NCSO\nFire assist\n28300 W US HIGHWAY 20-26; MP 32\nNCSW\nC27\ntac 4\n\nsouth of this mm -- about  1mile off the road --\nstates east of the wheat fields west of where the old natrona shed used to be\nlarger than a house\nnot a lot of flames\nunk if there
+(Message From Hiplink) NCSO\nFire assist\n10300 THIRTY THREE MILE RD\nNCSW\nC62\n**tac 4**\n\nneighbor to the south / lightening started a fire\nrp can see flames she is about 1/4 mile from the neighbor\n----------------\nNCSO briefing notified\n----------------\nrp says the way
+(Message From Hiplink) NCSO\nSmoke Investig\n2571 EAST END RD\nMTRD\nC14\ntac 4\nrp says she smells smoke\nthinks it might be a campefire at beartrap\ncant see smoke or flames\njust smells is\nsince about 0300
+(Message From Hiplink) NCSO\nSmoke Investig\n11155 W GOOSE EGG RD\nMTRD\nC60\n1 mile from the goose egg inn smelling smoke add contact info 2346579
+(Message From Hiplink) NCSO\nFire assist\nKORTES RD; COMMENTS\nALRD\nC30\nTOWARDS CLARKWELL RANCH -- THERE IS A LARGE WILDLAND FIRE AND CARBON CO IS REQUESTING ASSISTANCE FROM US
+(Message From Hiplink) CPD\nBomb Incident\n201 N DAVID ST;fremont county\nPD-3\nC33\ncreated per c33  assist in fremont county
+(Message From Hiplink) CPD\nTest Spillman\n201 N DAVID ST; CPD\nPD-3\nA119\nPage the BANKS group --- this is to be done every 1st Monday of every month per\nthe chief at 10 00hrs\n\n--send text message that states --\n\nThis is a test, and to call 307-235-8278 to confirm recei
+(Message From Hiplink) NCSO\nFire assist\nTWELVE MILE RD & W POISON SPIDER RD\nNCSW\nC12\ntac 5  near the platte river gun club\nfire appears to be dying down a little bit\n20-50 yards wide at this time
+(Message From Hiplink) NCSO\nFire assist\nCOLE CREEK RD\nNCSE\nC12\ntac 4\n\n\nCALLBACK=(307)259-5500 LAT=42.865455 LON=-106.207924 UNC=28\nfire in the grass at the bridge on cole creek\nsecond rp, about the size of a camp trailer\nit's really growing from the wind\nno structure
+(Message From Hiplink) NCSO\nExplosives\n515 E 13TH ST\nNCSO\nC33\nold ammo and fireworks
+(Message From Hiplink) NCSO\nFire assist\n1922 ABSAROKA TRL; heinve res\nNCSW\nC64\naudiable smoke alarm / hallway / vivent is attemtping to contact respond / p210 8773203858
+(Message From Hiplink) NCSO\nFire assist\n37250 STATE HIGHWAY 259;WEST OF MIDWEST\nMWRD\nFD1\ntac 4\n\nMADISON18 / RP CAN SEE SMOKE IN THE FIELD\nCAN SEE SMOKE\nRP CAN SEE THE SUB OFFICE AND SMOKE\nRP IS ON CREW 6 RD / CAN SEE SMOKE / THINKS IT IS ABOUT 8  MILES EAST OF\nMIDWES
+(Message From Hiplink) CPD\nTest Spillman\n201 N DAVID ST; logging new units\nPD-3\nA245
+(Message From Hiplink) NCSO\nSmoke Investig\nCOLE CREEK RD\nNCSE\nC14\ntac 4\nper c14 he sees column of smoke
+(Message From Hiplink) NCSO\nFire assist\n1949 N PYRITE RD; Cathedral Energy\nNCSW\nNCSO\nzone 11 fire alarm\nalarm co will call resp\nshe thinks they may be switching out batteries\nright before they got the alarm they got a low battery\nsignal
+(Message From Hiplink) NCSO\nAlert 1-Aircraf\n8500 AIRPORT PKY; AIRPORT\nNCSW\nC56\ntac 6\n\nglider making a cross landing
+(Message From Hiplink) NCSO\nExplosives\n2888 SIX MILE RD\nNCSW\nC56\nrp found a tube with  duct tape on the ends and some kind of fertalizer in it thrown in his yard\nrp thinks it is a pipe bomb of some kind
+(Message From Hiplink) CPD\nProj. Lifesave\n2885 INDIAN SPRINGS DR\nPD-6\nA209\nrichard jackson has wandered away / was found at the mini mart last week / freq # 215945 he is in cad under Carl and he answers to Carl
+
 */
 public class WYNatronaCountyParser extends FieldProgramParser {
   
   public WYNatronaCountyParser() {
     super("NATRONA COUNTY", "WY",
-           "SRC CALL ADDR UNIT SRC2! INFO+");
+           "SRC CALL ADDR MAP UNIT INFO+");
   }
   
   @Override
@@ -303,6 +342,7 @@ public class WYNatronaCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern ADDR_EXT_PTN = Pattern.compile("(?:APT|LOT|SUITE|STE|ROOM|RM|#)[ #]*(.*)|(\\d+[A-Z]?)|(M[MP] .*|[NSEW]B)");
+  private static final Pattern COMMENTS_PTN = Pattern.compile("CMNTS|COMMENTS", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -319,7 +359,7 @@ public class WYNatronaCountyParser extends FieldProgramParser {
           } else {
             data.strAddress = data.strAddress + ' ' + fld;
           }
-        } else if (!fld.equals("CMNTS")){
+        } else if (! COMMENTS_PTN.matcher(fld).matches()) {
           data.strPlace = append(data.strPlace, " - ", fld);
         }
       }
@@ -331,13 +371,21 @@ public class WYNatronaCountyParser extends FieldProgramParser {
     }
   }
   
-  private class MySource2Field extends SourceField {
+  private class MyMapField extends MapField {
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith(data.strSource)) {
-        field = field.substring(data.strSource.length()).trim();
+      super.parse(field, data);
+      if (field.startsWith("PD-")) data.strCity = "CASPER";
+      else if (field.startsWith("NC")) data.strCity = "NATRONA COUNTY";
+      else {
+        String city = CITY_CODES.getProperty(field);
+        if (city != null) data.strCity = city;
       }
-      data.strSource = append(data.strSource, "-", field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CITY MAP";
     }
   }
 
@@ -368,10 +416,15 @@ public class WYNatronaCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("SRC")) return new SourceField("[A-Z]{3}");
+    if (name.equals("SRC")) return new SourceField("[A-Z]{3,4}");
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("SRC2")) return new MySource2Field();
+    if (name.equals("MAP")) return new MyMapField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ALRD",   "ALCOVA LAKE",
+      "MWRD",   "MIDWEST",
+  });
 }
