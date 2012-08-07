@@ -383,6 +383,18 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "UNIT:HFE71 HFFG3",
         "X:BEECHWOOD RD");
 
+    doTest("T5",
+        "HC:FIELD/BRUSH/MULCH 590 S I275 EX UNTC 590 S I275 UNTC ** FIELD / BRUSH / MULCH FIRE ** Original Location : 590 S I275 14:23 HFE72 XST: N I275 EX XST2: 591 N I275 EX",
+        "ADDR:590 S I275 EX",
+        "MADDR:590 S I 275",
+        "CITY:UNION TWP",
+        "PLACE:590 S I275 UNTC",
+        "CALL:FIELD / BRUSH / MULCH FIRE",
+        "INFO:Original Location : 590 S I275",
+        "TIME:14:23",
+        "UNIT:HFE72",
+        "X:N I275 EX & 591 N I275 EX");
+
   }
   
   public static void main(String[] args) {

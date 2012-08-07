@@ -65,9 +65,26 @@ public class VAWaynesboroParserTest extends BaseParserTest {
         "Dispatch@ci.waynesboro.va.us Msg: Dispatch:RESPOND 142 PHEASANT RUN HEADACHE, DIFFICULTY , 14 Y/O COUNTY 1",
         "CALL:HEADACHE DIFFICULTY 14 Y / O COUNTY 1",
         "ADDR:142 PHEASANT RUN");
+    
+  }
+  
+  @Test
+  public void testGaryCritzer() {
+
+    doTest("T1",
+        "eocdir@ci.waynesboro.va.us Msg: eocdir:respond chest pain 250 S Wayne ave",
+        "CALL:respond chest pain",
+        "ADDR:250 S Wayne ave");
+
+    doTest("T2",
+        "eocdir@ci.waynesboro.va.us Msg: eocdir:chest pain, 401 wayneridge rd, medic",
+        "CALL:chest pain",
+        "ADDR:401 wayneridge rd",
+        "INFO:medic");
+
   }
   
   public static void main(String[] args) {
-    new VAWaynesboroParserTest().generateTests("T10", "CALL ADDR APT INFO");
+    new VAWaynesboroParserTest().generateTests("T1", "CALL ADDR APT INFO");
   }
 }

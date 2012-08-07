@@ -25,6 +25,11 @@ Dispatch2@ci.waynesboro.va.us Msg: Dispatch2:RESPOND 368 WALNUT AVE FALL, BACK I
 Dispatch2@ci.waynesboro.va.us Msg: Dispatch2:RESPOND LIFELINE ACTIVATION - FALL SPRINGDALE APTS 300 S WAYNE AVE APT 12
 Dispatch@ci.waynesboro.va.us Msg: Dispatch:RESPOND 142 PHEASANT RUN HEADACHE, DIFFICULTY , 14 Y/O COUNTY 1
 
+Contacat: Gary Critzer <wemsdir1@gmail.com>
+Sender: eocdir@ci.waynesboro.va.us
+eocdir@ci.waynesboro.va.us Msg: eocdir:respond chest pain 250 S Wayne ave
+eocdir@ci.waynesboro.va.us Msg: eocdir:chest pain, 401 wayneridge rd, medic
+
  */
 
 
@@ -33,7 +38,7 @@ public class VAWaynesboroParser extends SmartAddressParser {
   private static final String DEF_STATE = "VA";
   private static final String DEF_CITY = "WAYNESBORO";
   
-  private static final Pattern MARKER = Pattern.compile("^Dispatch\\d?:");
+  private static final Pattern MARKER = Pattern.compile("^(?:Dispatch\\d?|eocdir):");
   
   public VAWaynesboroParser() {
     super(DEF_CITY, DEF_STATE);
