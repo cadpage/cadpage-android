@@ -35,6 +35,14 @@ public class DonateActivity extends Activity {
     return event.createDialog(this, id);
   }
 
+  // This is supposed to work around a bug causing crashes for
+  // java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
+  @Override
+  protected void onSaveInstanceState(Bundle outState) {
+    outState.putString("WORKAROUND_FOR_BUG_19917_KEY", "WORKAROUND_FOR_BUG_19917_VALUE");
+    super.onSaveInstanceState(outState);
+  }
+
 
   /**
    * Create intent that can be used to launch this activity

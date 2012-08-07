@@ -100,6 +100,14 @@ public class EmailDeveloperActivity extends Activity {
     textView.setText(msgTextArry[type.ordinal()]);
   }
 
+  // This is supposed to work around a bug causing crashes for
+  // java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
+  @Override
+  protected void onSaveInstanceState(Bundle outState) {
+    outState.putString("WORKAROUND_FOR_BUG_19917_KEY", "WORKAROUND_FOR_BUG_19917_VALUE");
+    super.onSaveInstanceState(outState);
+  }
+
   /**
    * Listener class associated with the Send button
    */

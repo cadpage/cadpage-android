@@ -230,6 +230,11 @@ public class SmsPopupActivity extends Activity {
 
   @Override
   public void onSaveInstanceState(Bundle outState) {
+    
+    // This is supposed to work around a bug causing crashes for
+    // java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
+    outState.putString("WORKAROUND_FOR_BUG_19917_KEY", "WORKAROUND_FOR_BUG_19917_VALUE");
+    
     super.onSaveInstanceState(outState);
     if (Log.DEBUG) Log.v("SMSPopupActivity: onSaveInstanceState()");
 
