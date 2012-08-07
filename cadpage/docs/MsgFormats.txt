@@ -3332,16 +3332,6 @@ SNYDER911:ILLPER>ILL PERSON 12 SALEM MANOR CT PENN TWP SHAFFER, ALTHEA Map: Grid
 SNYDER911:SYNCOP>SYNCOPE 623 KREAMER AVE MIDDLECREEK TWP KLINGER, NEIL Map: Grids:, Cad: 2011-0000005611
 SNYDER911:PAIN >PAIN 18336 ROUTE 522 XS: HETRICK RD BEAVER TWP SUMMERS, TIFFANY Map: Grids:, Cad: 2011-0000005559
 **********************************************************
-Pierce County, WA
-Contact: Dave Marston <dcmarston@hotmail.com>
-Sender: cadpage@rmetro.com
-(- part 1 of 1) RC:Go to post S59 Station 59
-(- part 1 of 1) RC:Go to post S62 Station 62
-(- part 1 of 1) RC:Go to post P72  Port of Tacoma &  509
-(- part 1 of 1)RC:0038-A/Run#36872/CALL:03:32/DISP:03:32/ENR:03:33/ATS:03:37/TRA:03:45/ATD:0 3:53/PUZIP:98408/DO:St Joseph Hospital
-(- part 1 of 1) RC:Run# 36872/Sick Person/<Unknown>/S 56TH ST & PACIFIC AVE///X=56th&55th/TACOMA// AVE//606//TACOMA/773 G5/\r\n\r\nThis is a confidential/proprietary communication intended for the add
-(- part 1 of 1) RC:Run# 45146/Unconscious/<Unknown>/6TH AVE & N STEVENS ST//behind 76 station/X=N Verde St&N Stevens St/TACOMA//\r\n\r\nThis is a confidential/propri
-**********************************************************
 Unknown
 Contact: Jason Reed <reedjasonf@gmail.com>
 MESSAGE / M50 MOTOR VEHICLE ACCIDENT-INJURIES  COUNTY ROAD 322  MapRegions:  CrossStreets: Description:  Dispatch: 6/22/2011 14:12:48\n\n\n\n\n**********************************************************
@@ -4891,6 +4881,21 @@ FIRE, WILDLAND:Veg Fire  : E4472 D4494 HCVL2 HCVL4
 Inc# 007059: COLUMBIA SKY MHP @ 10956 GREEN ST #247 ,COLUMBIA :Map  3097/38B_013: : LAT/LONG X: -120 24.3873  Y: 38 2.23038: MEDICAL:
 Comment                                           :Resource Dispatched
 50 YO DIABETIC UNRESPONSIVE: D4494
+**********************************************************
+Pierce County, WA
+Contact: Dave Marston <dcmarston@hotmail.com>
+Sender: cadpage@rmetro.com
+DispatchProQAParser subclass
+(- part 1 of 1) RC:Go to post S59 Station 59
+(- part 1 of 1) RC:Go to post S62 Station 62
+(- part 1 of 1) RC:Go to post P72  Port of Tacoma &  509
+(- part 1 of 1)RC:0038-A/Run#36872/CALL:03:32/DISP:03:32/ENR:03:33/ATS:03:37/TRA:03:45/ATD:0 3:53/PUZIP:98408/DO:St Joseph Hospital
+(- part 1 of 1) RC:Run# 36872/Sick Person/<Unknown>/S 56TH ST & PACIFIC AVE///X=56th&55th/TACOMA// AVE//606//TACOMA/773 G5/\r\n\r\nThis is a confidential/proprietary communication intended for the add
+(- part 1 of 1) RC:Run# 45146/Unconscious/<Unknown>/6TH AVE & N STEVENS ST//behind 76 station/X=N Verde St&N Stevens St/TACOMA//\r\n\r\nThis is a confidential/propri
+(- part 1 of 1) RC:Run# 46137/Unknown/<Unknown>/6016 N HIGHLANDS PKWY//371//TACOMA/772 J4/\r\n\r\nThis is a confidential/proprietary communication intended for the a
+(- part 1 of 1) RC:Run# 45014/Sick Person/<Unknown>/919 FAWCETT AVE//606//TACOMA/773 G5/\r\n\r\nThis is a confidential/proprietary communication intended for the add
+(- part 1 of 1) RC:Run# 46129/Trauma/<Unknown>/2018 E WRIGHT AVE///X=E Roosevelt Ave/TACOMA//\r\n\r\nThis is a confidential/proprietary communication intended for th
+(- part 1 of 1) RC:Run# 46173/Unknown/<Unknown>/6316 S 12TH ST///X=Unknown Street with ID 1319802&S Whitman St/TACOMA//\r\n\r\nThis is a confidential/proprietary com
 **********************************************************
 **********************************************************
 **********************************************************
