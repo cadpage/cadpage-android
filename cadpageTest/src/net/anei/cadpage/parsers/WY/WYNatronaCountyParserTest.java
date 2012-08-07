@@ -23,11 +23,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALLBACK=(307)315-4272 LAT=42.850822 LON=-106.308861 UNC=28\n" +
         "tac 4 - hit had when rear ended",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:1230 E 1ST ST",
         "PLACE:WYO CARDIOPULMONARY",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "PHONE:(307)315-4272",
         "GPS:42.850822 -106.308861",
         "CH:tac 4",
@@ -35,11 +36,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
 
     doTest("T2",
         "(Message From Hiplink) CFD \nMedical\n154 N BEECH ST; apt 207\n132\nE1",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:154 N BEECH ST",
         "APT:207",
-        "UNIT:132");
+        "MAP:132",
+        "UNIT:E1");
 
     doTest("T3",
         "(Message From Hiplink) CFD \n" +
@@ -51,20 +53,22 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "46yom\n" +
         "just took 2 nitroglycerine",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Chest Pain",
         "ADDR:2401 GRANDVIEW PL",
         "APT:18",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E1",
         "INFO:rp's brother is having chest pain / 46yom / just took 2 nitroglycerine");
 
     doTest("T4",
         "(Message From Hiplink) CFD \nMedical\n945 N ELMA ST; apt 301\n132\nE1\ntac 4 - 3rd party female confused and dehydrated",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:945 N ELMA ST",
         "APT:301",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:3rd party female confused and dehydrated");
 
@@ -81,11 +85,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "904-322-2084\n" +
         "male that is layed out on the ground",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Diabetic Shock",
         "ADDR:1691 BRYAN STOCK TRL",
         "PLACE:BRYAN STOCK PONDS",
-        "UNIT:315",
+        "MAP:315",
+        "UNIT:E3",
         "PHONE:(904)322-2084",
         "GPS:42.849898 -106.261611",
         "CH:tac 7",
@@ -93,70 +98,78 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
 
     doTest("T6",
         "(Message From Hiplink) CFD \nMedical\n150 N GRANT ST\n132\nE1\nper le on scene non emergent check on a gal",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:150 N GRANT ST",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "INFO:per le on scene non emergent check on a gal");
 
     doTest("T7",
         "(Message From Hiplink) CFD \nMedical\n150 N GRANT ST\n132\nE1\ntac 4\n\nper le on scene non emergent check on a gal",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:150 N GRANT ST",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:per le on scene non emergent check on a gal");
 
     doTest("T8",
         "(Message From Hiplink) CFD \nUnconsciousness\n155 N BEECH ST; WCDA\n132\nE1\n**tac 4**\n\nmale lying on sidewalk  rp hung up",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:155 N BEECH ST",
         "PLACE:WCDA",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:male lying on sidewalk  rp hung up");
 
     doTest("T9",
         "(Message From Hiplink) CFD \nMedical\n237 E K ST\n132\nE1\nfemale can't get out of bed -- has a pinched nerve",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:237 E K ST",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "INFO:female can't get out of bed -- has a pinched nerve");
 
     doTest("T10",
         "(Message From Hiplink) CFD \nUnconsciousness\n4305 S POPLAR ST;plc\n216\nE2",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:4305 S POPLAR ST",
         "PLACE:PLC",
-        "UNIT:216");
+        "MAP:216",
+        "UNIT:E2");
 
     doTest("T11",
         "(Message From Hiplink) CFD \nChest Pain\n300 W B C ST;apt 413\n123\nE1",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Chest Pain",
         "ADDR:300 W B C ST",
         "APT:413",
-        "UNIT:123");
+        "MAP:123",
+        "UNIT:E1");
 
     doTest("T12",
         "(Message From Hiplink) CFD \nCardiac Problem\n945 N ELMA ST; apt 205\n132\nE1",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Cardiac Problem",
         "ADDR:945 N ELMA ST",
         "APT:205",
-        "UNIT:132");
+        "MAP:132",
+        "UNIT:E1");
 
     doTest("T13",
         "(Message From Hiplink) CFD \nDead Body\n300 W B C ST; apt 435\n123\nE2\nrp has key into the apartment",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Dead Body",
         "ADDR:300 W B C ST",
         "APT:435",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E2",
         "INFO:rp has key into the apartment");
 
     doTest("T14",
@@ -171,7 +184,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "SRC:WMC",
         "CALL:Medical",
         "ADDR:527 FULTON ST",
-        "UNIT:WMC-6",
+        "MAP:WMC-6",
+        "UNIT:WMC",
         "PHONE:(307)277-5648",
         "GPS:42.838978 -106.387650",
         "CH:tac 5",
@@ -187,11 +201,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "children locked in veh\n" +
         "been there about 5 mins",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Lockout",
         "ADDR:195 PRONGHORN ST",
         "PLACE:YOUR FIRST STEPS",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E2",
         "PHONE:(307)359-5006",
         "GPS:42.851808 -106.270881",
         "INFO:children locked in veh / been there about 5 mins");
@@ -205,11 +220,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "this is from a hit and run that occured 30 min ago -- subject is now complaining\n" +
         "of head pain",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:41 SE WYOMING BLVD",
         "PLACE:FLYING J",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:E5",
         "INFO:this is from a hit and run that occured 30 min ago -- subject is now complaining / of head pain");
 
     doTest("T17",
@@ -218,7 +234,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALL:Breathing",
         "ADDR:154 N BEECH ST",
         "APT:207",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "CH:tac 5",
         "INFO:is having a hard time breathing -- has copd");
 
@@ -235,10 +252,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "is on o2\n" +
         "no trouble speaking bet breaths",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Breathing",
         "ADDR:1120 N DURBIN ST",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "INFO:55yof / has copd and chronic pancreatitis / is cons / breathing / is on o2 / no trouble speaking bet breaths");
 
     doTest("T19",
@@ -258,7 +276,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "SRC:WMC",
         "CALL:Breathing",
         "ADDR:1120 N DURBIN ST",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "INFO:55yof / has copd and chronic pancreatitis / is cons / breathing / is on o2 / no trouble speaking bet breaths / neg chging color");
 
     doTest("T20",
@@ -278,7 +297,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALL:Seizure",
         "ADDR:915 S MCKINLEY ST",
         "PLACE:YCC",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "INFO:16 yof / cons / breathing / says she cant feel her body / hx of seizures / has meds for it");
 
     doTest("T21",
@@ -287,15 +307,17 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALL:Traumatic Inj",
         "ADDR:1120 N KIMBALL ST",
         "PLACE:MARION KREINER PARK",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "INFO:male hit in head with rock");
 
     doTest("T22",
         "(Message From Hiplink) CFD \nMedical\n1835 HYVIEW DR\n216\nE2\ntac 4",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1835 HYVIEW DR",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:tac 4");
 
     doTest("T23",
@@ -306,29 +328,32 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E2\n" +
         "tac 4   female pressed her lifeline alarm   she fell out of bed and needs help back to bed",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Alarm Medical",
         "ADDR:1444 S LAUREL ST",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:tac 4",
         "INFO:female pressed her lifeline alarm   she fell out of bed and needs help back to bed");
 
     doTest("T24",
         "(Message From Hiplink) NCF \nFall\n4240 FOX\n7629\nSQ7\ntac 4 - fell and hit her head, still on the floor\n85yof",
-        "SRC:NCF-SQ7",
+        "SRC:NCF",
         "CALL:Fall",
         "ADDR:4240 FOX",
-        "UNIT:7629",
+        "MAP:7629",
+        "UNIT:SQ7",
         "CH:tac 4",
         "INFO:fell and hit her head, still on the floor / 85yof");
 
     doTest("T25",
         "(Message From Hiplink) CFD \nBreathing\n2401 GRANDVIEW PL; APT 18\n216\nE2\nFEMALE STATING THAT SHE CAN'T BREATHE",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Breathing",
         "ADDR:2401 GRANDVIEW PL",
         "APT:18",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:FEMALE STATING THAT SHE CAN'T BREATHE");
 
     doTest("T26",
@@ -343,7 +368,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALL:Unconsciousness",
         "ADDR:307 E 2ND ST",
         "PLACE:NATRONA COUNTY PUBLIC LIBR",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "INFO:female passed out will not wake up in the back by the parking lot may be dk");
 
     doTest("T27",
@@ -352,7 +378,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALL:Medical",
         "ADDR:229 LATHROP RD",
         "APT:11",
-        "UNIT:WMC-1",
+        "MAP:WMC-1",
+        "UNIT:WMC",
         "CH:tac 6",
         "INFO:non emerg per le for 13yo w abraisons");
 
@@ -364,12 +391,13 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E1\n" +
         "RP SAW FROM THE LANDFILL WHAT APPEARS TO BE A HOUSE ON FIRE DOWN THE HILL",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Structure FIRE",
         "ADDR:BURLINGTON AVE",
         "MADDR:NEAR THE INTERSTATE,BURLINGTON AVE",
         "PLACE:NEAR THE INTERSTATE",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "INFO:RP SAW FROM THE LANDFILL WHAT APPEARS TO BE A HOUSE ON FIRE DOWN THE HILL");
 
     doTest("T29",
@@ -377,7 +405,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "SRC:WMC",
         "CALL:Medical",
         "ADDR:E 2ND ST & S WOLCOTT ST",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "INFO:non emerg to check blood sugar per le");
 
     doTest("T30",
@@ -399,7 +428,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALL:Accident PI",
         "ADDR:18500 INTERSTATE 25 MP 185 EB",
         "MADDR:18500 INTERSTATE 25 MP 185",
-        "UNIT:WMC-0",
+        "MAP:WMC-0",
+        "UNIT:WMC",
         "CH:tac 5",
         "INFO:tuck rolled over / fire by the truck / semi / is across the interstate / nb lanes / one of the rp's says that the driver is out and is fine / rp witnessed 251 4795 asia");
 
@@ -409,7 +439,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALL:Medical",
         "ADDR:1691 BRYAN STOCK TRL",
         "PLACE:BRYAN STOCK PONDS",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "CH:tac 6",
         "INFO:female assault vic'");
 
@@ -419,16 +450,18 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALL:Fall",
         "ADDR:651 ANDREA LN",
         "APT:8",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "CH:tac 4",
         "INFO:female fell down steps");
 
     doTest("T33",
         "(Message From Hiplink) CFD \nWildland FIRE\n1701 E K ST\n132\nE1\nflames",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Wildland FIRE",
         "ADDR:1701 E K ST",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "INFO:flames");
 
     doTest("T34",
@@ -447,7 +480,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "ADDR:1930 E 12TH ST",
         "APT:212",
         "PLACE:PARK PLACE",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "INFO:female is responsive -- need assistance getting her up / did not give any other information / unk age");
 
     doTest("T35",
@@ -457,16 +491,18 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "ADDR:COTTONWOOD CREEK RD",
         "MADDR:COTTONWOOD BEACH,COTTONWOOD CREEK RD",
         "PLACE:COTTONWOOD BEACH",
-        "UNIT:WMC-0",
+        "MAP:WMC-0",
+        "UNIT:WMC",
         "CH:tac 4",
         "INFO:36 yof / seems dehydrated / vomiting");
 
     doTest("T36",
         "(Message From Hiplink) CFD \nSmoke Investig\n2144 BOXELDER AVE\n216\nE2\nsmoke in attic no flames",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Smoke Investig",
         "ADDR:2144 BOXELDER AVE",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:smoke in attic no flames");
 
     doTest("T37",
@@ -475,7 +511,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALL:Medical",
         "ADDR:24025 LAKESHORE DR",
         "PLACE:ALCOVA LAKESIDE MARI",
-        "UNIT:WMC-0",
+        "MAP:WMC-0",
+        "UNIT:WMC",
         "CH:tac 4",
         "INFO:male with laceration to his head");
 
@@ -491,10 +528,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "\"a lot\" of oil\n" +
         "looks like someone dropped an oil plug",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Service Call",
         "ADDR:E 2ND ST & S BEVERLY ST",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E2",
         "INFO:there is oil on the street from Beverly to Sun on 2nd / rp states he just about lost control of his vehicle because of it / in the inside eb lane / \"a lot\" of oil / looks like someone dropped an oil plug");
 
     doTest("T39",
@@ -508,11 +546,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "male age 40\n" +
         "breathing",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:234 E 1ST ST",
         "PLACE:WELLS FARGO BANK",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E2",
         "CH:tac 4",
         "INFO:come to east side entrance / male age 40 / breathing");
 
@@ -532,7 +571,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "SRC:WMC",
         "CALL:Breathing",
         "ADDR:322 COLUMBINE",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "PHONE:(307)259-5962",
         "GPS:42.812154 -106.408789",
         "INFO:rp's mother, 78yof, is on oxygen and is writinbg her a note saying she cannot / breathe / the meter on her finger says 93, pulse 87 / 259-5962 / counsciou");
@@ -555,7 +595,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "SRC:WMC",
         "CALL:Dead Body",
         "ADDR:1714 S WASHINGTON ST",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "INFO:female in bed / 48 yof / says that she drank alot / believes that she is beyond help / says that her body is cold and is changing colors / rp is there by herself / female is adrienne lawson / had been bleeding fro");
 
     doTest("T42",
@@ -576,7 +617,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALL:Chest Pain",
         "ADDR:6500 E 2ND ST",
         "APT:200, WESTERN MED. AS",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "CH:tac 4",
         "INFO:66yom / high cholesterol / hypertension / was scheduled for a regular check up and came in early with chest pain / cannot lay down for EKG due to chest pain / bp 126/90, heartrate");
 
@@ -596,7 +638,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALL:Medical",
         "ADDR:40 SE WYOMING BLVD",
         "PLACE:MCDONALDS RESTAURANT",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "CH:tac 4",
         "INFO:rp's friend passed out / 6yom / passed out and fell to the floor / concious");
 
@@ -615,17 +658,19 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "SRC:WMC",
         "CALL:Suicide Attempt",
         "ADDR:4645 SMOKE RISE RD",
-        "UNIT:WMC-0",
+        "MAP:WMC-0",
+        "UNIT:WMC",
         "CH:tac 5",
         "INFO:15 yo daughter ate some decon / ate a couple of tablespoons / is refusing to get into the car / can hear her yelling & screaming in the background");
 
     doTest("T45",
         "(Message From Hiplink) CFD \nMedical\n4255 CY AVE; regal nails\n7629\nE2\nfemale passed out\n20yof\n21 yof\nshe is dizzy",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:4255 CY AVE",
         "PLACE:REGAL NAILS",
-        "UNIT:7629",
+        "MAP:7629",
+        "UNIT:E2",
         "INFO:female passed out / 20yof / 21 yof / she is dizzy");
 
     doTest("T46",
@@ -634,7 +679,8 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALL:Medical",
         "ADDR:4255 CY AVE",
         "PLACE:REGAL NAILS",
-        "UNIT:WMC-7",
+        "MAP:WMC-7",
+        "UNIT:WMC",
         "INFO:female passed out / 20yof / 21 yof / she is dizzy");
 
     doTest("T47",
@@ -647,11 +693,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "rp is not seeing flames but sees a lot of gry smoke\n" +
         "says that it got very smokey very fast and it is now starting to dissipate",
 
-        "SRC:NCF-E7",
+        "SRC:NCF",
         "CALL:Smoke Investig",
         "ADDR:2955 CENTRAL DR",
         "PLACE:CMMTS",
-        "UNIT:7629",
+        "MAP:7629",
+        "UNIT:E7",
         "INFO:field behind greiner ford / rp is not seeing flames but sees a lot of gry smoke / says that it got very smokey very fast and it is now starting to dissipate");
 
     doTest("T48",
@@ -665,11 +712,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "rp is not seeing flames but sees a lot of gry smoke\n" +
         "says that it got very smokey very fast and it is now starting to dissipate",
 
-        "SRC:NCF-E7",
+        "SRC:NCF",
         "CALL:Smoke Investig",
         "ADDR:2955 CENTRAL DR",
         "PLACE:CMMTS",
-        "UNIT:7629",
+        "MAP:7629",
+        "UNIT:E7",
         "CH:tac 5",
         "INFO:field behind greiner ford / rp is not seeing flames but sees a lot of gry smoke / says that it got very smokey very fast and it is now starting to dissipate");
 
@@ -685,11 +733,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "he has a hx of manic depression\n" +
         "the rp has spoken to WBI and they sugge",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Transfer",
         "ADDR:1416 E A ST",
         "PLACE:CENRAL WY UROLOGY STE 101",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "CH:tac 4",
         "INFO:there is a patient there that has not been taking his meds / the rp would like to have him taken over to WBI / he has a hx of manic depression / the rp has spoken to WBI and they sugge");
 
@@ -704,29 +753,32 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "dif breathing\n" +
         "increase heart rate",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:730 OAKCREST AVE",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "CH:TAC 4",
         "INFO:male that is having multiple issues / dif breathing / increase heart rate");
 
     doTest("T51",
         "(Message From Hiplink) CFD \nMedical\nE 2ND ST & S LENNOX ST\n312\nE3\nemerg bleeding male on lennox\nTAC 4",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:E 2ND ST & S LENNOX ST",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "CH:TAC 4",
         "INFO:emerg bleeding male on lennox");
 
     doTest("T52",
         "(Message From Hiplink) CFD \nMedical\n835 E 12TH ST; APT 1\n312\nE3\nEMERGENT FOR CHEST PAINS PER LE ON SCENE\nTAC 4",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:835 E 12TH ST",
         "APT:1",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "CH:TAC 4",
         "INFO:EMERGENT FOR CHEST PAINS PER LE ON SCENE");
 
@@ -740,10 +792,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "male advising grease fire in the kitchen -- rp is calling from douglas\n" +
         "TAC 4",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Structure FIRE",
         "ADDR:125 SHERWOOD CIR",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "PHONE:(307)259-6585",
         "GPS:42.780548 -105.469116",
         "CH:TAC 4",
@@ -751,21 +804,23 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
 
     doTest("T54",
         "(Message From Hiplink) CFD \nMedical\n760 LANDMARK DR; g614\n531\nE5\njanice stenger is dizzy and is puking lock box\nTAC 4",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:760 LANDMARK DR",
         "PLACE:G614",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "CH:TAC 4",
         "INFO:janice stenger is dizzy and is puking lock box");
 
     doTest("T55",
         "(Message From Hiplink) CFD \nBreathing\n60 MAGNOLIA; sov\n672\nE6",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Breathing",
         "ADDR:60 MAGNOLIA",
         "PLACE:SOV",
-        "UNIT:672");
+        "MAP:672",
+        "UNIT:E6");
 
     doTest("T56",
         "(Message From Hiplink) CFD \n" +
@@ -776,11 +831,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "THERE IS A MALE BY THE TRASHCAN THAT APPEARS TO BE UNCONSCIOUS\n" +
         "TAC 4",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:440 E A ST",
         "PLACE:ON THE CORNER",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:TAC 4",
         "INFO:THERE IS A MALE BY THE TRASHCAN THAT APPEARS TO BE UNCONSCIOUS");
 
@@ -793,21 +849,23 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALLBACK=(911)628-2821 LAT=42.841240 LON=-106.361539 UNC=2278\n" +
         "63yom having seizures",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Seizure",
         "ADDR:1522 WESTRIDGE TER",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "PHONE:(911)628-2821",
         "GPS:42.841240 -106.361539",
         "INFO:63yom having seizures");
 
     doTest("T58",
         "(Message From Hiplink) CFD \nMedical\n760 LANDMARK DR; turnabout\n531\nE5\ntac 4 - viking and blackmore emergent",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:760 LANDMARK DR",
         "PLACE:TURNABOUT",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "CH:tac 4",
         "INFO:viking and blackmore emergent");
 
@@ -822,38 +880,42 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "requested no ambulance, just lift assist\n" +
         "disconnected",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:410 S HUBER DR",
-        "UNIT:351",
+        "MAP:351",
+        "UNIT:E3",
         "INFO:rp stated a man got out of the hospital yesterday and is on the floor / requesting a lift assist / requested no ambulance, just lift assist / disconnected");
 
     doTest("T60",
         "(Message From Hiplink) CFD \nFall\n814 S DURBIN ST\n132\nE1\n85yof\nfell & hit her head",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:814 S DURBIN ST",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "INFO:85yof / fell & hit her head");
 
     doTest("T61",
         "(Message From Hiplink) CFD \nChest Pain\n830 E A ST; VIRGINIAN MOTEL; room 20\n132\nE1\ntac 4 per le on scene",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Chest Pain",
         "ADDR:830 E A ST",
         "APT:20",
         "PLACE:VIRGINIAN MOTEL",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:per le on scene");
 
     doTest("T62",
         "(Message From Hiplink) CFD \nAlarm Fire\n53 GARDENIA; Ludiker Residence\n672\nE6\nkey pad code",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Alarm Fire",
         "ADDR:53 GARDENIA",
         "PLACE:LUDIKER RESIDENCE",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "INFO:key pad code");
 
     doTest("T63",
@@ -864,18 +926,20 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E3\n" +
         "rp's husband was supposed to go to hospital today to check his gallbladder",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:4006 E 12TH ST",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E3",
         "INFO:rp's husband was supposed to go to hospital today to check his gallbladder");
 
     doTest("T64",
         "(Message From Hiplink) CFD \nMedical\n914 LINCOLN AVE\n312\nE3\nvery faint voice on phone",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:914 LINCOLN AVE",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "INFO:very faint voice on phone");
 
     doTest("T65",
@@ -890,10 +954,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "voice very wheezy and threasy\n" +
         "thready",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:914 LINCOLN AVE",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "INFO:very faint voice on phone / asking for ambulance \"to get checked out\" / not speaking very clearly / voice very wheezy and threasy / thready");
 
     doTest("T66",
@@ -910,11 +975,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "not in water\n" +
         "hit head on metal bar coming slide",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Traumatic Inj",
         "ADDR:1801 E 4TH ST",
         "PLACE:AQUATICS CENTER",
-        "UNIT:351",
+        "MAP:351",
+        "UNIT:E3",
         "INFO:neda bleeding / head / 11 yom / cons / breathing / not in water / hit head on metal bar coming slide");
 
     doTest("T67",
@@ -929,10 +995,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "he is breathing\n" +
         "says that he is not responding to the rp says that he is choking",
 
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Suicide Attempt",
         "ADDR:5529 PATHFINDER",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "PHONE:(307)251-5415",
         "GPS:42.827840 -106.400850",
         "INFO:brother tried to hang himself / rp cut him down / he is breathing / says that he is not responding to the rp says that he is choking");
@@ -947,11 +1014,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "tac 4 female first party with chest pain\n" +
         "TAC 4",
 
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Chest Pain",
         "ADDR:4134 TALON DR",
         "APT:B 307",
-        "UNIT:7629",
+        "MAP:7629",
+        "UNIT:E6",
         "PHONE:(307)840-6946",
         "GPS:42.815544 -106.374046",
         "CH:TAC 4",
@@ -968,11 +1036,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "in there\n" +
         "rp called metro who responded and said that th",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Unusual Odor",
         "ADDR:2151 E 12TH ST",
         "PLACE:RENT A CENTER",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "INFO:per a196 requesting e3 to respond over to his location / rp says that the dumpster by rent a center smells like there is something dead / in there / rp called metro who responded and said that th");
 
     doTest("T70",
@@ -985,20 +1054,22 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "chest pain\n" +
         "TAC 6",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Sickness",
         "ADDR:630 E 5TH ST",
         "APT:B",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:TAC 6",
         "INFO:male that is not felling well states he is very sick and now it is causing / chest pain");
 
     doTest("T71",
         "(Message From Hiplink) CFD \nAbdominal\n1894 LILAC\n672\nE6\nMALE IS CONSCIOUS BUT NOT ALERT -- ABDOMINAL PAIN\nTAC 5",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Abdominal",
         "ADDR:1894 LILAC",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "CH:TAC 5",
         "INFO:MALE IS CONSCIOUS BUT NOT ALERT -- ABDOMINAL PAIN");
 
@@ -1013,10 +1084,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "NEIGHBOR LADY CAME OUT AND ASKED THE RP TO CALL\n" +
         "THE FEMALE THEN WENT BACK INTO HER HOUSE -- NEIGHBOR HAS NO IDEA WHAT IS",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:911-Welfare",
         "ADDR:1321 KINGSBURY DR",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "PHONE:(307)277-8491",
         "GPS:42.837689 -106.281352",
         "INFO:non-emergent to stage / NEIGHBOR LADY CAME OUT AND ASKED THE RP TO CALL / THE FEMALE THEN WENT BACK INTO HER HOUSE -- NEIGHBOR HAS NO IDEA WHAT IS");
@@ -1031,10 +1103,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "RP'S GRANDMOTHER HAS FALLEN AND HIT HER HEAD -- RP IS NOT ON SCENE\n" +
         "TAC 4",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:931 GOODSTEIN DR",
-        "UNIT:276",
+        "MAP:276",
+        "UNIT:E2",
         "PHONE:(307)251-3306",
         "GPS:42.828054 -106.312680",
         "CH:TAC 4",
@@ -1051,10 +1124,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "TAC 4\n" +
         "female is laying down gasping and growning",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Breathing",
         "ADDR:3300 RIDGECREST DR",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:TAC 4",
         "INFO:92yof gasping for air / 2355183 / female is laying down gasping and growning");
 
@@ -1067,11 +1141,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "RP FELL A FEW DAYS AGO AND NOW IS HAVING TERRIBLE PAINS IN HER SIDE\n" +
         "TAC 5",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Abdominal",
         "ADDR:2401 GRANDVIEW PL",
         "APT:18",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:TAC 5",
         "INFO:RP FELL A FEW DAYS AGO AND NOW IS HAVING TERRIBLE PAINS IN HER SIDE");
 
@@ -1083,21 +1158,23 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E5\n" +
         "tac 4 male that just layed down and will not wake up -- unk if he is dk",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:41 SE WYOMING BLVD",
         "PLACE:FLYING J",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "CH:tac 4",
         "INFO:male that just layed down and will not wake up -- unk if he is dk");
 
     doTest("T77",
         "(Message From Hiplink) CFD \nMedical\n3930 DENIS DR; shell\n7629\nE6\nemerg per le on scene male w head injury\nTAC 4",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:3930 DENIS DR",
         "PLACE:SHELL",
-        "UNIT:7629",
+        "MAP:7629",
+        "UNIT:E6",
         "CH:TAC 4",
         "INFO:emerg per le on scene male w head injury");
 
@@ -1111,10 +1188,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CHEST PAIN\n" +
         "TAC 5",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Chest Pain",
         "ADDR:1216 S BOXELDER ST",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "PHONE:(307)251-3573",
         "GPS:42.838150 -106.338494",
         "CH:TAC 5",
@@ -1122,11 +1200,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
 
     doTest("T79",
         "(Message From Hiplink) CFD \nAlarm Fire\n4445 S POPLAR ST; CREST HILL SCHOOL\n216\nE2\ntac 4  general fire alarm",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Alarm Fire",
         "ADDR:4445 S POPLAR ST",
         "PLACE:CREST HILL SCHOOL",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:tac 4",
         "INFO:general fire alarm");
 
@@ -1138,21 +1217,23 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E3\n" +
         "assistance required by wmc for overweight  female",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Service Call",
         "ADDR:1930 E 12TH ST",
         "APT:212",
         "PLACE:PARK PLACE",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "INFO:assistance required by wmc for overweight  female");
 
     doTest("T81",
         "(Message From Hiplink) CFD \nAlarm Medical\n300 E COLLINS DR; apt 508\n132\nE1\ntac 4   female yelling for help",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Alarm Medical",
         "ADDR:300 E COLLINS DR",
         "APT:508",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:female yelling for help");
 
@@ -1168,27 +1249,30 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "has chest pain as well\n" +
         "front door is unlocked",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Breathing",
         "ADDR:1137 S CHESTNUT ST",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E2",
         "CH:tac 6",
         "INFO:73 yo female / breathing diff / had pulmonary embolism in her lung last week / has chest pain as well / front door is unlocked");
 
     doTest("T83",
         "(Message From Hiplink) CFD \nSeizure\n1845 W 29TH ST\n216\nE2",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Seizure",
         "ADDR:1845 W 29TH ST",
-        "UNIT:216");
+        "MAP:216",
+        "UNIT:E2");
 
     doTest("T84",
         "(Message From Hiplink) CFD \nMedical\n315 E 15TH ST; YMCA\n213\nE2\nCALLBACK=(307)462-1230 LAT=42.845532 LON=-106.312444 UNC=16",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:315 E 15TH ST",
         "PLACE:YMCA",
-        "UNIT:213",
+        "MAP:213",
+        "UNIT:E2",
         "PHONE:(307)462-1230",
         "GPS:42.845532 -106.312444");
 
@@ -1202,11 +1286,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "confused, not responding appropriately\n" +
         "vitals,",
 
-        "SRC:NCF-SQ7",
+        "SRC:NCF",
         "CALL:Medical",
         "ADDR:60 E MANLY RD",
         "PLACE:WEST STATION",
-        "UNIT:1472",
+        "MAP:1472",
+        "UNIT:SQ7",
         "INFO:Clarence Vandenheed has an altered mental state / confused, not responding appropriately / vitals,");
 
     doTest("T86",
@@ -1218,10 +1303,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "rp is working outside and they hit the gas meter\n" +
         "hit with a \"little machine\"",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Gas Leak",
         "ADDR:4340 S ASH ST",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:rp is working outside and they hit the gas meter / hit with a \"little machine\"");
 
     doTest("T87",
@@ -1238,28 +1324,31 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "kind of a bobcat type machine\n" +
         "rp is on a work crew",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Gas Leak",
         "ADDR:4340 S ASH ST",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:tac 5",
         "INFO:rp is working outside and they hit the gas meter / hit with a \"little machine\" / rp is hard to understand / bobcat / kind of a bobcat type machine / rp is on a work crew");
 
     doTest("T88",
         "(Message From Hiplink) CFD \nBreathing\n1202 W 11TH ST\n123\nE1\ntac 4 female having trouble breathing",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Breathing",
         "ADDR:1202 W 11TH ST",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:female having trouble breathing");
 
     doTest("T89",
         "(Message From Hiplink) CFD \nDiabetic Shock\n1848 FREMONT AVE\n7621\nE6",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Diabetic Shock",
         "ADDR:1848 FREMONT AVE",
-        "UNIT:7621");
+        "MAP:7621",
+        "UNIT:E6");
 
     doTest("T90",
         "(Message From Hiplink) CFD \n" +
@@ -1272,28 +1361,31 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "she passed out on the floor\n" +
         "unconscious",
 
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Diabetic Shock",
         "ADDR:1848 FREMONT AVE",
-        "UNIT:7621",
+        "MAP:7621",
+        "UNIT:E6",
         "CH:tac 5",
         "INFO:rp's sister is diabetic / she passed out on the floor / unconscious");
 
     doTest("T91",
         "(Message From Hiplink) CFD \nFireworks\n1 EVENTS DR; EVENTS CENTER\n123\nF1\nevent 12 tac 8 and tac 9 e3 f1 br2",
-        "SRC:CFD-F1",
+        "SRC:CFD",
         "CALL:Fireworks",
         "ADDR:1 EVENTS DR",
         "PLACE:EVENTS CENTER",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:F1",
         "INFO:event 12 tac 8 and tac 9 e3 f1 br2");
 
     doTest("T92",
         "(Message From Hiplink) CFD \nMedical\n1045 BEAUMONT DR\n216\nE2\nrp has MS and is having an exacerbation\nhe is VERY weak\n77yom",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1045 BEAUMONT DR",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:rp has MS and is having an exacerbation / he is VERY weak / 77yom");
 
     doTest("T93",
@@ -1304,11 +1396,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E1\n" +
         "CALLBACK=(307)315-2134 LAT=42.848321 LON=-106.312015 UNC=46",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:1023 E 2ND ST",
         "PLACE:DEPEND A PAWN",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E1",
         "PHONE:(307)315-2134",
         "GPS:42.848321 -106.312015");
 
@@ -1322,10 +1415,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "baby fell off of a tailgate\n" +
         "is 7 months old",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:2502 NANPAP RD",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "PHONE:(307)259-8453",
         "GPS:42.881763 -106.335320",
         "INFO:baby fell off of a tailgate / is 7 months old");
@@ -1344,10 +1438,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "rp states he has a \"flat\" cry\n" +
         "unknown when it occurred he was \"informed\"",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:2502 NANPAP RD",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "PHONE:(307)259-8453",
         "GPS:42.881763 -106.335320",
         "CH:tac 4",
@@ -1355,27 +1450,30 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
 
     doTest("T96",
         "(Message From Hiplink) CFD \nFireworks\n1 EVENTS DR; EVENTS CENTER\n123\nF1\nevent 12 tac 8 and tac 9 e3 f1 br2\ncreated per f1",
-        "SRC:CFD-F1",
+        "SRC:CFD",
         "CALL:Fireworks",
         "ADDR:1 EVENTS DR",
         "PLACE:EVENTS CENTER",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:F1",
         "INFO:event 12 tac 8 and tac 9 e3 f1 br2 / created per f1");
 
     doTest("T97",
         "(Message From Hiplink) CFD \nFall\n53 GARDENIA\n672\nE6\nFEMALE WAS LAYING ON THE GROUND",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:53 GARDENIA",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "INFO:FEMALE WAS LAYING ON THE GROUND");
 
     doTest("T98",
         "(Message From Hiplink) CFD \nAccident PI\nE 2ND ST & S MCKINLEY ST\n312\nE3\ntac 4 2 veh accidnet unk inj\nthis rp is inolved",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:E 2ND ST & S MCKINLEY ST",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "CH:tac 4",
         "INFO:2 veh accidnet unk inj / this rp is inolved");
 
@@ -1391,61 +1489,68 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "neg inj in this vehicle\n" +
         "neg air bag",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:E 2ND ST & S MCKINLEY ST",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "CH:tac 4",
         "INFO:2 veh accidnet unk inj / this rp is inolved / was going through a yellow flashing and the other person went anyway / neg inj in this vehicle / neg air bag");
 
     doTest("T100",
         "(Message From Hiplink) CFD \nFall\n440 E A ST; Royal Inn\n132\nE1",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:440 E A ST",
         "PLACE:ROYAL INN",
-        "UNIT:132");
+        "MAP:132",
+        "UNIT:E1");
 
     doTest("T101",
         "(Message From Hiplink) CFD \nMedical\n1609 S CONWELL ST\n352\nE3\ntac 4 female with unk problem she is breathing",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1609 S CONWELL ST",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "CH:tac 4",
         "INFO:female with unk problem she is breathing");
 
     doTest("T102",
         "(Message From Hiplink) CFD \nAlarm Fire\n4305 S POPLAR ST; POPLAR LIVING CENTER\n216\nE2",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Alarm Fire",
         "ADDR:4305 S POPLAR ST",
         "PLACE:POPLAR LIVING CENTER",
-        "UNIT:216");
+        "MAP:216",
+        "UNIT:E2");
 
     doTest("T103",
         "(Message From Hiplink) CFD \nFall\n3331 OX CART CT\n672\nE6\n74 yao male",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:3331 OX CART CT",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "INFO:74 yao male");
 
     doTest("T104",
         "(Message From Hiplink) CFD \nSeizure\n1742 LISCO DR; LOFTIN LIFE SCIENCES\n213\nE2",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Seizure",
         "ADDR:1742 LISCO DR",
         "PLACE:LOFTIN LIFE SCIENCES",
-        "UNIT:213");
+        "MAP:213",
+        "UNIT:E2");
 
     doTest("T105",
         "(Message From Hiplink) CFD \nAlarm Fire\n140 W 9TH ST; PARK ELEMENTARY\n123\nE1\ngeneral fire alarm",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Alarm Fire",
         "ADDR:140 W 9TH ST",
         "PLACE:PARK ELEMENTARY",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "INFO:general fire alarm");
 
     doTest("T106",
@@ -1457,19 +1562,21 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "tac 4\n" +
         "rp states her fiance is drunk again and is going to have a seizure",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Seizure",
         "ADDR:572 WESTSHORE RD",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:rp states her fiance is drunk again and is going to have a seizure");
 
     doTest("T107",
         "(Message From Hiplink) CFD \nDiabetic Shock\nS POPLAR ST & W COLLINS DR\n123\nE1\nTAC 4 / non emergent per leo on scene",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Diabetic Shock",
         "ADDR:S POPLAR ST & W COLLINS DR",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "CH:TAC 4",
         "INFO:/ non emergent per leo on scene");
 
@@ -1482,11 +1589,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "No one is in the water, lighting hit the building and caused a power\n" +
         "interuption",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Service Call",
         "ADDR:3400 E 12TH ST",
         "PLACE:KELLY WALSH POOL",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "INFO:No one is in the water, lighting hit the building and caused a power / interuption");
 
     doTest("T109",
@@ -1499,34 +1607,38 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "2 vehicle accident\n" +
         "traffic blockage",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:S ELM ST & W 12TH ST",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "PHONE:(307)315-4449",
         "GPS:42.837646 -106.329117",
         "INFO:2 vehicle accident / traffic blockage");
 
     doTest("T110",
         "(Message From Hiplink) CFD \nUnconsciousness\n79 MAGNOLIA\n672\nE6",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:79 MAGNOLIA",
-        "UNIT:672");
+        "MAP:672",
+        "UNIT:E6");
 
     doTest("T111",
         "(Message From Hiplink) CFD \nAccident PI\nKING BLVD & S POPLAR ST\n123\nE1",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:KING BLVD & S POPLAR ST",
-        "UNIT:123");
+        "MAP:123",
+        "UNIT:E1");
 
     doTest("T112",
         "(Message From Hiplink) CFD \nMedical\nE 2ND ST & S WASHINGTON ST\n312\nE3\nNON EMERGENT PER LE ON SCENE / C/O NECK PAIN",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:E 2ND ST & S WASHINGTON ST",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "INFO:NON EMERGENT PER LE ON SCENE / C/O NECK PAIN");
 
     doTest("T113",
@@ -1538,27 +1650,30 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "states there is a resident that fell and needs help getting up\n" +
         "not aware of any injury, just needs lift assist",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:1930 E 12TH ST",
         "APT:212",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E5",
         "INFO:states there is a resident that fell and needs help getting up / not aware of any injury, just needs lift assist");
 
     doTest("T114",
         "(Message From Hiplink) CFD \nService Call\nE 2ND ST & S WASHINGTON ST\n312\nE3\na lot of oil on the ground",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Service Call",
         "ADDR:E 2ND ST & S WASHINGTON ST",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "INFO:a lot of oil on the ground");
 
     doTest("T115",
         "(Message From Hiplink) CFD \nUnconsciousness\n1930 E 12TH ST\n352\nE3\nunconscious female\nnot breathing\nthere is a pulse",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:1930 E 12TH ST",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "INFO:unconscious female / not breathing / there is a pulse");
 
     doTest("T116",
@@ -1578,19 +1693,21 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "THIS IS A NURSING HOME THEY DO NOT NEED LAW RESPONSE\n" +
         "parkinsons, cv",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:1930 E 12TH ST",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "CH:tac 5",
         "INFO:unconscious female / not breathing / there is a pulse / nurses are starting CPR / her name is Deryce Clapp / 75yof / in dining room / THIS IS A NURSING HOME THEY DO NOT NEED LAW RESPONSE / parkinsons, cv");
 
     doTest("T117",
         "(Message From Hiplink) CFD \nMedical\n1122 S CEDAR ST\n123\nE1",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1122 S CEDAR ST",
-        "UNIT:123");
+        "MAP:123",
+        "UNIT:E1");
 
     doTest("T118",
         "(Message From Hiplink) CFD \n" +
@@ -1601,65 +1718,73 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "rp rec'd a medical alarm from the female, believes she has fallen\n" +
         "born in 1952, rp can barely hear her on the medical phone",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:570 S WALSH DR",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "INFO:rp rec'd a medical alarm from the female, believes she has fallen / born in 1952, rp can barely hear her on the medical phone");
 
     doTest("T119",
         "(Message From Hiplink) CFD \nMedical\n266 HONEYSUCKLE\n672\nE6",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:266 HONEYSUCKLE",
-        "UNIT:672");
+        "MAP:672",
+        "UNIT:E6");
 
     doTest("T120",
         "(Message From Hiplink) CFD \nFall\n1130 E F ST\n132\nE1",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:1130 E F ST",
-        "UNIT:132");
+        "MAP:132",
+        "UNIT:E1");
 
     doTest("T121",
         "(Message From Hiplink) CFD \nMedical\nCY AVE & BOXELDER AVE\n216\nE2\nELDERLY MALE POSSIBLY HEART ATTACK OR STROKE",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:CY AVE & BOXELDER AVE",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:ELDERLY MALE POSSIBLY HEART ATTACK OR STROKE");
 
     doTest("T122",
         "(Message From Hiplink) CFD \nMedical\n1455 S MCKINLEY ST\n352\nE3",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1455 S MCKINLEY ST",
-        "UNIT:352");
+        "MAP:352",
+        "UNIT:E3");
 
     doTest("T123",
         "(Message From Hiplink) CFD \nBreathing\n4900 E 2ND ST; HOME DEPOT\n531\nE5\nat home depot at the service desk",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Breathing",
         "ADDR:4900 E 2ND ST",
         "PLACE:HOME DEPOT",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "INFO:at home depot at the service desk");
 
     doTest("T124",
         "(Message From Hiplink) CFD \nTest Spillman\n270 VALLEY DR; STATION 6\n672\nE6\nTEST PER STATION 6",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Test Spillman",
         "ADDR:270 VALLEY DR",
         "PLACE:STATION 6",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "INFO:TEST PER STATION 6");
 
     doTest("T125",
         "(Message From Hiplink) CFD \nSuicide Attempt\n103 JONQUIL\n672\nE6",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Suicide Attempt",
         "ADDR:103 JONQUIL",
-        "UNIT:672");
+        "MAP:672",
+        "UNIT:E6");
 
     doTest("T126",
         "(Message From Hiplink) CFD \n" +
@@ -1673,10 +1798,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "ANOTHER RP / IS OUTSIDE IN THE GARAGE / HELPING UNPACK BOXES\n" +
         "WIFE IS STILL INSIDE WITH THE MALE",
 
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Suicide Attempt",
         "ADDR:103 JONQUIL",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "INFO:80ish yo male shot himself / unk where / is breathing / ANOTHER RP / IS OUTSIDE IN THE GARAGE / HELPING UNPACK BOXES / WIFE IS STILL INSIDE WITH THE MALE");
 
     doTest("T127",
@@ -1688,35 +1814,39 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "behind the rp's house in a field there is a pile of wood\n" +
         "that has been doust in gasoline",
 
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Service Call",
         "ADDR:3408 APPLEGATE DR",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "INFO:behind the rp's house in a field there is a pile of wood / that has been doust in gasoline");
 
     doTest("T128",
         "(Message From Hiplink) CFD \nUnconsciousness\n2050 S BEVERLY ST\n352\nE3\n32 yo female collapsed\nis breathing\nnot awake",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:2050 S BEVERLY ST",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "INFO:32 yo female collapsed / is breathing / not awake");
 
     doTest("T129",
         "(Message From Hiplink) CFD \nSeizure\n245 COLUMBINE\n672\nE6\n**tac 5** early 40's female keeps having seizures",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Seizure",
         "ADDR:245 COLUMBINE",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "CH:tac 5",
         "INFO:early 40's female keeps having seizures");
 
     doTest("T130",
         "(Message From Hiplink) CFD \nMedical\n2655 COULTER DR\n7621\nE6\nelbow and shoulder pain for female le is on",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:2655 COULTER DR",
-        "UNIT:7621",
+        "MAP:7621",
+        "UNIT:E6",
         "INFO:elbow and shoulder pain for female le is on");
 
     doTest("T131",
@@ -1729,11 +1859,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "started 20 min ago\n" +
         "shaking and feeling weird",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:20 SE WYOMING BLVD",
         "PLACE:29 1ST INTERSTATE",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "PHONE:(307)251-9124",
         "GPS:42.852559 -106.272490",
         "INFO:started 20 min ago / shaking and feeling weird");
@@ -1749,64 +1880,72 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "rp now saying the male dislocated his shoulder when he was going to sleep\n" +
         "male is complaining of sweating and feeling like he is goi",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:340 S MCKINLEY ST",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "CH:tac 4",
         "INFO:43 yom with severe pain in his shoulder / in front of the building / rp now saying the male dislocated his shoulder when he was going to sleep / male is complaining of sweating and feeling like he is goi");
 
     doTest("T133",
         "(Message From Hiplink) CFD \nMedical\nHERRINGTON DR & VILLAGE DR\n672\nE6",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:HERRINGTON DR & VILLAGE DR",
-        "UNIT:672");
+        "MAP:672",
+        "UNIT:E6");
 
     doTest("T134",
         "(Message From Hiplink) CFD \nMedical\n554 GRANT AVE\n312\nE3",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:554 GRANT AVE",
-        "UNIT:312");
+        "MAP:312",
+        "UNIT:E3");
 
     doTest("T135",
         "(Message From Hiplink) CFD \nMedical\n1081 S FOREST DR\n531\nE5",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1081 S FOREST DR",
-        "UNIT:531");
+        "MAP:531",
+        "UNIT:E5");
 
     doTest("T136",
         "(Message From Hiplink) CFD \nMedical\n935 S CEDAR ST\n123\nE1",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:935 S CEDAR ST",
-        "UNIT:123");
+        "MAP:123",
+        "UNIT:E1");
 
     doTest("T137",
         "(Message From Hiplink) CFD \nAlarm Medical\n825 ST JOHN ST; 1/2\n132\nE1",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Alarm Medical",
         "ADDR:825 ST JOHN ST",
         "PLACE:1/2",
-        "UNIT:132");
+        "MAP:132",
+        "UNIT:E1");
 
     doTest("T138",
         "(Message From Hiplink) CFD \nService Call\n532 S JACKSON ST\n312\nE3\nPER E3",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Service Call",
         "ADDR:532 S JACKSON ST",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "INFO:PER E3");
 
     doTest("T139",
         "(Message From Hiplink) CFD \nMedical\n4400 E 2ND ST; WALMART\n531\nE5",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:4400 E 2ND ST",
         "PLACE:WALMART",
-        "UNIT:531");
+        "MAP:531",
+        "UNIT:E5");
 
     doTest("T140",
         "(Message From Hiplink) CFD \n" +
@@ -1817,61 +1956,68 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "TAC 4\n" +
         "in the back by the substance abuse section",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Chest Pain",
         "ADDR:1440 WILKINS CIR",
         "PLACE:COUNSELING CENTER",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "CH:TAC 4",
         "INFO:in the back by the substance abuse section");
 
     doTest("T141",
         "(Message From Hiplink) CFD \nFall\n4400 E 2ND ST; WALMART\n531\nE5",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:4400 E 2ND ST",
         "PLACE:WALMART",
-        "UNIT:531");
+        "MAP:531",
+        "UNIT:E5");
 
     doTest("T142",
         "(Message From Hiplink) CFD \nAlarm Medical\n2955 CENTRAL DR; Apt 105\n7629\nE6\nTAC 4 - medical panic alarm",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Alarm Medical",
         "ADDR:2955 CENTRAL DR",
         "APT:105",
-        "UNIT:7629",
+        "MAP:7629",
+        "UNIT:E6",
         "CH:TAC 4",
         "INFO:medical panic alarm");
 
     doTest("T143",
         "(Message From Hiplink) CFD \nFall\n2731 CHEROKEE LN\n672\nE6",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:2731 CHEROKEE LN",
-        "UNIT:672");
+        "MAP:672",
+        "UNIT:E6");
 
     doTest("T144",
         "(Message From Hiplink) CFD \nUnconsciousness\n2401 GRANDVIEW PL; 19\n216\nE2",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:2401 GRANDVIEW PL",
         "APT:19",
-        "UNIT:216");
+        "MAP:216",
+        "UNIT:E2");
 
     doTest("T145",
         "(Message From Hiplink) CFD \nAccident PI\nCY AVE & S ROBERTSON RD\n672\nE6\nmale in truck is complaining of head pain and memory loss",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:CY AVE & S ROBERTSON RD",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "INFO:male in truck is complaining of head pain and memory loss");
 
     doTest("T146",
         "(Message From Hiplink) CFD \nMedical\n3625 WHISPERING SPRINGS RD\n672\nE6",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:3625 WHISPERING SPRINGS RD",
-        "UNIT:672");
+        "MAP:672",
+        "UNIT:E6");
 
     doTest("T147",
         "(Message From Hiplink) CFD \n" +
@@ -1881,71 +2027,80 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E6\n" +
         "93yof fell out of wheelchair, emerg per le, in C spine at this time",
 
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:2000 FAIRGROUNDS RD",
         "PLACE:FAIRGROUNDS CENTER",
-        "UNIT:7629",
+        "MAP:7629",
+        "UNIT:E6",
         "INFO:93yof fell out of wheelchair, emerg per le, in C spine at this time");
 
     doTest("T148",
         "(Message From Hiplink) CFD \nMedical\n1250 N CENTER ST; 43\n132\nE1",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1250 N CENTER ST",
         "APT:43",
-        "UNIT:132");
+        "MAP:132",
+        "UNIT:E1");
 
     doTest("T149",
         "(Message From Hiplink) CFD \nUnusual Odor\n954 S WASHINGTON ST\n312\nE3",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Unusual Odor",
         "ADDR:954 S WASHINGTON ST",
-        "UNIT:312");
+        "MAP:312",
+        "UNIT:E3");
 
     doTest("T150",
         "(Message From Hiplink) CFD \nSeizure\n4400 E 2ND ST; WALMART\n531\nE5",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Seizure",
         "ADDR:4400 E 2ND ST",
         "PLACE:WALMART",
-        "UNIT:531");
+        "MAP:531",
+        "UNIT:E5");
 
     doTest("T151",
         "(Message From Hiplink) CFD \nMedical\n1380 IVY LN\n531\nE5",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1380 IVY LN",
-        "UNIT:531");
+        "MAP:531",
+        "UNIT:E5");
 
     doTest("T152",
         "(Message From Hiplink) CFD \nMedical\n19 VALLEY DR\n672\nE6\nNON EMERGENT per le on scene for female who hit head during accident",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:19 VALLEY DR",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "INFO:NON EMERGENT per le on scene for female who hit head during accident");
 
     doTest("T153",
         "(Message From Hiplink) CFD \nStroke\n114 N MONTANA AVE\n351\nE3",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Stroke",
         "ADDR:114 N MONTANA AVE",
-        "UNIT:351");
+        "MAP:351",
+        "UNIT:E3");
 
     doTest("T154",
         "(Message From Hiplink) CFD \nMedical\n77 GARDENIA\n672\nE6",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:77 GARDENIA",
-        "UNIT:672");
+        "MAP:672",
+        "UNIT:E6");
 
     doTest("T155",
         "(Message From Hiplink) CFD \nDiabetic Shock\n4340 S CENTER ST\n216\nE2\ntac 4",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Diabetic Shock",
         "ADDR:4340 S CENTER ST",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:tac 4");
 
     doTest("T156",
@@ -1962,47 +2117,52 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "is on his side\n" +
         "is breathi",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Seizure",
         "ADDR:1705 E 2ND ST",
         "PLACE:JOHNNY J'S",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "CH:tac 4",
         "INFO:male just collasped on the floor and is shaking / says that he walked up to the truck and collasped / right in front of the restaurant / on the corner by a white chevy truck / is on his side / is breathi");
 
     doTest("T157",
         "(Message From Hiplink) CFD \nSeizure\n450 S WOLCOTT ST; poverty resistance\n132\nE1\nfront part of the store\nin his 40's",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Seizure",
         "ADDR:450 S WOLCOTT ST",
         "PLACE:POVERTY RESISTANCE",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "INFO:front part of the store / in his 40's");
 
     doTest("T158",
         "(Message From Hiplink) CFD \nBreathing\n1745 W COFFMAN AVE\n216\nE2\ntac 5",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Breathing",
         "ADDR:1745 W COFFMAN AVE",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:tac 5");
 
     doTest("T159",
         "(Message From Hiplink) CFD \nFall\n2101 E 12TH ST; Dollar Tree\n352\nE3\ntac 6",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:2101 E 12TH ST",
         "PLACE:DOLLAR TREE",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "CH:tac 6");
 
     doTest("T160",
         "(Message From Hiplink) CFD \nTraumatic Inj\n111 N FOREST DR; lot 18\n531\nE5",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Traumatic Inj",
         "ADDR:111 N FOREST DR",
         "APT:18",
-        "UNIT:531");
+        "MAP:531",
+        "UNIT:E5");
 
     doTest("T161",
         "(Message From Hiplink) NCF \n" +
@@ -2016,40 +2176,44 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "says that there is someone shouting from the river -- saw them go by and\n" +
         "someone was yelling",
 
-        "SRC:NCF-SQ7",
+        "SRC:NCF",
         "CALL:Drowning",
         "ADDR:2800 SW WYOMING BLVD",
         "PLACE:MORAD PARK",
-        "UNIT:7629",
+        "MAP:7629",
+        "UNIT:SQ7",
         "PHONE:(307)258-0701",
         "GPS:42.823935 -106.371152",
         "INFO:right at the dock / rp is at the dock / says that there is someone shouting from the river -- saw them go by and / someone was yelling");
 
     doTest("T162",
         "(Message From Hiplink) CFD \nFall\n1410 S PENNSYLVANIA AVE; 5\n352\nE3\ntac 5\n68YOF FELL HIT HER HEAD\nNEG BLEEDING",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:1410 S PENNSYLVANIA AVE",
         "APT:5",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "CH:tac 5",
         "INFO:68YOF FELL HIT HER HEAD / NEG BLEEDING");
 
     doTest("T163",
         "(Message From Hiplink) CFD \nAccident PI\nCY AVE & W 12TH ST\n123\nE1\ntac 5  mc accident",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:CY AVE & W 12TH ST",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "CH:tac 5",
         "INFO:mc accident");
 
     doTest("T164",
         "(Message From Hiplink) CFD \nFall\n30 DAHLIA\n672\nE6\ntac 4 - elderly female fell",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:30 DAHLIA",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "CH:tac 4",
         "INFO:elderly female fell");
 
@@ -2063,11 +2227,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "29ISH YOF\n" +
         "SHE IS VERY INTOXICATED -- SHE HAS THROWN UP A CO",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:7515 W YELLOWSTONE HWY",
         "PLACE:HORSESHOE BAR",
-        "UNIT:7911",
+        "MAP:7911",
+        "UNIT:E1",
         "INFO:FEMALE AT THE BAR THAT IS NOT ABLE TO STAND UP -- HAS HAD TOO MUCH TO DRINK -- IS NOT ABLE TO STAND -- REFUSING FOOD AND WATER / 29ISH YOF / SHE IS VERY INTOXICATED -- SHE HAS THROWN UP A CO");
 
     doTest("T166",
@@ -2078,20 +2243,22 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E3\n" +
         "tac 4 - smell, possibly natural gas at this intersection",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Unusual Odor",
         "ADDR:E 21ST ST & S MISSOURI AVE",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "CH:tac 4",
         "INFO:smell, possibly natural gas at this intersection");
 
     doTest("T167",
         "(Message From Hiplink) CFD \nSuicide Attempt\n1005 N ELMA ST; apt 214\n132\nE1\ntac 4 - female",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Suicide Attempt",
         "ADDR:1005 N ELMA ST",
         "APT:214",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:female");
 
@@ -2107,11 +2274,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "There is a female on site -- Stephanie\n" +
         "rp is not onscene",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Service Call",
         "ADDR:1514 E 12TH ST",
         "PLACE:LIFE STEPS - BUILDING D",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "CH:tac 5",
         "INFO:Rp states the fire alarm goes of for like 2 minutes and then shuts off -- this / has been occurring for the last 2 hours / There is a female on site -- Stephanie / rp is not onscene");
 
@@ -2126,10 +2294,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "saying no injuries\n" +
         "honda accord vs pont grand am",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:BLACKMORE RD & SE WYOMING BLVD",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "PHONE:(307)258-1140",
         "GPS:42.840897 -106.265430",
         "INFO:airbag deployment / saying no injuries / honda accord vs pont grand am");
@@ -2144,30 +2313,33 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "tac 4\n" +
         "CALLBACK=(303)263-7006 LAT=42.859812 LON=-106.328259 UNC=25",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Seizure",
         "ADDR:300 W F ST",
         "PLACE:RAMADA INN",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "PHONE:(303)263-7006",
         "GPS:42.859812 -106.328259",
         "CH:tac 4");
 
     doTest("T171",
         "(Message From Hiplink) EVF \nAccident PI\n223 WILLIAMS ST\n12135\nR12\ncall to station 5 from Life Alert",
-        "SRC:EVF-R12",
+        "SRC:EVF",
         "CALL:Accident PI",
         "ADDR:223 WILLIAMS ST",
-        "UNIT:12135",
+        "MAP:12135",
+        "UNIT:R12",
         "INFO:call to station 5 from Life Alert");
 
     doTest("T172",
         "(Message From Hiplink) CFD \nFall\n154 N BEECH ST; apt 207\n132\nE1",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:154 N BEECH ST",
         "APT:207",
-        "UNIT:132");
+        "MAP:132",
+        "UNIT:E1");
 
     doTest("T173",
         "(Message From Hiplink) CFD \n" +
@@ -2181,11 +2353,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "no bleeding\n" +
         "he is with CNA's",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:3955 E 12TH ST",
         "PLACE:MEADOW WIND ASSISTED",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "INFO:in the dining room / male, 70's, fell from his chair / having a hard time breathing / no bleeding / he is with CNA's");
 
     doTest("T174",
@@ -2198,11 +2371,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "zone 1, no description\n" +
         "alarm co is contacting resp",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Alarm Fire",
         "ADDR:6301 E 2ND ST",
         "PLACE:GMC DEALER",
-        "UNIT:513",
+        "MAP:513",
+        "UNIT:E5",
         "PHONE:(307)267-7970",
         "GPS:42.830071 -106.313131",
         "INFO:zone 1, no description / alarm co is contacting resp");
@@ -2217,11 +2391,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "there are children that play in the yards and the rp is worried it will fall\n" +
         "and hurt someone",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Power Line Down",
         "ADDR:933 N WASHINGTON ST",
         "PLACE:IN ALLEY",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "INFO:there is a power pole with an arm broken and the lines are about to fall down / there are children that play in the yards and the rp is worried it will fall / and hurt someone");
 
     doTest("T176",
@@ -2234,10 +2409,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "male having a seizure behind the albertsons gas station\n" +
         "about late 30's",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Seizure",
         "ADDR:W 15TH ST & S POPLAR ST",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "PHONE:(307)262-1854",
         "GPS:42.835554 -106.337206",
         "INFO:male having a seizure behind the albertsons gas station / about late 30's");
@@ -2253,39 +2429,43 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "seasons day spa\n" +
         "was loking out windows and saw a bright flash and puff of smoke on ba",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Smoke Investig",
         "ADDR:232 W 1ST ST",
         "PLACE:SEASONS DAY SPA",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "INFO:rp is at modern electric / says with last lightning strike there was a cloud of smoke that went over the / seasons day spa / was loking out windows and saw a bright flash and puff of smoke on ba");
 
     doTest("T178",
         "(Message From Hiplink) CFD \nAlarm Medical\n760 LANDMARK DR; apt g614\n531\nE5\ntac 4 female having major stomach pain\n54yof",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Alarm Medical",
         "ADDR:760 LANDMARK DR",
         "APT:G614",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "CH:tac 4",
         "INFO:female having major stomach pain / 54yof");
 
     doTest("T179",
         "(Message From Hiplink) CFD \nMedical\n3955 E 12TH ST; MEADOW WIND\n531\nE5\nFEMALE IN RM 320 -- 71 YOF HAVING DIFFICULTY FORMING WORDS",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:3955 E 12TH ST",
         "PLACE:MEADOW WIND",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "INFO:FEMALE IN RM 320 -- 71 YOF HAVING DIFFICULTY FORMING WORDS");
 
     doTest("T180",
         "(Message From Hiplink) CFD \nDiabetic Shock\n1451 MISSOURI AVE; apt 5 c\n352\nE3\ntac 5 - male",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Diabetic Shock",
         "ADDR:1451 MISSOURI AVE",
         "APT:5 C",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "CH:tac 5",
         "INFO:male");
 
@@ -2302,11 +2482,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "female will be waiting at the club house to help guide them\n" +
         "53",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Chest Pain",
         "ADDR:1601 KING BLVD",
         "PLACE:THREE CROWNS",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "PHONE:(307)277-4751",
         "GPS:42.842873 -106.350121",
         "CH:tac 4",
@@ -2314,10 +2495,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
 
     doTest("T182",
         "(Message From Hiplink) CFD \nUnconsciousness\nE A ST & N ELK ST\n312\nE3\nCALLBACK=(307)258-3763 LAT=42.852657 LON=-106.302208 UNC=14",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:E A ST & N ELK ST",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "PHONE:(307)258-3763",
         "GPS:42.852657 -106.302208");
 
@@ -2331,11 +2513,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "she is cons and breathing\n" +
         "rp states she is having weird eye movement",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:2521 E 15TH ST",
         "PLACE:WBI ADULT UNIT",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "INFO:female fell and is having some issues from the fall / she is cons and breathing / rp states she is having weird eye movement");
 
     doTest("T184",
@@ -2353,29 +2536,32 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "someone will be waiting at the west gate\n" +
         "mostly alert",
 
-        "SRC:NCF-SQ7",
+        "SRC:NCF",
         "CALL:Breathing",
         "ADDR:2000 FAIRGROUNDS RD",
         "PLACE:FAIRGROUNDS CENTER",
-        "UNIT:7629",
+        "MAP:7629",
+        "UNIT:SQ7",
         "CH:tac 4",
         "INFO:back lot at bunkhouses / near gate b / beside the coliseum, where the petting zoo / said he can't breath / chest pain / 43yom / someone will be waiting at the west gate / mostly alert");
 
     doTest("T185",
         "(Message From Hiplink) CFD \nBreathing\n1804 AMHERST AVE\n352\nE3\ntac 4 - female",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Breathing",
         "ADDR:1804 AMHERST AVE",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "CH:tac 4",
         "INFO:female");
 
     doTest("T186",
         "(Message From Hiplink) CFD \nHemorrhage\n224 N JEFFERSON ST\n132\nE1\ntac 4 - ear bleeding",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Hemorrhage",
         "ADDR:224 N JEFFERSON ST",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:ear bleeding");
 
@@ -2389,29 +2575,32 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "4723014\n" +
         "rp is not home alone",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Breathing",
         "ADDR:1137 S CHESTNUT ST",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:first party female having dif breathing / 4723014 / rp is not home alone");
 
     doTest("T188",
         "(Message From Hiplink) CFD \nMedical\nE A ST & N WILSON ST\n312\nE3\nfemale complaing of rib pain per a131",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:E A ST & N WILSON ST",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "INFO:female complaing of rib pain per a131");
 
     doTest("T189",
         "(Message From Hiplink) CFD \nService Call\n1930 E 12TH ST; PARK PLACE; room 103\n352\nE3\nmary heinerman needs a lift assist",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Service Call",
         "ADDR:1930 E 12TH ST",
         "APT:103",
         "PLACE:PARK PLACE",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "INFO:mary heinerman needs a lift assist");
 
     doTest("T190",
@@ -2422,10 +2611,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E3\n" +
         "MEDICAL NON EMERG PER LE ON SCENE FOR A MALE THAT ISN'T WAKING UP -- POSSIBLY TOOK SOME MUSCLE RELAXERS AND ALCOHOL",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:FARNUM ST & S WASHINGTON ST",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "INFO:MEDICAL NON EMERG PER LE ON SCENE FOR A MALE THAT ISN'T WAKING UP -- POSSIBLY TOOK SOME MUSCLE RELAXERS AND ALCOHOL");
 
     doTest("T191",
@@ -2436,10 +2626,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E6\n" +
         "tac 4  bi polar male suffering from depression has not been taking care of himself and would like to be taken to the wmc",
 
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:320 INDIAN PAINTBRUSH",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "CH:tac 4",
         "INFO:bi polar male suffering from depression has not been taking care of himself and would like to be taken to the wmc");
 
@@ -2455,46 +2646,51 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "mar dodge durango vs sil honda crv\n" +
         "TRAFFIC BLOCKAGE",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:E 12TH ST & S WOLCOTT ST",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:just east of the intersection / neg injuries, but rp has 2 kids she would like medical just in case / mar dodge durango vs sil honda crv / TRAFFIC BLOCKAGE");
 
     doTest("T193",
         "(Message From Hiplink) CFD \nStructure FIRE\nBURLINGTON AVE & N BEVERLY ST\n132\nE1\ntac 5",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Structure FIRE",
         "ADDR:BURLINGTON AVE & N BEVERLY ST",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:tac 5");
 
     doTest("T194",
         "(Message From Hiplink) CFD \nAbdominal\n1021 S WISCONSIN AVE ;4\n351\nE3\n56 yof\ncons\nbreathing",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Abdominal",
         "ADDR:1021 S WISCONSIN AVE",
         "APT:4",
-        "UNIT:351",
+        "MAP:351",
+        "UNIT:E3",
         "INFO:56 yof / cons / breathing");
 
     doTest("T195",
         "(Message From Hiplink) CFD \nFall\n211 E 6TH ST; apt 809\n132\nE1\ntac 5   female fell in bathtub",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:211 E 6TH ST",
         "APT:809",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:tac 5",
         "INFO:female fell in bathtub");
 
     doTest("T196",
         "(Message From Hiplink) CFD \nMedical\n733 E 13TH ST\n352\nE3\nrp's sister is so weak she can't walk\n96yof\ncorrection, 93yof",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:733 E 13TH ST",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "INFO:rp's sister is so weak she can't walk / 96yof / correction, 93yof");
 
     doTest("T197",
@@ -2513,11 +2709,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "unk heart hx\n" +
         "Call type f reopened by Jackson,",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Cardiac Problem",
         "ADDR:419 S WASHINGTON ST",
         "PLACE:SAGE PRIMARY CARE",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E1",
         "INFO:Dr. Lloyd's office in McMurry center / having trouble breathing also / 85yof / cons / breathing / lot of difficulty / dr and nurses are with her / unk heart hx / Call type f reopened by Jackson,");
 
     doTest("T198",
@@ -2535,21 +2732,23 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "cons\n" +
         "breathing",
 
-        "SRC:NCF-SQ7",
+        "SRC:NCF",
         "CALL:Traumatic Inj",
         "ADDR:2800 SW WYOMING BLVD",
         "PLACE:MORAD PARK",
-        "UNIT:7629",
+        "MAP:7629",
+        "UNIT:SQ7",
         "PHONE:(307)277-2540",
         "GPS:42.821478 -106.374264",
         "INFO:back pain / bicycle accident / lower back pain / dogs ran out in front of pt / neg bleeding / cons / breathing");
 
     doTest("T199",
         "(Message From Hiplink) CFD \nFall\n2225 E 5TH ST\n351\nE3\nLift assist\nrp's husband has MS and his legs gave out",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:2225 E 5TH ST",
-        "UNIT:351",
+        "MAP:351",
+        "UNIT:E3",
         "INFO:Lift assist / rp's husband has MS and his legs gave out");
 
     doTest("T200",
@@ -2565,11 +2764,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "has pacemaker and defibrillator\n" +
         "pacemaker hasnt activated",
 
-        "SRC:NCF-SQ7",
+        "SRC:NCF",
         "CALL:Chest Pain",
         "ADDR:1020 EAST END RD",
         "APT:200",
-        "UNIT:1475",
+        "MAP:1475",
+        "UNIT:SQ7",
         "INFO:73 yom / cons / breathing / dr is with him / has pacemaker and defibrillator / pacemaker hasnt activated");
 
     doTest("T201",
@@ -2581,10 +2781,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "investigations -- male is over heating and vomitting\n" +
         "Call type f reopened by Jackson, Lori at 11 43 44 07/10/2012",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:201 N DAVID ST",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "INFO:investigations -- male is over heating and vomitting / Call type f reopened by Jackson, Lori at 11 43 44 07/10/2012");
 
     doTest("T202",
@@ -2602,10 +2803,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "red truck vs red car\n" +
         "this rp",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:SW WYOMING BLVD & S POPLAR ST",
-        "UNIT:276",
+        "MAP:276",
+        "UNIT:E2",
         "PHONE:(307)315-1858",
         "GPS:42.806017 -106.344845",
         "INFO:accident w/inj / 2 vehicle / knocked out power to stop light / mar suv and 4 dr sedan / corr pu and 4 dr sedan / red truck vs red car / this rp");
@@ -2623,21 +2825,23 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "just saw wagons go flying\n" +
         "Kimb",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:W 1ST ST & N POPLAR ST",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "PHONE:(307)258-4952",
         "GPS:42.845510 -106.352570",
         "INFO:Kimberly Wilkinson witness, people are hit and horses are hit / horse trailer down / doesn't know what hit them / just saw wagons go flying / Kimb");
 
     doTest("T204",
         "(Message From Hiplink) CFD \nAlarm Fire\n4260 HOSPITALITY LN; courtyard marriott\n531\nE5\naudible fire alarm -- general",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Alarm Fire",
         "ADDR:4260 HOSPITALITY LN",
         "PLACE:COURTYARD MARRIOTT",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "INFO:audible fire alarm -- general");
 
     doTest("T205",
@@ -2653,10 +2857,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "doesn't know what hit them\n" +
         "just saw wagons go flyi",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:W 1ST ST & N POPLAR ST",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "PHONE:(307)258-4952",
         "GPS:42.845510 -106.352570",
         "CH:tac 6",
@@ -2671,20 +2876,22 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALLBACK=(307)259-0368 LAT=42.812669 LON=-106.348708 UNC=19\n" +
         "a woman beside her car with severe abdominal and back pain",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Abdominal",
         "ADDR:2000 W 38TH ST",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "PHONE:(307)259-0368",
         "GPS:42.812669 -106.348708",
         "INFO:a woman beside her car with severe abdominal and back pain");
 
     doTest("T207",
         "(Message From Hiplink) CFD \nUnconsciousness\nN ASH ST & W A ST\n123\nE1\ntac 5 male in the street",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:N ASH ST & W A ST",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "CH:tac 5",
         "INFO:male in the street");
 
@@ -2699,10 +2906,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "rp said everybody was out of the are \"for the most part\"\n" +
         "said he had to call someone who was going to head",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Gas Leak",
         "ADDR:972 CORNWALL",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "PHONE:(307)277-4466",
         "GPS:42.838923 -106.254637",
         "INFO:back hoe was digging and hit a main gas line / rp said everybody was out of the are \"for the most part\" / said he had to call someone who was going to head");
@@ -2720,19 +2928,21 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "not injured\n" +
         "has been on the ground for about 5 min",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:612 PARK AVE",
         "PLACE:CMMTS",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "INFO:in the alley off of kirk / says that he slipped down to the ground / weighs about 200 lbs / and they can't get him up / not injured / has been on the ground for about 5 min");
 
     doTest("T210",
         "(Message From Hiplink) CFD \nFall\n3331 OX CART CT\n672\nE6\ntac 4 - male fell, not injured",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:3331 OX CART CT",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "CH:tac 4",
         "INFO:male fell, not injured");
 
@@ -2745,29 +2955,32 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALLBACK=(620)344-0668 LAT=42.848718 LON=-106.274679 UNC=28\n" +
         "MC VS PC",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:E 2ND ST & THELMA DR",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "PHONE:(620)344-0668",
         "GPS:42.848718 -106.274679",
         "INFO:MC VS PC");
 
     doTest("T212",
         "(Message From Hiplink) CFD \nMedical\n1309 W 12TH ST\n123\nE1\nNON EMERGENT FOR PERSON THAT FELL OFF A PORCH",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1309 W 12TH ST",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "INFO:NON EMERGENT FOR PERSON THAT FELL OFF A PORCH");
 
     doTest("T213",
         "(Message From Hiplink) CFD \nDiabetic Shock\n1451 MISSOURI AVE; apt 5 c\n352\nE3\ntac 4- combative diabetic",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Diabetic Shock",
         "ADDR:1451 MISSOURI AVE",
         "APT:5 C",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "CH:tac 4",
         "INFO:combative diabetic");
 
@@ -2783,29 +2996,32 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "SHE IS BARELY CONSCIOUS -- SHE IS 59 YOF\n" +
         "SHE IS NOT",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Abdominal",
         "ADDR:611 LIND AVE",
         "APT:204",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "CH:tac 4",
         "INFO:female w severe diahrea / RP'S MOTHER IS NOT ALERT -- JUST GOT OUT OF THE HOSPITAL YESTERDAY -- SHE IS NOT / RESPONDING -- SHE IS IN THE BATHROOM / SHE IS BARELY CONSCIOUS -- SHE IS 59 YOF / SHE IS NOT");
 
     doTest("T215",
         "(Message From Hiplink) CFD \nAlarm Medical\n1035 N WASHINGTON ST\n132\nE1\ntac 6 - no response on alarm",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Alarm Medical",
         "ADDR:1035 N WASHINGTON ST",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:tac 6",
         "INFO:no response on alarm");
 
     doTest("T216",
         "(Message From Hiplink) CFD \nMedical\n1220 KINGSBURY DR\n531\nE5\nper a190 non emergent",
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1220 KINGSBURY DR",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "INFO:per a190 non emergent");
 
     doTest("T217",
@@ -2818,28 +3034,31 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "pursuit\n" +
         "TAC 4",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:4149 COUNTRY CLUB RD",
         "PLACE:CASPER COUNTRY CLU",
-        "UNIT:5137",
+        "MAP:5137",
+        "UNIT:E5",
         "CH:TAC 4",
         "INFO:non emergent per law to check on a few that were involved in a foot / pursuit");
 
     doTest("T218",
         "(Message From Hiplink) CFD \nMedical\n2014 LARAMIE AVE\n7621\nE6\ntac 4 -",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:2014 LARAMIE AVE",
-        "UNIT:7621",
+        "MAP:7621",
+        "UNIT:E6",
         "CH:tac 4");
 
     doTest("T219",
         "(Message From Hiplink) CFD \nAccident PI\nS POPLAR ST & KING BLVD\n123\nE1\nTAC 4 - 2 vehs vs SEMI",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:S POPLAR ST & KING BLVD",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "CH:TAC 4",
         "INFO:2 vehs vs SEMI");
 
@@ -2855,20 +3074,22 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "64yom\n" +
         "now saying they are at 1145 N wolcott",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Sickness",
         "ADDR:1125 N WOLCOTT ST",
         "APT:5",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E3",
         "CH:TAC 4",
         "INFO:rp's roommate's son is really sick and needs an ambulance / he has lost 27 lbs, turning yellow, will not go to dr. / 64yom / now saying they are at 1145 N wolcott");
 
     doTest("T221",
         "(Message From Hiplink) CFD \nChest Pain\n190 ASTER\n672\nE6\n*TAC 4* 90 yo female w/ chest and back pain",
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Chest Pain",
         "ADDR:190 ASTER",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "CH:TAC 4",
         "INFO:90 yo female w/ chest and back pain");
 
@@ -2881,20 +3102,22 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "pt fell struck his ribcage on the right has abdominal pain has had a BM in over a month hyper active bowel sounds --vital signs are stable\n" +
         "is with a dr",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Abdominal",
         "ADDR:4140 S POPLAR ST",
         "PLACE:VA CLINIC",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:pt fell struck his ribcage on the right has abdominal pain has had a BM in over a month hyper active bowel sounds --vital signs are stable / is with a dr");
 
     doTest("T223",
         "(Message From Hiplink) CFD \nFall\n111 W MIDWEST AVE; slumberland\n123\nE1\ntac 4   male fell onto sidewalk",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:111 W MIDWEST AVE",
         "PLACE:SLUMBERLAND",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:male fell onto sidewalk");
 
@@ -2914,11 +3137,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "rp went to the apt. and the landlord let her in\n" +
         "rp's",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Dead Body",
         "ADDR:1005 N ELMA ST",
         "APT:111",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "CH:TAC 4",
         "INFO:rp states her mother is dead / she is freezing cold / not breathing / mother is 75yoa / Carol Christy / rp has not been able to reach her today / rp went to the apt. and the landlord let her in / rp's");
 
@@ -2933,10 +3157,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "can not see fire just smoke\n" +
         "SERVERAL CALLS / STATE TO THE SOUTH OF / NEAR SANDPIPER AND COLE CREEK",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Smoke Investig",
         "ADDR:COLE CREEK RD & E SANDPIPER ST",
-        "UNIT:1312",
+        "MAP:1312",
+        "UNIT:E5",
         "INFO:E5 INVESTIGATE PER FD1 / have another rp who is on appian lane who can see smoke / can not see fire just smoke / SERVERAL CALLS / STATE TO THE SOUTH OF / NEAR SANDPIPER AND COLE CREEK");
 
     doTest("T226",
@@ -2948,10 +3173,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "CALLBACK=(307)797-2137 LAT=42.828217 LON=-106.278969 UNC=16\n" +
         "tac 6 -4yo locked in veh",
 
-        "SRC:CFD-E5",
+        "SRC:CFD",
         "CALL:Lockout",
         "ADDR:3552 E 22ND ST",
-        "UNIT:531",
+        "MAP:531",
+        "UNIT:E5",
         "PHONE:(307)797-2137",
         "GPS:42.828217 -106.278969",
         "CH:tac 6",
@@ -2959,21 +3185,23 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
 
     doTest("T227",
         "(Message From Hiplink) CFD \nMedical\n1631 CAMPUS DR; krampert theatre\n213\nE2\ntac 6 - female collapsed, unknown further, 3rd party",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1631 CAMPUS DR",
         "PLACE:KRAMPERT THEATRE",
-        "UNIT:213",
+        "MAP:213",
+        "UNIT:E2",
         "CH:tac 6",
         "INFO:female collapsed, unknown further, 3rd party");
 
     doTest("T228",
         "(Message From Hiplink) CFD \nDiabetic Shock\n1440 WILKINS CIR; cwcc\n123\nE1\ntac 6 -",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Diabetic Shock",
         "ADDR:1440 WILKINS CIR",
         "PLACE:CWCC",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "CH:tac 6");
 
     doTest("T229",
@@ -2985,10 +3213,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "tac 4- male very dk, advising he doesn't feel welll\n\n" +
         "CALLBACK=(307)258-7633 LAT=42.836970 LON=-106.318259 UNC=16",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1326 OAKCREST AVE",
-        "UNIT:352",
+        "MAP:352",
+        "UNIT:E3",
         "PHONE:(307)258-7633",
         "GPS:42.836970 -106.318259",
         "CH:tac 4",
@@ -3002,27 +3231,30 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E6\n" +
         "nowcap residence unusual odor engine 6 self dispatched created per e6",
 
-        "SRC:CFD-E6",
+        "SRC:CFD",
         "CALL:Service Call",
         "ADDR:148 COLUMBINE",
-        "UNIT:672",
+        "MAP:672",
+        "UNIT:E6",
         "INFO:nowcap residence unusual odor engine 6 self dispatched created per e6");
 
     doTest("T231",
         "(Message From Hiplink) CFD \nMedical\n1120 N DURBIN ST\n132\nE1\nRP SAYS GRANDMOTHER IS PARANOID AND CAN NOT MAKE IT OUT THE DOOR",
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1120 N DURBIN ST",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "INFO:RP SAYS GRANDMOTHER IS PARANOID AND CAN NOT MAKE IT OUT THE DOOR");
 
     doTest("T232",
         "(Message From Hiplink) CFD \nMedical\n1700 W 25TH ST ;apt 19d\n216\nE2\ntac 4'",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1700 W 25TH ST",
         "APT:19D",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:tac 4",
         "INFO:'");
 
@@ -3037,11 +3269,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "fell on her hip and is hurting\n" +
         "requesting non-emergent",
 
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:1705 E 2ND ST",
         "PLACE:JOHNNY J'S",
-        "UNIT:312",
+        "MAP:312",
+        "UNIT:E3",
         "INFO:a woman tripped on the curb / no bleeding / fell on her hip and is hurting / requesting non-emergent");
 
     doTest("T234",
@@ -3060,34 +3293,38 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "started yesterday\n" +
         "front door is unlocked",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:300 E COLLINS DR",
         "APT:1101",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:E1",
         "INFO:there is a lady that is dizzy and has a headache / 86yof / Skyline apartments / is awake and breathing normally / this has happened before / vision is blurry / started yesterday / front door is unlocked");
 
     doTest("T235",
         "(Message From Hiplink) CFD \nMedical\n2263 W 42ND ST\n216\nE2",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:2263 W 42ND ST",
-        "UNIT:216");
+        "MAP:216",
+        "UNIT:E2");
 
     doTest("T236",
         "(Message From Hiplink) CFD \nGas Leak\n1634 BELLAIRE DR\n216\nE2\nsmells like gas outside her house",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Gas Leak",
         "ADDR:1634 BELLAIRE DR",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:smells like gas outside her house");
 
     doTest("T237",
         "(Message From Hiplink) CFD \nUnconsciousness\n1304 S LAUREL ST\n216\nE2\n****TAC 4***** NOT BREATHING",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Unconsciousness",
         "ADDR:1304 S LAUREL ST",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:TAC 4",
         "INFO:NOT BREATHING");
 
@@ -3103,10 +3340,11 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "off duty fire fighter on site\n" +
         "WOLCOT BEST SPOT TO COME IN / EVERYTHIGN LEFT B",
 
-        "SRC:CFD-F1",
+        "SRC:CFD",
         "CALL:Misc. FIRE",
         "ADDR:623 S WOLCOTT ST",
-        "UNIT:132",
+        "MAP:132",
+        "UNIT:F1",
         "PHONE:(307)262-6591",
         "GPS:42.844234 -106.323216",
         "INFO:flat bed trailer with trash on it on fire / best access 7th & wolcott / off duty fire fighter on site / WOLCOT BEST SPOT TO COME IN / EVERYTHIGN LEFT B");
@@ -3120,11 +3358,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "RP did not stay on line and advise how much gas is leaking frm gas line to\n" +
         "generator",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Gas Leak",
         "ADDR:596 N POPLAR ST",
         "PLACE:BURGER KING",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "INFO:RP did not stay on line and advise how much gas is leaking frm gas line to / generator");
 
     doTest("T240",
@@ -3140,19 +3379,21 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "no rp\n" +
         "getting an additional fire alarm",
 
-        "SRC:NCF-E7",
+        "SRC:NCF",
         "CALL:Alarm Fire",
         "ADDR:5800 S POPLAR ST",
-        "UNIT:762",
+        "MAP:762",
+        "UNIT:E7",
         "CH:tac 5",
         "INFO:zone 30 smoke / Leslie Chapin -- is there and can not find any problems / 472-3177 / no rp / getting an additional fire alarm");
 
     doTest("T241",
         "(Message From Hiplink) CFD \nWildland FIRE\n1654 SYCAMORE ST\n216\nBR2",
-        "SRC:CFD-BR2",
+        "SRC:CFD",
         "CALL:Wildland FIRE",
         "ADDR:1654 SYCAMORE ST",
-        "UNIT:216");
+        "MAP:216",
+        "UNIT:BR2");
 
     doTest("T242",
         "(Message From Hiplink) CFD \n" +
@@ -3167,43 +3408,48 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "james is in still in the rps apt\n" +
         "james kicked in the rps door",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Stabbing",
         "ADDR:1200 BOULDER DR",
         "APT:37A",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:male stabbed in neck / is walking to the mini mart / james wilkins is the suspect / rp was stabbed in the neck / james is in still in the rps apt / james kicked in the rps door");
 
     doTest("T243",
         "(Message From Hiplink) CFD \nMedical\n1951 BRENTWOOD DR\n216\nE2",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1951 BRENTWOOD DR",
-        "UNIT:216");
+        "MAP:216",
+        "UNIT:E2");
 
     doTest("T244",
         "(Message From Hiplink) CFD \nFall\n4041 S POPLAR ST; LCCC\n216\nE2\nPOSSIBLE HIP FRACTURE FROM FALL -- RESPOND TO DOOR 2 -- TAC 4",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:4041 S POPLAR ST",
         "PLACE:LCCC",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:POSSIBLE HIP FRACTURE FROM FALL -- RESPOND TO DOOR 2 -- TAC 4");
 
     doTest("T245",
         "(Message From Hiplink) CFD \nMedical\n4140 S POPLAR ST\n216\nE2\npt with generalized weakness, hard to walk",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:4140 S POPLAR ST",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:pt with generalized weakness, hard to walk");
 
     doTest("T246",
         "(Message From Hiplink) CFD \nMedical\n4400 SE WYOMING BLVD\n216\nE2\nspiting up blood requests ambulance",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:4400 SE WYOMING BLVD",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:spiting up blood requests ambulance");
 
     doTest("T247",
@@ -3214,27 +3460,30 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E2\n" +
         "rp sees and smells smoke around the area of outer drive and poplar",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Smoke Investig",
         "ADDR:S POPLAR ST & SW WYOMING BLVD",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:rp sees and smells smoke around the area of outer drive and poplar");
 
     doTest("T248",
         "(Message From Hiplink) CFD \nAlarm Medical\n2600 S POPLAR ST\n216\nE2\ntac 4  86 yo male with chest pains and breathing",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Alarm Medical",
         "ADDR:2600 S POPLAR ST",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:tac 4",
         "INFO:86 yo male with chest pains and breathing");
 
     doTest("T249",
         "(Message From Hiplink) CFD \nGas Leak\n204 W 15TH ST\n213\nE2\nhit a gas line with a nail\ncan hear hissing",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Gas Leak",
         "ADDR:204 W 15TH ST",
-        "UNIT:213",
+        "MAP:213",
+        "UNIT:E2",
         "INFO:hit a gas line with a nail / can hear hissing");
 
     doTest("T250",
@@ -3245,11 +3494,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "SQ7\n" +
         "**tac 4** 75 yof fell and needs help getting back up / non emergent per rp, female just needs help up",
 
-        "SRC:NCF-SQ7",
+        "SRC:NCF",
         "CALL:Fall",
         "ADDR:2600 FLEETWOOD PL",
         "APT:111",
-        "UNIT:7621",
+        "MAP:7621",
+        "UNIT:SQ7",
         "CH:tac 4",
         "INFO:75 yof fell and needs help getting back up / non emergent per rp, female just needs help up");
 
@@ -3262,70 +3512,78 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "alarm co has rcvd 7 hits from this alarm\n" +
         "no answer at residence",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Alarm Medical",
         "ADDR:2030 W 44TH ST",
         "PLACE:SPENCER HEDGES RESIDENCE",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:alarm co has rcvd 7 hits from this alarm / no answer at residence");
 
     doTest("T252",
         "(Message From Hiplink) CFD \nCardiac Problem\n4140 S POPLAR ST; va clinic\n216\nE2\n***tac 4*** 66 yof possilby having and MI",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Cardiac Problem",
         "ADDR:4140 S POPLAR ST",
         "PLACE:VA CLINIC",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:tac 4",
         "INFO:66 yof possilby having and MI");
 
     doTest("T253",
         "(Message From Hiplink) CFD \nStroke\n4305 S POPLAR ST; POPLAR LIVING CENTER\n216\nE2\n***Tac4*** 91 female cva 607b",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Stroke",
         "ADDR:4305 S POPLAR ST",
         "PLACE:POPLAR LIVING CENTER",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:***Tac4*** 91 female cva 607b");
 
     doTest("T254",
         "(Message From Hiplink) CFD \nAccident PI\nS POPLAR ST & BOULDER DR\n216\nE2\nneg inj\nsome road blockage\nwhite elantra vs mc",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Accident PI",
         "ADDR:S POPLAR ST & BOULDER DR",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:neg inj / some road blockage / white elantra vs mc");
 
     doTest("T255",
         "(Message From Hiplink) CFD \nSeizure\n1522 WESTRIDGE TER\n216\nE2\nCALLBACK=(504)609-1730 LAT=42.841240 LON=-106.361539 UNC=2278",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Seizure",
         "ADDR:1522 WESTRIDGE TER",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "PHONE:(504)609-1730",
         "GPS:42.841240 -106.361539");
 
     doTest("T256",
         "(Message From Hiplink) CFD \nAbdominal\n1912 BOXELDER AVE\n216\nE2",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Abdominal",
         "ADDR:1912 BOXELDER AVE",
-        "UNIT:216");
+        "MAP:216",
+        "UNIT:E2");
 
     doTest("T257",
         "(Message From Hiplink) CFD \nChest Pain\n2130 W 41ST ST\n216\nE2",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Chest Pain",
         "ADDR:2130 W 41ST ST",
-        "UNIT:216");
+        "MAP:216",
+        "UNIT:E2");
 
     doTest("T258",
         "(Message From Hiplink) CFD \nMedical\n2401 GRANDVIEW PL; apt 22\n216\nE2",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:2401 GRANDVIEW PL",
         "APT:22",
-        "UNIT:216");
+        "MAP:216",
+        "UNIT:E2");
 
     doTest("T259",
         "(Message From Hiplink) CFD \n" +
@@ -3338,27 +3596,30 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "told rp that by the time she got there he would be dead\n" +
         "80 something yo male",
 
-        "SRC:CFD-E1",
+        "SRC:CFD",
         "CALL:Breathing",
         "ADDR:548 WESTSHORE RD",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E1",
         "CH:tac 4",
         "INFO:third party caller / told rp that by the time she got there he would be dead / 80 something yo male");
 
     doTest("T260",
         "(Message From Hiplink) CFD \nFall\n2325 CRESCENT AVE\n216\nE2\ntac 4",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:2325 CRESCENT AVE",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:tac 4");
 
     doTest("T261",
         "(Message From Hiplink) CFD \nMedical\n3300 RIDGECREST DR\n216\nE2\ntac 4    92 yo female very high fever and dehydrated",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:3300 RIDGECREST DR",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:tac 4",
         "INFO:92 yo female very high fever and dehydrated");
 
@@ -3377,38 +3638,42 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "both conc and breathing\n" +
         "WHP NOT",
 
-        "SRC:NCF-SQ7",
+        "SRC:NCF",
         "CALL:Accident PI",
         "ADDR:CASPER MOUNTAIN RD",
         "MADDR:PAST LOOKOUT POIN,CASPER MOUNTAIN RD",
         "PLACE:PAST LOOKOUT POIN",
-        "UNIT:1472",
+        "MAP:1472",
+        "UNIT:SQ7",
         "CH:tac 7",
         "INFO:mc went off road blleding badly 2 vic / past the outlook going up the mountian / male and female / both bleeding out of the head / 6 feet off the road / both conc and breathing / WHP NOT");
 
     doTest("T263",
         "(Message From Hiplink) CFD \nAlarm Fire\n930 S ELM ST; NCHS\n123\nE2\ngeneral fire alarm",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Alarm Fire",
         "ADDR:930 S ELM ST",
         "PLACE:NCHS",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E2",
         "INFO:general fire alarm");
 
     doTest("T264",
         "(Message From Hiplink) CFD \nMedical\n1717 S CHESTNUT ST\n213\nE2",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:1717 S CHESTNUT ST",
-        "UNIT:213");
+        "MAP:213",
+        "UNIT:E2");
 
     doTest("T265",
         "(Message From Hiplink) CFD \nAlarm Medical\n1449 W 29TH ST; Tibbit Res\n216\nE2\n80 yo male Fell came from life alert",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Alarm Medical",
         "ADDR:1449 W 29TH ST",
         "PLACE:TIBBIT RES",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "INFO:80 yo male Fell came from life alert");
 
     doTest("T266",
@@ -3422,11 +3687,12 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "TAC 6\n" +
         "best access is through the back gate off katie ln and F st",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Fall",
         "ADDR:1081 N POPLAR ST",
         "PLACE:MIKE LANSING",
-        "UNIT:123",
+        "MAP:123",
+        "UNIT:E2",
         "PHONE:(307)277-3506",
         "GPS:42.860027 -106.330360",
         "CH:TAC 6",
@@ -3440,37 +3706,624 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "E2\n" +
         "CALLBACK=(817)564-1952 LAT=42.796650 LON=-106.339355 UNC=1881",
 
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Seizure",
         "ADDR:CASPER MOUNTAIN RD & SE WYOMING BLVD",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "PHONE:(817)564-1952",
         "GPS:42.796650 -106.339355");
 
     doTest("T268",
         "(Message From Hiplink) CFD \nMedical\n125 COLLEGE DR; CASPER C; student center\n213\nE2",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:125 COLLEGE DR",
         "PLACE:CASPER C - STUDENT CENTER",
-        "UNIT:213");
+        "MAP:213",
+        "UNIT:E2");
 
     doTest("T269",
         "(Message From Hiplink) CFD \nMedical\n2130 W 41ST ST\n216\nE2\ntac 4\n\nnon emergent per law to check on an elderly female",
-        "SRC:CFD-E2",
+        "SRC:CFD",
         "CALL:Medical",
         "ADDR:2130 W 41ST ST",
-        "UNIT:216",
+        "MAP:216",
+        "UNIT:E2",
         "CH:tac 4",
         "INFO:non emergent per law to check on an elderly female");
 
     doTest("T270",
         "(Message From Hiplink) CFD \nWildland FIRE\n1886 STATION RD\n315\nE3\ntac 4",
-        "SRC:CFD-E3",
+        "SRC:CFD",
         "CALL:Wildland FIRE",
         "ADDR:1886 STATION RD",
-        "UNIT:315",
+        "MAP:315",
+        "UNIT:E3",
         "CH:tac 4");
+
+  }
+  
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "2515 DOANE LN; Paula Kraushaar residence\n" +
+        "NCSW\n" +
+        "C45\n" +
+        "coming from hallway\n" +
+        "has had two hits on it\n" +
+        "could not contact resp",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:2515 DOANE LN",
+        "PLACE:PAULA KRAUSHAAR RESIDENCE",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSW",
+        "UNIT:C45",
+        "INFO:coming from hallway / has had two hits on it / could not contact resp");
+
+    doTest("T2",
+        "(Message From Hiplink) NCSO\nFire assist\nCOUNTY LINE RD\nNCSE\nC42",
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:COUNTY LINE RD",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSE",
+        "UNIT:C42");
+
+    doTest("T3",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "3408 APPLEGATE DR; comments\n" +
+        "NCSO\n" +
+        "C57\n" +
+        "e6 responded to field behind this address / area of of trappers route / they\n" +
+        "believe it's county / they found a lot of dump trailers with construction trash\n" +
+        "and are requesting a deputy",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:3408 APPLEGATE DR",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSO",
+        "UNIT:C57",
+        "INFO:e6 responded to field behind this address / area of of trappers route / they / believe it's county / they found a lot of dump trailers with construction trash / and are requesting a deputy");
+
+    doTest("T4",
+        "(Message From Hiplink) NCSO\n" +
+        "Hazardous Mat\n" +
+        "19100 INTERSTATE 25; MP 191;UNDERPASS\n" +
+        "NCSE\n" +
+        "C41\n" +
+        "OILY SUBSTANCE ON THE RD UNDER THE UNDERPASS / RP ALMOST CRASHED / 1/4 MILE LONG / UNKN WHAT IT IS AND IT IS VERY SLICK\n" +
+        "STARTS AT THE OFF RAMP / UNDER THE UNDERPASS AND ALMOST TO",
+
+        "SRC:NCSO",
+        "CALL:Hazardous Mat",
+        "ADDR:19100 INTERSTATE 25 MP 191",
+        "PLACE:UNDERPASS",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSE",
+        "UNIT:C41",
+        "INFO:OILY SUBSTANCE ON THE RD UNDER THE UNDERPASS / RP ALMOST CRASHED / 1/4 MILE LONG / UNKN WHAT IT IS AND IT IS VERY SLICK / STARTS AT THE OFF RAMP / UNDER THE UNDERPASS AND ALMOST TO");
+
+    doTest("T5",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "23000 INTERSTATE 25; MP 230\n" +
+        "MWRD\n" +
+        "C56\n" +
+        "**tac 4**\n\n" +
+        "RP SAYS THE FIRE IS ABOUT 20 YARDS IN SIZE\n" +
+        "HE IS SEEING FLAMES\n" +
+        "on the west side of the highway per rp\n" +
+        "ON THE SOUTH BOUND SIDE OF THE ROAD\n" +
+        "RP IS NOT SEEING ANY STRUCTURES / THE ONL",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:23000 INTERSTATE 25 MP 230",
+        "CITY:MIDWEST",
+        "MAP:MWRD",
+        "UNIT:C56",
+        "CH:tac 4",
+        "INFO:RP SAYS THE FIRE IS ABOUT 20 YARDS IN SIZE / HE IS SEEING FLAMES / on the west side of the highway per rp / ON THE SOUTH BOUND SIDE OF THE ROAD / RP IS NOT SEEING ANY STRUCTURES / THE ONL");
+
+    doTest("T6",
+        "(Message From Hiplink) NCSO\nExplosives\n1855 SOUTH LOOP AVE; Def Tech\nNCSW\nC33\nexplosives for disposal",
+        "SRC:NCSO",
+        "CALL:Explosives",
+        "ADDR:1855 SOUTH LOOP AVE",
+        "PLACE:DEF TECH",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSW",
+        "UNIT:C33",
+        "INFO:explosives for disposal");
+
+    doTest("T7",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "E ORMSBY RD; COMMENTS\n" +
+        "NCSN\n" +
+        "C16\n" +
+        "tac 5\n\n" +
+        "CALLBACK=(307)258-8361 LAT=42.849918 LON=-106.274765 UNC=25\n" +
+        "TAKE ORMSBY RD 10.5 MILES FROM I25 FOLLOWING THE FLAGGING\n" +
+        "THE FIRE IS ABOUT 1/4 ACRE BUT HE IS STILL A LITTLE WAYS AWAY",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:E ORMSBY RD",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSN",
+        "UNIT:C16",
+        "PHONE:(307)258-8361",
+        "GPS:42.849918 -106.274765",
+        "CH:tac 5",
+        "INFO:TAKE ORMSBY RD 10.5 MILES FROM I25 FOLLOWING THE FLAGGING / THE FIRE IS ABOUT 1/4 ACRE BUT HE IS STILL A LITTLE WAYS AWAY");
+
+    doTest("T8",
+        "(Message From Hiplink) NCSO\n" +
+        "Smoke Investig\n" +
+        "CASPER MOUNTAIN RD; WEST END\n" +
+        "MTRD\n" +
+        "C49\n" +
+        "tac 6\n\n" +
+        "RP REPORTING SMOKE ON THE WEST END OF THE MTN\n" +
+        "RIGHT BENEATH THE DARK CLOUDS THERE APPEARS TO BE SMOKE COMING FROM THE BACK\n" +
+        "SIDE OF THE MTN",
+
+        "SRC:NCSO",
+        "CALL:Smoke Investig",
+        "ADDR:CASPER MOUNTAIN RD",
+        "MADDR:WEST END,CASPER MOUNTAIN RD",
+        "PLACE:WEST END",
+        "MAP:MTRD",
+        "UNIT:C49",
+        "CH:tac 6",
+        "INFO:RP REPORTING SMOKE ON THE WEST END OF THE MTN / RIGHT BENEATH THE DARK CLOUDS THERE APPEARS TO BE SMOKE COMING FROM THE BACK / SIDE OF THE MTN");
+
+    doTest("T9",
+        "(Message From Hiplink) NCSO\nExplosives\n1855 SOUTH LOOP AVE; Def Tech\nNCSW\nC33\nexplosives for disposal",
+        "SRC:NCSO",
+        "CALL:Explosives",
+        "ADDR:1855 SOUTH LOOP AVE",
+        "PLACE:DEF TECH",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSW",
+        "UNIT:C33",
+        "INFO:explosives for disposal");
+
+    doTest("T10",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "17800 INTERSTATE 25; MP 178\n" +
+        "NCSE\n" +
+        "C46\n" +
+        "tac 5\n" +
+        "nb lane just east of 178\n" +
+        "little strip on fire\n" +
+        "about 250-300 yards off the side of the road\n" +
+        "its past the fence and up on a hil\n" +
+        "another rp, about 300 yards north of the highway, starting",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:17800 INTERSTATE 25 MP 178",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSE",
+        "UNIT:C46",
+        "CH:tac 5",
+        "INFO:nb lane just east of 178 / little strip on fire / about 250-300 yards off the side of the road / its past the fence and up on a hil / another rp, about 300 yards north of the highway, starting");
+
+    doTest("T11",
+        "(Message From Hiplink) NCSO\nExplosives\n1855 SOUTH LOOP AVE; Defense Technology\nNCSW\nC33\ncreated for C33",
+        "SRC:NCSO",
+        "CALL:Explosives",
+        "ADDR:1855 SOUTH LOOP AVE",
+        "PLACE:DEFENSE TECHNOLOGY",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSW",
+        "UNIT:C33",
+        "INFO:created for C33");
+
+    doTest("T12",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "10995 E WAGON TRAIL RD\n" +
+        "NCSE\n" +
+        "C63\n" +
+        "****tac 5****\n\n" +
+        "wildland fire\n" +
+        "half the size of a car in size\n" +
+        "behind this address\n" +
+        "rp son is trying to put the fire out with a shovel",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:10995 E WAGON TRAIL RD",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSE",
+        "UNIT:C63",
+        "CH:tac 5",
+        "INFO:wildland fire / half the size of a car in size / behind this address / rp son is trying to put the fire out with a shovel");
+
+    doTest("T13",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "14200 W POISON SPIDER RD; POISON SPIDER;\n" +
+        "NCSW\n" +
+        "C12\n" +
+        "CALLBACK=(307)262-5083 LAT=42.834567 LON=-106.562533 UNC=46\n" +
+        "approx 2 miles north/west of poison spider school\n" +
+        "the rp says the fire is about 3 acres big",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:14200 W POISON SPIDER RD",
+        "PLACE:POISON SPIDER",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSW",
+        "UNIT:C12",
+        "PHONE:(307)262-5083",
+        "GPS:42.834567 -106.562533",
+        "INFO:approx 2 miles north/west of poison spider school / the rp says the fire is about 3 acres big");
+
+    doTest("T14",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "W POISON SPIDER RD\n" +
+        "ALRD\n" +
+        "C45\n" +
+        "tac 4\n\n" +
+        "rp sees lots of smoke\n" +
+        "silvery white smoke\n" +
+        "rp is on poison spider about 3 mileswest of school and says that they see smoke\n" +
+        "about 4 miles to the north of them\n" +
+        "looks like west of mills ranch abou",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:W POISON SPIDER RD",
+        "CITY:ALCOVA LAKE",
+        "MAP:ALRD",
+        "UNIT:C45",
+        "CH:tac 4",
+        "INFO:rp sees lots of smoke / silvery white smoke / rp is on poison spider about 3 mileswest of school and says that they see smoke / about 4 miles to the north of them / looks like west of mills ranch abou");
+
+    doTest("T15",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "5800 S POPLAR ST\n" +
+        "NCSS\n" +
+        "C49\n" +
+        "tac 5\n\n" +
+        "zone 30 smoke\n" +
+        "Leslie Chapin -- is there and can not find any problems\n" +
+        "472-3177",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:5800 S POPLAR ST",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSS",
+        "UNIT:C49",
+        "CH:tac 5",
+        "INFO:zone 30 smoke / Leslie Chapin -- is there and can not find any problems / 472-3177");
+
+    doTest("T16",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "28300 W US HIGHWAY 20-26; MP 32\n" +
+        "NCSW\n" +
+        "C27\n" +
+        "tac 4\n\n" +
+        "south of this mm -- about  1mile off the road --\n" +
+        "states east of the wheat fields west of where the old natrona shed used to be\n" +
+        "larger than a house\n" +
+        "not a lot of flames\n" +
+        "unk if there",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:28300 W US HIGHWAY 20-26 MP 32",
+        "MADDR:28300 W US 20 MP 32",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSW",
+        "UNIT:C27",
+        "CH:tac 4",
+        "INFO:south of this mm -- about  1mile off the road -- / states east of the wheat fields west of where the old natrona shed used to be / larger than a house / not a lot of flames / unk if there");
+
+    doTest("T17",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "10300 THIRTY THREE MILE RD\n" +
+        "NCSW\n" +
+        "C62\n" +
+        "**tac 4**\n\n" +
+        "neighbor to the south / lightening started a fire\n" +
+        "rp can see flames she is about 1/4 mile from the neighbor\n" +
+        "----------------\n" +
+        "NCSO briefing notified\n" +
+        "----------------\n" +
+        "rp says the way",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:10300 THIRTY THREE MILE RD",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSW",
+        "UNIT:C62",
+        "CH:tac 4",
+        "INFO:neighbor to the south / lightening started a fire / rp can see flames she is about 1/4 mile from the neighbor / ---------------- / NCSO briefing notified / ---------------- / rp says the way");
+
+    doTest("T18",
+        "(Message From Hiplink) NCSO\n" +
+        "Smoke Investig\n" +
+        "2571 EAST END RD\n" +
+        "MTRD\n" +
+        "C14\n" +
+        "tac 4\n" +
+        "rp says she smells smoke\n" +
+        "thinks it might be a campefire at beartrap\n" +
+        "cant see smoke or flames\n" +
+        "just smells is\n" +
+        "since about 0300",
+
+        "SRC:NCSO",
+        "CALL:Smoke Investig",
+        "ADDR:2571 EAST END RD",
+        "MAP:MTRD",
+        "UNIT:C14",
+        "CH:tac 4",
+        "INFO:rp says she smells smoke / thinks it might be a campefire at beartrap / cant see smoke or flames / just smells is / since about 0300");
+
+    doTest("T19",
+        "(Message From Hiplink) NCSO\n" +
+        "Smoke Investig\n" +
+        "11155 W GOOSE EGG RD\n" +
+        "MTRD\n" +
+        "C60\n" +
+        "1 mile from the goose egg inn smelling smoke add contact info 2346579",
+
+        "SRC:NCSO",
+        "CALL:Smoke Investig",
+        "ADDR:11155 W GOOSE EGG RD",
+        "MAP:MTRD",
+        "UNIT:C60",
+        "INFO:1 mile from the goose egg inn smelling smoke add contact info 2346579");
+
+    doTest("T20",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "KORTES RD; COMMENTS\n" +
+        "ALRD\n" +
+        "C30\n" +
+        "TOWARDS CLARKWELL RANCH -- THERE IS A LARGE WILDLAND FIRE AND CARBON CO IS REQUESTING ASSISTANCE FROM US",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:KORTES RD",
+        "CITY:ALCOVA LAKE",
+        "MAP:ALRD",
+        "UNIT:C30",
+        "INFO:TOWARDS CLARKWELL RANCH -- THERE IS A LARGE WILDLAND FIRE AND CARBON CO IS REQUESTING ASSISTANCE FROM US");
+
+    doTest("T21",
+        "(Message From Hiplink) CPD\nBomb Incident\n201 N DAVID ST;fremont county\nPD-3\nC33\ncreated per c33  assist in fremont county",
+        "SRC:CPD",
+        "CALL:Bomb Incident",
+        "ADDR:201 N DAVID ST",
+        "PLACE:FREMONT COUNTY",
+        "CITY:CASPER",
+        "MAP:PD-3",
+        "UNIT:C33",
+        "INFO:created per c33  assist in fremont county");
+
+    doTest("T22",
+        "(Message From Hiplink) CPD\n" +
+        "Test Spillman\n" +
+        "201 N DAVID ST; CPD\n" +
+        "PD-3\n" +
+        "A119\n" +
+        "Page the BANKS group --- this is to be done every 1st Monday of every month per\n" +
+        "the chief at 10 00hrs\n\n" +
+        "--send text message that states --\n\n" +
+        "This is a test, and to call 307-235-8278 to confirm recei",
+
+        "SRC:CPD",
+        "CALL:Test Spillman",
+        "ADDR:201 N DAVID ST",
+        "PLACE:CPD",
+        "CITY:CASPER",
+        "MAP:PD-3",
+        "UNIT:A119",
+        "INFO:Page the BANKS group --- this is to be done every 1st Monday of every month per / the chief at 10 00hrs / --send text message that states -- / This is a test, and to call 307-235-8278 to confirm recei");
+
+    doTest("T23",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "TWELVE MILE RD & W POISON SPIDER RD\n" +
+        "NCSW\n" +
+        "C12\n" +
+        "tac 5  near the platte river gun club\n" +
+        "fire appears to be dying down a little bit\n" +
+        "20-50 yards wide at this time",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:TWELVE MILE RD & W POISON SPIDER RD",  // Google can't find this
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSW",
+        "UNIT:C12",
+        "CH:tac 5",
+        "INFO:near the platte river gun club / fire appears to be dying down a little bit / 20-50 yards wide at this time");
+
+    doTest("T24",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "COLE CREEK RD\n" +
+        "NCSE\n" +
+        "C12\n" +
+        "tac 4\n\n\n" +
+        "CALLBACK=(307)259-5500 LAT=42.865455 LON=-106.207924 UNC=28\n" +
+        "fire in the grass at the bridge on cole creek\n" +
+        "second rp, about the size of a camp trailer\n" +
+        "it's really growing from the wind\n" +
+        "no structure",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:COLE CREEK RD",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSE",
+        "UNIT:C12",
+        "PHONE:(307)259-5500",
+        "GPS:42.865455 -106.207924",
+        "CH:tac 4",
+        "INFO:fire in the grass at the bridge on cole creek / second rp, about the size of a camp trailer / it's really growing from the wind / no structure");
+
+    doTest("T25",
+        "(Message From Hiplink) NCSO\nExplosives\n515 E 13TH ST\nNCSO\nC33\nold ammo and fireworks",
+        "SRC:NCSO",
+        "CALL:Explosives",
+        "ADDR:515 E 13TH ST",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSO",
+        "UNIT:C33",
+        "INFO:old ammo and fireworks");
+
+    doTest("T26",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "1922 ABSAROKA TRL; heinve res\n" +
+        "NCSW\n" +
+        "C64\n" +
+        "audiable smoke alarm / hallway / vivent is attemtping to contact respond / p210 8773203858",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:1922 ABSAROKA TRL",
+        "PLACE:HEINVE RES",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSW",
+        "UNIT:C64",
+        "INFO:audiable smoke alarm / hallway / vivent is attemtping to contact respond / p210 8773203858");
+
+    doTest("T27",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "37250 STATE HIGHWAY 259;WEST OF MIDWEST\n" +
+        "MWRD\n" +
+        "FD1\n" +
+        "tac 4\n\n" +
+        "MADISON18 / RP CAN SEE SMOKE IN THE FIELD\n" +
+        "CAN SEE SMOKE\n" +
+        "RP CAN SEE THE SUB OFFICE AND SMOKE\n" +
+        "RP IS ON CREW 6 RD / CAN SEE SMOKE / THINKS IT IS ABOUT 8  MILES EAST OF\n" +
+        "MIDWES",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:37250 STATE HIGHWAY 259",
+        "MADDR:37250 STATE 259",
+        "PLACE:WEST OF MIDWEST",
+        "CITY:MIDWEST",
+        "MAP:MWRD",
+        "UNIT:FD1",
+        "CH:tac 4",
+        "INFO:MADISON18 / RP CAN SEE SMOKE IN THE FIELD / CAN SEE SMOKE / RP CAN SEE THE SUB OFFICE AND SMOKE / RP IS ON CREW 6 RD / CAN SEE SMOKE / THINKS IT IS ABOUT 8  MILES EAST OF / MIDWES");
+
+    doTest("T28",
+        "(Message From Hiplink) CPD\nTest Spillman\n201 N DAVID ST; logging new units\nPD-3\nA245",
+        "SRC:CPD",
+        "CALL:Test Spillman",
+        "ADDR:201 N DAVID ST",
+        "PLACE:LOGGING NEW UNITS",
+        "CITY:CASPER",
+        "MAP:PD-3",
+        "UNIT:A245");
+
+    doTest("T29",
+        "(Message From Hiplink) NCSO\nSmoke Investig\nCOLE CREEK RD\nNCSE\nC14\ntac 4\nper c14 he sees column of smoke",
+        "SRC:NCSO",
+        "CALL:Smoke Investig",
+        "ADDR:COLE CREEK RD",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSE",
+        "UNIT:C14",
+        "CH:tac 4",
+        "INFO:per c14 he sees column of smoke");
+
+    doTest("T30",
+        "(Message From Hiplink) NCSO\n" +
+        "Fire assist\n" +
+        "1949 N PYRITE RD; Cathedral Energy\n" +
+        "NCSW\n" +
+        "NCSO\n" +
+        "zone 11 fire alarm\n" +
+        "alarm co will call resp\n" +
+        "she thinks they may be switching out batteries\n" +
+        "right before they got the alarm they got a low battery\n" +
+        "signal",
+
+        "SRC:NCSO",
+        "CALL:Fire assist",
+        "ADDR:1949 N PYRITE RD",
+        "PLACE:CATHEDRAL ENERGY",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSW",
+        "UNIT:NCSO",
+        "INFO:zone 11 fire alarm / alarm co will call resp / she thinks they may be switching out batteries / right before they got the alarm they got a low battery / signal");
+
+    doTest("T31",
+        "(Message From Hiplink) NCSO\nAlert 1-Aircraf\n8500 AIRPORT PKY; AIRPORT\nNCSW\nC56\ntac 6\n\nglider making a cross landing",
+        "SRC:NCSO",
+        "CALL:Alert 1-Aircraf",
+        "ADDR:8500 AIRPORT PKY",
+        "PLACE:AIRPORT",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSW",
+        "UNIT:C56",
+        "CH:tac 6",
+        "INFO:glider making a cross landing");
+
+    doTest("T32",
+        "(Message From Hiplink) NCSO\n" +
+        "Explosives\n" +
+        "2888 SIX MILE RD\n" +
+        "NCSW\n" +
+        "C56\n" +
+        "rp found a tube with  duct tape on the ends and some kind of fertalizer in it thrown in his yard\n" +
+        "rp thinks it is a pipe bomb of some kind",
+
+        "SRC:NCSO",
+        "CALL:Explosives",
+        "ADDR:2888 SIX MILE RD",
+        "CITY:NATRONA COUNTY",
+        "MAP:NCSW",
+        "UNIT:C56",
+        "INFO:rp found a tube with  duct tape on the ends and some kind of fertalizer in it thrown in his yard / rp thinks it is a pipe bomb of some kind");
+
+    doTest("T33",
+        "(Message From Hiplink) CPD\n" +
+        "Proj. Lifesave\n" +
+        "2885 INDIAN SPRINGS DR\n" +
+        "PD-6\n" +
+        "A209\n" +
+        "richard jackson has wandered away / was found at the mini mart last week / freq # 215945 he is in cad under Carl and he answers to Carl",
+
+        "SRC:CPD",
+        "CALL:Proj. Lifesave",
+        "ADDR:2885 INDIAN SPRINGS DR",
+        "CITY:CASPER",
+        "MAP:PD-6",
+        "UNIT:A209",
+        "INFO:richard jackson has wandered away / was found at the mini mart last week / freq # 215945 he is in cad under Carl and he answers to Carl");
 
   }
   
