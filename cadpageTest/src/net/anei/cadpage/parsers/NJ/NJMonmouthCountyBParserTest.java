@@ -177,8 +177,12 @@ public class NJMonmouthCountyBParserTest extends BaseParserTest {
         "INFO:GENERAL FIRE ALARM//OP#3499",
         "TIME:10:51:46",
         "DATE:04/05/2012");
+  }
+  
+  @Test
+  public void testCodeMessagingA() {
     
-    doTest("T19",
+    doTest("T1",
         "[!] GAS F GAS | 1 STATION ST | X-ST: IRON ORE RD/ | AT REX LUMBER-GAS LINE STRUCK | 09:00:43 | 08/08/2012",
         "CALL:GAS F GAS",
         "ADDR:1 STATION ST",
@@ -187,7 +191,7 @@ public class NJMonmouthCountyBParserTest extends BaseParserTest {
         "TIME:09:00:43",
         "DATE:08/08/2012");
 
-    doTest("T20",
+    doTest("T2",
         "[!] FIRA F FIRE ALARM | 151 ST HWY 33 | X-ST: | NEXT GEN 732 617 9300 ZONE WATER FLOW | 07:56:50 | 08/07/2012",
         "CALL:FIRA F FIRE ALARM",
         "ADDR:151 ST HWY 33",
@@ -196,7 +200,7 @@ public class NJMonmouthCountyBParserTest extends BaseParserTest {
         "TIME:07:56:50",
         "DATE:08/07/2012");
 
-    doTest("T21",
+    doTest("T3",
         "[!] FIRA F FIRE ALARM | 151 ST HWY 33 | X-ST: MILLHURST RD/WOODWARD RD | NEXT GEN 732 617 9300 ZONE WATER FLOW | 07:56:50 | 08/07/2012",
         "CALL:FIRA F FIRE ALARM",
         "ADDR:151 ST HWY 33",
@@ -206,7 +210,7 @@ public class NJMonmouthCountyBParserTest extends BaseParserTest {
         "TIME:07:56:50",
         "DATE:08/07/2012");
 
-    doTest("T22",
+    doTest("T4",
         "[!] MVFA F MVA FD/ALS | 120 ST HWY 33 | X-ST: | 2 CAR MVA - NO INJURIES | 14:22:52 | 08/06/2012",
         "CALL:MVFA F MVA FD/ALS",
         "ADDR:120 ST HWY 33",
@@ -215,7 +219,7 @@ public class NJMonmouthCountyBParserTest extends BaseParserTest {
         "TIME:14:22:52",
         "DATE:08/06/2012");
 
-    doTest("T23",
+    doTest("T5",
         "[!] MVFA F MVA FD/ALS | 120 ST HWY 33 | X-ST: RT 33 BYPASS/MILLHURST RD | 2 CAR MVA - NO INJURIES | 14:22:52 | 08/06/2012",
         "CALL:MVFA F MVA FD/ALS",
         "ADDR:120 ST HWY 33",
@@ -225,7 +229,7 @@ public class NJMonmouthCountyBParserTest extends BaseParserTest {
         "TIME:14:22:52",
         "DATE:08/06/2012");
 
-    doTest("T24",
+    doTest("T6",
         "[!] FIRS F FIRE STRUC | 23 ST ANDREWS PL | X-ST: | THIRD PARTY CALLER/HOMEOWNER CONTACTED SAYING | 10:18:50 | 08/04/2012",
         "CALL:FIRS F FIRE STRUC",
         "ADDR:23 ST ANDREWS PL",
@@ -233,7 +237,7 @@ public class NJMonmouthCountyBParserTest extends BaseParserTest {
         "TIME:10:18:50",
         "DATE:08/04/2012");
 
-    doTest("T25",
+    doTest("T7",
         "[!] FIRA F FIRE ALARM | 450 TENNENT RD | X-ST: | OLD TENENT CHURCH- GENERAL FIRE ALARM | 10:05:07 | 08/04/2012",
         "CALL:FIRA F FIRE ALARM",
         "ADDR:450 TENNENT RD",
@@ -241,7 +245,7 @@ public class NJMonmouthCountyBParserTest extends BaseParserTest {
         "TIME:10:05:07",
         "DATE:08/04/2012");
 
-    doTest("T26",
+    doTest("T8",
         "[!] FIRA F FIRE ALARM | 450 TENNENT RD | X-ST: FREEHOLD RD/CRAIG RD | OLD TENENT CHURCH- GENERAL FIRE ALARM | 10:05:07 | 08/04/2012",
         "CALL:FIRA F FIRE ALARM",
         "ADDR:450 TENNENT RD",
