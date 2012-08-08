@@ -2,7 +2,7 @@ package net.anei.cadpage.parsers.OR;
 
 import java.util.Properties;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
@@ -25,28 +25,26 @@ Contact: zak delair <zakdelair117@gmail.com>
 Sender: 93001003
 UNK PROB/MN DOWN 95 82ND DR (SAFEWAY (GLADSTONE)) GLA MAP: 6398D UNIT: R101 M1
 
+Contact: Active911
+[] PRE NOTIFICATION 59185 E CHALET PL (DEAD END & E EAST RD) SAN MAP: 6324A UNIT: SQ252 SQ251 M1 2509\r\n\r\n\n
+[] BREATHING PROB. 59185 E CHALET PL (DEAD END & E EAST RD) SAN MAP: 6324A UNIT: SQ252\r\n\r\n\n
+[] PRE NOTIFICATION 59454 E SLEEPY HOLLOW DR (E EAST RD & E BARLOW TRAIL RD) SAN MAP: 6324B UNIT: SQ252 SQ251 M1 2509\r\n\r\n\n
+[] PRE NOTIFICATION 27160 E MARION RD (E ROAD 10 & E ROAD 20) RHO MAP: 6731A UNIT: SQ252 M1 3709\r\n\r\n\n
+[] PRE NOTIFICATION 59454 E SLEEPY HOLLOW DR (E EAST RD & E BARLOW TRAIL RD) SAN MAP: 6324B UNIT: SQ252 SQ251 M1 2509\r\n\r\n\n
+[] UNKNOWN TYP FIRE 31315 E MULTORPOR DR (SKI BOWL (EAST)) GOV MAP: 6939 UNIT: E251 E254 2509\r\n\r\n\n
+[] FIRE ALARM, COMM 30521 E MELDRUM ST (E LIGE LN & E GOVERNMENT CAMP LP) GOV MAP: 6939 UNIT: E251 E254 WT251 2509\r\n\r\n\n
+
 */
 
-public class ORWashingtonCountyParser extends SmartAddressParser {
-  
-  private static final String[] KEYWORDS = new String[]{
-    "LOC", "MAP", "UNIT"
-  };
-  
-  private static final Properties CITY_TABLE = buildCodeTable(new String[]{
-      "HIL", "HILLSBORO",
-      "CON", "CORNELIUS",
-      "FOR", "FOREST GROVE",
-      "GLA", "GLADSTONE",
-      "SAN", "SANDY"
-  });
+public class ORWashingtonCountyParser extends FieldProgramParser {
   
   public ORWashingtonCountyParser() {
-    super("WASHINGTON COUNTY", "OR");
+    this("WASHINGTON COUNTY", "OR");
   }
   
   public ORWashingtonCountyParser(String defCity, String defState) {
-    super(defCity, defState);
+    super(defCity, defState,
+           "ADDR/SC! MAP:MAP! UNIT:UNIT!");
   }
   
   @Override
@@ -54,26 +52,46 @@ public class ORWashingtonCountyParser extends SmartAddressParser {
     return "930010,777";
   }
 
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-
-    Properties props = parseMessage("LOC:" + body, KEYWORDS);
-    
-    Parser p = new Parser(props.getProperty("LOC", ""));
-    data.strCity = p.getLastOptional(')');
-    if (data.strCity.length() > 0) {
-      data.strCross = p.getLastOptional('(');
-    } else {
-      data.strCity = p.getLast(' ');
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      String addr;
+      String city = p.getLastOptional(')');
+      if (city.length() > 0) {
+        addr = p.get('(');
+        data.strCross = p.get();
+      } else {
+        city = p.getLast(' ');
+        addr = p.get();
+      }
+      parseAddress(StartType.START_CALL, addr, data);
+      data.strCity = convertCodes(city, CITY_CODES);
+      
     }
     
-    data.strCity = convertCodes(data.strCity, CITY_TABLE);
-    
-    parseAddress(StartType.START_CALL, p.get(), data);
-    
-    data.strMap = props.getProperty("MAP");
-    if (data.strMap == null) return false;
-    data.strUnit = props.getProperty("UNIT", "");
-    return true;
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " X CITY";
+    }
   }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BRI", "BRIGHTWOOD",
+      "HIL", "HILLSBORO",
+      "CON", "CORNELIUS",
+      "EAG", "EAGLE CREEK",
+      "FOR", "FOREST GROVE",
+      "GLA", "GLADSTONE",
+      "GOV", "GOVERNMENT CAMP",
+      "RHO", "RHODODENDRON",
+      "SAN", "SANDY",
+      "WEL", "WELCHES"
+ });
 }

@@ -9,6 +9,6 @@ Dummy front end to Washington COunty, OR which does the real dispatching
 public class ORClackamasCountyParser extends ORWashingtonCountyParser {
   
   public ORClackamasCountyParser() {
-    super("WASHINGTON COUNTY", "OR");
+    super("CLACKAMAS COUNTY", "OR");
   }
 }
