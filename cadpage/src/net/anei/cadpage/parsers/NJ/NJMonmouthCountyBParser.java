@@ -30,6 +30,19 @@ CodeMessage client: rc.317@c-msg.net
 (mCAD) [!] FIRA F FIRE ALARM | 21 LASATTA AV | X-ST: WATER ST/CARRIAGE LN | BULIDING 700//SPRINKLER ROOM SMOKE DETECTOR | 08:22:17 | 02/17/2012
 (eCAD) [!] FIRA F FIRE ALARM | 10 DANA CT | X-ST: | GENERAL FIRE ALARM//OP#3499 | 10:51:46 | 04/05/2012
 
+
+Code Messaging 
+
+[!] GAS F GAS | 1 STATION ST | X-ST: IRON ORE RD/ | AT REX LUMBER-GAS LINE STRUCK | 09:00:43 | 08/08/2012
+[!] FIRA F FIRE ALARM | 151 ST HWY 33 | X-ST: | NEXT GEN 732 617 9300 ZONE WATER FLOW | 07:56:50 | 08/07/2012
+[!] FIRA F FIRE ALARM | 151 ST HWY 33 | X-ST: MILLHURST RD/WOODWARD RD | NEXT GEN 732 617 9300 ZONE WATER FLOW | 07:56:50 | 08/07/2012
+[!] MVFA F MVA FD/ALS | 120 ST HWY 33 | X-ST: | 2 CAR MVA - NO INJURIES | 14:22:52 | 08/06/2012
+[!] MVFA F MVA FD/ALS | 120 ST HWY 33 | X-ST: RT 33 BYPASS/MILLHURST RD | 2 CAR MVA - NO INJURIES | 14:22:52 | 08/06/2012
+[!] FIRS F FIRE STRUC | 23 ST ANDREWS PL | X-ST: | THIRD PARTY CALLER/HOMEOWNER CONTACTED SAYING | 10:18:50 | 08/04/2012
+[!] FIRA F FIRE ALARM | 450 TENNENT RD | X-ST: | OLD TENENT CHURCH- GENERAL FIRE ALARM | 10:05:07 | 08/04/2012
+[!] FIRA F FIRE ALARM | 450 TENNENT RD | X-ST: FREEHOLD RD/CRAIG RD | OLD TENENT CHURCH- GENERAL FIRE ALARM | 10:05:07 | 08/04/2012
+
+
 */
 
 public class NJMonmouthCountyBParser extends FieldProgramParser {
@@ -46,7 +59,6 @@ public class NJMonmouthCountyBParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.startsWith("mCAD") && !subject.startsWith("eCAD")) return false;
     if (!parseFields(body.split("\\|"), data)) return false;
     return true;
   }
