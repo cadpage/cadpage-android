@@ -27,6 +27,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final int FLAG_CROSS_FOLLOWS = SmartAddressParser.FLAG_CROSS_FOLLOWS;
   private static final int FLAG_NO_IMPLIED_APT = SmartAddressParser.FLAG_NO_IMPLIED_APT;
   private static final int FLAG_START_FLD_NO_DELIM = SmartAddressParser.FLAG_START_FLD_NO_DELIM;
+  private static final int FLAG_OPT_STREET_SFX = SmartAddressParser.FLAG_OPT_STREET_SFX;
   
   private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN", "9999"};
   private static final String DEF_CITY = "STATE OF MIND";
@@ -42,6 +43,20 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
+    doTest(ADDR, FLAG_OPT_STREET_SFX, "w lake and n hagadorn   washdown   at scene of pda",
+        "ADDR:w lake and n hagadorn");
+  }
+  
+  @Test
+  public void testOptStreetSfx() {
+    doTest(SKIP, FLAG_OPT_STREET_SFX, "SUNSHINE CITY 300 BLACK CAT",
+          "ADDR:300 BLACK");
+    doTest(SKIP, FLAG_OPT_STREET_SFX, "SUNSHINE CITY 300 PAUL G GETTY CAT",
+        "ADDR:300 PAUL G GETTY");
+    doTest(SKIP, FLAG_OPT_STREET_SFX, "SUNSHINE CITY JEAN GOUL & PAUL G GETTY DUMB STUFF",
+        "ADDR:JEAN GOUL & PAUL G GETTY");
+    doTest(SKIP, FLAG_OPT_STREET_SFX, "25376 potomac elderly male fell hit head is conscious",
+        "ADDR:25376 potomac");
   }
   
   @Test
@@ -675,10 +690,10 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(CALL, "CALL N JOHNS HWY & E () ST",
           "CALL:CALL",
           "ADDR:N JOHNS HWY");
-    doTest("CALL", "MVA [MVA] PARK AVE EXTRA",
+    doTest(CALL, "MVA [MVA] PARK AVE EXTRA",
            "CALL:MVA [MVA]",
            "ADDR:PARK AVE");
-    doTest("CALL", "MVA [MVA] PARK AVE AND BLACK ST EXTRA",
+    doTest(CALL, "MVA [MVA] PARK AVE AND BLACK ST EXTRA",
         "CALL:MVA [MVA]",
         "ADDR:PARK AVE AND BLACK ST");
   }

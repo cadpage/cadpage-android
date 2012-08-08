@@ -12,7 +12,7 @@ public class MIOaklandCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser1() {
+  public void testActive911A1() {
 
     doTest("T1",
         "(South Lyon Medical) Respond to a medical at 106 s lafayette - seizure",
@@ -82,8 +82,7 @@ public class MIOaklandCountyParserTest extends BaseParserTest {
     doTest("T12",
         "(South Lyon Fire Run) Respond to a medical at 836 Downy Nest",
         "CALL:medical",
-        "ADDR:836 Downy",
-        "INFO:Nest");
+        "ADDR:836 Downy Nest");
 
     doTest("T13",
         "(South Lyon Medical) Respond to a medical at 22195 quail run apt 3 drk red blood in cath bag patient on cumadin and diabetic",
@@ -95,8 +94,9 @@ public class MIOaklandCountyParserTest extends BaseParserTest {
     doTest("T14",
         "(South Lyon Medical) Respond to a medical at lake st and mill injury accident",
         "CALL:medical",
-        "ADDR:lake st",
-        "INFO:and mill injury accident");
+        "ADDR:lake st and mill",
+        "MADDR:lake st & mill",
+        "INFO:injury accident");
 
     doTest("T15",
         "(South Lyon Medical) Respond to a medical at witches hat 350 dorothy for poss heart attack",
@@ -178,7 +178,7 @@ public class MIOaklandCountyParserTest extends BaseParserTest {
         "(South Lyon Medical) Respond to a medical at 61702 williamsburg #2",
         "CALL:medical",
         "ADDR:61702 williamsburg",
-        "INFO:#2");
+        "APT:2");
 
     doTest("T29",
         "(South Lyon Medical) Respond to a medical at 682 forest",
@@ -228,6 +228,58 @@ public class MIOaklandCountyParserTest extends BaseParserTest {
         "CALL:medical",
         "ADDR:25110 hamilton ct 78",
         "INFO:pain abd");
+
+    doTest("T38",
+        "(South Lyon Fire Run) Respond to a grass fire at base of eletrical pole next to 356 cambridge",
+        "CALL:grass fire",
+        "PLACE:base of eletrical pole next to",
+        "ADDR:356 cambridge");
+
+  }
+  
+  @Test
+  public void testActive911A2() {
+
+    doTest("T1",
+        "(South Lyon Fire Run) Respond to a 23000 valerie gen fire alarm zone 1",
+        "CALL:gen fire alarm zone 1",
+        "ADDR:23000 valerie");
+
+    doTest("T2",
+        "(South Lyon Fire Run) Respond to a 1131 polo house struck by lightening",
+        "CALL:house struck by lightening",
+        "ADDR:1131 polo");
+
+  }
+  
+  @Test
+  public void testActive911A3() {
+
+    doTest("T1",
+        "(medical) 686 lakewood unk odor inv and rp is feeling ill",
+        "CALL:unk odor inv and rp is feeling ill",
+        "ADDR:686 lakewood");
+
+    doTest("T2",
+        "(grass fire) 356 cambridge   grass fire",
+        "CALL:grass fire",
+        "ADDR:356 cambridge");
+
+    doTest("T3",
+        "(brush fire) 22350 brookfield  grass fire",
+        "CALL:grass fire",
+        "ADDR:22350 brookfield");
+
+    doTest("T4",
+        "(washdown) w lake and n hagadorn   washdown   at scene of pda",
+        "CALL:washdown at scene of pda",
+        "ADDR:w lake and n hagadorn",
+        "MADDR:w lake & n hagadorn");
+
+    doTest("T5",
+        "(medical) 295 eagle way - choking on vomit",
+        "CALL:- choking on vomit",
+        "ADDR:295 eagle way");
 
   }
   

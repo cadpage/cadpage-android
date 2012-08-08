@@ -41,7 +41,7 @@ public class COAdamsCountyParserTest extends BaseParserTest {
     doTest("T4",
         "Subject:IPS I/Page Notification US HIGHWAY 85 NB/E 77TH AVE ADAM ADAM 03:34:04 TYPE CODE: NONSTR CALLER NAME: ASHLEY TIME: 03:34:04 Commen",
         "ADDR:US HIGHWAY 85 NB & E 77TH AVE",
-        "MADDR:US HIGHWAY 85 & E 77TH AVE",
+        "MADDR:US 85 & E 77TH AVE",
         "TIME:03:34:04",
         "CALL:NONSTR",
         "NAME:ASHLEY");

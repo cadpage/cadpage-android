@@ -419,6 +419,7 @@
     <item>MIMobileMedicalResponse</item>
     <item>MIMontcalmCounty</item>
     <item>MIMuskegonCounty</item>
+    <item>MIOaklandCounty</item>
     <item>MIRichmond</item>
     <item>MISaginawCounty</item>
     <item>MNAnokaCounty</item>
@@ -899,6 +900,7 @@
     <item>Mobile Medical Response, MI</item>
     <item>Montcalm County, MI</item>
     <item>Muskegon County, MI</item>
+    <item>Oakland County, MI</item>
     <item>Richmond, MI</item>
     <item>Saginaw County, MI</item>
     <item>Anoka County, MN</item>

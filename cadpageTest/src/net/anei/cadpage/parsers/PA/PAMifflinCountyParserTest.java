@@ -45,7 +45,7 @@ public class PAMifflinCountyParserTest extends BaseParserTest {
         "ID:111710-2",
         "CALL:ALS - Motor Vehicle Accident",
         "ADDR:ROSEWOOD AVE and US HIGHWAY 522 NORTH",
-        "MADDR:ROSEWOOD AVE & US HIGHWAY 522 NORTH",
+        "MADDR:ROSEWOOD AVE & US 522 NORTH",
         "CITY:DERRY TWP",
         "X:1-24  ROSEWOOD AVE");
     

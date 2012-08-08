@@ -45,6 +45,7 @@ public class MOStFrancoisCountyParserTest extends BaseParserTest {
         "1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:MVA INJURY      Loc:US HIGHWAY 67/HILDEBRECHT RD Apt:\nXSt:\n(Con't) 2 of 2\nGrid:6741 Units:E4160 F4185 A5177 R4276 E4261             Rmk:T-BONE\nCOLLISION -- UNKNOWN ON INJURY CA\n\n(End)",
         "CALL:MVA INJURY",
         "ADDR:US HIGHWAY 67 & HILDEBRECHT RD",
+        "MADDR:US 67 & HILDEBRECHT RD",
         "MAP:6741",
         "UNIT:E4160 F4185 A5177 R4276 E4261",
         "INFO:T-BONE COLLISION -- UNKNOWN ON INJURY CA");

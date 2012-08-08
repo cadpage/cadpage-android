@@ -49,16 +49,14 @@ Sender: @response.troymi.gov
 (South Lyon Fire Run) Respond to a alarm at 1047 colt
 (South Lyon Mutual Aid) Respond to a mutal aid request for livingston co at station 81
 (South Lyon Medical) Respond to a medical at 25110 hamilton ct 78  pain abd
+(South Lyon Fire Run) Respond to a grass fire at base of eletrical pole next to 356 cambridge
 
 (South Lyon Fire Run) Respond to a 23000 valerie gen fire alarm zone 1
 (South Lyon Fire Run) Respond to a 1131 polo house struck by lightening
 
 (medical) 686 lakewood unk odor inv and rp is feeling ill
 (grass fire) 356 cambridge   grass fire
-(South Lyon Fire Run) Respond to a grass fire at base of eletrical pole next to 356 cambridge
 (brush fire) 22350 brookfield  grass fire
-(mutual aid) cover stat 83  grn oak
-(medical) CHEST PAINS AND DIB   320 GIBSON
 (washdown) w lake and n hagadorn   washdown   at scene of pda
 (medical) 295 eagle way - choking on vomit
 
@@ -68,11 +66,10 @@ public class MIOaklandCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER = Pattern.compile("Respond to a (.*?) (?:at|-) (.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern END_MARKER = Pattern.compile(" +- +| +for +|  +", Pattern.CASE_INSENSITIVE);
-  private static final Pattern FALLBACK_ADDR1_PTN = Pattern.compile("(?:(.*?) )??(\\d+ (?:[NSEW] )?+[A-Z]+)(?: +(.*))?", Pattern.CASE_INSENSITIVE);
-  private static final Pattern FALLBACK_ADDR2_PTN = Pattern.compile("(?:(.*?) )??(\\d+ +.*)", Pattern.CASE_INSENSITIVE);
   
   public MIOaklandCountyParser() {
     super("OAKLAND COUNTY", "MI");
+    setupMultiWordStreets("DOWNY NEST");
   }
   
   @Override
@@ -90,36 +87,41 @@ public class MIOaklandCountyParser extends SmartAddressParser {
     if (match.matches()) {
       data.strCall = match.group(1).trim();
       String sAddr = match.group(2).trim();
-      int flags = 0;
+      int flags = FLAG_NO_IMPLIED_APT | FLAG_OPT_STREET_SFX;
       match = END_MARKER.matcher(sAddr);
       if (match.find()) {
         data.strSupp = sAddr.substring(match.end()).trim();
         sAddr = sAddr.substring(0,match.start()).trim();
-        flags = FLAG_ANCHOR_END;
+        flags |= FLAG_ANCHOR_END;
       }
-      Result res = parseAddress(StartType.START_PLACE, flags, sAddr);
-      if (res.getStatus() > 0) {
-        res.getData(data);
-        if (data.strSupp.length() == 0) data.strSupp = res.getLeft();
-      } 
-      
-      else {
-        Pattern fallbackPtn = data.strSupp.length() == 0 ? FALLBACK_ADDR1_PTN : FALLBACK_ADDR2_PTN;
-        match = fallbackPtn.matcher(sAddr);
-        if (match.matches()) {
-          data.strPlace = getOptGroup(match.group(1));
-          parseAddress(match.group(2),data);
-          if (data.strSupp.length() == 0) data.strSupp = getOptGroup(match.group(3));
-        } else {
-          parseAddress(sAddr, data);
-        }
+      parseAddress(StartType.START_PLACE, flags, sAddr, data);
+      if (data.strSupp.length() == 0) data.strSupp = getLeft();
+      if (data.strAddress.length() == 0) {
+        data.strAddress = data.strPlace;
+        data.strPlace = "";
       }
-      if (data.strPlace.equalsIgnoreCase("STA")) {
+      else if (data.strPlace.equalsIgnoreCase("STA")) {
         data.strAddress = append (data.strPlace + " " + data.strAddress, " ", data.strSupp);
         data.strPlace = "";
         data.strSupp = "";
       }
       return true;
+    }
+    
+    // That was our best shot.  But there are calls that fit different patterns
+    if (body.startsWith("Respond to a ")) {
+      body = body.substring(13).trim();
+      parseAddress(StartType.START_CALL, FLAG_NO_IMPLIED_APT | FLAG_OPT_STREET_SFX, body, data);
+      if (data.strCall.length() == 0) data.strCall = getLeft();
+      else data.strSupp = getLeft();
+      return data.strAddress.length() > 0;
+    }
+    
+    // One last chance, but only if call has been postively IDed as a page
+    if (isPositiveId()) {
+      parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT | FLAG_OPT_STREET_SFX, body, data);
+      data.strCall = getLeft();
+      return data.strCall.length() > 0;
     }
     
     return false;

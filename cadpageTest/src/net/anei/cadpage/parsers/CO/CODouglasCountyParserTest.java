@@ -78,6 +78,7 @@ public class CODouglasCountyParserTest extends BaseParserTest {
 
         "CALL:F LIGHTNING",
         "ADDR:STATE HIGHWAY 86 & CHEROKEE TRL",
+        "MADDR:STATE 86 & CHEROKEE TRL",
         "MAP:AJ42",
         "UNIT:E271 XXX271",
         "DATE:06/13/12",
@@ -393,6 +394,7 @@ public class CODouglasCountyParserTest extends BaseParserTest {
 
         "CALL:F SMOKE INV OUT",
         "ADDR:E STATE HIGHWAY 86 & N  RIDGE RD",
+        "MADDR:E STATE 86 & N  RIDGE RD",
         "MAP:AH32C",
         "UNIT:E153 XXX153",
         "DATE:07/04/12",
@@ -704,6 +706,7 @@ public class CODouglasCountyParserTest extends BaseParserTest {
 
         "CALL:F BRUSH (NT)",
         "ADDR:MEADOWS PKWY & N  US HIGHWAY 85",
+        "MADDR:MEADOWS PKWY & N  US 85",
         "MAP:AF29D",
         "UNIT:B154 B155 E154 T36 BA151 XXX154",
         "DATE:07/05/12",
@@ -728,6 +731,7 @@ public class CODouglasCountyParserTest extends BaseParserTest {
 
         "CALL:F BRUSH (NT)",
         "ADDR:MEADOWS PKWY & N  US HIGHWAY 85 N",
+        "MADDR:MEADOWS PKWY & N  US 85 N",
         "MAP:AF29D",
         "DATE:07/05/12",
         "TIME:15:28",
@@ -2098,6 +2102,7 @@ public class CODouglasCountyParserTest extends BaseParserTest {
 
         "CALL:F MED ASSIST",
         "ADDR:N  US HIGHWAY 85 & CASTLEGATE DR NO",
+        "MADDR:N  US 85 & CASTLEGATE DR NO",
         "MAP:AF28B",
         "UNIT:E154 MED154 XXX154",
         "DATE:07/08/12",
@@ -2541,6 +2546,7 @@ public class CODouglasCountyParserTest extends BaseParserTest {
 
         "CALL:F RES STRUC",
         "ADDR:8556 STATE HIGHWAY 86",
+        "MADDR:8556 STATE 86",
         "CH:EOPS1",
         "MAP:AJ49",
         "UNIT:XXX221 XXX271",
@@ -3008,6 +3014,7 @@ public class CODouglasCountyParserTest extends BaseParserTest {
 
         "CALL:F MED ASSIST",
         "ADDR:N US HIGHWAY 85 CALLBK= & MEADOWS PKWY",
+        "MADDR:N US 85 CALLBK= & MEADOWS PKWY",
         "MAP:AF29D",
         "UNIT:E154 MED154 XXX154",
         "DATE:07/09/12",
@@ -3033,6 +3040,7 @@ public class CODouglasCountyParserTest extends BaseParserTest {
 
         "CALL:F MVA UNK INJ",
         "ADDR:N US HIGHWAY 85 CALLBK= & MEADOWS PKWY",
+        "MADDR:N US 85 CALLBK= & MEADOWS PKWY",
         "MAP:AF29D",
         "DATE:07/09/12",
         "TIME:19:49",
@@ -3057,6 +3065,7 @@ public class CODouglasCountyParserTest extends BaseParserTest {
 
         "CALL:F MVA INJ",
         "ADDR:N US HIGHWAY 85 CALLBK= & MEADOWS PKWY",
+        "MADDR:N US 85 CALLBK= & MEADOWS PKWY",
         "MAP:AF29D",
         "DATE:07/09/12",
         "TIME:19:49",

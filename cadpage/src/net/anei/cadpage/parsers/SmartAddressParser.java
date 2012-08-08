@@ -102,6 +102,13 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_START_FLD_NO_DELIM = 0x1000;
   
+  /**
+   * Flag indicating that we will accept street names with non street suffix.
+   * Only use in cases where dispatch routinely drops streets suffixes, this
+   * allows a lot of junk to get through
+   */
+  public static final int FLAG_OPT_STREET_SFX = 0x2000;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -183,7 +190,9 @@ public abstract class SmartAddressParser extends MsgParser {
   private MultiWordList mWordCities = null;
   
   // List of multiple word street names
-  private MultiWordList mWordStreets = null;
+  // We keep two of these in case we have to search forward or backward
+  private MultiWordList mWordStreetsRev = null;
+  private MultiWordList mWordStreetsFwd = null;
   
   // This is a tree set containing all of the expected call descriptions
   // sorted in reverse order because we need to search the tree backward and
@@ -354,7 +363,8 @@ public abstract class SmartAddressParser extends MsgParser {
    * @param names list of multi-word street names.  with no street suffixes
    */
   protected void setupMultiWordStreets(String ... names) {
-    mWordStreets = new MultiWordList(-1, 0, ID_MULTIWORD, 0, names);
+    mWordStreetsFwd = new MultiWordList(+1, 0, ID_MULTIWORD, 0, names);
+    mWordStreetsRev = new MultiWordList(-1, 0, ID_MULTIWORD, 0, names);
   }
 
   
@@ -705,7 +715,7 @@ public abstract class SmartAddressParser extends MsgParser {
               // named for saints, so if the next token is ST, give it a chance
               // to be a valid street name
               if (tokens[sAddr+1].equalsIgnoreCase("ST")) {
-                sEnd = findRoadEnd(sAddr+1);
+                sEnd = findRoadEnd(sAddr+1, 0);
                 if (sEnd > 0) break;
               }
               return false;
@@ -727,7 +737,7 @@ public abstract class SmartAddressParser extends MsgParser {
       }
       
       // Otherwise, see if we can find a road starting from the next token
-      if (sEnd < 0) sEnd = findRoadEnd(sAddr+1);
+      if (sEnd < 0) sEnd = findRoadEnd(sAddr+1, 2);
       if (sEnd > 0) break;
       
       // This isn't what we are looking for
@@ -778,7 +788,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // If address starts at beginning of field, find end of address and
     // confirm that it starts with a road followed by a connector
     if (result.startAddress >= 0) {
-      ndx = startIntersection(result.startAddress);;
+      ndx = startIntersection(result.startAddress);
       if (ndx < 0) return false;
       sAddr = result.startAddress;
     }
@@ -806,20 +816,22 @@ public abstract class SmartAddressParser extends MsgParser {
           
           if (sAddr >= start && isRoadToken(sAddr)) break;
           
-          if (sAddr > start && !isType(sAddr-1,ID_NOT_ADDRESS)) { 
+          if (isType(sAddr, ID_ROAD_SFX)) {
             sAddr--;
-            if (isType(sAddr+1, ID_ROAD_SFX)) {
-              if (sAddr > start && isType(sAddr, ID_AMBIG_ROAD_SFX) && 
-                  !isType(sAddr-1,ID_NOT_ADDRESS)) sAddr--;
-              break;
-            }
-            if (isType(sAddr, ID_ROUTE_PFX) & isType(sAddr+1, ID_NUMBER | ID_ALPHA_ROUTE)) {
-              if (sAddr > start && 
-                  isType(sAddr, ID_ROUTE_PFX_EXT) && 
-                  isType(sAddr-1, ID_ROUTE_PFX_PFX)) sAddr--;
-              break;
-            }
+            if (isType(sAddr,ID_NOT_ADDRESS)) continue;
+            if (sAddr > start && isType(sAddr, ID_AMBIG_ROAD_SFX) && !isType(sAddr-1,ID_NOT_ADDRESS)) sAddr--;
+            break;
           }
+          
+          if (sAddr > start && isType(sAddr-1, ID_ROUTE_PFX) & isType(sAddr, ID_NUMBER | ID_ALPHA_ROUTE)) {
+            sAddr--;
+            if (sAddr > start && 
+                isType(sAddr, ID_ROUTE_PFX_EXT) && 
+                isType(sAddr-1, ID_ROUTE_PFX_PFX)) sAddr--;
+            break;
+          }
+          
+          if (isFlagSet(FLAG_OPT_STREET_SFX) && !isType(sAddr,ID_NOT_ADDRESS)) break; 
         }
       }
       
@@ -839,7 +851,7 @@ public abstract class SmartAddressParser extends MsgParser {
     }
     
     // Otherwise find end of second road
-    ndx = findRoadEnd(ndx+1);
+    ndx = findRoadEnd(ndx+1, 2);
     if (ndx < 0) return false;
     
     // If we found that, we have a successful intersection parse
@@ -868,7 +880,7 @@ public abstract class SmartAddressParser extends MsgParser {
    * @return index of connector if successful, otherwise -1
    */
   private int startIntersection(int sAddr) {
-    int ndx = findRoadEnd(sAddr);
+    int ndx = findRoadEnd(sAddr, 2);
     if (ndx < 0) return -1;
     if (! isType(ndx, ID_CONNECTOR)) return -1;
     return ndx;
@@ -893,7 +905,7 @@ public abstract class SmartAddressParser extends MsgParser {
     if (result.startAddress >= 0) {
       ndx = result.startAddress;
       while (isType(ndx, ID_OPT_ROAD_PFX)) ndx++;
-      ndx = findRoadEnd(ndx);
+      ndx = findRoadEnd(ndx, 0);
       if (ndx < 0) return false;
     }
     
@@ -913,7 +925,7 @@ public abstract class SmartAddressParser extends MsgParser {
         if (isType(ndx, ID_CROSS_STREET)) return false;
         if (atStart || flexAt && isType(ndx, ID_INCL_AT_MARKER)) {
           start = sAddr = ndx;
-          ndx = findRoadEnd(sAddr);
+          ndx = findRoadEnd(sAddr, 0);
           ndx--;
           if (ndx < 0) return false;
           break;
@@ -964,7 +976,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // then set the implied & colum to the end of the first street and set
     // the end of the address field to the end of the second street.
     if (isFlagSet(FLAG_IMPLIED_INTERSECT)) {
-      ndx = findRoadEnd(ndx);
+      ndx = findRoadEnd(ndx, 0);
       if (ndx >= 0) {
         result.insertAmp = result.endAll;
         result.endAll = ndx;
@@ -1105,8 +1117,8 @@ public abstract class SmartAddressParser extends MsgParser {
   private int stretchRoadPrefix(int start, int sAddr) {
     
     // Check our preloaded multiple word street name list
-    if (mWordStreets != null) {
-      int tmp = mWordStreets.findEndSequence(sAddr);
+    if (mWordStreetsRev != null) {
+      int tmp = mWordStreetsRev.findEndSequence(sAddr);
       if (tmp >= 0 && tmp >= start) sAddr = tmp;
     }
     
@@ -1335,7 +1347,7 @@ public abstract class SmartAddressParser extends MsgParser {
     while (true) {
       
       // And try to find another road
-      sEnd = findRoadEnd(sEnd);
+      sEnd = findRoadEnd(sEnd, 2);
       if (sEnd < 0) break;
       
       // Success, save the cross street location
@@ -1352,9 +1364,13 @@ public abstract class SmartAddressParser extends MsgParser {
   /**
    * See if we can identify a road name starting at a given index
    * @param start starting index
+   * @param option - option controlling how we will deal with a suffixless street search
+   *                  0 - No suffixless street names accepted
+   *                  1 - only multiword suffixless street names accepted
+   *                  2 - any suffixless street name accepted
    * @return index of token past end of road name if successful, -1 otherwise
    */
-  private int findRoadEnd(int start) {
+  private int findRoadEnd(int start, int option) {
     
     // If this starts with a street direction, skip over it
     if (isType(start, ID_DIRECTION)) start++;
@@ -1362,11 +1378,29 @@ public abstract class SmartAddressParser extends MsgParser {
     // Ditto for a street prefix
     if (isType(start, ID_OPT_ROAD_PFX)) start++;
     
+    // If we are out of tokens, the answer is no
+    if (start >= tokens.length) return -1; 
+    
+    // Compute the failure index that we return if we fail to find a proper road end.
+    // If we are accepting roads without a street suffix, we will compute the default
+    // value assuming this is a suffixless street name.  If not, the failure return is
+    // always -1;
+    int failIndex = -1;
+    if (option > 1 && isFlagSet(FLAG_OPT_STREET_SFX)) {
+      if (isType(start, ID_NOT_ADDRESS | ID_CONNECTOR)) return -1;
+      if (mWordStreetsFwd != null) {
+        failIndex = mWordStreetsFwd.findEndSequence(start);
+      } else {
+        failIndex = start+1;
+      }
+      if (option < 2 && failIndex - start < 2) failIndex = -1;
+    }
+    
     // Dummy loop that we can break out of when we find a road end
     int end;
     do {
       
-      if (isType(start, ID_NOT_ADDRESS | ID_CONNECTOR)) return -1;
+      if (isType(start, ID_NOT_ADDRESS | ID_CONNECTOR)) return failIndex;
       
       // A stand alone road token can terminate the road search, but it must
       // be the first thing in the search sequence
@@ -1404,7 +1438,7 @@ public abstract class SmartAddressParser extends MsgParser {
       while (++end - start <= 3) {
         
         // An intersection marker marks the end of things
-        if (isType(end, ID_CONNECTOR)) return -1;
+        if (isType(end, ID_CONNECTOR)) return failIndex;
 
         good = true;
         if (isType(end, ID_ROAD_SFX) &&
@@ -1417,7 +1451,7 @@ public abstract class SmartAddressParser extends MsgParser {
         good = false;
       }
       
-      if (!good) return -1;
+      if (!good) return failIndex;
       
     } while (false);
     
@@ -1613,9 +1647,8 @@ public abstract class SmartAddressParser extends MsgParser {
   
   // Determine if token at index is a standalone apartment number
   private boolean isAptToken(int ndx) {
-    if (isFlagSet(FLAG_NO_IMPLIED_APT)) return false;
     if (ndx >= tokens.length) return false;
-    return isAptToken(tokens[ndx], true);
+    return isAptToken(tokens[ndx], !isFlagSet(FLAG_NO_IMPLIED_APT));
   }
   
   /**

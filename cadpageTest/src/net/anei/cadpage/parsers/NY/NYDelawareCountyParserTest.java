@@ -41,6 +41,7 @@ public class NYDelawareCountyParserTest extends BaseParserTest {
         "DELCO911:RD HAZ>ROAD HAZARD STATE HIGHWAY 28 MIDDLETOWN FINCH, FELICIA Cad: 2011-0000015967",
         "CALL:ROAD HAZARD",
         "ADDR:STATE HIGHWAY 28",
+        "MADDR:STATE 28",
         "CITY:MIDDLETOWN",
         "NAME:FINCH, FELICIA",
         "ID:2011-0000015967");

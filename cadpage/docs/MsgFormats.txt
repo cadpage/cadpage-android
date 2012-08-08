@@ -1621,6 +1621,11 @@ LOC:2673 OHIO DESC:52/M DIFF BREATHING/CHEST PAINS APT: TYP:*M*SICK PERSON IN PR
 LOC:3833 ORANGE ST DESC:79/F DIFF BREATHING/CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
 LOC:3459 WOODLAND CT DESC:86 FE DIFF BREATHING APT: TYP:*M*SICK PERSON IN PROGRESS
 ***************************************************************************
+Oakland County, MI (MIOaklandCountyParser)
+(South Lyon Medical) Respond to a medical at 106 s lafayette - seizure
+(South Lyon Medical) Respond to a medical at south lyon gardens  low heart rate 
+(South Lyon Fire Run) Respond to a fire alarm at 23000 valerie for gen fire alarm 
+***************************************************************************
 Anoka County, MN (MNAnokaCountyParser)
 CAD MSG: *D A3   57       HANSON BLVD NW / ANDOVER BLVD NW  NE CORNER..SMOKE/CHARRED GRASS...SM FLAMES INC:10019729   [42]
 CAD MSG: *D A3   39F      17844 XEON ST NW  FIRE ALARM... SMOKE OR HEAT UPSTAIRS OR IN GARAGE... SMALL DOG ONSITE INC:10019638  
@@ -4896,6 +4901,7 @@ DispatchProQAParser subclass
 (- part 1 of 1) RC:Run# 45014/Sick Person/<Unknown>/919 FAWCETT AVE//606//TACOMA/773 G5/\r\n\r\nThis is a confidential/proprietary communication intended for the add
 (- part 1 of 1) RC:Run# 46129/Trauma/<Unknown>/2018 E WRIGHT AVE///X=E Roosevelt Ave/TACOMA//\r\n\r\nThis is a confidential/proprietary communication intended for th
 (- part 1 of 1) RC:Run# 46173/Unknown/<Unknown>/6316 S 12TH ST///X=Unknown Street with ID 1319802&S Whitman St/TACOMA//\r\n\r\nThis is a confidential/proprietary com
+(- part 1 of 1) RC:Run# 46237/MVA/<Unknown>/4215 S 30TH ST///X=S Tyler St/TACOMA//\r\n\r\nThis is a confidential/proprietary communication intended for the addressee
 **********************************************************
 **********************************************************
 **********************************************************
