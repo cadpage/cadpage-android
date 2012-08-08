@@ -281,6 +281,155 @@ public class NJGloucesterCountyBParserTest extends BaseParserTest {
         "CALL:RUN REPORT",
         "PLACE:-----Original Message-----\nFrom: GSKLAR@S105KD4M.CO.GLOUCESTER.NJ.US\n[mailto:GSKLAR@S105KD4M.CO.GLOUCESTER.NJ.US] \nSent: Sunday, July 29, 2012 5:07 PM\nTo: sta281@co.gloucester.nj.us\nSubject: Automatic R&R Notification\nImportance: High\n\n\n  \n** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** **\n** ** **  \nIncident Number  : 2012-00026707                    ORI: 0815281\nStation: 28-1  \nIncident Type  . : MEDE E MED EMERG            Priority: 3  \nIncident Location: 9 SIMPSON CT\nVenue: PITMAN \n\nCall Time- 15:58:18                                Date- 07/29/2012  \nDispatch - 16:09:44     En-route- 16:14:33     On-scene- 16:15:33     Depart\n1-  \nArrive 2 -              Depart 2-              In-statn-\nCleared - 16:27:51 \n\nArea:    O              Section :    O         Beat  . :    O  \nGrid:  L16              Quadrant: 2802         District: 2802 \n\nPhone Number: (856) 879-5273                Call Source:  TEL \n\nCaller. . . : TIM \n\nNature of Call : 9 SIMPSON CT \n\nAdditional Info\n  14F DISLOCATED KNEE \n\nNarrative\n Information on the units assigned to the call follows.  \n    Unit: E8300   Radio:           Ofcr 1:     E8300  Ofcr 2:  \n       DSP: 07/29/12  16:16:17     ENR: 07/29/12  16:16:17  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 07/29/12  16:29:21  \n    Unit: E8275   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 07/29/12  15:58:35     ENR: 07/29/12  16:00:32  \n       ARV: 07/29/12  16:05:37     DPT: 07/29/12  16:28:59  \n       AR2: 07/29/12  16:43:50     DP2:             :  :  \n       QTR:             :  :       CLR: 07/29/12  17:07:16  \n    Unit: E8266   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 07/29/12  16:10:28     ENR: 07/29/12  16:10:28  \n       ARV: 07/29/12  16:11:54     DPT:             :  :  \n       QTR:             :  :       CLR: 07/29/12  16:30:11  \n    Unit: F2800   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 07/29/12  16:13:50     ENR: 07/29/12  16:13:50  \n       ARV: 07/29/12  16:14:22     DPT:             :  :  \n       QTR:             :  :       CLR: 07/29/12  16:27:36  \n    Unit: 28-1    Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 07/29/12  16:09:44     ENR: 07/29/12  16:14:33  \n       ARV: 07/29/12  16:15:36     DPT:             :  :  \n       QTR:             :  :       CLR: 07/29/12  16:27:44  \n    Unit: F2818   Radio:           Ofcr 1:     F2818  Ofcr 2:  \n       DSP: 07/29/12  16:15:26     ENR: 07/29/12  16:15:26  \n       ARV: 07/29/12  16:15:33     DPT:             :  :  \n       QTR:             :  :       CLR: 07/29/12  16:27:51  \n UNIT: E8275   UMH                                            16:28:59 \n\nThe Call Taker is SANTILLI JOSEPH C\nThe Dispatcher is ZELINSKY NICK J");
 
+    doTest("T5",
+        "[FW: Automatic R&R Notification]  \r\n" +
+        "\r\n" +
+        "-----Original Message-----\r\n" +
+        "From: SPTETI@S105KD4M.CO.GLOUCESTER.NJ.US\r\n" +
+        "[mailto:SPTETI@S105KD4M.CO.GLOUCESTER.NJ.US] \r\n" +
+        "Sent: Sunday, August 05, 2012 10:23 PM\r\n" +
+        "To: sta281@co.gloucester.nj.us\r\n" +
+        "Subject: Automatic R&R Notification\r\n" +
+        "Importance: High\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "  \r\n" +
+        "** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** **\r\n" +
+        "** ** **  \r\n" +
+        "Incident Number  : 2012-00027701                    ORI: 0815281\r\n" +
+        "Station: 28-1  \r\n" +
+        "Incident Type  . : WIRE F WIRES                Priority: 3  \r\n" +
+        "Incident Location: 142 WOODLYNNE AVE\r\n" +
+        "Venue: PITMAN \r\n" +
+        "\r\n" +
+        "Call Time- 21:44:22                                Date- 08/05/2012  \r\n" +
+        "Dispatch - 21:45:15     En-route- 21:49:51     On-scene-              Depart\r\n" +
+        "1-  \r\n" +
+        "Arrive 2 -              Depart 2-              In-statn-\r\n" +
+        "Cleared - 22:23:09 \r\n" +
+        "\r\n" +
+        "Area:    O              Section :    O         Beat  . :    O  \r\n" +
+        "Grid:  K16              Quadrant: 2802         District: 2802 \r\n" +
+        "\r\n" +
+        "Phone Number: (267) 615-8335                Call Source:  589 \r\n" +
+        "\r\n" +
+        "Caller. . . : SHARON \r\n" +
+        "\r\n" +
+        "Units sent  :  \r\n" +
+        " 0815281     28-1                 081528      FP28 \r\n" +
+        "\r\n" +
+        "Nature of Call : 142 WOODLYNNE AVE \r\n" +
+        "\r\n" +
+        "Additional Info\r\n" +
+        "  LARGE TREE ACROSS ROADWAY / POWER NOW OUT IN\r\n" +
+        "  THE AREA / BELIEVES KNOCKED DOWN WIRES ALSO \r\n" +
+        "\r\n" +
+        "Narrative\r\n" +
+        " Information on the units assigned to the call follows.  \r\n" +
+        "    Unit: FP28    Radio:           Ofcr 1:            Ofcr 2:  \r\n" +
+        "       DSP: 08/05/12  21:57:24     ENR: 08/05/12  22:05:55  \r\n" +
+        "       ARV: 08/05/12  22:12:16     DPT:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 08/05/12  22:23:09  \r\n" +
+        "    Unit: 28-1    Radio:           Ofcr 1:            Ofcr 2:  \r\n" +
+        "       DSP: 08/05/12  21:45:15     ENR: 08/05/12  21:49:51  \r\n" +
+        "       ARV:             :  :       DPT:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 08/05/12  22:23:09  \r\n" +
+        " The following Incidents have been linked:                    21:45:37  \r\n" +
+        "  081528 2012-00027702 EK, 0815281 2012-00027701 CB           21:45:37  \r\n" +
+        " 2800 IS IN THE AREA                               SPTETI     21:49:42  \r\n" +
+        " R 2811                                            WEHOLMSTRO 21:49:56  \r\n" +
+        " O 28302                                           WEHOLMSTRO 21:49:59  \r\n" +
+        " PN BT726PJ                                        SPTETI     21:50:39  \r\n" +
+        " IFO OF 142 WOODLYNNE                              SPTETI     21:50:54  \r\n" +
+        " PN21206                                           SPTETI     21:56:41  \r\n" +
+        " ACW3E                                             SPTETI     21:56:51  \r\n" +
+        "  ACE                                              SPTETI     21:56:52  \r\n" +
+        " ACE NOTIFIED                                      SPTETI     21:57:05  \r\n" +
+        " PER 2800 DISPATCH FIRE POLICE                     SPTETI     21:57:16  \r\n" +
+        " R 2819                                            SPTETI     22:05:50  \r\n" +
+        " 2802 IS RESPONDING WITH THE BARRICADES            SPTETI     22:11:46  \r\n" +
+        " C FP28                                            SPTETI     22:23:03 \r\n" +
+        "\r\n" +
+        "The Call Taker is BREYER MICHAEL R\r\n" +
+        "The Dispatcher is DAVIS ELLIOT SCOTT\r\n" +
+        "\r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:-----Original Message-----\nFrom: SPTETI@S105KD4M.CO.GLOUCESTER.NJ.US\n[mailto:SPTETI@S105KD4M.CO.GLOUCESTER.NJ.US] \nSent: Sunday, August 05, 2012 10:23 PM\nTo: sta281@co.gloucester.nj.us\nSubject: Automatic R&R Notification\nImportance: High\n\n\n  \n** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** **\n** ** **  \nIncident Number  : 2012-00027701                    ORI: 0815281\nStation: 28-1  \nIncident Type  . : WIRE F WIRES                Priority: 3  \nIncident Location: 142 WOODLYNNE AVE\nVenue: PITMAN \n\nCall Time- 21:44:22                                Date- 08/05/2012  \nDispatch - 21:45:15     En-route- 21:49:51     On-scene-              Depart\n1-  \nArrive 2 -              Depart 2-              In-statn-\nCleared - 22:23:09 \n\nArea:    O              Section :    O         Beat  . :    O  \nGrid:  K16              Quadrant: 2802         District: 2802 \n\nPhone Number: (267) 615-8335                Call Source:  589 \n\nCaller. . . : SHARON \n\nUnits sent  :  \n 0815281     28-1                 081528      FP28 \n\nNature of Call : 142 WOODLYNNE AVE \n\nAdditional Info\n  LARGE TREE ACROSS ROADWAY / POWER NOW OUT IN\n  THE AREA / BELIEVES KNOCKED DOWN WIRES ALSO \n\nNarrative\n Information on the units assigned to the call follows.  \n    Unit: FP28    Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 08/05/12  21:57:24     ENR: 08/05/12  22:05:55  \n       ARV: 08/05/12  22:12:16     DPT:             :  :  \n       QTR:             :  :       CLR: 08/05/12  22:23:09  \n    Unit: 28-1    Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 08/05/12  21:45:15     ENR: 08/05/12  21:49:51  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 08/05/12  22:23:09  \n The following Incidents have been linked:                    21:45:37  \n  081528 2012-00027702 EK, 0815281 2012-00027701 CB           21:45:37  \n 2800 IS IN THE AREA                               SPTETI     21:49:42  \n R 2811                                            WEHOLMSTRO 21:49:56  \n O 28302                                           WEHOLMSTRO 21:49:59  \n PN BT726PJ                                        SPTETI     21:50:39  \n IFO OF 142 WOODLYNNE                              SPTETI     21:50:54  \n PN21206                                           SPTETI     21:56:41  \n ACW3E                                             SPTETI     21:56:51  \n  ACE                                              SPTETI     21:56:52  \n ACE NOTIFIED                                      SPTETI     21:57:05  \n PER 2800 DISPATCH FIRE POLICE                     SPTETI     21:57:16  \n R 2819                                            SPTETI     22:05:50  \n 2802 IS RESPONDING WITH THE BARRICADES            SPTETI     22:11:46  \n C FP28                                            SPTETI     22:23:03 \n\nThe Call Taker is BREYER MICHAEL R\nThe Dispatcher is DAVIS ELLIOT SCOTT");
+
+    doTest("T5",
+        "[FW: Automatic R&R Notification]  \r\n" +
+        "\r\n" +
+        "-----Original Message-----\r\n" +
+        "From: SPTETI@S105KD4M.CO.GLOUCESTER.NJ.US\r\n" +
+        "[mailto:SPTETI@S105KD4M.CO.GLOUCESTER.NJ.US] \r\n" +
+        "Sent: Sunday, August 05, 2012 10:23 PM\r\n" +
+        "To: sta281@co.gloucester.nj.us\r\n" +
+        "Subject: Automatic R&R Notification\r\n" +
+        "Importance: High\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "  \r\n" +
+        "** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** **\r\n" +
+        "** ** **  \r\n" +
+        "Incident Number  : 2012-00027701                    ORI: 081528\r\n" +
+        "Station: 28-8  \r\n" +
+        "Incident Type  . : WIRE F WIRES                Priority: 3  \r\n" +
+        "Incident Location: 142 WOODLYNNE AVE\r\n" +
+        "Venue: PITMAN \r\n" +
+        "\r\n" +
+        "Call Time- 21:44:22                                Date- 08/05/2012  \r\n" +
+        "Dispatch - 21:57:24     En-route- 22:05:55     On-scene- 22:12:16     Depart\r\n" +
+        "1-  \r\n" +
+        "Arrive 2 -              Depart 2-              In-statn-\r\n" +
+        "Cleared - 22:23:09 \r\n" +
+        "\r\n" +
+        "Area:    O              Section :    O         Beat  . :    O  \r\n" +
+        "Grid:  K16              Quadrant: 2802         District: 2802 \r\n" +
+        "\r\n" +
+        "Phone Number: (267) 615-8335                Call Source:  589 \r\n" +
+        "\r\n" +
+        "Caller. . . : SHARON \r\n" +
+        "\r\n" +
+        "Nature of Call : 142 WOODLYNNE AVE \r\n" +
+        "\r\n" +
+        "Additional Info\r\n" +
+        "  LARGE TREE ACROSS ROADWAY / POWER NOW OUT IN\r\n" +
+        "  THE AREA / BELIEVES KNOCKED DOWN WIRES ALSO \r\n" +
+        "\r\n" +
+        "Narrative\r\n" +
+        " Information on the units assigned to the call follows.  \r\n" +
+        "    Unit: FP28    Radio:           Ofcr 1:            Ofcr 2:  \r\n" +
+        "       DSP: 08/05/12  21:57:24     ENR: 08/05/12  22:05:55  \r\n" +
+        "       ARV: 08/05/12  22:12:16     DPT:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 08/05/12  22:23:09  \r\n" +
+        "    Unit: 28-1    Radio:           Ofcr 1:            Ofcr 2:  \r\n" +
+        "       DSP: 08/05/12  21:45:15     ENR: 08/05/12  21:49:51  \r\n" +
+        "       ARV:             :  :       DPT:             :  :  \r\n" +
+        "       QTR:             :  :       CLR: 08/05/12  22:23:09  \r\n" +
+        " The following Incidents have been linked:                    21:45:37  \r\n" +
+        "  081528 2012-00027702 EK, 0815281 2012-00027701 CB           21:45:37  \r\n" +
+        " 2800 IS IN THE AREA                               SPTETI     21:49:42  \r\n" +
+        " R 2811                                            WEHOLMSTRO 21:49:56  \r\n" +
+        " O 28302                                           WEHOLMSTRO 21:49:59  \r\n" +
+        " PN BT726PJ                                        SPTETI     21:50:39  \r\n" +
+        " IFO OF 142 WOODLYNNE                              SPTETI     21:50:54  \r\n" +
+        " PN21206                                           SPTETI     21:56:41  \r\n" +
+        " ACW3E                                             SPTETI     21:56:51  \r\n" +
+        "  ACE                                              SPTETI     21:56:52  \r\n" +
+        " ACE NOTIFIED                                      SPTETI     21:57:05  \r\n" +
+        " PER 2800 DISPATCH FIRE POLICE                     SPTETI     21:57:16  \r\n" +
+        " R 2819                                            SPTETI     22:05:50  \r\n" +
+        " 2802 IS RESPONDING WITH THE BARRICADES            SPTETI     22:11:46  \r\n" +
+        " C FP28                                            SPTETI     22:23:03 \r\n" +
+        "\r\n" +
+        "The Call Taker is BREYER MICHAEL R\r\n" +
+        "The Dispatcher is DAVIS ELLIOT SCOTT\r\n" +
+        "\r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:-----Original Message-----\nFrom: SPTETI@S105KD4M.CO.GLOUCESTER.NJ.US\n[mailto:SPTETI@S105KD4M.CO.GLOUCESTER.NJ.US] \nSent: Sunday, August 05, 2012 10:23 PM\nTo: sta281@co.gloucester.nj.us\nSubject: Automatic R&R Notification\nImportance: High\n\n\n  \n** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** **\n** ** **  \nIncident Number  : 2012-00027701                    ORI: 081528\nStation: 28-8  \nIncident Type  . : WIRE F WIRES                Priority: 3  \nIncident Location: 142 WOODLYNNE AVE\nVenue: PITMAN \n\nCall Time- 21:44:22                                Date- 08/05/2012  \nDispatch - 21:57:24     En-route- 22:05:55     On-scene- 22:12:16     Depart\n1-  \nArrive 2 -              Depart 2-              In-statn-\nCleared - 22:23:09 \n\nArea:    O              Section :    O         Beat  . :    O  \nGrid:  K16              Quadrant: 2802         District: 2802 \n\nPhone Number: (267) 615-8335                Call Source:  589 \n\nCaller. . . : SHARON \n\nNature of Call : 142 WOODLYNNE AVE \n\nAdditional Info\n  LARGE TREE ACROSS ROADWAY / POWER NOW OUT IN\n  THE AREA / BELIEVES KNOCKED DOWN WIRES ALSO \n\nNarrative\n Information on the units assigned to the call follows.  \n    Unit: FP28    Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 08/05/12  21:57:24     ENR: 08/05/12  22:05:55  \n       ARV: 08/05/12  22:12:16     DPT:             :  :  \n       QTR:             :  :       CLR: 08/05/12  22:23:09  \n    Unit: 28-1    Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 08/05/12  21:45:15     ENR: 08/05/12  21:49:51  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 08/05/12  22:23:09  \n The following Incidents have been linked:                    21:45:37  \n  081528 2012-00027702 EK, 0815281 2012-00027701 CB           21:45:37  \n 2800 IS IN THE AREA                               SPTETI     21:49:42  \n R 2811                                            WEHOLMSTRO 21:49:56  \n O 28302                                           WEHOLMSTRO 21:49:59  \n PN BT726PJ                                        SPTETI     21:50:39  \n IFO OF 142 WOODLYNNE                              SPTETI     21:50:54  \n PN21206                                           SPTETI     21:56:41  \n ACW3E                                             SPTETI     21:56:51  \n  ACE                                              SPTETI     21:56:52  \n ACE NOTIFIED                                      SPTETI     21:57:05  \n PER 2800 DISPATCH FIRE POLICE                     SPTETI     21:57:16  \n R 2819                                            SPTETI     22:05:50  \n 2802 IS RESPONDING WITH THE BARRICADES            SPTETI     22:11:46  \n C FP28                                            SPTETI     22:23:03 \n\nThe Call Taker is BREYER MICHAEL R\nThe Dispatcher is DAVIS ELLIOT SCOTT");
+
   }
   
   @Test

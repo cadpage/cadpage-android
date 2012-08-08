@@ -82,14 +82,82 @@ public class ORWashingtonCountyParserTest extends BaseParserTest {
         "UNK PROB/MN DOWN 95 82ND DR (SAFEWAY (GLADSTONE)) GLA MAP: 6398D UNIT: R101 M1",
         "CALL:UNK PROB/MN DOWN",
         "ADDR:95 82ND DR",
-        "X:GLADSTONE)",
+        "X:SAFEWAY (GLADSTONE)",
         "CITY:GLADSTONE",
         "MAP:6398D",
         "UNIT:R101 M1");
 
   }
   
+  @Test
+  public void testActive911A() {
+
+    doTest("T1",
+        "[] PRE NOTIFICATION 59185 E CHALET PL (DEAD END & E EAST RD) SAN MAP: 6324A UNIT: SQ252 SQ251 M1 2509\r\n\r\n\n",
+        "CALL:PRE NOTIFICATION",
+        "ADDR:59185 E CHALET PL",
+        "CITY:SANDY",
+        "X:DEAD END & E EAST RD",
+        "MAP:6324A",
+        "UNIT:SQ252 SQ251 M1 2509");
+
+    doTest("T2",
+        "[] BREATHING PROB. 59185 E CHALET PL (DEAD END & E EAST RD) SAN MAP: 6324A UNIT: SQ252\r\n\r\n\n",
+        "CALL:BREATHING PROB",
+        "ADDR:59185 E CHALET PL",
+        "CITY:SANDY",
+        "X:DEAD END & E EAST RD",
+        "MAP:6324A",
+        "UNIT:SQ252");
+
+    doTest("T3",
+        "[] PRE NOTIFICATION 59454 E SLEEPY HOLLOW DR (E EAST RD & E BARLOW TRAIL RD) SAN MAP: 6324B UNIT: SQ252 SQ251 M1 2509\r\n\r\n\n",
+        "CALL:PRE NOTIFICATION",
+        "ADDR:59454 E SLEEPY HOLLOW DR",
+        "CITY:SANDY",
+        "X:E EAST RD & E BARLOW TRAIL RD",
+        "MAP:6324B",
+        "UNIT:SQ252 SQ251 M1 2509");
+
+    doTest("T4",
+        "[] PRE NOTIFICATION 27160 E MARION RD (E ROAD 10 & E ROAD 20) RHO MAP: 6731A UNIT: SQ252 M1 3709\r\n\r\n\n",
+        "CALL:PRE NOTIFICATION",
+        "ADDR:27160 E MARION RD",
+        "CITY:RHODODENDRON",
+        "X:E ROAD 10 & E ROAD 20",
+        "MAP:6731A",
+        "UNIT:SQ252 M1 3709");
+
+    doTest("T5",
+        "[] PRE NOTIFICATION 59454 E SLEEPY HOLLOW DR (E EAST RD & E BARLOW TRAIL RD) SAN MAP: 6324B UNIT: SQ252 SQ251 M1 2509\r\n\r\n\n",
+        "CALL:PRE NOTIFICATION",
+        "ADDR:59454 E SLEEPY HOLLOW DR",
+        "CITY:SANDY",
+        "X:E EAST RD & E BARLOW TRAIL RD",
+        "MAP:6324B",
+        "UNIT:SQ252 SQ251 M1 2509");
+
+    doTest("T6",
+        "[] UNKNOWN TYP FIRE 31315 E MULTORPOR DR (SKI BOWL (EAST)) GOV MAP: 6939 UNIT: E251 E254 2509\r\n\r\n\n",
+        "CALL:UNKNOWN TYP FIRE",
+        "ADDR:31315 E MULTORPOR DR",
+        "CITY:GOVERNMENT CAMP",
+        "X:SKI BOWL (EAST)",
+        "MAP:6939",
+        "UNIT:E251 E254 2509");
+
+    doTest("T7",
+        "[] FIRE ALARM, COMM 30521 E MELDRUM ST (E LIGE LN & E GOVERNMENT CAMP LP) GOV MAP: 6939 UNIT: E251 E254 WT251 2509\r\n\r\n\n",
+        "CALL:FIRE ALARM, COMM",
+        "ADDR:30521 E MELDRUM ST",
+        "CITY:GOVERNMENT CAMP",
+        "X:E LIGE LN & E GOVERNMENT CAMP LP",
+        "MAP:6939",
+        "UNIT:E251 E254 WT251 2509");
+
+  }
+  
   public static void main(String[] args) {
-    new ORWashingtonCountyParserTest().generateTests("T1", "CALL ADDR X CITY MAP UNIT");
+    new ORWashingtonCountyParserTest().generateTests("T1");
   }
 }
