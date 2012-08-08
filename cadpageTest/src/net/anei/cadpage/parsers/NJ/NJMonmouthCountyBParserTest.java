@@ -177,6 +177,79 @@ public class NJMonmouthCountyBParserTest extends BaseParserTest {
         "INFO:GENERAL FIRE ALARM//OP#3499",
         "TIME:10:51:46",
         "DATE:04/05/2012");
+    
+    doTest("T19",
+        "[!] GAS F GAS | 1 STATION ST | X-ST: IRON ORE RD/ | AT REX LUMBER-GAS LINE STRUCK | 09:00:43 | 08/08/2012",
+        "CALL:GAS F GAS",
+        "ADDR:1 STATION ST",
+        "X:IRON ORE RD",
+        "INFO:AT REX LUMBER-GAS LINE STRUCK",
+        "TIME:09:00:43",
+        "DATE:08/08/2012");
+
+    doTest("T20",
+        "[!] FIRA F FIRE ALARM | 151 ST HWY 33 | X-ST: | NEXT GEN 732 617 9300 ZONE WATER FLOW | 07:56:50 | 08/07/2012",
+        "CALL:FIRA F FIRE ALARM",
+        "ADDR:151 ST HWY 33",
+        "MADDR:151 NJ 33",
+        "INFO:NEXT GEN 732 617 9300 ZONE WATER FLOW",
+        "TIME:07:56:50",
+        "DATE:08/07/2012");
+
+    doTest("T21",
+        "[!] FIRA F FIRE ALARM | 151 ST HWY 33 | X-ST: MILLHURST RD/WOODWARD RD | NEXT GEN 732 617 9300 ZONE WATER FLOW | 07:56:50 | 08/07/2012",
+        "CALL:FIRA F FIRE ALARM",
+        "ADDR:151 ST HWY 33",
+        "MADDR:151 NJ 33",
+        "X:MILLHURST RD/WOODWARD RD",
+        "INFO:NEXT GEN 732 617 9300 ZONE WATER FLOW",
+        "TIME:07:56:50",
+        "DATE:08/07/2012");
+
+    doTest("T22",
+        "[!] MVFA F MVA FD/ALS | 120 ST HWY 33 | X-ST: | 2 CAR MVA - NO INJURIES | 14:22:52 | 08/06/2012",
+        "CALL:MVFA F MVA FD/ALS",
+        "ADDR:120 ST HWY 33",
+        "MADDR:120 NJ 33",
+        "INFO:2 CAR MVA - NO INJURIES",
+        "TIME:14:22:52",
+        "DATE:08/06/2012");
+
+    doTest("T23",
+        "[!] MVFA F MVA FD/ALS | 120 ST HWY 33 | X-ST: RT 33 BYPASS/MILLHURST RD | 2 CAR MVA - NO INJURIES | 14:22:52 | 08/06/2012",
+        "CALL:MVFA F MVA FD/ALS",
+        "ADDR:120 ST HWY 33",
+        "MADDR:120 NJ 33",
+        "X:RT 33 BYPASS/MILLHURST RD",
+        "INFO:2 CAR MVA - NO INJURIES",
+        "TIME:14:22:52",
+        "DATE:08/06/2012");
+
+    doTest("T24",
+        "[!] FIRS F FIRE STRUC | 23 ST ANDREWS PL | X-ST: | THIRD PARTY CALLER/HOMEOWNER CONTACTED SAYING | 10:18:50 | 08/04/2012",
+        "CALL:FIRS F FIRE STRUC",
+        "ADDR:23 ST ANDREWS PL",
+        "INFO:THIRD PARTY CALLER/HOMEOWNER CONTACTED SAYING",
+        "TIME:10:18:50",
+        "DATE:08/04/2012");
+
+    doTest("T25",
+        "[!] FIRA F FIRE ALARM | 450 TENNENT RD | X-ST: | OLD TENENT CHURCH- GENERAL FIRE ALARM | 10:05:07 | 08/04/2012",
+        "CALL:FIRA F FIRE ALARM",
+        "ADDR:450 TENNENT RD",
+        "INFO:OLD TENENT CHURCH- GENERAL FIRE ALARM",
+        "TIME:10:05:07",
+        "DATE:08/04/2012");
+
+    doTest("T26",
+        "[!] FIRA F FIRE ALARM | 450 TENNENT RD | X-ST: FREEHOLD RD/CRAIG RD | OLD TENENT CHURCH- GENERAL FIRE ALARM | 10:05:07 | 08/04/2012",
+        "CALL:FIRA F FIRE ALARM",
+        "ADDR:450 TENNENT RD",
+        "X:FREEHOLD RD/CRAIG RD",
+        "INFO:OLD TENENT CHURCH- GENERAL FIRE ALARM",
+        "TIME:10:05:07",
+        "DATE:08/04/2012");
+
   }
   
   public static void main(String[] args) {
