@@ -51,12 +51,13 @@ public class SCAndersonCountyParserTest extends BaseParserTest {
         "ID:2011-0000004223");
 
     doTest("T5",
-        "ANDERSON CO 911:31 >UNCONSCIOUS/FAINTING 210 KIRK LN Apt: 11 Bldg PENDLETON6463347 MICHELLE DURHAM Map: Grids:0,0 Cad: 2011-0000004465",
+        "ANDERSON CO 911:31 >UNCONSCIOUS/FAINTING 210 KIRK LN Apt: 11 Bldg PENDLETON 6463347 MICHELLE DURHAM Map: Grids:0,0 Cad: 2011-0000004465",
         "CODE:31",
         "CALL:UNCONSCIOUS/FAINTING",
         "ADDR:210 KIRK LN",
-        "APT:11",
-        "NAME:Bldg PENDLETON6463347 MICHELLE DURHAM",
+        "APT:11 Bldg",
+        "CITY:PENDLETON",
+        "NAME:6463347 MICHELLE DURHAM",
         "ID:2011-0000004465");
 
     doTest("T6",
@@ -64,7 +65,8 @@ public class SCAndersonCountyParserTest extends BaseParserTest {
         "CODE:13A1",
         "CALL:DIABETIC-ALS PRI2",
         "ADDR:7900 HIGHWAY 76",
-        "NAME:PENDLETON OFFICER SUMMERS",
+        "CITY:PENDLETON",
+        "NAME:OFFICER SUMMERS",
         "PHONE:934-3443",
         "ID:2011-0000004494");
 
