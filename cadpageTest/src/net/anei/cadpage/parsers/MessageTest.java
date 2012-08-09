@@ -9,6 +9,15 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("COGarfileCounty",
+        "ken@cadpage.org",
+        "[1/2] CAD Page",
+        "1/2\n\nEBreathing Difficulty Location  Colorado State Veterians Nursing Home851 E  5TH ST RIF RM 142",
+        "ken@cadpage.org",
+        "[1/2] CAD Page",
+        "EBreathing Difficulty Location  Colorado State Veterians Nursing Home851 E  5TH ST RIF RM 142",
+        1, 2);
+    
     doParseTest("PAGloucesterCountyB",
         "ken@cadpage.org",
         "FW: Automatic R&R Notification",

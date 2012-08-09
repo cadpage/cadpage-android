@@ -229,8 +229,9 @@ public class COGarfieldCountyParserTest extends BaseParserTest {
     doTest("T29",
         "(CAD Page) EFalls Location  APPLE TREE MHP5033 CORD 335 Z2 2012 00000421     ",
         "CALL:EFalls",
-        "ADDR:APPLE TREE MHP5033 CORD 335",
-        "MADDR:APPLE TREE MHP5033 COUNTY ROAD 335",
+        "PLACE:APPLE TREE MHP",
+        "ADDR:5033 CORD 335",
+        "MADDR:5033 COUNTY ROAD 335",
         "MAP:Z2",
         "ID:2012 00000421");
 
@@ -335,6 +336,229 @@ public class COGarfieldCountyParserTest extends BaseParserTest {
         "ADDR:144 PEAR CT",
         "MAP:Z2",
         "ID:2012 00000440");
+
+  }
+  
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        "([1/1] CAD Page) Accident Location  103 E I70Z2 2012 00018886     ",
+        "CALL:Accident",
+        "ADDR:103 E I70",
+        "MADDR:103 E I 70",
+        "MAP:Z2",
+        "ID:2012 00018886");
+
+    doTest("T2",
+        "([1/1] CAD Page) EFalls Location  150 UTE AVE RIF APT L1 2012 00000739     ",
+        "CALL:EFalls",
+        "ADDR:150 UTE AVE",
+        "APT:L1",
+        "CITY:RIFLE",
+        "ID:2012 00000739");
+
+    doTest("T3",
+        "([1/1] CAD Page) EChoking Location  451 SILVERHORN DR NC 2012 00000510     ",
+        "CALL:EChoking",
+        "ADDR:451 SILVERHORN DR",
+        "CITY:NEW CASTLE",
+        "ID:2012 00000510");
+
+    doTest("T4",
+        "([1/1] CAD Page) ESick Unknown Location  APPLE TREE MHP5033 CORD 335 138 Z2 2012 00000511     ",
+        "CALL:ESick Unknown",
+        "PLACE:APPLE TREE MHP",
+        "ADDR:5033 CORD 335 138",
+        "MADDR:5033 COUNTY ROAD 335 138",
+        "MAP:Z2",
+        "ID:2012 00000511");
+
+    doTest("T5",
+        "([1/1] CAD Page) FAlarm Location  Colorado State Veterians Nursing Home851 E  5TH ST RIF 2012 00000742     ",
+        "CALL:FAlarm",
+        "PLACE:Colorado State Veterians Nursing Home",
+        "ADDR:851 E 5TH ST",
+        "CITY:RIFLE",
+        "ID:2012 00000742");
+
+    doTest("T6",
+        "([1/1] CAD Page) Accident Location  TAUGHENBAUGH STHY 13 ROUNDABOUTRIF 2012 00009976     ",
+        "CALL:Accident",
+        "ADDR:TAUGHENBAUGH STHY 13 ROUNDABOUT",
+        "MADDR:TAUGHENBAUGH ST 13 ROUNDABOUT",
+        "CITY:RIFLE",
+        "ID:2012 00009976");
+
+    doTest("T7",
+        "([1/1] CAD Page) Accident Location  HARVEY GAP Z2 2012 00000512     ",
+        "CALL:Accident",
+        "ADDR:HARVEY GAP",
+        "MAP:Z2",
+        "ID:2012 00000512");
+
+    doTest("T8",
+        "([1/1] CAD Page) EFalls Location  1218 BALLARD AVE SILT 2012 00000513     ",
+        "CALL:EFalls",
+        "ADDR:1218 BALLARD AVE",
+        "CITY:SILT",
+        "ID:2012 00000513");
+
+    doTest("T9",
+        "([1/1] CAD Page) FBrush Location  RIFLE PD201 E 18TH ST RIF 2012 00000747     ",
+        "CALL:FBrush",
+        "ADDR:RIFLE PD201 E 18TH ST",
+        "CITY:RIFLE",
+        "ID:2012 00000747");
+
+    doTest("T10",
+        "([1/1] CAD Page) EFalls Location  200 S  E AVE NC 2012 00000515     ",
+        "CALL:EFalls",
+        "ADDR:200 S E AVE",
+        "CITY:NEW CASTLE",
+        "ID:2012 00000515");
+
+    doTest("T11",
+        "([1/1] CAD Page) EStabbing Gunshot Location  Green Diamond Cabins1535 MAIN ST 8 Z2 2012 00000517     ",
+        "CALL:EStabbing Gunshot",
+        "PLACE:Green Diamond Cabins",
+        "ADDR:1535 MAIN ST 8",
+        "MAP:Z2",
+        "ID:2012 00000517");
+
+    doTest("T12",
+        "([1/1] CAD Page) EAbdominal Location  826 CEDAR DR RIF 2012 00000749     ",
+        "CALL:EAbdominal",
+        "ADDR:826 CEDAR DR",
+        "CITY:RIFLE",
+        "ID:2012 00000749");
+
+    doTest("T13",
+        "([1/1] CAD Page) ETrauma with Injury Location  1325 ORCHARD AVE SILT 2012 00000518     ",
+        "CALL:ETrauma with Injury",
+        "ADDR:1325 ORCHARD AVE",
+        "CITY:SILT",
+        "ID:2012 00000518");
+
+    doTest("T14",
+        "([1/1] CAD Page) EMedical Alarm Location  54 WINCHESTER ST Z3 2012 00000750     ",
+        "CALL:EMedical Alarm",
+        "ADDR:54 WINCHESTER ST",
+        "MAP:Z3",
+        "ID:2012 00000750");
+
+    doTest("T15",
+        "([1/1] CAD Page) EMedical Alarm Location  188 SHOSHONE TRL Z2 2012 00000519     ",
+        "CALL:EMedical Alarm",
+        "ADDR:188 SHOSHONE TRL",
+        "MAP:Z2",
+        "ID:2012 00000519");
+
+    doTest("T16",
+        "([1/1] CAD Page) EUnconscious Syncope Location  420 W  26TH ST RIF 2012 00000751     ",
+        "CALL:EUnconscious Syncope",
+        "ADDR:420 W 26TH ST",
+        "CITY:RIFLE",
+        "ID:2012 00000751");
+
+    doTest("T17",
+        "([1/1] CAD Page) FVehicle Fire Location  32958 RIVER FRONTAGE RD Z2 2012 00000520     ",
+        "CALL:FVehicle Fire",
+        "ADDR:32958 RIVER FRONTAGE RD",
+        "MAP:Z2",
+        "ID:2012 00000520");
+
+    doTest("T18",
+        "([1/1] CAD Page) EBreathing Difficulty Location  Colorado State Veterians Nursing Home851 E  5TH ST RIF RM 142 2012 00000753     ",
+        "CALL:EBreathing Difficulty",
+        "PLACE:Colorado State Veterians Nursing Home",
+        "ADDR:851 E 5TH ST RIF",
+        "APT:142",
+        "ID:2012 00000753");
+
+    doTest("T19",
+        "([1/1] CAD Page) FBrush Location  RIFLE CREEK GOLF COURSE3063 STHY 325 Z2 2012 00000754     ",
+        "CALL:FBrush",
+        "PLACE:RIFLE CREEK GOLF COURSE",
+        "ADDR:3063 STHY 325",
+        "MADDR:3063 CO 325",
+        "MAP:Z2",
+        "ID:2012 00000754");
+
+    doTest("T20",
+        "([1/1] CAD Page) Accident Location  109.5 W I70 2012 00000521     ",
+        "CALL:Accident",
+        "ADDR:109.5 W I70",
+        "MADDR:109.5 W I 70",
+        "ID:2012 00000521");
+
+    doTest("T21",
+        "([1/1] CAD Page) FVehicle Fire Location  91 E I70RIF 2012 00000755     ",
+        "CALL:FVehicle Fire",
+        "ADDR:91 E I70",
+        "MADDR:91 E I 70",
+        "CITY:RIFLE",
+        "ID:2012 00000755");
+
+    doTest("T22",
+        "([1/1] CAD Page) EChest Pain Location  1300 CORD 311 Z2 2012 00000522     ",
+        "CALL:EChest Pain",
+        "ADDR:1300 CORD 311",
+        "MADDR:1300 COUNTY ROAD 311",
+        "MAP:Z2",
+        "ID:2012 00000522");
+
+    doTest("T23",
+        "([1/1] CAD Page) EBack Pain Location  DSS Rif195 W  14TH ST RIF 2012 00000756     ",
+        "CALL:EBack Pain",
+        "PLACE:DSS Rif",
+        "ADDR:195 W 14TH ST",
+        "CITY:RIFLE",
+        "ID:2012 00000756");
+
+    doTest("T24",
+        "([1/1] CAD Page) EMental Emotional Psych Location  W  2ND ST WEST RIF 2012 00000757     ",
+        "CALL:EMental Emotional Psych",
+        "ADDR:W 2ND ST WEST",
+        "CITY:RIFLE",
+        "ID:2012 00000757");
+
+    doTest("T25",
+        "([1/1] CAD Page) EMental Emotional Psych Location  1218 BALLARD AVE SILT UNIT TRLR 2012 00000523     ",
+        "CALL:EMental Emotional Psych",
+        "ADDR:1218 BALLARD AVE SILT UNIT TRLR",
+        "ID:2012 00000523");
+
+    doTest("T26",
+        "([1/1] CAD Page) Accident Location  TOP OF STEVENS HILL Z2 2012 00000759     ",
+        "CALL:Accident",
+        "ADDR:TOP OF STEVENS HILL",
+        "MAP:Z2",
+        "ID:2012 00000759");
+
+    doTest("T27",
+        "([1/1] CAD Page) FAlarm Location  Wamsley Elementary225 E  30TH ST RIF 2012 00000761     ",
+        "CALL:FAlarm",
+        "PLACE:Wamsley Elementary",
+        "ADDR:225 E 30TH ST",
+        "CITY:RIFLE",
+        "ID:2012 00000761");
+
+    doTest("T28",
+        "([1/1] CAD Page) ESeizures Location  241 N 7TH ST NC 2012 00000524     ",
+        "CALL:ESeizures",
+        "ADDR:241 N 7TH ST",
+        "CITY:NEW CASTLE",
+        "ID:2012 00000524");
+
+    doTest("T29",
+        "([1/1] CAD Page) FSmoke Check Location  APPLE TREE MHP5033 CORD 335 Z2 2012 00000525     ",
+        "CALL:FSmoke Check",
+        "PLACE:APPLE TREE MHP",
+        "ADDR:5033 CORD 335",
+        "MADDR:5033 COUNTY ROAD 335",
+        "MAP:Z2",
+        "ID:2012 00000525");
 
   }
   
