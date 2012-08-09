@@ -78,7 +78,7 @@ public class Parser {
         int flags = MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER;
         if (tFlags.contains("G")) flags |= MsgParser.PARSE_FLG_GEN_ALERT;
         if (parser.isPageMsg(msg, flags)) {
-          System.out.println(CadpageParser.formatInfo(msg.getInfo(), "\n", false));
+          System.out.println(CadpageParser.formatInfo(msg.getInfo(), "\n", true));
         }
       }
       System.out.println(EOD_MARKER);

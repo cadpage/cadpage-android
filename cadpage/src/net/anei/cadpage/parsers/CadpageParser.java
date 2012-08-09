@@ -182,8 +182,8 @@ public class CadpageParser  extends FieldProgramParser{
     append(sb, "CODE", info.getCode(), delim);
     append(sb, "GPS", info.getGPSLoc(), delim);
     append(sb, "ID", info.getCallId(), delim);
-    
     append(sb, "SRC", info.getSource(), delim);
+    append(sb, "URL", info.getInfoURL(), delim);
     if (info.getCity().length() == 0) append(sb, "DCITY", info.getDefCity(), delim);
     if (info.getState().length() == 0) append(sb, "DST", info.getDefState(), delim);
     if (inclMapAddr) {
