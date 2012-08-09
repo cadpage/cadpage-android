@@ -210,6 +210,202 @@ public class MOPulaskiCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testActive911RunReport() {
+
+    doTest("T1",
+        "[DO NOT REPLY] Call Number: 266654 \r\n" +
+        "MOTOR VEHICLE ACCIDENT WITH INJURY \r\n" +
+        "Dispatch: 8/3/2012 22:09:56 \r\n" +
+        "Ackldge: 22:10:03 \r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "Clear: 23:40:44 \r\n" +
+        "Complete: 23:51:16\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:Call Number: 266654 \nMOTOR VEHICLE ACCIDENT WITH INJURY \nDispatch: 8/3/2012 22:09:56 \nAckldge: 22:10:03 \n\n\n\n\nClear: 23:40:44 \nComplete: 23:51:16");
+
+    doTest("T2",
+        "[DO NOT REPLY] Call Number: 266893 \r\n" +
+        "DIABETIC \r\n" +
+        "Dispatch: 8/5/2012 16:39:31 \r\n" +
+        "Ackldge: 16:39:33 \r\n" +
+        "Enroute: 16:45:08 \r\n" +
+        "OnScene: 16:46:40 \r\n" +
+        "\r\n" +
+        "\r\n" +
+        "Clear: 16:51:31 \r\n" +
+        "Complete: 16:54:29\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:Call Number: 266893 \nDIABETIC \nDispatch: 8/5/2012 16:39:31 \nAckldge: 16:39:33 \nEnroute: 16:45:08 \nOnScene: 16:46:40 \n\n\nClear: 16:51:31 \nComplete: 16:54:29");
+
+    doTest("T3",
+        "[DO NOT REPLY] Call Number: 266943 \r\n" +
+        "STRUCTURE FIRE RESIDENTIAL \r\n" +
+        "Dispatch: 8/6/2012 00:19:09 \r\n" +
+        "Ackldge: 0:20:18 \r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "Complete: 0:32:53\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:Call Number: 266943 \nSTRUCTURE FIRE RESIDENTIAL \nDispatch: 8/6/2012 00:19:09 \nAckldge: 0:20:18 \n\n\n\n\n\nComplete: 0:32:53");
+
+    doTest("T4",
+        "[DO NOT REPLY] Call Number: 266964 \r\n" +
+        "NATURAL COVER FIRE \r\n" +
+        "Dispatch: 8/6/2012 10:20:06 \r\n" +
+        "Ackldge: 10:24:09 \r\n" +
+        "Enroute: 10:29:19 \r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "Clear: 11:13:41 \r\n" +
+        "Complete: 11:13:42\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:Call Number: 266964 \nNATURAL COVER FIRE \nDispatch: 8/6/2012 10:20:06 \nAckldge: 10:24:09 \nEnroute: 10:29:19 \n\n\n\nClear: 11:13:41 \nComplete: 11:13:42");
+
+  }
+  
+  @Test
+  public void testActive911A() {
+
+    doTest("T1",
+        "[DO NOT REPLY] MOTOR VEHICLE ACCIDENT WITH INJURY  MARIES COUNTY 630 MARIES COUNTY CrossStreets: MARIES MSHP1 MSHP2 DAD DFD1 Call Received Time: 8/3/2012 21:43:40 Dispatch: 8/3/2012 22:09:56\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n",
+
+        "CALL:MOTOR VEHICLE ACCIDENT WITH INJURY",
+        "ADDR:MARIES COUNTY 630 MARIES COUNTY",
+        "UNIT:MARIES MSHP1 MSHP2 DAD DFD1",
+        "DATE:8/3/2012",
+        "TIME:22:09:56");
+
+    doTest("T2",
+        "[DO NOT REPLY] NATURAL COVER FIRE  11000 CYPRESS RD PULASKI COUNTY CrossStreets: N Highway 133 0.01 mi N Conway Rd 0.14 mi W DFD1 Call Received Time: 8/4/2012 02:48:10 Dispatch: 8/4/2012 02:49:49\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n",
+
+        "CALL:NATURAL COVER FIRE",
+        "ADDR:11000 CYPRESS RD",
+        "X:N Highway 133 0.01 mi N Conway Rd 0.14 mi W",
+        "UNIT:DFD1",
+        "DATE:8/4/2012",
+        "TIME:02:49:49");
+
+    doTest("T3",
+        "[DO NOT REPLY] FIRE ALARM - COMMERCIAL  11752 HIGHWAY MM PULASKI COUNTY CrossStreets: Highway 28 0.55 mi NW Private Dr 1.10 mi SE DFD1 Call Received Time: 8/4/2012 06:27:56 Dispatch: 8/4/2012 06:29:17\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n",
+
+        "CALL:FIRE ALARM - COMMERCIAL",
+        "ADDR:11752 HIGHWAY MM",
+        "X:Highway 28 0.55 mi NW Private Dr 1.10 mi SE",
+        "UNIT:DFD1",
+        "DATE:8/4/2012",
+        "TIME:06:29:17");
+
+    doTest("T4",
+        "[DO NOT REPLY] DIABETIC  204 SUNSET RD DIXON CrossStreets: Dale Ln 0.05 mi E Lang St 0.07 mi W DAD M31 DFD1 Call Received Time: 8/5/2012 16:27:13 Dispatch: 8/5/2012 16:39:31\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n",
+
+        "CALL:DIABETIC",
+        "ADDR:204 SUNSET RD",
+        "CITY:DIXON",
+        "X:Dale Ln 0.05 mi E Lang St 0.07 mi W",
+        "UNIT:DAD M31 DFD1",
+        "DATE:8/5/2012",
+        "TIME:16:39:31");
+
+    doTest("T5",
+        "[DO NOT REPLY] STRUCTURE FIRE RESIDENTIAL  16202 BUTTERCUP RD PULASKI COUNTY CrossStreets: Bangor Rd 0.28 mi S Highway HH 0.63 mi NE M23 CFD1 TCFD1 PCSD1 1501 1552 1351 1562 1361 WRFD1 DFD1 Call Received Time: 8/6/2012 00:03:55 Dispatch: 8/6/2012 00:19:09\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n",
+
+        "CALL:STRUCTURE FIRE RESIDENTIAL",
+        "ADDR:16202 BUTTERCUP RD",
+        "X:Bangor Rd 0.28 mi S Highway HH 0.63 mi NE",
+        "UNIT:M23 CFD1 TCFD1 PCSD1 1501 1552 1351 1562 1361 WRFD1 DFD1",
+        "DATE:8/6/2012",
+        "TIME:00:19:09");
+
+    doTest("T6",
+        "[DO NOT REPLY] NATURAL COVER FIRE  HIGHWAY 28 PULASKI COUNTY CrossStreets: DFD1 Call Received Time: 8/6/2012 10:18:26 Dispatch: 8/6/2012 10:20:06\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n",
+
+        "CALL:NATURAL COVER FIRE",
+        "ADDR:HIGHWAY 28",
+        "UNIT:DFD1",
+        "DATE:8/6/2012",
+        "TIME:10:20:06");
+
+    doTest("T7",
+        "[DO NOT REPLY] OVERDOSE/POISONING  208 WILLOW ALY, Apt. A DIXON CrossStreets: N Walnut st 6332.73 mi W N Oak St 6332.82 mi W DAD M31 DFD1 Call Received Time: 8/6/2012 19:18:17 Dispatch: 8/6/2012 19:43:03\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n",
+
+        "CALL:OVERDOSE/POISONING",
+        "ADDR:208 WILLOW ALY",  // Not mapping
+        "APT:A",
+        "CITY:DIXON",
+        "X:N Walnut st",
+        "UNIT:6332.73 mi W N Oak St 6332.82 mi W DAD M31 DFD1",
+        "DATE:8/6/2012",
+        "TIME:19:43:03");
+
+  }
+  
   public static void main(String[] args) {
     new MOPulaskiCountyParserTest().generateTests("T1");
   }
