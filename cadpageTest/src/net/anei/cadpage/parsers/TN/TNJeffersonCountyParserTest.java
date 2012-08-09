@@ -47,6 +47,34 @@ public class TNJeffersonCountyParserTest extends BaseParserTest {
   
   }
   
+  @Test
+  public void testActive911A() {
+
+    doTest("T1",
+        "FRM:DISPATCH@jeffersoncountytn.gov\r\nMSG:DISPATCH:542 COUNTY LINE RD DANDRIDGE 10:47:55 SICK PERSON (SPECIFIC DIAGNOSIS)\r\n",
+        "ADDR:542 COUNTY LINE RD",
+        "CITY:DANDRIDGE",
+        "TIME:10:47:55",
+        "CALL:SICK PERSON",
+        "INFO:(SPECIFIC DIAGNOSIS)");
+
+    doTest("T2",
+        "FRM:DISPATCH@jeffersoncountytn.gov\r\nMSG:DISPATCH:4800 TIMBER WAY SEVIERVILLE 20:28:20 CHEST PAIN HEART PROBLEMS\r\n",
+        "ADDR:4800 TIMBER WAY",
+        "CITY:SEVIERVILLE",
+        "TIME:20:28:20",
+        "INFO:CHEST PAIN HEART PROBLEMS");
+
+    doTest("T3",
+        "FRM:DISPATCH@jeffersoncountytn.gov\r\nMSG:DISPATCH:542 COUNTY LINE RD DANDRIDGE 10:01:21 STROKE (CVA)\r\n",
+        "ADDR:542 COUNTY LINE RD",
+        "CITY:DANDRIDGE",
+        "TIME:10:01:21",
+        "CALL:STROKE",
+        "INFO:(CVA)");
+   
+  }
+  
 
   public static void main(String[] args) {
     new TNJeffersonCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID TIME CALL INFO");
