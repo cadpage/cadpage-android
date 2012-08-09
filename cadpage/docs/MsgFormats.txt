@@ -3292,6 +3292,11 @@ Unknown
 Contact: Chris <chrisdi9@aol.com>
 Sender: Dispatch@TomsRiver.org
 (Toms River Dispatch) TRFD\nAlarm Fire     \nENRT \n99 Route 37 W; CMC                      \n250  \nF2526 \nalert red on 3f
+
+Contact: rje32 <rje32@hotmail.com>
+Sender: 47dispatch@gmail.com
+610-363-6947\r\nALARM - FIRE *\r\n717 N SHIP RD - 33PD\r\nAFA - GENERAL - WILL NOTIFY\r\nUWCHLN\r\nLLANDOVERY DR & BAUSMAN RD\r\n08/07/2012\r\n07:44\r\nALARMF\r\n717 N SHIP RD\r\n
+
 **********************************************************
 Unknown
 Contact: Taurean Summers <summerstaurean@gmail.com>

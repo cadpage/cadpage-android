@@ -33,10 +33,26 @@ Sender: 911dispatch@embarqmail.com
  1 of 2\nFRM:911dispatch@embarqmail.com\nSUBJ:DO NOT REPLY\nMSG:MOTOR VEHICLE ACCIDENT WITH INJURY  101 DISCOVERY DR, Apt. UNIT WAYNESVILLE\n(Con't) 2 of 2\nCrossStreets: Lowe Av 0.02 mi N 707 WRFD1 Call Received Time: 6/13/2012 18:59:14 Dispatch: 6/13/2012 19:01:33\r\n\r\n\r\n\r\n(End)
  1 of 2\nFRM:911dispatch@embarqmail.com\nSUBJ:DO NOT REPLY\nMSG:NATURAL COVER FIRE  15365 TOP DR PULASKI COUNTY CrossStreets: Turkey Dr 0.10 mi SE\n(Con't) 2 of 2\nTrue Rd 0.24 mi SW WRFD1 Call Received Time: 7/1/2012 21:38:25 Dispatch: 7/1/2012 21:40:28\r\n\r\n\r\n\r\n(End)
 
+Contact: Active911
+[DO NOT REPLY] Call Number: 266654 \r\nMOTOR VEHICLE ACCIDENT WITH INJURY \r\nDispatch: 8/3/2012 22:09:56 \r\nAckldge: 22:10:03 \r\n\r\n\r\n\r\n\r\nClear: 23:40:44 \r\nComplete: 23:51:16\r\n\r\n\r\n\r\n\r\n\r\n
+[DO NOT REPLY] Call Number: 266893 \r\nDIABETIC \r\nDispatch: 8/5/2012 16:39:31 \r\nAckldge: 16:39:33 \r\nEnroute: 16:45:08 \r\nOnScene: 16:46:40 \r\n\r\n\r\nClear: 16:51:31 \r\nComplete: 16:54:29\r\n\r\n\r\n\r\n\r\n\r\n
+[DO NOT REPLY] Call Number: 266943 \r\nSTRUCTURE FIRE RESIDENTIAL \r\nDispatch: 8/6/2012 00:19:09 \r\nAckldge: 0:20:18 \r\n\r\n\r\n\r\n\r\n\r\nComplete: 0:32:53\r\n\r\n\r\n\r\n\r\n\r\n
+[DO NOT REPLY] Call Number: 266964 \r\nNATURAL COVER FIRE \r\nDispatch: 8/6/2012 10:20:06 \r\nAckldge: 10:24:09 \r\nEnroute: 10:29:19 \r\n\r\n\r\n\r\nClear: 11:13:41 \r\nComplete: 11:13:42\r\n\r\n\r\n\r\n\r\n\r\n
+
+[DO NOT REPLY] MOTOR VEHICLE ACCIDENT WITH INJURY  MARIES COUNTY 630 MARIES COUNTY CrossStreets: MARIES MSHP1 MSHP2 DAD DFD1 Call Received Time: 8/3/2012 21:43:40 Dispatch: 8/3/2012 22:09:56\r\n\r\n\r\n\r\n\r\n\r\n
+[DO NOT REPLY] NATURAL COVER FIRE  11000 CYPRESS RD PULASKI COUNTY CrossStreets: N Highway 133 0.01 mi N Conway Rd 0.14 mi W DFD1 Call Received Time: 8/4/2012 02:48:10 Dispatch: 8/4/2012 02:49:49\r\n\r\n\r\n\r\n\r\n\r\n
+[DO NOT REPLY] FIRE ALARM - COMMERCIAL  11752 HIGHWAY MM PULASKI COUNTY CrossStreets: Highway 28 0.55 mi NW Private Dr 1.10 mi SE DFD1 Call Received Time: 8/4/2012 06:27:56 Dispatch: 8/4/2012 06:29:17\r\n\r\n\r\n\r\n\r\n\r\n
+[DO NOT REPLY] DIABETIC  204 SUNSET RD DIXON CrossStreets: Dale Ln 0.05 mi E Lang St 0.07 mi W DAD M31 DFD1 Call Received Time: 8/5/2012 16:27:13 Dispatch: 8/5/2012 16:39:31\r\n\r\n\r\n\r\n\r\n\r\n
+[DO NOT REPLY] STRUCTURE FIRE RESIDENTIAL  16202 BUTTERCUP RD PULASKI COUNTY CrossStreets: Bangor Rd 0.28 mi S Highway HH 0.63 mi NE M23 CFD1 TCFD1 PCSD1 1501 1552 1351 1562 1361 WRFD1 DFD1 Call Received Time: 8/6/2012 00:03:55 Dispatch: 8/6/2012 00:19:09\r\n\r\n\r\n\r\n\r\n\r\n
+[DO NOT REPLY] NATURAL COVER FIRE  HIGHWAY 28 PULASKI COUNTY CrossStreets: DFD1 Call Received Time: 8/6/2012 10:18:26 Dispatch: 8/6/2012 10:20:06\r\n\r\n\r\n\r\n\r\n\r\n
+[DO NOT REPLY] OVERDOSE/POISONING  208 WILLOW ALY, Apt. A DIXON CrossStreets: N Walnut st 6332.73 mi W N Oak St 6332.82 mi W DAD M31 DFD1 Call Received Time: 8/6/2012 19:18:17 Dispatch: 8/6/2012 19:43:03\r\n\r\n\r\n\r\n\r\n\r\n
+
 */
 
 
 public class MOPulaskiCountyParser extends FieldProgramParser {
+  
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("\nComplete: *\\d{1,2}:\\d{1,2}:\\d{1,2}$");
   
   public MOPulaskiCountyParser() {
     super(CITY_TABLE, "PULASKI COUNTY", "MO",
@@ -46,6 +62,21 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
   @Override
   public String getFilter() {
     return "911dispatch@embarqmail.com";
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (RUN_REPORT_PTN.matcher(body).find()) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      return true;
+    }
+    return super.parseMsg(body, data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " PLACE";
   }
   
   private class MyAddressField extends AddressField {
@@ -78,7 +109,7 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
   }
   
   // Unit codes will be nnnn, or xFDn, or Mnn
-  private static final Pattern UNIT_PTN = Pattern.compile("\\b(\\d{4}|[A-Z]{1,2}[FP]D\\d?|M\\d\\d)\\b");
+  private static final Pattern UNIT_PTN = Pattern.compile("\\b(\\d{4}|[A-Z]{1,2}[FP]D\\d?|M\\d\\d|MARIES|DAD)\\b");
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
