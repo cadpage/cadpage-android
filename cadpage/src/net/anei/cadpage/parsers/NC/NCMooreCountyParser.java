@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NC;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /* 
@@ -30,6 +31,20 @@ S: M:675 WHITE ROCK RD VASS, 2012031934, 02:47:52, M29 TRAFFIC ACCIDENT,
 S: M:128 JOHNS WAY VASS, MDL 31D03, 11:05:29, M31 UNCONSCIOUSNESS/FAINTING (NEAR),
 144 SHADY WOOD CT WEST END, FDL 69D06, 08:46:34, F69 STRUCTURE FIRE, WOKE UP AND HER STOVE WOULDNT OPEN.\r
 
+Contact: Active911
+Agency name: Cypress Pointe FireRescue Location: Vass, NC 
+Sender: dispatch911@moorecountync.gov
+
+3000 LAKEBAY RD VASS, 06:43:02, F52 ALARM-FIRE ACTIVATION, ZONE: 10 HOUSE SMOKE CALLBACK: 877 350 5292 OP: 24121
+981 RING RD CARTHAGE, 11:38:58, M10 CHEST PAIN,
+120 PINE DR VASS, MDL 26C01, 14:22:44, M26 SICK PERSON,
+628 BOYS CAMP RD VASS, MDL 10D02, 19:15:14, M10 CHEST PAIN,
+888 HARNETT RD CAMERON, MDL 06D02-A, 23:28:45, M6 BREATHING PROBLEMS,
+465 EDMONDS RD CAMERON, 01:47:54, F18 STORM DAMAGE, OFF OF CRANES CREEK RD TREE IN ROAD WAY
+262 HERON RD CAMERON, FDL 69D06-O, 11:13:48, F69 STRUCTURE FIRE,
+1 LAMMS GROVE RD @ ROBERTS RD, 03:26:22, M29 TRAFFIC ACCIDENT, VEH OVERTURNED IN THE FIELD
+418 MEYER FARM DR SOUTHERN PINES, FDL 69D06, 18:48:58, F69 STRUCTURE FIRE,
+
 */
 
 public class NCMooreCountyParser extends DispatchSouthernParser {
@@ -41,6 +56,16 @@ public class NCMooreCountyParser extends DispatchSouthernParser {
   @Override
   public String getFilter() {
     return "dispatch911@moorecountync.gov";
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    data.strAddress = data.strAddress.replace('@', '&');
+    if (data.strAddress.contains("&") && data.strAddress.startsWith("1 ")) {
+      data.strAddress = data.strAddress.substring(2).trim();
+    }
+    return true;
   }
   
   private static final String[] CITY_LIST = new String[]{

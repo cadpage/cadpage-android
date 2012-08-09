@@ -61,8 +61,7 @@ public class NCMooreCountyParserTest extends BaseParserTest {
 
     doTest("T6",
         "[[911 NOTIFICATION] ]  1 E NEW ENGLAND /S PEAR 2011025862 07:31:07 F67 OUTSIDE FIRE/WOODS/BRUSH",
-        "ADDR:1 E NEW ENGLAND & S PEAR",
-        "MADDR:1 E NEW ENGLAND",
+        "ADDR:E NEW ENGLAND & S PEAR",
         "ID:2011025862",
         "TIME:07:31:07",
         "UNIT:F67",
@@ -156,7 +155,91 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "UNIT:F69",
         "CALL:STRUCTURE FIRE",
         "INFO:WOKE UP AND HER STOVE WOULDNT OPEN.");
- }
+  }
+  
+  @Test
+  public void testActive911A() {
+
+    doTest("T1",
+        "3000 LAKEBAY RD VASS, 06:43:02, F52 ALARM-FIRE ACTIVATION, ZONE: 10 HOUSE SMOKE CALLBACK: 877 350 5292 OP: 24121",
+        "ADDR:3000 LAKEBAY RD",
+        "CITY:VASS",
+        "TIME:06:43:02",
+        "UNIT:F52",
+        "CALL:ALARM-FIRE ACTIVATION",
+        "INFO:ZONE: 10 HOUSE SMOKE CALLBACK: 877 350 5292 OP: 24121");
+
+    doTest("T2",
+        "981 RING RD CARTHAGE, 11:38:58, M10 CHEST PAIN,",
+        "ADDR:981 RING RD",
+        "CITY:CARTHAGE",
+        "TIME:11:38:58",
+        "UNIT:M10",
+        "CALL:CHEST PAIN");
+
+    doTest("T3",
+        "120 PINE DR VASS, MDL 26C01, 14:22:44, M26 SICK PERSON,",
+        "ADDR:120 PINE DR",
+        "CITY:VASS",
+        "CODE:26C01",
+        "TIME:14:22:44",
+        "UNIT:M26",
+        "CALL:SICK PERSON");
+
+    doTest("T4",
+        "628 BOYS CAMP RD VASS, MDL 10D02, 19:15:14, M10 CHEST PAIN,",
+        "ADDR:628 BOYS CAMP RD",
+        "CITY:VASS",
+        "CODE:10D02",
+        "TIME:19:15:14",
+        "UNIT:M10",
+        "CALL:CHEST PAIN");
+
+    doTest("T5",
+        "888 HARNETT RD CAMERON, MDL 06D02-A, 23:28:45, M6 BREATHING PROBLEMS,",
+        "ADDR:888 HARNETT RD",
+        "CITY:CAMERON",
+        "CODE:06D02-A",
+        "TIME:23:28:45",
+        "UNIT:M6",
+        "CALL:BREATHING PROBLEMS");
+
+    doTest("T6",
+        "465 EDMONDS RD CAMERON, 01:47:54, F18 STORM DAMAGE, OFF OF CRANES CREEK RD TREE IN ROAD WAY",
+        "ADDR:465 EDMONDS RD",
+        "CITY:CAMERON",
+        "TIME:01:47:54",
+        "UNIT:F18",
+        "CALL:STORM DAMAGE",
+        "INFO:OFF OF CRANES CREEK RD TREE IN ROAD WAY");
+
+    doTest("T7",
+        "262 HERON RD CAMERON, FDL 69D06-O, 11:13:48, F69 STRUCTURE FIRE,",
+        "ADDR:262 HERON RD",  // Found 262 LAKE HERON DR???
+        "CITY:CAMERON",
+        "CODE:69D06-O",
+        "TIME:11:13:48",
+        "UNIT:F69",
+        "CALL:STRUCTURE FIRE");
+
+    doTest("T8",
+        "1 LAMMS GROVE RD @ ROBERTS RD, 03:26:22, M29 TRAFFIC ACCIDENT, VEH OVERTURNED IN THE FIELD",
+        "ADDR:LAMMS GROVE RD & ROBERTS RD",
+        "TIME:03:26:22",
+        "UNIT:M29",
+        "CALL:TRAFFIC ACCIDENT",
+        "INFO:VEH OVERTURNED IN THE FIELD");
+
+    doTest("T9",
+        "418 MEYER FARM DR SOUTHERN PINES, FDL 69D06, 18:48:58, F69 STRUCTURE FIRE,",
+        "ADDR:418 MEYER FARM DR",
+        "CITY:SOUTHERN PINES",
+        "CODE:69D06",
+        "TIME:18:48:58",
+        "UNIT:F69",
+        "CALL:STRUCTURE FIRE");
+
+  }   
   
 
   public static void main(String[] args) {
