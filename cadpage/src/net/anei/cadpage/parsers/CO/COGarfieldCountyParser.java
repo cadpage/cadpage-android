@@ -55,7 +55,43 @@ Sender: GCECA@call3n.com,@everbridge.net
 (CAD Page) FGas Leak Location  386 W MAIN ST 7 NC 2012 00000437     
 (CAD Page) EGynecology Childbirth Location  422 W  RICHARDS AVE SILT 2012 00000438     
 (CAD Page) FSmoke Check Location  97 E I70SILT 2012 00000439     
-(CAD Page) EChest Pain Location  144 PEAR CT Z2 2012 00000440     
+(CAD Page) EChest Pain Location  144 PEAR CT Z2 2012 00000440
+
+Contact: Active911
+Agency name: Rifle Fire Protection District Location: Rifle, CO 
+
+Example 1 [Parse]
+Sender: @everbridge.net
+
+([1/1] CAD Page) Accident Location  103 E I70Z2 2012 00018886     
+([1/1] CAD Page) EFalls Location  150 UTE AVE RIF APT L1 2012 00000739     
+([1/1] CAD Page) EChoking Location  451 SILVERHORN DR NC 2012 00000510     
+([1/1] CAD Page) ESick Unknown Location  APPLE TREE MHP5033 CORD 335 138 Z2 2012 00000511     
+([1/1] CAD Page) FAlarm Location  Colorado State Veterians Nursing Home851 E  5TH ST RIF 2012 00000742     
+([1/1] CAD Page) Accident Location  TAUGHENBAUGH STHY 13 ROUNDABOUTRIF 2012 00009976     
+([1/1] CAD Page) Accident Location  HARVEY GAP Z2 2012 00000512     
+([1/1] CAD Page) EFalls Location  1218 BALLARD AVE SILT 2012 00000513     
+([1/1] CAD Page) FBrush Location  RIFLE PD201 E 18TH ST RIF 2012 00000747     
+([1/1] CAD Page) EFalls Location  200 S  E AVE NC 2012 00000515     
+([1/1] CAD Page) EStabbing Gunshot Location  Green Diamond Cabins1535 MAIN ST 8 Z2 2012 00000517     
+([1/1] CAD Page) EAbdominal Location  826 CEDAR DR RIF 2012 00000749     
+([1/1] CAD Page) ETrauma with Injury Location  1325 ORCHARD AVE SILT 2012 00000518     
+([1/1] CAD Page) EMedical Alarm Location  54 WINCHESTER ST Z3 2012 00000750     
+([1/1] CAD Page) EMedical Alarm Location  188 SHOSHONE TRL Z2 2012 00000519     
+([1/1] CAD Page) EUnconscious Syncope Location  420 W  26TH ST RIF 2012 00000751     
+([1/1] CAD Page) FVehicle Fire Location  32958 RIVER FRONTAGE RD Z2 2012 00000520     
+([1/1] CAD Page) EBreathing Difficulty Location  Colorado State Veterians Nursing Home851 E  5TH ST RIF RM 142 2012 00000753     
+([1/1] CAD Page) FBrush Location  RIFLE CREEK GOLF COURSE3063 STHY 325 Z2 2012 00000754     
+([1/1] CAD Page) Accident Location  109.5 W I70 2012 00000521     
+([1/1] CAD Page) FVehicle Fire Location  91 E I70RIF 2012 00000755     
+([1/1] CAD Page) EChest Pain Location  1300 CORD 311 Z2 2012 00000522     
+([1/1] CAD Page) EBack Pain Location  DSS Rif195 W  14TH ST RIF 2012 00000756     
+([1/1] CAD Page) EMental Emotional Psych Location  W  2ND ST WEST RIF 2012 00000757     
+([1/1] CAD Page) EMental Emotional Psych Location  1218 BALLARD AVE SILT UNIT TRLR 2012 00000523     
+([1/1] CAD Page) Accident Location  TOP OF STEVENS HILL Z2 2012 00000759     
+([1/1] CAD Page) FAlarm Location  Wamsley Elementary225 E  30TH ST RIF 2012 00000761     
+([1/1] CAD Page) ESeizures Location  241 N 7TH ST NC 2012 00000524     
+([1/1] CAD Page) FSmoke Check Location  APPLE TREE MHP5033 CORD 335 Z2 2012 00000525     
 
  */
 
@@ -66,6 +102,7 @@ public class COGarfieldCountyParser extends SmartAddressParser {
   private static final Pattern APT_PTN = Pattern.compile(" APT ([^ ]+)$");
   private static final Pattern BLK_PTN = Pattern.compile("\\bblk\\b");
   private static final Pattern PLACE_PTN = Pattern.compile("^.*[a-z]");
+  private static final Pattern PLACE2_PTN = Pattern.compile("^.*[A-Z]{3}(?=\\d)");
   
   public COGarfieldCountyParser() {
     super("GARFIELD COUNTY", "CO");
@@ -79,7 +116,7 @@ public class COGarfieldCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("CAD Page")) return false;
+    if (!subject.endsWith("CAD Page")) return false;
     
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
@@ -114,7 +151,12 @@ public class COGarfieldCountyParser extends SmartAddressParser {
     // So we split them at the last lower case character
     sAddr = BLK_PTN.matcher(sAddr).replaceAll("BLK");
     match = PLACE_PTN.matcher(sAddr);
-    if (match.find()) {
+    boolean found = match.find();
+    if (!found) {
+      match = PLACE2_PTN.matcher(sAddr);
+      found = match.find();
+    }
+    if (found) {
       data.strPlace = match.group();
       sAddr = sAddr.substring(match.end()).trim();
     }
