@@ -38,7 +38,9 @@ public class SCAndersonCountyParser extends DispatchBParser {
     "ANDERSON", "BELTON", "CLEMSON", "EASLEY", "HONEA PATH", "IVA", "PELZER", 
     "STARR", "WEST PELZER", "WILLIAMSTON",
     "CENTERVILLE", "HOMELAND PARK", "LA FRANC", "NORTHLAKE", "PIEDMONT", 
-    "POWDERSVILLE", "SANDY SPRINGS", "TOWNVILLE"
+    "POWDERSVILLE", "SANDY SPRINGS", "TOWNVILLE",
+    
+    "PENDLETON"
   };
  
   public SCAndersonCountyParser() {

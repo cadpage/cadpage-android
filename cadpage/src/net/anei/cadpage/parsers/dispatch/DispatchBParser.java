@@ -349,6 +349,10 @@ public class DispatchBParser extends SmartAddressParser {
     }
     parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, field, data);
     data.strName = getLeft();
+    if (data.strName.startsWith("Bldg")) {
+      data.strApt = data.strApt + " Bldg";
+      data.strName = data.strName.substring(4).trim();
+    }
     return true;
   }
 
