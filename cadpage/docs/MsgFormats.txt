@@ -4776,12 +4776,11 @@ Please respond to 15796 Hwy M, Rayville, MO\nmale subj. is 10-55 and suicidal\nc
 34686 w 206th elderly male difficulty breathing\r\ncross streets wilderness camp and coon branch road
 **********************************************************
 **********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Lawrence County, OH
@@ -4908,6 +4907,14 @@ DispatchProQAParser subclass
 (- part 1 of 1) RC:Run# 46129/Trauma/<Unknown>/2018 E WRIGHT AVE///X=E Roosevelt Ave/TACOMA//\r\n\r\nThis is a confidential/proprietary communication intended for th
 (- part 1 of 1) RC:Run# 46173/Unknown/<Unknown>/6316 S 12TH ST///X=Unknown Street with ID 1319802&S Whitman St/TACOMA//\r\n\r\nThis is a confidential/proprietary com
 (- part 1 of 1) RC:Run# 46237/MVA/<Unknown>/4215 S 30TH ST///X=S Tyler St/TACOMA//\r\n\r\nThis is a confidential/proprietary communication intended for the addressee
+**********************************************************
+Oldham County, KY
+Contact: Michael Thompson <Michael.Thompson@ballardsvillefire.com>
+Sender: dispatch@oldhamcountyky.gov
+Sender: textmsg@ballardsvillefire.com
+[081890]- NATURE: FIRE,ILLEGAL BURNING LOCATION: 2015 CLARKE POINTE DR LAGRANGE BETWEEN QUARRY CT / LAKE RIDGE WAY ACC ESS BY S HWY 53
+[239952]- NATURE: EMS CALL LOCATION: 5325 BROOKSWOOD RD CRES TWOOD BETWEEN BROOKSWOOD CT / BROOKSWOOD LOOP RD ACCESS BY WOODSBORO RD COMMENTS: 78 YOM
+[133685]- NATURE: FIRE,STRUCTURE LOCATION: 3001 W HWY 146 LA GRANGE BETWEEN KINGS LN / PARKER (KSR ENTRANCE) DR COMMENTS : HEAVY SMOKE IN DORM ONE
 **********************************************************
 **********************************************************
 **********************************************************

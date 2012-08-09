@@ -313,10 +313,11 @@ public class C2DMReceiver extends BroadcastReceiver {
   public static void emailRegistrationId(Context context) {
     
     // Build send email intent and launch it
+    String type = ManagePreferences.gcmEnabled() ? "GCM" : "C2DM";
     Intent intent = new Intent(Intent.ACTION_SEND);
-    String emailSubject = CadPageApplication.getNameVersion() + " C2DM registrion ID";
+    String emailSubject = CadPageApplication.getNameVersion() + " " + type + " registrion ID";
     intent.putExtra(Intent.EXTRA_SUBJECT, emailSubject);
-    intent.putExtra(Intent.EXTRA_TEXT, "My C2DM registration ID is " + ManagePreferences.registrationId());
+    intent.putExtra(Intent.EXTRA_TEXT, "My " + type + " registration ID is " + ManagePreferences.registrationId());
     intent.setType("message/rfc822");
     context.startActivity(Intent.createChooser(
         intent, context.getString(R.string.pref_sendemail_title)));
