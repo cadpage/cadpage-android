@@ -29,8 +29,8 @@ public class NCMadisonCountyParserTest extends BaseParserTest {
         "CITY:HOT SPRINGS",
         "ID:2011046589",
         "TIME:13:32:14",
-        "CALL:STROKE 80",
-        "INFO:y/o female possible stroke has history");
+        "CALL:STROKE",
+        "INFO:80 y/o female possible stroke has history");
 
     doTest("T3",
         "S: M:Randy:590 MEDICAL PARK DR MARSHALL 2011046583 11:27:50 DIFFICULTY IN BREATHING 63 y/o female with copd with difficult",
@@ -38,7 +38,8 @@ public class NCMadisonCountyParserTest extends BaseParserTest {
         "CITY:MARSHALL",
         "ID:2011046583",
         "TIME:11:27:50",
-        "INFO:DIFFICULTY IN BREATHING 63 y/o female with copd with difficult");
+        "CALL:DIFFICULTY IN BREATHING",
+        "INFO:63 y/o female with copd with difficult");
 
     doTest("T4",
         "S: M:JOEY:6266 US 25-70 HWY MARSHALL 2011046522 23:38:41 CHEST PAIN 50 Y/O FEMALE CHEST PAINS",
@@ -63,8 +64,8 @@ public class NCMadisonCountyParserTest extends BaseParserTest {
         "CITY:MARSHALL",
         "ID:2011046457",
         "TIME:20:00:32",
-        "CALL:ROUTINE TRANSPORT 84",
-        "INFO:y/o female");
+        "CALL:ROUTINE TRANSPORT",
+        "INFO:84 y/o female");
 
     doTest("T7",
         "S: M:BRETT:150 BERRY WILLS RD HOT SPRINGS 2011046451 18:00:17 FALL-WITH INJURIES",

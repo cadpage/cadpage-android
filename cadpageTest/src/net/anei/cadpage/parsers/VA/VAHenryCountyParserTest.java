@@ -58,7 +58,7 @@ public class VAHenryCountyParserTest extends BaseParserTest {
         "TIME:11:35:03",
         "UNIT:RDZ-(3)",
         "CALL:DIZZINESS",
-        "INFO:, WEAKNESS");
+        "INFO:WEAKNESS");
 
     doTest("T6",
         "1385 WINGFIELD ORCHARD RD MARTINSVILLE 2011095447 07:31:58 R3-(1) CHEST PAINS",

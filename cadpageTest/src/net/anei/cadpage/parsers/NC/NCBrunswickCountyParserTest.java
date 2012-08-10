@@ -129,7 +129,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "CITY:WINNABOW",
         "ID:11-062488",
         "TIME:19:38:00",
-        "INFO:Falls");
+        "CALL:Falls");
   }
   
   @Test
@@ -156,7 +156,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "CODE:17B03-G",
         "ID:12-029328",
         "TIME:14:02:41",
-        "INFO:Falls MEDICAL ALA");
+        "CALL:Falls MEDICAL ALA");
 
     doTest("T2",
         "sentto-81008140-157-1334863333-9109162452=vtext.com@returns.groups.yahoo.com ([northwestvfd] ) 814:6598 NEW GROUND TR NE NORTHWEST MDL 26C02 12-029355 15:17:43 Sick Person (Specifi",
@@ -165,7 +165,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "CODE:26C02",
         "ID:12-029355",
         "TIME:15:17:43",
-        "INFO:Sick Person (Specifi");
+        "CALL:Sick Person (Specifi");
     
   }
   

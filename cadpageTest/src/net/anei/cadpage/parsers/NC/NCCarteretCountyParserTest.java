@@ -176,7 +176,7 @@ public class NCCarteretCountyParserTest extends BaseParserTest {
         "CODE:01A01",
         "ID:11-088343",
         "TIME:02:36:15",
-        "INFO:ABDOMINAL PAIN - PROBLEMS");
+        "CALL:ABDOMINAL PAIN - PROBLEMS");
 
     doTest("T20",
         "CEC:306 CRAVEN ST BEAUFORT MDL 17B03-G 11-089178 19:42:02 FALLS",
@@ -269,7 +269,7 @@ public class NCCarteretCountyParserTest extends BaseParserTest {
         "CODE:09E01",
         "ID:11-084435",
         "TIME:20:18:33",
-        "INFO:UNCONSCIOUS - FAINTING");
+        "CALL:UNCONSCIOUS - FAINTING");
     
   }
   

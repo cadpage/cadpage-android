@@ -77,7 +77,7 @@ public class ALChiltonCountyParserTest extends BaseParserTest {
         "CITY:CLANTON",
         "ID:2011052209",
         "TIME:11:18:28",
-        "INFO:FALL ELDERLY MALE FELL");
+        "CALL:FALL ELDERLY MALE FELL");
 
   }
   

@@ -28,7 +28,7 @@ public class TNJeffersonCountyParserTest extends BaseParserTest {
         "CITY:JEFFERSON CITY",
         "ID:2011-613869",
         "TIME:11:31:12",
-        "INFO:FIRE BRUSH  GRASS FOREST");
+        "CALL:FIRE BRUSH  GRASS FOREST");
 
     doTest("T3",
         "DISPATCH:1727 EASLEY RD JEFFERSON CITY 2011-613628 20:57:53 FIRE SMOKE INVESTIGATION",
@@ -36,14 +36,14 @@ public class TNJeffersonCountyParserTest extends BaseParserTest {
         "CITY:JEFFERSON CITY",
         "ID:2011-613628",
         "TIME:20:57:53",
-        "INFO:FIRE SMOKE INVESTIGATION");
+        "CALL:FIRE SMOKE INVESTIGATION");
 
     doTest("T4",
         "DISPATCH:283 W BROADWAY BLVD 513 JEFFERSON CITY 08:00:21 CARDIAC ARREST CPR IN USE",
         "ADDR:283 W BROADWAY BLVD 513",
         "CITY:JEFFERSON CITY",
         "TIME:08:00:21",
-        "INFO:CARDIAC ARREST CPR IN USE");
+        "CALL:CARDIAC ARREST CPR IN USE");
   
   }
   
@@ -63,7 +63,7 @@ public class TNJeffersonCountyParserTest extends BaseParserTest {
         "ADDR:4800 TIMBER WAY",
         "CITY:SEVIERVILLE",
         "TIME:20:28:20",
-        "INFO:CHEST PAIN HEART PROBLEMS");
+        "CALL:CHEST PAIN HEART PROBLEMS");
 
     doTest("T3",
         "FRM:DISPATCH@jeffersoncountytn.gov\r\nMSG:DISPATCH:542 COUNTY LINE RD DANDRIDGE 10:01:21 STROKE (CVA)\r\n",

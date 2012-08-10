@@ -29,7 +29,7 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "ID:2011025029",
         "TIME:09:31:20",
         "UNIT:M25",
-        "INFO:PSYCHIATRIC/SUICIDE ATTEMPT");
+        "CALL:PSYCHIATRIC/SUICIDE ATTEMPT");
 
     doTest("T3",
         "[[911 NOTIFICATION] ]  126 ROBIN HOOD LN ABERDEEN 2011025065 13:37:27 F52 ALARM-FIRE ACTIVATION AC 800 932-3822 OPER SP8",
@@ -65,7 +65,7 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "ID:2011025862",
         "TIME:07:31:07",
         "UNIT:F67",
-        "INFO:OUTSIDE FIRE/WOODS/BRUSH");
+        "CALL:OUTSIDE FIRE/WOODS/BRUSH");
 
     doTest("T7",
         "6 PAR DR WHISPERING PINES 2011045777 11:36:50 M10 CHEST PAIN CHEST PAIN",
@@ -74,7 +74,7 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "ID:2011045777",
         "TIME:11:36:50",
         "UNIT:M10",
-        "INFO:CHEST PAIN CHEST PAIN");
+        "CALL:CHEST PAIN CHEST PAIN");
 
     doTest("T8",
         "232 ALLEN LN ABERDEEN MDL 30A01 2012028950 15:18:54 M30 TRAUMATIC INJURIES\r",
@@ -98,7 +98,8 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "ID:2012031517",
         "TIME:15:45:55",
         "UNIT:M31",
-        "INFO:UNCONSCIOUSNESS/FAINTING (NEAR)");
+        "CALL:UNCONSCIOUSNESS/FAINTING",
+        "INFO:(NEAR)");
 
     doTest("T2",
         "232 ALLEN LN ABERDEEN MDL 30A01 2012028950 15:18:54 M30 TRAUMATIC INJURIES\r",
@@ -144,7 +145,8 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "CODE:31D03",
         "TIME:11:05:29",
         "UNIT:M31",
-        "INFO:UNCONSCIOUSNESS/FAINTING (NEAR)");
+        "CALL:UNCONSCIOUSNESS/FAINTING",
+        "INFO:(NEAR)");
 
     doTest("T7",
         "144 SHADY WOOD CT WEST END, FDL 69D06, 08:46:34, F69 STRUCTURE FIRE, WOKE UP AND HER STOVE WOULDNT OPEN.\r",

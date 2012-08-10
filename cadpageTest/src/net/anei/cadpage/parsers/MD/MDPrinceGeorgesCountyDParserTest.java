@@ -143,7 +143,17 @@ public class MDPrinceGeorgesCountyDParserTest extends BaseParserTest {
         "UNIT:E812 TK812 E811 TK814 E807B TK801 E809 BO884",
         "ADDR:5211 PAINT BRANCH PKY",
         "X:52ND AVE and RIVERSIDE AVE");
-  }
+
+    doTest("T14",
+        "[CAD][PG09] 9: MEDIC LOCAL  At: 08/09 19:14  Dispatch: E809B  All: E809B MD830 A855  To: 5804 ANNAPOLIS RD #1014  ",
+        "SRC:PG09",
+        "CALL:MEDIC LOCAL",
+        "DATE:08/09",
+        "TIME:19:14",
+        "UNIT:E809B MD830 A855",
+        "ADDR:5804 ANNAPOLIS RD",
+        "APT:1014");
+ }
   
   public static void main(String[] args) {
     new MDPrinceGeorgesCountyDParserTest().generateTests("T1");

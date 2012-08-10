@@ -43,7 +43,8 @@ public class NCPersonCountyParserTest extends BaseParserTest {
         "CITY:HURDLE MILLS",
         "ID:2011019797",
         "TIME:23:05:28",
-        "INFO:FIRE STRUCTURE FLAMES VISIBLE the house is on fire");
+        "CALL:FIRE STRUCTURE FLAMES VISIBLE",
+        "INFO:the house is on fire");
 
     doTest("T5",
         "Bmelton:HURDLE MILLS RD / POINDEXTER RD 2011019760 17:21:08 TREE DOWN",

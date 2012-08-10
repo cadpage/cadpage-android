@@ -24,7 +24,7 @@ public class NCHaywoodCountyParserTest extends BaseParserTest {
         "CODE:21D03",
         "ID:2011040779",
         "TIME:17:35:40",
-        "INFO:EMERGENCY HEMORRHAGE LACERATIO");
+        "CALL:EMERGENCY HEMORRHAGE LACERATIO");
 
     doTest("T2",
         "CAD:41 HOLTZCLAW ST CANTON ORANGE ST X WINFIELD ST MDL 12D02-E 2011040926 12:48:52 EMERGENCY CONVULSIONS SEIZURE",
@@ -34,7 +34,7 @@ public class NCHaywoodCountyParserTest extends BaseParserTest {
         "CODE:12D02-E",
         "ID:2011040926",
         "TIME:12:48:52",
-        "INFO:EMERGENCY CONVULSIONS SEIZURE");
+        "CALL:EMERGENCY CONVULSIONS SEIZURE");
 
     doTest("T3",
         "CAD:44 HAYWOOD AV CANTON MINGUS ST X PUPPY DOG TR 2011040659 22:00:38 Fire Alarm - Smoke Detector SMOKE DETECTOR",
@@ -55,7 +55,7 @@ public class NCHaywoodCountyParserTest extends BaseParserTest {
         "CODE:69D05",
         "ID:2011040700",
         "TIME:08:15:46",
-        "INFO:RESIDENT STRUCT MULTIPLE");
+        "CALL:RESIDENT STRUCT MULTIPLE");
 
     doTest("T5",
         "CAD:ARBY`S (CANTON) 701 CHAMPION DR CANTON DUSTY DR X CHAMPION - 1-40 EAST MDL 26A01 20:30:24 ROUTINE SICK PERSON",

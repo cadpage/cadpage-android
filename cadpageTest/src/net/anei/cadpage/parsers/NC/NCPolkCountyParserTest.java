@@ -69,8 +69,8 @@ public class NCPolkCountyParserTest extends BaseParserTest {
         "NAME:John",
         "ID:8643030507",
         "TIME:08:08:08",
-        "CALL:UNCONSCIOUS 75",
-        "INFO:yo man with cancer.");
+        "CALL:UNCONSCIOUS",
+        "INFO:75 yo man with cancer.");
 
     doTest("T7",
         "polkcounty911:1 GREEN RIVER COVE RD mill spring carol 8288179441 09:52:03 DOWN POWER LINE FROM S NC 9 HWY TO RUTHERFORD CO LINE",
