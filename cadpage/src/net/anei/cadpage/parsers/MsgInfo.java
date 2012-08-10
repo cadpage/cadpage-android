@@ -487,7 +487,7 @@ public class MsgInfo {
 	}
   
   // Clean up any street suffix abbreviations that Google isn't happy with
-  private static final Pattern CRNN_PTN = Pattern.compile("\\b(?:CR|CO|CORD)[- ]*(\\d+[A-Z]?)\\b");
+  private static final Pattern CRNN_PTN = Pattern.compile("\\b(?:CR|CO|CO ?RD)[- ]*(\\d+[A-Z]?)\\b");
   private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern HW_PTN = Pattern.compile("\\bH[WY]\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern STH_PTN = Pattern.compile("\\bST?HY?\\b", Pattern.CASE_INSENSITIVE);
