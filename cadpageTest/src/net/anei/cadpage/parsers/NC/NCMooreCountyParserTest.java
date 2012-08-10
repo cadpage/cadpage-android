@@ -70,7 +70,7 @@ public class NCMooreCountyParserTest extends BaseParserTest {
     doTest("T7",
         "6 PAR DR WHISPERING PINES 2011045777 11:36:50 M10 CHEST PAIN CHEST PAIN",
         "ADDR:6 PAR DR",
-        "PLACE:WHISPERING PINES",
+        "CITY:WHISPERING PINES",
         "ID:2011045777",
         "TIME:11:36:50",
         "UNIT:M10",
@@ -240,6 +240,15 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "TIME:18:48:58",
         "UNIT:F69",
         "CALL:STRUCTURE FIRE");
+
+    doTest("T10",
+        "49 SANDPIPER DR WHISPERING PINES, 22:16:31, M31 UNCONSCIOUSNESS/FAINTING (NEAR),",
+        "ADDR:49 SANDPIPER DR",
+        "CITY:WHISPERING PINES",
+        "TIME:22:16:31",
+        "UNIT:M31",
+        "CALL:UNCONSCIOUSNESS/FAINTING",
+        "INFO:(NEAR)");
 
   }   
   

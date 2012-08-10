@@ -280,6 +280,444 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testActive911A() {
+
+    doTest("T1",
+        "[Free SD63] MAPLE AV E/WALNUT AV ,22 22  \r\n" +
+        "MI#:120188119  \r\n" +
+        "Disp:18:55:46  \r\n" +
+        "Enr:18:58:16  \r\n" +
+        "Arr:18:59:24  \r\n" +
+        "Enr Hosp:  \r\n" +
+        "Arr Hosp:  \r\n" +
+        "Clr:19:08:14  \r\n" +
+        "RES#:SD63  \r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:MAPLE AV E/WALNUT AV ,22 22  \nMI#:120188119  \nDisp:18:55:46  \nEnr:18:58:16  \nArr:18:59:24  \nEnr Hosp:  \nArr Hosp:  \nClr:19:08:14  \nRES#:SD63",
+        "ID:120188119",
+        "UNIT:SD63");
+
+    doTest("T2",
+        "[Dispatch SD63] WIRES/BURNING  \r\n" +
+        "LOWELL AV S/CHESTNUT AV ,22   \r\n" +
+        "#:  \r\n" +
+        "X:/  \r\n" +
+        "ZN:22A  \r\n" +
+        "CP:  2012-08-05 21:25:36  \r\n" +
+        "MI#:120188244  \r\n" +
+        "RES#:SD63\r\n\n",
+
+        "CALL:WIRES/BURNING",
+        "ADDR:LOWELL AV S & CHESTNUT AV",
+        "MADDR:LOWELL AVE S & CHESTNUT AVE",
+        "CITY:Lindenwold",
+        "MAP:22A",
+        "DATE:08/05/2012",
+        "TIME:21:25:36",
+        "ID:120188244",
+        "UNIT:SD63");
+
+    doTest("T3",
+        "[Dispatch F6302] WIRES  \r\n" +
+        "LOWELL AV S/CHESTNUT AV ,22   \r\n" +
+        "#:  \r\n" +
+        "X:/  \r\n" +
+        "ZN:22A  \r\n" +
+        "CP:  2012-08-05 21:25:36  \r\n" +
+        "MI#:120188244  \r\n" +
+        "RES#:F6302\r\n\n",
+
+        "CALL:WIRES",
+        "ADDR:LOWELL AV S & CHESTNUT AV",
+        "MADDR:LOWELL AVE S & CHESTNUT AVE",
+        "CITY:Lindenwold",
+        "MAP:22A",
+        "DATE:08/05/2012",
+        "TIME:21:25:36",
+        "ID:120188244",
+        "UNIT:F6302");
+
+    doTest("T4",
+        "[Free SD63] LOWELL AV S/CHESTNUT AV ,22 22  \r\n" +
+        "MI#:120188244  \r\n" +
+        "Disp:21:25:36  \r\n" +
+        "Enr:21:33:08  \r\n" +
+        "Arr:21:34:52  \r\n" +
+        "Enr Hosp:  \r\n" +
+        "Arr Hosp:  \r\n" +
+        "Clr:22:12:54  \r\n" +
+        "RES#:SD63  \r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:LOWELL AV S/CHESTNUT AV ,22 22  \nMI#:120188244  \nDisp:21:25:36  \nEnr:21:33:08  \nArr:21:34:52  \nEnr Hosp:  \nArr Hosp:  \nClr:22:12:54  \nRES#:SD63",
+        "ID:120188244",
+        "UNIT:SD63");
+
+    doTest("T5",
+        "[Free F6302] LOWELL AV S/CHESTNUT AV ,22 22  \r\n" +
+        "MI#:120188244  \r\n" +
+        "Disp:21:28:53  \r\n" +
+        "Enr:21:28:54  \r\n" +
+        "Arr:21:33:33  \r\n" +
+        "Enr Hosp:  \r\n" +
+        "Arr Hosp:  \r\n" +
+        "Clr:22:12:55  \r\n" +
+        "RES#:F6302  \r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:LOWELL AV S/CHESTNUT AV ,22 22  \nMI#:120188244  \nDisp:21:28:53  \nEnr:21:28:54  \nArr:21:33:33  \nEnr Hosp:  \nArr Hosp:  \nClr:22:12:55  \nRES#:F6302",
+        "ID:120188244",
+        "UNIT:F6302");
+
+    doTest("T6",
+        "[Dispatch TF632] APARTMENT  \r\n" +
+        "800 CHEWS LANDING RD ,22   \r\n" +
+        "#:2E  \r\n" +
+        "X:LAUREL/BORO LINE  \r\n" +
+        "ZN:22B  \r\n" +
+        "CP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\n" +
+        "MI#:120189349  \r\n" +
+        "RES#:TF632\r\n\n",
+
+        "CALL:APARTMENT",
+        "ADDR:800 CHEWS LANDING RD",
+        "CITY:Lindenwold",
+        "APT:2E",
+        "X:LAUREL/BORO LINE",
+        "MAP:22B",
+        "PLACE:LAUREL HILL APTS",
+        "DATE:08/07/2012",
+        "TIME:04:06:52",
+        "ID:120189349",
+        "UNIT:TF632");
+
+    doTest("T7",
+        "[Dispatch S632] APARTMENT  \r\n" +
+        "800 CHEWS LANDING RD ,22   \r\n" +
+        "#:2E  \r\n" +
+        "X:LAUREL/BORO LINE  \r\n" +
+        "ZN:22B  \r\n" +
+        "CP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\n" +
+        "MI#:120189349  \r\n" +
+        "RES#:S632\r\n\n",
+
+        "CALL:APARTMENT",
+        "ADDR:800 CHEWS LANDING RD",
+        "CITY:Lindenwold",
+        "APT:2E",
+        "X:LAUREL/BORO LINE",
+        "MAP:22B",
+        "PLACE:LAUREL HILL APTS",
+        "DATE:08/07/2012",
+        "TIME:04:06:52",
+        "ID:120189349",
+        "UNIT:S632");
+
+    doTest("T8",
+        "[Dispatch L63] APARTMENT  \r\n" +
+        "800 CHEWS LANDING RD ,22   \r\n" +
+        "#:2E  \r\n" +
+        "X:LAUREL/BORO LINE  \r\n" +
+        "ZN:22B  \r\n" +
+        "CP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\n" +
+        "MI#:120189349  \r\n" +
+        "RES#:L63\r\n\n",
+
+        "CALL:APARTMENT",
+        "ADDR:800 CHEWS LANDING RD",
+        "CITY:Lindenwold",
+        "APT:2E",
+        "X:LAUREL/BORO LINE",
+        "MAP:22B",
+        "PLACE:LAUREL HILL APTS",
+        "DATE:08/07/2012",
+        "TIME:04:06:52",
+        "ID:120189349",
+        "UNIT:L63");
+
+    doTest("T9",
+        "[Dispatch SD63] APARTMENT  \r\n" +
+        "800 CHEWS LANDING RD ,22   \r\n" +
+        "#:2E  \r\n" +
+        "X:LAUREL/BORO LINE  \r\n" +
+        "ZN:22B  \r\n" +
+        "CP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\n" +
+        "MI#:120189349  \r\n" +
+        "RES#:SD63\r\n\n",
+
+        "CALL:APARTMENT",
+        "ADDR:800 CHEWS LANDING RD",
+        "CITY:Lindenwold",
+        "APT:2E",
+        "X:LAUREL/BORO LINE",
+        "MAP:22B",
+        "PLACE:LAUREL HILL APTS",
+        "DATE:08/07/2012",
+        "TIME:04:06:52",
+        "ID:120189349",
+        "UNIT:SD63");
+
+    doTest("T10",
+        "[Dispatch SQ63] APARTMENT  \r\n" +
+        "800 CHEWS LANDING RD ,22   \r\n" +
+        "#:2E  \r\n" +
+        "X:LAUREL/BORO LINE  \r\n" +
+        "ZN:22B  \r\n" +
+        "CP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\n" +
+        "MI#:120189349  \r\n" +
+        "RES#:SQ63\r\n\n",
+
+        "CALL:APARTMENT",
+        "ADDR:800 CHEWS LANDING RD",
+        "CITY:Lindenwold",
+        "APT:2E",
+        "X:LAUREL/BORO LINE",
+        "MAP:22B",
+        "PLACE:LAUREL HILL APTS",
+        "DATE:08/07/2012",
+        "TIME:04:06:52",
+        "ID:120189349",
+        "UNIT:SQ63");
+
+    doTest("T11",
+        "[Dispatch E63] APARTMENT  \r\n" +
+        "800 CHEWS LANDING RD ,22   \r\n" +
+        "#:2E  \r\n" +
+        "X:LAUREL/BORO LINE  \r\n" +
+        "ZN:22B  \r\n" +
+        "CP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\n" +
+        "MI#:120189349  \r\n" +
+        "RES#:E63\r\n\n",
+
+        "CALL:APARTMENT",
+        "ADDR:800 CHEWS LANDING RD",
+        "CITY:Lindenwold",
+        "APT:2E",
+        "X:LAUREL/BORO LINE",
+        "MAP:22B",
+        "PLACE:LAUREL HILL APTS",
+        "DATE:08/07/2012",
+        "TIME:04:06:52",
+        "ID:120189349",
+        "UNIT:E63");
+
+    doTest("T12",
+        "[Free SQ63] 800 CHEWS LANDING RD ,22 22  \r\n" +
+        "MI#:120189349  \r\n" +
+        "Disp:04:17:38  \r\n" +
+        "Enr:04:17:40  \r\n" +
+        "Arr:  \r\n" +
+        "Enr Hosp:  \r\n" +
+        "Arr Hosp:  \r\n" +
+        "Clr:04:19:52  \r\n" +
+        "RES#:SQ63  \r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:800 CHEWS LANDING RD ,22 22  \nMI#:120189349  \nDisp:04:17:38  \nEnr:04:17:40  \nArr:  \nEnr Hosp:  \nArr Hosp:  \nClr:04:19:52  \nRES#:SQ63",
+        "ID:120189349",
+        "UNIT:SQ63");
+
+    doTest("T13",
+        "[Free E63] 800 CHEWS LANDING RD ,22 22  \r\n" +
+        "MI#:120189349  \r\n" +
+        "Disp:04:18:09  \r\n" +
+        "Enr:04:18:10  \r\n" +
+        "Arr:  \r\n" +
+        "Enr Hosp:  \r\n" +
+        "Arr Hosp:  \r\n" +
+        "Clr:04:19:52  \r\n" +
+        "RES#:E63  \r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:800 CHEWS LANDING RD ,22 22  \nMI#:120189349  \nDisp:04:18:09  \nEnr:04:18:10  \nArr:  \nEnr Hosp:  \nArr Hosp:  \nClr:04:19:52  \nRES#:E63",
+        "ID:120189349",
+        "UNIT:E63");
+
+    doTest("T14",
+        "[Free SD63] 800 CHEWS LANDING RD ,22 22  \r\n" +
+        "MI#:120189349  \r\n" +
+        "Disp:04:15:28  \r\n" +
+        "Enr:04:15:29  \r\n" +
+        "Arr:  \r\n" +
+        "Enr Hosp:  \r\n" +
+        "Arr Hosp:  \r\n" +
+        "Clr:04:19:52  \r\n" +
+        "RES#:SD63  \r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:800 CHEWS LANDING RD ,22 22  \nMI#:120189349  \nDisp:04:15:28  \nEnr:04:15:29  \nArr:  \nEnr Hosp:  \nArr Hosp:  \nClr:04:19:52  \nRES#:SD63",
+        "ID:120189349",
+        "UNIT:SD63");
+
+    doTest("T15",
+        "[Free L63] 800 CHEWS LANDING RD ,22 22  \r\n" +
+        "MI#:120189349  \r\n" +
+        "Disp:04:13:02  \r\n" +
+        "Enr:04:13:03  \r\n" +
+        "Arr:  \r\n" +
+        "Enr Hosp:  \r\n" +
+        "Arr Hosp:  \r\n" +
+        "Clr:04:19:52  \r\n" +
+        "RES#:L63  \r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:800 CHEWS LANDING RD ,22 22  \nMI#:120189349  \nDisp:04:13:02  \nEnr:04:13:03  \nArr:  \nEnr Hosp:  \nArr Hosp:  \nClr:04:19:52  \nRES#:L63",
+        "ID:120189349",
+        "UNIT:L63");
+
+    doTest("T16",
+        "[Free S632] 800 CHEWS LANDING RD ,22 22  \r\n" +
+        "MI#:120189349  \r\n" +
+        "Disp:04:06:53  \r\n" +
+        "Enr:  \r\n" +
+        "Arr:  \r\n" +
+        "Enr Hosp:  \r\n" +
+        "Arr Hosp:  \r\n" +
+        "Clr:  \r\n" +
+        "RES#:S632  \r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:800 CHEWS LANDING RD ,22 22  \nMI#:120189349  \nDisp:04:06:53  \nEnr:  \nArr:  \nEnr Hosp:  \nArr Hosp:  \nClr:  \nRES#:S632",
+        "ID:120189349",
+        "UNIT:S632");
+
+    doTest("T17",
+        "[Dispatch L63] APARTMENT  \r\n" +
+        "800 CHEWS LANDING RD ,22   \r\n" +
+        "#:2E  \r\n" +
+        "X:LAUREL/BORO LINE  \r\n" +
+        "ZN:22B  \r\n" +
+        "CP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\n" +
+        "MI#:120189349  \r\n" +
+        "RES#:L63\r\n\n",
+
+        "CALL:APARTMENT",
+        "ADDR:800 CHEWS LANDING RD",
+        "CITY:Lindenwold",
+        "APT:2E",
+        "X:LAUREL/BORO LINE",
+        "MAP:22B",
+        "PLACE:LAUREL HILL APTS",
+        "DATE:08/07/2012",
+        "TIME:04:06:52",
+        "ID:120189349",
+        "UNIT:L63");
+
+    doTest("T18",
+        "[Free TF632] 800 CHEWS LANDING RD ,22 22  \r\n" +
+        "MI#:120189349  \r\n" +
+        "Disp:04:06:53  \r\n" +
+        "Enr:  \r\n" +
+        "Arr:04:17:52  \r\n" +
+        "Enr Hosp:  \r\n" +
+        "Arr Hosp:  \r\n" +
+        "Clr:05:06:23  \r\n" +
+        "RES#:TF632  \r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:800 CHEWS LANDING RD ,22 22  \nMI#:120189349  \nDisp:04:06:53  \nEnr:  \nArr:04:17:52  \nEnr Hosp:  \nArr Hosp:  \nClr:05:06:23  \nRES#:TF632",
+        "ID:120189349",
+        "UNIT:TF632");
+
+    doTest("T19",
+        "[Free L63] 800 CHEWS LANDING RD ,22 22  \r\n" +
+        "MI#:120189349  \r\n" +
+        "Disp:04:13:02  \r\n" +
+        "Enr:04:13:03  \r\n" +
+        "Arr:04:45:24  \r\n" +
+        "Enr Hosp:  \r\n" +
+        "Arr Hosp:  \r\n" +
+        "Clr:05:06:25  \r\n" +
+        "RES#:L63  \r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:800 CHEWS LANDING RD ,22 22  \nMI#:120189349  \nDisp:04:13:02  \nEnr:04:13:03  \nArr:04:45:24  \nEnr Hosp:  \nArr Hosp:  \nClr:05:06:25  \nRES#:L63",
+        "ID:120189349",
+        "UNIT:L63");
+
+    doTest("T20",
+        "[Dispatch SQ63] ALARM SYSTEM  \r\n" +
+        "900 GIBBSBORO RD ,22   \r\n" +
+        "#:  \r\n" +
+        "X:WILSON/HILLIARDS  \r\n" +
+        "ZN:22A  \r\n" +
+        "CP:LINDENWOLD SCHOOL 4  2012-08-08 07:37:16  \r\n" +
+        "MI#:120190307  \r\n" +
+        "RES#:SQ63\r\n\n",
+
+        "CALL:ALARM SYSTEM",
+        "ADDR:900 GIBBSBORO RD",
+        "CITY:Lindenwold",
+        "X:WILSON/HILLIARDS",
+        "MAP:22A",
+        "PLACE:LINDENWOLD SCHOOL 4",
+        "DATE:08/08/2012",
+        "TIME:07:37:16",
+        "ID:120190307",
+        "UNIT:SQ63");
+
+    doTest("T21",
+        "[Dispatch L63] ALARM SYSTEM  \r\n" +
+        "900 GIBBSBORO RD ,22   \r\n" +
+        "#:  \r\n" +
+        "X:WILSON/HILLIARDS  \r\n" +
+        "ZN:22A  \r\n" +
+        "CP:LINDENWOLD SCHOOL 4  2012-08-08 07:37:16  \r\n" +
+        "MI#:120190307  \r\n" +
+        "RES#:L63\r\n\n",
+
+        "CALL:ALARM SYSTEM",
+        "ADDR:900 GIBBSBORO RD",
+        "CITY:Lindenwold",
+        "X:WILSON/HILLIARDS",
+        "MAP:22A",
+        "PLACE:LINDENWOLD SCHOOL 4",
+        "DATE:08/08/2012",
+        "TIME:07:37:16",
+        "ID:120190307",
+        "UNIT:L63");
+
+    doTest("T22",
+        "[Dispatch F6301] ALARM SYSTEM  \r\n" +
+        "900 GIBBSBORO RD ,22   \r\n" +
+        "#:  \r\n" +
+        "X:WILSON/HILLIARDS  \r\n" +
+        "ZN:22A  \r\n" +
+        "CP:LINDENWOLD SCHOOL 4  2012-08-08 07:37:16  \r\n" +
+        "MI#:120190307  \r\n" +
+        "RES#:F6301\r\n\n",
+
+        "CALL:ALARM SYSTEM",
+        "ADDR:900 GIBBSBORO RD",
+        "CITY:Lindenwold",
+        "X:WILSON/HILLIARDS",
+        "MAP:22A",
+        "PLACE:LINDENWOLD SCHOOL 4",
+        "DATE:08/08/2012",
+        "TIME:07:37:16",
+        "ID:120190307",
+        "UNIT:F6301");
+
+    doTest("T23",
+        "[Free SQ63] 900 GIBBSBORO RD ,22 22  \r\n" +
+        "MI#:120190307  \r\n" +
+        "Disp:07:37:16  \r\n" +
+        "Enr:  \r\n" +
+        "Arr:  \r\n" +
+        "Enr Hosp:  \r\n" +
+        "Arr Hosp:  \r\n" +
+        "Clr:07:51:45  \r\n" +
+        "RES#:SQ63  \r\n\n",
+
+        "CALL:RUN REPORT",
+        "PLACE:900 GIBBSBORO RD ,22 22  \nMI#:120190307  \nDisp:07:37:16  \nEnr:  \nArr:  \nEnr Hosp:  \nArr Hosp:  \nClr:07:51:45  \nRES#:SQ63",
+        "ID:120190307",
+        "UNIT:SQ63");
+
+  }
+  
   public static void main(String[] args) {
     new NJCamdenCountyAParserTest().generateTests("T1");
   }
