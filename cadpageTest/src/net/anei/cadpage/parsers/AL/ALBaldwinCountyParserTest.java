@@ -245,7 +245,7 @@ public class ALBaldwinCountyParserTest extends BaseParserTest {
         "ID:319479",
         "CALL:Auto Accident",
         "ADDR:CO RD 64 & FRIENDSHIP RD",
-        "MADDR:CO 64 & FRIENDSHIP RD");
+        "MADDR:COUNTY ROAD 64 & FRIENDSHIP RD");
 
     doTest("T20",
         "(DA) 07-30-12 11:53: Station STA66 dispatched to Incident ID 319486 (Bleeding) at 7411 REEDS LN",
@@ -663,7 +663,7 @@ public class ALBaldwinCountyParserTest extends BaseParserTest {
         "ID:322056",
         "CALL:Fall",
         "ADDR:27296 CO RD 13",
-        "MADDR:27296 CO 13");
+        "MADDR:27296 COUNTY ROAD 13");
 
     doTest("T65",
         "(DA) 08-05-12 16:50: Station STA66 dispatched to Incident ID 322183 (Auto Accident) at HWY 98/ BEFORE I-10 OVERPASS",

@@ -36,7 +36,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "UNIT:121",
         "CALL:E 49",
         "ADDR:59 PVT DR 7882 CO RD 15",
-        "MADDR:59 PVT DR",
+        "MADDR:59 PVT DR 7882",
         "CITY:FAYETTE TWP",
         "INFO:Example of a call from a private drive . \"Fayette Twp\" is the name of the township the call is loca ted in");
 
@@ -60,7 +60,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "alert:[121]- NATURE: ABD LOCATION: 989 TWP RD 161 FAYETTE TWP COMMENTS: This is an example of a call on a township ro ad.",
         "UNIT:121",
         "CALL:ABD",
-        "ADDR:989 TWP RD",
+        "ADDR:989 TWP RD",  // Can't find this???
         "APT:161",
         "NAME:FAYETTE TWPCOMMENTS: This is an example of a call on a township ro ad");
 
@@ -68,7 +68,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "alert:[121]- NATURE: E 48A LOCATION: 24 TWP RD 1101 W FAYETTE T WP COMMENTS: This is an example of a call on a township wi th a direction. The long form would be 24 Township Road 1101 West",
         "UNIT:121",
         "CALL:E 48A",
-        "ADDR:24 TWP RD 1101 W",
+        "ADDR:24 TWP RD 1101 W", // Fpimd address pm DAVIS ST W ??
         "CITY:FAYETTE TWP",
         "INFO:This is an example of a call on a township wi th a direction. The long form would be 24 Township Road 1101 West");
   }
@@ -81,7 +81,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "UNIT:121",
         "CALL:E 40",
         "ADDR:11024 CO RD 1",
-        "MADDR:11024 CO 1",
+        "MADDR:11024 COUNTY ROAD 1",
         "CITY:UNION TWP",
         "INFO:Test page for Fayete FD");
 
@@ -89,7 +89,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "alert:[112]- NATURE: F 33 LOCATION: 264 TWP RD 1030 FAYETTE TW P COMMENTS: +038.404287 -082.540090 CF=100% CALLER REPORT ED A STRUCTURE FIRE AT THIS LOCATION WITH FLAMES VISIBLE",
         "UNIT:112",
         "CALL:F 33",
-        "ADDR:264 TWP RD 1030",
+        "ADDR:264 TWP RD 1030", // Google says this is in Burlington, not Fayette twp - reported
         "CITY:FAYETTE TWP",
         "INFO:+038.404287 -082.540090 CF=100% CALLER REPORT ED A STRUCTURE FIRE AT THIS LOCATION WITH FLAMES VISIBLE");
 
@@ -98,7 +98,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "UNIT:103",
         "CALL:F 15",
         "ADDR:389 CO RD 120 S",
-        "MADDR:389 CO 120 S",
+        "MADDR:389 COUNTY ROAD 120 S",
         "CITY:FAYETTE TWP",
         "INFO:MVA US 52/MURPHYS GAS UNKNOWN");
 
@@ -107,7 +107,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "UNIT:103",
         "CALL:E 29",
         "ADDR:8308 CO RD 1",
-        "MADDR:8308 CO 1",
+        "MADDR:8308 COUNTY ROAD 1",
         "CITY:FAYETTE TWP",
         "INFO:CALLER ADVISES SHE HAD HEART SURGERY A WEEK AGO AND IS HAVING FLUTTERING, CHEST PAIN. WHITE HOUSE, PT WILL BE O N FRONT PORCH. MED 11 ID 168/258T");
 
@@ -116,7 +116,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "UNIT:107",
         "CALL:E 15",
         "ADDR:155 CO RD 406",
-        "MADDR:155 CO 406",
+        "MADDR:155 COUNTY ROAD 406",
         "CITY:FAYETTE TWP",
         "NAME:2 CAR MVC WITH INJURIES");
 
@@ -132,8 +132,8 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "alert:[121]- NATURE: E 5L LOCATION: 51 PVT DR 1085 TWP RD 135 FAYETTE TWP COMMENTS: MED CARE FROM COLUMBUS REQUESTED LIFT ING WITH PT 600 LBS AQUEDA FINKS CONTACTED SUPRV AND HE S TATED NO LIFTING ASSIT TO CALL PORTSMOUTH AMBULANCE",
         "UNIT:121",
         "CALL:E 5L",
-        "ADDR:51 PVT DR 1085 TWP RD 135",
-        "MADDR:51 PVT DR",
+        "ADDR:51 PVT DR 1085 TWP RD 135",  // Don't think this is finding the right address
+        "MADDR:51 PVT DR 1085",
         "CITY:FAYETTE TWP",
         "INFO:MED CARE FROM COLUMBUS REQUESTED LIFT ING WITH PT 600 LBS AQUEDA FINKS CONTACTED SUPRV AND HE S TATED NO LIFTING ASSIT TO CALL PORTSMOUTH AMBULANCE");
 
@@ -142,7 +142,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "UNIT:103",
         "CALL:F 15",
         "ADDR:389 CO RD 120 S",
-        "MADDR:389 CO 120 S",
+        "MADDR:389 COUNTY ROAD 120 S",
         "CITY:FAYETTE TWP",
         "INFO:MVA WB LANE POSS INJURY MURPHYS GAS /US 52");
 
@@ -151,7 +151,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "UNIT:107",
         "CALL:O 31",
         "ADDR:9353 CO RD 1",
-        "MADDR:9353 CO 1",
+        "MADDR:9353 COUNTY ROAD 1",
         "CITY:FAYETTE TWP",
         "INFO:CALLER REPORTS A CAR HIT A POLE NEAR THE AIRPORT . NEGATIVE INJURIES. TRANSFERRED TO THE OSP THIS CAR IS SMOKI NG");
 
@@ -173,7 +173,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "UNIT:120",
         "CALL:F 46",
         "ADDR:4219 CO RD 16",
-        "MADDR:4219 CO 16",
+        "MADDR:4219 COUNTY ROAD 16",
         "CITY:AID TWP",
         "INFO:CALLER STATES THAT A TREE IS ON FIRE JUST UP FROM HER HOUSE. ALERTED ST 100 ADVISED BUCKEYE POWER CO.");
   }
@@ -203,7 +203,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "UNIT:121",
         "CALL:TEST",
         "ADDR:8064 CO RD 2",
-        "MADDR:8064 CO 2",
+        "MADDR:8064 COUNTY ROAD 2",
         "CITY:WINDSOR TWP",
         "INFO:ACTIVE911 TEST ALERT FOR COAL GROVE FD");
 
