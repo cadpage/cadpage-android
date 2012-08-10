@@ -42,6 +42,7 @@ public class NCPolkCountyParser extends DispatchSouthernParser {
   };
   
   private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{10})(\\d\\d:\\d\\d:\\d\\d)\\b");
+  private static final Pattern TRAIL_TIME_PTN = Pattern.compile("\\. +[A-Z][a-z]+ \\d+, \\d+:\\d+ [AP]M\\.?$");
 
   public NCPolkCountyParser() {
     super(CITY_LIST, "POLK COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_ID_OPTIONAL);
@@ -59,6 +60,8 @@ public class NCPolkCountyParser extends DispatchSouthernParser {
     if (match.find()) {
       body = body.substring(0, match.end(1)) + " " + body.substring(match.start(2));
     }
+    match = TRAIL_TIME_PTN.matcher(body);
+    if (match.find()) body = body.substring(0,match.start()).trim();
     if (!super.parseMsg(body, data)) return false;
     
     int pt = data.strAddress.toLowerCase().indexOf(" before ");

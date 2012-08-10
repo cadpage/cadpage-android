@@ -229,7 +229,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
   private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) (\\d\\d:\\d\\d:\\d\\d)\\b");
   private static final Pattern OPT_ID_TIME_PTN = Pattern.compile("\\b(?:(\\d{2,4}-?\\d{4,8}) )?(\\d\\d:\\d\\d:\\d\\d)\\b");
-  private static final Pattern CALL_PTN = Pattern.compile("^[A-Z0-9\\- /]+\\b");
+  private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /]+)\\b[ \\.,-]*");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
 
   private Pattern idTimePattern;
@@ -357,14 +357,28 @@ public class DispatchSouthernParser extends FieldProgramParser {
       sExtra = p.get();
     }
     match = CALL_PTN.matcher(sExtra);
-    if (match.find()) {
-      String sCall = match.group().trim();
-      if (sCall.length() <= 20) {
-        data.strCall = sCall;
+    if (match.find() && match.end() > 0) {
+      String sCall = match.group(1).trim();
+      if (sCall.length() <= 30) {
         sExtra = sExtra.substring(match.end()).trim();
+        if (sExtra.startsWith("y")) {
+          int pt = sCall.length();
+          while (pt > 0 && Character.isDigit(sCall.charAt(pt-1))) pt--;
+          if (pt > 0 && pt < sCall.length()) {
+            sExtra = sCall.substring(pt) + ' ' + sExtra;
+            sCall = sCall.substring(0,pt).trim();
+          }
+        }
+        data.strCall = sCall;
+        data.strSupp = sExtra;
+      } else {
+        data.strSupp = sExtra;
       }
+    } else if (sExtra.length() <= 30) {
+      data.strCall = sExtra;
+    } else {
+      data.strSupp = sExtra;
     }
-    data.strSupp = sExtra;
     if (data.strCall.length() == 0 && data.strSupp.length() == 0) data.strCall= "ALERT";
   }
 
