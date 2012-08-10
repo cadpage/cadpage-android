@@ -77,8 +77,17 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     // If extraSpacePos is positive, the extraneous blank is found in a fixed
     // position relative to the message text.  Also check for keywords that
     // might get split with one side looking like a real word
-    if (extraSpacePos > 0) {
-      body = removeBlank(extraSpacePos, body);
+    if (extraSpacePos != 0) {
+      if (extraSpacePos > 0) {
+        body = removeBlank(extraSpacePos, body);
+      } else {
+        int ndx = body.indexOf(" LOCATION:");
+        if (ndx >= 0) {
+          ndx += 10;
+          while (ndx < body.length() && body.charAt(ndx) == ' ') ndx++;
+          body = removeBlank(ndx - extraSpacePos, body);
+        }
+      }
       body = body.replace(" CO MMENTS:", " COMMENTS:");
     }
     
@@ -96,21 +105,6 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   @Override
   public String getProgram() {
     return "UNIT " + super.getProgram();
-  }
-  
-  private class AddressField extends FieldProgramParser.AddressField {
-    @Override
-    public void parse(String field, Data data) {
-      if (extraSpacePos < 0) field = removeBlank(-extraSpacePos, field);
-      super.parse(field, data);
-    }
-  }
-
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("ADDR")) return new AddressField();
-    return super.getField(name);
   }
 
   /**

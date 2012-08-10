@@ -4779,67 +4779,17 @@ Please respond to 15796 Hwy M, Rayville, MO\nmale subj. is 10-55 and suicidal\nc
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Lawrence County, OH
-Contact: Law Co 911 Alert <alert@lawco911.org>
-Sender: alert@lawco911.org
-Our addresses in the county are probably unique to most of the country. 
-Streets inside the corporation limits of a city or village have normal 
-road names (Main St., Buckhorn Ave., ect) however streets that are 
-outside of the limits have road numbers. The first number in the address 
-is the house number the next portion is the road type and the last 
-number is the road's number.
-
-Examples:
-
-  * 123 Twp Rd 4567 ["123" is the house number, "Twp Rd" is the road
-    type, "4567" is the road number (there are hundreds of different
-    township road numbers)].
-  * 98 State Rte 243 (The same format applies as above however this
-    address is on a state route. There are dozens of those in the county).
-  * 456 Pvt Dr 8852 Co Rd 132 (The same format applies as above
-    however this address is on a private *drive*. These addresses
-    include the public road that connects to the private drive. There
-    are dozens of those in the county).
-  * *789 Pvt Rd 8874 Twp Rd 1258 *(The same format applies as above
-    however this address is on a private *road*. These addresses also
-    include the public road that connects to the private drive.There are
-    dozens of those in the county)
-  * *US 52 / Co Rd 450* (This is an intersection. As you can see it
-    follows the normal formatting but without the house number. The two
-    roads are separated by a "/")
-1 of 2
-FRM:alert@lawco911.org <mailto:FRM%3Aalert@lawco911.org>
-MSG:alert:[136]- NATURE: E 48 LOCATION: ## TWP RD #### FAYETTE TWP 
-COMMENTS: CALLER STATES A CHILD FELL OFF THE
-(Con't) 2 of 2
-COUCH AND IS N OT RESPONSIVE SHE IS BREATHING. AVA SCHRODY IS THE CHILD. 
-CO DY IS ALSO IN ROUTE. FD ALSO ALERTED(End_)_
-
-  * 1 of 2 - Obviously this is message one of two
-  * *FRM:alert@lawco911.org* - this is the email address that the
-    message was sent from
-  * *MSG:alert:[136]* - The alert was sent by dispatcher 136
-  * *NATURE: E 48* - This is the nature code from the CAD software (i.e.
-    "E 48" is an EMS call (E) for an unconscious patient (48)
-  * *LOCATION: ## TWP RD ####* - This is the address that are formatted
-    as discussed in the previous emails.
-  * COMMENTS - These are the comments entered into the CAD software by
-    the dispatcher.
-  * *(Con't)* - Message continued
-  * 2 of 2 - Message two of two
-  * *(END)* - End of message
-
-alert:[121]- NATURE: F 15B LOCATION: US 52 / CO RD 450 PERRY TW P COMMENTS: +038.420273 -082.572212 CF=100% Example of an intersection call that came from a cell phone.
-alert:[121]- NATURE: E 29 LOCATION: 943 MARION PKE COAL GROVE COMMENTS: Example of a call from a address inside a muni cipality.
-alert:[121]- NATURE: E 49 LOCATION: 59 PVT DR 7882 CO RD 15 FA YETTE TWP COMMENTS: Example of a call from a private drive . "Fayette Twp" is the name of the township the call is loca ted in
-alert:[121]- NATURE: E 10M LOCATION: 6405 STATE RTE 141 LAWRENC E TWP This is an example of a call at an address on a st ate route.
-alert:[121]- NATURE: S 72 LOCATION: 2101 N 2 ST IRONTON COMMEN TS: This is an example of a run inside a municipality wi th a street direction. In long form this would be 2101 North 2nd Street Ironton, Ohio
-alert:[121]- NATURE: ABD LOCATION: 989 TWP RD 161 FAYETTE TWP COMMENTS: This is an example of a call on a township ro ad.
-alert:[121]- NATURE: E 48A LOCATION: 24 TWP RD 1101 W FAYETTE T WP COMMENTS: This is an example of a call on a township wi th a direction. The long form would be 24 Township Road 1101 West
+Livingston County, MI (replace!!!)
+Contact: Active911
+Agency name: Liv. Co Disaster Assistance Response Team Location: Howell, MI 
+Sender: CAD@livingstoncounty.livco
+CAD:DART;1279 RICKETT RD; BRTN;STRUCTURE FIRE
+CAD:DART;1279 RICKETT RD; BRTN;STRUCTURE FIRE
+CAD:DART;S US23/NORTH TERRITORIAL;MUTUAL AID TO OTHER FD OR EMS
+**********************************************************
 **********************************************************
 Calumet County, WI (alternate)
 Contact: Tom Macco <tmacco1@gmail.com>

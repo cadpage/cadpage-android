@@ -34,6 +34,31 @@ Subject: Dispatch R32\nRESCUE  \nROUTE 42 EXIT 14 ,04   \n#:  \nX:/  \nZN:BMA  \
 [Free SD32] 294 ROUTE 295 ,04 04  \nMI#:120118005  \nDisp:02:39:15  \nEnr:02:41:47  \nArr:02:47:43  \nEnr Hosp:  \nArr Hosp:  \nClr:02:59:23  \nRES#:SD32  \n
 [Free R32] ROUTE 295 EXIT 26 ,04 04  \nMI#:120140280  \nDisp:18:32:56  \nEnr:18:33:27  \nArr:18:35:41  \nEnr Hosp:  \nArr Hosp:  \nClr:18:51:43  \nRES#:R32  \n
 
+Contact: Active911
+[Free SD63] MAPLE AV E/WALNUT AV ,22 22  \r\nMI#:120188119  \r\nDisp:18:55:46  \r\nEnr:18:58:16  \r\nArr:18:59:24  \r\nEnr Hosp:  \r\nArr Hosp:  \r\nClr:19:08:14  \r\nRES#:SD63  \r\n\n
+[Dispatch SD63] WIRES/BURNING  \r\nLOWELL AV S/CHESTNUT AV ,22   \r\n#:  \r\nX:/  \r\nZN:22A  \r\nCP:  2012-08-05 21:25:36  \r\nMI#:120188244  \r\nRES#:SD63\r\n\n
+[Dispatch F6302] WIRES  \r\nLOWELL AV S/CHESTNUT AV ,22   \r\n#:  \r\nX:/  \r\nZN:22A  \r\nCP:  2012-08-05 21:25:36  \r\nMI#:120188244  \r\nRES#:F6302\r\n\n
+[Free SD63] LOWELL AV S/CHESTNUT AV ,22 22  \r\nMI#:120188244  \r\nDisp:21:25:36  \r\nEnr:21:33:08  \r\nArr:21:34:52  \r\nEnr Hosp:  \r\nArr Hosp:  \r\nClr:22:12:54  \r\nRES#:SD63  \r\n\n
+[Free F6302] LOWELL AV S/CHESTNUT AV ,22 22  \r\nMI#:120188244  \r\nDisp:21:28:53  \r\nEnr:21:28:54  \r\nArr:21:33:33  \r\nEnr Hosp:  \r\nArr Hosp:  \r\nClr:22:12:55  \r\nRES#:F6302  \r\n\n
+[Dispatch TF632] APARTMENT  \r\n800 CHEWS LANDING RD ,22   \r\n#:2E  \r\nX:LAUREL/BORO LINE  \r\nZN:22B  \r\nCP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\nMI#:120189349  \r\nRES#:TF632\r\n\n
+[Dispatch S632] APARTMENT  \r\n800 CHEWS LANDING RD ,22   \r\n#:2E  \r\nX:LAUREL/BORO LINE  \r\nZN:22B  \r\nCP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\nMI#:120189349  \r\nRES#:S632\r\n\n
+[Dispatch L63] APARTMENT  \r\n800 CHEWS LANDING RD ,22   \r\n#:2E  \r\nX:LAUREL/BORO LINE  \r\nZN:22B  \r\nCP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\nMI#:120189349  \r\nRES#:L63\r\n\n
+[Dispatch SD63] APARTMENT  \r\n800 CHEWS LANDING RD ,22   \r\n#:2E  \r\nX:LAUREL/BORO LINE  \r\nZN:22B  \r\nCP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\nMI#:120189349  \r\nRES#:SD63\r\n\n
+[Dispatch SQ63] APARTMENT  \r\n800 CHEWS LANDING RD ,22   \r\n#:2E  \r\nX:LAUREL/BORO LINE  \r\nZN:22B  \r\nCP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\nMI#:120189349  \r\nRES#:SQ63\r\n\n
+[Dispatch E63] APARTMENT  \r\n800 CHEWS LANDING RD ,22   \r\n#:2E  \r\nX:LAUREL/BORO LINE  \r\nZN:22B  \r\nCP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\nMI#:120189349  \r\nRES#:E63\r\n\n
+[Free SQ63] 800 CHEWS LANDING RD ,22 22  \r\nMI#:120189349  \r\nDisp:04:17:38  \r\nEnr:04:17:40  \r\nArr:  \r\nEnr Hosp:  \r\nArr Hosp:  \r\nClr:04:19:52  \r\nRES#:SQ63  \r\n\n
+[Free E63] 800 CHEWS LANDING RD ,22 22  \r\nMI#:120189349  \r\nDisp:04:18:09  \r\nEnr:04:18:10  \r\nArr:  \r\nEnr Hosp:  \r\nArr Hosp:  \r\nClr:04:19:52  \r\nRES#:E63  \r\n\n
+[Free SD63] 800 CHEWS LANDING RD ,22 22  \r\nMI#:120189349  \r\nDisp:04:15:28  \r\nEnr:04:15:29  \r\nArr:  \r\nEnr Hosp:  \r\nArr Hosp:  \r\nClr:04:19:52  \r\nRES#:SD63  \r\n\n
+[Free L63] 800 CHEWS LANDING RD ,22 22  \r\nMI#:120189349  \r\nDisp:04:13:02  \r\nEnr:04:13:03  \r\nArr:  \r\nEnr Hosp:  \r\nArr Hosp:  \r\nClr:04:19:52  \r\nRES#:L63  \r\n\n
+[Free S632] 800 CHEWS LANDING RD ,22 22  \r\nMI#:120189349  \r\nDisp:04:06:53  \r\nEnr:  \r\nArr:  \r\nEnr Hosp:  \r\nArr Hosp:  \r\nClr:  \r\nRES#:S632  \r\n\n
+[Dispatch L63] APARTMENT  \r\n800 CHEWS LANDING RD ,22   \r\n#:2E  \r\nX:LAUREL/BORO LINE  \r\nZN:22B  \r\nCP:LAUREL HILL APTS  2012-08-07 04:06:52  \r\nMI#:120189349  \r\nRES#:L63\r\n\n
+[Free TF632] 800 CHEWS LANDING RD ,22 22  \r\nMI#:120189349  \r\nDisp:04:06:53  \r\nEnr:  \r\nArr:04:17:52  \r\nEnr Hosp:  \r\nArr Hosp:  \r\nClr:05:06:23  \r\nRES#:TF632  \r\n\n
+[Free L63] 800 CHEWS LANDING RD ,22 22  \r\nMI#:120189349  \r\nDisp:04:13:02  \r\nEnr:04:13:03  \r\nArr:04:45:24  \r\nEnr Hosp:  \r\nArr Hosp:  \r\nClr:05:06:25  \r\nRES#:L63  \r\n\n
+[Dispatch SQ63] ALARM SYSTEM  \r\n900 GIBBSBORO RD ,22   \r\n#:  \r\nX:WILSON/HILLIARDS  \r\nZN:22A  \r\nCP:LINDENWOLD SCHOOL 4  2012-08-08 07:37:16  \r\nMI#:120190307  \r\nRES#:SQ63\r\n\n
+[Dispatch L63] ALARM SYSTEM  \r\n900 GIBBSBORO RD ,22   \r\n#:  \r\nX:WILSON/HILLIARDS  \r\nZN:22A  \r\nCP:LINDENWOLD SCHOOL 4  2012-08-08 07:37:16  \r\nMI#:120190307  \r\nRES#:L63\r\n\n
+[Dispatch F6301] ALARM SYSTEM  \r\n900 GIBBSBORO RD ,22   \r\n#:  \r\nX:WILSON/HILLIARDS  \r\nZN:22A  \r\nCP:LINDENWOLD SCHOOL 4  2012-08-08 07:37:16  \r\nMI#:120190307  \r\nRES#:F6301\r\n\n
+[Free SQ63] 900 GIBBSBORO RD ,22 22  \r\nMI#:120190307  \r\nDisp:07:37:16  \r\nEnr:  \r\nArr:  \r\nEnr Hosp:  \r\nArr Hosp:  \r\nClr:07:51:45  \r\nRES#:SQ63  \r\n\n
+
 */
 
 public class NJCamdenCountyAParser extends FieldProgramParser {
