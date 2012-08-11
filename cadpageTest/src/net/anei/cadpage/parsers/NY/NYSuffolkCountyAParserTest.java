@@ -292,7 +292,18 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "X:ADIRONDACK DR / S BICYCLE PATH",
         "CODE:26-A-1",
         "TIME:17:52:15");
-  
+
+    doTest("T30",
+        "TYPE: ALARMS LOC: VILLAGE GREEN DR PORTJS :2330  CROSS: OLD TOWN RD / OLD TOWN RD CODE: 52-C-4S TIME: 14:02:25\r\n\r\n\r",
+        "CALL:ALARMS",
+        "ADDR:VILLAGE GREEN DR",
+        "MADDR:VILLAGE GREEN DR & OLD TOWN RD",
+        "CITY:PORT JEFFERSON STATION",
+        "PLACE:2330",
+        "X:OLD TOWN RD / OLD TOWN RD",
+        "CODE:52-C-4S",
+        "TIME:14:02:25");
+ 
   }
   
   @Test
