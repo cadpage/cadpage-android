@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
-Calumet County, WI (alternate)
+Calumet County, WI
 Contact: Tom Macco <tmacco1@gmail.com>
 Sender: zoll@goldcross.org
 (Gold Cross Alert - part 1 of 1) RC:W824 RUSCH RD//BRILLION/Non Emergency/Hemorhage / Laceration//<None>/Run# 9652/18:21/911 Call (County)//
