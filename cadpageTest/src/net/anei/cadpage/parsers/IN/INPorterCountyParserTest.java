@@ -226,6 +226,27 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "SRC:LF",
         "PRI:1",
         "INFO:Medical ProQA recommends di");
+
+    doTest("T17",
+        "Subject:CAD Page\n\n" +
+        "#120110035 - \n" +
+        "F51:\n" +
+        "ALARM:SMOKE/FIRE/CO @ 463 E US HWY 30,WGT\n" +
+        "CROSS: btwn N 450 E and N 575 E\n" +
+        "GRP:WF\n" +
+        "PRI:1\n" +
+        "comment: ACT\r",
+
+        "SRC:WF",
+        "ID:120110035",
+        "UNIT:F51",
+        "CALL:ALARM:SMOKE/FIRE/CO",
+        "ADDR:463 E US HWY 30",
+        "MADDR:463 E US 30",
+        "CITY:Washington Twp",
+        "X:N 450 E and N 575 E",
+        "PRI:1",
+        "INFO:ACT");
   }
   
   @Test
