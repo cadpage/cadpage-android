@@ -54,6 +54,14 @@ public class WICalumetCountyBParserTest extends BaseParserTest {
         "CITY:BRILLION",
         "CALL:Non Emergency / Allergies / walk in w / bee sting / does not want to be transported by ambulance");
 
+    doTest("T6",
+        "(Gold Cross Alert - part 1 of 1) RC:306 N MAIN ST//BRILLION/Non Emergency/Sick Person//<None>/Run# 11405/02:22/911 Call (County)//",
+        "ADDR:306 N MAIN ST",
+        "CITY:BRILLION",
+        "CALL:Non Emergency / Sick Person",
+        "ID:11405",
+        "TIME:02:22");
+
   }
   
   public static void main(String[] args) {
