@@ -178,7 +178,23 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "ADDR:10165 CARLEE JUNE DR",
         "X:RUNYAN LAKE RD",
         "INFO:37 year old, Male, Consci");
-  }
+
+    doTest("T23",
+        "Update: ;TREEF;5117 CULVER RD;CANYON OAKS DR;CALLER STATES TREE COMPLETELY BLOCKING CULVER RD, [08/11/12 02:25:45 JMURPHY-KE]",
+        "CALL:TREEF",
+        "ADDR:5117 CULVER RD",
+        "X:CANYON OAKS DR",
+        "INFO:CALLER STATES TREE COMPLETELY BLOCKING CULVER RD,",
+        "DATE:08/11/12",
+        "TIME:02:25:45");
+
+    doTest("T24",
+        "Update: ;DEATH;4601 GOLF VIEW DR;GOLF VIEW CT;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 83 year old, Male, Unconsc",
+        "CALL:DEATH",
+        "ADDR:4601 GOLF VIEW DR",
+        "X:GOLF VIEW CT",
+        "INFO:83 year old, Male, Unconsc");
+ }
   
   public static void main(String[] args) {
     new MILivingstonCountyParserTest().generateTests("T1");
