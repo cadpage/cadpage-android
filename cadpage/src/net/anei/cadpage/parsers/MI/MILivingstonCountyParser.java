@@ -56,6 +56,10 @@ Contact: Dave Korponic <dkorps@gmail.com>
 Sender: Dave Korponic <dkorps@gmail.com>
 CAD:FYI: ;SICK;10165 CARLEE JUNE DR;RUNYAN LAKE RD;[Medical Priority Info] RESPONSE: P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 37 year old, Male, Consci
 
+Contact: Steve Hoyer <nottheface@gmail.com>
+Update: ;TREEF;5117 CULVER RD;CANYON OAKS DR;CALLER STATES TREE COMPLETELY BLOCKING CULVER RD, [08/11/12 02:25:45 JMURPHY-KE]
+Update: ;DEATH;4601 GOLF VIEW DR;GOLF VIEW CT;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 83 year old, Male, Unconsc
+ 
 */
 
 public class MILivingstonCountyParser extends DispatchOSSIParser {
@@ -71,7 +75,7 @@ public class MILivingstonCountyParser extends DispatchOSSIParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (body.startsWith("FYI: ;")) body = "CAD:" + body;
+    if (body.startsWith("FYI: ;") || body.startsWith("Update: ;")) body = "CAD:" + body;
     return super.parseMsg(body, data);
   }
   
