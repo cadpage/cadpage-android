@@ -812,7 +812,7 @@ public abstract class SmartAddressParser extends MsgParser {
         }
         if (ndx-start >= 1 && isType(ndx, ID_CONNECTOR)) {
           sAddr = ndx-1;
-          if (isType(sAddr, ID_DIRECTION)) sAddr--;
+          if (sAddr > start && isType(sAddr, ID_DIRECTION)) sAddr--;
           
           if (sAddr >= start && isRoadToken(sAddr)) break;
           
