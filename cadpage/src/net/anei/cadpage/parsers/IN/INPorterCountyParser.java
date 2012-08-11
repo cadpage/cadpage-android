@@ -46,6 +46,9 @@ Contact: Michael Zappia <mk.zappia@gmail.com>
 Sender: pcdisp@porterco-ps.org
 (CAD Page) #120065003 - \nF35P1:\nEMS AST-P1 @ 1118 WINTER PARK DR,LBT\nCROSS: btwn ASPEN DR and SUN VALLEY DR\nGRP:LF\nPRI:1\ncomment: Medical ProQA recommends di
 
+Contact: Contact: firemedic3087 <firemedic3087@gmail.com>
+Subject:CAD Page\n\n#120110035 - \nF51:\nALARM:SMOKE/FIRE/CO @ 463 E US HWY 30,WGT\nCROSS: btwn N 450 E and N 575 E\nGRP:WF\nPRI:1\ncomment: ACT\r
+
 Contact: Christopher Diaz <cdiaz@lofsfire.com>
 Sender: messaging@iamresponding.com
 Subject:LOFS\nF32:\nRESP.ARR.AST EMS @ CHICAGOLAND CHRISTIAN VILLAGE,WNT\n- at 6685 E 117TH AV,WNT\nCROSS: btwn GIBSON ST and JAY ST\n-\r

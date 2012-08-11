@@ -1809,10 +1809,15 @@ Salem County, NJ (NJSalemCountyBParser)
 (Chief ALT) [STA:7] -- Motor Vehicle Accident -- 1163 S Broadway Way Pennsville Township NJ - Cross STS:Freas Rd -- Caller: JACK KUGLER 9352515
 (Chief ALT) [STA:7] -- MVC -- Njtp South Mm 1-4.5 Njtp Carneys Point Township NJ -- Caller: SHAWN HAMMELL 6178168
 ***************************************************************************
-Somerset County, NJ (NJSomersetCountyParser)
+Somerset County, NJ (NJSomersetCountyAParser)
 [CAD]  [CAD] EFD-FD:11051201:05/12/2011 15:44:57:FIRE ALARM: FRANKLI-CARING HOUSE PROJECTS / 18 BLOOMFIELD AVE
 [CAD]  [CAD] EFD-FD:11051982:05/14/2011 11:51:28:FIRE ALARM:GENERAL: FRANKLI-HAMPTON INN / 255 DAVIDSON AVE
 [CAD]  [CAD] EFD-FD:11052014:05/14/2011 13:35:40:FIRE ALARM:ZONE-2ND FL REAR HALL SMK: FRANKLI-1165 HAMILTON ST
+***************************************************************************
+Somerset County, NJ (NJSomersetCountyBParser) 
+[fCAD] TYPE - HHaz-Health Hazard LOC - 204~STRATFORD~PL~ XST - UNKNOWN / THOMPSON AVE NAR - 07/28/12 16:50:02~CALLER STATED A POTATO EXPLODED IN HER MICROWAVE AND SHE IS CONCERNED THAT THERE MAY BE FIRE IN THE WALLS.
+[fCAD] TYPE - AF - Fire Alarm LOC - 9~DARTMOUTH~AVE~APT 4B XST - COLUMBIA DR / DEAD END NAR - 08/02/12 23:27:55~FFD DISPATCHED FOR AUDIBLE FIRE ALARM CALLED IN BY RESIDENT
+[fCAD] TYPE - 39 - Notify LOC - POLHEMUS LANE~ XST - ~ NAR - 08/06/12 11:02:10~FYI ONLY-DO NOT RESPOND. POLHEMUS LANE CLOSED AT RR CROSSING 8/9 TO 8/17. DETOUR VIA TEMPORARY ROAD.
 ***************************************************************************
 Sussex County, NJ (NJSussexCountyAParser)
 (I-B2011-004928) ALARMF @ 172 LACKAWANNA DRIVE  , BYRAM - PROTECTIVE SERVICES (800-633-2677) OPERATOR 1663. GENERAL FIRE.
@@ -4787,14 +4792,6 @@ Please respond to 15796 Hwy M, Rayville, MO\nmale subj. is 10-55 and suicidal\nc
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Livingston County, MI (replace!!!)
-Contact: Active911
-Agency name: Liv. Co Disaster Assistance Response Team Location: Howell, MI 
-Sender: CAD@livingstoncounty.livco
-CAD:DART;1279 RICKETT RD; BRTN;STRUCTURE FIRE
-CAD:DART;1279 RICKETT RD; BRTN;STRUCTURE FIRE
-CAD:DART;S US23/NORTH TERRITORIAL;MUTUAL AID TO OTHER FD OR EMS
-**********************************************************
 **********************************************************
 Calumet County, WI (alternate)
 Contact: Tom Macco <tmacco1@gmail.com>
@@ -4878,7 +4875,7 @@ Sender: textmsg@ballardsvillefire.com
 [072502]- NATURE: FIRE,ALARM RESIDENTIAL LOCATION: 6908 COLT ON RD CRESTWOOD BETWEEN COLTON CT / DEAD END ACCESS BY CRO SS RUN DR COMMENTS: FIRE ALARM
 **********************************************************
 **********************************************************
-**********************************************************
+*********************************************************
 Kent County, DE (alternate)
 Contact: Active911
 [Chief ALT] [46 Fire] -- Stand-By,Cover-up -- 110 Firehouse Ln Marydel - Cross Sts: Strauss Av\n
@@ -4913,6 +4910,14 @@ Contact: Active911
 [Chief ALT] [46 Fire] -- Alarms-Commercial -- 800 Otis Dr Dover - Cross Sts: Fowler C - Caller:DFD\n
 [Chief ALT] [46 Fire] -- Alarms-Residential (single) -- 281 Sheffield Dr Dover - Cross Sts: Norwich Wa - Caller:ADT\n
 [Chief ALT] [46 Fire] -- Structure-Mobile Home/Trailer -- 243 Kentwood Dr Dover - Cross Sts: Phoenix D - Caller:SHANON\n
+**********************************************************
+Livingston County, MI (Alternate)
+Contact: Active911
+Agency name: Liv. Co Disaster Assistance Response Team Location: Howell, MI 
+Sender: CAD@livingstoncounty.livco
+CAD:DART;1279 RICKETT RD; BRTN;STRUCTURE FIRE
+CAD:DART;1279 RICKETT RD; BRTN;STRUCTURE FIRE
+CAD:DART;S US23/NORTH TERRITORIAL;MUTUAL AID TO OTHER FD OR EMS
 **********************************************************
 **********************************************************
 **********************************************************

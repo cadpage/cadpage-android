@@ -29,10 +29,12 @@ Contact: CodeMessaging
 */
 
 public class NJSomersetCountyBParser extends FieldProgramParser {
+
+  private static final Pattern MASTER = Pattern.compile("TYPE - ([A-Za-z0-9]+) *- *(.*?) LOC - (.*) XST - (.*?) NAR -(?: (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d:\\d\\d)~(.*))?");
   
   public NJSomersetCountyBParser() {
-    super("NJSomerset County", "NJ",
-        "TYPE:CALL! LOC:ADDR! XST:X! NAR:INFO");
+    super("SOMERSET COUNTY", "NJ",
+        "TYPE:CODE! CALL! LOC:ADDR! XST:X! NAR:INFO");
   }
 
   @Override
@@ -43,43 +45,19 @@ public class NJSomersetCountyBParser extends FieldProgramParser {
   @Override 
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("fCAD")) return false;
-    body = body.replace("-", "");
-    body = body.replace("~", " ");
-    body = body.replace("TYPE", "TYPE:");
-    body = body.replace("LOC", "LOC:"); 
-    body = body.replace("XST", "XST:"); 
-    body = body.replace("NAR", "NAR:");
-    return super.parseMsg(body, data);
+    Matcher match = MASTER.matcher(body);
+    if (!match.matches()) return false;
+    data.strCode = match.group(1);
+    data.strCall = match.group(2).trim();
+    String addr = match.group(3).replace('~', ' ').trim();
+    parseAddress(addr, data);
+    data.strCross = match.group(4).trim();
+    if (data.strCross.equals("~")) data.strCross = "";
+    data.strDate = getOptGroup(match.group(5));
+    data.strTime = getOptGroup(match.group(6));
+    data.strSupp = getOptGroup(match.group(7));
+    return true;
   }
-
-private static final Pattern INFO_PTN = 
-      Pattern.compile("(\\d\\d/\\d\\d/\\d{2}) (\\d\\d:\\d\\d:\\d\\d) [ /]*");
-
-private class MyInfoField extends InfoField {
-
-@Override
-public void parse(String field, Data data) {
-Matcher match = INFO_PTN.matcher(field);
-if (match.find()) {
-  data.strTime = match.group(2);
-  data.strDate = match.group(1);
-  field = field.substring(0,match.start());
-}
-super.parse(field, data);
-}
-
-@Override
-public String getFieldNames() {
-return "TIME DATE INFO ";
-}
-}
-
-@Override
-protected Field getField(String name) {
-if (name.equals("INFO")) return new MyInfoField();
-return super.getField(name);
-
-}
 }
 
 
