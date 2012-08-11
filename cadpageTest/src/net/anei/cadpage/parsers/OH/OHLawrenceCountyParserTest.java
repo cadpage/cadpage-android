@@ -68,7 +68,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "alert:[121]- NATURE: E 48A LOCATION: 24 TWP RD 1101 W FAYETTE T WP COMMENTS: This is an example of a call on a township wi th a direction. The long form would be 24 Township Road 1101 West",
         "UNIT:121",
         "CALL:E 48A",
-        "ADDR:24 TWP RD 1101 W", // Fpimd address pm DAVIS ST W ??
+        "ADDR:24 TWP RD 1101 W", // Found address pm DAVIS ST W ??
         "CITY:FAYETTE TWP",
         "INFO:This is an example of a call on a township wi th a direction. The long form would be 24 Township Road 1101 West");
   }

@@ -144,7 +144,17 @@ public class MIEmmetCountyParserTest extends BaseParserTest {
         "INFO:THERE IS A FIRE BEHIND HER WASHER & DRYER.",
         "DATE:08/05/12",
         "TIME:23:34:00");
-  
+
+    doTest("T15",
+        "3115:CAD:FYI: ;FIRE;INFD;2140 MERIDIAN RD;THERE ARE FLAMES COMING OUT OF SHED AT THE PROPERTY ACROSS THE STREET FROM THE ABOVE ADDRESS [08/10/12 15:46:33 EMCKINLEY]",
+        "ID:3115",
+        "CALL:FIRE",
+        "SRC:INFD",
+        "ADDR:2140 MERIDIAN RD",
+        "INFO:THERE ARE FLAMES COMING OUT OF SHED AT THE PROPERTY ACROSS THE STREET FROM THE ABOVE ADDRESS",
+        "DATE:08/10/12",
+        "TIME:15:46:33");
+ 
   }
   
   public static void main(String[] args) {

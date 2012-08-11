@@ -607,6 +607,21 @@ public class COWeldCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testRussBenzel() {
+
+    doTest("T1",
+        "22\nSIPF\nD\nTURNER BLVD @ HWY 119 WB\nMV1A\n2227\nGRYHOUND BUS NEAR THE SHELL STN. PERSON HAVING A SEIZING",
+        "CODE:SIPF",
+        "CALL:SICK AND INJURED POLICE/FIRE",
+        "ADDR:TURNER BLVD & HWY 119 WB",
+        "MADDR:TURNER BLVD & HWY 119",
+        "SRC:MV1A",
+        "UNIT:2227",
+        "INFO:GRYHOUND BUS NEAR THE SHELL STN. PERSON HAVING A SEIZING");
+
+  }
+  
   public static void  main(String[] args) {
     new COWeldCountyParserTest().generateTests("T1");
   }
