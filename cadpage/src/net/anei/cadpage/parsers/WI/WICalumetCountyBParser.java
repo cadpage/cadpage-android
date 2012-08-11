@@ -14,6 +14,7 @@ Sender: zoll@goldcross.org
 (Gold Cross Alert - part 1 of 1) RC:W2377 USHY 10//BRILLION/Non Emergency/Sick Person//<None>/Run# 10629/20:58/911 Call (County)//
 (Gold Cross Alert - part 1 of 1) RC:220 ACHIEVEMENT DR//BRILLION/Non Emergency/Fall Victim//<None>/Run# 10637/04:21/911 Call (County)//
 (Gold Cross Alert - part 1 of 1) RC:130 CALUMET ST//BRILLION/Non Emergency/Allergies/walk in w/ bee sting/ does not want to be transported by ambulance/<None>/Ru
+(Gold Cross Alert - part 1 of 1) RC:306 N MAIN ST//BRILLION/Non Emergency/Sick Person//<None>/Run# 11405/02:22/911 Call (County)//
 
 */
 
