@@ -123,7 +123,7 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "BOX:30-A",
         "CH:Snyder Hi");
 
-    doTest("T1",
+    doTest("T10",
         "prvs=0555093757=dispatch@jeffersoncountypa.com (Incident) Tree Down S20  558 ROBINSON ST Bell HALL ST / DEAD END 20-B Snyder Hill",
         "CALL:Tree Down S20",
         "ADDR:558 ROBINSON ST",
@@ -132,6 +132,15 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "PLACE:/ DEAD END",
         "BOX:20-B",
         "CH:Snyder Hill");
+
+    doTest("T12",
+        "prvs=05703e571d=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Structure Fire E20 R20 T20 E30 SQ30 E40 TK40 R40 MED50  105 WOODLAND AVE Punxsutawney SPRING ST / E MAHONING ST, CLEARFIEL",
+        "CALL:Structure Fire E20 R20 T20 E30 SQ30 E40 TK40 R40 MED50",
+        "ADDR:105 WOODLAND AVE",
+        "X:SPRING ST / E MAHONING ST",
+        "CITY:Punxsutawney",
+        "PLACE:CLEARFIEL");
+
   }
   
   public static void main(String[] args) {

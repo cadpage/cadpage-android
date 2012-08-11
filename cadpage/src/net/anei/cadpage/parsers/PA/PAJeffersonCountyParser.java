@@ -26,6 +26,7 @@ prvs=054676518f=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com
 prvs=054477bfa6=dispatch@jeffersoncountypa.com (Incident) Structure Fire E30 E20 E40 TK40 SQ30 R20 R40 T20 T40 MED50  143 WOODDALE DR Bell ALBION RD / ACORN LN 30-B Snyder Hill
 prvs=054676518f=dispatch@jeffersoncountypa.com (Incident) Structure Fire E30 E20 E40 TK40 T20 T40 MED50  118 CLARK ST Punxsutawney HAMPTON AVE, RIDGE AVE / N PENN ST 30-A Snyder Hi
 prvs=0555093757=dispatch@jeffersoncountypa.com (Incident) Tree Down S20  558 ROBINSON ST Bell HALL ST / DEAD END 20-B Snyder Hill
+prvs=05703e571d=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Structure Fire E20 R20 T20 E30 SQ30 E40 TK40 R40 MED50  105 WOODLAND AVE Punxsutawney SPRING ST / E MAHONING ST, CLEARFIEL
 
 */
 
@@ -67,12 +68,37 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
     String extra = getLeft();
     
     if (data.strCross.length() == 0 && extra.contains(" / ")) {
-      Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, extra);
-      if (res.getStatus() > 0) {
-        res.getData(data);
-        data.strPlace = res.getLeft();
-      } else {
-        data.strCross = extra;
+      boolean cross = true;
+      boolean foundSlash = false;
+      for (String part : extra.split(",")) {
+        part = part.trim();
+        boolean slash = part.contains("/");
+        if (!slash && !foundSlash) {
+          data.strCross = append(data.strCross, ", ", part);
+        }
+        else if (cross) {
+          Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, part);
+          if (res.getStatus() > 0) {
+            String saveCross = data.strCross;
+            data.strCross = "";
+            res.getData(data);
+            data.strCross = append(saveCross, ", ", data.strCross);
+            part = res.getLeft();
+            if (part.length() > 0) {
+              data.strPlace = part;
+              cross = false;
+            }
+          } else if (slash) {
+            data.strCross = append(data.strCross, ", ", part);
+            cross = false;
+          } else {
+            data.strPlace = part;
+            cross = false;
+          }
+        } else {
+          data.strPlace = append(data.strPlace, ", ", part);
+        }
+        if (slash) foundSlash = true;
       }
     } else {
       data.strPlace = extra;
