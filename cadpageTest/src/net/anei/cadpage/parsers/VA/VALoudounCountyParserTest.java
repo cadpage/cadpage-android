@@ -117,6 +117,20 @@ public class VALoudounCountyParserTest extends BaseParserTest {
         "MADDR:1200 DUNVEGAN DRIVE",
         "UNIT:K604",
         "BOX:FQ");
+
+    doTest("T11",
+        " 1 of 2\n" +
+        "FRM:CC_Message_Notification@usamobility.net\n" +
+        "MSG:Call:29D02l-BIKE OR MOTOR,MOUNTAIN RD-PV/CHARLES TOWN PIKE-PV Apt:,X-St:CHARLES TOWN\n" +
+        "(Con't) 2 of 2\n" +
+        "PIKE,ER602 A6142 AL612 ECO2 ACO14,Box:0226K'ADC:4921 F09 [57]",
+
+        "CALL:29D02l-BIKE OR MOTOR",
+        "ADDR:MOUNTAIN RD & CHARLES TOWN PIKE",
+        "CITY:Purcellville",
+        "X:CHARLES TOWN PIKE",
+        "UNIT:ER602 A6142 AL612 ECO2 ACO14",
+        "BOX:0226K'ADC:4921 F09");
  }
   
   public static void main(String[] args) {
