@@ -64,6 +64,11 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   }
   
   @Override
+  public String getAliasCode() {
+    return "TXNassauBay";
+  }
+  
+  @Override
   public String getFilter() {
     return "cad@ossicadpaging";
   }

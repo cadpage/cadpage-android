@@ -9,5 +9,4 @@ public class GAEvansCountyParser extends GABullochCountyParser {
   public GAEvansCountyParser() {
     super("EVANS COUNTY", "GA");
   }
-
 }

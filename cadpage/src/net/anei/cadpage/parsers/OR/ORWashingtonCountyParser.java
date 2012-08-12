@@ -48,6 +48,11 @@ public class ORWashingtonCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public String getAliasCode() {
+    return "ORWashingtonCounty";
+  }
+  
+  @Override
   public String getFilter() {
     return "930010,777";
   }

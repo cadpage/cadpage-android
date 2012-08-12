@@ -87,6 +87,11 @@ public class COWeldCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public String getAliasCode() {
+    return "COWeldCounty";
+  }
+  
+  @Override
   public String getFilter() {
     return "777,wrc-hiplink@weldcorcc.com,9300";
   }

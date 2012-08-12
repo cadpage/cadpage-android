@@ -51,6 +51,11 @@ public class VAAccomackCountyParser extends DispatchOSSIParser {
   }
   
   @Override
+  public String getAliasCode() {
+    return "VAAccomackCounty";
+  }
+  
+  @Override
   public String getFilter() {
     return "cad@esva911.org";
   }

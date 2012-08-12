@@ -43,6 +43,11 @@ public class GABullochCountyParser extends SmartAddressParser {
   }
   
   @Override
+  public String getAliasCode() {
+    return "GABullochCounty";
+  }
+  
+  @Override
   public String getFilter() {
     return "bullochga911@smtp.sgcce-inc.com";
   }

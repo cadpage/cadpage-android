@@ -100,6 +100,14 @@ public abstract class MsgParser {
     return defState;
   }
   
+  public void setDefaultCity(String defCity) {
+    this.defCity = defCity;
+  }
+  
+  public void setDefaultState(String defState) {
+    this.defState = defState;
+  }
+  
   /**
    * @return parser country code
    */
@@ -274,6 +282,14 @@ public abstract class MsgParser {
       ipt += keyword.length();
     }
     return true;
+  }
+  
+  /**
+   * @return Alias code.  This code will be non-null for parsers that are different aliases of another parser
+   * and all of the parsers that are aliases of one another will return the same code.
+   */
+  public String getAliasCode() {
+    return null;
   }
   
   /**

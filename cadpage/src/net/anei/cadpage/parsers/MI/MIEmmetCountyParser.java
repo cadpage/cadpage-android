@@ -36,6 +36,11 @@ public class MIEmmetCountyParser extends DispatchOSSIParser {
     super(defCity, defState,
            "ID?:FYI CALL SRC! ADDR INFO+");
   }
+  
+  @Override
+  public String getAliasCode() {
+    return "MIEmmetCounty";
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {

@@ -162,6 +162,12 @@ public class CODouglasCountyParser extends FieldProgramParser {
            "Call:CALL! Location:ADDR! Map:MAP Units:UNIT! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO");
   }
   
+  @Override
+  public String getAliasCode() {
+    return "CODouglasCounty";
+  }
+  
+  @Override
   public String getFilter() {
     return "@notifyall.com,dcso@douglas.co.us";
   }

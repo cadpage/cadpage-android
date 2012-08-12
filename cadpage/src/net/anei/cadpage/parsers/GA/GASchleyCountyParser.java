@@ -55,6 +55,11 @@ public class GASchleyCountyParser extends FieldProgramParser {
     return "mfrdispatch@glen-usa.org";
   }
   
+  @Override
+  public String getAliasCode() {
+    return "GASchleyCounty";
+  }
+  
   // Subtype field is appended to call description, unless it is a ?
   private class MyCall2Field extends CallField {
     @Override
