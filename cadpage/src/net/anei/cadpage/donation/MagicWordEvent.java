@@ -40,15 +40,13 @@ public class MagicWordEvent extends DonateQueryEvent {
     
     // More special words to enable and disable GCM registration
     if (input.equalsIgnoreCase("GCMON")) {
-      ManagePreferences.setGcmEnabled(true);
+      C2DMReceiver.switchGCMMode(activity, true);
       Toast.makeText(activity, "GCM Enabled", Toast.LENGTH_LONG).show();
-      C2DMReceiver.register(activity);
       return true;
     }
     if (input.equalsIgnoreCase("GCMOFF")) {
-      ManagePreferences.setGcmEnabled(false);
+      C2DMReceiver.switchGCMMode(activity, false);
       Toast.makeText(activity, "GCM Disabled", Toast.LENGTH_LONG).show();
-      C2DMReceiver.register(activity);
       return true;
     }
     

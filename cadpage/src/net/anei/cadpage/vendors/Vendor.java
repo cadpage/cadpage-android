@@ -183,6 +183,16 @@ abstract class Vendor {
   }
   
   /**
+   * @return GCM request status for this vendor
+   *   0 - GCM not supported or must be manually enabled by user
+   *   1 - GCM mode forced for new registrations
+   *   2 - GCM mode forced for all user - C2DM mode is not supported
+   */
+  int getGCMStatus() {
+    return 0;
+  }
+  
+  /**
    * @return true if service is up and running and should be available for everyone,
    * false if should only be available for developers
    */
@@ -388,6 +398,9 @@ abstract class Vendor {
     // and save the discovery URI
     inProgress = true;
     discoverUri = uri;
+    
+    //  If GCM status requests it, switch us to GCM mode
+    if (getGCMStatus() >= 1) C2DMReceiver.switchGCMMode(context, true);
     
     // See if we already have a registration ID, if we do, use it to send
     // registration request to vendor server

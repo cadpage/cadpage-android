@@ -312,12 +312,17 @@ public class VendorManager {
   /**
    * Do new release reset processing
    */
-  public void newReleaseReset() {
+  public void newReleaseReset(Context context) {
     
+    boolean reqGCM = false;
     // Reset all disable text page checks when a new release is installed
     for (Vendor vendor : vendorList) {
       vendor.setDisableTextPageCheck(false);
+      if (vendor.isEnabled() && vendor.getGCMStatus() >= 2) reqGCM = true;
     }
+    
+    // If any enabled vendors require GCM operation, switch modes now
+    if (reqGCM) C2DMReceiver.switchGCMMode(context, true);
   }
   
   /**

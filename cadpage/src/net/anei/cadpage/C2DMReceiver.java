@@ -322,5 +322,21 @@ public class C2DMReceiver extends BroadcastReceiver {
     context.startActivity(Intent.createChooser(
         intent, context.getString(R.string.pref_sendemail_title)));
   }
+  
+  /**
+   * Process manual user request to switch GCM / C2DM mode
+   * @param enabled True to enable GCM mode, false to enable C2DM mode
+   */
+  public static void switchGCMMode(Context context, boolean enabled) {
+    
+    // If status isn't changing, don't do anything.
+    if (enabled == ManagePreferences.gcmEnabled()) return;
+    ManagePreferences.setGcmEnabled(enabled);
+    
+    // If we have an existing registration ID under the old protocol, unregister it
+    // If we have registered direct paging vendors, a new registration ID will be registered and
+    // submitted when the unregister is reported
+    if (ManagePreferences.registrationId() != null) unregister(context);
+  }
 }
 

@@ -41,7 +41,7 @@ public class CadPageApplication extends Application {
       if (ManagePreferences.newVersion(versionCode)) {
         
         // Reset vendor status
-        VendorManager.instance().newReleaseReset();
+        VendorManager.instance().newReleaseReset(this);
 
         // If we have a GCM registration ID, we are supposed to request a new one
         if (ManagePreferences.gcmEnabled() &&
