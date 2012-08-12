@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08112012</string>
-  <string name="release_version">v1.5.50</string>
+  <string name="release_date">08122012</string>
+  <string name="release_version">v1.5.51</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
@@ -23,6 +23,7 @@ Weld County, CO\n
 St Joseph County, IN\n
 Handord, MD\n
 Emmet County, MI\n
+Livingston County, MI\n
 Pulaski County, MO\n
 Monmouth County, NJ\n
 Jefferson County, NY\n
@@ -31,11 +32,14 @@ Moore County, NC\n
 Hamilton County, OH\n
 Washington County, OR\n
 Erie County, PA\n
+Jefferson County, PA\n
 Jefferson County, TN\n
+Loudoun County, VA\n
 Waynesboro, VA\n
 Natrona County, WY\n
 \n
 General Fixes:\n
+Fixed bug introduced in last version that is crashing Cadpage\n
 Workaround for Android 4.0 bug force closing app\n
   </string>  
 </resources>

@@ -12,7 +12,7 @@ public class PAButlerCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testJeffGooch() {
 
     doTest("T1",
         "\".\"@butlerco.911 :ALAF >ALARM/FIRE 20436 ROUTE 19 CRANBERRY TWP GUARDIAN Map: Grids:00000,000 Cad: 2011-0000075272",
@@ -53,6 +53,14 @@ public class PAButlerCountyParserTest extends BaseParserTest {
         "CITY:CRANBERRY TWP",
         "NAME:RAMPART",
         "ID:2012-0000006337");
+
+    doTest("T6",
+        "\".\"@co.butler.pa.us :ALAF >ALARM/FIRE 804 PROSPECT RD CONNOQ TWP GAURDIAN Map: Grids:00000,000 Cad: 2012-0000035901",
+        "CALL:ALARM/FIRE",
+        "ADDR:804 PROSPECT RD",
+        "CITY:CONNOQUENESSING TWP",
+        "NAME:GAURDIAN",
+        "ID:2012-0000035901");
   }
   
   @Test

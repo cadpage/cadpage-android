@@ -276,6 +276,15 @@ Jean -- Assistant to Ken Corbin
 ******************************************************************
 ******************************************************************
 
+This will be fixed in the next release.  I thought it was a once in a blue moon event, but this will be the third report.  Looks like I need to publish a special release to fix it.
+
+If you don't want to wait, you can install the  beta release from http://www.cadpage.org/download-cadpage tomorrow morning.
+
+Have a nice day,
+-Ken
+
+******************************************************************
+
 This will be fixed in the next release.  
 
 Weekly releases are generally published every Thursday evening.  If you want it earlier than that this should be in beta release at http://www.cadpage.org/download-cadpage tomorrow morning.
