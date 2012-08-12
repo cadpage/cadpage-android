@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.CO.COAdamsCountyParser;
+import net.anei.cadpage.parsers.CO.COBoulderCountyParser;
 import net.anei.cadpage.parsers.CO.COWeldCountyParser;
 import net.anei.cadpage.parsers.CO.CONorthglennEMSParser;
 
@@ -10,6 +11,21 @@ import static org.junit.Assert.*;
 
 
 public class GroupBestParserTest extends BaseParserTest {
+  
+  @Test
+  public void testProblem() {
+    setParser(new GroupBestParser(new COWeldCountyParser(), new COBoulderCountyParser()), "", "CO");
+    setExpLocCode("COWeldCounty");
+    doTest("Weld County",
+        "\" \" 24\nSIPF\nD\n3211 LUPTON AVE\nEV\n24\nMOM IS NOT WAKING UP 0000 Confirm 0001 Refuse TXT STOP to opt-out",
+        "SRC:24",
+        "CODE:SIPF",
+        "CALL:SICK AND INJURED POLICE/FIRE",
+        "ADDR:3211 LUPTON AVE",
+        "SRC:EV",
+        "UNIT:24",
+        "INFO:MOM IS NOT WAKING UP 0000 Confirm 0001 Refuse");
+  }
   
   @Test
   public void testRealParser() {
@@ -48,6 +64,36 @@ public class GroupBestParserTest extends BaseParserTest {
         "ID:10174",
         "ADDR:6211 OLIVE ST",
         "CALL:Pregnancy / Childbirth");
+  }
+  
+  @Test
+  public void testAliasedParser1() {
+    setParser(new GroupBestParser(new COWeldCountyParser(), new COBoulderCountyParser()), "", "CO");
+    setExpLocCode("COWeldCounty");
+    doTest("Weld County",
+        "\" \" 24\nSIPF\nD\n3211 LUPTON AVE\nEV\n24\nMOM IS NOT WAKING UP 0000 Confirm 0001 Refuse TXT STOP to opt-out",
+        "SRC:24",
+        "CODE:SIPF",
+        "CALL:SICK AND INJURED POLICE/FIRE",
+        "ADDR:3211 LUPTON AVE",
+        "SRC:EV",
+        "UNIT:24",
+        "INFO:MOM IS NOT WAKING UP 0000 Confirm 0001 Refuse");
+  }
+  
+  @Test
+  public void testAliasedParser2() {
+    setParser(new GroupBestParser(new COWeldCountyParser(), new COWeldCountyParser()), "WELD COUNTY", "CO");
+    setExpLocCode("COWeldCounty");
+    doTest("Weld County",
+        "\" \" 24\nSIPF\nD\n3211 LUPTON AVE\nEV\n24\nMOM IS NOT WAKING UP 0000 Confirm 0001 Refuse TXT STOP to opt-out",
+        "SRC:24",
+        "CODE:SIPF",
+        "CALL:SICK AND INJURED POLICE/FIRE",
+        "ADDR:3211 LUPTON AVE",
+        "SRC:EV",
+        "UNIT:24",
+        "INFO:MOM IS NOT WAKING UP 0000 Confirm 0001 Refuse");
   }
   
   @Test
