@@ -630,6 +630,16 @@ public class TXBexarCountyParserTest extends BaseParserTest {
         "UNIT:138B",
         "INFO:unk what is burning,C says she sees smoke coming from her neighbors yard.  Unk address");
 
+    doTest("T3",
+        "zTEST CALL                - 7895 Fair Oaks Pkwy           FAIR OAKS RANCH                   - 413D8   Dept 133C 132/134 Primary Dept This is a test call,Automatic Case Number(s) issued for Leon Springs FD: LSPR-2012-000000645.,",
+        "CALL:zTEST CALL",
+        "ADDR:7895 Fair Oaks Pkwy",
+        "CITY:FAIR OAKS RANCH",
+        "MAP:413D8",
+        "ID:LSPR-2012-000000645",
+        "UNIT:133C",
+        "INFO:132/134 Primary Dept This is a test call");
+
   }
   
   public static void main(String[] args) {
