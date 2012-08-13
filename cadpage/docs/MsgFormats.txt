@@ -4768,6 +4768,7 @@ Roanoke City, VA
 Contact: Sandy Webb <sandywebb@gmail.com>
 Sender: e911@roanokeva.gov
 Working Fire at 1401 ORANGE AVE NW
+Working Fire at 2802 COLONIAL AVE SWAPT 16
 **********************************************************
 Loudoun County, VA (alternate)
 Contact: hristopher Olson <lilsmokeeater5@yahoo.com>
@@ -4794,7 +4795,6 @@ med call@13511 stewart rd crs sts w 130th and w140th 70 yo male con diff breathi
 med call @ 210 w 8th ter lawson mo transfer to esmc 62 yo female con & breathing seizure activity
 Please respond to 15796 Hwy M, Rayville, MO\nmale subj. is 10-55 and suicidal\ncall came in 3rd party from excelsior springs pd\nall units responding t
 34686 w 206th elderly male difficulty breathing\r\ncross streets wilderness camp and coon branch road
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4877,6 +4877,24 @@ Short name that everyone knows would be Keene mutual aid.  If you go to firemutu
 (CAD Automated Event Notification) 14 STURTEVANT LN\r\nNO NAME\r\nSAXTONS RIVER\r\nAFA/BOX ALARM\r\n1\r\n\r\nNotes\r\nSTURTAVANT BUILDING\r\nCaller Name: HOME SE
 (CAD Automated Event Notification) 801 SAXTONS RIVER RD\r\nNO NAME\r\nROCKINGHAM\r\nMEDICAL\r\n3\r\n\r\nNotes\r\nCaller Phone: 888-289-2018\r\nBUDZIC 90M CARD HX
 (CAD Automated Event Notification) 27 MAIN\r\nSAXTONS RIVER INN (MAIN)\r\nSAXTONS RIVER\r\nAFA/BOX ALARM\r\n1
+**********************************************************
+Lincoln County, SD
+Contact: James Dietz <kc0usq@gmail.com>
+Sender: no-reply@ledsportal.com
+System: LEDS
+Subject:SIG20 : Suicide/Threat/Attempt\nSTANDBY AT 28323 S BARTLETT FOR PD, 15 YEAR OLD FEMALE LACERATIONS TO THE WRISTS\r
+Subject:12-10952 - SIG1 : Injury Accident\nI-29 MM 64 \r\nPlease respond immediately. Roll over 6pts. I-29 nb south of the 64mm.\r
+Subject:12-10680 -\n48548 480TH AVE, Canton \r\nPlease respond immediately. Diabetic emergency\r
+Subject:AMB : Ambulance Call\n307 E Jefferson St # 7, Inwood eld male who has fallen\r
+213 N MAIN INWOOD FOR 30 YEAR OLD MALE POSS BROKEN LEG\r
+Subject:12-10682 -\n903 W 5th. st #3, ca \r\nPlease respond immediately. 60 yo. f fallen and hit head.\r
+Subject:No Meeting\nCanton - Inwood Ambulance there will be NO Meeting tonight..\r
+Subject:AMB : Ambulance Call\nI-29 NB at 59 MM59 MM I-29 27 YOM with severe back pain\r
+Subject:AMB : Ambulance Call\nkeystone treatment center for 16 yoa male in and out of cons\r
+Subject:AMB : Ambulance Call\n501 S MAPLE ST, Inwood female had a baby 1 week ago passing clots\r
+704 E 2ND ST FOR ELDERLY MALE NEEDS TO BE RETURNED TO VA HOSPITAL\r
+Subject:AMB : Ambulance Call\n1022 N DAKOTA ST, CANTON, SD Non-ER transfer to Avera ER for behavioral evaluation\r
+Subject:No Meeting\nCanton - Inwood Ambulance there will be NO Meeting tonight..\r
 **********************************************************
 **********************************************************
 *********************************************************

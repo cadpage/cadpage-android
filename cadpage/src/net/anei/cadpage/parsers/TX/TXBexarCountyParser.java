@@ -116,6 +116,8 @@ MED - TOX INGEST - INTENTIONAL ; 1234 Wilder Pond                              ;
 Med - Fall           - 8502 GLEN BREEZE               - 553F8 Dept-108B - ACADIAN: Unit:    731         10041536,Transferred incident: Remote   Reference Number: 20120603-ZN16-1180 by Stinson, Nathaniel T. From ACADIAN,Interface has sent an ack message for CAM-2012-0013763 to the remote CAD,10041536,This incident 20120603-ZN16-1180 has been sent to BCFA via the CAD2CAD Interface.,Unit - 731, status change to STATUS_RESPONDING by ACADIAN at 06/03/2012 23:07:18,ACADIAN HAS CHANGED
 Fire-Authorized Burn      - 24440 Loma Verde          - RED GATE DR/TOPALA DR                    - 783B3  Dept-138B - unk what is burning[Shared],C says she sees smoke coming from her neighbors yard.  Unk address.[Shared],Invalid address received:220  VERIZON-E SECTOR-QF 783A4.[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0142874,Automatic Case Number(s) issued for Sandy Oaks FD: SOAK-2012-000000498. [Shared],
 
+zTEST CALL                - 7895 Fair Oaks Pkwy           FAIR OAKS RANCH                   - 413D8   Dept 133C 132/134 Primary Dept This is a test call,Automatic Case Number(s) issued for Leon Springs FD: LSPR-2012-000000645.,
+
 */
 
 public class TXBexarCountyParser extends FieldProgramParser {
@@ -256,6 +258,8 @@ public class TXBexarCountyParser extends FieldProgramParser {
         data.strApt = append(data.strApt, " - ", field.substring(3).trim());
       } else if (field.startsWith("#")) {
         data.strApt = append(data.strApt, " - ", field.substring(1).trim());
+      } else if (CITY_SET.contains(field)) {
+        data.strCity = field;
       } else if (field.length() > 5) {
         data.strCross = append(data.strCross, " & ", field);
       } else {
@@ -265,7 +269,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "X APT";
+      return "CITY X APT";
     }
   }
   
@@ -347,4 +351,38 @@ public class TXBexarCountyParser extends FieldProgramParser {
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
+  
+  private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
+      "ALAMO HEIGHTS",
+      "BALCONES HEIGHTS",
+      "CASTLE HILLS",
+      "CIBOLO",
+      "CHINA GROVE",
+      "CONVERSE",
+      "CROSS MOUNTAIN",
+      "ELMENDORF",
+      "FAIR OAKS RANCH",
+      "GREY FOREST",
+      "HELOTES",
+      "HILL COUNTRY VILLAGE",
+      "HOLLYWOOD PARK",
+      "KIRBY",
+      "LEON SPRINGS",
+      "LEON VALLEY",
+      "LIVE OAK",
+      "LYTLE",
+      "OLMOS PARK",
+      "SAN ANTONIO",
+      "SCHERTZ",
+      "SCENIC OAKS",
+      "SELMA",
+      "SHAVANO PARK",
+      "SOMERSET",
+      "ST. HEDWIG",
+      "TERRELL HILLS",
+      "TIMBERWOOD PARK",
+      "UNIVERSAL CITY",
+      "VON ORMY",
+      "WINDCREST"
+  }));
 }
