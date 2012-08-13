@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.PA;
 
-import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -646,7 +645,7 @@ public class PAMontgomeryCountyBParser extends DispatchA8Parser {
     Parser p = new Parser(sExtra);
     data.strCallId = getPatternValue(p, CALL_ID_PTN);
     data.strCross = getPatternValue(p, CROSS_STREET_PTN);
-    data.strCity = convertCodes(getPatternValue(p, MUNICIPALITY_PTN), CITY_CODES);
+    data.strCity = convertCodes(getPatternValue(p, MUNICIPALITY_PTN), PAMontgomeryCountyParser.CITY_CODES);
     data.strUnit = getPatternValue(p, UNIT_PTN);
     
     return true;
@@ -666,25 +665,5 @@ public class PAMontgomeryCountyBParser extends DispatchA8Parser {
   public String getProgram() {
     return super.getProgram() + " ID X CITY UNIT";
   }
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "ABGN", "ABINGTON TWP",
-      "AMBL", "AMBLER",
-      "BRYA", "BRYN ATHYN",
-      "BUCO", "BUCKS COUNTY",
-      "CHEL", "CHELTENHAM TWP",
-      "HATB", "HATBORO",
-      "HORS", "HORHAM TWP",
-      "JENK", "JENKINTOWN",
-      "LGWY", "LOWER GWYNEDD TWP",
-      "LMOR", "LOWER MORELAND TWP",
-      "PLYM", "PLYMOUTH TWP",
-      "RKLG", "ROCKLEDGE",
-      "SPRG", "SPRINGFIELD TWP",
-      "UDUB", "UPPER DUBLIN TWP",
-      "UGWY", "UPPER GWYNEDD TWP",
-      "UMOR", "UPPER MORELAND TWP",
-      "WHPN", "WHITPAIN TWP"
-  });
 }
 	
