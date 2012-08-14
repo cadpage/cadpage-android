@@ -85,6 +85,10 @@ Contact: Mike Karolenko <mkarolenko@gmail.com>
 Sender: rc.383@c-msg.net
 (Co3) [!] CT:ALARM 2 400 N CENTER ST @TOWNMALL WESTMINSTER WEST BOX:0380 DUE:E33 [03]
 
+Contact: Ronald Mintz <ronaldmintz77@gmail.com>
+Sender: GCM
+[!] CT:MA 5009 PINE VIEW DR / PINE WOOD DR 7-23 BOX:YC DUE:X79 [57]\r\n
+
 */
 
 public class MDCarrollCountyParser extends FieldProgramParser {
@@ -113,6 +117,8 @@ public class MDCarrollCountyParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     
     do {
+      if (subject.equals("!")) break;
+      
       if (subject.endsWith("|!")) {
         data.strSource = subject.substring(0,subject.length()-2);
         break;
