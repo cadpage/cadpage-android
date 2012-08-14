@@ -142,9 +142,10 @@ ack_req:  String of characters indicating what kind manual responses may be sent
           N - NO user indicates that they are not responding
           L - Request user location (again only if user has enabled location
               services and allowed Cadpage to report this info
-              An L code may be followed by two numbers separated with a slash,
-              as in L300/30.  This tells Cadpage to continue sending periodic
-              location reports for 300 seconds at 30 second intervals
+              An L code may be followed by three numbers separated with a slash,
+              as in L15/30/10.  This tells Cadpage to continue sending periodic
+              location reports for 15 minutes with a minimum time interval of 
+              30 seconds and a minimum distance intervals of 10 meters
           P - Request user payment status
           
           [...] - Custom Response menu.  The response menu consists of any
@@ -153,6 +154,11 @@ ack_req:  String of characters indicating what kind manual responses may be sent
           <code>=<desc>
           where code is the code that will be reported to the server when this 
                      response is selected
+                     A leading + or - indicates a positive or negative response.
+                     This character will not be included in the code sent to the
+                     server, it merely tells Cadpage whether user is responding
+                     or not.  The only affect this has is to turn on or off
+                     the location reporting feature triggered by the L code. 
                 desc is the text for this response that will be displayed
                 
           sequence of numeric digits - An index that will be used to search for
@@ -172,7 +178,7 @@ type:     Type of acknowledgment
           ACK  - sent when user performs any action in response to page
           RESP - sent when user indicates they are responding to call
           NO   - sent when user indicates they are not responding to call
-location: User GPS coordinates if requested and enabled
+          LOCATION - location report (if requested and enabled)
 paid_status: Cadpage subscription status if requested
              YES - user is a paid Cadpage subscriber entitled to any discounts that brings
              NO  - user is not a paid Cadpage subscriber
@@ -184,6 +190,26 @@ version   Cadpage client version
 Note: If message content was delivered through content_url instead of a content 
 keyword an automatic acknowledgment is redundant and will not be sent.
 
+Cadpage Location Reports
+Cadpage will report the users current location are periodic intervals under certain specific
+conditions.
+1) User must leave location reporting enabled in Cadpage settings
+2) GPL location tracking must be enabled on the device
+3) Server must request location report in a page report
+4) User must press a response button that indicates a positive response status
+
+The server requests location reports for a call by including an 'L' code in the ack_req
+parameter.  This code can be followed by 3 numbers separated by slashes such as L15/30/10
+The first number is the time in minutes that report tracking will be enabled.  The enabled
+time interval starts when the text page is received.  The second number is the minmum
+time interval between reports in seconds.  The third number is the minimum distance iterval
+in meters.  This L15/30/10 request location reports for 15 minutes after the call, with 
+a minimum time interval of 30 seconds and a minimum distance interval of 10 meters.
+
+Location reports will be sent to the URL specified by that ack_url parameter. And will include 
+the following parameters
+type      LOCATION
+location  User location in Lat/long degrees
 
 Client version codes
 All HTTP requests originated by recent versions of Cadpage will include a client version code.
