@@ -816,7 +816,7 @@ public abstract class SmartAddressParser extends MsgParser {
           
           if (sAddr >= start && isRoadToken(sAddr)) break;
           
-          if (isType(sAddr, ID_ROAD_SFX)) {
+          if (sAddr > start && isType(sAddr, ID_ROAD_SFX)) {
             sAddr--;
             if (isType(sAddr,ID_NOT_ADDRESS)) continue;
             if (sAddr > start && isType(sAddr, ID_AMBIG_ROAD_SFX) && !isType(sAddr-1,ID_NOT_ADDRESS)) sAddr--;
