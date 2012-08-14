@@ -125,14 +125,43 @@ Sender: messaging@iamresponding.com
 (Station 1) EVENT: F12015945 6391 ROWANBERRY DR ELK: @COLONIAL LANDING APARTMENTS TYPE: MEDICAL-*********** @ 12:51:56 BEAT/BOX: 0103 
 (Station 1) EVENT: F12015956 BALTIMORE COUNTY ENGC: @BC37 TYPE: MUTAID-MAALS @ 15:36:10 BEAT/BOX: BC37 
 (Station 1) EVENT: F12015957 BALTIMORE COUNTY HALE: @BC5 TYPE: MUTAID-MAALS @ 16:02:45 BEAT/BOX: BC05 
- 
+
+Contact: Active911
+Agency name: Howard County Department of Fire Rescue Services Location: Columbia, MD 
+Sender:  I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Saturday, July 14, 2012 3:04:59 PM\nTo: Levy, MD., Matthew\nAuto forwarded by a Rule\n\nEVENT: P121960260 TYPE: RESCUE-TRAPPED @ 14:52:27 FREDERICK RD/CARRS MILL RD - 3 P1'S ALL CAT. A' s - 1 TRAPPED OFF ROAD WAY - AVIATION REQUESTED 3X - OPS B1
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Saturday, July 14, 2012 3:08:29 PM\nTo: Levy, MD., Matthew\nAuto forwarded by a Rule\n\nEVENT: P121960260 TYPE: RESCUE-TRAPPED @ 14:52:27 FREDERICK & CARRS MILL RD - PT EXTRICATED - AVIATION ENROUTE 3X'S
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Tuesday, July 24, 2012 1:25:18 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: F12021123 TYPE: RESCUE-AUTOVS @ 13:14:17 BEAT/BOX: 0508       P1 FLYOUT
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Sunday, July 29, 2012 3:51:04 AM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: F12021615 5009 COLUMBIA RD WCOL,401 TYPE: FIRE-MULTIFAMILY @ 02:53:13 BEAT/BOX: 0221:  CMD ADVISING 4 APARTMENTS THAT WILL NEED ASSISTANCE. TOTAL OF 5 DAMAGED.  FM IS RESPONDING. FIRE OUT.
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Wednesday, August 01, 2012 4:23:44 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: F12021972 SB I95 TO EB RT 100 RAMP ELK TYPE: RESCUE-TRAPPED @ 16:12:42 BEAT/BOX: 095032     PT PINNED...RAMP FROM E/B 100 SHUT DOWN
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Wednesday, August 01, 2012 4:50:40 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: F12021972 SB I95 TO EB RT 100 RAMP ELK TYPE: RESCUE-TRAPPED @ 16:12:42 BEAT/BOX: 095032     PT EXTRICATED
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Wednesday, August 01, 2012 5:06:51 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: F12021972 SB I95 TO EB RT 100 RAMP ELK TYPE: RESCUE-TRAPPED @ 16:12:42 BEAT/BOX: 095032   INJURED  FF  TRANPORTED TO HCGH P3
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Friday, August 03, 2012 9:45:28 AM\nTo: OnCallPIO\nAuto forwarded by a Rule\n\nEVENT: F12022137 7246 CRADLEROCK WAY ES ECOL: @OWEN BROWN INTERFAITH CENTER TYPE: INVPKG-default @ 09:14:05 BEAT/BOX: 1032
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Friday, August 03, 2012 9:45:28 AM\nTo: OnCallPIO\nAuto forwarded by a Rule\n\nEVENT: F12022137 7246 CRADLEROCK WAY ES ECOL: @OWEN BROWN INTERFAITH CENTER TYPE: INVPKG-default @ 09:14:05 BEAT/BOX: 1032
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Sunday, August 05, 2012 7:26:22 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: F12022371 8731 WEATHERED STONE WAY LAUR TYPE: FIRE-HOUSE @ 16:55:33 BEAT/BOX: 0613:CMD FIRE OUT. RED CROSS NOTIFIED.
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Wednesday, August 08, 2012 12:48:55 PM\nTo: OnCallPIO\nAuto forwarded by a Rule\n\nEVENT: F12022676 1430 WOODSTOCK RD WDSK: EST TYPE: RAIL-FREIGHT @ 12:46:47 BEAT/BOX: 0814
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Wednesday, August 08, 2012 12:48:55 PM\nTo: OnCallPIO\nAuto forwarded by a Rule\n\nEVENT: F12022676 1430 WOODSTOCK RD WDSK: EST TYPE: RAIL-FREIGHT @ 12:46:47 BEAT/BOX: 0814
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Wednesday, August 08, 2012 12:57:35 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: F12022676 1430 WOODSTOCK RD WDSK: EST TYPE: RAIL-FREIGHT @ 12:46:47 ONE CLORINE CAR DERAILED - NOT LEAKING - STILL INVESTIGATING
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Wednesday, August 08, 2012 1:00:51 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: P122210218 1430 WOODSTOCK RD WDSK: EST TYPE: RAIL-FREIGHT @ 12:46:47 Evacuations of the immeadiate area - HCFR and POLICE are on the scene.
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Thursday, August 09, 2012 3:16:08 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: F12022792 CLARKSVILLE PK/WAINWRIGHT RD HIGH TYPE: RESCUE-TRAPPED @ 14:59:52 BEAT/BOX: 0508 1 SUBJECT TRAPED TROOPER ENROUTE
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Thursday, August 09, 2012 4:34:36 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: F12022805 BALTIMORE NATIONAL PK EB/ROGERS AVE EC TYPE: RESCUE-TRAPPED @ 16:27:12 BEAT/BOX: 0242 DUMP TRUCK OVERTURNED 1 P1 1 P2
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Sunday, August 12, 2012 6:18:58 AM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: F12023058 5141 BRITTEN LN EC TYPE: FIRE-HOUSE @ 06:07:27 BEAT/BOX: 0232  ATTACHED GARAGE WORKING FIRE
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Sunday, August 12, 2012 6:22:27 AM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: F12023058 5141 BRITTEN LN EC TYPE: BC2 FIRE IN GARAGE ONLY
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Sunday, August 12, 2012 6:39:16 AM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nEVENT: F12023058 5141 BRITTEN LN EC TYPE: FIRE-HOUSE @ 06:07:27 BEAT/BOX: 0232:  CMD ADVISING FIRE OUT.
+
+*** Not being parsed ***
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Sunday, August 05, 2012 5:02:00 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nBOX 6-13 // 8713 WETHERED STONE WAY // WORKING HOUSE FIRE
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Sunday, August 05, 2012 5:20:06 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nBOX 6-13 UPDATE // CMD ADVISING FIRE IN THE ATTIC // CREWS WORKING TO EXTINGUISH
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Monday, August 06, 2012 12:55:19 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nRESCUE 7-1 // GOVERNOR WARFIELD PKWY AND TWIN RIVERS RD // BICYCLIST STRUCK // TROOPER REQUESTED // P1 CAT A
+\n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Monday, August 06, 2012 1:32:07 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nRESCUE 7-1 UPDATE // PATIENT BEING TRANSPORTED TO JOHNS HOPKINS P1 BY TROOPER 3
+
 */
 
 public class MDHowardCountyParser extends FieldProgramParser {
   
   public MDHowardCountyParser() {
     super(CITY_CODES, "HOWARD COUNTY", "MD",
-           "ADDR/S! TYPE:CALL! BEAT/BOX:BOX!");
+           "ADDR/S! TYPE:CALL! BEAT/BOX:BOX");
   }
   
   @Override
@@ -150,6 +179,7 @@ public class MDHowardCountyParser extends FieldProgramParser {
         data.strSource = subject;
         break;
       }
+      if (body.startsWith("EVENT: ")) break;
       return false;
     } while (false);
     
@@ -172,18 +202,9 @@ public class MDHowardCountyParser extends FieldProgramParser {
       String sAddr = p.get(": @");
       data.strPlace = p.get().replace(": @", " - ");
       p = new Parser(sAddr);
-      String s2 = p.getLast(':');
-      String city = p.getLast(' ');
-      sAddr = append(p.get(), " ", s2);
-      
-      if (sAddr.endsWith(":")) sAddr = sAddr.substring(0,sAddr.length()-1).trim();
-      p = new Parser(sAddr);
+      p.getLastOptional(':');
       data.strApt = p.getLastOptional(',');
       super.parse(p.get(), data);
-      
-      if (data.strCity.length() == 0) {
-        data.strCity = convertCodes(city, CITY_CODES);
-      }
     }
     
     @Override
@@ -196,13 +217,24 @@ public class MDHowardCountyParser extends FieldProgramParser {
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf('@');
-      if (pt < 0) abort();
-      data.strTime = field.substring(pt+1).trim();
-      field = field.substring(0,pt).trim();
-      Matcher match = TRAIL_JUNK_PTN.matcher(field);
-      if (match.find()) field = field.substring(0,match.start()).trim();
-      super.parse(field, data);
+      Parser p = new Parser(field);
+      String call = p.get('@');
+      Matcher match = TRAIL_JUNK_PTN.matcher(call);
+      if (match.find()) call = call.substring(0,match.start()).trim();
+      data.strCall =  call;
+
+      data.strTime = p.get(' ');
+      
+      String extra = p.get();
+      if (data.strAddress.length() == 0) {
+        Result res = parseAddress(StartType.START_ADDR, extra);
+        if (res.getStatus() > 0) {
+          res.getData(data);
+          extra = getLeft();
+          if (extra.startsWith("-"))  extra = extra.substring(1).trim();
+        }
+        data.strSupp = extra;
+      }
     }
     
     @Override
@@ -211,10 +243,28 @@ public class MDHowardCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyBoxField extends BoxField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(' ');
+      if (pt >= 0) {
+        data.strSupp = append(data.strSupp, " / ", field.substring(pt+1).trim());
+        field = field.substring(0,pt);
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "BOX INFO";
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("BOX")) return new  MyBoxField();
     return super.getField(name);
   }
   

@@ -9,6 +9,14 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("MDHowardCounty",
+        "ken@cadpage.org",
+        "FW: ",
+        " \n-------------------------------------------\nFrom: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\nSent: Sunday, August 05, 2012 5:02:00 PM\nTo: Walton, Douglas\nAuto forwarded by a Rule\n\nBOX 6-13 // 8713 WETHERED STONE WAY // WORKING HOUSE FIRE",
+        "I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]",
+        "",
+        "BOX 6-13 // 8713 WETHERED STONE WAY // WORKING HOUSE FIRE");
+    
     doParseTest("COGarfileCounty",
         "ken@cadpage.org",
         "[1/2] CAD Page",

@@ -981,8 +981,8 @@ public class MDHowardCountyParserTest extends BaseParserTest {
         "(Station 1) EVENT: F12015837 42 RT 95 SB ELK: EST TYPE: GASLEAK-OUTSIDE @ 10:24:46 BEAT/BOX: 095034 ",
         "SRC:Station 1",
         "ID:F12015837",
-        "ADDR:42 RT 95 SB EST",
-        "MADDR:42 RT 95 EST",
+        "ADDR:42 RT 95 SB",
+        "MADDR:42 RT 95",
         "CITY:ELKRIDGE",
         "CALL:GASLEAK-OUTSIDE",
         "TIME:10:24:46",
@@ -1127,6 +1127,305 @@ public class MDHowardCountyParserTest extends BaseParserTest {
         "TIME:16:02:45",
         "BOX:BC05");
    
+  }
+  
+  @Test
+  public void testActive911C() {
+
+    doTest("T1",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Saturday, July 14, 2012 3:04:59 PM\n" +
+        "To: Levy, MD., Matthew\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: P121960260 TYPE: RESCUE-TRAPPED @ 14:52:27 FREDERICK RD/CARRS MILL RD - 3 P1'S ALL CAT. A' s - 1 TRAPPED OFF ROAD WAY - AVIATION REQUESTED 3X - OPS B1",
+
+        "ID:P121960260",
+        "ADDR:FREDERICK RD & CARRS MILL RD",  // Not mapping
+        "CALL:RESCUE-TRAPPED",
+        "TIME:14:52:27",
+        "INFO:3 P1'S ALL CAT A' s - 1 TRAPPED OFF ROAD WAY - AVIATION REQUESTED 3X - OPS B1");
+
+    doTest("T2",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Saturday, July 14, 2012 3:08:29 PM\n" +
+        "To: Levy, MD., Matthew\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: P121960260 TYPE: RESCUE-TRAPPED @ 14:52:27 FREDERICK & CARRS MILL RD - PT EXTRICATED - AVIATION ENROUTE 3X'S",
+
+        "ID:P121960260",
+        "CALL:RESCUE-TRAPPED",
+        "TIME:14:52:27",
+        "INFO:FREDERICK & CARRS MILL RD - PT EXTRICATED - AVIATION ENROUTE 3X'S");
+
+    doTest("T3",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Tuesday, July 24, 2012 1:25:18 PM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12021123 TYPE: RESCUE-AUTOVS @ 13:14:17 BEAT/BOX: 0508       P1 FLYOUT",
+
+        "ID:F12021123",
+        "CALL:RESCUE-AUTOVS",
+        "TIME:13:14:17",
+        "BOX:0508",
+        "INFO:P1 FLYOUT");
+
+    doTest("T4",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Sunday, July 29, 2012 3:51:04 AM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12021615 5009 COLUMBIA RD WCOL,401 TYPE: FIRE-MULTIFAMILY @ 02:53:13 BEAT/BOX: 0221:  CMD ADVISING 4 APARTMENTS THAT WILL NEED ASSISTANCE. TOTAL OF 5 DAMAGED.  FM IS RESPONDING. FIRE OUT.",
+
+        "ID:F12021615",
+        "ADDR:5009 COLUMBIA RD",
+        "APT:401",
+        "CITY:COLUMBIA",
+        "CALL:FIRE-MULTIFAMILY",
+        "TIME:02:53:13",
+        "BOX:0221:",
+        "INFO:CMD ADVISING 4 APARTMENTS THAT WILL NEED ASSISTANCE. TOTAL OF 5 DAMAGED.  FM IS RESPONDING. FIRE OUT.");
+
+    doTest("T5",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Wednesday, August 01, 2012 4:23:44 PM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12021972 SB I95 TO EB RT 100 RAMP ELK TYPE: RESCUE-TRAPPED @ 16:12:42 BEAT/BOX: 095032     PT PINNED...RAMP FROM E/B 100 SHUT DOWN",
+
+        "ID:F12021972",
+        "ADDR:SB I95 TO EB RT 100 RAMP",
+        "MADDR:I 95 TO RT 100 RAMP",
+        "CITY:ELKRIDGE",
+        "CALL:RESCUE-TRAPPED",
+        "TIME:16:12:42",
+        "BOX:095032",
+        "INFO:PT PINNED...RAMP FROM E/B 100 SHUT DOWN");
+
+    doTest("T6",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Wednesday, August 01, 2012 4:50:40 PM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12021972 SB I95 TO EB RT 100 RAMP ELK TYPE: RESCUE-TRAPPED @ 16:12:42 BEAT/BOX: 095032     PT EXTRICATED",
+
+        "ID:F12021972",
+        "ADDR:SB I95 TO EB RT 100 RAMP",
+        "MADDR:I 95 TO RT 100 RAMP",
+        "CITY:ELKRIDGE",
+        "CALL:RESCUE-TRAPPED",
+        "TIME:16:12:42",
+        "BOX:095032",
+        "INFO:PT EXTRICATED");
+
+    doTest("T7",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Wednesday, August 01, 2012 5:06:51 PM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12021972 SB I95 TO EB RT 100 RAMP ELK TYPE: RESCUE-TRAPPED @ 16:12:42 BEAT/BOX: 095032   INJURED  FF  TRANPORTED TO HCGH P3",
+
+        "ID:F12021972",
+        "ADDR:SB I95 TO EB RT 100 RAMP",
+        "MADDR:I 95 TO RT 100 RAMP",
+        "CITY:ELKRIDGE",
+        "CALL:RESCUE-TRAPPED",
+        "TIME:16:12:42",
+        "BOX:095032",
+        "INFO:INJURED  FF  TRANPORTED TO HCGH P3");
+
+    doTest("T8",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Friday, August 03, 2012 9:45:28 AM\n" +
+        "To: OnCallPIO\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12022137 7246 CRADLEROCK WAY ES ECOL: @OWEN BROWN INTERFAITH CENTER TYPE: INVPKG-default @ 09:14:05 BEAT/BOX: 1032",
+
+        "ID:F12022137",
+        "ADDR:7246 CRADLEROCK WAY ES",
+        "CITY:COLUMBIA",
+        "PLACE:OWEN BROWN INTERFAITH CENTER",
+        "CALL:INVPKG-default",
+        "TIME:09:14:05",
+        "BOX:1032");
+
+    doTest("T9",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Friday, August 03, 2012 9:45:28 AM\n" +
+        "To: OnCallPIO\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12022137 7246 CRADLEROCK WAY ES ECOL: @OWEN BROWN INTERFAITH CENTER TYPE: INVPKG-default @ 09:14:05 BEAT/BOX: 1032",
+
+        "ID:F12022137",
+        "ADDR:7246 CRADLEROCK WAY ES",  // Not mapping - ES??
+        "CITY:COLUMBIA",
+        "PLACE:OWEN BROWN INTERFAITH CENTER",
+        "CALL:INVPKG-default",
+        "TIME:09:14:05",
+        "BOX:1032");
+
+    doTest("T10",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Sunday, August 05, 2012 7:26:22 PM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12022371 8731 WEATHERED STONE WAY LAUR TYPE: FIRE-HOUSE @ 16:55:33 BEAT/BOX: 0613:CMD FIRE OUT. RED CROSS NOTIFIED.",
+
+        "ID:F12022371",
+        "ADDR:8731 WEATHERED STONE WAY",
+        "CITY:LAUREL",
+        "CALL:FIRE-HOUSE",
+        "TIME:16:55:33",
+        "BOX:0613:CMD",
+        "INFO:FIRE OUT. RED CROSS NOTIFIED.");
+
+    doTest("T11",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Wednesday, August 08, 2012 12:48:55 PM\n" +
+        "To: OnCallPIO\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12022676 1430 WOODSTOCK RD WDSK: EST TYPE: RAIL-FREIGHT @ 12:46:47 BEAT/BOX: 0814",
+
+        "ID:F12022676",
+        "ADDR:1430 WOODSTOCK RD", 
+        "CITY:WOODSTOCK",
+        "CALL:RAIL-FREIGHT",
+        "TIME:12:46:47",
+        "BOX:0814");
+
+    doTest("T12",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Wednesday, August 08, 2012 12:48:55 PM\n" +
+        "To: OnCallPIO\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12022676 1430 WOODSTOCK RD WDSK: EST TYPE: RAIL-FREIGHT @ 12:46:47 BEAT/BOX: 0814",
+
+        "ID:F12022676",
+        "ADDR:1430 WOODSTOCK RD",
+        "CITY:WOODSTOCK",
+        "CALL:RAIL-FREIGHT",
+        "TIME:12:46:47",
+        "BOX:0814");
+
+    doTest("T13",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Wednesday, August 08, 2012 12:57:35 PM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12022676 1430 WOODSTOCK RD WDSK: EST TYPE: RAIL-FREIGHT @ 12:46:47 ONE CLORINE CAR DERAILED - NOT LEAKING - STILL INVESTIGATING",
+
+        "ID:F12022676",
+        "ADDR:1430 WOODSTOCK RD",
+        "CITY:WOODSTOCK",
+        "CALL:RAIL-FREIGHT",
+        "TIME:12:46:47");
+
+    doTest("T14",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Wednesday, August 08, 2012 1:00:51 PM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: P122210218 1430 WOODSTOCK RD WDSK: EST TYPE: RAIL-FREIGHT @ 12:46:47 Evacuations of the immeadiate area - HCFR and POLICE are on the scene.",
+
+        "ID:P122210218",
+        "ADDR:1430 WOODSTOCK RD",
+        "CITY:WOODSTOCK",
+        "CALL:RAIL-FREIGHT",
+        "TIME:12:46:47");
+
+    doTest("T15",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Thursday, August 09, 2012 3:16:08 PM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12022792 CLARKSVILLE PK/WAINWRIGHT RD HIGH TYPE: RESCUE-TRAPPED @ 14:59:52 BEAT/BOX: 0508 1 SUBJECT TRAPED TROOPER ENROUTE",
+
+        "ID:F12022792",
+        "ADDR:CLARKSVILLE PK & WAINWRIGHT RD",
+        "MADDR:CLARKSVILLE PIKE & WAINWRIGHT RD",
+        "CITY:HIGHLAND",
+        "CALL:RESCUE-TRAPPED",
+        "TIME:14:59:52",
+        "BOX:0508",
+        "INFO:1 SUBJECT TRAPED TROOPER ENROUTE");
+
+    doTest("T16",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Thursday, August 09, 2012 4:34:36 PM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12022805 BALTIMORE NATIONAL PK EB/ROGERS AVE EC TYPE: RESCUE-TRAPPED @ 16:27:12 BEAT/BOX: 0242 DUMP TRUCK OVERTURNED 1 P1 1 P2",
+
+        "ID:F12022805",
+        "ADDR:BALTIMORE NATIONAL PK EB & ROGERS AVE",
+        "MADDR:BALTIMORE NATIONAL PIKE & ROGERS AVE",
+        "CITY:ELLICOTT CITY",
+        "CALL:RESCUE-TRAPPED",
+        "TIME:16:27:12",
+        "BOX:0242",
+        "INFO:DUMP TRUCK OVERTURNED 1 P1 1 P2");
+
+    doTest("T17",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Sunday, August 12, 2012 6:18:58 AM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12023058 5141 BRITTEN LN EC TYPE: FIRE-HOUSE @ 06:07:27 BEAT/BOX: 0232  ATTACHED GARAGE WORKING FIRE",
+
+        "ID:F12023058",
+        "ADDR:5141 BRITTEN LN",
+        "CITY:ELLICOTT CITY",
+        "CALL:FIRE-HOUSE",
+        "TIME:06:07:27",
+        "BOX:0232",
+        "INFO:ATTACHED GARAGE WORKING FIRE");
+
+    doTest("T18",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Sunday, August 12, 2012 6:22:27 AM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12023058 5141 BRITTEN LN EC TYPE: BC2 FIRE IN GARAGE ONLY",
+
+        "ID:F12023058",
+        "ADDR:5141 BRITTEN LN",
+        "CITY:ELLICOTT CITY",
+        "CALL:BC2 FIRE IN GARAGE ONLY");
+
+    doTest("T19",
+        "\n-------------------------------------------\n" +
+        "From: I/Page CAD[SMTP:HC1@HOWARDCOUNTYMD.GOV]\n" +
+        "Sent: Sunday, August 12, 2012 6:39:16 AM\n" +
+        "To: Walton, Douglas\n" +
+        "Auto forwarded by a Rule\n\n" +
+        "EVENT: F12023058 5141 BRITTEN LN EC TYPE: FIRE-HOUSE @ 06:07:27 BEAT/BOX: 0232:  CMD ADVISING FIRE OUT.",
+
+        "ID:F12023058",
+        "ADDR:5141 BRITTEN LN",
+        "CITY:ELLICOTT CITY",
+        "CALL:FIRE-HOUSE",
+        "TIME:06:07:27",
+        "BOX:0232:",
+        "INFO:CMD ADVISING FIRE OUT.");
+
   }
   
   public static void main(String[] args) {

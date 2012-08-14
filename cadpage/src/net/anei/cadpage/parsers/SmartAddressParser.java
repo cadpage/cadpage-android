@@ -947,7 +947,7 @@ public abstract class SmartAddressParser extends MsgParser {
       }
       
       // See if this is a two part route name
-      while (sAddr > 0 && !isType(sAddr-1, ID_NOT_ADDRESS | ID_CONNECTOR) && 
+      while (sAddr > start && !isType(sAddr-1, ID_NOT_ADDRESS | ID_CONNECTOR) && 
           (isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX) ||
            isType(sAddr, ID_AMBIG_ROAD_SFX))) {
         sAddr--;
