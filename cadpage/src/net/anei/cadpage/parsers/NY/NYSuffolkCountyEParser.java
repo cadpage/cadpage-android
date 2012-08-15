@@ -54,7 +54,7 @@ FROM RELAY 1355 ROANOKE AVE APT 8 FEMALE ABDOMINAL
 public class NYSuffolkCountyEParser extends SmartAddressParser {
 
   private static final Pattern MARKER = Pattern.compile("^(?:/[A-Z ]*RELAY */|(?:FROM )?RELAY )");
-  private static final Pattern DELIM = Pattern.compile(" *\n *|  +| *(?<!XS)[,:]+ *");
+  private static final Pattern DELIM = Pattern.compile(" *[\n;] *|  +| *(?<!XS)[,:]+ *");
   private static final Pattern OFF_OF = Pattern.compile("\\bOFF OF\\b");
   
   public NYSuffolkCountyEParser() {
@@ -118,6 +118,10 @@ public class NYSuffolkCountyEParser extends SmartAddressParser {
       for (pt++; pt < flds.length; pt++) {
         data.strSupp = append(data.strSupp, " - ", flds[pt]);
       }
+    }
+    
+    if (data.strAddress.endsWith(" IN")) {
+      data.strAddress = data.strAddress.substring(0,data.strAddress.length()-3).trim();
     }
     
     return true;
