@@ -66,10 +66,10 @@ Unfortunately, your PayPal account is most likely not how Cadpage knows you. Ple
 Run through the Payment status > I've made a PayPal Payment > Send Email 
 sequence to send us an email with the correct email account we need to register.
 
-Your Payment status should change when you load the next Cadpage version.  You can temporarily disable the release checks until you can install the next version as follows:
+Your Payment status should change when you load the next Cadpage version.  You can extend the current demo by 30 days as follows:
 
 Go into Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-RLABPPBA or rlabppba.  This is a time-sensitive code and will expire within about 48 hours.  Once you use it, will be good for only about 2 weeks.
+OJBGYOAA or ojbgyoaa.  This is a time-sensitive code and will expire within about 48 hours.  Once you use it, will be good for only about 2 weeks.
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -274,15 +274,6 @@ Jean -- Assistant to Ken Corbin
 ******************************************************************
 ** Release info
 ******************************************************************
-******************************************************************
-
-This will be fixed in the next release.  I thought it was a once in a blue moon event, but this will be the third report.  Looks like I need to publish a special release to fix it.
-
-If you don't want to wait, you can install the  beta release from http://www.cadpage.org/download-cadpage tomorrow morning.
-
-Have a nice day,
--Ken
-
 ******************************************************************
 
 This will be fixed in the next release.  
