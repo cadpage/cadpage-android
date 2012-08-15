@@ -43,14 +43,25 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    
-    doTest(PLACE, FLAG_AT_BOTH | FLAG_ANCHOR_END, "515 FLETCHWOOD RD @WAREHOUSE S",
-           "ADDR:515 FLETCHWOOD RD",
-           "PLACE:WAREHOUSE S");
   }
   
   @Test
   public void testProblems() {
+    
+    doTest(ADDR, "22030 OXFORD CT APT",
+        "ADDR:22030 OXFORD CT");
+    
+    doTest(ADDR, FLAG_ANCHOR_END | FLAG_CHECK_STATUS, "1053 OLD COUNTRY RD PEARLE VISION CENTER",
+        "ADDR:1053 OLD COUNTRY RD PEARLE VISION CENTER");
+    
+    doTest(CALL, FLAG_PAD_FIELD | FLAG_ANCHOR_END, "Not Breathing 263 MORGANS CHOICE RD ken town",
+        "CALL:Not Breathing",
+        "ADDR:263 MORGANS CHOICE RD",
+        "CITY:ken town");
+    
+    doTest(PLACE, "167000 INTERSTATE 81 KENSBURG",
+        "ADDR:167000 INTERSTATE 81",
+        "CITY:KENSBURG");
     
     doTest(PLACE, "5009 PINE VIEW DR / PINE WOOD DR 7-23",
         "ADDR:5009 PINE VIEW DR",

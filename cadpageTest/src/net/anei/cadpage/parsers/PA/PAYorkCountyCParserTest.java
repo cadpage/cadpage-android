@@ -128,6 +128,7 @@ public class PAYorkCountyCParserTest extends BaseParserTest {
         "Subject:Station 41\n  1972 W  PHILADELPHIA ST \r\nCommon Name  STOUGH DENTAL LAB\r\n   \r\n\r\n     FIRE STRUCT RESID\r\n\r\n\r",
         "SRC:Station 41",
         "ADDR:1972 W  PHILADELPHIA ST",
+        "PLACE:STOUGH DENTAL LAB",
         "CALL:FIRE STRUCT RESID");
 
     doTest("T7",
