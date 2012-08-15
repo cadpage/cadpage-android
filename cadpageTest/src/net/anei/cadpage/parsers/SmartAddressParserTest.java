@@ -43,24 +43,13 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    doTest(ADDR, FLAG_OPT_STREET_SFX, "w lake and n hagadorn   washdown   at scene of pda",
-        "ADDR:w lake and n hagadorn");
-  }
-  
-  @Test
-  public void testOptStreetSfx() {
-    doTest(SKIP, FLAG_OPT_STREET_SFX, "SUNSHINE CITY 300 BLACK CAT",
-          "ADDR:300 BLACK");
-    doTest(SKIP, FLAG_OPT_STREET_SFX, "SUNSHINE CITY 300 PAUL G GETTY CAT",
-        "ADDR:300 PAUL G GETTY");
-    doTest(SKIP, FLAG_OPT_STREET_SFX, "SUNSHINE CITY JEAN GOUL & PAUL G GETTY DUMB STUFF",
-        "ADDR:JEAN GOUL & PAUL G GETTY");
-    doTest(SKIP, FLAG_OPT_STREET_SFX, "25376 potomac elderly male fell hit head is conscious",
-        "ADDR:25376 potomac");
   }
   
   @Test
   public void testProblems() {
+    
+    doTest(PLACE, "5009 PINE VIEW DR / PINE WOOD DR 7-23",
+        "ADDR:5009 PINE VIEW DR");
     
     doTest(ADDR, FLAG_CROSS_FOLLOWS, "WHITE TAIL DR / FAIRWAY DR 9999 FAIRWAY DR//SOMETHING IN THE MIDDLE OF THE STREET IS ON FIRE/UNK WHAT",
         "ADDR:WHITE TAIL DR & FAIRWAY DR",
@@ -797,6 +786,20 @@ public class SmartAddressParserTest extends BaseParserTest {
         "CALL:EMS-UNCONSCIOUS",
         "PLACE:JOES BAR",
         "ADDR:100 BLACK ST");
+  }
+  
+  @Test
+  public void testOptStreetSfx() {
+    doTest(SKIP, FLAG_OPT_STREET_SFX, "SUNSHINE CITY 300 BLACK CAT",
+          "ADDR:300 BLACK");
+    doTest(SKIP, FLAG_OPT_STREET_SFX, "SUNSHINE CITY 300 PAUL G GETTY CAT",
+        "ADDR:300 PAUL G GETTY");
+    doTest(SKIP, FLAG_OPT_STREET_SFX, "SUNSHINE CITY JEAN GOUL & PAUL G GETTY DUMB STUFF",
+        "ADDR:JEAN GOUL & PAUL G GETTY");
+    doTest(SKIP, FLAG_OPT_STREET_SFX, "25376 potomac elderly male fell hit head is conscious",
+        "ADDR:25376 potomac");
+    doTest(ADDR, FLAG_OPT_STREET_SFX, "w lake and n hagadorn   washdown   at scene of pda",
+        "ADDR:w lake and n hagadorn");
   }
   
   @Override
