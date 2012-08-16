@@ -294,7 +294,19 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "ADDR:4500 BEAVER MEADOW RD",
         "CITY:VERNON",
         "X:COOPER ST/ROUTE 5");
-    
+  }
+  
+  @Test
+  public void testChrisHannon() {
+
+    doTest("T1",
+        "FRM:messaging@iamresponding.com\nSUBJ:CANFD\nMSG:CANFD:2012:171\r\nDispatched\r\nPole/Wires\r\nN MAIN , CANASTOTA VILLAGE",
+        "SRC:CANFD",
+        "ID:2012:171",
+        "CALL:Pole/Wires",
+        "ADDR:N MAIN",
+        "CITY:CANASTOTA VILLAGE");
+
   }
   
   public static void main(String[] args) {

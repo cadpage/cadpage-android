@@ -4064,14 +4064,6 @@ Contact: Michael Herndon <mherndonffemt@gmail.com>
 Sender: swpage@vameck911.comcastbiz.net
 (MECK 911) 12-001451 SUBJECT FALLEN\n5539 HIGHWAY FORTY-SEVEN\n//\nCHASE CITY NURSING AND REHAB CENTER  MECK CO\nCCRS
 **********************************************************
-Dothan, AL (Alternate form from same dispatch)
-Contact: Jacob Wozow <jwozow06@gmail.com>
-Sender: Robot.ALERT@dothan.org
-MEDICAL CALL - NON-EMERGENCY 163 COPPERHEAD RD - STAGE UNTIL LAW ENFORCEMENT ON SCENE...COMM CTR
-GRASS FIRE     3271 FOWLER RD, LOVETOWN ....C19
-C'WOOD RESCUE REQ LIFTING ASSISTANCE AT 456 HOUSTON ST
-MVC - NO INJ IN FRONT OF CWOOD ASSY OF GOD 11271 COTTONWOOD...2 VEHLS  PU/VAN
-**********************************************************
 Boone County, KY
 Contact: "rbailey74@gmail.com" <rbailey74@gmail.com>, 8597435533@messaging.sprintpcs.com
 Sender: pscc@boonecountyky.org
@@ -4868,6 +4860,7 @@ Sender: textmsg@ballardsvillefire.com
 [133685]- NATURE: FIRE,STRUCTURE LOCATION: 3001 W HWY 146 LA GRANGE BETWEEN KINGS LN / PARKER (KSR ENTRANCE) DR COMMENTS : HEAVY SMOKE IN DORM ONE
 [072502]- NATURE: FIRE,ALARM RESIDENTIAL LOCATION: 6908 COLT ON RD CRESTWOOD BETWEEN COLTON CT / DEAD END ACCESS BY CRO SS RUN DR COMMENTS: FIRE ALARM
 [106873]- NATURE: FIRE,STRUCTURE LOCATION: 1025 NEW MOODY LN LAGRANGE BETWEEN EDEN PKWY / SANIBEL WAY ACCESS BY S 1ST
+[031438]- NATURE: EMS CALL LOCATION: 3016 ANN TRESE CV LAGRA NGE BETWEEN DEAD END / S HWY 53 ACCESS BY E HWY 22 OR S HW Y 53 COMMENTS: 55YOM ACTIVE SZ
 **********************************************************
 Keene Mutual Aid (VT & NH)
 Contact: Nick Cushman <flame05154@gmail.com>
@@ -4909,8 +4902,16 @@ Working Fire at 1401 ORANGE AVE NW
 Working Fire at 2802 COLONIAL AVE SWAPT 16
 Working Fire at 5046 WILLIAMSON RD NW
 **********************************************************
-Dothan, AL
-Free form text from dispatch center :(
+**********************************************************
+Dothan, AL 
+Contact: Jacob Wozow <jwozow06@gmail.com>
+Sender: Robot.ALERT@dothan.org
+MEDICAL CALL - NON-EMERGENCY 163 COPPERHEAD RD - STAGE UNTIL LAW ENFORCEMENT ON SCENE...COMM CTR
+GRASS FIRE     3271 FOWLER RD, LOVETOWN ....C19
+C'WOOD RESCUE REQ LIFTING ASSISTANCE AT 456 HOUSTON ST
+MVC - NO INJ IN FRONT OF CWOOD ASSY OF GOD 11271 COTTONWOOD...2 VEHLS  PU/VAN
+
+Sender: Chad Proctor <xyi9130@gmail.com>
 S38A 4375 CO RD 203 LOT 15 55YOF NOT BREATHING CPR IN PROGRESS
 S38A 1024 METCALF ST APT1 81YOF DIFF BREATHING..
 MED EMERG 14277 CW RD   33YOF  SEVERE HEADACHES   HX OF MIGRAINES....C19
@@ -4921,6 +4922,7 @@ med call emerg @ 42 wood st intersx cwood rd/johnson st ref 1yof choking unk obj
 MED EMERG AT 12280 COTTONWOOD RD IN COTTONWOOD SUBJ HAS FALLEN...COMM
 MEDICAL CALL COTTONWOOD RD/SEALY WELLS 56YOM DISORIENTED-DIABETICS
 PERSON  DOWN  6001  S CR 55  POSS S44
+S38A  432  PHILLIP RD..C2
 **********************************************************
 *********************************************************
 Kent County, DE (alternate)

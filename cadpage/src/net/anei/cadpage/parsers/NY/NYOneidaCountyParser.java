@@ -81,6 +81,9 @@ Contact: opie286 <opie286@gmail.com>
 Sender: messaging@iamresponding.com
 (Vernon Fire/Rescue) VENF:2012:0079 ;Dispatched ;19C04 - CARDIAC HISTORY ;4500 BEAVER MEADOW RD, VERNON (COOPER ST/ROUTE 5)
 
+Contact: CHRIS HANNAN <fire56ch@yahoo.com>
+Sender: messaging@iamresponding.com
+FRM:messaging@iamresponding.com\nSUBJ:CANFD\nMSG:CANFD:2012:171\r\nDispatched\r\nPole/Wires\r\nN MAIN , CANASTOTA VILLAGE
  
 ** NOT IMPLEMENTED **
 FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WESTMORELAND/W MAIN ST (COUNTY ROUTE 23), WESTMORELAND

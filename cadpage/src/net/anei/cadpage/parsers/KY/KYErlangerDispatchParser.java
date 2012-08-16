@@ -6,6 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA1Parser;
 Erlanger Dispatch, KY (in Kenton County)
 Contact: "Jeremy Sheehan" <jsheehan@elsmerefd.com>
 Sender: pscc@ci.erlanger.ky.us
+Sender: administrator@erlangerpd.com
 
 (Alert: Fire Structure) ALRM LVL: 1\nLOC:\n709 ORCHARD ST\nELSMERE\nBTWN: MAIN ST & LYTLE AV\n\nRCVD AS E-911 Call\n\nCOM:\nSMOKE FILLED BASEMENT\nHEARD A POP\n\nCT:\n22-
 (Alert: Fire Structure) ALRM LVL: 1\nLOC:\n3812 HARVEST WY\nELSMERE\nBTWN: HARVEST LN & N/A
@@ -39,6 +40,6 @@ public class KYErlangerDispatchParser extends DispatchA1Parser {
   
   @Override
   public String getFilter() {
-    return "pscc@ci.erlanger.ky.us";
+    return "pscc@ci.erlanger.ky.us,administrator@erlangerpd.com";
   }
 }

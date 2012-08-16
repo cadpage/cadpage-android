@@ -61,7 +61,20 @@ public class FLCrestviewParserTest extends BaseParserTest {
         "DATE:07/01/2012",
         "TIME:13:16:45",
         "INFO:53 yo male having seizures");
-    
+
+    doTest("T5",
+        "Call_Number: 2278 | Inc_Number:  | Units: CFD,Ladder 3, | Complaint: EMS DELTA | Location: Walnut -E Ave  (100-901) | Address:  EWalnut AVE  | Disposition:  | Box: 1 | Time_Dispatched: 2012-08-14 21:17:37 | Narrative: 645 E Walnut Ave for unconscious pt | This_Unit: Ladder 3 ",
+        "ID:2278",
+        "UNIT:CFD,Ladder 3",
+        "CALL:EMS DELTA",
+        "PLACE:Walnut -E Ave  (100-901)",
+        "ADDR:EWalnut AVE",
+        "MADDR:Walnut -E Ave  (100-901),EWalnut AVE",
+        "BOX:1",
+        "DATE:08/14/2012",
+        "TIME:21:17:37",
+        "INFO:645 E Walnut Ave for unconscious pt");
+   
   }
   
   public static void main(String[] args) {
