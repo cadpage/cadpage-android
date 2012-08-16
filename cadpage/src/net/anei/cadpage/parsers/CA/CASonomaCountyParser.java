@@ -44,6 +44,7 @@ Loc: 1850 SPERRING RD SCH BOX: 3759 B1 CN: STANLEY 877 476 4968 C#: (707) 933-93
 Loc: 800 OREGON ST SO: @MERRILL GARDENS,266 BOX: 3660 B4 CN: DOMOGALLA VERN F C#: (707) 996-8354 TYP: SER-PA CALLER ADDR: 800 OREGON TIME: 09:52:45 COM:  AP
 Loc: 5500 WILSHIRE DR MWS BOX: 2649 B2 CN: VERIZON WIRELESS 800 451 5242 4 C#: (707) 326-5961 TYP: VEG CALLER ADDR: 2201 NEWGATE CT S RS TIME: 16:25:22 COM:
 Loc: 237 GROVE ST WI BOX: 2443 B2 CN: VERIZON WIRELESS 800 451 5242 4 C#: (707) 479-6714 TYP: STRU CALLER ADDR: 2450 SWEETWATER SPRINGS RD HBG TIME: 17:29:5
+Loc: CORBY AV/TALMADGE DR SR:NEW CONSTRUCTION BOX: 3149 A2 CN: SPRINT NEXTEL-IDEN 866-398-3284 C#: (415) 760-0590 TYP: GAS-OUT CALLER ADDR: 800 WARRINGTON R
 
 Contact: stephen heine <stevesrf@gmail.com>, Steve <sjheine@comcast.net>
 Sender: messaging@iamresponding.com
@@ -88,15 +89,15 @@ public class CASonomaCountyParser extends FieldProgramParser {
     return true;
   }
   
+  private static final Pattern PLACE_MARKER = Pattern.compile(" *: *@? *");
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String fld, Data data) {
-      fld = fld.replaceAll(": @", ":@");
-      int pt = fld.indexOf(":@");
-      if (pt >= 0) {
-        data.strPlace = fld.substring(pt+2).trim();
-        fld = fld.substring(0,pt).trim();
+      Matcher match = PLACE_MARKER.matcher(fld);
+      if (match.find()) {
+        data.strPlace = fld.substring(match.end());
+        fld = fld.substring(0,match.start());
       }
       if (fld.length() <= 3) {
         data.strSource = fld;
@@ -104,7 +105,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
         data.strPlace = "";
       }
       
-      pt = fld.lastIndexOf(',');
+      int pt = fld.lastIndexOf(',');
       if (pt >= 0) {
         data.strApt = fld.substring(pt+1).trim();
         fld = fld.substring(0, pt);

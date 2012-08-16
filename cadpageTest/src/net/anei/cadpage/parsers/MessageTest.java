@@ -9,6 +9,16 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("PABerksCounty",
+        "ken@cadpage.org",
+        "",
+        "Subject:1/2\nUnit:M590B Status:Dispatched ALS TRAUMA ; 120 TREXLER AVE RM 146W ; KUTZTOWN MANOR; CONSTITUTION BLVD / NOBLE ST",
+        "ken@cadpage.org",
+        "",
+        "Unit:M590B Status:Dispatched ALS TRAUMA ; 120 TREXLER AVE RM 146W ; KUTZTOWN MANOR; CONSTITUTION BLVD / NOBLE ST",
+        1, 2);
+
+    
     doParseTest("MDHowardCounty",
         "ken@cadpage.org",
         "FW: ",

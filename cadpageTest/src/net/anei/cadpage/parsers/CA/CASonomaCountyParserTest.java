@@ -347,6 +347,18 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "PHONE:(707) 479-6714",
         "TIME:17:29");
 
+    doTest("T30",
+        "Loc: CORBY AV/TALMADGE DR SR:NEW CONSTRUCTION BOX: 3149 A2 CN: SPRINT NEXTEL-IDEN 866-398-3284 C#: (415) 760-0590 TYP: GAS-OUT CALLER ADDR: 800 WARRINGTON R",
+        "ADDR:CORBY AV & TALMADGE DR",
+        "MADDR:CORBY AVE & TALMADGE DR",
+        "PLACE:NEW CONSTRUCTION",
+        "CITY:SANTA ROSA",
+        "SRC:SR",
+        "BOX:3149 A2",
+        "CALL:GAS-OUT",
+        "NAME:SPRINT NEXTEL-IDEN 866-398-3284",
+        "PHONE:(415) 760-0590");
+
  }
   
   @Test
