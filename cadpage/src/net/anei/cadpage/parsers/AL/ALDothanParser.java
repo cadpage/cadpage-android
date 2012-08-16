@@ -59,11 +59,6 @@ Contact: Ben turner <bald7genie@gmail.com>
 Sender: Robot.ALERT@dothan.org
 12:43:12/S38B-Medical Call-Code III-Emergy/803 CHINOOK ST/DOTHAN/13956428/MALE SUBJ SOB/
 
-** NOT IMPLEMENTED **
-S38A 4375 CO RD 203 LOT 15 55YOF NOT BREATHING CPR IN PROGRESS
-S38A 1024 METCALF ST APT1 81YOF DIFF BREATHING..
-MED EMERG 14277 CW RD   33YOF  SEVERE HEADACHES   HX OF MIGRAINES....C19
-
 */
 public class ALDothanParser extends FieldProgramParser {
   
@@ -80,7 +75,7 @@ public class ALDothanParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseFields(body.split("/"), data);
+    return parseFields(body.split("/"), 4, data);
   }
   
   private class TimeField extends SkipField {

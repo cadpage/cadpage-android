@@ -151,14 +151,33 @@ public class TXMontgomeryCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CL",   "CLEVELAND",
       "CR",   "CONROE",
+      "CS",   "CUT N SHOOT",
+      "HC",   "HARRIS COUNTY",
+      "HL",   "HOCKLEY",
+      "HO",   "HOUSTON",
+      "KW",   "KINGWOOD",
+      "MA",   "MAGNOLIA",
       "MO",   "MONTGOMERY",
       "NC",   "NEW CANEY",
-      "OR",   "OAK RIDGE",
+      "OR",   "OAK RIDGE NORTH",
       "PG",   "PATTON VILLAGE",
+      "PV",   "PANORAMA VILLAGE",
+      "PH",   "PINEHURST",
+      "PO",   "PORTER",
+      "RI",   "RICHARDS",
       "RF",   "ROMAN FOREST",
       "SC",   "SPRING",
+      "SH",   "SHENANDOAH",
       "SP",   "SPLENDORA",
-      "WD",   "WOODLANDS"
+      "SG",   "SPRING",
+      "ST",   "STAGECOACH",
+      "TL",   "TIMBER LAKES",
+      "WD",   "THE WOODLANDS",
+      "WI",   "WILLIS",
+      "WB",   "WOODBRANCH VILLAGE",
+      "WH",   "WOODLOCH",
+
   });
 }

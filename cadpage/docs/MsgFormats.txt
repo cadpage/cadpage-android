@@ -3613,7 +3613,8 @@ to: F22
 Berkley County, WV
 Contact: Keith Baker <keithbakerwv@gmail.com>
 Sender: alert@berkeleywv.org
-Subject:Alert\nDescription:FUEL CON SM\nAddress: 14000 I-81 \nMARTINSBURG\n\n**********************************************************
+Subject:Alert\nDescription:FUEL CON SM\nAddress: 14000 I-81 \nMARTINSBURG\n\n
+**********************************************************
 Kannapolis, NC (In Rowan & Cabarrus counties)
 Contact: "Ernie Hiers" <ehiers@cityofkannapolis.com>
 Sender: 93001048
@@ -4908,6 +4909,18 @@ Working Fire at 1401 ORANGE AVE NW
 Working Fire at 2802 COLONIAL AVE SWAPT 16
 Working Fire at 5046 WILLIAMSON RD NW
 **********************************************************
+Dothan, AL
+Free form text from dispatch center :(
+S38A 4375 CO RD 203 LOT 15 55YOF NOT BREATHING CPR IN PROGRESS
+S38A 1024 METCALF ST APT1 81YOF DIFF BREATHING..
+MED EMERG 14277 CW RD   33YOF  SEVERE HEADACHES   HX OF MIGRAINES....C19
+medical call emergency 597 sealy wells rd apt 14 -- 17 month old female severe pain in right ear
+MEDICAL CALL EMERGENCY - 424 B J MIXON RD - 62 YOA MALE - BLEEDING LEFT ARM...COMM CTR
+S38A 1024 METCALF ST APT1 81YOF DIFF BREATHING..
+med call emerg @ 42 wood st intersx cwood rd/johnson st ref 1yof choking unk object~~breathing~~(backup enroute per 3537)
+MED EMERG AT 12280 COTTONWOOD RD IN COTTONWOOD SUBJ HAS FALLEN...COMM
+MEDICAL CALL COTTONWOOD RD/SEALY WELLS 56YOM DISORIENTED-DIABETICS
+PERSON  DOWN  6001  S CR 55  POSS S44
 **********************************************************
 *********************************************************
 Kent County, DE (alternate)
