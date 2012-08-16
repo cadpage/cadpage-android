@@ -139,7 +139,7 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "UNIT:E113",
         "ADDR:27430 ROBINSON RD",
         "PLACE:ST 113 S MONT CO FIRE",
-        "CITY:OAK RIDGE",
+        "CITY:OAK RIDGE NORTH",
         "X:27254 BL");
 
     doTest("T16",
@@ -175,7 +175,7 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:10C01-CHEST PAIN - Abnormal Breathing",
         "UNIT:B113",
         "ADDR:319 PINE MANOR DR",
-        "CITY:OAK RIDGE",
+        "CITY:OAK RIDGE NORTH",
         "X:27072 N HARLAN L");
 
     doTest("T20",
@@ -262,7 +262,7 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "UNIT:TK10",
         "ADDR:10510 SIX PINES DR",
         "PLACE:TAMARAC PINES APTS",
-        "CITY:WOODLANDS",
+        "CITY:THE WOODLANDS",
         "X:1800");
 
     doTest("T30",
@@ -331,7 +331,7 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "UNIT:E113",
         "ADDR:I45 N & ROBINSON RD",
         "MADDR:I 45 N & ROBINSON RD",
-        "CITY:OAK RIDGE",
+        "CITY:OAK RIDGE NORTH",
         "X:27000 I45 N");
 
     doTest("T7",
@@ -412,7 +412,7 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "UNIT:E113",
         "ADDR:I45 N & ROBINSON RD",
         "MADDR:I 45 N & ROBINSON RD",
-        "CITY:OAK RIDGE",
+        "CITY:OAK RIDGE NORTH",
         "X:27000 I45 N");
 
     doTest("T17",

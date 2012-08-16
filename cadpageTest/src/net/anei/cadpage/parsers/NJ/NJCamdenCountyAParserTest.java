@@ -719,6 +719,6 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NJCamdenCountyAParserTest().generateTests("T1");
+    new NJCamdenCountyAParserTest().generateTests("T4");
   }
 }
