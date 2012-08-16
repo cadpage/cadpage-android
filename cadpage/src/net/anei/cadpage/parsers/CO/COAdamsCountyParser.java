@@ -35,6 +35,7 @@ Subject:IPS I/Page Notification\n40200 E QUINCY AVE 18:40:46 TYPE CODE: NONSTR C
 
 Contact: support@active911.com
 (IPS I/Page Notification) 8055 WASHINGTON ST ADAM ADAM: @STATION 31 13:45:48 TYPE CODE: EMS CALLER NAME: FIL MARTINEZ TIME: 13:45:48 Comments:  TEST CARD
+[IPS I/Page Notification] I 70 WB/MM 317 01:47:54 TYPE CODE: STANDBY CALLER NAME: ARAP TIME: 01:47:54 Comments:  ** LOI search completed at 08/13/12 01:45:25 WB LANES .. EAST OF MM 317 REQ STRASBURG STANDBY FOR ALS FOR BYERS FIRE ROLLOVER VEH .. 1 PTY PINNED .. 1 EJECTED CHOPPER ON GROUND STAND BY PER TIFFANY .. ARAP COUNTY 800 AKN -- TONE BENN -- ALS UNAVAIL 711 REQ BENN START TONED 900 MED71 ENRT ON BYERS PRIM REQ TONE FOR DRIVER 2ND TONES FOR DRIVER 958 I / S 711 WILL HAVE COMMAND AIRLIFE IS AIRBORN STANDBY WILL BE LANDING STAC D 711 -- 2ND ROLLOVER ACCIDENT HALF MILE AWAY CRX ... 1 1 / 2 MILE AMB701 ENRT TO 711 LOCATION NEED EXTRICATION AND AN ALS AMB ** Cross Referenced to Event # BFD12000590 at: 08/13/12 01:45:25 ** >>>> by: JENNIFER WATTS on terminal: dp9 NEED 2 ALS AMB TONED 800 AMB81 - ENRT ALS X 3 BYERS-- NEED 2 AMB TO RESPOND ALS SAYING THEY NEED ALL AMB AVAIL AMB81 - 2ND TONES FOR ACCIDENT\r\n\r\n\r\n
 
  */
 
@@ -90,7 +91,13 @@ public class COAdamsCountyParser extends FieldProgramParser {
         field = field.substring(0,pt).trim();
         if (sPlace.startsWith("@")) sPlace = sPlace.substring(1).trim();
       }
-      parseAddress(StartType.START_ADDR, field.replace(',', ' '), data);
+      
+      pt = field.lastIndexOf(',');
+      if (pt >= 0) {
+        data.strApt = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+      }
+      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
       if (sPlace != null) {
         String sCross = null;
         pt = sPlace.indexOf('/');
@@ -107,7 +114,7 @@ public class COAdamsCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ADDR APT PLACE CITY";
+      return "ADDR CITY APT PLACE";
     }
   }
   
@@ -128,7 +135,8 @@ public class COAdamsCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "ADAM ADAM", "",
-      "ADAM CCPD", "",
+      "ADAM AUR",  "AURORA",
+      "ADAM CCPD", "COMMERCE CITY",
       "ARAP ARAP", "ARAPAHOE COUNTY"
   });
 }
