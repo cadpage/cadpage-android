@@ -1614,7 +1614,7 @@ $ // free_2012_list
 %%01/09/2012
 >>Jason Overholt <jkoverholt@gmail.com>
 >>Mike Stadelman <infernoballz@gmail.com>
->>"Hillerman, Scott" (firechief371@gmail.com)<shillerman@mobilemedical.org>
+>>"Hillerman, Scott" (firechief371@gmail.com) <shillerman@mobilemedical.org>
 %%01/10/2012
 >>Bob Snover (rjsnoverjr@gmail.com)<rjsnover@hotmail.com>
 >>Kevin Dann <kdann210@gmail.com>
@@ -2745,4 +2745,9 @@ Steve Smith <gfr214@gmail.com>
 Nick Bonacci <firehwk123@gmail.com>
 Chad Hester <cwhnsmtily20@gmail.com>
 zach forney <brimfieldfire108@gmail.com>
-Jonathan Cummings (nycfyrman@gmail.c) <pvfd102@yahoo.com>
+Jonathan Cummings (nycfyrman@gmail.com) <pvfd102@yahoo.com>
+%%08/16/2012
+Bob Harris <bobharris69@gmail.com>
+James Walsh <tinywalsh121@gmail.com>
+Spencer Getz <spencer.getz@gmail.com>
+Josh Hines <josh36530@gmail.com>
