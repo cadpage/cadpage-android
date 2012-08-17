@@ -29,7 +29,7 @@ public class TNJeffersonCountyParser extends DispatchSouthernParser {
   
   @Override
   public String getFilter() {
-    return "DISPATCH@jeffersoncountytn.gov";
+    return "DISPATCH@jeffersoncountytn911.org";
   }
   
 
