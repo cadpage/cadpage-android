@@ -52,6 +52,15 @@ Atlanticare EMS, NJ (Atlantic & Cape May Counties)
 [NOPHI MEDCOM - part 1 of 1]  RC:Run# 54345/MICU/117 HARRISON AVE/x new rd/PLEASANTVILLE/09:36/////////<Unknown>
 [NOPHI MEDCOM - part 1 of 1]  RC:Run# 54374/MICU/301 W  DELILAH RD/U7/PLEASANTVILLE/12:08/////////<Unknown>
 
+Pierce County, WA
+(- part 1 of 1) RC:Run# 36872/Sick Person/<Unknown>/S 56TH ST & PACIFIC AVE///X=56th&55th/TACOMA// AVE//606//TACOMA/773 G5/\r\n\r\nThis is a confidential/proprietary communication intended for the add
+(- part 1 of 1) RC:Run# 45146/Unconscious/<Unknown>/6TH AVE & N STEVENS ST//behind 76 station/X=N Verde St&N Stevens St/TACOMA//\r\n\r\nThis is a confidential/propri
+(- part 1 of 1) RC:Run# 46137/Unknown/<Unknown>/6016 N HIGHLANDS PKWY//371//TACOMA/772 J4/\r\n\r\nThis is a confidential/proprietary communication intended for the a
+(- part 1 of 1) RC:Run# 45014/Sick Person/<Unknown>/919 FAWCETT AVE//606//TACOMA/773 G5/\r\n\r\nThis is a confidential/proprietary communication intended for the add
+(- part 1 of 1) RC:Run# 46129/Trauma/<Unknown>/2018 E WRIGHT AVE///X=E Roosevelt Ave/TACOMA//\r\n\r\nThis is a confidential/proprietary communication intended for th
+(- part 1 of 1) RC:Run# 46173/Unknown/<Unknown>/6316 S 12TH ST///X=Unknown Street with ID 1319802&S Whitman St/TACOMA//\r\n\r\nThis is a confidential/proprietary com
+(- part 1 of 1) RC:Run# 46237/MVA/<Unknown>/4215 S 30TH ST///X=S Tyler St/TACOMA//\r\n\r\nThis is a confidential/proprietary communication intended for the addressee
+
 */
 
 public class DispatchProQAParser extends FieldProgramParser {

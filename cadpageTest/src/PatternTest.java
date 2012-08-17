@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-      Pattern.compile("(?:([- A-Z0-9]+) )?(?:(?:Ds# ([^ ]*?) Al# ([^ ]*?) Utl# ([^ ]*?) )?(\\d\\d/\\d\\d/\\d\\d)|\\^ )");
+      Pattern.compile("RC:[-A-Z0-9]+/Run#\\d+/CALL:\\d\\d:\\d\\d/DISP:\\d\\d:\\d\\d/ENR:\\d\\d:\\d\\d/ATS:\\d\\d:\\d\\d/TRA:\\d\\d:\\d\\d.*");
   
   public static void main(String[] args) {
-    doTest("FIELD021 12 Ic# 11 FIELD021 Ds# 125001 Al# 1 Utl# 142-143 06/27/122 BYPASS HW PE <> ELM RDSOUTH SIDE OF ROAD - JUST E/O ELM 1147 TESTING 245 JUST TESTING DO NOT RESPOND");
+    doTest("RC:0038-A/Run#36872/CALL:03:32/DISP:03:32/ENR:03:33/ATS:03:37/TRA:03:45/ATD:0 3:53/PUZIP:98408/DO:St Joseph Hospital");
   }
   
   private static void doTest(String test) {
