@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-      Pattern.compile("RC:[-A-Z0-9]+/Run#\\d+/CALL:\\d\\d:\\d\\d/DISP:\\d\\d:\\d\\d/ENR:\\d\\d:\\d\\d/ATS:\\d\\d:\\d\\d/TRA:\\d\\d:\\d\\d.*");
+      Pattern.compile("Inc# (\\d+):(?:([^@]+)@)?(.+?), *([A-Z_]+) *:Map  ([^:]*): LAT/LONG X: ([-+ \\.\\d]+) +Y: ([-+ \\.\\d]+)");
   
   public static void main(String[] args) {
-    doTest("RC:0038-A/Run#36872/CALL:03:32/DISP:03:32/ENR:03:33/ATS:03:37/TRA:03:45/ATD:0 3:53/PUZIP:98408/DO:St Joseph Hospital");
+    doTest("(CAD Page) Inc# 007104: NATURAL BRIDGES @ =L(38.051636,-120.470996) ,CALAVERAS_COUNTY :Map  509/37B_005: LAT/LONG X: -120 28.2597  Y: 38 3.09816: MED, TRAFFIC COLLISION: MVA: 24 22 E4452");
   }
   
   private static void doTest(String test) {
