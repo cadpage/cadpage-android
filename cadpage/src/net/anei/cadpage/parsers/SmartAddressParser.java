@@ -184,6 +184,8 @@ public abstract class SmartAddressParser extends MsgParser {
   // street name
   private static final int ID_STREET_NAME_PREFIX = 0x400000;
   
+  private static final int ID_SPEC_CROSS = 0x800000;
+  
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
   // List of multiple word cities
@@ -193,6 +195,9 @@ public abstract class SmartAddressParser extends MsgParser {
   // We keep two of these in case we have to search forward or backward
   private MultiWordList mWordStreetsRev = null;
   private MultiWordList mWordStreetsFwd = null;
+  
+  // List of special cross street names
+  private MultiWordList mWordCrossStreets = null;
   
   // This is a tree set containing all of the expected call descriptions
   // sorted in reverse order because we need to search the tree backward and
@@ -290,6 +295,15 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
     setupDictionary(ID_APPT, "APT:", "APT", "APTS", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT");
     setupDictionary(ID_STREET_NAME_PREFIX, "LAKE", "MT", "MOUNT", "SUNKEN");
+    
+    // Set up special cross street names
+    mWordCrossStreets = new MultiWordList(+1, ID_SPEC_CROSS, ID_MULTIWORD, ID_COMPLETE, new String[]{
+        "DEADEND",
+        "DEAD END",
+        "RR",
+        "RR TRACKS",
+        "TRAILER PARK"
+    });
     
     // Add any country specific words
     switch (getCountryCode()) {
@@ -567,7 +581,7 @@ public abstract class SmartAddressParser extends MsgParser {
       
       // Periods used with abbreviations also cause trouble.  Just get rid of all periods
       // Except for periods followed by a digit which are presumably decimal points
-      address = DOT_PATTERN.matcher(address).replaceAll("");
+      address = DOT_PATTERN.matcher(address).replaceAll(" ");
     }
 
     // Check for null string
@@ -1427,6 +1441,20 @@ public abstract class SmartAddressParser extends MsgParser {
    * @return index of token past end of road name if successful, -1 otherwise
    */
   private int findRoadEnd(int start, int option) {
+    return findRoadEnd(start, option, false);
+  }
+
+  /**
+   * See if we can identify a road name starting at a given index
+   * @param start starting index
+   * @param option - option controlling how we will deal with a suffixless street search
+   *                  0 - No suffixless street names accepted
+   *                  1 - only multiword suffixless street names accepted
+   *                  2 - any suffixless street name accepted
+   * @param cross - true if we are looking for end of cross street                  
+   * @return index of token past end of road name if successful, -1 otherwise
+   */
+  private int findRoadEnd(int start, int option, boolean cross) {
     
     // If this starts with a street direction, skip over it
     if (isType(start, ID_DIRECTION)) start++;
@@ -1438,11 +1466,17 @@ public abstract class SmartAddressParser extends MsgParser {
     if (start >= tokens.length) return -1; 
     
     // Compute the failure index that we return if we fail to find a proper road end.
-    // If we are accepting roads without a street suffix, we will compute the default
-    // value assuming this is a suffixless street name.  If not, the failure return is
-    // always -1;
+    // If we are processing cross streets, check for a special cross street name and
+    // set the failure index to the end of that
     int failIndex = -1;
-    if (option > 1 && isFlagSet(FLAG_OPT_STREET_SFX)) {
+    if (cross || isFlagSet(FLAG_ONLY_CROSS)) {
+      failIndex = mWordCrossStreets.findEndSequence(start);
+    }
+    
+    // Otherwise, if we are accepting roads without a street suffix, we will compute the
+    // default value assuming this is a suffixless street name.  If not, the failure return
+    // is always -1;
+    if (failIndex < 0 && option > 1 && isFlagSet(FLAG_OPT_STREET_SFX)) {
       if (isType(start, ID_NOT_ADDRESS | ID_CONNECTOR)) return -1;
       if (mWordStreetsFwd != null) {
         failIndex = mWordStreetsFwd.findEndSequence(start);
@@ -1777,6 +1811,7 @@ public abstract class SmartAddressParser extends MsgParser {
      */
     public MultiWordList(int dir, int idFlag, int incompFlag, int completeFlag, String[] nameList) {
       this.dir = (dir < 0 ? -1 : 1);
+      this.idFlag = idFlag;
       this.incompFlag = incompFlag;
       this.completeFlag = completeFlag;
       

@@ -180,21 +180,27 @@ public class DispatchVisionAirParser extends FieldProgramParser {
           if (upshift.startsWith("CROSS STREETS:")) {
             fld2 = fld2.substring(14).trim();
             String saveCross = data.strCross;
-            String prefix = "";
             int pt = fld2.indexOf("//");
-            if (pt >= 0) {
-              prefix = fld2.substring(0,pt).trim();
-              fld2 = fld2.substring(pt+2).trim();
-            }
-            Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, fld2);
-            if (res.getStatus() > 0) {
-              res.getData(data);
-              fld2 = res.getLeft();
-            } else {
+            if (pt < 0) {
               data.strCross = fld2;
               fld2 = "";
+            } else {
+              String prefix = fld2.substring(0,pt).trim();
+              fld2 = fld2.substring(pt+2);
+              if (fld2.startsWith(" ")) {
+                fld2 = fld2.trim();
+              } else {
+                Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, fld2);
+                if (res.getStatus() > 0) {
+                  res.getData(data);
+                  fld2 = res.getLeft();
+                } else {
+                  data.strCross = fld2;
+                  fld2 = "";
+                }
+              }
+              data.strCross = append(prefix, " / ", data.strCross);
             }
-            data.strCross = append(prefix, " / ", data.strCross);
             if (saveCross.length() > 0) data.strCross = saveCross;
           }
           
