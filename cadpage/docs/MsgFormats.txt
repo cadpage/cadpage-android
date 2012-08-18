@@ -466,6 +466,11 @@ St Francois County, MO (MOStFrancoisCountyParser)
 * DispatchEmergitechParser subclasses
 *******************************************************************************
 *******************************************************************************
+Oldham County, KY (KYOldhamCountyParser)
+[081890]- NATURE: FIRE,ILLEGAL BURNING LOCATION: 2015 CLARKE POINTE DR LAGRANGE BETWEEN QUARRY CT / LAKE RIDGE WAY ACC ESS BY S HWY 53
+[239952]- NATURE: EMS CALL LOCATION: 5325 BROOKSWOOD RD CRES TWOOD BETWEEN BROOKSWOOD CT / BROOKSWOOD LOOP RD ACCESS BY WOODSBORO RD COMMENTS: 78 YOM
+[133685]- NATURE: FIRE,STRUCTURE LOCATION: 3001 W HWY 146 LA GRANGE BETWEEN KINGS LN / PARKER (KSR ENTRANCE) DR COMMENTS : HEAVY SMOKE IN DORM ONE
+*******************************************************************************
 Fairfield County, OH (OHFairfieldCountyParser)
 [DIS44]- NATURE: ACAL LOCATION: 114 ACADEMY ST PLEASANTV ILLE BETWEEN S MAIN ST / LINCOLN AV COMMENTS: NO APT GIVENGENDERAL FIRE -DIS44 Fairfield 911
 [DIS15]- NATURE: S29 LOCATION: 2295 ELDER RD NE PLEASAN T TWP BETWEEN US RT 22 / BERRY RD COMMENTS: 67 YOF SEVERE A BD & SIDE PAINS. -DIS15 Fairfield
@@ -4817,17 +4822,6 @@ Sender: cad@sussexcountyde.gov
 **********************************************************
 **********************************************************
 **********************************************************
-Oldham County, KY
-Contact: Michael Thompson <Michael.Thompson@ballardsvillefire.com>
-Sender: dispatch@oldhamcountyky.gov
-Users will configure department sender address filters
-Sender: textmsg@ballardsvillefire.com
-[081890]- NATURE: FIRE,ILLEGAL BURNING LOCATION: 2015 CLARKE POINTE DR LAGRANGE BETWEEN QUARRY CT / LAKE RIDGE WAY ACC ESS BY S HWY 53
-[239952]- NATURE: EMS CALL LOCATION: 5325 BROOKSWOOD RD CRES TWOOD BETWEEN BROOKSWOOD CT / BROOKSWOOD LOOP RD ACCESS BY WOODSBORO RD COMMENTS: 78 YOM
-[133685]- NATURE: FIRE,STRUCTURE LOCATION: 3001 W HWY 146 LA GRANGE BETWEEN KINGS LN / PARKER (KSR ENTRANCE) DR COMMENTS : HEAVY SMOKE IN DORM ONE
-[072502]- NATURE: FIRE,ALARM RESIDENTIAL LOCATION: 6908 COLT ON RD CRESTWOOD BETWEEN COLTON CT / DEAD END ACCESS BY CRO SS RUN DR COMMENTS: FIRE ALARM
-[106873]- NATURE: FIRE,STRUCTURE LOCATION: 1025 NEW MOODY LN LAGRANGE BETWEEN EDEN PKWY / SANIBEL WAY ACCESS BY S 1ST
-[031438]- NATURE: EMS CALL LOCATION: 3016 ANN TRESE CV LAGRA NGE BETWEEN DEAD END / S HWY 53 ACCESS BY E HWY 22 OR S HW Y 53 COMMENTS: 55YOM ACTIVE SZ
 **********************************************************
 Keene Mutual Aid (VT & NH)
 Contact: Nick Cushman <flame05154@gmail.com>
