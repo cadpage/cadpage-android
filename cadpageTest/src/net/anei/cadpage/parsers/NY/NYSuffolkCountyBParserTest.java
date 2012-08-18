@@ -227,7 +227,7 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
     doTest("T20",
         "*** 30 - RESCUE *** U.S.A. SKATING RINK 1276 HICKSVILLE RD CS: SUFFOLK AVE  / DOGWOOD LN A-2 TOA: 20:12 03/30/11 2011-000250 Hazmat",
         "CALL:30 - RESCUE",
-        "PLACE:USA SKATING RINK",
+        "PLACE:U S A SKATING RINK",
         "ADDR:1276 HICKSVILLE RD",
         "X:SUFFOLK AVE  / DOGWOOD LN A-2",
         "TIME:20:12",

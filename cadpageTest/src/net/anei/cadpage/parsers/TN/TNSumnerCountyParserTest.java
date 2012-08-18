@@ -39,7 +39,7 @@ public class TNSumnerCountyParserTest extends BaseParserTest {
         "CALL:FIRE ALARM",
         "ADDR:1109 LAKE RISE OVERLOOK",
         "CITY:HENDERSONVILLE",
-        "NAME:L, JOHN",
+        "NAME:L , JOHN",
         "PHONE:6158264086");
 
     doTest("T4",
@@ -48,7 +48,7 @@ public class TNSumnerCountyParserTest extends BaseParserTest {
         "CALL:OTHER-FIRE",
         "ADDR:209 BROOKHAVEN DR",
         "CITY:GALLATIN",
-        "NAME:W, MYRA",
+        "NAME:W , MYRA",
         "PHONE:6154529951");
 
     doTest("T5",
@@ -64,7 +64,7 @@ public class TNSumnerCountyParserTest extends BaseParserTest {
         "CALL:BREATHING PROBLEMS A",
         "ADDR:1080 BRADLEY RD",
         "CITY:GALLATIN",
-        "NAME:E, ROGER D",
+        "NAME:E , ROGER D",
         "PHONE:6154528905");
 
     doTest("T7",

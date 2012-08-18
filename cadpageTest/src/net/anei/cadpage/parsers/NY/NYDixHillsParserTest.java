@@ -66,7 +66,7 @@ public class NYDixHillsParserTest extends BaseParserTest {
         "CALL:13- Structure Fire",
         "ADDR:29 WILDWOOD DR",
         "NAME:TRUEN, CRAIG",
-        "INFO:HQ WHITNEY CT 60-C-1O GAS LEAKS / GAS ODOR (NATURAL / LPG) DWOOD");
+        "INFO:HQ WHITNEY CT 60-C-1O GAS LEAKS / GAS ODOR (NATURAL / L P G ) DWOOD");
 
     doTest("T7",
         "2010-001919 01:48 *** 16- Rescue *** 179 OAKFIELD AV BRUZZESE, ROCCO  SEAMAN NECK RD 6-D-3 RESPIRATORY KFIELD AV DIXHIL TYPE: RESPIRATORY LOC: 179  OAKFI",

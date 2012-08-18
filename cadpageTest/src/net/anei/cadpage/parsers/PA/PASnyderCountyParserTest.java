@@ -69,7 +69,7 @@ public class PASnyderCountyParserTest extends BaseParserTest {
         "CALL:AUTO ALARM/FIRE",
         "ADDR:111 MARKETPLACE BLVD",
         "CITY:MONROE TWP",
-        "NAME:SECURITY SERVICE CO, 8717",
+        "NAME:SECURITY SERVICE CO , 8717",
         "ID:2011-0000005983");
 
     doTest("T8",

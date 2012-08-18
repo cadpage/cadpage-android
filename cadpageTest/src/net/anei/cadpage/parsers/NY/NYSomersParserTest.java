@@ -52,7 +52,7 @@ public class NYSomersParserTest extends BaseParserTest {
         "2011-000496 *** Other Fire *** ANGLEBROOK GOLF CLUB L.P. 100 RT 202 SOMERS SOMERS CS: RT 139 C-3,4 TOA: 19:12 03/18/11 Somers FD Somers FD HQ GRANITE SPRING",
         "ID:2011-000496",
         "CALL:Other Fire",
-        "PLACE:ANGLEBROOK GOLF CLUB LP",
+        "PLACE:ANGLEBROOK GOLF CLUB L P",
         "ADDR:100 RT 202",
         "CITY:SOMERS",
         "X:RT 139 C-3,4",

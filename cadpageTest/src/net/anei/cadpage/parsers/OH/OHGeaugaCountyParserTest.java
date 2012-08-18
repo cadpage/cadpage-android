@@ -152,7 +152,7 @@ public class OHGeaugaCountyParserTest extends BaseParserTest {
         "GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 12115 COUNTRY OAKS TRL 96 Y/O/F POSSIBLE D.O.A. 2800/DP TXT STOP to opt-out",
         "CALL:RESCUE",
         "ADDR:12115 COUNTRY OAKS TRL",
-        "INFO:96 Y / O / F POSSIBLE DOA 2800 / DP");
+        "INFO:96 Y / O / F POSSIBLE D O A 2800 / DP");
     
   }
   

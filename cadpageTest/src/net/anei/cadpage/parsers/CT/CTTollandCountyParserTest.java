@@ -153,7 +153,7 @@ public class CTTollandCountyParserTest extends BaseParserTest {
         "ADDR:664 SILVER ST",
         "APT:B",
         "CITY:Coventry",
-        "CALL:ALS SICK/ALTMENTSTAT",
+        "CALL:ALS SICK/ALT MENT STAT",
         "X:LOVE LN / SOUTH ST",
         "ID:2012-00000205");
 

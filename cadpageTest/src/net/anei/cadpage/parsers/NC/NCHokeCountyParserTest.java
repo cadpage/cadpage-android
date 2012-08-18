@@ -75,7 +75,8 @@ public class NCHokeCountyParserTest extends BaseParserTest {
         "DATE:09/16/2011",
         "TIME:19:14:15",
         "CH:pos2",
-        "X:580 EVERITT RD / DEAD END WILL BE IN THE VERY E");
+        "X:580 EVERITT RD / DEAD END",
+        "INFO:WILL BE IN THE VERY E");
 
     doTest("T8",
         "Hoke Co 911:730 GALATIA CHURCH RD* * * * * **EMD* * * * * * * * 09/15/2011 13:51:27 : pos4 : mblack3325 Cross streets: 5365 ROCKFISH RD//CUMBERLAND CO LINE*",

@@ -742,6 +742,10 @@ public class SmartAddressParserTest extends BaseParserTest {
         "CALL:ALARM",
         "X:N JONES ST & BIG TOWN AVE");
     
+    doTest(CALL, FLAG_ONLY_CROSS, "ALARM N JONES ST / DEAD END 101 SOMEWHERE IN KENSBURG",
+        "CALL:ALARM",
+        "X:N JONES ST / DEAD END");
+    
     doTest(CALL, FLAG_ONLY_CROSS, "ALARM BIG TOWN AVE 101 SOMEWHERE IN KENSBURG",
         "CALL:ALARM BIG",
         "X:TOWN AVE");

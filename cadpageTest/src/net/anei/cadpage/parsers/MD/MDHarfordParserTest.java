@@ -68,7 +68,8 @@ public class MDHarfordParserTest extends BaseParserTest {
         "MADDR:MD 24 & SAINT MARYS RD",
         "X:SAINT MARYS RD",
         "CITY:PYLESVILLE",
-        "NAME:DEDRICKPATTI",
+        "PLACE:DEDRICK",
+        "NAME:PATTI",
         "ID:2010-0000162161");
     
     doTest("T6",

@@ -157,7 +157,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "ADDR:7141 MIAMI AV",
         "MADDR:7141 MIAMI AVE",
         "CITY:MADEIRA",
-        "PLACE:MDRA PD ADTNOTIFING",
+        "PLACE:MDRA PD ADT NOTIFING",
         "CALL:FIRE ALARM",
         "INFO:INV FOR..ZONE F1 FIRE ALARM ACTIVATION OPER/BEX",
         "TIME:02:00",

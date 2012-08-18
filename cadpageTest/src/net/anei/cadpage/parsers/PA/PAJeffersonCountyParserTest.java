@@ -127,9 +127,8 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "prvs=0555093757=dispatch@jeffersoncountypa.com (Incident) Tree Down S20  558 ROBINSON ST Bell HALL ST / DEAD END 20-B Snyder Hill",
         "CALL:Tree Down S20",
         "ADDR:558 ROBINSON ST",
-        "X:HALL ST",
+        "X:HALL ST / DEAD END",
         "CITY:Bell",
-        "PLACE:/ DEAD END",
         "BOX:20-B",
         "CH:Snyder Hill");
 

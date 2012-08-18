@@ -202,7 +202,8 @@ public class OHXeniaParserTest extends BaseParserTest {
         "FMALS-MEDIC AL Location: 1264 BOYD RD DEAD END / US 68 S XENIA TWP Time: 21:25 Units: M52 E52  Common Name:",
         "CALL:FMALS-MEDIC AL",
         "ADDR:1264 BOYD RD",
-        "X:DEAD END / US 68 S XENIA TWP",
+        "X:DEAD END / US 68 S",
+        "CITY:XENIA TWP",
         "UNIT:M52 E52");
 
     doTest("T26",

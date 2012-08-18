@@ -80,7 +80,7 @@ public class TXGalvestonCountyParserTest extends BaseParserTest {
         "SRC:Santa Fe Fire",
         "CALL:FIRE - NON SPECIFIC",
         "ADDR:7600 AVE E",
-        "INFO:between 32nd st and 33rd stres is on Ave Elarge fire appears to be speading to brush",
+        "INFO:between 32nd st and 33rd st res is on Ave E large fire appears to be speading to brush",
         "DATE:11/30/11",
         "TIME:20:49:27");
 

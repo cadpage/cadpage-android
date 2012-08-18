@@ -657,7 +657,7 @@ public class INStJosephCountyParserTest extends BaseParserTest {
         "DATE:07/27/12",
         "ADDR:60788 GREENRIDGE CT",
         "X:21758 CARRIAGE DR",
-        "INFO:MUNKNOWN MEDICAL");
+        "INFO:M UNKNOWN MEDICAL");
    
   }
   
@@ -842,7 +842,7 @@ public class INStJosephCountyParserTest extends BaseParserTest {
         "MAP:G-158",
         "ADDR:60788 GREENRIDGE CT",
         "X:21758 CARRIAGE DR",
-        "INFO:MUNKNOWN MEDICAL / ME10 ,SWD2",
+        "INFO:M UNKNOWN MEDICAL / ME10 ,SWD2",
         "UNIT:006");
 
   }

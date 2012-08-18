@@ -9,6 +9,14 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("NCBrunswickCounty",
+        "ken@cadapge.org",
+        "",
+        "sentto-81052485-2179-1340294796-8439951185= vtext.com@returns.groups.yahoo.com ([calabashvems]) 7678:204 AZALEA CIR SUNSET BEACH 12-048247 12:04:31 Breathing Problems BREATHING PROB",
+        "vtext.com@returns.groups.yahoo.com",
+        "[calabashvems]",
+        "7678:204 AZALEA CIR SUNSET BEACH 12-048247 12:04:31 Breathing Problems BREATHING PROB");
+    
     doParseTest("PABerksCounty",
         "ken@cadpage.org",
         "",
