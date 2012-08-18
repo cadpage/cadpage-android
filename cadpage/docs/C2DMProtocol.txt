@@ -231,11 +231,10 @@ they will be asked if would like to sign up for direct C2DM services.
 Any received text message that starts with the sequence
 *CADPAGEQ*
 and contains a valid URL that starts with your configured base URL address
-will be considered a Cadpage query.  The message will be intercepted and the
-user will be asked if they would like to sign up for direct C2DM services.  If
-they concur, a regular user initiated register request will be sent, but it
-will be sent to the URL included in the text message with the additional
-parameters added.
+will be considered a Cadpage query.  The message will be intercepted and Cadpage 
+will immediately initiate a register request adding the usual register request 
+parameters to your URL.  The expectation is that you will include any account 
+or other necessary identification information in that URL.
 
 These *CADPAGEQ* discover pages will show up in user inboxes where Cadpage is
 not installed or enabled.  The text page has be be user friendly and readable.
