@@ -69,7 +69,7 @@ sequence to send us an email with the correct email account we need to register.
 Your Payment status should change when you load the next Cadpage version.  You can extend the current demo by 30 days as follows:
 
 Go into Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-STUSQPBA or stusqpba.  This is a time-sensitive code and will expire within about 48 hours.  Once you use it, will be good for only about 2 weeks.
+SPXWPPBA or spxwppba.  This is a time-sensitive code and will expire within about 48 hours.  Once you use it, will be good for only about 2 weeks.
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -107,7 +107,7 @@ Jean, Assistant to Ken Corbin
 
 ******************************************************************
 
-Thanks for considering the purchase of a Cadpage subscription.
+Thanks for considering the purchase of a Cadpage subscription!
 
 The usual, and preferred method of purchasing a Cadpage Subscription is through the Google Play Store (previously the Android Market).  You do this by going into the Cadpage Settings and pressing
 Payment Status > Purchase through Android Market.
@@ -132,7 +132,7 @@ Philomath, OR 97370
 If you do this, please include your email address so I can make sure you get credit for it.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-KDBJBWFA or kdbjbwfa.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
+ACGUEIEA or acgueiea.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -143,7 +143,7 @@ I cannot find a payment from you in either PayPal or Google Play Store (previous
 
 It may not be necessary to locate that payment.  Go to Cadpage Settings and select
 Payment Status > Recalculate Payment Status
-That will attempt to reload your payment status from information maintain on the Play Store or PayPal servers.  
+That will attempt to reload your payment status from information maintained on the Play Store or PayPal servers.  
 
 If that doesn't work, try logging in to wallet.google.com or paypal.com.  From there you should be able to look up your Cadpage purchase and send us the date, time and transaction ID.
 
@@ -180,7 +180,7 @@ Cadpage is free for direct paging users because CodeMessaging gives us some of t
 This should only take a few seconds.  But just in case it does not...
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-KDBJBWFA or kdbjbwfa.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+ACGUEIEA or acgueiea.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Have a nice day,
 -Ken
@@ -203,14 +203,11 @@ Jean, Assistant to Ken Corbin
 
 *****************************************************************
 
-Most of our users are volunteer firefighters.  My husband and I are both volunteers with our local fire department. Yes it is unfortunate that we have to ask people already volunteering so much time and energy to pay us for a cool app.  But the reality is that maintaining Cadpage is a full time job and we have to pay our bills somehow.  Someday, we may find the time and resources to seek grant money.
+Most of our users are volunteer firefighters or EMS workers.  My husband and I are both volunteers with our local fire department. Yes it is unfortunate that we have to ask people already volunteering so much time and energy to pay us for a cool app.  But the reality is that maintaining Cadpage is a full time job and we have to pay our bills somehow.  Someday, we may find the time and resources to seek grant money.
 
 We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them other then getting you guys to bring it up.  If you can talk them into it, they get a 30% discount.  Details can be found at http://www.cadpage.org/financial-support/other-support-options
 
-I can give you a 30 day extension while you work things out.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-KDBJBWFA or kdbjbwfa.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
-
-If that doesn't work, there are a  number of approved ways to run Cadpage without paying anything.
+There are a  number of approved ways to run Cadpage without paying anything.
 1) You  can ask for a free subscription.but you have to include something about not being able to afford it.  Simply claiming that volunteers shouldn't have to pay anything gets you this very long explanation.
 2) You can simply reinstall Cadpage every 30 days.
 3) If you (or your department) are currently using or can switch to using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free if you are using the direct messaging option.
@@ -228,7 +225,7 @@ Sometimes you can log into to wallet.google.com and see if they list a reason wh
 We also take PayPal & snail mail payments, but it is a bit of a hassle for all parties, and a violation of Play Store (previously Android Market) application publisher standards, so we don't encourage it.  Details on how to do that can be found at http://www.cadpage.org/financial-support/paypal-payments
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-KDBJBWFA or kdbjbwfa.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+ACGUEIEA or acgueiea.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -242,7 +239,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store (previously Android Market) purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-KDBJBWFA or kdbjbwfa.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+ACGUEIEA or acgueiea.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -252,7 +249,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-KDBJBWFA or kdbjbwfa.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+ACGUEIEA or acgueiea.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -537,7 +534,7 @@ There is a Cadpage/Iphone app out now.  It just isn't called Cadpage.
 
 The problem is that the IOS environment is a lot more restrictive than Android.  Unless you have a jail broken phone, it is not possible to pick up text messages the way we do for Android.
 
-All is not lost  Messaging services that can push pages to Cadpage over the Internet can do the same for an IPhone app.  And in fact, one of those services, Active911.com, has an IPhone app out that will do just that.  It isn't called Cadpage, but it relies on Cadpage parsing technology and we get some of their (purely hypothetical) income.
+All is not lost.  Messaging services that can push pages to Cadpage over the Internet can do the same for an IPhone app.  And in fact, one of those services, Active911.com, has an IPhone app out that will do just that.  It isn't called Cadpage, but it relies on Cadpage parsing technology and we get some of their (purely hypothetical) income.
 
 A real Cadpage/IPhone app is also being developed, but has not yet been released.    Initially, it will only work with the Active911 or CodeMessaging.net messaging services.  But in the future it will support other message services that support Cadpage direct paging.
 

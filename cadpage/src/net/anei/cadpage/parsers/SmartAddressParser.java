@@ -1089,7 +1089,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // We aren't done yet.
     // if @ are being used to mark a place name, see if we can find one
     // in what we have for an address and split the rest into a place name
-    if (isFlagSet(FLAG_AT_BOTH | FLAG_AT_PLACE)) {
+    if (isFlagSet(FLAG_AT_BOTH | FLAG_AT_PLACE) && result.addressField != null) {
       for (int ndx = result.addressField.fldStart; ndx<result.addressField.fldEnd; ndx++) {
         if (isType(ndx, ID_AT_MARKER)) {
           result.addressField.fldStart = ndx+1;
