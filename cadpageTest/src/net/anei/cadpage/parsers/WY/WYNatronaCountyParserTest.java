@@ -4031,7 +4031,7 @@ public class WYNatronaCountyParserTest extends BaseParserTest {
         "SRC:NCSO",
         "CALL:Fire assist",
         "ADDR:28300 W US HIGHWAY 20-26 MP 32",
-        "MADDR:28300 W US 20 MP 32",
+        "MADDR:28300 W US 20-26 MP 32",
         "CITY:NATRONA COUNTY",
         "MAP:NCSW",
         "UNIT:C27",

@@ -43,7 +43,6 @@ public class NJSalemCountyBParserTest extends BaseParserTest {
         "SRC:STA:7",
         "CALL:MVC",
         "ADDR:Njtp South Mm 1-4.5 Njtp",
-        "MADDR:Njtp South Mm 1 Njtp",
         "CITY:Carneys Point Township",
         "NAME:SHAWN HAMMELL",
         "PHONE:6178168");

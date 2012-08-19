@@ -90,6 +90,7 @@ public class DESussexCountyAParserTest extends BaseParserTest {
         "SRC:83 FIRE",
         "CALL:Washdown (Fuel Spill)",
         "ADDR:26972 - 28044 Zoar Rd",
+        "MADDR:26972 Zoar Rd",
         "CITY:Georgetown"
         );
     doTest("T10",

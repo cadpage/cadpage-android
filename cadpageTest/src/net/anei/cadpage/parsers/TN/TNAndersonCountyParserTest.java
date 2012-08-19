@@ -258,7 +258,7 @@ public class TNAndersonCountyParserTest extends BaseParserTest {
         "SRC:RESC",
         "CALL:MVA",
         "ADDR:I-75 NB 121-122",
-        "MADDR:I 75 121",
+        "MADDR:I 75 121-122",
         "CITY:CLINTON");
 
     doTest("T23",

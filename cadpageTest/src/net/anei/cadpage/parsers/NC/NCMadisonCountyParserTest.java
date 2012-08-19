@@ -44,7 +44,6 @@ public class NCMadisonCountyParserTest extends BaseParserTest {
     doTest("T4",
         "S: M:JOEY:6266 US 25-70 HWY MARSHALL 2011046522 23:38:41 CHEST PAIN 50 Y/O FEMALE CHEST PAINS",
         "ADDR:6266 US 25-70 HWY",
-        "MADDR:6266 US 25",
         "CITY:MARSHALL",
         "ID:2011046522",
         "TIME:23:38:41",

@@ -39,6 +39,7 @@ public class NJMICOMParserTest extends BaseParserTest {
         "ID:10-0092818",
         "CITY:FORT LEE",
         "ADDR:0 - 0 Bridge Plz N",
+        "MADDR:0 Bridge Plz N",
         "PLACE:WALGREENS",
         "X:LEMOINE AVE/LEMOINE AVE",
         "CALL:Traumatic Injuries");
