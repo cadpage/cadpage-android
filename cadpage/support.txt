@@ -649,7 +649,7 @@ Google navigation responds to navigate requests, which are different that map re
 
 First it isn't necessary.  I takes you two taps to get from Google maps to Google navigation.  Tap the address bubble that displays on the map screen, then the directions button.  If you go into the Map app settings and select Labs, and then enable the Bubble Buttons feature, it will put a navigation button in the address bubble, saving you a keypress.
 
-Second, Cadpage/Google Maps are good, but they are not perfect.  Occasionally Google Maps will find a completely totally wrong location, sometimes in the next state or county.  Having to go through the map app to get navigation directions gives the user a chance to eyeball the general location and observer that the mapped location is totally bogus.   If we let users jump directly into navigation, they might not figure out that the mapped location was wrong until they were halfway to the next county.
+Second, Cadpage/Google Maps are good, but they are not perfect.  Occasionally Google Maps will find a completely totally wrong location, sometimes in the next state or county.  Having to go through the map app to get navigation directions gives the user a chance to eyeball the general location and observe that the mapped location is totally bogus.   If we let users jump directly into navigation, they might not figure out that the mapped location was wrong until they were halfway to the next county.
 
 Have a nice day,
 -Ken

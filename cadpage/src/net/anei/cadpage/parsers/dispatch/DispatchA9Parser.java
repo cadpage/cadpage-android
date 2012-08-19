@@ -86,13 +86,21 @@ public class DispatchA9Parser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    body = body.replace("\r", "").replace("\t", " ");
+    body = body.replace("\t", " ");
     int pt = body.indexOf(START_MARKER);
     if (pt < 0) return false;
     if (pt > 0 && body.charAt(pt-1)!='\n') return false;
     body = body.substring(pt+START_MARKER.length()).trim();
     body = body.replace('~', ' ');
     return parseFields(body.split("\n"), data);
+  }
+  
+  private class BaseCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equalsIgnoreCase("No Cross Streets Found")) return;
+      super.parse(field, data);
+    }
   }
   
   private class BaseMapField extends MapField {
@@ -116,6 +124,7 @@ public class DispatchA9Parser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("X")) return new BaseCrossField();
     if (name.equals("MAP")) return new BaseMapField();
     if (name.equals("INFO")) return new BaseInfoField();
     return super.getField(name);
