@@ -200,6 +200,15 @@ public class OHClermontCountyParserTest extends BaseParserTest {
         "ID:2012-0000053000",
         "PLACE:EVENT: 06D02 LOC:6409 SNIDER RD Cad: 2012-0000053000 ER >16:54 OS >16:59 OK >17:10 CLR >17:17");
 
+    doTest("T6",
+        "FIRE ALARM TEST/WORK 5313 BENTON RD XS: MACKENZIE TR STONELICK TOWNSHIP MIKE Map: Grids:, Cad: 2012-0000073489",
+        "CALL:FIRE ALARM TEST/WORK",
+        "ADDR:5313 BENTON RD",
+        "X:MACKENZIE TR",
+        "CITY:STONELICK TOWNSHIP",
+        "NAME:MIKE",
+        "ID:2012-0000073489");
+
   }
   
   public static void main(String[] args) {
