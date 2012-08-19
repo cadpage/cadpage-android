@@ -37,6 +37,13 @@ Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
 (I-2012-000063)FFIRA @ 105 OLD NEW BRIDGE ROAD  , NEW MILFORD BORO - WATER FLOW ALARM AT ZANZARI'S 
 (I-2012-000067)FBRSH @ 413 BOULEVARD  , NEW MILFORD BORO - 
 
+Contact: Active911.com
+Agency name: Oradell Fire Department Location: Oradell, NJ
+Sender: @nwbcd.org 
+(I-2012-000192) FFIRA @ 386 KINDERKAMACK ROAD  , ORADELL BORO - zone 2 apartment back
+(I-2012-000193) FFIRA @ 549 CORBETT PLACE  , ORADELL BORO - 
+(I-2012-000194) FFIRA @ 549 CORBETT PLACE  , ORADELL BORO - GENERAL
+
  */
 
 

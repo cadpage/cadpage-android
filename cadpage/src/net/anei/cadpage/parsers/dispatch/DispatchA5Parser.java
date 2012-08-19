@@ -67,6 +67,7 @@ public class DispatchA5Parser extends FieldProgramParser {
     }
     
     int pt = body.indexOf("\nAdditional Info");
+    if (pt < 0) pt = body.indexOf("\nAddress Checks");
     if (pt < 0) return false;
     body = body.substring(0,pt).trim();
     
