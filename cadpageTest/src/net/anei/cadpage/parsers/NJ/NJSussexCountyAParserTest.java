@@ -159,6 +159,34 @@ public class NJSussexCountyAParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testOradel() {
+
+    doTest("T1",
+        "(I-2012-000192) FFIRA @ 386 KINDERKAMACK ROAD  , ORADELL BORO - zone 2 apartment back",
+        "ID:I-2012-000192",
+        "CALL:FFIRA",
+        "ADDR:386 KINDERKAMACK ROAD",
+        "CITY:ORADELL BORO",
+        "INFO:zone 2 apartment back");
+
+    doTest("T2",
+        "(I-2012-000193) FFIRA @ 549 CORBETT PLACE  , ORADELL BORO - ",
+        "ID:I-2012-000193",
+        "CALL:FFIRA",
+        "ADDR:549 CORBETT PLACE",
+        "CITY:ORADELL BORO");
+
+    doTest("T3",
+        "(I-2012-000194) FFIRA @ 549 CORBETT PLACE  , ORADELL BORO - GENERAL",
+        "ID:I-2012-000194",
+        "CALL:FFIRA",
+        "ADDR:549 CORBETT PLACE",
+        "CITY:ORADELL BORO",
+        "INFO:GENERAL");
+
+  }
+  
   public static void main(String[] args) {
     new NJSussexCountyAParserTest().generateTests("T1", "ID CALL ADDR CITY INFO");
   }

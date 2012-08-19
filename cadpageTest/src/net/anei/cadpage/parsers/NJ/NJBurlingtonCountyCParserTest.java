@@ -346,6 +346,181 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "INFO:MVA DRIVER WITH HEAD LAC//NJSP ON LOC");
   }
   
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        "(Automatic R&R Notification) \n" +
+        "  \n" +
+        "Incident Number  : 2012-00001892                    ORI: E180          Station:  \n" +
+        "Incident Type  . :  EMS E EMS Call             Priority: 1  \n" +
+        "Incident Location: 6 DONOMA ST                                          Venue: Pembtn Twp  \n" +
+        "Located Between  : HANOVER BV/E LAKESHORE DR  \n" +
+        "Common Name. . . : ALLIES GROUP HOME 18 \n\n" +
+        "Call Time- 12:53:05                                Date- 08/16/2012  \n" +
+        "Dispatch - 12:53:15     En-route-              On-scene-              Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 1801              Section :   25         Beat  . : 1801        Map . . :  \n" +
+        "Grid:                   Quadrant: 1813         District: 1811 \n\n" +
+        "Phone Number: (856) 340-3129                Call Source:  TEL \n\n" +
+        "Caller. . . : NICHELLE MURCHINSON \n\n" +
+        "Units sent  :  \n" +
+        " E189        E189                 E199        E199 \n\n" +
+        "Nature of Call : FALL VICTIM \n\n" +
+        "Address Checks \n\n" +
+        "Additional Inc#s:  \n" +
+        " E189        201200000530             E199        201200000319 \n\n" +
+        "The Call Taker is REEVES MARY L  \n" +
+        "The Dispatcher is RUGGIANO EDWARD C",
+
+        "ID:2012-00001892",
+        "CALL:EMS E EMS Call",
+        "PRI:1",
+        "ADDR:6 DONOMA ST",
+        "CITY:Pemberton Twp",
+        "X:HANOVER BV/E LAKESHORE DR",
+        "PLACE:ALLIES GROUP HOME 18",
+        "TIME:12:53:05",
+        "DATE:08/16/2012",
+        "MAP:1811/1813/25/1801",
+        "PHONE:(856) 340-3129",
+        "NAME:NICHELLE MURCHINSON",
+        "UNIT:E189 E189 E199 E199",
+        "INFO:FALL VICTIM");
+
+    doTest("T2",
+        "(Automatic R&R Notification) \n" +
+        "  \n" +
+        "Incident Number  : 2012-00001897                    ORI: E180          Station:  \n" +
+        "Incident Type  . :  124 E Pregnant             Priority: 1  \n" +
+        "Incident Location: 630 PEMBERTON BROWNS MILLS RD                        Venue: Pembtn Twp  \n" +
+        "Located Between  : FOUR MILE RD/PEMBERTON BP  \n" +
+        "Common Name. . . : MINIMUM SECURITY \n\n" +
+        "Call Time- 02:15:48                                Date- 08/17/2012  \n" +
+        "Dispatch -              En-route-              On-scene-              Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 1804              Section :   15         Beat  . : 1804        Map . . :  \n" +
+        "Grid:                   Quadrant: 1855         District: 1855 \n\n" +
+        "Phone Number: (609) 894-4877                Call Source:  911 \n\n" +
+        "Caller. . . : COUNTY OF BURLINGTON \n\n" +
+        "Units sent  :  \n" +
+        " E186        E1862 \n\n" +
+        "Nature of Call : 23F 9 MTHS PREGNANT WATER BROKE \n\n" +
+        "Additional Info  \n" +
+        "  K WING \n\n" +
+        "Address Checks \n\n" +
+        "Resident Name - DAVIS,DENISE,J,,  \n" +
+        " Suspect in Case: 201100023948  \n" +
+        " Suspect in Case: 201000017520 \n\n" +
+        "Resident Name - THOMPSON,DAVID,,,  \n" +
+        " Suspect in Case: 201100023948 \n\n" +
+        "Resident Name - GRUPICO,FRANCESCO,,,  \n" +
+        " Suspect in Case: 201100023948 \n\n" +
+        "Resident Name - MCLEOD,ROY,,,  \n" +
+        " Suspect in Case: 201100023948 \n\n" +
+        "Additional Inc#s:  \n" +
+        " E186        201200001890             E199        201200000320 \n\n" +
+        "The Call Taker is KURTS-BURG SUSAN E  \n" +
+        "The Dispatcher is FRIEDRICH JOSHUA",
+
+        "ID:2012-00001897",
+        "CALL:124 E Pregnant",
+        "PRI:1",
+        "ADDR:630 PEMBERTON BROWNS MILLS RD",
+        "CITY:Pemberton Twp",
+        "X:FOUR MILE RD/PEMBERTON BP",
+        "PLACE:MINIMUM SECURITY",
+        "TIME:02:15:48",
+        "DATE:08/17/2012",
+        "MAP:1855/1855/15/1804",
+        "PHONE:(609) 894-4877",
+        "NAME:COUNTY OF BURLINGTON",
+        "UNIT:E186 E1862",
+        "INFO:23F 9 MTHS PREGNANT WATER BROKE");
+
+    doTest("T3",
+        "(Automatic R&R Notification) \n" +
+        "  \n" +
+        "Incident Number  : 2012-00001904                    ORI: E180          Station:  \n" +
+        "Incident Type  . :  EMS E EMS Call             Priority: 1  \n" +
+        "Incident Location: 84 DICKINSON CT                                      Venue: Pembtn Twp  \n" +
+        "Located Between  : COLLEGE DR/YALE RD \n\n" +
+        "Call Time- 21:40:32                                Date- 08/17/2012  \n" +
+        "Dispatch -              En-route-              On-scene-              Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 1803              Section :   32         Beat  . : 1803        Map . . :  \n" +
+        "Grid:                   Quadrant: 1851         District: 1851 \n\n" +
+        "Phone Number: (609) 894-0477                Call Source:  911 \n\n" +
+        "Caller. . . : ANGEL COLON  \n" +
+        "Complaintant: 84 DICKINSON CT \n\n" +
+        "Nature of Call : FEMALE FALL VICTIM \n\n" +
+        "Additional Info  \n" +
+        "  RESD: \n\n" +
+        "Address Checks \n\n" +
+        "Resident Name - DONNELLY,WILLIAM,,,  \n" +
+        " Suspect in Case: 198900001053 \n\n" +
+        "Additional Inc#s:  \n" +
+        " E199        201200000321 \n\n" +
+        "The Call Taker is FRITZ DANIEL J  \n" +
+        "The Dispatcher is HARRIS THOMAS",
+
+        "ID:2012-00001904",
+        "CALL:EMS E EMS Call",
+        "PRI:1",
+        "ADDR:84 DICKINSON CT",
+        "CITY:Pemberton Twp",
+        "X:COLLEGE DR/YALE RD",
+        "TIME:21:40:32",
+        "DATE:08/17/2012",
+        "MAP:1851/1851/32/1803",
+        "PHONE:(609) 894-0477",
+        "NAME:ANGEL COLON Complaintant: 84 DICKINSON CT",
+        "INFO:FEMALE FALL VICTIM");
+
+    doTest("T4",
+        "(Automatic R&R Notification) \n" +
+        "  \n" +
+        "Incident Number  : 2012-00001904                    ORI: E180          Station:  \n" +
+        "Incident Type  . :  117 E Falls                Priority: 1  \n" +
+        "Incident Location: 84 DICKINSON CT                                      Venue: Pembtn Twp  \n" +
+        "Located Between  : COLLEGE DR/YALE RD \n\n" +
+        "Call Time- 21:40:32                                Date- 08/17/2012  \n" +
+        "Dispatch - 21:41:04     En-route-              On-scene-              Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 1803              Section :   32         Beat  . : 1803        Map . . :  \n" +
+        "Grid:                   Quadrant: 1851         District: 1851 \n\n" +
+        "Phone Number: (609) 894-0477                Call Source:  911 \n\n" +
+        "Caller. . . : ANGEL COLON  \n" +
+        "Complaintant: 84 DICKINSON CT \n\n" +
+        "Units sent  :  \n" +
+        " E199        E199                 E199        E1991 \n\n" +
+        "Nature of Call : FEMALE FALL VICTIM \n\n" +
+        "Additional Info  \n" +
+        "  RESD: \n\n" +
+        "Address Checks \n\n" +
+        "Resident Name - DONNELLY,WILLIAM,,,  \n" +
+        " Suspect in Case: 198900001053 \n\n" +
+        "Additional Inc#s:  \n" +
+        " E199        201200000321 \n\n" +
+        "The Call Taker is FRITZ DANIEL J  \n" +
+        "The Dispatcher is HARRIS THOMAS",
+
+        "ID:2012-00001904",
+        "CALL:117 E Falls",
+        "PRI:1",
+        "ADDR:84 DICKINSON CT",
+        "CITY:Pemberton Twp",
+        "X:COLLEGE DR/YALE RD",
+        "TIME:21:40:32",
+        "DATE:08/17/2012",
+        "MAP:1851/1851/32/1803",
+        "PHONE:(609) 894-0477",
+        "NAME:ANGEL COLON Complaintant: 84 DICKINSON CT",
+        "UNIT:E199 E199 E199 E1991",
+        "INFO:FEMALE FALL VICTIM");
+
+  }
+  
   public static void main(String[] args) {
     new NJBurlingtonCountyCParserTest().generateTests("T1");
   }
