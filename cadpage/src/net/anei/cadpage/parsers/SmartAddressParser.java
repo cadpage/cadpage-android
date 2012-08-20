@@ -2052,6 +2052,13 @@ public abstract class SmartAddressParser extends MsgParser {
       if (addressField ==  null) return null;
       return buildData(addressField.fldStart, endAll, 0);
     }
+
+    /**
+     * @return parsed city field
+     */
+    public String getCity() {
+      return buildData(cityField, 0);
+    }
     
     private String buildData(FieldSpec spec, int addrCode) {
       if (spec == null) return "";
