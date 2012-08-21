@@ -20,18 +20,23 @@ Sender: msg@cfmsg.com
 (Chief ALT) [CFC Fire] -- L1*commercial Fire Alarm -- Direct Radiography - Glasgow Business Community -- 600 Technology Dr - Cross STS:Gbc Dr & Yoon La - EMD:52C3G
 (Chief ALT) [CFC FIRE] -- Vehicle Accident -- Interstate 95 -- Churchmans Rd / I95 Sb - EMD:M29B4
 
+Contact: Jason Ross <rossja3@gmail.com>
+Sender: msg@cfmsg.com
+[Chief ALT]  [CFC Fire] -- L3*residential Fire -- Llangollen Estates -- 218 Southerland Dr New Castle - Cross STS:Mendell Pl & Gordy Pl - EMD:69D6 - Notes:PROQA DETAIL
+(Chief ALT) [CFC FIRE] -- Vehicle Accident -- Rte 1 / Wrangle Hill Rd Bear - EMD:M29B1 - Notes:PROQA DETAILS TO FOLLOW
+
  */
 
 public class DENewCastleCountyBParser extends FieldProgramParser {
   
   public DENewCastleCountyBParser() {
     super(CITY_LIST, "NEW CASTLE COUNTY", "DE",
-           "CALL! NAME! ADDR/S! Cross_STS:X? EMD:UNIT");
+           "CALL! NAME? ADDR/S! Cross_STS:X? EMD:UNIT");
   }
   
   @Override
   public String getFilter() {
-    return "@c-msg.net";
+    return "@c-msg.net,msg@cfmsg.com";
   }
 
   @Override
@@ -47,7 +52,7 @@ public class DENewCastleCountyBParser extends FieldProgramParser {
     body = body.substring(3).trim();
     
     String[] flds1 = body.split(" -- ");
-    String[] flds2 = flds1[flds1.length-1].split(" - ");
+    String[] flds2 = flds1[flds1.length-1].replace("Dead - End", "Dead End").split(" - ");
     
     String[] flds = new String[flds1.length-1 + flds2.length];
     System.arraycopy(flds1, 0, flds, 0, flds1.length-1);
@@ -61,6 +66,19 @@ public class DENewCastleCountyBParser extends FieldProgramParser {
   }
   
   private class MyAddressField extends AddressField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      String next = getRelativeField(+1);
+      if (!next.startsWith("Cross STS:") && !next.startsWith("EMD:")) return false;
+      parse(field, data);
+      return true;
+    }
     
     @Override
     public void parse(String field, Data data) {

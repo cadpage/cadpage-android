@@ -4820,45 +4820,6 @@ Contact: Richard Short <rshort7815@gmail.com>
 Sender: cad@sussexcountyde.gov 
 (CAD Alert) 78ST   Call at: 21303 Airport Rd         Loc: TEST CALL TEST CALL      City:19947  Problem:  Structure Fire                  Inc#: 2012-018545   
 **********************************************************
-Adams County, PA
-Contact: Tim Tyler <tyler33fire@yahoo.com>
-Sender: 
-Subject:Alert: Traffic Accident - 1
-ALRM LVL: 1
-LOC:
-274 HANOVER ST
-OXFORD TWP
-BTWN: COMMERCE ST & TROUT LN
-
-Subject :Alert: Fire - Residential
-ALRM LVL: 1
-LOC:
-80 HUNTER CIR
-HAMILTON TWP
-BTWN: FOX DEN LN & FOX MEADOW
-
-Subject:Alert: Diabetic Emergency - 1
-ALRM LVL: 1
-LOC:
-LINCOLNWAY W/TRACY AVE
-NEW OXFORD BORO
-BTWN: TRACY AVE & KOHLER MILL RD
-
-Subject:Alert: Traffic Accident - 2
-ALRM LVL: 1
-LOC:
-YORK RD/FLESHMAN MILL RD
-MOUNT PLEASANT TWP
-BTWN: FLESHMAN MILL RD
-
-Subject:Alert: Fire - Residential
-ALRM LVL: 1
-LOC:
-2315 HUNTERSTOWN-HAMPTON RD
-STRABAN TWP
-BTWN: ALLEY & CONEWAGO RD
-
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4933,11 +4894,22 @@ S38A  432  PHILLIP RD..C2
 El Paso County, CO
 Contact: Shane Gattis <cfpd1400@gmail.com>
 Sender: ept@ept911.info
+System: Tri Tech
 CAL FD - Unconscious / Fainti24615 Scott Rd                Big Cats of Ser[Premise:  24615 SCOTT RD] [Low] [UNKNOWN] See " P\r
 CAL FD - Medical             1222 Ververs Ln                              1481 transporting,no further resp needed,Automatic\r
 CAL FD - Medical             5TH ST / CASCADE ST                          5C42  NEED MEDICAL - SCRAPE ON HEAD -[Shared],5C42\r
 CAL FD - Medical             1350 8th St                                  [Page] Unit: 5c46, Sent From: EPSO4 ,MP , 5C46 5C4\r
 CAL FD - Chest Pain          185 4th St                    Calhan Full Gos911ALI Info: Verizon WRLS 800-451-5242, Wireless,\r
+**********************************************************
+Adams County, PA
+Contact: Tim Tyler <tyler33fire@yahoo.com>
+DispatchA1Parser subclass
+Check Active911 tickets.  I'm pretty sure there is one for this county
+Subject:Alert: Traffic Accident - 1\nALRM LVL: 1\nLOC:\n274 HANOVER ST\nOXFORD TWP\nBTWN: COMMERCE ST & TROUT LN
+Subject :Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n80 HUNTER CIR\nHAMILTON TWP\nBTWN: FOX DEN LN & FOX MEADOW
+Subject:Alert: Diabetic Emergency - 1\nALRM LVL: 1\nLOC:\nLINCOLNWAY W/TRACY AVE\nNEW OXFORD BORO\nBTWN: TRACY AVE & KOHLER MILL RD
+Subject:Alert: Traffic Accident - 2\nALRM LVL: 1\nLOC:\nYORK RD/FLESHMAN MILL RD\nMOUNT PLEASANT TWP\nBTWN: FLESHMAN MILL RD
+Subject:Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n2315 HUNTERSTOWN-HAMPTON RD\nSTRABAN TWP\nBTWN: ALLEY & CONEWAGO RD
 **********************************************************
 *********************************************************
 **********************************************************
