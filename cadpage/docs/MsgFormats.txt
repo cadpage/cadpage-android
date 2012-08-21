@@ -4819,7 +4819,10 @@ Sussex County, NY (B)
 Contact: Richard Short <rshort7815@gmail.com>
 Sender: cad@sussexcountyde.gov 
 (CAD Alert) 78ST   Call at: 21303 Airport Rd         Loc: TEST CALL TEST CALL      City:19947  Problem:  Structure Fire                  Inc#: 2012-018545   
+(CAD Alert) Inc#: 2012-018946 78AS3  Call at: 10064 Memory Rd          Loc:                          City:19952  Problem:  Sick Person(Specific Diag)-BLS   D
+(CAD Alert) Inc#: 2012-018835 78AST  Call at: 14514 Oak Rd             Loc:                          City:19950  Problem:  Assault/Sexual Assault-BLS       D
 **********************************************************
+Sussex County, DE (alt)?
 **********************************************************
 **********************************************************
 **********************************************************
