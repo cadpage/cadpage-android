@@ -35,7 +35,7 @@ public class DENewCastleCountyBParserTest extends BaseParserTest {
         "NAME:Forest Glen Townhses",
         "ADDR:3 Pimlico La",
         "MADDR:3 Pimlico Ln",
-        "X:Rue Madora & Dead",
+        "X:Rue Madora & Dead End",
         "UNIT:M32B2");
 
     doTest("T3",
@@ -44,7 +44,7 @@ public class DENewCastleCountyBParserTest extends BaseParserTest {
         "CALL:Abdominal Pains",
         "NAME:Summerset Square Townhses",
         "ADDR:4 Candlewick Ct",
-        "X:Wilton Bl & Dead",
+        "X:Wilton Bl & Dead End",
         "UNIT:M1A1");
 
     doTest("T4",
@@ -92,7 +92,7 @@ public class DENewCastleCountyBParserTest extends BaseParserTest {
         "CALL:Cva - Sudden Weakness / Numbness",
         "NAME:Crossings At Christiana Townhses",
         "ADDR:216 Gladstone Wy",
-        "X:Dead",
+        "X:Dead End & Baker Dr",
         "UNIT:M28C4C");
 
     doTest("T9",
@@ -124,8 +124,25 @@ public class DENewCastleCountyBParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testDeepWaterParser() {
-    
+  public void testJasonRoss() {
+
+    doTest("T1",
+        "[Chief ALT]  [CFC Fire] -- L3*residential Fire -- Llangollen Estates -- 218 Southerland Dr New Castle - Cross STS:Mendell Pl & Gordy Pl - EMD:69D6 - Notes:PROQA DETAIL",
+        "SRC:CFC Fire",
+        "CALL:L3*residential Fire",
+        "NAME:Llangollen Estates",
+        "ADDR:218 Southerland Dr",
+        "X:Mendell Pl & Gordy Pl",
+        "UNIT:69D6");
+
+    doTest("T2",
+        "(Chief ALT) [CFC FIRE] -- Vehicle Accident -- Rte 1 / Wrangle Hill Rd Bear - EMD:M29B1 - Notes:PROQA DETAILS TO FOLLOW",
+        "SRC:CFC FIRE",
+        "CALL:Vehicle Accident",
+        "ADDR:Rte 1 & Wrangle Hill Rd",
+        "CITY:Bear",
+        "UNIT:M29B1");
+
   }
   
   public static void main(String[] args) {
