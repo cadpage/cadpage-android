@@ -1101,6 +1101,11 @@ Lake County, CA
 [Dispatched Call]  S STATE HWY 29/HIGHLAND SPRINGS RD, Lakeport *  * HIGHLAND SPRINGS RD *  * FDMA *  * BETWEEN ARGONAUT AND HIGHLAND SPRINGS IN
 2725 S MAIN, Lakeport * ROTTEN ROBBIE * STATE HWY 175 * * FDMA * * 15YOF FALL VIC WITH HEAD INJ C/A
 ***************************************************************************
+Los Angeles County, CA (CALosAngelesCountyParser)
+Verdugo:07/17/12 10:27:21/1/BREATH/552 MANZANITA AV ,SMD/btwn PARK AV & S SUNNYSIDE AV//R1/566_3J /VFC1240411 /EMS INFO: Male Age 73 Conscious Diff Breath UNABLE TO STAND
+Verdugo:07/17/12 10:35:18/1/TR2 /169 N HALSTEAD ST ,PAS/btwn DEAD-END & E FOOTHILL BL//R1/566_4G /VFC1240412 /EMS INFO: Male Age 5 FX RIGHT ARM
+Verdugo:07/17/12 10:41:24/1/FUEL /EB 134 FWY AT 5 FWY ,LFD//DODGE NEON WITH A FUEL LEAK FSP OS/R2/
+***************************************************************************
 Monterey County, CA (CAMontereyCountyParser)
 FRM:donotreply@co.monterey.ca.us\nSUBJ:CAD Page\nMSG:52161HA - MEO:NOT XFR - 13200 CIELO AZULUnits:E5211, 52A
 FRM:donotreply@co.monterey.ca.us\nSUBJ:CAD Page\nMSG:5261BT - MEO:MEDICAL EMERGNCY - 7881 SANDHOLDT RDUnit:CH5202
