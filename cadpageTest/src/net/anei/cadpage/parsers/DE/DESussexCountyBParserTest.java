@@ -165,7 +165,7 @@ public class DESussexCountyBParserTest extends BaseParserTest {
         "TIME:18:55:11",
         "X:Cart Branch Cir/Cart Branch Cir");
 
-    doTest("T15",
+    doTest("T15",//start check here
         "Sta: 78AS1 Loc:: 13230 Hunters Cove Rd Loc: City: :19950 ---: Stroke-ALS Inc#: 2012-017266 DISP: 16:49:32 Cross St: Dead End/OWENS RD",
         "ID:2012-017266",
         "SRC:78AS1",
