@@ -166,6 +166,7 @@ public class SmsMmsMessage implements Serializable {
      * Fetch data from raw SMS
      */
     fromAddress = sms.getDisplayOriginatingAddress();
+    if (fromAddress == null) fromAddress = "";
     messageClass = sms.getMessageClass();
     sentTime = sms.getTimestampMillis();
 

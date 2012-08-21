@@ -2653,6 +2653,11 @@ Humble TX (TXHumbleParser)
 [AVFD EMS] - Diabetic Emergency -- 5310 Moonshadows Dr, Humble -- Map: 337S- -- Xst's: Pocito Ct Wellswood Ct -- Units: E-M29 -- 201105542
 [AVFD EMS] - Medical Call -- 6810 Amber Ash Ct, Humble -- Map: 337Q- -- Xst's: Crimson Oak Trl -- Units: E-M19 -- 201105487
 *******************************************************************************
+Keller, TX (TXKellerParser)
+(MEDICAL EMERGENCY) \nMEDICAL EMERGENCY\n-- 7401 WINDSWEPT TRL, Colleyville\nBANDIT TRL//\n Fire Box = 2310
+(MEDICAL EMERGENCY) \nMEDICAL EMERGENCY\n-Walgreens Glade Rd- 3830 Glade Rd,Box308 Colleyville\nHERITAGE AVE//COPPERGLEN CIR\n Fire Box = 2241
+(MAJOR ACCIDENT) \nMAJOR ACCIDENT\n--  HALL JOHNSON RD, Colleyville\nSYCAMORE DR//\n Fire Box = 2129
+*******************************************************************************
 Lewisville, TX (TXLewisvilleParser)
 *101 E CORPORATE DR*****MAJOR ACC****B160,CHIEF,E163,M163,T167*316****
 *1725 SHUFORDS CT*****FIRE****B160,CHIEF,E164,E165,M163,Q163,T167*300****
@@ -4815,6 +4820,44 @@ Contact: Richard Short <rshort7815@gmail.com>
 Sender: cad@sussexcountyde.gov 
 (CAD Alert) 78ST   Call at: 21303 Airport Rd         Loc: TEST CALL TEST CALL      City:19947  Problem:  Structure Fire                  Inc#: 2012-018545   
 **********************************************************
+Adams County, PA
+Contact: Tim Tyler <tyler33fire@yahoo.com>
+Sender: 
+Subject:Alert: Traffic Accident - 1
+ALRM LVL: 1
+LOC:
+274 HANOVER ST
+OXFORD TWP
+BTWN: COMMERCE ST & TROUT LN
+
+Subject :Alert: Fire - Residential
+ALRM LVL: 1
+LOC:
+80 HUNTER CIR
+HAMILTON TWP
+BTWN: FOX DEN LN & FOX MEADOW
+
+Subject:Alert: Diabetic Emergency - 1
+ALRM LVL: 1
+LOC:
+LINCOLNWAY W/TRACY AVE
+NEW OXFORD BORO
+BTWN: TRACY AVE & KOHLER MILL RD
+
+Subject:Alert: Traffic Accident - 2
+ALRM LVL: 1
+LOC:
+YORK RD/FLESHMAN MILL RD
+MOUNT PLEASANT TWP
+BTWN: FLESHMAN MILL RD
+
+Subject:Alert: Fire - Residential
+ALRM LVL: 1
+LOC:
+2315 HUNTERSTOWN-HAMPTON RD
+STRABAN TWP
+BTWN: ALLEY & CONEWAGO RD
+
 **********************************************************
 **********************************************************
 **********************************************************

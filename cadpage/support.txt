@@ -450,7 +450,7 @@ Wait until the next text pages comes in.  If it still does not trigger CadPage, 
 If the messages  are triggering CADpage, but will not allow you to select map option: Long press the message to open the options menu and select the "Report Problem" menu item.  This will generate an email containing all of the information we should need to track down the problem with this message.  You can get the same menu options from the call history screen by long pressing one of the call entries.
 
 Good luck,
--Ken
+Jean -- Assistant to Ken Corbin
 
 ******************************************************************
 
