@@ -5,19 +5,12 @@ import net.anei.cadpage.parsers.CO.COAdamsCountyParser;
 import net.anei.cadpage.parsers.CO.COBoulderCountyParser;
 import net.anei.cadpage.parsers.CO.COWeldCountyParser;
 import net.anei.cadpage.parsers.CO.CONorthglennEMSParser;
-import net.anei.cadpage.parsers.NJ.NJCamdenCountyParser;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 
 public class GroupBestParserTest extends BaseParserTest {
-  
-  @Test
-  public void testRunReport() {
-    setParser(new NJCamdenCountyParser(), "CAMDEN COUNTY", "NJ");
-    setExpLocCode("NJCamdenCountyA");
-  }
   
   @Test
   public void testRealParser() {
@@ -173,7 +166,7 @@ public class GroupBestParserTest extends BaseParserTest {
     doTest(parser, flgs, "AFROM", "BB", "GeneralAlert", "GENERAL ALERT", "BB");
     doTest(parser, flgs, "BFROM", "AA", "GeneralAlert", "GENERAL ALERT", "AA");
     doTest(parser, flgs, "CFROM", "AA");
-    doTest(parser, flgs, "AFROM", "AA RUN REPORT", "TESTA", "RUN REPORT", "AA");
+    doTest(parser, flgs, "AFROM", "AA RUN REPORT", "TESTA", "RUN REPORT", "");
     
     flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
@@ -191,7 +184,7 @@ public class GroupBestParserTest extends BaseParserTest {
     doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "CFROM", "CC", "GeneralAlert", "GENERAL ALERT", "CC");
-    doTest(parser, flgs, "AFROM", "AA RUN REPORT", "TESTA", "RUN REPORT", "AA");
+    doTest(parser, flgs, "AFROM", "AA RUN REPORT", "TESTA", "RUN REPORT", "");
   }
   
   @Test
@@ -370,7 +363,5 @@ public class GroupBestParserTest extends BaseParserTest {
       }
       return true;
     }
-    
-    
   }
 }

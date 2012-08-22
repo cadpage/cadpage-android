@@ -107,14 +107,17 @@ public class GroupBestParser extends MsgParser {
   protected Data parseMsg(Message msg, int parserFlags) {
     
     // OK, this gets complicated
-    // If all three flags are on (which is what PARSE_FLG_FORCE is, we can't
+    // if PARSE_FLG_GEN_ALERT is set, we can't
     // pass them directly to the subparsers.  If we do, they will all return
     // a general alert status, possibly masking a real positive parser hit from
     // one of the other parsers.  In this case, and this case only, we turn off
     // the general alert flag passed to subparsers and handle it ourselves
     int tFlags = parserFlags;
-    boolean genAlert = (tFlags & MsgParser.PARSE_FLG_FORCE) == MsgParser.PARSE_FLG_FORCE;
-    if (genAlert) tFlags &= ~PARSE_FLG_GEN_ALERT;
+    boolean genAlert = (parserFlags & PARSE_FLG_FORCE) == PARSE_FLG_FORCE;
+    if (genAlert) {
+      tFlags |= PARSE_FLG_RUN_REPORT;
+      tFlags &= ~PARSE_FLG_GEN_ALERT;
+    }
     
     int bestScore = -1;
     Data bestData = null;

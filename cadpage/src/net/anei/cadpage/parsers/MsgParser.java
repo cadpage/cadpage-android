@@ -37,17 +37,25 @@ public abstract class MsgParser {
   
   /**
    * Parse flag indicates that messages from dispatch that are not CAD pages
-   * should be treated as general alerts 
+   * should be treated as general alerts.  This include messages identified as
+   * run reports 
    */
   public static final int PARSE_FLG_GEN_ALERT = 0x04;
   
   /**
+   * Parse flag indicates that messages that have been identified as run reports
+   * should be returned.  But messages identified as  general reports should not
+   */
+  
+  public static final int PARSE_FLG_RUN_REPORT = 0x08;
+  
+  /**
    * Parser flag indicating that we are being called from a parser test class.
    * This suppresses the usual logic that reports general alerts identified
-   * by individual parsers as parsing failurs if the general alert processing
+   * by individual parsers as parsing failures if the general alert processing
    * flag was not passed.
    */
-  public static final int PARSE_FLG_TEST_MODE = 0x08;
+  public static final int PARSE_FLG_TEST_MODE = 0x10;
 
   /**
    * Force flag forces processing of message
@@ -162,6 +170,8 @@ public abstract class MsgParser {
     // We have to do this again because the GroupBestParser will call 
     // this method is sub parsers without calling the initial inPageMsg() method
     this.parseFlags = parseFlags;
+    boolean parseGenAlert = (parseFlags & PARSE_FLG_GEN_ALERT) != 0;
+    boolean parseRunReport = parseGenAlert || (parseFlags & PARSE_FLG_RUN_REPORT) != 0;
     
     // Decode the call page and place the data in the database
     String strSubject = msg.getSubject();
@@ -176,15 +186,14 @@ public abstract class MsgParser {
       // identify it as coming from Dispatch.  If the user didn't want to process
       // general alerts, and we aren't running in a test class, change this to
       // an outright failure
-      if (data.strCall.equals("GENERAL ALERT") || data.strCall.equals("RUN REPORT")) {
-        if ((parseFlags & (PARSE_FLG_GEN_ALERT | PARSE_FLG_TEST_MODE)) == 0) return null;
-      }
+      if (!parseGenAlert && data.strCall.equals("GENERAL ALERT")) return null;
+      if (!parseRunReport && data.strCall.equals("RUN REPORT")) return null;
       return data;
     }
     
     // If this isn't a valid CAD page, see if we should treat it as a general alert
     // If not then return failure
-    if ((parseFlags & PARSE_FLG_GEN_ALERT) != 0 && isPositiveId()) {
+    if (parseGenAlert && isPositiveId()) {
       return ManageParsers.getInstance().getAlertParser().parseMsg(msg, parseFlags);
     }
     
