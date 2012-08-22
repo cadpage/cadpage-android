@@ -23,6 +23,11 @@ HOPMEADOW ST&WOODLAND ST TYPE:PA Truck hit telephone pole south of Woodland Stre
 12 CRANE PL TYPE:LS life star, end of cul de sac
 BUSHY HILL RD&ALBANY TNPK TYPE:VR mva rollover w/extrication
 
+Contact: Levi Lilly <l.lilly410@gmail.com>
+Sender: 6245
+11 FOREST LA TYPE:FA fire alarm 
+77 WEST ST TYPE:FA Fire Alarm
+
 */
 
 public class CTSimsburyParser extends FieldProgramParser {
@@ -34,7 +39,7 @@ public class CTSimsburyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "93001";
+    return "93001,6245";
   }
   
   private class MyCallField extends CallField {

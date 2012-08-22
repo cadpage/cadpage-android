@@ -85,6 +85,25 @@ public class CTSimsburyParserTest extends BaseParserTest {
         "CODE:VR",
         "CALL:Vehicle Rescue",
         "INFO:mva rollover w/extrication");
+  }
+  
+  @Test
+  public void testLeviLilly() {
+
+    doTest("T1",
+        "11 FOREST LA TYPE:FA fire alarm ",
+        "ADDR:11 FOREST LA",
+        "MADDR:11 FOREST LN",
+        "CODE:FA",
+        "CALL:Fire Alarm",
+        "INFO:fire alarm");
+
+    doTest("T2",
+        "77 WEST ST TYPE:FA Fire Alarm",
+        "ADDR:77 WEST ST",
+        "CODE:FA",
+        "CALL:Fire Alarm",
+        "INFO:Fire Alarm");
 
   }
   

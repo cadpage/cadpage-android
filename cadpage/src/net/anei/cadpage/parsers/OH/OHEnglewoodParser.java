@@ -39,13 +39,14 @@ FRM:CAD@englewood.oh.us\nMSG:630 EM98:15:51:00-45:E45:MEDIC - 65YOF BACK DOOR SH
 
 FRM:CAD@englewood.oh.us\nMSG:EM98:12:53:13-45::MEDIC/ 65 YOF, STOMACH PAINS:@824 HILE LN,ENGLEWOOD:\r\n
  1 of 2\nFRM:CAD@englewood.oh.us\nMSG:EE98 EM98 OP72:17:04:27-53B::2 VEH CRASH - 1 VEH ON SIDE:@404 W NATIONAL RD,ENGLEWOOD:KEYBOX FRONT DOOR LEFT,\n(Con't) 2 of 2\nFDC SE CORNER IN FENCE\r\n(End)
+FRM:CAD@englewood.oh.us\nMSG:EM98:22:35:24-45:E45:MUTUAL AID MEDIC/ MALE WITH FEVER, X OF JEFFERSON BY JAY:@139 NORTH STREET,:\r\n
 
  */
 
 
 public class OHEnglewoodParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("([^:]+?):(\\d\\d:\\d\\d:\\d\\d)-([A-Z0-9]+:[A-Z0-9]*):([^:?]+):@([^,]+?),([A-Z ]+?):(.*)");
+  private static final Pattern MASTER = Pattern.compile("([^:]+?):(\\d\\d:\\d\\d:\\d\\d)-([A-Z0-9]+:[A-Z0-9]*):([^:?]+):@([^,]+?),([A-Z ]*?):(.*)");
   
   public OHEnglewoodParser() {
     super("ENGLEWOOD", "OH");

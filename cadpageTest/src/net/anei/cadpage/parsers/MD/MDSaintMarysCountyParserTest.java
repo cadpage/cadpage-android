@@ -913,6 +913,17 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "CITY:LEXINGTON PARK",
         "UNIT:ALS ST39",
         "INFO:4 yom");
+
+    doTest("T10",
+        "ST MARY'S COUNTY GOVERNMENT P (54820) CAD400PAGE\r\n" +
+        ": 13:12:54*Landing Zone*POTOMAC MOTOR SPEEDWAY*27963 BUDDS CREEK RD*DELOZIER LN*BUDDS CREEK*CO2* stop",
+
+        "TIME:13:12:54",
+        "CALL:Landing Zone",
+        "ADDR:27963 BUDDS CREEK RD",
+        "X:DELOZIER LN / BUDDS CREEK",
+        "PLACE:POTOMAC MOTOR SPEEDWAY",
+        "UNIT:CO2");
         
     /* Returned by Active911
         "TIME: 19:20:59",

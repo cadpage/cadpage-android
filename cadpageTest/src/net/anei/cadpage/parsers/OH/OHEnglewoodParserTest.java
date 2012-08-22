@@ -117,6 +117,14 @@ public class OHEnglewoodParserTest extends BaseParserTest {
         "ADDR:404 W NATIONAL RD",
         "CITY:ENGLEWOOD",
         "INFO:KEYBOX FRONT DOOR LEFT, FDC SE CORNER IN FENCE");
+
+    doTest("T11",
+        "FRM:CAD@englewood.oh.us\nMSG:EM98:22:35:24-45:E45:MUTUAL AID MEDIC/ MALE WITH FEVER, X OF JEFFERSON BY JAY:@139 NORTH STREET,:\r\n",
+        "UNIT:EM98",
+        "TIME:22:35:24",
+        "CODE:45:E45",
+        "CALL:MUTUAL AID MEDIC/ MALE WITH FEVER, X OF JEFFERSON BY JAY",
+        "ADDR:139 NORTH STREET");
       
   }
   
