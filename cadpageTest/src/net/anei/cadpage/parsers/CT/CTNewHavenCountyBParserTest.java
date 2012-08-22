@@ -223,6 +223,19 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "UNIT:R1",
         "DATE:10/15/11",
         "TIME:19:03");
+  }
+  
+  @Test
+  public void testRalphSpuduzzi() {
+
+    doTest("T1",
+        "1200003638 AFA NIGHT RESPONSE 00003 COSEY BEACH AVE  Prem Map -2 PP 88 FOUR BEACHES ENTRANCE/JAMACA CO  E4 E1 T3 E6 R1 R4 S2 C4 120820\r",
+        "ID:1200003638",
+        "CALL:AFA NIGHT RESPONSE",
+        "ADDR:3 COSEY BEACH AVE",
+        "MAP:2 PP 88",
+        "X:FOUR BEACHES ENTRANCE / JAMACA CO",
+        "UNIT:E4 E1 T3 E6 R1 R4 S2 C4");
 
   }
   

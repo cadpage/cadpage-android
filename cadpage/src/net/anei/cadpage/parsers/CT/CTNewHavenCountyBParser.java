@@ -56,20 +56,24 @@ Sender: pdpaging@farmington-ct.org
 1200006626 FIRE - SMOKE/GAS INVEST OUTSIDE 00339 MEADOW RD SOMERSBY WAY/JUDSON LA  EXSW XXFF 120409 00:12\r\n\r
 1200006038 MEDICAL CALL CHARLIE RESPONSE 00051 LITCHFIELD RD PLAINVILLE AVE/BIRCH ST  UM1 XXTH AMR1 120330 20:14\r\n\r
 
+Contact:  Ralph Spaduzzi <rspaduzzi@gmail.com>
+Sender: paging@easthavenfire.com
+1200003638 AFA NIGHT RESPONSE 00003 COSEY BEACH AVE  Prem Map -2 PP 88 FOUR BEACHES ENTRANCE/JAMACA CO  E4 E1 T3 E6 R1 R4 S2 C4 120820\r
+
 */
 
 public class CTNewHavenCountyBParser extends SmartAddressParser {
   
-//  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:\\d{3}|[EX]X[A-Z]{2}|(?:MED|R|T|E|ET|BR|A|S|AMR|UM|LC|UE)\\d{1,2}))+$");
+  private static final Pattern MARKER = Pattern.compile("^(\\d{10}) +");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile(" +(\\d{6}) (\\d\\d:\\d\\d)$"); 
+  private static final Pattern TRUNC_DATE_TIME_PTN = Pattern.compile(" +\\d{6} [\\d:]+$| +\\d{1,6}$"); 
+  private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?:Prem )?Map -");
+  private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: ?[A-Z]{2} ?\\d{1,3})?\\b");
+  private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+(?=\\d)");
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
     "WLFD", "WALLINFORD"
   });
-  
-  private static final Pattern MASTER = Pattern.compile("(\\d{10}) +(.*?) *(\\d{6}) (\\d\\d:\\d\\d)");
-  private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?:Prem )?Map -");
-  private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: ?[A-Z]{2} ?\\d{1,3})?\\b");
-  private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+(?=\\d)");
   
   public CTNewHavenCountyBParser() {
     this(CITY_CODES, "NORTH BRANFORD", "CT");
@@ -86,13 +90,21 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
     data.strCallId = match.group(1);
-    body = match.group(2);
-    String date = match.group(3);
-    data.strDate = date.substring(2,4) + "/" + date.substring(4,6) + "/" + date.substring(0,2);
-    data.strTime = match.group(4);
+    body = body.substring(match.end());
+    
+    match =  DATE_TIME_PTN.matcher(body);
+    if (match.find()) {
+      String date = match.group(1);
+      data.strDate = date.substring(2,4) + "/" + date.substring(4,6) + "/" + date.substring(0,2);
+      data.strTime = match.group(2);
+      body = body.substring(0,match.start());
+    } else {
+      match = TRUNC_DATE_TIME_PTN.matcher(body);
+      if (match.find()) body = body.substring(0,match.start());
+    }
 
     // Unit are at the end of the body separated by a double blank.
     // But we don't want to actually extract them here, we want to do it after

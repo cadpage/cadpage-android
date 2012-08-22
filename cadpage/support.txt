@@ -553,6 +553,15 @@ Have a  nice day,
 
 ******************************************************************
 
+Cadpage is an Android app that generally will not run on a PC system.  We do have some clever users that have gotten it running using the BlueStacks Android emulator.  Obviously the Windows hardware will receive text messages, so the pages have to be delivered through one of the two message services (CodeMessaging.net or Active911.com) that can push pages to Cadpage without using text messaging.
+
+We don't officially support this, and it is a lot of work to set up.  But it can and has been done.
+
+Good luck,
+-Ken
+
+******************************************************************
+
 This is a known bug in Android 2.2, you can track its status at 
 http://code.google.com/p/android/issues/detail?id=10238&can=1&q=ArrayIndexOutOfBoundsException%20MotionEvent&colspec=ID%20Type%20Status%20Owner%20Summary%20Stars
 
