@@ -5,6 +5,7 @@ import net.anei.cadpage.parsers.CO.COAdamsCountyParser;
 import net.anei.cadpage.parsers.CO.COBoulderCountyParser;
 import net.anei.cadpage.parsers.CO.COWeldCountyParser;
 import net.anei.cadpage.parsers.CO.CONorthglennEMSParser;
+import net.anei.cadpage.parsers.NJ.NJCamdenCountyParser;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -13,18 +14,9 @@ import static org.junit.Assert.*;
 public class GroupBestParserTest extends BaseParserTest {
   
   @Test
-  public void testProblem() {
-    setParser(new GroupBestParser(new COWeldCountyParser(), new COBoulderCountyParser()), "", "CO");
-    setExpLocCode("COWeldCounty");
-    doTest("Weld County",
-        "\" \" 24\nSIPF\nD\n3211 LUPTON AVE\nEV\n24\nMOM IS NOT WAKING UP 0000 Confirm 0001 Refuse TXT STOP to opt-out",
-        "SRC:24",
-        "CODE:SIPF",
-        "CALL:SICK AND INJURED POLICE/FIRE",
-        "ADDR:3211 LUPTON AVE",
-        "SRC:EV",
-        "UNIT:24",
-        "INFO:MOM IS NOT WAKING UP 0000 Confirm 0001 Refuse");
+  public void testRunReport() {
+    setParser(new NJCamdenCountyParser(), "CAMDEN COUNTY", "NJ");
+    setExpLocCode("NJCamdenCountyA");
   }
   
   @Test
@@ -105,21 +97,25 @@ public class GroupBestParserTest extends BaseParserTest {
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "AFROM", "BB");
     doTest(parser, flgs, "BFROM", "AA");
+    doTest(parser, flgs, "AFROM", "AA RUN REPORT");
     
     flgs = MsgParser.PARSE_FLG_GEN_ALERT;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "AFROM", "BB", "GeneralAlert", "GENERAL ALERT", "BB");
     doTest(parser, flgs, "BFROM", "AA");
+    doTest(parser, flgs, "AFROM", "AA RUN REPORT", "TESTA", "RUN REPORT","");
     
     flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "AFROM", "BB");
     doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "AFROM", "AA RUN REPORT");
     
     flgs = MsgParser.PARSE_FLG_FORCE;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "AFROM", "BB", "GeneralAlert","GENERAL ALERT", "BB");
     doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "AFROM", "AA RUN REPORT", "TESTA", "RUN REPORT","");
   }
   
   public void testSingleLooseFilterParser() {
@@ -128,14 +124,17 @@ public class GroupBestParserTest extends BaseParserTest {
     int flgs = 0;
     doTest(parser, flgs, "AFROM", "XX", "TESTA", "TESTA", "");
     doTest(parser, flgs, "XFROM", "XX");
+    doTest(parser, flgs, "AFROM", "XX RUN REPORT");
     
     flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
     doTest(parser, flgs, "AFROM", "XX");
     doTest(parser, flgs, "XFROM", "XX");
+    doTest(parser, flgs, "AFROM", "XX RUN REPORT");
     
     flgs = MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_POSITIVE_ID;
     doTest(parser, flgs, "AFROM", "XX", "TESTA", "TESTA", "");
     doTest(parser, flgs, "XFROM", "XX", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "AFROM", "XX RUN REPORT", "TESTA", "RUN REPORT", "");
   }
   
   public void testSingleLooseNoFilterParser() {
@@ -143,12 +142,15 @@ public class GroupBestParserTest extends BaseParserTest {
     
     int flgs = 0;
     doTest(parser, flgs, "XFROM", "XX");
+    doTest(parser, flgs, "XFROM", "XX RUN REPORT");
     
     flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
     doTest(parser, flgs, "XFROM", "XX");
+    doTest(parser, flgs, "XFROM", "XX RUN REPORT");
     
     flgs = MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_POSITIVE_ID;
     doTest(parser, flgs, "XFROM", "XX", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "XFROM", "XX RUN REPORT", "TESTA", "RUN REPORT", "");
   }
   
   @Test
@@ -163,6 +165,7 @@ public class GroupBestParserTest extends BaseParserTest {
     doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
     doTest(parser, flgs, "AFROM", "BB");
     doTest(parser, flgs, "BFROM", "AA");
+    doTest(parser, flgs, "AFROM", "AA RUN REPORT");
     
     flgs = MsgParser.PARSE_FLG_GEN_ALERT;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
@@ -170,6 +173,7 @@ public class GroupBestParserTest extends BaseParserTest {
     doTest(parser, flgs, "AFROM", "BB", "GeneralAlert", "GENERAL ALERT", "BB");
     doTest(parser, flgs, "BFROM", "AA", "GeneralAlert", "GENERAL ALERT", "AA");
     doTest(parser, flgs, "CFROM", "AA");
+    doTest(parser, flgs, "AFROM", "AA RUN REPORT", "TESTA", "RUN REPORT", "AA");
     
     flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
@@ -178,6 +182,7 @@ public class GroupBestParserTest extends BaseParserTest {
     doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "CFROM", "CC");
+    doTest(parser, flgs, "AFROM", "AA RUN REPORT");
     
     flgs = MsgParser.PARSE_FLG_FORCE;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
@@ -186,6 +191,7 @@ public class GroupBestParserTest extends BaseParserTest {
     doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "CFROM", "CC", "GeneralAlert", "GENERAL ALERT", "CC");
+    doTest(parser, flgs, "AFROM", "AA RUN REPORT", "TESTA", "RUN REPORT", "AA");
   }
   
   @Test
@@ -357,7 +363,11 @@ public class GroupBestParserTest extends BaseParserTest {
       } else {
         if (!body.startsWith(key)) return false;
       }
-      data.strCall = name;
+      if (body.contains("RUN REPORT")) {
+        data.strCall = "RUN REPORT";
+      } else {
+        data.strCall = name;
+      }
       return true;
     }
     
