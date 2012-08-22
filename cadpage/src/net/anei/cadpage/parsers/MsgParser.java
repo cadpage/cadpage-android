@@ -186,8 +186,10 @@ public abstract class MsgParser {
       // identify it as coming from Dispatch.  If the user didn't want to process
       // general alerts, and we aren't running in a test class, change this to
       // an outright failure
-      if (!parseGenAlert && data.strCall.equals("GENERAL ALERT")) return null;
-      if (!parseRunReport && data.strCall.equals("RUN REPORT")) return null;
+      if ((parseFlags & PARSE_FLG_TEST_MODE) == 0) {
+        if (!parseGenAlert && data.strCall.equals("GENERAL ALERT")) return null;
+        if (!parseRunReport && data.strCall.equals("RUN REPORT")) return null;
+      }
       return data;
     }
     
