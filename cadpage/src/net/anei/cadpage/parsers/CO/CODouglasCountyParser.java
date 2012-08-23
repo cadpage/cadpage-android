@@ -26,6 +26,10 @@ Contact: "ericjoern@pm.sprint.com" <ericjoern@pm.sprint.com>
 Subject:Dispatch\nCall: F LIGHTNING Location: STATE HIGHWAY 86 / CHEROKEE TRL Map: AJ42 Units: E271 XXX271  Common Name: Time: 06/13/12 21:06
 Subject:Dispatch\nCall: F BRUSH (T) Location: 4495 W KIOWA CREEK RD / Map: AV44 Units: XXX231 XXX271  BADGER LN / PUMA DR Common Name: Time:
 
+Contact: Joe Spencer <firelad181532@gmail.com>
+Sender: cad__1295231@notifyatonce.net
+(Dispatch) Call: F MVA UNK INJ Location: N  STATE HIGHWAY 83 / E  STATE HIGHWAY 86 1NOF Map: AG36C Units: E184 MED181 XXX181  Common Name: Time: 08/22
+
 Contact: Active911
 Agency name: Douglas County Location: Douglas County, CO 
 Sender: dcso@douglas.co.us
@@ -169,7 +173,7 @@ public class CODouglasCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@notifyall.com,dcso@douglas.co.us";
+    return "@notifyall.com,@notifyatonce.com,dcso@douglas.co.us";
   }
 
   @Override

@@ -84,7 +84,11 @@ Sender: messaging@iamresponding.com
 Contact: CHRIS HANNAN <fire56ch@yahoo.com>
 Sender: messaging@iamresponding.com
 FRM:messaging@iamresponding.com\nSUBJ:CANFD\nMSG:CANFD:2012:171\r\nDispatched\r\nPole/Wires\r\nN MAIN , CANASTOTA VILLAGE
- 
+
+Contact: "Steve" <sxv700r6@aol.com>
+Sender: 777212238766
+.... (Deansboro Fire) ???DEAF:2012:0069 >Dispatched >EMS CALL >2033 BROTHERTOWN RD (COUNTY ROUTE 8A), MARSHALL (ROUTE 315/VAN HYNING RD)
+
 ** NOT IMPLEMENTED **
 FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WESTMORELAND/W MAIN ST (COUNTY ROUTE 23), WESTMORELAND
 ???STIF:2011:0140Dispatched30B01 - POSSIBLY DANGEROUS BODY AREA8533 CHAMINADE RD, MARCY (OLD RIVER RD/ORISKANY RD; Near:VINCES U PULL IT)
