@@ -306,6 +306,21 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "CALL:Pole/Wires",
         "ADDR:N MAIN",
         "CITY:CANASTOTA VILLAGE");
+    
+  }
+  
+  @Test
+  public void testSteve() {
+
+    doTest("T1",
+        ".... (Deansboro Fire) ???DEAF:2012:0069 >Dispatched >EMS CALL >2033 BROTHERTOWN RD (COUNTY ROUTE 8A), MARSHALL (ROUTE 315/VAN HYNING RD)",
+        "SRC:Deansboro Fire",
+        "ID:2012:0069",
+        "CALL:EMS CALL",
+        "ADDR:2033 BROTHERTOWN RD",
+        "CITY:MARSHALL",
+        "X:COUNTY ROUTE 8A",
+        "INFO:ROUTE 315/VAN HYNING RD");
 
   }
   

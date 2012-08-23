@@ -98,6 +98,18 @@ public class CODouglasCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testJoeSpencer() {
+
+    doTest("T1",
+        "(Dispatch) Call: F MVA UNK INJ Location: N  STATE HIGHWAY 83 / E  STATE HIGHWAY 86 1NOF Map: AG36C Units: E184 MED181 XXX181  Common Name: Time: 08/22",
+        "CALL:F MVA UNK INJ",
+        "ADDR:N  STATE HIGHWAY 83 & E  STATE HIGHWAY 86 1NOF",
+        "MADDR:N  STATE 83 & E  STATE 86 1NOF",
+        "MAP:AG36C",
+        "UNIT:E184 MED181 XXX181");
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",
