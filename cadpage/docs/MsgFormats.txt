@@ -2552,6 +2552,11 @@ F212  P: 2 LOC: 375 STARLIGHT DR X: CAUSE WAY LN / ZENITH AV * * Fort Mill * * T
 FM2  P: 1 LOC: 9657 BLACK HORSE RUN X: * * * * Structure Fire * YCF OPS 2/STR FIRE * LANCASTER CNTY NAR:  HWY 521 CHARLOTTE HWY  FT MILL ASSIST ON MUTUAL AIDE  INC#: 2010-00000702 
 RFE1 RFE5 RFE2 RFL1 RFB1  P: 1 LOC: 229 BLANCHE CIR X: STROUPE ST / CRAWFORD RD * CRAWFORD PARK * Rock Hill * * Structure Fire * RHF OPS 2/ STRUCT FIRE * NAR:  ABANDONED HOUSE ON FIRE, FLAMES VISIBLE  INC#: 2010-00005928 
 ***************************************************************************
+Lincoln County, SD (SDLincolnCountyParser)
+Subject:12-10952 - SIG1 : Injury Accident\nI-29 MM 64 \r\nPlease respond immediately. Roll over 6pts. I-29 nb south of the 64mm.\r
+Subject:12-10680 -\n48548 480TH AVE, Canton \r\nPlease respond immediately. Diabetic emergency\r
+Subject:AMB : Ambulance Call\n307 E Jefferson St # 7, Inwood eld male who has fallen\r
+***************************************************************************
 Minnehaha county, SD (SDMinnehahaCountyParser)
 930 Quad 2070 - VS 100 CLIFF AVE 2 VS Unconsc/Faint C3 2011-00000870
 930 Quad 460 - BR 904 SNOWBERRY AVE BR Conv Seizure C3 2011-00000374
@@ -4835,24 +4840,6 @@ Sender: bssmith@co.jefferson.co.us
 **********************************************************
 **********************************************************
 **********************************************************
-Lincoln County, SD
-Contact: James Dietz <kc0usq@gmail.com>
-Sender: no-reply@ledsportal.com
-System: LEDS
-Subject:SIG20 : Suicide/Threat/Attempt\nSTANDBY AT 28323 S BARTLETT FOR PD, 15 YEAR OLD FEMALE LACERATIONS TO THE WRISTS\r
-Subject:12-10952 - SIG1 : Injury Accident\nI-29 MM 64 \r\nPlease respond immediately. Roll over 6pts. I-29 nb south of the 64mm.\r
-Subject:12-10680 -\n48548 480TH AVE, Canton \r\nPlease respond immediately. Diabetic emergency\r
-Subject:AMB : Ambulance Call\n307 E Jefferson St # 7, Inwood eld male who has fallen\r
-213 N MAIN INWOOD FOR 30 YEAR OLD MALE POSS BROKEN LEG\r
-Subject:12-10682 -\n903 W 5th. st #3, ca \r\nPlease respond immediately. 60 yo. f fallen and hit head.\r
-Subject:No Meeting\nCanton - Inwood Ambulance there will be NO Meeting tonight..\r
-Subject:AMB : Ambulance Call\nI-29 NB at 59 MM59 MM I-29 27 YOM with severe back pain\r
-Subject:AMB : Ambulance Call\nkeystone treatment center for 16 yoa male in and out of cons\r
-Subject:AMB : Ambulance Call\n501 S MAPLE ST, Inwood female had a baby 1 week ago passing clots\r
-704 E 2ND ST FOR ELDERLY MALE NEEDS TO BE RETURNED TO VA HOSPITAL\r
-Subject:AMB : Ambulance Call\n1022 N DAKOTA ST, CANTON, SD Non-ER transfer to Avera ER for behavioral evaluation\r
-Subject:No Meeting\nCanton - Inwood Ambulance there will be NO Meeting tonight..\r
-Subject:Mutual Aid for Field and Hay Baler Fire\n48259 289th St\r\nPlease respond immediately.\r
 **********************************************************
 Roanoke City, VA
 Contact: Sandy Webb <sandywebb@gmail.com>
@@ -4908,4 +4895,3 @@ Subject:Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n2315 HUNTERSTOWN-HAMPTON R
 **********************************************************
 **********************************************************
 **********************************************************
-RC:Run# 22758/1737 GATY AVE///SCC PG 12/EAST SAINT LOUIS///Traumatic Injuries (Specific)/injury to foot 20 yof c/b/<PROQA_DET>
