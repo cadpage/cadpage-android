@@ -87,11 +87,11 @@ Sta: Inc#: 2012-018512 78AS2 Loc:: 12036 Sussex Hwy Loc: Greenwood Inn/ RM11 Cit
 
 public class DESussexCountyBParser extends FieldProgramParser {
   
-  private static final Pattern ALT_START_SEQ = Pattern.compile("Sta: +Inc#: +([-\\d]+) +(.*)");
+  private static final Pattern ALT_START_SEQ = Pattern.compile("^Sta: +Inc#: +([-\\d]+) +(.*)");
   
   public DESussexCountyBParser() {
     super(CITY_CODES, "SUSEX COUNTY", "DE",
-           "Inc0:ID? Sta:SRC! Loc0:ADDR! Loc:PLACE! City:CITY! ---:CALL! Inc#:ID? Lat:GPS? Long:GPS? DISP:TIME Cross_St:X");
+           "Inc0:ID? Sta:SRC! Call_at:ADDR! Loc:PLACE! City:CITY! Problem:CALL! Inc#:ID? Lat:GPS? Long:GPS? DISP:TIME Cross_St:X");
   }
   
   @Override
@@ -102,9 +102,11 @@ public class DESussexCountyBParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    // CodeMessaging does some data massaging.  Which we have to duplicate if we are getting the page direct from dispatch
-    if(subject.equals("CAD Alert")) {
-      body = "Sta: " + body.replace(" Call at:", "Loc::").replace(" Problem:", " ---:");
+    // CodeMessaging does some data massaging.  Which we will try to reverse
+    if(body.startsWith("Sta: ")) {
+      body = body.replace(" Loc::", " Call at:").replace(" ---:", " Problem:").replace(" City: :", " City:");
+    } else {
+      body = "Sta: " + body;
     }
     
     body = ALT_START_SEQ.matcher(body).replaceAll("Inc0: $1 Sta: $2");
