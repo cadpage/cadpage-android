@@ -95,7 +95,7 @@ public class SDLincolnCountyParser extends SmartAddressParser {
       match = CITY_ST_PTN.matcher(body);
       if (match.find()) {
         data.strCity = match.group(1);
-        data.strState = match.group(2);
+        data.strState = getOptGroup(match.group(2));
         if (!CITY_SET.contains(data.strCity.toUpperCase())) return false;
         body = body.substring(match.end()).trim();
         if (info == null) info = body;

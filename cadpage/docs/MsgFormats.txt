@@ -2753,6 +2753,11 @@ Orange county, VA (VAOrangeCountyParser)
 [7/18/2011 08:42] orange911@oorange.org: [Orange911]  [LOCATION]: 11111 PLANK RD  [NATURE]: AA- Auto Accident  [INCIDENT#]: 2011-00003105 08:39
 [7/20/2011 15:46] orange911@oorange.org: [Orange911]  [LOCATION]: 35059 GERMANNA HEIGHTS DR  [NATURE]: Medical Alarm  [INCIDENT#]: 2011-00003133 15:44 A AND K BLVD / GERMANNA HWY Locust Grove BOX 2901
 ***************************************************************************
+Roanoke City, VA (VARoanokeCityParser)
+Working Fire at 1401 ORANGE AVE NW
+Working Fire at 2802 COLONIAL AVE SWAPT 16
+Working Fire at 5046 WILLIAMSON RD NW
+***************************************************************************
 Roanoke County, VA (VARoanokeCountyParser)
 RES3 R33 CO3 W3 EMS2  ACCIDENT PERSONAL INJURY CHAPARRAL DR XST  PENN FOREST
 COMMERCIAL FIRE ALARM RICHFIELD MEMORY CARE CENTER 3719 KNOLLRIDGE RD XST 5/5/2012 11:40:27 AM
@@ -4841,12 +4846,6 @@ Sender: bssmith@co.jefferson.co.us
 **********************************************************
 **********************************************************
 **********************************************************
-Roanoke City, VA
-Contact: Sandy Webb <sandywebb@gmail.com>
-Sender: e911@roanokeva.gov
-Working Fire at 1401 ORANGE AVE NW
-Working Fire at 2802 COLONIAL AVE SWAPT 16
-Working Fire at 5046 WILLIAMSON RD NW
 **********************************************************
 Dothan, AL 
 Contact: Jacob Wozow <jwozow06@gmail.com>
