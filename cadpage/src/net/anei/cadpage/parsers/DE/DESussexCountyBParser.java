@@ -8,6 +8,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Sussex County, DE
+Contact: Richard Short <rshort7815@gmail.com>
+Sender: cad@sussexcountyde.gov 
+(CAD Alert) 78ST   Call at: 21303 Airport Rd         Loc: TEST CALL TEST CALL      City:19947  Problem:  Structure Fire                  Inc#: 2012-018545   
+(CAD Alert) Inc#: 2012-018946 78AS3  Call at: 10064 Memory Rd          Loc:                          City:19952  Problem:  Sick Person(Specific Diag)-BLS   D
+(CAD Alert) Inc#: 2012-018835 78AST  Call at: 14514 Oak Rd             Loc:                          City:19950  Problem:  Assault/Sexual Assault-BLS       D
+(CAD Alert) 78AST  Call at: 6300 Seashore Hwy        Loc: USE BACK DOOR            City:19933  Problem:  Chest Pain-ALS                  Inc#: 2012-018955    
+
 Contact: CodeMessaging
 Sender: @c-msg.net
 
@@ -89,11 +96,17 @@ public class DESussexCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@c-msg.net";
+    return "@c-msg.net,cad@sussexcountyde.gov";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // CodeMessaging does some data massaging.  Which we have to duplicate if we are getting the page direct from dispatch
+    if(subject.equals("CAD Alert")) {
+      body = "Sta: " + body.replace(" Call at:", "Loc::").replace(" Problem:", " ---:");
+    }
+    
     body = ALT_START_SEQ.matcher(body).replaceAll("Inc0: $1 Sta: $2");
     body = body.replace(" Loc::", " Loc0:").replace("City: :", "City:").replace("Loc:", " Loc:").replace("City:", " City:");
     return super.parseMsg(body, data);
