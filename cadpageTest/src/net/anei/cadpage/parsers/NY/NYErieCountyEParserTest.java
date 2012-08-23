@@ -140,6 +140,18 @@ public class NYErieCountyEParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testChuck() {
+
+    doTest("T1",
+        "ALERT@ERIE.GOV EMS 10703 PERRY ST BRANT ELDERLY FEMALE FELL, LIFT ASSSIT",
+        "CALL:EMS",
+        "ADDR:10703 PERRY ST",
+        "CITY:BRANT",
+        "INFO:ELDERLY FEMALE FELL, LIFT ASSSIT");
+
+  }
+  
   public static void main(String[] args) {
     new NYErieCountyEParserTest().generateTests("T1", "CALL ADDR APT CITY INFO");
   }

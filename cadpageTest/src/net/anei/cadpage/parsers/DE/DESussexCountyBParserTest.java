@@ -12,6 +12,45 @@ public class DESussexCountyBParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testRichardShort() {
+
+    doTest("T1",
+        "(CAD Alert) 78ST   Call at: 21303 Airport Rd         Loc: TEST CALL TEST CALL      City:19947  Problem:  Structure Fire                  Inc#: 2012-018545   ",
+        "ID:2012-018545",
+        "SRC:78ST",
+        "ADDR:21303 Airport Rd",
+        "PLACE:TEST CALL TEST CALL",
+        "CITY:GEORGETOWN",
+        "CALL:Structure Fire");
+
+    doTest("T2",
+        "(CAD Alert) Inc#: 2012-018946 78AS3  Call at: 10064 Memory Rd          Loc:                          City:19952  Problem:  Sick Person(Specific Diag)-BLS   D",
+        "ID:2012-018946",
+        "SRC:78AS3",
+        "ADDR:10064 Memory Rd",
+        "CITY:HARRINGTON",
+        "CALL:Sick Person(Specific Diag)-BLS");
+
+    doTest("T3",
+        "(CAD Alert) Inc#: 2012-018835 78AST  Call at: 14514 Oak Rd             Loc:                          City:19950  Problem:  Assault/Sexual Assault-BLS       D",
+        "ID:2012-018835",
+        "SRC:78AST",
+        "ADDR:14514 Oak Rd",
+        "CITY:GREENWOOD",
+        "CALL:Assault/Sexual Assault-BLS");
+
+    doTest("T4",
+        "(CAD Alert) 78AST  Call at: 6300 Seashore Hwy        Loc: USE BACK DOOR            City:19933  Problem:  Chest Pain-ALS                  Inc#: 2012-018955    ",
+        "ID:2012-018955",
+        "SRC:78AST",
+        "ADDR:6300 Seashore Hwy",
+        "PLACE:USE BACK DOOR",
+        "CITY:BRIDGEVILLE",
+        "CALL:Chest Pain-ALS");
+
+  }
+  
+  @Test
   public void testCodeMessaging1() {
 
     doTest("T1",
