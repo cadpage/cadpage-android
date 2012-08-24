@@ -575,6 +575,11 @@ Morrow County, OH (OHMorrowCountyParser)
 (Alert: Fire Occupied Structure) ALRM LVL: 1\nLOC:\n2681 RD 254\nLINCOLN TWP\nBTWN: RD 155 & DEAD END\n\nRCVD AS 911\n\nCOM:\nCHIMNEY FIRE\nGETTING EVERYONE OUT OF THE HOUSE
 (Alert: MVA) ALRM LVL: 1\nLOC:\n156 I-71\nPERRY TWP\nBTWN: MM 156 & MM 158\n\nRCVD AS 911\n\nCOM:\nNB\n2 SEMI\nUNK IF OTHER SEMI IS CARRYING ANY HAZMAT\nACCIDENT IS SPREAD OUT
 *******************************************************************************
+Adams County, PA (PAAdamsCountyParser)
+Subject:Alert: Traffic Accident - 1\nALRM LVL: 1\nLOC:\n274 HANOVER ST\nOXFORD TWP\nBTWN: COMMERCE ST & TROUT LN
+Subject:Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n80 HUNTER CIR\nHAMILTON TWP\nBTWN: FOX DEN LN & FOX MEADOW
+Subject:Alert: Diabetic Emergency - 1\nALRM LVL: 1\nLOC:\nLINCOLNWAY W/TRACY AVE\nNEW OXFORD BORO\nBTWN: TRACY AVE & KOHLER MILL RD
+*******************************************************************************
 Monroeville, PA (PAMonroevilleParser)
 [Alert: Sick Person]  ALRM LVL: 1\nLOC:\n538 FIRETHORN DR\nMONROEVILLE\nBTWN: FIELDSTONE DR & N/A\n\nRCVD AS Phone\n\nCOM:\n23Y/O FEMALE SICK / ALPHA\n\nCT:\nMD103 at
 [Alert: Breathing]  ALRM LVL: 1\nLOC:\n721 HEARTWOOD DR\nMONROEVILLE\nBTWN: COTTONWOOD DR & COTTONWOOD DR\n\nRCVD AS Phone\n\nCOM:\n94 YO FEMALE/DIFF BREATHING/3RD
@@ -4874,15 +4879,6 @@ PERSON  DOWN  6001  S CR 55  POSS S44
 S38A  432  PHILLIP RD..C2
 **********************************************************
 **********************************************************
-Adams County, PA
-Contact: Tim Tyler <tyler33fire@yahoo.com>
-DispatchA1Parser subclass
-Check Active911 tickets.  I'm pretty sure there is one for this county
-Subject:Alert: Traffic Accident - 1\nALRM LVL: 1\nLOC:\n274 HANOVER ST\nOXFORD TWP\nBTWN: COMMERCE ST & TROUT LN
-Subject :Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n80 HUNTER CIR\nHAMILTON TWP\nBTWN: FOX DEN LN & FOX MEADOW
-Subject:Alert: Diabetic Emergency - 1\nALRM LVL: 1\nLOC:\nLINCOLNWAY W/TRACY AVE\nNEW OXFORD BORO\nBTWN: TRACY AVE & KOHLER MILL RD
-Subject:Alert: Traffic Accident - 2\nALRM LVL: 1\nLOC:\nYORK RD/FLESHMAN MILL RD\nMOUNT PLEASANT TWP\nBTWN: FLESHMAN MILL RD
-Subject:Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n2315 HUNTERSTOWN-HAMPTON RD\nSTRABAN TWP\nBTWN: ALLEY & CONEWAGO RD
 **********************************************************
 *********************************************************
 **********************************************************

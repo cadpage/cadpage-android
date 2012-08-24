@@ -74,6 +74,13 @@ Subject: Alert: EMS DIABETIC EMERGENCY\nALRM LVL: 1\nLOC:\nSTATION 61\n8871 WEEK
 Subject: Alert: EMS DIABETIC EMERGENCY\nALRM LVL: 1\nLOC:\nSTATION 61\n8871 WEEKLY LN\nSYMMTP\nBTWN: MASON RD & DEAD END\n\n\n\nCOM:\nM/20\nEMS\nLOW BLOOD SUGAR\nLOBBY\nIN FRT LOBBY\n\nCT:\nD-AWK at POS 02
 Subject: Alert: EMS ABDOMINAL PAIN\nALRM LVL: 1\nLOC:\n154 FALLENOAK CT\nLOVELD\nBTWN: RAVINEWOOD TE & DEADEND\n\nRCVD AS Phone\n\nCOM:\nM-13....VOMITING & HALLUCENATING\n\nCT:\nD-RCS at POS 02
 
+Adams County, PA
+Subject:Alert: Traffic Accident - 1\nALRM LVL: 1\nLOC:\n274 HANOVER ST\nOXFORD TWP\nBTWN: COMMERCE ST & TROUT LN
+Subject:Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n80 HUNTER CIR\nHAMILTON TWP\nBTWN: FOX DEN LN & FOX MEADOW
+Subject:Alert: Diabetic Emergency - 1\nALRM LVL: 1\nLOC:\nLINCOLNWAY W/TRACY AVE\nNEW OXFORD BORO\nBTWN: TRACY AVE & KOHLER MILL RD
+Subject:Alert: Traffic Accident - 2\nALRM LVL: 1\nLOC:\nYORK RD/FLESHMAN MILL RD\nMOUNT PLEASANT TWP\nBTWN: FLESHMAN MILL RD
+Subject:Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n2315 HUNTERSTOWN-HAMPTON RD\nSTRABAN TWP\nBTWN: ALLEY & CONEWAGO RD
+
 */
 public class DispatchA1Parser extends FieldProgramParser {
 
@@ -121,6 +128,23 @@ public class DispatchA1Parser extends FieldProgramParser {
     }
   }
   
+  // This should be the address field.  But check to see if the place field
+  // in front of it makes a better address
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strPlace.length() > 0) {
+        int chk1 = checkAddress(data.strPlace);
+        if (chk1 > 0 && chk1 > checkAddress(field)) {
+          String tmp = data.strPlace;
+          data.strPlace = field;
+          field = tmp;
+        }
+      }
+      super.parse(field, data);
+    }
+  }
+  
   private class MyAptField extends AptField {
 
     @Override
@@ -158,6 +182,7 @@ public class DispatchA1Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
