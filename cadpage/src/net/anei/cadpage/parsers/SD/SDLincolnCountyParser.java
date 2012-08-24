@@ -23,14 +23,24 @@ Subject:AMB : Ambulance Call\nI-29 NB at 59 MM59 MM I-29 27 YOM with severe back
 Subject:AMB : Ambulance Call\n501 S MAPLE ST, Inwood female had a baby 1 week ago passing clots\r
 Subject:AMB : Ambulance Call\n1022 N DAKOTA ST, CANTON, SD Non-ER transfer to Avera ER for behavioral evaluation\r
 Subject:Mutual Aid for Field and Hay Baler Fire\n48259 289th St\r\nPlease respond immediately.\r
+Subject:12-11731 -\n1947 250th St - M pt Fall Victim.  Please respond immediately.\r
+Subject:12-11722 - AMB : Ambulance Call\n519 S BARTLETT ST, CANTON, SD \r\nPlease respond immediately. 82 Yo. f poss dehydrated\r
+Subject:12-11690 - AMB : Ambulance Call\nSanford Canton-Inwood Hospital 14 y/o F pt - Head Injury\r\nPlease respond immediately.\r
+Subject:12-11612 - AMB : Ambulance Call\nCanton Good Samaritan Society \r\nPlease respond immediately.  98yo.f diff. breathing\r
+
+** Parser failures **
+Subject:dehydration\n519 s bartlett 18 yo female dehyrated, please respond\r
+Subject:12-11706 - AMB : Ambulance Call\n420 S. Dakota, c \r\nPlease respond immediately. 36 yo. m passed out.\r
 
 */
 
 public class SDLincolnCountyParser extends SmartAddressParser {
   
   private static final Pattern CALL_ID_PTN = Pattern.compile("^(\\d\\d-\\d+) -");
+  private static final Pattern MASTER_PTN = Pattern.compile("(.*)?(?:\n| - )(.*)");
   private static final Pattern STANDBY_PTN = Pattern.compile("^STANDBY +(?:AT +)", Pattern.CASE_INSENSITIVE);
   private static final Pattern CITY_ST_PTN = Pattern.compile("^([A-Z ]+)\\b(?: *, *([A-Z]{2}))");
+  private static final Pattern INFO_JUNK_PTN = Pattern.compile(" *Please respond immediately\\.? *", Pattern.CASE_INSENSITIVE);
  
   public SDLincolnCountyParser() {
     super(CITY_LIST, "LINCOLN COUNTY", "SD");
@@ -57,10 +67,10 @@ public class SDLincolnCountyParser extends SmartAddressParser {
     data.strCall = subject;
     
     String info = null;
-    int pt = body.indexOf('\n');
-    if (pt >= 0) {
-      info = body.substring(pt+1).trim();
-      body = body.substring(0,pt).trim();
+    match = MASTER_PTN.matcher(body);
+    if (match.matches()) {
+      body = match.group(1).trim();
+      info = match.group(2).trim();
     }
 
     // Check for leading STANDBY qualifier
@@ -71,7 +81,7 @@ public class SDLincolnCountyParser extends SmartAddressParser {
     }
     
     // See if there is an comma terminating the address
-    pt = body.indexOf(',');
+    int pt = body.indexOf(',');
     if (pt < 0) {
       
       // Use the smart address parser to try and find and address
@@ -110,7 +120,7 @@ public class SDLincolnCountyParser extends SmartAddressParser {
       }
     }
     
-    if (info.startsWith("Please respond immediately.")) info = info.substring(27).trim();
+    info = INFO_JUNK_PTN.matcher(info).replaceAll(" ").trim();
     data.strSupp = info;
     
     if (data.strCity.equalsIgnoreCase("CA")) data.strCity = "CANTON";
