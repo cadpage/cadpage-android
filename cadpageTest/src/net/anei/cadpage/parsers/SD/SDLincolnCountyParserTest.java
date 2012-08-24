@@ -75,10 +75,39 @@ public class SDLincolnCountyParserTest extends BaseParserTest {
         "Subject:Mutual Aid for Field and Hay Baler Fire\n48259 289th St\r\nPlease respond immediately.\r",
         "CALL:Mutual Aid for Field and Hay Baler Fire",
         "ADDR:48259 289th St");
+
+    doTest("T9",
+        "Subject:12-11731 -\n1947 250th St - M pt Fall Victim.  Please respond immediately.\r",
+        "ID:12-11731",
+        "CALL:ALERT",
+        "ADDR:1947 250th St",
+        "INFO:M pt Fall Victim.");
+
+    doTest("T10",
+        "Subject:12-11722 - AMB : Ambulance Call\n519 S BARTLETT ST, CANTON, SD \r\nPlease respond immediately. 82 Yo. f poss dehydrated\r",
+        "ID:12-11722",
+        "CALL:AMB : Ambulance Call",
+        "ADDR:519 S BARTLETT ST",
+        "CITY:CANTON",
+        "ST:SD",
+        "INFO:82 Yo. f poss dehydrated");
+
+    doTest("T11",
+        "Subject:12-11690 - AMB : Ambulance Call\nSanford Canton-Inwood Hospital 14 y/o F pt - Head Injury\r\nPlease respond immediately.\r",
+        "ID:12-11690",
+        "CALL:AMB : Ambulance Call",
+        "ADDR:Sanford Canton-Inwood Hospital 14 y & o F pt - Head Injury");
+
+    doTest("T12",
+        "Subject:12-11612 - AMB : Ambulance Call\nCanton Good Samaritan Society \r\nPlease respond immediately.  98yo.f diff. breathing\r",
+        "ID:12-11612",
+        "CALL:AMB : Ambulance Call",
+        "ADDR:Canton Good Samaritan Society",
+        "INFO:98yo.f diff. breathing");
     
   }
   
   public static void main(String[] args) {
-    new SDLincolnCountyParserTest().generateTests("T1", "ID CALL ADDR APT CITY ST INFO");
+    new SDLincolnCountyParserTest().generateTests("T9", "ID CALL ADDR APT CITY ST INFO");
   }
 }
