@@ -1163,6 +1163,11 @@ Douglas County, CO (CODouglasCountyParser)
 (Dispatch) Call: F MED ASSIST Location: 11710 PONDEROSA LN / Map: AF40D Units: E184 MED181 XXX184  PONDEROSA RD / ELKHORN DR Common Name: Time: 08/25/1
 (Dispatch) Call: F GAS LP OUTSIDE Location: DEERFIELD RD / S  WHITE TAIL DR I Map: AI38D Units: E181 XXX181  Common Name: Time: 08/25/11 20:07 Narrativ
 ***************************************************************************
+El Paso County, CO (COElPasoCountyParser)
+CAL FD - Unconscious / Fainti24615 Scott Rd                Big Cats of Ser[Premise:  24615 SCOTT RD] [Low] [UNKNOWN] See " P\r
+CAL FD - Medical             1222 Ververs Ln                              1481 transporting,no further resp needed,Automatic\r
+CAL FD - Medical             5TH ST / CASCADE ST                          5C42  NEED MEDICAL - SCRAPE ON HEAD -[Shared],5C42\r
+***************************************************************************
 Garfield County, CO (COGarfieldCountyParser)
 (CAD Page) Accident Location  97 E I70SILT 2012 00000387     
 (CAD Page) FSmoke Check Location  15000 CORD 313 Z2 2012 00000388     
@@ -4868,15 +4873,6 @@ MEDICAL CALL COTTONWOOD RD/SEALY WELLS 56YOM DISORIENTED-DIABETICS
 PERSON  DOWN  6001  S CR 55  POSS S44
 S38A  432  PHILLIP RD..C2
 **********************************************************
-El Paso County, CO
-Contact: Shane Gattis <cfpd1400@gmail.com>
-Sender: ept@ept911.info
-System: Tri Tech
-CAL FD - Unconscious / Fainti24615 Scott Rd                Big Cats of Ser[Premise:  24615 SCOTT RD] [Low] [UNKNOWN] See " P\r
-CAL FD - Medical             1222 Ververs Ln                              1481 transporting,no further resp needed,Automatic\r
-CAL FD - Medical             5TH ST / CASCADE ST                          5C42  NEED MEDICAL - SCRAPE ON HEAD -[Shared],5C42\r
-CAL FD - Medical             1350 8th St                                  [Page] Unit: 5c46, Sent From: EPSO4 ,MP , 5C46 5C4\r
-CAL FD - Chest Pain          185 4th St                    Calhan Full Gos911ALI Info: Verizon WRLS 800-451-5242, Wireless,\r
 **********************************************************
 Adams County, PA
 Contact: Tim Tyler <tyler33fire@yahoo.com>
