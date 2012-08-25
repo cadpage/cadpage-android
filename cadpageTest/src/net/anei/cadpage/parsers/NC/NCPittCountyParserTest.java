@@ -682,6 +682,52 @@ public class NCPittCountyParserTest extends BaseParserTest {
         "INFO:GENERAL // NO KEYHOLDER LIST",
         "ADDR:2313 S MEMORIAL DR");
 
+    doTest("T23",
+        "[911 Fire Call] R02|Rcvd:08/05/2012 02:23|Rsn:STRUCTURE FIRE|Note:305 ALICE DR|Adr:0  -\r\n" +
+        "\r\n" +
+        "________________________________\r\n" +
+        "\r\n" +
+        "This e-mail is for the intended recipient only.\r\n" +
+        "If you have received it by mistake please let us know by reply and then delete it from your system; access, disclosure, copying, distribution or reliance on any of it by anyone else is prohibited.\r\n" +
+        "If you as intended recipient have received this e-mail incorrectly, please notify the sender (via e-mail) immediately.\r\n",
+
+        "SRC:R02",
+        "DATE:08/05/2012",
+        "TIME:02:23",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:305 ALICE DR");
+
+    doTest("T24",
+        "[911 Fire Call] R05|Rcvd:08/05/2012 02:23|Rsn:STRUCTURE FIRE|Note:305 ALICE DR|Adr:0  -\r\n" +
+        "\r\n" +
+        "________________________________\r\n" +
+        "\r\n" +
+        "This e-mail is for the intended recipient only.\r\n" +
+        "If you have received it by mistake please let us know by reply and then delete it from your system; access, disclosure, copying, distribution or reliance on any of it by anyone else is prohibited.\r\n" +
+        "If you as intended recipient have received this e-mail incorrectly, please notify the sender (via e-mail) immediately.\r\n",
+
+        "SRC:R05",
+        "DATE:08/05/2012",
+        "TIME:02:23",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:305 ALICE DR");
+
+  }
+  
+  @Test
+  public void testConfirmFire() {
+
+    doTest("T1",
+        "(911 Fire Call) >>ADDRESS: 0 - >>NOTES: 3211 SUMMER PL 3",
+        "CALL:CONFIRMED FIRE",
+        "ADDR:3211 SUMMER PL 3");
+
+    doTest("T2",
+        "[911 Fire Call] >>ADDRESS: 0  -   >>NOTES: 305 ALICE DR // RED CROSS NOTIFIED // GUC ELECTRIC NOTIFIED // SAM SMITH NOTIFIED",
+        "CALL:CONFIRMED FIRE",
+        "INFO:RED CROSS NOTIFIED // GUC ELECTRIC NOTIFIED // SAM SMITH NOTIFIED",
+        "ADDR:305 ALICE DR");
+
   }
 
   public static void main(String[] args) {
