@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -41,11 +44,18 @@ sender: donotreply@pittcountync.gov
 (911 Fire Call) F01|Rcvd:07/02/2012 12:29|Rsn:FIRE ALARM ACTIVATION|Note:SAME|Adr:214 E FIRE TOWER RD\n\n________________________________\n\nThis e-mail is for the intended recipient only.\nIf you have received it by mistake please let us know by reply and then delete it from your system; access, disclosure, copying, distribution or reliance on any of it by anyone else is prohibited.\nIf you as intended recipient have received this e-mail incorrectly, please notify the sender (via e-mail) immediately.
 (911 Fire Call) F01|Rcvd:07/02/2012 21:25|Rsn:FIRE ALARM|Note:108 CHANDLER DR G|Adr:1717 W 5TH ST\n\n________________________________\n\nThis e-mail is for the intended recipient only.\nIf you have received it by mistake please let us know by reply and then delete it from your system; access, disclosure, copying, distribution or reliance on any of it by anyone else is prohibited.\nIf you as intended recipient have received this e-mail incorrectly, please notify the sender (via e-mail) immediately.
 (911 Fire Call) F01|Rcvd:07/03/2012 09:24|Rsn:FIRE ALARM ACTIVATION|Note:GENERAL // NO KEYHOLDER LIST|Adr:2313 S MEMORIAL DR\n\n________________________________\n\nThis e-mail is for the intended recipient only.\nIf you have received it by mistake please let us know by reply and then delete it from your system; access, disclosure, copying, distribution or reliance on any of it by anyone else is prohibited.\nIf you as intended recipient have received this e-mail incorrectly, please notify the sender (via e-mail) immediately.
+[911 Fire Call] R02|Rcvd:08/05/2012 02:23|Rsn:STRUCTURE FIRE|Note:305 ALICE DR|Adr:0  -\r\n\r\n________________________________\r\n\r\nThis e-mail is for the intended recipient only.\r\nIf you have received it by mistake please let us know by reply and then delete it from your system; access, disclosure, copying, distribution or reliance on any of it by anyone else is prohibited.\r\nIf you as intended recipient have received this e-mail incorrectly, please notify the sender (via e-mail) immediately.\r\n
+[911 Fire Call] R05|Rcvd:08/05/2012 02:23|Rsn:STRUCTURE FIRE|Note:305 ALICE DR|Adr:0  -\r\n\r\n________________________________\r\n\r\nThis e-mail is for the intended recipient only.\r\nIf you have received it by mistake please let us know by reply and then delete it from your system; access, disclosure, copying, distribution or reliance on any of it by anyone else is prohibited.\r\nIf you as intended recipient have received this e-mail incorrectly, please notify the sender (via e-mail) immediately.\r\n
 
-NCPittCountyParser
+** Special CONFIRMED FIRE notices
+(911 Fire Call) >>ADDRESS: 0 - >>NOTES: 3211 SUMMER PL 3
+[911 Fire Call] >>ADDRESS: 0  -   >>NOTES: 305 ALICE DR // RED CROSS NOTIFIED // GUC ELECTRIC NOTIFIED // SAM SMITH NOTIFIED
+
 */
 
 public class NCPittCountyParser extends FieldProgramParser {
+  
+  private static final Pattern CONFIRM_FIRE_MARKER = Pattern.compile(">>ADDRESS: +0 +- +>>NOTES: *(.*?)(?: // (.*))?");
   
   public NCPittCountyParser() {
     super("PITT COUNTY", "NC",
@@ -62,7 +72,17 @@ public class NCPittCountyParser extends FieldProgramParser {
     if (!subject.equals("911 Fire Call")) return false;
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
+    
+    Matcher match = CONFIRM_FIRE_MARKER.matcher(body);
+    if (match.matches()) {
+      data.strCall = "CONFIRMED FIRE";
+      parseAddress(match.group(1).trim(), data);
+      data.strSupp = getOptGroup(match.group(2));
+      return true;
+    }
+    
     if (!parseFields(body.split("\\|"), data)) return false;
+    
     if (data.strAddress.length() == 0 || data.strAddress.equals("0") || data.strAddress.startsWith("0 ")) {
       data.strAddress = "";
       parseAddress(StartType.START_ADDR, data.strSupp, data);
