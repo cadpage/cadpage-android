@@ -134,7 +134,16 @@ public class PAMercerCountyParserTest extends BaseParserTest {
         "ID:2377268",
         "CALL:Structure Fire",
         "NAME:KIM ALLEN");
- }
+
+    doTest("T16",
+        "\"Mercer 9-1-1\"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: TERRACE AVE/FRANKLIN PL GROV EID: 2398277 TYPE CODE: UTL CALLER NAME: ALLAN KIRK CALLER ADDR: 109 GEORGE JUNI",
+        "ADDR:TERRACE AVE & FRANKLIN PL",
+        "CITY:GROVE CITY",
+        "ID:2398277",
+        "CALL:Utility Lines Down",
+        "NAME:ALLAN KIRK");
+    
+  }
   
   public static void main(String[] args) {
     new PAMercerCountyParserTest().generateTests("T1");
