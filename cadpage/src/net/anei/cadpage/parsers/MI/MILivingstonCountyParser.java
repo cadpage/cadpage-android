@@ -59,7 +59,13 @@ CAD:FYI: ;SICK;10165 CARLEE JUNE DR;RUNYAN LAKE RD;[Medical Priority Info] RESPO
 Contact: Steve Hoyer <nottheface@gmail.com>
 Update: ;TREEF;5117 CULVER RD;CANYON OAKS DR;CALLER STATES TREE COMPLETELY BLOCKING CULVER RD, [08/11/12 02:25:45 JMURPHY-KE]
 Update: ;DEATH;4601 GOLF VIEW DR;GOLF VIEW CT;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 83 year old, Male, Unconsc
- 
+
+Contact: Active911
+Agency name: Liv. Co Disaster Assistance Response Team Location: Howell, MI 
+Sender: CAD@livingstoncounty.livco
+CAD:DART;1279 RICKETT RD; BRTN;STRUCTURE FIRE
+CAD:DART;S US23/NORTH TERRITORIAL;MUTUAL AID TO OTHER FD OR EMS
+
 */
 
 public class MILivingstonCountyParser extends DispatchOSSIParser {
@@ -70,7 +76,7 @@ public class MILivingstonCountyParser extends DispatchOSSIParser {
   
   public MILivingstonCountyParser() {
     super(CITY_CODES, "LIVINGSTON COUNTY", "MI",
-           "( CANCEL ADDR CITY | SKIP CALL PLACE? ADDR/s! X? X? ) INFO+");
+           "( CANCEL ADDR CITY | SRC ADDR CITY? CALL | FYI CALL PLACE? ADDR/s! X? X? ) INFO+");
   }
   
   @Override
@@ -93,10 +99,12 @@ public class MILivingstonCountyParser extends DispatchOSSIParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CANCEL")) return new CancelField();
+    if (name.equals("SRC")) return new SourceField("[A-Z]{4}", true);
     return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BRTN", "BRIGHTON",
       "HOWL", "HOWELL"
   });
 }
