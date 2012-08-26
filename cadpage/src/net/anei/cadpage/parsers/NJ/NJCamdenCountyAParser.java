@@ -59,17 +59,27 @@ Contact: Active911
 [Dispatch F6301] ALARM SYSTEM  \r\n900 GIBBSBORO RD ,22   \r\n#:  \r\nX:WILSON/HILLIARDS  \r\nZN:22A  \r\nCP:LINDENWOLD SCHOOL 4  2012-08-08 07:37:16  \r\nMI#:120190307  \r\nRES#:F6301\r\n\n
 [Free SQ63] 900 GIBBSBORO RD ,22 22  \r\nMI#:120190307  \r\nDisp:07:37:16  \r\nEnr:  \r\nArr:  \r\nEnr Hosp:  \r\nArr Hosp:  \r\nClr:07:51:45  \r\nRES#:SQ63  \r\n\n
 
+Contact: Active911
+Agency name: Glendora Fire Company Location: Glandora, NJ
+Sender:  messaging@iamresponding.com
+(Sta 81) DWELLING  \n\n202 OTTERBRANCH AV ,23   \n\n#:  \n\nX:JACKSON/LINCOLN  \n\n :23A  \n\nCP:  2012-08-21 21:13:26  \n\n U81
+(Sta 81) DWELLING  \n\n1205 ABERDEEN LN ,15   \n\n#:  \n\nX:WIMBELTON/  \n\n :15F  \n\nCP:  2012-08-22 00:15:27  \n\n SQ81
+(Sta 81) INCIDENTAL  \n\n7 MUIRFIELD CT ,15   \n\n#:  \n\nX:DORAL DR/  \n\n :15F  \n\nCP:  2012-08-24 09:43:36  \n\n SD81
+(Sta 81) DWELLING  \n\n1305 ST MARK DR ,15   \n\n#:  \n\nX:SAN JOSE/EVESHAM  \n\n   \n\nCP:  2012-08-25 20:24:48  \n\n TF81
+
 */
 
 public class NJCamdenCountyAParser extends FieldProgramParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("Dispatch (.*)"); 
   private static final Pattern SUBJECT2_PTN = Pattern.compile("Free (.*)");
+  private static final Pattern SUBJECT3_PTN = Pattern.compile("Sta +(.+)");
   private static final Pattern REPORT_ID_PTN = Pattern.compile("\nMI#:(\\d+) *\n");
+  private static final Pattern SINGLE_LINE_BRK = Pattern.compile("(?<!\n)\n(?!\n)");
   
   public NJCamdenCountyAParser() {
     super("CAMDEN COUNTY", "NJ",
-           "CALL ADDR/SXP! #:APT X:X! ZN:MAP! CP:PLACE MI:ID RES:UNIT");
+           "CALL ADDR/SXP! #:APT X:X! ZN:MAP? CP:PLACE UNIT MI:ID RES:UNIT");
   }
   
   @Override
@@ -81,20 +91,35 @@ public class NJCamdenCountyAParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     
     Matcher match = SUBJECT_PTN.matcher(subject);
-    if (!match.matches()) {
-      match = SUBJECT2_PTN.matcher(subject);
-      if (!match.matches()) return false;
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      data.strUnit = match.group(1);
-      match = REPORT_ID_PTN.matcher(body);
-      if (match.find()) data.strCallId = match.group(1);
-      return true;
+    if (match.matches()) {
+      data.strUnit = match.group(1).trim();
+    } else {
+      match = SUBJECT3_PTN.matcher(subject);
+      if (match.matches()) {
+        data.strSource = subject.trim();
+      } else {
+        match = SUBJECT2_PTN.matcher(subject);
+        if (!match.matches()) return false;
+        data.strCall = "RUN REPORT";
+        data.strPlace = body;
+        data.strUnit = match.group(1);
+        match = REPORT_ID_PTN.matcher(body);
+        if (match.find()) data.strCallId = match.group(1);
+        return true;
+      }
     }
-    data.strUnit = match.group(1);
+    
+    // Search and destroy code messaging double line breaks
+    match = SINGLE_LINE_BRK.matcher(body);
+    if (!match.find()) body = body.replace("\n\n", "\n");
     
     body = body.replace("MI#:", "MI:").replace("RES#:", "RES:");
     return parseFields(body.split("\n"), data) && data.strAddress.length() > 0;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
   
   private static final Pattern CITY_PTN = Pattern.compile(",(\\d\\d)(?: \\d\\d)?$");
@@ -127,7 +152,8 @@ public class NJCamdenCountyAParser extends FieldProgramParser {
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
-      if (! field.equals("/")) super.parse(field, data);
+      if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
+      super.parse(field, data);
     }
   }
   
