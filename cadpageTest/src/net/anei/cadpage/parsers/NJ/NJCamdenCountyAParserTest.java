@@ -96,7 +96,7 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
         "ADDR:1800 LAUREL RD",
         "CITY:Lindenwold",
         "APT:114",
-        "X:BLACKWOOD CLEMENTON/",
+        "X:BLACKWOOD CLEMENTON",
         "MAP:22B",
         "PLACE:STONINGTON COURT AP",
         "DATE:03/09/2012",
@@ -194,7 +194,7 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
         "ADDR:1306 HANCOCK DR",
         "CITY:Barrington",
         "APT:5",
-        "X:CLEMENTS BRIDGE RD/",
+        "X:CLEMENTS BRIDGE RD",
         "MAP:03D",
         "PLACE:WILLOWS APTS",
         "DATE:05/20/2012",
@@ -718,7 +718,57 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        "(Sta 81) DWELLING  \n\n202 OTTERBRANCH AV ,23   \n\n#:  \n\nX:JACKSON/LINCOLN  \n\n :23A  \n\nCP:  2012-08-21 21:13:26  \n\n U81",
+        "SRC:Sta 81",
+        "CALL:DWELLING",
+        "ADDR:202 OTTERBRANCH AV",
+        "MADDR:202 OTTERBRANCH AVE",
+        "CITY:Magnolia",
+        "X:JACKSON/LINCOLN",
+        "DATE:08/21/2012",
+        "TIME:21:13:26",
+        "UNIT:U81");
+
+    doTest("T2",
+        "(Sta 81) DWELLING  \n\n1205 ABERDEEN LN ,15   \n\n#:  \n\nX:WIMBELTON/  \n\n :15F  \n\nCP:  2012-08-22 00:15:27  \n\n SQ81",
+        "SRC:Sta 81",
+        "CALL:DWELLING",
+        "ADDR:1205 ABERDEEN LN",
+        "CITY:Gloucester Twp",
+        "X:WIMBELTON",
+        "DATE:08/22/2012",
+        "TIME:00:15:27",
+        "UNIT:SQ81");
+
+    doTest("T3",
+        "(Sta 81) INCIDENTAL  \n\n7 MUIRFIELD CT ,15   \n\n#:  \n\nX:DORAL DR/  \n\n :15F  \n\nCP:  2012-08-24 09:43:36  \n\n SD81",
+        "SRC:Sta 81",
+        "CALL:INCIDENTAL",
+        "ADDR:7 MUIRFIELD CT",
+        "CITY:Gloucester Twp",
+        "X:DORAL DR",
+        "DATE:08/24/2012",
+        "TIME:09:43:36",
+        "UNIT:SD81");
+
+    doTest("T4",
+        "(Sta 81) DWELLING  \n\n1305 ST MARK DR ,15   \n\n#:  \n\nX:SAN JOSE/EVESHAM  \n\n   \n\nCP:  2012-08-25 20:24:48  \n\n TF81",
+        "SRC:Sta 81",
+        "CALL:DWELLING",
+        "ADDR:1305 ST MARK DR",
+        "CITY:Gloucester Twp",
+        "X:SAN JOSE/EVESHAM",
+        "DATE:08/25/2012",
+        "TIME:20:24:48",
+        "UNIT:TF81");
+
+  }
+  
   public static void main(String[] args) {
-    new NJCamdenCountyAParserTest().generateTests("T4");
+    new NJCamdenCountyAParserTest().generateTests("T1");
   }
 }
