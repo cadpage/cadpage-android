@@ -1,8 +1,10 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 /*
@@ -29,10 +31,7 @@ alert:[107]- NATURE: E 15 LOCATION: 155 CO RD 406 FAYETTE TWP 2 CAR MVC WITH INJ
 alert:[136]- NATURE: S38 LOCATION: 602 BRUBAKER DR SOUTH POIN T COMMENTS: LCSO REQUESTS FD FOR ASSISTANCE MISSING MAN 72Y /O GREY HOODIE AND BLUE JEANS MISSING SOMETIME BETWEEN 1 AM AND 8 AM THIS MORNING
 alert:[121]- NATURE: E 5L LOCATION: 51 PVT DR 1085 TWP RD 135 FAYETTE TWP COMMENTS: MED CARE FROM COLUMBUS REQUESTED LIFT ING WITH PT 600 LBS AQUEDA FINKS CONTACTED SUPRV AND HE S TATED NO LIFTING ASSIT TO CALL PORTSMOUTH AMBULANCE
 alert:[103]- NATURE: F 15 LOCATION: 389 CO RD 120 S FAYETTE TW P COMMENTS: MVA WB LANE POSS INJURY MURPHYS GAS /US 52
-alert:[108]- LOCATION: 348 CO RD 410 SUITE: UNIT 1 OFC FAYETTE TWP
 alert:[107]- NATURE: O 31 LOCATION: 9353 CO RD 1 FAYETTE TWP C OMMENTS: CALLER REPORTS A CAR HIT A POLE NEAR THE AIRPORT . NEGATIVE INJURIES. TRANSFERRED TO THE OSP THIS CAR IS SMOKI NG
-alert:[107]- LOCATION: CORD 1 AND WASHINGTON AVE
-alert:[107]- LOCATION: CORD 1 AND WASHINGTON
 
 Contact: Active911
 Agency name: Aid Township Vol. Fire Dept. Location: Willow Wood, OH 
@@ -48,7 +47,6 @@ alert:[121]- NATURE: E 15 LOCATION: 5400 STATE RTE 141 UPPER T WP COMMENTS: CALL
 alert:[121]- NATURE: TEST LOCATION: 8064 CO RD 2 WINDSOR TWP C OMMENTS: ACTIVE911 TEST ALERT FOR COAL GROVE FD
 alert:[107]- NATURE: E 52 LOCATION: 613 PIKE ST COAL GROVE
 
-
  */
 
 
@@ -61,6 +59,22 @@ public class OHLawrenceCountyParser extends DispatchEmergitechParser {
   @Override
   public String getFilter() {
     return "alert@lawco911.org";
+  }
+  
+  @Override
+  public boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    String call = CALL_CODES.getProperty(data.strCall);
+    if (call != null) {
+      data.strCode = data.strCall;
+      data.strCall = call;
+    }
+    return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "UNIT CODE " + super.getProgram();
   }
   
   @Override
@@ -111,4 +125,44 @@ public class OHLawrenceCountyParser extends DispatchEmergitechParser {
     "WATERLOO",
     "WILLOW WOOD",
   };
+  
+  private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      "F 5",      "Needs assistance",
+      "F 6",      "Aero Medical",
+      "F 7",      "Take Report",
+      "F 8",      "Red Cross",
+      "F 9",      "Explosion",
+      "F 10",     "Unknown Problem",
+      "F 11",     "Smoke Investigation",
+      "F 12",     "Carbon Monoxide",
+      "F 13",     "Special Detail",
+      "F 14",     "Water Rescue",
+      "F 15",     "Vehicle Crash",
+      "F 15B",    "Motorcycle/ATV Crash",
+      "F 15C",    "Train Crash",
+      "F 15D",    "Bus Crash",
+      "F 15E",    "Aircraft Crash",
+      "F 15F",    "Off Road Crash",
+      "F 15G",    "Farm Accident",
+      "F 16",     "Dead on Arrival",
+      "F 16A",    "DOA Suspicious",
+      "F 24",     "Haz-Mat/Chemical Leak",
+      "F 25",     "Unknown Alarm",
+      "F 33",     "Structure Fire",
+      "F 33A",    "Fire Alarm",
+      "F 33B",    "Brush Fire",
+      "F 33C",    "Vehicle Fire",
+      "F 33D",    "Chimney Fire",
+      "F 38",     "Missing Person",
+      "F 40",     "Jaws of Life/Extrication",
+      "F 41",     "Arson",
+      "F 45",     "Severe Weather",
+      "F 46",     "Utility lines Down",
+      "F 47",     "Drowning",
+      "F 48",     "Bomb Threat",
+      "F 50",     "Gas Leak",
+      "F 53",     "Evacuation",
+      "F 56",     "Victim Trapped",
+      "F 100",    "Full Scale Disaster"
+  });
 }

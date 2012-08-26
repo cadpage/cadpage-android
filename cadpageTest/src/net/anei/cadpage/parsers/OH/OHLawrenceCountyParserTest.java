@@ -17,7 +17,8 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
     doTest("T1",
         "alert:[121]- NATURE: F 15B LOCATION: US 52 / CO RD 450 PERRY TW P COMMENTS: +038.420273 -082.572212 CF=100% Example of an intersection call that came from a cell phone.",
         "UNIT:121",
-        "CALL:F 15B",
+        "CODE:F 15B",
+        "CALL:Motorcycle/ATV Crash",
         "ADDR:US 52 & CO RD 450",
         "MADDR:US 52 & COUNTY ROAD 450",
         "CITY:PERRY TWP",
@@ -60,7 +61,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "alert:[121]- NATURE: ABD LOCATION: 989 TWP RD 161 FAYETTE TWP COMMENTS: This is an example of a call on a township ro ad.",
         "UNIT:121",
         "CALL:ABD",
-        "ADDR:989 TWP RD",  // Can't find this???
+        "ADDR:989 TWP RD",
         "APT:161",
         "NAME:FAYETTE TWPCOMMENTS: This is an example of a call on a township ro ad");
 
@@ -68,13 +69,15 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "alert:[121]- NATURE: E 48A LOCATION: 24 TWP RD 1101 W FAYETTE T WP COMMENTS: This is an example of a call on a township wi th a direction. The long form would be 24 Township Road 1101 West",
         "UNIT:121",
         "CALL:E 48A",
-        "ADDR:24 TWP RD 1101 W", // Found address pm DAVIS ST W ??
+        "ADDR:24 TWP RD 1101 W",
         "CITY:FAYETTE TWP",
         "INFO:This is an example of a call on a township wi th a direction. The long form would be 24 Township Road 1101 West");
+
   }
   
   @Test
   public void testActive911A() {
+
 
     doTest("T1",
         "alert:[121]- NATURE: E 40 LOCATION: 11024 CO RD 1 UNION TWP CO MMENTS: Test page for Fayete FD",
@@ -88,15 +91,17 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
     doTest("T2",
         "alert:[112]- NATURE: F 33 LOCATION: 264 TWP RD 1030 FAYETTE TW P COMMENTS: +038.404287 -082.540090 CF=100% CALLER REPORT ED A STRUCTURE FIRE AT THIS LOCATION WITH FLAMES VISIBLE",
         "UNIT:112",
-        "CALL:F 33",
-        "ADDR:264 TWP RD 1030", // Google says this is in Burlington, not Fayette twp - reported
+        "CODE:F 33",
+        "CALL:Structure Fire",
+        "ADDR:264 TWP RD 1030",
         "CITY:FAYETTE TWP",
         "INFO:+038.404287 -082.540090 CF=100% CALLER REPORT ED A STRUCTURE FIRE AT THIS LOCATION WITH FLAMES VISIBLE");
 
     doTest("T3",
         "alert:[103]- NATURE: F 15 LOCATION: 389 CO RD 120 S FAYETTE TW P COMMENTS: MVA US 52/MURPHYS GAS UNKNOWN",
         "UNIT:103",
-        "CALL:F 15",
+        "CODE:F 15",
+        "CALL:Vehicle Crash",
         "ADDR:389 CO RD 120 S",
         "MADDR:389 COUNTY ROAD 120 S",
         "CITY:FAYETTE TWP",
@@ -132,7 +137,7 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
         "alert:[121]- NATURE: E 5L LOCATION: 51 PVT DR 1085 TWP RD 135 FAYETTE TWP COMMENTS: MED CARE FROM COLUMBUS REQUESTED LIFT ING WITH PT 600 LBS AQUEDA FINKS CONTACTED SUPRV AND HE S TATED NO LIFTING ASSIT TO CALL PORTSMOUTH AMBULANCE",
         "UNIT:121",
         "CALL:E 5L",
-        "ADDR:51 PVT DR 1085 TWP RD 135",  // Don't think this is finding the right address
+        "ADDR:51 PVT DR 1085 TWP RD 135",
         "MADDR:51 PVT DR 1085",
         "CITY:FAYETTE TWP",
         "INFO:MED CARE FROM COLUMBUS REQUESTED LIFT ING WITH PT 600 LBS AQUEDA FINKS CONTACTED SUPRV AND HE S TATED NO LIFTING ASSIT TO CALL PORTSMOUTH AMBULANCE");
@@ -140,7 +145,8 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
     doTest("T8",
         "alert:[103]- NATURE: F 15 LOCATION: 389 CO RD 120 S FAYETTE TW P COMMENTS: MVA WB LANE POSS INJURY MURPHYS GAS /US 52",
         "UNIT:103",
-        "CALL:F 15",
+        "CODE:F 15",
+        "CALL:Vehicle Crash",
         "ADDR:389 CO RD 120 S",
         "MADDR:389 COUNTY ROAD 120 S",
         "CITY:FAYETTE TWP",
@@ -171,11 +177,13 @@ public class OHLawrenceCountyParserTest extends BaseParserTest {
     doTest("T2",
         "alert:[120]- NATURE: F 46 LOCATION: 4219 CO RD 16 AID TWP COMM ENTS: CALLER STATES THAT A TREE IS ON FIRE JUST UP FROM HER HOUSE. ALERTED ST 100 ADVISED BUCKEYE POWER CO.",
         "UNIT:120",
-        "CALL:F 46",
+        "CODE:F 46",
+        "CALL:Utility lines Down",
         "ADDR:4219 CO RD 16",
         "MADDR:4219 COUNTY ROAD 16",
         "CITY:AID TWP",
         "INFO:CALLER STATES THAT A TREE IS ON FIRE JUST UP FROM HER HOUSE. ALERTED ST 100 ADVISED BUCKEYE POWER CO.");
+
   }
   
   @Test
