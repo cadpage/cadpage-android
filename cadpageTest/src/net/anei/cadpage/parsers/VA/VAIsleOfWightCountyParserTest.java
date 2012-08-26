@@ -70,6 +70,18 @@ public class VAIsleOfWightCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testCaraolynSeeds() {
+
+    doTest("T1",
+        "7466 MAPLE HALL LN;FALLS AND RELATED INJURIES;BEALE PLACE DR;58 yr male fall and is disoriented - fell on 10 m\n",
+        "ADDR:7466 MAPLE HALL LN",
+        "X:BEALE PLACE DR",
+        "CALL:58 yr male fall and is disoriented - fell on 10 m",
+        "PLACE:FALLS AND RELATED INJURIES");
+
+  }
+  
   public static void main(String[] args) {
     new VAIsleOfWightCountyParserTest().generateTests("T1");
   }

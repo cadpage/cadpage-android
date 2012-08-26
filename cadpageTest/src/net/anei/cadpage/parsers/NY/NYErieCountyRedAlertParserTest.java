@@ -141,10 +141,19 @@ public class NYErieCountyRedAlertParserTest extends BaseParserTest {
         "CITY:Boston",
         "X:OMPHALIUS RD",
         "TIME:20:05:16");
+
+    doTest("T15",
+        "Vehicle Fire: vehicle fire in roadway at 8799 FEDDICK RD, Boston  c/s: PA/BO LINE . . 07:33:02",
+        "CALL:Vehicle Fire",
+        "INFO:vehicle fire in roadway",
+        "ADDR:8799 FEDDICK RD",
+        "CITY:Boston",
+        "X:PA/BO LINE",
+        "TIME:07:33:02");
   }
   
   @Test
-  public void test() {
+  public void testEricDalghen() {
 
     doTest("T1",
         "EMS: HA 8 RESP FOR A TRANSPORT.  NO FURTHER REPONSE NECESSARY. at 239 BROOKWOOD DR, Village of Hamburg  c/s: BIRKSHIRE RD . . 21:3\r",
@@ -157,7 +166,7 @@ public class NYErieCountyRedAlertParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NYErieCountyRedAlertParserTest().generateTests("T7", "CALL INFO ADDR APT CITY X PLACE TIME");
+    new NYErieCountyRedAlertParserTest().generateTests("T1", "CALL INFO ADDR APT CITY X PLACE TIME");
   }
 
 }
