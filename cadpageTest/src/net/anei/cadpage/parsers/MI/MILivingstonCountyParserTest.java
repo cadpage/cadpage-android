@@ -194,6 +194,24 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "ADDR:4601 GOLF VIEW DR",
         "X:GOLF VIEW CT",
         "INFO:83 year old, Male, Unconsc");
+  }
+  
+  @Test
+  public void testActive911A() {
+
+    doTest("T1",
+        "CAD:DART;1279 RICKETT RD; BRTN;STRUCTURE FIRE",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:1279 RICKETT RD",
+        "CITY:BRIGHTON",
+        "SRC:DART");
+
+    doTest("T2",
+        "CAD:DART;S US23/NORTH TERRITORIAL;MUTUAL AID TO OTHER FD OR EMS",
+        "CALL:MUTUAL AID TO OTHER FD OR EMS",
+        "ADDR:S US23 & NORTH TERRITORIAL",
+        "MADDR:S US 23 & NORTH TERRITORIAL",
+        "SRC:DART");
  }
   
   public static void main(String[] args) {
