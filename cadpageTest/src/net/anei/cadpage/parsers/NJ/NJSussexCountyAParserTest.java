@@ -187,6 +187,155 @@ public class NJSussexCountyAParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testFortLee() {
+
+    doTest("T1",
+        "(I-2012-000814) 1045F @ 1350 15TH STREET  , FORT LEE - garage, north and south, waterflow",
+        "ID:I-2012-000814",
+        "CALL:1045F",
+        "ADDR:1350 15TH STREET",
+        "CITY:FORT LEE",
+        "INFO:garage, north and south, waterflow");
+
+    doTest("T2",
+        "(I-2012-000815) 1045F @ 250 HOYM STREET  , FORT LEE - 1ST FL HOYM SIDE",
+        "ID:I-2012-000815",
+        "CALL:1045F",
+        "ADDR:250 HOYM STREET",
+        "CITY:FORT LEE",
+        "INFO:1ST FL HOYM SIDE");
+
+    doTest("T3",
+        "(I-2012-000816) 1045F @ 1616 PALISADE AVENUE  , FORT LEE - ZONE 0 AND 2ND FL MENS RM SMOKE",
+        "ID:I-2012-000816",
+        "CALL:1045F",
+        "ADDR:1616 PALISADE AVENUE",
+        "CITY:FORT LEE",
+        "INFO:ZONE 0 AND 2ND FL MENS RM SMOKE");
+
+    doTest("T4",
+        "(I-2012-000817) 1045F @ 250 HOYM STREET  , FORT LEE - 2ND FL HOYM ST WING",
+        "ID:I-2012-000817",
+        "CALL:1045F",
+        "ADDR:250 HOYM STREET",
+        "CITY:FORT LEE",
+        "INFO:2ND FL HOYM ST WING");
+
+    doTest("T5",
+        "(I-2012-000818) 1045F @ 1 HORIZON ROAD  , FORT LEE - fan room",
+        "ID:I-2012-000818",
+        "CALL:1045F",
+        "ADDR:1 HORIZON ROAD",
+        "CITY:FORT LEE",
+        "INFO:fan room");
+
+    doTest("T6",
+        "(I-2012-000819) 1045F @ 1 EXECUTIVE DRIVE  , FORT LEE - LL Level",
+        "ID:I-2012-000819",
+        "CALL:1045F",
+        "ADDR:1 EXECUTIVE DRIVE",
+        "CITY:FORT LEE",
+        "INFO:LL Level");
+
+    doTest("T7",
+        "(I-2012-000820) 1045F @ 1081 INWOOD TERRACE  , FORT LEE - Cheung - smoke detector",
+        "ID:I-2012-000820",
+        "CALL:1045F",
+        "ADDR:1081 INWOOD TERRACE",
+        "CITY:FORT LEE",
+        "INFO:Cheung - smoke detector");
+
+    doTest("T8",
+        "(I-2012-000821) 1045F @ 1115 BUCKINGHAM ROAD  , FORT LEE - OFFICE SMOKE DETECTOR",
+        "ID:I-2012-000821",
+        "CALL:1045F",
+        "ADDR:1115 BUCKINGHAM ROAD",
+        "CITY:FORT LEE",
+        "INFO:OFFICE SMOKE DETECTOR");
+
+    doTest("T9",
+        "(I-2012-000822) 1045F @ 3021 EDWIN AVENUE  , FORT LEE - 5th floor elevator activation",
+        "ID:I-2012-000822",
+        "CALL:1045F",
+        "ADDR:3021 EDWIN AVENUE",
+        "CITY:FORT LEE",
+        "INFO:5th floor elevator activation");
+
+    doTest("T10",
+        "(I-2012-000823) 1035 @ 3081 EDWIN AVENUE  , FORT LEE - Reported Stuck Occupied Elevator between 3rd. & 4th. flrs.",
+        "ID:I-2012-000823",
+        "CALL:1035",
+        "ADDR:3081 EDWIN AVENUE",
+        "CITY:FORT LEE",
+        "INFO:Reported Stuck Occupied Elevator between 3rd. & 4th. flrs.");
+
+    doTest("T11",
+        "(I-2012-000824) 1037 @  ROUTE 95 NORTH  , FORT LEE - Leonia Boro, rt 95 north express 120.7 -...\n\nActive Units: FL-R",
+        "ID:I-2012-000824",
+        "CALL:1037",
+        "ADDR:ROUTE 95 NORTH",
+        "CITY:FORT LEE",
+        "INFO:Leonia Boro, rt 95 north express 120.7 -...  Active Units: FL-R");
+
+    doTest("T12",
+        "(I-2012-000825) 1045F @ 1 EXECUTIVE DRIVE  , FORT LEE - penthouse activation",
+        "ID:I-2012-000825",
+        "CALL:1045F",
+        "ADDR:1 EXECUTIVE DRIVE",
+        "CITY:FORT LEE",
+        "INFO:penthouse activation");
+
+    doTest("T13",
+        "(I-2012-000826) 1045F @ 1600 PARKER AVENUE  , FORT LEE - General alarm",
+        "ID:I-2012-000826",
+        "CALL:1045F",
+        "ADDR:1600 PARKER AVENUE",
+        "CITY:FORT LEE",
+        "INFO:General alarm");
+
+    doTest("T14",
+        "(I-2012-000827) 1032 @ 2170 FLETCHER AVENUE  , FORT LEE - report of vehicle fire in taco bell parking lot, 551-574-0053",
+        "ID:I-2012-000827",
+        "CALL:1032",
+        "ADDR:2170 FLETCHER AVENUE",
+        "CITY:FORT LEE",
+        "INFO:report of vehicle fire in taco bell parking lot, 551-574-0053");
+
+    doTest("T15",
+        "(I-2012-000828) 1033 @ 1 PIP  , FORT LEE - brush fire  caller is by cannons",
+        "ID:I-2012-000828",
+        "CALL:1033",
+        "ADDR:1 PIP",
+        "CITY:FORT LEE",
+        "INFO:brush fire  caller is by cannons");
+
+    doTest("T16",
+        "(I-2012-000829) 1045F @ 2053 ELLERY AVENUE  , FORT LEE - First fl smoke Canerparo residence   apt. building   alarm co to noty   owner cell  854-304-3491",
+        "ID:I-2012-000829",
+        "CALL:1045F",
+        "ADDR:2053 ELLERY AVENUE",
+        "CITY:FORT LEE",
+        "INFO:First fl smoke Canerparo residence   apt. building   alarm co to noty   owner cell  854-304-3491");
+
+    doTest("T17",
+        "(I-2012-000830) 1035 @ 1000 OVERLOOK DRIVE  , FORT LEE - check for blocked fire exit, on south side of 2nd floor, previously reported to management, 908-249-2449, mr. lacher.",
+        "ID:I-2012-000830",
+        "CALL:1035",
+        "ADDR:1000 OVERLOOK DRIVE",
+        "CITY:FORT LEE",
+        "INFO:check for blocked fire exit, on south side of 2nd floor, previously reported to management, 908-249-2449, mr. lacher.");
+
+    doTest("T18",
+        "(I-2012-000831) 1045F @ 2 HORIZON ROAD  , FORT LEE - laundry room 8 and basement north",
+        "ID:I-2012-000831",
+        "CALL:1045F",
+        "ADDR:2 HORIZON ROAD",
+        "CITY:FORT LEE",
+        "INFO:laundry room 8 and basement north");
+
+  }
+  
   public static void main(String[] args) {
     new NJSussexCountyAParserTest().generateTests("T1", "ID CALL ADDR CITY INFO");
   }
