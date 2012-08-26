@@ -28,6 +28,7 @@ Sender: dispatch@townofhamburgny.com
 *2Alarm Activation: general fire alarm at evans nat bank at 7205 BOSTON STATE RD, Boston  c/s: ZIMMERMAN RD   O: EVANS NATIONAL BANK . . 16:11:51
 *2EMS: 69 Years Male Chest pain- medic response at 7898 BOSTON STATE RD #40, Boston  c/s: WILDWOOD DR   O: BOSTON HILLS MOBILE HOME PARK . . 19:09:24
 *2EMS: M/chest pains at 8112 COLE RD, Boston  c/s: OMPHALIUS RD . . 20:05:16
+Vehicle Fire: vehicle fire in roadway at 8799 FEDDICK RD, Boston  c/s: PA/BO LINE . . 07:33:02
 
 Contact: eric dahlgren <ercdahl@gmail.com>
 Sender: dispatch@townofhamburgny.com

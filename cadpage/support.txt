@@ -183,7 +183,7 @@ If you need a 30 day extension, open the Cadpage settings and press Payment Stat
 PKOSBNAA or pkosbnaa.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Have a nice day,
--Ken
+Jean -- Assistant to Ken Corbin
 
 ******************************************************************
 ** Play Store / Android payment issues

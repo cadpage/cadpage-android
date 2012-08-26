@@ -18,6 +18,10 @@ Contact: Larry Regula <fshook03@gmail.com>
 Sender: CAD@isleofwightus.net
 CAD:1207 CARRSVILLE HWY;6D;SPRINGDALE APARTMENTS;FALLS AND RELATED INJURIES;JAMESTOWN LN;LEES MILL RD;99 yo female--has fallen, home nurse is unable to gain a
 
+Contact: carolyn seeds <cjseeds@gmail.com>
+Sender: cad@isleofwightus.net
+7466 MAPLE HALL LN;FALLS AND RELATED INJURIES;BEALE PLACE DR;58 yr male fall and is disoriented - fell on 10 m\n
+
  */
 public class VAIsleOfWightCountyParser extends DispatchOSSIParser {
   
