@@ -31,20 +31,15 @@ Contact: Adam <wiseman3a@gmail.com>
 Sender: e9web1@ongov.net
 I/CAD MSG BOF 15:59:34 XTS:EIBERT RD/SUNSET COVE,  , MVC -IB P:1 Lev:0 X:  CELL = 2026 SECTOR = 2 -076.367533 042.876698 CAUTION:
 
+Contact: Active911
+[Liverpool Fire] I/CAD MSG LVF 09:15:32 BUCKLEY RD/SEVENTH NORTH ST TSL XTS:BUCKLEY RD/SEVENTH NORTH ST, IFO SUBWAY , MVC -IB P:1 Lev:0 X:  M911- C\r\r\n\r\r\n\r\n\r\n\r\n
+
 */
 
 
 public class NYOnondagaCountyAParser extends FieldProgramParser {
 
   private static final Pattern MARKER = Pattern.compile("^(?:I/)?CAD MSG ([A-Z]+) +(\\d\\d:\\d\\d:\\d\\d) +");
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "OTOW","OWASCO",
-      "TMR", "MARCELLUS",
-      "TPO", "POMPEY",
-      "TSK", "SKANEATELES",
-      "VSK", "SKANEATELES"
-  });
 
   public NYOnondagaCountyAParser() {
     super(CITY_CODES, "ONONDAGA COUNTY", "NY",
@@ -99,12 +94,19 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(", ,");
-      if (pt >= 0) {
-        data.strCall = field.substring(pt+2).trim();
-        field = field.substring(0,pt).trim();
+      Parser p = new Parser(field);
+      super.parse(p.get(','), data);
+      String place = p.get(',');
+      if (place.startsWith("APT ")) {
+        data.strApt = place.substring(4).trim();
+      } else {
+        if (place.startsWith("IFO")) place = place.substring(3).trim();
+        data.strPlace = append(data.strPlace , " / ", place);
       }
-      super.parse(field, data);
+      String call = p.get();
+      if (call.length() == 0) abort();
+      if (call.endsWith("-")) call = call.substring(0,call.length()-1).trim();
+      data.strCall = call;
     }
     
     @Override
@@ -133,6 +135,15 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "OTOW","OWASCO",
+      "TMR", "MARCELLUS",
+      "TPO", "POMPEY",
+      "TSL", "SALINA",
+      "TSK", "SKANEATELES",
+      "VSK", "SKANEATELES"
+  });
   
 }
 	
