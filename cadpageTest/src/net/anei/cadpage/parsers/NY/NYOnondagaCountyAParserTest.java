@@ -50,7 +50,7 @@ public class NYOnondagaCountyAParserTest extends BaseParserTest {
         "ADDR:7461 BROADFIELD RD",
         "CITY:POMPEY",
         "X:SWEET RD HENNEBERRY RD",
-        "CALL:, UNCP -",
+        "CALL:UNCP",
         "PRI:1",
         "INFO:TWCBL BUSHNECK, JOHN VOIP 02/14 18:03:57 911 CC RE 1 YO UNCP/NOT BREATH IS CON. IS BREATHING A LITTLE BIT FACE IS A LITTLE BLU",
         "UNIT:51C1,51C2,51C3,51C4,51RP51,5");
@@ -67,7 +67,7 @@ public class NYOnondagaCountyAParserTest extends BaseParserTest {
         "ADDR:3104 W Lake Rd",
         "CITY:SKANEATELES",
         "X:FIRE LANE 9/THE LANE",
-        "CALL:, WIRE -E",
+        "CALL:WIRE -E",
         "PRI:1",
         "INFO:M911 - CC - Electric Wire Against A Tree - Is arcing and sparking - compl has no power now",
         "UNIT:54C1, 54C2, 54C3, 54E11, 54E12, 54E21, 54E31, 54MI1, 54R1, 54SD1");
@@ -80,7 +80,7 @@ public class NYOnondagaCountyAParserTest extends BaseParserTest {
         "CITY:OWASCO",
         "PLACE:CAY",
         "X:MARTIN RD/CEDAR SWAMP RD",
-        "CALL:, FIRE -R",
+        "CALL:FIRE -R",
         "PRI:1",
         "INFO:54C5 AND E 11 ER - ACTIV");
 
@@ -91,7 +91,7 @@ public class NYOnondagaCountyAParserTest extends BaseParserTest {
         "ADDR:3150 W LAKE RD",
         "CITY:SKANEATELES",
         "X:BENSON RD/ANDREWS RD",
-        "CALL:, ALRM -C",
+        "CALL:ALRM -C",
         "PRI:1",
         "INFO:COUNTY FIRE- OPERATOR#1144-#800-932-93");
 
@@ -102,7 +102,7 @@ public class NYOnondagaCountyAParserTest extends BaseParserTest {
         "ADDR:52 W GENESEE ST",
         "CITY:SKANEATELES",
         "X:W LAKE ST/GRIFFIN ST",
-        "CALL:, FIRE -E",
+        "CALL:FIRE -E",
         "PRI:1",
         "INFO:LINDSEY, CRAIG & JUDITH RESD 01/03 9:41:18 911 CC: CALLER SAYS SMELLS LIKE SOMETHING ELECTRICAL IS BURNING",
         "UNIT:54C1, 54C2, 54C3, 54E11, 54E12, 54E21, 54E31, 54R1, 54TK1");
@@ -114,7 +114,7 @@ public class NYOnondagaCountyAParserTest extends BaseParserTest {
         "ADDR:1563 NEW SENECA TPKE",
         "CITY:SKANEATELES",
         "X:LUCINDA DR/KNIGHTSBRIDGE RD",
-        "CALL:, FIRE -F",
+        "CALL:FIRE -F",
         "PRI:2",
         "INFO:TWCBL MCGEE, KAREN VOIP 01/02 17:57:49",
         "UNIT:54C1, 54C2, 54C3, 54E11, 54E12, 54E21, 54E31, 54R1, 54SD1, CFCTAC3");
@@ -127,7 +127,7 @@ public class NYOnondagaCountyAParserTest extends BaseParserTest {
         "CITY:SKANEATELES",
         "PLACE:EST",
         "X:JEWETT RD/OLD SENECA TPKE",
-        "CALL:, MVC -IB",
+        "CALL:MVC -IB",
         "PRI:1",
         "INFO:NW SECTOR -076.426885 042.968098 01/06 16:02:26 VEH IN A DITCH IS SMOKING",
         "UNIT:38RP1, 54C1, 54C2, 54C3, 54E11, 54E12, 54E21, 54E31, 54MI1, 54R1, 54SD1, 54TK1");
@@ -140,7 +140,7 @@ public class NYOnondagaCountyAParserTest extends BaseParserTest {
         "CITY:SKANEATELES",
         "PLACE:SKANEATELES SAILING CLUB",
         "X:BUFFS BLUFF RD/COON HILL RD",
-        "CALL:, LOCK -R",
+        "CALL:LOCK -R",
         "PRI:2",
         "INFO:M911 CC RE LOCKED IN THE BLDG -- COMPL USES A WALKER AND IS UNABLE TO MOVE",
         "UNIT:54E21, 54MI1, 54R1, 54TK1");
@@ -151,7 +151,9 @@ public class NYOnondagaCountyAParserTest extends BaseParserTest {
         "TIME:04:37:24",
         "ADDR:110 FENNELL ST",
         "CITY:SKANEATELES",
-        "X:PACKSWOOD PL/OLD SENECA TPK, APT B IN BACK, UNCP -",
+        "X:PACKSWOOD PL/OLD SENECA TPK",
+        "APT:B IN BACK",
+        "CALL:UNCP",
         "PRI:1",
         "INFO:M911//88 YO MALE UNCP/NOT BREATHING// IS AN EXPECTED DEATH// HAS BEEN ILL FOR SOME TIME// REQ NO LIGHTS AND SIRENS//",
         "UNIT:54C1, 54C2, 54C3, 54E12");
@@ -163,7 +165,9 @@ public class NYOnondagaCountyAParserTest extends BaseParserTest {
         "ADDR:55 JORDAN ST",
         "CITY:SKANEATELES",
         "PLACE:VILLAGE LANDING",
-        "X:ACADEMY ST/E ELIZABETH ST, APT 109, UNCP -",
+        "X:ACADEMY ST/E ELIZABETH ST",
+        "APT:109",
+        "CALL:UNCP",
         "PRI:1",
         "INFO:PH BROCK, ESTHER M RESD 01/22 08:15:44 SEE ADDIE COGGEN, 100 YOF, PH # 685-5355 FEELING FAINT/HX OF HEART Number of patients: 1 Responder sc");
 
@@ -174,10 +178,33 @@ public class NYOnondagaCountyAParserTest extends BaseParserTest {
         "ADDR:3800 LEE MULROY RD",
         "CITY:MARCELLUS",
         "PLACE:ULTIMATE GOAL",
-        "X:BISHOP HILL RD/LAWRENCE RD, IFO , MVC -IB",
+        "X:BISHOP HILL RD/LAWRENCE RD",
+        "CALL:MVC -IB",
         "PRI:1",
         "INFO:M911 CC RE A 2 CARS 1 ROLL OVER THERE IS STILL OCCP IN THE ROLL OVER",
         "UNIT:33C1, 33C2, 33C3, 33C4, 33E2, 33R1, 54E11");
+  }
+  
+  @Test
+  public void testActive911() {
+
+    doTest("T9",
+        "[Liverpool Fire] I/CAD MSG LVF 09:15:32 BUCKLEY RD/SEVENTH NORTH ST TSL XTS:BUCKLEY RD/SEVENTH NORTH ST, IFO SUBWAY , MVC -IB P:1 Lev:0 X:  M911- C\r\r\n" +
+        "\r\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n",
+
+        "SRC:LVF",
+        "TIME:09:15:32",
+        "ADDR:BUCKLEY RD & SEVENTH NORTH ST",
+        "CITY:SALINA",
+        "PLACE:SUBWAY",
+        "X:BUCKLEY RD/SEVENTH NORTH ST",
+        "CALL:MVC -IB",
+        "PRI:1",
+        "INFO:M911- C");
+
   }
   
   public static void main(String[] args) {
