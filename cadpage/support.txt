@@ -69,7 +69,7 @@ sequence to send us an email with the correct email account we need to register.
 Your Payment status should change when you load the next Cadpage version.  You can extend the current demo by 30 days as follows:
 
 Go into Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-OMEYKQBA or omeykqba.  This is a time-sensitive code and will expire within about 48 hours.  Once you use it, will be good for only about 2 weeks.
+JOVWFQBA or jovwfqba.  This is a time-sensitive code and will expire within about 48 hours.  Once you use it, will be good for only about 2 weeks.
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -132,7 +132,7 @@ Philomath, OR 97370
 If you do this, please include your email address so I can make sure you get credit for it.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-PKOSBNAA or pkosbnaa.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
+NZJUNWFA or nzjunwfa.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -180,7 +180,7 @@ Cadpage is free for direct paging users because CodeMessaging gives us some of t
 This should only take a few seconds.  But just in case it does not...
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-PKOSBNAA or pkosbnaa.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+NZJUNWFA or nzjunwfa.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Have a nice day,
 Jean -- Assistant to Ken Corbin
@@ -225,7 +225,7 @@ Sometimes you can log into to wallet.google.com and see if they list a reason wh
 We also take PayPal & snail mail payments, but it is a bit of a hassle for all parties, and a violation of Play Store (previously Android Market) application publisher standards, so we don't encourage it.  Details on how to do that can be found at http://www.cadpage.org/financial-support/paypal-payments
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-PKOSBNAA or pkosbnaa.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+NZJUNWFA or nzjunwfa.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -239,7 +239,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store (previously Android Market) purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-PKOSBNAA or pkosbnaa.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+NZJUNWFA or nzjunwfa.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -249,7 +249,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-PKOSBNAA or pkosbnaa.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+NZJUNWFA or nzjunwfa.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -486,8 +486,7 @@ have a nice day,
 -Ken
 
 ******************************************************************
-
-For NEW messages:
+*** For NEW messages:
 
 Cadpage will not do anything with your current settings...
 
@@ -504,6 +503,26 @@ We also need to know what agency is generating these messages and some idea of w
 All of this needs to be emailed to are main support address support@cadpage.org.  If they are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and past them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list and get it added.
 
 In the meantime, try using the general location setting and set the from: filter to whoever appears in the from: field of your page text messages.  That will usually give you some degree of functionality while you are waiting for full location support. 
+
+Good luck,
+Jean, Assistant to Ken Corbin
+
+******************************************************************
+*** For NEW user in non-English speaking countries
+
+Cadpage will not do anything with your current settings...
+
+And I am curious what you expect Cadpage to do for you.  The intended purpose of Cadpage is to support emergency responders who get text pages from a central dispatch center when they are asked to respond to an emergency.  Cadpage takes those pages, displays the information from them, and gives the user the option to bring up a Google map showing the location of the incident and ask for directions to that location.
+
+A location parser has to be written for each particular dispatch text format, generally that means one for every dispatch center.  We have not yet tried to write a location parser in any language other than English, but I would be happy to give it a try.
+
+To add a new location we need 5-10 sample text messages from your dispatch.  Please include what County/City/Company these pages are for so we can place it in the right grouping. Please try to include 1-2 calls with intersections so we can parse those correctly. Include any details you can regarding how the messages are formatted. If possible please include what email the messages come from.
+
+We also need to know what agency is generating these messages and some idea of what other departments receive the same message formats.  If you can identify the CAD software that is sending your text pages that would help a lot.   
+
+All of this needs to be emailed to are main support address support@cadpage.org.  If they are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and past them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list and get it added.
+
+In the meantime, try using the general location setting and set the from: filter to whoever appears in the from: field of your page text messages.  For English language street names, this usually give you some degree of functionality while you are waiting for full location support.   For other languages, the results are completely unpredictable.
 
 Good luck,
 Jean, Assistant to Ken Corbin
