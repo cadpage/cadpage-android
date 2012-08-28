@@ -419,7 +419,7 @@ Thanks a bunch,
 
 ******************************************************************
 
-Here is the long list of things to check when Cadpage is not working.  The important steps are the last two.  They send us information about your text pages that we need to figure out what is wrong.
+Here is the long list of things to check when Cadpage is not working. Some things may not apply to you. The important steps are the last two.  They send us information about your text pages that we need to figure out what is wrong.
 
 Do you have Go SMS Pro or Handcent installed?  Both have proven to be incompatible with Cadpage.  Handcent can't make up its mind whether to be cooperative or not.  We keep the most recent version of Handcent that works with Cadpage on our Download page at http://www.cadpage.org/download-cadpage/
 

@@ -12,6 +12,7 @@ Subject:Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n80 HUNTER CIR\nHAMILTON TW
 Subject:Alert: Diabetic Emergency - 1\nALRM LVL: 1\nLOC:\nLINCOLNWAY W/TRACY AVE\nNEW OXFORD BORO\nBTWN: TRACY AVE & KOHLER MILL RD
 Subject:Alert: Traffic Accident - 2\nALRM LVL: 1\nLOC:\nYORK RD/FLESHMAN MILL RD\nMOUNT PLEASANT TWP\nBTWN: FLESHMAN MILL RD
 Subject:Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n2315 HUNTERSTOWN-HAMPTON RD\nSTRABAN TWP\nBTWN: ALLEY & CONEWAGO RD
+Subject:Alert: Traffic Accident - 2\nALRM LVL: 1\nLOC:\n760 NEW CHESTER RD\nSTRABAN TWP\nBTWN: SWIFT RUN RD & BRICKCRAFTERS RD
 
 Contact: Active911
 Agency name: Fairfield Fire and EMS Location: Fairfield, PA 
@@ -63,7 +64,7 @@ public class PAAdamsCountyParser extends DispatchA1Parser {
   public PAAdamsCountyParser() {
     super("ADAMS COUNTY", "PA");
   }
-  
+
   @Override
   public String getFilter() {
     return"alert@adams911.com";
