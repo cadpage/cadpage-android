@@ -57,7 +57,7 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911@cattco.org,7770, messaging@iamresponding.com,dispatch@sheriff.us";
+    return "911@cattco.org,777, messaging@iamresponding.com,dispatch@sheriff.us";
   }
 
   @Override
