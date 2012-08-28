@@ -54,6 +54,14 @@ public class PAAdamsCountyParserTest extends BaseParserTest {
         "CITY:STRABAN TWP",
         "X:ALLEY & CONEWAGO RD");
 
+    doTest("T6",
+        "Subject:Alert: Traffic Accident - 2\nALRM LVL: 1\nLOC:\n760 NEW CHESTER RD\nSTRABAN TWP\nBTWN: SWIFT RUN RD & BRICKCRAFTERS RD",
+        "CALL:Traffic Accident - 2",
+        "PRI:1",
+        "ADDR:760 NEW CHESTER RD",
+        "CITY:STRABAN TWP",
+        "X:SWIFT RUN RD & BRICKCRAFTERS RD");
+
   }
   
   @Test
