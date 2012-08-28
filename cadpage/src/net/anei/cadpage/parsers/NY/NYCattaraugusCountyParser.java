@@ -32,6 +32,10 @@ Unit:WVD1 Loc:8374 ROHR HILL RD Between:PLATO RD/MILL VALLEY RD CN: CTV:EOTT Typ
 Contact: Brian Albrecht <albrecht289@gmail.com>
 CATTARAUGUS COUNTY SHERIFF ((29) 911 ) Unit:PED1 Loc:3RD ST Between: CN: CTV:OUTS Type:Assist Date:11/13/2011 Time:19:13 Info:ONE BRUSH TRUCK FROM PERRYSBURG TO RESPOND TO 3RD ST FORRESTVILLE Caller:CHAUTAUQUA COUNTY,,, Inc#:2011-00032648
 
+Contact: erick lindberg <erick.lindberg@gmail.com>
+Sender: 777213918106
+CATTARAUGUS COUNTY SHERIFF ((40937) 911 ) Unit:FRD1 Loc:12 FRANKLIN ST Between:S MAIN ST/WEST AVE CN: CTV:FRAV Type:ALS DIB Date:08/27/2012 Time:00:47 Info:46 YOF UPPER BACK PAIN/DIB Caller:DINGMAN,TRENT,J, Inc#:2012-00000378
+
 */
 
 public class NYCattaraugusCountyParser extends FieldProgramParser {
@@ -48,7 +52,7 @@ public class NYCattaraugusCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911@cattco.org,7770";
+    return "911@cattco.org,777";
   }
 
   @Override

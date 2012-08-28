@@ -3807,7 +3807,10 @@ Contact: Jeremy <athey9014@yahoo.com>
 Contact: "Roger Bennett" <rbennett@allconet.org>  (AllCoNet.org) (Dispatch center)
 Sender: acgov_911_cad@allconet.org
 S:CAD M:08:26 #047678 BEHAVORIAL EMERGENCY 12037 IRIS AVE SW  BOX:F0801 DUE:A396 M514\n\n\n**********************************************************
-Unknown:
+S:CAD M:12:56 #038525 CHEST PAINS, HEART 12002 BOWLING ST SW\2sBOX:F0803 DUE:A396 MED08 MED09\n\n
+S:CAD M:21:08 #038431 MEDICAL EMERGENCY 13103 QUARRY RIDGE RD SW\2sBOX:F0902 DUE:CO09 A396\n\n
+**********************************************************
+Unknown
 Contact: Charlie Humert <humbert04.ch@gmail.com>
 Sender: KC-911@kc911.us
 Looks a lot like Crook County, OR
@@ -4867,7 +4870,20 @@ Contact: Shane Jacobs <coastalcutz@gmail.com>
 Sender: CAD@onslowcountync.gov
 FRM:CAD@onslowcountync.gov\nMSG:CAD:1822 NEW RIVER INLET RD;UNIT 1107;17;FALL;17A03G
 **********************************************************
-Charles County, MD (alternate or replace?)
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+Charles County, MD (alternate possible merge???)
 Contact: "rogersonjg@gmail.com" <rogersonjg@gmail.com>
 Sender: fire12alerting-bounces@sms.mdfiretech.com
 TRASH, DEBRIS, MULCH, TREE FIRE, REFUSE\r\nHERRING CT, DORCHESTER LAKE @ END\r\nmdft.us/?VSm3jy\r\n1215465\r\nS12\r\n8/26/2012 5:23:48 PM
@@ -4908,19 +4924,15 @@ UNKNOWN MEDICAL ALARM, EMS, BLS, 32B\r\n4210 SOUTHWINDS PL, APT 114\r\nmdft.us/?
 STRUC, COMMERCIAL BLDG, WAREHOUSE, STORAGE UNITS, BUSINESS 2007 SMALLWOOD DR W, WESTLAKE DASH IN 10 A3 F121590013 1209
 LANDING SITE, LZ, MISC 10956 BEECHWOOD CT 4 A10 SET UP LZ F121540011 1209461 12:34
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
+Fonda, NY in Mongtomery County
+Contact: Paul Krug <paulkrug7@gmail.com>
+Sender: paging@impact-sys.com
+EMS - EMS CALL  5 CEMETERY V FONDA  05/06/2012 2155
+EMS - EMS CALL  22 RAILROAD ST V FONDA  05/03/2012 1747
+FIRE - SERVICE NBT BANK FONDA 34 W MAIN ST FONDA  04/30/2012 0650
+EMS - EMS CALL CUMBERLAND FARMS 2 W MAIN ST FONDA  04/30/2012 0532
+FIRE - STRUCTURE  56 E MAIN ST V FONDA  04/20/2012 0145
+FIRE - CO CALL  21 BROADWAY V FONDA  04/18/2012 0817
 **********************************************************
 Dothan, AL 
 Contact: Jacob Wozow <jwozow06@gmail.com>

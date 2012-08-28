@@ -198,6 +198,22 @@ public class NYCattaraugusParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testErickLindberg() {
+
+    doTest("T1",
+        "CATTARAUGUS COUNTY SHERIFF ((40937) 911 ) Unit:FRD1 Loc:12 FRANKLIN ST Between:S MAIN ST/WEST AVE CN: CTV:FRAV Type:ALS DIB Date:08/27/2012 Time:00:47 Info:46 YOF UPPER BACK PAIN/DIB Caller:DINGMAN,TRENT,J, Inc#:2012-00000378",
+        "UNIT:FRD1",
+        "ADDR:12 FRANKLIN ST",
+        "X:S MAIN ST/WEST AVE",
+        "CITY:FRANKLINVILLE",
+        "CALL:ALS DIB",
+        "INFO:46 YOF UPPER BACK PAIN/DIB",
+        "NAME:DINGMAN,TRENT,J",
+        "ID:2012-00000378");
+
+  }
+  
   public static void main(String[] args) {
     new NYCattaraugusParserTest().generateTests("T1");
   }
