@@ -100,6 +100,19 @@ public class PALancasterCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void test() {
+
+    doTest("T1",
+        "(INVESTIGATION-INSIDE) WEST LAMPETER TOWNSHIP~1802 MILLPORT RD~RESCH LN~SOUTHGATE DR~TRK50~22:51:15^ [Attachment(s) removed]",
+        "CALL:INVESTIGATION-INSIDE",
+        "CITY:WEST LAMPETER TOWNSHIP",
+        "ADDR:1802 MILLPORT RD",
+        "X:RESCH LN & SOUTHGATE DR",
+        "UNIT:TRK50");
+
+  }
+  
   
   public static void main(String[] args) {
     new PALancasterCountyParserTest().generateTests("T1", "SRC CALL CITY ADDR X UNIT");

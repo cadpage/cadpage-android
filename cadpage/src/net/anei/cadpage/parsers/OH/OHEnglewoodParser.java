@@ -12,22 +12,6 @@ Contact: Zach Marvin <zchmrvn11@gmail.com>
 Sender: CAD@englewood.oh.us
 System: CMI
 
-Our pages consist of the units first. Any numbers (Ex: 630, 924, 821) are police 
-units, all others are the fire units with the first letter being the city (Ex: EE98 
-is Englewood Engine 98). Also something that may be helpful is at the end of the 
-page there is the city that the address is located in based off of Google Maps. 
-If you have a way to incorporate that into the alert that would be cool because 
-if we go mutual aid to another city Google Maps may have some trouble finding the 
-location if Englewood is in it. If you need pages from Farmersville or New Lebanon 
-let me know because I don't get those to my phone (I'd have to pull them off of our 
-server). The one labeled with **** are Union pages (One was a structure fire that 
-Englewood was also dispatched to as Automatic Mutual Aid (AMAR)). 
-After the time you will notice our call codes. This is after the - and the first 
-code is a police code, second code is the fire code. 45 for police is a medic call 
-assist. E45 is an Englewood (because of the E) Medic Call. We have a small list 
-of about 8 fire codes in all maybe less. If for some reason you would want them 
-I can get them to you. The email address that sends the pages is CAD@englewood.oh.us
-
 CAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n622 EE98 EM98 OP72:12:31:00-53B:E53:2 VEH ACC UNK INJ:@9200 N MAIN ST,DAYTON:FDC SOUTH WALL\n\n
 CAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n630 632 EM98:16:10:00-45:E45:MEDIC/SUICIDAL SUBJECT:@9000 N MAIN ST UNIT 300,DAYTON: 
 CAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n622 EE98 EM98 OP72:12:31:00-53B:E53:2 VEH ACC UNK INJ:@9200 N MAIN ST,DAYTON:FDC SOUTH WALL 
@@ -40,13 +24,14 @@ FRM:CAD@englewood.oh.us\nMSG:630 EM98:15:51:00-45:E45:MEDIC - 65YOF BACK DOOR SH
 FRM:CAD@englewood.oh.us\nMSG:EM98:12:53:13-45::MEDIC/ 65 YOF, STOMACH PAINS:@824 HILE LN,ENGLEWOOD:\r\n
  1 of 2\nFRM:CAD@englewood.oh.us\nMSG:EE98 EM98 OP72:17:04:27-53B::2 VEH CRASH - 1 VEH ON SIDE:@404 W NATIONAL RD,ENGLEWOOD:KEYBOX FRONT DOOR LEFT,\n(Con't) 2 of 2\nFDC SE CORNER IN FENCE\r\n(End)
 FRM:CAD@englewood.oh.us\nMSG:EM98:22:35:24-45:E45:MUTUAL AID MEDIC/ MALE WITH FEVER, X OF JEFFERSON BY JAY:@139 NORTH STREET,:\r\n
+1 of 2\nFRM:CAD@englewood.oh.us\nMSG:EM98:08:30:44-45:E45:MEDIC CALL - SHORTNESS OF BREA:@9000 N MAIN ST UNIT G35,DAYTON:CANCER CENTER CALLS GO TO\n(Con't) 2 of 2\nCANCER CENTER\r\nLAKESIDE AMB ENTRANCE FOR BSMT-GROU\r\n(End)
 
  */
 
 
 public class OHEnglewoodParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("([^:]+?):(\\d\\d:\\d\\d:\\d\\d)-([A-Z0-9]+:[A-Z0-9]*):([^:?]+):@([^,]+?),([A-Z ]*?):(.*)");
+  private static final Pattern MASTER = Pattern.compile("([^:]+?):(\\d\\d:\\d\\d:\\d\\d)-([A-Z0-9]+:[-A-Z0-9]*):([^:?]+):@([^,]+?),([A-Z ]*?):(.*)");
   
   public OHEnglewoodParser() {
     super("ENGLEWOOD", "OH");
@@ -64,6 +49,7 @@ public class OHEnglewoodParser extends MsgParser {
 
   @Override
   public boolean parseMsg(String body, Data data) {
+    body = body.replace('\n', ' ').trim();
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strUnit = match.group(1).trim();

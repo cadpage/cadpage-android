@@ -125,6 +125,24 @@ public class OHEnglewoodParserTest extends BaseParserTest {
         "CODE:45:E45",
         "CALL:MUTUAL AID MEDIC/ MALE WITH FEVER, X OF JEFFERSON BY JAY",
         "ADDR:139 NORTH STREET");
+
+    doTest("T12",
+        "1 of 2\n" +
+        "FRM:CAD@englewood.oh.us\n" +
+        "MSG:EM98:08:30:44-45:E45:MEDIC CALL - SHORTNESS OF BREA:@9000 N MAIN ST UNIT G35,DAYTON:CANCER CENTER CALLS GO TO\n" +
+        "(Con't) 2 of 2\n" +
+        "CANCER CENTER\r\n" +
+        "LAKESIDE AMB ENTRANCE FOR BSMT-GROU\r\n" +
+        "(End)",
+
+        "UNIT:EM98",
+        "TIME:08:30:44",
+        "CODE:45:E45",
+        "CALL:MEDIC CALL - SHORTNESS OF BREA",
+        "ADDR:9000 N MAIN ST",
+        "APT:G35",
+        "CITY:DAYTON",
+        "INFO:CANCER CENTER CALLS GO TO CANCER CENTER LAKESIDE AMB ENTRANCE FOR BSMT-GROU");
       
   }
   

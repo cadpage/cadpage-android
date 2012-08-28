@@ -27,6 +27,10 @@ FRM:messaging@iamresponding.com\nSUBJ:WBFC\nMSG:STANDBY-TRANSFER TO STATION\nWES
 FRM:messaging@iamresponding.com\nSUBJ:WBFC\nMSG:BUILDING-DWELLING-1A\nPROVIDENCE TWP~417 LANC PIKE~MOUNT AIRY RD~DENNIS DR~ENG906~14:52:09\n
 FRM:messaging@iamresponding.com\nSUBJ:WBFC\nMSG:SPILL CONTROL\nMANOR TWP~2601 RIVER RD~ANCHOR RD~LETORT RD~ENG903,TAN903,BR903,TAN907~16:04:15\n
 
+Contact: Kirstie Breneman <kirstieloveshorses@gmail.com>
+Sender: conf-1012818233@everbridge.net
+(INVESTIGATION-INSIDE) WEST LAMPETER TOWNSHIP~1802 MILLPORT RD~RESCH LN~SOUTHGATE DR~TRK50~22:51:15^ [Attachment(s) removed]
+
 */
 
 public class PALancasterCountyParser extends MsgParser {
@@ -39,7 +43,7 @@ public class PALancasterCountyParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "911@lcwc911.us,messaging@iamresponding.com";
+    return "911@lcwc911.us,messaging@iamresponding.com,@everbridge.net";
   }
 
   @Override
