@@ -92,11 +92,16 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * 
  * INTLS - operator initials, always skipped but will validated as 1-3 upper case letters
  * 
+ * EMPTY - Empty field.  Must always be empty
+ * 
  * ADDRCITY - Address and City field separated by a comma.  Can take all ofthe
  * special field qualifiers that an address field can.
  * 
  * END - Does no processing, fails if not beyond the end of the data fields
  * 
+ * SELECT - Does not process a field, only makes yes/no selection decision after calling the
+ *          getSelectValue() method.  If the result matches the qualifer string, the test
+ *          succeeds, otherwise it fails.
  *    
  * The ugly details on optional fields
  * 
@@ -839,6 +844,10 @@ public class FieldProgramParser extends SmartAddressParser {
       this.optional = (tag != null) && optional;
       
       if (tag != null) parseTags = true;
+      
+      // Select field is a special case.  It doesn't actually process a field, so the
+      // success link increment needs to be backed down to zero
+      if (field instanceof SelectField) succLink.setLink(null, -1);
     }
 
     /**
@@ -2256,7 +2265,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * Empty field processor
    * Field which must be empty
    */
-  private class EmptyField extends SkipField {
+  public class EmptyField extends SkipField {
     @Override
     public boolean canFail() {
       return true;
@@ -2287,6 +2296,35 @@ public class FieldProgramParser extends SmartAddressParser {
       // detected by Step.process()
       return false;
     }
+  }
+  
+  public class SelectField extends SkipField {
+    
+    private String code;
+
+    @Override
+    public void setQual(String qual) {
+      this.code = qual;
+    }
+    
+    @Override
+    public String getQual() {
+      return code;
+    }
+
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return code.equals(getSelectValue());
+    }
+  }
+  
+  protected String getSelectValue() {
+    return "";
   }
   
   /**
@@ -2330,6 +2368,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("INTLS")) return new InitialsField();
     if (name.equals("EMPTY")) return new EmptyField();
     if (name.equals("END")) return new EndField();
+    if (name.equals("SELECT")) return new SelectField();
     
     // TODO Add and END field processor that does nothing but can test for
     // the end of the data sequence

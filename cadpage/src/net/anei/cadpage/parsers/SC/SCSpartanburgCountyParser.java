@@ -25,6 +25,10 @@ Contact: Hector Cardona <krzcolombian@gmail.com>
 (Email Copy from Emergin Integration Suite) TRFD - CF/27137 TYP: ..SUICIDE THREAT ..` AD: 326 STODDARD DR CMT1: <<< SUICIDE THREAT (NOT ATTEMPTED) >>>
 (Email Copy from Emergin Integration Suite) TRFD - CF/27162 TYP: NON-INJURY MVA... AD: CANADY RD&INMAN RD CMT1: <<< NON INJURY VEHICLE ACCIDENT >>> CM
 
+Contact: Dave <shaftoa@bellsouth.net>
+Sender: 911info@spartanburgcounty.org
+1 of 2\nFRM:911info@spartanburgcounty.org\nMSG:NSFD - CF/24117 TYP: CHECK A SMOKE DETECT AD: 381 STILL WATER CIR CMT1: <<< CHECK SMOKE DETECTOR\n(Con't) 2 of 2\n>>> CMT2: CALLERS SMK DETECTORS ARE GOIN OFF CALLER DONT SEE OR(End)
+
  */
 
 public class SCSpartanburgCountyParser extends DispatchPrintrakParser {

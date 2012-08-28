@@ -28,6 +28,8 @@ prvs=054676518f=dispatch@jeffersoncountypa.com (Incident) Structure Fire E30 E20
 prvs=0555093757=dispatch@jeffersoncountypa.com (Incident) Tree Down S20  558 ROBINSON ST Bell HALL ST / DEAD END 20-B Snyder Hill
 prvs=05703e571d=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Structure Fire E20 R20 T20 E30 SQ30 E40 TK40 R40 MED50  105 WOODLAND AVE Punxsutawney SPRING ST / E MAHONING ST, CLEARFIEL
 
+prvs=0585990ef8=dispatch@jeffersoncountypa.com (Incident) MVA -29-D Entrapment S40 S20 S30 MED50  754 S MAIN STREET EXT Young FEMCO MACHINE COMPANYUNIVERSAL DR, CALVARY LN / ALLIAN
+
 */
 
 public class PAJeffersonCountyParser extends SmartAddressParser {

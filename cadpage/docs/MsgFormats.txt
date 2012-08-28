@@ -4867,6 +4867,10 @@ Contact: Shane Jacobs <coastalcutz@gmail.com>
 Sender: CAD@onslowcountync.gov
 FRM:CAD@onslowcountync.gov\nMSG:CAD:1822 NEW RIVER INLET RD;UNIT 1107;17;FALL;17A03G
 **********************************************************
+Charles County, MD (alternate or replace?)
+Contact: "rogersonjg@gmail.com" <rogersonjg@gmail.com>
+Sender: fire12alerting-bounces@sms.mdfiretech.com
+TRASH, DEBRIS, MULCH, TREE FIRE, REFUSE\r\nHERRING CT, DORCHESTER LAKE @ END\r\nmdft.us/?VSm3jy\r\n1215465\r\nS12\r\n8/26/2012 5:23:48 PM
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4904,31 +4908,3 @@ PERSON  DOWN  6001  S CR 55  POSS S44
 S38A  432  PHILLIP RD..C2
 **********************************************************
 **********************************************************
------- Dispatch Report v1.3SP ------                   INCIDENT: F1214933
-Incident Received: 07-03-2012  19:35:46              Call Source:  10DIGIT
-
-CODE: FAL-FIRE ALARM 
-BALA POINT
-111 PRESIDENTIAL BLVD  Apt# 2
-Cross Street: E CITY AVE AND GLEN RD
-
-Map:    Plan:   ADC: 3479F9  MUN: LMER
-
-Units Due:   P28
-
-Additional Info:
----------- ----
-*** ADDITIONAL INFO NOT ON FILE FOR THIS LOCATION ***
-
-Event Comments:
------ ---------
-19:35  CLEAR CHANNEL ALARM
-19:35  W/N
-19:35  610-667-7150
-
-Prior Events:
------ -------
-*** NOT FOUND ***
-
-
- ** 

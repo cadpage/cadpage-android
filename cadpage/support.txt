@@ -416,15 +416,11 @@ Let us know how things work out.
 
 ******************************************************************
 
-It looks like your carrier has rolled sending phone numbers out of the 7771xxxxxxxx range that I was checking. 
+Hi folks,
 
-This will be fixed in the next release.  You can override the sender filter now
+We have gotten a report that the <<<>>> dispatch text pages are not longer working with Cadpage.  I need to know if they are still working for you.  If they are, I need to know that I have to retain the current functionality when I rewrite the text parser.  If not, can you report any examples of what your text pages look like now.  Just long  press all of the calls and select Report Problem to generate an email to us with information about the call.
 
-Go into Location Settings
-Check the box labeled "Override Location Filter"
-Set the "From: (filter) setting to 777
-
-Good luck,
+Thanks a bunch,
 -Ken
 
 ******************************************************************
