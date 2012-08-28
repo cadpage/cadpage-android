@@ -548,6 +548,22 @@ public class FieldProgramParserTest extends BaseParserTest {
         "UNIT:X1");
   }
   
+  @Test
+  public void testSelect() {
+    
+    doFieldTest("Select succeed", "CALL ( SELECT/FIRE CODE ADDR | ADDR CODE )",
+        "BLACK FOX;CODE;ADDRESS",
+        "CALL:BLACK FOX",
+        "CODE:CODE",
+        "ADDR:ADDRESS");
+    
+    doFieldTest("Select FAIL", "CALL ( SELECT/EMS CODE ADDR | ADDR CODE )",
+        "BLACK FOX;ADDRESS;CODE",
+        "CALL:BLACK FOX",
+        "ADDR:ADDRESS",
+        "CODE:CODE");
+  }
+  
   @Override
   public void testBadMsg() {
     parser.setProgram("SKIP ADDR!");
@@ -584,5 +600,9 @@ public class FieldProgramParserTest extends BaseParserTest {
       return super.getField(name);
     }
     
+    @Override
+    public String getSelectValue() {
+      return "FIRE";
+    }
   }
 }

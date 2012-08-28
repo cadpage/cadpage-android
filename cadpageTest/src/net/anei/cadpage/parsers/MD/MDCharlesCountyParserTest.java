@@ -390,6 +390,11 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "INFO:45-year-old, female, conscious, breathing. Caller Statement:");
 
   }
+  
+  @Test
+  public void testRogersonJG() {
+    
+  }
     
   public static void main(String[] args) {
     new MDCharlesCountyParserTest().generateTests("T7", "CALL UNIT ADDR APT PLACE CODE MAP INFO ID");

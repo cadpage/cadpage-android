@@ -140,6 +140,15 @@ public class PAJeffersonCountyParserTest extends BaseParserTest {
         "CITY:Punxsutawney",
         "PLACE:CLEARFIEL");
 
+    doTest("T13",
+        "prvs=0585990ef8=dispatch@jeffersoncountypa.com (Incident) MVA -29-D Entrapment S40 S20 S30 MED50  754 S MAIN STREET EXT Young FEMCO MACHINE COMPANYUNIVERSAL DR, CALVARY LN / ALLIAN",
+        "CALL:MVA -29-D Entrapment S40 S20 S30 MED50",
+        "ADDR:754 S MAIN STREET EXT",
+        "MADDR:754 S MAIN STREET",
+        "X:FEMCO MACHINE COMPANYUNIVERSAL DR, CALVARY LN",
+        "CITY:Young",
+        "PLACE:/ ALLIAN");
+
   }
   
   public static void main(String[] args) {

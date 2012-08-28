@@ -12,7 +12,7 @@ public class NCOnslowCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testKimCytryszewski() {
 
     doTest("T1",
         "CAD:100 VANCE LN/RIGGS RD;DIST: 158.12 FT;TRAFFIC TRANSPORTATION ACCIDT;WOFD;20C\r",
@@ -96,8 +96,37 @@ public class NCOnslowCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void doTestShaneJacobs() {
-    
+  public void testShaneJacobs() {
+
+    doTest("T1",
+        "FRM:CAD@onslowcountync.gov\nMSG:CAD:1822 NEW RIVER INLET RD;UNIT 1107;17;FALL;17A03G",
+        "ADDR:1822 NEW RIVER INLET RD",
+        "UNIT:1107-17",
+        "CALL:FALL",
+        "CODE:17A03G");
+
+    doTest("T2",
+        "FRM:CAD@onslowcountync.gov\nMSG:CAD:9018 9TH ST;10;CHEST PAIN;10D04",
+        "ADDR:9018 9TH ST",
+        "UNIT:10",
+        "CALL:CHEST PAIN",
+        "CODE:10D04");
+
+    doTest("T3",
+        "FRM:CAD@onslowcountync.gov\nMSG:CAD:1822 NEW RIVER INLET RD;1107;17;FALL;17A01",
+        "ADDR:1822 NEW RIVER INLET RD",
+        "UNIT:1107-17",
+        "CALL:FALL",
+        "CODE:17A01");
+
+    doTest("T4",
+        "FRM:CAD@onslowcountync.gov\nMSG:CAD:2075 HWY 172;COASTAL DREDGING;VEHICLE FIRE;SFFD;15A",
+        "ADDR:2075 HWY 172",
+        "UNIT:15A",
+        "CALL:VEHICLE FIRE",
+        "PLACE:COASTAL DREDGING",
+        "SRC:SFFD");
+
   }
   
 

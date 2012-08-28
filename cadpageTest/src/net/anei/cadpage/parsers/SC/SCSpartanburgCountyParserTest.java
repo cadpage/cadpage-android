@@ -90,6 +90,24 @@ public class SCSpartanburgCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testNSFD() {
+
+    doTest("T1",
+        "1 of 2\n" +
+        "FRM:911info@spartanburgcounty.org\n" +
+        "MSG:NSFD - CF/24117 TYP: CHECK A SMOKE DETECT AD: 381 STILL WATER CIR CMT1: <<< CHECK SMOKE DETECTOR\n" +
+        "(Con't) 2 of 2\n" +
+        ">>> CMT2: CALLERS SMK DETECTORS ARE GOIN OFF CALLER DONT SEE OR(End)",
+
+        "SRC:NSFD",
+        "ID:CF/24117",
+        "CALL:CHECK A SMOKE DETECT",
+        "ADDR:381 STILL WATER CIR",
+        "INFO:CHECK SMOKE DETECTOR / CALLERS SMK DETECTORS ARE GOIN OFF CALLER DONT SEE OR");
+
+  }
+  
   public static void main(String[] args) {
     new SCSpartanburgCountyParserTest().generateTests("T1");
   }
