@@ -12,6 +12,8 @@ import net.anei.cadpage.preferences.LocationListPreference;
 import net.anei.cadpage.preferences.LocationManager;
 import net.anei.cadpage.preferences.OnDialogClosedListener;
 import net.anei.cadpage.vendors.VendorManager;
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Build;
@@ -26,6 +28,8 @@ import android.preference.Preference.OnPreferenceClickListener;
 
 public class SmsPopupConfigActivity extends PreferenceActivity {
   
+  private static final int REQ_SCANNER_CHANNEL = 1;
+  
   private String parserFilter = "";
   private String parserDefCity = "";
   private String parserDefState = "";
@@ -36,6 +40,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   private CheckBoxPreference overrideDefaultPref;
   private EditTextPreference defCityPref;
   private EditTextPreference defStatePref;
+  
+  private Preference scannerPref;
   
   private String saveLocation;
 
@@ -198,6 +204,27 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     overrideDefaultPref.getOnPreferenceChangeListener().
         onPreferenceChange(overrideDefaultPref, ManagePreferences.overrideDefaults());
     
+    // Set up Scanner channel selection preference
+    scannerPref = findPreference(getString(R.string.pref_scanner_channel_key));
+    if (scannerPref != null) {
+      String channel = ManagePreferences.scannerChannel();
+      scannerPref.setSummary(channel);
+      scannerPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
+        @Override
+        public boolean onPreferenceClick(Preference pref) {
+          
+          // When clicked, ask the scanner app to select a favorite channel
+          Intent intent = new Intent("com.scannerradio.intent.action.ACTION_PICK");
+          try {
+            startActivityForResult(intent, REQ_SCANNER_CHANNEL);
+          } catch (ActivityNotFoundException ex) {
+            Log.w("No Scanner app found");
+          }
+          return true;
+        }
+      });
+    }
+    
     // Email developer response
     Preference emailPref = findPreference(getString(R.string.pref_email_key));
     emailPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
@@ -231,6 +258,29 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     super.onDestroy();
   }
 
+  @Override
+  protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+    if (requestCode == REQ_SCANNER_CHANNEL) {
+      if (resultCode != RESULT_OK || data == null) return;
+      Log.v("onActivityResult()");
+      ContentQuery.dumpIntent(data);
+      String nodeID = data.getStringExtra("node_id");
+      String description = data.getStringExtra("description");
+      String packageName = data.getStringExtra("package_name");
+      String appName = data.getStringExtra("app_name");
+      if (nodeID == null || description == null || packageName == null || appName == null) return;
+      if (nodeID.length() == 0) return;
+      
+      ManagePreferences.setScannerChannel(description);
+      scannerPref.setSummary(description);
+      String appNode = packageName + '.' + appName + ':' + nodeID;
+      ManagePreferences.setScannerChannelAppNode(appNode);
+      return;
+    }
+    super.onActivityResult(requestCode, resultCode, data);
+  }
+  
 
 
   /**

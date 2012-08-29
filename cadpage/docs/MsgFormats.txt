@@ -3272,10 +3272,33 @@ COMM/RES FIRE AL EXTRUDE 2001-SHELDON RD KEYMAP:458P BOX:2003 X1:UN-NAMED DITCH
 ID#/ 11-04-10077 / 67D03 / OUTSIDE FIRE / 14946 Lawther / BLD: / KM: 497H / CROSS: OVERBLUFF DR/LOFTON
 ID#/ 11-04-10077 / 67D03 / OUTSIDE FIRE / 14946 Lawther / BLD: / KM: 497H / CROSS: OVERBLUFF DR/LOFTON
 
+Body:ID#:12-08-31772 - - 52B1 ALARMS - 16550 Wallisville Rd - Apt: - Bldg:
+HARVEY BRO
+Body:5
+Body:ID#:12-08-31772 - - 52B1 ALARMS - 16550 Wallisville Rd - Apt: - Bldg:
+HARVEY BRO
+
+Body:WN PRIMARY - Key Map: 458P - Cross Streets:Dead End/RANCHO PALOMA DR -
+Box #:200
+:WN PRIMARY - Key Map: 458P - Cross Streets:Dead End/RANCHO PALOMA DR -
+Box #:200
+
+Body:ey Map: 417N - Cross Streets:PICARDY LN/BERNINA LN - Box #:3305
+Body:ID#:12-08-31706 - - 69C1 APPLIANCE FIRE - 11502 Clearfield Dr - Apt: -
+Bldg: - K
+
+Body:Map: 456M - Cross Streets:HARTMAN RD/BEAUMONT PL - Box #:3304
+Body:ID#:12-08-31684 - - 32B1 UNKNOWN PROBLEM - 12902 Verdun Dr - Apt: -
+Bldg: - Key
+ 
+ Body:20:15:47 - AT: 20:25:03 - AIR: 20:40:18
+Body:ID#:12-08-31668 - UNIT:M15 - DISP: 20:08:49 - ER: 20:06:40 - OUT:
+20:11:53 - TO:
+
 Contact: Richard Clark <richard686@comcast.net>
 Sender: CAD@hcesd-1.org
 FRM:CAD@hcesd-1.org\nMSG:\nID#/ 11-03-09995 / 21B01 / Hemorrhage/Lacerations / 19110 Miller Wilson Rd / BLD:  / KM: 379R / CROSS: LAWRENCE ST/SUNDOWN MEADOWS ST
- 
+
 Contact: g wise <firedawg2009@gmail.com>
 Sender: CAD@hcesd-1.org
 / / ID# 11-04-10774 / UNIT: / 67B01 / GRASS/WOODS FIRE / ROSALINDA LN / KARLANDA LN / APT: / BLD: / KM: 373A / XSTRTS:
@@ -3801,14 +3824,6 @@ Body:ID#:11-09-31093 - - VEHICLE FIRE - 17618 River Rd - Apt: - Bldg: - Key Map:
 Body:- Cross Streets:PARK/FAIRMONT - Box #:2002
 Send time:1315849897000
 Rec time: 1315849807260
-**********************************************************
-Alleghany County, MD (alternate?)
-Contact: Jeremy <athey9014@yahoo.com>
-Contact: "Roger Bennett" <rbennett@allconet.org>  (AllCoNet.org) (Dispatch center)
-Sender: acgov_911_cad@allconet.org
-S:CAD M:08:26 #047678 BEHAVORIAL EMERGENCY 12037 IRIS AVE SW  BOX:F0801 DUE:A396 M514\n\n\n**********************************************************
-S:CAD M:12:56 #038525 CHEST PAINS, HEART 12002 BOWLING ST SW\2sBOX:F0803 DUE:A396 MED08 MED09\n\n
-S:CAD M:21:08 #038431 MEDICAL EMERGENCY 13103 QUARRY RIDGE RD SW\2sBOX:F0902 DUE:CO09 A396\n\n
 **********************************************************
 Unknown
 Contact: Charlie Humert <humbert04.ch@gmail.com>
@@ -4933,6 +4948,16 @@ FIRE - SERVICE NBT BANK FONDA 34 W MAIN ST FONDA  04/30/2012 0650
 EMS - EMS CALL CUMBERLAND FARMS 2 W MAIN ST FONDA  04/30/2012 0532
 FIRE - STRUCTURE  56 E MAIN ST V FONDA  04/20/2012 0145
 FIRE - CO CALL  21 BROADWAY V FONDA  04/18/2012 0817
+**********************************************************
+Alleghany County, MD (alternate?)
+Contact: Jeremy <athey9014@yahoo.com>
+Contact: "Roger Bennett" <rbennett@allconet.org>  (AllCoNet.org) (Dispatch center)
+Sender: acgov_911_cad@allconet.org
+S:CAD M:08:26 #047678 BEHAVORIAL EMERGENCY 12037 IRIS AVE SW  BOX:F0801 DUE:A396 M514\n\n\n
+S:CAD M:12:56 #038525 CHEST PAINS, HEART 12002 BOWLING ST SW\2sBOX:F0803 DUE:A396 MED08 MED09\n\n
+S:CAD M:21:08 #038431 MEDICAL EMERGENCY 13103 QUARRY RIDGE RD SW\2sBOX:F0902 DUE:CO09 A396\n\n
+S:CAD M:21:02 #038765 STROKE/CVA 14512 BARTON BLVD SW  BOX:F0904 DUE:A396\n \n 
+S:CAD M:00:02 #038632 MEDICAL EMERGENCY 15201 TRAIL RIDGE RD SW  BOX:F0903 DUE:CO09 A396\n \n
 **********************************************************
 Dothan, AL 
 Contact: Jacob Wozow <jwozow06@gmail.com>

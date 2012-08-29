@@ -3,6 +3,7 @@ package net.anei.cadpage;
 import java.util.List;
 
 import android.app.ActivityManager;
+import android.content.ComponentName;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
@@ -117,7 +118,8 @@ public class ContentQuery {
       for (String str : intent.getCategories()) Log.v("  " + str);
     }
     Log.v("Type:" + intent.getType());
-    Log.v("Comp:" + intent.getComponent().getClassName());
+    ComponentName comp = intent.getComponent();
+    Log.v("Comp:" + (comp == null ? null : intent.getComponent().getClassName()));
     Bundle extra = intent.getExtras();
     if (extra != null) {
       for (String key : extra.keySet()) {

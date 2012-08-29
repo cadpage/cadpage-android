@@ -1,8 +1,8 @@
 package net.anei.cadpage;
 
-import net.anei.cadpage.donation.DonationManager;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
+import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -166,6 +166,35 @@ public class SmsReceiver extends BroadcastReceiver {
   
     // Notify user if so configured
     boolean notify = ManageNotification.show(context, message);
+    
+    // If we did any notifications, and a activate scanner channel is configured, 
+    // Launch Scanner Radio app for that channel
+    if (notify) {
+      String appNode = ManagePreferences.scannerChannelAppNode();
+      if (appNode != null) {
+        int pt2 = appNode.lastIndexOf(':');
+        int pt1 = appNode.lastIndexOf('.', pt2);
+        String pkgName = appNode.substring(0,pt1);
+        String appName = appNode.substring(pt1+1,pt2);
+        String node = appNode.substring(pt2+1);
+        Intent intent = new Intent("net.gordonedwards.scannerradio.intent.action.ACTION_PLAY_SCANNER");
+        int flags =
+          Intent.FLAG_ACTIVITY_NEW_TASK |
+//          Intent.FLAG_ACTIVITY_SINGLE_TOP |
+//          Intent.FLAG_ACTIVITY_CLEAR_TOP |
+          Intent.FLAG_ACTIVITY_NO_USER_ACTION;
+        intent.setFlags(flags);
+//        intent.setClassName(pkgName, appName);
+        intent.putExtra("node", Integer.parseInt(node));
+        Log.v("Launching Scanner Radio");
+        ContentQuery.dumpIntent(intent);
+        try {
+          context.startActivity(intent);
+        } catch (ActivityNotFoundException ex) {
+          Log.w("Launch of " + appNode + " failed");
+        }
+      }
+    }
     
     // Determine if application should pop up right now
     boolean process = startApp(context);

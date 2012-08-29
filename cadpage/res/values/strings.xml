@@ -323,6 +323,12 @@
   <string name="pref_suppress_dup_msg_summaryon">Duplicate calls will be suppressed</string>
   <string name="pref_suppress_dup_msg_summaryoff">Duplicate calls will be processed</string>
 
+  <string name="pref_activate_scanner_title">Open Scanner Channel</string>
+  <string name="pref_activate_scanner_summaryon">Scanner channel will be opened</string>
+  <string name="pref_activate_scanner_summaryoff">Scanner channel will not be opened</string>
+
+  <string name="pref_scanner_channel_title">Scanner Channel</string>
+  
   <string name="pref_publish_pages_title">Publish CAD pages</string>
   <string name="pref_publish_pages_summaryon">Cad pages will be published for 3rd party
     applications</string>

@@ -28,7 +28,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 24;
+  private static final int PREFERENCE_VERSION = 25;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -272,6 +272,25 @@ public class ManagePreferences {
   
   public static boolean suppressDupMsg() {
     return prefs.getBoolean(R.string.pref_suppress_dup_msg_key);
+  }
+  
+  public static String scannerChannel() {
+    String channel = prefs.getString(R.string.pref_scanner_channel_key, null);
+    if (channel == null) channel = "<None Selected>";
+    return channel;
+  }
+  
+  public static void setScannerChannel(String newVal) {
+    prefs.putString(R.string.pref_scanner_channel_key, newVal);
+  }
+  
+  public static String scannerChannelAppNode() {
+    if (! prefs.getBoolean(R.string.pref_activate_scanner_key)) return null;
+    return prefs.getString(R.string.pref_scanner_channel_app_node_key, null);
+  }
+  
+  public static void setScannerChannelAppNode(String newVal) {
+    prefs.putString(R.string.pref_scanner_channel_app_node_key, newVal);
   }
   
   public static boolean publishPages() {
@@ -783,6 +802,9 @@ public class ManagePreferences {
         R.string.pref_split_chk_sender_key,
         R.string.pref_rev_msg_order_key,
         R.string.pref_suppress_dup_msg_key,
+        R.string.pref_activate_scanner_key,
+        R.string.pref_scanner_channel_key,
+        R.string.pref_scanner_channel_app_node_key,
         R.string.pref_publish_pages_key,
         
         R.string.pref_notif_enabled_key,
