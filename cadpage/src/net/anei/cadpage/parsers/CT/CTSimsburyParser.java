@@ -83,7 +83,7 @@ public class CTSimsburyParser extends FieldProgramParser {
       "OG",    "Odor of Gas",
       "PA",    "Police Assist",
       "RF",    "Rubbish Fire",
-      "SA",    "Smoke Alarm",
+      "SA",    "Smoke in Area",
       "SF",    "Structure Fire",
       "VA",    "Vehicle Accident",
       "VR",    "Vehicle Rescue",

@@ -213,6 +213,13 @@ public class NJGloucesterCountyAParserTest extends BaseParserTest {
         "CITY:W DEPTFORD TWP",
         "TIME:19:54:13");
 
+    doTest("T4",
+        "COUNTY OF GLOUCESTER (#397987) Dispatch\n\nSta:6-3\nType:VEH\nLoc:RT 295                        \nVen:RT\nDsp-12:33:14     \nClr- STOP",
+        "SRC:6-3",
+        "CALL:VEH",
+        "ADDR:RT 295",
+        "CITY:RT");
+
   }
   
   @Test

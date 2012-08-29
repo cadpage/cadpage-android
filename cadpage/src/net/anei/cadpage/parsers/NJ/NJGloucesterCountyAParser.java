@@ -48,6 +48,7 @@ Sender: 777
 Sta:6-3\nType:RSQM\nLoc:1719 FRONT ST                 \nVen:W-DEPTFORD\nDsp-18:53:53     \nClr- STOP
 Sta:6-3\nType:MVCC\nLoc:RT 45                         \nVen:W-DEPTFORD\nDsp-\nClr- STOP
 Sta:6-3\nType:BRSH\nLoc:1762 THIRD ST                 \nVen:W-DEPTFORD\nDsp-19:54:13     \nClr- STOP
+COUNTY OF GLOUCESTER (#397987) Dispatch\n\nSta:6-3\nType:VEH\nLoc:RT 295                        \nVen:RT\nDsp-12:33:14     \nClr- STOP
 
 Contact: John Godish <jg10306@gmail.com>
 (COUNTY OF GLOUCESTER (#384823) Dispatch) Sta:10-3\nType:WIRE\nLoc:CHAPEL HEIGHTS RD             \nVen:WASHINGTON\nDsp-\nClr- STOP

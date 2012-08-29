@@ -55,7 +55,7 @@ public class CTSimsburyParserTest extends BaseParserTest {
         "ADDR:7 WHITNEY LA",
         "MADDR:7 WHITNEY LN",
         "CODE:SA",
-        "CALL:Smoke Alarm",
+        "CALL:Smoke in Area",
         "INFO:smell of smoke in area - can see \"film\" in air");
 
     doTest("T7",
