@@ -218,7 +218,8 @@ public class NJGloucesterCountyAParserTest extends BaseParserTest {
         "SRC:6-3",
         "CALL:VEH",
         "ADDR:RT 295",
-        "CITY:RT");
+        "CITY:RT",
+        "TIME:12:33:14");
 
   }
   
@@ -235,6 +236,6 @@ public class NJGloucesterCountyAParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NJGloucesterCountyAParserTest().generateTests("T1", "SRC CALL ADDR APT CITY");
+    new NJGloucesterCountyAParserTest().generateTests("T1", "SRC CALL ADDR APT CITY TIME");
   }
 }
