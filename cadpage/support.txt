@@ -139,7 +139,7 @@ It may not be necessary to locate that payment.  Go to Cadpage Settings and sele
 Payment Status > Recalculate Payment Status
 That will attempt to reload your payment status from information maintained on the Play Store or PayPal servers.  
 
-If that doesn't work, try logging in to wallet.google.com or paypal.com.  From there you should be able to look up your Cadpage purchase and send us the date, time and transaction ID.
+If that doesn't work, try logging in to wallet.google.com or paypal.com.  From there you should be able to look up your Cadpage purchase and send us the date, time and transaction ID, and whether it was PayPal or Play Store.
 
 We are very grateful for all contributions and apologize for any complications,
 
@@ -521,7 +521,7 @@ Jean, Assistant to Ken Corbin
 
 There are only two reasons why the Direct Paging Vendor menu will be grayed out.
 
-The most likely, and most difficult to fix, is that direct paging is only supported in Android 2.3.2 and up.  If you phone is still running Andoroid 2.3.1, you need to either upgrade your phone system, or purchase a new phone.  Carriers are notoriously slow about providing upgrades for the phones they sell you.  If you can't get one through the normal channels, you may have to look into rooting the phone and installing your own Android system.
+The most likely, and most difficult to fix, is that direct paging is only supported in Android 2.2 and up.  If you phone is still running Andoroid 2.1, you need to either upgrade your phone system, or purchase a new phone.  Carriers are notoriously slow about providing upgrades for the phones they sell you.  If you can't get one through the normal channels, you may have to look into rooting the phone and installing your own Android system.
 
 The second possible reason is that you installed and are running the free/no-support variant of Cadpage.  Direct paging is not supported by that variant.  If you are using it you will need to install the regular version of Cadpage.  You will not be expected to pay anything for it, Cadpage is free for user registered with Active911.
 

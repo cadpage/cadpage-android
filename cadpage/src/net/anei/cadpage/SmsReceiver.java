@@ -167,30 +167,6 @@ public class SmsReceiver extends BroadcastReceiver {
     // Notify user if so configured
     boolean notify = ManageNotification.show(context, message);
     
-    // If we did any notifications, and a activate scanner channel is configured, 
-    // Launch Scanner Radio app for that channel
-    if (notify) {
-      String appNode = ManagePreferences.scannerChannelAppNode();
-      if (appNode != null) {
-        int pt = appNode.lastIndexOf(':');
-        String action = appNode.substring(0,pt);
-        int node = Integer.parseInt(appNode.substring(pt+1));
-        Intent intent = new Intent(action);
-        int flags =
-          Intent.FLAG_ACTIVITY_NEW_TASK |
-          Intent.FLAG_ACTIVITY_NO_USER_ACTION;
-        intent.setFlags(flags);
-        intent.putExtra("node", node);
-        Log.v("Launching Scanner Radio");
-        ContentQuery.dumpIntent(intent);
-        try {
-          context.startActivity(intent);
-        } catch (ActivityNotFoundException ex) {
-          Log.w("Launch of " + appNode + " failed");
-        }
-      }
-    }
-    
     // Determine if application should pop up right now
     boolean process = startApp(context);
     
@@ -201,7 +177,37 @@ public class SmsReceiver extends BroadcastReceiver {
     if (process ||  notify) ManageWakeLock.acquireFull(context);
 
     // And finally, launch the main application screen
-    if (process) CallHistoryActivity.launchActivity(context);
+    if (process) {
+      CallHistoryActivity.launchActivity(context, notify);
+    }
+    
+    // If we did any notifications, and a activate scanner channel is configured, 
+    // Launch Scanner Radio app for that channel
+    else if (notify) {
+      launchScanner(context);
+    }
+  }
+
+  public static void launchScanner(Context context) {
+    String appNode = ManagePreferences.scannerChannelAppNode();
+    if (appNode != null) {
+      int pt = appNode.lastIndexOf(':');
+      String action = appNode.substring(0,pt);
+      int node = Integer.parseInt(appNode.substring(pt+1));
+      Intent intent = new Intent(action);
+      int flags =
+        Intent.FLAG_ACTIVITY_NEW_TASK |
+        Intent.FLAG_ACTIVITY_NO_USER_ACTION;
+      intent.setFlags(flags);
+      intent.putExtra("node", node);
+      Log.v("Launching Scanner Radio");
+      ContentQuery.dumpIntent(intent);
+      try {
+        context.startActivity(intent);
+      } catch (ActivityNotFoundException ex) {
+        Log.w("Launch of " + appNode + " failed");
+      }
+    }
   }
 
   /**

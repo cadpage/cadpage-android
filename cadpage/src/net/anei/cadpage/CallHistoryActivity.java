@@ -7,6 +7,7 @@ import net.anei.cadpage.donation.Vendor1Event;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ListActivity;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,6 +22,7 @@ import android.widget.TextView;
 
 public class CallHistoryActivity extends ListActivity {
   
+  private static String EXTRA_NOTIFY = "net.anei.cadpage.CallHistoryActivity.NOTIFY";
   private static String EXTRA_SHUTDOWN = "net.anei.cadpage.CallHistoryActivity.SHUTDOWN";
   
   private static final int RELEASE_DIALOG = 1;
@@ -134,7 +136,20 @@ public class CallHistoryActivity extends ListActivity {
     // Otherwise, if we should automatically display a call, do it now
     else {
       SmsMmsMessage msg = SmsMessageQueue.getInstance().getDisplayMessage();
-      if (msg != null)  SmsPopupActivity.launchActivity(this, msg.getMsgId());
+      if (msg != null)  {
+        
+        // Before we open the call display window, see if notifications were requested
+        // And if they were, see if we should launch the Scanner channel open.
+        // We can't do this in the Broadcast Recevier because this window obscurs it
+        // completely, so their Activity won't launch.
+        
+        if (intent.getBooleanExtra(EXTRA_NOTIFY, false)) {
+          SmsReceiver.launchScanner(this);
+        }
+     
+        // OK, go ahead and open the call display window
+        SmsPopupActivity.launchActivity(this, msg.getMsgId());
+      }
     }
   }
 
@@ -233,7 +248,15 @@ public class CallHistoryActivity extends ListActivity {
    * Launch activity
    */
   public static void launchActivity(Context context) {
+    launchActivity(context, false);
+  }
+  
+  /**
+   * Launch activity
+   */
+  public static void launchActivity(Context context, boolean notify) {
     Intent intent = getLaunchIntent(context);
+    if (notify) intent.putExtra(EXTRA_NOTIFY, true);
     intent.addFlags(Intent.FLAG_ACTIVITY_NO_USER_ACTION);
     
     context.startActivity(intent);
