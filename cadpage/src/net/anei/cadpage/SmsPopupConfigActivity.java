@@ -265,17 +265,17 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       if (resultCode != RESULT_OK || data == null) return;
       Log.v("onActivityResult()");
       ContentQuery.dumpIntent(data);
-      String nodeID = data.getStringExtra("node_id");
       String description = data.getStringExtra("description");
-      String packageName = data.getStringExtra("package_name");
-      String appName = data.getStringExtra("app_name");
-      if (nodeID == null || description == null || packageName == null || appName == null) return;
-      if (nodeID.length() == 0) return;
+      Intent scanIntent = data.getParcelableExtra("playIntent");
+      if (description == null || scanIntent == null) return;
+      ContentQuery.dumpIntent(scanIntent);
+      String action = scanIntent.getAction();
+      int node = scanIntent.getIntExtra("node", -1);
+      if (action == null || node < 0) return;
       
       ManagePreferences.setScannerChannel(description);
       scannerPref.setSummary(description);
-      String appNode = packageName + '.' + appName + ':' + nodeID;
-      ManagePreferences.setScannerChannelAppNode(appNode);
+      ManagePreferences.setScannerChannelAppNode(action + ':' + node);
       return;
     }
     super.onActivityResult(requestCode, resultCode, data);

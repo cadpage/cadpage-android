@@ -3263,46 +3263,6 @@ Sender: bfc-alert@bfc1.net
 System: Alarm Data Interface
 RESCUE-AMBULANCE\n18:09\n06/01/11\nELDERLY FEMALE-STROKE\n3 BALDWIN BLVD\nBAYARD AVE / KNOLLWOOD AVE\nMAP 6-C\nRESCUE-AMBULANCE \n16:19 \n06/13/11 \nMALE DIZZY \n80 GODFREY AVE \nMOUNTAIN AVE / MURRAY ST \nMAP 17-B \nGENERAL-WIRE \n19:07 \n06/14/11 \nWIRES BURNING POLE TO POLE \n122 BAYVILLE AVE \nSCHOOL ST / GARDEN ST \nMAP 7-A \n
 **********************************************************
-Harris County, TX
-Contact: Nathan Mathews <nbmathews807@gmail.com>
-Sender: 93001xxx
-
-COMM/RES FIRE AL EXTRUDE 2001-SHELDON RD KEYMAP:458P BOX:2003 X1:UN-NAMED DITCH
-
-ID#/ 11-04-10077 / 67D03 / OUTSIDE FIRE / 14946 Lawther / BLD: / KM: 497H / CROSS: OVERBLUFF DR/LOFTON
-ID#/ 11-04-10077 / 67D03 / OUTSIDE FIRE / 14946 Lawther / BLD: / KM: 497H / CROSS: OVERBLUFF DR/LOFTON
-
-Body:ID#:12-08-31772 - - 52B1 ALARMS - 16550 Wallisville Rd - Apt: - Bldg:
-HARVEY BRO
-Body:5
-Body:ID#:12-08-31772 - - 52B1 ALARMS - 16550 Wallisville Rd - Apt: - Bldg:
-HARVEY BRO
-
-Body:WN PRIMARY - Key Map: 458P - Cross Streets:Dead End/RANCHO PALOMA DR -
-Box #:200
-:WN PRIMARY - Key Map: 458P - Cross Streets:Dead End/RANCHO PALOMA DR -
-Box #:200
-
-Body:ey Map: 417N - Cross Streets:PICARDY LN/BERNINA LN - Box #:3305
-Body:ID#:12-08-31706 - - 69C1 APPLIANCE FIRE - 11502 Clearfield Dr - Apt: -
-Bldg: - K
-
-Body:Map: 456M - Cross Streets:HARTMAN RD/BEAUMONT PL - Box #:3304
-Body:ID#:12-08-31684 - - 32B1 UNKNOWN PROBLEM - 12902 Verdun Dr - Apt: -
-Bldg: - Key
- 
- Body:20:15:47 - AT: 20:25:03 - AIR: 20:40:18
-Body:ID#:12-08-31668 - UNIT:M15 - DISP: 20:08:49 - ER: 20:06:40 - OUT:
-20:11:53 - TO:
-
-Contact: Richard Clark <richard686@comcast.net>
-Sender: CAD@hcesd-1.org
-FRM:CAD@hcesd-1.org\nMSG:\nID#/ 11-03-09995 / 21B01 / Hemorrhage/Lacerations / 19110 Miller Wilson Rd / BLD:  / KM: 379R / CROSS: LAWRENCE ST/SUNDOWN MEADOWS ST
-
-Contact: g wise <firedawg2009@gmail.com>
-Sender: CAD@hcesd-1.org
-/ / ID# 11-04-10774 / UNIT: / 67B01 / GRASS/WOODS FIRE / ROSALINDA LN / KARLANDA LN / APT: / BLD: / KM: 373A / XSTRTS:
-**********************************************************
 Grand Hall, Nebraska
 Contact: Tom Chapman <tomchapm48@gmail.com>
 Sender: fire_text@grand-island.com
@@ -3777,54 +3737,6 @@ Sender: crescent.dispatch@moontwpfire.com
 (Dispatch Alert) 2nd page for mutual aid response to moon twp. 128 dover dr. structure fire
 (Dispatch Alert) M? Timeout=2116\nRIT TEAM REQUESTED\n803 24TH STREET HARMONY TWP
 **********************************************************
-Harris County ESD, TX
-Contact: Nathan Mathews <nbmathews807@gmail.com>
-
-From:93001002
-Body:ID#:11-09-31059 - 67D02 - TRASH FIRE - 809 Becker St - Apt: - Bldg: - Key Map: 4
-Send time:1315830245000
-Rec time: 1315830156721
-
-From:93001004
-Body:ID#:11-09-31059 - 67D02 - TRASH FIRE - 809 Becker St - Apt: - Bldg: - Key Map: 4
-Send time:1315830246000
-Rec time: 1315830171151
-
-From:93001005
-Body:98C - Cross Streets:RAYWOOD DR/RIDLON - Box #:2003
-Send time:1315830249000
-Rec time: 1315830173673
-
-From:93001007
-Body:98C - Cross Streets:RAYWOOD DR/RIDLON - Box #:2003
-Send time:1315830250000
-Rec time: 1315830175592
-
-From:93001006
-Body:ID#:11-09-31059 - 67D02 - TRASH FIRE - 809 Becker St - Apt: - Bldg: - Key Map: 4
-Send time:1315830251000
-Rec time: 1315830176482
-
-
-
-From:93001008
-Body:ID#:11-09-31059 - UNIT:E32 - DISP: 07:23:20 - ER: 07:25:26 - OUT: 07:31:02 - TO:
-Body:- AT: - AIR: 07:35:40
-Send time:1315830963000
-Rec time: 1315830873560
-
-
-From:93001029
-Body:ets:GRAND OAKS BLVD/Dead End - Box #:1401
-Send time:1315857178000
-Rec time: 1315857098028
-
-From:93001014
-Body:ID#:11-09-31093 - - VEHICLE FIRE - 17618 River Rd - Apt: - Bldg: - Key Map: 459X
-Body:- Cross Streets:PARK/FAIRMONT - Box #:2002
-Send time:1315849897000
-Rec time: 1315849807260
-**********************************************************
 Unknown
 Contact: Charlie Humert <humbert04.ch@gmail.com>
 Sender: KC-911@kc911.us
@@ -4077,14 +3989,6 @@ County road 16 and r auto acc
 1023 ensign core 0
 17372 hyw 34 medical emergency
 Rural medical report to the fire station   \n14390 hw 34 space 53
-**********************************************************
-Montgomery County, PA (alternate)
-Contact: Matt Sibley <msibley53@yahoo.com>
-Sender: adi53@comcast.net
-Alarm Close / 10:38 ** BUILDING FIRE NON-COMMERCIAL ** 472 5TH ST ** - ** 66-10 ** WASHINGTON ST AND WAYNE AVE ** \n**********************************************************
-Unknown
-Contact: Ryan Klackle <klacklery@gmail.com>
-CAD:828-151A E Washington ST;1107030;[Medical Priority Info] RESPONSE; Amb & Rescue RESPONDER SCRIPT: 80 year old, Female, Conscious, Breathing. ALTERED LEVEL OF C
 **********************************************************
 Humphreys County, TN
 Contact: dale allen <dallen422@gmail.com>
@@ -4825,24 +4729,6 @@ Mutual Aid Water Rescue - Fairway Dr @ the Potomac River - Co's 18, 11, 6, 25, 1
 Hazmat Incident - 21635 Red Rum Dr. Co's 23, 6, 22, 11, 18, M699, BC601, BC603, EM601, SO600, H619, FM603, M619, FM619. ops on 6D
 AUTO ACCIDENT ENTRAPMENT - LOUDOUN COUNTY PARKWAY/CENTER ST - CO'S 19, 9, 15, 7, M415, BC603, EM601, SO600, AIRC3 OPS ON 6L TAC 31 
 **********************************************************
-Ray County, MO (replace) - (probably dead and gone forever!!!)
-Contact: "Lee O'Dell" <leeodell@woodheightsfire.com>
-Sender: dispatch@raycounty911.com
-TEST PAGE FOR 7/25/17 18:40 THIS IS A TEST ONLY
-LP LEAK @ 12507 ORRICK RD CRSS ST W 124TH & FREDERICKSBURG CALLED IN BY WHFD 800
-TEST TEXT. 08:31. 07/25/2012.
-(Weather Alert) Fire Weather Warning for Ray from 1:00 PM Wed until 8:00 PM Wed (EDT)
-(911) ALL FIREFIGHTERS  REPORT TO STATION FOR CLEAN UP PER 800
-MED CALL 16864 HWY M CRS ST W 168TH & W 176TH 95 YO F NOT BREATHING NOT CONS COLD TO TOUCH
-10-50 injuries unknown road blocked at 4025 hwy 10 wood heights crs st hwy o and brian st 3 occupants
-disregard 10-50 at 4025 hwy 10 wood heights per troop 1181 non injury road is no longer blocked
-MED CALL @ LAWSON MANOR RM 103 79 YO MALE CONS BREATHING PULLED FOLEY AND IS BLEEDING
-(outside fire) FIRE IS ON HIGHRIDGE LAST ROAD IN CRYSTAL LAKES\r\nVERY EAST OF THE ROAD
-med call@13511 stewart rd crs sts w 130th and w140th 70 yo male con diff breathing possible stroke
-med call @ 210 w 8th ter lawson mo transfer to esmc 62 yo female con & breathing seizure activity
-Please respond to 15796 Hwy M, Rayville, MO\nmale subj. is 10-55 and suicidal\ncall came in 3rd party from excelsior springs pd\nall units responding t
-34686 w 206th elderly male difficulty breathing\r\ncross streets wilderness camp and coon branch road
-**********************************************************
 Unknown
 Contact: Justin Somers <jsomers14@gmail.com>
 Sender: bssmith@co.jefferson.co.us
@@ -4859,12 +4745,6 @@ Sender: Fire Desk,NEMS Firedesk
 5520 ICELAND AVE
 1134 GLASGOW ST
 MCDONALDS CHAPEL & MULGA LOOP RD - TEST GMAIL
-*********************************************************
-Ray County, MO (broken)
-Contact: "Lee O'Dell" <leeodell@woodheightsfire.com>
-HIGHWAY Y RAY COUNTY CrossStreets: 10-50 TRAFFIC/TRANSPORT INCIDENT (CRASH)
-14851 HIGHWAY Y CRYSTAL LAKES CrossStreets: BEACH DR 0.09 mi N RAVENWOOD DR 0.00 mi W OUTSIDE FIRE
-15659 HIGHWAY Y RAY COUNTY CrossStreets: PINE RD 0.07 mi N W 158TH ST 0.10 mi S OUTSIDE FIRE
 **********************************************************
 Lamont County, AB
 Contact: Colin Candy <colincandy51@gmail.com>
@@ -4897,6 +4777,7 @@ FRM:CAD@onslowcountync.gov\nMSG:CAD:1822 NEW RIVER INLET RD;UNIT 1107;17;FALL;17
 **********************************************************
 **********************************************************
 **********************************************************
+*********************************************************
 **********************************************************
 Charles County, MD (alternate possible merge???)
 Contact: "rogersonjg@gmail.com" <rogersonjg@gmail.com>

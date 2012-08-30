@@ -172,20 +172,15 @@ public class SmsReceiver extends BroadcastReceiver {
     if (notify) {
       String appNode = ManagePreferences.scannerChannelAppNode();
       if (appNode != null) {
-        int pt2 = appNode.lastIndexOf(':');
-        int pt1 = appNode.lastIndexOf('.', pt2);
-        String pkgName = appNode.substring(0,pt1);
-        String appName = appNode.substring(pt1+1,pt2);
-        String node = appNode.substring(pt2+1);
-        Intent intent = new Intent("net.gordonedwards.scannerradio.intent.action.ACTION_PLAY_SCANNER");
+        int pt = appNode.lastIndexOf(':');
+        String action = appNode.substring(0,pt);
+        int node = Integer.parseInt(appNode.substring(pt+1));
+        Intent intent = new Intent(action);
         int flags =
           Intent.FLAG_ACTIVITY_NEW_TASK |
-//          Intent.FLAG_ACTIVITY_SINGLE_TOP |
-//          Intent.FLAG_ACTIVITY_CLEAR_TOP |
           Intent.FLAG_ACTIVITY_NO_USER_ACTION;
         intent.setFlags(flags);
-//        intent.setClassName(pkgName, appName);
-        intent.putExtra("node", Integer.parseInt(node));
+        intent.putExtra("node", node);
         Log.v("Launching Scanner Radio");
         ContentQuery.dumpIntent(intent);
         try {
