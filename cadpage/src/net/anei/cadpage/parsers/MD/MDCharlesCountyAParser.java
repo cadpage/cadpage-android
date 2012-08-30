@@ -78,9 +78,14 @@ SICK PERSON, EMS, ALS, 26C, 26D 9559 PEP RALLY LN 3 C13 13-month-old, male, cons
 CHEST PAINS, EMS, ALS, 10C, 10D 12171 ELL LN, APT61 10 H4 42-year-old, female, conscious, breathing. Caller Statement: CHEST. E120100048 120
 TROUBLE BREATHING, RESPIRATORY DISTRESS, EMS, ALS, 6C, 6D 402 GARNER AVE 10 B6 45-year-old, female, conscious, breathing. Caller Statement:
 
+Contact: "rogersonjg@gmail.com" <rogersonjg@gmail.com>
+Sender: fire12alerting-bounces@sms.mdfiretech.com
+STRUC, COMMERCIAL BLDG, WAREHOUSE, STORAGE UNITS, BUSINESS 2007 SMALLWOOD DR W, WESTLAKE DASH IN 10 A3 F121590013 1209
+LANDING SITE, LZ, MISC 10956 BEECHWOOD CT 4 A10 SET UP LZ F121540011 1209461 12:34
+
  */
 
-public class MDCharlesCountyParser extends SmartAddressParser {
+public class MDCharlesCountyAParser extends SmartAddressParser {
   
   private static final Pattern UNIT_PATTERN = Pattern.compile("(?:,? +(?:EMS|ALS|BLS|APPARATUS|TRUCK|AMBULANCE|MOTORCYCLE|ATV|BICYCLE|BIKE|MISC|\\d{1,2}[A-D]))+\\b");
   private static final Pattern MAP_PATTERN = Pattern.compile("\\b\\d{1,2} [A-Z]\\d{1,2}(?:-[A-Z]\\d{1,2})?\\b");
@@ -92,7 +97,7 @@ public class MDCharlesCountyParser extends SmartAddressParser {
   }
 
 
-  public MDCharlesCountyParser() {
+  public MDCharlesCountyAParser() {
     super( "CHARLES COUNTY", "MD");
   }
   

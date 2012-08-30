@@ -10,8 +10,6 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 Ray County, MO
 Contact: "Chief O'Dell" <leeodell@woodheightsfire.com>
 Sender: raycountycentraldispatch@gmail.com
-
-Contact: "Lee O'Dell" <leeodell@woodheightsfire.com>
 HIGHWAY Y RAY COUNTY CrossStreets: 10-50 TRAFFIC/TRANSPORT INCIDENT (CRASH)
 14851 HIGHWAY Y CRYSTAL LAKES CrossStreets: BEACH DR 0.09 mi N RAVENWOOD DR 0.00 mi W OUTSIDE FIRE
 15659 HIGHWAY Y RAY COUNTY CrossStreets: PINE RD 0.07 mi N W 158TH ST 0.10 mi S OUTSIDE FIRE

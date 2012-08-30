@@ -200,6 +200,7 @@ public class MsgInfo {
       if (strGPSLoc.length() > 0) result += 10;
       if (strDate.length() > 0) result += 10;
       if (strTime.length() > 0) result += 10;
+      if (strInfoURL.length() > 0) result += 5;
       return result;
     }
   }
