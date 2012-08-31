@@ -200,6 +200,7 @@ public class SmsReceiver extends BroadcastReceiver {
         Intent.FLAG_ACTIVITY_NO_USER_ACTION;
       intent.setFlags(flags);
       intent.putExtra("node", node);
+      intent.putExtra("background", true);
       Log.v("Launching Scanner Radio");
       ContentQuery.dumpIntent(intent);
       try {
