@@ -311,6 +311,15 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "MAP:4565J3",
         "UNIT:A28");
 
+    doTest("T29",
+        "(Company 15) CT: UNKNOWN MEDICAL EMERGENCY / default 12565 BROWLAND DR CMTY MAP: 4689D2  Disp: A158",
+        "SRC:Company 15",
+        "CALL:UNKNOWN MEDICAL EMERGENCY/default",
+        "ADDR:12565 BROWLAND DR",
+        "CITY:Mt Airy",
+        "MAP:4689D2",
+        "UNIT:A158");
+
   }
   
   @Test
