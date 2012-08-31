@@ -902,17 +902,15 @@ public class SmsMmsMessage implements Serializable {
     sb.append('\n');
   }
  
-  @Override
-  public boolean equals(Object obj) {
-    if (!(obj instanceof SmsMmsMessage)) return false;
-    SmsMmsMessage msg = (SmsMmsMessage)obj;
+  public boolean duplicate(SmsMmsMessage msg) {
     if (messageType != msg.messageType) return false;
     if (!match(fromAddress, msg.fromAddress)) return false;
-    if (messageType == MESSAGE_TYPE_SMS) {
-      return match(messageBody, msg.messageBody); 
-    } else {
+    if (messageType != msg.messageType) return false;
+    if (messageType == MESSAGE_TYPE_MMS) {
       return match(contentLoc, msg.contentLoc) &&
-              match(mmsMsgId, msg.mmsMsgId);
+          match(mmsMsgId, msg.mmsMsgId);
+    } else {
+      return match(messageBody, msg.messageBody); 
     }
   }
   

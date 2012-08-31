@@ -70,7 +70,7 @@ public class SmsMsgLogBuffer {
     // identified as some kind of CAD message, don't check it
     if (msg.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS && ManagePreferences.suppressDupMsg()) {
       for (SmsMmsMessage msg2 : msgQueue) {
-        if (msg.equals(msg2)) return false;
+        if (msg.duplicate(msg2)) return false;
       }
     }
     
