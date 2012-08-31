@@ -43,7 +43,7 @@ Contact: "bubbaclary@yahoo.com" <bubbaclary@yahoo.com>
 (CAD) [FredCo] CT: CARDIAC PATIENT 12 AFTON CT BRUN ESZ: 502 MAP: 4683C9 SUBDIV: GALYN MANOR Disp: A199,M20,A209,5FR [93]
 
 Contact: Bill Stearn <wstearn@gmail.com>
-Sender: rc.404@c-msg.net
+Sender: rc.404@c-msg.net,messaging@iamresponding.com
 (CAD) [FredCo] CT: TROUBLE BREATHING / default 13862-A OLD NATIONAL PIKE CMTY TIME: 01:39:41 ESZ: 1521 MAP: 4690B2 Disp: CCM19,CCLS1,RE153
 (CAD) [FredCo] CT: HOUSE / APPLIANCE FIRE (STRUCTURE PRE-ALERT) / default 6405 SPRING FOREST RD CFR1 TIME: 17:14:24 ESZ: 3302 MAP: 4567F5 SUBDIV: SPRING RIDGE Dis
 (CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 808 E SOUTH ST FRE1 TIME: 03:24:42 ESZ: 308 MAP: 4566G5 Disp: E31,E22,E331,E311,A38,RS3,TR42,TWR1,T1,ET233,ET154,BAT900,SF
@@ -69,6 +69,10 @@ Sender: messaging@iamresponding.com
 Contact: Kyle Stull <ktstull@gmail.com>
 CT: INJURED PERSON /  160 WILLOWDALE DR FRE2: @BROOKSIDE II APTS: APT M-403 MAP: 4565J3  Disp: A28
 
+Contact: Bill Stearn <wstearn@gmail.com>
+Sender: messaging@iamresponding.com
+(Company 15) CT: UNKNOWN MEDICAL EMERGENCY / default 12565 BROWLAND DR CMTY MAP: 4689D2  Disp: A158
+
 Contact: Active911.com
 [CAD] [FredCo] CT: STROKE / default 216 THIRD AVE BRUN MAP: 4683A10 Disp: A197,M20\n
 [CAD] [FredCo] CT: STROKE / default 216 THIRD AVE BRUN MAP: 4683A10 Disp: A197,M20\n
@@ -81,7 +85,6 @@ Contact: Active911.com
 [CAD] [FredCo] CT: INJURED PERSON / default 303 E POTOMAC ST BRUN MAP: 4803A1 Disp: A197\n
 [CAD] [FredCo] CT: INJURED PERSON / default 303 E POTOMAC ST BRUN MAP: 4803A1 Disp: A197\n
 
-
 ***/
 
 public class MDFrederickCountyParser extends FieldProgramParser {
@@ -93,7 +96,7 @@ public class MDFrederickCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "www.codemessaging.net,CAD@psb.net,@c-msg.net";
+    return "www.codemessaging.net,CAD@psb.net,@c-msg.net,messaging@iamresponding.com";
   }
   
   @Override
