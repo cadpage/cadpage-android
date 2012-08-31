@@ -126,6 +126,7 @@ public class ILPeoriaCountyParserTest extends BaseParserTest {
 
     doTest("T13",
         "08/29/12 {23500}W CLAYBAUGH RD Jr=CO :(10300) N RT 78 IS JUST N CAR OVERTURNED POSS CAR/DEER ACC CANT TELL IF ANYONE STILL INSIDE BLOOD OVER  (01/02)",
+        "DATE:08/29/12",
         "ADDR:23500 W CLAYBAUGH RD Jr=CO",
         "X:10300 N RT 78",
         "INFO:IS JUST N CAR OVERTURNED POSS CAR / DEER ACC CANT TELL IF ANYONE STILL INSIDE BLOOD OVER (01 / 02)");
@@ -145,6 +146,6 @@ public class ILPeoriaCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new ILPeoriaCountyParserTest().generateTests("T13","ADDR CITY ID X INFO");
+    new ILPeoriaCountyParserTest().generateTests("T13","DATE ADDR CITY ID X INFO");
   }
 }

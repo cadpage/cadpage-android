@@ -65,6 +65,54 @@ public class MDAlleganyCountyParserTest extends BaseParserTest {
         "ADDR:12030 IRIS AVE SW",
         "BOX:F0801",
         "UNIT:A396");
+  }
+  @Test
+  public void testParser4() {
+
+    doTest("T1",
+        "S:CAD M:08:26 #047678 BEHAVORIAL EMERGENCY 12037 IRIS AVE SW  BOX:F0801 DUE:A396 M514\n\n\n",
+        "TIME:08:26",
+        "ID:047678",
+        "CALL:BEHAVORIAL EMERGENCY",
+        "ADDR:12037 IRIS AVE SW",
+        "BOX:F0801",
+        "UNIT:A396 M514");
+
+    doTest("T2",
+        "S:CAD M:12:56 #038525 CHEST PAINS, HEART 12002 BOWLING ST SW  BOX:F0803 DUE:A396 MED08 MED09\n\n",
+        "TIME:12:56",
+        "ID:038525",
+        "CALL:CHEST PAINS, HEART",
+        "ADDR:12002 BOWLING ST SW",
+        "BOX:F0803",
+        "UNIT:A396 MED08 MED09");
+
+    doTest("T3",
+        "S:CAD M:21:08 #038431 MEDICAL EMERGENCY 13103 QUARRY RIDGE RD SW  BOX:F0902 DUE:CO09 A396\n\n",
+        "TIME:21:08",
+        "ID:038431",
+        "CALL:MEDICAL EMERGENCY",
+        "ADDR:13103 QUARRY RIDGE RD SW",
+        "BOX:F0902",
+        "UNIT:CO09 A396");
+
+    doTest("T4",
+        "S:CAD M:21:02 #038765 STROKE/CVA 14512 BARTON BLVD SW  BOX:F0904 DUE:A396\n \n ",
+        "TIME:21:02",
+        "ID:038765",
+        "CALL:STROKE/CVA",
+        "ADDR:14512 BARTON BLVD SW",
+        "BOX:F0904",
+        "UNIT:A396");
+
+    doTest("T5",
+        "S:CAD M:00:02 #038632 MEDICAL EMERGENCY 15201 TRAIL RIDGE RD SW  BOX:F0903 DUE:CO09 A396\n \n",
+        "TIME:00:02",
+        "ID:038632",
+        "CALL:MEDICAL EMERGENCY",
+        "ADDR:15201 TRAIL RIDGE RD SW",
+        "BOX:F0903",
+        "UNIT:CO09 A396");
 
   }
   
