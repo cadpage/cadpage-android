@@ -23,6 +23,15 @@ Contact: Jeremy Athey <athey9014@yahoo.com>
 Sender: acgov_911_cad@allconet.org
 S:CAD M:03:16 #024484 BREATHING DIFFICULTY 12030 IRIS AVE SW  BOX:F0801 DUE:A396\n\n
 
+Contact: Jeremy <athey9014@yahoo.com>
+Contact: "Roger Bennett" <rbennett@allconet.org>  (AllCoNet.org) (Dispatch center)
+Sender: acgov_911_cad@allconet.org
+S:CAD M:08:26 #047678 BEHAVORIAL EMERGENCY 12037 IRIS AVE SW  BOX:F0801 DUE:A396 M514\n\n\n
+S:CAD M:12:56 #038525 CHEST PAINS, HEART 12002 BOWLING ST SW  BOX:F0803 DUE:A396 MED08 MED09\n\n
+S:CAD M:21:08 #038431 MEDICAL EMERGENCY 13103 QUARRY RIDGE RD SW  BOX:F0902 DUE:CO09 A396\n\n
+S:CAD M:21:02 #038765 STROKE/CVA 14512 BARTON BLVD SW  BOX:F0904 DUE:A396\n \n 
+S:CAD M:00:02 #038632 MEDICAL EMERGENCY 15201 TRAIL RIDGE RD SW  BOX:F0903 DUE:CO09 A396\n \n
+
 */
 
 public class MDAlleganyCountyParser extends FieldProgramParser {
