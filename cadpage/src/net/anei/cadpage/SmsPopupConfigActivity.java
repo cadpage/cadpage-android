@@ -12,10 +12,14 @@ import net.anei.cadpage.preferences.LocationListPreference;
 import net.anei.cadpage.preferences.LocationManager;
 import net.anei.cadpage.preferences.OnDialogClosedListener;
 import net.anei.cadpage.vendors.VendorManager;
+import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
@@ -218,7 +222,39 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
           try {
             startActivityForResult(intent, REQ_SCANNER_CHANNEL);
           } catch (ActivityNotFoundException ex) {
-            Log.w("No Scanner app found");
+            
+            // Scanner radio either isn't installed, or isn't responding to the ACTION_PICK
+            // request.  Check the package manager to which, if any, are currently installed
+            PackageManager pkgMgr = getPackageManager();
+            String pkgName = "com.scannerradio_pro";
+            boolean installed = false;
+            try {
+              pkgMgr.getPackageInfo(pkgName, 0);
+              installed = true;
+            } catch (PackageManager.NameNotFoundException ex2) {}
+            if (! installed) {
+              pkgName = "com.scannerradio";
+              try {
+                pkgMgr.getPackageInfo(pkgName, 0);
+                installed = true;
+              } catch (PackageManager.NameNotFoundException ex2) {}
+            }
+            
+            // OK, show a dialog box asking if they want to install Scanner Radio
+            final String pkgName2 = pkgName;
+            new AlertDialog.Builder(SmsPopupConfigActivity.this)
+              .setMessage(installed ? R.string.scanner_not_current : R.string.scanner_not_installed)
+              .setPositiveButton(R.string.donate_btn_yes, new DialogInterface.OnClickListener(){
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                  Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + pkgName2));
+                  intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                  SmsPopupConfigActivity.this.startActivity(intent);
+                }
+              })
+              .setNegativeButton(R.string.donate_btn_no, null)
+              .create().show();
+
           }
           return true;
         }

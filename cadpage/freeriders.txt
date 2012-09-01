@@ -1,4 +1,3 @@
-
 // List of all users getting free access forever
 $free_rider_list
 %LIFE
@@ -1330,7 +1329,7 @@ Greg McGee <bonnerville89@aol.com>
 %%05/22/2012
 Cameron Carpenter (camo822@gmail.com)<cameron.carpenter.0863@mail.linnbenton.ed>
 %%05/23/2012
-James Wolley (ffjlw132@gmail.com) <jjld2000@everestkc.net>
+James Woolley (ffjlw132@gmail.com) <jjld2000@everestkc.net>
 %%05/25/2012
 Levi Chuey (levi.chuey@gmail.com)<lchuey@sambassfd.com>
 %%05/26/2012
@@ -1376,70 +1375,75 @@ John Witwalker <witwalker.john@gmail.com> // Newton County, MO
 %%07/08/2012
 scott mcconnell <mcconnellscooter@gmail.com> // Cass County, ND
 %%07/09/2012
-"Timothy Hyland" (pfd085@gmail.com) <pfd85@frontiernet.net>
-"Bernie Meehan Jr" (berniemeehanjr@gmail.com) <bmeehan282@aol.com>
+"Timothy Hyland" (pfd085@gmail.com) <pfd85@frontiernet.net> // PP
+"Bernie Meehan Jr" (berniemeehanjr@gmail.com) <bmeehan282@aol.com> // PP
 %%07/10/2012
-"Gregory Nyce" <gmnyce76@gmail.com>
+"Gregory Nyce" <gmnyce76@gmail.com> // PP
 "Kane, Thomas J." (tjk2mars@gmail.com) <KANETJ1@gcc.edu> // Mercer County, PA or VA
 Chris Bryant (tactics613@gmail.com) <cbryant@bdsarco.org>
 %%07/11/2012
 Tim Godwin <wjfdcar1@gmail.com> // paid by Nicholas Humbarger via Paypal
 %%07/13/2012
-timothy tucker <tuckertimothy5@gmail.com>
+timothy tucker <tuckertimothy5@gmail.com> // PP
 %%07/17/2012
 Andrew Gaines <againes128@gmail.com> // Simsbury, CT
 %%07/19/2012
-"Tina Mitchell" (emt62007@gmail.com) <firesgirl@hotmail.com>
+"Tina Mitchell" (emt62007@gmail.com) <firesgirl@hotmail.com> // PP
 %%07/20/2012
-Scott Nowakowski (excapte3@gmail.com) <excapte3@optonline.net>
+Scott Nowakowski (excapte3@gmail.com) <excapte3@optonline.net> // PP
 %%07/21/2012
-Michael Eanes <mje717@gmail.com>
-Shawn Obrien (sobrien217@gmail.com) <Sobrien@auditwatch.com>
+Michael Eanes <mje717@gmail.com> PP
+Shawn Obrien (sobrien217@gmail.com) <Sobrien@auditwatch.com> // PP
 %%07/23/2012
-"Timothy Lopez" (tlopez2163@gmail.com) <flabu2@aol.com> // paid by Alfred Lopez
+"Timothy Lopez" (tlopez2163@gmail.com) <flabu2@aol.com> // paid by Alfred Lopez PP
 %%07/27/2012
-WILLIAM UNDERWOOD (underwoodw72@gmail.com) <acpd508@yahoo.com>
+WILLIAM UNDERWOOD (underwoodw72@gmail.com) <acpd508@yahoo.com> // PP
 %%07/28/2012
-Gary Cisek (gcisek11@gmail.com) <amber.riccardi@gmail.com>
-Kimberly Browning (kimvickers13@gmail.com) <snickers5102@comcast.net>
+Gary Cisek (gcisek11@gmail.com) <amber.riccardi@gmail.com> // PP
+Kimberly Browning (kimvickers13@gmail.com) <snickers5102@comcast.net> PP
 %%07/30/2012
-Steve Hawkins <srh8015@aol.com>
-Scott Titus (titus911dc@gmail.com) <stitus@cityofnorthport.com>
+Steve Hawkins <srh8015@aol.com> // PP
+Scott Titus (titus911dc@gmail.com) <stitus@cityofnorthport.com> // PP
 %%07/31/2012
-peter moyer (petmoy21@gmail.com) <petmoy21114@netzero.net>
+peter moyer (petmoy21@gmail.com) <petmoy21114@netzero.net> // PP
 %%08/01/2012
-Nicholas Butkus (nickbutkus@gmail.com) <nbutkus110@yahoo.com>
+Nicholas Butkus (nickbutkus@gmail.com) <nbutkus110@yahoo.com> // Paypal
 %%08/02/2012
 "A.C. Rich" (shfd100@gmail.com) <ac_rich@earthlink.net> // Wake County, NC
 %%08/04/2012
-Kevin Gentry <kevinsgentry@gmail.com>
+Kevin Gentry <kevinsgentry@gmail.com> // Paypal
 %%08/06/2012
-Shannon D Ryder (rydershannon69@gmail.com)
+Shannon D Ryder (rydershannon69@gmail.com) // paid by check
 Greg Clark (gclark911@gmail.com) <gclark@cce911.com> // Emmet County, MI
 %%08/07/2012
-Bryant Heins (ustrc3@gmail.com) <ustrc3@yahoo.com>
+Bryant Heins (ustrc3@gmail.com) <ustrc3@yahoo.com> // Paypal
+%%08/11/2012
+William Bost (ericbost@windstream.net) // Paypal
 %%08/12/2012
 Tom Macco <tmacco1@gmail.com> // Calumet County, WI
 Timothy Scott Hebert <tshebert1@gmail.com> // market problem
 %%08/18/2012
 "Jim Ciulla" <jkciull@verizon.net> // paid by check
 %%08/23/2012
-William Constant (wbill2222@gmail.com) <wbill2222@aol.com>
+William Constant (wbill2222@gmail.com) <wbill2222@aol.com> // Paypal
 %%08/24/2012
-louis charlton (loufirefighter@gmail.com)
+louis charlton (loufirefighter@gmail.com) //paypal
 Nick Cushman <flame05154@gmail.com> // Keene Mutual Aid, NH
 %%08/25/2012
 Tim Tyler (zinger9672@gmail.com) <tyler33fire@yahoo.com> // Adams County, PA
 Greg Richardson (richardson888.gr@gmail.com) <grrff6@yahoo.com> // market problem
 %%08/26/2012
 Allen Dinan (allen.dinan0513@gmail.com) <a.dinan@verizon.net> // market problem
-%%08/28/2012
+%%08/27/2012
 William Johnson (aceman1959@iwon.com) // Paypal
+%%08/28/2012
 Kevin Yurkovich (kevinyurkovich@gmail.com) <kevinyurkovich@hotmail.com> // check 0320
 Frank P RONDINONE Jr <thewick1935@gmail.com> // market problem
 %%08/29/2012
 Richard Carroll <crrll19@gmail.com> // Cleveland County, NC
 christian mercadante(cspark559@aol.com) // PayPal
+%%08/30/2012
+Barry Carter (barry2139@gmail.com) // paid by check 3491
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
@@ -2357,7 +2361,7 @@ Nick Codiga <ncodiga@gmail.com>
 %%05/21/2012
 Anthony Lee <anthonylee254@gmail.com>
 Kyle (kmac249624@gmail.com) <kmac2496@yahoo.com>
-Dustin Dilks (5954dilks@gmail.com) <res5cue54@yahoo.com>
+Dustin Dilks (d5954dilks@gmail.com) <res5cue54@yahoo.com>
 %%05/22/2012
 Jacob Craig <jcraig1230@vcat.cvcc.edu>
 Kenneth Barron <kbarron6@gmail.com>
@@ -2847,5 +2851,13 @@ Scott praley <scottepraley@gmail.com>
 "Sarah Bulla " (sbulla6@gmail.com) <sebulla6@live.com>
 %%08/30/2012
 Todd Santmyer <tncsant@gmail.com>
-
-
+BOB JONES (dadmech@gmail.com) <dadmech1@verizon.net>
+Ryonn Taylor <ryonn.taylor@gmail.com>
+%%08/31/2012
+(aaronpenny79@gmail.com) <guitar_god0887@hotmail.com>
+Buddy Bonham <budbonham@gmail.com>
+Will Callender <wcallender0001@gmail.com>
+Charles Weinberger <cweinberger1608@gmail.com>
+Ryan Hutchinson <ryanhutchinson55@gmail.com>
+%%09/01/2012
+Thadd Taylor <thadd1978@gmail.com>

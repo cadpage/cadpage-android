@@ -401,4 +401,12 @@
   <string name="pref_reconnect_title">Reconnect Direct Paging</string>
   <string name="pref_reconnect_summary">Restore connections with currently enabled Direct Paging vendors</string>
   
+  <!-- Scanner Radio Interface reports -->
+  <string name="scanner_not_installed">
+    This feature requires some version of the Scanner Radio application be installed.  Would you like to install it now?
+  </string>
+  <string name="scanner_not_current">
+    This feature requires a current version of the Scanner Radio application.  Would you like to install it now?
+  </string>
+  
 </resources>

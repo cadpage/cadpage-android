@@ -1,7 +1,9 @@
 package net.anei.cadpage.parsers.IL;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA6Parser;
 
 /*
@@ -31,6 +33,8 @@ S: M:10/03/11 415 W BUTTERNUT ST EL :( 400) N MORGAN ST MALE W/BAD HEADACHE FELL
 
 public class ILPeoriaCountyParser extends DispatchA6Parser {
   
+  private static final Pattern JR_PATTERN = Pattern.compile("(?<= )Jr=(?=[A-Z]{2}\\b)");
+  
   public ILPeoriaCountyParser() {
     super(CITY_CODES, "PEORIA COUNTY", "IL");
   }
@@ -38,6 +42,12 @@ public class ILPeoriaCountyParser extends DispatchA6Parser {
   @Override
   public String getFilter() {
     return "firepage@ci.peoria.il.us";
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    body = JR_PATTERN.matcher(body).replaceFirst("");
+    return super.parseMsg(body, data);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[] {

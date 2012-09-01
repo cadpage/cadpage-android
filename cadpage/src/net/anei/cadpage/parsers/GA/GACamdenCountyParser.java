@@ -24,6 +24,13 @@ Contact: Scott Gregory <kfr436@gmail.com>
 Sender: astudstill@co.camden.ga.us
 astudstill@co.camden.ga.us:2012-037466* BOONE AND SUMMERBROOK* * * KINGSLAND* * INVESTIGATE* INVESTIGATE SUSPICIOUS PERSON/VEHICLE* JUAN RODRIGUEZ* 912-8
 
+*** NOT PARSING CORRECTLY ***
+Contact: charles <croney@kingslandgeorgia.com>
+Sender: astudstill@co.camden.ga.us
+astudstill@co.camden.ga.us:2012-142354* CMC* * * ST MARYS* * * * * TRANSFER* TRANSFER TO ... (MEDICAL OR FIRE)* * * MED3* * Medical: No* Hazards: No* Lin
+astudstill@co.camden.ga.us:2012-142422* 119 TERESA LN* * * KINGSLAND* * * * * DOMESTIC* DOMESTIC PROBLEM* HUNTER* 912-576-1327* 525,531,544,LS3,R3* * Med
+astudstill@co.camden.ga.us:2012-142419* CMC TO SHANDS* * * KINGSLAND* * * * * TRANSFER* TRANSFER TO ... (MEDICAL OR FIRE)* * * MED4* * Medical: No* Hazar
+
 */
 public class GACamdenCountyParser extends DispatchA3Parser {
   

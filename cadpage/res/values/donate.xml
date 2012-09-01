@@ -32,6 +32,7 @@
   <string name="donate_btn_done">Done</string>
   <string name="donate_btn_OK">OK</string>
   <string name="donate_btn_yes">Yes</string>
+  <string name="donate_btn_no">No</string>
   
   <string name="donate_free_title">This is the free version of Cadpage</string>
   <string name="donate_free_text">
