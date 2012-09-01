@@ -89,7 +89,7 @@ public class PABerksCountyParser extends FieldProgramParser {
   
   public PABerksCountyParser() {
     super("BERKS COUNTY", "PA",
-           "UNITCALL! ADDR/iS! PLACE! X! CITY! INFO DATETIME");
+           "UNITCALL! ADDR/iSXa! PLACE! X! CITY! INFO DATETIME");
   }
   
   @Override

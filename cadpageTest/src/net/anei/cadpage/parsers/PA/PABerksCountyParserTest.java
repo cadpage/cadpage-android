@@ -482,7 +482,8 @@ public class PABerksCountyParserTest extends BaseParserTest {
 
         "UNIT:M650E",
         "CALL:BLS MEDICAL",
-        "ADDR:1801 CAMBRIDGE AVE D20",
+        "ADDR:1801 CAMBRIDGE AVE",
+        "APT:D20",
         "PLACE:TENNIS PARK CONDOS",
         "X:OLD MILL RD / LAUERS LN",
         "CITY:WYOMISSING",
@@ -733,7 +734,8 @@ public class PABerksCountyParserTest extends BaseParserTest {
 
         "UNIT:M680I",
         "CALL:ALS MEDICAL",
-        "ADDR:1152 E BENJAMIN FRANKLIN HWY 219",
+        "ADDR:1152 E BENJAMIN FRANKLIN HWY",
+        "APT:219",
         "CITY:AMITY",
         "PLACE:VILLA AT MORLATTON ASSISTED LIVING",
         "X:MAPLEWOOD DR / OLD AIRPORT RD",
@@ -801,7 +803,8 @@ public class PABerksCountyParserTest extends BaseParserTest {
 
         "UNIT:680A",
         "CALL:ALS MEDICAL",
-        "ADDR:24 BUTTERCUP RD H213-27",
+        "ADDR:24 BUTTERCUP RD",
+        "APT:H213-27",
         "CITY:AMITY",
         "X:DEAD END / SUNSET DR",
         "INFO:50 YOF ASTHMA",
