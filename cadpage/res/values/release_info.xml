@@ -6,28 +6,28 @@
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
-New Locations:
-Charles County, MD (alt)
-
-Location Parsing Fixes:
-Medstar, IL
-Simsbury, CT
-Lancaster County, PA
-Frederick County, MD
-Montgomery County, MD
-Livingston County, MI
-Ray County, MO
-Camden County, NJ
-Sussex County, NJ
-Cattaragus County, NY
-Chautauqua County, NY
-Onondaga County, NY
-Onslow County, NC
-Pitt County, NC
-Lawrence County, OH
-Mercer County, PA
-
-General Fixes:
+New Locations:\n
+Charles County, MD (alt)\n
+\n
+Location Parsing Fixes:\n
+Medstar, IL\n
+Simsbury, CT\n
+Lancaster County, PA\n
+Frederick County, MD\n
+Montgomery County, MD\n
+Livingston County, MI\n
+Ray County, MO\n
+Camden County, NJ\n
+Sussex County, NJ\n
+Cattaragus County, NY\n
+Chautauqua County, NY\n
+Onondaga County, NY\n
+Onslow County, NC\n
+Pitt County, NC\n
+Lawrence County, OH\n
+Mercer County, PA\n
+\n
+General Fixes:\n
 Fixed problem where an attempt to delete any call deletes the most recent call
   </string>  
 </resources>
