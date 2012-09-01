@@ -468,7 +468,29 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "CITY:MARION COUNTY",
         "UNIT:E914, MED21",
         "INFO:88YOM C/B/A HIP PAIN FROM A FALL");
- 
+  }
+  
+  @Test
+  public void testGeneDershewitz() {
+
+    doTest("T1",
+        "(Incident) TRAU F:N 6TH AV@ E FIR ST , STAYTON::::MED1, R81::10YOM C/B/A  BROKEN LEFT WRIST:",
+        "CALL:TRAU F",
+        "ADDR:N 6TH AV & E FIR ST",
+        "MADDR:N 6TH AVE & E FIR ST",
+        "CITY:STAYTON",
+        "UNIT:MED1, R81",
+        "INFO:10YOM C/B/A  BROKEN LEFT WRIST");
+
+    doTest("T2",
+        "(Incident) VEHF F:KINGDOM LN SE@ NORTH SANTIAM HW SE , MARION COUNTY::::C80, E82, R81, R82, T80::RV FIRE/W BOAT ATTACHED:",
+        "CALL:VEHF F",
+        "ADDR:KINGDOM LN SE & NORTH SANTIAM HW SE",
+        "MADDR:KINGDOM LN SE & NORTH SANTIAM HWY SE",
+        "CITY:MARION COUNTY",
+        "UNIT:C80, E82, R81, R82, T80",
+        "INFO:RV FIRE/W BOAT ATTACHED");
+
   }
   
   public static void main(String[] args) {
