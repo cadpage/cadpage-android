@@ -84,10 +84,20 @@ public class GACamdenCountyParserTest extends BaseParserTest {
         "CALL:INVESTIGATE SUSPICIOUS PERSON/VEHICLE",
         "NAME:JUAN RODRIGUEZ",
         "PHONE:912-8");
-  
+
+    doTest("T8",
+        "astudstill@co.camden.ga.us:2012-142354* CMC* * * ST MARYS* * * * * TRANSFER* TRANSFER TO ... (MEDICAL OR FIRE)* * * MED3* * Medical: No* Hazards: No* Lin",
+        "ID:2012-142354",
+        "ADDR:CMC",
+        "CITY:ST MARYS",
+        "INFO:Medical: No / Hazards: No / Lin",
+        "CALL:MED3",
+        "UNIT:TRANSFER TO ... (MEDICAL OR FIRE)",
+        "PHONE:TRANSFER");
+
   }
   
   public static void main(String[] args) {
-    new GACamdenCountyParserTest().generateTests("T6");
+    new GACamdenCountyParserTest().generateTests("T1");
   }
 }
