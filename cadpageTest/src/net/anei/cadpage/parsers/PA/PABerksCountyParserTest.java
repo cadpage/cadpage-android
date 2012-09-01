@@ -583,6 +583,252 @@ public class PABerksCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        "[berks.680@rsix.roamsecure.net] Unit:M680A Status:Dispatched ALS MEDICAL ; 202 HAYCREEK RD ; ; UNKNOWN / BROOKE MNR ; BIRDSBORO ; F TEMP OF 104 ; 08/28/12 18:14\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:M680A",
+        "CALL:ALS MEDICAL",
+        "ADDR:202 HAYCREEK RD",
+        "CITY:BIRDSBORO",
+        "X:UNKNOWN / BROOKE MNR",
+        "INFO:F TEMP OF 104",
+        "DATE:08/28/12",
+        "TIME:18:14");
+
+    doTest("T2",
+        "[berks.680@rsix.roamsecure.net] Unit:M680E Status:Dispatched BLS MEDICAL ; 920 N 4 ST ; METROPOLITAN APARTMENTS; WINDSOR ST / SPRING ST ; READING ; WAITING OUTSIDE ON STAIRS ; 08/28/12 18:33\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:M680E",
+        "CALL:BLS MEDICAL",
+        "ADDR:920 N 4 ST",
+        "CITY:READING",
+        "PLACE:METROPOLITAN APARTMENTS",
+        "X:WINDSOR ST / SPRING ST",
+        "INFO:WAITING OUTSIDE ON STAIRS",
+        "DATE:08/28/12",
+        "TIME:18:33");
+
+    doTest("T3",
+        "[berks.680@rsix.roamsecure.net] Unit:680I Status:Dispatched ALS MEDICAL ; 1254 HIGHVIEW PL ; ; MANOR PL / FAIRVIEW CHAPEL RD ; EXETER ; 24 YOF / SEIZURE / HIT HEAD ON GROUND  ; 08/28/12 19:24\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:680I",
+        "CALL:ALS MEDICAL",
+        "ADDR:1254 HIGHVIEW PL",
+        "CITY:EXETER",
+        "X:MANOR PL / FAIRVIEW CHAPEL RD",
+        "INFO:24 YOF / SEIZURE / HIT HEAD ON GROUND",
+        "DATE:08/28/12",
+        "TIME:19:24");
+
+    doTest("T4",
+        "[berks.680@rsix.roamsecure.net] Unit:M680E Status:Dispatched ALS TRAUMA ; 450 FURNACE RD ; ; MELODY LN / CYPRESS LN ; ROBESON ; ; 08/28/12 19:45\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:M680E",
+        "CALL:ALS TRAUMA",
+        "ADDR:450 FURNACE RD",
+        "CITY:ROBESON",
+        "X:MELODY LN / CYPRESS LN",
+        "DATE:08/28/12",
+        "TIME:19:45");
+
+    doTest("T5",
+        "[berks.680@rsix.roamsecure.net] Unit:M680E Status:Dispatched ALS MEDICAL ; 31 WASHINGTON ST ; ; S MILLER ST / NEW HOLLAND AVE ; SHILLINGTON ; 54 YOM / DISORIENTED / DIAPHORETIC /  ; 08/28/12 21:06\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:M680E",
+        "CALL:ALS MEDICAL",
+        "ADDR:31 WASHINGTON ST",
+        "CITY:SHILLINGTON",
+        "X:S MILLER ST / NEW HOLLAND AVE",
+        "INFO:54 YOM / DISORIENTED / DIAPHORETIC /",
+        "DATE:08/28/12",
+        "TIME:21:06");
+
+    doTest("T6",
+        "[berks.680@rsix.roamsecure.net] Unit:M680I Status:Dispatched MVAUNK ; W BENJAMIN FRANKLIN HWY RIVER BRIDGE RD ; ; ; AMITY ; VEH IN GRASS ; 08/28/12 21:38\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:M680I",
+        "CALL:MVAUNK",
+        "ADDR:W BENJAMIN FRANKLIN HWY & RIVER BRIDGE RD",
+        "CITY:AMITY",
+        "INFO:VEH IN GRASS",
+        "DATE:08/28/12",
+        "TIME:21:38");
+
+    doTest("T7",
+        "[berks.680@rsix.roamsecure.net] Unit:M680E Status:Dispatched BLS TRAUMA ; 1623 MORGANTOWN RD ROOM 158 ; HEALTH SOUTH; HOPE WAY / CARRIAGE LN ; CUMRU ; 86YOM/ FELL OUT OF BED/ LACERATION TO HEAD ; 08/29/12 01:16\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:M680E",
+        "CALL:BLS TRAUMA",
+        "ADDR:1623 MORGANTOWN RD",
+        "APT:158",
+        "CITY:CUMRU",
+        "PLACE:HEALTH SOUTH",
+        "X:HOPE WAY / CARRIAGE LN",
+        "INFO:86YOM/ FELL OUT OF BED/ LACERATION TO HEAD",
+        "DATE:08/29/12",
+        "TIME:01:16");
+
+    doTest("T8",
+        "[berks.680@rsix.roamsecure.net] Unit:M680A Status:Dispatched LIFT ASSIST ; 406 S WALNUT ST ; ; E 4 ST / E 5 ST ; BIRDSBORO ; 55YOF/ FELL AND NEEDS HELP GETTING UP ; 08/29/12 05:30\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:M680A",
+        "CALL:LIFT ASSIST",
+        "ADDR:406 S WALNUT ST",
+        "CITY:BIRDSBORO",
+        "X:E 4 ST / E 5 ST",
+        "INFO:55YOF/ FELL AND NEEDS HELP GETTING UP",
+        "DATE:08/29/12",
+        "TIME:05:30");
+
+    doTest("T9",
+        "[berks.680@rsix.roamsecure.net] Unit:M680I Status:Dispatched ALS MEDICAL ; 1152 E BENJAMIN FRANKLIN HWY 219 ; VILLA AT MORLATTON ASSISTED LIVING; MAPLEWOOD DR / OLD AIRPORT RD ; AMITY ; 91 YOF SLURRED SPEECH ; 08/29/12 05:32\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:M680I",
+        "CALL:ALS MEDICAL",
+        "ADDR:1152 E BENJAMIN FRANKLIN HWY 219",
+        "CITY:AMITY",
+        "PLACE:VILLA AT MORLATTON ASSISTED LIVING",
+        "X:MAPLEWOOD DR / OLD AIRPORT RD",
+        "INFO:91 YOF SLURRED SPEECH",
+        "DATE:08/29/12",
+        "TIME:05:32");
+
+    doTest("T10",
+        "[berks.680@rsix.roamsecure.net] Unit:M680E Status:Dispatched ALS TRAUMA ; 70 N ONEIL ST ; ; UNKNOWN / W MADISON ST ; MOHNTON ; 90 YOM FALL ; 08/29/12 09:00\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:M680E",
+        "CALL:ALS TRAUMA",
+        "ADDR:70 N ONEIL ST",
+        "CITY:MOHNTON",
+        "X:UNKNOWN / W MADISON ST",
+        "INFO:90 YOM FALL",
+        "DATE:08/29/12",
+        "TIME:09:00");
+
+    doTest("T11",
+        "[berks.680@rsix.roamsecure.net] Unit:M680I Status:Dispatched MVAWITH ; W BENJAMIN FRANKLIN HWY MONOCACY HILL RD ; ; ; AMITY ; ; 08/29/12 09:18\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:M680I",
+        "CALL:MVAWITH",
+        "ADDR:W BENJAMIN FRANKLIN HWY & MONOCACY HILL RD",
+        "CITY:AMITY",
+        "DATE:08/29/12",
+        "TIME:09:18");
+
+    doTest("T12",
+        "[berks.680@rsix.roamsecure.net] Unit:M680F Status:Dispatched BLS TRAUMA ; 790 MAPLEWOOD AVE ; ; CEDARWOOD LN / MOHNTON BLVD ; CUMRU ; 70YOM/STAGE 4 PROSTATE CANCER/WEAK/FELL THIS MORN\r\n" +
+        " ; 08/29/12 09:42\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:M680F",
+        "CALL:BLS TRAUMA",
+        "ADDR:790 MAPLEWOOD AVE",
+        "CITY:CUMRU",
+        "X:CEDARWOOD LN / MOHNTON BLVD",
+        "INFO:70YOM/STAGE 4 PROSTATE CANCER/WEAK/FELL THIS MORN",
+        "DATE:08/29/12",
+        "TIME:09:42");
+
+    doTest("T13",
+        "[berks.680@rsix.roamsecure.net] Unit:680A Status:Dispatched ALS MEDICAL ; 24 BUTTERCUP RD H213-27 ; ; DEAD END / SUNSET DR ; AMITY ; 50 YOF ASTHMA ; 08/29/12 10:21\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:680A",
+        "CALL:ALS MEDICAL",
+        "ADDR:24 BUTTERCUP RD H213-27",
+        "CITY:AMITY",
+        "X:DEAD END / SUNSET DR",
+        "INFO:50 YOF ASTHMA",
+        "DATE:08/29/12",
+        "TIME:10:21");
+
+    doTest("T14",
+        "[berks.680@rsix.roamsecure.net] Unit:M680E Status:Dispatched BLS TRAUMA ; 20 S SUMMIT AVE APT 1002 ; SENCIT APARTMENTS; COMMUNITY DR / HARDING AVE, BROOKE BLVD ; CUMRU ; FALL VICTIM CUT  ; 08/29/12 11:48\r\n" +
+        "\r\n" +
+        "Sent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n" +
+        "--\r\r\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n" +
+        "\r\n",
+
+        "UNIT:M680E",
+        "CALL:BLS TRAUMA",
+        "ADDR:20 S SUMMIT AVE",
+        "APT:1002",
+        "CITY:CUMRU",
+        "PLACE:SENCIT APARTMENTS",
+        "X:COMMUNITY DR / HARDING AVE, BROOKE BLVD",
+        "INFO:FALL VICTIM CUT",
+        "DATE:08/29/12",
+        "TIME:11:48");
+  
+  }
+  
   
   public static void main(String[] args) {
     new PABerksCountyParserTest().generateTests("T1");

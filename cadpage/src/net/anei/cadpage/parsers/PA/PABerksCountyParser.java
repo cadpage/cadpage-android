@@ -22,6 +22,7 @@ Sender: alrt_3WPJ@berks.alertpa.org,@rsix.roamsecure.net,14100
 Unit:M590A Status:Dispatched ALS MEDICAL ; 215 TOWER RD ; ; S PARK AVE / CLAY RD ; Muni: LONGSWAMP ; 64 YOM / IN ACTIVE SIEZURE  ; 07/10/12 12:57
 Unit:M590B Status:Dispatched MVAUNK ; W MAIN ST NORMAL AVE ; ; ; Muni: KUTZTOWN ; ; 07/10/12 14:06
 Unit:M535A Status:Dispatched ALS MEDICAL ; 281 MOSELEM CHURCH RD ; ; SCHWOYER RD / MISTY LN ; Muni: RICHMOND ; 79 YOF/VOMITING/COUGHING/PAIN IN SIDE ; 07/11/12 10:04 Sent by Berks County RSAN to Fleetwood EMS All CALL -- You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
+
 Unit:M535A Status:Dispatched ALS MEDICAL ; 224 FAITH DR ; ; GENESIS DR, HOPE DR / HOPE DR ; Muni: MAIDENCREEK ; 39YOM/NOT MAKING SENSE/LAYING ON THE FL ; 07/11/12 21:59 Sent by Berks County RSAN to Fleetwood EMS All CALL -- You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
 Unit:585A Status:Dispatched MVAWITH ; 2330 INTERSTATE 78 E ; I78 MP 23.3 EB; UNKNOWN / RAMP B7 ; Muni: UPPER BERN ; 2 vehs/ ILVER SEDAN / UNK INJS / TX TO PSP  ; 07/11/12 16:33 On Jul 11, 2012 5:55 PM, "Ken Corbin" <ken@cadpage.org> wrote:
 Unit:M590A Status:Dispatched MVAWITH ; S BALDY ST TREXLER AVE ; ; ; Muni: KUTZTOWN ; ; 07/11/12 07:10
@@ -66,13 +67,29 @@ Contact: Active911
 [berks.650@rsix.roamsecure.net] Unit:M650B Status:Dispatched ALS MEDICAL ; 310 STITZER AVE ; ; E WILSON AVE, W WILSON AVE / E NORMAN ST, W NORMAN ST ; Muni: WERNERSVILLE ; 88 YOM NOT RESPONDING WELL ; 07/13/12 12:40\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
 [berks.650@rsix.roamsecure.net] Unit:M650B Status:Dispatched BLS TRAUMA ; 2912 STATE HILL RD APT B3 ; ; No Cross Streets Found ; Muni: SPRING ; BERKSHIRE ESTATES APTS ; 07/13/12 13:43\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
 
+Contact: Active911
+[berks.680@rsix.roamsecure.net] Unit:M680A Status:Dispatched ALS MEDICAL ; 202 HAYCREEK RD ; ; UNKNOWN / BROOKE MNR ; BIRDSBORO ; F TEMP OF 104 ; 08/28/12 18:14\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:M680E Status:Dispatched BLS MEDICAL ; 920 N 4 ST ; METROPOLITAN APARTMENTS; WINDSOR ST / SPRING ST ; READING ; WAITING OUTSIDE ON STAIRS ; 08/28/12 18:33\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:680I Status:Dispatched ALS MEDICAL ; 1254 HIGHVIEW PL ; ; MANOR PL / FAIRVIEW CHAPEL RD ; EXETER ; 24 YOF / SEIZURE / HIT HEAD ON GROUND  ; 08/28/12 19:24\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:M680E Status:Dispatched ALS TRAUMA ; 450 FURNACE RD ; ; MELODY LN / CYPRESS LN ; ROBESON ; ; 08/28/12 19:45\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:M680E Status:Dispatched ALS MEDICAL ; 31 WASHINGTON ST ; ; S MILLER ST / NEW HOLLAND AVE ; SHILLINGTON ; 54 YOM / DISORIENTED / DIAPHORETIC /  ; 08/28/12 21:06\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:M680I Status:Dispatched MVAUNK ; W BENJAMIN FRANKLIN HWY RIVER BRIDGE RD ; ; ; AMITY ; VEH IN GRASS ; 08/28/12 21:38\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:M680E Status:Dispatched BLS TRAUMA ; 1623 MORGANTOWN RD ROOM 158 ; HEALTH SOUTH; HOPE WAY / CARRIAGE LN ; CUMRU ; 86YOM/ FELL OUT OF BED/ LACERATION TO HEAD ; 08/29/12 01:16\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:M680A Status:Dispatched LIFT ASSIST ; 406 S WALNUT ST ; ; E 4 ST / E 5 ST ; BIRDSBORO ; 55YOF/ FELL AND NEEDS HELP GETTING UP ; 08/29/12 05:30\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:M680I Status:Dispatched ALS MEDICAL ; 1152 E BENJAMIN FRANKLIN HWY 219 ; VILLA AT MORLATTON ASSISTED LIVING; MAPLEWOOD DR / OLD AIRPORT RD ; AMITY ; 91 YOF SLURRED SPEECH ; 08/29/12 05:32\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:M680E Status:Dispatched ALS TRAUMA ; 70 N ONEIL ST ; ; UNKNOWN / W MADISON ST ; MOHNTON ; 90 YOM FALL ; 08/29/12 09:00\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:M680I Status:Dispatched MVAWITH ; W BENJAMIN FRANKLIN HWY MONOCACY HILL RD ; ; ; AMITY ; ; 08/29/12 09:18\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:M680F Status:Dispatched BLS TRAUMA ; 790 MAPLEWOOD AVE ; ; CEDARWOOD LN / MOHNTON BLVD ; CUMRU ; 70YOM/STAGE 4 PROSTATE CANCER/WEAK/FELL THIS MORN\r\n ; 08/29/12 09:42\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:680A Status:Dispatched ALS MEDICAL ; 24 BUTTERCUP RD H213-27 ; ; DEAD END / SUNSET DR ; AMITY ; 50 YOF ASTHMA ; 08/29/12 10:21\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+[berks.680@rsix.roamsecure.net] Unit:M680E Status:Dispatched BLS TRAUMA ; 20 S SUMMIT AVE APT 1002 ; SENCIT APARTMENTS; COMMUNITY DR / HARDING AVE, BROOKE BLVD ; CUMRU ; FALL VICTIM CUT  ; 08/29/12 11:48\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
+
 */
 
 public class PABerksCountyParser extends FieldProgramParser {
   
   public PABerksCountyParser() {
     super("BERKS COUNTY", "PA",
-           "UNITCALL! ADDR/iS! PLACE! X! Muni:CITY! INFO DATETIME");
+           "UNITCALL! ADDR/iS! PLACE! X! CITY! INFO DATETIME");
   }
   
   @Override
@@ -86,6 +103,9 @@ public class PABerksCountyParser extends FieldProgramParser {
     // Strip off message trailer
     int pt = body.indexOf("Sent by Berks County RSAN");
     if (pt >= 0) body = body.substring(0,pt).trim();
+    
+    // There used to be a Muni: field label.  Which we remove from old  messages
+    body = body.replace("; Muni:", ";");
     
     return parseFields(body.split(";"), data);
   }
