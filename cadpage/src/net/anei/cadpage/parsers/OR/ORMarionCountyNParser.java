@@ -73,6 +73,12 @@ Sender: Dispatch@ci.woodburn.or.us
 (Incident) ALM FIRE F:23766 3RD ST NE, MARION COUNTY::::E926::SMOKE ALARM GOING OFF:
 (Incident) SICK F:13681 WISTERIA DR NE, MARION COUNTY::::E914, MED21::88YOM C/B/A HIP PAIN FROM A FALL:
 
+Contact: Gene Dershewitz <geneder@wvi.com>
+Sender: dispatch@ci.woodburn.or.us
+(Incident) TRAU F:N 6TH AV@ E FIR ST , STAYTON::::MED1, R81::10YOM C/B/A  BROKEN LEFT WRIST:
+(Incident) VEHF F:KINGDOM LN SE@ NORTH SANTIAM HW SE , MARION COUNTY::::C80, E82, R81, R82, T80::RV FIRE/W BOAT ATTACHED:
+
+
 ** NOT PARSING **
 ((2319) Hi Gina ) MED NO :1285 TIERRA LYNN DR    :    Map:2028 :20YOM C/DIFF B/A FEVER LOW HEMOGLOBIN :09/28/2011 :20:24 :
 
@@ -138,6 +144,7 @@ public class ORMarionCountyNParser extends FieldProgramParser {
       
       // This field can be a number of different things depending on whether or not it
       // contains a comma and/or an upper case alpha character
+      field = field.replace('@', '&');
       boolean hasComma = field.contains(",");
       boolean hasAlpha = ALPHA_PTN.matcher(field).find();
       
