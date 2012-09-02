@@ -554,6 +554,7 @@
           android:summaryOff="@string/pref_suppress_dup_msg_summaryoff"
           android:defaultValue="@string/pref_suppress_dup_msg_default" />
       
+      <!--   ******************************
       <CheckBoxPreference
           android:key="@string/pref_activate_scanner_key"
           android:title="@string/pref_activate_scanner_title"
@@ -565,6 +566,7 @@
           android:key="@string/pref_scanner_channel_key"
           android:title="@string/pref_scanner_channel_title"
           android:dependency="@string/pref_activate_scanner_key" />
+      ***************************** -->
       
       <CheckBoxPreference
           android:key="@string/pref_publish_pages_key"
