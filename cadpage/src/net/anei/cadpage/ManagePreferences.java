@@ -785,8 +785,7 @@ public class ManagePreferences {
         R.string.pref_screen_size_key,
         R.string.pref_initialized_key,
         R.string.pref_enabled_key,
-        R.string.pref_enable_msg_type_key,
-        R.string.pref_mms_timeout_key,
+        
         R.string.pref_location_key,
         R.string.pref_override_filter_key,
         R.string.pref_filter_key,
@@ -795,12 +794,14 @@ public class ManagePreferences {
         R.string.pref_override_default_key,
         R.string.pref_defcity_key,
         R.string.pref_defstate_key,
+        R.string.pref_enable_msg_type_key,
+        R.string.pref_mms_timeout_key,
         R.string.pref_loglimit_key,
         R.string.pref_msgtimeout_key,
         R.string.pref_split_min_msg_key,
+        R.string.pref_rev_msg_order_key,
         R.string.pref_split_blank_ins_key,
         R.string.pref_split_chk_sender_key,
-        R.string.pref_rev_msg_order_key,
         R.string.pref_suppress_dup_msg_key,
         R.string.pref_activate_scanner_key,
         R.string.pref_scanner_channel_key,
@@ -825,6 +826,11 @@ public class ManagePreferences {
         R.string.pref_notif_repeat_times_key,
         R.string.pref_notif_repeat_interval_key,
 
+        R.string.pref_history_limit_key,
+        R.string.pref_delete_unopen_key,
+        R.string.pref_autorotate_key,
+        R.string.pref_map_network_chk_key,
+
         R.string.pref_popup_enabled_key,
         R.string.pref_onlyShowOnKeyguard_key,
         R.string.pref_noShowInCall_key,
@@ -836,10 +842,6 @@ public class ManagePreferences {
         R.string.pref_dimscreen_key,
         R.string.pref_privacy_key,
         R.string.pref_show_personal_key,
-
-        R.string.pref_history_limit_key,
-        R.string.pref_delete_unopen_key,
-        R.string.pref_autorotate_key,
         
         R.string.pref_button1_key,
         R.string.pref_button2_key,
