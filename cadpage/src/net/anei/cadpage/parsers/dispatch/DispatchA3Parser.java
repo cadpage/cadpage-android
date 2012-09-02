@@ -17,6 +17,19 @@ astudstill@co.camden.ga.us:2011-104843* 429 EAGLE BLVD* * * KINGSLAND* * PERSON 
 214 REDWOOD ST* * * KINGSLAND* * PERSON SICK* PERSON SICK* MS FAGEN*912-269-6157* LS3,R3* * Medical: No* Hazards: No* 
 astudstill@co.camden.ga.us:2011-181161* ADVANCE COLLISION CENTER* * * KINGSLAND* * WIRE DOWN* WIRE DOWN* JOHN* 316-258-1559* ENG4,LS4* * Medical: No* Haz
 astudstill@co.camden.ga.us:2012-037466* BOONE AND SUMMERBROOK* * * KINGSLAND* * INVESTIGATE* INVESTIGATE SUSPICIOUS PERSON/VEHICLE* JUAN RODRIGUEZ* 912-8
+astudstill@co.camden.ga.us:2012-142354* CMC* * * ST MARYS* * * * * TRANSFER* TRANSFER TO ... (MEDICAL OR FIRE)* * * MED3* * Medical: No* Hazards: No* Lin
+astudstill@co.camden.ga.us:2012-142422* 119 TERESA LN* * * KINGSLAND* * * * * DOMESTIC* DOMESTIC PROBLEM* HUNTER* 912-576-1327* 525,531,544,LS3,R3* * Med
+astudstill@co.camden.ga.us:2012-142419* CMC TO SHANDS* * * KINGSLAND* * * * * TRANSFER* TRANSFER TO ... (MEDICAL OR FIRE)* * * MED4* * Medical: No* Hazar
+astudstill@co.camden.ga.us:2012-142755* 102 ALMOND CIR* * * KINGSLAND* * * * * UNCONSCIOUS* UNCONSCIOUS PERSON* * 912-674-6173* 542,ENG4,LS4* * Medical: 
+astudstill@co.camden.ga.us:2012-142422* 119 TERESA LN* * * KINGSLAND* * * * * DOMESTIC* DOMESTIC PROBLEM* HUNTER* 912-576-1327* 525,531,544,LS3,R3* * Med
+astudstill@co.camden.ga.us:2012-143146* 200 CHESTNUT CT* * * KINGSLAND* * * * * INJURY* INJURY* * 912- -* 511,ENG4,KFD,LS4* * Medical: No* Hazards: No* L
+astudstill@co.camden.ga.us:2012-142419* CMC TO SHANDS* * * KINGSLAND* * * * TRANSFER* TRANSFER TO ... (MEDICAL OR FIRE)* * * MED4* * Medical: No* Hazar
+astudstill@co.camden.ga.us:2012-142222* STATION 4* * * KINGSLAND* * * * PERSON SICK* PERSON SICK* * * ENG4,LS4* * Medical: No* Hazards: No* Line18=*
+astudstill@co.camden.ga.us:2012-142193* 2060 HWY 40 E* * * KINGSLAND* * * * FIRE ALARM* FIRE ALARM* * * ENG4,LS2,FIRE3,FIRE4,Q9,LAD3,ENG3,ENG5* Medic
+astudstill@co.camden.ga.us:2012-142755* 102 ALMOND CIR* * * KINGSLAND* * * * UNCONSCIOUS* UNCONSCIOUS PERSON* * 912-674-6173* 542,ENG4,LS4* * Medical:
+astudstill@co.camden.ga.us:2012-143345* SATILLA TO CMC* * * KINGSLAND* * * * * TRANSPORT* PICKUP PRISONER/SUBJECT* * * MED3* * Medical: No* Hazards: No* 
+astudstill@co.camden.ga.us:2012-143364* CMC* * * ST MARYS* * * * * TRANSPORT* PICKUP PRISONER/SUBJECT* * * MED3* * Medical: No* Hazards: No* Line18=*
+astudstill@co.camden.ga.us:2012-143368* 955 S GROVE BLVD* LOT 42* * KINGSLAND* * * * * BREATHING* DIFFICULTY BREATHING* DESTINY* 912- -* 526,542,KFD,LS3,
 
 Northampton County, NC (version 1)
 S: M:Northampton911:* URIAH MARTIN RD // NEAR CEMETERY* * * CONWAY* * FIRE - BRUSH* * * * EMS3,FS20* * Medical: No* Hazards: No* * 
@@ -84,7 +97,7 @@ public class DispatchA3Parser extends FieldProgramParser {
            version == 0 ?
              "ID? ADDR/SXP APT CH CITY! X X MAP INFO1 CALL INFO ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
            : version == 1 ?
-               "ID? ADDR/SXP APT CH CITY! INFO CALL INFO ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
+               "ID? ADDR/SXP APT CH CITY! EMPTY+? CALL CALL ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
            : null);
     this.prefix = prefix;
   }
@@ -117,6 +130,15 @@ public class DispatchA3Parser extends FieldProgramParser {
       } else {
         super.parse(field, data);
       }
+    }
+  }
+  
+  private class BaseCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // Override previous call field
+      if (field.length() > 0) data.strCall = field;
     }
   }
   
@@ -204,6 +226,7 @@ public class DispatchA3Parser extends FieldProgramParser {
     if (name.equals("ID")) return new IdField("\\d{2,4}-\\d{6}", true);
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("CH")) return new BaseChannelField();
+    if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("INFO1")) return new BaseInfo1Field();
     if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("NAME")) return new BaseNameField();
