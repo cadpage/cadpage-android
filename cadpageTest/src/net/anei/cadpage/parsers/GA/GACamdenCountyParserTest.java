@@ -90,10 +90,126 @@ public class GACamdenCountyParserTest extends BaseParserTest {
         "ID:2012-142354",
         "ADDR:CMC",
         "CITY:ST MARYS",
-        "INFO:Medical: No / Hazards: No / Lin",
-        "CALL:MED3",
-        "UNIT:TRANSFER TO ... (MEDICAL OR FIRE)",
-        "PHONE:TRANSFER");
+        "CALL:TRANSFER TO ... (MEDICAL OR FIRE)",
+        "UNIT:MED3",
+        "INFO:Medical: No / Hazards: No / Lin");
+
+    doTest("T9",
+        "astudstill@co.camden.ga.us:2012-142422* 119 TERESA LN* * * KINGSLAND* * * * * DOMESTIC* DOMESTIC PROBLEM* HUNTER* 912-576-1327* 525,531,544,LS3,R3* * Med",
+        "ID:2012-142422",
+        "ADDR:119 TERESA LN",
+        "CITY:KINGSLAND",
+        "CALL:DOMESTIC PROBLEM",
+        "UNIT:525,531,544,LS3,R3",
+        "NAME:HUNTER",
+        "PHONE:912-576-1327",
+        "INFO:Med");
+
+    doTest("T10",
+        "astudstill@co.camden.ga.us:2012-142419* CMC TO SHANDS* * * KINGSLAND* * * * * TRANSFER* TRANSFER TO ... (MEDICAL OR FIRE)* * * MED4* * Medical: No* Hazar",
+        "ID:2012-142419",
+        "ADDR:CMC TO SHANDS",
+        "CITY:KINGSLAND",
+        "CALL:TRANSFER TO ... (MEDICAL OR FIRE)",
+        "UNIT:MED4",
+        "INFO:Medical: No / Hazar");
+
+    doTest("T11",
+        "astudstill@co.camden.ga.us:2012-142755* 102 ALMOND CIR* * * KINGSLAND* * * * * UNCONSCIOUS* UNCONSCIOUS PERSON* * 912-674-6173* 542,ENG4,LS4* * Medical: ",
+        "ID:2012-142755",
+        "ADDR:102 ALMOND CIR",
+        "CITY:KINGSLAND",
+        "CALL:UNCONSCIOUS PERSON",
+        "UNIT:542,ENG4,LS4",
+        "PHONE:912-674-6173",
+        "INFO:Medical:");
+
+    doTest("T12",
+        "astudstill@co.camden.ga.us:2012-142422* 119 TERESA LN* * * KINGSLAND* * * * * DOMESTIC* DOMESTIC PROBLEM* HUNTER* 912-576-1327* 525,531,544,LS3,R3* * Med",
+        "ID:2012-142422",
+        "ADDR:119 TERESA LN",
+        "CITY:KINGSLAND",
+        "CALL:DOMESTIC PROBLEM",
+        "UNIT:525,531,544,LS3,R3",
+        "NAME:HUNTER",
+        "PHONE:912-576-1327",
+        "INFO:Med");
+
+    doTest("T13",
+        "astudstill@co.camden.ga.us:2012-143146* 200 CHESTNUT CT* * * KINGSLAND* * * * * INJURY* INJURY* * 912- -* 511,ENG4,KFD,LS4* * Medical: No* Hazards: No* L",
+        "ID:2012-143146",
+        "ADDR:200 CHESTNUT CT",
+        "CITY:KINGSLAND",
+        "CALL:INJURY",
+        "UNIT:511,ENG4,KFD,LS4",
+        "PHONE:912- -",
+        "INFO:Medical: No / Hazards: No / L");
+
+    doTest("T14",
+        "astudstill@co.camden.ga.us:2012-142419* CMC TO SHANDS* * * KINGSLAND* * * * TRANSFER* TRANSFER TO ... (MEDICAL OR FIRE)* * * MED4* * Medical: No* Hazar",
+        "ID:2012-142419",
+        "ADDR:CMC TO SHANDS",
+        "CITY:KINGSLAND",
+        "CALL:TRANSFER TO ... (MEDICAL OR FIRE)",
+        "UNIT:MED4",
+        "INFO:Medical: No / Hazar");
+
+    doTest("T15",
+        "astudstill@co.camden.ga.us:2012-142222* STATION 4* * * KINGSLAND* * * * PERSON SICK* PERSON SICK* * * ENG4,LS4* * Medical: No* Hazards: No* Line18=*",
+        "ID:2012-142222",
+        "ADDR:STATION 4",
+        "CITY:KINGSLAND",
+        "CALL:PERSON SICK",
+        "UNIT:ENG4,LS4",
+        "INFO:Medical: No / Hazards: No");
+
+    doTest("T16",
+        "astudstill@co.camden.ga.us:2012-142193* 2060 HWY 40 E* * * KINGSLAND* * * * FIRE ALARM* FIRE ALARM* * * ENG4,LS2,FIRE3,FIRE4,Q9,LAD3,ENG3,ENG5* Medic",
+        "ID:2012-142193",
+        "ADDR:2060 HWY 40 E",
+        "CITY:KINGSLAND",
+        "CALL:FIRE ALARM",
+        "UNIT:ENG4,LS2,FIRE3,FIRE4,Q9,LAD3,ENG3,ENG5",
+        "INFO:Medic");
+
+    doTest("T17",
+        "astudstill@co.camden.ga.us:2012-142755* 102 ALMOND CIR* * * KINGSLAND* * * * UNCONSCIOUS* UNCONSCIOUS PERSON* * 912-674-6173* 542,ENG4,LS4* * Medical:",
+        "ID:2012-142755",
+        "ADDR:102 ALMOND CIR",
+        "CITY:KINGSLAND",
+        "CALL:UNCONSCIOUS PERSON",
+        "UNIT:542,ENG4,LS4",
+        "PHONE:912-674-6173",
+        "INFO:Medical:");
+
+    doTest("T18",
+        "astudstill@co.camden.ga.us:2012-143345* SATILLA TO CMC* * * KINGSLAND* * * * * TRANSPORT* PICKUP PRISONER/SUBJECT* * * MED3* * Medical: No* Hazards: No* ",
+        "ID:2012-143345",
+        "ADDR:SATILLA TO CMC",
+        "CITY:KINGSLAND",
+        "CALL:PICKUP PRISONER/SUBJECT",
+        "UNIT:MED3",
+        "INFO:Medical: No / Hazards: No");
+
+    doTest("T19",
+        "astudstill@co.camden.ga.us:2012-143364* CMC* * * ST MARYS* * * * * TRANSPORT* PICKUP PRISONER/SUBJECT* * * MED3* * Medical: No* Hazards: No* Line18=*",
+        "ID:2012-143364",
+        "ADDR:CMC",
+        "CITY:ST MARYS",
+        "CALL:PICKUP PRISONER/SUBJECT",
+        "UNIT:MED3",
+        "INFO:Medical: No / Hazards: No");
+
+    doTest("T20",
+        "astudstill@co.camden.ga.us:2012-143368* 955 S GROVE BLVD* LOT 42* * KINGSLAND* * * * * BREATHING* DIFFICULTY BREATHING* DESTINY* 912- -* 526,542,KFD,LS3,",
+        "ID:2012-143368",
+        "ADDR:955 S GROVE BLVD",
+        "APT:LOT 42",
+        "CITY:KINGSLAND",
+        "CALL:DIFFICULTY BREATHING",
+        "UNIT:526,542,KFD,LS3,",
+        "NAME:DESTINY",
+        "PHONE:912- -");
 
   }
   

@@ -585,6 +585,22 @@ public class PABerksCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "Unit:B42 Status:Dispatched BF ; 100 BLIMLINE RD BLOCK ; ; DEAD END / DEER CREEK RD ; SPRING ; ; 09/01/12 07:51",
+        "UNIT:B42",
+        "CALL:BF",
+        "ADDR:100 BLIMLINE RD",
+        "APT:BLOCK",
+        "CITY:SPRING",
+        "X:DEAD END / DEER CREEK RD",
+        "DATE:09/01/12",
+        "TIME:07:51");
+
+  }
+  
+  @Test
   public void testActive911B() {
 
     doTest("T1",
