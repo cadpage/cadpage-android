@@ -12,7 +12,7 @@ public class MIMontcalmCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testParser1() {
 
     doTest("T1",
         "CAD:FYI: ;06/22/2012 01:39:53;4566 S GREENVILLE RD;Event spawned from STRUCTURE FIRE. [06/22/2012 01:38:55 TMORTENSEN]",
@@ -100,6 +100,124 @@ public class MIMontcalmCountyParserTest extends BaseParserTest {
         "TIME:03:53:11",
         "ADDR:588 W SIDNEY RD",
         "CALL:TREES ON POWER LINES AT THE ABOVE LOCATION-REPORTED BY TRUCK 7 FROM STANTON FIRE");
+
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "CAD:6300 N DOUGLAS RD;1204703;[Medical Priority Info] Key Questions Complete RESPONSE: Amb & Rescue RESPONDER SCRIPT: -Comments: TOOK A NITRO ABOUT 5 MINS AGO-NO R",
+        "ADDR:6300 N DOUGLAS RD",
+        "CALL:EMS ALERT",
+        "ID:1204703",
+        "INFO:TOOK A NITRO ABOUT 5 MINS AGO-NO R");
+
+    doTest("T2",
+        "CAD:216 W LAKE ST;1204713;[Medical Priority Info] RESPONSE: Amb & Rescue RESPONDER SCRIPT: 70 year old, Male, Unconscious, Breathing. Unconscious -- AGONAL/INEFFEC",
+        "ADDR:216 W LAKE ST",
+        "CALL:EMS ALERT",
+        "ID:1204713",
+        "INFO:70 year old, Male, Unconscious, Breathing. Unconscious -- AGONAL/INEFFEC");
+
+    doTest("T3",
+        "CAD:10522 E BOYER RD;1204741;[Medical Priority Info] RESPONSE: Amb & Rescue RESPONDER SCRIPT: 48 year old, Male, Consciousness unknown, Breathing status unknown. A",
+        "ADDR:10522 E BOYER RD",
+        "CALL:EMS ALERT",
+        "ID:1204741",
+        "INFO:48 year old, Male, Consciousness unknown, Breathing status unknown. A");
+
+    doTest("T4",
+        "CAD:213 E SHERMAN ST;1204747;foot ball game [08/28/12 17:57:06 JPYLE]",
+        "DATE:08/28/12",
+        "TIME:17:57:06",
+        "ADDR:213 E SHERMAN ST",
+        "CALL:EMS ALERT",
+        "ID:1204747",
+        "INFO:foot ball game");
+
+    doTest("T5",
+        "CAD:501 S ROCK LAKE DR;1204801;REQUEST FOR RESCUE [08/30/12 21:45:45 SDAVIS] 17-A-3 [08/30/12 21:44:40 SDAVIS] [Medical Priority Info] Key Questions Complete RESPO",
+        "DATE:08/30/12",
+        "TIME:21:45:45",
+        "ADDR:501 S ROCK LAKE DR",
+        "CALL:EMS ALERT",
+        "ID:1204801",
+        "INFO:REQUEST FOR RESCUE / 17-A-3");
+
+    doTest("T6",
+        "CAD:10522 E BOYER RD;1204802",
+        "ADDR:10522 E BOYER RD",
+        "CALL:EMS ALERT",
+        "ID:1204802");
+
+    doTest("T7",
+        "CAD:FYI: ;08/26/2012 11:01:49;E STANTON RD/S MT HOPE RD;MT HOPE E STANTON RD JUST TO THE EAST SMELLS REALLY BAD OF NATURAL GAS [08/26/12 11:02:10 BDOOD]",
+        "DATE:08/26/2012",
+        "TIME:11:01:49",
+        "ADDR:E STANTON RD & S MT HOPE RD",
+        "CALL:MT HOPE E STANTON RD JUST TO THE EAST SMELLS REALLY BAD OF NATURAL GAS");
+
+    doTest("T8",
+        "CAD:620-119 N SECOND ST;1204810;[Medical Priority Info] RESPONSE: Amb & Rescue RESPONDER SCRIPT: 77 year old, Male, Unconscious, Breathing. Unconscious -- Effectiv",
+        "ADDR:620-119 N SECOND ST",
+        "MADDR:620 N SECOND ST",
+        "CALL:EMS ALERT",
+        "ID:1204810",
+        "INFO:77 year old, Male, Unconscious, Breathing. Unconscious -- Effectiv");
+
+    doTest("T9",
+        "CAD:320-15 JUNIPER ST;1204817;[Medical Priority Info] RESPONSE: Amb & Rescue RESPONDER SCRIPT: 70 year old, Female, Conscious, Breathing. POSSIBLY DANGEROUS body a",
+        "ADDR:320-15 JUNIPER ST",
+        "MADDR:320 JUNIPER ST",
+        "CALL:EMS ALERT",
+        "ID:1204817",
+        "INFO:70 year old, Female, Conscious, Breathing. POSSIBLY DANGEROUS body a");
+
+    doTest("T10",
+        "CAD:7925 PENNY LANE;1204819;PAGED R23 SECOND TIME [08/31/12 15:29:55 KBAILEY] aired over primary [08/31/12 15:24:59 JPYLE] [Medical Priority Info] RESPONSE: Amb &",
+        "DATE:08/31/12",
+        "TIME:15:29:55",
+        "ADDR:7925 PENNY LANE",
+        "CALL:EMS ALERT",
+        "ID:1204819",
+        "INFO:PAGED R23 SECOND TIME / aired over primary");
+
+    doTest("T11",
+        "CAD:118 E PINE ST;1204821;[Medical Priority Info] Key Questions Complete RESPONSE: Amb & Rescue RESPONDER SCRIPT: 81 year old, Female, Conscious, Breathing. [08/31",
+        "ADDR:118 E PINE ST",
+        "CALL:EMS ALERT",
+        "ID:1204821",
+        "INFO:81 year old, Female, Conscious, Breathing.");
+
+    doTest("T12",
+        "CAD:503 GARY ST;1204825;[Medical Priority Info] RESPONSE: Amb & Rescue RESPONDER SCRIPT: 21 year old, Male, Unconscious, Breathing. CONTINUOUS or MULTIPLE seizures",
+        "ADDR:503 GARY ST",
+        "CALL:EMS ALERT",
+        "ID:1204825",
+        "INFO:21 year old, Male, Unconscious, Breathing. CONTINUOUS or MULTIPLE seizures");
+
+    doTest("T13",
+        "CAD:620 N SECOND ST;1204826;[Medical Priority Info] Key Questions Complete RESPONSE: Amb & Rescue RESPONDER SCRIPT: 81 year old, Male, Conscious, Breathing. [09/01",
+        "ADDR:620 N SECOND ST",
+        "CALL:EMS ALERT",
+        "ID:1204826",
+        "INFO:81 year old, Male, Conscious, Breathing.");
+
+    doTest("T14",
+        "CAD:4401 E DEANER RD;1204828;[Medical Priority Info] RESPONSE: Amb & Rescue RESPONDER SCRIPT: 45 year old, Male, Unconscious, Breathing status unknown. Unconscious",
+        "ADDR:4401 E DEANER RD",
+        "CALL:EMS ALERT",
+        "ID:1204828",
+        "INFO:45 year old, Male, Unconscious, Breathing status unknown. Unconscious");
+
+    doTest("T15",
+        "CAD:620-103 S SECOND ST;1204832;[Medical Priority Info] RESPONSE: Amb & Rescue RESPONDER SCRIPT: 79 year old, Male, Conscious, Breathing. NON-RECENT (=> 6hrs) inju ",
+        "ADDR:620-103 S SECOND ST",
+        "MADDR:620 S SECOND ST",
+        "CALL:EMS ALERT",
+        "ID:1204832",
+        "INFO:79 year old, Male, Conscious, Breathing. NON-RECENT (=> 6hrs) inju");
 
   }
   
