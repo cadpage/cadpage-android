@@ -1,5 +1,4 @@
 // List of all users getting free access forever
-$free_rider_list
 %LIFE
 amy972@twcny.rr.com (amyt972@gmail.com)
 Andrew Papp (hvfd830@gmail.com)
@@ -196,7 +195,6 @@ yanksgt@gmail.com
 Zach Smith (zachsmith.91142@gmail.com)(bigz1232003@yahoo.com)
 
 // List of users getting credit for 2011
-$paid_2011_list
 %2011
 %%10/01/2011
 Angus Duff (angus.duff66@gmail.com)(aduff@everestkc.net)
@@ -473,7 +471,6 @@ Boiling Springs #1 (bsfd09@gmail.com)
 Boiling Springs #2 (bsfd10@gmail.com)
 
 // List of users getting free credit for 2011
-$ // free_2011_list
 %2011/FREE
 %%10/14/2011
 >>pedro saldanha (psaldanha3115@gmail.com)
@@ -1073,7 +1070,6 @@ Daniel Marlow (marlow4030@gmail.com)<dmarlow4030@gmail.com>
 
 
 // List of users getting credit for 2012
-$paid_2012_list
 %2012
 Robert Tripe <rmtripe@gmail.com>
 Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com)
@@ -1543,7 +1539,6 @@ Deb Ryan                (5418913607)
 Eric Trygstad           (5412819975)
 
 // List of users getting credit for 2013
-$paid_2013_list
 %2013
 %%03/01/2012
 Michael Krott(krott.michael@gmail.com)
@@ -1553,7 +1548,6 @@ Nick Thiele(thiele.nick@gmail.com)
 Catherine Santaniello (gary.santaniello@gmail.com)
 
 // List of users getting free credit for 2012
-$ // free_2012_list
 %2012/FREE
 %%01/01/2012
 >>Kyle Miller <millerk1110@gmail.com>
