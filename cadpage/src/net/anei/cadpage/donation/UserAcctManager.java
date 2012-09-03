@@ -4,7 +4,6 @@ import java.security.MessageDigest;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Date;
 
 import net.anei.cadpage.HttpService;
@@ -14,13 +13,15 @@ import net.anei.cadpage.R;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
 import android.accounts.AccountManager;
-import android.accounts.OnAccountsUpdateListener;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.net.Uri;
 import android.telephony.TelephonyManager;
 
 public abstract class UserAcctManager {
+  
+  // Authorization recheck interval (30 days in msecs)
+  private static final long AUTH_CHECK_INTERVAL = (long)30*24*60*60*1000;
   
   public abstract void setContext(Context context);
   
@@ -56,7 +57,7 @@ public abstract class UserAcctManager {
   // This really is used, but we have to invoke the class at runtime because it
   // references API calls that do not exist in Android 1.6
   @TargetApi(5)
-  public static class RealUserAcctManager extends UserAcctManager implements OnAccountsUpdateListener {
+  public static class RealUserAcctManager extends UserAcctManager {
     
     private static final DateFormat DATE_FMT = new SimpleDateFormat("MM/dd/yyyy");
     
@@ -67,23 +68,45 @@ public abstract class UserAcctManager {
     @Override
     public void setContext(Context context) {
       this.context = context;
-      AccountManager.get(context).addOnAccountsUpdatedListener(this, null, true);
       TelephonyManager tMgr =(TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
       phoneNumber = tMgr.getLine1Number();
       if (phoneNumber == null) phoneNumber = tMgr.getVoiceMailNumber();
       phoneNumber = cleanName(phoneNumber);
-      checkAccount(phoneNumber, false);
-    }
-  
-    @TargetApi(5)
-    @Override
-    public void onAccountsUpdated(Account[] accts) {
-      userEmail = null;
-      for (Account acct : accts) {
-        if (acct.type.equals("com.google")) {
-          String name = cleanName(acct.name);
-          if (userEmail == null) userEmail = name;
-          checkAccount(name, true);
+      
+      Account[] accounts = AccountManager.get(context).getAccountsByType("com.google");
+      if (accounts.length > 0) userEmail = cleanName(accounts[0].name);
+      
+      // See if it is time to perform an automatic reload
+      // If this is a lifetime user, don't bother
+      if (!ManagePreferences.freeRider()) {
+        
+        // if not, get the current time and last authorization check time
+        long lastTime = ManagePreferences.authLastCheckTime();
+        long curTime = System.currentTimeMillis();
+        
+        // If the last check time is zero, we check to see if the initialized flag has been
+        // set.  If not, this is the first time the user has launched Cadpage and we should do
+        // an immediate payment status reload to see if they have been a subscriber on another phone.
+        if (lastTime <= 0 && ManagePreferences.initialized()) {
+          
+          // Likewise, if Cadpage has been initialized but the purchase and install dates are the same
+          // the purchase date is not trustworthy and we need to reload the payment status immediately
+          if (ManagePreferences.paidYear() == 0 ||
+              !ManagePreferences.purchaseDate().equals(ManagePreferences.installDate()))
+            
+          // Otherwise, we will try to spread out the load by timing the next authorization check 
+          // at a random time within the next 30 days
+          
+            lastTime = curTime - (long)(Math.random()*AUTH_CHECK_INTERVAL);
+            ManagePreferences.setAuthLastCheckTime(lastTime);
+        }
+        
+        // Having done all of that, if the different between the current time and the
+        // latched checked time exceeds the 30 day intervale, perform an automatic reload
+        // Also clear the initialized flag which will trigger an Android billing logic reload
+        if (curTime - lastTime > AUTH_CHECK_INTERVAL) {
+          ManagePreferences.setInitialized(false);
+          reloadStatus(context);
         }
       }
     }
@@ -96,52 +119,14 @@ public abstract class UserAcctManager {
     private String cleanName(String name) {
       int pt = name.indexOf('<');
       if (pt >= 0) name = name.substring(0,pt);
+      name = name.replace("-",  "");
       if (name.startsWith(".")) name = name.substring(1);
       if (name.endsWith(".")) name = name.substring(0,name.length()-1);
       return name;
     }
     
-    /**
-     * Check an account number/phone number against precompiled lists of users
-     * @param acct account number/phone number
-     * @param isAcct true if account number, false if phone number
-     */
-    private void checkAccount(String acct, boolean isAcct) {
-      String[] freeList = context.getResources().getStringArray(R.array.free_rider_list);
-      String[] paid2013List = context.getResources().getStringArray(R.array.paid_2013_list);
-      String[] paid2012List = context.getResources().getStringArray(R.array.paid_2012_list);
-      String[] paid2011List = context.getResources().getStringArray(R.array.paid_2011_list);
-      String hash = calcHash(acct);
-      if (Arrays.binarySearch(freeList, hash) >= 0) {
-        if (isAcct) userEmail = acct;
-        ManagePreferences.setFreeRider(true);
-        ManagePreferences.setFreeSub(false);
-        return;
-      }
-      if (!isAcct) acct = null;
-      if (checkAcctList(hash, acct, 2013, false, paid2013List)) return;
-      if (checkAcctList(hash, acct, 2012, false, paid2012List)) return;
-      if (checkAcctList(hash, acct, 2011, false, paid2011List)) return;
-    }
-    
-    private boolean checkAcctList(String hash, String acct, 
-                                    int paidYear, boolean freeSub, 
-                                    String[] acctList) {
-      if (Arrays.binarySearch(acctList, hash) < 0) return false;
-      ManagePreferences.setPaidYear(paidYear, true);
-      ManagePreferences.setFreeSub(freeSub);
-      if (ManagePreferences.purchaseDate() == null) {
-        ManagePreferences.setPurchaseDate(new Date());
-      }
-      if (acct != null && userEmail == null) userEmail = acct;
-      return true;
-    }
-    
     @Override
     public void reloadStatus(Context context) {
-      
-      // Tentatively released to user base
-      // if (! DeveloperToolsManager.instance().isDeveloper(context)) return;
       
       // Build query with all of the possible account and phone ID's
       Uri.Builder builder = Uri.parse(context.getString(R.string.donate_server_url)).buildUpon();
@@ -204,6 +189,9 @@ public abstract class UserAcctManager {
             String sponsor = flds[3].trim();
             if (sponsor.equals("FREE")) ManagePreferences.setFreeSub(true);
           }
+          
+          // Set the authorization last checked date
+          ManagePreferences.setAuthLastCheckTime();
         }
       });
     }

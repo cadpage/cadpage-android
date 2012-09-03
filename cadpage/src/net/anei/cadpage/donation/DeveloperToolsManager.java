@@ -117,6 +117,8 @@ public class DeveloperToolsManager {
         ManagePreferences.setAuthLocation(null);
         setPaidYear(0);
         setPurchaseDate(-20, -1);
+        ManagePreferences.setInstallDate(ManagePreferences.purchaseDate());
+        ManagePreferences.setAuthLastCheckTime(0L);
         break;
         
       case 3:     // Stat: Donate warn

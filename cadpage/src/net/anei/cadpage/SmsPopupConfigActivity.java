@@ -60,10 +60,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     addPreferencesFromResource(R.xml.preferences);
 
     // Set preferences initialized flag
-    SharedPreferences.Editor editor = 
-        PreferenceManager.getDefaultSharedPreferences(this).edit();
-    editor.putBoolean(getString(R.string.pref_initialized_key), true);
-    editor.commit();
+    ManagePreferences.setInitialized(true);
     
     // Set up the two enable components preferences
     Preference pref = findPreference(getString(R.string.pref_enabled_key));

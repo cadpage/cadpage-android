@@ -143,7 +143,8 @@ public class HttpService extends Service {
      */
     protected void processContent(String content) {
       Matcher match = BODY_PTN.matcher(content);
-      if (match.find()) processBody(match.group(1));
+      if (match.find()) content = match.group(1);
+      processBody(content);
     }
     private static final Pattern BODY_PTN = Pattern.compile("<body>(.*?)</body>", Pattern.CASE_INSENSITIVE);
 

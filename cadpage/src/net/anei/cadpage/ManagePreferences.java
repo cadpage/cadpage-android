@@ -153,6 +153,10 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_initialized_key);
   }
   
+  public static void setInitialized(boolean newVal) {
+    prefs.putBoolean(R.string.pref_initialized_key, newVal);
+  }
+  
   public static boolean initBilling() {
     return prefs.getBoolean(R.string.pref_init_billing_key);
   }
@@ -716,6 +720,18 @@ public class ManagePreferences {
     MainDonateEvent.instance().refreshStatus();
   }
   
+  public static long authLastCheckTime() {
+    return prefs.getLong(R.string.pref_auth_last_check_time_key, 0L);
+  }
+  
+  public static void setAuthLastCheckTime() {
+    setAuthLastCheckTime(System.currentTimeMillis());
+  }
+  
+  public static void setAuthLastCheckTime(long newVal) {
+    prefs.putLong(R.string.pref_auth_last_check_time_key, newVal);
+  }
+  
   public static String registrationId() {
     return prefs.getString(R.string.pref_registration_id_key, null);
   }
@@ -880,6 +896,7 @@ public class ManagePreferences {
         R.string.pref_auth_exempt_date_key,
         R.string.pref_auth_last_date_key,
         R.string.pref_auth_run_days_key,
+        R.string.pref_auth_last_check_time_key,
         
         R.string.pref_registration_id_key,
         R.string.pref_gcm_enabled_key,
@@ -998,6 +1015,16 @@ public class ManagePreferences {
     return result;
   }
   
+  protected long getLong(int resPrefId, long defValue) {
+    return mPrefs.getLong(context.getString(resPrefId), defValue);
+  }
+  
+  protected long getLong(int resPrefId) {
+    long result = mPrefs.getLong(context.getString(resPrefId), Long.MAX_VALUE);
+    if (result == Long.MAX_VALUE) throw new RuntimeException("No configured preference value found");
+    return result;
+  }
+  
   protected void putBoolean(int resPrefId, boolean newVal) {
     SharedPreferences.Editor settings = mPrefs.edit();
     String key = context.getString(resPrefId);
@@ -1018,6 +1045,14 @@ public class ManagePreferences {
     SharedPreferences.Editor settings = mPrefs.edit();
     String key = context.getString(resPrefId);
     settings.putInt(key, newVal);
+    settings.commit();
+    notifyListeners(key);
+  }
+
+  protected void putLong(int resPrefId, long newVal) {
+    SharedPreferences.Editor settings = mPrefs.edit();
+    String key = context.getString(resPrefId);
+    settings.putLong(key, newVal);
     settings.commit();
     notifyListeners(key);
   }
