@@ -598,6 +598,15 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "DATE:09/01/12",
         "TIME:07:51");
 
+    doTest("T2",
+        "Subject:1/2\nUnit:M590A Status:Dispatched ALS MEDICAL ; 120 TREXLER AVE RM 114 ; KUTZTOWN MANOR; LENNI ST / CONSTITUTION BLVD \r",
+        "UNIT:M590A",
+        "CALL:ALS MEDICAL",
+        "ADDR:120 TREXLER AVE",
+        "APT:114",
+        "PLACE:KUTZTOWN MANOR",
+        "X:LENNI ST / CONSTITUTION BLVD");
+
   }
   
   @Test
