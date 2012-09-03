@@ -78,7 +78,7 @@ Jean -- Assistant to Ken Corbin
 
 Thanks!  We received your PayPal payment.
 
-You've been added to a paid subscriber list that is distributed with the app.  Your Payment status will change automatically when you load the next Cadpage version.  To update it manually now 
+You've been added to a paid subscriber list that is distributed with the app.  To update your payment status 
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
 Thanks so much for your support,
@@ -86,7 +86,7 @@ Jean -- Assistant to Ken Corbin
 
 ******************************************************************
 
-These have all been added to a paid subscriber list that is distributed with the app.  Payment status should change automatically when they load the next Cadpage version.  The can update their payment status immediately as follows...
+These have all been added to a paid subscriber list that is distributed with the app.  They can update their payment status as follows...
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
 If this doesn't work, it probably means we got a phone number wrong.  In that case, they should go into Cadpage settings and press Payment Status, then I've made a PayPal payment, to send us an email.

@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.PA;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
@@ -13,6 +15,7 @@ Sender: "."@co.butler.pa.us
 "."@butlerco.911 :FIRST >FIRE - STRUCTURE 20036 ROUTE 19 CRANBERRY TWP CANDLEWOOD EXTENDED STAY Map: Grids:00000,000 Cad: 2011-0000074503
 "."@co.butler.pa.us :ALAF >ALARM/FIRE 20620 ROUTE 19 CRANBERRY TWP RAMPART Map: Grids:00000,000 Cad: 2012-0000006337
 :VAINJ >VA / INJURIES ROUTE 19 CRANBERRY TWP PORTNEY PATTERSON Cad: 2012-0000056854
+:VAINJ >VA / INJURIES ROUTE 19 CRANBERRY TWP TYLER VARGO Cad: 2012-0000063053
 
 Contact: Kenneth Chiacchia <chiacchiakb@gmail.com>
 Sender: 6245
@@ -25,6 +28,8 @@ Sender: "."@co.butler.pa.us
 */
 
 public class PAButlerCountyParser extends DispatchBParser {
+  
+  private static final Pattern MARKER = Pattern.compile(" Cad: \\d{4}-\\d{10}$");
 
   public PAButlerCountyParser() {
     super(CITY_LIST, "BUTLER COUNTY", "PA");
@@ -35,6 +40,11 @@ public class PAButlerCountyParser extends DispatchBParser {
     return "@butlerco.911,@co.butler.pa.us";
   }
   
+  @Override
+  protected boolean isPageMsg(String body) {
+    return MARKER.matcher(body).find();
+  }
+
   @Override
   public boolean parseMsg(String body, Data data) {
     
