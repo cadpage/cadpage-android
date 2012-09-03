@@ -67,8 +67,10 @@ Contact: Active911
 [berks.650@rsix.roamsecure.net] Unit:M650B Status:Dispatched BLS TRAUMA ; 2912 STATE HILL RD APT B3 ; ; No Cross Streets Found ; Muni: SPRING ; BERKSHIRE ESTATES APTS ; 07/13/12 13:43\nSent by Berks County RSAN to Western Berks EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
 
 Contact: Gary Brady <ggbrady@verizon.net>
-Sender: alrt_4CBC@berks.alertpa.org
+Contact: KURT REINERT <kurtreinert@gmail.com>
+Sender: @berks.alertpa.org
 Unit:B42 Status:Dispatched BF ; 100 BLIMLINE RD BLOCK ; ; DEAD END / DEER CREEK RD ; SPRING ; ; 09/01/12 07:51
+Subject:1/2\nUnit:M590A Status:Dispatched ALS MEDICAL ; 120 TREXLER AVE RM 114 ; KUTZTOWN MANOR; LENNI ST / CONSTITUTION BLVD \r
 
 Contact: Active911
 [berks.680@rsix.roamsecure.net] Unit:M680A Status:Dispatched ALS MEDICAL ; 202 HAYCREEK RD ; ; UNKNOWN / BROOKE MNR ; BIRDSBORO ; F TEMP OF 104 ; 08/28/12 18:14\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
@@ -92,7 +94,7 @@ public class PABerksCountyParser extends FieldProgramParser {
   
   public PABerksCountyParser() {
     super("BERKS COUNTY", "PA",
-           "UNITCALL! ADDR/iSXa! PLACE! X! CITY! INFO DATETIME");
+           "UNITCALL! ADDR/iSXa! PLACE! X! CITY INFO DATETIME");
   }
   
   @Override
