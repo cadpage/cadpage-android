@@ -218,6 +218,16 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
         "CH:TGD3",
         "BOX:1102",
         "UNIT:A812,AU816,BO886,C699,E811,EMSDO,HC816,MD812,NSO,TR806,TS814");
+
+    doTest("T18",
+        "F122460026: Overdose, 5427 56TH AVE, PP, btwn LONGFELLOW ST and MADISON ST, TGA2, 1301, Units:A807, E807",
+        "ID:F122460026",
+        "CALL:Overdose",
+        "ADDR:5427 56TH AVE",
+        "X:LONGFELLOW ST and MADISON ST",
+        "CH:TGA2",
+        "BOX:1301",
+        "UNIT:A807,E807");
  
   }
   

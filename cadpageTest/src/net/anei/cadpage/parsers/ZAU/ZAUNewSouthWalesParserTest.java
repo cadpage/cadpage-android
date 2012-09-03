@@ -103,7 +103,7 @@ public class ZAUNewSouthWalesParserTest extends BaseParserTest {
         "CITY:LANE COVE",
         "PHONE:0419 257 816",
         "CALL:FLOODING",
-        "DATE:10/06",
+        "DATE:06/10",
         "TIME:16:02:51");
    
   }

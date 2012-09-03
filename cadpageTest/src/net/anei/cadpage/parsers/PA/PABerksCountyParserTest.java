@@ -607,6 +607,27 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "PLACE:KUTZTOWN MANOR",
         "X:LENNI ST / CONSTITUTION BLVD");
 
+    doTest("T3",
+        "Unit:E42-1 Status:Dispatched AFA ; 322 E WYOMISSING AVE ; ; UNKNOWN / WERNER ST ; CUMRU ; MANGIA ITALIAN FAMILY RESTAURANT ; 09/02/12 14:20",
+        "UNIT:E42-1",
+        "CALL:AFA",
+        "ADDR:322 E WYOMISSING AVE",
+        "CITY:CUMRU",
+        "X:UNKNOWN / WERNER ST",
+        "INFO:MANGIA ITALIAN FAMILY RESTAURANT",
+        "DATE:09/02/12",
+        "TIME:14:20");
+
+    doTest("T4",
+        "Unit:CO21 Status:Dispatched MVAUNK ; MERTZTOWN RD KENNEDY AVE ; ; ; LONGSWAMP ; VEH INTO POLE ; 09/02/12 13:39",
+        "UNIT:CO21",
+        "CALL:MVAUNK",
+        "ADDR:MERTZTOWN RD & KENNEDY AVE",
+        "CITY:LONGSWAMP",
+        "INFO:VEH INTO POLE",
+        "DATE:09/02/12",
+        "TIME:13:39");
+
   }
   
   @Test
