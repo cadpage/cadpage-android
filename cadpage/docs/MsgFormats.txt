@@ -4799,8 +4799,14 @@ EMERGENCY SERVICES 8284797985\r\n
 Body:(E911) FRACTURE\r\n
 HEROLD CARRINGER 8284796832\r\n
 115 NATHAN GARLAND RD, ROBBINSVILLE
-
 **********************************************************
+Champaign-Urbana, IL (alternate)
+Contact: jeremy hoffman <firemanj79@gmail.com>
+Sender: @metcad911.org
+[Text Message] CFD responding to a working fire at 202 E Bellefontaine, Ch, on Fire Ground 1. Auth JJA
+[Text Message] DIS2:Homer fire Request investigations team for working fire 116 s main homer, please call metcad
+[Text Message]  DIS2:Requested from Northern Piatt Fire on the scene of a working fire at 737 2700n outside of Mansfield for investigators to contact NPF Chief
+[Text Message]  DIS4:YOU ARE BEING REQUESTED BY CARROL FD AT THE SCENE OF A WORKING FIRE THAT IS NOW OUT. THE ADDRESS IS 24709-1/2 BROWNFIELD RD IN URBANA.
 **********************************************************
 **********************************************************
 **********************************************************

@@ -41,8 +41,11 @@ public class ZAUNewSouthWalesParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     Matcher match = CALLBACK_PTN.matcher(body);
     if (!match.find()) return false;
-    data.strDate = getOptGroup(match.group(1));
-    data.strTime = getOptGroup(match.group(2));
+    String date = match.group(1);
+    if (date != null) {
+      data.strDate = date.substring(3,5) + '/' + date.substring(0,2);
+      data.strTime = match.group(2);
+    }
     body = body.substring(0,match.start()).trim();
     return parseFields(body.split(","), 6, data);
   }

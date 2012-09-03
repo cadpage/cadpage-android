@@ -12,6 +12,7 @@ Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
 Cotnact: Tommy Scaggs <rtscaggs@gmail.com>
 Contact: kyle hastings <kwhastings@gmail.com>
 Contact: Robin Scaggs <Robin.Scaggs@erickson.com>
+Contact: Dustin Bruce <guardsman.arms@gmail.com>
 Sender: @alert.co.pg.md.us
 
 (CAD Feed) ALS1, Medic Local, 8500 MAGNOLIA DR, PP, btwn WOOD THRUSH DR and BLUE BIRD CT, TGA2, 4820, 5411 C 4, Medical ProQA recommends dispatch at this time, Units:A848, MD818 - From FED01 06/14/2012 19:47:08\n\n
@@ -31,6 +32,7 @@ F121800232: Medic Local, 9206 5TH ST, PP, btwn MAIN ST and END, TGA2, 4809, Unit
 F121800279: PIA w/Entrapment, EQUESTRIAN CENTER, PP, at 5651 WATER ST, PP, TGB3, 2020, Units:A823, BO887, E845, MD845, SQ820
 F121800373: Collapse, 1501 CABIN BRANCH DR, PP, btwn SAVAGE ST and COLUMBIA PARK RD, TGA7, 3808, Unit:TW810
 TR F121850028: Confined Space Rescu, 4706 HOLLYWOOD RD, PP, btwn 47TH PL and 48TH AVE, TGD3, 1102, Units:A812, AU816, BO886, C699, E811, EMSDO, HC816, MD812, NSO, TR806, TS814, WI
+F122460026: Overdose, 5427 56TH AVE, PP, btwn LONGFELLOW ST and MADISON ST, TGA2, 1301, Units:A807, E807
 
 Contact: Active911
 [CAD Feed] STREET, Street Alarm, 9001 MCHUGH DR, PP, btwn END and CAMPUS WAY N, TA11, 0616, 5531 D 3, ODOR OF ELECTRICAL BURNING IN THE STORE, Units:BO881, E833, E837, QT838, TK828\n
