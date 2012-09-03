@@ -61,6 +61,22 @@ public class PAButlerCountyParserTest extends BaseParserTest {
         "CITY:CONNOQUENESSING TWP",
         "NAME:GAURDIAN",
         "ID:2012-0000035901");
+
+    doTest("T7",
+        ":VAINJ >VA / INJURIES ROUTE 19 CRANBERRY TWP PORTNEY PATTERSON Cad: 2012-0000056854",
+        "CALL:VA/INJURIES",
+        "ADDR:ROUTE 19",
+        "CITY:CRANBERRY TWP",
+        "NAME:PORTNEY PATTERSON",
+        "ID:2012-0000056854");
+
+    doTest("T8",
+        ":VAINJ >VA / INJURIES ROUTE 19 CRANBERRY TWP TYLER VARGO Cad: 2012-0000063053",
+        "CALL:VA/INJURIES",
+        "ADDR:ROUTE 19",
+        "CITY:CRANBERRY TWP",
+        "NAME:TYLER VARGO",
+        "ID:2012-0000063053");
   }
   
   @Test
