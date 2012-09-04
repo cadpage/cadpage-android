@@ -211,6 +211,15 @@ public class GACamdenCountyParserTest extends BaseParserTest {
         "NAME:DESTINY",
         "PHONE:912- -");
 
+    doTest("T21",
+        "astudstill@co.camden.ga.us:* 105 MILLERS BRANCH DR* * * ST MARYS* * * * * SMOKE INVEST* SMOKE INVESTIGATION* * 541-231-9242* LS4* * Medical: No* Hazards:",
+        "ADDR:105 MILLERS BRANCH DR",
+        "CITY:ST MARYS",
+        "CALL:SMOKE INVESTIGATION",
+        "UNIT:LS4",
+        "PHONE:541-231-9242",
+        "INFO:Medical: No / Hazards:");
+
   }
   
   public static void main(String[] args) {
