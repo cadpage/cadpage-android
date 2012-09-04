@@ -29,6 +29,7 @@ Sender: AEUCAD@fire.ca.gov
 (CAD Page) 21-Jul-2012/18:36:57; FIRE, WILDLAND; Inc# 016722; 6085BLK W CHINA HILL RD ,EL_DORADO; B2709 U8113 E2751 E2769 E2784 E2774 E2752 E2782 E46 D2741 W46 W
 (CAD Page) 22-Jul-2012/12:23:38; MED, TRAFFIC COLLISION; Inc# 016781; 4732 HY 193 / 4600 MALTBY MINE RD ,GEORGETOWN; GEOCHF GEOENG M61 61 E51 E2752; X: -120 53.3
 (CAD Page) 26-Jul-2012/02:31:20; MEDICAL; Inc# 017152; 5780 TRAVERSE CREEK RD ,GARDEN_VALLEY; E2752 M61 52 E51; X: -120 48.3054 Y: 38 49.5004;
+(CAD Page) 03-Sep-2012/15:43:58; FIRE, SMOKE CHECK; Inc# 020679; =B(BALD MOUNTAIN LOOKOUT@272.5,6.0),GEORGETOWN; GEOENG M61 61 E2762; X: -120 48.7971 Y: 38 54.32
 
  */
 
@@ -36,7 +37,8 @@ Sender: AEUCAD@fire.ca.gov
 public class CAElDoradoCountyParser extends MsgParser {
   
   private static final Pattern MARKER = Pattern.compile("^(\\d{1,2}-\\w{3}-\\d{4})/(\\d\\d:\\d\\d:\\d\\d)[:;] ");
-  private static final Pattern MASTER = Pattern.compile("^(.*?)[:;] Inc# (.*?)[:;] (.*?) ,(.*?)[ ;](?:\\((.*?)\\) )? *(.*?)(?:;|$)");
+  private static final Pattern MASTER = Pattern.compile("^(.*?)[:;] Inc# (.*?)[:;] (.*?) *,([^,]*?)[ ;](?:\\((.*?)\\) )? *(.*?)(?:;|$)");
+  private static final Pattern B_ADDR = Pattern.compile("=B\\(.*\\)");
   private static final DateFormat DATE_FMT = new SimpleDateFormat("dd-MMM-yyyy");
   
   public CAElDoradoCountyParser() {
@@ -63,9 +65,15 @@ public class CAElDoradoCountyParser extends MsgParser {
     
     data.strCall = match.group(1).trim();
     data.strCallId = match.group(2).trim();
-    Parser p = new Parser(match.group(3).trim());
-    data.strPlace = p.getOptional('@');
-    parseAddress(p.get(), data);
+    String addr = match.group(3).trim();
+    if (!B_ADDR.matcher(addr).matches()) {
+      int pt = addr.indexOf('@');
+      if (pt >= 0) {
+        data.strPlace = addr.substring(0,pt).trim();
+        addr = addr.substring(pt+1).trim();
+      }
+    }
+    parseAddress(addr, data);
     data.strCity = match.group(4).trim().replace('_', ' ');
     if (data.strCity.startsWith("GEORGETOWN ")) data.strCity = "GEORGETOWN";
     String sPlace = match.group(5);

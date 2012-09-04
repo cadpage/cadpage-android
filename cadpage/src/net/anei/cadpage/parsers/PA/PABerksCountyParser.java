@@ -69,11 +69,17 @@ Contact: Active911
 Contact: Gary Brady <ggbrady@verizon.net>
 Contact: KURT REINERT <kurtreinert@gmail.com>
 Contact: "courey21142" <courey21142@aol.com>
+Contact: Buddy <fwardiv@gmail.com>
 Sender: @berks.alertpa.org
+
 Unit:B42 Status:Dispatched BF ; 100 BLIMLINE RD BLOCK ; ; DEAD END / DEER CREEK RD ; SPRING ; ; 09/01/12 07:51
 Subject:1/2\nUnit:M590A Status:Dispatched ALS MEDICAL ; 120 TREXLER AVE RM 114 ; KUTZTOWN MANOR; LENNI ST / CONSTITUTION BLVD \r
 Unit:E42-1 Status:Dispatched AFA ; 322 E WYOMISSING AVE ; ; UNKNOWN / WERNER ST ; CUMRU ; MANGIA ITALIAN FAMILY RESTAURANT ; 09/02/12 14:20
 Unit:CO21 Status:Dispatched MVAUNK ; MERTZTOWN RD KENNEDY AVE ; ; ; LONGSWAMP ; VEH INTO POLE ; 09/02/12 13:39
+
+Unit:555A Status:Dispatched CLASS 5 DOA ; 405 OAK LN ; ; DEAD END / DEAD END ; EXETER ; SEE COMPL AT HIS COUSINS RES ; 09/03/12 18:17=
+Unit:555A Status:Dispatched MVAWITH ; 1599 BUTTER LN ; ; EXETER RD / OKMED DR ; EXETER ; ; 09/03/12 15:57:
+Unit:555A Status:Dispatched SF ; 2000 PERKIOMEN AVE 309 ; ST CATHERINES SENIOR HOUSING; S 21 ST / S 20 ST ; MOUNT PENN ; SM ELLS SMOKE ; 09/02/12 17:35=
 
 Contact: Active911
 [berks.680@rsix.roamsecure.net] Unit:M680A Status:Dispatched ALS MEDICAL ; 202 HAYCREEK RD ; ; UNKNOWN / BROOKE MNR ; BIRDSBORO ; F TEMP OF 104 ; 08/28/12 18:14\r\n\r\nSent by Berks County RSAN to Southern Berks EMS All CALL\r\r\n--\r\r\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\r\r\n\r\n
@@ -111,6 +117,7 @@ public class PABerksCountyParser extends FieldProgramParser {
     // Strip off message trailer
     int pt = body.indexOf("Sent by Berks County RSAN");
     if (pt >= 0) body = body.substring(0,pt).trim();
+    if (body.endsWith("=")) body = body.substring(0,body.length()-1).trim();
     
     // There used to be a Muni: field label.  Which we remove from old  messages
     body = body.replace("; Muni:", ";");
