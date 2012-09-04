@@ -582,6 +582,38 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "DATE:07/13/12",
         "TIME:13:43");
 
+    doTest("T22",
+        "Unit:555A Status:Dispatched CLASS 5 DOA ; 405 OAK LN ; ; DEAD END / DEAD END ; EXETER ; SEE COMPL AT HIS COUSINS RES ; 09/03/12 18:17=",
+        "UNIT:555A",
+        "CALL:CLASS 5 DOA",
+        "ADDR:405 OAK LN",
+        "CITY:EXETER",
+        "X:DEAD END / DEAD END",
+        "INFO:SEE COMPL AT HIS COUSINS RES",
+        "DATE:09/03/12",
+        "TIME:18:17");
+
+    doTest("T23",
+        "Unit:555A Status:Dispatched MVAWITH ; 1599 BUTTER LN ; ; EXETER RD / OKMED DR ; EXETER ; ; 09/03/12 15:57:",
+        "UNIT:555A",
+        "CALL:MVAWITH",
+        "ADDR:1599 BUTTER LN",
+        "CITY:EXETER",
+        "X:EXETER RD / OKMED DR");
+
+    doTest("T24",
+        "Unit:555A Status:Dispatched SF ; 2000 PERKIOMEN AVE 309 ; ST CATHERINES SENIOR HOUSING; S 21 ST / S 20 ST ; MOUNT PENN ; SMELLS SMOKE ; 09/02/12 17:35=",
+        "UNIT:555A",
+        "CALL:SF",
+        "ADDR:2000 PERKIOMEN AVE",
+        "APT:309",
+        "CITY:MOUNT PENN",
+        "PLACE:ST CATHERINES SENIOR HOUSING",
+        "X:S 21 ST / S 20 ST",
+        "INFO:SMELLS SMOKE",
+        "DATE:09/02/12",
+        "TIME:17:35");
+
   }
   
   @Test

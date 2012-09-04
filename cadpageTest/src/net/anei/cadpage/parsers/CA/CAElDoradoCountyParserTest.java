@@ -162,6 +162,17 @@ public class CAElDoradoCountyParserTest extends BaseParserTest {
         "CITY:GARDEN VALLEY",
         "UNIT:E2752 M61 52 E51",
         "GPS:X: -120 48.3054 Y: 38 49.5004");
+
+    doTest("T14",
+        "(CAD Page) 03-Sep-2012/15:43:58; FIRE, SMOKE CHECK; Inc# 020679; =B(BALD MOUNTAIN LOOKOUT@272.5,6.0),GEORGETOWN; GEOENG M61 61 E2762; X: -120 48.7971 Y: 38 54.32",
+        "DATE:09/03/2012",
+        "TIME:15:43:58",
+        "CALL:FIRE, SMOKE CHECK",
+        "ID:020679",
+        "ADDR:=B(BALD MOUNTAIN LOOKOUT@272.5,6.0)",
+        "CITY:GEORGETOWN",
+        "UNIT:GEOENG M61 61 E2762",
+        "GPS:X: -120 48.7971 Y: 38 54.32");
   }
   
   public static void main(String[] args) {

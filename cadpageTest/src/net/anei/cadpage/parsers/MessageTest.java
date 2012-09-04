@@ -9,6 +9,14 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("PABerksCounty",
+        "ken@cadapge.org",
+        "",
+        "FRM: \nSUBJ:2/2\nMSG:ELLS SMOKE ; 09/02/12 17:35=",
+        "ken@cadapge.org",
+        "",
+        "ELLS SMOKE ; 09/02/12 17:35=", 2, 2);
+    
     doParseTest("NCBrunswickCounty",
         "ken@cadapge.org",
         "",
