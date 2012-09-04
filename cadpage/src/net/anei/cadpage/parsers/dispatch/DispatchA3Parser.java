@@ -223,7 +223,7 @@ public class DispatchA3Parser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{2,4}-\\d{6}", true);
+    if (name.equals("ID")) return new IdField("\\d{2,4}-\\d{6}|", true);
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("CH")) return new BaseChannelField();
     if (name.equals("CALL")) return new BaseCallField();
