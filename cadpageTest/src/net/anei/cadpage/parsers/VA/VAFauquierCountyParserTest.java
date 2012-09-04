@@ -151,6 +151,16 @@ public class VAFauquierCountyParserTest extends BaseParserTest {
         "X:WEST SHIRLEY AVE & VETERANS DR",
         "UNIT:CO1",
         "CH:11C");
+  }
+  
+  @Test
+  public void testMutualAid() {
+    setDefaults("", "VA");
+    
+    doTest("T1",
+        "CAD:STRUCTURE FIRE - COMMERCIAL;14101 WHITNEY RD",
+        "CALL:STRUCTURE FIRE - COMMERCIAL",
+        "ADDR:14101 WHITNEY RD");
 
   }
   
