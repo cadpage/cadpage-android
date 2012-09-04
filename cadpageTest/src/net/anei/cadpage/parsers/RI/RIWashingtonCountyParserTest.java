@@ -108,6 +108,20 @@ public class RIWashingtonCountyParserTest extends BaseParserTest {
    
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "Subject:CAD Notification\nhttp://911txt.co/r/wd/59050\r\n2012/09/03 09:34:11\r\n21 KINGSTOWN RD\r\nRICHMOND\r\nMVA\r\n\r",
+        "URL:http://911txt.co/r/wd/59050",
+        "DATE:09/03/2012",
+        "TIME:09:34:11",
+        "ADDR:21 KINGSTOWN RD",
+        "PLACE:RICHMOND",
+        "CITY:MVA");
+
+  }
+  
   public static void main(String[] args) {
     new RIWashingtonCountyParserTest().generateTests("T1");
   }
