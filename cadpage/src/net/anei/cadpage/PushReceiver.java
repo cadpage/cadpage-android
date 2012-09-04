@@ -32,7 +32,8 @@ public class PushReceiver extends BroadcastReceiver {
 
   @Override
   public void onReceive(Context context, Intent intent) {
-    if (Log.DEBUG) Log.v("PushReceiver: onReceive()");
+    Log.v("PushReceiver: onReceive()");
+    ContentQuery.dumpIntent(intent);
     
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) return;

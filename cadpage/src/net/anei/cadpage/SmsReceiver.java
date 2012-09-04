@@ -20,7 +20,8 @@ public class SmsReceiver extends BroadcastReceiver {
 
   @Override
   public synchronized void onReceive(Context context, Intent intent) {
-    if (Log.DEBUG) Log.v("SMSReceiver: onReceive()");
+    Log.v("SMSReceiver: onReceive()");
+    ContentQuery.dumpIntent(intent);
     
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) return;
