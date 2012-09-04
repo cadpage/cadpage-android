@@ -2221,6 +2221,17 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class InfoUrlField extends Field {
     @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("http://") && !field.startsWith("https://")) return false;
+      parse(field, data);
+      return true;
+    }
+    @Override
     public void parse(String field, Data data) {
       data.strInfoURL = field;
     }

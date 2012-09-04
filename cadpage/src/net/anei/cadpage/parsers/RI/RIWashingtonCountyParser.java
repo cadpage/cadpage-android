@@ -16,13 +16,17 @@ Sender: cad_do_not_reply@westerlyambulance.org
 (CAD Notification) 2012/05/12 01:41:45\n31 COLUMBIA HTS OVAL\nNO NAME\nCHARLESTOWN\nEMERGENCY\n\nNotes\nDISORIENTED MAN
 (CAD Notification) 2012/05/12 16:26:30\n54 NOOSENECK HILL RD\nRI STATE POLICE (NOOSENECK HILL RD)\nRICHMOND\nEMERGENCY\n\nNotes\nEYE INJURY FROM PRE
 
+Contact: "ldisandro3137@gmail.com" <ldisandro3137@gmail.com>
+Sender: cad_do_not_reply@westerlyambulance.org
+Subject:CAD Notification\nhttp://911txt.co/r/wd/59050\r\n2012/09/03 09:34:11\r\n21 KINGSTOWN RD\r\nRICHMOND\r\nMVA\r\n\r
+
 */
 
 public class RIWashingtonCountyParser extends FieldProgramParser {
  
   public RIWashingtonCountyParser() {
-    super("WASHINGTON COUNTY", "RI",
-           "DATETIME ADDR PLACE CITY CALL EMPTY ( ASGN_UNIT UNIT EMPTY | ) NOTES INFO!");
+    super(CITY_LIST, "WASHINGTON COUNTY", "RI",
+           "URL? DATETIME ADDR PLACE? CITY CALL EMPTY ( ASGN_UNIT UNIT EMPTY | ) NOTES INFO");
   }
   
   @Override
@@ -72,5 +76,34 @@ public class RIWashingtonCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  
+  private static final String[] CITY_LIST = new String[]{
+    "CHARLESTOWN ",
+    "CAROLINA",
+    "EXETER",
+    "HOPKINTON ",
+    "ASHAWAY",
+    "HOPE VALLEY",
+    "NARRAGANSETT ",
+    "GALILEE",
+    "NARRAGANSETT PIER",
+    "NEW SHOREHAM",
+    "NORTH KINGSTOWN ",
+    "WICKFORD",
+    "SAUNDERSTOWN",
+    "RICHMOND ",
+    "CAROLINA",
+    "KENYON",
+    "SHANNOCK",
+    "USQUEPAUG",
+    "WYOMING",
+    "SOUTH KINGSTOWN ",
+    "KINGSTON",
+    "MATUNUCK",
+    "PEACEDALE",
+    "WAKEFIELD",
+    "WESTERLY ",
+    "BRADFORD",
+    "WATCH HILL",
+    "WHITE ROCK"
+  };
 }
