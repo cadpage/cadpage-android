@@ -12,6 +12,11 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBad() {
+    doBadTest("(MFC) GSHF ** 01:19 ** RESPIRATORY DIFFICULTY - ALS * ** 317 DEVON WY ,53 ** - ** DEVON LA & DEVON WY ** 5684 ** EGOSHN ** 60/F - HAVING ANXIETY, SOB\n\nDETAILS TO FOLLOW\n\n **");
+  }
+  
+  @Test
   public void testParser() {
     
     doTest("T1",
