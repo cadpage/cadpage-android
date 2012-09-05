@@ -49,7 +49,7 @@ public class NYMontgomeryCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "paging@impact-sys.com,messaging@iamresponding.com";
+    return "paging@impact-sys.com,messaging@iamresponding.com,impact@impact.co.Montgomery.NY.us";
   }
 
   @Override
