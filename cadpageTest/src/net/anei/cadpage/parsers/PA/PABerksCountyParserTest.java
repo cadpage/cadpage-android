@@ -660,6 +660,13 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "DATE:09/02/12",
         "TIME:13:39");
 
+    doTest("T5",
+        "Subject:1/2\nUnit:U55 Status:Dispatched UNCONSCIOUS ; 1725 GOLF RD ; ; NORTH TULPEHOCKEN",
+        "UNIT:U55",
+        "CALL:UNCONSCIOUS",
+        "ADDR:1725 GOLF RD",
+        "X:NORTH TULPEHOCKEN");
+
   }
   
   @Test
