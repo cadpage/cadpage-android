@@ -78,9 +78,60 @@ public class NCRutherfordCountyParserTest extends BaseParserTest {
         "UNIT:103,FCFD1,");
     
   }
+  
+  @Test
+  public void testActive911A() {
 
-public static void main(String[] args) {
-    new NCRutherfordCountyParserTest().generateTests("T9");
+    doTest("T1",
+        "[] Paging:Line1=2012-059502* Location=1600 US 221S HWY* APT/ROOM=* City=FOREST CITY* Call Type=EMS CHESTPAI* Line11=CHEST PAIN (NON-TRAUMATIC)* Units=ems1,MED11,vls1*\r\n\n",
+        "ADDR:1600 US 221S HWY",
+        "CITY:FOREST CITY",
+        "CALL:EMS CHESTPAI",
+        "INFO:CHEST PAIN (NON-TRAUMATIC)",
+        "UNIT:ems1,MED11,vls1");
+
+    doTest("T2",
+        "[] Paging:Location=108 PATCHES LN* APT/ROOM=* City=BOSTIC* Call Type=EMS DIFF BRE* Units=802,MED30,RCR1*\r\n\n",
+        "ADDR:108 PATCHES LN",
+        "CITY:BOSTIC",
+        "CALL:EMS DIFF BRE",
+        "UNIT:802,MED30,RCR1");
+
+    doTest("T3",
+        "[] Paging:Line1=2012-059515* Location=394 SHENANDOAH DR* APT/ROOM=* City=Spindale* Call Type=EMS CHESTPAI* Line11=CHEST PAIN (NON-TRAUMATIC)* Units=MED10*\r\n\n",
+        "ADDR:394 SHENANDOAH DR",
+        "CITY:Spindale",
+        "CALL:EMS CHESTPAI",
+        "INFO:CHEST PAIN (NON-TRAUMATIC)",
+        "UNIT:MED10");
+
+    doTest("T4",
+        "[] Paging:Line1=2012-059516* Location=113 GOLD TREE LN* APT/ROOM=* City=RUTHERFORDTON* Call Type=EMS CHESTPAI* Line11=CHEST PAIN (NON-TRAUMATIC)* Units=MED11*\r\n\n",
+        "ADDR:113 GOLD TREE LN",
+        "CITY:RUTHERFORDTON",
+        "CALL:EMS CHESTPAI",
+        "INFO:CHEST PAIN (NON-TRAUMATIC)",
+        "UNIT:MED11");
+
+    doTest("T5",
+        "[] Paging:Line1=2012-059517* Location=SANDY MUSH* APT/ROOM=* City=RUTHERFORDTON* Call Type=STAND BY* Line11=STAND BY* Units=MED40*\r\n\n",
+        "ADDR:SANDY MUSH",
+        "CITY:RUTHERFORDTON",
+        "CALL:STAND BY",
+        "INFO:STAND BY",
+        "UNIT:MED40");
+
+    doTest("T6",
+        "[] Paging:Location=1172 PINEY RIDGE RD* APT/ROOM=* City=FOREST CITY* Call Type=EMS CHESTPAI* Units=MED40,RCR1*\r\n\n",
+        "ADDR:1172 PINEY RIDGE RD",
+        "CITY:FOREST CITY",
+        "CALL:EMS CHESTPAI",
+        "UNIT:MED40,RCR1");
+
+  }
+
+  public static void main(String[] args) {
+    new NCRutherfordCountyParserTest().generateTests("T1");
   }
 
 }
