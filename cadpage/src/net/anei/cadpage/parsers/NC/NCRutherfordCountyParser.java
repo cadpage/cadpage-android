@@ -22,7 +22,13 @@ Paging:Location=376 WOMACK LAKE RD* APT/ROOM* City=FOREST CITY* Call Type=ACCIDE
 Contact: Ferrell Hamrick <fireball3412@gmail.com>
 prvs=11539c2346=paging@rutherfordcountync.gov (Message Forwarded by PageGate) Location=WITHROW RD & HUDLOW*\nAPT/ROOM*\n\nCity=FOREST CITY*\n\nCall Type=ACCIDENT PI*\n\n\n\nUnits=103,FCFD1,
 
-
+Contact: Active911
+[] Paging:Line1=2012-059502* Location=1600 US 221S HWY* APT/ROOM=* City=FOREST CITY* Call Type=EMS CHESTPAI* Line11=CHEST PAIN (NON-TRAUMATIC)* Units=ems1,MED11,vls1*\r\n\n
+[] Paging:Location=108 PATCHES LN* APT/ROOM=* City=BOSTIC* Call Type=EMS DIFF BRE* Units=802,MED30,RCR1*\r\n\n
+[] Paging:Line1=2012-059515* Location=394 SHENANDOAH DR* APT/ROOM=* City=Spindale* Call Type=EMS CHESTPAI* Line11=CHEST PAIN (NON-TRAUMATIC)* Units=MED10*\r\n\n
+[] Paging:Line1=2012-059516* Location=113 GOLD TREE LN* APT/ROOM=* City=RUTHERFORDTON* Call Type=EMS CHESTPAI* Line11=CHEST PAIN (NON-TRAUMATIC)* Units=MED11*\r\n\n
+[] Paging:Line1=2012-059517* Location=SANDY MUSH* APT/ROOM=* City=RUTHERFORDTON* Call Type=STAND BY* Line11=STAND BY* Units=MED40*\r\n\n
+[] Paging:Location=1172 PINEY RIDGE RD* APT/ROOM=* City=FOREST CITY* Call Type=EMS CHESTPAI* Units=MED40,RCR1*\r\n\n
 
 */
 
@@ -30,7 +36,7 @@ public class NCRutherfordCountyParser extends FieldProgramParser {
   
   public NCRutherfordCountyParser() {
     super("RUTHERFORD COUNTY", "NC",
-           "Location:ADDR! SKIP City:CITY! Call_Type:CALL! Units:UNIT!");
+           "Location:ADDR! APT/ROME:APT? City:CITY! Call_Type:CALL! Line11:INFO? Units:UNIT!");
   }
   
   @Override
