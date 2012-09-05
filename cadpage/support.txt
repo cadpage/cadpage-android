@@ -69,7 +69,7 @@ sequence to send us an email with the correct email account we need to register.
 Your Payment status should change when you load the next Cadpage version.  You can extend the current demo by 30 days as follows:
 
 Go into Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GCEJDQBA or gcejdqba.  This is a time-sensitive code and will expire within about 48 hours.  Once you use it, will be good for only about 2 weeks.
+UXHXEXBA or uxhxexba.  This is a time-sensitive code and will expire within about 48 hours.  Once you use it, will be good for only about 2 weeks.
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -126,7 +126,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address so I can make sure you get credit for it.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-XDEWFJFA or xdewfjfa.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
+ILTCKRDA or iltckrda.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -174,7 +174,7 @@ Cadpage is free for direct paging users because CodeMessaging gives us some of t
 This should only take a few seconds.  But just in case it does not...
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XDEWFJFA or xdewfjfa.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+ILTCKRDA or iltckrda.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Have a nice day,
 Jean -- Assistant to Ken Corbin
@@ -218,7 +218,7 @@ Sometimes you can log into to wallet.google.com and see if they list a reason wh
 
 We also take PayPal & snail mail payments, but it is a bit of a hassle for all parties, and a violation of Play Store (previously Android Market) application publisher standards, so we don't encourage it.  Details on how to do that can be found at http://www.cadpage.org/financial-support/paypal-payments
 
-XDEWFJFA or xdewfjfa.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+ILTCKRDA or iltckrda.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -232,7 +232,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store (previously Android Market) purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XDEWFJFA or xdewfjfa.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+ILTCKRDA or iltckrda.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -242,7 +242,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XDEWFJFA or xdewfjfa.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+ILTCKRDA or iltckrda.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
