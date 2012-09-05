@@ -279,6 +279,24 @@ public class SCGreenvilleCountyParserTest extends BaseParserTest {
         "INFO:DIST: 60.52 FT",
         "MAP:14V");
 
+    doTest("T13",
+        "[] CAD:SERVICE CALL;1798 N 25 HWY/SKYVIEW DR;TRAV;(S) (N)12I;no need for tones [08/28/12 10:21:26 AHINTON] ;TV1\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "CONFIDENTIALITY NOTICE: This e-mail and any files transmitted with it are confidential and may contain information which is legally privileged or otherwise exempt from disclosure. They are intended solely for the use of the individual or entity to whom this e-mail is addressed. If you are not one of the named recipients or otherwise have reason to believe that you have received this message in error, please immediately notify the sender and delete this message immediately from your computer. Any other use, retention, dissemination, forwarding, printing, or copying of this e-mail is strictly prohibited.\r\n" +
+        "\r\n\n",
+
+        "CALL:SERVICE CALL",
+        "ADDR:1798 N 25 HWY & SKYVIEW DR",
+        "MADDR:1798 N 25 HWY",
+        "CITY:TRAVELERS REST",
+        "INFO:no need for tones / TV1",
+        "MAP:12I",
+        "DATE:08/28/12",
+        "TIME:10:21:26");
+
   }
   
   public static void main(String[] args) {

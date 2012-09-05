@@ -753,6 +753,19 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
         "INFO:SELF HELP CREDIT UNION / SIMPLEX",
         "X:BATTERY PARK AVE & OTIS ST",
         "ID:12002186");
+    
+  }
+  
+  @Test
+  public void testActive911A() {
+
+    doTest("T1",
+        "[] CAD:329 MERRIMON AVE;B8;BRIAN CENTER;TOTAL RENAL CARE;SICK PERSON;GARRISON RD;STONEY KNOB RD\r\n\n",
+        "ADDR:329 MERRIMON AVE",
+        "UNIT:B8",
+        "CALL:SICK PERSON",
+        "INFO:BRIAN CENTER / TOTAL RENAL CARE",
+        "X:GARRISON RD & STONEY KNOB RD");
   }
   
 
