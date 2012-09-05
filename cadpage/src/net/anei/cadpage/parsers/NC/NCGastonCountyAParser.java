@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -16,7 +17,6 @@ Sender: rc.459@c-msg.net
 (*CAD*) [CAD]   Tree In Roadway 124~CHURCH~ST~  X-ST: ROBINETTE LN - Phone:~(704) 634-0269 Station 40 08/30/2011 05:13:05 1\n
 (*CAD*) [CAD]   Alarm-Fire (High Risk) 250~BEATTY~DR~  X-ST: UNKNOWN - Station:~Station 34 Station 34 09/07/2011 21:00:32 3\nLD400, LD34, EN33
 (*CAD*) [CAD]   29D4 S ~I~85/~S ~EXIT 23 MCADENVILLE  X-ST: Station:~Station 40 - Quadrant:~40D Station 40 08/30/2011 07:01:38 7\nLD400, EN403, SP172, RSU, E33P, E3
-
 (*CAD*) [CAD]   Tree In Roadway 124~CHURCH~ST~  X-ST: ROBINETTE LN - Phone:~(704) 634-0269 Station 40 08/30/2011 05:13:05 1\nEN403
 (*CAD*) [CAD]   29D2L ~WESLEYAN~DR/~MAIN~ST  X-ST: Phone:~(704) 460-7016 - Station:~Station 40 Station 40 08/29/2011 16:49:18 1\nEN403  WRECK.
 
@@ -103,6 +103,20 @@ public class NCGastonCountyAParser extends FieldProgramParser {
     if (match.find()) {
       data.strCode = match.group();
       data.strCall = data.strCall.substring(match.end()).trim();
+      if (data.strCall.length() == 0) {
+        String code = data.strCode;
+        String call = CALL_CODES.getProperty(code);
+        if (call == null) {
+          int pt = 0;
+          while (pt < code.length() && Character.isDigit(code.charAt(pt))) pt++;
+          if (++pt < code.length()) {
+            code = code.substring(0,pt);
+            call = CALL_CODES.getProperty(code);
+          }
+        }
+        if (call == null) call = "EMS ALERT";
+        data.strCall = call;
+      }
     }
     if (data.strSource.length() == 0) data.strSource = defSource;
     return true;
@@ -148,4 +162,42 @@ public class NCGastonCountyAParser extends FieldProgramParser {
     if (name.equals("SRC")) return new MySourceField();
     return super.getField(name);
   }
+  
+  private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      "1D",      "Abdominal Pain Not alert",
+      "2D",      "Allergic reactions/Hives/Medical reactions",
+      "3D",      "Animal Bite",
+      "4D",      "Assault / Sexual Assault",
+      "5D",      "Back Pain (Non-Traumatic or Recent)",
+      "6D",      "Breathing Problems",
+      "7C",      "Burns / Explosion",
+      "7D",      "Burns / Explosion Multi Victims",
+      "8D",      "Carbon Monoxide/Inhalation/Hazmat",
+      "9B1G",    "Cardiac Arrest / Death Submersion",
+      "9E",      "Cardiac Arrest / Death",
+      "10D",     "Chest Pain",
+      "11D",     "Choking",
+      "12D",     "Convulsions / Seizures",
+      "13D",     "Diabetic Problems",
+      "14D",     "Drowning (Near) / Diving Accident",
+      "15D",     "Electrocution / Lightning",
+      "16D",     "Eye Problems / Injuries",
+      "17D",     "Falls / Back Injuries (Traumatic)",
+      "19D",     "Heart Problems",
+      "20D2H",   "Heat Exposure",
+      "20D2C",   "Cold Exposure",
+      "21D",     "Hemorrhage / Lacerations",
+      "22D",     "Trench Collapse",
+      "23D",     "Overdose / Poisoning (Ingestion)",
+      "24D",     "Pregnancy / Childbirth/ Miscarriage",
+      "25D",     "Psychiatric / Suicide Attempt",
+      "26D",     "Sick Person (Specific Diagnosis)",
+      "27D",     "Stab / Gunshot / Penetrating Trauma",
+      "28C",     "Stroke (CVA)",
+      "29B",     "MVA possible injuries",
+      "29D",     "MVA with rollover, entrapment, ejection, etc..",
+      "30D",     "Traumatic Injury (Specific)",
+      "31D",     "Unconscious / Fainting (Near)",
+      "32D",     "Unknown Problem (Man Down)"
+  });
 }
