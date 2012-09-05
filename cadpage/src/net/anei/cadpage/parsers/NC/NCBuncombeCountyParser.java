@@ -115,6 +115,9 @@ Contact: Joshua Adell <joshuaadell@gmail.com>
 Sender: CAD@buncombecounty.org
 CAD:34 WALL ST;FS1;ZONE GENERAL FIRE;SELF HELP CREDIT UNION;SIMPLEX;(FR) FIRE ALARM;BATTERY PARK AVE;OTIS ST;12002186
 
+Contact: Active911
+[] CAD:329 MERRIMON AVE;B8;BRIAN CENTER;TOTAL RENAL CARE;SICK PERSON;GARRISON RD;STONEY KNOB RD\r\n\n
+
 */
 
 public class NCBuncombeCountyParser extends DispatchOSSIParser {
@@ -177,7 +180,7 @@ public class NCBuncombeCountyParser extends DispatchOSSIParser {
   // A slash
   // Any of a set of words generally found in call descriptions
   private static final Pattern CALL_PATTERN = 
-    Pattern.compile("^\\(.+\\)|/|\\b(FALL|FALLS|FIRE|PAIN|PAINS|HEART|PROBLEM|PROBLEMS|CHOKING|STROKE)\\b");
+    Pattern.compile("^\\(.+\\)|/|\\b(FALL|FALLS|FIRE|PAIN|PAINS|HEART|PROBLEM|PROBLEMS|CHOKING|STROKE|SICK)\\b");
   private class SpecField extends Field {
     
     private Field callField = new CallField();
