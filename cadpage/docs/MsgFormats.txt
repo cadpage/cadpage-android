@@ -2397,7 +2397,8 @@ ACCIDENT - SERIOUS **N BROAD ST / E LINDEN ST*KNTSQR*11:31*1 VEH, BLOCKING, CAR 
 ***************************************************************************
 Chester County, PA (PAChesterCountyD1Parser)
 (340 RIDGE RD ,21 -- EAST) 14:04 ** ALARM - FIRE * ** 340 RIDGE RD ,21 -- EAST VINCENT ELEM SC ** 6253 ** AFA/GENERAL/ATN\n**  **
-(56 WADE DR ,21  btwn NOT) 11:43 ** ALARM - FIRE * ** 56 WADE DR ,21  btwn NOTTINGHAM DR & SHE ** 6203 ** AFA - GEN - ATN\n(WB BETHEL CHURCH RD WO S) 08:53 ** ACCIDENT - UNKNOWN INJURIES * **  WB BETHEL CHURCH RD WO STONEY RUN RD ,18 ** 6201 ** 1 VEH, BLOCKING, AIR BAG DEPLOYM
+(56 WADE DR ,21  btwn NOT) 11:43 ** ALARM - FIRE * ** 56 WADE DR ,21  btwn NOTTINGHAM DR & SHE ** 6203 ** AFA - GEN - ATN\n
+(WB BETHEL CHURCH RD WO S) 08:53 ** ACCIDENT - UNKNOWN INJURIES * **  WB BETHEL CHURCH RD WO STONEY RUN RD ,18 ** 6201 ** 1 VEH, BLOCKING, AIR BAG DEPLOYM
 ***************************************************************************
 Chester County, PA (PAChesterCountyD2Parser)
 (309 STARR ST ,15) ACCIDENT - INJURIES * * VEH VRS POLE\nDETAILS TO FOLLOW\nTYP: ACCUNK  --> ACCINJ  \nRSP: 0050   --> 0004   \n* 05/08/11 * 11:11 *

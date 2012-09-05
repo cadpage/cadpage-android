@@ -490,9 +490,9 @@ To add a new location we need 5-10 sample text messages from your dispatch.  Ple
 
 We also need to know what agency is generating these messages and some idea of what other departments receive the same message formats.  If you can identify the CAD software that is sending your text pages that would help a lot.   
 
-All of this needs to be emailed to are main support address support@cadpage.org.  If they are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and past them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list and get it added.
+All of this needs to be emailed to our main support address support@cadpage.org.  If they are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and past them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list.
 
-In the meantime, try using the general location setting and set the from: filter to whoever appears in the from: field of your page text messages.  That will usually give you some degree of functionality while you are waiting for full location support. 
+In the meantime, try using the general location setting and set the From: filter to whoever appears in the From: field of your page text messages.  That will usually give you some degree of functionality while you are waiting for full location support. 
 
 Good luck,
 Jean, Assistant to Ken Corbin
@@ -503,7 +503,16 @@ Jean, Assistant to Ken Corbin
 
 Cadpage will not do anything with your current settings...
 
-And I am curious what you expect Cadpage to do for you.  The intended purpose of Cadpage is to support emergency responders who get text pages from a central dispatch center when they are asked to respond to an emergency.  Cadpage takes those pages, displays the information from them, and gives the user the option to bring up a Google map showing the location of the incident and ask for directions to that location.
+I am curious to know what you expect Cadpage to do for you.  The intended purpose of Cadpage is to support emergency responders who get text pages from a central dispatch center when they are asked to respond to an emergency.  Cadpage takes those pages, displays the information from them, and gives the user the option to bring up a Google map showing the location of the incident and ask for directions to that location.
+
+Please email us again if you would like to know how to set up Cadpage for your location.  We have not yet tried to write a location parser in any language other than English, but we would be happy to give it a try.
+
+Good Luck,
+Jean, Assistant to Ken Corbin
+
+**********************************************************************
+*** Addition if they write back and want more info
+*****
 
 A location parser has to be written for each particular dispatch text format, generally that means one for every dispatch center.  We have not yet tried to write a location parser in any language other than English, but I would be happy to give it a try.
 
@@ -511,7 +520,7 @@ To add a new location we need 5-10 sample text messages from your dispatch.  Ple
 
 We also need to know what agency is generating these messages and some idea of what other departments receive the same message formats.  If you can identify the CAD software that is sending your text pages that would help a lot.   
 
-All of this needs to be emailed to are main support address support@cadpage.org.  If they are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and past them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list and get it added.
+All of this needs to be emailed to our main support address support@cadpage.org.  If they are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and past them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list and get it added.
 
 In the meantime, try using the general location setting and set the from: filter to whoever appears in the from: field of your page text messages.  For English language street names, this usually give you some degree of functionality while you are waiting for full location support.   For other languages, the results are completely unpredictable.
 

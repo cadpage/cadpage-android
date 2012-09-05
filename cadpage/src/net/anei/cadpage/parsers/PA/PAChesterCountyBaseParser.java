@@ -54,7 +54,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     
     @Override
     public void parse(String field, Data data) {
-      parseChesterAddress(field, data);
+      if (!checkParse(field, data)) abort();
     }
     
     @Override
@@ -148,20 +148,20 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     }
   }
   
+  private static final Pattern DATE_PATTERN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)?");
   private class BaseDateField extends DateField {
     public BaseDateField() {
-      super("\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)?", true);
+      setPattern(DATE_PATTERN, true);
     }
   }
   
+  private static final Pattern TIME_PATTERN = Pattern.compile("\\d\\d:\\d\\d(?::\\d\\d)?");
   private class BaseTimeField extends TimeField {
     public BaseTimeField() {
-      super("\\d\\d:\\d\\d(?::\\d\\d)?", true);
+      setPattern(TIME_PATTERN, true);
     }
   }
   
-  private static final Pattern DATE_PATTERN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)?");
-  private static final Pattern TIME_PATTERN = Pattern.compile("\\d\\d:\\d\\d(?::\\d\\d)?");
   protected class BaseDateTimeField extends DateTimeField {
     
     @Override
@@ -346,6 +346,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
       "EMARLB", "EAST MARLBOROUGH TWP",
       "ENOTT",  "EAST NOTTINGHAM TWP",
       "EPIKEL", "EAST PIKELAND TWP",
+      "EWHITE", "EAST WHITELAND TWP",
       "FRNKLN", "FRANKLIN TWP",
       "KNTSQR", "KENNETT SQUARE",
       "KNTTWP", "KENNETT TWP",
@@ -353,6 +354,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
       "LGROVE", "LONDON GROVE TWP",
       "LONDER", "LONDONERRY TWP",
       "LWROXF", "LOWER OXFORD TWP",
+      "MALVRN", "MALVERN",
       "NCC",    "NEW CASTLE COUNTY",
       "NEWLON", "NEW LONDON TWP",
       "NGARDN", "NEW GARDEN TWP",
@@ -361,6 +363,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
       "PHNXVL", "PHOENIXVILLE",
       "POCOPS", "POCOPSON TWP",
       "PNSBRY", "PENNSBURY TWP",
+      "TREDYF", "TREDYFFRIN TWP",
       "WESTWN", "WESTTOWN TWP",
       "WFALLO", "WEST FALLOWFIELD TWP",
       "WGOSHN", "WEST GOSHEN TWP",
