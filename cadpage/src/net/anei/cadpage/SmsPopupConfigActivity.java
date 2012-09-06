@@ -302,13 +302,10 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       Intent scanIntent = data.getParcelableExtra("playIntent");
       if (description == null || scanIntent == null) return;
       ContentQuery.dumpIntent(scanIntent);
-      String action = scanIntent.getAction();
-      int node = scanIntent.getIntExtra("node", -1);
-      if (action == null || node < 0) return;
       
       ManagePreferences.setScannerChannel(description);
       scannerPref.setSummary(description);
-      ManagePreferences.setScannerChannelAppNode(action + ':' + node);
+      ManagePreferences.setScannerIntent(scanIntent);
       return;
     }
     super.onActivityResult(requestCode, resultCode, data);

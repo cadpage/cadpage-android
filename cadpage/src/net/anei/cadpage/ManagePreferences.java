@@ -16,8 +16,10 @@ import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
+import android.os.Bundle;
 import android.preference.PreferenceManager;
 
 public class ManagePreferences {
@@ -288,14 +290,45 @@ public class ManagePreferences {
     prefs.putString(R.string.pref_scanner_channel_key, newVal);
   }
   
-  public static String scannerChannelAppNode() {
+  
+  public static Intent scannerIntent() {
     if (! prefs.getBoolean(R.string.pref_activate_scanner_key)) return null;
-    return prefs.getString(R.string.pref_scanner_channel_app_node_key, null);
+    String value = prefs.getString(R.string.pref_scanner_channel_app_node_key, null);
+    if (value == null) return null;
+    if (!value.startsWith(SCAN_VERSION)) return null;
+    value = value.substring(SCAN_VERSION.length());
+    String[] fields = value.split(SCAN_FLD_DELIM);
+    if (fields.length != 4) return null;
+    Intent intent = new Intent(fields[0]);
+    Bundle bundle = new Bundle();
+    bundle.putString(SCAN_ACTION_KEY, fields[1]);
+    bundle.putString(SCAN_DESCRIPTION_KEY, fields[2]);
+    bundle.putString(SCAN_LOCALE_KEY, fields[3]);
+    intent.putExtra(SCAN_BUNDLE_KEY, bundle);
+    return intent;
   }
   
-  public static void setScannerChannelAppNode(String newVal) {
+  public static void setScannerIntent(Intent playIntent) {
+    String newVal = null;
+    String action = playIntent.getAction();
+    Bundle bundle = playIntent.getBundleExtra(SCAN_BUNDLE_KEY);
+    if (bundle != null) {
+      String action2 = bundle.getString(SCAN_ACTION_KEY);
+      String description = bundle.getString(SCAN_DESCRIPTION_KEY);
+      String locale = bundle.getString(SCAN_LOCALE_KEY);
+      if (action != null && action2 != null && description != null && locale != null) {
+        newVal = SCAN_VERSION + action + SCAN_FLD_DELIM + action2 + SCAN_FLD_DELIM + description + SCAN_FLD_DELIM + locale;
+      }
+    }
     prefs.putString(R.string.pref_scanner_channel_app_node_key, newVal);
   }
+  
+  private static final String SCAN_VERSION = "00";
+  private static final String SCAN_BUNDLE_KEY = "com.twofortyfouram.locale.intent.extra.BUNDLE";
+  private static final String SCAN_ACTION_KEY = "action";
+  private static final String SCAN_DESCRIPTION_KEY = "description";
+  private static final String SCAN_LOCALE_KEY = "localeDirectoryLine";
+  private static final String SCAN_FLD_DELIM = "<!>";
   
   public static boolean publishPages() {
     return prefs.getBoolean(R.string.pref_publish_pages_key);

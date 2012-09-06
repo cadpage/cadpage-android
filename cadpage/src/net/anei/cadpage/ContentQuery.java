@@ -111,21 +111,45 @@ public class ContentQuery {
   }
 
   public static void dumpIntent(Intent intent) {
-    Log.v("Flags:" + dumpFlags(intent.getFlags()));
-    Log.v("Action:" + intent.getAction());
-    Log.v("Categories:");
+    dumpIntent("", intent);
+  }
+  
+  private static void dumpIntent(String prefix, Intent intent) {
+    Log.v(prefix + "Flags:" + dumpFlags(intent.getFlags()));
+    Log.v(prefix + "Action:" + intent.getAction());
+    Log.v(prefix + "Categories:");
     if (intent.getCategories() != null) {
-      for (String str : intent.getCategories()) Log.v("  " + str);
+      for (String str : intent.getCategories()) Log.v(prefix + "  " + str);
     }
-    Log.v("Type:" + intent.getType());
+    Log.v(prefix + "Type:" + intent.getType());
     ComponentName comp = intent.getComponent();
-    Log.v("Comp:" + (comp == null ? null : intent.getComponent().getClassName()));
+    Log.v(prefix + "Comp:" + (comp == null ? null : intent.getComponent().getClassName()));
     Bundle extra = intent.getExtras();
     if (extra != null) {
       for (String key : extra.keySet()) {
-        Log.v("  " + key + ":" + extra.get(key));
+        dumpKeyValue(prefix + "  ", key, extra.get(key));
       }
     }
+  }
+  
+  public static void dumpBundle(Bundle bundle) {
+    dumpBundle("", bundle);
+  }
+  
+  private static void dumpBundle(String prefix, Bundle bundle) {
+    for (String key : bundle.keySet()) {
+      dumpKeyValue(prefix, key, bundle.getString(key));
+    }
+  }
+  
+  private static void dumpKeyValue(String prefix, String key, Object value) {
+    Intent intent = (value instanceof Intent ? (Intent)value : null);
+    Bundle bundle = (value instanceof Bundle ? (Bundle)value : null);
+    String dispValue = (intent != null ? "Intent" : bundle != null ? "Bundle" : value.toString());
+    Log.v(prefix + key + ':' + dispValue);
+    if (intent != null) dumpIntent(prefix+"  ", intent);
+    else if (bundle != null) dumpBundle(prefix+"  ", bundle);
+    
   }
   
   private static String dumpFlags(int flags) {

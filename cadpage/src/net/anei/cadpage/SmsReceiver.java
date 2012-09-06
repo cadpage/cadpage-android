@@ -2,7 +2,6 @@ package net.anei.cadpage;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
-import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -167,6 +166,7 @@ public class SmsReceiver extends BroadcastReceiver {
   
     // Notify user if so configured
     boolean notify = ManageNotification.show(context, message);
+    if (notify) launchScanner(context);
     
     // Determine if application should pop up right now
     boolean process = startApp(context);
@@ -179,36 +179,20 @@ public class SmsReceiver extends BroadcastReceiver {
 
     // And finally, launch the main application screen
     if (process) {
-      CallHistoryActivity.launchActivity(context, notify);
+      CallHistoryActivity.launchActivity(context);
     }
     
     // If we did any notifications, and a activate scanner channel is configured, 
     // Launch Scanner Radio app for that channel
-    else if (notify) {
-      launchScanner(context);
-    }
   }
 
   public static void launchScanner(Context context) {
-    String appNode = ManagePreferences.scannerChannelAppNode();
-    if (appNode != null) {
-      int pt = appNode.lastIndexOf(':');
-      String action = appNode.substring(0,pt);
-      int node = Integer.parseInt(appNode.substring(pt+1));
-      Intent intent = new Intent(action);
-      int flags =
-        Intent.FLAG_ACTIVITY_NEW_TASK |
-        Intent.FLAG_ACTIVITY_NO_USER_ACTION;
-      intent.setFlags(flags);
-      intent.putExtra("node", node);
-      intent.putExtra("background", true);
-      Log.v("Launching Scanner Radio");
-      ContentQuery.dumpIntent(intent);
-      try {
-        context.startActivity(intent);
-      } catch (ActivityNotFoundException ex) {
-        Log.w("Launch of " + appNode + " failed");
-      }
+    Intent scanIntent = ManagePreferences.scannerIntent();
+    Log.v("Launching Scanner");
+    if (scanIntent != null) {
+      scanIntent.putExtra("caller", "cadpage");
+      ContentQuery.dumpIntent(scanIntent);
+      context.sendBroadcast(scanIntent);
     }
   }
 
