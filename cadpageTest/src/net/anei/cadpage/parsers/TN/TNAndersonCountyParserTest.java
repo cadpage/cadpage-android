@@ -559,8 +559,119 @@ public class TNAndersonCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        "[E911] RESC FIRST RESP - 450 OLD EDGEMOOR LN APT 55 POWELL, TN - +street:  -  DIFFICULTY  BREATHING - 220841\r\n\n",
+        "SRC:RESC FIRST RESP",
+        "CALL:DIFFICULTY  BREATHING",
+        "ADDR:450 OLD EDGEMOOR LN",
+        "APT:55",
+        "CITY:POWELL",
+        "ID:220841");
+
+    doTest("T2",
+        "[E911] EMS Assist - 450 OLD EDGEMOOR LN APT 55, POWELL, TN - REC:20:03 DISP:20:06 RESP: ONSC: INSRV:20:25 TRK#:220841\r\n\n",
+        "CALL:RUN REPORT",
+        "PLACE:EMS Assist - 450 OLD EDGEMOOR LN APT 55, POWELL, TN - REC:20:03 DISP:20:06 RESP: ONSC: INSRV:20:25 TRK#:220841");
+
+    doTest("T3",
+        "[E911] RESC - I-75 126MM CLINTON, TN - +street:  -  MVA - 220849\r\n\n",
+        "SRC:RESC",
+        "CALL:MVA",
+        "ADDR:I-75 126MM",
+        "MADDR:I 75 126MM",
+        "CITY:CLINTON",
+        "ID:220849");
+
+    doTest("T4",
+        "[E911] EMS Assist - I-75 126MM, CLINTON, TN - REC:23:39 DISP:23:41 RESP:23:43 ONSC:23:50 INSRV:23:56 TRK#:220850\r\n\n",
+        "CALL:RUN REPORT",
+        "PLACE:EMS Assist - I-75 126MM, CLINTON, TN - REC:23:39 DISP:23:41 RESP:23:43 ONSC:23:50 INSRV:23:56 TRK#:220850");
+
+    doTest("T5",
+        "[E911] RESC FIRST RESP - 123 CRAWFORD LN  CLINTON, TN - +street: OLD EMORY RD -  DIFFICULTY  BREATHING - 220869\r\n\n",
+        "SRC:RESC FIRST RESP",
+        "CALL:DIFFICULTY  BREATHING",
+        "ADDR:123 CRAWFORD LN",
+        "CITY:CLINTON",
+        "X:OLD EMORY RD",
+        "ID:220869");
+
+    doTest("T6",
+        "[E911] EMS Assist - 123 CRAWFORD LN , CLINTON, TN - REC:06:37 DISP:06:40 RESP: ONSC: INSRV:07:02 TRK#:220869\r\n\n",
+        "CALL:RUN REPORT",
+        "PLACE:EMS Assist - 123 CRAWFORD LN , CLINTON, TN - REC:06:37 DISP:06:40 RESP: ONSC: INSRV:07:02 TRK#:220869");
+
+    doTest("T7",
+        "[E911] RESC FIRST RESP - 127 PATT LANE POWELL, TN - +street: RACCOON VALLEY RD -  DIFFICULTY  BREATHING - 220902\r\n\n",
+        "SRC:RESC FIRST RESP",
+        "CALL:DIFFICULTY  BREATHING",
+        "ADDR:127 PATT LANE",
+        "CITY:POWELL",
+        "X:RACCOON VALLEY RD",
+        "ID:220902");
+
+    doTest("T8",
+        "[E911] EMS Assist - 127 PATT LANE, POWELL, TN - REC:11:20 DISP:11:23 RESP: ONSC: INSRV:11:50 TRK#:220902\r\n\n",
+        "CALL:RUN REPORT",
+        "PLACE:EMS Assist - 127 PATT LANE, POWELL, TN - REC:11:20 DISP:11:23 RESP: ONSC: INSRV:11:50 TRK#:220902");
+
+    doTest("T9",
+        "[E911] RESC FIRST RESP - 102 QUEEN ST CLINTON, TN - +street: ROYAL ST -  MEDICAL ALARM - 220921\r\n\n",
+        "SRC:RESC FIRST RESP",
+        "CALL:MEDICAL ALARM",
+        "ADDR:102 QUEEN ST",
+        "CITY:CLINTON",
+        "X:ROYAL ST",
+        "ID:220921");
+
+    doTest("T10",
+        "[E911] RESC - 102 QUEEN ST CLINTON, TN - +street: ROYAL ST -  MEDICAL ALARM - 220922\r\n\n",
+        "SRC:RESC",
+        "CALL:MEDICAL ALARM",
+        "ADDR:102 QUEEN ST",
+        "CITY:CLINTON",
+        "X:ROYAL ST",
+        "ID:220922");
+
+    doTest("T11",
+        "[E911] EMS Assist - 102 QUEEN ST, CLINTON, TN - REC:12:44 DISP:12:46 RESP: ONSC: INSRV:13:11 TRK#:220921\r\n\n",
+        "CALL:RUN REPORT",
+        "PLACE:EMS Assist - 102 QUEEN ST, CLINTON, TN - REC:12:44 DISP:12:46 RESP: ONSC: INSRV:13:11 TRK#:220921");
+
+    doTest("T12",
+        "[E911] RESC FIRST RESP - 126 BUNCH LANE  CLINTON, TN - +street: RIDGEVIEW DR -  UNRESPONSIVE - 220933\r\n\n",
+        "SRC:RESC FIRST RESP",
+        "CALL:UNRESPONSIVE",
+        "ADDR:126 BUNCH LANE",
+        "CITY:CLINTON",
+        "X:RIDGEVIEW DR",
+        "ID:220933");
+
+    doTest("T13",
+        "[E911] EMS Assist - 126 BUNCH LANE , CLINTON, TN - REC:14:17 DISP:14:19 RESP: ONSC: INSRV:14:45 TRK#:220934\r\n\n",
+        "CALL:RUN REPORT",
+        "PLACE:EMS Assist - 126 BUNCH LANE , CLINTON, TN - REC:14:17 DISP:14:19 RESP: ONSC: INSRV:14:45 TRK#:220934");
+
+    doTest("T14",
+        "[E911] RESC FIRST RESP - ANDERSON COUNTY HIGH SCHOOL CLINTON, TN - +street:  -  SEIZURES - 220951\r\n\n",
+        "SRC:RESC FIRST RESP",
+        "CALL:SEIZURES",
+        "ADDR:ANDERSON COUNTY HIGH SCHOOL",
+        "CITY:CLINTON",
+        "ID:220951");
+
+    doTest("T15",
+        "[E911] EMS Assist - ANDERSON COUNTY HIGH SCHOOL, CLINTON, TN - REC:15:43 DISP:15:50 RESP: ONSC: INSRV:16:10 TRK#:220951\r\n\n",
+        "CALL:RUN REPORT",
+        "PLACE:EMS Assist - ANDERSON COUNTY HIGH SCHOOL, CLINTON, TN - REC:15:43 DISP:15:50 RESP: ONSC: INSRV:16:10 TRK#:220951");
+
+  }
+  
 
   public static void main(String[] args) {
-    new TNAndersonCountyParserTest().generateTests("T30");
+    new TNAndersonCountyParserTest().generateTests("T1");
   }
 }
