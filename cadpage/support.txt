@@ -133,7 +133,7 @@ Jean, Assistant to Ken Corbin
 
 ******************************************************************
 
-I cannot find a payment from you in either PayPal or Google Play Store (previously Android Market).  Could it possibly have been made under a different name?  Have you recently changed your email address?
+I cannot find a payment from you in either PayPal or Google Play Store.  Could it possibly have been made under a different name?  Have you recently changed your email address?
 
 It may not be necessary to locate that payment.  Go to Cadpage Settings and select
 Payment Status > Recalculate Payment Status
@@ -183,7 +183,7 @@ Jean -- Assistant to Ken Corbin
 ** Play Store / Android payment issues
 ******************************************************************
 
-I found your Google Play Store (previously Android Market) payment record as of ______.
+I found your Google Play Store payment record as of ______.
 
 Go into Cadpage settings, press Payment Status and the Recalculate Payment Status, This reloads your payment status from the market which will usually fix things.
 
