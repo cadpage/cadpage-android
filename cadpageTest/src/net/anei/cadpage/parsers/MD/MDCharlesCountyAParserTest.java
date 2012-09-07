@@ -410,7 +410,19 @@ public class MDCharlesCountyAParserTest extends BaseParserTest {
         "MAP:4 A10",
         "INFO:SET UP LZ",
         "ID:F121540011");
-   
+  }
+  
+  @Test
+  public void testJasonBrooks() {
+
+    doTest("T1",
+        "MALFUNCTION ALARM 15224 POTOMAC RIVER DR 37 F3 SMOKE DETECTOR SOUNDING AND DOESN'T KNOW WHY. SEES NO SMOKE OR FIRE F122500008 1216155 10:30",
+        "CALL:MALFUNCTION ALARM",
+        "ADDR:15224 POTOMAC RIVER DR",
+        "MAP:37 F3",
+        "INFO:SMOKE DETECTOR SOUNDING AND DOESN'T KNOW WHY. SEES NO SMOKE OR FIRE",
+        "ID:F122500008");
+ 
   }
     
   public static void main(String[] args) {

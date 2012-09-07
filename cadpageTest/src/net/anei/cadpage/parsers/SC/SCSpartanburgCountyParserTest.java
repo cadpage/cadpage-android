@@ -108,6 +108,20 @@ public class SCSpartanburgCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testREFD() {
+    doTest("T1",
+        "REFD - CF/24948 TYP: ..VEHICLE FIRE...... AD: 6100 I85 S CMT1: <<< VEHICLE ON FIRE >>> CMT2: OLDER 2 DOOR SEDAN GREY IN COLOR TIME: 14:51",
+        "SRC:REFD",
+        "ID:CF/24948",
+        "CALL:VEHICLE FIRE",
+        "ADDR:6100 I85 S",
+        "MADDR:6100 I 85 S",
+        "INFO:VEHICLE ON FIRE / OLDER 2 DOOR SEDAN GREY IN COLOR",
+        "TIME:14:51");
+
+  }
+  
   public static void main(String[] args) {
     new SCSpartanburgCountyParserTest().generateTests("T1");
   }

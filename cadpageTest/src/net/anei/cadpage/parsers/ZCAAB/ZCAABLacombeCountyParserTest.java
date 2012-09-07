@@ -8,7 +8,7 @@ import org.junit.Test;
 public class ZCAABLacombeCountyParserTest extends BaseParserTest {
   
   public ZCAABLacombeCountyParserTest() {
-    setParser(new ZCAABRedDeerCountyParser(), "LACOMBE COUNTY", "AB");
+    setParser(new ZCAABRedDeerCountyParser(), "RED DEER COUNTY", "AB");
   }
   
   @Test
