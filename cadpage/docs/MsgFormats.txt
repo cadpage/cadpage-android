@@ -37,6 +37,11 @@ CAD:FYI: ;STRUCTURE FIRE;2501 WOODLANDS DR SE;FLAMES INSIDE FUSE BOX INSIDE CALL
 CAD:Update: ;VEHICLE FIRE;S COBB DR SE/BOURNE DR SE;METRO PCS;OWNER OF VEH CALLED --- ADV ON 280 AT WH [10/11/10 17:46:52 ABERRY] blk dodge charger on fire [10/
 CAD:FYI: ;VEHICLE FIRE;WINDY HILL RD SE/S COBB DR SE;METRO PCS;blk dodge charger on fire [10/11/10 17:46:16 DSNIVELY] ;104107
 *******************************************************************************
+Bartholomew County, IN (INBartholomewCountyParser)
+FYI: ;08/30/2012 16:36:02;GAS ODOR 651;610 WEST DR;HOPE;WASHINGTON ST;JACKSON ST   - File Messenger Login
+FYI: ;08/23/2012 18:06:28;STRUCTURE FIRE 111;2018 FREMONT DR;COL;CLARK BLVD;HARRISON DR   - File Messenger Login
+FYI: ;08/22/2012 21:52:37;ACCIDENT PERSONAL INJURY;N MARR RD/E 550 N;COL   - File Messenger Login
+*******************************************************************************
 Marshall County, IN (INMarshallCountyParser)
 CAD:FYI: ;702 S WASHINGTON ST;BREM;E RAYMOND ST;ALARM CO DETECTOR;08/23/2011 10:17:48            
 CAD:FYI: ;200 W FLORENCE ST;BOUR;N THOMPSON ST;FIRE ALARM;08/23/2011 10:34:48
@@ -4810,16 +4815,6 @@ MEDVFD FIRST RESP - 3888 DUTCH VALLEY RD CLINTON, TN - +street: SHANLEVER RD - U
 **********************************************************
 **********************************************************
 **********************************************************
-Bartholomew County, IN
-Contact: Donnie Everroad <dbeverroad@gmail.com>
-Sender:  bcpaging@bartholomew.in.gov
-FYI: ;08/30/2012 16:36:02;GAS ODOR 651;610 WEST DR;HOPE;WASHINGTON ST;JACKSON ST   - File Messenger Login
-FYI: ;08/23/2012 18:06:28;STRUCTURE FIRE 111;2018 FREMONT DR;COL;CLARK BLVD;HARRISON DR   - File Messenger Login
-FYI: ;08/22/2012 21:52:37;ACCIDENT PERSONAL INJURY;N MARR RD/E 550 N;COL   - File Messenger Login
-FYI: ;08/20/2012 08:51:11;POSSIBLE HEART;7185 N 250 E;COL;E 450 N;E 500 N   - File Messenger Login
-FYI: ;08/13/2012 17:32:26;POSSIBLE HEART;8058 N EAST ST;CLIF   - File Messenger Login
-Update: ;08/12/2012 13:20:43;DIABETIC REACTION;12301 E 800 N;HOPE;N 575 E;N 670 E   - File Messenger Login
-FYI: ;08/15/2012 04:18:54;STRUCTURE FIRE 111;9341 N 250 W;COL;N CHERRY HILLS DR;N CHERRY HILLS DR   - File Messenger Login
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
