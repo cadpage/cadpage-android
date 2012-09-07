@@ -29,6 +29,10 @@ Contact: Dave <shaftoa@bellsouth.net>
 Sender: 911info@spartanburgcounty.org
 1 of 2\nFRM:911info@spartanburgcounty.org\nMSG:NSFD - CF/24117 TYP: CHECK A SMOKE DETECT AD: 381 STILL WATER CIR CMT1: <<< CHECK SMOKE DETECTOR\n(Con't) 2 of 2\n>>> CMT2: CALLERS SMK DETECTORS ARE GOIN OFF CALLER DONT SEE OR(End)
 
+Contact: Matthew Garrett <matthewgarrett@ymail.com>
+Sender: 911info@spartanburgcounty.org
+REFD - CF/24948 TYP: ..VEHICLE FIRE...... AD: 6100 I85 S CMT1: <<< VEHICLE ON FIRE >>> CMT2: OLDER 2 DOOR SEDAN GREY IN COLOR TIME: 14:51
+
  */
 
 public class SCSpartanburgCountyParser extends DispatchPrintrakParser {

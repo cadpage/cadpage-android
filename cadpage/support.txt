@@ -556,7 +556,7 @@ The problem is that the IOS environment is a lot more restrictive than Android. 
 
 All is not lost.  Messaging services that can push pages to Cadpage over the Internet can do the same for an IPhone app.  And in fact, one of those services, Active911.com, has an IPhone app out that will do just that.  It isn't called Cadpage, but it relies on Cadpage parsing technology and we get some of their (purely hypothetical) income.
 
-A real Cadpage/IPhone app is also being developed, but has not yet been released.    Initially, it will only work with the Active911 or CodeMessaging.net messaging services.  But in the future it will support other message services that support Cadpage direct paging.
+A real Cadpage/IPhone app is also being developed and should be out later this month.    Initially, it will only work with the Active911 or CodeMessaging.net messaging services.  But in the future it will support other message services that support Cadpage direct paging.
 
 Good luck,
 -Ken
