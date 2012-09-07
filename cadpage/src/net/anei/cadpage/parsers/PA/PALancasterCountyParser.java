@@ -43,7 +43,7 @@ public class PALancasterCountyParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "911@lcwc911.us,messaging@iamresponding.com,@everbridge.net";
+    return "911@lcwc911.us,messaging@iamresponding.com,@everbridge.net,141000";
   }
 
   @Override
