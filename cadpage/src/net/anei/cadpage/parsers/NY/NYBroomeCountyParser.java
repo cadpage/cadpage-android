@@ -48,6 +48,10 @@ Contact: "spazking4lif@aim.com" <spazking4lif@aim.com>
 Contact: Jeffrey Mauro <jeffgm07@gmail.com>
 (22 Deposit Fire/Amb) 22/75:SICKPERS-A :480 BIG HOLLOW RD :56YOM GEN ILLNESS/UNABLE TO WALK   ALPHA :ISSUES RELATED TO A GOUT FLARE UP IN HIS FOOT Cross
 
+Contact: Eric <vfd323@gmail.com>
+Sender: messaging@iamresponding.com
+ 1 of 2\nFRM:messaging@iamresponding.com\nSUBJ:32 Vestal Fire\nMSG:32:ALARM-BLDG :4400 VESTAL PKWY E BINGHAMTON UNIVERSIT :FIRE ALARM ACTS :\n(Con't) 2 of 2\nENDICOTT HALL 001A Cross Sts:ROUTE 201/MURRAY HILL RD 17:45 09/07/2012 2012-00000187 Caller:SUNY,,, Phone:000-777-2393 T/Vestal(End)
+
 */
 
 
