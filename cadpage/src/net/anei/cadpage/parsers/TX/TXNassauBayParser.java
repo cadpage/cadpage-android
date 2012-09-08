@@ -58,6 +58,36 @@ Sender: CAD@ossicadpaging.com'
 599:CAD:FYI: ;NBFD;ASSIST BY FIRE;18220 UPPER BAY RD;NB;NB;09/05/2012 16:52:42;Event spawned from ASSIST BY EMS. [09/05/2012 16:52:42 DTHOMASON] non emergency north entrance to gloria dei [09/05/12 16:36:41 DCOOLEY] Event spawned from INTOXICATED DRIVER PERSON. [09/05/2012
 600:CAD:FYI: ;NBFD;STRUCTURE FIRE;2040 NASA PKWY;NB;NB;09/07/2012 09:58:19;smoke coming from ceiling from inside [09/07/12 09:58:46 TSWANSON]
 
+Contact: Active911
+Agency name: Webster Fire Department Location: Webster, TX 
+Sender: CAD@ossicadpaging.com
+  
+:CAD:FYI: ;WBFD;CARDIAC OR RESPIRATORY ARREST;444 E MEDICAL CENTER BLVD;WB;WBE;08/29/2012 22:08:00;UNK DURATION OF TIME [08/29/12 22:07:46 TDAVIS] 33743 [08/29/12 22:07:38 TDAVIS]
+:CAD:FYI: ;WBFD;FIRE ALARM;820 W BAY AREA BLVD;WB;WBW;08/30/2012 10:28:04;Event spawned from ALARM BURGLAR. [08/30/2012 10:28:04 DLOCASCIO] zone 21 station smoke detector [08/30/12 10:27:31 DLOCASCIO]
+405:CAD:FYI: ;WBFD;STRUCTURE FIRE;100 W TEXAS AVE;WB;WBW;08/30/2012 23:02:51;caller see lots of smoke and smells possible fire, does nto see flames [08/30/12 23:03:53 ESALLIER]
+2663:CAD:FYI: ;WBFD;FIRE ALARM;1030 W NASA PKWY;WB;WBW;08/31/2012 08:40:23;water flow alarm [08/31/12 08:40:34 DLOCASCIO]
+:CAD:FYI: ;WBFD;MUTUAL AID FIRE;1801 ASPEN LN;E14;SB;08/31/2012 13:15:57;881 ENROUTE [08/31/12 13:13:34 DLOCASCIO] Event spawned from ASSIST BY EMS. [08/31/2012 13:13:13 DLOCASCIO] FIRE STANDY [08/31/12 13:11:04 DLOCASCIO] assist with working seabrook structure fire
+348:CAD:FYI: ;WBFD;GRASS;HENRIETTA ST/N AUSTIN ST;WB;WBW;08/31/2012 22:10:38;Event spawned from MINOR ACCIDENT. [08/31/2012 22:10:38 DJOHNSON] single car silver mustang in the bushes [08/31/12 22:10:06 DJOHNSON]
+979:CAD:Update: ;WBFD;VEHICLE FIRE;HENRIETTA ST/N AUSTIN ST;WB;WBW;08/31/2012 22:10:38;Event spawned from MINOR ACCIDENT. [08/31/2012 22:10:38 DJOHNSON] single car silver mustang in the bushes [08/31/12 22:10:06 DJOHNSON]
+:CAD:FYI: ;WBFD;ACCIDENT MAJOR;22000 IH 45 FWY;WB;WBW;09/01/2012 11:11:48;per houston between 518 and nasa parkway hpd unit onscene [09/01/12 11:11:40 LFOLKS] n./b [09/01/12 11:10:19 LFOLKS]
+1745:CAD:FYI: ;WBFD;FIRE ALARM;20740 IH 45 FWY;WB;WBW;09/01/2012 15:01:49;riser one and riser 2 water flow [09/01/12 15:02:17 DLOCASCIO]
+2051:CAD:FYI: ;WBFD;FIRE ALARM;501 SARAH DEEL DR;WB;WBE;09/01/2012 15:03:18;building 6 and building 8 fire alarms..not other info [09/01/12 15:04:04 DLOCASCIO]
+:CAD:FYI: ;WBFD;FIRE ALARM;19443 IH 45 FWY;WB;WBW;09/01/2012 15:10:28;ZONE 6 [09/01/12 15:10:47 TSWANSON]
+2768:CAD:CANCEL;501 SARAH DEEL DR; WB ;(S) (N)618U
+2781:CAD:FYI: ;WBFD;UNCONSCIOUS;350 BLOSSOM ST;WB;WBW;09/01/2012 15:32:29;ROOM 108 FAMILY MEMBER PASSED OUT IN ROOM UNCONS [09/01/12 15:32:14 TSWANSON]
+415:CAD:FYI: ;WBFD;UNCONSCIOUS;750 N TEXAS AVE;WB;WBW;09/01/2012 16:09:31;rm 51a bed1, male with oxygen sats in 60s, not responding, with labored breathikng [09/01/12 16:09:07 DLOCASCIO]
+1886:CAD:FYI: ;WBFD;FIRE ALARM;20740 IH 45 FWY;WB;WBW;09/01/2012 20:25:05;waterflow risers 1 & 2 [09/01/12 20:25:39 KHAMM]
+:CAD:FYI: ;WBFD;STRUCTURE FIRE;444-1402A E MEDICAL CENTER BLVD;WB;WBE;09/02/2012 02:36:11;CALLER CAN NOT HEAR PEOPLE OUTSIDE ON THE BALCONY [09/02/12 02:37:29 KHAMM] apt above 1402A / caller can see flames coming from the balcony above him [09/02/12 02:36:54 KHAMM]
+1888:CAD:Update: ;WBFD;STRUCTURE FIRE;444 E MEDICAL CENTER BLVD;E14;WB;WBE;09/02/2012 02:36:11;WEBSTER ADVISED AOT ***ABOVE 1420A**** [09/02/12 02:42:17 EDAVIS] [LAW] (P65) CODE 3 [09/02/12 02:39:55 NHUGHES] [LAW] (P61) CODE 3 [09/02/12 02:39:50 NHUGHES] [FIRE] 804 RECVD [09/02/12 02:39:
+5203:CAD:FYI: ;WBFD;FIRE ALARM;19801-1000 IH 45 FWY;WB;WBW;09/02/2012 09:43:37;see no smoke but smells something [09/02/12 09:44:21 DCOOLEY] supervisory alarm, manager smells something burning [09/02/12 09:44:10 DCOOLEY]
+:CAD:Update: ;WBFD;SMELL OF SMOKE GAS INSIDE;19801-1000 IH 45 FWY;WB;WBW;09/02/2012 09:43:37;see no smoke but smells something [09/02/12 09:44:21 DCOOLEY] supervisory alarm, manager smells something burning [09/02/12 09:44:10 DCOOLEY]
+4442:CAD:FYI: ;WBFD;ACCIDENT MAJOR;1200-BLK W NASA PKWY;WB;WBW;09/03/2012 14:31:51;motorcycle laid down west side of overpass [09/03/12 14:31:36 MHAYES]
+2664:CAD:FYI: ;WBFD;ACCIDENT MAJOR;1200-BLK W NASA PKWY;WB;WBW;09/03/2012 14:31:52;motorcycle laid down west side of overpass [09/03/12 14:31:36 MHAYES]
+4496:CAD:CANCEL;1200-BLK W NASA PKWY; WB ;(S) (N)658B
+2870:CAD:FYI: ;WBFD;FIRE ALARM;17231 MILL FOREST RD;WB;WBE;09/03/2012 21:39:44
+1762:CAD:FYI: ;WBFD;ACCIDENT MAJOR;100 W TEXAS AVE;WB;WBW;09/05/2012 14:07:16;[LAW] one vehicle hit pole, subj eyes glazed and having problem standing maroon chevt tk [09/05/12 14:06:48 DCOOLEY]
+:CAD:FYI: ;WBFD;STRUCTURE FIRE;2040 NASA PKWY;L14;NB;NB;09/07/2012 09:59:49;[LAW] smoke was visible from the inside [09/07/12 09:59:32 TSWANSON] smoke coming from ceiling from inside [09/07/12 09:58:46 TSWANSON]
+
  */
 
 public class TXNassauBayParser extends DispatchOSSIParser {
@@ -70,7 +100,7 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   
   protected TXNassauBayParser(String defCity, String defState) {
     super(CITY_CODES, defCity, defState,
-          "SKIP SRC CALL! ADDR! UNIT? CITY? CODE? DATETIME! INFO+");
+          "( FYI SRC CALL! ADDR! UNIT? CITY? CODE? DATETIME! | CANCEL ADDR CITY! ) INFO+");
   }
   
   @Override
@@ -94,17 +124,19 @@ public class TXNassauBayParser extends DispatchOSSIParser {
     return super.parseMsg(body, data);
   }
   
-  private static final String EVENT_SPAWNED_MARK = "Event spawned from ";
+  private static final Pattern LEAD_TRASH_PTN = Pattern.compile("^(?:Event spawned from |\\(S\\) *\\(N\\)) *");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith(EVENT_SPAWNED_MARK)) field = field.substring(EVENT_SPAWNED_MARK.length()).trim();
+      Matcher match = LEAD_TRASH_PTN.matcher(field);
+      if (match.find()) field = field.substring(match.end());
       super.parse(field, data);
     }
   }
   
   @Override
   public Field getField(String name) {
+    if (name.equals("CANCEL")) return new CallField("CANCEL", true);
     if (name.equals("UNIT")) return new UnitField("[A-Z]+\\d+", true);
     if (name.equals("CODE")) return new CodeField("[A-Z]{2,4}", true);
     if (name.equals("INFO")) return new MyInfoField();
