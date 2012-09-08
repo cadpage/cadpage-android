@@ -52,7 +52,7 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
   
   public NCJohnstonCountyParser() {
     super("JOHNSTON COUNTY", "NC",
-           "( INFO SRC CODE? | ) CALL ADDR! X? X? X2? NAME");
+           "( INFO SRC CODE? | ) CALL ADDR! X? X? X2? NAME DATETIME");
   }
 
   @Override

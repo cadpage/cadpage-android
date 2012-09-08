@@ -7,6 +7,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.FieldProgramParser.DateTimeField;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
@@ -46,6 +47,7 @@ public class DispatchOSSIParser extends FieldProgramParser {
   
   private boolean leadID = false;
   private boolean optLeadId = false;
+  private boolean dateTime = false;
   private boolean dateTimeReq = false;
   
   // Pattern searching for a leading square bracket or semicolon
@@ -82,7 +84,12 @@ public class DispatchOSSIParser extends FieldProgramParser {
       optLeadId = true;
       program = program.substring(4).trim();
     }
+    if (program.endsWith(" DATETIME")) {
+      dateTime = true;
+      program = program.substring(0,program.length()-9);
+    }
     if (program.endsWith(" DATETIME!")) {
+      dateTime = true;
       dateTimeReq = true;
       program = program.substring(0,program.length()-10);
     }
@@ -179,23 +186,25 @@ public class DispatchOSSIParser extends FieldProgramParser {
     // Almost there.  Check to see if the last term looks like a date/time stamp
     // or the truncated remains of a date/time stamp.  If it does, remove it
     String field = fields.get(ndx);
-    boolean dateTime = false;
-    if (field.length()>0 && Character.isDigit(field.charAt(0))) {
-      field = field.replaceAll("\\d", "N");
-      if ("NN/NN/NNNN NN:NN:NN".startsWith(field)) dateTime = true;
-    }
     if (dateTime) {
-      field = fields.get(ndx);
-      if (field.length() >= 10) {
-        data.strDate = field.substring(0,10);
-        field = field.substring(10).trim();
-        if (field.length() == 8) data.strTime = field;
-        else if (field.length() >= 5) data.strTime = field.substring(0,5);
+      boolean isDateTime = false;
+      if (field.length()>0 && Character.isDigit(field.charAt(0))) {
+        field = field.replaceAll("\\d", "N");
+        if ("NN/NN/NNNN NN:NN:NN".startsWith(field)) isDateTime = true;
       }
-        
-      fields.remove(ndx);
+      if (isDateTime) {
+        field = fields.get(ndx);
+        if (field.length() >= 10) {
+          data.strDate = field.substring(0,10);
+          field = field.substring(10).trim();
+          if (field.length() == 8) data.strTime = field;
+          else if (field.length() >= 5) data.strTime = field.substring(0,5);
+        }
+          
+        fields.remove(ndx);
+      }
+      else if (dateTimeReq) return false;
     }
-    else if (dateTimeReq) return false;
       
     // We have a nice clean array of data fields, pass it to the programmer
     // field processor to parse
@@ -210,6 +219,7 @@ public class DispatchOSSIParser extends FieldProgramParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("FYI")) return new SkipField("FYI:|Update:");
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} +\\d\\d:\\d\\d:\\d\\d", true);
     return super.getField(name);
   }
 }

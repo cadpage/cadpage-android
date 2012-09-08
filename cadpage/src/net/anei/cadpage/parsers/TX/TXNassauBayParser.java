@@ -40,19 +40,29 @@ Contact: "Bigonesse, Ray" <Ray.Bigonesse@leaguecity.com>
 :CAD:FYI: ;LCFD;FIRE ALARM;211 W LEAGUE CITY PKWY;LC;LCFW;09/07/2011 12:04:36;automatic fire alarm, 24 hour fire circuit to positions 1 a
 :CAD:FYI: ;LCFD;GRASS;2381 GUN RANGE RD;LC;LCFE;09/07/2011 14:33:12;grass, no buildings [09/07/11 14:33:47 RDARROW]
 
+Contact: Active911
+Agency name: Nassau Bay Fire Location: Nassau Bay, TX 
+Sender: CAD@ossicadpaging.com'
+
+588:CAD:FYI: ;NBFD;FIRST RESPONDERS;1310 ANTIGUA LN;NB;NB;08/29/2012 15:51:49;Event spawned from ASSIST BY EMS. [08/29/2012 15:51:49 TSWANSON] lift assist no injuries [08/29/12 15:51:35 TSWANSON]
+659:CAD:FYI: ;NBFD;STRUCTURE FIRE;100 W TEXAS AVE;E81;WB;WBW;08/30/2012 23:06:02;caller see lots of smoke and smells possible fire, does nto see flames [08/30/12 23:03:53 ESALLIER]
+:CAD:FYI: ;NBFD;FIRE ALARM;18100 SATURN LN;NB;NB;08/31/2012 07:48:22;smoke det zone 51. general fire alarm. Courtyard by Marriott [08/31/12 07:49:06 DLOCASCIO]
+:CAD:FYI: ;NBFD;WASHDOWN;3000 NASA PKWY;NB;NB;08/31/2012 15:38:24;he advised you can follow it from the trail and its visible [08/31/12 15:43:51 LFOLKS] hydrolic fluid in the slow lane w/b from hilton [08/31/12 15:42:51 LFOLKS]
+715:CAD:FYI: ;NBFD;UNCONSCIOUS;PORT ROYAL DR/PRINCE WILLIAM LN;NB;NB;09/01/2012 07:54:27;female laying in roadway [09/01/12 07:54:12 LFOLKS]
+:CAD:FYI: ;NBFD;FIRE ALARM;501 SARAH DEEL DR;E81;WB;WBE;09/01/2012 15:04:56;building 6 and building 8 fire alarms..not other info [09/01/12 15:04:04 DLOCASCIO]
+:CAD:Update: ;NBFD;MUTUAL AID FIRE;501 SARAH DEEL DR;E81;WB;WBE;09/01/2012 15:04:56;[FIRE] BUILDING 9 JUST WENT OFF [09/01/12 15:05:00 DLOCASCIO] building 6 and building 8 fire alarms..not other info [09/01/12 15:04:04 DLOCASCIO]
+:CAD:FYI: ;NBFD;ASSIST BY FIRE;18300 ST JOHN BLVD;NB;NB;09/01/2012 19:24:16;elevator #1 / elevator is stuck on the 4th floor [09/01/12 19:24:36 KHAMM]
+584:CAD:FYI: ;NBFD;STRUCTURE FIRE;444-1402A E MEDICAL CENTER BLVD;WB;WBE;09/02/2012 02:38:58;[EMS] CALLER WAS INSTRUCTED TO GET HIMSELF AND HIS FAMILY OUT OF THIS APT [09/02/12 02:38:51 KHAMM] CALLER CAN NOT HEAR PEOPLE OUTSIDE ON THE BALCONY [09/02/12 02:37:29 KHAMM] apt above 1402A / c
+723:CAD:Update: ;NBFD;STRUCTURE FIRE;444 E MEDICAL CENTER BLVD;E81;WB;WBE;09/02/2012 02:38:58;[LAW] (P65) CODE 3 [09/02/12 02:39:55 NHUGHES] [LAW] (P61) CODE 3 [09/02/12 02:39:50 NHUGHES] 804 RECVD [09/02/12 02:39:45 KHAMM] LCFD ENROUTE [09/02/12 02:39:39 KHAMM] 803 RECVD [09/02/12 02
+720:CAD:FYI: ;NBFD;ASSIST BY FIRE;18222 CAPRICE LN;NB;NB;09/03/2012 19:26:12;Event spawned from SUICIDE ATTEMPT / PSYCHIATRIC. [09/03/2012 19:26:12 KHAMM] (M12) REQUESTING HELICOPTER AND FIRE [09/03/12 19:25:50 KHAMM] [LAW] (7325) STABLE // MULTIPLE LACERATIONS TO ARM AND
+599:CAD:FYI: ;NBFD;ASSIST BY FIRE;18220 UPPER BAY RD;NB;NB;09/05/2012 16:52:42;Event spawned from ASSIST BY EMS. [09/05/2012 16:52:42 DTHOMASON] non emergency north entrance to gloria dei [09/05/12 16:36:41 DCOOLEY] Event spawned from INTOXICATED DRIVER PERSON. [09/05/2012
+600:CAD:FYI: ;NBFD;STRUCTURE FIRE;2040 NASA PKWY;NB;NB;09/07/2012 09:58:19;smoke coming from ceiling from inside [09/07/12 09:58:46 TSWANSON]
+
  */
 
 public class TXNassauBayParser extends DispatchOSSIParser {
   
   private static final Pattern PREFIX = Pattern.compile("^\\d*:");
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "HO", "NASSAU BAY",
-      "LC", "LEAGUE CITY",
-      "NB", "NASSAU BAY",
-      "SB", "SEABROOK",
-      "WB", "WEBSTER"
-  });
   
   public TXNassauBayParser() {
     this("NASSAU BAY", "TX");
@@ -60,7 +70,7 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   
   protected TXNassauBayParser(String defCity, String defState) {
     super(CITY_CODES, defCity, defState,
-          "SKIP SRC CALL! ADDR! CITY? CODE? DATETIME INFO+");
+          "SKIP SRC CALL! ADDR! UNIT? CITY? CODE? DATETIME! INFO+");
   }
   
   @Override
@@ -84,17 +94,28 @@ public class TXNassauBayParser extends DispatchOSSIParser {
     return super.parseMsg(body, data);
   }
   
-  // This is a location code rather than a call code.  But it shows up in the
-  // right place so lets use it
-  private class MyCodeField extends CodeField {
-    public MyCodeField() {
-      setPattern(Pattern.compile("[A-Z]{2,4}"), true);
+  private static final String EVENT_SPAWNED_MARK = "Event spawned from ";
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith(EVENT_SPAWNED_MARK)) field = field.substring(EVENT_SPAWNED_MARK.length()).trim();
+      super.parse(field, data);
     }
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CODE")) return new MyCodeField();
+    if (name.equals("UNIT")) return new UnitField("[A-Z]+\\d+", true);
+    if (name.equals("CODE")) return new CodeField("[A-Z]{2,4}", true);
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "HO", "NASSAU BAY",
+      "LC", "LEAGUE CITY",
+      "NB", "NASSAU BAY",
+      "SB", "SEABROOK",
+      "WB", "WEBSTER"
+  });
 }

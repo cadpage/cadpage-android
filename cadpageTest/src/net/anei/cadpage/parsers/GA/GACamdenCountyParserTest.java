@@ -220,9 +220,47 @@ public class GACamdenCountyParserTest extends BaseParserTest {
         "PHONE:541-231-9242",
         "INFO:Medical: No / Hazards:");
 
+    doTest("T22",
+        "astudstill@co.camden.ga.us:2012-146148* HADDOCK DR // CISCO GAS STATION* * * KINGSLAND* * * * * ACCIDENT* ACCIDENT* * * 539,545,ENG4,LS3* * Medical: No* ",
+        "ID:2012-146148",
+        "ADDR:HADDOCK DR",
+        "MADDR:CISCO GAS STATION,HADDOCK DR",
+        "CITY:KINGSLAND",
+        "PLACE:CISCO GAS STATION",
+        "CALL:ACCIDENT",
+        "UNIT:539,545,ENG4,LS3",
+        "INFO:Medical: No");
+
+    doTest("T23",
+        "astudstill@co.camden.ga.us:2012-146395* 517 E WILLIAMS AVE* * * KINGSLAND* * * * * BREATHING* DIFFICULTY BREATHING* * * LS3,R3* * Medical: No* Hazards: N",
+        "ID:2012-146395",
+        "ADDR:517 E WILLIAMS AVE",
+        "CITY:KINGSLAND",
+        "CALL:DIFFICULTY BREATHING",
+        "UNIT:LS3,R3",
+        "INFO:Medical: No / Hazards: N");
+
+    doTest("T24",
+        "astudstill@co.camden.ga.us:2012-146519* 115 ALMOND CIR* * * KINGSLAND* * * * * UNCONSCIOUS* UNCONSCIOUS PERSON* * * ENG4,KFD,LS4* * Medical: No* Hazards:",
+        "ID:2012-146519",
+        "ADDR:115 ALMOND CIR",
+        "CITY:KINGSLAND",
+        "CALL:UNCONSCIOUS PERSON",
+        "UNIT:ENG4,KFD,LS4",
+        "INFO:Medical: No / Hazards:");
+
+    doTest("T25",
+        "astudstill@co.camden.ga.us:2012-146584* 720 S LEE ST* * * KINGSLAND* * * * * WELFARE CHK* WELFARE CHECK* * * 532,LS3,R3* * Medical: No* Hazards: No* Line",
+        "ID:2012-146584",
+        "ADDR:720 S LEE ST",
+        "CITY:KINGSLAND",
+        "CALL:WELFARE CHECK",
+        "UNIT:532,LS3,R3",
+        "INFO:Medical: No / Hazards: No / Line");
+
   }
   
   public static void main(String[] args) {
-    new GACamdenCountyParserTest().generateTests("T1");
+    new GACamdenCountyParserTest().generateTests("T22");
   }
 }

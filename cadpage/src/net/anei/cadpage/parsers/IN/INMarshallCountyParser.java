@@ -24,7 +24,7 @@ public class INMarshallCountyParser extends DispatchOSSIParser {
   
   public INMarshallCountyParser() {
     super(CITY_CODES, "MARSHALL COUNTY", "IN",
-           "SKIP PLACE? ADDR/Z CITY X/Z+? CALL! END");
+           "SKIP PLACE? ADDR/Z CITY X/Z+? CALL! END DATETIME");
   }
   
   @Override
