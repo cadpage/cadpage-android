@@ -199,6 +199,28 @@ public class NYBroomeCountyParserTest extends BaseParserTest {
         "CALL:SICKPERS-A",
         "ADDR:480 BIG HOLLOW RD",
         "INFO:56YOM GEN ILLNESS/UNABLE TO WALK ALPHA / ISSUES RELATED TO A GOUT FLARE UP IN HIS FOOT Cross");
+  }
+  
+  @Test
+  public void testParser32() {
+
+    doTest("T1",
+        " 1 of 2\n" +
+        "FRM:messaging@iamresponding.com\n" +
+        "SUBJ:32 Vestal Fire\n" +
+        "MSG:32:ALARM-BLDG :4400 VESTAL PKWY E BINGHAMTON UNIVERSIT :FIRE ALARM ACTS :\n" +
+        "(Con't) 2 of 2\n" +
+        "ENDICOTT HALL 001A Cross Sts:ROUTE 201/MURRAY HILL RD 17:45 09/07/2012 2012-00000187 Caller:SUNY,,, Phone:000-777-2393 T/Vestal(End)",
+
+        "SRC:32",
+        "CALL:ALARM-BLDG",
+        "ADDR:4400 VESTAL PKWY E",
+        "PLACE:BINGHAMTON UNIVERSIT",
+        "INFO:FIRE ALARM ACTS / ENDICOTT HALL 001A",
+        "X:ROUTE 201/MURRAY HILL RD",
+        "ID:2012-00000187",
+        "NAME:SUNY",
+        "PHONE:000-777-2393 T/Vestal");
 
   }
   
