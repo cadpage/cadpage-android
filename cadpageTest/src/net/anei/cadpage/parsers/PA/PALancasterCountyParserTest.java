@@ -101,7 +101,7 @@ public class PALancasterCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void test() {
+  public void testKirstieBreneman() {
 
     doTest("T1",
         "(INVESTIGATION-INSIDE) WEST LAMPETER TOWNSHIP~1802 MILLPORT RD~RESCH LN~SOUTHGATE DR~TRK50~22:51:15^ [Attachment(s) removed]",
@@ -110,6 +110,20 @@ public class PALancasterCountyParserTest extends BaseParserTest {
         "ADDR:1802 MILLPORT RD",
         "X:RESCH LN & SOUTHGATE DR",
         "UNIT:TRK50");
+    
+  }
+  
+  @Test
+  public void testJosiahEinwechter() {
+
+
+    doTest("T1",
+        "FRM:911@lcwc911.us\nSUBJ:ALARM BELLS\nMSG:DENVER BOROUGH~543 MAIN ST~S 5TH ST~N 6TH ST~ENG132,ENG131~22:16:39^",
+        "CALL:ALARM BELLS",
+        "CITY:DENVER",
+        "ADDR:543 MAIN ST",
+        "X:S 5TH ST & N 6TH ST",
+        "UNIT:ENG132,ENG131");
 
   }
   
