@@ -145,7 +145,7 @@ public class ContentQuery {
   private static void dumpKeyValue(String prefix, String key, Object value) {
     Intent intent = (value instanceof Intent ? (Intent)value : null);
     Bundle bundle = (value instanceof Bundle ? (Bundle)value : null);
-    String dispValue = (intent != null ? "Intent" : bundle != null ? "Bundle" : value.toString());
+    String dispValue = (intent != null ? "Intent" : bundle != null ? "Bundle" : value == null ? "null" : value.toString());
     Log.v(prefix + key + ':' + dispValue);
     if (intent != null) dumpIntent(prefix+"  ", intent);
     else if (bundle != null) dumpBundle(prefix+"  ", bundle);
