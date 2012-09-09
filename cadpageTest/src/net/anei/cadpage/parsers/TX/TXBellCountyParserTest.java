@@ -50,6 +50,19 @@ public class TXBellCountyParserTest extends BaseParserTest {
  
   }
   
+  @Test
+  public void testDavidBuchanan() {
+
+    doTest("T1",
+        "P3 LOC: 5990 STANLEY RD BELL TYPE CODE: FALLS SubType: ND CALLER NAME: VERIZON WIRELESS CLRNUM: 3176501089 TIME: 18:14:19 Comments: 3176501089 -097.528317 +031.053661 MOBILE HOME NO LOT OFF OF DOGRIDGE ROAD FELL DOWN STAIRS/HURT KNEE Number of patients: 1 Age: 80 Years Gender: Male Conscious: Yes Breathing: Yes ProQA chief complaint code: 17 Responder script: 80 year old, Male, Conscious, Breathing. Falls. Caller Statement: FELL DOWN STAIRS/HURT KNEE. ProQA dispatch code: 17A01 Dispatch level suffix: G Response text: Alpha Responder script: NOT DANGEROUS body area (On the ground or floor). 1.This happened now (less than 6hrs ago). 2.The fall was less than 10ft/3m (less than 1 story). 3.The fall was accidental. 4.There is no bleeding now. 5.He is completely alert (responding appropriately). 6.The injury is to a NOT DANGEROUS area. 7.He is still on the floor (ground). FELL DOWN 1 STAIR",
+        "ADDR:5990 STANLEY RD",
+        "CALL:FALLS - ND",
+        "NAME:VERIZON WIRELESS",
+        "PHONE:3176501089",
+        "INFO:3176501089 -097.528317 +031.053661 MOBILE HOME NO LOT OFF OF DOGRIDGE ROAD FELL DOWN STAIRS/HURT KNEE Number of patients: 1 Age: 80 Years Gender: Male Conscious: Yes Breathing: Yes ProQA chief complaint code: 17 Responder script: 80 year old, Male, Conscious, Breathing. Falls. Caller Statement: FELL DOWN STAIRS/HURT KNEE. ProQA dispatch code: 17A01 Dispatch level suffix: G Response text: Alpha Responder script: NOT DANGEROUS body area (On the ground or floor). 1.This happened now (less than 6hrs ago). 2.The fall was less than 10ft/3m (less than 1 story). 3.The fall was accidental. 4.There is no bleeding now. 5.He is completely alert (responding appropriately). 6.The injury is to a NOT DANGEROUS area. 7.He is still on the floor (ground). FELL DOWN 1 STAIR");
+
+  }
+  
   public static void main(String[] args) {
     new TXBellCountyParserTest().generateTests("T1");
   }

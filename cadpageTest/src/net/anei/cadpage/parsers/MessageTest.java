@@ -9,6 +9,14 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("TXBellCountyParser",
+        "ken@cadpage.org",
+        "",
+        "6/6- (responding appropriately). 6.The injury is to a NOT DANGEROUS area. 7.He is still on the floor (ground). FELL DOWN 1 STAIR",
+        "ken@cadpage.org",
+        "",
+        "- (responding appropriately). 6.The injury is to a NOT DANGEROUS area. 7.He is still on the floor (ground). FELL DOWN 1 STAIR", 6, 6);
+    
     doParseTest("PABerksCounty",
         "ken@cadapge.org",
         "",
