@@ -34,6 +34,13 @@ Subject:Central Village FD Page\nSTA97 STA594 MOOS2  UHF-4 PRI 1 MOOS AMB 2ND CR
 Contact: David Silva <david.silva92@yahoo.com>
 1 of 2\nFRM:messaging@iamresponding.com\nSUBJ:K.B. Ambulance\nMSG:RES65  KB2  UHF-2 PRI 1 KB SECOND CREW / POLICE ENROUTE /  Cardiac/Respiratory\n(Con't) 2 of 2\nArrest 36 SAW MILL HILL RD / Killingly (X-STS TILLINGHAST RD / PROVIDENCE PIKE  BAILEY HILL RD ) 07:11¿\n(End)
 
+Contact: Larry Loomis <larry.loomis.jr@gmail.com>
+.... (Moosup Fire) STA94 STA594 MOOS1  UHF-4 PRI 1 Down an enbankment Vehicle Accident MARY AVE / TOM AVE Moosup (X-STS ) 21:59
+.... (Moosup Fire) STA94 STA594 MOOS2  UHF-4 PRI 1 Injured Person 47 PROSPECT ST / PARKING LOT Moosup (X-STS RAILROAD AVE / ALLEN ST ) 18:25
+.... (Moosup Fire) STA94 STA594 MOOS2  UHF-4 PRI 1 Moos Amb. 2nd Crew needed /  Sick Person 29 SUNNY ACRES / Moosup (X-STS DEAD END / DAGGETT ST ) 12:34
+.... (Moosup Fire) STA94  33.88 PRI 1 STA94 for R1 Personnel to Plainfield/  Fall Injury 796 NORWICH RD / MC DONALDS Plainfield (X-STS LATHROP RD EXT / OLD NORWICH RD ) 13:52
+.... (Moosup Fire) STA94  UHF-4 OPER UHF PLEASE Fire Alarm 19 SUNNY ACRES / Moosup (X-STS DAGGETT ST / DEAD END ) 11:56
+
 */
 
 public class CTWindhamCountyParser extends SmartAddressParser {

@@ -31,6 +31,10 @@ Sender: hces@hunterdon.co.nj.us
 22RS:UNCON A: (46)76 OLD MOUNTAIN RD NEAR: CHERRY ST TO CONRAIL RR TRACKS 12007379 63YOM::SYNCOPE HX DIABETIES
 22RS:LACCER: (24)24 OLD MINE RD NEAR: COKESBURY RD TO DEAD END 12007354 FACIAL LACERATION::30'S YOA MALE CUT ON FOREHEAD FROM FALLING GLASS, REPLACING WINDO
 
+Contact: "eightyfivecorvetter@yahoo.com" <eightyfivecorvetter@yahoo.com>
+Sender: messaging@iamresponding.com
+Subject:91 Fire/Rescue\n91FD:FIRE L3: (14)2 STILLWELL RD NEAR: CREGAR RD TO WOODLAND TER 12085029 COMING FROM BASEMENT::EVERYONE IN \r
+
 Contact: Active911.com
 Agency name: Quakertown Fire Company Location: Franklin Township, NJ 
 Sender: messaging@iamresponding.com
@@ -53,7 +57,7 @@ public class NJHunterdonCountyParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "hces@hunterdon.co.nj.us";
+    return "hces@hunterdon.co.nj.us,messaging@iamresponding.com";
   }
   
   @Override
