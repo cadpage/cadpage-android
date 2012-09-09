@@ -171,6 +171,71 @@ public class CTWindhamCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testLarryLoomis() {
+
+    doTest("T1",
+        ".... (Moosup Fire) STA94 STA594 MOOS1  UHF-4 PRI 1 Down an enbankment Vehicle Accident MARY AVE / TOM AVE Moosup (X-STS ) 21:59",
+        "SRC:Moosup Fire",
+        "UNIT:STA94 STA594 MOOS1",
+        "CH:UHF-4",
+        "PRI:1",
+        "CALL:Down an enbankment Vehicle Accident",
+        "ADDR:MARY AVE & TOM AVE",
+        "CITY:Moosup",
+        "TIME:21:59");
+
+    doTest("T2",
+        ".... (Moosup Fire) STA94 STA594 MOOS2  UHF-4 PRI 1 Injured Person 47 PROSPECT ST / PARKING LOT Moosup (X-STS RAILROAD AVE / ALLEN ST ) 18:25",
+        "SRC:Moosup Fire",
+        "UNIT:STA94 STA594 MOOS2",
+        "CH:UHF-4",
+        "PRI:1",
+        "CALL:Injured Person",
+        "ADDR:47 PROSPECT ST",
+        "PLACE:PARKING LOT",
+        "CITY:Moosup",
+        "X:RAILROAD AVE / ALLEN ST",
+        "TIME:18:25");
+
+    doTest("T3",
+        ".... (Moosup Fire) STA94 STA594 MOOS2  UHF-4 PRI 1 Moos Amb. 2nd Crew needed /  Sick Person 29 SUNNY ACRES / Moosup (X-STS DEAD END / DAGGETT ST ) 12:34",
+        "SRC:Moosup Fire",
+        "UNIT:STA94 STA594 MOOS2",
+        "CH:UHF-4",
+        "PRI:1",
+        "CALL:Moos Amb 2nd Crew needed/Sick Person",
+        "ADDR:29 SUNNY ACRES",
+        "CITY:Moosup",
+        "X:DEAD END / DAGGETT ST",
+        "TIME:12:34");
+
+    doTest("T4",
+        ".... (Moosup Fire) STA94  33.88 PRI 1 STA94 for R1 Personnel to Plainfield/  Fall Injury 796 NORWICH RD / MC DONALDS Plainfield (X-STS LATHROP RD EXT / OLD NORWICH RD ) 13:52",
+        "SRC:Moosup Fire",
+        "UNIT:STA94",
+        "CH:33.88",
+        "PRI:1",
+        "CALL:STA94 for R1 Personnel to Plainfield/Fall Injury",
+        "ADDR:796 NORWICH RD",
+        "PLACE:MC DONALDS",
+        "CITY:Plainfield",
+        "X:LATHROP RD EXT / OLD NORWICH RD",
+        "TIME:13:52");
+
+    doTest("T5",
+        ".... (Moosup Fire) STA94  UHF-4 OPER UHF PLEASE Fire Alarm 19 SUNNY ACRES / Moosup (X-STS DAGGETT ST / DEAD END ) 11:56",
+        "SRC:Moosup Fire",
+        "UNIT:STA94",
+        "CH:UHF-4",
+        "CALL:OPER UHF PLEASE Fire Alarm",
+        "ADDR:19 SUNNY ACRES",
+        "CITY:Moosup",
+        "X:DAGGETT ST / DEAD END",
+        "TIME:11:56");
+
+  }
+  
   public static void main(String[] args) {
     new CTWindhamCountyParserTest().generateTests("T1", "SRC UNIT CH PRI CALL ADDR PLACE CITY X TIME");
   }

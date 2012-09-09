@@ -131,6 +131,14 @@ public class ILPeoriaCountyParserTest extends BaseParserTest {
         "CITY:PEORIA COUNTY",
         "X:10300 N RT 78",
         "INFO:IS JUST N CAR OVERTURNED POSS CAR / DEER ACC CANT TELL IF ANYONE STILL INSIDE BLOOD OVER (01 / 02)");
+
+    doTest("T14",
+        "09/08/12 200 S ALTHEA AV Jr=EL #NEXTC :( 200) W HAWTHORNE ST APT 2D 89YOFEM PAIN IN BACK AND STOMACH REQ TRANSPORT 1656,007 #7428087 1656,007",
+        "DATE:09/08/12",
+        "ADDR:200 S ALTHEA AV EL #NEXTC",
+        "MADDR:200 S ALTHEA AVE EL",
+        "X:200 W HAWTHORNE ST",
+        "INFO:APT 2D 89YOFEM PAIN IN BACK AND STOMACH REQ TRANSPORT / #7428087");
   }
   
   @Test
@@ -147,6 +155,6 @@ public class ILPeoriaCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new ILPeoriaCountyParserTest().generateTests("T13","DATE ADDR CITY ID X INFO");
+    new ILPeoriaCountyParserTest().generateTests("T1","DATE ADDR CITY ID X INFO");
   }
 }

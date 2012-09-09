@@ -192,6 +192,23 @@ public class NJHunterdonCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void test91FD() {
+
+    doTest("T1",
+        "Subject:91 Fire/Rescue\n" +
+        "91FD:FIRE L3: (14)2 STILLWELL RD NEAR: CREGAR RD TO WOODLAND TER 12085029 COMING FROM BASEMENT::EVERYONE IN \r",
+
+        "SRC:91FD",
+        "CALL:FIRE L3",
+        "CITY:High Bridge",
+        "ADDR:2 STILLWELL RD",
+        "X:CREGAR RD TO WOODLAND TER",
+        "ID:12085029",
+        "INFO:COMING FROM BASEMENT::EVERYONE IN");
+
+  }
+  
+  @Test
   public void testActive911A() {
 
     doTest("T1",
