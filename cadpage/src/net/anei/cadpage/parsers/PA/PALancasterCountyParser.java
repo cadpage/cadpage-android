@@ -31,6 +31,10 @@ Contact: Kirstie Breneman <kirstieloveshorses@gmail.com>
 Sender: conf-1012818233@everbridge.net
 (INVESTIGATION-INSIDE) WEST LAMPETER TOWNSHIP~1802 MILLPORT RD~RESCH LN~SOUTHGATE DR~TRK50~22:51:15^ [Attachment(s) removed]
 
+Contact: Josiah Einwechter <jceinwechter@gmail.com>
+Sender: 911@lcwc911.us
+FRM:911@lcwc911.us\nSUBJ:ALARM BELLS\nMSG:DENVER BOROUGH~543 MAIN ST~S 5TH ST~N 6TH ST~ENG132,ENG131~22:16:39^
+
 */
 
 public class PALancasterCountyParser extends MsgParser {
@@ -74,6 +78,7 @@ public class PALancasterCountyParser extends MsgParser {
         }
         data.strCity = line;
         if (data.strCity.endsWith(" BORO")) data.strCity = data.strCity.substring(0, data.strCity.length()-5).trim();
+        if (data.strCity.endsWith(" BOROUGH")) data.strCity = data.strCity.substring(0, data.strCity.length()-8).trim();
         if (data.strCity.startsWith("LANC")) data.strCity = "LANCASTER";
         break;
         
