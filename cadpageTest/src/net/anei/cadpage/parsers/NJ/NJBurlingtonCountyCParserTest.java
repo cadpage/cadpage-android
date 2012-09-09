@@ -1057,6 +1057,923 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
   
   }
   
+  @Test
+  public void testActive911D() {
+
+    doTest("T1",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: aendres@CO.BURLINGTON.NJ.US [mailto:aendres@CO.BURLINGTON.NJ.US] \n" +
+        "Sent: Thursday, September 06, 2012 5:05 PM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n" +
+        "** ** ** **  \n" +
+        "Incident Number  : 2012-00003181                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  105 E BackPain             Priority: 1  \n" +
+        "Incident Location: 270 GREENTREE RD\n" +
+        "Venue: Evesham  \n" +
+        "Common Name. . . : WAWA 22 (GREENTREE) \n\n" +
+        "Call Time- 16:32:46                                Date- 09/06/2012  \n" +
+        "Dispatch - 16:33:04     En-route- 16:35:21     On-scene- 16:39:22\n" +
+        "Depart 1- 16:51:25  \n" +
+        "Arrive 2 - 17:02:29     Depart 2-              In-statn-\n" +
+        "Cleared - 17:05:00 \n\n" +
+        "Area: 2201              Section :    B         Beat  . : 2201  \n" +
+        "Grid:  D10              Quadrant: 2203         District: 2203 \n\n" +
+        "Phone Number: (856) 313-9939                Call Source:  911 \n\n" +
+        "Caller. . . : MCCOY ARYAN \n\n" +
+        "Units sent  :  \n" +
+        " 03220       E2271                03220       E2291  \n" +
+        " 03220       E2292 \n\n" +
+        "Nature of Call : 24 Y/O FEMALE BACK PAIN AFTER 2 FALLS YESTERD \n\n" +
+        "Additional Info  \n" +
+        "  WPH1:  NE  \n" +
+        "  AY IN RED HYUNDAI \n\n" +
+        "Narrative  \n" +
+        " Information on the units assigned to the call follows.  \n" +
+        "    Unit: E2291   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  16:33:04     ENR:             :  :  \n" +
+        "       ARV:             :  :       DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  16:35:20  \n" +
+        "    Unit: E2271   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  16:35:20     ENR: 09/06/12  16:35:21  \n" +
+        "       ARV:             :  :       DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  16:37:21  \n" +
+        "    Unit: E2292   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  16:37:14     ENR: 09/06/12  16:37:16  \n" +
+        "       ARV: 09/06/12  16:39:22     DPT: 09/06/12  16:51:25  \n" +
+        "       AR2: 09/06/12  17:02:29     DP2:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  17:05:00 \n\n" +
+        "The Call Taker is TAYL0R BONNIE J  \n" +
+        "The Dispatcher is KINNEY DAVID R",
+
+        "CALL:RUN REPORT",
+        "PLACE:** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n** ** ** **  \nIncident Number  : 2012-00003181                    ORI: 03220\nStation: Sta 221  \nIncident Type  . :  105 E BackPain             Priority: 1  \nIncident Location: 270 GREENTREE RD\nVenue: Evesham  \nCommon Name. . . : WAWA 22 (GREENTREE) \n\nCall Time- 16:32:46                                Date- 09/06/2012  \nDispatch - 16:33:04     En-route- 16:35:21     On-scene- 16:39:22\nDepart 1- 16:51:25  \nArrive 2 - 17:02:29     Depart 2-              In-statn-\nCleared - 17:05:00 \n\nArea: 2201              Section :    B         Beat  . : 2201  \nGrid:  D10              Quadrant: 2203         District: 2203 \n\nPhone Number: (856) 313-9939                Call Source:  911 \n\nCaller. . . : MCCOY ARYAN \n\nUnits sent  :  \n 03220       E2271                03220       E2291  \n 03220       E2292 \n\nNature of Call : 24 Y/O FEMALE BACK PAIN AFTER 2 FALLS YESTERD \n\nAdditional Info  \n  WPH1:  NE  \n  AY IN RED HYUNDAI \n\nNarrative  \n Information on the units assigned to the call follows.  \n    Unit: E2291   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  16:33:04     ENR:             :  :  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/06/12  16:35:20  \n    Unit: E2271   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  16:35:20     ENR: 09/06/12  16:35:21  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/06/12  16:37:21  \n    Unit: E2292   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  16:37:14     ENR: 09/06/12  16:37:16  \n       ARV: 09/06/12  16:39:22     DPT: 09/06/12  16:51:25  \n       AR2: 09/06/12  17:02:29     DP2:             :  :  \n       QTR:             :  :       CLR: 09/06/12  17:05:00 \n\nThe Call Taker is TAYL0R BONNIE J  \nThe Dispatcher is KINNEY DAVID R");
+
+    doTest("T2",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: tjohnson@CO.BURLINGTON.NJ.US [mailto:tjohnson@CO.BURLINGTON.NJ.US]\n\n" +
+        "Sent: Thursday, September 06, 2012 4:35 PM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00003181                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  105 E BackPain             Priority: 1  \n" +
+        "Incident Location: 270 GREENTREE RD\n" +
+        "Venue: Evesham  \n" +
+        "Located Between  : N MAPLE AV/CHURCH RD  \n" +
+        "Common Name. . . : WAWA 22 (GREENTREE) \n\n" +
+        "Call Time- 16:32:46                                Date- 09/06/2012  \n" +
+        "Dispatch - 16:33:04     En-route-              On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 2201              Section :    B         Beat  . : 2201        Map\n" +
+        ". . :  \n" +
+        "Grid:  D10              Quadrant: 2203         District: 2203 \n\n" +
+        "Phone Number: (856) 313-9939                Call Source:  911 \n\n" +
+        "Caller. . . : MCCOY ARYAN \n\n" +
+        "Units sent  :  \n" +
+        " 03220       E2271                03220       E2291 \n\n" +
+        "Nature of Call : 24 Y/O FEMALE BACK PAIN AFTER 2 FALLS YESTERD \n\n" +
+        "Additional Info  \n" +
+        "  WPH1:  NE  \n" +
+        "  AY IN RED HYUNDAI \n\n" +
+        "Address Checks \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is TAYL0R BONNIE J  \n" +
+        "The Dispatcher is KINNEY DAVID R",
+
+        "ID:2012-00003181",
+        "SRC:Sta 221",
+        "CALL:105 E BackPain",
+        "PRI:1",
+        "ADDR:270 GREENTREE RD",
+        "CITY:Evesham",
+        "X:N MAPLE AV/CHURCH RD",
+        "PLACE:WAWA 22 (GREENTREE)",
+        "TIME:16:32:46",
+        "DATE:09/06/2012",
+        "MAP:2203/2203/B/2201",
+        "PHONE:(856) 313-9939",
+        "NAME:MCCOY ARYAN",
+        "UNIT:03220 E2271 03220 E2291",
+        "INFO:24 Y/O FEMALE BACK PAIN AFTER 2 FALLS YESTERD");
+
+    doTest("T3",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: mscafiro@CO.BURLINGTON.NJ.US [mailto:mscafiro@CO.BURLINGTON.NJ.US]\n\n" +
+        "Sent: Thursday, September 06, 2012 12:14 PM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00003177                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  EMS E EMS Call             Priority: 1  \n" +
+        "Incident Location: 156 HALSEY LA\n" +
+        "Venue: Evesham  \n" +
+        "Located Between  : TROTH RD/PAVONIA CL \n\n" +
+        "Call Time- 12:12:54                                Date- 09/06/2012  \n" +
+        "Dispatch -              En-route-              On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 2202              Section :    C         Beat  . : 2202        Map\n" +
+        ". . :  \n" +
+        "Grid:  F13              Quadrant: 2212         District: 2212 \n\n" +
+        "Phone Number: (856) 267-5210                Call Source:  911 \n\n" +
+        "Caller. . . : CATHERIN BECK, , \n\n" +
+        "Nature of Call : 55 YR OLD FEMALE UNCON \n\n" +
+        "Additional Info  \n" +
+        "  VOIP: \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is RAND GARY W  \n" +
+        "The Dispatcher is SCAFIRO MICHAEL J",
+
+        "ID:2012-00003177",
+        "SRC:Sta 221",
+        "CALL:EMS E EMS Call",
+        "PRI:1",
+        "ADDR:156 HALSEY LA",
+        "MADDR:156 HALSEY LN",
+        "CITY:Evesham",
+        "X:TROTH RD/PAVONIA CL",
+        "TIME:12:12:54",
+        "DATE:09/06/2012",
+        "MAP:2212/2212/C/2202",
+        "PHONE:(856) 267-5210",
+        "NAME:CATHERIN BECK, ,",
+        "INFO:55 YR OLD FEMALE UNCON");
+
+    doTest("T4",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: etimmons@CO.BURLINGTON.NJ.US [mailto:etimmons@CO.BURLINGTON.NJ.US]\n\n" +
+        "Sent: Thursday, September 06, 2012 8:16 PM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00003184                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . : FIRE F Fire Call            Priority: 1  \n" +
+        "Incident Location: 283 HAWTHORNE ST\n" +
+        "Venue: Evesham  \n" +
+        "Located Between  : MARLTON VILLAGE DR/S CROPWELL RD \n\n" +
+        "Call Time- 20:14:15                                Date- 09/06/2012  \n" +
+        "Dispatch - 20:16:08     En-route-              On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 2201              Section :    N         Beat  . : 2201        Map\n" +
+        ". . :  \n" +
+        "Grid:  C11              Quadrant: 2202         District: 2202 \n\n" +
+        "Phone Number: (877) 535-0563                Call Source:  TEL \n\n" +
+        "Caller. . . : ADT  \n" +
+        "Complaintant: OPT WQI \n\n" +
+        "Units sent  :  \n" +
+        " 03220       F2212 \n\n" +
+        "Nature of Call : CLARK,JESSICA AND CHRIS // HALL SMOKE DETECTO \n\n" +
+        "Additional Info  \n" +
+        "  R // NO PREMISE NUMBER // EC NUMBER CHRIS CLARK CELL 609 381 2434  \n" +
+        "  WILL NOTIFY \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is JOHNSON BERNICE K  \n" +
+        "The Dispatcher is TIMMONS ERICA",
+
+        "ID:2012-00003184",
+        "SRC:Sta 221",
+        "CALL:FIRE F Fire Call",
+        "PRI:1",
+        "ADDR:283 HAWTHORNE ST",
+        "CITY:Evesham",
+        "X:MARLTON VILLAGE DR/S CROPWELL RD",
+        "TIME:20:14:15",
+        "DATE:09/06/2012",
+        "MAP:2202/2202/N/2201",
+        "PHONE:(877) 535-0563",
+        "NAME:ADT Complaintant: OPT WQI",
+        "UNIT:03220 F2212",
+        "INFO:CLARK,JESSICA AND CHRIS // HALL SMOKE DETECTO");
+
+    doTest("T5",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: etimmons@CO.BURLINGTON.NJ.US [mailto:etimmons@CO.BURLINGTON.NJ.US]\n\n" +
+        "Sent: Thursday, September 06, 2012 8:16 PM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00003184                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :   16 F Alarms               Priority: 1  \n" +
+        "Incident Location: 283 HAWTHORNE ST\n" +
+        "Venue: Evesham  \n" +
+        "Located Between  : MARLTON VILLAGE DR/S CROPWELL RD \n\n" +
+        "Call Time- 20:14:15                                Date- 09/06/2012  \n" +
+        "Dispatch - 20:16:08     En-route-              On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 2201              Section :    N         Beat  . : 2201        Map\n" +
+        ". . :  \n" +
+        "Grid:  C11              Quadrant: 2202         District: 2202 \n\n" +
+        "Phone Number: (877) 535-0563                Call Source:  TEL \n\n" +
+        "Caller. . . : ADT  \n" +
+        "Complaintant: OPT WQI \n\n" +
+        "Units sent  :  \n" +
+        " 03220       F2211                03220       F2212 \n\n" +
+        "Nature of Call : CLARK,JESSICA AND CHRIS // HALL SMOKE DETECTO \n\n" +
+        "Additional Info  \n" +
+        "  R // NO PREMISE NUMBER // EC NUMBER CHRIS CLARK CELL 609 381 2434  \n" +
+        "  WILL NOTIFY \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is JOHNSON BERNICE K  \n" +
+        "The Dispatcher is TIMMONS ERICA",
+
+        "ID:2012-00003184",
+        "SRC:Sta 221",
+        "CALL:16 F Alarms",
+        "PRI:1",
+        "ADDR:283 HAWTHORNE ST",
+        "CITY:Evesham",
+        "X:MARLTON VILLAGE DR/S CROPWELL RD",
+        "TIME:20:14:15",
+        "DATE:09/06/2012",
+        "MAP:2202/2202/N/2201",
+        "PHONE:(877) 535-0563",
+        "NAME:ADT Complaintant: OPT WQI",
+        "UNIT:03220 F2211 03220 F2212",
+        "INFO:CLARK,JESSICA AND CHRIS // HALL SMOKE DETECTO");
+
+    doTest("T6",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: tjohnson@CO.BURLINGTON.NJ.US [mailto:tjohnson@CO.BURLINGTON.NJ.US]\n\n" +
+        "Sent: Thursday, September 06, 2012 4:35 PM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00003181                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  105 E BackPain             Priority: 1  \n" +
+        "Incident Location: 270 GREENTREE RD\n" +
+        "Venue: Evesham  \n" +
+        "Located Between  : N MAPLE AV/CHURCH RD  \n" +
+        "Common Name. . . : WAWA 22 (GREENTREE) \n\n" +
+        "Call Time- 16:32:46                                Date- 09/06/2012  \n" +
+        "Dispatch - 16:33:04     En-route-              On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 2201              Section :    B         Beat  . : 2201        Map\n" +
+        ". . :  \n" +
+        "Grid:  D10              Quadrant: 2203         District: 2203 \n\n" +
+        "Phone Number: (856) 313-9939                Call Source:  911 \n\n" +
+        "Caller. . . : MCCOY ARYAN \n\n" +
+        "Units sent  :  \n" +
+        " 03220       E2271                03220       E2291 \n\n" +
+        "Nature of Call : 24 Y/O FEMALE BACK PAIN AFTER 2 FALLS YESTERD \n\n" +
+        "Additional Info  \n" +
+        "  WPH1:  NE  \n" +
+        "  AY IN RED HYUNDAI \n\n" +
+        "Address Checks \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is TAYL0R BONNIE J  \n" +
+        "The Dispatcher is KINNEY DAVID R",
+
+        "ID:2012-00003181",
+        "SRC:Sta 221",
+        "CALL:105 E BackPain",
+        "PRI:1",
+        "ADDR:270 GREENTREE RD",
+        "CITY:Evesham",
+        "X:N MAPLE AV/CHURCH RD",
+        "PLACE:WAWA 22 (GREENTREE)",
+        "TIME:16:32:46",
+        "DATE:09/06/2012",
+        "MAP:2203/2203/B/2201",
+        "PHONE:(856) 313-9939",
+        "NAME:MCCOY ARYAN",
+        "UNIT:03220 E2271 03220 E2291",
+        "INFO:24 Y/O FEMALE BACK PAIN AFTER 2 FALLS YESTERD");
+
+    doTest("T7",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: tjohnson@CO.BURLINGTON.NJ.US [mailto:tjohnson@CO.BURLINGTON.NJ.US]\n\n" +
+        "Sent: Thursday, September 06, 2012 4:37 PM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n" +
+        "** ** ** **  \n" +
+        "Incident Number  : 2012-00003179                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  110 E ChestPain            Priority: 9  \n" +
+        "Incident Location: 73 N MAPLE AV SUITE D\n" +
+        "Venue: Evesham \n\n" +
+        "Call Time- 15:18:37                                Date- 09/06/2012  \n" +
+        "Dispatch - 15:18:58     En-route- 15:20:51     On-scene- 15:22:54\n" +
+        "Depart 1- 15:44:59  \n" +
+        "Arrive 2 - 15:50:23     Depart 2-              In-statn-\n" +
+        "Cleared - 16:37:12 \n\n" +
+        "Area: 2201              Section :    C         Beat  . : 2201  \n" +
+        "Grid:  D11              Quadrant: 2203         District: 2203 \n\n" +
+        "Phone Number: (856) 797-9961                Call Source:  911 \n\n" +
+        "Caller. . . : DR COHEN \n\n" +
+        "Units sent  :  \n" +
+        " E159        E1595                03220       E2291  \n" +
+        " 03220       E2292 \n\n" +
+        "Nature of Call : 70\"S FEMALE TACHYCARDIC C&A HX OF SAME \n\n" +
+        "Additional Info  \n" +
+        "  DR VERNOSE AND MCGRATH \n\n" +
+        "Narrative  \n" +
+        " Information on the units assigned to the call follows.  \n" +
+        "    Unit: E1595   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  15:18:59     ENR: 09/06/12  15:19:42  \n" +
+        "       ARV: 09/06/12  15:23:02     DPT: 09/06/12  15:44:59  \n" +
+        "       AR2: 09/06/12  15:50:23     DP2:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  16:08:48  \n" +
+        "    Unit: E2291   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  15:18:58     ENR: 09/06/12  15:20:51  \n" +
+        "       ARV:             :  :       DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  15:21:03  \n" +
+        "    Unit: E2292   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  15:21:03     ENR: 09/06/12  15:21:05  \n" +
+        "       ARV: 09/06/12  15:22:54     DPT: 09/06/12  15:44:59  \n" +
+        "       AR2: 09/06/12  15:50:23     DP2:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  16:37:12 \n\n" +
+        "The Call Taker is TAYL0R BONNIE J  \n" +
+        "The Dispatcher is KINNEY DAVID R",
+
+        "CALL:RUN REPORT",
+        "PLACE:Sent: Thursday, September 06, 2012 4:37 PM\nTo: Run Reports\nSubject: Automatic R&R Notification\nImportance: High\n\n\n  \n** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n** ** ** **  \nIncident Number  : 2012-00003179                    ORI: 03220\nStation: Sta 221  \nIncident Type  . :  110 E ChestPain            Priority: 9  \nIncident Location: 73 N MAPLE AV SUITE D\nVenue: Evesham \n\nCall Time- 15:18:37                                Date- 09/06/2012  \nDispatch - 15:18:58     En-route- 15:20:51     On-scene- 15:22:54\nDepart 1- 15:44:59  \nArrive 2 - 15:50:23     Depart 2-              In-statn-\nCleared - 16:37:12 \n\nArea: 2201              Section :    C         Beat  . : 2201  \nGrid:  D11              Quadrant: 2203         District: 2203 \n\nPhone Number: (856) 797-9961                Call Source:  911 \n\nCaller. . . : DR COHEN \n\nUnits sent  :  \n E159        E1595                03220       E2291  \n 03220       E2292 \n\nNature of Call : 70\"S FEMALE TACHYCARDIC C&A HX OF SAME \n\nAdditional Info  \n  DR VERNOSE AND MCGRATH \n\nNarrative  \n Information on the units assigned to the call follows.  \n    Unit: E1595   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  15:18:59     ENR: 09/06/12  15:19:42  \n       ARV: 09/06/12  15:23:02     DPT: 09/06/12  15:44:59  \n       AR2: 09/06/12  15:50:23     DP2:             :  :  \n       QTR:             :  :       CLR: 09/06/12  16:08:48  \n    Unit: E2291   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  15:18:58     ENR: 09/06/12  15:20:51  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/06/12  15:21:03  \n    Unit: E2292   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  15:21:03     ENR: 09/06/12  15:21:05  \n       ARV: 09/06/12  15:22:54     DPT: 09/06/12  15:44:59  \n       AR2: 09/06/12  15:50:23     DP2:             :  :  \n       QTR:             :  :       CLR: 09/06/12  16:37:12 \n\nThe Call Taker is TAYL0R BONNIE J  \nThe Dispatcher is KINNEY DAVID R");
+
+    doTest("T8",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: tjohnson@CO.BURLINGTON.NJ.US [mailto:tjohnson@CO.BURLINGTON.NJ.US]\n\n" +
+        "Sent: Thursday, September 06, 2012 4:37 PM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00003181                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  105 E BackPain             Priority: 1  \n" +
+        "Incident Location: 270 GREENTREE RD\n" +
+        "Venue: Evesham  \n" +
+        "Located Between  : N MAPLE AV/CHURCH RD  \n" +
+        "Common Name. . . : WAWA 22 (GREENTREE) \n\n" +
+        "Call Time- 16:32:46                                Date- 09/06/2012  \n" +
+        "Dispatch - 16:33:04     En-route- 16:35:21     On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 2201              Section :    B         Beat  . : 2201        Map\n" +
+        ". . :  \n" +
+        "Grid:  D10              Quadrant: 2203         District: 2203 \n\n" +
+        "Phone Number: (856) 313-9939                Call Source:  911 \n\n" +
+        "Caller. . . : MCCOY ARYAN \n\n" +
+        "Units sent  :  \n" +
+        " 03220       E2271                03220       E2291  \n" +
+        " 03220       E2292 \n\n" +
+        "Nature of Call : 24 Y/O FEMALE BACK PAIN AFTER 2 FALLS YESTERD \n\n" +
+        "Additional Info  \n" +
+        "  WPH1:  NE  \n" +
+        "  AY IN RED HYUNDAI \n\n" +
+        "Address Checks \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is TAYL0R BONNIE J  \n" +
+        "The Dispatcher is KINNEY DAVID R",
+
+        "ID:2012-00003181",
+        "SRC:Sta 221",
+        "CALL:105 E BackPain",
+        "PRI:1",
+        "ADDR:270 GREENTREE RD",
+        "CITY:Evesham",
+        "X:N MAPLE AV/CHURCH RD",
+        "PLACE:WAWA 22 (GREENTREE)",
+        "TIME:16:32:46",
+        "DATE:09/06/2012",
+        "MAP:2203/2203/B/2201",
+        "PHONE:(856) 313-9939",
+        "NAME:MCCOY ARYAN",
+        "UNIT:03220 E2271 03220 E2291 03220 E2292",
+        "INFO:24 Y/O FEMALE BACK PAIN AFTER 2 FALLS YESTERD");
+
+    doTest("T9",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: etimmons@CO.BURLINGTON.NJ.US [mailto:etimmons@CO.BURLINGTON.NJ.US]\n\n" +
+        "Sent: Thursday, September 06, 2012 7:17 PM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00003183                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  112 E Convulsn             Priority: 1  \n" +
+        "Incident Location: 307 FERN DR\n" +
+        "Venue: Evesham  \n" +
+        "Located Between  : CHERRY RD/HOLLY RD \n\n" +
+        "Call Time- 19:15:48                                Date- 09/06/2012  \n" +
+        "Dispatch -              En-route-              On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 2202              Section :    J         Beat  . : 2202        Map\n" +
+        ". . :  \n" +
+        "Grid:  A18              Quadrant: 2215         District: 2215 \n\n" +
+        "Phone Number: (856) 768-2093                Call Source:  911 \n\n" +
+        "Caller. . . : NATALIA PATENAUDE \n\n" +
+        "Nature of Call : 87M SEIZURES \n\n" +
+        "Address Checks \n\n" +
+        "Resident Name - PATENAUDE,JOSEPH,A,,  \n" +
+        " Gun Permit: 001773-86   Type: Purchaser    Status: CCH OK \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is HENNESSY JOHN  \n" +
+        "The Dispatcher is TIMMONS ERICA",
+
+        "ID:2012-00003183",
+        "SRC:Sta 221",
+        "CALL:112 E Convulsn",
+        "PRI:1",
+        "ADDR:307 FERN DR",
+        "CITY:Evesham",
+        "X:CHERRY RD/HOLLY RD",
+        "TIME:19:15:48",
+        "DATE:09/06/2012",
+        "MAP:2215/2215/J/2202",
+        "PHONE:(856) 768-2093",
+        "NAME:NATALIA PATENAUDE",
+        "INFO:87M SEIZURES");
+
+    doTest("T10",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: swoods@CO.BURLINGTON.NJ.US [mailto:swoods@CO.BURLINGTON.NJ.US] \n" +
+        "Sent: Thursday, September 06, 2012 7:27 PM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00003183                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  112 E Convulsn             Priority: 1  \n" +
+        "Incident Location: 307 FERN DR\n" +
+        "Venue: Evesham  \n" +
+        "Located Between  : CHERRY RD/HOLLY RD \n\n" +
+        "Call Time- 19:15:48                                Date- 09/06/2012  \n" +
+        "Dispatch - 19:16:48     En-route- 19:17:47     On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 2202              Section :    J         Beat  . : 2202        Map\n" +
+        ". . :  \n" +
+        "Grid:  A18              Quadrant: 2215         District: 2215 \n\n" +
+        "Phone Number: (856) 768-2093                Call Source:  911 \n\n" +
+        "Caller. . . : NATALIA PATENAUDE \n\n" +
+        "Units sent  :  \n" +
+        " E629        CCM42                03220       F2250  \n" +
+        " 03220       E2281                03220       E2291 \n\n" +
+        "Nature of Call : 87M IN ACTIVE SEIZURE UNK HOW LONG/HX DIABETE \n\n" +
+        "Additional Info  \n" +
+        "  S,HBP \n\n" +
+        "Address Checks \n\n" +
+        "Resident Name - PATENAUDE,JOSEPH,A,,  \n" +
+        " Gun Permit: 001773-86   Type: Purchaser    Status: CCH OK \n\n" +
+        "Additional Inc#s:  \n" +
+        " E629        201200000466 \n\n" +
+        "The Call Taker is HENNESSY JOHN  \n" +
+        "The Dispatcher is TIMMONS ERICA",
+
+        "ID:2012-00003183",
+        "SRC:Sta 221",
+        "CALL:112 E Convulsn",
+        "PRI:1",
+        "ADDR:307 FERN DR",
+        "CITY:Evesham",
+        "X:CHERRY RD/HOLLY RD",
+        "TIME:19:15:48",
+        "DATE:09/06/2012",
+        "MAP:2215/2215/J/2202",
+        "PHONE:(856) 768-2093",
+        "NAME:NATALIA PATENAUDE",
+        "UNIT:E629 CCM42 03220 F2250 03220 E2281 03220 E2291",
+        "INFO:87M IN ACTIVE SEIZURE UNK HOW LONG/HX DIABETE");
+
+    doTest("T11",
+        "{FW: Automatic R&R Notification} \n" +
+        "  \n" +
+        "** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n" +
+        "** ** ** **  \n" +
+        "Incident Number  : 2012-00003182                    ORI: 03220\n" +
+        "Station:  \n" +
+        "Incident Type  . :  117 E Falls                Priority: 8  \n" +
+        "Incident Location: 257 HARTFORD RD\n" +
+        "Venue: MedfordTwp  \n" +
+        "Common Name. . . : ARROWHEAD STABLES \n\n" +
+        "Call Time- 18:52:25                                Date- 09/06/2012  \n" +
+        "Dispatch - 19:03:56     En-route- 19:05:15     On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - 19:07:37 \n\n" +
+        "Area: 2502              Section :   10         Beat  . : 2501  \n" +
+        "Grid:                   Quadrant: 2515         District: 2515 \n\n" +
+        "Phone Number: (609) 234-9303                Call Source:  911 \n\n" +
+        "Caller. . . :  BERNADETTE KATRIS \n\n" +
+        "Nature of Call : 11 YOA FEM THROWN FROM HORSE//SHOULDER INJ \n\n" +
+        "Additional Info  \n" +
+        "  WPH2: \n\n" +
+        "Narrative  \n" +
+        " Information on the units assigned to the call follows.  \n" +
+        "    Unit: E2583   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  18:52:37     ENR:             :  :  \n" +
+        "       ARV:             :  :       DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  19:04:12  \n" +
+        "    Unit: E2582   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  19:07:24     ENR: 09/06/12  19:07:28  \n" +
+        "       ARV: 09/06/12  19:15:16     DPT: 09/06/12  19:34:49  \n" +
+        "       AR2: 09/06/12  19:50:06     DP2:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  20:16:41  \n" +
+        "    Unit: E2291   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  19:03:56     ENR: 09/06/12  19:05:15  \n" +
+        "       ARV:             :  :       DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  19:07:37 \n\n" +
+        "The Call Taker is JOHNSON BARBARA  \n" +
+        "The Dispatcher is KINNEY DAVID R",
+
+        "CALL:RUN REPORT",
+        "PLACE:** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n** ** ** **  \nIncident Number  : 2012-00003182                    ORI: 03220\nStation:  \nIncident Type  . :  117 E Falls                Priority: 8  \nIncident Location: 257 HARTFORD RD\nVenue: MedfordTwp  \nCommon Name. . . : ARROWHEAD STABLES \n\nCall Time- 18:52:25                                Date- 09/06/2012  \nDispatch - 19:03:56     En-route- 19:05:15     On-scene-\nDepart 1-  \nArrive 2 -              Depart 2-              In-statn-\nCleared - 19:07:37 \n\nArea: 2502              Section :   10         Beat  . : 2501  \nGrid:                   Quadrant: 2515         District: 2515 \n\nPhone Number: (609) 234-9303                Call Source:  911 \n\nCaller. . . :  BERNADETTE KATRIS \n\nNature of Call : 11 YOA FEM THROWN FROM HORSE//SHOULDER INJ \n\nAdditional Info  \n  WPH2: \n\nNarrative  \n Information on the units assigned to the call follows.  \n    Unit: E2583   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  18:52:37     ENR:             :  :  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/06/12  19:04:12  \n    Unit: E2582   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  19:07:24     ENR: 09/06/12  19:07:28  \n       ARV: 09/06/12  19:15:16     DPT: 09/06/12  19:34:49  \n       AR2: 09/06/12  19:50:06     DP2:             :  :  \n       QTR:             :  :       CLR: 09/06/12  20:16:41  \n    Unit: E2291   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  19:03:56     ENR: 09/06/12  19:05:15  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/06/12  19:07:37 \n\nThe Call Taker is JOHNSON BARBARA  \nThe Dispatcher is KINNEY DAVID R");
+
+    doTest("T12",
+        "{FW: Automatic R&R Notification} \n" +
+        "  \n" +
+        "** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n" +
+        "** ** ** **  \n" +
+        "Incident Number  : 2012-00003183                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  112 E Convulsn             Priority: 8  \n" +
+        "Incident Location: 307 FERN DR\n" +
+        "Venue: Evesham \n\n" +
+        "Call Time- 19:15:48                                Date- 09/06/2012  \n" +
+        "Dispatch - 19:16:48     En-route- 19:17:47     On-scene- 19:27:43\n" +
+        "Depart 1- 19:44:38  \n" +
+        "Arrive 2 - 19:51:20     Depart 2-              In-statn-\n" +
+        "Cleared - 20:19:34 \n\n" +
+        "Area: 2202              Section :    J         Beat  . : 2202  \n" +
+        "Grid:  A18              Quadrant: 2215         District: 2215 \n\n" +
+        "Phone Number: (856) 768-2093                Call Source:  911 \n\n" +
+        "Caller. . . : NATALIA PATENAUDE \n\n" +
+        "Units sent  :  \n" +
+        " E629        CCM42                03220       F2250  \n" +
+        " 03220       E2281                03220       E2291  \n" +
+        " 03220       F22502 \n\n" +
+        "Nature of Call : 87M IN ACTIVE SEIZURE UNK HOW LONG/HX DIABETE \n\n" +
+        "Additional Info  \n" +
+        "  S,HBP \n\n" +
+        "Narrative  \n" +
+        " Information on the units assigned to the call follows.  \n" +
+        "    Unit: CCM42   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  19:16:48     ENR: 09/06/12  19:18:02  \n" +
+        "       ARV: 09/06/12  19:35:55     DPT: 09/06/12  19:44:38  \n" +
+        "       AR2: 09/06/12  19:51:20     DP2:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  20:19:34  \n" +
+        "    Unit: E2281   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  19:16:48     ENR:             :  :  \n" +
+        "       ARV:             :  :       DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  19:26:59  \n" +
+        "    Unit: E2291   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  19:16:48     ENR: 09/06/12  19:17:47  \n" +
+        "       ARV: 09/06/12  19:31:24     DPT: 09/06/12  19:44:38  \n" +
+        "       AR2: 09/06/12  19:51:20     DP2:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  20:19:34  \n" +
+        "    Unit: F2250   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/06/12  19:27:07     ENR: 09/06/12  19:27:11  \n" +
+        "       ARV: 09/06/12  19:28:00     DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  19:44:47  \n" +
+        "    Unit: F22502  Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP:             :  :       ENR:             :  :  \n" +
+        "       ARV: 09/06/12  19:27:43     DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/06/12  19:29:01 \n\n" +
+        "The Call Taker is HENNESSY JOHN  \n" +
+        "The Dispatcher is TIMMONS ERICA",
+
+        "CALL:RUN REPORT",
+        "PLACE:** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n** ** ** **  \nIncident Number  : 2012-00003183                    ORI: 03220\nStation: Sta 221  \nIncident Type  . :  112 E Convulsn             Priority: 8  \nIncident Location: 307 FERN DR\nVenue: Evesham \n\nCall Time- 19:15:48                                Date- 09/06/2012  \nDispatch - 19:16:48     En-route- 19:17:47     On-scene- 19:27:43\nDepart 1- 19:44:38  \nArrive 2 - 19:51:20     Depart 2-              In-statn-\nCleared - 20:19:34 \n\nArea: 2202              Section :    J         Beat  . : 2202  \nGrid:  A18              Quadrant: 2215         District: 2215 \n\nPhone Number: (856) 768-2093                Call Source:  911 \n\nCaller. . . : NATALIA PATENAUDE \n\nUnits sent  :  \n E629        CCM42                03220       F2250  \n 03220       E2281                03220       E2291  \n 03220       F22502 \n\nNature of Call : 87M IN ACTIVE SEIZURE UNK HOW LONG/HX DIABETE \n\nAdditional Info  \n  S,HBP \n\nNarrative  \n Information on the units assigned to the call follows.  \n    Unit: CCM42   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  19:16:48     ENR: 09/06/12  19:18:02  \n       ARV: 09/06/12  19:35:55     DPT: 09/06/12  19:44:38  \n       AR2: 09/06/12  19:51:20     DP2:             :  :  \n       QTR:             :  :       CLR: 09/06/12  20:19:34  \n    Unit: E2281   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  19:16:48     ENR:             :  :  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/06/12  19:26:59  \n    Unit: E2291   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  19:16:48     ENR: 09/06/12  19:17:47  \n       ARV: 09/06/12  19:31:24     DPT: 09/06/12  19:44:38  \n       AR2: 09/06/12  19:51:20     DP2:             :  :  \n       QTR:             :  :       CLR: 09/06/12  20:19:34  \n    Unit: F2250   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/06/12  19:27:07     ENR: 09/06/12  19:27:11  \n       ARV: 09/06/12  19:28:00     DPT:             :  :  \n       QTR:             :  :       CLR: 09/06/12  19:44:47  \n    Unit: F22502  Radio:           Ofcr 1:            Ofcr 2:  \n       DSP:             :  :       ENR:             :  :  \n       ARV: 09/06/12  19:27:43     DPT:             :  :  \n       QTR:             :  :       CLR: 09/06/12  19:29:01 \n\nThe Call Taker is HENNESSY JOHN  \nThe Dispatcher is TIMMONS ERICA");
+
+    doTest("T13",
+        "{FW: Automatic R&R Notification} \n" +
+        "  \n" +
+        "Incident Number  : 2012-00003183                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  112 E Convulsn             Priority: 1  \n" +
+        "Incident Location: 307 FERN DR\n" +
+        "Venue: Evesham  \n" +
+        "Located Between  : CHERRY RD/HOLLY RD \n\n" +
+        "Call Time- 19:15:48                                Date- 09/06/2012  \n" +
+        "Dispatch -              En-route-              On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 2202              Section :    J         Beat  . : 2202        Map\n" +
+        ". . :  \n" +
+        "Grid:  A18              Quadrant: 2215         District: 2215 \n\n" +
+        "Phone Number: (856) 768-2093                Call Source:  911 \n\n" +
+        "Caller. . . : NATALIA PATENAUDE \n\n" +
+        "Nature of Call : 87M SEIZURES \n\n" +
+        "Address Checks \n\n" +
+        "Resident Name - PATENAUDE,JOSEPH,A,,  \n" +
+        " Gun Permit: 001773-86   Type: Purchaser    Status: CCH OK \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is HENNESSY JOHN  \n" +
+        "The Dispatcher is TIMMONS ERICA",
+
+        "ID:2012-00003183",
+        "SRC:Sta 221",
+        "CALL:112 E Convulsn",
+        "PRI:1",
+        "ADDR:307 FERN DR",
+        "CITY:Evesham",
+        "X:CHERRY RD/HOLLY RD",
+        "TIME:19:15:48",
+        "DATE:09/06/2012",
+        "MAP:2215/2215/J/2202",
+        "PHONE:(856) 768-2093",
+        "NAME:NATALIA PATENAUDE",
+        "INFO:87M SEIZURES");
+
+    doTest("T14",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: HSPROWL@CO.BURLINGTON.NJ.US [mailto:HSPROWL@CO.BURLINGTON.NJ.US] \n" +
+        "Sent: Friday, September 07, 2012 9:34 AM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00003188                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  EMS E EMS Call             Priority: 1  \n" +
+        "Incident Location: 870 E RT70\n" +
+        "Venue: Evesham  \n" +
+        "Located Between  : TROTH RD/MEDFORD TWP LINE Common Name. . . : CARE ONE\n" +
+        "AT EVESHAM \n\n" +
+        "Call Time- 09:33:26                                Date- 09/07/2012  \n" +
+        "Dispatch -              En-route-              On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 2201              Section :    A         Beat  . : 2201        Map\n" +
+        ". . :  \n" +
+        "Grid:  F13              Quadrant: 2223         District: 2209 \n\n" +
+        "Phone Number: (856) 797-3931                Call Source:  911 \n\n" +
+        "Caller. . . : SASHA \n\n" +
+        "Nature of Call : MALE W/ GI BLEED \n\n" +
+        "Additional Info\n" +
+        "  SUB ACUTE UNIT, RM 234 B \n\n" +
+        "Address Checks \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is PARRY MICHAEL JAMES\n" +
+        "The Dispatcher is SPROWL HERBERT H",
+
+        "ID:2012-00003188",
+        "SRC:Sta 221",
+        "CALL:EMS E EMS Call",
+        "PRI:1",
+        "ADDR:870 E RT70",
+        "MADDR:870 E RT 70",
+        "CITY:Evesham",
+        "X:TROTH RD/MEDFORD TWP LINE",
+        "PLACE:CARE ONE AT EVESHAM",
+        "TIME:09:33:26",
+        "DATE:09/07/2012",
+        "MAP:2209/2223/A/2201",
+        "PHONE:(856) 797-3931",
+        "NAME:SASHA",
+        "INFO:MALE W/ GI BLEED");
+
+    doTest("T15",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: salloway@CO.BURLINGTON.NJ.US [mailto:salloway@CO.BURLINGTON.NJ.US]\n\n" +
+        "Sent: Friday, September 07, 2012 11:18 AM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "Incident Number  : 2012-00003190                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  EMS E EMS Call             Priority: 1  \n" +
+        "Incident Location: 306 N ELMWOOD RD\n" +
+        "Venue: Evesham  \n" +
+        "Located Between  : E RT70/EVESBORO MEDFORD RD Common Name. . . : INGLIS\n" +
+        "GARDENS (306 N ELMWD) \n\n" +
+        "Call Time- 11:18:24                                Date- 09/07/2012  \n" +
+        "Dispatch -              En-route-              On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn- \n\n" +
+        "Area: 2201              Section :    M         Beat  . : 2201        Map\n" +
+        ". . :  \n" +
+        "Grid:  E13              Quadrant: 2211         District: 2211 \n\n" +
+        "Phone Number: (856) 983-2653                Call Source:  911 \n\n" +
+        "Caller. . . :  DEBORAH BOHLEY\n" +
+        "Complaintant: HOME HEALTH AIDE \n\n" +
+        "Nature of Call : 69YO F FELL / STATES HER HIP HURTS, BUT SHE \n\n" +
+        "Additional Info\n" +
+        "  UNIT F\n" +
+        "  WOKE UP W/THIS PAIN // MARY SHONE RES // \n\n" +
+        "Additional Inc#s: \n\n" +
+        "The Call Taker is ALLOWAY SUSAN",
+
+        "ID:2012-00003190",
+        "SRC:Sta 221",
+        "CALL:EMS E EMS Call",
+        "PRI:1",
+        "ADDR:306 N ELMWOOD RD",
+        "CITY:Evesham",
+        "X:E RT70/EVESBORO MEDFORD RD",
+        "PLACE:INGLIS GARDENS (306 N ELMWD)",
+        "TIME:11:18:24",
+        "DATE:09/07/2012",
+        "MAP:2211/2211/M/2201",
+        "PHONE:(856) 983-2653",
+        "NAME:DEBORAH BOHLEY Complaintant: HOME HEALTH AIDE",
+        "INFO:69YO F FELL / STATES HER HIP HURTS, BUT SHE");
+
+    doTest("T16",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: DKINNEY@CO.BURLINGTON.NJ.US [mailto:DKINNEY@CO.BURLINGTON.NJ.US] \n" +
+        "Sent: Friday, September 07, 2012 3:01 PM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n" +
+        "** ** ** **  \n" +
+        "Incident Number  : 2012-00003196                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  131 E Uncon                Priority: 3  \n" +
+        "Incident Location: 6 COLUMBIA DR\n" +
+        "Venue: Evesham \n\n" +
+        "Call Time- 14:37:27                                Date- 09/07/2012  \n" +
+        "Dispatch - 14:37:58     En-route- 14:40:37     On-scene- 14:42:05\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - 15:00:36 \n\n" +
+        "Area: 2201              Section :    F         Beat  . : 2201  \n" +
+        "Grid:  D12              Quadrant: 2203         District: 2203 \n\n" +
+        "Phone Number: (856) 905-0673                Call Source:  911 \n\n" +
+        "Caller. . . : ANTHONY CHRUPCALA \n\n" +
+        "Units sent  :  \n" +
+        " E159        E1593                E159        E1595  \n" +
+        " 03220       F2211                03220       E2271  \n" +
+        " 03220       E2291                03220       E2292 \n\n" +
+        "Nature of Call : 60F/DECEASED/NO CPR \n\n" +
+        "Narrative  \n" +
+        " Information on the units assigned to the call follows.  \n" +
+        "    Unit: E1595   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/07/12  14:37:58     ENR: 09/07/12  14:40:20  \n" +
+        "       ARV: 09/07/12  14:49:31     DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/07/12  15:00:36  \n" +
+        "    Unit: E1593   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/07/12  14:39:42     ENR: 09/07/12  14:39:46  \n" +
+        "       ARV:             :  :       DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/07/12  14:40:23  \n" +
+        "    Unit: E2292   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/07/12  14:37:58     ENR:             :  :  \n" +
+        "       ARV:             :  :       DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/07/12  14:40:39  \n" +
+        "    Unit: F2211   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/07/12  14:39:16     ENR: 09/07/12  14:40:50  \n" +
+        "       ARV: 09/07/12  14:42:05     DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/07/12  15:00:36  \n" +
+        "    Unit: E2271   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/07/12  14:39:16     ENR:             :  :  \n" +
+        "       ARV:             :  :       DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/07/12  14:40:51  \n" +
+        "    Unit: E2291   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/07/12  14:40:35     ENR: 09/07/12  14:40:37  \n" +
+        "       ARV: 09/07/12  14:45:07     DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/07/12  15:00:36 \n\n" +
+        "The Call Taker is PARRY MICHAEL JAMES  \n" +
+        "The Dispatcher is RUGGIANO EDWARD C",
+
+        "CALL:RUN REPORT",
+        "PLACE:** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n** ** ** **  \nIncident Number  : 2012-00003196                    ORI: 03220\nStation: Sta 221  \nIncident Type  . :  131 E Uncon                Priority: 3  \nIncident Location: 6 COLUMBIA DR\nVenue: Evesham \n\nCall Time- 14:37:27                                Date- 09/07/2012  \nDispatch - 14:37:58     En-route- 14:40:37     On-scene- 14:42:05\nDepart 1-  \nArrive 2 -              Depart 2-              In-statn-\nCleared - 15:00:36 \n\nArea: 2201              Section :    F         Beat  . : 2201  \nGrid:  D12              Quadrant: 2203         District: 2203 \n\nPhone Number: (856) 905-0673                Call Source:  911 \n\nCaller. . . : ANTHONY CHRUPCALA \n\nUnits sent  :  \n E159        E1593                E159        E1595  \n 03220       F2211                03220       E2271  \n 03220       E2291                03220       E2292 \n\nNature of Call : 60F/DECEASED/NO CPR \n\nNarrative  \n Information on the units assigned to the call follows.  \n    Unit: E1595   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  14:37:58     ENR: 09/07/12  14:40:20  \n       ARV: 09/07/12  14:49:31     DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  15:00:36  \n    Unit: E1593   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  14:39:42     ENR: 09/07/12  14:39:46  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  14:40:23  \n    Unit: E2292   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  14:37:58     ENR:             :  :  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  14:40:39  \n    Unit: F2211   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  14:39:16     ENR: 09/07/12  14:40:50  \n       ARV: 09/07/12  14:42:05     DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  15:00:36  \n    Unit: E2271   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  14:39:16     ENR:             :  :  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  14:40:51  \n    Unit: E2291   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  14:40:35     ENR: 09/07/12  14:40:37  \n       ARV: 09/07/12  14:45:07     DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  15:00:36 \n\nThe Call Taker is PARRY MICHAEL JAMES  \nThe Dispatcher is RUGGIANO EDWARD C");
+
+    doTest("T17",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: ballen@CO.BURLINGTON.NJ.US [mailto:ballen@CO.BURLINGTON.NJ.US] \n" +
+        "Sent: Friday, September 07, 2012 1:13 PM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n" +
+        "** ** ** **  \n" +
+        "Incident Number  : 2012-00003192                    ORI: 03220\n" +
+        "Station: Sta 221  \n" +
+        "Incident Type  . :  132 E UnkMedEmrg           Priority: 3  \n" +
+        "Incident Location: 9003 W LINCOLN DR SUITE C\n" +
+        "Venue: Evesham  \n" +
+        "Common Name. . . : LIFE COUNSELING SERVICES 22 \n\n" +
+        "Call Time- 12:53:42                                Date- 09/07/2012  \n" +
+        "Dispatch - 12:55:03     En-route- 12:57:33     On-scene- 13:01:02\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - 13:12:32 \n\n" +
+        "Area: 2201              Section :    D         Beat  . : 2201  \n" +
+        "Grid:  C10              Quadrant: 2201         District: 2201 \n\n" +
+        "Phone Number: (908) 227-5375                Call Source:  911 \n\n" +
+        "Caller. . . : VICTORIA HANA  \n" +
+        "Complaintant: SUITE C \n\n" +
+        "Units sent  :  \n" +
+        " 03220       E2291                03220       E2292 \n\n" +
+        "Nature of Call : 41F SUDDEN ONSET LIGHT HEADED, DIZZY, CONS \n\n" +
+        "Additional Info  \n" +
+        "  LIF COUNSELING AND REHAB AFTER WORK \n\n" +
+        "Narrative  \n" +
+        " Information on the units assigned to the call follows.  \n" +
+        "    Unit: E2292   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/07/12  12:55:03     ENR:             :  :  \n" +
+        "       ARV:             :  :       DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/07/12  12:57:30  \n" +
+        "    Unit: E2291   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/07/12  12:57:30     ENR: 09/07/12  12:57:33  \n" +
+        "       ARV: 09/07/12  13:01:02     DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/07/12  13:12:32 \n\n" +
+        "The Call Taker is MILLER ROCHELLE Y  \n" +
+        "The Dispatcher is RUGGIANO EDWARD C",
+
+        "CALL:RUN REPORT",
+        "PLACE:** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n** ** ** **  \nIncident Number  : 2012-00003192                    ORI: 03220\nStation: Sta 221  \nIncident Type  . :  132 E UnkMedEmrg           Priority: 3  \nIncident Location: 9003 W LINCOLN DR SUITE C\nVenue: Evesham  \nCommon Name. . . : LIFE COUNSELING SERVICES 22 \n\nCall Time- 12:53:42                                Date- 09/07/2012  \nDispatch - 12:55:03     En-route- 12:57:33     On-scene- 13:01:02\nDepart 1-  \nArrive 2 -              Depart 2-              In-statn-\nCleared - 13:12:32 \n\nArea: 2201              Section :    D         Beat  . : 2201  \nGrid:  C10              Quadrant: 2201         District: 2201 \n\nPhone Number: (908) 227-5375                Call Source:  911 \n\nCaller. . . : VICTORIA HANA  \nComplaintant: SUITE C \n\nUnits sent  :  \n 03220       E2291                03220       E2292 \n\nNature of Call : 41F SUDDEN ONSET LIGHT HEADED, DIZZY, CONS \n\nAdditional Info  \n  LIF COUNSELING AND REHAB AFTER WORK \n\nNarrative  \n Information on the units assigned to the call follows.  \n    Unit: E2292   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  12:55:03     ENR:             :  :  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  12:57:30  \n    Unit: E2291   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  12:57:30     ENR: 09/07/12  12:57:33  \n       ARV: 09/07/12  13:01:02     DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  13:12:32 \n\nThe Call Taker is MILLER ROCHELLE Y  \nThe Dispatcher is RUGGIANO EDWARD C");
+
+    doTest("T18",
+        "{FW: Automatic R&R Notification} \n\n" +
+        "-----Original Message-----\n" +
+        "From: dendres@CO.BURLINGTON.NJ.US [mailto:dendres@CO.BURLINGTON.NJ.US] \n" +
+        "Sent: Friday, September 07, 2012 6:40 AM\n" +
+        "To: Run Reports\n" +
+        "Subject: Automatic R&R Notification\n" +
+        "Importance: High\n\n\n" +
+        "  \n" +
+        "** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n" +
+        "** ** ** **  \n" +
+        "Incident Number  : 2012-00003185                    ORI: 03220\n" +
+        "Station:  \n" +
+        "Incident Type  . :  131 E Uncon                Priority: 1  \n" +
+        "Incident Location: 211 HAYNES RUN CL\n" +
+        "Venue: MedfordTwp \n\n" +
+        "Call Time- 06:15:40                                Date- 09/07/2012  \n" +
+        "Dispatch - 06:25:40     En-route-              On-scene-\n" +
+        "Depart 1-  \n" +
+        "Arrive 2 -              Depart 2-              In-statn-\n" +
+        "Cleared - 06:31:07 \n\n" +
+        "Area: 2503              Section :   20         Beat  . : 2502  \n" +
+        "Grid:                   Quadrant: 2513         District: 2513 \n\n" +
+        "Phone Number: (609) 714-1347                Call Source:  911 \n\n" +
+        "Caller. . . : TERRY WILSON \n\n" +
+        "Nature of Call : 80F NOT BREATHING,VAGINAL BLEEDING,CPR NOT IN \n\n" +
+        "Additional Info  \n" +
+        "  RESD:  \n" +
+        "  PROGRESS/LAST SPOKEN TOO WAS YESTERDAY \n\n" +
+        "Narrative  \n" +
+        " Information on the units assigned to the call follows.  \n" +
+        "    Unit: E1593   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/07/12  06:17:05     ENR: 09/07/12  06:18:07  \n" +
+        "       ARV: 09/07/12  06:27:19     DPT:             :  :  \n" +
+        "       AR2: 09/07/12  06:35:15     DP2:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/07/12  06:39:58  \n" +
+        "    Unit: E1693   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP:             :  :       ENR:             :  :  \n" +
+        "       ARV: 09/07/12  06:27:06     DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/07/12  06:27:12  \n" +
+        "    Unit: E258    Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/07/12  06:17:05     ENR:             :  :  \n" +
+        "       ARV:             :  :       DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/07/12  06:30:53  \n" +
+        "    Unit: E2271   Radio:           Ofcr 1:            Ofcr 2:  \n" +
+        "       DSP: 09/07/12  06:25:40     ENR:             :  :  \n" +
+        "       ARV:             :  :       DPT:             :  :  \n" +
+        "       QTR:             :  :       CLR: 09/07/12  06:31:07  \n" +
+        " POLICE CONFIRMED PATIENT OBVIOUS DOA \\\\                       6:28:24 \n\n" +
+        "The Call Taker is FRIEDRICH JOSHUA  \n" +
+        "The Dispatcher is TIMMONS ERICA",
+
+        "CALL:RUN REPORT",
+        "PLACE:** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n** ** ** **  \nIncident Number  : 2012-00003185                    ORI: 03220\nStation:  \nIncident Type  . :  131 E Uncon                Priority: 1  \nIncident Location: 211 HAYNES RUN CL\nVenue: MedfordTwp \n\nCall Time- 06:15:40                                Date- 09/07/2012  \nDispatch - 06:25:40     En-route-              On-scene-\nDepart 1-  \nArrive 2 -              Depart 2-              In-statn-\nCleared - 06:31:07 \n\nArea: 2503              Section :   20         Beat  . : 2502  \nGrid:                   Quadrant: 2513         District: 2513 \n\nPhone Number: (609) 714-1347                Call Source:  911 \n\nCaller. . . : TERRY WILSON \n\nNature of Call : 80F NOT BREATHING,VAGINAL BLEEDING,CPR NOT IN \n\nAdditional Info  \n  RESD:  \n  PROGRESS/LAST SPOKEN TOO WAS YESTERDAY \n\nNarrative  \n Information on the units assigned to the call follows.  \n    Unit: E1593   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  06:17:05     ENR: 09/07/12  06:18:07  \n       ARV: 09/07/12  06:27:19     DPT:             :  :  \n       AR2: 09/07/12  06:35:15     DP2:             :  :  \n       QTR:             :  :       CLR: 09/07/12  06:39:58  \n    Unit: E1693   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP:             :  :       ENR:             :  :  \n       ARV: 09/07/12  06:27:06     DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  06:27:12  \n    Unit: E258    Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  06:17:05     ENR:             :  :  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  06:30:53  \n    Unit: E2271   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  06:25:40     ENR:             :  :  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  06:31:07  \n POLICE CONFIRMED PATIENT OBVIOUS DOA \\\\                       6:28:24 \n\nThe Call Taker is FRIEDRICH JOSHUA  \nThe Dispatcher is TIMMONS ERICA");
+   
+    
+  }
+  
   public static void main(String[] args) {
     new NJBurlingtonCountyCParserTest().generateTests("T1");
   }

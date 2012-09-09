@@ -130,6 +130,12 @@ public abstract class BaseParserTest {
    */
   public void doSubTest(String title, boolean chkMapAddr, String subject, String test, String ... result) {
     
+    if (subject.length() == 0 && test.startsWith("{")) {
+      int pt = test.indexOf('}');
+      subject = test.substring(1,pt);
+      test = test.substring(pt+1).trim();
+    }
+    
     TestMessage msg = new TestMessage(true, fromAddress, subject, test);
     assertTrue(title + ":parse", parser.isPageMsg(msg, PARSE_FLAGS));
     doMsgTest(title, chkMapAddr, msg, result);
@@ -375,7 +381,14 @@ public abstract class BaseParserTest {
    */
   private void generateTest(String title, String test, String[] terms) {
     
-    Message msg = new Message(true, fromAddress, "", test);
+    String subject = "";
+    String msgText = test;
+    if (test.startsWith("{")) {
+      int pt = test.indexOf('}');
+      subject = test.substring(1, pt);
+      msgText = test.substring(pt+1).trim();
+    }
+    Message msg = new Message(true, fromAddress, subject, msgText);
     if (!parser.isPageMsg(msg, PARSE_FLAGS)) {
       System.out.println();
       System.out.println("// ************************ PARSE FAILURE *****************************");

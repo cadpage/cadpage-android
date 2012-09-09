@@ -430,6 +430,289 @@ public class TXNassauBayParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        ":CAD:FYI: ;WBFD;CARDIAC OR RESPIRATORY ARREST;444 E MEDICAL CENTER BLVD;WB;WBE;08/29/2012 22:08:00;UNK DURATION OF TIME [08/29/12 22:07:46 TDAVIS] 33743 [08/29/12 22:07:38 TDAVIS]",
+        "SRC:WBFD",
+        "CALL:CARDIAC OR RESPIRATORY ARREST",
+        "ADDR:444 E MEDICAL CENTER BLVD",
+        "CITY:WEBSTER",
+        "CODE:WBE",
+        "DATE:08/29/2012",
+        "TIME:22:08:00",
+        "INFO:UNK DURATION OF TIME / 33743");
+
+    doTest("T2",
+        ":CAD:FYI: ;WBFD;FIRE ALARM;820 W BAY AREA BLVD;WB;WBW;08/30/2012 10:28:04;Event spawned from ALARM BURGLAR. [08/30/2012 10:28:04 DLOCASCIO] zone 21 station smoke detector [08/30/12 10:27:31 DLOCASCIO]",
+        "SRC:WBFD",
+        "CALL:FIRE ALARM",
+        "ADDR:820 W BAY AREA BLVD",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:08/30/2012",
+        "TIME:10:28:04",
+        "INFO:ALARM BURGLAR. / zone 21 station smoke detector");
+
+    doTest("T3",
+        "405:CAD:FYI: ;WBFD;STRUCTURE FIRE;100 W TEXAS AVE;WB;WBW;08/30/2012 23:02:51;caller see lots of smoke and smells possible fire, does nto see flames [08/30/12 23:03:53 ESALLIER]",
+        "SRC:WBFD",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:100 W TEXAS AVE",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:08/30/2012",
+        "TIME:23:02:51",
+        "INFO:caller see lots of smoke and smells possible fire, does nto see flames");
+
+    doTest("T4",
+        "2663:CAD:FYI: ;WBFD;FIRE ALARM;1030 W NASA PKWY;WB;WBW;08/31/2012 08:40:23;water flow alarm [08/31/12 08:40:34 DLOCASCIO]",
+        "SRC:WBFD",
+        "CALL:FIRE ALARM",
+        "ADDR:1030 W NASA PKWY",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:08/31/2012",
+        "TIME:08:40:23",
+        "INFO:water flow alarm");
+
+    doTest("T5",
+        ":CAD:FYI: ;WBFD;MUTUAL AID FIRE;1801 ASPEN LN;E14;SB;08/31/2012 13:15:57;881 ENROUTE [08/31/12 13:13:34 DLOCASCIO] Event spawned from ASSIST BY EMS. [08/31/2012 13:13:13 DLOCASCIO] FIRE STANDY [08/31/12 13:11:04 DLOCASCIO] assist with working seabrook structure fire",
+        "SRC:WBFD",
+        "CALL:MUTUAL AID FIRE",
+        "ADDR:1801 ASPEN LN",
+        "UNIT:E14",
+        "CITY:SEABROOK",
+        "DATE:08/31/2012",
+        "TIME:13:15:57",
+        "INFO:881 ENROUTE / ASSIST BY EMS. / FIRE STANDY / assist with working seabrook structure fire");
+
+    doTest("T6",
+        "348:CAD:FYI: ;WBFD;GRASS;HENRIETTA ST/N AUSTIN ST;WB;WBW;08/31/2012 22:10:38;Event spawned from MINOR ACCIDENT. [08/31/2012 22:10:38 DJOHNSON] single car silver mustang in the bushes [08/31/12 22:10:06 DJOHNSON]",
+        "SRC:WBFD",
+        "CALL:GRASS",
+        "ADDR:HENRIETTA ST & N AUSTIN ST",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:08/31/2012",
+        "TIME:22:10:38",
+        "INFO:MINOR ACCIDENT. / single car silver mustang in the bushes");
+
+    doTest("T7",
+        "979:CAD:Update: ;WBFD;VEHICLE FIRE;HENRIETTA ST/N AUSTIN ST;WB;WBW;08/31/2012 22:10:38;Event spawned from MINOR ACCIDENT. [08/31/2012 22:10:38 DJOHNSON] single car silver mustang in the bushes [08/31/12 22:10:06 DJOHNSON]",
+        "SRC:WBFD",
+        "CALL:VEHICLE FIRE",
+        "ADDR:HENRIETTA ST & N AUSTIN ST",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:08/31/2012",
+        "TIME:22:10:38",
+        "INFO:MINOR ACCIDENT. / single car silver mustang in the bushes");
+
+    doTest("T8",
+        ":CAD:FYI: ;WBFD;ACCIDENT MAJOR;22000 IH 45 FWY;WB;WBW;09/01/2012 11:11:48;per houston between 518 and nasa parkway hpd unit onscene [09/01/12 11:11:40 LFOLKS] n./b [09/01/12 11:10:19 LFOLKS]",
+        "SRC:WBFD",
+        "CALL:ACCIDENT MAJOR",
+        "ADDR:22000 IH 45 FWY",
+        "MADDR:22000  45 FWY",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:09/01/2012",
+        "TIME:11:11:48",
+        "INFO:per houston between 518 and nasa parkway hpd unit onscene / n./b");
+
+    doTest("T9",
+        "1745:CAD:FYI: ;WBFD;FIRE ALARM;20740 IH 45 FWY;WB;WBW;09/01/2012 15:01:49;riser one and riser 2 water flow [09/01/12 15:02:17 DLOCASCIO]",
+        "SRC:WBFD",
+        "CALL:FIRE ALARM",
+        "ADDR:20740 IH 45 FWY",
+        "MADDR:20740  45 FWY",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:09/01/2012",
+        "TIME:15:01:49",
+        "INFO:riser one and riser 2 water flow");
+
+    doTest("T10",
+        "2051:CAD:FYI: ;WBFD;FIRE ALARM;501 SARAH DEEL DR;WB;WBE;09/01/2012 15:03:18;building 6 and building 8 fire alarms..not other info [09/01/12 15:04:04 DLOCASCIO]",
+        "SRC:WBFD",
+        "CALL:FIRE ALARM",
+        "ADDR:501 SARAH DEEL DR",
+        "CITY:WEBSTER",
+        "CODE:WBE",
+        "DATE:09/01/2012",
+        "TIME:15:03:18",
+        "INFO:building 6 and building 8 fire alarms..not other info");
+
+    doTest("T11",
+        ":CAD:FYI: ;WBFD;FIRE ALARM;19443 IH 45 FWY;WB;WBW;09/01/2012 15:10:28;ZONE 6 [09/01/12 15:10:47 TSWANSON]",
+        "SRC:WBFD",
+        "CALL:FIRE ALARM",
+        "ADDR:19443 IH 45 FWY",
+        "MADDR:19443  45 FWY",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:09/01/2012",
+        "TIME:15:10:28",
+        "INFO:ZONE 6");
+
+    doTest("T12",
+        "2768:CAD:CANCEL;501 SARAH DEEL DR; WB ;(S) (N)618U",
+        "CALL:CANCEL",
+        "ADDR:501 SARAH DEEL DR",
+        "CITY:WEBSTER",
+        "INFO:618U");
+
+    doTest("T13",
+        "2781:CAD:FYI: ;WBFD;UNCONSCIOUS;350 BLOSSOM ST;WB;WBW;09/01/2012 15:32:29;ROOM 108 FAMILY MEMBER PASSED OUT IN ROOM UNCONS [09/01/12 15:32:14 TSWANSON]",
+        "SRC:WBFD",
+        "CALL:UNCONSCIOUS",
+        "ADDR:350 BLOSSOM ST",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:09/01/2012",
+        "TIME:15:32:29",
+        "INFO:ROOM 108 FAMILY MEMBER PASSED OUT IN ROOM UNCONS");
+
+    doTest("T14",
+        "415:CAD:FYI: ;WBFD;UNCONSCIOUS;750 N TEXAS AVE;WB;WBW;09/01/2012 16:09:31;rm 51a bed1, male with oxygen sats in 60s, not responding, with labored breathikng [09/01/12 16:09:07 DLOCASCIO]",
+        "SRC:WBFD",
+        "CALL:UNCONSCIOUS",
+        "ADDR:750 N TEXAS AVE",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:09/01/2012",
+        "TIME:16:09:31",
+        "INFO:rm 51a bed1, male with oxygen sats in 60s, not responding, with labored breathikng");
+
+    doTest("T15",
+        "1886:CAD:FYI: ;WBFD;FIRE ALARM;20740 IH 45 FWY;WB;WBW;09/01/2012 20:25:05;waterflow risers 1 & 2 [09/01/12 20:25:39 KHAMM]",
+        "SRC:WBFD",
+        "CALL:FIRE ALARM",
+        "ADDR:20740 IH 45 FWY",
+        "MADDR:20740  45 FWY",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:09/01/2012",
+        "TIME:20:25:05",
+        "INFO:waterflow risers 1 & 2");
+
+    doTest("T16",
+        ":CAD:FYI: ;WBFD;STRUCTURE FIRE;444-1402A E MEDICAL CENTER BLVD;WB;WBE;09/02/2012 02:36:11;CALLER CAN NOT HEAR PEOPLE OUTSIDE ON THE BALCONY [09/02/12 02:37:29 KHAMM] apt above 1402A / caller can see flames coming from the balcony above him [09/02/12 02:36:54 KHAMM]",
+        "SRC:WBFD",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:444-1402A E MEDICAL CENTER BLVD",
+        "MADDR:444 E MEDICAL CENTER BLVD",
+        "CITY:WEBSTER",
+        "CODE:WBE",
+        "DATE:09/02/2012",
+        "TIME:02:36:11",
+        "INFO:CALLER CAN NOT HEAR PEOPLE OUTSIDE ON THE BALCONY / apt above 1402A / caller can see flames coming from the balcony above him");
+
+    doTest("T17",
+        "1888:CAD:Update: ;WBFD;STRUCTURE FIRE;444 E MEDICAL CENTER BLVD;E14;WB;WBE;09/02/2012 02:36:11;WEBSTER ADVISED AOT ***ABOVE 1420A**** [09/02/12 02:42:17 EDAVIS] [LAW] (P65) CODE 3 [09/02/12 02:39:55 NHUGHES] [LAW] (P61) CODE 3 [09/02/12 02:39:50 NHUGHES] [FIRE] 804 RECVD [09/02/12 02:39:",
+        "SRC:WBFD",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:444 E MEDICAL CENTER BLVD",
+        "UNIT:E14",
+        "CITY:WEBSTER",
+        "CODE:WBE",
+        "DATE:09/02/2012",
+        "TIME:02:36:11",
+        "INFO:WEBSTER ADVISED AOT ***ABOVE 1420A**** / (P65) CODE 3 / (P61) CODE 3 / 804 RECVD");
+
+    doTest("T18",
+        "5203:CAD:FYI: ;WBFD;FIRE ALARM;19801-1000 IH 45 FWY;WB;WBW;09/02/2012 09:43:37;see no smoke but smells something [09/02/12 09:44:21 DCOOLEY] supervisory alarm, manager smells something burning [09/02/12 09:44:10 DCOOLEY]",
+        "SRC:WBFD",
+        "CALL:FIRE ALARM",
+        "ADDR:19801-1000 IH 45 FWY",
+        "MADDR:19801  45 FWY",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:09/02/2012",
+        "TIME:09:43:37",
+        "INFO:see no smoke but smells something / supervisory alarm, manager smells something burning");
+
+    doTest("T19",
+        ":CAD:Update: ;WBFD;SMELL OF SMOKE GAS INSIDE;19801-1000 IH 45 FWY;WB;WBW;09/02/2012 09:43:37;see no smoke but smells something [09/02/12 09:44:21 DCOOLEY] supervisory alarm, manager smells something burning [09/02/12 09:44:10 DCOOLEY]",
+        "SRC:WBFD",
+        "CALL:SMELL OF SMOKE GAS INSIDE",
+        "ADDR:19801-1000 IH 45 FWY",
+        "MADDR:19801  45 FWY",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:09/02/2012",
+        "TIME:09:43:37",
+        "INFO:see no smoke but smells something / supervisory alarm, manager smells something burning");
+
+    doTest("T20",
+        "4442:CAD:FYI: ;WBFD;ACCIDENT MAJOR;1200-BLK W NASA PKWY;WB;WBW;09/03/2012 14:31:51;motorcycle laid down west side of overpass [09/03/12 14:31:36 MHAYES]",
+        "SRC:WBFD",
+        "CALL:ACCIDENT MAJOR",
+        "ADDR:1200-BLK W NASA PKWY",
+        "MADDR:1200 W NASA PKWY",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:09/03/2012",
+        "TIME:14:31:51",
+        "INFO:motorcycle laid down west side of overpass");
+
+    doTest("T21",
+        "2664:CAD:FYI: ;WBFD;ACCIDENT MAJOR;1200-BLK W NASA PKWY;WB;WBW;09/03/2012 14:31:52;motorcycle laid down west side of overpass [09/03/12 14:31:36 MHAYES]",
+        "SRC:WBFD",
+        "CALL:ACCIDENT MAJOR",
+        "ADDR:1200-BLK W NASA PKWY",
+        "MADDR:1200 W NASA PKWY",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:09/03/2012",
+        "TIME:14:31:52",
+        "INFO:motorcycle laid down west side of overpass");
+
+    doTest("T22",
+        "4496:CAD:CANCEL;1200-BLK W NASA PKWY; WB ;(S) (N)658B",
+        "CALL:CANCEL",
+        "ADDR:1200-BLK W NASA PKWY",
+        "MADDR:1200 W NASA PKWY",
+        "CITY:WEBSTER",
+        "INFO:658B");
+
+    doTest("T23",
+        "2870:CAD:FYI: ;WBFD;FIRE ALARM;17231 MILL FOREST RD;WB;WBE;09/03/2012 21:39:44",
+        "SRC:WBFD",
+        "CALL:FIRE ALARM",
+        "ADDR:17231 MILL FOREST RD",
+        "CITY:WEBSTER",
+        "CODE:WBE",
+        "DATE:09/03/2012",
+        "TIME:21:39:44");
+
+    doTest("T24",
+        "1762:CAD:FYI: ;WBFD;ACCIDENT MAJOR;100 W TEXAS AVE;WB;WBW;09/05/2012 14:07:16;[LAW] one vehicle hit pole, subj eyes glazed and having problem standing maroon chevt tk [09/05/12 14:06:48 DCOOLEY]",
+        "SRC:WBFD",
+        "CALL:ACCIDENT MAJOR",
+        "ADDR:100 W TEXAS AVE",
+        "CITY:WEBSTER",
+        "CODE:WBW",
+        "DATE:09/05/2012",
+        "TIME:14:07:16",
+        "INFO:one vehicle hit pole, subj eyes glazed and having problem standing maroon chevt tk");
+
+    doTest("T25",
+        ":CAD:FYI: ;WBFD;STRUCTURE FIRE;2040 NASA PKWY;L14;NB;NB;09/07/2012 09:59:49;[LAW] smoke was visible from the inside [09/07/12 09:59:32 TSWANSON] smoke coming from ceiling from inside [09/07/12 09:58:46 TSWANSON]",
+        "SRC:WBFD",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:2040 NASA PKWY",
+        "UNIT:L14",
+        "CITY:NASSAU BAY",
+        "CODE:NB",
+        "DATE:09/07/2012",
+        "TIME:09:59:49",
+        "INFO:smoke was visible from the inside / smoke coming from ceiling from inside");
+
+  }
+  
   public static void main(String[] args) {
     new TXNassauBayParserTest().generateTests("T1");
   }
