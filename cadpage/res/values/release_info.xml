@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">09072012</string>
-  <string name="release_version">v1.5.56</string>
+  <string name="release_date">09082012</string>
+  <string name="release_version">v1.5.57</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
@@ -14,6 +14,7 @@ Red Deer County, AB, Canada\n
 \n
 Location Parsing Fixes:\n
 El Dorado County, CA\n
+Los Angeles County, CA
 Camden County, GA\n
 Peoria County, IL\n
 Eaton County, MI\n
@@ -29,11 +30,14 @@ Butler County, PA\n
 Lancaster County, PA\n
 Washington County, RI\n
 Anderson County, TN\n
+Cy Creek Comm Center, TX\n
+Nassau Bay, TX\n
 Fauquier County, VA\n
 New South Wales, Australia\n
 \n
 General fixes:\n
-Problem reporting subscriptions expiring on October 31 when they should be latter this year
+Problem reporting subscriptions expiring on October 31 when they should be latter this year\n
+Occasional crash processing incoming text pages
   </string>  
 </resources>
   
