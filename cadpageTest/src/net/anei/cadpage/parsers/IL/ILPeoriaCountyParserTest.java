@@ -135,10 +135,14 @@ public class ILPeoriaCountyParserTest extends BaseParserTest {
     doTest("T14",
         "09/08/12 200 S ALTHEA AV Jr=EL #NEXTC :( 200) W HAWTHORNE ST APT 2D 89YOFEM PAIN IN BACK AND STOMACH REQ TRANSPORT 1656,007 #7428087 1656,007",
         "DATE:09/08/12",
-        "ADDR:200 S ALTHEA AV EL #NEXTC",
-        "MADDR:200 S ALTHEA AVE EL",
+        "ADDR:200 S ALTHEA AV",
+        "MADDR:200 S ALTHEA AVE",
+        "CITY:ELMWOOD",
+        "PLACE:NEXTC",
         "X:200 W HAWTHORNE ST",
-        "INFO:APT 2D 89YOFEM PAIN IN BACK AND STOMACH REQ TRANSPORT / #7428087");
+        "INFO:APT 2D 89YOFEM PAIN IN BACK AND STOMACH REQ TRANSPORT / #7428087",
+        "TIME:16:56",
+        "UNIT:007");
   }
   
   @Test
@@ -155,6 +159,6 @@ public class ILPeoriaCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new ILPeoriaCountyParserTest().generateTests("T1","DATE ADDR CITY ID X INFO");
+    new ILPeoriaCountyParserTest().generateTests("T1","DATE ADDR CITY PLACE ID X INFO UNIT");
   }
 }
