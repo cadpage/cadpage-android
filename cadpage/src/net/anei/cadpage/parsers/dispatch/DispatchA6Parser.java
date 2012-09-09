@@ -95,6 +95,11 @@ public class DispatchA6Parser extends SmartAddressParser {
     String crossNumber = match.group(1);
     
     String sAddr = body.substring(0,match.start()).replace('{', ' ').replace('}', ' ').trim();
+    int pt = sAddr.lastIndexOf('#');
+    if (pt >= 0) {
+      data.strPlace = sAddr.substring(pt+1).trim();
+      sAddr = sAddr.substring(0,pt).trim();
+    }
     parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
     body = body.substring(match.end()).trim();
     
