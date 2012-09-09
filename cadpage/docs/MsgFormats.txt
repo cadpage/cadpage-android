@@ -4894,7 +4894,6 @@ Contact: Active911
 [Dispatch] 802 HICKORY LN ** MONT ** CARDIAC EMERGENCY ** STREAM VIEW DR ** 345-19 ** 20:00 **  ** UNRESPONSIVE\n ** E1245669 **  ** 08/27/12 ** 
 [Dispatch] 640 BETHLEHEM PIKE  Apt# 17 ** MONT ** CARDIAC EMERGENCY ** MCLAUGHLIN RD AND HORSHAM ** 345-6 ** 21:15 **  ** 57/M EXPERIENCING PRESSURE IN HIS CHEST\nC/A\nHAVING TROUBLE BREATHING\nHAS TAKEN 3 DOSES OF NITROGL ** E1245682 **  ** 08/27/12 ** 
 **********************************************************
-**********************************************************
 Agency name: Lewes Fire Dept Location: Lewes, DE 
 Sender: cad@sussexcountyde.gov
   
@@ -4992,3 +4991,10 @@ Sender: cad@sussexcountyde.gov
 {CAD Alert} 82ST   Call at: 0 Roosevelt Inlet        Loc: Roosevelt Inlet          City:19968  Problem:  Watercraft in Distress          Inc#: 2012-020234    Lat: 0           Long: 0          DISP: 09:22:43   Cross St:
 {CAD Alert} 82B    Call at: 32544 Lewes Georgetown HwLoc: rear entrance to ACE HardCity:19958  Problem:  Traffic/TransportationAcdntBLS  Inc#: 2012-020662    Lat: 38747388    Long: 75176098   DISP: 23:19:44   Cross St: CONNECTING ROAD/CONNECTING ROAD
 {CAD Alert} 82ST   Call at: Savannah Rd & E 4th St   Loc:                          City:       Problem:  Washdown (Fuel Spill)           Inc#: 2012-020708    Lat: 0           Long: 0          DISP: 14:01:03   Cross St:
+**********************************************************
+P3 LOC: 5990 STANLEY RD BELL TYPE CODE: FALLS SubType: ND CALLER NAME: VERIZON WIRELESS CLRNUM: 3176501089 TIME: 18:14:19 Comments: 3176501089 -097.528317
++031.053661 MOBILE HOME NO LOT OFF OF DOGRIDGE ROAD FELL DOWN STAIRS/HURT KNEE Number of patients: 1 Age: 80 Years Gender: Male Conscious: Yes Breathing:
+Yes ProQA chief complaint code: 17 Responder script: 80 year old, Male, Conscious, Breathing. Falls. Caller Statement: FELL DOWN STAIRS/HURT KNEE. ProQA
+dispatch code: 17A01 Dispatch level suffix: G Response text: Alpha Responder script: NOT DANGEROUS body area (On the ground or floor). 1.This happened now
+5/6(less than 6hrs ago). 2.The fall was less than 10ft/3m (less than 1 story). 3.The fall was accidental. 4.There is no bleeding now. 5.He is completely alert
+6/6(responding appropriately). 6.The injury is to a NOT DANGEROUS area. 7.He is still on the floor (ground). FELL DOWN 1 STAIR
