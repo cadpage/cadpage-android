@@ -228,6 +228,15 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
         "CH:TGA2",
         "BOX:1301",
         "UNIT:A807,E807");
+
+    doTest("T19",
+        "(CAD) [EMS09] F122530267: Medic Local, EB JOHN HANSON HWY EB AT EB COLUMBIA PARK RD, PP, at EB JOHN HANSON HWY EB AT EB COLUMBIA PARK RD, PP <5503/0, TGA2, 3820,",
+        "ID:F122530267",
+        "CALL:Medic Local",
+        "ADDR:EB JOHN HANSON HWY EB & EB COLUMBIA PARK RD",
+        "MADDR:JOHN HANSON HWY & COLUMBIA PARK RD",
+        "CH:TGA2",
+        "BOX:3820");
  
   }
   

@@ -163,6 +163,21 @@ public class MDPrinceGeorgesCountyDParserTest extends BaseParserTest {
         "UNIT:E809B MD812 A807",
         "ADDR:4516 BUCHANAN ST",
         "X:BALTIMORE AVE and END");
+
+    doTest("T16",
+        "(CAD) [PG09] 38: MEDIC LOCAL\r\n" +
+        "At: 09/09 17:06\r\n" +
+        "Dispatch: A809\r\n" +
+        "All: E838 MD826 A809\r\n" +
+        "To: EB JOHN HANSON HWY EB AT EB COLUMBIA PARK RD",
+
+        "SRC:PG09",
+        "CALL:MEDIC LOCAL",
+        "DATE:09/09",
+        "TIME:17:06",
+        "UNIT:E838 MD826 A809",
+        "ADDR:EB JOHN HANSON HWY EB AT EB COLUMBIA PARK RD",
+        "MADDR:JOHN HANSON HWY AT COLUMBIA PARK RD");
  }
   
   public static void main(String[] args) {
