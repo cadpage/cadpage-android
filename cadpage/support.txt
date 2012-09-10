@@ -407,6 +407,15 @@ Let us know how things work out.
 -Ken
 
 ******************************************************************
+
+Your phone is running Android 2.1, and direct paging requires Android 2.2 or better.
+
+Your options are limited.  If you are really lucky, HTC has a system update available for your phone.  If not, your only option is rooting the phone and installing your own operating system.  That later option requires some technical expertise, but not a lot.  HTC has a process to unlocked the bootloader on all of their newer phones, there are lots of very detailed instructions on the Internet for how to go about it.  The critical thing is to make sure you do a NAND backup of the existing system as soon as you get a new recovery partition installed.  That give you a fallback if things go wrong.  And lets you restore the phone to it's pristine unrooted state if you have to take it in for warranty work.
+
+Good luck,
+-Ken
+
+******************************************************************
 ** DISPATCH FMT CHANGE?
 
 Hi folks,

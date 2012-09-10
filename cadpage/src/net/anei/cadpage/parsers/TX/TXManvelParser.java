@@ -38,6 +38,11 @@ public class TXManvelParser extends FieldProgramParser {
   }
   
   @Override
+  public String getSponsor() {
+    return "Manvel Volunteer Fire Department";
+  }
+
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
     if (subject.equals("NEW CALL")) {}
