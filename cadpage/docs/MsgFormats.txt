@@ -4793,12 +4793,6 @@ Anderson County, TN (replace)
 Contact: Justin <acs0680@gmail.com>
 MEDVFD FIRST RESP - 3888 DUTCH VALLEY RD CLINTON, TN - +street: SHANLEVER RD - UNKNOWN MEDICAL - 220843
 **********************************************************
-Trumbull County, OH (replace?)
-Contact: George Beck <hfd130.gb@gmail.com>
-System: Vision Air
-Sender: 911no@co.trumbull.oh.us
-FRM:911no@co.trumbull.oh.us\nMSG:*2350 NILES CORTLAND RD SE, HOWLAND TWP, OH***FIRE INFORMATION***STA30***//**ALARM SYSTEM OFF LINE TILL  0900 TOMORROW
-FRM:911no@co.trumbull.oh.us\nMSG:*8164 CHERRY HILL DR NE, HOWLAND TWP, OH***GENERAL ILLNESS***STA30***ELMWOOD AVE NE//CRANBROOK AVE\n(Con't) 2 of 2\nNE**PAIN IN SIDE AND HEADACHE//  63 YOF(End)
 **********************************************************
 Jefferson County, WA
 Contact: "rtmcallister@yahoo.com" <rtmcallister@yahoo.com>
