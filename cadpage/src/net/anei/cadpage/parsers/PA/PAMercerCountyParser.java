@@ -27,6 +27,7 @@ Sender: 9-1-1"@mcc.co.mercer.pa.us
 "Mercer 9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 12 STAFFORDSHIRE DR PINE EID: 2377509 TYPE CODE: HF CALLER NAME: MICHELLE GAIMFLEY CALLER ADDR: 109 GEORGE JU
 "Mercer 9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 1237 WALNUT ST STON EID: 2377268 TYPE CODE: STR CALLER NAME: KIM ALLEN CALLER ADDR: 527 FREDONIA RD LAKE TIME
 "Mercer 9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: TERRACE AVE/FRANKLIN PL GROV EID: 2398277 TYPE CODE: UTL CALLER NAME: ALLAN KIRK CALLER ADDR: 109 GEORGE JUNI
+"Mercer 9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 51 E LACOCK ST SLAK EID: 2404345 TYPE CODE: HF CALLER NAME: KELLY SUNDAY CALLER ADDR: 147 DOYLE RD LAKE TIME:
 
  */
 
@@ -40,7 +41,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "9-1-1\"@mcc.co.mercer.pa.us,";
+    return "@mcc.co.mercer.pa.us";
   }
 
   @Override
@@ -106,24 +107,25 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "GROV", "GROVE CITY",
       "JACK", "JACKSON TWP",
       "PINE", "PINE",
+      "SLAK", "Sandy Lake",
       "STON", "STONEBORO"
   });
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
-      "MVU", "Motor Vehicle Crash w/ unknown injuries",
-      "MVI", " Motor Vehicle Crash w/ injuries",
-      "MVE", "Motor Vehicle Crash w. trap",
-      "MVA", "Motor Vehicle Crash w. no injuries",
-      "HF", "House fire",
-      "COM", "Commercial Fire",
-      "ELO", "Electric Lines down",
-      "ELI", "Electric Fire",
+      "MVU",  "Motor Vehicle Crash w/ unknown injuries",
+      "MVI",  "Motor Vehicle Crash w/ injuries",
+      "MVE",  "Motor Vehicle Crash w. trap",
+      "MVA",  "Motor Vehicle Crash w. no injuries",
+      "HF",   "House fire",
+      "COM",  "Commercial Fire",
+      "ELO",  "Electric Lines down",
+      "ELI",  "Electric Fire",
       "CHIM", "Chimney Fire",
-      "BRU", "Brush Fire",
-      "MUT", "Mutual Aid",
-      "STR", "Structure Fire",
+      "BRU",  "Brush Fire",
+      "MUT",  "Mutual Aid",
+      "STR",  "Structure Fire",
       "TREE", "Tree down",
       "FALM", "Fire alarm",
-      "UTL", "Utility Lines Down"
+      "UTL",  "Utility Lines Down"
   });
 }
