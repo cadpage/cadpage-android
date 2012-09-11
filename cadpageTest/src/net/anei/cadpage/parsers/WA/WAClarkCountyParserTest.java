@@ -240,8 +240,31 @@ public class WAClarkCountyParserTest extends BaseParserTest {
         "TIME:09:37:54",
         "ID:12210465",
         "UNIT:E91,M43");
-
   }
+  
+  @Test
+  public void testRickKnap() P
+
+
+    doTest("T1",
+        "1 of 2\n" +
+        "FRM:CRESA CAD\n" +
+        "MSG:LOC: 750 NE DALLAS ST CAM MAP: 1311 OPS:   UNCONSCIOUS / FAINTING EPISODE SUB TYPE: D1 PRI: 1 TIME: 12:53:35 EV#:\n" +
+        "(Con't) 2 of 2\n" +
+        "12249847 ALARM: 1  Disp: E91,M41\r\n" +
+        "\r\n" +
+        "(End)",
+
+        "ADDR:750 NE DALLAS ST",
+        "CITY:Camas",
+        "MAP:1311",
+        "CALL:UNCONSCIOUS / FAINTING EPISODE",
+        "CODE:D1",
+        "PRI:1",
+        "TIME:12:53:35",
+        "ID:12249847",
+        "UNIT:E91,M41");
+ }
   
   public static void main(String[] args) {
     new WAClarkCountyParserTest().generateTests("T1");
