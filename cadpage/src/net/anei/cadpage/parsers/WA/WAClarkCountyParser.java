@@ -32,6 +32,10 @@ Contact: "C. Ebeling" <cebeling@iinet.com>
 Sender: ipage@clark.wa.gov
 LOC: 2210 NE 284TH AVE CLK MAP: 2324 OPS:   UNKNOWN PROBLEM SUB TYPE: B2 PRI: 4 TIME: 09:37:54 EV#: 12210465 ALARM: 1  Disp: E91,M43\r\n
 
+Contact: Rick Knapp <flknapp@gmail.com>
+Sender: CRESA CAD
+1 of 2\nFRM:CRESA CAD\nMSG:LOC: 750 NE DALLAS ST CAM MAP: 1311 OPS:   UNCONSCIOUS / FAINTING EPISODE SUB TYPE: D1 PRI: 1 TIME: 12:53:35 EV#:\n(Con't) 2 of 2\n12249847 ALARM: 1  Disp: E91,M41\r\n\r\n(End)
+
 */
 
 
@@ -44,7 +48,7 @@ public class WAClarkCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "777";
+    return "777,CRESA CAD";
   }
 
   @Override
