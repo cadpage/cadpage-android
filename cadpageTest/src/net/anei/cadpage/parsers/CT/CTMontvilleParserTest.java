@@ -80,7 +80,25 @@ public class CTMontvilleParserTest extends BaseParserTest {
         "UNIT:MOH1",
         "DATE:7/28/2012",
         "TIME:22:32");
-}
+
+    doTest("T7",
+        "(Imc Solutions Page) AMBULANCE EMERGENCY\r\n" +
+        "9 MAPLE AVE EXT APT 2\r\n" +
+        "55 YOM DIZZYNESS, QUESTION HIGH BLOOD PRESSURE.\r\n" +
+        "HOT\r\n" +
+        "Fire District: MFD1\r\n" +
+        "9/11/2012 14:41",
+
+        "CALL:AMBULANCE EMERGENCY",
+        "ADDR:9 MAPLE AVE EXT",
+        "MADDR:9 MAPLE AVE",
+        "APT:2",
+        "INFO:55 YOM DIZZYNESS, QUESTION HIGH BLOOD PRESSURE. / HOT",
+        "UNIT:MFD1",
+        "DATE:9/11/2012",
+        "TIME:14:41");
+
+  }
   
   public static void main(String[] args) {
     new CTMontvilleParserTest().generateTests("T1");
