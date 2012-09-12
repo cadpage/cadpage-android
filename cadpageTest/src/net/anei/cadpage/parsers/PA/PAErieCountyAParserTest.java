@@ -469,6 +469,15 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "X:KOSIOREK DR",
         "ID:2012-0000095124");
 
+    doTest("T3",
+        ".... (Kuhl Hose Fire) ERIE911:1C3 >ABDOM PAIN FAINT/NEAR > 50 9535 BLILEY RD XS: SKY DR GREENE TWP",
+        "SRC:ERIE911",
+        "CODE:1C3",
+        "CALL:ABDOM PAIN FAINT/NEAR > 50",
+        "ADDR:9535 BLILEY RD",
+        "CITY:GREENE TWP",
+        "X:SKY DR");
+
   }
   
   public static void main(String[] args) {

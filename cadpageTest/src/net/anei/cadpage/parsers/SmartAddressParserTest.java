@@ -825,6 +825,16 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:w lake and n hagadorn");
   }
   
+  @Test
+  public void testRelation() {
+    doTest(CALL, "ABDOM PAIN FAINT/NEAR > 50 9535 BLILEY RD",
+        "CALL:ABDOM PAIN FAINT/NEAR > 50",
+        "ADDR:9535 BLILEY RD");
+    doTest(CALL, "BP < 40 NEAR 125 KINGS CENTER",
+        "CALL:BP < 40 NEAR",
+        "ADDR:125 KINGS CENTER");
+  }
+  
   @Override
   public void testBadMsg() {
   }
