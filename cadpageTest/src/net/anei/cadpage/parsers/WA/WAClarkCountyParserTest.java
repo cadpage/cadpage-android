@@ -243,7 +243,7 @@ public class WAClarkCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testRickKnap() P
+  public void testRickKnap() {
 
 
     doTest("T1",
