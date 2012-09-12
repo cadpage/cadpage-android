@@ -186,6 +186,8 @@ public abstract class SmartAddressParser extends MsgParser {
   
   private static final int ID_SPEC_CROSS = 0x800000;
   
+  private static final int ID_RELATION = 0x1000000;
+  
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
   // List of multiple word cities
@@ -715,26 +717,28 @@ public abstract class SmartAddressParser extends MsgParser {
         if (sAddr >= tokens.length) return false;
         if (isType(sAddr, ID_CROSS_STREET)) return false;
         if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_CONNECTOR)) {
-          if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX) && 
-              !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
-          if (isType(sAddr+1, ID_NUMBERED_ROAD_SFX)) {
-            if (isType(sAddr+1, ID_ROUTE_PFX)) {
-              if (isType(sAddr+2, ID_NUMBER|ID_ALPHA_ROUTE)) break;
-              if (isType(sAddr+2, ID_ROUTE_PFX_EXT) && isType(sAddr+3, ID_NUMBER|ID_ALPHA_ROUTE)) break;
-              
-              // Well, this certainly looks like it is a numbered street or route
-              // rather than a house number.  But there are districts with streets
-              // named for saints, so if the next token is ST, give it a chance
-              // to be a valid street name
-              if (tokens[sAddr+1].equalsIgnoreCase("ST")) {
-                sEnd = findRoadEnd(sAddr+1, 0);
-                if (sEnd > 0) break;
+          if (sAddr == 0 || ! isType(sAddr-1, ID_RELATION)) {
+            if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX) && 
+                !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
+            if (isType(sAddr+1, ID_NUMBERED_ROAD_SFX)) {
+              if (isType(sAddr+1, ID_ROUTE_PFX)) {
+                if (isType(sAddr+2, ID_NUMBER|ID_ALPHA_ROUTE)) break;
+                if (isType(sAddr+2, ID_ROUTE_PFX_EXT) && isType(sAddr+3, ID_NUMBER|ID_ALPHA_ROUTE)) break;
+                
+                // Well, this certainly looks like it is a numbered street or route
+                // rather than a house number.  But there are districts with streets
+                // named for saints, so if the next token is ST, give it a chance
+                // to be a valid street name
+                if (tokens[sAddr+1].equalsIgnoreCase("ST")) {
+                  sEnd = findRoadEnd(sAddr+1, 0);
+                  if (sEnd > 0) break;
+                }
+                return false;
               }
               return false;
             }
-            return false;
+            break;
           }
-          break;
         }
         if (startAddress >= 0 || locked) return false;
         if (flexAt && isType(sAddr, ID_INCL_AT_MARKER)) return false;
@@ -1071,9 +1075,11 @@ public abstract class SmartAddressParser extends MsgParser {
       if (result.addressField == null && startAddress < 0) {
         for (int ndx = stIndex; ndx < endAddr-1; ndx++) {
           if (isHouseNumber(ndx)) {
-            result.addressField = new FieldSpec(ndx, endAddr);
-            endAddr = ndx;
-            break;
+            if (ndx == 0 || ! isType(ndx-1, ID_RELATION)) {
+              result.addressField = new FieldSpec(ndx, endAddr);
+              endAddr = ndx;
+              break;
+            }
           }
         }
       }
@@ -1608,6 +1614,10 @@ public abstract class SmartAddressParser extends MsgParser {
       tokens[ndx] = token = token.substring(1);
       mask = ID_INCL_AT_MARKER;
     }
+    
+    // If token ends with a numeric comparision character, set the relation flag
+    char chr = token.charAt(token.length()-1);
+    if ("=><".indexOf(chr) >= 0) mask |= ID_RELATION;
     
     // If token is in dictionary, return the associated type code
     // City codes are not permitted to follow intersection connectrs, cross
