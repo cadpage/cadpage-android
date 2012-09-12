@@ -6,6 +6,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA1Parser;
 /*
 Adams County, PA
 Contact: Tim Tyler <tyler33fire@yahoo.com>
+Contact: Randy Wolf <rmwolf2005@gmail.com>
+Sender: alert@adams911.com
 
 Subject:Alert: Traffic Accident - 1\nALRM LVL: 1\nLOC:\n274 HANOVER ST\nOXFORD TWP\nBTWN: COMMERCE ST & TROUT LN
 Subject:Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n80 HUNTER CIR\nHAMILTON TWP\nBTWN: FOX DEN LN & FOX MEADOW
@@ -13,6 +15,7 @@ Subject:Alert: Diabetic Emergency - 1\nALRM LVL: 1\nLOC:\nLINCOLNWAY W/TRACY AVE
 Subject:Alert: Traffic Accident - 2\nALRM LVL: 1\nLOC:\nYORK RD/FLESHMAN MILL RD\nMOUNT PLEASANT TWP\nBTWN: FLESHMAN MILL RD
 Subject:Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n2315 HUNTERSTOWN-HAMPTON RD\nSTRABAN TWP\nBTWN: ALLEY & CONEWAGO RD
 Subject:Alert: Traffic Accident - 2\nALRM LVL: 1\nLOC:\n760 NEW CHESTER RD\nSTRABAN TWP\nBTWN: SWIFT RUN RD & BRICKCRAFTERS RD
+Subject:Alert: Fire - Brush / Wildland\nALRM LVL: 1\r\nLOC:\r\n1809 GERMANY RD\r\nREADING TWP\r\nBTWN: STONEY POINT RD & POSSUM HOLLOW RD\r\n\r\n\r\n\r\nCOM:\r
 
 Contact: Active911
 Agency name: Fairfield Fire and EMS Location: Fairfield, PA 
