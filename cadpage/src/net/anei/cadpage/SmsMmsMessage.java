@@ -808,7 +808,8 @@ public class SmsMmsMessage implements Serializable {
       putExtraString(intent, EXTRA_PARSE_CHANNEL, info.getChannel());
     }
     
-    
+    Log.v("Broadcasting intent");
+    ContentQuery.dumpIntent(intent);
     context.sendBroadcast(intent, PERMISSION);
   }
   
