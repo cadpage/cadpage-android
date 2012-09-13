@@ -101,17 +101,18 @@ public class DispatchAegisParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    String[] subjects = subject.split("\\|");
+    String[] subjects = subject.split("\\|", -1);
     if (subjects.length != 2 || !subjects[0].equals("Chief ALT")) return false;
     data.strSource = subjects[1];
     
     while (body.startsWith("-")) body = body.substring(1).trim();
     String[] flds = DELIM.split(body);
     if (flds.length > 1) {
-      if (parseFields(DELIM.split(body), data)) return true;
+      if (parseFields(flds, data)) return true;
     }
     
     String src = data.strSource;
+    if (src.length() == 0) return false;
     data.parseGeneralAlert(body);
     data.strSource = src;
     return true;
