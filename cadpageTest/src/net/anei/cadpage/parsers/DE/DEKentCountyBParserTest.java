@@ -4,6 +4,66 @@ import net.anei.cadpage.parsers.BaseParserTest;
 
 import org.junit.Test;
 
+/*
+Kent County, DE (Variant B)
+Contact: jeffrey morris <bowers4015@gmail.com>
+Contact: Adam Warner <awarner7777@gmail.com>
+Sender: msg@cfmsg.com
+System: Aegis CAD
+
+(Chief ALT) [40 EMS] - 26A10 - Sick Person - Unwell/Ill -- 2536 Skeeter Neck Rd, Frederica -- Xst's: Bowers Beach Rd / E Front St -- Caller: High Vue Logging Inc
+(Chief ALT) [KCPS] - [911, Kent] NWS UPGRADED LAST TO A WARNING, WILL BE IN WESTERN KENT COUNTY AROUND 22:30 HRS.
+(Chief ALT) [40 EMS] - 23C1V - Overdose/Poisoning -- 181 Holly Dr, Frederica -- High Point Mhp -- Xst's: Garden Pl / Maple Dr -- Caller: Marrillo Paul
+(Chief ALT) [55 EMS 1] - 2D2 - Allergic Reaction -- 149 Juanita Dr, Magnolia -- London Village -- Xst's: Jeffrey Dr / Millchop Ln -- Caller: Price Laura
+(Chief ALT) [40 EMS] - 29B4 - MVC Unknown -- Mulberrie Point Rd, Frederica
+(Chief ALT) [40 EMS] - 10D2 - Chest Pains -- 196 N  Bayshore Dr, Frederica -- Bowers Beach -- Xst's: N Flack Ave / Main St -- Caller: Margaret
+(Chief ALT) [40 EMS] - 26C2 - Sick Person -- 201 Hubbard Ave, Frederica -- Bowers Beach -- Xst's: Dead End / Canal St -- Caller: Ingle Heather
+(Chief ALT) [40 EMS] - 10C4 - Chest Pains -- 302 Lake Shore Dr, Frederica -- High Point Mhp -- Xst's: Second St, Sycamore Dr / Lorna Ln -- Caller: Thom Ronald
+(Chief ALT) [40 EMS] - 6C1 - Breathing Problems -- 294 Lake Shore Dr, Frederica -- High Point Mhp -- Xst's: Kiwi Ct / Kylie Ln -- Caller: Hurd Shirley
+(Chief ALT) [40 Fire] - 17A2 - Falls - Non-Recent -- 254 Lake Shore Dr, Frederica -- High Point Mhp -- Xst's: Tyson Ln / Ibis Ct -- Caller: Spink Kimberley
+(Chief ALT) [40 Fire] - Outside Fire-Unknown 2124 BOWERS BEACH RD, Frederica -- Xst's: Grm Dr / Whitwell Delight Rd
+
+Contact:Active911
+[Chief ALT] [46 Fire] -- Stand-By,Cover-up -- 110 Firehouse Ln Marydel - Cross Sts: Strauss Av\n
+[Chief ALT] [46 Fire] -- Outside Fire-Small -- Wolf Creek Blvd/ Glenda Rd Dover - Cross Sts: None\n
+[Chief ALT] [46 Fire] -- Stand-By,Cover-up -- 2898 Arthursville Rd Hartly - Cross Sts: Main St\n Everetts Corner R Cross St2: Main St\n Everetts\n
+[Chief ALT] [46 Fire] -- Structure-Commercial -- 1481 N Dupont Hwy Dover - Cross Sts: W Rustic L - Caller:HILL, ANTONETTE\n
+[Chief ALT] [46 Fire] -- Alarms-Residential (single) -- 40 Saulsbury Rd Dover - Cross Sts: Carver R\n
+[Chief ALT] [46 Fire] -- Outside Fire-Field,Grass,Woods -- 1365 N Dupont Hwy Dover - Cross Sts: Dover Mal - Caller:dfd\n
+[Chief ALT] [46 Fire] -- 29D2L MVC Motorcycle/Bicycle -- 1131 N Dupont Hwy Dover - Cross Sts: Unknow - Caller:CODY\n
+[Chief ALT] [46 Fire] -- 29B4 MVC Unknown -- College Rd/ Mckee Rd Dover - Cross Sts: None - Caller:JAKE\n
+[Chief ALT] [46 Fire] -- Electrical Hazard-Arcing -- 1001 Forrest Ave Dover - Cross Sts: Saulsbury Rd\n Forest S Cross St2: Saulsbury\n
+[Chief ALT] [46 Fire] -- Fuel Spill (Small) -- 411 S Queen St Dover - Cross Sts: Dupont S\n
+[Chief ALT] [46 Fire] -- Alarms CO-Residential (single) -- 39 Kentwood Dr Dover - Cross Sts: Bismark D\n
+[Chief ALT] [46 Fire] -- Outside Fire-Small -- 1368 Rose Valley School Rd Dover - Cross Sts: Unknow\n
+[Chief ALT] [46 Fire] -- Search -- 1200 N Dupont Hwy Dover - Cross Sts: College R - Caller:DFD\n
+[Chief ALT] [46 Fire] -- 6D1 Breathing Problems -- 14 Fair Wind Pl Dover - Cross Sts: Bay Tree R - Caller:LUKE\n
+[Chief ALT] [46 Fire] -- Outside Fire-Small -- 100 Haman Dr Dover - Cross Sts: Kesselring Av - Caller:TORRES, DIANNA\n
+[Chief ALT] [46 Fire] -- Outside Fire-Small -- 217 Rose Valley School Rd Dover - Cross Sts: Hazlettville R - Caller:KWNTCOM\n
+[Chief ALT] [46 Fire] -- Vehicle Fire -- 439 Phoenix Dr Dover - Cross Sts: Santa Fe D - Caller:RILEY, EDEDE, E\n
+[Chief ALT] [46 Fire] -- Outside Fire-Small -- 75 Quail Hollow Dr Dover - Cross Sts: Village D - Caller:AUSTIN, THERESA\n
+[Chief ALT] [46 Fire] -- Alarms-Residential (single) -- 868 Woodcrest Dr Dover - Cross Sts: Woodcrest Tur - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Outside Fire-Small -- State Hwy 1  - Cross Sts: None - Caller:BAER, BRETT\n
+[Chief ALT] [46 Fire] -- Structure-Residential Single -- 880 Buttner Pl Dover - Cross Sts: Dead En\n
+[Chief ALT] [46 Fire] -- Alarms-Commercial -- 800 Otis Dr Dover - Cross Sts: Fowler C - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Fuel Spill (Small) -- KENT CO COURT HOUSE -- 414 Federal St Dover - Cross Sts: William Penn S - Caller:SHANER, DISPATCHER\n
+[Chief ALT] [46 Fire] -- Alarms-High Life Hazard -- LUTHER VILLAGE 1, LUTHER VILLAGE 2 -- 101 Babb Dr Dover - Cross Sts: Nob Hill R\n
+[Chief ALT] [46 Fire] -- Alarms-Commercial -- COMPASSIONATE PAIN MANAGEMENT -- 740 S New St Dover - Cross Sts: South S - Caller:44, DES\n
+[Chief ALT] [46 Fire] -- Alarms-Residential (multiple) -- APT-PINE GROVE APTS -- 255 Webbs Ln Dover - Cross Sts: John Clark Rd\n Mayberry L Cross St2: John Clark R - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Alarms-High Life Hazard -- SILVER LAKE CENTER -- 1080 Silver Lake Blvd Dover - Cross Sts: Unknow - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Alarms-Commercial -- 22 The Green Dover - Cross Sts: Bank L - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Alarms-Commercial -- CHRIST CHURCH -- 501 S State St Dover - Cross Sts: W Water St\n Water S Cross St2: W Water S - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Alarms-Commercial -- 800 Otis Dr Dover - Cross Sts: Fowler C - Caller:DFD\n
+[Chief ALT] [46 Fire] -- Alarms-Residential (single) -- 281 Sheffield Dr Dover - Cross Sts: Norwich Wa - Caller:ADT\n
+[Chief ALT] [46 Fire] -- Structure-Mobile Home/Trailer -- 243 Kentwood Dr Dover - Cross Sts: Phoenix D - Caller:SHANON\n
+
+Contact: Active911
+Agency name: American Legion Ambulance Service Sta. 64 Location: Smyrna, DE 
+Sender: 3022415352@mms.att.net
+- 32B2 - Medic Alert 289 INDIA DR , Smyrna: Xst's: HOFFECKER'S MILL DR / LAMBERTA FARM DR Caller:alert, life 
+- 17B1G Falls - Possibly Dangerous 5500 DU PONT PKWY , Smyrna: SMYRNA REST AREA Xst's: UNKNOWN / S EXIT 119B OFF RAMP RD S EXIT 119 ON RAMP RD Caller:CLARK, SAM 
+
+ */
 
 public class DEKentCountyBParserTest extends BaseParserTest {
   
@@ -64,7 +124,7 @@ public class DEKentCountyBParserTest extends BaseParserTest {
         "SRC:40 EMS",
         "CODE:10D2",
         "CALL:Chest Pains",
-        "ADDR:196 N  Bayshore Dr",
+        "ADDR:196 N Bayshore Dr",
         "CITY:Frederica",
         "PLACE:Bowers Beach",
         "X:N Flack Ave / Main St",
@@ -409,6 +469,29 @@ public class DEKentCountyBParserTest extends BaseParserTest {
         "CITY:Dover",
         "X:Phoenix D",
         "NAME:SHANON");
+
+  }
+  
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        "- 32B2 - Medic Alert 289 INDIA DR , Smyrna: Xst's: HOFFECKER'S MILL DR / LAMBERTA FARM DR Caller:alert, life ",
+        "CODE:32B2",
+        "CALL:Medic Alert",
+        "ADDR:289 INDIA DR",
+        "CITY:Smyrna",
+        "X:HOFFECKER'S MILL DR / LAMBERTA FARM DR",
+        "NAME:alert, life");
+
+    doTest("T2",
+        "- 17B1G Falls - Possibly Dangerous 5500 DU PONT PKWY , Smyrna: SMYRNA REST AREA Xst's: UNKNOWN / S EXIT 119B OFF RAMP RD S EXIT 119 ON RAMP RD Caller:CLARK, SAM ",
+        "CALL:17B1G Falls - Possibly Dangerous",
+        "ADDR:5500 DU PONT PKWY",
+        "CITY:Smyrna",
+        "PLACE:SMYRNA REST AREA",
+        "X:UNKNOWN / S EXIT 119B OFF RAMP RD S EXIT 119 ON RAMP RD",
+        "NAME:CLARK, SAM");
 
   }
   
