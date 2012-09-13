@@ -4986,6 +4986,8 @@ Sender: cad@sussexcountyde.gov
 {CAD Alert} 82B    Call at: 32544 Lewes Georgetown HwLoc: rear entrance to ACE HardCity:19958  Problem:  Traffic/TransportationAcdntBLS  Inc#: 2012-020662    Lat: 38747388    Long: 75176098   DISP: 23:19:44   Cross St: CONNECTING ROAD/CONNECTING ROAD
 {CAD Alert} 82ST   Call at: Savannah Rd & E 4th St   Loc:                          City:       Problem:  Washdown (Fuel Spill)           Inc#: 2012-020708    Lat: 0           Long: 0          DISP: 14:01:03   Cross St:
 **********************************************************
-From: ccespage@cces911.org
-Subject: Incident Notification
-Body: TYP: MVC INJURY LOC: PEOPLES BANK (MT VERNON ST BRANCH)AD: 305 W MT VERNON ST Nixa XST: S FORT AVE, N FORT AVE / N MCCROSKEY ST CMTS:  WILL BE ON MT VERNON  2 VEHICLES, IN FRONT OF THE BANK, INJURIES  E911 Info - Class of Service: WRLS  UNTS: EN21 EMS2  09/10/12 15:28
+Black Hawk County, IA
+Contact: Active911
+[] (Dispatch) 12-092660 ALLERGIES/HIVES/STING/MEDREACT \r\nReported: 09/03/2012 14:41:50 \r\n6615 LAFAYETTE RD \r\n4TH ST / 3 RD ST (RA/YMOND RD \r\nJOE THOME TRUCKING RAYMO\r\n
+[] (Dispatch) 12-087578 BURNING COMPLAINT\r\nReported: 08/21/2012 17:21:39\r\n504 S 3RD ST\r\nDUBUQUE / S S CT/\r\nMARSHALL,DAVID M3407  LID 6661 RAYMOND\r\n921\r\n
+**********************************************************
