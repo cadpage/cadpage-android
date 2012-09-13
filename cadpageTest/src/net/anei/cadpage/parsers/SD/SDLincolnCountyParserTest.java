@@ -4,6 +4,31 @@ import net.anei.cadpage.parsers.BaseParserTest;
 
 import org.junit.Test;
 
+/*
+Lincoln County, SD
+Contact: James Dietz <kc0usq@gmail.com>
+Sender: no-reply@ledsportal.com
+System: LEDS
+
+Subject:12-10952 - SIG1 : Injury Accident\nI-29 MM 64 \r\nPlease respond immediately. Roll over 6pts. I-29 nb south of the 64mm.\r
+Subject:12-10680 -\n48548 480TH AVE, Canton \r\nPlease respond immediately. Diabetic emergency\r
+Subject:AMB : Ambulance Call\n307 E Jefferson St # 7, Inwood eld male who has fallen\r
+Subject:12-10682 -\n903 W 5th. st #3, ca \r\nPlease respond immediately. 60 yo. f fallen and hit head.\r
+Subject:AMB : Ambulance Call\nI-29 NB at 59 MM59 MM I-29 27 YOM with severe back pain\r
+Subject:AMB : Ambulance Call\n501 S MAPLE ST, Inwood female had a baby 1 week ago passing clots\r
+Subject:AMB : Ambulance Call\n1022 N DAKOTA ST, CANTON, SD Non-ER transfer to Avera ER for behavioral evaluation\r
+Subject:Mutual Aid for Field and Hay Baler Fire\n48259 289th St\r\nPlease respond immediately.\r
+Subject:12-11731 -\n1947 250th St - M pt Fall Victim.  Please respond immediately.\r
+Subject:12-11722 - AMB : Ambulance Call\n519 S BARTLETT ST, CANTON, SD \r\nPlease respond immediately. 82 Yo. f poss dehydrated\r
+Subject:12-11690 - AMB : Ambulance Call\nSanford Canton-Inwood Hospital 14 y/o F pt - Head Injury\r\nPlease respond immediately.\r
+Subject:12-11612 - AMB : Ambulance Call\nCanton Good Samaritan Society \r\nPlease respond immediately.  98yo.f diff. breathing\r
+Subject:{12-12835} - {injury accident\n{gravel road between Inwood and Canton} \r\nPlease respond immediately.\r
+
+** Parser failures **
+Subject:dehydration\n519 s bartlett 18 yo female dehyrated, please respond\r
+Subject:12-11706 - AMB : Ambulance Call\n420 S. Dakota, c \r\nPlease respond immediately. 36 yo. m passed out.\r
+
+*/
 
 public class SDLincolnCountyParserTest extends BaseParserTest {
   
@@ -104,10 +129,17 @@ public class SDLincolnCountyParserTest extends BaseParserTest {
         "CALL:AMB : Ambulance Call",
         "ADDR:Canton Good Samaritan Society",
         "INFO:98yo.f diff. breathing");
-    
+
+    doTest("T13",
+        "Subject:{12-12835} - {injury accident\n{gravel road between Inwood and Canton} \r\nPlease respond immediately.\r",
+        "ID:12-12835",
+        "CALL:injury accident",
+        "ADDR:gravel road between Inwood and Canton",
+        "MADDR:gravel road between Inwood & Canton");
+   
   }
   
   public static void main(String[] args) {
-    new SDLincolnCountyParserTest().generateTests("T9", "ID CALL ADDR APT CITY ST INFO");
+    new SDLincolnCountyParserTest().generateTests("T1", "ID CALL ADDR APT CITY ST INFO");
   }
 }
