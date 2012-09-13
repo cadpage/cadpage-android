@@ -41,7 +41,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is ENDRES ANTHONY G",
 
         "ID:2012-00000242",
-        "CALL:129 E AccInjry",
+        "CODE:129 E",
+        "CALL:Traffic Injury Accidents",
         "PRI:1",
         "ADDR:RT206",
         "MADDR:RT 206 & BUDDTOWN RD",
@@ -78,7 +79,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is ENDRES ANTHONY G",
 
         "ID:2012-00000242",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:RT206",
         "MADDR:RT 206 & BUDDTOWN RD",
@@ -119,7 +121,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is KNOTT VINCENT M",
 
         "ID:2012-00000083",
-        "CALL:16 F Alarms",
+        "CODE:16 F",
+        "CALL:Alarm Systems",
         "PRI:1",
         "ADDR:511 MEADOWYCK LA",
         "MADDR:511 MEADOWYCK LN",
@@ -163,7 +166,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is JOHNSON THOMAS",
 
         "ID:2012-00000238",
-        "CALL:117 E Falls",
+        "CODE:117 E",
+        "CALL:Falls/Fractures",
         "PRI:1",
         "ADDR:311 RED LION RD",
         "CITY:Southampton",
@@ -205,7 +209,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is JOHNSON THOMAS",
 
         "ID:2012-00000238",
-        "CALL:117 E Falls",
+        "CODE:117 E",
+        "CALL:Falls/Fractures",
         "PRI:1",
         "ADDR:311 RED LION RD",
         "CITY:Southampton",
@@ -249,7 +254,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is YERKES WAYNE D",
 
         "ID:2012-00000234",
-        "CALL:129F E Mva/Fire",
+        "CODE:129F E",
+        "CALL:Motor Vehicle Accident Fire Response",
         "PRI:1",
         "ADDR:2063 RT206",
         "MADDR:2063 RT 206",
@@ -288,7 +294,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is KNOTT VINCENT M",
 
         "ID:2012-00000083",
-        "CALL:FIRE F Fire Call",
+        "CODE:FIRE F",
+        "CALL:Fire Call",
         "PRI:1",
         "ADDR:511 MEADOWYCK LA",
         "MADDR:511 MEADOWYCK LN",
@@ -330,7 +337,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is YERKES WAYNE D",
 
         "ID:2012-00000234",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:2063 RT206",
         "MADDR:2063 RT 206",
@@ -344,6 +352,7 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "NAME:DISP 1614 Complaintant: NJSP-RED LION",
         "UNIT:E179 E179 E178 E1781 E179 E1791",
         "INFO:MVA DRIVER WITH HEAD LAC//NJSP ON LOC");
+
   }
   
   @Test
@@ -374,7 +383,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is RUGGIANO EDWARD C",
 
         "ID:2012-00001892",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:6 DONOMA ST",
         "CITY:Pemberton Twp",
@@ -424,7 +434,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is FRIEDRICH JOSHUA",
 
         "ID:2012-00001897",
-        "CALL:124 E Pregnant",
+        "CODE:124 E",
+        "CALL:Pregnancy",
         "PRI:1",
         "ADDR:630 PEMBERTON BROWNS MILLS RD",
         "CITY:Pemberton Twp",
@@ -465,7 +476,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is HARRIS THOMAS",
 
         "ID:2012-00001904",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:84 DICKINSON CT",
         "CITY:Pemberton Twp",
@@ -506,7 +518,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is HARRIS THOMAS",
 
         "ID:2012-00001904",
-        "CALL:117 E Falls",
+        "CODE:117 E",
+        "CALL:Falls/Fractures",
         "PRI:1",
         "ADDR:84 DICKINSON CT",
         "CITY:Pemberton Twp",
@@ -523,6 +536,7 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
   
   @Test
   public void testActive911C() {
+
 
     doTest("T1",
         "(Automatic R&R Notification) Incident Number  : 2012-00002441                    ORI: E239          Station:\n" +
@@ -576,7 +590,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is GILBERT CHRISTINE MFrom: <LDYE@CO.BURLINGTON.NJ.US>",
 
         "ID:2012-00002441",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:3109 BRIDGEBORO RD",
         "CITY:Delran",
@@ -614,7 +629,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is GILBERT CHRISTINE MFrom: <LDYE@CO.BURLINGTON.NJ.US>",
 
         "ID:2012-00002442",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:1341 FAIRVIEW BV",  // Fairview ST instead of Fairview BV
         "CITY:Delran",
@@ -656,7 +672,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is GILBERT CHRISTINE MFrom: <LDYE@CO.BURLINGTON.NJ.US>",
 
         "ID:2012-00002442",
-        "CALL:119 E Heart",
+        "CODE:119 E",
+        "CALL:Heart Problems",
         "PRI:1",
         "ADDR:1341 FAIRVIEW BV",
         "CITY:Delran",
@@ -695,7 +712,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is GILBERT CHRISTINE MFrom: <LDYE@CO.BURLINGTON.NJ.US>",
 
         "ID:2012-00000157",
-        "CALL:FIRE F Fire Call",
+        "CODE:FIRE F",
+        "CALL:Fire Call",
         "PRI:1",
         "ADDR:208 HOOKER ST",
         "CITY:Riverside",
@@ -737,7 +755,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is CIEMNOLONSKI MICHAEL WFrom: <LDYE@CO.BURLINGTON.NJ.US>",
 
         "ID:2012-00002444",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:4004 N RT130",
         "MADDR:4004 N RT 130",
@@ -785,7 +804,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is CIEMNOLONSKI MICHAEL WFrom: <mciemnolonski@CO.BURLINGTON.NJ.US>",
 
         "ID:2012-00000409",
-        "CALL:105 E BackPain",
+        "CODE:105 E",
+        "CALL:Back Pain",
         "PRI:7",
         "ADDR:1000 COOPERTOWN RD",
         "CITY:Delanco",
@@ -828,7 +848,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is CIEMNOLONSKI MICHAEL WFrom: <LDYE@CO.BURLINGTON.NJ.US>",
 
         "ID:2012-00000580",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:611 FILMORE ST",
         "CITY:Riverside",
@@ -866,7 +887,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is JOHNSON THOMASFrom: <wyerkes@CO.BURLINGTON.NJ.US>",
 
         "ID:2012-00002488",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:12 CLEARWATER DR",
         "CITY:Willingboro",
@@ -906,7 +928,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is JOHNSON THOMASFrom: <vknott@CO.BURLINGTON.NJ.US>",
 
         "ID:2012-00002488",
-        "CALL:132 E UnkMedEmrg",
+        "CODE:132 E",
+        "CALL:Medical Emergency (Unknown Problem)",
         "PRI:1",
         "ADDR:12 CLEARWATER DR",
         "CITY:Willingboro",
@@ -944,7 +967,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is KNOTT VINCENT MFrom: <vknott@CO.BURLINGTON.NJ.US>",
 
         "ID:2012-00002493",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:BEVERLY RANCOCAS RD",
         "MADDR:BEVERLY RANCOCAS RD & PRIMROSE LN",
@@ -983,7 +1007,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is KNOTT VINCENT MFrom: <aendres@CO.BURLINGTON.NJ.US>",
 
         "ID:2012-00002493",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:BEVERLY RANCOCAS RD",
         "MADDR:BEVERLY RANCOCAS RD & PRIMROSE LN",
@@ -1043,7 +1068,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
         "The Dispatcher is ENDRES ANTHONY GFrom: <tjohnson@CO.BURLINGTON.NJ.US>",
 
         "ID:2012-00000581",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:1 SCOTT ST",
         "CITY:Riverside",
@@ -1152,7 +1178,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
 
         "ID:2012-00003181",
         "SRC:Sta 221",
-        "CALL:105 E BackPain",
+        "CODE:105 E",
+        "CALL:Back Pain",
         "PRI:1",
         "ADDR:270 GREENTREE RD",
         "CITY:Evesham",
@@ -1199,7 +1226,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
 
         "ID:2012-00003177",
         "SRC:Sta 221",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:156 HALSEY LA",
         "MADDR:156 HALSEY LN",
@@ -1249,7 +1277,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
 
         "ID:2012-00003184",
         "SRC:Sta 221",
-        "CALL:FIRE F Fire Call",
+        "CODE:FIRE F",
+        "CALL:Fire Call",
         "PRI:1",
         "ADDR:283 HAWTHORNE ST",
         "CITY:Evesham",
@@ -1299,7 +1328,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
 
         "ID:2012-00003184",
         "SRC:Sta 221",
-        "CALL:16 F Alarms",
+        "CODE:16 F",
+        "CALL:Alarm Systems",
         "PRI:1",
         "ADDR:283 HAWTHORNE ST",
         "CITY:Evesham",
@@ -1350,7 +1380,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
 
         "ID:2012-00003181",
         "SRC:Sta 221",
-        "CALL:105 E BackPain",
+        "CODE:105 E",
+        "CALL:Back Pain",
         "PRI:1",
         "ADDR:270 GREENTREE RD",
         "CITY:Evesham",
@@ -1456,7 +1487,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
 
         "ID:2012-00003181",
         "SRC:Sta 221",
-        "CALL:105 E BackPain",
+        "CODE:105 E",
+        "CALL:Back Pain",
         "PRI:1",
         "ADDR:270 GREENTREE RD",
         "CITY:Evesham",
@@ -1504,7 +1536,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
 
         "ID:2012-00003183",
         "SRC:Sta 221",
-        "CALL:112 E Convulsn",
+        "CODE:112 E",
+        "CALL:Convulsions/Seizures",
         "PRI:1",
         "ADDR:307 FERN DR",
         "CITY:Evesham",
@@ -1556,7 +1589,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
 
         "ID:2012-00003183",
         "SRC:Sta 221",
-        "CALL:112 E Convulsn",
+        "CODE:112 E",
+        "CALL:Convulsions/Seizures",
         "PRI:1",
         "ADDR:307 FERN DR",
         "CITY:Evesham",
@@ -1697,7 +1731,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
 
         "ID:2012-00003183",
         "SRC:Sta 221",
-        "CALL:112 E Convulsn",
+        "CODE:112 E",
+        "CALL:Convulsions/Seizures",
         "PRI:1",
         "ADDR:307 FERN DR",
         "CITY:Evesham",
@@ -1744,7 +1779,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
 
         "ID:2012-00003188",
         "SRC:Sta 221",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:870 E RT70",
         "MADDR:870 E RT 70",
@@ -1793,7 +1829,8 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
 
         "ID:2012-00003190",
         "SRC:Sta 221",
-        "CALL:EMS E EMS Call",
+        "CODE:EMS E",
+        "CALL:EMS Call",
         "PRI:1",
         "ADDR:306 N ELMWOOD RD",
         "CITY:Evesham",
@@ -1970,7 +2007,6 @@ public class NJBurlingtonCountyCParserTest extends BaseParserTest {
 
         "CALL:RUN REPORT",
         "PLACE:** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** **\n** ** ** **  \nIncident Number  : 2012-00003185                    ORI: 03220\nStation:  \nIncident Type  . :  131 E Uncon                Priority: 1  \nIncident Location: 211 HAYNES RUN CL\nVenue: MedfordTwp \n\nCall Time- 06:15:40                                Date- 09/07/2012  \nDispatch - 06:25:40     En-route-              On-scene-\nDepart 1-  \nArrive 2 -              Depart 2-              In-statn-\nCleared - 06:31:07 \n\nArea: 2503              Section :   20         Beat  . : 2502  \nGrid:                   Quadrant: 2513         District: 2513 \n\nPhone Number: (609) 714-1347                Call Source:  911 \n\nCaller. . . : TERRY WILSON \n\nNature of Call : 80F NOT BREATHING,VAGINAL BLEEDING,CPR NOT IN \n\nAdditional Info  \n  RESD:  \n  PROGRESS/LAST SPOKEN TOO WAS YESTERDAY \n\nNarrative  \n Information on the units assigned to the call follows.  \n    Unit: E1593   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  06:17:05     ENR: 09/07/12  06:18:07  \n       ARV: 09/07/12  06:27:19     DPT:             :  :  \n       AR2: 09/07/12  06:35:15     DP2:             :  :  \n       QTR:             :  :       CLR: 09/07/12  06:39:58  \n    Unit: E1693   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP:             :  :       ENR:             :  :  \n       ARV: 09/07/12  06:27:06     DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  06:27:12  \n    Unit: E258    Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  06:17:05     ENR:             :  :  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  06:30:53  \n    Unit: E2271   Radio:           Ofcr 1:            Ofcr 2:  \n       DSP: 09/07/12  06:25:40     ENR:             :  :  \n       ARV:             :  :       DPT:             :  :  \n       QTR:             :  :       CLR: 09/07/12  06:31:07  \n POLICE CONFIRMED PATIENT OBVIOUS DOA \\\\                       6:28:24 \n\nThe Call Taker is FRIEDRICH JOSHUA  \nThe Dispatcher is TIMMONS ERICA");
-   
     
   }
   

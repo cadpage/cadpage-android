@@ -62,6 +62,24 @@ public class PAAdamsCountyParserTest extends BaseParserTest {
         "CITY:STRABAN TWP",
         "X:SWIFT RUN RD & BRICKCRAFTERS RD");
 
+    doTest("T7",
+        "Subject:Alert: Fire - Brush / Wildland\n" +
+        "ALRM LVL: 1\r\n" +
+        "LOC:\r\n" +
+        "1809 GERMANY RD\r\n" +
+        "READING TWP\r\n" +
+        "BTWN: STONEY POINT RD & POSSUM HOLLOW RD\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "COM:\r",
+
+        "CALL:Fire - Brush / Wildland",
+        "PRI:1",
+        "ADDR:1809 GERMANY RD",
+        "CITY:READING TWP",
+        "X:STONEY POINT RD & POSSUM HOLLOW RD");
+
   }
   
   @Test
