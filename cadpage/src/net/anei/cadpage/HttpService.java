@@ -8,7 +8,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import android.app.Service;
@@ -142,11 +141,10 @@ public class HttpService extends Service {
      * @param content response contents
      */
     protected void processContent(String content) {
-      Matcher match = BODY_PTN.matcher(content);
-      if (match.find()) content = match.group(1);
+      content = HTML_TAGS_PTN.matcher(content).replaceAll("");
       processBody(content);
     }
-    private static final Pattern BODY_PTN = Pattern.compile("<body>(.*?)</body>", Pattern.CASE_INSENSITIVE);
+    private static final Pattern HTML_TAGS_PTN = Pattern.compile("</?(?:html|body)/?>", Pattern.CASE_INSENSITIVE);
 
     /**
      * This will be called when the HTTP request returns a successful result

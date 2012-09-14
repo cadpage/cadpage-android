@@ -31,7 +31,7 @@ SUBJ=<message subject>
 Any parameter value set to a dash (-) will be read from stdin for every message
 to be parsed
 
-The parser will start by optionially reading values for flags, format code, and 
+The parser will start by optionally reading values for flags, format code, and 
 message subject as separate lines from stdin.  It will then read any number of
 lines of text message, which can be terminated by an
 <*EOD*>

@@ -2,6 +2,7 @@
 **** Cadpage C2DM messaging protocol
     
 Stuff we need from you
+A list of the IP address ranges that will be used by your servers to push pages to Cadpage
 First an HTTP address that cadpage will use to communicate with your servers.
 A name or title of your service
 A short one line description, good place to sell why users should use your service
@@ -21,8 +22,7 @@ window for calls received from your service.  Icon sizes for this are
   24x24
   
 
-None of this is set in stone yet.  If simple changes will make it easier to code
-the web interface, by all means lets change them.
+Current assigned values
 
 For CodeMessaging
     vendor code: CodeMessaging
@@ -31,7 +31,7 @@ For CodeMessaging
 For Active911
     vender code: Active911
     SMS trigger: >A91
-
+    
 You have to set up a base HTTP address that Cadpage will use to communicate with
 your servers.  Cadpage will send the following parameter information to this address
 
@@ -41,7 +41,7 @@ req=info       general request for information about your company and service
 req=profile    request by user for specific information about their account
     vendor          Vendor code
     account         Account number/string reported in REGISTER request to device
-    phone           Phone number reported in REGISTER request to device
+    phone           Phone number if we have it (for Android tablets we probably will not)
     token           Security token reported in REGISTER request to device
     type            GCM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    New Cadpage registration ID
@@ -63,8 +63,8 @@ req=register - initial user request to register phone
     
 req=reregister  Used by Cadpage to report a change to the device registration ID
     vendor          Vendor code
+    phone           Phone number if we have it (for Android tablets we probably will not)
     account         Account number/string reported in REGISTER request to device
-    phone           Phone number reported in REGISTER request to device
     token           Security token reported in REGISTER request to device
     type            GCM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    New Cadpage registration ID
@@ -293,7 +293,9 @@ If the subscribing user already has a current paid Cadpage subscription, we woul
 prefer that you credit the user for whatever amount would normally be sent to
 Cadpage.  You can determine if they have a paid subscription by sending the device
 a PING request with a P code in the ack_req field.  Cadpage will respond with
-an acknowledge query that contains a paid_status value of either YES or NO.
+an acknowledge query that contains a paid_status value of either YES or NO.  
+If paid_status is YES, there will also be a paid_expiration_date with the Cadpage 
+subscription expiration date
 
 **** General notes:
 
