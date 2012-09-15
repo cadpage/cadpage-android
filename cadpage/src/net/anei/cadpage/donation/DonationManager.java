@@ -118,11 +118,11 @@ public class DonationManager {
         }
       } else if (limbo) status = DonationStatus.PAID_LIMBO;
       else status = DonationStatus.PAID_EXPIRE;
-    } else if ("General".equals(ManagePreferences.location()) &&
+    } else if (sponsor != null) status = DonationStatus.SPONSOR;
+    else if ("General".equals(ManagePreferences.location()) &&
                 ManagePreferences.filter().length()<=1) {
       status = DonationStatus.NEW;
-    } else if (sponsor != null) status = DonationStatus.SPONSOR;
-    else {
+    } else {
       if (daysTillExpire >= 0) status = DonationStatus.DEMO;
       else status = DonationStatus.DEMO_EXPIRE;
     }
