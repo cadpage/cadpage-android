@@ -732,6 +732,7 @@
     <item>VAWaynesboro</item>
     <item>VAWinchester</item>
     <item>WAClarkCounty</item>
+    <item>WAJeffersonCounty</item>
     <item>WAPierceCounty</item>
     <item>WAYakimaCounty</item>
     <item>WVCabellCounty</item>
@@ -1230,6 +1231,7 @@
     <item>Waynesboro, VA</item>
     <item>Winchester, VA</item>
     <item>Clark County, WA</item>
+    <item>Jefferson County, WA</item>
     <item>Pierce County, WA</item>
     <item>Yakima County, WA</item>
     <item>Cabell County, WV</item>

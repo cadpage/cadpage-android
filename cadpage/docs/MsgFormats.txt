@@ -2804,6 +2804,11 @@ CRESA LOC: 3615 NE EVERETT ST CAM MAP: 1302 OPS:   SEIZURE SUB TYPE: A1 PRI: 4 T
 CRESA LOC: 1315 NE 310TH AVE CLK MAP: 2430 OPS:   PUBLIC ASSIST/SERVICE CALL SUB TYPE: BU PRI: 4 TIME: 07:42:36 EV#: 12166548 ALARM: 1  Disp: SQ91
 CRESA LOC: 39801 NE 26TH ST CLK: @STATION 96 S96 MAP: 2424 OPS:   PUBLIC ASSIST/Service Call SUB TYPE: A PRI: 5 TIME: 15:36:47 EV#: 12168096 ALARM: 1 Disp: SQ96
 ***************************************************************************
+East Jefferson County, WA (WAJeffersonCountyParser)
+(JCFD5) BLS  :  A51   :   :  BK=(36  :   :  DEAD END / CASSERLARY ROAD EXT, MISTY RIDGE RD  :  09/06/12 20:27  :  Narrative :   72YOM  PNEMONIA  DIFF BR
+(JCFD5) BLS  :  E52   :   :  2911 SHERMAN ST  :  Port Townsend  :  29TH ST / 30TH ST  :  09/06/12 18:37  :  Narrative :   LEG IS STUCK  PT IS STUCK IN H
+(JCFD5) Fire - Dumpster  :  E16 A16 DC11   :   :  CASS ST  :  Port Townsend  :   :  09/06/12 02:22  :  Narrative :   IN THE MIDDLE OF THE STREET  COUCH 
+***************************************************************************
 Pierce County, WA (WAPierceCountyParser)
 (- part 1 of 1) RC:Run# 36872/Sick Person/<Unknown>/S 56TH ST & PACIFIC AVE///X=56th&55th/TACOMA// AVE//606//TACOMA/773 G5/\r\n\r\nThis is a confidential/proprietary communication intended for the add
 (- part 1 of 1) RC:Run# 45146/Unconscious/<Unknown>/6TH AVE & N STEVENS ST//behind 76 station/X=N Verde St&N Stevens St/TACOMA//\r\n\r\nThis is a confidential/propri
@@ -4815,21 +4820,6 @@ Hold until more info about pending CAD vendor change
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-East Jefferson County, WA
-Contact: Ryan Mc Allister <rtmcallister@yahoo.com>
-Sender: messaging@iamresponding.com
-System: New World
- 
-(JCFD5) BLS  :  A51   :   :  BK=(36  :   :  DEAD END / CASSERLARY ROAD EXT, MISTY RIDGE RD  :  09/06/12 20:27  :  Narrative :   72YOM  PNEMONIA  DIFF BR
-(JCFD5) BLS  :  E52   :   :  2911 SHERMAN ST  :  Port Townsend  :  29TH ST / 30TH ST  :  09/06/12 18:37  :  Narrative :   LEG IS STUCK  PT IS STUCK IN H
-(JCFD5) Fire - Dumpster  :  E16 A16 DC11   :   :  CASS ST  :  Port Townsend  :   :  09/06/12 02:22  :  Narrative :   IN THE MIDDLE OF THE STREET  COUCH 
-(JCFD5) Fire - Alarm Commercial  :  E31   :  San Juan Villa :  112 CASTELLANO WAY  :  Port Townsend  :  CAROLINE ST / SAN JUAN AVE  :  09/05/12 07:31  :
-(JCFD5) Fire - Alarm Commercial  :  E11 E31 DC112   :   :  3801 HASTINGS AVE W  :  Port Townsend  :  No Cross Streets Found  :  09/05/12 07:31  :  Narra
-(JCFD5) BLS  :  A51   :   :  31 N CHANDLER CT A  :  Port Ludlow  :  SPINNAKER PL, S CHANDLER CT / DEAD END  :  09/04/12 16:55  :  Narrative :   SUDDEN O
-(JCFD5) HazCon  :  E51 DC51   :   :  240 MOA HILL RD  :  Port Townsend  :  DEAD END / HWY 20  :  09/04/12 12:46  :  Narrative :   WAS FIRE, BUT UNK IF S
-(JCFD5) Fire - Brush  :  B21   :   :  330 GLEN LOGIE RD  :  Quilcene  :  DEAD END / HWY 101  :  09/03/12 19:06  :  Narrative :   DC21, NEED DNR TO RESPO
-(JCFD5) Fire - Illegal Burn  :  E15 M15 DC11   :   :  CREST AVE  :  Port Townsend  :   :  08/31/12 10:21  :  Narrative :   E911 Info - Class of Service:
-(JCFD5) BLS  :  A51   :   :  161 WINDROSE DR  :  Port Ludlow  :  DEAD END / MARTINGALE PL  :  08/27/12 09:18  :  Narrative :   LIFT ASSIST  GROUND LEVEL
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
