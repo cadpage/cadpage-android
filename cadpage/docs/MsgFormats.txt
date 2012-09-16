@@ -3409,9 +3409,6 @@ SNYDER911:ILLPER>ILL PERSON 12 SALEM MANOR CT PENN TWP SHAFFER, ALTHEA Map: Grid
 SNYDER911:SYNCOP>SYNCOPE 623 KREAMER AVE MIDDLECREEK TWP KLINGER, NEIL Map: Grids:, Cad: 2011-0000005611
 SNYDER911:PAIN >PAIN 18336 ROUTE 522 XS: HETRICK RD BEAVER TWP SUMMERS, TIFFANY Map: Grids:, Cad: 2011-0000005559
 **********************************************************
-Unknown
-Contact: Jason Reed <reedjasonf@gmail.com>
-MESSAGE / M50 MOTOR VEHICLE ACCIDENT-INJURIES  COUNTY ROAD 322  MapRegions:  CrossStreets: Description:  Dispatch: 6/22/2011 14:12:48\n\n\n\n\n**********************************************************
 Kanappolis, NC
 Contact: "jellyroll5502@yahoo.com" <jellyroll5502@yahoo.com>
 Sender: CAD@ci.kannapolis.nc.us
@@ -4807,6 +4804,10 @@ Hold until more info about pending CAD vendor change
 [JCFD5]  JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:07:1Unit:E51Address:EAGLEMOUNT RD / H
 (JCFD5) JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:10:1Unit:01TONEDAddress:FIRE - ST 52
 **********************************************************
+Albany County, NY ??
+Contact: sturnermxz@aol.com
+Sender: dispatch@edispatches.com
+(elsmerefd_cad Sep15-15:30) TYPE:OUT F Outdoors  \r\nLOC:10 SNOWDEN AV  \r\nBTWN:DELAWARE AV/ELLSWORTH AV \r\nNATURE:FIRE / SMELLS AND HEAVY SMOKE /
 **********************************************************
 *********************************************************
 **********************************************************
