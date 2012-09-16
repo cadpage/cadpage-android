@@ -88,7 +88,7 @@ BCSO:12-026968* 5753 GREEN CREST DR* * * * CREST MANOR DR* MILLCREST DR* * NBH: 
 */
 public class DispatchA3Parser extends FieldProgramParser {
   
-  private static final Pattern DELIM = Pattern.compile("\\* +");
+  private static final Pattern DELIM = Pattern.compile("\\*[\n ]+");
   
   private String prefix;
   
