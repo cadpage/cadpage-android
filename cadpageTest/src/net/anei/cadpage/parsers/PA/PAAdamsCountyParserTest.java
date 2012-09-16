@@ -4,6 +4,103 @@ import net.anei.cadpage.parsers.BaseParserTest;
 
 import org.junit.Test;
 
+/*
+Adams County, PA
+Contact: Tim Tyler <tyler33fire@yahoo.com>
+Contact: Randy Wolf <rmwolf2005@gmail.com>
+Sender: alert@adams911.com
+
+Subject:Alert: Traffic Accident - 1\nALRM LVL: 1\nLOC:\n274 HANOVER ST\nOXFORD TWP\nBTWN: COMMERCE ST & TROUT LN
+Subject:Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n80 HUNTER CIR\nHAMILTON TWP\nBTWN: FOX DEN LN & FOX MEADOW
+Subject:Alert: Diabetic Emergency - 1\nALRM LVL: 1\nLOC:\nLINCOLNWAY W/TRACY AVE\nNEW OXFORD BORO\nBTWN: TRACY AVE & KOHLER MILL RD
+Subject:Alert: Traffic Accident - 2\nALRM LVL: 1\nLOC:\nYORK RD/FLESHMAN MILL RD\nMOUNT PLEASANT TWP\nBTWN: FLESHMAN MILL RD
+Subject:Alert: Fire - Residential\nALRM LVL: 1\nLOC:\n2315 HUNTERSTOWN-HAMPTON RD\nSTRABAN TWP\nBTWN: ALLEY & CONEWAGO RD
+Subject:Alert: Traffic Accident - 2\nALRM LVL: 1\nLOC:\n760 NEW CHESTER RD\nSTRABAN TWP\nBTWN: SWIFT RUN RD & BRICKCRAFTERS RD
+Subject:Alert: Fire - Brush / Wildland\nALRM LVL: 1\r\nLOC:\r\n1809 GERMANY RD\r\nREADING TWP\r\nBTWN: STONEY POINT RD & POSSUM HOLLOW RD\r\n\r\n\r\n\r\nCOM:\r
+
+Contact: Active911
+Agency name: Fairfield Fire and EMS Location: Fairfield, PA 
+Sender: alert@adams911.com
+
+(Alert: Sick Person - 3) ALRM LVL: 1\nLOC:\n20 RINGNECK TRL\nCARROLL VALLEY BORO\nBTWN: WINTER TRL & FINCH TRL\n\n\n\nCOM:\nHANG UP BEFORE ANSWER\n77-year-old, female, conscious, breathing.\nShe is completely alert (responding appropriately).\nShe is breathing normally.\nShe does not have any pain.\nShe is not bleeding (or vomiting blood).\nShe is unwell/ill.\nDeterminant: 26A10, Suffix: , Response: Class 3\n77-year-old, female, conscious, breathing.   Code: 26-A-10: Unwell/ill\nShe is completely alert (responding appropriately).\nShe is breathing normally.\nShe does not have any pain.\nShe is not bleeding (or vomiting blood).\nShe is unwell/ill.\n\nCT:\nNBCOOK at POS 04
+(Alert: Sick Person - 3) ALRM LVL: 1\nLOC:\n24 DEEP POWDER TRL\nB\nCARROLL VALLEY BORO\nBTWN: SNOW BIRD TRL & SUNFISH TRL\n\nRCVD AS 911\n\nCOM:\n21-year-old, female, conscious, breathing.\nShe is completely alert (responding appropriately).\nShe is breathing normally.\nShe has other pain: MOUTH\nShe is not bleeding (or vomiting blood).\nNo priority symptoms (ALPHA conditions 2<128,147>11 not identified).\nNo priority symptoms (OMEGA conditions 2<128,147>28 not identified).\nPROQA Comment: MOUTH\nDeterminant: 26A01, Suffix: , Response: Class 3\n21-year-old, female, conscious, breathing.   Code: 26-A-1: No priority symptoms (complaint conditions 2€“11 not identified)\nShe is completely alert (responding appropriately).\nShe is breathing normally.\nShe has other pain: MOUTH\nShe is not bleeding (or vomiting blood).\nNo priority symptoms (ALPHA conditions 2<128,147>11 not identified).\nNo priority symptoms (OMEGA conditions 2<128,147>28 not identified).\nPROQA Comment: MOUTH\n\nCT:\nMDGROF at POS 03
+(Alert: Breathing Problems - 1) ALRM LVL: 1\nLOC:\nDOLLAR GENERAL-FAIRFIELD\n4910 FAIRFIELD RD\nHAMILTONBAN TWP\nBTWN: IRON SPRINGS RD & MCGLAUGHLIN LN\n\n\n\nCOM:\nWHT LIMO\n47-year-old, male, conscious, breathing.\nHe is completely alert (responding appropriately).\nHe does not have any difficulty speaking between breaths.\nHe is not changing color.\nIt''s not known if he is clammy.\nHe does not have asthma.\nN/A\nDeterminant: 06C01, Suffix: , Response: Class 1\n47-year-old, male, conscious, breathing.   Code: 6-C-1: Abnormal breathing\nHe is completely alert (responding appropriately).\nHe does not have any difficulty speaking between breaths.\nHe is not changing color.\nIt''s not known if he is clammy.\nHe does not have asthma.\nN/A\n\nCT:\nPLPETR at POS 04
+(Alert: Heart Problems - 1) ALRM LVL: 1\nLOC:\n7 HILLTOP TRL\nCARROLL VALLEY BORO\nBTWN: FAIRFIELD RD & CROSS TRL\n\n\n\nCOM:\n60-year-old, male, conscious, breathing.\nHe is not completely alert (not responding appropriately).\nHe is not breathing normally.\nHe has difficulty speaking between breaths.\nDeterminant: 19D01, Suffix: , Response: Class 1\nHe is not completely alert (not responding appropriately).\nHe is not breathing normally.\nHe has difficulty speaking between breaths.\nHe is changing color.\nHis color change is pale.\nHe is clammy.\nHe has a history of heart problems: STENTS CARDIAC\nHe does not have chest pain.\nHe took a prescribed medication in the past 12 hrs: NEW PILLS AND 1 NITRO\nThe caller was unable to reach the patient to check the pulse rate.\nThe caller tried but was unable to determine his pulse rate.\n60-year-old, male, conscious, breathing.   Code: 19-D-1: Not alert\nHe is not completely alert (not responding appropriately).\nHe is not breathing normally.\nHe has difficulty speaking between breaths.\nHe is changing color.\nHis color change is pale.\nHe is clammy.\nHe has a history of heart problems: STENTS CARDIAC\nHe does not have chest pain.\nHe took a prescribed medication in the past 12 hrs: NEW PILLS AND 1 NITRO\nThe caller was unable to reach the patient to check the pulse rate.\nThe caller tried but was unable to determine his pulse rate.\nPROQA Comment: STENTS CARDIAC\nPROQA Comment: NEW PILLS AND 1 NITRO\n\nCT:\nTATYLE at POS 04
+(Alert: Diabetic Emergency - 3) ALRM LVL: 1\nLOC:\n62 WEIKERT RD\nHIGHLAND TWP\nBTWN: FAIRFIELD RD & STOOPS RD\n\n\n\nCOM:\n85-year-old, female, conscious, breathing.\nShe is completely alert (responding appropriately).\nShe is behaving normally now.\nShe is breathing normally.\nDeterminant: 13A01, Suffix: , Response: Class 3\n85-year-old, female, conscious, breathing.   Code: 13-A-1: Alert and behaving normally\nShe is completely alert (responding appropriately).\nShe is behaving normally now.\nShe is breathing normally.\n\nCT:\nKEWHIT at POS 04
+(Alert: Traffic Accident - 1) ALRM LVL: 1\nLOC:\n1 MEADOW TRL\nCARROLL VALLEY BORO\nBTWN: VALLEY VIEW TRL & END\n\n\n\nCOM:\n\n\nCT:\nKEWHIT at POS 04
+(Alert: Traumatic Injury - 3) ALRM LVL: 1\nLOC:\n13 NOVICE RUN TRL\nCARROLL VALLEY BORO\nBTWN: SNOW BIRD TRL & END\n\nRCVD AS Officer Initiated\n\nCOM:\n\n\nCT:\nTATYLE at POS 03
+(Alert: Psych / Suicide - 2) ALRM LVL: 1\nLOC:\nHILLSIDE REST HOME\n1175 OLD WAYNESBORO RD\nHAMILTONBAN TWP\nBTWN: TUNNEL LN & LILAC LN\n\n\n\nCOM:\n61-year-old, male, conscious, breathing.\nHe is not violent.\nHe does not have a weapon.\nThe patient is inside the same structure.\nThis is not a suicide attempt.\nIt''s not known if he is thinking about committing suicide.\nHe is completely alert (responding appropriately).\nDeterminant: 25B06, Suffix: , Response: Class 2\n61-year-old, male, conscious, breathing.   Code: 25-B-6: Unknown status/Other codes not applicable\nHe is not violent.\nHe does not have a weapon.\nThe patient is inside the same structure.\nThis is not a suicide attempt.\nIt''s not known if he is thinking about committing suicide.\nHe is completely alert (responding appropriately).\n\nCT:\nJLSHEN at POS 04
+(Alert: Hemorrhage / Laceration - 1) ALRM LVL: 1\nLOC:\n15 WATER ST\nFAIRFIELD BORO\nBTWN: WORTZ DR & POLLY DR\n\n\n\nCOM:\n21-year-old, female, conscious, breathing.\nThe cause of the bleeding is traumatic.\nThe bleeding is from a DANGEROUS area.\nShe is completely alert (responding appropriately).\nShe is breathing normally.\nThere is no blood spurting or pouring out.\nDeterminant: 21D03, Suffix: , Response: Class 1\nThe cause of the bleeding is traumatic.\nThe bleeding is from a DANGEROUS area.\nShe is completely alert (responding appropriately).\nShe is breathing normally.\nThere is no blood spurting or pouring out.\nShe has a bleeding disorder.\n21-year-old, female, conscious, breathing.   Code: 21-D-3: DANGEROUS hemorrhage\nThe cause of the bleeding is traumatic.\nThe bleeding is from a DANGEROUS area.\nShe is completely alert (responding appropriately).\nShe is breathing normally.\nThere is no blood spurting or pouring out.\nShe has a bleeding disorder.\n2A-Switch Status-15 WATER ST, FAIRFIELD BORO\n2A-Dispatched-15 WATER ST, FAIRFIELD BORO\n\nCT:\nJLSHEN at POS 04
+(Alert: Psych / Suicide - 2) ALRM LVL: 1\nLOC:\nHILLSIDE REST HOME\n1175 OLD WAYNESBORO RD\nHAMILTONBAN TWP\nBTWN: TUNNEL LN & LILAC LN\n\n\n\nCOM:\n61-year-old, male, conscious, breathing.\nHe is not violent.\nHe does not have a weapon.\nThe patient is inside the same structure.\nThis is not a suicide attempt.\nIt''s not known if he is thinking about committing suicide.\nHe is completely alert (responding appropriately).\nDeterminant: 25B06, Suffix: , Response: Class 2\n61-year-old, male, conscious, breathing.   Code: 25-B-6: Unknown status/Other codes not applicable\nHe is not violent.\nHe does not have a weapon.\nThe patient is inside the same structure.\nThis is not a suicide attempt.\nIt''s not known if he is thinking about committing suicide.\nHe is completely alert (responding appropriately).\n2A-1-Switch Status-(HILLSIDE REST HOME) 1175 OLD WAYNESBORO RD, HAMILTONBAN TWP\n2A-1-Dispatched-(HILLSIDE REST HOME) 1175 OLD WAYNESBORO RD, HAMILTONBAN TWP\n\nCT:\nJLSHEN at POS 04
+(Alert: Traffic Accident - 1) ALRM LVL: 1\nLOC:\n608 POPLAR SPRINGS RD\nFRANKLIN TWP\nBTWN: RAGGED EDGE RD & ORCHARD RD\n\n\n\nCOM:\n31-year-old, male, conscious, breathing.\nThe incident involves an all-terrain vehicle or snowmobile.\nDeterminant: 29D02, Suffix: k, Response: Class 1\n\nCT:\nMMSHAN at POS 01
+(Alert: Traffic Accident - 1) ALRM LVL: 1\nLOC:\n608 POPLAR SPRINGS RD\nFRANKLIN TWP\nBTWN: RAGGED EDGE RD & ORCHARD RD\n\nRCVD AS 911\n\nCOM:\n31-year-old, male, conscious, breathing.\nThe incident involves an all-terrain vehicle or snowmobile.\nDeterminant: 29D02, Suffix: k, Response: Class 1\nThe incident involves an all-terrain vehicle or snowmobile.\nChemicals or other hazards are not involved.\nThere is no one pinned.\nEveryone appears to be completely awake (alert).\nHis injuries are described as other than to a NOT DANGEROUS area.\nThere is SERIOUS bleeding.\n31-year-old, male, conscious, breathing.   Code: 29-D-2-k: HIGH MECHANISM (k through s) (All-terrain/snowmobile)\nThe incident involves an all-terrain vehicle or snowmobile.\nChemicals or other hazards are not involved.\nThere is no one pinned.\nEveryone appears to be completely awake (alert).\nHis injuries are described as other than to a NOT DANGEROUS area.\nThere is SERIOUS bleeding.\nCH 4\nLIFE NET ON STANBY 10 MIN FLIGHT TIME\nASST 4 REQUESTED 2ND BLS\n\nCT:\nJLSHEN at POS 01
+(Alert: Breathing Problems - 1) ALRM LVL: 1\nLOC:\n20 RINGNECK TRL\nCARROLL VALLEY BORO\nBTWN: WINTER TRL & FINCH TRL\n\n\n\nCOM:\n75-year-old, female, conscious, breathing.\nShe is not completely alert (not responding appropriately).\nShe does not have any difficulty speaking between breaths.\nDeterminant: 06D01, Suffix: , Response: Class 1\nShe is not completely alert (not responding appropriately).\nShe does not have any difficulty speaking between breaths.\nShe is not changing color.\nShe is not clammy.\nShe does not have asthma.\nShe has special equipment or instructions to treat this.\nThe special equipment or instructions have been used.\n75-year-old, female, conscious, breathing.   Code: 6-D-1: Not alert\nShe is not completely alert (not responding appropriately).\nShe does not have any difficulty speaking between breaths.\nShe is not changing color.\nShe is not clammy.\nShe does not have asthma.\nShe has special equipment or instructions to treat this.\nThe special equipment or instructions have been used.\n\nCT:\nLMBYER at POS 04
+(Alert: Sick Person - 1) ALRM LVL: 1\nLOC:\n215 OLD MILL RD\nCUMBERLAND TWP\nBTWN: LAKE VIEW DR & PARK AVE\n\nRCVD AS 911\n\nCOM:\n64-year-old, female, conscious, breathing.\nShe is delirious.\nShe is breathing normally.\nShe has other pain: NECK AND SHOULDER\nShe is not bleeding (or vomiting blood).\nPROQA Comment: NECK AND SHOULDER\nDeterminant: 26C01, Suffix: , Response: Class 1\nShe is delirious.\nShe is breathing normally.\nShe has other pain: NECK AND SHOULDER\nShe is not bleeding (or vomiting blood).\nNo priority symptoms (ALPHA conditions 2<128,147>11 not identified).\nNo priority symptoms (OMEGA conditions 2<128,147>28 not identified).\n64-year-old, female, conscious, breathing.   Code: 26-C-1: ALTERED LEVEL OF CONSCIOUSNESS\nShe is delirious.\nShe is breathing normally.\nShe has other pain: NECK AND SHOULDER\nShe is not bleeding (or vomiting blood).\nNo priority symptoms (ALPHA conditions 2<128,147>11 not identified).\nNo priority symptoms (OMEGA conditions 2<128,147>28 not identified).\nPROQA Comment: NECK AND SHOULDER\n\nCT:\nGABRET at POS 04
+(Alert: Unconscious - 1) ALRM LVL: 1\nLOC:\nACNB BANK - FAIRFIELD\n4910 FAIRFIELD RD\nA\nHAMILTONBAN TWP\nBTWN: IRON SPRINGS RD & MCGLAUGHLIN LN\n\n\n\nCOM:\n30-year-old, male, conscious, breathing.\nHis breathing is not completely normal.\nHe is not completely alert (not responding appropriately).\nHe is changing color.\nHis color change is purple.\nDeterminant: 31D03, Suffix: , Response: Class 1\nPROQA has reconfigured the response\n30-year-old, male, conscious, breathing.   Code: 31-D-4: CHANGING COLOR\nHis breathing is not completely normal.\nHe is not completely alert (not responding appropriately).\nHe is changing color.\nHis color change is purple.\nIt''s not known if he has a history of heart problems.\nReconfigured determinant: 31D04, Suffix: , Response: Class 1\n30-year-old, male, conscious, breathing.   Code: 31-D-4: CHANGING COLOR\nHis breathing is not completely normal.\nHe is not completely alert (not responding appropriately).\nHe is changing color.\nHis color change is purple.\nIt''s not known if he has a history of heart problems.\n\nCT:\nGABRET at POS 04
+(Alert: Chest Pain - 1) ALRM LVL: 1\nLOC:\n2006 COLD SPRINGS RD\nHAMILTONBAN TWP\nBTWN: DUG LN & MORITZ RD\n\n\n\nCOM:\n14 YO MALE\n\nCT:\nWEHERR at POS 04
+(Alert: Chest Pain - 1) ALRM LVL: 1\nLOC:\n2006 COLD SPRINGS RD\nHAMILTONBAN TWP\nBTWN: DUG LN & MORITZ RD\n\n\n\nCOM:\n14 YO MALE\nIS ALERT COMPLAINING OF CHEST PAIN AND A HIGH HEART RATE\nIS BREATHING  NORMALLY IS NOT CHANGING COLOR\nIS CLAMMY\nPROQA Abort Text: WOULD NOT COME UP ON ORGINAL CALL EMD BY CARD\n\nCT:\nWEHERR at POS 04
+(Alert: Hemorrhage / Laceration - 2) ALRM LVL: 1\nLOC:\nHILLSIDE REST HOME\n1175 OLD WAYNESBORO RD\nHAMILTONBAN TWP\nBTWN: TUNNEL LN & LILAC LN\n\nRCVD AS 911\n\nCOM:\n83-year-old, male, conscious, breathing.\nThe cause of the bleeding is non-traumatic.\nThe bleeding is from a NOT DANGEROUS area.\nHe is completely alert (responding appropriately).\nHe is breathing normally.\nThere is SERIOUS bleeding.\nHe does not have a bleeding disorder or is taking blood thinners.\nDeterminant: 21B02, Suffix: , Response: Class 2\n83-year-old, male, conscious, breathing.   Code: 21-B-2: SERIOUS hemorrhage\nThe cause of the bleeding is non-traumatic.\nThe bleeding is from a NOT DANGEROUS area.\nHe is completely alert (responding appropriately).\nHe is breathing normally.\nThere is SERIOUS bleeding.\nHe does not have a bleeding disorder or is taking blood thinners.\n\nCT:\nREEIKE at POS 03
+(Alert: Chest Pain - 1) ALRM LVL: 1\nLOC:\n3585 CHAMBERSBURG RD\nFRANKLIN TWP\nBTWN: FLOHRS CHURCH RD & HILLTOWN RD\n\n\n\nCOM:\n18-year-old, female, conscious, breathing.\nShe is completely alert (responding appropriately).\nShe is not breathing normally.\nShe does not have any difficulty speaking between breaths.\nShe is clammy.\nDeterminant: 10D04, Suffix: , Response: Class 1\nShe is completely alert (responding appropriately).\nShe is not breathing normally.\nShe does not have any difficulty speaking between breaths.\nShe is clammy.\nShe has not had a heart attack or angina (heart pains) before.\nShe took a prescribed medication in the past 12 hrs: NORMAL MEDS\n18-year-old, female, conscious, breathing.   Code: 10-D-4: Clammy\nShe is completely alert (responding appropriately).\nShe is not breathing normally.\nShe does not have any difficulty speaking between breaths.\nShe is clammy.\nShe has not had a heart attack or angina (heart pains) before.\nShe took a prescribed medication in the past 12 hrs: NORMAL MEDS\nPROQA Comment: NORMAL MEDS\n\nCT:\nMDGROF at POS 04
+(Alert: Traffic Accident - 3) ALRM LVL: 1\nLOC:\nOLD ROUTE 30/ORRTANNA RD\nFRANKLIN TWP\nBTWN: ORRTANNA RD & HIGH ST\n\n\n\nCOM:\nVEHICLE ACCIDENT\n2 VEHICLES\nUNKNOWN INJURIES\nBOTH VEHICLES OFF THE ROADWAY\n\nCT:\nSNCROU at POS 01
+(Alert: Traumatic Injury - 3) ALRM LVL: 1\nLOC:\nJACKS MOUNTAIN RD/WAYNESBORO PIKE\nHAMILTONBAN TWP\nBTWN: OLD WAYNESBORO RD & WAYNESBORO PIKE\n\n\n\nCOM:\n\n\nCT:\nSNCROU at POS 04
+(Alert: Unconscious - 3) ALRM LVL: 1\nLOC:\n329 HIGH ST\nFRANKLIN TWP\nBTWN: HILLTOWN RD & OLD ROUTE 30\n\n\n\nCOM:\n10-year-old, female, conscious, breathing.\nHer breathing is completely normal.\nShe is completely alert (responding appropriately).\nShe is not changing color.\nShe has no history of heart problems.\nDeterminant: 31A03, Suffix: , Response: Class 3\n10-year-old, female, conscious, breathing.   Code: 31-A-3: Fainting episode(s) and alert < 35 (without cardiac history)\nHer breathing is completely normal.\nShe is completely alert (responding appropriately).\nShe is not changing color.\nShe has no history of heart problems.\n\nCT:\nCAHAGE at POS 04
+(Alert: Heart Problems - 1) ALRM LVL: 1\nLOC:\nGRANITE HILL CAMPGROUND & ADVENTURE GOLF\n3340 FAIRFIELD RD\nHIGHLAND TWP\nBTWN: CARR HILL RD & COLD SPRINGS RD\n\nRCVD AS 911\n\nCOM:\n59-year-old, male, conscious, breathing.\nHe is completely alert (responding appropriately).\nHe is breathing normally.\nHe is not clammy.\nHe has a history of heart problems: 8 STINTS\nHe has chest pain.\nHe took a prescribed medication in the past 12 hrs: 3 NITRO PILLS TO RELIEVE CHEST PAINS\nPROQA Comment: 8 STINTS\nPROQA Comment: 3 NITRO PILLS TO RELIEVE CHEST PAINS\nDeterminant: 19C03, Suffix: , Response: Class 1\nHe is completely alert (responding appropriately).\nHe is breathing normally.\nHe is not clammy.\nHe has a history of heart problems: 8 STINTS\nHe has chest pain.\nHe took a prescribed medication in the past 12 hrs: 3 NITRO PILLS TO RELIEVE CHEST PAINS\nInstructions for taking a pulse have been given.\nHis pulse is between 50 and 129 beats per minute.\n\nCT:\nREEIKE at POS 04
+(Alert: Falls - 2) ALRM LVL: 1\nLOC:\n47 SNOW BIRD TRL\nCARROLL VALLEY BORO\nBTWN: NOVICE RUN TRL & END\n\nRCVD AS 911\n\nCOM:\n\n\nCT:\nREEIKE at POS 04
+(Alert: Falls - 2) ALRM LVL: 1\nLOC:\n205 CARROLLS TRACT RD\nHAMILTONBAN TWP\nBTWN: BULLFROG RD & SUGAR LOAF LN\n\nRCVD AS 911\n\nCOM:\nEMD CALL\n94-year-old, female, conscious, breathing.\nThis happened now (less than 6hrs ago).\nIt''s reported that she fell at ground level.\nThe fall was accidental.\nThere is no bleeding now.\nShe is completely alert (responding appropriately).\nThe injury is to the chest.\nShe is not having difficulty breathing.\nShe is no longer on the floor (ground).\nDeterminant: 17B01, Suffix: , Response: Class 2\n94-year-old, female, conscious, breathing.   Code: 17-B-1: POSSIBLY DANGEROUS body area\nThis happened now (less than 6hrs ago).\nIt''s reported that she fell at ground level.\nThe fall was accidental.\nThere is no bleeding now.\nShe is completely alert (responding appropriately).\nThe injury is to the chest.\nShe is not having difficulty breathing.\nShe is no longer on the floor (ground).\n\nCT:\nTATYLE at POS 04
+(Alert: Traumatic Injury - 2) ALRM LVL: 1\nLOC:\n45 ORRTANNA RD\nFRANKLIN TWP\nBTWN: OLD ROUTE 30 & GREENFIELD LN\n\nRCVD AS 911\n\nCOM:\nLOWER BACK AND HEAD INJURY\n\nCT:\nLRSORD at POS 04
+(Alert: Traffic Accident - 2) ALRM LVL: 1\nLOC:\nGRANITE HILL CAMPGROUND & ADVENTURE GOLF\n3340 FAIRFIELD RD\nHIGHLAND TWP\nBTWN: CARR HILL RD & COLD SPRINGS RD\n\n\n\nCOM:\n3 CARS ONE PERSON STILL IN THE VEHICLE\n\nCT:\nKEDEHO at POS 04
+(Alert: Convulsions - 1) ALRM LVL: 1\nLOC:\n6475 FAIRFIELD RD\nCARROLL VALLEY BORO\nBTWN: STINE TRL & WAYNESBORO PIKE\n\n\n\nCOM:\n19-year-old, female, conscious, breathing.\nThis is apparently a generalized (grand mal) seizure.\nShe has not had more than one seizure in a row.\nShe is not pregnant.\nIt''s not known if she is diabetic.\nShe is not an epileptic and has not had seizures before.\nThe jerking (twitching) has not stopped.\nDeterminant: 12D02, Suffix: , Response: Class 1\n\nCT:\nMDGROF at POS 03
+(Alert: Traffic Accident - 1) ALRM LVL: 1\nLOC:\nPNC BANK-ZORA\n815 WAYNESBORO PIKE\nCARROLL VALLEY BORO\nBTWN: FAIRFIELD RD & AUTUMN TRL\n\nRCVD AS 911\n\nCOM:\n\n\nCT:\nKNPARR at POS 04
+(Alert: Traffic Accident - 1) ALRM LVL: 1\nLOC:\nCHAMBERSBURG RD/HIGH ST\nFRANKLIN TWP\nBTWN: HIGH ST & SHORT CUT RD\n\n\n\nCOM:\n\n\nCT:\nKNPARR at POS 04
+(Alert: Alarm Fire - Residential) ALRM LVL: 1\nLOC:\n451 STOOPS RD\nHIGHLAND TWP\nBTWN: CAMP GETTYSBURG RD & WEIKERT RD\n\nRCVD AS 911\n\nCOM:\nGEN FIRE ALARM\n\nCT:\nMDGROF at POS 04
+(Alert: Unconscious - 1) ALRM LVL: 1\nLOC:\n121 W MAIN ST\nSECOND FLOOR\nFAIRFIELD BORO\nBTWN: SIXTH AVE & SEVENTH ST\n\n\n\nCOM:\n50-year-old, female, not conscious, breathing.\nHer breathing is not completely normal.\nHer breathing is abnormal but effective.\nShe is still unconscious.\nPROQA Comment: Rate  = 10 breaths per minute\nPROQA Comment: Abnormal or Irregular*\nDeterminant: 31D02, Suffix: , Response: Class 1\n50-year-old, female, not conscious, breathing.   Code: 31-D-2: Unconscious €“ Effective breathing\nHer breathing is not completely normal.\nHer breathing is abnormal but effective.\nShe is still unconscious.\nPROQA Comment: Rate  = 10 breaths per minute\nPROQA Comment: Abnormal or Irregular*\nFOUND MOTHER IN BATHROOM UNCONSCIOUS\nBUT BREATHING\nUNKN HOW LONG SHE HAS BEEN UNCONSCIOUS\n\nCT:\nPAHAGE at POS 02
+(Alert: Sick Person - 3) ALRM LVL: 1\nLOC:\n932 ORCHARD RD\nFRANKLIN TWP\nBTWN: RODNEY LEE DR & POPLAR SPRINGS RD\n\n\n\nCOM:\n75-year-old, female, conscious, breathing.\nShe is completely alert (responding appropriately).\nShe is breathing normally.\nShe does not have any pain.\nShe is not bleeding (or vomiting blood).\nHer primary problem is nausea.\nDeterminant: 26A06, Suffix: , Response: Class 3\n\nCT:\nPAHAGE at POS 04
+(Alert: Hemorrhage / Laceration - 2) ALRM LVL: 1\nLOC:\n6 BLACK BASS TRL\nCARROLL VALLEY BORO\nBTWN: SKI RUN TRL & BLUE GILL TRL\n\n\n\nCOM:\n89-year-old, female, conscious, breathing.\nThe cause of the bleeding is non-traumatic.\nThe bleeding is from a NOT DANGEROUS area.\nShe is completely alert (responding appropriately).\nShe is breathing normally.\nThere is SERIOUS bleeding.\nShe takes blood thinners.\nDeterminant: 21B02, Suffix: , Response: Class 2\n89-year-old, female, conscious, breathing.   Code: 21-B-2: SERIOUS hemorrhage\nThe cause of the bleeding is non-traumatic.\nThe bleeding is from a NOT DANGEROUS area.\nShe is completely alert (responding appropriately).\nShe is breathing normally.\nThere is SERIOUS bleeding.\nShe takes blood thinners.\n\nCT:\nPAHAGE at POS 04
+(Alert: Traumatic Injury - 2) ALRM LVL: 1\nLOC:\n4 MILE TRL\nCARROLL VALLEY BORO\nBTWN: RANCH TRL & PALOMINO TRL\n\n\n\nCOM:\n4-year-old, female, conscious, breathing.\nThis happened now (less than 6hrs ago).\nThere is SERIOUS bleeding.\nShe is completely alert (responding appropriately).\nThe injury is to a POSSIBLY DANGEROUS area.\nDeterminant: 30B01, Suffix: , Response: Class 2\n4-year-old, female, conscious, breathing.   Code: 30-B-1: POSSIBLY DANGEROUS body area\nThis happened now (less than 6hrs ago).\nThere is SERIOUS bleeding.\nShe is completely alert (responding appropriately).\nThe injury is to a POSSIBLY DANGEROUS area.\n\nCT:\nPAHAGE at POS 04
+(Alert: Alarm Fire - Residential) ALRM LVL: 1\nLOC:\n451 STOOPS RD\nHIGHLAND TWP\nBTWN: CAMP GETTYSBURG RD & WEIKERT RD\n\nRCVD AS 911\n\nCOM:\n\n\nCT:\nLMBYER at POS 04
+(Alert: Alarm Fire - Residential) ALRM LVL: 1\nLOC:\n451 STOOPS RD\nHIGHLAND TWP\nBTWN: CAMP GETTYSBURG RD & WEIKERT RD\n\nRCVD AS 911\n\nCOM:\nDISP CH 3\nGENERAL FIRE ALARM\nALARM CO ADV NO CONTACT\nSU2-Switch Status-451 STOOPS RD, HIGHLAND TWP\nSU2-Enroute-451 STOOPS RD, HIGHLAND TWP\n\nCT:\nLMBYER at POS 04
+(Alert: Chest Pain - 1) ALRM LVL: 1\nLOC:\n11 PECAN TRL\nCARROLL VALLEY BORO\nBTWN: PEACH TREE TRL & END\n\n\n\nCOM:\n78-year-old, male, conscious, breathing.\nHe is completely alert (responding appropriately).\nHe is breathing normally.\nHe is changing color.\nHis color change is pale.\nHe is clammy.\nDeterminant: 10D04, Suffix: , Response: Class 1\nHe is completely alert (responding appropriately).\nHe is breathing normally.\nHe is changing color.\nHis color change is pale.\nHe is clammy.\nHe has had a heart attack before.\nHe took a prescribed medication in the past 12 hrs: REGULAR MEDS\n78-year-old, male, conscious, breathing.   Code: 10-D-4: Clammy\nHe is completely alert (responding appropriately).\nHe is breathing normally.\nHe is changing color.\nHis color change is pale.\nHe is clammy.\nHe has had a heart attack before.\nHe took a prescribed medication in the past 12 hrs: REGULAR MEDS\nPROQA Comment: REGULAR MEDS\n\nCT:\nKEDEHO at POS 04
+
+Contact: Active911
+Agency name: Southeastern Adams Volunteer Emergency Services Location: Hanover, PA 
+Sender: "alert@adams911.com" <alert@adams911.com>
+
+(Alert: Traffic Accident - 2) ALRM LVL: 1\nLOC:\n280 BERLIN RD\nOXFORD TWP\nBTWN: BILLERBECK ST & HAMPSHIRE DR\n\n\n\nCOM:\nTRUCK VS CAR\nUNK INJURIES - SOMEONE TOLD HER TO CALL AN AMBULANCE\n\nCT:\nNBCOOK at POS 03
+(Alert: Unconscious - 1) ALRM LVL: 1\nLOC:\nUTZ QUALITY FOODS\n101 KINDIG LN\nCONEWAGO TWP\nBTWN: RR TRACKS & MADISON ST\n\n\n\nCOM:\nAge unknown, male, conscious, breathing.\nIt''s not known if his breathing is completely normal.\nIt''s not known if he is completely alert (responding appropriately).\nIt''s not known if he is changing color.\nDeterminant: 31D03, Suffix: , Response: Class 1\nIt''s not known if he has a history of heart problems.\nThe patient is a Unkn year(s) male who is conscious and breathing.\n\nCT:\nPAHAGE at POS 04
+(Alert: Alarm Fire - Commercial) ALRM LVL: 1\nLOC:\nCONEWAGO TOWNSHIP ELEMENTARY SCHOOL\n1189 W ELM AVE\nCONEWAGO TWP\nBTWN: ALLEY & LINDEN AVE\n\nRCVD AS 911\n\nCOM:\n\n\nCT:\nJLSHEN at POS 03
+(Alert: Psych / Suicide - 3) ALRM LVL: 1\nLOC:\nPOPLAR ST/LINCOLN DR\nCONEWAGO TWP\nBTWN: LINCOLN DR & SYCAMORE LN\n\nRCVD AS 911\n\nCOM:\n\n\nCT:\nTATYLE at POS 04
+(Alert: Sick Person - 3) ALRM LVL: 1\nLOC:\n259 VINCENT DR\nCONEWAGO TWP\nBTWN: SHERRY DR & JOHNATHON DR\n\n\n\nCOM:\n46-year-old, male, conscious, breathing.\nHe is completely alert (responding appropriately).\nHe is breathing normally.\nHe has other pain: HEAD\nHe is not bleeding (or vomiting blood).\nHis primary problem is dizziness/vertigo.\nPROQA Comment: HEAD\nDeterminant: 26A03, Suffix: , Response: Class 3\nThe patient is a 46 year(s) male who is conscious and breathing.\n\nCT:\nWEHERR at POS 02
+(Alert: Falls - 3) ALRM LVL: 1\nLOC:\nSAINT JOSEPH VILLAGE\n50 ACADEMY ST\nMCSHERRYSTOWN BORO\nBTWN: MAIN ST & WILLOW ST\n\n\n\nCOM:\nSISTER JANE\n80-year-old, male, conscious, breathing.\nThis happened now (less than 6hrs ago).\nIt''s reported that he fell at ground level.\nThe fall was accidental.\nThere is no bleeding now.\nHe is completely alert (responding appropriately).\nThe injury is to a NOT DANGEROUS area.\nHe is no longer on the floor (ground).\nDeterminant: 17A01, Suffix: , Response: Class 3\nThe patient is a 80 year(s) male who is conscious and breathing.\n\nCT:\nAMSTON at POS 04
+(Alert: Fire - Residential) ALRM LVL: 1\nLOC:\n445 SCHOOL HOUSE RD\nTYRONE TWP\nBTWN: FRAZER RD & ROCK VALLEY RD\n\nRCVD AS 911\n\nCOM:\nCHIEF 6 ON SCENE WITH SMOKE SHOWING\nASST 25 REQUESTING WORKING FIRE DISPTACH\nMET ED AND ADAMS ELECTRIC\nADAMS ELECTRICAL CONFIRMED HOUSE IS THEIRS AND CREW DISPATCHED ETA 1HR\n20 MIN INTO INCIDENT NOTFIICATION MADE TO COMMAND 25\nE25-2-Safety Check-445 SCHOOL HOUSE RD, TYRONE TWP\nE25-2-Safety Check-445 SCHOOL HOUSE RD, TYRONE TWP\nT6-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nT9-Safety Check-445 SCHOOL HOUSE RD, TYRONE TWP\nT9-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nE6-2-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nE10-2-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n6A-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nR6-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nE7-2-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nT25-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nE9-1-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nOFFICER25-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nTWR5-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nE1-2-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nTK1-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nE25-2-Safety Check-445 SCHOOL HOUSE RD, TYRONE TWP\nRIT33-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n\nCT:\nAMSTON at POS 04
+(Alert: Utility Wires) ALRM LVL: 1\nLOC:\nRUNKLES NOTARY/INSURANCE\n1206 HIGH ST\nCONEWAGO TWP\nBTWN: WETZEL DR & END\n\nRCVD AS 911\n\nCOM:\nWIRES DOWN AND ARCHING.  POWER OUTTAGE IN AREA.\n\nCT:\nAMSTON at POS 01
+(Alert: Misc Fire) ALRM LVL: 1\nLOC:\n66 DAKOTA DR\nCONEWAGO TWP\nBTWN: STEVENS ST & SENECA DR\n\n\n\nCOM:\nGAS GRILL BLEW OVER  ODOR OF PROPANE\n\nCT:\nPAHAGE at POS 03
+(Alert: Misc Fire) ALRM LVL: 1\nLOC:\n66 DAKOTA DR\nCONEWAGO TWP\nBTWN: STEVENS ST & SENECA DR\n\n\n\nCOM:\nGAS GRILL BLEW OVER  ODOR OF PROPANE\nET29-Switch Status-66 DAKOTA DR, CONEWAGO TWP\nET29-Enroute-66 DAKOTA DR, CONEWAGO TWP\n\nCT:\nAMSTON at POS 03
+(Alert: Back Pain - 3) ALRM LVL: 1\nLOC:\n4642 HANOVER RD\nMOUNT PLEASANT TWP\nBTWN: HONDA RD & LITTLESTOWN RD\n\n\n\nCOM:\n76-year-old, male, conscious, breathing.\nThis started (happened) more than 6hrs ago.\nIt''s not known what caused his back pain.\nHe is not having difficulty breathing.\nHe does not have chest pain.\nHe is completely alert (responding appropriately).\nThe pain is described as: PAIN OF 9 ON 10 SCALE\nThere was no mention of aortic aneurysm or a tearing or ripping pain in the back or flank and abdomen.\nHe has not fainted or nearly fainted.\nPROQA Comment: PAIN OF 9 ON 10 SCALE\nDeterminant: 05A01, Suffix: , Response: Class 3\nThe patient is a 76 year(s) male who is conscious and breathing.\n\nCT:\nKABLOO at POS 01
+(Alert: Falls - 2) ALRM LVL: 1\nLOC:\n25 SHOSHONE DR\nCONEWAGO TWP\nBTWN: SENECA DR & PONTIAC PL\n\nRCVD AS 911\n\nCOM:\n3-year-old, male, conscious, breathing.\nThis happened now (less than 6hrs ago).\nThe fall was less than 10ft/3m (less than 1 story).\nThe fall was accidental.\nThere is some bleeding, not serious.\nHe is completely alert (responding appropriately).\nThe injury is to a POSSIBLY DANGEROUS area.\nHe is no longer on the floor (ground).\nDeterminant: 17B01, Suffix: , Response: Class 2\nThe patient is a 3 year(s) male who is conscious and breathing.\n\nCT:\nKABLOO at POS 03
+(Alert: Unconscious - 1) ALRM LVL: 1\nLOC:\n207 N OXFORD AVE\nMCSHERRYSTOWN BORO\nBTWN: RIDGE AVE & KINDIG LN\n\n\n\nCOM:\n95-year-old, male, conscious, breathing.\nThis happened now (less than 6hrs ago).\nIt''s reported that he fell at ground level.\nThe fall was caused by fainting (or near fainting).\nHis breathing is not completely normal.\nHe is not completely alert (not responding appropriately).\nHe is changing color.\nHis color change is pale.\nDeterminant: 31D03, Suffix: , Response: Class 1\nHe has a history of heart problems.\nThe patient is a 95 year(s) male who is conscious and breathing.\n\nCT:\nSARABINE at POS 04
+(Alert: Falls - 2) ALRM LVL: 1\nLOC:\n148 N SECOND ST\nMCSHERRYSTOWN BORO\nBTWN: NORTH ST & OAK LN\n\n\n\nCOM:\n76-year-old, female, conscious, breathing.\nThis happened now (less than 6hrs ago).\nIt''s reported that she fell at ground level.\nThe reason for the fall is not known.\nThere is no bleeding now.\nShe is completely alert (responding appropriately).\nThe injury is to a POSSIBLY DANGEROUS area.\nShe is still on the floor (ground).\nDeterminant: 17B01, Suffix: G, Response: Class 2\nThe patient is a 76 year(s) female who is conscious and breathing.\n\nCT:\nSNCROU at POS 04
+(Alert: Traumatic Injury - 3) ALRM LVL: 1\nLOC:\nCENTENNIAL RD/HONDA RD\nMOUNT PLEASANT TWP\nBTWN: HONDA RD & HILL RD\n\nRCVD AS 911\n\nCOM:\n\n\nCT:\nJLSHEN at POS 04
+(Alert: Traffic Accident - 1) ALRM LVL: 1\nLOC:\nFAMILY DOLLAR NEW OXFORD\n360 LINCOLNWAY E\nOXFORD TWP\nBTWN: BILLERBECK ST & BORO LINE\n\n\n\nCOM:\nONE VECH INTO POLE\n\nCT:\nSARABINE at POS 02
+(Alert: Falls - 3) ALRM LVL: 1\nLOC:\n56 ST MICHAELS WAY\nCONEWAGO TWP\nBTWN: EASTON WAY & EASTON WAY\n\n\n\nCOM:\n66-year-old, male, conscious, breathing.\nThis happened now (less than 6hrs ago).\nIt''s reported that he fell at ground level.\nThe fall was accidental.\nThere is no bleeding now.\nHe is completely alert (responding appropriately).\nHe has no injuries.\nHe is still on the floor (ground).\nDeterminant: 17A03, Suffix: G, Response: Class 3\nThe patient is a 66 year(s) male who is conscious and breathing.\n\nCT:\nPLPETR at POS 03
+(Alert: Breathing Problems - 1) ALRM LVL: 1\nLOC:\n68 APACHE PASS\nCONEWAGO TWP\nBTWN: COMANCHE TRL & DAKOTA DR\n\n\n\nCOM:\n76-year-old, female, conscious, breathing.\nShe is completely alert (responding appropriately).\nShe has difficulty speaking between breaths.\nDeterminant: 06D02, Suffix: , Response: Class 1\n\nCT:\nKABLOO at POS 04
+(Alert: Breathing Problems - 1) ALRM LVL: 1\nLOC:\n333 N THIRD ST\nCONEWAGO TWP\nBTWN: FAIRVIEW AVE & PROVIDENCE DR\n\n\n\nCOM:\n66-year-old, female, conscious, breathing.\nShe is completely alert (responding appropriately).\nShe has difficulty speaking between breaths.\nDeterminant: 06D02, Suffix: , Response: Class 1\nPROQA has reconfigured the response\n66-year-old, female, conscious, breathing.   Code: 6-D-2-A: DIFFICULTY SPEAKING BETWEEN BREATHS (Asthma)\nShe is not changing color.\nShe is clammy.\nShe has asthma.\nReconfigured determinant: 06D02, Suffix: A, Response: Class 1\nShe does not have a prescribed inhaler.\nN/A\nThe patient is a 66 year(s) female who is conscious and breathing.\n\nCT:\nKEDEHO at POS 04
+(Alert: Alarm Fire - Residential) ALRM LVL: 1\nLOC:\n46 STEED LN\nCONEWAGO TWP\nBTWN: OAK CREST CT & SAVOIR DR\n\nRCVD AS 911\n\nCOM:\nHAS SMOKE ALARMS GOING OFF HAS NO FIRE OR SMOKE JUST WANTS THE HOUSE CHECKED FOR CARBON MONOXCIDE AT THIS TIME\n\nCT:\nKEDEHO at POS 04
+(Alert: Sick Person - 1) ALRM LVL: 1\nLOC:\n3006 CENTENNIAL RD\nMOUNT PLEASANT TWP\nBTWN: CENTENNIAL AVE & BENDER RD\n\n\n\nCOM:\n65-year-old, female, conscious, breathing.\nShe is not completely alert (not responding appropriately).\nDeterminant: 26D01, Suffix: , Response: Class 1\nThe patient is a 65 year(s) female who is conscious and breathing.\n\nCT:\nPAHAGE at POS 04
+(Alert: Psych / Suicide - 2) ALRM LVL: 1\nLOC:\nBRETHREN HOME\n2990 CARLISLE PIKE\n4525\nOXFORD TWP\nBTWN: N/A & N/A\n\n\n\nCOM:\n76-year-old, male, conscious, breathing.\nHe is violent.\nHe does not have a weapon.\nThe patient is inside the same structure.\nThis is not a suicide attempt.\nHe is not thinking about committing suicide.\nHe is completely alert (responding appropriately).\nDeterminant: 25B06, Suffix: V, Response: Class 2\nThe patient is a 76 year(s) male who is conscious and breathing.\n\nCT:\nLMBYER at POS 04
+(Alert: Traffic Accident w/ Entrapment) ALRM LVL: 1\nLOC:\n2154 CARLISLE PIKE\nOXFORD TWP\nBTWN: GREEN SPRINGS RD & MUNICIPAL RD\n\n\n\nCOM:\nUNK INJURY, TRUCK AND 3 CARS\nPOSS ENTRAPMENT\n\nCT:\nGABRET at POS 04
+(Alert: Traffic Accident w/ Entrapment) ALRM LVL: 1\nLOC:\n2154 CARLISLE PIKE\nOXFORD TWP\nBTWN: GREEN SPRINGS RD & MUNICIPAL RD\n\n\n\nCOM:\nUNK INJURY, TRUCK AND 3 CARS\nPOSS ENTRAPMENT\nSTAT 13 AVAIL IF NEEDED\nM51 REQUEST STAT IN AIR\nTRAILER HAULING PROPANE\n\nCT:\nGABRET at POS 04
+(Alert: Abdominal Pain - 1) ALRM LVL: 1\nLOC:\nEAST BERLIN MANOR APARTMENTS\n407 ABBOTTSTOWN ST\nEAST BERLIN BORO\nBTWN: PARK AVE & BOYER DR\n\n\n\nCOM:\n62-year-old, female, conscious, breathing.\nShe is completely alert (responding appropriately).\nThe pain is described as: GAS PAINS\nThere was no mention of aortic aneurysm or a tearing or ripping pain in the back or flank and abdomen.\nShe has not fainted or nearly fainted.\nShe has pain above the belly button (navel).\nPROQA Comment: GAS PAINS\nDeterminant: 01C06, Suffix: , Response: Class 1\nThe patient is a 62 year(s) female who is conscious and breathing.\nABD PAIN, WEAKNESS, SOUNDS LIKE CALLER HAS SOME WHEEZING IN THE BACKGROUND APT 11\nYCM46-1-Switch Status-(EAST BERLIN MANOR APARTMENTS) 407 ABBOTTSTOWN ST, EAST BERLIN BORO\nYCM46-1-Enroute-(EAST BERLIN MANOR APARTMENTS) 407 ABBOTTSTOWN ST, EAST BERLIN BORO\n\nCT:\nGABRET at POS 01
+(Alert: Traffic Accident w/ Entrapment) ALRM LVL: 1\nLOC:\n2154 CARLISLE PIKE\nOXFORD TWP\nBTWN: GREEN SPRINGS RD & MUNICIPAL RD\n\n\n\nCOM:\nUNK INJURY, TRUCK AND 3 CARS\nPOSS ENTRAPMENT\nSTAT 13 AVAIL IF NEEDED\nM51 REQUEST STAT IN AIR\nTRAILER HAULING PROPANE\nFP 33-2 REQ CLOSEST TRAFFIC UNIT TO 94/HANOVER ST\n\nCT:\nGABRET at POS 04
+(Alert: Fire - Brush / Wildland) ALRM LVL: 1\nLOC:\n7035 YORK RD\nBERWICK TWP\nBTWN: BAIR RD & WOODS RD\n\nRCVD AS 911\n\nCOM:\n\n\nCT:\nGABRET at POS 04
+(Alert: Cardiac / Respiratory Arrest - 2) ALRM LVL: 1\nLOC:\nMCSHERRYSTOWN INTERFAITH HOUSING\n80 MAIN ST\nAPT A 25\nMCSHERRYSTOWN BORO\nBTWN: WATER ST & FIRST ST\n\nRCVD AS 911\n\nCOM:\n68 YEAR OLD MALE OBVIOUS DEATH\n\nCT:\nGABRET at POS 01
+(Alert: Falls - 2) ALRM LVL: 1\nLOC:\n331 LINDEN AVE\nCONEWAGO TWP\nBTWN: JEFFERSON ST & WASHINGTON ST\n\n\n\nCOM:\n90-year-old, female, conscious, breathing.\nIt''s not known when this happened.\nIt''s not known how far she fell.\nThe reason for the fall is not known.\nThere is some bleeding, not serious.\nShe is completely alert (responding appropriately).\nThe extent of her injuries is not known.\nShe is still on the floor (ground).\nDeterminant: 17B03, Suffix: G, Response: Class 2\n\nCT:\nMDGROF at POS 04
+(Alert: Unconscious - 3) ALRM LVL: 1\nLOC:\nTIM-BAR\n201 S COLLEGE AVE\nNEW OXFORD BORO\nBTWN: COMMERCE ST & N/A\n\n\n\nCOM:\n26-year-old, male, conscious, breathing.\nHis breathing is completely normal.\nHe is completely alert (responding appropriately).\nHe is changing color.\nHis color change is red.\nHe has no history of heart problems.\nDeterminant: 31A03, Suffix: , Response: Class 3\nThe patient is a 26 year(s) male who is conscious and breathing.\nDOOR M27\nLEFT ARM NUMBNESS AND FEELS LIKE HE IS GOING TO FAINT\nUSE DOOR M27\n\nCT:\nKNPARR at POS 03
+(Alert: Traffic Accident - 1) ALRM LVL: 1\nLOC:\nHANOVER RD/BENDER RD\nUNION TWP\nBTWN: BENDER RD & GEISELMAN RD\n\n\n\nCOM:\n\n\nCT:\nAJHANS at POS 04
+(Alert: Traffic Accident - 1) ALRM LVL: 1\nLOC:\nHANOVER RD/BENDER RD\nUNION TWP\nBTWN: BENDER RD & GEISELMAN RD\n\n\n\nCOM:\nFF MATT COLMS O/S, 3 PT'S, ONE WITH CHEST PAIN\n\nCT:\nAJHANS at POS 04
+(Alert: Diabetic Emergency - 1) ALRM LVL: 1\nLOC:\n712 LINDEN AVE\nCONEWAGO TWP\nBTWN: MAPLE AVE & ELM AVE\n\n\n\nCOM:\n61-year-old, male, conscious, breathing.\nHe is not completely alert (not responding appropriately).\nHe is behaving normally now.\nHe is breathing normally.\nDeterminant: 13C01, Suffix: , Response: Class 1\n\nCT:\nAJHANS at POS 04
+(Alert: Falls - 3) ALRM LVL: 1\nLOC:\nCHARLES F ZEIGLER & SONS FLOORCOV\n1110 W ELM AVE\nCONEWAGO TWP\nBTWN: JEFFERSON ST & WASHINGTON ST\n\nRCVD AS 911\n\nCOM:\n65-year-old, male, conscious, breathing.\nThis happened now (less than 6hrs ago).\nIt''s reported that he fell at ground level.\nThe fall was accidental.\nThere is no bleeding now.\nHe is completely alert (responding appropriately).\nHe has no injuries.\nHe is still on the floor (ground).\nDeterminant: 17A03, Suffix: G, Response: Class 3\nThe patient is a 65 year(s) male who is conscious and breathing.\n\nCT:\nLMBYER at POS 04
+
+*/
 
 public class PAAdamsCountyParserTest extends BaseParserTest {
   
@@ -1169,6 +1266,840 @@ public class PAAdamsCountyParserTest extends BaseParserTest {
         "CITY:CARROLL VALLEY",
         "X:PEACH TREE TRL & END",
         "INFO:78-year-old, male, conscious, breathing.\nHe is completely alert (responding appropriately).\nHe is breathing normally.\nHe is changing color.\nHis color change is pale.\nHe is clammy.\nDeterminant: 10D04, Suffix: , Response: Class 1\nHe is completely alert (responding appropriately).\nHe is breathing normally.\nHe is changing color.\nHis color change is pale.\nHe is clammy.\nHe has had a heart attack before.\nHe took a prescribed medication in the past 12 hrs: REGULAR MEDS\n78-year-old, male, conscious, breathing.   Code: 10-D-4: Clammy\nHe is completely alert (responding appropriately).\nHe is breathing normally.\nHe is changing color.\nHis color change is pale.\nHe is clammy.\nHe has had a heart attack before.\nHe took a prescribed medication in the past 12 hrs: REGULAR MEDS\nPROQA Comment: REGULAR MEDS\nKEDEHO at POS 04");
+
+  }
+  
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        "(Alert: Traffic Accident - 2) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "280 BERLIN RD\n" +
+        "OXFORD TWP\n" +
+        "BTWN: BILLERBECK ST & HAMPSHIRE DR\n\n\n\n" +
+        "COM:\n" +
+        "TRUCK VS CAR\n" +
+        "UNK INJURIES - SOMEONE TOLD HER TO CALL AN AMBULANCE\n\n" +
+        "CT:\n" +
+        "NBCOOK at POS 03",
+
+        "CALL:Traffic Accident - 2",
+        "PRI:1",
+        "ADDR:280 BERLIN RD",
+        "CITY:OXFORD TWP",
+        "X:BILLERBECK ST & HAMPSHIRE DR",
+        "INFO:TRUCK VS CAR\nUNK INJURIES - SOMEONE TOLD HER TO CALL AN AMBULANCE\nNBCOOK at POS 03");
+
+    doTest("T2",
+        "(Alert: Unconscious - 1) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "UTZ QUALITY FOODS\n" +
+        "101 KINDIG LN\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: RR TRACKS & MADISON ST\n\n\n\n" +
+        "COM:\n" +
+        "Age unknown, male, conscious, breathing.\n" +
+        "It''s not known if his breathing is completely normal.\n" +
+        "It''s not known if he is completely alert (responding appropriately).\n" +
+        "It''s not known if he is changing color.\n" +
+        "Determinant: 31D03, Suffix: , Response: Class 1\n" +
+        "It''s not known if he has a history of heart problems.\n" +
+        "The patient is a Unkn year(s) male who is conscious and breathing.\n\n" +
+        "CT:\n" +
+        "PAHAGE at POS 04",
+
+        "CALL:Unconscious - 1",
+        "PRI:1",
+        "PLACE:UTZ QUALITY FOODS",
+        "ADDR:101 KINDIG LN",
+        "CITY:CONEWAGO TWP",
+        "X:RR TRACKS & MADISON ST",
+        "INFO:Age unknown, male, conscious, breathing.\nIt''s not known if his breathing is completely normal.\nIt''s not known if he is completely alert (responding appropriately).\nIt''s not known if he is changing color.\nDeterminant: 31D03, Suffix: , Response: Class 1\nIt''s not known if he has a history of heart problems.\nThe patient is a Unkn year(s) male who is conscious and breathing.\nPAHAGE at POS 04");
+
+    doTest("T3",
+        "(Alert: Alarm Fire - Commercial) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "CONEWAGO TOWNSHIP ELEMENTARY SCHOOL\n" +
+        "1189 W ELM AVE\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: ALLEY & LINDEN AVE\n\n" +
+        "RCVD AS 911\n\n" +
+        "COM:\n\n\n" +
+        "CT:\n" +
+        "JLSHEN at POS 03",
+
+        "CALL:Alarm Fire - Commercial",
+        "PRI:1",
+        "PLACE:CONEWAGO TOWNSHIP ELEMENTARY SCHOOL",
+        "ADDR:1189 W ELM AVE",
+        "CITY:CONEWAGO TWP",
+        "X:ALLEY & LINDEN AVE",
+        "INFO:JLSHEN at POS 03");
+
+    doTest("T4",
+        "(Alert: Psych / Suicide - 3) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "POPLAR ST/LINCOLN DR\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: LINCOLN DR & SYCAMORE LN\n\n" +
+        "RCVD AS 911\n\n" +
+        "COM:\n\n\n" +
+        "CT:\n" +
+        "TATYLE at POS 04",
+
+        "CALL:Psych / Suicide - 3",
+        "PRI:1",
+        "ADDR:POPLAR ST & LINCOLN DR",
+        "CITY:CONEWAGO TWP",
+        "X:LINCOLN DR & SYCAMORE LN",
+        "INFO:TATYLE at POS 04");
+
+    doTest("T5",
+        "(Alert: Sick Person - 3) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "259 VINCENT DR\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: SHERRY DR & JOHNATHON DR\n\n\n\n" +
+        "COM:\n" +
+        "46-year-old, male, conscious, breathing.\n" +
+        "He is completely alert (responding appropriately).\n" +
+        "He is breathing normally.\n" +
+        "He has other pain: HEAD\n" +
+        "He is not bleeding (or vomiting blood).\n" +
+        "His primary problem is dizziness/vertigo.\n" +
+        "PROQA Comment: HEAD\n" +
+        "Determinant: 26A03, Suffix: , Response: Class 3\n" +
+        "The patient is a 46 year(s) male who is conscious and breathing.\n\n" +
+        "CT:\n" +
+        "WEHERR at POS 02",
+
+        "CALL:Sick Person - 3",
+        "PRI:1",
+        "ADDR:259 VINCENT DR",
+        "CITY:CONEWAGO TWP",
+        "X:SHERRY DR & JOHNATHON DR",
+        "INFO:46-year-old, male, conscious, breathing.\nHe is completely alert (responding appropriately).\nHe is breathing normally.\nHe has other pain: HEAD\nHe is not bleeding (or vomiting blood).\nHis primary problem is dizziness/vertigo.\nPROQA Comment: HEAD\nDeterminant: 26A03, Suffix: , Response: Class 3\nThe patient is a 46 year(s) male who is conscious and breathing.\nWEHERR at POS 02");
+
+    doTest("T6",
+        "(Alert: Falls - 3) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "SAINT JOSEPH VILLAGE\n" +
+        "50 ACADEMY ST\n" +
+        "MCSHERRYSTOWN BORO\n" +
+        "BTWN: MAIN ST & WILLOW ST\n\n\n\n" +
+        "COM:\n" +
+        "SISTER JANE\n" +
+        "80-year-old, male, conscious, breathing.\n" +
+        "This happened now (less than 6hrs ago).\n" +
+        "It''s reported that he fell at ground level.\n" +
+        "The fall was accidental.\n" +
+        "There is no bleeding now.\n" +
+        "He is completely alert (responding appropriately).\n" +
+        "The injury is to a NOT DANGEROUS area.\n" +
+        "He is no longer on the floor (ground).\n" +
+        "Determinant: 17A01, Suffix: , Response: Class 3\n" +
+        "The patient is a 80 year(s) male who is conscious and breathing.\n\n" +
+        "CT:\n" +
+        "AMSTON at POS 04",
+
+        "CALL:Falls - 3",
+        "PRI:1",
+        "PLACE:SAINT JOSEPH VILLAGE",
+        "ADDR:50 ACADEMY ST",
+        "CITY:MCSHERRYSTOWN",
+        "X:MAIN ST & WILLOW ST",
+        "INFO:SISTER JANE\n80-year-old, male, conscious, breathing.\nThis happened now (less than 6hrs ago).\nIt''s reported that he fell at ground level.\nThe fall was accidental.\nThere is no bleeding now.\nHe is completely alert (responding appropriately).\nThe injury is to a NOT DANGEROUS area.\nHe is no longer on the floor (ground).\nDeterminant: 17A01, Suffix: , Response: Class 3\nThe patient is a 80 year(s) male who is conscious and breathing.\nAMSTON at POS 04");
+
+    doTest("T7",
+        "(Alert: Fire - Residential) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "445 SCHOOL HOUSE RD\n" +
+        "TYRONE TWP\n" +
+        "BTWN: FRAZER RD & ROCK VALLEY RD\n\n" +
+        "RCVD AS 911\n\n" +
+        "COM:\n" +
+        "CHIEF 6 ON SCENE WITH SMOKE SHOWING\n" +
+        "ASST 25 REQUESTING WORKING FIRE DISPTACH\n" +
+        "MET ED AND ADAMS ELECTRIC\n" +
+        "ADAMS ELECTRICAL CONFIRMED HOUSE IS THEIRS AND CREW DISPATCHED ETA 1HR\n" +
+        "20 MIN INTO INCIDENT NOTFIICATION MADE TO COMMAND 25\n" +
+        "E25-2-Safety Check-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "E25-2-Safety Check-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "T6-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "T9-Safety Check-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "T9-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "E6-2-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "E10-2-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "6A-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "R6-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "E7-2-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "T25-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "E9-1-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "OFFICER25-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "TWR5-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "E1-2-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "TK1-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "E25-2-Safety Check-445 SCHOOL HOUSE RD, TYRONE TWP\n" +
+        "RIT33-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n\n" +
+        "CT:\n" +
+        "AMSTON at POS 04",
+
+        "CALL:Fire - Residential",
+        "PRI:1",
+        "ADDR:445 SCHOOL HOUSE RD",
+        "CITY:TYRONE TWP",
+        "X:FRAZER RD & ROCK VALLEY RD",
+        "INFO:CHIEF 6 ON SCENE WITH SMOKE SHOWING\nASST 25 REQUESTING WORKING FIRE DISPTACH\nMET ED AND ADAMS ELECTRIC\nADAMS ELECTRICAL CONFIRMED HOUSE IS THEIRS AND CREW DISPATCHED ETA 1HR\n20 MIN INTO INCIDENT NOTFIICATION MADE TO COMMAND 25\nE25-2-Safety Check-445 SCHOOL HOUSE RD, TYRONE TWP\nE25-2-Safety Check-445 SCHOOL HOUSE RD, TYRONE TWP\nT6-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nT9-Safety Check-445 SCHOOL HOUSE RD, TYRONE TWP\nT9-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nE6-2-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nE10-2-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\n6A-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nR6-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nE7-2-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nT25-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nE9-1-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nOFFICER25-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nTWR5-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nE1-2-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nTK1-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nE25-2-Safety Check-445 SCHOOL HOUSE RD, TYRONE TWP\nRIT33-Stop Safety Checks-445 SCHOOL HOUSE RD, TYRONE TWP\nAMSTON at POS 04");
+
+    doTest("T8",
+        "(Alert: Utility Wires) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "RUNKLES NOTARY/INSURANCE\n" +
+        "1206 HIGH ST\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: WETZEL DR & END\n\n" +
+        "RCVD AS 911\n\n" +
+        "COM:\n" +
+        "WIRES DOWN AND ARCHING.  POWER OUTTAGE IN AREA.\n\n" +
+        "CT:\n" +
+        "AMSTON at POS 01",
+
+        "CALL:Utility Wires",
+        "PRI:1",
+        "PLACE:RUNKLES NOTARY/INSURANCE",
+        "ADDR:1206 HIGH ST",
+        "CITY:CONEWAGO TWP",
+        "X:WETZEL DR & END",
+        "INFO:WIRES DOWN AND ARCHING.  POWER OUTTAGE IN AREA.\nAMSTON at POS 01");
+
+    doTest("T9",
+        "(Alert: Misc Fire) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "66 DAKOTA DR\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: STEVENS ST & SENECA DR\n\n\n\n" +
+        "COM:\n" +
+        "GAS GRILL BLEW OVER  ODOR OF PROPANE\n\n" +
+        "CT:\n" +
+        "PAHAGE at POS 03",
+
+        "CALL:Misc Fire",
+        "PRI:1",
+        "ADDR:66 DAKOTA DR",
+        "CITY:CONEWAGO TWP",
+        "X:STEVENS ST & SENECA DR",
+        "INFO:GAS GRILL BLEW OVER  ODOR OF PROPANE\nPAHAGE at POS 03");
+
+    doTest("T10",
+        "(Alert: Misc Fire) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "66 DAKOTA DR\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: STEVENS ST & SENECA DR\n\n\n\n" +
+        "COM:\n" +
+        "GAS GRILL BLEW OVER  ODOR OF PROPANE\n" +
+        "ET29-Switch Status-66 DAKOTA DR, CONEWAGO TWP\n" +
+        "ET29-Enroute-66 DAKOTA DR, CONEWAGO TWP\n\n" +
+        "CT:\n" +
+        "AMSTON at POS 03",
+
+        "CALL:Misc Fire",
+        "PRI:1",
+        "ADDR:66 DAKOTA DR",
+        "CITY:CONEWAGO TWP",
+        "X:STEVENS ST & SENECA DR",
+        "INFO:GAS GRILL BLEW OVER  ODOR OF PROPANE\nET29-Switch Status-66 DAKOTA DR, CONEWAGO TWP\nET29-Enroute-66 DAKOTA DR, CONEWAGO TWP\nAMSTON at POS 03");
+
+    doTest("T11",
+        "(Alert: Back Pain - 3) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "4642 HANOVER RD\n" +
+        "MOUNT PLEASANT TWP\n" +
+        "BTWN: HONDA RD & LITTLESTOWN RD\n\n\n\n" +
+        "COM:\n" +
+        "76-year-old, male, conscious, breathing.\n" +
+        "This started (happened) more than 6hrs ago.\n" +
+        "It''s not known what caused his back pain.\n" +
+        "He is not having difficulty breathing.\n" +
+        "He does not have chest pain.\n" +
+        "He is completely alert (responding appropriately).\n" +
+        "The pain is described as: PAIN OF 9 ON 10 SCALE\n" +
+        "There was no mention of aortic aneurysm or a tearing or ripping pain in the back or flank and abdomen.\n" +
+        "He has not fainted or nearly fainted.\n" +
+        "PROQA Comment: PAIN OF 9 ON 10 SCALE\n" +
+        "Determinant: 05A01, Suffix: , Response: Class 3\n" +
+        "The patient is a 76 year(s) male who is conscious and breathing.\n\n" +
+        "CT:\n" +
+        "KABLOO at POS 01",
+
+        "CALL:Back Pain - 3",
+        "PRI:1",
+        "ADDR:4642 HANOVER RD",
+        "CITY:MOUNT PLEASANT TWP",
+        "X:HONDA RD & LITTLESTOWN RD",
+        "INFO:76-year-old, male, conscious, breathing.\nThis started (happened) more than 6hrs ago.\nIt''s not known what caused his back pain.\nHe is not having difficulty breathing.\nHe does not have chest pain.\nHe is completely alert (responding appropriately).\nThe pain is described as: PAIN OF 9 ON 10 SCALE\nThere was no mention of aortic aneurysm or a tearing or ripping pain in the back or flank and abdomen.\nHe has not fainted or nearly fainted.\nPROQA Comment: PAIN OF 9 ON 10 SCALE\nDeterminant: 05A01, Suffix: , Response: Class 3\nThe patient is a 76 year(s) male who is conscious and breathing.\nKABLOO at POS 01");
+
+    doTest("T12",
+        "(Alert: Falls - 2) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "25 SHOSHONE DR\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: SENECA DR & PONTIAC PL\n\n" +
+        "RCVD AS 911\n\n" +
+        "COM:\n" +
+        "3-year-old, male, conscious, breathing.\n" +
+        "This happened now (less than 6hrs ago).\n" +
+        "The fall was less than 10ft/3m (less than 1 story).\n" +
+        "The fall was accidental.\n" +
+        "There is some bleeding, not serious.\n" +
+        "He is completely alert (responding appropriately).\n" +
+        "The injury is to a POSSIBLY DANGEROUS area.\n" +
+        "He is no longer on the floor (ground).\n" +
+        "Determinant: 17B01, Suffix: , Response: Class 2\n" +
+        "The patient is a 3 year(s) male who is conscious and breathing.\n\n" +
+        "CT:\n" +
+        "KABLOO at POS 03",
+
+        "CALL:Falls - 2",
+        "PRI:1",
+        "ADDR:25 SHOSHONE DR",
+        "CITY:CONEWAGO TWP",
+        "X:SENECA DR & PONTIAC PL",
+        "INFO:3-year-old, male, conscious, breathing.\nThis happened now (less than 6hrs ago).\nThe fall was less than 10ft/3m (less than 1 story).\nThe fall was accidental.\nThere is some bleeding, not serious.\nHe is completely alert (responding appropriately).\nThe injury is to a POSSIBLY DANGEROUS area.\nHe is no longer on the floor (ground).\nDeterminant: 17B01, Suffix: , Response: Class 2\nThe patient is a 3 year(s) male who is conscious and breathing.\nKABLOO at POS 03");
+
+    doTest("T13",
+        "(Alert: Unconscious - 1) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "207 N OXFORD AVE\n" +
+        "MCSHERRYSTOWN BORO\n" +
+        "BTWN: RIDGE AVE & KINDIG LN\n\n\n\n" +
+        "COM:\n" +
+        "95-year-old, male, conscious, breathing.\n" +
+        "This happened now (less than 6hrs ago).\n" +
+        "It''s reported that he fell at ground level.\n" +
+        "The fall was caused by fainting (or near fainting).\n" +
+        "His breathing is not completely normal.\n" +
+        "He is not completely alert (not responding appropriately).\n" +
+        "He is changing color.\n" +
+        "His color change is pale.\n" +
+        "Determinant: 31D03, Suffix: , Response: Class 1\n" +
+        "He has a history of heart problems.\n" +
+        "The patient is a 95 year(s) male who is conscious and breathing.\n\n" +
+        "CT:\n" +
+        "SARABINE at POS 04",
+
+        "CALL:Unconscious - 1",
+        "PRI:1",
+        "ADDR:207 N OXFORD AVE",
+        "CITY:MCSHERRYSTOWN",
+        "X:RIDGE AVE & KINDIG LN",
+        "INFO:95-year-old, male, conscious, breathing.\nThis happened now (less than 6hrs ago).\nIt''s reported that he fell at ground level.\nThe fall was caused by fainting (or near fainting).\nHis breathing is not completely normal.\nHe is not completely alert (not responding appropriately).\nHe is changing color.\nHis color change is pale.\nDeterminant: 31D03, Suffix: , Response: Class 1\nHe has a history of heart problems.\nThe patient is a 95 year(s) male who is conscious and breathing.\nSARABINE at POS 04");
+
+    doTest("T14",
+        "(Alert: Falls - 2) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "148 N SECOND ST\n" +
+        "MCSHERRYSTOWN BORO\n" +
+        "BTWN: NORTH ST & OAK LN\n\n\n\n" +
+        "COM:\n" +
+        "76-year-old, female, conscious, breathing.\n" +
+        "This happened now (less than 6hrs ago).\n" +
+        "It''s reported that she fell at ground level.\n" +
+        "The reason for the fall is not known.\n" +
+        "There is no bleeding now.\n" +
+        "She is completely alert (responding appropriately).\n" +
+        "The injury is to a POSSIBLY DANGEROUS area.\n" +
+        "She is still on the floor (ground).\n" +
+        "Determinant: 17B01, Suffix: G, Response: Class 2\n" +
+        "The patient is a 76 year(s) female who is conscious and breathing.\n\n" +
+        "CT:\n" +
+        "SNCROU at POS 04",
+
+        "CALL:Falls - 2",
+        "PRI:1",
+        "ADDR:148 N SECOND ST",
+        "CITY:MCSHERRYSTOWN",
+        "X:NORTH ST & OAK LN",
+        "INFO:76-year-old, female, conscious, breathing.\nThis happened now (less than 6hrs ago).\nIt''s reported that she fell at ground level.\nThe reason for the fall is not known.\nThere is no bleeding now.\nShe is completely alert (responding appropriately).\nThe injury is to a POSSIBLY DANGEROUS area.\nShe is still on the floor (ground).\nDeterminant: 17B01, Suffix: G, Response: Class 2\nThe patient is a 76 year(s) female who is conscious and breathing.\nSNCROU at POS 04");
+
+    doTest("T15",
+        "(Alert: Traumatic Injury - 3) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "CENTENNIAL RD/HONDA RD\n" +
+        "MOUNT PLEASANT TWP\n" +
+        "BTWN: HONDA RD & HILL RD\n\n" +
+        "RCVD AS 911\n\n" +
+        "COM:\n\n\n" +
+        "CT:\n" +
+        "JLSHEN at POS 04",
+
+        "CALL:Traumatic Injury - 3",
+        "PRI:1",
+        "ADDR:CENTENNIAL RD & HONDA RD",
+        "CITY:MOUNT PLEASANT TWP",
+        "X:HONDA RD & HILL RD",
+        "INFO:JLSHEN at POS 04");
+
+    doTest("T16",
+        "(Alert: Traffic Accident - 1) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "FAMILY DOLLAR NEW OXFORD\n" +
+        "360 LINCOLNWAY E\n" +
+        "OXFORD TWP\n" +
+        "BTWN: BILLERBECK ST & BORO LINE\n\n\n\n" +
+        "COM:\n" +
+        "ONE VECH INTO POLE\n\n" +
+        "CT:\n" +
+        "SARABINE at POS 02",
+
+        "CALL:Traffic Accident - 1",
+        "PRI:1",
+        "PLACE:FAMILY DOLLAR NEW OXFORD",
+        "ADDR:360 LINCOLNWAY E",
+        "CITY:OXFORD TWP",
+        "X:BILLERBECK ST & BORO LINE",
+        "INFO:ONE VECH INTO POLE\nSARABINE at POS 02");
+
+    doTest("T17",
+        "(Alert: Falls - 3) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "56 ST MICHAELS WAY\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: EASTON WAY & EASTON WAY\n\n\n\n" +
+        "COM:\n" +
+        "66-year-old, male, conscious, breathing.\n" +
+        "This happened now (less than 6hrs ago).\n" +
+        "It''s reported that he fell at ground level.\n" +
+        "The fall was accidental.\n" +
+        "There is no bleeding now.\n" +
+        "He is completely alert (responding appropriately).\n" +
+        "He has no injuries.\n" +
+        "He is still on the floor (ground).\n" +
+        "Determinant: 17A03, Suffix: G, Response: Class 3\n" +
+        "The patient is a 66 year(s) male who is conscious and breathing.\n\n" +
+        "CT:\n" +
+        "PLPETR at POS 03",
+
+        "CALL:Falls - 3",
+        "PRI:1",
+        "ADDR:56 ST MICHAELS WAY",
+        "CITY:CONEWAGO TWP",
+        "X:EASTON WAY & EASTON WAY",
+        "INFO:66-year-old, male, conscious, breathing.\nThis happened now (less than 6hrs ago).\nIt''s reported that he fell at ground level.\nThe fall was accidental.\nThere is no bleeding now.\nHe is completely alert (responding appropriately).\nHe has no injuries.\nHe is still on the floor (ground).\nDeterminant: 17A03, Suffix: G, Response: Class 3\nThe patient is a 66 year(s) male who is conscious and breathing.\nPLPETR at POS 03");
+
+// ************************ PARSE FAILURE *****************************
+// (Alert:) ALRM LVL: 1\n
+// LOC:\n
+// \n
+// BTWN: N/A & N/A\n
+// \n
+// \n
+// \n
+// COM:\n
+// \n
+// \n
+// CT:\n
+// KABLOO at POS 04
+
+    doTest("T19",
+        "(Alert: Breathing Problems - 1) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "68 APACHE PASS\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: COMANCHE TRL & DAKOTA DR\n\n\n\n" +
+        "COM:\n" +
+        "76-year-old, female, conscious, breathing.\n" +
+        "She is completely alert (responding appropriately).\n" +
+        "She has difficulty speaking between breaths.\n" +
+        "Determinant: 06D02, Suffix: , Response: Class 1\n\n" +
+        "CT:\n" +
+        "KABLOO at POS 04",
+
+        "CALL:Breathing Problems - 1",
+        "PRI:1",
+        "ADDR:68 APACHE PASS",
+        "CITY:CONEWAGO TWP",
+        "X:COMANCHE TRL & DAKOTA DR",
+        "INFO:76-year-old, female, conscious, breathing.\nShe is completely alert (responding appropriately).\nShe has difficulty speaking between breaths.\nDeterminant: 06D02, Suffix: , Response: Class 1\nKABLOO at POS 04");
+
+    doTest("T20",
+        "(Alert: Breathing Problems - 1) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "333 N THIRD ST\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: FAIRVIEW AVE & PROVIDENCE DR\n\n\n\n" +
+        "COM:\n" +
+        "66-year-old, female, conscious, breathing.\n" +
+        "She is completely alert (responding appropriately).\n" +
+        "She has difficulty speaking between breaths.\n" +
+        "Determinant: 06D02, Suffix: , Response: Class 1\n" +
+        "PROQA has reconfigured the response\n" +
+        "66-year-old, female, conscious, breathing.   Code: 6-D-2-A: DIFFICULTY SPEAKING BETWEEN BREATHS (Asthma)\n" +
+        "She is not changing color.\n" +
+        "She is clammy.\n" +
+        "She has asthma.\n" +
+        "Reconfigured determinant: 06D02, Suffix: A, Response: Class 1\n" +
+        "She does not have a prescribed inhaler.\n" +
+        "N/A\n" +
+        "The patient is a 66 year(s) female who is conscious and breathing.\n\n" +
+        "CT:\n" +
+        "KEDEHO at POS 04",
+
+        "CALL:Breathing Problems - 1",
+        "PRI:1",
+        "ADDR:333 N THIRD ST",
+        "CITY:CONEWAGO TWP",
+        "X:FAIRVIEW AVE & PROVIDENCE DR",
+        "INFO:66-year-old, female, conscious, breathing.\nShe is completely alert (responding appropriately).\nShe has difficulty speaking between breaths.\nDeterminant: 06D02, Suffix: , Response: Class 1\nPROQA has reconfigured the response\n66-year-old, female, conscious, breathing.   Code: 6-D-2-A: DIFFICULTY SPEAKING BETWEEN BREATHS (Asthma)\nShe is not changing color.\nShe is clammy.\nShe has asthma.\nReconfigured determinant: 06D02, Suffix: A, Response: Class 1\nShe does not have a prescribed inhaler.\nN/A\nThe patient is a 66 year(s) female who is conscious and breathing.\nKEDEHO at POS 04");
+
+    doTest("T21",
+        "(Alert: Alarm Fire - Residential) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "46 STEED LN\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: OAK CREST CT & SAVOIR DR\n\n" +
+        "RCVD AS 911\n\n" +
+        "COM:\n" +
+        "HAS SMOKE ALARMS GOING OFF HAS NO FIRE OR SMOKE JUST WANTS THE HOUSE CHECKED FOR CARBON MONOXCIDE AT THIS TIME\n\n" +
+        "CT:\n" +
+        "KEDEHO at POS 04",
+
+        "CALL:Alarm Fire - Residential",
+        "PRI:1",
+        "ADDR:46 STEED LN",
+        "CITY:CONEWAGO TWP",
+        "X:OAK CREST CT & SAVOIR DR",
+        "INFO:HAS SMOKE ALARMS GOING OFF HAS NO FIRE OR SMOKE JUST WANTS THE HOUSE CHECKED FOR CARBON MONOXCIDE AT THIS TIME\nKEDEHO at POS 04");
+
+    doTest("T22",
+        "(Alert: Sick Person - 1) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "3006 CENTENNIAL RD\n" +
+        "MOUNT PLEASANT TWP\n" +
+        "BTWN: CENTENNIAL AVE & BENDER RD\n\n\n\n" +
+        "COM:\n" +
+        "65-year-old, female, conscious, breathing.\n" +
+        "She is not completely alert (not responding appropriately).\n" +
+        "Determinant: 26D01, Suffix: , Response: Class 1\n" +
+        "The patient is a 65 year(s) female who is conscious and breathing.\n\n" +
+        "CT:\n" +
+        "PAHAGE at POS 04",
+
+        "CALL:Sick Person - 1",
+        "PRI:1",
+        "ADDR:3006 CENTENNIAL RD",
+        "CITY:MOUNT PLEASANT TWP",
+        "X:CENTENNIAL AVE & BENDER RD",
+        "INFO:65-year-old, female, conscious, breathing.\nShe is not completely alert (not responding appropriately).\nDeterminant: 26D01, Suffix: , Response: Class 1\nThe patient is a 65 year(s) female who is conscious and breathing.\nPAHAGE at POS 04");
+
+    doTest("T23",
+        "(Alert: Psych / Suicide - 2) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "BRETHREN HOME\n" +
+        "2990 CARLISLE PIKE\n" +
+        "4525\n" +
+        "OXFORD TWP\n" +
+        "BTWN: N/A & N/A\n\n\n\n" +
+        "COM:\n" +
+        "76-year-old, male, conscious, breathing.\n" +
+        "He is violent.\n" +
+        "He does not have a weapon.\n" +
+        "The patient is inside the same structure.\n" +
+        "This is not a suicide attempt.\n" +
+        "He is not thinking about committing suicide.\n" +
+        "He is completely alert (responding appropriately).\n" +
+        "Determinant: 25B06, Suffix: V, Response: Class 2\n" +
+        "The patient is a 76 year(s) male who is conscious and breathing.\n\n" +
+        "CT:\n" +
+        "LMBYER at POS 04",
+
+        "CALL:Psych / Suicide - 2",
+        "PRI:1",
+        "PLACE:BRETHREN HOME",
+        "ADDR:2990 CARLISLE PIKE",
+        "CITY:4525",
+        "X:N/A & N/A",
+        "INFO:76-year-old, male, conscious, breathing.\nHe is violent.\nHe does not have a weapon.\nThe patient is inside the same structure.\nThis is not a suicide attempt.\nHe is not thinking about committing suicide.\nHe is completely alert (responding appropriately).\nDeterminant: 25B06, Suffix: V, Response: Class 2\nThe patient is a 76 year(s) male who is conscious and breathing.\nLMBYER at POS 04");
+
+    doTest("T24",
+        "(Alert: Traffic Accident w/ Entrapment) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "2154 CARLISLE PIKE\n" +
+        "OXFORD TWP\n" +
+        "BTWN: GREEN SPRINGS RD & MUNICIPAL RD\n\n\n\n" +
+        "COM:\n" +
+        "UNK INJURY, TRUCK AND 3 CARS\n" +
+        "POSS ENTRAPMENT\n\n" +
+        "CT:\n" +
+        "GABRET at POS 04",
+
+        "CALL:Traffic Accident w/ Entrapment",
+        "PRI:1",
+        "ADDR:2154 CARLISLE PIKE",
+        "CITY:OXFORD TWP",
+        "X:GREEN SPRINGS RD & MUNICIPAL RD",
+        "INFO:UNK INJURY, TRUCK AND 3 CARS\nPOSS ENTRAPMENT\nGABRET at POS 04");
+
+    doTest("T25",
+        "(Alert: Traffic Accident w/ Entrapment) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "2154 CARLISLE PIKE\n" +
+        "OXFORD TWP\n" +
+        "BTWN: GREEN SPRINGS RD & MUNICIPAL RD\n\n\n\n" +
+        "COM:\n" +
+        "UNK INJURY, TRUCK AND 3 CARS\n" +
+        "POSS ENTRAPMENT\n" +
+        "STAT 13 AVAIL IF NEEDED\n" +
+        "M51 REQUEST STAT IN AIR\n" +
+        "TRAILER HAULING PROPANE\n\n" +
+        "CT:\n" +
+        "GABRET at POS 04",
+
+        "CALL:Traffic Accident w/ Entrapment",
+        "PRI:1",
+        "ADDR:2154 CARLISLE PIKE",
+        "CITY:OXFORD TWP",
+        "X:GREEN SPRINGS RD & MUNICIPAL RD",
+        "INFO:UNK INJURY, TRUCK AND 3 CARS\nPOSS ENTRAPMENT\nSTAT 13 AVAIL IF NEEDED\nM51 REQUEST STAT IN AIR\nTRAILER HAULING PROPANE\nGABRET at POS 04");
+
+    doTest("T26",
+        "(Alert: Abdominal Pain - 1) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "EAST BERLIN MANOR APARTMENTS\n" +
+        "407 ABBOTTSTOWN ST\n" +
+        "EAST BERLIN BORO\n" +
+        "BTWN: PARK AVE & BOYER DR\n\n\n\n" +
+        "COM:\n" +
+        "62-year-old, female, conscious, breathing.\n" +
+        "She is completely alert (responding appropriately).\n" +
+        "The pain is described as: GAS PAINS\n" +
+        "There was no mention of aortic aneurysm or a tearing or ripping pain in the back or flank and abdomen.\n" +
+        "She has not fainted or nearly fainted.\n" +
+        "She has pain above the belly button (navel).\n" +
+        "PROQA Comment: GAS PAINS\n" +
+        "Determinant: 01C06, Suffix: , Response: Class 1\n" +
+        "The patient is a 62 year(s) female who is conscious and breathing.\n" +
+        "ABD PAIN, WEAKNESS, SOUNDS LIKE CALLER HAS SOME WHEEZING IN THE BACKGROUND APT 11\n" +
+        "YCM46-1-Switch Status-(EAST BERLIN MANOR APARTMENTS) 407 ABBOTTSTOWN ST, EAST BERLIN BORO\n" +
+        "YCM46-1-Enroute-(EAST BERLIN MANOR APARTMENTS) 407 ABBOTTSTOWN ST, EAST BERLIN BORO\n\n" +
+        "CT:\n" +
+        "GABRET at POS 01",
+
+        "CALL:Abdominal Pain - 1",
+        "PRI:1",
+        "PLACE:EAST BERLIN MANOR APARTMENTS",
+        "ADDR:407 ABBOTTSTOWN ST",
+        "CITY:EAST BERLIN",
+        "X:PARK AVE & BOYER DR",
+        "INFO:62-year-old, female, conscious, breathing.\nShe is completely alert (responding appropriately).\nThe pain is described as: GAS PAINS\nThere was no mention of aortic aneurysm or a tearing or ripping pain in the back or flank and abdomen.\nShe has not fainted or nearly fainted.\nShe has pain above the belly button (navel).\nPROQA Comment: GAS PAINS\nDeterminant: 01C06, Suffix: , Response: Class 1\nThe patient is a 62 year(s) female who is conscious and breathing.\nABD PAIN, WEAKNESS, SOUNDS LIKE CALLER HAS SOME WHEEZING IN THE BACKGROUND APT 11\nYCM46-1-Switch Status-(EAST BERLIN MANOR APARTMENTS) 407 ABBOTTSTOWN ST, EAST BERLIN BORO\nYCM46-1-Enroute-(EAST BERLIN MANOR APARTMENTS) 407 ABBOTTSTOWN ST, EAST BERLIN BORO\nGABRET at POS 01");
+
+    doTest("T27",
+        "(Alert: Traffic Accident w/ Entrapment) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "2154 CARLISLE PIKE\n" +
+        "OXFORD TWP\n" +
+        "BTWN: GREEN SPRINGS RD & MUNICIPAL RD\n\n\n\n" +
+        "COM:\n" +
+        "UNK INJURY, TRUCK AND 3 CARS\n" +
+        "POSS ENTRAPMENT\n" +
+        "STAT 13 AVAIL IF NEEDED\n" +
+        "M51 REQUEST STAT IN AIR\n" +
+        "TRAILER HAULING PROPANE\n" +
+        "FP 33-2 REQ CLOSEST TRAFFIC UNIT TO 94/HANOVER ST\n\n" +
+        "CT:\n" +
+        "GABRET at POS 04",
+
+        "CALL:Traffic Accident w/ Entrapment",
+        "PRI:1",
+        "ADDR:2154 CARLISLE PIKE",
+        "CITY:OXFORD TWP",
+        "X:GREEN SPRINGS RD & MUNICIPAL RD",
+        "INFO:UNK INJURY, TRUCK AND 3 CARS\nPOSS ENTRAPMENT\nSTAT 13 AVAIL IF NEEDED\nM51 REQUEST STAT IN AIR\nTRAILER HAULING PROPANE\nFP 33-2 REQ CLOSEST TRAFFIC UNIT TO 94/HANOVER ST\nGABRET at POS 04");
+
+    doTest("T28",
+        "(Alert: Fire - Brush / Wildland) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "7035 YORK RD\n" +
+        "BERWICK TWP\n" +
+        "BTWN: BAIR RD & WOODS RD\n\n" +
+        "RCVD AS 911\n\n" +
+        "COM:\n\n\n" +
+        "CT:\n" +
+        "GABRET at POS 04",
+
+        "CALL:Fire - Brush / Wildland",
+        "PRI:1",
+        "ADDR:7035 YORK RD",
+        "CITY:BERWICK TWP",
+        "X:BAIR RD & WOODS RD",
+        "INFO:GABRET at POS 04");
+
+    doTest("T29",
+        "(Alert: Cardiac / Respiratory Arrest - 2) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "MCSHERRYSTOWN INTERFAITH HOUSING\n" +
+        "80 MAIN ST\n" +
+        "APT A 25\n" +
+        "MCSHERRYSTOWN BORO\n" +
+        "BTWN: WATER ST & FIRST ST\n\n" +
+        "RCVD AS 911\n\n" +
+        "COM:\n" +
+        "68 YEAR OLD MALE OBVIOUS DEATH\n\n" +
+        "CT:\n" +
+        "GABRET at POS 01",
+
+        "CALL:Cardiac / Respiratory Arrest - 2",
+        "PRI:1",
+        "PLACE:MCSHERRYSTOWN INTERFAITH HOUSING",
+        "ADDR:80 MAIN ST",
+        "APT:A 25",
+        "CITY:MCSHERRYSTOWN",
+        "X:WATER ST & FIRST ST",
+        "INFO:68 YEAR OLD MALE OBVIOUS DEATH\nGABRET at POS 01");
+
+    doTest("T30",
+        "(Alert: Falls - 2) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "331 LINDEN AVE\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: JEFFERSON ST & WASHINGTON ST\n\n\n\n" +
+        "COM:\n" +
+        "90-year-old, female, conscious, breathing.\n" +
+        "It''s not known when this happened.\n" +
+        "It''s not known how far she fell.\n" +
+        "The reason for the fall is not known.\n" +
+        "There is some bleeding, not serious.\n" +
+        "She is completely alert (responding appropriately).\n" +
+        "The extent of her injuries is not known.\n" +
+        "She is still on the floor (ground).\n" +
+        "Determinant: 17B03, Suffix: G, Response: Class 2\n\n" +
+        "CT:\n" +
+        "MDGROF at POS 04",
+
+        "CALL:Falls - 2",
+        "PRI:1",
+        "ADDR:331 LINDEN AVE",
+        "CITY:CONEWAGO TWP",
+        "X:JEFFERSON ST & WASHINGTON ST",
+        "INFO:90-year-old, female, conscious, breathing.\nIt''s not known when this happened.\nIt''s not known how far she fell.\nThe reason for the fall is not known.\nThere is some bleeding, not serious.\nShe is completely alert (responding appropriately).\nThe extent of her injuries is not known.\nShe is still on the floor (ground).\nDeterminant: 17B03, Suffix: G, Response: Class 2\nMDGROF at POS 04");
+
+    doTest("T31",
+        "(Alert: Unconscious - 3) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "TIM-BAR\n" +
+        "201 S COLLEGE AVE\n" +
+        "NEW OXFORD BORO\n" +
+        "BTWN: COMMERCE ST & N/A\n\n\n\n" +
+        "COM:\n" +
+        "26-year-old, male, conscious, breathing.\n" +
+        "His breathing is completely normal.\n" +
+        "He is completely alert (responding appropriately).\n" +
+        "He is changing color.\n" +
+        "His color change is red.\n" +
+        "He has no history of heart problems.\n" +
+        "Determinant: 31A03, Suffix: , Response: Class 3\n" +
+        "The patient is a 26 year(s) male who is conscious and breathing.\n" +
+        "DOOR M27\n" +
+        "LEFT ARM NUMBNESS AND FEELS LIKE HE IS GOING TO FAINT\n" +
+        "USE DOOR M27\n\n" +
+        "CT:\n" +
+        "KNPARR at POS 03",
+
+        "CALL:Unconscious - 3",
+        "PRI:1",
+        "PLACE:TIM-BAR",
+        "ADDR:201 S COLLEGE AVE",
+        "CITY:NEW OXFORD",
+        "X:COMMERCE ST & N/A",
+        "INFO:26-year-old, male, conscious, breathing.\nHis breathing is completely normal.\nHe is completely alert (responding appropriately).\nHe is changing color.\nHis color change is red.\nHe has no history of heart problems.\nDeterminant: 31A03, Suffix: , Response: Class 3\nThe patient is a 26 year(s) male who is conscious and breathing.\nDOOR M27\nLEFT ARM NUMBNESS AND FEELS LIKE HE IS GOING TO FAINT\nUSE DOOR M27\nKNPARR at POS 03");
+
+    doTest("T32",
+        "(Alert: Traffic Accident - 1) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "HANOVER RD/BENDER RD\n" +
+        "UNION TWP\n" +
+        "BTWN: BENDER RD & GEISELMAN RD\n\n\n\n" +
+        "COM:\n\n\n" +
+        "CT:\n" +
+        "AJHANS at POS 04",
+
+        "CALL:Traffic Accident - 1",
+        "PRI:1",
+        "ADDR:HANOVER RD & BENDER RD",
+        "CITY:UNION TWP",
+        "X:BENDER RD & GEISELMAN RD",
+        "INFO:AJHANS at POS 04");
+
+    doTest("T33",
+        "(Alert: Traffic Accident - 1) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "HANOVER RD/BENDER RD\n" +
+        "UNION TWP\n" +
+        "BTWN: BENDER RD & GEISELMAN RD\n\n\n\n" +
+        "COM:\n" +
+        "FF MATT COLMS O/S, 3 PT'S, ONE WITH CHEST PAIN\n\n" +
+        "CT:\n" +
+        "AJHANS at POS 04",
+
+        "CALL:Traffic Accident - 1",
+        "PRI:1",
+        "ADDR:HANOVER RD & BENDER RD",
+        "CITY:UNION TWP",
+        "X:BENDER RD & GEISELMAN RD",
+        "INFO:FF MATT COLMS O/S, 3 PT'S, ONE WITH CHEST PAIN\nAJHANS at POS 04");
+
+    doTest("T34",
+        "(Alert: Diabetic Emergency - 1) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "712 LINDEN AVE\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: MAPLE AVE & ELM AVE\n\n\n\n" +
+        "COM:\n" +
+        "61-year-old, male, conscious, breathing.\n" +
+        "He is not completely alert (not responding appropriately).\n" +
+        "He is behaving normally now.\n" +
+        "He is breathing normally.\n" +
+        "Determinant: 13C01, Suffix: , Response: Class 1\n\n" +
+        "CT:\n" +
+        "AJHANS at POS 04",
+
+        "CALL:Diabetic Emergency - 1",
+        "PRI:1",
+        "ADDR:712 LINDEN AVE",
+        "CITY:CONEWAGO TWP",
+        "X:MAPLE AVE & ELM AVE",
+        "INFO:61-year-old, male, conscious, breathing.\nHe is not completely alert (not responding appropriately).\nHe is behaving normally now.\nHe is breathing normally.\nDeterminant: 13C01, Suffix: , Response: Class 1\nAJHANS at POS 04");
+
+    doTest("T35",
+        "(Alert: Falls - 3) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "CHARLES F ZEIGLER & SONS FLOORCOV\n" +
+        "1110 W ELM AVE\n" +
+        "CONEWAGO TWP\n" +
+        "BTWN: JEFFERSON ST & WASHINGTON ST\n\n" +
+        "RCVD AS 911\n\n" +
+        "COM:\n" +
+        "65-year-old, male, conscious, breathing.\n" +
+        "This happened now (less than 6hrs ago).\n" +
+        "It''s reported that he fell at ground level.\n" +
+        "The fall was accidental.\n" +
+        "There is no bleeding now.\n" +
+        "He is completely alert (responding appropriately).\n" +
+        "He has no injuries.\n" +
+        "He is still on the floor (ground).\n" +
+        "Determinant: 17A03, Suffix: G, Response: Class 3\n" +
+        "The patient is a 65 year(s) male who is conscious and breathing.\n\n" +
+        "CT:\n" +
+        "LMBYER at POS 04",
+
+        "CALL:Falls - 3",
+        "PRI:1",
+        "PLACE:CHARLES F ZEIGLER & SONS FLOORCOV",
+        "ADDR:1110 W ELM AVE",
+        "CITY:CONEWAGO TWP",
+        "X:JEFFERSON ST & WASHINGTON ST",
+        "INFO:65-year-old, male, conscious, breathing.\nThis happened now (less than 6hrs ago).\nIt''s reported that he fell at ground level.\nThe fall was accidental.\nThere is no bleeding now.\nHe is completely alert (responding appropriately).\nHe has no injuries.\nHe is still on the floor (ground).\nDeterminant: 17A03, Suffix: G, Response: Class 3\nThe patient is a 65 year(s) male who is conscious and breathing.\nLMBYER at POS 04");
 
   }
   
