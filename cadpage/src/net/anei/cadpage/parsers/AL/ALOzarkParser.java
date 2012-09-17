@@ -6,23 +6,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Ozark, AL
-Contact: John Price <jprice911@yahoo.com>
-Sender: dispatch@ozarkdale911.org
-
-(ALERT!) "MEDICAL EMERGENCY"6491 E ANDREWS AVE,REF DIABETIC UNABLE TO EAT & VOIMITTING
-(ALERT!) SERVICE CALL 192 CEDAR CT OFF PINE AVE OFF NEWTON AVE REF LIFTING ASSISTANCE PER MEDIC 1
-(ALERT!) MED EMER 145 PATTERSON OFF E EUFAULA, MALE SUBJECT SEVERAL LAC TO ARM, BLEEDING HEAVILY
-(ALERT!) DELAY PAGE.DOUGLAS DR OFF E HWY 27,REF SUBJECT STABBED,UNITS STAG FOR OPD
-(ALERT!) MEDICAL EMER 135 JUDSON DR OFF WILL LOGAN RD REF PATIENT CONFUSED AND CLAMY
-
-Contact: John Price <jprice911@yahoo.com>
-Sender: dispatch1@ozarkdale911.org
-MEDICAL EMERGENCY AT 198 HOLIDAY LANE REF MEDICAL ALARM UNKN INJURIES\nSABRINA PETERS
-MEDICAL EMERGENCY AT 460 W COLLEGE ST REF FEMALE SUBJECT UNCONSCIENE\njohn dunn
-
-*/
+/**
+ * Ozark, AL
+ */
 public class ALOzarkParser extends SmartAddressParser {
   
   private static final Pattern DELIM = Pattern.compile("[ ,](OFF|REF) ");

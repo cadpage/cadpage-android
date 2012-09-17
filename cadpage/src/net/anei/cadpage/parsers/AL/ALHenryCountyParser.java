@@ -4,20 +4,9 @@ package net.anei.cadpage.parsers.AL;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Henry County, AL
-Contact: Jarrod Dozier <captnjd5@gmail.com>
-Sender: Janet.Toliver@comcast.net
-
-MEDICAL EMERGENCY CO.RD. 405 @ CO.RD. 49 SOUTH OF 134 EAST FEMALE SUBJ FALLEN FROM HORSE... HAVING DIFFICULTY BREATHING
-MEDICAL CALL 5526 CO. RD. 73 IN NEWVILLE 14 YO TOOK 15 TREDONE SUBJ. IS CONCIOUS AT THIS TIME.
-FIRE ALARM ACTIVATION 506 HOLLY LANE SMOKE AND THERMAL HEAT DETECTOR DOES NOT ADV. SPECIFIC AREA INSIDE RESIDENCE.
-MEDICAL EMERG. 707 MITCHELL ST. DIARRHEA, VOMITING, FEVER, HISTORY DIABETES, HEART PROBLEMS.
-MEDICAL CALL 509 TERRACE DR. IN HEADLAND MALE PAT. DIFF. BREATHING FEEL AS IF HE IS ABOUT TO PASS OUT.,
-
-*/
-
-
+/**
+ * Henry County, AL
+ */
 public class ALHenryCountyParser extends SmartAddressParser {
 
   public ALHenryCountyParser() {
