@@ -62,10 +62,12 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern MCVEAGH_PTN = Pattern.compile("\\bMC VEAGH\\b", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       while (field.startsWith("U:")) field = field.substring(2).trim();
+      field = MCVEAGH_PTN.matcher(field).replaceAll("MCVEAGH");
       super.parse(field, data);
     }
   }
