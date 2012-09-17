@@ -4804,10 +4804,11 @@ Hold until more info about pending CAD vendor change
 [JCFD5]  JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:07:1Unit:E51Address:EAGLEMOUNT RD / H
 (JCFD5) JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:10:1Unit:01TONEDAddress:FIRE - ST 52
 **********************************************************
-Albany County, NY ??
+Albany County, NY (alternate)
 Contact: sturnermxz@aol.com
 Sender: dispatch@edispatches.com
 (elsmerefd_cad Sep15-15:30) TYPE:OUT F Outdoors  \r\nLOC:10 SNOWDEN AV  \r\nBTWN:DELAWARE AV/ELLSWORTH AV \r\nNATURE:FIRE / SMELLS AND HEAVY SMOKE /
+[elsmerefd_cad Sep14-16:49]  TYPE:STR F Structure\nLOC:790 ROUTE 9W\nBTWN:WEMPLE RD/CHURCH RD\nNATURE:GENERAL FIRE
 **********************************************************
 *********************************************************
 **********************************************************
