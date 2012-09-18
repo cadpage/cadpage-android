@@ -4821,7 +4821,6 @@ Jeffco Sheriff Message / Information/Controlled Burn - 11374 Pauls Dr // till 18
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4832,6 +4831,36 @@ Sender: E911@co.cumberland.nj.us
 Subject:R3923_DIABETIC_(DOWNE TWP)442 BAPTIST RD\nE911:21:35_\r
 Subject:R3923_DWELLING_(FAIRFIELD TWP)254 BACK N\nE911:33:27_\r
 Subject:T3911_COVER_(FAIRFIELD TWP)STATION 16 / \nE911:26:38_\r
+**********************************************************
+Warren County, NJ
+Contact: David F <spankerdave69@gmail.com>
+Sample Text Messages with Cross Streets & Townships
+Messages are sent using Tami Messaging system
+Warren County, NJ 
+Town of Phillipsburg, Pohatcong Township, Alpha Boro
+Phillipsburg Emergency Squad 94 Rescue 
+Warren County Communications
+WC911@co.warren.nj.us
+
+E94 ALERT: UNCONSC 41 YOF 1623 WARREN ST ALPHA BORO (SENT 09/16 19:29)
+Cross Streets -  6th Ave & 7th Ave  
+Alpha Boro
+
+E94 ALERT: WEAKNESS 56 YOF 108 ARROWHEAD CT / SOUTH GATE APT 7D PHILLIPSBURG TOWN (SENT 09/17 06:57)
+Cross Streets- Lock St 
+Town of Phillipsburg
+
+E94 ALERT: ABDOM PN 79 YOF 408 SAINT JAMES AVE POHATCONG TWP (SENT 09/17 10:22)
+Cross Streets- Liggett Blvd & Pershing Ave  
+Pohatcong Twsp
+
+E94 ALERT: ABDOM PN 68 YOF 719 SAMPSON AVE ALPHA BORO (SENT 09/17 14:42)
+Cross St- Pearl St 
+Alpha Boro
+
+E94 ALERT: BLEEDING 6-7 YOM BARBER SCHOOL / 50 SARGENT AVE / 525 SARGENT AVE PHILLIPSBURG TOWN (SENT 09/17 11:25)
+Cross Streets- Corliss Ave & Grave Ave
+Town of Phillipsburg
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

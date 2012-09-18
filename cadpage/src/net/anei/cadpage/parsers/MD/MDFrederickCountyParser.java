@@ -148,7 +148,7 @@ public class MDFrederickCountyParser extends FieldProgramParser {
     buildCodeTable(new String[]{
         "ADAM","Adams County", //PA
         "ADAM CO", "Adams County",
-        "ADCO","Franklin County", //PA
+        "ADCO","Adams County", //PA
         "BRUN","Brunswick",   
         "CARRCO", "Carroll County",
         "CEMB","Emmitsburg",
