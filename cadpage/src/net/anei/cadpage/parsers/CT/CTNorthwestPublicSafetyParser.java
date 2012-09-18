@@ -6,28 +6,10 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Roxbury, CT
-Contact: Mike Josefson <mikejosefson@gmail.com>
-Sender: globalpaging@nowestps.org
-
-FRM:globalpaging@nowestps.org\nSUBJ:From Northwest\nMSG:FLAG SWAMP RD & SOUTH ST  ROXBURY MVA EMS ROX AMB RO EMSX RO ENG12 ROX RES9 ROX FD1 Primary Incident: 040734\n\n(End)
-FRM:globalpaging@nowestps.org\nSUBJ:From Northwest\nMSG:39 TRANSYLVANIA RD  ROXBURY CHOKING ABNORM BREATH (PARTIAL OBSTRUCT) ROX AMB RO EMSX Primary Incident: 040410\n\n(End)
-FRM:globalpaging@nowestps.org\nSUBJ:From Northwest\nMSG:102 PAINTER HILL RD  ROXBURY FAINTING/SYNCOPE ROX AMB RO EMSX Primary Incident: 040378\n\n(End)
-FRM:globalpaging@nowestps.org\nSUBJ:From Northwest\nMSG:314 PAINTER HILL RD  ROXBURY FIRE ALARM RO ENG12 RO ENG10 RO TKR11 ROX RES9 ROX FD1 Primary Incident: 00120\n\n(End)
-FRM:globalpaging@nowestps.org\nSUBJ:From Northwest\nMSG:71 SOUTH ST  ROXBURY FIRE ALARM RO ENG12 RO ENG10 RO TKR11 ROX RES9 ROX FD1 Primary Incident: 00119\n\n\n(End)
-FRM:globalpaging@nowestps.org\nSUBJ:From Northwest\nMSG:BOTSFORD HILL RD & GOLDEN HARVEST RD  ROXBURY WIRES DOWN/FIRE ROX RES9 ROX FD1 Primary Incident: 00109
-
-Seymour, CT
-Contact: support@active911.com
-Sender: globalpaging@nowestps.org
-(From Northwest) 21 LANTERN DR  SEYMOUR PSYCHIATRIC PROBLEM TANGO 5 SEY 1ST Primary Incident: 012658 21 LANTERN DR
-(From Northwest) 15 SHARI DR, Apt. B  SEYMOUR DIFFICULTY BREATHING, SOB TANGO 5 SEY 1ST Primary Incident: 012581 15 SHARI DR, Apt. B
-(From Northwest) 1 ELMWOOD DR  SEYMOUR CONVULSION/SEIZURE CONT/MULTI SEIZURES TANGO 5 SEY 1ST Primary Incident: 012603 1 ELMWOOD DR
-(From Northwest) DE*FOREST ST & MAIN ST  SEYMOUR MVA PEDESTRIAN TANGO 6 SEY 1ST Primary Incident: 012610 DE*FOREST ST & MAIN ST
-
-*/
-
+/**
+ * Roxbury, CT
+ * Seymour, CT
+ */
 public class CTNorthwestPublicSafetyParser extends SmartAddressParser {
   
   private static final Pattern UNIT_PTN = Pattern.compile("\\b(?:ROX?|TANGO)\\b");
@@ -70,6 +52,7 @@ public class CTNorthwestPublicSafetyParser extends SmartAddressParser {
   
   private static String[] CITY_LIST = new String[]{
     "ROXBURY",
-    "SEYMOUR"
+    "SEYMOUR",
+    "WASHINGTON"
   };
 }
