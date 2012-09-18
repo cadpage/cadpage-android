@@ -28,6 +28,10 @@ public class DEKentCountyAParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Rule out Variant B pages
+    if (body.startsWith("-")) return false;
+    
     boolean good = subject.equals("!|K") || subject.equals("K") || subject.equals("CAD");
     body = body.replace("Xst's:", "Xsts:");
     if (!parseFields(splitMsg(body), data)) return false;
