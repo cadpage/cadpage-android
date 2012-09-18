@@ -4809,7 +4809,6 @@ Contact: sturnermxz@aol.com
 Sender: dispatch@edispatches.com
 (elsmerefd_cad Sep15-15:30) TYPE:OUT F Outdoors  \r\nLOC:10 SNOWDEN AV  \r\nBTWN:DELAWARE AV/ELLSWORTH AV \r\nNATURE:FIRE / SMELLS AND HEAVY SMOKE /
 [elsmerefd_cad Sep14-16:49]  TYPE:STR F Structure\nLOC:790 ROUTE 9W\nBTWN:WEMPLE RD/CHURCH RD\nNATURE:GENERAL FIRE
-**********************************************************
 *********************************************************
 **********************************************************
 **********************************************************
@@ -4822,6 +4821,13 @@ Sender: dispatch@edispatches.com
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
+**********************************************************
+Cumberland County, NJ (alternate)
+Contact: ccerts2@aol.com" <ccerts2@aol.com>
+Sender: E911@co.cumberland.nj.us
+Subject:R3923_DIABETIC_(DOWNE TWP)442 BAPTIST RD\nE911:21:35_\r
+Subject:R3923_DWELLING_(FAIRFIELD TWP)254 BACK N\nE911:33:27_\r
+Subject:T3911_COVER_(FAIRFIELD TWP)STATION 16 / \nE911:26:38_\r
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

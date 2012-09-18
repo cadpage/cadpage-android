@@ -7,86 +7,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/***
-**********************************************************
-Frederick County, MD
-Contact: dalefogle@aol.com
-Contact: Dale Fogle <pullersnet@gmail.com>
-Contact: Brian Kelch <flamekiller20@gmail.com>
-Sender:  www.codemessaging.net,CAD@psb.net
- 
-(CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 6801 HARBAUGH RD CSAB:NEXT TO HER HOME ESZ: 626 MAP: 3996A6 Disp: [23]
-(CAD) [FredCo] CT: WOODS FIRE 7819-B FRIENDS CREEK RD CEMB ESZ: 627 MAP: 3996F6 Disp: E63,B66,DNR [36]
-(CAD) [FredCo] CT: COMMERCIAL FIRE ALARM / AUTOMATIC 4 PAWS PL THUR: @CATOCTIN VETERINARY CLINIC ESZ: 1001 MAP: 4108E9 Disp: E102,TWR6 [37]
-(CAD) [FredCo] CT: OUTSIDE INVESTIGATION @MA ADAM CO: @RT15SB/BOYLE RD ESZ: -1 Disp: E63 [38]
-       This was a mutual aid call to Adams Co. Pa at Rt.15 South Bound at the Boyle Rd. overpass
-(CAD) [FredCo] CT: HOUSE / ODOR 9152 OLD KILN RD CEMB ESZ: 617 MAP: 4109E4 Disp: E63,E102,A268,TWR6,ET64 [39]
-(CAD) [FredCo] CT: COMMERCIAL FIRE ALARM / AUTOMATIC 102 OLD OAK PL THUR ESZ: 1001 MAP: 4222D2 Disp: E102,TWR6 [41]
-(CAD) [FredCo] CT: COMMERCIAL FIRE ALARM / WATERFLOW 100 CREAMERY CT: @EMMITSBURG GLASS CO ESZ: 620 MAP: 3997K9 Disp: E63,TWR6 [42]
-(CAD) [FredCo] CT: PERSON FIRE (INSIDE) 16825 S SETON AVE CEMB: @NATIONAL EMERGENCY TRAINING CENTER:SIMULATION LAB ESZ: 620 MAP: 3997H9 Disp: [34]                    Rmk:"
-(FredCo) [CAD] CT: CHEST PAIN  1811 MONOCACY BLVD FRE1: @WAL MART: PHARMACY  ESZ: 215 MAP: 4448J9  Disp: A29,A247,M17
-
-Contact: Mike Ringer <mpr0317@gmail.com>
-Sender: rc.360@c-msg.net <From%3Arc.360@c-msg.net>
-(CAD) [FredCo] CT: TROUBLE BREATHING 142 E SOUTH ST FRE1 ESZ: 303 MAP: 4566E5 Disp: A38,M31 [85]
-
-Contact: "windyhollowgrowers@hotmail.com" <windyhollowgrowers@hotmail.com>
-(FredCo) [CAD] CT: HOUSE / FIRE-VISIBLE CACO: @MA CARRCO: 1594 BAUST CHURCH RD ESZ: 9902 Disp: ET94,
-(FredCo) [CAD] CT: HEMORRHAGE CACO: @MA CARRCO: 915 FRANCIS SCOTT KEY HWY ESZ: 9902 Disp: SU9
-
-[FredCo] CT: INJURY FROM VEHICLE ACCIDENT LL(-77:23:59.6013,39:21:53.1520): @I270NB / MONOCACY RIVER ESZ: 327002 MAP: 46
-
-Contact: Bill Green <wbgreen1@gmail.com>
-(CAD) [FredCo] CT: HOUSE / SMOKE 238 DEPAUL ST EMMB ESZ: 601 MAP: 3997J8 Disp: E63,ACE232,E102,CCE111,E132,A268,RS6,TWR6,CCLDR5,BAT900,SFT900
-
-Contact: "bubbaclary@yahoo.com" <bubbaclary@yahoo.com>
-(CAD) [FredCo] CT: CARDIAC PATIENT 12 AFTON CT BRUN ESZ: 502 MAP: 4683C9 SUBDIV: GALYN MANOR Disp: A199,M20,A209,5FR [93]
-
-Contact: Bill Stearn <wstearn@gmail.com>
-Sender: rc.404@c-msg.net,messaging@iamresponding.com
-(CAD) [FredCo] CT: TROUBLE BREATHING / default 13862-A OLD NATIONAL PIKE CMTY TIME: 01:39:41 ESZ: 1521 MAP: 4690B2 Disp: CCM19,CCLS1,RE153
-(CAD) [FredCo] CT: HOUSE / APPLIANCE FIRE (STRUCTURE PRE-ALERT) / default 6405 SPRING FOREST RD CFR1 TIME: 17:14:24 ESZ: 3302 MAP: 4567F5 SUBDIV: SPRING RIDGE Dis
-(CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 808 E SOUTH ST FRE1 TIME: 03:24:42 ESZ: 308 MAP: 4566G5 Disp: E31,E22,E331,E311,A38,RS3,TR42,TWR1,T1,ET233,ET154,BAT900,SF
-(CAD) [FredCo] CT: TROUBLE BREATHING / default 7 S FEDERAL ST NEWM TIME: 12:02:44 ESZ: 1501 MAP: 4568H9 Disp: A159,M17
-(CAD) [FredCo] CT: OUTSIDE INVESTIGATION / default 5018 GREEN VALLEY RD CMON TIME: 21:24:52 ESZ: 1503 MAP: 4688G1 Disp: RE153
-(CAD) [FredCo] CT: SICK PERSON / default 5850 EAGLEHEAD DR CIJM: @OAKDALE HIGH SCHOOL TIME: 08:52:07 ESZ: 1513 MAP: 4568A7 Disp: A159
-(CAD) [FredCo] CT: VEHICLE ACCIDENT / default BELLS LN/BALTIMORE RD CFR4 TIME: 09:58:14 ESZ: 3306 MAP: 4567F7 Disp: A339,RE153,E331
-(CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 1103 VILLAGE GATE DR MTAY: NEXT TOO TIME: 11:20:23 ESZ: 1527 MAP: 4570C10 Disp: RE153,E251,TWR23
-
-Contact: Derek Wildasin <wildasindc@gmail.com>
-Sender: rc.393@c-msg.net
-(CAD) [!] CT: ASSIST PATIENT - NON-EMERGENCY RESPONSE / default 222 BROADWAY ST FRE1: @WEINBERG HOUSE MAP: 4566D5 Disp: A38,E31
-
-Contact: Bill Stearn <wstearn@gmail.com>
-Sender: rc.404@c-msg.net
-(CAD) [FredCo] CT: ENGINE TRANSFER / default 14026 GRACEHAM RD CTHU: @STATION 18 MAP: 4222J2 Disp: ET154
-(CAD) [FredCo] CT: VEHICLE ACCIDENT / default CMON: @RT80 / KEMPTOWN CHURCH RD MAP: 4689D7 Disp: A259,RE153,ET254
-
-Contact: Joseph Wentz <ccsgt82@gmail.com>
-Sender: messaging@iamresponding.com
-(JFC 2) CT: BACK PAIN /  801 TOLL HOUSE AVE FRE1: SUITE C-3 MAP: 4566D3  Disp: A29
-
-Contact: Kyle Stull <ktstull@gmail.com>
-CT: INJURED PERSON /  160 WILLOWDALE DR FRE2: @BROOKSIDE II APTS: APT M-403 MAP: 4565J3  Disp: A28
-
-Contact: Bill Stearn <wstearn@gmail.com>
-Sender: messaging@iamresponding.com
-(Company 15) CT: UNKNOWN MEDICAL EMERGENCY / default 12565 BROWLAND DR CMTY MAP: 4689D2  Disp: A158
-
-Contact: Active911.com
-[CAD] [FredCo] CT: STROKE / default 216 THIRD AVE BRUN MAP: 4683A10 Disp: A197,M20\n
-[CAD] [FredCo] CT: STROKE / default 216 THIRD AVE BRUN MAP: 4683A10 Disp: A197,M20\n
-[CAD] [FredCo] CT: VEHICLE ACCIDENT / default LL(-77:38:25.0189,39:20:22.5676): @RT340EB / RT17 MAP: 4682H6 Disp: A197,A199,RS19,E51,LCE616\n
-[CAD] [FredCo] CT: VEHICLE ACCIDENT / default LL(-77:38:25.0189,39:20:22.5676): @RT340EB / RT17 MAP: 4682H6 Disp: A197,A199,RS19,E51,LCE616\n
-[CAD] [FredCo] CT: VEHICLE ACCIDENT / default LL(-77:38:25.0189,39:20:22.5676): @RT340EB / RT17 MAP: 4682H6 Disp: A197,A199,RS19,E51,LCE616\n
-[CAD] [FredCo] CT: HEMORRHAGE / default 22 E C ST BRUN MAP: 4682K10 Disp: A197,M20\n
-[CAD] [FredCo] CT: HEMORRHAGE / default 22 E C ST BRUN MAP: 4682K10 Disp: A197,M20\n
-[*] [Lipscomb,Roy]Help is needed  right  now moving the LaFrance out to get the hose cart out. Chief.5\n
-[CAD] [FredCo] CT: INJURED PERSON / default 303 E POTOMAC ST BRUN MAP: 4803A1 Disp: A197\n
-[CAD] [FredCo] CT: INJURED PERSON / default 303 E POTOMAC ST BRUN MAP: 4803A1 Disp: A197\n
-
-***/
-
+/**
+ * Frederick County, MD
+ */
 public class MDFrederickCountyParser extends FieldProgramParser {
 
   public MDFrederickCountyParser(){
@@ -240,6 +163,7 @@ public class MDFrederickCountyParser extends FieldProgramParser {
         "CSAB","Sabillasville",
         "CTHU","Thurmont",
         "CWAL","Walkersville",
+        "EMMB", "Emmitsburg",
         "FRAN CO", "Franklin County",
         "FRE1", "Frederick City",
         "FRE2", "Frederick City",
