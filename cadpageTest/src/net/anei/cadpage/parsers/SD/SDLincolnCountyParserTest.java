@@ -27,6 +27,8 @@ Subject:{12-12835} - {injury accident\n{gravel road between Inwood and Canton} \
 ** Parser failures **
 Subject:dehydration\n519 s bartlett 18 yo female dehyrated, please respond\r
 Subject:12-11706 - AMB : Ambulance Call\n420 S. Dakota, c \r\nPlease respond immediately. 36 yo. m passed out.\r
+Subject:ambulance call\ncanton in wood 65yo male needs transport to Sanford with GI bleeding\r
+Subject:MEDICAL @ KEYSTONE\nMALE IN 50'S - CHEST PAIN\r
 
 */
 
