@@ -25,12 +25,6 @@ NJFFS-FD_WDS/BRSH_(MILLVILLE CITY)MILL VILLAGE APTS / 301 N WADE BLVD_2011-06-02
 Contact: Chuck Nardelli <chuckie3238@gmail.com>
 (E3202_MVC_(UPPER DEERFIELD)DUBOIS RD & FINLEY RD_2011-08-16 01) 19:26_
 
-*** Not parsing yet ***
-Contact: ccerts2@aol.com" <ccerts2@aol.com>
-Sender: E911@co.cumberland.nj.us
-Subject:R3923_DIABETIC_(DOWNE TWP)442 BAPTIST RD\nE911:21:35_\r
-
-
 */
 
 public class NJCumberlandCountyParserTest extends BaseParserTest {
