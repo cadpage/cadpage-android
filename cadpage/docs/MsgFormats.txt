@@ -4810,6 +4810,10 @@ Sender: dispatch@edispatches.com
 (elsmerefd_cad Sep15-15:30) TYPE:OUT F Outdoors  \r\nLOC:10 SNOWDEN AV  \r\nBTWN:DELAWARE AV/ELLSWORTH AV \r\nNATURE:FIRE / SMELLS AND HEAVY SMOKE /
 [elsmerefd_cad Sep14-16:49]  TYPE:STR F Structure\nLOC:790 ROUTE 9W\nBTWN:WEMPLE RD/CHURCH RD\nNATURE:GENERAL FIRE
 *********************************************************
+Jefferson County, CO (alternate)
+Contact: Justin Kaye <dabears341999@yahoo.com>
+Sender: ckharris@co.jefferson.co.us
+Jeffco Sheriff Message / Information/Controlled Burn - 11374 Pauls Dr // till 1800, 12-069RF\nMon Sep 17 11:55:38 2012\n
 **********************************************************
 **********************************************************
 **********************************************************
