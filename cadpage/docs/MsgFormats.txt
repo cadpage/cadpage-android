@@ -4808,18 +4808,16 @@ Hold until more info about pending CAD vendor change
 (JCFD5) JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:09:1Unit:01TONEDAddress:HWY 101 / MP 278
 [JCFD5]  JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:07:1Unit:E51Address:EAGLEMOUNT RD / H
 (JCFD5) JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:10:1Unit:01TONEDAddress:FIRE - ST 52
-**********************************************************
-Albany County, NY (alternate)
-Contact: sturnermxz@aol.com
-Sender: dispatch@edispatches.com
-(elsmerefd_cad Sep15-15:30) TYPE:OUT F Outdoors  \r\nLOC:10 SNOWDEN AV  \r\nBTWN:DELAWARE AV/ELLSWORTH AV \r\nNATURE:FIRE / SMELLS AND HEAVY SMOKE /
-[elsmerefd_cad Sep14-16:49]  TYPE:STR F Structure\nLOC:790 ROUTE 9W\nBTWN:WEMPLE RD/CHURCH RD\nNATURE:GENERAL FIRE
 *********************************************************
 Jefferson County, CO (alternate)
 Contact: Justin Kaye <dabears341999@yahoo.com>
 Sender: ckharris@co.jefferson.co.us
 Jeffco Sheriff Message / Information/Controlled Burn - 11374 Pauls Dr // till 1800, 12-069RF\nMon Sep 17 11:55:38 2012\n
 **********************************************************
+Hanover County, VA (alternate)
+Contact: Mike Ishler <mjishler@gmail.com>
+Sender: shlandfire@response.spotteddogtech.com
+E01|VehCrash|97 N INTERSTATE 95 , Ashland, VA|R Map 83-3 SINGLE VEH ACCIDENT INTO THE WOODS IN THE |MEDIAN; BLU SMALL 2D COUPE; UNK INJ/LEAK
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4866,6 +4864,14 @@ Alpha Boro
 E94 ALERT: BLEEDING 6-7 YOM BARBER SCHOOL / 50 SARGENT AVE / 525 SARGENT AVE PHILLIPSBURG TOWN (SENT 09/17 11:25)
 Cross Streets- Corliss Ave & Grave Ave
 Town of Phillipsburg
+**********************************************************
+Albany County, NY (alternate)
+Contact: sturnermxz@aol.com
+Sender: dispatch@edispatches.com
+(elsmerefd_cad Sep15-15:30) TYPE:OUT F Outdoors  \r\nLOC:10 SNOWDEN AV  \r\nBTWN:DELAWARE AV/ELLSWORTH AV \r\nNATURE:FIRE / SMELLS AND HEAVY SMOKE /
+[elsmerefd_cad Sep14-16:49]  TYPE:STR F Structure\nLOC:790 ROUTE 9W\nBTWN:WEMPLE RD/CHURCH RD\nNATURE:GENERAL FIRE
+(elsmerefd_cad Sep15-15:30) TYPE:OUT F Outdoors  \r\nLOC:10 SNOWDEN AV  \r\nBTWN:DELAWARE AV/ELLSWORTH AV \r\nNATURE:FIRE / SMELLS AND HEAVY SMOKE /
+(elsmerefd_cad Sep18-13:42) TYPE:HAZC F HazCon  \r\nLOC:HUDSON AV  \r\nNATURE:NORTH STEff Body:TYPE:HAZC F HazCon  
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
