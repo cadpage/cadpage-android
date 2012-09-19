@@ -1,46 +1,53 @@
 package net.anei.cadpage.parsers.MD;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.FieldProgramParser.Field;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
-
-/* 
-**********************************************************
-Wicomico County, MD
-Contact: Jeff Paige <jeff.paige219@gmail.com>
-Sender: cad@wicomicocounty.org
-
-1638:CAD:2010110703;STRUCTURE FIRE;27887 POINTERS LN;SALI;SPANIEL CT;OXBRIDGE DR
-1639:CAD:2010110960;STRUCTURE FIRE;914 E CHURCH ST;SALI;HOLLAND AVE;WALSTON AVE
-1640:CAD:2010110997;PETROLEUM SPILL;2530 N SALISBURY BLVD;SALI;N ZION RD;N ZION RD
-1642:CAD:2010111051;NON BREATHING;105 CIVIC AVE;SALI;OLD OCEAN CITY RD;WHITE ST;[Medical Priority Update] Medical Priority reconfigured event from 09-E-01 to
-1643:CAD:2010111259;AUTOMATIC ALARM;121 E NAYLOR MILL RD;SALI;N SALISBURY BLVD;JASMINE DR;[Fire Priority Info] RESPONSE: Charlie RESPONDER SCRIPT: Alarms. HI
-
-Mutual aid to Delmar DE
-1644:CAD:2010111333;STRUCTURE FIRE;1103 STATE ST;DELM;HIGHLAND AVE;VIRGINIA AVE
-1650:CAD:2010111860;STRUCTURE FIRE;1110 N DIVISION ST;SALI;NAYLOR ST;UNION AVE
-1654:CAD:2010112048;STRUCTURE FIRE;413 CAMDEN CT;SALI;CAMDEN AVE;CAMDEN AVE;[Fire Priority Info] RESPONSE: Delta RESPONDER SCRIPT: Structure Fire.Caller Stat
-
-Mutual aid from Delmar
-CAD:2010110683;PI ACCIDENT;8859 JERSEY RD;DELM;CONNELLY MILL RD;ADKINS RD;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: 25 year old, Male,
-
-Contact: Kenny <kenkordek@comcast.net>
-CAD:2011058418;MEDICAL ASSIST;38353 ROBIN HOOD RD;DELM;OAK BRANCH RD;Event spawned from SEIZURE. [07/02/2011 22:17:15 JHATTON] UDTS: {B74} PARAMEDIC UNIT [07/02/11 22:13:59 CMASSEY] UDTS: {B74} STAFFING OF 2 [07/02/11 22:13:56 CMASSEY]
-CAD:2011058370;PETROLEUM SPILL;6640 DELMAR RD;DELM;PROVIDENCE CHURCH RD;CONTENMENT LN
-CAD:2011058277;NATURAL COVER;32190 DOWNING RD;PARS;NORTHUMBERLAND DR;WINTERGREEN PL;0 UDTS: {T608} STAFFING OF 1 [07/02/11 15:50:29 KVICKERS] POSSIBLY STARTED BY LAWN MOWER IN YARD [07/02/11 15:49:29 KVICKERS] UDTS: {BR606} STAFFING OF 2 [0
-CAD:2011057974;ODOR INVESTIGATION;411 NAYLOR MILL RD;SALI;NORTHWOOD DR;ARMSTRONG PKWY;COMMAND REQ ENGINE FROM STA 1 AND STA 74 [07/01/11 23:00:19 JBYRD] [EMS] UDTS: {A1} STAFFING OF 2 [07/01/11 23:00:33 MDIETZ] [EMS] UDTS: {A1} PARAMEDIC UN
-CAD:2011057241;MEDICAL ASSIST;102 SPRUCE ST;DELM;S 1ST ST;S 2ND ST;[EMS] UDTS: {B74} MEDICAL ASSIST REQUESTED [06/29/11 21:08:18 GWOODS] Event spawned from UNRESPONSIVE PATIENT. [06/29/2011 21:08:02 GWOODS] {B74} PARA [06/29/11 21:03:21 JCO
-CAD:2011057117;NATURAL COVER;27000 OCEAN GTWY;HEBR;HEBRON WOODS BLVD;MEMORY GARDENS LN;UDTS: {E507} STAFFING OF 2 [06/29/11 15:23:02 SCARPENTER] REQ. BRUSH TRUCK OUT OF 9 AND 74 [06/29/11 15:22:45 SCARPENTER] UDTS: {BR502} STAFFING OF 4 [06
-CAD:2011055305;MUTUAL AID;JACKSON RD/SAINT GEORGE RD;DELM
-CAD:2011054814;MEDICAL ASSIST;37936 PROVIDENCE CHURCH RD;DELM;DELMAR RD;W LINE RD                
-CAD:2011053776;TRASH FIRE;CONNELLY MILL RD/WOOD CREEK PKWY;DELM
-CAD:2011050801;PI ACCIDENT;W STATE ST/W LINE RD;SINGLE VEHICLE ROLL OVER [06/10/11 17:29:52 JCOOPER]
-
-*/
-
+/**
+ * Wicomico County, MD
+ */
 public class MDWicomicoCountyParser extends DispatchOSSIParser {
   
+  private static final Pattern ID_MARK = Pattern.compile("^\\d+:");
+  
+  public MDWicomicoCountyParser() {
+    super(CITY_CODES, "WICOMICO COUNTY", "MD",
+           "ID CALL ADDR CITY! X X INFO+");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "cad@wicomicocounty.org";
+  }
+  
+  @Override
+  public boolean parseMsg(String body, Data data) {
+    
+    // Strip off leading sequence number
+    Matcher match = ID_MARK.matcher(body);
+    if (match.find()) body = body.substring(match.end()).trim();
+    
+    if (!body.startsWith("CAD:")) body = "CAD:" + body;
+    
+    if (!super.parseMsg(body, data)) return false;
+    
+    // Delmar calls can be on either side of the state line
+    if (data.strCity.equals("DELMAR")) data.defState = "";
+    return true;
+  }
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("ID")) return new IdField("\\d{10}", true);
+    return super.getField(name);
+  }
+
+
+
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ALLE", "ALLEN",
       "EDEN", "EDEN",
@@ -59,29 +66,4 @@ public class MDWicomicoCountyParser extends DispatchOSSIParser {
       "TYAS", "TYASKIN",
       "WILL", "WILLARDS"
   });
-  
-  public MDWicomicoCountyParser() {
-    super(CITY_CODES, "WICOMICO COUNTY", "MD",
-           "ID CALL ADDR CITY! X X INFO+");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "cad@wicomicocounty.org";
-  }
-  
-  @Override
-  public boolean parseMsg(String body, Data data) {
-    
-    // Strip off leading sequence number
-    int pt = body.indexOf(':');
-    if (pt < 0) return false;
-    if (! body.substring(0,pt).equals("CAD")) body = body.substring(pt+1).trim();
-    
-    if (!super.parseMsg(body, data)) return false;
-    
-    // Delmar calls can be on either side of the state line
-    if (data.strCity.equals("DELMAR")) data.defState = "";
-    return true;
-  }
 }
