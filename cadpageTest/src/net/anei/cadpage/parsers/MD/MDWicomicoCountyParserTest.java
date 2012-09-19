@@ -294,7 +294,7 @@ public class MDWicomicoCountyParserTest extends BaseParserTest {
         "2012084066;EMERGENCY UNKNOWN;1819 N MILL DR;FRUI;THRASHER WAY;S MILL DR",
         "ID:2012084066",
         "CALL:EMERGENCY UNKNOWN",
-        "ADDR:1819 N MILL DR",
+        "ADDR:1819 N MILL DR",   // Google says this is in Salisbury
         "CITY:FRUITLAND",
         "X:THRASHER WAY & S MILL DR");
 
