@@ -66,6 +66,16 @@ public class VendorManager {
   }
   
   /**
+   * @return true if phone is registered with any direct paging vendor
+   */
+  public boolean isRegistered() {
+    for (Vendor vendor : vendorList) {
+      if (vendor.isEnabled()) return true;
+    }
+    return false;
+  }
+  
+  /**
    * @return Name of sponsoring agency if an active vendor is sponsoring Cadpage
    */
   public String getSponsor() {
