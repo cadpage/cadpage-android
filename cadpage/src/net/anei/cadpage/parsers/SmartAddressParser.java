@@ -297,6 +297,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
     setupDictionary(ID_APPT, "APT:", "APT", "APTS", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT");
     setupDictionary(ID_STREET_NAME_PREFIX, "LAKE", "MT", "MOUNT", "SUNKEN");
+    setupDictionary(ID_NOT_ADDRESS, "YOM", "YOF", "YO");
     
     // Set up special cross street names
     mWordCrossStreets = new MultiWordList(+1, ID_SPEC_CROSS, ID_MULTIWORD, ID_COMPLETE, new String[]{
