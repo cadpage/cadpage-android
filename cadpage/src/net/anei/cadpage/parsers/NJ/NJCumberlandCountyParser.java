@@ -26,7 +26,7 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (body.startsWith("E911:")) body = body.substring(5).trim();
-    if (subject.length() > 0) body = subject + " " + body;
+    if (subject.length() > 0) body = subject + "_" + body;
     return parseFields(body.split("_"), data);
   }
   
@@ -69,13 +69,14 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d\\d\\d)-(\\d\\d)-(\\d\\d) (\\d\\d[: ]\\d\\d:\\d\\d)");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(?:(\\d\\d\\d\\d)-(\\d\\d)-(\\d\\d) )?(\\d\\d:\\d\\d(?::\\d\\d)?)");
   private class MyDateTimeField extends DateTimeField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = DATE_TIME_PTN.matcher(field);
       if (!match.matches()) abort();
-      data.strDate = match.group(2) + "/" + match.group(3) + "/" + match.group(1);
+      String year = match.group(2);
+      if (year != null) data.strDate = year + "/" + match.group(3) + "/" + match.group(1);
       data.strTime = match.group(4);
     }
   }
