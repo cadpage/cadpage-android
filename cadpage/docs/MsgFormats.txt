@@ -11,6 +11,13 @@ Charlse County, MD (alternate)
 Allegheny County, PA (alternate)
 *******************************************************************************
 *******************************************************************************
+Spotted Dog Technologies
+Hanover County, VA
+E01|VehCrash|97 N INTERSTATE 95 , Ashland, VA|R Map 83-3 SINGLE VEH ACCIDENT INTO THE WOODS IN THE |MEDIAN; BLU SMALL 2D COUPE; UNK INJ/LEAK
+E01|Cardiac|12789 MOUNT HERMON RD , Ashland, VA|R Map 98-2 HUSBAND POSS DEAD |VOIP:
+E01|StrComm|113 N WASHINGTON HW SUITE A , Ashland, VA|R Map 83-3 ACTIVE FIRE / EVACUATING |
+*******************************************************************************
+*******************************************************************************
 * DispatchAegisParser subclasses
 *******************************************************************************
 *******************************************************************************
@@ -4824,9 +4831,6 @@ Contact: Justin Kaye <dabears341999@yahoo.com>
 Sender: ckharris@co.jefferson.co.us
 Jeffco Sheriff Message / Information/Controlled Burn - 11374 Pauls Dr // till 1800, 12-069RF\nMon Sep 17 11:55:38 2012\n
 **********************************************************
-Madison County, OH
-Contact: Brian Bennington <centralchief1@gmail.com>
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4838,15 +4842,15 @@ Contact: Brian Bennington <centralchief1@gmail.com>
 **********************************************************
 **********************************************************
 **********************************************************
-Hanover County, VA (alternate)
-Contact: Mike Ishler <mjishler@gmail.com>
-Sender: shlandfire@response.spotteddogtech.com
-E01|VehCrash|97 N INTERSTATE 95 , Ashland, VA|R Map 83-3 SINGLE VEH ACCIDENT INTO THE WOODS IN THE |MEDIAN; BLU SMALL 2D COUPE; UNK INJ/LEAK
-E01|Cardiac|12789 MOUNT HERMON RD , Ashland, VA|R Map 98-2 HUSBAND POSS DEAD |VOIP:
-E01|StrComm|113 N WASHINGTON HW SUITE A , Ashland, VA|R Map 83-3 ACTIVE FIRE / EVACUATING |
-E01|AlmResd|14494 RIVERSIDE DR , Ashland, VA|R Map 65 KOYA | FIRE ALARM , BONUS ROOM HEAT AND SMOKE RESD BRUTON/7526862
-E01|DifBreathn|421 HENRY ST ROOM 14 , Ashland, VA|R Map 82-4 STUDENT ON CAMPUS DIFF BREATHING, TURNING |PALE, EXCRUTIATING PAIN ON R SIDE, C
-E01|DifBreathn|650 N WASHINGTON HW , Ashland, VA|R Map 83-2 DIFF BRTH HAS DEFIBULATOR |
+**********************************************************
+Madison County, OH
+Contact: Brian Bennington <centralchief1@gmail.com>
+Sender: mcsocad@madisonsheriff.org
+[Alert: FIRE STRUCTURE RESIDENTIAL]  ALRM LVL: 1\r\nLOC:\r\n4665 LILLY CHAPEL-OPOSSUM RUN SE RD\r\nFAIRFIELD TWP\r\nBTWN: WEST JEFFERSON-KIOUSVILLE RD & SR 665\r\n\r
+[Alert: VEHICLE CRASH INJURY]  ALRM LVL: 1\r\nLOC:\r\n6905 GREGG MILL SE RD\r\nOAK RUN TWP\r\nBTWN: BIG PLAIN-CIRCLEVILLE RD & SR 56\r\n\r\nRCVD AS Phone 7-Digit\r\n\r\nC
+(Alert: FIRE INVESTIGATION) ALRM LVL: 1\r\nLOC:\r\nDEER RUN SE LN/SPRING VALLEY SE RD\r\nDEER CREEK TWP\r\nBTWN: N/A & N/A\r\n\r\nRCVD AS 911 Call\r\n\r\nCOM:\r\nON DEER RUN LN
+(Alert: VEHICLE CRASH INJURY) ALRM LVL: 1\r\nLOC:\r\n7385 SR 56 SE\r\nOAK RUN TWP\r\nBTWN: GREGG MILL RD & MOORMAN RD\r\n\r\nRCVD AS 911 Call\r\n\r\nCOM:\r\n2 VEH / 4 PEOP
+(Alert: VEHICLE CRASH INJURY) ALRM LVL: 1\r\nLOC:\r\nUS 40 NE/LAFAYETTE-PLAIN CITY RD\r\nDEER CREEK TWP\r\nBTWN: N/A & N/A\r\n\r\nRCVD AS Phone 7-Digit\r\n\r\nCOM:\r\nON 4
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
