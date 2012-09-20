@@ -67,7 +67,8 @@ public class OHWayneCountyAParserTest extends BaseParserTest {
     doTest("T8",
         "taccad:SQUAD RUN 490 E CLINTON 911 CALL - 57 YOF DIFF BREATHING",
         "CALL:SQUAD RUN",
-        "ADDR:490 E CLINTON 911 CALL - 57 YOF DIFF BREATHING");
+        "ADDR:490 E CLINTON 911 CALL - 57",
+        "INFO:YOF DIFF BREATHING");
 
     doTest("T9",
         "taccad:SQUAD RUN 464 GATES ST WALKIN IN FOR CHEST PAINS",
