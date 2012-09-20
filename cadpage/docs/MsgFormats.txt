@@ -1884,10 +1884,15 @@ E94 ALERT: UNCONSC 41 YOF 1623 WARREN ST ALPHA BORO (SENT 09/16 19:29)\nCross St
 E94 ALERT: WEAKNESS 56 YOF 108 ARROWHEAD CT / SOUTH GATE APT 7D PHILLIPSBURG TOWN (SENT 09/17 06:57)\nCross Streets- Lock St\nTown of Phillipsburg
 E94 ALERT: ABDOM PN 79 YOF 408 SAINT JAMES AVE POHATCONG TWP (SENT 09/17 10:22)\nCross Streets- Liggett Blvd & Pershing Ave\nPohatcong Twsp
 ***************************************************************************
-Albany County, NY (NYAlbanyCountyParser)
+Albany County, NY (NYAlbanyCountyAParser)
 FIRE ALARM E405,E406,RS2,E412\n54 SUNSET BL\n HIGGINS ROBERT\nMap COL VILL 12:00:30
 STRUCTURE FIRE E412,E410,RS3,E454,CVFT,TK9\n45 RAILROAD AV(FULLER)\n CNY STORM ALLSTARS\nMap FULLER 08:48:16
 FIRE ALARM E412,E410,RS3,E405,TK9\n1417 CENTRAL AV\nCOLONIE CENTER\nMap FULLER 08:11:21
+***************************************************************************
+Albany County, NY (NYAlbanyCountyBParser)
+(elsmerefd_cad Sep15-15:30) TYPE:OUT F Outdoors  \r\nLOC:10 SNOWDEN AV  \r\nBTWN:DELAWARE AV/ELLSWORTH AV \r\nNATURE:FIRE / SMELLS AND HEAVY SMOKE /
+[elsmerefd_cad Sep14-16:49]  TYPE:STR F Structure\nLOC:790 ROUTE 9W\nBTWN:WEMPLE RD/CHURCH RD\nNATURE:GENERAL FIRE
+(elsmerefd_cad Sep18-13:42) TYPE:HAZC F HazCon  \r\nLOC:HUDSON AV  \r\nNATURE:NORTH ST  
 ***************************************************************************
 Broome County, NY (NYBroomeCountyParser)
 (49 Sanitaria Spr Fire) 49-DIABETIC-C :2786 ROUTE 79 :78 yo fem high blood sugar/unable t   &lt;13C02&gt; :78 year old, Female, Conscious, Breathing.  A
@@ -4819,21 +4824,6 @@ Contact: Justin Kaye <dabears341999@yahoo.com>
 Sender: ckharris@co.jefferson.co.us
 Jeffco Sheriff Message / Information/Controlled Burn - 11374 Pauls Dr // till 1800, 12-069RF\nMon Sep 17 11:55:38 2012\n
 **********************************************************
-Hanover County, VA (alternate)
-Contact: Mike Ishler <mjishler@gmail.com>
-Sender: shlandfire@response.spotteddogtech.com
-E01|VehCrash|97 N INTERSTATE 95 , Ashland, VA|R Map 83-3 SINGLE VEH ACCIDENT INTO THE WOODS IN THE |MEDIAN; BLU SMALL 2D COUPE; UNK INJ/LEAK
-E01|Cardiac|12789 MOUNT HERMON RD , Ashland, VA|R Map 98-2 HUSBAND
-POSS DEAD |VOIP:
-E01|StrComm|113 N WASHINGTON HW SUITE A , Ashland, VA|R Map 83-3
-ACTIVE FIRE / EVACUATING |
-E01|AlmResd|14494 RIVERSIDE DR , Ashland, VA|R Map 65 KOYA | FIRE
-ALARM , BONUS ROOM HEAT AND SMOKE RESD BRUTON/7526862
-E01|DifBreathn|421 HENRY ST ROOM 14 , Ashland, VA|R Map 82-4 STUDENT
-ON CAMPUS DIFF BREATHING, TURNING |PALE, EXCRUTIATING PAIN ON R SIDE, C
-E01|DifBreathn|650 N WASHINGTON HW , Ashland, VA|R Map 83-2 DIFF BRTH
-HAS DEFIBULATOR |
-**********************************************************
 Madison County, OH
 Contact: Brian Bennington <centralchief1@gmail.com>
 **********************************************************
@@ -4847,13 +4837,16 @@ Contact: Brian Bennington <centralchief1@gmail.com>
 **********************************************************
 **********************************************************
 **********************************************************
-Albany County, NY (alternate)
-Contact: sturnermxz@aol.com
-Sender: dispatch@edispatches.com
-(elsmerefd_cad Sep15-15:30) TYPE:OUT F Outdoors  \r\nLOC:10 SNOWDEN AV  \r\nBTWN:DELAWARE AV/ELLSWORTH AV \r\nNATURE:FIRE / SMELLS AND HEAVY SMOKE /
-[elsmerefd_cad Sep14-16:49]  TYPE:STR F Structure\nLOC:790 ROUTE 9W\nBTWN:WEMPLE RD/CHURCH RD\nNATURE:GENERAL FIRE
-(elsmerefd_cad Sep15-15:30) TYPE:OUT F Outdoors  \r\nLOC:10 SNOWDEN AV  \r\nBTWN:DELAWARE AV/ELLSWORTH AV \r\nNATURE:FIRE / SMELLS AND HEAVY SMOKE /
-(elsmerefd_cad Sep18-13:42) TYPE:HAZC F HazCon  \r\nLOC:HUDSON AV  \r\nNATURE:NORTH STEff Body:TYPE:HAZC F HazCon  
+**********************************************************
+Hanover County, VA (alternate)
+Contact: Mike Ishler <mjishler@gmail.com>
+Sender: shlandfire@response.spotteddogtech.com
+E01|VehCrash|97 N INTERSTATE 95 , Ashland, VA|R Map 83-3 SINGLE VEH ACCIDENT INTO THE WOODS IN THE |MEDIAN; BLU SMALL 2D COUPE; UNK INJ/LEAK
+E01|Cardiac|12789 MOUNT HERMON RD , Ashland, VA|R Map 98-2 HUSBAND POSS DEAD |VOIP:
+E01|StrComm|113 N WASHINGTON HW SUITE A , Ashland, VA|R Map 83-3 ACTIVE FIRE / EVACUATING |
+E01|AlmResd|14494 RIVERSIDE DR , Ashland, VA|R Map 65 KOYA | FIRE ALARM , BONUS ROOM HEAT AND SMOKE RESD BRUTON/7526862
+E01|DifBreathn|421 HENRY ST ROOM 14 , Ashland, VA|R Map 82-4 STUDENT ON CAMPUS DIFF BREATHING, TURNING |PALE, EXCRUTIATING PAIN ON R SIDE, C
+E01|DifBreathn|650 N WASHINGTON HW , Ashland, VA|R Map 83-2 DIFF BRTH HAS DEFIBULATOR |
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

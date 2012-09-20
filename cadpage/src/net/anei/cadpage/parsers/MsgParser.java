@@ -4,6 +4,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
@@ -589,7 +590,8 @@ public abstract class MsgParser {
   public static boolean setDateTime(DateFormat dateFmt, String field, Data data) {
     try {
        Date date = dateFmt.parse(field);
-       data.strDate = DATE_FMT.format(date);
+       DateFormat fmt = dateFmt.getCalendar().get(Calendar.YEAR) == 1970 ? DATE_FMT2 : DATE_FMT;
+       data.strDate = fmt.format(date);
        data.strTime = TIME_FMT.format(date);
        return true;
     } catch (ParseException ex) {
@@ -607,7 +609,8 @@ public abstract class MsgParser {
   public static boolean setDate(DateFormat dateFmt, String field, Data data) {
     try {
        Date date = dateFmt.parse(field);
-       data.strDate = DATE_FMT.format(date);
+       DateFormat fmt = dateFmt.getCalendar().get(Calendar.YEAR) == 1970 ? DATE_FMT2 : DATE_FMT;
+       data.strDate = fmt.format(date);
        return true;
     } catch (ParseException ex) {
       return false;
@@ -632,6 +635,7 @@ public abstract class MsgParser {
   }
   
   private static final DateFormat DATE_FMT = new SimpleDateFormat("MM/dd/yyyy");
+  private static final DateFormat DATE_FMT2 = new SimpleDateFormat("MM/dd");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("HH:mm:ss");
  
 
