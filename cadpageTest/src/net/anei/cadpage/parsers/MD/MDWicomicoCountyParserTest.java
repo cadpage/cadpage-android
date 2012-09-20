@@ -53,6 +53,10 @@ Sender: CAD@wicomicocounty.org
 2012083393;SYNCOPAL EPISODE;1819 E CLEAR LAKE DR;FRUI;SHADY CREEK WAY;W CLEAR LAKE DR;[Medical Priority Info] RESPONSE: Charlie RESPONDER SCRIPT: 83 year old
 2012083050;VEHICLE FIRE;N CAMDEN AVE/W MAIN ST;FRUI
 
+Contact: tom king <hebron526@gmail.com>
+Sender: 5fire-owner@jbamsg.com
+2012085673;SUBJECT FALLEN;27480 WALLER RD;DELM;HICKORY MILL RD;SPRING HILL LN;[Medical Priority Info] RESPONSE: Alpha RESPONDER SCRIPT: 83 year old, Male, Co
+
 */
 
 
@@ -379,8 +383,23 @@ public class MDWicomicoCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testTomKing() {
+
+   setDefaults("WICOMICO COUNTY", "");
+   doTest("T1",
+        "2012085673;SUBJECT FALLEN;27480 WALLER RD;DELM;HICKORY MILL RD;SPRING HILL LN;[Medical Priority Info] RESPONSE: Alpha RESPONDER SCRIPT: 83 year old, Male, Co",
+        "ID:2012085673",
+        "CALL:SUBJECT FALLEN",
+        "ADDR:27480 WALLER RD",
+        "CITY:DELMAR",
+        "X:HICKORY MILL RD & SPRING HILL LN",
+        "INFO:83 year old, Male, Co");
+
+  }
+  
   public static void main(String[] args) {
-    new MDWicomicoCountyParserTest().generateTests("T3");
+    new MDWicomicoCountyParserTest().generateTests("T1");
         
   }
 }

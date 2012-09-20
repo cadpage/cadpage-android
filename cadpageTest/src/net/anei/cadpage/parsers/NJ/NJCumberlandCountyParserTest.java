@@ -25,6 +25,12 @@ NJFFS-FD_WDS/BRSH_(MILLVILLE CITY)MILL VILLAGE APTS / 301 N WADE BLVD_2011-06-02
 Contact: Chuck Nardelli <chuckie3238@gmail.com>
 (E3202_MVC_(UPPER DEERFIELD)DUBOIS RD & FINLEY RD_2011-08-16 01) 19:26_
 
+Contact: ccerts2@aol.com
+Sender: E911@co.cumberland.nj.us
+Subject:R3923_DIABETIC_(DOWNE TWP)442 BAPTIST RD\nE911:21:35_\r
+Subject:R3923_DWELLING_(FAIRFIELD TWP)254 BACK N\nE911:33:27_\r
+Subject:T3911_COVER_(FAIRFIELD TWP)STATION 16 / \nE911:26:38_\r
+
 */
 
 public class NJCumberlandCountyParserTest extends BaseParserTest {
@@ -158,18 +164,30 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
   public void testParser3() {
 
     doTest("T1",
-        "(E3202_MVC_(UPPER DEERFIELD)DUBOIS RD & FINLEY RD_2011-08-16 01) 19:26_",
-        "UNIT:E3202",
-        "CALL:MVC",
-        "CITY:UPPER DEERFIELD",
-        "ADDR:DUBOIS RD & FINLEY RD",
-        "DATE:08/16/2011",
-        "TIME:01 19:26");
+        "Subject:R3923_DIABETIC_(DOWNE TWP)442 BAPTIST RD\nE911:21:35_\r",
+        "UNIT:R3923",
+        "CALL:DIABETIC",
+        "CITY:DOWNE TWP",
+        "ADDR:442 BAPTIST RD",
+        "TIME:21:35");
+
+    doTest("T2",
+        "Subject:R3923_DWELLING_(FAIRFIELD TWP)254 BACK N\nE911:33:27_\r",
+        "UNIT:R3923",
+        "CALL:DWELLING",
+        "CITY:FAIRFIELD TWP",
+        "ADDR:254 BACK N",
+        "TIME:33:27");
+
+    doTest("T3",
+        "Subject:T3911_COVER_(FAIRFIELD TWP)STATION 16 / \nE911:26:38_\r",
+        "UNIT:T3911",
+        "CALL:COVER",
+        "CITY:FAIRFIELD TWP",
+        "TIME:26:38",
+        "PLACE:STATION 16");
 
   }
- 
-    
-    
     
   public static void main(String[] args) {
     new NJCumberlandCountyParserTest().generateTests("T1");
