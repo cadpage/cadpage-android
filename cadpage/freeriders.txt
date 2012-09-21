@@ -1131,6 +1131,7 @@ Braxton McDaniel (bkmcdaniel2146@gmail.com)<braxtonmcdaniel@ymail.com>  // Marke
 Tare Kennedy <tare@owen-kennedy.com>
 %%01/18/2012
 "John.Witasick@gmail.com" <John.Witasick@gmail.com>
+Patrick Lum <ncfc660@gmail.com> // market problem change phone
 %%01/19/2012
 "aschloss@terpalum.umd.edu" (aschloss1@gmail.com)<aschloss@terpalum.umd.edu>
 %%01/20/2012
@@ -1482,6 +1483,8 @@ Kristopher Ashby <kgash1793@gmail.com> // market problem - misspelling
 Kevin Knowles (kevinknowlesvfd@gmail.com) // PayPal
 %%09/18/2012
 Bruce Bamsch (www.brucebamsch@yahoo.com) // PayPal
+%%09/20/2012
+Kenny La Mar(kenny442448@yahoo.com) // PayPal
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
