@@ -24,6 +24,7 @@ System: New World Systems
 
 Contact: Tom <tw4715@comcast.net>
 [CAD]33C1T Transfer/Interfacility 2809 ANDREWVILLE RD Harrington : Xst's: TODDS CHAPEL RD, PROSPECT CHURCH RD / GREENWOOD RD Caller: CAY HOLLY
+[47 FIRE/EMS]1C6 Abdominal Pains 46 MAIN ST Greenwood : Xst's: ANDREWVILLE RD, FLAT IRON RD / FARMINGTON RD Caller: MURRAY BOBBY
 
 Contact: Sam Crawford <nremtde@gmail.com>
 [K] 17B1G Falls - Possibly Dangerous 2 LAKE CREST DR Milford : HAVEN LAKE ESTATES Xst's: HAVEN LN / WILLIAMSVILLE RD Caller: L MURPHY
@@ -129,6 +130,12 @@ public class DEKentCountyAParserTest extends BaseParserTest {
         "ADDR:2809 ANDREWVILLE RD",
         "CITY:Harrington",
         "X:TODDS CHAPEL RD, PROSPECT CHURCH RD / GREENWOOD RD");
+
+    doTest("T2",
+        "[47 FIRE/EMS]1C6 Abdominal Pains 46 MAIN ST Greenwood : Xst's: ANDREWVILLE RD, FLAT IRON RD / FARMINGTON RD Caller: MURRAY BOBBY",
+        "CALL:1C6 Abdominal Pains",
+        "ADDR:46 MAIN ST",
+        "X:ANDREWVILLE RD, FLAT IRON RD / FARMINGTON RD");
   }
   
   @Test
