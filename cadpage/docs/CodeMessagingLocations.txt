@@ -3,11 +3,11 @@
  50 - DENewCastleCountyA
  69 - DENewCastleCountyA
  81 - DENewCastleCountyA
- 85 - DEKentCountyA **
+ 85 - DEKentCountyA
  87 - DENewCastleCountyA
  95 - MDHarford
-116 - MDHarford **
-145 - MDPrinceGeorgesCountyD **
+116 - MDHarford
+145 - MDPrinceGeorgesCountyD
 165 - MDQueenAnnesCounty
 187 - DEKentCountyA
 212 - DESussexCountyB
@@ -17,7 +17,7 @@
 279 - MDHarford
 295 - NCGastonCounty
 302 - DENewCastleCountyA
-307 - MDHarford **
+307 - MDHarford
 317 - NJMonmouthCountyB
 322 - DENewCastleCountyA
 327 - MDWashingtonCounty
@@ -34,10 +34,10 @@
 383 - MDCarrollCounty
 386 - MDCarrollCounty
 391 - MDHarford
-392 - MDHarford **
+392 - MDHarford
 393 - MDFrederickCounty
 404 - MDFrederickCounty
-415 - mdFrederickCounty **
+415 - mdFrederickCounty
 425 - INStJosephCounty
 429 - MDWashingtonCounty
 446 - MDHowardCounty
@@ -48,7 +48,7 @@
 531 - OHMedinaCounty
 579 - MDQueeneAnneCounty
 588 - INStJosephCounty
-618 - VAFauquierCounty **
+618 - VAFauquierCounty
 627 - TNBlountCounty
 950 - MDHartford
 
