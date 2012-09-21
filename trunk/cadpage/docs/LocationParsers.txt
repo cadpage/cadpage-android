@@ -1,0 +1,181 @@
+How to write Cadpage Location parsers
+
+Start by checking the text pages and making a determination as to which base 
+parser you should use.
+
+Search MsgFormats for anything that looks like this location text pages.
+Pattern searches are your friend hear, learn how to use them.  If you find 
+something that matches that is already based on one of the Dispatch parsers, 
+you probably want to subclass this parser from the same base parser.
+
+If you find a pattern match that isn't already based on a Dispatch parser, you 
+should consider creating a new one that can be hold the common code needed to
+process both locations and subclassing both location parsers from it. 
+
+Otherwise, if the text pages consists of data fields separated by an obvious field 
+delimiter, use subclass FieldProgramParser
+
+Otherwise, if text pages contains fields that are separated by keywords with
+trailing colons, subclass FieldProgramParser
+
+Otherwise, if the text pages contain an address whose beginning and end cannot
+be identified without having to understand what an address looks like, subclass
+SmartAddressParser.
+
+Otherwise, subclass SmsMsgParser
+
+I usually look for another parser based on the same base parser class in the same 
+state and make a copy of it.  If there aren't any you can copy one from another
+state and rename it.
+
+First step is always to remove the description comments at the front of the parser 
+and replace them with the text from MsgFormats.txt for this parser.  The sample
+pages have to be reduced to a single line for each page with "\n" sequences
+replacing the hard line breaks and blanks replacing the soft breaks inserted
+by a message composer.  If the pages came from a Cadpage email, there is no
+ambiguity between the two.  Hard line breaks already have a \n at the end of the 
+line, but sequences of 2 or more blanks will be replaced with a \ns sequence
+which needs to be restored to a string of blanks.  If the pages were copied
+or forwarded by the user, you have to look at them and try to figure out which 
+are hard and which are soft breaks.  Hard breaks occur at the same place in all
+text pages, soft breaks happen all over the place.
+
+There are some cute regular expression find/replace operations you can do to
+mass change large number of sample pages
+
+If they came from Cadpage emails
+Change "\\n\n" to "\\n"  gets rid of line breaks following a \n  
+Change "\n(?!\n)" to " " replaces line breaks not followed by second line break with blank
+
+If they came from non-cadpage emails
+Change "\n" to "\\n" changes line breaks to \n
+Change "\\n\\n" to "\n" changes double \n\n sequences back to a line break
+
+In any case, always leave a blank line at the end of each block of sample text
+pages, you'll find out why later.
+
+Next you need to adjust, add, or remove the getFilter() method to return the
+correct sender filter for this location.
+
+**************************************************************************
+Need more instructions in writing several kinds of text parsers
+
+
+**************************************************************************
+***************** Testing message parsers ********************************
+
+Every text parser needs a corresponding test class in the Cadpage test project.
+I usually start these by cloning another parser test class from the same state.
+
+Change the constructor to pass the correct city/county name, and to invoke
+the correct parser class.
+
+Delete all of the doTest calls leaving one empty test method.
+
+Look at the main() method at the bottom of the class and adjust it as necessary.
+(Rarely you will copy an old class that doesn't have this.  In which case you
+probably want to clone another one.  Or write a new one yourself)
+
+The first parameter to the generateTests method call should be "T1".  A
+second parameter is unnecessary if your test class is based on FieldProgramParser
+(or Dispatch parser subclassed from FieldProgramParser), otherwise it should be
+a list of field names parsed by the parser in roughly the order that they appear
+in a typical text page.
+
+Run the new parser test class as a JUnit test.  Which will almost always 
+succeed because it contains no real tests.  The reason we do this first is so
+the JUnit run configuration gets the default name and the Gentests run config 
+gets the (1) qualifier.
+
+Now run the test class as a Java application.  It will prompt you to enter some
+test messages.  At this point, go back to the parser class and select all of
+you nice neat test messages, including the empty that follows them.  Copy that
+block to the clipboard, switch to the console section and paste them into the 
+generate test run.
+
+When run as an application, all test classes read text messages from stdin,
+terminated by an empty line, and output the Java code needed to test those
+messages.  Cool huh!  All you have to do is press a shift-control-end to
+select then entire block of test code, to use the middle mouse button to paste
+it into your empty test class.  The block of test messages remains in the
+clipboard in case you have to fix things and make another generate test run.
+
+Next run you new test class as a JUnit test.  Since the generated code just 
+writes tests to verify the parser works the way it was originally written, this
+isn't going to prove very much.  A test failure here usually means a field
+name wasn't specified in the second generateTests parameter.  Or for 
+FieldProgramParser classes a getFieldNames() or getProgram() method needs to
+be overridden.  Fix whatever is wrong and generate a new set of test code.
+
+Next you have to eyeball the generated test code to confirm that the results
+it is testing really do look right.  That all of the text message is showing up
+in the correct parsed data field.
+
+Finally, fire up a browser, go to maps.google.com, and verify that all of the
+parsed addresses map to something. You do this by entering a Google map search
+that consists of
+the MADDR field if it exists, otherwise the ADDR
+followed by a comma
+the CITY field if it exists, otherwise the default city/county
+followed bya comma
+the ST field if it exists (very rarely), otherwise the default state
+If Google finds an location for this search string, all is well and go on to the
+next one.
+
+If it doesn't, see if you can do anything to tweak the search string to find
+a correct location.  There are lots of tricks
+1) Highway mile markers and intersections that are overpasses and don't actually
+intersect (even if there are interchange ramps) are a lost cause.  Google just
+won't do them (sob)
+2) If there is a CITY field, try replacing it with the default city/county.  It
+is possible the city field is invalid, or somethings dispatch just has it wrong.
+3) if there is a house number, try searching for the street without the house
+number.
+4) If this is an intersection, try searching for each street individually.
+
+If you find some way to adjust the search string to make it work, we should
+consider changing the search string we issue.  But there are some tricky issues
+and it would probably be to seek advice from an expert.
+1) If Google and Dispatch refer to the same street by different names, we need
+ask the user which is right.  If Google is wrong, we file a problem report with
+them.  If dispatch is wrong, we can consider adding parser logic to correct it.
+2) If the address/street clearly exists, but the Google search doesn't find it, 
+we can file a Google problem report.
+If dispatch is using abbreviations and constructs that Google doesn't recognize,
+we can change the map address generation logic in SmsMsgInfo.  This needs to
+be done carefully as it will affect the results for all of our parsers.
+
+*******************************************************************************
+*************** Finishing up **************************************************
+
+OK, you have a parser, you have a test class, all tests are satisfied and you
+are satisified that Google is mapping everything as best it can.  Time to 
+actually install this.
+
+Open res/values/arrays.xml.  You need to add matching entries in two arrays.
+The first one contains the name of the location parser class you just wrote, 
+after removing the "Parser" term from the end.  The entry should be located
+alphabetically within each state.  If you are adding a new state, ask for help.
+Then you need to find the corresponding location in the second array and add
+a human readable name for this location.
+
+Next, start up an Android emulator and launch Cadpage as an Android app to
+run on that emulator.  While it is busy doing that, you can update the
+MsgFormats.txt file.  Remove the old block of information for this location
+and create a new one by copying the location name and first three text pages
+from the new parser class comments to the appropriate section in MsgFormats.txt.
+Then clean it up to look like the others.
+
+By now cadpage should be installed on the emulator.  Open it, switch the 
+current location to the location you just installed.  If necessary, check the
+override location filter box and set the From: (filter) to something we can
+actually enter (1112223333 is my favorite).
+
+Open a command shell and telnet to the emulator port on localhost.  Then type
+something like
+sms send 1112223333 <complete text of one of your text messages>
+This sends an SMS message to the emulator which should trigger Cadpage to
+display the call information.  If it does, you are finished.
+
+Check in all code changes, Change the issue status to "ReadyForRealease".  And
+let me know you're done so I can tell the user.

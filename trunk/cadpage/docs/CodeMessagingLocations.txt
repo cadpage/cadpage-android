@@ -1,0 +1,59 @@
+  1 - DENewCastleCountyA
+ 10 - DENewCastleCountyA
+ 50 - DENewCastleCountyA
+ 69 - DENewCastleCountyA
+ 81 - DENewCastleCountyA
+ 85 - DEKentCountyA **
+ 87 - DENewCastleCountyA
+ 95 - MDHarford
+116 - MDHarford **
+145 - MDPrinceGeorgesCountyD **
+165 - MDQueenAnnesCounty
+187 - DEKentCountyA
+212 - DESussexCountyB
+223 - OHMedinaCounty
+261 - MDHowardCounty
+263 - MDCharlesCounty
+279 - MDHarford
+295 - NCGastonCounty
+302 - DENewCastleCountyA
+307 - MDHarford **
+317 - NJMonmouthCountyB
+322 - DENewCastleCountyA
+327 - MDWashingtonCounty
+330 - VALexingtonRockbridgeCounty
+334 - NCMecklenburgCountyB
+335 - MDMontgomeryCounty
+340 - OHNECC
+345 - MDHarford
+349 - MDHarford
+355 - MDMontgomeryCounty
+360 - MDFrederickCounty
+377 - MDCarrollCounty
+380 - MDCarrollCounty
+383 - MDCarrollCounty
+386 - MDCarrollCounty
+391 - MDHarford
+392 - MDHarford **
+393 - MDFrederickCounty
+404 - MDFrederickCounty
+415 - mdFrederickCounty **
+425 - INStJosephCounty
+429 - MDWashingtonCounty
+446 - MDHowardCounty
+459 - NCGastonCounty
+464 - ???
+502 - NJSomersetCounty
+505 - MDPrinceGeorgesCountyE
+531 - OHMedinaCounty
+579 - MDQueeneAnneCounty
+588 - INStJosephCounty
+618 - VAFauquierCounty **
+627 - TNBlountCounty
+950 - MDHartford
+
+Unknown
+FLCrestView
+FLPensacola
+NJSalemCounty
+PADauphinCounty

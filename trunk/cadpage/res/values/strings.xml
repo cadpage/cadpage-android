@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- App Strings -->
+   <string name="app_name">Cadpage</string>   
+   <string name="call_history">Call History:</string>   
+   <string name="new_text_at">New Call Received at %s</string>
+   <string name="src_text_at">%1$s call at %2$s</string>
+   <string name="mms_subject">Subject:</string>
+   
+<!--  Permission strings -->
+   <string name="cadperm_title">Receive CAD pages</string>
+   <string name="cadperm_desc">
+   Allows application to receive CAD Pages containing information about 
+   emergency response calls.  Malicious applications could use this to 
+   access personal information connected with these calls</string>   
+   
+<!-- Menu Strings -->
+
+   <string name="settings">Settings</string>   
+   
+<!-- Network error strings -->
+   <string name="network_err_title">Network Error</string>
+   <string name="network_err_not_connected">This action requires network access</string>
+   <string name="network_err_roaming">This action is not advised on roaming network</string>   
+
+<!-- Notification Strings -->
+   <string name="notification_scroll">%1$s</string>
+   <string name="notification_scroll_privacy">New Call:</string>
+
+   <string name="button_disabled">Disabled</string>
+   <string name="button_view">View</string>
+   <string name="button_view_mms">View MMS</string>
+   <string name="button_close">Close</string>
+   
+<!-- Main Preferences -->
+   <string name="pref_config_title">Cadpage Configuration</string>
+   <string name="pref_other_title">Other</string>
+
+   <string name="pref_enabled_title">Enable Cadpage</string>
+   <string name="pref_enabled_summaryon">Cadpage is enabled</string>
+   <string name="pref_enabled_summaryoff">Cadpage is disabled</string>
+   
+   <string name="pref_enable_msg_type_title">Message type processed</string>
+   <string name="pref_enable_msg_type_summary">Cadpage will process\n%s</string>
+   
+   <string name="pref_mms_timeout_title">MMS download timeout</string>
+   <string name="pref_mms_timeout_summary">MMS content download time limit\nCur value:%s min</string>
+
+   <string name="pref_about_title">About</string>
+   <string name="pref_about_summary">About Cadpage</string>
+   <string name="pref_about_text">By Derrick Bennett and Ken Corbin, based on Code by : Adam K (SMS Popup Application)\n</string>
+
+   <string name="pref_faq_title">FAQ</string>
+   <string name="pref_faq_summary">Frequently Asked Questions</string>
+   <string name="pref_faq_url">http://www.Cadpage.org/faq</string>
+
+   <string name="pref_releasenotes_title">What\'s New?</string>
+   <string name="pref_releasenotes_summary">See what\'s new in this version</string>
+   <string name="pref_releasenotes_diagtitle">New in this version</string>
+
+   <string name="pref_review_title">Write a Cadpage Review</string>
+   <string name="pref_review_summary">Press \"Your Review\"</string>
+   <string name="pref_review_url">market://details?id=net.anei.cadpage</string>
+   
+<!-- Additional Preferences -->
+   <string name="pref_popup_control">Alarm Popup Control</string>
+   <string name="pref_additional_title">Additional Settings</string>
+   <string name="pref_additional_summary">Additional Cadpage configuration</string>
+
+   <string name="pref_timeout_title">Screen Timeout</string>
+   <string name="pref_timeout_summary">The screen will sleep after this time.  Cur value: %s</string>
+
+   <string name="pref_dimscreen_title">Dim Popup Screen</string>
+   <string name="pref_dimscreen_summaryon">Popup screen will be dim (saves battery)</string>
+   <string name="pref_dimscreen_summaryoff">Popup screen will be bright</string>
+
+   <string name="pref_privacy_title">Privacy Mode</string>
+   <string name="pref_privacy_summaryon">Contents of the message will only be shown after unlock</string>
+   <string name="pref_privacy_summaryoff">Contents of the message will be shown immediately</string>
+
+   <string name="pref_show_personal_title">Display Personal Info</string>
+   <string name="pref_show_personal_summaryon">Caller Name/Phone will be displayed</string>
+   <string name="pref_show_personal_summaryoff">Caller Name/Phone will not be displayed</string>
+
+   <string name="pref_popup_enabled_title">Show Popup</string>
+   <string name="pref_popup_enabled_summaryon">Alarm will display popup window</string>
+   <string name="pref_popup_enabled_summaryoff">Alarm will not display popup window</string>
+
+   <string name="pref_onlyShowOnKeyguard_title">Restrict Keyguard Popup</string>
+   <string name="pref_onlyShowOnKeyguard_summaryon">Popup window will only show when keyguard is engaged</string>
+   <string name="pref_onlyShowOnKeyguard_summaryoff">Popup will always show</string>
+
+   <string name="pref_noShowInCall_title">Restrict In Call Popup</string>
+   <string name="pref_noShowInCall_summaryon">Popup window will not show when call in progress</string>
+   <string name="pref_noShowInCall_summaryoff">Popup window will show when call in progress</string>
+   
+   <string name="pref_email_title">E-mail the Developer</string>
+   <string name="pref_email_summary">E-mail comments or bugs to the developer</string>
+
+<!-- Notification Preferences -->
+   <string name="pref_notif_title">Notification Settings</string>
+   <string name="pref_notif_summary">Notification configuration</string>
+   
+   <!-- Category headings -->
+   <string name="pref_vibrate_category_title">Vibrate Configuration</string>
+   <string name="pref_flashled_category_title">LED Configuration</string>
+   <string name="pref_reminder_category_title">Reminder Configuration</string>
+
+   <string name="pref_notif_enabled_title">Enable Notifications</string>
+   <string name="pref_notif_enabled_summaryon">Notifications are enabled</string>
+   <string name="pref_notif_enabled_summaryoff">Notifications are disabled</string>
+
+   <string name="pref_notif_test_title">Test Notification</string>
+   <string name="pref_notif_test_summary">Test out your notification</string>
+   <string name="pref_notif_test_message">Testing your notification now!</string>
+   
+   <string name="pref_notif_sound_title">Notification Sound</string>
+   <string name="pref_notif_sound_summary">This sound will play when a message is received</string>
+
+   <string name="pref_vibrate_title">Vibrate</string>
+   <string name="pref_vibrate_summaryon">Vibrate is on</string>
+   <string name="pref_vibrate_summaryoff">Vibrate is off</string>
+
+   <string name="pref_vibrate_pattern_title">Vibrate Pattern</string>
+   <string name="pref_vibrate_pattern_summary">Set the vibration pattern.  Cur value: %s</string>
+   <string name="pref_vibrate_pattern_ok">Custom vibrate pattern set</string>
+   <string name="pref_vibrate_pattern_bad">Custom vibrate pattern invalid</string>
+   <string name="pref_vibrate_pattern_help">Enter a custom vibrate pattern, in the format:\nmillisOff, millisOn, etc.\n\nFor example:\n0,1000\n0,500,200,500,200,500</string>
+   
+   <!-- Value to set trigger custom dialogs -->
+   <string name="pref_custom_val">custom</string>
+   <string name="pref_flashled_title">Blink LED</string>
+   <string name="pref_flashled_summaryon">Blink LED when a message is received</string>
+   <string name="pref_flashled_summaryoff">Do not blink LED when a message is received</string>
+   
+   <string name="pref_flashled_color_title">LED Color</string>
+   <string name="pref_flashled_color_summary">The color of the LED.  Cur value: %s</string>
+      <string name="pref_flashled_color_custom_dialog_red">Red:</string>
+   <string name="pref_flashled_color_custom_dialog_green">Green:</string>
+   <string name="pref_flashled_color_custom_dialog_blue">Blue:</string>
+   <string name="pref_flashled_color_custom_dialog_preview">Preview:</string>
+   <string name="pref_flashled_color_custom_set">Custom LED color set</string>
+
+   <string name="pref_flashled_pattern_title">LED Blink Rate</string>
+   <string name="pref_flashled_pattern_summary">Set the speed the LED blinks.  Cur value: %s</string>
+   <string name="pref_flashled_pattern_ok">Custom LED blink rate set</string>
+   <string name="pref_flashled_pattern_bad">Custom LED blink rate is invalid</string>
+   <string name="pref_flashled_pattern_help">Enter the time in milliseconds to turn the LED on and off</string>
+   <string name="pref_flashled_pattern_help_on">Time on:</string>
+   <string name="pref_flashled_pattern_help_off">Time off:</string>
+
+   <string name="pref_notif_repeat_title">Enable Reminders</string>
+   <string name="pref_notif_repeat_summaryon">Unread message reminders are enabled</string>
+   <string name="pref_notif_repeat_summaryoff">Unread message reminders are disabled</string>
+
+   <string name="pref_notif_repeat_interval_title">Reminder Interval</string>
+   <string name="pref_notif_repeat_interval_summary">The time period between notification reminders. Cur value: %s </string>
+   <string name="pref_notif_repeat_interval_dialogTitle">Interval (minutes)</string>
+
+   <string name="pref_notif_repeat_times_title">Number of Reminders</string>
+   <string name="pref_notif_repeat_times_summary">The number of reminder notifications to play.  Cur value: %s</string>
+
+<!-- Contact Notification Customization Strings -->
+  <string name="pref_notif_default_title">Default Notifications</string>
+  <string name="pref_notif_override_title">Override Notification</string>
+  <string name="pref_notif_override_summary">Use this to play the included sound even when phone is in silent mode.</string>
+  <string name="pref_notif_override_summaryon">Notification Sounds will not play. The default sound will.</string>
+  <string name="pref_notif_override_summaryoff">Notification sounds and rules will be followed</string>
+    
+<!-- Text-To-Speech and Voice Transcription Strings -->
+  <string name="loading_message">Loading...</string>
+  <string name="error_message">Error</string>
+      
+<!-- Popup Button Configuration -->
+  <string name="pref_button_config_title">Button Configuration</string>
+  <string name="pref_button_config_summary">Popup button configuration</string>
+  <string name="pref_main_button_config_title">Main Button Menu </string>
+  <string name="pref_main_button_config_summary">Configure main button menu</string>
+  <string name="pref_resp_button_config_title">Response Button Menu </string>
+  <string name="pref_resp_button_config_summary">Configure response button menu</string>
+  <string name="pref_xtra_resp_button_config_title">Regular Buttons </string>
+  
+  <string name="pref_resp_type_title">Response Type</string>
+  <string name="pref_resp_type_summary">Response buttons trigger: %s</string>
+  <string name="pref_resp_merge_title">Direct paging message menu</string>
+  <string name="pref_resp_merge_summary">Direct page vendor message menus will be\n%s</string>
+
+  <string name="pref_button_summary">Current Setting: %s</string>
+  <string name="pref_button1_title">Button 1 Configuration</string>
+  <string name="pref_button2_title">Button 2 Configuration</string>
+  <string name="pref_button3_title">Button 3 Configuration</string>
+  <string name="pref_button4_title">Button 4 Configuration</string>
+  <string name="pref_button5_title">Button 5 Configuration</string>
+  <string name="pref_button6_title">Button 6 Configuration</string>
+
+  <string name="pref_desc_callback1_title">Button 1 Description</string>
+  <string name="pref_desc_callback2_title">Button 2 Description</string>
+  <string name="pref_desc_callback3_title">Button 3 Description</string>
+  <string name="pref_desc_callback4_title">Button 4 Description</string>
+  <string name="pref_desc_callback5_title">Button 5 Description</string>
+  <string name="pref_desc_callback6_title">Button 6 Description</string>
+
+  <string name="pref_code_callback1_title">Button 1 Phone/Code</string>
+  <string name="pref_code_callback2_title">Button 2 Phone/Code</string>
+  <string name="pref_code_callback3_title">Button 3 Phone/Code</string>
+  <string name="pref_code_callback4_title">Button 4 Phone/Code</string>
+  <string name="pref_code_callback5_title">Button 5 Phone/Code</string>
+  <string name="pref_code_callback6_title">Button 6 Phone/Code</string>
+
+  <!-- Other new prefs -->
+  <string name="pref_autorotate_title">Autorotate Always On</string>
+  <string name="pref_autorotate_summaryon">Popup will always autorotate</string>
+  <string name="pref_autorotate_summaryoff">Popup will auto-rotate based on the screen behind it</string>
+
+  <string name="pref_map_network_chk_title">Map Network Status</string>
+  <string name="pref_map_network_chk_summary">Map request allowed when network status is %s</string>
+
+  <string name="pref_delete_unopen_title">Delete Unopened Calls</string>
+  <string name="pref_delete_unopen_summaryon">Allow unopened calls to be deleted</string>
+  <string name="pref_delete_unopen_summaryoff">Do not allow unopened calls to be deleted</string>
+
+  <string name="pref_screen_on_title">Screen On for Popup</string>
+  <string name="pref_screen_on_summaryon">Screen will turn on when popup shows</string>
+  <string name="pref_screen_on_summaryoff">Screen will not turn on when popup shows</string>
+
+  <string name="pref_screen_category">Screen Control</string>
+
+  <string name="pref_notif_repeat_times_entries_keep_repeting">Keep repeating</string>
+
+  <string name="pref_timeout_entries_10s">10 seconds</string>
+  <string name="pref_timeout_entries_20s">20 seconds</string>
+  <string name="pref_timeout_entries_30s">30 seconds</string>
+  <string name="pref_timeout_entries_1m">1 minute</string>
+  <string name="pref_timeout_entries_2m">2 minutes</string>
+  <string name="pref_timeout_entries_5m">5 minutes</string>
+  <string name="pref_timeout_entries_10m">10 minutes</string>
+
+  <string name="pref_vibrate_pattern_entries_normal">Normal</string>
+  <string name="pref_vibrate_pattern_entries_long">Long Vibrate</string>
+  <string name="pref_vibrate_pattern_entries_multiple_short">Multiple Short</string>
+  <string name="pref_vibrate_pattern_entries_multiple_long">Multiple Long</string>
+
+  <string name="pref_led_color_blue">Blue</string>
+  <string name="pref_led_color_green">Green</string>
+  <string name="pref_led_color_red">Red</string>
+  <string name="pref_led_color_yellow">Yellow</string>
+  <string name="pref_led_color_magenta">Magenta</string>
+  <string name="pref_led_color_cyan">Cyan</string>
+
+  <string name="pref_led_pattern_entries_fast">Fast</string>
+  <string name="pref_led_pattern_entries_normal">Normal</string>
+  <string name="pref_led_pattern_entries_slow">Slow</string>
+
+
+  <string name="CallAddress">None</string>
+
+
+  <string name="pref_loc_desc_title">Current Location</string>
+
+  <string name="pref_location_title">Select Single Location</string>
+  <string name="pref_location_summary">Select a single location</string>
+
+  <string name="pref_multi_location_title">Select Multiple Locations</string>
+  <string name="pref_multi_location_summary">Select multiple locations</string>
+
+  <string name="pref_override_filter_title">Override location filter</string>
+  <string name="pref_override_filter_summaryon">Location filter will be overridden</string>
+  <string name="pref_override_filter_summaryoff">Location filter %s is active</string>
+
+  <string name="pref_filter_title">From: (Filter)</string>
+  <string name="pref_filter_summary">Only Messages from this address will be checked.
+    Cur value: %s</string>
+  <string name="pref_filter_dialog">Enter Email address to filter messages. No entry
+    will scan all. Use a , to separate multiple addresses.</string>
+
+  <string name="pref_gen_alert_title">Process general alerts</string>
+  <string name="pref_gen_alert_summaryon">Will process general alerts</string>
+  <string name="pref_gen_alert_summaryoff">Will not process general alerts</string>
+
+  <string name="pref_show_source_title">Show page source</string>
+  <string name="pref_show_source_summaryon">Will display source of alert</string>
+  <string name="pref_show_source_summaryoff">Will not display source of alert</string>
+
+  <string name="pref_override_default_title">Override Default City/State</string>
+  <string name="pref_override_default_summaryon">Use user default city/state</string>
+  <string name="pref_override_default_summaryoff">Use location default city/state</string>
+
+  <string name="pref_defcity_title">Default City or County</string>
+  <string name="pref_defcity_summary">Cur value: %s</string>
+  <string name="pref_defcity_dialog">Enter default city or county location</string>
+
+  <string name="pref_defstate_title">Default State</string>
+  <string name="pref_defstate_summary">Cur value: %s</string>
+  <string name="pref_defstate_dialog">Enter default state location</string>
+
+  <string name="pref_loglimit_title">Message Report Limit</string>
+  <string name="pref_loglimit_summary">Number of messages to include in problem
+    reports\nCur value: %s</string>
+
+  <string name="pref_msgtimeout_title">Split message timeout</string>
+  <string name="pref_msgtimeout_summary">Multi-message page timeout\nCur value: %s</string>
+  <string name="pref_msgtimeout_dialog">Maximum time in seconds to wait for rest of
+    multi-message CAD pages</string>
+
+  <string name="pref_split_min_msg_title">Split message min count</string>
+  <string name="pref_split_min_msg_summary">Minimum expected message count\nCur value: %s
+  </string>
+
+  <string name="pref_split_blank_ins_title">Insert Blanks in Split msgs</string>
+  <string name="pref_split_blank_ins_summaryon">Blanks will be inserted between split page texts
+  </string>
+  <string name="pref_split_blank_ins_summaryoff">Blanks will not be inserted between split page texts</string>
+
+  <string name="pref_split_chk_sender_title">Split msg check sender addr</string>
+  <string name="pref_split_chk_sender_summaryon">Sender address will be checked when merging split page texts</string>
+  <string name="pref_split_chk_sender_summaryoff">Sender address will not checked when merging split page texts</string>
+
+  <string name="pref_rev_msg_order_title">Reverse split msg order</string>
+  <string name="pref_rev_msg_order_summaryon">Split CAD page messages will be expected in last to first order</string>
+  <string name="pref_rev_msg_order_summaryoff">Split CAD page messages will be expected in first to last order</string>
+
+  <string name="pref_suppress_dup_msg_title">Suppress duplicate calls</string>
+  <string name="pref_suppress_dup_msg_summaryon">Duplicate calls will be suppressed</string>
+  <string name="pref_suppress_dup_msg_summaryoff">Duplicate calls will be processed</string>
+
+  <string name="pref_activate_scanner_title">Open Scanner Channel</string>
+  <string name="pref_activate_scanner_summaryon">Scanner channel will be opened</string>
+  <string name="pref_activate_scanner_summaryoff">Scanner channel will not be opened</string>
+
+  <string name="pref_scanner_channel_title">Scanner Channel</string>
+  
+  <string name="pref_publish_pages_title">Publish CAD pages</string>
+  <string name="pref_publish_pages_summaryon">Cad pages will be published for 3rd party
+    applications</string>
+  <string name="pref_publish_pages_summaryoff">Cad pages will not be published for 3rd party
+    applications</string>
+
+  <string name="exit">Exit</string>
+  <string name="clearall_text">Clear All</string>
+  <string name="pref_passthrusms_title">Pass Calls through to SMS Client</string>
+  <string name="pref_passthrusms_summaryoff">Do not pass Cadpage calls to SMS Client</string>
+  <string name="pref_passthrusms_summaryon">Pass all calls through to default SMS Client
+  </string>
+
+  <string name="pref_history_limit_title">Call History Limit</string>
+  <string name="pref_history_limit_summary">Maximum number of calls to save in call history.
+    Cur value: %s</string>
+
+  <!-- Message menu items -->
+  <string name="open_item_text">Open</string>
+  <string name="ack_item_text">Ack</string>
+  <string name="resp_menu_item_text">Resp Menu</string>
+  <string name="map_item_text">Map</string>
+  <string name="lock_item_text">Lock</string>
+  <string name="unlock_item_text">Unlock</string>
+  <string name="delete_item_text">Delete</string>
+  <string name="close_item_text">Close</string>
+  <string name="close_app_item_text">Close App</string>
+  <string name="email_item_text">Report Problem</string>
+  <string name="publish_item_text">Publish Page</string>
+  <string name="more_info_item_text">More Info</string>
+  
+  <!--  Response message menu items  -->
+  <string name="responding_text">Responding</string>
+  <string name="not_responding_text">Not Responding</string>
+
+  <!-- Email developer Dialog items -->
+  <string name="pref_sendemail_title">E-mail the developers</string>
+  <string name="sendemail_btn_ok">Send</string>
+  <string name="sendemail_btn_cancel">Cancel</string>
+
+  <string name="pref_disclaimer_title">Disclaimer</string>
+  <string name="pref_disclaimer_summary">View Disclaimer regarding Cadpage use.</string>
+  <string name="pref_disclaimer_url">http://code.google.com/p/Cadpage/wiki/Disclaimer
+  </string>
+
+  <!-- Location settings -->
+  <string name="pref_location_screen_title">Location Settings</string>
+  <string name="pref_location_screen_summary">CAD Page Processing Details</string>
+  <string name="pref_textsize_large">Large</string>
+  <string name="pref_textsize_medium">Medium</string>
+  <string name="pref_textsize_small">Small</string>
+
+  <string name="pref_textsize_summary">Select the Text size for History Screen Messages
+  </string>
+  <string name="pref_textsize_title">Text Size</string>
+  
+  <!--  Donation settings -->
+  <string name="pref_payment_status_title">Payment Status</string>
+  
+  <string name="release_title">What"'"s new in Cadpage?</string>
+  <string name="widget_config_name">Cadpage Config 1x4</string>
+     
+  <string name="notification_msg_acc_title">Cadpage</string>
+  <string name="notification_msg_acc_text">Processing incoming alert</string>
+  
+  <!-- Direct Paging settings -->
+  <string name="pref_direct_paging_title">Direct Paging Vendors</string>
+  <string name="pref_direct_paging_summary">Set up direct paging service</string>
+  
+  <string name="pref_reconnect_title">Reconnect Direct Paging</string>
+  <string name="pref_reconnect_summary">Restore connections with currently enabled Direct Paging vendors</string>
+  
+  <!-- Scanner Radio Interface reports -->
+  <string name="scanner_not_installed">
+    This feature requires some version of the Scanner Radio application be installed.  Would you like to install it now?
+  </string>
+  <string name="scanner_not_current">
+    This feature requires a current version of the Scanner Radio application.  Would you like to install it now?
+  </string>
+  
+</resources>

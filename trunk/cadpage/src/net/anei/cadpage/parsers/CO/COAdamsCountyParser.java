@@ -1,0 +1,142 @@
+package net.anei.cadpage.parsers.CO;
+
+import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
+
+/*
+Adams County, CO
+Contact: "Matt Kehoe" <mjkehoe@gmail.com>
+Sender: ipspage@adcom911.org
+
+Subject:IPS I/Page Notification E 64TH AVE/MONACO ST ADAM CCPD 09:51:48 TYPE CODE: ACCI CALLER NAME: TIME: 09:51:48 Comments: -104.90947
+Subject:IPS I/Page Notification 6950 NIAGARA ST ADAM CCPD 11:04:10 TYPE CODE: EMS CALLER NAME: FELIX - 13YO TIME: 11:04:10 Comments: 15YO
+Subject:IPS I/Page Notification 10220 BRIGHTON RD ADAM CCPD:DIVERSIFIES TRUCK AND RV 17:22:11 TYPE CODE: NONSTR CALLER NAME: BOB TIME: 17:
+Subject:IPS I/Page Notification US HIGHWAY 85 NB/E 77TH AVE ADAM ADAM 03:34:04 TYPE CODE: NONSTR CALLER NAME: ASHLEY TIME: 03:34:04 Commen
+Subject:IPS I/Page Notification 9900 E 102ND AVE ADAM CCPD:USF 06:06:49 TYPE CODE: FRALRM CALLER NAME: ADT TIME: 06:06:49 Comments: WATER
+Subject:IPS I/Page Notification\n26900 E COLFAX AVE ARAP ARAP,454: @FOX RIDGE FARMS 17:19:15 TYPE CODE: EMS CALLER NAME:  TIME: 17:19:15 Co
+
+Contact: Derrick Keeton <derrickkeeton@gmail.com>
+IPS I/Page Notification / 10433 SALIDA ST ADAM CCPD 06:51:58 TYPE CODE: FRALRM CALLER NAME:  TIME: 06:51:58\n\n\n
+
+Contact: JC Langley <ashaman01@gmail.com>
+(IPS I/Page Notification) E 470 EB ADAM ADAM: @E 470 EB/E 56TH AVE 22:58:36 TYPE CODE: NONSTR CALLER NAME:  TIME: 22:58:36 Comments:  -104.701552 +39.798521 WH
+
+Contact: "Schuppe, Michael" <mschuppe@brightonfire.org>
+Sender: ipspage@adcom911.org
+Subject:IPS I/Page Notification\n510.5 S 2nd Ave major incident-- hazmat  no additional equip needed at this time\r\n\r\n\r
+
+Contact: Dennis Hoke <dennishoke34@gmail.com>
+Sender: ipspage@adcom911.org
+Subject:IPS I/Page Notification\n40200 E QUINCY AVE 18:40:46 TYPE CODE: NONSTR CALLER NAME:  TIME: 18:40:46 Comments:  WILL BE HOUSE NUMBER\r
+
+Contact: support@active911.com
+(IPS I/Page Notification) 8055 WASHINGTON ST ADAM ADAM: @STATION 31 13:45:48 TYPE CODE: EMS CALLER NAME: FIL MARTINEZ TIME: 13:45:48 Comments:  TEST CARD
+[IPS I/Page Notification] I 70 WB/MM 317 01:47:54 TYPE CODE: STANDBY CALLER NAME: ARAP TIME: 01:47:54 Comments:  ** LOI search completed at 08/13/12 01:45:25 WB LANES .. EAST OF MM 317 REQ STRASBURG STANDBY FOR ALS FOR BYERS FIRE ROLLOVER VEH .. 1 PTY PINNED .. 1 EJECTED CHOPPER ON GROUND STAND BY PER TIFFANY .. ARAP COUNTY 800 AKN -- TONE BENN -- ALS UNAVAIL 711 REQ BENN START TONED 900 MED71 ENRT ON BYERS PRIM REQ TONE FOR DRIVER 2ND TONES FOR DRIVER 958 I / S 711 WILL HAVE COMMAND AIRLIFE IS AIRBORN STANDBY WILL BE LANDING STAC D 711 -- 2ND ROLLOVER ACCIDENT HALF MILE AWAY CRX ... 1 1 / 2 MILE AMB701 ENRT TO 711 LOCATION NEED EXTRICATION AND AN ALS AMB ** Cross Referenced to Event # BFD12000590 at: 08/13/12 01:45:25 ** >>>> by: JENNIFER WATTS on terminal: dp9 NEED 2 ALS AMB TONED 800 AMB81 - ENRT ALS X 3 BYERS-- NEED 2 AMB TO RESPOND ALS SAYING THEY NEED ALL AMB AVAIL AMB81 - 2ND TONES FOR ACCIDENT\r\n\r\n\r\n
+
+ */
+
+
+public class COAdamsCountyParser extends FieldProgramParser {
+  
+  private static final Pattern CAD_MARKER = 
+        Pattern.compile("^(?:Subject:)?IPS I/Page Notification (?:/ )?");
+  
+  public COAdamsCountyParser() {
+    super(CITY_TABLE, "ADAMS COUNTY", "CO",
+           "ADDR! TYPE_CODE:CALL! CALLER_NAME:NAME! TIME:TIME! Comments:INFO");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "ipspage@adcom911.org";
+  }
+
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (subject.length() > 0) body = "Subject:" + subject + ' ' + body;
+
+    Matcher match = CAD_MARKER.matcher(body);
+    if (!match.find()) return false;
+    body = body.substring(match.end()).trim();
+    if (super.parseMsg(body, data)) return true;
+    
+    // Fallback parsing address followed by call description
+    data.initialize();
+    parseAddress(StartType.START_ADDR, body, data);
+    data.strCall = getLeft();
+    return (getStatus() > 0);
+  }
+  
+  
+  private static final Pattern TIME_MARK = Pattern.compile(" +(\\d\\d:\\d\\d:\\d\\d)$");
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("E 470", "E-470");
+    
+      Matcher match = TIME_MARK.matcher(field);
+      if (match.find()) {
+        data.strTime = match.group(1);
+        field = field.substring(0, match.start());
+      }
+      int pt = field.lastIndexOf(':');
+      String sPlace = null;
+      if (pt >= 0) {
+        sPlace = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+        if (sPlace.startsWith("@")) sPlace = sPlace.substring(1).trim();
+      }
+      
+      pt = field.lastIndexOf(',');
+      if (pt >= 0) {
+        data.strApt = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+      }
+      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
+      if (sPlace != null) {
+        String sCross = null;
+        pt = sPlace.indexOf('/');
+        if (pt >= 0) {
+          String sPart1 = sPlace.substring(0,pt).trim();
+          String sPart2 = sPlace.substring(pt+1).trim();
+          if (sPart1.equals(data.strAddress)) sCross = sPart2;
+          else if (sPart2.equals(data.strAddress)) sCross = sPart1; 
+        }
+        if (sCross != null) data.strAddress = append(data.strAddress, " & ", sCross);
+        else data.strPlace = sPlace;
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR CITY APT PLACE";
+    }
+  }
+  
+  private class MyTimeField extends TimeField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strTime.length() > 0) return;
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("TIME")) return new MyTimeField();
+    return super.getField(name);
+  }
+  
+  private static final Properties CITY_TABLE = buildCodeTable(new String[]{
+      "ADAM ADAM", "",
+      "ADAM AUR",  "AURORA",
+      "ADAM CCPD", "COMMERCE CITY",
+      "ARAP ARAP", "ARAPAHOE COUNTY"
+  });
+}

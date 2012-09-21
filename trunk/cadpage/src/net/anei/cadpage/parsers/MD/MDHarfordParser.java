@@ -1,0 +1,140 @@
+package net.anei.cadpage.parsers.MD;
+
+import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchBParser;
+
+/*
+Harford, MD Sample pages
+Contact: "Greg Dietrich" <greg.dietrich@nvfc10.org>
+Sender:  rc.279@c-msg.net
+Under box number, the N in this case actually represents a 10## box. Also notice that a separate text is sent for each piece of equipment due on a box assignment (see the two last text messages below.
+[!] EOC:A1091 UNC >UNCONSCIOUS 2200 CHANNEL RD XS: X BIG BRANCH BRDG #127 PYLESVILLE CRIZER,KIM BOX: N08 Cad: 2010-0000162717
+[!] EOC:A1091 SICK >SICK PERSON 1606 SCOTT RD XS: X FAWN GROVE RD PYLESVILLE BATCHELDER,MICHELLE BOX: N04 Cad: 2010-0000162427
+[!] EOC:A1091 DIAB >DIABETIC EMRG. 2145 HARKINS RD XS: SAINT PAULS CHURCH RD PYLESVILLE ROHREAUGH,KEN BOX: N04 Cad: 2010-0000162445
+[!] EOC:E1011 MISC >MISC 4873 CAREA RD XS: X WALNUT SPRING CT WHITE HALL SHERBS,ROBERT BOX: N08 Cad: 2010-0000162395
+[!] EOC:A1091 MVA >MV ACCIDENT W/INJURY SRT24&SAINT MARYS RD XS: SAINT MARYS RD PYLESVILLE DEDRICK.PATTI Cad: 2010-0000162161
+[!] EOC:E1011 MVA >MV ACCIDENT W/INJURY SRT24&SAINT MARYS RD XS: SAINT MARYS RD PYLESVILLE DEDRICK.PATTI Cad: 2010-0000162161
+[!] EOC:F03 BUILD >BUILDING FIRE 21 EASTERN AVE XS: S MAIN ST BEL AIR LEBRUN,MARLEEN BOX: 302 Cad: 2010-0000195539
+
+Subject:HCCAD\n[!] EOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169
+
+Contact: Karen Zeiler <kmz1176@gmail.com>
+Sender: rc.391@c-msg.net
+(HCCAD) [!] EOC:E04 HEMM >HEMORRAGE/LACERATION 4324 HAMPTON HALL CT XS: DEAD END BELCAMP KOWALCHEK,JOHN BOX: 402 Cad: 2011-0000090313
+
+Contact: Ryan Pennington <ryan.pennington2@gmail.com>
+HCCAD / [!] EOC:E02 ARRES >CARDIAC ARREST 35 LINCOLN AVE Apt: C1 Bldg XS: PRITCHARD AVE ABERDEEN WARD,ASHANTE BOX: 211 Cad:11793\n\n
+
+Contact: Ian Williams <engine9company@gmail.com>
+[DVFC]  EOC:F09 911-CENTER SWR &gt;SWIFT/FLOOD WATER RES SRT24&amp;CHESTNUT HILL RD XS: CHESTNUT HILL RD FOREST HILL THOMPSON,DOUG Cad: 2011-0000122811
+
+Contact: "R. Brian Frearson " <bfrearson@gmail.com>
+FRM:rc.95@c-msg.net\nSUBJ:HCCAD\nMSG:[!] EOC:E91 HEART >HEART PROBLEM SRT155&SRT161 XS: SRT161 HAVRE DE GRACE Cad:143258\n
+
+Contact: JEREMY GARNICE <coastie_1@yahoo.com>
+Sender: rc.391@c-msg.net
+(HCCAD) [!] EOC:E04 ABDOM >ABDOMINAL PAIN 4964 BRISTLE CONE CIR XS: HOLLY OAK CIR - SOUTH ABERDEEN ROGERS,WILLIAM BOX: 417 Cad:209431
+
+Contact: Jake Preston <jakeprestonphotography@gmail.com>
+Sender: rc.345@c-msg.net
+(HCCAD) [!] EOC:F07 MVAR >MVA W/ RESCUE 4830 NORRISVILLE RD XS: X AYRES CHAPEL RD WHITE HALL GLACIER,KATHY BOX: 712 Cad: 2012-0000101402
+(HCCAD) [!] EOC:F07 MVAR >MVA W/ RESCUE 1219 BALDWIN MILL RD XS: INGLESIDE DR JARRETTSVILLE BARNHILL,DAVE BOX: 700 Cad: 2012-0000101401
+
+Contact: Active911
+Agency name: Fallston Vol fire and Ambo Company Location: Fallston, MD 
+Sender: rc.95@c-msg.net  
+(HCCAD) [!] EOC:E04 MED PRE-ALERT 20 BOX HILL SOUTH PKY Apt: 304 Bldg MERCHANT BLVD GARDNER,ROWENA
+(HCCAD) [!] EOC:E03 MED PRE-ALERT 912 BUCKLAND PL DEAD END - S END HERBERT,GREG
+(HCCAD) [!] EOC:E04 HEAD >HEADACHE 20 BOX HILL SOUTH PKY Apt: 304 Bldg XS: MERCHANT BLVD ABINGDON GARDNER,ROWENA BOX: 410 Cad: 2012-0000153342
+(HCCAD) [!] EOC:E01 CVA >STROKE 912 BUCKLAND PL XS: DEAD END - S END BEL AIR HERBERT,GREG BOX: 322 Cad: 2012-0000153343
+(HCCAD) [!] EOC:E04 ALRMHI>HOLD UP ALARM IP 4417 TOLCHESTER CT XS: BRISTOL FOREST DR BELCAMP PINNACLE//OP VANESSA BOX: 402 Cad: 2012-0000153349
+(HCCAD) [!] EOC:E11 MUTBC >MUT AID BALTO CO BCO 48-4 12652 FORK RD Cad: 2012-0000153395
+(HCCAD) [!] EOC:E11 MED PRE-ALERT 1605 ANGLESIDE RD DEAD END BUSCH,CAROL
+(HCCAD) [!] EOC:E11 RESP >RESPIRATORY DISTRESS 1605 ANGLESIDE RD XS: DEAD END FALLSTON BUSCH,CAROL BOX: F24 Cad: 2012-0000154310
+(HCCAD) [!] EOC:E11 MED PRE-ALERT 1938 HIGH POINT RD X CANNONGATE RD HAMMERBACHER,REBECCA
+(HCCAD) [!] EOC:E11 SICK >SICK PERSON 1938 HIGH POINT RD XS: X CANNONGATE RD FOREST HILL HAMMERBACHER,REBECCA BOX: F26 Cad: 2012-0000154770
+(HCCAD) [!] EOC:E11 UNK >UNKNOWN MEDICAL 201 KIMARY CT Apt: C Bldg XS: SPENCEOLA PKY FOREST HILL LIFE ALERT #723 BOX: 383 Cad: 2012-0000154851
+(HCCAD) [!] EOC:E11 SICK >SICK PERSON 1030 ROCK SPRING RD XS: HARFORD CO DETENTION CENTER BEL AIR S383 BOX: 351 Cad: 2012-0000154850
+(HCCAD) [!] EOC:E11 MED PRE-ALERT 2513 GREENE RD BALDWIN MILL RD SAMPLE,RONESSA
+(HCCAD) [!] EOC:E11 RESP >RESPIRATORY DISTRESS 2513 GREENE RD XS: BALDWIN MILL RD BALDWIN SAMPLE,RONESSA BOX: F11 Cad: 2012-0000155044
+(HCCAD) [!] EOC:F11 RES >RESCUE NOT MVA 864 SMITH LN XS: CONNOLLY RD FALLSTON ANON BOX: 347 Cad: 2012-0000155045
+(HCCAD) [!] EOC:E11 MUTBC >MUT AID BALTO CO BC 38-23 5 LAUREL MILL CT Cad: 2012-0000155581
+(HCCAD) [!] EOC:E11 UNC >UNCONSCIOUS 1102 RED PUMP RD XS: GRAFTON SHOP RD BEL AIR TRACEY,JEFF BOX: 358 Cad: 2012-0000155628
+(HCCAD) [!] EOC:E11 MVA >MV ACCIDENT W/INJURY SRT1&SRT152 XS: SRT152 FALLSTON Cad: 2012-0000155869
+(HCCAD) [!] EOC:E11 MED PRE-ALERT 26 MOUNTAIN RD MILLS RD ALEXANDER,MARY
+(HCCAD) [!] EOC:E11 RESP >RESPIRATORY DISTRESS 26 MOUNTAIN RD XS: MILLS RD FALLSTON ALEXANDER,MARY BOX: F01 Cad: 2012-0000156728
+(HCCAD) [!] EOC:E11 MED PRE-ALERT 2505 DERBY DR PREAKNESS DR ZIEGLER,KELSEY
+(HCCAD) [!] EOC:E11 UNC >UNCONSCIOUS 2505 DERBY DR XS: PREAKNESS DR FALLSTON ZIEGLER,KELSEY BOX: F13 Cad: 2012-0000156752
+(HCCAD) [!] EOC:F11 FIRE PRE-ALERT 2530 HESS RD CANTERBURY LN CHAD
+(HCCAD) [!] EOC:F11 FIELD >FIELD/WOOD FIRE 2530 HESS RD XS: CANTERBURY LN FALLSTON CHAD BOX: F15 Cad: 2012-0000156832
+(HCCAD) [!] EOC:E11 MED PRE-ALERT 2403 STONEYSIDE DR DEAD END KLEINSMITH,THERESA
+(HCCAD) [!] EOC:E11 CVA >STROKE 2403 STONEYSIDE DR XS: DEAD END FALLSTON KLEINSMITH,THERESA BOX: F01 Cad: 2012-0000156860
+(HCCAD) [!] EOC:E11 MUTBC >MUT AID BALTO CO BCMB 38-11 13330 LONG GREEN PI Cad: 2012-0000156882
+(HCCAD) [!] EOC:E11 SICK >SICK PERSON 118 NICHOLS ST Apt: F Bldg XS: WILLIAMS ST BEL AIR LASSAHN,CAROL J BOX: 305 Cad: 2012-0000157036
+
+ */
+public class MDHarfordParser extends DispatchBParser {
+  
+  private static final String DEF_CITY = "HARFORD";
+  private static final String DEF_STATE = "MD";
+  
+  private static final String[] CITY_LIST =new String[]{
+    "ABERDEEN", "BEL AIR", "HAVRE DE GRACE", "JOPPA", "ABINGDON", "BELCAMP",
+    "LEVEL", "CHURCHVILLE", "DARLINGTON", "WHITEFORD", "JARRETTSVILLE", "STREET",
+    "HICKORY", "FALLSTON", "JOPPATOWNE", "FAWN GROVE", "DELTA", "PYLESVILLE", 
+    "WHITE HALL", "FOREST HILL"};
+
+  public MDHarfordParser() {
+    super(CITY_LIST, DEF_CITY, DEF_STATE);
+  }
+  
+  public String getFilter() {
+    return "@c-msg.net";
+  }
+  
+  @Override
+  protected boolean isPageMsg(String body) {
+    return true;
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    
+    
+    // First token following EOC: is the unit
+    if (body.startsWith("HCCAD /")) body = body.substring(7).trim();
+    if (body.startsWith("[!]")) body = body.substring(3).trim();
+    if (! body.startsWith("EOC:")) return false;
+    body = body.substring(4).trim();
+    int pt = body.indexOf(' ');
+    if (pt < 0) return false;
+    data.strUnit = body.substring(0, pt);
+    body = body.substring(pt+1).trim();
+    if (!super.parseMsg(body, data)) return false;
+    
+    if (data.strCross.startsWith("X ")) data.strCross = data.strCross.substring(2);
+    
+    if (!data.strName.equals("NOT ENTERED")) {
+      if (data.strName.startsWith("LIFE ALERT")) {
+        data.strSupp = data.strName;
+        data.strName = "";
+      }
+      pt = data.strName.lastIndexOf(' ');
+      if (data.strName.length()-pt < 4) pt = data.strName.lastIndexOf(' ', pt-1);
+      if (pt > 0) {
+        data.strPlace = data.strName.substring(0,pt).trim();
+        data.strName = data.strName.substring(pt+1);
+        
+        if (data.strPlace.startsWith("X ")) {
+          data.strCross = append(data.strCross, " & ", data.strPlace.substring(2).trim());
+          data.strPlace = "";
+        }
+        else if (checkAddress(data.strPlace) > 0) {
+          data.strCross = append(data.strCross, " & ", data.strPlace);
+          data.strPlace = "";
+        }
+      }
+    }
+    return true;
+  }
+}
