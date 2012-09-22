@@ -109,7 +109,7 @@ public class DispatchVisionAirParser extends FieldProgramParser {
     this.prefixs = prefixs;
   }
   
-  private static final Pattern DELIM = Pattern.compile("(?<!\\*)\\* ");
+  private static final Pattern DELIM = Pattern.compile("(?<!\\*)\\*[ \n]");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
