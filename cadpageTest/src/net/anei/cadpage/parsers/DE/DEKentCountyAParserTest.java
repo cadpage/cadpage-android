@@ -33,6 +33,11 @@ Contact: firechief47188@gmail.com
 Sender: rc.85@c-msg.net
 17A1G Falls - Not Dangerous 1203 MADISON AVE Harrington : Xst's: COLEMAN ST / MASON AVE Caller: HEMER NORA
 
+Contact: Bob Parson <pastchiefparson@gmail.com>
+31D3 Unconscious/Fainting 1203 MADISON AVE Harrington : Xst's: COLEMAN ST / MASON AVE Caller: O'DONAL RHONDA\2s
+EMS Stand-by 15 W ROBERT F RIDER RD HARRINGTON RACEWAY Harrington : STATE FAIR GROUNDS Xst's: F GARY SIMPSON RD / BENJAMIN I SHAW ST Caller:\r\n
+10D4 Chest Pains - Clammy 210 E CENTER ST Harrington : Xst's: DELAWARE AVE / 2ND AVE Caller: JARRELL NORRIS\r\n
+
  */
 
 public class DEKentCountyAParserTest extends BaseParserTest {
@@ -160,6 +165,32 @@ public class DEKentCountyAParserTest extends BaseParserTest {
         "CITY:Harrington",
         "X:COLEMAN ST / MASON AVE");
 
+  }
+  
+  @Test
+  public void testBobParson() {
+
+    doTest("T1",
+        "31D3 Unconscious/Fainting 1203 MADISON AVE Harrington : Xst's: COLEMAN ST / MASON AVE Caller: O'DONAL RHONDA\\2s",
+        "CALL:31D3 Unconscious/Fainting",
+        "ADDR:1203 MADISON AVE",
+        "CITY:Harrington",
+        "X:COLEMAN ST / MASON AVE");
+
+    doTest("T2",
+        "EMS Stand-by 15 W ROBERT F RIDER RD HARRINGTON RACEWAY Harrington : STATE FAIR GROUNDS Xst's: F GARY SIMPSON RD / BENJAMIN I SHAW ST Caller:\r\n",
+        "CALL:EMS Stand-by",
+        "ADDR:15 W ROBERT F RIDER RD",  // GOogle can't map
+        "CITY:Harrington",
+        "X:F GARY SIMPSON RD / BENJAMIN I SHAW ST");
+
+    doTest("T3",
+        "10D4 Chest Pains - Clammy 210 E CENTER ST Harrington : Xst's: DELAWARE AVE / 2ND AVE Caller: JARRELL NORRIS\r\n",
+        "CALL:10D4 Chest Pains - Clammy",
+        "ADDR:210 E CENTER ST",
+        "CITY:Harrington",
+        "X:DELAWARE AVE / 2ND AVE");
+    
   }
   
   public static void main(String[] args) {

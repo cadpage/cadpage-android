@@ -4,6 +4,46 @@ import net.anei.cadpage.parsers.BaseParserTest;
 
 import org.junit.Test;
 
+/*
+Eau Claire, WI
+Contact: "Cody Davey" <cody@wisconsinrangers.net>
+Sender: tfddispatch@att.net
+
+[Case# 11-253]  @5:23:16 AM // Brunswick // W2250 Rim Rock Rd // Vehicle Fire // vehicle fire, no exposures
+[Case# 11-252]  @7:21:18 PM // Washington // 4940 Meadowbrook Ln // Sounding Fire Alarm // sounding fire alarm, showing 1st & 2nd floor smoke detector
+[Case# 11-251]  @4:03:35 PM // Washington // 4400 blk South Lowes creek  rd // Fire //
+[Case# 11-250]  @12:48:10 PM // Union // HWY 12 & N. Crossing // Motorvehicle Collision // 10/50 PI
+[Case# 11-249]  @1:04:04 PM // Brunswick // W2601 HWY 37 // Electrical/Powerline Emergency // powerline is down and pole is on fire
+[Case# 11-248]  @4:48:14 PM // Union // I-94, 59mm, Westbound // Motorvehicle Collision // 10/50 PI
+[Case# 11-244]  @1:01:11 PM // Brunswick // Jopke Rd & HWY 37 // Motorvehicle Collision // 10/50 PI
+[Case# 11-241]  @10:25:42 AM // Washington // I94 WB Mile Marke 65 // Rescue/Medical Assist // 61 y/o male poss stroke
+
+Contact: Andrew Gaede <veghunter10@gmail.com>
+Sender: tfddispatch@att.net
+@4:38:53 PM // Rock Creek (Dunn) // HWY 85 & 870th // Motorvehicle\nCollision // 3 vehicle 10/50 PI, no extrication, Station 5 requested for\nassistance
+
+Contact: Me <cody@wisconsinrangers.net>
+Sender: tfddispatch@att.net
+(Case# 12-099) @2:45:18 AM // Seymour // Peterson Ave & Olson Dr. // MVC Extrication //\n10/50 PI with Extrication needed
+
+Contact: Chris Hedlund <chrishedlund213@yahoo.com>
+Sender: tfddispatch@att.net
+(Case# 12-117) @2:40:48 PM // Washington // henry at pamona // Motorvehicle Collision\n//
+(Case# 12-116) @1:51:32 PM // Washington // 500 block Deerfield RD  //\nIllegal/Attempted Burn // large brush pile
+(Case# 12-115) @10:31:26 PM // Seymour // 13034 Rossman Dr. // Electrical/Powerline\nEmergency // wires arcing
+(Case# 12-114) @6:32:48 PM // Union // 2211 Sherman Creek Rd // Service Call // Tree\nhas fallen into a house
+(Case# 12-112) @5:58:51 AM // Tiffany Twp (Dunn) // N11504 280th St // Search Call //\nSearch for hunter missing for 26+hours.  Request is for Manpower and\npossi
+(Case# 12-110) @1:10:09 PM // Brunswick // 4800 Karissa Dr. // Motorvehicle Collision\n// 10/50 PI
+(Case# 12-107) @8:14:11 AM // Seymour // Freeway 53 92mm Southbound // Vehicle Fire //\nvehicle fire
+(Case# 12-104) @11:13:39 AM // Brunswick // S8725 County Line Rd // Brush/Wildland Fire\n// possible out of control burn/brush fire in a field
+(Case# 12-099) @2:45:18 AM // Seymour // Peterson Ave & Olson Dr. // MVC Extrication //\n10/50 PI with Extrication needed
+(Case# 12-100) @1:33:50 PM // Pleasant Valley // S10700 Hwy 93 // Brush/Wildland Fire\n// grass fire
+
+Contact: "Lou & Sandy Henke" <louis.henke@sbcglobal.net>
+Sender: tfddispatch@att.net
+(Case# 12-245) Case# 12-245@5:20:20 PM // Washington // 3328 Fairfax st // Structure\r\nFire // Flames showing in duplex, back outside
+
+ */
 
 public class WIEauClaireParserTest extends BaseParserTest {
   
@@ -214,6 +254,22 @@ public class WIEauClaireParserTest extends BaseParserTest {
         "ADDR:S10700 Hwy 93",  // <<< Maps if S is separated
         "CALL:Brush/Wildland Fire",
         "INFO:grass fire");
+    
+  }
+  
+  @Test
+  public void testLouAndSandyHenke() {
+
+    doTest("T1",
+        "(Case# 12-245) Case# 12-245@5:20:20 PM // Washington // 3328 Fairfax st // Structure\r\n" +
+        "Fire // Flames showing in duplex, back outside",
+
+        "ID:12-245",
+        "TIME:17:20:20",
+        "CITY:Washington",
+        "ADDR:3328 Fairfax st",
+        "CALL:Structure Fire",
+        "INFO:Flames showing in duplex, back outside");
 
   }
   
