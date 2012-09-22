@@ -554,6 +554,7 @@ public class DEDelmarParserTest extends BaseParserTest {
         "{CAD Alert} 82A    Call at: 18030 1 Hwy              Loc: Troop 7-1.2 mile south ofCity:19958  Problem:  Traffic/TransportationAcdntBLS  Inc#: 2012-017179    Lat: 38746854    Long: 75156901   DISP: 15:35:17   Cross St: Savannah West Sq/Westcoats Rd",
         "UNIT:82A",
         "ADDR:18030 1 Hwy",
+        "MADDR:18030 Hwy 1",
         "PLACE:Troop 7-1.2 mile south of",
         "CITY:19958",
         "CALL:Traffic/TransportationAcdntBLS",

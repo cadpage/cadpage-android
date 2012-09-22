@@ -49,6 +49,7 @@ public class ALShelbyCountyParserTest extends BaseParserTest {
         "CALL:SEIZURE",
         "PLACE:TACO BELL - HWY 280",
         "ADDR:4623 280 HWY",
+        "MADDR:4623 HWY 280",
         "X:CAHABA PARK CIR / CAHABA PARK CIR",
         "INFO:BHAM FIRE");
 
@@ -74,6 +75,7 @@ public class ALShelbyCountyParserTest extends BaseParserTest {
         "SRC:CAH_VALY - STA181",
         "CALL:BLEEDING",
         "ADDR:5433 280 HWY",
+        "MADDR:5433 HWY 280",
         "X:WALT DR / TURTLE LAKE DR",
         "APT:309",
         "INFO:SPRINT PCS WIRELESS");

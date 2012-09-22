@@ -16,6 +16,9 @@ public class MsgInfoTest {
   @Test
   public void testGetMapAddress() {
     
+    doMapTest("SCGreenvilleCounty", "2350 N HWY 25,KENBURG,XX", "2350 N 25 HWY");
+    doMapTest("SCGreenvilleCounty", "HWY 25 & RT 5,KENBURG,XX", "25 HWY WB & 5 RT");
+    
     doMapTest("UTSummitCounty", "N XX 224 & W SUN PEAK DR,KENBURG,XX", "N SR224 & W SUN PEAK DR");
     
     doMapTest("TXLibertyCounty", "16897 XX 146,KENBURG,XX", "16897 SH-146N");
