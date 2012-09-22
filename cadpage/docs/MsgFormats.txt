@@ -4788,40 +4788,9 @@ Contact: Shane Jacobs <coastalcutz@gmail.com>
 Sender: CAD@onslowcountync.gov
 FRM:CAD@onslowcountync.gov\nMSG:CAD:1822 NEW RIVER INLET RD;UNIT 1107;17;FALL;17A03G
 **********************************************************
-Graham County, NC
-Contact: bob keber <bobkeber3d@gmail.com>
-Sender:  dispatch@911email.net
-Body:(E911) FALL\n
-JERRY JUMPER 8284792451\n
-784 CORNSILK BRANCH RD, ROBBINSVILLE
-Body:(E911) UNKNOWN EMS\n
-TRI CO.TEC. - PHILLIPS BUILDING \n
-70 MOOSE BRANCH RD, ROBBINSVILLE
-Body:(E911) LIFELINE ALARM\n
-\n
-301 MOOSE BRANCH RD\n
-APT # 5C
-Body:(E911) UNRESPONSIVE\n
-GRAHAM HEALTHCARE AND REHAB 8284798421\n
-811 SNOWBIRD RD, ROBBINSVILLE
-Body:(E911) SICK PERSON\n
-MILLSAPS,VAN 8287351549\n
-325 ELLER BRANCH RD, ROBBINSVILLE\n
-NC 28771
-Body:(E911) BREATHING DIFFICULTY\n
-ERNEST HOLLIFIELD 8284793398\n
-494 ELLER BRANCH RD, ROBBINSVILLE
-Body:(E911) THIRD CALL EMS\n
-EMERGENCY SERVICES 8284797985\n
-70 W FORT HILL, ROBBINSVILLE
-Body:(E911) FRACTURE\n
-HEROLD CARRINGER 8284796832\n
-115 NATHAN GARLAND RD, ROBBINSVILLE
-**********************************************************
 Anderson County, TN (replace)
 Contact: Justin <acs0680@gmail.com>
 MEDVFD FIRST RESP - 3888 DUTCH VALLEY RD CLINTON, TN - +street: SHANLEVER RD - UNKNOWN MEDICAL - 220843
-**********************************************************
 **********************************************************
 Jefferson County, WA
 Contact: "rtmcallister@yahoo.com" <rtmcallister@yahoo.com>
@@ -4840,6 +4809,7 @@ Jeffco Sheriff Message / Information/Controlled Burn - 11374 Pauls Dr // till 18
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4848,6 +4818,18 @@ Jeffco Sheriff Message / Information/Controlled Burn - 11374 Pauls Dr // till 18
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+Graham County, NC
+Contact: bob keber <bobkeber3d@gmail.com>
+Sender:  dispatch@911email.net
+(E911) FALL\nJERRY JUMPER 8284792451\n784 CORNSILK BRANCH RD, ROBBINSVILLE
+(E911) UNKNOWN EMS\nTRI CO.TEC. - PHILLIPS BUILDING \n70 MOOSE BRANCH RD, ROBBINSVILLE
+(E911) LIFELINE ALARM\n\n301 MOOSE BRANCH RD\nAPT # 5C
+(E911) UNRESPONSIVE\nGRAHAM HEALTHCARE AND REHAB 8284798421\n811 SNOWBIRD RD, ROBBINSVILLE
+(E911) SICK PERSON\nMILLSAPS,VAN 8287351549\n325 ELLER BRANCH RD, ROBBINSVILLE\nNC 28771
+(E911) BREATHING DIFFICULTY\nERNEST HOLLIFIELD 8284793398\n494 ELLER BRANCH RD, ROBBINSVILLE
+(E911) THIRD CALL EMS\nEMERGENCY SERVICES 8284797985\n70 W FORT HILL, ROBBINSVILLE
+(E911) FRACTURE\nHEROLD CARRINGER 8284796832\n115 NATHAN GARLAND RD, ROBBINSVILLE
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

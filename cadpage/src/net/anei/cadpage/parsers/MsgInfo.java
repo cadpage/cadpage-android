@@ -439,9 +439,9 @@ public class MsgInfo {
     sAddr = cleanStreetSuffix(sAddr);
     sAddr = cleanBlock(sAddr);
     sAddr = cleanBounds(sAddr);
-    sAddr = cleanHouseNumbers(sAddr);
     sAddr = cleanRoutes(sAddr);
     sAddr = cleanDoubleRoutes(sAddr);
+    sAddr = cleanHouseNumbers(sAddr);
     sAddr = cleanInterstate(sAddr);
     sAddr = cleanOffRamp(sAddr);
     sAddr = cleanSTRoutes(sAddr);
@@ -616,33 +616,6 @@ public class MsgInfo {
     Matcher match = DIRBOUND_PAT.matcher(sAddr);
     return match.replaceAll("").trim();
   }
-
-  // Google map isn't found of house numbers mixed with intersections
-  // If we find an intersection marker, remove any house numbers
-  private static final Pattern HOUSE_RANGE = Pattern.compile("^(\\d+) *- *[A-Z0-9/\\.]+\\b");
-  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +(?![NSEW]{0,2} *[&/]|(?:AV|AVE|ST|MILE)\\b)", Pattern.CASE_INSENSITIVE);
-  private String cleanHouseNumbers(String sAddress) {
-    
-    // Start by eliminating any house ranges
-    sAddress = HOUSE_RANGE.matcher(sAddress).replaceAll("$1");
-
-    // If this has an house number and an intersecting street.  Drop the intersecting street
-    sAddress = sAddress.replace(" and ", " & ");
-    int ipt = sAddress.indexOf('&');
-    if (ipt >= 0) {
-      Matcher match = HOUSE_NUMBER.matcher(sAddress);
-      if (match.find()) sAddress = sAddress.substring(0,ipt).trim();
-    }
-    
-    // Check for a trailing apt number
-    // Generally google ignores appt numbers, but it chokes on one that
-    // starts with a #
-    ipt = sAddress.lastIndexOf(' ');
-    if (ipt >= 0 && ipt+1 < sAddress.length() && sAddress.charAt(ipt+1) == '#') {
-      sAddress = sAddress.substring(0, ipt).trim();
-    }
-    return sAddress;
-  }
   
   // Google doesn't always handle single word route names like US30 or HWY10.
   // This method breaks those up into two separate tokens, also dropping any
@@ -678,12 +651,14 @@ public class MsgInfo {
   }
 
   // Google can handle things like ST 666 or US 666 or RTE 666.
-  // But it doesn't like US RTE 666
+  // But it doesn't like US RTE 666 or US 666 HWY
   // If we find a construct like that, remove the middle section
+  // When we are done with that, check for addresses ending with 666 HWY and reverse the terms
   private static final Pattern[] DBL_ROUTE_PTNS = new Pattern[]{ 
     Pattern.compile("\\b([A-Z]{2}|STATE) *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGHWAY) +(\\d+[NSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
     Pattern.compile("\\b([A-Z]{2}|STATE) +(\\d+|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY)\\b", Pattern.CASE_INSENSITIVE)
   };
+  private static final Pattern REV_HWY_PTN = Pattern.compile("(?<!-)\\b(\\d+) *(HWY|RT|RTE|ROUTE)(?=$| *&)", Pattern.CASE_INSENSITIVE);
   private static final Pattern I_FWY_PTN = Pattern.compile("\\b(I[- ]\\d+) +[FH]WY\\b", Pattern.CASE_INSENSITIVE);
   private String cleanDoubleRoutes(String sAddress) {
     for (Pattern ptn : DBL_ROUTE_PTNS) {
@@ -718,6 +693,35 @@ public class MsgInfo {
     
     // Google also doesn't like I-20 fwy contructs
     sAddress = I_FWY_PTN.matcher(sAddress).replaceAll("$1");
+    
+    sAddress = REV_HWY_PTN.matcher(sAddress).replaceAll("$2 $1");
+    return sAddress;
+  }
+
+  // Google map isn't found of house numbers mixed with intersections
+  // If we find an intersection marker, remove any house numbers
+  private static final Pattern HOUSE_RANGE = Pattern.compile("^(\\d+) *- *[A-Z0-9/\\.]+\\b");
+  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +(?![NSEW]{0,2} *[&/]|(?:AV|AVE|ST|MILE)\\b)", Pattern.CASE_INSENSITIVE);
+  private String cleanHouseNumbers(String sAddress) {
+    
+    // Start by eliminating any house ranges
+    sAddress = HOUSE_RANGE.matcher(sAddress).replaceAll("$1");
+
+    // If this has an house number and an intersecting street.  Drop the intersecting street
+    sAddress = sAddress.replace(" and ", " & ");
+    int ipt = sAddress.indexOf('&');
+    if (ipt >= 0) {
+      Matcher match = HOUSE_NUMBER.matcher(sAddress);
+      if (match.find()) sAddress = sAddress.substring(0,ipt).trim();
+    }
+    
+    // Check for a trailing apt number
+    // Generally google ignores appt numbers, but it chokes on one that
+    // starts with a #
+    ipt = sAddress.lastIndexOf(' ');
+    if (ipt >= 0 && ipt+1 < sAddress.length() && sAddress.charAt(ipt+1) == '#') {
+      sAddress = sAddress.substring(0, ipt).trim();
+    }
     return sAddress;
   }
   
