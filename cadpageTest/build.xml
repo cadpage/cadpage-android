@@ -1,0 +1,37 @@
+<project name="Cadpage Test Project" basedir=".">
+	<description>
+		Provides the infrastructure to rot13 protect the java test source code.  This provides a
+		minimal level of privacy protection for citizens referred to in the 911 pages that make up a
+		large part of the test classes while keeping the information readily available for developers
+		that know how to get it
+	</description>
+	
+  <property name="src" value="src"/>
+  <property name="rot13src" value="rot13-src"/>
+  <property name="rot13jarfile" value="lib/antRot13.jar"/>  
+	
+	<property name="bin" value="bin"/>
+	<property name="select" value="net/anei/cadpage/ant/**"/>
+	<property name="filename" value="CadpageParser"/>
+  
+  <target name="compile">
+    <javac srcdir="${src}" includes="${select}" destdir="${bin}" 
+      	   source="1.5" target="1.5" debug="yes"/>
+  </target>
+	
+	<target name="jarfile" depends="compile">
+		<jar basedir="${bin}" includes="${select}" destfile="${rot13jarfile}"/>
+	</target>
+	
+	<target name="build" depends="jarfile"/>
+  
+  <taskdef name="rot13" classname="net.anei.cadpage.ant.Rot13" classpath="${rot13jarfile}"/>
+		
+	<target name="export">
+	    <rot13 src="${src}" target="${rot13src}"/>
+	</target>
+	
+	<target name="import">
+      <rot13 src="${rot13src}" target="${src}"/>
+	</target>
+</project>

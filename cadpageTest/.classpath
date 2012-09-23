@@ -6,5 +6,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/cadpage"/>
 	<classpathentry kind="lib" path="/home/ken/android-sdks/platforms/android-8/android.jar"/>
 	<classpathentry kind="lib" path="lib/CParser.jar"/>
+	<classpathentry kind="lib" path="lib/ant.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

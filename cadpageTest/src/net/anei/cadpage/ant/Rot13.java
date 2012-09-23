@@ -66,7 +66,7 @@ public class Rot13 extends Task {
       for (File srcFile : srcList) {
         
         // For each one compute the corresponding target file
-        String name = srcFile.getName();
+        String name = srcFile.getPath();
         if (!name.startsWith(src)) {
           throw new RuntimeException("Source filename " + name + " does not start with " + src);
         }
@@ -116,7 +116,7 @@ public class Rot13 extends Task {
     
     // Source file had better be a normal file
     if (!srcFile.exists() || !srcFile.isFile()) {
-      throw new RuntimeException(srcFile.getName() + " does not exist or is not a file");
+      throw new RuntimeException(srcFile.getPath() + " does not exist or is not a file");
     }
     long srcTime = srcFile.lastModified();
     
@@ -124,7 +124,7 @@ public class Rot13 extends Task {
     if (tgtFile.exists() && tgtFile.lastModified() >= srcTime) return;
     
     // Otherwise, report what we are doing
-    log("Converting " + srcFile.getName() + " to " + tgtFile.getName(), Project.MSG_VERBOSE);
+    log("Converting " + srcFile.getPath() + " to " + tgtFile.getPath(), Project.MSG_VERBOSE);
     convertedFileCount++;
     
     // Make sure we have a directory to build the target file in
