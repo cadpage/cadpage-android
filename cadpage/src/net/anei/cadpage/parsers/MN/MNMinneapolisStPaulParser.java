@@ -7,12 +7,17 @@ import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 /**
  * Bloomington, MN
  */
-public class MNBloomingtonParser extends DispatchPrintrakParser {
+public class MNMinneapolisStPaulParser extends DispatchPrintrakParser {
   
-  public MNBloomingtonParser() {
-    super("BLOOMINGTON", "MN");
+  public MNMinneapolisStPaulParser() {
+    super("MINNEAPOLIS", "MN");
   }
   
+  @Override
+  public String getLocName() {
+    return "Minneapolis/St Paul, MN";
+  }
+
   @Override
   public String getFilter() {
     return "logis-emergin-paging@logis.org";

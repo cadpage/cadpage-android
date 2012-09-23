@@ -4894,4 +4894,9 @@ Contact: Active911
 [] (Dispatch) 12-092660 ALLERGIES/HIVES/STING/MEDREACT \nReported: 09/03/2012 14:41:50 \n6615 LAFAYETTE RD \n4TH ST / 3 RD ST (RA/YMOND RD \nJOE THOME TRUCKING RAYMO\n
 [] (Dispatch) 12-087578 BURNING COMPLAINT\nReported: 08/21/2012 17:21:39\n504 S 3RD ST\nDUBUQUE / S S CT/\nMARSHALL,DAVID M3407  LID 6661 RAYMOND\n921\n
 **********************************************************
-Body: Box:59-6 XSts:OBERLIN RD ,NISSLEY DR Event Type:TRAFFIC / TRANSPORTATION ACCIDENT NO INJURIES Class:  Disp: R59,TRF59p{^"?/?GWHc+dq?r 
+[House Fire] 12-11657\r\n9/11/2012 9:05:21 AM\r\n9-1-1 Call\r\n131 Olive Avenue\r\n \r\nTest CAD entry.....possible house fire.\r\n\r\n
+[Activated Fire Alarm-Not a test] 12-11756\r\n9/14/2012 8:08:30 AM\r\nFire\r\n235 Wanaque Avenue\r\n \r\nActivated General Fire Alarm.  With no specific area given\r\n\r\n
+[TEST CAD] 12-11760\r\n9/14/2012 10:30:15 AM\r\nFire\r\n25 Lenox Avenue\r\n \r\nTest CAD for Fire E911\r\nRegarding CAD Setup\r\n\r\nTHIS  IS A TEST\r\n\r\n
+[Fire Call] 12-11973\r\n9/19/2012 3:59:36 PM\r\n9-1-1 Call\r\n247  Wanaque Avenue\r\n \r\n\r\n
+[] 12-11973\r\n9/19/2012 3:59:36 PM\r\n9-1-1 Call\r\n247  Wanaque Avenue\r\n \r\nsmell of gas in lobby of theater\r\n\r\n
+[] 12-12003\r\n9/20/2012 1:05:09 PM\r\nFire\r\n100 Hunter Place\r\n \r\n\r\n
