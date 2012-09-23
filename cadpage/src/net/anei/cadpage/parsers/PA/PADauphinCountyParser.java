@@ -1,39 +1,15 @@
 package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Dauphin County, PA
-Contact: Chris Gros <gichristopher6@gmail.com>
-Sender: @c-msg.net
-CodeMessaging client 446
-
-(29CAD) [!] Box:29-1 Loc:31 S RIVER RD HFT DAUP XSts:PETERS MOUNTAIN RD ,SYCAMORE AV Event Type:OVERDOSE / POISONING (INGESTION) Class: 1 Disp: P29
-(29CAD) [!] Box:29-6 Loc:100 S FOURTH ST HFX DAUP: @BEER AND SODA PLUS XSts:RISE ST ,PETERS MOUNTAIN RD Event Type:TRAFFIC / TRANSPORTATION ACCIDENT INJURIES Class: Disp: E29-1
-(29CAD) [!] Box:29-6 Loc:123 RIVERVIEW DR HFT DAUP Event Type:CHEST PAIN Class: 1 Disp: 13-2,6-4
-(29CAD) [!] Box:29-6 XSts:MARKET ST ,S THIRD ST Event Type:UNCONSCIOUS / FAINTING (NEAR) Class: 2 Disp: 13-1
-(29CAD) [!] Box:29-4 Loc:388 DUNKEL SCHOOL RD HFT DAUP XSts:HILLTOP RD ,ROUNDTOP DR Event Type:ASSIST / SERVICE CALLS SELECT SUB-TYPE IF APPROPRIATE Class: Disp: P29
-(29CAD) [!] Box:29-1 Loc:499 S RIVER RD HFT DAUP XSts:AMITY LN ,SHAMOS SCHOOL RD Event Type:PSYCHIATRIC / SUICIDE ATTEMPT Class: 2 Disp: 13-1
-(29CAD) [!] Box:29-1 Loc:3188 PETERS MOUNTAIN RD HFT DAUP XSts:HILL DR ,ROADCAP LN Event Type:ABDOMINAL PAINS / PROBLEMS Class: 1 Disp: 13-1,6-4
-(29CAD) [!] Box:29-6 Loc:502 N SECOND ST HFT DAUP XSts:GREEN ST ,LOCUST ST Event Type:HEART PROBLEMS / A.I.C.D. Class: 1 Disp: 13-2,6-4
-(29CAD) [!] Box:29-1 Loc:3777 PETERS MOUNTAIN RD HFT DAUP: @GIANT XSts:LEISURE LN ,SWEIGARD DR Event Type:CONVULSIONS / SEIZURES Class: 1 Disp: 13-2,6-5
-(29CAD) [!] Box:29-5 Loc:123 BRUBAKER RD RDT DAUP XSts:S RIVER RD ,MOUNTAIN RD Event Type:BREATHING PROBLEMS Class: 1 Disp: 13-2
-(29CAD) [!] Box:29-5 Loc:S RIVER RD RDT DAUP XSts:INGLENOOK RD ,RAMP Event Type:TRAFFIC / TRANSPORTATION ACCIDENT INJURIES Class: Disp: E29-1
-(29CAD) [!] Box:29-4 XSts:N RIVER RD ,MCCLELLAN RD Event Type:SMOKE INVESTIGATION Class: 3 Disp: X29
-(29CAD) [!] Box:29-1 Loc:176 DUSTY TRAIL RD HFT DAUP XSts:CREEK SIDE DR ,DEAD END Event Type:OUTSIDE FIRE NATURAL COVER Class: 1 Disp: E29-1,A20
-(29CAD) [!] Box:29-6 Loc:117 ARMSTRONG ST HFX DAUP XSts:N FRONT ST ,FISHER ST Event Type:CARDIAC OR RESPIRATORY ARREST / DEATH AED RESPONSE Class: 1 Disp: P29
-(29CAD) [!] Box:29-6 Loc:201 MARKET ST HFX DAUP XSts:S SECOND ST ,S THIRD ST Event Type:CHEST PAIN Class: Disp: M/PC81,13-1,20-2
-(29CAD) [!] Box:29-2 Loc:676 DUNKEL SCHOOL RD HFT DAUP XSts:CATERPILLAR LN ,KEIFFER RD Event Type:BREATHING PROBLEMS Class: 1 Disp: 13-2,6-5
-(21CAD) [!] Box:21-4 Loc:179 WOLFE RD WST DAUP XSts:RAKERS MILL RD ,HENNINGER RD Event Type:BREATHING PROBLEMS Class: 1 Disp: P21
-[!] Box:54-9 Loc:SUSQUEHANNA RIVER LDT DAUP XSts:DEAD END ,UPASS Event Type:WATER RESCUE (SWIFT, STILL, ICE) HUMAN(S) Class: 1 Disp: W54,W88,E54
-[!] Box:54-2 Loc:1674 ROUNDTOP RD LDT DAUP XSts:SCHOOLHOUSE RD ,WALTONVILLE RD Event Type:TRAFFIC / TRANSPORTATION ACCIDENT ENTRAPMENT / CONFINEMENT Class: Disp: E54,R88
-[!] Box:88-3 Loc:107 MILL ST MDT DAUP: APT 7 I @INTERFAITH APTS XSts:POPLAR ST ,GRUBB ST Event Type:HEART PROBLEMS / A.I.C.D. Class: 1 Disp: R88
-
+/**
+ * Dauphin County, PA
  */
-
 public class PADauphinCountyParser extends FieldProgramParser {
   
   public PADauphinCountyParser() {
@@ -50,8 +26,9 @@ public class PADauphinCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     String[] flds = subject.split("\\|");
-    if (!flds[flds.length-1].equals("!")) return false;
-    if (flds.length > 1) data.strSource = flds[0];
+    if (flds[flds.length-1].equals("!")) {
+      if (flds.length > 1) data.strSource = flds[0];
+    }
 
     if (!super.parseMsg(body, data)) return false;
     if (data.strAddress.length() == 0) {
@@ -91,10 +68,22 @@ public class PADauphinCountyParser extends FieldProgramParser {
     }
   }
   
+  // Sometimes there is some funy stuff at the end of the message that needs to be eliminated
+  private static final Pattern UNIT_PTN = Pattern.compile("^([-/A-Z0-9, ]*)");
+  private class MyUnitField extends UnitField {
+    @Override 
+    public void parse(String field, Data data) {
+      Matcher match = UNIT_PTN.matcher(field);
+      if (match.find()) field = match.group(1).trim();
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
+    if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
   
