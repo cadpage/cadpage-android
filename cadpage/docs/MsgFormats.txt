@@ -4453,14 +4453,6 @@ Waren County, NC
 Contact: Bull Dog <jaybarnes73@hotmail.com>,2525781438@email.uscc.net
 S: M:ALARM FIRE 200780988 110 WOODLAWN CT LITTLETON BUS, CAMILLE WILGING, NO KEYHOLDER INFO; OPER 7069 
 **********************************************************
-Pierce County, WA
-Contact: swampjeep01 <swampjeep01@gmail.com>
-Sender: 41411
-Body:FIRE911\n\n31D3 @ 16:57:29\nDLOC\n6505 CLIFF AV KS,16\nMap=300,RD=16- 400\nto: F16\n\nPowered by m.textmarks.com\n\n*Psoriasis treatment option http://4in.fo/gP_Gbw
-Body:FIRE911\n\n26C1 @ 02:48:37\nALTERED LOC\n2627 200TH AV KS,16\nMap=195,RD=16- 320\nto: F16\n\nPowered by m.textmarks.com
-Body:FIRE911\n\n19C7 @ 11:23:01\nHEART PROB\n19515 28TH ST KS,16\nMap=195,RD=16- 320\nto: F16\n\nPowered by m.textmarks.com
-Body:FIRE911\n\n26B1 @ 14:42:53\nWELFARE CHECK\n14201 134TH ST KN,16\nMap=18,RD=16- 500\nto: F16\n\nPowered by m.textmarks.com
-**********************************************************
 Nassau County, NY
 Contact:  Debbie glowinski <luvmy4cats_2001@yahoo.com>
 Sender: vtext.com@mxsp2.email-od.com 
@@ -4814,7 +4806,6 @@ Jeffco Sheriff Message / Information/Controlled Burn - 11374 Pauls Dr // till 18
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4835,6 +4826,18 @@ Sender:  dispatch@911email.net
 (E911) BREATHING DIFFICULTY\nERNEST HOLLIFIELD 8284793398\n494 ELLER BRANCH RD, ROBBINSVILLE
 (E911) THIRD CALL EMS\nEMERGENCY SERVICES 8284797985\n70 W FORT HILL, ROBBINSVILLE
 (E911) FRACTURE\nHEROLD CARRINGER 8284796832\n115 NATHAN GARLAND RD, ROBBINSVILLE
+**********************************************************
+Pierce County, WA
+Contact: swampjeep01 <swampjeep01@gmail.com>
+Sender: 41411
+Body:FIRE911\n\n31D3 @ 16:57:29\nDLOC\n6505 CLIFF AV KS,16\nMap=300,RD=16- 400\nto: F16\n\nPowered by m.textmarks.com\n\n*Psoriasis treatment option http://4in.fo/gP_Gbw
+Body:FIRE911\n\n26C1 @ 02:48:37\nALTERED LOC\n2627 200TH AV KS,16\nMap=195,RD=16- 320\nto: F16\n\nPowered by m.textmarks.com
+Body:FIRE911\n\n19C7 @ 11:23:01\nHEART PROB\n19515 28TH ST KS,16\nMap=195,RD=16- 320\nto: F16\n\nPowered by m.textmarks.com
+Body:FIRE911\n\n26B1 @ 14:42:53\nWELFARE CHECK\n14201 134TH ST KN,16\nMap=18,RD=16- 500\nto: F16\n\nPowered by m.textmarks.com
+
+Contact: Vance Mettlen <fireeater73@gmail.com>
+Sender: 41411
+UNCON1 @ 14:56:01\r\nWOMAN ILL\r\n7308 142ND AV E #A, 22\r\nMap=322,RD=22- 134\r\nto: F22
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
