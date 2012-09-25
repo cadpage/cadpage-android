@@ -6,16 +6,16 @@
 		that know how to get it
 	</description>
 	
-	<condition property="basedir" value="cadpageTest" else="."> 
-	  <available file="robot.txt"/>
+	<condition property="base" value="cadpageTest" else="."> 
+	  <available file="robots.txt"/>
 	</condition>
 	
-  <property name="src" value="${basedir}/src"/>
-  <property name="rot13src" value="${basedir}/rot13-src"/>
-  <property name="libdir" value="${basedir}/lib"/>
+  <property name="src" value="${base}/src"/>
+  <property name="rot13src" value="${base}/rot13-src"/>
+  <property name="libdir" value="${base}/lib"/>
   <property name="rot13jarfile" value="${libdir}/antRot13.jar"/>  
 	
-	<property name="bin" value="${basedir}/bin"/>
+	<property name="bin" value="${base}/bin"/>
 	<property name="select" value="net/anei/cadpage/ant/**"/>
 	<property name="filename" value="CadpageParser"/>
   
@@ -30,15 +30,7 @@
 	
 	<target name="build" depends="jarfile"/>
   
-	<echo message="rot13jarfile = ${rot13jarfile}"/>
   <taskdef name="rot13" classname="net.anei.cadpage.ant.Rot13" classpath="${rot13jarfile}"/>
-  <typedef resource="org/tigris/subversion/svnant/svnantlib.xml">
-    <classpath>
-      <pathelement location="${libdir}/svnant.jar"/>   
-      <pathelement location="${libdir}/svnClientAdapter.jar"/>   
-      <pathelement location="${libdir}/svnkit.jar"/>   
-    </classpath>
-  </typedef> 
   		
 	<target name="export">
     <rot13 src="${src}" target="${rot13src}"/>
@@ -64,7 +56,7 @@
    
   <target name="update">
       <exec executable="svn">
-        <arg line="commit"/>
+        <arg line="update"/>
       </exec>
       <antcall target="import"/>
       </target>
