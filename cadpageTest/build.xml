@@ -1,16 +1,21 @@
 <project name="Cadpage Test Project" basedir=".">
-	<description>
+	<description>an
 		Provides the infrastructure to rot13 protect the java test source code.  This provides a
 		minimal level of privacy protection for citizens referred to in the 911 pages that make up a
 		large part of the test classes while keeping the information readily available for developers
 		that know how to get it
 	</description>
 	
-  <property name="src" value="src"/>
-  <property name="rot13src" value="rot13-src"/>
-  <property name="rot13jarfile" value="lib/antRot13.jar"/>  
+	<condition property="basedir" value="cadpageTest" else="."> 
+	  <available file="robot.txt"/>
+	</condition>
 	
-	<property name="bin" value="bin"/>
+  <property name="src" value="${basedir}/src"/>
+  <property name="rot13src" value="${basedir}/rot13-src"/>
+  <property name="libdir" value="${basedir}/lib"/>
+  <property name="rot13jarfile" value="${libdir}/antRot13.jar"/>  
+	
+	<property name="bin" value="${basedir}/bin"/>
 	<property name="select" value="net/anei/cadpage/ant/**"/>
 	<property name="filename" value="CadpageParser"/>
   
@@ -25,13 +30,43 @@
 	
 	<target name="build" depends="jarfile"/>
   
+	<echo message="rot13jarfile = ${rot13jarfile}"/>
   <taskdef name="rot13" classname="net.anei.cadpage.ant.Rot13" classpath="${rot13jarfile}"/>
-		
+  <typedef resource="org/tigris/subversion/svnant/svnantlib.xml">
+    <classpath>
+      <pathelement location="${libdir}/svnant.jar"/>   
+      <pathelement location="${libdir}/svnClientAdapter.jar"/>   
+      <pathelement location="${libdir}/svnkit.jar"/>   
+    </classpath>
+  </typedef> 
+  		
 	<target name="export">
-	    <rot13 src="${src}" target="${rot13src}"/>
+    <rot13 src="${src}" target="${rot13src}"/>
 	</target>
 	
 	<target name="import">
-      <rot13 src="${rot13src}" target="${src}"/>
+    <rot13 src="${rot13src}" target="${src}"/>
 	</target>
+	
+	<target name="stat">
+	    <antcall target="export"/>
+	    <exec executable="svn">
+	      <arg line="stat"/>
+	    </exec>
+	</target>
+	 
+  <target name="commit">
+      <antcall target="export"/>
+      <exec executable="svn">
+        <arg line="commit"/>
+      </exec>
+  </target>
+   
+  <target name="update">
+      <exec executable="svn">
+        <arg line="commit"/>
+      </exec>
+      <antcall target="import"/>
+      </target>
+  	
 </project>
