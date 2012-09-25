@@ -4838,6 +4838,26 @@ Body:FIRE911\n\n26B1 @ 14:42:53\nWELFARE CHECK\n14201 134TH ST KN,16\nMap=18,RD=
 Contact: Vance Mettlen <fireeater73@gmail.com>
 Sender: 41411
 UNCON1 @ 14:56:01\r\nWOMAN ILL\r\n7308 142ND AV E #A, 22\r\nMap=322,RD=22- 134\r\nto: F22
+SICK2 @ 13:06:02\r\n
+WOMAN ILL\r\n
+26408 112TH ST E, 22\r\n
+Map=452,RD=22- 162\r\n
+to: F22
+CHEST1 @ 13:25:10\r\n
+MAN ILL\r\n
+13349 PRAIRIE RIDGE DR E, 22\r\n
+Map=503,RD=22- 121\r\n
+to: F22
+SICK2 @ 13:06:02\r\n
+Unknown Medical\r\n
+26408 112TH ST E, 22\r\n
+Map=452,RD=22- 162\r\n
+to: F22
+67D3 @ 12:35:32\r\n
+LRG OUTSIDE FIRE\r\n
+2017 217TH AVCT E, 22\r\n
+Map=226,RD=22- 151\r\n
+to: F22
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
