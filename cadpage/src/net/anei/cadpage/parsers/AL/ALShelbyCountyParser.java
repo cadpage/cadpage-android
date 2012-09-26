@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.AL;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -14,7 +15,7 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   
   public ALShelbyCountyParser() {
     super("SHELBY COUNTY", "AL",
-           "DATETIME ID SRC CALL PLACE ADDR! INFO+");
+           "DATETIME ID SRC CALL PLACE ADDR! ADDR2? INFO+");
   }
   
   @Override
@@ -47,6 +48,15 @@ public class ALShelbyCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern PLACE_SRC_PTN = Pattern.compile("[A-Z]{2}FD");
+  private class MyPlaceField extends PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      if (PLACE_SRC_PTN.matcher(field).matches()) return;
+      super.parse(field, data);
+    }
+  }
+  
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -62,6 +72,44 @@ public class ALShelbyCountyParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return super.getFieldNames() + " X";
+    }
+  }
+  
+  // Backup address field is used if first address field does not contain an address
+  private class MyAddress2Field extends AddressField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (data.strAddress.length() > 0) return false;
+      parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith(": @")) {
+        field = field.substring(3).trim();
+        int pt = field.indexOf(':');
+        if (pt < 0) pt = field.indexOf(' ');
+        if (pt < 0) abort();
+        String place = field.substring(0,pt);
+        field = field.substring(pt+1).trim();
+        if (!PLACE_SRC_PTN.matcher(place).matches()) {
+          data.strPlace = append(data.strPlace, " - ", place);
+        }
+      }
+      String apt = "";
+      int pt = field.lastIndexOf(',');
+      if (pt >= 0) {
+        apt = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+      }
+      super.parse(field, data);
+      data.strApt = append(data.strApt, " - ", apt);
     }
   }
   
@@ -89,7 +137,9 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDR2")) return new MyAddress2Field();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
