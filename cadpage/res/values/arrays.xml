@@ -254,6 +254,7 @@
     <item>WI Wisconsin</item>
     <item>WY Wyoming</item>
     <item>ZCAAB Alberta, CA</item>
+    <item>ZCAON Ontario, CA</item>
     <item>ZAU Australia</item>
     <item>ZUK United Kingdom</item>
   </string-array>
@@ -752,6 +753,7 @@
     <item>ZCAABLacombeCounty</item>
     <item>ZCAABLamontCounty</item>
     <item>ZCAABRedDeerCounty</item>
+    <item>ZCAONMississauga</item>
     <item>ZAUNewSouthWales</item>
     <item>ZAUGeneral</item>
     <item>ZAUGeneralSlash</item>
@@ -1255,6 +1257,7 @@
     <item>Lacombe County, AB</item>
     <item>Lamont County, AB</item>
     <item>Red Deer Count, AB</item>
+    <item>Mississauga, ON</item>
     <item>New South Wales, AU</item>
     <item>Generic Location</item>
     <item>Generic (slash field separator)</item>

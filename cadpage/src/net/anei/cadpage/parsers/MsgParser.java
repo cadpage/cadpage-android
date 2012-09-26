@@ -568,7 +568,7 @@ public abstract class MsgParser {
      if (parseCity) {
        int pt = addr.lastIndexOf('-');
        if (pt > 0) {
-         data.strCity = addr.substring(pt+1).trim();
+         if (data.strCity.length() == 0) data.strCity = addr.substring(pt+1).trim();
          addr = addr.substring(0, pt).trim();
        }
      }

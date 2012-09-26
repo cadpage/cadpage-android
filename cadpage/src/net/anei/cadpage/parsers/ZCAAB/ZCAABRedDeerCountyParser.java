@@ -6,29 +6,9 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-
-/*
-Lacombe County, AB, CA
-Contact: support@active911.com
-Sender: RedDeer911 <reddeer911@reddeer.ca>
-https://www.active911.com/interface/parser_report.php?key=636-3GXrP
-
-(Incident Message) Date: 2012-06-02 13:02:11\nType: GRASS - 2.3 Grass/ Brush/ Forest\nLocation: Unknown Location - Call Dispatch\nLatitude: 52.38667500\nLongitude: -113.81778000
-(Incident Message) Date: 2012-06-02 13:02:11\nType: GRASS - 2.3 Grass/ Brush/ Forest\nLocation: 1 BLACKFALDS, TOWN OF, BLACKFALDS\nUnits Responding: BLKP4, BLKP2, BLKT1, BLKC
-(Incident Message) Date: 2012-06-04 01:21:42\nType: ALARMS - 2.6 Alarms\nLocation: 7 GREYSTONE DR, BLACKFALDS RURAL\nUnits Responding: BLKP1, BLKP2, BLKR3, BLKC, BLKT1
-(Incident Message) Date: 2012-06-06 12:23:42\nType: ALARMS - 2.6 Alarms\nLocation: 6 WINSTON PL, BLACKFALDS\nLatitude: 52.38963050\nLongitude: -113.79837571\nUnits Responding: BLKP1, BLKP2, BLKR3, BLKC, BLKT1
-
-Lamont County, AB
-Contact: Colin Candy <colincandy51@gmail.com>
-Sender: scesitgroup@strathcona.ca
-Sender: messaging@iamresponding.com
-(CAD Message) Date: 2012-07-29 10:48:02\nType: 29D2k - Traffic Incidents\nLocation: TWP RD 550 /Rng rd 171, Lamont County\nUnits Respo
-(Mundare Station) Date: 2012-08-14 06:55:06\nType: 29 - Traffic Incidents\nLocation: 171016 Hwy 16, Lamont County\nUnits Respondi
-(CAD Message) Date: 2012-08-14 06:55:06\nType: 29 - Traffic Incidents\nLocation: 171016 Hwy 16, Lamont County\nUnits Responding: LCC1,
-(CAD Message) Date: 2012-08-23 17:36:56\nType: 71 - Vehicle Fire\nLocation: 9999 NE 25 53 17 W4, Mundare Rural Area\nUnits Responding:
-(CAD Message) Date: 2012-09-04 14:25:32\nType: 9E1 - Cardiac Arrest\nLocation: Unknown Location - Call Dispatch\nUnits Responding: LCC
-
-*/
+/**
+ * Lacombe County, AB, CA
+ */
 public class ZCAABRedDeerCountyParser extends FieldProgramParser {
   
   public ZCAABRedDeerCountyParser() {
