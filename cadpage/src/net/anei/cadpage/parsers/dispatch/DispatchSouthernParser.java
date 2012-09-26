@@ -247,7 +247,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CODE"))  return new MyCodeField();
-    if (name.equals("ID")) return new IdField("\\d{7,10}", true);
+    if (name.equals("ID")) return new IdField("\\d\\d-?\\d{5,8}", true);
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("INFO2")) return new MyInfo2Field();
