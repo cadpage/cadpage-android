@@ -13,7 +13,7 @@ public class NCBuncombeCountyParser extends DispatchOSSIParser {
   
   public NCBuncombeCountyParser() {
     super("BUNCOMBE COUNTY", "NC",
-           "FYI? CHANGE? ASSREQ? ADDR! UNIT? SPEC+? X X ID");
+           "FYI? CHANGE? ASSREQ? ADDR! SRC? UNIT? SPEC+");
   }
   
   @Override
@@ -84,29 +84,15 @@ public class NCBuncombeCountyParser extends DispatchOSSIParser {
   // A slash
   // Any of a set of words generally found in call descriptions
   private static final Pattern CALL_PATTERN = 
-    Pattern.compile("^\\(.+\\)|/|\\b(FALL|FALLS|FIRE|PAIN|PAINS|HEART|PROBLEM|PROBLEMS|CHOKING|STROKE|SICK|INJURY|INJURIES)\\b");
+    Pattern.compile("^\\(.+\\)|/|\\b(?:FALL|FALLS|FIRE|PAIN|PAINS|HEART|PROBLEM|PROBLEMS|CHOKING|STROKE|SICK|INJURY|INJURIES|DAMAGE)\\b");
   private class SpecField extends Field {
     
     private Field callField = new CallField();
     private Field nameField = new NameField();
     private Field phoneField = new PhoneField();
     private Field idField = new IdField();
+    private Field crossField = new CrossField();
     private Field infoField = new InfoField();
-    
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-
-    @Override
-    public boolean checkParse(String field, Data data) {
-      
-      // Only fail if we find a valid address (meaning this is a cross street)
-      if (checkAddress(field) == 1) return false;
-      
-      parse(field, data);
-      return true;
-    }
 
     @Override
     public void parse(String field, Data data) {
@@ -135,6 +121,10 @@ public class NCBuncombeCountyParser extends DispatchOSSIParser {
         fieldProc = idField;
       }
       
+      else if (!field.startsWith("FM") && checkAddress(field) == 1) {
+        fieldProc = crossField;
+      }
+      
       else {
         fieldProc = infoField;
       }
@@ -144,7 +134,7 @@ public class NCBuncombeCountyParser extends DispatchOSSIParser {
     
     @Override
     public String getFieldNames() {
-      return "CALL NAME PHONE INFO";
+      return "CALL NAME PHONE INFO X";
     }
   }
   
@@ -152,7 +142,8 @@ public class NCBuncombeCountyParser extends DispatchOSSIParser {
   protected Field getField(String name) {
     if (name.equals("CHANGE")) return new MyChangeField();
     if (name.equals("ASSREQ")) return new AssReqField();
-    if (name.equals("UNIT")) return new UnitField("[A-Z]{1,2}[0-9]{1,3}[A-Z]?", true);
+    if (name.equals("SRC")) return new SourceField("FS\\d+");
+    if (name.equals("UNIT")) return new UnitField("[A-Z]{1,2}[0-9]{1,3}[A-Z]?(?:,.*)?", true);
     if (name.equals("SPEC")) return new SpecField();
     return super.getField(name);
   }
