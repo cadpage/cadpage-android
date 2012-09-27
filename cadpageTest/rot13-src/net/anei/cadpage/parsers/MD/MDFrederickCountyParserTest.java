@@ -85,6 +85,7 @@ Pbagnpg: Npgvir911.pbz
 [*] [Yvcfpbzo,Ebl]Uryc vf arrqrq  evtug  abj zbivat gur YnSenapr bhg gb trg gur ubfr pneg bhg. Puvrs.5\a
 [PNQ] [SerqPb] PG: VAWHERQ CREFBA / qrsnhyg 303 R CBGBZNP FG OEHA ZNC: 4803N1 Qvfc: N197\a
 [PNQ] [SerqPb] PG: VAWHERQ CREFBA / qrsnhyg 303 R CBGBZNP FG OEHA ZNC: 4803N1 Qvfc: N197\a
+Fhowrpg:PNQ\a[SerqPb] PG: FGEBXR / qrsnhyg NQPB: @ZN NQNZPB: 7 FABJCYBJ GENVY ZNC: 3998O2 Qvfc: N269\e\a\e
 
 ***/
 
@@ -506,6 +507,17 @@ choyvp pynff ZQSerqrevpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Oehafjvpx",
         "ZNC:4803N1",
         "HAVG:N197");
+
+    qbGrfg("G10",
+        "Fhowrpg:PNQ\a[SerqPb] PG: FGEBXR / qrsnhyg NQPB: @ZN NQNZPB: 7 FABJCYBJ GENVY ZNC: 3998O2 Qvfc: N269\e\a\e",
+        "FEP:SerqPb",
+        "PNYY:Zhghny Nvq: FGEBXR / qrsnhyg NQPB:",
+        "NQQE:7 FABJCYBJ GENVY",
+        "PVGL:Nqnzf Pbhagl",
+        "FG:CN",
+        "ZNC:3998O2",
+        "HAVG:N269");
+
 
   }
   

@@ -147,7 +147,8 @@ public class MDFrederickCountyParser extends FieldProgramParser {
   private static final Properties CITY_CODES = 
     buildCodeTable(new String[]{
         "ADAM","Adams County", //PA
-        "ADAM CO", "Adams County",
+        "ADAMCO", "Adams County", //PA
+        "ADAM CO", "Adams County", //PA
         "ADCO","Adams County", //PA
         "BRUN","Brunswick",   
         "CARRCO", "Carroll County",
@@ -164,7 +165,9 @@ public class MDFrederickCountyParser extends FieldProgramParser {
         "CTHU","Thurmont",
         "CWAL","Walkersville",
         "EMMB", "Emmitsburg",
+        "FRAN", "Franklin County",
         "FRAN CO", "Franklin County",
+        "FRANCO", "Franklin County",
         "FRE1", "Frederick City",
         "FRE2", "Frederick City",
         "MTAY", "Mt Airy",

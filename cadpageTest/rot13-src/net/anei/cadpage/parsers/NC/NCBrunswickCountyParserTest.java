@@ -57,6 +57,10 @@ Pbagnpg: Znex <cbjref1127@ngzp.arg>
 Fraqre: cntrtngr@oehafjvpxrf.pbz
 9333:BYQ TRBETRGBJA EQ FJ / BPRNA VFYR ORNPU EQ FJ, ZQY 29O04, 12-077625, 23:38:01, Genssvp-Genafcbegngvba Vapvqragf, TRBETRGBJA GBJNEQ 904 ....OYX ZBGBEPLPYR
 
+Pbagnpg: "qnsneevfvaofy@lnubb.pbz" <qnsneevfvaofy@lnubb.pbz>
+Fraqre: Sebz:cntrtngr@oehafjvpxrf.pbz
+SEZ:cntrtngr@oehafjvpxrf.pbz\aFHOW:[ofyisq]\aZFT:2534:1171 FBHGU FUBER QE OBVYVAT FCEVAT YNXRF, ZQY 26B07, 12-077822, 17:05:49, Fvpx Crefba (Fcrpvsvp Qvntabfvf),
+
 */
 
 choyvp pynff APOehafjvpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -300,6 +304,23 @@ choyvp pynff APOehafjvpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Genssvp-Genafcbegngvba Vapvqragf",
         "VASB:TRBETRGBJA GBJNEQ 904 ....OYX ZBGBEPLPYR");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnsneevfvaofy() {
+
+    qbGrfg("G1",
+        "SEZ:cntrtngr@oehafjvpxrf.pbz\a" +
+        "FHOW:[ofyisq]\a" +
+        "ZFT:2534:1171 FBHGU FUBER QE OBVYVAT FCEVAT YNXRF, ZQY 26B07, 12-077822, 17:05:49, Fvpx Crefba (Fcrpvsvp Qvntabfvf),",
+
+        "NQQE:1171 FBHGU FUBER QE",
+        "PVGL:OBVYVAT FCEVAT YNXRF",
+        "PBQR:26B07",
+        "VQ:12-077822",
+        "GVZR:17:05:49",
+        "VASB:Fvpx Crefba (Fcrpvsvp Qvntabfvf)");
+   
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
