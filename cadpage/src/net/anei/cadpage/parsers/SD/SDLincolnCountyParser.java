@@ -70,7 +70,8 @@ public class SDLincolnCountyParser extends SmartAddressParser {
       } else {
         parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, body, data);
       }
-      if (!good && getStatus() == 0) return false;
+      if (!good && getStatus() == 0 &&
+           (!isPositiveId() || info.length() == 0)) return false;
     } 
     
     else {

@@ -23,6 +23,7 @@ Fhowrpg:12-11722 - NZO : Nzohynapr Pnyy\a519 F ONEGYRGG FG, PNAGBA, FQ \e\aCyrnf
 Fhowrpg:12-11690 - NZO : Nzohynapr Pnyy\aFnasbeq Pnagba-Vajbbq Ubfcvgny 14 l/b S cg - Urnq Vawhel\e\aCyrnfr erfcbaq vzzrqvngryl.\e
 Fhowrpg:12-11612 - NZO : Nzohynapr Pnyy\aPnagba Tbbq Fnznevgna Fbpvrgl \e\aCyrnfr erfcbaq vzzrqvngryl.  98lb.s qvss. oernguvat\e
 Fhowrpg:{12-12835} - {vawhel nppvqrag\a{teniry ebnq orgjrra Vajbbq naq Pnagba} \e\aCyrnfr erfcbaq vzzrqvngryl.\e
+Fhowrpg:VAWHEL NPPVQRAG\a480GU & 289GU - 1 SRZNYR JVGU HAXABJA VAWHEL\e
 
 ** Cnefre snvyherf **
 Fhowrpg:qrulqengvba\a519 f onegyrgg 18 lb srznyr qrulengrq, cyrnfr erfcbaq\e
@@ -138,7 +139,13 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:vawhel nppvqrag",
         "NQQE:teniry ebnq orgjrra Vajbbq naq Pnagba",
         "ZNQQE:teniry ebnq orgjrra Vajbbq & Pnagba");
-   
+
+    qbGrfg("G14",
+        "Fhowrpg:VAWHEL NPPVQRAG\a480GU & 289GU - 1 SRZNYR JVGU HAXABJA VAWHEL\e",
+        "PNYY:VAWHEL NPPVQRAG",
+        "NQQE:480GU & 289GU",
+        "VASB:1 SRZNYR JVGU HAXABJA VAWHEL");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
