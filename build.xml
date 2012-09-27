@@ -21,7 +21,7 @@
   </target>
 	
   <target name="export" description="export">
-    <ant antfile="cadpageTest/build.xml" target="stat"/>
+    <ant antfile="cadpageTest/build.xml" target="export"/>
   </target>
 
 </project>

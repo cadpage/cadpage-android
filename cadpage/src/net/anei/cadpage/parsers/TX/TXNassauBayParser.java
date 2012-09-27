@@ -65,6 +65,7 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "FW", "FREINDSWOOD",
       "HO", "NASSAU BAY",
       "LC", "LEAGUE CITY",
       "NB", "NASSAU BAY",

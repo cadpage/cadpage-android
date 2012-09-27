@@ -51,6 +51,7 @@ fraggb-81052485-2179-1340294796-8439951185= igrkg.pbz@ergheaf.tebhcf.lnubb.pbz (
 Pbagnpg: Oevna Pnzcoryy <opnzcoryy1404@tznvy.pbz>
 Fraqre: cntrtngr@oehafjvpxrf.pbz
 Fhowrpg:[fhafrgornpusq] \a3287:424 RTERG QE FHAFRG ORNPU, ZQY 17Q02, 12-077164, 13:36:06, Snyyf, PNYYRE NQI ARVTUOBE UNF SNYYRA\e
+Fhowrpg:[fhafrgornpusq] \a3291:413 JNGRE BNX JLAQ FJ FHAFRG ORNPU, ZQY 23O01-V, 12-077314, 21:32:48, Bireqbfr-Cbvfbavat (Vatrfgvba), JV\e
 
 */
 
@@ -268,6 +269,18 @@ choyvp pynff APOehafjvpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:13:36:06",
         "PNYY:Snyyf",
         "VASB:PNYYRE NQI ARVTUOBE UNF SNYYRA");
+
+    qbGrfg("G1",
+        "Fhowrpg:[fhafrgornpusq] \a" +
+        "3291:413 JNGRE BNX JLAQ FJ FHAFRG ORNPU, ZQY 23O01-V, 12-077314, 21:32:48, Bireqbfr-Cbvfbavat (Vatrfgvba), JV\e",
+
+        "NQQE:413 JNGRE BNX JLAQ FJ",
+        "PVGL:FHAFRG ORNPU",
+        "PBQR:23O01-V",
+        "VQ:12-077314",
+        "GVZR:21:32:48",
+        "PNYY:Bireqbfr-Cbvfbavat (Vatrfgvba)",
+        "VASB:JV");
 
   }
 
