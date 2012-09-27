@@ -1,41 +1,16 @@
 package net.anei.cadpage.parsers.OR;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Washington County, OR
-Contact: Phillip Duncan <phil860@gmail.com>
-Sender:  930010001-0050
-
-MVA-UKN INJURY SW TUALATIN VALLEY HW/SW331ST AV (33098 TUALATIN VALLEY/331ST) HIL MAP: 5377D UNIT: C2 E01 R8
-ABDOMINAL PAIN 985 N DAVIS ST (DEAD END & N 10TH AV) CON MAP: 5375D UNIT METWA STA8
-BREATHING PROB 39470 SW GEIGER RD (SW LAFOLLETT RD & FERN HILL RD) CON MAP: 5574B UNIT: METWA STA8
-SICK PERSON/UNKO 1045 N ADAIR ST (N 10TH AV & N 10TH-11TH AL) CON MAP: 5375D UNIT: METWA STA8
-RESIDENTIAL FIRE 822 N 28TH AV (N HOLLADAY DR & N 27TH AV) CON MAP: 5376D UNIT: METWA TIMERC CAS8 CFDUTY SIRN08 E813 E814 E815 E421 R8 T03 COCB1
-
-Clackamas County, OR
-Contact: Tyree Zander <tzander.depoebayfire@gmail.com>
-Sender: 777109496789
-    UNCON/FAINTING 37905 SE SERBAN RD (SE BLUFF RD & SE BAUMBACK RD) SAN MAP: 6013B UNIT: E74 M1
-    
-Contact: zak delair <zakdelair117@gmail.com>
-Sender: 93001003
-UNK PROB/MN DOWN 95 82ND DR (SAFEWAY (GLADSTONE)) GLA MAP: 6398D UNIT: R101 M1
-
-Contact: Active911
-[] PRE NOTIFICATION 59185 E CHALET PL (DEAD END & E EAST RD) SAN MAP: 6324A UNIT: SQ252 SQ251 M1 2509\r\n\r\n\n
-[] BREATHING PROB. 59185 E CHALET PL (DEAD END & E EAST RD) SAN MAP: 6324A UNIT: SQ252\r\n\r\n\n
-[] PRE NOTIFICATION 59454 E SLEEPY HOLLOW DR (E EAST RD & E BARLOW TRAIL RD) SAN MAP: 6324B UNIT: SQ252 SQ251 M1 2509\r\n\r\n\n
-[] PRE NOTIFICATION 27160 E MARION RD (E ROAD 10 & E ROAD 20) RHO MAP: 6731A UNIT: SQ252 M1 3709\r\n\r\n\n
-[] PRE NOTIFICATION 59454 E SLEEPY HOLLOW DR (E EAST RD & E BARLOW TRAIL RD) SAN MAP: 6324B UNIT: SQ252 SQ251 M1 2509\r\n\r\n\n
-[] UNKNOWN TYP FIRE 31315 E MULTORPOR DR (SKI BOWL (EAST)) GOV MAP: 6939 UNIT: E251 E254 2509\r\n\r\n\n
-[] FIRE ALARM, COMM 30521 E MELDRUM ST (E LIGE LN & E GOVERNMENT CAMP LP) GOV MAP: 6939 UNIT: E251 E254 WT251 2509\r\n\r\n\n
-
-*/
-
+/**
+ * Washington County, OR
+ * Also Clackamas County
+ */
 public class ORWashingtonCountyParser extends FieldProgramParser {
   
   public ORWashingtonCountyParser() {
@@ -87,6 +62,18 @@ public class ORWashingtonCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  @Override
+  public String adjustMapAddress(String sAddress) {
+    StringBuffer sb = new StringBuffer();
+    Matcher match = XX_PTN.matcher(sAddress);
+    while (match.find()) {
+      match.appendReplacement(sb, convertCodes(match.group(), STREET_CODES));
+    }
+    match.appendTail(sb);
+    return sb.toString();
+  }
+  private static final Pattern XX_PTN = Pattern.compile("\\b[A-Z]{2}\\b");
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BRI", "BRIGHTWOOD",
       "HIL", "HILLSBORO",
@@ -98,5 +85,109 @@ public class ORWashingtonCountyParser extends FieldProgramParser {
       "RHO", "RHODODENDRON",
       "SAN", "SANDY",
       "WEL", "WELCHES"
- });
+  });
+  
+  private static final Properties STREET_CODES = buildCodeTable(new String[]{
+      "AL", "ALLEY",
+      "AN", "ANNEX",
+      "AR", "ARCADE",
+      "AV", "AVE",
+      "BC", "BEACH",
+      "BG", "BRIDGE",
+      "BL", "BLUFF",
+      "BN", "BEND",
+      "BP", "BYPASS",
+      "BT", "BOTTOM",
+      "BV", "BOULEVARD",
+      "CC", "CRESCENT",
+      "CE", "COURSE",
+      "CI", "CIRCLE",
+      "CO", "CORRIDOR",
+      "CR", "CREST",
+//      "CT", "COURT",
+      "CX", "CROSSING",
+//      "DR", "DRIVE",
+//      "EO", "EAST OF",
+      "EX", "EXPRESSWAY",
+      "FA", "FALL",
+      "FG", "FRONTAGE",
+      "FK", "FORK",
+      "FL", "FIELD",
+      "FR", "FERRY",
+      "FS", "FOREST",
+      "FT", "FORT",
+      "FY", "FREEWAY",
+      "GD", "GARDENS",
+      "GL", "GLEN",
+      "GR", "GREEN",
+      "GT", "GATEWAY",
+      "HL", "HILL",
+      "HO", "HOLLOW",
+      "HT", "HEIGHTS",
+      "HW", "HWY",
+      "IL", "ISLE",
+      "IN", "INLET",
+      "IS", "ISLAND",
+      "JC", "JUNCTION",
+      "LC", "LOCKS",
+      "LD", "LANDING",
+      "LG", "LODGE",
+      "LK", "LAKE",
+      "LN", "LANE",
+      "LP", "LOOP",
+      "MA", "MALL",
+      "MD", "MEADOWS",
+      "ML", "MILE",
+      "MN", "MOUNTAIN",
+      "MP", "MILE POST",
+      "MT", "MOUNTAIN",
+      "MW", "MOLALLA WESTERN",
+      "OR", "ORCHARD",
+      "OV", "OVAL",
+      "PA", "PATH",
+      "PI", "PIKE",
+      "PK", "PARKWAY",
+//      "PL", "PLACE",
+      "PO", "PORT",
+      "PS", "PASS",
+      "PT", "POINT",
+      "PW", "PORTLAND WESTERN",
+      "PZ", "PLAZA",
+      "RA", "RAMP",
+//      "RD", "ROAD",
+      "RG", "RIDGE",
+      "RI", "RIVER  ",
+      "RM", "RIVER MILE",
+      "RN", "RANCH",
+      "RP", "RAPIDS",
+      "RR", "RAILROAD",
+      "RU", "RUN",
+      "RW", "ROW",
+      "SA", "STATION",
+//      "SE", "STREAM",
+      "SH", "SHORE",
+      "SL", "SHOAL",
+      "SQ", "SQUARE",
+      "SR", "SHORE",
+//      "ST", "STREET",
+      "SU", "SPUR",
+      "TA", "TERRACE",
+      "TC", "TRACK",
+      "TE", "TERRACE",
+      "TK", "TURNPIKE",
+      "TL", "TRAIL",
+      "TR", "TRAIL",
+      "TU", "TUNNEL",
+      "UN", "UNION   ",
+      "UP", "UNION PACIFIC",
+      "VG", "VILLIAGE",
+      "VI", "VIA",
+      "VL", "VILLIAGE",
+      "VS", "VISTA",
+      "VW", "VIEW",
+      "VY", "VALLEY",
+      "WA", "WALK",
+//      "WO", "WEST OF",
+      "WY", "WAY"
+  });
 }
