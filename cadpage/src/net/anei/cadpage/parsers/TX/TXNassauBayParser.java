@@ -58,11 +58,17 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CANCEL")) return new CallField("CANCEL", true);
-    if (name.equals("UNIT")) return new UnitField("[A-Z]+\\d+|[A-Z]{2}FD", true);
+    if (name.equals("UNIT")) return new UnitField("[A-Z]+\\d+|[A-Z]{2}FD|\\d{4}", true);
     if (name.equals("CODE")) return new CodeField("[A-Z]{2,4}", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
+  
+  @Override
+  public String adjustMapAddress(String sAddress) {
+    return PVT_DR_PTN.matcher(sAddress).replaceAll("");
+  }
+  private static final Pattern PVT_DR_PTN = Pattern.compile("\\(PVT.*?\\)(?: *(?:DR|RD)\\b)?", Pattern.CASE_INSENSITIVE);
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "FW", "FRIENDSWOOD",
