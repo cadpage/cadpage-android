@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">09202012</string>
-  <string name="release_version">v1.5.59</string>
+  <string name="release_date">09272012</string>
+  <string name="release_version">v1.5.60</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
-Added option to open Scanner Radio Channel when page is received\n
-\n
 New Locations:\n
-Spotted Dog Technologies\n
-Jefferson Parish, LA\n
-Warren County, NJ\n
-Albany County, NY (alt)\n
-Madison County, OH\n
+Nassau County, NY (alt)\n
+Grahm County, NC\n
+Pierce County, WA (alt)\n
+Mississauga, ON, CA\n
 \n
 Location Parsing Fixes:\n
-Sonoma County, CA\n
-Golden, CO\n
+Shelby County, AL\n
 Middlesex County, CT\n
-Northwest Public Safety, CT\n
-Delmar, DE\n
-Kent County, DE\n
-Camden County, GA\n
+Waterford Town, CT\n
+Oldham County, KY\n
 Frederick County, MD\n
-Wicomico County, MD\n
-Cumberland County, NJ\n
-Chatham County, NC\n
-Cy Creek Comm Center, TX\n
+Eaton County, MI\n
+Brunswick County, NC\n
+Buncombe County, NC\n
+Washington County, OR\n
+Butler County, PA\n
+Dauphin County, PA\n
+Lancaster County, PA\n
+Lincoln County, SD\n
+League City, TX\n
+Nassau Bay, TX\n
+Eau Clair, WI\n
+\n
+Minneapolis/St Paul remaned from Bloomington, MN\n
   </string>  
 </resources>
   
