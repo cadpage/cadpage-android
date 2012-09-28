@@ -2846,10 +2846,15 @@ East Jefferson County, WA (WAJeffersonCountyParser)
 (JCFD5) BLS  :  E52   :   :  2911 SHERMAN ST  :  Port Townsend  :  29TH ST / 30TH ST  :  09/06/12 18:37  :  Narrative :   LEG IS STUCK  PT IS STUCK IN H
 (JCFD5) Fire - Dumpster  :  E16 A16 DC11   :   :  CASS ST  :  Port Townsend  :   :  09/06/12 02:22  :  Narrative :   IN THE MIDDLE OF THE STREET  COUCH 
 ***************************************************************************
-Pierce County, WA (WAPierceCountyParser)
+Pierce County, WA (WAPierceCountyAParser)
 (- part 1 of 1) RC:Run# 36872/Sick Person/<Unknown>/S 56TH ST & PACIFIC AVE///X=56th&55th/TACOMA// AVE//606//TACOMA/773 G5/\n\nThis is a confidential/proprietary communication intended for the add
 (- part 1 of 1) RC:Run# 45146/Unconscious/<Unknown>/6TH AVE & N STEVENS ST//behind 76 station/X=N Verde St&N Stevens St/TACOMA//\n\nThis is a confidential/propri
 (- part 1 of 1) RC:Run# 46137/Unknown/<Unknown>/6016 N HIGHLANDS PKWY//371//TACOMA/772 J4/\n\nThis is a confidential/proprietary communication intended for the a
+***************************************************************************
+Pierce County, WA (variant B)
+FIRE911\n\n31D3 @ 16:57:29\nDLOC\n6505 CLIFF AV KS,16\nMap=300,RD=16- 400\nto: F16\n\nPowered by m.textmarks.com\n\n*Psoriasis treatment option http://4in.fo/gP_Gbw
+FIRE911\n\n26C1 @ 02:48:37\nALTERED LOC\n2627 200TH AV KS,16\nMap=195,RD=16- 320\nto: F16\n\nPowered by m.textmarks.com
+FIRE911\n\n19C7 @ 11:23:01\nHEART PROB\n19515 28TH ST KS,16\nMap=195,RD=16- 320\nto: F16\n\nPowered by m.textmarks.com
 ***************************************************************************
 Yakima County, WA (VAYakimaCountyParser)
 08.22.10 02/07/12 EMR RED 505 MADISON AVE; GARFIELD SCHOOL TPFD TP1 YM06 TP0 UNK TYPE OF INJ  / OUTSIDE IN PLAYGROUND / 8 YR BOY - NURSE ON SCENE RP TOLD TO CALL - NOT ON SCENE MAIN PLAYGROUND - WILL MEET UNITS TO DIRECT
@@ -4826,21 +4831,6 @@ Jeffco Sheriff Message / Information/Controlled Burn - 11374 Pauls Dr // till 18
 **********************************************************
 **********************************************************
 **********************************************************
-Pierce County, WA
-Contact: swampjeep01 <swampjeep01@gmail.com>
-Sender: 41411
-Body:FIRE911\n\n31D3 @ 16:57:29\nDLOC\n6505 CLIFF AV KS,16\nMap=300,RD=16- 400\nto: F16\n\nPowered by m.textmarks.com\n\n*Psoriasis treatment option http://4in.fo/gP_Gbw
-Body:FIRE911\n\n26C1 @ 02:48:37\nALTERED LOC\n2627 200TH AV KS,16\nMap=195,RD=16- 320\nto: F16\n\nPowered by m.textmarks.com
-Body:FIRE911\n\n19C7 @ 11:23:01\nHEART PROB\n19515 28TH ST KS,16\nMap=195,RD=16- 320\nto: F16\n\nPowered by m.textmarks.com
-Body:FIRE911\n\n26B1 @ 14:42:53\nWELFARE CHECK\n14201 134TH ST KN,16\nMap=18,RD=16- 500\nto: F16\n\nPowered by m.textmarks.com
-
-Contact: Vance Mettlen <fireeater73@gmail.com>
-Sender: 41411
-UNCON1 @ 14:56:01\r\nWOMAN ILL\r\n7308 142ND AV E #A, 22\r\nMap=322,RD=22- 134\r\nto: F22
-SICK2 @ 13:06:02\r\nWOMAN ILL\r\n26408 112TH ST E, 22\r\nMap=452,RD=22- 162\r\nto: F22
-CHEST1 @ 13:25:10\r\nMAN ILL\r\n13349 PRAIRIE RIDGE DR E, 22\r\nMap=503,RD=22- 121\r\nto: F22
-SICK2 @ 13:06:02\r\nUnknown Medical\r\n26408 112TH ST E, 22\r\nMap=452,RD=22- 162\r\nto: F22
-67D3 @ 12:35:32\r\nLRG OUTSIDE FIRE\r\n2017 217TH AVCT E, 22\r\nMap=226,RD=22- 151\r\nto: F22
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
