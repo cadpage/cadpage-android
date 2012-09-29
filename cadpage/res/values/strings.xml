@@ -371,8 +371,7 @@
 
   <string name="pref_disclaimer_title">Disclaimer</string>
   <string name="pref_disclaimer_summary">View Disclaimer regarding Cadpage use.</string>
-  <string name="pref_disclaimer_url">http://code.google.com/p/Cadpage/wiki/Disclaimer
-  </string>
+  <string name="pref_disclaimer_url">http://www.cadpage.org/disclaimer</string>
 
   <!-- Location settings -->
   <string name="pref_location_screen_title">Location Settings</string>
