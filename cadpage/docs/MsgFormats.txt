@@ -1148,6 +1148,11 @@ Napa County, CA (CANapaCountyParser)
 (CAD Page) FIRE, COMMERCIAL ALARM; CALISTOGA GARDEN @ 1715 WASHINGTON ST ,CALISTOGA_CITY ; Inc# 000412; GENERAL FIRE ALARM; RA: CAL; X: -122 35.0390  Y: 38 34.86 CB#: 7073226460
 (CAD Page) MEDICAL; DUFFY'S @ 3076 MYRTLEDALE RD ,CALISTOGA ; Inc# 000459; CHEST PAIN; RA: L55; X: -122 35.9647  Y: 38 35.7255; E26 E19; Cmd: NAPA CO FIRE; Tac: CB#: 7073226460
 ***************************************************************************
+Oroville, CA (CAOrovilleParser)
+[Dispatched Call (313)] 4117 LOWER WYANDOTTE RD, Oroville *  * V-7 RD/OROVILLE GARDEN R *  * FDMED *  * DECREASED LOC
+[Dispatched Call (313)] 1720 ELGIN ST, Oroville *  * LINCOLN /LINCOLN BLVD *  * FDMED *  * Service Class: VOIP\n\nDIFFICULTY BREATHING
+[Dispatched Call (313)] 3785 MYERS ST, Oroville *  * GREENVILLE ST/OROVILLE B *  * FDMED *  * Service Class: RESD\nILL MALE
+***************************************************************************
 Riverside County, CA (CARiversideCountyParser)
 MED, TRAFFIC COLLISION; 24630 UPPER RIM ROCK RD ,IDYL ; IFO ADDY SOLO VEH ROLLOVER; 24899 BLK AZALEA RD; 814_F_4/155__98; Inc# 118228; Cmd: RRU SUP 8; Tac: RVC TAC 0; M626; icy roads access from lower way
 MED, PERSON DOWN; STN621 @ 54160 MARANATHA DR ,IDYL ; ; 25778 BLK JOHNSON RD; 814_C_6/154__131; Inc# 119114; Cmd: RRU SUP 11; Tac: RVC TAC 0; M625; NO TEXT

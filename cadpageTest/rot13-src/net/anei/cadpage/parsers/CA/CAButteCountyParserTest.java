@@ -4,6 +4,29 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Ohggr Pbhagl, PN
+Pbagnpg: "ZpYrna, Fpbgg" <Fpbgg.ZpYrna@sver.pn.tbi>
+Fraqre: oghpnq@sver.pn.tbi
+
+(PNQ Cntr) ZRQVPNY; 1759 12GU FG ,GUREZNYVGB ; ; 1200 OYX GRUNZN NIR; Znc: 6683; Vap# 002759; Qngr-Gvzr: 21-Zne-2012/20:55:59; PNEQVNP;
+(PNQ Cntr) ZRQVPNY; 14897 QRY BEB QE ,ZTYN ; ;  QRNQ-RAQ; Znc: 5633; Vap# 002916; Qngr-Gvzr: 26-Zne-2012/09:00:57; PNEQVNP;
+(PNQ Cntr) BGU,ERSREENY; 7540 BEBIVYYR ONATBE UJL / 2 ONATBE CNEX EQ ,OATE ; ; ; Znc: 6985; Vap# ; Qngr-Gvzr: 28-Zne-2012/09:29:18; YBBFR UBEFR BA ONATBE CNEX EQ
+
+Pbagnpg: puvc sbjyre <puvcsbjyre86@tznvy.pbz>
+Fraqre: oghpnq@sver.pn.tbi
+SEZ:oghpnq@sver.pn.tbi\aFHOW:PNQ Cntr\aZFT:ZRQVPNY; 6423 WNPX UVYY QE ,XRYYL_EQTR ; ; 5499 OYX UVTU EBPXF PG; Znc:6534; Vap# 003098;\a(Pba'g) 2 bs 2\aQngr-Gvzr: 31-Zne-2012/22:38:02; VYY ZNYR; (Raq)
+
+Pbagnpg: wrss unegre <wrss.unegre2113@tznvy.pbz>
+Fraqre: oghpnq@sver.pn.tbi
+(PNQ Cntr) YRIRY 1 UNM-ZNG; ONAX BS GUR JRFG @ 2626 BEBIVYYR QNZ OYIQ R ,BEB ; ; 2499 OYX JNFUVATGBA NIR; Znc: 6683/6683; Vap# 004468; Qngr-Gvzr: 10-Znl-2012/12:
+
+Pbagnpg: "Unegre, Wrss" <Wrss.Unegre@sver.pn.tbi>
+Fraqre: oghpnq@sver.pn.tbi
+(PNQ Cntr) G/P UVTUJNL/UVTU FCQ; FGN 37 @ 3595 FUHZNA YA ,PBAPBJ ; JUG CH IF ULQENAG; 11400 OYX PBAPBJ EQ; Znc: 5934; Vap# 004582; Qngr-Gvzr: 12-Znl-2012/23:53:0
+
+ */
+
 
 choyvp pynff PNOhggrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
