@@ -100,6 +100,7 @@ public class TXCollinCountyParser extends FieldProgramParser {
   // or might not be separated by double blank delimiters
   private static final Pattern ID_PTN = Pattern.compile("^(\\d{8}) +");
   private static final Pattern BRACKET_PTN = Pattern.compile(" +\\{(.*?)\\} *");
+  private static final Pattern STANDBY_PTN = Pattern.compile("^STANDBY(?: AT THIS TIME)?  +");
   private static final Pattern IN_PTN = Pattern.compile(" +IN +", Pattern.CASE_INSENSITIVE);
   private class MashField extends Field {
     
@@ -118,6 +119,9 @@ public class TXCollinCountyParser extends FieldProgramParser {
         data.strPlace = match.group(1);
         field = field.substring(0,match.start()) + "  " + field.substring(match.end());
       }
+      
+      // If first phrase is a standby request, combine it with second term
+      field = STANDBY_PTN.matcher(field).replaceFirst("STANDBY ");
       
       // Break up what is left by any double blank delimiters and see what we have to work with
       String[] flds = field.split("  +");
@@ -221,9 +225,19 @@ public class TXCollinCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern INFO_NONE_PTN = Pattern.compile(" *<NO(?:NE|.* COMMENTS|.* REMARKS)> *");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      field = INFO_NONE_PTN.matcher(field).replaceAll(" ").trim();
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("MASH")) return new MashField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
