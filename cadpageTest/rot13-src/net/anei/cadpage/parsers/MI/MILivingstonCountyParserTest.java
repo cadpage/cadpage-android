@@ -5,6 +5,73 @@ vzcbeg arg.narv.pnqcntr.cnefref.ZV.ZVYvivatfgbaPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Yvivatfgba Pbhagl, ZV
+Fraqre: PNQ@yvivatfgbapbhagl.yvipb
+
+PNQ:SLV: ;NYNEZS;11555 CYRNFNAG IVRJ QE;VAQVNA GEY;FZBXR NYNEZF TBVAT BSS VA GUR UBHFR SBE GUR YNFG 30 ZVA BA NAQ BSS/ AB FZBXR BE FZBXR FUBJVAT [09/24/10 04:17:07 RPBBX]
+PNQ:SLV: ;HAXNPP;R Z36/CRGGLF EQ;IRUVPYR UVG N CBYR/ ZNYR EHAAVAT R/O SEBZ FPRAR [09/23/10 21:45:06 RPBBX]
+PNQ:SLV: ;PUFGCA;8422 CNJARR GEY;FUBFUBAV CNFF;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: C1 FGN 1 4 5 6 7 8 SP SG ERFCBAQRE FPEVCG: 72 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. Purfg Cnva (Aba-Genhzngvp). Noabezny oernguvat. Pny
+PNQ:SLV: ;HAPBA;8732 EVIRE INYYRL EQ;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: C1 FGN 1 2 3 4 5 6 7 8 SP SG ERFCBAQRE FPEVCG: 63 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. Hapbafpvbhf / Snvagvat (Arne). Abg nyreg. Pnyyre Fgngrzrag: HAPBA.
+PNQ:SLV: ;URZYNP;FURUNA EQ/JUVGRJBBQ EQ;[Zrqvpny Cevbevgl Vasb]ERFCBAFR: C1 FGN 1 4 5 6 7 8 SP SG ERFCBAQRE FPEVCG: 35 lrne byq, Srznyr, Pbafpvbhf, Oern
+
+Cntrpbcl-Se:PNQ@yp911\aPNQ:SLV: ;PUFGCA;7251 UNZOHET EQ;JRYYR EQ;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: C1 FGN 1 3 4 5 6 7 8 SP SG ERFCBAQRE F
+
+Pbagnpg: Wbua Znfrx <wbua.fgn33@tznvy.pbz>
+PNQ:SLV: ;PVGNS;5579 R TENAQ EVIRE;JVYQJBBQ QE;Rirag fcnjarq sebz PVGVMRA NFFVFG YNJ. [12/10/10 20:08:59 FCUVYYVCF] PNYYRE YVIRF ARKG QBBE GB GUR NQQERFF BS GUR JNGRE ZNVA OERNX [12/10/10 20:04:40 UEBFFARE] PNYYRE NQI BS N JNGRE ZNVA OERNX
+
+PNQ:SLV: ;HAPBA;FNAPGHEL BS JBBQYNAQ;7533 J TENAQ EVIRE;PBHEG FG;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: C1 FGN 1 2 3 4 5 6 7 8 SP SG ERFCBAQRE FPEVCG: 80 lrne byq, Srznyr, Hapbafpvbhf, Oernguvat. Hapbafpvbhf / Snvagvat (Arne). Hapbafpvbhf -- Rss
+PNQ:SLV: ;QVNORG;31 FGENGSBEQ YA;ARJPNFGYR YA;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: C1 FGN 1 2 4 5 6 7 8 SP SG ERFCBAQRE FPEVCG: 47 lrne byq, Srznyr, :1bs2
+
+Pbagnpg: Wbeqna Mreavpx <mreavpx1115@tznvy.pbz>
+Cntrpbcl-Se:PNQ@yvivatfgbapbhagl.yvipb\aPNQ:SLV: ;BIQBFR;4676 XRAZBER QE;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: C1 FGN 1
+
+Pbagnpg: Pnfrl Lbfg <pnfrllbfg@tznvy.pbz>
+sverqvire11+pns_=5176671194=igrkg.pbz@tznvy.pbzCntrpbcl-Se:PNQ@yvivatfgbapbhagl.yvipb\aPNQ:SLV: ;FRVMHE;131 FGENGSBEQ YA;ORYZBAG YA;[Zrqvpny Cevbevgl Vasb]
+
+Pbagnpg: Wrss Inqra <wrssinqra@tznvy.pbz>
+Cntrpbcl-Se:PNQ@yvivatfgbapbhagl.yvipb PNQ:Hcqngr: ;SNYY;3031 JZ36;[RZF] UNF ORRA IBZVGGVAT - QVNORGVP [02/14/11 09:55:08 EYNQBHPRHE] [Zr
+
+Pbagnpg: Nneba Tntr <nnebatntr16@tznvy.pbz>
+Fraqre: 93001011
+PNQ:SLV: ;BCRAOH;8360 ZPPYRZRAGF EQ;QRXNFFRY QE;OHEAVAT TNEONTR BAR UBHFR RNFG BS PNYYRE [07/01/11 19:44:56 FFGHETVF]
+
+Pbagnpg: Fgrir Ublre <abggursnpr@tznvy.pbz>
+Fraqre: PNQ@yvivatfgbapbhagl.yvipb
+SLV: ;FZXBHG;PUREBXRR ORAQ QE/ERQ BNXF QE;PNYYRE URNEQ NA RKCYBFVBA BA PUREBXRR ORAQ, QBRF ABG FRR NALGUVAT NG GUVF GVZR. FZRYYF FZBXR. [09/21/11 21:53:2
+SLV: ;PUBXR;FBET ERFVQRAPR;2917 YNAVRE PG;GNUBR OYIQ;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: C1 FGN 1 2 3 4 5 6 7 8 SP SG ERFCBAQRE FPEVCG: 3 lrne byq, Znyr, P
+
+Pbagnpg: Wbua Znfrx <wbua.fgn33@tznvy.pbz>
+Fraqre: PNQ@yvivatfgbapbhagl.yvipb
+SEZ:PNQ@yvivatfgbapbhagl.yvipb\aZFT:PNQ:SLV: ;CVN;QBEE EQ/R TENAQ EVIRE;WRRC YVOREGL IF FVYIRE INA [11/30/11 09:18:58 PJRFGCUNY]
+
+Pbagnpg: Wnzrf C Xeljxb <Wnzrf.Xeljxb@vcncre.pbz>
+Fraqre: PNQ@yvivatfgbapbhagl.yvipb
+PNQ:PNAPRY;A ANGVBANY FG/R TENAQ EVIRE NIR; UBJY;NG PBEARE
+PNQ:Hcqngr: ;BVBHG;ERTNY ERPLPYREF;645 YHPL EQ;VAQHFGEVNY FG;{RA34} ERD PBAFHZREF [12/28/11 17:51:25 YYBJR]
+PNQ:SLV: ;PUBXR;5385 TERRA EQ;PYLQR EQ;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: C1 FGN 1 2 3 4 5 6 7 8<gry:12345678> SP SG ERFCBAQRE FPEVCG: 78 lrne byq, Znyr, Pbafpvbhf, Abg oernguvat. Pubxvat. Abg nyreg. Pnyyre Fgngrzrag: PUBXVAT BA SBBQ . 1.Ur vf a
+PNQ:SLV: ;CVN;A YNGFBA EQ/R UVTUYNAQ EQ;ERQ GEHPX IF FZNYY FRQNA CRE PNYYRE FHOWRPG VF ABG BX [12/28/11 19:50:00 ZFCVPRE]
+
+Pbagnpg: Qnir Xbecbavp <qxbecf@tznvy.pbz>
+Fraqre: Qnir Xbecbavp <qxbecf@tznvy.pbz>
+PNQ:SLV: ;FVPX;10165 PNEYRR WHAR QE;EHALNA YNXR EQ;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: C1 FGN 1 4 5 6 7 8 SP SG ERFCBAQRE FPEVCG: 37 lrne byq, Znyr, Pbafpv
+
+Pbagnpg: Fgrir Ublre <abggursnpr@tznvy.pbz>
+Hcqngr: ;GERRS;5117 PHYIRE EQ;PNALBA BNXF QE;PNYYRE FGNGRF GERR PBZCYRGRYL OYBPXVAT PHYIRE EQ, [08/11/12 02:25:45 WZHECUL-XR]
+Hcqngr: ;QRNGU;4601 TBYS IVRJ QE;TBYS IVRJ PG;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: C1 FGN 1 2 3 4 5 6 7 8 SP SG ERFCBAQRE FPEVCG: 83 lrne byq, Znyr, Hapbafp
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Yvi. Pb Qvfnfgre Nffvfgnapr Erfcbafr Grnz Ybpngvba: Ubjryy, ZV 
+Fraqre: PNQ@yvivatfgbapbhagl.yvipb
+PNQ:QNEG;1279 EVPXRGG EQ; OEGA;FGEHPGHER SVER
+PNQ:QNEG;F HF23/ABEGU GREEVGBEVNY;ZHGHNY NVQ GB BGURE SQ BE RZF
+
+**  ABG CNEFVAT ***
+Pbagnpg: Nneba Tntr <NTntr@oevtugbanernsver.pbz>
+Fraqre: PNQ@yvivatfgbapbhagl.yvipb
+(FRVMHE;8501 J TENAQ EVIRE NIR;ORFG OHL QE;[Zrqvpny Cevbevgl Vasb] ERFCBAFR) PNQ:C1 FGN 1 2 3 4 5 6 7 8 SP SG ERFCBAQRE FPEVCG: 46 lrne byq, Srznyr, Hapb
+
+*/
 
 choyvp pynff ZVYvivatfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
