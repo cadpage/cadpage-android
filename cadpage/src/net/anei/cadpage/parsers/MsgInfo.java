@@ -655,39 +655,41 @@ public class MsgInfo {
   // If we find a construct like that, remove the middle section
   // When we are done with that, check for addresses ending with 666 HWY and reverse the terms
   private static final Pattern[] DBL_ROUTE_PTNS = new Pattern[]{ 
-    Pattern.compile("\\b([A-Z]{2}|STATE) *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGHWAY) +(\\d+[NSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
-    Pattern.compile("\\b([A-Z]{2}|STATE) +(\\d+|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY)\\b", Pattern.CASE_INSENSITIVE)
+    Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY) *(ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGHWAY) +(\\d+[NSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
+    Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY) +(\\d+|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY)\\b", Pattern.CASE_INSENSITIVE)
   };
   private static final Pattern REV_HWY_PTN = Pattern.compile("(?<!-)\\b(\\d+) *(HWY|RT|RTE|ROUTE)(?=$| *&)", Pattern.CASE_INSENSITIVE);
   private static final Pattern I_FWY_PTN = Pattern.compile("\\b(I[- ]\\d+) +[FH]WY\\b", Pattern.CASE_INSENSITIVE);
   private String cleanDoubleRoutes(String sAddress) {
     for (Pattern ptn : DBL_ROUTE_PTNS) {
       Matcher match = ptn.matcher(sAddress);
-      int pt = 0;
-      int lastPt = 0;
-      if (!match.find(pt)) continue;
+      if (!match.find()) continue;
       
-      StringBuilder sb = new StringBuilder();
+      StringBuffer sb = new StringBuffer();
       do {
-        String prefix = match.group(1);
-        String suffix = match.group(2);
+        String prefix = match.group(1).toUpperCase();
+        String middle, replace;
+        if (match.groupCount() == 3) {
+          middle = match.group(2).toUpperCase();
+          replace = "$1 $3";
+        } else {
+          middle = "";
+          replace = "$1 $2";
+        }
         String state = strState;
         if (state.length() == 0) state = defState;
         if (prefix.length() != 2 ||
-            (prefix.equalsIgnoreCase(state) ||
-             prefix.equalsIgnoreCase("CO") ||
-             prefix.equalsIgnoreCase("US") ||
-             prefix.equalsIgnoreCase("ST") ||
-             prefix.equalsIgnoreCase("FM"))) {
-          sb.append(sAddress.substring(lastPt, match.start()));
-          sb.append(prefix);
-          sb.append(' ');
-          sb.append(suffix);
-          lastPt = match.end();
+            (prefix.equals(state) ||
+             prefix.equals("CO") ||
+             prefix.equals("US") ||
+             prefix.equals("ST") ||
+             prefix.equals("FM"))) {
+          if (!prefix.equals("COUNTY") || !middle.equals("ROAD") && !middle.equals("RD")) {
+            match.appendReplacement(sb, replace);
+          }
         }
-        pt = match.end();
-      } while (match.find(pt));
-      sb.append(sAddress.substring(lastPt));
+      } while (match.find());
+      match.appendTail(sb);
       sAddress = sb.toString();
     }
     
