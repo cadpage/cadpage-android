@@ -455,6 +455,19 @@ Jean -- Assistant to Ken Corbin
 
 ******************************************************************
 
+This looks like a text pages from Active911.  We do not have a parser for Active911 text pages because Active911 generally only sends text pages to dumb cell phones.  For Android phones running Cadpage, you should register as a direct paging device.
+
+First, either you or the person in your department who sets these things up should open the Active911 web site member access tab, switch to devices, and set your particular device up with a device type of Smartphone and a page type of Cadpage (Android).  There is a device key associated with your device that you will need for the next step.
+
+Next, open Cadpage settings and select
+Direct Paging Vendors > Active911.com > Register
+Follow the directions which including entering the two part device key.  If all goes well, Active911 will accept your registration and send a confirmation to Cadpage, which will display a note saying you are now registered for direct pages.
+
+Good luck,
+-Ken
+
+******************************************************************
+
 I need more information about your calls to figure out what is going wrong.
 
 If you have calls that are not mapping, long press the call and select "Report Problem" from the option menu.  That generates an email to us with the info about the call.

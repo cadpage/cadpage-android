@@ -8,6 +8,7 @@ vzcbeg bet.whavg.Grfg;
 Xrag Pbhagl, QR (Inevnag O)
 Pbagnpg: wrsserl zbeevf <objref4015@tznvy.pbz>
 Pbagnpg: Nqnz Jneare <njneare7777@tznvy.pbz>
+Pbagnpg: Znex Unyy <znexunyy285@tznvy.pbz>
 Fraqre: zft@pszft.pbz
 Flfgrz: Nrtvf PNQ
 
@@ -22,6 +23,7 @@ Flfgrz: Nrtvf PNQ
 (Puvrs NYG) [40 RZF] - 6P1 - Oernguvat Ceboyrzf -- 294 Ynxr Fuber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Xvjv Pg / Xlyvr Ya -- Pnyyre: Uheq Fuveyrl
 (Puvrs NYG) [40 Sver] - 17N2 - Snyyf - Aba-Erprag -- 254 Ynxr Fuber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Glfba Ya / Vovf Pg -- Pnyyre: Fcvax Xvzoreyrl
 (Puvrs NYG) [40 Sver] - Bhgfvqr Sver-Haxabja 2124 OBJREF ORNPU EQ, Serqrevpn -- Kfg'f: Tez Qe / Juvgjryy Qryvtug Eq
+(Puvrs NYG) [46 Sver] -- Nynezf-Uvtu Yvsr Unmneq -- NCG-JUVGRBNX NCGF -- 1001 Juvgrbnx Eq Qbire - Pebff Fgf: A Unyfrl E - Pnyyre:TEVRE, XVRNFUN
 
 Pbagnpg:Npgvir911
 [Puvrs NYG] [46 Sver] -- Fgnaq-Ol,Pbire-hc -- 110 Sverubhfr Ya Znelqry - Pebff Fgf: Fgenhff Ni\a
@@ -181,6 +183,16 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2124 OBJREF ORNPU EQ",
         "PVGL:Serqrevpn",
         "K:Tez Qe / Juvgjryy Qryvtug Eq");
+
+    qbGrfg("G12",
+        "(Puvrs NYG) [46 Sver] -- Nynezf-Uvtu Yvsr Unmneq -- NCG-JUVGRBNX NCGF -- 1001 Juvgrbnx Eq Qbire - Pebff Fgf: A Unyfrl E - Pnyyre:TEVRE, XVRNFUN",
+        "FEP:46 Sver",
+        "PNYY:Nynezf-Uvtu Yvsr Unmneq - NCG-JUVGRBNX NCGF",
+        "NQQE:1001 Juvgrbnx Eq",
+        "PVGL:Qbire",
+        "K:A Unyfrl E",
+        "ANZR:TEVRE, XVRNFUN");
+
   }
   
   @Grfg

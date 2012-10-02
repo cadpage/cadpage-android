@@ -4839,15 +4839,15 @@ OUT OF HIS HEAD HES ADVISING HE CALLED THE MENTAL HEALTH PLACE ALREADY,
 HUFFM
 **********************************************************
 **********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Dade County, GA (update)
@@ -4883,10 +4883,16 @@ BREATHIGN OK AT 09/3
 **********************************************************
 Avon, CT
 Contact: Keith Lee <klee@avonvfd.org>
+Sender: messaging@iamresponding.com
 FD STILL ALARM 00004 ORCHARD FARMS LN Cross:  ORCHARD ST/MICHELLE LN  E7  E10
 FD Limited Assignment 00023 FOX DEN RD Cross:  SAW MILL LN/SLEEPY HOLLOW RD  E14  E9  L12  R8  T5  1247
 FD Full Assignment W MAIN ST/DALE RD   L12  T5  R8  B15  1252  TK16  TK6  E9 E10  E14  E7  E11
 FD Full Assignment 00255  AVON MOUNTAIN RD DEERCLIFF RD/EAST MAIN ST L12  T5  R8  B15  269  TK16  TK6  E9  E10  E14  E7  E11
+FD STILL ALARM BEVERLY DR/ WOODMONT NA   E14  E9
+FD Full Assignment E MAIN ST/ MOUNTAIN VIEW AVE   L12  T5  R8  B15  237  TK16 TK6  E9  E14  E10  E7  E11  AV26
+FD STILL ALARM 00081 CHEVAS RD Cross:  GLEN HOLLOW DR/HUCKLEBERRY HILL RD  E7  E10
+FD Full Assignment 00002  WHISPERING PINES NA LARKSPUR LN  L12  T5  R8 B15  1068  TK16  TK6  E9  E10  E14  E7  E11  AV26
+FD Full Assignment 00020  SECURITY DR DARLING DR/ARCH RD  L12  T5  R8 B15  250  TK16  TK6  E9  E10  E14  E7  E11
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
