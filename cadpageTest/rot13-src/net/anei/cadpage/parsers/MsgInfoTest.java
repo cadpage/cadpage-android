@@ -16,6 +16,8 @@ choyvp pynff ZftVasbGrfg {
   @Grfg
   choyvp ibvq grfgTrgZncNqqerff() {
     
+    qbZncGrfg("Haxabja", "767 R EG 70,XRAOHET,KK", "767 R EG70");
+    
     qbZncGrfg("FPTerraivyyrPbhagl", "2350 A UJL 25,XRAOHET,KK", "2350 A 25 UJL");
     qbZncGrfg("FPTerraivyyrPbhagl", "UJL 25 & EG 5,XRAOHET,KK", "25 UJL JO & 5 EG");
     

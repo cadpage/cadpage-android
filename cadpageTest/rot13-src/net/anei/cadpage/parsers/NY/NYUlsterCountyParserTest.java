@@ -5,6 +5,22 @@ vzcbeg arg.narv.pnqcntr.cnefref.AL.ALHyfgrePbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/***
+Hyfgre Pbhagl, AL
+Pbagnpg: Naqerj Ohobygm <nwo5620@tznvy.pbz>
+Fraqre: pnq@pb.hyfgre.al.hf
+
+((2058) EYVA/ ) Havg:RAT6 HavgFgf: Ybp:487 JNFUVATGBA NI  KFgf:GNLYBE/PVGL YVAR Irahr:Xvat Pvgl Vap:Nhgbnynez Qngr:11/05/2010  Gvzr:20:44 TRARENY SVER NYNEZ Nqqgy
+((63937) ZQNI/ ) Havg:RAT6 HavgFgf: Ybp:86 UBSSZNA KFgf:OEBNQJNL/ZNELF  NI Irahr:Xvat Pvgl Vap:Fgehpg Sve Qngr:11/03/2010 Gvzr:21:22 FZBXR PBQVGVBA VA  NERN Nqqgy
+((59728) FDHV/ )  Havg:RAT6 HavgFgf: Ybp:77 PBEARYY KFgf:GERZCRE NI/FZVGU NI Irahr:Xvat  Pvgl Vap:Unm Zng Qngr:11/02/2010 Gvzr:00:45 HAXABJA BQBE VA OHVYQVAT  Nqqg
+((2203) OXVA/ ) Havg:RAT6 HavgFgf: Ybp:89 ARJXVEX NI KFgf:UNFOEBHPX NI/ZNCYR  Irahr:Xvat Pvgl Vap:Fgehpg Sve Qngr:11/05/2010 Gvzr:21:39 ONFRZRAG SHYY BS FZBXR 
+
+Pbagnpg: Fgrcura Dhvpx <fgrcura.q.dhvpx@tznvy.pbz>
+Fraqre: PNQ@PB.HYFGRE.AL.HF
+SEZ:PNQ@PB.HYFGRE.AL.HF\aFHOW:(16733) ZTNS/\aZFT:Havg:CT68-2 HavgFgf: Ybp:85 ZNVA KFgf:JNYY/TERRA Irahr:Xvat Pvgl\aVap:Fgehpg Sve\a(Pba'g) 2 bs 2\aQngr:01/31/2012 Gvzr:14:32 OHVYQVAT BA SVER Nqqgy:PAGK:(Raq)
+
+***/
+
 
 choyvp pynff ALHyfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

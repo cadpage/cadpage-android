@@ -34,15 +34,15 @@ choyvp pynff AWArcgharCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "Fhowrpg:ARCGHAR CQ PBZZF PRAGRE\anyy arcghar rzf nyy pnyy bprna tebir 98.5 ynjerapr nir srznyr srryvat jrnx naq qvmml",
-        "PNYY:nyy arcghar rzf nyy pnyy bprna tebir 98.5",
-        "NQQE:ynjerapr nir",
+        "PNYY:nyy arcghar rzf nyy pnyy bprna tebir",
+        "NQQE:98.5 ynjerapr nir",
         "VASB:srznyr srryvat jrnx naq qvmml");
 
     qbGrfg("G5",
         "Fhowrpg:ARCGHAR CQ PBZZF PRAGRE\aRZF NYY PNYY 98.5 YNJERAPR NI SBE NYREGREQ ZRAGNY FGNGHF",
-        "PNYY:RZF NYY PNYY 98.5",
-        "NQQE:YNJERAPR NI",
-        "ZNQQE:YNJERAPR NIR",
+        "PNYY:RZF NYY PNYY",
+        "NQQE:98.5 YNJERAPR NI",
+        "ZNQQE:98.5 YNJERAPR NIR",
         "VASB:SBE NYREGREQ ZRAGNY FGNGHF");
   }
   

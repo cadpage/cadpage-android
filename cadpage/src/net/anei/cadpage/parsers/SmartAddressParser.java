@@ -109,6 +109,12 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_OPT_STREET_SFX = 0x2000;
   
+  /**
+   * Flag indicating that @ signs should be processed as at markers
+   * but the word "AT" should be ignored
+   */
+  public static final int FLAG_AT_SIGN_ONLY = 0x4000;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -188,7 +194,7 @@ public abstract class SmartAddressParser extends MsgParser {
   
   private static final int ID_RELATION = 0x1000000;
   
-  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
+  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
   // List of multiple word cities
   private MultiWordList mWordCities = null;
@@ -291,7 +297,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB", "EXT");
     setupDictionary(ID_OPT_ROAD_PFX, "OLD", "NEW", "UPPER", "LOWER");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
-    setupDictionary(ID_AT_MARKER, "AT", "@");
+    setupDictionary(ID_AT_MARKER, "@", "AT");
     
     // C/S should be in this list, but it gets changed before we parse stuff
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
@@ -473,7 +479,6 @@ public abstract class SmartAddressParser extends MsgParser {
    *         START_PLACE - field starts with a place name
    *         START_SKIP - field starts with something we aren't interested in,
    *                      followed by address
-   * @param flags - Special processing flags                     
    * @param address address field to be parsed
    * @return integer indicating how good this address is, higher number mean better fit
    */
@@ -744,7 +749,7 @@ public abstract class SmartAddressParser extends MsgParser {
         if (startAddress >= 0 || locked) return false;
         if (flexAt && isType(sAddr, ID_INCL_AT_MARKER)) return false;
         sAddr++;
-        if (flexAt && isType(sAddr, ID_AT_MARKER)) locked = true;
+        if (flexAt && isAtSign(sAddr)) locked = true;
       }
       
       // If we found a city beyond this start point, just use that as the terminator
@@ -814,7 +819,7 @@ public abstract class SmartAddressParser extends MsgParser {
       int start = startNdx;
       ndx = start;
       while (true) {
-        if (flexAt && isType(ndx, ID_AT_MARKER)) atStart = true;
+        if (flexAt && isAtSign(ndx)) atStart = true;
         ndx++;
         if (ndx >= tokens.length) return false;
         if (isType(ndx, ID_CROSS_STREET)) return false;
@@ -927,7 +932,7 @@ public abstract class SmartAddressParser extends MsgParser {
       int start = startNdx;
       ndx = start;
       while (true) {
-        if (flexAt && isType(ndx, ID_AT_MARKER)) atStart = true;
+        if (flexAt && isAtSign(ndx)) atStart = true;
         ndx++;
         sAddr = ndx - 1;
         if (ndx >= tokens.length) return false;
@@ -1059,7 +1064,7 @@ public abstract class SmartAddressParser extends MsgParser {
       int stIndex = (isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0);
       if (startAddress < 0 && isFlagSet(FLAG_AT_BOTH)) {
         for (int ndx = stIndex; ndx < endAddr; ndx++) {
-          if (isType(ndx, ID_AT_MARKER)) {
+          if (isAtSign(ndx)) {
             result.addressField = new FieldSpec(ndx+1, endAddr);
             endAddr = ndx;
             break;
@@ -1112,7 +1117,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // in what we have for an address and split the rest into a place name
     if (isFlagSet(FLAG_AT_BOTH | FLAG_AT_PLACE) && result.addressField != null) {
       for (int ndx = result.addressField.fldStart; ndx<result.addressField.fldEnd; ndx++) {
-        if (isType(ndx, ID_AT_MARKER)) {
+        if (isAtSign(ndx)) {
           result.addressField.fldStart = ndx+1;
           if (result.startField != null) result.startField.end(ndx);
           break;
@@ -1273,7 +1278,7 @@ public abstract class SmartAddressParser extends MsgParser {
         
         // Check for place name
         if (flexAt && placeField == null) {
-          if (isType(ndx, ID_AT_MARKER)) {
+          if (isAtSign(ndx)) {
             lastField.end(ndx);
             lastField = placeField = new FieldSpec(ndx+1);
           } else if (isType(ndx, ID_INCL_AT_MARKER)) {
@@ -1366,7 +1371,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // check for optional place marker
     if (isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH)) {
-      if (isType(result.endAll, ID_AT_MARKER)) {
+      if (isAtSign(result.endAll)) {
         result.endAll++;
         result.placeField = new FieldSpec(result.endAll);
       }
@@ -1581,7 +1586,7 @@ public abstract class SmartAddressParser extends MsgParser {
         setStart = false;
       }
       if (setStart && !flexAt && !ignoreAt) {
-        if (isType(ndx, ID_AT_MARKER)) {
+        if (isAtSign(ndx)) {
           result.startField.end(ndx);
           startAddress = ndx + 1;
         } else if (isType(ndx, ID_INCL_AT_MARKER)) {
@@ -1621,8 +1626,8 @@ public abstract class SmartAddressParser extends MsgParser {
     if ("=><".indexOf(chr) >= 0) mask |= ID_RELATION;
     
     // If token is in dictionary, return the associated type code
-    // City codes are not permitted to follow intersection connectrs, cross
-    // street markers, or at markers for fear thay might be a street with the
+    // City codes are not permitted to follow intersection connectors, cross
+    // street markers, or at markers for fear they might be a street with the
     // same name as a city
     Integer iType = dictionary.get(token.toUpperCase());
     if (iType != null) {
@@ -1650,6 +1655,12 @@ public abstract class SmartAddressParser extends MsgParser {
       }
     }
     tokenType[ndx] =  mask;
+  }
+  
+  private boolean isAtSign(int ndx) {
+    if (! isType(ndx, ID_AT_MARKER)) return false;
+    if (!isFlagSet(FLAG_AT_SIGN_ONLY)) return true;
+    return tokens[ndx].equals("@");
   }
   
   private boolean isType(int ndx, int mask) {
@@ -2000,7 +2011,7 @@ public abstract class SmartAddressParser extends MsgParser {
       
       // If prefix ends with some variation of "REPORTED AT" drop the 
       // REPORTED (AT has already been dropped)
-      if (startField != null && startField.fldEnd > 0 && isType(startField.fldEnd, ID_AT_MARKER) &&
+      if (startField != null && startField.fldEnd > 0 && isAtSign(startField.fldEnd) &&
           tokens[startField.fldEnd-1].equalsIgnoreCase("REPORTED")) startField.fldEnd--;
       
       // Before we figure out with to do with the leading start field, see if some of it

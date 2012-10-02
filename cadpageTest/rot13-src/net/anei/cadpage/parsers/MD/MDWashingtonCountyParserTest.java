@@ -4,6 +4,87 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Jnfuvatgba Pbhagl, ZQ
+Pbagnpg: "Falqre, Wba" <WFalqre@frzf79.bet>
+Fraqre: "Qvfcngpu@jnfupb-zq.arg" <Qvfcngpu@jnfupb-zq.arg>
+Flfgrz: Xrlfgbar Choyvp Fnsrgl
+
+ZNCYRIVYYR EQ / PURJFIVYYR EQ - CVP, CREF VAWHEL PBYYVFVBA - PB16,EFDR7,E79,FB20 - 1106957 15:38
+73 F ZNVA FG - SNYYF,ONPX VAWHEVRF - E79 - 1106940 12:07 2aq NYREG!
+14518 ZNELYNAQ NIR - FGEBXR - SNN4,E79,PB9 - 1106937 11:31
+13730 ZNHTNAFIVYYR EQ, ZNHTNAFIVYYR SVER PBZCNAL - GENAFSRE BS HAVG, - PB26,PB9 - 1106889 16:55
+YRUZNAF ZVYY EQ - JNGRE ERFPHR - - PB9,EF13,E75,OG20,FB20,EF2001,Q20,Z753,EFDR91,QP9,E79 - 1106823 23:27 2aq NYREG!
+SER PB, A SENAXYVAIVYYR EQ/EG15 - GUHEZBAG - JNGRE ERFPHR - - EFDR7 - GNP 30 1106797 21:01
+SER PB, 15204 DHVENHX FPUBBY EQ - ANG TNF YRNX - PB7,E79,C791,EFDR7 - SVER 60 1106779 19:49
+21348 BYQ SBETR EQ, FG CRGREF ORNEQ YHGURENA PUHEPU - NHGBZNGVP SVER NYNEZ - PBZZREPVNY , VAQ - PB9 - 1106753 16:45
+VAGREFGNGR 70, RKVG35 V70 RO - CVP, CREF VAWHEL PBYYVFVBA - PB16,PB10,E75,E79,R101,C791,C751,FHC160,QP10,EF10,R161,PN75 - 1106746 16:21
+22507 WRSSREFBA OYIQ, NP&G FZVGUFOHET - RLR CEBOYRZF,VAWHEVRF - E79 - 1106670 16:20
+20354 YRVGREFOHET CVXR, CRA ZNE GENVYRE FNYRF VAP - ANG TNF BQBE - PB9 - 1106635 00:13
+YRVGREFOHET CVXR / ZVYYREF PUHEPU EQ - CVP, CREF VAWHEL PBYYVFVBA - PB9,E75,C753,E79 - 1106553 22:22
+ZNCYRIVYYR EQ / WRSSREFBA OYIQ - CVP, CREF VAWHEL PBYYVFVBA - PB7,E79,Z791,FHC70,C792,P79,EFDR7 - 1106339 12:40
+VAGREFGNGR 70, 32ZZ V70 NG ERFG NERN - NOQBZVANY CNVA - CEBOYRZF - E75,E79,PB10 - 1106419 16:28\aQb Abg ERCYL gb guvf rznvy!!!
+
+Pbagnpg: Wvz N <fxvqbbkzna@tznvy.pbz>
+Fraqre: GrkgNyreg@frzf79.bet
+PURJFIVYYR EQ / JUVGR UNYY EQ, NERN - FZBXR VAIRFGVTNGVBA - PB16,FB20,PB7,EF20,R161,R74,RG7 - 1117561 07:46\aQb Abg ERCYL gb guvf rznvy!!!
+
+Pbagnpg: pw evaruneg <pwee_10@ubgznvy.pbz>
+Fraqre: ep.429@p-zft.arg
+F:JPb Z:[!] 136 JVFUVAT FGNE PG  ,FGNO  ,THAFUBG  ,E75  ,PB10  ,1120268 23:48\a\a\a
+F:JPb Z:[!] 11403 FGBARPEBSG PG  , FGBARPEBSG NCNEGZRAGF OHVYQVAT N NCG 209  ,PURFG CNVA  ,E75  ,PB10  ,1120271 02:16
+F:JPb Z:[!] 1800 QHNY UJL  , FHFDHRUNAAN ONAX FGR 100 ERNE BS  ,FZBXR VAIRFGVTNGVBA  ,R03  ,PB10  ,HG3  ,1120229 07:12
+F:JPb Z:[!] 300 A PBYBAVNY QE  , NCG R  ,UBHFR SVER  ,PB10  ,R03  ,R01  ,GEX1  ,F75  ,E75  ,FB20  ,1120236 09:48
+F:JPb Z:[!] 136 JVFUVAT FGNE PG  ,FGNO  ,THAFUBG  ,E75  ,PB10  ,1120268 23:48
+F:JPb Z:[!] 17567 LBEX EQ  , JRFGREA FVMMYVA FGRNX UBHFR  ,BQBE BS FZBXR  ,PB26  ,PB10  ,PB2  ,GJE26  ,EF10  ,E26  ,1120262 22:1
+
+Pbagnpg: "SbeoretreWnzrf@lnubb.pbz" <SbeoretreWnzrf@lnubb.pbz>
+Fraqre: fhccbeg@pnqcntr.bet
+JPb / [!] 1396 F CBGBZNP FG, FURRGM - CVP, CREF VAWHEL PBYYVFVBA - R05,E75,HG3 - 1200168 10:39\a\a
+
+Pbagnpg: evpuneq Tvyoreg <etvyoreg65@tznvy.pbz>
+Fraqre: ep.327@p-zft.arg
+Fhowrpg:PNQ\a[!] J SENAXYVA FG / A OHEUNAF OYIQ - CVP, CREF VAWHEL PBYYVFVBA - R04,F75,F754,HG3 - Genssvp / Genafcbegngvba Nppvqrag (Penfu). 12\e
+
+Pbagnpg: fhccbeg@npgvir911.pbz
+Fraqre: ep.337@p-zft.arg
+Fhowrpg: JPb\a[!] 17850 TNEYNAQ TEBU OYIQ, FHCRE JNYZNEG PRAGRE - Nppvqrag - Cebcregl Qnzntr - 9P16 - Genssvp / Genafcbegngvba Nppvqrag (Penfu). 11:57
+Fhowrpg: JPb\a[!] VAGREFGNGR 81 / V70 - CVP, CREF VAWHEL PBYYVFVBA - PB26,PB2,EFDR2,E26,E2 - 1208763 11:59
+Fhowrpg: JPb\a[!] IVETVAVN NIR / J JVYFBA OYIQ - Nppvqrag - Cebcregl Qnzntr - 9P21 - Genssvp / Genafcbegngvba Nppvqrag (Penfu). 12:10
+Fhowrpg: JPb\a[!] 222 BGUB UBYYNAQ QE - HAPBAFPVBHFARFF,SNVAGVAT - E26 - 87 lrne byq, Srznyr, Hapbafpvbhf, Oernguvat. - **NYF UBG*- Hapbafpvbhf – Rssrpgvir oernguvat 1208767 12:41 2aq NYREG!
+Fhowrpg: JPb\a[!] 365 JBBQCBVAG NIR - CFLPUVNGEVP,FHVPVQR NGGRZCG - E26,R04 - Zragny Qvfbeqre (Orunivbeny Ceboyrzf). 1208777 13:32
+Fhowrpg: JPb\a[!] 11346 YNXRFVQR QE - SNYYF,ONPX VAWHEVRF - E49,PB26 - 85 lrne byq, Znyr, Pbafpvbhf, Oernguvat. - **OYF-NYCUN *** Ba tebhaq be sybbe - CHOYVP NFFVFG (ab vawhevrf naq ab cevbevgl flzcgbzf) 1208778 13:36
+Fhowrpg: JPb\a[!] 1321 F CBGBZNP FG, R EHFFRYY UVPXF ZVQQYR FPUBBY - Nppvqrag - Cebcregl Qnzntr - 9P20 - Genssvp / Genafcbegngvba Nppvqrag (Penfu). 16:01
+Fhowrpg: JPb\a[!] WBANGUNA FG / PUHEPU FG - Nppvqrag - Cebcregl Qnzntr - 9R32 - 16:01
+Fhowrpg: JPb\a[!] 14 A CBGBZNP FG - BHGFVQR SVER - R01,HG3 - CebDN Sver nobeg ernfba: QVFPBAARPGRQ PNYY. Bhgfvqr Sver. 1208845 11:22
+Fhowrpg: JPb\a[!] 18 QBJAFIVYYR EQ - PURFG CNVA - E75,C751,E26,R05 - 81 lrne byq, Znyr, Pbafpvbhf, Oernguvat. - **NYF UBG*-Noabezny oernguvat 1208790 16:29
+Fhowrpg: JPb\a[!] 601 QHNY UJL, FHCRE FUBR FGBER - Nppvqrag - Cebcregl Qnzntr - 9N13 - Genssvp / Genafcbegngvba Nppvqrag (Penfu). 16:41
+Fhowrpg: JPb\a[!] 16533 GNZZNAL YA - ZRQVPNY RZRETRAPL - E26 - 83 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. - **OYF-NYCUN *** Ab cevbevgl flzcgbzf (pbzcynvag pbaqvgvbaf 2–11 abg vqragvsvrq) 1208833 06:06
+Fhowrpg: PNQ\a[!] 895 J JNFUVATGBA FG, VSB - SHRY,TNF,BVY,NAGVSERRMR,QVRFRY FCVYY - R04,HG3 - Shry Fcvyy. - HAXABJA FVGHNGVBA (Vairfgvtngvba)-Bhgfvqr 1208801 17:43
+Fhowrpg: JPb\a[!] 16843 YBATSRYYBJ PG - SNYYF,ONPX VAWHEVRF - E26 - 86 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. - **OYF UBG*** Ba tebhaq be sybbe - Haxabja fgnghf/Bgure pbqrf abg nccyvpnoyr 1208807 18:41
+Fhowrpg: JPb\a[!] 151 A OHEUNAF OYIQ, TBBQJVYY VAQHFGEVRF - Nppvqrag - Cebcregl Qnzntr - 9N17 - Genssvp / Genafcbegngvba Nppvqrag (Penfu). 18:59
+Fhowrpg: JPb\a[!] 300 ABEGUREA NIR, YBATZRNQBJ NCGF. OYQT 3 NCG N - HAFCRPVSVRQ NYNEZ - R02,PB27,GEX1,HG3,OP1 - Nynezf. - UVTU EVFR-HAXABJA 1208818 21:25
+Fhowrpg: JPb\a[!] 10138 FG TRBETR PVE - PBAIHYFVBAF,FRVMHER - E26,PB10 - 54 lrne byq, Znyr, Hapbafpvbhf, Oernguvat. - **NYF UBG*-PBAGVAHBHF be ZHYGVCYR frvmher 1208819 21:38
+Fhowrpg: PNQ\a[!] 860 CVAR FG - HAPBAFPVBHFARFF,SNVAGVAT - F754,R05,HG3 - 44 lrne byq, Znyr, Hapbafpvbhf, Oernguvat. - **NYF UBG*- Hapbafpvbhf – NTBANY/VARSSRPGVIR OERNGUVAT 1208821 00:09
+Fhowrpg: PNQ\a[!] 12927 YVGGYR RYYVBGG QE NCG 9 - PNEQVNP,ERFCVENGBEL NEERFG - E75,R03,HG3 - 26 lrne byq, Znyr, Hapbafpvbhf, Abg oernguvat. - **NYF UBG*-RPUB- Abg oernguvat ng nyy 1208824 00:45
+Fhowrpg: JPb\a[!] FUNECFOHET CVXR - HAPBAFPVBHFARFF,SNVAGVAT - E26 - 1208825 01:39
+Fhowrpg: JPb\a[!] 443 F OHEUNAF OYIQ, UNTREFGBJA ZBCRQ - Nppvqrag - Cebcregl Qnzntr - 9P21 - 11:47
+Fhowrpg: PNQ\a[!] 243 FHZZVG NIR, - PURFG CNVA - E75,R02,HG3 - 42 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. - **NYF UBG*- Oernguvat abeznyyl =>35 1208849 11:54
+Fhowrpg: JPb\a[!] 38 R ABEGU NIR - Nppvqrag - Cebcregl Qnzntr - 9P17 - 1. Genssvp / Genafcbegngvba Nppvqrag (Penfu). 12:08
+Fhowrpg: JPb\a[!] 148 FHASYBJRE QE - QVNORGVP CEBOYRZF - E26 - 83 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. - **OYF-NYCUN**- Nyreg naq orunivat abeznyyl 1208783 14:48
+Fhowrpg: PNQ\a[!] 11110 ZRQVPNY PNZCHF EQ, EBOVAJBBQ HETRAG PNER- FGR.147(OYH) - FGEBXR - E75,C756,PB10,HG3 - 80 lrne byq, Znyr, Pbafpvbhf, Oernguvat. - *NYF UBG*- Fhqqra jrnxarff be ahzoarff (bar fvqr)- (Ab grfg rivqrapr (Yrff guna 3 uef) 1208754 10:05
+Fhowrpg: JPb\a[!] 234 WBANGUNA FG, GUERR ZVAHGR PNE JNFU - Nppvqrag - Cebcregl Qnzntr - 9P15 - 11:00
+Fhowrpg: JPb\a[!] 517 PUHEPU FG - Nppvqrag - Cebcregl Qnzntr - 9P17 - Genssvp / Genafcbegngvba Nppvqrag (Penfu). 08:52
+Fhowrpg: JPb\a[!] 50 J JNFUVATGBA FG, HAVIREFVGL BS ZNELYNAQ-UNTREFGBJA - Nppvqrag - Cebcregl Qnzntr - 9718 - 11:38
+Fhowrpg: JPb\a[!] QHNY UJL, NZRF FUBCCVAT PRAGRE - Nppvqrag - Cebcregl Qnzntr - 9P17 - Genssvp / Genafcbegngvba Nppvqrag (Penfu). 08:24
+
+Fhowrpg: JPb\a[!] Erpnyy Ernfba: NYREGRQ SNN3\a365 JBBQCBVAG NIR - CFLPUVNGEVP,FHVPVQR NGGRZCG - E26,R04 - Zragny Qvfbeqre (Orunivbeny Ceboyrzf). 1208777 13:32
+
+Fhowrpg: JPb\a[Zneiva,Avfjnaqre]Zrrgvat gb avtug 18:30
+Fhowrpg: JPb\a[!] SC ARRQRQ SBE GENSSVP PBAGEBY VA 800 OYX BS J JNFUVATGBA FG VA UNTREFGBJA.
+Fhowrpg: JPb\a[!] SC ERDHRFGRQ GB NFFVFG J/GENSSVP PBAGEBY HAVG OYBPX BS F CBGBZNP FG VA UNTREFGBJA.
+
+*/
 
 choyvp pynff ZQJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
