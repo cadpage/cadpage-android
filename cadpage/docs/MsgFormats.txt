@@ -4839,7 +4839,6 @@ OUT OF HIS HEAD HES ADVISING HE CALLED THE MENTAL HEALTH PLACE ALREADY,
 HUFFM
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4881,6 +4880,13 @@ Lo MAROON JEEP CHEROKEE, 20 YOF, ALLERGIC REACTION, TROUBLE SWALLOWING,
 BREATHIGN OK AT 09/3
 (!) Vehicle Fire 112 CRIMSON DR DEAD END / HWY 136 W TRENTON\4sBi Lo
 09/28/12 21:14
+**********************************************************
+Avon, CT
+Contact: Keith Lee <klee@avonvfd.org>
+FD STILL ALARM 00004 ORCHARD FARMS LN Cross:  ORCHARD ST/MICHELLE LN  E7  E10
+FD Limited Assignment 00023 FOX DEN RD Cross:  SAW MILL LN/SLEEPY HOLLOW RD  E14  E9  L12  R8  T5  1247
+FD Full Assignment W MAIN ST/DALE RD   L12  T5  R8  B15  1252  TK16  TK6  E9 E10  E14  E7  E11
+FD Full Assignment 00255  AVON MOUNTAIN RD DEERCLIFF RD/EAST MAIN ST L12  T5  R8  B15  269  TK16  TK6  E9  E10  E14  E7  E11
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

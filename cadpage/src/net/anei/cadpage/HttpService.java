@@ -111,6 +111,10 @@ public class HttpService extends Service {
             status = 408;
             result = "IO Error";
           }
+          catch (SecurityException ex) {
+            status = 408;
+            result = "Security Exception";
+          }
           finally {
             if (is != null)
               try { is.close(); } catch (IOException ex) {}

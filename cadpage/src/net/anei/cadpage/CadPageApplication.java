@@ -20,6 +20,7 @@ public class CadPageApplication extends Application {
   @Override
   public void onCreate() {
     super.onCreate();
+    Log.v("Intialization startup");
     getVersionInfo(this);
     try {
       VendorManager.instance().setup(this);
