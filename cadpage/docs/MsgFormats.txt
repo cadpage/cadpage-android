@@ -4837,42 +4837,11 @@ RAPID FORD RD,MARTINSVILLE//SR 28 E,MARTINSVILLE
 ATTEMPTED SUICIDE, 270 BERNARD RD NEW VIENNA, 1229348, MALE SUBJECT TALKING
 OUT OF HIS HEAD HES ADVISING HE CALLED THE MENTAL HEALTH PLACE ALREADY,
 HUFFM
-
-***********************************************************
-Kosciusko County, IN
-Contact: Mark Pepple <mpepple@mtems.com>
-Sender: We have a county dispatch center that uses Sungard/OSSI Cad system. 
-The text message style is the same for the entire county.
-CAD:FYI: ;MEDICAL PROBLEM;337 GRACE VILLAGE DR;ROOM 406, HALL 2;WL
-CAD:FYI: ;ACCIDENT PI;N 300 E/E 1050 N;SYR
-CAD:FYI: ;INJURED PERSON;KINGS HWY/WOOSTER RD;WL
-CAD:FYI: ;EMS TRANSFER;2101 DUBOIS DR;WAR
-CAD:FYI: ;EMS TRANSFER;2101 DUBOIS DR;WAR
-CAD:FYI: ;MEDICAL PROBLEM;1105 KUDER LN;WAR
-CAD:FYI: ;INJURED PERSON;3521-132 LAKE CITY HWY;WAR
-CAD:FYI: ;INJURED PERSON;3521-132 LAKE CITY HWY;WAR
-CAD:FYI: ;MEDICAL PROBLEM;1692 E 200 N;222;WAR
-CAD:FYI: ;NUMBNESS;221 S HIGH ST;WAR
-CAD:FYI: ;UNRESPONSIVE PERSON;8199 S PACKERTON RD;CLAY
-CAD:FYI: ;MEDICAL PROBLEM;340-146 E LEVI LEE RD;WAR
-Intersection Example (Sorry this is the only one that I have. All of them
-come with the "/" inbetween the two roads for the intersection)
-CAD:FYI: ;ACCIDENT UNKNOWN;W 300 N/SHELDEN ST;WAR
-
-WAR=Warsaw
-WL=Winona Lake
-SYR=Syracuse
-CLAY=Claypool
-MILF=Milford
-PIER=Pierceton
-(Not sure if you needed those or not, there are more if you do)
----
-*Scott T. Sigerfoos CCEMT-P |Director of Operations |Multi-Township EMS*
-*34 E. Armstrong Road |Leesburg, Indiana 46538 |Office 574-269-1975 |Cell
-574-551-6236 |Fax 574-453-4276|www.mtems.com*
-*Praeparo, Volens, Validus … Rea**dy, Willing and Able!*
-**
 **********************************************************
+Sumner County, TN (replacement?)
+Contact: Eddie Durham <edurham4530@gmail.com>
+* 1105 DOUGLAS PL* * * GALLATIN* * FIRE GRS WDS* * * * * * * * *
+* 1303 SHORESIDE DR* * * HENDERSONVILLE* * CHEST PAIN* * * * * * * * *
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4928,6 +4897,39 @@ FD Full Assignment E MAIN ST/ MOUNTAIN VIEW AVE   L12  T5  R8  B15  237  TK16 TK
 FD STILL ALARM 00081 CHEVAS RD Cross:  GLEN HOLLOW DR/HUCKLEBERRY HILL RD  E7  E10
 FD Full Assignment 00002  WHISPERING PINES NA LARKSPUR LN  L12  T5  R8 B15  1068  TK16  TK6  E9  E10  E14  E7  E11  AV26
 FD Full Assignment 00020  SECURITY DR DARLING DR/ARCH RD  L12  T5  R8 B15  250  TK16  TK6  E9  E10  E14  E7  E11
+*************************************************************
+Kosciusko County, IN
+Contact: Mark Pepple <mpepple@mtems.com>
+Sender: We have a county dispatch center that uses Sungard/OSSI Cad system. 
+The text message style is the same for the entire county.
+CAD:FYI: ;MEDICAL PROBLEM;337 GRACE VILLAGE DR;ROOM 406, HALL 2;WL
+CAD:FYI: ;ACCIDENT PI;N 300 E/E 1050 N;SYR
+CAD:FYI: ;INJURED PERSON;KINGS HWY/WOOSTER RD;WL
+CAD:FYI: ;EMS TRANSFER;2101 DUBOIS DR;WAR
+CAD:FYI: ;EMS TRANSFER;2101 DUBOIS DR;WAR
+CAD:FYI: ;MEDICAL PROBLEM;1105 KUDER LN;WAR
+CAD:FYI: ;INJURED PERSON;3521-132 LAKE CITY HWY;WAR
+CAD:FYI: ;INJURED PERSON;3521-132 LAKE CITY HWY;WAR
+CAD:FYI: ;MEDICAL PROBLEM;1692 E 200 N;222;WAR
+CAD:FYI: ;NUMBNESS;221 S HIGH ST;WAR
+CAD:FYI: ;UNRESPONSIVE PERSON;8199 S PACKERTON RD;CLAY
+CAD:FYI: ;MEDICAL PROBLEM;340-146 E LEVI LEE RD;WAR
+Intersection Example (Sorry this is the only one that I have. All of them
+come with the "/" inbetween the two roads for the intersection)
+CAD:FYI: ;ACCIDENT UNKNOWN;W 300 N/SHELDEN ST;WAR
+
+WAR=Warsaw
+WL=Winona Lake
+SYR=Syracuse
+CLAY=Claypool
+MILF=Milford
+PIER=Pierceton
+(Not sure if you needed those or not, there are more if you do)
+---
+*Scott T. Sigerfoos CCEMT-P |Director of Operations |Multi-Township EMS*
+*34 E. Armstrong Road |Leesburg, Indiana 46538 |Office 574-269-1975 |Cell
+574-551-6236 |Fax 574-453-4276|www.mtems.com*
+*Praeparo, Volens, Validus … Rea**dy, Willing and Able!*
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

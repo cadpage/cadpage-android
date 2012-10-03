@@ -90,6 +90,10 @@ Pbagnpg: Qnaal Oybfxrl Fe <qnaal3287@tznvy.pbz>
 Fraqre: TPZ
 PG:CN 3232 BYQ JRFGZVAFGRE CXR SVAX OBK:0906 QHR:K99 [53]
 
+Pbagnpg: Xlyr Fghyy <xgfghyy@tznvy.pbz>
+Fraqre: TPZ
+PG:NYF 1429 WBYRRA YN JRFG OBK:0307 QHR:K38 [53]
+
 */
 choyvp pynff ZQPneebyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -725,10 +729,23 @@ choyvp pynff ZQPneebyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:3232 BYQ JRFGZVAFGRE CXR",
         "PVGL:SVAXFOHET",
         "HAVG:K99");
-   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXlyrFghyy() {
+
+    qbGrfg("G2",
+        "PG:NYF 1429 WBYRRA YN JRFG OBK:0307 QHR:K38 [53]",
+        "PNYY:NYF",
+        "OBK:0307",
+        "NQQE:1429 WBYRRA YN",
+        "ZNQQE:1429 WBYRRA YA",
+        "PVGL:JRFGZVAVFGRE",
+        "HAVG:K38");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZQPneebyyPbhaglCnefreGrfg().trarengrGrfgf("G53");
+    arj ZQPneebyyPbhaglCnefreGrfg().trarengrGrfgf("G");
   }
 }

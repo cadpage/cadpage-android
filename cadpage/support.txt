@@ -74,7 +74,7 @@ Jean Goul
 Thanks for your PayPal payment.
 
 Unfortunately, your PayPal account is most likely not how Cadpage knows you. Please follow these instructions:
-Run through the Payment status > I've made a PayPal Payment > Send Email 
+Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send Email 
 sequence to send us an email with the correct email account we need to register.
 
 Your Payment status should change when you load the next Cadpage version. 
@@ -435,7 +435,7 @@ Good luck,
 
 Hi folks,
 
-We have gotten a report that the <<<>>> dispatch text pages are not longer working with Cadpage.  I need to know if they are still working for you.  If they are, I need to know that I have to retain the current functionality when I rewrite the text parser.  If not, can you report any examples of what your text pages look like now.  Just long  press all of the calls and select Report Problem to generate an email to us with information about the call.
+We have gotten a report that the Sumner dispatch text pages are not longer working with Cadpage.  I need to know if they are still working for you.  If they are, I will need to retain the current functionality when I rewrite the text parser.  If not, can you report any examples of what your text pages look like now.  Just long  press all of the calls and select Report Problem to generate an email to us with information about the call.
 
 Thanks a bunch,
 -Ken
