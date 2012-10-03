@@ -419,9 +419,9 @@ Let us know how things work out.
 
 ******************************************************************
 
-The other reason why the direct paging vendor button is disabled is when you have a phone running Android 2.1 or earlier.  Direct Paging relies on a Google messaging service that is only supported for 2.2 and up.  
+Your phone is running Android 2.1.  Direct Paging relies on a Google messaging service that is only supported for 2.2 and up.  
 
-If that is the problem, options are limited.  First check to see if your vendor has any system upgrades available
+Your options are limited.  First check to see if your vendor has any system upgrades available
 main > Menu > Settings > Software Update > Check New
 and try installing them.
 
