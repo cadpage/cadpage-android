@@ -214,7 +214,6 @@ There are a  number of approved ways to run Cadpage without paying anything.
 1) You  can ask for a free subscription.but you have to include something about not being able to afford it.  Simply claiming that volunteers shouldn't have to pay anything gets you this very long explanation.
 2) You can simply reinstall Cadpage every 30 days.
 3) If you (or your department) are currently using or can switch to using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free if you are using the direct messaging option.
-4) There is a totally free (and totally unsupported) version of Cadpage distributed as a separate app.  If you  got Cadpage working without our assistance so far, there is a pretty good chance the free/unsupported version will work just fine for you.
 
 Thanks for the feedback,
 Jean -- Assistant to Ken Corbin
@@ -316,6 +315,8 @@ Have a nice day,
 
 It is kind of amusing that people think nothing of shelling out $50+ per month for a smartphone carrier plan, but balk at anything more than $2-3 for an app, no matter how useful it might be.
 
+******************************************************************
+
 $10 per year is way out of line for what you normally expect to pay for a general purpose Android app.  There are two reasons why this is necessary.
 1) Cadpage is an extremely high maintenance app.  We put out weekly releases, and every week there are usually 10 or so location parsers that have to be fixed, either because Dispatch changed the text format, or because someone found a corner case that wasn't covered by the existing parser.  Most apps get by with a release every 3 months or more.
 2) The potential user base is a tiny fraction of what a general purpose app can expect.  Cadpage is a niche market app, appealing to the small number of people who work or volunteer in emergency services.  The same development costs have to be spread among fewer people.
@@ -326,7 +327,6 @@ We think that Cadpage is so valuable to firefighters and EMS workers, that we wi
 1) If you (or your department) are currently using or can switch to using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free if you are using the direct messaging option.
 2) I give out free subscriptions to people who tell me why they cannot afford $10 per year.  
 3) You can just reinstall Cadpage every 30 days
-4) There is a totally free/non-supported version of Cadpage available as a separate app.  It never bugs you for money, but it does not come with the excellent, and expensive support provided by regular Cadpage.
 
 Thanks for your feedback,
 Jean -- Assistant to Ken Corbin
