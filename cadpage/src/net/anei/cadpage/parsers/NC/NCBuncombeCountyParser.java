@@ -134,7 +134,7 @@ public class NCBuncombeCountyParser extends DispatchOSSIParser {
     
     @Override
     public String getFieldNames() {
-      return "CALL NAME PHONE INFO X";
+      return "CALL NAME PHONE INFO X ID";
     }
   }
   
@@ -143,7 +143,7 @@ public class NCBuncombeCountyParser extends DispatchOSSIParser {
     if (name.equals("CHANGE")) return new MyChangeField();
     if (name.equals("ASSREQ")) return new AssReqField();
     if (name.equals("SRC")) return new SourceField("FS\\d+");
-    if (name.equals("UNIT")) return new UnitField("[A-Z]{1,2}[0-9]{1,3}[A-Z]?(?:,.*)?", true);
+    if (name.equals("UNIT")) return new UnitField("[A-Z]{1,5}[0-9]{1,3}[A-Z]?(?:,.*)?", true);
     if (name.equals("SPEC")) return new SpecField();
     return super.getField(name);
   }

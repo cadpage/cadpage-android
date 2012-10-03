@@ -86,6 +86,10 @@ Pbagnpg: Ebanyq Zvagm <ebanyqzvagm77@tznvy.pbz>
 Fraqre: TPZ
 [!] PG:ZN 5009 CVAR IVRJ QE / CVAR JBBQ QE 7-23 OBK:LP QHR:K79 [57]\e\a
 
+Pbagnpg: Qnaal Oybfxrl Fe <qnaal3287@tznvy.pbz>
+Fraqre: TPZ
+PG:CN 3232 BYQ JRFGZVAFGRE CXR SVAX OBK:0906 QHR:K99 [53]
+
 */
 choyvp pynff ZQPneebyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -684,7 +688,7 @@ choyvp pynff ZQPneebyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCnefre3() {
 
-    qbGrfg("G53",
+    qbGrfg("G1",
         "(Pb3) [!] PG:NYNEZ 2 400 A PRAGRE FG @GBJAZNYY JRFGZVAFGRE JRFG OBK:0380 QHR:R33 [03]",
         "FEP:Pb3",
         "PNYY:NYNEZ 2",
@@ -698,7 +702,30 @@ choyvp pynff ZQPneebyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgEbanyqZvagm() {
+
+    qbGrfg("G1",
+        "[!] PG:ZN 5009 CVAR IVRJ QE / CVAR JBBQ QE 7-23 OBK:LP QHR:K79 [57]\e\a",
+        "PNYY:ZN - ",
+        "NQQE:5009 CVAR IVRJ QE",
+        "K:CVAR JBBQ QE",
+        "NCG:7-23",
+        "PVGL:LBEX PBHAGL",
+        "FG:CN",
+        "HAVG:K79");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnaalOybfxrl() {
+
+    qbGrfg("G1",
+        "PG:CN 3232 BYQ JRFGZVAFGRE CXR SVAX OBK:0906 QHR:K99 [53]",
+        "PNYY:CN",
+        "OBK:0906",
+        "NQQE:3232 BYQ JRFGZVAFGRE CXR",
+        "PVGL:SVAXFOHET",
+        "HAVG:K99");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
