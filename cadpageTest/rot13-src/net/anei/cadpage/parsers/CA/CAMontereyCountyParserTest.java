@@ -4,6 +4,27 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Zbagrerl Pbhagl, PN
+Pbagnpg: Gbz Gratqva <g3@enmmbyvax.pbz>
+Fraqre: qbabgercyl@pb.zbagrerl.pn.hf
+Flfgrz: Gvoheba
+
+SEZ:qbabgercyl@pb.zbagrerl.pn.hf\aFHOW:PNQ Cntr\aZFT:52161UN - ZRB:ABG KSE - 13200 PVRYB NMHYHavgf:R5211, 52N
+SEZ:qbabgercyl@pb.zbagrerl.pn.hf\aFHOW:PNQ Cntr\aZFT:5261OG - ZRB:ZRQVPNY RZRETAPL - 7881 FNAQUBYQG EQHavg:PU5202
+SEZ:qbabgercyl@pb.zbagrerl.pn.hf\aFHOW:PNQ Cntr\aZFT:5254N - ZRB:ABG KSEQ - 315 ARCBAFRG EQHavgf:R5211, 52N
+SEZ:qbabgercyl@pb.zbagrerl.pn.hf\aFHOW:PNQ Cntr\aZFT:524451N - ZRB:KSEQ - 97 ENVYEBNQ NIHavgf:R5213, 52N
+SEZ:qbabgercyl@pb.zbagrerl.pn.hf\aFHOW:PNQ Cntr\aZFT:52251NO - HVN:HAX VAW NPP - UJL 101/FNA ZVTHRY PNALBA EQHavgf:R5212, R5213, 52I
+SEZ:qbabgercyl@pb.zbagrerl.pn.hf\aFHOW:PNQ Cntr\aZFT:SZN:SVER ZHGHNY NVQ - 918 SERRQBZ OYIQHavg:R5213
+SEZ:qbabgercyl@pb.zbagrerl.pn.hf\aFHOW:PNQ Cntr\aZFT:52351N - ZRB:ZRB NYZ - 398 OREEL EQHavgf:R5213, 52N
+SEZ:qbabgercyl@pb.zbagrerl.pn.hf\aFHOW:PNQ Cntr\aZFT:5261NG - ZRB:KSEQ - 10561 ZREEVGG FGHavgf:R5211, 52N
+SEZ:qbabgercyl@pb.zbagrerl.pn.hf\aFHOW:PNQ Cntr\aZFT:52251N - IVN:FO UJL 101 - UJL 101/PENML UBEFR PNALBA EQHavgf:R5212, ORH, 52I\a
+
+Pbagnpg: wbry zraqbmn <sswbryzraqbmn@tznvy.pbz>
+(PNQ Cntr) 64172O - FS:FGEHPGHER SVER - ONEARG FRTNY YA/VEVF PNALBA EQ - ZGL\a      Zrffntr: GLCR:ITS   -->FS
+(PNQ Cntr) 5513 - FS:FGEHPGHER SVER - 17739 EVIREORAQ EQ - ZPB
+
+ */
 
 choyvp pynff PNZbagrerlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

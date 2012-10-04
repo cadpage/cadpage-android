@@ -7,34 +7,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Mendocino County, CA
-Contact: Mike Maynard <capttwiggy@gmail.com>
-Sender: meucad@fire.ca.gov
-System: Alturas CAD
-
-(CAD Page) OTHER MISC. DISPLAY; =L(39.107949,-123.087224) ,UKV (COW MOUNTAIN); Inc# X: -123 5.23344  Y: 39 6.47694 B1113; testing with b1113
-MEDICAL, BRAVO; COVELO FIREHOUSE @ 75900 HWY 162 ,COVL ; Inc# 004042X: -123 14.8924  Y: 39 47.2236 B1113 CVL E1151; 42 YOF DIFF BREATHING
-MEDICAL, BRAVO; 76415 LOVELL ST ,COVL ; Inc# 004038X: -123 15.1425  Y: 39 47.5964 B1113 CVL E1151; 97 YOF GLF BRUISING ON THIGH
-PA, AGENCY; ROUND VALLEY AIRPORT @ =L(39.789877,-123.267513) ,COVL ; Inc# 004014X: -123 16.0507  Y: 39 47.3926 B1113 CVL E1151; wht 1 eng sieries 22 a small plain tale #  N1463C see if plane has landed   and advise mcso
-FIRE, RESIDENTIAL ALARM; 31110BLK  BRUSH CREEK RD ,FORTB ; Inc# 004013X: -123 46.6691  Y: 39 25.7574 B1113 BRG E1152 ADMIN; 31171 living room smoke dector
-FIRE, RESIDENTIAL; 341 MACMILLAN DR ,HOPL ; Inc# 004007X: -123 7.29456  Y: 38 58.0572 B1113 HOP T96 HEL101 E1153 E1165 E1453 E1161 CCR4 DOZ1242 ADMIN; structure fire multi caller
-FIRE, WILDLAND; 32151 PUDDING CREEK RD ,FORTB ; Inc# 004005X: -123 47.5662  Y: 39 27.0477 B1113 BRG E1152 E1156 E1154 E1168 PFK1 HEL101 ADMIN; brow shirt wht sleeves older jen 60-70 wb on pud creek rd sta
-MED, TRAFFIC COLLISION; HWY 101 MP 100.25 @ =L(39.930402,-123.762749) ,PIERC ; Inc# 003522X: -123 45.7649  Y: 39 55.8241 B1113; testing cad paging
-MED, TRAFFIC COLLISION; 802 S MAIN ST / 2 HWY 20 ,WILL ; Inc# 003522X: -123 21.0982  Y: 39 24.2470 B1113; testing cad paging
-MEDICAL, BRAVO; =L(39.126853,-123.129230) ,UKV ; Inc# 003823X: -123 7.7538  Y: 39 7.61118 B1113; mill creek by upper pond adult male leg inj 3rd party report
-FIRE, VEH PASSENGER; SQUAW ROCK @ =L(38.912401,-123.056112) ,HOPL ; Inc# 003858X: -123 3.36672  Y: 38 54.7440 B1113 HOP CLD ADMIN; big rig fire - chp responding
-
-Contact: "Kellen Cosgrove" <lvfd20@gmail.com>
-[CAD Page]  MEDICAL, DELTA; 875 BAUER RD ,LAYT ; Inc# 002829X: -123 29.8632  Y: 39 41.2492 LVF; 65 YOF DIFF BREATHING
-[CAD Page]  MED, TRAFFIC COLLISION; 1450 SPYROCK RD / 54002 N HWY 101 ,LAYT ; Inc# 005543X: -123 32.5373  Y: 39 47.8728 REACH5 LVF-P; 4 miles up veh over side w/ role over
-[CAD Page]  MEDICAL, DELTA; STANDISH-HICKEY STATE PARK @ 69350 N HWY 101 ,LEGG ; Inc# 005545X: -123 43.4727  Y: 39 52.6809 LVF; 19yom long fall  and 20 yomfall holding on to edge of cliff
-[CAD Page]  FIRE, WILDLAND; HWY 101 MP 067.50 @ =L(39.660449,-123.477308) ,LAYT ; Inc# 005554X: -123 28.6384  Y: 39 39.6269 B1114 AA110 T90 T91 LVF-P E1184 E1160 E1166 E1168 DOZ1142 CCR3 ADMIN; SOUTH ON HWY 101 - 1 1.25 SOUTH OF LAYTONVILLE -
-[CAD Page]  MEDICAL, CHARLIE; 50 BRANSCOMB RD ,LAYT (LONG VALLEY HEATH CENTER); Inc# 005457X: -123 29.0380  Y: 39 41.2658 LVF-P; 53 yom chest pain cardic hx
-[CAD Page]  MEDICAL, BRAVO; LAYTONVILLE FIREHOUSE @ 44950 WILLIS AV ,LAYT ; Inc# 005464X: -123 29.0915  Y: 39 41.2270 LVF-P; POSS WALK IN
-
+/**
+ * Mendocino County, CA
  */
-
 public class CAMendocinoCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{

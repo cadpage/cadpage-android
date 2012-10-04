@@ -4,6 +4,56 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Fna Wbndhva Pbhagl, PN
+
+OF18-1    Qvfcngpurq: 00:45:33 Raebhgr: 00:48:05 Ba Fprar: 01:00:47 NBE: 01:20:35
+OF18-1    Qvfcngpurq: 02:01:53 Raebhgr: 02:04:23 Ba Fprar: 02:05:26 NBE: 02:26:24
+G26-1     12018446    Qvfcngpurq:18:49:50Raebhgr:18:51:55Ba Fprar:18:53:54NBE:19:15:58
+G26-1     12018446    Qvfcngpurq:18:49:50Raebhgr:        Ba Fprar:        NBE:18:51:14
+R26-1     12018782    Qvfcngpurq:00:37:41Raebhgr:00:40:05Ba Fprar:        NBE:00:42:38
+G26-1     12018873    Qvfcngpurq:05:47:04Raebhgr:05:49:25Ba Fprar:05:55:03NBE:06:01:39
+
+OF18-1    MHZ-110502      Zrqvpny Nvq                     3232 R Zhasbeq Nir     Qrnq Raq/F FGNGR EBHOyqt:            Ncg: 3
+OF18-1    MHZ-110503      Zrqvpny Nvq                     1840 F O Fg     R SBHEGU FG/R SVSGU Oyqt:            Ncg:
+G26-1     SEP-120542      Fgehpgher Sver                  10331 F Cevrfg Eq                                 R TNYVA EQ/R XERYY YOyqt:            Ncg:
+
+R18-1 11020566     Sver Nynez - Pb  5045 F Fgngr Ebhgr 99 R S R NEPU EQ/R FHAAL EQ 830N
+      12014058     Irtrgngvba Sver 30000 F Xnffba Eq              R YVAAR EQ/R QRBQNEN G386                Nffvtarq Havgf: R9-3,R9-2,R26-2,OP9-0
+OP9-0 12018079     Genssvp Pbyyvfv J Ryriragu Fg / F Oveq Eq                           G327N               Nffvtarq Havgf: R9-2,G26-2,R9-6,G9-1,OP9-0
+G26-1 12018446     Fgehpgher Sver   16658 F Ber Pynvz Gey     J PYNVZ FGNXR NIR/J  Y142N                                Nffvtarq Havgf:G26-1,R11-1,G26-1,R3-4,R3-1,YZ
+R26-1 12018116     Irtrgngvba Sver V 5 AO / F XNFFBA EQ                                U5P3                Nffvtarq Havgf: R9-3,R26-1
+      12014058     Irtrgngvba Sver 30000 F Xnffba Eq              R YVAAR EQ/R QRBQNEN G386                Nffvtarq Havgf: R9-3,R9-2,R26-2,OP9-0
+G26-2 12018956     Zrqvpny Nvq     25600 F Puevfzna Eq            J FPUHYGR EQ/RYVFFNT G354O               Nffvtarq Havgf: G26-2
+G9-1  12018957     Genssvp Pbyyvfv V 580 Ro / F Pbeeny Ubyybj Eq                       U580P1              Nffvtarq Havgf: R9-4,R9-8,G9-1,OP9-0,R26-1
+      12019053     Zrqvpny Nvq     25600 F Puevfzna Eq            J FPUHYGR EQ/RYVFFNT G354O               Nffvtarq Havgf: G26-2
+
+
+Pbagnpg: Wbua <wbua499@yvir.pbz>
+Fraqre: YvsrpbzPryyCntvat@nze.arg
+
+1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:OF18-1    MHZ-110502      Zrqvpny Nvq                     3232 R Zhasbeq Nir\a(Pba'g) 2 bs 2\a     Qrnq Raq/F FGNGR EBHOyqt:            Ncg: 3\a(Raq)
+SEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:OF18-1    Qvfcngpurq: 00:45:33 Raebhgr: 00:48:05 Ba Fprar: 01:00:47 NBE: 01:20:35
+ 1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:OF18-1    MHZ-110503      Zrqvpny Nvq                     1840 F O Fg\a(Pba'g) 2 bs 2\a     R SBHEGU FG/R SVSGU Oyqt:            Ncg:\a(Raq)
+SEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:OF18-1    Qvfcngpurq: 02:01:53 Raebhgr: 02:04:23 Ba Fprar: 02:05:26 NBE: 02:26:24
+SEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:R18-1 11020566     Sver Nynez - Pb  5045 F Fgngr Ebhgr 99 R S R NEPU EQ/R FHAAL EQ 830N
+
+Pbagnpg: Qnivq Ervauneq <e26ybxv@ubgznvy.pbz>
+1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:      12014058     Irtrgngvba Sver 30000 F Xnffba Eq              R YVAAR EQ/R QRBQNEN G386            \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: R9-3,R9-2,R26-2,OP9-0\e\a(Raq)
+1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:OP9-0 12018079     Genssvp Pbyyvfv J Ryriragu Fg / F Oveq Eq                           G327N           \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: R9-2,G26-2,R9-6,G9-1,OP9-0\e\a(Raq)
+SEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:G26-1     12018446    Qvfcngpurq:18:49:50Raebhgr:        Ba Fprar:        NBE:18:51:14
+SEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:G26-1     12018446    Qvfcngpurq:18:49:50Raebhgr:18:51:55Ba Fprar:18:53:54NBE:19:15:58
+ 1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:G26-1 12018446     Fgehpgher Sver   16658 F Ber Pynvz Gey     J PYNVZ FGNXR NIR/J  Y142N               \a(Pba'g) 2 bs 2\a                 Nffvtarq Havgf:G26-1,R11-1,G26-1,R3-4,R3-1,YZ\a(Raq)
+ 1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:G26-1     SEP-120542      Fgehpgher Sver                  10331 F Cevrfg Eq                            \a(Pba'g) 2 bs 2\a     R TNYVA EQ/R XERYY YOyqt:            Ncg:\a(Raq)
+ 1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:R26-1 12018116     Irtrgngvba Sver V 5 AO / F XNFFBA EQ                                U5P3            \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: R9-3,R26-1\a(Raq)
+ 1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:      12014058     Irtrgngvba Sver 30000 F Xnffba Eq              R YVAAR EQ/R QRBQNEN G386            \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: R9-3,R9-2,R26-2,OP9-0\a(Raq)
+SEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:R26-1     12018782    Qvfcngpurq:00:37:41Raebhgr:00:40:05Ba Fprar:        NBE:00:42:38\e\a
+SEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:G26-1     12018873    Qvfcngpurq:05:47:04Raebhgr:05:49:25Ba Fprar:05:55:03NBE:06:01:39\e\a
+ 1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:G26-2 12018956     Zrqvpny Nvq     25600 F Puevfzna Eq            J FPUHYGR EQ/RYVFFNT G354O           \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: G26-2\e\a(Raq)
+ 1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:G9-1  12018957     Genssvp Pbyyvfv V 580 Ro / F Pbeeny Ubyybj Eq                       U580P1          \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: R9-4,R9-8,G9-1,OP9-0,R26-1\e\a(Raq)
+ 1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:      12019053     Zrqvpny Nvq     25600 F Puevfzna Eq            J FPUHYGR EQ/RYVFFNT G354O           \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: G26-2\e\a(Raq)
+
+ */
 
 choyvp pynff PNFnaWbndhvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

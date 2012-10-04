@@ -4,6 +4,24 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Ynxr Pbhagl, PN
+Pbagnpg: Tniva Jryyf <tjryyf@ynxrcbegsver.pbz>
+Fraqre: ynxrpbhagl.qvfcngpu@ynxrpbhaglpn.tbi
+Flfgrz: Fha Evqtr Flfgrzf
+
+475 SBERFG QE * * FHAFRG QE/GREENPR QE * * YC * SQZN * * 8 LBS SNYY J/ OYBBQL ABFR, P/N/O
+330 9GU * * A UVTU/A OEHFU * * YC * SQZN * * 19 LBZ NFFYG IVP J/ URNQ YNP
+600 LRYYBJ UNZZRE YA * * BFCERL PG * * YC * SQZN * * ZRQ NVQ 17 LBZ QVSS OERNGU RGBU IBZVGVAT CBFF NYPBUBY CBVFBAVAT
+644 ZNEGVA * * F RFGRC/F CBYX * 3 * YC * SQZN * * ZRQ NVQ 49 LBS NFFHNYG IVPG PBQR 2 SNPVNY YNPRENGVBA
+301 F ZNVA * RKCERFF ZNEG * ZNEGVA/P * * YC * SQZN * * CBFF FGEBXR...NG CHZCF
+FPBGGF INYYRL ENAPUREVN/UNEGYRL EQ, Ynxrcbeg * * UNEGYRL EQ * * SQJS * * IRTVGNGVBA SVER
+[Qvfcngpurq Pnyy]  F FGNGR UJL 29/UVTUYNAQ FCEVATF EQ, Ynxrcbeg *  * UVTUYNAQ FCEVATF EQ *  * SQZN *  * ORGJRRA NETBANHG NAQ UVTUYNAQ FCEVATF VA
+[Qvfcngpurq Pnyy]  SVAYRL RNFG EQ/GUBZNF, Svayrl *  * GUBZNF *  * SQBR *  * GNEC JENCCRQ VAGB GUR CT&R JVERF...EC VF PBAPREARQ GURL NER TBVAT GB
+2725 F ZNVA, Ynxrcbeg * EBGGRA EBOOVR * FGNGR UJL 175 * * SQZN * * 15LBS SNYY IVP JVGU URNQ VAW P/N
+(Qvfcngpurq Pnyy) 6633 RVPXUBSS EQ, Ynxrcbeg * ZPTRBPU ERFVQRAPR * CRNE IVRJ EQ *  * SQNE * 12 * QVVAVAT EBBZ FZBXR
+
+ */
 
 choyvp pynff PNYnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
