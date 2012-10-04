@@ -3,26 +3,9 @@ package net.anei.cadpage.parsers.CA;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Ventura County, CA
-Contact: Chase Morgan <chasemorgan43@gmail.com>
-Sender: Fcc-do-not-reply@Ventura.org
-System: InfoRad
-
-[FCC Page]  Incident Dispatch:  E43    BREATHING  2090 Yosemite Ave              11H1-B1 2 / 3  11-0032427  
-[FCC Page]  Incident Dispatch:  E43    BREATHING  1756 Chaps Ct                  11H1-C4 2 / 3  10-0072877
-[FCC Page]  Incident Dispatch:  E43    BREATHING  2012 N Tam Ct                  11H1-B3 2 / 3  11-0032306
-[FCC Page]  Incident Dispatch:  E43    PUBLIC SER 2692 Fallen Leaf Ct            11F3-E2 2 / 3  11-0032318
-[FCC Page]  Incident Dispatch:  E43    FIRE MISC  1700 Tapo St                   11G2-B6 2 / 3  11-0032394
-[FCC Page]  Incident Dispatch:  E43    VEHICLE FI Wb 118 At / Kuehner Dr         11H1-A4 2 / 3  11-0032367
-
-Contact: Fred Martinez <raidernation.fm@gmail.com>
-Sender: FCC-DO-NOT-REPLY@ventura.org
-FCC Page / Incident Dispatch:  Q73    TC         W Pleasant Valley Rd / S C St  552-G5  48/ 47 12-0024847\n
-
+/**
+ * Ventura County, CA
  */
-
-
 public class CAVenturaCountyParser extends MsgParser {
   
   public CAVenturaCountyParser() {

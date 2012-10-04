@@ -53,7 +53,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState, int flags) {
     super(cityList, defCity, defState,
-          "ADDR/S CODE? ID? TIME INFO! INFO2");
+          "ADDR/S"+((flags & DSFLAG_LEAD_PLACE) != 0 ? "P" : "") +" CODE? ID? TIME INFO! INFO2");
     this.leadDispatch = (flags & DSFLAG_DISPATCH_ID) != 0;
     this.optDispatch = (flags & DSFLAG_OPT_DISPATCH_ID) != 0;
     this.unitId = (flags & DSFLAG_UNIT) != 0;
