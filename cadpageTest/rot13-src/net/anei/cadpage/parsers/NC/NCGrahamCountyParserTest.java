@@ -19,10 +19,10 @@ Fraqre:  qvfcngpu@911rznvy.arg
 (R911) SENPGHER\aUREBYQ PNEEVATRE 8284796832\a115 ANGUNA TNEYNAQ EQ, EBOOVAFIVYYR
 
  */
-choyvp pynff APTenuzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff APTenunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp APTenuzPbhaglCnefreGrfg() {
-    frgCnefre(arj APTenuzPbhaglCnefre(), "TENUZ PBHAGL", "AP");
+  choyvp APTenunzPbhaglCnefreGrfg() {
+    frgCnefre(arj APTenunzPbhaglCnefre(), "TENUNZ PBHAGL", "AP");
   }
   
   @Grfg
@@ -94,6 +94,6 @@ choyvp pynff APTenuzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj APTenuzPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj APTenunzPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

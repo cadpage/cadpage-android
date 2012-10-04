@@ -5,10 +5,10 @@ import net.anei.cadpage.parsers.dispatch.DispatchGeoconxParser;
 /**
  * Grahm County, NC
  */
-public class NCGrahmCountyParser extends DispatchGeoconxParser {
+public class NCGrahamCountyParser extends DispatchGeoconxParser {
   
-  public NCGrahmCountyParser() {
-    super("GRAHM COUNTY", "NC");
+  public NCGrahamCountyParser() {
+    super("GRAHAM COUNTY", "NC");
   }
   
   @Override
