@@ -47,7 +47,8 @@ public class MDFrederickCountyParser extends FieldProgramParser {
   }
   
   // Address field gets complicated
-  private static final Pattern CITY_PTN = Pattern.compile(" ([A-Z0-9]{4}(?: CO)?):(?: @)?");
+  private static final Pattern CITY_PTN = Pattern.compile("\\b([A-Z0-9]{4}(?: CO)?):(?: @)?");
+  private static final Pattern PLACE_MARK_PTN = Pattern.compile(": (?:@|AT\\b)");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -71,42 +72,86 @@ public class MDFrederickCountyParser extends FieldProgramParser {
       else {
         
         // Not mutual aid.
-        // See if we can find a city: marker
+        // See if there is a / default marker.  If there is it marks the end of the call description
+        StartType st = StartType.START_CALL;
+        int pt = field.indexOf("/ default ");
+        if (pt >= 0) {
+          st = StartType.START_ADDR;
+          data.strCall = field.substring(0,pt).trim();
+          field = field.substring(pt+10).trim();
+        }
+        
+        // Try to split this into three possible parts
+        // A City mark separates a leading prefix
+        // a place mark separates a trailing suffix
+        String prefix = "";
+        String suffix = "";
         Matcher match = CITY_PTN.matcher(field);
         String sCity = null;
         if (match.find()) {
           sCity = CITY_CODES.getProperty(match.group(1));
           if (sCity != null) {
             data.strCity = sCity;
-            
-            // If we find one, things get complicated...
-            // Sometimes it marks the boundary between the call description and address
-            ///Sometimes it marks the boundary between the address and a place name
-            String part1 = field.substring(0,match.start()).trim();
-            String part2 = field.substring(match.end()).trim();
-            Result res = parseAddress(StartType.START_ADDR, part2);
+            prefix = field.substring(0,match.start()).trim();
+            field = field.substring(match.end()).trim();
+          }
+        }
+        
+        // We don't want more than 3 parts, so if we already have a call description
+        // and have split off a non-empty prefix, move everything to the left
+        if (st == StartType.START_ADDR && prefix.length() > 0) {
+          suffix = field;
+          field = prefix;
+          prefix = "";
+        } 
+        
+        // Otherwise try to split off a suffix
+        else {
+          match = PLACE_MARK_PTN.matcher(field);
+          if (match.find()) {
+            suffix = field.substring(match.end()).trim();
+            field = field.substring(0,match.start()).trim();
+          }
+        }
+        
+        // If we have three parts, the last one is the place name
+        int flags = 0;
+        if (suffix.length() > 0) {
+          flags = FLAG_ANCHOR_END;
+          data.strPlace = suffix;
+        }
+        
+        // If we have a prefix (which means we do not have a call description then
+        if (prefix.length() > 0) {
+          
+          // If we also have a suffix, then prefix is the call description and field is the address 
+          if (suffix.length() > 0) {
+            data.strCall = prefix;
+            parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
+          } 
+          
+          // Otherwise we have an ambiguous case, prefix and field can be either
+          // call-addr and place or
+          // call and addr-place
+          // We will try parsing field as an address first
+          // If that doesn't work, parse prefix as the address
+          else {
+            Result res = parseAddress(StartType.START_ADDR, field);
             if (res.getStatus() > 0) {
-              data.strCall = part1;
+              data.strCall = prefix;
               res.getData(data);
-              data.strPlace =  res.getLeft();
+              data.strPlace = res.getLeft();
             } else {
-              parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, part1, data);
-              data.strPlace = part2;
+              parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, prefix, data);
+              data.strPlace = field;
             }
           }
         }
         
-        // If we didn't find a city parse a generic call/address/place field
-        if (sCity == null) {
-          int pt = field.indexOf(": @");
-          if (pt >= 0) {
-            data.strPlace = field.substring(pt+3).trim();
-            field = field.substring(0,pt);
-            parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, field, data);
-          } else {
-            parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, field, data);
-            data.strPlace = getLeft();
-          }
+        // No prefix, parse the field as a field with possible leading call and/or trailing place
+        else {
+          parseAddress(st, flags, field, data);
+          if (flags == 0) data.strPlace = getLeft();
         }
       }
       
@@ -159,6 +204,7 @@ public class MDFrederickCountyParser extends FieldProgramParser {
         "CFR4","Frederick City",
         "CIJM", "New Market",
         "CMON", "Monrovia",
+        "CMID", "Middletown",
         "CNMA","New Market",
         "CMTY","Mt Airy",
         "CSAB","Sabillasville",
@@ -170,6 +216,7 @@ public class MDFrederickCountyParser extends FieldProgramParser {
         "FRANCO", "Franklin County",
         "FRE1", "Frederick City",
         "FRE2", "Frederick City",
+        "FRE3", "Frederick City",
         "MTAY", "Mt Airy",
         "NEWM", "New Market",
         "THUR","Thurmont",
