@@ -30,14 +30,14 @@ public class CAVenturaCountyParser extends MsgParser {
       return false;
     } while (false);
     
-    if (!body.startsWith("Incident Dispatch: ")) return false;
-    if (body.length() < 94) return false;
-    data.strUnit = body.substring(19,27).trim();
-    data.strCall = body.substring(27,38).trim();
-    parseAddress(body.substring(38,69).trim(), data);
-    data.strMap = body.substring(69,77).trim();
-    data.strChannel = body.substring(77,84).trim();
-    data.strCallId = body.substring(84).trim();
+    if (!body.startsWith("Incident Dispatch:")) return false;
+    if (body.length() < 86) return false;
+    data.strUnit = body.substring(18,24).trim();
+    data.strCall = body.substring(24,34).trim();
+    parseAddress(body.substring(34,64).trim(), data);
+    data.strMap = body.substring(64,71).trim();
+    data.strChannel = body.substring(71,76).trim();
+    data.strCallId = body.substring(76).trim();
     return true;
   }
 }
