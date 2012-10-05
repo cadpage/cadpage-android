@@ -17,7 +17,6 @@ Fraqre: @ebpurfgreza.tbi
 (6220 70 FG FJ) Znyr jvgu purfg cnvaf  6220 70 FG FJ
 (zrqvpny 1106 Fhaevfr Pg FR  onol jvgu fvrmher)
 (101 fpuhznaa qe aj) TENFF SVER BA J FVQR BS XJVX GEVC
-
 (zrqvpny) Zrqvpny ng 106 4 fg AR ncg 311
 (zrqvpny) 205 1 fg r sbe n zrqvpny
 (106 5 nir fr zrqvpny) Snyy ivpgvz ryqreyl srznyr
