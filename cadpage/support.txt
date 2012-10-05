@@ -80,7 +80,7 @@ sequence to send us an email with the correct email account we need to register.
 Your Payment status should change when you load the next Cadpage version. 
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-WOCPEBCA or wocpebca.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
+QDCZBSBA or qdczbsba.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -137,7 +137,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address so I can make sure you get credit for it.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-WOCPEBCA or wocpebca.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
+QDCZBSBA or qdczbsba.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -183,7 +183,7 @@ Cadpage is free for direct paging users because CodeMessaging gives us some of t
 This should only take a few seconds.  But just in case it does not...
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-WOCPEBCA or wocpebca.  It is a time-sensitive code and will expire by midnight, ___.  Once you use it, it will be good for about 30 days.
+QDCZBSBA or qdczbsba.  It is a time-sensitive code and will expire by midnight, ___.  Once you use it, it will be good for about 30 days.
 
 Have a nice day,
 Jean -- Assistant to Ken Corbin
@@ -219,7 +219,7 @@ Most of our users are volunteer firefighters or EMS workers.  My husband and I a
 We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them other then getting you guys to bring it up.  If you can talk them into it, they get a 30% discount.  Details can be found at http://www.cadpage.org/financial-support/other-support-options
 
 There are a  number of approved ways to run Cadpage without paying anything.
-1) You  can ask for a free subscription.but you have to include something about not being able to afford it.  Simply claiming that volunteers shouldn't have to pay anything gets you this very long explanation.
+1) You  can ask for a free subscription.but you have to include a reasonable reason for not being able to afford $10 per year.  Simply claiming that volunteers shouldn't have to pay anything gets you this very long explanation.
 2) You can simply reinstall Cadpage every 30 days.
 3) If you (or your department) are currently using or can switch to using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free if you are using the direct messaging option.
 
@@ -235,7 +235,7 @@ Sometimes you can log into to wallet.google.com and see if they list a reason wh
 We also take PayPal & snail mail payments, but it is a bit of a hassle, so we don't encourage it.  Details on how to do that can be found at http://www.cadpage.org/financial-support/paypal-payments
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-WOCPEBCA or wocpebca.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+QDCZBSBA or qdczbsba.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -249,7 +249,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-WOCPEBCA or wocpebca.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+QDCZBSBA or qdczbsba.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -259,7 +259,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-WOCPEBCA or wocpebca.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+QDCZBSBA or qdczbsba.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -333,7 +333,7 @@ It turns out to be full time job.  We're not getting rich doing this.
 
 We think that Cadpage is so valuable to firefighters and EMS workers, that we will always offer a free option.  In fact, there are several ways of running Cadpage without having to pay anything.
 1) If you (or your department) are currently using or can switch to using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free if you are using the direct messaging option.
-2) I give out free subscriptions to people who tell me why they cannot afford $10 per year.  
+2) I give out free subscriptions to people who give me a reasonable reason as to why they cannot afford $10 per year.  
 3) You can just reinstall Cadpage every 30 days
 
 Thanks for your feedback,

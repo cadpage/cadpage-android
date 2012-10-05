@@ -5,27 +5,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Larimer County, CO (also Weld and Boulder Counties)
-Contact: Shane Doyon <shanedoyon@gmail.com>
-Sender: BFPD@notifyall.com
-System: Tritech?
-
-Weld County is a cross street.
-Default to Larimer county, but provide way to override empty set (None or NA)
-
-(BFPD) (CFS) Power Lines Down/Arcing        // E County Road 4 & Weld County // Apt/Lot            // Radio:MAC 5 NE                       //
-(BFPD) (CFS) MVA Unk Injury                 // 248790 Interstate 25 Sb // Apt/Lot            // Radio:TALK GP3                       // MM 249 SB I25
-(BFPD) (CFS) Grass / Wildland Fire          // 5307 Foothills Dr  // Apt/Lot            // Radio:TALK GP3                       //
-(BFPD) (CFS) Alarm Fire / Residential       // 20510 Weld County Road 5   // Apt/Lot            // Radio:TALK GP3                       // CLETCHER RESIDENCE
-(BFPD) (CFS) Convulsions/Seizures (C,D)     // 315 Goose Hollow Rd  // Apt/Lot            // Radio:TALK GP2                       //
-(BFPD) (CFS) Breathing Problems (E)         // 512 Redwood Cir  // Apt/Lot            // Radio:                               //
-
-Contact: Josh Valerio <j247valerio@gmail.com>
-Sender: LFR@notifyall.com
-(NOTIFYall msg) (CFS) Alarm Fire / CO with Patients  // 1727 N Wilson Ave              // Apt/Lot 503        // Radio:TALK GP2                       //
-
- */
 
 
 public class COLarimerCountyParser extends FieldProgramParser {

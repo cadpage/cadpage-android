@@ -4,6 +4,27 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Ynevzre Pbhagl, PB (nyfb Jryq naq Obhyqre Pbhagvrf)
+Pbagnpg: Funar Qblba <funarqblba@tznvy.pbz>
+Fraqre: OSCQ@abgvslnyy.pbz
+Flfgrz: Gevgrpu?
+
+Jryq Pbhagl vf n pebff fgerrg.
+Qrsnhyg gb Ynevzre pbhagl, ohg cebivqr jnl gb bireevqr rzcgl frg (Abar be AN)
+
+(OSCQ) (PSF) Cbjre Yvarf Qbja/Nepvat        // R Pbhagl Ebnq 4 & Jryq Pbhagl // Ncg/Ybg            // Enqvb:ZNP 5 AR                       //
+(OSCQ) (PSF) ZIN Hax Vawhel                 // 248790 Vagrefgngr 25 Fo // Ncg/Ybg            // Enqvb:GNYX TC3                       // ZZ 249 FO V25
+(OSCQ) (PSF) Tenff / Jvyqynaq Sver          // 5307 Sbbguvyyf Qe  // Ncg/Ybg            // Enqvb:GNYX TC3                       //
+(OSCQ) (PSF) Nynez Sver / Erfvqragvny       // 20510 Jryq Pbhagl Ebnq 5   // Ncg/Ybg            // Enqvb:GNYX TC3                       // PYRGPURE ERFVQRAPR
+(OSCQ) (PSF) Pbaihyfvbaf/Frvmherf (P,Q)     // 315 Tbbfr Ubyybj Eq  // Ncg/Ybg            // Enqvb:GNYX TC2                       //
+(OSCQ) (PSF) Oernguvat Ceboyrzf (R)         // 512 Erqjbbq Pve  // Ncg/Ybg            // Enqvb:                               //
+
+Pbagnpg: Wbfu Inyrevb <w247inyrevb@tznvy.pbz>
+Fraqre: YSE@abgvslnyy.pbz
+(ABGVSLnyy zft) (PSF) Nynez Sver / PB jvgu Cngvragf  // 1727 A Jvyfba Nir              // Ncg/Ybg 503        // Enqvb:GNYX TC2                       //
+
+ */
 
 choyvp pynff PBYnevzrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

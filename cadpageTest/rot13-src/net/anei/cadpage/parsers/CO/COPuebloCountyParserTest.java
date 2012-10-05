@@ -5,6 +5,31 @@ vzcbeg arg.narv.pnqcntr.cnefref.PB.PBChroybPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Chroyb ESQ, PB
+Pbagnpg: Fgrira Cnffvt <tvm5312@tznvy.pbz>
+Fraqre: fhercntr@jqfy.hf
+Flfgrz: Fcvyyzna zbovyr
+(Cntr ) 12:43CZ 11/28 EHENY SVER va gur nern bs 1543 Pbbcre Cy ercbeg bs urnil fzbxr ab synzrf fubjvat...xe
+(Cntr ) 04:26CZ 12/13 eheny sver:  ujl 50 & 27gu ya; abegu fvqr, 10 sg sver...gqo
+(Cntr ) 04:52CZ 11/27 NGGA EHENY SVER: 28141 fbhgu eq....znyr cbff bireqbfr...wnn
+(Cntr ) 09:18NZ 12/11 eheny sver  33550 ujl 96 R Ybg 379 35 lbs pbaihyfvbaf
+(Cntr ) 11:45CZ 11/15 NGGA EHENY SVER: 1917 a fnagn sr nir...ng gur pne jnfu....39lbs...frvmher...wnn
+
+
+Pbagnpg: Tvm <cnffvt5312@ubgznvy.pbz>
+(Cntr ) eheny sver...23090 tnyr eq srznyr jvgu purfg cnva
+(Cntr ) 328 nibaqnyr oyiq; 16 lbz cnffrq bhg rneyvre gbqnl, pnag gnyx abj... tb va fvqr qbbe...fzo
+(Cntr ) Ngga Eheny Sver...27767 Ujl 50 R.... 89 lbs cnffrq bhg...enpu
+(Cntr ) EHENY  75 lbs oernguvat qvss  1130 JNTB QE
+(Cntr ) ngga chroyb eheny sver 27025 gbhepurl jnl srznyr qvmml naq abg srryvat tbbq
+(Cntr ) 31918 ujl 96 r; ybns & wht; srz qvmml; nyzbfg snvagrq...gqo
+
+Pbagnpg: Jvyyvr Znegva <jvyyvfzneg84@tznvy.pbz>
+Fraqre: fhercntr@jqfy.hf
+(Cntr ) 2027 mvaab oyiq; zrqvpny nynez ba 71 lbs p/b qvss oernguvat. srz unf pbcq naq ba bkltra. xpd
+
+*/
 
 choyvp pynff PBChroybPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

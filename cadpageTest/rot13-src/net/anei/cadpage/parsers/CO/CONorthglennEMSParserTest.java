@@ -5,6 +5,24 @@ vzcbeg arg.narv.pnqcntr.cnefref.PB.PBAbegutyraaRZFCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Abegutyraa naq Pbzrepr Pvgl (Nqnzf Pbhagl), PB
+pbagnpg: Oenq Wbarf <oenq@wbarf.anzr>
+Pbagnpg: Pney Aryfba <svefgqhr@tznvy.pbz>
+Pbagnpg: Nyna Zvxrf <nynaznex64@tznvy.pbz>
+fraqre: qvfcngpu@abegutyraanzohynapr.pbz
+
+- cneg 1 bs 1 / EP:Eha# 10174/6211 BYVIR FG///Certanapl / Puvyqovegu/
+- cneg 1 bs 1 / EP:Eha# 9913/5541 R 67GU NIR//zrq nynez/Abg Ninvynoyr/
+- cneg 1 bs 1 / EP:Eha# 9911/7373 OVEPU FG///Hapbafpvbhf / Snvagvat/
+- cneg 1 bs 1 / EP:Eha# 10172/8810 R 88GU NIR///Nffnhyg/
+- cneg 1 bs 1 / EP:Eha# 10119/R 60GU NIR & QNUYVN FG//./Hapbafpvbhf / Snvagvat/
+Fhowrpg:- cneg 1 bs 1\aEP:Eha# 3769/3015 PNYVSBEAVN FG//bhg bs pbageby puvyq uvg urnq/Abg Xabja//\a
+Fhowrpg:- cneg 1 bs 1\aEha# 5678/ 1301 CBAGVNP FG/ Snyy Ivpgvz\a
+(- cneg 1 bs 1) EP:Eha# 575/5486 EVIREQNYR JNL/287//Vawherq Cnegl//
+ - cneg 1 bs 1 / EP:Wbo# 0028-N/ Eha# 7024/ jnf Pnapryrq: Sver Qrcnegzrag Fgnaqol/20:11/20:11/20:11/20:15/20:25\a\a
+
+*/
 
 choyvp pynff PBAbegutyraaRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

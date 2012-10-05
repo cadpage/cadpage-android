@@ -4,6 +4,19 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Ry Cnfb Pbhagl, PB
+Pbagnpg: Funar Tnggvf <pscq1400@tznvy.pbz>
+Fraqre: rcg@rcg911.vasb
+Flfgrz: Gev Grpu
+
+PNY SQ - Hapbafpvbhf / Snvagv24615 Fpbgg Eq                Ovt Pngf bs Fre[Cerzvfr:  24615 FPBGG EQ] [Ybj] [HAXABJA] Frr " C\e
+PNY SQ - Zrqvpny             1222 Ireiref Ya                              1481 genafcbegvat,ab shegure erfc arrqrq,Nhgbzngvp\e
+PNY SQ - Zrqvpny             5GU FG / PNFPNQR FG                          5P42  ARRQ ZRQVPNY - FPENCR BA URNQ -[Funerq],5P42\e
+PNY SQ - Zrqvpny             1350 8gu Fg                                  [Cntr] Havg: 5p46, Frag Sebz: RCFB4 ,ZC , 5P46 5P4\e
+PNY SQ - Purfg Cnva          185 4gu Fg                    Pnyuna Shyy Tbf911NYV Vasb: Irevmba JEYF 800-451-5242, Jveryrff,\e
+
+ */
 
 choyvp pynff PBRyCnfbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
