@@ -26,6 +26,7 @@ choyvp pynff BUBksbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pg:SQ: SVER NYNEZ  Ybp:5201 PBYYRTR PBEARE CXr      Ncg:219   KFg:                                Tevq:4300 Havgf:Z11                                       Ezx:",
         "PNYY:SQ: SVER NYNEZ",
         "NQQE:5201 PBYYRTR PBEARE CXr",
+        "ZNQQE:5201 PBYYRTR PBEARE CVxr",
         "NCG:219",
         "ZNC:4300",
         "HAVG:Z11");

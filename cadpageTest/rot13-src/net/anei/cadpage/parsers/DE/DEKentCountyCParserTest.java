@@ -4,6 +4,70 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Xrag Pbhagl, QR
+Pbagnpg: Qrjrl Gubznf <qrjrl@pbqrzrffntvat.arg>
+Sebz: xragpragre@fgngr.qr.hf
+
+(Vapvqrag Nyreg)Havg:N64 Fgnghf:Qvfcngpurq 26N10 Fvpx Crefba - Hajryy/Vyy 125 PRAGHEL QE Irahr: Fzlean Qri/Fho: OERASBEQ JBBQF Kfg'f: ARRQUNZ QE / ARRQUNZ QE Pnyyre: ZNFF YRKVF
+(Vapvqrag Nyreg)Havg:N41 Fgnghf:Qvfcngpurq 10P1 Purfg Cnvaf 73 JLAA JBBQ PVE  Irahr: Pnzqra Jlbzvat Qri/Fho: JLAA JBBQ Kfg'f: FCEVAT EVQTR JNL / FNQQYROEBBX QE, F JLAA JBBQ PVE Pnyyre: GBZCXVAF JNLAR
+(Vapvqrag Nyreg)Havg:O64 Fgnghf:Qvfcngpurq 33P5G Genafsre/Vagresnpvyvgl 1181 CNQQBPX EQ WNZRF G INHTUA PBEERPGVBANY PRAGRE Irahr: Fzlean Qri/Fho: Kfg'f: QRYNJNER QRCG BS PBEERPGVBA PG / ZP DHNVY EQ Pnyyre: CULYVF
+(Vapvqrag Nyreg)Havg:N42 Fgnghf:Qvfcngpurq 4O3N Nffnhyg - Haxabja 5 A  JNFUVATGBA FG CNEX CYNPR YBHATR Irahr: Zvysbeq Qri/Fho: Kfg'f: CNEX NIR / F JNFUVATGBA FG Pnyyre:
+(Vapvqrag Nyreg)Havg:N41 Fgnghf:Qvfcngpurq 17O1T Snyyf - Cbffvoyl Qnatrebhf 561 A  QHCBAG UJL UBYVQNL VAA QBIRE Irahr: Qbire Qri/Fho: Kfg'f: WRSSREVP OYIQ / GBJAFRAQ OYIQ Pnyyre: QROO YRFRK
+(Vapvqrag Nyreg)Havg:46S1 Fgnghf:Qvfcngpurq Bhgfvqr Sver-Fznyy 1788 A  QHCBAG UJL ZPQBANYQF FPNEOBEBHTU EQ Irahr: Qbire Qri/Fho: Kfg'f: UBYVQNL OYIQ / PRQNE PUNFR QE Pnyyre:
+(Vapvqrag Nyreg)Havg:N42 Fgnghf:Qvfcngpurq 21Q3 Urzbeeuntr - Qnatrebhf 204 NFUYRL JNL  Irahr: Zvysbeq Qri/Fho: GUR IVYYNF NG ZVYSBEQ PEBFFVAT Kfg'f: HAXABJA / ZBLRE PVE R Pnyyre: SHYYRE FUVEYRL
+(Vapvqrag Nyreg)Havg:46S1 Fgnghf:Qvfcngpurq Iruvpyr Sver 201 FGBIRE OYIQ ZNVA FGNL FHVGRF Irahr: Qbire Qri/Fho: FGBIRE Kfg'f: ONL EQ / XEVFXB PVE Pnyyre: RNTYR UBFCVGNYVGL ( ZNVAFGNL F
+(Vapvqrag Nyreg)Havg:N51 Fgnghf:Qvfcngpurq Ryrpgevpny Unmneq-Jver Qbja NEGUHEFIVYYR EQ  Irahr: Pynlgba Qri/Fho: Kfg'f: Pnyyre: QVZRB SERQ
+(Vapvqrag Nyreg)Havg:C51S Fgnghf:Qvfcngpurq Ryrpgevpny Unmneq-Jver Qbja NEGUHEFIVYYR EQ  Irahr: Pynlgba Qri/Fho: Kfg'f: Pnyyre: QVZRB SERQ
+(Vapvqrag Nyreg)Havg:N41 Fgnghf:Qvfcngpurq 6Q2 Oernguvat Ceboyrzf 425 ZNAAREVAT QE  Irahr: Qbire Qri/Fho: TENAQ BNXF Kfg'f: QRNQ RAQ / YNQL PG Pnyyre: QNZNGB
+(Vapvqrag Nyreg)Havg:O64 Fgnghf:Qvfcngpurq 31N3 Snvagvat Rcvfbqr 436 TERRAF OENAPU YA  Irahr: Fzlean Qri/Fho: RNTYR PUNFR Kfg'f: RNTYR JNL / A UVTU FG Pnyyre: JVATSVRYQ
+(Vapvqrag Nyreg)Havg:N42 Fgnghf:Qvfcngpurq 26N11 Fvpx Crefba - Ibzvgvat 47 YNQL FYVCCRE YA  Irahr: Zvysbeq Qri/Fho: FNENTYRA NPERF Kfg'f: QRNQ RAQ / WBADHVY PG Pnyyre: ZNYNAVB WBFVR
+(Vapvqrag Nyreg)Havg:N64 Fgnghf:Qvfcngpurq 6Q1 Oernguvat Ceboyrzf  197 FCRAPRE QE  Irahr: Pynlgba Qri/Fho: Kfg'f: OYNPXVFGBA EQ / OYNPXVFGBA EQ Pnyyre: YRNTRE ZBAVPN
+(Vapvqrag Nyreg)Havg:O64 Fgnghf:Qvfcngpurq 31N1 Snvagvat Rcvfbqr 169 CNQQBPX EQ  Irahr: Gbjafraq Qri/Fho: Kfg'f: GUBEBHTUSNER ARPX EQ / SYRZVATF YNAQVAT EQ Pnyyre: JVPXF QROOVR
+(Vapvqrag Nyreg)Havg:P50 Fgnghf:Qvfcngpurq 9O1N - Boivbhf Qrngu 2628 IREABA EQ  Irahr: Uneevatgba Qri/Fho: Kfg'f: PNGGNVY OENAPU EQ / JRYPU EQ Pnyyre: PNEGRE CNHY
+(Vapvqrag Nyreg)Havg:46S3 Fgnghf:Qvfcngpurq Nynezf-Pbzzrepvny 1294 SBEERFG NIR ORGFL EBFF CVMMN SBEERFG NIR Irahr: Qbire Qri/Fho: Kfg'f: F VAQRCRAQRAPR OYIQ, VAQRCRAQRAPR OYIQ / XRAGBA EQ Pnyyre:
+(Vapvqrag Nyreg)Havg:N41 Fgnghf:Qvfcngpurq 23B1N Bireqbfr/Cbvfbavat JVYYBJ TEBIR EQ  Irahr: Pnzqra Jlbzvat Qri/Fho: Kfg'f: Pnyyre: FGNPRL PELFGNY
+(Vapvqrag Nyreg)Havg:O53 Fgnghf:Qvfcngpurq 17O3 Snyyf - Haxabja 6394 J QRAARLF EQ  Irahr: Qbire Qri/Fho: Kfg'f: WCF QE / WBFVR NIR Pnyyre: Z OYNAPUNEQ
+(Vapvqrag Nyreg)Havg:C53R Fgnghf:Qvfcngpurq 17O3 Snyyf - Haxabja 6394 J QRAARLF EQ  Irahr: Qbire Qri/Fho: Kfg'f: WCF QE / WBFVR NIR Pnyyre: Z OYNAPUNEQ
+(Vapvqrag Nyreg)Havg:O50 Fgnghf:Qvfcngpurq 17N1T Snyyf - Abg Qnatrebhf  42 PUNZOREF PVE UNEEVATGBA PNFVAB Irahr: Uneevatgba Qri/Fho: FGNGR SNVE TEBHAQF Kfg'f: JVYYVNZ Z PUNZOREF WE EQ / JVYYVNZ Z PUNZOREF WE EQ Pnyyre: UNLRF CNHY
+(Vapvqrag Nyreg)Havg:N64 Fgnghf:Qvfcngpurq 26N10 Fvpx Crefba - Hajryy/Vyy 910 NCCYROREEL QE  Irahr: Fzlean Qri/Fho: OBA NLER  Kfg'f: QLYNA FG / QNVEL QE, FNXF FG Pnyyre: XENFNINTR ZNEGVA
+(Vapvqrag Nyreg)Havg:478 Fgnghf:Qvfcngpurq 17O1T Snyyf - Cbffvoyl Qnatrebhf 618 CEBFCRPG PUHEPU EQ  Irahr: Uneevatgba Qri/Fho: Kfg'f: GBQQF PUNCRY EQ, NAQERJIVYYR EQ / UNZZBAQGBJA EQ Pnyyre: PNAABA WVZ
+(Vapvqrag Nyreg)Havg:P50 Fgnghf:Qvfcngpurq 17O1T Snyyf - Cbffvoyl Qnatrebhf 618 CEBFCRPG PUHEPU EQ  Irahr: Uneevatgba Qri/Fho: Kfg'f: GBQQF PUNCRY EQ, NAQERJIVYYR EQ / UNZZBAQGBJA EQ Pnyyre: PNAABA WVZ
+(Vapvqrag Nyreg)Havg:C50S Fgnghf:Qvfcngpurq Pvgvmra Nffvfg/Freivpr Pnyy  7250 ZVYSBEQ UNEEVATGBA UJL EBLNY SNEZF- UNEEVATGBA Irahr: Uneevatgba Qri/Fho: Kfg'f: PYNEX FG, F QHCBAG UJL / F QHCBAG UJL Pnyyre:
+(Vapvqrag Nyreg)Havg:N50 Fgnghf:Qvfcngpurq 17N2T Snyyf - Aba Erprag 502 ZNFBA NIR  Irahr: Uneevatgba Qri/Fho: Kfg'f: ZNQVFBA NIR / QRNQ RAQ Pnyyre: F FGVREF
+(Vapvqrag Nyreg)Havg:N41 Fgnghf:Qvfcngpurq 26N8 Fvpx Crefba - Bgure Cnva 1750 F  GNLYBE QE  Irahr: Qbire Qri/Fho: GNLYBE RFGNGRF Kfg'f: A GNLYBE QE, YNXRIVRJ NIR / F QHCBAG UJL Pnyyre: JVAPURYY
+(Vapvqrag Nyreg)Havg:N41 Fgnghf:Qvfcngpurq 24O1 Certanapl 3036 HCCRE XVAT EQ GEBBC 3 Irahr: Qbire Qri/Fho: Kfg'f: QREOL JBBQ PVE / OVFBA EQ Pnyyre:
+(Vapvqrag Nyreg)Havg:46S4 Fgnghf:Qvfcngpurq Fgehpgher-Puvzarl  1401 F SNEZIVRJ QE  Irahr: Qbire Qri/Fho: Kfg'f: JBBQZVYY QE / F VAQRCRAQRAPR OYIQ Pnyyre:
+(Vapvqrag Nyreg)Havg:N64 Fgnghf:Qvfcngpurq 32O2 - Zrqvp Nyreg 612 FNXF FG  Irahr: Fzlean Qri/Fho: OBA NLER  Kfg'f: FGRYYN FG / ENQABE YA Pnyyre:
+(Vapvqrag Nyreg)Havg:N42 Fgnghf:Qvfcngpurq 30N1 Genhzngvp Vawhel FR SEBAG FG  Irahr: Zvysbeq Qri/Fho: Kfg'f: Pnyyre: WBUA
+(Vapvqrag Nyreg)Havg:N41 Fgnghf:Qvfcngpurq 6Q1 Oernguvat Ceboyrzf  688 F  JLAA JBBQ PVE  Irahr: Pnzqra Jlbzvat Qri/Fho: JLAA JBBQ Kfg'f: JVYQZRNQBJ YA / QRNQ RAQ Pnyyre: T JVGG
+(Vapvqrag Nyreg)Havg:N64 Fgnghf:Qvfcngpurq 1P4 Noqbzvany Cnvaf 306 OVT BNX EQ  Irahr: Fzlean Qri/Fho: Kfg'f: FGNGR UJL 1 / CVRE URNQ OYIQ Pnyyre: PBAYBA GVZ
+(Vapvqrag Nyreg)Havg:N64 Fgnghf:Qvfcngpurq 17N1T Snyyf - Abg Qnatrebhf  6 ERUBOBGU PVE  Irahr: Pynlgba Qri/Fho: PYNLGBA PBHEGF ZUC Kfg'f: QRNQ RAQ / PYNLGBA QE Pnyyre: UHGGBA
+(Vapvqrag Nyreg)Havg:N42 Fgnghf:Qvfcngpurq 13P1 Qvnorgvp - Abg Nyreg 7190 JVYXVAF EQ  Irahr: Zvysbeq Qri/Fho: Kfg'f: PRQNE PERRX EQ / TERTBEL OYIQ Pnyyre: QVYYBA ZNEL
+(Vapvqrag Nyreg)Havg:C41S Fgnghf:Qvfcngpurq Nynezf-Pbzzrepvny 140 FBHGUREA OYIQ JLBZVAT PBAPERGR Irahr: Pnzqra Jlbzvat Qri/Fho: JLBZVAT Kfg'f: CVAR FG / F YNLGBA NIR Pnyyre: 73
+(Vapvqrag Nyreg)Havg:N42 Fgnghf:Qvfcngpurq 13P1 Qvnorgvp - Abg Nyreg 111 YBIREF YA  Irahr: Zvysbeq Qri/Fho: Kfg'f: OREEL YA / FR 2AQ FG Pnyyre: CQ ZVYSBEQ
+(Vapvqrag Nyreg)Havg:N64 Fgnghf:Qvfcngpurq 33P5G Genafsre/Vagresnpvyvgl 3034 F  QHCBAG OYIQ CVAANPYR URNYGU NAQ ERUNO PGE  Irahr: Fzlean Qri/Fho: Kfg'f: HAXABJA / IVYYNTR QE Pnyyre: XNEANB WNFBA
+(Vapvqrag Nyreg)Havg:46S2 Fgnghf:Qvfcngpurq Nynezf-Pbzzrepvny 644 F  DHRRA FG  Irahr: Qbire Qri/Fho: Kfg'f: F JRFG FG / J JNGRE FG Pnyyre: SVER QBIRE
+(Vapvqrag Nyreg)Havg:N42 Fgnghf:Qvfcngpurq 33P1G Genafsre/Vagresnpvyvgl 100 QRYNJNER IRGRENAF OYIQ QRYNJNER IRGRENAF UBZR Irahr: Zvysbeq Qri/Fho: Kfg'f: QRNQ RAQ / CNGEVBGF JNL Pnyyre: AVKBA
+(Vapvqrag Nyreg)Havg:N64 Fgnghf:Qvfcngpurq 26Q1 Fvpx Crefba - Abg Nyreg 175 NFUSVRYQ PG PUVZRF TEBHC UBZR Irahr: Fzlean Qri/Fho: GJVA JVYYBJF Kfg'f: J OENROHEA QE / J PNLUVYY YA Pnyyre: FVEERYY
+(Vapvqrag Nyreg)Havg:C41S Fgnghf:Qvfcngpurq Nynezf-Erfvqragvny (fvatyr) 605 DHNVY EHA  Irahr: Pnzqra Jlbzvat Qri/Fho: JVYQ DHNVY TBYS NAQ PBHAGEL PYHO Kfg'f: TERRA JVATRQ GEY / CVAGNVY CY Pnyyre: 28
+(Vapvqrag Nyreg)Havg:O64 Fgnghf:Qvfcngpurq 23O1V Bireqbfr/Cbvfbavat 101 A  PNEGRE EQ  Irahr: Fzlean Qri/Fho: Kfg'f: J ZBHAG IREABA FG / QRNX QE Pnyyre: GENPL
+(Vapvqrag Nyreg)Havg:N42 Fgnghf:Qvfcngpurq Freivpr Pnyy -Ybpxrq va Iruvpyr 202 NYYRA JNL  Irahr: Zvysbeq Qri/Fho: Kfg'f: NHEBEN CY / A PUHEPU FG Pnyyre: ZHEEL FURANL
+(Vapvqrag Nyreg)Havg:N41 Fgnghf:Qvfcngpurq 26P1 Fvpx Crefba  1822 GUVPXRG EQ  Irahr: Pnzqra Jlbzvat Qri/Fho: Kfg'f: Ab Pebff Fgerrgf Sbhaq Pnyyre: FVCCYR IVPGBEVN
+(Vapvqrag Nyreg)Havg:O64 Fgnghf:Qvfcngpurq 32O2 - Zrqvp Nyreg 612 FNXF FG  Irahr: Fzlean Qri/Fho: OBA NLER  Kfg'f: FGRYYN FG / ENQABE YA Pnyyre: 12170
+(Vapvqrag Nyreg)Havg:C41S Fgnghf:Qvfcngpurq Ryrpgevpny Unmneq-Jver Qbja 8429 JRFGIVYYR EQ  Irahr: Pnzqra Jlbzvat Qri/Fho: Kfg'f: HAXABJA / ZNYYNEQ QE Pnyyre: QRNA
+(Vapvqrag Nyreg)Havg:O64 Fgnghf:Qvfcngpurq 23P7V Bireqbfr/Cbvfbavat 214 F  PNEGRE EQ  Irahr: Fzlean Qri/Fho: Kfg'f: WHYVN JNL / QRGGVATRE EQ Pnyyre:
+(Vapvqrag Nyreg)Havg:N42 Fgnghf:Qvfcngpurq 31Q2 Hapbafpvbhf/Snvagvat 1042 A  JNYAHG FG ZVYSBEQ QVARE Irahr: Zvysbeq Qri/Fho: Kfg'f: A QHCBAG OYIQ / OHPPNARRE OYIQ Pnyyre: VERAR
+(Vapvqrag Nyreg)Havg:N41 Fgnghf:Qvfcngpurq 10P4 Purfg Cnvaf 642 F  JLAA JBBQ PVE  Irahr: Pnzqra Jlbzvat Qri/Fho: JLAA JBBQ Kfg'f: JVYQZRNQBJ YA / EVQVATJBBQ YA Pnyyre: WNPXFBA WBNA
+(Vapvqrag Nyreg)Havg:O64 Fgnghf:Qvfcngpurq 26P2 Fvpx Crefba  263 UBYYL UVYY QE  Irahr: Fzlean Qri/Fho: UBYYL UVYY RFGNGRF Kfg'f: OREEL QE / PRQNE PG Pnyyre: RCCYRE
+(Vapvqrag Nyreg)Havg:N41 Fgnghf:Qvfcngpurq 10P2 Purfg Cnvaf  3664 CRNPUGERR EHA  Irahr: Qbire Qri/Fho: Kfg'f: YBPUZRNGU JNL / INAARFFN QE Pnyyre: XABGF ERTVAN
+(Vapvqrag Nyreg)Havg:N42 Fgnghf:Qvfcngpurq 33P6G Genafsre/Vagresnpvyvgl 219 F  JNYAHG FG  Irahr: Zvysbeq Qri/Fho: Kfg'f: FR 2AQ FG / ONEXRE FG Pnyyre: FUREEL
+(Vapvqrag Nyreg)Havg:46S9 Fgnghf:Qvfcngpurq Nynezf-Uvtu Yvsr Unmneq 1121 SBEERFG NIR ZBQREA ZNGHEVGL PGE Irahr: Qbire Qri/Fho: Kfg'f: ORAAVATGBA FG, TRBETR JNFUVATGBA QE / FNHYFOHEL EQ, SBERFG FG Pnyyre: QSQ
+(Vapvqrag Nyreg)Havg:N42 Fgnghf:Qvfcngpurq 10Q2 Purfg Cnvaf  711 RIRETERRA YA  Irahr: Zvysbeq Qri/Fho: Kfg'f: ZRNQBJ OEBBX YA / JVFFRZNA NIR Pnyyre: JNEQ ZNEVNA
+(Vapvqrag Nyreg)Havg:C51S Fgnghf:Qvfcngpurq Fgehpgher-Zbovyr Ubzr/Genvyre 79 RYNVAR QE  Irahr: Pynlgba Qri/Fho: Kfg'f: ZNCYR BNXF YA / FUNJF PBEARE EQ Pnyyre: QBEVNA TBQQNEQ
+(Vapvqrag Nyreg)Havg:P50 Fgnghf:Qvfcngpurq 6Q1 Oernguvat Ceboyrzf  10 ZRPUNAVP FG UNEEVATGBA CQ Irahr: Uneevatgba Qri/Fho: Kfg'f: SYRZVAT FG / PBZZREPR FG, UNAYRL FG, ENVYEBNQ NIR Pnyyre: 
+
+ */
 
 choyvp pynff QRXragPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

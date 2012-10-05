@@ -198,6 +198,7 @@ choyvp pynff NYPbyoregPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:2563594739",
         "ANZR:ARYVN FGNSSBEQ",
         "NQQE:445 ABEGU CXR",
+        "ZNQQE:445 ABEGU CVXR",
         "PVGL:PUREBXRR",
         "VASB:NPEBFF GUR FGERRG SEBZ PNYYRE");
 
@@ -206,6 +207,7 @@ choyvp pynff NYPbyoregPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIP / P VAWHEVRF",
         "CUBAR:2564128754",
         "NQQE:1080 ABEGU CXR",
+        "ZNQQE:1080 ABEGU CVXR",
         "PVGL:PUREBXRR");
 
     qbGrfg("G7",
@@ -333,6 +335,7 @@ choyvp pynff NYPbyoregPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:URZBEEUNTR/YNPRENGVBA",
         "ANZR:ZEF ZVYQERQ CHTU",
         "NQQE:2480 JUVGR CXR",
+        "ZNQQE:2480 JUVGR CVXR",
         "PVGL:PUREBXRR",
         "VASB:67Z");
 

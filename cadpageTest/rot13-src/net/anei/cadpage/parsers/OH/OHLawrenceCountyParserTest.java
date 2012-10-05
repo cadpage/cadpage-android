@@ -29,6 +29,7 @@ choyvp pynff BUYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:121",
         "PNYY:R 29",
         "NQQE:943 ZNEVBA CXR",
+        "ZNQQE:943 ZNEVBA CVXR",
         "PVGL:PBNY TEBIR",
         "VASB:Rknzcyr bs n pnyy sebz n nqqerff vafvqr n zhav pvcnyvgl.");
 

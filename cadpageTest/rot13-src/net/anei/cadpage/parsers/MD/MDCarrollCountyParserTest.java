@@ -331,6 +331,7 @@ choyvp pynff ZQPneebyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:IP",
         "OBK:0261",
         "NQQE:EG 30 OLC & UNABIRE CXR & FBH",
+        "ZNQQE:EG 30 OLC & UNABIRE CVXR & FBH",
         "PVGL:UNZCFGRNQ",
         "HAVG:K29 OZ435 R23 OR432");
 
@@ -727,6 +728,7 @@ choyvp pynff ZQPneebyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:CN",
         "OBK:0906",
         "NQQE:3232 BYQ JRFGZVAFGRE CXR",
+        "ZNQQE:3232 BYQ JRFGZVAFGRE CVXR",
         "PVGL:SVAXFOHET",
         "HAVG:K99");
   }

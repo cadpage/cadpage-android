@@ -119,6 +119,7 @@ choyvp pynff CNQrynjnerPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:20:40",
         "PNYY:SVER-OYQ - OHVYQVAT SVER, PBZZREPVNY OYQT",
         "NQQE:734 PURFGRE CXR",
+        "ZNQQE:734 PURFGRE CVXR",
         "K:CRAAFLYINAVN NI & ANFFNH OYIQ",
         "VASB:RAT08/021/027/FA08/ER08/076/07 / -075.305228 +039.883204");
 
