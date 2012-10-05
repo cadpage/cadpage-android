@@ -1,36 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">09272012</string>
+  <string name="release_date">10052012</string>
   <string name="release_version">v1.5.60</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
+Several new location and parsing fix requests did not make it into this release.
+I am planning another release this weekend to try and catch up on them.\n
+\n
+General Fixes:\n
+Fixed broken disclaimer setting link\n
+Fixed maping problem find COUNTY HWY nnn\n
+Fixed force close security exception\n
+\n
 New Locations:\n
-Nassau County, NY (alt)\n
-Grahm County, NC\n
-Pierce County, WA (alt)\n
-Mississauga, ON, CA\n
+OrovilleCounty, CA\n
 \n
 Location Parsing Fixes:\n
-Shelby County, AL\n
-Middlesex County, CT\n
-Waterford Town, CT\n
-Oldham County, KY\n
-Frederick County, MD\n
-Eaton County, MI\n
+Ventura County, CA\n
+Adams County, CO\n
+Carroll County, MD\n
+Frederick County,MD\n
+Livingston County, MI\n
+Minneapolis/St Paul, MN\n
+Gloucester County, NJ\n
+Ocean County, NJ\n
+Somerset County, NJ\n
 Brunswick County, NC\n
 Buncombe County, NC\n
-Washington County, OR\n
-Butler County, PA\n
-Dauphin County, PA\n
-Lancaster County, PA\n
-Lincoln County, SD\n
-League City, TX\n
-Nassau Bay, TX\n
-Eau Clair, WI\n
+Union County, NC\n
+Graham County, NC\n
+Delaware County, PA\n
+Mercer County, PA\n
+Oconee County, SC\n
+Collin County, TX\n
+Montgomery County, TX\n
+Prince William County, VA\n
 \n
-Minneapolis/St Paul remaned from Bloomington, MN\n
   </string>  
 </resources>
   

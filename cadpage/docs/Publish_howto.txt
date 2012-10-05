@@ -31,6 +31,7 @@ Publishing a Cadpage Beta release
 Publishing a regular Cadpage release
 
 * Publish a Cadpage Parser update if you haven not done so already
+* Upload a backup copy of the previous Android apk
 * Update the release version numbers in AndroidManifest.xml
 * Open current issues and display all with a status of "Beta"
 * open res/values/release_info.xml
