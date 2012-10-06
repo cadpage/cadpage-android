@@ -9,39 +9,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Windham County, CT (Quinebaug Valley Emergency Communications)
-Contact: Jeffrey Bellavance <jcb294@gmail.com>
-Sender: qvecpaging@qvec.org
 
-(Moosup FD Page) STA94 STA594 MOOS1  UHF-4 PRI 1 person fallen Medical Alarm 1 SARA LN / Moosup (X-STS HIGH ST / DEAD END ) 07:31
-(Moosup FD Page) STA94 STA594 MOOS1  33.88 PRI 1 Sick Person 109 WHIP POOR WILL DR / Moosup (X-STS ) 10:57
-(Moosup FD Page) STA94 STA594 MOOS1  UHF-4 PRI 1 Sick Person BARBER HILL RD / N  MAIN ST Moosup (X-STS ) 17:35
-(Moosup FD Page) STA94 94OFF  33.90 Vehicle Fire I 395 SOUTH SOUTH OF REST AREA / Moosup (X-STS ) 14:24
-(Moosup FD Page) STA94  UHF-4 Wire Down Starting a Small Grass Fire / Tree/Wires Down 201 STARKWEATHER RD / Moosup (X-STS GROVE ST  STERLING HILL RD / PLAINFIELD
-(Moosup FD Page) STA94  33.88 Please Operate 33.88/  Lift Assist 2 N  POTVIN AVE / Moosup (X-STS DAGGETT ST / POTVIN AVE ) 11:34
-(Moosup FD Page) STA94  33.76 OUT BUILDING SMOLDERING Outside/Unknown Fire 399 SNAKE MEADOW RD / SNAKE MEADOW CLUB Moosup (X-STS OLEAROS HILL RD / DEMERS RD )
-(Moosup FD Page) STA94  UHF-4 Alarm Reset / Smoke from Cooking /  Fire Alarm 25 SUNNY ACRES / Moosup (X-STS DAGGETT ST / DEAD END ) 10:19
-(Moosup FD Page) STA94  33.90 PRI 1 ROLL OVER / STA94 MANPOWER REQUESTED / Vehicle Accident I 395 S / EXIT 88 / Plainfield (X-STS ) 11:27
-(Moosup FD Page) QVMedic STA94 STA594 MOOS1  UHF-4 PRI 1 PARTIAL AIR WAS OBSTRUCTIONS / Choking/Airway Problem 67 S MAIN ST / Moosup (X-STS VOSSLER DR / WARD LN
-(Moosup FD Page) STA94 STA594 MOOS2  UHF-4 PRI 1 MOOS AMB 2ND CREW / Vehicle Accident SNAKE MEADOW RD / VALLEY VIEW RD / Moosup (X-STS ) 22:10
-
-Contact: Joshua Maloney <josh.d.maloney@gmail.com>
-Contact: "chieflapierre@sbcglobal.net" <chieflapierre@sbcglobal.net>
-STA97 STA594 MOOS2  UHF-4 PRI 1 2ND CREW NEEDED Cardiac Distress 30 PICKETT RD / Central Village (X-STS TEX
-Subject:Central Village FD Page\nSTA97 STA594 MOOS2  UHF-4 PRI 1 MOOS AMB 2ND CREW NEEDED / Injured Person 80 S CADY LN / CENTRAL CYCLE TRAC
-
-Contact: David Silva <david.silva92@yahoo.com>
-1 of 2\nFRM:messaging@iamresponding.com\nSUBJ:K.B. Ambulance\nMSG:RES65  KB2  UHF-2 PRI 1 KB SECOND CREW / POLICE ENROUTE /  Cardiac/Respiratory\n(Con't) 2 of 2\nArrest 36 SAW MILL HILL RD / Killingly (X-STS TILLINGHAST RD / PROVIDENCE PIKE  BAILEY HILL RD ) 07:11¿\n(End)
-
-Contact: Larry Loomis <larry.loomis.jr@gmail.com>
-.... (Moosup Fire) STA94 STA594 MOOS1  UHF-4 PRI 1 Down an enbankment Vehicle Accident MARY AVE / TOM AVE Moosup (X-STS ) 21:59
-.... (Moosup Fire) STA94 STA594 MOOS2  UHF-4 PRI 1 Injured Person 47 PROSPECT ST / PARKING LOT Moosup (X-STS RAILROAD AVE / ALLEN ST ) 18:25
-.... (Moosup Fire) STA94 STA594 MOOS2  UHF-4 PRI 1 Moos Amb. 2nd Crew needed /  Sick Person 29 SUNNY ACRES / Moosup (X-STS DEAD END / DAGGETT ST ) 12:34
-.... (Moosup Fire) STA94  33.88 PRI 1 STA94 for R1 Personnel to Plainfield/  Fall Injury 796 NORWICH RD / MC DONALDS Plainfield (X-STS LATHROP RD EXT / OLD NORWICH RD ) 13:52
-.... (Moosup Fire) STA94  UHF-4 OPER UHF PLEASE Fire Alarm 19 SUNNY ACRES / Moosup (X-STS DAGGETT ST / DEAD END ) 11:56
-
-*/
 
 public class CTWindhamCountyParser extends SmartAddressParser {
   

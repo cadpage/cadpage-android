@@ -9,23 +9,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Trumbull, CT
-Contact: Jeffrey Forde <jforde@trumbullvfc.com>
-
-LH/TC/N FC2 AREA OF 82 CANOE BROOK RD  DIVE TEAM TO ASSIST PD WITH MISSING PERSON
-TC FC1 IFO 271 PUTTING GREEN RD TREE LIMB ON WIRES 102 WILL HANDLE CALL W/ CREW THAT IS IN QUARTERS
-TC FC1 91 MOOSE HILL RD 2-3 FEET WATER IN BASEMENT
-LH/TC FC1 5065 MAIN ST WST ASSEMBLY OF ENGINE STRIKE TEAM 7122B PER REQUEST BPT 1 ENGINE FROM LH 1 ENGINE FROM TC
-TC FC2 72 STROBEL RD TRUM HIGH SCHOOL F/A
-TC FC1 43 HAWTHORNE RIDGE CL F/A
-
-Station codes
-Trumbull Center = TC
-Long Hill = LH
-Nichols = N
-
-*/
 
 public class CTTrumbullParser extends SmartAddressParser {
   

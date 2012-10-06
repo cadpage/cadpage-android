@@ -6,52 +6,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Tolland County, CT
-Contact: Tabby Muniz <tabbymuniz@ymail.com>
-Contact: leanne buden <lbuden38@gmail.com>
-Sender: TN@TollandCounty911.org
 
-(TN Alert) 10 COTTAGE ST / UNIT D Vernon ALS Difficulty Breathing 21:14 Cross Street ST BERNARDS TER / SCHOOL ST 2011-00001770
-[TN Alert]  DOBSON RD / CAMPBELL AVE Vernon Vehicle Accident 2ND AMB  12:59 Cross Street 2011-00001773
-[TN Alert]  32 FRANKLIN PARK E / Vernon ALS DIFF BREATHING 09:07 Cross Street DEAD END / FRANKLIN ST 2011-00001772
-[TN Alert]  140 WINDSORVILLE RD / Vernon BLS back pain 02:21 Cross Street PENFIELD AVE / SEPTIC TREATMENT PLANT 2011-00001771
-[TN Alert]  DOBSON RD / CAMPBELL AVE Vernon Vehicle Accident 12:59 Cross Street 2011-00001773
-[TN Alert]  95 HARTFORD TPKE / Vernon * Golf Land Vehicle Accident MINOR INJURIES - EVALUATION
-[TN Alert]  67 BLUE RIDGE DR / Vernon Tree/Wires Down 14:38 Cross Street HICKORY HL / AUTUMN WOOD LN 2011-00001775
-(TN Alert) 155 W   MAIN ST 317 / Vernon ALS DIFFICULTY BREATHING 14:03 Cross Street ORCHARD ST, SPRING ST / WARD ST 2011-00001981
-(TN Alert) 36 GARDNER ST / Warehouse Point Fire Alarm 17:11 Cross Street PLEASANT ST / BRIDGE ST 2011-00000190
-(TN Alert) 69 BROOKLYN ST / (CLERKS OFC) Vernon BLS SICK- ELDERLY FEMALE  13:20 Cross Street COURT ST / VERNON AVE 2011-00002812
-(TN Alert) 34 CAMPBELL AVE / Vernon ALS abdominal pain 01:29 Cross Street DEAD END / DOBSON RD 2012-00001475
-[TN Alert] 10 PITKIN RD / Vernon Smoke/Odor Investigation STOP AND SHOP 12:07 Cross Street STOP AND SHOP PLAZA / DOBSON RD 2012-00001471 
-
-Contact: Jason Carlton <jcarlton19@gmail.com>
-(TN Alert) 29 BRACE RD / Somers ALS ARM INJURY, BLEEDING 22:42 Cross Street GEORGE WOOD RD / HALL HILL RD 2011-00000821
-(TN Alert) 69 COLTON RD / Somers ALS ? CVA 18:34 Cross Street PARSONS ST / SOKOL RD 2011-00000820
-
-Contact: R R <rlandry0769@gmail.com>
-(TN Alert) 234 JAMES RD / Ashford BLS Fall 15:25 Cross Street HORSE HILL RD / WESTFORD RD 2011-00001969
-
-Contact: Stuart Cobb <scobb213@gmail.com>
-(TN Alert) 140 RIVER RD / Willington * Lyon Manor BLS Commital 06:29 Cross Street DEPOT RD / VILLAGE ST 2011-00000860
-
-Contact: Peter Krawetzky <pkrawetzky@gmail.com>
-Sender: north-coventry@tollandcounty911.com
-(TN Alert) 957 N  RIVER RD / Coventry ALS DIFF BREATHING 17:59 Cross Street MERROW RD / GOOSE LN 2012-00000183
-
-Contact: "Grant Genlot" <grant.videography@gmail.com>
-[05/13/2012 10:35] tn@tollandcounty911.com:  TN Alert / TOLLAND COUNTY DIVERS SERVICE CALL: IF AVAILABLE MEET AT STATION 8 AT 1300.
-[05/13/2012 11:28] tn@tollandcounty911.com:  TN Alert / NO DIVE IN COVENTRY TODAY. REPEAT DIVE CANCELLED!
-
-Contact: Peter Krawetzky <pkrawetzky@gmail.com>
-Sender: Administrator@tollandcounty911.com
-(TN Alert) 664 SILVER ST / APT B Coventry ALS SICK/ALT.MENT.STAT. 18:38 Cross Street LOVE LN / SOUTH ST 2012-00000205
-
-Contact: Bernard Hoffman <bernardhoffman@gmail.com>
-Sender: Administrator@tollandcounty911.com
-(TN Alert) 573 CRYSTAL LAKE RD / Tolland Vehicle Accident CAR VS TREE, ? DOA 03:26 Cross Street WEBBER RD / ROLLING MEADOW DR, WILLOW CREEK DR 20
-
-*/
 
 public class CTTollandCountyParser extends SmartAddressParser {
   

@@ -3,6 +3,19 @@ cnpxntr arg.narv.pnqcntr.cnefref.PG;
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
+/*
+Arj Ybaqba Pbhagl, PG
+Pbagnpg: Xriva ZpZnahf <xznpvapg@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz,911@xk911.pbz
+
+PBYPURFGRE\ 25 IVYYNTR PG\ \@  NZFGBA EQ\ SNVAGVAT BE HAPBAP. CREF\ IBTRY,UREOREG U \  ** 12-6474  \ 11:42 ** ZncVg:  25  IVYYNTR PG, PBYPURFGRE , PG ( HAPBAFPVBHF )
+PBYPURFGRE\ 15 BYQ UNEGSBEQ EQ\ \@  JNYY FG\ QVSSVPHYGL OERNGUVAT\ FGNGR CBYVPR GEBBC X - YBOOL \  ** 12-6456  \ 05:21 ** ZncVg:  15  BYQ UNEGSBEQ EQ, PBYPURFGRE , PG
+PBYPURFGRE\  EBHGR 2 JRFG \ \@  \ Z/I NPPVQRAG\ nern bs rkvg 18 \  ** 12-6481  \ 12:30 ** ZncVg:    EBHGR 2 JRFG , PBYPURFGRE , PG ( EBYYBIRE. )
+PBYPURFGRE\ 13 UHAGREF PG\ \@  ZRYNAVR YA\ QVSSVPHYGL OERNGUVAT\ SBEGVA,I \ ** 12-6400  \ 23:17 ** ZncVg:  13  UHAGREF PG, PBYPURFGRE , PG ( 40F ZNYR - NGGA T YNXR E2 ZHGHNY NVQ )
+PBYPURFGRE\ 27 IVPXV YA\ \@  BYQ UROEBA EQ\ NYYRET. ERNPG\ PVAPVEVCVAB,WRSSERL \  ** 12-6342  \ 00:32 ** ZncVg:  27  IVPXV YA, PBYPURFGRE , PG ( 27 ZNYR ERNPGVBA GB ZRQVPNGVBA )
+PBYPURFGRE\ 64 ONYNONA EQ\ 505\@  TVYYRGGRF YA\ FVPX CREFBA\ FGNCYRF,NEGUHE W \  ** 12-6360  \ 10:13 ** ZncVg:  64  ONYNONA EQ, PBYPURFGRE , PG
+
+*/
 
 
 choyvp pynff PGPbypurfgreRzretPbzzCnefreGrfg rkgraqf OnfrCnefreGrfg {

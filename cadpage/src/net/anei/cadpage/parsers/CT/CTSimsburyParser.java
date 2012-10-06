@@ -6,29 +6,7 @@ import java.util.Properties;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Simsbury, CT
-Contact: Andrew Gaines <againes128@gmail.com>
-System: Inforad
-From: 93001001 - 93001050
 
-8 ROSWELL RD Suite: 1 TYPE:SF new oven making noises smells like burning rubber
-530 BUSHY HILL RD Suite: 03 TYPE:FA
-235 FARMS VILLAGE RD TYPE:VA 2 CAR MVA WITH FLUIDS
-BUSHY HILL RD&OVERLOOK TER TYPE:VR. REPORTED PARTY ENTRAPT
-57 WEST MOUNTAIN RD TYPE:VA CAR OFF ROAD INTO TREE. POLICE ON SCENE REQ FD
-7 WHITNEY LA TYPE:SA smell of smoke in area - can see "film" in air
-HOPMEADOW ST&WOODLAND ST TYPE:PA Truck hit telephone pole south of Woodland Street across from DB breaking the guide wire. Police re quest FD check pole.
-4 BROOK RIDGE TYPE:FA CALLED IN BY ALARM COMPANY
-12 CRANE PL TYPE:LS life star, end of cul de sac
-BUSHY HILL RD&ALBANY TNPK TYPE:VR mva rollover w/extrication
-
-Contact: Levi Lilly <l.lilly410@gmail.com>
-Sender: 6245
-11 FOREST LA TYPE:FA fire alarm 
-77 WEST ST TYPE:FA Fire Alarm
-
-*/
 
 public class CTSimsburyParser extends FieldProgramParser {
   

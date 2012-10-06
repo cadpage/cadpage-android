@@ -4,6 +4,29 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Fvzfohel, PG
+Pbagnpg: Naqerj Tnvarf <ntnvarf128@tznvy.pbz>
+Flfgrz: Vasbenq
+Sebz: 93001001 - 93001050
+
+8 EBFJRYY EQ Fhvgr: 1 GLCR:FS arj bira znxvat abvfrf fzryyf yvxr oheavat ehoore
+530 OHFUL UVYY EQ Fhvgr: 03 GLCR:SN
+235 SNEZF IVYYNTR EQ GLCR:IN 2 PNE ZIN JVGU SYHVQF
+OHFUL UVYY EQ&BIREYBBX GRE GLCR:IE. ERCBEGRQ CNEGL RAGENCG
+57 JRFG ZBHAGNVA EQ GLCR:IN PNE BSS EBNQ VAGB GERR. CBYVPR BA FPRAR ERD SQ
+7 JUVGARL YN GLCR:FN fzryy bs fzbxr va nern - pna frr "svyz" va nve
+UBCZRNQBJ FG&JBBQYNAQ FG GLCR:CN Gehpx uvg gryrcubar cbyr fbhgu bs Jbbqynaq Fgerrg npebff sebz QO oernxvat gur thvqr jver. Cbyvpr er dhrfg SQ purpx cbyr.
+4 OEBBX EVQTR GLCR:SN PNYYRQ VA OL NYNEZ PBZCNAL
+12 PENAR CY GLCR:YF yvsr fgne, raq bs phy qr fnp
+OHFUL UVYY EQ&NYONAL GACX GLCR:IE zin ebyybire j/rkgevpngvba
+
+Pbagnpg: Yriv Yvyyl <y.yvyyl410@tznvy.pbz>
+Fraqre: 6245
+11 SBERFG YN GLCR:SN sver nynez 
+77 JRFG FG GLCR:SN Sver Nynez
+
+*/
 
 choyvp pynff PGFvzfohelCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

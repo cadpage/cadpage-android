@@ -80,7 +80,7 @@ sequence to send us an email with the correct email account we need to register.
 Your Payment status should change when you load the next Cadpage version. 
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-QDCZBSBA or qdczbsba.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
+FGFLNBBA or fgflnbba.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -89,7 +89,7 @@ Jean -- Assistant to Ken Corbin
 
 Thanks!  We received your PayPal payment.
 
-You've been added to a paid subscriber list that is distributed with the app.  To update your payment status 
+You have been added to a paid subscriber list that is distributed with the app.  To update your payment status 
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
 Thanks so much for your support,
@@ -100,7 +100,7 @@ Jean -- Assistant to Ken Corbin
 These have all been added to a paid subscriber list that is distributed with the app.  They can update their payment status as follows...
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
-If this doesn't work, it probably means we got a phone number wrong.  In that case, they should go into Cadpage settings and press Payment Status, then I've made a PayPal payment, to send us an email.
+If this does not work, it probably means we got a phone number wrong.  In that case, they should go into Cadpage settings and press Payment Status, then I've made a PayPal payment, to send us an email.
 
 Thanks for your support,
 -Ken
@@ -120,11 +120,11 @@ Jean, Assistant to Ken Corbin
 
 Thanks for considering the purchase of a Cadpage subscription!
 
-The usual, and preferred method of purchasing a Cadpage Subscription is through the Google Play Store.  You do this by going into the Cadpage Settings and pressing
+The usual, and preferred method of purchasing a Cadpage subscription is through the Google Play Store.  You do this by going into the Cadpage Settings and pressing
 Payment Status > Purchase through Android Market.
 Purchases made this way will update your payment status almost immediately.
 
-If that doesn't work, the web page at 
+If that does not work, the web page at 
 http://www.cadpage.org/financial-support/paypal-payments
 has  instructions on how to make PayPal or Snail Mail payments
 
@@ -137,7 +137,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address so I can make sure you get credit for it.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-QDCZBSBA or qdczbsba.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
+FGFLNBBA or fgflnbba.    It is a time-sensitive code, and will expire within about 48 hours.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -150,7 +150,7 @@ It may not be necessary to locate that payment.  Go to Cadpage Settings and sele
 Payment Status > Recalculate Payment Status
 That will attempt to reload your payment status from information maintained on the Play Store or PayPal servers.  
 
-If that doesn't work, try logging in to wallet.google.com or paypal.com.  From there you should be able to look up your Cadpage purchase and send us the date, time and transaction ID, and whether it was PayPal or Play Store.
+If that does not work, try logging in to wallet.google.com or paypal.com.  From there you should be able to look up your Cadpage purchase and send us the date, time and transaction ID, and whether it was PayPal or Play Store.
 
 We are very grateful for all contributions and apologize for any complications,
 
@@ -183,7 +183,7 @@ Cadpage is free for direct paging users because CodeMessaging gives us some of t
 This should only take a few seconds.  But just in case it does not...
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-QDCZBSBA or qdczbsba.  It is a time-sensitive code and will expire by midnight, ___.  Once you use it, it will be good for about 30 days.
+FGFLNBBA or fgflnbba.  It is a time-sensitive code and will expire by midnight, ___.  Once you use it, it will be good for about 30 days.
 
 Have a nice day,
 Jean -- Assistant to Ken Corbin
@@ -196,9 +196,9 @@ I found your Google Play Store payment record as of ______.
 
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status, This reloads your payment status from the market which will usually fix things.
 
-If it doesn't you should double check that you have the same Google Play Store account that you did on the previous phone.  Open the Play Store app, press menu, then accounts to view and possibly change your market account, then try the reload payment status again.
+If it does not work, please check that you have the same Google Play Store account that you did on the previous phone.  Open the Play Store app, press Menu, then Accounts to view and possibly change your market account. Then try the Recalculate Payment Status again.
 
-If that fails, contact us again. If you have changed your email address, that may be the issue. Our information from Play Store is limited.
+If that fails, please contact us again. If you have changed your email address, that may be the issue. Our information from Play Store is limited.
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -235,7 +235,7 @@ Sometimes you can log into to wallet.google.com and see if they list a reason wh
 We also take PayPal & snail mail payments, but it is a bit of a hassle, so we don't encourage it.  Details on how to do that can be found at http://www.cadpage.org/financial-support/paypal-payments
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-QDCZBSBA or qdczbsba.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+FGFLNBBA or fgflnbba.  It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -249,7 +249,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-QDCZBSBA or qdczbsba.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+FGFLNBBA or fgflnbba.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -259,7 +259,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-QDCZBSBA or qdczbsba.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
+FGFLNBBA or fgflnbba.   It is a time-sensitive code and will expire in about 48 hours.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -532,7 +532,9 @@ Good luck,
 ******************************************************************
 *** For NEW messages:
 
-Cadpage will not do anything with your current settings...
+Cadpage will not do anything with your current settings.
+
+The intended purpose of Cadpage is to support emergency responders who get text pages from a central dispatch center when they are asked to respond to an emergency.  Cadpage takes those pages, displays the information from them, and gives the user the option to bring up a Google map showing the location of the incident.Then they can ask for directions to that location.
 
 First, make sure you are getting text pages sent to your phone when a call is toned out.  If you are not, talk to someone in your department about getting that set up.
 
@@ -540,7 +542,7 @@ Next, go into the Cadpage location settings, select a single location, and then 
 
 If not, please let us know if you would like the details of setting up a new location.
 
-In the meantime, try using the general location setting and set the From: filter to whoever appears in the From: field of your page text messages.  That will usually give you some degree of functionality while you are waiting for full location support. 
+In the meantime, try using the general location setting.  Set the From: filter to whoever appears in the From: field of your page text messages.  That will usually give you some degree of functionality while you are waiting for full location support. 
 
 Good luck,
 Jean, Assistant to Ken Corbin

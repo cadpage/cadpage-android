@@ -4,6 +4,23 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Gehzohyy, PG
+Pbagnpg: Wrsserl Sbeqr <wsbeqr@gehzohyyisp.pbz>
+
+YU/GP/A SP2 NERN BS 82 PNABR OEBBX EQ  QVIR GRNZ GB NFFVFG CQ JVGU ZVFFVAT CREFBA
+GP SP1 VSB 271 CHGGVAT TERRA EQ GERR YVZO BA JVERF 102 JVYY UNAQYR PNYY J/ PERJ GUNG VF VA DHNEGREF
+GP SP1 91 ZBBFR UVYY EQ 2-3 SRRG JNGRE VA ONFRZRAG
+YU/GP SP1 5065 ZNVA FG JFG NFFRZOYL BS RATVAR FGEVXR GRNZ 7122O CRE ERDHRFG OCG 1 RATVAR SEBZ YU 1 RATVAR SEBZ GP
+GP SP2 72 FGEBORY EQ GEHZ UVTU FPUBBY S/N
+GP SP1 43 UNJGUBEAR EVQTR PY S/N
+
+Fgngvba pbqrf
+Gehzohyy Pragre = GP
+Ybat Uvyy = YU
+Avpubyf = A
+
+*/
 
 choyvp pynff PGGehzohyyCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
