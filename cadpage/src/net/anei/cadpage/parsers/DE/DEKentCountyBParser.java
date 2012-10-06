@@ -52,6 +52,7 @@ public class DEKentCountyBParser extends DispatchAegisParser {
   }
   
   // Address field may have comma delimited city name
+  private static final Pattern ADDRESS_CITY_DELIM = Pattern.compile(",|\\bVenue:");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -73,11 +74,11 @@ public class DEKentCountyBParser extends DispatchAegisParser {
       
       // See if there is a comma separating the city from the address
       // If there is, this is a confirmed address field
-      pt = field.lastIndexOf(',');
-      if (pt > 0) {
-        String city = field.substring(pt+1).trim();
+      Matcher  match = ADDRESS_CITY_DELIM.matcher(field);
+      if (match.find()) {
+        String city = field.substring(match.end()).trim();
         if (!CITY_SET.contains(city.toUpperCase())) return false;
-        field = field.substring(0,pt).trim();
+        field = field.substring(0,match.start()).trim();
         data.strCall = "";
         parseAddress(StartType.START_CALL, flags, field, data);
         data.strCall = append(prevCall, " - ", data.strCall);
