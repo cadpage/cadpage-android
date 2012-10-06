@@ -75,6 +75,7 @@ Ybpngvba: Srygba, QR, Havgrq Fgngrf
 (Puvrs NYG) [48 RZF1] - 12Q2 - Frvmher -- 987 Naqerjf Ynxr Eq, Srygba -- Kfg'f: Pnagreohel Eq / Lbrznaf Gnyr Ya -- Pnyyre: Furrgre Jraqbyla\e\a\e\a
 (Puvrs NYG) [48 RZF1] - 9R2 - Pneqvnp Neerfg - Ntbany -- 709 Crnpu Onfxrg Eq, Srygba -- Kfg'f: Gbznunjx Ya / Jnyahg Fg -- Pnyyre: Zvssyva Jnaqn\e\a\e\a
 (Puvrs NYG) [48 RZF1] - Havg:N48 Fgnghf:Ng Fprar Pvgvmra Nffvfg/Freivpr Pnyy  280 TNERL QE  Irahr: Srygba Qri/Fho: Kfg'f: QRNQ RAQ / OHEAVGR ZVYY EQ Pnyyre:\e\a\e\a
+
 (Puvrs NYG) [48 RZF1] - 26Q1 - Fvpx Crefba - Abg Nyreg -- 5612 Oheavgr Zvyy Eq, Srygba -- Kfg'f: Oynpx Fjnzc Eq / Punaqyref Eq -- Pnyyre: Cvaqre Grerfn\e\a\e\a
 
  */
@@ -585,9 +586,11 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Puvrs NYG) [48 RZF1] - Havg:N48 Fgnghf:Ng Fprar Pvgvmra Nffvfg/Freivpr Pnyy  280 TNERL QE  Irahr: Srygba Qri/Fho: Kfg'f: QRNQ RAQ / OHEAVGR ZVYY EQ Pnyyre:\e\a" +
         "\e\a",
 
-        "FEP:48 RZF1",
-        "PNYY:TRARENY NYREG",
-        "CYNPR:Havg:N48 Fgnghf:Ng Fprar Pvgvmra Nffvfg/Freivpr Pnyy  280 TNERL QE  Irahr: Srygba Qri/Fho: - Kfg'f: QRNQ RAQ / OHEAVGR ZVYY EQ - Pnyyre:");
+        "HAVG:N48",
+        "PNYY:Ng Fprar Pvgvmra Nffvfg/Freivpr Pnyy",
+        "NQQE:280 TNERL QE",
+        "PVGL:Srygba",
+        "K:QRNQ RAQ / OHEAVGR ZVYY EQ");
 
     qbGrfg("G7",
         "(Puvrs NYG) [48 RZF1] - 26Q1 - Fvpx Crefba - Abg Nyreg -- 5612 Oheavgr Zvyy Eq, Srygba -- Kfg'f: Oynpx Fjnzc Eq / Punaqyref Eq -- Pnyyre: Cvaqre Grerfn\e\a" +

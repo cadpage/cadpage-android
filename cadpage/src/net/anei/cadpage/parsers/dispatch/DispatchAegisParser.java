@@ -34,7 +34,7 @@ public class DispatchAegisParser extends FieldProgramParser {
     String[] flds = DELIM.split(body);
     if (flds.length > 1) {
       if (parseFields(flds, data)) return true;
-    }
+    } 
     
     String src = data.strSource;
     if (src.length() == 0) return false;

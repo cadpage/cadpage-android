@@ -18,9 +18,16 @@ public class DEKentCountyBParser extends DispatchAegisParser {
   
   private boolean good;
   
+  private String select;
+  
   public DEKentCountyBParser() {
     super(CITY_LIST, "KENT COUNTY", "DE",
-           "CODE? CALL+? ADDR! PLACE Xst's:X Caller:NAME");
+           "( SELECT/B Unit:UNIT! Status:ADDR/S2CP! Venue:CITY! Dev/Sub:MAP | CODE? CALL+? ADDR2! PLACE ) Xst's:X Caller:NAME");
+  }
+  
+  @Override
+  public String getSelectValue() {
+    return select;
   }
   
   @Override
@@ -28,9 +35,16 @@ public class DEKentCountyBParser extends DispatchAegisParser {
     if (!body.startsWith("-")) return false;
     good = subject.length() > 0;
     if (!good) subject = "Chief ALT|";
-    body = MISSING_DELIM.matcher(body).replaceAll(" - ");
-    body = body.replace(" - Cross Sts:", " - Xst's:");
-    if (!super.parseMsg(subject,  body, data)) return false;
+    
+    if (body.startsWith("- Unit:")) {
+      select = "B";
+      if (!super.parseMsg(body, data)) return false;
+    } else {
+      select = "A"; 
+      body = MISSING_DELIM.matcher(body).replaceAll(" - ");
+      body = body.replace(" - Cross Sts:", " - Xst's:");
+      if (!super.parseMsg(subject,  body, data)) return false;
+    }
     return good;
   }
   
@@ -117,7 +131,7 @@ public class DEKentCountyBParser extends DispatchAegisParser {
   public Field getField(String name) {
     if (name.equals("CODE")) return new CodeField("\\d{1,2}[A-Z]\\d{1,2}");
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDR2")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
