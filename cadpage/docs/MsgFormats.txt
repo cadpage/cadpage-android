@@ -1475,6 +1475,8 @@ Wayne County, IN (INWayneCountyParser)
 Black Hawk County, IA (IABlackHawkCountyParser)
 10-127299 MVA ROLLOVER/20 HWY SERGEANT RD WATERLOO
 10-124880 MVA ROLLOVER 1941 W 6TH ST EUREKA/ MITCHELL/WATERLOO
+[] (Dispatch) 12-092660 ALLERGIES/HIVES/STING/MEDREACT \nReported: 09/03/2012 14:41:50 \n6615 LAFAYETTE RD \n4TH ST / 3 RD ST (RA/YMOND RD \nJOE THOME TRUCKING RAYMO\n
+[] (Dispatch) 12-087578 BURNING COMPLAINT\nReported: 08/21/2012 17:21:39\n504 S 3RD ST\nDUBUQUE / S S CT/\nMARSHALL,DAVID M3407  LID 6661 RAYMOND\n921\n
 ***************************************************************************
 Jackson County, IA (IAJacksonCountyParser)
 S:Dispatch Center M:11-004602 GENERAL MEDICAL/AMBULANCE\n33618 MILL CREEK RD\n325 AVE / SIEVERDING/RIDGE RD\nBELLEVUE\nBEA1 BEF1\n\n\nS:Dispatch Center M:11-004682 GENERAL MEDICAL/AMBULANCE\n208 N 12 ST\nSTATE ST / PARK ST/\nMEDICAL ASSOCIATES OF BELLEVUE  BELLEVUE\nBEA1\n\n\nS:Dispatch Center M:11-004692 MOTOR VEH ACCIDENT W/INJURIES\nE 1 ST/ N MAIN ST\nST DONATUS\n49 8 BEA1 BEA2 BEF1\n\n\n***************************************************************************
@@ -1968,7 +1970,8 @@ NOTIFICATIONS 85 MANITOU ST DEPEW CONDUCTED THE DAILY FIRE RADIO AND PAGER TEST
 ***************************************************************************
 Erie County, NY (NYErieCountyBParser
 NYK| Erie County (Lancaster)| Technical Rescue| | Como Park|PD O/S reporting pedestrian walk bridge collapse- 1 victim with leg trapped- request FD with saws| NYK109| 16:54
-NYK / NYK| Buffalo| 1 Alarm Fire| | 63 Crestwood Ave|F20 O/S reporting fire in a dwelling-victims rescued-ACW| NYK109| 12:13\n\nNYK| Erie County (Lancaster)| 1 Alarm Fire| 453.500| 17 E Drullard Ave|Lancaster FD O/S Rep Fire in a 2 Story Occ Brick Apt Bldg. AHW| NYK004| 22:29
+NYK / NYK| Buffalo| 1 Alarm Fire| | 63 Crestwood Ave|F20 O/S reporting fire in a dwelling-victims rescued-ACW| NYK109| 12:13
+NYK| Erie County (Lancaster)| 1 Alarm Fire| 453.500| 17 E Drullard Ave|Lancaster FD O/S Rep Fire in a 2 Story Occ Brick Apt Bldg. AHW| NYK004| 22:29
 ***************************************************************************
 Erie County, NY (NYErieCountyCParser)
 Erie_Alert EDEN 2097 SHERMAN- 1 YOA MALE CHOKING 15 TO HALL NEED 1 ADD'L  <NOREPLY>
@@ -4990,10 +4993,7 @@ Contact: Active911
 [Dispatch] 640 BETHLEHEM PIKE  Apt# 17 ** MONT ** CARDIAC EMERGENCY ** MCLAUGHLIN RD AND HORSHAM ** 345-6 ** 21:15 **  ** 57/M EXPERIENCING PRESSURE IN HIS CHEST\nC/A\nHAVING TROUBLE BREATHING\nHAS TAKEN 3 DOSES OF NITROGL ** E1245682 **  ** 08/27/12 ** 
 **********************************************************
 **********************************************************
-Black Hawk County, IA
-Contact: Active911
-[] (Dispatch) 12-092660 ALLERGIES/HIVES/STING/MEDREACT \nReported: 09/03/2012 14:41:50 \n6615 LAFAYETTE RD \n4TH ST / 3 RD ST (RA/YMOND RD \nJOE THOME TRUCKING RAYMO\n
-[] (Dispatch) 12-087578 BURNING COMPLAINT\nReported: 08/21/2012 17:21:39\n504 S 3RD ST\nDUBUQUE / S S CT/\nMARSHALL,DAVID M3407  LID 6661 RAYMOND\n921\n
 **********************************************************
 * EOF
 **********************************************************
+Loc:5151 MORNING SUN RD XSt:SYCAMORE ST KELLY DR Grid:2300 Units: Rmk:FIRE WATER FLOW/\r\n
