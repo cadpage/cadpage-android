@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTLitchfieldCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*) RESPOND TO (.*), (.*), (.*),(.*):\\d\\d:\\d\\d");
+  private static final Pattern MASTER = Pattern.compile("(.*) RESPOND TO (.*?)(?:,|,? +(\\d{1,2}-[A-Z]-\\d{1,2})) *(?::|--)(\\d\\d:\\d\\d)");
   private static final Pattern MAU_HILL = Pattern.compile("^(.*) MAUWEEHOO H(?:IL)?L (.*)$");
   
   public CTLitchfieldCountyParser() {
@@ -30,9 +30,14 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
     if (!match.matches()) return false;
     data.strSource = match.group(1).trim();
     String sAddr = match.group(2).trim();
-    data.strPlace = match.group(3).trim();
-    data.strCall = match.group(4).trim();
-    data.strCode = match.group(5).trim();
+    data.strCode = getOptGroup(match.group(3));
+    // data.strTime = match.group(4);
+    
+    Parser p = new Parser(sAddr);
+    data.strCall = p.getLast(',');
+    data.strPlace = p.getLast(',');
+    sAddr = p.get();
+    if (sAddr.length() == 0) return false;
     
     parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_ANCHOR_END, sAddr, data);
     if (data.strCity.equals("HEMLOCK ROXBURY")) data.strCity = "ROXBURY";
@@ -89,6 +94,6 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
     "WOODBURY",
     
     "SHERMAN",
-    "HEMLOCK ROXBURY"
+    "ROXBURY"
   };
 }
