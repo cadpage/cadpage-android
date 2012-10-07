@@ -347,11 +347,6 @@ FLORENCE CO 911:21B2 >HEM/LACER-SERIOUS 2004 NEW HOPE DR XS: W MCARTHUR DR OFF M
 FLORENCE CO 911:32D1 >UNK PROBLEM-LIFE STAT QUESTION W MARION ST XS: N ALEXANDER FLORENCE DAWN WITHERSPOON Cad: 2011-0000103800
 FLORENCE CO 911:FIRE >FIRE CALL 1912 ENTERPRISE DR XS: W LUCAS ST FLORENCE SEC CENT 7186 Map: Grids:0,0 Cad: 2011-0000104914
 *******************************************************************************
-Sumner County, TN (TNSumnerCountyParser)
-INITIAL.\nSC EMS COMMUNICATIONS:42 >NON-SPECIFIC DIAGNOSIS 521 SHUTE LN XS: SHORESIDE DR HENDERSONVILLE  MIKE 6158249869 Map: Grids:0,0
-INITIAL.\nSC EMS COMMUNICATIONS:50 >STROKE-CVA 114 MOONLIGHT DR HENDERSONVILLE AT&T MOBILITY 6153058788 Map: Grids:0,0
-INITIAL.\nSC EMS COMMUNICATIONS:2 >FIRE ALARM 1109 LAKE RISE OVERLOOK HENDERSONVILLE L., JOHN 6158264086 Map: Grids:0,0
-*******************************************************************************
 Williamson County, TN (TNWilliamsonCountyParser) 
 911-CENTER:MED >MEDICAL CALL 3939 PERKINS RD XS: SYCAMORE RD THOMPSONS STATION Map: Grids:N,15 Cad: 2012-0000017268
 911-CENTER:F >FIRE (UNKNOWN ORGIN) SNEED RD W XS: HILLSBORO RD FRANKLIN VERIZON WIRELESS Cad: 2012-0000017084
@@ -1229,6 +1224,11 @@ Weld County, CO (COWeldCountyParser)
 20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \COMP:1ST CLASS SECURITY \PH:800 482 9800,
 20431,SMKODR,1ST ST/8TH AV.E4 L1,TEXT:SMELL OF NATURAL GAS ALL OVER THE AREA \COMP:W012,
 20373,SMKODR,10TH AV/22ND ST.E4 R1,TEXT:STRONG SMELL OF NATURAL GAS IN AIR IN THIS AREA \COMP:MIKE RUANE \PH:608 630 2959,
+***************************************************************************
+Hartford County (Avon Town), CT (CTHartfordCountyAvonParser)
+FD STILL ALARM 00004 ORCHARD FARMS LN Cross:  ORCHARD ST/MICHELLE LN  E7  E10
+FD Limited Assignment 00023 FOX DEN RD Cross:  SAW MILL LN/SLEEPY HOLLOW RD  E14  E9  L12  R8  T5  1247
+FD Full Assignment W MAIN ST/DALE RD   L12  T5  R8  B15  1252  TK16  TK6  E9 E10  E14  E7  E11
 ***************************************************************************
 Litchfield County, CT (CTLitchfieldCountyParser)
 (LCD) MEDIC 4 RESPOND TO 30 PARK LANE EAST   NEW MILFORD, ,   UNCONSCIOUS, 31-D-3 :09:22
@@ -2667,6 +2667,11 @@ Oliver Springs, TN (TNOliverSpringsParser)
 (PRISONER TRANSPORT)\nANDERSON CO JAIL, OLIVER SPRINGS, TN, 37840 - CALL:PRISONER TRANSPORT - REC:14:15 - DISP:19:15 - NOTE:WENT TO ANDERSON CO JAIL TO PICK UP BRANDY BRADEN TO BRING BACK FOR JUDGE TO SEE AND BACK TO ANDERSON CO JAIL.\nBEG. MIL 54263 ENDING AT JUDGE'S OFFICER 54278 -  TRK#:8911
 (COURT)\nOAK RIDGE COURT, OLIVER SPRINGS, TN, 37840 - CALL:COURT - REC:08:30 - DISP:08:30 - NOTE:COURT OAK RIDGE -  TRK#:8931
 (HOUSE FIRE)\n1126 LOOKOUT AVE, OLIVER SPRINGS, TN, 37840 - CALL:HOUSE FIRE - REC:11:08 - DISP:11:08 - NOTE:THIS IS A TEST CALL DO NOT RESPOND -  TRK#:8933
+*******************************************************************************
+Sumner County, TN (TNSumnerCounty)
+* 1105 DOUGLAS PL* * * GALLATIN* * FIRE GRS WDS* * * * * * * * *
+* 1303 SHORESIDE DR* * * HENDERSONVILLE* * CHEST PAIN* * * * * * * * *
+* 154 LEE ETTA DR* * * GALLATIN* * UNCONSCIOUS* * * * * * * * *
 *******************************************************************************
 Washington County, TN (TNWashingtonCountyParser)
 Breathing Problems-DELTA M1,E3 \n300 W WALNUT ST #2 \nSHAMROCK \nMap 54b 14:59:59 11111863 \nThink green: Only print this e-mail and any attachment 
@@ -4841,18 +4846,6 @@ Subject:CADPage\nUnit:T15 Status:Dispatched Location: 108 WINDING WAY  /   Quad:
 **********************************************************
 **********************************************************
 **********************************************************
-Avon, CT
-Contact: Keith Lee <klee@avonvfd.org>  (keithlee5@gmail.com)
-Sender: messaging@iamresponding.com
-FD STILL ALARM 00004 ORCHARD FARMS LN Cross:  ORCHARD ST/MICHELLE LN  E7  E10
-FD Limited Assignment 00023 FOX DEN RD Cross:  SAW MILL LN/SLEEPY HOLLOW RD  E14  E9  L12  R8  T5  1247
-FD Full Assignment W MAIN ST/DALE RD   L12  T5  R8  B15  1252  TK16  TK6  E9 E10  E14  E7  E11
-FD Full Assignment 00255  AVON MOUNTAIN RD DEERCLIFF RD/EAST MAIN ST L12  T5  R8  B15  269  TK16  TK6  E9  E10  E14  E7  E11
-FD STILL ALARM BEVERLY DR/ WOODMONT NA   E14  E9
-FD Full Assignment E MAIN ST/ MOUNTAIN VIEW AVE   L12  T5  R8  B15  237  TK16 TK6  E9  E14  E10  E7  E11  AV26
-FD STILL ALARM 00081 CHEVAS RD Cross:  GLEN HOLLOW DR/HUCKLEBERRY HILL RD  E7  E10
-FD Full Assignment 00002  WHISPERING PINES NA LARKSPUR LN  L12  T5  R8 B15  1068  TK16  TK6  E9  E10  E14  E7  E11  AV26
-FD Full Assignment 00020  SECURITY DR DARLING DR/ARCH RD  L12  T5  R8 B15  250  TK16  TK6  E9  E10  E14  E7  E11
 *************************************************************
 Kosciusko County, IN
 Contact: Mark Pepple <mpepple@mtems.com>
