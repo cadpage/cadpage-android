@@ -733,6 +733,20 @@ Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~2301~SPRINGWOOD~RD~\nVenue:~YORK TWP\nCross Streets~\nPAULINE DR / I 83 NB\nPhone:~(717) 741-2822\nQuadrant:~19-09\nDistrict:~19-09\n~\nCall Information:\n\nCall Number:~9986\nCall Type:~ FALLS CL 2\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~OnCall#Faith,~Acadian\nCall Date/Time:~10/26/2011 16:10:53\nDispatch Date/Time:~10/26/2011 16:14:53\nArrive Date/Time:~10/26/2011 16:19:44\nClear Date/Time:~\nEnroute Date/Time:~10/26/2011 16:17:09\nLatest Unit Cleared Date/Time:~10/26/2011 16:17:04\n~\nIncident Number(s)\n2011-00001710~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00003105~~YOE FIRE CO AMBULANCE INC\n2011-00003067~~YOE FIRE COMPANY AMBULANCE SERVICE\n2011-00025631~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~5\nMICU19-2, MICU36-2, EMSSTA19, FIRESTA19, 21-89~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/26/11 16:12:49~Problem: fall-bleed from face.  Patient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:12:49~ProQA Dispatch Message Sent; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:12:56~no hosp preference\n10/26/11 16:13:16~lockbox on the side door-code for lock box is 2628 for key locatio\n10/26/11 16:13:27~Nature Of Call: 91 yof/\n10/26/11 16:13:35~ProQA Questionnaire Completed; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:13:35~Problem: fall-bleed from face.  Patient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:13:37~Nature Of Call: 91 yof/unkn dest\n10/26/11 16:32:01~Nature Of Call: Non emergency for lift assist
 *******************************************************************************
 *******************************************************************************
+* DispatchA10Parser subclasses
+*******************************************************************************
+*******************************************************************************
+Ashtabula County, OH (OHAshtabulaCountyParser)
+FIRE, 320 EAST MAIN ST ORWELL, EASTON RD,ORWELL//LEFFINGWELL DR,ORWELL, HEAVY SMOKE COMING FROM A RESIDENCE BEHIND MIDWAY 
+FIRE, 4396 MONTGOMERY RD WINDSOR TWP, MONTGOMERY RD,ORWELL TWP//WINDSOR-MECHANICSVILLE RD,WINDSOR TWP, HEAVY SMOKE IN THE AREA OF THIS LOCATION THAT
+FIRE, 3595 US RT 322 ORWELL TWP, PARKER RD,ORWELL TWP//, LARGE BON FIRE IN A FIELD ACROSS THE STREET FROM THIS ADDRESS, APPEARS UNATTENDED, NEAR A S
+***************************************************************************
+Clinton County, OH (OHClintonCountyParser)
+Structure Fire, 2408 CLARK RD NEW VIENNA, REKINDLED FIRE, SR 350 E,NEW VIENNA//THORNBURG RD,NEW VIENNA
+FIRE, 12308 CAREYTOWN RD , 1231297, TOP OF A UTILITY POLE ON FIRE , SCISSORVILLE RD,LEESBURG//
+FIRE, 6989 FARMERS RD MARTINSVILLE, 1231135, TRAILOR ON FIRE NOBODY INSIDE, RAPID FORD RD,MARTINSVILLE//SR 28 E,MARTINSVILLE
+*******************************************************************************
+*******************************************************************************
 * DispatchGeoconxParser subclasses
 *******************************************************************************
 *******************************************************************************
@@ -2243,11 +2257,6 @@ Las Vegas, NV (NVLasVegasParser)
 (SMS) I: 4273738 U: 3901, P: 3, G: 3423, PH: 17 L: 2711 W WINDMILL LN# , B: , AL: PC:, 1A N:1A], 17:07:17 [Geographic Area: 2711 W WINDMILL LN]
 (SMS) I: 4274400 U: 3901, P: 2, G: 3217, PH: 61 L: S DURANGO DR / W MAULE AVE# , B: , AL: PC:, 32B N:32B], 19:02:59 [Geographic Area: S DURANGO
 (SMS) I: 4273913 U: 3901, P: 1, G: 2821, PH: 13 L: 4285 DUNEVILLE ST-CC# 236 , B: , AL: PC:, 6D N:6D], Location from Fire: 4285 DUNEVILLE ST, 00
-***************************************************************************
-Ashtabula County, OH (OHAshtabulaCountyParser)
-FIRE, 320 EAST MAIN ST ORWELL, EASTON RD,ORWELL//LEFFINGWELL DR,ORWELL, HEAVY SMOKE COMING FROM A RESIDENCE BEHIND MIDWAY 
-FIRE, 4396 MONTGOMERY RD WINDSOR TWP, MONTGOMERY RD,ORWELL TWP//WINDSOR-MECHANICSVILLE RD,WINDSOR TWP, HEAVY SMOKE IN THE AREA OF THIS LOCATION THAT
-FIRE, 3595 US RT 322 ORWELL TWP, PARKER RD,ORWELL TWP//, LARGE BON FIRE IN A FIELD ACROSS THE STREET FROM THIS ADDRESS, APPEARS UNATTENDED, NEAR A S
 ***************************************************************************
 Englewood, OH (OHEnglewoodParser)
 CAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n622 EE98 EM98 OP72:12:31:00-53B:E53:2 VEH ACC UNK INJ:@9200 N MAIN ST,DAYTON:FDC SOUTH WALL\n\nCAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n630 632 EM98:16:10:00-45:E45:MEDIC/SUICIDAL SUBJECT:@9000 N MAIN ST UNIT 300,DAYTON: 
@@ -4853,13 +4862,6 @@ Subject:CADPage\nUnit:T15 Status:Dispatched Location: 108 WINDING WAY  /   Quad:
 **********************************************************
 *************************************************************
 **********************************************************
-Clinton County, OH
-Contact: Kieth (kieth4548@gmail.com)
-Sender: noreply@clintonsheriff.com.
-Structure Fire, 2408 CLARK RD NEW VIENNA, REKINDLED FIRE, SR 350 E,NEW VIENNA//THORNBURG RD,NEW VIENNA
-FIRE, 12308 CAREYTOWN RD , 1231297, TOP OF A UTILITY POLE ON FIRE , SCISSORVILLE RD,LEESBURG//
-FIRE, 6989 FARMERS RD MARTINSVILLE, 1231135, TRAILOR ON FIRE NOBODY INSIDE, RAPID FORD RD,MARTINSVILLE//SR 28 E,MARTINSVILLE
-ATTEMPTED SUICIDE, 270 BERNARD RD NEW VIENNA, 1229348, MALE SUBJECT TALKING OUT OF HIS HEAD HES ADVISING HE CALLED THE MENTAL HEALTH PLACE ALREADY, HUFFM
 **********************************************************
 Jefferson County, CO (alternate)
 Contact: Sheena Tamburlin <sheenatamb@hotmail.com>
