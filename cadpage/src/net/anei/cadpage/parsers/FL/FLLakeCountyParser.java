@@ -5,25 +5,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Lake County, FL
-Contact: 3522354040@messaging.sprintpcs.com
-Sender: varies
-
-CAD:ST56* Unconscious / Fainting* 805 PLUMOSA AVENUE* FRUITLAND PARK*
-CAD:ST56* Miscellaneous* 303 URICK STREET* FRUITLAND ACRES* APT 4F* FRUITLAND PARK*
-CAD:ST56* Traffic / Transportation Accident* 305 CR 466A* CENTRAL FLORIDA NURSERY* FRUITLAND PARK*
-CAD:ST56* Sick Person* 500 WEST FOUNTAIN STREET* FRUITLAND PARK*
-CAD:PS4* ST56* Sick Person* 201 EAST LAVISTA STREET* NEW LIFE PRESBYTERIAN CHURCH* FRUITLAND PARK*
-CAD:ST56* Medical* 34949 CUTOFF ROAD* FRUITLAND PARK*
-
-Contact: Scott fuller <scott.a.fuller.sf@gmail.com>
-CAD:ST95* Unknown / Man Down* UNKNOWN* 1018 OSPREY CIRCLE GROVELAND*
-
-Contact: Chris Sieber <shanman78@gmail.com>
-  / CAD:PS3* ST22* Traumatic Injury (Specific)* NORTH EUSTIS STREET & EAST CLIFFORD AVENUE* EUSTIS*\n
-
- */
 
 public class FLLakeCountyParser extends FieldProgramParser {
   

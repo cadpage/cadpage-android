@@ -5,6 +5,15 @@ vzcbeg arg.narv.pnqcntr.cnefref.TN.TNBpbarrPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/* Fnzcyr Bpbarr Cntr
+ * 
+ * BPFB R911:Erghea Cubar: 7060000000 F28 FVPX CREFBA 4047 PBYUNZ SREEL EQ 8583046 
+ * BPFB R911:Erghea Cubar: 7060000000 F28 FVPX CREFBA 385 WRSSREFBA NIR 2029728 
+ * BPFB R911:1090S SVER NYNEZ 1021 JBBQ UBYYBJ YA 5482767 PELFGNY UVYYF QE
+ * BPFB R911:1073 FZBXR 1421 ORIREYL QE 5495253 ABAN QEVIR
+ * BPFB R911:1070 SVER 1280 NFUYNAQ QE 7250300 UJL 53
+ 
+ */
 
 choyvp pynff TNBpbarrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

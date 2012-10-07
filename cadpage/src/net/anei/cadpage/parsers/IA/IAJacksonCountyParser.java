@@ -6,22 +6,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Jackson County, IA
-Contact: lyn medinger <medic354@gmail.com>
-Sender: swmail@maquoketaia.com
-System: Shieldware
-
-S:Dispatch Center M:11-004602 GENERAL MEDICAL/AMBULANCE\n33618 MILL CREEK RD\n325 AVE / SIEVERDING/RIDGE RD\nBELLEVUE\nBEA1 BEF1\n\n\n
-S:Dispatch Center M:11-004682 GENERAL MEDICAL/AMBULANCE\n208 N 12 ST\nSTATE ST / PARK ST/\nMEDICAL ASSOCIATES OF BELLEVUE  BELLEVUE\nBEA1\n\n\n
-S:Dispatch Center M:11-004692 MOTOR VEH ACCIDENT W/INJURIES\nE 1 ST/ N MAIN ST\nST DONATUS\n49 8 BEA1 BEA2 BEF1\n\n\n
-S:Dispatch Center M:11-004655 GENERAL MEDICAL/AMBULANCE\n1201 PARK ST\n12 ST / DEADEND/\nMILL VALLEY CARE CENTER  BELLEVUE\nBEA1\n\n\n
-S:Dispatch Center M:11-004566 GENERAL MEDICAL/AMBULANCE\n109 E 1 ST\nCITYLIMITS / DUBILCH/EN ST\nST DONATUS\nBEA1 BEF1\n\n\n
-S:Dispatch Center M:11-004406 GENERAL MEDICAL/AMBULANCE\n35109 370 ST\n346 AVE / 380 AVE/\nBELLEVUE\nBEA1 BEF1\n\n\n
-S:Dispatch Center M:11-004340 GENERAL MEDICAL/AMBULANCE\n116 W MAIN ST\n1 ST / CITYLIMITS/\nSPRINGBROOK\nBEA1 SBF1\n\n\n
-S:Dispatch Center M:11-004214 GENERAL MEDICAL/AMBULANCE\n401 N 6 ST\nFRANKLIN ST / SPRING/ST\nBELLEVUE\nBEA1\n\n\n
-
- */
 
 
 // We do have a DispatchSieldwarePareser class, but it can't handle the 

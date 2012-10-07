@@ -5,6 +5,17 @@ vzcbeg arg.narv.pnqcntr.cnefref.TN.TNZnegvarmCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Znegvarm, TN (Znegvarm Pbyhzovn Sver Erfphr
+Pbagnpg: "Oerag Jvyyvf" <ojvyyvf@zisq.arg>
+Fraqre: ab-ercyl@zisq.arg
+ 
+Jbexvat fgehpgher sver!  Nffvfgnapr vf arrqrq vs ninvynoyr.\aNqqerff: 611 XRGGYR PERRX QE\aQB ABG PNYY QVFCNGPU!!!! (Ercbegrq ba 11/21/2010 @ 12:39:39 NZ)
+Jbexvat fgehpgher sver!  Nffvfgnapr vf arrqrq vs ninvynoyr.\a330 UNPXNZBER GEY\aQB ABG PNYY QVFCNGPU!!!! (Ercbegrq ba 10/22/2010 @ 9:50:55 CZ)
+Jbexvat fgehpgher sver!  Nffvfgnapr vf arrqrq vs ninvynoyr.\aNqqerff:298 Nfuoebbx qe\aQB ABG PNYY QVFCNGPU!!!! (Ercbegrq ba 09/14/2010 @ 2:20:07 CZ)
+Jbexvat fgehpgher sver! Nffvfgnapr vf arrqrq vs ninvynoyr.\aNqqerff:NPEBFF SEBZ 3736 PNGHF GENVY\aQB ABG PNYY QVFCNGPU!!!! (Ercbegrq ba 09/08/2010 @ 3:53:59 CZ)
+Jbexvat fgehpgher sver! Nffvfgnapr vf arrqrq vs ninvynoyr.\aNqqerff:711 UVQQRA CY BSS UJL 28\aQB ABG PNYY QVFCNGPU!!!! (Ercbegrq ba 8/12/2010 @ 9:24:21 NZ)
+ */
 
 choyvp pynff TNZnegvarmCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

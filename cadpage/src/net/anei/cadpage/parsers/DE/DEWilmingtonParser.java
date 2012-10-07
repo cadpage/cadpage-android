@@ -5,20 +5,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Wilmington (brandywine), DE
-Contact: "cmwetherby@aol.com" <cmwetherby@aol.com>
-Contact: Michael DiMauro <mdimaurojr@gmail.com>
-Contact: "backusgj@hotmail.com" <backusgj@hotmail.com>
-Sender: brandywinefireco@comcast.net
-
-06/06/2011*21:22*L1*SMOKE INVESTIGATION*8 E LEA BL btwn N MARKET ST & *PENNROSE
-06/21/2011*06:01*ASSAULT - UNKNOWN*1202 FAIRVIEW AV btwn MAPLE AV*HOLLY OAK TERRACE*MALE SUBJECT MACED //NCCPD ENR
-08/14/2011*08:19*CVA - NOT ALERT*207 ROWLAND PARK BL btwn HILLS*CARRCROFT
-08/14/2011*16:00*L2*ELECTRICAL ODOR INSIDE*1304 HILLSIDE AV btwn W CLEARV*HOLLY OAK TERRACE
-[Update]*08/10/2011*14:27*SYNCOPE - DIFF BREATHING*9 NEWARK UNION PUBLI RD btwn B*NORMANDY MANOR
-
- */
 
 
 public class DEWilmingtonParser extends FieldProgramParser {

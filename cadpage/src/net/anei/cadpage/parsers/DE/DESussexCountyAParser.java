@@ -3,58 +3,6 @@ package net.anei.cadpage.parsers.DE;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-[86 EMS] -- 31C2 -- 33384 Hartford Ct Lewes
-[86 EMS] -- 33A1 -- 36101 Seaside Blvd Rehoboth
-[86 EMS] -- 17A1 -- 18958 Coastal Hwy Lewes
-[86 Fire] -- F - Auto Fire Alarm -- Hallmark, Parcel Post, Safeway -- 19266 Coastal Hwy Rehoboth -- INC #602
-[86 Fire] -- F - Standby -- Bethany Beach Station 70 Rehoboth Beach -- INC #599
-[83 FIRE] -- Traffic/TransportationAcdntALS -- 228 W Dupont Hwy Millsboro 19966 -- Food Lion (83)
-[83 FIRE] -- Vehicle Fire -- 26026 Patriots Way Georgetown 19947 -- Sussex Central High School
-[83 FIRE] -- Carbon Monoxide Detector -- 28 Patterson Dr Georgetown 19947 
-[83 FIRE] -- Washdown (Fuel Spill) -- 26972 - 28044 Zoar Rd Georgetown 19947
-[83 FIRE] -- Traffic/TransportationAcdntBLS -- 0 Dupont Blvd & Av Of Honor Georgetown 19947
-[83 FIRE] -- Structure Fire -- 0 JOHNSON RD & JESTICE FARM RD Laurel 19956
-[83 FIRE] -- Cardiac/Resp./Death-ALS -- 28723 Woodcrest Dr Harbeson 19951
-
-[81 FIRE] -- Traffic/TransportaionAcdntBLS -- 0 Discount Land Rd & Sussex Hw
-[81 EMS] -- Chest Pain-ALS -- 34544 Doe Dr Laurel 19956
-[81 FIRE] -- Cardiac/Res./Death-ALS -- 815 S Central Ave Laurel 19956 -- Laurel Middle / intermediate n
-[81 EMS] -- Abdominal Pain-BLS -- 30594 SUssex Hwy Laurel 19956 -- Relax Inn
-[81 EMS] -- Unconcious/Fainting(Near)-ALS -- 31574 White Ave Laurel 19956
-[81 EMS] -- Falls-BLS -- 609 Little Creek Dr Laurel 19956
-
-Specific to Seaford
-[87 EMS] -- 1A Abdominal Pains (ALS) -- 6412 Woodduck Dr Seaford de, 19973
-[87 FIRE] -- Smoke Investigation -- 6341 Baker Rd Seaford de, 19973
-[87 EMS] -- 6A Breathing Problems (ALS) -- 24642 Shufelt Rd Seaford de, 19973
-[87 FIRE] -- Assist Other Agency -- Hickory Hill Rd/ Guard Rd Seaford de, 19973
-[87 EMS] -- 33A Interfacility (ALS) -- 715 E King St 204a Seaford de, 19973
-[87 EMS] -- 13A Diabetic Problems (ALS) -- 24101 Dove Rd Seaford de, 19973
-
-[STA:91] -- Unknown Problem(Man Down)-BLS -- 31905 Long Neck Rd Millsboro 19966 -- Wilmington Trust Company
-[STA:91] -- Breathing Problems-ALS -- 32523 E Baltimore Ct Millsboro 19966
-[STA:91] -- Falls-BLS -- 0 Long Neck Rd & School Ln Millsboro 19966 -- NO IDEA
-[STA:91] -- Convulsions/Seizures-BLS -- 32532 Long Neck Rd Millsboro 19966 -- Lingo Creek Apt
-
-Contact: Sean Humphreys <hump7777@gmail.com>
-Sender: msg@cfmsg.com <From%3Amsg@cfmsg.com>
-(Chief ALT) [86 EMS] -- 1C6 -- 1 Sconset Ct Rehoboth Beach
-(Chief ALT) [86 EMS] -- 26C2 -- 36121 Knight St Rehoboth Beach
-
-Contact: cmr199182@yahoo.com
-(Chief ALT) [82 EMS] -- Medical Alert -- 18240 Robinsonville Rd Lewes 19958 -- Gosling Creek Purchase/ 123 Ha
-(Chief ALT) [82 EMS] -- Interfacillity/Palliative-ALS -- 36101 Seaside Blvd Rehoboth Beach 19971 -- Brandywine Assisted Living
-
-COntact: "cignotis7@gmail.com" <cignotis7@gmail.com>
-Sender: msg@cfmsg.com
-Subject:Chief ALT\n[71 EMS] -- Assault/Sexual Assault-ALS -- 25687 Cornelia St Seaford 19973\n
-
-Contact:tiffany cassell <tcassell711@gmail.com>
-Sender: msg@cfmsg.com
-(Chief ALT) [84 EMS] -- Chest Pain-ALS -- 84 Hq
-
- */
 
 
 public class DESussexCountyAParser extends SmartAddressParser {

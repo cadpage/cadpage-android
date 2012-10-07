@@ -3,29 +3,6 @@ package net.anei.cadpage.parsers.DE;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Newcastle County, DE (variant B)
-Contact: "Thomas Castiglione" <castiglione.thomas@gmail.com>
-Sender: msg@cfmsg.com
-
-(Chief ALT) [CFC EMS] -- Syncope - Not Alert -- Amberwood -- 51 Karens Wy - Cross STS:Beechwood Ct & Silver Birch La - EMD:M31D3
-(Chief ALT) [CFC EMS] -- Medical Alarm -- Forest Glen Townhses -- 3 Pimlico La - Cross STS:Rue Madora & Dead - End - EMD:M32B2
-(Chief ALT) [CFC EMS] -- Abdominal Pains -- Summerset Square Townhses -- 4 Candlewick Ct New Castle DE - Cross STS:Wilton Bl & Dead - End - EMD:M1A1
-(Chief ALT) [CFC EMS] -- Assault - Unknown -- Wawa Salem Center - Salem Center Shop Ctr -- 1605 Pulaski Hy - Cross STS:Glasgow Dr & Salem Church Rd - EMD:M4B3
-(Chief ALT) [CFC EMS] -- Assault -- Days Inn -- 900 Churchmans Rd #122 Newark DE - Cross STS:Rte 1 Sb & Old Churchmans Rd - EMD:M4B1A
-(Chief ALT) [CFC EMS] -- Overdose / Poisoning - Not Alert -- Christiana Meadows Apts -- 401 Christiana Meadows - Cross STS:Bear Christiana Rd - EMD:M23C1I
-(Chief ALT) [CFC Fire] -- L1*fire Alarm / General -- Medical Arts Pav 1 -- 4745 Stanton Ogletown Rd - Cross STS:Samoset Dr & Hygeia Dr - EMD:52C1G
-(Chief ALT) [CFC EMS] -- Cva - Sudden Weakness / Numbness -- Crossings At Christiana Townhses -- 216 Gladstone Wy - Cross STS:Dead - End & Baker Dr - EMD:M28C4C
-(Chief ALT) [CFC EMS] -- Person Fallen -- Hillside Heights -- 109 Rosewood Dr - Cross STS:Greentree Rd & Lavender La - EMD:M17B1
-(Chief ALT) [CFC Fire] -- L1*commercial Fire Alarm -- Direct Radiography - Glasgow Business Community -- 600 Technology Dr - Cross STS:Gbc Dr & Yoon La - EMD:52C3G
-(Chief ALT) [CFC FIRE] -- Vehicle Accident -- Interstate 95 -- Churchmans Rd / I95 Sb - EMD:M29B4
-
-Contact: Jason Ross <rossja3@gmail.com>
-Sender: msg@cfmsg.com
-[Chief ALT]  [CFC Fire] -- L3*residential Fire -- Llangollen Estates -- 218 Southerland Dr New Castle - Cross STS:Mendell Pl & Gordy Pl - EMD:69D6 - Notes:PROQA DETAIL
-(Chief ALT) [CFC FIRE] -- Vehicle Accident -- Rte 1 / Wrangle Hill Rd Bear - EMD:M29B1 - Notes:PROQA DETAILS TO FOLLOW
-
- */
 
 public class DENewCastleCountyBParser extends FieldProgramParser {
   

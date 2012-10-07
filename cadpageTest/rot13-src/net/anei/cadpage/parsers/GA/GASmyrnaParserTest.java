@@ -5,6 +5,17 @@ vzcbeg arg.narv.pnqcntr.cnefref.TN.TNFzleanCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Fzlean, TN
+Pbagnpg: "Qhfgva Qnirl" <qqnirl@pv.fzlean.tn.hf>
+Fraqre: pnq@pv.fzlean.tn.hf
+PNQ:SLV: ;FGEHPGHER SVER;2501 JBBQYNAQF QE FR;SYNZRF VAFVQR SHFR OBK VAFVQR PNYYREF NCNEGZRAG. FZRYYF JVERF OHEAVAT. [08/08/10 22:53:28 QGUNPXRE];103157
+PNQ:Hcqngr: ;IRUVPYR SVER;F PBOO QE FR/OBHEAR QE FR;ZRGEB CPF;BJARE BS IRU PNYYRQ --- NQI BA 280 NG JU [10/11/10 17:46:52 NOREEL] oyx qbqtr punetre ba sver [10/
+PNQ:SLV: ;IRUVPYR SVER;JVAQL UVYY EQ FR/F PBOO QE FR;ZRGEB CPF;oyx qbqtr punetre ba sver [10/11/10 17:46:16 QFAVIRYL] ;104107
+PNQ:Hcqngr: ;FGEHPGHER SVER;501 JNYGBA JNL FR;F PBOO QE FR;ncg 501 [09/23/10 15:17:59 ZONTANGB] ;103832
+PNQ:SLV: ;SVER TRARENY;4586-J INYYRL CXJL FR;F PBOO QE FR;NFUYRL;urnil fzbxr [10/09/10 03:49:27 FZNUNZN] fzbxr pbzvat sebz gur havg orybj ure [10/09/10 03:48:51
+
+*/
 
 choyvp pynff TNFzleanCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

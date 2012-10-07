@@ -20,6 +20,10 @@ Flfgrz: VasbEnq
 (SPP Cntr) Vapvqrag Qvfcngpu:G30   URZBEEUNTR760 Jnejvpx Nir               526-S7 38/3912-0058807
 (SPP Cntr) Vapvqrag Qvfcngpu:R30   CHOYVP FREA Ylaa Eq / J Wnaff Eq        526-R5 38/3912-0058155
 
+Pbagnpg: "Envqreangvba.sz" <envqreangvba.sz@tznvy.pbz>
+Fraqre: SPP-QB-ABG-ERCYL@iraghen.bet
+SPP Cntr / Vapvqrag Qvfcngpu:D72   FVPX CREFB1587 R Frdhna Pg              524-Q2 36/3712-0059676\a
+
  */
 
 choyvp pynff PNIraghenPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -102,6 +106,20 @@ choyvp pynff PNIraghenPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:526-R5",
         "PU:38/39",
         "VQ:12-0058155");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEnvqreangvba() {
+
+    qbGrfg("G1",
+        "SPP Cntr / Vapvqrag Qvfcngpu:D72   FVPX CREFB1587 R Frdhna Pg              524-Q2 36/3712-0059676\a",
+        "HAVG:D72",
+        "PNYY:FVPX CREFB",
+        "NQQE:1587 R Frdhna Pg",
+        "ZNC:524-Q2",
+        "PU:36/37",
+        "VQ:12-0059676");
 
   }
   

@@ -2,10 +2,6 @@ package net.anei.cadpage.parsers.DE;
 
 import net.anei.cadpage.parsers.GroupBestParser;
 
-/*
-Kent County, DE 
-
- */
 
 
 public class DEKentCountyParser extends GroupBestParser {

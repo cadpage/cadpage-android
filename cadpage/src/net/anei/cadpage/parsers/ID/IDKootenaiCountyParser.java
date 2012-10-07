@@ -5,20 +5,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Kootenai County, ID
-Contact: "pbarkle1@mac.com" <pbarkle1@mac.com>
-Contact: "Larry & Elaine Simms" <lesimms@gmail.com>
-Contact: Paul Barkley <PFB@mac.com>
-System: Spillman coupled through Hiplink
-Sender: Varies
-
-KOOTENAI COUNTY SHERIFF KCFR\nFIRE STRUCTURE \n1576 W TUALATIN DR\nF1A  \nF1V\nOPS1 \nVISIBLE FLAMES    IN GARAGE\n13:12:17 04/30/2011 - T.TAYLOR\nRES IS UNOCC\n13:12:50 04/30/2011 - T.TAYLOR\nVEH IN GARAGE    RP SAYS HER HOUSE IS GOING TO BLOW UP\n13:13:00 04/30/2011 - D.WILSON       \nFLAME\nSent by CLI  Sat Apr 30 13:16:15 2011\n0000 Confirm 0001 Refuse TXT STOP to opt-out
-HAUS\nACCIDENT INJURY\nN WATERFORD LOOP & N HAUSER LAKE RD\nGW7A \nB751\nOPS4 \nMC ACCIDENT    WENT OFF RDWY    CAB    POSS BROKEN COLLARS     CUTS ON FACE   \nCONTROLLED
-KCFR\nFIRE STRUCTURE \nN SMITH LN & E MULLAN AVE\nF1C  \nF1V\nOPS1 \nTRAILER FULLY ENGULFED ON SMITH RD JUST OFF MULLAN   FLAMES FROM WINDOWS AND\nROOF \n10:49:32 05/28/20
-
-*/
-
 
 public class IDKootenaiCountyParser extends FieldProgramParser {
   

@@ -6,21 +6,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Mineral County, WV
-Contact: Chris Green <mediccgreen@gmail.com>
-Sender: xdc@mineralcounty911.com
 
-S: M: ??? PFD:2012:0140 >2012-06-17 21:14:30 >ALERTED >ODOR UNKNOWN >47 WEST HAMPSHIRE ST, PIEDMONT
-S: M: ??? PFD:2012:0143 >2012-06-24 12:47:25 >ALERTED >CARBON MONOXIDE/ETC-8 >49 1/2 THIRD STREET
-S: M: ??? PFD:2012:0142 >2012-06-23 11:27:29 >ALERTED >TREE DOWN >119 RIORDIN RD WESTERNPORT
-S: M: ??? PFD:2012:0144 >2012-06-25 18:45:52 >ALERTED >MVA W/INJURIES >RT 46, BETWEEN KEYSER& PIEDMONT
-S: M: ??? PFD:2012:0145 >2012-06-28 18:43:10 >ALERTED >STAND BY >CO 20 STATION
-S: M: ??? PFD:2012:0155 >2012-07-01 11:46:49 >ALERTED >TREE DOWN >322 GREEN ST WESTERNPORT
-S: M: ??? PFD:2012:0154 >2012-07-01 10:46:31 >ALERTED >FIRE GARAGE >OFF OF PLUM RUN RD TO ROGERS DRIVE; 1641 RIDGELEY, RIDGELEY, MNRL WV
-S: M: ??? PFD:2012:0153 >2012-07-01 10:34:47 >ALERTED >UNCONSC/FAINT-31 >57 ERIN ST, PIEDMONT (;)
-
-*/
 public class WVMineralCountyParser extends FieldProgramParser {
   
   public WVMineralCountyParser() {

@@ -4,6 +4,29 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Arjpnfgyr Pbhagl, QR (inevnag O)
+Pbagnpg: "Gubznf Pnfgvtyvbar" <pnfgvtyvbar.gubznf@tznvy.pbz>
+Fraqre: zft@pszft.pbz
+
+(Puvrs NYG) [PSP RZF] -- Flapbcr - Abg Nyreg -- Nzorejbbq -- 51 Xneraf Jl - Pebff FGF:Orrpujbbq Pg & Fvyire Ovepu Yn - RZQ:Z31Q3
+(Puvrs NYG) [PSP RZF] -- Zrqvpny Nynez -- Sberfg Tyra Gbjaufrf -- 3 Cvzyvpb Yn - Pebff FGF:Ehr Znqben & Qrnq - Raq - RZQ:Z32O2
+(Puvrs NYG) [PSP RZF] -- Noqbzvany Cnvaf -- Fhzzrefrg Fdhner Gbjaufrf -- 4 Pnaqyrjvpx Pg Arj Pnfgyr QR - Pebff FGF:Jvygba Oy & Qrnq - Raq - RZQ:Z1N1
+(Puvrs NYG) [PSP RZF] -- Nffnhyg - Haxabja -- Jnjn Fnyrz Pragre - Fnyrz Pragre Fubc Pge -- 1605 Chynfxv Ul - Pebff FGF:Tynftbj Qe & Fnyrz Puhepu Eq - RZQ:Z4O3
+(Puvrs NYG) [PSP RZF] -- Nffnhyg -- Qnlf Vaa -- 900 Puhepuznaf Eq #122 Arjnex QR - Pebff FGF:Egr 1 Fo & Byq Puhepuznaf Eq - RZQ:Z4O1N
+(Puvrs NYG) [PSP RZF] -- Bireqbfr / Cbvfbavat - Abg Nyreg -- Puevfgvnan Zrnqbjf Ncgf -- 401 Puevfgvnan Zrnqbjf - Pebff FGF:Orne Puevfgvnan Eq - RZQ:Z23P1V
+(Puvrs NYG) [PSP Sver] -- Y1*sver Nynez / Trareny -- Zrqvpny Negf Cni 1 -- 4745 Fgnagba Btyrgbja Eq - Pebff FGF:Fnzbfrg Qe & Ultrvn Qe - RZQ:52P1T
+(Puvrs NYG) [PSP RZF] -- Pin - Fhqqra Jrnxarff / Ahzoarff -- Pebffvatf Ng Puevfgvnan Gbjaufrf -- 216 Tynqfgbar Jl - Pebff FGF:Qrnq - Raq & Onxre Qe - RZQ:Z28P4P
+(Puvrs NYG) [PSP RZF] -- Crefba Snyyra -- Uvyyfvqr Urvtugf -- 109 Ebfrjbbq Qe - Pebff FGF:Terragerr Eq & Yniraqre Yn - RZQ:Z17O1
+(Puvrs NYG) [PSP Sver] -- Y1*pbzzrepvny Sver Nynez -- Qverpg Enqvbtencul - Tynftbj Ohfvarff Pbzzhavgl -- 600 Grpuabybtl Qe - Pebff FGF:Top Qe & Lbba Yn - RZQ:52P3T
+(Puvrs NYG) [PSP SVER] -- Iruvpyr Nppvqrag -- Vagrefgngr 95 -- Puhepuznaf Eq / V95 Fo - RZQ:Z29O4
+
+Pbagnpg: Wnfba Ebff <ebffwn3@tznvy.pbz>
+Fraqre: zft@pszft.pbz
+[Puvrs NYG]  [PSP Sver] -- Y3*erfvqragvny Sver -- Yynatbyyra Rfgngrf -- 218 Fbhgureynaq Qe Arj Pnfgyr - Pebff FGF:Zraqryy Cy & Tbeql Cy - RZQ:69Q6 - Abgrf:CEBDN QRGNVY
+(Puvrs NYG) [PSP SVER] -- Iruvpyr Nppvqrag -- Egr 1 / Jenatyr Uvyy Eq Orne - RZQ:Z29O1 - Abgrf:CEBDN QRGNVYF GB SBYYBJ
+
+ */
 
 choyvp pynff QRArjPnfgyrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

@@ -10,45 +10,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
-/*
-Medstar IL (Medical only in Randolf, Clinton, and St Clair counties)
-Contact: l.keirstead@yahoo.com,6154407605@vzwpix.com
-Sender: emsdispatch@medstarems.net
-System: ProQA
-[- part 1 of 1]  RC:Run# 34870/64 WEST BOUND//across from weight station/////male subj white car hit by a truck isp en route/<PROQA_DET>
-[- part 1 of 1]  RC:Run# 34859/505 LEMANS WAY///SCC PG 15/FAIRVIEW HEIGHTS///55yof unc diff b possible overdose on pills - adavan tramadol/<PROQA_DET>
-[- part 1 of 1]  RC:Run# 34577/20 KINDER ST//cah/SCC PG 11/EAST SAINT LOUIS///31f c/b chest and back px cardiac hx  ProQA comments: chest px/10D04
-[- part 1 of 1]  RC:Run# 34384/1308 CORLISS//westinghouse and n greenmount//SHILO///38m c/b rapid heart rate/<PROQA_DET>
-[- part 1 of 1]  RC:Run# 34620/13 LOISEL DR///SCC PG 14/EAST SAINT LOUIS///70 M C/B CONFUSED ProQA comments: UNK/31D03
-(- part 1 of 1) RC:Run# 35456/STATE HWY 157 & STATE HWY 15//Centerville/SCC PG 13/EAST SAINT LOUIS///pedestian struck/<PROQA_DET>
-(- part 1 of 1) RC:Run# 35411/St Elizabeths B'vll/IN PATIENT/634 1/SCC PG 26/BELLEVILLE/119 KENSINGTON HEIGHTS RD//f extreme weakness unable to support s
-
-Contact: Scott Fry <emtbasic12@gmail.com>
-1 of 2\nFRM:emsdispatch@medstarems.net\nSUBJ:- part 1 of 1\nMSG:RC:Run# 17158/St Elizabeths B'vll/IN PATIENT/347-2/SCC PG26/BELLEVILLE/429 S MAIN\n(Con't) 2 of 2\nST//CONFUSED POSS COMBATIVE NSE PCS AND FACESHEET REQ ***MEDICARE****\n(End)
-
-Contact: Mark Bearth <mark.bearth@gmail.com>
-RC:Run# 17411/451 3RD ST////BECKEMEYER///ST ANTHONY'S CHURCH  75YOM UNC/BREATHING NURSE ON SCENE ProQA comme
-
-Contact: Active911
-[- part 1 of 1] RC:Run# 23121/ATRIUM HEALTHCARE & REHAB//ROOM 2-3/SCC PG 23/CAHOKIA///Psychiatric/Suicide Attempt/40 YOF C/B PYSCH HX DID NOT RESPOND TO HALDAL/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23123/64 EAST BOUND AT 25TH ST////EAST SAINT LOUIS///Traffic Accidents/F PT C/B ROCK WENT THROUGH WINDOW/ GLASS IN MOUTH/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23124/502 S 17TH ST///SCC PG 26/BELLEVILLE///Psychiatric/Suicide Attempt/50 YOM C/B TOOK HANDFUL OF VICODEN PD ON SCENE/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23124/502 S 17TH ST///SCC PG 26/BELLEVILLE///Psychiatric/Suicide Attempt/50 YOM C/B TOOK HANDFUL OF VICODEN PD ON SCENE/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23126/1307 POTOMAC DR///SCC PG 27/BELLEVILLE///Breathing Problems/22 YOF PT C/SOB POSS ETOH/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23127/Red Bud Regional Hosp/ER DEPT/5//RED BUD/Touchette Reg Hosp/IN PATIENT//38 YOM C/B PSYCH EVAL/ SUICIDAL/ NSE/ PCS AND FACE SHEET REQUESTED/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23128/S 27TH ST & TRENDLEY AVE///SCC PG 12/EAST SAINT LOUIS///Unknown Problem (Man Down)/f subj slump over the wheel been there for more than an hour/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23129/Cedar Ridge//E-13-B/SCC PG 18/LEBANON///Transfer/Interfacility/Palliative Care/79YOF C/DIFF BREATHING ELEVATED B/P CODE LEVEL FULL/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23130/PD BELLEVILLE///SCC PG 26/BELLEVILLE///Assault/Rape/20YOM C/B FACIAL INJURIES FROM 10-1O/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23131/S 13TH ST & TUDOR AVE///SCC PG 12/EAST SAINT LOUIS///Traffic Accidents/10-50 ROLLOVER WITH ENTRAPMENT/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23132/3117 W BLVD////BELLEVILLE///Falls/Back Injuries (Traumatic)/PD ON SCENE 23 YOM C/B FELL DOWN STAIRS/ UNK INJ/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23134/Charles Gardens//ROOM 14/SCC PG 15/FAIRVIEW HEIGHTS///Hemorrhage/Lacerations/83 YOM C/B RECTAL BLEED/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23135/631 N 85TH ST///SCC PG 14/EAST SAINT LOUIS///Assault/Rape/28YOF C/B ASSAULTED PD 10-76 SUBJ STRUCK IN THE HEAD/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23136/804 N 33RD ST///SCC PG 3/EAST SAINT LOUIS///Sick Person (Specific Diagnosis)/47YOM C/B UNABLE TO GET UP/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23137/BELLEVILLE HEALTHCARE AND REHAB//404-2/SCC PG 26/BELLEVILLE///Transfer/Interfacility/Palliative Care/90YOF UNRESPONSIVE/B UNK PROBLEM CODE LEVELFULL/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23138/324 N JACKSON ST///SCC PG 26/BELLEVILLE///Unconscious/Fainting (Non-traumatic)/22YOF UNC/B UNK PROBLEM PD 10-76/<PROQA_DET>\r\n\r\n\n
-[- part 1 of 1] RC:Run# 23139/N 21ST ST & SAINT CLAIR AVE///SCC PG 2/EAST SAINT LOUIS///Traumatic Injuries (Specific)/PD 10-23 WINDOWS BUSTED OUT GLASS HIT BABY/<PROQA_DET>\r\n\r\n\n
-
- */
 
 
 public class ILMedstarParser extends DispatchProQAParser {

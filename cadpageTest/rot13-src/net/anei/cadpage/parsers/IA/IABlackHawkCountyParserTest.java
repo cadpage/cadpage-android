@@ -5,6 +5,20 @@ vzcbeg arg.narv.pnqcntr.cnefref.VN.VNOynpxUnjxPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Jngreybb, VN (be Oynpx Unjx Pbhagl)
+Pbagnpg: Elna Znubbq <331zrqvp@tznvy.pbz>
+Fraqre: Fjznvy@oupfb.bet,Kznvy@pbaarpgvatlbh.pbz
+
+10-127299 ZIN EBYYBIRE/20 UJL FRETRNAG EQ JNGREYBB
+10-124880 ZIN EBYYBIRE 1941 J 6GU FG RHERXN/ ZVGPURYY/JNGREYBB
+
+Oynpx Unjx Pbhagl, VN
+Pbagnpg: Npgvir911
+[] (Qvfcngpu) 12-092660 NYYRETVRF/UVIRF/FGVAT/ZRQERNPG \e\aErcbegrq: 09/03/2012 14:41:50 \e\a6615 YNSNLRGGR EQ \e\a4GU FG / 3 EQ FG (EN/LZBAQ EQ \e\aWBR GUBZR GEHPXVAT ENLZB\e\a
+[] (Qvfcngpu) 12-087578 OHEAVAT PBZCYNVAG\e\aErcbegrq: 08/21/2012 17:21:39\e\a504 F 3EQ FG\e\aQHOHDHR / F F PG/\e\aZNEFUNYY,QNIVQ Z3407  YVQ 6661 ENLZBAQ\e\a921\e\a
+
+ */
 
 choyvp pynff VNOynpxUnjxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

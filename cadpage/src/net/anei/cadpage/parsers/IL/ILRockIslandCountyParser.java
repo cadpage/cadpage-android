@@ -7,22 +7,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgParser;
 
-/*
-Rock Island County, IL
-Contact: Darin Keith <darin.keith@hotmail.com>
-Sender: 40404,CAD@ricoetsb.org
-System: Sunguard OSSI
 
-@RIFD: 15221:;CRASH PERSONAL INJURIES;24TH ST/18TH AV
-@RIFD: 15226:;FIRE OTHER;1323 14TH ST
-@RIFD: 15227:;FIRE ALARM;3605 11TH AV
-@RIFD: 16193:;MEDICAL CALL;2300-46 79TH AV W
-S: M:67:FYI: ;STRUCTURE FIRE/GENERAL;2932 RODMAN AV\n
-S: M:68:CANCEL;2932 RODMAN AV; RIA\n
-S: M:69:Update: ;FIRE MUTUAL AID;2932 RODMAN AV\n
-@RIFD: 17437:;MEDICAL CALL;767 30TH ST;RI
-
-*/
 
 public class ILRockIslandCountyParser extends MsgParser {
   

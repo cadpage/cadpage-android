@@ -5,30 +5,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Bulloch County, GA
-Contact: Kelly <kellybarnard@frontiernet.net> (911 center director)
-Contact: "maleman876@gmail.com" <maleman876@gmail.com>
-Contact: Andrew Freeman <andrewfreemanemail@gmail.com>
-Contact:  Steve Champion <swchampion@ymail.com>
-Sender: bullochga911@smtp.sgcce-inc.com
 
-(STRUCTURE FIRE) STRUCTURE FIRE\nCLYDES #47\n513 BROOKLET EAST\nBURNING SMELL FROM FUSE BOX
-(STRUCTURE FIRE) EAST LEE STREET ACROSS FROM BROOKLET POLICE DEPARTMENT\nSTRUCTURE FIRE
-(361 METTS RD) 361 METTS RD\nSTRUCTURE FIRE\nSTOVE AREA
-(STRUCUTRE FIRE) 715 CAMDEN CT DRYER ON FIRE  STATION 8 DIST
-(WOODS FIRE) WOODS FIRE\nBEHIND OAK HILL TRLR PK\n25213 N HIGHWAY 301
-(SMOKE) HEAVY SMOKE AROUND LANE RD
-(STRUCTURE FIRE) 2 RED BREAST LN   OFF OF OLD RIVER RD NORTH UNFAMILIAR ON\nENTRAPMENT ALSO WOODS ON FIRE IN THE AREA OF SHUMAN RD
-(WOODS FIRE) SHUMAN RD OFF OF OLD RIVER RD  NORTH
-(1070B) OLD RIVER RD NORTH IN FRONT OF COOPER WEISS BUILDING, BRUSH FIRE FLAIR UP
-(TIMBERLAND POINTE 116 BRUSH FI) TIMBERLAND POINT BRUSH FIRE\n3698 HWY 24  APT 116 BRUSH
-
-*** Not parsing - no address ***
-(1070G) CEDARWOOD ACRES LOT 21\nYARD SET ON FIRE BY OWNERS\nNOT THREATENING ANYTHING\n1070G
-
-
-*/
 public class GABullochCountyParser extends SmartAddressParser {
   
   private static final Pattern START_NUMBER = Pattern.compile("^\\d+ ");

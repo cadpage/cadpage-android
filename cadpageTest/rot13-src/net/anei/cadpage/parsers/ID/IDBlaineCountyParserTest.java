@@ -5,6 +5,20 @@ vzcbeg arg.narv.pnqcntr.cnefref.VQ.VQOynvarPbhaglCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Oynvar Pbhagl, VQ
+Pbagnpg: Wnzvr Ubbire <ubbirew18@tznvy.pbz>
+Pbagnpg: Xryynaq Jbys <xefjbys@tznvy.pbz>
+Fraqre: yqvfcngpu@pb.oynvar.vq.hf
+
+(PNQ Cntr sbe PSF OP012512-12) SVER NYNEZ\a314 F 7GU FG\aNcg:\aORYYRIHR\aPebff Fgerrgf : CVAR FG * CBCYNE FG
+(PNQ Cntr sbe PSF OP013012-62) TNF YRNX-BQBE AB VAWHEL\a119 F ZNVA FG\aNcg:\aORYYRIHR\aPebff Fgerrgf : RYZ FG * BNX FG
+(PNQ Cntr sbe PSF OP120311-14) FGEHPGHER SVER\a313 A 2AQ NIR\aNcg:\aUNVYRL\aPebff Fgerrgf : R TNYRAN FG * R FVYIRE FG
+(PNQ Cntr sbe PSF OP111611-42) UNMZNG AB VAWHEL VAPVQRAG\a516 A ZNVA FG\aNcg:\aORYYRIHR\aPebff Fgerrgf : ORRPU FG * NFU FG
+(PNQ Cntr sbe PSF OP072511-60) SVER-FGEHPGHER\aPRQNE FG naq A 4GU FG\aNcg:\aORYYRIHR\aPebff Fgerrgf : RYZ FG * PRQNE FG
+(PNQ Cntr sbe PSF OP021212-61) Pbaihyfvbaf-Frvmherf\a1160 RPUB UVYY QE\aNcg: \aUNVYRL\aPebff Fgerrgf : OHGGRESYL QE * OREELPERRX QE
+
+*/
 
 choyvp pynff VQOynvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

@@ -5,6 +5,85 @@ vzcbeg arg.narv.pnqcntr.cnefref.QR.QRFhffrkPbhaglOCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Fhffrk Pbhagl, QR
+Pbagnpg: Evpuneq Fubeg <efubeg7815@tznvy.pbz>
+Fraqre: pnq@fhffrkpbhaglqr.tbi 
+(PNQ Nyreg) 78FG   Pnyy ng: 21303 Nvecbeg Eq         Ybp: GRFG PNYY GRFG PNYY      Pvgl:19947  Ceboyrz:  Fgehpgher Sver                  Vap#: 2012-018545   
+(PNQ Nyreg) Vap#: 2012-018946 78NF3  Pnyy ng: 10064 Zrzbel Eq          Ybp:                          Pvgl:19952  Ceboyrz:  Fvpx Crefba(Fcrpvsvp Qvnt)-OYF   Q
+(PNQ Nyreg) Vap#: 2012-018835 78NFG  Pnyy ng: 14514 Bnx Eq             Ybp:                          Pvgl:19950  Ceboyrz:  Nffnhyg/Frkhny Nffnhyg-OYF       Q
+(PNQ Nyreg) 78NFG  Pnyy ng: 6300 Frnfuber Ujl        Ybp: HFR ONPX QBBE            Pvgl:19933  Ceboyrz:  Purfg Cnva-NYF                  Vap#: 2012-018955    
+
+Pbagnpg: PbqrZrffntvat
+Fraqre: @p-zft.arg
+
+Fgn: Vap#: 2012-018227 78NF3 Ybp:: 14042 Zvyr Fgergpu Eq Ybp: Pvgl: :19950 ---: Fvpx Crefba(Fcrpvsvp Qvnt)-OYF QVFC: 16:23:46 Pebff Fg: NQNZF EQ/FGBAR YA
+Fgn: 78NFG Ybp:: Erqqra Eq & Fhffrk Ujl Ybp: Pvgl: :19933 ---: Genssvp/GenafcbegngvbaNpqagOYF Vap#: 2012-016829 Yng: 38749167 Ybat: 75593147 QVFC: 17:43:24 Pebff Fg:
+Fgn: Vap#: 2012-018395 78NFG Ybp:: 12046 Fhafrg Ya Ybp: Pbhagel Erfg Ubzr, arj frPvgl: :19950 ---: Vagresnpvyyvgl/Cnyyvngvir-NYF QVFC: 12:11:29 Pebff Fg: LBQRE QE/ZNERYYN YA
+Fgn: 78NFG Ybp:: 6496 Frnfuber Ujl Ybp: juvgr ufr oynpx fhi va qePvgl: :19933 ---: Pbaihyfvbaf/Frvmherf-NYF Vap#: 2012-016825 Yng: 38759789 Ybat: 75637263 QVFC: 16:16:57 Pebff Fg: CBYX EQ/GJVA YNARF SNEZ EQ
+Fgn: Vap#: 2012-018289 78FG Ybp:: 12502 Jbbqoevqtr Eq Ybp: Pvgl: :19950 ---: Oernguvat ---f-NYF QVFC: 12:12:50 Pebff Fg: ZP QBJRYY EQ/QRRE ZRNQBJF EQ
+Fgn: Vap#: 2012-018284 78NFG Ybp:: 11120 - 11123 Pbba Qra EqYbp: 11192 Pvgl: :19950 ---: Fvpx Crefba(Fcrpvsvp Qvnt)-OYF QVFC: 11:40:15 Pebff Fg: WBUAFBA UHAG EA/FUNJARR EQ
+Fgn: 78FG Ybp:: 19 Unira Qe Ybp: Pvgl: :19947 ---: Oernguvat ---f-NYF Vap#: 2012-018709 Yng: 38656946 Ybat: 75321836 QVFC: 08:10:20 Pebff Fg: CRGREXVAF EQ/BNX XABYY PG
+Fgn: Vap#: 2012-018708 78FG Ybp:: 292 Fgnlgbaivyyr Eq Ybp: gnaxre pbzcnag nffvfg FgnPvgl: :19952 ---: Fgehpgher Sver QVFC: 08:08:35 Pebff Fg: JBYSF GENVY RAQ QE/JBBQLNEQ EQ
+Fgn: 78NF2 Ybp:: 7 J Znexrg Fg Ybp: Pvgl: :19950 ---: Fvpx Crefba(Fcrpvsvp Qvnt)-OYF Vap#: 2012-017442 QVFC: 12:35:34 Pebff Fg: Qrnq Raq/A PUHEPU FG
+Fgn: Vap#: 2012-018217 78NF3 Ybp:: 13469 Jbys Eq Ybp: Pvgl: :19950 ---: Nffnhyg/Frkhny Nffnhyg-OYF QVFC: 14:40:31 Pebff Fg: BJRAF EQ/Qrnq Raq
+Fgn: 78P Ybp:: 12808 Zraabavgr Fpubby EqYbp: Pvgl: :19950 ---: Nynez Pbzcnal Vap#: 2012-016589 QVFC: 01:28:21 Pebff Fg: JBBQ YA/INAVGL YA
+Fgn: 78NF3 Ybp:: 13600 - 13738 Zvyr FgergpYbp: fgntr Pvgl: :19950 ---: Bireqbfr/Cbvfbavat-NYF Vap#: 2012-016170 QVFC: 20:12:27 Pebff Fg: WNZRFJNL YA/FPBGGF FGBER EQ
+Fgn: 78NF3 Ybp:: 11595 Fhffrk Ujl Ybp: Pvgl: :19950 ---: Fvpx Crefba(Fcrpvsvp Qvnt)-OYF Vap#: 2012-017516 QVFC: 08:55:58 Pebff Fg: ANAGVPBXR OHFVARFF CNEX QE/TERRAJBBQ EQ
+Fgn: 78P Ybp:: 0 Frnpunfr Ya Ybp: Frnpunfr bs Terrajbbq 304Pvgl: :19950 ---: Nccyvnapr Sver Vap#: 2012-017559 QVFC: 18:55:11 Pebff Fg: Pneg Oenapu Pve/Pneg Oenapu Pve
+Fgn: 78NF1 Ybp:: 13230 Uhagref Pbir Eq Ybp: Pvgl: :19950 ---: Fgebxr-NYF Vap#: 2012-017266 QVFC: 16:49:32 Pebff Fg: Qrnq Raq/BJRAF EQ
+Fgn: 78NF3 Ybp:: 6190 Uvpxzna Eq Ybp: Pvgl: :19950 ---: Purfg Cnva-NYF Vap#: 2012-016107 QVFC: 22:35:27 Pebff Fg: AVAR SBBG EQ/Qrnq Raq
+Fgn: 78NFG Ybp:: 100 J Znexrg Fg Ybp: Pvgl: :19950 ---: Cflpuvngevp/Noabezny Oruie-OYF Vap#: 2012-016101 QVFC: 21:26:39 Pebff Fg: A PUHEPU FG/A SVEFG FG
+Fgn: 78NF3 Ybp:: 0 Yrfgre Nir Ybp: lryybj naq juvgr genvybe Pvgl: :19950 ---: Urnqnpur-OYF Vap#: 2012-016006 Yng: 38789084 Ybat: 75596637 QVFC: 20:20:43 Pebff Fg: NYCUN FG/NQNZF EQ
+Fgn: 78NF3 Ybp:: 205 Tbireabef Nir Ybp: Pvgl: :19950 ---: Oernguvat ---f-NYF Vap#: 2012-016260 QVFC: 20:19:51 Pebff Fg: FHFFRK NIR/ZNELYNAQ NIR
+Fgn: 78NFG Ybp:: 6788 Juvgryrlfohet Eq Ybp: nzo 78 Pvgl: :19952 ---: Cflpuvngevp/Noabezny Oruie-OYF Vap#: 2012-017161 QVFC: 11:48:09 Pebff Fg: OEBJAFIVYYR EQ/Qrnq Raq
+Fgn: 78NF1 Ybp:: Fhffrk Ujl & Terrajbbq EqYbp: Pvgl: :19950 ---: Genssvp/GenafcbegngvbaNpqagOYF Vap#: 2012-017619 QVFC: 13:18:01 Pebff Fg:
+Fgn: 78P Ybp:: 13149 Zraabavgr Fpubby EqYbp: Pvgl: :19950 ---: Bhgfvqr Sver Vap#: 2012-017948 QVFC: 16:11:32 Pebff Fg: INAVGL YA/ORNPU UJL
+Fgn: 78NFG Ybp:: Fhffrk Ujl & Arjgba Jnl Ybp: a/o Pvgl: :19950 ---: Genssvp/GenafcbegngvbaNpqagOYF Vap#: 2012-018120 Yng: 38767148 Ybat: 75592781 QVFC: 15:21:34 Pebff Fg:
+Fgn: 78NF3 Ybp:: 8862 Terrajbbq Eq Ybp: Pvgl: :19950 ---: Pbaihyfvbaf/Frvmherf-NYF Vap#: 2012-016681 QVFC: 01:19:12 Pebff Fg: SVEFG FG/ANAGVPBXR OHFVARFF CNEX QE
+Fgn: 78NF2 Ybp:: 2985 Frnfuber Ujl Ybp: Pvgl: :19950 ---: Hapbafpvbhf/Snvagvat(Arne)-NYF Vap#: 2012-017090 QVFC: 13:20:29 Pebff Fg: JBBQRAUNJX EQ/JNYAHG GERR SNEZ EQ
+Fgn: 78NFG Ybp:: Gbjre Uvyy Eq & F Qhcbag Ybp: nzo 78 nffvfg fgn 50 Pvgl: :19952 ---: Genssvp/GenafcbegngvbaNpqagOYF Vap#: 2012-017409 QVFC: 01:10:36 Pebff Fg:
+Fgn: 78NFG Ybp:: 502 R Znexrg Fg Ybp: Qvfpbire Onax Pvgl: :19950 ---: Snyyf-OYF Vap#: 2012-017901 QVFC: 10:45:15 Pebff Fg: Fhffrk Ujl/Qhpx Perrx Ya
+Fgn: Vap#: 2012-017990 78NF3 Ybp:: 300 J Znexrg Fg Ybp: Pvgl: :19950 ---: Noqbzvany Cnva-NYF QVFC: 08:15:44 Pebff Fg: A SVEFG FG/F 2AQ FG
+Fgn: 78NFG Ybp:: Erqqra Eq & Nccyr Gerr EqYbp: Pvgl: :19933 ---: Genssvp/GenafcbegngvbaNpqagNYF Vap#: 2012-018637 Yng: 38748040 Ybat: 75551423 QVFC: 11:57:02 Pebff Fg:
+Fgn: 78FG Ybp:: 14530 Fcneebj Qe Ybp: Pvgl: :19950 ---: Purfg Cnva-NYF Vap#: 2012-017078 QVFC: 10:45:22 Pebff Fg: NQNZF EQ/Qrnq Raq
+Fgn: 78NFG Ybp:: 18427 - 18501 Fhffrk Ujl Ybp: F/O Pvgl: :19933 ---: Genssvp/GenafcbegngvbaNpqagNYF Vap#: 2012-017808 Yng: 38729900 Ybat: 75591016 QVFC: 12:38:11 Pebff Fg: EVSYR ENATR EQ/PBAARPGVAT EBNQ
+Fgn: 78NFG Ybp:: 4003 Frnfuber Ujl Ybp: Pvgl: :19933 ---: Fvpx Crefba(Fcrpvsvp Qvnt)-OYF Vap#: 2012-017809 QVFC: 13:09:24 Pebff Fg: JBBQRAUNJX EQ/JNYAHG GERR SNEZ EQ
+Fgn: Vap#: 2012-018589 78NF1 Ybp:: 12733 Funjarr Eq Ybp: Pvgl: :19950 ---: Purfg Cnva-NYF QVFC: 21:29:15 Pebff Fg: IVPGBEL YA/ORNPU UJL
+Fgn: 78NF3 Ybp:: 8460 - 8518 Uvpxzna Eq Ybp: Pvgl: :19950 ---: Genssvp/GenafcbegngvbaNpqagOYF Vap#: 2012-015931 Yng: 38808690 Ybat: 75600119 QVFC: 07:32:05 Pebff Fg: QRYNJNER QE/J ZNEXRG FG
+Fgn: 78NFG Ybp:: 13384 Fnvag Wbuafgbja Eq Ybp: Pvgl: :19950 ---: Qvnorgvp ---f-OYF Vap#: 2012-016052 Yng: 38804634 Ybat: 75575759 QVFC: 11:45:43 Pebff Fg: FUNJARR EQ/FHTNE UVYY EQ
+Fgn: 78NFG Ybp:: 2985 Frnfuber Ujl Ybp: Pvgl: :19950 ---: Purfg Cnva-NYF Vap#: 2012-016130 QVFC: 10:04:39 Pebff Fg: JBBQRAUNJX EQ/JNYAHG GERR SNEZ EQ
+Fgn: 78NFG Ybp:: 15639 Funecf Zvyy Eq Ybp: Pvgl: : ---: Pbaihyfvbaf/Frvmherf-NYF Vap#: 2012-016126 QVFC: 08:40:41 Pebff Fg:
+Fgn: 78NF3 Ybp:: 5 J Znexrg Fg Ybp: Pvgl: :19950 ---: Genhzngvp Vawhevrf-OYF Vap#: 2012-016324 QVFC: 13:16:55 Pebff Fg: Qrnq Raq/A PUHEPU FG
+Fgn: 78NF3 Ybp:: 600 R Znexrg Fg Ybp: eblny snezf Pvgl: :19950 ---: Urzbeeuntr/Ynprengvbaf-NYF Vap#: 2012-016531 QVFC: 11:32:21 Pebff Fg: QHPX PERRX YA/FHFFRK UJL
+Fgn: 78NF3 Ybp:: 12608 Jroo Snez Eq Ybp: Pvgl: :19950 ---: Fgebxr-NYF Vap#: 2012-016972 QVFC: 06:12:40 Pebff Fg: PRAGHEL SNEZ EQ/ORNPU UJL
+Fgn: 78NFG Ybp:: Uvpxzna Eq & Fpbggf FgberYbp: Pvgl: :19950 ---: Genssvp/GenafcbegngvbaNpqagOYF Vap#: 2012-017076 QVFC: 10:16:55 Pebff Fg:
+Fgn: 78NFG Ybp:: 12388 - 12408 Fhffrk Ujl Ybp: fzvguf Pvgl: :19950 ---: Snyyf-OYF Vap#: 2012-017062 QVFC: 08:26:36 Pebff Fg: TERRAJBBQ EQ/PBAARPGVAT EBNQ
+Fgn: 78NF2 Ybp:: 980 Tnyyb Eq Ybp: Pvgl: :19952 ---: Fvpx Crefba(Fcrpvsvp Qvnt)-OYF Vap#: 2012-017318 QVFC: 05:53:01 Pebff Fg: NAQERJIVYYR EQ/Qrnq Raq
+Fgn: 78NFG Ybp:: 2667 Frnfuber Ujl Ybp: Pvgl: :19950 ---: Genssvp/GenafcbegngvbaNpqagOYF Vap#: 2012-017476 QVFC: 18:13:25 Pebff Fg: NQNZFIVYYR EQ/JBBQRAUNJX EQ
+Fgn: 78NFG Ybp:: 12154 Qrre Sberfg Eq Ybp: Pvgl: :19933 ---: Urzbeeuntr/Ynprengvbaf-OYF Vap#: 2012-016445 Yng: 38749267 Ybat: 75540050 QVFC: 14:43:34 Pebff Fg: WRAAN YA/BNX EQ
+Fgn: 78P Ybp:: 13544 Bjraf Eq Ybp: Pvgl: :19950 ---: Svryq Sver Vap#: 2012-016461 QVFC: 16:02:32 Pebff Fg: JBYS EQ/YBLQF YA
+Fgn: 78NFG Ybp:: Uhagref Pbir Eq & Ornpu UYbp: Pvgl: :19950 ---: Genssvp/GenafcbegngvbaNpqagNYF Vap#: 2012-016476 QVFC: 19:00:49 Pebff Fg:
+Fgn: 78NFG Ybp:: 104 A Puhepu Fg Ybp: havg 4 Pvgl: :19950 ---: Fvpx Crefba(Fcrpvsvp Qvnt)-OYF Vap#: 2012-016742 QVFC: 20:00:54 Pebff Fg: J ZVABE FG/OEBNQ FG
+Fgn: 78NF3 Ybp:: 8182 Fgbar Ya Ybp: Pvgl: :19950 ---: Snyyf-OYF Vap#: 2012-016867 QVFC: 23:58:58 Pebff Fg: ZVYR FGERGPU EQ/Qrnq Raq
+Fgn: 78NFG Ybp:: 103 Fhffrk Nir Ybp: Pvgl: :19933 ---: Fvpx Crefba(Fcrpvsvp Qvnt)-OYF Vap#: 2012-016933 Yng: 38738785 Ybat: 75598120 QVFC: 17:44:55 Pebff Fg: F ZNVA FG/YNJF FG
+Fgn: 78NFG Ybp:: 416 Znexrg Fg Ybp: Wrssf Gnc Ebbz Pvgl: :19933 ---: Oheaf(Fpnyqf)/Rkcybfvba-OYF Vap#: 2012-016951 Yng: 38742585 Ybat: 75604883 QVFC: 21:07:15 Pebff Fg: Zvyy Fg/A Pnaaba Fg
+Fgn: 78NFG Ybp:: Ebpx Eq & Fhffrk Ujl Ybp: Pvgl: :19950 ---: Fvpx Crefba(Fcrpvsvp Qvnt)-OYF Vap#: 2012-017031 QVFC: 18:51:25 Pebff Fg:
+Fgn: 78NFG Ybp:: 2381 Naqerjivyyr Eq Ybp: Pvgl: :19950 ---: Oernguvat ---f-NYF Vap#: 2012-017041 QVFC: 22:26:18 Pebff Fg: CEBFCRPG PUHEPU EQ/Qrnq Raq
+Fgn: 78P Ybp:: 12018 Nqnzfivyyr Eq Ybp: Pvgl: :19950 ---: Ubhfr Sver Vap#: 2012-017043 QVFC: 23:16:29 Pebff Fg: FDHVEERY YA/Qrnq Raq
+Fgn: 78NFG Ybp:: 14577 Fhffrk Ujl Ybp: Pvgl: :19950 ---: Oernguvat ---f-NYF Vap#: 2012-017493 QVFC: 23:35:28 Pebff Fg: PBAARPGVAT EBNQ/PNZCORYY YA
+Fgn: 78NFG Ybp:: 14458 Bjraf Eq Ybp: Pvgl: :19950 ---: Fvpx Crefba(Fcrpvsvp Qvnt)-OYF Vap#: 2012-017570 QVFC: 21:02:53 Pebff Fg: PYNEQBA SNEZ YA/GHPXREF EQ
+Fgn: 78NFG Ybp:: 12551 Ornpu Ujl Ybp: Pvgl: :19950 ---: Pubxvat-OYF Vap#: 2012-017676 QVFC: 21:55:33 Pebff Fg: WHQL EQ/OYNPXFZVGU FUBC EQ
+Fgn: 78NF3 Ybp:: 12456 Jbbqoevqtr Eq Ybp: Pvgl: :19950 ---: Fvpx Crefba(Fcrpvsvp Qvnt)-OYF Vap#: 2012-017681 QVFC: 23:09:59 Pebff Fg: ZP QBJRYY EQ/QRRE ZRNQBJF EQ
+Fgn: 78NF3 Ybp:: 0 R Znexrg Fg Ybp: Lbqre'f Znexrg Pvgl: :19950 ---: Noqbzvany Cnva-OYF Vap#: 2012-017726 QVFC: 14:02:39 Pebff Fg: Qrnq Raq/ENVYEBNQ NIR
+Fgn: 78NFG Ybp:: 1735 Jbbqlneq Eq Ybp: nffvfg e47 Pvgl: :19952 ---: Noqbzvany Cnva-OYF Vap#: 2012-017732 QVFC: 15:54:19 Pebff Fg: PBBA QRA EQ/FGNLGBAIVYYR EQ
+Fgn: 78NFG Ybp:: 13978 Zvyr Fgergpu Eq Ybp: Pvgl: :19950 ---: Pbaihyfvbaf/Frvmherf-NYF Vap#: 2012-017843 QVFC: 19:52:37 Pebff Fg: PUNZCVBA YA/WNZRFJNL YA
+Fgn: 78NFG Ybp:: 508 A Pnaaba Fg Ybp: Pvgl: :19933 ---: Nffnhyg/Frkhny Nffnhyg-OYF Vap#: 2012-017845 Yng: 38746952 Ybat: 75603992 QVFC: 20:54:38 Pebff Fg: BNX FG/FRPBAQ FG
+Fgn: Vap#: 2012-018334 78NF3 Ybp:: 499 Tbireabef Nir Ybp: Jbbqoevqtr Ryrzragnel FpuPvgl: :19950 ---: Oernguvat ---f-NYF QVFC: 20:07:09 Pebff Fg: Fhffrk Ujl/Dhrra Nir
+Fgn: Vap#: 2012-018512 78NF2 Ybp:: 12036 Fhffrk Ujl Ybp: Terrajbbq Vaa/ EZ11 Pvgl: :19950 ---: Urnqnpur-OYF QVFC: 21:09:24 Pebff Fg: Terrajbbq Eq/Anagvpbxr Ohfvarff Cnex Qe
+
+ */
+
 choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp QRFhffrkPbhaglOCnefreGrfg() {

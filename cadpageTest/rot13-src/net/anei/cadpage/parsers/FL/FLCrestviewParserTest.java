@@ -5,6 +5,18 @@ cnpxntr arg.narv.pnqcntr.cnefref.SY;
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
+/*
+Perfgivrj, SY
+Pbagnpg: "Qnivq Znkrl" <qznkrl09@ig.rqh>
+Fraqre: @p-zft.arg
+
+Pnyy_Ahzore: 1806 | Vap_Ahzore:  | Havgf: PSQ,Ratvar 2, | Pbzcynvag: ZHGHNY NVQ | Ybpngvba: Frpbaq Nir | Nqqerff: 481    | Qvfcbfvgvba:  | Obk:  | Gvzr_Qvfcngpurq: 2012-06-25 07:20:20 | Aneengvir: fghzc ba sver 10 sg sebz n erfvqrapr npghny fvgr vf npebff | Guvf_Havg: Ratvar 2
+Pnyy_Ahzore: 1805 | Vap_Ahzore:  | Havgf: PSQ,Erfphr 3, | Pbzcynvag: RZF QRYGN | Ybpngvba: Nqnzf (100-748) | Nqqerff:  Nqnzf QE  | Qvfcbfvgvba:  | Obk: 1 | Gvzr_Qvfcngpurq: 2012-06-25 01:47:29 | Aneengvir: 305 nqnzf qe arne obo fvxrf fpubby | Guvf_Havg: Erfphr 3
+Pnyy_Ahzore: 1871 | Vap_Ahzore: 1536 | Havgf: PSQ,Erfphr 3, | Pbzcynvag: RZF QRYGN | Ybpngvba: Yyblq -A (100-1708) | Nqqerff: 966 AYyblq FG  | Qvfcbfvgvba:  | Obk: 1 | Gvzr_Qvfcngpurq: 2012-07-01 14:14:13 | Aneengvir: haxabja ntrq znyr cbffvoyr fgebxr | Guvf_Havg: Erfphr 3
+Pnyy_Ahzore: 1869 | Vap_Ahzore:  | Havgf: PSQ,Erfphr 3, | Pbzcynvag: RZF QRYGN | Ybpngvba: Tevssvgu -R Nirahr    (200-664) | Nqqerff: 503 RTevssvgu NIR  | Qvfcbfvgvba:  | Obk: 1 | Gvzr_Qvfcngpurq: 2012-07-01 13:16:45 | Aneengvir: 53 lb znyr univat frvmherf | Guvf_Havg: Erfphr 3
+Pnyy_Ahzore: 2278 | Vap_Ahzore:  | Havgf: PSQ,Ynqqre 3, | Pbzcynvag: RZF QRYGN | Ybpngvba: Jnyahg -R Nir  (100-901) | Nqqerff:  RJnyahg NIR  | Qvfcbfvgvba:  | Obk: 1 | Gvzr_Qvfcngpurq: 2012-08-14 21:17:37 | Aneengvir: 645 R Jnyahg Nir sbe hapbafpvbhf cg | Guvf_Havg: Ynqqre 3 
+
+*/
 
 choyvp pynff SYPerfgivrjCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

@@ -5,6 +5,45 @@ vzcbeg arg.narv.pnqcntr.cnefref.VY.VYZrqfgneCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Zrqfgne VY (Zrqvpny bayl va Enaqbys, Pyvagba, naq Fg Pynve pbhagvrf)
+Pbagnpg: y.xrvefgrnq@lnubb.pbz,6154407605@imjcvk.pbz
+Fraqre: rzfqvfcngpu@zrqfgnerzf.arg
+Flfgrz: CebDN
+[- cneg 1 bs 1]  EP:Eha# 34870/64 JRFG OBHAQ//npebff sebz jrvtug fgngvba/////znyr fhow juvgr pne uvg ol n gehpx vfc ra ebhgr/<CEBDN_QRG>
+[- cneg 1 bs 1]  EP:Eha# 34859/505 YRZNAF JNL///FPP CT 15/SNVEIVRJ URVTUGF///55lbs hap qvss o cbffvoyr bireqbfr ba cvyyf - nqnina genznqby/<CEBDN_QRG>
+[- cneg 1 bs 1]  EP:Eha# 34577/20 XVAQRE FG//pnu/FPP CT 11/RNFG FNVAG YBHVF///31s p/o purfg naq onpx ck pneqvnp uk  CebDN pbzzragf: purfg ck/10Q04
+[- cneg 1 bs 1]  EP:Eha# 34384/1308 PBEYVFF//jrfgvatubhfr naq a terrazbhag//FUVYB///38z p/o encvq urneg engr/<CEBDN_QRG>
+[- cneg 1 bs 1]  EP:Eha# 34620/13 YBVFRY QE///FPP CT 14/RNFG FNVAG YBHVF///70 Z P/O PBASHFRQ CebDN pbzzragf: HAX/31Q03
+(- cneg 1 bs 1) EP:Eha# 35456/FGNGR UJL 157 & FGNGR UJL 15//Pragreivyyr/FPP CT 13/RNFG FNVAG YBHVF///crqrfgvna fgehpx/<CEBDN_QRG>
+(- cneg 1 bs 1) EP:Eha# 35411/Fg Ryvmnorguf O'iyy/VA CNGVRAG/634 1/FPP CT 26/ORYYRIVYYR/119 XRAFVATGBA URVTUGF EQ//s rkgerzr jrnxarff hanoyr gb fhccbeg f
+
+Pbagnpg: Fpbgg Sel <rzgonfvp12@tznvy.pbz>
+1 bs 2\aSEZ:rzfqvfcngpu@zrqfgnerzf.arg\aFHOW:- cneg 1 bs 1\aZFT:EP:Eha# 17158/Fg Ryvmnorguf O'iyy/VA CNGVRAG/347-2/FPP CT26/ORYYRIVYYR/429 F ZNVA\a(Pba'g) 2 bs 2\aFG//PBASHFRQ CBFF PBZONGVIR AFR CPF NAQ SNPRFURRG ERD ***ZRQVPNER****\a(Raq)
+
+Pbagnpg: Znex Ornegu <znex.ornegu@tznvy.pbz>
+EP:Eha# 17411/451 3EQ FG////ORPXRZRLRE///FG NAGUBAL'F PUHEPU  75LBZ HAP/OERNGUVAT AHEFR BA FPRAR CebDN pbzzr
+
+Pbagnpg: Npgvir911
+[- cneg 1 bs 1] EP:Eha# 23121/NGEVHZ URNYGUPNER & ERUNO//EBBZ 2-3/FPP CT 23/PNUBXVN///Cflpuvngevp/Fhvpvqr Nggrzcg/40 LBS P/O CLFPU UK QVQ ABG ERFCBAQ GB UNYQNY/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23123/64 RNFG OBHAQ NG 25GU FG////RNFG FNVAG YBHVF///Genssvp Nppvqragf/S CG P/O EBPX JRAG GUEBHTU JVAQBJ/ TYNFF VA ZBHGU/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23124/502 F 17GU FG///FPP CT 26/ORYYRIVYYR///Cflpuvngevp/Fhvpvqr Nggrzcg/50 LBZ P/O GBBX UNAQSHY BS IVPBQRA CQ BA FPRAR/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23124/502 F 17GU FG///FPP CT 26/ORYYRIVYYR///Cflpuvngevp/Fhvpvqr Nggrzcg/50 LBZ P/O GBBX UNAQSHY BS IVPBQRA CQ BA FPRAR/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23126/1307 CBGBZNP QE///FPP CT 27/ORYYRIVYYR///Oernguvat Ceboyrzf/22 LBS CG P/FBO CBFF RGBU/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23127/Erq Ohq Ertvbany Ubfc/RE QRCG/5//ERQ OHQ/Gbhpurggr Ert Ubfc/VA CNGVRAG//38 LBZ P/O CFLPU RINY/ FHVPVQNY/ AFR/ CPF NAQ SNPR FURRG ERDHRFGRQ/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23128/F 27GU FG & GERAQYRL NIR///FPP CT 12/RNFG FNVAG YBHVF///Haxabja Ceboyrz (Zna Qbja)/s fhow fyhzc bire gur jurry orra gurer sbe zber guna na ubhe/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23129/Prqne Evqtr//R-13-O/FPP CT 18/YRONABA///Genafsre/Vagresnpvyvgl/Cnyyvngvir Pner/79LBS P/QVSS OERNGUVAT RYRINGRQ O/C PBQR YRIRY SHYY/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23130/CQ ORYYRIVYYR///FPP CT 26/ORYYRIVYYR///Nffnhyg/Encr/20LBZ P/O SNPVNY VAWHEVRF SEBZ 10-1B/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23131/F 13GU FG & GHQBE NIR///FPP CT 12/RNFG FNVAG YBHVF///Genssvp Nppvqragf/10-50 EBYYBIRE JVGU RAGENCZRAG/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23132/3117 J OYIQ////ORYYRIVYYR///Snyyf/Onpx Vawhevrf (Genhzngvp)/CQ BA FPRAR 23 LBZ P/O SRYY QBJA FGNVEF/ HAX VAW/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23134/Puneyrf Tneqraf//EBBZ 14/FPP CT 15/SNVEIVRJ URVTUGF///Urzbeeuntr/Ynprengvbaf/83 LBZ P/O ERPGNY OYRRQ/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23135/631 A 85GU FG///FPP CT 14/RNFG FNVAG YBHVF///Nffnhyg/Encr/28LBS P/O NFFNHYGRQ CQ 10-76 FHOW FGEHPX VA GUR URNQ/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23136/804 A 33EQ FG///FPP CT 3/RNFG FNVAG YBHVF///Fvpx Crefba (Fcrpvsvp Qvntabfvf)/47LBZ P/O HANOYR GB TRG HC/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23137/ORYYRIVYYR URNYGUPNER NAQ ERUNO//404-2/FPP CT 26/ORYYRIVYYR///Genafsre/Vagresnpvyvgl/Cnyyvngvir Pner/90LBS HAERFCBAFVIR/O HAX CEBOYRZ PBQR YRIRYSHYY/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23138/324 A WNPXFBA FG///FPP CT 26/ORYYRIVYYR///Hapbafpvbhf/Snvagvat (Aba-genhzngvp)/22LBS HAP/O HAX CEBOYRZ CQ 10-76/<CEBDN_QRG>\e\a\e\a\a
+[- cneg 1 bs 1] EP:Eha# 23139/A 21FG FG & FNVAG PYNVE NIR///FPP CT 2/RNFG FNVAG YBHVF///Genhzngvp Vawhevrf (Fcrpvsvp)/CQ 10-23 JVAQBJF OHFGRQ BHG TYNFF UVG ONOL/<CEBDN_QRG>\e\a\e\a\a
+
+ */
 
 choyvp pynff VYZrqfgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

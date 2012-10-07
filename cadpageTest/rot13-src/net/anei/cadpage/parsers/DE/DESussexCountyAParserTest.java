@@ -5,6 +5,58 @@ vzcbeg arg.narv.pnqcntr.cnefref.QR.QRFhffrkPbhaglNCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+[86 RZF] -- 31P2 -- 33384 Unegsbeq Pg Yrjrf
+[86 RZF] -- 33N1 -- 36101 Frnfvqr Oyiq Erubobgu
+[86 RZF] -- 17N1 -- 18958 Pbnfgny Ujl Yrjrf
+[86 Sver] -- S - Nhgb Sver Nynez -- Unyyznex, Cnepry Cbfg, Fnsrjnl -- 19266 Pbnfgny Ujl Erubobgu -- VAP #602
+[86 Sver] -- S - Fgnaqol -- Orgunal Ornpu Fgngvba 70 Erubobgu Ornpu -- VAP #599
+[83 SVER] -- Genssvp/GenafcbegngvbaNpqagNYF -- 228 J Qhcbag Ujl Zvyyfobeb 19966 -- Sbbq Yvba (83)
+[83 SVER] -- Iruvpyr Sver -- 26026 Cngevbgf Jnl Trbetrgbja 19947 -- Fhffrk Prageny Uvtu Fpubby
+[83 SVER] -- Pneoba Zbabkvqr Qrgrpgbe -- 28 Cnggrefba Qe Trbetrgbja 19947 
+[83 SVER] -- Jnfuqbja (Shry Fcvyy) -- 26972 - 28044 Mbne Eq Trbetrgbja 19947
+[83 SVER] -- Genssvp/GenafcbegngvbaNpqagOYF -- 0 Qhcbag Oyiq & Ni Bs Ubabe Trbetrgbja 19947
+[83 SVER] -- Fgehpgher Sver -- 0 WBUAFBA EQ & WRFGVPR SNEZ EQ Ynhery 19956
+[83 SVER] -- Pneqvnp/Erfc./Qrngu-NYF -- 28723 Jbbqperfg Qe Uneorfba 19951
+
+[81 SVER] -- Genssvp/GenafcbegnvbaNpqagOYF -- 0 Qvfpbhag Ynaq Eq & Fhffrk Uj
+[81 RZF] -- Purfg Cnva-NYF -- 34544 Qbr Qe Ynhery 19956
+[81 SVER] -- Pneqvnp/Erf./Qrngu-NYF -- 815 F Prageny Nir Ynhery 19956 -- Ynhery Zvqqyr / vagrezrqvngr a
+[81 RZF] -- Noqbzvany Cnva-OYF -- 30594 FHffrk Ujl Ynhery 19956 -- Erynk Vaa
+[81 RZF] -- Hapbapvbhf/Snvagvat(Arne)-NYF -- 31574 Juvgr Nir Ynhery 19956
+[81 RZF] -- Snyyf-OYF -- 609 Yvggyr Perrx Qe Ynhery 19956
+
+Fcrpvsvp gb Frnsbeq
+[87 RZF] -- 1N Noqbzvany Cnvaf (NYF) -- 6412 Jbbqqhpx Qe Frnsbeq qr, 19973
+[87 SVER] -- Fzbxr Vairfgvtngvba -- 6341 Onxre Eq Frnsbeq qr, 19973
+[87 RZF] -- 6N Oernguvat Ceboyrzf (NYF) -- 24642 Fuhsryg Eq Frnsbeq qr, 19973
+[87 SVER] -- Nffvfg Bgure Ntrapl -- Uvpxbel Uvyy Eq/ Thneq Eq Frnsbeq qr, 19973
+[87 RZF] -- 33N Vagresnpvyvgl (NYF) -- 715 R Xvat Fg 204n Frnsbeq qr, 19973
+[87 RZF] -- 13N Qvnorgvp Ceboyrzf (NYF) -- 24101 Qbir Eq Frnsbeq qr, 19973
+
+[FGN:91] -- Haxabja Ceboyrz(Zna Qbja)-OYF -- 31905 Ybat Arpx Eq Zvyyfobeb 19966 -- Jvyzvatgba Gehfg Pbzcnal
+[FGN:91] -- Oernguvat Ceboyrzf-NYF -- 32523 R Onygvzber Pg Zvyyfobeb 19966
+[FGN:91] -- Snyyf-OYF -- 0 Ybat Arpx Eq & Fpubby Ya Zvyyfobeb 19966 -- AB VQRN
+[FGN:91] -- Pbaihyfvbaf/Frvmherf-OYF -- 32532 Ybat Arpx Eq Zvyyfobeb 19966 -- Yvatb Perrx Ncg
+
+Pbagnpg: Frna Uhzcuerlf <uhzc7777@tznvy.pbz>
+Fraqre: zft@pszft.pbz <Sebz%3Nzft@pszft.pbz>
+(Puvrs NYG) [86 RZF] -- 1P6 -- 1 Fpbafrg Pg Erubobgu Ornpu
+(Puvrs NYG) [86 RZF] -- 26P2 -- 36121 Xavtug Fg Erubobgu Ornpu
+
+Pbagnpg: pze199182@lnubb.pbz
+(Puvrs NYG) [82 RZF] -- Zrqvpny Nyreg -- 18240 Ebovafbaivyyr Eq Yrjrf 19958 -- Tbfyvat Perrx Chepunfr/ 123 Un
+(Puvrs NYG) [82 RZF] -- Vagresnpvyyvgl/Cnyyvngvir-NYF -- 36101 Frnfvqr Oyiq Erubobgu Ornpu 19971 -- Oenaqljvar Nffvfgrq Yvivat
+
+PBagnpg: "pvtabgvf7@tznvy.pbz" <pvtabgvf7@tznvy.pbz>
+Fraqre: zft@pszft.pbz
+Fhowrpg:Puvrs NYG\a[71 RZF] -- Nffnhyg/Frkhny Nffnhyg-NYF -- 25687 Pbearyvn Fg Frnsbeq 19973\a
+
+Pbagnpg:gvssnal pnffryy <gpnffryy711@tznvy.pbz>
+Fraqre: zft@pszft.pbz
+(Puvrs NYG) [84 RZF] -- Purfg Cnva-NYF -- 84 Ud
+
+ */
 
 choyvp pynff QRFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
