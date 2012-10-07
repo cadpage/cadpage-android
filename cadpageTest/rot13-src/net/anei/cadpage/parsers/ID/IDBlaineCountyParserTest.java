@@ -9,6 +9,7 @@ vzcbeg bet.whavg.Grfg;
 Oynvar Pbhagl, VQ
 Pbagnpg: Wnzvr Ubbire <ubbirew18@tznvy.pbz>
 Pbagnpg: Xryynaq Jbys <xefjbys@tznvy.pbz>
+Pbagnpg: Revp Znguvrh <orapgzbv@tznvy.pbz>
 Fraqre: yqvfcngpu@pb.oynvar.vq.hf
 
 (PNQ Cntr sbe PSF OP012512-12) SVER NYNEZ\a314 F 7GU FG\aNcg:\aORYYRIHR\aPebff Fgerrgf : CVAR FG * CBCYNE FG
@@ -17,6 +18,7 @@ Fraqre: yqvfcngpu@pb.oynvar.vq.hf
 (PNQ Cntr sbe PSF OP111611-42) UNMZNG AB VAWHEL VAPVQRAG\a516 A ZNVA FG\aNcg:\aORYYRIHR\aPebff Fgerrgf : ORRPU FG * NFU FG
 (PNQ Cntr sbe PSF OP072511-60) SVER-FGEHPGHER\aPRQNE FG naq A 4GU FG\aNcg:\aORYYRIHR\aPebff Fgerrgf : RYZ FG * PRQNE FG
 (PNQ Cntr sbe PSF OP021212-61) Pbaihyfvbaf-Frvmherf\a1160 RPUB UVYY QE\aNcg: \aUNVYRL\aPebff Fgerrgf : OHGGRESYL QE * OREELPERRX QE
+(PNQ Cntr sbe PSF OP100612-45) ZRQVPNY CER NYREG\e\a324 ONL UBEFR EQ\e\aNcg: \e\aORYYRIHR\e\aPebff Fgerrgf : DHNEGRE UBEFR EQ * ZHYQBBA PNALBA EQ
 
 */
 
@@ -77,6 +79,19 @@ choyvp pynff VQOynvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1160 RPUB UVYY QE",
         "PVGL:UNVYRL",
         "K:OHGGRESYL QE * OREELPERRX QE");
+
+    qbGrfg("G7",
+        "(PNQ Cntr sbe PSF OP100612-45) ZRQVPNY CER NYREG\e\a" +
+        "324 ONL UBEFR EQ\e\a" +
+        "Ncg: \e\a" +
+        "ORYYRIHR\e\a" +
+        "Pebff Fgerrgf : DHNEGRE UBEFR EQ * ZHYQBBA PNALBA EQ",
+
+        "VQ:OP100612-45",
+        "PNYY:ZRQVPNY CER NYREG",
+        "NQQE:324 ONL UBEFR EQ",
+        "PVGL:ORYYRIHR",
+        "K:DHNEGRE UBEFR EQ * ZHYQBBA PNALBA EQ");
 
   }
   

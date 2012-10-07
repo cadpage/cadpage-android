@@ -4825,11 +4825,6 @@ Contact: Justin Kaye <dabears341999@yahoo.com>
 Sender: ckharris@co.jefferson.co.us
 Jeffco Sheriff Message / Information/Controlled Burn - 11374 Pauls Dr // till 1800, 12-069RF\nMon Sep 17 11:55:38 2012\n
 **********************************************************
-Jefferson County, CO (alternate)
-Contact: Sheena Tamburlin <sheenatamb@hotmail.com>
-Sender: tamiller@co.jefferson.co.us
-(Jeffco Alert) 10501 cty hwy 73,,,,32 yf in sz\r\nThu Oct 04 06:30:24 2012
-**********************************************************
 Hamilton County, IN
 Contact: Mitch Hazelbaker <mitch8123@gmail.com>
 Sender: dispatch@hamiltoncounty.in.gov
@@ -4845,15 +4840,6 @@ Subject:CADPage\nUnit:T15 Status:Dispatched Location: 108 WINDING WAY  /   Quad:
 **********************************************************
 **********************************************************
 **********************************************************
-Sumner County, TN (replacement?)
-Contact: Eddie Durham <edurham4530@gmail.com>
-Sender: e911@sumnersheriff.com
-* 1105 DOUGLAS PL* * * GALLATIN* * FIRE GRS WDS* * * * * * * * *
-* 1303 SHORESIDE DR* * * HENDERSONVILLE* * CHEST PAIN* * * * * * * * *
-* 154 LEE ETTA DR* * * GALLATIN* * UNCONSCIOUS* * * * * * * * *
-* 2470 CAGES BEND RD* * * GALLATIN* * ACC IJ* * * * * * * * *
-* 101 LAKESIDE CIR* * * HENDERSONVILLE* * NONSPECIFIC* * * * * * * * *
-* 153 TANASI SHORES* * * HENDERSONVILLE* * RESPIRATORY* * * * * * * * *
 **********************************************************
 Avon, CT
 Contact: Keith Lee <klee@avonvfd.org>  (keithlee5@gmail.com)
@@ -4908,6 +4894,15 @@ Structure Fire, 2408 CLARK RD NEW VIENNA, REKINDLED FIRE, SR 350 E,NEW VIENNA//T
 FIRE, 12308 CAREYTOWN RD , 1231297, TOP OF A UTILITY POLE ON FIRE , SCISSORVILLE RD,LEESBURG//
 FIRE, 6989 FARMERS RD MARTINSVILLE, 1231135, TRAILOR ON FIRE NOBODY INSIDE, RAPID FORD RD,MARTINSVILLE//SR 28 E,MARTINSVILLE
 ATTEMPTED SUICIDE, 270 BERNARD RD NEW VIENNA, 1229348, MALE SUBJECT TALKING OUT OF HIS HEAD HES ADVISING HE CALLED THE MENTAL HEALTH PLACE ALREADY, HUFFM
+**********************************************************
+Jefferson County, CO (alternate)
+Contact: Sheena Tamburlin <sheenatamb@hotmail.com>
+Sender: @co.jefferson.co.us
+(Jeffco Alert) 10501 cty hwy 73,,,,32 yf in sz\r\nThu Oct 04 06:30:24 2012
+(Jeffco Alert) stage in the area of 11097 timothy's dr for a possible adult female overdose\r\nSun Oct 07 01:14:31 2012
+(Jeffco Alert) respond to 29290 s sunset trl for a 36yof with chest pains\r\nSat Oct 06 20:19:04 2012
+(Jeffco Alert) ec - 0738hrs - info - 9051 S Warhawk Rd - recreational burn from 0800-1430\r\nSat Oct 06 07:39:13 2012
+(Jeffco Alert) ***INFO**** \r\nControlled Burn \r\n23442 Pleasant Park Rd \r\nRec Burn until 2300hrs\r\nFri Oct 05 12:39:06 2012
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

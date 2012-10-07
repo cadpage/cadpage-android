@@ -3,39 +3,22 @@ package net.anei.cadpage.parsers.TN;
 /**
  * Sumner County, TN
  */
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
 
-public class TNSumnerCountyParser extends DispatchBParser {
-  
-  private static final String[] CITY_LIST = new String[]{
-    "BETHPAGE", "CASTALIAN SPRINGS", "COTTONTOWN", "GALLATIN", "GOODLETTSVILLE", 
-    "HENDERSONVILLE", "MILLERSVILLE", "MITCHELLVILLE", "PORTLAND", "WALNUT GROVE", 
-    "WESTMORELAND", "WHITE HOUSE"
-  };
-  
-  private static final String MARKER = "SC EMS COMMUNICATIONS:";
+public class TNSumnerCountyParser extends FieldProgramParser {
   
   public TNSumnerCountyParser() {
-    super(CITY_LIST, "SUMNER COUNTY", "TN");
+    super("SUMNER COUNTY", "TN",
+           "ADDR APT UNK CITY PLACE CALL! INFO+");
   }
   
   @Override
-  protected boolean isPageMsg(String body) {
-    return true;
+  protected boolean parseMsg(String body, Data data) {
+    if (!body.startsWith("* ")) return false;
+    body = body.substring(2).trim();
+    if (body.endsWith("*")) body = body + " ";
+    return parseFields(body.split("\\* "), 6, data);
   }
-
-  @Override
-  protected boolean parseAddrField(String field, Data data) {
-    int pt = field.indexOf(MARKER);
-    if (pt < 0) return false;
-    pt += MARKER.length();
-    int pt2 = field.indexOf('>', pt);
-    if (pt2 < 0) return false;
-    data.strCallId = field.substring(pt, pt2).trim();
-    return super.parseAddrField(field, data);
-  }
-  
-  
 }
