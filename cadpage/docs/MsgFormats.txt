@@ -49,6 +49,11 @@ FYI: ;08/30/2012 16:36:02;GAS ODOR 651;610 WEST DR;HOPE;WASHINGTON ST;JACKSON ST
 FYI: ;08/23/2012 18:06:28;STRUCTURE FIRE 111;2018 FREMONT DR;COL;CLARK BLVD;HARRISON DR   - File Messenger Login
 FYI: ;08/22/2012 21:52:37;ACCIDENT PERSONAL INJURY;N MARR RD/E 550 N;COL   - File Messenger Login
 *******************************************************************************
+Kosciusko County, IN (INKosciuskoCountyParser)
+CAD:FYI: ;MEDICAL PROBLEM;337 GRACE VILLAGE DR;ROOM 406, HALL 2;WL
+CAD:FYI: ;ACCIDENT PI;N 300 E/E 1050 N;SYR
+CAD:FYI: ;INJURED PERSON;KINGS HWY/WOOSTER RD;WL
+*******************************************************************************
 Marshall County, IN (INMarshallCountyParser)
 CAD:FYI: ;702 S WASHINGTON ST;BREM;E RAYMOND ST;ALARM CO DETECTOR;08/23/2011 10:17:48            
 CAD:FYI: ;200 W FLORENCE ST;BOUR;N THOMPSON ST;FIRE ALARM;08/23/2011 10:34:48
@@ -4847,38 +4852,6 @@ Subject:CADPage\nUnit:T15 Status:Dispatched Location: 108 WINDING WAY  /   Quad:
 **********************************************************
 **********************************************************
 *************************************************************
-Kosciusko County, IN
-Contact: Mark Pepple <mpepple@mtems.com>
-Sender: We have a county dispatch center that uses Sungard/OSSI Cad system. 
-The text message style is the same for the entire county.
-CAD:FYI: ;MEDICAL PROBLEM;337 GRACE VILLAGE DR;ROOM 406, HALL 2;WL
-CAD:FYI: ;ACCIDENT PI;N 300 E/E 1050 N;SYR
-CAD:FYI: ;INJURED PERSON;KINGS HWY/WOOSTER RD;WL
-CAD:FYI: ;EMS TRANSFER;2101 DUBOIS DR;WAR
-CAD:FYI: ;EMS TRANSFER;2101 DUBOIS DR;WAR
-CAD:FYI: ;MEDICAL PROBLEM;1105 KUDER LN;WAR
-CAD:FYI: ;INJURED PERSON;3521-132 LAKE CITY HWY;WAR
-CAD:FYI: ;INJURED PERSON;3521-132 LAKE CITY HWY;WAR
-CAD:FYI: ;MEDICAL PROBLEM;1692 E 200 N;222;WAR
-CAD:FYI: ;NUMBNESS;221 S HIGH ST;WAR
-CAD:FYI: ;UNRESPONSIVE PERSON;8199 S PACKERTON RD;CLAY
-CAD:FYI: ;MEDICAL PROBLEM;340-146 E LEVI LEE RD;WAR
-Intersection Example (Sorry this is the only one that I have. All of them
-come with the "/" inbetween the two roads for the intersection)
-CAD:FYI: ;ACCIDENT UNKNOWN;W 300 N/SHELDEN ST;WAR
-
-WAR=Warsaw
-WL=Winona Lake
-SYR=Syracuse
-CLAY=Claypool
-MILF=Milford
-PIER=Pierceton
-(Not sure if you needed those or not, there are more if you do)
----
-*Scott T. Sigerfoos CCEMT-P |Director of Operations |Multi-Township EMS*
-*34 E. Armstrong Road |Leesburg, Indiana 46538 |Office 574-269-1975 |Cell
-574-551-6236 |Fax 574-453-4276|www.mtems.com*
-*Praeparo, Volens, Validus … Rea**dy, Willing and Able!*
 **********************************************************
 Clinton County, OH
 Contact: Kieth (kieth4548@gmail.com)
