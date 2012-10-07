@@ -638,8 +638,6 @@ choyvp pynff CNQrynjnerPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:1030017",
         "NQQE:500 ZNVAR NI",
         "ZNQQE:500 ZNVAR NIR",
-        " " +
-        "" +
         "PVGL:HCCRE QNEOL GJC",
         "K:PNYVSBEAVN NI & PBAARPGVPHG NI",
         "PNYY:NYF-RZF  URZBEEUNTR-OYRRQVAT",
