@@ -4844,36 +4844,6 @@ Subject:CADPage\nUnit:T15 Status:Dispatched Location: 108 WINDING WAY  /   Quad:
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Dade County, GA (update)
-Contact: Dennis Kelley <fowkta@gmail.com>
-Sender: E911@dadega.com
-(!) Fracture/Dislocation 4454 HWY 136 W PAGE AVE / BACK VALLEY RD TRENTON    Kabani Enterprises, SpurVERIZON WIRELESS 
-            FEMALE BROKEN ARM & BLEEDING  E911
-(!) Blood Pressure Problems 501 N POPLAR ST CANARY AVE / DOVE AVE
-TRENTON\4sGIFFORD\2s85 yof bp is 199/103 is very weak needs to be checked
-out.\2sE911 Info - Class
-(!) Medical Alarm\2s15345 HWY 11 N 4 HARTFORD LN / LEE ST
-TRENTON\4sfrancis kesler\2slifeline 888/289/2018, 57 yof unable to make
-contact got the alarm from the peda
-(!) Allergic Reaction 112 CRIMSON DR DEAD END / HWY 136 W TRENTON\4sBi
-Lo MAROON JEEP CHEROKEE, 20 YOF, ALLERGIC REACTION, TROUBLE SWALLOWING,
-BREATHIGN OK AT 09/3
-(!) Fracture/Dislocation 4454 HWY 136 W PAGE AVE / BACK VALLEY RD  
-TRENTON\4sKabani Enterprises, SpurVERIZON WIRELESS\13sFEMALE BROKEN ARM &  
-BLEEDING\2sE911
-!) Allergic Reaction 112 CRIMSON DR DEAD END / HWY 136 W TRENTON\4sBi
-Lo MAROON JEEP CHEROKEE, 20 YOF, ALLERGIC REACTION, TROUBLE SWALLOWING,
-BREATHIGN OK AT 09/3
-(!) Vehicle Fire 12000 I 59 N UNKNOWN / I 59 RAMP TRENTON\5sjust north
-of trenton exit, vehicle fire\2s09/28/12 09:23
-(!) Allergic Reaction 60 MORGAN RD HWY 11 N / MAINE AVE
-TRENTON\4sashley morris\2s29 yom poss allergic reaction to nuts\2sE911 Info
-- Class of Service: WPH2\2s09/28/1
-!) Allergic Reaction 112 CRIMSON DR DEAD END / HWY 136 W TRENTON\4sBi  
-Lo MAROON JEEP CHEROKEE, 20 YOF, ALLERGIC REACTION, TROUBLE SWALLOWING,  
-BREATHIGN OK AT 09/3
-(!) Vehicle Fire 112 CRIMSON DR DEAD END / HWY 136 W TRENTON\4sBi Lo
-09/28/12 21:14
 **********************************************************
 Sumner County, TN (replacement?)
 Contact: Eddie Durham <edurham4530@gmail.com>

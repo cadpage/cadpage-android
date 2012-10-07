@@ -24,11 +24,26 @@ public class GADadeCountyParser extends SmartAddressParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
+  protected boolean parseMsg(String subject, String body, Data data) {
     
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END | FLAG_PAD_FIELD, match.group(1), data);
+    if (!subject.equals("!")) return false;
+    Matcher match = MASTER.matcher(body);
+    String sAddr;
+    if (match.matches()) {
+      sAddr = match.group(1);
+      data.strSupp = match.group(2);
+      data.strDate = match.group(3);
+      data.strTime = match.group(4);
+    }
+    
+    else {
+      int pt = body.indexOf("   ");
+      if (pt < 0) return false;
+      sAddr = body.substring(0,pt);
+      data.strSupp = body.substring(pt+3).trim();
+    }
+    
+    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END | FLAG_PAD_FIELD, sAddr, data);
     data.strCross = getPadField();
     String city = PLACE_CITY_XREF.getProperty(data.strCity);
     if (city != null) {
@@ -36,9 +51,6 @@ public class GADadeCountyParser extends SmartAddressParser {
       data.strCity = city;
     }
     
-    data.strSupp = match.group(2);
-    data.strDate = match.group(3);
-    data.strTime = match.group(4);
     return true;
   }
   
