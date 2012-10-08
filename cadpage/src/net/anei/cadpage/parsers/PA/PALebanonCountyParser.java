@@ -34,6 +34,11 @@ public class PALebanonCountyParser extends SmartAddressParser {
     super("LEBANON COUNTY", "PA");
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_ADD_DEFAULT_CNTY;
+  }
+
   @Override 
   public boolean parseMsg(String body, Data data) {
     
