@@ -4,22 +4,9 @@ package net.anei.cadpage.parsers.MO;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
-/*
-Jasper County, MO
-Contact: "C. Virgin F. F. 452" <cjfpd452@yahoo.com>
-Sender: @jasco.org
-System: Integraph (changing to QSSI in August)
-
-S: M:LONE ELM/ESTATE LN- ROLLOVER\n
-S: M:1725B Redbud dr- 87 yom fall - back pain\n
-S: M:VEHICLE FIRE FIR AND BLACK CAT\n
-S: M:6653 PARK CIR APTD - 87 YOM FELL\n
-S: M:3169 N MISSOURI 20 DAY OLD DIFF BREATING DELTA MBP 51C\n\n\n\n\n\n
-S: M:302 KEENEY DR - CJ JUNIOR HIGH - POSSIBLE SEIZURE\n
-S: M:25589 TABOR MAIN - DIFF BREATHING\n
-
-*/
-
+/**
+ * Jasper County, MO
+ */
 public class MOJasperCountyParser extends SmartAddressParser {
  
   public MOJasperCountyParser() {

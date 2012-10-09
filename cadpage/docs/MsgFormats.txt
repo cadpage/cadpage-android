@@ -4849,6 +4849,10 @@ Contact: Mitch Hazelbaker <mitch8123@gmail.com>
 Sender: dispatch@hamiltoncounty.in.gov
 Subject:CADPage\nUnit:T15 Status:Dispatched Location: 108 WINDING WAY  /   Quad: 73 Units: T15  Type: F Fire Residence NOC: Narr:\r
 **********************************************************
+Jasper County, MO (replace)
+Contact: Doug <dm_9287@yahoo.com>
+Sender: CAD@jasco.org
+S: M:CAD:FYI: ;MEDICAL UNKNOWN;501 N BALL ST;WBCT;W WOOD ST;W ARCH ST;52A;heart problems [10/06/12 18:13:23 CLINDER] 
 **********************************************************
 **********************************************************
 **********************************************************

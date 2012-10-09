@@ -43,6 +43,7 @@ Abegu Naaivyyr Gbjafuvc OYNPXF OEVQTR EQ UBFGRGGRE YA NERN BS FS - Qjryyvat Sver
 Abegu Naaivyyr Gbjafuvc OYNPXF OEVQTR EQ UBFGRGGRE YA NERN BS OS - Onea Sver Onea Sver ST3  Obk vf Va-Freivpr Nhgu Qrc 6 FD12 G6 G6-1  Sver-Obk 6-03 R
 (Fgn 12@12:30) Rnfg Unabire Gjc QNHCUVA PBHAGL 257 OBJ PERRX EQ=NERN BS OS - Onea Sver ST 5 R1-1 GX12 Sver-Obk RZF-Obk\a\aGb hafhofpevor ercyl FGBC
 QNHCUVA PB/RNFG UNABIRE  9708 NYYRAGBJA OYIQ. NSN - Nhgb Sver Nynez GX12 R1-1  Sver-Obk RZF-Obk
+Rnfg Unabire Gbjafuvc 102 ENPR UBEFR QE BO - Bgure Ohvyqvat Tnentr Sver ST3 R12 R75 R10 GX12 E10 G11 G7 G6 NzoPb190  Sver-Obk 12-01 RZF-Obk 190-17
 
 Pbagnpg: Gubznf Zvyyre <enggvrybire35@lnubb.pbz>
 Fraqre: xz911nyreg@tznvy.pbz
@@ -259,6 +260,14 @@ choyvp pynff CNYronabaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:9708 NYYRAGBJA OYIQ",
         "PNYY:NSN - Nhgb Sver Nynez",
         "HAVG:GX12 R1-1");
+
+    qbGrfg("G5",
+        "Rnfg Unabire Gbjafuvc 102 ENPR UBEFR QE BO - Bgure Ohvyqvat Tnentr Sver ST3 R12 R75 R10 GX12 E10 G11 G7 G6 NzoPb190  Sver-Obk 12-01 RZF-Obk 190-17",
+        "PVGL:RNFG UNABIRE GBJAFUVC",
+        "NQQE:102 ENPR UBEFR QE",
+        "PNYY:BO - Bgure Ohvyqvat Tnentr Sver",
+        "OBK:Sver:12-01 RZF:190-17",
+        "HAVG:ST3 R12 R75 R10 GX12 E10 G11 G7 G6 NZOPB190");
 
   }
   

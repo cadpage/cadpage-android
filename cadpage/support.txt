@@ -451,7 +451,7 @@ Good luck,
 
 Hi folks,
 
-We have gotten a report that the Sumner dispatch text pages are not longer working with Cadpage.  I need to know if they are still working for you.  If they are, I will need to retain the current functionality when I rewrite the text parser.  If not, can you report any examples of what your text pages look like now.  Just long  press all of the calls and select Report Problem to generate an email to us with information about the call.
+We have gotten a report that the <<<<>>>> dispatch text pages are not longer working with Cadpage.  I need to know if they are still working for you.  If they are, I will need to retain the current functionality when I rewrite the text parser.  If not, can you report any examples of what your text pages look like now.  Just long  press all of the calls and select Report Problem to generate an email to us with information about the call.
 
 Thanks a bunch,
 -Ken
