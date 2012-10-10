@@ -24,7 +24,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
   };
   private static final Pattern COUNTY_PTN = Pattern.compile("^[^ ]+ COUNTY\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_PREFIX_PTN =
-      Pattern.compile(" (?:Med Class(\\d) |([A-Z]{2,3} - ))");
+      Pattern.compile(" (?:Med Class(\\d) |([A-Z]{2,6} ?- ?))");
   private static final Pattern BOX_PTN = 
       Pattern.compile(" (?:(?:Box|BOX) ?([0-9\\-]+)|Fire-Box ([0-9\\-]+) EMS-Box ([0-9\\-]+)|Fire-Box EMS-Box)");
   private static final Pattern TAIL_CLASS_PTN = Pattern.compile("^Class (\\d) for EMS ");

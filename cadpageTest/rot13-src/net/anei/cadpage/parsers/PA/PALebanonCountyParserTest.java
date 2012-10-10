@@ -50,6 +50,7 @@ Fraqre: xz911nyreg@tznvy.pbz
 Fraqre: 7176798487
 (Fgn 2@19:42) QNHCUVA RNFG UNABIRE 123 NHGBZNGVP YA FS - Qjryyvat Sver JBEXVAT FGEHPGHER SVER G2 Sver-Obk RZF-Obk\a\aGb hafhofpevor ercyl FGBC
 YNAPNFGRE RYVMNORGU GJC CHZCVAT FGNGVBA EQ NG EBHGR 322   ZI - Nppvqrag j/Vawhevrf ZBGBEPLPYR NPPVQRAG R35  Sver-Obk RZF-Obk
+(Fgn 47@16:49) Orgury Gjc 400 VAGREFGNGR 78 R NVEPSG-j/vawhevrf Obk Va Freivpr NHGU Pbzznaq 41 ST 3 NG47 Sver-Obk 41-96 RZF-Obk 190-21\e\a\e\aGb hafhofpevor ercyl 
 
 */
 
@@ -291,6 +292,17 @@ choyvp pynff CNYronabaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:EBHGR 322",
         "PNYY:ZI - Nppvqrag j/Vawhevrf ZBGBEPLPYR NPPVQRAG",
         "HAVG:R35");
+
+    qbGrfg("G3",
+        "(Fgn 47@16:49) Orgury Gjc 400 VAGREFGNGR 78 R NVEPSG-j/vawhevrf Obk Va Freivpr NHGU Pbzznaq 41 ST 3 NG47 Sver-Obk 41-96 RZF-Obk 190-21\e\a" +
+        "\e\a" +
+        "Gb hafhofpevor ercyl ",
+
+        "PVGL:ORGURY GJC",
+        "NQQE:400 VAGREFGNGR 78 R",
+        "PNYY:NVEPSG-j/vawhevrf Obk Va Freivpr NHGU Pbzznaq 41",
+        "OBK:Sver:41-96 RZF:190-21",
+        "HAVG:ST 3 NG47");
 
   }
   
