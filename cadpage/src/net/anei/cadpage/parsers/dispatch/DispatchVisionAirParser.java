@@ -143,7 +143,7 @@ public class DispatchVisionAirParser extends FieldProgramParser {
     }
   }
 
-  private static final Pattern EXTRA_MARKER = Pattern.compile("\\b(\\d?\\d/\\d?\\d/\\d{4}) (\\d?\\d:\\d?\\d:\\d?\\d(?: [AP]M)?) : (pos\\d+) : [A-Za-z0-9]+\\b");
+  private static final Pattern EXTRA_MARKER = Pattern.compile("\\b(\\d?\\d/\\d?\\d/\\d{4}) (\\d?\\d:\\d?\\d:\\d?\\d(?: [AP]M)?) : (pos\\d+) :(?: [A-Za-z0-9]+\\b|$)");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
   private static final Pattern EXTRA_DELIM = Pattern.compile("\\*\\* EMD (?:Case Entry Finished|Case Complete|Recommended Dispatch) \\*\\*|\\bResponse Text:|\\bKey Questions:|\\bGeo Comment:|\\bLandmark Comment:|Narrative ?:|\\b(?=Cross Streets:|Landmark:|NBH:)|  +", Pattern.CASE_INSENSITIVE);
   private class BaseExtraField extends Field {
