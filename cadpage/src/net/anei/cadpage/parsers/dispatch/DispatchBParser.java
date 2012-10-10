@@ -548,6 +548,7 @@ public class DispatchBParser extends SmartAddressParser {
         "UNCONTAINED HAZMAT",
         "UNK PROBLEM-LIFE STAT QUESTION",
         "UNKNOWN/PERSON DOWN",
+        "UNKNOWN PROBLEM (MAN DOWN)",
         "UNKNOWN PROBLEM",
         "UNRSPONSIVE / SYNCOPE ALS",
         "VEHICLE ACCIDENT",
