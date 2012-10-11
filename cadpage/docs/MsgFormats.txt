@@ -100,6 +100,11 @@ CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 0
 CAD:300;SICK PERSON;5822 DUKES RD;GIRDLETREE;RAILROAD AVE;SNOW HILL RD;11/16/2010 09:21:04
 CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 08:31:38
 *******************************************************************************
+Jasper County, MO (MOJasperCountyParser)
+S: M:CAD:FYI: ;MEDICAL UNKNOWN;501 N BALL ST;WBCT;W WOOD ST;W ARCH ST;52A;heart problems [10/06/12 18:13:23 CLINDER]
+S: M:CAD:FYI: ;MEDICAL UNKNOWN;CARDINAL TOWERS;324-405N N TOM ST;WBCT;E AUSTIN ST;E GALENA ST;52A 
+S: M:CAD:FYI: ;MEDICAL UNKNOWN;1802 S ORONOGO ST;WBCT;W FOUNTAIN RD;W CARDINAL DR;52C;SON IS THROWING UP [10/09/12 00:06:15 VROBERTS] APARTMENT 1 E [10/09/12 00:05:52 VROBERTS] 
+*******************************************************************************
 Buncombe county, NC (NCBuncombeCountyParser)
 CAD:433 LONG SHOALS RD;B21U;SUBJECT STILL DOWN;EDGAR BULLUCK;FALLS;LEDBETTER RD;CLAYTON RD
 CAD:1 HAMBY DR;B9;(FR) STRUCTURE FIRE;OWENBY COVE RD
@@ -1753,13 +1758,6 @@ Callaway County, MO (MOCallawayCountyParser)
 Subject: NEWOCC #12-1590  12 - Convulsions/Seizures\nNEWOCC #12-1590  12 - Convulsions/Seizures\nAddress: Mertens Mini Mart - 6603 St Hwy NN, Callaway County\nReporting Person: Andrea Phone: 642-6443\nDetail: subject had a siezure, no longer siezing\npossibly because of drugs
 Subject: NEWOCC #12-1589  602 - Structure Fire\nNEWOCC #12-1589  602 - Structure Fire\nAddress: 181 Lorene, Holts Summit\nReporting Person: Lisa Phone: 616-1063\nDetail: 
 Subject: NEWOCC #12-1582  6 - Breathing Problems\nNEWOCC #12-1582  6 - Breathing Problems\nAddress: 921 Merklin Dr, Fulton\nReporting Person: Frita Phone: 642-6978\nDetail: 
-***************************************************************************
-Jasper County, MO (MOJasperCountyParser)
-S: M:LONE ELM/ESTATE LN- ROLLOVER\nS: M:1725B Redbud dr- 87 yom fall - back pain\nS: M:VEHICLE FIRE FIR AND BLACK CAT\n***************************************************************************
-Jefferson County, MO (MOJeffersonCountyParser)
-Location: @PACIFIC STATION 2 Call Type: MOVEUP MUP Comments: 7376 HIGHWAY O RP's Address: Pri: 4 Area: 77 Disp: 7724
-Location: 16 SYCAMORE GREEN ACRES CNTY Call Type: STILL CHKBLDG Comments: CARD 77272 MAP 77 RP's Address: 16 SYCAMORE GREEN ACRES Pri: 3 Area: 77 Disp: 7710
-Location: OLD MORSE MILL RD/STATE RD EE CNTY Call Type: EMS TRAUMATIC_INJURI Comments: CARD 77323 MAP 61 RP's Address: Pri: 1 Area: 77 Disp: 5437,7714 
 ***************************************************************************
 Johnson County, MO (MOJohnsonCountyParser)
 [ 911 Page ] Dispatch: 7/19/2011 17:44:07 80 - Carbon Monoxide/Hazmat 1064 NE 75 RD, Apt. 112 JOHNSON COUNTY
