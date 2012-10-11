@@ -760,6 +760,26 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:GBJA NIR FBZRJURER VA",
         "PVGL:XRAFOHET");
     
+    qbGrfg(PNYY, SYNT_BAYL_PEBFF, "Fvpx crefba Qrnq Raq yrsgbire",
+        "PNYY:Fvpx crefba",
+        "K:Qrnq Raq");
+    
+    qbGrfg(PNYY, SYNT_BAYL_PEBFF, "Fvpx crefba Qrnq Raq/Fjna Qe yrsgbire",
+        "PNYY:Fvpx crefba",
+        "K:Qrnq Raq / Fjna Qe");
+    
+    qbGrfg(PNYY, SYNT_BAYL_PEBFF, "Fvpx crefba Fjna Qe/Qrnq Raq yrsgbire",
+        "PNYY:Fvpx crefba",
+        "K:Fjna Qe / Qrnq Raq");
+    
+    qbGrfg(PNYY, SYNT_BAYL_PEBFF | SYNT_NAPUBE_RAQ, "Fvpx crefba Qrnq Raq/Fjna Qe",
+        "PNYY:Fvpx crefba",
+        "K:Qrnq Raq / Fjna Qe");
+    
+    qbGrfg(PNYY, SYNT_BAYL_PEBFF | SYNT_NAPUBE_RAQ, "Fvpx crefba Fvzcfba Eq/R V-485 VAARE UL",
+        "PNYY:Fvpx crefba",
+        "K:Fvzcfba Eq / R V-485 VAARE UL");
+
   }
   
   @Grfg

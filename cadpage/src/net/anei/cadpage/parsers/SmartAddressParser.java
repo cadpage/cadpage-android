@@ -190,9 +190,10 @@ public abstract class SmartAddressParser extends MsgParser {
   // street name
   private static final int ID_STREET_NAME_PREFIX = 0x400000;
   
-  private static final int ID_SPEC_CROSS = 0x800000;
+  private static final int ID_SPEC_CROSS_FWD = 0x0800000;
+  private static final int ID_SPEC_CROSS_REV = 0x1000000;
   
-  private static final int ID_RELATION = 0x1000000;
+  private static final int ID_RELATION = 0x2000000;
   
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
@@ -201,11 +202,12 @@ public abstract class SmartAddressParser extends MsgParser {
   
   // List of multiple word street names
   // We keep two of these in case we have to search forward or backward
-  private MultiWordList mWordStreetsRev = null;
   private MultiWordList mWordStreetsFwd = null;
+  private MultiWordList mWordStreetsRev = null;
   
   // List of special cross street names
-  private MultiWordList mWordCrossStreets = null;
+  private MultiWordList mWordCrossStreetsFwd = null;
+  private MultiWordList mWordCrossStreetsRev = null;
   
   // This is a tree set containing all of the expected call descriptions
   // sorted in reverse order because we need to search the tree backward and
@@ -306,13 +308,15 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_NOT_ADDRESS, "YOM", "YOF", "YO");
     
     // Set up special cross street names
-    mWordCrossStreets = new MultiWordList(+1, ID_SPEC_CROSS, ID_MULTIWORD, ID_COMPLETE, new String[]{
+    String[] crossRoadList = new String[]{
         "DEADEND",
         "DEAD END",
         "RR",
         "RR TRACKS",
         "TRAILER PARK"
-    });
+    };
+    mWordCrossStreetsRev = new MultiWordList(-1, ID_SPEC_CROSS_FWD, ID_MULTIWORD, ID_COMPLETE, crossRoadList);
+    mWordCrossStreetsFwd = new MultiWordList(+1, ID_SPEC_CROSS_REV, ID_MULTIWORD, ID_COMPLETE, crossRoadList);
     
     // Add any country specific words
     switch (getCountryCode()) {
@@ -832,6 +836,13 @@ public abstract class SmartAddressParser extends MsgParser {
         }
         if (ndx-start >= 1 && isType(ndx, ID_CONNECTOR)) {
           sAddr = ndx-1;
+          int tmp = mWordCrossStreetsRev.findEndSequence(sAddr);
+          if (tmp >= 0) {
+            sAddr = tmp;
+            break;
+          }
+          
+          // Check for special cross street
           if (sAddr > start && isType(sAddr, ID_DIRECTION)) sAddr--;
           
           if (sAddr >= start && isRoadToken(sAddr)) break;
@@ -931,17 +942,30 @@ public abstract class SmartAddressParser extends MsgParser {
     else {
       int start = startNdx;
       ndx = start;
+      boolean found = false;
+      int failStart = -1;
+      int failEnd = -1;
       while (true) {
+        
+        // See if there is a naked cross street name here.  Finding one doesn't
+        // immediately return that result, but it defines the fallback result
+        // we will use if something better doesn't come along.
+        if (failStart < 0) {
+          failEnd = mWordCrossStreetsFwd.findEndSequence(ndx);
+          if (failEnd >= 0) failStart = ndx;
+        }
+        
+        
         if (flexAt && isAtSign(ndx)) atStart = true;
         ndx++;
         sAddr = ndx - 1;
-        if (ndx >= tokens.length) return false;
-        if (isType(ndx, ID_CROSS_STREET)) return false;
+        if (ndx >= tokens.length) break;
+        if (isType(ndx, ID_CROSS_STREET)) break;
         if (atStart || flexAt && isType(ndx, ID_INCL_AT_MARKER)) {
           start = sAddr = ndx;
           ndx = findRoadEnd(sAddr, 0);
           ndx--;
-          if (ndx < 0) return false;
+          if (ndx >= 0) found = true;
           break;
         }
         
@@ -951,29 +975,48 @@ public abstract class SmartAddressParser extends MsgParser {
               (isType(ndx, ID_ROUTE_PFX_PFX) && isType(ndx+1, ID_ROUTE_PFX_EXT) && isType(ndx+2, ID_NUMBER)) ||
               (isType(ndx, ID_AMBIG_ROAD_SFX) && (isType(ndx+1, ID_ROAD_SFX)));
           
-          if (!startHwy) break; 
+          if (!startHwy) {
+            found = true;
+            break; 
+          }
         }
-        if (ndx > start && isType(ndx, ID_NUMBER | ID_ALPHA_ROUTE) && isType(ndx-1, ID_ROUTE_PFX)) break;
+        if (ndx > start && isType(ndx, ID_NUMBER | ID_ALPHA_ROUTE) && isType(ndx-1, ID_ROUTE_PFX)) {
+          found = true;
+          break;
+        }
         if (isRoadToken(ndx)) {
           sAddr = ndx;
+          found = true;
           break;
         }
       }
       
-      // See if this is a two part route name
-      while (sAddr > start && !isType(sAddr-1, ID_NOT_ADDRESS | ID_CONNECTOR) && 
-          (isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX) ||
-           isType(sAddr, ID_AMBIG_ROAD_SFX))) {
-        sAddr--;
+      // When we break out of this loop, see if we found a real street name
+      // If we didn't, see if there is a fallback street name we can return
+      // otherwise fail
+      if (!found) {
+        if (failStart < 0) return false;
+        sAddr = failStart;
+        ndx = failEnd;
       }
-
-      // If the previous token is a direction, back up one more to include that.
-      sAddr = stretchRoadPrefix(start, sAddr);
       
-      // increment end pointer past the road terminator
-      // If the following token is a direction, increment end pointer past that too
-      ndx++;
-      if (isType(ndx, ID_DIRECTION)) ndx++;
+      else {
+        
+        // See if this is a two part route name
+        while (sAddr > start && !isType(sAddr-1, ID_NOT_ADDRESS | ID_CONNECTOR) && 
+            (isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX) ||
+             isType(sAddr, ID_AMBIG_ROAD_SFX))) {
+          sAddr--;
+        }
+  
+        // If the previous token is a direction, back up one more to include that.
+        sAddr = stretchRoadPrefix(start, sAddr);
+        
+        // increment end pointer past the road terminator
+        // If the following token is a direction, increment end pointer past that too
+        ndx++;
+        if (isType(ndx, ID_DIRECTION)) ndx++;
+      }
       result.startField.end(atStart ? sAddr-1 : sAddr);
     }
     
@@ -1219,7 +1262,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // If we are doing a cross only parse without a city, answer is always no
     boolean crossOnly = isFlagSet(FLAG_ONLY_CROSS);
-    if (crossOnly && !isFlagSet(FLAG_ONLY_CITY)) return false;
+    if (crossOnly && !isFlagSet(FLAG_ONLY_CITY | FLAG_ANCHOR_END)) return false;
     
     // If FLAG_ANCHOR_END is set, we are going to parse this to the
     // end of the line without looking for a city
@@ -1482,7 +1525,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // set the failure index to the end of that
     int failIndex = -1;
     if (cross || isFlagSet(FLAG_ONLY_CROSS)) {
-      failIndex = mWordCrossStreets.findEndSequence(start);
+      failIndex = mWordCrossStreetsFwd.findEndSequence(start);
     }
     
     // Otherwise, if we are accepting roads without a street suffix, we will compute the
