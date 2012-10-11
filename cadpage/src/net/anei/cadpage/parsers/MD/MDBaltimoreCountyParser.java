@@ -6,36 +6,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*    
-Baltimore County, MD
-Contact: Emma Schneider <ejschneider41@verizon.net>
-Sender: postmaster@sparkgroup.net
-
-(Station 41 ALERT!!) UNCONSCIOUS DIABETIC\n046-04\nE461 E18 M465 IV415 CCM129 EMS5\n9341 EDWAY CI\n\nIncident Number (120911179)
-(Station 41 ALERT!!) FALL INJURY NON DANGEROUS\n041-21\nIV415\n300 CANTATA CT APT 302, 21136, MD\n\nIncident Number (120911036)
-(Station 41 ALERT!!) BUILDING FIRE\n056-06\nBC21 E56 E412 E311 E401 T313 T404\n11602 REISTERSTOWN RD, 21136, MD\n\nIncident Number (120910568)
-(Station 41 ALERT!!) UNKNOWN ILLNESS OR INJURY\n041-21\nA415 M56\n300 CANTATA CT APT 314, 21136, MD\n\nIncident Number (120910566)
-(Station 41 ALERT!!) CP  CLAMMY\n041-06\nM415 CCM139\n744 COCKEYS MILL RD, 21136, MD\n\nIncident Number (120910541)
-(Station 41 ALERT!!) STROKE  NOT ALERT\n049-10\nM395 M415\n14032 CUBA RD\n\nIncident Number (120901630)
-(Station 41 ALERT!!) FALL  POSS DANGEROUS AREA\n056-06\nA415 IV465\n11722 REISTERSTOWN RD, 21136, MD\n\nIncident Number (120901441)
-(Station 41 ALERT!!) INJ-DANGROUS BDY AREA\n041-03\nM56 SU418\nSTOCKSDALE AV & POWER LINE, 21136, MD\n\nIncident Number (120901111)
-(Station 41 ALERT!!) SICK SUBJECT NOT ALERT\n041-01\nM415 M56\n10 VILLAGE CENTER RD, 21136, MD\n\nIncident Number (120901433)
-(Station 41 ALERT!!) 1050PI\n041-01\nA415 M315 E413\nFRANKLIN ES @  33 COCKEYS MILL RD, 21136, MD\n\nIncident Number (120900817)
-(Station 41 ALERT!!) 1050PI ROLL-OVER\n041-20\nA415 M315 E413\nI795 & WESTMINSTER PK, 21136, MD\n\nIncident Number (120900400)
-(Station 41 ALERT!!) TRBR-W/DIFF SPEAKING\n056-05\nIV415 M2 EMS5\n300 STONECASTLE AV, 21136, MD\n\nIncident Number (120911287)
-(Station 41 ALERT!!) ABD PAIN  NOT ALERT\n056-08\nA315 IV415\n111 EMBLETON RD, 21117, MD\n\nIncident Number (120911354)
-(Station 41 ALERT!!) 1050PI ROLL-OVER\n041-08\nA415 M56 E412\n5 BRIAN DANIEL CT, 21136, MD\n\nIncident Number (120920186)
-(Station 41 ALERT!!) BLEEDING SUBJ W/TRBR\n056-06\nM415 M19\n11 WOODENBRIDGE CT, 21136, MD\n\nIncident Number (120921328)
-(Station 41 ALERT!!) FALL INJURY NON DANGEROUS\n041-21\nA415 M56\n300 CANTATA CT APT 302, 21136, MD\n\nIncident Number (120921264)
-(Station 41 ALERT!!) FALL INJURY NON DANGEROUS\n056-04\nE56 A415 IV505\n828 IVYDALE AV, 21136, MD\n\nIncident Number (120951716)
-(Station 41 ALERT!!) LOCK OUT DETAIL/NON EMERG\n041-23\nE412\n505 DEACON BROOK CI, 21136, MD\n\nIncident Number (120980427)
-(Station 41 ALERT!!) BUILDING FIRE\nCAR-43\nE432 S414 T404 E412\n643 LUCABAUGH MILL RD\n\nIncident Number (120971868)
-(Station 41 ALERT!!) EMOT ILL CONS/BREATHING\n041-23\nM415 M315\n400 VALLEY MEADOW CI APT B1, 21136, MD\n\nIncident Number (120990430)
-(Station 41 ALERT!!) FAINTING  ALERT W/TRBR\n041-23\nM415 M56\n406 DEACON BROOK CI, 21136, MD\n\nIncident Number (120990933)
-(Station 41 ALERT!!) 1050PI\n043-03\nA435 E432 CCM28 A415 M56 EMS7\nRT 30 & DOVER RD, 21155, MD\nIncident Number (121111313)
-
-*/
-
+/**
+ * Baltimore County, MD
+ */
 public class MDBaltimoreCountyParser extends FieldProgramParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("Station (\\d+) ALERT!!");
@@ -47,7 +20,7 @@ public class MDBaltimoreCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "postmaster@sparkgroup.net";
+    return "postmaster@sparkgroup.net,fast@md-carroll-04.fastalerting.com";
   }
 
   @Override
@@ -64,20 +37,51 @@ public class MDBaltimoreCountyParser extends FieldProgramParser {
     return "SRC " + super.getProgram();
   }
   
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replaceAll("  +", " ");
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern MUTUAL_AID_ADDR_PTN = Pattern.compile("(?:(\\d+-\\d+) +)?(.*?)(?: +(OPS\\d+))?");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      data.strPlace = p.getOptional('@');
-      super.parse(p.get(','), data);
-      data.strCity = p.get(',');
-      data.strState = p.get();
-      if (data.strState.equals(data.defState)) data.strState = "";
+      
+      if (data.strCall.startsWith("MUTUAL AID")) {
+        Matcher match = MUTUAL_AID_ADDR_PTN.matcher(field);
+        if (!match.matches()) abort();   // Can't happen
+        String code = match.group(1);
+        if (code != null) data.strCall = data.strCall + " " + code;
+        field = match.group(2);
+        data.strChannel = getOptGroup(match.group(3));
+        parseAddress(StartType.START_ADDR, field, data);
+        data.strCall = append(data.strCall, " ", getLeft());
+      } else {
+        Parser p = new Parser(field);
+        String place = p.getOptional('@');
+        String addr = p.get(',');
+        Result res = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr);
+        if (place.length() > 0) {
+          Result res2 = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, place);
+          if (res2.getStatus() > res.getStatus()) {
+            res = res2;
+            place = addr;
+          }
+        }
+        res.getData(data);
+        data.strPlace = place;
+        data.strCity = p.get(',');
+        data.strState = p.get();
+        if (data.strState.equals(data.defState)) data.strState = "";
+      }
     }
     
     @Override
     public String getFieldNames() {
-      return "PLACE " + super.getFieldNames() + " CITY ST";
+      return "PLACE " + super.getFieldNames() + " CITY ST CH";
     }
   }
 
@@ -104,7 +108,8 @@ public class MDBaltimoreCountyParser extends FieldProgramParser {
 
   @Override
   protected Field getField(String name) {
-    if (name.equals("MAP")) return new MapField("(?:\\d{3}|CAR)-\\d{2}", true);
+    if (name.equals("MAP")) return new MapField("(?:\\d{3}|CAR)-\\d{2}|\\d{4}|[A-Z]{2}", true);
+    if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("ID")) return new MyIdField();
     return super.getField(name);
