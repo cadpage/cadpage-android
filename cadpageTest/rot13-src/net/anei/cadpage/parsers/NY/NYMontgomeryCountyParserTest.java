@@ -4,6 +4,39 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Zbagtbzrel Pbhagl, AL
+Pbagnpg: Whfgva Penzre <penzrewq@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+
+Fhowrpg:UISQ 218\a RZF - RZF PNYY  14 CVAR FG NZFGREQNZ PVGL  09/24/2011 1223\a\a\a
+Fhowrpg:UISQ 218\aZBGBE IRUVPYR NPPVQRAG   FGNGR UJL 30 G NZFGREQNZ NZFGREQNZ PBZZBAF 09/25/2011 0851\a\a\a
+Fhowrpg:UISQ 218\aRZF - RZF PNYY  300 UNZZBAQ GBJA EQ NZFGREQNZ  09/25/2011 1015\a\a\a
+Fhowrpg:UISQ 218\aRZF - RZF PNYY  106 UNAANSBEQ CYM NZFGREQNZ  09/25/2011 1945\a\a\a
+Fhowrpg:UISQ 218\aRZF - RZF PNYY  5005 FGNGR UJL 30 NZFGREQNZ  09/25/2011 2250\a\a\a
+Fhowrpg:UISQ 218\aRZF - RZF PNYY  10 ZNVA FG UNTNZNA IVYYNTR  09/26/2011 0759\a\a\a
+Fhowrpg:UISQ 218\aZBGBE IRUVPYR NPPVQRAG JNYZNEG 101 FNASBEQ SNEZ FUBC PG NZFGREQNZ  09/26/2011 1011\a\a\a
+Fhowrpg:UISQ 218\aZBGBE IRUVPYR NPPVQRAG ERPBIREL FCBEGF TEVYY 5005 FGUJL 30 NZFGREQNZ  09/26/2011 1331\a\a\a
+Fhowrpg:UISQ 218\aZBGBE IRUVPYR NPPVQRAG   FGNGR UJL 30 G NZFGREQNZ NZFGREQNZ PBZZBAF 09/25/2011 0851
+
+Pbagnpg: Xraargu YnOryyr <xynoryyr65@tznvy.pbz>
+Fraqre: cntvat@vzcnpg-flf.pbz
+SVER - FZBXR PNYY  1788 OHEGBAIVYYR EQ PUNEYRFGBA  01/13/2012 0533
+
+Pbagnpg: Cnhy Xeht <cnhyxeht7@tznvy.pbz>
+Fraqre: cntvat@vzcnpg-flf.pbz
+RZF - RZF PNYY  5 PRZRGREL I SBAQN  05/06/2012 2155
+RZF - RZF PNYY  22 ENVYEBNQ FG I SBAQN  05/03/2012 1747
+SVER - FREIVPR AOG ONAX SBAQN 34 J ZNVA FG SBAQN  04/30/2012 0650
+RZF - RZF PNYY PHZOREYNAQ SNEZF 2 J ZNVA FG SBAQN  04/30/2012 0532
+SVER - FGEHPGHER  56 R ZNVA FG I SBAQN  04/20/2012 0145
+SVER - PB PNYY  21 OEBNQJNL I SBAQN  04/18/2012 0817
+
+Pbagnpg: Zvxr Jrnire <gnmzna2188@tznvy.pbz>
+Fraqre: vzcnpg@vzcnpg.pb.zbagtbzrel.al.hf
+ZBGBE IRUVPYR NPPVQRAG   ZVYY FG UNTNZNA IVYYNTR A CNJYVAT FG 10/09/2012 2017\e\a\e
+
+*/
 
 choyvp pynff ALZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -19,7 +52,7 @@ choyvp pynff ALZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:UISQ 218",
         "PNYY:RZF - RZF PNYY",
         "NQQE:14 CVAR FG",
-        "PVGL:NZFGREQNZ PVGL",
+        "PVGL:NZFGREQNZ",
         "QNGR:09/24/2011",
         "GVZR:12:23");
 
@@ -27,10 +60,10 @@ choyvp pynff ALZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Fhowrpg:UISQ 218\aZBGBE IRUVPYR NPPVQRAG   FGNGR UJL 30 G NZFGREQNZ NZFGREQNZ PBZZBAF 09/25/2011 0851\a\a\a",
         "FEP:UISQ 218",
         "PNYY:ZBGBE IRUVPYR NPPVQRAG",
-        "CYNPR:NZFGREQNZ PBZZBAF",
         "NQQE:FGNGR UJL 30",
-        "ZNQQE:NZFGREQNZ PBZZBAF,FGNGR 30",
+        "ZNQQE:FGNGR 30 & NZFGREQNZ PBZZBAF",
         "PVGL:NZFGREQNZ",
+        "K:NZFGREQNZ PBZZBAF",
         "QNGR:09/25/2011",
         "GVZR:08:51");
 
@@ -67,7 +100,7 @@ choyvp pynff ALZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:UISQ 218",
         "PNYY:RZF - RZF PNYY",
         "NQQE:10 ZNVA FG",
-        "PVGL:UNTNZNA IVYYNTR",
+        "PVGL:UNTNZNA",
         "QNGR:09/26/2011",
         "GVZR:07:59");
 
@@ -96,10 +129,10 @@ choyvp pynff ALZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Fhowrpg:UISQ 218\aZBGBE IRUVPYR NPPVQRAG   FGNGR UJL 30 G NZFGREQNZ NZFGREQNZ PBZZBAF 09/25/2011 0851",
         "FEP:UISQ 218",
         "PNYY:ZBGBE IRUVPYR NPPVQRAG",
-        "CYNPR:NZFGREQNZ PBZZBAF",
         "NQQE:FGNGR UJL 30",
-        "ZNQQE:NZFGREQNZ PBZZBAF,FGNGR 30",
+        "ZNQQE:FGNGR 30 & NZFGREQNZ PBZZBAF",
         "PVGL:NZFGREQNZ",
+        "K:NZFGREQNZ PBZZBAF",
         "QNGR:09/25/2011",
         "GVZR:08:51");
   }
@@ -172,7 +205,22 @@ choyvp pynff ALZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     
   }
   
+  @Grfg
+  choyvp ibvq grfgZvxrJrnire() {
+
+    qbGrfg("G1",
+        "ZBGBE IRUVPYR NPPVQRAG   ZVYY FG UNTNZNA IVYYNTR A CNJYVAT FG 10/09/2012 2017\e\a\e",
+        "PNYY:ZBGBE IRUVPYR NPPVQRAG",
+        "NQQE:ZVYY FG",
+        "ZNQQE:ZVYY FG & A CNJYVAT FG",
+        "PVGL:UNTNZNA",
+        "K:A CNJYVAT FG",
+        "QNGR:10/09/2012",
+        "GVZR:20:17");
+ 
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALZbagtbzrelPbhaglCnefreGrfg().trarengrGrfgf("G1", "FEP PNYY CYNPR NQQE PVGL QNGR GVZR");
+    arj ALZbagtbzrelPbhaglCnefreGrfg().trarengrGrfgf("G1", "FEP PNYY CYNPR NQQE PVGL K QNGR GVZR");
   }
 }
