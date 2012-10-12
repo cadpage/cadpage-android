@@ -6,31 +6,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Armstrong County, PA
-Contact: larry umbaugh <lumbaugh17@gmail.com>
-Sender: 911dispatch@co.armstrong.pa.us
-
-473 TROY HILL RD AIRPORT RD / MCGREGOR RD FMISC 39992 05:40 7245453398
-11878 STATE ROUTE 85 ARMSDALE RD / CRYTZER RD ORPHANS OF THE STORM VAENT 40313 19:09 7247120225
-141 ADAMS RD STATE ROUTE 85 / BALLOCK LN FMISC 40720 09:07 7247837418
-[Dispatch]  580 N CHERRY ST HOOKS LN / SPRUCE LN FSTR2 41628 13:58 7246640045
-[Dispatch]  868 STATE ROUTE 28/66 MECHLING RD / SLOAN HILL RD VAENT 42068 15:55 7248597657
-
-Armstrong County, PA
-Contact: brandon kilgore <firefghter10@gmail.com>
-Sender: 911Dispatch@co.armstrong.pa.us
-(Dispatch) FREEPORT RD, US ROUTE 422 / PONY FARM RD, US ROUTE 422 VAENT 3706 06:42
-(Dispatch) 13 HILLTOP PLAZA COMMERCE DR / FRANKLIN HILL RD HOLIDAY INNFAFALR 5238 15:39 8887467539
-(Dispatch) 592 TARRTOWN RD FURNACE RUN RD / STATE ROUTE 1038, BUTLER RD PJ GRECOFVEH 5258 17:45 7249548780
-
-Contact: Jacob Dively <jpdively@gmail.com>
-Sender: 911Dispatch@co.armstrong.pa.us
-(Dispatch) 105 ELM DR MAPLE LN / LOCUST LN FCOALM 4524 14:11 8003643616
-(Dispatch) 571 EAST BRADY RD ROLLING HILLS RD / CORNMAN DR VAINJ 4360 01:41 7245451228
-
-*/
-
+/**
+ * Armstrong County, PA
+ */
 public class PAArmstrongCountyParser extends SmartAddressParser {
 
   // Marker is time and run number at end of message

@@ -22,7 +22,7 @@ public class NJSomersetCountyAParser extends MsgParser {
       "HOPEWEL", "HOPEWELL TWP",
       "HILLSBO", "HILLSBOROUGH TWP",
       "PRINCET", "PRINCETON TWP",
-      "SOUTH B", "SOUTH BRUNSWICK"
+      "SOUTH B", "SOUTH BOUND BROOK"
   });
   
   private static final Pattern MARKER = Pattern.compile("^(?:(?:/ [A-Z0-9 ]* / )?(?:[A-Za-z]+:)?(?:[[^:]*]:)?)?([^: ]+):(\\d{8}) *:(\\d\\d/\\d\\d/\\d\\d\\d\\d) (\\d\\d:\\d\\d:\\d\\d):");

@@ -39,6 +39,10 @@ Pbagnpg: Frna Ynzoregm <frna.ynzoregm@tznvy.pbz>
 *4101: *tuneternir@pb.fbzrefrg.aw.hf /  / FOO-SQ:12027787:02/27/2012 11:58:34:SVER: FBHGU O-FBHGUFVQR TEVYY / 2 ZNVA FG
   / FOO-SQ:12033968:03/11/2012 10:49:03:FGEHPGHER SVER: OBHAQ O-547 JURNGYNAQ NIR\a
 
+Pbagnpg: Nqnz Znayrl <nqnzrzg@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+Fhowrpg:77 ERFPHR\aevamnab:FOO-EF:12155939:10/11/2012 19:16:37:FGEBXR: FBHGU O-WBUAFBA FG & ZNVA FG\e\a\e\a\e
+
 Pbagnpg: fhccbeg@npgvir911.pbz
 Fraqre: zzvfpvntan@pb.fbzrefrg.aw.hf
 ([Nynez] (ab fhowrpg)) YOP-SQ:12046100:04/03/2012 11:44:34:SVER NYNEZ:CHYYFGNGVBA: OREANEQ-SRYYBJFUVC IVYYNTR / 8000 SRYYBJFUVC EQ\a\a_______________________________________________\aNynez znvyvat yvfg\aNynez@yvoreglpbearesver.bet\auggc://yvoreglpbearesver.bet/znvyzna/yvfgvasb/nynez_yvoreglpbearesver.bet
@@ -353,7 +357,7 @@ choyvp pynff AWFbzrefrgPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:03/01/2012",
         "GVZR:23:53:12",
         "PNYY:FVPX CREFBA:22 LBZ",
-        "PVGL:FBHGU OEHAFJVPX",
+        "PVGL:FBHGU OBHAQ OEBBX",
         "CYNPR:FBHGUFVQR TEVYY",
         "NQQE:2 ZNVA FG",
         "NCG:10");
@@ -365,7 +369,7 @@ choyvp pynff AWFbzrefrgPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/27/2012",
         "GVZR:11:58:34",
         "PNYY:SVER",
-        "PVGL:FBHGU OEHAFJVPX",
+        "PVGL:FBHGU OBHAQ OEBBX",
         "CYNPR:FBHGUFVQR TEVYY",
         "NQQE:2 ZNVA FG");
 
@@ -378,6 +382,21 @@ choyvp pynff AWFbzrefrgPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FGEHPGHER SVER",
         "PVGL:OBHAQ OEBBX",
         "NQQE:547 JURNGYNAQ NIR");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNqnzZnayrl() {
+
+    qbGrfg("G1",
+        "Fhowrpg:77 ERFPHR\aevamnab:FOO-EF:12155939:10/11/2012 19:16:37:FGEBXR: FBHGU O-WBUAFBA FG & ZNVA FG\e\a\e\a\e",
+        "FEP:FOO-EF",
+        "VQ:12155939",
+        "QNGR:10/11/2012",
+        "GVZR:19:16:37",
+        "PNYY:FGEBXR",
+        "PVGL:FBHGU OBHAQ OEBBX",
+        "NQQE:WBUAFBA FG & ZNVA FG");
+
   }
   
   @Grfg
