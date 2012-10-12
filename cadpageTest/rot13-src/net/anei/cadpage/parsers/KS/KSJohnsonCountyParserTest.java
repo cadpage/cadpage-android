@@ -4,6 +4,28 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Wbuafba Pbhagl, XF
+Pbagnpg: Zvxr Zbefr <zvpunrygzbefr@tznvy.pbz>
+Fraqre: 93001kkk    (rznvy) rpp1@wbpbtbi.bet<znvygb:rpp1@wbpbtbi.bet>
+
+Nqq: 2908 J 48gu Gre Ncg: Ybp: Angher: ZRQVPNY Tevq: 19/1. Vapvqrag# 10-3560129 Pebff:Qrnq Raq/ZVFFVBA EQ
+Nqq: 5055 Ohran Ivfgn Fg Ncg: Ybp: Angher: Oyrrqvat - Ynprengvba Tevq: 18/1. Vapvqrag# 10-3560040 Pebff:J 51FG FG/FLPNZBER QE
+Nqq: 2435 Qehel Ya Ncg: Ybp: Angher: Nhgb Nynez - Erfvqrapr Tevq: 34/1. Vapvqrag# 10-3560070 Pebff:BNXJBBQ EQ/BIREUVYY EQ
+Nqq: 6028 Zvffvba Eq Ncg: Ybp: Angher: ZRQVPNY Tevq: 34/1. Vapvqrag# 10-3560106 Pebff:RNFGINYR QE/J 61FG FG
+Nqq: 4817 Fxlyvar Qe Ncg: Ybp: Angher: Ohvyqvat Sver Tevq: 18/1. Vapvqrag# 10-3620163 Pebff:J 48GU FG/Qrnq Raq
+Nqq: Oebnqzbbe Fg & Wbuafba Qe Ncg: Ybp: Angher: Vawhel Nppvqrag Tevq: 32/1. Vapvqrag# 10-3640058 Pebff:
+Nqq: Funjarr Zvffvba Cxjl & Any Ncg: Ybp: Angher: Vawhel Nppvqrag P2 Tevq: 32/1. Vapvqrag# 10-3640048 Pebff:
+
+Pbagnpg: Zvxr Funj <zfunj1957@tznvy.pbz>
+Fraqre: pnyyf+oapPNND1X3U7jDnOWHL9Fx@wbpbsq1.bet
+(vasb:) Nqq: Tneqare Jrfg Eq & Ynxr Ebn Ncg:            Ybp:                 Angher: Vairfgvtngr Cbjre Yvarf Qbja   Tevq: 290/1 Vapvqrag# 11-1
+
+Pbagnpg: Oenq Enyfgba <oenyfgba911@tznvy.pbz>
+Fraqre:RPP2@wbpbtbi.bet
+Fhowrpg:vasb:\aNqq: R Yvapbya Ya & A Rireterra Ncg: q          Ybp: Yvapbya Gbjaubz Angher: Aba Oerngure - P1P             Tevq: 339/1 Vapvqrag
+
+*/
 
 choyvp pynff XFWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
