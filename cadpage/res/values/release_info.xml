@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10072012</string>
-  <string name="release_version">v1.5.62</string>
+  <string name="release_date">10122012</string>
+  <string name="release_version">v1.5.63</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
-New Locations:\n
-Hartford County, CT\n
-Kosciusko County, IN\n
-Clinton County, OH\n
-Sumner County, TN (replaced)\n
-\n
 Location Parsing Fixes:\n
-Litchfield, CT\n
-Kent County, DE\n
-Dade County, GA\n
-Gaston County, NC\n
-Oxford County, OH\n
+Waterford Town, CT\n
+Kosciusko County, IN\n
+Baltimore County, MD\n
+Jasper County, MO\n
+Somerset County, NJ\n
+Montgomery County, NY\n
+Steuben County, NY\n
+Harnett County, NC\n
+Mecklenburg County, NC\n
+Clermont County, OH\n
+Lebanon County, PA\n
+Bexar County, TX\n
+League City, TX\n
+Fauquier County, VA\n
   </string>  
 </resources>
   
