@@ -16,6 +16,7 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CLAY", "CLAYPOOL",
+      "LEES", "LEESBURG",
       "MILF", "MILFORD",
       "PIER", "PIERCETON",
       "SYR",  "SYRACUSE",
