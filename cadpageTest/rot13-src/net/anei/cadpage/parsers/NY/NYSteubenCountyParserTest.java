@@ -4,7 +4,87 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Fgrhora Pbhagl, AL
+Pbagnpg:  Funar Urael <furael@tzk.hf>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 64 F ZNVA FG #NCG BSSVPR, NIBPN IVYYNTR BS (FGNGR EBHGR 415 / PNEEVATGBA FG; Arne: PBUBPGBA INYYRL UBZR)6Q4 Oernguvat Ceboyrzf Pynzzl\aNIBPNSQN
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 4434 PBHAGL EBHGR 6 , NIBPN GBJA BS (FGNGR EBHGR 415 / PBHAGL EBHGR 70) 17O3 Snyyf Haxabja fgnghf\aNIBPNSQNZO:2011:98
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 9439 FCNHYQVAT EQ , JURRYRE GBJA BS ( / PBHAGL EBHGR 7)JVERF RZRET\aNIBPSQ:2011:51
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 8806 PBHAGL EBHGR 105 , NIBPN GBJA BS ( / A ZNVA FG) 9R1 Pneqvnp be Erfcvengbel Neerfg abg oernguvat ng nyy\aNIBPNSQNZO:2011:99
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 7 PUNEYRFJBEGU NI , NIBPN IVYYNTR BS (RNFG NI / PUNFR FG; Arne: CVARPERFG UBZR SBE NQHYGF) 17O1 Snyyf Cbffvoyl qnatrebhf obql nern\aNIBPNSQNZO
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 4652 PBHAGL EBHGR 70N , NIBPN GBJA BS (PBHAGL EBHGR 69 / ) 26N1 Fvpx Crefba Ab cevbevgl flzcgbzf (pbzcynvag pbaqvgvbaf 2-11 abg vqragvsvrq)\aN
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 7 PUNEYRFJBEGU NI , NIBPN IVYYNTR BS (RNFG NI / PUNFR FG; Arne: CVARPERFG UBZR SBE NQHYGF) 17O1 Snyyf Cbffvoyl qnatrebhf obql nern\aNIBPNSQNZO
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 8012 FZVGU CBAQ EQ , UBJNEQ GBJA BS (JRFFRYF UVYY EQ / OHEQVA UVYY EQ) 12O1 Pbaihyfvbaf Rssrpgvir Oernguvat abg irevsvrq &yg;35\aNIBPNSQNZO:20
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 118 R FGRHORA FG , ONGU IVYYNTR BS (UNYFRL FG / TNAFRIBBEG FG; Arne: CEB NPGVBA) 32O3 Haxabja Ceboyrz Haxabja Fgnghf/Bgure Pbqrf Abg Nccyvpno
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) ::::ERPNYYRQ:::::: 118 R FGRHORA FG , ONGU IVYYNTR BS (UNYFRL FG / TNAFRIBBEG FG; Arne: CEB NPGVBA) 32O3 Haxabja Ceboyrz Haxabja Fgnghf/Bgure
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 4230 FUNECF PBEAREF EQ , UBJNEQ GBJA BS 21N2 Urzbeeuntr/Ynprengvbaf zvabe urzbeeuntr\aNIBPNSQNZO:2011:105
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 64 F ZNVA FG , NIBPN IVYYNTR BS (FGNGR EBHGR 415 / PNEEVATGBA FG; Arne: PBUBPGBA INYYRL UBZR) 17O1 Snyyf Cbffvoyl qnatrebhf obql nern\aNIBPNSQ
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) /NEEBJ ZNEG TNF FGNGVBA (F 99 ZNVA FG NIBPN IVYYNTR BS ) 10N1 Purfg Cnva Oernguvat abeznyl &yg; 35\aNIBPNSQNZO:2011:107
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 5172 YBHPXF CBAQ EQ , NIBPN GBJA BS (BYQ NIBPN EQ / QLRE UVYY EQ) 10P1 Purfg Cnva Noabezny oernguvat\aNIBPNSQNZO:2011:108
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 54 TENAG FG , NIBPN IVYYNTR BS ( / FZVGU FG) 21N1 Urzbeeuntr/Ynprengvbaf abg qnatrebhf urzbeeuntr\aNIBPNSQNZO:2011:109
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) JRRXYL CNTRE GRFG GRFG\aNIBPSQ:2011:52
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 60617 FGNGR EBHGR 415 , NIBPN GBJA BS Zvfp SVER\aNIBPSQ:2011:53
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 64 F ZNVA FG , NIBPN IVYYNTR BS (FGNGR EBHGR 415 / PNEEVATGBA FG; Arne: PBUBPGBA INYYRL UBZR) 17N2 Snyyf aba-erprag &tg; 6 uef (jvgubhg cevbe
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 5572 ZVPUVTNA UBYYBJ EQ , JURRYRE GBJA BS (ORRXREZNA EQ / ) 6P1 Oernguvat Ceboyrzf Noabezny oernguvat\aNIBPNSQNZO:2011:112
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 7 TENAG FG , NIBPN IVYYNTR BS (F ZNCYR NI / F ZNVA FG) 8B1 Pneoba Zbabkvqr Qrpgbe Nynez (j/bhg cevbevgl flzcgbzf\aNIBPSQ:2011:54
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 7 PUNEYRFJBEGU NI , NIBPN IVYYNTR BS (RNFG NI / PUNFR FG; Arne: CVARPERFG UBZR SBE NQHYGF) NHGBZNGVP NYNEZ Sver\aNIBPSQ:2011:55
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 61619 FGNGR EBHGR 415 #GEYE, NIBPN GBJA BS 31N1 Hapbafpvbhf/Snvagvat Snvagvat rcvfbqr(f) naq nyreg &tg;35 (jvgubhg pneqvnp uvfgbel)\aNIBPNSQNZ
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 3628 PBHAGL EBHGR 70N , UBJNEQ GBJA BS (UBHFR EQ / FZVGU CBAQ EQ F) FGEHPGHER SVER\aUBJNSQ:2011:43
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) ::::ERPNYYRQ:::::: 3628 PBHAGL EBHGR 70N , UBJNEQ GBJA BS (UBHFR EQ / FZVGU CBAQ EQ F) FGEHPGHER SVER\aUBJNSQ:2011:43
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 4550 PBHAGL EBHGR 105 , NIBPN GBJA BS (JNYYNPR ONPX EQ / PUHEPU FG) 31R1 Hapbafpvbhf/Snvagvat Varssrpgvir oernguvat\aNIBPNSQNZO:2011:115
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) /OBZONEQVRE ( 7940 FGNGR EBHGR 415 NIBPN GBJA BS ) Zvfp SVER\aNIBPSQ:2011:56
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 9068 SNVEOEBGURE EQ , NIBPN GBJA BS (INA NHPXRE EQ / JNGREOHEL UVYY EQ) 29O4 Genssvp Nppvqrag Haxabja Fgnghf/Bgure Pbqrf Abg Nccyvpnoyr\aNIBPN
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 7 NYRKNAQRE FG , NIBPN IVYYNTR BS (A ZNCYR NI / A ZNVA FG) 25O6 Cflpuvngevp/Fhvpvqr nggrzcg Haxabja Fgnghf/Bgure Pbqrf Abg Nccyvpnoyr\aNIBPNSQ
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 9374 XUBEXF NI , NIBPN GBJA BS ( / JNYYNPR ONPX EQ) 17N1 Snyyf abg qnatrebhf obql nern\aNIBPNSQNZO:2011:119
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 8980 ERRIRF EQ , JURRYRE GBJA BS ( / URZYBPX EQ) 25O3 Cflpuvngevp/Fhvpvqr nggrzcg Guerngravat Fhvpvqr\aNIBPNSQNZO:2011:120
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 4252 PBHAGL EBHGR 70N , UBJNEQ GBJA BS (UNEEVF UVYY EQ / ZVYY EQ) 26N 2-11 Fvpx Crefba Aba-Cevbevgl Pbzcynvagf\aNIBPNSQNZO:2011:121
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 5279 GENPL EQ , NIBPN GBJA BS ( / PBHAGL EBHGR 8) 1N1 Noqbzvany Cnva\aNIBPNSQNZO:2011:122
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 8764 PYNEX EQ , NIBPN GBJA BS ( / PEBFF EQ) 28P02 Fgebxr (PIN)  Noabezny oernguvat\aNIBPNSQNZO:2011:123
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 8980 ERRIRF EQ , JURRYRE GBJA BS ( / URZYBPX EQ) 25N1 Cflpuvngevp/Fhvpvqr nggrzcg Aba-fhvpvqny naq nyreg\aNIBPNSQNZO:2011:124
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) /ZVYR 139 ( V86 ORGJRRA RKVG 35 + ) 29O1 Genssvp Nppvqragf  Vawhevrf\aNIBPNSQNZO:2011:125
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) ::::ERPNYYRQ:::::: /ZVYR 139 ( V86 ORGJRRA RKVG 35 + ) 29O1 Genssvp Nppvqragf  Vawhevrf\aNIBPNSQNZO:2011:125
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 61619 FGNGR EBHGR 415 #GEYE, NIBPN GBJA BS ( / JRAGJBEGU EQ) 19Q4 Urneg Ceboyrzf Pynzzl\aNIBPNSQNZO:2011:126
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 226 J JNFUVATGBA FG #NCG 201, ONGU IVYYNTR BS (UHOORYY FG / SERRZNA GREE) 10Q2 Purfg Cnva Qvssvphygl Fcrnxvat Orgjrra Oernguf\aONGUNZO:2011:77
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 8039 FZVGU CBAQ EQ , UBJNEQ GBJA BS (ZNPXRL EQ / JRFFRYF UVYY EQ) Oehfu Sver\aNIBPNSQNZO:2011:127
+zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) GUVF VF N GRFG ZRFFNTR SBE V NZ ERFCBAQVAT GRFG\aNIBPSQ:2011:57
+
+Pbagnpg: Evpx Gbjare <gbjare.evpx@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Pbubpgba SQ) /PNECRG ENPX ( 8 ZNCYR NI PBUBPGBA IVYYNTR BS )\a12Q1 Pbaihyfvbaf Abg oernguvat\aPBUBSNZO:2011:76
+(Pbubpgba SQ) 86 ZNCYR NI #SYE 1, PBUBPGBA IVYYNTR BS (FGNGR EBHGR 962Q / FUHYGF NI)\a26N 2-11 Fvpx Crefba Aba-Cevbevgl Pbzcynvagf\aPBUBSNZO:2011:70
+(Pbubpgba SQ) 10298 PBHAGL EBHGR 9 , PBUBPGBA GBJA BS (RIRYNAQ EQ / )\a25O6 Cflpuvngevp/Fhvpvqr nggrzcg Haxabja Fgnghf/Bgure Pbqrf Abg Nccyvpnoyr\aPBUBSNZ
+(Pbubpgba SQ) 24 A QNAFIVYYR FG #NCG 110, PBUBPGBA IVYYNTR BS\a21Q3 Urzbeeuntr/Ynprengvbaf Qnatrebhf Urabeeuntr\aPBUBSNZO:2011:72
+(Pbubpgba SQ) 6 REVR FG , PBUBPGBA GBJA BS (ZNVA FG / OBTTF FG)\a12Q3 Pbaihyfvbaf Ntbany/Varssrpgvir Oernguvat\aNGYNASQNZO:2011:33
+(Pbubpgba SQ) 5 EBFRAPENAF FG , PBUBPGBA IVYYNTR BS (YNEEBJR FG / ZNCYR NI)\a31Q2 Hapbafpvbhf/Snvagvat Hapbafpvbhf - Rssrpgvir Oernguvat\aPBUBSNZO:2011:75
+
+Pbagnpg: R Oebja <pne9702@tznvy.pbz>
+(F. Pbeavat SQ) 1567 ZNEGVA UVYY EQ , PNGBA GBJA BS (J PNGBA EQ / CVAR OERRMR YA)\aIRUVPYR SVER\aPNGBSQ:2011:72
+
+Pbagnpg: "Pbaenq, Eboreg" <EboregP@pb.fgrhora.al.hf>
+/MRZNXF TERRAUBHFR ( 6714 FGNGR EBHGR 415 ONGU GBJA BS ) Oehfu Sver OGSQ:2011:272
+/ZVYR 154 ( V86 ORGJRRA RKVG 39 + ) 29Q2 Genssvp Nppvqragf Uvtu zrpunavfz OGSQ:2011:177
+--{Qba'g Erfcbaq: Pbagebyyrq Ohea}-- 7630 PBHAGL EBHGR 16 , ONGU GBJA BS (DHVAA EQ / SERRZNA UBYYBJ EQ) Pbagebyyrq Ohea
+105 TRARIN FG , ONGU IVYYNTR BS (FGNGR EBHGR 54 / TENGGBA QE; Arne: YNXRIVRJ NCNEGZRAGF) NHGBZNGVP NYNEZ Sver OGSQ:2011:263
+[2aqPnyy] 25 ZNVAR FG , ONGU IVYYNTR BS (EBOVR FG / UNIREYVAT FG) 1Q1 Noqbzvany Cnva Abg nyreg ONGUNZO:2011:1393 
+[2aqPnyy] 3 PYHO IVRJ QE , ONGU IVYYNTR BS ( / ZNL FG) 28P06 Fgebxr (PIN) Fhqqra ybff bs onynapr be pbbeqvangvba ONGUNZO:2011:1392
+
+Jnlynaq SQ 
+Pbagnpg: Znggurj Ghyyre <zghyyre21@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+Fhowrpg:Jnlynaq SQ\a1790 FGNGR EBHGR 63 , JNLYNAQ GBJA BS (TEBFF UVYY EQ / ERFREIBVE EQ)\a26N1 Fvpx Crefba Ab cevbevgl flzcgbzf (pbz
+Fhowrpg:Jnlynaq SQ\aPBHAGL EBHGR 92\URAEL QEHZ EQ , JNLYNAQ GBJA BS\a29O1 Genssvp Nppvqragf  Vawhevrf\aJNLYNSQNZO:2011:504\a\a
+
+Pbagnpg: Puevf Preznx <preznx30@yvir.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Jnlarq SQ) 9013 SYRRG EQ, JNLAR GBJA (PBHAGL EBHGR 96/A HEONAN EQ, A HEONAN EQ)17N1 - Snyyf - Abg qnatrebhf obql nernJNLARSQNZO:2012:00084
+(Jnlarq SQ) -{[PbagebyyrqOhea]}-UNYYBPX EQ NG 230 VA FPUHLYRE PBHAGL...SQ PBAGEBYYRQ OHEA
+(Jnlarq SQ) 8690 YBIRGG YA, JNLAR GBJA (/PBHAGL EBHGR 96)SQ BQBE VAI (bhgfvqr)JNLASQ:2012:00069
+(Jnlarq SQ) 9130 TYRA OEBBX EQ, HEONAN GBJA (QVARUNEG EQ/ERFREIBVE UVYY EQ)SQ FGEHPGHER SVERUNZSQ:2012:00132
+(Jnlarq SQ) /FJVGMREYNAQ VAA ERFGNHENAG  (14109 XRHXN IVYYNTR EQ JNLAR GBJA BS)SQ OBNG RZRETRAPLJNLASQ:2012:00068
+
+*/
 choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ALFgrhoraPbhaglCnefreGrfg() {
@@ -549,8 +629,53 @@ choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
    
   }
   
+  @Grfg
+  choyvp ibvq grfgPuevfPreznx() {
+
+    qbGrfg("G1",
+        "(Jnlarq SQ) 9013 SYRRG EQ, JNLAR GBJA (PBHAGL EBHGR 96/A HEONAN EQ, A HEONAN EQ)17N1 - Snyyf - Abg qnatrebhf obql nernJNLARSQNZO:2012:00084",
+        "FEP:Jnlarq SQ",
+        "NQQE:9013 SYRRG EQ",
+        "PVGL:JNLAR",
+        "K:PBHAGL EBNQ 96/A HEONAN EQ, A HEONAN EQ",
+        "PBQR:17N1",
+        "PNYY:NYREG",
+        "VASB:- Snyyf - Abg qnatrebhf obql nernJNLARSQNZO:2012:00084");
+
+    qbGrfg("G2",
+        "(Jnlarq SQ) -{[PbagebyyrqOhea]}-UNYYBPX EQ NG 230 VA FPUHLYRE PBHAGL...SQ PBAGEBYYRQ OHEA",
+        "FEP:Jnlarq SQ",
+        "PNYY:NYREG",
+        "VASB:[PbagebyyrqOhea] / UNYYBPX EQ NG 230 VA FPUHLYRE PBHAGL...SQ PBAGEBYYRQ OHEA");
+
+    qbGrfg("G3",
+        "(Jnlarq SQ) 8690 YBIRGG YA, JNLAR GBJA (/PBHAGL EBHGR 96)SQ BQBE VAI (bhgfvqr)\aJNLASQ:2012:00069",
+        "FEP:Jnlarq SQ",
+        "NQQE:8690 YBIRGG YA",
+        "PVGL:JNLAR",
+        "K:PBHAGL EBNQ 96",
+        "PNYY:SQ BQBE VAI (bhgfvqr)");
+
+    qbGrfg("G4",
+        "(Jnlarq SQ) 9130 TYRA OEBBX EQ, HEONAN GBJA (QVARUNEG EQ/ERFREIBVE UVYY EQ)SQ FGEHPGHER SVER\aUNZSQ:2012:00132",
+        "FEP:Jnlarq SQ",
+        "NQQE:9130 TYRA OEBBX EQ",
+        "PVGL:HEONAN GBJA",
+        "K:QVARUNEG EQ/ERFREIBVE UVYY EQ",
+        "PNYY:SQ FGEHPGHER SVER");
+
+    qbGrfg("G5",
+        "(Jnlarq SQ) /FJVGMREYNAQ VAA ERFGNHENAG  (14109 XRHXN IVYYNTR EQ JNLAR GBJA BS)SQ OBNG RZRETRAPL\aJNLASQ:2012:00068",
+        "FEP:Jnlarq SQ",
+        "CYNPR:FJVGMREYNAQ VAA ERFGNHENAG",
+        "NQQE:14109 XRHXN IVYYNTR EQ",
+        "PVGL:JNLAR",
+        "PNYY:SQ OBNG RZRETRAPL");
+
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALFgrhoraPbhaglCnefreGrfg().trarengrGrfgf("G5", "FEP CYNPR NQQE NCG PVGL K PBQR PNYY VASB");
+    arj ALFgrhoraPbhaglCnefreGrfg().trarengrGrfgf("G1", "FEP CYNPR NQQE NCG PVGL K PBQR PNYY VASB");
   }
 
 }
