@@ -5,27 +5,28 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 /**
- * Montville, CT
+ * New London County, CT
  */
-public class CTMontvilleParser extends FieldProgramParser {
+public class CTNewLondonCountyParser extends FieldProgramParser {
   
-  public CTMontvilleParser() {
-    super(CITY_LIST, "MONTVILLE", "CT",
+  public CTNewLondonCountyParser() {
+    super(CITY_LIST, "NEW LONDON COUNTY", "CT",
           "CALL PLACENAME? ADDR/S! CITY? INFO+ Fire_District:UNIT DATETIME");
   }
 
   @Override
   public String getFilter() {
-    return "@montville-ct.org";
+    return "@montville-ct.org,dispatch@mail.eastlyme911.gov";
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Imc Solutions Page")) return false;
-    return parseFields(body.split("\r?\n"), 4, data);
+    return parseFields(body.split("\n"), 4, data);
   }
   
   private static final String[] CITY_LIST= new String[]{
+    "EAST LYME",
     "MONTVILLE"
   };
 }
