@@ -87,7 +87,7 @@ choyvp pynff ALPuranatbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:GENSSVP NPPVQRAGF",
         "NQQE:FG UJL 166 & PB UJL 52",
-        "ZNQQE:AL 166 & PB 52",
+        "ZNQQE:AL 166 & PBHAGL EBNQ 52",
         "FEP:ZVQQ1",
         "GVZR:08:22",
         "VASB:PNE BIRE GUR ONAX - EBYYBIRE CREFBA: (PBZCYNVANAG)");
@@ -111,7 +111,7 @@ choyvp pynff ALPuranatbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:UNMNEQ NYY",
         "NQQE:PB UJL 52 & TNGRJNL YA",
-        "ZNQQE:PB 52 & TNGRJNL YA",
+        "ZNQQE:PBHAGL EBNQ 52 & TNGRJNL YA",
         "FEP:PBBC4",
         "GVZR:08:14",
         "VASB:2 PNE ZIN AB VAW");

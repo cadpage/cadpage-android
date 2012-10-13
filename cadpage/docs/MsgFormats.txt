@@ -1229,10 +1229,15 @@ Golden, CO (COGoldenParser)
 (Golden Fire) Call#: 122230095*                                                               \n\nTime: 16:53:33*                                                                 \n\nType of call: Ambulance and Rescue*                                             \n\nLocation: 1030 JOHNSON RD U200, GOLDEN*                                         \n\nCross streets: W 10TH AVE/W 14TH AVE*                                           \n\nUnits: DIST1 DIST2*                                                             \n\nNarrative: high bp / numbless and tingling                                      \n\napprox 80's female                                                              \n\ncannot move one side / poss stroke                                              \n\nno doc on scene*                                                                \n\n\n\n\n\n\n\n\n\n\n\nThis
 (Golden Fire) Call#: 122230107*                                                               \n\nTime: 18:19:55*                                                                 \n\nType of call: Ambulance and Rescue*                                             \n\nLocation: 2011 WASHINGTON AVE, GOLDEN*                                          \n\nCross streets: 20TH ST/ WASHINGTON CIR*                                         \n\nUnits: DIST1 DIST2*                                                             \n\nNarrative: elderly fem, diff breathing                                          \n\n82 pulse ox                                                                     \n\ndehydrated                                                                      \n\nis con*                                                                         \n\n\n\n\n\n\n\n\n\n\n\nThis
 ***************************************************************************
-Jefferson County, CO (COJeffersonCountyParser)
+Jefferson County, CO (COJeffersonCountyAParser)
 [WRCAD] Add:3745 Quail St Type: UNKM PgH-16 Units:WR1,WM4Radio:TAC2 Case#:0708201205966-001385
 [WRCAD] Add:2650 Harlan St Type: UNKM PgH-19 Units:WR1,WM1Radio:TAC2 Case#:0714201205966-001431
 [WRCAD] Add:4345 Everett St Type: FALL PgG-17 Units:WM1,WR1Radio:TAC2 Case#:0627201205966-001283
+***************************************************************************
+Jefferson County, CO (COJeffersonCountyBParser)
+(Jeffco Alert) 10501 cty hwy 73,,,,32 yf in sz\r\nThu Oct 04 06:30:24 2012
+(Jeffco Alert) stage in the area of 11097 timothy's dr for a possible adult female overdose\r\nSun Oct 07 01:14:31 2012
+(Jeffco Alert) respond to 29290 s sunset trl for a 36yof with chest pains\r\nSat Oct 06 20:19:04 2012
 ***************************************************************************
 Larimer County, CO (COLarimerCountyParser)
 (BFPD) (CFS) Power Lines Down/Arcing        // E County Road 4 & Weld County // Apt/Lot            // Radio:MAC 5 NE                       //
@@ -4865,14 +4870,6 @@ FRM:messaging@iamresponding.com\nSUBJ:Station 20\nMSG:CORRECTION TO LAST PAGE:\r
 **********************************************************
 **********************************************************
 **********************************************************
-Jefferson County, CO (alternate)
-Contact: Sheena Tamburlin <sheenatamb@hotmail.com>
-Sender: @co.jefferson.co.us
-(Jeffco Alert) 10501 cty hwy 73,,,,32 yf in sz\r\nThu Oct 04 06:30:24 2012
-(Jeffco Alert) stage in the area of 11097 timothy's dr for a possible adult female overdose\r\nSun Oct 07 01:14:31 2012
-(Jeffco Alert) respond to 29290 s sunset trl for a 36yof with chest pains\r\nSat Oct 06 20:19:04 2012
-(Jeffco Alert) ec - 0738hrs - info - 9051 S Warhawk Rd - recreational burn from 0800-1430\r\nSat Oct 06 07:39:13 2012
-(Jeffco Alert) ***INFO**** \r\nControlled Burn \r\n23442 Pleasant Park Rd \r\nRec Burn until 2300hrs\r\nFri Oct 05 12:39:06 2012
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
