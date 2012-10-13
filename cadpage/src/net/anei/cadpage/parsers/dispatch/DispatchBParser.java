@@ -410,6 +410,7 @@ public class DispatchBParser extends SmartAddressParser {
         "ALS",
         "ALTERED MENTAL STATUS",
         "ASSAULT/SEXUAL ASSAULT",
+        "ASSIST OCCUPANT",
         "ASSISTANCE/ MUTUAL AID",
         "BASIC LIFE SUPPORT CALL",
         "BLS",

@@ -13,13 +13,19 @@ public class ALStClairCountyParser extends DispatchBParser {
   }
   
   @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    body = append(subject, " ^^^ ", body);
+    return super.parseMsg(body, data);
+  }
+  
+  @Override
   protected boolean isPageMsg(String body) {
     return body.startsWith("9-1-1CENTRAL:");
   }
   
   @Override
   protected boolean parseAddrField(String field, Data data) {
-    field = field.replace('@', '&');
+    field = field.replace('@', '&').replace("^^^", "@");
     if (! super.parseAddrField(field, data)) return false;
     data.strCross = data.strCross.replace('&', '@');
     return true;
