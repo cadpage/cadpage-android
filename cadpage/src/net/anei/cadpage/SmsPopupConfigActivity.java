@@ -5,6 +5,9 @@ import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.ParserList;
+import net.anei.cadpage.parsers.ParserList.ParserCategory;
+import net.anei.cadpage.parsers.ParserList.ParserEntry;
 import net.anei.cadpage.preferences.DialogPreference;
 import net.anei.cadpage.preferences.EditTextPreference;
 import net.anei.cadpage.preferences.LocationCheckBoxPreference;
@@ -432,70 +435,91 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
    */
   private void setupLocationMenu(int resId, boolean multi, LocationManager locMgr) {
     
-    // Get a list of all of the location codes and state names.
-    Resources res = getResources();
-    String[] stateNames = res.getStringArray(R.array.pref_state_names);
-    String[] locValues = res.getStringArray(R.array.pref_location_values);
-    String[] locNames = res.getStringArray(R.array.pref_location_options);
-    
     // Get the preference screen we will be building
+    Resources res = getResources();
     PreferenceScreen main = (PreferenceScreen)findPreference(res.getString(resId));
-    int stNdx = 0;
-    String stCode = null;
-    int startNdx = -1;
-    for (int ndx = 0; ndx <= locValues.length; ndx++) {
-      String locValue = (ndx < locValues.length ? locValues[ndx] : "******");
-      int len = 2;
-      if (locValue.startsWith("Z")) {
-        len++;
-        if (locValue.startsWith("ZCA")) len += 2;
-      }
-      String stPrefix = locValue.substring(0,len);
-      if (stPrefix.equals("St")) stPrefix = "Ge";  // Standard parsers go in General parser group
-      if (stCode == null || ! stCode.equals(stPrefix)) {
-        if (stCode != null) {
-          String stName = stateNames[stNdx++];
-          if (! stName.startsWith(stCode)) {
-            throw new RuntimeException("Found state " + stName + " while looking for " + stCode);
-          }
-          if (! multi) {
-            LocationListPreference list = new LocationListPreference(this, locMgr, main);
-            int pt = stName.indexOf(' ');
-            String state = stName.substring(pt+1);
-            list.setTitle(state);
-            list.setDialogTitle(state);
-            int locCnt = ndx - startNdx;
-            String[] values = new String[locCnt];
-            String[] options = new String[locCnt];
-            System.arraycopy(locValues, startNdx, values, 0, locCnt);
-            System.arraycopy(locNames, startNdx, options, 0, locCnt);
-            for (int ii = 0; ii<locCnt; ii++) {
-              options[ii] = stripStateAbbrv(options[ii]);
-            }
-            list.setEntryValues(values);
-            list.setEntries(options);
-          
-            main.addPreference(list);
-          } else {
-            PreferenceScreen sub = getPreferenceManager().createPreferenceScreen(this);
-            sub.setTitle(stName.substring(3));
-            for (int ii = startNdx; ii<ndx; ii++) {
-              sub.addPreference(
-                  new LocationCheckBoxPreference(this, locValues[ii], 
-                                                 stripStateAbbrv(locNames[ii]), 
-                                                 locMgr)
-              );
-            }
-            
-            main.addPreference(sub);
-          }
-        }
-        if (ndx >= locValues.length) break;
-
-        startNdx = ndx;
-        stCode = stPrefix;
-      }
+    buildLocationMenu(ParserList.MASTER_LIST, main, multi, locMgr);
+  }
+ 
+  /**
+   * Construct a preference screen corresponding to a configured parser category    
+   * @param parserCategory parser category 
+   * @param screen preference screen being set up
+   * @param multi true if we are setting up a mutiple location selection menu
+   * @param locMgr Location manager
+   */
+  private void buildLocationMenu(ParserCategory parserCategory, PreferenceScreen screen, boolean multi, LocationManager locMgr) {
+    for (ParserEntry entry : parserCategory.getParserList()) {
+      if (!entry.isCategory()) throw new RuntimeException("Top level parser entry " + entry.getParserName() + " must be a category");
+      Preference pref = buildLocationItem(entry.getCategory(), screen, multi, locMgr);
+      screen.addPreference(pref);
     }
+  }
+
+  /**
+   * Construct a prefence item corresponding to a single parser entry 
+   * @param category root preference category
+   * @param parent parent preference screen
+   * @param multi true if we are setting up multiple location selection menu
+   * @param locMgr location manager
+   * @return constructed preference
+   */
+  private Preference buildLocationItem(ParserCategory category, PreferenceScreen parent, boolean multi, LocationManager locMgr) {
+    
+    // Current rules are that category must contain only  subcategory or only parser entries.  See which this is
+    String catName = category.getName();
+    ParserEntry[] entries = category.getParserList();
+    boolean subcat = false;
+    boolean plist = false;
+    for (ParserEntry entry : entries) {
+      if (entry.isCategory()) subcat = true;
+      else plist = true;
+    }
+    if (subcat && plist) throw new RuntimeException("Parser group " + catName + " mixes parser and category entries"); 
+    if (!subcat && !plist) throw new RuntimeException("Parser group " + catName + " is empty");
+    
+    // If it only contains subcategories, build a new preference screen with them
+    if (subcat) {
+      PreferenceScreen sub = getPreferenceManager().createPreferenceScreen(this);
+      sub.setTitle(catName);
+      buildLocationMenu(category, sub, multi, locMgr);
+      return sub;
+    }
+    
+    // Otherwise we are handing a parser list
+    // What we do next depends on whether this is a single or multiple selection menu
+    
+    // If we are doing multiple selections, create a new preference screen and fill it
+    // a location checkbox for each parser entry
+    if (multi) {
+      PreferenceScreen sub = getPreferenceManager().createPreferenceScreen(this);
+      sub.setTitle(catName);
+      for (ParserEntry entry : entries) {
+        sub.addPreference(
+            new LocationCheckBoxPreference(this, entry.getParserName(), 
+                                           stripStateAbbrv(entry.getLocName()), 
+                                           locMgr)
+        );
+      }
+      return sub;
+    }
+    
+    // If we are doing single location selections, build a list preference
+    // that can select from any of the parsers in this category
+    LocationListPreference list = new LocationListPreference(this, locMgr, parent);
+    list.setTitle(catName);
+    list.setDialogTitle(catName);
+    
+    String[] values = new String[entries.length];
+    String[] names = new String[entries.length];
+    for (int ndx = 0; ndx < entries.length; ndx++) {
+      ParserEntry entry = entries[ndx];
+      values[ndx] = entry.getParserName();
+      names[ndx] = stripStateAbbrv(entry.getLocName());
+    }
+    list.setEntryValues(values);
+    list.setEntries(names);
+    return list;
   }
   
   private static String stripStateAbbrv(String name) {

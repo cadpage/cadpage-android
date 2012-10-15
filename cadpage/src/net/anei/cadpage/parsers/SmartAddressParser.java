@@ -428,6 +428,15 @@ public abstract class SmartAddressParser extends MsgParser {
   protected int checkAddress(String address, int extra) {
     return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, address).getStatus(extra);
   }
+  
+  /**
+   * Determine if string contains a city name or code.
+   * @param address string to be checked for city name
+   * @return true if recognized as city, false otherwise
+   */
+  protected boolean isCity(String address) {
+    return parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY | FLAG_CHECK_STATUS | FLAG_ANCHOR_END, address).getStatus() > 0;
+  }
 
   /**
    * Parse address line
@@ -1267,7 +1276,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // If FLAG_ANCHOR_END is set, we are going to parse this to the
     // end of the line without looking for a city
     boolean anchorEnd = isFlagSet(FLAG_ANCHOR_END);
-    boolean parseToEnd = anchorEnd & ! isFlagSet(FLAG_CHECK_STATUS);
+    boolean parseToEnd = anchorEnd && ! isFlagSet(FLAG_CHECK_STATUS);
     boolean padField = isFlagSet(FLAG_PAD_FIELD);
 
     if (srcNdx >= tokens.length) return false;

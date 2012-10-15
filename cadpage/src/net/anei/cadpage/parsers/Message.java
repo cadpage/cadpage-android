@@ -329,7 +329,7 @@ public class Message {
    */
   private String decode(String body) {
     return trimLead(body.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&")
-               .replaceAll("<br>", "\n").replace("<br/>", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<"));
+               .replaceAll("<br>", "\n").replace("<br/>", "\n").replaceAll("<br />", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<"));
   }
   
   /**
