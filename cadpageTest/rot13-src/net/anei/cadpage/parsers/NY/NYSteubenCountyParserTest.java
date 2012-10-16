@@ -660,7 +660,7 @@ choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Jnlarq SQ) 9130 TYRA OEBBX EQ, HEONAN GBJA (QVARUNEG EQ/ERFREIBVE UVYY EQ)SQ FGEHPGHER SVER\aUNZSQ:2012:00132",
         "FEP:Jnlarq SQ",
         "NQQE:9130 TYRA OEBBX EQ",
-        "PVGL:HEONAN GBJA",
+        "PVGL:HEONAN",
         "K:QVARUNEG EQ/ERFREIBVE UVYY EQ",
         "PNYY:SQ FGEHPGHER SVER");
 

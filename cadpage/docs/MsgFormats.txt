@@ -3171,16 +3171,6 @@ MAILBOX@[166.61.196.210] MAILBOX:CO1 MOTOR VEHICLE ACCIDENT 000000 RISING SUN//G
 MAILBOX@[166.61.196.210] MAILBOX:CO1 STRUCTURE FIRE 000000 STANLEY LN /BYBEES CHURCH incid #365// caller sees barn on fire// xst stanley ln// 2 xst dog wood
 MAILBOX@[166.61.196.210] MAILBOX:CO1 MOTOR VEHICLE ACCIDENT 000000 I-64 MM132 EASTBOUND inct 000369 ,,, MVA VEH INTO TREE IN MEDIAN ,,, MEDIC 7 ENROUTE FROM LOUISA
 **********************************************************
-Marion County, OR
-Contact: "Gene Dershewitz" <geneder@wvi.com>
-Sender: denniss@santiam911.org (3/5/11)
-Waiting for more info on text formats
-(INCIDENT INFO) MEDICAL 15192 LIBBY LN SE MAP 4922 ...FROM SANTIAM 911
-(INCIDENT INFO) MEDICAL 15192 LIBBY LN SE # 4922 ...FROM SANTIAM 911
-(INCIDENT INFO) MEDICAL 5654 MARION HILL RD SE MAP 4832A  ...FROM SANTIAM 911
-(INCIDENT INFO) MVA WEST STAYTON/SNODDY MAP/4526 ...FROM SANTIAM 911
-(INCIDENT INFO) 600/JFA/83   MEDICAL  15684 PLETZER RD SE  MAP 4923 .....FROM SANTIAM 911
-**********************************************************
 Unknown
 Contact: Roderick Brenner <rbrennerjr@gmail.com>
 Sender: 8276
@@ -4862,6 +4852,16 @@ Contact: rkachelreiss <rkachelreiss@yahoo.com>
 Sender: messaging@iamresponding.com
 FRM:messaging@iamresponding.com\nSUBJ:Station 20\nMSG:CORRECTION TO LAST PAGE:\r\nStructure Fire\r\n2 Woodland Townhouse Rd\r\nApt: 36 - E\r\n@ 17:45\r\n\r\n\r
 **********************************************************
+Rockingham County, NC
+Contact: "alex.french3068" <alex.french3068@gmail.com>
+Sender: 3365208378
+*CAD@CO.ROCKINGHAM.NC.US**: **CAD:STROKE;316 MATTIE RD;US 29
+BUS;REID;160;TAC3 [10/14/12 18:04:44 JBOWLES] [Medical Priority Info]
+RESPONSE: ALS HOT & FIRST RESPONDERS RESPONDER SCRIPT: *
+
+*CAD@CO.ROCKINGHAM.NC.US**: *CAD:CHESTPAI;1891 HARRISON CROSSROAD LP;BURTON
+FARM RD;NC 14;REID;10C04;160;[Medical Priority Info] RESPONSE: ALS HOT &
+FIRST RESPONDERS RESPONDER SCRIPT: Y
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4875,6 +4875,18 @@ FRM:messaging@iamresponding.com\nSUBJ:Station 20\nMSG:CORRECTION TO LAST PAGE:\r
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+Marion County, OR (rebuild)
+Contact: "Gene Dershewitz" <geneder@wvi.com>
+Sender: dispatch@ci.woodburn.or.us
+(Incident) MVA INJURY F:SHAFF RD SE@ WILCO RD , STAYTON:MED2, C80, E80, R80:TWO VEH MVA/ UNK INJ:::::
+(Incident) GRASS HIGH RISK F:SW CHURCH ST@ SW JOHNSON ST , SUBLIMITY::GRASS FIRE / YARD\2s25X30 FT /:::::
+(Incident) UNC F:1625 SNOW PEAK CT, STAYTON:MED1, R81:72YOM UNC/B:::::
+(Incident) MVA INJURY F:9572 GOLF CLUB RD SE, MARION COUNTY:MED1, C80, E80, R80:VEH IN A DITCH / UNK INJ:::::
+
+Contact: Louis Gisler <lgisler1@gmail.com>
+Sender: Dispatch@ci.woodburn.or.us
+Subject:Incident\nPSYCH F:145 N MAIN ST 3 , JEFFERSON:C60, MED60, R60, STA600:20 YOF THREAT TO HANG HERSELF::::\r\n\r
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
