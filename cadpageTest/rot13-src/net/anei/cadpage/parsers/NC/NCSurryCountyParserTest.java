@@ -324,7 +324,7 @@ choyvp pynff APFheelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G6",
         "FP911::=121012-0424 [Nqqerff] 116 ZVGGZNA YA [K Fg] TERRAGBJA EQ GB QRNQRAQ [Glcr] PIN",
         "VQ:121012-0424",
-        "NQQE:116 ZVGGZNA YA",
+        "NQQE:116 ZVGGZNA YA",  // Vf guvf PYVAG ZVGGZNA YA??
         "K:TERRAGBJA EQ & QRNQRAQ",
         "PNYY:PIN");
 
