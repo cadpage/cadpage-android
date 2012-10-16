@@ -73,6 +73,7 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 Pbagnpg: Wbua Ehccry <wehccry@rzzvgfohetrzf.bet>
 Fraqre: ep.415@p-zft.arg
 Fhowrpg:PNQ\a[SerqPb] PG: GEBHOYR OERNGUVAT / qrsnhyg 401 J YVAPBYA NIR RZZO: @YVAPBYA BA GUR CNEX NCG# 216 ZNC: 3997U8 Qvfc: N268,Z30\e\a
+Fhowrpg:PNQ\a[SerqPb] PG: IRUVPYR NPPVQRAG JVGU RAGENCZRAG / qrsnhyg NQPB: @ZN NQNZPB:EG15FO 1ZZ ZNC: 3998O2 Qvfc: EF6,N268,RG64,R63\e\a\e
 
 Pbagnpg: Npgvir911.pbz
 [PNQ] [SerqPb] PG: FGEBXR / qrsnhyg 216 GUVEQ NIR OEHA ZNC: 4683N10 Qvfc: N197,Z20\a
@@ -427,6 +428,20 @@ choyvp pynff ZQSerqrevpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:YVAPBYA BA GUR CNEX NCG# 216",
         "ZNC:3997U8",
         "HAVG:N268,Z30");
+
+    qbGrfg("G2",
+        "Fhowrpg:PNQ\a" +
+        "[SerqPb] PG: IRUVPYR NPPVQRAG JVGU RAGENCZRAG / qrsnhyg NQPB: @ZN NQNZPB:EG15FO 1ZZ ZNC: 3998O2 Qvfc: EF6,N268,RG64,R63\e\a" +
+        "\e",
+
+        "FEP:SerqPb",
+        "PNYY:Zhghny Nvq: IRUVPYR NPPVQRAG JVGU RAGENCZRAG / qrsnhyg NQPB:",
+        "NQQE:EG15FO 1ZZ",
+        "ZNQQE:EG 15 1ZZ",
+        "PVGL:Nqnzf Pbhagl",
+        "FG:CN",
+        "ZNC:3998O2",
+        "HAVG:EF6,N268,RG64,R63");
 
   }
   

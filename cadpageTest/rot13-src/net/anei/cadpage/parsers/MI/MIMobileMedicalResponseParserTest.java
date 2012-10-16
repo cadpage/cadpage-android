@@ -4,6 +4,44 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Zbovyr Zrqvpny Erfcbafr, ZV (Pynver, Vfnoryyn, naq Tengvbg Pbhagvrf)
+Pbagnpg: Frna Qhssl <rzg210@tznvy.pbz>, 2315981587@zrffntvat.fcevagcpf.pbz
+Fraqre: znvytubfg@zbovyrzrqvpny.bet
+Flfgrz: CebDN
+
+Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 17656/11775 A VFNORYYN EQ/C-2 Rzretrapl Ab Yvtugf//Purfg Cnva (Aba-Genhzngvp)/ureevpx naq crer znedhrggr
+Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 17612/7800 YHQVATGBA QE/C-3 Qbjatenqr  (Ab Ygf/Fveraf)//Snyyf/k tvofba naq ynxr fgngvba nir ba 
+Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 16888/7181 A PYNER/C-1 Yvsr Guerngravat Rzretrapl//Pneqvnp be Erfcvengbel Neerfg/Qrngu/k sbeerf
+Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 17723/600 FR 4GU FG/C-1 Yvsr Guerngravat Rzretrapl/ahefrf fgngvba/Fvpx Crefba (Fcrpvsvp Qvntabf
+Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 17923/10197 F PYNER NIR/C-2 Rzretrapl Ab Yvtugf//Purfg Cnva (Aba-Genhzngvp)/qrcg pbeerpgvbaf oh
+Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 17874/521 F FPBGG QE/C-1 Yvsr Guerngravat Rzretrapl//Oernguvat Ceboyrzf/jnf va RE Fngheqnl/ qk 
+Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 17991/391 ZVYY FG/C-2 Rzretrapl Ab Yvtugf/Q/Fvpx Crefba (Fcrpvsvp Qvntabfvf)/cg unq xarr ercynp
+Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 17893/235 TNGRJNL QE/C-1 Yvsr Guerngravat Rzretrapl/105/Oernguvat Ceboyrzf//NYF/PYNER///<Haxabj
+Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 17970/602 ORRPU FG/C-5 Ybpny Genafcbeg/2AQ SYBBE 205-N ZRQ FHET/Vag-Fvpx Crefba-Fcrpvsl va Pbzz
+
+ceif=10834168on=znvytubfg@zbovyrzrqvpny.bet (<PNQ> - cneg 1 bs 1) EP:Eha# 24453/5186 SRAGBA/C-3 Qbjatenqr  (Ab Ygf/Fveraf)//Bireqbfr / Cbvfbavat (Vatrfgvba)/zhaql gjc // ng xebtre
+
+Pbagnpg: "wrazqnjfba@lnubb.pbz" <wrazqnjfba@lnubb.pb>
+Fraqre: 6573
+<PNQ> - cneg 1 bs 1/ EP:Eha# 34376/3300 CNHYNA QE/C-1 Yvsr Guerngravat Rzretrapl//Purfg Cnva (Aba-Genhzngvp)/72/S/NYF/ONL PVGL///<Haxabja>/20:04\a\a
+<PNQ> - cneg 1 bs 1/ EP:Eha# 34848/3375 OBL FPBHG EQ/C-1 Yvsr Guerngravat Rzretrapl//Pbaihyfvbaf/Frvmherf/k Furejbbq & Rhpyvq // 35 S/NYF/ONL PVGL///<Haxab
+<PNQ> - cneg 1 bs 1/ Eha# 0/ 800 F JNFUVATGBA NIR/ C-7 Ybat Qvfgnapr/ 1/ Vag-Bireqbfr/Cbvfbavat (Vatrfgvba)/ RKGENF: ABAR... QRPBAQVGVBAVAT.../CG ERNQL / CPF ER
+
+Pbagnpg: "puevftemrtbepmlx@ubgznvy.pbz" <puevftemrtbepmlx@ubgznvy.pbz>
+(<PNQ> - cneg 1 bs 1) Eha# 55683/ 508 A ZBAEBR FG/ C-3 Qbjatenqr (Ab Ygf/Fveraf)/ Fvpx Crefba (Fcrpvsvp Qvntabfvf)/ 19/s/ NYF/ ONL PVGL/ 1900 PBYHZOHF N
+
+Pbagnpg: Gvz Lbhat <gqlbhat2578@tznvy.pbz>
+--<PNQ> - cneg 1 bs 1 --EP:Eha# 64549/1227 WNARF NIR/C-1 Yvsr Guerngravat Rzretrapl//Oernguvat Ceboyrzf/26/S .... VSB FGBC-A-FUBC/NYF/FNTVANJ///<Haxabja>/02:02
+
+Pbagnpg: Avpubynf Shax <ashax01@tznvy.pbz>
+(<PNQ> - cneg 1 bs 1) EP:Eha# 9980/4116 J PBBX EQ/C-1 Yvsr Guerngravat Rzretrapl//Urneg Ceboyrzf / N.V.P.Q./88 s  fgvre 1   Fgng 91/NYF/TENAQ OYNAP///<Ha
+
+Pbagnpg: Naql Jnyy <ntjrzg@tznvy.pbz>
+Fraqre: znvytubfg@zbovyrzrqvpny.bet
+Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 14534/805 J PRQNE FG/C-7 Ybat Qvfgnapr/NPHGR PNER 25 -O/Vag-Fvpx Crefba-Fcrpvsl va Pbzzragf/ABA
+
+ */
 
 choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

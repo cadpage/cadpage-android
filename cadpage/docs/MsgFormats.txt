@@ -4863,17 +4863,54 @@ RESPONSE: ALS HOT & FIRST RESPONDERS RESPONDER SCRIPT: *
 FARM RD;NC 14;REID;10C04;160;[Medical Priority Info] RESPONSE: ALS HOT &
 FIRST RESPONDERS RESPONDER SCRIPT: Y
 **********************************************************
+Clearfield County, PA
+Contact: 8145908933@vtext.com
+(Clearfield Alert) Inc: Facility Transfer-Routine
+Add: 100 HOSPITAL AVE
+City: DUBOIS
+Units: 4353
+43EMS
+10/14/2012 7:15:40 AM
+**********************************************************
+Midland County, MI (Alternate Mobile Medical Response Parser?)
+Contact: "Drake, Matthew" <mdrake@mobilemedical.org>
+Sender: dispatch@midland911.org
+ 
+(CAD Page for CFS M101512-29) BUS : 
+ADDX: W BURNS RD and N CASTOR RD APT: 
+CODE: TRAFFIC ACCIDENT
+http://maps.google.com/maps?q=+43.72719%20-84.48703
+
+(CAD Page for CFS M101412-41) BUS : 
+ADDX: 8405 S EBERHART APT: 
+CODE: HOUSE FIRE
+http://maps.google.com/maps?q=+-1.00000%20--1.00000
+
+(CAD Page for CFS M101312-31 <10131231>) BUS :
+WB US10 MM 102
+ADDX: 102 WEST US HWY 10 APT: 
+CODE: PDA - UNKNOWN
+http://maps.google.com/maps?q=+43.76840%20-84.58168
+
+(CAD Page for CFS M101112-117 <101112117>) BUS : 
+ADDX: 6990 N COLEMAN RD APT: 
+CODE: CHIMMNEY FIRE
+http://maps.google.com/maps?q=+43.81458%20-84.58607
+
+(CAD Page for CFS M101212-56 <10121256>) BUS :
+
+ADDX: 3095 W PERE MARQUETTE RD APT: 
+CODE: STROKE
+http://maps.google.com/maps?q=+43.71114%20-84.49158
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-*************************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Marion County, OR (rebuild)
@@ -4887,6 +4924,42 @@ Sender: dispatch@ci.woodburn.or.us
 Contact: Louis Gisler <lgisler1@gmail.com>
 Sender: Dispatch@ci.woodburn.or.us
 Subject:Incident\nPSYCH F:145 N MAIN ST 3 , JEFFERSON:C60, MED60, R60, STA600:20 YOF THREAT TO HANG HERSELF::::\r\n\r
+
+Contact: Jon Remy <jonr@turnerfire.com>
+Sender: Dispatch@ci.woodburn.or.us
+Subject:Incident\nVEHF F:I5 SB MP 244:C60, E60, E64, MED60, T60, T64, E955, T959, STA640:TRUCK MOVING/SMOKE FRM CAB/:::I5 SB MP 244:\r\r
+Subject:Incident\nGRASS LOW RISK F:SUMMIT LP SE@ SHADOW HILLS DR SE , MARION COUNTY:C95, GR958, T959, STA950, BR956:POSS OUT OF CTRL \r
+Subject:Incident\nBACK F:5554 LLOYD CT SE, MARION COUNTY:C95, R965, RMA-MED1, STA950:42 YOM C/B/A BACK PN::::\r\n\r
+Subject:Incident\nTRAU F:5465 BOISE ST SE 4 , TURNER:MED31, C95, R965, STA950:76YOF C/B/A GLF WITH POSS HEAD INJ:::KASEBERG RES RETIR\r
+Subject:Incident\nGLF F:7874 MILL CREEK CT SE, TURNER:MED31, C95, R965, STA950:82YOM C/A/B GLF WITH POSS INJURY TO SHOULDER::::\r\n\r
+Subject:Incident\nALT MNTL F:5977 GLENWILD CT SE, MARION COUNTY:MED31, C95, R965, STA950:72 YOM C/B/ALT LOC - DIZZY - UNABLE TO WALK/\r
+Subject:Incident\nBACKYARD F:5100 CEDAR ST SE, TURNER:C95, E955:TRASH AND YARD DEBRIS FIRE::::\r\n\r
+Subject:Incident\nBREA PROBLEM F:7686 5TH ST SE, TURNER:MED31, C95, R965, STA950:84 yom/c/diff br/a dyallis pt::::\r\n\r
+Subject:Incident\nBACKYARD F:5100 CEDAR ST SE, TURNER:C95, E955:TRASH AND YARD DEBRIS FIRE::::\r\n\r
+**********************************************************
+CENCOM, NJ
+Contact: David Suriano <dasuriano1@gmail.com>
+Sender: cencom@ahsys.org
+System: Visinet
+
+Unit:M404-1 #2012-049202 Breathing Problems ALS Dingman Twp 114 High Meadow Dr Room Pickup Location: Pt Name:
+Unit:M404-1 #2012-049211 Sick Person BLS Westfall Twp 0-0 Rte6 (264 Route 6 & 2 RoomRM 211 Pickup Location: Pt Name:
+Unit:M404-2 #2012-048860 Chest Pain ALS Westfall Twp 1023 Pensylvania Ave Room Pickup Location: Pt Name:
+Unit:M404-2 #2012-046172 Seizures/Convulsions ALS Milford Boro (Pike) 107 W Ann St Room Pickup Location: Pt Name:
+Unit:M404-1 #2012-045571 Sick Person BLS Milford Boro (Pike) 404 Rte6 Room318 Pickup Location: Pt Name:
+Unit:M404-2 #2012-044825 Chest Pain ALS Westfall Twp Rte6 & Rte209 Room Pickup Location: Pt Name:
+Unit:M404-1 #2012-044543 Altered Mental Status ALS Matamoras Boro 91 10th St Room Pickup Location: Pt Name:
+Unit:M404-2 #2012-042444 Cardiac Arrest ALS Dingman Twp 107 Brooke Park Ct Room Pickup Location: Pt Name:
+Unit:EMS4 #2012-035472 Sick Person BLS Frankford Twp 129 Morris Tpke Apt308 Cross St:Rte519/Unnamed Street
+Unit:EMS4 #2012-035438 Altered Mental Status ALS Andover Twp 99 Mulford Rd AptN111B Cross St:Unnamed Street/Unnamed Street
+Unit:EMS4 #2012-032512 Chest Pain ALS Newton Town 99 High St Apt Cross St:Academy St/Liberty St
+Unit:EMS4 #2012-032518 Psych/Behavior Problem BLS Frelinghuysen Twp 145 State Park Rd Apt115-D Cross St:Shiloh Rd/Unnamed Street
+Unit:EMS4 #2012-031691 Breathing Problems BLS Newton Town 249 High St Apt12-W Cross St:Summit Ave/Shady Ln
+Unit:EMS4 #2012-031058 Standby BLS Newton Town 85 Mill St Apt Cross St:Clinton St/Newton Swartswood Rd
+
+#2012-048860 Late Response Unit M404-2 10/09/2012 16:44 Delayed Response Reason
+
+Unit M404-1 # 2012-049211 Recv'd 15:09 Disp 15:10 Enroute Arrival Avail 15:13
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

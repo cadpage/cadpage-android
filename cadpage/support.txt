@@ -396,6 +396,16 @@ If there is something we can change do a better job of finding the correct locat
 Good luck,
 -Ken
 
+******************************************************************
+** DISPATCH FMT CHANGE?
+
+Hi folks,
+
+We have gotten a report that the <<<<>>>> dispatch text pages are not longer working with Cadpage.  I need to know if they are still working for you.  If they are, I will need to retain the current functionality when I rewrite the text parser.  If not, can you report any examples of what your text pages look like now.  Just long  press all of the calls and select Report Problem to generate an email to us with information about the call.
+
+Thanks a bunch,
+-Ken
+
 *****************************************************************
 ** General problems
 ******************************************************************
@@ -445,16 +455,6 @@ and try installing them.
 If there are no updates available, your only option is to get a new phone, or root the existing phone and install your own OS.  Directions for rooting most phones can be found on the Internet.  The process isn't nearly and dangerous as it sounds.  The important thing to make an NAND backup as soon as you have the recovery partition installed.  You can use that to restore the phone to pristine unrooted status if that becomes necessary.
 
 Good luck,
--Ken
-
-******************************************************************
-** DISPATCH FMT CHANGE?
-
-Hi folks,
-
-We have gotten a report that the <<<<>>>> dispatch text pages are not longer working with Cadpage.  I need to know if they are still working for you.  If they are, I will need to retain the current functionality when I rewrite the text parser.  If not, can you report any examples of what your text pages look like now.  Just long  press all of the calls and select Report Problem to generate an email to us with information about the call.
-
-Thanks a bunch,
 -Ken
 
 ******************************************************************
