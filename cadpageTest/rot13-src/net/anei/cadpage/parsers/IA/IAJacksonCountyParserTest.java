@@ -19,6 +19,10 @@ F:Qvfcngpu Pragre Z:11-004406 TRARENY ZRQVPNY/NZOHYNAPR\a35109 370 FG\a346 NIR /
 F:Qvfcngpu Pragre Z:11-004340 TRARENY ZRQVPNY/NZOHYNAPR\a116 J ZNVA FG\a1 FG / PVGLYVZVGF/\aFCEVATOEBBX\aORN1 FOS1\a\a\a
 F:Qvfcngpu Pragre Z:11-004214 TRARENY ZRQVPNY/NZOHYNAPR\a401 A 6 FG\aSENAXYVA FG / FCEVAT/FG\aORYYRIHR\aORN1\a\a\a
 
+Pbagnpg: Yla Zrqvatre <yzrqvatre@pb.wnpxfba.vn.hf>
+Fraqre: fjznvy@zndhbxrgnvn.pbz
+F:Qvfcngpu Pragre Z:12-014585 911 UNAT HC \aErcbegrq: 10/15/2012 10:01:20 \a23266 33 FG \aQRNQRAQ / 233 NIR \aZNDHBXRGN \aZNN1 \a\a\a
+
  */
 
 choyvp pynff VNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -104,6 +108,22 @@ choyvp pynff VNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ORYYRIHR",
         "HAVG:ORN1");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgYlaZrqvatre() {
+
+    qbGrfg("G1",
+        "F:Qvfcngpu Pragre Z:12-014585 911 UNAT HC \aErcbegrq: 10/15/2012 10:01:20 \a23266 33 FG \aQRNQRAQ / 233 NIR \aZNDHBXRGN \aZNN1 \a\a\a",
+        "VQ:12-014585",
+        "PNYY:911 UNAT HC",
+        "QNGR:10/15/2012",
+        "GVZR:10:01:20",
+        "NQQE:23266 33 FG",
+        "K:QRNQRAQ / 233 NIR",
+        "PVGL:ZNDHBXRGN",
+        "HAVG:ZNN1");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

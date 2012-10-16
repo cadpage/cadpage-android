@@ -18,7 +18,7 @@ public class IAJacksonCountyParser extends FieldProgramParser {
   
   public IAJacksonCountyParser() {
     super(CITY_LIST, "JACKSON COUNTY", "IA",
-           "CALL! ADDR! X ( CITY | PLACECITY | PLACE CITY ) UNIT");
+           "CALL! Reported:DATETIME? ADDR! X ( CITY | PLACECITY | PLACE CITY ) UNIT");
   }
   
   @Override
