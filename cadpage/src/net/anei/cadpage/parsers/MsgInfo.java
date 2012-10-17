@@ -625,7 +625,7 @@ public class MsgInfo {
     Pattern.compile("\\b(RT|RTE|HW|HWY|US|ST|SH|FM|I|CO|CR|CORD|SRT?|I)-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern ROUTE_PTN2 =
     Pattern.compile("\\b([A-Z]{2})(\\d{1,3})(?:[NSEW]B)?\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern SRT_PTN = Pattern.compile("\\bSRT?\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SRT_PTN = Pattern.compile("\\bS(?:RT?|H)\\b", Pattern.CASE_INSENSITIVE);
   
   private String cleanRoutes(String sAddress) {
     
