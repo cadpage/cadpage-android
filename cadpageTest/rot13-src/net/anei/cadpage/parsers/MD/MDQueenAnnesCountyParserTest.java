@@ -6,6 +6,72 @@ vzcbeg arg.narv.pnqcntr.cnefref.ZQ.ZQDhrraNaarfPbhaglCnefre;
 vzcbeg bet.whavg.Grfg;
 
 
+/*
+Dhrra Naar'f Pbhagl, ZQ
+
+Pbagnpg: Pbagnpg: Qnivq onxre <onxre.qnivqz@tznvy.pbz> ?
+dnp911:*Q 4-2 PBZZREPVNY OYQT SVER QHAXVA QBAHGF @500 PUHEPU UVYY EQ PBZZREPVNY OBK D04
+dnp911:*Q 4-5 ZIP J/RAGENCZRAG EG301AO / EG304 ERFPHR OBK D04
+dnp911:*Q 5-1 YT OEHFU/TENFF SVER EG405 / JVAQFJRCG SNEZ YA OEHFU OBK D05
+dnp911:*Q 4-5 HAPBAFPVBHF/SNVAGVAT EG301AO / EBYYVAT OEVQTR EQ HAPBAFPVBHF D04
+dnp911:*Q 5-2 ZIP J/EBYYBIRE EG301AO / UNLQRA EQ ERFPHR OBK D05
+dnp911:*Q 4-7 ZIP J/EBYYBIRE 1627 EHGUFOHET EQ ERFPHR OBK D04
+(grkg zrffntr) dnp911:*Q 4-2 PB NYNEZ 212 ABEGUSVRYQ JNL YBPNY OBK D04
+
+Pbagnpg: qnivq onxre <onxre.qnivqz@tznvy.pbz>
+fraqre:DN911pbz@dnp.bet <Sebz%3NDN911pbz@dnp.bet>
+(Grkg Zrffntr) DN911pbz:*Q 4-1 HAXABJA CEBOYRZ 206 BEPURFGEN CY YVSR FGNGHF ? D04
+
+Pbagnpg: Wbfuhn Ehol <wbfu@pbzchgreerfphrzq.pbz>
+fraqre: DN911pbz@dnp.bet
+(Grkg Zrffntr) DN911pbz:*Q 1-14 SNYYF 1401 PNYIREG EQ CBFF QNAT OBQL NERN D01
+
+Pbagnpg: wnuheybpx@pisq7.pbz <wnuheybpx@pisq7.pbz>
+Fraqre: DN911pbz@dnp.bet 
+(Grkg Zrffntr) DN911pbz:*T XZ06 ZHGHNY NVQ ZRQVPNY 300 JNFUVATGBA NIR ZHGHNY NVQ BAYL XZ06
+
+Xrag Vfynaq ISQ
+Pbagnpg: Wbfuhn Ehol <wbfu@pbzchgreerfphrzq.pbz>
+[Grkg Zrffntr]  DN911pbz:*Q 1-15 PURFG CNVAF 1630 ZNVA FG OERNGUVAT ABEZNY>35 D01
+[Grkg Zrffntr]  DN911pbz:*Q 1-9 FVPX CREFBA 402 PNFGYR ZNEVAN EQ ABG NYREG D01 
+[Grkg Zrffntr]  DN911pbz:*Q 1-3 URNEG CEBOYRZF 115 FNYYVGG QE NOABEZNY OERNGUVAT D01
+[Grkg Zrffntr]  DN911pbz:*Q 1-10 FRVMHERF 1918 NAPUBENTR QE PBAGVAHBHF/ZHYGVCYR D01
+[Grkg Zrffntr]  DN911pbz:*Q 1-9 BQBE BS FZBXR VAFVQR 44 S DHRRA ARIN PG PBZZREPVNY OBK D01
+[Grkg Zrffntr]  DN911pbz:*Q 1-15 URNEG CEBOYRZF 1630 ZNVA FG PNEQVNP UVFGBEL D01
+[Grkg Zrffntr]  DN911pbz:*Q 1-4 QEBJAVAT/QVIR NPPQAG 624 EBZNAPBXR EQ JNGRE ERFPHR OBK D01
+
+Pbagnpg: Punq Natryvav <punqnnatryvav@irevmba.arg>
+(Grkg Zrffntr) DN911pbz:*Q 6-1 PURFG CNVAF 104 PUNEYRF FG QVSS FCRNXVAT D06
+
+Pbagnpg: Oergg InaMnag <puisq5@tznvy.pbz>
+Fraqre: ep.165@p-zft.arg
+(PNQ) [PNQ] DN911pbz:*Q 4-1 PBZZREPVNY OYQT SVER 160 PBHEFRINYY QE @DNP CYNAAVAT & MBAVAT PBZZREPVNY OBK D04
+
+Pbagnpg: "G.W. Cnyzngnel" <gwcnyzngnel@tznvy.pbz>
+[PNQ] Q 4-11 NOQBZVANY CNVAF 1130 OHEEVFFIVYYR EQ D04
+
+Pbagnpg: "wnuheybpx@pisq7.pbz" <wnuheybpx@pisq7.pbz>
+[PNQ] Q XRAG ZHGHNY NVQ ZRQVPNY 30564 PURFGREIVYYR OEVQTR EQ ZHGHNY NVQ BAYL XRAG
+[PNQ] Q 7-5 HAXABJA CEBOYRZ 304 ZRETNAFRE QE ZRQVPNY NYNEZ D07
+[PNQ] Q 7-2 OERNGUVAT CEBOYRZF 2013 CBAQGBJA EQ NOABEZNY OERNGUVAT D07
+[PNQ] Q 7-1 PB NYNEZ 72 NQNZ QE YBPNY OBK D07
+
+Pbagnpg: sszrqvpzb@tznvy.pbz
+1-9 URNEG CEBOYRZF 1630 ZNVA FG PNEQVNP UVFGBEL D01
+
+Pbagnpg: Wbfu Ehol <sversvtugre_wbfu@ubgznvy.pbz>
+Fraqre: ep.579@p-zft.arg
+1-3 FRVMHERF 380 YBT PNABR PVE @CEF THVGNEF <35 ABG IREVSVRQ D01
+
+Pbagnpg: "rzgrevp7@lnubb.pbz" <rzgrevp7@lnubb.pbz>
+[PNQ] Q XRAG ZHGHNY NVQ 10788 PURFGREIVYYR EQ ZHYGVCYR HAVGF UBG XRAG
+
+Pbagnpg: Npgvir911.pbz
+[Grkg Zrffntr] DN911pbz:*Q 1-2 TRARENY SVER NYNEZ 200 GREEVCNA TEBIR YBPNY OBK D01\a
+[Grkg Zrffntr] DN911pbz:*Q 1-8 GENHZNGVP VAWHEL ONFXVA EBOVAF/ QHAXVA QBHTAHGF @1243 FUBCCVA CBFF QNAT OBQL NERN D01\a
+[Grkg Zrffntr] DN911pbz:*T 1-8 GENHZNGVP VAWHEL ONFXVA EBOVAF/ QHAXVA QBHTAHGF @1243 FUBCCVA CBFF QNAT OBQL NERN D01\a
+
+******************************************************************************/
 choyvp pynff ZQDhrraNaarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZQDhrraNaarfPbhaglCnefreGrfg() {

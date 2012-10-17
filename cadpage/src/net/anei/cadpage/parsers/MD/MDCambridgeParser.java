@@ -5,21 +5,7 @@ import java.util.Properties;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/***
-Cambridge, MD
-Contact:ryan travers <traversboy@gmail.com>
-Sender:dor911@docogonet.com
-DOR911:CT:COMMERCIAL FIRE ALAR 2715 OCEAN GTWY @HOLIDAY INN CAMB BOX:1-1 DUE:EN1-1 EN1-2 :DC
-DOR911:CT:GAS LEAK OUTSIDE 513 RACE ST CAMB BOX:1-2 DUE: EN1-1 EN1-2 :DC
-DOR911:CT:VEHICLE FIRE HARDEES @800 WOODS RD CAMB BOX:1-1 DUE:EN1-3 EN1-4 :DC
-DOR911:CT:STRUCTURE FIRE 118 VIRGINIA AVE CAMB BOX:1-1 DUE: EN1-1 EN1-2 EN1-3 RS1-1 TW1-1 P100 :DC
-DOR911:CT:SICK PERSON 5226 WOODS RD @CAMBRIDGE CLUB APT 6 APT 6127 CAMB BOX:1-1 DUE: P101 RS1-1 :DC
 
-Contact: Jeff Lewis <jeff.lewis37@yahoo.com>
-Sender: DOR911@docogonet.com
-DOR911:CANCEL LAST ALERT AUTH OF ALARM CO 835 :DC\r
-
-***/
 
 public class MDCambridgeParser extends FieldProgramParser {
 

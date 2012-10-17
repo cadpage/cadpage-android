@@ -4,6 +4,21 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Xrabfun Pbhagl, JV Ivyyntr bs Cyrnfnag Cenvevr, Cyrnfnag Cenvevr Sver & Erfphr
+Pbagnpg: Qnivq Jvyxvafba <qjvyxvafba@cycenvevrjv.pbz>
+Fraqre: PNQ@cycenvevrjv.pbz
+Flfgrz: Cebcubravk
+
+6245  PNQ¡cycenvevrjv.pbz Fhowrpg:Cubravk Abgvsvpngvba 2012000155 ä02/09/2012 03:24:52ñ ZRQ PNYY - Zrqvpny Pnyyä1ñ 11623 28gu Nir Havgf: 5641 Pbzzragf:
+6245: PNQ¡cycenvevrjv.pbz Fhowrpg:Cubravk Abgvsvpngvba 2012000152 ä02/08/2012 16:54:48ñ ZRQ PNYY - Zrqvpny Pnyyä1ñ 9500OYX 88gu Nir Havgf: 5642 Pbzzragf
+6245: PNQ¡cycenvevrjv.pbz Fhowrpg:Cubravk Abgvsvpngvba 2012000153 ä02/08/2012 17:47:01ñ SVER FGE - Sver - Fgehpgherä1ñ 8000 95gu Fg Havgf: 5691 5641 56
+6245: PNQ¡cycenvevrjv.pbz Fhowrpg:Cubravk Abgvsvpngvba 2012000154 ä02/08/2012 18:09:17ñ RYRI NYZ - Ryringbe Nynezä1ñ 8330 82aq Fg,PZCYK Havgf: 5642 Pbzz
+6245: PNQ¡cycenvevrjv.pbz Fhowrpg:Cubravk Abgvsvpngvba 2012000151 ä02/08/2012 07:18:41ñ ZRQ PNYY - Zrqvpny Pnyyä1ñ 11831 120gu Pg Havgf: 5642 Pbzzragf:
+6245: PNQ¡cycenvevrjv.pbz Fhowrpg:Cubravk Abgvsvpngvba 2012000157 ä02/09/2012 18:43:23ñ ZRQ PNYY - Zrqvpny Pnyyä1ñ 8109 57gu Nir Havgf: 5641 Pbzzragf:
+6245: PNQ¡cycenvevrjv.pbz Fhowrpg:Cubravk Abgvsvpngvba 2012000158 ä02/09/2012 18:53:48ñ ZRQ PNYY - Zrqvpny Pnyyä1ñ 10106 29gu Nir Havgf: 5642 Pbzzragf:
+
+*/
 
 choyvp pynff JVXrabfunPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

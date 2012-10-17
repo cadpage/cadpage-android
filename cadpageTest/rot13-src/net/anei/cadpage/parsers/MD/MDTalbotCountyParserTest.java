@@ -4,6 +4,38 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Gnyobg Pbhagl, ZQ
+Pbagnpg: "wt0169586@lnubb.pbz" <wt0169586@lnubb.pbz>
+Pbagnpg: Fpbgg Erqzre <ferqzre140@tznvy.pbz>
+Fraqre: zft@pszft.pbz
+
+Gnyobg 911:*Q 61 O-NOQBZVANY CNVA 319 YVAQRA NIR G60
+Gnyobg 911:*Q 70 N-PURFG CNVA 5656 OYNPX JNYAHG CBVAG EQ OERNGUVAT ABEZNY <35 G70
+Gnyobg 911:*Q 66 ZIN/CV BPRNA TGJL / TBYQFOBEBHTU FG G60
+Gnyobg 911:*Q 40P O-SNYYF/ONPX GENHZN 103 ZVYRF YA CBFF QNATRE OBQL CG G40
+Gnyobg 911:*Q QBE NFFVFG RZF 821 SVRYQPERFG QE Q01
+Gnyobg 911:*Q 61 CBYVPR ERDHRFG RZF VQYRJVYQ CNEX @116 VQYRJVYQ NIR OENIB ERFCBAFR G60
+Gnyobg 911:*Q 43 FZ ABA-QJRYYVAT SVER 7011 UBCXVAF ARPX EQ FURQ/QRGNPU TNENTR G40
+
+Pbagnpg: Puevf Unfu <rnfg66fvqr@tznvy.pbz>
+Fraqre: 4109247197
+Gnyobg 911:*Q 62NU P-FZBXR QRGRPGBE 700 CBEG FG @URNEG SVRYQF NG RNFG PBZZREPVNY FGEHPGHER G60
+
+Gur pbqrf sbyybjvat gur *Q ner gur obk nern naq gura gur G__ naq fhpu vf gur
+fgngvba ahzore gung unf gur pnyy. Jr unir gur sbyybjvat fgngvbaf va gur
+pbhagl.
+20  -  Bksbeq
+30  -  Genccr
+40  -  Fg. Zvpunryf
+50  -  Pbeqbin
+60  -  Rnfgba
+70  -  Gvytuzna
+80  -  Dhrra Naa Uvyyfobeb
+90  -  Gnyobg Pbhagl RZF
+
+Gur Q01 vf sbe nffvfgvat Qbepurfgre pbhagl fgngvba 1
+******************************************************************************/
 
 choyvp pynff ZQGnyobgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

@@ -6,21 +6,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Kenosha County, WI Village of Pleasant Prairie, Pleasant Prairie Fire & Rescue
-Contact: David Wilkinson <dwilkinson@plprairiewi.com>
-Sender: CAD@plprairiewi.com
-System: Prophoenix
-
-6245  CAD¡plprairiewi.com Subject:Phoenix Notification 2012000155 ä02/09/2012 03:24:52ñ MED CALL - Medical Callä1ñ 11623 28th Ave Units: 5641 Comments:
-6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000152 ä02/08/2012 16:54:48ñ MED CALL - Medical Callä1ñ 9500BLK 88th Ave Units: 5642 Comments
-6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000153 ä02/08/2012 17:47:01ñ FIRE STR - Fire - Structureä1ñ 8000 95th St Units: 5691 5641 56
-6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000154 ä02/08/2012 18:09:17ñ ELEV ALM - Elevator Alarmä1ñ 8330 82nd St,CMPLX Units: 5642 Comm
-6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000151 ä02/08/2012 07:18:41ñ MED CALL - Medical Callä1ñ 11831 120th Ct Units: 5642 Comments:
-6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000157 ä02/09/2012 18:43:23ñ MED CALL - Medical Callä1ñ 8109 57th Ave Units: 5641 Comments:
-6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000158 ä02/09/2012 18:53:48ñ MED CALL - Medical Callä1ñ 10106 29th Ave Units: 5642 Comments:
-
-*/
 
 
 public class WIKenoshaCountyBParser extends FieldProgramParser {

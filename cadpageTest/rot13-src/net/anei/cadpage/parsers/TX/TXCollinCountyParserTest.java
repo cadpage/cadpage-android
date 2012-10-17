@@ -360,7 +360,7 @@ choyvp pynff GKPbyyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:JZSQ",
         "ZNC:1131",
         "HAVG:JZS1",
-        "GVZR:18:19 ",
+        "GVZR:18:19",
         "VASB:16X2 / ZNVA UBHFR 50 L EB ZNY CNGVRAG SRYY S");
 
     qbGrfg("G3",

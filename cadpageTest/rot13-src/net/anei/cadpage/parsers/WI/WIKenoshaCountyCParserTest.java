@@ -4,6 +4,22 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+
+Xrabfun Pbhagl, JV (inevnag P) Cyrnfnag Cenevr Qvfcngpu
+Pbagnpg: Qnivq Jvyxvafba <qjvyxvafba@cycenvevrjv.pbz>
+Fraqre: PNQ@cycenvevrjv.pbz
+Flfgrz: Cebcubravk
+
+Fhowrpg:Cubravk Abgvsvpngvba\a2012000453 {04/15/2012 14:23:51}\e\aZRQ PNYY - Zrqvpny Pnyy{1}\e\a9747 84gu Cy\e\aHavgf:\e\a    5642    \e\aPbzzragf:\e\a\e
+Fhowrpg:Cubravk Abgvsvpngvba\a2012000454 {04/15/2012 17:21:48}\e\aSVER FAT - Sver - Fvatyr Ratvar{1}\e\a905 114gu Fg\e\aHavgf:\e\a    5641    5611  \e
+Fhowrpg:Cubravk Abgvsvpngvba\a2012000454 {04/15/2012 17:21:48}\e\aSVER FAT - Sver - Fvatyr Ratvar{1}\e\a905 114gu Fg\e\aHavgf:\e\a    5641    5611  \e
+Fhowrpg:Cubravk Abgvsvpngvba\a2012000619 {05/16/2012 17:47:56}\e\aSVER NYN - Sver - Nynez{1}\e\a9901 77gu Fg,PZCYK\e\aHavgf:\e\a    5642    \e\aPbzzra\e
+Fhowrpg:Cubravk Abgvsvpngvba\a2012000618 {05/16/2012 13:31:17}\e\aZRQ PNYY - Zrqvpny Pnyy{1}\e\a13000OYX 104gu Fg\e\aHavgf:\e\a    5642    \e\aPbzzrag\e
+
+Fhowrpg:Cubravk Abgvsvpngvba\a2012000618 {05/16/2012 13:31:17}\aZRQ PNYY - Zrqvpny Pnyy{1}\a13000OYX 104gu Fg\aHavgf:\a    5642    \aPbzzrag
+
+*/
 
 choyvp pynff JVXrabfunPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
