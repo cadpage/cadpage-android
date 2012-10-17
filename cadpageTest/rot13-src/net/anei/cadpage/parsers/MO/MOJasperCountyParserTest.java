@@ -40,7 +40,7 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "F: Z:PNQ:SLV: ;ZRQVPNY HAXABJA;501 A ONYY FG;JOPG;J JBBQ FG;J NEPU FG;52N;urneg ceboyrzf [10/06/12 18:13:23 PYVAQRE]",
         "PNYY:ZRQVPNY HAXABJA",
         "NQQE:501 A ONYY FG",  // Tbbtyr fnlf guvf vf A ONYY NIR
-        "PVGL:JRO PVGL",
+        "PVGL:JROO PVGL",
         "K:J JBBQ FG & J NEPU FG",
         "PBQR:52N",
         "VASB:urneg ceboyrzf",
@@ -53,7 +53,7 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:PNEQVANY GBJREF",
         "NQQE:324-405A A GBZ FG",
         "ZNQQE:324 A GBZ FG",
-        "PVGL:JRO PVGL",
+        "PVGL:JROO PVGL",
         "K:R NHFGVA FG & R TNYRAN FG",
         "PBQR:52N");
 
@@ -61,7 +61,7 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "F: Z:PNQ:SLV: ;ZRQVPNY HAXABJA;1802 F BEBABTB FG;JOPG;J SBHAGNVA EQ;J PNEQVANY QE;52P;FBA VF GUEBJVAT HC [10/09/12 00:06:15 IEBOREGF] NCNEGZRAG 1 R [10/09/12 00:05:52 IEBOREGF] ",
         "PNYY:ZRQVPNY HAXABJA",
         "NQQE:1802 F BEBABTB FG",
-        "PVGL:JRO PVGL",
+        "PVGL:JROO PVGL",
         "K:J SBHAGNVA EQ & J PNEQVANY QE",
         "PBQR:52P",
         "VASB:FBA VF GUEBJVAT HC / NCNEGZRAG 1 R",
@@ -72,7 +72,7 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "F: Z:PNQ:SLV: ;NPPVQRAG HAXABJA BE VAWHEL;ZVPUNRYN QE/UBZRFGRNQ QE;JOPG;51O;[YNJ] HQGF: {JPCQ1} PNYY NPXABJYRQTRQ OL HAVG [10/08/12 21:49:17 WOBLRE] [YNJ] JPSQ NQI`Q [10/08/12 21:49:17 RO9501] [RZF] HQGF: PNYY NPXABJYRQTRQ OL HAVG [10/08/12 21:4 ",
         "PNYY:NPPVQRAG HAXABJA BE VAWHEL",
         "NQQE:ZVPUNRYN QE & UBZRFGRNQ QE",  // Tbbtyr fnlf guvf vf ZVPUNRYN YA
-        "PVGL:JRO PVGL",
+        "PVGL:JROO PVGL",
         "PBQR:51O",
         "VASB:HQGF: {JPCQ1} PNYY NPXABJYRQTRQ OL HAVG / JPSQ NQI`Q / HQGF: PNYY NPXABJYRQTRQ OL HAVG",
         "QNGR:10/08/12",
@@ -82,7 +82,7 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "F: Z:PNQ:SLV: ;ZRQVPNY HAXABJA;501 A ONYY FG;JOPG;J JBBQ FG;J NEPU FG;52N;UHFONAQ UNF PUS [10/08/12 17:47:29 XJ9409] ",
         "PNYY:ZRQVPNY HAXABJA",
         "NQQE:501 A ONYY FG",
-        "PVGL:JRO PVGL",
+        "PVGL:JROO PVGL",
         "K:J JBBQ FG & J NEPU FG",
         "PBQR:52N",
         "VASB:UHFONAQ UNF PUS",

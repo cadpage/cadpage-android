@@ -29,7 +29,7 @@ public class MOJasperCountyParser extends DispatchOSSIParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CJCT", "CARL JUNCTION",
       "JPLN", "JOPLIN",
-      "WBCT", "WEB CITY",
+      "WBCT", "WEBB CITY",
       
       "CNTY", ""
   });
