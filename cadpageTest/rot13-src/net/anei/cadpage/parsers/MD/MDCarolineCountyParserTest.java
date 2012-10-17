@@ -5,6 +5,34 @@ vzcbeg arg.narv.pnqcntr.cnefref.ZQ.ZQPnebyvarPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Pnebyvar Pbhagl, ZQ
+Pbagnpg: Oerag Znevar <onznevar123@tznvy.pbz>
+Fraqre: zft@pszft.pbz <Sebz%3Nzft@pszft.pbz>
+(CZ13 vf gur havg pbqr.  26 N vf cneg bs gur pnyy qrfpevcgvba)
+
+(Puvrs NYG) [CZ13] 26 N-Fvpx Crefba -- 520 Xree Nir Qragba - KFgf: Qrnq Raq / Qnssva Ya
+(Puvrs NYG) [200 Sver] Jverf Qbja -- 22542 Qbire Oevqtr Eq Cerfgba - KFgf: Cbcyne Arpx Eq, Gnalneq Eq / Orguyrurz Eq
+(Puvrs NYG) [200 Sver] 17 N-Snyyf -- 21182 Znefu Perrx Eq Cerfgba - KFgf: Senmvre Arpx Eq / Orguyrurz Eq
+(Puvrs NYG) [200 RZF] Ubhfr Sver -- 22272 Unirepnzc Eq Cerfgba - KFgf: Cepuny Eq / Cbcyne Arpx Eq
+
+Pbagnpg: "wt0169586@lnubb.pbz" <wt0169586@lnubb.pbz>
+(Puvrs NYG) [200 RZF] 23 O-Bireqbfr / Cbvfbavat -- 320 Cnex Nir Srqrenyfohet - KFgf: Envyebnq Nir / Npnqrzl Nir
+
+Pbagnpg: Cw Qlbgg <cqlbgg@tznvy.pbz>
+(Puvrs NYG) [200 RZF] 19 Q-Urneg Ceboyrzf / N.v.p.q. -- 121 R Prageny Nir Srqrenyfohet - KFgf: Eryvnapr Nir / A Znva Fg, F Znva Fg, J Prageny Nir
+(Puvrs NYG) [200 RZF] 23 Q-Bireqbfr / Cbvfbavat -- 156 Znva Fg Cerfgba - KFgf: Unezbal Eq / Yrqahz Nir
+(Puvrs NYG) [200 RZF] 27 O-Fgno/tfj/cra. Genhzn -- 6181 Orguyrurz Eq Cerfgba - KFgf: Unezbal Eq, Tvycva Cbvag Eq / Oryy Perrx Eq, Tebir Eq
+(Puvrs NYG) [200 RZF] 04 O-Nffnhyg -- 305 Oybbzvatqnyr Nir Srqrenyfohet - KFgf: A Havirefvgl Nir / Unlzna Qe
+
+Pbagnpg: ffgnexrl620 <ffgnexrl620@lnubb.pbz>
+(Puvrs NYG) [600 RZF] 21 O-Urzzbeeuntr / Ynprengvbaf -- 420 Qhgpuznaf Ya Terrafobeb - KFgf: Qrnq Raq / Qrnq Raq
+
+Pbagnpg: Cw Qlbgg <cqlbgg@tznvy.pbz>
+Fraqre: zft@pszft.pbz
+(Puvrs NYG) [200 RZF] 10 P-Purfg Cnva -- 215 Nccyr Ya Cerfgba - KFgf: Qrnq Raq / Onpx Ynaqvat Eq
+
+ */
 
 choyvp pynff ZQPnebyvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

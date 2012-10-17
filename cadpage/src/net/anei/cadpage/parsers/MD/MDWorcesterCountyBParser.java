@@ -6,17 +6,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*    
-Worcester County, MD (alternate)
-Contact: Joey Widgeon <jwidgeon2009@gmail.com>
 
-(Chief ALT) [800 Fire] -- Traffic Transportation Acc --  -- Worcester Hwy & peerless Rd Showell MD, 21862
-(Chief ALT) [800 Fire] -- Traffic Transportation Acc -- On Rt 90 West Of Rt 113 -- Ocean Expy & worcester Hwy Berlin MD, 21811
-(Chief ALT) [800 Fire] -- Structure Fire Extinguished -- White Horse Trailer Park -- 11647-1 Beauchamp Rd Berlin MD, 21811
-(Chief ALT) [800 Fire] -- Traffic Transportation Acc -- (s)newport (n) -- Ocean Pkwy & newport Dr Berlin MD, 21811
-(Chief ALT) [800 Fire] -- Fire Alarm -- (s)teal Bay (n) -- 8 Waters Edge Ct Berlin MD, 21811
-
-*/
 
 public class MDWorcesterCountyBParser extends FieldProgramParser {
   

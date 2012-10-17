@@ -4,24 +4,7 @@ import java.util.Properties;
 
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
-/*    
-Somerset County, MD
-Contact: "Ford, Allen C" <acford@dpscs.state.md.us>
-Contact: Chris McLain <ctm826@gmail.com>
-Sender: CAD@somerset911.local
 
-CAD:S5A;BACK PAIN;23196 PAUL BENTON CIR;DEAL
-CAD:ST2;MEDICAL ASSIST;4248 STROBEL LN;CRIS
-CAD:ST3;MEDICAL ASSIST;29762 LOVERS LN;MARI
-CAD:ST3;MEDICAL ASSIST;28259 CRISFIELD MARION RD;MARI
- 
-Contact: Allen <n3zot@verizon.net>
-Contact: Tracey Hall <snofox68@gmail.com>
-Sender: CAD@somerset911.local
-CAD:ST3;OUTSIDE FIRE;30549 MARUMSCO RD;MARI;[Fire Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Outside Fire. SMALL OUTSIDE fire (Unknown).Caller Statement
-CAD:MUTUAL AID ASSIST OUTSIDE AGEN;24666 SILVER LN
-
-*/
 
 public class MDSomersetCountyParser extends DispatchOSSIParser {
   

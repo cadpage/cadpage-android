@@ -5,6 +5,33 @@ vzcbeg arg.narv.pnqcntr.cnefref.ZQ.ZQNyyrtnalPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*    
+Nyyrturarl Pbhagl, ZQ
+Pbagnpg: Puevf Terra <zrqvppterra@tznvy.pbz>
+Pbagnpg: Wbfrcu Ubsszna <wcubsszna0@sebfgohet.rqh>
+Fraqre:nptbi_911_pnq@nyypbarg.bet
+
+F:PNQ Z:PG:OERNGUVAT QVSSVPHYGL 100 OENQQBPX UGF NCG 105  OBK:S1601 QHR:N355\a\a
+SEZ:nptbi_911_pnq@nyypbarg.bet\aFHOW:PNQ\aZFT:PG:OERNGUVAT QVSSVPHYGL 100 OENQQBPX UGF NCG 105  OBK:S1601 QHR:N355
+SEZ:nptbi_911_pnq@nyypbarg.bet\aFHOW:PNQ\aZFT:PG:PURFG CNVAF, URNEG SEBFGOHET IVYYNTR AHEFVAT UBZR  1 XNLYBE PVE  OBK:S1602 QHR:N364\a\a
+
+Pbagnpg: xraal unhtug <unhtug65@tznvy.pbz>
+F:PNQ Z:15:31 #058516 ORUNIBEVNY RZRETRAPL 20960 ZNELYNAQ UJ  OBK:S3601 QHR:PB36 N351 Z512\a\a
+
+Pbagnpg: Wrerzl Ngurl <ngurl9014@lnubb.pbz>
+Fraqre: nptbi_911_pnq@nyypbarg.bet
+F:PNQ Z:03:16 #024484 OERNGUVAT QVSSVPHYGL 12030 VEVF NIR FJ  OBK:S0801 QHR:N396\a\a
+
+Pbagnpg: Wrerzl <ngurl9014@lnubb.pbz>
+Pbagnpg: "Ebtre Oraargg" <eoraargg@nyypbarg.bet>  (NyyPbArg.bet) (Qvfcngpu pragre)
+Fraqre: nptbi_911_pnq@nyypbarg.bet
+F:PNQ Z:08:26 #047678 ORUNIBEVNY RZRETRAPL 12037 VEVF NIR FJ  OBK:S0801 QHR:N396 Z514\a\a\a
+F:PNQ Z:12:56 #038525 PURFG CNVAF, URNEG 12002 OBJYVAT FG FJ  OBK:S0803 QHR:N396 ZRQ08 ZRQ09\a\a
+F:PNQ Z:21:08 #038431 ZRQVPNY RZRETRAPL 13103 DHNEEL EVQTR EQ FJ  OBK:S0902 QHR:PB09 N396\a\a
+F:PNQ Z:21:02 #038765 FGEBXR/PIN 14512 ONEGBA OYIQ FJ  OBK:S0904 QHR:N396\a \a 
+F:PNQ Z:00:02 #038632 ZRQVPNY RZRETRAPL 15201 GENVY EVQTR EQ FJ  OBK:S0903 QHR:PB09 N396\a \a
+
+*/
 
 choyvp pynff ZQNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

@@ -6,22 +6,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*    
-Yarmouth, MA
-Contact: Charles Talbott <medic2@comcast.net>
 
- 109 NOTTINGHAM DR\nNO NAME\nYARMOUTH\nMedical Priority 2/3\n2_East_1\n\nNotes\nPOSSIBLE UNATTENDED
- 579 BUCK ISLAND RD\nMAYFLOWER PLACE\nYARMOUTH\nMedical Priority 2/3\n3_South_1\n\nNotes\nBREWSTER UNIT EYE SWELLING
- 43 MEDINAH DR\n2_West_3\n\nNotes\nDEHYDRATION SHORTNESS OF BREATH
- 55 COTTONWOOD ST\nBACK PAIN
- 19 FLICKER LN\n1_East_2\n\nNotes\n87 Y/O MALE DIFF BREATHING
- 33 LEWIS RD\n3_South_1\n\nNotes\nUNRESPONSIVE FEMALE
- 121 CAMP ST\nMILL POND VILLAGE\nYARMOUTH\nAFA (residential)\n3_North_2
- 23 TASMANIA DR\n2_East_1
- 6 SQUIRREL RUN\nNO NAME\nYARMOUTH\nCO Asymptomatic\n2_West_3\n\nNotes
- 0 ROUTE 6\nNO NAME\nYARMOUTH\nMVC\nMID-CAPE HIGHWAY\n\nNotes\n6 EAST BOUND JUST PAST EXIT 8\n
-
-*/
 
 public class MAYarmouthParser extends MsgParser {
   

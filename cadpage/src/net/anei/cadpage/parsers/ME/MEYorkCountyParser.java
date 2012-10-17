@@ -3,18 +3,6 @@ package net.anei.cadpage.parsers.ME;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-York County, ME (replacement)
-Contact: Sean Perkins <sperkins@waterborofire.org>
-Sender: dispatch@sanfordmaine.org
-
-(Sanford RCC Page) MEDICAL EMERGENCY\n47\nGOODWINS ACRES \nDAYTON\nFire District: DAY\n4/25/2012 08:26
-(Sanford RCC Page) MOTOR VEHICLE ACCIDENT-PI/HAZ\n47\nGOODWINS ACRES \nDAYTON\nFire District: DAY\n4/25/2012 07:18
-(Sanford RCC Page) MEDICAL EMERGENCY\n2 EVERGREEN DR \nWaterboro\nFire District: WATF3\n4/24/2012 20:22
-(Sanford RCC Page) MEDICAL EMERGENCY\n22 COYNE RD \nWaterboro\nFire District: WATF4\n4/24/2012 10:37
-(Sanford RCC Page) MEDICAL EMERGENCY\n10 HUMMINGBIRD LN \nWaterboro\nFire District: WATF\n4/24/2012 07:29
-
-*/
 
 public class MEYorkCountyParser extends FieldProgramParser {
   

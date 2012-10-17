@@ -2,9 +2,6 @@ package net.anei.cadpage.parsers.MD;
 
 import net.anei.cadpage.parsers.GroupBestParser;
 
-/*
-Worcester County, MD
-*/
 
 public class MDWorcesterCountyParser extends GroupBestParser {
  

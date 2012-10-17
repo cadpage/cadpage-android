@@ -179,12 +179,12 @@ Go into Cadpage Settings and select
 Direct Paging Vendors > CodeMessaging.net > Register
 and follow the directions.
 
-Cadpage is free for direct paging users because CodeMessaging gives us some of the money they get from departments and dispatch centers.
+Cadpage is free for direct paging users.
 
 This should only take a few seconds.  But just in case it does not...
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-UIQQYHEA or uiqqyhea.  It is a time-sensitive code and will expire by midnight, ___.  Once you use it, it will be good for about 30 days.
+UIQQYHEA or uiqqyhea.  It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
 
 Good Luck,
 Jean -- Assistant to Ken Corbin
@@ -461,15 +461,17 @@ Good luck,
 
 Here is the long list of things to check when Cadpage is not working. Some things may not apply to you. The important steps are the last two.  They send us information about your text pages that we need to figure out what is wrong.
 
-Do you have Go SMS Pro or Handcent or AT&T Messenger installed?  T have proven to be incompatible with Cadpage.  Handcent can't make up its mind whether to be cooperative or not.  We keep the most recent version of Handcent that works with Cadpage on our Download page at http://www.cadpage.org/download-cadpage/
+Do you have Go SMS Pro or Handcent or AT&T Messenger installed?  They have proven to be incompatible with Cadpage. We keep the most recent version of Handcent that works with Cadpage on our Download page at http://www.cadpage.org/download-cadpage/
 
-Are you getting text pages from your dispatch center?  CadPage works by processing those text messages, if you haven't arranged to have them sent to your device, CadPage will not do anything for you.
+Are you getting text pages from your dispatch center?  CadPage works by processing those text messages, if you have not arranged to have them sent to your device, CadPage will not do anything for you.
 
 If you are getting messages going through to your messaging app, check to make sure that they are not MMS messages.  You do this by long pressing on one of the messages and selecting view message details.  This should tell you whether or not the message is an SMS text message or an MMS message.  If it is an MMS message, you have to to enable MMS message processing in the location settings.  But first read all of the warnings and disclaimers at http://www.cadpage.org/faq/mms-message-support.
 
 Wait until the next text pages comes in.  If it still does not trigger CadPage, then use the Send Email to Developer feature to send us an email report.  This should include the most recently received text message, whether or not it was processed by CadPage, which gives us a lot of information we need to resolve the problem.
 
-If the messages  are triggering CADpage, but will not allow you to select map option: Long press the message to open the Options menu and select the "Report Problem" menu item.  This will generate an email containing all of the information we should need to track down the problem with this message.  You can get the same menu options from the call history screen by long pressing one of the call entries.
+If the messages are triggering CADpage, but will not allow you to select map option: Long press the message to open the Options menu and select the "Report Problem" menu item.  This will generate an email containing all of the information we should need to track down the problem with this message.  You can get the same menu options from the call history screen by long pressing one of the call entries.
+
+Please contact us again if you still have problems.
 
 Good luck,
 Jean -- Assistant to Ken Corbin

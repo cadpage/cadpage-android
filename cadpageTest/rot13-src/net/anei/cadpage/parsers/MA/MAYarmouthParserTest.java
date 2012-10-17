@@ -4,6 +4,22 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*    
+Lnezbhgu, ZN
+Pbagnpg: Puneyrf Gnyobgg <zrqvp2@pbzpnfg.arg>
+
+ 109 ABGGVATUNZ QE\aAB ANZR\aLNEZBHGU\aZrqvpny Cevbevgl 2/3\a2_Rnfg_1\a\aAbgrf\aCBFFVOYR HANGGRAQRQ
+ 579 OHPX VFYNAQ EQ\aZNLSYBJRE CYNPR\aLNEZBHGU\aZrqvpny Cevbevgl 2/3\a3_Fbhgu_1\a\aAbgrf\aOERJFGRE HAVG RLR FJRYYVAT
+ 43 ZRQVANU QE\a2_Jrfg_3\a\aAbgrf\aQRULQENGVBA FUBEGARFF BS OERNGU
+ 55 PBGGBAJBBQ FG\aONPX CNVA
+ 19 SYVPXRE YA\a1_Rnfg_2\a\aAbgrf\a87 L/B ZNYR QVSS OERNGUVAT
+ 33 YRJVF EQ\a3_Fbhgu_1\a\aAbgrf\aHAERFCBAFVIR SRZNYR
+ 121 PNZC FG\aZVYY CBAQ IVYYNTR\aLNEZBHGU\aNSN (erfvqragvny)\a3_Abegu_2
+ 23 GNFZNAVN QE\a2_Rnfg_1
+ 6 FDHVEERY EHA\aAB ANZR\aLNEZBHGU\aPB Nflzcgbzngvp\a2_Jrfg_3\a\aAbgrf
+ 0 EBHGR 6\aAB ANZR\aLNEZBHGU\aZIP\aZVQ-PNCR UVTUJNL\a\aAbgrf\a6 RNFG OBHAQ WHFG CNFG RKVG 8\a
+
+*/
 
 choyvp pynff ZNLnezbhguCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

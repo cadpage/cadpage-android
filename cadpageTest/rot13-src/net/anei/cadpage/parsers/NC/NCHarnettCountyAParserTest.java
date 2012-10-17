@@ -45,6 +45,10 @@ Pbagnpg: Xrvgu Cbyyneq <xrvguyhif2svfu@tznvy.pbz>
 Fraqre: pnqcntr@uneargg.bet
 1210-092849*460 ONVYRL EQ***PBNGF*ERQ UVYY PUHEPU EQ (*XRYYL YA***RZF OERNGUVA*******Unmneqf: Ab**
 
+Pbagnpg: Rguna Uneqvfba <runeqvfba870@tznvy.pbz>
+Fraqre: pnqcntr@uneargg.bet
+SEZ:pnqcntr@uneargg.bet\aZFT:1210-093840*9090 AP 210 F***OHAAYRIRY*FBHGU UNEARGG YA*NAQREFBA PERRX FPUBBY EQ***ZIN*********
+
 */
 
 choyvp pynff APUnearggPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -185,6 +189,19 @@ choyvp pynff APUnearggPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PBNGF",
         "K:ERQ UVYY PUHEPU EQ ( & XRYYL YA",
         "PNYY:RZF OERNGUVA");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRgunaUneqvfba() {
+
+    qbGrfg("G1",
+        "SEZ:pnqcntr@uneargg.bet\aZFT:1210-093840*9090 AP 210 F***OHAAYRIRY*FBHGU UNEARGG YA*NAQREFBA PERRX FPUBBY EQ***ZIN*********",
+        "VQ:1210-093840",
+        "NQQE:9090 AP 210 F",
+        "PVGL:OHAAYRIRY",
+        "K:FBHGU UNEARGG YA & NAQREFBA PERRX FPUBBY EQ",
+        "PNYY:ZIN");
 
   }
 

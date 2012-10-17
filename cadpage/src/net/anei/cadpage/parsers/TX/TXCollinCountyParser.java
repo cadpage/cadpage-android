@@ -11,10 +11,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class TXCollinCountyParser extends FieldProgramParser {
 
-  private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("\\{CAD|  \\{C|\\[ ESS");
+  private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("(?:\\[[^\\[\\]]*)?\\{[^\\{]*\\}?$");
   private static final Pattern CFS_ID_PTN = Pattern.compile(" CFS (\\d{8})\\b");
   private static final Pattern LEAD_DASH_PTN = Pattern.compile("^[ -]+");
-  private static final Pattern DIST_GRID_PTN = Pattern.compile("\\[([A-Z]+) DIST: .* GRID: (\\d+) *\\]");
+  private static final Pattern DIST_GRID_PTN = Pattern.compile("\\[([A-Z]+) .*?GRID: ([A-Z]*\\d+) *\\]");
   
   private static final String[] DOUBLE_CITY_LIST = new String[] {
     "COLLIN COUNTY",
@@ -225,12 +225,23 @@ public class TXCollinCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern INFO_TIME_PTN = Pattern.compile("^(\\d\\d:\\d\\d)\\b");
   private static final Pattern INFO_NONE_PTN = Pattern.compile(" *<NO(?:NE|.* COMMENTS|.* REMARKS)> *");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
+      Matcher match = INFO_TIME_PTN.matcher(field);
+      if (match.find()) {
+        data.strTime = match.group(1);
+        field = field.substring(match.end()).trim();
+      }
       field = INFO_NONE_PTN.matcher(field).replaceAll(" ").trim();
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "TIME INFO";
     }
   }
   

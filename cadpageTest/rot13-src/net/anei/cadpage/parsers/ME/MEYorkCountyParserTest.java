@@ -4,6 +4,18 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Lbex Pbhagl, ZR (ercynprzrag)
+Pbagnpg: Frna Crexvaf <fcrexvaf@jngreobebsver.bet>
+Fraqre: qvfcngpu@fnasbeqznvar.bet
+
+(Fnasbeq EPP Cntr) ZRQVPNY RZRETRAPL\a47\aTBBQJVAF NPERF \aQNLGBA\aSver Qvfgevpg: QNL\a4/25/2012 08:26
+(Fnasbeq EPP Cntr) ZBGBE IRUVPYR NPPVQRAG-CV/UNM\a47\aTBBQJVAF NPERF \aQNLGBA\aSver Qvfgevpg: QNL\a4/25/2012 07:18
+(Fnasbeq EPP Cntr) ZRQVPNY RZRETRAPL\a2 RIRETERRA QE \aJngreobeb\aSver Qvfgevpg: JNGS3\a4/24/2012 20:22
+(Fnasbeq EPP Cntr) ZRQVPNY RZRETRAPL\a22 PBLAR EQ \aJngreobeb\aSver Qvfgevpg: JNGS4\a4/24/2012 10:37
+(Fnasbeq EPP Cntr) ZRQVPNY RZRETRAPL\a10 UHZZVATOVEQ YA \aJngreobeb\aSver Qvfgevpg: JNGS\a4/24/2012 07:29
+
+*/
 
 choyvp pynff ZRLbexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

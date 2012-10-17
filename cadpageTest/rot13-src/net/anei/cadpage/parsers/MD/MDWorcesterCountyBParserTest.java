@@ -4,6 +4,17 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*    
+Jbeprfgre Pbhagl, ZQ (nygreangr)
+Pbagnpg: Wbrl Jvqtrba <wjvqtrba2009@tznvy.pbz>
+
+(Puvrs NYG) [800 Sver] -- Genssvp Genafcbegngvba Npp --  -- Jbeprfgre Ujl & crreyrff Eq Fubjryy ZQ, 21862
+(Puvrs NYG) [800 Sver] -- Genssvp Genafcbegngvba Npp -- Ba Eg 90 Jrfg Bs Eg 113 -- Bprna Rkcl & jbeprfgre Ujl Oreyva ZQ, 21811
+(Puvrs NYG) [800 Sver] -- Fgehpgher Sver Rkgvathvfurq -- Juvgr Ubefr Genvyre Cnex -- 11647-1 Ornhpunzc Eq Oreyva ZQ, 21811
+(Puvrs NYG) [800 Sver] -- Genssvp Genafcbegngvba Npp -- (f)arjcbeg (a) -- Bprna Cxjl & arjcbeg Qe Oreyva ZQ, 21811
+(Puvrs NYG) [800 Sver] -- Sver Nynez -- (f)grny Onl (a) -- 8 Jngref Rqtr Pg Oreyva ZQ, 21811
+
+*/
 
 choyvp pynff ZQJbeprfgrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
