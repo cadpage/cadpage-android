@@ -44,6 +44,7 @@ Pbagnpg: Wrss Wbuafba <esqwwbuafba@tznvy.pbz>
 Pbagnpg: Xrvgu Cbyyneq <xrvguyhif2svfu@tznvy.pbz>
 Fraqre: pnqcntr@uneargg.bet
 1210-092849*460 ONVYRL EQ***PBNGF*ERQ UVYY PUHEPU EQ (*XRYYL YA***RZF OERNGUVA*******Unmneqf: Ab**
+1210-092971*130 R ZPVIRE FG***NATVRE**F CBCYNE FG***SVER NYNEZ P*******Unmneqf: Ab**
 
 Pbagnpg: Rguna Uneqvfba <runeqvfba870@tznvy.pbz>
 Fraqre: pnqcntr@uneargg.bet
@@ -189,6 +190,13 @@ choyvp pynff APUnearggPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PBNGF",
         "K:ERQ UVYY PUHEPU EQ ( & XRYYL YA",
         "PNYY:RZF OERNGUVA");
+
+    qbGrfg("G2",
+        "1210-092971*130 R ZPVIRE FG***NATVRE**F CBCYNE FG***SVER NYNEZ P*******Unmneqf: Ab**",
+        "VQ:1210-092971",
+        "NQQE:130 R ZPVIRE FG",
+        "PVGL:NATVRE",
+        "PNYY:F CBCYNE FG");
 
   }
   
