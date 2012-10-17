@@ -72,6 +72,13 @@ Fraqre: qvfcngpu@pv.jbbqohea.be.hf
 (Vapvqrag) GENH S:A 6GU NI@ R SVE FG , FGNLGBA::::ZRQ1, E81::10LBZ P/O/N  OEBXRA YRSG JEVFG:
 (Vapvqrag) IRUS S:XVATQBZ YA FR@ ABEGU FNAGVNZ UJ FR , ZNEVBA PBHAGL::::P80, R82, E81, E82, G80::EI SVER/J OBNG NGGNPURQ:
 
+*** ABG CNEFVAT ***
+Pbagnpg: Trar Qrefurjvgm <trarqre@jiv.pbz>
+Pbagnpg: Ybhvf Tvfyre <ytvfyre1@tznvy.pbz>
+Fraqre: qvfcngpu@pv.jbbqohea.be.hf
+(Vapvqrag) ZIN VAWHEL S:FUNSS EQ FR@ JVYPB EQ , FGNLGBA:ZRQ2, P80, R80, E80:GJB IRU ZIN/ HAX VAW:::::
+Fhowrpg:Vapvqrag\aCHOY NFFVFG S:WRSSREFBA ZNEVBA EQ FR@ TERRAF OEVQTR EQ FR , ZNEVBA PBHAGL:P60, R60, FGN600:GERR QBJA::::\e\a\e
+
 ** ABG CNEFVAT **
 ((2319) Uv Tvan ) ZRQ AB :1285 GVREEN YLAA QE    :    Znc:2028 :20LBZ P/QVSS O/N SRIRE YBJ URZBTYBOVA :09/28/2011 :20:24 :
 
