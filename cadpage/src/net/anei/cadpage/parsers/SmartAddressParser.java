@@ -349,6 +349,7 @@ public abstract class SmartAddressParser extends MsgParser {
    * Set up predefined city code tables or lists
    */
   private void setupCities(String[] cities) {
+    if (cities == null) return;
     mWordCities = new MultiWordList(+1, ID_CITY, ID_MULTIWORD, ID_COMPLETE, cities);
   }
   

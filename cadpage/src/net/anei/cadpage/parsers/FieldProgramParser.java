@@ -179,7 +179,7 @@ public class FieldProgramParser extends SmartAddressParser {
   
   public FieldProgramParser(String[] cities, String defCity, String defState, String programStr) {
     super(cities, defCity, defState);
-    this.cities = new HashSet<String>(Arrays.asList(cities));;
+    if (cities != null) this.cities = new HashSet<String>(Arrays.asList(cities));;
     setProgram(programStr);
   }
   

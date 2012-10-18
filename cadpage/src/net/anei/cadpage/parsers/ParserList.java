@@ -322,6 +322,7 @@ public class ParserList {
           new ParserCategory("Missouri"
               ,"MOBarryCounty"                  ,"Barry County, MO"
               ,"MOCallawayCounty"               ,"Callaway County, MO"
+              ,"MOChristianCounty"              ,"Christian County, MO"
               ,"MOCrawfordCounty"               ,"Crawford County, MO"
               ,"MOFestus"                       ,"Festus, MO"
               ,"MOGasconadeCounty"              ,"Gasconade County, MO"
