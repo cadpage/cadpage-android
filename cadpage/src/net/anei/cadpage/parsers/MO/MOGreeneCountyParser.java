@@ -5,9 +5,8 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 
-/**
- * Greene County, MO
- */
+
+
 public class MOGreeneCountyParser extends DispatchPrintrakParser {
   
   private static final Pattern FR_PTN = Pattern.compile("\\bFR(?= *\\d)", Pattern.CASE_INSENSITIVE);
