@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
  */
 public class NCSurryCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("SC911::(?:Call #|=)(\\d{6,}-\\d{4}) \\[(?:Address|Location)\\] (.*?) \\[X St\\] (.*?) \\[Type\\] (.*)");
+  private static final Pattern MASTER = Pattern.compile("SC911::?(?:Call #|=)(\\d{6,}-\\d{4}) \\[(?:Address|Location)\\] (.*?) \\[X St\\] (.*?) \\[Type\\] (.*)");
   
   public NCSurryCountyParser() {
     super(CITY_LIST, "SURRY COUNTY", "NC");
