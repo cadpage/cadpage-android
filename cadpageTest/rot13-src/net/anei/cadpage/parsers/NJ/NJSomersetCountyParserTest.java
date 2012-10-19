@@ -18,4 +18,10 @@ choyvp pynff AWFbzrefrgPbhaglCnefreGrfg {
       frgCnefre(arj AWFbzrefrgPbhaglCnefre());
     }
   }
+  
+  choyvp fgngvp pynff GrfgP rkgraqf AWFbzrefrgPbhaglPCnefreGrfg {
+    choyvp GrfgP() {
+      frgCnefre(arj AWFbzrefrgPbhaglCnefre());
+    }
+  }
 }
