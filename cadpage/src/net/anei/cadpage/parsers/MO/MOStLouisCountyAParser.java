@@ -6,21 +6,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-St Louis County, MO
-Contact: Mikey Bowman <mikeyb4307@gmail.com>, 3144132049@vtext.com
-Sender: nccfas@ncc911.org
-
-IN AREA, 224 S HARVEY AV (RES) - - 3014,3025,4310,3615,4610,3016,3017 19:57
-MONROE AV / OAKRIDGE DR (MISC) - WIRES DOWN - 4310 09:04
-6721 THURSTON AV (MISC) - WIRES DOWN - 4310 00:22
-BROTHERTON LN (RES) - HOUSE ON BROTHERTON - 3025,4310,4610,3615,4210,3016,3017 22:27
-KIPD, 5990 MONROE AV (LIFE) - 21 YOF WITH CHEST PAINS - 4310,4617 11:03 
-EVERGREEN BLVD / JANUARY AV (RES) - HSE FIRE ON CORNER - 3615,3620,3014,4310,3602 07:47
-8006 COURTNEY AV (FALLS) - 69 year old, Female, Conscious, Breathing. Falls. Caller Statement: FALLEN. GARAGE DOOR CODE 6008 - 3717,4310 12:44
-8026 WESLEY AV (DIF BREATH) - 65 year old, Female, Conscious, Breathing. Breathing Problems. Caller Statement: DIFF BREATHING. - 4310,3017 13:33
-
-*/
 
 public class MOStLouisCountyAParser extends MsgParser {
   

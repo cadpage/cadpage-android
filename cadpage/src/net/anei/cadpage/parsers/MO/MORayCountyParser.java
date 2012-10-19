@@ -6,25 +6,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
-/*
-Ray County, MO
-Contact: "Chief O'Dell" <leeodell@woodheightsfire.com>
-Sender: raycountycentraldispatch@gmail.com
-HIGHWAY Y RAY COUNTY CrossStreets: 10-50 TRAFFIC/TRANSPORT INCIDENT (CRASH)
-14851 HIGHWAY Y CRYSTAL LAKES CrossStreets: BEACH DR 0.09 mi N RAVENWOOD DR 0.00 mi W OUTSIDE FIRE
-15659 HIGHWAY Y RAY COUNTY CrossStreets: PINE RD 0.07 mi N W 158TH ST 0.10 mi S OUTSIDE FIRE
-107 S DONNA DR RAY COUNTY CrossStreets: W DONNA DR 0.02 mi NE CAROL LN 0.05 mi S OUTSIDE FIRE
-4364 HIGHWAY 10 RAY COUNTY CrossStreets: MOCKINGBIRD LN 0.18 mi NW LITTLE FARM RD 0.17 mi SE STROKE (CVA)
-4684 HIGHWAY 10 RAY COUNTY CrossStreets: CROWLEY RD 0.20 mi NW SHORT RD 0.30 mi SE FIRE ALARM
-
-Contact: Active911
-[] 15659 HIGHWAY Y RAY COUNTY CrossStreets: PINE RD 0.07 mi N W 158TH ST 0.10 mi S OUTSIDE FIRE\r\n\r\n\r\n\r\n\r\n\r\n
-[] 14851 HIGHWAY Y CRYSTAL LAKES CrossStreets: BEACH DR 0.09 mi N RAVENWOOD DR 0.00 mi W OUTSIDE FIRE\r\n\r\n\r\n\r\n\r\n\r\n
-[] HIGHWAY Y RAY COUNTY CrossStreets: 10-50 TRAFFIC/TRANSPORT INCIDENT (CRASH)\r\n\r\n\r\n\r\n\r\n\r\n
-[] HIGHWAY 10 & W 133RD ST RAY COUNTY CrossStreets: OUTSIDE FIRE\r\n\r\n\r\n\r\n\r\n\r\n
-[] 18347 N UNION RD RAY COUNTY CrossStreets: HIGHWAY C 0.40 mi S MUTUAL AID/ASSIST OUTSIDE AGENCIES\r\n\r\n\r\n\r\n\r\n\r\n
-
-*/
 
 
 public class MORayCountyParser extends SmartAddressParser {

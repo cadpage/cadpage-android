@@ -91,6 +91,8 @@ public class BillingManager {
         int year = Integer.parseInt(itemId.substring(8));
         ManagePreferences.setPaidYear(year, purchaseState == PurchaseState.PURCHASED);
         if (payload != null) ManagePreferences.setPurchaseDateString(payload);
+        ManagePreferences.setFreeSub(false);
+        ManagePreferences.setSponsor(null);
       }
     }
 

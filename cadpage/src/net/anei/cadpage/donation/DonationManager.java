@@ -6,6 +6,7 @@ import java.util.GregorianCalendar;
 import java.util.Random;
 
 import net.anei.cadpage.ManagePreferences;
+import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 
 public class DonationManager {
@@ -22,8 +23,20 @@ public class DonationManager {
   // How long a release exemption lasts
   public static final int REL_EXEMPT_DAYS = 10;
   
-  public enum DonationStatus {FREE, LIFE, AUTH_DEPT, NEW, SPONSOR, PAID, PAID_WARN, PAID_EXPIRE, 
-                               PAID_LIMBO, DEMO, DEMO_EXPIRE, EXEMPT};
+  private enum Status {GOOD, WARN, BLOCK}
+  public enum DonationStatus {FREE(Status.GOOD), LIFE(Status.GOOD), AUTH_DEPT(Status.GOOD), NEW(Status.GOOD), 
+                               PAID(Status.GOOD), PAID_WARN(Status.WARN), PAID_EXPIRE(Status.BLOCK), PAID_LIMBO(Status.WARN), 
+                               SPONSOR(Status.GOOD), SPONSOR_WARN(Status.WARN), SPONSOR_EXPIRE(Status.BLOCK), SPONSOR_LIMBO(Status.WARN), 
+                               DEMO(Status.WARN), DEMO_EXPIRE(Status.BLOCK), EXEMPT(Status.WARN);
+    private Status status;
+    DonationStatus(Status status) {
+      this.status = status;
+    }
+    
+    public Status getStatus() {
+      return status;
+    }
+  };
   
   // Cached calculated values are only valid until this time
   private long validLimitTime = 0L;
@@ -63,7 +76,7 @@ public class DonationManager {
     if (curTime < validLimitTime) return;
     
     // Save the previous hold status so we can tell if it has been cleared
-    boolean oldAlert = status == DonationStatus.DEMO_EXPIRE || status == DonationStatus.PAID_EXPIRE;
+    boolean oldAlert = (status != null && status.getStatus() == Status.BLOCK);
     
     // Convert current time to a JDate, and set the cache limit to midnight
     // of that day
@@ -71,30 +84,53 @@ public class DonationManager {
     JulianDate curJDate = new JulianDate(curDate);
     validLimitTime = curJDate.validUntilTime();
     
-    // And calculated cached values
+    // Get sponsor name and expiration date from either the
+    // Vendor manager or the current parser
     sponsor = VendorManager.instance().getSponsor();
-    if (sponsor == null) {
-      sponsor = ManagePreferences.getCurrentParser().getSponsor();
+    expireDate = null;
+    if (!VendorManager.instance().isRegistered()) {
+      MsgParser parser = ManagePreferences.getCurrentParser();
+      sponsor = parser.getSponsor();
+      expireDate = parser.getSponsorDate();
+      if (expireDate != null) {
+        Calendar cal = new GregorianCalendar();
+        cal.setTime(expireDate);
+        cal.add(Calendar.YEAR, +1);
+        expireDate = cal.getTime();
+      }
     }
-    daysSinceInstall = ManagePreferences.calcAuthRunDays(sponsor == null ? curDate : null);
+    boolean sponsored = sponsor != null && expireDate == null;
+    daysSinceInstall = ManagePreferences.calcAuthRunDays(!sponsored ? curDate : null);
     int daysTillDemoEnds = DEMO_LIMIT_DAYS - daysSinceInstall;
     
-    // Calculate expiration date
+    // Calculate subscription expiration date
     // (one year past the purchase date anniversary in the last paid year)
     // ((Use install date if there is no purchase date))
-    expireDate = null;
     int daysTillSubExpire = -99999;
     boolean limbo = false;
-    int paidYear = ManagePreferences.paidYear();
-    if (paidYear > 0) {
-      Date tDate = ManagePreferences.purchaseDate();
-      if (tDate == null) tDate = ManagePreferences.installDate();
-      Calendar cal = new GregorianCalendar();
-      cal.setTime(tDate);
-      cal.set(Calendar.YEAR, paidYear+1);
-      expireDate = cal.getTime();
-      Date minExpireDate = ManagePreferences.minExpireDate();
-      if (minExpireDate != null && minExpireDate.after(expireDate)) expireDate = minExpireDate;
+    if (!sponsored) {
+      int paidYear = ManagePreferences.paidYear();
+      if (paidYear > 0) {
+        Date tDate = ManagePreferences.purchaseDate();
+        if (tDate == null) tDate = ManagePreferences.installDate();
+        Calendar cal = new GregorianCalendar();
+        cal.setTime(tDate);
+        cal.set(Calendar.YEAR, paidYear+1);
+        tDate = cal.getTime();
+        
+        // If we have both a subscription and sponsor expiration date, choose the
+        // latest one
+        if (expireDate == null || tDate.after(expireDate)) {
+          sponsor = ManagePreferences.sponsor();
+          expireDate = tDate;
+        }
+      }
+    }
+    
+    // If we have an expiration date, see if it has expired.  And if it has see
+    // if we are in the limbo state where user can keep running Cadpage until they
+    // install a release published after the expiration date
+    if (expireDate != null) {
       JulianDate jExpireDate = new JulianDate(expireDate);
       daysTillSubExpire = curJDate.diffDays(jExpireDate);
       if (daysTillSubExpire < 0) {
@@ -104,20 +140,25 @@ public class DonationManager {
     }
     daysTillExpire = Math.max(daysTillDemoEnds, daysTillSubExpire);
     
+    // OK, we have calculated all of the intermediate stuff.  Now use that to
+    // determine the overall status
     if (ManagePreferences.freeRider()) status = DonationStatus.LIFE;
     else if (ManagePreferences.authLocation().equals(ManagePreferences.location())) {
       status = DonationStatus.AUTH_DEPT;
     } else if (expireDate != null) {
-      if (daysTillExpire > EXPIRE_WARN_DAYS) status = DonationStatus.PAID;
-      else if (sponsor != null) status = DonationStatus.SPONSOR;
+      if (daysTillExpire > EXPIRE_WARN_DAYS) {
+        status = (sponsor != null ? DonationStatus.SPONSOR : DonationStatus.PAID);
+      }
       else if (daysTillExpire >= 0) {
         if (daysTillExpire == daysTillSubExpire) {
-          status = DonationStatus.PAID_WARN;
+          status = (sponsor != null ? DonationStatus.SPONSOR_WARN : DonationStatus.PAID_WARN);
         } else {
           status = DonationStatus.DEMO;
         }
-      } else if (limbo) status = DonationStatus.PAID_LIMBO;
-      else status = DonationStatus.PAID_EXPIRE;
+      } else if (limbo) {
+        status = (sponsor != null ? DonationStatus.SPONSOR_LIMBO : DonationStatus.PAID_LIMBO);
+      }
+      else status = (sponsor != null ? DonationStatus.SPONSOR_EXPIRE : DonationStatus.PAID_EXPIRE);
     } 
     else if ("General".equals(ManagePreferences.location()) &&
               ManagePreferences.filter().length()<=1 &&
@@ -130,8 +171,7 @@ public class DonationManager {
     }
     
     // If they don't have a clear green status, check for a special release exemption
-    if (status != DonationStatus.LIFE && status != DonationStatus.PAID &&
-        status != DonationStatus.AUTH_DEPT && status != DonationStatus.SPONSOR) {
+    if (status.getStatus() != Status.GOOD) {
       
       // This only returns a exempt date if it is still is valid for the current release
       // And it is only valid for period of time after the release was shipped
@@ -148,7 +188,7 @@ public class DonationManager {
     
     // Cadpage should be enabled unless something has expired
     // If status changed from expired to non-expired, reset the extra day count
-    enabled = (status != DonationStatus.DEMO_EXPIRE && status != DonationStatus.PAID_EXPIRE);
+    enabled = (status.getStatus() != Status.BLOCK);
     if (enabled && oldAlert) ManagePreferences.resetAuthExtra();
     
     // If status is not enabled, check for the loopholes

@@ -11,7 +11,7 @@
   <string name="free_release_text">
     This is the free version of Cadpage.  This version will never bother you
     for financial contributions to future Cadpage development.  Customer support
-    is minimal, and updates will run 4-6 months behind the standard version.\n
+    is minimal, and updates will be infrequent at best.\n
     \n
     If you are new Cadpage user, you should start out using the standard
     Cadpage version.  You can run it for at least 30 days for free during
@@ -59,11 +59,33 @@
     You have a current Cadpage subscription that is good until %s
   </string>
   
+  <string name="donate_sponsor_title">Sponsored by %s</string>
+  <string name="donate_sponsor_text">
+    You are using a service sponsored by\n%1$s until %2$s\n 
+    Support for Cadpage development and maintenance is provided by this
+    sponsor.  No further payment is expected from you as long as you
+    are using services provided by this sponsor.
+  </string>
+  
+  <string name="donate_sponsor_noexp_title">Sponsored by %s</string>
+  <string name="donate_sponsor_noexp_text">
+    You are using a service sponsored by\n%s\n 
+    Support for Cadpage development and maintenance is provided by this
+    sponsor.  No further payment is expected from you as long as you
+    are using services provided by this sponsor.
+  </string>
+  
   <string name="donate_paid_warn_title">Your subscription will expire in %d days</string>
   <string name="donate_paid_warn_text">
     Your current Cadpage subscription will expire on %s.  You can continue to 
     use Cadpage beyond that date as long as you do not install a release
     published after that date.
+  </string>
+  
+  <string name="donate_sponsor_warn_title">%1$s sponsorship will expire in %2$d days</string>
+  <string name="donate_sponsor_warn_text">
+    You are using a service sponsored by %1$s that will expire on %2$s.  Please contact %1$s
+    about renewing their Cadpage sponsorship.
   </string>
   
   <string name="donate_paid_limbo_title">Your Cadpage subscription has expired</string>
@@ -72,9 +94,22 @@
     use Cadpage as long as you do not install a release published after that date.
   </string>
   
+  <string name="donate_sponsor_limbo_title">%s sponsorship has expired</string>
+  <string name="donate_sponsor_limbo_text">
+    Your using a service sponsored by %1$s that expired on %2$s.  You can continue to 
+    use Cadpage as long as you do not install a release published after that date.  Please
+    contact %1$s about renewing their Cadpage sponsorship.
+  </string>
+  
   <string name="donate_paid_expire_title">Your Cadpage subscription has expired</string>
   <string name="donate_paid_expire_text">
     Your current Cadpage subscription expired on %s.
+  </string>
+  
+  <string name="donate_sponsor_expire_title">%s sponsorship has expired</string>
+  <string name="donate_sponsor_expire_text">
+    Your using a service sponsored by %1$s that expired on %2$s. Please
+    contact %1$s about renewing their Cadpage sponsorship.
   </string>
   
   <string name="donate_demo_title">Cadpage demo expires in %d days</string>
@@ -194,14 +229,6 @@
     into the Location Settings and either select a location corresponding to your 
     area or set the From: (filter) to the email address or phone number that sends
     you your text pages
-  </string>
-  
-  <string name="donate_sponsor_title">Sponsored by %s</string>
-  <string name="donate_sponsor_text">
-    You are using a service sponsored by\n%s\n 
-    Support for Cadpage development and maintenance is provided by this
-    sponsor.  No further payment is expected from you as long as you
-    are using services provided by this sponsor.
   </string>
   
   <string name="vendor_title">Register with %s</string>

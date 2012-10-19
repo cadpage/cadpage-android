@@ -11,6 +11,7 @@
    <string name="pref_purchase_date_key">purchase_date</string>
    <string name="pref_free_rider_key">free_rider</string>
    <string name="pref_free_sub_key">free_sub</string>
+   <string name="pref_sponsor_key">sponsor</string>
    <string name="pref_auth_location_key">auth_locaton</string>
    <string name="pref_auth_organization_key">auth_organization</string>
    <string name="pref_auth_extra_date_key">auth_extra_date</string>

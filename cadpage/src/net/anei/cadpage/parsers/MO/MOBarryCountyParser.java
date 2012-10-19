@@ -5,15 +5,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
 
-/*
-Barry County, MO
-Contact: Ryan Joy <crazyrockj@gmail.com>
-
-BC911:ALM >ALARMS 23544 FARM ROAD 2040 BARRY COUNTY JULIE KEENER 8775350563 Map: Grids:0,0 Cad: 2011-0000015066
-BC911:MVAUNK>MOTOR VEH ACC UNKNOWN INJ STATE HIGHWAY 39 JENKINS VERIZON WIRELESS Cad: 2011-0000009418
-BC911:FIRES >STRUCTURE FIRE 23270 STATE HIGHWAY TT BARRY COUNTY CAHD REAVIS 3350036 Map: Grids:0,0 Cad: 2011-0000015655
-
-*/
 
 public class MOBarryCountyParser extends DispatchBParser {
   

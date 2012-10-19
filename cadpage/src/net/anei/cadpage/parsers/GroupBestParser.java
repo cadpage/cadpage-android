@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -19,6 +20,8 @@ public class GroupBestParser extends MsgParser {
   private String dispFilter;
   
   private String sponsor;
+  
+  private Date sponsorDate;
   
   public GroupBestParser(MsgParser ... parsers) {
     super("", "");
@@ -86,14 +89,25 @@ public class GroupBestParser extends MsgParser {
     dispFilter = sb.toString();
     
     // Group parser is sponsored if all of it subparsers are sponsored
+    // If all subparsers are sponsored, sponsor date is the earliest subparser sponsor date
     sponsor = null;
+    sponsorDate = null;
     for (MsgParser parser : this.parsers) {
       String pSponsor = parser.getSponsor();
       if (pSponsor == null) {
         sponsor = null;
+        sponsorDate = null;
         break;
-      } else if (sponsor == null) {
-        sponsor = pSponsor;
+      } else {
+        Date pDate = parser.getSponsorDate();
+        if (pDate == null) {
+          if (sponsor == null) sponsor = pSponsor;
+        } else {
+          if (sponsorDate == null || sponsorDate.after(pDate)) {
+            sponsor = pSponsor;
+            sponsorDate = pDate;
+          }
+        }
       }
     }
   }
@@ -155,6 +169,11 @@ public class GroupBestParser extends MsgParser {
   @Override
   public String getSponsor() {
     return sponsor;
+  }
+  
+  @Override
+  public Date getSponsorDate() {
+    return sponsorDate;
   }
   
   

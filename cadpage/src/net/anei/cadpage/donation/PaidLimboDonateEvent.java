@@ -32,9 +32,6 @@ public class PaidLimboDonateEvent extends DonateScreenEvent {
     
     switch (type) {
       
-    case PARM_TITLE:
-      return new Object[]{DonationManager.instance().daysTillExpire()};
-      
     case PARM_TEXT:
       Date expireDate = DonationManager.instance().expireDate();
       String sDate = DateFormat.getDateInstance(DateFormat.MEDIUM).format(expireDate);

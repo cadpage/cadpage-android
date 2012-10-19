@@ -7,18 +7,6 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
-/*
-Festus, MO (in Jefferson County)
-Contact: Tim Mullins <tmullinsaco@yahoo.com>
-Sender: JBITTER@CITYOFFESTUS.ORG
-System: ITI
-
-(call) FIRE / BRUSH / 2819 NORTH SELMA ROAD JEFFCO/R7 /DOOLING HO /EMS /6610 /jpad brush with exposer R-7 FD720146 /JPAD 603031
-(call) FIRE/10-50 J-2/ STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 /FIRE DEP /H4 FI H1 FESTUS  FD66651 / JPAD H4 FI H1
-S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66 14 6037 \nR-7 FD720096 / JPAD H3 FI H1\n
-
-*/
-
 public class MOFestusParser extends FieldProgramParser {
  
   public MOFestusParser() {

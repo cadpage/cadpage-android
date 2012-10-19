@@ -4,6 +4,24 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Fg Ybhvf Pbhagl, ZB
+Pbagnpg: Fgrir <fgrir@fgybhvfnefrany.pbz>
+Fraqre: nyreg@fpsn911.bet
+
+(Qvfcngpu) QVSSVPHYGL OERNGUVAT \a\a1762 YRZNL SREEL EQ, Ncg. NCG 313 \a1617 \aZncErtvbaf: Y29-49, YR Pneq # 4143 PebffFgerrgf: YR Pneq# 4143 0.00 zv \aPnyy Ahzore: 7182
+(Qvfcngpu) NAVZNY OVGR \a\a325 J NEYRR NIR \a1117 1614 \aZncErtvbaf: X29-49, YR Pneq # 4271 PebffFgerrgf: YR Pneq# 4271 0.00 zv \aPnyy Ahzore: 718281
+(Qvfcngpu) SNYY \a\a2116 XRIVA QE \a1617 \aZncErtvbaf: X30-49, YR Pneq # 4130 PebffFgerrgf: YR Pneq# 4130 0.00 zv \aPnyy Ahzore: 718280
+(Qvfcngpu) BOF \a\a812 QNZZREG NIR \a1617 \aZncErtvbaf: X29-49, YR Pneq # 4064 PebffFgerrgf: YR Pneq# 4064 0.00 zv \aPnyy Ahzore: 718269
+(Qvfcngpu) FVPX PNFR \a\a115 J RGGN NIR \a1614 \aZncErtvbaf: X29-49, YR Pneq # 4273 PebffFgerrgf: YR Pneq# 4273 0.00 zv \aPnyy Ahzore: 718257
+(Qvfcngpu) NZOG \a\a4400 OVT PUVRS QE \a1617 1134 \aZncErtvbaf: NS Pneq# 3031, Y28-49 PebffFgerrgf: NMGRP QE 0.01 zv R GHEDHBVFR QE 0.06 zv AJ \aPnyy Ahzore: 718255
+(Qvfcngpu) QVSSVPHYGL OERNGUVAT \a\a1762 YRZNL SREEL EQ, Ncg. NCG 313 \a1617 \aZncErtvbaf: Y29-49, YR Pneq # 4143 PebffFgerrgf: YR Pneq# 4143 0.00 zv \aPnyy Ahzore: 7182
+(Qvfcngpu) IRUNPP \a\aTERRA CNEX EQ & ERNIVF ONEENPXF EQ \a1710 1614 1757 \aZncErtvbaf: Y29-49, YR Pneq # 4107, YR Pneq # 4201, ZR Pneq# 1665, ZR Pneq# 747 PebffFgerrgf
+(Qvfcngpu) NFGSVE \a\a317 RNFG QNIVF \a1614 \aZncErtvbaf:  PebffFgerrgf: \aPnyy Ahzore: 718231
+(Qvfcngpu) NPPVQRAGNY VAWHEL \a\a373 GHPXNUBR QE \a1617 \aZncErtvbaf: X31-59, YR Pneq # 4248 PebffFgerrgf: YR Pneq# 4248 0.00 zv \aPnyy Ahzore: 718226
+(Qvfcngpu) IRUNPP \a\aYRZNL SREEL EQ & SNAAVR NIR \a1614 1617 \aZncErtvbaf: X28-49, YR Pneq # 4299 PebffFgerrgf: \aPnyy Ahzore: 718216
+
+*/
 
 choyvp pynff ZBFgYbhvfPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

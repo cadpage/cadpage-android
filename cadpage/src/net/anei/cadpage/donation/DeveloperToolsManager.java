@@ -63,6 +63,7 @@ public class DeveloperToolsManager {
     "Stat: Demo",
     "Stat: Demo expired",
     "Stat: Free subscription",
+    "Stat: Toggle sponsor",
     "Reset release info",
     "Content Query",
     "Recent Tasks",
@@ -72,7 +73,7 @@ public class DeveloperToolsManager {
   };
   
   private static final String[] valueList = new String[]{
-    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"
+    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"
   };
   
   private class DeveloperListPreference extends ListPreference {
@@ -164,7 +165,7 @@ public class DeveloperToolsManager {
         ManagePreferences.setFreeSub(false);
         break;
         
-      case 8:    // Free subscriber
+      case 8:    // Stat: Free subscriber
         ManagePreferences.setAuthExemptDate(null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
@@ -175,23 +176,29 @@ public class DeveloperToolsManager {
         ManagePreferences.setFreeSub(true);
         break;
         
-      case 9:     // Reset release info
+      case 9:     // Stat: Toggle Sponsor
+        String sponsor = ManagePreferences.sponsor();
+        sponsor = (sponsor == null ? "Philomath Fire & Rescue" : null);
+        ManagePreferences.setSponsor(sponsor);
+        break;
+        
+      case 10:     // Reset release info
         ManagePreferences.setRelease("");
         break;
         
-      case 10:     // Content Query
+      case 11:     // Content Query
         ContentQuery.query(context);
         break;
         
-      case 11:     // Recent tasks
+      case 12:     // Recent tasks
         ContentQuery.dumpRecentTasks(context);
         break;
         
-      case 12:    // Roll last date
+      case 13:    // Roll last date
         ManagePreferences.rollLastAuthDate("01012000");
         break;
         
-      case 13:    // Set Cadpage Parser
+      case 14:    // Set Cadpage Parser
         ManagePreferences.setLocation("Cadpage");
         break;
         

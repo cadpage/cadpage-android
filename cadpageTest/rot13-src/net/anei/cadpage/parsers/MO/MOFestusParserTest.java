@@ -5,6 +5,18 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 
+/*
+Srfghf, ZB (va Wrssrefba Pbhagl)
+Pbagnpg: Gvz Zhyyvaf <gzhyyvafnpb@lnubb.pbz>
+Fraqre: WOVGGRE@PVGLBSSRFGHF.BET
+Flfgrz: VGV
+
+(pnyy) SVER / OEHFU / 2819 ABEGU FRYZN EBNQ WRSSPB/E7 /QBBYVAT UB /RZF /6610 /wcnq oehfu jvgu rkcbfre E-7 SQ720146 /WCNQ 603031
+(pnyy) SVER/10-50 W-2/ FGNGR EQ PP WRSSPB/SRFGHF SVER / UJL 67 /SVER QRC /U4 SV U1 SRFGHF  SQ66651 / WCNQ U4 SV U1
+F:Pnyy Z:SVER / ZHGHNY NVQ / 12532 FGNGR EQ GG WRSSPB/E-7 / E7FPUBBYEQ / RZF / U3 SV U1 / OEHFU RAQNATREVAT N FGEHPGHER/ 66 14 6037 \aE-7 SQ720096 / WCNQ U3 SV U1\a
+
+*/
+
 choyvp pynff ZBSrfghfCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZBSrfghfCnefreGrfg() {

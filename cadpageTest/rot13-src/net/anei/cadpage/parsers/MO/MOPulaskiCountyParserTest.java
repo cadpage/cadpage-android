@@ -4,6 +4,48 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Chynfxv Pbhagl, ZB (naq Ynpyrqr Pbhagl)
+Pbagnpg: "Zvxr Tneergg" <uscq.1835@lnubb.pbz>
+Fraqre:911qvfcngpu@rzonedznvy.pbz
+
+Gurer vf pbqr gb hafpenzoyr gurfr va ZVYvivatfgbaPbhaglCnefre.  Zbir vg gb onfr
+cnefre pynff.
+Havgf jvyy or 4 qvtvgf, be kSQa be Zaa.  Oernx ng svefg bar sbhaq
+
+ 1 bs 3\aSEZ:911qvfcngpu@rzonedznvy.pbz\aFHOW:QB ABG ERCYL\aZFT:FGEHPGHER SVER ERFVQRAGVNY  11280 ONGGYR YA  CHYNFXV PBHAGL PebffFgerrgf: Uvtujnl\a(Pba'g) 2 bs 3\a17 0.42 zv J PSQ1 QSQ2 Z23 GPSQ1 QSQ2 1553 1552 1562 1560 1351 1501 CPFQ1 ERFPHR ZVYYRE G1 JESQ1 FESQ1 1902 1361 1952 G2 1650 USQ1 Pnyy\a(Pba'g) 3 bs 3\aErprvirq Gvzr: 12/6/2010 20:46:54 Qvfcngpu: 12/6/2010 21:50:29(Raq)
+
+FGEHPGHER SVER ERFVQRAGVNY  11280 ONGGYR YA  CHYNFXV PBHAGL PebffFgerrgf: Uvtujnl 17 0.42 zv J PSQ1 QSQ2 Z23 GPSQ1 QSQ2 1553 1552 1562 1560 1351 1501 CPFQ1 ERFPHR ZVYYRE G1 JESQ1 FESQ1 1902 1361 1952 G2 1650 USQ1 Pnyy Erprvirq Gvzr: 12/6/2010 20:46:54 Qvfcngpu: 12/6/2010 21:50:29
+FGEHPGHER SVER ERFVQRAGVNY  27465 FVATYR QE HAVG CHYNFXV PBHAGL PebffFgerrgf: Uvtujnl NN 0.30 zv A USQ1 Pnyy Erprvirq Gvzr: 12/13/2010 5:05:49 Qvfcngpu: 12/13/2010 5:07:30
+OERNGUVAT QVSSVPHYGL  32064 EBHGR 66   PebffFgerrgf: USQ1 Pnyy Erprvirq Gvzr: 12/8/2010 03:01:30 Qvfcngpu: 12/8/2010 03:01:49
+ZBGBE IRUVPYR NPPVQRAG JVGU VAWHEL  150 V-44 RNFG HAVG CHYNFXV PBHAGL PebffFgerrgf: USQ2 Pnyy Erprvirq Gvzr: 12/6/2010 22:25:49 Qvfcngpu: 12/6/2010 22:28:11
+FGEHPGHER SVER ERFVQRAGVNY  30684 UVTUJNL NO - I2J HAVG EVPUYNAQ PebffFgerrgf: USQ1 Pnyy Erprvirq Gvzr: 12/5/2010 03:31:42 Qvfcngpu: 12/5/2010 03:34:35
+IRUVPYR SVER  28795 UVTUJNL 17  CHYNFXV PBHAGL PebffFgerrgf: Fnffnsenf Ya 0.12 zv FUvtujnl NO 0.27 zv AR USQ1 Pnyy Erprvirq Gvzr: 12/3/2010 02:07:51 Qvfcngpu: 12/3/2010 02:08:38
+
+Pbagnpg: Qbht Lherpxb <qlherpxb5h@tznvy.pbz>
+Fraqre: 911qvfcngpu@rzonedznvy.pbz
+ 1 bs 2\aSEZ:911qvfcngpu@rzonedznvy.pbz\aFHOW:QB ABG ERCYL\aZFT:ZBGBE IRUVPYR NPPVQRAG JVGU VAWHEL  QLRE FG & J UVFGBEVP 66, Ncg. HAVG JNLARFIVYYR\a(Pba'g) 2 bs 2\aPebffFgerrgf: JCQ Z25 JESQ1 Pnyy Erprvirq Gvzr: 6/8/2012 07:44:22 Qvfcngpu: 6/8/2012 07:46:06\e\a\e\a\e\a\e\a(Raq)
+ 1 bs 2\aSEZ:911qvfcngpu@rzonedznvy.pbz\aFHOW:QB ABG ERCYL\aZFT:ANGHENY PBIRE SVER  GRZCBENY EQ, Ncg. HAVG CHYNFXV PBHAGL PebffFgerrgf: JESQ1 Pnyy\a(Pba'g) 2 bs 2\aErprvirq Gvzr: 6/6/2012 11:27:42 Qvfcngpu: 6/6/2012 11:30:25\e\a\e\a\e\a\e\a(Raq)
+ 1 bs 2\aSEZ:911qvfcngpu@rzonedznvy.pbz\aFHOW:QB ABG ERCYL\aZFT:SNYYF/ NPPVQRAGF  YBATIVRJ YA & UVTUJNL 17 CHYNFXV PBHAGL PebffFgerrgf: Z22 JESQ1\a(Pba'g) 2 bs 2\aPnyy Erprvirq Gvzr: 6/6/2012 07:10:40 Qvfcngpu: 6/6/2012 07:16:16\e\a\e\a\e\a\e\a(Raq)
+ 1 bs 3\aSEZ:911qvfcngpu@rzonedznvy.pbz\aFHOW:QB ABG ERCYL\aZFT:HAPBAFPVBHF/HAERFCBAFVIR  21501 UVTUJNL 28, Ncg. HAVG CHYNFXV PBHAGL PebffFgerrgf:\a(Pba'g) 2 bs 3\aUnjx Qe 0.01 zv AR Cevingr Qe 0.16 zv AJ Z22 JESQ1 Pnyy Erprvirq Gvzr: 6/10/2012 09:19:51 Qvfcngpu: 6/10/2012 09:21:29 Qvfcngpu:\a(Pba'g) 3 bs 3\a6/10/2012 09:21:29\e\a\e\a\e\a\e\a(Raq)
+ 1 bs 2\aSEZ:911qvfcngpu@rzonedznvy.pbz\aFHOW:QB ABG ERCYL\aZFT:ZBGBE IRUVPYR NPPVQRAG JVGU VAWHEL  101 QVFPBIREL QE, Ncg. HAVG JNLARFIVYYR\a(Pba'g) 2 bs 2\aPebffFgerrgf: Ybjr Ni 0.02 zv A 707 JESQ1 Pnyy Erprvirq Gvzr: 6/13/2012 18:59:14 Qvfcngpu: 6/13/2012 19:01:33\e\a\e\a\e\a\e\a(Raq)
+ 1 bs 2\aSEZ:911qvfcngpu@rzonedznvy.pbz\aFHOW:QB ABG ERCYL\aZFT:ANGHENY PBIRE SVER  15365 GBC QE CHYNFXV PBHAGL PebffFgerrgf: Ghexrl Qe 0.10 zv FR\a(Pba'g) 2 bs 2\aGehr Eq 0.24 zv FJ JESQ1 Pnyy Erprvirq Gvzr: 7/1/2012 21:38:25 Qvfcngpu: 7/1/2012 21:40:28\e\a\e\a\e\a\e\a(Raq)
+
+Pbagnpg: Npgvir911
+[QB ABG ERCYL] Pnyy Ahzore: 266654 \e\aZBGBE IRUVPYR NPPVQRAG JVGU VAWHEL \e\aQvfcngpu: 8/3/2012 22:09:56 \e\aNpxyqtr: 22:10:03 \e\a\e\a\e\a\e\a\e\aPyrne: 23:40:44 \e\aPbzcyrgr: 23:51:16\e\a\e\a\e\a\e\a\e\a\e\a
+[QB ABG ERCYL] Pnyy Ahzore: 266893 \e\aQVNORGVP \e\aQvfcngpu: 8/5/2012 16:39:31 \e\aNpxyqtr: 16:39:33 \e\aRaebhgr: 16:45:08 \e\aBaFprar: 16:46:40 \e\a\e\a\e\aPyrne: 16:51:31 \e\aPbzcyrgr: 16:54:29\e\a\e\a\e\a\e\a\e\a\e\a
+[QB ABG ERCYL] Pnyy Ahzore: 266943 \e\aFGEHPGHER SVER ERFVQRAGVNY \e\aQvfcngpu: 8/6/2012 00:19:09 \e\aNpxyqtr: 0:20:18 \e\a\e\a\e\a\e\a\e\a\e\aPbzcyrgr: 0:32:53\e\a\e\a\e\a\e\a\e\a\e\a
+[QB ABG ERCYL] Pnyy Ahzore: 266964 \e\aANGHENY PBIRE SVER \e\aQvfcngpu: 8/6/2012 10:20:06 \e\aNpxyqtr: 10:24:09 \e\aRaebhgr: 10:29:19 \e\a\e\a\e\a\e\aPyrne: 11:13:41 \e\aPbzcyrgr: 11:13:42\e\a\e\a\e\a\e\a\e\a\e\a
+
+[QB ABG ERCYL] ZBGBE IRUVPYR NPPVQRAG JVGU VAWHEL  ZNEVRF PBHAGL 630 ZNEVRF PBHAGL PebffFgerrgf: ZNEVRF ZFUC1 ZFUC2 QNQ QSQ1 Pnyy Erprvirq Gvzr: 8/3/2012 21:43:40 Qvfcngpu: 8/3/2012 22:09:56\e\a\e\a\e\a\e\a\e\a\e\a
+[QB ABG ERCYL] ANGHENY PBIRE SVER  11000 PLCERFF EQ CHYNFXV PBHAGL PebffFgerrgf: A Uvtujnl 133 0.01 zv A Pbajnl Eq 0.14 zv J QSQ1 Pnyy Erprvirq Gvzr: 8/4/2012 02:48:10 Qvfcngpu: 8/4/2012 02:49:49\e\a\e\a\e\a\e\a\e\a\e\a
+[QB ABG ERCYL] SVER NYNEZ - PBZZREPVNY  11752 UVTUJNL ZZ CHYNFXV PBHAGL PebffFgerrgf: Uvtujnl 28 0.55 zv AJ Cevingr Qe 1.10 zv FR QSQ1 Pnyy Erprvirq Gvzr: 8/4/2012 06:27:56 Qvfcngpu: 8/4/2012 06:29:17\e\a\e\a\e\a\e\a\e\a\e\a
+[QB ABG ERCYL] QVNORGVP  204 FHAFRG EQ QVKBA PebffFgerrgf: Qnyr Ya 0.05 zv R Ynat Fg 0.07 zv J QNQ Z31 QSQ1 Pnyy Erprvirq Gvzr: 8/5/2012 16:27:13 Qvfcngpu: 8/5/2012 16:39:31\e\a\e\a\e\a\e\a\e\a\e\a
+[QB ABG ERCYL] FGEHPGHER SVER ERFVQRAGVNY  16202 OHGGREPHC EQ CHYNFXV PBHAGL PebffFgerrgf: Onatbe Eq 0.28 zv F Uvtujnl UU 0.63 zv AR Z23 PSQ1 GPSQ1 CPFQ1 1501 1552 1351 1562 1361 JESQ1 QSQ1 Pnyy Erprvirq Gvzr: 8/6/2012 00:03:55 Qvfcngpu: 8/6/2012 00:19:09\e\a\e\a\e\a\e\a\e\a\e\a
+[QB ABG ERCYL] ANGHENY PBIRE SVER  UVTUJNL 28 CHYNFXV PBHAGL PebffFgerrgf: QSQ1 Pnyy Erprvirq Gvzr: 8/6/2012 10:18:26 Qvfcngpu: 8/6/2012 10:20:06\e\a\e\a\e\a\e\a\e\a\e\a
+[QB ABG ERCYL] BIREQBFR/CBVFBAVAT  208 JVYYBJ NYL, Ncg. N QVKBA PebffFgerrgf: A Jnyahg fg 6332.73 zv J A Bnx Fg 6332.82 zv J QNQ Z31 QSQ1 Pnyy Erprvirq Gvzr: 8/6/2012 19:18:17 Qvfcngpu: 8/6/2012 19:43:03\e\a\e\a\e\a\e\a\e\a\e\a
+
+*/
 
 choyvp pynff ZBChynfxvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

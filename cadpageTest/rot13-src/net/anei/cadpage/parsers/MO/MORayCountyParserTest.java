@@ -4,6 +4,25 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Enl Pbhagl, ZB
+Pbagnpg: "Puvrs B'Qryy" <yrrbqryy@jbbqurvtugfsver.pbz>
+Fraqre: enlpbhaglpragenyqvfcngpu@tznvy.pbz
+UVTUJNL L ENL PBHAGL PebffFgerrgf: 10-50 GENSSVP/GENAFCBEG VAPVQRAG (PENFU)
+14851 UVTUJNL L PELFGNY YNXRF PebffFgerrgf: ORNPU QE 0.09 zv A ENIRAJBBQ QE 0.00 zv J BHGFVQR SVER
+15659 UVTUJNL L ENL PBHAGL PebffFgerrgf: CVAR EQ 0.07 zv A J 158GU FG 0.10 zv F BHGFVQR SVER
+107 F QBAAN QE ENL PBHAGL PebffFgerrgf: J QBAAN QE 0.02 zv AR PNEBY YA 0.05 zv F BHGFVQR SVER
+4364 UVTUJNL 10 ENL PBHAGL PebffFgerrgf: ZBPXVATOVEQ YA 0.18 zv AJ YVGGYR SNEZ EQ 0.17 zv FR FGEBXR (PIN)
+4684 UVTUJNL 10 ENL PBHAGL PebffFgerrgf: PEBJYRL EQ 0.20 zv AJ FUBEG EQ 0.30 zv FR SVER NYNEZ
+
+Pbagnpg: Npgvir911
+[] 15659 UVTUJNL L ENL PBHAGL PebffFgerrgf: CVAR EQ 0.07 zv A J 158GU FG 0.10 zv F BHGFVQR SVER\e\a\e\a\e\a\e\a\e\a\e\a
+[] 14851 UVTUJNL L PELFGNY YNXRF PebffFgerrgf: ORNPU QE 0.09 zv A ENIRAJBBQ QE 0.00 zv J BHGFVQR SVER\e\a\e\a\e\a\e\a\e\a\e\a
+[] UVTUJNL L ENL PBHAGL PebffFgerrgf: 10-50 GENSSVP/GENAFCBEG VAPVQRAG (PENFU)\e\a\e\a\e\a\e\a\e\a\e\a
+[] UVTUJNL 10 & J 133EQ FG ENL PBHAGL PebffFgerrgf: BHGFVQR SVER\e\a\e\a\e\a\e\a\e\a\e\a
+[] 18347 A HAVBA EQ ENL PBHAGL PebffFgerrgf: UVTUJNL P 0.40 zv F ZHGHNY NVQ/NFFVFG BHGFVQR NTRAPVRF\e\a\e\a\e\a\e\a\e\a\e\a
+
+*/
 
 choyvp pynff ZBEnlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

@@ -185,9 +185,17 @@ public abstract class UserAcctManager {
             }
             
             // If sponsor code is "FREE", set the free subscriber flag
-            if (flds.length <= 3) continue;
-            String sponsor = flds[3].trim();
-            if (sponsor.equals("FREE")) ManagePreferences.setFreeSub(true);
+            String sponsor = null;
+            boolean free = false;
+            if (flds.length > 3) {
+              sponsor = flds[3].trim();
+              if (sponsor.equals("FREE")) { 
+                free = true;
+                sponsor = null;
+              } else if (sponsor.length() == 0) sponsor = null;
+            }
+            ManagePreferences.setFreeSub(free);
+            ManagePreferences.setSponsor(sponsor);
           }
           
           // Set the authorization last checked date

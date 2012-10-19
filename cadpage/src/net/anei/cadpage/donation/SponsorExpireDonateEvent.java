@@ -10,10 +10,10 @@ Your Cadpage subscription has expired
 
 Your current Cadpage subscription expired on %s
  */
-public class PaidExpireDonateEvent extends DonateScreenEvent {
+public class SponsorExpireDonateEvent extends DonateScreenEvent {
   
-  public PaidExpireDonateEvent() {
-    super(AlertStatus.RED, R.string.donate_paid_expire_title, R.string.donate_paid_expire_text,
+  public SponsorExpireDonateEvent() {
+    super(AlertStatus.RED, R.string.donate_sponsor_expire_title, R.string.donate_sponsor_expire_text,
            ReqMoneyGroup.instance(),
            DonateExtraDayEvent.instance(),
            MagicWordEvent.instance(),
@@ -22,7 +22,7 @@ public class PaidExpireDonateEvent extends DonateScreenEvent {
 
   @Override
   public boolean isEnabled() {
-    return (DonationManager.instance().status() == DonationManager.DonationStatus.PAID_EXPIRE);
+    return (DonationManager.instance().status() == DonationManager.DonationStatus.SPONSOR_EXPIRE);
   }
 
   @Override
@@ -33,16 +33,19 @@ public class PaidExpireDonateEvent extends DonateScreenEvent {
     case PARM_TEXT:
       Date expireDate = DonationManager.instance().expireDate();
       String sDate = DateFormat.getDateInstance(DateFormat.MEDIUM).format(expireDate);
-      return new Object[]{sDate};
+      return new Object[]{
+          DonationManager.instance().sponsor(),
+          sDate
+      };
 
     default:
-      return null;
+      return new Object[]{DonationManager.instance().sponsor()};
     }
   }
   
-  private static final PaidExpireDonateEvent instance = new PaidExpireDonateEvent();
+  private static final SponsorExpireDonateEvent instance = new SponsorExpireDonateEvent();
   
-  public static PaidExpireDonateEvent instance() {
+  public static SponsorExpireDonateEvent instance() {
     return instance;
   }
 

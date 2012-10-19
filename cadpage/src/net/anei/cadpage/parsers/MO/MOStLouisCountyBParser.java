@@ -5,24 +5,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-St Louis County, MO
-Contact: Steve <steve@stlouisarsenal.com>
-Sender: alert@scfa911.org
-
-(Dispatch) DIFFICULTY BREATHING \n\n1762 LEMAY FERRY RD, Apt. APT 313 \n1617 \nMapRegions: L29-49, LE Card # 4143 CrossStreets: LE Card# 4143 0.00 mi \nCall Number: 7182
-(Dispatch) ANIMAL BITE \n\n325 W ARLEE AVE \n1117 1614 \nMapRegions: K29-49, LE Card # 4271 CrossStreets: LE Card# 4271 0.00 mi \nCall Number: 718281
-(Dispatch) FALL \n\n2116 KEVIN DR \n1617 \nMapRegions: K30-49, LE Card # 4130 CrossStreets: LE Card# 4130 0.00 mi \nCall Number: 718280
-(Dispatch) OBS \n\n812 DAMMERT AVE \n1617 \nMapRegions: K29-49, LE Card # 4064 CrossStreets: LE Card# 4064 0.00 mi \nCall Number: 718269
-(Dispatch) SICK CASE \n\n115 W ETTA AVE \n1614 \nMapRegions: K29-49, LE Card # 4273 CrossStreets: LE Card# 4273 0.00 mi \nCall Number: 718257
-(Dispatch) AMBT \n\n4400 BIG CHIEF DR \n1617 1134 \nMapRegions: AF Card# 3031, L28-49 CrossStreets: AZTEC DR 0.01 mi E TURQUOISE DR 0.06 mi NW \nCall Number: 718255
-(Dispatch) DIFFICULTY BREATHING \n\n1762 LEMAY FERRY RD, Apt. APT 313 \n1617 \nMapRegions: L29-49, LE Card # 4143 CrossStreets: LE Card# 4143 0.00 mi \nCall Number: 7182
-(Dispatch) VEHACC \n\nGREEN PARK RD & REAVIS BARRACKS RD \n1710 1614 1757 \nMapRegions: L29-49, LE Card # 4107, LE Card # 4201, ME Card# 1665, ME Card# 747 CrossStreets
-(Dispatch) ASTFIR \n\n317 EAST DAVIS \n1614 \nMapRegions:  CrossStreets: \nCall Number: 718231
-(Dispatch) ACCIDENTAL INJURY \n\n373 TUCKAHOE DR \n1617 \nMapRegions: K31-59, LE Card # 4248 CrossStreets: LE Card# 4248 0.00 mi \nCall Number: 718226
-(Dispatch) VEHACC \n\nLEMAY FERRY RD & FANNIE AVE \n1614 1617 \nMapRegions: K28-49, LE Card # 4299 CrossStreets: \nCall Number: 718216
-
-*/
 
 
 public class MOStLouisCountyBParser extends FieldProgramParser {

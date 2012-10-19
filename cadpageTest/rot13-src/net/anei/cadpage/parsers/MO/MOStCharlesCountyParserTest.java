@@ -4,6 +4,26 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Fg Puneyrf Pbhagl, ZB
+Pbagnpg: Zvpnu Pbaare <zpbaare@bsscq.pbz>
+Fraqre: qvfcngpu@fppqn.bet
+
+081411-29063        05 Onpx Cnva (Ab Genhzn) 161 Bhe Ya                                        ~/UVTUJNL 94 A           NCG:                K FG:UVTUJNL 94 A/Qrnq Raq         ZNC:Z 6-22         Eviref Cbvagr O2
+072611-26676        23 Bireqbfr DQ           308 Qbanyq Nir                                    CENVEVR UBZRF NQQA/UJL I NCG:                K FG:FHFNA NIR/EHGU NIR            ZNC:OO 8-19        Bepuneq Snez O2
+081911-29644        29 Zbgbe Iruvpyr Nppvqrag4795 Uvtujnl 94 A                                 PUH Gevavgl Yhgurena PuheNCG:                K FG:PUHEPU EQ/UVTUJNL U           ZNC:M 10-19        Bepuneq Snez O2
+080811-28362        29 Zbgbe Iruvpyr NppvqragUvtujnl 94 A & Uvtujnl I                                                   NCG:                K FG:                              ZNC:L 7-19         Bepuneq Snez O2
+082211-30048        32 Haxabja RZF Ceboyrz DQ14801 Uvtujnl 67 F                                fbhgu bs gur Pynex OevqtrNCG:                K FG:ZVFFVFFVCCV EVI/Qrnq Raq      ZNC:S 8-24         Eviref Cbvagr O2
+080811-28362        29 Zbgbe Iruvpyr NppvqragUvtujnl 94 A & Uvtujnl I                                                   NCG:                K FG:                              ZNC:L 7-19         Bepuneq Snez O2
+080111-27420        17Q3 Snyy Abg Nyreg      4297 Uvtujnl 94 A                                                          NCG:                K FG:YNTB IVFGN QE/JVRQRL EQ       ZNC:M 11-35        Bepuneq Snez O2
+080111-27413        29O4 ZIN Haxabja Fgnghf  Bepuneq Snez Eq & Jnfurba Eq                                               NCG:                K FG:                              ZNC:PP 7-18        Bepuneq Snez O2
+072911-27066        29O4 ZIN Hax Fgnghf Hax C22100 V 70 J                                      JO RB 79                 NCG:                K FG:Qrnq Raq/QNEQRAAR PEX         ZNC:AA 16-47       PPSE
+072811-26894        Nynez - Pbzzrepvny       2165 Uvtujnl I                                    FPU Bepuneq Snez Zvqqyr  NCG:                K FG:UVTUJNL 94 A/HAANZRQ FGERRG   ZNC:M 7-19         Bepuneq Snez O2
+080811-28275        Nffvfg - Cbyvpr (RZF)    14000 Uvtujnl 67 A                                TNF Cvg Fgbc             NCG:                K FG:ERQ FPUBBY EQ/UVTUJNL 94      ZNC:V 10-23        Eviref Cbvagr O2
+080311-27759        10 Purfg Cnva DQ         15052 Znva Fg                                     /UVTUJNL 94              NCG:                K FG:FNVAG YBHVF FG/Qrnq Raq       ZNC:V 10-23        Eviref Cbvagr O2
+072611-26676        23P3 Bireqbfr Nagvqrcerff308 Qbanyq Nir                                    CENVEVR UBZRF NQQA/UJL I NCG:                K FG:FHFNA NIR/EHGU NIR            ZNC:OO 8-19        Bepuneq Snez O2
+
+*/
 
 choyvp pynff ZBFgPuneyrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

@@ -4,6 +4,17 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Pnyubha Pbhagl, ZF
+Pbagnpg: Npgvir911
+Fraaqre: pnqnyregf@rsbeprfbsgjner.pbz
+Ntrapl anzr: Pnyubha Pbhagl 912 Ybpngvba: Cvggfobeb, ZF 
+
+(Qvfcngpu Nyreg) Pnyy Glcr: ONAARE RZE\aPvgl: INEQNZNA\aNqqerff: 10 PE 117
+(Qvfcngpu Nyreg) Pnyy Glcr: ONAARE RZE\aPvgl: INEQNZNA\aNqqerff: 123 A ZNVA FG
+(Qvfcngpu Nyreg) Pnyy Glcr: ONAARE RZE\aPvgl: CVGGFOBEB\aNqqerff: 45 PE 104
+
+*/
 
 choyvp pynff ZFPnyubhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

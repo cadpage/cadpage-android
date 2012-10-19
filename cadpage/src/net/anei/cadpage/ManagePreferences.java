@@ -555,14 +555,6 @@ public class ManagePreferences {
     MainDonateEvent.instance().refreshStatus();
   }
   
-  public static Date minExpireDate() {
-    try {
-      return DATE_FORMAT.parse(prefs.context.getString(R.string.min_expire_date));
-    } catch (ParseException ex) {
-      return null;
-    }
-  }
-  
   public static int paidYear() {
     return prefs.getInt(R.string.pref_paid_year_key, 0);
   }
@@ -617,6 +609,20 @@ public class ManagePreferences {
     prefs.putString(R.string.pref_purchase_date_key, sDate);
     DonationManager.instance().reset();
     MainDonateEvent.instance().refreshStatus();
+  }
+  
+  public static String sponsor() {
+    return prefs.getString(R.string.pref_sponsor_key, null);
+  }
+  
+  public static void setSponsor(String sponsor) {
+    String oldSponsor = sponsor();
+    if (oldSponsor == null && sponsor == null) return;
+    prefs.putString(R.string.pref_sponsor_key, sponsor);
+    if ((oldSponsor == null) != (sponsor == null)) {
+      DonationManager.instance().reset();
+      MainDonateEvent.instance().refreshStatus();
+    }
   }
   
   public static boolean freeRider() {
@@ -922,6 +928,7 @@ public class ManagePreferences {
         R.string.pref_install_date_key,
         R.string.pref_purchase_date_key,
         R.string.pref_free_rider_key,
+        R.string.pref_sponsor_key,
         R.string.pref_free_sub_key,
         R.string.pref_auth_location_key,
         R.string.pref_auth_extra_date_key,
