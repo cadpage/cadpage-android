@@ -2581,7 +2581,7 @@ CAD MSG: *D F1 WASHINGTON PL / PRESIDENTIAL DR 203 POCONO FARMS / CALLER REPORTI
 CAD MSG: *D F1 255 SUMMIT AVE 209 HOUSE FIRE / APPEARS TO BE VACANT / UNK IF ANYONE LIVES THERE OR NOT /
 CAD MSG: *D F2 GEISINGER FAMILY PRA / COMMERCE CT 203 GESINGER MT POCONO // BLACK GRAND AM ON FIRE// UNK IF ANYONE IS IN IT/
 **************************************************************************
-Montgomery county, Pa (PAMontgomeryCountyAParser)
+Montgomery county, PA (PAMontgomeryCountyAParser)
 Subject:Dispatch\n09:39 * RESCUE - WATER * 316 RIVER RD * - *
 Subject:Dispatch\n11:12 * PUMP DETAIL * 114 KOEGEL LN * - * 
 Subject:Dispatch\n13:32 * GAS-ODOR/LEAK OUTSIDE * 2409 DAIRY LN * - * 
@@ -4884,6 +4884,8 @@ Sender: Dispatch@ci.woodburn.or.us
 Subject:Incident\nPSYCH F:145 N MAIN ST 3 , JEFFERSON:C60, MED60, R60, STA600:20 YOF THREAT TO HANG HERSELF::::\r\n\r
 Subject:Incident\nSICK F:3364 BUENA VISTA RD S, MARION COUNTY:C60, MED60, R64, STA640:TRNS MENTAL F TO HOSP/PD ON SCENE::::\r\n\r
 Subject:Incident\nSICK F:3296 CLOVERDALE DR SE, MARION COUNTY:MED61, C95, R965, STA950:68 YOF/C/B/A/WEAKNESS/7 DAYS/::::\r\n\r
+Subject:Incident\nGRASS HIGH RISK F:3073 RIDGEWAY DR SE, MARION COUNTY:BR658, T659, GR60, T60, C95, E955, GR958, R965, S95, T959, STA\r
+Subject:Incident\nUNC F:JEFFERSON MARION RD SE@ PLETZER RD SE , MARION COUNTY:C60, MED60, R60, R83, STA83:75YOM C/B/LETHARGIC::::\r\n\r
 
 Contact: Jon Remy <jonr@turnerfire.com>
 Sender: Dispatch@ci.woodburn.or.us
@@ -4914,12 +4916,10 @@ Sender: dispatch@ci.woodburn.or.us
 (Incident) MVA INJURY F:I5 NB MP 242:I5 NB MP 242:::C60, E60, E64, MED60, R60::1 VEH MVA/ M/C DOWN:10/7/2012 1:32:56 PM
 (Incident) MVA HEAVY F:I5 NB MP 237:I5 NB MP 237:::TRK13-ALBANY, C60, E60, E63, MED60, R63::4 VEH MVA:10/7/2012 4:22:25 PM
 (Incident) SEIZ F:351 S MAIN ST 22 , JEFFERSON::::C60, MED60, R60, R63::18 YOF NOT C/NOT A/B SEIZURE:10/7/2012 7:18:29 PM
-(Incident) GRASS HIGH RISK F:978 MEADOWS LN SE, MARION COUNTY:::SOUTH 2 :C60, GR60, MED60, R64, T60, T63, T64, GR958, GR63:::10/7/2012 11:17:37 PM
 (Incident) GRASS HIGH RISK F:978 MEADOWS LN SE, MARION COUNTY:::SOUTH 2 :C60, E61, GR60, MED60, R64, T60, T63, T64, C95, GR958, GR63:::10/7/2012 11:17:37
 (Incident) 16871 GREENS BRIDGE RD SE MAP 5021/ 98 YOM C/B POSS CVA
 (Incident) SICK F:I5 SB MP 248:MED60, C95, R965:MALE IN WHEEL CHAIR ON SIDE OF ROAD::::I5 SB MP 248
 (Incident) OD F:738 S GRICE LP, JEFFERSON:C60, MED60, R60, R63, STA600:65 YOM SEMI CONS/BR POSS MORPHINE OD::::
-(Incident) ALM FIRE F:4613 NE TERRI LN, MILLERSBURG:C60, E60, E63, STA630:CARBON::::
 (Incident) ALM FIRE F:4613 NE TERRI LN, MILLERSBURG:C60, E60, E63, STA630:CARBON::::
 (Incident) VEHF F:I5 SB MP 244:C60, E60, E64, MED60, T60, T64, E955, T959, STA640:TRUCK MOVING/SMOKE FRM CAB/::::I5 SB MP 244
 (Incident) CVA F:738 S GRICE LP, JEFFERSON:C60, MED60, R60, R63, STA600:63 Y M C/B NOT ALERT, SLURRING SPEACH::::
@@ -4931,17 +4931,15 @@ Sender: dispatch@ci.woodburn.or.us
 (Incident) BREA PROBLEM F:11223 HOCHSPEIER RD SE 46 , MARION COUNTY:C60, MED60, R60, R64, STA640:51YOF C/DIFF BR SWOLLEN AIRWAY::::EMERALD VALLEY RV PARK
 (Incident) LIFT F:15633 PLETZER RD SE, MARION COUNTY:C60, MED60, R60, R83, STA83:::::
 (Incident) GRASS LOW RISK F:I5 NB MP 243:C60, GR60, GR63:FIRE ON LEFT MEDIAN::::I5 NB MP 243
-(Incident) GRASS LOW RISK F:I5 NB MP 243:C60, GR60, GR63:FIRE ON LEFT MEDIAN::::I5 NB MP 243
 (Incident) VEHF F:I5 SB MP 242:C60, E60, E63, E64, MED60, T60, T63, T64, STA640:SEMI TRUCK ON FIRE::::I5 SB MP 242
 (Incident) LIFT F:750 S GRICE LP, JEFFERSON:C60, MED60, R60, STA600:87 YOM, GLF, REQ LIFT ASSIST/ NON INJ::::
 (Incident) SICK F:3364 BUENA VISTA RD S, MARION COUNTY:C60, MED60, R64, STA640:TRNS MENTAL F TO HOSP/PD ON SCENE::::
 (Incident) SICK F:3296 CLOVERDALE DR SE, MARION COUNTY:MED61, C95, R965, STA950:68 YOF/C/B/A/WEAKNESS/7 DAYS/::::
-(Incident) SICK F:3296 CLOVERDALE DR SE, MARION COUNTY:MED60, C95, R965, STA950:70 YOF C/B/A WEAK::::
+(Incident) GRASS HIGH RISK F:3073 RIDGEWAY DR SE, MARION COUNTY:BR658, T659, GR60, T60, C95, E955, GR958, R965, S95, T959, STA950, STA600, BR956:1 ACRE F
 
 Contact: Adam Brinager <brinager630@gmail.com>
 Sender: dispatch@ci.woodburn.or.us
 (Incident) PSYCH F:145 N MAIN ST 3 , JEFFERSON:C60, MED60, R60, STA600:20 YOF THREAT TO HANG HERSELF::::
-(Incident) SICK F:3296 CLOVERDALE DR SE, MARION COUNTY:MED60, C95, R965, STA950:70 YOF C/B/A WEAK::::
 (Incident) SICK F:3296 CLOVERDALE DR SE, MARION COUNTY:MED61, C95, R965, STA950:68 YOF/C/B/A/WEAKNESS/7 DAYS/::::
 (Incident) SICK F:3364 BUENA VISTA RD S, MARION COUNTY:C60, MED60, R64, STA640:TRNS MENTAL F TO HOSP/PD ON SCENE::::
 (Incident) TRAU F:293 CHURCH ST, JEFFERSON:C60, MED60, R60, R64, STA600:21 YOM C/A/B STABBED MULTIPLE TIMES::::
@@ -5139,6 +5137,9 @@ Sender: @mcen.montgomerycountymd.gov>
 (MCFRS Critical Event Notification) PIC W/ 2 TRAPPED// #F184 AIRPARK & MUNCASTER MILL// 2 PINNED 1 PRIORITY 1 & 1 PRIORITY 2// BC703 W/ COMMAND // OPS 7G// LT SCHILLING PSCC// 10/07/2012 10:57 \nSent on: 10/07 10:59\nSent by Fire Rescue ECC Supervisor to FRS.PIO, FRS Critical Event Individuals, FRS.CIVILIANS, FRS Critical Incident Notification, FRS.Safety Officers, FRS.ASSISTANT CHIEFS, FRS.BATTALION CHIEFS, FRS.POL INDIVIDUALS, FRS.EMS OFFICERS, FRS.DIVISION CHIEFS, FRS.COMM LEADS (E-mail accounts, Pagers, Cell phones) through the Montgomery County Emergency Network \n...Powered by the Roam Secure Alert Network\n----\n- Update your MCEN account at https://mcen.montgomerycountymd.gov
 (MCFRS Apparatus Collision Notification) AT719 02087625 INVOLVED IN PDC RESPONDING TO CALL// AT CEDAR AND 410// DRIVER NATD// BC McNEIL IS POC \nSent on: 10/08 18:17\nSent by Fire Rescue ECC Supervisor to FRS.PIO, FRS.ASSISTANT CHIEFS, FRS.Safety Officers, Apparatus Collision Notification, FRS.BATTALION CHIEFS, FRS.AC INDIVIDUALS, FRS.DIVISION CHIEFS (E-mail accounts, Pagers, Cell phones) through the Montgomery County Emergency Network \n...Powered by the Roam Secure Alert Network\n----\n- Update your MCEN account at https://mcen.montgomerycountymd.gov
 (Important message from MCEN) CAD MSG: * D * 0702 * HOUSE FIRE * 7107 POMANDER LA ,MCG  * PE707 PE706 E754 E750 PE719 T706 AT719 RS741B A741B BC702 BC701 D6 RD1 CWFULL INV CEALRM TG7C\nSent by Montgomery CAD to INV, CWFULL, PE719, T706, E754, FS07, E750, A741B, D6, DFRS, CEALRM, pe706, RS741B, AT719, pe707, Montgomery CAD (E-mail accounts, Pagers, Cell phones) through the Montgomery County Emergency Network \n...Powered by the Roam Secure Alert Network\n----\n- Update your MCEN account at https://mcen.montgomerycountymd.gov
+
+Sender: "Fire & Rescue" <fireandresc_BGSL@mcen.montgomerycountymd.gov>
+(MCFRS Apparatus Collision Notification) AT719 02087625 INVOLVED IN PDC RESPONDING TO CALL// AT CEDAR AND 410// DRIVER NATD// BC McNEIL IS POC\nSent on: 10/08 18:17\nSent by Fire Rescue ECC Supervisor to FRS.PIO, FRS.ASSISTANT CHIEFS,\nFRS.Safety Officers, Apparatus Collision Notification, FRS.BATTALION CHIEFS, FRS.AC INDIVIDUALS, FRS.DIVISION CHIEFS (E-mail accounts, Pagers, Cell phones)\nthrough the Montgomery County Emergency Network\n...Powered by the Roam Secure Alert Network\n----\n- Update your MCEN account at https://mcen.montgomerycountymd.gov
 **********************************************************
 * EOF
 **********************************************************
