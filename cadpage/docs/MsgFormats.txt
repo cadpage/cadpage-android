@@ -4853,20 +4853,15 @@ Contact: rkachelreiss <rkachelreiss@yahoo.com>
 Sender: messaging@iamresponding.com
 FRM:messaging@iamresponding.com\nSUBJ:Station 20\nMSG:CORRECTION TO LAST PAGE:\r\nStructure Fire\r\n2 Woodland Townhouse Rd\r\nApt: 36 - E\r\n@ 17:45\r\n\r\n\r
 **********************************************************
-Clearfield County, PA
-Contact: 8145908933@vtext.com
-(Clearfield Alert) Inc: Facility Transfer-Routine
-Add: 100 HOSPITAL AVE
-City: DUBOIS
-Units: 4353
-43EMS
-10/14/2012 7:15:40 AM
-**********************************************************
 Hennepin County, MN (alternate?)
 Contact: Jeffery Schoenborn <chiefstowinginc@gmail.com>
 Sender: LOGIS-Emergin-Paging@logis.org
 RESIDENTIAL FIRE ALM AD: 10312 TOLEDO AV S CMT1: RESIDENTIAL FIRE ALARM COVERS THE LOFT SMOKE. NOT RESET. INSIDE 952-835
 **********************************************************
+Carteret County, NC (scrambled, alternate)
+Contact: Logan Hardy <hardy_logan@yahoo.com>
+Sender: CEC@carteretcountygov.org
+S:812 SHEPARD ST MOREHEAD CITY 12-134576 12 M:CEC:32:41 ALARM FIRE 
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4946,6 +4941,10 @@ Sender: dispatch@ci.woodburn.or.us
 Contact: Adam Brinager <brinager630@gmail.com>
 Sender: dispatch@ci.woodburn.or.us
 (Incident) PSYCH F:145 N MAIN ST 3 , JEFFERSON:C60, MED60, R60, STA600:20 YOF THREAT TO HANG HERSELF::::
+(Incident) SICK F:3296 CLOVERDALE DR SE, MARION COUNTY:MED60, C95, R965, STA950:70 YOF C/B/A WEAK::::
+(Incident) SICK F:3296 CLOVERDALE DR SE, MARION COUNTY:MED61, C95, R965, STA950:68 YOF/C/B/A/WEAKNESS/7 DAYS/::::
+(Incident) SICK F:3364 BUENA VISTA RD S, MARION COUNTY:C60, MED60, R64, STA640:TRNS MENTAL F TO HOSP/PD ON SCENE::::
+(Incident) TRAU F:293 CHURCH ST, JEFFERSON:C60, MED60, R60, R64, STA600:21 YOM C/A/B STABBED MULTIPLE TIMES::::
 **********************************************************
 CENCOM, NJ
 Contact: David Suriano <dasuriano1@gmail.com>
@@ -5014,6 +5013,20 @@ CAD:FIREALRM;244 MT HERMAN CHURCH RD;MAYFIELD RD;RUFF;20;TAC 2 [10/15/12 20:32:1
 CAD:CHESTPAI;1891 HARRISON CROSSROAD LP;BURTON FARM RD;NC 14;REID;10C04;160;[Medical Priority Info] RESPONSE: ALS HOT & FIRST RESPONDERS RESPONDER SCRIPT: Y
 CAD:STROKE;316 MATTIE RD;US 29 BUS;REID;160;TAC3 [10/14/12 18:04:44 JBOWLES] [Medical Priority Info] RESPONSE: ALS HOT & FIRST RESPONDERS RESPONDER SCRIPT:
 CAD:STRUC;480 LICK FORK CREEK RD;LICK FORK LN;LONGBRANCH RD;REID;20;rekindle at barn fire [10/13/12 08:31:41 CEADS]
+**********************************************************
+Clearfield County, PA
+Contact: "csatterlee@hallstromconstruction.com" <csatterlee@hallstromconstruction.com>,8145908933@vtext.com
+Sender: alerts@clearfieldalerts.com
+(Clearfield Alert) Inc: Facility Transfer-Routine\nAdd: 100 HOSPITAL AVE\nCity: DUBOIS\nUnits: 4353\n43EMS\n10/14/2012 7:15:40 AM
+(Clearfield Alert) Inc: Sick Person BLS\r\nAdd: 137 OKLAHOMA CEMETERY RD\r\nCity: SANDY\r\nUnits: 4352\r\n43EMS\r\n10/17/2012 12:05:24 PM
+(Clearfield Alert) Inc: Breathing Probs ALS\r\nAdd: 817 GREEN GLEN DR\r\nCity: DUBOIS\r\nUnits: 4352\r\n43EMS\r\n10/17/2012 2:43:57 PM
+(Clearfield Alert) Inc: Facility Transfer-Routine\r\nAdd: 212 S 8TH ST\r\nCity: SANDY\r\nUnits: 4351\r\n43EMS\r\n10/17/2012 2:45:20 PM
+(Clearfield Alert) Inc: Sick Person ALS\r\nAdd: 33 SHORT ST\r\nCity: FALLS_JEF\r\nUnits: 4353\r\n43EMS\r\n10/17/2012 2:58:14 PM
+(Clearfield Alert) Inc: EMS Standby\r\nAdd: 404 LIBERTY BLVD\r\nCity: DUBOIS\r\nUnits: 4353\r\n43EMS\r\n10/17/2012 5:53:35 PM
+(Clearfield Alert) Inc: Psychological Emer BLS\r\nAdd: 212 S 8TH ST\r\nCity: SANDY\r\nUnits: EMS43 814\r\n43EMS\r\n10/17/2012 7:15:19 PM
+(Clearfield Alert) Inc: OD-Poison ALS\r\nAdd: 502 JUNIATA ST\r\nCity: DUBOIS\r\nUnits: EMS43 312\r\n43EMS\r\n10/17/2012 9:15:45 PM
+(Clearfield Alert) Inc: Heart Problems-AICD ALS\r\nAdd: 145 ATHENA DR\r\nCity: SANDY\r\nUnits: 4354\r\n43EMS\r\n10/17/2012 8:11:31 PM
+(Clearfield Alert) Inc: Facility Transfer-Routine\r\nAdd: 100 HOSPITAL AVE\r\nCity: DUBOIS\r\nUnits: 4354\r\n43EMS\r\n10/18/2012 4:29:08 PM
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
