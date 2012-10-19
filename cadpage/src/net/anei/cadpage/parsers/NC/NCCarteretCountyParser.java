@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
@@ -7,6 +9,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
  * Carteret county, NC
  */
 public class NCCarteretCountyParser extends DispatchSouthernParser {
+  
+  private final static Pattern SUB_MARKER = Pattern.compile("^CEC:\\d\\d:\\d\\d ");
   
   
   public NCCarteretCountyParser() {
@@ -19,7 +23,10 @@ public class NCCarteretCountyParser extends DispatchSouthernParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (subject.length() > 0 && SUB_MARKER.matcher(body).find()) {
+      body = "CEC:" + subject + ':' + body.substring(4);
+    }
     if (!super.parseMsg(body, data)) return false;
     
     // Sometimes city name is duplicated in address

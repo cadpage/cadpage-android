@@ -27,7 +27,8 @@ public class SCOconeeCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("911 Message") && !subject.equals("911")) return false;
+    if (!subject.equals("911 Message") && !subject.equals("911") &&
+        !subject.endsWith("Alphanumeric Message Notification")) return false;
     return super.parseMsg(body, data);
   }
   

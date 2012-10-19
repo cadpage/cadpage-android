@@ -24,6 +24,10 @@ Pbagnpg: Nqnz Evpuneqfba <nqnzevpuneqfba13@lnubb.pbz>
 Fraqre: 911@bpbarrynj.pbz
 SEZ:911@bpbarrynj.pbz\aFHOW:911 Zrffntr\aZFT:YVSG NFFVFGNAPR > 1407 J YVGGYR EVIRE QE FRARPN > KFgerrg: NMHER PBIR PG / XRBJRR YNXRFUBER QE\a
 
+Pbagnpg: Qna <xrbjrr7874@tznvy.pbz>
+Fraqre: cntvatfraq@gbgnycntvat.pbz
+(864-827-2452 Nycunahzrevp Zrffntr Abgvsvpngvba) 70N - SVER NYNEZ > 499 GNYY FUVC QE FNYRZ > KFgerrg: EVC GVQR PG / OYBJVAT SERFU QE Anee:  AB CERZVFRF A
+
 Pbagnpg: fhccbeg@npgvir911.pbz
 (911 Zrffntr) F74 - ERFCVENGBEL QVFGERFF  502 IREN QE KFgerrg: UBOFBA FG / QRNQ RAQ JRFGZVAFGRE    2012-00000025  01/14/12 01:28  Anee:   GBARQ ED5  QBRF UNIR URNEG CEBOYRZF  URNEG CG UNIVAT GEBHOYR OERNGUVAT  R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: JRFGZVAFGRE PVGL CQ JRFGZVAFGRE PVGL SVER  RZF RE-5 RE-3
 (911 Zrffntr) 70F - FGEHPGHER SVER  10941 PYRZFBA OYIQ KFgerrg: CERFFYRL CY / FBAALF QE FRARPN  ODF #5 PYRZFBA OYIQ   01/16/12 17:44  Anee:   VA ARVTUOBEUBBQ ORUVAQ GUR EBNQ EHAARE  FBZRJURER NPEBFF FGERRG  R911 Vasb - Pynff bs Freivpr: OHFA Fcrpvny Erfcbafr Vasb: FUREVSS QRCG FRARPN  PBEVAGU-FUVYBU SVER #3  RZF RE-1 RE-2
@@ -153,6 +157,19 @@ choyvp pynff FPBpbarrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1407 J YVGGYR EVIRE QE",
         "K:NMHER PBIR PG / XRBJRR YNXRFUBER QE",
         "PVGL:FRARPN");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQna() {
+
+    qbGrfg("G1",
+        "(864-827-2452 Nycunahzrevp Zrffntr Abgvsvpngvba) 70N - SVER NYNEZ > 499 GNYY FUVC QE FNYRZ > KFgerrg: EVC GVQR PG / OYBJVAT SERFU QE Anee:  AB CERZVFRF A",
+        "PNYY:70N - SVER NYNEZ",
+        "NQQE:499 GNYY FUVC QE",
+        "K:EVC GVQR PG / OYBJVAT SERFU QE",
+        "PVGL:FNYRZ",
+        "VASB:AB CERZVFRF A");
 
   }
   
