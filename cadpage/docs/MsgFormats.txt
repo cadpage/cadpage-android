@@ -2172,6 +2172,11 @@ Gaston County, NC (NCGastonCountyAParser)
 (*CAD*) [CAD]   29D2L ~WESLEYAN~DR/~MAIN~ST  X-ST: Phone:~(704) 460-7016 - Station:~Station 40 Station 40 08/29/2011 16:49:18 1\nEN403  WRECK.
 (*CAD*) [CAD]   Tree In Roadway 124~CHURCH~ST~  X-ST: ROBINETTE LN - Phone:~(704) 634-0269 Station 40 08/30/2011 05:13:05 1\n***************************************************************************
 ***************************************************************************
+Gaston County, NC (NCGastonCountyCParser))
+Alarm-Fire|2010 THE OAKS PKY|DEAD END/WOODLAWN ST|BELMONT|Station 43|3EN433,EN432,RS32|
+Fuel Spill|3012 MISTY HARBOR CIR APT E|WATERSIDE LN/CRAMERTON VILLAGE DR|CRAMERTON|Station 41|4LD400,EN403,EN401,C203|
+7D3F|305 LOWELL AVE|HIGHLAND ST/WILKINSON BLVD CUTOVER WILKINSON BLVD|COUNTY|Station 50|14FM4,EN433,EN431,LD400,EN401,E41P,C203,L288,L286,EN50,TA50,RS50,QRV50,TA17|BURN.
+***************************************************************************
 Guilford County, NC (NCGuilfordCountyParser)
 [summerfieldfiredist Jan24-10:01]  CAD:SMFD;ST09;1;52C03C;FIRAL;7607 BLUE SAGE CT
 [summerfieldfiredist Jan19-18:15]  CAD:SMFD;ST29;1;50PI;SCALESVILLE RD/LAKE BRANDT RD

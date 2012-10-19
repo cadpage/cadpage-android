@@ -8,18 +8,16 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Gaston County, NC
+ * Gaston County, NC (variant C - Specific to CodeMessaging)
+ * Community
  */
-public class NCGastonCountyAParser extends FieldProgramParser {
+public class NCGastonCountyCParser extends FieldProgramParser {
   
-  private static final Pattern TRAILER = Pattern.compile("\\b(\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) \\d{1,2}\\b");
-  private static final Pattern TRAILER2 = Pattern.compile("Station (\\d+)$");
-  private static final String TRAILER3 = "NN/NN/NNNN NN;NN;NN NN";
   private static final Pattern CODE_PTN = Pattern.compile("^\\d{1,2}[A-Z]\\d{1,2}[A-Z]?\\b");
   
-  public NCGastonCountyAParser() {
+  public NCGastonCountyCParser() {
     super("GASTON COUNTY", "NC",
-           "ADDR/SC! X-ST:X! Phone:PHONE? Station:SRC Quadrant:MAP");
+           "CALL ADDR X CITY SRC UNIT! INFO+");
   }
   
   @Override
@@ -29,79 +27,39 @@ public class NCGastonCountyAParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    body = body.replace('\n', ' ');
-    
-    Matcher match = TRAILER.matcher(body);
-    if (match.find()) {
-      data.strDate = match.group(1);
-      data.strTime = match.group(2);
-      data.strUnit = body.substring(match.end()).trim();
-      body = body.substring(0,match.start()).trim();
-    } else {
-      int pt1 = body.lastIndexOf(' ');
-      if (pt1 <= 0) return false;
-      int pt2 = body.lastIndexOf(' ', pt1-1);
-      if (pt2 <= 0) return false;
-      int pt3 = body.lastIndexOf(' ', pt2-1);
-      if (pt3 < 0) return false;
-      boolean found = false;
-      for (int pt :  new int[]{pt3, pt2, pt1}) {
-        String tail = body.substring(pt+1);
-        String tail2 = tail.replaceAll("\\d", "N");
-        if (TRAILER3.startsWith(tail2)) {
-          body = body.substring(0,pt).trim();
-          int len = tail.length();
-          if (len >= 19) len = 19;
-          else if (len >= 16) len = 16;
-          else len = 0;
-          if (len > 0) {
-            data.strDate = tail.substring(0,10);
-            data.strTime = tail.substring(11,len);
-          }
-          found = true;
-          data.expectMore = true;
-          break;
-        }
-      }
-      if (!found) return false;
-    }
-    
-    String defSource = "";
-    match = TRAILER2.matcher(body);
-    if (match.find()) {
-      defSource = match.group(1);
-      body = body.substring(0,match.start()).trim();
-    }
-      
-    body = body.replace('~', ' ');
-    if (!super.parseMsg(body, data)) return false;
-    
-    match = CODE_PTN.matcher(data.strCall);
-    if (match.find()) {
-      data.strCode = match.group();
-      data.strCall = data.strCall.substring(match.end()).trim();
-      if (data.strCall.length() == 0) {
-        String code = data.strCode;
-        String call = CALL_CODES.getProperty(code);
-        if (call == null) {
-          int pt = 0;
-          while (pt < code.length() && Character.isDigit(code.charAt(pt))) pt++;
-          if (++pt < code.length()) {
-            code = code.substring(0,pt);
-            call = CALL_CODES.getProperty(code);
-          }
-        }
-        if (call == null) call = "EMS ALERT";
-        data.strCall = call;
-      }
-    }
-    if (data.strSource.length() == 0) data.strSource = defSource;
+    if (!super.parseFields(body.split("\\|"), 6, data)) return false;
+    if (data.strCity.equals("COUNTY")) data.strCity = ""; 
     return true;
   }
   
-  @Override
-  public String getProgram() {
-    return "CODE " + super.getProgram() + " DATE TIME UNIT";
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = CODE_PTN.matcher(field);
+      if (match.find()) {
+        data.strCode = match.group();
+        field = field.substring(match.end()).trim();
+        if (field.length() == 0) {
+          String code = data.strCode;
+          String call = CALL_CODES.getProperty(code);
+          if (call == null) {
+            int pt = 0;
+            while (pt < code.length() && Character.isDigit(code.charAt(pt))) pt++;
+            if (++pt < code.length()) {
+              code = code.substring(0,pt);
+              call = CALL_CODES.getProperty(code);
+            }
+          }
+          if (call == null) call = "EMS ALERT";
+          data.strCall = call;
+        }
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE CALL";
+    }
   }
   
   private class MyCrossField extends CrossField {
@@ -134,6 +92,7 @@ public class NCGastonCountyAParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("PHONE")) return new MyPhoneField();
     if (name.equals("SRC")) return new MySourceField();

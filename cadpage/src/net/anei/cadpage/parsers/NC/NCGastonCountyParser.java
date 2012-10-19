@@ -9,6 +9,6 @@ Cabarrus County, NC
 public class NCGastonCountyParser extends GroupBestParser {
   
   public NCGastonCountyParser() {
-    super(new NCGastonCountyAParser(), new NCGastonCountyBParser());
+    super(new NCGastonCountyAParser(), new NCGastonCountyBParser(), new NCGastonCountyCParser());
   }
 }
