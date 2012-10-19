@@ -5025,6 +5025,7 @@ Sender: alerts@clearfieldalerts.com
 (Clearfield Alert) Inc: OD-Poison ALS\r\nAdd: 502 JUNIATA ST\r\nCity: DUBOIS\r\nUnits: EMS43 312\r\n43EMS\r\n10/17/2012 9:15:45 PM
 (Clearfield Alert) Inc: Heart Problems-AICD ALS\r\nAdd: 145 ATHENA DR\r\nCity: SANDY\r\nUnits: 4354\r\n43EMS\r\n10/17/2012 8:11:31 PM
 (Clearfield Alert) Inc: Facility Transfer-Routine\r\nAdd: 100 HOSPITAL AVE\r\nCity: DUBOIS\r\nUnits: 4354\r\n43EMS\r\n10/18/2012 4:29:08 PM
+(Clearfield Alert) Inc: Automatic Fire Alarm\r\nAdd: 300 ASPEN WAY\r\nCity: DUBOIS\r\n
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

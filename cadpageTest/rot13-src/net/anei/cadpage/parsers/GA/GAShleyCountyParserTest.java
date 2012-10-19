@@ -5,7 +5,9 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Qbbyl pbhagl, TN
+Fpuyrl pbhagl, TN
+
+Prageny qvfcngpu sbe Qbbyl, Fpuyrl, Fhzgre, Znpba, Znevba, Jrofgre, Gnlybe, Gnyobg pbhagvrf
 
 Ivraan SQ, Qbbyrl Pbhagl
 Pbagnpg: Wbua Fureere <wjfureere@tznvy.pbz>
@@ -30,16 +32,16 @@ ISQ Glcr:50V FHOGLCR:? YBP:109 V 75 A [@V75A RKVG 109[ : P:12/17/2011 19:48:39 I
 ISQ Glcr:70J FHOGLCR:? YBP:107 V 75 A [@V75A ZZ 107 P:12/18/2011 12:53:33 ISQR2 : QFCGPU & cevznel havg.
 ISQ Glcr:PNAPRYPNYY FHOGLCR:? YBP:107 V 75 A [@V75A ZZ 107 P:12/18/2011 12:53:33 ISQR2 : QFCGPU & cevznel havg. 12/18/2011 12:53:53 NQI SVRYQ BA SVER NG GU
 
+*** Abg fher jung gurfr ner, ohg gurl ner abg pheeragyl cnefvat ***
 [Gvzrf - ISQ]  ISQ YBP:21490 UJL 27 Cubar:229-268-8082 Glcr:PNAPRYPNYY FHOGLCR:? PERNGRQ:21:4:22 P:12/13/2011 20:59:47 21490 UJL 27: pebff fgerrgf: EVIRE E
 [Gvzrf - ISQ]  ISQ YBP:CRPNA FG & PYBIRE FG Cubar:(478) 867-3805 Glcr:PNAPRYPNYY FHOGLCR:? PERNGRQ:18:24:44 P:12/15/2011 18:14:10 SVER VA GENFU PNA OL N UBH
 [Gvzrf - ISQ]  ISQ YBP:107 V 75 A [@V75A ZZ 107 Cubar: Glcr:PNAPRYPNYY FHOGLCR:? PERNGRQ:13:2:14 P:12/18/2011 12:53:33 ISQR2 : QFCGPU & cevznel havg. 12/18/
 
 */
-
-choyvp pynff TNQbbylPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff TNFuyrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp TNQbbylPbhaglCnefreGrfg() {
-    frgCnefre(arj TNQbbylPbhaglCnefre(), "QBBYL PBHAGL", "TN");
+  choyvp TNFuyrlPbhaglCnefreGrfg() {
+    frgCnefre(arj TNFpuyrlPbhaglCnefre(), "FPUYRL PBHAGL", "TN");
   }
   
   @Grfg
@@ -202,6 +204,6 @@ choyvp pynff TNQbbylPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj TNQbbylPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj TNFuyrlPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
