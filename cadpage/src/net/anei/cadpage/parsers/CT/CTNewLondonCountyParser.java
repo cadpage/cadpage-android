@@ -16,7 +16,7 @@ public class CTNewLondonCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "@montville-ct.org,dispatch@mail.eastlyme911.gov";
+    return "@montville-ct.org,dispatch@mail.eastlyme911.gov,ledyard911@ct.org";
   }
   
   @Override
@@ -27,6 +27,8 @@ public class CTNewLondonCountyParser extends FieldProgramParser {
   
   private static final String[] CITY_LIST= new String[]{
     "EAST LYME",
+    "GALES FERRY",
+    "LEDYARD",
     "MONTVILLE"
   };
 }
