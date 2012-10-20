@@ -25,6 +25,7 @@ Pbagnpg: Qrjrl Gubznf <qrjrl@pbqrzrffntvat.arg>
 [PNQ][CT09] 9: ZRQVP YBPNY  Ng: 08/09 19:14  Qvfcngpu: R809O  Nyy: R809O ZQ830 N855  Gb: 5804 NAANCBYVF EQ #1014  
 [CT09] 9: ZRQVP YBPNY  Ng: 08/29 19:25  Qvfcngpu: R809O  Nyy: R809O ZQ812 N807  Gb: 4516 OHPUNANA FG (ONYGVZBER NIR naq RAQ)  
 (PNQ) [CT09] 38: ZRQVP YBPNY\e\aNg: 09/09 17:06\e\aQvfcngpu: N809\e\aNyy: R838 ZQ826 N809\e\aGb: RO WBUA UNAFBA UJL RO NG RO PBYHZOVN CNEX EQ
+[CT09] 9: CVN  Ng: 10/19 10:11  Qvfcngpu: N809 R809P  Nyy: N809 R809P  Gb: RO YNAQBIRE EQ/AO ONYGVZBER JNFUVATGBA CXL AO  
 
 */
 
@@ -201,6 +202,17 @@ choyvp pynff ZQCevaprTrbetrfPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:R838 ZQ826 N809",
         "NQQE:RO WBUA UNAFBA UJL RO NG RO PBYHZOVN CNEX EQ",
         "ZNQQE:WBUA UNAFBA UJL NG PBYHZOVN CNEX EQ");
+
+    qbGrfg("G17",
+        "[CT09] 9: CVN  Ng: 10/19 10:11  Qvfcngpu: N809 R809P  Nyy: N809 R809P  Gb: RO YNAQBIRE EQ/AO ONYGVZBER JNFUVATGBA CXL AO  ",
+        "FEP:CT09",
+        "PNYY:CVN",
+        "QNGR:10/19",
+        "GVZR:10:11",
+        "HAVG:N809 R809P",
+        "NQQE:RO YNAQBIRE EQ & AO ONYGVZBER JNFUVATGBA CXL AO",
+        "ZNQQE:YNAQBIRE EQ & ONYGVZBER JNFUVATGBA CXL");
+
  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

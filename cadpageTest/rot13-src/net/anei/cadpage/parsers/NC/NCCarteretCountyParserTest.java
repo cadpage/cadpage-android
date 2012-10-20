@@ -66,6 +66,7 @@ Fraqre: PRP@pnegrergpbhagltbi.bet
 F:812 FURCNEQ FG ZBERURNQ PVGL 12-134576 12 Z:PRP:32:41 NYNEZ SVER
 Fhowrpg:100 F 23EQ FG ZBERURNQ PVGL 12-134924 09\aPRP:44:09 ZIP CV BE EBYYBIRE\e
 rvsqpnyyf+pns_=2527237752=igrkg.pbz@tznvy.pbz (113 SNJA QE RZRENYQ VFYR 12-134983 12) PRP:17:16 NYNEZ SVER
+Fhowrpg:4813 NERAQRYY FG ZBERURNQ PVGL 12-135415\aPRP:33:53 ZIP CV BE EBYYBIRE BPN: 24-12-2474\e
 
 */
 
@@ -448,6 +449,14 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:12-134983",
         "GVZR:12:17:16",
         "PNYY:NYNEZ SVER");
+
+    qbGrfg("G4",
+        "Fhowrpg:4813 NERAQRYY FG ZBERURNQ PVGL 12-135415\aPRP:33:53 ZIP CV BE EBYYBIRE BPN: 24-12-2474\e",
+        "NQQE:4813 NERAQRYY FG",
+        "PVGL:ZBERURNQ PVGL",
+        "VQ:12-135415",
+        "PNYY:ZIP CV BE EBYYBIRE BPN",
+        "VASB:: 24-12-2474");
 
   }
   

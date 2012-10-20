@@ -22,6 +22,7 @@ Fhowrpg:Vapvqrag\aTENFF UVTU EVFX S:3073 EVQTRJNL QE FR, ZNEVBA PBHAGL:OE658, G6
 Fhowrpg:Vapvqrag\aHAP S:WRSSREFBA ZNEVBA EQ FR@ CYRGMRE EQ FR , ZNEVBA PBHAGL:P60, ZRQ60, E60, E83, FGN83:75LBZ P/O/YRGUNETVP::::\e\a\e
 Fhowrpg:Vapvqrag\aZIN VAWHEL S:FHAALIVRJ EQ AR@ PNFPNQR UJ AR , ZNEVBA PBHAGL:R61, ZP133, ZP161:YBJ OBL UNHYVAT GENPGBE/SYVCCRQ BIRE/\e
 Fhowrpg:Vapvqrag\aTENFF YBJ EVFX S:33883 OREEL QE, NYONAL:P60, TE60, TE63:HAXABJA GLCR SVER::::\e\a\e
+Fhowrpg:Vapvqrag\aHAP S:38565 FPENIRY UVYY EQ, NYONAL:P60, ZRQ60, E60, E63:76 LBS HAP/O::::\e\a\e
 
 Pbagnpg: Wba Erzl <wbae@ghearesver.pbz>
 Fraqre: Qvfcngpu@pv.jbbqohea.be.hf
@@ -197,6 +198,14 @@ choyvp pynff BEZnevbaPbhaglACnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:NYONAL",
         "HAVG:P60, TE60, TE63",
         "VASB:HAXABJA GLCR SVER");
+
+    qbGrfg("G8",
+        "Fhowrpg:Vapvqrag\aHAP S:38565 FPENIRY UVYY EQ, NYONAL:P60, ZRQ60, E60, E63:76 LBS HAP/O::::\e\a\e",
+        "PNYY:HAP S",
+        "NQQE:38565 FPENIRY UVYY EQ",
+        "PVGL:NYONAL",
+        "VASB:76 LBS HAP/O",
+        "HAVG:P60, ZRQ60, E60, E63");
  
   }
   

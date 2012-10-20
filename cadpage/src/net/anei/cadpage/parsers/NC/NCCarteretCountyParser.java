@@ -11,6 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class NCCarteretCountyParser extends DispatchSouthernParser {
   
   private final static Pattern SUB_MARKER = Pattern.compile("^CEC:\\d\\d:\\d\\d ");
+  private final static Pattern SUB_TRAILER = Pattern.compile(" \\d\\d$");
   
   
   public NCCarteretCountyParser() {
@@ -24,10 +25,17 @@ public class NCCarteretCountyParser extends DispatchSouthernParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    subject = subject.trim();
+    boolean badTime = false;
     if (subject.length() > 0 && SUB_MARKER.matcher(body).find()) {
+      if (!SUB_TRAILER.matcher(subject).find()) {
+        subject += " 00";
+        badTime = true;
+      }
       body = "CEC:" + subject + ':' + body.substring(4);
     }
     if (!super.parseMsg(body, data)) return false;
+    if (badTime) data.strTime = "";
     
     // Sometimes city name is duplicated in address
     // which ends up as the place name

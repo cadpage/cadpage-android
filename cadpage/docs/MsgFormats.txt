@@ -4853,11 +4853,6 @@ Contact: Justin Kaye <dabears341999@yahoo.com>
 Sender: ckharris@co.jefferson.co.us
 Jeffco Sheriff Message / Information/Controlled Burn - 11374 Pauls Dr // till 1800, 12-069RF\nMon Sep 17 11:55:38 2012\n
 **********************************************************
-Hamilton County, IN
-Contact: Mitch Hazelbaker <mitch8123@gmail.com>
-Sender: dispatch@hamiltoncounty.in.gov
-Subject:CADPage\nUnit:T15 Status:Dispatched Location: 108 WINDING WAY  /   Quad: 73 Units: T15  Type: F Fire Residence NOC: Narr:\r
-**********************************************************
 Sullivan County, NY (alternate)
 Contact: rkachelreiss <rkachelreiss@yahoo.com>
 Sender: messaging@iamresponding.com
@@ -4961,6 +4956,20 @@ Sender: alerts@clearfieldalerts.com
 (Clearfield Alert) Inc: Facility Transfer-Routine\r\nAdd: 100 HOSPITAL AVE\r\nCity: DUBOIS\r\nUnits: 4354\r\n43EMS\r\n10/18/2012 4:29:08 PM
 (Clearfield Alert) Inc: Automatic Fire Alarm\r\nAdd: 300 ASPEN WAY\r\nCity: DUBOIS\r\n
 (Clearfield Alert) Inc: Sick Person BLS\r\nAdd: 1100 W LONG AVE\r\nCity: SANDY\r\nUnits: 4354\r\n43EMS\r\n10/18/2012 11:22:33 AM
+**********************************************************
+Hamilton County, IN  (Madison County parser is working)
+Contact: Mitch Hazelbaker <mitch8123@gmail.com>
+Sender: dispatch@hamiltoncounty.in.gov
+Subject:CADPage\nUnit:T15 Status:Dispatched Location: 108 WINDING WAY  /   Quad: 73 Units: T15  Type: F Fire Residence NOC: Narr:\r
+Subject:CADPage\nUnit:C15 Status:Dispatched Location: 16205 E\2s216TH ST\2s/\3sQuad: 15B Units: C15\2sType: F ALS NOC: Narr:\2sYou ar\r
+Subject:CADPage\nUnit:R15 Status:Dispatched Location: 16205 E\2s216TH ST\2s/\3sQuad: 15B Units: R15 A15 M75 HFG01\2sType: F ALS NOC:\r
+Subject:CADPage\nUnit:E15 Status:Dispatched Location: E\2s196TH ST\2s/\3sMYSTIC RD Quad: 15C Units: E15 R15 A15 M75 HFG01\2sType: Ac\r
+Subject:CADPage\nUnit:C15 Status:Dispatched Location: 16205 E\2s216TH ST\2s/\3sQuad: 15B Units: C15\2sType: F ALS NOC: Narr:\2sYou ar\r
+
+Sender: CAD@noblesville.in.us
+CAD:1 E83,A82 METNL PT 4154 ELKHORN WAY WES (S)CREST VIEW ADDITION (N) 83 Event spawned from MENTAL/EMOTIONAL - :1of3\r
+DISORDERS. [10/19/2012 10:14:06 HSYLTE] MALE NEEDS TO BE TRANSPORTED TO COMMUNITY NORTH [10/19/12 09:52:34 :2of3\r
+RVAUGHAN] NO WEAPONS [10/19/12 09:51:50 RVAUGHAN]:3of3\r
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
