@@ -19,6 +19,7 @@ public class MDCalvertCountyParser extends SmartAddressParser {
   private static final Pattern UNIT_PTN = Pattern.compile("\\b(?:[BETSRAM]\\d{1,3}|TN\\d|NDC|NMED|COM)\\b");
   private static final Pattern TIME_DATE_PTN = Pattern.compile("\\b(\\d\\d:\\d\\d) (\\d\\d/\\d\\d/\\d\\d)\\b");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{8}\\b");
+  private static final Pattern INFO_BREAK_PTN = Pattern.compile("\\b[A-Z]*[^- A-Z]");
   
   public MDCalvertCountyParser() {
     super(CITY_LIST, "CALVERT COUNTY", "MD");
@@ -55,11 +56,26 @@ public class MDCalvertCountyParser extends SmartAddressParser {
       strAddress = p.get();
     }
     parseAddress(StartType.START_ADDR, strAddress, data);
-    data.strPlace = getLeft();
+    
+    // What is left is either a place name or supplametental info.  
+    // And there is no consistent way to separate them
+    String left = getLeft();
+    if (left.length() < 30) {
+      data.strPlace = left;
+    } else {
+      int brk = 0;
+      Matcher match = INFO_BREAK_PTN.matcher(left);
+      if (match.find()) {
+        brk = match.start();
+        if (brk > 35) brk = 0;
+      }
+      data.strPlace = left.substring(0,brk).trim();
+      data.strSupp = left.substring(brk);
+    }
     
     if (foundID) {
       data.strCallId = idMatch.group();
-      data.strSupp = body.substring(idMatch.end()).trim();
+      data.strSupp = append(data.strSupp, " / ", body.substring(idMatch.end()).trim());
     }
     return true;
   }
