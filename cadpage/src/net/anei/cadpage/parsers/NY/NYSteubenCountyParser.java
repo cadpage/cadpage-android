@@ -25,10 +25,14 @@ public class NYSteubenCountyParser extends SmartAddressParser {
   private static final Pattern MASTER2 = Pattern.compile("(.*?) *, *(.*?) *\\( *(.*?/.*?) *\\) *(?:(\\d{1,2}[A-Z]\\d{1,2}) +)?(.*)");
   private static final Pattern MASTER3 = Pattern.compile("(.*?) *, *([^\\(\\)]*?) *(\\d{1,2}[A-Z]\\d{1,2}) +(.*)");
   private static final Pattern MASTER4 = Pattern.compile("(.*?) *, *([^\\(\\)]*?) (?:TOWN|VILLAGE) OF +(.*)");
+  private static final Pattern MASTER5 = Pattern.compile("(.*?) *\\((.*?)\\) *, *(.*?) +(?:TOWN|VILLAGE)(.*)");
   
   
-  private static final Pattern TRAILER = Pattern.compile("\\n[A-Z]+(?::\\d*)*$");
-  private static final Pattern TRAILER2 = Pattern.compile("\\b([A-Z]+)(?::\\d+){2}$");
+  private static final Pattern[] TRAILER_PTNS = {
+    Pattern.compile("(AVOCA?FDA?|AVOCAFDAMB|ATLANFD|BATHAMB|BRADFD|BTFD|COHOFAM|COHOFD|CATOFD|HAMFD|HOWAFD|WAYLA|WAYNFD|FD)(?::\\d*)*$"),
+    Pattern.compile("([A-Z]+)(?::\\d*)+$"),
+    Pattern.compile("\n([A-Z]+)$")
+  };
   
   private static final Pattern INFO_HEADER = Pattern.compile("^--?\\{(.*)\\}--?");
   
@@ -61,20 +65,15 @@ public class NYSteubenCountyParser extends SmartAddressParser {
 
     // If we found a start signature match, which included a station source
     // Look for and remove any trailing station and call ID
-    if (sigMatch) {
-      match = TRAILER.matcher(body);
-      if (match.find()) body = body.substring(0,match.start()).trim();
+    boolean found = false;
+    for (Pattern ptn : TRAILER_PTNS) {
+      match = ptn.matcher(body);
+      found = match.find();
+      if (found) break;
     }
-    
-    // If we didn't find a start signature match, we have a stricter definition
-    // of what the trailer should look like, and we will extract the source code
-    // from it
-    else {
-      match = TRAILER2.matcher(body);
-	    if (match.find()) {
-	      data.strSource = match.group(1);
-	      body = body.substring(0,match.start()).trim();
-	    }
+    if (found) {
+      if (data.strSource.length() == 0) data.strSource = match.group(1);
+      body = body.substring(0,match.start()).trim();
     }
     
     body = body.replace('\n', ' ').replace('\\', '/');
@@ -96,7 +95,7 @@ public class NYSteubenCountyParser extends SmartAddressParser {
     
     body = body.replace("COUNTY ROUTE", "COUNTY ROAD");
     
-    // There a couple basic pattern
+    // There a couple basic patterns
     // /<place> (<addr> <city>) [code] <call>
     if ((match = MASTER1.matcher(body)).matches()) {
       parseAddress(match.group(1), data);
@@ -114,7 +113,19 @@ public class NYSteubenCountyParser extends SmartAddressParser {
     else if ((match = MASTER2.matcher(body)).matches()) {
       parseAddress(match.group(1), data);
       data.strCity = cleanCity(match.group(2));
-      data.strCross = cleanCross(match.group(3));
+      Parser p = new Parser(match.group(3).trim());
+      data.strPlace = p.getLastOptional("Near:");
+      String cross = "";
+      for (String part : p.get().split(",")) {
+        part = part.trim();
+        if (part.contains("/")) {
+          cross = part;
+          break;
+        } else if (cross.length() == 0) {
+          cross = part;
+        }
+      }
+      data.strCross = cleanCross(cross);
       data.strCode = cleanCode(match.group(4));
       data.strSupp = append(data.strSupp, " / ", match.group(5));
     }
@@ -132,6 +143,14 @@ public class NYSteubenCountyParser extends SmartAddressParser {
       parseAddress(match.group(1), data);
       data.strCity = cleanCity(match.group(2));
       data.strSupp = append(data.strSupp, " / ", match.group(3));
+    }
+    
+    // <addr> ( <cross> ), <city> <info>
+    else if ((match = MASTER5.matcher(body)).matches()) {
+      parseAddress(match.group(1).trim(), data);
+      data.strCross = cleanCross(match.group(2));
+      data.strCity = cleanCity(match.group(3).trim());
+      data.strSupp = match.group(4).trim();
     }
     
     // Anything else is just a info
@@ -165,6 +184,7 @@ public class NYSteubenCountyParser extends SmartAddressParser {
 
   private String cleanCross(String field) {
     if (field.startsWith("/")) field = field.substring(1).trim();
+    if (field.endsWith(";")) field = field.substring(0,field.length()-1).trim();
     if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
     return field;
   }
