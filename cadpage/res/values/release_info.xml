@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10122012</string>
-  <string name="release_version">v1.5.63</string>
+  <string name="release_date">10202012</string>
+  <string name="release_version">v1.5.64</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+Once again, did not have time to get all of the new locations coded.  You can expect another
+update in a couple of days to include them.\n
+\n
+New Locations:\n
+Jefferson County, CO (alt)\n
+New London County, CT (was Montville)\n
+Christian County, MO\n
+Somerset County, NJ (alt)\n
+Gaston County, NC (alt)\n
+Summit County, OH\n
+\n      
 Location Parsing Fixes:\n
-Waterford Town, CT\n
 Kosciusko County, IN\n
-Baltimore County, MD\n
+Jackson County, IA\n
+Montgomery County, MD\n
+Greene County, MO\n
 Jasper County, MO\n
-Somerset County, NJ\n
-Montgomery County, NY\n
-Steuben County, NY\n
-Harnett County, NC\n
-Mecklenburg County, NC\n
-Clermont County, OH\n
-Lebanon County, PA\n
-Bexar County, TX\n
-League City, TX\n
-Fauquier County, VA\n
+Monroe County, NY\n
+Carteret County, NC\n
+Surry County, NC\n
+Hamilton County, OH\n
+Marion County, OR\n
+Montgomery County, PA\n
+Oconee County, SC\n
+Collin County, TX\n
   </string>  
 </resources>
   
