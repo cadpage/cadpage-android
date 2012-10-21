@@ -5,21 +5,6 @@ import java.util.Properties;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
-/*
-Marshall County, IN
-Contact: "John Gomola" <johng@bourbonfire.com>
-Sender: cad@co.marshall.in.us
-
-CAD:FYI: ;702 S WASHINGTON ST;BREM;E RAYMOND ST;ALARM CO DETECTOR;08/23/2011 10:17:48            
-CAD:FYI: ;200 W FLORENCE ST;BOUR;N THOMPSON ST;FIRE ALARM;08/23/2011 10:34:48
-CAD:FYI: ;601 S BOURBON ST;BOUR;W FRANK ST;FIRE STRUCTURE;08/21/2011 21:30:37 
-CAD:FYI: ;SR 110/ELM RD;TIPP;FIRE GRASS;08/21/2011 19:17:18 
-Update: ;625-33 OAKHILL AVE;PLYM;NURSERY ST;S SECOND ST;MEDICAL CALL;08/19/2011 20:52:25
-CAD:FYI: ;DIST: 143.99 FT;422 E CENTER ST;BOUR;N LINCOLN ST;E OLD US 30;ACCIDENT PI OR UNK;08/26/2011 20:38:55
-CAD:Update: ;BEECH RD/15B RD;BOUR;ACCIDENT PI OR UNK;11/14/2011 15:38:42
-
-*/
-
 public class INMarshallCountyParser extends DispatchOSSIParser {
   
   public INMarshallCountyParser() {
