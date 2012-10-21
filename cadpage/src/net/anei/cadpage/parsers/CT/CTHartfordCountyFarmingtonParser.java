@@ -18,6 +18,6 @@ public class CTHartfordCountyFarmingtonParser extends CTNewHavenCountyBParser {
   
   @Override
   public String getFilter() {
-    return "pdpaging@farmington-ct.org";
+    return "pdpaging@farmington-ct.org,paging@cantonfireandems.org";
   }
 }

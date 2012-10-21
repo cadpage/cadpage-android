@@ -94,7 +94,7 @@ choyvp pynff PGArjUniraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1100008142",
         "PNYY:ZHGHNY NVQ",
         "NQQE:392 UBCR UVYY EQ",
-        "K:JNYYVATSBEQ",
+        "PVGL:JNYYVATSBEQ",
         "HAVG:ZRQ4",
         "QNGR:09/09/11",
         "GVZR:15:38");
@@ -241,8 +241,7 @@ choyvp pynff PGArjUniraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1100004626",
         "PNYY:ZIN JVGU VAWHEVRF",
         "NQQE:YNHERY FG & ABEGU UVTU FG",
-        "K:R1 E1 P4",
-        "HAVG:F2",
+        "HAVG:R1 E1 P4 F2",
         "QNGR:10/16/11",
         "GVZR:23:29");
 

@@ -18,6 +18,21 @@ Fraqre: cqcntvat@snezvatgba-pg.bet
 1200006626 SVER - FZBXR/TNF VAIRFG BHGFVQR 00339 ZRNQBJ EQ FBZREFOL JNL/WHQFBA YN  RKFJ KKSS 120409 00:12\e\a\e
 1200006038 ZRQVPNY PNYY PUNEYVR ERFCBAFR 00051 YVGPUSVRYQ EQ CYNVAIVYYR NIR/OVEPU FG  HZ1 KKGU NZE1 120330 20:14\e\a\e
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Pnagba Sver naq RZF
+Ybpngvba: Pnagba, PG, Havgrq Fgngrf
+Fraqre: cntvat@pnagbasvernaqrzf.bet
+
+1200007908 SVER - TRARENY NYNEZ 00021  Qbjq NIR Ncg #: 15 ZNCYR NI/PNAGBA UBYYBJ  SQG1  202  121019 19:13\e\a\e\a
+1200007788 SVER - GERR BA/QBJARQ JVERF EBHGR 202 /CBJQRE ZVYY EQ   SQG1  201  121016 13:25\e\a\e\a
+1200007774 SVER - TRARENY NYNEZ 00098  ABEGU ZBHAGNVA EQ CVAR NPERF QE/PUEVFGZNF GERR UVYY EQ  SQG1  121015 19:31\e\a\e\a
+1200007698 SVER - TRARENY NYNEZ 00102  Qlre NIR OVEPU XABYY EQ/FCBBAJBBQ QE  SQG1  121014 06:36\e\a\e\a
+1200007634 SVER - TRARENY NYNEZ 00021  Qbjq NIR Ncg #: 34 ZNCYR NI/PNAGBA UBYYBJ  SQG1  202  121012 16:20\e\a\e\a
+1200007576 SVER - PB NYNEZ J/ AB VYY RSSRPGF 00018  Byq Nyonal GCXR RAQ/SBERFG YA  P10  SQG1  202  121011 15:03\e\a\e\a
+1200007471 SVER - IRUVPYR NPPVQRAG (VAWHEVRF) 00060 Ybiryl FG (PNGV) Cerz Znc -    202  207  P10  SQG1  121008 17:35\e\a\e\a
+1200007456 SVER - FZBXR VAIRFGVTNGVBA (VA OHVYQVAT) 00050  Rnfg Uvyy EQ Ncg #: 6P PBYBAL EQ/NYONAL GCXR  SQG1  207  5  121007 21:40\e\a\e\a
+1200007397 SVER-ZVFP 00045 EVIRE EQ Cerz Znc -    SQG1  121006 08:35\e\a\e\a
+
 */
 
 choyvp pynff PGUnegsbeqPbhaglSnezvatgbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -99,7 +114,105 @@ choyvp pynff PGUnegsbeqPbhaglSnezvatgbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
   
+  @Grfg
+  choyvp ibvq grfgPnagbaSver() {
+
+    qbGrfg("G1",
+        "1200007908 SVER - TRARENY NYNEZ 00021  Qbjq NIR Ncg #: 15 ZNCYR NI/PNAGBA UBYYBJ  SQG1  202  121019 19:13\e\a\e\a",
+        "VQ:1200007908",
+        "PNYY:SVER - TRARENY NYNEZ",
+        "NQQE:21 Qbjq NIR",
+        "NCG:15",
+        "K:ZNCYR NI/PNAGBA UBYYBJ",
+        "HAVG:SQG1 202",
+        "QNGR:10/19/12",
+        "GVZR:19:13");
+
+    qbGrfg("G2",
+        "1200007788 SVER - GERR BA/QBJARQ JVERF EBHGR 202 /CBJQRE ZVYY EQ   SQG1  201  121016 13:25\e\a\e\a",
+        "VQ:1200007788",
+        "PNYY:SVER - GERR BA/QBJARQ JVERF",
+        "NQQE:EBHGR 202 & CBJQRE ZVYY EQ",
+        "HAVG:SQG1 201",
+        "QNGR:10/16/12",
+        "GVZR:13:25");
+
+    qbGrfg("G3",
+        "1200007774 SVER - TRARENY NYNEZ 00098  ABEGU ZBHAGNVA EQ CVAR NPERF QE/PUEVFGZNF GERR UVYY EQ  SQG1  121015 19:31\e\a\e\a",
+        "VQ:1200007774",
+        "PNYY:SVER - TRARENY NYNEZ",
+        "NQQE:98 ABEGU ZBHAGNVA EQ",
+        "K:CVAR NPERF QE / PUEVFGZNF GERR UVYY EQ",
+        "HAVG:SQG1",
+        "QNGR:10/15/12",
+        "GVZR:19:31");
+
+    qbGrfg("G4",
+        "1200007698 SVER - TRARENY NYNEZ 00102  Qlre NIR OVEPU XABYY EQ/FCBBAJBBQ QE  SQG1  121014 06:36\e\a\e\a",
+        "VQ:1200007698",
+        "PNYY:SVER - TRARENY NYNEZ",
+        "NQQE:102 Qlre NIR",
+        "K:OVEPU XABYY EQ / FCBBAJBBQ QE",
+        "HAVG:SQG1",
+        "QNGR:10/14/12",
+        "GVZR:06:36");
+
+    qbGrfg("G5",
+        "1200007634 SVER - TRARENY NYNEZ 00021  Qbjq NIR Ncg #: 34 ZNCYR NI/PNAGBA UBYYBJ  SQG1  202  121012 16:20\e\a\e\a",
+        "VQ:1200007634",
+        "PNYY:SVER - TRARENY NYNEZ",
+        "NQQE:21 Qbjq NIR",
+        "NCG:34",
+        "K:ZNCYR NI/PNAGBA UBYYBJ",
+        "HAVG:SQG1 202",
+        "QNGR:10/12/12",
+        "GVZR:16:20");
+
+    qbGrfg("G6",
+        "1200007576 SVER - PB NYNEZ J/ AB VYY RSSRPGF 00018  Byq Nyonal GCXR RAQ/SBERFG YA  P10  SQG1  202  121011 15:03\e\a\e\a",
+        "VQ:1200007576",
+        "PNYY:SVER - PB NYNEZ J/AB VYY RSSRPGF",
+        "NQQE:18 Byq Nyonal GCXR",
+        "K:RAQ / SBERFG YA",
+        "HAVG:P10 SQG1 202",
+        "QNGR:10/11/12",
+        "GVZR:15:03");
+
+    qbGrfg("G7",
+        "1200007471 SVER - IRUVPYR NPPVQRAG (VAWHEVRF) 00060 Ybiryl FG (PNGV) Cerz Znc -    202  207  P10  SQG1  121008 17:35\e\a\e\a",
+        "VQ:1200007471",
+        "PNYY:SVER - IRUVPYR NPPVQRAG (VAWHEVRF)",
+        "NQQE:60 Ybiryl FG",
+        "K:(PNGV) Cerz Znc -",
+        "HAVG:202 207 P10 SQG1",
+        "QNGR:10/08/12",
+        "GVZR:17:35");
+
+    qbGrfg("G8",
+        "1200007456 SVER - FZBXR VAIRFGVTNGVBA (VA OHVYQVAT) 00050  Rnfg Uvyy EQ Ncg #: 6P PBYBAL EQ/NYONAL GCXR  SQG1  207  5  121007 21:40\e\a" +
+        "\e\a",
+
+        "VQ:1200007456",
+        "PNYY:SVER - FZBXR VAIRFGVTNGVBA (VA OHVYQVAT)",
+        "NQQE:50 Rnfg Uvyy EQ",
+        "NCG:6P",
+        "K:PBYBAL EQ/NYONAL GCXR",
+        "HAVG:SQG1 207 5",
+        "QNGR:10/07/12",
+        "GVZR:21:40");
+
+    qbGrfg("G9",
+        "1200007397 SVER-ZVFP 00045 EVIRE EQ Cerz Znc -    SQG1  121006 08:35\e\a\e\a",
+        "VQ:1200007397",
+        "PNYY:SVER-ZVFP",
+        "NQQE:45 EVIRE EQ",
+        "HAVG:SQG1",
+        "QNGR:10/06/12",
+        "GVZR:08:35");
+
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PGUnegsbeqPbhaglSnezvatgbaCnefreGrfg().trarengrGrfgf("G1", "VQ PNYY NQQE PVGL ZNC K HAVG QNGR GVZR");
+    arj PGUnegsbeqPbhaglSnezvatgbaCnefreGrfg().trarengrGrfgf("G1", "VQ PNYY NQQE NCG PVGL ZNC K HAVG QNGR GVZR");
   }
 }
