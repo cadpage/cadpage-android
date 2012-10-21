@@ -42,16 +42,17 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
+      field = field.replace(", ", " ");
       String[] parts = field.split("  +");
       if (parts.length == 3) {
         data.strCall = parts[0];
-        parseAddress(cleanAddress(parts[1]), data);
+        parseAddress(parts[1], data);
         data.strCity = parts[2];
       } else if (parts.length == 2) {
         data.strCall = parts[0];
-        parseAddress(StartType.START_ADDR, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, cleanAddress(parts[1]), data);
+        parseAddress(StartType.START_ADDR, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, parts[1], data);
       } else {
-        super.parse(cleanAddress(field), data);
+        super.parse(field, data);
       }
       
       if (data.strCity.equalsIgnoreCase("PULASKI COUNTY")) data.strCity = "";
@@ -61,10 +62,12 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
       if (data.strApt.endsWith("UNIT")) {
         data.strApt = data.strApt.substring(0, data.strApt.length()-4).trim();
       }
-    }
-    
-    private String cleanAddress(String addr) {
-      return addr.replace(" - ", "APT: ").replace(",", " ");
+      
+      int pt = data.strAddress.indexOf(" - ");
+      if (pt >= 0) {
+        data.strPlace = data.strAddress.substring(pt+3).trim();
+        data.strAddress = data.strAddress.substring(0,pt).trim();
+      }
     }
   }
   
@@ -96,6 +99,15 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = HIST_PTN.matcher(addr).replaceAll("HISTORIC");
+    addr = HIST_RT_PTN.matcher(addr).replaceAll("HISTORIC US");
+    return addr;
+  }
+  private static final Pattern HIST_PTN = Pattern.compile("\\bHIST\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern HIST_RT_PTN = Pattern.compile("HISTORIC RT", Pattern.CASE_INSENSITIVE);
   
   private static final String[] CITY_TABLE = new String[]{
     "PULASKI COUNTY",

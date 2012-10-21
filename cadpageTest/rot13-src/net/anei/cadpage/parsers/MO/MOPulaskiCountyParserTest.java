@@ -99,7 +99,8 @@ choyvp pynff ZBChynfxvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "FGEHPGHER SVER ERFVQRAGVNY  30684 UVTUJNL NO - I2J HAVG EVPUYNAQ PebffFgerrgf: USQ1 Pnyy Erprvirq Gvzr: 12/5/2010 03:31:42 Qvfcngpu: 12/5/2010 03:34:35",
         "PNYY:FGEHPGHER SVER ERFVQRAGVNY",
-        "NQQE:30684 UVTUJNL NONCG: I2J",
+        "NQQE:30684 UVTUJNL NO",
+        "CYNPR:I2J",
         "PVGL:EVPUYNAQ",
         "HAVG:USQ1",
         "QNGR:12/5/2010",
@@ -460,7 +461,7 @@ choyvp pynff ZBChynfxvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Fhowrpg:QB ABG ERCYL\a" +
         "SVER NYNEZ - PBZZREPVNY ZNFBAVP YBQTR - JNLARFIVYYR 1409 BHFYRL EQ JNLARFIVYYR PebffFgerrgf: R Uvfgbevp 66 0.04\e",
 
-        "PNYY:SVER NYNEZNCG: PBZZREPVNY ZNFBAVP YBQTRNCG: JNLARFIVYYR",
+        "PNYY:SVER NYNEZ - PBZZREPVNY ZNFBAVP YBQTR - JNLARFIVYYR",
         "NQQE:1409 BHFYRL EQ",
         "PVGL:JNLARFIVYYR",
         "K:R Uvfgbevp 66 0.04");
@@ -480,8 +481,9 @@ choyvp pynff ZBChynfxvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Fhowrpg:QB ABG ERCYL\a" +
         "SVER NYNEZ - PBZZREPVNY JRFGFVQR ONCGVFG PUHEPU 801 UVFG EG 66 J JNLARFIVYYR PebffFgerrgf: JESQ1 Pnyy Erprvirq \e",
 
-        "PNYY:SVER NYNEZNCG: PBZZREPVNY JRFGFVQR ONCGVFG PUHEPU",
+        "PNYY:SVER NYNEZ - PBZZREPVNY JRFGFVQR ONCGVFG PUHEPU",
         "NQQE:801 UVFG EG 66 J",
+        "ZNQQE:801 UVFGBEVP HF 66 J",
         "PVGL:JNLARFIVYYR",
         "HAVG:JESQ1");
 
