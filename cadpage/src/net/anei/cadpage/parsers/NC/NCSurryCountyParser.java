@@ -56,6 +56,7 @@ public class NCSurryCountyParser extends SmartAddressParser {
     "DOBSON",
     "ELKIN",
     "MOUNT AIRY",
-    "PILOT MOUNTAIN"
+    "PILOT MOUNTAIN",
+    "SURRY COUNTY"
   };
 }

@@ -74,6 +74,16 @@ FP911::=121013-0144 [Nqqerff] 402 J CVAR FG [K Fg] ZNEFUNYY FG GB F FBHGU FG [Gl
 FP911::=121012-0532 [Nqqerff] 1401 OBTTF QE [K Fg] JRFGYNXR QE GB QRNQRAQ [Glcr] TENFF SVER\e\a
 FP911::=121011-0563 [Nqqerff] 613 JBEGU FG [K Fg] ONAARE FG GB QNIVF FG [Glcr] FHVPVQR\e\a
 FP911::=121011-0521 [Nqqerff] SBE FGN 10 [K Fg] GB [Glcr] CHOYVP FIP\e\a
+FP911:=121021-0050 [Ybpngvba] NEPU FG ZBHAG NVEL , AP [K Fg] RYZ FG GB WHAPGVBA FG [Glcr] JK GERR\e\a
+FP911:=121020-0199 [Ybpngvba] J YRONABA FG // SYBJRE PUNEZ YA FHEEL PBHAGL , AP [K Fg] GB [Glcr] NPPVQRAG CV\e\a
+FP911:=121019-0316 [Ybpngvba] 2133 EBPXSBEQ FG ZBHAG NVEL , AP [K Fg] FGRJNEG QE GB RQTRJBBQ QE [Glcr] PNEQVNP Q\e\a
+FP911:=121018-0284 [Ybpngvba] 114 R YRONABA FG ZBHAG NVEL , AP [K Fg] A ZNVA FG GB ABEGU FG [Glcr] NPPVQRAG CV\e\a
+FP911:=121017-0448 [Ybpngvba] 2170 EVIREFVQR QE ZBHAG NVEL , AP [K Fg] ORAARGG FG GB ZBHAG IVRJ QE [Glcr] SVER NYNEZ\e\a
+FP911:=121017-0379 [Ybpngvba] 508 A ERASEB FG ZBHAG NVEL , AP [K Fg] VAQRCRAQRAPR OY GB A ZNVA FG [Glcr] NPPVQRAG CV\e\a
+FP911:=121016-0498 [Ybpngvba] 145 XVATFJBBQ YA ZBHAG NVEL , AP [K Fg] J IVETVAVN FG GB QRNQRAQ [Glcr] SVER NYNEZ\e\a
+FP911::=121015-0175 [Ybpngvba] 161 BEPUNEQ FG ZBHAG NVEL , AP [K Fg] GNLYBE FG GB JVYYBJ FG [Glcr] NPPVQRAG CV\e\a
+FP911::=121014-0158 [Nqqerff] 838 F ZNVA FG [K Fg] JBEGU FG GB JRYPU FG [Glcr] ERFC QVF Q\e\a
+FP911::=121013-0243 [Nqqerff] 147 J CBCYNE FG [K Fg] A ZNVA FG GB YRONABA FG [Glcr] IRU SVER\e\a
 
 */
 
@@ -459,9 +469,87 @@ choyvp pynff APFheelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:SBE FGN 10",
         "PNYY:CHOYVP FIP");
 
+    qbGrfg("G11",
+        "FP911:=121021-0050 [Ybpngvba] NEPU FG ZBHAG NVEL , AP [K Fg] RYZ FG GB WHAPGVBA FG [Glcr] JK GERR\e\a",
+        "VQ:121021-0050",
+        "NQQE:NEPU FG",
+        "ZNQQE:NEPU FG & RYZ FG",
+        "PVGL:ZBHAG NVEL",
+        "K:RYZ FG & WHAPGVBA FG",
+        "PNYY:JK GERR");
+
+    qbGrfg("G12",
+        "FP911:=121020-0199 [Ybpngvba] J YRONABA FG // SYBJRE PUNEZ YA FHEEL PBHAGL , AP [K Fg] GB [Glcr] NPPVQRAG CV\e\a",
+        "VQ:121020-0199",
+        "NQQE:J YRONABA FG & SYBJRE PUNEZ YA",
+        "PVGL:FHEEL PBHAGL",
+        "PNYY:NPPVQRAG CV");
+
+    qbGrfg("G13",
+        "FP911:=121019-0316 [Ybpngvba] 2133 EBPXSBEQ FG ZBHAG NVEL , AP [K Fg] FGRJNEG QE GB RQTRJBBQ QE [Glcr] PNEQVNP Q\e\a",
+        "VQ:121019-0316",
+        "NQQE:2133 EBPXSBEQ FG",
+        "PVGL:ZBHAG NVEL",
+        "K:FGRJNEG QE & RQTRJBBQ QE",
+        "PNYY:PNEQVNP Q");
+
+    qbGrfg("G14",
+        "FP911:=121018-0284 [Ybpngvba] 114 R YRONABA FG ZBHAG NVEL , AP [K Fg] A ZNVA FG GB ABEGU FG [Glcr] NPPVQRAG CV\e\a",
+        "VQ:121018-0284",
+        "NQQE:114 R YRONABA FG",
+        "PVGL:ZBHAG NVEL",
+        "K:A ZNVA FG & ABEGU FG",
+        "PNYY:NPPVQRAG CV");
+
+    qbGrfg("G15",
+        "FP911:=121017-0448 [Ybpngvba] 2170 EVIREFVQR QE ZBHAG NVEL , AP [K Fg] ORAARGG FG GB ZBHAG IVRJ QE [Glcr] SVER NYNEZ\e\a",
+        "VQ:121017-0448",
+        "NQQE:2170 EVIREFVQR QE",
+        "PVGL:ZBHAG NVEL",
+        "K:ORAARGG FG & ZBHAG IVRJ QE",
+        "PNYY:SVER NYNEZ");
+
+    qbGrfg("G16",
+        "FP911:=121017-0379 [Ybpngvba] 508 A ERASEB FG ZBHAG NVEL , AP [K Fg] VAQRCRAQRAPR OY GB A ZNVA FG [Glcr] NPPVQRAG CV\e\a",
+        "VQ:121017-0379",
+        "NQQE:508 A ERASEB FG",
+        "PVGL:ZBHAG NVEL",
+        "K:VAQRCRAQRAPR OY & A ZNVA FG",
+        "PNYY:NPPVQRAG CV");
+
+    qbGrfg("G17",
+        "FP911:=121016-0498 [Ybpngvba] 145 XVATFJBBQ YA ZBHAG NVEL , AP [K Fg] J IVETVAVN FG GB QRNQRAQ [Glcr] SVER NYNEZ\e\a",
+        "VQ:121016-0498",
+        "NQQE:145 XVATFJBBQ YA",
+        "PVGL:ZBHAG NVEL",
+        "K:J IVETVAVN FG & QRNQRAQ",
+        "PNYY:SVER NYNEZ");
+
+    qbGrfg("G18",
+        "FP911::=121015-0175 [Ybpngvba] 161 BEPUNEQ FG ZBHAG NVEL , AP [K Fg] GNLYBE FG GB JVYYBJ FG [Glcr] NPPVQRAG CV\e\a",
+        "VQ:121015-0175",
+        "NQQE:161 BEPUNEQ FG",
+        "PVGL:ZBHAG NVEL",
+        "K:GNLYBE FG & JVYYBJ FG",
+        "PNYY:NPPVQRAG CV");
+
+    qbGrfg("G19",
+        "FP911::=121014-0158 [Nqqerff] 838 F ZNVA FG [K Fg] JBEGU FG GB JRYPU FG [Glcr] ERFC QVF Q\e\a",
+        "VQ:121014-0158",
+        "NQQE:838 F ZNVA FG",
+        "K:JBEGU FG & JRYPU FG",
+        "PNYY:ERFC QVF Q");
+
+    qbGrfg("G20",
+        "FP911::=121013-0243 [Nqqerff] 147 J CBCYNE FG [K Fg] A ZNVA FG GB YRONABA FG [Glcr] IRU SVER\e\a",
+        "VQ:121013-0243",
+        "NQQE:147 J CBCYNE FG",
+        "K:A ZNVA FG & YRONABA FG",
+        "PNYY:IRU SVER");
+
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj APFheelPbhaglCnefreGrfg().trarengrGrfgf("G1", "VQ NQQE NCG PVGL K PNYY");
+    arj APFheelPbhaglCnefreGrfg().trarengrGrfgf("G11", "VQ NQQE NCG PVGL K PNYY");
   }
 }
