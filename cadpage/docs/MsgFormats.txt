@@ -5110,8 +5110,6 @@ Sender: ewfc@verizon.net
 (Dispatch) ACCIDENT - INJURIES *\r\nSB RT 100 AT RT 30 BP ,41   (V)\r\n\r\nWWHITE\r\n0607\r\n\r\nC443-534-124\r\nACCINJ\r\n4 VEHS---40/M TO BE CHECKED\r\nDETAILS TO FOLLOW\r\n\r\n\r\n\r\n
 (Dispatch) ALARM - FIRE *\r\n4 BLACKSTONE LA ,35\r\nGREAT WOODS LA & REES RD\r\nCHARLS\r\n0526\r\nAMERICAN ALARM/3498\r\n800-633-2677\r\nALARMF\r\nAFA/2ND FLR SMOKE/ATN\r\n\r\n\r\n\r\n
 **********************************************************
-* EOF
-**********************************************************
 Contact: Active911
 Agency name: Ingalls Fire Department
 Location: Ingalls, IN, United States
@@ -5127,3 +5125,6 @@ Sender: cfs@madisoncountypaging.com
 (CFS) Call Type: Medical Call - BLS\nNature: \nUnits: INA22\nCall #: \nCall Date/Time: 10/7/2012 10:13:03 PM\nPriority: High\nCommon Name: \nAddress: 10821 AUGUST DR, Ingalls\nIntersection: W CHARLOTTE DR / WYMM LN\nCity: INGALLS\nUnits: INA22 \nInfo: \nNarr: \nBeat: IN1\nQuadrant: 20-06\nDistrict: 20-06\nSource: Phone\r\n\r\n
 (CFS) Call Type: Medical Call - ALS\nNature: 66yof slight trouble breathing/pain in the back/feeling ill\nUnits: INA21\nCall #: \nCall Date/Time: 10/6/2012 6:26:13 PM\nPriority: High\nCommon Name: \nAddress: 238 ALFONTE ST, Ingalls\nIntersection: MENDEN AVE / S CORD 710 W, LICK CREEK DR\nCity: INGALLS\nUnits: INA21 \nInfo: 66yof slight trouble breathing/pain in the back/feeling ill\nNarr: \nBeat: IN1\nQuadrant: 20-03\nDistrict: 20-03\nSource: Phone\r\n\r\n
 (CFS) Call Type: Medical Call - ALS\nNature: 66/f recent surgery ill, altered mental status\nUnits: INA21\nCall #: \nCall Date/Time: 10/6/2012 9:29:53 AM\nPriority: High\nCommon Name: \nAddress: 132 MENDEN AVE, Ingalls\nIntersection: MERIDIAN ST / RANDALL ST\nCity: INGALLS\nUnits: INA21 \nInfo: 66/f recent surgery ill, altered mental status\nNarr: \nBeat: MC7\nQuadrant: 80-24\nDistrict: 80-24\nSource: Phone\r\n\r\n
+**********************************************************
+* EOF
+**********************************************************
