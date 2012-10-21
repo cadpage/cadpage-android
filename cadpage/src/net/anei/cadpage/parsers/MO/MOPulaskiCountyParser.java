@@ -7,14 +7,16 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
-
+/**
+ * Pulaski County, MO
+ */
 public class MOPulaskiCountyParser extends FieldProgramParser {
   
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("\nComplete: *\\d{1,2}:\\d{1,2}:\\d{1,2}$");
   
   public MOPulaskiCountyParser() {
     super(CITY_TABLE, "PULASKI COUNTY", "MO",
-           "ADDR/SC! CrossStreets:X! Call_Received_Time:SKIP! Dispatch:DATETIME Dispatch:SKIP");
+           "ADDR/SC! CrossStreets:X! Call_Received_Time:SKIP Dispatch:DATETIME Dispatch:SKIP");
   }
   
   @Override
@@ -67,7 +69,7 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
   }
   
   // Unit codes will be nnnn, or xFDn, or Mnn
-  private static final Pattern UNIT_PTN = Pattern.compile("\\b(\\d{4}|[A-Z]{1,2}[FP]D\\d?|M\\d\\d|MARIES|DAD)\\b");
+  private static final Pattern UNIT_PTN = Pattern.compile("\\b(\\d{4}(?!\\.)|[A-Z]{1,2}[FP]D\\d?|M\\d\\d|MARIES|DAD)\\b");
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
