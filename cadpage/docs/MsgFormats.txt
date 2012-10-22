@@ -1880,6 +1880,11 @@ Camden County, NJ (NJCamdenCountyBParser)
 (CCCAlert) 2 BLS UNITS AND RESCUE OPERATING AT RT 561 AND MORRIS DRIVE FOR AN OVERTURNED DUMP TRUCK ON TOP OF A VEHICLE
 (CCCAlert) e1351 ol at s135 with a vehicle that has hit the side of the building reporting structural damage 
 ***************************************************************************
+CENCOM, NJ (NJCENCOMParser)
+Unit:M404-1 #2012-049202 Breathing Problems ALS Dingman Twp 114 High Meadow Dr Room Pickup Location: Pt Name:
+Unit:M404-1 #2012-049211 Sick Person BLS Westfall Twp 0-0 Rte6 (264 Route 6 & 2 RoomRM 211 Pickup Location: Pt Name:
+Unit:M404-2 #2012-048860 Chest Pain ALS Westfall Twp 1023 Pensylvania Ave Room Pickup Location: Pt Name:
+***************************************************************************
 Cumberland County, NJ (NJCumberlandCountyParser)
 E911:E22_INVEST_(VINELAND CITY)1763 CHEROKEE LA_2011-04-24 19:02:46_
 E911:E2902_STRUCTURE_(GREENWICH TWP)176 BAYSIDE RD_2011-04-24 17:27:45_AREA OF THE BAY
@@ -4872,29 +4877,6 @@ RESIDENTIAL FIRE ALM AD: 10312 TOLEDO AV S CMT1: RESIDENTIAL FIRE ALARM COVERS T
 **********************************************************
 **********************************************************
 **********************************************************
-CENCOM, NJ
-Contact: David Suriano <dasuriano1@gmail.com>
-Sender: cencom@ahsys.org
-System: Visinet
-
-Unit:M404-1 #2012-049202 Breathing Problems ALS Dingman Twp 114 High Meadow Dr Room Pickup Location: Pt Name:
-Unit:M404-1 #2012-049211 Sick Person BLS Westfall Twp 0-0 Rte6 (264 Route 6 & 2 RoomRM 211 Pickup Location: Pt Name:
-Unit:M404-2 #2012-048860 Chest Pain ALS Westfall Twp 1023 Pensylvania Ave Room Pickup Location: Pt Name:
-Unit:M404-2 #2012-046172 Seizures/Convulsions ALS Milford Boro (Pike) 107 W Ann St Room Pickup Location: Pt Name:
-Unit:M404-1 #2012-045571 Sick Person BLS Milford Boro (Pike) 404 Rte6 Room318 Pickup Location: Pt Name:
-Unit:M404-2 #2012-044825 Chest Pain ALS Westfall Twp Rte6 & Rte209 Room Pickup Location: Pt Name:
-Unit:M404-1 #2012-044543 Altered Mental Status ALS Matamoras Boro 91 10th St Room Pickup Location: Pt Name:
-Unit:M404-2 #2012-042444 Cardiac Arrest ALS Dingman Twp 107 Brooke Park Ct Room Pickup Location: Pt Name:
-Unit:EMS4 #2012-035472 Sick Person BLS Frankford Twp 129 Morris Tpke Apt308 Cross St:Rte519/Unnamed Street
-Unit:EMS4 #2012-035438 Altered Mental Status ALS Andover Twp 99 Mulford Rd AptN111B Cross St:Unnamed Street/Unnamed Street
-Unit:EMS4 #2012-032512 Chest Pain ALS Newton Town 99 High St Apt Cross St:Academy St/Liberty St
-Unit:EMS4 #2012-032518 Psych/Behavior Problem BLS Frelinghuysen Twp 145 State Park Rd Apt115-D Cross St:Shiloh Rd/Unnamed Street
-Unit:EMS4 #2012-031691 Breathing Problems BLS Newton Town 249 High St Apt12-W Cross St:Summit Ave/Shady Ln
-Unit:EMS4 #2012-031058 Standby BLS Newton Town 85 Mill St Apt Cross St:Clinton St/Newton Swartswood Rd
-
-#2012-048860 Late Response Unit M404-2 10/09/2012 16:44 Delayed Response Reason
-
-Unit M404-1 # 2012-049211 Recv'd 15:09 Disp 15:10 Enroute Arrival Avail 15:13
 **********************************************************
 Midland County, MI
 Contact: "Drake, Matthew" <mdrake@mobilemedical.org>
