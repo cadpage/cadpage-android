@@ -4,7 +4,7 @@ package net.anei.cadpage.parsers.OH;
 public class OHWadsworthParser extends OHSummitCountyParser {
   
   public OHWadsworthParser() {
-    super("WADSWORTH", "OR");
+    super("WADSWORTH", "OH");
   }
   
   @Override
