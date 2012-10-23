@@ -1547,6 +1547,8 @@ John Reatz (reatzj@gmail.com) (reatzj@aol.com) // PayPal for Firelock Traders
 %%10/21/2012
 David Bandirola (rmdaveb109@gmail.com) (dbandirola@gmail.com) // PayPal
 Steve Reyes(ss_reyes@hotmail.com) // PayPal
+%%10/22/2012
+James Contrys (j_contrys@yahoo.com) // PayPal
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
