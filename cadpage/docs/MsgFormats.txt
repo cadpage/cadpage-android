@@ -703,6 +703,8 @@ St Joseph County, IN (INStJosephCountyParser)
 [!] MEDIC021 ^ 11035 MC*KINLEY HW PE :(55500) BEECH RDFEMALE FELL 0958,006PENN4 
 [!] MEDIC021 ^ 11311 BIRCHWAY DR PE :(55730) BIRCH RDF PASSED OUT 0332,014ME12 ,PENN4 5/10/2012 18:19 
 [!] 1 MEDIC021 ^ 60101 BODNAR ST PE :(14100) JACKSON RDIN LOT M FALL 1752,006ME10 ,PENN1VERIFY NAME OF THE BUSINESS 10/29/09 NJL 5/10/2012 15:55 
+- 02:13PM 10/21/2012 Ic# 9 CRASH018 Ds# 123001 Al# 1 Utl# G-82 10/21/1254499 PINE RD WA :(24500) RESEARCH DRDIRT BIKE ACCIDENT 1411,006ME10 ,1660 ,WARR1
+- 01:46PM 10/22/2012 Ic# 11 MEDIC002 Ds# 120007 Al# 1 Utl# G-63 10/22/1253871 GENERATIONS DR CL :(53540) GENERATIONS DRAPT. 209 - 83 Y/O F. VOMITED AND ASPIRATED NOW C/O SOB ANDCHEST PX. 1343,010ME45 ,CLAY1
 *******************************************************************************
 *******************************************************************************
 * DispatchA8Parser subclasses
@@ -4867,6 +4869,10 @@ Hennepin County, MN (alternate?)
 Contact: Jeffery Schoenborn <chiefstowinginc@gmail.com>
 Sender: LOGIS-Emergin-Paging@logis.org
 RESIDENTIAL FIRE ALM AD: 10312 TOLEDO AV S CMT1: RESIDENTIAL FIRE ALARM COVERS THE LOFT SMOKE. NOT RESET. INSIDE 952-835
+**********************************************************
+Monmouth County, NJ (replace??)
+Contact: CodeMessaging
+26-2\nCO ALARM\nPAGED\n28 GEMINI LN,26\nF262M\nF262A\nCO2 alarm going off.\nCALLER INSTRUCTED TO TAKE HERSELF AND HER CHILD OUT OF THE HOME, AND AWAIT\nFOR\nFIRE DEPT TO CHECK THE SCENE.
 **********************************************************
 **********************************************************
 **********************************************************

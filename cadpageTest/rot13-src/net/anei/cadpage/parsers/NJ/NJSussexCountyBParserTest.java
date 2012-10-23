@@ -34,7 +34,6 @@ Fraqre: cntvat@fhffrkpbhaglfurevss.pbz
 (Zrffntr sebz UvcYvax) FKSQ\aSver Bgure\aCNTRQ\a39 HAVBAIVYYR NIR\aFKSQ\aFKSQ\aVYYRTNY OHEAVAT VA SVERCVG.
 FKSQ\aSver YM\aCNTRQ\a25 Pbhagl Ujl 639\aFKSQ\aFKSQ\aGENAFCBEG SEBZ FG PYNVERF. ABEGU FGNE RGN 10 ZVAF
 FKSQ\aZrqvpny Rzret\aCNTRQ\a803 Fgngr Ujl 23\aFKSQ\aJGSQ\aHAX GLCR VAWHEL SEBZ PENAR\aawfc abgvsvrq\a2AQ PNYYRE ERCBEGF PENAR SRYY BA N THL'F SBBG- P
-
  */
 
 choyvp pynff AWFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {

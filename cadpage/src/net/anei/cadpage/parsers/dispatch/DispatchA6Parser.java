@@ -72,7 +72,7 @@ public class DispatchA6Parser extends SmartAddressParser {
   }
   
   private static final Pattern LEAD_DATE_PAT = Pattern.compile("^(?:([- A-Z0-9]+) )?(?:(?:Ic# +(.*?) +Ds# ([^ ]*?) (?:Al# ([^ ]*?))? Utl# (?:([^ ]*?) +)?)?(\\d\\d/\\d\\d/\\d\\d)|\\^ )");
-  private static final Pattern CROSS_MARK_PAT = Pattern.compile(" :\\( *(\\d*) *\\) | <> ");
+  private static final Pattern CROSS_MARK_PAT = Pattern.compile(" :\\\\?\\( *(\\d*) *\\) | <> ");
   private static final Pattern TIME_UNIT_PAT = Pattern.compile("(?<!\\d)(\\d{4}),(\\d{3})");
   
   @Override
