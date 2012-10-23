@@ -4873,6 +4873,8 @@ RESIDENTIAL FIRE ALM AD: 10312 TOLEDO AV S CMT1: RESIDENTIAL FIRE ALARM COVERS T
 Monmouth County, NJ (replace??)
 Contact: CodeMessaging
 26-2\nCO ALARM\nPAGED\n28 GEMINI LN,26\nF262M\nF262A\nCO2 alarm going off.\nCALLER INSTRUCTED TO TAKE HERSELF AND HER CHILD OUT OF THE HOME, AND AWAIT\nFOR\nFIRE DEPT TO CHECK THE SCENE.
+
+Ah, that 2 digit code looks like the actual address' fire district who's call it is for mutual aid... So, if you were to assign zip codes (for mapping purposes), 26 corresponds to 07726, 12 corresponds to 07726, 32 corresponds to 08510, 16 corresponds to 07728.  There may be others, but that would be very rare.
 **********************************************************
 **********************************************************
 **********************************************************
