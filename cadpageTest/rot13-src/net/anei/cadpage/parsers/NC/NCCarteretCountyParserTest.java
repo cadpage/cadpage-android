@@ -62,6 +62,7 @@ Pbagnpg: Ybtna Uneql <uneql_ybtna@lnubb.pbz>
 Pbagnpg: Greel Jnqfyrl <jnqf2504@tznvy.pbz>
 Pbagnpg: Oraargg Abezna <oraarggabezna86@tznvy.pbz>
 Pbagnpg: Jvyyvnz Zngguvnf <onpxqensg_ss2004@lnubb.pbz>
+Pbagnpg: Ybtna Uneql <uneql_ybtna@lnubb.pbz>
 Fraqre: PRP@pnegrergpbhagltbi.bet
 
 F:812 FURCNEQ FG ZBERURNQ PVGL 12-134576 12 Z:PRP:32:41 NYNEZ SVER
@@ -69,6 +70,8 @@ Fhowrpg:100 F 23EQ FG ZBERURNQ PVGL 12-134924 09\aPRP:44:09 ZIP CV BE EBYYBIRE\e
 rvsqpnyyf+pns_=2527237752=igrkg.pbz@tznvy.pbz (113 SNJA QE RZRENYQ VFYR 12-134983 12) PRP:17:16 NYNEZ SVER
 Fhowrpg:4813 NERAQRYY FG ZBERURNQ PVGL 12-135415\aPRP:33:53 ZIP CV BE EBYYBIRE BPN: 24-12-2474\e
 rvsqpnyyf2+pns_=9103300503=igrkg.pbz@tznvy.pbz (219 FNAQSVQQYRE RNFG RZRENYQ VFYR 12-136018 19) PRP:18:03 OHETYNEL AVC
+F:3204 OEVQTRF FG 21 ZBERURNQ PVGL 12-136677 15 Z:PRP:02:38 BIREQBFR - CBVFBAVAT BPN: 24-12-2488 
+F:135 QHXR ZNEVAR YNO EQ ORNHSBEG SQY 52P03-T 12-136500 05 Z:PRP:19:28 NYNEZ SVER 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jrfgrea Pnegrerg Sver  RZF
@@ -482,6 +485,23 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:12-136018",
         "GVZR:19:18:03",
         "PNYY:OHETYNEL AVC");
+
+    qbGrfg("G6",
+        "F:3204 OEVQTRF FG 21 ZBERURNQ PVGL 12-136677 15 Z:PRP:02:38 BIREQBFR - CBVFBAVAT BPN: 24-12-2488 ",
+        "NQQE:3204 OEVQTRF FG 21",
+        "PVGL:ZBERURNQ PVGL",
+        "VQ:12-136677",
+        "GVZR:15:02:38",
+        "PNYY:BIREQBFR - CBVFBAVAT");
+
+    qbGrfg("G7",
+        "F:135 QHXR ZNEVAR YNO EQ ORNHSBEG SQY 52P03-T 12-136500 05 Z:PRP:19:28 NYNEZ SVER ",
+        "NQQE:135 QHXR ZNEVAR YNO EQ",
+        "PVGL:ORNHSBEG",
+        "PBQR:52P03-T",
+        "VQ:12-136500",
+        "GVZR:05:19:28",
+        "PNYY:NYNEZ SVER");
 
   }
   
