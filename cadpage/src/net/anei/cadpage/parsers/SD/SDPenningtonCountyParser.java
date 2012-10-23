@@ -6,29 +6,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Pennington county, SD
-Contact: josh van Vlack <joshvanvlack@live.com>
-Sender: dispatch@co.pennington.sd.us
-
-(page ) Unit:29H1 Status:dispatched diabetic 12823 old hill city rd pennco Problem: blood sugar issues. Patient info: 1 patient(s) 58 years old; female
-(page ) Unit:29H1 Status:dispatched seizure 209 Main St Hill City Cafe ProQA Medical Dispatch Message Sent; Dispatch code: 12-D-02 Problem :SE
-(page ) Unit:HC Status:Dispatched FALARM 23835 Highway 385 Mistletoe Ranch pennco fire alarm showing downstairs smoke detector DEPT56. PREM PHONE 605-574-2512
-(page ) Unit:HC Status:dispatched Falarm 602 Main St Hillyo Manor Hill City Pull Station fire alarm prem#605-574-2476
-(page ) Unit:29H2 Status:Dispatched fall 302 Main Street Hill city Elementary Hill City ProQA medical dispatch code 17-b-01G
-(page ) Unit:29H2 Status:dispatched breath 745 chute Rooster dr Matkins trailer court Hill City ProQA medical dispatch message sent; dispatch code: 06
-(page ) Unit:29H2 Status:EMS 133 Main St Alpine Inn hill city unk age/unk specifics/rp will come back to the phone/possible heart attack
-(page ) Unit:29H1 Status:disatched EMS 557 e main street Hill City call at the Hill City Clinic
-(page ) Unit:29H1 Status:dispatched breath 101 main st exxon Hill City 52 year old, male, conscious, breathing, breathing problems. difficulty speaking
-(page ) Unit:29H1 Status:Dispatched Stroke 24185 Tin Horse Trl pennco 61 year old, female, conscious, breathing, abnormal breathing (clear evidence of stroke)
-
-Contact: Alexander Ingalls <alexingalls09@gmail.com>
-(Page ) Unit:RV Status:DISPATCHED FIRE 300 E  SIGNAL DR NATIONAL WEATHER SERVICERapid City  1/4 ACRE MOVING TO THE WEST TOWARDS THE TALL GRASS.  1/4 ACRE
-(Page ) Unit:RV Status:DISPATCHED SUIC 2064 S VALLEY DR PENNCO  RPT**  MALE SUBJ HUNG HIMSELF AT ABOVE LOC  13:10
-(Page) Unit:RV Status:DISPATCHED STRUCF CALLBK=(605)391-43 NW Sector Rapid City  69D10  TRAILER HOUSE ON FIRE.  AT THE END OF 150TH AV  09:50
-
-*/
-
+/**
+ * Pennington County, SD
+ */
 public class SDPenningtonCountyParser extends FieldProgramParser {
  
   private static final Pattern TIME_PTN = Pattern.compile(" (\\d\\d:\\d\\d)$"); 
@@ -76,7 +56,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       }
       
       StartType st = StartType.START_CALL;
-      int flags = FLAG_PAD_FIELD | FLAG_IGNORE_AT;
+      int flags = FLAG_PAD_FIELD | FLAG_IGNORE_AT | FLAG_IMPLIED_INTERSECT;
       
       Matcher match = CALLBACK_PTN.matcher(field);
       if (match.find()) {
@@ -126,7 +106,19 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
     "WALL",
     "WASTA",
     "WICKSVILLE",
+    "PENNCO",
     
-    "PENNCO"
+    "ELK VALE",
+    "ELLSWORTH AFB",
+    "MUD BUTTE",
+    "PIEDMONT",
+    "TILFORD",
+    "WHITE OWL",
+    "BOX ELDER",
+    "STURGIS",
+    "BLACKHAWK",
+    "SUMMERSET",
+    "FAITH",
+    "MEADCO"
   };
 }

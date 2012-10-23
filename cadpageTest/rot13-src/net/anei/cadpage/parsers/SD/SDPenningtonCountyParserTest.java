@@ -4,7 +4,32 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Craavatgba pbhagl, FQ
+Pbagnpg: wbfu ina Iynpx <wbfuinaiynpx@yvir.pbz>
+Fraqre: qvfcngpu@pb.craavatgba.fq.hf
 
+(cntr ) Havg:29U1 Fgnghf:qvfcngpurq qvnorgvp 12823 byq uvyy pvgl eq craapb Ceboyrz: oybbq fhtne vffhrf. Cngvrag vasb: 1 cngvrag(f) 58 lrnef byq; srznyr
+(cntr ) Havg:29U1 Fgnghf:qvfcngpurq frvmher 209 Znva Fg Uvyy Pvgl Pnsr CebDN Zrqvpny Qvfcngpu Zrffntr Frag; Qvfcngpu pbqr: 12-Q-02 Ceboyrz :FR
+(cntr ) Havg:UP Fgnghf:Qvfcngpurq SNYNEZ 23835 Uvtujnl 385 Zvfgyrgbr Enapu craapb sver nynez fubjvat qbjafgnvef fzbxr qrgrpgbe QRCG56. CERZ CUBAR 605-574-2512
+(cntr ) Havg:UP Fgnghf:qvfcngpurq Snynez 602 Znva Fg Uvyylb Znabe Uvyy Pvgl Chyy Fgngvba sver nynez cerz#605-574-2476
+(cntr ) Havg:29U2 Fgnghf:Qvfcngpurq snyy 302 Znva Fgerrg Uvyy pvgl Ryrzragnel Uvyy Pvgl CebDN zrqvpny qvfcngpu pbqr 17-o-01T
+(cntr ) Havg:29U2 Fgnghf:qvfcngpurq oerngu 745 puhgr Ebbfgre qe Zngxvaf genvyre pbheg Uvyy Pvgl CebDN zrqvpny qvfcngpu zrffntr frag; qvfcngpu pbqr: 06
+(cntr ) Havg:29U2 Fgnghf:RZF 133 Znva Fg Nycvar Vaa uvyy pvgl hax ntr/hax fcrpvsvpf/ec jvyy pbzr onpx gb gur cubar/cbffvoyr urneg nggnpx
+(cntr ) Havg:29U1 Fgnghf:qvfngpurq RZF 557 r znva fgerrg Uvyy Pvgl pnyy ng gur Uvyy Pvgl Pyvavp
+(cntr ) Havg:29U1 Fgnghf:qvfcngpurq oerngu 101 znva fg rkkba Uvyy Pvgl 52 lrne byq, znyr, pbafpvbhf, oernguvat, oernguvat ceboyrzf. qvssvphygl fcrnxvat
+(cntr ) Havg:29U1 Fgnghf:Qvfcngpurq Fgebxr 24185 Gva Ubefr Gey craapb 61 lrne byq, srznyr, pbafpvbhf, oernguvat, noabezny oernguvat (pyrne rivqrapr bs fgebxr)
+
+Pbagnpg: Nyrknaqre Vatnyyf <nyrkvatnyyf09@tznvy.pbz>
+(Cntr ) Havg:EI Fgnghf:QVFCNGPURQ SVER 300 R  FVTANY QE ANGVBANY JRNGURE FREIVPREncvq Pvgl  1/4 NPER ZBIVAT GB GUR JRFG GBJNEQF GUR GNYY TENFF.  1/4 NPER
+(Cntr ) Havg:EI Fgnghf:QVFCNGPURQ FHVP 2064 F INYYRL QE CRAAPB  ECG**  ZNYR FHOW UHAT UVZFRYS NG NOBIR YBP  13:10
+(Cntr) Havg:EI Fgnghf:QVFCNGPURQ FGEHPS PNYYOX=(605)391-43 AJ Frpgbe Encvq Pvgl  69Q10  GENVYRE UBHFR BA SVER.  NG GUR RAQ BS 150GU NI  09:50
+
+Pbagnpg: Evpx Uhyvat <uneqsnpr.eu@tznvy.pbz>
+Fraqre: qvfcngpu@pb.craavatgba.fq.hf
+(Cntr) Havg:AU Fgnghf:QVFCNGPURQ SVER UBEFRFUBR EQ RYX INYR EQ Obk Ryqre  FGEHPGHERF ORVAT GUERNGRA  BA CENVEVR     TENFF SVER***  ABEGU BS GUR SYLVAT
+
+*/
 choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp FQCraavatgbaPbhaglCnefreGrfg() {
@@ -119,6 +144,19 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:69Q10",
         "GVZR:09:50");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEvpxUhyyvat() {
+
+    qbGrfg("G1",
+        "(Cntr) Havg:AU Fgnghf:QVFCNGPURQ SVER UBEFRFUBR EQ RYX INYR EQ Obk Ryqre  FGEHPGHERF ORVAT GUERNGRA  BA CENVEVR     TENFF SVER***  ABEGU BS GUR SYLVAT",
+        "HAVG:AU",
+        "PNYY:QVFCNGPURQ SVER",
+        "NQQE:UBEFRFUBR EQ & RYX INYR EQ",
+        "PVGL:Obk Ryqre",
+        "VASB:FGEHPGHERF ORVAT GUERNGRA BA CENVEVR TENFF SVER*** ABEGU BS GUR SYLVAT");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
