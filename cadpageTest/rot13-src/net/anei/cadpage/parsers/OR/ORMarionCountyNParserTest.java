@@ -35,6 +35,7 @@ Fhowrpg:Vapvqrag\aNYG ZAGY S:5977 TYRAJVYQ PG FR, ZNEVBA PBHAGL:ZRQ31, P95, E965
 Fhowrpg:Vapvqrag\aONPXLNEQ S:5100 PRQNE FG FR, GHEARE:P95, R955:GENFU NAQ LNEQ QROEVF SVER::::\e\a\e
 Fhowrpg:Vapvqrag\aOERN CEBOYRZ S:7686 5GU FG FR, GHEARE:ZRQ31, P95, E965, FGN950:84 lbz/p/qvss oe/n qlnyyvf cg::::\e\a\e
 Fhowrpg:Vapvqrag\aONPXLNEQ S:5100 PRQNE FG FR, GHEARE:P95, R955:GENFU NAQ LNEQ QROEVF SVER::::\e\a\e
+Fhowrpg:Vapvqrag\aHAP S:5313 UBYYL YC FR, GHEARE:ZRQ31, P95, E965, FGN950:60 LBZ, FRZV PBAF/OE, TRA JRNXARFF::::\e\a\e
 
 Pbagnpg: Serq Oevqtrubhfr <oevqtrubhfrserq@tznvy.pbz>
 Fraqre: qvfcngpu@pv.jbbqohea.be.hf
@@ -304,6 +305,15 @@ choyvp pynff BEZnevbaPbhaglACnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:GHEARE",
         "HAVG:P95, R955",
         "VASB:GENFU NAQ LNEQ QROEVF SVER");
+
+    qbGrfg("G10",
+        "Fhowrpg:Vapvqrag\aHAP S:5313 UBYYL YC FR, GHEARE:ZRQ31, P95, E965, FGN950:60 LBZ, FRZV PBAF/OE, TRA JRNXARFF::::\e\a\e",
+        "PNYY:HAP S",
+        "NQQE:5313 UBYYL YC FR",
+        "PVGL:GHEARE",
+        "VASB:60 LBZ, FRZV PBAF/OE, TRA JRNXARFF",
+        "HAVG:ZRQ31, P95, E965",
+        "FEP:FGN950");
 
   }
   
@@ -732,6 +742,6 @@ choyvp pynff BEZnevbaPbhaglACnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj BEZnevbaPbhaglACnefreGrfg().trarengrGrfgf("G29");
+    arj BEZnevbaPbhaglACnefreGrfg().trarengrGrfgf("G1");
   }
 }

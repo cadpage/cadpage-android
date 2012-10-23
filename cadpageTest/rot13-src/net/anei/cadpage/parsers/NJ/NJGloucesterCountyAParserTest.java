@@ -5,6 +5,56 @@ vzcbeg arg.narv.pnqcntr.cnefref.AW.AWTybhprfgrePbhaglNCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+
+Tybhprfgre Pbhagl, AW (irefvba N)
+
+Pbagnpg: Evpu Qnaare <evpuqnaare@pbzpnfg.arg>
+Fraqre: nyreg_@cevingr.tybhprfgrenyreg.pbz
+
+Fgn:23-1\aGlcr:ZIP\aYbp:233 A ZNVA FG\aIra:UNEEVFBA\aQfc-07:56:31\aPye- 
+Fgn:23-1\aGlcr:FRVM\aYbp:143 FNYINGBER QE\aIra:UNEEVFBA\aQfc-15:26:16\aPye- 
+Fgn:23-1\aGlcr:QJRY\aYbp:296 JRFGOEBBX QE\aIra:JBBYJVPU\aQfc-08:16:44\aPye- 
+Fgn:23-1\aGlcr:ZIP\aYbp:203 A ZNVA FG\aIra:UNEEVFBA\aQfc-09:34:52\aPye- 
+Fgn:23-1\aGlcr:ZIP\aYbp:203 A ZNVA FG\aIra:UNEEVFBA\aQfc-09:34:52\aPye- 
+Fgn:23-1\aGlcr:NYEZ\aYbp:7 SREERYY EQ NCG N\aIra:F\aQfc-14:55:22\aPye- 
+Fgn:23-1\aGlcr:OEFU\aYbp:54 IRFGEL EQ\aIra:F\aQfc-12:40:42\aPye- 
+Fgn:23-1\aGlcr:SNYY\aYbp:115 SENAXYVA QE\aIra:UNEEVFBA\aQfc-16:01:31\aPye- 
+Fgn:23-1\aGlcr:OEFU\aYbp:49 GHEGYR PERRX QE\aIra:UNEEVFBA\aQfc-\aPye- 
+Fgn:23-1\aGlcr:ZIP\aYbp:2227 EG 322\aIra:JBBYJVPU\aQfc-11:25:11\aPye- 
+Fgn:23-1\aGlcr:ZIP\aYbp:GBZYVA FGNGVBA EQ\aIra:UNEEVFBA\aQfc-17:31:56\aPye- 
+
+Pbagnpg: Zvpunry Pnerfgvb <zpnerfgvb81@tznvy.pbz>
+(#265339) Qvfcngpu\a\aFgn:8-1\aGlcr:ZIPP\aYbp:URFFVNA NIR\aIra:ANGAY\aQfc-17:33:46\aPye-
+(#264149) Qvfcngpu\a\aFgn:8-1\aGlcr:QJRY\aYbp:817 NFOHEL NIR\aIra:ANGAY\aQfc-\aPye-
+(#266773) Qvfcngpu\a\aFgn:8-1\aGlcr:NYEZ\aYbp:518 FVZCFBA NIR\aIra:ANGAY\aQfc-\aPye-
+
+Pbagnpg: zbfgjnagrq4grp <zbfgjnagrq4grp@tznvy.pbz>
+Fhowrpg:1/2\a\aQvfcngpu\a\aFgn:43-2\a\aGlcr:FREI\a\aYbp:751 YVAPBYA NIR               \a\aIra:SENAXYVA\a\aQfc-17:28:02\5f\a\aPye-
+
+Pbagnpg: Gbz <onq69fubiry@lnubb.pbz>
+Qvfcngpu\aFgn:28-3\aGlcr:NYEZ\aYbp:158 XRAGBA NIR                \aIra:CVGZNA\aQfc-\aPye-
+
+Pbagnpg: beqref@pbnfggbpbnfgbhgyrg.pbz
+Fraqre: 777155668218
+PBHAGL BS TYBHPRFGRE (#353519) Qvfcngpu\a\aFgn:10-2\aGlcr:NYEZ\aYbp:5 ORYZBAG OYIQ\                \aIra:JNFUVATGBA\aQfc-\aPye- FGBC
+
+Pbagnpg: Wbua Tbqvfu <wt10306@tznvy.pbz>
+Fraqre: 777146881581
+PBHAGL BS TYBHPRFGRE (#353135) Qvfcngpu\a\aFgn:10-3\aGlcr:NYEZ\aYbp:5600 OYNPX UBEFR CVXR         \aIra:JNFUVATGBA\aQfc-04:11:36     \aPye- FGBC
+
+Pbagnpg: Evpuneq Uneevf <eju037@tznvy.pbz>,"eju037@irevmba.arg" <eju037@irevmba.arg>
+Fraqre: 777
+Fgn:6-3\aGlcr:EFDZ\aYbp:1719 SEBAG FG                 \aIra:J-QRCGSBEQ\aQfc-18:53:53     \aPye- FGBC
+Fgn:6-3\aGlcr:ZIPP\aYbp:EG 45                         \aIra:J-QRCGSBEQ\aQfc-\aPye- FGBC
+Fgn:6-3\aGlcr:OEFU\aYbp:1762 GUVEQ FG                 \aIra:J-QRCGSBEQ\aQfc-19:54:13     \aPye- FGBC
+PBHAGL BS TYBHPRFGRE (#397987) Qvfcngpu\a\aFgn:6-3\aGlcr:IRU\aYbp:EG 295                        \aIra:EG\aQfc-12:33:14     \aPye- FGBC
+
+Pbagnpg: Wbua Tbqvfu <wt10306@tznvy.pbz>
+(PBHAGL BS TYBHPRFGRE (#384823) Qvfcngpu) Fgn:10-3\aGlcr:JVER\aYbp:PUNCRY URVTUGF EQ             \aIra:JNFUVATGBA\aQfc-\aPye- FGBC
+
+*/
+
 
 choyvp pynff AWTybhprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

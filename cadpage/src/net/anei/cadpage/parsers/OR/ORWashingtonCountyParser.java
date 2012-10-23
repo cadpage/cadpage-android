@@ -19,7 +19,7 @@ public class ORWashingtonCountyParser extends FieldProgramParser {
   
   public ORWashingtonCountyParser(String defCity, String defState) {
     super(defCity, defState,
-           "ADDR/SC! MAP:MAP! UNIT:UNIT!");
+           "ADDR/SC! MAP:MAP UNIT:UNIT!");
   }
   
   @Override
