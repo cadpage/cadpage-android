@@ -1041,26 +1041,21 @@ public class FieldProgramParser extends SmartAddressParser {
               procStep = procStep.nextStep;
             }
             
-            // If we didn't find one, and this step isn't tagged, assume that
-            // this is an incidental colon and process the step normally
-            // Otherwise skip over this data field and go on to the next one
-            if (procStep == null) {
-              procStep = startStep;
-              if (procStep.tag == null) break;
-              if (++ndx >= flds.length) return true;
-              curFld = flds[ndx].trim();
-              continue;
-            }
-            
-            // We did find one,
+            // If we found one then
             // If we had to skip over a required field, return failure
             // Otherwise we are ready to process this step
-            if (skipReq) {
-              state.setResult(false);
-              return true;
+            if (procStep != null) {
+              if (skipReq) {
+                state.setResult(false);
+                return true;
+              }
+              curFld = curVal;
+              break;
             }
-            curFld = curVal;
-            break;
+            
+            // If we didn't find one, and this step isn't tagged, assume that
+            // this is an incidental colon and process the step normally
+            procStep = startStep;
           }
           
           // Data field is not tagged
