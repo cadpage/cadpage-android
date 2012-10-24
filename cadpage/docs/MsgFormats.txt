@@ -1731,6 +1731,11 @@ Yarmouth, MA (MAYarmouthParser)
  579 BUCK ISLAND RD\nMAYFLOWER PLACE\nYARMOUTH\nMedical Priority 2/3\n3_South_1\n\nNotes\nBREWSTER UNIT EYE SWELLING
  43 MEDINAH DR\n2_West_3\n\nNotes\nDEHYDRATION SHORTNESS OF BREATH
 ***************************************************************************
+Midland County, MI (MIMidlandCountyParser)
+(CAD Page for CFS M101512-29) BUS : \nADDX: W BURNS RD and N CASTOR RD APT: \nCODE: TRAFFIC ACCIDENT\nhttp://maps.google.com/maps?q=+43.72719%20-84.48703
+(CAD Page for CFS M101412-41) BUS : \nADDX: 8405 S EBERHART APT: \nCODE: HOUSE FIRE\nhttp://maps.google.com/maps?q=+-1.00000%20--1.00000
+(CAD Page for CFS M101312-31 <10131231>) BUS :\nWB US10 MM 102\nADDX: 102 WEST US HWY 10 APT: \nCODE: PDA - UNKNOWN\nhttp://maps.google.com/maps?q=+43.76840%20-84.58168
+***************************************************************************
 Richmond, MI (MIRichmondParser)
 ** FIRE ** 1707 WITHEY   VEHICLE FIRE  COLUMBUS
 ** FIRE RESCUE ** PALMS @ GRATIOT  PIA COLUMBUS
@@ -4885,36 +4890,6 @@ RESIDENTIAL FIRE ALM AD: 10312 TOLEDO AV S CMT1: RESIDENTIAL FIRE ALARM COVERS T
 **********************************************************
 **********************************************************
 **********************************************************
-Midland County, MI
-Contact: "Drake, Matthew" <mdrake@mobilemedical.org>
-Sender: dispatch@midland911.org
- 
-(CAD Page for CFS M101512-29) BUS : 
-ADDX: W BURNS RD and N CASTOR RD APT: 
-CODE: TRAFFIC ACCIDENT
-http://maps.google.com/maps?q=+43.72719%20-84.48703
-
-(CAD Page for CFS M101412-41) BUS : 
-ADDX: 8405 S EBERHART APT: 
-CODE: HOUSE FIRE
-http://maps.google.com/maps?q=+-1.00000%20--1.00000
-
-(CAD Page for CFS M101312-31 <10131231>) BUS :
-WB US10 MM 102
-ADDX: 102 WEST US HWY 10 APT: 
-CODE: PDA - UNKNOWN
-http://maps.google.com/maps?q=+43.76840%20-84.58168
-
-(CAD Page for CFS M101112-117 <101112117>) BUS : 
-ADDX: 6990 N COLEMAN RD APT: 
-CODE: CHIMMNEY FIRE
-http://maps.google.com/maps?q=+43.81458%20-84.58607
-
-(CAD Page for CFS M101212-56 <10121256>) BUS :
-
-ADDX: 3095 W PERE MARQUETTE RD APT: 
-CODE: STROKE
-http://maps.google.com/maps?q=+43.71114%20-84.49158
 **********************************************************
 Rockingham County, NC
 Contact: "alex.french3068" <alex.french3068@gmail.com>

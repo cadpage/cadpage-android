@@ -301,6 +301,7 @@ public class ParserList {
               ,"MIEatonCounty"                  ,"Eaton County, MI"
               ,"MIEmmetCounty"                  ,"Emmet County, MI"
               ,"MILivingstonCounty"             ,"Livingston County, MI"
+              ,"MIMidlandCounty"                ,"Midland County, MI"
               ,"MIMobileMedicalResponse"        ,"Mobile Medical Response, MI"
               ,"MIMontcalmCounty"               ,"Montcalm County, MI"
               ,"MIMuskegonCounty"               ,"Muskegon County, MI"
