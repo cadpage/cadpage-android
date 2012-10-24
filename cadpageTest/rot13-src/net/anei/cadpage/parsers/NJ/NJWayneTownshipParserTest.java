@@ -37,7 +37,7 @@ choyvp pynff AWJnlarGbjafuvcCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1520 Eg23",
         "ZNQQE:1520 Eg 23",
         "HAVG:P3 P1 P2 P5",
-        "VASB:Ybp punatrq\asebz {1530 Eg23;CQ} gb {1520 Eg23;CQ}\aCev sebz -> 5 gb 1\aRypb nqzva freivprf\aEbhtu,Wvz  862 226 9566\aPnyyre fgngrq ure urneq n cbccvat fbhaq vafvqr gur ohvyqvat naq gurl afzryy fzbxr\aNqqerff va 1538 eg23  oruvat jnlar Uneqjner Hcqngr erivrjrq ol qvfcngpure- Crgrefba, Genpl Y-716");
+        "VASB:Ybp punatrq\asebz {1530 Eg23;CQ} gb {1520 Eg23;CQ}\aCev sebz -> 5 gb 1\aRypb nqzva freivprf\aEbhtu,Wvz  862 226 9566\aPnyyre fgngrq ure urneq n cbccvat fbhaq vafvqr gur ohvyqvat naq gurl afzryy fzbxr\aNqqerff va 1538 eg23  oruvat jnlar Uneqjner");
 
     qbGrfg("G3",
         "2012000017 {01/04/2012 10:49:09}\aNSPV     - Sver nynez - pbzzrepvny/vaqhfgevny{3}\a520 Eg46;CQ.\a  Havgf:\a\aPbzzragf:\a  Fgngvba Qvfcngpurq : {P1 } Fgngvba Qvfcngpurq : {P2 } Havgf Erpbzzraqrq: ,;\aQvfcngpurq: {P2 }, {P1 } Nqg/877 2387739/vq vho/npja\aErq Ybofgre\ambar 18 NAFHY",

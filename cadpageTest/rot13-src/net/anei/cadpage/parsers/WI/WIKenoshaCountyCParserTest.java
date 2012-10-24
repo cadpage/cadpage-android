@@ -64,7 +64,7 @@ choyvp pynff JVXrabfunPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver - Fvatyr Ratvar",
         "CEV:1",
         "NQQE:905 114gu Fg",
-        "HAVG:5641    5611");
+        "HAVG:5641 5611");
 
     qbGrfg("G3",
         "Fhowrpg:Cubravk Abgvsvpngvba\a" +
@@ -81,7 +81,7 @@ choyvp pynff JVXrabfunPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver - Fvatyr Ratvar",
         "CEV:1",
         "NQQE:905 114gu Fg",
-        "HAVG:5641    5611");
+        "HAVG:5641 5611");
 
     qbGrfg("G4",
         "Fhowrpg:Cubravk Abgvsvpngvba\a" +

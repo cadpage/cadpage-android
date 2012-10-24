@@ -132,7 +132,7 @@ choyvp pynff AWFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "AJRF\e\aZrqvpny Rzret\e\aCNTRQ\e\a31 CNGREFBA NIR; NCG 28\e\aAJRF\e\aAJRFCT\e\a9-1-1 PNYYRE ERD RZF SBE GUR 2LBN UNIVAT N FRVMHER\e",
         "FEP:AJRF",
         "PNYY:Zrqvpny Rzret",
-        "NQQE:31 CNGREFBA NIR;",
+        "NQQE:31 CNGREFBA NIR",
         "NCG:28",
         "HAVG:AJRF AJRFCT",
         "VASB:9-1-1 PNYYRE ERD RZF SBE GUR 2LBN UNIVAT N FRVMHER");
