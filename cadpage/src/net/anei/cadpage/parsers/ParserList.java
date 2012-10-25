@@ -456,6 +456,7 @@ public class ParserList {
               ,"NCPittCounty"                   ,"Pitt County, NC"
               ,"NCPolkCounty"                   ,"Polk County, NC"
               ,"NCRandolphCounty"               ,"Randolph County, NC"
+              ,"NCRockinghamCounty"             ,"Rockingham County, NC"
               ,"NCRowanCounty"                  ,"Rowan County, NC"
               ,"NCRutherfordCounty"             ,"Rutherford County, NC"
               ,"NCSampsonCounty"                ,"Sampson County, NC"
