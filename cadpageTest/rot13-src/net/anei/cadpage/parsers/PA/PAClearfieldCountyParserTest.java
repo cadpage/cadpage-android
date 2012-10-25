@@ -76,7 +76,7 @@ choyvp pynff CNPyrnesvryqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Pyrnesvryq Nyreg) Vap: Fvpx Crefba NYF\e\aNqq: 33 FUBEG FG\e\aPvgl: SNYYF_WRS\e\aHavgf: 4353\e\a43RZF\e\a10/17/2012 2:58:14 CZ",
         "PNYY:Fvpx Crefba NYF",
         "NQQE:33 FUBEG FG",
-        "PVGL:SNYYF_WRS", // Jurer/jung vf guvf???
+        "PVGL:SNYYF PERRX", 
         "HAVG:4353",
         "FEP:43RZF",
         "QNGR:10/17/2012",

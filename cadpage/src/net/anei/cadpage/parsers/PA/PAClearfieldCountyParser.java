@@ -24,7 +24,9 @@ public class PAClearfieldCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Clearfield Alert")) return false;
-    return parseFields(body.split("\n"), 3, data);
+    if (!parseFields(body.split("\n"), 3, data)) return false;
+    if (data.strCity.equals("FALLS_JEF")) data.strCity = "FALLS CREEK";
+    return true;
   }
   
   @Override

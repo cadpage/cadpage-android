@@ -1329,7 +1329,11 @@ public class FieldProgramParser extends SmartAddressParser {
         parse(field.substring(1).trim(), data);
         return true;
       }
-      if (pattern != null && !pattern.matcher(field).matches()) return false;
+      if (pattern != null) {
+        Matcher match = pattern.matcher(field);
+        if (!match.matches()) return false;
+        if (match.groupCount() == 1) field = match.group(1);
+      }
       return checkParse(field, data);
     }
 
@@ -1353,8 +1357,11 @@ public class FieldProgramParser extends SmartAddressParser {
       
       // If a hard pattern is specified, and this doesn't pass it
       // reject this message
-      if (pattern != null && hardPattern) {
-        if (! pattern.matcher(field).matches()) abort();
+      if (pattern != null) {
+        Matcher match = pattern.matcher(field);
+        if (match.matches()) {
+          if (match.groupCount() == 1) field = match.group(1);
+        } else if (hardPattern) abort();
       }
       parse(field, data);
     }
