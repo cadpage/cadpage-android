@@ -24,7 +24,7 @@ public class NCDavieCountyParser extends DispatchVisionAirParser {
   
   @Override
   public String getSponsorDateString() {
-    return "07122011";
+    return "10232012";
   }
 
   @Override

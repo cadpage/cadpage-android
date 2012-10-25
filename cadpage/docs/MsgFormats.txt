@@ -2532,6 +2532,11 @@ Inc History #NCCF12000028           \n                      \n Entered      04/1
 Inc History #WGRF12000543  Xref: #58PJ12000321\n\n Entered      04/26/12  06:09:05  BY CT09     693\n Dispatched   04/26/12  06:09:53  BY FD16     157\n Initial Type: ACCENT     Final Type: ACCENT  (ACCIDENT - ENTRAPMENT *)\n Initial Priority: E      Final Priority: E\n Initial Alarm Level: 1   Final Alarm Level: 1\n Disposition:        Source: T    Primary Unit: RES22       Rsp: 0002\n Police BOX: 5802  Fire BOX: 2204  EMS BOX: 2204\n Group: 22FD          Section: 22     Map:          X: 7586988  Y: 3982389\n Loc: OLD BALTIMORE PK/RT 796 ,58    (V)\n AKA:                            Municipality: PENN\nDev:\n Name:                         Addr:                         PH:\n610-633-8998C\n/0609  (693   )  ENTRY            2 VEHS -- HEAD ON COLLISION -- ENTRAPMENT\n/0609            ENTRY            DETAILS TO FOLLOW\n/0609  (157   )  DTSEEN           INFO SEEN\n/0609            DISP    RES22     #RES22  RES22 MDT\n/0609            ASST    ENG22     #ENG22  ENG22 MDT\n/0609            ASST    AMB221    #AMB221 AMB221 MDT\n/0609            ASST    MED941    #MED941 MED941 MDT\n/0609            ASST    ENG12     #ENG12  ENG12 MDT\n/0609            ASST    AMB222    #AMB222 AMB222 MDT\n/0609            ASST    ENG32     #ENG32  ENG32 MDT\nPRIOR PREMISE HISTORY FOR: OLD BALTIMORE PK/RT 796\n,58\nNo Prior Premise History found for the Location\n*** List of closest hydrants\n***\n Inc #WGRF12000543 Type: ACCENT  Loc: OLD BALTIMORE PK/RT 796 ,58\n ID   STAT  GPM   LOCATION\n58-014      0      835 W BALTIMORE PK, 58\n\n58-013      0      835 W BALTIMORE PK, 58\n\n58-012      0      835 W BALTIMORE PK, 58\n\n58-011      0      835 W BALTIMORE PK, 58
 Inc History #WGRF12000549  Xref: #59PJ12000174\n\n Entered      04/27/12  23:31:33  BY CT08     663\n Dispatched   04/27/12  23:32:07  BY FD16     135\n\n Initial Type: INVOUT     Final Type: INVOUT  (SMOKE/ODOR INVEST (OUTSIDE)\n*)\n Initial Priority: 1      Final Priority: 1\n Initial Alarm Level: 1   Final Alarm Level: 1\n Disposition:        Source: T    Primary Unit: ENG22       Rsp: 0026\n Police BOX: 59BP  Fire BOX: 2202  EMS BOX: 2202\n Group: 22FD          Section: 22     Map: 45D7     X: 7580925  Y: 3983699\n\n Loc: 160 SB RT 1 BP ,59  btwn CHATHAM RD & BAKER STATION RD (V)\n AKA: KENNETT OXFORD BP  Municipality: LGROVE Dev:\n Name: WERTZ, JONATHON         Addr: 343 LEA DR              PH:\n610-812-0021\n\n/2331  (663   )  ENTRY            LOOKED LIKE WHAREHOUSE MIGHT HAVE BEEN ON\nFIRE\n                                   ONLY SAW WHITE COLORED SMOKE WHILE\nDRIVING BY\n/2332  (135   )  DISP    ENG22     #ENG22  ENG22 MDT\n/2332            ASST    LAD22     #LAD22  LAD22 MDT\n/2332            ASST    ENG12     #ENG12  ENG12 MDT\n/2332            ASST    ENG32     #ENG32  ENG32 MDT\nPRIOR PREMISE HISTORY FOR: 160 SB RT 1 BP\n,59\n\nNo Prior Premise History found for the Location
 ***************************************************************************
+Clearfield County, PA (PAClearfieldCounty)
+(Clearfield Alert) Inc: Facility Transfer-Routine\nAdd: 100 HOSPITAL AVE\nCity: DUBOIS\nUnits: 4353\n43EMS\n10/14/2012 7:15:40 AM
+(Clearfield Alert) Inc: Sick Person BLS\r\nAdd: 137 OKLAHOMA CEMETERY RD\r\nCity: SANDY\r\nUnits: 4352\r\n43EMS\r\n10/17/2012 12:05:24 PM
+(Clearfield Alert) Inc: Breathing Probs ALS\r\nAdd: 817 GREEN GLEN DR\r\nCity: DUBOIS\r\nUnits: 4352\r\n43EMS\r\n10/17/2012 2:43:57 PM
+***************************************************************************
 Dauphin County, PA (PADauphinCountyParser)
 (29CAD) [!] Box:29-1 Loc:31 S RIVER RD HFT DAUP XSts:PETERS MOUNTAIN RD ,SYCAMORE AV Event Type:OVERDOSE / POISONING (INGESTION) Class: 1 Disp: P29
 (29CAD) [!] Box:29-6 Loc:100 S FOURTH ST HFX DAUP: @BEER AND SODA PLUS XSts:RISE ST ,PETERS MOUNTAIN RD Event Type:TRAFFIC / TRANSPORTATION ACCIDENT INJURIES Class: Disp: E29-1
@@ -4904,21 +4909,6 @@ CAD:CHESTPAI;1891 HARRISON CROSSROAD LP;BURTON FARM RD;NC 14;REID;10C04;160;[Med
 CAD:STROKE;316 MATTIE RD;US 29 BUS;REID;160;TAC3 [10/14/12 18:04:44 JBOWLES] [Medical Priority Info] RESPONSE: ALS HOT & FIRST RESPONDERS RESPONDER SCRIPT:
 CAD:STRUC;480 LICK FORK CREEK RD;LICK FORK LN;LONGBRANCH RD;REID;20;rekindle at barn fire [10/13/12 08:31:41 CEADS]
 **********************************************************
-Clearfield County, PA
-Contact: "csatterlee@hallstromconstruction.com" <csatterlee@hallstromconstruction.com>,8145908933@vtext.com
-Sender: alerts@clearfieldalerts.com
-(Clearfield Alert) Inc: Facility Transfer-Routine\nAdd: 100 HOSPITAL AVE\nCity: DUBOIS\nUnits: 4353\n43EMS\n10/14/2012 7:15:40 AM
-(Clearfield Alert) Inc: Sick Person BLS\r\nAdd: 137 OKLAHOMA CEMETERY RD\r\nCity: SANDY\r\nUnits: 4352\r\n43EMS\r\n10/17/2012 12:05:24 PM
-(Clearfield Alert) Inc: Breathing Probs ALS\r\nAdd: 817 GREEN GLEN DR\r\nCity: DUBOIS\r\nUnits: 4352\r\n43EMS\r\n10/17/2012 2:43:57 PM
-(Clearfield Alert) Inc: Facility Transfer-Routine\r\nAdd: 212 S 8TH ST\r\nCity: SANDY\r\nUnits: 4351\r\n43EMS\r\n10/17/2012 2:45:20 PM
-(Clearfield Alert) Inc: Sick Person ALS\r\nAdd: 33 SHORT ST\r\nCity: FALLS_JEF\r\nUnits: 4353\r\n43EMS\r\n10/17/2012 2:58:14 PM
-(Clearfield Alert) Inc: EMS Standby\r\nAdd: 404 LIBERTY BLVD\r\nCity: DUBOIS\r\nUnits: 4353\r\n43EMS\r\n10/17/2012 5:53:35 PM
-(Clearfield Alert) Inc: Psychological Emer BLS\r\nAdd: 212 S 8TH ST\r\nCity: SANDY\r\nUnits: EMS43 814\r\n43EMS\r\n10/17/2012 7:15:19 PM
-(Clearfield Alert) Inc: OD-Poison ALS\r\nAdd: 502 JUNIATA ST\r\nCity: DUBOIS\r\nUnits: EMS43 312\r\n43EMS\r\n10/17/2012 9:15:45 PM
-(Clearfield Alert) Inc: Heart Problems-AICD ALS\r\nAdd: 145 ATHENA DR\r\nCity: SANDY\r\nUnits: 4354\r\n43EMS\r\n10/17/2012 8:11:31 PM
-(Clearfield Alert) Inc: Facility Transfer-Routine\r\nAdd: 100 HOSPITAL AVE\r\nCity: DUBOIS\r\nUnits: 4354\r\n43EMS\r\n10/18/2012 4:29:08 PM
-(Clearfield Alert) Inc: Automatic Fire Alarm\r\nAdd: 300 ASPEN WAY\r\nCity: DUBOIS\r\n
-(Clearfield Alert) Inc: Sick Person BLS\r\nAdd: 1100 W LONG AVE\r\nCity: SANDY\r\nUnits: 4354\r\n43EMS\r\n10/18/2012 11:22:33 AM
 **********************************************************
 Hamilton County, IN  (Madison County parser is working)
 Contact: Mitch Hazelbaker <mitch8123@gmail.com>
