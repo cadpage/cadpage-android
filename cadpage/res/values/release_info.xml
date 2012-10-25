@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10202012</string>
-  <string name="release_version">v1.5.64</string>
+  <string name="release_date">10252012</string>
+  <string name="release_version">v1.5.65</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-Once again, did not have time to get all of the new locations coded.  You can expect another
-update in a couple of days to include them.\n
-\n
 New Locations:\n
-Jefferson County, CO (alt)\n
-New London County, CT (was Montville)\n
-Christian County, MO\n
-Somerset County, NJ (alt)\n
-Gaston County, NC (alt)\n
-Summit County, OH\n
+Hamilton County, IN\n
+Midland County, MI\n
+CENCOM, NJ\n
+Rockingham County, NC\n
+Clearfield County, PA\n
+Pike County, PA\n
+Montgomery County, TX (alt)\n
 \n      
 Location Parsing Fixes:\n
+Hartford County, CT\n
+St Joseph County, IN\n
 Kosciusko County, IN\n
-Jackson County, IA\n
-Montgomery County, MD\n
-Greene County, MO\n
-Jasper County, MO\n
-Monroe County, NY\n
+Calvert County, MD\n
+Pulaski County, MO\n
+Gloucester County, NJ\n
+Monmouth County, NJ\n
+Steuben County, NY\n
+Burke County, NC\n
 Carteret County, NC\n
+Lincoln County, NC\n
 Surry County, NC\n
-Hamilton County, OH\n
-Marion County, OR\n
-Montgomery County, PA\n
-Oconee County, SC\n
-Collin County, TX\n
+Wadsworth County, OH\n
+Washington County, OR\n
+Pennington County, SD\n
   </string>  
 </resources>
   
