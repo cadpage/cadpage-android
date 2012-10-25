@@ -340,6 +340,9 @@ abstract class Vendor {
     // If we haven't see a text page then the answer is always no
     if (!textPage) return false;
     
+    // If vendor is enabled, answer is always no
+    if (enabled) return false;
+    
     // If startup request, return true unless user has asked us not to
     if (status == 1) return !disableTextPageCheck;
     
