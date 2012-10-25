@@ -226,10 +226,11 @@ public class ParserList {
           ),
           new ParserCategory("Indiana"
               ,"INBartholomewCounty"            ,"Bartholomew County, IN"
-              ,"INJacksonCounty"                ,"Jackson County, IN"
-              ,"INKosciuskoCounty"              ,"Kosciusko County, IN"
+              ,"INHamiltonCounty"               ,"Hamilton County, IN"
               ,"INHancockCounty"                ,"Hancock County, IN"
               ,"INHowardCounty"                 ,"Howard County, IN"
+              ,"INJacksonCounty"                ,"Jackson County, IN"
+              ,"INKosciuskoCounty"              ,"Kosciusko County, IN"
               ,"INMadisonCounty"                ,"Madison County, IN"
               ,"INMarionCounty"                 ,"Marion County, IN"
               ,"INMarshallCounty"               ,"Marshall County, IN"
