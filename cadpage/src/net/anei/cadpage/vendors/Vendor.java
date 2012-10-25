@@ -186,7 +186,7 @@ abstract class Vendor {
    * @return GCM request status for this vendor
    *   0 - GCM not supported or must be manually enabled by user
    *   1 - GCM mode forced for new registrations
-   *   2 - GCM mode forced for all user - C2DM mode is not supported
+   *   2 - GCM mode forced for all users - C2DM mode is not supported
    */
   int getGCMStatus() {
     return 0;

@@ -32,6 +32,6 @@ class CodeMessagingVendor extends Vendor {
   
   @Override
   int getGCMStatus() {
-    return 1;
+    return 2;
   }
 }
