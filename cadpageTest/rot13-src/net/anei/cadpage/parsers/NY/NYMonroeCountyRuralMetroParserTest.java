@@ -4,6 +4,17 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Zbaebr Pbhagl, AL (Eheny Zrgeb ZRqvpny Freivprf)
+Pbagnpg: "nkry_qbreere@lnubb.pbz" <nkry_qbreere@lnubb.pbz>
+
+EP:Eha# 24706/300 TRARFRR FG/K=Sebfg Nir|Fhcrevbe Fg&Fhcrevbe Fg///Cevbevgl 4/1N1 - NOQBZVANY CNVA/YBPV: NCG 508 RAGEL: 33 LBS FGBZNPU CNVA URE EVTUG FVQR KFG: ogja FHCREVBE FG NAQ
+EP:Eha# 23685/16 NHFGVA QE/K=Jbbqperfg Qe&Crasvryq Eq///Cevbevgl 4/17N3 - SNYY - CHOYVP NFFVFG/YBPV:  RAGEL: 75 LB SRZ - SRYY - SEBZ GBVYRG - FYVCCRQ - FGVYY BA SYBBE - AB VAW KFG:
+EP:Eha# 20459/50 HAVBA FDHNER OYIQ///134/Cevbevgl 3/VAWHEL- ABA NPHGR/93 LBS SRYY NAQ PHG NOBIR RLR....UNF OYBBQ VA RLR/<Haxabja>////
+EP:Eha# 20174/4 ZVGPURYY FG/K=Qrynznvar&Oneoreel///Cevbevgl 1/31Q3 - HAPBAFPVBHF/SNVAGVAT - ABG NYREG/YBPV:  RAGEL: 29 LB ZNYR CNFFRQ BHG -ABJ NJNXR-ABG NYREG KFG: ogja ONEOREEL GR
+EP:Eha# 20413/535 YLRYY NIR/K=Jneare&Zneg///Cevbevgl 4/26N2 - FVPX CREFBA - AB CEVBEVGL FLZCGBZF/YBPV: 535 1~2 YLRYY RAGEL: 21 ZBAGU BYQ Z - 104.3 GRZC - KFG: ogja ZNEG CY NAQ EE 
+
+ */
 
 choyvp pynff ALZbaebrPbhaglEhenyZrgebCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
