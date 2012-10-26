@@ -19,7 +19,7 @@ public class GASchleyCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "mfrdispatch@glen-usa.org";
+    return "MIDDLEFLINT@MFRE911.COM";
   }
   
   @Override
