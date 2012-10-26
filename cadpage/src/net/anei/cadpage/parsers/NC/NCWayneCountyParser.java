@@ -6,20 +6,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgParser;
 
-/* 
-Wayne County, NC
-Contact: support@active911.com
-Sender: CC_Message_Notification@usamobility.net
-
-Structure Fire  117,S RUNNING DEER CIR ;DUDLEY  DUDLEY [76]
-Traffic Accident-Inj    1574,    DURHAM LAKE RD ; DUDLEY  DUDLEY    [68]
-Gas Leak        105,    ROLLINGWOOD CT ;  DUDLEY    DUDLEY    [71]
-TRaffic Accident-Inj    3944,     US 117 ALT ;      DUDLEY    DUDLEY    [67]
-Gas Leak        1104,   S CHURCH ST     MOUNT OLIVE  MOUNT OLIVE  [70]
-Traffic Accident-Inj      1493,   EMMAUS CHURCH RD ;  DUDLEY    DUDLEY    [69]
-Traffic Accident-Inj    1574,     DURHAM LAKE RD ;  DUDLEY  DUDLEY    [68]
-
-*/
 
 public class NCWayneCountyParser extends MsgParser {
   

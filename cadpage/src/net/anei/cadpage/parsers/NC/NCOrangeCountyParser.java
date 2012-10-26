@@ -6,52 +6,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Orange County, NC
-Contact: Rachel Reid <rachelr832@gmail.com>
-Sender: @cedargrovefire.org
-
-(CAD Page for CFS 060911-335) OPS \nTRNG/WRK SESSION\nTRNG AT 1900 HRS\nApt: \nBuild:
-(CAD Page for CFS 060511-228) OPS 2\nAuto Fire Alarm\n6514 DOC CORBETT RD\nApt: \nBuild:
-(CAD Page for CFS 060411-348) OPS 1\nBREATHING\n8100 NC 86 N\nApt: \nBuild:
-(CAD Page for CFS 060311-397) OPS 1\nTRAUMATIC INJURY\nMILL CREEK RD and WAXSTAFF RD\nApt: \nBuild:
-(CAD Page for CFS 052911-170) OPS 1\nTraffic Accident-PI\nMCDADE STORE RD and NC 86 N\nApt: \nBuild:
-(CAD Page for CFS 051311-370) OPS \nINFO FOR ALL UNITS\n643 tanker back in service\nApt: \nBuild:
-
-COntact: Ray Enoch <renoch357@gmail.com>
-Sender: cadpage@orangeem.org
-Subject:CAD Page for CFS 082311-84\nOPS 1\nUNCONSCIOUS\n412 N ELLIOTT RD\nApt: \nBuild: \n
-
-Contact: Chris Tomlin <tomlin@smokealert.net>
-Sender: cadpage@orangeem.org
-(CAD Page for CFS 111611-425) TG: OPS 1\nINC: \nLOC: 1098 BURNING TREE DR\nAPT: \nBLDG:
-
-Contact:"Bradley T. Hinton" <brad.hinton@duke.edu>
-Sender: cadpage@orangeem.org
-(CAD Page for CFS 111911-222) TG: OPS 1\nINC: BREATHING\nLOC: 1508 JO MAC RD\nAPT: \nBLDG:
-
-Contact: Rob Pruitt <repruitt@gmail.com>
-Sender: cadpage@orangeem.org
-Subject:CAD Page for CFS 112211-111\nTG: OPS \nINC: Auto Fire Alarm\nLOC: 511 HIGHGROVE DR\nAPT: \nBLDG: \n
-Subject:CAD Page for CFS 012512-269\nRECD: 16:43:44\nTG: OPS 1\nINC: HEART PROBLEMS\nLOC: 741 W BARBEE CHAPEL RD\nAPT: \nBLDG: \nEMD: 19C03
-(CAD Page for CFS 012512-150) RECD: 11:42:42\nTG: OPS 1\nINC: HEART PROBLEMS\nLOC: 218 CEDAR CLUB CIR\nAPT: \nBLDG: \nEMD:
-Subject:CAD Page for CFS 062512-155\nRECD: 11:14:46\r\nTG: OPS 2\r\nINC: Auto Fire Alarm\r\nLOC: 555 W CAMERON AVE\r\nAPT: \r\nBLDG: \r\nEMD: \r\n\r
-
-Contact: Chapel Hill Fire Department <chfdfm91@gmail.com>
-(CAD Page for CFS 020112-248) RECD: 16:04:19\nTG: OPS \nINC: OTHER, FIRE\nLOC: 403 MARTIN LUTHER KING JR BLVD\nAPT: \nBLDG: \nEMD:
-
-Contact: Hendrix Valenzuela <blackhelmetfirefighter@gmail.com
-Subject:CAD Page for CFS 020412-294\nRECD: 18:34:31\nTG: OPS 1\nINC: CHEST PAINS\nLOC: 112 NC 54\nAPT: F1\nBLDG: \nEMD: 10D02\n
-
-Contact: charles philpot <philpotcharles@yahoo.com>
-Subject:CAD Page for CFS 021212-276\nRECD: 21:58:39\nTG: OPS 2\nINC: Auto Fire Alarm\nLOC: 730 MARTIN LUTHER KING JR BLVD\nAPT: \nBLDG: \nE
-
-Contact: Rob Pruitt <repruitt@gmail.com>
-Sender: cad@orangecountync.gova
-cad@orangecountync.gov Subject:CAD Page for CFS 072612-408\nRECD: 18:24:42\r\nTG: OPS 2\r\nINC: GAS, NATURAL LEAK\r\nLOC: 109 SERRANO WAY\r\nAPT: \r\nBLDG: \r\nEMD: \r\n\r
-
- */
-
 
 public class NCOrangeCountyParser extends FieldProgramParser {
   

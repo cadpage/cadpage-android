@@ -5,33 +5,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
-/* 
-Nash County, NC
-Contact: Patrick Jackson <patjackson52@gmail.com>
-Sender: NASH911@NASHCOUNTYNC.GOV
-
-NASH911:* 7400 LANCASTER STORE RD* * * SPRING HOPE* * ALARM-FIRE* * SEC CENTRAL* * * * * * *
-NASH911:* 6658 RED OAK RD* * * BATTLEBORO* * ALARM-FIRE* * ADT SECURITY* * * * * * *
-NASH911:* 2311 DUKE RD* * * NASHVILLE* * HEMORRHA-H* * EVANS* * * * * * *
-NASH911:* 5526 SYKES RD* * * NASHVILLE* * STROKE-H* * MILLS, URDIS* * * * * * *
-NASH911:* 7164 RACE TRACK RD* * * CASTALIA* * STRUCTURE* * DAVID TALBOT* * * * * * *
-NASH911:* 5988 SPRING CREEK RD* * * CASTALIA* * ALLERGY-H* * 704* * * * * * *
-NASH911:* SYKES RD* * * SPRING HOPE* * *FIRE* * SCOTT PARKER* * * * * * *
-NASH911:* 7671 EDWARDS RD* * * CASTALIA* * ALARM-FIRE* * GUARDIAN PROTECTION* * * * * * *
-NASH911:* 4306 SWIFT CREEK SCHOOL RD* * * WHITAKERS* * STRUCTURE* * ALLTEL WIRELESS* * * * * * *
-NASH911:* 5388 TAYLORS STORE RD* * * NASHVILLE* * OUTSIDE FI* * HEDGEPETH, AVERINE* * * * * * *
-
-Contact: Kevin Thomas <emtffkev@gmail.com>
-  / NASH911:* 5557 N HALIFAX RD* * * BATTLEBORO* * MVA PIN-H* * LARNELL HARDING* * * * * * *\n
-
-Contact: Austin wrenn <wrennaustin@gmail.com>
-NASH911:* S NASH ST* * * MIDDLESEX* * CHEST-H* * * * * * * * *
-
-Contact: "quintinjefferies76@gmail.com" <quintinjefferies76@gmail.com>
-Sender: NASH911@NASHCOUNTYNC.GOV
-NASH911:* 220 W WASHINGTON ST* * * NASHVILLE* * ELECTRICAL* * NC8* * 14FD1* * * * *
-
-*/
 
 public class NCNashCountyParser extends DispatchOSSIParser {
   

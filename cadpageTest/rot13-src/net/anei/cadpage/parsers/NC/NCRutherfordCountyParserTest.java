@@ -4,6 +4,34 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/* 
+Ehguresbeq Pbhagl, AP
+Pbagnpg: Wrsserl Ylaa <ylaaw163@lnubb.pbz>
+Fraqre: cntvat@ehguresbeqpbhaglap.tbi
+
+Cntvat: Ybpngvba= 159 JNYXRE QE*\aNCG/EBBZ* Pvgl=Sberfg Pvgl* Pnyy \aGlcr= SVER FGEHPG* Havgf=FZSQ1*\aNce24,3:05nz
+Cntvat: Ybpngvba= 557 HF 221N UJL*\aNCG/EBBZ* Pvgl=Sberfg Pvgl* Pnyy \aGlcr= SVER CBJREYA* Havgf=QHXR1, FZSQ1*\aNce23,4:27nz
+Cntvat: Ybpngvba= 140 JNYXRE QE*\aNCG/EBBZ* Pvgl=Sberfg Pvgl* Pnyy \aGlcr= SVER VYYRTNY* Havgf=FZSQ1*\aNce23,3:53nz
+Cntvat: Ybpngvba= 139 TERRAR EQ*\aNCG/EBBZ* Pvgl=Sberfg Pvgl* Pnyy \aGlcr= SVER FGEHPG* Havgf=FZSQ1*\aNce19,5:36cz
+Cntvat: Ybpngvba= UVTU FUBNYF PUHEPU EQ*\aNCG/EBBZ* Pvgl=Pyvssfvqr* Pnyy \aGlcr= SVER FGEHPG* Havgf=PSQ1, RSQ1,FZSQ1*\aNce18,10:50cz
+Cntvat: Ybpngvba= BYQ URAEVRGGN EQ & OLREF EQ*\aNCG/EBBZ* Pvgl=Ryyraobeb* Pnyy \aGlcr= FGENATR BQBE* Havgf=FZSQ1*\aNce 25,10:59nz
+Cntvat: Ybpngvba= HF221 F UJL & UNEEVF URAEVRGGN EQ*\aNCG/EBBZ* Pvgl=Sberfg Pvgl* Pnyy \aGlcr= NPPVQRAG CV* Havgf=FZSQ1,EPE1,RZF1*\aNce 25, 3:31cz
+
+Pbagnpg: Wrss Ylaa <ylaaw163@tznvy.pbz>
+Cntvat:Ybpngvba=376 JBZNPX YNXR EQ* NCG/EBBZ* Pvgl=SBERFG PVGL* Pnyy Glcr=NPPVQRAG S* Havgf=428,ZRQ10,EPE1,FZSQ1*
+
+Pbagnpg: Sreeryy Unzevpx <sveronyy3412@tznvy.pbz>
+ceif=11539p2346=cntvat@ehguresbeqpbhaglap.tbi (Zrffntr Sbejneqrq ol CntrTngr) Ybpngvba=JVGUEBJ EQ & UHQYBJ*\aNCG/EBBZ*\a\aPvgl=SBERFG PVGL*\a\aPnyy Glcr=NPPVQRAG CV*\a\a\a\aHavgf=103,SPSQ1,
+
+Pbagnpg: Npgvir911
+[] Cntvat:Yvar1=2012-059502* Ybpngvba=1600 HF 221F UJL* NCG/EBBZ=* Pvgl=SBERFG PVGL* Pnyy Glcr=RZF PURFGCNV* Yvar11=PURFG CNVA (ABA-GENHZNGVP)* Havgf=rzf1,ZRQ11,iyf1*\e\a\a
+[] Cntvat:Ybpngvba=108 CNGPURF YA* NCG/EBBZ=* Pvgl=OBFGVP* Pnyy Glcr=RZF QVSS OER* Havgf=802,ZRQ30,EPE1*\e\a\a
+[] Cntvat:Yvar1=2012-059515* Ybpngvba=394 FURANAQBNU QE* NCG/EBBZ=* Pvgl=Fcvaqnyr* Pnyy Glcr=RZF PURFGCNV* Yvar11=PURFG CNVA (ABA-GENHZNGVP)* Havgf=ZRQ10*\e\a\a
+[] Cntvat:Yvar1=2012-059516* Ybpngvba=113 TBYQ GERR YA* NCG/EBBZ=* Pvgl=EHGURESBEQGBA* Pnyy Glcr=RZF PURFGCNV* Yvar11=PURFG CNVA (ABA-GENHZNGVP)* Havgf=ZRQ11*\e\a\a
+[] Cntvat:Yvar1=2012-059517* Ybpngvba=FNAQL ZHFU* NCG/EBBZ=* Pvgl=EHGURESBEQGBA* Pnyy Glcr=FGNAQ OL* Yvar11=FGNAQ OL* Havgf=ZRQ40*\e\a\a
+[] Cntvat:Ybpngvba=1172 CVARL EVQTR EQ* NCG/EBBZ=* Pvgl=SBERFG PVGL* Pnyy Glcr=RZF PURFGCNV* Havgf=ZRQ40,EPE1*\e\a\a
+
+*/
 
 choyvp pynff APEhguresbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

@@ -2,10 +2,7 @@ package net.anei.cadpage.parsers.NC;
 
 import net.anei.cadpage.parsers.GroupBestParser;
 
-/* 
-Harnett County, NC
 
-*/
 
 public class NCHarnettCountyParser extends GroupBestParser {
   

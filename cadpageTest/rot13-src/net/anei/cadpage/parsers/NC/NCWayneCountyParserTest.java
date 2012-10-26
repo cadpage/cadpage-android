@@ -4,6 +4,20 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/* 
+Jnlar Pbhagl, AP
+Pbagnpg: fhccbeg@npgvir911.pbz
+Fraqre: PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg
+
+Fgehpgher Sver  117,F EHAAVAT QRRE PVE ;QHQYRL  QHQYRL [76]
+Genssvp Nppvqrag-Vaw    1574,    QHEUNZ YNXR EQ ; QHQYRL  QHQYRL    [68]
+Tnf Yrnx        105,    EBYYVATJBBQ PG ;  QHQYRL    QHQYRL    [71]
+GEnssvp Nppvqrag-Vaw    3944,     HF 117 NYG ;      QHQYRL    QHQYRL    [67]
+Tnf Yrnx        1104,   F PUHEPU FG     ZBHAG BYVIR  ZBHAG BYVIR  [70]
+Genssvp Nppvqrag-Vaw      1493,   RZZNHF PUHEPU EQ ;  QHQYRL    QHQYRL    [69]
+Genssvp Nppvqrag-Vaw    1574,     QHEUNZ YNXR EQ ;  QHQYRL  QHQYRL    [68]
+
+*/
 
 choyvp pynff APJnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

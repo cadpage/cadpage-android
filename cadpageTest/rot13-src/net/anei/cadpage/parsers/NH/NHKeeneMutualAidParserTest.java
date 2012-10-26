@@ -4,6 +4,24 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Xrrar Zhghny Nvq (IG & AU)
+Pbagnpg: Avpx Phfuzna <synzr05154@tznvy.pbz>
+Fraqre: pnq_qb_abg_ercyl@sverzhghnynvq.pbz
+Flfgrz: Flzcbfvhz
+
+Sverzhghnynvq.pbz yvfgf nyy gur qrcnegzragf gurl qvfcngpu 
+
+(PNQ Nhgbzngrq Rirag Abgvsvpngvba) 12 PYNEX PG\e\aAB ANZR\e\aFNKGBAF EVIRE\e\aZRQVPNY\e\a1\e\a\e\aAbgrf\e\a89 L/B Z, OYRRQVAT SEBZ CRAVF SEBZ PNGUNQRE, PON
+(PNQ Nhgbzngrq Rirag Abgvsvpngvba) 12 PYNEX PG\e\aAB ANZR\e\aFNKGBAF EVIRE\e\aZRQVPNY\e\a1\e\a\e\aAbgrf\e\aGNP: Gnp 1\e\a89 LBZ, VYY
+(PNQ Nhgbzngrq Rirag Abgvsvpngvba) 13 FGHEGRINAG YA\e\aAB ANZR\e\aFNKGBAF EVIRE\e\aZRQVPNY\e\a1\e\a\e\aAbgrf\e\aPnyyre Cubar: 8696225\e\a25LBS XARR VAW\e\aFBPPRE S
+(PNQ Nhgbzngrq Rirag Abgvsvpngvba) 347 OEBBXYVAR EQ\e\aAB ANZR\e\aNGURAF\e\aZRQVPNY\e\aNguraf\e\a\e\aAbgrf\e\aPnyyre Anzr: YVSRYVAR\e\aJVYYVNZF 73S SNYYRA URNQ R
+(PNQ Nhgbzngrq Rirag Abgvsvpngvba) 17 EVIRE\e\aAB ANZR\e\aFNKGBAF EVIRE\e\aOEHFU/FZBXR VAIRFG\e\a1\e\a\e\aAbgrf\e\aPnyyre Cubar: 869-1399\e\aPnyyre Anzr: XVZ SNV
+(PNQ Nhgbzngrq Rirag Abgvsvpngvba) 14 FGHEGRINAG YA\e\aAB ANZR\e\aFNKGBAF EVIRE\e\aNSN/OBK NYNEZ\e\a1\e\a\e\aAbgrf\e\aFGHEGNINAG OHVYQVAT\e\aPnyyre Anzr: UBZR FR
+(PNQ Nhgbzngrq Rirag Abgvsvpngvba) 801 FNKGBAF EVIRE EQ\e\aAB ANZR\e\aEBPXVATUNZ\e\aZRQVPNY\e\a3\e\a\e\aAbgrf\e\aPnyyre Cubar: 888-289-2018\e\aOHQMVP 90Z PNEQ UK
+(PNQ Nhgbzngrq Rirag Abgvsvpngvba) 27 ZNVA\e\aFNKGBAF EVIRE VAA (ZNVA)\e\aFNKGBAF EVIRE\e\aNSN/OBK NYNEZ\e\a1
+
+*/
 
 choyvp pynff AUXrrarZhghnyNvqCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

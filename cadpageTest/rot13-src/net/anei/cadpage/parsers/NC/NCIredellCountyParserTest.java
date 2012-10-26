@@ -4,6 +4,31 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/* 
+Verqryy pbhagl, AP
+Pbagnpg: Wnfba Yvggyr <wnfba.yvggyr82@tznvy.pbz>
+Fraqre: PbzzgrpuZrffratre@pb.verqryy.ap.hf
+
+SQ20 P-5 SVER NYNEZ, 347 WRAAVATF EQ
+SE200 SNYY, UNJXF EQ
+SQ20 P-36 FGNAQ OL NG ONFR, 641 ZBPXFIVYYR UJL
+SE200 ZRQVPNY NYNEZ, 142 ARJ ZRKVPB QE
+SQ20 CHOYVP FREIVPR, 106 XABYYPERFG YA
+SE200 P-86 ERFCVENGBEL QVFGERFF, 139 RNFGTNGR QE
+
+Pbagnpg: Znex fuvssyrg <znexfuvssyrg@ngg.arg>,7044004641@gkg.ngg.arg
+SEZ:PbzzgrpuZrffratre (rzretva)"\aZFT:ZSQ 2NANCULYNPGVP FUBPX, 161 AVYR PVE
+
+Pbagnpg: Pneevr Yn Onfpb <ynonfpbsnzvyl@tznvy.pbz>
+Fraqre: Onfrcntr@pb.verqryy.ap.hf
+SQ70 P-90 TENFF / JBBQF SVER, GVZORE EQ
+
+Pbagnpg: fhccbeg.npgvir911.pbz
+[] SQ18 P-90 UBHFR SVER, 127 SYBEN YA\a
+[] SQ18 P-36 FGNAQ OL NG ONFR, 1819 EVQTR EQ\a
+[] SQ18 P-5 SVER NYNEZ, 1969 ZBPXFIVYYR UJ\a
+
+*/
 
 choyvp pynff APVerqryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

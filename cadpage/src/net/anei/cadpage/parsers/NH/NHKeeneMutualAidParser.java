@@ -6,24 +6,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Keene Mutual Aid (VT & NH)
-Contact: Nick Cushman <flame05154@gmail.com>
-Sender: cad_do_not_reply@firemutualaid.com
-System: Symposium
-
-Firemutualaid.com lists all the departments they dispatch 
-
-(CAD Automated Event Notification) 12 CLARK CT\r\nNO NAME\r\nSAXTONS RIVER\r\nMEDICAL\r\n1\r\n\r\nNotes\r\n89 Y/O M, BLEEDING FROM PENIS FROM CATHADER, CBA
-(CAD Automated Event Notification) 12 CLARK CT\r\nNO NAME\r\nSAXTONS RIVER\r\nMEDICAL\r\n1\r\n\r\nNotes\r\nTAC: Tac 1\r\n89 YOM, ILL
-(CAD Automated Event Notification) 13 STURTEVANT LN\r\nNO NAME\r\nSAXTONS RIVER\r\nMEDICAL\r\n1\r\n\r\nNotes\r\nCaller Phone: 8696225\r\n25YOF KNEE INJ\r\nSOCCER F
-(CAD Automated Event Notification) 347 BROOKLINE RD\r\nNO NAME\r\nATHENS\r\nMEDICAL\r\nAthens\r\n\r\nNotes\r\nCaller Name: LIFELINE\r\nWILLIAMS 73F FALLEN HEAD E
-(CAD Automated Event Notification) 17 RIVER\r\nNO NAME\r\nSAXTONS RIVER\r\nBRUSH/SMOKE INVEST\r\n1\r\n\r\nNotes\r\nCaller Phone: 869-1399\r\nCaller Name: KIM FAI
-(CAD Automated Event Notification) 14 STURTEVANT LN\r\nNO NAME\r\nSAXTONS RIVER\r\nAFA/BOX ALARM\r\n1\r\n\r\nNotes\r\nSTURTAVANT BUILDING\r\nCaller Name: HOME SE
-(CAD Automated Event Notification) 801 SAXTONS RIVER RD\r\nNO NAME\r\nROCKINGHAM\r\nMEDICAL\r\n3\r\n\r\nNotes\r\nCaller Phone: 888-289-2018\r\nBUDZIC 90M CARD HX
-(CAD Automated Event Notification) 27 MAIN\r\nSAXTONS RIVER INN (MAIN)\r\nSAXTONS RIVER\r\nAFA/BOX ALARM\r\n1
-
-*/
 
 
 public class NHKeeneMutualAidParser extends FieldProgramParser {

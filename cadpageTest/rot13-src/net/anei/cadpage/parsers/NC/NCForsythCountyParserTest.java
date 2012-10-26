@@ -4,6 +4,40 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Sbeflgu Pbhagl, AP
+Pbagnpg: Funar Gnlybe <qfgnlybe9@tznvy.pbz>
+Pbagnpg: "Shyx, Oenq" <oshyx@uhagrefivyyrsq.pbz>
+Fraqre: sbeflgupbhaglsve@oryyfbhgu.arg,ysqnyygrkg@yrjvfivyyrsver.pbz
+
+Ybpngvba: 1 FGBXRF PBHAGL: @FGBXRF PBHAGL: 2312 UJL 65 R Angher: Hapbafpvbhf/Haerfcbafvir/Flapbcr C:1  - qrsnhyg QVFGEVPG: E09 K Fge: / PNYYRE ANZR: FGBX
+Ybpngvba: 6206 ERVQFIVYYR EQ SP: @PERRXFVQR ZNABE Angher: Purfg Cnva/Urneg Ceboyrzf C:1  - JVGU_FLZCGBZF QVFGEVPG: E31 K Fge: TBBQJVYY PUHEPU EQ/CVARL TE
+Ybpngvba: 9350 SERRZNA EQ SP Angher: Urnqnpur C:1  - IVFVBA_CEBOYRZF QVFGEVPG: E31 K Fge: CVARL TEBIR EQ/TBBQJVYY PUHEPU EQ PNYYRE ANZR: ZNEGVA, ANBZV
+Ybpngvba: 6000OYX ERVQFIVYYR EQ SP Angher: CHOYVP FREIVPR PNYY C:3  - qrsnhyg QVFGEVPG: S31 K Fge: OEVAXYRL EQ/TBBQJVYY PUHEPU EQ PNYYRE ANZR:
+Ybpngvba: 1105 JUVFCREVAT CVARF QE SP Angher: Cbjre Yvarf Nepvat ba Cbyr C:2  - qrsnhyg QVFGEVPG: S31 K Fge: JNEQF CBAQ PG/DHNVY UBYYBJ EQ PNYYRE ANZR:
+Ybpngvba: 5825 CBCCL FRRQ QE SP Angher: Oehfu Sver C:1  - qrsnhyg QVFGEVPG: S31 K Fge: OEVAXYRL CNEX QE/WVYNVA FG PNYYRE ANZR: PNENAAN, XRAJLA
+Ybpngvba: 1800 FCEVATSVRYQ SNEZ PG PY Angher: Oernguvat Qvssvphygl C:1  - OERNGUVAT_QVSS QVFGEVPG: E11 K Fge: FCEVATSVRYQ SNEZ EQ/ PNYYRE ANZR:
+Ybpngvba: 4595 FGLREF SREEL EQ JF Angher: Fvpx/Haxabja C:1  - qrsnhyg QVFGEVPG: E11 K Fge: SBK EVQTR YA/ERZVATGBA QE PNYYRE ANZR:
+Angher: Zbgbe Iruvpyr Nppvqrag C:1  - qrsnhyg QVFGEVPG: E11 K Fge: YRJVFIVYYR-PYRZZBAF EQ/ERLABYQF EQ PNYYRE ANZR:
+Ybpngvba: AO 421 SP Angher: Zbgbe Iruvpyr Nppvqrag C:1  - qrsnhyg QVFGEVPG: E13 K Fge: FPBGG EQ/FO 421 PNYYRE ANZR: SPFQ
+Ybpngvba: 191 YBJRF SBBQ QE SP: @N PYRNARE JBEYQ Angher: Nynezf - Sver be Fzbxr C:1  - qrsnhyg QVFGEVPG: S11 K Fge: WRAAVATF EQ/FUNYYBJSBEQ EQ PNYYRE
+Ybpngvba: 6441 UBYQRE EQ PY,EZ 8: @PYRZZBAF IVYYNTR VV Angher: Oernguvat Qvssvphygl C:1  - OERNGUVAT_QVSS QVFGEVPG: E11 K Fge: UBYQRE PG/FBHGUJRFG FPU
+
+Pbagnpg: Rhtrar Ibtyre <cjibtyre@tznvy.pbz>
+Ybpngvba: 1 FGBXRF PBHAGL: @FGBXRF PBHAGL:511 JVAQZVYY FG Angher: QBN C:1  - qrsnhyg QVFGEVPG: S09 K Fge: / PNYYRE ANZR: 1224
+
+Pbagnpg: Wbfuhn Oenql <woenql1009@tznvy.pbz>
+Ybpngvba: AO 311 JF Angher: Zbgbe Iruvpyr Nppvqrag C:1  - qrsnhyg QVFGEVPG: S28 K Fge: HAVBA PEBFF EQ_AO 311 EN/AO 311_EVQTRJBBQ
+
+Pbagnpg: Gvz Fjnvz <fjnvzhf@tznvy.pbz>
+Ybpngvba: 125 PUNHPRE IVRJ PVE XR Angher: Purfg Cnva/Urneg Ceboyrzf C:1  - qrsnhyg QVFGEVPG: S41 K Fge: PUNHPRE ZNABE YA/PUNHPRE
+
+Pbagnpg: fhccbeg@npgvir911.pbz
+Fraqre: SPSQ <sbeflgupbhaglsve@oryyfbhgu.arg>
+Ybpngvba: 6010 ZRNQBJOEBBX ZNYY PG PY: @PERFG BS PYRZZBAF Angher: Hapbafpvbhf/Haerfcbafvir/Flapbcr C:1  - PBASVEZRQ QVFGEVPG: S14 K Fge: ENZNQN QE/ PNYYRE ANZR: GUR PERFG BS PYRZZBAF
+Ybpngvba: 3905 PYRZZBAF EQ PY: @ERTRAPL PNER BS PYRZZBAF Angher: Oernguvat Qvssvphygl C:1  - BIRE_50_QVSS QVFGEVPG: S14 K Fge: OEVQTRJNGRE QE/WBL CNEX YA PNYYRE ANZR: QBZVAVBA ZNANTRZRAG TEBHC / SBEF
+
+ */
 
 choyvp pynff APSbeflguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

@@ -3,24 +3,7 @@ package net.anei.cadpage.parsers.RI;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Washington County, RI
-Contact: Patrick Hawkins <forestryfire302@gmail.com>
-Sender: cad_do_not_reply@westerlyambulance.org
 
-(CAD Notification) 2012/05/13 15:25:39\n10 CEDAR HILLS DR\nNO NAME\nRICHMOND\nEMERGENCY\n\nNotes\n71 FEMALE, FALL IN PAIN.  CALL FROM 303
-(CAD Notification) 2012/05/13 10:11:03\n825 MAIN ST APT C105\nNO NAME\nHOPKINTON\nEMERGENCY\n\nNotes\nMEDICAL ALARM, NO RESPONSE
-(CAD Notification) 2012/05/13 04:41:24\n307 CHURCH ST A\nNO NAME\nRICHMOND\nEMERGENCY\n\nNotes\n86 Y/O F. FALL VICTIM
-(CAD Notification) 2012/05/13 02:27:03\n807 MAIN ST APT B5\nNO NAME\nHOPKINTON\nEMERGENCY\n\nNotes\n80 Y/O F. DEYDRATION AND WEAK
-(CAD Notification) 2012/05/12 13:32:27\n2 @95 N\n@95 NORTH AT EXIT 2 (@95)\nHOPKINTON\nMVA\n\nAssigned Units\nAMB_313 RESP HOT\n\nNotes\nNORTH OF EXIT
-(CAD Notification) 2012/05/12 01:41:45\n31 COLUMBIA HTS OVAL\nNO NAME\nCHARLESTOWN\nEMERGENCY\n\nNotes\nDISORIENTED MAN
-(CAD Notification) 2012/05/12 16:26:30\n54 NOOSENECK HILL RD\nRI STATE POLICE (NOOSENECK HILL RD)\nRICHMOND\nEMERGENCY\n\nNotes\nEYE INJURY FROM PRE
-
-Contact: "ldisandro3137@gmail.com" <ldisandro3137@gmail.com>
-Sender: cad_do_not_reply@westerlyambulance.org
-Subject:CAD Notification\nhttp://911txt.co/r/wd/59050\r\n2012/09/03 09:34:11\r\n21 KINGSTOWN RD\r\nRICHMOND\r\nMVA\r\n\r
-
-*/
 
 public class RIWashingtonCountyParser extends FieldProgramParser {
  

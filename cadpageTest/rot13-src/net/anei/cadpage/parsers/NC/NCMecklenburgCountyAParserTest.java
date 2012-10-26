@@ -4,6 +4,62 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Zrpxyraohet Pbhagl, AP
+Pbagnpg: Evpx <irel.benatr@tznvy.pbz>
+Fraqre: cntvat@epfpbz.pbz
+Flfgrz: GevGrpu IvfvPNQ
+
+Fhowrpg:Grkg Cntr\a18758 Fvyire Dhnl Qe                                                  Puneyvr                       17- Snyyf/Onpx vawhe
+Fhowrpg:Grkg Cntr\a03172011-073     Erprvirq:  08:42    Nffvtarq:  08:43    Raebhgr:   08:45    Neevirq:   08:48    Cg Pbagnpg:         Pna
+Fhowrpg:Grkg Cntr\a19485 Byq Wrggba Eq           fgr 100   Ynxrfvqr Snzvygl Culfvpvnaf naQrygn                         31- Hapbafpvbhfarff/
+Fhowrpg:Grkg Cntr\a03172011-239     Erprvirq:  16:59    Nffvtarq:  16:59    Raebhgr:   17:01    Neevirq:   17:02    Cg Pbagnpg:         Pna
+
+Pbagnpg: Ghpxre Fvmrzber <gfvmrzber@tznvy.pbz>
+Fraqre: @uhagrefivyyrsq.pbz
+(Grkg Cntr) 04022011-202     Erprvirq:  15:29    Nffvtarq:  15:29    Raebhgr:            Neevirq:            Cg Pbagnpg:
+(Grkg Cntr) 16710 Abegupebff Qe                                                   Sver -  Rzretrapl             59-Shry Fcv
+(Grkg Cntr) 04022011-238     Erprvirq:  16:50    Nffvtarq:  16:50    Raebhgr:   16:51    Neevirq:   16:59    Cg Pbagnpg:
+(Grkg Cntr) 19180-19209 Pbnpuznaf Genpr             TYRAEVQTR                     Sver -  Rzretrapl             69-Fgehpgher Sver             Zrnqbj Pebffvat Y
+
+Pbagnpg: Wbua Fgebhc <wofgebhc3@tznvy.pbz>
+Fhowrpg:Vapbzvat Zrffntr\a16738 Nzorefvqr Eq Rnfg                 Nyrknaqre Punfr Pbaqbf        Sver -  Rzretrapl             52S-Nynez-SVER
+
+Pbagnpg: Qnivq Shyyre <sversvtugre19163@argfpncr.pbz>
+Fhowrpg:Vapbzvat Zrffntr\a9150 Ynjlref Eq                         ZpQbanyqf - Zvag Uvyy         Puneyvr                       06- Oernguvat Ce
+Fhowrpg:Vapbzvat Zrffntr\a10043 Vqyrjvyq Eq             126       Jvyybj Tebir Ergverzrag       Puneyvr                       06- Oernguvat Ce
+
+Pbagnpg: Qnivq Oblq <ebbxvrsver14@tznvy.pbz>
+(Vapbzvat Zrffntr) 19432 Sevqyrl Ya                        zrqvpny nynez .. ab cg vasb ..Puneyvr                       32- Haxabja ceboyrz (zna qbja)Qranr Ylaa
+
+Pbagnpg: Zvpunry Svyyvora <zsvyyvorar16@tznvy.pbz>
+Fraqre: Tebhc_Cntr_Abgvsvpngvba@nepujveryrff.arg
+9120 Jvyybj Evqtr Eq          307N      Ertrapl Ergverzrag            Puneyvr                       26- Fvpx crefba               Tbbqfryy
+12463 Fgengsvryq Cynpr Pe               PNEBYVAN PEBFFVAT FHOQ        Qrygn                         31- Hapbafpvbhfarff/Snvagvat  Fgvarjnl Pg/Fnz Zrrxf Eq                                    CVAE3     Znc - 405405/W9 07302011-086
+1010 Ynxrivrj Qe              30-O      Ciy Eruno & Yvivat Pge  *FAS* Puneyvr                       06- Oernguvat Ceboyrzf        Rqra Pe/O
+
+Pbagnpg: Ora Erntna <oerntna@rnfgyvapbyasq.bet>
+(Vapbzvat Zrffntr) 16902 Uneobe Znfgre Pbir                                              Sver -  Rzretrapl             52S
+(Vapbzvat Zrffntr) 13000-oyx Uvqpbgr Pg                    OHEAVAT OEHFU                 Sver -  Rzretrapl             67-
+(Vapbzvat Zrffntr) 16902 Uneobe Znfgre Pbir                                              Sver -  Rzretrapl             52S
+(Vapbzvat Zrffntr) 14341 Fnyrz Evqtr Eq                    erfvqragvny sver nynez        Sver -  Rzretrapl             52S
+(Vapbzvat Zrffntr) 12019 Ireubrss Qe                       Uhagrefivyyr Bnxf Ahefvat *FASSver -  Rzretrapl             52S
+(Vapbzvat Zrffntr) Ornggvrf Sbeq Eq & Zpvyjnvar E          GERR QBJA OYBPXVAT BAR YNAR   Sver -  Rzretrapl             53-
+
+Pbagnpg: Znex Fpurvoyr <fpurvoyr_znex@lnubb.pbz>
+Fraqre: f01cntr+oapPZvM9LCUSkPycYY-OObRegI5Zt@uhagrefivyyrsq.pbz
+(Vapbzvat Zrffntr) 12903 Guvfgyroebbx Ya                                                 Oenib-OYF PBYQ
+(Vapbzvat Zrffntr) 11530 Ornggvrf Sbeq Eq        ZNVA RAGE Ubcrjryy Uvtu Fpubby NRQ      Puneyvr       
+
+** ABG VZCYRZRAGRQ **
+Pbagnpg: Wbua Fgebhc <w.fgebhc@abeguzrpxerfphr.bet>
+Fhowrpg:Vapbzvat Zrffntr\a15503 A Byq Fgngrfivyyr Eq Abegu Zrpx Erfphr Puneyvr 12- Pbaihyfvba/Frvmher 60 Sbbg Fg/Haanzrq Fg Aze1 Znc - 266266/
+Fhowrpg:Vapbzvat Zrffntr\a15503 A Byq Fgngrfivyyr Eq Abegu Zrpx Erfphr Puneyvr 12- Pbaihyfvba/Frvmher 60 Sbbg Fg/Haanzrq Fg Aze2 Znc - 266266/
+
+16902 Uneobe Znfgre Pbir                                              Sver -  Rzretrapl             52S
+1010 Ynxrivrj Qe              30-O      Ciy Eruno & Yvivat Pge  *FAS* Puneyvr                       06- Oernguvat Ceboyrzf        Rqra Pe/O
+
+*/
 
 choyvp pynff APZrpxyraohetPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
