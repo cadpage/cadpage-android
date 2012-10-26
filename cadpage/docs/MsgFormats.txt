@@ -5078,5 +5078,4 @@ Sender: cfs@madisoncountypaging.com
 **********************************************************
 * EOF
 **********************************************************
-
-
+(CFS) Call Type: Medical Call - ALS\nNature: 71 yom went unconcious coming around now thinks he had a stroke is breathing\nUnits: RIA45\nCall #: \nCall Date/Time: 10/22/2012 3:30:30 PM\nPriority: High\nCommon Name: \nAddress: 1039 E CORD 700 N, Alexandria\nIntersection: N CORD 125 E / RT 9\nCity: ALEXANDRIA\nUnits: RIA45 \nInfo: 71 yom went unconcious coming around now thinks he had a stroke is breathing\nNarr: \nBeat: MC4\nQuadrant: 40-8\nDistrict: 40-8\nSource: Phone\n

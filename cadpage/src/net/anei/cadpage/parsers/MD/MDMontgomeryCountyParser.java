@@ -57,22 +57,22 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
 	  }
 	}
 	
-  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+\\d{3}[A-Z]?");
-	private class MyUnitField extends UnitField {
-	  @Override
-	  public void parse(String field, Data data) {
-      for (String unit : field.split(" +")) {
-        if (UNIT_PTN.matcher(unit).matches()) {
-          data.strUnit = append(data.strUnit, " ", unit);
-        }
-      }
-	  }
-  }
+//  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+\\d{3}[A-Z]?");
+//	private class MyUnitField extends UnitField {
+//	  @Override
+//	  public void parse(String field, Data data) {
+//      for (String unit : field.split(" +")) {
+//        if (UNIT_PTN.matcher(unit).matches()) {
+//          data.strUnit = append(data.strUnit, " ", unit);
+//        }
+//      }
+//	  }
+//  }
 	
 	@Override
 	public Field getField(String name) {
 	  if (name.equals("ADDR")) return new MyAddressField();
-	  if (name.equals("UNIT")) return new MyUnitField();
+//	  if (name.equals("UNIT")) return new MyUnitField();
 	  return super.getField(name);
 	}
   
