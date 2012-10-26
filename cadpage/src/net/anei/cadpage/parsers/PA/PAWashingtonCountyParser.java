@@ -157,6 +157,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       "ACC",    "ACCIDENT NO INJURIES",
       "ACCEN",  "ACCIDENT W/ENTRAPMENT",
       "ACCFA",  "ACCIDENT W/FATALITY",
+      "ACCCHR", "ACCIDENT HIT AND RUN",
       "ACCIN",  "ACCIDENT W/INJURIES",
       "ACCRB",  "ACCIDENT BLOCKING RDWY",
       "ACCUN",  "ACCIDENT W/UNK INJURIES",
@@ -183,12 +184,14 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       "COL",    "COLLAPSE",
       "DIA",    "DIABETIC EMERGENCY",
       "DOA",    "DEAD ON ARRIVAL",
+      "DOM",    "DOMESTIC DISPUTE",
       "DRILL",  "DRILL",
       "DRWN",   "DROWNING",
       "ELEEM",  "ELEVATOR EMERGENCY",
       "EXPLO",  "EXPLOSION",
       "EYE",    "EYE EMERGENCY",
       "FALL",   "FALL",
+      "FIGHT",  "FIGHT",
       "FIRAL",  "FIRE ALARM",
       "FIRCH",  "CHEMICAL FIRE",
       "FIRE",   "FIRE",
@@ -241,6 +244,5 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       "UNCON",  "UNCONSCIOUS PATIENT",
       "WEATH",  "WEATHER UPDATES",
       "WIRES",  "DOWNED/LOW HANGING WIRE"
-
   });
 }
