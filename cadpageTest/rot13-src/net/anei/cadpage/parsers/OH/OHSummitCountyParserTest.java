@@ -74,6 +74,7 @@ Fraqre: nyregf@vafcvebaybtvfgvpf.pbz
 (Nyreg Abgvsvpngvba) * ongusver QVFERTNEQ S13NEP,NHGB ERFCBAFR - PBCYRL<oe /><oe/>\aGur rapybfrq vasbezngvba vf FGEVPGYL PBASVQRAGVNY naq vf vagraqrq sbe gur hfr bs gur nqqerffrr bayl. Fhzzvg Pbhagl, Bu naq vgf nssvyvngrf qvfpynvz nal erfcbafvovyvgl sbe hanhgubevmrq qvfpybfher bs guvf vasbezngvba bgure guna gur nqqerffrr. Gb hafhofpevor, cyrnfr rznvy fgbc gb erzbir@jrafargjbex.pbz.
 (Nyreg Abgvsvpngvba) * ongusverhctenqr gb shyy neerfg 6,OERNGUVAT CEBOYRZF * 250,Pyrir-Znff Eq (A), * VASBPVFVBA 250 PZE,Ongu * 30 LBZ OERNGUVAT QVSS. HFR SEBAG QBBE<oe /><oe/>\aGur rapybfrq vasbezngvba vf FGEVPGYL PBASVQRAGVNY naq vf vagraqrq sbe gur hfr bs gur nqqerffrr bayl. Fhzzvg Pbhagl, Bu naq vgf nssvyvngrf qvfpynvz nal erfcbafvovyvgl sbe hanhgubevmrq qvfpybfher bs guvf vasbezngvba bgure guna gur nqqerffrr. Gb hafhofpevor, cyrnfr rznvy fgbc gb erzbir@jrafargjbex.pbz.
 
+
  */
 
 choyvp pynff BUFhzzvgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -645,6 +646,11 @@ choyvp pynff BUFhzzvgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:S25",
         "PNYY:JRNGURE NQIVFBEL 1236 JRRXYL GBARF NAQ GRKG GRFG");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPbcyrlSver() {
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

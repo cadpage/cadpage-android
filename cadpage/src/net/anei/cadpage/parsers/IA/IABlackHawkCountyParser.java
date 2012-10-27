@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.IA;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -42,15 +45,35 @@ public class IABlackHawkCountyParser extends FieldProgramParser {
     return "ID " + super.getProgram();
   }
   
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("//", "/");
+      if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
+      super.parse(field, data);
+    }
+  }
+  
   private class MyPlaceField extends PlaceField {
     @Override
     public void parse(String field, Data data) {
       // Last token is the (possibly abbreviated) city
-      int pt = Math.max(field.lastIndexOf(' '), field.lastIndexOf('/'));
-      if (pt < 0) abort();
-      data.strCity = field.substring(pt+1).trim();
+      int pt = field.lastIndexOf('@');
+      if (pt < 0) pt = field.lastIndexOf('/');
+      if (pt < 0) pt = field.lastIndexOf(' ');
+      if (pt < 0) {
+        if (CITY_SET.contains(field.toUpperCase())) {
+          data.strCity = field;
+          field = "";
+        }
+      } else {
+        String city = field.substring(pt+1).trim();
+        if (CITY_SET.contains(city.toUpperCase())) {
+          data.strCity = city;
+          field = field.substring(0,pt).trim();
+        }
+      }
       if (data.strCity.equals("RAYMO")) data.strCity = "RAYMOND";
-      field = field.substring(0, pt).trim();
       super.parse(field, data);
     }
     
@@ -63,6 +86,7 @@ public class IABlackHawkCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("X")) return new MyCrossField();
     if  (name.equals("PLACE")) return new MyPlaceField();
     return super.getField(name);
   }
@@ -82,4 +106,48 @@ public class IABlackHawkCountyParser extends FieldProgramParser {
     
     return true;
   }
+  
+  private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
+      // Incorporated cities
+      "CEDAR FALLS",
+      "DUNKERTON",
+      "ELK RUN HEIGHTS",
+      "EVANSDALE",
+      "GILBERTVILLE",
+      "HUDSON",
+      "JANESVILLE",
+      "JESUP",
+      "LA PORTE CITY",
+      "RAYMOND",
+      "RAYMO",
+      "WATERLOO",
+      
+      // Unincorporated areas
+      "DEWAR",
+      "EAGLE CENTER",
+      "FINCHFORD",
+      "GLASGOW",
+      "VOORHIES",
+      "WASHBURN",
+      
+      // Townships
+      "BARCLAY",
+      "BENNINGTON",
+      "BIG CREEK",
+      "BLACK HAWK",
+      "CEDAR",
+      "CEDAR FALLS",
+      "EAGLE",
+      "EAST WATERLOO",
+      "FOX",
+      "LESTER",
+      "LINCOLN",
+      "MOUNT VERNON",
+      "ORANGE",
+      "POYNER",
+      "SPRING CREEK",
+      "UNION",
+      "WASHINGTON",
+
+  }));
 }
