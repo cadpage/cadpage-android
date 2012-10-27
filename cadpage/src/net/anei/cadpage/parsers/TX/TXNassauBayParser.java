@@ -59,7 +59,7 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   public Field getField(String name) {
     if (name.equals("CANCEL")) return new CallField("CANCEL", true);
     if (name.equals("UNIT")) return new UnitField("[A-Z]+\\d+|[A-Z]{2}FD|\\d{4}(?:,.*)?", true);
-    if (name.equals("CODE")) return new CodeField("[A-Z]{2,4}", true);
+    if (name.equals("CODE")) return new CodeField("[A-Z]{1,3}[A-Z0-9]", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
@@ -71,6 +71,8 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   private static final Pattern PVT_DR_PTN = Pattern.compile("\\(PVT.*?\\)(?: *(?:DR|RD)\\b)?", Pattern.CASE_INSENSITIVE);
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CS", "CLEAR LAKE SHORES",
+      "EL", "EL LAGO",
       "FW", "FRIENDSWOOD",
       "HO", "NASSAU BAY",
       "LC", "LEAGUE CITY",

@@ -1,4 +1,3 @@
-Supported district message formats
 This isn't intended to be the final or full documentation for different 
 message formats, but it is a good summary to look through for something similar
 to a new district format
@@ -5075,6 +5074,32 @@ Sender: cfs@madisoncountypaging.com
 (CFS) Call Type: Medical Call - ALS\nNature: 66yof slight trouble breathing/pain in the back/feeling ill\nUnits: INA21\nCall #: \nCall Date/Time: 10/6/2012 6:26:13 PM\nPriority: High\nCommon Name: \nAddress: 238 ALFONTE ST, Ingalls\nIntersection: MENDEN AVE / S CORD 710 W, LICK CREEK DR\nCity: INGALLS\nUnits: INA21 \nInfo: 66yof slight trouble breathing/pain in the back/feeling ill\nNarr: \nBeat: IN1\nQuadrant: 20-03\nDistrict: 20-03\nSource: Phone\r\n\r\n
 (CFS) Call Type: Medical Call - ALS\nNature: 66/f recent surgery ill, altered mental status\nUnits: INA21\nCall #: \nCall Date/Time: 10/6/2012 9:29:53 AM\nPriority: High\nCommon Name: \nAddress: 132 MENDEN AVE, Ingalls\nIntersection: MERIDIAN ST / RANDALL ST\nCity: INGALLS\nUnits: INA21 \nInfo: 66/f recent surgery ill, altered mental status\nNarr: \nBeat: MC7\nQuadrant: 80-24\nDistrict: 80-24\nSource: Phone\r\n\r\n
 **********************************************************
+Butler County, OH
+Contact: Active911
+Agency name: Butler County Technical Rescue Team
+Location: West Chester Township, OH, United States
+Sender: West Chester 7COMM <IPAGE@IPSCAD>
+
+(IPS I/Page Notification) Loc: 6485 VONNIE VALE CT BC FFTW: @FAIRFIELD TWP POLICE DEPT TYPE CODE: TECHRES TIME: 10:31:25 \r\n\r\n
+(IPS I/Page Notification) Loc: ABSAROKA CT/BODFORD DR BC WCHT TYPE CODE: TECHRES TIME: 10:28:32 \r\n\r\n
+(IPS I/Page Notification) Loc: 9210 CINCINNATI COLUMBUS RD BC WCHT: @SHELL TYPE CODE: TECHRES TIME: 10:24:40 \r\n\r\n
+(IPS I/Page Notification) Loc: 3001 MOHAWK ST BC MIDT TYPE CODE: TECHRES TIME: 10:23:29 \r\n\r\n
+(IPS I/Page Notification) Loc: STATE RD/OXFORD MIDDLETOWN RD BC MILT TYPE CODE: TECHRES TIME: 10:21:20 \r\n\r\n
+(IPS I/Page Notification) Loc: 8551 BECKETT RD BC WCHT: @STATION 74 TYPE CODE: TECHRES TIME: 09:06:30 \r\n\r\n
+(IPS I/Page Notification) Loc: 1003 MORGAN ROSS RD BC MORT TYPE CODE: TECHRES TIME: 13:49:02 \r\n\r\n
+(IPS I/Page Notification) Loc: HUSTON RD/TRENTON OXFORD RD BC MILT TYPE CODE: TECHRES TIME: 13:46:36 \r\n\r\n
+(IPS I/Page Notification) Loc: 6616 AUTUMN GLEN DR BC WCHT TYPE CODE: TECHRES TIME: 13:44:51 \r\n\r\n
+(IPS I/Page Notification) Loc: TYLERSVILLE RD/COX RD BC WCHT TYPE CODE: TECHRES TIME: 16:35:28 \r\n\r\n
+(IPS I/Page Notification) Loc: 9117 CINCINNATI COLUMBUS RD BC WCHT: @WEST CHESTER NURSING & REHABILITATION RESIDENCE TYPE CODE: TECHRES TIME: 16:29:17 \r\n\r\n
+(IPS I/Page Notification) Loc: N WINDWOOD DR/CASEYS XING BC WCHT TYPE CODE: TECHRES TIME: 08:52:22 \r\n\r\n
+(IPS I/Page Notification) Loc: 2200 I 75 NB BC WCHT: @I 75 - 22.O MM TYPE CODE: TECHRES TIME: 08:46:13 \r\n\r\n
+(IPS I/Page Notification) Loc: 8195 BECKETT RD BC WCHT: @TRI COUNTY BAPTIST CHURCH TYPE CODE: TECHRES TIME: 08:43:21 \r\n\r\n
+(IPS I/Page Notification) Loc: 8238 PRINCETON GLENDALE RD BC WCHT: @KROGER TYPE CODE: TECHRES TIME: 22:53:50 \r\n\r\n
+(IPS I/Page Notification) Loc: PRINCETON GLENDALE RD/UNION CENTRE BLVD BC WCHT TYPE CODE: TECHRES TIME: 22:25:39 \r\n\r\n
+(IPS I/Page Notification) Loc: 6098 W CHESTER RD BC WCHT: @SKYLINE TYPE CODE: TECHRES TIME: 22:25:07 \r\n\r\n
+(IPS I/Page Notification) Loc: 9577 BECKETT RD BC WCHT,500: @PD TYPE CODE: TECHRES TIME: 21:28:34 \r\n\r\n
+(IPS I/Page Notification) Loc: COX LN/TYLERSVILLE RD BC WCHT TYPE CODE: TECHRES TIME: 21:27:29 \r\n\r\n
+(IPS I/Page Notification) Loc: 4850 DUFF DR BC WCHT: @FD - WCFD STA 73 TYPE CODE: TECHRES TIME: 15:54:28 \r\n\r\n
 **********************************************************
 * EOF
 **********************************************************
