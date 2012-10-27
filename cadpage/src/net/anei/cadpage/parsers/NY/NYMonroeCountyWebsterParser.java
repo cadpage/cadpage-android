@@ -85,6 +85,7 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
       "SWE", "SWEDEN",
       "VIC", "VICTOR",
       "WBT", "WEBSTER",
+      "WBV", "WEBSTER",
       "WEB", "WEBSTER",
       "WHE", "WHEATLAND"
   });
