@@ -68,11 +68,11 @@ public class NYOntarioCountyParser extends FieldProgramParser {
     
     @Override
     public String adjustMapAddress(String addr) {
-      addr = RT_5_25_PTN.matcher(addr).replaceAll("5");
+      addr = RT_5_20_PTN.matcher(addr).replaceAll("5");
       addr = RT_5_21_PTN.matcher(addr).replaceAll("$1");
       return addr;
     }
-	  private static final Pattern RT_5_25_PTN = Pattern.compile("\\b5 (?:AND|&) 20\\b");
+	  private static final Pattern RT_5_20_PTN = Pattern.compile("\\b5 (?:AND|&) 20\\b");
 	  private static final Pattern RT_5_21_PTN = Pattern.compile("(?:RT |ROUTE |\\b)(?:5|20)(?: *& *)((?:RT|ROUTE) *21)\\b");
 	}
 	

@@ -26,7 +26,7 @@ public class CadpageParser  extends FieldProgramParser{
   
   @Override
   public String getLocName() {
-    return "Cadpage";
+    return "Standard Cadpage Format";
   }
   
   @Override

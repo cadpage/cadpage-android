@@ -100,6 +100,7 @@ public class ParserList {
               ,"General"                        ,"Generic Location"
               ,"GeneralSlash"                   ,"Generic (slash field separator)"
               ,"GeneralDash"                    ,"Generic (dash field separator)"
+              ,"Cadpage"                        ,"Standard Cadpage Format"
               ,"StandardSpottedDog"             ,"Spotted Dog Technologies"
               ,"StandardA"                      ,"Standard Format A"
           ),
