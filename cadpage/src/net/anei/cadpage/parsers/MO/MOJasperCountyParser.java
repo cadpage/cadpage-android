@@ -12,7 +12,7 @@ public class MOJasperCountyParser extends DispatchOSSIParser {
  
   public MOJasperCountyParser() {
     super(CITY_CODES, "JASPER COUNTY", "MO",
-           "FYI CALL PLACE? ADDR/Z CITY X/Z+? CODE! INFO+");
+           "FYI CALL PLACE? ADDR/Z CITY X? X? CODE? INFO+");
   }
   
   @Override
@@ -28,7 +28,11 @@ public class MOJasperCountyParser extends DispatchOSSIParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CJCT", "CARL JUNCTION",
+      "CRTV", "CARTERVILLE",
+      "DQSN", "DUQUESNE",
+      "DNWG", "DUENWEG",
       "JPLN", "JOPLIN",
+      "ORNG", "ORONOGO",
       "WBCT", "WEBB CITY",
       
       "CNTY", ""
