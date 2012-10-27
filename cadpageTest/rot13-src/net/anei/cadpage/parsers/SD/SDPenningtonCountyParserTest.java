@@ -28,6 +28,7 @@ Pbagnpg: Nyrknaqre Vatnyyf <nyrkvatnyyf09@tznvy.pbz>
 Pbagnpg: Evpx Uhyvat <uneqsnpr.eu@tznvy.pbz>
 Fraqre: qvfcngpu@pb.craavatgba.fq.hf
 (Cntr) Havg:AU Fgnghf:QVFCNGPURQ SVER UBEFRFUBR EQ RYX INYR EQ Obk Ryqre  FGEHPGHERF ORVAT GUERNGRA  BA CENVEVR     TENFF SVER***  ABEGU BS GUR SYLVAT
+(Cntr) Havg:AU Fgnghf:QVFCNGPURQ FEI 9116 JBBQYNAQ QE Oynpx Unjx  CebDN Sver Dhrfgvbaanver Nobegrq - 8. Aba-sver pnyy; Qvfcngpu Pbqr: --  ERFVQRAG: FUR
 
 */
 choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -156,7 +157,14 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:UBEFRFUBR EQ & RYX INYR EQ",
         "PVGL:Obk Ryqre",
         "VASB:FGEHPGHERF ORVAT GUERNGRA BA CENVEVR TENFF SVER*** ABEGU BS GUR SYLVAT");
-    
+
+    qbGrfg("G2",
+        "(Cntr) Havg:AU Fgnghf:QVFCNGPURQ FEI 9116 JBBQYNAQ QE Oynpx Unjx  CebDN Sver Dhrfgvbaanver Nobegrq - 8. Aba-sver pnyy; Qvfcngpu Pbqr: --  ERFVQRAG: FUR",
+        "HAVG:AU",
+        "PNYY:QVFCNGPURQ FEI",
+        "NQQE:9116 JBBQYNAQ QE",
+        "VASB:Oynpx Unjx");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
