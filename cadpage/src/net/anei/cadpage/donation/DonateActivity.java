@@ -1,11 +1,12 @@
 package net.anei.cadpage.donation;
 
+import net.anei.cadpage.Safe40Activity;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class DonateActivity extends Activity {
+public class DonateActivity extends Safe40Activity {
   
   private static final String EXTRA_SCREEN_NAME = "net.anei.cadpage.DonateActivty.SCREEN_NAME";
 
@@ -33,14 +34,6 @@ public class DonateActivity extends Activity {
   @Override
   protected Dialog onCreateDialog(int id) {
     return event.createDialog(this, id);
-  }
-
-  // This is supposed to work around a bug causing crashes for
-  // java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
-  @Override
-  protected void onSaveInstanceState(Bundle outState) {
-    outState.putString("WORKAROUND_FOR_BUG_19917_KEY", "WORKAROUND_FOR_BUG_19917_VALUE");
-    super.onSaveInstanceState(outState);
   }
 
 

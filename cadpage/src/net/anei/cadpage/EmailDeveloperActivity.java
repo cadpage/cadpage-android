@@ -8,7 +8,6 @@ import net.anei.cadpage.donation.DeveloperToolsManager;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.UserAcctManager;
 import net.anei.cadpage.vendors.VendorManager;
-import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -24,7 +23,7 @@ import android.widget.TextView;
 /**
  * Class handles the dialog popup requesting information be sent to developers
  */
-public class EmailDeveloperActivity extends Activity {
+public class EmailDeveloperActivity extends Safe40Activity {
   
   public static enum EmailType { GENERAL, MESSAGE, CRASH, INIT_FAILURE, WRONG_USER, MARKET_PROBLEM, SOB_STORY };
   
@@ -98,14 +97,6 @@ public class EmailDeveloperActivity extends Activity {
     // Set the main message dialog text depending on the email request type
     String[] msgTextArry = getResources().getStringArray(R.array.email_devel_text);
     textView.setText(msgTextArry[type.ordinal()]);
-  }
-
-  // This is supposed to work around a bug causing crashes for
-  // java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
-  @Override
-  protected void onSaveInstanceState(Bundle outState) {
-    outState.putString("WORKAROUND_FOR_BUG_19917_KEY", "WORKAROUND_FOR_BUG_19917_VALUE");
-    super.onSaveInstanceState(outState);
   }
 
   /**

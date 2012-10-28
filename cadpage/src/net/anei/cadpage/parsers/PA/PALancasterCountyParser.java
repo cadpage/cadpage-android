@@ -19,6 +19,12 @@ public class PALancasterCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "911@lcwc911.us,messaging@iamresponding.com,@everbridge.net,141000";
   }
+  
+//  @Override
+//  protected Pattern getHtmlFilter() {
+//    return HTML_FILTER_PTN;
+//  }
+//  private static final Pattern HTML_FILTER_PTN = Pattern.compile("(?:.*?~){3}\\d\\d:\\d\\d:\\d\\d\\^");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

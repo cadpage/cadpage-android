@@ -1,7 +1,6 @@
 package net.anei.cadpage;
 
 
-import android.net.Uri;
 import android.os.Bundle;
 
 import com.google.tts.TTS;
@@ -45,7 +44,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-public class SmsPopupActivity extends Activity {
+public class SmsPopupActivity extends Safe40Activity {
   
   private static final String EXTRAS_MSG_ID = "SmsPopupActivity.MSG_ID";
   private SmsMmsMessage message;
@@ -164,6 +163,10 @@ public class SmsPopupActivity extends Activity {
     wasVisible = false;
     // Reset exitingKeyguardSecurely bool to false
     exitingKeyguardSecurely = false;
+    
+    // Supposed to workaround Android 4 problem
+    setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
+
   }
 
   @Override
@@ -240,6 +243,44 @@ public class SmsPopupActivity extends Activity {
 
     // Save values from most recent bundle (ie. most recent message)
     outState.putAll(getIntent().getExtras());
+    
+    //Lock the screen orientation to the current display orientation : Landscape or Portrait
+    int orientation = this.getDisplayOrientation();
+    this.setRequestedOrientation(orientation);
+  }
+
+
+  //A method found in stackOverflow, don't remember the author, to determine the right screen
+  //orientation independently of the phone or tablet device 
+  public int getDisplayOrientation(){
+    Display getOrient = getWindowManager().getDefaultDisplay();
+
+    int orientation = getOrient.getOrientation();
+
+    // Sometimes you may get undefined orientation Value is 0
+    // simple logic solves the problem compare the screen
+    // X,Y Co-ordinates and determine the Orientation in such cases
+    if(orientation==Configuration.ORIENTATION_UNDEFINED){
+
+      Configuration config = getResources().getConfiguration();
+      orientation = config.orientation;
+
+      if(orientation==Configuration.ORIENTATION_UNDEFINED){
+        //if height and width of screen are equal then
+        // it is square orientation
+        if(getOrient.getWidth()==getOrient.getHeight()){
+          orientation = Configuration.ORIENTATION_SQUARE;
+        }
+        else{ //if width is less than height than it is portrait
+          if(getOrient.getWidth() < getOrient.getHeight()){
+            orientation = Configuration.ORIENTATION_PORTRAIT;
+          }else{ // if it is not any of the above it will definitely be landscape
+            orientation = Configuration.ORIENTATION_LANDSCAPE;
+          }
+        }
+      }
+    }
+    return orientation; // return value 1 is portrait and 2 is Landscape Mode
   }
 
   // Populate views from intent

@@ -1,6 +1,7 @@
 package net.anei.cadpage.vendors;
 
 import net.anei.cadpage.R;
+import net.anei.cadpage.Safe40Activity;
 import 
 android.app.Activity;
 import android.app.AlertDialog;
@@ -15,7 +16,7 @@ import android.os.Bundle;
 /**
  * Dummy activity that does nothing more than present a stand alone dialog
  */
-public class NoticeActivity extends Activity {
+public class NoticeActivity extends Safe40Activity {
   
   private static final String EXTRAS_MSG = "net.anei.cadpage.NoticeActivity.MESSAGE";
   

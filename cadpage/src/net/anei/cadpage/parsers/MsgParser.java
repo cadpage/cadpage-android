@@ -139,7 +139,6 @@ public abstract class MsgParser {
     // And we only have one global copy of parsing flags for each parser
     // Save parse flags for future reference
     this.parseFlags = parseFlags;
-
     
     // See what the parseMsg method thinks of this
     Data data = parseMsg(msg, parseFlags);
@@ -152,7 +151,7 @@ public abstract class MsgParser {
     msg.setInfo(new MsgInfo(data));
     return true;
   }
-  
+
   /**
    * build information object from information parsed from message
    * @param msg message to be parsed
@@ -176,7 +175,7 @@ public abstract class MsgParser {
     
     // Decode the call page and place the data in the database
     String strSubject = msg.getSubject();
-    String strMessage = msg.getMessageBody().trim();
+    String strMessage = htmlFilter(msg.getMessageBody()).trim();
     Data data = new Data(this);
     if (strMessage == null) return data;
     if (parseMsg(strSubject, strMessage, data)) {
@@ -241,6 +240,42 @@ public abstract class MsgParser {
    */
   protected boolean parseMsg(String strMessage, Data data) {
     throw new RuntimeException("parseMsg method was not overridden");
+  }
+
+  /**
+   * If parser subclass provides an HTML filter pattern, and if messages starts with an HTML tag
+   * use the HTML filter to extract the useful message data from the HTML message
+   * @param body message body
+   * @return adjusted message body
+   */
+  private String htmlFilter(String body) {
+    Pattern ptn = getHtmlFilter();
+    if (ptn == null) return body;
+    if (!body.startsWith("<html>") && !body.startsWith("<HTML>")) return body;
+    String result = "";
+    for (String line : body.split("\n")) {
+      Matcher match = ptn.matcher(line);
+      if (match.matches()) {
+        if (match.groupCount() > 0) {
+          for (int ndx = 0; ndx < match.groupCount(); ndx++) {
+            String tmp = match.group(ndx);
+            if (tmp != null) {
+              line = tmp;
+              break;
+            }
+          }
+        }
+        result = append(result, "\n", line.trim());
+      }
+    }
+    return result;
+  }
+  
+  /**
+   * @return Pattern used to extract data message from an HTML message
+   */
+  protected Pattern getHtmlFilter() {
+    return null;
   }
   
   /**

@@ -329,9 +329,10 @@ public class Message {
    * @return
    */
   private String decode(String body) {
-    return trimLead(body.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&")
-               .replaceAll("<br>", "\n").replace("<br/>", "\n").replaceAll("<br />", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<"));
+    body = BR_PTN.matcher(body).replaceAll("\n");
+    return trimLead(body.replace("&nbsp;",  " ").replace("&amp;",  "&").replace("&gt;", ">").replace("&lt;", "<"));
   }
+  private static final Pattern BR_PTN = Pattern.compile("< *br */?>", Pattern.CASE_INSENSITIVE);
   
   /**
    * Perform final message parsing.  This is the last preparse steps that should

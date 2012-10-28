@@ -35,11 +35,15 @@ Pbagnpg: Wbfvnu Rvajrpugre <wprvajrpugre@tznvy.pbz>
 Fraqre: 911@ypjp911.hf
 SEZ:911@ypjp911.hf\aFHOW:NYNEZ ORYYF\aZFT:QRAIRE OBEBHTU~543 ZNVA FG~F 5GU FG~A 6GU FG~RAT132,RAT131~22:16:39^
 
+Pbagnpg: Obo Evffyre <qrzabf@tznvy.pbz>
+Fraqre: 911@ypjp911.hf" <pbas-1222553053@rireoevqtr.arg>
+<ugzy><urnq><zrgn uggc-rdhvi=Pbagrag-Glcr" pbagrag="grkg/ugzy; punefrg=HGS-8"></urnq><OBQL><GNOYR obeqre="0" jvqgu="90%"><ge><gq>\a\a<C><O>Gur sbyybjvat vf n zrffntr sebz Ynapnfgre Pbhagl Rzret. Ztzg. Ntrapl:</o>\a<c><GNOYR obeqre="0" jvqgu="100%" otpbybe="000000" pryyfcnpvat="1" pryycnqqvat="0"><ge><gq NYVTA="PRAGRE">\a<c><GNOYR obeqre="0" jvqgu="100%" otpbybe="SSSSSS" pryyfcnpvat="0" pryycnqqvat="2"><ge><gq><oe>\aRNFG PBPNYVPB GBJAFUVC~50 ERNZ EQ~YRR QE~FPUBBY YA~NZO3191~13:40:41^<OE>\a<oe>&aofc;</gq></ge></GNOYR>\a</gq></ge></GNOYR>\a<gnoyr><ge><gq>&aofc;</gq></ge><ge><gq>\a</gq></ge></gnoyr>
+
 Pbagnpg:Npgvir911
 Fraqre: 911@ypjp911.hf
 (ZRQVPNY NYNEZ-PYNFF 2) RCUENGN OBEBHTU~522 R ZNVA FG~ZVPUNRY PG/NXEBA EQ~NZO373~18:40:17^     
 (FVPX CREFBA-PYNFF 1) RCUENGN OBEBHTU~522 R ZNVA FG~ZVPUNRY PG/NXEBA EQ~NZO373~18:59:43^     
-(GENHZNGVP/VAWHERQ-PYNFF 1) RCUENGN OBEBHTU~522 R ZNVA FG~ZVPUNRY PG/NXEBA EQ~NZO373~19:01:09^     
+(GENHZNGVP/VAWHERQ-PYNFF 1) RCUENGN OBEBHTU~522 R ZNVA FG~ZVPUNRY PG/NXEBA EQ~NZO373~19:01:09^    
 
 *** ABG CNEFVAT - AB PNYY QRFPEVCGVBA ***
 Pbagnpg:Npgvir911
@@ -180,6 +184,11 @@ choyvp pynff CNYnapnfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:RAT132,RAT131",
         "GVZR:22:16:39");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOboEvrfyre() {
+    
   }
   
   @Grfg
