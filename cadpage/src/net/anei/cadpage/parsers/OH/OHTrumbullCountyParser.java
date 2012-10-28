@@ -30,7 +30,6 @@ public class OHTrumbullCountyParser extends FieldProgramParser {
       Parser p = new Parser(field);
       String city = p.getLastOptional(',');
       if (city.equals("OH")) city = p.getLastOptional(',');
-      if (city.length() == 0) abort();
       data.strCity = city;
       super.parse(p.get(), data);
     }
