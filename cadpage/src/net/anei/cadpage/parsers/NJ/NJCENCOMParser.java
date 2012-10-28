@@ -41,8 +41,9 @@ public class NJCENCOMParser extends FieldProgramParser {
     Matcher match = RUN_RPT_MASTER.matcher(body);
     if (match.matches()) {
       data.strCall = "RUN REPORT";
-      data.strCallId = match.group(1);
-      data.strPlace = match.group(2);
+      data.strUnit = match.group(1);
+      data.strCallId = match.group(2);
+      data.strPlace = match.group(3);
       return true;
     }
     return super.parseMsg(body, data);

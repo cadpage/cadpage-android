@@ -39,9 +39,10 @@ choyvp pynff PRAPBZCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "Havg Z404-1 # 2012-049211 Erpi'q 15:09 Qvfc 15:10 Raebhgr Neeviny Ninvy 15:13",
-        "VQ:Z404-1",
+        "HAVG:Z404-1",
+        "VQ:2012-049211",
         "PNYY:EHA ERCBEG",
-        "CYNPR:2012-049211");
+        "CYNPR:Erpi'q 15:09 Qvfc 15:10 Raebhgr Neeviny Ninvy 15:13");
 
   }
   
