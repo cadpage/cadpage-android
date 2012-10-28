@@ -4,6 +4,18 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Ngynagvpner RZF, AW (Ngynagvp & Pncr Znl Pbhagvrf)
+Pbagnpg: Zr <teoebja@snfgznvy.arg>
+Fraqre: zrqpbz@zrqpbz.pbz
+
+[ABCUV ZRQPBZ - cneg 1 bs 1]  EP:Eha# 54365/YVAJBBQ-RZF/199 ARJ EQ/ynj bssvpr va prageny fdhner/YVAJBBQ/11:14/////////<Haxabja>
+[ABCUV ZRQPBZ - cneg 1 bs 1]  EP:Eha# 54353/ZVPH/42 EBHGR 50/K XEHX GREENPR/BPRNA IVRJ/10:16///////FRNIVYYR//<Haxabja>
+[ABCUV ZRQPBZ - cneg 1 bs 1]  EP:Eha# 54345/ZVPH/117 UNEEVFBA NIR/k arj eq/CYRNFNAGIVYYR/09:36/////////<Haxabja>
+[ABCUV ZRQPBZ - cneg 1 bs 1]  EP:Eha# 54374/ZVPH/301 J  QRYVYNU EQ/H7/CYRNFNAGIVYYR/12:08/////////<Haxabja>
+[ABCUV ZRQPBZ - cneg 1 bs 1]  EP:Eha# 54384/ZVPH/13 ZNAPURFGRE FG/k f zbber eq/NOFRPBA/12:29/////////<Haxabja>
+
+ */
 
 choyvp pynff AWNgynagvpnerRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

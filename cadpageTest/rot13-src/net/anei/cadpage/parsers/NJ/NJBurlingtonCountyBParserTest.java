@@ -4,6 +4,19 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Oheyvatgba Pbhagl, AW 
+Pbagnpg: Eboreg Nyyra <enyyra7779@tznvy.pbz>
+Fraqre: puvrs1300@pbzpnfg.arg
+
+Zrffratre 911 / [Hcqngr]\a18:43:42\a133 R GespRagc\a5010\aFBHGU NI\aCVAR FG\aCVAR FG\a
+Zrffratre 911 / 18:43:42\a129 R NppVawel\a5010\aFBHGU NI\aCVAR FG\aCVAR FG\a
+Zrffratre 911 / [Hcqngr]\a22:39:55\a16 S Nynezf\a1321\a691 RNLERFGBJA EQ\aZHAVPVCNY QE/EG38\a609.267.1224/TRARENY NYNEZ
+Zrffratre 911 / 14:29:55\a132 R HaxZrqRzet\a1310\a4 URZFVAT QE\aZNVA FG/RFGNGR EQ\aZNYR JVGU SBBG VAWHEL\aJCU2:
+Zrffratre 911 / [Hcqngr]\a14:57:17\a129S R Zin/Sver\a1311\a1740 R EG38\aRNLERFGBJA EQ/FZVGUIVYYR EQ\a1 IRU BIREGHEARQ//BPPHCNAGF FG\aVSB\a
+Zrffratre 911 / [Hcqngr]\a10:34:13\a129S R Zin/Sver\a1340\aR EG38\aZG UBYYL OC\aJUV CVPXHC GEHPX SYVCCRQ BIRE \aJEYF:  CPF/JVERYRFF QRSNHYG\a
+
+*/
 
 choyvp pynff AWOheyvatgbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

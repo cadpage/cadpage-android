@@ -3,18 +3,6 @@ package net.anei.cadpage.parsers.NJ;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
-/*
-Atlanticare EMS, NJ (Atlantic & Cape May Counties)
-Contact: Me <grbrown@fastmail.net>
-Sender: medcom@medcom.com
-
-[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54365/LINWOOD-EMS/199 NEW RD/law office in central square/LINWOOD/11:14/////////<Unknown>
-[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54353/MICU/42 ROUTE 50/X KRUK TERRACE/OCEAN VIEW/10:16///////SEAVILLE//<Unknown>
-[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54345/MICU/117 HARRISON AVE/x new rd/PLEASANTVILLE/09:36/////////<Unknown>
-[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54374/MICU/301 W  DELILAH RD/U7/PLEASANTVILLE/12:08/////////<Unknown>
-[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54384/MICU/13 MANCHESTER ST/x s moore rd/ABSECON/12:29/////////<Unknown>
-
- */
 
 public class NJAtlanticareEMSParser extends DispatchProQAParser {
   

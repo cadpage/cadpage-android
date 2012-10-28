@@ -3,18 +3,6 @@ package net.anei.cadpage.parsers.NJ;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Neptune, NJ
-Contact: Ross Leibowitz <rossl32100@gmail.com>
-Sender: iar@neptunetownship.org
-
-Subject:NEPTUNE PD COMMS CENTER\nhamilton fire/sr fire and hamilton first aid 716 shell place carbon monoxide alarm
-Subject:NEPTUNE PD COMMS CENTER\nhamilton first aid 716 shell pl carbon monoxide alarm with symptoms﻿
-Subject:NEPTUNE PD COMMS CENTER\nHFA-CANCEL CALL 716 SHELL PL REFUSAL AS PER PATROL﻿
-Subject:NEPTUNE PD COMMS CENTER\nall neptune ems all call ocean grove 98.5 lawrence ave female feeling weak and dizzy
-Subject:NEPTUNE PD COMMS CENTER\nEMS ALL CALL 98.5 LAWRENCE AV FOR ALERTERD MENTAL STATUS
-
- */
 
 public class NJNeptuneParser extends SmartAddressParser {
   

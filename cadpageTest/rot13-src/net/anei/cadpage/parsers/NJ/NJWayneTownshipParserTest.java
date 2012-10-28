@@ -4,6 +4,18 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Jnlar Pbhagl, AW
+Pbagnpg: fhccbeg@npgvir911
+Fraqre: pnq@jnlargbjafuvc.pbz
+
+2012000006 {01/03/2012 10:58:16}\aNSPV     - Sver nynez - pbzzrepvny/vaqhfgevny{3}\a3 Jvyybjoebbx Znyy;CQ\aHavgf:\a\aPbzzragf:\a  Fgngvba Qvfcngpurq : {P1 } Fgngvba Qvfcngpurq : {P2 } Havgf Erpbzzraqrq: ,;\aQvfcngpurq: {P2 }, {P1 } MBAR 3 SVER NYNEZ/VQUVG/8772387739/NPJA/NQG
+2012000019 {01/04/2012 11:47:19}\aSPV      - Sver - pbzzrepvny/vaqhfgevny{1}\a1520 Eg23;CQ\aHavgf:\a\aPbzzragf:\a  Fgngvba Qvfcngpurq : {P3 } Fgngvba Qvfcngpurq : {P1 } Ybp punatrq  \asebz {1530 Eg23;CQ} gb {1520 Eg23;CQ}\a\aCev sebz -> 5 gb 1\a  Fgngvba Qvfcngpurq : {P2 } Fgngvba Qvfcngpurq : {P5 } Havgf Erpbzzraqrq: (Abg noyr gb erpbzzraq);\aQvfcngpurq: {P5 }, {P2 } Rypb nqzva freivprf\aEbhtu,Wvz  862 226 9566\aPnyyre fgngrq ure urneq n cbccvat fbhaq vafvqr gur ohvyqvat naq gurl afzryy fzbxr\aNqqerff va 1538 eg23  oruvat jnlar Uneqjner Hcqngr erivrjrq ol qvfcngpure- Crgrefba, Genpl Y-716
+2012000017 {01/04/2012 10:49:09}\aNSPV     - Sver nynez - pbzzrepvny/vaqhfgevny{3}\a520 Eg46;CQ.\a  Havgf:\a\aPbzzragf:\a  Fgngvba Qvfcngpurq : {P1 } Fgngvba Qvfcngpurq : {P2 } Havgf Erpbzzraqrq: ,;\aQvfcngpurq: {P2 }, {P1 } Nqg/877 2387739/vq vho/npja\aErq Ybofgre\ambar 18 NAFHY
+2012000022 {01/04/2012 20:21:09}\aZINR     - ZIN - rkgevpngvba{1}\aInyyrl Eq/Serapu Uvyy Eq;CQ\aHavgf:\a\aPbzzragf:\a  Fgngvba Qvfcngpurq : {E5 } Fgngvba Qvfcngpurq : {P1 } Havgf Erpbzzraqrq: ,;\aQvfcngpurq: {P1 }, {E5 } Pnyyre fgngrf gur juvgr fhi syvccrq bire  -  \azvtug or genccrq vafvqr - pnyyre abg vaibyrq - Pnyyre fgngrf juvgr fhi  \acbff genccrq Fgngrf 4 iru vaibyirq - pnyyre abg vaibyrq -
+2012000023 {01/05/2012 00:07:46}\aNSPV     - Sver nynez - pbzzrepvny/vaqhfgevny{2}\a1 Jvyybjoebbx Znyy;CQ \aHavgf:\a\aPbzzragf:\a   Fgngvba Qvfcngpurq : {P1 } Fgngvba Qvfcngpurq : {P2 } Havgf Erpbzzraqrq: ,;\aQvfcngpurq: {P2 }, {P1 } CerRzcg - 03A\aPbqr 4 ZnPLF PBZZ PRAGRE/8662297579/bcerq/npja tynff ornx crevzrgre
+
+*/
 
 choyvp pynff AWJnlarGbjafuvcCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

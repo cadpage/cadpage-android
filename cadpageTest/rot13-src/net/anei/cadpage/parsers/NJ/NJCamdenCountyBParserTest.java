@@ -4,6 +4,18 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Pnzqra Pbhagl, AW (nygreangr)
+Pbagnpg: Qnir <qnirz@hfn.arg>
+Fraqre: ppsfhc@pnzqrapbhagl.pbz
+
+(PPPNyreg) ERD SBE SZ GB ERFCBAQ - 508 ZNVA NIR. ORQEBBZ SVER. HAQRE PBAGEBY.
+(PPPNyreg) 2 OYF HAVGF NAQ ERFPHR BCRENGVAT NG EG 561 NAQ ZBEEVF QEVIR SBE NA BIREGHEARQ QHZC GEHPX BA GBC BS N IRUVPYR
+(PPPNyreg) r1351 by ng f135 jvgu n iruvpyr gung unf uvg gur fvqr bs gur ohvyqvat ercbegvat fgehpgheny qnzntr 
+(PPPNyreg) ERD SBE SZ GB ERFCBAQ - 508 ZNVA NIR. ORQEBBZ SVER. HAQRE PBAGEBY.
+(PPPNyreg) QJRYYVAT 1513 OEVPX EQ / FD1331 BA YBPNGVBA ERCBEGVAT  2 FGL FVATYR SNZVYL FZBXR FUBJVAT SEBZ SEBAG QBBE
+
+*/
 
 choyvp pynff AWPnzqraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

@@ -4,6 +4,68 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Fhffrk Pbhagl, AW (Oelnz GJC SQ)  (Fcnegn Qvfcngpu - abg ragver pbhagl ohg 8 qrcnegzragf)
+Pbagnpg:Gbqq Ehqybss <ogsq43pncg2@tznvy.pbz>
+
+(V-O2011-004928) NYNEZS @ 172 YNPXNJNAAN QEVIR  , OLENZ - CEBGRPGVIR FREIVPRF (800-633-2677) BCRENGBE 1663. TRARENY SVER.
+[V-O2010-009210]  NYNEZS @ 7 JNGREYBB EBNQ  , OLENZ - NYY NZREVPNA PENSG. NYNEZF CYHF (800-932-3822) BCRENGBE 1224. HGVYVGL EBBZ
+[V-O2011-004688]  SVER @ 33 FYRRCL UBYYBJ EBNQ  , OLENZ - PNYYRE ERCBEGF UVF YVIVAT EBBZ VF FZBXVAT.
+(V-O2011-003217) SVERCQ @ 4 ZBHAGNVA NIRAHR  , OLENZ - PNYYRE ERCBEGF GUVPX OYNPX FZBXR PBZVAT SEBZ GUR ERFVQRAPR.
+[V-O2011-000701]  SVER @ 228 GBZNUNJX GENVY  , OLENZ - FGEHPGHER SVER
+
+Pbagnpg: Zvpunry Enssregl <zcenss15@lnubb.pbz>
+XOEBJA@naqcq (V-2011-000118) ZIN-S @ QRPXRE CBAQ EBNQ/FHAFRG QEVIR  , TERRA GJC - PNE IF THNEQENVY - ZVABE VAWHEVRF.
+XOEBJA@naqcq (V-2011-000121) ZIN-S @ UVOYRE EBNQ/JVAGREZHGR EBNQ  , TERRA GJC - PNYYRE ERCBEGVAT ZBGBEPLPYR ZIN -- PNYYRE FGNGRF NCCRNEF AB Y
+qpengre@naqcq (V-2011-000117) NFFVFG-S @  BHG BS GBJA  ,  - 44 XVFUCNHTU EQ SHYYL VAIBYIRQ FGEHPGHER
+xjvyfba@naqcq (V-2011-000099) OHEA-S @ 1 FPRAVP QEVIR  , TERRA GJC - crezvg: N-3251 oheavat nyy qnl ** QB ABG ERFCBAQ**
+wpnfryyn@naqcq (V-2011-000122) ZIN-S @ 21 FHGGBA EBNQ  , TERRA GJC - PNE IF GERR
+wentfqnyr@naqcq (V-2011-000108) GENAFS @ 71 JBYSF PBEARE EBNQ  , TERRA GJC - ZHAVPVCNY OYQT PNYYRQ- UNF CNFFREOL NQI BS GENAFSBEZRE SVER unfRZY = snyfr;
+
+Pbagnpg: zcenss15 <zcenss15@tznvy.pbz>
+Fraqre: 6245
+xoebja@naqcq (V-2011-000155) CHZC @ 6 ENZFRL PBHEG  , SERYVATUHLFRA - JNEERA PBHAGL PBZZHAVPNGVBAF ERDHRFGVAT N CHZC BHG SBE GUR SBBG BS JNGRE VA ONFRZRAG.
+wpnfryyn@naqcq (V-2011-000194) ZIN-S @  EBHGR 94  , TERRA GJC - \ava sebag bs jvyohe'f pbhagel fgbeR
+WUBYZRF@naqcq (V-2011-000217) SHRY @ 231 CRDHRFG EBNQ  , TERRA GJC -
+
+Arj Zvysbeq, AW
+Pbagnpg: Npgvir911.pbz
+Fraqre: zvppbz@aawzvph.bet <zvppbz@aawzvph.bet>
+(V-2012-000063)SQCYNAR @ 636 FPUNRSRE NIRAHR , BENQRYY OBEB - CYNAR PENFU VAGB UBG GHO GRFG GRFG GRFG
+(V-2012-000063)SSVEN @ 105 BYQ ARJ OEVQTR EBNQ  , ARJ ZVYSBEQ OBEB - JNGRE SYBJ NYNEZ NG MNAMNEV'F 
+(V-2012-000067)SOEFU @ 413 OBHYRINEQ  , ARJ ZVYSBEQ OBEB - 
+
+Pbagnpg: Npgvir911.pbz
+Ntrapl anzr: Benqryy Sver Qrcnegzrag Ybpngvba: Benqryy, AW
+Fraqre: @ajopq.bet 
+(V-2012-000192) SSVEN @ 386 XVAQREXNZNPX EBNQ  , BENQRYY OBEB - mbar 2 ncnegzrag onpx
+(V-2012-000193) SSVEN @ 549 PBEORGG CYNPR  , BENQRYY OBEB - 
+(V-2012-000194) SSVEN @ 549 PBEORGG CYNPR  , BENQRYY OBEB - TRARENY
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Sbeg Yrr Sver Qrcnegzrag Ybpngvba: Sbeg Yrr, AW 
+Fraqre: @sbegyrrcbyvpr.bet
+
+(V-2012-000814) 1045S @ 1350 15GU FGERRG  , SBEG YRR - tnentr, abegu naq fbhgu, jngresybj
+(V-2012-000815) 1045S @ 250 UBLZ FGERRG  , SBEG YRR - 1FG SY UBLZ FVQR
+(V-2012-000816) 1045S @ 1616 CNYVFNQR NIRAHR  , SBEG YRR - MBAR 0 NAQ 2AQ SY ZRAF EZ FZBXR
+(V-2012-000817) 1045S @ 250 UBLZ FGERRG  , SBEG YRR - 2AQ SY UBLZ FG JVAT
+(V-2012-000818) 1045S @ 1 UBEVMBA EBNQ  , SBEG YRR - sna ebbz
+(V-2012-000819) 1045S @ 1 RKRPHGVIR QEVIR  , SBEG YRR - YY Yriry
+(V-2012-000820) 1045S @ 1081 VAJBBQ GREENPR  , SBEG YRR - Purhat - fzbxr qrgrpgbe
+(V-2012-000821) 1045S @ 1115 OHPXVATUNZ EBNQ  , SBEG YRR - BSSVPR FZBXR QRGRPGBE
+(V-2012-000822) 1045S @ 3021 RQJVA NIRAHR  , SBEG YRR - 5gu sybbe ryringbe npgvingvba
+(V-2012-000823) 1035 @ 3081 RQJVA NIRAHR  , SBEG YRR - Ercbegrq Fghpx Bpphcvrq Ryringbe orgjrra 3eq. & 4gu. syef.
+(V-2012-000824) 1037 @  EBHGR 95 ABEGU  , SBEG YRR - Yrbavn Obeb, eg 95 abegu rkcerff 120.7 -...\a\aNpgvir Havgf: SY-E
+(V-2012-000825) 1045S @ 1 RKRPHGVIR QEVIR  , SBEG YRR - cragubhfr npgvingvba
+(V-2012-000826) 1045S @ 1600 CNEXRE NIRAHR  , SBEG YRR - Trareny nynez
+(V-2012-000827) 1032 @ 2170 SYRGPURE NIRAHR  , SBEG YRR - ercbeg bs iruvpyr sver va gnpb oryy cnexvat ybg, 551-574-0053
+(V-2012-000828) 1033 @ 1 CVC  , SBEG YRR - oehfu sver  pnyyre vf ol pnaabaf
+(V-2012-000829) 1045S @ 2053 RYYREL NIRAHR  , SBEG YRR - Svefg sy fzbxr Pnarecneb erfvqrapr   ncg. ohvyqvat   nynez pb gb abgl   bjare pryy  854-304-3491
+(V-2012-000830) 1035 @ 1000 BIREYBBX QEVIR  , SBEG YRR - purpx sbe oybpxrq sver rkvg, ba fbhgu fvqr bs 2aq sybbe, cerivbhfyl ercbegrq gb znantrzrag, 908-249-2449, ze. ynpure.
+(V-2012-000831) 1045S @ 2 UBEVMBA EBNQ  , SBEG YRR - ynhaqel ebbz 8 naq onfrzrag abegu
+
+ */
 
 choyvp pynff AWFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

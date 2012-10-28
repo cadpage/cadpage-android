@@ -4,6 +4,67 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Pnzqra Pbhagl, AW
+Pbagnpg: "A.qnybamb" <asqsver45@pbzpnfg.arg>
+Fraqre: pppnqrznvy@pnzqrapbhagl.pbz 
+
+(Qvfcngpu FQ45) QJRYYVAT\a312 9GU FG ,14\a#:\aK:PRAGRE/PUREEL\aMA:14N\aPC:  2011-03-31 10:44:12\aZV#:110073123\aERF#:FQ45
+(Qvfcngpu FQ45) Z.I.N\aEBHGR 295 FO ENZC GB 76 FO NYWB PHE ,04\a#:\aK:/\aMA:04D\aPC:EBHGR 295 FO ENZC G  2011-03-31 09:06:36\aZV#:110073062 
+(Qvfcngpu FQ45) QVNORGVP\a217 OYNPX UBEFR CX A ,25\a#:4\aK:PNEYVFYR/YNXRIVRJ\aMA:25O\aPC:ZNK TEBHC CUVYYL PB  2011-03-30 13:23:26\aZV#:11007
+(Qvfcngpu FQ45) QJRYYVAT\aOHEYVATGBA FG F/ZBAZBHGU FG ,14\a#:\aK:/\aMA:14N\aPC:  2011-03-30 10:33:28\aZV#:110072287\aERF#:FQ45
+
+Pbagnpg: Fgrir Xnar <pncgfgrrib@tznvy.pbz>
+(Qvfcngpu DG60) NCNEGZRAG  \a1800 YNHERY EQ ,22   \a#:114  \aK:OYNPXJBBQ PYRZRAGBA/  \aMA:22O  \aPC:FGBAVATGBA PBHEG NC  2012-03-09 07:24:49  \aZV#:
+
+Pbagnpg: "Thl Qvrgevpu We." <qivcretgfetg@tznvy.pbz>
+Fhowrpg:Qvfcngpu FQ11\aVAPVQRAGNY  \e\a260 NHQHOBA NI ,01   \e\a#:  \e\aK:ORYBVG/JLBZVAT  \e\aMA:01N  \e\aPC:  2012-03-25 07:29:59  \e\aZV#:1200\e
+
+Pbagnpg: fhccbeg@npgvir911.pbz
+Fhowrpg: Qvfcngpu R331\aOEHFU  \a501 ORAVTAB OQ ,04   \a#:  \aK:UNVT/YRNS  \aMA:04O  \aPC:CBFG BSSVPR NQZVA O  2012-05-19 18:32:49  \aZV#:120118554  \aERF#:R331
+Fhowrpg: Qvfcngpu FQ379\aVAPVQRAGNY  \a217 EHFFRYY NI ,03 03;UBHFR ARKG QB  \a#:  \aK:ZBBER/EVPUNEQF  \aMA:03Q  \aPC:  2012-05-18 23:01:45  \aZV#:120117862  \aERF#:FQ379
+Fhowrpg: Qvfcngpu FQ379\aZ.I.N  \aEBHGR 295 RKVG 28 ,18   \a#:  \aK:/  \aMA:03J  \aPC:EBHGR 295 RKVG 28  2012-05-19 02:38:47  \aZV#:120118005  \aERF#:FQ379
+Fhowrpg: Qvfcngpu E32\aNCNEGZRAG  \a1306 UNAPBPX QE ,03   \a#:5  \aK:PYRZRAGF OEVQTR EQ/  \aMA:03Q  \aPC:JVYYBJF NCGF  2012-05-20 07:08:50  \aZV#:120118985  \aERF#:E32
+Fhowrpg: Qvfcngpu E32\aERFPHR  \aEBHGR 42 RKVG 14 ,04   \a#:  \aK:/  \aMA:OZN  \aPC:EBHGR 42 RKVG 14  2012-05-19 16:47:48  \aZV#:120118461  \aERF#:E32
+
+[Serr FQ379] EBHGR 295 RKVG 28 ,18 18  \aZV#:120118005  \aQvfc:02:38:48  \aRae:  \aNee:  \aRae Ubfc:  \aNee Ubfc:  \aPye:02:39:15  \aERF#:FQ379  \a
+[Serr FQ32] 294 EBHGR 295 ,04 04  \aZV#:120118005  \aQvfc:02:39:15  \aRae:02:41:47  \aNee:02:47:43  \aRae Ubfc:  \aNee Ubfc:  \aPye:02:59:23  \aERF#:FQ32  \a
+[Serr E32] EBHGR 295 RKVG 26 ,04 04  \aZV#:120140280  \aQvfc:18:32:56  \aRae:18:33:27  \aNee:18:35:41  \aRae Ubfc:  \aNee Ubfc:  \aPye:18:51:43  \aERF#:E32  \a
+
+Pbagnpg: Npgvir911
+[Serr FQ63] ZNCYR NI R/JNYAHG NI ,22 22  \e\aZV#:120188119  \e\aQvfc:18:55:46  \e\aRae:18:58:16  \e\aNee:18:59:24  \e\aRae Ubfc:  \e\aNee Ubfc:  \e\aPye:19:08:14  \e\aERF#:FQ63  \e\a\a
+[Qvfcngpu FQ63] JVERF/OHEAVAT  \e\aYBJRYY NI F/PURFGAHG NI ,22   \e\a#:  \e\aK:/  \e\aMA:22N  \e\aPC:  2012-08-05 21:25:36  \e\aZV#:120188244  \e\aERF#:FQ63\e\a\a
+[Qvfcngpu S6302] JVERF  \e\aYBJRYY NI F/PURFGAHG NI ,22   \e\a#:  \e\aK:/  \e\aMA:22N  \e\aPC:  2012-08-05 21:25:36  \e\aZV#:120188244  \e\aERF#:S6302\e\a\a
+[Serr FQ63] YBJRYY NI F/PURFGAHG NI ,22 22  \e\aZV#:120188244  \e\aQvfc:21:25:36  \e\aRae:21:33:08  \e\aNee:21:34:52  \e\aRae Ubfc:  \e\aNee Ubfc:  \e\aPye:22:12:54  \e\aERF#:FQ63  \e\a\a
+[Serr S6302] YBJRYY NI F/PURFGAHG NI ,22 22  \e\aZV#:120188244  \e\aQvfc:21:28:53  \e\aRae:21:28:54  \e\aNee:21:33:33  \e\aRae Ubfc:  \e\aNee Ubfc:  \e\aPye:22:12:55  \e\aERF#:S6302  \e\a\a
+[Qvfcngpu GS632] NCNEGZRAG  \e\a800 PURJF YNAQVAT EQ ,22   \e\a#:2R  \e\aK:YNHERY/OBEB YVAR  \e\aMA:22O  \e\aPC:YNHERY UVYY NCGF  2012-08-07 04:06:52  \e\aZV#:120189349  \e\aERF#:GS632\e\a\a
+[Qvfcngpu F632] NCNEGZRAG  \e\a800 PURJF YNAQVAT EQ ,22   \e\a#:2R  \e\aK:YNHERY/OBEB YVAR  \e\aMA:22O  \e\aPC:YNHERY UVYY NCGF  2012-08-07 04:06:52  \e\aZV#:120189349  \e\aERF#:F632\e\a\a
+[Qvfcngpu Y63] NCNEGZRAG  \e\a800 PURJF YNAQVAT EQ ,22   \e\a#:2R  \e\aK:YNHERY/OBEB YVAR  \e\aMA:22O  \e\aPC:YNHERY UVYY NCGF  2012-08-07 04:06:52  \e\aZV#:120189349  \e\aERF#:Y63\e\a\a
+[Qvfcngpu FQ63] NCNEGZRAG  \e\a800 PURJF YNAQVAT EQ ,22   \e\a#:2R  \e\aK:YNHERY/OBEB YVAR  \e\aMA:22O  \e\aPC:YNHERY UVYY NCGF  2012-08-07 04:06:52  \e\aZV#:120189349  \e\aERF#:FQ63\e\a\a
+[Qvfcngpu FD63] NCNEGZRAG  \e\a800 PURJF YNAQVAT EQ ,22   \e\a#:2R  \e\aK:YNHERY/OBEB YVAR  \e\aMA:22O  \e\aPC:YNHERY UVYY NCGF  2012-08-07 04:06:52  \e\aZV#:120189349  \e\aERF#:FD63\e\a\a
+[Qvfcngpu R63] NCNEGZRAG  \e\a800 PURJF YNAQVAT EQ ,22   \e\a#:2R  \e\aK:YNHERY/OBEB YVAR  \e\aMA:22O  \e\aPC:YNHERY UVYY NCGF  2012-08-07 04:06:52  \e\aZV#:120189349  \e\aERF#:R63\e\a\a
+[Serr FD63] 800 PURJF YNAQVAT EQ ,22 22  \e\aZV#:120189349  \e\aQvfc:04:17:38  \e\aRae:04:17:40  \e\aNee:  \e\aRae Ubfc:  \e\aNee Ubfc:  \e\aPye:04:19:52  \e\aERF#:FD63  \e\a\a
+[Serr R63] 800 PURJF YNAQVAT EQ ,22 22  \e\aZV#:120189349  \e\aQvfc:04:18:09  \e\aRae:04:18:10  \e\aNee:  \e\aRae Ubfc:  \e\aNee Ubfc:  \e\aPye:04:19:52  \e\aERF#:R63  \e\a\a
+[Serr FQ63] 800 PURJF YNAQVAT EQ ,22 22  \e\aZV#:120189349  \e\aQvfc:04:15:28  \e\aRae:04:15:29  \e\aNee:  \e\aRae Ubfc:  \e\aNee Ubfc:  \e\aPye:04:19:52  \e\aERF#:FQ63  \e\a\a
+[Serr Y63] 800 PURJF YNAQVAT EQ ,22 22  \e\aZV#:120189349  \e\aQvfc:04:13:02  \e\aRae:04:13:03  \e\aNee:  \e\aRae Ubfc:  \e\aNee Ubfc:  \e\aPye:04:19:52  \e\aERF#:Y63  \e\a\a
+[Serr F632] 800 PURJF YNAQVAT EQ ,22 22  \e\aZV#:120189349  \e\aQvfc:04:06:53  \e\aRae:  \e\aNee:  \e\aRae Ubfc:  \e\aNee Ubfc:  \e\aPye:  \e\aERF#:F632  \e\a\a
+[Qvfcngpu Y63] NCNEGZRAG  \e\a800 PURJF YNAQVAT EQ ,22   \e\a#:2R  \e\aK:YNHERY/OBEB YVAR  \e\aMA:22O  \e\aPC:YNHERY UVYY NCGF  2012-08-07 04:06:52  \e\aZV#:120189349  \e\aERF#:Y63\e\a\a
+[Serr GS632] 800 PURJF YNAQVAT EQ ,22 22  \e\aZV#:120189349  \e\aQvfc:04:06:53  \e\aRae:  \e\aNee:04:17:52  \e\aRae Ubfc:  \e\aNee Ubfc:  \e\aPye:05:06:23  \e\aERF#:GS632  \e\a\a
+[Serr Y63] 800 PURJF YNAQVAT EQ ,22 22  \e\aZV#:120189349  \e\aQvfc:04:13:02  \e\aRae:04:13:03  \e\aNee:04:45:24  \e\aRae Ubfc:  \e\aNee Ubfc:  \e\aPye:05:06:25  \e\aERF#:Y63  \e\a\a
+[Qvfcngpu FD63] NYNEZ FLFGRZ  \e\a900 TVOOFOBEB EQ ,22   \e\a#:  \e\aK:JVYFBA/UVYYVNEQF  \e\aMA:22N  \e\aPC:YVAQRAJBYQ FPUBBY 4  2012-08-08 07:37:16  \e\aZV#:120190307  \e\aERF#:FD63\e\a\a
+[Qvfcngpu Y63] NYNEZ FLFGRZ  \e\a900 TVOOFOBEB EQ ,22   \e\a#:  \e\aK:JVYFBA/UVYYVNEQF  \e\aMA:22N  \e\aPC:YVAQRAJBYQ FPUBBY 4  2012-08-08 07:37:16  \e\aZV#:120190307  \e\aERF#:Y63\e\a\a
+[Qvfcngpu S6301] NYNEZ FLFGRZ  \e\a900 TVOOFOBEB EQ ,22   \e\a#:  \e\aK:JVYFBA/UVYYVNEQF  \e\aMA:22N  \e\aPC:YVAQRAJBYQ FPUBBY 4  2012-08-08 07:37:16  \e\aZV#:120190307  \e\aERF#:S6301\e\a\a
+[Serr FD63] 900 TVOOFOBEB EQ ,22 22  \e\aZV#:120190307  \e\aQvfc:07:37:16  \e\aRae:  \e\aNee:  \e\aRae Ubfc:  \e\aNee Ubfc:  \e\aPye:07:51:45  \e\aERF#:FD63  \e\a\a
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Tyraqben Sver Pbzcnal Ybpngvba: Tynaqben, AW
+Fraqre:  zrffntvat@vnzerfcbaqvat.pbz
+(Fgn 81) QJRYYVAT  \a\a202 BGGREOENAPU NI ,23   \a\a#:  \a\aK:WNPXFBA/YVAPBYA  \a\a :23N  \a\aPC:  2012-08-21 21:13:26  \a\a H81
+(Fgn 81) QJRYYVAT  \a\a1205 NOREQRRA YA ,15   \a\a#:  \a\aK:JVZORYGBA/  \a\a :15S  \a\aPC:  2012-08-22 00:15:27  \a\a FD81
+(Fgn 81) VAPVQRAGNY  \a\a7 ZHVESVRYQ PG ,15   \a\a#:  \a\aK:QBENY QE/  \a\a :15S  \a\aPC:  2012-08-24 09:43:36  \a\a FQ81
+(Fgn 81) QJRYYVAT  \a\a1305 FG ZNEX QE ,15   \a\a#:  \a\aK:FNA WBFR/RIRFUNZ  \a\a   \a\aPC:  2012-08-25 20:24:48  \a\a GS81
+
+*/
 
 choyvp pynff AWPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
