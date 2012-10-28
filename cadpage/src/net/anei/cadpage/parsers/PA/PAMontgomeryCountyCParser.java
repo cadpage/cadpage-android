@@ -9,13 +9,19 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
   
   public PAMontgomeryCountyCParser() {
     super("Montgomery County", "PA",
-        "ADDR TRUCKS:UNITADDR?  Place:PLACE? XST:X! NAT:CALL! BOX:BOX!");
+        "ADDR TRUCKS:UNITADDR?  Place:PLACE? XST:X! NAT:CALL! BOX:BOX");
    }
   
   @Override 
   public boolean parseMsg(String body, Data data) {
     body = body.replace(": @", " Place:").replace(",BOX", " BOX");
-    return super.parseMsg(body, data) && data.strAddress.length() > 0;
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strAddress.length() == 0) {
+      if (data.strCross.length() == 0) return false;
+      parseAddress(data.strCross, data);
+      data.strCross = "";
+    }
+    return true;
   }
 
   @Override
@@ -25,10 +31,9 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
   private class MyUnitAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(' ');
-      if (pt < 0) abort();
-      data.strUnit = field.substring(0,pt).trim();
-      super.parse(field.substring(pt+1).trim(), data);
+      Parser p = new Parser(field);
+      data.strUnit = p.get(' ');
+      super.parse(p.get(), data);
     }
     
     @Override
@@ -51,5 +56,12 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
     if (name.equals("UNITADDR")) return new MyUnitAddressField();
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
+  }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    int pt = addr.indexOf(": alias");
+    if (pt >= 0) addr = addr.substring(0,pt).trim();
+    return addr;
   }
 }
