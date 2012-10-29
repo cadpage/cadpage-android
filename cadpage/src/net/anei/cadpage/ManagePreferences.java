@@ -280,6 +280,10 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_suppress_dup_msg_key);
   }
   
+  public static boolean activeScanner() {
+    return prefs.getBoolean(R.string.pref_activate_scanner_key);
+  }
+  
   public static String scannerChannel() {
     String channel = prefs.getString(R.string.pref_scanner_channel_key, null);
     if (channel == null) channel = "<None Selected>";
@@ -290,9 +294,7 @@ public class ManagePreferences {
     prefs.putString(R.string.pref_scanner_channel_key, newVal);
   }
   
-  
   public static Intent scannerIntent() {
-    if (! prefs.getBoolean(R.string.pref_activate_scanner_key)) return null;
     String value = prefs.getString(R.string.pref_scanner_channel_app_node_key, null);
     if (value == null) return null;
     if (!value.startsWith(SCAN_VERSION)) return null;

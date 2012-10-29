@@ -6,6 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.C2DMReceiver;
+import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsPopupUtils;
@@ -129,9 +130,8 @@ public class VendorManager {
    */
   public String getClientVersion(String vendorCode) {
     Vendor vendor = findVendor(vendorCode);
-    if (vendor == null) return null;
-    return vendor.getClientVersion();
-    
+    if (vendor != null) return vendor.getClientVersion();
+    return "0-" +  CadPageApplication.getVersionCode();
   }
 
   /**

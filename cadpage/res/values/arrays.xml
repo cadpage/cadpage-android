@@ -77,6 +77,7 @@
     <item>@string/email_item_text</item>
     <item>@string/publish_item_text</item>
     <item>@string/more_info_item_text</item>
+    <item>@string/start_radio_item_text</item>
   </string-array>
   <string-array
     name="pref_button_values">
@@ -90,6 +91,7 @@
     <item>6</item>
     <item>7</item>
     <item>9</item>
+    <item>10</item>
   </string-array>  
   
   <string-array name="pref_resp_type_text">

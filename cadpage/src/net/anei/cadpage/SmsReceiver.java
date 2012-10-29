@@ -187,13 +187,13 @@ public class SmsReceiver extends BroadcastReceiver {
   }
 
   public static void launchScanner(Context context) {
+    if (! ManagePreferences.activeScanner()) return;
     Intent scanIntent = ManagePreferences.scannerIntent();
+    if (scanIntent == null) return;
     Log.v("Launching Scanner");
-    if (scanIntent != null) {
-      scanIntent.putExtra("caller", "cadpage");
-      ContentQuery.dumpIntent(scanIntent);
-      context.sendBroadcast(scanIntent);
-    }
+    scanIntent.putExtra("caller", "cadpage");
+    ContentQuery.dumpIntent(scanIntent);
+    context.sendBroadcast(scanIntent);
   }
 
   /**

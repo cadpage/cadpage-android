@@ -10,4 +10,5 @@
   <item android:id="@+id/email_item" android:title="@string/email_item_text"/>
   <item android:id="@+id/publish_item" android:title="@string/publish_item_text"/>
   <item android:id="@+id/more_info_item" android:title="@string/more_info_item_text" />
+  <item android:id="@+id/start_radio_item" android:title="@string/start_radio_item_text" />
 </menu>

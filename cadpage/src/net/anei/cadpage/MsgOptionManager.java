@@ -120,7 +120,8 @@ public class MsgOptionManager {
     R.id.email_item,
     R.id.publish_item, 
     R.id.close_app_item,
-    R.id.more_info_item
+    R.id.more_info_item,
+    R.id.start_radio_item
   };
   
   // List of item title resources associated with each button index
@@ -134,7 +135,8 @@ public class MsgOptionManager {
     R.string.email_item_text,
     R.string.publish_item_text, 
     R.string.close_app_item_text,
-    R.string.more_info_item_text
+    R.string.more_info_item_text,
+    R.string.start_radio_item_text
   };
   
   public void setupButtons(ViewGroup respButtonGroup, ViewGroup mainButtonGroup) {
@@ -466,6 +468,11 @@ public class MsgOptionManager {
     case R.id.more_info_item:
       item.setVisible(message.getInfoURL() != null);
       break;
+
+      // Start radio button only visible if there is a scanner channel to open
+    case R.id.start_radio_item:
+      item.setVisible(ManagePreferences.scannerChannel() != null);
+      break;
     }
   }
 
@@ -527,6 +534,16 @@ public class MsgOptionManager {
       
     case R.id.more_info_item:
       message.showMoreInfo(activity);
+      return true;
+      
+    case R.id.start_radio_item:
+      Intent scanIntent = ManagePreferences.scannerIntent();
+      if (scanIntent != null) {
+        Log.v("Launching Scanner");
+        scanIntent.putExtra("caller", "cadpage");
+        ContentQuery.dumpIntent(scanIntent);
+        activity.sendBroadcast(scanIntent);
+      }
       return true;
       
     case R.id.ack_item:
