@@ -1,75 +1,86 @@
 package net.anei.cadpage.parsers.NC;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 
-public class NCDavidsonCountyParser extends DispatchOSSIParser {
-
-  private static final Pattern ID_PTN = Pattern.compile("\\d{10}");
+public class NCDavidsonCountyParser extends FieldProgramParser {
+  
+  private static final Pattern SUBJECT_PTN = Pattern.compile("(Clear|Dispatch) Report Incident #(\\d+)");
+  private static final String MARKER = "Dispatch\nCommunications\n";
 
   public NCDavidsonCountyParser() {
-    super("DAVIDSON COUNTY", "NC",
-           "CALL ADDR! INTLS? ( ID | PLACE ID | PLACE X | ) X+? INFO+");
+    super(CITY_CODES, "DAVIDSON COUNTY", "NC",
+           "Address:EMPTY! Cross:EMPTY! ADDR! X X Nature:EMPTY! CALL! MP:EMPTY? MAP Date:EMPTY! DATE! Time_Out:EMPTY! TIME! City:EMPTY! CITY!");
+  }
+    
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    
+    Matcher match = SUBJECT_PTN.matcher(subject);
+    if (!match.matches()) return false;
+    data.strCallId = match.group(2);
+    if (match.group(1).equals("Clear")) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      return true;
+    }
+    
+    if (!body.startsWith(MARKER)) return false;
+    body = body.substring(MARKER.length()).trim();
+    body = body.replace("â€‘", "-");  // Dispatch did something wierd here
+    return parseFields(body.split("\n"), data);
   }
   
   @Override
-  public String getFilter() {
-    return "cad@davidsoncountync.gov";
+  public String getProgram() {
+    return "ID " + super.getProgram();
   }
   
-  @Override
-  public int getMapFlags() {
-    // Keep EXT markers
-    return MAP_FLG_SUPPR_EXT;
-  }
+  private static final Pattern CODE_CALL_PRI_PTN = Pattern.compile("([A-Z0-9]+)-(.*?)(?:-([A-Z]+))?");
+  private class MyCallField extends Field {
 
-  @Override
-  public boolean parseMsg(String body, Data data) {
-    if (body.startsWith("/")) body = body.substring(1).trim();
-    boolean ok = body.startsWith("CAD:");
-    if (!ok) body = "CAD:" + body;
-    if (!super.parseMsg(body, data)) return false;
-    if (ok) return true;
-    return ID_PTN.matcher(data.strCallId).matches();
-  }
-  
-  private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (BAD_CITY_CODES.contains(field)) abort();
-      super.parse(field, data);
+      Matcher match = CODE_CALL_PRI_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strCode = match.group(1);
+      data.strCall = match.group(2).trim();
+      data.strPriority = getOptGroup(match.group(3));
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE CALL PRI";
     }
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{10}");
-    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("CALL")) return new MyCallField();
     return super.getField(name);
   }
   
-  // These are the city codes used by the Rowan County, NC location parser
-  // Finding any of them is grounds to reject this text message
-  private static final Set<String> BAD_CITY_CODES = new HashSet<String>(Arrays.asList(new String[]{
-      "CHGV",
-      "CLVD",
-      "ESPN",
-      "FATH",
-      "GOLD",
-      "GRQY",
-      "KANN",
-      "LAND",
-      "MOOR",
-      "ROCK",
-      "SALS",
-      "SPEN",
-      "WOOD"
-      
-  }));
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ARC",  "ARCHDALE",     // Guildford County
+      "CL",   "CLEMMONS",     // FOrsyth County
+      "DEN",  "DENTON",
+      "GREE", "GREENSBORO",
+      "HP",   "HIGH POINT",
+      "KV",   "KERNERSVILLE", // Forsyth County
+      "LEX",  "LEXINGTON", 
+      "LIN",  "LINWOOD",
+      "NL",   "NEW LONDON",   // Stanly County
+      "RAN",  "RANDOLPH COUNTY",
+      "RWC",  "ROWAN COUNTY",
+      "THA",  "THOMASVILLE",
+      "TROY", "TROY",         // Montgomery County
+      "WELC", "WELCOME",
+      "WS",   "WINSTON-SALEM" // Forsyth County
+      // Missing MIDWAY and WALLBURG
+  });
 }

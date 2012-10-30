@@ -12,7 +12,7 @@ vzcbeg bet.whavg.ehaare.EhaJvgu;
 @EhaJvgu(Rapybfrq.pynff)
 choyvp pynff APPbzoQnivqfbaPbhaglEbjnaCnefreGrfg {
   
-  choyvp fgngvp pynff GrfgQnivqfbaPbhagl rkgraqf APQnivqfbaPbhaglCnefreGrfg {
+  choyvp fgngvp pynff GrfgQnivqfbaPbhagl rkgraqf APQnivqfbaPbhaglCnefreByqGrfg {
     choyvp GrfgQnivqfbaPbhagl() {
       frgCnefre(arj GrfgCnefre());
     }
@@ -26,7 +26,7 @@ choyvp pynff APPbzoQnivqfbaPbhaglEbjnaCnefreGrfg {
   
   cevingr fgngvp pynff GrfgCnefre rkgraqf TebhcOrfgCnefre {
     choyvp GrfgCnefre() {
-      fhcre(arj APQnivqfbaPbhaglCnefre(),
+      fhcre(arj APQnivqfbaPbhaglCnefreByq(),
              arj APEbjnaPbhaglCnefre());
     }
   }
