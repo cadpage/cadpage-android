@@ -1,7 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.AP;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.AP.APQnivqfbaPbhaglCnefreByq;
+vzcbeg arg.narv.pnqcntr.cnefref.AP.APQnivqfbaPbhaglNCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -44,10 +44,10 @@ PNQ:GX65 GENAFCBEG;207 BYQ YRKVATGBA EQ;GUBZNFIVYYR ZRQVPNY PRAGRE;SBEQ FG;UBFCV
 
 ***/
 
-choyvp pynff APQnivqfbaPbhaglCnefreByqGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff APQnivqfbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp APQnivqfbaPbhaglCnefreByqGrfg() {
-    frgCnefre(arj APQnivqfbaPbhaglCnefreByq(), "QNIVQFBA PBHAGL", "AP");
+  choyvp APQnivqfbaPbhaglNCnefreGrfg() {
+    frgCnefre(arj APQnivqfbaPbhaglNCnefre(), "QNIVQFBA PBHAGL", "AP");
   }
   
   @Grfg
@@ -212,7 +212,7 @@ choyvp pynff APQnivqfbaPbhaglCnefreByqGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj APQnivqfbaPbhaglCnefreByqGrfg().trarengrGrfgf("G13");
+    arj APQnivqfbaPbhaglNCnefreGrfg().trarengrGrfgf("G13");
   }
 }
 

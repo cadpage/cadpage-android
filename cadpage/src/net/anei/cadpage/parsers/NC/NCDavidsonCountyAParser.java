@@ -9,11 +9,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 
-public class NCDavidsonCountyParserOld extends DispatchOSSIParser {
+public class NCDavidsonCountyAParser extends DispatchOSSIParser {
 
   private static final Pattern ID_PTN = Pattern.compile("\\d{10}");
 
-  public NCDavidsonCountyParserOld() {
+  public NCDavidsonCountyAParser() {
     super("DAVIDSON COUNTY", "NC",
            "CALL ADDR! INTLS? ( ID | PLACE ID | PLACE X | ) X+? INFO+");
   }
