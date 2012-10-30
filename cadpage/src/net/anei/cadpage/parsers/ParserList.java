@@ -506,6 +506,7 @@ public class ParserList {
               ,"OHTrumbullCounty"               ,"Trumbull County, OH"
               ,"OHUnionCounty"                  ,"Union County, OH"
               ,"OHWadsworth"                    ,"Wadsworth, OH"
+              ,"OHWarrenCounty"                 ,"Warren County, OH"
               ,"OHWayneCounty"                  ,"Wayne County, OH"
               ,"OHXenia"                        ,"Xenia Twp, OH"
           ),

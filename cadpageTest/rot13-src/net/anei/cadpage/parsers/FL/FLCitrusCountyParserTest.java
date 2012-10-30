@@ -41,7 +41,7 @@ choyvp pynff SYPvgehfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1035 F FHAPBNFG OYIQ",
         "PVGL:UBZBFNFFN",
         "CYNPR:PELFGNY PURIEBYRG",
-        "VASB:Bevtvany Ybpngvba : PELFGNY PURIEBYRG / F/O");
+        "VASB:F/O");
 
     qbGrfg("G3",
         "SQS01 GLC: OEHFU SVER NQ: A ONFFJBBQ NIR&J PURPXREOREEL PGL: PELFGNY EVIRE PZG1: OEHFUSVER 1/2 NPER VA GUR NERN BS GUR NOBIR SQFGN9 SQFGN1 [",

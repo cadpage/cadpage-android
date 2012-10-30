@@ -135,7 +135,7 @@ choyvp pynff PNFnaWbndhvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:11020566",
         "PNYY:Sver Nynez - Pb",
         "NQQE:5045 F Fgngr Ebhgr 99 R",
-        "ZNQQE:5045 F Fgngr 99 R",
+        "ZNQQE:5045 F FGNGR 99 R",
         "K:S R NEPU EQ / R FHAAL EQ",
         "ZNC:830N");
 
@@ -260,7 +260,7 @@ choyvp pynff PNFnaWbndhvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:11020566",
         "PNYY:Sver Nynez - Pb",
         "NQQE:5045 F Fgngr Ebhgr 99 R",
-        "ZNQQE:5045 F Fgngr 99 R",
+        "ZNQQE:5045 F FGNGR 99 R",
         "K:S R NEPU EQ / R FHAAL EQ",
         "ZNC:830N");
 

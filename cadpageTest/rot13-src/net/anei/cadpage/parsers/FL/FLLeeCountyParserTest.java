@@ -44,7 +44,7 @@ choyvp pynff SYYrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:SG ZLREF ORNPU",
         "CYNPR:YVTUGUBHFR ERFBEG GVXV ONE",
         "ANZR:IREVMBA JVERYRFF",
-        "VASB:PBAIHYFVBAF / MHERF / Bevtvany Ybpngvba : YVTUGUBHFR ERFBEG GVXV ONE",
+        "VASB:PBAIHYFVBAF / MHERF",
         "GVZR:16:34",
         "HAVG:SOSON32 SOSOR31",
         "K:1 ZNGNAMNF OEVQTR & 1067 SBHEGU FG");
@@ -57,7 +57,7 @@ choyvp pynff SYYrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:SG ZLREF ORNPU",
         "CYNPR:ONLFVQR RFGNGRF",
         "ANZR:XRFGYRE, ONEONEN",
-        "VASB:OERNGUVAT CEB ZF / Bevtvany Ybpngvba : ONLFVQR RFGNGRF",
+        "VASB:OERNGUVAT CEB ZF",
         "GVZR:08:35",
         "HAVG:SOSON32 SOSOR33KFG: 17681 RTYNAGVAR YA");
 
@@ -69,7 +69,7 @@ choyvp pynff SYYrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:SBEG ZLREF",
         "CYNPR:VAQVNA PERRX",
         "ANZR:UNAXF, EBOVA & QRNA",
-        "VASB:PURFG CNVA (ABA GENHZNGV / Bevtvany Ybpngvba : VAQVNA PERRX",
+        "VASB:PURFG CNVA (ABA GENHZNGV",
         "GVZR:18:29",
         "HAVG:SOSON32 SOSOR33",
         "K:1205 FUNFGN GEY & 1211 FUNFGN GEY");
@@ -83,7 +83,7 @@ choyvp pynff SYYrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:SG ZLREF ORNPU",
         "CYNPR:GNUVGVNA VAA",
         "ANZR:YPFB - PURYFRN",
-        "VASB:FVPX CREFBA (FCRPVSVP QVNTABFVF) / Bevtvany Ybpngvba : GNUVGVNA VAA",
+        "VASB:FVPX CREFBA (FCRPVSVP QVNTABFVF)",
         "GVZR:22:56",
         "HAVG:SOSON32 SOSOR33",
         "K:17605 OEBNQJNL NIR & 11891 VF");
@@ -106,7 +106,7 @@ choyvp pynff SYYrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:SG ZLREF ORNPU",
         "CYNPR:CXT YBG",
         "ANZR:NG&G ZBOVYVGL",
-        "VASB:BIREQBFR / CBVFBAVAT (VATRFGVBA) / Bevtvany Ybpngvba : CXT YBG",
+        "VASB:BIREQBFR / CBVFBAVAT (VATRFGVBA)",
         "GVZR:17:27",
         "HAVG:SOSON33 SOSOR31",
         "K:1511 RFGREB OYIQ");
@@ -120,7 +120,7 @@ choyvp pynff SYYrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:SG ZLREF ORNPU",
         "CYNPR:PNEYBF CBVAG PBAQBF",
         "ANZR:IREVMBA JVERYRFF",
-        "VASB:URZBEEU / YNPRENGVBAF / Bevtvany Ybpngvba : PNEYBF CBVAG PBAQBF",
+        "VASB:URZBEEU / YNPRENGVBAF",
         "GVZR:20:38SOSON33",
         "HAVG:SOSOGX33",
         "K:99 GNECBA EQ & 111 RFGERYYVGN QE");

@@ -669,24 +669,30 @@ public class MsgInfo {
       StringBuffer sb = new StringBuffer();
       do {
         String prefix = match.group(1).toUpperCase();
-        String middle, replace;
+        String middle, hwy;
         if (match.groupCount() == 3) {
           middle = match.group(2).toUpperCase();
-          replace = "$1 $3";
+          hwy = match.group(3).toUpperCase();
         } else {
           middle = "";
-          replace = "$1 $2";
+          hwy = match.group(2).toUpperCase();
         }
         String state = strState;
         if (state.length() == 0) state = defState;
-        if (prefix.length() != 2 ||
-            (prefix.equals(state) ||
-             prefix.equals("CO") ||
-             prefix.equals("US") ||
-             prefix.equals("ST") ||
-             prefix.equals("FM"))) {
-          if (!prefix.equals("COUNTY") || !middle.equals("ROAD") && !middle.equals("RD")) {
-            match.appendReplacement(sb, replace);
+        if (!hwy.equals("TO") && !hwy.equals("OF") && !hwy.equals("OR")) {
+          if (prefix.length() != 2 ||
+              (prefix.equals(state) ||
+               prefix.equals("CO") ||
+               prefix.equals("US") ||
+               prefix.equals("ST") ||
+               prefix.equals("FM"))) {
+            if (!prefix.equals("COUNTY") || !middle.equals("ROAD") && !middle.equals("RD")) {
+              if (prefix.equals("ST")) {
+                if (state.length() == 0) state = "STATE";
+                prefix = state;
+              }
+              match.appendReplacement(sb, prefix + " " + hwy);
+            }
           }
         }
       } while (match.find());

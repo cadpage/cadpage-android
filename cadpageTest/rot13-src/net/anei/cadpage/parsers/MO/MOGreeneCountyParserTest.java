@@ -174,7 +174,7 @@ choyvp pynff ZBTerrarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:V-11",
         "CYNPR:JVYYNEQ PNER PRAGRE/742-3594",
         "ANZR:914",
-        "VASB:SVER NYNEZ MBAR 1 / Bevtvany Ybpngvba : JVYYNE");
+        "VASB:SVER NYNEZ MBAR 1");
 
     qbGrfg("G10",
         "GLC: NHGB SVER NQ: R SE164&F FUW PGL: TERRAR PBHAGL ZNC: E-26 PA: IREVMBA JVERYRFF PZG1: ** FGNGVBA 1 MBAR ** PZG2: GEHPX BA SVER GVZR: 09:45 HAGF: TS/YES",
@@ -240,7 +240,7 @@ choyvp pynff ZBTerrarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:Z-25",
         "CYNPR:ABEGU BS",
         "ANZR:TNEGVA, CNGEVPX",
-        "VASB:PYEF FRRF N YBG BS OYX FZBXR PBZVAT BIRE GERR YVAR / Bevtvany Ybpngvba : ABEGU BS",
+        "VASB:PYEF FRRF N YBG BS OYX FZBXR PBZVAT BIRE GERR YVAR",
         "GVZR:18:54",
         "HAVG:TS/YESN",
         "K:1901 A PVGNGVBA NIR");
@@ -390,7 +390,7 @@ choyvp pynff ZBTerrarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:TERRAR PBHAGL",
         "ZNC:X-20",
         "ANZR:PRPYVN JNGGF",
-        "VASB:VAPVQRAG PYBARQ SEBZ CNERAG: YFQ121013000151 / GRYPBZ KSE/ORGGL: ARCURJ YRSG ZNQ NAQ YRSG PBBXVAT FGBIR BA, PNYYRE PBAPR",
+        "VASB:GRYPBZ KSE/ORGGL: ARCURJ YRSG ZNQ NAQ YRSG PBBXVAT FGBIR BA, PNYYRE PBAPR",
         "GVZR:18:08",
         "HAVG:TS/");
 
@@ -464,7 +464,7 @@ choyvp pynff ZBTerrarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:U-18",
         "CYNPR:WHAR ERLABYQF ERFQ",
         "ANZR:PUEVFGBCURE",
-        "VASB:82 LBN Z ARRQVAT YVSG NFFVFG. / Bevtvany Ybpngvba : WHAR ERLABYQF ERFQ",
+        "VASB:82 LBN Z ARRQVAT YVSG NFFVFG.",
         "GVZR:18:25",
         "HAVG:TS/ROS",
         "K:1600 J SE76 & 1598 J SE68");
@@ -478,7 +478,7 @@ choyvp pynff ZBTerrarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:V-17",
         "CYNPR:F BS",
         "ANZR:ZHEENL,TBEQBA",
-        "VASB:VAPVQRAG PYBARQ SEBZ CNERAG: YFQ121010000015 / IRU VF BSS EBNQ, R FVQR BS EQ, PYE FNJ GNVY YVTUGF",
+        "VASB:IRU VF BSS EBNQ, R FVQR BS EQ, PYE FNJ GNVY YVTUGF",
         "GVZR:02:07",
         "HAVG:TS/ROS");
 
@@ -489,7 +489,7 @@ choyvp pynff ZBTerrarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:TERRAR PBHAGL",
         "ZNC:Q-16",
         "ANZR:PNEPVBAR,FPBGG",
-        "VASB:VAPVQRAG PYBARQ SEBZ CNERAG: YFQ121009000153 / 14 LBN S/ BHG BS PBAGEBY, FYNZZVAT URE URNQ NTNVAFG GUR ORQCBFG. VF BA V",
+        "VASB:14 LBN S/ BHG BS PBAGEBY, FYNZZVAT URE URNQ NTNVAFG GUR ORQCBFG. VF BA V",
         "GVZR:19:53",
         "HAVG:TS/ROS");
 
