@@ -217,6 +217,7 @@ public class ParserList {
           new ParserCategory("Illinois"
               ,"ILChampaignUrbana"              ,"Champaign-Urbana, IL"
               ,"ILCookCounty"                   ,"Cook County, IL"
+              ,"ILDuPageCounty"                 ,"DuPage County, IL"
               ,"ILKankakeeCounty"               ,"Kankakee County, IL"
               ,"ILMedstar"                      ,"Medstar, SW IL"
               ,"ILPeoriaCounty"                 ,"Peoria County, IL"

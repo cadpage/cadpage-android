@@ -1485,6 +1485,11 @@ Run# 6373, <Unknown>, 16:48, 1701 W CURTIS RD, CHAMPAIGN, 4M VOMITING FEVER LETH
 Run# 6407, <Unknown>, 17:00, 404 SCOTTSWOOD DR, URBANA, 11 F W ABDONINAL PAIN 1A1, <None>, ABDOMINAL PAIN
 Run# 6400, JOHN SMITH, 14:45, CU DIALYSIS, URBANA, RETURN TO CCNH. AUTH# R1369756, <None>, TRANSFER/INTERFACILITY, CHAMPAIGN COUNTY NURSING HOME, 220 B2, URBANA
 ***************************************************************************
+DuPage County, IL (ILDuPageCountyParser)
+INC01 1.0 EV-XXX 0       FVF121030002192502 S VILLA AV                  H3A BREATHING PROBLEMS                                                                  \r\n
+INC01 1.0 EV-XXX 0       FVF121029002191620 N ARDMORE AV                H8B INVESTIGATIONS      RAY GRAHAM CENTER                                               \r\n
+INC01 1.0 EV-XXX 0       FVF12102900219053 W ST CHARLES RD              H6B LOCK-OUT TO A BUILDICOMMUNITY HOUSING                                               \r\n
+***************************************************************************
 Kankakee County, IL
 [NWS Message]  ALARM:FIRE Location: KANKAKEE TERRACE 100 BELLE AIRE AVE Bourbonnais 05/27/11 05:29 Incident #: 2011-00001016
 [NWS Message]  SMOKE/ODOR Location: COURT STREET FORD 558 WILLIAM LATHAM DR Bourbonnais 05/09/11 15:57 Incident #: 2011-00000889

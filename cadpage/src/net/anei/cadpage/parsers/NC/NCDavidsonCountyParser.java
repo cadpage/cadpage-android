@@ -38,7 +38,7 @@ public class NCDavidsonCountyParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return "ID " + super.getProgram();
+    return "ID " + super.getProgram() + " PLACE";
   }
   
   private static final Pattern CODE_CALL_PRI_PTN = Pattern.compile("([A-Z0-9]+)-(.*?)(?:-([A-Z]+))?");
