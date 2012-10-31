@@ -17,7 +17,7 @@ public class VAHanoverCountyParser extends FieldProgramParser {
   
   public VAHanoverCountyParser() {
     super("HANOVER COUNTY", "VA",
-           "Unit:UNIT! UnitSts:SKIP! Inc:CALL? Inc#:ID! Inc:CALL? Loc:ADDR! MapRef:MAP");
+           "Unit:UNIT! UnitSts:SKIP! Inc:CALL? Inc#:ID! Inc:CALL? MapRef:MAP? Loc:ADDR/SXI! MapRef:MAP Addtl:INFO");
   }
   
   @Override
@@ -43,6 +43,19 @@ public class VAHanoverCountyParser extends FieldProgramParser {
     return "ID " + super.getProgram();
   }
   
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      super.parse(field, data);
+      
+      // Incomplete intersections parser into the place field and need to be replaced
+      if (data.strSupp.startsWith("/") || data.strSupp.startsWith("&")) {
+        data.strAddress = data.strAddress + " & " + data.strSupp.substring(1).trim();
+        data.strSupp = "";
+      }
+    }
+  }
+  
   private static final Pattern MAP_PTN = Pattern.compile("^[A-Z] Map \\d{2,4}(?:-\\d)?\\b");
   private class MyMapField extends MapField {
     @Override
@@ -50,21 +63,24 @@ public class VAHanoverCountyParser extends FieldProgramParser {
       Matcher match = MAP_PTN.matcher(field);
       if (!match.find()) abort();
       data.strMap = match.group();
+      if (field.endsWith(",")) field = field.substring(0,field.length()-1).trim();
       field = field.substring(match.end()).trim();
-      field = field.replace("Addtl:", "-");
-      if (field.startsWith("-")) field = field.substring(1).trim();
-      if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
-      data.strSupp = field;
+      if (field.startsWith("APT")) {
+        data.strApt = field.substring(3).trim();
+      } else {
+        data.strSupp = field;
+      }
     }
     
     @Override
     public String getFieldNames() {
-      return "MAP INFO";
+      return "MAP APT INFO";
     }
   }
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("MAP")) return new MyMapField();
     return super.getField(name);
   }
