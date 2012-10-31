@@ -33,6 +33,7 @@ public class NCDavidsonCountyBParser extends FieldProgramParser {
     if (!body.startsWith(MARKER)) return false;
     body = body.substring(MARKER.length()).trim();
     body = body.replace("â€‘", "-");  // Dispatch did something wierd here
+    body = body.replace((char)0x2011, '-');
     return parseFields(body.split("\n"), data);
   }
   
