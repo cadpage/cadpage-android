@@ -5,6 +5,31 @@ vzcbeg arg.narv.pnqcntr.cnefref.AL.ALRevrPbhaglQCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+PYN 10990 Xryyre Eq. RZF 80Z fyheerq fcrrpu
+PYN 9970 Tervare Eq. RZF Svatre ynprengvba
+PYN 5727 Znegunf Ivarlneq RZF 55 l/b sryy
+PYN 5945 Ivarpebsg Qe. RZN ncg. 401
+PYN Fnyg eq. & Pbhagl eq. ZIN. 1/2 zvyr abegu bs pbhagl.
+PYN 5955 Ryz Fg. RZF
+PYN 9690 Pynerapr Pragre Eq. RZF
+
+Pbagnpg: "Ohggvab, Wbua" <Wbua.Ohggvab@revr.tbi>   (argjbex nqzvavfgengbe)
+NZU 238 JRFGSVRYQ EQ RZF 79 LB S/  PURFG CNVA
+NZU 52 RAQVPBGG QE RZF 82 LB Z
+NZU 670 YBATZRNQBJ EQ RZF 71 L/B S PURFG CNVAF, QVSSVPHYGL OERNGUVAT
+NZU 3030 FUREVQNA QE RZF EZ 146 58 Z GEBHOYR OERNGUVAT
+NZU 35 RYZ EQ RZF 69Z PURFG/NEZ CNVA
+
+Pbagnpg: oenq znefunyy <abegufcnegnaf@tznvy.pbz>
+Fraqre: 777075442231
+NYREG@REVR.TBI NZU XYRVA J EQ&SBERFG A EQ ZIN 2 PNE ZIN - URNQ VAWHEL
+
+Pbagnpg: Zvpunry Tenag <zvxr18435@tznvy.pbz>
+Fraqre: NYREG@REVR.TBI
+NYREG@REVR.TBI JZI 5403 ZNVA FG RZN NCG 308 /
+
+*/
 
 choyvp pynff ALRevrPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

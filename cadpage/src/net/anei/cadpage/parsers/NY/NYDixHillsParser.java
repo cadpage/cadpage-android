@@ -7,26 +7,6 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
-/*
-contact: "Craig Caviness" <ccaviness@dixhillsfd.org>
-sender: paging@dixhillsfd.xohost.com
-2010-001784 23:36 *** 16- Rescue *** 17 BRYCEWOOD DR SPIEGEL, LORI A Dix Hills HQ ARISTA DR 31-A-1 UNCONSCIOUS / FAINTING (NEAR) CEWOOD DR DIXHIL TYPE:
-2010-001779 10:34 *** 24/16- Mutual Aid *** 51 BALDWIN PATH  Dix Hills HQ
-2010-001777 15:54 *** 16- Rescue ***  DEER PARK AV DEER PARK AV & MARYLAND ST Dix Hills HQ MARYLAND ST
-2010-001778 15:54 *** 23- Misc Fire ***  DEER PARK AV DEER PARK AV & MARYLAND ST Dix Hills HQ MARYLAND ST
-2010-001774 11:56 *** 13- Structure Fire *** 29 WHITE BIRCH DR FULGONI, MARISSA Dix Hills HQ BALSAM DR 52-B-1G ALARMS TE BIRCH DR DIXHIL TYPE: ALARMS 
-2010-001766 05:54 *** 13- Structure Fire *** 29 WILDWOOD DR TRUEN, CRAIG Dix Hills HQ WHITNEY CT 60-C-1O GAS LEAKS / GAS ODOR (NATURAL / L.P.G.) DWOOD
-2010-001919 01:48 *** 16- Rescue *** 179 OAKFIELD AV BRUZZESE, ROCCO  SEAMAN NECK RD 6-D-3 RESPIRATORY KFIELD AV DIXHIL TYPE: RESPIRATORY LOC: 179  OAKFI
-2010-001923 11:44 *** 16- Rescue *** 337 DEER PARK AV SUNRISE ASSISTED LIVING RED MAPLE LA Alert
-2010-001991 08:42 *** 23- Misc Fire ***  CARLLS STRAIGHT PATH CARLLS STRAIGHT PA & S SERVICE RD S SERVICE RD
-
-Contact: Ralph Oswald <medic154@gmail.com>
-Sender: paging1@firerescuesystems.xohost.com
-SIG 3 DRV/EMT 2012-001184 08:53 *** 16- Rescue *** 99 DIX HWY KWON, HEE SOO Dix Hills HQ 28-C-5C STROKE (CVA) HWY DIXHIL TYPE: STROKE (CVA) LOC
-2012-001402 15:28 *** 23- Misc Fire *** DEER PARK AV DEER PARK AV & S SERVICE RD Dix Hills HQ
-
-*** Google doesn't understand PA, translate to CARLS STRAIGHT PATH & S SERVICE RD
-*/
 
 public class NYDixHillsParser extends SmartAddressParser {
   

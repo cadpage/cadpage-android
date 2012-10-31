@@ -4923,16 +4923,6 @@ Contact: Jeffery Schoenborn <chiefstowinginc@gmail.com>
 Sender: LOGIS-Emergin-Paging@logis.org
 RESIDENTIAL FIRE ALM AD: 10312 TOLEDO AV S CMT1: RESIDENTIAL FIRE ALARM COVERS THE LOFT SMOKE. NOT RESET. INSIDE 952-835
 **********************************************************
-Roanoke (city/county?), VA (alternate)
-Contact: Zach Beckner <zach.beckner@gmail.com>
-Sender: e911@roanokeva.gov
-FIRE 1111 ORANGE AVE NW            CMT: APT IS ON FIRE// LOC INFO REVIEWED: BL
-GSWI 101 ELM AVE SE                CMT: MALE SUBJ STATES THAT HE HAS BEEN SHOT Original Location : CHRV
-FIRE 3447 HOLLINS RD NE            CMT: DOWN ON RAIL TRACKS - CALLER SEE FLAMES AND SMELLED SMOKE - PER CALLER IT IS CLOSE TO THE BUILDING - PER CALLER BUILDING
-F-ALARM 35 CAMPBELL AVE SW            CMT: GEN SMOKE ALARM Original Location : HANCOCK BUILDING
-F-ALARM 541 LUCK AVE SW               CMT: MANUAL ZONE 14 PULL ALARM Original Location : JEFFERSON CENTER
-F-ALARM 320 HERSHBERGER RD NW         CMT: GENERAL FIRE   SEC CENTRAL 8002306975 Original Location : BUILD 2 SUITE B
-**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
@@ -4968,6 +4958,32 @@ Sender: ics.gateway@wylietexas.gov
 1 of 2 FRM:ics.gateway@wylietexas.gov SUBJ:Message From Wylie MSG:12029934 UNAUTHORIZED BURN HWY 276 / TANDEM TRAIL IN FATE IN FATE [FAFD (Con't) 2 of 2 GRID: FATE] UNITS: FATEFD ST RMK: <NONE> CFS RMK 18:42 UNKNOWN IF THIS IS CONTROL BURN DEPU {WYPCCOM05 18:42}(End)
 1 of 2 FRM:ics.gateway@wylietexas.gov SUBJ:Message From Wylie MSG:12029231 VEHICLE FIRE IH30 / FM 549 IN FATE [FAFD GRID: FATE] UNITS: (Con't) 2 of 2 FATEFD ST RMK: <NONE> CFS RMK 13:31 18 WHEELER ON FIRE WB LANES {WYPCCOM05 13:31}(End)
 1 of 2 FRM:ics.gateway@wylietexas.gov SUBJ:Message From Wylie MSG:12027892 TRASH / DUMPSTER FIRE 583 REED DR IN FATE MCKINNEY TR /LENORARD (Con't) 2 of 2 WAY WAY [FAFD GRID: F124] UNITS: FATEFD ST RMK: <NONE> CFS RMK 05:43 TRASH CAN SMALL FIRE {WYPCCOM05 05:43}(End)
+**********************************************************
+Roanoke (city/county?), VA (alternate)
+Contact: Zach Beckner <zach.beckner@gmail.com>
+Sender: e911@roanokeva.gov
+FIRE 1111 ORANGE AVE NW            CMT: APT IS ON FIRE// LOC INFO REVIEWED: BL
+GSWI 101 ELM AVE SE                CMT: MALE SUBJ STATES THAT HE HAS BEEN SHOT Original Location : CHRV
+FIRE 3447 HOLLINS RD NE            CMT: DOWN ON RAIL TRACKS - CALLER SEE FLAMES AND SMELLED SMOKE - PER CALLER IT IS CLOSE TO THE BUILDING - PER CALLER BUILDING
+F-ALARM 35 CAMPBELL AVE SW            CMT: GEN SMOKE ALARM Original Location : HANCOCK BUILDING
+F-ALARM 541 LUCK AVE SW               CMT: MANUAL ZONE 14 PULL ALARM Original Location : JEFFERSON CENTER
+F-ALARM 320 HERSHBERGER RD NW         CMT: GENERAL FIRE   SEC CENTRAL 8002306975 Original Location : BUILD 2 SUITE B
+
+This is actually still Roanoke City.  I know there was a Roanoke City
+location already added, however I am not sure who added it.  I work in the
+E911 center and do some administration to the paging system.
+
+Essentially the examples that I sent you are just filtered out by the call
+type.  Pretext is put in the page such as F-ALARM and FIRE and CAD data
+follows.  The other page is "Working Fire".  This has the Pretext "Working
+Fire" followed by the address which is what I think what the original
+Roanoke City location was set up for.
+
+F-ALARM - Fire Alarm
+FIRE - Structure Fire
+GSWI - Gun Shot Wound
+ROBI - Robbery In Progress
+PURSI - Pursuit
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
@@ -5146,11 +5162,3 @@ Sender: West Chester 7COMM <IPAGE@IPSCAD>
 **********************************************************
 * EOF
 **********************************************************
-
-Contact: Active911
-Agency name: Hanover Fire ADMIN
-Location: Hanover, VA, United States
-
-((14521) a ) Unit:FADM UnitSts: Inc:StrComm Inc#:2012-00016345 MapRef:R Map 142 Loc:4225 MECHANICSVILLE TP SOMETHING SPARKING Addtl:\r\n\r\n
-((12883) a ) Unit:NUA UnitSts: Inc:ProQA Inc#:2012-00023997 MapRef:R Map 86 Loc:7501 LIBRARY DR NO AMBULANCES AVAILABLE Addtl:\r\n\r\n
-((11719) a ) Unit:NUA UnitSts: Inc:No Unit Av Inc#:2012-00023996 MapRef:R Map 86 Loc:7501 LIBRARY DR NO RSQ AVAIL Addtl:\r\n\r\n

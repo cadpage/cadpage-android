@@ -3,22 +3,6 @@ package net.anei.cadpage.parsers.NY;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Nassau County, NY (version C)
-Contact: Besnik Gjonlekaj <tigerfdny@gmail.com>
-Sender: backup@westburyfd.xohost.com
-System: Fire Rescue Systems (SCM)
-
-* 3- AUTO ACCIDENT W/AIDED * POST ROAD & JERICHO TURNPIKE  POST ROAD CS: JERICHO TURNPIKE TOA: 14:03 04-07-11
-* 16- AFA * PUBLIC STORAGE 1055 STEWART AVENUE CS: MERCHANTS CONCOURSE \ SOUTH STREET TOA: 15:58 04-07-11
-* 8- MUTUAL AID RESCUE * LAND LN CS: CARMAN AVENUE TOA: 11:41 04-08-11
-* 3- AUTO ACCIDENT W/ AIDED * TACO BELL #3204 23 OLD COUNTRY ROAD CS: GRAND STREET \ CENTRAL AVENUE TOA: 13:50 04-08-11
-* 4- SIGNAL 9  * LLOYD L. LANGLEY 248 SHERMAN STREET CS: BROADWAY \ ROMAN AVENUE TOA: 19:47 04-08-11
-
-Contact: kevin williams <kevinc.williams2@gmail.com>
-* 3- AUTO ACCIDENT W/AIDED * BEST BUY (STORE #454) 1100 OLD COUNTRY ROAD CS: MERCHANTS CONCOURSE  \ ZECKENDORF BOULEVARD TOA: 00:18 09-29-11
-
-*/
 
 
 public class NYNassauCountyCParser extends FieldProgramParser {

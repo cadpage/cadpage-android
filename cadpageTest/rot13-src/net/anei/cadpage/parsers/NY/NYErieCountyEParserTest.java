@@ -5,6 +5,78 @@ vzcbeg arg.narv.pnqcntr.cnefref.AL.ALRevrPbhaglRCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Revr Pbhagl, AL
+
+Pbagnpg: alrecn96 <alrecn96@tznvy.pbz>
+Pbagnpg: Fpbgg Lntre <lntref13@lnubb.pbz>
+Pbagnpg: Eba Orpxre <jpsverzna03@tznvy.pbz>
+NYREG@REVR.TBI SVER PB-QRGRPGBE 262 ZVYYRE FG NCG: TNENTR YNAPNFGRE GBJA PB QRGRPGBE NPGVI / AB FLZCGBZF
+NYREG@REVR.TBI RZF 4779 GENAFVG EQ YNAPNFGRE GBJA TERRA QBQTR PNYVORE 25 LB SRZNYR SRRYF NF GUBHTU FUR ZNL CNFF BHG
+NYREG@REVR.TBI RZF 4805 GENAFVG EQ NCG: 1106 YNAPNFGRE GBJA RZF- 59 LB ZNYR, YRT CNVA NF N ERFHYG BS N SNYY RNEYVRE
+NYREG@REVR.TBI RZF 48 ORAGYRL PE YNAPNFGRE GBJA 79 L/B SRZNYR YRGUNETVP
+NYREG@REVR.TBI SVER PB-QRGRPGBE 47 IVN QBANGB R YNAPNFGRE GBJA PB QRGRPGBE AB FLZCGBZF ERSRE GJVA QVFGEVPG SQ
+NYREG@REVR.TBI RZF 4805 GENAFVG EQ NCG: 3105 YNAPNFGRE GBJA RZF/66 LB SRZNYR FRIRER URNQNPUR/TRARENY VYYARFF ERSRE GJVA QVFGEVPG SQ ERS
+NYREG@REVR.TBI SVER-PBZZREPVNY 2170 HAVBA EQ JFR TRARENY SVER NYNEZ TBVAT BSS.
+NYREG@REVR.TBI RZF 13191 PRAGREYVAR EQ S-SRYY HAX VS VAWHERQ
+
+Pbagnpg: Gbqq Emrfmhgrx <sversvtugre5502@lnubb.pbz>
+Fraqre: 9300kkkk
+ABGVSVPNGVBAF 85 ZNAVGBH FG QRCRJ QRCRJ SVER QRCNEGZRAG- QNVYL GRFG
+ABGVSVPNGVBAF 85 ZNAVGBH FG QRCRJ PBAQHPGRQ GUR QNVYL SVER ENQVB NAQ CNTRE GRFG
+4569 OEBNQJNL QRCRJ PBZZREPVNY SVER NYNEZ PBZVAT SEBZ GUR ONADHRG EBBZ
+
+Pbagnpg: Xven Jvyfba <xven.wrnaar0106@tznvy.pbz>
+NYREG@REVR.TBI RZF QBT OVGR 140 INYYRL IVRJ
+
+Pbagnpg: Obo Gnlybe <ogguribvpr@tznvy.pbz>
+Fraqre: 15373@nyreg.revr.tbi
+(Pnyy) SVER ERFVQRAGVNY 6680 YNXR FUBER EQ RINAF SBERTVA BOWRPG FGEHPX N YVIR RYRPGEVPNY BHGYRG.?\a
+(Pnyy) RZF 1425 FGHETRBA CG EQ RINAF U/AR/EZ NPG  PNEOBA ZBABKVQR QRGRPGBE JVGU VYYARFF VA GUR ERFVQRAPR?\a
+(Pnyy) AR NPG SBE N RATVAR Z/N GB YNXRIVRJ SBE NA NHGB NPPVQRAG EBHGR 5 NAQ BYQ YNXRFUBER EQ?\a
+(Pnyy) JVERF QBJA 7967 XRRAR EQ @ OHEAF QVFC AR - CNGEBY ERDHRFGVAT N PUVRS GB GUR FPRAR SBE JVERF VA GUR GERR NEPUVAT?\a
+(Pnyy) ER GENAFZVG BS CNTR SBE VAWHEL NPPVQRAG VSB 8061 FBHGUJRFGREA-ABEGU RINAF BAYL?\e\a
+(Pnyy) NYNEZ EVATVAT 8545 A ZNVA FG RINAF SVER NYNEZ NPGVINGVBA PBZVAT SEBZ SVER CNARY?\e\a
+
+Pbagnpg: "Puhpx" <yroubfre@lnubb.pbz>
+Fraqre: NYREG@REVR.TBI
+NYREG@REVR.TBI RZF 10703 CREEL FG OENAG RYQREYL SRZNYR SRYY, YVSG NFFFVG
+
+Abg lrg vzcyrzragrq!
+Pbagnpg: crgre chganz <zrqvp4451@tznvy.pbz>
+Fraqre: 17165415102
+Revr_Nyreg ZHGHNY NVQ GB YNXRIVRJ - SVER NYNEZ NPGVINGVBA NG 5502 OVEPUJBBQ.  <ABERCYL>
+
+
+Cbffvoyr pnyy pbqr inyhrf
+
+NZN             ZHGHNY NVQ-Nhgbzngvp Zhghny Nvq                   
+NC              NVECBEG NYREG                                    
+NFG             ZVFPRYYNARBHF-Nffvfg                             
+ON              NYNEZF-Obk Nynez                                 
+QHC             Qhcyvpngr Pnyy                                    
+R911            Rzretrapl Pnyy                                    
+RZN             NYNEZF-RZF Nynez                                 
+RZF             RZF-Rzretrapl Zrqvpny Freivpr                    
+RZFP            RZF-Rzretrapl Zrqvpny Freivpr Pbyq               
+S               Fgehpgher                                        
+SNY             NYNEZF-Sver Nynez Npgvingvba                     
+UZ              UNMZNG-Yrnx, Fcvyy                               
+ZNN             ZHGHNY NVQ-Nzohynapr                             
+ZNS             ZHGHNY NVQ-Sver                                  
+ZNE             ZHGHNY NVQ-Erfphr                                
+ZNF             ZHGHNY NVQ-Fgnaqol                               
+ZS              Zvfpryynarbhf                                    
+ZIN             RZF-Zbgbe Iruvpyr Nppvqrag                       
+ZIS             Zbgbe Iruvpyr                                    
+ABG             Abgvsvpngvba                                     
+CBY             Cbyvpr Rzretrapl                                 
+E               RZF-Erfphr                                       
+FN              Fvyrag Nynez                                     
+GE              RZF-Genafcbegngvba                               
+GEP             RZF-Genafcbegngvba Pbyq                          
+GEU             RZF-Genafcbegngvba Ubg  
+*/
 
 choyvp pynff ALRevrPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

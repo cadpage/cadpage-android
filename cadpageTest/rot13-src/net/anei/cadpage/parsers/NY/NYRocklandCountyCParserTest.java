@@ -4,6 +4,22 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Ebpxynaq Pbhagl, AL (nygreangr) (Ungmbybu RZF)
+Pbagnpg: "Zbeql Rvfraoret (Nofbyhgr Zrqvpny)" <zbeql@nofbyhgrzrq.pbz>, 8455177842@igrkg.pbz
+Fraqre: qvfcngpu@ungmbyburzf.bet
+
+(NPE# 5141)Nqq: 475 Arj Urzcfgrnq Eq, \aK Fg: Arne gur vagrefrpgvba bs Arj Urzcfgrnq Eq naq Byq Fpubbyubhfr Eq\aAnzr: Pragre-Eruno &nzc; Ahefr, Sevrqjnyq Cu
+(NPE# 5143)Nqq: 24 Qrrejbbq Eq, \aK Fg: Orgjrra Pnen Qe naq Puneybggr Qe\aAnzr: Rvfraoret, Zbeqrpunv\aCubar: 8453628456\aPbzc: \a9/9/2011 - 9:52 NZ
+(NPE# 5146) Nqq: 10  JVQZNA PG, \aK Fg: Arne gur vagrefrpgvba bs Jvqzna Pg naq Oyhrsvryq Qe\aAnzr: 7782, \aCubar: \aPbzc: \a9/9/2011 - 9:55 NZ
+(NPE# 5184) Nqq: 230 Xrnefvat Cxjl, \aK Fg: Orgjrra Wvyy Ya naq EG-306\aAnzr: Xenhfm, Neabyq\aCubar: 8454267408\aPbzc: PURFG CNVA\a9/13/2011 - 10:17 NZ
+(NPE# 5181) Nqq: 10 Zryavpx Qe, \aK Fg: Orgjrra Eboreg Cvgg Qe naq Fcehvyy Pg\aAnzr: Fnyr Sheavgher Jnerubhfr, Jubyr\aCubar: 8453716664\aPbzc: RQC\a9/12/2011 -
+(NPE# 5535) Nqqe: 24 Qrrejbbq Eq\aK Fg: Orgjrra Pnen Qe naq Puneybggr Qe\aAnzr: Rvfraoret, Zbeqrpunv\aCubar: 8453628456\aPbzc: ZRQVPNY\a10/22/20 11 - 8:27 CZ 
+(NPE# 5496) Nqqe: 180 Xrnefvat Cxjl #O\aAnzr: Qbi, Anpuzna\aCubar: 8453562086\aPbzc: RYQREYL ABG SRRYVAT JRYY\a10/17/2011 - 9:23 CZ
+(NPE# 5752) Nqqe: 24 Qrrejbbq Eq\aK Fg: Orgjrra Pnen Qe naq Puneybggr Qe\aAnzr: Rvfraoret, Zbeql\aCubar: 8453628456\aPbzc: RYQREYL SNYY NAQ O
+(NPE# 5753) Nqqe: 24 Qrrejbbq Eq\aK Fg: Orgjrra Pnen Qe naq Puneybggr Qe\aAnzr: Rvfraoret, Zbeqrpunv\aCubar: 8453628456\aPbzc: RQC\a11/9/2011 - 1:10 CZ
+
+*/
 
 choyvp pynff ALEbpxynaqPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

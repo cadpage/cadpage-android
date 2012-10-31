@@ -5,6 +5,52 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 
+/*
+JrfgPurfgre Pbhagl, AL
+Pbagnpg: Cnhy Gbegberyyn <cgbeg271@tznvy.pbz>
+Pbagnpg: Zvxr Ebff <gzsqzvxr@tznvy.pbz>
+Pbagnpg: Tenag Avfunavna <tenagarg10@tznvy.pbz>
+Pbagnpg: Wnfba Urnq <wurnq17@tznvy.pbz>
+Pbagnpg: Trbetr Enpm <trbetrenpm@tznvy.pbz>
+Pbagnpg: "fxrneaf80@lnubb.pbz" <fxrneaf80@lnubb.pbz>
+Fraqre: _VCNTR@jrfgpurfgretbi.pbz
+
+// Guvf bar fubhyq tb gb trareny nyreg
+Fhowrpg:VCntr\a-073.684659 +040.978189   Qhcyvpngr Rirag:Ybpngvba = UNYFGRNQ CY/BEZBAQ CY, Pebff Fgerrg 1 = UNYFGRNQ CY   TNENTR SVER   BEZBAQ CY, Pebff Fgerrg 2 = BEZBAQ CY,
+Fhowrpg:VCntr\a,Pbzzragf:   HAXBJA VS FLZCEBZF   CERZVFR 914-834-7319\3fJVYY AGSL XRLUBYQRE   Qhcyvpngr Rirag:Ybpngvba = 833 SRAVZBER EQ, Pebff Fgerrg 1 = ZBURTNA EQ NIBA EQ,
+
+Fhowrpg:VCntr\a50 RYXNA EQ ZNZNEBARPX_G: @RYXNA NCNEGZRAGF, Pebff: CNYZRE NIR, Glcr:NYF, , Gvzr bhg: 12:12:51 Nern: YNEPU,Nynez yri: 0 ,Pbzzragf:   QVSS OERNGUVAT
+Fhowrpg:VCntr\aZNZNEBARPX_G: @V95 AO 07.1 RKVG 17 (PUNGFJBEGU NIR), Pebff: , Glcr:ZIN, VAWHEVRF, Gvzr bhg: 11:03:47 Nern: YNEPU,Nynez
+Fhowrpg:VCntr\a30 UNYFGRNQ CY ELR, Pebff: BEZBAQ CY, Glcr:FGEH, , Gvzr bhg: 21:00:33 Nern: ELR,Nynez yri: 1 ,Pbzzragf:   JCU1
+Fhowrpg:VCntr\aZNQVFBA NIR/WRSSREFBA FG ZNZNEBARPX_G, Pebff: ZNQVFBA NIR, Glcr:UNMNEQ, SYHVQ, Gvzr bhg: 14:30:33 Nern: ZNZGJ,Nynez
+Fhowrpg:VCntr\a35 A PUNGFJBEGU NIR ZNZNEBARPX_G: @PNEYGBA UBHFR NCNEGZRAGF, Pebff: WRSSREFBA FG, Glcr:NYNEZ, PBZZ, Gvzr bhg: 19:27:55
+Fhowrpg:VCntr\a280 JRNIRE FG ZNZNEBARPX_G: @FG WBUA & CNHY FPUBBY, Pebff: RQTRJBBQ NIR, Glcr:NYNEZ, PBZZ, Gvzr bhg: 23:48:57 Nern: ZNZGJ,Nynez yri: 0 ,Pbzzragf:   TRARENY SVER NYNEZ
+Fhowrpg:VCntr\a833 SRAVZBER EQ ZNZNEBARPX_G, Pebff: ZBURTNA EQ, Glcr:NYNEZ, PB, Gvzr bhg: 13:39:20 Nern: ZNZGJ,Nynez yri: 0
+Fhowrpg:VCntr\a35 A PUNGFJBEGU NIR ZNZNEBARPX_G: @PNEYGBA UBHFR NCNEGZRAGF:NCG 3J, Pebff: WRSSREFBA FG, Glcr:NYF, , Gvzr bhg:
+Fhowrpg:VCntr\a15 ZNQVFBA NIR ZNZNEBARPX_G: @ARJ LBEX FCBEGF PYHO, Pebff: OLEBA CY, Glcr:NYF, , Gvzr bhg: 15:34:49 Nern: YNEPU,Nynez yri: 0 ,Pbzzragf:   XABK OBK BA CERZVFR   QVFYBPNGRQ FUBHYQRE
+
+(VCntr) 2 CEVAPR JVYYBJ YA ZNZNEBARPX_G, Pebff: BYQ JUVGR CYNVAF EQ, Glcr:FREIVPR, JNGRE, Gvzr bhg: 17:22:17 Nern: ZNZGJ,Nynez yri: 0 ,Pbzzragf:   JNGRE PBAQVGVBA
+VCntr / 4 QHQYRL YA ZNZNEBARPX_G, Pebff: SRAVZBER EQ, Glcr:NYNEZ, ERFQ, Gvzr bhg: 09:42:46 Nern: ZNZGJ,Nynez yri: 0 ,Pbzzragf:
+VCntr / 50 RYXNA EQ ZNZNEBARPX_G: @RYXNA NCNEGZRAGF, Pebff: CNYZRE NIR, Glcr:NYF, , Gvzr bhg: 12:12:51 Nern: YNEPU,Nynez yri:
+VCntr / ZNZNEBARPX_G: @V95 AO 07.3, Pebff: , Glcr:ZIS, PNE, Gvzr bhg: 22:12:12 Nern: ZNZGJ,Nynez yri: 0 ,Pbzzragf:
+VCntr / ZNZNEBARPX_G: @V95 AO 07.1 RKVG 17 (PUNGFJBEGU NIR), Pebff: , Glcr:ZIN, VAWHEVRF, Gvzr bhg: 11:03:47 Nern: YNEPU,Nynez
+VCntr / 42 ZNCYRJBBQ FG ZNZNEBARPX_G, Pebff: ZHEENL NIR, Glcr:FREIVPR, YBPXBHG, Gvzr bhg: 17:27:08 Nern: ZNZGJ,Nynez yri: 0
+VCntr / 30 UNYFGRNQ CY ELR, Pebff: BEZBAQ CY, Glcr:FGEH, , Gvzr bhg: 21:00:33 Nern: ELR,Nynez yri: 1 ,Pbzzragf:   JCU1
+(VCntr) 21 URZYBPX UVYYF ARJ_PNFGYR, Pebff: UVYYGBC QE, Glcr:FGEH, , Gvzr bhg: 17:39:49 Nern: ZVYYJ,Nynez yri: 0 ,Pbzzragf:
+(VCntr) 2365 OBFGBA CBFG EQ YNEPUZBAG, Pebff: QRNAR CY, Glcr:ZIN, VAWHEVRF, Gvzr bhg: 19:23:17 Nern: YNEPU,Nynez yri: 0
+(VCntr) 14 PBJQENL CNEX QE ABEGU_PNFGYR:ZNVA UBHFR, Pebff: UHEYVATUNZ QE, Glcr:NYNEZ, PB, Gvzr bhg: 12:51:45 Nern: ONAXF,Nynez
+(VCntr) 16 FG ZNELF PUHEPU EQ ABEGU_PNFGYR, Pebff: R ZVQQYR CNGRAG EQ, Glcr:NYNEZ, ERFQ, Gvzr bhg: 18:54:25 Nern: ONAXF,Nynez
+(VCntr) ABEGU_PNFGYR: @V684 FO 07.5 OEVQTR (EG22 HAQRECNFF), Pebff: , Glcr:ZN, SVER, Gvzr bhg: 11:36:54 Nern: NEZAX,Nynez yri:
+(VCntr) 400 ORQSBEQ EQ NEZBAX: @SVER QRCG - NEZBAX, Pebff: A TERRAJVPU EQ, Glcr:ZN, BGURE, Gvzr bhg: 12:36:23 Nern:
+
+Pbagnpg: fhccbeg@npgvir911.pbz
+Sebz: _VCNTR@jrfgpurfgretbi.pbz
+(Rznvy Pbcl Zrffntr Sebz Uvcyvax) 647 SBERFG NIR ZNZNEBARPX_G, Pebff: EBPXVATFGBAR NIR, Glcr:VAIRFG, PB-AB, Gvzr bhg: 17:53:26 Nern: ZNZGJ,Nynez yri: 0 ,Pbzzragf:
+(Rznvy Pbcl Zrffntr Sebz Uvcyvax) 20 NIBA EQ ZNZNEBARPX_G, Pebff: YNAPVN YA, Glcr:NYF, , Gvzr bhg: 16:27:11 Nern: YNEPU,Nynez yri: 0 ,Pbzzragf:   PUVYQ FJNYYBJRQ FUNZCBB
+(Rznvy Pbcl Zrffntr Sebz Uvcyvax) 1165 BYQ JUVGR CYNVAF EQ ZNZNEBARPX_G, Pebff: TNGR UBHFR YA, Glcr:VAIRFG, BHGFVQR, Gvzr bhg: 17:19:51 Nern: ZNZGJ,Nynez yri: 0 ,Pbzzragf:   BQBE BS TNF VA GUR NERN
+
+*/
+
 choyvp pynff ALJrfgpurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ALJrfgpurfgrePbhaglCnefreGrfg() {

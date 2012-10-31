@@ -4,6 +4,28 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Znqvfba Pbhagl, AL
+Pbagnpg: opfornirefyrj@lnubb.pbz <opfornirefyrj@lnubb.pbz>
+
+[911 Qvfcngpu]  OEXSQ:2011:173\aQvfcngpurq\aPurfg Cnva\a1929 NPNQRZL EQ , OEBBXSVRYQ ( / FCBBARE EQ)
+[911 Qvfcngpu]  OEXSQ:2011:172\aQvfcngpurq\aCflpuvngevp/Fhvpvqr Nggrzcg\a11325 ZVYY , OEBBXSVRYQ ( PRAGRE /)
+[911 Qvfcngpu]  OEXSQ:2011:171\aQvfcngpurq\aOernguvat Ceboyrz\a10825 UBKVR EQ , OEBBXSVRYQ ( PBLBGR EHA /)
+[911 Qvfcngpu]  OEXSQ:2011:170\aQvfcngpurq\aZIN - Crefbany Vawhel\a10215 FXNARNGRYRF GEACX , OEBBXSVRYQ ( IVQYRE EQ / BHYRBH
+[911 Qvfcngpu]  OEXSQ:2011:169\aQvfcngpurq\aNffnhyg/Frkhny Nffnhyg\a2118 SEVNE EQ , OEBBXSVRYQ ( / IVQYRE EQ)
+[911 Qvfcngpu]  OEXSQ:2011:167\aQvfcngpurq\aOernguvat Ceboyrz\a10505 ZNVA , OEBBXSVRYQ
+[911 Qvfcngpu]  OEXSQ:2011:166\aQvfcngpurq\aZIN - Crefbany Vawhel\aORNIRE PERRX EQ , OEBBXSVRYQ
+[911 Qvfcngpu]  OEXSQ:2011:165\aQvfcngpurq\aGenhzngvp Vawhevrf\a@FPUBBY OBPRF OEBBXSVRYQ PRAGENY FPUBBY (1910 SNVETEBHAQ EQ
+[911 Qvfcngpu]  OEXSQ:2011:164\aQvfcngpurq\aFvpx Crefba\a10799 UBKVR EQ , OEBBXSVRYQ ( PBLBGR EHA /)
+[911 Qvfcngpu]  OEXSQ:2011:163\aQvfcngpurq\aGenhzngvp Vawhevrf\a1910 SNVETEBHAQ EQ , OEBBXSVRYQ ( / RYZ)\a
+
+Pbagnpg: Revpx Unnf <revpx.unnf@yvir.pbz>
+Fraqre: r-911@pb.znqvfba.al.hf
+ 1 bs 2\aSEZ:r-911@pb.znqvfba.al.hf\aFHOW:[jnzcfivyyrsq] 911 Qvfcngpu\aZFT:JNZSQ:2012:34\e\aQvfcngpurq\e\aPurfg Cnva\e\a@ZNQVFBA PBHAGL IRGRENAF BSSVPR\a(Pba'g) 2 bs 2\aOHVYQVAT (138 ABEGU PBHEG FG (JNZCFIVYYR IVY )(Raq)
+SEZ:r-911@pb.znqvfba.al.hf\aFHOW:[jnzcfivyyrsq] 911 Qvfcngpu\aZFT:JNZSQ:2012:33\e\aQvfcngpurq\e\aFgehpgher Sver\e\a6438 CREELIVYYR EQ , FHYYVINA ( ZNQVFBA / BFOBEAR EQ)
+ 1 bs 2\aSEZ:r-911@pb.znqvfba.al.hf\aFHOW:[jnzcfivyyrsq] 911 Qvfcngpu\aZFT:JNZSQ:2012:30\e\aQvfcngpurq\e\aGrfg Pnyy\e\a118 A PBHEG , JNZCFIVYYR IVYYNTR (\a(Pba'g 2 bs 2\aQNAVRYF QE / ZNEXRYY QE)(Raq)
+
+*/
 
 choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

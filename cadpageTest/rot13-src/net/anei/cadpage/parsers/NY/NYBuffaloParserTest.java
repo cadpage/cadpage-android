@@ -4,6 +4,20 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Ohssnyb, AL
+Pbagnpg: Xhapu <wbfuxhapu@zfa.pbz>
+Fraqre: 2002000004
+EP:Eha# 4330/1 Ubg 911 & Cig/28O1 Fgebxr/PIN-haxabja fgnghf/189 YNATSVRYQ QE///OHSSNYB/14215////14:18/<Haxabja>////K=GBJRE FG&FHSSBYX FG
+EP:Eha# 3992/1 Ubg 911 & Cig/29O1 Genssvp/Genafcbeg Nppvqragf-vawhevrf/R  YBIRWBL FG & A  BTQRA FG///OHSSNYB/14206////17:35/<Haxabja>////K=FPUVYYRE FG&A BTQRA 
+EP:Eha# 4364/1 Ubg 911 & Cig/6P1 Oernguvat Ceboyrzf-noabezny oernguvat/2128 RYZJBBQ NIR///OHSSNYB/14207////15:57/<Haxabja>////K=UVAZNA FG&QEVIRJNL
+EP:Eha# 4330/1 Ubg 911 & Cig/28O1 Fgebxr/PIN-haxabja fgnghf/189 YNATSVRYQ QE///OHSSNYB/14215////14:18/<Haxabja>////K=GBJRE FG&FHSSBYX FG
+EP:Eha# 3969/2 Pbyq  911/26N01 Fvpx-ab cevbevgl flzcgbzf(abg 2-28)/ONVYRL NIR & TRARFRR FG///OHSSNYB/14211////16:39/<Haxabja>////K=JNEEVAT NIR&HFUL 62
+EP:Eha# 3926/1 Ubg 911 & Cig/27O2 Fgno/TFJ/Crargengvat Genhzn-fvatyr crevcureny jbhaq/192 QNIVQFBA NIR///OHSSNYB/14215////14:49/<Haxabja>////K=TBQSERL FG&BEYRNAF FG
+EP:Eha# 3449/2 Pbyq  911/13N1 Qvnorgvp-nyreg/orunivat abeznyyl/1250 ONVYRL NIR///OHSSNYB/14206////07:50/<Haxabja>////K=OBTNEQHF FG&URAARCVA FG
+EP:Eha# 929/1 Ubg 911 & Cig/9R1 Pneqvnp/Erfc Neerfg/QBN-abg oernguvat ng nyy/69 FVQARL FG///OHSSNYB/14211////09:44/<Haxabja>////K=SVYYZBER NIR&EVPXREG NIR
+
+ */
 
 choyvp pynff ALOhssnybCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

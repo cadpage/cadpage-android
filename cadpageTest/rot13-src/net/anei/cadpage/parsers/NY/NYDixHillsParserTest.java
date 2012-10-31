@@ -5,6 +5,26 @@ vzcbeg arg.narv.pnqcntr.cnefref.AL.ALQvkUvyyfCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+pbagnpg: "Penvt Pnivarff" <ppnivarff@qvkuvyyfsq.bet>
+fraqre: cntvat@qvkuvyyfsq.kbubfg.pbz
+2010-001784 23:36 *** 16- Erfphr *** 17 OELPRJBBQ QE FCVRTRY, YBEV N Qvk Uvyyf UD NEVFGN QE 31-N-1 HAPBAFPVBHF / SNVAGVAT (ARNE) PRJBBQ QE QVKUVY GLCR:
+2010-001779 10:34 *** 24/16- Zhghny Nvq *** 51 ONYQJVA CNGU  Qvk Uvyyf UD
+2010-001777 15:54 *** 16- Erfphr ***  QRRE CNEX NI QRRE CNEX NI & ZNELYNAQ FG Qvk Uvyyf UD ZNELYNAQ FG
+2010-001778 15:54 *** 23- Zvfp Sver ***  QRRE CNEX NI QRRE CNEX NI & ZNELYNAQ FG Qvk Uvyyf UD ZNELYNAQ FG
+2010-001774 11:56 *** 13- Fgehpgher Sver *** 29 JUVGR OVEPU QE SHYTBAV, ZNEVFFN Qvk Uvyyf UD ONYFNZ QE 52-O-1T NYNEZF GR OVEPU QE QVKUVY GLCR: NYNEZF 
+2010-001766 05:54 *** 13- Fgehpgher Sver *** 29 JVYQJBBQ QE GEHRA, PENVT Qvk Uvyyf UD JUVGARL PG 60-P-1B TNF YRNXF / TNF BQBE (ANGHENY / Y.C.T.) QJBBQ
+2010-001919 01:48 *** 16- Erfphr *** 179 BNXSVRYQ NI OEHMMRFR, EBPPB  FRNZNA ARPX EQ 6-Q-3 ERFCVENGBEL XSVRYQ NI QVKUVY GLCR: ERFCVENGBEL YBP: 179  BNXSV
+2010-001923 11:44 *** 16- Erfphr *** 337 QRRE CNEX NI FHAEVFR NFFVFGRQ YVIVAT ERQ ZNCYR YN Nyreg
+2010-001991 08:42 *** 23- Zvfp Sver ***  PNEYYF FGENVTUG CNGU PNEYYF FGENVTUG CN & F FREIVPR EQ F FREIVPR EQ
+
+Pbagnpg: Enycu Bfjnyq <zrqvp154@tznvy.pbz>
+Fraqre: cntvat1@svererfphrflfgrzf.kbubfg.pbz
+FVT 3 QEI/RZG 2012-001184 08:53 *** 16- Erfphr *** 99 QVK UJL XJBA, URR FBB Qvk Uvyyf UD 28-P-5P FGEBXR (PIN) UJL QVKUVY GLCR: FGEBXR (PIN) YBP
+2012-001402 15:28 *** 23- Zvfp Sver *** QRRE CNEX NI QRRE CNEX NI & F FREIVPR EQ Qvk Uvyyf UD
+
+*** Tbbtyr qbrfa'g haqrefgnaq CN, genafyngr gb PNEYF FGENVTUG CNGU & F FREIVPR EQ
+*/
 
 choyvp pynff ALQvkUvyyfCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

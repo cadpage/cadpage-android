@@ -8,31 +8,6 @@ import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
-/*
-CLA 10990 Keller Rd. EMS 80M slurred speech
-CLA 9970 Greiner Rd. EMS Finger laceration
-CLA 5727 Marthas Vineyard EMS 55 y/o fell
-CLA 5945 Vinecroft Dr. EMA apt. 401
-CLA Salt rd. & County rd. MVA. 1/2 mile north of county.
-CLA 5955 Elm St. EMS
-CLA 9690 Clarence Center Rd. EMS
-
-Contact: "Buttino, John" <John.Buttino@erie.gov>   (network administrator)
-AMH 238 WESTFIELD RD EMS 79 YO F/  CHEST PAIN
-AMH 52 ENDICOTT DR EMS 82 YO M
-AMH 670 LONGMEADOW RD EMS 71 Y/O F CHEST PAINS, DIFFICULTY BREATHING
-AMH 3030 SHERIDAN DR EMS RM 146 58 M TROUBLE BREATHING
-AMH 35 ELM RD EMS 69M CHEST/ARM PAIN
-
-Contact: brad marshall <northspartans@gmail.com>
-Sender: 777075442231
-ALERT@ERIE.GOV AMH KLEIN W RD&FOREST N RD MVA 2 CAR MVA - HEAD INJURY
-
-Contact: Michael Grant <mike18435@gmail.com>
-Sender: ALERT@ERIE.GOV
-ALERT@ERIE.GOV WMV 5403 MAIN ST EMA APT 308 /
-
-*/
 
 
 public class NYErieCountyDParser extends MsgParser {

@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.AL.ALHyfgrePbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
-/***
+/*
 Hyfgre Pbhagl, AL
 Pbagnpg: Naqerj Ohobygm <nwo5620@tznvy.pbz>
 Fraqre: pnq@pb.hyfgre.al.hf
@@ -19,7 +19,7 @@ Pbagnpg: Fgrcura Dhvpx <fgrcura.q.dhvpx@tznvy.pbz>
 Fraqre: PNQ@PB.HYFGRE.AL.HF
 SEZ:PNQ@PB.HYFGRE.AL.HF\aFHOW:(16733) ZTNS/\aZFT:Havg:CT68-2 HavgFgf: Ybp:85 ZNVA KFgf:JNYY/TERRA Irahr:Xvat Pvgl\aVap:Fgehpg Sve\a(Pba'g) 2 bs 2\aQngr:01/31/2012 Gvzr:14:32 OHVYQVAT BA SVER Nqqgy:PAGK:(Raq)
 
-***/
+*/
 
 
 choyvp pynff ALHyfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

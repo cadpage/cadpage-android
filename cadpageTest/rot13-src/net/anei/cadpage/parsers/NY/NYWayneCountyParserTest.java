@@ -4,6 +4,25 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Jnlar Pbhagl, AL (Arjnex)
+Zneoyrgbja Sver naq Arjnex Nzohynapr
+Pbagnpg: Oenaqba <serapuvr31692@lnubb.pbz>
+Fraqre: arjnexnzo@sqpzf.vasb
+
+Fhowrpg:Qvfcngpu\aQvfcngpu ** 05:32 ** SNYYF ** 1542 FGROOVAF EQ ** UREZNA, RYNVAR ** FGHNEG NIR * GRYYVRE EQ ** 315-331-6505 ** \a
+Fhowrpg:Qvfcngpu\aQvfcngpu ** 23:01 ** ZRQVPNY NYNEZ NPGVINGVBA ** 790 R ZNCYR NIR ** NQG ** QEHZYVA PG * PHLYRE FG ** 877-238-7730 ** \a
+Fhowrpg:Qvfcngpu\aQvfcngpu ** 21:01 ** OERNGUVAT CEBOYRZF ** 5400 EBHGR 31 ** UNYY, WNARG ** JUVGORPX EQ * J HAVBA FG ** 315-359-3978 ** \a
+Fhowrpg:Qvfcngpu\aQvfcngpu ** 20:11 ** UBHFR SVER ** 106 UVYY FG ** IMJ PNYY ** YLBAF FG * FGNAFRYY FG ** 315-690-9286 ** \a
+Fhowrpg:Qvfcngpu\aQvfcngpu ** 10:49 ** NOQBZVANY CNVA / CEBOYRZF ** 101 PBOOYRFGBAR GRE ** SVATRE YNXRF QQ ** IVRAAN FG * IVRAAN FG ** 315-
+Fhowrpg:Qvfcngpu\aQvfcngpu ** 18:28 ** GENAFCBEG-ZRQVPNY ** 1200 QEVIVAT CNEX NIR ** ARJNEX JNLAR PB ** FHAFRG QE * SERL FG ** 332-2494 **
+Fhowrpg:Qvfcngpu\aQvfcngpu ** 22:04 ** ONEA/TNENTR SVER ** 735 OBUARE ** - ** BAGNEVB PBHAGL **  ** 
+
+Pbagnpg: Wrss Mbea <wmbea82@tznvy.pbz>
+Fraqre: jvyyvnzfbasverpb@sqpzf.vasb
+(6556 YNXR NIR) Qvfcngpu ** 09:44 ** UNMNEQBHF PBAQVGVBAF ** 6556 YNXR NIR ** ENVYEBNQ NIR * CBHAQ EQ ** -Ncg: 8 **  **
+
+*/
 
 choyvp pynff ALJnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

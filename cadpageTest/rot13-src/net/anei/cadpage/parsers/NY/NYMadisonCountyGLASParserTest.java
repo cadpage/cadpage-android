@@ -5,6 +5,38 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 
+/*
+Znqvfba Pbhagl - Terngbe Yrabk Nzhynapr Freivpr (TYNF), AL
+Pbagnpg: "Xlyr Z. Pnfury" <xpnfury@tznvy.pbz>
+Pbagnpg: "rzgqroovr33@lnubb.pbz" <rzgqroovr33@lnubb.pbz>
+Pbagnpg: Revpx Unnf <revpxawraa@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Fvpx Crefba\a7738 JVFR EQ , YRABK ( / A PBHEG)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Nffvfg\a400 YNZO NI , PNANFGBGN IVYYNTR ( / QRCCBYVGV NI)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Urneg Ceboyrz\a@ZNQVFBA PBHAGL QFF (133 ABEGU PBHEG FG (JNZCFIVYYR IVY
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Pbaihyfvbaf/Frvmherf\a7216 ARYFBA EQ , YRABK (FRARPN GEACX / CNIBAR CY)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Fvpx Crefba\a400 YNZO NI , PNANFGBGN IVYYNTR ( / QRCCBYVGV NI)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Purfg Cnva\a123 PNLHTN NI , FHYYVINA ( BARVQN YNXR NI / EBHGR 31)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Fvpx Crefba\a7885 GNPXNOHEL EQ , YRABK ( QVGPU ONAX EQ / VAQVNA BCRAVAT EQ)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT: Purfg Cnva\a3881 PBGGBAF EQ , YVAPBYA ( PYBPXIVYYR EQ / ARYFBA EQ)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:ZIN - Crefbany Vawhel\a@ZZ 261.7 (261 70 V90 )
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:ZIN - Haxabja\aENVYEBNQ \ QRCBG (, PNANFGBGN IVYYNTR)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Fvpx Crefba\a400 YNZO NI , PNANFGBGN IVYYNTR ( / QRCCBYVGV NI)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:ZIN - Crefbany Vawhel\a5050 OHEYRFBA EQ , YVAPBYA ( IRQQRE EQ / SBERFG NI)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Snyyf\a400 YNZO NI #144, PNANFGBGN IVYYNTR ( / QRCCBYVGV NI)
+(Terngre Yrabk) Pbaihyfvbaf/Frvmherf\a7216 ARYFBA EQ , YRABK ( FRARPN GEACX / CNIBAR CY)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:ZIN - Haxabja\aPNANY EQ , YRABK
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Purfg Cnva\a@GUREZBYQ & EZU PBECBENGVBA (7059 UNEC EQ (YRABK) )
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Purfg Cnva\a@GUREZBYQ & EZU PBECBENGVBA (7059 UNEC EQ (YRABK) )
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Genhzngvp Vawhevrf\a@FPUBBY PNANFGBGN EBOREGF FG WE FE UVTU FPUBBY (302 EBOREGF FG (PNANFGBGN IVYYNTR) )
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Cflpuvngevp/Fhvpvqr Nggrzcg\e\a403 F CRGREOBEB , PNANFGBGN IVYYNTR ( / ENFONPU)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:Urnqnpur\e\a206 OEBNQ , BARVQN PVGL VAFVQR ( JNFUVATGBA NI / YRABK NI)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:ZIN - Haxabja\e\aEBHGR 31 \ ZBEEVF EQ (, YRABK)
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:ZIN - Crefbany Vawhel\e\aBKOBJ EQ \ JUVGZNA EQ (, YVAPBYA)
+
+*/
+
 choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ALZnqvfbaPbhaglTYNFCnefreGrfg() {

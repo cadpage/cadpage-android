@@ -4,6 +4,25 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Znqvfba Pbhagl, AL
+Pbagnpg: "Znexrf, Qnivq E." <qeznexrf@pnmrabivn.rqh>
+Fraqre: pnmsq@sqpzf.pbz   naq   pnmsver1@jvaqfgernz.arg
+
+(Qvfcngpu) Qvfcngpu ** 15:16 ** PURFG CNVA ** 3578 ZHGGBA UVYY EQ , SRAARE ( SENAPVF EQ / JLFF E ** - ** XRAG, TRBETR FE ** 315-655-2533 **
+(Qvfcngpu) Qvfcngpu ** 17:21 ** NYNEZ - SVER - PBYYRTR ** 22 FHYYVINA , PNMRABIVN IVYYNTR ( TERRA /) ** - ** PNMRABIVN PBYYR ** 315-655-7271 **
+Qvfcngpu ** 21:35 ** OERNGUVAT CEBOYRZ ** @UHOONEQ UNYY (5 FHYYVINA FG (PNMRABIVN IVYYNTR ) ** UHOONEQ UNYY- **  **  **
+Qvfcngpu ** 21:42 ** JNGRE CEBOYRZ ** 3243 EBHGR 20 , ARYFBA ** - ** zvpunry znavba ** 6559325 **
+Qvfcngpu ** 16:22 ** OERNGUVAT CEBOYRZ ** 4188 ZRNQBJ UVYY EQ , PNMRABIVN ( / EBHGR 20) ** - **  **  **
+Qvfcngpu ** 21:42 ** JNGRE CEBOYRZ ** 3243 EBHGR 20 , ARYFBA ** - ** zvpunry znavba ** 6559325 **
+
+Pbagnpg: Revpx Unnf <revpx.unnf@yvir.pbz>
+Fraqre: ysqsver@irevmba.arg
+SEZ:ysqsver@irevmba.arg\aZFT:13:54 ** ZIN - HAXABJA ** BKOBJ EQ \\ PYBPXIVYYR EQ (, YVAPBYA) ** - **  **  **
+SEZ:ysqsver@irevmba.arg\aZFT:00:20 ** HAPBAFPVBHF/SNVAGVAT ** 6765 BKOBJ EQ , YVAPBYA ( VATNYYF PBEARE ** - ** UHTURF, QHNAR ** 315-697-261 ** 
+SEZ:ysqsver@irevmba.arg\aZFT:07:04 ** OERNGUVAT CEBOYRZ ** 6998 ARYFBA EQ , YVAPBYA ** - ** EBFRXENAF QBHTY ** 315-697-986 ** 
+
+*/
 
 choyvp pynff ALZnqvfbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

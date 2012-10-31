@@ -4,28 +4,6 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
-/*
-Madison County, NY
-Contact: bcsbeaverslew@yahoo.com <bcsbeaverslew@yahoo.com>
-
-[911 Dispatch]  BRKFD:2011:173\nDispatched\nChest Pain\n1929 ACADEMY RD , BROOKFIELD ( / SPOONER RD)
-[911 Dispatch]  BRKFD:2011:172\nDispatched\nPsychiatric/Suicide Attempt\n11325 MILL , BROOKFIELD ( CENTER /)
-[911 Dispatch]  BRKFD:2011:171\nDispatched\nBreathing Problem\n10825 HOXIE RD , BROOKFIELD ( COYOTE RUN /)
-[911 Dispatch]  BRKFD:2011:170\nDispatched\nMVA - Personal Injury\n10215 SKANEATELES TRNPK , BROOKFIELD ( VIDLER RD / OULEOU
-[911 Dispatch]  BRKFD:2011:169\nDispatched\nAssault/Sexual Assault\n2118 FRIAR RD , BROOKFIELD ( / VIDLER RD)
-[911 Dispatch]  BRKFD:2011:167\nDispatched\nBreathing Problem\n10505 MAIN , BROOKFIELD
-[911 Dispatch]  BRKFD:2011:166\nDispatched\nMVA - Personal Injury\nBEAVER CREEK RD , BROOKFIELD
-[911 Dispatch]  BRKFD:2011:165\nDispatched\nTraumatic Injuries\n@SCHOOL BOCES BROOKFIELD CENTRAL SCHOOL (1910 FAIRGROUND RD
-[911 Dispatch]  BRKFD:2011:164\nDispatched\nSick Person\n10799 HOXIE RD , BROOKFIELD ( COYOTE RUN /)
-[911 Dispatch]  BRKFD:2011:163\nDispatched\nTraumatic Injuries\n1910 FAIRGROUND RD , BROOKFIELD ( / ELM)\n
-
-Contact: Erick Haas <erick.haas@live.com>
-Sender: e-911@co.madison.ny.us
- 1 of 2\nFRM:e-911@co.madison.ny.us\nSUBJ:[wampsvillefd] 911 Dispatch\nMSG:WAMFD:2012:34\r\nDispatched\r\nChest Pain\r\n@MADISON COUNTY VETERANS OFFICE\n(Con't) 2 of 2\nBUILDING (138 NORTH COURT ST (WAMPSVILLE VIL )(End)
-FRM:e-911@co.madison.ny.us\nSUBJ:[wampsvillefd] 911 Dispatch\nMSG:WAMFD:2012:33\r\nDispatched\r\nStructure Fire\r\n6438 PERRYVILLE RD , SULLIVAN ( MADISON / OSBORNE RD)
- 1 of 2\nFRM:e-911@co.madison.ny.us\nSUBJ:[wampsvillefd] 911 Dispatch\nMSG:WAMFD:2012:30\r\nDispatched\r\nTest Call\r\n118 N COURT , WAMPSVILLE VILLAGE (\n(Con't 2 of 2\nDANIELS DR / MARKELL DR)(End)
-
-*/
 
 
 public class NYMadisonCountyBParser extends FieldProgramParser {

@@ -7,17 +7,6 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
-/*
-Clinton County, NY (Keeseville)
-Contact: natebecca110611@gmail.com
-Sender: 777-154,777-163
-
-.... (Keeseville) Time: May 02, 2012 11:59:43\nAgencyName: Keeseville EMS\nAddress: 89 Second St, CHESTERFIELD (WASHINGTON ST/LUMBER ST)\nResp.Type: 001Ambulance\nPriority: Priority 1
-.... (Keeseville) Time: May 01, 2012 19:26:16\nAgencyName: Keeseville EMS\nAddress: 164 HILL ST, AUSABLE (TAYLOR HILL RD, HALLOCK HILL RD/87)\nResp.Type: 001Ambulance\nPriority: Priority 1
-.... (Keeseville) Time: April 30, 2012 18:54:04\nAgencyName: Keeseville EMS\nAddress: 73 Clinton St, KEESEVILLE VILLAGE (CHESTERFIELD) (DIVISION ST/CHURCH ST)\nResp.Type: 24B02-Unknown status/Other codes not applicable\nPriority:
-.... (Keeseville) Time: April 30, 2012 17:49:11\nAgencyName: Keeseville\nAddress: 80 PLEASANT ST, KEESEVILLE VILLAGE (AUSABLE) (LIBERTY ST/MAIN ST)\nResp.Type: 003-Chimney Fire\nPriority: Priority 1
-
-*/
 
 
 public class NYClintonCountyParser extends FieldProgramParser {

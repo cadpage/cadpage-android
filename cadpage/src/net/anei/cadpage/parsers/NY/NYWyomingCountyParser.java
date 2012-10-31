@@ -6,22 +6,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 
-/*
-Wyoming County, NY (REPLACE!!!)
-Contact: Kimo Brandon <brandokw@clarkson.edu>
-Contact: Louis Yunker <louisyunker@yahoo.com>
-Sender: wyco911@wyomingco.net
-
-SICK PERSON\n90 KERN RD BENT (Between ERIE CO LINE & URF RD) ADULT FML NOT FEELING WELL
-FALLS\n1387 ROUTE 77 BENT (Between ROUTE 354 & POLAND HILL RD)
-HEART PROBLEMS\n1535 FRIEDMAN RD BENT (Between ROUTE 77 & TINKHAM RD)
-STRUCTURE FIRE\nFRENCH RD BENT (Between ROUTE 354 & HOOVER RD) barn fire
-SEIZURE/CONVULSION\n1375 ROUTE 354 BENT (Between ROUTE 77 & GRAFF RD)
-STRUCTURE FIRE\n1649 ROUTE 238 ATTT (Between NESBITT RD & ATTICA TOWN LINE)
-SICK PERSON\n1258 BURROUGH RD BENT (Between ROUTE 354 & SCHOELLKOPF RD)Post surgical abdominal pain.
-
-*/
-
 
 public class NYWyomingCountyParser extends SmartAddressParser {
   

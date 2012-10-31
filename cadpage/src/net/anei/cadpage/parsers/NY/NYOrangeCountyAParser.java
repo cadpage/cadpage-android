@@ -8,24 +8,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Orange County, NY
-Contact: George Ewings <gewings@gmail.com>
-Contact: Seth Armstrong <setharmstrong31@gmail.com>
-Contact: Dave Abbott <davea@a1-services.com>
-Contact: Burton Struble <burton.struble@gmail.com>
-Contact: kevin torres <nycff103@gmail.com>
-
-Contact: Ken Rypkema <kenryp119@gmail.com> "mail.vailsgatefd.com" <krypkema@mail.vailsgatefd.com>
-Sender:messaging@iamresponding.com
-(Vails Gate) CARBON MONOXIDE DETR  1 KEARNEY DR  NEW WINDSOR  DEPT 45 TIME: 19:17 XST: MARSHALL DR XST2: 17 TRUEX DR\n\n\nThis
-(Vails Gate) EXTRICATION  ST RTE 32&amp;ORRS MILLS RD  CORNWALL  SPRINT PCS WIRELESS  CALLER REPORTS CAR INTO TREE POSS ENTRAPEMENT  Parent Inc MCO11112
-(Vails Gate) ROLLOVER MVA  2406 ST RTE 32  CORNWALL  JESSICA  ONE CAR ROLLOVER//UNK INJS  Parent Inc MCO111126000959 UPDATE PriUnt to CO/CODIS TIME: 23:
-(Vails Gate) AUTOMATIC FIRE ALARM  273 WINDSOR HWY  NEW WINDSOR  VECTOR SECURITY  LAUDRY ROOM SMOKE DETECTOR   Location : HUDSON VALLEY VETERIAN TIME: 1
-(Vails Gate) AUTOMATIC FIRE ALARM  516 REED ST  NEW WINDSOR  SGT THOMAS  CALLER STS THERE IS A FIRE ALARM STS BLINKING SYSTEM TROUBLE AND ALSO SAY  S DA
-(Vails Gate) AUTOMATIC FIRE ALARM  935 UNION AVE  NEW WINDSOR  CENTRAL STATION  ZONE 32 OFFICE SMOKE DETECTOR/ ALARM CO IS ATTEMPTING KEY HOLDER/ PREM N
-
- */
 
 
 public class NYOrangeCountyAParser extends FieldProgramParser {

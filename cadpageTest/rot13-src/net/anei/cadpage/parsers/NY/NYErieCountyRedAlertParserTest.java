@@ -4,6 +4,37 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Revr Pbhagl, AL (ntnva)
+Pbagnpg: nsfune lhfhs <nsfune.lhfhs@tznvy.pbz>
+Pbagnpg: Wbr Tnyynture <cngpuvasversvture@tznvy.pbz>
+Fraqre: qvfcngpu@gbjabsunzohetal.pbz
+
+*2RZF: 60/Z YBAT SNYY CBFFVOYR NEZ NAQ YRT SENPGHER VYF ERFCBAFR ng 3425 BYQ YNXRIVRJ EQ, Unzohet  p/f: RATRY QE . . 17:31:57\a\a-- \aGuvf zrffntr unf orr
+*2RZF: Znyr sryy unf n ryobj ynprengvba Pbyq Erfcbafr ng 25 OHSSNYB FG #420, Ivyyntr bs Unzohet  p/f: ZNVA FG   B: PERRX ORAQ UTGF NCGF . . 05:16:00\a\a-
+*2RZF: 23 znyr cbff bq hapk ng 7219 YVROYRE EQ, Obfgba  p/f: PBYR EQ . . 19:44:01\a\a-- \aGuvf zrffntr unf orra fpnaarq sbe ivehfr
+*2RZF: 51 srznyr qlfcarn cnenzrqvp erfcbafr ng 8169 OBFGBA FGNGR EQ, Obfgba  p/f: ZNL QE   B: CRBCYR VAP . . 21:26:12\a\a-- \aGuvf
+*2Zvfp Ryrpgevpny Ceboyrz: GRYRCUBAR CBYR BA SVER ARNE EBNQJNL ng 6674 YVROYRE EQ, Obfgba  p/f: OBFGBA FGNGR EQ . . 07:50:52\a\a--
+*2RZF: 79z jrnxarff va evtug nez naq yrt cbff fgebxr oyf ubg erfcbafr ab zrzoref ba qhgl pbagnpg usp ng 6784 ERQJVAT QE, Obfgba  p
+*2RZF: 71 L/S ABG NYREG  CNENZRQVP ERFCBAFR   AB ZRZOREF BA QHGL  ng 8799 EBPXJBBQ EQ, Obfgba  p/f: CN/OB YVAR . . 13:54:46\a\a--
+ 
+Pbagnpg: Znggurj Juvgvat <sversvtugre015@tznvy.pbz>
+Fraqre: qvfcngpu@gbjabsunzohetal.pbz
+*2Nynez Npgvingvba: Trareny sver nynez ng 7207 JNEQ EQ, Obfgba  p/f: PBYR EQ . . 17:41:51
+*2RZF: 15 ZBAGU PUVYQ - FRVMHERF - OYF UBG ng OBFGBA FGNGR EQ / JVYQJBBQ QE, Obfgba . . 14:57:05
+*2Zvfp Ehoovfu/Oehfu, EHOOVFU CEBOYRZ: YRNIRF NAQ HAQREOEHFU BA SVER VA JBBQF JRYY NJNL SEBZ UBHFR ng 6754 BZCUNYVHF EQ, Obfgba  p/f: RQQL EQ . . 13:47
+*2RZF: 70S Hapba Zrqvp ng 6714 Uvypebsg . . 00:39:43
+*2RZF Nhgb Nppvqrag: NHGB NPPVQRAG JVGU VAWHEL CBFF EBYY BIRE 20 & 29 GB GUR UNYY ng YBJRE RNFG UVYY EQ / JBUYUHRGRE EQ, Obfgba . . 23:16:18
+*2Nynez Npgvingvba: trareny sver nynez ng rinaf ang onax ng 7205 OBFGBA FGNGR EQ, Obfgba  p/f: MVZZREZNA EQ   B: RINAF ANGVBANY ONAX . . 16:11:51
+*2RZF: 69 Lrnef Znyr Purfg cnva- zrqvp erfcbafr ng 7898 OBFGBA FGNGR EQ #40, Obfgba  p/f: JVYQJBBQ QE   B: OBFGBA UVYYF ZBOVYR UBZR CNEX . . 19:09:24
+*2RZF: Z/purfg cnvaf ng 8112 PBYR EQ, Obfgba  p/f: BZCUNYVHF EQ . . 20:05:16
+Iruvpyr Sver: iruvpyr sver va ebnqjnl ng 8799 SRQQVPX EQ, Obfgba  p/f: CN/OB YVAR . . 07:33:02
+
+Pbagnpg: revp qnuytera <repqnuy@tznvy.pbz>
+Fraqre: qvfcngpu@gbjabsunzohetal.pbz
+RZF: UN 8 ERFC SBE N GENAFCBEG.  AB SHEGURE ERCBAFR ARPRFFNEL. ng 239 OEBBXJBBQ QE, Ivyyntr bs Unzohet  p/f: OVEXFUVER EQ . . 21:3\e
+
+*/
 
 choyvp pynff ALRevrPbhaglErqNyregCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

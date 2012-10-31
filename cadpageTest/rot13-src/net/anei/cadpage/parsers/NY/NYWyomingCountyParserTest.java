@@ -4,6 +4,22 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Jlbzvat Pbhagl, AL (ERCYNPR!!!)
+Pbagnpg: Xvzb Oenaqba <oenaqbxj@pynexfba.rqh>
+Pbagnpg: Ybhvf Lhaxre <ybhvflhaxre@lnubb.pbz>
+Fraqre: jlpb911@jlbzvatpb.arg
+
+FVPX CREFBA\a90 XREA EQ ORAG (Orgjrra REVR PB YVAR & HES EQ) NQHYG SZY ABG SRRYVAT JRYY
+SNYYF\a1387 EBHGR 77 ORAG (Orgjrra EBHGR 354 & CBYNAQ UVYY EQ)
+URNEG CEBOYRZF\a1535 SEVRQZNA EQ ORAG (Orgjrra EBHGR 77 & GVAXUNZ EQ)
+FGEHPGHER SVER\aSERAPU EQ ORAG (Orgjrra EBHGR 354 & UBBIRE EQ) onea sver
+FRVMHER/PBAIHYFVBA\a1375 EBHGR 354 ORAG (Orgjrra EBHGR 77 & TENSS EQ)
+FGEHPGHER SVER\a1649 EBHGR 238 NGGG (Orgjrra ARFOVGG EQ & NGGVPN GBJA YVAR)
+FVPX CREFBA\a1258 OHEEBHTU EQ ORAG (Orgjrra EBHGR 354 & FPUBRYYXBCS EQ)Cbfg fhetvpny noqbzvany cnva.
+
+*/
+
 
 choyvp pynff ALJlbzvatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
