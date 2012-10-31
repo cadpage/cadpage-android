@@ -65,7 +65,8 @@ Pierce County, WA
 
 public class DispatchProQAParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("\\bRun# ");
+  private static final Pattern MARKER = Pattern.compile("\\bRun#");
+  private static final Pattern RUN_REPORT_MARKER = Pattern.compile("^(?:was Canceled:|(?:\\d\\d:\\d\\d/){5})");
   
   protected DispatchProQAParser(String defCity, String defState, String program) {
     super(defCity, defState, program);
@@ -92,7 +93,7 @@ public class DispatchProQAParser extends FieldProgramParser {
     data.strCallId = body.substring(pt, pt2).trim();
 
     body = body.substring(pt2+1).trim();
-    if (body.startsWith("was Canceled:")) {
+    if (RUN_REPORT_MARKER.matcher(body).find()) {
       data.strCall = "RUN REPORT";
       data.strPlace = body;
       return true;
@@ -107,7 +108,7 @@ public class DispatchProQAParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return "ID " + super.getProgram();
+    return "ID " + super.getProgram() + " PLACE";
   }
   
   private class BaseInfoField extends InfoField {

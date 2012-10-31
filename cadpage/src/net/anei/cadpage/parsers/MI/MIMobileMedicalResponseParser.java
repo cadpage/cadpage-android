@@ -7,6 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
 /**
  * Mobile Medical Response, MI
+ * Covers Saginaw & Genesee & other counties
  */
 public class MIMobileMedicalResponseParser extends DispatchProQAParser {
   
