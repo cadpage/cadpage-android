@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10252012</string>
-  <string name="release_version">v1.5.65</string>
+  <string name="release_date">11012012</string>
+  <string name="release_version">v1.5.66</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+Added option to launch Scanner Radio for call detail screen\n
+\n
 New Locations:\n
-Hamilton County, IN\n
-Midland County, MI\n
-CENCOM, NJ\n
-Rockingham County, NC\n
-Clearfield County, PA\n
-Pike County, PA\n
-Montgomery County, TX (alt)\n
+Standard Cadpage Format\n
+DuPage County, IL\n
+Davidson County, NC (update)\n
+Warren County, OH\n
+Cypress-Fairbanks, TX\n
+Rockwall County, TX\n
+Roanoke City, VA (alt)\n
 \n      
 Location Parsing Fixes:\n
-Hartford County, CT\n
-St Joseph County, IN\n
-Kosciusko County, IN\n
-Calvert County, MD\n
-Pulaski County, MO\n
+Sonoma County, CA\n
+Dooley County, GA\n
+Black Hawk County, IA\n
+Montgomery County, MD\n
+Mobil Medical Response, MI\n
+CENCOM, NJ\n
 Gloucester County, NJ\n
-Monmouth County, NJ\n
-Steuben County, NY\n
-Burke County, NC\n
-Carteret County, NC\n
-Lincoln County, NC\n
-Surry County, NC\n
-Wadsworth County, OH\n
-Washington County, OR\n
-Pennington County, SD\n
+Morris County, NJ\n
+Monroe County, NY\n
+Ontario County, NY\n
+Gaston County, NC\n
+Mecklenburg County, NC\n
+Watauga County, NC\n
+Trumble County, OH\n
+Warren County, OH\n
+Lehigh County, PA\n
+Montgomery Cuonty, PA\n
+Washington County, PA\n
+Montgomery County, TX\n
+Bell County, TX\n
+Nassau County, TX\n
+Albemarle County, VA\n
+Hanover County, VA\n
   </string>  
 </resources>
   
