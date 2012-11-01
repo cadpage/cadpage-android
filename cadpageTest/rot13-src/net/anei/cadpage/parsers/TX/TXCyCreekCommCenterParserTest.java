@@ -190,6 +190,22 @@ Fraqre: PbzzPragre@pprzf.pbz
 09/13 22:25 19230 XHLXRAQNUY EQ-UP, QNAF NHGBZBGVIR; Znc:331N- Fho: Ang:29Q04-ZIV - CVAARQ IVPGVZ Havgf:Z56 SB331A Q71 E75 E71 R75 Z5 K-Fg:FCEVAT PLCERFF EQ PBHAGEL 201241095
 09/15 17:56 XHLXRAQNUY EQ-UP/SZ 2920-UP, ; Znc:290E- Fho: Ang:09R01-NEERFG - ABG OERNGUVAT Havgf:Z54 SB290 SBABE Q51 Y72 K-Fg:SZ 2920 ABEGUPERFG QE & Z 201241370
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Jrfgynxr Ibyhagrre Sver Qrcnegzrag
+Ybpngvba: Ubhfgba, GK, Havgrq Fgngrf
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+
+(JISQ) 11/01 14:53 2401 SEL EQ-UP, TBBQJVYY; Znc:446H- Fho: Ang:17-VAWHERQ CREFBA SEBZ N SNYY Havgf:N42 FD41 K-Fg:SENAM EQ FNHZF EQ 201248783\e\a\e\a\e\a
+(JISQ) 11/01 14:11 20226 ORRPUIVRJ YA-UP, ; Znc:446G- Fho: Ang:12-FRVMHERF Havgf:N43 FD41 K-Fg:CEBFCRPG TYRA YA PEBFFPBN 201248777\e\a\e\a\e\a
+(JISQ) 11/01 09:25 19703 FNHZF EQ-UP, JRFGYNXR ISQ FGNGVBA 41; Znc:446H- Fho: Ang:10-PNEQVNP Havgf:N42 K-Fg:ZVFFVBA PERRX QE SEL EQ 201248730\e\a\e\a\e\a
+(JISQ) 11/01 08:17 20300 FNHZF EQ-UP, CEBIVQRAPR CYNPR NCGF; 502 Znc:446G- Fho: Ang:26-ZRQVPNY PNYY Havgf:N43 FD41 K-Fg:CEBFCRPG TYRA YA SENAM EQ 201248719\e\a\e\a\e\a
+(JISQ) 11/01 02:01 19311 WHAVCRE INYR PVE, ; Znc:446E- Fho: Ang:25Q01I-CFLPU - ABG NYREG Havgf:N43 Y43 Z41 K-Fg: 201248692\e\a\e\a\e\a
+(JISQ) 10/31 22:14 XNGL SEJL ZNVAYNARF JO-UP/ZNF, ; Znc:445M- Fho: Ang:29O04H-ZIV - HAXABJA Havgf:N41 Y43 Z41 K-Fg:ZNFBA EQ A JRFGTERRA OYIQ 201248678\e\a\e\a\e\a
+(JISQ) 10/31 18:21 Ercntr:3430 MRCULE TYRA JNL-UP, ; Znc:447C- Fho: Ang:67O01-FZNYY BHGFVQR SVER Havgf:Y43 K-Fg:RZCBEVHZ QE FNOYR GERR QE 201248647\e\a\e\a\e\a
+(JISQ) 10/31 18:21 3430 MRCULE TYRA JNL-UP, ; Znc:447C- Fho: Ang:67O01-FZNYY BHGFVQR SVER Havgf:Y43 K-Fg:RZCBEVHZ QE FNOYR GERR QE 201248647\e\a\e\a\e\a
+(JISQ) 10/31 15:44 18718 PYBIRE TYRA YA-UP, ; Znc:447W- Fho: Ang:60O01-TNF YRNX - BHGFVQR / FZNY Havgf:Y43 K-Fg:FG JVYYVNZF YA FUNQBJ GEY 201248619\e\a\e\a\e\a
+(JISQ) 10/31 12:59 ZNFBA EQ-UP/XNGL SEJL JO-UP, ; Znc:445M- Fho: Ang:29-ZBGBE IRUVPYR VAPVQRAG Havgf:N41 Y43 K-Fg:XNGL SEJL JO ZREPUNAGF JN 201248596\e\a\e\a\e\a
+
 */
 
 choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1875,6 +1891,163 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:Z54 SB290 SBABE Q51 Y72",
         "K:SZ 2920 ABEGUPERFG QE & Z",
         "VQ:201241370");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgJrfgynxrSver() {
+
+    qbGrfg("G1",
+        "(JISQ) 11/01 14:53 2401 SEL EQ-UP, TBBQJVYY; Znc:446H- Fho: Ang:17-VAWHERQ CREFBA SEBZ N SNYY Havgf:N42 FD41 K-Fg:SENAM EQ FNHZF EQ 201248783\e\a" +
+        "\e\a" +
+        "\e\a",
+
+        "FEP:JISQ",
+        "QNGR:11/01",
+        "GVZR:14:53",
+        "NQQE:2401 SEL EQ",
+        "ZNC:446H-",
+        "CYNPR:TBBQJVYY",
+        "PNYY:17-VAWHERQ CREFBA SEBZ N SNYY",
+        "HAVG:N42 FD41",
+        "K:SENAM EQ FNHZF EQ",
+        "VQ:201248783");
+
+    qbGrfg("G2",
+        "(JISQ) 11/01 14:11 20226 ORRPUIVRJ YA-UP, ; Znc:446G- Fho: Ang:12-FRVMHERF Havgf:N43 FD41 K-Fg:CEBFCRPG TYRA YA PEBFFPBN 201248777\e\a" +
+        "\e\a" +
+        "\e\a",
+
+        "FEP:JISQ",
+        "QNGR:11/01",
+        "GVZR:14:11",
+        "NQQE:20226 ORRPUIVRJ YA",
+        "ZNC:446G-",
+        "PNYY:12-FRVMHERF",
+        "HAVG:N43 FD41",
+        "K:CEBFCRPG TYRA YA PEBFFPBN",
+        "VQ:201248777");
+
+    qbGrfg("G3",
+        "(JISQ) 11/01 09:25 19703 FNHZF EQ-UP, JRFGYNXR ISQ FGNGVBA 41; Znc:446H- Fho: Ang:10-PNEQVNP Havgf:N42 K-Fg:ZVFFVBA PERRX QE SEL EQ 201248730\e\a" +
+        "\e\a" +
+        "\e\a",
+
+        "FEP:JISQ",
+        "QNGR:11/01",
+        "GVZR:09:25",
+        "NQQE:19703 FNHZF EQ",
+        "ZNC:446H-",
+        "CYNPR:JRFGYNXR ISQ FGNGVBA 41",
+        "PNYY:10-PNEQVNP",
+        "HAVG:N42",
+        "K:ZVFFVBA PERRX QE SEL EQ",
+        "VQ:201248730");
+
+    qbGrfg("G4",
+        "(JISQ) 11/01 08:17 20300 FNHZF EQ-UP, CEBIVQRAPR CYNPR NCGF; 502 Znc:446G- Fho: Ang:26-ZRQVPNY PNYY Havgf:N43 FD41 K-Fg:CEBFCRPG TYRA YA SENAM EQ 201248719\e\a" +
+        "\e\a" +
+        "\e\a",
+
+        "FEP:JISQ",
+        "QNGR:11/01",
+        "GVZR:08:17",
+        "NQQE:20300 FNHZF EQ",
+        "NCG:502",
+        "ZNC:446G-",
+        "CYNPR:CEBIVQRAPR CYNPR NCGF",
+        "PNYY:26-ZRQVPNY PNYY",
+        "HAVG:N43 FD41",
+        "K:CEBFCRPG TYRA YA SENAM EQ",
+        "VQ:201248719");
+
+    qbGrfg("G5",
+        "(JISQ) 11/01 02:01 19311 WHAVCRE INYR PVE, ; Znc:446E- Fho: Ang:25Q01I-CFLPU - ABG NYREG Havgf:N43 Y43 Z41 K-Fg: 201248692\e\a\e\a\e\a",
+        "FEP:JISQ",
+        "QNGR:11/01",
+        "GVZR:02:01",
+        "NQQE:19311 WHAVCRE INYR PVE",
+        "ZNC:446E-",
+        "PNYY:25Q01I-CFLPU - ABG NYREG",
+        "HAVG:N43 Y43 Z41",
+        "VQ:201248692");
+
+    qbGrfg("G6",
+        "(JISQ) 10/31 22:14 XNGL SEJL ZNVAYNARF JO-UP/ZNF, ; Znc:445M- Fho: Ang:29O04H-ZIV - HAXABJA Havgf:N41 Y43 Z41 K-Fg:ZNFBA EQ A JRFGTERRA OYIQ 201248678\e\a" +
+        "\e\a" +
+        "\e\a",
+
+        "FEP:JISQ",
+        "QNGR:10/31",
+        "GVZR:22:14",
+        "NQQE:XNGL SEJL ZNVAYNARF JO & ZNF",
+        "ZNQQE:XNGL SEJL ZNVAYNARF & ZNF",
+        "ZNC:445M-",
+        "PNYY:29O04H-ZIV - HAXABJA",
+        "HAVG:N41 Y43 Z41",
+        "K:ZNFBA EQ A JRFGTERRA OYIQ",
+        "VQ:201248678");
+
+    qbGrfg("G7",
+        "(JISQ) 10/31 18:21 Ercntr:3430 MRCULE TYRA JNL-UP, ; Znc:447C- Fho: Ang:67O01-FZNYY BHGFVQR SVER Havgf:Y43 K-Fg:RZCBEVHZ QE FNOYR GERR QE 201248647\e\a" +
+        "\e\a" +
+        "\e\a",
+
+        "FEP:JISQ",
+        "QNGR:10/31",
+        "GVZR:18:21",
+        "NQQE:3430 MRCULE TYRA JNL",
+        "ZNC:447C-",
+        "PNYY:67O01-FZNYY BHGFVQR SVER",
+        "HAVG:Y43",
+        "K:RZCBEVHZ QE FNOYR GERR QE",
+        "VQ:201248647");
+
+    qbGrfg("G8",
+        "(JISQ) 10/31 18:21 3430 MRCULE TYRA JNL-UP, ; Znc:447C- Fho: Ang:67O01-FZNYY BHGFVQR SVER Havgf:Y43 K-Fg:RZCBEVHZ QE FNOYR GERR QE 201248647\e\a" +
+        "\e\a" +
+        "\e\a",
+
+        "FEP:JISQ",
+        "QNGR:10/31",
+        "GVZR:18:21",
+        "NQQE:3430 MRCULE TYRA JNL",
+        "ZNC:447C-",
+        "PNYY:67O01-FZNYY BHGFVQR SVER",
+        "HAVG:Y43",
+        "K:RZCBEVHZ QE FNOYR GERR QE",
+        "VQ:201248647");
+
+    qbGrfg("G9",
+        "(JISQ) 10/31 15:44 18718 PYBIRE TYRA YA-UP, ; Znc:447W- Fho: Ang:60O01-TNF YRNX - BHGFVQR / FZNY Havgf:Y43 K-Fg:FG JVYYVNZF YA FUNQBJ GEY 201248619\e\a" +
+        "\e\a" +
+        "\e\a",
+
+        "FEP:JISQ",
+        "QNGR:10/31",
+        "GVZR:15:44",
+        "NQQE:18718 PYBIRE TYRA YA",
+        "ZNC:447W-",
+        "PNYY:60O01-TNF YRNX - BHGFVQR / FZNY",
+        "HAVG:Y43",
+        "K:FG JVYYVNZF YA FUNQBJ GEY",
+        "VQ:201248619");
+
+    qbGrfg("G10",
+        "(JISQ) 10/31 12:59 ZNFBA EQ-UP/XNGL SEJL JO-UP, ; Znc:445M- Fho: Ang:29-ZBGBE IRUVPYR VAPVQRAG Havgf:N41 Y43 K-Fg:XNGL SEJL JO ZREPUNAGF JN 201248596\e\a" +
+        "\e\a" +
+        "\e\a",
+
+        "FEP:JISQ",
+        "QNGR:10/31",
+        "GVZR:12:59",
+        "NQQE:ZNFBA EQ & XNGL SEJL JO",
+        "ZNQQE:ZNFBA EQ & XNGL SEJL",
+        "ZNC:445M-",
+        "PNYY:29-ZBGBE IRUVPYR VAPVQRAG",
+        "HAVG:N41 Y43",
+        "K:XNGL SEJL JO ZREPUNAGF JN",
+        "VQ:201248596");
 
   }
   
