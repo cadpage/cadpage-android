@@ -101,6 +101,8 @@ public class Message {
   };
   private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)(?:\\n|: )");
   private static final Pattern FRM_TAG_PATTERN = Pattern.compile("\n *FRM:");
+  private static final Pattern MULTI_MSG_MASTER_PATTERN = Pattern.compile("1 of \\d FRM:(.*?) SUBJ:(.*?) MSG:(.*)\\(End\\)");
+  private static final Pattern MULTI_MSG_BREAK_PATTERN = Pattern.compile(" \\(Con't\\) \\d of \\d ");
   private static final Pattern[] E_S_M_PATTERNS = new Pattern[]{
     Pattern.compile("^(?:([\\w\\.]+@[\\w\\.]+) +)?Subject: *(.*)\n"),
     Pattern.compile("^(?:([^ ,;/]+) +)?S:(.*?)(?: +M:|\n)"), 
@@ -236,6 +238,17 @@ public class Message {
             }
           }
         }
+      }
+      
+      /* Decode patterns that look like this (same as above with line breaks removed)
+        1 of 2 FRM:ics.gateway@wylietexas.gov SUBJ:Message From Wylie MSG:12030523 RESCUE-TRAPPED PERSON(S) TONY LN / N HIGHWAY 66 IN FATE [FAFD (Con't) 2 of 2 GRID: F121] UNITS: FATEFD ROMED1 ST RMK: <NONE> CFS RMK 12:48 VEHICLE ON ITS SIDE AND OCCP TRAPPED {WYPCCOM05 12:48}(End)
+      */
+      match = MULTI_MSG_MASTER_PATTERN.matcher(body);
+      if (match.matches()) {
+        parseAddress = match.group(1).trim();
+        parseSubject = match.group(2).trim();
+        body = MULTI_MSG_BREAK_PATTERN.matcher(match.group(3)).replaceAll(" ").trim();
+        break;
       }
       
       /* Decode patterns that look like this 

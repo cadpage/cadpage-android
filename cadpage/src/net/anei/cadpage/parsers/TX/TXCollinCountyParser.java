@@ -14,7 +14,7 @@ public class TXCollinCountyParser extends FieldProgramParser {
   private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("(?:\\[[^\\[\\]]*)?\\{[^\\{]*\\}?$");
   private static final Pattern CFS_ID_PTN = Pattern.compile(" CFS (\\d{8})\\b");
   private static final Pattern LEAD_DASH_PTN = Pattern.compile("^[ -]+");
-  private static final Pattern DIST_GRID_PTN = Pattern.compile("\\[([A-Z]+) .*?GRID: ([A-Z]*\\d+) *\\]");
+  private static final Pattern DIST_GRID_PTN = Pattern.compile("\\[([A-Z]+) .*?GRID: ([A-Z]*\\d*) *\\]");
   
   private static final String[] DOUBLE_CITY_LIST = new String[] {
     "COLLIN COUNTY",
@@ -26,8 +26,12 @@ public class TXCollinCountyParser extends FieldProgramParser {
   };
   
   public TXCollinCountyParser() {
-    super("COLLIN COUNTY", "TX",
-        "MASH UNITS:UNIT ST_RMK:INFO CFS_RMK:INFO");
+    this("COLLIN COUNTY", "TX");
+  }
+  
+  protected TXCollinCountyParser(String defCity, String defState) {
+    super(defCity, defState,
+          "MASH UNITS:UNIT ST_RMK:INFO CFS_RMK:INFO");
   }
   
   @Override

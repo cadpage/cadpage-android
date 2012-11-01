@@ -629,6 +629,7 @@ public class ParserList {
               ,"TXNassauBay"                    ,"Nassau Bay, TX"
               ,"TXNuecesCounty"                 ,"Nueces County, TX"
               ,"TXTarrantCounty"                ,"Tarrent County, TX"
+              ,"TXRockwallCounty"               ,"Rockwall County, TX"
               ,"TXWebster"                      ,"Webster, TX"
               ,"TXWilliamsonCounty"             ,"Williamson County, TX"
           ),

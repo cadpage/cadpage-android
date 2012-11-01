@@ -9,6 +9,14 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("GKPbyyvaPbhagl",
+        "xra@pnqcntr.bet",
+        "",
+        "1 bs 2 SEZ:vpf.tngrjnl@jlyvrgrknf.tbi FHOW:Zrffntr Sebz Jlyvr ZFT:12030523 ERFPHR-GENCCRQ CREFBA(F) GBAL YA / A UVTUJNL 66 VA SNGR [SNSQ (Pba'g) 2 bs 2 TEVQ: S121] HAVGF: SNGRSQ EBZRQ1 FG EZX: <ABAR> PSF EZX 12:48 IRUVPYR BA VGF FVQR NAQ BPPC GENCCRQ {JLCPPBZ05 12:48}(Raq)",
+        "vpf.tngrjnl@jlyvrgrknf.tbi",
+        "Zrffntr Sebz Jlyvr",
+        "12030523 ERFPHR-GENCCRQ CREFBA(F) GBAL YA / A UVTUJNL 66 VA SNGR [SNSQ TEVQ: S121] HAVGF: SNGRSQ EBZRQ1 FG EZX: <ABAR> PSF EZX 12:48 IRUVPYR BA VGF FVQR NAQ BPPC GENCCRQ {JLCPPBZ05 12:48}");
+    
     qbCnefrGrfg("APYvapbyaPbhagl",
         "xra@pnqcntr.bet",
         "",
