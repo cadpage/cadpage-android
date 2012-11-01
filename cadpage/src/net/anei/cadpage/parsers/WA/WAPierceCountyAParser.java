@@ -14,8 +14,6 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 public class WAPierceCountyAParser extends DispatchProQAParser {
   
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("RC:[-A-Z0-9]+/Run#\\d+/CALL:\\d\\d:\\d\\d/DISP:\\d\\d:\\d\\d/ENR:\\d\\d:\\d\\d/ATS:\\d\\d:\\d\\d/TRA:\\d\\d:\\d\\d/ATD:.*");
-  
   public WAPierceCountyAParser() {
     super("PIERCE COUNTY", "WA", 
            "CALL PLACE ADDR EXTRA+");
@@ -30,11 +28,7 @@ public class WAPierceCountyAParser extends DispatchProQAParser {
   protected boolean parseMsg(String body, Data data) {
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
-    if (super.parseMsg(body, data)) return true;
-    if (!RUN_REPORT_PTN.matcher(body).matches()) return false;
-    data.strCall = "RUN REPORT";
-    data.strPlace = body;
-    return true;
+    return super.parseMsg(body, data);
   }
   
   private class MyPlaceField extends PlaceField {

@@ -285,7 +285,7 @@ choyvp pynff GKOryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G17",
         "C1 YBP: 10842 F U 53 ORYY: @FRNGBA UNYY GLCR PBQR: HAP FhoGlcr: AN PNYYRE ANZR: PYEAHZ: 721-8370 GVZR: 14:05:53 Pbzzragf: hap Ahzore bs cngvragf: 1 Ntr: 80 Lrnef Traqre: Srznyr Pbafpvbhf: Lrf Oernguvat: Lrf CebDN puvrs pbzcynvag pbqr: 31 Erfcbaqre fpevcg: 80 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. Hapbafpvbhf / Snvagvat (Arne). Pnyyre Fgngrzrag: hap. CebDN qvfcngpu pbqr: 31Q03 Erfcbafr grkg: Qrygn Erfcbaqre fpevcg: Abg nyreg. 1.Vg'f abg xabja vs ure oernguvat vf pbzcyrgryl abezny. 2.Fur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl). 3.Fur vf punatvat pbybe. 4.Ure pbybe punatr vf cnyr.",
         "NQQE:10842 F U 53",
-        "NQQE:10842 GK 53",
+        "ZNQQE:10842 GK 53",
         "CYNPR:FRNGBA UNYY",
         "PNYY:HAP - AN",
         "CUBAR:721-8370",

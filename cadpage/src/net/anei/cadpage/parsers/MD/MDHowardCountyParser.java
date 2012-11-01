@@ -32,6 +32,7 @@ public class MDHowardCountyParser extends FieldProgramParser {
         break;
       }
       if (body.startsWith("EVENT: ")) break;
+      if (isPositiveId()) break;
       return false;
     } while (false);
     

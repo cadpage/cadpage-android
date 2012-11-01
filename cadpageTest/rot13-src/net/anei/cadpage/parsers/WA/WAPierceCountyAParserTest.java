@@ -32,8 +32,9 @@ choyvp pynff JNCvreprPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(- cneg 1 bs 1)EP:0038-N/Eha#36872/PNYY:03:32/QVFC:03:32/RAE:03:33/NGF:03:37/GEN:03:45/NGQ:0 3:53/CHMVC:98408/QB:Fg Wbfrcu Ubfcvgny",
+        "VQ:36872",
         "PNYY:EHA ERCBEG",
-        "CYNPR:EP:0038-N/Eha#36872/PNYY:03:32/QVFC:03:32/RAE:03:33/NGF:03:37/GEN:03:45/NGQ:0 3:53/CHMVC:98408/QB:Fg Wbfrcu Ubfcvgny");
+        "CYNPR:PNYY:03:32/QVFC:03:32/RAE:03:33/NGF:03:37/GEN:03:45/NGQ:0 3:53/CHMVC:98408/QB:Fg Wbfrcu Ubfcvgny");
   }
   
   @Grfg

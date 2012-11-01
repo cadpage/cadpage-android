@@ -66,7 +66,7 @@ Pierce County, WA
 public class DispatchProQAParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("\\bRun#");
-  private static final Pattern RUN_REPORT_MARKER = Pattern.compile("^(?:was Canceled:|(?:\\d\\d:\\d\\d/){5})");
+  private static final Pattern RUN_REPORT_MARKER = Pattern.compile("^(?:was Canceled:|(?:CALL:)?\\d\\d:\\d\\d/(?:DISP:)?\\d\\d:\\d\\d/(?:ENR:)?\\d\\d:\\d\\d/(?:ATS:)?\\d\\d:\\d\\d/)");
   
   protected DispatchProQAParser(String defCity, String defState, String program) {
     super(defCity, defState, program);

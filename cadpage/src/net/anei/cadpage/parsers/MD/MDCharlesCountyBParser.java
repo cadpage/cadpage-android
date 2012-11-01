@@ -23,7 +23,7 @@ public class MDCharlesCountyBParser extends FieldProgramParser {
   }
 
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
     
     return parseFields(body.split("\n"), 3, data);
   }
