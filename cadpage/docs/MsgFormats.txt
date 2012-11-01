@@ -4944,31 +4944,6 @@ RESIDENTIAL FIRE ALM AD: 10312 TOLEDO AV S CMT1: RESIDENTIAL FIRE ALARM COVERS T
 **********************************************************
 **********************************************************
 **********************************************************
-Roanoke (city/county?), VA (alternate)
-Contact: Zach Beckner <zach.beckner@gmail.com>
-Sender: e911@roanokeva.gov
-FIRE 1111 ORANGE AVE NW            CMT: APT IS ON FIRE// LOC INFO REVIEWED: BL
-GSWI 101 ELM AVE SE                CMT: MALE SUBJ STATES THAT HE HAS BEEN SHOT Original Location : CHRV
-FIRE 3447 HOLLINS RD NE            CMT: DOWN ON RAIL TRACKS - CALLER SEE FLAMES AND SMELLED SMOKE - PER CALLER IT IS CLOSE TO THE BUILDING - PER CALLER BUILDING
-F-ALARM 35 CAMPBELL AVE SW            CMT: GEN SMOKE ALARM Original Location : HANCOCK BUILDING
-F-ALARM 541 LUCK AVE SW               CMT: MANUAL ZONE 14 PULL ALARM Original Location : JEFFERSON CENTER
-F-ALARM 320 HERSHBERGER RD NW         CMT: GENERAL FIRE   SEC CENTRAL 8002306975 Original Location : BUILD 2 SUITE B
-
-This is actually still Roanoke City.  I know there was a Roanoke City
-location already added, however I am not sure who added it.  I work in the
-E911 center and do some administration to the paging system.
-
-Essentially the examples that I sent you are just filtered out by the call
-type.  Pretext is put in the page such as F-ALARM and FIRE and CAD data
-follows.  The other page is "Working Fire".  This has the Pretext "Working
-Fire" followed by the address which is what I think what the original
-Roanoke City location was set up for.
-
-F-ALARM - Fire Alarm
-FIRE - Structure Fire
-GSWI - Gun Shot Wound
-ROBI - Robbery In Progress
-PURSI - Pursuit
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
