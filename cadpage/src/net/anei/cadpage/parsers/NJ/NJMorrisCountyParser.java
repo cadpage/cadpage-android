@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class NJMorrisCountyParser extends MsgParser {
   
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("(.*?) \\[([-A-Za-z ]+)\\] \\(([-A-Z\\\\/ ]+)\\) - (.*)", Pattern.DOTALL);
+    Pattern.compile("(?:(Recall Reason: .*)\n)?(.*?) \\[([-A-Za-z ]+)\\] \\(([-A-Z\\\\/ ]+)\\) - (.*)", Pattern.DOTALL);
   
   private static final Pattern PLACE_CODE_PTN = Pattern.compile("\\(\\d+\\)");
   private static final Pattern ID_TIME_PTN = Pattern.compile("(F\\d{6,}) +(\\d\\d:\\d\\d)");
@@ -31,7 +31,8 @@ public class NJMorrisCountyParser extends MsgParser {
     Matcher match = MASTER_PTN.matcher(body);
     if (!match.matches()) return false;
     
-    String sAddress = match.group(1).trim();
+    String sRecall = getOptGroup(match.group(1));
+    String sAddress = match.group(2).trim();
     if (sAddress.startsWith("***")) sAddress = sAddress.substring(3).trim();
     Parser p = new Parser(sAddress);
     data.strPlace = p.getOptional(',');
@@ -44,14 +45,14 @@ public class NJMorrisCountyParser extends MsgParser {
     data.strApt = append(data.strApt, " - ", p.getLastOptional(" BLDG "));
     parseAddress(p.get(), data);
     
-    data.strCity = match.group(2).trim();
-    data.strCall = match.group(3).trim();
-    String sExtra = match.group(4);
+    data.strCity = match.group(3).trim();
+    data.strCall = append(match.group(4).trim(), " - ", sRecall);
+    String sExtra = match.group(5);
     String[] flds = sExtra.split("\n");
     if (flds.length > 1) {
       data.strUnit = flds[0].trim();
       int last = flds.length-1;
-      match = ID_TIME_PTN.matcher(flds[last]);
+      match = ID_TIME_PTN.matcher(flds[last].trim());
       if (match.matches()) {
         data.strCallId = match.group(1);
         data.strTime =match.group(2);

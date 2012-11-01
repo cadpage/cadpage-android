@@ -5163,39 +5163,3 @@ Sender: West Chester 7COMM <IPAGE@IPSCAD>
 * EOF
 **********************************************************
 
-Contact: Active911
-Agency name: Mobile Medical Response
-Location: Saginaw, MI, United States
-Sender: mailghost@mobilemedical.org
-
-(<CAD> - part 1 of 1) RC:Job# 0189-A/ Run# 83948/ was Canceled: Patient Refused Service/17:24/17:24/17:24/17:28/17:45\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83948/M L KING AVE & W STEWART AVE/P-2 Emergency No Lights//Traffic/Transportation/Accidents/TIER 1 // MLK & STEWART/ALS/FLINT///<Unknown>/17:24\r\n\r\n
-(<CAD> - part 1 of 1) RC:0111-A/Run#83846/11:31/11:31/11:32/11:37/11:47/11:56/12:36/12:36/ODOM ATS:1.4/ODOM ATD:3.6/MILES:       2.2/PUZIP:48504\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83846/1106 W HAMILTON AVE/P-1 Life Threatening Emergency//Sick Person (Specific Diagnosis)/83F/ was choking on Oatmeal --- no DIB and not choking -- just wants to be checked out // tier 1 for MLK/ALS/FLINT///<Unknown>/11:31\r\n\r\n
-(<CAD> - part 1 of 1) RC:0099-A/Run#83831/10:25/10:26/10:26/10:28/10:38/10:43/11:06/11:06/ODOM ATS:0.6/ODOM ATD:2.7/MILES:       2.1/PUZIP:48504\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83831/3606 RACE ST/P-1 Life Threatening Emergency//Chest Pain (Non-Traumatic)/45f hx heart mlk/ALS/FLINT///<Unknown>/10:25\r\n\r\n
-(<CAD> - part 1 of 1) RC:0086-A/Run#83820/09:13/09:14/09:15/09:22/09:44/09:50/10:16/10:17/ODOM ATS:2.1/ODOM ATD:4.2/MILES:       2.1/PUZIP:48505\r\n\r\n
-(<CAD> - part 1 of 1) Run# 83820/ W STEWART AVE & M L KING AVE/ P-1 Life Threatening Emergency/ Traffic/Transportation/Accidents/ alt LOC / tier 1 for MLK base/ ALS/ FLINT/ <Unknown>/ 09:13\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83820/W STEWART AVE & KEYS ST/P-1 Life Threatening Emergency//Traffic/Transportation/Accidents/alt LOC // tier 1 for MLK base/ALS/FLINT///<Unknown>/09:13\r\n\r\n
-(<CAD> - part 1 of 1) RC:0237-A/Run#83699/18:57/18:57/18:57/19:08/19:18/19:22/19:35/19:36/ODOM ATS:0.0/ODOM ATD:2.2/MILES:       2.2/PUZIP:48602\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83699/2001 BROCKWAY RD/P-2 Emergency No Lights//Sick Person (Specific Diagnosis)/71m // dizzy/ALS/SAGINAW///<Unknown>/18:57\r\n\r\n
-(<CAD> - part 1 of 1) RC:0192-A/Run#83653/16:09/16:09/16:10/16:17/16:28/17:07/17:29/17:43/ODOM ATS:0.0/ODOM ATD:19.6/MILES:      19.6/PUZIP:48603\r\n\r\n
-(<CAD> - part 1 of 1) RC:Job# 0189-A/ Run# 83649/ was Canceled: Cancelled PTA/16:01/16:02/16:02/16:09\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83653/5570 STATE ST/P-3 Downgrade  (No Lts/Sirens)/1/Unconscious/Fainting (Near)/60/m syncope awake & breathing req nonemergency/ALS/SAGINAW///<Unknown>/16:09\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83649/3020 BOARDWALK DR/P-1 Life Threatening Emergency/in the lobby/Unconscious/Fainting (Near)/22/f/ALS/SAGINAW///<Unknown>/15:42\r\n\r\n
-(<CAD> - part 1 of 1) RC:0165-A/Run#83621/14:16/14:17/14:17/14:22/14:39/14:40/14:58/14:59/ODOM ATS:0.0/ODOM ATD:0.3/MILES:       0.3/PUZIP:48603\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83621/4370 LAKESIDE CIR/P-2 Emergency No Lights/APT 138/Headache//ALS/SAGINAW///<Unknown>/14:16\r\n\r\n
-(<CAD> - part 1 of 1) RC:0097-A/Run#83586/09:23/12:56/12:56/12:56/13:19/13:40/14:05/14:12/ODOM ATS:0.0/ODOM ATD:9.3/MILES:       9.3/PUZIP:48602\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83586/1447 N HARRISON ST/P-7 Long Distance/820-B/Int-Sick Person-Specify in Comments/LUNG CA/ COPD/ 02/ DEBILITY/ WEAKNESS/ SHORTNESS OF BREATH/ALS/SAGINAW/6700 WESTSIDE SAGINAW RD//VALERIO/ ALBERT/12:15\r\n\r\n
-(<CAD> - part 1 of 1) RC:0139-A/Run#83587/12:02/12:02/12:02/12:14/12:30/12:39/12:55/12:55/ODOM ATS:0.0/ODOM ATD:4.5/MILES:       4.5/PUZIP:48604\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83587/4800 E MCLEOD DR/P-2 Emergency No Lights//Heart Problems / A.I.C.D./24/f dialysis pt/ elevated heart rate & BP/ALS/SAGINAW///<Unknown>/12:02\r\n\r\n
-(<CAD> - part 1 of 1) RC:Job# 0097-A (Run# 83586) at 12:15 was unassigned.\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83586/1447 N HARRISON ST/P-7 Long Distance/820-B/Int-Sick Person-Specify in Comments/LUNG CA/ COPD/ 02/ DEBILITY/ WEAKNESS/ SHORTNESS OF BREATH/ALS/SAGINAW/6700 WESTSIDE SAGINAW RD//VALERIO/ ALBERT/12:15\r\n\r\n
-(<CAD> - part 1 of 1) RC:0121-A/Run#83569/11:04/11:05/11:05/11:11/11:25/11:41/11:58/11:58/ODOM ATS:0.0/ODOM ATD:5.6/MILES:       5.6/PUZIP:48603\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83569/5935 SHATTUCK RD/P-2 Emergency No Lights/18/Sick Person (Specific Diagnosis)/male pt/ alt loc/ALS/SAGINAW///<Unknown>/11:04\r\n\r\n
-(<CAD> - part 1 of 1) RC:0085-A/Run#83553/08:48/10:03/10:03/10:06/10:28/10:46/11:00/11:00/ODOM ATS:0.0/ODOM ATD:6.5/MILES:       6.5/PUZIP:48602\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83553/1447 N HARRISON ST/P-5 Local Transport/813-B/Int-Sick Person-Specify in Comments/ADVANCED DEMENTIA/ PNEUM./ PE/ DEBILITY/ DECOND/ NO EXTRAS/ALS/SAGINAW/3340 HOSPITAL RD//BORENSTEIN/ ELFRIEDE/10:30\r\n\r\n
-(<CAD> - part 1 of 1) RC:0095-A/Run#83543/09:14/09:15/09:15/09:21/09:31/09:43/09:52/09:53/ODOM ATS:0.0/ODOM ATD:2.2/MILES:       2.2/PUZIP:48602\r\n\r\n
-(<CAD> - part 1 of 1) RC:Run# 83543/121 PERRY ST/P-2 Emergency No Lights/fulerton tool/Chest Pain (Non-Traumatic)/40f //DIB ///ALS/SAGINAW///<Unknown>/09:14\r\n\r\n
-(<CAD> - part 1 of 1) Run# 83480/ 2225 TITTABAWASSEE RD/ P-1 Life Threatening Emergency/ Psychiatric/ Abnormal Behavior/Suicide Attempt/ at the ihop tittabawsee /red g6 in the back parking lot/ ALS/ SAGINAW/ 700 COOPER AVE/ <Unknown>/ 00:22\r\n\r\n
-

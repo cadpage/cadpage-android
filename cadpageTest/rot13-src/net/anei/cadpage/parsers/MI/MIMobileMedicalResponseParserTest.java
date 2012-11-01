@@ -222,7 +222,7 @@ choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "\e\a",
 
         "VQ:83948",
-        "NQQE:Z Y XVAT NIR & J FGRJNEG NIR",
+        "NQQE:Z Y XVAT NIR & J FGRJNEG NIR", // Abg znccvat
         "PNYY:C-2 Rzretrapl Ab Yvtugf",
         "VASB:Genssvp / Genafcbegngvba / Nppvqragf / GVRE 1 / ZYX & FGRJNEG / NYF / SYVAG / <Haxabja> / 17:24");
 
@@ -274,7 +274,7 @@ choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "\e\a",
 
         "VQ:83820",
-        "NQQE:J FGRJNEG NIR & XRLF FG",
+        "NQQE:J FGRJNEG NIR & XRLF FG",   // Tbbtyr pnyyf guvf XRLRF FG
         "PNYY:C-1 Yvsr Guerngravat Rzretrapl",
         "VASB:Genssvp / Genafcbegngvba / Nppvqragf / nyg YBP / gvre 1 sbe ZYX onfr / NYF / SYVAG / <Haxabja> / 09:13");
 
