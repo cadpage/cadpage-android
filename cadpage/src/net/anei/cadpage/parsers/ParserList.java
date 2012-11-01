@@ -611,6 +611,7 @@ public class ParserList {
               ,"TXBexarCounty"                  ,"Bexar County, TX"
               ,"TXCollinCounty"                 ,"Collin County, TX"
               ,"TXCyCreekCommCenter"            ,"Cy Creek Comm Center, TX"
+              ,"TXCyFair"                       ,"Cypress-Harris, TX"
               ,"TXDecatur"                      ,"Decatur, TX"
               ,"TXDentonCounty"                 ,"Denton County, TX"
               ,"TXGalvestonCounty"              ,"Galveston County, TX"

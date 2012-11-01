@@ -2800,6 +2800,11 @@ Cy Creek Comm Center, TX (TXCyCreekCommCenterParser)
 09/06 11:56 W HILLSIDE DR/EASTEX FRWY, ; Map:414D Sub: Nat:MA-MUTUAL AID / ASSIST AGENCY Units:E91 T81 T73 E-L19 X-St:EASTEX
 09/06 11:28 19707 WOOD WALK LN, ; Map:337U Sub:PINEHURST OF ATASCOCITA Nat:09E01-ARREST - NOT BREATHING Units:E-M19 E-M29 E-7900
 ***************************************************************************
+Cypress-Fairbanks, TX (TXCyFairParser) 
+CFTW09    /30B01     TRAUMATIC INJ Poss Dangerous  /7924 N Sh 6                             CHERRY PARK DR/SERVICE CENTER DR                                                /                              /408J /UNITS ASSIGNED:CFA09,CFTW09,9EMS,CFA08
+CFE9      /32B03     STRUCTURE FIRE Resd-Single    /8014 Indian Desert Dr                   No X Street Found/SAGEBRUSH VALLEY LN                                           /                              /406M /UNITS ASSIGNED:CF34,CF31,CF36,TAC4,CF15,TAC4,CFA08,CFE9,CFE012,CFA08,CFE8,CFE8,8EMS,CF65,CFE11,CFE11,CF33,CF15,CFA12,TAC3,CFTW09,CFE06,CFA05,CFR05,CFREH1,ELECTRIC COMPANY,GAS COMPANY
+CFE9      /17A02     FALLS Non-Recent Injury       /16327 Battlecreek Dr                    MILLBROOK DR/FIELDSTONE ST                                                      /                              /407H /UNITS ASSIGNED:CFE9,CFA11
+***************************************************************************
 Decatur, TX (TXDecaturParser)
 (Decatur FD) MEDICAL EMERGENCY, 800 MEDICAL CENTER DR #C,  - DPD 221\n\nDr Swaims office
 (Decatur FD) MAJOR ACCIDENT,  730 S 287,  - DPD 221 \n\n2 vehs
@@ -4937,13 +4942,6 @@ RESIDENTIAL FIRE ALM AD: 10312 TOLEDO AV S CMT1: RESIDENTIAL FIRE ALARM COVERS T
 **********************************************************
 **********************************************************
 **********************************************************
-CY Fair, TX (in Haris County) 
-Department: Cy-Fair VFD
-Cad Software: TriTech VisiCad
-Sender: CAD@CYFAIRVFD.ORG
-CFTW09    /30B01     TRAUMATIC INJ Poss Dangerous  /7924 N Sh 6                             CHERRY PARK DR/SERVICE CENTER DR                                                /                              /408J /UNITS ASSIGNED:CFA09,CFTW09,9EMS,CFA08
-CFE9      /32B03     STRUCTURE FIRE Resd-Single    /8014 Indian Desert Dr                   No X Street Found/SAGEBRUSH VALLEY LN                                           /                              /406M /UNITS ASSIGNED:CF34,CF31,CF36,TAC4,CF15,TAC4,CFA08,CFE9,CFE012,CFA08,CFE8,CFE8,8EMS,CF65,CFE11,CFE11,CF33,CF15,CFA12,TAC3,CFTW09,CFE06,CFA05,CFR05,CFREH1,ELECTRIC COMPANY,GAS COMPANY
-CFE9      /17A02     FALLS Non-Recent Injury       /16327 Battlecreek Dr                    MILLBROOK DR/FIELDSTONE ST                                                      /                              /407H /UNITS ASSIGNED:CFE9,CFA11
 **********************************************************
 Rockwall County, TX
 Contact: "Kenneth Helman" <kennethh@fatefire.com>
