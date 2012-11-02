@@ -6,32 +6,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
-/* 
-Agusta County, VA
-Contact: Josh Sprouse <firemedic1812@gmail.com>
-Contact: Christopher Botkin <botkincs@gmail.com>
-Sender:cad@co.augusta.va.us
-
-CAD: Chest Pain:81 Fountain Cave RD:RT 605 - Wonderly / 10203: Cave Hill LN:Rockfish RD
-CAD: OB EMERGENCY:WEYERS CAVE SHELL/ TEXACO:149 WEYERS CAVE RD:P O BOX 184:TRIANGLE DR:SR 222:CNTY-1
-CAD:LANDING ZONE:BEVERLEY MANOR ELEMENTARY SCH:116 CEDAR GREEN RD:STEVENS LN:PARKERSBURG TPKE
-CAD:AUTOMOBILE ACCIDENT:1519 PARKERSBURG TPKE:159-03:NUCKOLES LN:EIDSON HILL LN:CNTY-2
-CAD:CONTROL BURN INVESTIGATION:300-BLK TRINITY POINT RD:PARKERSBURG TPKE:MILLERS HOLLOW LN:CNTY-2
-CAD:AUTOMOBILE ACCIDENT:3426 MORRIS MILL RD:AREA OF:GALLOPING HILLS RD:SHELLEY LN
-CAD:ELECTRICAL FIRE - DLOC:135 CRAWFORD DR:CRAWFORD MANOR - 11104:MADISON DR:WAYBURN ST:CNTY-
-CAD:CONTROL BURN INVESTIGATION:3445 OLD GREENVILLE RD:RT 613 / 245-04:GLORY LN:CHESTNUT RIDGE RD:CNTY-2
-CAD:AUTOMOBILE ACCIDENT:I81NB AREA MM 217.9
-
-Contact: Doug Brydge <dbrydge@gmail.com>
-Sender: CAD@co.augusta.va.us
-CAD@co.augusta.va.us Msg: CAD:FYI: :AUTOMOBILE ACCIDENT:BROADVIEW ACRES:SANGERS LN/JEFFERSON HWY
-
-Contact: Drew Siegel <drewasiegel@gmail.com>
-Sender: CAD@co.augusta.va.us
-CAD:INJURY (TRAUMATIC):AUGUSTA NURSING&REHAB:83 CROSSROADS LN:ROOM 224-B:GOOSE CREEK RD:CNTY-1\r
-
+/**
+ * Agusta County, VA
  */
-
 public class VAAugustaCountyParser extends DispatchOSSIParser {
   
   private static final Pattern MAP_PTN = Pattern.compile("\\b\\d{3}-?\\d{2}$");

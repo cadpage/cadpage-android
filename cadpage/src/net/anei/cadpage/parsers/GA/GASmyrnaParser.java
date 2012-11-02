@@ -12,7 +12,7 @@ public class GASmyrnaParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "cad@ci.smyrna.ga.us";
+    return "cad@ci.smyrna.ga.us,CAD@SMYRNAGA.GOV";
   }
   
   @Override
