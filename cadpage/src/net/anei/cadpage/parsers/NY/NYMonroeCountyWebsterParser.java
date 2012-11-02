@@ -40,6 +40,13 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
   }
   
   @Override
+  public String adjustMapAddress(String addr) {
+    // PK is abbreviation of PARK instead of the expected PIKE
+    return PK_PATTERN.matcher(addr).replaceAll("PARK");
+  }
+  private static final Pattern PK_PATTERN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
+  
+  @Override
   public String getProgram() {
     return "SRC BOX PRI " + super.getProgram();
   }
