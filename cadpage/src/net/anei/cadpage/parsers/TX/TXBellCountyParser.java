@@ -57,6 +57,16 @@ public class TXBellCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  @Override
+  public String adjustMapAddress(String addr) {
+    if (addr.startsWith("@")) {
+      int pt = addr.indexOf(':');
+      if (pt < 0) pt = addr.length();
+      addr = "I 35 MM " + addr.substring(1,pt);
+    }
+    return addr;
+  }
+  
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BELL", "",         // Bell County
