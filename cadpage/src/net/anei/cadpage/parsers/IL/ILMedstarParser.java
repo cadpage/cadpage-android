@@ -32,6 +32,13 @@ public class ILMedstarParser extends DispatchProQAParser {
   }
   
   @Override
+  public boolean parseMsg(String body, Data data) {
+    int pt = body.indexOf("ProQA comments:");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    return super.parseMsg(body,  data);
+  }
+  
+  @Override
   public boolean parseFields(String[] fields, Data data) {
     
     if (fields.length < 3) return false;
