@@ -16,7 +16,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
   private static Pattern LEADER = Pattern.compile("^([A-Z0-9/]+)[\\-:]");
   private static Pattern TRAILER = Pattern.compile(" V/Endicott? *$");
   private static Pattern KEYWORD_PAT = Pattern.compile(" (|Cross Sts|Caller|Phone):");
-  private static Pattern DATE_TIME_PAT = Pattern.compile(" \\d\\d:\\d\\d \\d\\d/\\d\\d/\\d{4} ");
+  private static Pattern DATE_TIME_PAT = Pattern.compile("\\b(\\d\\d:\\d\\d) (\\d\\d/\\d\\d/\\d{4}) ");
   private static Pattern TRAIL_COMMA_PAT = Pattern.compile("[ ,]+$");
     
     public NYBroomeCountyParser() {
@@ -31,6 +31,9 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 
 	  @Override
 	  protected boolean parseMsg(String body, Data data) {
+	    
+	    // Removed unbalanced parenthesis from subject
+	    if (body.startsWith(")")) body = body.substring(1).trim();
 	    body = body.trim().replaceAll("  +", " ");
 	    Matcher match = PREFIX.matcher(body);
 	    if (match.find()) body = body.substring(match.end()).trim();
@@ -58,13 +61,6 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 	    
 	    return parseFields(flds, data);
 	  }
-	  
-	  // Source code must be 2 digits or COMM
-	  private class MySourceField extends SourceField {
-	    public MySourceField() {
-	      setPattern(Pattern.compile("[0-9/]+|COMM"), true);
-	    }
-	  }
 
 	  // Cross street field needs to parse time, date, and ID data from field
 	  private class MyCrossField extends CrossField {
@@ -73,6 +69,8 @@ public class NYBroomeCountyParser extends FieldProgramParser {
       public void parse(String field, Data data) {
         Matcher match = DATE_TIME_PAT.matcher(field);
         if (match.find()) {
+          data.strTime = match.group(1);
+          data.strDate = match.group(2);
           data.strCallId = field.substring(match.end()).trim();
           field = field.substring(0, match.start()).trim();
         }
@@ -81,7 +79,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 
       @Override
       public String getFieldNames() {
-        return "X ID";
+        return "X TIME DATE ID";
       }
 	  }
 	  
@@ -101,7 +99,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 
     @Override
     protected Field getField(String name) {
-      if (name.equals("SRC")) return new MySourceField();
+      if (name.equals("SRC")) return new SourceField("[0-9/]+|[A-Z]{3,4}", true);
       if (name.equals("X")) return new MyCrossField();
       if (name.equals("NAME")) return new MyNameField();
       return super.getField(name);

@@ -2002,7 +2002,7 @@ Albany County, NY (NYAlbanyCountyBParser)
 ***************************************************************************
 Broome County, NY (NYBroomeCountyParser)
 (49 Sanitaria Spr Fire) 49-DIABETIC-C :2786 ROUTE 79 :78 yo fem high blood sugar/unable t   &lt;13C02&gt; :78 year old, Female, Conscious, Breathing.  A
-25:DIABETIC-C :412 ADAMS AV APT 1S :67 yom diabetic / low sugar &lt;13C01&gt; :67 year old, Male, Conscious, Breathing. Not alert (Combative or Agg ressive). Cross Sts:TRACY ST/RIVERVIEW DR 01:29 02/07/2011 2011-00002425 Caller:BATTISTI,MAURICE,, Phone:607-239-4661 V/Endicott
+25:DIABETIC-C :412 ADAMS AV APT 1S :67 yom diabetic / low sugar &lt;13C01&gt; :67 year old, Male, Conscious, Breathing. Not alert (Combative or Agg ressive). \\607-239-4661 V/Endicott
 25:OVERDOSE-B :431 E MAIN ST MANLEY'S 25-1 :FEM INTOX - CONSC/ALERT 22.09 TXFR 23-B-1 : Cross Sts:LODER AV/VESTAL AV 00:52 02/07/2011 2011-00002423 Caller:LASKOWSKY,OFC,, Phone: V/Endicott
 ***************************************************************************
 Cattaraugus County, NY (NYCattaraugusCounty)
@@ -5186,4 +5186,5 @@ s calhan rd/judge orr OUTSIDE FIRE SOUTH OF IX  blk smoke rising vertical\r\n
 **********************************************************
 * EOF
 **********************************************************
+OES:MUTUAL AID :NEW YORK CITY :MUTUAL AID DEPLOYMENT TO NYC :HURRICANE SANDY Cross Sts: 00:58 10/30/2012 2012-00001708 Caller:BROOME COUNTY,OES,, Phone:000-778-1270 Out Broome\r\n\r\n
 
