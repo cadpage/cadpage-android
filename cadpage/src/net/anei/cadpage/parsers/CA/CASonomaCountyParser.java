@@ -20,7 +20,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "sclec@sonoma-county.org,bc71@srcity.org,ps-cst@Sonoma-county org";
+    return "sclec@sonoma-county.org,bc71@srcity.org,ps-cst@Sonoma-county.org";
   }
 
   @Override
