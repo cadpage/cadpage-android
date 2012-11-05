@@ -14,10 +14,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class SDLincolnCountyParser extends SmartAddressParser {
   
-  private static final Pattern CALL_ID_PTN = Pattern.compile("^\\{?(\\d\\d-\\d+)\\}? - *\\{?");
+  private static final Pattern CALL_ID_PTN = Pattern.compile("^\\{?(\\d\\d-\\d+)\\b\\}?");
   private static final Pattern MASTER_PTN = Pattern.compile("\\{?(.*?)\\}? *(?:\n| - )(.*)");
   private static final Pattern STANDBY_PTN = Pattern.compile("^STANDBY +(?:AT +)", Pattern.CASE_INSENSITIVE);
-  private static final Pattern CITY_ST_PTN = Pattern.compile("^([A-Z ]+)\\b(?: *, *([A-Z]{2}))");
+  private static final Pattern CITY_ST_PTN = Pattern.compile("^([A-Z ]+)\\b *, *([A-Z]{2})(?: +\\d{5})?", Pattern.CASE_INSENSITIVE);
   private static final Pattern INFO_JUNK_PTN = Pattern.compile(" *Please respond immediately\\.? *", Pattern.CASE_INSENSITIVE);
  
   public SDLincolnCountyParser() {
@@ -39,6 +39,9 @@ public class SDLincolnCountyParser extends SmartAddressParser {
     if (match.find()) {
       data.strCallId = match.group(1);
       subject = subject.substring(match.end()).trim();
+      if (subject.startsWith("-")) subject = subject.substring(1).trim();
+      if (subject.startsWith("{")) subject = subject.substring(1).trim();
+      if (subject.endsWith("}")) subject = subject.substring(subject.length()-1).trim();
       if (subject.length() == 0) subject = "ALERT";
       good = true;
     }
@@ -88,7 +91,7 @@ public class SDLincolnCountyParser extends SmartAddressParser {
         if (!CITY_SET.contains(data.strCity.toUpperCase())) return false;
         body = body.substring(match.end()).trim();
         if (info == null) info = body;
-        else if (body.length() > 0) return false;
+        else info = append(body, " / ", info);
       } else if (info != null) {
         data.strCity = body;
         if (!CITY_SET.contains(data.strCity.toUpperCase())) return false;
@@ -100,6 +103,7 @@ public class SDLincolnCountyParser extends SmartAddressParser {
     }
     
     info = INFO_JUNK_PTN.matcher(info).replaceAll(" ").trim();
+    if (info.endsWith("/")) info = info.substring(0,info.length()-1).trim();
     data.strSupp = info;
     
     if (data.strCity.equalsIgnoreCase("CA")) data.strCity = "CANTON";

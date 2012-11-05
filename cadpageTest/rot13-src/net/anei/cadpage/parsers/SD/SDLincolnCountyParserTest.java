@@ -24,6 +24,10 @@ Fhowrpg:12-11690 - NZO : Nzohynapr Pnyy\aFnasbeq Pnagba-Vajbbq Ubfcvgny 14 l/b S
 Fhowrpg:12-11612 - NZO : Nzohynapr Pnyy\aPnagba Tbbq Fnznevgna Fbpvrgl \e\aCyrnfr erfcbaq vzzrqvngryl.  98lb.s qvss. oernguvat\e
 Fhowrpg:{12-12835} - {vawhel nppvqrag\a{teniry ebnq orgjrra Vajbbq naq Pnagba} \e\aCyrnfr erfcbaq vzzrqvngryl.\e
 Fhowrpg:VAWHEL NPPVQRAG\a480GU & 289GU - 1 SRZNYR JVGU HAXABJA VAWHEL\e
+(12-15330 - NZO : Nzohynapr Pnyy) 204 F OEBNQJNL FG, Pnagba, FQ 57013 \e\aCyrnfr erfcbaq vzzrqvngryl. sryy, naq pna abg pngpu uvf oerngu.
+(12-15176) 115 A ZVYJNHXRR FG, PNAGBA, FQ 83 l/b S cg - Snyy Ivpgvz\e\aCyrnfr erfcbaq vzzrqvngryl.
+(12-15072 - NZO : Nzohynapr Pnyy) 440 A UVNJNGUN QE, PNAGBA, FQ 82 l/b S cg - TV Oyrrq - Cyrnfr erfcbaq vzzrqvngryl.
+(12-14996 - NZO : Nzohynapr Pnyy) 908 Natry Ya, Pnagba, FQ 57013 \e\aCyrnfr erfcbaq vzzrqvngryl. Zrqvp Nyreg.
 
 ** Cnefre snvyherf **
 Fhowrpg:qrulqengvba\a519 f onegyrgg 18 lb srznyr qrulengrq, cyrnfr erfcbaq\e
@@ -145,10 +149,48 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:VAWHEL NPPVQRAG",
         "NQQE:480GU & 289GU",
         "VASB:1 SRZNYR JVGU HAXABJA VAWHEL");
- 
+
+    qbGrfg("G15",
+        "(12-15330 - NZO : Nzohynapr Pnyy) 204 F OEBNQJNL FG, Pnagba, FQ 57013 \e\a" +
+        "Cyrnfr erfcbaq vzzrqvngryl. sryy, naq pna abg pngpu uvf oerngu.",
+
+        "VQ:12-15330",
+        "PNYY:NZO : Nzohynapr Pnyy",
+        "NQQE:204 F OEBNQJNL FG",
+        "PVGL:Pnagba",
+        "FG:FQ",
+        "VASB:sryy, naq pna abg pngpu uvf oerngu.");
+
+    qbGrfg("G16",
+        "(12-15176) 115 A ZVYJNHXRR FG, PNAGBA, FQ 83 l/b S cg - Snyy Ivpgvz\e\aCyrnfr erfcbaq vzzrqvngryl.",
+        "VQ:12-15176",
+        "PNYY:NYREG",
+        "NQQE:115 A ZVYJNHXRR FG",
+        "PVGL:PNAGBA",
+        "FG:FQ",
+        "VASB:83 l/b S cg - Snyy Ivpgvz");
+
+    qbGrfg("G17",
+        "(12-15072 - NZO : Nzohynapr Pnyy) 440 A UVNJNGUN QE, PNAGBA, FQ 82 l/b S cg - TV Oyrrq - Cyrnfr erfcbaq vzzrqvngryl.",
+        "VQ:12-15072",
+        "PNYY:NZO : Nzohynapr Pnyy",
+        "NQQE:440 A UVNJNGUN QE",
+        "PVGL:PNAGBA",
+        "FG:FQ",
+        "VASB:82 l/b S cg / TV Oyrrq -");
+
+    qbGrfg("G18",
+        "(12-14996 - NZO : Nzohynapr Pnyy) 908 Natry Ya, Pnagba, FQ 57013 \e\aCyrnfr erfcbaq vzzrqvngryl. Zrqvp Nyreg.",
+        "VQ:12-14996",
+        "PNYY:NZO : Nzohynapr Pnyy",
+        "NQQE:908 Natry Ya",
+        "PVGL:Pnagba",
+        "FG:FQ",
+        "VASB:Zrqvp Nyreg.");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj FQYvapbyaPbhaglCnefreGrfg().trarengrGrfgf("G1", "VQ PNYY NQQE NCG PVGL FG VASB");
+    arj FQYvapbyaPbhaglCnefreGrfg().trarengrGrfgf("G15", "VQ PNYY NQQE NCG PVGL FG VASB");
   }
 }
