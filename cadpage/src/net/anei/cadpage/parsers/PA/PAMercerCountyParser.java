@@ -99,6 +99,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "ELI",  "Electric Fire",
       "ELO",  "Electric Lines down",
       "FALM", "Fire alarm",
+      "HAZ",  "Hazmat",
       "HF",   "House fire",
       "MUT",  "Mutual Aid",
       "MVA",  "Motor Vehicle Crash w. no injuries",

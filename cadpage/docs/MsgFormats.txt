@@ -4941,9 +4941,29 @@ RESIDENTIAL FIRE ALM AD: 10312 TOLEDO AV S CMT1: RESIDENTIAL FIRE ALARM COVERS T
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
+**********************************************************
+Washington County, MD (replace?)
+Contact: Jon Snyder <jsnyder886@gmail.com>
+Sender: rc.104@c-msg.net
+[!] 17910 COLLEGE RD, WCARC GROUP HOME - [RR TRACKS - CARTER LN] - CONVULSIONS,SEIZURE - R26 - - **BLS-ALPHA **Epileptic or Previous history-Not seizing now & breathing regularly(verified 1221489 13:58 2nd ALERT!
+[!] 16921 HALFWAY BLVD, MCDONALDS (PILOT) - [HOPEWELL RD - STOTLER RD] - CONVULSIONS,SEIZURE - R26 - - **ALS HOT* Epileptic or Previous history - CONTINUOUS or MULTIPLE seizures 1221478 09:58
+FRE CO, 4600 BLK MIDDLEPOINT RD - [ - ] - ASSAULT - R79 - 1221465 02:50
+[!] Recall Reason: M754 RE\n7 E WASHINGTON ST, ALEXANDER HOUSE APT 502 - [ - ] - MEDICAL EMERGENCY - R26,E03,M754 - - **ALS HOT* - Not alert 1221459 22:19
+[!] 7 E WASHINGTON ST, ALEXANDER HOUSE APT 502 - [ - ] - MEDICAL EMERGENCY - R26,E03 - - **ALS HOT* - Not alert 1221459 22:19
+ROBINWOOD CT / ROBINWOOD DR - [ROBINWOOD CT APTS - ROBINWOOD CT APTS] - PIC, PERS INJURY COLLISION - E102,UT3,P756,R79 - 1221441 19:34 2nd ALERT!
+[!] 11564 HOPEWELL RD, AC&T FUEL CENTER - [FROM STAPLES - HALFWAY BLVD] - NAT GAS LEAK - CO26 - - Outside commerical line or Outside tank => 5 gallons/23 liters 1221427 16:29
+FRE CO, 14756 HERMAN HAUVER RD - [ - ] - BREATHING PROBLEMS - R79 - 1221412 11:28 2nd ALERT!
+[!] 17026 VIRGINIA AVE, ACROSS FROM - [DONELSON DR - BOWER AVE] - SHED, SMALL OUT BUILDING FIRE - CO26,CO2,TWR26,E261,C26,CA26,ET2,TRK2,ET26 - - Small NON-DWELLING building/structure (shed detached garage) 1221403 05:16
+FRA CO, 1503 E MAIN ST - [ - ] - COMMERCIAL - BUILDING FIRE - CO9 - 1221375 17:53
+17912 BROADFORDING RD - [POINT SALEM RD - HOLLYHOCK LN] - MEDICAL EMERGENCY - S759,R26,CO13,P759 - - **ALS HOT* - ALTERED LEVEL OF CONSCIOUSNESS 1221336 03:11
+[!] 11014 LAKEVIEW DR - [ - ] - MEDICAL EMERGENCY - R26 - - **BLS-ALPHA *** Dizziness/vertigo 1221332 00:01
+REIDTOWN RD - [BYERS RD - PARADISE CHURCH RD] - BARN FIRE - CO27,CO13,CO9,T13,FAET3,T09,QNT27,FARS3,S759 - - Large NON-DWELLING building/structure (barn storage building) 1221326 21:50
+[!] INTERSTATE 81, 8MM I81 NB - [ - ] - PIC, PERS INJURY COLLISION - CO13,CO26,RS13,R75,P753,P754,C13,8FP273,E264,E131,ET26 - - **BLS HOT* - Unknown status/Other codes not applicable- Unknown number of patients 1221314 19:14
+Completed: Cancelled By Caller, Changed Mind\nFRA CO, 9931 BIRCHWOOD LN - [ - ] - DIABETIC PROBLEMS - R79,P7920 - 1221265 03:04
+ROBINWOOD CT / ROBINWOOD DR - [ROBINWOOD CT APTS - ROBINWOOD CT APTS] - PIC, PERS INJURY COLLISION - E102,UT3,P756,R79 - 1221441 19:34 2nd ALERT!
+[!] Recall Reason: CANCEL\n17912 BROADFORDING RD - [POINT SALEM RD - HOLLYHOCK LN] - MEDICAL EMERGENCY - S759,R26,CO13,P759 - - **ALS HOT* - ALTERED LEVEL OF CONSCIOUSNESS 1221336 03:11
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
