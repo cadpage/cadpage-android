@@ -22,7 +22,7 @@ public class TXCyCreekCommCenterParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "CommCenter@ccems.com,93001,777";
+    return "CommCenter@ccems.com,93001,777,messaging@iamresponding.com";
   }
 
   @Override

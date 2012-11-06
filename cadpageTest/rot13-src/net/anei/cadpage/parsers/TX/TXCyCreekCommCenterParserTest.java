@@ -65,6 +65,10 @@ Pbagnpg: Znegva Tbamnyrm <pbcvbhf8147@tznvy.pbz>
 Fraqre: PbzzPragre@pprzf.pbz
   / 09/10 11:17 2715 SYVAGEBPX PVE-UP, ; Znc:371Y-16 Fho:PNZQRA CNEX Ang:29-ZBGBE IRUVPYR VAPVQRAG Havgf:Z55 SB371 R83 K-Fg:YBIRYNAQ CNFF\a
 
+Pbagnpg: Wreev Oryyb <oryybwreev@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(JISQ) 11/04 07:59 20100 CNEX EBJ QE-UP, YNAPNFGRE NCGF; 1904 Znc:446K- Fho: Ang:31Q02-HAPBA - RSSRPGVIR OERNGUV Havgf:N43 FD41 Z41 K-Fg:FANXR EVIRE EQ
+
 Pbagnpg: Npgvir911.pbz
 Fraqre: <PbzzPragre@pprzf.pbz>
 02/17 17:42 QHAPNA EQ-UP/J SZ 1960-UP, ; Znc:370P- Fho: Ang:29-ZBGBE IRUVPYR VAPVQRAG Havgf:Z55 SB370 R12 K-Fg:J SZ 1960 GURNYY EQ 201207247
@@ -531,6 +535,20 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:29-ZBGBE IRUVPYR VAPVQRAG",
         "HAVG:Z55 SB371 R83",
         "K:YBIRYNAQ CNFF");
+
+    qbGrfg("G30",
+        "(JISQ) 11/04 07:59 20100 CNEX EBJ QE-UP, YNAPNFGRE NCGF; 1904 Znc:446K- Fho: Ang:31Q02-HAPBA - RSSRPGVIR OERNGUV Havgf:N43 FD41 Z41 K-Fg:FANXR EVIRE EQ",
+        "FEP:JISQ",
+        "QNGR:11/04",
+        "GVZR:07:59",
+        "NQQE:20100 CNEX EBJ QE",
+        "NCG:1904",
+        "ZNC:446K-",
+        "CYNPR:YNAPNFGRE NCGF",
+        "PNYY:31Q02-HAPBA - RSSRPGVIR OERNGUV",
+        "HAVG:N43 FD41 Z41",
+        "K:FANXR EVIRE EQ");
+
   }
     
   @Grfg
