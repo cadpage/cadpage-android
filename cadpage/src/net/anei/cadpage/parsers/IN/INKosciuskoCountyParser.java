@@ -14,6 +14,11 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
            "FYI CALL ADDR! APT? CITY END");
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "952",  "MARION",
       "AKRN", "AKRON",

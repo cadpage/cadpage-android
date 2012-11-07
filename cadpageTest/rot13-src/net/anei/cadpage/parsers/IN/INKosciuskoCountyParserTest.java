@@ -25,6 +25,7 @@ Fraqre: <hfre cubar>
 PNQ:SLV: ;FRVMHERF;304 F EBJYNAQ NIR;YRRF
 PNQ:SLV: ;NPPVQRAG CV;J HF 30/ J PE 800 F
 PNQ:Hcqngr: ;CERTANAG BO;221 F UVTU FG;NCG Q
+PNQ:SLV: ;SNYY;1827 YN IVFGN QE;JNE
 
  */
 choyvp pynff VAXbfpvhfxbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -128,6 +129,12 @@ choyvp pynff VAXbfpvhfxbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:CERTANAG BO",
         "NQQE:221 F UVTU FG",
         "NCG:NCG Q");
+
+    qbGrfg("G4",
+        "PNQ:SLV: ;SNYY;1827 YN IVFGN QE;JNE",
+        "PNYY:SNYY",
+        "NQQE:1827 YN IVFGN QE",
+        "PVGL:JNEFNJ");
 
   }
   
