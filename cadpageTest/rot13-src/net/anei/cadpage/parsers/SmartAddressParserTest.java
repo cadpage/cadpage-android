@@ -43,10 +43,21 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+    
+    qbGrfg(CYNPR, SYNT_NAPUBE_RAQ, "XRAFOHET NVECBEG XRAFOHET",
+           "CYNPR:XRAFOHET NVECBEG",
+           "PVGL:XRAFOHET");
   }
   
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(CYNPR, SYNT_NAPUBE_RAQ, "XRAFOHET",
+           "PVGL:XRAFOHET");
+    
+    qbGrfg(CYNPR, SYNT_NAPUBE_RAQ, "XRAFOHET NVECBEG XRAFOHET",
+           "CYNPR:XRAFOHET NVECBEG",
+           "PVGL:XRAFOHET");
     
     qbGrfg(NQQE, "22030 BKSBEQ PG NCG",
         "NQQE:22030 BKSBEQ PG");

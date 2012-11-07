@@ -3031,6 +3031,11 @@ SNRWLC, RFA 9071-54, Firstname Surname, 65 MCCLELLAND ST, WILLOUGHBY, 0433 381 9
 SNRWLC, RFA 9071-17, Firstname Surname, 37 INNES ROAD GREENWICH, 9906 999, TREE FALLEN & WEDGED ON 2 FENCES/SPLIT IN 3. CALL 0242516111
 SNRWLC, RFA 9072-18, Firstname Surname, 75 PARK ROAD NAREMBURN, 9439 999, ROOF GARDEN SHED COME LOOSE AND THREAT FALL.. CALL 0242516111
 ***************************************************************************
+New Zealand (ZNZNewZealandParser)
+(KAMO191, KAMO192, WHAN124) POLICE-STRU (Box -19-04) HURUPAKI SCHOOL 20 DIP RD KAMO. (XStr THREE MILE BUSH RD/ITI ST) .ROOF FIRE. #F1269133
+(KAMO192) 111-MIN 58 EDEN TCE KAMO. (XStr MARIPOSA PL/LOGAN PL) .CARPORT ON FIRE PRESSUMED OUT OPP. #F1269009
+(KAMO191) 111-MIN (Box -C) MERRIVALE REST HOME 1 WINGER CR KAMO. (XStr GREAT NORTH RD/) .ALARMS SOUNDING NSOF. #F1268810
+***************************************************************************
 West Midlands, UK (ZUKWestMidlandsParser)
 E:1699 (16:45) Unconscious DY8 4JA The Brambles Residential Home 69a Vicarage Road Amblecote Stourbridge (390070,285129)
 E:989 (12:13) Abdo Pain DY8 1HB Highbury House Nursing Home The Old Rectory Parkfield Road Stourbridge (390537,284075)
@@ -4928,6 +4933,12 @@ Contact: Jeffery Schoenborn <chiefstowinginc@gmail.com>
 Sender: LOGIS-Emergin-Paging@logis.org
 RESIDENTIAL FIRE ALM AD: 10312 TOLEDO AV S CMT1: RESIDENTIAL FIRE ALARM COVERS THE LOFT SMOKE. NOT RESET. INSIDE 952-835
 **********************************************************
+Hamilton County, OH (alternate)
+Contact: Barry Evans <Barry.Evans@RaymondJames.com>
+Sender: CFD.Dispatch@cincinnati-oh.gov
+FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:LT SMOKE AT WORKING FIRE - 1711 CASEY - FG02 CFD Dispatch
+FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:working fire 889 clinton springs, fg02 CFD Dispatch
+FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:ALL CALL TEST COMPLETE. WEEKEND DUTY CHIEF IS CAR C03 CFD Dispatch
 **********************************************************
 **********************************************************
 **********************************************************

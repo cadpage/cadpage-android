@@ -259,7 +259,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "SQUARE", "SQ",
         "BLVD", "BL", "BLV",
         "PARKWAY", "WAY", "PKWY", "PKY", "PK", "PY", "FWY", "WY", "HW", "EXPW", "PW",
-        "CIRCLE", "CIR", "CL", 
+        "CIRCLE", "CIR", "CL",
         "TRAIL", "TRL", "TR", "TL",
         "PATH",
         "PIKE", "PKE",
@@ -326,6 +326,11 @@ public abstract class SmartAddressParser extends MsgParser {
           "GREEN",
           "CRESCENT");
       break;
+      
+    case NZ:
+      setupDictionary(ID_ROAD_SFX,
+          "CR", "CRES", "CRESCENT",
+          "TCE", "TERRACE");
     }
   }
   
@@ -1161,6 +1166,13 @@ public abstract class SmartAddressParser extends MsgParser {
       int sAddr = result.addressField.fldStart;
       parseAddressToCity(sAddr, sAddr+2, result);
     }
+    
+    // If we don't have an address, but are parsing to end of field,  see if we can
+    // find a city at end of field
+    else if (isFlagSet(FLAG_ANCHOR_END) && result.startField != null) {
+      if (parseStartToCity(0, result)) endAddr = result.startField.fldEnd;
+    }
+    
     
     if (result.startField != null && startAddress < 0) result.startField.end(endAddr);
     

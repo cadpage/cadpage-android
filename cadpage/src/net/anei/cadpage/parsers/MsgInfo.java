@@ -489,6 +489,7 @@ public class MsgInfo {
 	}
   
   // Clean up any street suffix abbreviations that Google isn't happy with
+  private static final Pattern CR_PTN = Pattern.compile("\\bCR\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CRNN_PTN = Pattern.compile("\\b(?:CR|(?:CO|CTY)(?: *(?:RD|ROAD|HWY))?)[- ]*(\\d+[A-Z]?)(?: HWY)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern HW_PTN = Pattern.compile("\\bH[WY]\\b", Pattern.CASE_INSENSITIVE);
@@ -510,6 +511,9 @@ public class MsgInfo {
   private static final Pattern PA_PTN = Pattern.compile("\\bPA\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern NEAR_PTN = Pattern.compile("\\b(?:NEAR|OFF)\\b", Pattern.CASE_INSENSITIVE);
   private String cleanStreetSuffix(String sAddr) {
+    
+    // CR is a very versatile abbreviation.  In New Zealand, it is an abbreviation for Crescent
+    if (countryCode == CountryCode.NZ) sAddr = CR_PTN.matcher(sAddr).replaceAll("CRES"); 
     
     // convert CR nn to COUNTY ROAD nn
     // we need to do this before we do the abbreviations converstions that will

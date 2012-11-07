@@ -706,6 +706,9 @@ public class ParserList {
               ,"ZAUGeneralSlash"                ,"Generic (slash field separator)"
               ,"ZAUGeneralDash"                 ,"Generic (dash field separator)"
           ),
+          new ParserCategory("New Zealand"
+              ,"ZNZNewZealand"                  ,"New Zealand"
+          ),
           new ParserCategory("United Kingdom"
               ,"ZUKWestMidlands"                ,"West Midlands Region, UK"
               ,"ZUKGeneral"                     ,"Generic Location"
