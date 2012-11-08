@@ -5,27 +5,16 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Harris County NWEMS, TX
-Contact: "Charles O'Quin" <charles.oquin@nwems.org>
-Sender: cad@nwems.org
-
-  / * 13415 MEDICAL COMPLEX DR* 320* * * * 01C05* ABD PAIN -Males w/pain above navel* * * M-1* * * * *
-  / * 28602 TOMBALL PKWY* * * * * 19D04* HEART PROBLEMS-Clammy* * * M-1* * * * *
-  / * 502 JAMES ST* * * * * 17A01* FALL - Not Dangerous* * * M-1* * * * *
-  / * 605 HOLDERRIETH BLVD* 527* * * * 33A02* OUT OF DISTRICT TRANSFER* * * M-1* * * * *
-  / * 1019 HICKORY POST CT* * * * * OVERDOSE* OVERDOGE/INGESTION* * * M-1* * * * *
-
-*/
-
-
+/**
+ * Harris County NWEMS, TX
+ */
 public class TXHarrisCountyNWEMSParser extends FieldProgramParser {
   
   private static final Pattern DELIM = Pattern.compile("\\* ");
 
   public TXHarrisCountyNWEMSParser() {
     super("HARRIS COUNTY", "TX",
-           "ADDR APT INFO INFO INFO CODE CALL INFO INFO UNIT!");
+           "ADDR APT UNK UNK ( X/Z X/Z MAP EMPTY | EMPTY+? ) CODE CALL UNK UNK UNIT! INFO+");
   }
   
   public String getFilter() {
@@ -37,5 +26,20 @@ public class TXHarrisCountyNWEMSParser extends FieldProgramParser {
     if (!body.startsWith("* ")) return false;
     body = body.substring(2).trim();
     return parseFields(DELIM.split(body+" "), 10, data);
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("//", "&");
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("MAP")) return new MapField("\\d{3}[A-Z]{1,4}", true);
+    return super.getField(name);
   }
 }
