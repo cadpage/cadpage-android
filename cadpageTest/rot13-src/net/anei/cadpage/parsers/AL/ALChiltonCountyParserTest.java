@@ -89,7 +89,8 @@ choyvp pynff NYPuvygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PYNAGBA",
         "VQ:2011050250",
         "GVZR:05:43:58",
-        "VASB:TRARENY VYYARFF 57 LB SRZNYR // AREIR CEBOYRZF // CREZRANAG AREIR QNZNTR //");
+        "PNYY:TRARENY VYYARFF 57 LB SRZNYR",
+        "VASB:AREIR CEBOYRZF // CREZRANAG AREIR QNZNTR //");
 
     qbGrfg("G8",
         "  / 3669 PBHAGL EQ 49 PYNAGBA 2011052209 11:18:28 SNYY RYQREYL ZNYR SRYY\a",

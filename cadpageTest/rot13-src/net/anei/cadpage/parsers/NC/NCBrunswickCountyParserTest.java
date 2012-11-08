@@ -87,7 +87,8 @@ choyvp pynff APOehafjvpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:09O01",
         "VQ:11-020650",
         "GVZR:17:02:34",
-        "VASB:Pneqvnp be Erfcvengvbel Neerfg / Qrngu ERPI PNYY SEBZ SHARENY UBZR NQIVAT GUNG GURL ERPI PNYY FGNGVAT N SRZNYR JNF QRNQ NG GUVF YBPNGVBA NQ");
+        "PNYY:Pneqvnp be Erfcvengvbel Neerfg",
+        "VASB:Qrngu ERPI PNYY SEBZ SHARENY UBZR NQIVAT GUNG GURL ERPI PNYY FGNGVAT N SRZNYR JNF QRNQ NG GUVF YBPNGVBA NQ");
 
     qbGrfg("G2",
         "415:111 FR 32AQ FG BNX VFYNAQ IREVMBA JVERYRFF 7045790781 ZQY 09R01 11-025910 20:39:44 Pneqvnp be Erfcvengvbel Neerfg - Qr",

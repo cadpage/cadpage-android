@@ -38,6 +38,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private static final Pattern OPT_ID_TIME_PTN = Pattern.compile("\\b(?:(\\d{2,4}-?\\d{4,8}) )?(\\d\\d:\\d\\d:\\d\\d)\\b");
   private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /]+)\\b[ \\.,-]*");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
+  private static final Pattern CALL_BRK_PTN = Pattern.compile(" +/+ *");
 
   private Pattern idTimePattern;
   private boolean leadDispatch;
@@ -98,6 +99,21 @@ public class DispatchSouthernParser extends FieldProgramParser {
     } else {
       parseExtra2(sExtra, data);
     }
+    
+    // If we could not identify a call description, see if we can break one
+    // out of the supplemental info
+    if (data.strCall.length() == 0) {
+      if (data.strSupp.length() == 0) {
+        data.strCall = "ALERT";
+      } else {
+        match = CALL_BRK_PTN.matcher(data.strSupp);
+        if (match.find() && match.start() <= 30) {
+          data.strCall = data.strSupp.substring(0,match.start()).trim();
+          data.strSupp = data.strSupp.substring(match.end()).trim();
+        }
+      }
+    }
+
     return true;
   }
 

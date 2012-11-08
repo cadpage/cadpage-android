@@ -85,7 +85,8 @@ choyvp pynff APPungunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:31P02",
         "VQ:1119495",
         "GVZR:22:11:57",
-        "VASB:Hapbafpvbhf / Snvagvat (Arne) Snvagvat rcvfbqrf na JVSR CNFFRQ BHG, VF PBAF ABJ(Raq)");
+        "PNYY:Hapbafpvbhf",
+        "VASB:Snvagvat (Arne) Snvagvat rcvfbqrf na JVSR CNFFRQ BHG, VF PBAF ABJ(Raq)");
 
     qbGrfg("G5",
         "XVZ.UNAARE:475 ANGHER GENVY EQ PUNCRY UVYY 1119504 00:09:15 Pbaihyfvbaf/ Frvmherf- PBAGVAHBHF be ZHYGVCYR frvm CERIVBHF PNYY SBE GUVF NQQERFF JVGU GUVF AHZORE TVIRA OL PNEL CQ HAXABJA CEBOYRZ CBFFVOYR FRVMHERF(Raq)",
