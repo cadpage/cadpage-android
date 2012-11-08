@@ -30,4 +30,10 @@ choyvp pynff QRXragPbhaglCnefreGrfg {
     }
   }
   
+  choyvp fgngvp pynff GrfgQ rkgraqf QRXragPbhaglQCnefreGrfg {
+    choyvp GrfgQ() {
+      frgCnefre(arj QRXragPbhaglCnefre());
+    }
+  }
+  
 }

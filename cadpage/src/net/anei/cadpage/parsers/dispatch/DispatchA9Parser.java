@@ -12,6 +12,10 @@ public class DispatchA9Parser extends FieldProgramParser {
   private static final String START_MARKER = "Rip and Run Report\n\n~\n";
   private static final Pattern CLEAR_DATE_PTN = Pattern.compile("\nClear Date/Time:~\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d\\b");
   
+  public DispatchA9Parser(String defCity, String defState) {
+    this(null, defCity, defState);
+  }
+  
   public DispatchA9Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
            "Location:ADDR! Common_Name:PLACE? Venue:CITY! SKIP X Phone:PHONE? Quadrant:MAP! District:MAP! Call_Number:ID! Call_Type:CALL! Priority:PRI Caller:NAME Dispatch_Date/Time:DATETIME SKIP+? Units_Sent:SKIP UNIT Narrative:SKIP INFO+");

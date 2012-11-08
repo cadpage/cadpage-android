@@ -7,7 +7,8 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class DEKentCountyParser extends GroupBestParser {
   
   public DEKentCountyParser() {
-    super(new DEKentCountyAParser(), new DEKentCountyBParser(), new DEKentCountyCParser());
+    super(new DEKentCountyAParser(), new DEKentCountyBParser(),
+           new DEKentCountyCParser(), new DEKentCountyDParser());
   }
 }
 
