@@ -43,6 +43,11 @@ CAD:FYI: ;STRUCTURE FIRE;2501 WOODLANDS DR SE;FLAMES INSIDE FUSE BOX INSIDE CALL
 CAD:Update: ;VEHICLE FIRE;S COBB DR SE/BOURNE DR SE;METRO PCS;OWNER OF VEH CALLED --- ADV ON 280 AT WH [10/11/10 17:46:52 ABERRY] blk dodge charger on fire [10/
 CAD:FYI: ;VEHICLE FIRE;WINDY HILL RD SE/S COBB DR SE;METRO PCS;blk dodge charger on fire [10/11/10 17:46:16 DSNIVELY] ;104107
 *******************************************************************************
+Tazewell County, IL (ILTazewellCountyParser)
+CAD:FYI: ;MAFD;10/20/2012 10:04:35;CHEST PAIN;500-C1 W 2ND ST
+CAD:FYI: ;MAFD;11/06/2012 16:06:32;EMERGENCY MEDICAL;507 E FIFTH;KERLIN;S JULIANA
+CAD:FYI: ;MAFD;11/03/2012 18:15:04;FALLS;108 W FIRST;E FIRST;S MONROE 
+*******************************************************************************
 Bartholomew County, IN (INBartholomewCountyParser)
 FYI: ;08/30/2012 16:36:02;GAS ODOR 651;610 WEST DR;HOPE;WASHINGTON ST;JACKSON ST   - File Messenger Login
 FYI: ;08/23/2012 18:06:28;STRUCTURE FIRE 111;2018 FREMONT DR;COL;CLARK BLVD;HARRISON DR   - File Messenger Login
@@ -4951,7 +4956,6 @@ FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:A
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4975,6 +4979,7 @@ REIDTOWN RD - [BYERS RD - PARADISE CHURCH RD] - BARN FIRE - CO27,CO13,CO9,T13,FA
 Completed: Cancelled By Caller, Changed Mind\nFRA CO, 9931 BIRCHWOOD LN - [ - ] - DIABETIC PROBLEMS - R79,P7920 - 1221265 03:04
 ROBINWOOD CT / ROBINWOOD DR - [ROBINWOOD CT APTS - ROBINWOOD CT APTS] - PIC, PERS INJURY COLLISION - E102,UT3,P756,R79 - 1221441 19:34 2nd ALERT!
 [!] Recall Reason: CANCEL\n17912 BROADFORDING RD - [POINT SALEM RD - HOLLYHOCK LN] - MEDICAL EMERGENCY - S759,R26,CO13,P759 - - **ALS HOT* - ALTERED LEVEL OF CONSCIOUSNESS 1221336 03:11
+**********************************************************
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
