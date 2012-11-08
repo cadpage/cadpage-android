@@ -12,11 +12,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class MDWashingtonCountyParser extends FieldProgramParser {
   
+  private static final Pattern CALL_QUAL_PTN = Pattern.compile("^((?:Recall Reason|Completed):.*?)\n");
+  private static final Pattern CROSS_PTN = Pattern.compile("\\[([^\\[\\]]*) - ([^\\[\\]]*)\\]");
   private static final Pattern DELIM = Pattern.compile(" *(?<= )- +|  ,");
  
   public MDWashingtonCountyParser() {
     super(CITY_LIST, "WASHINGTON COUNTY", "MD",
-        "ADDR CITY? CALL! CALL+? UNIT UNIT+? INFO+? TRAIL! END");
+        "ADDR CITY? X? CALL! CALL+? UNIT UNIT+? INFO+? TRAIL! END");
   }
   
   @Override
@@ -26,6 +28,13 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    
+    // Look for call qualifier prefix
+    Matcher match = CALL_QUAL_PTN.matcher(body);
+    if (match.find()) {
+      data.strCall = match.group(1).trim();
+      body = body.substring(match.end()).trim();
+    }
     
     // Drop everything after the first newline
     int pt = body.indexOf('\n');
@@ -38,7 +47,10 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     }
     
     if (subject.endsWith("|!")) subject = subject.substring(0,subject.length()-2).trim();
-    if (!subject.equals("CAD")) data.strSource = subject;
+    if (!subject.equals("CAD") && !subject.equals("!")) data.strSource = subject;
+    
+    // Standard cross street field contains a spurious delimiter that we need to protect
+    body = CROSS_PTN.matcher(body).replaceFirst("[$1 & $2]");
     
     // Split body into fields separated by  -
     return parseFields(DELIM.split(body), data);
@@ -73,6 +85,22 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "ADDR PLACE CITY ST";
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("[") || ! field.endsWith("]")) return false;
+      field = field.substring(1, field.length()-1).trim();
+      if (field.endsWith("&")) field = field.substring(0,field.length()-1).trim();
+      super.parse(field, data);
+      return true;
     }
   }
   
@@ -135,6 +163,7 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("INFO")) return new MyInfoField();
