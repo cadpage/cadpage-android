@@ -10,6 +10,9 @@ import net.anei.cadpage.C2DMReceiver;
 import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
+import net.anei.cadpage.SmsMmsMessage;
+import net.anei.cadpage.SmsMsgLogBuffer;
+import net.anei.cadpage.SmsReceiver;
 import net.anei.cadpage.billing.BillingManager;
 import android.content.Context;
 import android.preference.ListPreference;
@@ -68,7 +71,7 @@ public class DeveloperToolsManager {
     "Content Query",
     "Recent Tasks",
     "Stat: Roll Last Date",
-    "Set Cadpage Parser"
+    "Build Test Message"
     
   };
   
@@ -198,8 +201,24 @@ public class DeveloperToolsManager {
         ManagePreferences.rollLastAuthDate("01012000");
         break;
         
-      case 14:    // Set Cadpage Parser
-        ManagePreferences.setLocation("Cadpage");
+      case 14:    // Build test message
+        
+        SmsMmsMessage message = 
+          new SmsMmsMessage("Active911", "Test Message", "The SKy is falling", System.currentTimeMillis(),
+                            "Cadpage", "Active911", "ARNL2/5/5", "https://cadpageweb.appspot.com/lookup", 
+                            null, null, null);
+        
+        // Add to log buffer
+        if (!SmsMsgLogBuffer.getInstance().add(message)) return;
+        
+        // See if the current parser will accept this as a CAD page
+        boolean isPage = message.isPageMsg(SmsMmsMessage.PARSE_FLG_FORCE);
+        
+        // This should never happen, 
+        if (!isPage) return;
+        
+        // Process the message
+        SmsReceiver.processCadPage(context, message);
         break;
         
       case 31:    // C2DM Register

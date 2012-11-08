@@ -490,7 +490,11 @@ public class MsgOptionManager {
     
     // Any button clears the notice
     ManageNotification.clear(activity);
-    message.acknowledge(activity);
+    
+    // Any button will trigger an auto response, except for an HTTP response button
+    // which is going to send a response code of it's own, rendering the auto response
+    // unnecessary
+    if (itemId != R.id.resp_http_item) message.acknowledge(activity);
 
     switch (itemId) {
     

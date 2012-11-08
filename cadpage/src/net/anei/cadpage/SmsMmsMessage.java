@@ -81,6 +81,9 @@ public class SmsMmsMessage implements Serializable {
   private String responseMenu = null;
   private boolean responseMenuVisible = true;
   
+  // Flag indicating location tracking has been activated
+  private boolean tracking = false;
+  
   // Temporary fields being monitored to see if they will be of any
   // use in identifying multi-part messages
   private long sentTime = 0L;
@@ -724,6 +727,37 @@ public class SmsMmsMessage implements Serializable {
    */
   public void sendResponse(Context context, String respCode) {
     C2DMReceiver.sendResponseMsg(context, ackReq, ackURL, respCode, vendorCode);
+    ackNeeded = false;
+    
+    // A response code of anything other than 'N' will be taken as an 
+    // active response which can start the location tracking logic
+    if (!respCode.equals("N") && !respCode.equals("NO")) triggerTracking(context);
+  }
+  
+  /**
+   * User has performed an action that could trigger a location tracking request from the server
+   * See if it should happen
+   */
+  private void triggerTracking(Context context) {
+    
+    // If tracking has already been initiated, don't check again
+    if (tracking) return;
+    tracking = true;
+    
+    // Has sender requested location tracking
+    OptionReader or = new OptionReader();
+    if (!or.init('L')) return;
+    int limit = Math.min(30, or.getParm(5));
+    int minTime = or.getParm(10);
+    int minDist = or.getParm(10);
+    
+    // See how long tracking is last following message receipt.  If time is 
+    // up, don't do anything
+    long delta = timestamp + limit * 60000L - System.currentTimeMillis();
+    if (delta <= 0) return;
+    
+    // We are good to go with tracking request
+    TrackingPromptActivity.addLocationRequest(context, ackURL, (int)delta, minDist, minTime);
     
   }
   
@@ -923,5 +957,47 @@ public class SmsMmsMessage implements Serializable {
   
   Message getParseInfo() {
     return parseInfo;
+  }
+  
+  /**
+   * Class to interpret numeric subparameter from acknowledgment request string
+   * Number parameters must follow a single letter parameter that keys them.  Multiple
+   * numeric parameters can be separated with slashes
+   */
+  private class OptionReader {
+    private int pt = -1;
+
+    /**
+     * Initialize reader starting with particular characater key
+     * @param chr desired character key
+     * @return true if character key is present, false otherwise
+     */
+    public boolean init(char chr) {
+      pt = ackReq.indexOf(chr);
+      if (pt < 0) return false;
+      pt++;
+      return true;
+    }
+    
+    /**
+     * Return next number parameter following initial character key
+     * @param defValue value to return if no number is specified
+     * @return number parameter or default value
+     */
+    public int getParm(int defValue) {
+      if (pt < 0 || pt >= ackReq.length()) return defValue;
+      int result = defValue;
+      char chr = ackReq.charAt(pt);
+      if (Character.isDigit(chr)) {
+        result = 0;
+        do {
+          result = result*10 + (chr-'0');
+          if (++pt >= ackReq.length()) chr = 'X';
+          else chr = ackReq.charAt(pt);
+        } while (Character.isDigit(chr));
+      }
+      if (chr == '/') pt++;
+      return result;
+    }
   }
 }

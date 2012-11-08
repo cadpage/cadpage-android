@@ -197,6 +197,7 @@ conditions.
 2) GPL location tracking must be enabled on the device
 3) Server must request location report in a page report
 4) User must press a response button that indicates a positive response status
+   Currently defined as sending a response code to the server other than N or NO
 
 The server requests location reports for a call by including an 'L' code in the ack_req
 parameter.  This code can be followed by 3 numbers separated by slashes such as L15/30/10
@@ -209,7 +210,13 @@ a minimum time interval of 30 seconds and a minimum distance interval of 10 mete
 Location reports will be sent to the URL specified by that ack_url parameter. And will include 
 the following parameters
 type      LOCATION
-location  User location in Lat/long degrees
+lat       latitude in degrees
+long      longitude in degrees
+time      UTC time of location report in msecs since Jan 1, 1970
+acc       accuracy in meters (if available)
+alt       altitude in meters (if available)
+bearing   direction of travel in degrees east of true north (if available)
+speed     speed in meters/sec (if available)
 
 Client version codes
 All HTTP requests originated by recent versions of Cadpage will include a client version code.

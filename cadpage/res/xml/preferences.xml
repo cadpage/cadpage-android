@@ -160,6 +160,14 @@
           android:entryValues="@array/pref_map_network_chk_values"
           android:dialogTitle="@string/pref_map_network_chk_title"
           android:defaultValue="@string/pref_map_network_chk_default" />
+      <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_report_position_key"
+          android:title="@string/pref_report_position_title"
+          android:summary="@string/pref_report_position_summary"
+          android:entries="@array/pref_report_position_entries"
+          android:entryValues="@array/pref_report_position_values"
+          android:dialogTitle="@string/pref_report_position_title"
+          android:defaultValue="@string/pref_report_position_default" />
       <PreferenceCategory
         android:title="@string/pref_popup_control">
         <CheckBoxPreference

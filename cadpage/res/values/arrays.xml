@@ -201,6 +201,18 @@
     <item>Disconnected</item>
   </string-array>
   
+  <string-array name="pref_report_position_values">
+     <item>Y</item>
+     <item>N</item>
+     <item>A</item>
+  </string-array>
+  
+  <string-array name="pref_report_position_entries">
+     <item>Always</item>
+     <item>Never</item>
+     <item>Ask?</item>
+  </string-array>
+  
   <string-array name="pref_history_limit_entries">
     <item>10</item>
     <item>20</item>

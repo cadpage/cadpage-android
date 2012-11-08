@@ -29,6 +29,7 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
   <uses-permission android:name="android.permission.CALL_PHONE" />
   <uses-permission android:name="android.permission.READ_LOGS" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   
   <uses-feature android:name="android.hardware.telephony" android:required="false" />
   
@@ -50,6 +51,7 @@
     <activity android:name=".SmsPopupConfigActivity" android:label="@string/pref_config_title" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation"/>
     <activity android:name=".SmsPopupActivity" android:theme="@android:style/Theme.Dialog" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" android:screenOrientation="user" android:taskAffinity="net.anei.cadpage.popup"/>
     <activity android:name=".EmailDeveloperActivity" android:theme="@android:style/Theme.Dialog" android:launchMode="singleTask" android:screenOrientation="user"/>
+    <activity android:name=".TrackingPromptActivity" android:theme="@android:style/Theme.Dialog" android:screenOrientation="user"/>
     <activity android:name=".donation.DonateActivity" android:theme="@android:style/Theme.Dialog" android:screenOrientation="user"/>
     <activity android:name=".vendors.VendorActivity" android:theme="@android:style/Theme.Dialog" android:screenOrientation="user"/>
     <activity android:name=".vendors.NoticeActivity"/>
@@ -102,6 +104,7 @@
     <service android:name=".billing.BillingService" />
     <service android:name=".KeepAliveService"/>
     <service android:name=".HttpService"/>
+    <service android:name=".TrackingService"/>
  
     <receiver android:name=".billing.BillingReceiver">
       <intent-filter>
