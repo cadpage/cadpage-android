@@ -171,9 +171,6 @@ public class TrackingService extends Service implements LocationListener {
   private void onLocationChanged(Location location, long maxAge) {
     
     if (location == null) return;
-    long curTime = System.currentTimeMillis();
-//    if (location != null && curTime-location.getTime() > maxAge) return;
-
     for (LocationRequest req : requestQueue) req.report(this, location);
   }
   
