@@ -1480,15 +1480,18 @@ public class FieldProgramParser extends SmartAddressParser {
       if (pt >= 0) {
         startType = StartType.START_ADDR;
         parseFlags = FLAG_ANCHOR_END;
+        boolean addPlace = false;
         do {
           if (++pt >= qual.length()) break;
           char chr = qual.charAt(pt);
           if (chr == '0') {
             parseFlags |= FLAG_AT_BOTH;
+            addPlace = true;
             if (++pt >= qual.length()) break;
           }
           if (chr == '1') {
             parseFlags |= FLAG_AT_PLACE;
+            addPlace = true;
             if (++pt >= qual.length()) break;
           }
           if (chr == '2') {
@@ -1526,6 +1529,10 @@ public class FieldProgramParser extends SmartAddressParser {
           }
           
         } while (false);
+        if (addPlace) {
+          if (tailField == null) tailField = "PLACE";
+          else tailField = "PLACE " + tailField;
+        }
         qual = qual.substring(0,pt);
       }
       incCity = qual.contains("y");

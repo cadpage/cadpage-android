@@ -741,7 +741,7 @@ public abstract class SmartAddressParser extends MsgParser {
         
         if (sAddr >= tokens.length) return false;
         if (isType(sAddr, ID_CROSS_STREET)) return false;
-        if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_CONNECTOR)) {
+        if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_CONNECTOR | ID_AT_MARKER | ID_INCL_AT_MARKER)) {
           if (sAddr == 0 || ! isType(sAddr-1, ID_RELATION)) {
             if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX) && 
                 !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;

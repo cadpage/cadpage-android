@@ -2982,9 +2982,9 @@ Yakima County, WA (VAYakimaCountyParser)
 11.51.01 02/08/12 EMR MEDIC 330 NORTH ST;BLUE SKY MARKET MBFD MB1 MB0 PR12 SYNCOPE 65 YOF PER RP PT
 ***************************************************************************
 Berkeley County, WV (WVBerkeleyCountyParser)
-(Alert) Description:ALRM CO/IN\nAddress: 5550 WINCHESTER AVE \nMARTINSBURG\r\n\r\n\r\n
-(Alert) Description:ALRM CO/IN\nAddress: 58 HAPPY SCHOOL AVE \nBUNKER HILL\r\n\r\n\r\n
-(Alert) Description:MUTAID S H\nAddress: 2718 WELLTOWN RD \nMARTINSBURG\r\n\r\n\r\n
+(Alert) Description:ALRM CO/IN\nAddress: 5550 WINCHESTER AVE \nMARTINSBURG\n\n\n
+(Alert) Description:ALRM CO/IN\nAddress: 58 HAPPY SCHOOL AVE \nBUNKER HILL\n\n\n
+(Alert) Description:MUTAID S H\nAddress: 2718 WELLTOWN RD \nMARTINSBURG\n\n\n
 ***************************************************************************
 Cabell County. WV (WVCabellCountyParser)
 1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22225) CCERC911\nMSG:113030126/10-30-11/06:42:08/Other Fire/8160 FRAZIERS LN/LESAGE/LORENA LN/KATHI\n(Con't) 2 of 2\nLN/50YF/BLEEDING FROM A SURGICAL WOUND IN STOMACH//(End)

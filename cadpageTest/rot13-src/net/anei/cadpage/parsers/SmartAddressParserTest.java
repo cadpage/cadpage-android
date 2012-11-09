@@ -43,14 +43,13 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-    
-    qbGrfg(CYNPR, SYNT_NAPUBE_RAQ, "XRAFOHET NVECBEG XRAFOHET",
-           "CYNPR:XRAFOHET NVECBEG",
-           "PVGL:XRAFOHET");
   }
   
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(NQQE, SYNT_VZCYVRQ_VAGREFRPG | SYNT_NAPUBE_RAQ, "UNPXRGG EQ XNAFNF EQ F",
+           "NQQE:UNPXRGG EQ & XNAFNF EQ F");
     
     qbGrfg(CYNPR, SYNT_NAPUBE_RAQ, "XRAFOHET",
            "PVGL:XRAFOHET");
@@ -544,6 +543,9 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:LBHE CEBOYRZ",
         "NQQE:A TERRA UVYY EQ",
         "CYNPR:PYRZVAGVAR");
+    qbGrfg(PNYY, SYNT_NG_OBGU | SYNT_NAPUBE_RAQ, "GENAFSRE FGNGVBA 46 @1902 PUHEPU PERRX EQ",
+        "PNYY:GENAFSRE FGNGVBA 46", 
+        "NQQE:1902 PUHEPU PERRX EQ");
   }
   
   @Grfg
