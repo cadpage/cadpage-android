@@ -28,6 +28,7 @@ public class MDDorchesterCountyParser extends FieldProgramParser {
     buildCodeTable(new String[]{
         "CAMB", "CAMBRIDGE",
         "CHUR", "CHURCH CREEK",
+        "HURL", "HURLOCK",
         "SECR", "SECRETARY"
     });
 }
