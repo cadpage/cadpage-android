@@ -208,10 +208,6 @@
   <string name="pref_code_callback6_title">Button 6 Phone/Code</string>
 
   <!-- Other new prefs -->
-  <string name="pref_autorotate_title">Autorotate Always On</string>
-  <string name="pref_autorotate_summaryon">Popup will always autorotate</string>
-  <string name="pref_autorotate_summaryoff">Popup will auto-rotate based on the screen behind it</string>
-
   <string name="pref_map_network_chk_title">Map Network Status</string>
   <string name="pref_map_network_chk_summary">Map request allowed when network status is %s</string>
   

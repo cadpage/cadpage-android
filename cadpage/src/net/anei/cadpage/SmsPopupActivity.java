@@ -98,14 +98,6 @@ public class SmsPopupActivity extends Safe40Activity {
 
     requestWindowFeature(Window.FEATURE_NO_TITLE);
     setContentView(R.layout.popup);
-    
-    // Check if screen orientation should be "user" or "behind" based on prefs
-    if (ManagePreferences.autoRotate()) {
-      setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
-    } else {
-      setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_BEHIND);
-    }
-
 
     resizeLayout();
 

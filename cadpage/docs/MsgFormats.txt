@@ -4945,7 +4945,16 @@ FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:L
 FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:working fire 889 clinton springs, fg02 CFD Dispatch
 FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:ALL CALL TEST COMPLETE. WEEKEND DUTY CHIEF IS CAR C03 CFD Dispatch
 **********************************************************
+Citrus County, FL (replace)
+Contact: "Martin Giles" <mgiles@crystalriverfl.org>
+Sender: 777
+CITRUS COUNTY FIRE DEPARTMENT Unit:E001A Status:Dispatched 41F - ALARM FIRE 11F 9450 W MARK CT N CITRUS AVE / N GARY PT Crystal River  fire alarm  This is a commercial alarm  Business name is: d TXT STOP to opt-out\r
+CITRUS COUNTY FIRE DEPARTMENT Unit:T001 Status:Dispatched 25S - STRUCTURE FIRE 32D 3549 SAUNDERS WAY W SOVEREIGN PATH / S LECANTO HWY Lecanto EOC TXT STOP to opt-out
 **********************************************************
+DuPage County, IL (alternate or replacement)
+Contact: David Miller <dmiller3272@gmail.com>
+Sender: DU-COMM@ducomm.org
+*!* YC *!*  AUTOMATIC FIRE ALARM  @  2 LINCOLN CENTER                 [District:  O14B]
 **********************************************************
 **********************************************************
 **********************************************************

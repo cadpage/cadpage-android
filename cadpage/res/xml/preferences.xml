@@ -146,12 +146,6 @@
         android:summaryOn="@string/pref_delete_unopen_summaryon"
         android:summaryOff="@string/pref_delete_unopen_summaryoff"
         android:defaultValue="@string/pref_delete_unopen_default" />
-      <CheckBoxPreference
-        android:key="@string/pref_autorotate_key"
-        android:title="@string/pref_autorotate_title"
-        android:summaryOn="@string/pref_autorotate_summaryon"
-        android:summaryOff="@string/pref_autorotate_summaryoff"
-        android:defaultValue="@string/pref_autorotate_default" />
       <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_map_network_chk_key"
           android:title="@string/pref_map_network_chk_title"

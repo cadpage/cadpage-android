@@ -78,7 +78,6 @@
    <string name="pref_xtra_resp_button1_key">xtra_resp_button1</string>
    <string name="pref_xtra_resp_button2_key">xtra_resp_button2</string>
    <string name="pref_xtra_resp_button3_key">xtra_resp_button3</string>
-   <string name="pref_autorotate_key">autorotate</string>
    <string name="pref_map_network_chk_key">map_network_chk</string>
    <string name="pref_report_position_key">report_location</string>
    <string name="pref_delete_unopen_key">delete_unopen</string>

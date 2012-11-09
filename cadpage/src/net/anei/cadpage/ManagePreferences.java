@@ -460,10 +460,6 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_delete_unopen_key);
   }
   
-  public static boolean autoRotate() {
-    return prefs.getBoolean(R.string.pref_autorotate_key);
-  }
-  
   public static String mapNetworkChk() {
     return prefs.getString(R.string.pref_map_network_chk_key);
   }
@@ -893,7 +889,6 @@ public class ManagePreferences {
 
         R.string.pref_history_limit_key,
         R.string.pref_delete_unopen_key,
-        R.string.pref_autorotate_key,
         R.string.pref_map_network_chk_key,
 
         R.string.pref_popup_enabled_key,
