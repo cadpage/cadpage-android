@@ -678,6 +678,7 @@ public class ParserList {
               ,"WAYakimaCounty"                 ,"Yakima County, WA"
           ),
           new ParserCategory("West Virginia"
+              ,"WVBerkeleyCounty"               ,"Berkeley County, WV"
               ,"WVCabellCounty"                 ,"Cabell County, WV"
               ,"WVKanawhaCounty"                ,"Kanawha County, WV"
               ,"WVMineralCounty"                ,"Mineral County, WV"

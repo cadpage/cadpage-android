@@ -2981,6 +2981,11 @@ Yakima County, WA (VAYakimaCountyParser)
 13.25.55 02/08/12 EMR MEDIC 904 POWELL ST GVFD GV1 GV0 PR12 POSS INJURY FROM A FALL
 11.51.01 02/08/12 EMR MEDIC 330 NORTH ST;BLUE SKY MARKET MBFD MB1 MB0 PR12 SYNCOPE 65 YOF PER RP PT
 ***************************************************************************
+Berkeley County, WV (WVBerkeleyCountyParser)
+(Alert) Description:ALRM CO/IN\nAddress: 5550 WINCHESTER AVE \nMARTINSBURG\r\n\r\n\r\n
+(Alert) Description:ALRM CO/IN\nAddress: 58 HAPPY SCHOOL AVE \nBUNKER HILL\r\n\r\n\r\n
+(Alert) Description:MUTAID S H\nAddress: 2718 WELLTOWN RD \nMARTINSBURG\r\n\r\n\r\n
+***************************************************************************
 Cabell County. WV (WVCabellCountyParser)
 1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22225) CCERC911\nMSG:113030126/10-30-11/06:42:08/Other Fire/8160 FRAZIERS LN/LESAGE/LORENA LN/KATHI\n(Con't) 2 of 2\nLN/50YF/BLEEDING FROM A SURGICAL WOUND IN STOMACH//(End)
 1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22343) CCERC911\nMSG:113030199/10-30-11/14:16:29/Structure Fire/6419 RT 60/BARBOURSVILLE/GEORGES DRY\n(Con't) 2 of 2\nCLEANERS/FARMDALE RD/MAIN ST/201 231 ENRT/237/(End)
@@ -3818,10 +3823,6 @@ HIGH MECH MVA
 Map=397,RD=22- 135
 to: F22
 **********************************************************
-Berkley County, WV
-Contact: Keith Baker <keithbakerwv@gmail.com>
-Sender: alert@berkeleywv.org
-Subject:Alert\nDescription:FUEL CON SM\nAddress: 14000 I-81 \nMARTINSBURG\n\n
 **********************************************************
 Kannapolis, NC (In Rowan & Cabarrus counties)
 Contact: "Ernie Hiers" <ehiers@cityofkannapolis.com>
