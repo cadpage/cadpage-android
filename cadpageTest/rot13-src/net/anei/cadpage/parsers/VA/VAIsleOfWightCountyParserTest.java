@@ -8,7 +8,7 @@ vzcbeg bet.whavg.Grfg;
 choyvp pynff INVfyrBsJvtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp INVfyrBsJvtugPbhaglCnefreGrfg() {
-    frgCnefre(arj INVfyrBsJvtugPbhaglCnefre(), "JVTUG PBHAGL", "IN");
+    frgCnefre(arj INVfyrBsJvtugPbhaglCnefre(), "VFYR BS JVTUG PBHAGL", "IN");
   }
   
   @Grfg

@@ -26,7 +26,7 @@ Sender: cad@isleofwightus.net
 public class VAIsleOfWightCountyParser extends DispatchOSSIParser {
   
   public VAIsleOfWightCountyParser() {
-    super("WIGHT COUNTY", "VA",
+    super("ISLE OF WIGHT COUNTY", "VA",
            "ADDR ( X X? CALL | PLACE X X? CALL | CALL ) INFO+");
   }
   
