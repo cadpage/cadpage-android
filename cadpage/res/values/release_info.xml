@@ -1,45 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11012012</string>
-  <string name="release_version">v1.5.66</string>
+  <string name="release_date">11082012</string>
+  <string name="release_version">v1.5.67</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-Added option to launch Scanner Radio for call detail screen\n
+Cadpage can now report your position to Active911 so that you show up on their response map.  Sorry, 
+we can not display the cool maps that they show on IPhone devices.  We will not report your position 
+unless you explicitly authorize this, and unless you have GPS location setting enabled.\n
+\n
+This feature requires a new Cadpage permision to read the device GPS location.\n
 \n
 New Locations:\n
-Standard Cadpage Format\n
-DuPage County, IL\n
-Davidson County, NC (update)\n
-Warren County, OH\n
-Cypress-Fairbanks, TX\n
-Rockwall County, TX\n
-Roanoke City, VA (alt)\n
+Kent County, DE (alt)\n
+Tazewell County, IL\n
+New Zealand\n
 \n      
 Location Parsing Fixes:\n
 Sonoma County, CA\n
-Dooley County, GA\n
-Black Hawk County, IA\n
-Montgomery County, MD\n
-Mobil Medical Response, MI\n
-CENCOM, NJ\n
-Gloucester County, NJ\n
-Morris County, NJ\n
+Smyrna, GA\n
+Washington County, MD\n
+Broome County, NY\n
 Monroe County, NY\n
-Ontario County, NY\n
-Gaston County, NC\n
-Mecklenburg County, NC\n
-Watauga County, NC\n
-Trumble County, OH\n
-Warren County, OH\n
-Lehigh County, PA\n
-Montgomery Cuonty, PA\n
-Washington County, PA\n
+Davidson County, NC\n
+Mercer County, PA\n
+Lincoln County, SD\n
+Cy Creek Comm Center, TX\n
+Harris County (NWEMS), TX\n
 Montgomery County, TX\n
-Bell County, TX\n
-Nassau County, TX\n
-Albemarle County, VA\n
-Hanover County, VA\n
+Nassau Bay, TX\n
   </string>  
 </resources>
   

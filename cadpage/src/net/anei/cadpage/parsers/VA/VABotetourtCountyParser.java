@@ -25,6 +25,7 @@ public class VABotetourtCountyParser extends DispatchSouthernParser {
     "FINCASTLE",
     "HOLLINS",
     "ORISKANY",
+    "ROANOKE",
     "SPRINGWOOD",
     "TROUTVILLE"
   }; 
