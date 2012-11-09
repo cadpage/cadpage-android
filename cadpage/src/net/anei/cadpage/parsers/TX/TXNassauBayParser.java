@@ -21,7 +21,7 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   
   protected TXNassauBayParser(String defCity, String defState) {
     super(CITY_CODES, defCity, defState,
-          "( FYI SRC CALL! ADDR! UNIT? CITY? CODE? DATETIME! | CANCEL ADDR CITY! ) INFO+");
+          "( FYI SRC CALL! ADDR! UNIT? CITY? CODE? DATETIME! | CANCEL ADDR! CITY? ) INFO+");
   }
   
   @Override
@@ -73,7 +73,9 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CS", "CLEAR LAKE SHORES",
       "EL", "EL LAGO",
+      "FB", "FRIENDSWOOD",
       "FW", "FRIENDSWOOD",
+      "HC", "",
       "HO", "NASSAU BAY",
       "LC", "LEAGUE CITY",
       "NB", "NASSAU BAY",

@@ -215,11 +215,6 @@ CAD:FYI: ;SA CITIZEN ASSIST;200-BLK ED SCHMIDT BLVD;HU
 CAD:REQUEST FIRE;201 ED SCHMIDT BLVD;HU;HUE1
 ***************************************************************************
 Accomack County, VA (VAAccomackCountyParser)
-Contact: niblett25@gmail.com
-Sender: cad@esva911.org
-Field 3 is unknown
-Field 4-5 make up a map code
-Field 6-7 are cross streets
 CAD:STROKE;6225 HOLLAND RD;NEWC;A25;A6;DEBRA LN;R J DR
 CAD:ACCIDENT WITH INJURY;12432 LANKFORD HWY;HALL;A59;B6;FOX DR;JOHN TAYLOR RD
 CAD:ABDOMINAL PAIN;15361 LANKFORD HWY;MAPP;A68;D4;GILLESPIE LN;SHERWOOD DR;MILE MARKER 125
@@ -5207,4 +5202,3 @@ s calhan rd/judge orr OUTSIDE FIRE SOUTH OF IX  blk smoke rising vertical\r\n
 **********************************************************
 * EOF
 **********************************************************
-
