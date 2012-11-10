@@ -15,11 +15,13 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
   private static final String DEF_STATE = "MD";
   private static final String DEF_CITY = "ANNE ARUNDEL COUNTY";
   
-  private static final Pattern MARKER = Pattern.compile("^\\*?(?:MEDICAL|Medical|Local|HazMat|Still|Box) (?:BOX|Box|Alarm) (\\d{1,2}-[A-Z0-9]{1,3}) ");
+  private static final Pattern MARKER = Pattern.compile("^\\*?(?:===(\\d.{0,4} Alarm)=== +)?(?:MEDICAL|Medical|Med|Local|HazMat|Still|Box|Elevator Rescue|Rescue|Water Rescue|All Hands) (?:BOX|Box|Alarm) (\\d{1,2}-[A-Z0-9]{1,3}) ");
   private static final Pattern T_MARKER = Pattern.compile("\\[\\d{1,2}/\\d{1,3}\\]");
   private static final Pattern OPEN_DELIM = Pattern.compile("\\(|\\[");
-  private static final Pattern MAP1 = Pattern.compile(" (\\d{1,2}-[A-Z]\\d{1,2}) ");
+  private static final Pattern BACK_ZIP = Pattern.compile(" (\\d{5})$");
+  private static final Pattern MAP_ZIP1= Pattern.compile(" (?:\\d{1,2}-[A-Z]\\d{1,2}|\\d{5}) ");
   private static final Pattern MAP2 = Pattern.compile("\\d{1,2}-[A-Z]\\d{1,2}");
+  private static final Pattern ZIP2 = Pattern.compile("\\d{5}");
   private static final Pattern MAP3 = Pattern.compile("\\d{2,4}[A-Z]\\d");
   private static final Pattern T_MARKER2 = Pattern.compile(";? (\\d{4})\\b");
 
@@ -38,7 +40,8 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
     // Check for starting signature
     Matcher match = MARKER.matcher(body);
     if (! match.find()) return false;
-    data.strBox = match.group(1);
+    data.strCode = getOptGroup(match.group(1));
+    data.strBox = match.group(2);
     body = body.substring(match.end()).trim();
     
     // End signature is optional, but we need to get rid of it lest it
@@ -58,6 +61,11 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
     if (found) {
       int ipt = match.start();
       String sAddr = body.substring(0,ipt).trim();
+      match = BACK_ZIP.matcher(sAddr);
+      if (match.find()) {
+        data.strCity = match.group(1);
+        sAddr = sAddr.substring(0,match.start()).trim();
+      }
       int pt = sAddr.indexOf("- btwn ");
       if (pt >= 0) {
         data.strCross = sAddr.substring(pt+7).trim();
@@ -94,9 +102,9 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
       }
     }
     
-    // No brackets, maybe we can find a map indicator, which would mark the end
+    // No brackets, maybe we can find a map indicator or zip code, which would mark the end
     // of the address
-    else if ((match = MAP1.matcher(body)).find()) {
+    else if ((match = MAP_ZIP1.matcher(body)).find()) {
       parseAddrCity(body.substring(0,match.start()).trim(), data);
       body = body.substring(match.start()).trim();
     }
@@ -121,8 +129,11 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
     // We'll identify the camel case name if the second character is lower case
     Parser p = new Parser(body);
     String token = p.get(' ');
-    if ((match = MAP2.matcher(token)).matches()) {
+    if ((MAP2.matcher(token)).matches()) {
       data.strMap = token;
+      token = p.get(' ');
+    } else if ((ZIP2.matcher(token)).matches()) {
+      if (data.strCity.length() == 0) data.strCity = token;
       token = p.get(' ');
     }
     
