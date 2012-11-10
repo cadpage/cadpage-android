@@ -33,7 +33,10 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 	  protected boolean parseMsg(String body, Data data) {
 	    
 	    // Removed unbalanced parenthesis from subject
-	    if (body.startsWith(")")) body = body.substring(1).trim();
+	    if (body.startsWith(")")) {
+	      body = body.substring(1).trim();
+	      if (body.startsWith(",")) body = body.substring(1).trim();
+	    }
 	    body = body.trim().replaceAll("  +", " ");
 	    Matcher match = PREFIX.matcher(body);
 	    if (match.find()) body = body.substring(match.end()).trim();
