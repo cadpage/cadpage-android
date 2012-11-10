@@ -8,6 +8,7 @@ vzcbeg bet.whavg.Grfg;
 Nqnzf Pbhagl, CN
 Pbagnpg: Gvz Glyre <glyre33sver@lnubb.pbz>
 Pbagnpg: Enaql Jbys <ezjbys2005@tznvy.pbz>
+Pbagnpg: Xvc Unzvygba <xvc.izv.77@tznvy.pbz>
 Fraqre: nyreg@nqnzf911.pbz
 
 Fhowrpg:Nyreg: Genssvp Nppvqrag - 1\aNYEZ YIY: 1\aYBP:\a274 UNABIRE FG\aBKSBEQ GJC\aOGJA: PBZZREPR FG & GEBHG YA
@@ -17,6 +18,7 @@ Fhowrpg:Nyreg: Genssvp Nppvqrag - 2\aNYEZ YIY: 1\aYBP:\aLBEX EQ/SYRFUZNA ZVYY EQ
 Fhowrpg:Nyreg: Sver - Erfvqragvny\aNYEZ YIY: 1\aYBP:\a2315 UHAGREFGBJA-UNZCGBA EQ\aFGENONA GJC\aOGJA: NYYRL & PBARJNTB EQ
 Fhowrpg:Nyreg: Genssvp Nppvqrag - 2\aNYEZ YIY: 1\aYBP:\a760 ARJ PURFGRE EQ\aFGENONA GJC\aOGJA: FJVSG EHA EQ & OEVPXPENSGREF EQ
 Fhowrpg:Nyreg: Sver - Oehfu / Jvyqynaq\aNYEZ YIY: 1\e\aYBP:\e\a1809 TREZNAL EQ\e\aERNQVAT GJC\e\aOGJA: FGBARL CBVAG EQ & CBFFHZ UBYYBJ EQ\e\a\e\a\e\a\e\aPBZ:\e
+(Nyreg: Snyyf - 2) NYEZ YIY: 1\e\aYBP:\e\a1175 BYQ JNLARFOBEB EQ\e\aEBBZ 1\e\aUNZVYGBAONA GJC\e\aOGJA: GHAARY YA & YVYNP YA\e\a\e\aEPIQ NF 911\e\a\e\aPBZ:\e\aGuvf unccrarq abj (yrff
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Snvesvryq Sver naq RZF Ybpngvba: Snvesvryq, CN 
@@ -109,7 +111,7 @@ choyvp pynff CNNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgGvzGlyre() {
+  choyvp ibvq grfgCnefre() {
 
     qbGrfg("G1",
         "Fhowrpg:Nyreg: Genssvp Nppvqrag - 1\aNYEZ YIY: 1\aYBP:\a274 UNABIRE FG\aBKSBEQ GJC\aOGJA: PBZZREPR FG & GEBHG YA",
@@ -176,6 +178,27 @@ choyvp pynff CNNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1809 TREZNAL EQ",
         "PVGL:ERNQVAT GJC",
         "K:FGBARL CBVAG EQ & CBFFHZ UBYYBJ EQ");
+
+    qbGrfg("G8",
+        "(Nyreg: Snyyf - 2) NYEZ YIY: 1\e\a" +
+        "YBP:\e\a" +
+        "1175 BYQ JNLARFOBEB EQ\e\a" +
+        "EBBZ 1\e\a" +
+        "UNZVYGBAONA GJC\e\a" +
+        "OGJA: GHAARY YA & YVYNP YA\e\a" +
+        "\e\a" +
+        "EPIQ NF 911\e\a" +
+        "\e\a" +
+        "PBZ:\e\a" +
+        "Guvf unccrarq abj (yrff",
+
+        "PNYY:Snyyf - 2",
+        "CEV:1",
+        "CYNPR:EBBZ 1",
+        "NQQE:1175 BYQ JNLARFOBEB EQ",
+        "PVGL:UNZVYGBAONA GJC",
+        "K:GHAARY YA & YVYNP YA",
+        "VASB:Guvf unccrarq abj (yrff");
 
   }
   

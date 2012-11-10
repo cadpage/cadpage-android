@@ -41,6 +41,10 @@ Pbagnpg: Naql Jnyy <ntjrzg@tznvy.pbz>
 Fraqre: znvytubfg@zbovyrzrqvpny.bet
 Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 14534/805 J PRQNE FG/C-7 Ybat Qvfgnapr/NPHGR PNER 25 -O/Vag-Fvpx Crefba-Fcrpvsl va Pbzzragf/ABA
 
+Pbagnpg: Fpbgg Xbjnypmlx <fxbj275@tznvy.pbz>
+Fraqre: znvytubfg@zbovyrzrqvpny.bet
+Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 86486/4234 UNEOBEGBJAR QE/C-2 Rzretrapl Ab Yvtugf/3/Hapbafpvbhf/Snvagvat (Arne)/Jngrefvqr Ncgf/\e
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zbovyr Zrqvpny Erfcbafr
 Ybpngvba: Fntvanj, ZV, Havgrq Fgngrf
@@ -205,6 +209,16 @@ choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:805 J PRQNE FG",
         "PNYY:C-7 Ybat Qvfgnapr",
         "VASB:NPHGR PNER 25 -O / Vag-Fvpx Crefba-Fcrpvsl va Pbzzragf / ABA");
+
+    qbGrfg("G18",
+        "Fhowrpg:<PNQ> - cneg 1 bs 1\a" +
+        "EP:Eha# 86486/4234 UNEOBEGBJAR QE/C-2 Rzretrapl Ab Yvtugf/3/Hapbafpvbhf/Snvagvat (Arne)/Jngrefvqr Ncgf/\e",
+
+        "VQ:86486",
+        "NQQE:4234 UNEOBEGBJAR QE",
+        "NCG:3",
+        "PNYY:C-2 Rzretrapl Ab Yvtugf",
+        "VASB:Hapbafpvbhf / Snvagvat (Arne) / Jngrefvqr Ncgf");
 
   }
   

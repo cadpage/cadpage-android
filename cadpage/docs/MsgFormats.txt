@@ -5327,3 +5327,13 @@ Sender: <Kentcenter@co.kent.de.us>
 **********************************************************
 * EOF
 **********************************************************
+From:_4Z9O@berks.alertpa.org
+Body:Subject:2/2\nL ST ; MAXATAWNY ; pt is a 81 yof on the toilet//throwign up //dizzy//no fever// ; 11/09/12 13:49\r
+Send time:1352486960000
+Rec time: 1352486967304
+
+
+From:_4Z9O@berks.alertpa.org
+Body:Subject:1/2\nUnit:M590A Status:Dispatched BLS MEDICAL ; 10 KOHLER RD APT 204 ; WILSON MANOR; E NORMAL AVE, WILLOW ST / S LAURE\r
+Send time:1352486961000
+Rec time: 1352487033016
