@@ -43,6 +43,10 @@ Pbagnpg: Wbr Oenqyrl <wbroenqyrltjtisq@tznvy.pbz>
 Fraqre: ZP_OYOK@zpra.zbagtbzrelpbhaglzq.tbi
 Fhowrpg:1/2\aPNQ ZFT: * Q * 0326 * CVP j/ QRP-YBP - NYF1 * A270X FUNQL TEBIR EQ-V370-PQ @ 8650 A270PQ K8 GB K9 UJL ,TN  * Z7\e
 
+Pbagnpg: Wbua Qvyyba <funqbjivcre83@irevmba.arg>
+Fraqre: ZPRA
+SEZ:ZPRA\aZFT:PNQ ZFT: * Q * 0847 * SHRY/YX * A270B ZIN-ZVQQYROEBBX EQ @ 12000 A270 K11 GB K13 UJL ,ZPT  * CR708 RPP1P
+
 Pbagnpg fhccbeg@npgvir911.pbz
 [Vzcbegnag zrffntr sebz ZPRA] PNQ ZFT: * Q * 2112 * CVP j/ RAGENCZRAG -NYF1 * 12000 PBAARPGVPHG NIR / 11900 IRVEF ZVYY EQ ,ZPT  * N721 CR721 EF742O Q5 QSEF\aFrag ol ZPPNQ ZPPNQ gb CR721, SF21, N721, QSEF, Q5, ZPPNQ ZPPNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\a----\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi\a
 [Vzcbegnag zrffntr sebz ZPRA] PNQ ZFT: * Q * 2403 * UBHFR SVER * 5 NCCYROL PG ,ZPT  * CR715 CR718 CR712 CR841 CR716 G715 NG718 EF742O Z715 OP701 OP704 Q12 Q15 QSEF VAI PRNYEZ PBQR OPABG\aFrag ol ZPPNQ ZPPNQ gb VAI, OPABG, Q15, SF24, CR718, CR715, Q12, NG718, CR716, PRNYEZ, QSEF, ZPPNQ ZPPNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\a----\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi\a
@@ -205,6 +209,19 @@ choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:TNVGUREFOHET",
         "CYNPR:A270X FUNQL TEBIR EQ-V370-PQ",
         "HAVG:Z7");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbaQvyyba() {
+
+    qbGrfg("G1",
+        "SEZ:ZPRA\aZFT:PNQ ZFT: * Q * 0847 * SHRY/YX * A270B ZIN-ZVQQYROEBBX EQ @ 12000 A270 K11 GB K13 UJL ,ZPT  * CR708 RPP1P",
+        "OBK:0847",
+        "PNYY:SHRY/YX",
+        "NQQE:12000 A270 K11 GB K13 UJL",
+        "CYNPR:A270B ZIN-ZVQQYROEBBX EQ",
+        "HAVG:CR708 RPP1P");
 
   }
   
