@@ -5,6 +5,99 @@ vzcbeg arg.narv.pnqcntr.cnefref.CN.CNOrexfPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Orexf Pbhagl, CN (ercynpr)
+Pbagnpg: "wbua.znazvyyre" <wbua.znazvyyre@tznvy.pbz>
+Pbagnpg: "xervareg@ylbaf35sver.pbz" <xervareg@ylbaf35sver.pbz>
+Pbagnpg: Qvnan Lbex <unjxzrnqbj@tznvy.pbz>
+Pbagnpg: Qhnar Tbbq <qhnart123@tznvy.pbz>
+Pbagnpg: "wnzrfzvyyre4525@tznvy.pbz" <wnzrfzvyyre4525@tznvy.pbz>
+Pbagnpg: "guvegl5gevcyrhab@lnubb.pbz" <guvegl5gevcyrhab@lnubb.pbz>
+Pbagnpg: 4843343577@zrffntvat.fcevagcpf.pbz
+Pbagnpg: Zvxr Ebgu <zebgu@fcevatgjcorexf.bet>
+Pbagnpg: IW TERRX <iwterrx@tznvy.pbz>
+Pbagnpg: Ohqql <sjneqvi@tznvy.pbz>
+Fraqre: nyeg_3JCW@orexf.nyregcn.bet,@efvk.ebnzfrpher.arg,14100
+Havg:Z590N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 215 GBJRE EQ ; ; F CNEX NIR / PYNL EQ ; Zhav: YBATFJNZC ; 64 LBZ / VA NPGVIR FVRMHER  ; 07/10/12 12:57
+Havg:Z590O Fgnghf:Qvfcngpurq ZINHAX ; J ZNVA FG ABEZNY NIR ; ; ; Zhav: XHGMGBJA ; ; 07/10/12 14:06
+Havg:Z535N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 281 ZBFRYRZ PUHEPU EQ ; ; FPUJBLRE EQ / ZVFGL YA ; Zhav: EVPUZBAQ ; 79 LBS/IBZVGVAT/PBHTUVAT/CNVA VA FVQR ; 07/11/12 10:04 Frag ol Orexf Pbhagl EFNA gb Syrrgjbbq RZF Nyy PNYY -- Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet
+Havg:Z535N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 224 SNVGU QE ; ; TRARFVF QE, UBCR QE / UBCR QE ; Zhav: ZNVQRAPERRX ; 39LBZ/ABG ZNXVAT FRAFR/YNLVAT BA GUR SY ; 07/11/12 21:59 Frag ol Orexf Pbhagl EFNA gb Syrrgjbbq RZF Nyy PNYY -- Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet
+Havg:585N Fgnghf:Qvfcngpurq ZINJVGU ; 2330 VAGREFGNGR 78 R ; V78 ZC 23.3 RO; HAXABJA / ENZC O7 ; Zhav: HCCRE OREA ; 2 iruf/ VYIRE FRQNA / HAX VAWF / GK GB CFC  ; 07/11/12 16:33 Ba Why 11, 2012 5:55 CZ, "Xra Pbeova" <xra@pnqcntr.bet> jebgr:
+Havg:Z590N Fgnghf:Qvfcngpurq ZINJVGU ; F ONYQL FG GERKYRE NIR ; ; ; Zhav: XHGMGBJA ; ; 07/11/12 07:10
+Havg:Z590N Fgnghf:Qvfcngpurq OYF ZRQVPNY ; 625 FCEVAT FG ; CRAAFLYINAVN QVNYLFVF; PEBFFVAT QE / A 6 FG ; Zhav: JLBZVFFVAT ; ; 07/10/12 19:58
+Havg:Z590O Fgnghf:Qvfcngpurq ZINHAX ; J ZNVA FG ABEZNY NIR ; ; ; Zhav: XHGMGBJA ; ; 07/10/12 14:06
+Havg:E27 Fgnghf:Qvfcngpurq ZINHAX ; EBHGR 183 ZVYY EQ ; ; ; Zhav: HCCRE GHYCRUBPXRA ; ; 07/12/12 04:48
+Havg:535N Fgnghf:Qvfcngpurq OYF GENHZN ; 2 J CVAR FG ; ; F SENAXYVA FG, R CVAR FG /ARJ NYL ; Zhav: SYRRGJBBQ ; 79 LBZ SRYY VA GUR QEVIRJNL ; 07/11/12 14:13
+Havg:Z590N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 7723 UNZVYGBA OYIQ ; ; ; Zhav: ; HCCREZNPHATVR GJC- YRUVTU PB/ ; 07/11/12 21:51
+Havg:Z590N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 1107 NCRK NIR ; ; HAXABJA / YVSRFGLYR YA ; Zhav: ZNKNGNJAL ; 20vfu lbs ynlva ba tebhaq /vf pbaf ; 07/11/12 20:41
+Havg:Z590N Fgnghf:Qvfcngpurq NYF GENHZN ; 15620 XHGMGBJA EQ ; ; HAXABJA / PUHEPU EQ ; Zhav: ZNKNGNJAL ; 10 LBS SRYY SEBZ N JVAQBJ  HAPBAF ; 07/12/12 12:38
+Havg:Z590N Fgnghf:Qvfcngpurq OYF ZRQVPNY ; 247 EUBNQRF EQ ; ; AHARZNXRE EQ / EBGU EQ ; Zhav: TERRAJVPU ; ERFCBAQVAT SBE OYFZRQ ; 07/12/12 15:14
+Havg:Z590N Fgnghf:Qvfcngpurq YVSG NFFVFG ; 35 F JUVGRBNX FG FUNQR ERF ; ; FNAQRE NYL, A JUVGRBNX FG / ABEZNY NIR ; Zhav: XHGMGBJA ; 74LBZ SRYY ABG VAW WHFG ARRQF URYC TRGGVAT HC ; 07/12/12 17:38
+Havg:Z590N Fgnghf:Qvfcngpurq OYF ZRQVPNY ; 247 EUBNQRF EQ ; ; AHARZNXRE EQ / EBGU EQ ; Zhav: TERRAJVPU ; ERFCBAQVAT SBE OYFZRQ ; 07/12/12 15:14
+Havg:Z590N Fgnghf:Qvfcngpurq NYF GENHZN ; 15620 XHGMGBJA EQ ; ; HAXABJA / PUHEPU EQ ; Zhav: ZNKNGNJAL ; 10 LBS SRYY SEBZ N JVAQBJ  HAPBAF ; 07/12/12 12:38
+Havg:PB61 Fgnghf:Qvfcngpurq PZN ; 303 JLAQPYVSSR NIR ; ; UVYYGBC PG / PURFGAHG FG, JVAGREFBA QE ; Zhav: UNZOHET ;
+Havg:PB61 Fgnghf:Qvfcngpurq NSN ; 218 CVAR FG ; ; F CRNPU NYL / F 2 FG ; Zhav: UNZOHET ; ; 07/12/12 06:37
+Havg:PB85 Fgnghf:Qvfcngpurq ZINJVGU ; 1780 NPBEA QE ; ; GVZORE YA / TENIRY UVYY QE ; Zhav: FCEVAT ; SZ FPERNZVAT FUR VF OYRRQVAT/  ; 07/12/12 02:03\a\aFrag ol Orexf Pbhagl EFNA gb PB85 Nyy Pnyy
+Havg:R85-2 Fgnghf:Qvfcngpurq UNMZNG ; 2227 ZPXVAYRL NIR ; ; HAXABJA / JRFG JLBZVFFVAT OYIQ ; Zhav: FCEVAT ; PUS85 NAQ R85-2 RA SBE BQBE BS TNFBYVAR VA ERFVQRAPR ; 07/11/12 10:07\a\aFrag ol Orexf Pbhagl EFNA gb PB85 Nyy Pnyy
+Havg:ERA85 Fgnghf:Qvfcngpurq FS ; 44 JNGRE FG ; ; CBGGFIVYYR CXR / A 5 FGERRG UJL ; Zhav: ZHUYRAORET ; ryqreyl sz / abg nafjrevat dhrfgvbaf  ; 07/12/12 00:54\a\aFrag ol Orexf Pbhagl EFNA gb PB85 Nyy Pnyy
+Havg:E1 Fgnghf:Qvfcngpurq ZINHAX ; BNX YA / EVPUZBAQ FG ; ; ; Zhav: YBJRE NYFNPR ; zp vagb qvgpu / ba bnx ya / ; 07/12/12 12
+
+Pbagnpg: Npgvir911
+(orexf.pb85@efvk.ebnzfrpher.arg) Havg:PB85 Fgnghf:Qvfcngpurq ZS ; 828 OYHR TNGR YA ; ; CREFVZZBA QE / URNEGUFGBAR YA ; Zhav: FCEVAT ; ; 07/13/12 14:09 Frag ol Orexf Pbhagl EFNA gb PB85 Nyy Pnyy -- Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf. 
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650N Fgnghf:Qvfcngpurq OYF ZRQVPNY ; 1320 OEBNQPNFGVAT EQ ; ; ZREVQVNA OYIQ / PBAARY QE ; Zhav: FCEVAT ; ERFCBAQVAT SBE OYF ZRQ / QVERPG PNYY GB FGNGVBA / ASV ; 07/12/12 15:18\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650O Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 3121 FGNGR UVYY EQ EZ17 ; PBYHZOVN PBGGNTR; LRETRE OYIQ, JRFGOHEL QE / YRYNAQ JNL ; Zhav: FCEVAT ; SRZNYR PURFG CNVA  ; 07/12/12 15:19\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650R Fgnghf:Qvfcngpurq PYNFF 4 ZRAGNY ; 107 F 5 FG EBBZ 5 ; ; SENAXYVA FG / PURFGAHG FG ; Zhav: ERNQVAT ; SRRYVAT FHVPVQNY ; 07/12/12 19:20\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650V Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 404 F PUHEPU FG EBBZ 1 ; TBYQRA EVQTR; CNGGREFBA QE / CNGGREFBA QE ; Zhav: EBORFBAVN ; 88 LBS/ CBF GVN ; 07/12/12 19:59\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650R Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 1802 GHYCRUBPXRA EQ EZ 277 ; ; HAXABJA / XVFFVATRE YA ; Zhav: JLBZVFFVAT ; 88 LBS/  ; 07/12/12 21:28\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650V Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 101 R SEBAG FG ; ; F ZNVA FG, A ZNVA FG / A JBYS FG ; Zhav: OREAIVYYR ; 63LBZ YNOBERQ OERNGUVAT ; 07/12/12 22:17\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 3012 FHFNAAN QE ; ; QNAVRY QE / XNGUNEVAR QE ; Zhav: FCEVAT ; NYF ; 07/12/12 22:34\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650O Fgnghf:Qvfcngpurq QBZRFGVP VAWHEL ; 654 NAAR QE ; ; HAXABJA / PUEVFGBCURE QE ; Zhav: JREAREFIVYYR ; PBZC IF RK UHFO BS TVEYSEVRAQ/  ; 07/12/12 22:45\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:650G Fgnghf:Qvfcngpurq PYNFF 4 ZRAGNY ; 4050 PBAENQ JRVFRE CEXJL 4 ; ; ZNEVBA QE / FUREVQNA EQ ; Zhav: ZNEVBA ; 21LBS/ARRQF GB OR 302 ; 07/12/12 23:37\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650R Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 511 UHAGREF EQ ; ; HAXABJA / HAXABJA ; Zhav: PHZEH ; 76LBZ/ OYBBQ FHTNE 35/  ; 07/12/12 23:52\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 350 FCBEGFZNA EQ ; JREAREFIVYYR FGNGR UBFCVGNY; JFU BEPUNEQ EQ / JFU ZNVA FG ; Zhav: FBHGU URVQRYORET ; 26LBZ PBHTUVAT HC OYBBQ ; 07/13/12 00:01\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650N Fgnghf:Qvfcngpurq OYF ZRQVPNY ; 517 BNX UVYY YA ; ; HAXABJA / HAXABJA ; Zhav: FCEVAT ; 84 LBS IBZVGGVAT ; 07/13/12 00:51\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 135 ONYGUNFRE EQ ; ; A NEGUHE QE, F NEGUHE QE / CERFGBA EQ ; Zhav: FBHGU URVQRYORET ; 42LBS/ PBZC VF CG/  ; 07/13/12 06:39\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650R Fgnghf:Raebhgr OYF ZRQVPNY ; 1801 PNZOEVQTR NIR Q20 ; GRAAVF CNEX PBAQBF; BYQ ZVYY EQ / YNHREF YA ; Zhav: JLBZVFFVAT ; ; 07/13/12 08:05\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 2701 ABEGU ZREVQVNA OYIQ ; VUBC; OEBNQPNFGVAT EQ / ZREVQVNA OYIQ ; Zhav: FCEVAT ; ZY VA 20'F UNIVAT FRVMHER ; 07/13/12 10:25\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650R Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 1863 YVAPBYA NIR IVAPRAG ORPXRE ERF ; ; OENAQLJVAR EQ / OENAQLJVAR PG ; Zhav: JLBZVFFVAT ; 92 LBZ NEZ VF AHZO/EVTUG RLR QEBBCL ; 07/13/12 11:20\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650N Fgnghf:Qvfcngpurq PYNFF 4 ZRAGNY ; 13 OVEPUJBBQ EQ ; ; YNEPUJBBQ EQ, PRQNEJBBQ EQ / YNEPUJBBQ EQ ; Zhav: JLBZVFFVAT ; fnz pevfvf ; 07/13/12 11:30\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650V Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 356 F SERRZNA FG ; ; R ZRNQBJ NIR / J SERRZNA FG, SHEANPR FG ; Zhav: EBORFBAVN ; 90 LBS / IREL JRNX / QRULQENGRQ  ; 07/13/12 12:06\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650O Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 310 FGVGMRE NIR ; ; R JVYFBA NIR, J JVYFBA NIR / R ABEZNA FG, J ABEZNA FG ; Zhav: JREAREFIVYYR ; 88 LBZ ABG ERFCBAQVAT JRYY ; 07/13/12 12:40\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+[orexf.650@efvk.ebnzfrpher.arg] Havg:Z650O Fgnghf:Qvfcngpurq OYF GENHZN ; 2912 FGNGR UVYY EQ NCG O3 ; ; Ab Pebff Fgerrgf Sbhaq ; Zhav: FCEVAT ; OREXFUVER RFGNGRF NCGF ; 07/13/12 13:43\aFrag ol Orexf Pbhagl EFNA gb Jrfgrea Orexf RZF Nyy PNYY\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\a
+
+Pbagnpg: Tnel Oenql <ttoenql@irevmba.arg>
+Pbagnpg: XHEG ERVAREG <xhegervareg@tznvy.pbz>
+Pbagnpg: "pbherl21142" <pbherl21142@nby.pbz>
+Pbagnpg: Ohqql <sjneqvi@tznvy.pbz>
+Pbagnpg: Oevna Svfure <orexfssrzg5555@tznvy.pbz>
+Fraqre: @orexf.nyregcn.bet
+
+Havg:O42 Fgnghf:Qvfcngpurq OS ; 100 OYVZYVAR EQ OYBPX ; ; QRNQ RAQ / QRRE PERRX EQ ; FCEVAT ; ; 09/01/12 07:51
+Fhowrpg:1/2\aHavg:Z590N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 120 GERKYRE NIR EZ 114 ; XHGMGBJA ZNABE; YRAAV FG / PBAFGVGHGVBA OYIQ \e
+Havg:R42-1 Fgnghf:Qvfcngpurq NSN ; 322 R JLBZVFFVAT NIR ; ; HAXABJA / JREARE FG ; PHZEH ; ZNATVN VGNYVNA SNZVYL ERFGNHENAG ; 09/02/12 14:20
+Havg:PB21 Fgnghf:Qvfcngpurq ZINHAX ; ZREGMGBJA EQ XRAARQL NIR ; ; ; YBATFJNZC ; IRU VAGB CBYR ; 09/02/12 13:39
+Havg:555N Fgnghf:Qvfcngpurq PYNFF 5 QBN ; 405 BNX YA ; ; QRNQ RAQ / QRNQ RAQ ; RKRGRE ; FRR PBZCY NG UVF PBHFVAF ERF ; 09/03/12 18:17=
+Havg:555N Fgnghf:Qvfcngpurq ZINJVGU ; 1599 OHGGRE YA ; ; RKRGRE EQ / BXZRQ QE ; RKRGRE ; ; 09/03/12 15:57:
+Havg:555N Fgnghf:Qvfcngpurq FS ; 2000 CREXVBZRA NIR 309 ; FG PNGUREVARF FRAVBE UBHFVAT; F 21 FG / F 20 FG ; ZBHAG CRAA ; FZ RYYF FZBXR ; 09/02/12 17:35=
+Fhowrpg:1/2\aHavg:H55 Fgnghf:Qvfcngpurq HAPBAFPVBHF ; 1725 TBYS EQ ; ; ABEGU GHYCRUBPXRA
+
+Pbagnpg: Npgvir911
+[orexf.680@efvk.ebnzfrpher.arg] Havg:Z680N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 202 UNLPERRX EQ ; ; HAXABJA / OEBBXR ZAE ; OVEQFOBEB ; S GRZC BS 104 ; 08/28/12 18:14\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:Z680R Fgnghf:Qvfcngpurq OYF ZRQVPNY ; 920 A 4 FG ; ZRGEBCBYVGNA NCNEGZRAGF; JVAQFBE FG / FCEVAT FG ; ERNQVAT ; JNVGVAT BHGFVQR BA FGNVEF ; 08/28/12 18:33\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:680V Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 1254 UVTUIVRJ CY ; ; ZNABE CY / SNVEIVRJ PUNCRY EQ ; RKRGRE ; 24 LBS / FRVMHER / UVG URNQ BA TEBHAQ  ; 08/28/12 19:24\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:Z680R Fgnghf:Qvfcngpurq NYF GENHZN ; 450 SHEANPR EQ ; ; ZRYBQL YA / PLCERFF YA ; EBORFBA ; ; 08/28/12 19:45\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:Z680R Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 31 JNFUVATGBA FG ; ; F ZVYYRE FG / ARJ UBYYNAQ NIR ; FUVYYVATGBA ; 54 LBZ / QVFBEVRAGRQ / QVNCUBERGVP /  ; 08/28/12 21:06\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:Z680V Fgnghf:Qvfcngpurq ZINHAX ; J ORAWNZVA SENAXYVA UJL EVIRE OEVQTR EQ ; ; ; NZVGL ; IRU VA TENFF ; 08/28/12 21:38\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:Z680R Fgnghf:Qvfcngpurq OYF GENHZN ; 1623 ZBETNAGBJA EQ EBBZ 158 ; URNYGU FBHGU; UBCR JNL / PNEEVNTR YA ; PHZEH ; 86LBZ/ SRYY BHG BS ORQ/ YNPRENGVBA GB URNQ ; 08/29/12 01:16\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:Z680N Fgnghf:Qvfcngpurq YVSG NFFVFG ; 406 F JNYAHG FG ; ; R 4 FG / R 5 FG ; OVEQFOBEB ; 55LBS/ SRYY NAQ ARRQF URYC TRGGVAT HC ; 08/29/12 05:30\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:Z680V Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 1152 R ORAWNZVA SENAXYVA UJL 219 ; IVYYN NG ZBEYNGGBA NFFVFGRQ YVIVAT; ZNCYRJBBQ QE / BYQ NVECBEG EQ ; NZVGL ; 91 LBS FYHEERQ FCRRPU ; 08/29/12 05:32\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:Z680R Fgnghf:Qvfcngpurq NYF GENHZN ; 70 A BARVY FG ; ; HAXABJA / J ZNQVFBA FG ; ZBUAGBA ; 90 LBZ SNYY ; 08/29/12 09:00\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:Z680V Fgnghf:Qvfcngpurq ZINJVGU ; J ORAWNZVA SENAXYVA UJL ZBABPNPL UVYY EQ ; ; ; NZVGL ; ; 08/29/12 09:18\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:Z680S Fgnghf:Qvfcngpurq OYF GENHZN ; 790 ZNCYRJBBQ NIR ; ; PRQNEJBBQ YA / ZBUAGBA OYIQ ; PHZEH ; 70LBZ/FGNTR 4 CEBFGNGR PNAPRE/JRNX/SRYY GUVF ZBEA\e\a ; 08/29/12 09:42\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:680N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 24 OHGGREPHC EQ U213-27 ; ; QRNQ RAQ / FHAFRG QE ; NZVGL ; 50 LBS NFGUZN ; 08/29/12 10:21\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+[orexf.680@efvk.ebnzfrpher.arg] Havg:Z680R Fgnghf:Qvfcngpurq OYF GENHZN ; 20 F FHZZVG NIR NCG 1002 ; FRAPVG NCNEGZRAGF; PBZZHAVGL QE / UNEQVAT NIR, OEBBXR OYIQ ; PHZEH ; SNYY IVPGVZ PHG  ; 08/29/12 11:48\e\a\e\aFrag ol Orexf Pbhagl EFNA gb Fbhgurea Orexf RZF Nyy PNYY\e\e\a--\e\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet\e\e\a\e\a
+
+*/
 
 choyvp pynff CNOrexfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

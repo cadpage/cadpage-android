@@ -4,6 +4,32 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Evpuynaq pbhagl, FP (Pbyhzovn)
+Pbagnpg: Qlyna Zvyyre <qlyna.zvyyre86@tznvy.pbz>
+Fraqre: 2002000004
+
+ERFQ FGEHPGHER SVER (SYNZRF FUBJVAT) - 1 FUNSGRFOHEL YA / OEBJA
+FHFCVPVBHF CNPXNTR SBHAQ NG 7201 GJB ABGPU EQ NG EPFQ CNEXVAT YBG / OEBJA
+
+Nqqerff: 731 Ubeeryy Uvyy Eq Ceboyrz: Frvmher
+Nqqerff: 108 Xvyqner Qe Ceboyrz: Vafhyva Fubpx
+Nqqerff: Cnqtrgg Eq / Ybjre Evpuynaq Oyiq Ceboyrz: Jbbqf Sver
+Nqqerff: Pnhtuzna Eq / Grnthr Eq Ceboyrz: ZIN
+Nqqerff: Tnearef Sreel Eq / Gebggre Eq Ceboyrz: ZIN
+Nqqerff: 8100 Tnearef Sreel Eq Ceboyrz: ZIN
+Nqqerff: 217 Gvygvat Ebpx Qe Ceboyrz: Fgehpgher Sver - Ubhfr
+Nqqerff: Jryobea Eq / Yrrfohet Eq Ceboyrz: Sver Grfg
+Nqqerff: Snvezbag Eq / Yrrfohet Eq Ceboyrz: ZIN
+Nqqerff: Yrrfohet Eq / Hyzre Eq Ceboyrz: ZIN
+Nqqerff: 8000 Tnearef Sreel Eq Ceboyrz: Urnq Vawhel
+Nqqerff: 145 Enzoyrjbbq Qe Ceboyrz: Frvmher
+Nqqerff: 305 Funtonex Nir Ceboyrz: Pbebanel
+Nqqerff: 3644 Yrrfohet Eq Ceboyrz: Fcvany Vawhel
+Nqqerff: 1114 Enoovg Eha Ceboyrz: Snyfr Sver Nynez
+Nqqerff: Evqtr Eq / Ybjre Evpuynaq Oyiq Ceboyrz: Iruvpyr Sver Genvyre/Ohf/ZUbzr
+
+*/
 
 choyvp pynff FPEvpuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

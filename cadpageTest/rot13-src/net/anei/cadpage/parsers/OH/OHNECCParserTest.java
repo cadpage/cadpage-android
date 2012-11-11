@@ -4,6 +4,25 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+ARPP, BU
+Pbagnpg: Wba Selr <wselr@fnsrgl-pragre.bet>
+Fraqre; Qvfcngpure@fnsrgl-pragre.bet,ep.340@p-zft.arg
+
+(ARPP) [S] YI:1 NYNEZ PNEOBA ZBABKVQR AB FLZCGBZF\a/\a1619 J YBIRYNAQ NI\a(YI)\aKF: F YRONABA EQ & URVQRYOHET QE\a\aEPIQ NF Cubar\a\aPBZ:\aNYNEZ NPGVINGRQ
+[ARPP]  [S] YI:1 NYNEZ SVER\a/\aPUVYV'F TEVYY & ONE\a11329<gry:11329> ZBAGTBZREL EQ\a(FL)\aKF: UNECREFCBVAGR QE & R XRZCRE EQ\a\aEPIQ NF Cubar\a\aPBZ:\aS28 SVER QHPG NYNEZ\aR9
+(ARPP) [S] YI:1 NHGB NPPVQRAG VAWHEL\a/\aSVRYQF REGRY EQ/HAVBA PRZRGREL EQ\a(FL)\aKF: HAVBA PRZRGREL EQ & TERRA NEOBEF YA\a\aEPIQ NF Cubar\a\aPBZ:
+(ARPP) [S] YI:1 NHGB NPPVQRAG IRUVPYR SVER\a/\aORPXRE\a9695 YBIRYNAQ ZNQRVEN EQ\a(FL)\aKF: UHZCUERL EQ & ZBETNAF GENPR\a\aEPIQ NF Cubar
+
+Pbagnpg: Angr Evgpurl <ajevgpurl911@tznvy.pbz>
+Fhowrpg:ARPP\a[R] YI:1 RZF FHVPVQNY FHOWRPG\a/\a11645 GUVFGYRUVYY QE\a(FL)\aKF: URVQYRORET QE & FLZOBYN QE\a\aEPIQ NF Cubar\a\aPBZ:\aP\aNYYRQ VA 3EQ CNEGL-OL GUR CNGVRAGF PBHAFRYBE -\aWRAAVSRE ERQJVGM - 685.9344\aFUR FGNGRQ GUNG GUR 26-S @ GUVF NQQERFF VF \a
+
+Pbagnpg:  Zngg Sbk <znggsbk79@tznvy.pbz>
+Fraqre: ep.340@p-zft.arg
+ep.340@p-zft.arg\aFHOW:ARPP\aZFT:\a[R] YI:1 RZF HAX VYY/VAW\e\a/\e\a3056 FGENGSBEQ PG\e\a(YI)\e\aKF: RALNEG EQ & A/N\e\a\e\a\e\a\e\aPBZ:\e\a\e\a\e\a
+ep.340@p-zft.arg\aFHOW:ARPP\aZFT:\a[R] YI:1 RZF PURFG CNVA/URNEG\e\a/\e\aINA\e\a8500 TBIREABEF UVYY QE\e\a(FL)\e\aKF: ZNFBA EQ & A/N\e\a\e\a\e\a\e\aPBZ:\e\aS/BYQRE\e\a\e\a
+
+*/
 
 choyvp pynff BUARPPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

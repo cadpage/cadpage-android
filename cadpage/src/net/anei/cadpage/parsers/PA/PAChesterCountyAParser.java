@@ -3,25 +3,6 @@ package net.anei.cadpage.parsers.PA;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
-/* 
- * Chester County, PA
-Contact: "buckhunter1113@aol.com" <buckhunter1113@aol.com>
-Sender: gallison39@comcast.net
-
-Initial Type: ACCINJA    Final Type:ACCINJA (ACCIDENT - INJURIES / ALS *)\nLoc: W BALTIMORE PK/SCARLETT RD ,60    (V) AKA:
-Initial Type: BFALL      Final Type: BFALL   (FALLS - BLS / LIFT ASSIST *)\nLoc: 118 RACE ST ,03 -- RACE PARK APTS btwn E STATE ST & E C
-Initial Type: BSICK      Final Type: BSICK   (SICK PERSON - BLS *)\nLoc: 415 MEGAN CT ,62  btwn VICTORIA GARDENS DR & AZALEA LA (V) AKA
-Initial Type: ACVA       Final Type: ACVA    (CVA/STROKE - ALS *)\nLoc: 509 HAZEL AV ,03  btwn N WALNUT ST & WILSON RD (V) AKA:   Munic
-Initial Type: ALARMF     Final Type: ALARMF  (ALARM - FIRE *)\nLoc: 100 E SOUTH ST ,03 -- KENNETT HIGH SCHOOL btwn S BROAD ST & CHURCH A
-Initial Type: AOD        Final Type: AOD     (OVERDOSE - ALS *)\nLoc: 6 WAYS LA ,62  btwn MUNICIPAL BOUNDARY & E CYPRESS ST (V) AKA:
-(Station 24 EMS Call) Initial Type: BSICK      Final Type: BSICK (SICK PERSON - BLS *)\nLoc: 301 VICTORIA GARDENS DR ,62 -- BRANDYWINE ASSISTED LIVNG btwn L
-
-Contact: "Thomas A Dunbar" <tadunbar@verizon.net>
-Sender: messaging@iamresponding.com
-(Station 36) NOTIFFC    Final Type: NOTIFFC (NOTIFY FIRE CHIEF)\nLoc: 1351 SCOTT RD ,49  btwn MUNICIPAL BOUNDARY &amp; POWELL RD (V) \nAKA:   Municipali
-
-
- */
 
 
 public class PAChesterCountyAParser extends PAChesterCountyBaseParser {

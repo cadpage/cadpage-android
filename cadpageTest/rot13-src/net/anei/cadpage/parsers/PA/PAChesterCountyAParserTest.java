@@ -4,6 +4,25 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/* 
+ * Purfgre Pbhagl, CN
+Pbagnpg: "ohpxuhagre1113@nby.pbz" <ohpxuhagre1113@nby.pbz>
+Fraqre: tnyyvfba39@pbzpnfg.arg
+
+Vavgvny Glcr: NPPVAWN    Svany Glcr:NPPVAWN (NPPVQRAG - VAWHEVRF / NYF *)\aYbp: J ONYGVZBER CX/FPNEYRGG EQ ,60    (I) NXN:
+Vavgvny Glcr: OSNYY      Svany Glcr: OSNYY   (SNYYF - OYF / YVSG NFFVFG *)\aYbp: 118 ENPR FG ,03 -- ENPR CNEX NCGF ogja R FGNGR FG & R P
+Vavgvny Glcr: OFVPX      Svany Glcr: OFVPX   (FVPX CREFBA - OYF *)\aYbp: 415 ZRTNA PG ,62  ogja IVPGBEVN TNEQRAF QE & NMNYRN YN (I) NXN
+Vavgvny Glcr: NPIN       Svany Glcr: NPIN    (PIN/FGEBXR - NYF *)\aYbp: 509 UNMRY NI ,03  ogja A JNYAHG FG & JVYFBA EQ (I) NXN:   Zhavp
+Vavgvny Glcr: NYNEZS     Svany Glcr: NYNEZS  (NYNEZ - SVER *)\aYbp: 100 R FBHGU FG ,03 -- XRAARGG UVTU FPUBBY ogja F OEBNQ FG & PUHEPU N
+Vavgvny Glcr: NBQ        Svany Glcr: NBQ     (BIREQBFR - NYF *)\aYbp: 6 JNLF YN ,62  ogja ZHAVPVCNY OBHAQNEL & R PLCERFF FG (I) NXN:
+(Fgngvba 24 RZF Pnyy) Vavgvny Glcr: OFVPX      Svany Glcr: OFVPX (FVPX CREFBA - OYF *)\aYbp: 301 IVPGBEVN TNEQRAF QE ,62 -- OENAQLJVAR NFFVFGRQ YVIAT ogja Y
+
+Pbagnpg: "Gubznf N Qhaone" <gnqhaone@irevmba.arg>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Fgngvba 36) ABGVSSP    Svany Glcr: ABGVSSP (ABGVSL SVER PUVRS)\aYbp: 1351 FPBGG EQ ,49  ogja ZHAVPVCNY OBHAQNEL &nzc; CBJRYY EQ (I) \aNXN:   Zhavpvcnyv
+
+
+ */
 
 choyvp pynff CNPurfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

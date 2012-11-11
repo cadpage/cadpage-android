@@ -5,27 +5,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
-/*
-Butler County, PA
-Contact: Jeff Gooch <goochff21@gmail.com>
-Sender: "."@co.butler.pa.us
-"."@butlerco.911 :ALAF >ALARM/FIRE 20436 ROUTE 19 CRANBERRY TWP GUARDIAN Map: Grids:00000,000 Cad: 2011-0000075272
-"."@butlerco.911 :CO3 >CO DETECTOR / FIRE RESPONSE 437 SETTLERS VILLAGE CIR CRANBERRY TWP ALEJANDRO, GABRIEL Map: Grids:00000,000 Cad: 2011-0000074937
-"."@butlerco.911 :SERV >SERVICE CALL 143 FOX RUN RD CRANBERRY TWP CHEETHAM WILLIAM Map: Grids:00000,000 Cad: 2011-0000075245
-"."@butlerco.911 :FIRST >FIRE - STRUCTURE 20036 ROUTE 19 CRANBERRY TWP CANDLEWOOD EXTENDED STAY Map: Grids:00000,000 Cad: 2011-0000074503
-"."@co.butler.pa.us :ALAF >ALARM/FIRE 20620 ROUTE 19 CRANBERRY TWP RAMPART Map: Grids:00000,000 Cad: 2012-0000006337
-:VAINJ >VA / INJURIES ROUTE 19 CRANBERRY TWP PORTNEY PATTERSON Cad: 2012-0000056854
-:VAINJ >VA / INJURIES ROUTE 19 CRANBERRY TWP TYLER VARGO Cad: 2012-0000063053
 
-Contact: Kenneth Chiacchia <chiacchiakb@gmail.com>
-Sender: 6245
-"."@co.butler.pa.us :ALAF >ALARM/FIRE 804 PROSPECT RD CONNOQ TWP GAURDIAN Map: Grids:00000,000 Cad: 2012-0000035901
-
-Contact: PJ Pesanka <pjp@pjpesanka.com>
-Sender: "."@co.butler.pa.us
-:FLODB >FLOODING / BASEMENT 337 CLAY AVE MARS BORO KEN SCOTT Map: Grids:00000,000 Cad: 2012-0000053246
-
-*/
 
 public class PAButlerCountyParser extends DispatchBParser {
   

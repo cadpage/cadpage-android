@@ -3,18 +3,6 @@ package net.anei.cadpage.parsers.OR;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*    
-Lincoln City, OR
-Contact: Andrew Cooper <andrew.cooper1@live.com>
-Sender: Group_Page_Notification@usamobility.net
-
-UNKMED1 NLF () Loc:1550 SE 14TH ST: 5 Rcvd: 12:10:54 Units: D1141 E12133366 Comments: 75 YO FEMALE SEVERE MIGRANE HEADAC
-FIRES NLF () Loc:1543 NE 14TH ST Rcvd: 20:57:13 Units: C1161 E12129759 Comments: STRUCTURE FIRE HYDE PARK [75]
-WATER1 NLF () Loc:NW LOGAN RD & ACCESS Rcvd: 13:51:1 Units: D1141 E12130984 Comments: 3 KIDS OUT SURFING 200 YARDS SOUT
-FALL1 NLF () Loc:175 SILETZ HW Rcvd: 00:10:35 Units: Q1636 E12127387 Comments: MEDICS REQUESTING ASSIST WITH LIFT ASSIST
-ACC1 NLF () Loc:NE 20TH PL & NE WEST DEVILS LAKE RD Rcvd: 12:40:26 Units: D1141 E12112828 Comments: SINGLE VEH MVA UNK INJURY LIGHT SMOKE FROM
-
-*/
 
 public class ORLincolnCityParser extends FieldProgramParser {
   

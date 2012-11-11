@@ -3,21 +3,6 @@ package net.anei.cadpage.parsers.OH;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Portage County, OH
-Contact: Joseph L Corbin Jr <jcorbinjr@gmail.com>
-Sender: 911@ci.ravenna.oh.us
-System: Sundance
-*
-911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY *\n3594,INDRUSTRY RD, * ,ROOTSTOWN * 89YOA MALE OXYGEN MACHINE BROKEN,\nTROU
-911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4265,ROCK SPRING RD, * ,Ravenna * 53 YR OLD MALE DIFFICULTY BREATHING, PO
-911@ci.ravenna.oh.us:* 15_edinburg_generalMA,MUTUAL AID * 0,PALMYRA TOWNSHIP [EDIT], * PALMYRA,Ravenna * 1511 TO MEET 2011 AT STATION 20
-911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 7824,TALLMADGE RD, * ,Ravenna * 80 YOA FEMALE CHEST PAINS﻿
-911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4174,PORTER RD , * ,EDINBURG TWP * FEMALE VERY LIGHT HEADED﻿
-911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 3594,INDUSTRY RD, * ,ROOTSTOWN * 89 YOA MALE FALLEN
-911@ci.ravenna.oh.us:* 15_edinburg_general28,FIRE * 4907,ROCK SPRING RD, * ,Ravenna * CHIMNEY FIRE﻿
-
- */
 
 
 public class OHPortageCountyParser extends FieldProgramParser {

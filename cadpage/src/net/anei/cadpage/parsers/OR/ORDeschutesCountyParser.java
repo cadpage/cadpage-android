@@ -5,37 +5,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Deschutes County, OR
-Contact:joanne day <frankday12@gmail.com>
-Sender: 911@deschutes.org
-
-Chest Pain Breathing normally => 35   -C-STA500-9395 SW SCOUT CAMP TRL-Map 131208-11:38:0
-Sick Person Vomiting   -A-STA500-13852 SW CANYON DR-Map 131216-18:47:56
-DEAD BODY/DEATH R3-R3-STA500-14537 SW STALLION DR-Map 131223-10:23:46
-Falls Unk status Ground-B-STA500-13345 SW CINDER DR-Map 131215-00:30:04
-Traffic Accidents HIGH MECH - Rollover-D2-STA500-SW BADGER RD/SW CHINOOK DR--13:11:56
-Sick Person Abnormal breathing -C-512,571-8431 SW BASALT DR-Map 131216-10:46:05
-Sick Person Vomiting   -A-STA500-13812 SW CANYON DR-Map 131216-18:47:56
-
-Contact: Dustin Miller <ff3650dm@gmail.com>
-STRUCTURE FIRE-SF-422,412,421,471,531,431,447,510,4PC-1995 NW LOWER BRIDGE WAY-Map 1413NW-19:04:36 
-BRUSH FIRE HIGH RISK RESPONSE-BH-441,412,447,531,543,481,E640,448,541,442,544,4PC-NW 43RD ST/NW LOWER BRIDGE WAY-Map 1413NW-17:13:24
-
-Contact: JASON ZOE ARNOLD <jzarnold@msn.com>
-Stroke Abnormal breathing -C-271,221- 2 ROGUE LN 17692 ROGUE LN -Map 191129-08:11:41
-Uncons / Fainting Not alert\3s-D-271,221- 10 HUMMINGBIRD LN 17553 HUMMINGBIRD LN -Map 191130-08:45:45
-CHEST PAIN-C-271,221- 6 WALLOWA LOOP 57720 WALLOWA LOOP -Map 191128-06:54:45
- 
-Contact: "jaredjeffcott@yahoo.com" <jaredjeffcott@yahoo.com>
-Sender: 911@deschutes.org
-Stroke Vision Problems -C-271,221- 8 GROUSE LN 17887 GROUSE LN -Map 191132-17:56:37
-
-Contact: : "fastflat255@yahoo.com" <fastflat255@yahoo.com>
-Sender: 911@deschutes.org
-BACK PAIN-A-571- 8562 SW SUNDOWN CANYON RD -Map 131216-23:38:04
-
-*/
 
 
 public class ORDeschutesCountyParser extends FieldProgramParser {

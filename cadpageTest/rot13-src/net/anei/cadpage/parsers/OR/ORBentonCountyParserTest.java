@@ -5,6 +5,16 @@ vzcbeg arg.narv.pnqcntr.cnefref.BE.BEOragbaPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*    
+Fnzcyr Oragba Pbhagl Cntr
+Pbagnpg: xrapk@crnx.bet
+Fraqre: nyregf@pbeinyyvf.rnyregtbi.pbz
+(Pbeinyyvf Nyreg) VAP: PBQR 1 ZRQVPNY\aNQQ:1740 ZNVA FG\aNCG:\aPVGL:CUVYBZNGU\aK:A 17GU FG * A 18GU FG\aZNC:540-365\aPSF:0907010-119\aQVF:CUVYBZNGU SVER
+(Pbeinyyvf Nyreg) VAP:PBZZ SVER NYNEZ\aNQQ:421 F 19GU FG\aNCG:\aPVGL:CUVYBZNGU\aK:NFU FG * PRQNE FG\aZNC:540-360\aPSF:100410-188\aQVF:CUVYBZNGU SVER\aQVF:CUV
+(Pbeinyyvf Nyreg) VAP:HAXABJA ZRQVPNY\aNQQ:504 ZRYIVYY PERFPRAG NI [CUVYBZNGU]\aNCG:\aPVGL:CUVYBZNGU\aK:FHAFUVAR NI\aZNC:550-385\aPSF:101710-223\aQVF:CUVYBZ
+(Pbeinyyvf Nyreg) VAP:OVPLPYR NPPVQRAG\aNQQ:QRPXRE EQ naq QRPXRE EVQTR EQ\aNCG:\aPVGL:CUVYBZNGU\aK:QRPXRE EQ * ONAXF YA\aZNC:480-420\aPSF:070611-52\aQVF:ORA
+
+*/
 
 choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

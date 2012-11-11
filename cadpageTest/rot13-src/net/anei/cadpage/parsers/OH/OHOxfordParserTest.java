@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 
-/***
+/*
 Bksbeq, BU
 Pbagnpg: Tert Lvatyvat <tlvatyvat@pvglbsbksbeq.bet>
 Fraqre: pvfpb@pvglbsbksbeq.bet

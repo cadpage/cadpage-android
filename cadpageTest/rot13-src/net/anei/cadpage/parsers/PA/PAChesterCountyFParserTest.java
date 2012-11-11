@@ -4,6 +4,35 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/* 
+Purfgre Pbhagl, CN (Inevnag S)
+Pbagnpg: "N. Grfgn" <gnp239@zfa.pbz>
+Pbagnpg: Znggurj Jbbyfgba <znggurj.jbbyfgba@tznvy.pbz>
+Fraqre: pnq@bksbeqsver.pbz
+
+(Qvfcngpu) NPPVQRAG - CRQRFGEVNA FGEHPX * ** JO YNAPNFGRE CX RB ORGURY EQ ,56   (I) ** YJEBKS **  **  ** - ** IRU IF ZNYR\aQRGNVYF GB SBYYBJ\a
+(Qvfcngpu) PNEQVNP/ERFC NEERFG - NYF * ** 167 ZBHAG CYRNFNAG EQ ,69 ** RABGG **  ** TENAG FG & PBBCRE YN ** - ** 48/S--YVCF OYHR\aQRGNVYF GB SBYYBJ\a**
+(Qvfcngpu) NYNEZ - SVER * ** 117 ULNPVAGU QE ,71 ** ARJYBA ** GUHAQRE UVYY ** EVQTR QE & ZPOREGL PG ** - ** FZBXR NYNEZ TBVAT BSS - AB IVF FZBXR - 2AQ SYB\aBE **
+(Qvfcngpu) OHVYQVAT SVER * ** 110 R ZNVA FG, 87   (AI) **   **  **  ** NCG N- ** RAT21 NAQ YNQ21\a**
+(Qvfcngpu) RYRPGEVPNY SVER VAFVQR * ** 325 F OEBBXFVQR QE ,06 ** BKSBEQ ** OEBBXFVQR RFGNGRF ** ZPYRBQ QE & FRONFGVNA QE ** - ** RYRPGVEPNY FCNEXRQ - FZBXRQ PBZV
+(Qvfcngpu) SVER CBYVPR ERDHRFG * ** RO HAVBA FPUBBY EQ RB PERNZ EQ ,56   (I) ** YJEBKS **  **  ** - ** NFFVFG CFC JVGU N GENSSVP PBAGEBY\a**
+(Qvfcngpu) NPPVQRAG - HAXABJA VAWHEVRF * ** BYQ ONYGVZBER CX/IVYYNTR EQ ,57    (I) **  **  **  ** - ** 2 IRU/OYXT EBNQJNL/\a**
+(Qvfcngpu) PUVZARL SVER * ** 3064 YVZRFGBAR EQ ,44 ** JSNYYB **  ** UBFGRGGRE EQ & UVTUIVRJ Q ** - ** PUVZARL\aQRGNVYF GB SBYYBJ\a**
+
+Pbagnpg: Tyraa Urvavatre <tyraa.urvavatre@tznvy.pbz>
+Pbagnpg:Znep Sreel <znepesreel@tznvy.pbz> 
+Fraqre: cntvat@zvadhnf.bet
+Flfgrz: CEP PNQ
+
+PUVZARL SVER * ** 451 QBABSEVB QE ,11 ** - ** FCNEXF SEBZ PUVZARL\aQRGNVYF GB SBYYBJ\a ** QATGJA ** WBUAFBAGBJA **
+RZBGVBANY QVFBEQRE - OYF * ** 282 J PUHEPU FG ,11 ** - ** CRE CQ B/F --\aFPRAR VF FRPHER\a ** QATGJA **
+BIREQBFR - OYF * ** 10 J YNAPNFGRE NI ,11 ** -11CQ ** NYPBUBY BQ ** QATGJA **  ** R YNAPNFGRE NI & ZNABE NI *
+1 bs 2\a SEZ:cntvat@zvadhnf.bet\a FHOW:21 JVYYVNZF JL ,39\a ZFT:RZBGVBANY QVFBEQRE - OYF * ** 21 JVYYVNZF JL ,39 ** - **  ** PNYA ** UHZCGBA SNEZF **\a(Pba'g) 2 bs 2\aYLAA OY & UHZCGBA EQ ** (Raq)
+1 bs 2\aSEZ:cntvat@zvadhnf.bet\aFHOW:21 JVYYVNZF JL ,39\aZFT:RZBGVBANY QVFBEQRE - OYF * ** 21 JVYYVNZF JL ,39 ** - **  ** PNYA ** UHZCGBA SNEZF **\a(Pba'g) 2 bs 2\aYLAA OY & UHZCGBA EQ ** (Raq)
+Sjq:  1 bs 2\aSEZ:cntvat@zvadhnf.bet\aFHOW:517 JNFUVATGBA NI ,11\aZFT:URZBEEUNTVAT - NYF * ** 517 JNFUVATGBA NI ,11 ** - ** 73/Z - OYRRQVATSEBZ\a(Pba'g) 2 bs 2\aERPGHZ\e\aQRGNVYF GB SBYYBJ\e\a** QATGJA **  ** JUVGRYNAQ NI & JNTARE NI ** (Raq)
+ 1 bs 2\aSEZ:cntvat@zvadhnf.bet\aFHOW:150 R CRAAFLYINAVN NI ,1\aZFT:NOQBZVANY CNVA - NYF * ** 150 R CRAAFLYINAVN NI ,11 ** QBPGBEF RKCERFF-- EBBZ\a(Pba'g) 2 bs 2\a1-OENA ** 60'F/Z\e\aQRGNVYF GB SBYYBJ\e\a** QATGJA **  ** JNYYNPR NI & TERRA FG ** (Raq)
+
+ */
 
 choyvp pynff CNPurfgrePbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

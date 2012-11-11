@@ -3,17 +3,6 @@ package net.anei.cadpage.parsers.OH;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Union County, OH
-Contact: "Daniel Boone Sr." <daniel.boonesr@gmail.com>
-Sender: idnetworks@co.union.oh.us
-
-FIRE, 121 E BLAGROVE ST 1/2 RICHWOOD, BEATTY AVE,RICHWOOD//N CLINTON ST,RICHWOOD,\n
-HEART PROBLEMS, 10535 MAPLE DELL RD MARYSVILLE, STATE ROUTE 37,MARYSVILLE//, 53 YOF POSS HEART\n
-FALL/BACK INJURY, 85 ROSE ST MAGNETIC SPRINGS, W CATHERINE ST,MAGNETIC SPRINGS//W MAGNETIC ST,MAGNETIC SPRINGS, DALE FAGG FELL AND HI
-DIFFICULTY BREATHING, 14936 MILLER RD RICHWOOD, MCMILLEN RD,RICHWOOD//SNARE RD,RICHWOOD, 74 YO DB\n
-
- */
 
 
 public class OHUnionCountyParser extends FieldProgramParser {
