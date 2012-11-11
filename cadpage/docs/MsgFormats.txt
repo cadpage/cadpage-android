@@ -3031,6 +3031,11 @@ Natrona County, WY (WYNatronaCountyParser)
 (Message From Hiplink) CFD \nMedical\n154 N BEECH ST; apt 207\n132\nE1
 (Message From Hiplink) CFD \nChest Pain\n2401 GRANDVIEW PL; apt 18\n216\nE1\nrp's brother is having chest pain\n46yom\njust took 2 nitroglycerine
 ***************************************************************************
+Canmore, AB, Canada (ZCAABCanmoreParser)
+(Rip & Run) 11:34PM CALL 52b04 AT 180 kananaskis way, montane village, canmore
+(Rip & Run) 07:55PM CALL 31d01 AT 7 ave & 7 st, canmore union hall canmore, canmore
+(Rip & Run) 10:15AM CALL 52b01 AT 908 lawrence_grassi rdge, canmore
+***************************************************************************
 Red Deer County, AB, CA (ZCAABLacombeCountyParser)
 (Incident Message) Date: 2012-06-02 13:02:11\nType: GRASS - 2.3 Grass/ Brush/ Forest\nLocation: Unknown Location - Call Dispatch\nLatitude: 52.38667500\nLongitude: -113.81778000
 (Incident Message) Date: 2012-06-02 13:02:11\nType: GRASS - 2.3 Grass/ Brush/ Forest\nLocation: 1 BLACKFALDS, TOWN OF, BLACKFALDS\nUnits Responding: BLKP4, BLKP2, BLKT1, BLKC

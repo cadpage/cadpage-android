@@ -696,6 +696,7 @@ public class ParserList {
               ,"WYNatronaCounty"                ,"Natrona County, WY"
           ),
           new ParserCategory("Alberta, CA"
+              ,"ZCAABCanmore"                   ,"Canmore, AB"
               ,"ZCAABLacombeCounty"             ,"Lacombe County, AB"
               ,"ZCAABLamontCounty"              ,"Lamont County, AB"
               ,"ZCAABRedDeerCounty"             ,"Red Deer Count, AB"
