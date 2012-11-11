@@ -374,6 +374,11 @@ Williamson County, TN (TNWilliamsonCountyParser)
 *******************************************************************************
 * DispatchDAPROPParser subclasses
 *******************************************************************************
+*******************************************************************************
+Amelia County, VA (VAAmeiliaCountyParser)
+(AMELFD 09) MAILBOX:59 SICK PERSON 014541 MILLS CT CFS# 2012-011293
+(AMELFD 23) MAILBOX:25 UNCONSCIOUS / FAINTING 015921 RAVENCREST CT CFS# 2012-011242
+(AMELFD 10) MAILBOX:21 ALARM 001500 NAMOZINE RD CHU CFS# 2012-011216
 ***************************************************************************
 Campbell County, VA (VACampbellCountyParser)
 MAILBOX:SQ02 MVC/MOTOR VEHICLE CRASH/ACCIDE 002364 WATERLICK RD/LEESVILLE RD CFS# 2010-061119 REF TO A 3 CAR MVA. AT FIRST A REPORT OF NO PI. NO NEED FOR FIRE. VASI ADV THAT T

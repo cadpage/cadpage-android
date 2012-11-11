@@ -642,6 +642,7 @@ public class ParserList {
           new ParserCategory("Virginia"
               ,"VAAccomackCounty"               ,"Accomack County, VA"
               ,"VAAlbemarleCounty"              ,"Albemarle County, VA"
+              ,"VAAmeliaCounty"                 ,"Amelia County, VA"
               ,"VAAugustaCounty"                ,"Augusta County, VA"
               ,"VABrunswickCounty"              ,"Brunswick County, VA"
               ,"VABotetourtCounty"              ,"Botetourt County, VA"
