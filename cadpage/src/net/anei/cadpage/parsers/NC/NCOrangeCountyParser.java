@@ -18,7 +18,7 @@ public class NCOrangeCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@cedargrovefire.org,cadpage@orangeem.org,cad@orangecountync.gov";
+    return "@cedargrovefire.org,cadpage@orangeem.org,cad@orangecountync.gov,Orange Co EMS Dispatch";
   }
 
   @Override

@@ -52,6 +52,10 @@ Pbagnpg: Zvpunry Penogerr <hapsver@tznvy.pbz>
 Fraqre: pnq@benatrpbhaglap.tbi
 (PNQ Cntr sbe PSF 110712-471) ERPQ: 19:01:36\e\aGT: BCF \e\aVAP: FGEHPGHER SVER\e\aYBP: JRNIRE QNVEL EQ naq ZNEGVA YHGURE XVAT WE OYIQ\e\aNCG: \e\aOYQT: \e\aRZQ:
 
+Pbagnpg:8509xzi <8509xzi@oryyfbhgu.arg>
+Fraqre: Benatr Pb RZF Qvfcngpu
+ 1 bs 2\aSEZ:Benatr Pb RZF Qvfcngpu \aFHOW:PNQ Cntr sbe PSF 111012-247\aZFT:ERPQ: 13:48:41\e\aGT: BCF \e\aVAP: PBAIHYFVBAF/FRVMHERF\e\aYBP: 142 R SENAXYVA\a(Pba'g) 2 bs 2\aFG\e\aNCG: \e\aOYQT: \e\aRZQ: \e\a(Raq)
+
  */
 
 
@@ -223,6 +227,32 @@ choyvp pynff APBenatrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:JRNIRE QNVEL EQ & ZNEGVA YHGURE XVAT WE OYIQ",
         "GVZR:19:01:36");
  
+  }
+  
+  @Grfg
+  choyvp ibvq grfg8506xzi() {
+
+    qbGrfg("G1",
+        " 1 bs 2\a" +
+        "SEZ:Benatr Pb RZF Qvfcngpu \a" +
+        "FHOW:PNQ Cntr sbe PSF 111012-247\a" +
+        "ZFT:ERPQ: 13:48:41\e\a" +
+        "GT: BCF \e\a" +
+        "VAP: PBAIHYFVBAF/FRVMHERF\e\a" +
+        "YBP: 142 R SENAXYVA\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "FG\e\a" +
+        "NCG: \e\a" +
+        "OYQT: \e\a" +
+        "RZQ: \e\a" +
+        "(Raq)",
+
+        "VQ:111012-247",
+        "PU:BCF",
+        "PNYY:PBAIHYFVBAF/FRVMHERF",
+        "NQQE:142 R SENAXYVA FG",
+        "GVZR:13:48:41");
+
   }
   
 
