@@ -13,7 +13,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchProQAParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("\\bRun#");
-  private static final Pattern RUN_REPORT_MARKER = Pattern.compile("^(?:was Canceled:|(?:CALL:)?\\d\\d:\\d\\d/(?:DISP:)?\\d\\d:\\d\\d/(?:ENR:)?\\d\\d:\\d\\d/(?:ATS:)?\\d\\d:\\d\\d/)");
+  private static final Pattern RUN_REPORT_MARKER = Pattern.compile("^(?:was Canceled:|(?:CALL:)?\\d\\d:\\d\\d/(?:DISP:)?\\d\\d:\\d\\d/(?:ENR:)?\\d\\d:\\d\\d/(?:ATS:)?\\d\\d:\\d\\d/?)");
   
   protected DispatchProQAParser(String defCity, String defState, String program) {
     super(defCity, defState, program);
@@ -61,6 +61,7 @@ public class DispatchProQAParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (field.equals("<PROQA_DET>")) return;
+      if (field.equals("<PROQA_SCRIPT>")) return;
       super.parse(field, data);
     }
   }

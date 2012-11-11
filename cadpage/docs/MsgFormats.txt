@@ -417,6 +417,11 @@ MAILBOX:F3 VEHICLE FIRE 220 WB 64 CFS# 2012-017867
 * DispatchProQAParser subclasses
 *******************************************************************************
 *******************************************************************************
+Garland County, AR (ARGarlandCountyParser)
+(Dispatch Alert - part 1 of 1) RC:Run# 50760/1-Emergency-Life Threat/108 CARAWAY ST//a/PEARCY/71964/You are responding to a patient with chest pain.  The patient is a 61-year-old  female/ who is consciousand breathing. Clammy.  Chest Pain (Non-Traumatic).\r\n\r\n
+(Dispatch Alert - part 1 of 1) RC:Run# 50702/1-Emergency-Life Threat/104 ROLLING ACRES DR///PEARCY/71964/You are responding to a patient involved in a fall.  The patient is a 38-year-old  male/ who is conscious and breathing. Not alert.  Falls.\r\n\r\n
+(Dispatch Alert - part 1 of 1) RC:Run# 50580/2-Emergency-Non Life Threat/S MOORE RD & AIRPORT RD///HOT SPRINGS/71913/You are responding to a patient injured in a traffic incident.  The patient is of  unknown age and gender/ and is conscious and breathing. Unknown  status/Other codes not applicable.  Traffic / Transportation Incidents.\r\n\r\n
+*******************************************************************************
 North Glenn EMS, CO (CONorthglennEMSParser)
 - part 1 of 1 / RC:Run# 10174/6211 OLIVE ST///Pregnancy / Childbirth/
 - part 1 of 1 / RC:Run# 9913/5541 E 67TH AVE//med alarm/Not Available/
@@ -5239,4 +5244,3 @@ s calhan rd/judge orr OUTSIDE FIRE SOUTH OF IX  blk smoke rising vertical\r\n
 **********************************************************
 * EOF
 **********************************************************
-
