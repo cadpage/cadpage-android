@@ -370,6 +370,7 @@ choyvp pynff PBTnesvryqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PNQ Cntr) SFzbxr Purpx Ybpngvba  F J BS WBYYRL ZRFN M2 2012 00000433     ",
         "PNYY:SFzbxr Purpx",
         "NQQE:F J BS WBYYRL ZRFN",
+        "ZNQQE:F & WBYYRL ZRFN",
         "ZNC:M2",
         "VQ:2012 00000433");
 

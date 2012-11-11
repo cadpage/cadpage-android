@@ -84,7 +84,7 @@ choyvp pynff TNJuvgsvryqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "JUVGSVRYQ PB. 911:50V Z.I. NPPVQRAG J/VAWHEVRF 75 FO @ A BS 339 7063174144",
         "PNYY:50V Z.I. NPPVQRAG J/VAWHEVRF",
         "NQQE:75 FO & A BS 339",
-        "ZNQQE:75 & A BS 339",
+        "ZNQQE:75 & 339",
         "CUBAR:7063174144");
 
     qbGrfg("G9",

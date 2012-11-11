@@ -88,6 +88,7 @@ choyvp pynff PGJvaqunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:33.90",
         "PNYY:Iruvpyr Sver",
         "NQQE:V 395 FBHGU FBHGU BS ERFG NERN",
+        "ZNQQE:V 395 FBHGU & ERFG NERN",
         "PVGL:Zbbfhc",
         "GVZR:14:24");
 

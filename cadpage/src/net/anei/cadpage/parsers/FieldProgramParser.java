@@ -1005,9 +1005,11 @@ public class FieldProgramParser extends SmartAddressParser {
       
       // Now we have to deal with any tag complications
       // Default is to process this step with this data field
+      // Tag processing is suppressed for Select field steps since they really
+      // do no field processing
       Step procStep = this;
       String curFld = flds[ndx].trim();
-      if (parseTags) {
+      if (parseTags && !(field instanceof SelectField)) {
         Step startStep = this;
         int startNdx = ndx;
         while (true) {

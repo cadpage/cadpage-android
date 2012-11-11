@@ -216,8 +216,8 @@ choyvp pynff VNCbggnjnggnzvrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:17-11-365",
         "QNGR:12/19",
         "GVZR:07:53",
-        "NQQE:FHAALQNYR EQ &  & ZPCUREFBA NI",
-        "ZNQQE:FHAALQNYR EQ &  & ZPCUREFBA NIR",
+        "NQQE:FHAALQNYR EQ & ZPCUREFBA NI",
+        "ZNQQE:FHAALQNYR EQ & ZPCUREFBA NIR",
         "PNYY:SVER - RKGEVPNGVBA");
 
     qbGrfg("G18",
@@ -256,7 +256,7 @@ choyvp pynff VNCbggnjnggnzvrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:24-12-088",
         "QNGR:05/23",
         "GVZR:12:38",
-        "NQQE:VQYRJBBQ EQ &  & 265 FG",
+        "NQQE:VQYRJBBQ EQ & 265 FG",
         "PNYY:RZF/SVER - VAWHEL/GENSSVP NPPVQRAG");
   }
   

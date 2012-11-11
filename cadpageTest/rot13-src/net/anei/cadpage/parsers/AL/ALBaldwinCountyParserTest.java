@@ -368,7 +368,7 @@ choyvp pynff NYOnyqjvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:319521",
         "PNYY:Sver - Tenff",
         "NQQE:V-10 JO W R BS RK35",
-        "ZNQQE:V 10 W R BS RK35");
+        "ZNQQE:V 10 W & RK35");
 
     qbGrfg("G22",
         "(QN) 07-30-12 17:47: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319685 (Nhgb Nppvqrag) ng V-10 RO RKVG ENZC NG RKVG 35",

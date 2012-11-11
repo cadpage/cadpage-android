@@ -55,9 +55,18 @@ public class IAPottawattamieCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyAddressCityField extends AddressCityField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("//", "&");
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("IDDATETIME")) return new MyIdDateTimeField();
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
     return super.getField(name);
   }
 }
