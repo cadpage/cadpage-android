@@ -52,6 +52,10 @@ Fraqre: 7176798487
 YNAPNFGRE RYVMNORGU GJC CHZCVAT FGNGVBA EQ NG EBHGR 322   ZI - Nppvqrag j/Vawhevrf ZBGBEPLPYR NPPVQRAG R35  Sver-Obk RZF-Obk
 (Fgn 47@16:49) Orgury Gjc 400 VAGREFGNGR 78 R NVEPSG-j/vawhevrf Obk Va Freivpr NHGU Pbzznaq 41 ST 3 NG47 Sver-Obk 41-96 RZF-Obk 190-21\e\a\e\aGb hafhofpevor ercyl 
 
+Pbagnpg: Xlyr Oebpx <xfoebpx@ubgznvy.pbz>
+Fraqre: xz911nyreg@tznvy.pbz
+Nzo 140@23:53 / Wnpxfba Gjc 21 SREAJBBQ QE Zrq Pynff3 fvpx crefba N141 Sver-Obk 30-01 RZF-Obk 140-2\a\aGb hafhofpevor ercyl FGBC\a\a
+
 */
 
 choyvp pynff CNYronabaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -303,6 +307,20 @@ choyvp pynff CNYronabaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NVEPSG-j/vawhevrf Obk Va Freivpr NHGU Pbzznaq 41",
         "OBK:Sver:41-96 RZF:190-21",
         "HAVG:ST 3 NG47");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXlyrOebpx() {
+
+    qbGrfg("G1",
+        "Nzo 140@23:53 / Wnpxfba Gjc 21 SREAJBBQ QE Zrq Pynff3 fvpx crefba N141 Sver-Obk 30-01 RZF-Obk 140-2\a\aGb hafhofpevor ercyl FGBC\a\a",
+        "PVGL:NZO 140@23:53 / WNPXFBA GJC",
+        "NQQE:21 SREAJBBQ QE",
+        "CEV:3",
+        "PNYY:fvpx crefba",
+        "OBK:Sver:30-01 RZF:140-2",
+        "HAVG:N141");
 
   }
   

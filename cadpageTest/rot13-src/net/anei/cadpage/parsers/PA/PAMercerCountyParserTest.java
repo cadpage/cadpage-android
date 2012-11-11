@@ -29,6 +29,8 @@ Fraqre: 9-1-1"@zpp.pb.zrepre.cn.hf
 "Zrepre 9-1-1"@zpp.pb.zrepre.cn.hf (VCF V/Cntr Abgvsvpngvba) Ybpngvba: 251 CVAPUNYBAT EQ CVAR RVQ: 2411723 GLCR PBQR: ONEA PNYYRE ANZR: G5EBBCRE PNYYNUNA PNYYRE NQQE:  GVZR: 22:01:
 "Zrepre 9-1-1"@zpp.pb.zrepre.cn.hf (VCF V/Cntr Abgvsvpngvba) Ybpngvba: 311 J ZNVA FG TEBI RVQ: 2406357 GLCR PBQR: PZQ PNYYRE ANZR: ORPX, JNLAR PNYYRE NQQE: 311 J ZNVA FG TEBIR PVGL
 "Zrepre 9-1-1"@zpp.pb.zrepre.cn.hf (VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1402 J ZNVA FGERRG RKG TEBI RVQ: 2424459 GLCR PBQR: UNM PNYYRE ANZR: GEVAN FGRJNEG PNYYRE NQQE: 1402 J ZNVA F
+"Zrepre 9-1-1"@zpp.pb.zrepre.cn.hf (VCF V/Cntr Abgvsvpngvba) Ybpngvba: CRAA TEI/CNEX NIR TEBI RVQ: 2426263 GLCR PBQR: FREI PNYYRE ANZR: EBKNAAR FGHQNONXRE PNYYRE NQQE: 145 CVAR FG
+"Zrepre 9-1-1"@zpp.pb.zrepre.cn.hf (VCF V/Cntr Abgvsvpngvba) Ybpngvba: 391 TRBETR WHAVBE EQ CVAR RVQ: 2426268 GLCR PBQR: TNES PNYYRE ANZR: WBFU RAEVATRE PNYYRE NQQE: 764 PYVAGBAIVY
 
  */
 
@@ -143,7 +145,7 @@ choyvp pynff CNZreprePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:TEBIR PVGL",
         "CYNPR:TEBIR PVGL NEZBEL",
         "VQ:2374687",
-        "PNYY:FREI",
+        "PNYY:Freivpr Pnyy",
         "ANZR:REVP ZREFUVZRE");
 
     qbGrfg("G14",
@@ -212,7 +214,23 @@ choyvp pynff CNZreprePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2424459",
         "PNYY:Unmzng",
         "ANZR:GEVAN FGRJNEG");
-   
+
+    qbGrfg("G31",
+        "\"Zrepre 9-1-1\"@zpp.pb.zrepre.cn.hf (VCF V/Cntr Abgvsvpngvba) Ybpngvba: CRAA TEI/CNEX NIR TEBI RVQ: 2426263 GLCR PBQR: FREI PNYYRE ANZR: EBKNAAR FGHQNONXRE PNYYRE NQQE: 145 CVAR FG",
+        "NQQE:CRAA TEI & CNEX NIR",
+        "PVGL:TEBIR PVGL",
+        "VQ:2426263",
+        "PNYY:Freivpr Pnyy",
+        "ANZR:EBKNAAR FGHQNONXRE");
+
+    qbGrfg("G32",
+        "\"Zrepre 9-1-1\"@zpp.pb.zrepre.cn.hf (VCF V/Cntr Abgvsvpngvba) Ybpngvba: 391 TRBETR WHAVBE EQ CVAR RVQ: 2426268 GLCR PBQR: TNES PNYYRE ANZR: WBFU RAEVATRE PNYYRE NQQE: 764 PYVAGBAIVY",
+        "NQQE:391 TRBETR WHAVBE EQ",
+        "PVGL:CVAR",
+        "VQ:2426268",
+        "PNYY:Tneontr Sver",
+        "ANZR:WBFU RAEVATRE");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
