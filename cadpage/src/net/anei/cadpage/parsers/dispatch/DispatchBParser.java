@@ -391,6 +391,7 @@ public class DispatchBParser extends SmartAddressParser {
   
   private void setup() {
     setupCallList(
+        "911 HANG UP",
         "ACCIDENT - INJURIES",
         "ACCIDENT INJURIES",
         "ACCIDENT MVA WITH INJURIES",
@@ -445,6 +446,9 @@ public class DispatchBParser extends SmartAddressParser {
         "EMERGENACY RUN",
         "EMS CALL",
         "EMS LIFELINE CALL",
+        "EMS NEEDED",
+        "EMS NEEDED PRIORITY 1",
+        "EMS NEEDED PRIORITY 2",
         "FALL - ANY",
 //        "FALLS",
         "FALLS/ACCIDENTS BLS",
@@ -453,6 +457,7 @@ public class DispatchBParser extends SmartAddressParser {
         "FALLS (GRD/FLR) POSS DANGER BO",
         "FALLS - NOT ALERT",
         "FIGHT",
+//        "FIRE",        
 //        "FIRE ALARM",
         "FIRE ALARM COMMERCIAL/INDUST",
         "FIRE ALARM TEST/WORK",
@@ -535,6 +540,8 @@ public class DispatchBParser extends SmartAddressParser {
         "STRUCTURE FIRE-MEDIUM HAZARD",
         "STRUCTURE FIRE - HIGH HAZARD",
         "STRUCTURE FIRE- HIGH RISE",
+        "SUSPICIOUS VEHICLE STOP",
+        "TRANSFERED TO HP",
         "TRAUMATIC INJURY",
         "TRAFF OR TRANSPT ACC/MVA W/INJ",
         "TRAFFIC CONTRO",

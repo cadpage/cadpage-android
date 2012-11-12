@@ -586,6 +586,7 @@ public class ParserList {
           new ParserCategory("South Carolina"
               ,"SCAndersonCounty"               ,"Anderson County, SC"
               ,"SCCharlestonCounty"             ,"Charleston County, SC"
+              ,"SCChesterCounty"                ,"Chester County, SC"
               ,"SCFlorenceCounty"               ,"Florence County, SC"
               ,"SCGreenvilleCounty"             ,"Greenville County, SC"
               ,"SCOconeeCounty"                 ,"Oconee County, SC"

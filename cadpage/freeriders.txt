@@ -1454,6 +1454,7 @@ Steve Hawkins <srh8015@aol.com> // PP
 Scott Titus (titus911dc@gmail.com) <stitus@cityofnorthport.com> // PP
 %%07/31/2012
 peter moyer (petmoy21@gmail.com) <petmoy21114@netzero.net> // PP
+Kevin Jones (kljmd2003.kj@gmail.com) <kljmd2003@gmail.com> // market problem change email
 %%08/01/2012
 Nicholas Butkus (nickbutkus@gmail.com) <nbutkus110@yahoo.com> // Paypal
 %%08/02/2012
@@ -1596,10 +1597,14 @@ Elmer Stoltzfus (chief442@intercoursefire.com) (estoltzfusg@aol.com) // PayPal
 Amy Hicks (amysuehicks@gmail.com) // PayPal
 Ed Dunlap (ed59dunlap@gmail.com) // PayPal
 Jon Remy (jremy3296@gmail.com) <jonr@turnerfire.com> // paid by check with Turner Fire District
-Kay Manley (manleylawnservice@gmail.com) // paid by check $20 
-Gerry Manley <gkmanley@nehp.net> // part of manley account
+Gerry Manley (manleylawnservice@gmail.com) // paid by check $20 
+Kay Manley (gkmanley82@gmail.com) <gkmanley@nehp.net> // part of manley account
 %%11/09/2012
 Texas Caboose (sidhepro@gmail.com) // PayPal for Kat Jennings
+%%11/11/2012
+hansel burke (hansel117@yahoo.com) // PayPal
+JBMB <jarod.bradfield@gmail.com> // Tazewell County, IL
+Daniel Edwards (mainofic@gmail.com) // paid by check 
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
@@ -3408,5 +3413,7 @@ Shannon VanWinkle <vanwinkshannon@gmail.com>
 Nathan Berryhill <nathanberryhill530@gmail.com>
 %%11/10/2012
 Dave Wyre <crazydave203@gmail.com>
-
+%%11/11/2012
+Marvin Kent <dakidlashez@gmail.com>
+Bryan Buchanan <pastorbryan.bb@gmail.com>
 
