@@ -117,6 +117,9 @@ public class ParserList {
               ,"ALShelbyCounty"                 ,"Shelby County, AL"
               ,"ALStClairCounty"                ,"St Clair County, AL"
           ),
+          new ParserCategory("Alaska"
+              ,"AKKenaiPeninsulaBorough"        ,"Kenai Peninsula Borough, AK"
+          ),
           new ParserCategory("Arizona"
               ,"AZMaricopaCounty"               ,"Maricopa County, AZ"
           ),

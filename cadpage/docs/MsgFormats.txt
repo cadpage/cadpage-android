@@ -1172,6 +1172,11 @@ Shelby County, AL (ALShelbyCountyParser)
  1 of 2\nFRM:arns@shelby911.org\nSUBJ:SHELBY911 ARNS ALERT\nMSG:\n5/17/2012 10:04:50 AM\nFIRE1208395\nCAH_VALY - STA181\nBLEEDING-\n\n5433 280 HWY @\n(Con't) 2 of 2\nWALT DR / TURTLE LAKE DR\n: 309\nSPRINT PCS WIRELESS(End)
  1 of 2\nFRM:arns@shelby911.org\nSUBJ:SHELBY911 ARNS ALERT\nMSG:\n5/17/2012 9:40:01 AM\nFIRE1208391\nCAH_VALY - STA184\nALARM-FIRE\n\n5116 LIBERTY\n(Con't) 2 of 2\nPKWY @ URBAN CENTER PKWY / URBAN CENTER PKWY\n\nBHM FD(End)
 ***************************************************************************
+Kenai Peninsula Borough, AK (AKKenaiPeninsulaBoroughParser)
+(911 Rip And Run Service) Location: \n264 UPPER ROSIAN DR \n  SOLDOTNA\n, AK\n\nCross Streets: \n\nW LONDON ROSE CIR / DEAD END\n\n\nCall Type: \n17-FALLS\n\n\nConscious: \nYES\n\nBreathing:\nYES\n\nDispatch Code:\n17-D-03\n
+(911 Rip And Run Service) Location: \n24032 WEBB RAMSELL RD \n  KASILOF\n, AK\n\nCross Streets: \n\nFOX DR / SHIAK ST\n\n\nCall Type: \nMEDICAL/FIRE\n\n\nConscious: \nUnknown\n\nBreathing:\nUnknown\n\nDispatch Code:\nUnknown\n
+(911 Rip And Run Service) Location: \n60.5330705955000000 -150.4798026600000000 \n, AK\n\nCross Streets: \n\nSTERLING HWY\nSKILAK LAKE RD / SKILAK LAKE RD\nSTERLING HWY\n\n\nCall Type: \nVID\n\n\nConscious: \nUnknown\n\nBreathing:\nUnknown\n\nDispatch Code:\nUnknown\n
+***************************************************************************
 Maricopa County, AZ (AZMaricopaCountyParser)
 (I/Page Notification) Location: 843 S LONGMORE MESA,1019: @DEL CORONADO AP EVENT: F2012031039 TYPE CODE: 909WORK CALLER NAME: FRITZY SALAZAR CALLER ADDR:  TIME: 20:58:16 Comments:  SPECIAL ADDRESS COMMENT: Grid: BC04 Plat: 14 Block: 1500 W SMOKE INSIDE APT 1019....FIRE ALARM SOUNDING ALSO ALARM SOUNDING FOR PAST HOUR. RESIDENTS NOT HOME AT THIS TIME ENROUTE CODE 3 RP LIVES UPSTAIRS JUST WENT TO CHECK AND CAN SEE SMOKE INSIDE ENROUTE CODE 3 ENROUTE CODE 3 POSS DOGS INSIDE ENROUTE CODE 3 ENROUTE CODE 3 5C14 -- NO FLAMES ALOT OF SMOKE...H/O 97 ENROUTE CODE 3 +++RESOURCE REQUEST+++ : WORKING FIRE 5C14 -- FOOD ON STOVE
 (I/Page Notification) Location: 161 E 6TH PL MESA: @COMMUNICATIONS EVENT: F2012030962 TYPE CODE: CADTEST CALLER NAME:  CALLER ADDR:  TIME: 14:44:25 Comments:  SPECIAL ADDRESS COMMENT: Grid: AB11 Plat: 28 Block: 700 N TEST ENCODE DISREGARD PAGE....NO INCIDENT
@@ -2439,9 +2444,9 @@ FMALS-MEDIC AL Location: 378 WINDING TRL LAMPLIGHTER PL, WOODLAND DR / HELEN AVE
 FGRA-GRASS/FIELD Location: 731 HOOK RD OLD HOOK RD / S BICKETT RD XENIA TWP Time: 11:52 Units:  Common Name
 *******************************************************************************
 Love County, OK (OKLoveCountyParser)
-(NEWOCC #OUTS  ANML - Animal Complaint) NEWOCC #OUTS  ANML - Animal Complaint\r\nAddress: 602 S 4TH AVE, MARIETTA\r\nReporting Person: TIME GILLEY, Phone: 812-2050\r\nDetail: BLK AND TAN DOG RUNNING LOOSE IN THIER YARD THEY HAVE IT CAUGHT ON FRONT PORCH\r\n
-(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\r\nAddress: V  alero - MARIETTA\r\nINCIDENT IN PROGRESS\r\nReporting Person: , Phone: \r\nDetail: TC- BF1K295\r\n
-(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\r\nAddress: Hwy 77/ Mill, MARIETTA\r\nINCIDENT IN PROGRESS\r\nReporting Person: , Phone: \r\nDetail: 518GSD\r\n
+(NEWOCC #OUTS  ANML - Animal Complaint) NEWOCC #OUTS  ANML - Animal Complaint\nAddress: 602 S 4TH AVE, MARIETTA\nReporting Person: TIME GILLEY, Phone: 812-2050\nDetail: BLK AND TAN DOG RUNNING LOOSE IN THIER YARD THEY HAVE IT CAUGHT ON FRONT PORCH\n
+(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\nAddress: V  alero - MARIETTA\nINCIDENT IN PROGRESS\nReporting Person: , Phone: \nDetail: TC- BF1K295\n
+(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\nAddress: Hwy 77/ Mill, MARIETTA\nINCIDENT IN PROGRESS\nReporting Person: , Phone: \nDetail: 518GSD\n
 *******************************************************************************
 Seminole County, OK (OKSeminoleCountyParser)
 (Alarm - SPD - FIELD WORK) FIELD WORK - OTHER, SPD, Loc:900 HARVEY RD Rcvd: 13:0:51 SPD20120005584 Comments: 7/2/2012 1:00:41 PM TEST 

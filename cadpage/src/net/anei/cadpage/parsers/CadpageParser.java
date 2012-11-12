@@ -187,7 +187,7 @@ public class CadpageParser  extends FieldProgramParser{
     if (info.getCity().length() == 0) append(sb, "DCITY", info.getDefCity(), delim);
     if (info.getState().length() == 0) append(sb, "DST", info.getDefState(), delim);
     if (inclMapAddr) {
-      append(sb, "MADDR", info.getBaseMapAddress(), delim);
+      append(sb, "MADDR", info.getBaseMapAddress(false), delim);
     }
     return sb.toString();
   }

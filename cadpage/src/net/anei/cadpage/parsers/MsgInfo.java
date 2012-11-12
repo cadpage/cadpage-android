@@ -303,15 +303,12 @@ public class MsgInfo {
    */
   public String getMapAddress(boolean useGPS, String overrideCity, String overrideState) {
     
-    // See if we can find any GPS coordinates, if we do, return those
-    String mapAddr = null;
-    if (useGPS) mapAddr = parseGPSCoords(strGPSLoc);
-    if (mapAddr == null) mapAddr = parseGPSCoords(strAddress);
-    if (mapAddr != null) return mapAddr;
-    
     // if there is no base address, return null
-    mapAddr = getBaseMapAddress();
+    String mapAddr = getBaseMapAddress(useGPS);
     if (mapAddr.length() == 0) return null;
+    
+    // If there is a GPS pattern in this, don't append anything
+    if (GPS_PATTERN.matcher(mapAddr).find()) return mapAddr;
 
     
     StringBuilder sb = new StringBuilder(mapAddr);
@@ -409,16 +406,20 @@ public class MsgInfo {
   private static final Pattern UK_POST_CODE_PTN = Pattern.compile("^[A-Z]{1,2}\\d{1,2}[A-Z]? \\d[A-Z]{2} +");
   private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O |(?: JUST)? (?:[NSEW]|NORTH|SOUTH|EAST|WEST) OF ");
   private static final Pattern CROSS_DELIM = Pattern.compile("[&/,@]| - | AND ", Pattern.CASE_INSENSITIVE);
-  public String getBaseMapAddress() {
-    
-    if (strAddress.length() == 0) return strAddress;
+  public String getBaseMapAddress(boolean useGPS) {
     
     if (strBaseMapAddress != null) return strBaseMapAddress;
     
-    if (GPS_PATTERN.matcher(strAddress).find()) {
-      strBaseMapAddress = strAddress;
-      return strBaseMapAddress;
+    // See if we can find any GPS coordinates, if we do, return those
+    String mapAddr = null;
+    if (useGPS) mapAddr = parseGPSCoords(strGPSLoc);
+    if (mapAddr == null) mapAddr = parseGPSCoords(strAddress);
+    if (mapAddr != null) {
+      strBaseMapAddress = mapAddr;
+      return mapAddr;
     }
+
+    if (strAddress.length() == 0) return strAddress;
 
     // Perform any parser specific customizations
     String sAddr = strAddress;
