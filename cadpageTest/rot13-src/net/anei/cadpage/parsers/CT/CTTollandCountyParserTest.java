@@ -49,6 +49,10 @@ Pbagnpg: Oreaneq Ubsszna <oreanequbsszna@tznvy.pbz>
 Fraqre: Nqzvavfgengbe@gbyynaqpbhagl911.pbz
 (GA Nyreg) 573 PELFGNY YNXR EQ / Gbyynaq Iruvpyr Nppvqrag PNE IF GERR, ? QBN 03:26 Pebff Fgerrg JROORE EQ / EBYYVAT ZRNQBJ QE, JVYYBJ PERRX QE 20
 
+Pbagnpg: Tvan Inajvatreqra <tvaninajvatreqra@tznvy.pbz>
+Fraqre: GA@GbyynaqPbhagl911.pbz
+Fhowrpg:GA Nyreg\a24 UNNF EQ / Fbzref NYF PNEQVNP NEERFG  10:22 Pebff Fgerrg ZBHAGNVA EQ / EBBG EQ 2012-00000817\e
+
 */
 
 choyvp pynff PGGbyynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -209,6 +213,15 @@ choyvp pynff PGGbyynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Gbyynaq",
         "PNYY:Iruvpyr Nppvqrag PNE IF GERR, ? QBN",
         "K:JROORE EQ / EBYYVAT ZRNQBJ QE, JVYYBJ PERRX QE 20");
+
+    qbGrfg("G20",
+        "Fhowrpg:GA Nyreg\a24 UNNF EQ / Fbzref NYF PNEQVNP NEERFG  10:22 Pebff Fgerrg ZBHAGNVA EQ / EBBG EQ 2012-00000817\e",
+        "NQQE:24 UNNF EQ",
+        "PVGL:Fbzref",
+        "PNYY:NYF PNEQVNP NEERFG",
+        "K:ZBHAGNVA EQ / EBBG EQ",
+        "VQ:2012-00000817");
+    
  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

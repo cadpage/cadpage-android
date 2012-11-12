@@ -11,7 +11,8 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class CTHartfordCountyAvonParser extends SmartAddressParser {
   
-  private static final Pattern UNIT_PTN = Pattern.compile("(?: +[A-Z]{0,3}\\d+)+$");
+  private static final Pattern SRC_PTN = Pattern.compile("^([A-Z]{4}) / ");
+  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:[A-Z]{0,3}\\d+|AV))+$");
   private static final Pattern CROSS_DELIM_PTN = Pattern.compile(" Cross: | NA\\b");
   private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+(?=\\d)");
   
@@ -32,7 +33,13 @@ public class CTHartfordCountyAvonParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
     
     body = body.replaceAll("  +", " ");
-    Matcher match = UNIT_PTN.matcher(body);
+    Matcher match = SRC_PTN.matcher(body);
+    if (match.find()) {
+      data.strSource = match.group(1);
+      body = body.substring(match.end()).trim();
+    }
+    
+    match = UNIT_PTN.matcher(body);
     if (!match.find()) return false;
     data.strUnit = match.group().trim();
     body = body.substring(0,match.start()).trim();
