@@ -435,6 +435,18 @@ public abstract class MsgParser {
   * @return Array of data fields broken up by defined keywords
   */
  protected static String[] parseMessageFields(String body, String[] keyWords) {
+   return parseMessageFields(body, keyWords, ':');
+ }
+ 
+ /** 
+  * General purpose parser for formats where there is not a clear delimiter
+  * between key: value item pairs.
+  * @param body message body to be parsed
+  * @param keyWords list of expected keywords
+  * @param breakChar character that marks the end of all keywords
+  * @return Array of data fields broken up by defined keywords
+  */
+ protected static String[] parseMessageFields(String body, String[] keyWords, char breakChar) {
    
    List<String> fields = new ArrayList<String>();
    int iKey = -1;  // Current key table pointer
@@ -448,13 +460,13 @@ public abstract class MsgParser {
      int iEndPt = -1;
      int iNxtKey = -1;
      
-     // This loop checks each ':' characters looking for one that
+     // This loop checks each break characters looking for one that
      // matches an available keyword
      while (true) {
        
        // Find the next colon character, if there isn't one, bail out
        int iDataPt = iColonPt;
-       iColonPt = body.indexOf(':', iColonPt+1);
+       iColonPt = body.indexOf(breakChar, iColonPt+1);
        if (iColonPt < 0) break;
        
        int ipt = iColonPt;

@@ -140,6 +140,7 @@ public class ParserList {
               ,"CASanBernardinoCounty"          ,"San Bernardino County, CA"
               ,"CASanDiegoCounty"               ,"San Diego County, CA"
               ,"CASanJoaquinCounty"             ,"San Joaquin County, CA"
+              ,"CASantaClaraCounty"             ,"Santa Clara County, CA"
               ,"CAShastaCounty"                 ,"Shasta County, CA"
               ,"CASonomaCounty"                 ,"Sonoma County, CA"
               ,"CAVenturaCounty"                ,"Ventura County, CA"

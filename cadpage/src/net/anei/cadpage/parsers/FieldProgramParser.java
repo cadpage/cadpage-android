@@ -169,6 +169,9 @@ public class FieldProgramParser extends SmartAddressParser {
   // List of tags on the main path
   private String[] tagList = null;
   
+  // Character used to terminate keywords
+  private char breakChar = ':';
+  
   public static String setExpectFlag(String program, String fldTerm) {
     if (fldTerm == null) return program;
     int pt = program.indexOf(fldTerm);
@@ -199,6 +202,14 @@ public class FieldProgramParser extends SmartAddressParser {
     super(cities, defCity, defState, country);
     this.cities = new HashSet<String>(Arrays.asList(cities));;
     setProgram(programStr);
+  }
+  
+  /**
+   * Set the character used to mark the end of  keyword
+   * @param breakChar new break character
+   */
+  protected void setBreakChar(char breakChar) {
+    this.breakChar = breakChar;
   }
 
   /**
@@ -272,7 +283,7 @@ public class FieldProgramParser extends SmartAddressParser {
     // First pass through the field terms, constructing the appropriate field
     // and program step that will be used.
     for (int ndx = 0; ndx < fieldTerms.length; ndx++) {
-      FieldTermInfo info = new FieldTermInfo(fieldTerms[ndx]);
+      FieldTermInfo info = new FieldTermInfo(fieldTerms[ndx], breakChar);
       infoList[ndx] = info;
       Field field = null;
       if (!info.branch){ 
@@ -656,7 +667,7 @@ public class FieldProgramParser extends SmartAddressParser {
     boolean branch = false;
     char trigger = 0;
     
-    FieldTermInfo(String fieldTerm) {
+    FieldTermInfo(String fieldTerm, char breakChar) {
       
       // If this is a conditional branch, just set the branch flag and return
       // The branch will be expanded later
@@ -666,7 +677,7 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       
       int len = fieldTerm.length();
-      int st = fieldTerm.indexOf(':');
+      int st = fieldTerm.indexOf(breakChar);
       if (st > 0) {
         tag = fieldTerm.substring(0,st).replace('_', ' ');
       }
@@ -727,7 +738,7 @@ public class FieldProgramParser extends SmartAddressParser {
       throw new RuntimeException("FieldProgramParser cannot parse message without tag definitions");
     }
     
-    String[] fields = parseMessageFields(body, tagList);
+    String[] fields = parseMessageFields(body, tagList, breakChar);
     return parseFields(fields, data);
   }
   
@@ -1019,7 +1030,7 @@ public class FieldProgramParser extends SmartAddressParser {
           procStep = startStep;
           String curTag = null;
           String curVal = null;
-          int pt = curFld.indexOf(':');
+          int pt = curFld.indexOf(breakChar);
           if (pt >= 0) {
             curTag = curFld.substring(0, pt).trim();
             curVal = curFld.substring(pt+1).trim();
