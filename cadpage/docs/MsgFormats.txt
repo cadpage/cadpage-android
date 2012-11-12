@@ -418,9 +418,9 @@ MAILBOX:F3 VEHICLE FIRE 220 WB 64 CFS# 2012-017867
 *******************************************************************************
 *******************************************************************************
 Garland County, AR (ARGarlandCountyParser)
-(Dispatch Alert - part 1 of 1) RC:Run# 50760/1-Emergency-Life Threat/108 CARAWAY ST//a/PEARCY/71964/You are responding to a patient with chest pain.  The patient is a 61-year-old  female/ who is consciousand breathing. Clammy.  Chest Pain (Non-Traumatic).\r\n\r\n
-(Dispatch Alert - part 1 of 1) RC:Run# 50702/1-Emergency-Life Threat/104 ROLLING ACRES DR///PEARCY/71964/You are responding to a patient involved in a fall.  The patient is a 38-year-old  male/ who is conscious and breathing. Not alert.  Falls.\r\n\r\n
-(Dispatch Alert - part 1 of 1) RC:Run# 50580/2-Emergency-Non Life Threat/S MOORE RD & AIRPORT RD///HOT SPRINGS/71913/You are responding to a patient injured in a traffic incident.  The patient is of  unknown age and gender/ and is conscious and breathing. Unknown  status/Other codes not applicable.  Traffic / Transportation Incidents.\r\n\r\n
+(Dispatch Alert - part 1 of 1) RC:Run# 50760/1-Emergency-Life Threat/108 CARAWAY ST//a/PEARCY/71964/You are responding to a patient with chest pain.  The patient is a 61-year-old  female/ who is consciousand breathing. Clammy.  Chest Pain (Non-Traumatic).
+(Dispatch Alert - part 1 of 1) RC:Run# 50702/1-Emergency-Life Threat/104 ROLLING ACRES DR///PEARCY/71964/You are responding to a patient involved in a fall.  The patient is a 38-year-old  male/ who is conscious and breathing. Not alert.  Falls.
+(Dispatch Alert - part 1 of 1) RC:Run# 50580/2-Emergency-Non Life Threat/S MOORE RD & AIRPORT RD///HOT SPRINGS/71913/You are responding to a patient injured in a traffic incident.  The patient is of  unknown age and gender/ and is conscious and breathing. Unknown  status/Other codes not applicable.  Traffic / Transportation Incidents.
 *******************************************************************************
 North Glenn EMS, CO (CONorthglennEMSParser)
 - part 1 of 1 / RC:Run# 10174/6211 OLIVE ST///Pregnancy / Childbirth/
@@ -2437,6 +2437,11 @@ Xenia township, OH (OHXeniaParser)
 MBLS-MEDICAL Location: 160 RICHARD DR DAYTON XENIA RD / ROBERT LN XENIA TWP Time: 17:31 Units: M51  Common
 FMALS-MEDIC AL Location: 378 WINDING TRL LAMPLIGHTER PL, WOODLAND DR / HELEN AVE XENIA TWP Time: 16:39 Unit
 FGRA-GRASS/FIELD Location: 731 HOOK RD OLD HOOK RD / S BICKETT RD XENIA TWP Time: 11:52 Units:  Common Name
+*******************************************************************************
+Love County, OK (OKLoveCountyParser)
+(NEWOCC #OUTS  ANML - Animal Complaint) NEWOCC #OUTS  ANML - Animal Complaint\r\nAddress: 602 S 4TH AVE, MARIETTA\r\nReporting Person: TIME GILLEY, Phone: 812-2050\r\nDetail: BLK AND TAN DOG RUNNING LOOSE IN THIER YARD THEY HAVE IT CAUGHT ON FRONT PORCH\r\n
+(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\r\nAddress: V  alero - MARIETTA\r\nINCIDENT IN PROGRESS\r\nReporting Person: , Phone: \r\nDetail: TC- BF1K295\r\n
+(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\r\nAddress: Hwy 77/ Mill, MARIETTA\r\nINCIDENT IN PROGRESS\r\nReporting Person: , Phone: \r\nDetail: 518GSD\r\n
 *******************************************************************************
 Seminole County, OK (OKSeminoleCountyParser)
 (Alarm - SPD - FIELD WORK) FIELD WORK - OTHER, SPD, Loc:900 HARVEY RD Rcvd: 13:0:51 SPD20120005584 Comments: 7/2/2012 1:00:41 PM TEST 
@@ -5244,3 +5249,4 @@ s calhan rd/judge orr OUTSIDE FIRE SOUTH OF IX  blk smoke rising vertical\r\n
 **********************************************************
 * EOF
 **********************************************************
+

@@ -517,6 +517,7 @@ public class ParserList {
               ,"OHXenia"                        ,"Xenia Twp, OH"
           ),
           new ParserCategory("Oklahoma"
+              ,"OKLoveCounty"                   ,"Love County, OK"
               ,"OKPottawatomieCounty"           ,"Pottawatomie County, OK"
               ,"OKSeminoleCounty"               ,"Seminole County, OK"
               ,"OKTulsa"                        ,"Tusla, OK"
