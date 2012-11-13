@@ -371,6 +371,7 @@ public class ParserList {
               ,"NJCumberlandCounty"             ,"Cumberland County, NJ"
               ,"NJGloucesterCounty"             ,"Gloucester County, NJ"
               ,"NJHunterdonCounty"              ,"Hunterdon County, NJ"
+              ,"NJMercerCounty"                 ,"Mercer County, NJ"
               ,"NJMICOM"                        ,"MICCOM (Northern NJ), NJ"
               ,"NJMonmouthCounty"               ,"Monmouth County, NJ"
               ,"NJMorrisCounty"                 ,"Morris County, NJ"

@@ -1980,6 +1980,11 @@ Hunterdon County, NJ (Flemington)
 49FD:SMOKE L3: (49)15 BONNELL ST NEAR: PARK AVE TO ACADEMY ST 12002996 POSSIBLE ELECTRICAL::SMOKE DISAPATING 
 49FD:SMOKE L3: (49)WALGREENS / 29 STATE HWY NO 31 NEAR: CHURCH ST TO RARITAN TWP LINE 12002674: BAD SMELL OF SMOKE COMING OUT OF VENTS
 ***************************************************************************
+Mercer County, NJ (NJMercerCountyParser)
+UNIT: 794 ; CALL: Seizures - ALS ; PLACE: MC Junior Senior Hig; ADDR: 1050 Edinburg Rd ; BLDG: ; APT: ; CITY: Hamilton ; XSTREETS: Hughes Dr/Dead End ; ID: 11132012-0051953 ; DATE: 11/13; TIME: 12:55; (msg11)\r\n
+UNIT: 793 ; CALL: Trauma - ALS ; PLACE: ; ADDR: 23 Bittner Rd ; BLDG: ; APT: ; CITY: Millstone (So) ; XSTREETS: Dead End/Robbins Rd ; ID: 11132012-0051957 ; DATE: 11/13; TIME: 13:37; (msg11)\r\n
+UNIT: 793 ; CALL: Stroke/CVA - ALS ; PLACE: ARCADIA NURSING HOME; ADDR: 1503 State Hwy 33 ; BLDG: ; APT: 221B ; CITY: Hamilton ; XSTREETS: Endicott Rd/Crest Ave ; ID: 11132012-0051950 ; DATE: 11/13; TIME: 12:30; (msg11)\r\n
+***************************************************************************
 Monmouth County, NJ (NJMonmouthCountyBParser)
 (mCAD) [!] FIRA F FIRE ALARM | 21 LASATTA AV | X-ST: | BULIDING 700//SPRINKLER ROOM SMOKE DETECTOR | 08:22:17 | 02/17/2012
 (mCAD) [!] FIRA F FIRE ALARM | 4189 N RT 9 | X-ST: RT 522/SCHIBANOFF RD | BUSN: BROCK FARMS // ZONE: GENERAL | 15:30:16 | 01/26/2012
@@ -5297,4 +5302,119 @@ s calhan rd/judge orr OUTSIDE FIRE SOUTH OF IX  blk smoke rising vertical\r\n
 * EOF
 **********************************************************
 
+Contact: Active911
+Agency name: Capital Health
+Location: Trenton, NJ, United States
+Sender: noreply_lifecomm@verizon.net
+
+11132012-0051953; Disp:12:55; Resp:12:57; Scene:13:12; Depart:13:14; Hosp:13:26; Avail:13:41 (msg12) (#1\r\n
+ID: 11132012-0051953; Rec: 12:53; Disp: 12:55; Resp: 12:57; Scene: 13:12; Depart: 13:14; Hosp: 13:26 (msg17) (#1\r\n
+
+'RESPONSE CHECK' YOU HAVE AN ASSIGNMENT-CONTACT LIFECOMM; UNIT: 794 ; ID: 11132012-0051953 (msg14) (#1\r\n
+UNIT: 794 ; CALL: Seizures - ALS ; PLACE: MC Junior Senior Hig; ADDR: 1050 Edinburg Rd ; BLDG: ; APT: ; CITY: Hamilton ; XSTREETS: Hughes Dr/Dead End ; ID: 11132012-0051953 ; DATE: 11/13; TIME: 12:55; (msg11)\r\n
+'SHORT REPORT' ; INFO: PER PD PT AN UNKNOWN AGED FEMALE SEIZURES UNKNOWN HX, ; ID: 11132012-0051953 ; (msg13) (#1 1) 11/13/2012 12:55:00 12:55:00-PER PD PT AN UNKNOWN AGED FEMALE SEIZURES UNKNOWN HX\r\n
+
+11132012-0051957; Disp:13:37; Resp:13:37; Scene: ; Depart: ; Hosp: ; Avail:13:41 (msg12) (#1\r\n
+'SHORT REPORT' ; INFO: HEAD INJURY...NFI PER MONOC, ; ID: 11132012-0051957 ; (msg13) (#1 1) 11/13/2012 13:35:57 13:35:57-HEAD INJURY...NFI PER MONOC\r\n
+UNIT: 793 ; CALL: Trauma - ALS ; PLACE: ; ADDR: 23 Bittner Rd ; BLDG: ; APT: ; CITY: Millstone (So) ; XSTREETS: Dead End/Robbins Rd ; ID: 11132012-0051957 ; DATE: 11/13; TIME: 13:37; (msg11)\r\n
+
+11132012-0051950; Disp:12:30; Resp:12:33; Scene:12:37; Depart:13:01; Hosp:13:06; Avail:13:23 (msg12) (#1\r\n
+ID: 11132012-0051950; Rec: 12:29; Disp: 12:30; Resp: 12:33; Scene: 12:37; Depart: 13:01; Hosp: 13:06 (msg17) (#1\r\n
+'RESPONSE CHECK' YOU HAVE AN ASSIGNMENT-CONTACT LIFECOMM; UNIT: 793 ; ID: 11132012-0051950 (msg14) (#1\r\n
+'ADDRESS UPDATE '; PLACE: ; ADDR: 1501 State Hwy 33 ; BLDG: ; APT: ; CITY: Hamilton ; ID: 11132012-0051950 ; DATE: 11/13; TIME: 12:30 (#1\r\n
+'SHORT REPORT' ; INFO: ; ID: 11132012-0051950 ; (msg13) (#1\r\n
+UNIT: 793 ; CALL: Stroke/CVA - ALS ; PLACE: ARCADIA NURSING HOME; ADDR: 1503 State Hwy 33 ; BLDG: ; APT: 221B ; CITY: Hamilton ; XSTREETS: Endicott Rd/Crest Ave ; ID: 11132012-0051950 ; DATE: 11/13; TIME: 12:30; (msg11)\r\n
+
+'RESPONSE CHECK' YOU HAVE AN ASSIGNMENT-CONTACT LIFECOMM; UNIT: 795 ; ID: 11132012-0051954 (msg14) (#1\r\n
+'SHORT REPORT' ; INFO: ; ID: 11132012-0051954 ; (msg13) (#1\r\n
+UNIT: 795 ; CALL: Respiratory - ALS ; PLACE: ; ADDR: 50 Centre St ; BLDG: ; APT: 1 ; CITY: Trenton ; XSTREETS: US Hwy 1 N MM 0.55/Ferry St ; ID: 11132012-0051954 ; DATE: 11/13; TIME: 13:05; (msg11)\r\n
+
+ID: 11132012-0051947; Disp:12:20; Resp:12:20; Scene:12:24; Recalled:12:25; Dispo: Canceled, scene, no pt contact; Cx. Reason: (msg16) (#1\r\n
+UNIT: 791 ; CALL: Bleeding - ALS ; PLACE: ; ADDR: 612 N Olden Ave ; BLDG: ; APT: ; CITY: Trenton ; XSTREETS: St Joes Ave/St Joes Ave ; ID: 11132012-0051947 ; DATE: 11/13; TIME: 12:20; (msg11)\r\n
+'SHORT REPORT' ; INFO: 80/ male pt lower gi bleed,pt also cant walk, ; ID: 11132012-0051947 ; (msg13) (#1 1) 11/13/2012 12:18:59 12:18:59-80/ male pt lower gi bleed 2) 11/13/2012 12:19:08 12:19:08-pt also cant walk\r\n
+ID: 11132012-0051947; Disp:12:19; Resp: ; Scene: ; Recalled:12:20; Dispo: Canceled, other unit handled ; Cx. Reason: (msg16) (#1\r\n
+'SHORT REPORT' ; INFO: 80/ male pt lower gi bleed,pt also cant walk, ; ID: 11132012-0051947 ; (msg13) (#1 1) 11/13/2012 12:18:59 12:18:59-80/ male pt lower gi bleed 2) 11/13/2012 12:19:08 12:19:08-pt also cant walk\r\n
+UNIT: 795 ; CALL: Bleeding - ALS ; PLACE: ; ADDR: 612 N Olden Ave ; BLDG: ; APT: ; CITY: Trenton ; XSTREETS: St Joes Ave/St Joes Ave ; ID: 11132012-0051947 ; DATE: 11/13; TIME: 12:19; (msg11)\r\n
+
+ID: 11132012-0051941; Disp:12:12; Resp: ; Scene: ; Recalled:12:12; Dispo: Canceled, no MICU available ; Cx. Reason: (msg16) (#1\r\n
+'SHORT REPORT' ; INFO: ; ID: 11132012-0051941 ; (msg13) (#1\r\n
+UNIT: 791 ; CALL: MVC - ALS ; PLACE: ; ADDR: New Village Rd & Baxter Pl ; BLDG: ; APT: ; CITY: West Windsor ; XSTREETS: ; ID: 11132012-0051941 ; DATE: 11/13; TIME: 12:12; (msg11)\r\n
+
+11132012-0051934; Disp:11:36; Resp:11:37; Scene:11:40; Depart:11:57; Hosp:11:59; Avail:12:09 (msg12) (#1\r\n
+ID: 11132012-0051934; Rec: 11:35; Disp: 11:36; Resp: 11:37; Scene: 11:40; Depart: 11:57; Hosp: 11:59 (msg17) (#1\r\n
+'SHORT REPORT' ; INFO: 1724,TRENTON COMM BUREAU,TRENTON PD 609 989-4170,1724,TRENTON COMM BUREAU,TRENTON PD 609 989-4170,80/ male, ; ID: 11132012-0051934 ; (msg13) (#1 1) 11/13/2012 11:35:57 11:35:57-1724 2) 11/13/2012 11:35:57 11:35:57-TRENTON COMM BUREAU 3) 11/13/2012 11:35:57 11:35:57-TRENTON PD 609 989-4170 4) 11/13/2012 11:35:57 11:35:57-1724 5) 11/13/2012 11:35:57 11:35:57-TRENTON COMM BUREAU 6) 11/13/2012 11:35:57 11:35:57-TRENTON PD 609 989-4170 7) 11/13/2012 11:36:58 11:36:58-80/ male\r\n
+UNIT: 791 ; CALL: Cardiac Arrest ; PLACE: ; ADDR: 735 Southard St ; BLDG: ; APT: FLR ; CITY: Trenton ; XSTREETS: Proctor Ave/Burton Ave ; ID: 11132012-0051934 ; DATE: 11/13; TIME: 11:36; (msg11)\r\n
+
+'SHORT REPORT' ; INFO: ; ID: 11132012-0051931 ; (msg13) (#1\r\n
+UNIT: 792 ; CALL: Seizures - ALS ; PLACE: WALMART E.WINDSOR P; ADDR: 839 Us Hwy 130 ; BLDG: ; APT: ; CITY: East Windsor ; XSTREETS: Dead End/STATE HWY 33 ; ID: 11132012-0051931 ; DATE: 11/13; TIME: 11:07; (msg11)\r\n
+
+'RESPONSE CHECK' YOU HAVE AN ASSIGNMENT-CONTACT LIFECOMM; UNIT: 793 ; ID: 11132012-0051925 (msg14) (#1\r\n
+'SHORT REPORT' ; INFO: 48F respiratory distress per the front desk, ; ID: 11132012-0051925 ; (msg13) (#1 1) 11/13/2012 10:53:45 10:53:45-48F respiratory distress per the front desk\r\n
+UNIT: 793 ; CALL: Respiratory - ALS ; PLACE: Hamilton YMCA ; ADDR: 1315 Whitehorse Mercerville Rd ; BLDG: ; APT: ; CITY: Hamilton ; XSTREETS: Justice Samuel Alito Jr Way/De; ID: 11132012-0051925 ; DATE: 11/13; TIME: 10:54; (msg11)\r\n
+
+11132012-0051911; Disp:09:21; Resp:09:24; Scene:09:47; Depart:09:49; Hosp:10:17; Avail:10:48 (msg12) (#1\r\n
+ID: 11132012-0051911; Rec: 09:20; Disp: 09:21; Resp: 09:24; Scene: 09:47; Depart: 09:49; Hosp: 10:17 (msg17) (#1\r\n
+'RESPONSE CHECK' YOU HAVE AN ASSIGNMENT-CONTACT LIFECOMM; UNIT: 794 ; ID: 11132012-0051911 (msg14) (#1\r\n
+'SHORT REPORT' ; INFO: tree fell on a person, ; ID: 11132012-0051911 ; (msg13) (#1 1) 11/13/2012 09:20:29 09:20:29-tree fell on a person\r\n
+UNIT: 794 ; CALL: Trauma - ALS ; PLACE: ; ADDR: Deer Run Dr & Monmouth Rd ; BLDG: ; APT: ; CITY: Millstone (So) ; XSTREETS: ; ID: 11132012-0051911 ; DATE: 11/13; TIME: 09:21; (msg11)\r\n
+
+'RESPONSE CHECK' YOU HAVE AN ASSIGNMENT-CONTACT LIFECOMM; UNIT: 791 ; ID: 11132012-0051924 (msg14) (#1\r\n
+'RESPONSE CHECK' YOU HAVE AN ASSIGNMENT-CONTACT LIFECOMM; UNIT: 791 ; ID: 11132012-0051924 (msg14) (#1\r\n
+'SHORT REPORT' ; INFO: ; ID: 11132012-0051924 ; (msg13) (#1\r\n
+UNIT: 791 ; CALL: Unconscious / Fainting - ALS ; PLACE: PELLETERI HOMES IN ; ADDR: 615 S Clinton Ave ; BLDG: ; APT: ; CITY: Trenton ; XSTREETS: Elmer St/Mott St ; ID: 11132012-0051924 ; DATE: 11/13; TIME: 10:38; (msg11)\r\n
+11132012-0051918; Disp:09:51; Resp:09:54; Scene:09:56; Depart:10:16; Hosp:10:21; Avail:10:34 (msg12) (#1\r\n
+11132012-0051916; Disp:09:35; Resp:09:37; Scene:09:45; Depart:09:56; Hosp:10:05; Avail:10:24 (msg12) (#1\r\n
+ID: 11132012-0051918; Rec: 09:50; Disp: 09:51; Resp: 09:54; Scene: 09:56; Depart: 10:16; Hosp: 10:21 (msg17) (#1\r\n
+PLEASE CALL LIFECOM WITH YOUR STATUS (msg4) (#1\r\n
+ID: 11132012-0051916; Rec: 09:33; Disp: 09:35; Resp: 09:37; Scene: 09:45; Depart: 09:56; Hosp: 10:05 (msg17) (#1\r\n
+'RESPONSE CHECK' YOU HAVE AN ASSIGNMENT-CONTACT LIFECOMM; UNIT: 793 ; ID: 11132012-0051918 (msg14) (#1\r\n
+UNIT: 793 ; CALL: Cardiac - ALS ; PLACE: ; ADDR: 2222 State Hwy 33 ; BLDG: ; APT: Ste H; CITY: Hamilton ; XSTREETS: Limewood Dr/Dead End ; ID: 11132012-0051918 ; DATE: 11/13; TIME: 09:51; (msg11)\r\n
+'SHORT REPORT' ; INFO: ; ID: 11132012-0051918 ; (msg13) (#1\r\n
+'RESPONSE CHECK' YOU HAVE AN ASSIGNMENT-CONTACT LIFECOMM; UNIT: 795 ; ID: 11132012-0051917 (msg14) (#1\r\n
+'SHORT REPORT' ; INFO: PER CALLER PT A 32 Y/O MALE CHEST PAIN HX OF CHF SICKLE CELL, ; ID: 11132012-0051917 ; (msg13) (#1 1) 11/13/2012 09:42:31 09:42:31-PER CALLER PT A 32 Y/O MALE CHEST PAIN HX OF CHF SICKLE CELL\r\n
+UNIT: 795 ; CALL: Cardiac - ALS ; PLACE: ; ADDR: 636 Hoffman Ave ; BLDG: ; APT: ; CITY: Trenton ; XSTREETS: Eisenhower Ave/Oliver Ave ; ID: 11132012-0051917 ; DATE: 11/13; TIME: 09:42; (msg11)\r\n
+11132012-0051909; Disp:08:54; Resp:08:56; Scene:08:58; Depart:09:15; Hosp:09:22; Avail:09:40 (msg12) (#1\r\n
+PLEASE CALL LIFECOM WITH YOUR STATUS (msg4) (#1\r\n
+'RESPONSE CHECK' YOU HAVE AN ASSIGNMENT-CONTACT LIFECOMM; UNIT: 791 ; ID: 11132012-0051916 (msg14) (#1\r\n
+'SHORT REPORT' ; INFO: 1707,HAMILTON TWP 609,HAMILTON TWP PD 609 581-4000,1707,HAMILTON TWP 609,HAMILTON TWP PD 609 581-4000,72M respiratory distress, ; ID: 11132012-0051916 ; (msg13) (#1 1) 11/13/2012 09:33:53 09:33:53-1707 2) 11/13/2012 09:33:53 09:33:53-HAMILTON TWP 609 3) 11/13/2012 09:33:53 09:33:53-HAMILTON TWP PD 609 581-4000 4) 11/13/2012 09:33:53 09:33:53-1707 5) 11/13/2012 09:33:53 09:33:53-HAMILTON TWP 609 6) 11/13/2012 09:33:53 09:33:53-HAMILTON TWP PD 609 581-4000 7) 11/13/2012 09:34:37 09:34:37-72M respiratory distress\r\n
+UNIT: 791 ; CALL: Respiratory - ALS ; PLACE: ; ADDR: 84 Sloan Ave ; BLDG: ; APT: FLR ; CITY: Hamilton ; XSTREETS: Saint Clair Ave/Douglas Ave ; ID: 11132012-0051916 ; DATE: 11/13; TIME: 09:35; (msg11)\r\n
+11132012-0051907; Disp:08:35; Resp:08:35; Scene:08:39; Depart:09:00; Hosp:09:10; Avail:09:26 (msg12) (#1\r\n
+PLEASE CALL LIFECOM WITH YOUR STATUS (msg4) (#1\r\n
+ID: 11132012-0051909; Rec: 08:52; Disp: 08:54; Resp: 08:56; Scene: 08:58; Depart: 09:15; Hosp: 09:22 (msg17) (#1\r\n
+ID: 11132012-0051907; Rec: 08:30; Disp: 08:35; Resp: 08:35; Scene: 08:39; Depart: 09:00; Hosp: 09:10 (msg17) (#1\r\n
+'SHORT REPORT' ; INFO: ; ID: 11132012-0051910 ; (msg13) (#1\r\n
+UNIT: 795 ; CALL: Cardiac - ALS ; PLACE: Royal Healthgate Nur; ADDR: 1314 Brunswick Ave ; BLDG: ; APT: 219 ; CITY: Trenton ; XSTREETS: Lanning Ave/Plum St ; ID: 11132012-0051910 ; DATE: 11/13; TIME: 09:07; (msg11)\r\n
+11132012-0051906; Disp:08:22; Resp:08:22; Scene:08:30; Depart:08:50; Hosp:08:55; Avail:09:07 (msg12) (#1\r\n
+'RESPONSE CHECK' YOU HAVE AN ASSIGNMENT-CONTACT LIFECOMM; UNIT: 793 ; ID: 11132012-0051909 (msg14) (#1\r\n
+ID: 11132012-0051906; Rec: 08:20; Disp: 08:22; Resp: 08:22; Scene: 08:30; Depart: 08:50; Hosp: 08:55 (msg17) (#1\r\n
+UNIT: 793 ; CALL: Seizures - ALS ; PLACE: RWJ Wellness Center/; ADDR: 3100 Quakerbridge Rd ; BLDG: ; APT: ; CITY: Hamilton ; XSTREETS: Collins Rd/Brookwood Rd ; ID: 11132012-0051909 ; DATE: 11/13; TIME: 08:54; (msg11)\r\n
+'SHORT REPORT' ; INFO: Female pt in her 30's has been seizing for 15 minutes, ; ID: 11132012-0051909 ; (msg13) (#1 1) 11/13/2012 08:54:10 08:54:10-Female pt in her 30's has been seizing for 15 minutes\r\n
+UNIT: 791 ; CALL: Unconscious / Fainting - ALS ; PLACE: Bo Robinson ; ADDR: 377 Enterprise Ave ; BLDG: ; APT: ; CITY: Trenton ; XSTREETS: Dead End/2nd Ave ; ID: 11132012-0051907 ; DATE: 11/13; TIME: 08:35; (msg11)\r\n
+'SHORT REPORT' ; INFO: 22M unresponsive, ; ID: 11132012-0051907 ; (msg13) (#1 1) 11/13/2012 08:32:15 08:32:15-22M unresponsive\r\n
+11132012-0051902; Disp:07:56; Resp:07:56; Scene:07:57; Depart:08:12; Hosp:08:12; Avail:08:35 (msg12) (#1\r\n
+ID: 11132012-0051907; Disp:08:33; Resp: ; Scene: ; Recalled:08:33; Dispo: Canceled, other unit handled ; Cx. Reason: (msg16) (#1\r\n
+'SHORT REPORT' ; INFO: 22M unresponsive, ; ID: 11132012-0051907 ; (msg13) (#1 1) 11/13/2012 08:32:15 08:32:15-22M unresponsive\r\n
+UNIT: 793 ; CALL: Unconscious / Fainting - ALS ; PLACE: Bo Robinson ; ADDR: 377 Enterprise Ave ; BLDG: ; APT: ; CITY: Trenton ; XSTREETS: Dead End/2nd Ave ; ID: 11132012-0051907 ; DATE: 11/13; TIME: 08:33; (msg11)\r\n
+PLEASE CALL LIFECOM WITH YOUR STATUS (msg4) (#1\r\n
+'SHORT REPORT' ; INFO: ; ID: 11132012-0051906 ; (msg13) (#1\r\n
+UNIT: 795 ; CALL: Respiratory - ALS ; PLACE: ; ADDR: 623 Lamberton St ; BLDG: ; APT: ; CITY: Trenton ; XSTREETS: Federal St/Lexington St ; ID: 11132012-0051906 ; DATE: 11/13; TIME: 08:22; (msg11)\r\n
+ID: 11132012-0051902; Rec: 07:54; Disp: 07:56; Resp: 07:56; Scene: 07:57; Depart: 08:12; Hosp: 08:12 (msg17) (#1\r\n
+UNIT: 791 ; CALL: Respiratory - ALS ; PLACE: Dialysis ; ADDR: 40 Fuld St ; BLDG: ; APT: ; CITY: Trenton ; XSTREETS: New York Ave/Brunswick Ave ; ID: 11132012-0051902 ; DATE: 11/13; TIME: 07:56; (msg11)\r\n
+'SHORT REPORT' ; INFO: 48F respiratory and blurry vision, ; ID: 11132012-0051902 ; (msg13) (#1 1) 11/13/2012 07:55:45 07:55:45-48F respiratory and blurry vision\r\n
+'SHORT REPORT' ; INFO: EWING PD 609 F1=TRENTON PD 609 989-4000 F2=BUCKS CO 911 215 493-4011,Latitude: +040.245937,Longitude: -074.803368, ; ID: 11132012-0051901 ; (msg13) (#1 1) 11/13/2012 07:47:13 07:47:13-EWING PD 609 F1=TRENTON PD 609 989-4000 F2=BUCKS CO 911 215 493-4011 2) 11/13/2012 07:47:13 07:47:13-Latitude: +040.245937 3) 11/13/2012 07:47:13 07:47:13-Longitude: -074.803368\r\n
+UNIT: 795 ; CALL: Cardiac - ALS ; PLACE: ; ADDR: 911 Country Ln ; BLDG: ; APT: ; CITY: Ewing ; XSTREETS: River Rd/River Rd ; ID: 11132012-0051901 ; DATE: 11/13; TIME: 07:48; (msg11)\r\n
+PLEASE CALL LIFECOM WITH YOUR STATUS (msg4) (#1\r\n
+ID: 11132012-0051892; Rec: 05:25; Disp: 05:27; Resp: 05:28; Scene: 05:31; Depart: 05:56; Hosp: 05:58 (msg17) (#1\r\n
+'RESPONSE CHECK' YOU HAVE AN ASSIGNMENT-CONTACT LIFECOMM; UNIT: 794 ; ID: 11132012-0051894 (msg14) (#1\r\n
+'SHORT REPORT' ; INFO: 94M respiratory distress, ; ID: 11132012-0051894 ; (msg13) (#1 1) 11/13/2012 05:49:02 05:49:02-94M respiratory distress\r\n
+UNIT: 794 ; CALL: Respiratory - ALS ; PLACE: Meadow Lakes Nursing; ADDR: 200 Etra Rd ; BLDG: ; APT: B9 ; CITY: East Windsor ; XSTREETS: Meadow Lk/Ward St ; ID: 11132012-0051894 ; DATE: 11/13; TIME: 05:49; (msg11)\r\n
+'SHORT REPORT' ; INFO: PD REPORTING PEOPLE JUMPING OUT AND POSS ENTRAPMENT, ; ID: 11132012-0051892 ; (msg13) (#1 1) 11/13/2012 05:26:42 05:26:42-PD REPORTING PEOPLE JUMPING OUT AND POSS ENTRAPMENT\r\n
+UNIT: 791 ; CALL: Standby, Fire Inc - Entrapment; PLACE: ; ADDR: 26 Race St ; BLDG: ; APT: ; CITY: Trenton ; XSTREETS: Unnamed Street/Martin Luther K; ID: 11132012-0051892 ; DATE: 11/13; TIME: 05:27; (msg11)\r\n
+11132012-0051888; Disp:04:44; Resp:04:44; Scene:04:53; Depart:05:07; Hosp:05:14; Avail:05:23 (msg12) (#1\r\n
+ID: 11132012-0051888; Rec: 04:43; Disp: 04:44; Resp: 04:44; Scene: 04:53; Depart: 05:07; Hosp: 05:14 (msg17) (#1\r\n
+'SHORT REPORT' ; INFO: 0141,HAMILTON TWP PD 609,HAMILTON TWP PD 609 581-4000, ; ID: 11132012-0051888 ; (msg13) (#1 1) 11/13/2012 04:43:23 04:43:23-0141 2) 11/13/2012 04:43:23 04:43:23-HAMILTON TWP PD 609 3) 11/13/2012 04:43:23 04:43:23-HAMILTON TWP PD 609 581-4000\r\n
+UNIT: 793 ; CALL: Cardiac - ALS ; PLACE: ; ADDR: 25 Iorio Dr ; BLDG: ; APT: FLR ; CITY: Hamilton ; XSTREETS: Twig Ln/Woodside Ave ; ID: 11132012-0051888 ; DATE: 11/13; TIME: 04:44; (msg11)\r\n
+11132012-0051886; Disp:03:38; Resp:03:41; Scene:03:49; Depart:04:03; Hosp:04:08; Avail:04:27 (msg12) (#1\r\n
+PLEASE CALL LIFECOM WITH YOUR STATUS (msg4) (#1\r\n
+ID: 11132012-0051886; Rec: 03:37; Disp: 03:38; Resp: 03:41; Scene: 03:49; Depart: 04:03; Hosp: 04:08 (msg17) (#1\r\n
 
