@@ -3898,11 +3898,6 @@ accident poss injs
 .... NCFDFire Residence11610 GA Hwy 142 NSTA9NCB1smoke coming from laundry  
 room
 **********************************************************
-Washington County, TN (alternate)
-Contact: Luke Story <firedog458@yahoo.com>
-Sender: 4232623650
-JVFD-Motor Vehicle Crash - Injury AT 215 ROY PHILLIPS RD -X-ST:BRANDON LN-RIDGECREST RD MAP-67C 00:18
-**********************************************************
 Dooley County, GA
 Contact: "hair_jacob@yahoo.com" <hair_jacob@yahoo.com>
 
@@ -5002,6 +4997,16 @@ Contact: 5403552079@messaging.sprintpcs.com
 Sender: Bedford911
 CALL#:12062303 LOC:9900 BLK GOODVIEW ROAD GOODVIEW COMP:MVA NO PI
 **********************************************************
+Washington County, TN (alternate or replacement)
+**********************************************************
+Washington County, TN (alternate)
+Contact: Luke Story <firedog458@yahoo.com>
+Sender: 4232623650
+JVFD-Motor Vehicle Crash - Injury AT 215 ROY PHILLIPS RD -X-ST:BRANDON LN-RIDGECREST RD MAP-67C 00:18
+
+Contact: Nathan Ward <wardn39@gmail.com>
+Sender: user phone
+WVFD.GVFD.AGENCY(-1)-House/Residential Fire AT 583 MISSION WY -X-ST:FAIRHAVEN RD;160 BLK-DEAD END MAP-39A 23:42
 **********************************************************
 **********************************************************
 **********************************************************

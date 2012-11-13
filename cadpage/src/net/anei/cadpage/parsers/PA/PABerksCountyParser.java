@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.PA;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -41,7 +42,10 @@ public class PABerksCountyParser extends FieldProgramParser {
       Matcher match = UNIT_CALL_PTN.matcher(field);
       if (!match.matches()) abort();
       data.strUnit = match.group(1);
-      data.strCall = match.group(2).trim();
+      String call = match.group(2).trim();
+      String desc = CALL_CODES.getProperty(call);
+      if (desc != null) call = call + " - " + desc;
+      data.strCall = call;
     }
     
     @Override
@@ -107,5 +111,24 @@ public class PABerksCountyParser extends FieldProgramParser {
     if (name.equals("DATETIME")) return new MyDateTimeField();
     return super.getField(name);
   }
+  
+  private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      // "MF",
+      "MVAENT", "Accident w/ entrapment",
+      "MVAUNK", "Accident unknown inj",
+      "MVAWITH", "Accident w/ injury",
+      "SF", "Structure Fire",
+      "RSF", "Reading Structure Fire",
+      "RAFA", "Reading Fire Alarm",
+      "REMERG", "Reading Emerge",
+      "RMISC", "Reading Misc",
+      "RBF", "Reading Brush Fire",
+      "BF", "Brush Fire",
+      "CMA", "Carbon Monoxide",
+      "AFA", "Fire Alarm",
+      "VF", "Vehicle Fire",
+      "FS", "Fire Service",
+      "FSB", "Fire Scene Standby"
+  });
   
 }

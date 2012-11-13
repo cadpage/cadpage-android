@@ -5,6 +5,63 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 
+/* 
+Wbuafba Pvgl, GA (Jnfuvatgba Pbhagl)
+Pbagnpg: anguna pneevre <apneevre454@tznvy.pbz>
+Pbagnpg: qnivq uneevfba <sverzvfg317@tznvy.pbz>
+Pbagnpg: Genivf Whfgvpr <gpwhfgvpr8892@tznvy.pbz>
+Fraqre: WPSQGRKG@wbuafbapvglga.bet
+ceif=182rsop0s=WPSQGRKG@wbuafbapvglga.bet Ubhfr/Erfvqragvny Sver R7,R4,Y44,R3,ZC29\aNYYVFBA YA/URYRA PG\aNYYVFBA CYNPR FQ\aZnc 53P 16:50:40 115143\aGuvax terra: Bayl cevag guvf r-znvy
+ceif=1838pn3s5=WPSQGRKG@wbuafbapvglga.bet TENFF/OEHFU SVER R4\a208 TNEQRA QE\aTENPR GRZCYR PUHEPU\aZnc 46P 19:57:36 115181
+ceif=184qs15rr=WPSQGRKG@wbuafbapvglga.bet Fpubby Sver Nynez\aR4,Y44,R3,ZC29,R5\a1509 WBUA RKHZ CXJL\aFPVRAPR UVYY UVTU FPUBBY\aZnc 46N 02:23:08 115185
+ceif=184qs15rr=WPSQGRKG@wbuafbapvglga.bet Qvnorgvp Ceboyrzf-PUNEYVR Z13,R3\a212 J CBCYNE FG #NCG1\aZnc 54O 00:12:17 11111569
+ceif=184qs15rr=WPSQGRKG@wbuafbapvglga.bet Hapbafpvbhf/Snvagvat-QRYGN Z7,R5\a1811 J YNXRIVRJ QE #O9\aFHZZREPUNFR NCNEGZRAGF\aZnc 38O 23:05:56 11111542
+ceif=1838pn3s5=WPSQGRKG@wbuafbapvglga.bet TENFF/OEHFU SVER R4\a208 TNEQRA QE\aTENPR GRZCYR PUHEPU\aZnc 46P 19:57:36 115181
+ceif=187913qoq=WPSQGRKG@wbuafbapvglga.bet Urneg Ceboyrzf/NVPQ-QRYGN E2,R4\a1806 YNZBAF YA #101\aUNEEVFBA IVYYNTR NCNEGZRAGF\aZnc 54N 12:39:23 11113129
+ceif=187913qoq=WPSQGRKG@wbuafbapvglga.bet Ahefvat Ubzr Sver Nynez\aR5,Y45,R9,R6,ZC29,Y44\a406 R ZBHAGNVAIVRJ EQ\aOEBNQZBER SNPVYVGL\aZnc 29P 14:01:23 115275
+ceif=187913qoq=WPSQGRKG@wbuafbapvglga.bet Zbgbe Iruvpyr Penfu - Vawhel\aR2,R3,ZC29\aV26J/BXBYBAN RKVG\aZnc 63P 14:16:38 115276
+ceif=187913qoq=WPSQGRKG@wbuafbapvglga.bet Hapbafpvbhf/Snvagvat-QRYGN\aZ2,R7,E2\a2215 A TERRAJBBQ QE\aZnc 54Q 14:20:38 11113195
+ceif=187913qoq=WPSQGRKG@wbuafbapvglga.bet Fgebxr(PIN)-PUNEYVR Z6,R6,E3\a3711 A EBNA FG #R28\aABEGUCYNPR NCNEGZRAGF\aZnc 29P 16:31:15 11113269
+ceif=1887rn331=WPSQGRKG@wbuafbapvglga.bet Fvpx Crefba-PUNEYVR Z2,E2,R4\a1208 ONVE IRGGR NI\aZnc 45P 53O 21:42:56 11113379
+ceif=187913qoq=WPSQGRKG@wbuafbapvglga.bet Purfg Cnva(Aba-Genhzngvp)-QRYGN\aZ2,E2,R4\a1518 FLYINA QE\aZnc 45P 19:51:57 11113336
+ceif=187913qoq=WPSQGRKG@wbuafbapvglga.bet Snyyf-NYCUN R2\a2802 CYLZBHGU EQ\aENVAOBJ UBZRF\aZnc 55Q 19:20:41 11113321
+ceif=187913qoq=WPSQGRKG@wbuafbapvglga.bet Urneg Ceboyrzf/NVPQ-QRYGN Z6,R9,E3\a409 FPRAVP BNX QE\aZnc 21Q 19:07:03 11113313
+ceif=187913qoq=WPSQGRKG@wbuafbapvglga.bet Pbaihyfvbaf/Frvmherf-QRYGN\aZ2,E2,R4\a301 EBLNY PE #79\aPYNEX ZNABE NCNEGZRAGF\aZnc 54N 17:30:11 11113287\aGuvax terra: Bayl cevag guvf r-znvy
+ceif=187913qoq=WPSQGRKG@wbuafbapvglga.bet Pbaihyfvbaf/Frvmherf-PUNEYVR\aZ1,R2,E1\aF EBNA FG/HAVIREFVGL CXJL\aZnc 54O 15:06:18 11113223
+ceif=187913qoq=WPSQGRKG@wbuafbapvglga.bet Zbgbe Iruvpyr Penfu - Vawhel\aR2,R3,ZC29\aV26J/BXBYBAN RKVG\aZnc 63P 14:16:38 115276
+ceif=256783305=WPSQGRKG@wbuafbapvglga.bet Fvpx Crefba-NYCUN R4\a840 J ZNEXRG FG\aPIF CUNEZNPL\aK-FGE= PYNEX FG\aXABO PERRX EQ\aZnc 54N 20:51:54 11149314\aGuvax terra: Bayl cevag guvf r-
+ceif=2677rr746=WPSQGRKG@wbuafbapvglga.bet Pbaihyfvbaf/Frvmherf-QRYGNZ2,R2,E2\a1209 PBYYRTR URVTUGF QE\aK-FGE= QRNQ RAQ\aHAVIREFVGL CY\a;RNFG BS FBHGUJRFG NI\aZnc 54P 17:18:07 11155033
+ceif=2677rr746=WPSQGRKG@wbuafbapvglga.bet Hax Ceboyrz(ZrqvpnyNynez)-OENIB Z6,E3,R5\a3207 OEVFGBY UL\aPBYBAVNY UVYY ERGVERZRAG PRAGRE\aK-FGE= ZHYOREEL FG\aFUNAABA YA\aZnc 30Q 14:48:16
+ceif=268qr3s1n=WPSQGRKG@wbuafbapvglga.bet Hapbafpvbhf/Snvagvat-PUNEYVRZ2,E1,R3\a1430 F EBNA FG\aJNYTERRAF QEHT FGBERF (EBN/HAV)\aK-FGE= GREENPR PG\aR UVTUYNAQ EQ\aZnc 46P 20:15:55 111
+ceif=268qr3s1n=WPSQGRKG@wbuafbapvglga.betBireqbfr/Vatrfgvba/Cbvfbavat-PUNEYVR Z13,R3\a110 GREENPR PG #1\aGREENPR PBHEG NCNEGZRAGF\aK-FGE= F EBNA FG\aQRNQ RAQ\a;ERRPR GREENPR NCGF\aZnc
+ceif=268qr3s1n=WPSQGRKG@wbuafbapvglga.bet Purfg Cnva(Aba-Genhzngvp)-QRYGN Z6,E5,R5\a208 FGENJOREEL SVRYQ QE\aK-FGE= FHTNE ZVYY QE\aOEBBXR TERRA QE\a;FGENJOREEL SVRYQ F/Q\aZnc 45N 10:58:
+ceif=269p08782=WPSQGRKG@wbuafbapvglga.bet Oernguvat Ceboyrzf/NFGUZN-QRYGN R7\a1410 PBYBAL CNEX QE #10\aFBHGUEVQTR NCGF OYQT 2\aK-FGE= 2300 OX F TERRAJBBQ QE\aPHEIR VA EBNQ\aZnc 62N 22:
+ceif=269p08782=WPSQGRKG@wbuafbapvglga.bet Urzbeeuntr/Ynprengvbaf-OENIB Z1,R1,E1\a2307 FNENU FG\aK-FGE= QRNQ RAQ\aZBFR FG\a;ORUVAQ OLYB ZXG\aZnc 39N 00:54:20 11155726\aGuvax terra: Bayl c
+ceif=268qr3s1n=WPSQGRKG@wbuafbapvglga.bet Pbaihyfvbaf/Frvmherf-PUNEYVR Z2,E4,R5\a541 FVQ ZNEGVA EQ\aPVGV PBZZREPR FBYHGVBAF\aK-FGE= OBO QNIVF EQ\aOBOOL UVPXF UL\aZnc 12Q 13:55:39 11155
+ceif=270n5699o=WPSQGRKG@wbuafbapvglga.bet Fpubby Sver Nynez R7,R2,GE2,R4,GE3,R3\a33 F QBFFRGG QE\aFGBAR UNYY\aJBZRAF ERFVQRAPR UNYY\aZnc 54Q 12:45:10 117235\aGuvax terra: Bayl cevag g
+ceif=27112po81=WPSQGRKG@wbuafbapvglga.bet Zbgbe Iruvpyr Penfu - Vawhel R3\aPNEGRE PBHAGL YVAR/ZVYYVTNA UL\aPNEGRE PBHAGL YVAR\a11:18:15 117253\aGuvax terra: Bayl cevag guvf r-znvy naq
+ceif=272qs6poq=WPSQGRKG@wbuafbapvglga.bet Zbgbe Iruvpyr Penfu - Vawhel R8,R6\aV26R/ZVYR ZNEXRE 14\a15:38:04 117287\aGuvax terra: Bayl cevag guvf r-znvy naq nal nggnpuzrag vs arprffnel
+ceif=2751onr6r=WPSQGRKG@wbuafbapvglga.bet Nffnhyg 442,431,R4\a241 J ZNVA FG\aQBJAGBJA NCNEGZRAGF\aPebff Fgerrgf A OBBAR FG\aJUVGARL FG\aJ JNGNHTN NI 22:50:49\aGuvax terra: Bayl cevag gu
+ceif=280581q2s=WPSQGRKG@wbuafbapvglga.bet Oernguvat Ceboyrzf/NFGUZN-QRYGN Z1,R4,E1\a554 JNFUVATGBA NI\aK-FGE= QRNQ RAQ\aORYZBAG FG\a;GHEA EG SEBZ ZNVA FG\aZnc 46P 12:13:40 11161605\aGuva
+ceif=281qor8or=WPSQGRKG@wbuafbapvglga.bet Noqbzvany Cnva/Ceboyrzf-PUNEYVR Z2,R7,E2\a2911 PUNGUNZ QE #3-1\aPUNGUNZ NCGF\aK-FGE= ARJGBA QE\aPNEGRE FRYYF EQ\aZnc 53P 12:46:55 11162258\aGuv
+ceif=2861o1534=WPSQGRKG@wbuafbapvglga.bet Purfg Cnva(Aba-Genhzngvp)-PUNEYVR Z1,E2,R7\a310 A FGNGR BS SENAXYVA EQ\aZRQVPNY BSSVPR OHVYQVAT 2\aK-FGE= ENVY EBNQ BIRECNFF/J JNYAHG FG\aCEB
+
+ceif=377o8p42r=WPSQGRKG@wbuafbapvglga.bet Pbaihyfvbaf/Frvmherf-QRYGN Z3,E3,R5\a138 IVRJ ORAQ EQ\aK-FGE= JBBQFGBAR PG\a;JBBQFGBAR PBAQBF\aZnc 30Q 21:06:59 12019235\aGuvax terra: Bayl cev
+
+Pbagnpg: Wnfba Cbjryy <sverqhcyrnqrefuvc@tznvy.pbz>
+Fraqre: PNQ@jp911.bet
+Oernguvat Ceboyrzf-QRYGN Z1,R3 \a300 J JNYAHG FG #2 \aFUNZEBPX \aZnc 54o 14:59:59 11111863 \aGuvax terra: Bayl cevag guvf r-znvy naq nal nggnpuzrag 
+Oernguvat Ceboyrzf-PUNEYVR Z1,R1,E1 \a1 HANXN PG #7 \aZnc 39Q 21:23:05 11112056 \aGuvax terra: Bayl cevag guvf r-znvy naq nal nggnpuzrag vs arprffne 
+Ubhfr/Erfvqragvny Sver Nynez R2 \a2701 F EBNA FG #124 \aUREVGNTR GENVYRE CNEX \aZnc 55Q 22:50:03 115214 \aGuvax terra: Bayl cevag guvf r-znvy naq na
+Nffnhyg/Frkhny Nffnhyg-OENIB Z3,E3,R9 \a2918 OEVFGBY UL \aNQINAPR NHGB CNEGF \aZnc 38N 19:53:06 11113913 \aGuvax terra: Bayl cevag guvf r-znvy naq n
+Purfg Cnva(Aba-Genhzngvp)-QRYGN Z1,E1,R3\a805 XRAGHPXL FG\aK-FGE= PBYBENQB FG\aBEYRNAF FG\aZnc 47Q 16:50:49 11147626\aGuvax terra: Bayl cevag guv
+Fhowrpg:<Ab Fhowrpg>\aVAIRFGVTNGVBA \e\a402 R YBPHFG FG\e\a20:37:04\e\a\e\a\e\a\e\aGuvax terra: Bayl cevag guvf r-znvy naq nal nggnpuzrag vs arprffnel.\e\a\e
+
+Pbagnpg: Qrevpx Uhturf <fzbxrrngre1@tznvy.pbz>
+Fraqre: psqgrkg@wbuafbapvglga.bet
+ceif=425025q88=wpsqgrkg@wbuafbapvglga.bet (<Ab Fhowrpg>) Pbaihyfvbaf/Frvmherf-PUNEYVR Z2,R7,E2\a3211 ZNLSVRYQ QE #28\aGVZOREEVQTR GENVYRE CNEX\aK-FGE= AHAYRL YA\aJ JNYAHG FG\aZnc 53P 1
+
+*/
 choyvp pynff GAJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp GAJnfuvatgbaPbhaglCnefreGrfg() {
@@ -492,6 +549,11 @@ choyvp pynff GAJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:GVZOREEVQTR GENVYRE CNEX",
         "K:AHAYRL YA & J JNYAHG FG",
         "ZNC:53P 1");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgAngunaJneq() {
     
   }
   
