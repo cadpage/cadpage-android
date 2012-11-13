@@ -14,7 +14,7 @@ public class TXHarrisCountyNWEMSParser extends FieldProgramParser {
 
   public TXHarrisCountyNWEMSParser() {
     super("HARRIS COUNTY", "TX",
-           "ADDR APT UNK UNK ( X/Z X/Z MAP EMPTY | EMPTY+? ) CODE CALL UNK UNK UNIT! INFO+");
+           "ID ADDR APT UNK UNK ( X/Z X/Z MAP EMPTY | EMPTY+? ) CODE CALL UNK UNK UNIT! INFO+");
   }
   
   public String getFilter() {
@@ -23,8 +23,6 @@ public class TXHarrisCountyNWEMSParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("* ")) return false;
-    body = body.substring(2).trim();
     return parseFields(DELIM.split(body+" "), 10, data);
   }
   
@@ -38,6 +36,7 @@ public class TXHarrisCountyNWEMSParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("|\\d{9}", true);
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("MAP")) return new MapField("\\d{3}[A-Z]{1,4}", true);
     return super.getField(name);
