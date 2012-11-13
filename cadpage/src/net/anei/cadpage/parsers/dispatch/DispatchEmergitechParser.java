@@ -58,14 +58,24 @@ Dispatch:[RDM]- NATURE: GENERAL ILLNESS LOCATION: 6599 MC COPPIN MILL RD SUITE: 
 public class DispatchEmergitechParser extends FieldProgramParser {
   
   private Pattern markerPattern;
-  int extraSpacePos;
+  int[] extraSpacePosList;
   
   public DispatchEmergitechParser(String prefix, int extraSpacePos,
+                                   String[] cityList, String defCity, String defState) {
+    this(prefix, new int[]{extraSpacePos}, cityList, defCity, defState);
+  }
+  
+  public DispatchEmergitechParser(String prefix, int extraSpacePos1, int extraSpacePos2, 
+                                   String[] cityList, String defCity, String defState) {
+    this(prefix, new int[]{extraSpacePos1, extraSpacePos2}, cityList, defCity, defState);
+  }
+  
+  public DispatchEmergitechParser(String prefix, int[] extraSpacePosList,
                            String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-           "NATURE:CALL? LOCATION:ADDR/SXN! BETWEEN:X? COMMENTS:INFO");
+           "NATURE:CALL? LOCATION:ADDR/SPN! BETWEEN:X? COMMENTS:INFO");
     markerPattern = Pattern.compile("^" + prefix + "\\[([A-Z0-9]+)\\]- ");
-    this.extraSpacePos = extraSpacePos;
+    this.extraSpacePosList = extraSpacePosList;
   }
   
   @Override
@@ -77,16 +87,20 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     // If extraSpacePos is positive, the extraneous blank is found in a fixed
     // position relative to the message text.  Also check for keywords that
     // might get split with one side looking like a real word
-    if (extraSpacePos != 0) {
-      if (extraSpacePos > 0) {
-        body = removeBlank(extraSpacePos, body);
-      } else {
-        int ndx = body.indexOf(" LOCATION:");
-        if (ndx >= 0) {
-          ndx += 10;
-          while (ndx < body.length() && body.charAt(ndx) == ' ') ndx++;
-          body = removeBlank(ndx - extraSpacePos, body);
+    if (extraSpacePosList != null) {
+      for (int extraSpacePos : extraSpacePosList) {
+        int oldLen = body.length();
+        if (extraSpacePos >= 0) {
+          body = removeBlank(extraSpacePos, body);
+        } else {
+          int ndx = body.indexOf(" LOCATION:");
+          if (ndx >= 0) {
+            ndx += 10;
+            while (ndx < body.length() && body.charAt(ndx) == ' ') ndx++;
+            body = removeBlank(ndx - extraSpacePos, body);
+          }
         }
+        if (body.length() != oldLen) break;
       }
       body = body.replace(" CO MMENTS:", " COMMENTS:");
     }

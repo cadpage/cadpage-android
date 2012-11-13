@@ -9,13 +9,13 @@ Ynjerapr Pbhagl, BU
 Pbagnpg: Ynj Pb 911 Nyreg <nyreg@ynjpb911.bet>
 Fraqre: nyreg@ynjpb911.bet
 
-nyreg:[121]- ANGHER: S 15O YBPNGVBA: HF 52 / PB EQ 450 CREEL GJ C PBZZRAGF: +038.420273 -082.572212 PS=100% Rknzcyr bs na vagrefrpgvba pnyy gung pnzr sebz n pryy cubar.
-nyreg:[121]- ANGHER: R 29 YBPNGVBA: 943 ZNEVBA CXR PBNY TEBIR PBZZRAGF: Rknzcyr bs n pnyy sebz n nqqerff vafvqr n zhav pvcnyvgl.
-nyreg:[121]- ANGHER: R 49 YBPNGVBA: 59 CIG QE 7882 PB EQ 15 SN LRGGR GJC PBZZRAGF: Rknzcyr bs n pnyy sebz n cevingr qevir . "Snlrggr Gjc" vf gur anzr bs gur gbjafuvc gur pnyy vf ybpn grq va
-nyreg:[121]- ANGHER: R 10Z YBPNGVBA: 6405 FGNGR EGR 141 YNJERAP R GJC Guvf vf na rknzcyr bs n pnyy ng na nqqerff ba n fg ngr ebhgr.
-nyreg:[121]- ANGHER: F 72 YBPNGVBA: 2101 A 2 FG VEBAGBA PBZZRA GF: Guvf vf na rknzcyr bs n eha vafvqr n zhavpvcnyvgl jv gu n fgerrg qverpgvba. Va ybat sbez guvf jbhyq or 2101 Abegu 2aq Fgerrg Vebagba, Buvb
-nyreg:[121]- ANGHER: NOQ YBPNGVBA: 989 GJC EQ 161 SNLRGGR GJC PBZZRAGF: Guvf vf na rknzcyr bs n pnyy ba n gbjafuvc eb nq.
-nyreg:[121]- ANGHER: R 48N YBPNGVBA: 24 GJC EQ 1101 J SNLRGGR G JC PBZZRAGF: Guvf vf na rknzcyr bs n pnyy ba n gbjafuvc jv gu n qverpgvba. Gur ybat sbez jbhyq or 24 Gbjafuvc Ebnq 1101 Jrfg
+nyreg:[121]- ANGHER: S 15O YBPNGVBA: HF 52 / PB EQ 450 CREEL GJ C PBZZRAGF: +038.420273 -082.572212 PS=100%
+nyreg:[121]- ANGHER: R 29 YBPNGVBA: 943 ZNEVBA CXR PBNY TEBIR PBZZRAGF:
+nyreg:[121]- ANGHER: R 49 YBPNGVBA: 59 CIG QE 7882 PB EQ 15 SN LRGGR GJC PBZZRAGF:
+nyreg:[121]- ANGHER: R 10Z YBPNGVBA: 6405 FGNGR EGR 141 YNJERAP R GJC
+nyreg:[121]- ANGHER: F 72 YBPNGVBA: 2101 A 2 FG VEBAGBA PBZZRA GF:
+nyreg:[121]- ANGHER: NOQ YBPNGVBA: 989 GJC EQ 161 SNLRGGR GJC PBZZRAGF:
+nyreg:[121]- ANGHER: R 48N YBPNGVBA: 24 GJC EQ 1101 J SNLRGGR G JC PBZZRAGF:
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Snlrggr Gbjafuvc Sver Qrcnegzrag Ybpngvba: Fbhgu Cbvag, BU 
@@ -56,64 +56,60 @@ choyvp pynff BUYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgCnefre() {
 
     qbGrfg("G1",
-        "nyreg:[121]- ANGHER: S 15O YBPNGVBA: HF 52 / PB EQ 450 CREEL GJ C PBZZRAGF: +038.420273 -082.572212 PS=100% Rknzcyr bs na vagrefrpgvba pnyy gung pnzr sebz n pryy cubar.",
+        "nyreg:[121]- ANGHER: S 15O YBPNGVBA: HF 52 / PB EQ 450 CREEL GJ C PBZZRAGF: +038.420273 -082.572212 PS=100%",
         "HAVG:121",
         "PBQR:S 15O",
         "PNYY:Zbgbeplpyr/NGI Penfu",
         "NQQE:HF 52 & PB EQ 450",
         "ZNQQE:HF 52 & PBHAGL EBNQ 450",
         "PVGL:CREEL GJC",
-        "VASB:+038.420273 -082.572212 PS=100% Rknzcyr bs na vagrefrpgvba pnyy gung pnzr sebz n pryy cubar.");
+        "VASB:+038.420273 -082.572212 PS=100%");
 
     qbGrfg("G2",
-        "nyreg:[121]- ANGHER: R 29 YBPNGVBA: 943 ZNEVBA CXR PBNY TEBIR PBZZRAGF: Rknzcyr bs n pnyy sebz n nqqerff vafvqr n zhav pvcnyvgl.",
+        "nyreg:[121]- ANGHER: R 29 YBPNGVBA: 943 ZNEVBA CXR PBNY TEBIR PBZZRAGF:",
         "HAVG:121",
         "PNYY:R 29",
         "NQQE:943 ZNEVBA CXR",
         "ZNQQE:943 ZNEVBA CVXR",
-        "PVGL:PBNY TEBIR",
-        "VASB:Rknzcyr bs n pnyy sebz n nqqerff vafvqr n zhav pvcnyvgl.");
+        "PVGL:PBNY TEBIR");
 
     qbGrfg("G3",
-        "nyreg:[121]- ANGHER: R 49 YBPNGVBA: 59 CIG QE 7882 PB EQ 15 SN LRGGR GJC PBZZRAGF: Rknzcyr bs n pnyy sebz n cevingr qevir . \"Snlrggr Gjc\" vf gur anzr bs gur gbjafuvc gur pnyy vf ybpn grq va",
+        "nyreg:[121]- ANGHER: R 49 YBPNGVBA: 59 CIG QE 7882 PB EQ 15 SN LRGGR GJC PBZZRAGF:",
         "HAVG:121",
         "PNYY:R 49",
         "NQQE:59 CIG QE 7882 PB EQ 15",
         "ZNQQE:59 CIG QE 7882",
-        "PVGL:SNLRGGR GJC",
-        "VASB:Rknzcyr bs n pnyy sebz n cevingr qevir . \"Snlrggr Gjc\" vf gur anzr bs gur gbjafuvc gur pnyy vf ybpn grq va");
+        "PVGL:SNLRGGR GJC");
 
     qbGrfg("G4",
-        "nyreg:[121]- ANGHER: R 10Z YBPNGVBA: 6405 FGNGR EGR 141 YNJERAP R GJC Guvf vf na rknzcyr bs n pnyy ng na nqqerff ba n fg ngr ebhgr.",
+        "nyreg:[121]- ANGHER: R 10Z YBPNGVBA: 6405 FGNGR EGR 141 YNJERAP R GJC",
         "HAVG:121",
         "PNYY:R 10Z",
         "NQQE:6405 FGNGR EGR 141",
         "ZNQQE:6405 FGNGR 141",
-        "ANZR:YNJERAP R GJC Guvf vf na rknzcyr bs n pnyy ng na nqqerff ba n fg ngr ebhgr");
+        "PVGL:YNJERAPR GJC");
 
     qbGrfg("G5",
-        "nyreg:[121]- ANGHER: F 72 YBPNGVBA: 2101 A 2 FG VEBAGBA PBZZRA GF: Guvf vf na rknzcyr bs n eha vafvqr n zhavpvcnyvgl jv gu n fgerrg qverpgvba. Va ybat sbez guvf jbhyq or 2101 Abegu 2aq Fgerrg Vebagba, Buvb",
+        "nyreg:[121]- ANGHER: F 72 YBPNGVBA: 2101 A 2 FG VEBAGBA PBZZRA GF:",
         "HAVG:121",
         "PNYY:F 72",
         "NQQE:2101 A 2 FG",
-        "PVGL:VEBAGBA",
-        "VASB:Guvf vf na rknzcyr bs n eha vafvqr n zhavpvcnyvgl jv gu n fgerrg qverpgvba. Va ybat sbez guvf jbhyq or 2101 Abegu 2aq Fgerrg Vebagba, Buvb");
+        "PVGL:VEBAGBA");
 
     qbGrfg("G6",
-        "nyreg:[121]- ANGHER: NOQ YBPNGVBA: 989 GJC EQ 161 SNLRGGR GJC PBZZRAGF: Guvf vf na rknzcyr bs n pnyy ba n gbjafuvc eb nq.",
+        "nyreg:[121]- ANGHER: NOQ YBPNGVBA: 989 GJC EQ 161 SNLRGGR GJC PBZZRAGF:",
         "HAVG:121",
         "PNYY:NOQ",
         "NQQE:989 GJC EQ",
         "NCG:161",
-        "ANZR:SNLRGGR GJCPBZZRAGF: Guvf vf na rknzcyr bs n pnyy ba n gbjafuvc eb nq");
+        "ANZR:SNLRGGR GJCPBZZRAGF:");
 
     qbGrfg("G7",
-        "nyreg:[121]- ANGHER: R 48N YBPNGVBA: 24 GJC EQ 1101 J SNLRGGR G JC PBZZRAGF: Guvf vf na rknzcyr bs n pnyy ba n gbjafuvc jv gu n qverpgvba. Gur ybat sbez jbhyq or 24 Gbjafuvc Ebnq 1101 Jrfg",
+        "nyreg:[121]- ANGHER: R 48N YBPNGVBA: 24 GJC EQ 1101 J SNLRGGR G JC PBZZRAGF:",
         "HAVG:121",
         "PNYY:R 48N",
         "NQQE:24 GJC EQ 1101 J",
-        "PVGL:SNLRGGR GJC",
-        "VASB:Guvf vf na rknzcyr bs n pnyy ba n gbjafuvc jv gu n qverpgvba. Gur ybat sbez jbhyq or 24 Gbjafuvc Ebnq 1101 Jrfg");
+        "PVGL:SNLRGGR GJC");
 
   }
   

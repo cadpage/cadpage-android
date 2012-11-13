@@ -29,6 +29,10 @@ public class OHLawrenceCountyParser extends DispatchEmergitechParser {
       data.strCode = data.strCall;
       data.strCall = call;
     }
+    if (data.strName.equals("LAWRENC E TWP")) {
+      data.strCity = "LAWRENCE TWP";
+      data.strName = "";
+    }
     return true;
   }
   
