@@ -57,6 +57,10 @@ Pbagnpg: gbz xvat <uroeba526@tznvy.pbz>
 Fraqre: 5sver-bjare@wonzft.pbz
 2012085673;FHOWRPG SNYYRA;27480 JNYYRE EQ;QRYZ;UVPXBEL ZVYY EQ;FCEVAT UVYY YA;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Nycun ERFCBAQRE FPEVCG: 83 lrne byq, Znyr, Pb
 
+Pbagnpg: "" <y.uneg-juvgr@znvy.pbz>
+Fraqre: PNQ@jvpbzvpbpbhagl.bet
+2012098778;CEB DN SVER;2685 JUVGRUNIRA EQ;JUVG;EVIRE FG;PVAQRE YA;[Sver Cevbevgl Vasb] ERFCBAFR: Puneyvr ERFCBAQRE FPEVCG: Nynezf. UVTU YVSR UNMNEQ (Trareny/
+
 */
 
 
@@ -395,6 +399,20 @@ choyvp pynff ZQJvpbzvpbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:QRYZNE",
         "K:UVPXBEL ZVYY EQ & FCEVAT UVYY YA",
         "VASB:83 lrne byq, Znyr, Pb");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgYUneg() {
+
+    qbGrfg("G1",
+        "2012098778;CEB DN SVER;2685 JUVGRUNIRA EQ;JUVG;EVIRE FG;PVAQRE YA;[Sver Cevbevgl Vasb] ERFCBAFR: Puneyvr ERFCBAQRE FPEVCG: Nynezf. UVTU YVSR UNMNEQ (Trareny/",
+        "VQ:2012098778",
+        "PNYY:CEB DN SVER",
+        "NQQE:2685 JUVGRUNIRA EQ",
+        "PVGL:JUVGRUNIRA",
+        "K:EVIRE FG & PVAQRE YA",
+        "VASB:Nynezf. UVTU YVSR UNMNEQ (Trareny/");
 
   }
   

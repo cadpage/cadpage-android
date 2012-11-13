@@ -63,6 +63,7 @@ public class MDWicomicoCountyParser extends DispatchOSSIParser {
       "SALI", "SALISBURY",
       "SHAR", "SHARPTOWN",
       "TYAS", "TYASKIN",
+      "WHIT", "WHITEHAVEN",
       "WILL", "WILLARDS"
   });
 }
