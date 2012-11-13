@@ -367,7 +367,7 @@ choyvp pynff CNOrexfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "(orexf.pb85@efvk.ebnzfrpher.arg) Havg:PB85 Fgnghf:Qvfcngpurq ZS ; 828 OYHR TNGR YA ; ; CREFVZZBA QE / URNEGUFGBAR YA ; Zhav: FCEVAT ; ; 07/13/12 14:09 Frag ol Orexf Pbhagl EFNA gb PB85 Nyy Pnyy -- Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf. ",
         "HAVG:PB85",
-        "PNYY:ZS",
+        "PNYY:ZS - Zvfp",
         "NQQE:828 OYHR TNGR YA",
         "K:CREFVZZBA QE / URNEGUFGBAR YA",
         "PVGL:FCEVAT",

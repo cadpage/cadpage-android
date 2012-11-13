@@ -113,7 +113,7 @@ public class PABerksCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
-      // "MF",
+      "MF", "Misc",
       "MVAENT", "Accident w/ entrapment",
       "MVAUNK", "Accident unknown inj",
       "MVAWITH", "Accident w/ injury",

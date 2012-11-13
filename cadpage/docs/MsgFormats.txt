@@ -5008,8 +5008,21 @@ Contact: Nathan Ward <wardn39@gmail.com>
 Sender: user phone
 WVFD.GVFD.AGENCY(-1)-House/Residential Fire AT 583 MISSION WY -X-ST:FAIRHAVEN RD;160 BLK-DEAD END MAP-39A 23:42
 **********************************************************
+Southampton County, VA
+Contact: Ricky Grizzard <rickygrizzard@gmail.com>
+Sender: @shso.org
+
+(28070 southampton parkway FIRE ALARM) "Domino"
+(31245 askew st  fire call  smoke coming out of this residence)
+(across the street from 23020 main street in courtland) Power line sparking\n\nAshley Griffin\nSouthampton Sheriff's Office
+(FW: on ramp at 35 to wb 58 is closed) From: Vicki Xinos 502\r\nSent: Monday, November 12, 2012 1:13 PM\r\nTo: zCourtlandFire; zCourtlandRescue; Dispatchers; zBoykin
+(24455 clydesdale cir/smoke showing & fire alarm going off)
+Chief's meeting @ 7PM, Association meeting @ 7:30PM @ Capron Fire & Rescue.\r\n\r\nJerry L. Smith\r\nChief Communications Officer\r\nSouthampton County Sheriff's Office\r\nPo
 **********************************************************
-**********************************************************
+Whitfield County, GA (fix)
+Contact: Mike Cady <MCady@cityofdalton-ga.gov>
+Sender: 7064632252
+WHITFIELD_CO_911:F21 VEHICLE FIRE - CMV W BOUNDARY ST 4234002004 ALARM ASSIGN 1-3
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5021,11 +5034,25 @@ WVFD.GVFD.AGENCY(-1)-House/Residential Fire AT 583 MISSION WY -X-ST:FAIRHAVEN RD
 **********************************************************
 Granville County, NC
 Contact: "ghockaday@brassfieldfiredept.com" <ghockaday@brassfieldfiredept.com>
-System: Southern
 LEWIS:2127 VICTORY LN CREEDMOOR WALTERS RD X DEAD END jim lyons 9197255015 02:53:08 CHEST PAINS 63 yo male..
 BOWEN:3559 NC HWY 56 E e CREEDMOOR WALTERS RD X JATAVIAN LN garcia,lisa 9199391917 14:01:51 FALL (PERSON HAS FALLEN) caller advised 52.      yoa female fell in.
 HICKS:3436 HORSESHOE RD CREEDMOOR LAWRENCE RD X REEDY BRANCH RD NICHALS, GLENDA 9196976593 15:46:38 FIRE (GRASS-WOODS) THE CALLER ADVISED THERE IS A SMALL
 ROYSTER:1506 NC HWY 96 S FRANKLINTON BRAGG, Martin 9195283196 2012050157 04:09:11 FALL (PERSON HAS FALLEN) 88 yof fell , bleeding from rectal area, cons.
+**********************************************************
+Franklin, VA
+Contact: Ricky Grizzard <rgrizzard@franklinva.com>
+Sender: mhturner@franklinpolice.org
+DispatchSOuthernParser subclass
+
+mhturner:501 CHARLES ST FRANKLIN W 3RD AVE X GAY ST 06:11:02 FIRE - AP ZONE 2
+mhturner:16 CRESCENT DR FRANKLIN N HIGH ST X MCCUTCHEON ST 13:01:24 RESCUE EMS- AP FEMALE PATIENT PASSED OUT GETTING INTO VAN
+mhturner:31218 CHEROKEE DR FRANKLIN 08:18:36 RESCUE EMS- AP 58 YOA MALE - QUIT TALKING TO NURSE - BREATHING SHALLOW
+ajustus:1401 N HIGH ST Rm 106 FRANKLIN OAKWOOD DR X CITY LIMITS 16:30:35 RESCUE EMS- AP 80 yoa female chest pain, short of breath
+mhturner:1903 SOUTH ST 205 FRANKLIN HOGART ST X HARRISON ST 14:39:48 RESCUE EMS- AP VERY WEAK - CLAMMY HANDS - POTASSIUM LOW TWO DAYS AGO
+mhturner:31338 EAST DARDEN ST FRANKLIN 14:31:13 RESCUE EMS- AP 73 YOA FEMALE - LEFT SIDE
+csheehy:331 ROOSEVELT AVE FRANKLIN 00:37:00 FIRE - AP STRUCTURE FIRE.
+csheehy:1 CAMP PKWY FRANKLIN 20:52:56 FIRE - AP FIRE BURNING IN COTTON FIELD ACROSS FROM RIVERDALE ELEM
+wcotton:1328 ARMORY DR FRANKLIN COMMERENCE PARK RD (LOOP) X COMMERENCE PARK RD (LOOP) 12:26:39 RESCUE EMS- AP WOMAN ASSAULTED
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
