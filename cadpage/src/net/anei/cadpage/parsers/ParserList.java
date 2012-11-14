@@ -112,6 +112,7 @@ public class ParserList {
               ,"ALHenryCounty"                  ,"Henry County, AL"
               ,"ALLauderdaleCounty"             ,"Lauderdale County, AL"
               ,"ALMadisonCounty"                ,"Madison County, AL"
+              ,"ALMarshallCounty"               ,"Marshall County, AL"
               ,"ALMorganCounty"                 ,"Morgan County, AL"
               ,"ALOzark"                        ,"Ozark, AL"
               ,"ALShelbyCounty"                 ,"Shelby County, AL"

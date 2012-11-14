@@ -244,6 +244,11 @@ Prince George County, VA (VAPrinceGeorgeCountyParser)
 * DispatchBParser subclasses
 *******************************************************************************
 **********************************************************
+Marshall County, AL
+911-CENTER:STROKE>STROKE(CVA) 601 5TH ST NE ARAB DURHAM, DON
+911-CENTER:TRAFAC>TRAFFIC ACCIDENTS 231 N OF THE JET PEP RUTH RUTH ENGINE 1
+911-CENTER:SEIZUR>SEZIURE\CONVULSION 149 MANCHESTER DR ARAB AT&T MOBILITY Map: Grids:00000,000
+**********************************************************
 St Clair County, AL (ALStClairCountyParser)
 9-1-1CENTRAL:MED >MEDICAL CALL 3213 EVERGREEN RD XS: R INT @ 3992 AL HWY 23 SPRINGVILLE ALTON DOLLAR 2056297007 Map: Grids:0,0 Cad: 2011-0000088977
 9-1-1CENTRAL:MED >MEDICAL CALL 25 GRAY RD XS: L INT @ 2949 AL HWY 23 SPRINGVILLE WOODS, KATIE 2054676649 Map: Grids:0,0 Cad: 2011-0000089146
