@@ -49,6 +49,13 @@ Sebz: _VCNTR@jrfgpurfgretbi.pbz
 (Rznvy Pbcl Zrffntr Sebz Uvcyvax) 20 NIBA EQ ZNZNEBARPX_G, Pebff: YNAPVN YA, Glcr:NYF, , Gvzr bhg: 16:27:11 Nern: YNEPU,Nynez yri: 0 ,Pbzzragf:   PUVYQ FJNYYBJRQ FUNZCBB
 (Rznvy Pbcl Zrffntr Sebz Uvcyvax) 1165 BYQ JUVGR CYNVAF EQ ZNZNEBARPX_G, Pebff: TNGR UBHFR YA, Glcr:VAIRFG, BHGFVQR, Gvzr bhg: 17:19:51 Nern: ZNZGJ,Nynez yri: 0 ,Pbzzragf:   BQBE BS TNF VA GUR NERN
 
+Pbagnpg: Pbqrzrffntvat.arg
+- ELR_OEBBX: @UEC AO 19.7 ABEGU BS (EVQTR FG), Pebff: , Glcr:ZIN, VAWHEVRF, Gvzr bhg: 15:15:11 Nern: CBEGP,Nynez yri: 0 ,Pbzzragf:   PURFG CNVA
+- 30 JRFGPURFGRE NIR CBEG_PURFGRE: @NFVNA SHFVBA, Pebff: GENIREFR NIR, Glcr:NYNEZ, PBZZ, Gvzr bhg: 13:53:58 Nern: CBEGP,Nynez yri: 0 ,Pbzzragf: "GUR JNGRESEBAG NG CBEG PURFGRE"
+- 3 UNEOBE QE CBEG_PURFGRE, Pebff: FUBER QE, Glcr:VAIRFG, PB-AB, Gvzr bhg: 13:31:22 Nern: CBEGP,Nynez yri: 0 ,Pbzzragf:   AB FLZCGBZF 
+- 1186 XVAT FG ELR_OEBBX: @HAVGRQ PREROENY CNYFL BS JRFGPURFGRE, Pebff: YVAPBYA NIR, Glcr:NYNEZ, PBZZ, Gvzr bhg: 15:38:23 Nern: CBEGP,Nynez yri: 0 ,Pbzzragf:   TRARENY NYNEZ
+- 128-130 A ZNVA FG CBEG_PURFGRE, Pebff: JVYYRGG NIR, Glcr:NYNEZ, PBZZ, Gvzr bhg: 13:28:33 Nern: CBEGP,Nynez yri: 0 ,Pbzzragf:   NYNEZ FBHAQVAT
+
 */
 
 choyvp pynff ALJrfgpurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -295,6 +302,59 @@ choyvp pynff ALJrfgpurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:17:19:51",
         "VASB:BQBE BS TNF VA GUR NERN");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPbqrZrffntvat1() {
+
+    qbGrfg("G1",
+        "- ELR_OEBBX: @UEC AO 19.7 ABEGU BS (EVQTR FG), Pebff: , Glcr:ZIN, VAWHEVRF, Gvzr bhg: 15:15:11 Nern: CBEGP,Nynez yri: 0 ,Pbzzragf:   PURFG CNVA",
+        "NQQE:UEC AO 19.7 ABEGU BS (EVQTR FG)",
+        "ZNQQE:UEC 19.7 & (EVQTR FG)",
+        "PVGL:CBEG PURFGRE",
+        "PNYY:ZIN / VAWHEVRF",
+        "GVZR:15:15:11",
+        "VASB:PURFG CNVA");
+
+    qbGrfg("G2",
+        "- 30 JRFGPURFGRE NIR CBEG_PURFGRE: @NFVNA SHFVBA, Pebff: GENIREFR NIR, Glcr:NYNEZ, PBZZ, Gvzr bhg: 13:53:58 Nern: CBEGP,Nynez yri: 0 ,Pbzzragf: \"GUR JNGRESEBAG NG CBEG PURFGRE\"",
+        "NQQE:30 JRFGPURFGRE NIR",
+        "PVGL:CBEG PURFGRE",
+        "CYNPR:NFVNA SHFVBA",
+        "K:GENIREFR NIR",
+        "PNYY:NYNEZ / PBZZ",
+        "GVZR:13:53:58",
+        "VASB:\"GUR JNGRESEBAG NG CBEG PURFGRE\"");
+
+    qbGrfg("G3",
+        "- 3 UNEOBE QE CBEG_PURFGRE, Pebff: FUBER QE, Glcr:VAIRFG, PB-AB, Gvzr bhg: 13:31:22 Nern: CBEGP,Nynez yri: 0 ,Pbzzragf:   AB FLZCGBZF ",
+        "NQQE:3 UNEOBE QE",
+        "PVGL:CBEG PURFGRE",
+        "K:FUBER QE",
+        "PNYY:VAIRFG / PB-AB",
+        "GVZR:13:31:22",
+        "VASB:AB FLZCGBZF");
+
+    qbGrfg("G4",
+        "- 1186 XVAT FG ELR_OEBBX: @HAVGRQ PREROENY CNYFL BS JRFGPURFGRE, Pebff: YVAPBYA NIR, Glcr:NYNEZ, PBZZ, Gvzr bhg: 15:38:23 Nern: CBEGP,Nynez yri: 0 ,Pbzzragf:   TRARENY NYNEZ",
+        "NQQE:1186 XVAT FG",
+        "PVGL:CBEG PURFGRE",
+        "CYNPR:HAVGRQ PREROENY CNYFL BS JRFGPURFGRE",
+        "K:YVAPBYA NIR",
+        "PNYY:NYNEZ / PBZZ",
+        "GVZR:15:38:23",
+        "VASB:TRARENY NYNEZ");
+
+    qbGrfg("G5",
+        "- 128-130 A ZNVA FG CBEG_PURFGRE, Pebff: JVYYRGG NIR, Glcr:NYNEZ, PBZZ, Gvzr bhg: 13:28:33 Nern: CBEGP,Nynez yri: 0 ,Pbzzragf:   NYNEZ FBHAQVAT",
+        "NQQE:128-130 A ZNVA FG",
+        "ZNQQE:128 A ZNVA FG",
+        "PVGL:CBEG PURFGRE",
+        "K:JVYYRGG NIR",
+        "PNYY:NYNEZ / PBZZ",
+        "GVZR:13:28:33",
+        "VASB:NYNEZ FBHAQVAT");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

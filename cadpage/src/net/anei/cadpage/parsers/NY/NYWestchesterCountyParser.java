@@ -18,6 +18,7 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
       "MAMTW", "MAMARONECK",
       "MILLW", "MILLWOOD",
       "PNDRRG", "POUND RIDGE",
+      "PORTC", "PORT CHESTER",
       "PVILL", "PLEASANTVILLE",
       "RYE",   "RYE"
   });
@@ -35,19 +36,18 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    // Subject can passed as one of the standard encoding schemes.
-    // If it wasn't, check for a non-standard subject encoding scheme
-    if (subject.length() == 0) {
-      int pt = body.indexOf(" / ");
-      if (pt < 0) return false;
-      subject = body.substring(0,pt).trim();
-      body = body.substring(pt + 3).trim();
-    }
-    
     // Check for IPage signature
     do {
       if (subject.equals("IPage")) break;
       if (subject.equals("Email Copy Message From Hiplink")) break;
+      if (body.startsWith("IPage / ")) {
+        body = body.substring(8).trim();
+        break;
+      }
+      if (body.startsWith("- ")) {
+        body = body.substring(2).trim();
+        break;
+      }
       return false;
     } while (false);
     
