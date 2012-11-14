@@ -5034,11 +5034,6 @@ Sender: @shso.org
 (24455 clydesdale cir/smoke showing & fire alarm going off)
 Chief's meeting @ 7PM, Association meeting @ 7:30PM @ Capron Fire & Rescue.\r\n\r\nJerry L. Smith\r\nChief Communications Officer\r\nSouthampton County Sheriff's Office\r\nPo
 **********************************************************
-Whitfield County, GA (fix)
-Contact: Mike Cady <MCady@cityofdalton-ga.gov>
-Sender: 7064632252
-WHITFIELD_CO_911:F21 VEHICLE FIRE - CMV W BOUNDARY ST 4234002004 ALARM ASSIGN 1-3
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5047,8 +5042,16 @@ WHITFIELD_CO_911:F21 VEHICLE FIRE - CMV W BOUNDARY ST 4234002004 ALARM ASSIGN 1-
 **********************************************************
 **********************************************************
 **********************************************************
+Whitfield County, GA (fix)
+Contact: Mike Cady <MCady@cityofdalton-ga.gov>
+Sender: 7064632252
+WHITFIELD_CO_911:F21 VEHICLE FIRE - CMV W BOUNDARY ST 4234002004 ALARM ASSIGN 1-3
+WHITFIELD_CO_911:F15 FIRE ALARM 510 S TIBBS RD 7065292911 ALARM ASSIGN 4-3
+**********************************************************
 Granville County, NC
 Contact: "ghockaday@brassfieldfiredept.com" <ghockaday@brassfieldfiredept.com>
+Sender: @granvillecounty.org
+
 LEWIS:2127 VICTORY LN CREEDMOOR WALTERS RD X DEAD END jim lyons 9197255015 02:53:08 CHEST PAINS 63 yo male..
 BOWEN:3559 NC HWY 56 E e CREEDMOOR WALTERS RD X JATAVIAN LN garcia,lisa 9199391917 14:01:51 FALL (PERSON HAS FALLEN) caller advised 52.      yoa female fell in.
 HICKS:3436 HORSESHOE RD CREEDMOOR LAWRENCE RD X REEDY BRANCH RD NICHALS, GLENDA 9196976593 15:46:38 FIRE (GRASS-WOODS) THE CALLER ADVISED THERE IS A SMALL

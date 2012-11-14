@@ -29,7 +29,7 @@ public class ORWashingtonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "930010,777";
+    return "930010,777,888";
   }
 
   private class MyAddressField extends AddressField {

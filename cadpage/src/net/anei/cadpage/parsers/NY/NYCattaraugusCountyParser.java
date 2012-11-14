@@ -24,7 +24,7 @@ public class NYCattaraugusCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911@cattco.org,777";
+    return "911@cattco.org,777,888";
   }
 
   @Override

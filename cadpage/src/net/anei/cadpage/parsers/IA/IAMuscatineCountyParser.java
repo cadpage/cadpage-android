@@ -13,7 +13,7 @@ public class IAMuscatineCountyParser extends DispatchShieldwareParser {
   
   @Override
   public String getFilter() {
-    return "777";
+    return "777,888";
   }
 
   @Override

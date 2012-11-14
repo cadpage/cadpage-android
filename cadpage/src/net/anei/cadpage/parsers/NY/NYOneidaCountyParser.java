@@ -25,7 +25,7 @@ public class NYOneidaCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@ocgov.net,@oc911.org,messaging@iamresponding.com,777";
+    return "dispatch@ocgov.net,@oc911.org,messaging@iamresponding.com,777,888";
   }
 
   @Override

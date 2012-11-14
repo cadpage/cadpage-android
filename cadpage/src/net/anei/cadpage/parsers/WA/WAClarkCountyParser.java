@@ -16,7 +16,7 @@ public class WAClarkCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "777,CRESA CAD";
+    return "777,888,CRESA CAD";
   }
 
   @Override

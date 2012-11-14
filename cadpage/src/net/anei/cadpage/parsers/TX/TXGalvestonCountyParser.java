@@ -45,7 +45,7 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "iammessaging.com,777,410,CAD@ci.dickinson.tx.us";
+    return "iammessaging.com,777,888,410,CAD@ci.dickinson.tx.us";
   }
   
   @Override

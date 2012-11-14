@@ -15,7 +15,7 @@ public class FLManateeCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "93001,777";
+    return "93001,777,888";
   }
   
   @Override

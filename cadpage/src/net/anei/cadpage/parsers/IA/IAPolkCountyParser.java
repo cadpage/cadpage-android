@@ -17,7 +17,7 @@ public class IAPolkCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "777,messaging@iamresponding.com";
+    return "777,888,messaging@iamresponding.com";
   }
 
   @Override
