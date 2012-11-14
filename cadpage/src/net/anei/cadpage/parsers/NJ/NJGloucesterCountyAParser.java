@@ -52,6 +52,9 @@ public class NJGloucesterCountyAParser extends DispatchProphoenixParser {
       "T", "WEST DEPTFORD TWP",
       "U", "WESTVILLE BORO",
       "V", "WOODBURY CITY",
-      "Y", "ROWAN"
+      "Y", "ROWAN",
+      "04", "BUENA VISTA TWP",
+      "05", "BUENA VISTA TWP",
+      "CU", "CUMBERLAND COUNTY"
   });
 }
