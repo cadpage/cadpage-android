@@ -9,9 +9,10 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class ZNZNewZealandParser extends SmartAddressParser {
 
+  private static final Pattern END_PAGE_BREAK = Pattern.compile("#F\\d+(?=\n)");
   private static final Pattern MASTER =
-      Pattern.compile("\\(([A-Z0-9, ]+)\\) *([A-Z0-9]+-[A-Z]+) (?:\\((Alarm Type [-A-Z0-9/ ]+)\\) *)?(?:\\(Box ([-A-Z0-9]+)\\) *)?([-A-Z0-9 ]+?) *\\. *(?:(NEAR [- A-Z0-9]+)\\. *)?(?:\\(XStr +([-A-Z0-9/ ]*)\\) *)?(?:\\.([-A-Z0-9 /\\.]+)\\. *)?#(F\\d+)");
-
+      Pattern.compile("\\(([A-Z0-9, ]+)\\) *([A-Z0-9]+-[A-Z]+) (?:\\((Alarm Type [-A-Z0-9/ ]+)\\) *)?(?:\\(Box ([-A-Z0-9 &]+)\\) *)?([-A-Za-z0-9\\(\\)\\.\\\\ ]+?) *\\. *(?:((?:NEAR|OFF) [- A-Z0-9]+)\\. *)?(?:\\(XStr +([-A-Z0-9/ ]*)\\) *)?(?:\\.([-A-Z0-9 /\\.:]+)\\. *)?(?:\\(x-\\d+ y-\\d+\\) *)?#(F\\d+)");
+  private static final Pattern UNKNNNNN = Pattern.compile("\\bUNKN\\d{4}\\b");
 
   public ZNZNewZealandParser() {
     super(CITY_LIST, "", "", CountryCode.NZ);
@@ -33,7 +34,10 @@ public class ZNZNewZealandParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (subject.length() > 0) body = '(' + subject + ") " + body;
-    Matcher match = MASTER.matcher(body);
+    Matcher match = END_PAGE_BREAK.matcher(body);
+    if (match.find()) body = body.substring(0,match.end());
+    body = body.replace('\n', ' ');
+    match = MASTER.matcher(body);
     if (!match.matches()) return false;
 
     int ndx = 1;
@@ -41,7 +45,9 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     data.strCode = match.group(ndx++).trim();
     data.strCall = getOptGroup(match.group(ndx++));
     data.strBox = getOptGroup(match.group(ndx++));
-    parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, match.group(ndx++).trim(), data);
+    String sAddr = match.group(ndx++).trim();
+    sAddr = UNKNNNNN.matcher(sAddr).replaceAll("@");
+    parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, sAddr, data);
     data.strPlace = append(data.strPlace, " ", getOptGroup(match.group(ndx++)));
     String cross = getOptGroup(match.group(ndx++));
     if (cross.endsWith("/")) cross = cross.substring(0,cross.length()-1).trim();
@@ -78,6 +84,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "ARANGA",
     "ARAMOANA",
     "ARAPOHUE",
+    "ARMY BAY",
     "ARROWTOWN",
     "ARUNDEL",
     "ASHBURTON",
@@ -153,6 +160,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     "GREYMOUTH",
     "GREYTOWN",
     "GROVETOWN",
+    "GULF HARBOUR",
     "HAAST",
     "HAKATARAMEA",
     "HALCOMBE",
