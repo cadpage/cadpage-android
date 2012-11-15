@@ -5014,15 +5014,6 @@ CALL#:12062303 LOC:9900 BLK GOODVIEW ROAD GOODVIEW COMP:MVA NO PI
 **********************************************************
 Washington County, TN (alternate or replacement)
 **********************************************************
-Washington County, TN (alternate)
-Contact: Luke Story <firedog458@yahoo.com>
-Sender: 4232623650
-JVFD-Motor Vehicle Crash - Injury AT 215 ROY PHILLIPS RD -X-ST:BRANDON LN-RIDGECREST RD MAP-67C 00:18
-
-Contact: Nathan Ward <wardn39@gmail.com>
-Sender: user phone
-WVFD.GVFD.AGENCY(-1)-House/Residential Fire AT 583 MISSION WY -X-ST:FAIRHAVEN RD;160 BLK-DEAD END MAP-39A 23:42
-**********************************************************
 Southampton County, VA
 Contact: Ricky Grizzard <rickygrizzard@gmail.com>
 Sender: @shso.org
@@ -5071,6 +5062,18 @@ mhturner:31338 EAST DARDEN ST FRANKLIN 14:31:13 RESCUE EMS- AP 73 YOA FEMALE - L
 csheehy:331 ROOSEVELT AVE FRANKLIN 00:37:00 FIRE - AP STRUCTURE FIRE.
 csheehy:1 CAMP PKWY FRANKLIN 20:52:56 FIRE - AP FIRE BURNING IN COTTON FIELD ACROSS FROM RIVERDALE ELEM
 wcotton:1328 ARMORY DR FRANKLIN COMMERENCE PARK RD (LOOP) X COMMERENCE PARK RD (LOOP) 12:26:39 RESCUE EMS- AP WOMAN ASSAULTED
+**********************************************************
+Washington County, TN (alternate)
+Contact: Luke Story <firedog458@yahoo.com>
+Sender: 4232623650
+JVFD-Motor Vehicle Crash - Injury AT 215 ROY PHILLIPS RD -X-ST:BRANDON LN-RIDGECREST RD MAP-67C 00:18
+
+Contact: Nathan Ward <wardn39@gmail.com>
+Sender: user phone
+WVFD.GVFD.AGENCY(-1)-House/Residential Fire AT 583 MISSION WY -X-ST:FAIRHAVEN RD;160 BLK-DEAD END MAP-39A 23:42
+WVFD-Motor Vehicle Crash - Injury AT 557 AUSTIN SPRINGS RD -X-ST:RACCOON RIDGE LN-CASH HOLLOW RD MAP-30B 16:38
+WVFD.GVFD.AGENCY(-1)-House/Residential Fire AT 583 MISSION WY -X-ST:FAIRHAVEN RD;160 BLK-DEAD END MAP-39A 23:42
+SIGNAL 9 ON Motor Vehicle Crash - Injury AT 557 AUSTIN SPRINGS RD SIGNAL 9 17:01
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

@@ -16,7 +16,7 @@ public class NJMercerCountyParser extends FieldProgramParser {
   
   public NJMercerCountyParser() {
     super("MERCER COUNTY", "NJ",
-           "UNIT:UNIT! CALL:CALL! PLACE:PLACE! ADDR:ADDR! BLDG:APT! APT:APT! CITY:CITY! XSTREETS:X! ID:ID! DATE:DATE! TIME:TIME!");
+           "UNIT:UNIT! CALL:CALL! PLACE:PLACE! ADDR:ADDR! BLDG:APT! APT:APT! CITY:CITY! XSTREETS:X! ID:ID! DATE:DATE! TIME:TIME! INFO:INFO");
   }
   
   @Override

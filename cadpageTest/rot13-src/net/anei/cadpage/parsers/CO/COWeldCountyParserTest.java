@@ -62,9 +62,8 @@ Se:<jep-uvcyvax@jryqpbepp.pb\aFh:Qvfcngpu\aGkg: 24\aGNH\aQ\a37GU FG @ 38GU NIR\a
 Se:<jep-uvcyvax@jryqpbepp.pb\aFh:Qvfcngpu\aGkg: 37\aFVCS\aQ\a31195 6GU FG\aXR\a37\aFCRRPU FYHEERQ, IVFVBA VF OYHEEL, CNVA BA 1 FVQR BS URNQ\a\a\avq:12
 
 Pbagnpg: Elna Shyyre <eshyyre131@tznvy.pbz>
-Fraqre: 7772
+Fraqre: 777
 JRYQ PBHAGL 24\aFVCS\aQ\a3222 11GU NIR ;TEBIR NCGF\aRI\a24N\aZNYR CNFFRQ BHG QX VA SEBAG BS NCG OHVYQVAT FGBC
-
 
 Pbagnpg: Ehff Oramry <exnex911@tznvy.pbz>
 Fraqre: 93001025
