@@ -21,12 +21,15 @@ public class NJMonmouthCountyAParser extends DispatchA11Parser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (subject.equals("MCSO Page Notification")) {
-      return super.parseMsg(body, data);
-    } else if (subject.startsWith("Call Complete Notification")) {
+    
+    if (subject.startsWith("Call Complete Notification") || body.startsWith("Incident #: ")) {
       data.strCall = "RUN REPORT";
       data.strPlace = body;
       return true;
+    }
+    
+    if (subject.equals("MCSO Page Notification") || isPositiveId()) {
+      return super.parseMsg(body, data);
     }
     else return false;
   }

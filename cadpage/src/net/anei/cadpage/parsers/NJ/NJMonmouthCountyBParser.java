@@ -23,7 +23,6 @@ public class NJMonmouthCountyBParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.endsWith("!")) return false;
     if (!parseFields(body.split("\\|"), data)) return false;
     return true;
   }
