@@ -59,7 +59,8 @@ public class GAWhitfieldCountyParser extends SmartAddressParser {
   private static final String[] CALL_LIST = new String[]{
     "50I M.V. ACCIDENT W/INJURIES ",
     "F12 SF-COMMERCIAL/INDUSTRIAL/SCHOO ",
-    "F15 FIRE ALARM "
+    "F15 FIRE ALARM ",
+    "F21 VEHICLE FIRE - CMV "
   };
 
 }
