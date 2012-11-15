@@ -7,26 +7,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-York County, PA
-Contact: "Freistat, Brandon" <brandon.freistat@fairviewfire.net>
-Sender: messaging@iamresponding.com
-
-(Station 68) : 203 LOCUST DR \n  FAIRVIEW TWP\n  \nLONGVIEW AVE / PLEASANT VIEW RD\nDistrict: 68-02\n\n    FIRE STRUCT RESID\nUnits Sent: 2\nFIRESTA68, 52-03
-(Station 68) : 378 PLEASANT VIEW RD \n  FAIRVIEW TWP\n  \nGURTNER RD / LANE\nDistrict: 68-02\n\n    FIRE STRUCT RESID\nUnits Sent: 2\nFIRESTA68, 52-12 \n\n   
-(Station 68) : 6000 LEWISBERRY RD \nAdditional Location Information:BLK\n  CONEWAGO TWP\n  \nBREMER RD / ANDERSONTOWN RD\nCOPENHAFFER RD\nDistrict: 26-09
-
-Contact: Matthew Russ <smokeater841@gmail.com>
-Sender: messaging@iamresponding.com
-Subject:Station 41\n  752 OLD COMMONS RD \r\n   LOWER WINDSOR TWP\r\n  \r\nWINTERS RD / ADAIR RD\r\n    3638\r\n     FIRE STRUCT ENTRAP\r\n\r\n\r
-Subject:Station 41\n  295 FRYSVILLE RD \r\n   HALLAM BORO\r\n  \r\nPRINCE MHP / VALLEY ACRES RD\r\n    5813\r\n     RESC WATER CL 2\r\n\r\n\r
-Subject:Station 41\n  340 HELLAM ST \r\nCommon Name  TURKEY HILL WRIGHTSVILLE BORO\r\n   \r\n\r\n     FIRE WIRES\r\n\r\n\r
-Subject:Station 41\n  1675 NEW BRIDGEVILLE RD \r\n   CHANCEFORD TWP\r\n  \r\nWHITE OAK RD / BURKHOLDER RD\r\nFURNACE RD\r\n    6294\r\n     FIR\r
-Subject:Station 41\n  2266 SPANGLER CIR \r\n   SPRINGETTSBURY TWP\r\n  \r\nPOSES PL / ST JOHNS CT\r\n    6277\r\n     FIRE STRUCT RESID\r\n\r\n\r
-Subject:Station 41\n  1972 W  PHILADELPHIA ST \r\nCommon Name  STOUGH DENTAL LAB\r\n   \r\n\r\n     FIRE STRUCT RESID\r\n\r\n\r
-Subject:Station 41\n  163 COOL CREEK MANOR DR \r\n\3sHELLAM TWP\r\n  \r\nKENNETH WAY / SETH CT\r\n    3134\r\n     SICK PERSON CL 1\r\n\r\n\r
-
-*/
 
 public class PAYorkCountyCParser extends FieldProgramParser {
   

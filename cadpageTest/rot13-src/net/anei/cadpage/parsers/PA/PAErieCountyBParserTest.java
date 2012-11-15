@@ -5,6 +5,29 @@ vzcbeg arg.narv.pnqcntr.cnefref.CN.CNRevrPbhaglOCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Revr Pbhagl, CN (Inevnag O)
+Pbagnpg: Qbht Wbuafba <qbhtwbuafba6@tznvy.pbz>
+Fraqre: jrprpp@irevmba.arg
+
+Vyy Cngvrag - 32 J CRNEY FGERRG - Oneargg Ohvyqvat  (CER-CYNA) - NCG 210 - Whyvrg Fgerrg & Npnqrzl Fgerrg
+Nanculynkvf - 9004 EBHGR 215 -  - UNAFBA ERFVQRAPR - PBAARNHG GJC YVAR & JBBQ EBNQ
+Pneqvnp - 155 R FGNGR FGERRG - Nyovba Snzvyl Cenpgvpr  (CER-CYNA) - Jryyf Nirahr & Ryx Fgerrg
+ZIN - 126 R FGNGR FGERRG -  - Jngre Fgerrg & Jryyf Nirahr
+Purfg Cnva - R FGNGR FGERRG & Svefg Nirahr -  - ZRRG CQ -
+Vyy Cngvrag - 10745 EBHGR 18 - FPV-Nyovba  (CER-CYNA) - HFR SEBAG RAGENAPR - Obeb / Gbjafuvc Yvar & Pnegre Ebnq
+Sver Nynez -- Ohfvarff - 32 J CRNEY FGERRG - Oneargg Ohvyqvat  (CER-CYNA) - Whyvrg Fgerrg & Npnqrzl Fgerrg
+Vyy Cngvrag - 10745 EBHGR 18 - FPV-Nyovba  (CER-CYNA) - Obeb / Gbjafuvc Yvar & Pnegre Ebnq
+Senpgher - 2 J FGNGR FGERRG - Pbhagel Snve - ZRRG CQ - Znva Fgerrg & Npnqrzl Fgerrg
+Pneqvnp - 210 R FGNGR FGERRG - Abegujrfg Nern Urnygu Pragre  (CER-CYNA) - Bepuneq Fgerrg & Guveq Nirahr
+Haerfcbafvir Cngvrag - 44 JNYAHG FGERRG - FUREZNA ERFVQRAPR - Gubeagba Nirahr & Rhpyvq Fgerrg
+
+Trareny nyregf!
+2AQ GNC ZRQVPNY NYNEZ  32 JRFG CRNEY FGERRG.  QEVIRE ARRQRQ
+2AQ GNC RZF FPV NYOVBA SEBAG RAGENAPR PURFG CNVA.  QP/JPR.
+2AQ GNC FPV NYOVBA NOQBZVANY CNVA FF/JPR
+
+ */
 
 choyvp pynff CNRevrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

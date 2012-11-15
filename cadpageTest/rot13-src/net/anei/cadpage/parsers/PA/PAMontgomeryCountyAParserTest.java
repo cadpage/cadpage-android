@@ -4,6 +4,20 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Zbagtbzrel pbhagl, Cn (Jrfg Abeevgba)
+Pbagnpg: Ebl@sq34.pbz, 2152648884@zrffntvat.fcevagcpf.pbz
+Fraqre: nyreg46@Irevmba.arg 
+
+Fhowrpg:Qvfcngpu\a09:39 * ERFPHR - JNGRE * 316 EVIRE EQ * - *
+Fhowrpg:Qvfcngpu\a11:12 * CHZC QRGNVY * 114 XBRTRY YA * - * 
+Fhowrpg:Qvfcngpu\a13:32 * TNF-BQBE/YRNX BHGFVQR * 2409 QNVEL YA * - * 
+Fhowrpg:Qvfcngpu\a18:06 * IRUVPYR SVER * A GEBBCRE EQ NAQ J ZNVA FG * - * 
+Fhowrpg:Qvfcngpu\a01:49 * OHVYQVAT SVER PBZZREPVNY * 2030 ZNVA FG J * QBZVABF CVMMN- * 
+Fhowrpg:Qvfcngpu\a03:20 * ERFPHR - JNGRE * 6025 INYYRL TERRA EQ J * CUVYNQRYCUVN PEVPXRG PYHO- * 
+Fhowrpg:Qvfcngpu\a18:10 * F/O NG URYVPBCGRE YNAQVAT * 51 HCCRE SNEZ EQ  Ncg# P2 * OHVYQVAT 051 ABEEVFGBJA FGNGR UBFCVGNY- *
+
+ */
 
 choyvp pynff CNZbagtbzrelPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

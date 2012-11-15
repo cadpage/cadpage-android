@@ -5,20 +5,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Montgomery county, Pa (West Norriton)
-Contact: Roy@fd34.com, 2152648884@messaging.sprintpcs.com
-Sender: alert46@Verizon.net 
-
-Subject:Dispatch\n09:39 * RESCUE - WATER * 316 RIVER RD * - *
-Subject:Dispatch\n11:12 * PUMP DETAIL * 114 KOEGEL LN * - * 
-Subject:Dispatch\n13:32 * GAS-ODOR/LEAK OUTSIDE * 2409 DAIRY LN * - * 
-Subject:Dispatch\n18:06 * VEHICLE FIRE * N TROOPER RD AND W MAIN ST * - * 
-Subject:Dispatch\n01:49 * BUILDING FIRE COMMERCIAL * 2030 MAIN ST W * DOMINOS PIZZA- * 
-Subject:Dispatch\n03:20 * RESCUE - WATER * 6025 VALLEY GREEN RD W * PHILADELPHIA CRICKET CLUB- * 
-Subject:Dispatch\n18:10 * S/B AT HELICOPTER LANDING * 51 UPPER FARM RD  Apt# C2 * BUILDING 051 NORRISTOWN STATE HOSPITAL- *
-
- */
 
 
 public class PAMontgomeryCountyAParser extends FieldProgramParser {

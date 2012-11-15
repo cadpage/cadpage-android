@@ -4,6 +4,16 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/* 
+Phzoreynaq Pbhagl, GA
+Pbagnpg: Wrerzl <sleobl55@tznvy.pbz>
+Fraqre: qvfcngpu@911rznvy.arg
+
+(R911) SVER NYNEZ/10-72N\e\a115 UHAGVATGBA QE\e\aXRL CNQ NYNEZ
+(R911) SVER NYNEZ/10-72N\e\aFGBARURATR QE\e\aTRARENY/PBZZREPVNY OHVYQVAT FLFGRZF/800-877-3624
+(R911) ZIN-VAW/10-46\e\aCRNIVAR EQ OL NPR UNEQJNER\e\aWHI PBZCYNVAVAT BS PURFG CNVAF , 2 IRUF
+
+ */
 
 choyvp pynff GAPhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

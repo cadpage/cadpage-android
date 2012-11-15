@@ -5,6 +5,28 @@ vzcbeg arg.narv.pnqcntr.cnefref.CN.CNRevrPbhaglRzretlPnerCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+RaretlPner (Revr Pbhagl, CN)
+Pbagnpg: "Gubznf, Trbetr" <tgubznf@rzretlpner.bet>
+Flfgrz: Mbyy ErfphrArg
+
+Eha# 17973/ 0087-N/ 08:55/ NYF/ Cevbevgl 1/ R 20GU FG & ZPPYRYYNAQ NIR/ 16510/ TERL CVPXHC GEHPX/ BA 20GU/ J BS ZPPYRYYNAQ/ <CEBDN_QRG>/ ZNYR VA CVPXHC CNEXRQ BA FVQR BS EBNQ FYHZCRQ BIRE BSS GB GUR FVQR HAX. RZQ: 31Q0/ RPQBCF: 2012-35555/ <Haxabja>/ K=Ohssnyb Eq&R 20gu Fg
+Eha# 17958/ 0081-N/ 08:17/ OYF/ Cevbevgl 1/ 2416 FGNGR FG/ 16503/ <CEBDN_QRG>/ HCZP UNZBG ZRQVPNY PRAGRE/ OYF C1; 52 lrne byq/ Srznyr/ Hapbafpvbhf/ Oernguvat. Pbaihyfvbaf /Frvmherf. Abg frvmvat abj naq oernguvat rssrpgviryl (irevsvrq) (Rcvyrcgvp be Cerivbhf uvfgbel bs frvmherf). RZQ: 12N1R/ RPQBCF: 2012-35545/ <Haxabja>/ K=R 26gu Fg&J 24gu Fg
+Eha# 17945/ 0030-N/ 07:30/ Zrqvpny Gnkv/ Cevbevgl 4 / IN Bhg bs Gbja/ GNATYRJBBQ NCGF/ 16504/ 101 - OHVYQVAT 819/ <CEBDN_QRG>/ IN ZRQVPNY PGE HAVIREFVGL PNZCHF/ AH/ BJA PU/OVYY IN/ZPTHVER JVYY QB/ PBPPNERYYV/ NYOREG/ K=HAANZRQ|JNLAR&JNLAR
+Eha# 17968/ 0045-N/ 09:30/ OYF/ Cevbevgl 3 / Ybpny/ GJVAOEBBX ZRQVPNY PRAGRE/ 16511/ rnfg 212/ <CEBDN_QRG>/ HCZP UNZBG ZRQVPNY PRAGRE/ jbhaq pyvavp sbe zq zrevgm/ zrq arp sbe perj/ zf cg fnperny jbhaqf afn/ YNFG ANZR/ SVEFG ANZR/ K=CEVRFGYRL&ANCVRE
+Eha# 19857/ 0095-N/ 10:51/ OYF/ Cevbevgl 1/ 531 R 12GU FG/ 16503/ QBJAFGNVEF/ <CEBDN_QRG>/ FNVAG IVAPRAG URNYGU PRAGRE/ OYF C1; 21 lrne byq/ Znyr/ Pbafpvbhf/ Oernguvat. Urzbeeuntr/ Ynprengvbaf. FREVBHF urzbeeuntr. RZQ: 21O2/ RPQBCF: 2012-39719/ <Haxabja>/ K=Jnyynpr Fg&Nfu Fg
+Eha# 19859/ 0096-N/ 10:58/ Cnenzrqvp Vagreprcg/ Cevbevgl 1/ 10906 YNXR EQ/ 16428/ <CEBDN_QRG>/ QVFBEVRAGRQ CREFBA/ NFFVFG PERFPRAG/ <Haxabja>/ K=A Zvyy Fg
+Eha# 19866/ 0100-N/ 11:20/ OYF/ Cevbevgl 2/ 2912 PBPUENA FG/ 16508/ FGNTR NJNL/ <CEBDN_QRG>/ OYF C1 / YNJ; 40 lrne byq/ Srznyr/ Pbafpvbhf/ Oernguvat. Cflpuvngevp / NoabeznyOrunivbe / Fhvpvqr Nggrzcg. Aba-FREVBHF be ZVABE urzbeeuntr (Ivbyrag). RZQ: 25O2I/ RPQBCF: 2012-39726/ <Haxabja>/ K=J 31fg Fg&J 29gu Fg
+Eha# 19872/ 0104-N/ 11:44/ OYF J/NYF NFFVFG/ Cevbevgl 1/ 1042 R 11GU FG/ 16503/ JVGU RATVAR 8/ <CEBDN_QRG>/ OYF C1 / NYF C1; 38 lrne byq/ Znyr/ Pbafpvbhf/ Oernguvat. Purfg Cnva (Aba-Genhzngvp). Noabezny oernguvat. RZQ: 10P1/ RPQBCF: 2012-39737/ <Haxabja>/ K=Craaflyinavn Nir&Oerjfgre Fg
+Eha# 19860/ 0098-N/ 11:01/ NYF/ Cevbevgl 1/ QVNYLFVF PRAGRE BS REVR/ 16502/ YBOOL/ <CEBDN_QRG>/ OYF C1 / NYF C1; 71 lrne byq/ Srznyr/ Pbafpvbhf/ Oernguvat. Purfg Cnva (Aba-Genhzngvp). Noabezny oernguvat. RZQ: 10P1/ RPQBCF: 2012-39721/ <Haxabja>/ K=17GU&16GU
+Eha# 19861/ 0099-N/ 11:07/ OYF/ Cevbevgl 1/ TENAQIVRJ ZNABE/ 16504/ 122/ <CEBDN_QRG>/ OYF CEVBEVGL 1; 92 lrne byq/ Srznyr/ Pbafpvbhfarff haxabja/ Oernguvat fgnghf haxabja. Haxabja Ceboyrz (Zna Qbja). RZQ: 32O2/ RPQBCF: 2012-39722/ <Haxabja>/ K=HAANZRQ|HAANZRQ&HAANZRQ
+Eha# 19839/ 0044-O/ 09:41/ OYF/ Cevbevgl 3 / Ybpny/ HCZP UNZBG ZRQVPNY PRAGRE/ 16550/ JBHAQ PYVAVP/ <CEBDN_QRG>/ GJVAOEBBX ZRQVPNY PRAGRE/ AB FCRP NGGA/PERJ GB TRG ZRQ ARP/UHGPUVAFBA/ PUNEYRF/ K=2AQ&QBOOVAF YNAQVAT
+
+Pbagnpg: Zngg Shyyre <zshyyrerevr@tznvy.pbz>
+Fraqre: RP-PBZZ@rzretlpner.bet
+(- cneg 1 bs 1) EP:Eha# 23232/0160-N/16:30/NYF-I/Cevbevgl 3 / Ybpny/HCZP UNZBG ZRQVPNY PRAGRE/16550/VPH FBHGU ORQ 14/<CEBDN_QRG>/CERFDHR VFYR ERUNO NAQ AHEFV
+
+ */
 
 choyvp pynff CNRevrPbhaglRzretlPnerCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

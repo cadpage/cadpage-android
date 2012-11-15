@@ -4,6 +4,15 @@ support@cadpage.org
 
 ******************************************************************
 
+Weld County mapping is seriously broken.  Someone is stripping all of the line break characters out of the regular dispatch page.  If they had replaced them with something nice like semicolons, I could parse them with no problems.  If they replace them with blanks I would have had a few choice comments about the situation but could have worked with it.  But they are just gone leaving all of your data fields mashed up against each other.  I just can't parse that :(
+
+All you can do is complain to your department or dispatch IT people.  If they can't get the issue resolved, you may have to switch messaging services.  CodeMessaging.com and Active911.net are recommended because they can push pages directly to Cadpage.
+
+Good luck,
+-Ken
+
+******************************************************************
+
 A lot of people are complaining about that.  The next release will change all location filters that were checking for 777 to add 888.
 
 Have a nice day,
@@ -106,7 +115,7 @@ This will generate an email with the correct email account (usually a gmail acco
 Your Payment status should change when you load the next Cadpage version. 
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-RVKMYVGA or rvkmyvga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+TLPDUGCA or tlpdugca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -174,7 +183,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail address) so I can make sure you get credit for it.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-RVKMYVGA or rvkmyvga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+TLPDUGCA or tlpdugca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -219,10 +228,17 @@ Cadpage is free for direct paging users.
 This should only take a few seconds.  But just in case it does not...
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-RVKMYVGA or rvkmyvga.  It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+TLPDUGCA or tlpdugca.  It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
 
 Good Luck,
 Jean -- Assistant to Ken Corbin
+
+******************************************************************
+
+Two different departments dispatched by the same center is easy.  You will get pages for both departments, but they both have to have the same text format, so Cadpage won't have any trouble handling both of them.  Things get a bit sticky if they are dispatched from different centers, but Cadpage can handle that as well.
+
+Have a nice day,
+-Ken
 
 ******************************************************************
 ** Play Store / Android payment issues
@@ -280,7 +296,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-RVKMYVGA or rvkmyvga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+TLPDUGCA or tlpdugca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -294,7 +310,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-RVKMYVGA or rvkmyvga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+TLPDUGCA or tlpdugca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -304,7 +320,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-RVKMYVGA or rvkmyvga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+TLPDUGCA or tlpdugca.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 

@@ -4,6 +4,18 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Fhfdhrunaan Pbhagl, CN
+Pbagnpg: Punq Fvaargg <pfvaargg7@tznvy.pbz>
+Fraqre: @fhfdpb.nyregcn.bet
+
+ZIN >ZBGBE IRUVPYR NPPVQRAG 228 V81 F TERNG ORAQ GJC CUNA,NOQHY Znc: Tevqf:0,0 Pnq: 2012-0000006018 (UFS)
+GERRF >GERRF QBJA 21907 FE 11 TERNG ORAQ Znc: Tevqf:, Pnq: 2012-0000006063 (UFS)
+OEHFU >OEHFU SVER UNEZBAL EQ TERNG ORAQ TNYYRYYV,WBUA Znc: Tevqf:, Pnq: 2012-0000006113 (UFS)
+JVERF >JVERF QBJA FE 11 TERNG ORAQ NAGUBAL Znc: Tevqf:, Pnq: 2012-0000006114 (UFS)
+17 >SNYYF 1004 UNEZBAL EQ TERNG ORAQ PFG - YVAX GB YVSR Znc: Tevqf:, Pnq: 2012-0000006142 (UFS)
+
+*/
 
 choyvp pynff CNFhfdhrunaanPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

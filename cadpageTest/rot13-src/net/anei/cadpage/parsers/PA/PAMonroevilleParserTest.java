@@ -4,6 +4,21 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Zbaebrivyyr, CN (va Nyyrtural Pbhagl)
+Pbagnpg: Mnpu Crgref <rzgcrgref@tznvy.pbz>
+Fraqre: nyreggf@zbaebrivyyr.cn.hf
+
+[Nyreg: Fvpx Crefba]  NYEZ YIY: 1\aYBP:\a538 SVERGUBEA QE\aZBAEBRIVYYR\aOGJA: SVRYQFGBAR QE & A/N\a\aEPIQ NF Cubar\a\aPBZ:\a23L/B SRZNYR FVPX / NYCUN\a\aPG:\aZQ103 ng
+[Nyreg: Oernguvat]  NYEZ YIY: 1\aYBP:\a721 URNEGJBBQ QE\aZBAEBRIVYYR\aOGJA: PBGGBAJBBQ QE & PBGGBAJBBQ QE\a\aEPIQ NF Cubar\a\aPBZ:\a94 LB SRZNYR/QVSS OERNGUVAT/3EQ
+[Nyreg: Sver-Nynez Npgvingvba]  NYEZ YIY: 1\aYBP:\a245 NMNYRN QE\aZBAEBRIVYYR\aOGJA: TNEQRA PVGL QE & A/N\a\aEPIQ NF Cubar\a\aPBZ:\a2AQ SYBBE CHYY FGNGVBA\a\aPG:\aZQ10
+[Nyreg: Fvpx Crefba]  NYEZ YIY: 1\aYBP:\a540 SVERGUBEA QE\aZBAEBRIVYYR\aOGJA: SVRYQFGBAR QE & A/N\a\aEPIQ NF Cubar\a\aPBZ:\a79 LBS UVTU GRZC, PUVYYF, YRGUNETVP. OENib
+[Nyreg: Fvpx Crefba]  NYEZ YIY: 1\aYBP:\a3912 ONEONEN NAA QE\aZBAEBRIVYYR\aOGJA: RIRETERRA QE & A/N\a\aPBZ:\a90L/B ZNYR - SNZVYL ABJ JNAGF CG GENAFCBEGRQ GB UBF
+[Nyreg: Noqbzvany Cnva]  NYEZ YIY: 1\aYBP:\a166 XRRSRE\aCRAA UVYYF\aOGJA: A/N & A/N\a\aEPIQ NF 911\a\aPBZ:\a86L/B ZNYR NOQ CNVA / PUNEYVR\a\aPG:\aZQ103 ng CBF 01
+[Nyreg: Snyy]  NYEZ YIY: 1\aYBP:\a3912 ONEONEN NAA QE\aZBAEBRIVYYR\aOGJA: RIRETERRA QE & A/N\a\aEPIQ NF Cubar\a\aPBZ:\a92 LB ZNYR/SRYY/ABG ORYVRIRQ GB OR VAWHERQ/3E
+[Nyreg: Urneg Ceboyrz]  NYEZ YIY: 1\aYBP:\a205 URNGURE QE\aZBAEBRIVYYR\aOGJA: QHSS EQ & A/N\a\aEPIQ NF Cubar\a\aPBZ:\aENCVQ URNEG ORNG\a87 LBS PNEQVNP UK. PUNEYVR
+
+*/
 
 choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

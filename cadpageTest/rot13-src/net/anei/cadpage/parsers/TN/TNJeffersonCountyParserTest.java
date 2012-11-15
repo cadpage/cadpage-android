@@ -4,6 +4,23 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/* 
+Wrssrefba Pbhagl, GA
+Pbagnpg: "wpsq560@lnubb.pbz" <wpsq560@lnubb.pbz>
+Fraqre: QVFCNGPU@wrssrefbapbhaglga.tbi
+QVFCNGPU:1718 OEBBXYVAR PG WRSSREFBA PVGL 2011-611597 22:43:08  OERNGUVAT QVSSVPHYGL
+QVFCNGPU:675 R OEBNQJNL OYIQ WRSSREFBA PVGL 2011-613869 11:31:12 SVER OEHFU  TENFF SBERFG
+QVFCNGPU:1727 RNFYRL EQ WRSSREFBA PVGL 2011-613628 20:57:53 SVER FZBXR VAIRFGVTNGVBA
+
+Pbagnpg: "guabmmyrzna@oryyfbhgu.arg" <guabmmyrzna@oryyfbhgu.arg>
+QVFCNGPU:283 J OEBNQJNL OYIQ 513 WRSSREFBA PVGL 08:00:21 PNEQVNP NEERFG PCE VA HFR
+
+Pbagnpg: Npgvir911.pbz
+SEZ:QVFCNGPU@wrssrefbapbhaglga.tbi\e\aZFT:QVFCNGPU:542 PBHAGL YVAR EQ QNAQEVQTR 10:47:55 FVPX CREFBA (FCRPVSVP QVNTABFVF)\e\a
+SEZ:QVFCNGPU@wrssrefbapbhaglga.tbi\e\aZFT:QVFCNGPU:4800 GVZORE JNL FRIVREIVYYR 20:28:20 PURFG CNVA URNEG CEBOYRZF\e\a
+SEZ:QVFCNGPU@wrssrefbapbhaglga.tbi\e\aZFT:QVFCNGPU:542 PBHAGL YVAR EQ QNAQEVQTR 10:01:21 FGEBXR (PIN)\e\a
+
+*/
 
 choyvp pynff GAWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

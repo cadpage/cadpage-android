@@ -47,6 +47,11 @@ Fraqre: YhpuvnZ@serfp.pn
 (Evc & Eha) 06:04CZ PNYY 06q02 NG 1050 pbhtne_perrx qe, pnazber \e\a
 (Evc & Eha) 07:45NZ PNYY 31p01 NG 3-920 13 fg, pnazber \e\a
 
+(Evc & Eha) 04:09CZ PNYY 60q03 NG 187 xnananfxvf jnl, fbyne erfbeg & fcn, pnazber \e\a
+(Evc & Eha) 04:02CZ PNYY 60q03 NG 187 xnananfxvf jnl, pnazber \e\a
+(Evc & Eha) 08:03NZ PNYY 52o01 NG 1267 7 nir, pnazber \e\a
+(Evc & Eha) 05:31CZ PNYY 31q02 NG n-100 ehzzry cy, pnazber \e\a
+
 */
 choyvp pynff PNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -316,9 +321,38 @@ choyvp pynff PNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:920 13 fg",
         "PVGL:pnazber");
 
+    qbGrfg("G36",
+        "(Evc & Eha) 04:09CZ PNYY 60q03 NG 187 xnananfxvf jnl, fbyne erfbeg & fcn, pnazber \e\a",
+        "GVZR:16:09:00",
+        "PNYY:60q03",
+        "NQQE:187 xnananfxvf jnl",
+        "CYNPR:fbyne erfbeg & fcn",
+        "PVGL:pnazber");
+
+    qbGrfg("G37",
+        "(Evc & Eha) 04:02CZ PNYY 60q03 NG 187 xnananfxvf jnl, pnazber \e\a",
+        "GVZR:16:02:00",
+        "PNYY:60q03",
+        "NQQE:187 xnananfxvf jnl",
+        "PVGL:pnazber");
+
+    qbGrfg("G38",
+        "(Evc & Eha) 08:03NZ PNYY 52o01 NG 1267 7 nir, pnazber \e\a",
+        "GVZR:08:03:00",
+        "PNYY:52o01",
+        "NQQE:1267 7 nir",
+        "PVGL:pnazber");
+
+    qbGrfg("G39",
+        "(Evc & Eha) 05:31CZ PNYY 31q02 NG n-100 ehzzry cy, pnazber \e\a",
+        "GVZR:17:31:00",
+        "PNYY:31q02",
+        "NQQE:n-100 ehzzry cy",
+        "PVGL:pnazber");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PNNOPnazberCnefreGrfg().trarengrGrfgf("G1", "GVZR PNYY NQQE NCG CYNPR PVGL");
+    arj PNNOPnazberCnefreGrfg().trarengrGrfgf("G36", "GVZR PNYY NQQE NCG CYNPR PVGL");
   }
 }
