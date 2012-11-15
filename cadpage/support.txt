@@ -13,9 +13,11 @@ Good luck,
 
 ******************************************************************
 
-A lot of people are complaining about that.  The next release will change all location filters that were checking for 777 to add 888.
+A lot of people are complaining about this.  One of the carriers changed the sender address prefix from 777 to 888.  The next release will change all location filters that were checking for 777 to add 888.
 
-Have a nice day,
+This release will be out later this evening.  If you can't wait for it you can override the default sender filter.  Go into Location Settings and check the box labeled "Override Sender Filter".  Then set the "From: (filter)" setting to 888.
+
+Good luck,
 -Ken
 
 ******************************************************************

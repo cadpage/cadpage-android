@@ -8,13 +8,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class GAWhitfieldCountyParser extends SmartAddressParser {
-  
-  private static final String[] CALL_LIST = new String[]{
-    "50I M.V. ACCIDENT W/INJURIES ",
-    "F12 SF-COMMERCIAL/INDUSTRIAL/SCHOO ",
-    "F15 FIRE ALARM "
-  };
-  
+
+  private static final Pattern MARKER = Pattern.compile("^WHITFIELD CO\\. 911:|WHITFIELD_CO_911:");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
   
   public GAWhitfieldCountyParser() {
@@ -28,8 +23,9 @@ public class GAWhitfieldCountyParser extends SmartAddressParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("WHITFIELD CO. 911:")) return false;
-    body = body.substring(18).trim();
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    body = body.substring(match.end()).trim();
     
     data.strCall = "";
     for (String call : CALL_LIST) {
@@ -39,7 +35,7 @@ public class GAWhitfieldCountyParser extends SmartAddressParser {
         break;
       }
     }
-    Matcher match = PHONE_PTN.matcher(body);
+    match = PHONE_PTN.matcher(body);
     if (match.find()) {
       data.strPhone = match.group();
       String sAddr = body.substring(0,match.start()).trim();
@@ -59,5 +55,11 @@ public class GAWhitfieldCountyParser extends SmartAddressParser {
     
     return true;
   }
+  
+  private static final String[] CALL_LIST = new String[]{
+    "50I M.V. ACCIDENT W/INJURIES ",
+    "F12 SF-COMMERCIAL/INDUSTRIAL/SCHOO ",
+    "F15 FIRE ALARM "
+  };
 
 }
