@@ -171,7 +171,9 @@ public class ManageParsers {
         "NJWayneCounty",      "NJWayneTownship",        // 07/20/2012
         "MNBloomington",      "MNMinneapolisStPaul",    // 09/21/2012
         "NCGrahmCounty",      "NCGrahamCounty",         // 10/04/2012
-        "CTMontville",        "CTNewLondonCounty"       // 10/13/2012
+        "CTMontville",        "CTNewLondonCounty",      // 10/13/2012
+        "VAFranklinCountyB",  "VAFranklin",             // 11/15/2012
+        "VAFranklinCountyA",  "VAFranklinCOunty"        // 11/15/2012
         
   });
 

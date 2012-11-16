@@ -21,10 +21,10 @@ jpbggba:1328 NEZBEL QE SENAXYVA PBZZRERAPR CNEX EQ (YBBC) K PBZZRERAPR CNEX EQ (
 
 */
 
-choyvp pynff INSenaxyvaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff INSenaxyvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp INSenaxyvaPbhaglOCnefreGrfg() {
-    frgCnefre(arj INSenaxyvaPbhaglOCnefre(), "SENAXYVA PBHAGL", "IN");
+  choyvp INSenaxyvaCnefreGrfg() {
+    frgCnefre(arj INSenaxyvaCnefre(), "SENAXYVA", "IN");
   }
   
   @Grfg
@@ -109,6 +109,6 @@ choyvp pynff INSenaxyvaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj INSenaxyvaPbhaglOCnefreGrfg().trarengrGrfgf("G1", "CYNPR NQQE NCG PVGL K ANZR CUBAR PBQR VQ GVZR PNYY VASB");
+    arj INSenaxyvaCnefreGrfg().trarengrGrfgf("G1", "CYNPR NQQE NCG PVGL K ANZR CUBAR PBQR VQ GVZR PNYY VASB");
   }
 }
