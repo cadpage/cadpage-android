@@ -44,7 +44,6 @@ New Zealand\n
 General Fixes:\n
 All locations filtering 777 prefix calls modified to accept 888 prefix calls.\n
 Autorotate option was causing problems and has been removed.\n
-
   </string>  
 </resources>
   
