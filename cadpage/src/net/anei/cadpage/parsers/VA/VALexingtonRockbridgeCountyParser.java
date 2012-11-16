@@ -65,8 +65,7 @@ public class VALexingtonRockbridgeCountyParser extends FieldProgramParser {
   }
   
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.contains("CAD")) return false;
+  protected boolean parseMsg(String body, Data data) {
     
     // Strip off data field from end of message
     int pt = body.indexOf("\nMessage");
