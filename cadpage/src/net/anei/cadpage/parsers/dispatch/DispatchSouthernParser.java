@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.dispatch;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -47,14 +48,20 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean inclPlace;
   private boolean inclCross;
   private boolean inclCrossNamePhone;
+  private CodeSet callSet;
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {
-    this(cityList, defCity, defState, DSFLAG_DISPATCH_ID);
+    this(null, cityList, defCity, defState, DSFLAG_DISPATCH_ID);
   }
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState, int flags) {
+    this(null, cityList, defCity, defState, flags);
+  }
+  
+  public DispatchSouthernParser(CodeSet callSet, String[] cityList, String defCity, String defState, int flags) {
     super(cityList, defCity, defState,
           "ADDR/S"+((flags & DSFLAG_LEAD_PLACE) != 0 ? "P" : "") +" CODE? ID? TIME INFO! INFO2");
+    this.callSet = callSet;
     this.leadDispatch = (flags & DSFLAG_DISPATCH_ID) != 0;
     this.optDispatch = (flags & DSFLAG_OPT_DISPATCH_ID) != 0;
     this.unitId = (flags & DSFLAG_UNIT) != 0;
@@ -106,10 +113,19 @@ public class DispatchSouthernParser extends FieldProgramParser {
       if (data.strSupp.length() == 0) {
         data.strCall = "ALERT";
       } else {
-        match = CALL_BRK_PTN.matcher(data.strSupp);
-        if (match.find() && match.start() <= 30) {
-          data.strCall = data.strSupp.substring(0,match.start()).trim();
-          data.strSupp = data.strSupp.substring(match.end()).trim();
+        if (callSet != null) {
+          String call = callSet.getCode(data.strSupp);
+          if (call != null) {
+            data.strCall = call;
+            data.strSupp = data.strSupp.substring(call.length()).trim();
+          }
+        }
+        if (data.strCall.length() == 0) {
+          match = CALL_BRK_PTN.matcher(data.strSupp);
+          if (match.find() && match.start() <= 30) {
+            data.strCall = data.strSupp.substring(0,match.start()).trim();
+            data.strSupp = data.strSupp.substring(match.end()).trim();
+          }
         }
       }
     }
