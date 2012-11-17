@@ -77,7 +77,7 @@ public class VALexingtonRockbridgeCountyParser extends FieldProgramParser {
     body = body.substring(0,match.start());
     
     // And parse what is left
-    if (!parseMsg(body, data)) return false;
+    if (!super.parseMsg(body, data)) return false;
     
     // OK, now lets see what to make of the extra data
     String address2 = null;

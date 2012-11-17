@@ -1242,6 +1242,7 @@ Robert Allen <rallen7779@gmail.com> // New Brunswick County, NJ (B)
 Robert Kemmerer (st47fireguy@gmail.com)(fireguy@ptd.net)
 %%03/09/2012
 Gary Styers (glstyers@gmail.com)
+Paul Poston <kg4who@gmail.com> // market problem
 %%03/12/2012
 Jason Shore <jshore766@gmail.com>
 Charles Walsh <efd7034@gmail.com>
@@ -1595,7 +1596,7 @@ Chief Waldo (waldow@cablespeed.com) // paid by check
 %%11/07/2012
 Elmer Stoltzfus (chief442@intercoursefire.com) (estoltzfusg@aol.com) // PayPal
 %%11/08/2012
-Amy Hicks (amysuehicks@gmail.com) // PayPal for Josh Linville
+Josh Linville (jlinville32@gmail.com) (amysuehicks@gmail.com) // PayPal for Josh Linville
 Ed Dunlap (ed59dunlap@gmail.com) // PayPal
 Jon Remy (jremy3296@gmail.com) <jonr@turnerfire.com> // paid by check with Turner Fire District
 Gerry Manley (manleylawnservice@gmail.com) // paid by check $20 
@@ -1613,7 +1614,9 @@ Angus Duff (angus.duff66@gmail.com) (aduff@everestkc.net) // PayPal
 Peggy Bebeau (bebes73@hotmail.com) // PayPal
 chris crotty <nbfd819@gmail.com> (c1india1@aol.com) // PayPal
 %%11/14/2012
-Chris Balasco (philliezfan1@aim.com) // PayPal
+Chris Balasco (balascoc@gmail.com) (philliezfan1@aim.com) // PayPal
+%%11/16/2012
+Ricky Grizzard (rickygrizzard@gmail.com) <rgrizzard@franklinva.com> // Franklin County, VA
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
@@ -1674,7 +1677,7 @@ Curt Meyer (6127598086)
 Mike Lessard (9522925958)
 Rob Vierling (9522922517)
 
-%2012/Davie County // Switching to county billing as of 10/17/2012
+%2012/Davie County // Switching to county billing as of 10/17/2012 and paid up
 %%05/16/2012
 Mark Hancock            (3369091082)
 Andy Lipscomb           (3363453410)
@@ -1682,7 +1685,7 @@ Joseph Ashburn          (3364774806)
 Jerry Myers             (3369091164)
 Brent Crotts            (3369091408)
 %%07/12/2012
-Brian Whitley           (3364775023)    // Payment pending
+Brian Whitley           (3364775023)
 Robert Peyton           (3364775011)
 Jeff Allen              (3363455645)
 Steve Adams             (3364775025)
@@ -3439,3 +3442,8 @@ Rob Klotz (robby.klotz@gmail.com) <klotz@epime.org>
 %%11/14/2012
 John l cerrito (ccerts.jc@gmail.com) <ccerts2@aol.com>
 annette hall <emtfirefighter22@gmail.com>
+%%11/15/2012
+Chris Boahn <cboahn26@gmail.com>
+haleigh haire <hhaire8493@gmail.com>
+Timothy Haire <tim.haire34@gmail.com>
+jpadmedic (jpadmedic@gmail.com) <jpadmedic@yahoo.com>

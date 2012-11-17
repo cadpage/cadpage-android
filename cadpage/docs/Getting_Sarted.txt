@@ -1,0 +1,33 @@
+Quick getting started instructions for new developers.
+
+Things you will need to install
+1) Eclipse can be found at http://eclipse.org.  You want the Eclipse IDE for Java developers
+2) Eclipse may or may not come bundled with a Java SDK.  If it does not, you will have to install one from somewhere
+3) Apache Ant, which you can get from http://ant.apache.org
+4) The Android SDK, which you can get from http://developer.android.com/sdk/index.html.
+
+If you are just doing parsers, you won't be running much of the Android SDK, but you need the libraries to get project to compile.
+
+The Cadpage project is hosted at http://code.google.com/p/cadpage/.  
+The Source link will show you how to check out the source tree.  
+The Issues link tracks all non-parser issues.  Parser issues are tracked separately.
+
+Check out the main trunk source to a new local directory.
+Open a command shell, switch to the local directory and enter
+ant import
+to import the test code
+Import two new Eclipse projects, one for the cadpage directory and one for the cadpageTest directory.
+
+You should now be able to compile and run the Cadpage app from the cadpage project.  And run the entire
+Junit test suite in the cadpageTest project
+
+So what is this import/export business all about.  The test project source lives in a standard src directory.
+but this source contains thousands of sample 911 emergency pages of real calls to real emergencies at real 
+addresses.  To keep those from showing up in standard Google searches, we do not commit this directory to 
+the archive.  Instead we run it all through a rot13 cypher to a rot13-src directory which is committed to the
+archive.  There are some Ant build files with targets to update these directories from the other.
+
+import - copy any rot13-src changes to src
+export - copy any src changes to rot13
+stat   - perform an export followed by an svn stat.
+update - perform an svn update followed by an import. 

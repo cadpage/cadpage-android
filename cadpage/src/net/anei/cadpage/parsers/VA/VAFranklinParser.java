@@ -20,7 +20,7 @@ public class VAFranklinParser extends DispatchSouthernParser {
 
   @Override
   public String getFilter() {
-    return "mhturner@franklinpolice.org";
+    return "@franklinpolice.org";
   }
   
   @Override
