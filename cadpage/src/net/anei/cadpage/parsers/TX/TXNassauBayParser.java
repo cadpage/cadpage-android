@@ -71,15 +71,17 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   private static final Pattern PVT_DR_PTN = Pattern.compile("\\(PVT.*?\\)(?: *(?:DR|RD)\\b)?", Pattern.CASE_INSENSITIVE);
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CLEMC", "CLEAR LAKE",
       "CS", "CLEAR LAKE SHORES",
       "EL", "EL LAGO",
-      "FB", "FRIENDSWOOD",
+      "FB", "FOREST BEND",
       "FW", "FRIENDSWOOD",
       "HC", "",
       "HO", "NASSAU BAY",
       "LC", "LEAGUE CITY",
       "NB", "NASSAU BAY",
       "SB", "SEABROOK",
+      "SO", "",           // Harris County Sherrifs office
       "WB", "WEBSTER"
   });
 }
