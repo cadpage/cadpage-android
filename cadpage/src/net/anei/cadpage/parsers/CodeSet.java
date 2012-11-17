@@ -37,12 +37,14 @@ public class CodeSet {
     
     // We reversed the tree order so we can accomplish this trick without
     // needing a backward read feature, with Android seems to be lacking
+    String firstWord = new MsgParser.Parser(str).get(' ');
     SortedSet<String> tail =  codeSet.tailSet(str);
-    if (tail.isEmpty()) return null;
-    String key = tail.first();
-    if (str.startsWith(key)) {
-      if (str.length() == key.length() ||
-          str.charAt(key.length()) == ' ') return key;
+    for (String key : tail) {
+      if (str.startsWith(key)) {
+        if (str.length() == key.length() ||
+            str.charAt(key.length()) == ' ') return key;
+      }
+      if (!key.startsWith(firstWord)) break;
     }
     return null;
   }

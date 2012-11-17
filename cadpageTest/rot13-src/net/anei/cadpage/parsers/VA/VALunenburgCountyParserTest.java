@@ -45,8 +45,7 @@ choyvp pynff INYharaohetPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "ISQF-G BGURE GENVAVAT PSF# 2012-005577",
         "FEP:ISQF-G",
-        "PNYY:BGURE",
-        "NQQE:GENVAVAT",
+        "PNYY:BGURE GENVAVAT",
         "VQ:2012-005577");
 
     qbGrfg("G6",
