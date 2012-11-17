@@ -136,6 +136,13 @@ choyvp pynff VAXbfpvhfxbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1827 YN IVFGN QE",
         "PVGL:JNEFNJ");
 
+    qbGrfg("G5",
+        "PNQ:SLV: ;HF 30/PRQNE EQ;OBHE;ZRQVPNY PNYY;11/16/2012 07:10:17",
+        "PNYY:HF 30/PRQNE EQ",
+        "NQQE:OBHE",
+        "NCG:ZRQVPNY PNYY",
+        "PVGL:11/16/2012 07:10:17");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
