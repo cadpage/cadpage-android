@@ -1220,7 +1220,7 @@ choyvp pynff GKAnffnhOnlCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SOSQ",
         "PNYY:NFFVFG OL SVER",
         "NQQE:16834 ZNABJNE",
-        "PVGL:SEVRAQFJBBQ",
+        "PVGL:SBERFG ORAQ",
         "PBQR:SOA",
         "QNGR:11/02/2012",
         "GVZR:13:12:11",

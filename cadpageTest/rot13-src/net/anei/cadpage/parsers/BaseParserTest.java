@@ -504,4 +504,14 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     vag grfgAb = Vagrtre.cnefrVag(gvgyr.fhofgevat(oex)) + 1;
     erghea gvgyr.fhofgevat(0,oex) + Fgevat.sbezng("%" + (gvgyr.yratgu()-oex) + "q", grfgAb);
   }
+  
+  /**
+   * Qhzzl ZftCnefre fhopynff gung vf hfrq gb synt grfg pynffrf sbe juvpu jr qb abg lrg unir
+   * n cnefre jevggra
+   */
+  cebgrpgrq fgngvp pynff AbgErnqlCnefre rkgraqf ZftCnefre {
+    choyvp AbgErnqlCnefre() {
+      fhcre("", "");
+    }
+  }
 }
