@@ -9,20 +9,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYWestchesterCountyParser extends FieldProgramParser {
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "ARMNK", "ARMONK",
-      "BANKS", "BANKSVILLE",
-      "CHAPQ", "CHAPPAQUA",
-      "GNWCH", "GREENWICH,CT",
-      "LARCH", "LARCHMONT",
-      "MAMTW", "MAMARONECK",
-      "MILLW", "MILLWOOD",
-      "PNDRRG", "POUND RIDGE",
-      "PORTC", "PORT CHESTER",
-      "PVILL", "PLEASANTVILLE",
-      "RYE",   "RYE"
-  });
-  
   public NYWestchesterCountyParser() {
     super(CITY_CODES, "WESTCHESTER COUNTY", "NY",
            "ADDR Cross:X! Type:CALL! CALL Time_out:TIME Area:CITY lev:PRI Comments:INFO");
@@ -96,5 +82,69 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "AIRPT",      "WESTCHESTER AIRPRT",
+      "ARCHV",      "ARCHVILLE",
+      "ARDSL",      "ARDSLEY",
+      "ARMNK",      "ARMONK",
+      "BANKS",      "BANKSVILLE",
+      "BEDHL",      "BEDFORD HILLS",
+      "BEDVL",      "BEDFORD",
+      "BCLFM",      "BRIARCLIFF MANOR",
+      "CHAPQ",      "CHAPPAQUA",
+      "CROFL",      "CROTON FALLS",
+      "CROTN",      "CROTON",
+      "DBSFY",      "DOBBS FERRY",
+      "ECHST",      "EASTCHESTER",
+      "ELMSF",      "ELMSFORD",
+      "FAIRV",      "FAIRVIEW",
+      "CNTVL",      "CONTINENTAL",
+      "GBRDG",      "GOLDENS BRIDGE",
+      "GNWCH",      "GREENWICH,CT",
+      "GRASS",      "GRASSLANDS",
+      "GRNVL",      "GREENVILLE",
+      "HARSN",      "HARRISON",
+      "HARTS",      "HARTSDALE",
+      "HASTG",      "HASTINGS",
+      "HAWTH",      "HAWTHORNE",
+      "IRVNG",      "IRVINGTON",
+      "KATNH",      "KATONAH",
+      "LARCH",      "LARCHMONT",
+      "MAMTW",      "MAMARONECK",
+      "MAMVL",      "MAMARONECK",
+      "MILLW",      "MILLWOOD",
+      "MOHGN",      "MOHEGAN",
+      "MONTR",      "MONTROSE",
+      "MTKSC",      "MOUNT KISCO",
+      "MTVRN",      "MOUNT VERNON",
+      "NROCH",      "NEW ROCHELLE",
+      "SLPHL",      "SLEEPY HOLLOW",
+      "NOWPL",      "NORTH WHITE PLAINS",
+      "OSSNG",      "OSSINING",
+      "PKSKL",      "PEEKSKILL",
+      "PELHM",      "PELHAM",
+      "PELMR",      "PELHAM MANOR",
+      "POCHL",      "POCANTICO HILLS",
+      "PORTC",      "PORT CHESTER",
+      "PNDRG",      "POUND RIDGE",
+      "PVILL",      "PLEASANTVILLE",
+      "RYBRK",      "RYE BROOK",
+      "RYE",        "RYE",
+      "SCARS",      "SCARSDALE",
+      "SOMER",      "SOMERS",
+      "SSALM",      "SOUTH SALEM",
+      "TARRY",      "TARRYTOWN",
+      "THRWD",      "THORNWOOD",
+      "VALHA",      "VALHALLA",
+      "VERPL",      "VERPLANCK",
+      "WHRSN",      "WEST HARRISON",
+      "WHPLN",      "WHITE PLAINS",
+      "YKTWN",      "YORKTOWN",
+      "YNKRS",      "YONKERS",
+      "BUCHN",      "BUCHANAN",
+      "VISTA",      "VISTA",
+      "VAHOS",      "MONTROSE"
+  });
 }
 	

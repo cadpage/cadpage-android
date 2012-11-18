@@ -5056,6 +5056,11 @@ Sender: From:bpage@scfa911.org
 (.SCFA Page) RESALM  9025 S BROADWAY ST 1614 Map: J28-49, LE Card # 4233 X-St: KAYSER AVE 0.03 mi NE WALLER AVE 0.11 mi SW  14:51
 [.SCFA Page] SICK CASE 700 AVENUE H ST 1617 Map: K28-49, LE Card # 4013 X-St: LE Card# 4013 10:14
 [.SCFA Page] FALL 815 MARK SHARON CT 1617 Map: L28-49, LE Card # 4158 X-St: LE Card# 4158 13:25
+[.SCFA Page] COMMERCIAL FIRE 4232 LA SALETTE DR, Apt. 1C 1614 1114 19 1710 HL3 1617 GTWY1 1604 Map: L28-49, LE Card # 4141 X-St: LE Card# 4141 19:08
+[.SCFA Page] DIFFICULTY BREATHING 309 SIGSBEE AVE, Apt. APT C 1617 Map: L30-49, LE Card # 4230 X-St: LE Card# 4230 20:23
+[.SCFA Page] ASSAULT DIRT CHEAP AF 8455 GRAVOIS RD 8455 GRAVOIS RD 1617 1134 Map: AF Card# 7015, M27-48 X-St: LAKEWOOD AVE 0.11 mi E LACEY AVE 0.05 mi W 21:32
+[.SCFA Page] ALLERGIC REACTION 777 RIVER CITY CASINO BLVD, Apt. FL 1 1617 Map: J28-49, LE CARD # X-St: LE Card# 4314 23:09
+[.SCFA Page]  CHEST PAIN  308 SOUTHAMPTON DR 1617 Map: K30-49, LE Card # 4234 X-St: LE Card# 4234   02:45
 
 The format is nature of call , street address, then responding unit, local map page coordinates, then running card number, then cross street, some times cross street is blank, then time. These are the only two calls I have right now.
 **********************************************************
