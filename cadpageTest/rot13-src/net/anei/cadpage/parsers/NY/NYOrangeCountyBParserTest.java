@@ -47,6 +47,12 @@ QRCG47     GLC: NAABHAPRZRAG NQ: 25 PUHEPU FG PGL: JNEJVPX I PA: RYZRE OHQQ PZG1
 QRCG47     GLC: NAABHAPRZRAG NQ: 81 ZNVA FG PGL: PURFGRE I PA: OVYY CRGEVPX PZG1: G917 VF ONPX VA FREIVPR NAQ ERYRNFR JNEJVPX JVGU GURVE GUNAXF PZG2: Bevtvany
 QRCG38     GLC: FZBXR VAIRFGVTNGVBA NQ: 4 JEVTUG FG PGL: CBEG WREIVF PA: OVFUBC, PNEBY Y PZG1: PNYYRE FRRF FZBXR NAQ FZRYYF OHEAVAT JBBQ//CBFFVOYL SEBZ OR
 
+Benatr Pbhagl, AL (ercynpr 1 bs gur 4??)
+Pbagnpg: Obo Dhnpxraohfu <eqdhnpxraohfu@pisq-sver.bet>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+1 bs 3\aSEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Pebabzre Inyyrl\aZFT:VAP: S09121115000892 GLC: NAABHAPRZRAG NQ: 296 A CYNAX EQ PGL: ARJOHETU PA: 09P2\a(Pba'g) 2 bs 3\aPZG1: NAL ZRZOREF NINVY SBE N QRCYBLZRAG GB ANFFHN PB SEV ZBEA GB PBAGNPG PNE2 PZG2: OL PRYY GVZR: 18:21 KFG: 1 OREEL YA KFG2: 1 JRLNAGF\a(Pba'g) 3 bs 3\aYA\a\a\aGuvf zrffntr unf orra fpnaarq sbe znyjner.\a\a(Raq)
+
+
 */
 
 choyvp pynff ALBenatrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -347,6 +353,33 @@ choyvp pynff ALBenatrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:CBEG WREIVF",
         "ANZR:OVFUBC, PNEBY Y",
         "VASB:PNYYRE FRRF FZBXR NAQ FZRYYF OHEAVAT JBBQ//CBFFVOYL SEBZ OR");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCnefre2() {
+
+    qbGrfg("G1",
+        "1 bs 3\a" +
+        "SEZ:zrffntvat@vnzerfcbaqvat.pbz\a" +
+        "FHOW:Pebabzre Inyyrl\a" +
+        "ZFT:VAP: S09121115000892 GLC: NAABHAPRZRAG NQ: 296 A CYNAX EQ PGL: ARJOHETU PA: 09P2\a" +
+        "(Pba'g) 2 bs 3\a" +
+        "PZG1: NAL ZRZOREF NINVY SBE N QRCYBLZRAG GB ANFFHN PB SEV ZBEA GB PBAGNPG PNE2 PZG2: OL PRYY GVZR: 18:21 KFG: 1 OREEL YA KFG2: 1 JRLNAGF\a" +
+        "(Pba'g) 3 bs 3\a" +
+        "YA\a\a\a" +
+        "Guvf zrffntr unf orra fpnaarq sbe znyjner.\a\a" +
+        "(Raq)",
+
+        "VQ:S09121115000892",
+        "PNYY:NAABHAPRZRAG",
+        "NQQE:296 A CYNAX EQ",
+        "PVGL:ARJOHETU",
+        "ANZR:09P2",
+        "VASB:NAL ZRZOREF NINVY SBE N QRCYBLZRAG GB ANFFHN PB SEV ZBEA GB PBAGNPG PNE2 / OL PRYY",
+        "GVZR:18:21",
+        "K:1 OREEL YA & 1 JRLNAGF YA");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
