@@ -3111,6 +3111,11 @@ SNRWLC, RFA 9071-54, Firstname Surname, 65 MCCLELLAND ST, WILLOUGHBY, 0433 381 9
 SNRWLC, RFA 9071-17, Firstname Surname, 37 INNES ROAD GREENWICH, 9906 999, TREE FALLEN & WEDGED ON 2 FENCES/SPLIT IN 3. CALL 0242516111
 SNRWLC, RFA 9072-18, Firstname Surname, 75 PARK ROAD NAREMBURN, 9439 999, ROOF GARDEN SHED COME LOOSE AND THREAT FALL.. CALL 0242516111
 ***************************************************************************
+New South Wales, Austrailia (ZAUNewSouthWalesBParser)
+(09 November 2012 19:20:08 INCIDENT CALL ...) 09 November 2012 19:20:08 INCIDENT CALL WINMALEE - RESPOND TO STRUCTURE FIRE, 74 MURU AVE, WINMALEE.
+(22 October 2012 05:19:47 INCIDENT CALL W...) 22 October 2012 05:19:47 INCIDENT CALL WINMALEE - RESPOND TO CAR ALIGHT
+(09 October 2012 10:20:50 INCIDENT CALL -...) 09 October 2012 10:20:50 INCIDENT CALL - RESPOND TO MVA HEATHER RD X HAWKESBURY RD WINMALEE
+***************************************************************************
 New Zealand (ZNZNewZealandParser)
 (KAMO191, KAMO192, WHAN124) POLICE-STRU (Box -19-04) HURUPAKI SCHOOL 20 DIP RD KAMO. (XStr THREE MILE BUSH RD/ITI ST) .ROOF FIRE. #F1269133
 (KAMO192) 111-MIN 58 EDEN TCE KAMO. (XStr MARIPOSA PL/LOGAN PL) .CARPORT ON FIRE PRESSUMED OUT OPP. #F1269009
@@ -5311,3 +5316,5 @@ s calhan rd/judge orr OUTSIDE FIRE SOUTH OF IX  blk smoke rising vertical\r\n
 **********************************************************
 * EOF
 **********************************************************
+
+
