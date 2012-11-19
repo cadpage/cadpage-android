@@ -14,6 +14,7 @@ Fraqre: mbyy@tbyqpebff.bet
 (Tbyq Pebff Nyreg - cneg 1 bs 1) EP:220 NPUVRIRZRAG QE//OEVYYVBA/Aba Rzretrapl/Snyy Ivpgvz//<Abar>/Eha# 10637/04:21/911 Pnyy (Pbhagl)//
 (Tbyq Pebff Nyreg - cneg 1 bs 1) EP:130 PNYHZRG FG//OEVYYVBA/Aba Rzretrapl/Nyyretvrf/jnyx va j/ orr fgvat/ qbrf abg jnag gb or genafcbegrq ol nzohynapr/<Abar>/Eh
 (Tbyq Pebff Nyreg - cneg 1 bs 1) EP:306 A ZNVA FG//OEVYYVBA/Aba Rzretrapl/Fvpx Crefba//<Abar>/Eha# 11405/02:22/911 Pnyy (Pbhagl)//
+(Tbyq Pebff Nyreg - cneg 1 bs 1) EP:210 F CNEXJNL QE//OEVYYVBA/Aba Rzretrapl/Fvpx Crefba/ABA-RZRETRAPL/SRZNYR QVSSVPHYGL OERNGUVAT 81LBN/<Abar>/Eha# 16362/16:28/
 
 ** Abg Cnefvat **
 (Tbyq Pebff Nyreg - cneg 1 bs 1) EP:Wbo# 0028-N (Eha# 12637) Nyreg: Fcrpvny Vafgehpgvbaf: QBRF ABG TRBPBQR - ERFCBAFR MBAR VF 34-PVGL BS
@@ -76,6 +77,14 @@ choyvp pynff JVPnyhzrgPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Aba Rzretrapl / Fvpx Crefba",
         "VQ:11405",
         "GVZR:02:22");
+
+    qbGrfg("G7",
+        "(Tbyq Pebff Nyreg - cneg 1 bs 1) EP:210 F CNEXJNL QE//OEVYYVBA/Aba Rzretrapl/Fvpx Crefba/ABA-RZRETRAPL/SRZNYR QVSSVPHYGL OERNGUVAT 81LBN/<Abar>/Eha# 16362/16:28/",
+        "NQQE:210 F CNEXJNL QE",
+        "PVGL:OEVYYVBA",
+        "PNYY:Aba Rzretrapl / Fvpx Crefba / ABA-RZRETRAPL / SRZNYR QVSSVPHYGL OERNGUVAT 81LBN",
+        "VQ:16362",
+        "GVZR:16:28");
 
   }
   

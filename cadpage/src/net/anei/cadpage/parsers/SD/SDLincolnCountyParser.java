@@ -15,7 +15,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class SDLincolnCountyParser extends SmartAddressParser {
   
   private static final Pattern CALL_ID_PTN = Pattern.compile("^\\{?(\\d\\d-\\d+)\\b\\}?");
-  private static final Pattern MASTER_PTN = Pattern.compile("\\{?(.*?)\\}? *(?:\n| - )(.*)");
+  private static final Pattern MASTER_PTN = Pattern.compile("\\{?(.*?)\\}? *(\n| - )(.*)");
   private static final Pattern STANDBY_PTN = Pattern.compile("^STANDBY +(?:AT +)", Pattern.CASE_INSENSITIVE);
   private static final Pattern CITY_ST_PTN = Pattern.compile("^([A-Z ]+)\\b *, *([A-Z]{2})(?: +\\d{5})?", Pattern.CASE_INSENSITIVE);
   private static final Pattern INFO_JUNK_PTN = Pattern.compile(" *Please respond immediately\\.? *", Pattern.CASE_INSENSITIVE);
@@ -47,11 +47,13 @@ public class SDLincolnCountyParser extends SmartAddressParser {
     }
     data.strCall = subject;
     
-    String info = null;
+    String info = "";
+    boolean hardBreak = false;
     match = MASTER_PTN.matcher(body);
     if (match.matches()) {
       body = match.group(1).trim();
-      info = match.group(2).trim();
+      hardBreak = match.group(2).equals("\n");
+      info = match.group(3).trim();
     }
 
     // Check for leading STANDBY qualifier
@@ -67,11 +69,11 @@ public class SDLincolnCountyParser extends SmartAddressParser {
       
       // Use the smart address parser to try and find and address
       // if unsuccessful, return false.  If successful, mark as good
-      if (info == null) {
-        parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, body, data);
-        info = getLeft();
-      } else {
+      if (hardBreak) {
         parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, body, data);
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, body, data);
+        info = append(getLeft(), " - ", info);
       }
       if (!good && getStatus() == 0 &&
            (!isPositiveId() || info.length() == 0)) return false;
@@ -92,7 +94,7 @@ public class SDLincolnCountyParser extends SmartAddressParser {
         body = body.substring(match.end()).trim();
         if (info == null) info = body;
         else info = append(body, " / ", info);
-      } else if (info != null) {
+      } else if (info.length() > 0) {
         data.strCity = body;
         if (!CITY_SET.contains(data.strCity.toUpperCase())) return false;
       } else {
