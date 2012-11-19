@@ -15,14 +15,28 @@ public class NYSullivanCountyParser extends FieldProgramParser {
     
     @Override
     public String getFilter() {
-      return "911@co.sullivan.ny.us";
+      return "911@co.sullivan.ny.us,messaging@iamresponding.com";
     }
 
 	  @Override
 	  protected boolean parseMsg(String subject, String body, Data data) {
-	    
-	    if (!subject.equalsIgnoreCase("911 Page")) return false;
+	    do {
+	      if (subject.equalsIgnoreCase("911 Page")) break;
+	      
+	      if (subject.startsWith("Station ")) {
+	        data.strSource = subject.substring(8).trim();
+	        break;
+	      }
+	      
+	      return false;
+	      
+	    } while (false);
 	    return super.parseMsg(body, data);
+	  }
+	  
+	  @Override
+	  public String getProgram() {
+	    return "SRC " + super.getProgram();
 	  }
 	  
 	  class MyCityField extends CityField {
