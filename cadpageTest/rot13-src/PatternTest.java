@@ -6,10 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE = 
-      Cnggrea.pbzcvyr("\\(([N-M0-9, ]+)\\) *([N-M0-9]+-[N-M]+) (?:\\((Nynez Glcr [-N-M0-9 ]+)\\) *)?(?:\\(Obk ([-N-M0-9]+)\\) *)?([-N-M0-9 ]+?) *\\. *(?:(ARNE [- N-M0-9]+)\\. *)?(?:\\(KFge +([-N-M0-9/ ]*)\\) *)?(?:\\.([-N-M0-9 /\\.]+)\\. *)?#(S\\q+)");
-  
+      Cnggrea.pbzcvyr(",? +([N-M]{2} +Pneq ?#(?: ?\\q+\\o)?)", Cnggrea.PNFR_VAFRAFVGVIR);
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("(JNVG671, JNVG672, GRNG664) CSN-FCEAXYE (Nynez Glcr GUREZNY/FZ) (Obk -P67-4) JRFGOEVQTR ERFVQRAGVNY FPUBBY 488R QBA OHPX EQ ZNFFRL. ARNE ORNHPUNZC EQ. (KFge ORNHPUNZC QE/EHFU PERRX QE) #S1268862");
+    qbGrfg("[.FPSN Cntr] NYYRETVP ERNPGVBA 777 EVIRE PVGL PNFVAB OYIQ, Ncg. SY 1 1617 Znc: W28-49, YR PNEQ # K-Fg: YR Pneq# 4314");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

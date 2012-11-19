@@ -5039,6 +5039,11 @@ Contact: Scott Sigerfoos <ssigerfoos@mtems.com>
 Sender: CAD@co.marshall.in.us
 CAD:FYI: ;US 30/CEDAR RD;BOUR;MEDICAL CALL;11/16/2012 07:10:17
 **********************************************************
+Orange County, NY (replace 1 of the 4??)
+Contact: Bob Quackenbush <rdquackenbush@cvfd-fire.org>
+Sender: messaging@iamresponding.com
+Body: 1 of 3\nFRM:messaging@iamresponding.com\nSUBJ:Cronomer Valley\nMSG:INC: F09121115000892 TYP: ANNOUNCEMENT AD: 296 N PLANK RD CTY: NEWBURGH CN: 09C2\n(Con't) 2 of 3\nCMT1: ANY MEMBERS AVAIL FOR A DEPLOYMENT TO NASSUA CO FRI MORN TO CONTACT CAR2 CMT2: BY CELL TIME: 18:21 XST: 1 BERRY LN XST2: 1 WEYANTS\n(Con't) 3 of 3\nLN\n\n\nThis message has been scanned for malware.\n\n(End)
+
 **********************************************************
 **********************************************************
 **********************************************************

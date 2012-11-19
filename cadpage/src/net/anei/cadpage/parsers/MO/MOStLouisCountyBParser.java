@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.MO;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -9,82 +10,109 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MOStLouisCountyBParser extends FieldProgramParser {
   
+  private static final Pattern TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)$");
+  private static final Pattern CARD_PTN = Pattern.compile(",? +([A-Z]{2} +Card ?#(?: ?\\d+\\b)?)", Pattern.CASE_INSENSITIVE);
+  
   public MOStLouisCountyBParser() {
     super("ST LOUIS COUNTY", "MO",
-          "CALL CALL ADDR UNIT! MapRegions:MAP! CrossStreets:X Call_Number:ID");
+          "ADDR/SCU! Map:MAP! X-St:X");
   }
   
   @Override
   public String getFilter() {
-    return "alert@scfa911.org";
+    return "bpage@scfa911.org";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Dispatch")) return false;
-    body = body.replace(" CrossStreets:", "\nCrossStreets:");
-    return parseFields(body.split("\n"), 5, data);
+    if (!subject.equals(".SCFA Page")) return false;
+    Matcher match = TIME_PTN.matcher(body);
+    if (!match.find()) return false;
+    data.strTime = match.group(1);
+    body = body.substring(0,match.start());
+    
+    StringBuffer sb = new StringBuffer();
+    match = CARD_PTN.matcher(body);
+    while (match.find()) {
+      String card = match.group(1);
+      if (!card.endsWith("#") && data.strSupp.length() == 0) data.strSupp = card;
+      match.appendReplacement(sb, "");
+    }
+    match.appendTail(sb);
+    body = sb.toString();
+    
+    return super.parseMsg(body, data);
   }
   
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " INFO TIME";
+  }
+  
+  private static final Pattern UNIT_PATTERN = Pattern.compile(" +(\\d{4}\\b.*?)$");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       String sApt = null;
+      int flags = 0;
       int pt = field.indexOf(',');
       if (pt >= 0) {
-        sApt = field.substring(pt+1).trim();
-        if (sApt.startsWith("Apt. ")) sApt = sApt.substring(5).trim();
-        if (sApt.startsWith("APT ")) sApt = sApt.substring(4).trim();
-        field = field.substring(0,pt).trim();
+        flags |= FLAG_ANCHOR_END;
+        String left = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim(); 
+        if (left.startsWith("Apt. ")) {
+          left = left.substring(5).trim();
+          Parser p = new Parser(left);
+          sApt = p.get(' ');
+          if (sApt.equals("APT")) sApt = p.get(' ');
+          else if (sApt.equals("FL") || sApt.equals("BLD")) {
+            sApt = sApt + ' ' + p.get(' ');
+          }
+          data.strUnit = p.get();
+        }
       }
-      super.parse(field, data);
+      
+      // Avenue H is a problem
+      field = field.replace("AVENUE H", "AVENUE-H").replace("AVE H", "AVE-H");
+      parseAddress(StartType.START_CALL, flags | FLAG_NO_IMPLIED_APT, field, data);
+      if (data.strUnit.length() == 0) {
+        if (data.strUnit.startsWith(data.strAddress)) data.strUnit = data.strUnit.substring(data.strAddress.length()).trim();
+        data.strUnit = getLeft();
+      }
+      
+      if (data.strUnit.length() == 0) {
+        Matcher match = UNIT_PATTERN.matcher(data.strAddress);
+        if (match.find() && match.start() > 0) {
+          data.strUnit = match.group(1);
+          data.strAddress = data.strAddress.substring(0,match.start());
+        }
+      }
+      
       if (sApt != null) {
         data.strApt = append(data.strApt, "-", sApt);
       }
-    }
-  }
-  
-  private static final Pattern MAP_PTN = Pattern.compile("[A-Z]\\d\\d-\\d\\d");
-  private class MyMapField extends MapField {
-    @Override
-    public void parse(String field, Data data) {
-      int pt = field.indexOf(',');
-      if (pt >= 0) {
-        String p1 = field.substring(0,pt).trim();
-        String p2 = field.substring(pt+1).trim();
-        if (MAP_PTN.matcher(p1).matches()) {
-          field = p1;
-          data.strSupp = p2;
-        } else if (MAP_PTN.matcher(p2).matches()) {
-          field = p2;
-          data.strSupp = p1;
-        }
-      }
-      super.parse(field, data);
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "MAP INFO";
-    }
-  }
-  
-  private static final Pattern CARD_PTN = Pattern.compile("\\b[A-Z]{2} Card# \\d{4} 0\\.00 mi\\b");
-  private class MyCrossField extends CrossField {
-    @Override
-    public void parse(String field, Data data) {
-      field = CARD_PTN.matcher(field).replaceAll("").trim();
-      field = field.replaceAll("  +", " ");
-      super.parse(field, data);
       
+      data.strAddress = data.strAddress.replace("AVENUE-H", "AVENUE H").replace("AVE-H", "AVE H");
+    }
+  }
+  
+  private class MyBoxField extends BoxField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals(data.strBox)) return;
+      data.strBox = append(data.strBox, ",", field);
     }
   }
 
   @Override
   protected Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("MAP")) return new MyMapField();
-    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("BOX")) return new MyBoxField();
     return super.getField(name);
   }
 }
