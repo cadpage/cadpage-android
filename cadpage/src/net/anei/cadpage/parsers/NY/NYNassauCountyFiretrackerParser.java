@@ -10,11 +10,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   
   private static final Pattern FFD_MARKER = Pattern.compile("^\\*\\* FFD [^\\*]+ \\*\\* ");
-  private static final Pattern FD_MARKER = Pattern.compile("^\\*{0,2}([A-Z]{1,3}FD)\\*{0,2} +");
+  private static final Pattern FD_MARKER = Pattern.compile("^\\*\\* *([A-Z]{3,4})(?: ([ A-Z0-9]+?))? *\\*\\* +");
   
   public NYNassauCountyFiretrackerParser() {
     super("NASSAU COUNTY", "NY", 
-           "ADDR/SCP! C/S:X TOA:TIME Town_Of:CITY");
+           "ADDR/SCP! C/S:X DATE:DATE TOA:TIME Town_Of:CITY");
   }
   
   @Override
@@ -64,6 +64,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
       }
       if ((match = FD_MARKER.matcher(body)).find()) {
         data.strSource = match.group(1);
+        data.strCall = getOptGroup(match.group(2));
         body = body.substring(match.end()).trim();
         break;
       }
@@ -72,7 +73,12 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
     
     body = body.replace('\n', ' ');
 
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strAddress.length() == 0) {
+      parseAddress(data.strCross, data);
+      data.strCross = "";
+    }
+    return true;
   }
   
   private static final Pattern APT_PTN = Pattern.compile("\\bAPT ([^ ]+)\\b");
@@ -84,22 +90,49 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
         data.strApt = match.group(1);
         field = field.substring(0,match.start()) + field.substring(match.end());
       }
-      super.parse(field, data);
+      
+      StartType st = StartType.START_CALL;
+      int flags = FLAG_START_FLD_REQ;
+      String connect = " - ";
+      while (field.length() > 0) {
+        int stchr = field.charAt(0);
+        if (stchr != '[' && stchr != '(') break;
+        int pt = field.indexOf(stchr == '[' ? ']' : ')', 1);
+        if (pt < 0) break;
+        String call = stchr == '[' ? field.substring(1,pt).trim() : field.substring(0,pt+1);
+        if (!data.strCall.equals(call)) {
+          data.strCall = append(data.strCall, connect, call);
+        }
+        field = field.substring(pt+1).trim();
+        st = StartType.START_PLACE;
+        flags = 0;
+        connect = " ";
+      }
+      parseAddress(st, flags, field, data);
+      data.strPlace = append(data.strPlace, " - ", getLeft());
     }
   }
   
+  private  static final Pattern CROSS_MAP_PTN = Pattern.compile("^[A-Z]-\\d\\b");
   private class MyCrossField extends CrossField {
     
     @Override
     public void parse(String field, Data data) {
+      field = field.replace("-DEAD END-", " DEAD END ").replaceAll("  +", " ");
       Parser p = new Parser(field);
-      data.strSupp = p.getLastOptional(" - ");
-      super.parse(p.get(), data);
+      super.parse(p.get(" - "), data);
+      String extra = p.get();
+      Matcher match = CROSS_MAP_PTN.matcher(extra);
+      if (match.find()) {
+        data.strMap = match.group();
+        extra = extra.substring(match.end()).trim();
+      }
+      data.strCall = append(data.strCall, " - ", extra);
     }
     
     @Override
     public String getFieldNames() {
-      return "X INFO";
+      return "X MAP CALL";
     }
   }
   
@@ -108,7 +141,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
       data.strTime = p.get(' ');
-      data.strDate = p.get();
+      if (data.strDate.length() == 0) data.strDate = p.get();
     }
   }
   

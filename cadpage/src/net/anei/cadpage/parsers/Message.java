@@ -90,6 +90,7 @@ public class Message {
     Pattern.compile("^(\\d)/(\\d)$")
   };
   private static final Pattern OPT_OUT_PTN = Pattern.compile("TXT STOP.*$");
+  private static final Pattern CONT_PTN = Pattern.compile("\\(C.* \\d\\d? of \\d\\d?");
   
   private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
     Pattern.compile("^(?:\\*.*\\*)?([\\w\\.]+@[\\w\\.]+)( +/ +/ +)"),
@@ -221,7 +222,7 @@ public class Message {
               boolean skipBreak = false;
               for ( ndx++; ndx < lines.length; ndx++) {
                 line = lines[ndx];
-                if (line.startsWith("(Con")) {
+                if (CONT_PTN.matcher(line).matches()) {
                   skipBreak = true;
                 } else {
                   if (sb.length() > 0) {

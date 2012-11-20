@@ -510,6 +510,7 @@ public class MsgInfo {
   private static final Pattern SR_PTN = Pattern.compile("\\bSR\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern TP_PTN = Pattern.compile("\\bTP\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern PA_PTN = Pattern.compile("\\bPA\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern PLAZ_PTN = Pattern.compile("\\bPLAZ\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern NEAR_PTN = Pattern.compile("\\b(?:NEAR|OFF)\\b", Pattern.CASE_INSENSITIVE);
   private String cleanStreetSuffix(String sAddr) {
     
@@ -537,6 +538,7 @@ public class MsgInfo {
     sAddr = replace(sAddr, SR_PTN, "ST");
     sAddr = replace(sAddr, TP_PTN, "TPK");
     sAddr = replace(sAddr, PA_PTN, "PATH");
+    sAddr = replace(sAddr, PLAZ_PTN, "PLAZA");
     
     // Some alterations are suppressed by different parsers to meet local
     // requirements
