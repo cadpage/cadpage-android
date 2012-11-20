@@ -4,6 +4,107 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Uneevf Pbhagl RFQ #1, GK
+Pbagnpg: Anguna Zngurjf <aozngurjf807@tznvy.pbz>
+Pbagnpg: Evpul Unapbpx <evpul@uhssznasver.bet>
+Pbagnpg: Raavb Cbagr <RCbagr@punaaryivrjsver.pbz>
+Fraqre: pnqabercyl@cebkl.uprp.pbz
+Fraqre: 930010aa
+VQ#:11-06-20685 - - GENFU SVER - 111 Onlbh Qe - Ncg:P - Oyqt: - Xrl Znc: 498Q - Pebff Fgerrgf:RNFG SJL/ZNEXRG - Obk #:2002
+VQ#:11-06-20710 - - SVER - CerNyreg - 16217 Evqyba - Ncg: - Oyqt: vagen FREIVPRF - Xrl Znc: 498P - Pebff Fgerrgf:FURVYN YA/JBBQYNAQ Q
+VQ#:11-06-20658 - - 29N1 ZBGBE IRUVPYR N - Rnfg Sjl / Qryyqnyr - Ncg: - Oyqt: - Xrl Znc: 498R - Pebff Fgerrgf: - Obk #:2004
+VQ#:11-06-20627 - - 29N1 ZBGBE IRUVPYR N - 16410 Nir Q - Ncg:1 - Oyqt: NIR Q NCGF - Xrl Znc: 498Q - Pebff Fgerrgf:JBBQYNAQ QE/PRQNE Y
+
+VQ#:11-07-25331 - - NYNEZF - 1518 Terng Qbire Pve - Ncg: - Oyqt: - Xrl Znc: 458J
+VQ#:11-07-25341 - 06Q02 - 6Q1 ERFCVENGBEL - 11870 Terraybpu Ya - Ncg: - Oyqt: - Xrl Znc: 416X - Pebff Fgerrgf:TERRAPNALBA QE/TERRAEBP 
+VQ#:11-07-25342 - 25N01 - CFLPUVNGEVP - 15215 F Oeragjbbq Qe - Ncg: - Oyqt: - Xrl Znc: 498R - Pebff Fgerrgf:Qrnq Raq/QRYYQNYR - Obk #:2004
+VQ#:11-07-25378 - - Fgebxr (PIN) - 11715 Terratyra Qe - Ncg: - Oyqt: - Xrl Znc: 416X - Pebff Fgerrgf:WBUA ENYFGBA EQ/TERRAEBPX YA - O 
+VQ#:11-07-25416 - - URZBEEUNTR/YNPRENGVB - 12370 F Fna Pvepyr Qe - Ncg: - Oyqt: HAX GENVYRE CNEX - Xrl Znc: 456P - Pebff Fgerrgf:ONEX 
+VQ#:11-08-25733 - 55O04 - RYRPGEVPNY UNMNEQ - 16102 R Vu 10 - Ncg: - Oyqt: BYQ EVIRE PUHEPU QNL - Xrl Znc: 498T - Pebff Fgerrgf:VU 10 RNFG ONLBH ENZC/VU 10 FU -
+VQ#:11-08-25969 - 29Q02z - 29Q5 ZBGBE IRUVPYR N - 539 F Furyqba Eq - Ncg: - Oyqt: - Xrl Znc: 498X - Pebff Fgerrgf:WNPVAGB CBEG OYIQ/ZNEXRG - Obk #:2001
+VQ#:11-08-25936 - 29O04 - Genssvp/Genaf Vapvqr - R OJ 8 A / JBBQSBERFG OJ 8 AO - Ncg: - Oyqt: - Xrl Znc: 457L - Pebff Fgerrgf: - Obk #:2005
+VQ#:11-08-26006 - - Pvgvmra Nffvfg - 5500 R Oj 8 A - Ncg: - Oyqt: ovt grk fgbentr - Xrl Znc: 457L - Pebff Fgerrgf:OJ 8 AO JNYYVFIVYYR RKVG ENZC/ - Obk #:2005
+VQ#:11-08-28674 - Havgf:Z151 - 32O01 - 32O1 HAXABJA CEBOYRZ - 606 Pbzzbaf Ivfgn Qe - Ncg: - Oyqt: - Xrl Znc: 298D - Pebff Fgerrgf:PBZ
+VQ#:11-08-29430 - - SNYYF - 17015 Snevat Eq - Ncg: - Oyqt: - Xrl Znc: 418K - Peb
+VQ#:11-08-29436 - - NYNEZF - 1714 Uvqqra Greenpr Qe - Ncg: - Oyqt: - Xrl Znc: 458F - Pebff Fgerrgf:UVQQRA PERFG QE/UVQQRA ZNABE Q - Obk #:2005
+VQ#:11-08-26039 - - SHRY FCVYY - 15880 Jnyyvfivyyr Eq - Ncg: - Oyqt: YRTRAQ BNXF - RNFG - Xrl Znc: 457I - Pebff Fgerrgf:UVQQRA CNEX QE/ULNPVAGU CNGU J - Obk #:2005
+VQ#:11-08-26105 - 21O01 - URZBEEUNTR/YNPRENGVB - 11803 Terrazrfn Qe - Ncg: - Oyq
+VQ#:11-08-26080 - 13Q01 - QVNORGVP CEBOYRZF - 10710 Terra Evire Qe - Ncg: - Oyqt
+VQ#:11-08-26159 - - Fgno / TFJ (O) - 919 Ubyorpu - Ncg: - Oyqt: - Xrl Znc: 497Q
+VQ#:11-08-26160 - - URNEG CEBOYRZF - 9402 Noobgfunyy Ya - Ncg: - Oyqt: - Xrl Znc: 456Q - Pebff Fgerrgf:NEOBE SVRYQ YA/FGBARSVRYQ ZNAB - Obk #:3304
+
+ 1 bs 2\aSEZ:pnqabercyl@cebkl.uprp.pbz\aZFT:VQ#:12-06-21170 - 67Q02 - 67Q2 YT TENFF NAQ JB - HF 90 / FURYQBA HF 90 ENZC - Ncg: - Oyqt: - Xrl Znc:\a(Pba'g) 2 bs 2\a458P - Pebff Fgerrgf: - Obk #:3304(Raq)
+
+VQ#:11-08-29410 - Nqqerff punatrq gb:hinyqr/xvafzna - Pebff Fgerrgf: - Xrl Znc:ABG S
+VQ#:11-08-26067 - Nqqerff punatrq gb:620 FURYQBA EQ - Pebff Fgerrgf:NIR P/EVQYBA - Xrl Znc:498O
+VQ#:11-08-26080 - Nqqerff punatrq gb:10710 Terraf Pebffvat Oyiq - Pebff Fgerrgf
+
+VQ#:11-08-29436 - HAVG:Y32 - QVFC: 21:06:25 - RE: - BHG: - GB: - NG: - NVE: 21:0
+SEZ:pnqabercyl@cebkl.uprp.pbz\aZFT:VQ#:12-06-21170- HAVG:R13 - QVFC: 11:19:11 - RE: - BHG: - NVE: 11:23:42
+SEZ:pnqabercyl@cebkl.uprp.pbz\aZFT:VQ#:12-06-21170- HAVG:OEH23 - QVFC: 10:57:35 - RE: - BHG: - NVE: 11:23:56
+
+Pbagnpg: Npgvir911
+[] VQ#:12-06-23555 - - 60O1 TNF YRNX/BQBE ( - 11000 R Pnany Eq - Ncg: - Oyqt: - Xrl Znc: 460W - Pebff Fgerrgf:BNX NIR/UBYYL QE - Obk #:1705\a
+[]  VQ#:12-06-23555 - Nqqerff punatrq gb:1100 R PNANY EQ - Pebff Fgerrgf:BNX NIR/UBYYL QE - Xrl Znc:460W\a
+[]  VQ#:12-06-23588 - Nqqerff punatrq gb:BEYRNAF FG / PBGGBAGNVY QE - Pebff Fgerrgf: - Xrl Znc:420J\a
+[]  VQ#:12-06-23588 - Nqqerff punatrq gb:630 PBGGBAGNVY QE - Pebff Fgerrgf:WBNA BS NEP FG/BEYRNAF FG - Xrl Znc:419M\a
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Nyqvar Sver Qrcnegzrag Ybpngvba: Nyqvar, GK 
+Fraqre: pnqabercyl@cebkl.uprp.pbz
+
+VQ#:12-07-26086 - HAVG:TCR1 - Pnyy Epiq: 10:35:44 - QVFC: 10:47:25 - RE: - BHG: - GB: - NG: - NVE: 10:57:50
+VQ#:12-07-26106 - HAVG:R11 - QVFC: 12:30:22 - RE: - BHG: - NVE: 12:31:28
+VQ#:12-07-26109 - HAVG:R31 - Pnyy Epiq: 12:37:33 - QVFC: 12:38:15 - RE: - BHG: - GB: - NG: - NVE: 12:44:01
+VQ#:12-07-26309 - HAVG:R31 - Pnyy Epiq: 22:36:45 - QVFC: 22:37:39 - RE: 22:40:01 - BHG: 22:47:50 - GB: - NG: - NVE: 23:05:03
+VQ#:12-07-26353 - HAVG:FD31 - Pnyy Epiq: 06:57:00 - QVFC: 06:58:43 - RE: - BHG: 07:06:50 - GB: - NG: - NVE: 07:11:00
+VQ#:12-07-26416 - HAVG:R21 - Pnyy Epiq: 16:40:37 - QVFC: 16:41:39 - RE: 16:43:12 - BHG: 16:44:28 - GB: - NG: - NVE: 17:19:35
+
+VQ#:12-07-26090 - - SVER - CerNyreg - 2409 Sbyrl Eq - Ncg: - Oyqt: PEBFOL SVER FGNGVBA - Xrl Znc: ABG S - Pebff Fgerrgf:OEVQTRJBBQ QE/FHZZVG GENVY EQ - Obk #:8004
+ VQ#:12-07-26090 - Nqqerff punatrq gb:123 GRFG FGERRG - Pebff Fgerrgf:Qrnq Raq/Qrnq Raq - Xrl Znc:496X
+ VQ#:12-07-26090 - Nqqerff punatrq gb:5335 NYQVAR ORAQRE EQ - Pebff Fgerrgf:PEBFFJVAQF QE/FHEYRF QE - Xrl Znc:374M
+TCZ1 - - ZRQVPNY - CerNyreg - 5335 NYQVAR ORAQRE EQ - Ncg: - Oyqt: GVZORE EVQ - Xrl Znc:374M - Pebff Fgerrgf:PEBFFJVAQF QE/FHEYRF QE - Obk #:2601
+ VQ#:12-07-26090 - Nqqerff punatrq gb:123 F QVNZBAQURNQ OYIQ - Pebff Fgerrgf:PBENY ONL FG/CBEG BPNYY FG - Xrl Znc:419P
+VQ#:12-07-26090 - - ZRQVPNY - CerNyreg - 123 F QVNZBAQURNQ OYIQ - Ncg: - Oyqt: - Xrl Znc: 419P - Pebff Fgerrgf:PBENY ONL FG/CBEG BPNYY FG - Obk #:8005
+FD31 - 31Q03 - 31Q3 HAPBAFPVBHF CNE - 433 Abegucnex Prageny Qe - Ncg: - Oyqt: MBLGB - Xrl Znc:332L - Pebff Fgerrgf:ABEGUIVRJ CNEX QE/JBBQUNZ QE - Obk #:1101
+R11 - 69Q06G - 69Q6 SVER VA GUR ER - 4723 Pvpnqn Ya - Ncg: - Oyqt: - Xrl Znc:414T - Pebff Fgerrgf:OBERNF/PEVRSSR EQ - Obk #:2506
+ VQ#:12-07-26186 - Nqqerff punatrq gb:4715 PVPNQN YA - Pebff Fgerrgf:OBERNF/PEVRSSR EQ - Xrl Znc:414T
+FD31 - 06R01 - 6R1 ERFCVENGBEL - 503 Fnyzn Pg - Ncg: - Oyqt: - Xrl Znc:372U - Pebff Fgerrgf:Qrnq Raq/QRFREG ZNEVTBYQ QE - Obk #:1103
+FD31 - - 12N1 FRVMHERF - 15516 Znegvarnh Fg - Ncg: - Oyqt: - Xrl Znc:373E - Pebff Fgerrgf:ZNEIRYY QE/TERRAOEVNE PBYBAL Q - Obk #:1106
+R11 - 12P01R - 12P1 FRVMHERF - 15516 Znegvarnh Fg - Ncg: - Oyqt: - Xrl Znc:373E - Pebff Fgerrgf:ZNEIRYY QE/TERRAOEVNE PBYBAL Q - Obk #:1106
+R11 - 69Q01 - 69Q1 FGEHPGHER SVER - 12345 Ivpxrel Fg - Ncg: - Oyqt: BYRFBA RYR - Xrl Znc:414T - Pebff Fgerrgf:PUNEEVGBA QE/NYQVAR ZNVY EQ - Obk #:2506
+R31 - 29Q02z - 29Q2 ZBGBE IRUVPYR N - 14900 Abegu Sjl - Ncg: 203 - Oyqt: INYHR CYNP - Xrl Znc:372P - Pebff Fgerrgf:Qrnq Raq/NVEGRK RAGE AO 45 - Obk #:1103
+R11 - - 69Q6 SVER VA GUR ER - 823 Onaqba Ya - Ncg: - Oyqt: - Xrl Znc:372U - Pebff Fgerrgf:CENVEVR YNEXFCHE QE/ERZVATGBA - Obk #:1103
+FD31 - - 29N1 ZBGBE IRUVPYR N - Uneql Gbyy Eq / Enaxva Uneql Gbyy E - Ncg: - Oyqt: - Xrl Znc:373S - Pebff Fgerrgf: - Obk #:1104
+ - - 29N1 ZBGBE IRUVPYR N - A Fnz Ubhfgba Cxjl R / Uneql Oj 8 J - Ncg: - Oyqt: - Xrl Znc:373F - Pebff Fgerrgf: - Obk #:4102
+R11 - - 29N1 ZBGBE IRUVPYR N - A Fnz Ubhfgba Cxjl R / Uneql Oj 8 J - Ncg: - Oyqt: - Xrl Znc:373F - Pebff Fgerrgf: - Obk #:4102
+FD31 - 29Q02a - 29Q2 ZBGBE IRUVPYR N - R Uneql Eq / A Fnz Ubhfgba Cxjl R - Ncg: - Oyqt: GUR CVG UN - Xrl Znc:373G - Pebff Fgerrgf: - Obk #:1106
+FD31 - - OERNGUVAT CEBOYRZF - 17630 Jnlsberfg Qe - Ncg: 390 - Oyqt: NTHFGN - Xrl Znc:373W - Pebff Fgerrgf:UNEIRFG GVZR YA/EVPUPERFG QE - Obk #:1106
+R11 - 06P01N - 6P1 ERFCVENGBEL - 17630 Jnlsberfg Qe - Ncg: 390 - Oyqt: NTHFGN - Xrl Znc:373W - Pebff Fgerrgf:UNEIRFG GVZR YA/EVPUPERFG QE - Obk #:1106
+FD31 - - 29N1 ZBGBE IRUVPYR N - R Evpurl Eq / Bvy Pragre Oyiq - Ncg: - Oyqt: - Xrl Znc:333K - Pebff Fgerrgf: - Obk #:1102
+FD31 - - 29N1 ZBGBE IRUVPYR N - 16600 R Uneql Eq - Ncg: - Oyqt: - Xrl Znc:373X - Pebff Fgerrgf:Qrnq Raq/ENAXVA EQ - Obk #:1106
+R11 - - 69Q6 SVER VA GUR ER - 14330 R Uneql Eq - Ncg: - Oyqt: ZBTNF - Xrl Znc:373K - Pebff Fgerrgf:CVANSBER YA/OHFPUBAT - Obk #:1107
+R31 - 69Q03 - 69Q3 PBZZREPVNY OHV - 14330 R Uneql Eq - Ncg: - Oyqt: ZBTNF - Xrl Znc:373K - Pebff Fgerrgf:CVANSBER YA/OHFPUBAT - Obk #:1107
+FD31 - 12N02R - 12N2 FRVMHERF - 830 Ivfgn Tebir Pve - Ncg: - Oyqt: - Xrl Znc:332M - Pebff Fgerrgf:TEBIRQNYR QE/TEBIRQNYR QE - Obk #:1108
+R11 - - 29N1 ZBGBE IRUVPYR N - A Fnz Ubhfgba Cxjl R / Nyqvar Jrfgs - Ncg: - Oyqt: - Xrl Znc:373H - Pebff Fgerrgf: - Obk #:1106
+R31 - - BQBE(FGENATR, HAXABJ - 507 Erzvatgba Ybqtr Pg - Ncg: - Oyqt: - Xrl Znc:372Q - Pebff Fgerrgf:ERZVATGBA CNEX QE/Qrnq Raq - Obk #:1103
+R11 - 69Q09 - 69Q9 FURQ BA SVER - 14615 Nyqvar Jrfgsvryq Eq - Ncg: - Oyqt: PUEVFGVNA - Xrl Znc:373M - Pebff Fgerrgf:OHFPUBAT/NYQVAR ORAQRE EQ - Obk #:1107
+FD31 - 29Q02z - 29Q2 ZBGBE IRUVPYR N - 818 Evpuperfg Qe - Ncg: - Oyqt: TERRAOEVNE - Xrl Znc:373W - Pebff Fgerrgf:PUVFUBYZ GEY/JNLSBERFG QE - Obk #:1106
+FD31 - - 29N1 ZBGBE IRUVPYR N - Abegu Sjl / Nvegrk - Ncg: - Oyqt: - Xrl Znc:372P - Pebff Fgerrgf: - Obk #:1103
+R31 - 52P03T - 52P3 NYNEZF - 16110 Abegu Sjl - Ncg: - Oyqt: PNEZNK - Xrl Znc:332H - Pebff Fgerrgf:EVPURL RKVG AO 45/EVPURL RAGE - Obk #:1101
+R31 - - 53N1 PVGVMRA NFFVFG - 19423 Erzvatgba Cenvevr Qe - Ncg: - Oyqt: - Xrl Znc:372T - Pebff Fgerrgf:ERZVATGBA TERRA PG/ERZVATGBA O - Obk #:1103
+R11 - 69Q06 - 69Q6 SVER VA GUR ER - 2719 Oern Perfg Fg - Ncg: - Oyqt: - Xrl Znc:414A - Pebff Fgerrgf:VAAFOHEL QE/FUNQL YA - Obk #:2502
+R21 - - 52O1 NYNEZF - 2700 J J Gubear Oyiq - Ncg: - Oyqt: A UNEEVF P - Xrl Znc:333F - Pebff Fgerrgf:R UNEQL EQ/BVY PRAGRE OYIQ - Obk #:1102
+FD31 - 10Q04 - 10Q4 PNEQVNP - 22226 Dhrraohel Uvyyf Qe - Ncg: - Oyqt: - Xrl Znc:332E - Pebff Fgerrgf:YNAPNFGRE YNXR QE/ERQ NYQRE PV - Obk #:1108
+FD31 - - OERNGUVAT CEBOYRZF - 15403 R Inagntr Cxjl - Ncg: - Oyqt: GUR JBEQ P - Xrl Znc:373I - Pebff Fgerrgf:A FNZ UBHFGBA CXJL R/JNIREYL Q - Obk #:1106
+R11 - 06Q02 - 6Q2 ERFCVENGBEL - 15403 R Inagntr Cxjl - Ncg: - Oyqt: GUR JBEQ P - Xrl Znc:373I - Pebff Fgerrgf:A FNZ UBHFGBA CXJL R/JNIREYL Q - Obk #:1106
+R7 - 67O01 - 67O1 FZNYY GENFU SVE - 11025 Havgrq Fg - Ncg: - Oyqt: - Xrl Znc:414H - Pebff Fgerrgf:RYY EQ/YBAR BNX EQ - Obk #:2505
+
+*** Abg cnefvat 
+[]  - - 32O1 HAXABJA CEBOYRZ - 123 Grfg Fgerrg - Ncg: - Oyqt: GRFGVAT NC - Xrl Znc:496X - Pebff Fgerrgf:Qrnq Raq/Qrnq Raq - Obk #:4104\a
+
+*/
 
 choyvp pynff GKUneevfPbhaglRFQ1OCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

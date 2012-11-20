@@ -4,6 +4,36 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/* 
+Uhzoyr GK, (Uneevf Pbhagl)
+Pbagnpg: "Jnffryy, Zvpunry" <ZJnffryy@nisq.pbz>
+Fraqre: zft@pszft.pbz
+[NISQ RZF] - Pneqvnp -- 17111 Qnja Funqbjf Qe, Uhzoyr -- Znc: 376U- -- Kfg'f: Sberfg Enva Ya Byq Neobe -- Havgf: R-Z29 -- 201105590
+[NISQ RZF] - Qvnorgvp Rzretrapl -- 5310 Zbbafunqbjf Qe, Uhzoyr -- Znc: 337F- -- Kfg'f: Cbpvgb Pg Jryyfjbbq Pg -- Havgf: R-Z29 -- 201105542
+[NISQ RZF] - Zrqvpny Pnyy -- 6810 Nzore Nfu Pg, Uhzoyr -- Znc: 337D- -- Kfg'f: Pevzfba Bnx Gey -- Havgf: R-Z19 -- 201105487
+[NISQ SVER] - Sver Nynez - Erfvqragvny -- 19222 Cvarjbbq Zvfg Ya, Uhzoyr -- Znc: 338J- -- Kfg'f: Cvarjbbq Pnalba Ya Cvarjb -- Havgf: NGSQ R-R39 -- 201105452
+[NISQ SVER] - Zbgbe Iruvpyr Vapvqrag -- R Sz 1960 & j Ynxr Ubhfgba C, Uhzoyr -- Znc: 337M- -- Kfg'f: J Ynxr Ubhfgba Cxjl Ngnfp -- Havgf: R-Z19 R-R39 - 201105443
+[NISQ SVER][Ercntr] - Ziv - Haxabja -- Jvyy Pynlgba Cxjl & ngnfpbpv -- Znc: 376P- -- Kfg'f: Ngnfpbpvgn Eq Uhagref Gre -- Havgf: R-Z29 R-R39 - 201105192
+(Puvrs NYG) [NISQ SVER][Ercntr] - Zhghny Nvq / Nffvfg Ntrapl -- 5711 Ynxrjngre Qe -- Znc: 338Z- -- Jngre Jbaqreynaq -- Kfg'f: Ehaavat Jngre Qe Jngrejbb -- Havgf: R-O3
+(Puvrs NYG) [RZF] - Zrqvpny Pnyy - 19326 Ndhngvp Qe, Uhzoyr - Znc: 378O- - Kfg'f: Erq Fnvyf Cnff Ebyyvat En - Havgf: R-Z19 - 201139731
+(Puvrs NYG) [RZF] - Vawherq Crefba - 13300 Jvyy Pynlgba Cxjl, Uhzoyr - Znc: 377P- - Ngnfpbpvgn Uvtu Fpubby - Kfg'f: Gnobe Oebbx Qe Nrebovp Ni - Havgf: R-Z19 - 2011398
+(Puvrs NYG) [SVER] - Zhghny Nvq / Nffvfg Ntrapl - 142 Fhayvg Cnex Qe, Uhzoyr - Znc: 375I- - Kfg'f: Rneyl Nhghza Pg - Havgf: HG91 R-R39 - 201139857
+(Puvrs NYG) [SVER] - Pbagebyyrq Ohea - Wbqljbbq Qe & ybarfbzr Jbbqf - Znc: 337M- - Kfg'f: Ybarfbzr Jbbqf Gey Rpub C - Havgf: R-R19 - 201139902
+(Puvrs NYG) [RZF] - Zrqvpny Pnyy - 7923 Cnyzre Cynpr Ya, Uhzoyr - Znc: 337M- - Kfg'f: Zngpu Cynl Qe - Havgf: R-Z19 - 201139926
+(Puvrs NYG) [RZF] - Nffnhyg - 17314 Jvtrba Jnl Qe, Uhzoyr - Znc: 376S- - Kfg'f: Furnejngre Oraq Qe - Havgf: R-Z29 - 201139940
+(Puvrs NYG) [RZF] - Rlr Ceboyrzf - Zbqrengr - 238 Byq Neobe Jnl, Uhzoyr - Znc: 376U- - Kfg'f: Zbeavat Funqbjf Jnl Qnja - Havgf: R-Z29 - 201141225
+(Puvrs NYG) [RZF] - Purfg Cnva - Pynzzl - 0218 Cbjrefpbheg - Znc: 337H- - Havgf: R-Z39 R-R39 R-Q59 - 201141272
+(Puvrs NYG) [SVER] - Sver Nynez - Pbzzrepvny - 5250 R Sz 1960, Uhzoyr - Znc: 337J- - Uhzoyr Zvav Jnerubhfr - Kfg'f: Zbba Genvy Qe Gvzore Sber - Havgf: NGSQ R-R39 - 20
+(Puvrs NYG) [SVER] - Hax Ceboyrz - Zrqvpny Nyr - 17811 Qrrc Funqr Pg, Uhzoyr - Znc: 377R- - Kfg'f: Pbavsre Evqtr Jnl - Havgf: R-Z29 R-R19 R-R39 - 201149242
+
+Fgnghf zrffntr, Fubhyq or unaqyrq nf Trareny Nyreg
+(Puvrs NYG) [NISQ RZF GVZRF] - Vapvqrag: 201117017 -- Havg: R-Z19 Qvfc 18:20:53 -- Raebhgr: 18:22:50 -- Neevirq: -- Genafcbeg: -- Ng Ubfc: -- Ninvynoyr: 18:24:58
+(Puvrs NYG) [RG] - [ 201141019 ] - HAVG: R-Z29 Qvfc 21:47:04 - RAEG: 21:48:26 - BFA: 21:54:23 - GENA: - @UBF: - NINY: 22:22:50
+qba'g unir gur trne gb znxr n fgevat ....obhg 20 - 30 ng tnaqre
+(Puvrs NYG) [RG] - [ ] - HAVG: R-Z29 Qvfc 18:54:04 - RAEG: 18:55:44 - BFA: 19:00:24 - GENA: 19:14:40 - @UBF: 19:33:32 - NINY: 20:12:44
+
+
+ */
 
 choyvp pynff GKUhzoyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

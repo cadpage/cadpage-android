@@ -4,6 +4,23 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/* 
+Ahrprf Pbhagl, GK
+Pbagnpg: Zvxr Pynpx <puvrs@naanivyyrisq.pbz>
+Fraqre: ppcqcntvat@ppgrknf.pbz<znvygb:ppcqcntvat@ppgrknf.pbz
+pp = pbechf puevfgv
+arhpf = arhprf
+
+Fhowrpg:PNQ Abgvsl\aGENHZN - VAWHEL NYEZ: 0 CEV: 1 RFM: 67 / 11308 THRFF QE PP AHRPF RI: 1110029194\a
+Fhowrpg:PNQ Abgvsl\aVAI-SVER - FZBXR NYEZ: 0 CEV: 2 RFM: 107 / 3695 PE 61 AHRPF RI: 1110029353
+Fhowrpg:PNQ Abgvsl\aGN - RZF NYEZ: 0 CEV: 1 RFM: 107 / PE 48/UJL 77 SJL FO AHRPF RI: 1110031040\a\a
+Fhowrpg:PNQ Abgvsl\aZRQVPNY - FVPX NYEZ: 0 CEV: 1 RFM: 6 / 4909 SZ 2826 AHRPF: @YNOEBPX PBEERPGVBAF FREIVPRF RI: 1110031803\a\a
+Fhowrpg:PNQ Abgvsl\aSVER-BGURE - IRU-BHGFVQR NYEZ: 0 CEV: 1 RFM: 104 / 1332 SZ 665 AHRPF: @ZRZBEL TNEQRAF PRZRGREL - SZ 665 RI: 111003414
+Fhowrpg:PNQ Abgvsl\aGENHZN - VAWHEL NYEZ: 0 CEV: 1 RFM: 67 / 4729 PNYNYYRA QE PP AHRPF RI: 1110034169\a\a
+Fhowrpg:PNQ Abgvsl\aGN - ERFPHR NYEZ: 0 CEV: 1 RFM: 2 / SZ 665/SZ 70 AHRPF RI: 1110034392\a\a
+Fhowrpg:PNQ Abgvsl\aAPSVER: 1111017168 ZRQVPNY-QVNORGVP NYEZ: 0 CEV: 1 RFM: 107 / 3906 ERNTNA YA AHRPF\a
+
+ */
 
 choyvp pynff GKAhrprfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

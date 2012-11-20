@@ -4,7 +4,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
-/***
+/*
 Cevapr Trbetr Pbhagl, IN
 Pbagnpg: Xriva Unzry <xunzry30@tznvy.pbz>, 8047217263@igrkg.pbz
 Fraqre: pnq@zrffntrf.cevaprtrbetrin.bet

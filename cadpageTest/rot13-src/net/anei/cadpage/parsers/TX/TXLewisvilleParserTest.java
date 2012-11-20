@@ -4,6 +4,19 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/* 
+Yrjvfivyyr, GK (va Qragba Pbhagl)
+Pbagnpg: Phegvf Oveg <poveg@pvglbspbevagu.pbz>
+Fraqre: 6245,ycq@[10.10.1.64]
+
+*101 R PBECBENGR QE*****ZNWBE NPP****O160,PUVRS,R163,Z163,G167*316****
+*1725 FUHSBEQF PG*****SVER****O160,PUVRS,R164,R165,Z163,D163,G167*300****
+*251 A V35R FOSE*****SVER****O160,PUVRS,R161,R164,Z161,D162,G167*127****
+FZNYY SVER PBZVAT SEBZ GUR FGBIR
+*4900 OYNVE BNXF QE*****ZN SVYY-VA****PUVRS,R166*947****
+11072508*1077 A TNEQRA EVQTR OYIQ*****SVER****O160,PUVRS,R163,R164,Z163,D162,G167
+
+*/
 
 choyvp pynff GKYrjvfivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

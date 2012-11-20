@@ -4,6 +4,22 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Znairy, GK (Va Oenmbevn Pbhagl)
+Pbagnpg: Wbua Nhpbva <wbuanhpbva@foptybony.arg>
+Fraqre: qvfcngpu@znairycq.bet
+
+[ ARJ PNYY ]  ZISQ\aNYSVER\a3403 FBHGUSBEX CNEXJNL\aZNAIRY\a1103200011 12:50 CZ
+[ ARJ PNYY ]  ZISQ\aNPPHAX\aF. ZNFGRE / WHFG CNFG TNGRF YBBC\aZNAIRY\a1102210022 5:25 CZ
+[ ARJ PNYY ]  ZISQ\aSVER\a13508 NHGHZA NFU PG\aZNAIRY\a1103030017 3:36 CZ
+[ ARJ PNYY ]  ZISQ\aSVER\a10516 YRRQL EQ\aZNAIRY\a1103010018 6:21 CZ
+[ ARJ PNYY ]  ZISQ\aNYSVER\a3602 ORUYRE\aZNAIRY\a1102230010 3:30 CZ
+[ ARJ PNYY ]  ZISQ\aSVER\a815 PE 393\aZNAIRY\a1102280014 2:47 CZ
+[ ARJ PNYY ]  ZISQ\aNPPHAX\a288/6\aZNAIRY\a1102220014 12:04 CZ
+
+ARJ PNYY / ZISQ\aSVER\a3110 RJVAT PG\aZNAIRY\a1103270030 3:37 CZ
+
+*/
 
 choyvp pynff GKZnairyCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

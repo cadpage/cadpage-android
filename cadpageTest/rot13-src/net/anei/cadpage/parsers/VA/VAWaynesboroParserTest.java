@@ -5,6 +5,31 @@ vzcbeg arg.narv.pnqcntr.cnefref.IN.INJnlarfobebCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Jnlarfobeb, IN (Nhthfgn Pbhagl)
+Pbagnpg: Oehpr P <erfphr5zrqvp@tznvy.pbz>
+Fraqre: Qvfcngpu2@pv.jnlarfobeb.in.hf be Qvfcngpu@pv.jnlarfobeb.in.hf
+
+Qvfcngpu2:ERFCBAQ FRVMHERF 14 SEBAGVRE EVQTR PG, NC1302 FNEF 1
+Qvfcngpu2:ZIP, URNQ BA PBYYVFVBA ZNVA-EBFFRE-OEBNQ
+Qvfcngpu:ERFCBAQ - 2AQ PNYY - PURFG CNVA - 1142 ARJ UBCR EQ, NC3
+Qvfcngpu:ERFCBAQ TRARENY VYYARFF 1429 2AQ FG ZRQVPNY NYNEZ NPGVINGVBA
+Qvfcngpu:ERFCBAQ 2AQ PNYY 216 RYXVA PVE PURFG CNVAF
+Qvfcngpu:ERFCBAQ - 809 TENLFBA NIR - IRU BIRE NA RZONAXZRAG
+Qvfcngpu:300 OYX CNGGBA SNEZ EQ - FDNHQ 2 ERDHRFGRQ - CEV1 CG JVGU RAGENCZRAG - BCRENGR PBHAGL 1
+
+ 
+Pbagnpg: Revp Gnlybe <revpsreergggg@tznvy.pbz>
+Qvfcngpu2@pv.jnlarfobeb.in.hf Zft: Qvfcngpu2:ERFCBAQ 368 JNYAHG NIR SNYY, ONPX VAWHEL
+Qvfcngpu2@pv.jnlarfobeb.in.hf Zft: Qvfcngpu2:ERFCBAQ YVSRYVAR NPGVINGVBA - SNYY FCEVATQNYR NCGF 300 F JNLAR NIR NCG 12
+Qvfcngpu@pv.jnlarfobeb.in.hf Zft: Qvfcngpu:ERFCBAQ 142 CURNFNAG EHA URNQNPUR, QVSSVPHYGL , 14 L/B PBHAGL 1
+
+Pbagnpng: Tnel Pevgmre <jrzfqve1@tznvy.pbz>
+Fraqre: rbpqve@pv.jnlarfobeb.in.hf
+rbpqve@pv.jnlarfobeb.in.hf Zft: rbpqve:erfcbaq purfg cnva 250 F Jnlar nir
+rbpqve@pv.jnlarfobeb.in.hf Zft: rbpqve:purfg cnva, 401 jnlarevqtr eq, zrqvp
+
+ */
 
 choyvp pynff INJnlarfobebCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

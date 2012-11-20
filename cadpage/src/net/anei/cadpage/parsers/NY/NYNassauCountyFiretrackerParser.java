@@ -32,7 +32,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
     if (! "[FireTracker]".startsWith(body.substring(pt))) return false;
     body = body.substring(0,pt).trim();
     
-    if (body.startsWith("*FSMFD* ") || body.startsWith("FSMFD")) {
+    if (body.startsWith("*FSMFD* ") || body.startsWith("FSMFD ")) {
       data.strSource = "FSMFD";
       Parser p = new Parser(body);
       p.get(' ');

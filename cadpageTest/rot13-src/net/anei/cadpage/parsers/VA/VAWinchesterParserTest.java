@@ -4,6 +4,17 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+Jvapurfgre, IN
+Pbagnpg: Puevf & Fpbgg Xrafvatre <xrafvatreyyp@tznvy.pbz>
+Fraqre: jvarpp@pv.jvapurfgre.in.hf
+
+(Jvapurfgre RPP vasb) 11-041989 VAFVQR FZRYY BE FZBXR\a336 TENL NIR\aANGVBANY NIR / IVETV/AVN NIR\aJVAPURFGRE\aONG6 R4 R5 RP18 Z41 GX2 J1 R
+(Jvapurfgre RPP vasb) 11-042157 VAFVQR SVER FGEHPG/RYRP/PUVZA\a122-1 R CNYY ZNYY FG\aF PNZREBA FG / F XRA/G FG\aJVAPURFGRE\aONG6 R1 R4 R5 RP21 Z51 GX2
+(Jvapurfgre RPP vasb) 11-042110 SVER NYNEZ\a1890 NZUREFG FG\aJRFGFVQR FGNGVBA QE// PVGL YVZVGF\aNQHYG CFLPU PRAGRE  JVAPURFGRE\aR1 R4 RP15 GX2
+(Jvapurfgre RPP vasb) 11-042059 BHGFVQR SVERF JVGU AB RKCBFHER\a1029 NYYRA QE\aZBYQRA QE / XVAMRY Q/E\aGVANF DHNYVGL PYRNAVAT  JVAPURFGRE\aR1
+
+ */
 
 choyvp pynff INJvapurfgreCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

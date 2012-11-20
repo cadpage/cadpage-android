@@ -5,35 +5,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Harris County ESD #1, TX
-Contact: glenn chisholm <glenn1736@gmail.com>
-Sender: varies
-System: Tritech
-
-67B01U / GRASS/WOODS FIRE / 2418 LILY LN / APT: / BLD: / KM: 460T / XSTRTS: OLEANDER ST/WISTERIA WAY / Box #: 1705
-Unknown Problem / 916 Jones Rd / APT: / BLD: / KM: 460S / XSTRTS: MIZELL ST/STEELE RD / Box #: 1704
-29D02p / /Trans Incidents F/O / E Wallisville Rd / Thompson Rd / APT: / BLD: / KM: 460P / XSTRTS: / Box #: 1705
-/ 10C01 / Pain (Non-Traumatic) / 9600 N MAIN ST / APT: / BLD: / KM: 461L / XSTRTS: E WALLISVILLE RD/FM 1942 / Box #: 1706
-/ Unknown Problem / 916 Jones Rd / APT: / BLD: / KM: 460S / XSTRTS: MIZELL ST/STEELE RD / Box #: 1704
-/ 28C09X / Stroke (CVA) / 2726 Waco / APT: / BLD: / KM: 460Y / XSTRTS: DALLAS ST/EAST ST / Box #: 1703
-/ 31D03 /Fainting F/O / 409 W Wallisville Rd / APT: / BLD: / KM: 459Q / XSTRTS: N 5TH ST/N 4TH ST / Box #: 1705
-/ 60B01 / /ODOR (NAT/LP GASES) / 617 Golden Bend Dr / APT: / BLD: / KM: 459M / XSTRTS: RED HAVEN DR/Dead End / Box #: 1701
-
-Contact: Nathan Mathews <nbmathews807@gmail.com>
-/11-05-15429 / 52C03S / 52O1 ALARMS / 16102 E Ih 10 / APT: / BLD: OLD RIVER TERRANCE M / KM: 498G / XSTRTS:IH 10 EAST BAYOU RAMP/IH 10 SH/ Box #:2002
-
-
-Call times, should not be accepted
-/ ID#:11-05-15563/ UNIT:E12 / DISP: 18:56:24 / ER: 18:57:10 / OUT: 19:03:05 / AIR: 19:11:31
-ID#:11-06-20658/ UNIT:L32 / DISP: 08:23:43 / ER: 08:23:44 / OUT: / AIR: 08:27:16
-
-Contact: Nathan Mathews <nbmathews807@gmail.com>
-Sender: cadnoreply@proxy.hcec.com
-22D05A / INDUSTRIAL ACCIDENT / S SHELDON/JACINTO PORT BLVD /APT: / BLD: / KM: 498U / XSTRTS: / CODE: / Box #: Nature:
-29B04 / Traffic/Trans Incide / East Fwy/dell Dale /APT: / BLD: / KM: 497M / XSTRTS: / CODE: / Box #: Nature:
-
-*/
 
 
 public class TXHarrisCountyESD1AParser extends FieldProgramParser {

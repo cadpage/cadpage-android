@@ -3,23 +3,6 @@ package net.anei.cadpage.parsers.TX;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/* 
-Nueces County, TX
-Contact: Mike Clack <chief@annavillevfd.com>
-Sender: ccpdpaging@cctexas.com<mailto:ccpdpaging@cctexas.com
-cc = corpus christi
-neucs = neuces
-
-Subject:CAD Notify\nTRAUMA - INJURY ALRM: 0 PRI: 1 ESZ: 67 / 11308 GUESS DR CC NUECS EV: 1110029194\n
-Subject:CAD Notify\nINV-FIRE - SMOKE ALRM: 0 PRI: 2 ESZ: 107 / 3695 CR 61 NUECS EV: 1110029353
-Subject:CAD Notify\nTA - EMS ALRM: 0 PRI: 1 ESZ: 107 / CR 48/HWY 77 FWY SB NUECS EV: 1110031040\n\n
-Subject:CAD Notify\nMEDICAL - SICK ALRM: 0 PRI: 1 ESZ: 6 / 4909 FM 2826 NUECS: @LABROCK CORRECTIONS SERVICES EV: 1110031803\n\n
-Subject:CAD Notify\nFIRE-OTHER - VEH-OUTSIDE ALRM: 0 PRI: 1 ESZ: 104 / 1332 FM 665 NUECS: @MEMORY GARDENS CEMETERY - FM 665 EV: 111003414
-Subject:CAD Notify\nTRAUMA - INJURY ALRM: 0 PRI: 1 ESZ: 67 / 4729 CALALLEN DR CC NUECS EV: 1110034169\n\n
-Subject:CAD Notify\nTA - RESCUE ALRM: 0 PRI: 1 ESZ: 2 / FM 665/FM 70 NUECS EV: 1110034392\n\n
-Subject:CAD Notify\nNCFIRE: 1111017168 MEDICAL-DIABETIC ALRM: 0 PRI: 1 ESZ: 107 / 3906 REAGAN LN NUECS\n
-
- */
 
 public class TXNuecesCountyParser extends FieldProgramParser {
   

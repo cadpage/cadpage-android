@@ -5,6 +5,35 @@ vzcbeg arg.narv.pnqcntr.cnefref.IN.INYbhqbhaPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
+/*
+
+Pnyy:12Q02R-FRVMHERF PBAG,42914 BIREYL FD-PU Ncg:,K-Fg:ABEEVATGBA FD XVE,N6092,Obk:1908 ,NQP:5520 T06 [90]
+Pnyy:17Q03-SNYY CNGVRAG A,42848 ERPGBEF PUNFR JNL-NO Ncg:,K-Fg:UBLFIVYYR ZNABE Q,N6092 904 NPB9,Obk:2618 ,NQP:5400 T03 [89]
+Pnyy:20Q01U-URNG RKCBFHER,FGBAR FCEVATF OYIQ-NY/ZVARENY FCEVATF PVE-NY Ncg:,K-Fg:TERRAFGBAR QE & Z,N6092 9942 NPB9,Obk:0910 ,NQP:5520 O02 [77]
+
+([pnq13] ) Pnyy:30N01-GENHZN ABG QNA,775 TNGRJNL QE FR-YO Ncg:PYHOUF,K-Fg:FLPBYVA EQ FR INA,Z6132 NPB13,Obk:2013 ,NQP:515
+([pnq13] ) Pnyy:CHOE-CHOYVP FREIVPR-,60 VQN YRR QE AJ-YO Ncg:,K-Fg:XVAT FG A  ,N6133 N6134 M613,Obk:0113 ,NQP:5157 X01 [2
+([pnq13] ) Pnyy:NYF-NYF RZRETRAPL   ,16591 PBHENTR PG-YO Ncg:,K-Fg:YBHQBHA PRAGRE CY,Z6131 NPB13,Obk:2024 ,NQP:5158 P08 [
+
+Pbagnpg: erorppn zpxraan <rzgpb9516@tznvy.pbz>
+ozpxraan+pns_=5712385054=igrkg.pbz@nepbynisq.bet Pnyy:31N01-SNVAGRQ ABJ NY,24801 CVAROEBBX EQ-PU Ncg:110,K-Fg:GNYY PRQNEF CXJL ,N619 Z6091 NPB19,Obk:1921 ,NQP:5520 S01 [97]
+
+Pbagnpg: Ssvtugregy2 <ssvtugregy2@lnubb.pbz>
+Fraqre: PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg
+1 bs 2\aSEZ:PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg\aZFT:Pnyy:PUVZ-PUVZARL SVER,13396 OREYVA GCXR-YI Ncg:,K-Fg:ZVYYGBJA PERRX EB,J612 RE602 GY602\a(Pba'g) 2 bs 2\aX623 N6122 OP602 RPB12 NPB12,Obk:1222 NQP:4922 T01 [14]\a\a-- \a[YP602](Raq)
+
+Pbagnpg: Qreevpx Oraargg <qoraargg@nepbynisq.bet>
+Fraqre: 6245
+PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg Pnyy:FS-FGEHPGHER SVER,1200 OYBPX BS QHAIRTNA QEVIR Ncg:,K-Fg:,X604,Obk:SD   ,NQP: [42]\e\a\e\a-- \e\a[YP609]\e
+
+Pbagnpg: Nagubal Zvfxr <SSvtugreGY2@lnubb.pbz>
+ 1 bs 2\aSEZ:PP_Zrffntr_Abgvsvpngvba@hfnzbovyvgl.arg\aZFT:Pnyy:29Q02y-OVXR BE ZBGBE,ZBHAGNVA EQ-CI/PUNEYRF GBJA CVXR-CI Ncg:,K-Fg:PUNEYRF GBJA\a(Pba'g) 2 bs 2\aCVXR,RE602 N6142 NY612 RPB2 NPB14,Obk:0226X'NQP:4921 S09 [57]
+
+Pbagnpg: "yvyfzbxrrngre5@lnubb.pbz" <yvyfzbxrrngre5@lnubb.pbz>
+Fraqre: RPP YPSE <RPPYPSE@YBHQBHA.TBI>
+Fraqre: Rkpunatr Vasbezngvba <vasbezngvba_rkpunatr@nyreg2.ybhqbha.tbi> 
+
+***/
 
 choyvp pynff INYbhqbhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
