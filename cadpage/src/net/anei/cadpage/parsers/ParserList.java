@@ -268,6 +268,7 @@ public class ParserList {
               ,"KYBoydCounty"                   ,"Boyd County, KY"
               ,"KYDaviessCounty"                ,"Daviess County, KY"
               ,"KYErlangerDispatch"             ,"Erlanger Dispatch, KY"
+              ,"KYMuhlenbergCounty"             ,"Muhlenberg County, KY"
               ,"KYOldhamCounty"                 ,"Oldham County, KY"
           ),
           new ParserCategory("Lousiana"
