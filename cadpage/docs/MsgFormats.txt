@@ -1918,10 +1918,10 @@ MONROE AV / OAKRIDGE DR (MISC) - WIRES DOWN - 4310 09:04
 6721 THURSTON AV (MISC) - WIRES DOWN - 4310 00:22
 BROTHERTON LN (RES) - HOUSE ON BROTHERTON - 3025,4310,4610,3615,4210,3016,3017 22:27
 ***************************************************************************
-St Louis County, MO (MOStLouisCountyBParser)
-(Dispatch) DIFFICULTY BREATHING \n\n1762 LEMAY FERRY RD, Apt. APT 313 \n1617 \nMapRegions: L29-49, LE Card # 4143 CrossStreets: LE Card# 4143 0.00 mi \nCall Number: 7182
-(Dispatch) ANIMAL BITE \n\n325 W ARLEE AVE \n1117 1614 \nMapRegions: K29-49, LE Card # 4271 CrossStreets: LE Card# 4271 0.00 mi \nCall Number: 718281
-(Dispatch) FALL \n\n2116 KEVIN DR \n1617 \nMapRegions: K30-49, LE Card # 4130 CrossStreets: LE Card# 4130 0.00 mi \nCall Number: 718280
+St Louis County, MO (MSStLouisCountyBParser)
+(.SCFA Page) RESALM  9025 S BROADWAY ST 1614 Map: J28-49, LE Card # 4233 X-St: KAYSER AVE 0.03 mi NE WALLER AVE 0.11 mi SW  14:51
+[.SCFA Page] SICK CASE 700 AVENUE H ST 1617 Map: K28-49, LE Card # 4013 X-St: LE Card# 4013 10:14
+[.SCFA Page] FALL 815 MARK SHARON CT 1617 Map: L28-49, LE Card # 4158 X-St: LE Card# 4158 13:25
 ***************************************************************************
 Stone County, MO (MOStoneCountyParser)
 911-CENTER:FMA MUTUAL AID/ASSIST OUTSIDE AGEN 214 E 5TH ST 4175270913 S MAPLE ST MUTUAL AID ASSIST OUTSIDE AGENCY
@@ -5063,7 +5063,6 @@ Orange County, NY (replace 1 of the 4??)
 Contact: Bob Quackenbush <rdquackenbush@cvfd-fire.org>
 Sender: messaging@iamresponding.com
 Body: 1 of 3\nFRM:messaging@iamresponding.com\nSUBJ:Cronomer Valley\nMSG:INC: F09121115000892 TYP: ANNOUNCEMENT AD: 296 N PLANK RD CTY: NEWBURGH CN: 09C2\n(Con't) 2 of 3\nCMT1: ANY MEMBERS AVAIL FOR A DEPLOYMENT TO NASSUA CO FRI MORN TO CONTACT CAR2 CMT2: BY CELL TIME: 18:21 XST: 1 BERRY LN XST2: 1 WEYANTS\n(Con't) 3 of 3\nLN\n\n\nThis message has been scanned for malware.\n\n(End)
-
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5075,19 +5074,6 @@ Body: 1 of 3\nFRM:messaging@iamresponding.com\nSUBJ:Cronomer Valley\nMSG:INC: F0
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-St Louis County, MO
-Contact: Steve <steve@stlouisarsenal.com>
-Sender: From:bpage@scfa911.org
-(.SCFA Page) RESALM  9025 S BROADWAY ST 1614 Map: J28-49, LE Card # 4233 X-St: KAYSER AVE 0.03 mi NE WALLER AVE 0.11 mi SW  14:51
-[.SCFA Page] SICK CASE 700 AVENUE H ST 1617 Map: K28-49, LE Card # 4013 X-St: LE Card# 4013 10:14
-[.SCFA Page] FALL 815 MARK SHARON CT 1617 Map: L28-49, LE Card # 4158 X-St: LE Card# 4158 13:25
-[.SCFA Page] COMMERCIAL FIRE 4232 LA SALETTE DR, Apt. 1C 1614 1114 19 1710 HL3 1617 GTWY1 1604 Map: L28-49, LE Card # 4141 X-St: LE Card# 4141 19:08
-[.SCFA Page] DIFFICULTY BREATHING 309 SIGSBEE AVE, Apt. APT C 1617 Map: L30-49, LE Card # 4230 X-St: LE Card# 4230 20:23
-[.SCFA Page] ASSAULT DIRT CHEAP AF 8455 GRAVOIS RD 8455 GRAVOIS RD 1617 1134 Map: AF Card# 7015, M27-48 X-St: LAKEWOOD AVE 0.11 mi E LACEY AVE 0.05 mi W 21:32
-[.SCFA Page] ALLERGIC REACTION 777 RIVER CITY CASINO BLVD, Apt. FL 1 1617 Map: J28-49, LE CARD # X-St: LE Card# 4314 23:09
-[.SCFA Page]  CHEST PAIN  308 SOUTHAMPTON DR 1617 Map: K30-49, LE Card # 4234 X-St: LE Card# 4234   02:45
-
-The format is nature of call , street address, then responding unit, local map page coordinates, then running card number, then cross street, some times cross street is blank, then time. These are the only two calls I have right now.
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
