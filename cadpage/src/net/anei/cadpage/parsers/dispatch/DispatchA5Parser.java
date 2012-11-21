@@ -11,6 +11,7 @@ public class DispatchA5Parser extends FieldProgramParser {
   private static final Pattern TERMINATOR_PTN = Pattern.compile("\n(?:Additional Info|Address Checks|Additional Inc#s:|Narrative|The Call Taker is)");
   private static final Pattern KEYWORD_TRAIL_PTN = Pattern.compile("[ \\.]+:|(?: \\.){2,}(?=\n)");
   private static final Pattern CALL_TIME_DATE_PTN = Pattern.compile("\\bCall Time- ([0-9:]+) +Date- ([0-9/]+) *\n.*?(?=\nArea:)", Pattern.DOTALL);
+  private static final Pattern LINE_PTN = Pattern.compile("(.*)(?:\n|$)");
   
   public DispatchA5Parser(String defCity, String defState) {
     super(defCity, defState,
@@ -38,6 +39,7 @@ public class DispatchA5Parser extends FieldProgramParser {
     
     Matcher match = TERMINATOR_PTN.matcher(body);
     if (!match.find()) return false;
+    String extra = body.substring(match.start()+1);
     body = body.substring(0,match.start()).trim();
     
     body = KEYWORD_TRAIL_PTN.matcher(body).replaceAll(":");
@@ -48,6 +50,19 @@ public class DispatchA5Parser extends FieldProgramParser {
     body = body.replace('\n', ' ');
     body = body.replaceAll("  +", " ");
     if (!super.parseMsg(body, data)) return false;
+    
+    // Add additional information from trailing data
+    match = LINE_PTN.matcher(extra);
+    if (match.find() && match.group(1).startsWith("Additional Info")) {
+      while (match.find()) {
+        String line = match.group(1);
+        if (line.length() == 0) continue;
+        if (!line.startsWith("  ")) break;
+        line = line.trim();
+        if (line.endsWith(":")) continue;
+        data.strSupp = append(data.strSupp, "\n", line);
+      }
+    }
     return true;
   }
   

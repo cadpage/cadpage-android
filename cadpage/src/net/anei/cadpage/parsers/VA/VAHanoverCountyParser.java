@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class VAHanoverCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("[\\[\\(]?(\\d{4,})[\\)\\] a]*");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("[\\[\\(]?(\\d+)[\\)\\] a]*");
   private static final Pattern START_TRASH_PTN = Pattern.compile("^a +[\\)\n]");
     
   
@@ -56,7 +56,7 @@ public class VAHanoverCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern MAP_PTN = Pattern.compile("^[A-Z] Map \\d{2,4}(?:-\\d)?\\b");
+  private static final Pattern MAP_PTN = Pattern.compile("^[A-Z] Map \\d{1,4}(?:-\\d)?\\b");
   private class MyMapField extends MapField {
     @Override
     public void parse(String field, Data data) {
