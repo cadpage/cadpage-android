@@ -51,6 +51,7 @@ choyvp pynff ALAnffnhPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PUVRS - NHGB",
         "CYNPR:ONE SEVGRF",
         "NQQE:400 JURNGYRL CYNM",
+        "ZNQQE:400 JURNGYRL CYNMN",
         "PVGL:TERRAINYR",
         "K:TYRA PBIR EBNQ/ABEGUREA OYIQ",
         "VASB:MBAR 20",

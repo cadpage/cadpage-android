@@ -107,29 +107,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
       parseExtra2(sExtra, data);
     }
     
-    // If we could not identify a call description, see if we can break one
-    // out of the supplemental info
-    if (data.strCall.length() == 0) {
-      if (data.strSupp.length() == 0) {
-        data.strCall = "ALERT";
-      } else {
-        if (callSet != null) {
-          String call = callSet.getCode(data.strSupp);
-          if (call != null) {
-            data.strCall = call;
-            data.strSupp = data.strSupp.substring(call.length()).trim();
-          }
-        }
-        if (data.strCall.length() == 0) {
-          match = CALL_BRK_PTN.matcher(data.strSupp);
-          if (match.find() && match.start() <= 30) {
-            data.strCall = data.strSupp.substring(0,match.start()).trim();
-            data.strSupp = data.strSupp.substring(match.end()).trim();
-          }
-        }
-      }
-    }
-
+    if (data.strCall.length() == 0 && data.strSupp.length() == 0) data.strCall= "ALERT";
     return true;
   }
 
@@ -154,7 +132,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
     
     // if cross street information follows the address, process that
     if (inclCross) {
-      data.strCross = sLeft.replace(" X ", " / ");
+      sLeft = sLeft.replace(" X ", " / ");
+      if (sLeft.endsWith(" X")) sLeft = sLeft.substring(0,sLeft.length()-2).trim();
+      data.strCross = append(data.strCross, " & ", sLeft);
     } 
     
     else {
@@ -195,8 +175,19 @@ public class DispatchSouthernParser extends FieldProgramParser {
       data.strUnit = p.get(' ');
       sExtra = p.get();
     }
+    
+    if (callSet != null) {
+      String call = callSet.getCode(sExtra);
+      if (call != null) {
+        data.strCall = call;
+        data.strSupp = sExtra.substring(call.length()).trim();
+        return;
+      }
+    }
+
+    
     match = CALL_PTN.matcher(sExtra);
-    if (match.find() && match.end() > 0) {
+    if (match.find() && match.end() > 0 && match.end() < sExtra.length()) {
       String sCall = match.group(1).trim();
       if (sCall.length() <= 30) {
         sExtra = sExtra.substring(match.end()).trim();
@@ -210,15 +201,23 @@ public class DispatchSouthernParser extends FieldProgramParser {
         }
         data.strCall = sCall;
         data.strSupp = sExtra;
-      } else {
-        data.strSupp = sExtra;
+        return;
       }
-    } else if (sExtra.length() <= 30) {
-      data.strCall = sExtra;
-    } else {
-      data.strSupp = sExtra;
     }
-    if (data.strCall.length() == 0 && data.strSupp.length() == 0) data.strCall= "ALERT";
+    
+    if (sExtra.length() <= 30) {
+      data.strCall = sExtra;
+      return;
+    }
+    
+    match = CALL_BRK_PTN.matcher(sExtra);
+    if (match.find() && match.start() <= 30) {
+      data.strCall = sExtra.substring(0,match.start()).trim();
+      data.strSupp = sExtra.substring(match.end()).trim();
+      return;
+    }
+    
+    data.strSupp = sExtra;
   }
 
   protected void parseExtra2(String sExtra, Data data) {

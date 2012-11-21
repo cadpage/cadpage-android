@@ -87,7 +87,7 @@ choyvp pynff INSenaxyvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:331 EBBFRIRYG NIR",
         "PVGL:SENAXYVA",
         "GVZR:00:37:00",
-        "PNYY:SVER - NC FGEHPGHER SVER");
+        "PNYY:SVER - NC FGEHPGHER SVER.");
 
     qbGrfg("G8",
         "pfurrul:1 PNZC CXJL SENAXYVA 20:52:56 SVER - NC SVER OHEAVAT VA PBGGBA SVRYQ NPEBFF SEBZ EVIREQNYR RYRZ",
