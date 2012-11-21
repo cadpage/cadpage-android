@@ -329,6 +329,7 @@ public class ParserList {
               ,"MNMinneapolisStPaul"            ,"Minneapolis/St Paul, MN"
               ,"MNHennepinCounty"               ,"Hennepin County, MN"
               ,"MNOlmstedCounty"                ,"Olmsted County, MN"
+              ,"MNSherburneCounty"              ,"Sherburne County, MN"
           ),
           new ParserCategory("Mississippi"
               ,"MSAcadianAmbulance"             ,"Acadian Ambulance, MS"
