@@ -62,6 +62,10 @@ Fraqre: YhpuvnZ@serfp.pn
 (Evc & Eha) 06:55CZ PNYY 65n01 NG 115 prager nir j, oynpx qvnzbaq 
 (Evc & Eha) 10:13NZ PNYY 65n01 NG 717 tbireazrag eq f, oynpx qvnzbaq 
 
+(Evc & Eha) 08:44NZ PNYY 10q04 NG 5-701 tbireazrag eq f, tyra zrnq 1, oynpx qvnzbaq
+(Evc & Eha) 08:44NZ PNYY 10q04 NG 5-701 tbireazrag eq f, tyra zrnq 1, oynpx qvnzbaq
+(Evc & Eha) 07:57CZ PNYY 52o01 NG 1300 bxnygn eq fj, gheare inyyrl
+
 */
 choyvp pynff PNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -401,6 +405,31 @@ choyvp pynff PNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:65n01",
         "NQQE:717 tbireazrag eq f",
         "PVGL:oynpx qvnzbaq");
+
+    qbGrfg("G6",
+        "(Evc & Eha) 08:44NZ PNYY 10q04 NG 5-701 tbireazrag eq f, tyra zrnq 1, oynpx qvnzbaq",
+        "GVZR:08:44:00",
+        "PNYY:10q04",
+        "NQQE:5-701 tbireazrag eq f",
+        "ZNQQE:701 tbireazrag eq f",
+        "CYNPR:tyra zrnq 1",
+        "PVGL:oynpx qvnzbaq");
+
+    qbGrfg("G7",
+        "(Evc & Eha) 08:44NZ PNYY 10q04 NG 5-701 tbireazrag eq f, tyra zrnq 1, oynpx qvnzbaq",
+        "GVZR:08:44:00",
+        "PNYY:10q04",
+        "NQQE:5-701 tbireazrag eq f",
+        "ZNQQE:701 tbireazrag eq f",
+        "CYNPR:tyra zrnq 1",
+        "PVGL:oynpx qvnzbaq");
+
+    qbGrfg("G8",
+        "(Evc & Eha) 07:57CZ PNYY 52o01 NG 1300 bxnygn eq fj, gheare inyyrl",
+        "GVZR:19:57:00",
+        "PNYY:52o01",
+        "NQQE:1300 bxnygn eq fj",
+        "PVGL:gheare inyyrl");
 
   }
   
