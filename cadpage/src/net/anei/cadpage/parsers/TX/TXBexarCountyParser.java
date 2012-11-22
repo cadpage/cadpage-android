@@ -23,6 +23,8 @@ public class TXBexarCountyParser extends FieldProgramParser {
   private static final Pattern BLANK_DELIM_PTN = Pattern.compile(" {4,}");
   private static final Pattern SHORT_BLANK_DELIM_PTN = Pattern.compile("(?<![ -])  +(?![ -])");
   private static final Pattern MAP_BLANK_DELIM_PTN = Pattern.compile(" " + MAP_PATTERN + " +(?=[^ -])");
+  private static final Pattern COLON_MAP_PTN = Pattern.compile(":( " + MAP_PATTERN + ")");
+  private static final Pattern DELIM_PTN = Pattern.compile(" -(?= )| \\*\\*");
   
   private static final Set<String> CALL_PREFIX_SET = new HashSet<String>(Arrays.asList(new String[]{
       "Alarm", "Assist", "Fire", "Med", "MED", "Rescue", "RESCUE"
@@ -58,11 +60,13 @@ public class TXBexarCountyParser extends FieldProgramParser {
       body = PROTECT_KEYWORD.matcher(body).replaceAll(" ");
       body = BLANK_DELIM_PTN.matcher(body).replaceAll(" - ");
       body = MAP_BLANK_DELIM_PTN.matcher(body).replaceFirst("$0 - ");
+      body = COLON_MAP_PTN.matcher(body).replaceFirst("$1");
       
       int pt = body.lastIndexOf(" - ");
       if (pt < 0) return false;
       body = SHORT_BLANK_DELIM_PTN.matcher(body.substring(0,pt)).replaceAll(" - ") + body.substring(pt);
-      flds = body.split(" - ");
+      body = body.replace("-Case", " - Case");
+      flds = DELIM_PTN.split(body);
     }
     return parseFields(flds, data);
   }
@@ -144,16 +148,22 @@ public class TXBexarCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern APT_PTN = Pattern.compile("(?:Apt|RM|#) *(.*)|(SUITE.*)");
+  private static final Pattern TIME_PTN = Pattern.compile("\\d\\d:\\d\\d");
   private class MyCrossAptField extends Field {
     
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("Apt")) {
-        data.strApt = append(data.strApt, " - ", field.substring(3).trim());
-      } else if (field.startsWith("#")) {
-        data.strApt = append(data.strApt, " - ", field.substring(1).trim());
-      } else if (CITY_SET.contains(field)) {
+      Matcher match = APT_PTN.matcher(field);
+      if (match.matches()) {
+        String apt = match.group(1);
+        if (apt == null) apt = match.group(2);
+        data.strApt = append(data.strApt, " - ", apt);
+      }
+      else if (CITY_SET.contains(field)) {
         data.strCity = field;
+      } else if (TIME_PTN.matcher(field).matches()) {
+        if (data.strTime.length() == 0) data.strTime = field;
       } else if (field.length() > 5) {
         data.strCross = append(data.strCross, " & ", field);
       } else {
@@ -163,7 +173,24 @@ public class TXBexarCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "CITY X APT";
+      return "CITY X APT TIME";
+    }
+  }
+  
+  private class MyMapField extends MapField {
+    
+    public MyMapField() {
+      super(MAP_PATTERN + "|Case", true);
+    }
+    
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("Case")) return;
+      super.parse(field, data);
     }
   }
   
@@ -240,7 +267,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
     if (name.equals("CALL2")) return new MyCall2Field();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("XAPT")) return new MyCrossAptField();
-    if (name.equals("MAP")) return new MapField(MAP_PATTERN, true);
+    if (name.equals("MAP")) return new MyMapField();
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
