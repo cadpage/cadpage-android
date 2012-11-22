@@ -497,6 +497,7 @@ public class DispatchBParser extends SmartAddressParser {
         "MISSING PERSON / RUNAWAY",
         "MOTOR VEH ACC UNKNOWN INJ",
         "MOTOR VEHICLE ACCIDENT",
+        "MOTOR VEHICLE ACCIDENT INJURY",
         "MUTUAL AID/ASSIST OUTSIDE AGEN",
         "MV ACCIDENT W/INJURY",
 //        "MVA",
