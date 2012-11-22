@@ -58,7 +58,7 @@ class Active911Vendor extends Vendor {
   
   @Override
   int getGCMStatus() {
-    return 1;
+    return 2;
   }
 
   @Override
