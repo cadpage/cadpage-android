@@ -510,6 +510,7 @@ public class ParserList {
               ,"OHLickingCounty"                ,"Licking County, OH"
               ,"OHLoveland"                     ,"Loveland, OH"
               ,"OHMadisonCounty"                ,"Madison County, OH"
+              ,"OHMahoningCounty"               ,"Mahoning County, OH"
               ,"OHMedinaCounty"                 ,"Medina County, OH"
               ,"OHMorrowCounty"                 ,"Morrow County, OH"
               ,"OHNECC"                         ,"NECC, OH"
