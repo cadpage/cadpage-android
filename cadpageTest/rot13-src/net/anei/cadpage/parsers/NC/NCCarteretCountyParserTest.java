@@ -530,6 +530,13 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:07:59:27",
         "PNYY:FVPX CREFBA");
 
+    qbGrfg("G9",
+        "Fhowrpg:3005 SENAXF QE ZBERURNQ PVGL, 12-149001,\aPRP:19:47, FGNO - THAFUBG - CRARGENGVAT GENHZN BPN: 24-12-2748\e",
+        "NQQE:3005 SENAXF QE",
+        "PVGL:ZBERURNQ PVGL",
+        "VQ:12-149001",
+        "VASB:FGNO - THAFUBG - CRARGENGVAT GENHZN");
+
   }
   
   @Grfg

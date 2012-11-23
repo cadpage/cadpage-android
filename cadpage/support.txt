@@ -688,13 +688,13 @@ Hope that helps,
 
 ******************************************************************
 
-There is a Cadpage/Iphone app out now.  It just isn't called Cadpage.
+There are, not one, but two Cadpage apps currently available in the Apple App Store.
 
 The problem is that the IOS environment is a lot more restrictive than Android.  Unless you have a jail broken phone, it is not possible to pick up text messages the way we do for Android.
 
-All is not lost.  Messaging services that can push pages to Cadpage over the Internet can do the same for an IPhone app.  And in fact, one of those services, Active911.com, has an IPhone app out that will do just that.  It isn't called Cadpage, but it relies on Cadpage parsing technology.
+All is not lost.  Messaging services that can push pages to Cadpage over the Internet can do the same for an IPhone app.  But this means the IPhone apps will only work in conjunction with a message service that can push pages to them.
 
-A real Cadpage/IPhone app is also being developed and should be out soon.    Initially, it will only work with the Active911 or CodeMessaging.net messaging services.  But in the future it will support other message services that support Cadpage direct paging.
+The Cadpage app costs $10 and will work with both CodeMessaging.net and Active911.com.  Active911.com also has a free Active911 app that only works with them.  It isn't called Cadpage, but it relies on Cadpage parsing technology.
 
 Good luck,
 -Ken
