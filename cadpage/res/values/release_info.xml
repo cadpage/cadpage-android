@@ -1,49 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11152012</string>
-  <string name="release_version">v1.5.68</string>
+  <string name="release_date">11232012</string>
+  <string name="release_version">v1.5.69</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Marshall County, AL\n
-Kenai Peninsula Borough, AK\n
-Garland County, AR\n
-Santa Clara County, CA\n
-Leelanau County, MI\n
-Mercer County, NJ\n
-Granaville County, NC\n
-Wayne County, OH (alt)\n
-Love County, OK\n
-Chester County, SC\n
-Washington County, TN (alt)\n
-Amelia County, VA\n
-Franklin County, VA (alt)\n
-Berkeley County, WV\n
-Canmore County, AB, Canada\n
+Santa Cruz County, CA\n
+Muhlenberg County, KY\n
+Sherburne County, MD\n
+Mahoning County, OH\n
+Montgomery County, PA (alt)\n
+Franklin, VA\n
+Hampshire County, WV\n
+Raleigh County, WV\n
+New South Wales, Autstralia (alt)\n
 \n      
 Location Parsing Fixes:\n
-Hartford County, CT\n
-Kent County, DE\n
-Anne Arrundel County, MD\n
-Dorchester County, MD\n
-Montgomery County, MD\n
-Wicomico County, MD\n
+Trumbull County, CT\n
+St Louis County, MO\n
+Burlington County, NJ\n
 Gloucester County, NJ\n
-Broome County, NY\n
+Monroe County, NY\n
+Orange County, NY\n
+Nassau County, NY\n
+Sullivan County, NY\n
 Westchester County, NY\n
-Onslow County, NC\n
-Orange County, NC\n
-Rockingham County, NC\n
-Berks County, PA\n
-Mercer County, PA\n
-Harris County, TX\n
-Isle of Wight County, VA\n
-New Zealand\n
-\n
-General Fixes:\n
-All locations filtering 777 prefix calls modified to accept 888 prefix calls.\n
-Autorotate option was causing problems and has been removed.\n
+Carteret County, NC\n
+Wayne County, OH\n
+Lincoln County, SD\n
+Bexar County, TX\n
+Nassau Bay, TX\n
+Hanover County, VA\n
+Henry County, VA\n
+Berkely County, WV\n
   </string>  
 </resources>
   
