@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
  */
 public class NCCarteretCountyParser extends DispatchSouthernParser {
   
-  private final static Pattern SUB_MARKER = Pattern.compile("^CEC:\\d\\d:\\d\\d ");
+  private final static Pattern SUB_MARKER = Pattern.compile("^CEC:\\d\\d:\\d\\d[ ,]");
   private final static Pattern SUB_TRAILER = Pattern.compile(" \\d\\d$");
   private final static Pattern CALL_ID_PTN = Pattern.compile(" +OCA: *(\\d\\d-\\d\\d-\\d{4})$");
   
@@ -35,6 +35,7 @@ public class NCCarteretCountyParser extends DispatchSouthernParser {
       }
       body = "CEC:" + subject + ':' + body.substring(4);
     }
+    body = body.replace(",", "");
     
     Matcher match = CALL_ID_PTN.matcher(body);
     String callId = "";
