@@ -135,6 +135,17 @@ public class VendorManager {
   }
 
   /**
+   * Return vendor specific text label to use for the More Info button
+   * @param vendorCode vendor code
+   * @return resource ID of button title or 0 if not specified
+   */
+  public int getMoreInfoResId(String vendorCode) {
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor != null) return vendor.getMoreInfoResId();
+    return 0;
+  }
+
+  /**
    * Reconnect all enabled vendors
    * @param context current context
    */

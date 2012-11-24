@@ -218,6 +218,14 @@ abstract class Vendor {
   }
 
   /**
+   * Return vendor specific text label to use for the More Info button
+   * @return resource ID of button title or 0 if not specified
+   */
+  int getMoreInfoResId() {
+    return 0;
+  }
+
+  /**
    * Register VendorPreference associated with this vendor
    * @param preference Vendor preference object
    */

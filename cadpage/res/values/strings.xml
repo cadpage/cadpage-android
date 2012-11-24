@@ -360,6 +360,8 @@
   <string name="more_info_item_text">More Info</string>
   <string name="start_radio_item_text">Start Radio</string>
   
+  <string name="response_check_text">Response Check</string>
+  
   <!--  Response message menu items  -->
   <string name="responding_text">Responding</string>
   <string name="not_responding_text">Not Responding</string>

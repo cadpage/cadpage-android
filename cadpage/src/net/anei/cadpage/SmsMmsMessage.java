@@ -707,6 +707,18 @@ public class SmsMmsMessage implements Serializable {
     if (url.length() > 0) return url;
     return null;
   }
+
+  /**
+   * Get the "More Info" button title resource ID specific to this message
+   * @return the title resource ID
+   */
+  public int getInfoTitle() {
+    if (vendorCode != null && infoURL != null) {
+      int resId = VendorManager.instance().getMoreInfoResId(vendorCode);
+      if (resId > 0) return resId;
+    }
+    return  R.string.more_info_item_text;
+  }
   
   /**
    * Called when the user has done anything to indicate they are aware of the page

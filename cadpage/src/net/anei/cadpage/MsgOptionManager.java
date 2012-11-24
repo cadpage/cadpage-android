@@ -467,6 +467,7 @@ public class MsgOptionManager {
       // More info disappears if there is no info to display
     case R.id.more_info_item:
       item.setVisible(message.getInfoURL() != null);
+      item.setTitle(message.getInfoTitle());
       break;
 
       // Start radio button only visible if there is a scanner channel to open

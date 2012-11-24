@@ -34,4 +34,10 @@ class CodeMessagingVendor extends Vendor {
   int getGCMStatus() {
     return 2;
   }
+
+  @Override
+  int getMoreInfoResId() {
+    return R.string.response_check_text;
+  }
+  
 }
