@@ -12,7 +12,7 @@ public class MDCecilCountyDParser extends FieldProgramParser {
 
   public MDCecilCountyDParser() {
     super(CITY_CODES, "CECIL COUNTY", "MD",
-           "CALL CODE? ADDR X/Z+? CITY ID? TIME! INFO+");
+           "CALL CODE? ADDR X/Z+? CITY ID? INFO? TIME! ID? INFO+");
   }
 
   @Override
