@@ -290,6 +290,7 @@ public class ParserList {
               ,"MDCharlesCounty"                ,"Charles County, MD"
               ,"MDDorchesterCounty"             ,"Dorchester County, MD"
               ,"MDFrederickCounty"              ,"Frederick County, MD"
+              ,"MDGarrettCounty"                ,"Garrett County, MD"
               ,"MDHarford"                      ,"Harford, MD"
               ,"MDHowardCounty"                 ,"Howard County, MD"
               ,"MDKentCounty"                   ,"Kent County, MD"

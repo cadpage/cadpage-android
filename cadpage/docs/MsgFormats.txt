@@ -841,6 +841,20 @@ Sussex County, NJ (NJSussexCountyBParser)
 [Message from HipLink]  BTFD\nSuspicious Acti\nPAGED\n161 LACKAWANNA DR\nBTF02\nBTFIRE\nPOSSIBLE CHIMNEY FIRE\n24 E/R\nchief 2 i/s\nCall type l reopened by Cat
 *******************************************************************************
 *******************************************************************************
+* DispatchA12Parser subclasses
+*******************************************************************************
+***************************************************************************
+Garrett County, MD (MDGarrettCountyParser)
+SEIZURES STA3 () Loc:1202 HOYES SANG RUN RD Rcvd: 12:36:57 Units: STA3 CA2012017412 Comments:  
+STROKE / CVA STA9 () Loc:1113 MARY DR Rcvd: 00:5:33 Units: 9A1 CA2012017399 Comments: 11/24/2012 00:05:40 FAR EAST WING 
+MVC / INJURIES STA3 () Loc:24541 GARRETT HWY [@SUSQUEHANNA BANK Rcvd: 12:16:29 Units: 3A1 CA2012017367 Comments:  
+***************************************************************************
+Lincoln City, OR (ORLincolnCityParser)
+UNKMED1 NLF () Loc:1550 SE 14TH ST: 5 Rcvd: 12:10:54 Units: D1141 E12133366 Comments: 75 YO FEMALE SEVERE MIGRANE HEADAC
+FIRES NLF () Loc:1543 NE 14TH ST Rcvd: 20:57:13 Units: C1161 E12129759 Comments: STRUCTURE FIRE HYDE PARK [75]
+WATER1 NLF () Loc:NW LOGAN RD & ACCESS Rcvd: 13:51:1 Units: D1141 E12130984 Comments: 3 KIDS OUT SURFING 200 YARDS SOUT
+*******************************************************************************
+*******************************************************************************
 * DispatchGeoconxParser subclasses
 *******************************************************************************
 *******************************************************************************
@@ -2551,11 +2565,6 @@ Lane County, OR (ORLaneCountyParser)
 FRM:ce911@ci.eugene.or.us\nMSG:LRF TYP: VEHICLE VS PED ACC AD: TORRINGTON AVE&LYNNBROOK DR CTY: EUGENE MAP: EF557 C TIME: 08:12
 FRM:ce911@ci.eugene.or.us\nMSG:LRF TYP: TRAUMA B AD: 92609 TERRITORIAL HWY CTY: UNC JUN MAP: LR05331 LOC: SCH TERRITORIAL ELEM TIME: 11:20
 FRM:ce911@ci.eugene.or.us\nMSG:LDF TYP: MEDICAL EMERGENCY AD: N MODESTO DR&GIMPL HILL RD CTY: UNC EUG MAP: LF00013 TIME: 22:23
-***************************************************************************
-Lincoln City, OR (ORLincolnCityParser)
-UNKMED1 NLF () Loc:1550 SE 14TH ST: 5 Rcvd: 12:10:54 Units: D1141 E12133366 Comments: 75 YO FEMALE SEVERE MIGRANE HEADAC
-FIRES NLF () Loc:1543 NE 14TH ST Rcvd: 20:57:13 Units: C1161 E12129759 Comments: STRUCTURE FIRE HYDE PARK [75]
-WATER1 NLF () Loc:NW LOGAN RD & ACCESS Rcvd: 13:51:1 Units: D1141 E12130984 Comments: 3 KIDS OUT SURFING 200 YARDS SOUT
 ***************************************************************************
 Linn County, OR (ORLinnCountyParser)
 OTH STRCT FIRE/40560 MCQUEEN DR Linn County/HWY 228 &/6654B23*21/ E23 PT23 STN23 SF M21 A201 E21 E25 STN21 TONE WT21 1ST E22 STN22 WT22 STN24
