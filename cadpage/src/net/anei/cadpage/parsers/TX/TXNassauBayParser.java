@@ -21,7 +21,7 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   
   protected TXNassauBayParser(String defCity, String defState) {
     super(CITY_CODES, defCity, defState,
-          "( FYI SRC CALL! ADDR! UNIT? CITY? CODE? DATETIME! | CANCEL ADDR! CITY? ) INFO+");
+          "( FYI SRC? CALL! ADDR! UNIT? CITY? CODE? DATETIME! | CANCEL ADDR! CITY? ) INFO+");
   }
   
   @Override
@@ -58,7 +58,8 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CANCEL")) return new CallField("CANCEL", true);
-    if (name.equals("UNIT")) return new UnitField("[A-Z]+\\d+|[A-Z]{2}FD|\\d{4}(?:,.*)?", true);
+    if (name.equals("SRC")) return new SourceField("[A-Z]{4}", true);
+    if (name.equals("UNIT")) return new UnitField("(?:[A-Z]+\\d+|[A-Z]{2}FD|\\d{2,4})(?:,.*)?", true);
     if (name.equals("CODE")) return new CodeField("[A-Z]{1,3}[A-Z0-9]", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
