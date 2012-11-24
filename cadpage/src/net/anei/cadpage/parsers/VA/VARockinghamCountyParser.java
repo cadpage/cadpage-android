@@ -14,6 +14,7 @@ public class VARockinghamCountyParser extends DispatchDAPROParser {
   
   private static final Properties CITY_CODE_TABLE = 
     buildCodeTable(new String[]{
+        "BER", "BERGTON",
         "BRO", "BROADWAY",
         "BRI", "BRIDGEWATER",
         "HAR", "HARRISONBURG",
