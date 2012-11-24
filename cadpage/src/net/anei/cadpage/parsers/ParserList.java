@@ -249,6 +249,7 @@ public class ParserList {
               ,"INPorterCounty"                 ,"Porter County, IN"
               ,"INStJosephCounty"               ,"St Joseph County, IN"
               ,"INTiptonCounty"                 ,"Tipton County, IN"
+              ,"INVanderburghCounty"            ,"Vanderburgh County, IN"
               ,"INVigoCounty"                   ,"Vigo County, IN"
               ,"INWayneCounty"                  ,"Wayne County, IN"
           ),
