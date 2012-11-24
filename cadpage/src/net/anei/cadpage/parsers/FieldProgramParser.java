@@ -2247,6 +2247,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Info URL field
    */
   public class InfoUrlField extends Field {
+    public InfoUrlField(){}
+    public InfoUrlField(String pattern) {
+      super(pattern);
+    }
+    public InfoUrlField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
+    
     @Override
     public boolean canFail() {
       return true;

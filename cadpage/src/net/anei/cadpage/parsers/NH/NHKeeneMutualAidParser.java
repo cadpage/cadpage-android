@@ -12,7 +12,7 @@ public class NHKeeneMutualAidParser extends FieldProgramParser {
   
   public NHKeeneMutualAidParser() {
     super("","",
-           "ADDR PLACE CITY CALL INFO+ Caller_Phone:PHONE? Caller_Name:NAME INFO+");
+           "URL? ADDR PLACE CITY CALL INFO+ Caller_Phone:PHONE? Caller_Name:NAME INFO+");
   }
   
   @Override
@@ -74,6 +74,7 @@ public class NHKeeneMutualAidParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("URL")) return new InfoUrlField("EMLive: (http://.*)");
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("INFO")) return new MyInfoField();
