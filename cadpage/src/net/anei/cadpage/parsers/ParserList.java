@@ -695,6 +695,7 @@ public class ParserList {
           new ParserCategory("Washington"
               ,"WAClarkCounty"                  ,"Clark County, WA"
               ,"WAJeffersonCounty"              ,"Jefferson County, WA"
+              ,"WAKingCounty"                   ,"King County, WA"
               ,"WALewisCounty"                  ,"Lewis County, WA"
               ,"WAPierceCounty"                 ,"Pierce County, WA"
               ,"WAYakimaCounty"                 ,"Yakima County, WA"

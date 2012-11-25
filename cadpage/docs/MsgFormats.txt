@@ -3079,6 +3079,11 @@ East Jefferson County, WA (WAJeffersonCountyParser)
 (JCFD5) BLS  :  E52   :   :  2911 SHERMAN ST  :  Port Townsend  :  29TH ST / 30TH ST  :  09/06/12 18:37  :  Narrative :   LEG IS STUCK  PT IS STUCK IN H
 (JCFD5) Fire - Dumpster  :  E16 A16 DC11   :   :  CASS ST  :  Port Townsend  :   :  09/06/12 02:22  :  Narrative :   IN THE MIDDLE OF THE STREET  COUCH 
 ***************************************************************************
+King County, WA (WAKingCountyParser)
+92701 Stevens Pass Hwy                            #          Aid - Emergency               A295      A295
+19426 636th Ave Ne                                #          Aid - Emergency               A296      A295,A296,A296,295ST,SPM54
+141 Old Cascade Hwy E                             #          Aid - Emergency               A295      A295
+***************************************************************************
 Lewis County, WA (WALewisCountyParser)
 FD05_;fipo; 11/23/12 20:18:44; Fire -Brush; Jackson Hwy & State Route 508; north side of the road on hwy 508 about 50 ft from jackson hwy,  line of fire\nabout 25 ft long \n; [D00900820] - AlarmMessenger
 FD05_;fipo; 11/23/12 11:55:03; Sickness; 292 S Prairie Rd; bls sickness 75 yoa male conc and breathing normal. disconnected illeostomy bag\n; [D00900752] - AlarmMessenger
@@ -5094,4 +5099,5 @@ NORWALK, CT (FAIRFIELD) *CO EMERG W/ VICTIMS* 26 DAVIS ST. EMS TRANS 4 PT FROM H
 **********************************************************
 * EOF
 **********************************************************
+
 
