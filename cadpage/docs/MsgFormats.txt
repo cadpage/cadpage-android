@@ -73,31 +73,31 @@ CAD:A5,R45;INJURED IN FALL;4000;E VINE ST/S WASHINGTON ST;[Medical Priority Info
 CAD:A5,R45;UNKNOWN MEDICAL PROBLEM;4004;3421 N SR 19;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: You are responding to a patient with an unknown problem
 *******************************************************************************
 Vanderburgh County, IN (INVanderburghCountyParser)
-CAD:510B;5B5,5E15;GRASS OR BRUSH FIRE;120 W EVERGREEN RD;TAC5;RESIDENTS BURNING LEAVES IN THE DRIVEWAY. SMOKE AND ASHES BLOWING ONTO NEIGHBORS PROPERTY. [11/24/12 11:48:45 LKROEGER] Radio Channel: TAC5 [11/24/12 11:49:20 KMILES]\r\n
-CAD:505B;5E5,5A50;MEDICAL EMERGENCY RESPONSE;4515 CROWNE RIDGE CT;TAC5;Radio Channel: TAC5 [11/23/12 15:24:40 APEARCE]\r\n
-CAD:505C;5B5,5T5,5A50;GRASS OR BRUSH FIRE;GOEBEL SOCCER FIELD;6800 N GREEN RIVER RD;SB NORTH OF GRN MYSTERY VAN [11/23/2012 11:29:13 LGROSSMAN]\r\n
+CAD:510B;5B5,5E15;GRASS OR BRUSH FIRE;120 W EVERGREEN RD;TAC5;RESIDENTS BURNING LEAVES IN THE DRIVEWAY. SMOKE AND ASHES BLOWING ONTO NEIGHBORS PROPERTY. [11/24/12 11:48:45 LKROEGER] Radio Channel: TAC5 [11/24/12 11:49:20 KMILES]
+CAD:505B;5E5,5A50;MEDICAL EMERGENCY RESPONSE;4515 CROWNE RIDGE CT;TAC5;Radio Channel: TAC5 [11/23/12 15:24:40 APEARCE]
+CAD:505C;5B5,5T5,5A50;GRASS OR BRUSH FIRE;GOEBEL SOCCER FIELD;6800 N GREEN RIVER RD;SB NORTH OF GRN MYSTERY VAN [11/23/2012 11:29:13 LGROSSMAN]
 *******************************************************************************
 Livingston County, MI (MILivingstonCountyParser)
 CAD:FYI: ;ALARMF;11555 PLEASANT VIEW DR;INDIAN TRL;SMOKE ALARMS GOING OFF IN THE HOUSE FOR THE LAST 30 MIN ON AND OFF/ NO SMOKE OR SMOKE SHOWING [09/24/10 04:17:07 ECOOK]
 CAD:FYI: ;UNKACC;E M36/PETTYS RD;VEHICLE HIT A POLE/ MALE RUNNING E/B FROM SCENE [09/23/10 21:45:06 ECOOK]
 CAD:FYI: ;CHSTPN;8422 PAWNEE TRL;SHOSHONI PASS;[Medical Priority Info] RESPONSE: P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 72 year old, Female, Conscious, Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. Cal
 CAD:FYI: ;UNCON;8732 RIVER VALLEY RD;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 63 year old, Female, Conscious, Breathing. Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
-**************************************************************************
+*******************************************************************************
 Eaton County, MI (MIEatonCountyParser)
 CAD:FYI: ;20110000176;10/04/2011 20:35:39;BRUSH FIRE;W MT HOPE HWY/N SHAYTOWN RD;CALLER PASSERBY [10/04/11 20:36:48 KANTCLIFF] N OF ABOVE ADDRESS
 CAD:FYI: ;20110000177;10/09/2011 09:45:21;MEDICAL ASSIST;3286 E EATON HWY;Event spawned from EMS PRIORITY 2. [10/09/2011 09:45:21
 CAD:FYI: ;20110000178;10/10/2011 07:59:43;MEDICAL ASSIST;10763 N SHAYTOWN RD;Event spawned from EMS PRIORITY 3. [10/10/2011 07:59:
-**************************************************************************
+*******************************************************************************
 Emmet County, MI (MIEmmetCountyParser)
 CAD:Msg:FYI: ;PERSONAL INJURY ACCIDENT;RBFR;409 N DIVISION RD/SUMMIT PARK DR;2 VEH PI. ONE VEH INTO THE TREES  [07/24/12 11:46:46 KMATELSKI]<10><13><10>
 CAD:Msg:FYI: ;MEDIC TRANSPORT;AEAM;416 CONNABLE AV;GOING TO CHEBOYGAN HOSPIC  [07/24/2012 11:57:20 KHEWITT]<10><13><10>
 CAD:Msg:Update: ;AMBULANCE;EJAM;5632 RICHARDS RD;[Medical Priority Info] PROBLEM: HUSBAND FEELING FAINT 82YM   # PATS: 1   AGE: 82   SEX: Male   CONSCIOUS: Yes   BREATHING: Yes  [07/24/12 12:15:28 KMATELSKI]<10>[Medical Priority Info] RESPONSE: Ambula<13><10>
-**************************************************************************
+*******************************************************************************
 Montcalm County, MI (MIMontcalmCountyParser)
 CAD:FYI: ;06/22/2012 01:39:53;4566 S GREENVILLE RD;Event spawned from STRUCTURE FIRE. [06/22/2012 01:38:55 TMORTENSEN]
 CAD:FYI: ;06/29/2012 14:52:54;215 N STATE ST;wire across the roadway [06/29/12 14:53:21 AHIRKAWAY]    
 CAD:Update: ;06/29/2012 14:52:54;300 N STATE ST;PHONE AND CABLE WIRES, TIRED OFF [06/29/12 15:10:51 JJOURDAN] wire across the roadway [06/29/12 14:53:21 AHIRKAWAY]
-**************************************************************************
+*******************************************************************************
 Muskegon County, MI (MIMuskegonCountyParser)
 CAD:FYI: ;7610 EASY ST;BENSTON RD;WHITEHALL RD;MED1
 CAD:FYI: ;322 E MUSKEGON AV;S LIVINGSTON ST;S BALDWIN ST;WIRED
@@ -3079,6 +3079,11 @@ East Jefferson County, WA (WAJeffersonCountyParser)
 (JCFD5) BLS  :  E52   :   :  2911 SHERMAN ST  :  Port Townsend  :  29TH ST / 30TH ST  :  09/06/12 18:37  :  Narrative :   LEG IS STUCK  PT IS STUCK IN H
 (JCFD5) Fire - Dumpster  :  E16 A16 DC11   :   :  CASS ST  :  Port Townsend  :   :  09/06/12 02:22  :  Narrative :   IN THE MIDDLE OF THE STREET  COUCH 
 ***************************************************************************
+Lewis County, WA (WALewisCountyParser)
+FD05_;fipo; 11/23/12 20:18:44; Fire -Brush; Jackson Hwy & State Route 508; north side of the road on hwy 508 about 50 ft from jackson hwy,  line of fire\nabout 25 ft long \n; [D00900820] - AlarmMessenger
+FD05_;fipo; 11/23/12 11:55:03; Sickness; 292 S Prairie Rd; bls sickness 75 yoa male conc and breathing normal. disconnected illeostomy bag\n; [D00900752] - AlarmMessenger
+FD05_;fipo; 11/23/12 00:36:06; Head Pain; Exit 74 NB Off; ALS SICKNESS  27 YOM   ALMOST LIKE AN ANXIETY ATTACK  \nHEAD PAIN AND NOT FEELING RIGHT\nPULLED OFF EXIT 74 OFF RAMP \n; [D00900693] - AlarmMessenger
+***************************************************************************
 Pierce County, WA (WAPierceCountyAParser)
 (- part 1 of 1) RC:Run# 36872/Sick Person/<Unknown>/S 56TH ST & PACIFIC AVE///X=56th&55th/TACOMA// AVE//606//TACOMA/773 G5/\n\nThis is a confidential/proprietary communication intended for the add
 (- part 1 of 1) RC:Run# 45146/Unconscious/<Unknown>/6TH AVE & N STEVENS ST//behind 76 station/X=N Verde St&N Stevens St/TACOMA//\n\nThis is a confidential/propri
@@ -5089,3 +5094,4 @@ NORWALK, CT (FAIRFIELD) *CO EMERG W/ VICTIMS* 26 DAVIS ST. EMS TRANS 4 PT FROM H
 **********************************************************
 * EOF
 **********************************************************
+
