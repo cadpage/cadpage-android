@@ -17,6 +17,10 @@ FALQRE911:SVERJV>SVER/JVYQSVER 1035 A FHFDHRUNAAN GEY KF:FHFDHRUNAAN INYYRL ZNYY
 FLAQRE911:NNSVER>NHGB NYNEZ/SVER 111 ZNEXRGCYNPR OYIQ ZBAEBR GJC FRPHEVGL FREIVPR  PB., 8717 Znc:Tevqf: PNQ:2011-0000005983
 FLAQRE911:NHGBVA>NHGB NPPVQRAG/VAWHEL 892 EBHGR 522 CRAA GJC Znc:Tevqf:00000,000 Pnq:2011-0000005857
 
+Pbagnpg: Wrsserl Xhuaf <wxhuaf@falqrepbhagl.bet>
+Fraqre: 5705419455
+NHGBVA>ERFPHR - NHGB NPPVQRAG/ VAWHEL 979 ZVQQYR EQ PRAGRE GJC GRFG Znc:6 Tevqf:, Pnq: 2012-0000011047
+
 */
 
 choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -92,6 +96,21 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:892 EBHGR 522",
         "PVGL:CRAA GJC",
         "VQ:2011-0000005857");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWrsserlXhuaf() {
+
+    qbGrfg("G1",
+        "NHGBVA>ERFPHR - NHGB NPPVQRAG/ VAWHEL 979 ZVQQYR EQ PRAGRE GJC GRFG Znc:6 Tevqf:, Pnq: 2012-0000011047",
+        "PNYY:ERFPHR - NHGB NPPVQRAG/VAWHEL",
+        "NQQE:979 ZVQQYR EQ",
+        "PVGL:PRAGRE GJC",
+        "ANZR:GRFG",
+        "ZNC:6",
+        "VQ:2012-0000011047");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

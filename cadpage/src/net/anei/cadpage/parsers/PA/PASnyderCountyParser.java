@@ -42,7 +42,8 @@ public class PASnyderCountyParser extends DispatchBParser {
   
   @Override
   protected boolean isPageMsg(String body) {
-    return body.startsWith("SNYDER911:") || body.startsWith("SYNDER911:");
+    return body.startsWith("SNYDER911:") || body.startsWith("SYNDER911:") ||
+            body.contains(" Cad:");
   }
   
   @Override
