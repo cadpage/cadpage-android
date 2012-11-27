@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgParser;
 
 public class NJHunterdonCountyParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]+):([A-Z /0-9]+): *\\((\\d+)\\) *(.*?) NEAR: *(.*?) (\\d{8})\\b *(.*?)");
+  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]+):([-A-Z /0-9]+): *\\((\\d+)\\) *(.*?) (?:NEAR: *(.*?) )?(\\d{8})\\b *(.*?)");
   
   public NJHunterdonCountyParser() {
     super("HUNTERDON COUNTY", "NJ");
@@ -37,7 +37,7 @@ public class NJHunterdonCountyParser extends MsgParser {
     Parser p = new Parser(match.group(4));
     data.strPlace = p.getOptional(" / ");
     parseAddress(p.get().replace(" NO ", " "), data);
-    data.strCross = match.group(5);
+    data.strCross = getOptGroup(match.group(5));
     data.strCallId = match.group(6);
     data.strSupp = match.group(7);
     return true;
