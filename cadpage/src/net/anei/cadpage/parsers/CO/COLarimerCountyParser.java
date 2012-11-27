@@ -13,7 +13,7 @@ public class COLarimerCountyParser extends FieldProgramParser {
 
   public COLarimerCountyParser() {
     super("LARIMER COUNTY", "CO",
-           "CALL ADDR SKIP Radio:SKIP! INFO");
+           "CALL ADDR APT! Radio:CH! PLACE MAP UNIT");
   }
   
   public String getFilter() {
@@ -29,11 +29,19 @@ public class COLarimerCountyParser extends FieldProgramParser {
     if (data.strSource.toLowerCase().startsWith("notifyall")) data.strSource = "";
 
     String[] flds = SEPARATOR.split(body);
-    return parseFields(flds, data);
+    if (!parseFields(flds, data)) return false;
+    if (data.strMap.equals("NOT FOUND")) data.strMap = "";
+    return true;
   }
   
   @Override
   public String getProgram() {
     return "SRC " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("APT")) return new AptField("Apt/Lot\\b *(.*)", true);
+    return super.getField(name);
   }
 }
