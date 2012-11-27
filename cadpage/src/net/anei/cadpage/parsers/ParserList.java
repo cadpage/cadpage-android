@@ -618,6 +618,7 @@ public class ParserList {
               ,"TNHumphreysCounty"              ,"Humphreys County, TN"
               ,"TNJeffersonCounty"              ,"Jefferson County, TN"
               ,"TNJohnsonCounty"                ,"Johnson County, TN"
+              ,"TNKnoxCounty"                   ,"Knox County, TN"
               ,"TNLoudonCounty"                 ,"Loudon County, TN"
               ,"TNOliverSprings"                ,"Oliver Springs, TN"
               ,"TNSumnerCounty"                 ,"Sumner County, TN"

@@ -1479,6 +1479,16 @@ public class FieldProgramParser extends SmartAddressParser {
     private String padField = null;
     private Field padData = null;
     
+    public AddressField() {}
+    
+    public AddressField(String ptn) {
+      super(ptn, true);
+    }
+    
+    public AddressField(String ptn, boolean hard) {
+      super(ptn, hard);
+    }
+    
     @Override
     public boolean canFail() {
       return true;
@@ -1747,6 +1757,16 @@ public class FieldProgramParser extends SmartAddressParser {
     
     private boolean incCity = false;
     
+    public CrossField() {}
+    
+    public CrossField(String pattern) {
+      super(pattern);
+    }
+    
+    public CrossField(String pattern, boolean hard) {
+      super(pattern, hard);
+    }
+    
     @Override
     public boolean canFail() {
       return true;
@@ -1896,6 +1916,16 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   static final Pattern APT_PAT = Pattern.compile("^APT( |:|#) *", Pattern.CASE_INSENSITIVE);
   public class InfoField extends Field {
+    
+    public InfoField() {}
+    
+    public InfoField(String pattern) {
+      super(pattern);
+    }
+    
+    public InfoField(String pattern, boolean hard) {
+      super(pattern, hard);
+    }
     
     
     @Override
