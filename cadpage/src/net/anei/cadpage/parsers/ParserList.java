@@ -411,6 +411,7 @@ public class ParserList {
               ,"NYMonroeCounty"                 ,"Monroe County, NY"
               ,"NYMontgomeryCounty"             ,"Montgomery County, NY"
               ,"NYNassauCounty"                 ,"Nassau County, NY"
+              ,"NYNewYorkCity"                  ,"New York City, NY"
               ,"NYNiagaraCounty"                ,"Niagara County, NY"
               ,"NYOneidaCounty"                 ,"Oneida County, NY"
               ,"NYOnondagaCounty"               ,"Onondaga County, NY"

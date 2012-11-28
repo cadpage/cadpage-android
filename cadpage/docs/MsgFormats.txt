@@ -2211,6 +2211,11 @@ L: 701 AUDLEY END\nT: STRUCTURE FIRE\nO: \nB: \nC1: FINCHINGFIELD LA\nC2: WOODBR
 L: 286 PHILLIPS RD\nT: AUTOMATIC FIRE ALARM\nO: SMELTER RES - 265451\nB:\nC1: N CHIGWELL LA\nC2: MEADOW BREEZE LA\nX: FIRE ALRM ,GEN, C/C - ONLY CORNER STREET ALRM
 L: 736 BLUE CREEK DR\nT: AUTOMATIC FIRE ALARM\nO: FRANCO RESIDENCE\nB:\nC1: JOHN GLENN BL\nC2: LITHUANICA LA\nX: FIRE ALRM--SMOKE DETECTOR--UNK WHERE----C/C-----PH#
 ***************************************************************************
+New York City, NY (NYNewYorkCityParser)
+331 W 24th St - Bet: W 24th St / 8th Ave & W 24th St - Apt: 10F - 1st floor - Call ID: 250-9851
+6910 Ave U - Bet: E 69Th St & E 70Th St - Apt: 5J - 5th floor - Call ID: 894-1440
+2915 Brighton 6Th St - Bet: Neptune Ave & Brighton 6Th Ct - Call ID: 893-5600
+***************************************************************************
 Niagara County, NY (NYNiagaraCountyParser)
 ((12474) NCFC MMYERS ) 3111 Sndrs Stlmnt Rd-NCCC-C Bldg unk age f labor pains no further info. BLSP EMS/Air Ops. 1617hrs numerous other calls in cnty. From email 7164383393@niagaracounty.com
 (10444 NCFC JBEILEIN ) DUERO/WILLIAMS  MVA W MINOR INJURIES. From email 7164383393@niagaracounty.com
@@ -4902,32 +4907,6 @@ CALL:RESIDENTIAL FIRE.. PLACE: ADDR:790 MCSWAIN RD DATE: 11/27/2012 TIME: 03:49:
 **********************************************************
 **********************************************************
 **********************************************************
-NYC, NY
-Contact: Danny Ackerman <danny.ackerman@gmail.com>
-331 W 24th St - Bet: W 24th St / 8th Ave & W 24th St - Apt: 10F - 1st floor - Call ID: 250-9851
-
-Unknown
-Contact: drummer12r <drummer12r@aol.com>, 3474208675@messaging.sprintpcs.com
-6910 Ave U - Bet: E 69Th St & E 70Th St - Apt: 5J - 5th floor - Call ID: 894-1440
-2915 Brighton 6Th St - Bet: Neptune Ave & Brighton 6Th Ct - Call ID: 893-5600
-
-Unknown
-Contact: Eli Frankel <ezf22@yahoo.com>
-Sender: f_callid@hatzalah.org
-564 Ave Y - Bet: Ocean Pkwy & E 6Th St - 1st floor - Call ID: 935-8221
-1735 E 4Th St - Bet: Avenue P & Quentin Rd - 2nd floor - Call ID: 940-6881
-2662 Ocean Ave - Bet: Avenue V & Gravesend Neck Rd - Apt: B10 - 2nd floor - Call ID: 940-2331
-872 E 14Th St - Bet: Avenue H / Rugby Rd & Avenue I - 2nd floor - Call ID: 934-7261
-477 E 9Th St - Bet: Cortelyou Rd & Ditmas Ave - 1st floor - Call ID: 933-3561
-Ave M - Bet: E 18Th St & E 18Th St - Call ID: 933-3131
-202 Ave F - Bet: E 2Nd St & E 3Rd St - Apt: F8 - Call ID: 933-5211
-18Th Ave - Bet: Ocean Pkwy & Ocean Pkwy - Call ID: 934-7401
-1737 E 7Th St - Bet: Avenue P & Quentin Rd / Avenue Q - Fl: Pvt - Call ID: 937-3021
-515 E 7Th St - Bet: Avenue C & Cortelyou Rd - Apt: 1F - 1st floor - Call ID: 940-8131
-1735 E 4Th St - Bet: Avenue P & Quentin Rd - 2nd floor - Call ID: 940-6881
-2499 Ocean Ave - Bet: Avenue T & Avenue U - Call ID: 937-7551
-703 Kings Hwy - Bet: E 7Th St & E 8Th St - Call ID: 933-2631
-609 Ocean Pkwy - Bet: 18Th Ave & Ditmas Ave - 1st floor - Call ID: 933-4081
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
