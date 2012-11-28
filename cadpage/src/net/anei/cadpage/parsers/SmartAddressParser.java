@@ -308,7 +308,8 @@ public abstract class SmartAddressParser extends MsgParser {
         "DEAD END",
         "RR",
         "RR TRACKS",
-        "TRAILER PARK"
+        "TRAILER PARK",
+        "UNNAMED STREET"
     };
     mWordCrossStreetsRev = new MultiWordList(-1, ID_SPEC_CROSS_FWD, ID_MULTIWORD, ID_COMPLETE, crossRoadList);
     mWordCrossStreetsFwd = new MultiWordList(+1, ID_SPEC_CROSS_REV, ID_MULTIWORD, ID_COMPLETE, crossRoadList);
