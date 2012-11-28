@@ -614,6 +614,7 @@ public class ParserList {
           new ParserCategory("Tennessee"
               ,"TNAndersonCounty"               ,"Anderson County, TN"
               ,"TNBlountCounty"                 ,"Blount County, TN"
+              ,"TNCampbellCounty"               ,"Campbell County, TN"
               ,"TNCumberlandCounty"             ,"Cumberland County, TN"
               ,"TNHamiltonCounty"               ,"Hamilton County, TN"
               ,"TNHumphreysCounty"              ,"Humphreys County, TN"
