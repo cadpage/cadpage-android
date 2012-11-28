@@ -49,7 +49,7 @@ public class NYOnondagaCountyBParser extends FieldProgramParser {
     }
   }
   
-  private static Pattern REMOVE_INFO_PTN = Pattern.compile("\\bResponder script:|\\(Specific Diagnosis\\)\\.|\\bCaller Statement:|\\b\\d\\d(?:/\\d\\d){0,2} \\d\\d:\\d\\d:\\d\\d\\b");
+  private static Pattern REMOVE_INFO_PTN = Pattern.compile("\\bResponder script:|\\(Specific Diagnosis\\)\\.|\\bCaller Statement:|\\b\\d\\d(?:/\\d\\d){0,2} \\d\\d:\\d\\d:\\d\\d\\b|'Unsubscribe'");
   private static Pattern SKIP_INFO_PTN = Pattern.compile("|SPECIAL ADDRESS COMMENT:|ACCESS INFORMATION:|_+|\\[.*\\]|Reconfigured on another card:.*|.*\\bPATROL_.*|.*_BEAT\\b.*");
   private static Pattern PRIORITY_PTN = Pattern.compile("Response text: ([A-Z]).*");
   private static Pattern NAME_PTN = Pattern.compile("[A-Z]+(?: [A-Z]+)?, ?[A-Z]+(?: [A-Z]+)?");
@@ -108,7 +108,7 @@ public class NYOnondagaCountyBParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "INFO PRI CH UNIT SRC";
+      return "INFO PRI CH UNIT SRC NAME";
     }
   }
 

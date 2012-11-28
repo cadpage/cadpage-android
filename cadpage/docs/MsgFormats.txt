@@ -4867,6 +4867,10 @@ Contact: Bob Quackenbush <rdquackenbush@cvfd-fire.org>
 Sender: messaging@iamresponding.com
 Body: 1 of 3\nFRM:messaging@iamresponding.com\nSUBJ:Cronomer Valley\nMSG:INC: F09121115000892 TYP: ANNOUNCEMENT AD: 296 N PLANK RD CTY: NEWBURGH CN: 09C2\n(Con't) 2 of 3\nCMT1: ANY MEMBERS AVAIL FOR A DEPLOYMENT TO NASSUA CO FRI MORN TO CONTACT CAR2 CMT2: BY CELL TIME: 18:21 XST: 1 BERRY LN XST2: 1 WEYANTS\n(Con't) 3 of 3\nLN\n\n\nThis message has been scanned for malware.\n\n(End)
 **********************************************************
+Spartanburg County, SC
+Contact: Shane Solesbee <shane.solesbee22@gmail.com>
+Sender: alerts@cadpage.org
+CALL:RESIDENTIAL FIRE.. PLACE: ADDR:790 MCSWAIN RD DATE: 11/27/2012 TIME: 03:49:39 CITY:Chesnee ID:CF33406 DST:SC SRC:CSFD UNIT:CSFD INFO:FIRE ALARMS  STRUCTURE CALLS ALSO SEND BOILING SPRINGS\2sCHESNEE COMM / RESIDENTIAL STRUCTURE FIRE
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4934,6 +4938,10 @@ MED EMERG AT 12280 COTTONWOOD RD IN COTTONWOOD SUBJ HAS FALLEN...COMM
 MEDICAL CALL COTTONWOOD RD/SEALY WELLS 56YOM DISORIENTED-DIABETICS
 PERSON  DOWN  6001  S CR 55  POSS S44
 S38A  432  PHILLIP RD..C2
+
+Contact: Donald Harbison <donald63harbison@gmail.com>
+Sender: robot.alert@dothan.org
+NO FIRE AT THE VEHICLE FIRE AT 5 STAR CREDIT UNION  ... AUTH/COMMAND #6
 **********************************************************
 **********************************************************
 **********************************************************
