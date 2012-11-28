@@ -21,7 +21,13 @@ public class OHPortageCountyParser extends FieldProgramParser {
   public boolean parseMsg(String body, Data data) {
     if (!body.startsWith("* ")) return false;
     body = body.substring(2).replace('\n', ' ').trim();
-    return parseFields(body.split("\\*"), data);
+    if (!parseFields(body.split("\\*"), data)) return false;
+    
+    if (data.strAddress.length() == 0) {
+      parseAddress(data.strCross, data);
+      data.strCross = "";
+    }
+    return true;
   }
   
   private class MyCallField extends CallField {
@@ -30,6 +36,16 @@ public class OHPortageCountyParser extends FieldProgramParser {
       int pt = field.indexOf(',');
       if (pt < 0) abort();
       super.parse(field.substring(pt+1).trim(), data);
+      String src = field.substring(0,pt).trim();
+      pt = src.indexOf("_general");
+      if (pt >= 0) {
+        data.strSource = src.substring(0,pt).trim();
+      }
+    }
+    
+    @Override 
+    public String getFieldNames() {
+      return "SRC CALL";
     }
   }
   
@@ -38,6 +54,7 @@ public class OHPortageCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       field = field.replace(',', ' ').trim();
       if (field.startsWith("0 ")) field = field.substring(2).trim();
+      if (field.equals("0")) field = "";
       super.parse(field, data);
     }
   }
@@ -45,8 +62,24 @@ public class OHPortageCountyParser extends FieldProgramParser {
   private class MyCityField extends CityField {
     @Override
     public void parse(String field, Data data) {
-      field = field.replace(',', ' ').trim();
-      super.parse(field, data);
+      
+      // ,Ravenna is the name of the dispatch center
+      // and needs to be stripped off
+      if (field.endsWith(",Ravenna")) field = field.substring(0,field.length()-8).trim();
+      Parser p = new Parser(field);
+      String city = p.getLast(',');
+      String cross = p.get();
+      if (cross.length() == 0 && city.contains("/")) {
+        cross = city;
+        city = "";
+      }
+      data.strCross = cross;
+      data.strCity = city;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X CITY";
     }
   }
   
