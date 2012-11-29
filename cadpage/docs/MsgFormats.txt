@@ -1063,6 +1063,11 @@ M51 FALL- PERSON FELL 408 N ALVARADO AVE BELLE MapRegions: CrossStreets: E BELAI
 M50 SICK PERSON- SICK CASE 4644 HIGHWAY B, Apt. BOX 14 GASCONADE COUNTY MapRegions: PAGE 103 CrossStreets: ELK HEAD RD 0.08 mi SW RED BIRD RD 0.46 mi N Description: HALF MILE SOUTH OF REDBIRD RD Dispatch: 3/24/2011 11:25:45
 M50 SICK PERSON- SICK CASE 901 W EIGHTH ST BELLE MapRegions: CrossStreets: S SHOCKLEY AVE 0.01 mi NE S APPLE AVE 0.19 mi E Description: Dispatch: 3/24/2011 21:05:48
 *******************************************************************************
+Osage County, MO (MOOsageCountyParser)
+(Osage County EOC ) MEDICAL EMERGENCY VICTORIAN MANNER 201 E FIRST ST BELLE MapRegions: H1 CrossStreets: N BELLE AVE 0.02 mi SW N VIENNA AVE 0.06 mi E OZARK CENTRAL EMS OCAD Description: 57 YO FEMALE - LETHARGIC- STRONG URINE SMELLS - NOT COHERENT
+(Osage County EOC ) INFORMATIONAL CALL  420 BRANSON LN OSAGE COUNTY MapRegions: G2 CrossStreets: COUNTY ROAD 705 0.14 mi E SD 888 Description: VEHICLE WAS TOWED FROM HIGHWAY K BY THE SCHOOL - \r\nVEHICLE WAS A CHEVY S10, BLUE\r\nTOWED BECAUSE IT WAS ABANDONED\r\n\r\nRP STATEING HE IS THE OWNER BUT DID NOT GET TITLE TRANSFERED YET, BUT IT IS IN HIS NAME\r\n\r\nRP SAID HIS FRIEND SCOTT TOLD HIM THE VEHICLE WAS TOWED YESTERDAY\r\n\r\nVEHICLE IS CURRENTLY REGISTERED IN BILLY DAVIS NAME\r\nSTATED THE VEHICLE WAS SOLD TO RP MARCH 16, 2012
+(Osage County EOC ) INFORMATIONAL CALL  406 E FOURTH ST  MapRegions: G7 CrossStreets: S MAPLE ST 0.08 mi W HIGHWAY 89 N 0.11 mi E SD 888 Description: LEFT MSG ON ANSWERING MACHINE - REF ROAD SIGNS
+*******************************************************************************
 *******************************************************************************
 * DispatchVisionAirParser subclasses
 *******************************************************************************

@@ -53,22 +53,33 @@ WHP1 800 WHFD WHR1 FIRE ALARM 34684 HIGHWAY 10  RAY COUNTY Description: gen fire
 
 public class DispatchGlobalDispatchParser extends FieldProgramParser {
   
+  public static final int LEAD_SRC_UNIT_ADDR = 1;
+  public static final int TRAIL_SRC_UNIT_ADDR = 2;
+  
   private Pattern stationPtn;
   private Pattern unitPtn;
+  private boolean leadStuff;
+  private boolean trailStuff;
+  
+  public DispatchGlobalDispatchParser(String[] cityList, String defCity, String defState) {
+    this(cityList, defCity, defState, 0, null, null);
+  }
   
   public DispatchGlobalDispatchParser(String[] cityList, String defCity, String defState,
-                                       Pattern stationPtn, Pattern unitPtn) {
+                                       int flags, Pattern stationPtn, Pattern unitPtn) {
     super(cityList, defCity, defState,
            "ADDR/SC! MapRegions:MAP Description:INFO CrossStreets:X Description:INFO Dispatch:DATETIME Dispatch:SKIP");
     this.stationPtn = stationPtn;
     this.unitPtn = unitPtn;
+    leadStuff = (flags & LEAD_SRC_UNIT_ADDR) != 0;
+    trailStuff = (flags & TRAIL_SRC_UNIT_ADDR) != 0;
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    if (! body.contains(" Description:")) return false;
     if (! super.parseMsg(body, data)) return false;
     if (data.strCall.length() == 0) return false;
+    if (data.strCity.length() == 0 && data.strUnit.length() == 0 && data.strCross.length() == 0 && !body.contains(" Description:")) return false;
     return true;
   }
   
@@ -80,18 +91,30 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
       
       // If we have station or unit patterns, these need to be stripped off 
       // the front and back of the address field
-      if (stationPtn != null || unitPtn != null) {
+      if (leadStuff || trailStuff) {
         
         // Start by splitting field into list of words, and identifying
         // each word as station, unit or neither
         String[] words = field.split(" +");
         int[] types = new int[words.length];
-        boolean reg = false;
-        for (int ii = 0; ii<words.length; ii++) {
-          String word = words[ii];
-          types[ii] = (reg ? 0 : stationPtn != null && stationPtn.matcher(word).matches() ? 1 :
-            unitPtn != null && unitPtn.matcher(word).matches() ? 2 : 0);
-          if (types[ii] == 0) reg = true;
+        int stReg;
+        for (stReg = 0; stReg<words.length; stReg++) {
+          String word = words[stReg];
+          types[stReg] = (stationPtn != null && stationPtn.matcher(word).matches() ? 1 :
+                          unitPtn != null && unitPtn.matcher(word).matches() ? 2 : 0);
+          if (types[stReg] == 0) break;
+        }
+        int endReg = words.length-1;
+        if (stReg < words.length) {
+          if (trailStuff) {
+            for ( ; endReg > stReg; endReg--) {
+              String word = words[endReg];
+              types[endReg] = (stationPtn != null && stationPtn.matcher(word).matches() ? 1 :
+                              unitPtn != null && unitPtn.matcher(word).matches() ? 2 : 0);
+              if (types[endReg] == 0) break;
+            }
+          }
+          for (int ii = stReg+1; ii < endReg; ii++) types[ii] = 0;
         }
         
         // Construct three Stringbuilders with all of the regular, station, and unit words

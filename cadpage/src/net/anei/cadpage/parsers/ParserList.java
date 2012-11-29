@@ -351,6 +351,7 @@ public class ParserList {
               ,"MOJeffersonCounty"              ,"Jefferson County, MO"
               ,"MOJohnsonCounty"                ,"Johnson County, MO"
               ,"MONewtonCounty"                 ,"Newton County, MO"
+              ,"MOOsageCounty"                  ,"Osage County, MO"
               ,"MOPulaskiCounty"                ,"Pulaski County, MO"
               ,"MORayCounty"                    ,"Ray County, MO"
               ,"MOStCharlesCounty"              ,"St Charles County, MO"

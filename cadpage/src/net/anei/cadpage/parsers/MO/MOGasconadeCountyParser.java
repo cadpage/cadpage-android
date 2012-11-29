@@ -25,7 +25,7 @@ public class MOGasconadeCountyParser extends DispatchGlobalDispatchParser {
   private static final Pattern UNIT_PTN = Pattern.compile("(?:[GOM]|MT)?\\d{3}");
   
   public MOGasconadeCountyParser() {
-    super(CITY_TABLE, "", "MO", null, UNIT_PTN);
+    super(CITY_TABLE, "", "MO", LEAD_SRC_UNIT_ADDR, null, UNIT_PTN);
   }
   
   @Override

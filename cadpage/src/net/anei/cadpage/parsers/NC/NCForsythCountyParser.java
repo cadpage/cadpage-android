@@ -106,4 +106,10 @@ public class NCForsythCountyParser extends FieldProgramParser {
     if (name.equals("PRI")) return new MyPriorityField();
     return super.getField(name);
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    return RA_PTN.matcher(addr).replaceAll("");
+  }
+  private static final Pattern RA_PTN = Pattern.compile("\\bRA\\b", Pattern.CASE_INSENSITIVE);
 }
