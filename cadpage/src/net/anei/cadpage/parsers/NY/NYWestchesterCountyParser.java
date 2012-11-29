@@ -34,6 +34,7 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
         body = body.substring(2).trim();
         break;
       }
+      if (isPositiveId()) break;
       return false;
     } while (false);
     
