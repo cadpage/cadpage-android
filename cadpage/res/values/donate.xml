@@ -166,7 +166,13 @@
   
   <string name="donate_magic_word_title">I have an authorization code</string>
   <string name="donate_magic_word_text">Enter authorization code</string>
-  <string name="donate_magic_word_reject">Sorry, that is not a recognized authorization code</string>
+  <string name="donate_magic_word_reject">
+      Sorry, that is not a recognized Cadpage authorization code\n\n
+      If you have an activation code for CodeMessaging or Active911, this is
+      not the right place for them.  Go back to Cadpage Settings and select\n
+      Direct Paging Vendors > (approriate vendor) > Register\n
+      and follow the directions
+  </string>
   
   <string name="donate_android_problem_title">I can\'t make Android Market payments</string>
   <string name="donate_android_problem_text">
