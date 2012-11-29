@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA7BaseParser;
  */
 public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
   
-  private static final Pattern MARKER = Pattern.compile("^([A-Z]{4}) +B:(\\d{4})? +(\\d[A-Z]?) +");
+  private static final Pattern MARKER = Pattern.compile("^([A-Z]{4}) +B:([ 0-9]\\d{3})? +(\\d[A-Z]?) +");
   
   public NYMonroeCountyWebsterParser() {
     super(CITY_CODES, "MONROE COUNTY", "NY",

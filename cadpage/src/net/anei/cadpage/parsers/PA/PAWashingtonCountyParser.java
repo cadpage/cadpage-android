@@ -17,7 +17,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "company10paging,WashCo911";
+    return "company10paging,mptfire,WashCo911";
   }
 
   @Override

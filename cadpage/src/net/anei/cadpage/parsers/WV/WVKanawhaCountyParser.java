@@ -27,6 +27,10 @@ public class WVKanawhaCountyParser extends MsgParser {
     data.strCall = match.group(1).trim();
     parseAddress(match.group(2).trim().replaceAll("//", "/"), data);
     data.strCity = match.group(3).trim();
+    if (data.strCity.equals("SISSONVILLE")) {
+      data.strPlace = data.strCity;
+      data.strCity = "CHARLESTON";
+    }
     data.strDate = match.group(4);
     data.strTime = match.group(5);
     return true;
