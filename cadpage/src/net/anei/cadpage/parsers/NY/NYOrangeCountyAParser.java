@@ -16,7 +16,7 @@ public class NYOrangeCountyAParser extends FieldProgramParser {
   
   public NYOrangeCountyAParser() {
     super("ORANGE COUNTY", "NY",
-           "CALL ADDR CITY! INFO+ LOCATION:PLACE? TIME:TIME XST:X XST2:X");
+           "ID? CALL ADDR CITY! INFO+ LOCATION:PLACE? TIME:TIME XST:X XST2:X");
   }
   
   @Override
@@ -53,6 +53,7 @@ public class NYOrangeCountyAParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("F\\d{9,}");
     if (name.equals("CITY")) return new MyCityField();
     return super.getField(name);
   }
