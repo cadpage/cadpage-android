@@ -11,7 +11,6 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
-import android.os.Bundle;
 
 /**
  * Dummy activity that does nothing more than present a stand alone dialog
@@ -60,14 +59,6 @@ public class NoticeActivity extends Safe40Activity {
         .create();
     }
     return super.onCreateDialog(id);
-  }
-
-  // This is supposed to work around a bug causing crashes for
-  // java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
-  @Override
-  protected void onSaveInstanceState(Bundle outState) {
-    outState.putString("WORKAROUND_FOR_BUG_19917_KEY", "WORKAROUND_FOR_BUG_19917_VALUE");
-    super.onSaveInstanceState(outState);
   }
 
   /**

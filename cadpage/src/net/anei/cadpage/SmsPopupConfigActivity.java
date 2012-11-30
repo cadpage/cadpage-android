@@ -20,6 +20,7 @@ import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.net.Uri;
@@ -32,6 +33,7 @@ import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.Preference.OnPreferenceClickListener;
+import android.view.KeyEvent;
 
 public class SmsPopupConfigActivity extends PreferenceActivity {
   
@@ -391,6 +393,10 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
 
     boolean enabled = myPrefs.getBoolean(getString(R.string.pref_enabled_key), true);
     mEnabledPreference.setChecked(enabled);
+    
+    setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
+    activityActive = true; 
+
   }
   
   // If location code changes during this session, force a rebuild of
@@ -528,12 +534,38 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     return name;
   }
 
-  // This is supposed to work around a bug causing crashes for
+  // This is all supposed to work around a bug causing crashes for
   // java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
+  
+  private boolean activityActive = false;
+  
+  protected void onPause() { 
+     super.onPause(); 
+     activityActive = false; 
+  } 
+  
+  public boolean onKeyUp(int keyCode, KeyEvent event)  { 
+     if (!activityActive) return false;
+     return super.onKeyUp(keyCode, event);
+  } 
+  
+  public boolean onKeyDown(int keyCode, KeyEvent event) { 
+     if (!activityActive) return false;
+     return super.onKeyDown(keyCode, event);
+  }
+ 
+  
+  
   @Override
   protected void onSaveInstanceState(Bundle outState) {
+
     outState.putString("WORKAROUND_FOR_BUG_19917_KEY", "WORKAROUND_FOR_BUG_19917_VALUE");
     super.onSaveInstanceState(outState);
-  }
 
+    int orientation = Safe40Activity.getDisplayOrientation(this);
+    
+    //Lock the screen orientation to the current display orientation : Landscape or Portrait
+    this.setRequestedOrientation(orientation);
+
+  }
 }
