@@ -29,11 +29,6 @@ class CodeMessagingVendor extends Vendor {
   boolean isVendorAddress(String address) {
     return address.endsWith("@c-msg.net");
   }
-  
-  @Override
-  int getGCMStatus() {
-    return 2;
-  }
 
   @Override
   int getMoreInfoResId() {

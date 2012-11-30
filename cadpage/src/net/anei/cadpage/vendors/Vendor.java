@@ -36,10 +36,6 @@ abstract class Vendor {
   // True if vendor is active (ie has successfully registered with server
   private boolean enabled = false;
   
-  // True if vendor was active, but was inactivated because the vendor failed
-  // to respond to a reregister request
-  private boolean broken = false;
-  
   // True if we have have identified text pages coming from this vendor
   private boolean textPage = false;
   
@@ -183,16 +179,6 @@ abstract class Vendor {
   }
   
   /**
-   * @return GCM request status for this vendor
-   *   0 - GCM not supported or must be manually enabled by user
-   *   1 - GCM mode forced for new registrations
-   *   2 - GCM mode forced for all users - C2DM mode is not supported
-   */
-  int getGCMStatus() {
-    return 0;
-  }
-  
-  /**
    * @return true if service is up and running and should be available for everyone,
    * false if should only be available for developers
    */
@@ -249,7 +235,6 @@ abstract class Vendor {
     title = context.getString(titleId);
     prefs = context.getSharedPreferences(vendorCode + "Vendor", Context.MODE_PRIVATE);
     enabled = prefs.getBoolean("enabled", false);
-    broken = prefs.getBoolean("broken", false);
     account = prefs.getString("account", null);
     token = prefs.getString("token", null);
     
@@ -271,7 +256,6 @@ abstract class Vendor {
   private void saveStatus() {
     SharedPreferences.Editor editor = prefs.edit();
     editor.putBoolean("enabled", enabled);
-    editor.putBoolean("broken", broken);
     editor.putString("account", account);
     editor.putString("token", token);
     editor.commit();
@@ -313,10 +297,9 @@ abstract class Vendor {
   void addStatusInfo(StringBuilder sb) {
     sb.append("\n\nVendor:" + vendorCode);
     sb.append("\nenabled:" + enabled);
-    sb.append("\nbroken:" + broken);
     sb.append("\ntextPage:" + textPage);
     sb.append("\ndisableTextPageCheck:" + disableTextPageCheck);
-    if (enabled || broken) {
+    if (enabled) {
       sb.append("\naccount:" + account);
       sb.append("\ntoken:" + token);
     }
@@ -327,13 +310,6 @@ abstract class Vendor {
    */
   boolean isEnabled() {
     return enabled;
-  }
-  
-  /**
-   * @return broken status of vendor
-   */
-  boolean isBroken() {
-    return broken;
   }
   
   /**
@@ -410,9 +386,6 @@ abstract class Vendor {
     inProgress = true;
     discoverUri = uri;
     
-    //  If GCM status requests it, switch us to GCM mode
-    if (getGCMStatus() >= 1) C2DMReceiver.switchGCMMode(context, true);
-    
     // See if we already have a registration ID, if we do, use it to send
     // registration request to vendor server
     String regId = ManagePreferences.registrationId();
@@ -464,7 +437,7 @@ abstract class Vendor {
       // It isn't our problem if it isn't accepted
       if (discoverUri != null) {
         Uri uri = discoverUri.buildUpon()
-            .appendQueryParameter("type", ManagePreferences.gcmEnabled() ? "GCM" : "C2DM")
+            .appendQueryParameter("type", "GCM")
             .appendQueryParameter("CadpageRegId", registrationId)
             .build();
         HttpService.addHttpRequest(context, new HttpRequest(uri){});
@@ -481,7 +454,7 @@ abstract class Vendor {
     
     // Otherwise, if we are registered with this server, pass the new registration
     // ID to them
-    else if (enabled || broken) {
+    else if (enabled) {
       sendReregister(context, registrationId);            
     }
   }
@@ -517,16 +490,10 @@ abstract class Vendor {
         // If nothing has changed, all is well
         if (enabled == newStat) return;
         
-        // If we are using the new GCM protocol, it has it's own way of getting the new registration ID
-        // to our servers.  So we don't have to do anything drastic if the reregister request fails
-        if (enabled && ManagePreferences.gcmEnabled()) return;
-        
-        // If response was successful, we don't care about any details
-        enabled = newStat;
-        if (! enabled) broken = (status != 400);
-        showNotice(context, enabled ? R.string.vendor_connect_msg : R.string.vendor_disconnect_msg, null);
-        saveStatus();
-        reportStatusChange();
+        // Otherwise, we are basically done.  The GCM protocol, it has it's own way of 
+        // getting the new registration ID to our servers.  So we don't have to do anything 
+        // drastic if the reregister request fails
+        return;
       }});
   }
 
@@ -543,7 +510,6 @@ abstract class Vendor {
     
     boolean change = (this.enabled != register);
     this.enabled = register;
-    this.broken = false;
     this.account = account;
     this.token = token;
     saveStatus();
@@ -582,7 +548,7 @@ abstract class Vendor {
     if (account != null) builder = builder.appendQueryParameter("account", account);
     if (token != null) builder = builder.appendQueryParameter("token", token);
     if (phone != null) builder = builder.appendQueryParameter("phone", phone);
-    builder = builder.appendQueryParameter("type", ManagePreferences.gcmEnabled() ? "GCM" : "C2DM");
+    builder = builder.appendQueryParameter("type", "GCM");
     if (registrationId != null) builder = builder.appendQueryParameter("CadpageRegId", registrationId);
     builder.appendQueryParameter("version", getClientVersion());
     

@@ -785,14 +785,6 @@ public class ManagePreferences {
     prefs.putString(R.string.pref_registration_id_key, regId);
   }
   
-  public static boolean gcmEnabled() {
-    return prefs.getBoolean(R.string.pref_gcm_enabled_key);
-  }
-  
-  public static void setGcmEnabled(boolean value) {
-    prefs.putBoolean(R.string.pref_gcm_enabled_key, value);
-  }
-  
   public static boolean newVersion(int versionCode) {
     int prevVersion = prefs.getInt(R.string.pref_prev_version_code, 0);
     if (versionCode == prevVersion) return false;
@@ -944,7 +936,6 @@ public class ManagePreferences {
         R.string.pref_auth_last_check_time_key,
         
         R.string.pref_registration_id_key,
-        R.string.pref_gcm_enabled_key,
         R.string.pref_prev_version_code
     };
 

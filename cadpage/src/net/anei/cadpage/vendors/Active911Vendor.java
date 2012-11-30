@@ -55,11 +55,6 @@ class Active911Vendor extends Vendor {
       return uri.buildUpon().appendPath("interface").appendPath("cadpage_api.php").build();
     }
   }
-  
-  @Override
-  int getGCMStatus() {
-    return 2;
-  }
 
   @Override
   boolean isVendorAddress(String address) {

@@ -21,7 +21,6 @@
    <string name="pref_auth_run_days_key">pef_auth_run_days</string>
    <string name="pref_auth_last_check_time_key">auth_last_check_time</string>
    <string name="pref_registration_id_key">registration_id</string>
-   <string name="pref_gcm_enabled_key">gcm_enabled</string>
    <string name="pref_prev_version_code">prev_version_code</string>
    
    <string name="pref_payment_status_key">paymentstatus</string>

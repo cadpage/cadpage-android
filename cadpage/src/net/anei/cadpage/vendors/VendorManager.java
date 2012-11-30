@@ -7,7 +7,6 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.C2DMReceiver;
 import net.anei.cadpage.CadPageApplication;
-import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.donation.DeveloperToolsManager;
@@ -152,16 +151,9 @@ public class VendorManager {
   void reconnect(Context context) {
     
     // If there are any enabled or broken vendors, request a new registration ID
-    // That should do the job in GCM mode, but in C2DM mode, requesting a new 
-    // registration ID when you already have one doesn't do anything.  We will have
-    // to unregister the existing ID.  
     for (Vendor vendor : vendorList) {
-      if (vendor.isEnabled() || vendor.isBroken()) {
-        if (ManagePreferences.gcmEnabled()) {
-          C2DMReceiver.register(context);
-        } else {
-          C2DMReceiver.unregister(context);
-        }
+      if (vendor.isEnabled()) {
+        C2DMReceiver.register(context);
         break;
       }
     }
@@ -335,15 +327,10 @@ public class VendorManager {
    */
   public void newReleaseReset(Context context) {
     
-    boolean reqGCM = false;
     // Reset all disable text page checks when a new release is installed
     for (Vendor vendor : vendorList) {
       vendor.setDisableTextPageCheck(false);
-      if (vendor.isEnabled() && vendor.getGCMStatus() >= 2) reqGCM = true;
     }
-    
-    // If any enabled vendors require GCM operation, switch modes now
-    if (reqGCM) C2DMReceiver.switchGCMMode(context, true);
   }
   
   /**

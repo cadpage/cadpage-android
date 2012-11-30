@@ -41,7 +41,6 @@ public class C2DMReceiver extends BroadcastReceiver {
   private static final String ACTION_C2DM_UNREGISTER = "com.google.android.c2dm.intent.UNREGISTER";
   private static final String ACTION_C2DM_REGISTERED = "com.google.android.c2dm.intent.REGISTRATION";
   private static final String ACTION_C2DM_RECEIVE = "com.google.android.c2dm.intent.RECEIVE";
-  private static final String C2DM_SENDER_EMAIL = "alerts@cadpage.org";
   private static final String GCM_PROJECT_ID = "1027194726673";
   
   private static Activity curActivity = null;
@@ -290,7 +289,7 @@ public class C2DMReceiver extends BroadcastReceiver {
   public static boolean register(Context context) {
     Intent intent = new Intent(ACTION_C2DM_REGISTER);
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
-    intent.putExtra("sender", ManagePreferences.gcmEnabled() ? GCM_PROJECT_ID : C2DM_SENDER_EMAIL);
+    intent.putExtra("sender", GCM_PROJECT_ID);
     return context.startService(intent) != null;
   }
 
@@ -313,7 +312,7 @@ public class C2DMReceiver extends BroadcastReceiver {
   public static void emailRegistrationId(Context context) {
     
     // Build send email intent and launch it
-    String type = ManagePreferences.gcmEnabled() ? "GCM" : "C2DM";
+    String type = "GCM";
     Intent intent = new Intent(Intent.ACTION_SEND);
     String emailSubject = CadPageApplication.getNameVersion() + " " + type + " registrion ID";
     intent.putExtra(Intent.EXTRA_SUBJECT, emailSubject);
@@ -321,22 +320,6 @@ public class C2DMReceiver extends BroadcastReceiver {
     intent.setType("message/rfc822");
     context.startActivity(Intent.createChooser(
         intent, context.getString(R.string.pref_sendemail_title)));
-  }
-  
-  /**
-   * Process manual user request to switch GCM / C2DM mode
-   * @param enabled True to enable GCM mode, false to enable C2DM mode
-   */
-  public static void switchGCMMode(Context context, boolean enabled) {
-    
-    // If status isn't changing, don't do anything.
-    if (enabled == ManagePreferences.gcmEnabled()) return;
-    ManagePreferences.setGcmEnabled(enabled);
-    
-    // If we have an existing registration ID under the old protocol, unregister it
-    // If we have registered direct paging vendors, a new registration ID will be registered and
-    // submitted when the unregister is reported
-    if (ManagePreferences.registrationId() != null) unregister(context);
   }
 }
 
