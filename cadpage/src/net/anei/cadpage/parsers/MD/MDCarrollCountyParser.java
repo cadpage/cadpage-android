@@ -195,7 +195,7 @@ public class MDCarrollCountyParser extends FieldProgramParser {
       "MANC", "MANCHESTER",
       "REIS", "REISTERSTOWN",
       "UPCO", "UPPERCO",
-      "WEST", "WESTMINISTER",
+      "WEST", "WESTMINSTER",
       "KEYM", "KEYMAR",
       "UNBR", "UNION BRIDGE",
       "AIRY", "MT AIRY",
