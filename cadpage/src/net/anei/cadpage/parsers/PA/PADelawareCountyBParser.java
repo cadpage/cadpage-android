@@ -123,13 +123,13 @@ public class PADelawareCountyBParser extends FieldProgramParser {
       "ED", "EDDYSTONE",
       "EG", "EDGEMONT TWP",
       "EL", "EAST LANSDOWNE",
-      "ES", "ESSINGTON", // SECTION OF TINNICUM TWP
+      "ES", "ESSINGTON", // SECTION OF TINICUM TWP
       "FL", "FOLCROFT",
       "GL", "GLENOLDEN",
       "HV", "HAVERFORD TWP",
       "LA", "LANSDOWNE",
       "LC", "LOWER CHICHESTER TWP",
-      "LS", "LESTER", // SECTION OF TINNICUM TWP
+      "LS", "LESTER", // SECTION OF TINICUM TWP
       "MB", "MILLBOURNE",
       "MD", "MIDDLETOWN TWP",
       "ME", "MEDIA",
@@ -152,12 +152,13 @@ public class PADelawareCountyBParser extends FieldProgramParser {
       "TB", "THORNBURY TWP",
       "TC", "CHESTER TWP",
       "TD", "TREDYFFRIN TWP",
-      "TN", "TINNICUM TWP",
+      "TN", "TINICUM TWP",
       "TR", "TRAINER",
       "UC", "UPPER CHICHESTER TWP",
       "UD", "UPPER DARBY TWP",
       "UL", "UPLAND",
       "UP", "UPPER PROVIDENCE TWP",
+      "WT", "WILLISTOWN TWP",
       "YE", "YEADON",
       
       "NCC", "NEW CASTLE COUNTY"

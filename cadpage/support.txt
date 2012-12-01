@@ -354,6 +354,15 @@ Have a nice day,
 
 ******************************************************************
 
+This is a sporadic but very frustrating problem with newer versions of the Android system that has been reported by many people and many different apps.  I implemented another round of published workarounds to see if I can resolve it in the next release.
+
+The next release will probably be out next Thursday, but this fix is available in the beta release at http://www.cadpage.org/download-cadpage.  I would appreciate it if you could try installing that and see how things work with it.
+
+Thanks,
+-Ken
+
+******************************************************************
+
 This should be fixed in the latest release, now available on Play Store.
 
 Thanks for reporting it,
