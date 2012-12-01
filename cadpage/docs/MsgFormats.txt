@@ -5138,9 +5138,4 @@ Location: Heuvelton, NY, United States
 **********************************************************
 * EOF
 **********************************************************
-
-Agency name: Rochester Fire
-Location: Rochester, NY, United States
-Contact: Active911
-
-
+Loc:975 LASLEY DR XSt:100 E INDIANAPOLIS AV Grid:1102 Units:E11 Rmk: 
