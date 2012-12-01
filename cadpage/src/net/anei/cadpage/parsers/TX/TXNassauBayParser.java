@@ -74,6 +74,7 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CLEMC", "CLEAR LAKE",
       "CS", "CLEAR LAKE SHORES",
+      "DP", "DEER PARK",
       "EL", "EL LAGO",
       "FB", "FOREST BEND",
       "FW", "FRIENDSWOOD",
