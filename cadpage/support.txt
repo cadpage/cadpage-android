@@ -116,7 +116,7 @@ This will generate an email with the correct email account (usually a gmail acco
 Your Payment status should change when you load the next Cadpage version. 
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-UOVCKDBA or uovckdba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+SDREWMGA or sdrewmga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -184,7 +184,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail address) so I can make sure you get credit for it.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-UOVCKDBA or uovckdba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+SDREWMGA or sdrewmga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -229,7 +229,7 @@ Cadpage is free for direct paging users.
 This should only take a few seconds.  But just in case it does not...
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-UOVCKDBA or uovckdba.  It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+SDREWMGA or sdrewmga.  It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
 
 Good Luck,
 Jean -- Assistant to Ken Corbin
@@ -297,7 +297,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-UOVCKDBA or uovckdba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+SDREWMGA or sdrewmga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -311,7 +311,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-UOVCKDBA or uovckdba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+SDREWMGA or sdrewmga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -321,7 +321,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-UOVCKDBA or uovckdba.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+SDREWMGA or sdrewmga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -397,6 +397,7 @@ We think that Cadpage is so valuable to firefighters and EMS workers, that we wi
 1) If you (or your department) are currently using or can switch to using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free if you are using the direct messaging option.
 2) I give out free subscriptions to people who give me a reasonable reason as to why they cannot afford $10 per year.  
 3) You can just reinstall Cadpage every 30 days
+4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version is almost a year old, but it will not bug you about paying for it.
 
 Thanks for your feedback,
 Jean -- Assistant to Ken Corbin
@@ -686,17 +687,22 @@ Hope that helps,
 -Ken
 
 ******************************************************************
+iphone questions
+******************************************************************
 
-There are, not one, but two Cadpage apps currently available in the Apple App Store.
+There is a Cadpage-like app available in the Apple app store, called Active911. 
 
-The problem is that the IOS environment is a lot more restrictive than Android.  Unless you have a jail broken phone, it is not possible to pick up text messages the way we do for Android.
+The problem is that the IOS environment is a lot more restrictive than Android.  Unless you have a jail broken phone, it is not possible to pick up 
+text messages the way we do for Android.
 
-All is not lost.  Messaging services that can push pages to Cadpage over the Internet can do the same for an IPhone app.  But this means the IPhone apps will only work in conjunction with a message service that can push pages to them.
+All is not lost.  Messaging services that can push pages to Cadpage over the Internet can do the same for an IPhone app.  But this means the IPhone apps 
+will only work in conjunction with a message service that can push pages to them.  Active911 or Code Messaging will do that for you.
 
-The Cadpage app costs $10 and will work with both CodeMessaging.net and Active911.com.  Active911.com also has a free Active911 app that only works with them.  It isn't called Cadpage, but it relies on Cadpage parsing technology.
+A real Cadpage app is in development and has been submitted to the Apple masters for approval, but apparently is not yet available.  When it is 
+available, it will likely be called Cadpage, will cost $10 and will work with both CodeMessaging.net and Active911.com. 
 
 Good luck,
--Ken
+Jean, Assistant to Ken Corbin
 
 ******************************************************************
 
