@@ -653,6 +653,7 @@ public class ParserList {
               ,"TXMontgomeryCounty"             ,"Montgomery County, TX"
               ,"TXNassauBay"                    ,"Nassau Bay, TX"
               ,"TXNuecesCounty"                 ,"Nueces County, TX"
+              ,"TXParkerCounty"                 ,"Parker County, TX"
               ,"TXTarrantCounty"                ,"Tarrent County, TX"
               ,"TXRockwallCounty"               ,"Rockwall County, TX"
               ,"TXWebster"                      ,"Webster, TX"
