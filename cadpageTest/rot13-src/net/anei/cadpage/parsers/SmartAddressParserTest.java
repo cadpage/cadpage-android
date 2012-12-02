@@ -48,6 +48,13 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
     
+    qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD | SYNT_NAPUBE_RAQ |SYNT_CNQ_SVRYQ, 
+           "Qvnorgvp Ceboyrzf 206 RNEY QE QRNQ RAQ / INEARYY EQ, YVATRESRYG EQ XRA GBJA",
+           "PNYY:Qvnorgvp Ceboyrzf",
+           "NQQE:206 RNEY QE",
+           "FEP:QRNQ RAQ / INEARYY EQ, YVATRESRYG EQ",
+           "PVGL:XRA GBJA");
+    
     qbGrfg(NQQE, SYNT_VZCYVRQ_VAGREFRPG | SYNT_NAPUBE_RAQ, "UNPXRGG EQ XNAFNF EQ F",
            "NQQE:UNPXRGG EQ & XNAFNF EQ F");
     

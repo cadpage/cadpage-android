@@ -56,14 +56,18 @@ public class GADadeCountyParser extends SmartAddressParser {
   
   private static final String[] CITY_LIST = new String[]{
     "NEW ENGLAND",
+    "NEW SALEM",
     "RISING FAWN",
     "TRENTON",
+    "WEST BROW",
     "WILDWOOD",
     
     "SLYGO"
   };
   
   private static final Properties PLACE_CITY_XREF = buildCodeTable(new String[]{
-      "SLYGO",       "TRENTON"
+      "NEW SALEM",   "",
+      "SLYGO",       "TRENTON",
+      "WEST BROW",   ""
   }); 
 }

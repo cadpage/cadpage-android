@@ -1656,7 +1656,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // character tokens are OK
     if (!pastAddr && BAD_CHARS.matcher(token).find()) {
       tokenType[ndx] |= ID_NOT_ADDRESS;
-      if (isFlagSet(FLAG_ANCHOR_END)) startNdx = ndx+1;
+      if (isFlagSet(FLAG_ANCHOR_END) && !isFlagSet(FLAG_PAD_FIELD)) startNdx = ndx+1;
       return;
     }
     
