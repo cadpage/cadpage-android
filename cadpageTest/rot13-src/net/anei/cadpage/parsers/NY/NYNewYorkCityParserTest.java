@@ -29,6 +29,7 @@ Nir Z - Org: R 18Gu Fg & R 18Gu Fg - Pnyy VQ: 933-3131
 2499 Bprna Nir - Org: Nirahr G & Nirahr H - Pnyy VQ: 937-7551
 703 Xvatf Ujl - Org: R 7Gu Fg & R 8Gu Fg - Pnyy VQ: 933-2631
 609 Bprna Cxjl - Org: 18Gu Nir & Qvgznf Nir - 1fg sybbe - Pnyy VQ: 933-4081
+1579 R 5Gu Fg - Org: Elqre Nir / Ebqre Nir & Nirahr B - 1fg sybbe - Pnyy VQ: 942-8371
 
 */
 
@@ -160,6 +161,13 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:18Gu Nir & Qvgznf Nir",
         "CYNPR:1fg sybbe",
         "VQ:933-4081");
+
+    qbGrfg("G1",
+        "1579 R 5Gu Fg - Org: Elqre Nir / Ebqre Nir & Nirahr B - 1fg sybbe - Pnyy VQ: 942-8371",
+        "NQQE:1579 R 5Gu Fg",
+        "K:Elqre Nir / Ebqre Nir & Nirahr B",
+        "CYNPR:1fg sybbe",
+        "VQ:942-8371");
 
   }
   

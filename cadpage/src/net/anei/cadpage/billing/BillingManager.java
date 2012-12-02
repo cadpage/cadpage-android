@@ -58,8 +58,12 @@ public class BillingManager {
   }
   
   public boolean isPurchased() {
-    int year = Calendar.getInstance().get(Calendar.YEAR);
-    return year == ManagePreferences.paidYear();
+    Calendar cal = Calendar.getInstance(); 
+    int year = cal.get(Calendar.YEAR);
+    int paidYear = ManagePreferences.paidYear();
+    if (paidYear > year) return true;
+    if (paidYear == year && cal.get(Calendar.MONTH) < Calendar.DECEMBER) return true;
+    return false;
   }
   
   /**
@@ -68,9 +72,19 @@ public class BillingManager {
    */
   public void startPurchase(Activity activity) {
     if (mService == null) return;
-    int year = Calendar.getInstance().get(Calendar.YEAR);
+    int curYear = ManagePreferences.paidYear();
+    String year;
+    String purchaseDate;
+    if (curYear > 0) {
+      year = Integer.toString(curYear + 1);
+      purchaseDate = ManagePreferences.purchaseDateString();
+    } else {
+      purchaseDate = ManagePreferences.currentDateString();
+      year = purchaseDate.substring(4);
+    }
+    
     String item = "cadpage_" + year;
-    String payload = ManagePreferences.purchaseDateString();
+    String payload = purchaseDate;
     mService.requestPurchase(activity, item, payload); 
   }
   

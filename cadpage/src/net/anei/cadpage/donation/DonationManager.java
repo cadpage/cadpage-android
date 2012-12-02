@@ -99,37 +99,35 @@ public class DonationManager {
         expireDate = cal.getTime();
       }
     }
-    boolean sponsored = sponsor != null && expireDate == null;
-    daysSinceInstall = ManagePreferences.calcAuthRunDays(!sponsored ? curDate : null);
+    boolean vendorSponsored = sponsor != null && expireDate == null;
+    daysSinceInstall = ManagePreferences.calcAuthRunDays(!vendorSponsored ? curDate : null);
     int daysTillDemoEnds = DEMO_LIMIT_DAYS - daysSinceInstall;
     
     // Calculate subscription expiration date
     // (one year past the purchase date anniversary in the last paid year)
     // ((Use install date if there is no purchase date))
     int daysTillSubExpire = -99999;
-    boolean limbo = false;
-    if (!sponsored) {
-      int paidYear = ManagePreferences.paidYear();
-      if (paidYear > 0) {
-        Date tDate = ManagePreferences.purchaseDate();
-        if (tDate == null) tDate = ManagePreferences.installDate();
-        Calendar cal = new GregorianCalendar();
-        cal.setTime(tDate);
-        cal.set(Calendar.YEAR, paidYear+1);
-        tDate = cal.getTime();
-        
-        // If we have both a subscription and sponsor expiration date, choose the
-        // latest one
-        if (expireDate == null || tDate.after(expireDate)) {
-          sponsor = ManagePreferences.sponsor();
-          expireDate = tDate;
-        }
+    int paidYear = ManagePreferences.paidYear();
+    if (paidYear > 0) {
+      Date tDate = ManagePreferences.purchaseDate();
+      if (tDate == null) tDate = ManagePreferences.installDate();
+      Calendar cal = new GregorianCalendar();
+      cal.setTime(tDate);
+      cal.set(Calendar.YEAR, paidYear+1);
+      tDate = cal.getTime();
+      
+      // If we have both a subscription and sponsor expiration date, choose the
+      // latest one
+      if (expireDate == null || tDate.after(expireDate)) {
+        if (!vendorSponsored) sponsor = ManagePreferences.sponsor();
+        expireDate = tDate;
       }
     }
     
     // If we have an expiration date, see if it has expired.  And if it has see
     // if we are in the limbo state where user can keep running Cadpage until they
     // install a release published after the expiration date
+    boolean limbo = false;
     if (expireDate != null) {
       JulianDate jExpireDate = new JulianDate(expireDate);
       daysTillSubExpire = curJDate.diffDays(jExpireDate);
@@ -147,8 +145,9 @@ public class DonationManager {
       status = DonationStatus.AUTH_DEPT;
     } else if (expireDate != null) {
       if (daysTillExpire > EXPIRE_WARN_DAYS) {
-        status = (sponsor != null ? DonationStatus.SPONSOR : DonationStatus.PAID);
+        status = (!vendorSponsored && sponsor != null ? DonationStatus.SPONSOR : DonationStatus.PAID);
       }
+      else if (vendorSponsored) status = DonationStatus.SPONSOR;
       else if (daysTillExpire >= 0) {
         if (daysTillExpire == daysTillSubExpire) {
           status = (sponsor != null ? DonationStatus.SPONSOR_WARN : DonationStatus.PAID_WARN);

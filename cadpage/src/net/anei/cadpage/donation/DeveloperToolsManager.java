@@ -119,6 +119,7 @@ public class DeveloperToolsManager {
         break;
         
       case 2:     // Stat: Donate paid
+        ManagePreferences.setAuthRunDays(100);
         ManagePreferences.setAuthExemptDate(null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
@@ -130,6 +131,7 @@ public class DeveloperToolsManager {
         break;
         
       case 3:     // Stat: Donate warn
+        ManagePreferences.setAuthRunDays(100);
         ManagePreferences.setAuthExemptDate(null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
@@ -140,6 +142,7 @@ public class DeveloperToolsManager {
         
       case 4:     // Stat: Donate Limbo
       case 5:     // Stat: Donate expire
+        ManagePreferences.setAuthRunDays(100);
         ManagePreferences.setAuthExemptDate(null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
@@ -169,6 +172,7 @@ public class DeveloperToolsManager {
         break;
         
       case 8:    // Stat: Free subscriber
+        ManagePreferences.setAuthRunDays(100);
         ManagePreferences.setAuthExemptDate(null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);

@@ -582,6 +582,7 @@ public class ManagePreferences {
       if (year == curYear) {
         int prevYear = prefs.getInt(R.string.pref_prev_year_key, 0);
         prefs.putInt(R.string.pref_paid_year_key, prevYear);
+        prefs.putInt(R.string.pref_prev_year_key, 0);
         DonationManager.instance().reset();
         MainDonateEvent.instance().refreshStatus();
       }
@@ -607,8 +608,12 @@ public class ManagePreferences {
   
   public static String purchaseDateString() {
     String dateStr = prefs.getString(R.string.pref_purchase_date_key, null);
-    if (dateStr == null) dateStr = DATE_FORMAT.format(new Date());
+    if (dateStr == null) dateStr = currentDateString();
     return dateStr;
+  }
+  
+  public static String currentDateString() {
+    return DATE_FORMAT.format(new Date());
   }
   
   public static void setPurchaseDateString(String  sDate) {

@@ -4906,6 +4906,10 @@ Contact: Shane Solesbee <shane.solesbee22@gmail.com>
 Sender: alerts@cadpage.org
 CALL:RESIDENTIAL FIRE.. PLACE: ADDR:790 MCSWAIN RD DATE: 11/27/2012 TIME: 03:49:39 CITY:Chesnee ID:CF33406 DST:SC SRC:CSFD UNIT:CSFD INFO:FIRE ALARMS  STRUCTURE CALLS ALSO SEND BOILING SPRINGS\2sCHESNEE COMM / RESIDENTIAL STRUCTURE FIRE
 **********************************************************
+Scotty County, IA
+Contact: David Liske <david.liskeusmc@gmail.com>
+Sender: secc@scott.ia.us
+(Incident) MCFD\2s106 N SALINA ST McCausland EMS or MVC-Solo\2sCall successfully transferred to peer Agency. [MedicEMS]\2sPeer CFS Number = 0045-A_2012-12-01 [MedicEM
 **********************************************************
 **********************************************************
 **********************************************************
