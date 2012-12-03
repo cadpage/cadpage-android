@@ -471,7 +471,8 @@ public class MsgInfo {
         sCross = cleanInterstate(sCross);
         sCross = cleanOffRamp(sCross);
         sCross = cleanSTRoutes(sCross);
-        sAddr = prefix + sAddr + " & " + sCross;
+        sCross = sCross.trim();
+        if (sCross.length() > 0) sAddr = prefix + sAddr + " & " + sCross;
       }
     
       // If that didn't work, lets hope a place name will be enough
