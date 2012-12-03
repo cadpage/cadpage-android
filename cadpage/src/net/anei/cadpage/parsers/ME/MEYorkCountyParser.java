@@ -8,7 +8,7 @@ public class MEYorkCountyParser extends FieldProgramParser {
   
   public MEYorkCountyParser() {
     super(CITY_LIST, "YORK COUNTY", "ME",
-           "CALL PLACE? ADDR/Z CITY Fire_District:SRC DATETIME!");
+           "CALL PLACE? ADDR/Z CITY District:SRC DATETIME!");
   }
   
   @Override
@@ -20,6 +20,7 @@ public class MEYorkCountyParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("Sanford RCC Page")) return false;
+    body = body.replace("\nFire District:", "\nDistrict:");
     return parseFields(body.split("\n"), data);
   }
   

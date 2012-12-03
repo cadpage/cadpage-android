@@ -23,6 +23,10 @@ Sverzhghnynvq.pbz yvfgf nyy gur qrcnegzragf gurl qvfcngpu
 (PNQ Nhgbzngrq Rirag Abgvsvpngvba) RZYvir: uggc://911gkg.pb/e/szn/147835\e\a995 FNKGBAF EVIRE EQ\e\aAB ANZR\e\aFNKGBAF EVIRE\e\aZRQVPNY\e\a3\e\a\e\aAbgrf\e\aNYGR
 (PNQ Nhgbzngrq Rirag Abgvsvpngvba) 801 FNKGBAF EVIRE EQ\e\aAB ANZR\e\aEBPXVATUNZ\e\aZRQVPNY\e\a3\e\a\e\aAbgrf\e\aPnyyre Anzr: YVSRYVAR\e\aOEBAL OHQMVX ERFVQRAPR\e
 
+Pbagnpg: Wrerzl YnCynagr <auwrerzl@tznvy.pbz>
+Fraqre: pnq_qb_abg_ercyl@sverzhghnynvq.pbz
+(PNQ Nhgbzngrq Rirag Abgvsvpngvba) RZYvir: uggc://911gkg.pb/e/szn/148541\e\a18 JVYQJBBQ EQ\e\aPBATQBA YVYYVNA E. ERIBPNOYR GEHFG (JVYQJBBQ EQ)\e\aXRRAR
+
 */
 
 choyvp pynff AUXrrarZhghnyNvqCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -200,6 +204,23 @@ choyvp pynff AUXrrarZhghnyNvqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:3",
         "VASB:OEBAL OHQMVX ERFVQRAPR",
         "ANZR:YVSRYVAR");
+    
+  }
+  
+  @Grfg 
+  choyvp ibvq WrerzlYncnag() {
+
+    qbGrfg("G1",
+        "(PNQ Nhgbzngrq Rirag Abgvsvpngvba) RZYvir: uggc://911gkg.pb/e/szn/148541\e\a" +
+        "18 JVYQJBBQ EQ\e\a" +
+        "PBATQBA YVYYVNA E. ERIBPNOYR GEHFG (JVYQJBBQ EQ)\e\a" +
+        "XRRAR",
+
+        "HEY:uggc://911gkg.pb/e/szn/148541",
+        "NQQE:18 JVYQJBBQ EQ",
+        "CYNPR:PBATQBA YVYYVNA E. ERIBPNOYR GEHFG (JVYQJBBQ EQ)",
+        "PVGL:XRRAR",
+        "FG:AU");
    
   }
 
