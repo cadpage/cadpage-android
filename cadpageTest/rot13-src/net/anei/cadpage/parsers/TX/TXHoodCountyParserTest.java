@@ -992,8 +992,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:251",
         "PVGL:Tenaohel",
         "HAVG:PISQ,FG1,QPOR,FG2,UPSZ",
-        "VASB:Bhgfvqr Sver.  .Pnyyre Fgngrzrag: bhgfvqr sver. / FZNYY BHGFVQR sver. / 1. Gur pnyyre vf ba fprar (1fg cnegl). / 2. Guvf vf n FZNYY BHGFVQR sver. / 3. Gur sver unf abg orra rkgvathvfurq. / 4. Gur sver vf abg guerngravat nalguvat ng cerfrag. / 5. Ab unmneqbhf zngrevnyf ner cerfrag. / Pnyy glcr s erbcrarq ol Ebfr F ng 19:10:26 11/13/12 / NABGURE PNYYRE EVPUNEQ YNZOREG 817-812-8724 NQI VG VF N FZNYY TENFF SVER RO",
-        "CUBAR:(   )   -");
+        "VASB:Bhgfvqr Sver.  .Pnyyre Fgngrzrag: bhgfvqr sver. / FZNYY BHGFVQR sver. / 1. Gur pnyyre vf ba fprar (1fg cnegl). / 2. Guvf vf n FZNYY BHGFVQR sver. / 3. Gur sver unf abg orra rkgvathvfurq. / 4. Gur sver vf abg guerngravat nalguvat ng cerfrag. / 5. Ab unmneqbhf zngrevnyf ner cerfrag. / Pnyy glcr s erbcrarq ol Ebfr F ng 19:10:26 11/13/12 / NABGURE PNYYRE EVPUNEQ YNZOREG 817-812-8724 NQI VG VF N FZNYY TENFF SVER RO");
 
     qbGrfg("G25",
         "(VAPVQRAG # T12111301) VAPVQRAG # T12111301\a\a" +
