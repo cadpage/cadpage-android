@@ -4920,11 +4920,6 @@ Contact: David Liske <david.liskeusmc@gmail.com>
 Sender: secc@scott.ia.us
 (Incident) MCFD\2s106 N SALINA ST McCausland EMS or MVC-Solo\2sCall successfully transferred to peer Agency. [MedicEMS]\2sPeer CFS Number = 0045-A_2012-12-01 [MedicEM
 **********************************************************
-Groton, CT
-Contact: Derek F <Dee21engine@msn.com>
-Sender: Mobiletec@town.groton.ct.us
-(CAD PAGE) MVA SERIOUS ALS||  |STA PGFORT XS NEW LONDON  RD/FLANDERS RD|18:57|NARR MV ROLL OVER, W/ENTRAPMENT PERSON: (COMPLAINANT) (FMLS) MIKE  GARDNER
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4934,6 +4929,24 @@ Sender: Mobiletec@town.groton.ct.us
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+Groton, CT
+Contact: Derek F <Dee21engine@msn.com>
+Sender: Mobiletec@town.groton.ct.us
+(CAD PAGE) MVA SERIOUS ALS||  |STA PGFORT XS NEW LONDON  RD/FLANDERS RD|18:57|NARR MV ROLL OVER, W/ENTRAPMENT PERSON: (COMPLAINANT) (FMLS) MIKE  GARDNER
+(CAD PAGE) STRUCTURE FIRE|| 9 ALMER ST,GRTN TOWN |STA CG XS 
+(CAD PAGE) STAND BY||  |STA PGFORT XS FORT HILL  RD/VERGENNES CT|15:46
+(CAD PAGE) ILL PERSON PRI SYM ALS|| 17 PHILLIPS AVE,GRTN TOWN |STA CG XS GALLUP  ST/ALMER ST|18:05|NARR PROQA SUMMARY:CHARLIE
+(CAD PAGE) ILL PERSON PRI SYM ALS||  |STA PGCG XS GOLD STAR HWY/GUNGYWAMP RD|16:53
+(CAD PAGE) STRUCTURE FIRE|| 9 ALMER ST,GRTN TOWN |STA CG XS ALPHA  AVE/PHILLIPS AVE|11:03|NARR OVEN FIRE SHE WAS USING THE STOVE
+
+some of the abbreviations used above are listed below.
+
+1. PRI- PRIMARY
+2. SYM- SYMPTOMS
+3. STA CG- STATION CENTER GROTON
+4. XS- CROSS STREET
+5. PGCG- POQUONNOCK BRIDGE FIRE & CENTER GROTON FIRE
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
