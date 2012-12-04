@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.IN;
 
 import java.util.Properties;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /**
@@ -17,6 +18,17 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
   @Override
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
+  }
+  
+  
+  @Override
+  public boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    
+    // A city starting with a digit probably means this is a Marshall County page
+    // In any case we don't want to accept it
+    if (data.strCity.length() > 0 && Character.isDigit(data.strCity.charAt(0))) return false;
+    return true;
   }
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{

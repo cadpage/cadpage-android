@@ -17,6 +17,9 @@ Hcqngr: ;625-33 BNXUVYY NIR;CYLZ;AHEFREL FG;F FRPBAQ FG;ZRQVPNY PNYY;08/19/2011 
 PNQ:SLV: ;QVFG: 143.99 SG;422 R PRAGRE FG;OBHE;A YVAPBYA FG;R BYQ HF 30;NPPVQRAG CV BE HAX;08/26/2011 20:38:55
 PNQ:Hcqngr: ;ORRPU EQ/15O EQ;OBHE;NPPVQRAG CV BE HAX;11/14/2011 15:38:42
 
+Pbagnpg: Fpbgg Fvtresbbf <ffvtresbbf@zgrzf.pbz>
+PNQ:SLV: ;HF 30/PRQNE EQ;OBHE;SVER TENFF;12/01/2012 23:38:17
+
 */
 
 choyvp pynff VAZnefunyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -91,6 +94,19 @@ choyvp pynff VAZnefunyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NPPVQRAG CV BE HAX",
         "QNGR:11/14/2011",
         "GVZR:15:38:42");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFpbggFvtresbbf() {
+
+    qbGrfg("G1",
+        "PNQ:SLV: ;HF 30/PRQNE EQ;OBHE;SVER TENFF;12/01/2012 23:38:17",
+        "NQQE:HF 30 & PRQNE EQ",
+        "PVGL:OBHEOBA",
+        "PNYY:SVER TENFF",
+        "QNGR:12/01/2012",
+        "GVZR:23:38:17");
+
  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
