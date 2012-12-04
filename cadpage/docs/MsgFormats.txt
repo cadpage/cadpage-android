@@ -859,6 +859,21 @@ UNKMED1 NLF () Loc:1550 SE 14TH ST: 5 Rcvd: 12:10:54 Units: D1141 E12133366 Comm
 FIRES NLF () Loc:1543 NE 14TH ST Rcvd: 20:57:13 Units: C1161 E12129759 Comments: STRUCTURE FIRE HYDE PARK [75]
 WATER1 NLF () Loc:NW LOGAN RD & ACCESS Rcvd: 13:51:1 Units: D1141 E12130984 Comments: 3 KIDS OUT SURFING 200 YARDS SOUT
 *******************************************************************************
+***************************************************************************
+* DispatchA13Parser subclasses
+*******************************************************************************
+***************************************************************************
+Madison County, NY (NYMadisonCountyBParser)
+[911 Dispatch]  BRKFD:2011:173\nDispatched\nChest Pain\n1929 ACADEMY RD , BROOKFIELD ( / SPOONER RD)
+[911 Dispatch]  BRKFD:2011:172\nDispatched\nPsychiatric/Suicide Attempt\n11325 MILL , BROOKFIELD ( CENTER /)
+[911 Dispatch]  BRKFD:2011:171\nDispatched\nBreathing Problem\n10825 HOXIE RD , BROOKFIELD ( COYOTE RUN /)
+***************************************************************************
+Oneida County, NY (NYOneidaCountyParser)
+o;?WHIF:2010:0648\nDispatched\nEMS/BREATHING PROBLEMS\n111 HARDCASTLE AVE, WHITESBORO VILLAGE (MERITON DR/PERIMETER RD)
+o;?WHIF:2010:0641\nDispatched\nEMS/DIABETIC PROBLEM\n31 MOHAWK ST, WHITESBORO VILLAGE (/SAUQUOIT STNear:AMERICAN LEGION POST
+o;?WHIF:2010:0636\nDispatched\nINVESTIGATE\n124 HARTS HILL TERR, WHITESTOWN (GILBERT RD/Near:HARTS HILL INN)
+o;?WHIF:2010:0644\nDispatched\nMVA-PI\nHUGHES ST, WHITESBORO VILLAGE/ WEST ST, WHITESBORO VILLAGE
+*******************************************************************************
 *******************************************************************************
 * DispatchGeoconxParser subclasses
 *******************************************************************************
@@ -2201,11 +2216,6 @@ BREATHING PROBL|18077 REED POINT RD:ORLEANS(T)|77 YO MALE DIFF BREATHING
 ABDOMINAL PAIN|18081 REED POINT RD:ORLEANS(T)|79F  :ProQA Medical Case Entry Finished You are responding to a patient with abdominal pain.  The patient is a  79-year-old female, who is conscious and breathing.  Abdominal Pain / Problems.  Caller Statement: ABDOMINAL PAIN.
 ASSIST-EMS|I 81 MM 176 N:ALEXANDRIA(T)|1 mile south of 50 in the north bound lane   vehicle appears to be stuck in mediun    unkn9ow if occupied  :3D63 REQUESTING EMS RESPOND.  ONE FEMALE OCCUPANT COMPLAINING OF WRIST PAIN.
 ***************************************************************************
-Madison County, NY (NYMadisonCOuntyBParser)
-[911 Dispatch]  BRKFD:2011:173\nDispatched\nChest Pain\n1929 ACADEMY RD , BROOKFIELD ( / SPOONER RD)
-[911 Dispatch]  BRKFD:2011:172\nDispatched\nPsychiatric/Suicide Attempt\n11325 MILL , BROOKFIELD ( CENTER /)
-[911 Dispatch]  BRKFD:2011:171\nDispatched\nBreathing Problem\n10825 HOXIE RD , BROOKFIELD ( COYOTE RUN /)
-***************************************************************************
 Madison County - Greator Lenox Amulance Service, NY (NYMadisonCountyGLASParser)
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Sick Person\n7738 WISE RD , LENOX ( / N COURT)
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Assist\n400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
@@ -2225,12 +2235,6 @@ Niagara County, NY (NYNiagaraCountyParser)
 ((12474) NCFC MMYERS ) 3111 Sndrs Stlmnt Rd-NCCC-C Bldg unk age f labor pains no further info. BLSP EMS/Air Ops. 1617hrs numerous other calls in cnty. From email 7164383393@niagaracounty.com
 (10444 NCFC JBEILEIN ) DUERO/WILLIAMS  MVA W MINOR INJURIES. From email 7164383393@niagaracounty.com
 (550 NCFC RZASTROW ) 1-AMB TO MVA WITH SHAWNEE/LKPT & SHAWNEE RDS. From email 7164383393@niagaracounty.com
-***************************************************************************
-Oneida County, NY (NYOneidaCountyParser)
-o;?WHIF:2010:0648\nDispatched\nEMS/BREATHING PROBLEMS\n111 HARDCASTLE AVE, WHITESBORO VILLAGE (MERITON DR/PERIMETER RD)
-o;?WHIF:2010:0641\nDispatched\nEMS/DIABETIC PROBLEM\n31 MOHAWK ST, WHITESBORO VILLAGE (/SAUQUOIT STNear:AMERICAN LEGION POST
-o;?WHIF:2010:0636\nDispatched\nINVESTIGATE\n124 HARTS HILL TERR, WHITESTOWN (GILBERT RD/Near:HARTS HILL INN)
-o;?WHIF:2010:0644\nDispatched\nMVA-PI\nHUGHES ST, WHITESBORO VILLAGE/ WEST ST, WHITESBORO VILLAGE
 ***************************************************************************
 Onondaga County, NY (NYOnondagaCountyAParser)
 ....(Skaneateles Fire) I/CAD MSG SKF 22:14:04 3104 W Lake Rd TSK XTS: FIRE LANE 9/THE LANE, , WIRE -E P:1 Lev:0 X: M911 - CC - Electric Wire Against A Tree - Is arcing and sparking - compl has no power now Disp: 54C1, 54C2, 54C3, 54E11, 54E12, 54E21, 54E31, 54MI1, 54R1, 54SD1
@@ -4916,6 +4920,10 @@ Contact: David Liske <david.liskeusmc@gmail.com>
 Sender: secc@scott.ia.us
 (Incident) MCFD\2s106 N SALINA ST McCausland EMS or MVC-Solo\2sCall successfully transferred to peer Agency. [MedicEMS]\2sPeer CFS Number = 0045-A_2012-12-01 [MedicEM
 **********************************************************
+Groton, CT
+Contact: Derek F <Dee21engine@msn.com>
+Sender: Mobiletec@town.groton.ct.us
+(CAD PAGE) MVA SERIOUS ALS||  |STA PGFORT XS NEW LONDON  RD/FLANDERS RD|18:57|NARR MV ROLL OVER, W/ENTRAPMENT PERSON: (COMPLAINANT) (FMLS) MIKE  GARDNER
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5099,24 +5107,6 @@ SEYMOUR, CT (NEW HAVEN) *CAR VS POLE* S MAIN ST & HILLSIDE AVE. CAR VS UTILITY P
 WESTPORT, CT (FAIRFIELD) *MULTI VEH MVA* I-95 SB EXIT 19-18. 3 VEH MVA. NO ENTR. AMR O/S & WESTPORT EMS E/R TO EVAL. CT806
 NORWALK, CT (FAIRFIELD) *CO EMERG W/ VICTIMS* 26 DAVIS ST. EMS TRANS 4 PT FROM HOME W/ EXP TO CO. 2 ADULTS & 2 PEDI. FD TO INVEST CAUSE & VENT. CT806
 **********************************************************
-St Lawrence County, NY
-Contact: Active911
-Agency name: Heuvelton Volunteer Fire Department
-Location: Heuvelton, NY, United States
-(911 DISPATCH) HEU FD:2012:146\nDispatched\nFire\n736 FULTON RD , LISBON ( ROUTE 27 / DANDY RD)
-(911 DISPATCH) HEU FD:2012:145\nDispatched\nFire\nPOLE IN FRONT OF HAMILTON GARDENS
-(911 DISPATCH) \nDispatched\nEMS\n47 RENSELLEAR ST HEUVELTON
-(911 DISPATCH) HEU FD:2012:143\nDispatched\nEMS\n1456 W LAKE RD #NYPH, DEPEYSTER
-(911 DISPATCH) HEU CFR:2012:255\nDispatched\nEMS\n1456 W LAKE RD #NYPH, DEPEYSTER
-(911 DISPATCH) HEU CFR:2012:254\nDispatched\nEMS\n16 RENSELLAER STREET, HEUVELTON
-(911 DISPATCH) HEU CFR:2012:253\nDispatched\nEMS\n7 JUSTINA #NY, HEUVELTON VILLAGE
-(911 DISPATCH) HEU FD:2012:142\nDispatched\nEMS\n3561 COUNTY ROUTE 10, DEPEYSTER
-(911 DISPATCH) HEU CFR:2012:252\nDispatched\nEMS\n3561 COUNTY ROUTE 10, DEPEYSTER
-(911 DISPATCH) HEU CFR:2012:251\nIn Service\nEMS\n130 HORSESHOE ROAD, HEUVELTON
-(911 DISPATCH) HEU CFR:2012:251\nDispatched\nEMS\n130 HORSESHOE ROAD, HEUVELTON
-(911 DISPATCH) HEU FD:2012:141\nDispatched\nFire\n900 BLOCK OF MAIN ST, MORRISTOWN
-(911 DISPATCH) HEU FD:2012:140\nDispatched\nFire\nTEST EMAIL CARD FROM DTJB
-(911 DISPATCH) HEU CFR:2012:250\nDispatched\nFire\nTEST EMAIL CARD FROM DTJB
 **********************************************************
 Contact: Active911
 Agency name: Colts Neck Fire Department
@@ -5136,4 +5126,3 @@ Sender: CSOCallComplete@MCSONJ.ORG
 **********************************************************
 * EOF
 **********************************************************
-
