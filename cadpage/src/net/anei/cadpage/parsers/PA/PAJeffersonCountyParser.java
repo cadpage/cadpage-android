@@ -11,6 +11,9 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class PAJeffersonCountyParser extends SmartAddressParser {
   
   private static final Pattern BOX_CH_PTN = Pattern.compile("(?: +BOX|-)? +(\\d{1,2}-[A-Z])(?: +([A-Za-z]+(?: +[A-Za-z]+)?))?$");
+  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:[A-Z]+\\d+|HH))+  +");
+  private static final Pattern GPS_PIPE_PTN1 = Pattern.compile("^([-+]?\\d+\\.\\d+)\\|([-+]?\\d+\\.\\d+)\\b");
+  private static final Pattern GPS_PIPE_PTN2 = Pattern.compile("\\b([-+]?\\d+\\.\\d+)\\|([-+]?\\d+\\.\\d+)\\b");
   
   public PAJeffersonCountyParser() {
     super(CITY_LIST, "JEFFERSON COUNTY", "PA");
@@ -38,12 +41,39 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
       data.strSupp = body.substring(pt+10).trim();
       body = body.substring(0,pt).trim();
     }
-
-    // SNYDER HILL in info section confuses the smart address parer
-    body = body.replace("Snyder Hill", "Snyder-Hill");
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS, body, data);
-    data.strCross = getPadField();
-    String extra = getLeft();
+    
+    // See if we can find a unit field separating the call description from the address
+    StartType st = StartType.START_CALL;
+    int flags = FLAG_START_FLD_REQ;
+    match = UNIT_PTN.matcher(body);
+    if (match.find()) {
+      data.strCall = body.substring(0,match.start());
+      data.strUnit = match.group().trim();
+      body = body.substring(match.end());
+      st = StartType.START_ADDR;
+      flags = 0;
+    }
+    
+    // GPS coordinates use an unusual pipe separator that the smart address parser will not recognize
+    String extra;
+    Pattern ptn = (st == StartType.START_ADDR ? GPS_PIPE_PTN1 : GPS_PIPE_PTN2);
+    match = ptn.matcher(body);
+    if (match.find()) {
+      if (st == StartType.START_CALL) data.strCall = body.substring(0,match.start()).trim();
+      data.strAddress = match.group(1) + "," + match.group(2);
+      extra = body.substring(match.end()).trim();
+    }
+    
+    // If no GPS coordiantes found, use the smart address parser to split things
+    else {
+  
+      // SNYDER HILL in info section confuses the smart address parer
+      body = body.replace("Snyder Hill", "Snyder-Hill");
+      body = body.replace(",", " ,");
+      parseAddress(st, flags | FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS, body, data);
+      data.strCross = getPadField();
+      extra = getLeft().replace(" ,", ",");
+    }
     
     if (data.strCross.length() == 0 && extra.contains(" / ")) {
       boolean cross = true;
