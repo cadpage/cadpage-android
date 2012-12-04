@@ -17,7 +17,7 @@ public class PAChesterCountyEParser extends PAChesterCountyBaseParser {
   
   @Override
   public String getFilter() {
-    return "wgfc22@";
+    return "wgr22@";
   }
 
   @Override
