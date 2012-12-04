@@ -15,7 +15,7 @@ public class PAMontgomeryCountyEParser extends FieldProgramParser {
   
   public PAMontgomeryCountyEParser() {
     super(PAMontgomeryCountyParser.CITY_CODES, "MONTGOMERY COUNTY", "PA",
-           "CALL ADDR CITY MAP EMPTY X TIME EMPTY INFO ID DATE EMPTY EMPTY!");
+           "CALL ADDR CITY UNIT EMPTY X TIME EMPTY INFO ID DATE EMPTY EMPTY!");
   }
   
   @Override
