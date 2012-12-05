@@ -15,7 +15,7 @@ public class BroadcastBindings {
   public static final String ACTION =                 PREFIX + "CADPAGE_RECEIVED";
 
   // The rest of these are keys used to retrieve page information from the intent bundle
-  // The first section describes characteristics of the actual raw messsage
+  // The first section describes characteristics of the actual raw message
   
   // (long) internal identification number assigned by Cadpage
   public static final String EXTRA_MSG_ID =             PREFIX + "EXTRA_MSG_ID"; 
@@ -107,5 +107,18 @@ public class BroadcastBindings {
   
   // (string) radio channel
   public static final String EXTRA_PARSE_CHANNEL =      PREFIX + "EXTRA_PARSE_CHANNEL";
+  
+  // (string) GPS location
+  public static final String EXTRA_PARSE_GPSLOC =       PREFIX + "EXTRA_GPS_LOC";
+  
+  // (String) Dispatch date 
+  public static final String EXTRA_PARSE_DISP_DATE =    PREFIX + "EXTRA_DISP_DATE";
+  
+  // (String) Dispatch time
+  public static final String EXTRA_PARSE_DISP_TIME =    PREFIX + "EXTRA_DISP_TIME";
+  
+  // (String) URL for additional Info
+  public static final String EXTRA_PARSE_INFO_URL =     PREFIX + "EXTRA_INFO_URL";
+  
 
 }

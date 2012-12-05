@@ -852,6 +852,10 @@ public class SmsMmsMessage implements Serializable {
       putExtraString(intent, EXTRA_PARSE_PHONE, info.getPhone());
       putExtraString(intent, EXTRA_PARSE_PRIORITY, info.getPriority());
       putExtraString(intent, EXTRA_PARSE_CHANNEL, info.getChannel());
+      putExtraString(intent, EXTRA_PARSE_GPSLOC, info.getGPSLoc());
+      putExtraString(intent, EXTRA_PARSE_DISP_DATE, info.getDate());
+      putExtraString(intent, EXTRA_PARSE_DISP_TIME, info.getTime());
+      putExtraString(intent, EXTRA_PARSE_INFO_URL, info.getInfoURL());
     }
     
     Log.v("Broadcasting intent");
