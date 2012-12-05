@@ -48,9 +48,9 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
     
-    qbGrfg(NQQE, SYNT_NAPUBE_RAQ, "9218 ZNVA FG A OEBBXSVRYQ",
-           "NQQE:9218 ZNVA FG",
-           "PVGL:A OEBBXSVRYQ");
+    qbGrfg(PNYY, "PNEO NHGB / XNEVXNF ERFQ / 816532620 382 NAQERJF EBNQ",
+           "PNYY:PNEO NHGB/XNEVXNF ERFQ/816532620",
+           "NQQE:382 NAQERJF EBNQ");
     
     qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD | SYNT_NAPUBE_RAQ |SYNT_CNQ_SVRYQ, 
            "Qvnorgvp Ceboyrzf 206 RNEY QE QRNQ RAQ / INEARYY EQ, YVATRESRYG EQ XRA GBJA",

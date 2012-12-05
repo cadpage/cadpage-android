@@ -11,10 +11,14 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   
   private static final Pattern FFD_MARKER = Pattern.compile("^\\*\\* FFD [^\\*]+ \\*\\* ");
   private static final Pattern FD_MARKER = Pattern.compile("^\\*\\* *([A-Z]{3,4})(?: ([ A-Z0-9]+?))? *\\*\\* +");
+  private static final Pattern FD2_MARKER = Pattern.compile("^\\*([A-Z]{3,4})\\* ");
+  private static final Pattern MISSING_DATE_LABEL = Pattern.compile("(?<!DATE: )\\b(?=\\d\\d?/\\d\\d?/\\d{4} +TOA:)");
+  
+  private boolean leadPlace;
   
   public NYNassauCountyFiretrackerParser() {
     super("NASSAU COUNTY", "NY", 
-           "ADDR/SCP! C/S:X DATE:DATE TOA:TIME Town_Of:CITY");
+           "ADDR/SCP! C/S:X HYD:HYD DATE:DATE TOA:TIME Town_Of:CITY");
   }
   
   @Override
@@ -55,6 +59,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
       
     }
 
+    leadPlace = true;
     do {
       Matcher match;
       if ((match = FFD_MARKER.matcher(body)).find()) {
@@ -68,11 +73,17 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
         body = body.substring(match.end()).trim();
         break;
       }
+      if ((match = FD2_MARKER.matcher(body)).find()) {
+        data.strSource = match.group(1);
+        body = body.substring(match.end()).trim();
+        leadPlace = false;
+        break;
+      }
       return false;
     } while (false);
     
     body = body.replace('\n', ' ');
-
+    body = MISSING_DATE_LABEL.matcher(body).replaceFirst("DATE: ");
     if (!super.parseMsg(body, data)) return false;
     if (data.strAddress.length() == 0) {
       parseAddress(data.strCross, data);
@@ -104,7 +115,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
           data.strCall = append(data.strCall, connect, call);
         }
         field = field.substring(pt+1).trim();
-        st = StartType.START_PLACE;
+        if (leadPlace) st = StartType.START_PLACE;
         flags = 0;
         connect = " ";
       }
@@ -136,6 +147,20 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
     }
   }
   
+  private class HydField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() > 0) {
+        super.parse("HYD:" + field, data);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO";
+    }
+  }
+  
   private class MyTimeField extends TimeField {
     @Override
     public void parse(String field, Data data) {
@@ -149,6 +174,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
+    if (name.equals("HYD")) return new HydField();
     if (name.equals("TIME")) return new MyTimeField();
     return super.getField(name);
   }

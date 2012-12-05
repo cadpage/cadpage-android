@@ -1685,8 +1685,15 @@ public abstract class SmartAddressParser extends MsgParser {
       }
     }
     
+    // Numeric tokens 9 digits or longer are probably SSNs or phone numbers
+    // which should be marked as non-address tokens
     else if (NUMERIC.matcher(token).matches()) {
-      mask |= ID_NUMBER;
+      if (token.length() >= 9) {
+        tokenType[ndx] |= ID_NOT_ADDRESS;
+        if (isFlagSet(FLAG_ANCHOR_END) && !isFlagSet(FLAG_PAD_FIELD)) startNdx = ndx+1;
+        return;
+      }
+      else mask |= ID_NUMBER;
     }
     
     // Some states use alpha route numbers.  This token is a candidate if
@@ -1799,6 +1806,9 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // If numeric token, answer is yes
     if (isType(ndx, ID_NUMBER)) return true;
+    
+    // If not address, return false
+    if (isType(ndx, ID_NOT_ADDRESS)) return false;
     
     // Try it against the numeric street number pattern
     // which allows a trailing letter qualifier
