@@ -386,6 +386,7 @@ choyvp pynff ALFhssbyxPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NYNEZ - TRARENY ng 64 PBHAGL EQ 39, FBHGUNZCGBA  p/f: ABEGU FRN EQ   B: UNZCGBAF PRAGRE SBE ERUNO . . 11:09:34",
         "PNYY:NYNEZ - TRARENY",
         "NQQE:64 PBHAGL EQ 39",
+        "ZNQQE:64 PBHAGL EBNQ 39",
         "PVGL:FBHGUNZCGBA",
         "K:ABEGU FRN EQ",
         "CYNPR:UNZCGBAF PRAGRE SBE ERUNO",

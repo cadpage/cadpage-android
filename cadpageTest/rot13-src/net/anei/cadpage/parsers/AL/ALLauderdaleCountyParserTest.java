@@ -42,6 +42,7 @@ choyvp pynff NYYnhqreqnyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV: XYRZF NQ: 1688 PBHAGL EQ 31 PAGL  GVZR: 21:12:32 RI: ZQ-OERNGUVAT -:  PF1: QVKVRYNAQ QE PF2: PBHAGL EQ 417 ER:  34LBZ PURFG CNVA QVSSVPHYGL OERNGUVAT",
         "FEP:XYRZF",
         "NQQE:1688 PBHAGL EQ 31",
+        "ZNQQE:1688 PBHAGL EBNQ 31",
         "PNYY:ZQ-OERNGUVAT",
         "K:QVKVRYNAQ QE & PBHAGL EQ 417",
         "VASB:34LBZ PURFG CNVA QVSSVPHYGL OERNGUVAT");
@@ -71,6 +72,7 @@ choyvp pynff NYYnhqreqnyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV: XYRZF GVZR: 00:57:11 RI: ZQ-GENHZN -:  PF1: UJL 72 PF2: PBHAGL EQ 29 ER:  6657301",
         "FEP:XYRZF",
         "NQQE:UJL 72 & PBHAGL EQ 29",
+        "ZNQQE:UJL 72 & PBHAGL EBNQ 29",
         "PNYY:ZQ-GENHZN",
         "VASB:6657301");
 
@@ -78,6 +80,7 @@ choyvp pynff NYYnhqreqnyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV: TUISQ NQ: 3479 PBHAGL EQ 25 PAGL  GVZR: 04:22:42 RI: SVER-FGEHPGHER -: BGURE PF1: JRFG SBEX QE PF2: CEVINGR QEVIR ER:  NYG# 256-702-4551 -087.535736 +34.930687 OHVYQVAT BA SVER",
         "FEP:TUISQ",
         "NQQE:3479 PBHAGL EQ 25",
+        "ZNQQE:3479 PBHAGL EBNQ 25",
         "PNYY:SVER-FGEHPGHER - BGURE",
         "K:JRFG SBEX QE & CEVINGR QEVIR",
         "CUBAR:256-702-4551",

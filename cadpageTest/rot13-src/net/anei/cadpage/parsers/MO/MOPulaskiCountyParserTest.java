@@ -356,6 +356,7 @@ choyvp pynff ZBChynfxvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ZBGBE IRUVPYR NPPVQRAG JVGU VAWHEL",
         "NQQE:ZNEVRF PBHAGL 630 ZNEVRF PBHAGL",
+        "ZNQQE:ZNEVRF PBHAGL EBNQ 630 ZNEVRF PBHAGL",
         "HAVG:ZNEVRF ZFUC1 ZFUC2 QNQ QSQ1",
         "QNGR:8/3/2012",
         "GVZR:22:09:56");

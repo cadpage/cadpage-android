@@ -423,6 +423,7 @@ public class ParserList {
               ,"NYPutnamCounty"                 ,"Putnam County, NY"
               ,"NYRocklandCounty"               ,"Rockland County, NY"
               ,"NYSomers"                       ,"Somers, NY"
+              ,"NYStLawrenceCounty"             ,"St Lawrence County, NY"
               ,"NYSteubenCounty"                ,"Steuben County, NY"
               ,"NYSuffolkCountyAll"             ,"Suffolk County, NY"
               ,"NYSullivanCounty"               ,"Sullivan County, NY"

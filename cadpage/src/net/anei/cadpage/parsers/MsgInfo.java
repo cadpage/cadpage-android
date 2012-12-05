@@ -25,6 +25,9 @@ public class MsgInfo {
   
   // Suppress NO EO SO WO -> & translation
   public static final int MAP_FLG_SUPPR_DIRO = 8;
+  
+  // Suppress inclusion of place name in front of naked street names
+  public static final int MAP_FLG_SUPPR_ADD_PLACE = 0x10;
 
   private String strCall;
   private String strPlace;
@@ -476,7 +479,7 @@ public class MsgInfo {
       }
     
       // If that didn't work, lets hope a place name will be enough
-      else if (strPlace.length() > 0) {
+      else if (strPlace.length() > 0 && (parser.getMapFlags() & MAP_FLG_SUPPR_ADD_PLACE) == 0) {
         sAddr  = strPlace + "," + prefix + sAddr;
       }
       
@@ -492,7 +495,7 @@ public class MsgInfo {
   
   // Clean up any street suffix abbreviations that Google isn't happy with
   private static final Pattern CR_PTN = Pattern.compile("\\bCR\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern CRNN_PTN = Pattern.compile("\\b(?:CR|(?:CO|CTY)(?: *(?:RD|ROAD|HWY))?)[- ]*(\\d+[A-Z]?)(?: HWY)?\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern CRNN_PTN = Pattern.compile("\\b(?:CR|COUNTY|(?:CO|CTY|CNTY|COUNTY)(?: *(?:RD|RT|RTE|ROAD|HWY|ROUTE))?)[- ]*(\\d+[A-Z]?)(?: HWY)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern HW_PTN = Pattern.compile("\\bH[WY]\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern STH_PTN = Pattern.compile("\\bST?HY?\\b", Pattern.CASE_INSENSITIVE);

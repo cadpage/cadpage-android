@@ -396,7 +396,8 @@ choyvp pynff NYOnyqjvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:FGN66",
         "VQ:319744",
         "PNYY:Haxabja Zrqvpny",
-        "NQQE:27440 PBHAGL EQ 13");
+        "NQQE:27440 PBHAGL EQ 13",
+        "ZNQQE:27440 PBHAGL EBNQ 13");
 
     qbGrfg("G25",
         "(QN) 07-30-12 22:55: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319780 (Snyy) ng 1105 JUVFCREVAT CVARF EQ (0)",
@@ -571,7 +572,8 @@ choyvp pynff NYOnyqjvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:FGN66",
         "VQ:320857",
         "PNYY:Snyy",
-        "NQQE:27296 PBHAGL EQ 13");
+        "NQQE:27296 PBHAGL EQ 13",
+        "ZNQQE:27296 PBHAGL EBNQ 13");
 
     qbGrfg("G44",
         "(QN) 08-03-12 10:01: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 321053 (Sver Nynez) ng 7101 H F UJL 90",
@@ -701,7 +703,8 @@ choyvp pynff NYOnyqjvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:FGN66",
         "VQ:321719",
         "PNYY:Crefbany Nffvfg",
-        "NQQE:27440 PBHAGL EQ 13");
+        "NQQE:27440 PBHAGL EQ 13",
+        "ZNQQE:27440 PBHAGL EBNQ 13");
 
     qbGrfg("G58",
         "(QN) 08-04-12 22:21: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 321867 (Haxabja Zrqvpny) ng JNYZNEG VA QNCUAR",

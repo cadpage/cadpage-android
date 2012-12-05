@@ -222,7 +222,7 @@ choyvp pynff AWFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FKSQ",
         "PNYY:Sver YM",
         "NQQE:25 Pbhagl Ujl 639",
-        "ZNQQE:25 PBHAGL 639",
+        "ZNQQE:25 PBHAGL EBNQ 639",
         "HAVG:FKSQ FKSQ",
         "VASB:GENAFCBEG SEBZ FG PYNVERF. ABEGU FGNE RGN 10 ZVAF");
 

@@ -225,7 +225,7 @@ choyvp pynff ALBenatrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:QRCGCO",
         "PNYY:ZRQVPNY NFFVFGNAPR",
         "NQQE:PB EGR 48 & FG EGR 302",
-        "ZNQQE:PB 48 & AL 302",
+        "ZNQQE:PBHAGL EBNQ 48 & AL 302",
         "PVGL:PENJSBEQ",
         "VASB:CG JVGU EVO VAWHEVRF / 2AQ GB ZIN/ HFR RKGER");
 

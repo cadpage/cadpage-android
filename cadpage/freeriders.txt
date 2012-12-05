@@ -1653,6 +1653,9 @@ Benji Faw <benjifaw@gmail.com> // PayPal
 Allen Sullivan <allen.sullivan.as@gmail.com> // paid by check 1211
 %%12/02/2012
 Vincent Davis (davis.1894@gmail.com) // PayPal
+%%12/04/2012
+Ted Bost (trbostjr@charter.net) // PayPal
+A1 Services, LLC (DaveA@A1-Services.com) // PayPal
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)

@@ -577,6 +577,7 @@ choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:S OEHFU (AG)",
         "NQQE:PBHAGL EQ 21 & PBHAGL EQ 114 FRBS",
+        "ZNQQE:PBHAGL EBNQ 21 & PBHAGL EBNQ 114 FRBS",
         "PU:RBCF1",
         "ZNC:NC46",
         "HAVG:O271 O181 G271 KKK271",
@@ -708,6 +709,7 @@ choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:S OEHFU (AG)",
         "NQQE:PBHAGL EQ 86 & J  XVBJN PERRX EQ",  // Abg znccvat - Ryoreg Pbhagl
+        "ZNQQE:PBHAGL EBNQ 86 & J  XVBJN PERRX EQ",  
         "PU:RBCF3",
         "ZNC:NI45",
         "HAVG:KKK231 KKK271",

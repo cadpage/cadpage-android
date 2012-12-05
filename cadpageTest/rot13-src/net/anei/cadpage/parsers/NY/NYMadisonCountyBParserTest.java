@@ -70,7 +70,7 @@ choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN - Crefbany Vawhel",
         "NQQE:10215 FXNARNGRYRF GEACX",
         "PVGL:OEBBXSVRYQ",
-        "K:IVQYRE EQ / BHYRBH");
+        "K:IVQYRE EQ/BHYRBH");
 
     qbGrfg("G5",
         "[911 Qvfcngpu]  OEXSQ:2011:169\aQvfcngpurq\aNffnhyg/Frkhny Nffnhyg\a2118 SEVNE EQ , OEBBXSVRYQ ( / IVQYRE EQ)",
@@ -154,7 +154,7 @@ choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Fgehpgher Sver",
         "NQQE:6438 CREELIVYYR EQ",
         "PVGL:FHYYVINA",
-        "K:ZNQVFBA / BFOBEAR EQ");
+        "K:ZNQVFBA/BFOBEAR EQ");
 
     qbGrfg("G13",
         " 1 bs 2\a" +
@@ -172,7 +172,7 @@ choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Grfg Pnyy",
         "NQQE:118 A PBHEG",
         "PVGL:JNZCFIVYYR IVYYNTR",
-        "K:QNAVRYF QE / ZNEXRYY QE");
+        "K:QNAVRYF QE/ZNEXRYY QE");
  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

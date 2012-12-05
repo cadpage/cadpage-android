@@ -65,6 +65,7 @@ choyvp pynff PBYnevzrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:OSCQ",
         "PNYY:Cbjre Yvarf Qbja/Nepvat",
         "NQQE:R Pbhagl Ebnq 4 & Jryq Pbhagl",
+        "ZNQQE:R PBHAGL EBNQ 4 & Jryq Pbhagl",
         "PU:ZNP 5 AR");
 
     qbGrfg("G2",
@@ -88,6 +89,7 @@ choyvp pynff PBYnevzrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:OSCQ",
         "PNYY:Nynez Sver / Erfvqragvny",
         "NQQE:20510 Jryq Pbhagl Ebnq 5",
+        "ZNQQE:20510 Jryq PBHAGL EBNQ 5",
         "CYNPR:PYRGPURE ERFVQRAPR",
         "PU:GNYX TC3");
 
@@ -174,7 +176,7 @@ choyvp pynff PBYnevzrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:OSCQ",
         "PNYY:ZIN Hax Vawhel",
         "NQQE:110 - 999 Jryq Pbhagl Ebnq 46",
-        "ZNQQE:110 Jryq Pbhagl Ebnq 46",
+        "ZNQQE:110 Jryq PBHAGL EBNQ 46",
         "PU:GNYX TC3",
         "ZNC:48Z2",
         "HAVG:C331,OR1,OSQ");

@@ -147,7 +147,7 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(QVFCNGPU:1) PUVZARL SVER|12636 PBHAGL EBHGR 66:NQNZF(G)|PUVZARL SVER   PNYYONPX=(315)783-7406 YNG=  YBA= HAP=    05315-783-7406 03/08 13:43:40  086PNHGVBA:  JVERYRFF PNYY         JVERYRFF-NG&nzc;G ZBOVYVGL(GPF) JCU1   18864         PNQL EQ                                        NQNZF PRAGRE                  ALPRYY = 3034  FRPGBE = 3                             YNG:+043.910222  YBA:-075.996056RYI:+00000 PBS:0         PBC:000ZGA:315-511-4609       PCS:NGGZB-911nv.pbz-            RFA:00888                                IREVSL CQ                       IREVSL SQ                       IREVSL RZF",
         "PNYY:PUVZARL SVER",
         "NQQE:12636 PBHAGL EBHGR 66",
-        "ZNQQE:12636 PBHAGL 66",
+        "ZNQQE:12636 PBHAGL EBNQ 66",
         "PVGL:NQNZF",
         "VASB:PUVZARL SVER",
         "CUBAR:(315)783-7406",
@@ -188,7 +188,7 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:BHGQBBE SVER",
         "NQQE:13650 PBHAGL EBHGR 76",  // Tbbtyr vf whfg univat gebhoyr jvgu guvf
-        "ZNQQE:13650 PBHAGL 76",  // Tbbtyr vf whfg univat gebhoyr jvgu guvf
+        "ZNQQE:13650 PBHAGL EBNQ 76",  // Tbbtyr vf whfg univat gebhoyr jvgu guvf
         "PVGL:NQNZF",
         "VASB:PE 76 QBJA GUR EBNQ SEBZ PE 75 YNETR TENFF SVER WHFG ORSBER XRIVA FVZCFBA'F ERFVQRAPR",
         "CUBAR:(315)286-9652",
@@ -240,7 +240,7 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(QVFCNGPU:7) JVERF/GERR QBJA|24883 PBHAGL EBHGR 54:OEBJAIVYYR(G)|GERR OENAPU YNLVAT BA N CEVZNEL YVAR",
         "PNYY:JVERF/GERR QBJA",
         "NQQE:24883 PBHAGL EBHGR 54",
-        "ZNQQE:24883 PBHAGL 54",
+        "ZNQQE:24883 PBHAGL EBNQ 54",
         "PVGL:OEBJAIVYYR",
         "VASB:GERR OENAPU YNLVAT BA N CEVZNEL YVAR");
 

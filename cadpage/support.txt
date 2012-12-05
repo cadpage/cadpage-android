@@ -273,17 +273,18 @@ subscription.
 
 **********************************************************************
 
-Most of our users are volunteer firefighters or EMS workers.  My husband and I are both volunteers with our local fire department. Yes it is unfortunate that we have to ask people already volunteering so much time and energy to pay us for a cool app.  But the reality is that maintaining Cadpage is a full time job and we have to pay our bills somehow.
+Most of our users are volunteer firefighters or EMS workers.  My husband and I are both volunteers with our local fire department. Yes it is unfortunate that we have to ask people already volunteering so much time and energy to pay us for a cool app.  The reality is that maintaining and continually developing Cadpage is a full time job. We have to pay our bills somehow, and Google takes their fair share.
 
-We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them other then getting staff and volunteer members to bring it up.  If you can talk them into it, they get a 30% discount.  Details can be found at http://www.cadpage.org/financial-support/other-support-options
+We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them other then getting staff and volunteer members to bring it up.  If you can talk them into it, they get a 30% discount or more!  Details can be found at http://www.cadpage.org/financial-support/other-support-options.
 
-There are a  number of approved ways to run Cadpage without paying anything.
-1) You  can ask for a free subscription.but you have to include a reasonable reason for not being able to afford $10 per year.  Simply claiming that volunteers shouldn't have to pay anything gets you this very long explanation.
+In the interest of helping communities, we offer a  number of approved ways to run Cadpage without paying anything.
+1) You  can ask for a free subscription.but you have to include a reasonable reason for not being able to afford $10 per year.  
 2) You can simply reinstall Cadpage every 30 days.
 3) If you (or your department) are currently using or can switch to using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free if you are using the direct messaging option.
 4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version is almost a year old, but it will not bug you about paying for it.
 
-Thanks for the feedback,
+We're here to help!
+Good Luck,
 Jean -- Assistant to Ken Corbin
 
 ******************************************************************

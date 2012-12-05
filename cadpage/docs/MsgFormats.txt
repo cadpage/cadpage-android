@@ -874,6 +874,16 @@ o;?WHIF:2010:0641\nDispatched\nEMS/DIABETIC PROBLEM\n31 MOHAWK ST, WHITESBORO VI
 o;?WHIF:2010:0636\nDispatched\nINVESTIGATE\n124 HARTS HILL TERR, WHITESTOWN (GILBERT RD/Near:HARTS HILL INN)
 o;?WHIF:2010:0644\nDispatched\nMVA-PI\nHUGHES ST, WHITESBORO VILLAGE/ WEST ST, WHITESBORO VILLAGE
 *******************************************************************************
+St Lawrence County, NY
+(911 DISPATCH) HEU CFR:2012:258\nDispatched\nEMS\n575 LOST VILLAGE ROAD,HEUVELTON
+(911 DISPATCH) HEU FD:2012:149\nDispatched\nFire\n9626 ROUTE 37 #NY, LISBON-SH 37
+(911 DISPATCH) HEU CFR:2012:257\nDispatched\nEMS\n5771 CO RT 10
+*******************************************************************************
+Stark County, OH (OHStarkCountyCencommParser)
+(FIRES CALLS) CFFD:2012:306\nDISPATCHED\nMEDALS\n80, THOMAS BL ;LAWRENCE TWP
+(FIRES CALLS) CFFD:2012:307\nDISPATCHED\nMEDALS\n1165, S LOCUST ST ;CANAL FULTON
+(FIRES CALLS) CFFD:2012:308\nDISPATCHED\nMEDALS\n581, BEVERLY AV ;CANAL FULTON
+***************************************************************************
 *******************************************************************************
 * DispatchGeoconxParser subclasses
 *******************************************************************************
@@ -2530,11 +2540,6 @@ Summit County, OH (OHSummitCountyParser)
 (Alert Notification) 1246,Cleve-Mass Rd (N),BATH ELEMENTARY SCHOOL,AKRONF13,SERVICE CALL DISP, S1D1 TEST PAGE DO NOT RESPOND<br /><br/>\nThe enclosed information is STRICTLY CONFIDENTIAL and is intended for the use of the addressee only. Summit County, Oh and its affiliates disclaim any responsibility for unauthorized disclosure of this information other than the addressee. To unsubscribe, please email stop to remove@wensnetwork.com.
 (Alert Notification) 2075,Glengary Rd,,Akron 1,ABDOMINAL PROBLEMS 12, S1D256 YOF ABDOMINAL PAIN<br /><br/>\nThe enclosed information is STRICTLY CONFIDENTIAL and is intended for the use of the addressee only. Summit County, Oh and its affiliates disclaim any responsibility for unauthorized disclosure of this information other than the addressee. To unsubscribe, please email stop to remove@wensnetwork.com.
 (Alert Notification) 4894,Everett Rd,,Akron 26,SICK PERSON DISP, S1D1 USE GARAGE DOOR ProQA - 66 year old, Female, Conscious, Breathing. Sick Person (Specific Diagnosis).<br /><br/>\nThe enclosed information is STRICTLY CONFIDENTIAL and is intended for the use of the addressee only. Summit County, Oh and its affiliates disclaim any responsibility for unauthorized disclosure of this information other than the addressee. To unsubscribe, please email stop to remove@wensnetwork.com.
-***************************************************************************
-Stark County, OH (OHStarkCountyCencommParser)
-(FIRES CALLS) CFFD:2012:306\nDISPATCHED\nMEDALS\n80, THOMAS BL ;LAWRENCE TWP
-(FIRES CALLS) CFFD:2012:307\nDISPATCHED\nMEDALS\n1165, S LOCUST ST ;CANAL FULTON
-(FIRES CALLS) CFFD:2012:308\nDISPATCHED\nMEDALS\n581, BEVERLY AV ;CANAL FULTON
 ***************************************************************************
 Union County, OH (OHUnionCountyParser)
 FIRE, 121 E BLAGROVE ST 1/2 RICHWOOD, BEATTY AVE,RICHWOOD//N CLINTON ST,RICHWOOD,\nHEART PROBLEMS, 10535 MAPLE DELL RD MARYSVILLE, STATE ROUTE 37,MARYSVILLE//, 53 YOF POSS HEART\nFALL/BACK INJURY, 85 ROSE ST MAGNETIC SPRINGS, W CATHERINE ST,MAGNETIC SPRINGS//W MAGNETIC ST,MAGNETIC SPRINGS, DALE FAGG FELL AND HI
