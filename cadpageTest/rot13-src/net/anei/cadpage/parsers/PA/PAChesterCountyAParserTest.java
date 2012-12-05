@@ -21,6 +21,9 @@ Pbagnpg: "Gubznf N Qhaone" <gnqhaone@irevmba.arg>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Fgngvba 36) ABGVSSP    Svany Glcr: ABGVSSP (ABGVSL SVER PUVRS)\aYbp: 1351 FPBGG EQ ,49  ogja ZHAVPVCNY OBHAQNEL &nzc; CBJRYY EQ (I) \aNXN:   Zhavpvcnyv
 
+Pbagnpg: Wnzrf Yrba <wvzyrbasnzr53@lnubb.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+Fhowrpg:Fgngvba 53\a\aVavgvny Glcr: TNFYXBH    Svany Glcr: TNFYXBH (TNF YRNX BHGFVQR *)\aYbp: 400 ZNCYR NY ,01  ogja ZNTABYVN FG &
 
  */
 
@@ -102,6 +105,21 @@ choyvp pynff CNPurfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:ZHAVPVCNY OBHAQNEL & CBJRYY EQ",
         "VASB:Zhavpvcnyv");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWnzrfYrba() {
+
+    qbGrfg("G1",
+        "Fhowrpg:Fgngvba 53\a\aVavgvny Glcr: TNFYXBH    Svany Glcr: TNFYXBH (TNF YRNX BHGFVQR *)\aYbp: 400 ZNCYR NY ,01  ogja ZNTABYVN FG &",
+        "FEP:Fgngvba 53",
+        "PNYY:TNFYXBH (TNF YRNX BHGFVQR *)",
+        "NQQE:400 ZNCYR NY",
+        "ZNQQE:400 ZNCYR NYYRL",
+        "PVGL:JRFG PURFGRE",
+        "K:ZNTABYVN FG &");
+
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

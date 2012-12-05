@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.PA;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
@@ -59,4 +61,10 @@ public class PAChesterCountyAParser extends PAChesterCountyBaseParser {
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     return super.getField(name);
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    return AL_PTN.matcher(addr).replaceAll("ALLEY");
+  }
+  private static final Pattern AL_PTN = Pattern.compile("\\bAL\\b", Pattern.CASE_INSENSITIVE);
 } 
