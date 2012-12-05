@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Fnyrz Pbhagl, AW (Qrrcjngre)
+Fnyrz Pbhagl, AW 
 Pbagnpg: Zvpunry Jneare <jnearefgn7@tznvy.pbz>
 Pbagnpg: "z.jneare1@pbzpnfg.arg" <z.jneare1@pbzpnfg.arg>
 Fraqre: zft@pszft.pbz
@@ -64,6 +64,7 @@ choyvp pynff AWFnyrzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYF",
         "NQQE:118 R Cvggfsvryq Fg",
         "PVGL:Craafivyyr Gbjafuvc",
+        "FG:AW",
         "K:Fcnexf Nir",
         "ANZR:QNHYGBA");
 
@@ -73,6 +74,7 @@ choyvp pynff AWFnyrzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zbgbe Iruvpyr Nppvqrag",
         "NQQE:1163 F Oebnqjnl Jnl",
         "PVGL:Craafivyyr Gbjafuvc",
+        "FG:AW",
         "K:Sernf Eq",
         "ANZR:WNPX XHTYRE",
         "CUBAR:9352515");
@@ -83,6 +85,7 @@ choyvp pynff AWFnyrzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIP",
         "NQQE:Awgc Fbhgu Zz 1-4.5 Awgc",
         "PVGL:Pnearlf Cbvag Gbjafuvc",
+        "FG:AW",
         "ANZR:FUNJA UNZZRYY",
         "CUBAR:6178168");
 
@@ -92,6 +95,7 @@ choyvp pynff AWFnyrzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver Nynez Flfgrz",
         "NQQE:117 A Oebnqjnl Jnl",
         "PVGL:Craafivyyr Gbjafuvc",
+        "FG:AW",
         "K:Oenaqevss Nir",
         "ANZR:IREVMBA / XNERA",
         "CUBAR:6158005");
@@ -111,6 +115,7 @@ choyvp pynff AWFnyrzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zbgbe Iruvpyr Nppvqrag",
         "NQQE:430 A Oebnqjnl Jnl",
         "PVGL:Craafivyyr Gbjafuvc",
+        "FG:AW",
         "K:Eg 130 Birecnff",
         "ANZR:520");
 
@@ -120,6 +125,7 @@ choyvp pynff AWFnyrzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Fgehpgher Sver - Zrqvhz Unmneq",
         "NQQE:709 F Oebnqjnl Jnl",
         "PVGL:Craafivyyr Gbjafuvc",
+        "FG:AW",
         "K:Funec Fg Naq Yvtugubhfr Eq",
         "ANZR:YF-5");
   }
