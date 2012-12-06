@@ -1044,6 +1044,11 @@ public class FieldProgramParser extends SmartAddressParser {
             break;
           }
           
+          // Note.  If this is an untagged step with a failure branch, we
+          // also want to take the failure branch it a field tag goes somewhere.
+          // But we can't do that now because we don't know if this is a real
+          // field tag or a spurious colon.
+          
           // If data field is tagged, search the program steps for one with
           // a matching tag
           if (curTag != null) {
@@ -1054,14 +1059,22 @@ public class FieldProgramParser extends SmartAddressParser {
               procStep = procStep.nextStep;
             }
             
-            // If we found one then
-            // If we had to skip over a required field, return failure
-            // Otherwise we are ready to process this step
+            // Did we find one
             if (procStep != null) {
+              
+              // If the original step was untagged and had a failure
+              // branch, we should take that failure branch now.  We
+              // couldn't do this earlier because the field might have
+              // had a spurious colon
+              if (this.failLink != null) return state.link(this.failLink);
+              
+              // If we had to skip over a required field, return failure
               if (skipReq) {
                 state.setResult(false);
                 return true;
               }
+              
+              // Otherwise we are ready to process this step
               curFld = curVal;
               break;
             }

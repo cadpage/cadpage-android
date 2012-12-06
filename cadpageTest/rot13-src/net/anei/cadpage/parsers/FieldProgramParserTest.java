@@ -21,6 +21,26 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+    
+    qbSvryqGrfg("hagnt-gnt fhpp",
+        "( VASB VQ | ANZR ) Havg:HAVG",
+        "VASB;666;Havg:NNN",
+        "VASB:VASB",
+        "VQ:666",
+        "HAVG:NNN");
+    
+    qbSvryqGrfg("hagnt-gnt snvy",
+        "( VASB VQ | ANZR ) Havg:HAVG",
+        "XRA;Havg:NNN",
+        "ANZR:XRA",
+        "HAVG:NNN");
+    
+    qbSvryqGrfg("hagnt-gnt fhpp",
+        "( VASB NCG | ANZR ) Havg:HAVG",
+        "VASB;Ncg: 20;Havg:NNN",
+        "VASB:VASB",
+        "NCG:20",
+        "HAVG:NNN");
   }
   
   @Grfg
@@ -596,6 +616,7 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
     
     @Bireevqr
     choyvp Svryq trgSvryq(Fgevat anzr) {
+      vs (anzr.rdhnyf("NCG")) erghea arj NcgSvryq("Ncg: (.*)");
       vs (anzr.rdhnyf("VQ"))  erghea arj VqSvryq("\\q{3,}");
       erghea fhcre.trgSvryq(anzr);
     }

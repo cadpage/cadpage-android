@@ -625,7 +625,7 @@ public abstract class MsgParser {
    // except those followed by a digit which are presumed to be decimal points
    addressLine = DOT.matcher(addressLine).replaceAll("");
    
-   // Pick off trailing address
+   // Pick off trailing apartment
    Matcher match = APT.matcher(addressLine);
    if (match.find()) {
      String sPrefix = match.group(1);
@@ -644,12 +644,9 @@ public abstract class MsgParser {
          addr = addr.substring(0, pt).trim();
        }
      }
-     if (data.strAddress.length() > 0) data.strAddress += " & ";
-     data.strAddress += addr;
+     data.strAddress = append(data.strAddress, " & ", addr);
    }
    data.strAddress = data.strAddress.replace("1%2", "1/2");
-   if (data.strAddress.startsWith(" & ")) data.strAddress = data.strAddress.substring(3).trim();
-   if (data.strAddress.endsWith(" & ")) data.strAddress = data.strAddress.substring(0,data.strAddress.length()-3);
  }
   
   /**
