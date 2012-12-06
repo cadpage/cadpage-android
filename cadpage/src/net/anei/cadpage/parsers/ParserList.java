@@ -163,6 +163,7 @@ public class ParserList {
           ),
           new ParserCategory("Connecticut"
               ,"CTColchesterEmergComm"          ,"Colchester Emergency Communications, CT"
+              ,"CTGroton"                       ,"Groton, CT"
               ,"CTHartfordCounty"               ,"Hartford County, CT"
               ,"CTLitchfieldCounty"             ,"Litchfield County, CT"
               ,"CTMadison"                      ,"Madison, CT"

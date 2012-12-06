@@ -1404,6 +1404,11 @@ Weld County, CO (COWeldCountyParser)
 20431,SMKODR,1ST ST/8TH AV.E4 L1,TEXT:SMELL OF NATURAL GAS ALL OVER THE AREA \COMP:W012,
 20373,SMKODR,10TH AV/22ND ST.E4 R1,TEXT:STRONG SMELL OF NATURAL GAS IN AIR IN THIS AREA \COMP:MIKE RUANE \PH:608 630 2959,
 ***************************************************************************
+Groton, CT (CTGrotonParser)
+(CAD PAGE) UNKNOWN MEDICAL|AMTRAK STATION| 2 ROOSEVELT AVE,STON |STA MGHOXIE XS BROADWAY  AVE/LINCOLN AVE|11:08|NARR SOUTHBOUND TRAIN MEDICAL EMERGENCY
+(CAD PAGE) MVA SERIOUS ALS|MYSTIC SEAPORT| 75 GREENMANVILLE AVE,STON |STA MGHOXIE XS ROSSIE  ST/BRUGGEMAN PL|16:58|NARR MVA WITH INJURIES.  BETWEEN THE NORTH ENTRANCE AND HINCKLEY ST, IN THE PARKING LOT.  22YOF-NECK PAIN, PREGNANT. PERSON: (COMPLAINANT) (FMLS)   STON DISPATCH
+(CAD PAGE) FIRE ALARM|WALGREENS| 445 LONG HILL RD,GRTN TOWN |STA PGLH XS MAXSON  RD/WAYNE RD|11:40|NARR CAD CALL CREATED FROM ALERM INTERFACE. 23-35121 AL1   FIRE PG1 445 LONG HILL RD, WALGREENS,GRTN TOWN
+***************************************************************************
 Hartford County (Avon Town), CT (CTHartfordCountyAvonParser)
 FD STILL ALARM 00004 ORCHARD FARMS LN Cross:  ORCHARD ST/MICHELLE LN  E7  E10
 FD Limited Assignment 00023 FOX DEN RD Cross:  SAW MILL LN/SLEEPY HOLLOW RD  E14  E9  L12  R8  T5  1247
@@ -4843,29 +4848,26 @@ Sender: secc@scott.ia.us
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
-Groton, CT
-Contact: Derek F <Dee21engine@msn.com>
-Sender: Mobiletec@town.groton.ct.us
-(CAD PAGE) MVA SERIOUS ALS||  |STA PGFORT XS NEW LONDON  RD/FLANDERS RD|18:57|NARR MV ROLL OVER, W/ENTRAPMENT PERSON: (COMPLAINANT) (FMLS) MIKE  GARDNER
-(CAD PAGE) STRUCTURE FIRE|| 9 ALMER ST,GRTN TOWN |STA CG XS 
-(CAD PAGE) STAND BY||  |STA PGFORT XS FORT HILL  RD/VERGENNES CT|15:46
-(CAD PAGE) ILL PERSON PRI SYM ALS|| 17 PHILLIPS AVE,GRTN TOWN |STA CG XS GALLUP  ST/ALMER ST|18:05|NARR PROQA SUMMARY:CHARLIE
-(CAD PAGE) ILL PERSON PRI SYM ALS||  |STA PGCG XS GOLD STAR HWY/GUNGYWAMP RD|16:53
-(CAD PAGE) STRUCTURE FIRE|| 9 ALMER ST,GRTN TOWN |STA CG XS ALPHA  AVE/PHILLIPS AVE|11:03|NARR OVEN FIRE SHE WAS USING THE STOVE
+**********************************************************
+Bloomfield, CT
+Contact: Steve H <Shess@bloomfieldctfd.com>
+Sender: bloomfielddispatch@rednmxcad.com
 
-some of the abbreviations used above are listed below.
+Fire Alarm, Commercial Fire Alarm: AUDIBAL ALARM NO SMOKE NO FIRE. BASEMENT LIGHT at 120 MOUNTAIN AVE #MAINBLDG, BLOOMFIELD  c/s: LOEFFLER RD   O:  
+(BLOOMFIELD FD/HARTFORD COUNTY/BLOOMFIELD/CT)
 
-1. PRI- PRIMARY
-2. SYM- SYMPTOMS
-3. STA CG- STATION CENTER GROTON
-4. XS- CROSS STREET
-5. PGCG- POQUONNOCK BRIDGE FIRE & CENTER GROTON FIRE
+Motor Vehicle Accident, Motor Vehicle Accident with Injuries at BRITTON DR / BLUE HILLS AVE, BLOOMFIELD . . 13:08:56 (blue hills fd/Hartford county/Bloomfield/CT)
+
+Motor Vehicle Accident, Motor Vehicle Accident with Injuries: CAR VS BOX TRUCK at BLUE HILLS AVE / WEST DUDLEY TOWN RD, BLOOMFIELD . . 13:52:30
+(blue hills fd/Hartford county/Bloomfield/CT)
+
+Motor Vehicle Accident, Motor Vehicle Accident with Injuries at COTTAGE GROVE RD / PROSPECT ST, BLOOMFIELD . . 14:45:33
+(blue hills fd/Hartford county/Bloomfield/CT)
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
@@ -4999,13 +5001,4 @@ Sender: CSOCallComplete@MCSONJ.ORG
 * EOF
 **********************************************************
 
-From:777262199448
-Body:  RT:ODORINVES-INVESTIGATE ODOR  Loc:7502 WILD IRIS WAY, HAMILTON
-COUNTY\2s(DEAD EN
-Send time:1354761061000
-Rec time: 1354761085741
 
-From:777262199450
-Body:  D/MCKENZIE FARM DR)  #[7500-7599]
-Send time:1354761063000
-Rec time: 1354761090466
