@@ -2,7 +2,7 @@
 %LIFE
 amy972@twcny.rr.com (amyt972@gmail.com)
 Andrew Papp (hvfd830@gmail.com)
-asoders79@gmail.com
+Adam Soders (asoders79@gmail.com)
 barney.898@gmail.com
 Ben Rakotz (rakotz23@gmail.com)(rocket23@comcast.net)
 Ben Turner (bald7genie@gmail.com)
@@ -1227,6 +1227,7 @@ Mary Levanduski (buzzyl1513@gmail.com)(buzzymary@yahoo.com)
 Joseph L Corbin Jr <jcorbinjr@gmail.com> // Portage County, OH
 %%02/28/2012
 Gene Giraulo (g.giraulo@gmail.com) <g.giraulo@verizon.net> // market problem changed email add
+"Sittler, Josh D." (jdsittler@gmail.com) <Josh.Sittler@vigocounty.in.gov> // market problem change email
 %%02/29/2012
 Daniel A. Perry (dapiv2@gmail.com)<DAP634@students.jwu.edu> // Hanover, NH
 %%03/02/2012
@@ -1654,7 +1655,7 @@ Allen Sullivan <allen.sullivan.as@gmail.com> // paid by check 1211
 %%12/02/2012
 Vincent Davis (davis.1894@gmail.com) // PayPal
 %%12/04/2012
-Ted Bost (trbostjr@charter.net) // PayPal
+Ted Bost (trbostjr@gmail.com) (trbostjr@charter.net) // PayPal
 Dave Abbott (DaveA@A1-Services.com) // PayPal via A1 Services, LLC
 bruce fleming (frabcofd@gmail.com) (fireflem@aol.com) // PayPal
 
@@ -3582,3 +3583,8 @@ Ryan DiMauro <ryandimauro@gmail.com>
 Roger Stamper <capt3607@gmail.com>
 RW Day <rwday476@gmail.com>
 Tina (weezie3377@gmail.com) <weezie3737@yahoo.com>
+%%12/05/2012
+blake cole <gfd443@gmail.com>
+Chuck Ewing (kcredneck666@gmail.com) <kcredneck666@yahoo.com>
+Jami Gomez <jami0214@gmail.com>
+"roxana.mehran" <roxana.mehran@gmail.com>
