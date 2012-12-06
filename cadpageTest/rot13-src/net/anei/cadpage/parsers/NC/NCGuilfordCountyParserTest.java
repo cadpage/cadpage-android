@@ -83,6 +83,7 @@ Pbagnpg: "Onvyrl, Zvpunry" <Zvpunry.Onvyrl@terrafobeb-ap.tbi>
 Fraqre: pnq
 SEZ:pnq \aZFT:PNQ:HAQRE PBAGEBY;3204 LNAPRLIVYYR FG; T ;NCG P
 SEZ:pnq \aZFT:PNQ:SLV: ;TSQ1;FG07;1;FGEHP;303 JVAFGBA FG;PUNEYBGGR FG;NCG N\e\a
+SEZ:pnq \aZFT:PNQ:SLV: ;TSQ2;FG05;1;FGEHP;507 FGVEYVAT FG;HAPT RYYVBGG OHVYQVAT;JNYXRE NI\e\a
 
 Pbagnpg: Npgvir911
 ???
@@ -596,7 +597,15 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FGEHP",
         "K:PUNEYBGGR FG",
         "VASB:NCG N");
-   
+
+    qbGrfg("G3",
+        "SEZ:pnq \aZFT:PNQ:SLV: ;TSQ2;FG05;1;FGEHP;507 FGVEYVAT FG;HAPT RYYVBGG OHVYQVAT;JNYXRE NI\e\a",
+        "FEP:TSQ2-FG05",
+        "NQQE:507 FGVEYVAT FG",
+        "CEV:1",
+        "PNYY:FGEHP",
+        "K:JNYXRE NI",
+        "VASB:HAPT RYYVBGG OHVYQVAT");
   }
   
   @Grfg

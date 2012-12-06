@@ -100,9 +100,10 @@ public class ParserList {
               ,"General"                        ,"Generic Location"
               ,"GeneralSlash"                   ,"Generic (slash field separator)"
               ,"GeneralDash"                    ,"Generic (dash field separator)"
-              ,"Cadpage"                        ,"Standard Cadpage Format"
-              ,"StandardSpottedDog"             ,"Spotted Dog Technologies"
               ,"StandardA"                      ,"Standard Format A"
+              ,"Cadpage"                        ,"Standard Cadpage Format A"
+              ,"Cadpage2"                       ,"Standard Cadpage Format B"
+              ,"StandardSpottedDog"             ,"Spotted Dog Technologies"
           ),
           new ParserCategory("Alabama"
               ,"ALBaldwinCounty"                ,"Baldwin County, AL"

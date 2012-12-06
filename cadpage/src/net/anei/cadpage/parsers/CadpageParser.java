@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,22 +9,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * Parser class that convert the generic Cadpage message format to and from
  * a parsed message information object
  */
-public class CadpageParser  extends FieldProgramParser{
-  
-  private Map<String,Field> fieldMap = new HashMap<String,Field>();
+public class CadpageParser  extends CadpageParserBase {
   
   private static final Pattern KEYWORD = Pattern.compile("\\b([\\w]+):");
   
-  public CadpageParser() {
-    // Pass empty strings to subclass constructor, we never really try to run a 
-    // field program or use the default city/state values
-    super("", "", "");
-    initMap();
-  }
-  
   @Override
   public String getLocName() {
-    return "Standard Cadpage Format";
+    return "Standard Cadpage Format A";
   }
   
   @Override
@@ -43,7 +32,7 @@ public class CadpageParser  extends FieldProgramParser{
       // If we don't find it there, assume this was a extra colon in the data
       // field and go on to the next one
       String key = match.group(1);
-      Field field = fieldMap.get(key);
+      Field field = getMapField(key);
       if (field != null) {
         
         // Increment the field count,
@@ -76,77 +65,6 @@ public class CadpageParser  extends FieldProgramParser{
     
     // We have to have found at least two fields for this to be considered valid
     return fieldCnt >= 2;
-  }
-  
-  private void initMap() {
-    setMap("PRI");
-    setMap("DATE");
-    setMap("TIME");
-    setMap("CALL",        "title");
-    setMap("PLACE", "PL");
-    setMap("ADDR",        "address");
-    setMap("CITY",        "city");
-    setMap("ST");
-    setMap("APT");
-    setMap("X");
-    setMap("BOX");
-    setMap("MAP",         "map_code");
-    setMap("CH");
-    setMap("UNIT");
-    setMap("INFO");
-    setMap("NAME");
-    setMap("PHONE", "PH");
-    setMap("CODE");
-    setMap("GPS");
-    setMap("ID",           "cad_code");
-    setMap("SRC");
-    setMap("DCITY");
-    setMap("DST");
-    setMap("MADDR");
-    setMap("URL",         "response_url");
-  }
-
-  /**
-   * Set up key -> Field process map
-   * @param keys list of key used to access this field.  The first key will
-   * be used to look up the field that all of them will refer to.
-   */
-  private void setMap(String ... keys) {
-    Field field = getField(keys[0]);
-    for (String key : keys) fieldMap.put(key, field);
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("DCITY")) return new DefCityField();
-    if (name.equals("DST")) return new DefStateField();
-    if (name.equals("MADDR")) return new SkipField();
-    return super.getField(name);
-  }
-  
-  // We need an address field that just saves the address.  The default
-  // field process handles all kinds of cool things
-  private class MyAddressField extends AddressField {
-    @Override
-    public void parse(String field, Data data) {
-      data.strAddress = field;
-    }
-  }
-
-  // And something to save the default city and state
-  private class DefCityField extends Field {
-    @Override 
-    public void parse(String field, Data data) {
-      data.defCity = field;
-    }
-  }
-  
-  private class DefStateField extends Field {
-    @Override 
-    public void parse(String field, Data data) {
-      data.defState = field;
-    }
   }
 
   /**
