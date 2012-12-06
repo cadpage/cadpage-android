@@ -30,6 +30,8 @@ public class PANorthumberlandCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "COA", "COAL",
+      "NOB", "NORTHUMBERLAND",
+      "POI", "POINT TWP",
       "SHA", "SHAMOKIN",
       "SUN", "SUNBURY",
       "UPA", "UPPER AUGUSTA TWP",
