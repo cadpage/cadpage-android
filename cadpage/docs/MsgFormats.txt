@@ -911,6 +911,11 @@ Subject:E911\nFIRE GENERAL\nDAVID FRANKS 8652560768\n372 RACCOON VALLEY RD, Mayn
 *******************************************************************************
 * DispatchRedAlertParser subclasses
 *******************************************************************************
+***************************************************************************
+Bloomfield, CT (CTBloomfieldParser)
+Fire Alarm, Commercial Fire Alarm: AUDIBAL ALARM NO SMOKE NO FIRE. BASEMENT LIGHT at 120 MOUNTAIN AVE #MAINBLDG, BLOOMFIELD  c/s: LOEFFLER RD   O:  
+Motor Vehicle Accident, Motor Vehicle Accident with Injuries at BRITTON DR / BLUE HILLS AVE, BLOOMFIELD . . 13:08:56
+Motor Vehicle Accident, Motor Vehicle Accident with Injuries: CAR VS BOX TRUCK at BLUE HILLS AVE / WEST DUDLEY TOWN RD, BLOOMFIELD . . 13:52:30
 *******************************************************************************
 Suffolk County, NY (NYSuffolkCountyCParser)
 MOTOR VEHICLE ACCIDENT . . MVA 29D4 at intersection of GREENBELT PKWY and PATCHOGUE-HOLBROOK RD. . 10:48:57
@@ -4854,20 +4859,6 @@ Sender: secc@scott.ia.us
 **********************************************************
 **********************************************************
 **********************************************************
-Bloomfield, CT
-Contact: Steve H <Shess@bloomfieldctfd.com>
-Sender: bloomfielddispatch@rednmxcad.com
-
-Fire Alarm, Commercial Fire Alarm: AUDIBAL ALARM NO SMOKE NO FIRE. BASEMENT LIGHT at 120 MOUNTAIN AVE #MAINBLDG, BLOOMFIELD  c/s: LOEFFLER RD   O:  
-(BLOOMFIELD FD/HARTFORD COUNTY/BLOOMFIELD/CT)
-
-Motor Vehicle Accident, Motor Vehicle Accident with Injuries at BRITTON DR / BLUE HILLS AVE, BLOOMFIELD . . 13:08:56 (blue hills fd/Hartford county/Bloomfield/CT)
-
-Motor Vehicle Accident, Motor Vehicle Accident with Injuries: CAR VS BOX TRUCK at BLUE HILLS AVE / WEST DUDLEY TOWN RD, BLOOMFIELD . . 13:52:30
-(blue hills fd/Hartford county/Bloomfield/CT)
-
-Motor Vehicle Accident, Motor Vehicle Accident with Injuries at COTTAGE GROVE RD / PROSPECT ST, BLOOMFIELD . . 14:45:33
-(blue hills fd/Hartford county/Bloomfield/CT)
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

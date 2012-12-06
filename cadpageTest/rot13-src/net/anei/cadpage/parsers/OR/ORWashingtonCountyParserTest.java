@@ -369,6 +369,7 @@ choyvp pynff BEJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FVPX CREFBA P1",
         "NQQE:3120 AJ WBUA BYFRA NI",
         "ZNQQE:3120 AJ WBUA BYFRA NIR",
+        "NCG:13102",
         "PVGL:UVYYFOBEB",
         "K:AJ BIREYBBX QE & AJ RIRETERRA CX",
         "ZNC:5284N",

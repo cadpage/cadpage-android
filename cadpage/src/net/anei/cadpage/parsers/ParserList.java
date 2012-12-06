@@ -162,6 +162,7 @@ public class ParserList {
               ,"COWeldCounty"                   ,"Weld County, CO"
           ),
           new ParserCategory("Connecticut"
+              ,"CTBloomfield"                   ,"Bloomfield, CT"
               ,"CTColchesterEmergComm"          ,"Colchester Emergency Communications, CT"
               ,"CTGroton"                       ,"Groton, CT"
               ,"CTHartfordCounty"               ,"Hartford County, CT"

@@ -1833,8 +1833,7 @@ public abstract class SmartAddressParser extends MsgParser {
   private boolean isAptToken(String token, boolean numberOK) {
     int pt = getAptBreak(token);
     if (pt < 0) return false;
-    if (token.length()-pt > 4) return false;
-    if (pt == 0) return numberOK;
+    if (pt == 0) return numberOK & token.length()-pt <= 4;
     String prefix = token.substring(0,pt).toUpperCase();
     Integer flags = dictionary.get(prefix);
     return flags != null && (flags & ID_APPT) != 0;
