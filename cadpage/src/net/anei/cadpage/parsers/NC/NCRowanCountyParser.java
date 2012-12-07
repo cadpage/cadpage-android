@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.NC;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
@@ -10,7 +12,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   
   public NCRowanCountyParser() {
     super(CITY_CODES, "ROWAN COUNTY", "NC",
-           "FYI? CALL ADDR ( OPTPLACE INFO+ | X/Z+? CITY XPLACE+? UNIT? CH )");
+           "FYI? CALL ADDR ( OPTPLACE INFO+ | X/Z+? CITY XPLACE+? MAP? CH? UNIT )");
   }
   
   @Override
@@ -34,6 +36,18 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     return data.strAddress.length() > 0;
   }
   
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(" - ");
+      if (pt >= 0) {
+        data.strCity = field.substring(pt+3).trim();
+        field  = field.substring(0,pt).trim();
+      }
+      super.parse(field, data);
+    }
+  }
+  
   // Special place field that only triggers if there is no city field
   // further downstream.  This indicates an out of county mutual aid call
   private class OptionalPlaceField extends PlaceField {
@@ -52,6 +66,16 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
         if (fld.length() == 0) break;
         if (fld.length() <= 4) return false;
       }
+      
+      // But sometimes the first 4 characters are a city code
+      if (data.strCity.length() == 0 && field.length() >= 8 && field.substring(4,8).equals("DIST")) {
+        String city = CITY_CODES.getProperty(field.substring(0,4));
+        if (city != null) {
+          data.strCity = city;
+          field = field.substring(4).trim();
+        }
+      }
+
       parse(field, data);
       
       // We don't know what county this is, but we now it is not Rowan County
@@ -84,6 +108,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     }
   }
   
+  private static final Pattern CODE_DESC_PTN = Pattern.compile("(\\d{1,2}[A-Z]\\d{1,2}) +(.*)");
   private class MyCrossPlaceField extends Field {
     
     @Override 
@@ -100,26 +125,40 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     
     @Override
     public void parse(String field, Data data) {
-      if (checkAddress(field) > 0) {
+      
+      // This is a catchall field that can contains a lot of things
+      // See if it is a call code followed by a description
+      Matcher match = CODE_DESC_PTN.matcher(field);
+      if (match.matches()) {
+        data.strCode = match.group(1);
+        data.strSupp = match.group(2);
+      }
+      
+      // See if this looks like a set of cross streets
+      else if (checkAddress(field) > 0) {
         data.strCross = append(data.strCross, " / ", field);
-      } else {
-        data.strPlace = append(data.strPlace, " / ", field);
+      } 
+      
+      // Otherwise it is a place field
+      else {
+        data.strPlace = append(data.strPlace, " - ", field);
       }
     }
     
     @Override
     public String getFieldNames() {
-      return "PLACE X";
+      return "CODE INFO PLACE X";
     }
   }
   
   @Override
   protected Field getField(String name) {
-    if (name.equals("FYI")) return new SkipField("FYI:|UPDATE:");
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("OPTPLACE")) return new OptionalPlaceField();
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("XPLACE")) return new MyCrossPlaceField();
-    if (name.equals("UNIT")) return new UnitField("\\d{4}", true);
+    if (name.equals("MAP")) return new MapField("\\d{4}", true);
+    if (name.equals("CH")) return new ChannelField("OPS.*", true);
     return super.getField(name);
   }
   
@@ -127,6 +166,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       "CHGV", "CHINA GROVE",
       "CLEV", "CLEVELAND",
       "CLVD", "CLEVELAND",
+      "COOL", "COOLEEMEE",             
       "ESPN", "EAST SPENCER",
       "FATH", "FAITH",
       "GOLD", "GOLD HILL",
@@ -136,6 +176,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       "MOCK", "MOCKSVILLE",
       "MOOR", "MOORESVILLE",
       "MTUL", "MT ULLA",
+      "RICH", "RICHFIELD",
       "ROCK", "ROCKWELL",
       "SALS", "SALISBURY",
       "SPEN", "SPENCER",
