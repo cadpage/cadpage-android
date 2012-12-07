@@ -489,6 +489,9 @@ public class MsgInfo {
       }
     }
     
+    // ANy last minute parser adjustments go here
+    if (parser != null) sAddr = parser.postAdjustMapAddress(sAddr);
+    
     strBaseMapAddress = sAddr.trim();
     return strBaseMapAddress;
 	}

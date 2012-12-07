@@ -609,6 +609,16 @@ public abstract class MsgParser {
  }
 
  /**
+  * Perform an final parser specific custom adjustments to the calcualted
+  * map search address 
+  * @param sAddress calculated map search address
+  * @return adjusted map search address
+  */
+ public String postAdjustMapAddress(String sAddress) {
+   return sAddress;
+ }
+
+ /**
   * Parse address line into address and city fields
   * @param addressLine address line to be parsed
   * @param data message info object to be filled
@@ -1203,5 +1213,5 @@ public abstract class MsgParser {
    }
    return false;
   }
- private static final Pattern DIGITS = Pattern.compile("\\d+");
+  private static final Pattern DIGITS = Pattern.compile("\\d+"); 
 }

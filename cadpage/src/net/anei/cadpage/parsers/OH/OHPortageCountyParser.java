@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -90,4 +92,10 @@ public class OHPortageCountyParser extends FieldProgramParser {
     if (name.equals("CITY")) return new MyCityField();
     return super.getField(name);
   }
+  
+  @Override
+  public String postAdjustMapAddress(String addr) {
+    return STATE225_PTN.matcher(addr).replaceAll("STATE ROUTE 225");
+  }
+  private static final Pattern STATE225_PTN = Pattern.compile("\\b(STATE|ST|OH) +225\\b", Pattern.CASE_INSENSITIVE);
 }
