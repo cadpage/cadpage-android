@@ -99,7 +99,7 @@ choyvp pynff PGFvzfohelCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "12 PENAR CY GLCR:YF yvsr fgne, raq bs phy qr fnp",
         "NQQE:12 PENAR CY",
         "PBQR:YF",
-        "PNYY:Yvsg Fgne",
+        "PNYY:Yvsr Fgne Ynaqvat",
         "VASB:yvsr fgne, raq bs phy qr fnp");
 
     qbGrfg("G10",

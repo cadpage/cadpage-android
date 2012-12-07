@@ -1656,8 +1656,10 @@ Allen Sullivan <allen.sullivan.as@gmail.com> // paid by check 1211
 Vincent Davis (davis.1894@gmail.com) // PayPal
 %%12/04/2012
 Ted Bost (trbostjr@gmail.com) (trbostjr@charter.net) // PayPal
-Dave Abbott (DaveA@A1-Services.com) // PayPal via A1 Services, LLC
+Dave Abbott <d55555@gmail.com> (DaveA@A1-Services.com) // PayPal via A1 Services, LLC
 bruce fleming (frabcofd@gmail.com) (fireflem@aol.com) // PayPal
+%%12/06/2012
+Shane Jacobs (ncsirfr@hotmail.com) // PayPal
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
@@ -3588,3 +3590,6 @@ blake cole <gfd443@gmail.com>
 Chuck Ewing (kcredneck666@gmail.com) <kcredneck666@yahoo.com>
 Jami Gomez <jami0214@gmail.com>
 "roxana.mehran" <roxana.mehran@gmail.com>
+%%12/06/2012
+Cedric Reaves <hassain3838@gmail.com>
+Kevin Hall (kmhall911@gmail.com) <khall@rockconc.com>
