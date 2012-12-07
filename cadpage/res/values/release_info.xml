@@ -1,36 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11282012</string>
-  <string name="release_version">v1.5.70</string>
+  <string name="release_date">12062012</string>
+  <string name="release_version">v1.5.71</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Madison County, IN (alt)\n
-Vanderburgh County, IN\n
-Garrett County, MD\n
-Osage County, MO\n
-New York City, NY\n
-Lake County, OH\n
-Campbell County, TN\n
-Knox County, TN\n
-King County, WA\n
-Lewis County, WA\n
+Bloomfield, CT\n
+Groton, CT\n
+Wicomico County, MD (alt)\n
+St Lawrence County, NY\n
+Hood County, TX\n
+Parker County, TX\n
 \n      
 Location Parsing Fixes:\n
-El Paso County, CO\n
-Garfield County, CO\n
-Larimer County, CO\n
-Hamilton County, IN\n
-Madison County, IN\n
-Cecil County, MD\n
-Hunterdon County, NJ\n
-Keene Mutual Aid, NY\n
-Westchester County, NY\n
+Date County, GA\n
+Kosciusko County, IN\n
+Oldham County, KY\n
+Muhlenberg County, KY\n
+Carroll County, MD\n
+York County, ME\n
+Calhoun County, MS\n
+Mercer County, NJ\n
+Monroe County, NY\n
+Nassau County, NY\n
+Orange County, NY\n
+Guilford County, NC\n
+Rowan County, NC\n
+Fairfield County, OH\n
+Highland County, OH\n
+Knox County, OH\n
+Lawrence County, OH\n
+Mahoning County, OH\n
 Portage County, OH\n
+Stark County, OH\n
+Wayne County, OH\n
+Chester County, PA\n
+Delaware County,PA\n
+Montgomery County, PA\n
+Northumberland County, PA\n
 Snyder County, PA\n
 Nassau Bay, TX\n
-Rockingham County, VA\n
+\n
+General Fixes:\n
+Another attempt to fix the ICS IllegalStatException problem\n
+Fixed EOY problem with subscription renewals\n
   </string>  
 </resources>
   
