@@ -57,6 +57,8 @@ Dispatch:[RDM]- NATURE: GENERAL ILLNESS LOCATION: 6599 MC COPPIN MILL RD SUITE: 
 
 public class DispatchEmergitechParser extends FieldProgramParser {
   
+  private static final Pattern COMMENTS_PTN = Pattern.compile("C ?O ?M ?M ?E ?N ?T ?S ?:");
+  
   private Pattern markerPattern;
   int[] extraSpacePosList;
   
@@ -83,6 +85,13 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     Matcher match = markerPattern.matcher(body);
     if (!match.find()) return false;
     data.strUnit = match.group(1);
+    
+    // There are usually 2 extraneous blanks.  The first one tends to fall in the
+    // address field and we will spend a lot of time trying to excise it.  The
+    // second tends to fall in the cross street or comment fields, where an extra
+    // blank isn't that critical.  We will, however, try to rebuild a COMMENTS:
+    // keyword that has been split
+    body = COMMENTS_PTN.matcher(body).replaceFirst("COMMENTS:");
     
     // If extraSpacePos is positive, the extraneous blank is found in a fixed
     // position relative to the message text.  Also check for keywords that

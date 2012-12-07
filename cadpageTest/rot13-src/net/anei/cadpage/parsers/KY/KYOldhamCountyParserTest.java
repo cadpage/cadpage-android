@@ -88,7 +88,8 @@ choyvp pynff XLByqunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZF PNYY",
         "NQQE:1202 JRVOYR EQ",
         "PVGL:PERFGJBBQ",
-        "K:CNLGBA YA / QRNQ RAQ NPPRFF OL CNLGBA YA PBZZRAG F: 74 LBZ AHZOARFF NAQ GVATYVAT BA EVTUG FVQR");
+        "K:CNLGBA YA / QRNQ RAQ NPPRFF OL CNLGBA YA",
+        "VASB:74 LBZ AHZOARFF NAQ GVATYVAT BA EVTUG FVQR");
 
   }
   
