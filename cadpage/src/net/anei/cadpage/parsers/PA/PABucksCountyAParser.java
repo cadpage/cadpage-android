@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class PABucksCountyAParser extends PABucksCountyBaseParser {
   
-  private static final Pattern MARKER1 = Pattern.compile("^[A-Z]+\\s+(?:Adr:|adr:|Box:)");
+  private static final Pattern MARKER1 = Pattern.compile("(?:(Station [^/:]+) / )?([A-Z]+\\s+(?:Adr:|adr:|Box:).*)", Pattern.DOTALL);
   private static final Pattern MARKER2 = Pattern.compile("^([A-Z0-9 ]+):([A-Z]+) *");
   private static final Pattern NAKED_DATE_TIME = Pattern.compile("(?<!: ?)\\d\\d/\\d\\d/\\d\\d +\\d\\d:\\d\\d:\\d\\d\\b");
   private static final Pattern GEN_ALERT_MARKER = Pattern.compile("^(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d:\\d\\d) +~TO~ [A-Z0-9]+ FROM [A-Z0-9]+:\n?");
@@ -35,13 +35,16 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     int pt = body.lastIndexOf('=');
     if (pt >= 100) body = body.substring(0,pt) + body.substring(pt+1);
     pt = body.indexOf("Sent by mss911 ");
+    if (pt < 0) pt = body.indexOf("\nSent by Berks County RSAN");
     if (pt >= 0) body = body.substring(0,pt).trim();
     String saveBody = body;
     
     boolean mark2 = false;
     Matcher match = MARKER1.matcher(body);
-    if (match.find()) {
-      body = "type:" + body.replace('\n', ' ').trim();
+    if (match.matches()) {
+      String src = match.group(1);
+      body = "type:" + match.group(2).replace('\n', ' ').trim();
+      if (src != null) body = src + " " + body;
     } else {
       match = MARKER2.matcher(body);
       if (match.find()) {

@@ -3,24 +3,6 @@ support@cadpage.org
 
 ******************************************************************
 
-Weld County mapping is seriously broken.  Someone is stripping all of the line break characters out of the regular dispatch page.  If they had replaced them with something nice like semicolons, I could parse them with no problems.  If they replace them with blanks I would have had a few choice comments about the situation but could have worked with it.  But they are just gone leaving all of your data fields mashed up against each other.  I just can't parse that :(
-
-All you can do is complain to your department or dispatch IT people.  If they can't get the issue resolved, you may have to switch messaging services.  CodeMessaging.com and Active911.net are recommended because they can push pages directly to Cadpage.
-
-Good luck,
--Ken
-
-******************************************************************
-
-A lot of people are complaining about this.  One of the carriers changed the sender address prefix from 777 to 888.  The next release will change all location filters that were checking for 777 to add 888.
-
-This release will be out later this evening.  If you can't wait for it you can override the default sender filter.  Go into Location Settings and check the box labeled "Override Sender Filter".  Then set the "From: (filter)" setting to 888.
-
-Good luck,
--Ken
-
-******************************************************************
-
 Handcent is the culprit.  They insist on being the top dog in the SMS queue, meaning they control whether Cadpage gets to see SMS text pages rather than the other way around.
 
 Actually it is more complicated that that.  Cadpage, Handcent, and Go SMS are all fighting for the top slot, and the Android system awards that prize to the one that was installed first.  So you will find it starts working when you install a new version of Handcent, and stops working when you install a new version of Cadpage.  Which always makes it look like our Cadpage update broke things.
@@ -367,9 +349,7 @@ Have a nice day,
 
 ******************************************************************
 
-This is a sporadic but very frustrating problem with newer versions of the Android system that has been reported by many people and many different apps.  I implemented another round of published workarounds to see if I can resolve it in the next release.
-
-The next release will probably be out next Thursday, but this fix is available in the beta release at http://www.cadpage.org/download-cadpage.  I would appreciate it if you could try installing that and see how things work with it.
+This is a sporadic but very frustrating problem with newer versions of the Android system that has been reported by many people and many different apps.  The latest release contains a few more workarounds that attempt to eliminate the forced app close.
 
 Thanks,
 -Ken
