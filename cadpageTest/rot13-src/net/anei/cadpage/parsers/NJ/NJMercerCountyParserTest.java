@@ -14,6 +14,7 @@ Fraqre: abercyl_yvsrpbzz@irevmba.arg
 
 11132012-0051953; Qvfc:12:55; Erfc:12:57; Fprar:13:12; Qrcneg:13:14; Ubfc:13:26; Ninvy:13:41 (zft12) (#1\e\a
 VQ: 11132012-0051953; Erp: 12:53; Qvfc: 12:55; Erfc: 12:57; Fprar: 13:12; Qrcneg: 13:14; Ubfc: 13:26 (zft17) (#1\e\a
+HAVG: 795 ; ERFCBAFR PURPX ;LBH UNIR NA NFFVTAZRAG - PBAGNPG YVSRPBZZ ; (#1\e\a
 
 HAVG: 794 ; PNYY: Frvmherf - NYF ; CYNPR: ZP Whavbe Fravbe Uvt; NQQE: 1050 Rqvaohet Eq ; OYQT: ; NCG: ; PVGL: Unzvygba ; KFGERRGF: Uhturf Qe/Qrnq Raq ; VQ: 11132012-0051953 ; QNGR: 11/13; GVZR: 12:55; (zft11)\e\a
 HAVG: 793 ; PNYY: Genhzn - NYF ; CYNPR: ; NQQE: 23 Ovggare Eq ; OYQT: ; NCG: ; PVGL: Zvyyfgbar (Fb) ; KFGERRGF: Qrnq Raq/Eboovaf Eq ; VQ: 11132012-0051957 ; QNGR: 11/13; GVZR: 13:37; (zft11)\e\a
@@ -73,6 +74,12 @@ choyvp pynff AWZreprePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ: 11132012-0051953; Erp: 12:53; Qvfc: 12:55; Erfc: 12:57; Fprar: 13:12; Qrcneg: 13:14; Ubfc: 13:26 (zft17) (#1\e\a",
         "PNYY:EHA ERCBEG",
         "CYNPR:VQ: 11132012-0051953; Erp: 12:53; Qvfc: 12:55; Erfc: 12:57; Fprar: 13:12; Qrcneg: 13:14; Ubfc: 13:26 (zft17) (#1");
+
+    qbGrfg("G3",
+        "HAVG: 795 ; ERFCBAFR PURPX ;LBH UNIR NA NFFVTAZRAG - PBAGNPG YVSRPBZZ ; (#1\e\a",
+        "PNYY:TRARENY NYREG",
+        "HAVG:795",
+        "CYNPR:ERFCBAFR PURPX ;LBH UNIR NA NFFVTAZRAG - PBAGNPG YVSRPBZZ ; (#1");
 
   }
   
