@@ -15,7 +15,7 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
   private static final String DEF_STATE = "MD";
   private static final String DEF_CITY = "ANNE ARUNDEL COUNTY";
   
-  private static final Pattern MARKER = Pattern.compile("^\\*?(?:===(\\d.{0,4} Alarm)=== +)?(?:MEDICAL|Medical|Med|Local|HazMat|Still|Box|Elevator Rescue|Rescue|Water Rescue|All Hands) (?:BOX|Box|Alarm) (\\d{1,2}-[A-Z0-9]{1,3}) ");
+  private static final Pattern MARKER = Pattern.compile("^(?:===(\\d.{0,4} Alarm)=== +)?\\*?(?:MEDICAL|Medical|Med|Local|HazMat|Still|Box|Elevator Rescue|Rescue|Water Rescue|All Hands) (?:BOX|Box|Alarm) (\\d{1,2}-[A-Z0-9]{1,3}) ");
   private static final Pattern T_MARKER = Pattern.compile("\\[\\d{1,2}/\\d{1,3}\\]");
   private static final Pattern OPEN_DELIM = Pattern.compile("\\(|\\[");
   private static final Pattern BACK_ZIP = Pattern.compile(" (\\d{5})$");
@@ -27,6 +27,7 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
 
   public MDAnneArundelCountyEMSParser() {
     super(DEF_CITY, DEF_STATE);
+    setupMultiWordStreets("CAPE ST CLAIRE");
   }
   
   @Override
@@ -56,7 +57,8 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
     boolean found = match.find();
     if (found) {
       String test = body.substring(match.start());
-      if (test.startsWith("(HOT)") || test.startsWith("(COLD)")) found = false;
+      if (test.startsWith("(HOT)") || test.startsWith("(COLD)") || 
+          test.startsWith("(WARM)") || test.startsWith("(SPVR)")) found = false;
     }
     if (found) {
       int ipt = match.start();

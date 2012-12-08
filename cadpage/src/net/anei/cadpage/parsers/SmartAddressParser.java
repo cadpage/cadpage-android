@@ -272,6 +272,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "LOOP",
         "TERRACE", "TRC", "TRCE",
         "ESTATES", "ESTS",
+        "WALK",
         "CUTOFF");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
@@ -1524,30 +1525,41 @@ public abstract class SmartAddressParser extends MsgParser {
     // If we are out of tokens, the answer is no
     if (start >= tokens.length) return -1; 
     
-    // Compute the failure index that we return if we fail to find a proper road end.
-    // If we are processing cross streets, check for a special cross street name and
-    // set the failure index to the end of that
-    int failIndex = -1;
-    if (cross || isFlagSet(FLAG_ONLY_CROSS)) {
-      failIndex = mWordCrossStreetsFwd.findEndSequence(start);
-    }
-    
-    // Otherwise, if we are accepting roads without a street suffix, we will compute the
-    // default value assuming this is a suffixless street name.  If not, the failure return
-    // is always -1;
-    if (failIndex < 0 && option > 1 && isFlagSet(FLAG_OPT_STREET_SFX)) {
-      if (isType(start, ID_NOT_ADDRESS | ID_CONNECTOR)) return -1;
-      if (mWordStreetsFwd != null) {
-        failIndex = mWordStreetsFwd.findEndSequence(start);
-      } else {
-        failIndex = start+1;
-      }
-      if (option < 2 && failIndex - start < 2) failIndex = -1;
-    }
-    
     // Dummy loop that we can break out of when we find a road end
     int end;
     do {
+      
+      // See if this is the start of a multi word street name
+      // terminated by a proper road suffix
+      int mWordIndex = -1;
+      if (mWordStreetsFwd != null) {
+        mWordIndex = mWordStreetsFwd.findEndSequence(start);
+        if (mWordIndex > start+1 && isType(mWordIndex, ID_ROAD_SFX)) {
+          end = mWordIndex+1;
+          break;
+        }
+      }
+      
+      // Compute the failure index that we return if we fail to find a proper road end.
+      // If we are processing cross streets, check for a special cross street name and
+      // set the failure index to the end of that
+      int failIndex = -1;
+      if (cross || isFlagSet(FLAG_ONLY_CROSS)) {
+        failIndex = mWordCrossStreetsFwd.findEndSequence(start);
+      }
+      
+      // if we are accepting roads without a street suffix, we will compute the
+      // default value assuming this is a suffixless street name.  If not, the failure return
+      // is always -1;
+      if (failIndex < 0 && option > 1 && isFlagSet(FLAG_OPT_STREET_SFX)) {
+        if (isType(start, ID_NOT_ADDRESS | ID_CONNECTOR)) return -1;
+        if (mWordIndex >= 0) {
+          failIndex = mWordIndex;
+        } else {
+          failIndex = start+1;
+        }
+        if (option < 2 && failIndex - start < 2) failIndex = -1;
+      }
       
       if (isType(start, ID_NOT_ADDRESS | ID_CONNECTOR)) return failIndex;
       

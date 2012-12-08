@@ -37,7 +37,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp FznegNqqerffCnefreGrfg() {
     cnefre = arj GrfgCnefre(PVGL_YVFG, QRS_PVGL, QRS_FGNGR);
-    cnefre.frghcZhygvJbeqFgerrgf("WRNA TBHY", "CNHY T TRGGL");
+    cnefre.frghcZhygvJbeqFgerrgf("WRNA TBHY", "CNHY T TRGGL", "PNCR FG PYNVER");
     frgCnefre(cnefre, QRS_PVGL, QRS_FGNGR);
   }
   
@@ -47,6 +47,9 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(NQQE, "EG50 J/PNCR FG PYNVER EQ DCZ1,R191,DR1,DNSQ ZIP",
+           "NQQE:EG50 J & PNCR FG PYNVER EQ");
     
     qbGrfg(PNYY, "PNEO NHGB / XNEVXNF ERFQ / 816532620 382 NAQERJF EBNQ",
            "PNYY:PNEO NHGB/XNEVXNF ERFQ/816532620",
