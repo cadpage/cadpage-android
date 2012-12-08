@@ -41,6 +41,7 @@ public class IAWoodburyCountyParser extends SmartAddressParser {
       switch (ndx++) {
       
       case 0:
+        
         // Call description
         data.strCall = line;
         break;
