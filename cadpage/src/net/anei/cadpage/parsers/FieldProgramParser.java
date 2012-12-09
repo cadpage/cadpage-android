@@ -1172,7 +1172,9 @@ public class FieldProgramParser extends SmartAddressParser {
     public boolean checkFailure(Data data) {
 
       // If this is a required step, return failure
-      if (required == EReqStatus.REQUIRED) return false;
+      if (required == EReqStatus.REQUIRED) {
+        return false;
+      }
       if (required == EReqStatus.EXPECTED) data.expectMore = true; 
       return true;
     }

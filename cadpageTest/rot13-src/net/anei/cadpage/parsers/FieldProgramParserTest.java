@@ -21,30 +21,11 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-    
-    qbSvryqGrfg("hagnt-gnt fhpp",
-        "( VASB VQ | ANZR ) Havg:HAVG",
-        "VASB;666;Havg:NNN",
-        "VASB:VASB",
-        "VQ:666",
-        "HAVG:NNN");
-    
-    qbSvryqGrfg("hagnt-gnt snvy",
-        "( VASB VQ | ANZR ) Havg:HAVG",
-        "XRA;Havg:NNN",
-        "ANZR:XRA",
-        "HAVG:NNN");
-    
-    qbSvryqGrfg("hagnt-gnt fhpp",
-        "( VASB NCG | ANZR ) Havg:HAVG",
-        "VASB;Ncg: 20;Havg:NNN",
-        "VASB:VASB",
-        "NCG:20",
-        "HAVG:NNN");
   }
   
   @Grfg
   choyvp ibvq grfgceboyrzf() {
+    
     qbSvryqGrfg("G1", "GLCR:PNYY HAGF:HAVG KFG:K HAGF:HAVG",
         "GLCR:SVER;HAGF:N70;KFG:OYNPX FG",
         "PNYY:SVER",
@@ -418,6 +399,26 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FXVC;XRA GBJA;OYNPX FG",
         "PVGL:XRA GBJA",
         "K:OYNPX FG");
+    
+    qbSvryqGrfg("hagnt-gnt fhpp",
+        "( VASB VQ | ANZR ) Havg:HAVG",
+        "VASB;666;Havg:NNN",
+        "VASB:VASB",
+        "VQ:666",
+        "HAVG:NNN");
+    
+    qbSvryqGrfg("hagnt-gnt snvy",
+        "( VASB VQ | ANZR ) Havg:HAVG",
+        "XRA;Havg:NNN",
+        "ANZR:XRA",
+        "HAVG:NNN");
+    
+    qbSvryqGrfg("hagnt-gnt fhpp",
+        "( VASB NCG | ANZR ) Havg:HAVG",
+        "VASB;Ncg: 20;Havg:NNN",
+        "VASB:VASB",
+        "NCG:20",
+        "HAVG:NNN");
         
   }
   

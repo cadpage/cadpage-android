@@ -356,9 +356,8 @@ choyvp pynff APEbjnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:SVER NYNEZ NPGVINGVBA;1020 RQZVFGBA EQ;ZGHY;PNEFJRYY EQ;AP 801 UJL;6608;BCF12",
         "PNYY:SVER NYNEZ NPGVINGVBA",
         "NQQE:1020 RQZVFGBA EQ",
-        "K:PNEFJRYY EQ",
+        "K:PNEFJRYY EQ / AP 801 UJL",
         "PVGL:ZG HYYN",
-        "CYNPR:AP 801 UJL",
         "ZNC:6608",
         "PU:BCF12");
 

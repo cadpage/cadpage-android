@@ -1583,6 +1583,7 @@ public abstract class SmartAddressParser extends MsgParser {
             if (isType(end+1, ID_ROAD_SFX)) end++;
           }
           end++;
+          if (isType(end, ID_ROUTE_PFX_EXT)) end++;
           break;
         }
       }

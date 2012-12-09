@@ -265,8 +265,8 @@ choyvp pynff VAFgWbfrcuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9 ZRQVP021",
         "NQQE:16086 QENTBBA GE",
         "PVGL:CRAA GJC",
-        "K:59200 FE 331",
-        "VASB:UJ Z SVEFG CNEGL CNFFVAT BHG / ZR10 ,CRAA1",
+        "K:59200 FE 331 UJ",
+        "VASB:Z SVEFG CNEGL CNFFVAT BHG / ZR10 ,CRAA1",
         "GVZR:15:20",
         "HAVG:006");
 
@@ -1130,8 +1130,8 @@ choyvp pynff VAFgWbfrcuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:8 ZRQVP018",
         "NQQE:56925 CRNE EQ",
         "PVGL:JNEERA GJC",
-        "K:26700 FE 2",
-        "VASB:UJ Z PNAG JNYX",
+        "K:26700 FE 2 UJ",
+        "VASB:Z PNAG JNYX",
         "GVZR:22:55");
 
     qbGrfg("G2",

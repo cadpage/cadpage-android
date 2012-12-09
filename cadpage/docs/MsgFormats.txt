@@ -4878,6 +4878,7 @@ FRM:DISPATCH@co.starke.in.us\nMSG:DISPATCH:VFD:BLFD - 8088 TRAFFIC ACCIDENT-INJU
 **********************************************************
 Baltimore County, MD (alt)
 Contact: Craig Jones <craig@brechmos.org>
+Sender: @c-msg.net
 BOX:046-05 CALL:APARTMENT FIRE ADDR:3524 CARRIAGE HILL CI APT 203 UNIT:3 E464 E18 E3 E311 E19 T18 T313 TOW323 BC23 FS46 E464 E464 1 046-05 INFO:SMOKE COMING FRM APT.. SAYS SOMETHING IS ON FIRE BUT DOESNT KNOW WHAT 09:05:33 ID:123430463
 BOX:031-51 CALL:10-50 UNKNOWN STATUS ADDR:I795 BET 1-4 S; 0 OWINGS MILLS BL*I695 UNIT:1 A315 E311 E2 FS31 A315 E311 A315 E311 4 1 031-51 INFO:MINOR 08:21:05 ID:123430411
 BOX:056-51 CALL:1050PI ADDR:I795 BET 4-7 S; 0 FRANKLN*OWINGS MILLS UNIT:2 M56 E56 E311 FS56 M56 E56 M56 E56 4 1 056-51 INFO:07:39:59 ID:123430379
@@ -5025,22 +5026,3 @@ Sender: CSOCallComplete@MCSONJ.ORG
 **********************************************************
 * EOF
 **********************************************************
-
-Agency name: Black Diamond Fire Department
-Location: Black Diamond, Alberta, Canada
-Contact: Active911
-Sender: LuchiaM@fresc.ca
-
-(Rip & Run) 09:48AM CALL 71d01 AT 509 sunrise hill sw, turner valley \r\n
-(Rip & Run) 10:16AM CALL 10c04 AT 210 1 ave sw, black diamond \r\n
-(Rip & Run) 10:27AM CALL 29b01 AT * 176022 22 hwy, u:11 c:90, foothills md \r\n
-(Rip & Run) 08:06PM CALL 55b01 AT 339 willow ridge manor, black diamond \r\n
-(Rip & Run) 04:51PM CALL 52c03 AT 102-450 1 ave ne, fibre renew international, black diamond \r\n
-(Rip & Run) 05:14PM CALL 67b01 AT 80 st w & 7 hwy w, foothills md \r\n
-(Rip & Run) 08:47PM CALL 65b01 AT 717 government rd s, black diamond \r\n
-(Rip & Run) 07:55PM CALL 13d01 AT 271 willow_ridge_mnr sw, black diamond \r\n
-(Rip & Run) 08:44AM CALL 10d04 AT 5-701 government rd s, glen mead 1, black diamond \r\n
-(Rip & Run) 07:57PM CALL 52b01 AT 1300 okalta rd sw, turner valley \r\n
-(Rip & Run) 01:17PM CALL 65a02 AT 717 government rd s, black diamond \r\n
-(Rip & Run) 06:55PM CALL 65a01 AT 115 centre ave w, black diamond \r\n
-(Rip & Run) 10:13AM CALL 65a01 AT 717 government rd s, black diamond \r\n
