@@ -35,7 +35,9 @@ public class ZCAABCanmoreParser extends MsgParser {
     Parser p = new Parser(match.group(3).trim());
     String addr = p.get(',');
     if (addr.length() == 0) addr = p.get(',');
-    parseAddress(addr.replace('_', ' ').trim(), data);
+    addr = addr.replace('_', ' ');
+    if (addr.startsWith("*")) addr = addr.substring(1);
+    parseAddress(addr.trim(), data);
     data.strCity = p.getLast(',');
     data.strPlace = p.get();
     return true;

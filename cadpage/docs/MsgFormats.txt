@@ -5026,3 +5026,21 @@ Sender: CSOCallComplete@MCSONJ.ORG
 * EOF
 **********************************************************
 
+Agency name: Black Diamond Fire Department
+Location: Black Diamond, Alberta, Canada
+Contact: Active911
+Sender: LuchiaM@fresc.ca
+
+(Rip & Run) 09:48AM CALL 71d01 AT 509 sunrise hill sw, turner valley \r\n
+(Rip & Run) 10:16AM CALL 10c04 AT 210 1 ave sw, black diamond \r\n
+(Rip & Run) 10:27AM CALL 29b01 AT * 176022 22 hwy, u:11 c:90, foothills md \r\n
+(Rip & Run) 08:06PM CALL 55b01 AT 339 willow ridge manor, black diamond \r\n
+(Rip & Run) 04:51PM CALL 52c03 AT 102-450 1 ave ne, fibre renew international, black diamond \r\n
+(Rip & Run) 05:14PM CALL 67b01 AT 80 st w & 7 hwy w, foothills md \r\n
+(Rip & Run) 08:47PM CALL 65b01 AT 717 government rd s, black diamond \r\n
+(Rip & Run) 07:55PM CALL 13d01 AT 271 willow_ridge_mnr sw, black diamond \r\n
+(Rip & Run) 08:44AM CALL 10d04 AT 5-701 government rd s, glen mead 1, black diamond \r\n
+(Rip & Run) 07:57PM CALL 52b01 AT 1300 okalta rd sw, turner valley \r\n
+(Rip & Run) 01:17PM CALL 65a02 AT 717 government rd s, black diamond \r\n
+(Rip & Run) 06:55PM CALL 65a01 AT 115 centre ave w, black diamond \r\n
+(Rip & Run) 10:13AM CALL 65a01 AT 717 government rd s, black diamond \r\n
