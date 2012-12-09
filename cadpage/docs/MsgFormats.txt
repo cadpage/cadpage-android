@@ -4849,10 +4849,6 @@ Contact: David Liske <david.liskeusmc@gmail.com>
 Sender: secc@scott.ia.us
 (Incident) MCFD\2s106 N SALINA ST McCausland EMS or MVC-Solo\2sCall successfully transferred to peer Agency. [MedicEMS]\2sPeer CFS Number = 0045-A_2012-12-01 [MedicEM
 **********************************************************
-Polk COunty, IA (alt?)
-Contact: "Evan M. Kellis" <KellisEM@crnci.com>
-Sedner: messaging@iamresponding.com
-Body:Subject:DEFD\nType: RESCUE PIA Caller: VERIZON Time: 05:41:17
 **********************************************************
 **********************************************************
 **********************************************************

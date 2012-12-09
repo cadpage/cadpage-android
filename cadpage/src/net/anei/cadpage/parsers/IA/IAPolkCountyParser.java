@@ -12,7 +12,7 @@ public class IAPolkCountyParser extends FieldProgramParser {
   
   public IAPolkCountyParser() {
     super(CITY_CODES, "POLK COUNTY", "IA",
-           "Location:ADDR/S! Type:CALL! Caller:PLACE? Time:TIME!");
+           "Location:ADDR/S Type:CALL! Caller:PLACE? Time:TIME!");
   }
   
   @Override
@@ -23,8 +23,7 @@ public class IAPolkCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (subject.length() == 0) return false;
-    data.strSource = subject;
+    if (subject.length() > 0) data.strSource = subject;
     return super.parseMsg(body, data);
   }
   
