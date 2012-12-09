@@ -24,7 +24,7 @@ public class ALBaldwinCountyParser extends MsgParser {
     
   @Override
   public String getFilter() {
-    return "cad@baldwin911.org";
+    return "noreply@emergencycallworx.com";
   }
   
   @Override

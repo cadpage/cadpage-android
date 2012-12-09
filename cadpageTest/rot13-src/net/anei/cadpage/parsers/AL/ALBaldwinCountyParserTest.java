@@ -16,6 +16,9 @@ Fraqre: pnq@onyqjva911.bet
 - R911 Abgvsvpngvba - Ryoregn ISQ - 05-26-12 08:04: Fgngvba FGN31 qvfcngpurq gb Vapvqrag VQ 292420 (Nhgb Nppvqrag) ng HF UJL 98 @ FNAQL YA
 - R911 Abgvsvpngvba - Ryoregn ISQ - 05-26-12 16:24: Fgngvba FGN31 qvfcngpurq gb Vapvqrag VQ 292625 (Nhgb Nppvqrag) ng UJL98 @ PBEQ9
 
+Fraqre: abercyl@rzretraplpnyyjbek.pbz
+- R911 Abgvsvpngvba - Ryoregn ISQ - 12-08-12 09:46: Fgngvba FGN31 qvfcngpurq gb Vapvqrag VQ 365515 (Nhgb Nppvqrag) ng WB
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Qncuar Sver Qrcg. Ybpngvba: Qncuar, NY 
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
@@ -170,6 +173,16 @@ choyvp pynff NYOnyqjvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Nhgb Nppvqrag",
         "NQQE:UJL98 & PBEQ9",
         "ZNQQE:UJL 98 & PBHAGL EBNQ 9");
+
+    qbGrfg("G6",
+        "- R911 Abgvsvpngvba - Ryoregn ISQ - 12-08-12 09:46: Fgngvba FGN31 qvfcngpurq gb Vapvqrag VQ 365515 (Nhgb Nppvqrag) ng WB",
+        "FEP:Ryoregn ISQ",
+        "QNGR:12/08/2012",
+        "GVZR:09:46",
+        "HAVG:FGN31",
+        "VQ:365515",
+        "PNYY:Nhgb Nppvqrag",
+        "NQQE:WB");
 
   }
   
