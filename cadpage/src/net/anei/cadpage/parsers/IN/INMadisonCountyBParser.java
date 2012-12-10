@@ -12,7 +12,7 @@ public class INMadisonCountyBParser extends FieldProgramParser {
   
   public INMadisonCountyBParser() {
     super("MADISON COUNTY", "IN",
-          "( Call_Type:CALL! ( Nature:INFO! Units:UNIT! Call_#:ID! Call_Date/Time:DATETIME! Priority:PRI! Common_Name:PLACE! Address:ADDRCITY! Intersection:X! City:CITY! Units:UNIT! Info:SKIP! Narr:INFO! Beat:MAP2! Quadrant:MAP1! District:SKIP! Source:SKIP! | ADDRESS:ADDRCITY! UNITS:UNIT INFO:INFO ) | Units:UNIT Call_Type:CALL! Address:ADDRCITY! Info:INFO )");
+          "( Call_Type:CALL! ( Nature:INFO! Units:UNIT! Call_#:ID! Call_Date/Time:DATETIME! Priority:PRI! Common_Name:PLACE! Address:ADDRCITY! Intersection:X City:CITY Units:UNIT! Info:SKIP! Narr:INFO! Beat:MAP2! Quadrant:MAP1! District:SKIP! Source:SKIP! | ADDRESS:ADDRCITY! UNITS:UNIT INFO:INFO ) | Units:UNIT Call_Type:CALL! Address:ADDRCITY! Info:INFO )");
   }
   
   @Override
