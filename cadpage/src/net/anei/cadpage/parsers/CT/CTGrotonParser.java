@@ -16,7 +16,7 @@ public class CTGrotonParser extends FieldProgramParser {
   
   public CTGrotonParser() {
     super(CITY_CODES, "GROTON", "CT",
-          "CALL PLACE ADDRCITY SRCX! TIME INFO+");
+          "CALL PLACE ADDRCITY APT? SRCX! TIME INFO+");
   }
 
   @Override
@@ -35,6 +35,20 @@ public class CTGrotonParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (field.length() == 0) return;
       super.parse(field, data);
+    }
+  }
+  
+  private class MyAptField extends AptField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("APT")) return false;
+      super.parse(field.substring(3).trim(), data);
+      return true;
     }
   }
   
@@ -73,6 +87,7 @@ public class CTGrotonParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("APT")) return new MyAptField();
     if (name.equals("SRCX")) return new SourceCrossField();
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d");
     if (name.equals("INFO")) return new MyInfoField();
