@@ -11,7 +11,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.ZftCnefre.Cnefre;
 vzcbeg fgngvp bet.whavg.Nffreg.*;
 
 
-choyvp pynff FzfZftCnefreGrfg {
+choyvp pynff ZftCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
