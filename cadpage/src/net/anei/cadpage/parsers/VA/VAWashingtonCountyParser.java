@@ -12,7 +12,7 @@ public class VAWashingtonCountyParser extends DispatchSouthernParser {
 
   @Override
   public String getFilter() {
-    return "NSCOTT@washcova.com";
+    return "@washcova.com";
   }
   
   private static final String[] CITY_LIST = new String[]{
