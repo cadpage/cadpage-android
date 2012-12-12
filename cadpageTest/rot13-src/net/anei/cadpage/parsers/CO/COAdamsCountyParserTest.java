@@ -8,6 +8,11 @@ vzcbeg bet.whavg.Grfg;
 /*
 Nqnzf Pbhagl, PB
 Pbagnpg: "Zngg Xrubr" <zwxrubr@tznvy.pbz>
+Pbagnpg: Qreevpx Xrrgba <qreevpxxrrgba@tznvy.pbz>
+Pbagnpg: WP Ynatyrl <nfunzna01@tznvy.pbz>
+Pbagnpg: "Fpuhccr, Zvpunry" <zfpuhccr@oevtugbasver.bet>
+Pbagnpg: Qraavf Ubxr <qraavfubxr34@tznvy.pbz>
+Pbagnpg: Znex Oenfry <sverovxre189@tznvy.pbz>
 Fraqre: vcfcntr@nqpbz911.bet
 
 Fhowrpg:VCF V/Cntr Abgvsvpngvba R 64GU NIR/ZBANPB FG NQNZ PPCQ 09:51:48 GLCR PBQR: NPPV PNYYRE ANZR: GVZR: 09:51:48 Pbzzragf: -104.90947
@@ -16,28 +21,16 @@ Fhowrpg:VCF V/Cntr Abgvsvpngvba 10220 OEVTUGBA EQ NQNZ PPCQ:QVIREFVSVRF GEHPX NA
 Fhowrpg:VCF V/Cntr Abgvsvpngvba HF UVTUJNL 85 AO/R 77GU NIR NQNZ NQNZ 03:34:04 GLCR PBQR: ABAFGE PNYYRE ANZR: NFUYRL GVZR: 03:34:04 Pbzzra
 Fhowrpg:VCF V/Cntr Abgvsvpngvba 9900 R 102AQ NIR NQNZ PPCQ:HFS 06:06:49 GLCR PBQR: SENYEZ PNYYRE ANZR: NQG GVZR: 06:06:49 Pbzzragf: JNGRE
 Fhowrpg:VCF V/Cntr Abgvsvpngvba\a26900 R PBYSNK NIR NENC NENC,454: @SBK EVQTR SNEZF 17:19:15 GLCR PBQR: RZF PNYYRE ANZR:  GVZR: 17:19:15 Pb
-
-Pbagnpg: Qreevpx Xrrgba <qreevpxxrrgba@tznvy.pbz>
 VCF V/Cntr Abgvsvpngvba / 10433 FNYVQN FG NQNZ PPCQ 06:51:58 GLCR PBQR: SENYEZ PNYYRE ANZR:  GVZR: 06:51:58\a\a\a
-
-Pbagnpg: WP Ynatyrl <nfunzna01@tznvy.pbz>
 (VCF V/Cntr Abgvsvpngvba) R 470 RO NQNZ NQNZ: @R 470 RO/R 56GU NIR 22:58:36 GLCR PBQR: ABAFGE PNYYRE ANZR:  GVZR: 22:58:36 Pbzzragf:  -104.701552 +39.798521 JU
-
-Pbagnpg: "Fpuhccr, Zvpunry" <zfpuhccr@oevtugbasver.bet>
-Fraqre: vcfcntr@nqpbz911.bet
 Fhowrpg:VCF V/Cntr Abgvsvpngvba\a510.5 F 2aq Nir znwbe vapvqrag-- unmzng  ab nqqvgvbany rdhvc arrqrq ng guvf gvzr\e\a\e\a\e
-
-Pbagnpg: Qraavf Ubxr <qraavfubxr34@tznvy.pbz>
-Fraqre: vcfcntr@nqpbz911.bet
 Fhowrpg:VCF V/Cntr Abgvsvpngvba\a40200 R DHVAPL NIR 18:40:46 GLCR PBQR: ABAFGE PNYYRE ANZR:  GVZR: 18:40:46 Pbzzragf:  JVYY OR UBHFR AHZORE\e
-
-Pbagnpg: Znex Oenfry <sverovxre189@tznvy.pbz>
-Fraqre: vcfcntr@nqpbz911.bet
 (VCF V/Cntr Abgvsvpngvba) jbexvat sver @ 5254 fabj tbbfr fg     gunaxf - nqpbz
+Fhowrpg:VCF V/Cntr Abgvsvpngvba\a258 F 12GU NIR NQNZ OCQ 17:29:04 GLCR PBQR: FGEHPG PNYYRE ANZR: OREANQVAR GVZR: 17:29:04 Pbzzragf:  EC OHE
 
 Pbagnpg: fhccbeg@npgvir911.pbz
 (VCF V/Cntr Abgvsvpngvba) 8055 JNFUVATGBA FG NQNZ NQNZ: @FGNGVBA 31 13:45:48 GLCR PBQR: RZF PNYYRE ANZR: SVY ZNEGVARM GVZR: 13:45:48 Pbzzragf:  GRFG PNEQ
-[VCF V/Cntr Abgvsvpngvba] V 70 JO/ZZ 317 01:47:54 GLCR PBQR: FGNAQOL PNYYRE ANZR: NENC GVZR: 01:47:54 Pbzzragf:  ** YBV frnepu pbzcyrgrq ng 08/13/12 01:45:25 JO YNARF .. RNFG BS ZZ 317 ERD FGENFOHET FGNAQOL SBE NYF SBE OLREF SVER EBYYBIRE IRU .. 1 CGL CVAARQ .. 1 RWRPGRQ PUBCCRE BA TEBHAQ FGNAQ OL CRE GVSSNAL .. NENC PBHAGL 800 NXA -- GBAR ORAA -- NYF HANINVY 711 ERD ORAA FGNEG GBARQ 900 ZRQ71 RAEG BA OLREF CEVZ ERD GBAR SBE QEVIRE 2AQ GBARF SBE QEVIRE 958 V / F 711 JVYY UNIR PBZZNAQ NVEYVSR VF NVEOBEA FGNAQOL JVYY OR YNAQVAT FGNP Q 711 -- 2AQ EBYYBIRE NPPVQRAG UNYS ZVYR NJNL PEK ... 1 1 / 2 ZVYR NZO701 RAEG GB 711 YBPNGVBA ARRQ RKGEVPNGVBA NAQ NA NYF NZO ** Pebff Ersreraprq gb Rirag # OSQ12000590 ng: 08/13/12 01:45:25 ** >>>> ol: WRAAVSRE JNGGF ba grezvany: qc9 ARRQ 2 NYF NZO GBARQ 800 NZO81 - RAEG NYF K 3 OLREF-- ARRQ 2 NZO GB ERFCBAQ NYF FNLVAT GURL ARRQ NYY NZO NINVY NZO81 - 2AQ GBARF SBE NPPVQRAG\e\a\e\a\e\a
+[VCF V/Cntr Abgvsvpngvba] V 70 JO/ZZ 317 01:47:54 GLCR PBQR: FGNAQOL PNYYRE ANZR: NENC GVZR: 01:47:54 Pbzzragf:  ** YBV frnepu pbzcyrgrq ng 08/13/12 01:45:25 JO YNARF .. RNFG BS ZZ 317 ERD FGENFOHET FGNAQOL SBE NYF SBE OLREF SVER EBYYBIRE IRU .. 1 CGL CVAARQ .. 1 RWRPGRQ PUBCCRE BA TEBHAQ FGNAQ OL CRE GVSSNAL .. NENC PBHAGL 800 NXA -- GBAR ORAA -- NYF HANINVY 711 ERD ORAA FGNEG GBARQ 900 ZRQ71 RAEG BA OLREF CEVZ ERD GBAR SBE QEVIRE 2AQ GBARF SBE QEVIRE 958 V / F 711 JVYY UNIR PBZZNAQ NVEYVSR VF NVEOBEA FGNAQOL JVYY OR YNAQVAT FGNP Q 711 -- 2AQ EBYYBIRE NPPVQRAG UNYS ZVYR NJNL PEK ... 1 1 / 2 ZVYR NZO701 RAEG GB 711 YBPNGVBA ARRQ RKGEVPNGVBA NAQ NA NYF NZO ** Pebff Ersreraprq gb Rirag # OSQ12000590 ng: 08/13/12 01:45:25 ** >>>> ol: WRAAVSRE JNGGF ba grezvany: qc9 ARRQ 2 NYF NZO GBARQ 800 NZO81 - RAEG NYF K 3 OLREF-- ARRQ 2 NZO GB ERFCBAQ NYF FNLVAT GURL ARRQ NYY NZO NINVY NZO81 - 2AQ GBARF SBE NPPVQRAG
 
  */
 
@@ -138,7 +131,17 @@ choyvp pynff PBNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:jbexvat sver",
         "VASB:gunaxf - nqpbz");
 
-    
+    qbGrfg("G12",
+        "Fhowrpg:VCF V/Cntr Abgvsvpngvba\a" +
+        "258 F 12GU NIR NQNZ OCQ 17:29:04 GLCR PBQR: FGEHPG PNYYRE ANZR: OREANQVAR GVZR: 17:29:04 Pbzzragf:  EC OHE",
+
+        "NQQE:258 F 12GU NIR",
+        "PVGL:OEVTUGBA",
+        "PNYY:FGEHPG",
+        "ANZR:OREANQVAR",
+        "GVZR:17:29:04",
+        "VASB:EC OHE");
+  
   }
   
   @Grfg
