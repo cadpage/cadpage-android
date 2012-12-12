@@ -436,7 +436,7 @@ public abstract class MsgParser {
   * @return Array of data fields broken up by defined keywords
   */
  protected static String[] parseMessageFields(String body, String[] keyWords) {
-   return parseMessageFields(body, keyWords, ':');
+   return parseMessageFields(body, keyWords, ':', false, false);
  }
  
  /** 
@@ -445,21 +445,25 @@ public abstract class MsgParser {
   * @param body message body to be parsed
   * @param keyWords list of expected keywords
   * @param breakChar character that marks the end of all keywords
+  * @param anyOrder true if if keywords can occur in any order
+  * @param ignoreCase true if case should be ignored when comparing keywords
   * @return Array of data fields broken up by defined keywords
   */
- protected static String[] parseMessageFields(String body, String[] keyWords, char breakChar) {
+ protected static String[] parseMessageFields(String body, String[] keyWords, 
+                                                char breakChar, boolean anyOrder, boolean ignoreCase) {
    
    List<String> fields = new ArrayList<String>();
    int iKey = -1;  // Current key table pointer
    int iStartPt = 0;   // current data field start index
    int iColonPt = iStartPt;
+   int iNxtKey;
    
    // Loop processing each keyword found
    do {
      
      // Start searching for the next keyword starting at the current data field
      int iEndPt = -1;
-     int iNxtKey = -1;
+     iNxtKey = -1;
      
      // This loop checks each break characters looking for one that
      // matches an available keyword
@@ -484,7 +488,9 @@ public abstract class MsgParser {
            char chr = body.charAt(iTempPt-1);
            if (!Character.isWhitespace(chr)) continue;
          }
-         if (!body.substring(iTempPt,ipt).equals(key)) continue;
+         String keyword = body.substring(iTempPt, ipt);
+         if (ignoreCase) keyword = keyword.toUpperCase();
+         if (!keyword.equals(key)) continue;
          iNxtKey = ndx;
          iEndPt = iTempPt;
          break;
@@ -532,9 +538,9 @@ public abstract class MsgParser {
      // Save current field and get ready to start looking for the
      // end of the next keyword
      if (iEndPt > 0) fields.add(body.substring(iStartPt, iEndPt).trim());
-     iKey = iNxtKey;
+     if (!anyOrder) iKey = iNxtKey;
      iStartPt = iEndPt;
-   } while (iKey >= 0);
+   } while (iNxtKey >= 0);
    
    return fields.toArray(new String[fields.size()]);
  }

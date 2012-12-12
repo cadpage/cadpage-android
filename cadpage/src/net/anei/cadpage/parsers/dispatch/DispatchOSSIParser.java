@@ -88,7 +88,7 @@ public class DispatchOSSIParser extends FieldProgramParser {
       dateTimeReq = true;
       program = program.substring(0,program.length()-10);
     }
-    setProgram(program);
+    setProgram(program, 0);
   }
   
   protected void setDelimiter(char delim) {

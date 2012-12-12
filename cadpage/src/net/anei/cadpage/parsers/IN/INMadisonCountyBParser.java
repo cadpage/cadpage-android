@@ -12,7 +12,8 @@ public class INMadisonCountyBParser extends FieldProgramParser {
   
   public INMadisonCountyBParser() {
     super("MADISON COUNTY", "IN",
-          "( Call_Type:CALL! ( Nature:INFO! Units:UNIT! Call_#:ID! Call_Date/Time:DATETIME! Priority:PRI! Common_Name:PLACE! Address:ADDRCITY! Intersection:X City:CITY Units:UNIT! Info:SKIP! Narr:INFO! Beat:MAP2! Quadrant:MAP1! District:SKIP! Source:SKIP! | ADDRESS:ADDRCITY! UNITS:UNIT INFO:INFO ) | Units:UNIT Call_Type:CALL! Address:ADDRCITY! Info:INFO )");
+          "Call_Type:CALL! Address:ADDRCITY! Units:UNIT! Nature:INFO Info:INFO Narr:INFO Call_#:ID Call_Date/Time:DATETIME Priority:PRI Common_Name:PLACE Intersection:X City:CITY Beat:MAP2 Quadrant:MAP1 District:SKIP Source:SKIP",
+          FLDPROG_ANY_ORDER | FLDPROG_IGNORE_CASE);
   }
   
   @Override
@@ -46,6 +47,14 @@ public class INMadisonCountyBParser extends FieldProgramParser {
     }
   }
   
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals(data.strSupp)) return;
+      super.parse(field, data);
+    }
+  }
+  
   private class MyMap1Field extends MyMapField {
     @Override
     public void parse(String field, Data data) {
@@ -71,6 +80,7 @@ public class INMadisonCountyBParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM:dd:yyyy hh:mm:ss aa"));
+    if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("MAP1")) return new MyMap1Field();
     if (name.equals("MAP2")) return new MyMap2Field();
     return super.getField(name);

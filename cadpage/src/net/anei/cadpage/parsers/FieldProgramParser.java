@@ -4,7 +4,9 @@ import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -151,6 +153,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class FieldProgramParser extends SmartAddressParser {
   
+  // Flag indicating fields can occur in any order
+  // Field keywords are required to keep things straight
+  public static final int FLDPROG_ANY_ORDER = 1;
+  
+  // Flag indicating that keyword matches do not have to match case
+  public static final int FLDPROG_IGNORE_CASE = 2;
+  
   // list of cities
   private Set<String> cities = null;
   
@@ -172,6 +181,14 @@ public class FieldProgramParser extends SmartAddressParser {
   // Character used to terminate keywords
   private char breakChar = ':';
   
+  // Fields can occur in any order
+  private boolean anyOrder;
+  
+  // Case should be ignored when comparing keywords
+  private boolean ignoreCase;
+  
+  private Map<String, Step> keywordMap = null;
+  
   public static String setExpectFlag(String program, String fldTerm) {
     if (fldTerm == null) return program;
     int pt = program.indexOf(fldTerm);
@@ -183,25 +200,48 @@ public class FieldProgramParser extends SmartAddressParser {
   public FieldProgramParser(String[] cities, String defCity, String defState, String programStr) {
     super(cities, defCity, defState);
     if (cities != null) this.cities = new HashSet<String>(Arrays.asList(cities));;
-    setProgram(programStr);
+    setProgram(programStr, 0);
+  }
+  
+  public FieldProgramParser(String[] cities, String defCity, String defState, String programStr, int flags) {
+    super(cities, defCity, defState);
+    if (cities != null) this.cities = new HashSet<String>(Arrays.asList(cities));;
+    setProgram(programStr, flags);
   }
   
   public FieldProgramParser(Properties cityCodes, String defCity, String defState, String programStr) {
     super(cityCodes, defCity, defState);
     this.cityCodes = cityCodes;
-    setProgram(programStr);
+    setProgram(programStr, 0);
+  }
+  
+  public FieldProgramParser(Properties cityCodes, String defCity, String defState, String programStr, int flags) {
+    super(cityCodes, defCity, defState);
+    this.cityCodes = cityCodes;
+    setProgram(programStr, flags);
   }
   
   public FieldProgramParser(String defCity, String defState, String programStr) {
     super(defCity, defState);
-    setProgram(programStr);
+    setProgram(programStr, 0);
+  }
+  
+  public FieldProgramParser(String defCity, String defState, String programStr, int flags) {
+    super(defCity, defState);
+    setProgram(programStr, flags);
   }
   
   public FieldProgramParser(String[] cities, String defCity, String defState, CountryCode country, 
-                             String programStr) {
+      String programStr) {
+    super(cities, defCity, defState, country);
+    setProgram(programStr, 0);
+  }
+  
+  public FieldProgramParser(String[] cities, String defCity, String defState, CountryCode country, 
+                             String programStr, int flags) {
     super(cities, defCity, defState, country);
     this.cities = new HashSet<String>(Arrays.asList(cities));;
-    setProgram(programStr);
+    setProgram(programStr, flags);
   }
   
   /**
@@ -225,8 +265,11 @@ public class FieldProgramParser extends SmartAddressParser {
    * @param programStr program string to be compiled
    */
   private static final Pattern TAG_PTN = Pattern.compile("([^ :]+):");
-  protected void setProgram(String program) {
+  protected void setProgram(String program, int flags) {
     
+    anyOrder = (flags & FLDPROG_ANY_ORDER) != 0;
+    ignoreCase = (flags & FLDPROG_IGNORE_CASE) != 0;
+
     if (program == null) return;
     
     parseTags = false;
@@ -248,9 +291,21 @@ public class FieldProgramParser extends SmartAddressParser {
       List<String> tags = new ArrayList<String>();
       Matcher match = TAG_PTN.matcher(program);
       while (match.find()) {
-        tags.add(match.group(1).replace('_', ' '));;
+        String key = match.group(1).replace('_', ' ');
+        if (ignoreCase) key = key.toUpperCase();
+        tags.add(key);
       }
       tagList = tags.toArray(new String[tags.size()]);
+    }
+    
+    // If we are processing fields in any order, build a keyword > Field
+    if (anyOrder) {
+      keywordMap = new LinkedHashMap<String, Step>();
+      for (Step step = startLink.getStep(); step != null; step = step.nextStep) {
+        if (step.tag != null && step.field != null) {
+          keywordMap.put(step.tag, step);
+        }
+      }
     }
   }
   
@@ -284,6 +339,13 @@ public class FieldProgramParser extends SmartAddressParser {
     // and program step that will be used.
     for (int ndx = 0; ndx < fieldTerms.length; ndx++) {
       FieldTermInfo info = new FieldTermInfo(fieldTerms[ndx], breakChar);
+      if (anyOrder) {
+        if (info.tag == null) throw new RuntimeException("Any order fields must have a keyword: " + fieldTerms[ndx]);
+        if (info.optional) {
+          throw new RuntimeException("Any order parsers do not support optional fields:" + fieldTerms[ndx]);
+        }
+      }
+      if (ignoreCase & info.tag != null) info.tag = info.tag.toUpperCase(); 
       infoList[ndx] = info;
       Field field = null;
       if (!info.branch){ 
@@ -559,7 +621,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * @param programStr program string to be compiled
    * @return list of program terms from program string
    */
-  private static String[] tokenize(String programStr) {
+  private String[] tokenize(String programStr) {
     
     // Initialize stuff
     List<String> tokenList = new ArrayList<String>();
@@ -579,6 +641,7 @@ public class FieldProgramParser extends SmartAddressParser {
         // Check for open paren.  If we find one, crate a StringBuilder and 
         // save it there
         if (token.equals("(")) {
+          if (anyOrder) throw new RuntimeException("Conditional branches not allowed in any order parsers");
           sb = new StringBuilder(token);
           level++;
         }
@@ -738,7 +801,7 @@ public class FieldProgramParser extends SmartAddressParser {
       throw new RuntimeException("FieldProgramParser cannot parse message without tag definitions");
     }
     
-    String[] fields = parseMessageFields(body, tagList, breakChar);
+    String[] fields = parseMessageFields(body, tagList, breakChar, anyOrder, ignoreCase);
     return parseFields(fields, data);
   }
   
@@ -764,6 +827,49 @@ public class FieldProgramParser extends SmartAddressParser {
    * @return true if parsing was successful
    */
   protected boolean parseFields(String[] fields, Data data) {
+    
+    // If we are running in any field order mode, things get a lot easier
+    if (anyOrder) {
+      
+      // Clear the checked flags for all steps
+      for (Step step : keywordMap.values()) step.checked = false;
+      
+      // Loop through all of the fields
+      for (String field : fields) {
+        
+        // Break field into keyword and value
+        int pt = field.indexOf(breakChar);
+        if (pt < 0) return false;
+        
+        // Get the field associated with this keyword
+        String tag = field.substring(0, pt).trim();
+        if (ignoreCase) tag = tag.toUpperCase();
+        String value = field.substring(pt+1).trim();
+        Step step = keywordMap.get(tag);
+        if (step == null) return false;
+        
+        // Flag step as processed
+        step.checked = true;
+        
+        // and use it to process this value
+        if (step.field != null) {
+          try {
+            step.field.parse(value, data);
+          } catch (FieldProgramException ex) {
+            return false;
+          }
+        }
+      }
+      
+      // Make another pass checking that all required fields have been entered
+      for (Step step : keywordMap.values()) {
+        if (!step.checked && step.required != EReqStatus.NORMAL) {
+          if (step.required == EReqStatus.REQUIRED) return false; 
+          data.expectMore = true;
+        }
+      }
+      return true;
+    }
     
     State state = new State();
     if (state.link(startLink)) return false;
@@ -1010,7 +1116,7 @@ public class FieldProgramParser extends SmartAddressParser {
           return state.link(failLink);
         } 
         
-        // Otherwise we are finsished
+        // Otherwise we are finished
         return true;
       }
       
@@ -1033,6 +1139,7 @@ public class FieldProgramParser extends SmartAddressParser {
           int pt = curFld.indexOf(breakChar);
           if (pt >= 0) {
             curTag = curFld.substring(0, pt).trim();
+            if (ignoreCase) curTag = curTag.toUpperCase();
             curVal = curFld.substring(pt+1).trim();
           }
           
