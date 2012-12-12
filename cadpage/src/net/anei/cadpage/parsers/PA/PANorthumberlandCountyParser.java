@@ -25,6 +25,9 @@ public class PANorthumberlandCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (body.startsWith("desc ")) body = body.substring(5).trim();
+    int pt = body.indexOf("\nSent by the Northumberland County");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    body = body.replace('\n', ' ');
     return parseFields(DELIM.split(body), data);
   }
   

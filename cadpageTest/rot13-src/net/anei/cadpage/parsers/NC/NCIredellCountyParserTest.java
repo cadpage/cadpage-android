@@ -37,6 +37,11 @@ choyvp pynff APVerqryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgOnqZft() {
+    qbOnqGrfg("Vs lbh pna, V'yy unir fbzrguvat cynaarq. Ab cerffher, ohg ubhef ner ninvynoyr, rira ba gur jrrxraq vs vagrerfgrq. Yrg zr xabj.");
+  }
+  
+  @Grfg
   choyvp ibvq grfgCnefre() {
 
     qbGrfg("G1",

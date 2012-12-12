@@ -24,6 +24,15 @@ F NAGUENPVGR FG & J UVTU FG * FUN * SVER - OEHFU * Qvfcngpu: SC 80,RAT 41,OE 153
 
 *QB ABG VAFREG OYNAX ORGJRRA ZRFFNTRF!!
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Abeguhzoreynaq Sver Qrcnegzrag
+Ybpngvba: Abeguhzoreynaq, CN, Havgrq Fgngrf
+Fraqre: @abeguhzoreynaq.nyregcn.bet
+
+(AbeelPNQ) 58 ARVGM EQ * CBV * NSN - AHEFVAT UBZR * Qvfcngpu: RAT 741,ERF 735,PU 742,NG 749,FD 746,ZVPH 91,FD 747,RAT 742,PU 741\e\aZVPH 91,ERF 735,RAT 741,RAT 742\a\aFrag ol gur Abeguhzoreynaq Pbhagl Qrcnegzrag bs Choyvp Fnsrgl gb FG732 \e\a\e\aGryy n sevraq/pb-jbexre nobhg Abeguhzoreynaq Pbhagl naq unir gurz ertvfgre sbe guvf serr freivpr ng uggcf://abeguhzoreynaq.nyregcn.bet.\e\a\e
+(Abegu'q Pbhagl Grfg gb AUY Zrzoref) Grfg #3 - Ab arrq gb erfcbaq. Gunax lbh sbe lbhe cngvrapr\a\aFrag ol gur Abeguhzoreynaq Pbhagl Qrcnegzrag bs Choyvp Fnsrgl gb Abeguhzoreynaq Ubbx & Ynqqre \e\a\e\aGryy n sevraq/pb-jbexre nobhg Abeguhzoreynaq Pbhagl naq unir gurz ertvfgre sbe guvf serr freivpr ng uggcf://abeguhzoreynaq.nyregcn.bet.\e\a\e
+(Grfg sbe AUY Zrzroref) Grfg # 2 sbe AUY Zrzoref\a\aFrag ol gur Abeguhzoreynaq Pbhagl Qrcnegzrag bs Choyvp Fnsrgl gb Abeguhzoreynaq Ubbx & Ynqqre \e\a\e\aGryy n sevraq/pb-jbexre nobhg Abeguhzoreynaq Pbhagl naq unir gurz ertvfgre sbe guvf serr freivpr ng uggcf://abeguhzoreynaq.nyregcn.bet.\e\a\e
+(grfg) grfg\a\aFrag ol gur Abeguhzoreynaq Pbhagl Qrcnegzrag bs Choyvp Fnsrgl gb Abeguhzoreynaq Ubbx & Ynqqre \e\a\e\aGryy n sevraq/pb-jbexre nobhg Abeguhzoreynaq Pbhagl naq unir gurz ertvfgre sbe guvf serr freivpr ng uggcf://abeguhzoreynaq.nyregcn.bet.\e\a\e
 
  */
 
@@ -107,6 +116,24 @@ choyvp pynff CNAbeguhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PNEOBA ZBABKVQR VAPVQRAG",
         "HAVG:RAT 741,ERF 735,PU 742,NG 749,FD 746,ZVPH 91,FD 747,RAT 742,PU 741");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgAbeguhzoreynaqSver() {
+
+    qbGrfg("G1",
+        "(AbeelPNQ) 58 ARVGM EQ * CBV * NSN - AHEFVAT UBZR * Qvfcngpu: RAT 741,ERF 735,PU 742,NG 749,FD 746,ZVPH 91,FD 747,RAT 742,PU 741\e\a" +
+        "ZVPH 91,ERF 735,RAT 741,RAT 742\a\a" +
+        "Frag ol gur Abeguhzoreynaq Pbhagl Qrcnegzrag bs Choyvp Fnsrgl gb FG732 \e\a" +
+        "\e\a" +
+        "Gryy n sevraq/pb-jbexre nobhg Abeguhzoreynaq Pbhagl naq unir gurz ertvfgre sbe guvf serr freivpr ng uggcf://abeguhzoreynaq.nyregcn.bet.\e\a" +
+        "\e",
+
+        "NQQE:58 ARVGM EQ",
+        "PVGL:CBVAG GJC",
+        "PNYY:NSN - AHEFVAT UBZR",
+        "HAVG:RAT 741,ERF 735,PU 742,NG 749,FD 746,ZVPH 91,FD 747,RAT 742,PU 741 ZVPH 91,ERF 735,RAT 741,RAT 742");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
