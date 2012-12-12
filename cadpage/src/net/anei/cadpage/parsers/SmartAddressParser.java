@@ -603,8 +603,13 @@ public abstract class SmartAddressParser extends MsgParser {
     setTokenTypes(sType, address, result);
     
     // If we are looking for a city and nothing else, parseToCity can find it
+    // If the city has to start and end the field, check that that start index is zero
     if (isFlagSet(FLAG_ONLY_CITY) && ! isFlagSet(FLAG_ONLY_CROSS)) {
-      if (parseStartToCity(0, result)) result.status = 4;
+      if (parseStartToCity(0, result)) {
+        if (sType != StartType.START_ADDR || result.cityField.fldStart == 0) {
+          result.status = 4;
+        }
+      }
       return result;
     }
     

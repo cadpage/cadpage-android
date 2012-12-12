@@ -4540,6 +4540,7 @@ public class ZAUNewSouthWalesParser extends GroupBestParser {
     "WINGHAM",
     "WINIFRED",
     "WINMALEE",
+    "WINMALLEE",       // Mispelled :(
     "WINSTON HILLS",
     "WINTON",
     "WIRLINGA",

@@ -47,7 +47,6 @@ Fraqre: TPRPN@pnyy3a.pbz,@rireoevqtr.arg
 (PNQ Cntr) SFzbxr Purpx Ybpngvba  PBEQ 250 PBEQ 237 M2 2012 00000431     
 (PNQ Cntr) SFzbxr Purpx Ybpngvba  F J BS WBYYRL ZRFN M2 2012 00000433     
 (PNQ Cntr) SOehfu Ybpngvba  SBERFG FREIVPR EQ 603 M2 2012 00000434
-     
 (PNQ Cntr) RFvpx Haxabja Ybpngvba  SBERFG EQ 603 M2 2012 00000435     
 (PNQ Cntr) RBireqbfr Cbvfbavat Ybpngvba  120 F  R NIR AP 2012 00000436     
 (PNQ Cntr) STnf Yrnx Ybpngvba  386 J ZNVA FG 7 AP 2012 00000437     
@@ -118,6 +117,7 @@ Fraqre: "TPRPN@pnyy3a.pbz" <pbas-1484753723@rireoevqtr.arg>
 {[1/1] PNQ Cntr} 1/1\e\a\e\aSIruvpyr Sver Ybpngvba  81 J V70M3 2012 00000569     
 {[1/1] PNQ Cntr} 1/1\e\a\e\aRPurfg Cnva Ybpngvba  Fgnyyvba Bvysvryq Freivprf16605 HFUL 6 M3 2012 00000568     
 {[1/1] PNQ Cntr} 1/1\e\a\e\aSNynez Ybpngvba  854 J ONGGYRZRAG CXJL T208 M3 2012 00000567     
+{[1/1] PNQ Cntr} 1/1\e\a\e\aRFvpx Haxabja Ybpngvba  Zrfn Ivfgn Nffvfgrq Yvivat72 FVCCERYYR QE 6 M3
 
  */
 choyvp pynff PBTnesvryqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -851,7 +851,14 @@ choyvp pynff PBTnesvryqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:854 J ONGGYRZRAG CXJL T208",
         "ZNC:M3",
         "VQ:2012 00000567");
-   
+
+    qbGrfg("G25",
+        "{[1/1] PNQ Cntr} 1/1\e\a\e\aRFvpx Haxabja Ybpngvba  Zrfn Ivfgn Nffvfgrq Yvivat72 FVCCERYYR QE 6 M3",
+        "PNYY:RFvpx Haxabja",
+        "CYNPR:Zrfn Ivfgn Nffvfgrq Yvivat",
+        "NQQE:72 FVCCERYYR QE 6",
+        "ZNC:M3");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

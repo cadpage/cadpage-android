@@ -198,21 +198,15 @@ public class FieldProgramParser extends SmartAddressParser {
   }
   
   public FieldProgramParser(String[] cities, String defCity, String defState, String programStr) {
-    super(cities, defCity, defState);
-    if (cities != null) this.cities = new HashSet<String>(Arrays.asList(cities));;
-    setProgram(programStr, 0);
+    this(cities, defCity, defState, CountryCode.US, programStr, 0);
   }
   
   public FieldProgramParser(String[] cities, String defCity, String defState, String programStr, int flags) {
-    super(cities, defCity, defState);
-    if (cities != null) this.cities = new HashSet<String>(Arrays.asList(cities));;
-    setProgram(programStr, flags);
+    this(cities, defCity, defState, CountryCode.US, programStr, flags);
   }
   
   public FieldProgramParser(Properties cityCodes, String defCity, String defState, String programStr) {
-    super(cityCodes, defCity, defState);
-    this.cityCodes = cityCodes;
-    setProgram(programStr, 0);
+    this(cityCodes, defCity, defState, programStr, 0);
   }
   
   public FieldProgramParser(Properties cityCodes, String defCity, String defState, String programStr, int flags) {
@@ -231,16 +225,14 @@ public class FieldProgramParser extends SmartAddressParser {
     setProgram(programStr, flags);
   }
   
-  public FieldProgramParser(String[] cities, String defCity, String defState, CountryCode country, 
-      String programStr) {
-    super(cities, defCity, defState, country);
-    setProgram(programStr, 0);
+  public FieldProgramParser(String[] cities, String defCity, String defState, CountryCode country, String programStr) {
+    this(cities, defCity, defState, country, programStr, 0);
   }
   
   public FieldProgramParser(String[] cities, String defCity, String defState, CountryCode country, 
                              String programStr, int flags) {
     super(cities, defCity, defState, country);
-    this.cities = new HashSet<String>(Arrays.asList(cities));;
+    if (cities != null) this.cities = new HashSet<String>(Arrays.asList(cities));;
     setProgram(programStr, flags);
   }
   

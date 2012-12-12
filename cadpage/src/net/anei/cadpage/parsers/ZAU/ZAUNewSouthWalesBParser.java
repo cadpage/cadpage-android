@@ -11,7 +11,10 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class ZAUNewSouthWalesBParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(\\d\\d [A-Z][a-z]+ \\d{4} \\d\\d:\\d\\d:\\d\\d) (?:INCIDENT CALL (?:([A-Z]+) )?-)? RESPOND TO (.*)");
+  private static final Pattern DATE_TIME_MARKER = Pattern.compile("^(\\d\\d [A-Z][a-z]+ \\d{4} \\d\\d:\\d\\d:\\d\\d) ");
+  private static final Pattern INCIDENT_CALL_PTN = Pattern.compile("^(?:INCIDENT CALL(?: ([A-Z]+);?)?)? ");
+  private static final Pattern RESPOND_TO_PTN = Pattern.compile("^(?:- )?RESPOND TO ");
+  private static final Pattern TRAIL_DATE_PTN = Pattern.compile("\\. *[\\d/]*$");
   private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("dd MMMMMMMM yyyy HH:mm:ss");
 
   public ZAUNewSouthWalesBParser() {
@@ -25,12 +28,34 @@ public class ZAUNewSouthWalesBParser extends SmartAddressParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    Matcher match = MASTER.matcher(body);
+    Matcher match = DATE_TIME_MARKER.matcher(body);
     if (!match.find()) return false;
     setDateTime(DATE_TIME_FMT, match.group(1), data);
-    data.strSource = getOptGroup(match.group(2));
-    String addr = match.group(3);
-    if (addr.endsWith(".")) addr = addr.substring(0,addr.length()-1).trim();
+    body = body.substring(match.end());   // Not calling trim - leading space needs to be retained
+    
+    // There are two different optional keywords, at least one must be present
+    // INCIDENT CALL 
+    match = INCIDENT_CALL_PTN.matcher(body);
+    if (!match.find()) {
+      data.strCall = "GENERAL ALERT";
+      data.strPlace = body;
+    }
+    
+    data.strSource = getOptGroup(match.group(1));
+    boolean good = match.group().length() > 1;
+    String addr = body.substring(match.end());
+    
+    // and - RESPOND TO
+    match = RESPOND_TO_PTN.matcher(addr);
+    if (match.find()) {
+      good = true;
+      addr = addr.substring(match.end()).trim();
+    } 
+    else if (addr.startsWith("-")) addr = addr.substring(1).trim();
+    
+    match = TRAIL_DATE_PTN.matcher(addr);
+    if (match.find()) addr = addr.substring(0,match.start()).trim();
+    
     Parser p = new Parser(addr.replace(" X ", " & "));
     addr = p.getLastOptional(',');
     String city = null;
@@ -43,7 +68,7 @@ public class ZAUNewSouthWalesBParser extends SmartAddressParser {
     
     if (addr.length() > 0) {
       data.strCall = p.get();
-      parseAddress(addr, data);
+      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, addr, data);
     }
     
     else {
@@ -51,7 +76,11 @@ public class ZAUNewSouthWalesBParser extends SmartAddressParser {
     }
     
     if (city != null) data.strCity = city;
+    if (data.strCity.equals("WINMALLEE")) data.strCity = "WINMALEE";
     
+    if (good) return true;
+    data.strCall = "GENERAL ALERT";
+    data.strPlace = body;
     return true;
   }
 }
