@@ -29,7 +29,7 @@ public class NYNassauCountyDParser extends FieldProgramParser {
     // Call description is in front of text bracketed by three asterisks
     int pt1 = body.indexOf("***");
     if (pt1 < 0) return false;
-    int pt2 = body.indexOf("*** ", pt1+2);
+    int pt2 = body.indexOf("*** ", pt1+3);
     if (pt2 < 0) return false;
     data.strCall = append(body.substring(0,pt1).trim(), " / ", body.substring(pt1+3, pt2).trim());
     
