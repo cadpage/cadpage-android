@@ -52,7 +52,7 @@ public class CTGrotonParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern SRC_CROSS_PTN = Pattern.compile("STA ([A-Z]+) XS(?: (.*))?");
+  private static final Pattern SRC_CROSS_PTN = Pattern.compile("STA ([A-Z0-9]+) XS(?: (.*))?");
   private class SourceCrossField extends Field {
     @Override
     public void parse(String field, Data data) {
