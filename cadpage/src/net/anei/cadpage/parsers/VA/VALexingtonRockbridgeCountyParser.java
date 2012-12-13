@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.VA;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,8 +13,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class VALexingtonRockbridgeCountyParser extends FieldProgramParser {
   
   private static final Pattern DATE_TIME_PTN = 
-    Pattern.compile(" \\d{1,2}/\\d{1,2}/\\d{4} \\d{1,2}:\\d{2}:\\d{2} [A-P]M ");
+    Pattern.compile(" (\\d{1,2}/\\d{1,2}/\\d{4}) (\\d{1,2}:\\d{2}:\\d{2} [A-P]M)\\b");
   private static final Pattern SQ_BRACKETS_PTN = Pattern.compile(" *\\[.*\\] *");
+  private static DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
   
   public VALexingtonRockbridgeCountyParser() {
     super("", "VA",
@@ -33,6 +36,8 @@ public class VALexingtonRockbridgeCountyParser extends FieldProgramParser {
     
     Matcher match = DATE_TIME_PTN.matcher(body);
     if (!match.find()) return false;
+    data.strDate = match.group(1);
+    setTime(TIME_FMT,match.group(2), data);
     String extra = body.substring(match.end()).trim();
     body = body.substring(0,match.start());
     
@@ -67,6 +72,6 @@ public class VALexingtonRockbridgeCountyParser extends FieldProgramParser {
 
   @Override
   public String getProgram() {
-    return super.getProgram() + " PLACE INFO";
+    return super.getProgram() + " DATE TIME PLACE INFO";
   }
 }

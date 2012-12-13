@@ -84,7 +84,8 @@ public class Message {
     Pattern.compile("^(\\d)/(\\d)(?!\\d)"),
     Pattern.compile("^(\\d)/(\\d)"),  // This one is scarry !!!
     Pattern.compile("\\[(\\d) of (\\d)\\]$"),
-    Pattern.compile(":(\\d)of(\\d)$")
+    Pattern.compile(":(\\d)of(\\d)$"),
+    Pattern.compile("^[A-Z]+ +\\((\\d)/(\\d)\\) +(.*?) +STOP$")
   };
   private static final Pattern[] SUBJECT_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(\\d)/(\\d)$")
@@ -154,13 +155,15 @@ public class Message {
         if (found) break;
       }
       if (found) {
+        boolean pinned = (match.start() == 0 && match.end() == body.length());
         int ndx = 1;
-        if (match.groupCount() == 3) {
+        if (!pinned && match.groupCount() == 3) {
           parseAddress = match.group(ndx++);
         }
         msgIndex = Integer.parseInt(match.group(ndx++));
         msgCount = Integer.parseInt(match.group(ndx++));
-        if (match.start() == 0) body = trimLead(body.substring(match.end()));
+        if (pinned) body = match.group(ndx);
+        else if (match.start() == 0) body = trimLead(body.substring(match.end()));
         else body = trimLead(body.substring(0,match.start()));
       } else {
         if (body.startsWith("/ ")) body = trimLead(body.substring(2));
