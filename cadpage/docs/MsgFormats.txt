@@ -5038,3 +5038,4575 @@ Sender: CSOCallComplete@MCSONJ.ORG
 **********************************************************
 * EOF
 **********************************************************
+
+Agency name: Jacobstown Fire Company
+Location: Wrightstown, NJ, United States
+Contact: Active911
+Sender: messaging@iamresponding.com
+
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000206                    ORI: 03461         Station:  \r\n
+Incident Type  . :   17 F Fumes                Priority: 1  \r\n
+Incident Location: 400 WRIGHTSTOWN SYKESVILLE RD                        Venue: N Hanover  \r\n
+Common Name. . . : RICHARDSONS FLORIST (VACANT) \r\n
+\r\n
+Call Time- 14:26:45                                Date- 12/12/2012  \r\n
+Dispatch - 14:28:38     En-route- 14:35:59     On-scene- 14:41:12     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 15:19:07 \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : STA 460 \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC307  \r\n
+ 03411       F411                 03411       F4112  \r\n
+ 03461       F461                 03461       F4612  \r\n
+ 03461       F4618                E468        E468 \r\n
+\r\n
+Nature of Call : DEMO IN PROGRESS//HIT A GAS LINE \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:29:09     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:30:04     ENR: 12/12/12  14:30:07  \r\n
+       ARV: 12/12/12  14:36:56     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/12/12  14:53:16  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:28:38     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/12/12  14:37:45  \r\n
+    Unit: F411    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:28:38     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F4112   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:36:12     ENR: 12/12/12  14:36:14  \r\n
+       ARV: 12/12/12  14:38:35     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/12/12  14:51:56  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:28:38     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/12/12  14:35:56  \r\n
+    Unit: F4612   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:35:56     ENR: 12/12/12  14:35:59  \r\n
+       ARV: 12/12/12  14:41:12     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/12/12  15:19:07  \r\n
+    Unit: F4618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:58:46     ENR: 12/12/12  14:58:49  \r\n
+       ARV: 12/12/12  15:03:37     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/12/12  15:19:07  \r\n
+ JCPL NOTIFIED /REF#328114898                                 14:33:24  \r\n
+ PD CONFIRM STRONG ODOR//                                     14:34:35  \r\n
+ PSEG ADVSD                                                   14:34:39  \r\n
+ JCPL CANCLED PS GAS ONLY /                                   14:35:41  \r\n
+ F4100 REQUEST WIND DIRECTION/SPEED / NWS REPORTS W @ 6MPH    14:53:11  \r\n
+ F4602 ADVS PS ON LOCTN//                                     14:56:46 \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is WOODS STEPHEN J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000668                    ORI: E468          Station:  \r\n
+Incident Type  . :   17 F Fumes                Priority: 1  \r\n
+Incident Location: 400 WRIGHTSTOWN SYKESVILLE RD                        Venue: N Hanover  \r\n
+Common Name. . . : RICHARDSONS FLORIST (VACANT) \r\n
+\r\n
+Call Time- 14:26:45                                Date- 12/12/2012  \r\n
+Dispatch - 14:28:38     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 14:37:45 \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : STA 460 \r\n
+\r\n
+Nature of Call : DEMO IN PROGRESS//HIT A GAS LINE \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:29:09     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:30:04     ENR: 12/12/12  14:30:07  \r\n
+       ARV: 12/12/12  14:36:56     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/12/12  14:53:16  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:28:38     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/12/12  14:37:45  \r\n
+    Unit: F411    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:28:38     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F4112   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:36:12     ENR: 12/12/12  14:36:14  \r\n
+       ARV: 12/12/12  14:38:35     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/12/12  14:51:56  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:28:38     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/12/12  14:35:56  \r\n
+    Unit: F4612   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:35:56     ENR: 12/12/12  14:35:59  \r\n
+       ARV: 12/12/12  14:41:12     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/12/12  15:19:07  \r\n
+    Unit: F4618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/12/12  14:58:46     ENR: 12/12/12  14:58:49  \r\n
+       ARV: 12/12/12  15:03:37     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/12/12  15:19:07  \r\n
+ JCPL NOTIFIED /REF#328114898                                 14:33:24  \r\n
+ PD CONFIRM STRONG ODOR//                                     14:34:35  \r\n
+ PSEG ADVSD                                                   14:34:39  \r\n
+ JCPL CANCLED PS GAS ONLY /                                   14:35:41  \r\n
+ F4100 REQUEST WIND DIRECTION/SPEED / NWS REPORTS W @ 6MPH    14:53:11  \r\n
+ F4602 ADVS PS ON LOCTN//                                     14:56:46 \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is WOODS STEPHEN J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000206                    ORI: 03461         Station:  \r\n
+Incident Type  . :   17 F Fumes                Priority: 1  \r\n
+Incident Location: 400 WRIGHTSTOWN SYKESVILLE RD                        Venue: N Hanover  \r\n
+Located Between  : WARREN DR/CROSHAW RD  \r\n
+Common Name. . . : RICHARDSONS FLORIST (VACANT) \r\n
+\r\n
+Call Time- 14:26:45                                Date- 12/12/2012  \r\n
+Dispatch - 14:28:38     En-route- 14:35:59     On-scene- 14:41:12     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : STA 460 \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC307  \r\n
+ 03411       F411                 03411       F4112  \r\n
+ 03461       F461                 03461       F4612  \r\n
+ 03461       F4618                E468        E468 \r\n
+\r\n
+Nature of Call : DEMO IN PROGRESS//HIT A GAS LINE \r\n
+\r\n
+Narrative  \r\n
+ JCPL NOTIFIED /REF#328114898                                 14:33:24  \r\n
+ PD CONFIRM STRONG ODOR//                                     14:34:35  \r\n
+ PSEG ADVSD                                                   14:34:39  \r\n
+ JCPL CANCLED PS GAS ONLY /                                   14:35:41  \r\n
+ F4100 REQUEST WIND DIRECTION/SPEED / NWS REPORTS W @ 6MPH    14:53:11  \r\n
+ F4602 ADVS PS ON LOCTN//                                     14:56:46 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Building-GEO : Vacant Property  \r\n
+  Date of Entry:     4-22-2008 / P4608  \r\n
+  EmergCntct Nm :    DAN KNOX  \r\n
+  EmergCntct Phn:    H#609-231-3131  \r\n
+  Hazard Info:       VACANT PROPERTY OWNED BY NJ STATE AGRICULTURE \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200001012             E468        201200000668  \r\n
+ 03411       201200000207 \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is WOODS STEPHEN J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000206                    ORI: 03461         Station:  \r\n
+Incident Type  . :   17 F Fumes                Priority: 1  \r\n
+Incident Location: 400 WRIGHTSTOWN SYKESVILLE RD                        Venue: N Hanover  \r\n
+Located Between  : WARREN DR/CROSHAW RD  \r\n
+Common Name. . . : RICHARDSONS FLORIST (VACANT) \r\n
+\r\n
+Call Time- 14:26:45                                Date- 12/12/2012  \r\n
+Dispatch - 14:28:38     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : STA 460 \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC307  \r\n
+ 03411       F411                 03461       F461  \r\n
+ 03461       F4612                E468        E468 \r\n
+\r\n
+Nature of Call : DEMO IN PROGRESS//HIT A GAS LINE \r\n
+\r\n
+Narrative  \r\n
+ JCPL NOTIFIED /REF#328114898                                 14:33:24  \r\n
+ PD CONFIRM STRONG ODOR//                                     14:34:35  \r\n
+ PSEG ADVSD                                                   14:34:39  \r\n
+ JCPL CANCLED PS GAS ONLY /                                   14:35:41 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Building-GEO : Vacant Property  \r\n
+  Date of Entry:     4-22-2008 / P4608  \r\n
+  EmergCntct Nm :    DAN KNOX  \r\n
+  EmergCntct Phn:    H#609-231-3131  \r\n
+  Hazard Info:       VACANT PROPERTY OWNED BY NJ STATE AGRICULTURE \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200001012             E468        201200000668  \r\n
+ 03411       201200000207 \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is WOODS STEPHEN J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000206                    ORI: 03461         Station:  \r\n
+Incident Type  . : FIRE F Fire Call            Priority: 1  \r\n
+Incident Location: 400 WRIGHTSTOWN SYKESVILLE RD                        Venue: N Hanover  \r\n
+Located Between  : WARREN DR/CROSHAW RD  \r\n
+Common Name. . . : RICHARDSONS FLORIST (VACANT) \r\n
+\r\n
+Call Time- 14:26:45                                Date- 12/12/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : STA 460 \r\n
+\r\n
+Nature of Call : DEMO IN PROGRESS//HIT A GAS LINE \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Building-GEO : Vacant Property  \r\n
+  Date of Entry:     4-22-2008 / P4608  \r\n
+  EmergCntct Nm :    DAN KNOX  \r\n
+  EmergCntct Phn:    H#609-231-3131  \r\n
+  Hazard Info:       VACANT PROPERTY OWNED BY NJ STATE AGRICULTURE \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is WOODS STEPHEN J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000206                    ORI: 03461         Station:  \r\n
+Incident Type  . : FIRE F Fire Call            Priority: 1  \r\n
+Incident Location: 400 WRIGHTSTOWN SYKESVILLE RD                        Venue: N Hanover  \r\n
+Located Between  : WARREN DR/CROSHAW RD  \r\n
+Common Name. . . : RICHARDSONS FLORIST (VACANT) \r\n
+\r\n
+Call Time- 14:26:45                                Date- 12/12/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : STA 460 \r\n
+\r\n
+Units sent  :  \r\n
+ 03461       F461 \r\n
+\r\n
+Nature of Call : DEMO IN PROGRESS//HIT A GAS LINE \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Building-GEO : Vacant Property  \r\n
+  Date of Entry:     4-22-2008 / P4608  \r\n
+  EmergCntct Nm :    DAN KNOX  \r\n
+  EmergCntct Phn:    H#609-231-3131  \r\n
+  Hazard Info:       VACANT PROPERTY OWNED BY NJ STATE AGRICULTURE \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000668 \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is WOODS STEPHEN J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000667                    ORI: E468          Station:  \r\n
+Incident Type  . :  110 E ChestPain            Priority: 1  \r\n
+Incident Location: 18 JONES MILLS RD                                    Venue: N Hanover  \r\n
+Common Name. . . : MILLSTREAM APTS SOUTH \r\n
+\r\n
+Call Time- 20:03:13                                Date- 12/11/2012  \r\n
+Dispatch - 20:04:34     En-route- 20:05:38     On-scene- 20:14:07     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 20:23:30 \r\n
+\r\n
+Area: 4600              Section :    4         Beat  . : 4600  \r\n
+Grid:  W12              Quadrant: 4620         District: 4612 \r\n
+\r\n
+Phone Number: (609) 694-4369                Call Source:  911 \r\n
+\r\n
+Caller. . . : THOMAS MCNICE \r\n
+\r\n
+Units sent  :  \r\n
+ E159        E1596                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : 43F TIGHTNESS IN CHEST RADIATING INTO BACK// \r\n
+\r\n
+Additional Info  \r\n
+  H2  \r\n
+  LIGHTHEADED,NAUSEAS//VISION IS IMPAIRED//BP IS ELEVATED//HAS BEEN  \r\n
+  UNDER A LOT OF STRESS//HX ANXIETY,HTN//C&A \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: E1596   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  20:04:34     ENR: 12/11/12  20:05:38  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  20:16:01  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  20:04:34     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  20:05:30  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  20:05:30     ENR: 12/11/12  20:05:38  \r\n
+       ARV: 12/11/12  20:14:07     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  20:23:30 \r\n
+\r\n
+The Call Taker is CLEARY JEANNETTE  \r\n
+The Dispatcher is VIERECK TIMOTHY R\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000667                    ORI: E468          Station:  \r\n
+Incident Type  . :  110 E ChestPain            Priority: 1  \r\n
+Incident Location: 18 JONES MILLS RD                                    Venue: N Hanover  \r\n
+Located Between  : CROSHAW RD/W CASTLE DR  \r\n
+Common Name. . . : MILLSTREAM APTS SOUTH \r\n
+\r\n
+Call Time- 20:03:13                                Date- 12/11/2012  \r\n
+Dispatch - 20:04:34     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    4         Beat  . : 4600        Map . . :  \r\n
+Grid:  W12              Quadrant: 4620         District: 4612 \r\n
+\r\n
+Phone Number: (609) 694-4369                Call Source:  911 \r\n
+\r\n
+Caller. . . : THOMAS MCNICE \r\n
+\r\n
+Units sent  :  \r\n
+ E159        E1596                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : G/FRND HAVING CHEST PAINS \r\n
+\r\n
+Additional Info  \r\n
+  H2 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E159        201200020832 \r\n
+\r\n
+The Call Taker is CLEARY JEANNETTE  \r\n
+The Dispatcher is VIERECK TIMOTHY R\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000667                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 18 JONES MILLS RD                                    Venue: N Hanover  \r\n
+Located Between  : CROSHAW RD/W CASTLE DR  \r\n
+Common Name. . . : MILLSTREAM APTS SOUTH \r\n
+\r\n
+Call Time- 20:03:13                                Date- 12/11/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    4         Beat  . : 4600        Map . . :  \r\n
+Grid:  W12              Quadrant: 4620         District: 4612 \r\n
+\r\n
+Phone Number: (609) 694-4369                Call Source:  911 \r\n
+\r\n
+Caller. . . : THOMAS MCNICE \r\n
+\r\n
+Nature of Call : G/FRND HAVING CHEST PAINS \r\n
+\r\n
+Additional Info  \r\n
+  H2 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is CLEARY JEANNETTE  \r\n
+The Dispatcher is VIERECK TIMOTHY R\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000205                    ORI: 03461         Station:  \r\n
+Incident Type  . :   44 F Wires                Priority: 1  \r\n
+Incident Location: 259 SYKESVILLE RD                                    Venue: Chesterfld \r\n
+\r\n
+Call Time- 13:09:44                                Date- 12/11/2012  \r\n
+Dispatch - 13:11:19     En-route- 13:13:08     On-scene- 13:19:32     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 14:00:56 \r\n
+\r\n
+Area: 2602              Section :   09         Beat  . : 2602  \r\n
+Grid:  W10              Quadrant: 2623         District: 2623 \r\n
+\r\n
+Phone Number: (848) 299-3821                Call Source:  911 \r\n
+\r\n
+Caller. . . : VINCENT LEDEAN \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 03261       F2618  \r\n
+ 03261       F2619                03262       F2628  \r\n
+ 03262       F2629                CO-15       OC307  \r\n
+ 03411       F411                 03411       F4112  \r\n
+ 03461       F461                 03461       F4618  \r\n
+ E468        E468                 03262       F26201 \r\n
+\r\n
+Nature of Call : WIRES PULLED DOWN/WIRES ATTACHED TO TRUCK \r\n
+\r\n
+Additional Info  \r\n
+  IAO \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:11:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:14:54     ENR: 12/11/12  13:14:58  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:24:19  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:11:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:20:27  \r\n
+    Unit: F2618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:27:43     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:28:20  \r\n
+    Unit: F2619   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:28:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:39:58  \r\n
+    Unit: F2628   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:27:43     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:27:48  \r\n
+    Unit: F2629   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:28:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:39:58  \r\n
+    Unit: F26201  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:45:12     ENR: 12/11/12  13:47:02  \r\n
+       ARV: 12/11/12  13:50:03     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  14:16:27  \r\n
+    Unit: F411    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:11:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:20:27  \r\n
+    Unit: F4112   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:27:04     ENR: 12/11/12  13:27:06  \r\n
+       ARV: 12/11/12  13:38:38     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:51:49  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:11:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:13:02  \r\n
+    Unit: F4618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:13:02     ENR: 12/11/12  13:13:08  \r\n
+       ARV: 12/11/12  13:19:32     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  14:00:56  \r\n
+ F4618 RPTD THEY WILL MOVE TO RT537/SYKESVILLE RD             13:33:12  \r\n
+ POLE JC6004CF                                                13:33:24  \r\n
+ SAME NTFD                                                    13:33:38  \r\n
+ JCPL ETA 1-2 HRS/REF 328111331                               13:34:36 \r\n
+\r\n
+Geo Narrative  \r\n
+  Information  \r\n
+  House #263 is the Durr Farm. The driveway only is in Dist 26.  \r\n
+  The House & Farm are in Dist 46. \r\n
+\r\n
+The Call Taker is MILLER ROCHELLE Y  \r\n
+The Dispatcher is ALLEN BARBARA J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000666                    ORI: E468          Station:  \r\n
+Incident Type  . :   44 F Wires                Priority: 1  \r\n
+Incident Location: 259 SYKESVILLE RD                                    Venue: Chesterfld \r\n
+\r\n
+Call Time- 13:09:44                                Date- 12/11/2012  \r\n
+Dispatch - 13:11:19     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 13:20:27 \r\n
+\r\n
+Area: 2602              Section :   09         Beat  . : 2602  \r\n
+Grid:  W10              Quadrant: 2623         District: 2623 \r\n
+\r\n
+Phone Number: (848) 299-3821                Call Source:  911 \r\n
+\r\n
+Caller. . . : VINCENT LEDEAN \r\n
+\r\n
+Nature of Call : WIRES PULLED DOWN/WIRES ATTACHED TO TRUCK \r\n
+\r\n
+Additional Info  \r\n
+  IAO \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:11:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:14:54     ENR: 12/11/12  13:14:58  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:24:19  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:11:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:20:27  \r\n
+    Unit: F2618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:27:43     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:28:20  \r\n
+    Unit: F2619   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:28:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:39:58  \r\n
+    Unit: F2628   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:27:43     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:27:48  \r\n
+    Unit: F2629   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:28:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:39:58  \r\n
+    Unit: F26201  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:45:12     ENR: 12/11/12  13:47:02  \r\n
+       ARV: 12/11/12  13:50:03     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  14:16:27  \r\n
+    Unit: F411    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:11:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:20:27  \r\n
+    Unit: F4112   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:27:04     ENR: 12/11/12  13:27:06  \r\n
+       ARV: 12/11/12  13:38:38     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:51:49  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:11:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  13:13:02  \r\n
+    Unit: F4618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  13:13:02     ENR: 12/11/12  13:13:08  \r\n
+       ARV: 12/11/12  13:19:32     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  14:00:56  \r\n
+ F4618 RPTD THEY WILL MOVE TO RT537/SYKESVILLE RD             13:33:12  \r\n
+ POLE JC6004CF                                                13:33:24  \r\n
+ SAME NTFD                                                    13:33:38  \r\n
+ JCPL ETA 1-2 HRS/REF 328111331                               13:34:36 \r\n
+\r\n
+Geo Narrative  \r\n
+  Information  \r\n
+  House #263 is the Durr Farm. The driveway only is in Dist 26.  \r\n
+  The House & Farm are in Dist 46. \r\n
+\r\n
+The Call Taker is MILLER ROCHELLE Y  \r\n
+The Dispatcher is ALLEN BARBARA J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000205                    ORI: 03461         Station:  \r\n
+Incident Type  . :   44 F Wires                Priority: 1  \r\n
+Incident Location: 493 WRIGHTSTOWN SYKESVILLE RD                        Venue: N Hanover  \r\n
+Located Between  : DEFENSE ACCESS RD/ELIZABETH ST  \r\n
+Common Name. . . : THERMAL PIPING 46 \r\n
+\r\n
+Call Time- 13:09:44                                Date- 12/11/2012  \r\n
+Dispatch - 13:11:19     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    5         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (848) 299-3821                Call Source:  911 \r\n
+\r\n
+Caller. . . : VINCENT LEDEAN \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 03411       F411  \r\n
+ 03461       F461                 03461       F4618  \r\n
+ E468        E468 \r\n
+\r\n
+Nature of Call : WIRES PULLED DOWN/WIRES ATTACHED TO TRUCK \r\n
+\r\n
+Additional Info  \r\n
+  IAO \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200001006             E468        201200000666  \r\n
+ 03411       201200000206 \r\n
+\r\n
+The Call Taker is MILLER ROCHELLE Y  \r\n
+The Dispatcher is ALLEN BARBARA J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000205                    ORI: 03461         Station:  \r\n
+Incident Type  . : FIRE F Fire Call            Priority: 1  \r\n
+Incident Location: 493 WRIGHTSTOWN SYKESVILLE RD                        Venue: N Hanover  \r\n
+Located Between  : DEFENSE ACCESS RD/ELIZABETH ST  \r\n
+Common Name. . . : THERMAL PIPING 46 \r\n
+\r\n
+Call Time- 13:09:44                                Date- 12/11/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    5         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (848) 299-3821                Call Source:  911 \r\n
+\r\n
+Caller. . . : VINCENT LEDEAN \r\n
+\r\n
+Nature of Call : WIRES PULLED DOWN/WIRES ATTACHED TO TRUCK \r\n
+\r\n
+Additional Info  \r\n
+  IAO \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is MILLER ROCHELLE Y  \r\n
+The Dispatcher is ALLEN BARBARA J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000205                    ORI: 03461         Station:  \r\n
+Incident Type  . : FIRE F Fire Call            Priority: 1  \r\n
+Incident Location: 493 WRIGHTSTOWN SYKESVILLE RD                        Venue: N Hanover  \r\n
+Located Between  : DEFENSE ACCESS RD/ELIZABETH ST  \r\n
+Common Name. . . : THERMAL PIPING 46 \r\n
+\r\n
+Call Time- 13:09:44                                Date- 12/11/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    5         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (848) 299-3821                Call Source:  911 \r\n
+\r\n
+Caller. . . : VINCENT LEDEAN \r\n
+\r\n
+Units sent  :  \r\n
+ 03461       F461 \r\n
+\r\n
+Nature of Call : WIRES PULLED DOWN/WIRES ATTACHED TO TRUCK \r\n
+\r\n
+Additional Info  \r\n
+  IAO \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000666 \r\n
+\r\n
+The Call Taker is MILLER ROCHELLE Y  \r\n
+The Dispatcher is ALLEN BARBARA J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000665                    ORI: E468          Station:  \r\n
+Incident Type  . :  110 E ChestPain            Priority: 9  \r\n
+Incident Location: 511 WRIGHTSTOWN SYKESVILLE RD                        Venue: N Hanover  \r\n
+Common Name. . . : SPARTAN VILLAGE \r\n
+\r\n
+Call Time- 02:54:02                                Date- 12/11/2012  \r\n
+Dispatch - 02:55:48     En-route- 03:00:12     On-scene- 03:08:26     Depart 1- 03:25:48  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 04:01:26 \r\n
+\r\n
+Area: 4600              Section :    1         Beat  . : 4600  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (800) 638-8222                Call Source:  TEL \r\n
+\r\n
+Caller. . . : LIFE ALERT / 704 \r\n
+\r\n
+Units sent  :  \r\n
+ E159        E1591                E159        E1593  \r\n
+ E468        E468                 E468        E4682 \r\n
+\r\n
+Nature of Call : MED ALERT ALARM ROUSSEAU RESD 609*723*8392 \r\n
+\r\n
+Additional Info  \r\n
+  LOT 17  \r\n
+  84/F SEVERE RIGHT ARM PAIN / HEART BEATING FUNNY  / CARDIAC HX \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: E1593   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  02:55:48     ENR: 12/11/12  02:57:55  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: E1591   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  03:00:38     ENR: 12/11/12  03:00:40  \r\n
+       ARV: 12/11/12  03:14:40     DPT: 12/11/12  03:25:48  \r\n
+       QTR:             :  :       CLR: 12/11/12  03:56:39  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  02:55:48     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/11/12  03:01:12  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/11/12  03:00:10     ENR: 12/11/12  03:00:12  \r\n
+       ARV: 12/11/12  03:08:26     DPT: 12/11/12  03:25:48  \r\n
+       QTR:             :  :       CLR: 12/11/12  04:01:26 \r\n
+\r\n
+The Call Taker is GILBERT CHRISTINE M  \r\n
+The Dispatcher is GILBERT CHRISTINE M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000665                    ORI: E468          Station:  \r\n
+Incident Type  . :  110 E ChestPain            Priority: 1  \r\n
+Incident Location: 511 WRIGHTSTOWN SYKESVILLE RD                        Venue: N Hanover  \r\n
+Located Between  : DEFENSE ACCESS RD/GEORGETOWN RD  \r\n
+Common Name. . . : SPARTAN VILLAGE \r\n
+\r\n
+Call Time- 02:54:02                                Date- 12/11/2012  \r\n
+Dispatch - 02:55:48     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    1         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (800) 638-8222                Call Source:  TEL \r\n
+\r\n
+Caller. . . : LIFE ALERT / 704 \r\n
+\r\n
+Units sent  :  \r\n
+ E159        E1593                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : MED ALERT ALARM ROUSSEAU RESD 609*723*8392 \r\n
+\r\n
+Additional Info  \r\n
+  LOT 17  \r\n
+  84/F SEVERE RIGHT ARM PAIN / HEART BEATING FUNNY  / CARDIAC HX \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E159        201200020784 \r\n
+\r\n
+The Call Taker is GILBERT CHRISTINE M  \r\n
+The Dispatcher is GILBERT CHRISTINE M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000665                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 511 WRIGHTSTOWN SYKESVILLE RD                        Venue: N Hanover  \r\n
+Located Between  : DEFENSE ACCESS RD/GEORGETOWN RD  \r\n
+Common Name. . . : SPARTAN VILLAGE \r\n
+\r\n
+Call Time- 02:54:02                                Date- 12/11/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    1         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (800) 638-8222                Call Source:  TEL \r\n
+\r\n
+Caller. . . : LIFE ALERT / 704 \r\n
+\r\n
+Nature of Call : MED ALERT ALARM ROUSSEAU RESD 609*723*8392 \r\n
+\r\n
+Additional Info  \r\n
+  LOT 17  \r\n
+  84/F SEVERE RIGHT ARM PAIN / HEART \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is GILBERT CHRISTINE M  \r\n
+The Dispatcher is GILBERT CHRISTINE M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000664                    ORI: E468          Station:  \r\n
+Incident Type  . :  117 E Falls                Priority: 9  \r\n
+Incident Location: 114 COOKSTOWN NEW EGYPT RD                           Venue: N Hanover  \r\n
+Common Name. . . : SOUTHS MOBILE HOMES \r\n
+\r\n
+Call Time- 17:52:30                                Date- 12/10/2012  \r\n
+Dispatch - 17:53:05     En-route- 17:54:24     On-scene- 18:00:44     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 18:10:29 \r\n
+\r\n
+Area: 4600              Section :    1         Beat  . : 4600  \r\n
+Grid:  Z14              Quadrant: 4613         District: 4613 \r\n
+\r\n
+Phone Number: (609) 346-9623                Call Source:  TEL \r\n
+\r\n
+Caller. . . : TIFFANY ALSIEUX \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC307  \r\n
+ E468        E468                 E468        E4682 \r\n
+\r\n
+Nature of Call : 55F/FX FEMUR 3 WEEKS AGO/PAIN IN LEG/C&A \r\n
+\r\n
+Additional Info  \r\n
+  C5 \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  17:53:14     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  17:56:34     ENR: 12/10/12  17:56:37  \r\n
+       ARV: 12/10/12  17:56:55     DPT: 12/10/12  18:13:16  \r\n
+       AR2: 12/10/12  18:26:12     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  18:58:15  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  17:53:05     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  17:54:22  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  17:54:22     ENR: 12/10/12  17:54:24  \r\n
+       ARV: 12/10/12  18:00:44     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  18:10:29 \r\n
+\r\n
+The Call Taker is SMITH STEPHANIE  \r\n
+The Dispatcher is SPROWL HERBERT H\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000664                    ORI: E468          Station:  \r\n
+Incident Type  . :  117 E Falls                Priority: 1  \r\n
+Incident Location: 114 COOKSTOWN NEW EGYPT RD                           Venue: N Hanover  \r\n
+Located Between  : MARY ST/OCEAN COUNTY LINE  \r\n
+Common Name. . . : SOUTHS MOBILE HOMES \r\n
+\r\n
+Call Time- 17:52:30                                Date- 12/10/2012  \r\n
+Dispatch - 17:53:05     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    1         Beat  . : 4600        Map . . :  \r\n
+Grid:  Z14              Quadrant: 4613         District: 4613 \r\n
+\r\n
+Phone Number: (609) 346-9623                Call Source:  TEL \r\n
+\r\n
+Caller. . . : TIFFANY ALSIEUX \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : 55F/FX FEMIR 3 WEEKS AGO/PAIN IN LEG/C&A \r\n
+\r\n
+Additional Info  \r\n
+  C5 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Resident Name - SCHMITT,EVONEE,,,  \r\n
+ Suspect in Case: 200400017708 \r\n
+\r\n
+Resident Name - CAMIOLO,JILL,E,,  \r\n
+ Suspect in Case: 200300013576 \r\n
+\r\n
+Resident Name - TUMMILLO,ROBERT,T,,  \r\n
+ Gun Permit: 000004-02   Type: Purchase     Status: CH OK \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200001005 \r\n
+\r\n
+The Call Taker is SMITH STEPHANIE  \r\n
+The Dispatcher is SPROWL HERBERT H\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000664                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 114 COOKSTOWN NEW EGYPT RD                           Venue: N Hanover  \r\n
+Located Between  : MARY ST/OCEAN COUNTY LINE  \r\n
+Common Name. . . : SOUTHS MOBILE HOMES \r\n
+\r\n
+Call Time- 17:52:30                                Date- 12/10/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    1         Beat  . : 4600        Map . . :  \r\n
+Grid:  Z14              Quadrant: 4613         District: 4613 \r\n
+\r\n
+Phone Number: (609) 346-9623                Call Source:  TEL \r\n
+\r\n
+Caller. . . : TIFFANY ALSIEUX \r\n
+\r\n
+Units sent  :  \r\n
+ E468        E468 \r\n
+\r\n
+Nature of Call : F/BROKEN FEMUR..NEEDS TO BE TRANSPORTED \r\n
+\r\n
+Additional Info  \r\n
+  C5 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Resident Name - SCHMITT,EVONEE,,,  \r\n
+ Suspect in Case: 200400017708 \r\n
+\r\n
+Resident Name - CAMIOLO,JILL,E,,  \r\n
+ Suspect in Case: 200300013576 \r\n
+\r\n
+Resident Name - TUMMILLO,ROBERT,T,,  \r\n
+ Gun Permit: 000004-02   Type: Purchase     Status: CH OK \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is SMITH STEPHANIE  \r\n
+The Dispatcher is SPROWL HERBERT H\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000204                    ORI: 03461         Station:  \r\n
+Incident Type  . :   16 F Alarms               Priority: 1  \r\n
+Incident Location: 14 CHESTERFIELD ARNEYTOWN RD ARNY TOWN RD            Venue: N Hanover \r\n
+\r\n
+Call Time- 14:29:12                                Date- 12/10/2012  \r\n
+Dispatch - 14:32:01     En-route- 14:33:17     On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 14:36:04 \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600  \r\n
+Grid:   Y9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (800) 633-2677                Call Source:  TEL \r\n
+\r\n
+Caller. . . : WPCS INTERNATIONAL T \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 03262       F262  \r\n
+ CO-15       OC307                03461       F461  \r\n
+ 03461       F4618                E468        E468 \r\n
+\r\n
+Nature of Call : ACTIVATED FIRE ALARM FULL STATION FROM LUBE \r\n
+\r\n
+Additional Info  \r\n
+  VETERANS CEMETARY  \r\n
+  ROOM 41 \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:32:01     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:34:17     ENR: 12/10/12  14:34:21  \r\n
+       ARV: 12/10/12  14:34:29     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:36:04  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:32:01     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:36:04  \r\n
+    Unit: F262    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:32:01     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:36:04  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:32:01     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:36:04  \r\n
+    Unit: F4618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:33:15     ENR: 12/10/12  14:33:17  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:36:04  \r\n
+ RACHAEL FROM WPCS ADVS RCVD PROPER PASSCODE//                14:35:13 \r\n
+\r\n
+The Call Taker is CLEARY JEANNETTE  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000663                    ORI: E468          Station:  \r\n
+Incident Type  . :   16 F Alarms               Priority: 1  \r\n
+Incident Location: 14 CHESTERFIELD ARNEYTOWN RD ARNY TOWN RD            Venue: N Hanover \r\n
+\r\n
+Call Time- 14:29:12                                Date- 12/10/2012  \r\n
+Dispatch - 14:32:01     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 14:36:04 \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600  \r\n
+Grid:   Y9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (800) 633-2677                Call Source:  TEL \r\n
+\r\n
+Caller. . . : WPCS INTERNATIONAL T \r\n
+\r\n
+Nature of Call : ACTIVATED FIRE ALARM FULL STATION FROM LUBE \r\n
+\r\n
+Additional Info  \r\n
+  VETERANS CEMETARY  \r\n
+  ROOM 41 \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:32:01     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:34:17     ENR: 12/10/12  14:34:21  \r\n
+       ARV: 12/10/12  14:34:29     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:36:04  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:32:01     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:36:04  \r\n
+    Unit: F262    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:32:01     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:36:04  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:32:01     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:36:04  \r\n
+    Unit: F4618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:33:15     ENR: 12/10/12  14:33:17  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:36:04  \r\n
+ RACHAEL FROM WPCS ADVS RCVD PROPER PASSCODE//                14:35:13 \r\n
+\r\n
+The Call Taker is CLEARY JEANNETTE  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000204                    ORI: 03461         Station:  \r\n
+Incident Type  . :   16 F Alarms               Priority: 1  \r\n
+Incident Location: 14 CHESTERFIELD ARNEYTOWN RD ARNY TOWN RD            Venue: N Hanover  \r\n
+Located Between  : PROVINCELINE RD/JACOBSTOWN ARNEYTOWN RD \r\n
+\r\n
+Call Time- 14:29:12                                Date- 12/10/2012  \r\n
+Dispatch - 14:32:01     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600        Map . . :  \r\n
+Grid:   Y9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (800) 633-2677                Call Source:  TEL \r\n
+\r\n
+Caller. . . : WPCS INTERNATIONAL T \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 03262       F262  \r\n
+ 03461       F461                 03461       F4618  \r\n
+ E468        E468 \r\n
+\r\n
+Nature of Call : ACTIVATED FIRE ALARM FULL STATION FROM LUBE \r\n
+\r\n
+Additional Info  \r\n
+  VETERANS CEMETARY  \r\n
+  ROOM 41 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200001002             E468        201200000663  \r\n
+ 03262       201200000243 \r\n
+\r\n
+The Call Taker is CLEARY JEANNETTE  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000203                    ORI: 03461         Station:  \r\n
+Incident Type  . :   55 F Asst Polic           Priority: 1  \r\n
+Incident Location: 738 MONMOUTH RD                                      Venue: Chesterfld  \r\n
+Common Name. . . : AMERIGAS 26 \r\n
+\r\n
+Call Time- 13:44:26                                Date- 12/10/2012  \r\n
+Dispatch - 14:02:45     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 14:15:22 \r\n
+\r\n
+Area: 2601              Section :   02         Beat  . : 2601  \r\n
+Grid:  V11              Quadrant: 2626         District: 2623 \r\n
+\r\n
+Phone Number: (609) 723-0125                Call Source:  RAD \r\n
+\r\n
+Nature of Call : DMV, TT \r\n
+\r\n
+Additional Info  \r\n
+  NEED FP AT 537/SYKESVILLE AND 537/545 \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: F261    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  13:45:54     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:01:55  \r\n
+    Unit: F262    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  13:45:54     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  13:58:53  \r\n
+    Unit: F26201  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  13:51:10     ENR: 12/10/12  13:51:43  \r\n
+       ARV: 12/10/12  13:58:57     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:32:14  \r\n
+    Unit: F3319   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:15:18     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:26:05  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  14:02:45     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:15:22  \r\n
+ 4600 TO 537/SYKESVILLE, TT AX BOTH LANES                     13:28:11  \r\n
+ 2115 AT 537/545 BLOCKING EB TRAFFIC                          13:30:15 \r\n
+\r\n
+The Call Taker is MAKANOFF NATHAN  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000204                    ORI: 03461         Station:  \r\n
+Incident Type  . : FIRE F Fire Call            Priority: 1  \r\n
+Incident Location: 14 CHESTERFIELD ARNEYTOWN RD ARNY TOWN RD            Venue: N Hanover  \r\n
+Located Between  : PROVINCELINE RD/JACOBSTOWN ARNEYTOWN RD \r\n
+\r\n
+Call Time- 14:29:12                                Date- 12/10/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600        Map . . :  \r\n
+Grid:   Y9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (800) 633-2677                Call Source:  TEL \r\n
+\r\n
+Caller. . . : WPCS INTERNATIONAL T \r\n
+\r\n
+Units sent  :  \r\n
+ 03461       F461 \r\n
+\r\n
+Nature of Call : ACTIVATED FIRE ALARM FULL STATION FROM LUBE \r\n
+\r\n
+Additional Info  \r\n
+  VETERANS CEMETARY  \r\n
+  ROOM 41 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is CLEARY JEANNETTE  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000204                    ORI: 03461         Station:  \r\n
+Incident Type  . : FIRE F Fire Call            Priority: 1  \r\n
+Incident Location: 14 CHESTERFIELD ARNEYTOWN RD ARNY TOWN RD            Venue: N Hanover  \r\n
+Located Between  : PROVINCELINE RD/JACOBSTOWN ARNEYTOWN RD \r\n
+\r\n
+Call Time- 14:29:12                                Date- 12/10/2012  \r\n
+Dispatch - 14:32:01     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600        Map . . :  \r\n
+Grid:   Y9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (800) 633-2677                Call Source:  TEL \r\n
+\r\n
+Caller. . . : WPCS INTERNATIONAL T \r\n
+\r\n
+Units sent  :  \r\n
+ 03262       F262                 03461       F461  \r\n
+ E468        E468 \r\n
+\r\n
+Nature of Call : ACTIVATED FIRE ALARM FULL STATION FROM LUBE \r\n
+\r\n
+Additional Info  \r\n
+  VETERANS CEMETARY  \r\n
+  ROOM 41 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200001002             E468        201200000663  \r\n
+ 03262       201200000243 \r\n
+\r\n
+The Call Taker is CLEARY JEANNETTE  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000662                    ORI: E468          Station:  \r\n
+Incident Type  . :  106 E Breathin             Priority: 1  \r\n
+Incident Location: 251 CHESTERFIELD JACOBSTOWN RD                       Venue: N Hanover \r\n
+\r\n
+Call Time- 13:07:12                                Date- 12/10/2012  \r\n
+Dispatch - 13:08:08     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 13:18:39 \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600  \r\n
+Grid:   X9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (609) 298-2110                Call Source:  911 \r\n
+\r\n
+Caller. . . : JEFF & IRELAND \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 E159        E1596  \r\n
+ CO-15       OC307                E468        E468 \r\n
+\r\n
+Nature of Call : 81F SHORTNESS OF BREATH  ON 3L O2 \r\n
+\r\n
+Additional Info  \r\n
+  RESD:  \r\n
+  C&A  EXT MED HX \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  13:08:12     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  13:10:08     ENR: 12/10/12  13:10:11  \r\n
+       ARV: 12/10/12  13:14:45     DPT: 12/10/12  13:29:02  \r\n
+       AR2: 12/10/12  13:47:45     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:23:43  \r\n
+    Unit: E1596   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  13:08:08     ENR: 12/10/12  13:08:34  \r\n
+       ARV: 12/10/12  13:18:24     DPT: 12/10/12  13:29:02  \r\n
+       AR2: 12/10/12  13:47:45     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  14:00:53  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  13:08:08     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  13:18:39 \r\n
+\r\n
+The Call Taker is DODGE.MARIANNA  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000242                    ORI: 03262         Station:  \r\n
+Incident Type  . :   55 F Asst Polic           Priority: 1  \r\n
+Incident Location: 738 MONMOUTH RD                                      Venue: Chesterfld  \r\n
+Located Between  : SYKESVILLE RD/SPRINGFIELD TWP LINE  \r\n
+Common Name. . . : AMERIGAS 26 \r\n
+\r\n
+Call Time- 13:44:26                                Date- 12/10/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 2601              Section :   02         Beat  . : 2601        Map . . :  \r\n
+Grid:  V11              Quadrant: 2626         District: 2623 \r\n
+\r\n
+Phone Number: (609) 723-0125                Call Source:  RAD \r\n
+\r\n
+Units sent  :  \r\n
+ 03261       F261                 03262       F262  \r\n
+ 03262       F26201 \r\n
+\r\n
+Nature of Call : DMV, TT \r\n
+\r\n
+Additional Info  \r\n
+  NEED FP AT 537/SYKESVILLE AND 537/545 \r\n
+\r\n
+Narrative  \r\n
+ 4600 TO 537/SYKESVILLE, TT AX BOTH LANES                     13:28:11  \r\n
+ 2115 AT 537/545 BLOCKING EB TRAFFIC                          13:30:15 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ 03261       201200000295             03461       201200000203 \r\n
+\r\n
+The Call Taker is MAKANOFF NATHAN  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000662                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 251 CHESTERFIELD JACOBSTOWN RD                       Venue: N Hanover  \r\n
+Located Between  : SMYLIE RD/CROMWELL DR \r\n
+\r\n
+Call Time- 13:07:12                                Date- 12/10/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600        Map . . :  \r\n
+Grid:   X9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (609) 298-2110                Call Source:  911 \r\n
+\r\n
+Caller. . . : JEFF & IRELAND \r\n
+\r\n
+Nature of Call : FEMALE BREATHING DIFF \r\n
+\r\n
+Additional Info  \r\n
+  RESD: \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is DODGE.MARIANNA  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000202                    ORI: 03461         Station:  \r\n
+Incident Type  . :   16 F Alarms               Priority: 1  \r\n
+Incident Location: 14 CHESTERFIELD ARNEYTOWN RD                         Venue: N Hanover  \r\n
+Common Name. . . : VETERANS CEMETARY (MLTRY AFFRS) \r\n
+\r\n
+Call Time- 11:30:28                                Date- 12/10/2012  \r\n
+Dispatch - 11:33:07     En-route- 11:36:25     On-scene- 11:45:32     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 11:49:29 \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600  \r\n
+Grid:   Y9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (800) 633-2677                Call Source:  TEL \r\n
+\r\n
+Caller. . . : OPER 3813 WPCS INT \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 03262       F262  \r\n
+ 03262       F2621                CO-15       OC307  \r\n
+ 03461       F461                 03461       F4612  \r\n
+ E468        E468                 E468        E4682 \r\n
+\r\n
+Nature of Call : FIRE/PULL STA 6/609.758.3446 \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:34:23     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:34:51     ENR: 12/10/12  11:35:09  \r\n
+       ARV: 12/10/12  11:38:17     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  11:49:02  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:33:07     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:33:23     ENR: 12/10/12  11:33:25  \r\n
+       ARV: 12/10/12  11:39:12     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  11:49:29  \r\n
+    Unit: F262    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:33:07     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F2621   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:39:01     ENR: 12/10/12  11:39:03  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  11:45:04  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:33:07     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  11:36:23  \r\n
+    Unit: F4612   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:36:23     ENR: 12/10/12  11:36:25  \r\n
+       ARV: 12/10/12  11:45:32     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  11:49:29  \r\n
+ OC307 REPROTS IN ADMIN BLDG REPROTS NO PROBLEM RESET ALRM    11:45:27 \r\n
+\r\n
+The Call Taker is MAKANOFF NATHAN  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000661                    ORI: E468          Station:  \r\n
+Incident Type  . :   16 F Alarms               Priority: 1  \r\n
+Incident Location: 14 CHESTERFIELD ARNEYTOWN RD                         Venue: N Hanover  \r\n
+Common Name. . . : VETERANS CEMETARY (MLTRY AFFRS) \r\n
+\r\n
+Call Time- 11:30:28                                Date- 12/10/2012  \r\n
+Dispatch - 11:33:07     En-route- 11:33:25     On-scene- 11:39:12     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 11:49:29 \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600  \r\n
+Grid:   Y9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (800) 633-2677                Call Source:  TEL \r\n
+\r\n
+Caller. . . : OPER 3813 WPCS INT \r\n
+\r\n
+Nature of Call : FIRE/PULL STA 6/609.758.3446 \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:34:23     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:34:51     ENR: 12/10/12  11:35:09  \r\n
+       ARV: 12/10/12  11:38:17     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  11:49:02  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:33:07     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:33:23     ENR: 12/10/12  11:33:25  \r\n
+       ARV: 12/10/12  11:39:12     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  11:49:29  \r\n
+    Unit: F262    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:33:07     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F2621   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:39:01     ENR: 12/10/12  11:39:03  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  11:45:04  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:33:07     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  11:36:23  \r\n
+    Unit: F4612   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  11:36:23     ENR: 12/10/12  11:36:25  \r\n
+       ARV: 12/10/12  11:45:32     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  11:49:29  \r\n
+ OC307 REPROTS IN ADMIN BLDG REPROTS NO PROBLEM RESET ALRM    11:45:27 \r\n
+\r\n
+The Call Taker is MAKANOFF NATHAN  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000660                    ORI: E468          Station:  \r\n
+Incident Type  . :  119 E Heart                Priority: 1  \r\n
+Incident Location: 46 JONES MILLS RD                                    Venue: N Hanover  \r\n
+Common Name. . . : WAGON WHEEL ESTATES \r\n
+\r\n
+Call Time- 09:39:56                                Date- 12/10/2012  \r\n
+Dispatch - 09:40:36     En-route- 09:44:57     On-scene- 09:51:21     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 09:55:11 \r\n
+\r\n
+Area: 4600              Section :    4         Beat  . : 4600  \r\n
+Grid:  W12              Quadrant: 4620         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : JOINT BASE \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 E159        E1596  \r\n
+ CO-15       OC307                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : 79M/CURRENT BP: 186/104// C&A//NEG MEDICAL HX \r\n
+\r\n
+Additional Info  \r\n
+  LOT 103 \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  09:43:17     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  09:44:25     ENR: 12/10/12  09:44:31  \r\n
+       ARV: 12/10/12  09:47:52     DPT: 12/10/12  09:55:05  \r\n
+       AR2: 12/10/12  10:05:42     DP2:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: E1596   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  09:40:36     ENR: 12/10/12  09:41:19  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  09:51:09  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  09:40:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  09:44:54  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/10/12  09:44:54     ENR: 12/10/12  09:44:57  \r\n
+       ARV: 12/10/12  09:51:21     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/10/12  09:55:11 \r\n
+\r\n
+The Call Taker is LAROSA TERESA M  \r\n
+The Dispatcher is LAROSA TERESA M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000202                    ORI: 03461         Station:  \r\n
+Incident Type  . :   16 F Alarms               Priority: 1  \r\n
+Incident Location: 14 CHESTERFIELD ARNEYTOWN RD                         Venue: N Hanover  \r\n
+Located Between  : PROVINCELINE RD/JACOBSTOWN ARNEYTOWN RD  \r\n
+Common Name. . . : VETERANS CEMETARY (MLTRY AFFRS) \r\n
+\r\n
+Call Time- 11:30:28                                Date- 12/10/2012  \r\n
+Dispatch - 11:33:07     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600        Map . . :  \r\n
+Grid:   Y9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (800) 633-2677                Call Source:  TEL \r\n
+\r\n
+Caller. . . : OPER 3813 WPCS INT \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 03262       F262  \r\n
+ CO-15       OC307                03461       F461  \r\n
+ 03461       F4612                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : FIRE/PULL STA 6/609.758.3446 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200001000             E468        201200000661  \r\n
+ 03262       201200000241 \r\n
+\r\n
+The Call Taker is MAKANOFF NATHAN  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000202                    ORI: 03461         Station:  \r\n
+Incident Type  . :   16 F Alarms               Priority: 1  \r\n
+Incident Location: 14 CHESTERFIELD ARNEYTOWN RD                         Venue: N Hanover  \r\n
+Located Between  : PROVINCELINE RD/JACOBSTOWN ARNEYTOWN RD  \r\n
+Common Name. . . : VETERANS CEMETARY (MLTRY AFFRS) \r\n
+\r\n
+Call Time- 11:30:28                                Date- 12/10/2012  \r\n
+Dispatch - 11:33:07     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600        Map . . :  \r\n
+Grid:   Y9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (800) 633-2677                Call Source:  TEL \r\n
+\r\n
+Caller. . . : OPER 3813 WPCS INT \r\n
+\r\n
+Units sent  :  \r\n
+ 03262       F262                 03461       F461  \r\n
+ E468        E468                 E468        E4682 \r\n
+\r\n
+Nature of Call : FIRE/PULL STA 6/609.758.3446 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000661             03262       201200000241 \r\n
+\r\n
+The Call Taker is MAKANOFF NATHAN  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000202                    ORI: 03461         Station:  \r\n
+Incident Type  . : FIRE F Fire Call            Priority: 1  \r\n
+Incident Location: 14 CHESTERFIELD ARNEYTOWN RD                         Venue: N Hanover  \r\n
+Located Between  : PROVINCELINE RD/JACOBSTOWN ARNEYTOWN RD  \r\n
+Common Name. . . : VETERANS CEMETARY (MLTRY AFFRS) \r\n
+\r\n
+Call Time- 11:30:28                                Date- 12/10/2012  \r\n
+Dispatch - 11:33:07     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600        Map . . :  \r\n
+Grid:   Y9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (800) 633-2677                Call Source:  TEL \r\n
+\r\n
+Caller. . . : OPER 3813 WPCS INT \r\n
+\r\n
+Units sent  :  \r\n
+ 03461       F461                 E468        E468 \r\n
+\r\n
+Nature of Call : FIRE/PULL STA 6/609.758.3446 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000661 \r\n
+\r\n
+The Call Taker is MAKANOFF NATHAN  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000202                    ORI: 03461         Station:  \r\n
+Incident Type  . : FIRE F Fire Call            Priority: 1  \r\n
+Incident Location: 14 CHESTERFIELD ARNEYTOWN RD                         Venue: N Hanover  \r\n
+Located Between  : PROVINCELINE RD/JACOBSTOWN ARNEYTOWN RD  \r\n
+Common Name. . . : VETERANS CEMETARY (MLTRY AFFRS) \r\n
+\r\n
+Call Time- 11:30:28                                Date- 12/10/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600        Map . . :  \r\n
+Grid:   Y9              Quadrant: 4612         District: 4611 \r\n
+\r\n
+Phone Number: (800) 633-2677                Call Source:  TEL \r\n
+\r\n
+Caller. . . : OPER 3813 WPCS INT \r\n
+\r\n
+Nature of Call : FIRE/PULL STA 6/609.758.3446 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is MAKANOFF NATHAN  \r\n
+The Dispatcher is BAKER MARK J\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000660                    ORI: E468          Station:  \r\n
+Incident Type  . :  119 E Heart                Priority: 1  \r\n
+Incident Location: 46 JONES MILLS RD                                    Venue: N Hanover  \r\n
+Located Between  : CROSHAW RD/W CASTLE DR  \r\n
+Common Name. . . : WAGON WHEEL ESTATES \r\n
+\r\n
+Call Time- 09:39:56                                Date- 12/10/2012  \r\n
+Dispatch - 09:40:36     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    4         Beat  . : 4600        Map . . :  \r\n
+Grid:  W12              Quadrant: 4620         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : JOINT BASE \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 E159        E1596  \r\n
+ CO-15       OC307                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : 79M/CURRENT BP: 186/104// C&A//NEG MEDICAL HX \r\n
+\r\n
+Additional Info  \r\n
+  LOT 103 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Resident Name - ODASZ,APRIL,,,  \r\n
+ Suspect in Case: 200500000186 \r\n
+\r\n
+Resident Name - JIMENEZ,NELZON,RENE,,  \r\n
+ Suspect in Case: 200600001836 \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200000999             E159        201200020729 \r\n
+\r\n
+The Call Taker is LAROSA TERESA M  \r\n
+The Dispatcher is LAROSA TERESA M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000660                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 46 JONES MILLS RD                                    Venue: N Hanover  \r\n
+Located Between  : CROSHAW RD/W CASTLE DR  \r\n
+Common Name. . . : WAGON WHEEL ESTATES \r\n
+\r\n
+Call Time- 09:39:56                                Date- 12/10/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    4         Beat  . : 4600        Map . . :  \r\n
+Grid:  W12              Quadrant: 4620         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : JOINT BASE \r\n
+\r\n
+Nature of Call : CARDIAC \r\n
+\r\n
+Additional Info  \r\n
+  LOT 103 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Resident Name - ODASZ,APRIL,,,  \r\n
+ Suspect in Case: 200500000186 \r\n
+\r\n
+Resident Name - JIMENEZ,NELZON,RENE,,  \r\n
+ Suspect in Case: 200600001836 \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is LAROSA TERESA M  \r\n
+The Dispatcher is LAROSA TERESA M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000201                    ORI: 03461         Station:  \r\n
+Incident Type  . :   55 F Asst Polic           Priority: 9  \r\n
+Incident Location: 181 JACOBSTOWN COOKSTOWN RD                          Venue: N Hanover  \r\n
+Common Name. . . : HERMANS TRUCKING \r\n
+\r\n
+Call Time- 18:20:37                                Date- 12/08/2012  \r\n
+Dispatch - 18:20:44     En-route-              On-scene- 18:20:44     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 23:31:03 \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600  \r\n
+Grid:  X11              Quadrant: 4613         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  RAD \r\n
+\r\n
+Caller. . . : F4618 \r\n
+\r\n
+Units sent  :  \r\n
+ 03461       F4601                03461       F4618 \r\n
+\r\n
+Nature of Call : ASSIST POLICE WITH DEBRIS IN ROADWAY \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: F4601   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP:             :  :       ENR:             :  :  \r\n
+       ARV: 12/08/12  18:20:44     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  23:31:03  \r\n
+    Unit: F4618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP:             :  :       ENR:             :  :  \r\n
+       ARV: 12/08/12  18:20:44     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  23:31:03  \r\n
+ F4601 ON LOCATION ADVISED ABOUT 300 FOOT LONG AND 3 INCHES   18:44:45  \r\n
+ HIGH OF NAILS ON ROADWAY.PD NOTIFIED BC HIGHWAY TO           18:45:25  \r\n
+ RESPOND.ALSO ROADWAY CLOSED FROM RT537 TO CROSHAW RD.        18:46:06  \r\n
+ F4606 ADVS COUNTY HWY HAS ANOTHER STREET SWEEPER ENRT //     22:02:50 \r\n
+\r\n
+The Call Taker is ENDRES ANTHONY G  \r\n
+The Dispatcher is ENDRES ANTHONY G\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000659                    ORI: E468          Station:  \r\n
+Incident Type  . :  117 E Falls                Priority: 1  \r\n
+Incident Location: 135 E MAIN ST                                        Venue: Wrghtstwn \r\n
+\r\n
+Call Time- 22:30:36                                Date- 12/08/2012  \r\n
+Dispatch - 22:31:31     En-route- 22:31:57     On-scene- 22:34:59     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 23:02:46 \r\n
+\r\n
+Area: 4100              Section : 4100         Beat  . : 4190  \r\n
+Grid:  V13              Quadrant: 4101         District: 4101 \r\n
+\r\n
+Phone Number: (609) 723-2956                Call Source:  911 \r\n
+\r\n
+Caller. . . : MARY SCULLION, , \r\n
+\r\n
+Nature of Call : 80F FALL VICTIM .. NOT INJ    LIFT ASSIST \r\n
+\r\n
+Additional Info  \r\n
+  VOIP:  \r\n
+  PARK ON FRANCIS ST HOUSE ON CORNER WITH PHILLIES FLAG \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: E4681   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  22:31:31     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  22:31:55     ENR: 12/08/12  22:31:57  \r\n
+       ARV: 12/08/12  22:34:59     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  23:02:46  \r\n
+    Unit: F4111   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  22:31:33     ENR: 12/08/12  22:35:37  \r\n
+       ARV: 12/08/12  22:37:48     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  22:38:00  \r\n
+    Unit: F4119   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  22:38:00     ENR:             :  :  \r\n
+       ARV: 12/08/12  22:38:02     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  23:02:46  \r\n
+ E4682 REPORTS A DOOR HAD TO BE REMOVED FROM DWELLING FOE     22:56:48  \r\n
+ PERSONEL TO GAIN ENTRY TO PATIENT //                         22:57:01 \r\n
+\r\n
+The Call Taker is HOWE KELLIE A  \r\n
+The Dispatcher is MACRAE ANN M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000204                    ORI: 03411         Station:  \r\n
+Incident Type  . :  117 E Falls                Priority: 1  \r\n
+Incident Location: 135 E MAIN ST                                        Venue: Wrghtstwn  \r\n
+Located Between  : RAILROAD AV/FRANCIS ST \r\n
+\r\n
+Call Time- 22:30:36                                Date- 12/08/2012  \r\n
+Dispatch - 22:31:31     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4100              Section : 4100         Beat  . : 4190        Map . . :  \r\n
+Grid:  V13              Quadrant: 4101         District: 4101 \r\n
+\r\n
+Phone Number: (609) 723-2956                Call Source:  911 \r\n
+\r\n
+Caller. . . : MARY SCULLION, , \r\n
+\r\n
+Units sent  :  \r\n
+ 03411       F4111                E468        E4681  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call :      FALL VICTIM .. NOT INJ    LIFT ASSIST \r\n
+\r\n
+Additional Info  \r\n
+  VOIP: \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000659 \r\n
+\r\n
+The Call Taker is HOWE KELLIE A  \r\n
+The Dispatcher is MACRAE ANN M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000204                    ORI: 03411         Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 135 E MAIN ST                                        Venue: Wrghtstwn  \r\n
+Located Between  : RAILROAD AV/FRANCIS ST \r\n
+\r\n
+Call Time- 22:30:36                                Date- 12/08/2012  \r\n
+Dispatch - 22:31:31     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4100              Section : 4100         Beat  . : 4190        Map . . :  \r\n
+Grid:  V13              Quadrant: 4101         District: 4101 \r\n
+\r\n
+Phone Number: (609) 723-2956                Call Source:  911 \r\n
+\r\n
+Caller. . . : MARY SCULLION, , \r\n
+\r\n
+Units sent  :  \r\n
+ E468        E4681 \r\n
+\r\n
+Nature of Call :      FALL VICTIM .. NOT INJ    LIFT ASSIST \r\n
+\r\n
+Additional Info  \r\n
+  VOIP: \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000659 \r\n
+\r\n
+The Call Taker is HOWE KELLIE A  \r\n
+The Dispatcher is MACRAE ANN M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000658                    ORI: E468          Station:  \r\n
+Incident Type  . :  113 E Diabetic             Priority: 1  \r\n
+Incident Location: 5 BYRON DR                                           Venue: Wrghtstwn \r\n
+\r\n
+Call Time- 21:11:24                                Date- 12/08/2012  \r\n
+Dispatch - 21:13:09     En-route- 21:13:42     On-scene- 21:20:29     Depart 1- 21:33:00  \r\n
+Arrive 2 - 21:55:08     Depart 2-              In-statn-              Cleared - 22:21:56 \r\n
+\r\n
+Area: 4100              Section : 4100         Beat  . : 4190  \r\n
+Grid:  V13              Quadrant: 4101         District: 4101 \r\n
+\r\n
+Phone Number: (609) 222-1636                Call Source:  911 \r\n
+\r\n
+Caller. . . : TYRISNO MR \r\n
+\r\n
+Nature of Call : FEMALE IN 40"S UNCONS, BREATHING / POSS HAD \r\n
+\r\n
+Additional Info  \r\n
+  UNIT  A  \r\n
+  A SEIZURE / HX DIABETES \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: E1594   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  21:13:15     ENR: 12/08/12  21:14:24  \r\n
+       ARV: 12/08/12  21:27:44     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  21:32:09  \r\n
+    Unit: E339    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  21:13:19     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: E3393   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  21:17:27     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  21:17:30  \r\n
+    Unit: E4681   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  21:13:09     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  21:13:38     ENR: 12/08/12  21:13:42  \r\n
+       ARV: 12/08/12  21:20:29     DPT: 12/08/12  21:33:00  \r\n
+       AR2: 12/08/12  21:55:08     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  22:21:56  \r\n
+    Unit: F4112   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  21:13:12     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  21:19:17  \r\n
+    Unit: F4119   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  21:19:17     ENR: 12/08/12  21:19:19  \r\n
+       ARV: 12/08/12  21:21:08     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  21:32:52 \r\n
+\r\n
+The Call Taker is HENNESSY JOHN  \r\n
+The Dispatcher is MACRAE ANN M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000203                    ORI: 03411         Station:  \r\n
+Incident Type  . :  113 E Diabetic             Priority: 1  \r\n
+Incident Location: 5 BYRON DR                                           Venue: Wrghtstwn  \r\n
+Located Between  : FT DIX ST/ \r\n
+\r\n
+Call Time- 21:11:24                                Date- 12/08/2012  \r\n
+Dispatch - 21:13:09     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4100              Section : 4100         Beat  . : 4190        Map . . :  \r\n
+Grid:  V13              Quadrant: 4101         District: 4101 \r\n
+\r\n
+Phone Number: (609) 222-1636                Call Source:  911 \r\n
+\r\n
+Caller. . . : TYRISNO MR \r\n
+\r\n
+Units sent  :  \r\n
+ E159        E1594                E339        E339  \r\n
+ 03411       F4112                E468        E4681  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : DIABETIC \r\n
+\r\n
+Additional Info  \r\n
+  UNIT  A \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E159        201200020664             E339        201200001382  \r\n
+ E468        201200000658 \r\n
+\r\n
+The Call Taker is HENNESSY JOHN  \r\n
+The Dispatcher is MACRAE ANN M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000203                    ORI: 03411         Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 5 BYRON DR                                           Venue: Wrghtstwn  \r\n
+Located Between  : FT DIX ST/ \r\n
+\r\n
+Call Time- 21:11:24                                Date- 12/08/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4100              Section : 4100         Beat  . : 4190        Map . . :  \r\n
+Grid:  V13              Quadrant: 4101         District: 4101 \r\n
+\r\n
+Phone Number: (609) 222-1636                Call Source:  911 \r\n
+\r\n
+Caller. . . : TYRISNO MR \r\n
+\r\n
+Nature of Call : DIABETIC \r\n
+\r\n
+Additional Info  \r\n
+  UNIT  A \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000658 \r\n
+\r\n
+The Call Taker is HENNESSY JOHN  \r\n
+The Dispatcher is MACRAE ANN M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000657                    ORI: E468          Station:  \r\n
+Incident Type  . :  132 E UnkMedEmrg           Priority: 8  \r\n
+Incident Location: 107 BUNTING BRIDGE RD                                Venue: NewHanover \r\n
+\r\n
+Call Time- 11:27:06                                Date- 12/08/2012  \r\n
+Dispatch - 11:38:05     En-route- 11:38:45     On-scene- 11:45:24     Depart 1- 11:56:34  \r\n
+Arrive 2 - 12:18:04     Depart 2-              In-statn-              Cleared - 12:35:07 \r\n
+\r\n
+Area: 3800              Section :    1         Beat  . : 3800  \r\n
+Grid:  Y14              Quadrant: 3811         District: 3811 \r\n
+\r\n
+Phone Number: (609) 758-2519                Call Source:  911 \r\n
+\r\n
+Caller. . . : D B MALLOY \r\n
+\r\n
+Nature of Call : 75F DIZZY/VOMITING \r\n
+\r\n
+Additional Info  \r\n
+  RESD: \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  11:28:15     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  11:48:17  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  11:38:05     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  11:38:43     ENR: 12/08/12  11:38:45  \r\n
+       ARV: 12/08/12  11:45:24     DPT: 12/08/12  11:56:34  \r\n
+       AR2: 12/08/12  12:18:04     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  12:35:07 \r\n
+\r\n
+The Call Taker is UHLIG BARBARA A  \r\n
+The Dispatcher is JOHNSON THOMAS\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000996                    ORI: CO-15         Station:  \r\n
+Incident Type  . :  132 E UnkMedEmrg           Priority: 1  \r\n
+Incident Location: 107 BUNTING BRIDGE RD                                Venue: NewHanover  \r\n
+Located Between  : MAIN ST/OCEAN CO LINE \r\n
+\r\n
+Call Time- 11:27:06                                Date- 12/08/2012  \r\n
+Dispatch - 11:38:05     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 3800              Section :    1         Beat  . : 3800        Map . . :  \r\n
+Grid:  Y14              Quadrant: 3811         District: 3811 \r\n
+\r\n
+Phone Number: (609) 758-2519                Call Source:  911 \r\n
+\r\n
+Caller. . . : D B MALLOY \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC307                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : 75F DIZZY/VOMITING \r\n
+\r\n
+Additional Info  \r\n
+  RESD: \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000657 \r\n
+\r\n
+The Call Taker is UHLIG BARBARA A  \r\n
+The Dispatcher is JOHNSON THOMAS\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000996                    ORI: CO-15         Station:  \r\n
+Incident Type  . :  132 E UnkMedEmrg           Priority: 1  \r\n
+Incident Location: 107 BUNTING BRIDGE RD                                Venue: NewHanover  \r\n
+Located Between  : MAIN ST/OCEAN CO LINE \r\n
+\r\n
+Call Time- 11:27:06                                Date- 12/08/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 3800              Section :    1         Beat  . : 3800        Map . . :  \r\n
+Grid:  Y14              Quadrant: 3811         District: 3811 \r\n
+\r\n
+Phone Number: (609) 758-2519                Call Source:  911 \r\n
+\r\n
+Caller. . . : D B MALLOY \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC307 \r\n
+\r\n
+Nature of Call : 75F DIZZY/VOMITING \r\n
+\r\n
+Additional Info  \r\n
+  RESD: \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000657 \r\n
+\r\n
+The Call Taker is UHLIG BARBARA A  \r\n
+The Dispatcher is JOHNSON THOMAS\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000200                    ORI: 03461         Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: 252 RT130                                            Venue: BdntwnCity  \r\n
+Common Name. . . : ANTHONYS PIZZA TOWN \r\n
+\r\n
+Call Time- 02:53:41                                Date- 12/08/2012  \r\n
+Dispatch - 03:19:43     En-route- 03:24:14     On-scene- 03:35:23     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 10:17:25 \r\n
+\r\n
+Area: 6007              Section :   61         Beat  . : 6090  \r\n
+Grid:   V3              Quadrant: 6001         District: 6001 \r\n
+\r\n
+Phone Number: (856) 340-3556                Call Source:  911 \r\n
+\r\n
+Caller. . . : DEJINSKI MR \r\n
+\r\n
+Nature of Call : MVA/2 POLES DOWN \r\n
+\r\n
+Additional Info  \r\n
+  WPH1: \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: E6091   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  02:58:53     ENR: 12/08/12  03:00:55  \r\n
+       ARV: 12/08/12  03:04:11     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  04:24:16  \r\n
+    Unit: F1118   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  07:51:04     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  08:14:08  \r\n
+    Unit: F1228   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  07:48:52     ENR: 12/08/12  08:01:27  \r\n
+       ARV: 12/08/12  08:19:53     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  10:17:25  \r\n
+    Unit: F1580   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  03:20:18     ENR: 12/08/12  03:37:37  \r\n
+       ARV: 12/08/12  03:44:24     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  10:17:25  \r\n
+    Unit: F1514   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  03:28:52     ENR: 12/08/12  03:28:55  \r\n
+       ARV: 12/08/12  03:48:06     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  10:17:25  \r\n
+    Unit: F1582   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  03:41:55     ENR: 12/08/12  03:41:58  \r\n
+       ARV: 12/08/12  03:55:05     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  10:17:25  \r\n
+    Unit: F1581   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  08:08:38     ENR: 12/08/12  08:08:42  \r\n
+       ARV: 12/08/12  09:13:53     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  10:17:25  \r\n
+    Unit: F1618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  07:48:24     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  08:14:08  \r\n
+    Unit: F2128   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  03:19:43     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  03:30:18  \r\n
+    Unit: F2129   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  03:30:06     ENR: 12/08/12  03:30:11  \r\n
+       ARV: 12/08/12  04:05:21     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  10:17:25  \r\n
+    Unit: F2150   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  03:31:58     ENR: 12/08/12  03:32:01  \r\n
+       ARV: 12/08/12  04:05:21     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  10:17:25  \r\n
+    Unit: F2120   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  03:32:13     ENR: 12/08/12  03:32:19  \r\n
+       ARV: 12/08/12  03:44:20     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  10:17:25  \r\n
+    Unit: F2127   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  03:32:13     ENR: 12/08/12  03:32:19  \r\n
+       ARV: 12/08/12  03:44:20     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  10:17:25  \r\n
+    Unit: F2138   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  03:19:43     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  03:32:33  \r\n
+    Unit: F2549   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  08:15:43     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F2547   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  08:29:17     ENR: 12/08/12  08:29:20  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  10:15:36  \r\n
+    Unit: F2729   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  03:50:51     ENR: 12/08/12  03:50:54  \r\n
+  \r\n
+:\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000656                    ORI: E468          Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: NewHanover  \r\n
+  Cross Street . : WRIGHTSTOWN COOKSTOWN RD \r\n
+\r\n
+Call Time- 06:49:59                                Date- 12/08/2012  \r\n
+Dispatch - 06:58:02     En-route- 06:59:06     On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 07:03:08 \r\n
+\r\n
+Area: 3800              Section :    1         Beat  . : 3800  \r\n
+Grid:                   Quadrant: 3812         District: 3812 \r\n
+\r\n
+Phone Number: (609) 820-0971                Call Source:  911 \r\n
+\r\n
+Caller. . . : PRINCEOTTIO MR \r\n
+\r\n
+Nature of Call : 2 VEH MVA//1 SUBJ IN AND OUT OF CONCIOUSNESS \r\n
+\r\n
+Additional Info  \r\n
+  FLUIDS ON RDWY \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  06:52:16     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  06:56:25  \r\n
+    Unit: OC3911  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  06:53:16     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  07:00:32  \r\n
+    Unit: OC307   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  06:56:25     ENR: 12/08/12  06:56:28  \r\n
+       ARV: 12/08/12  07:00:50     DPT: 12/08/12  07:21:48  \r\n
+       AR2: 12/08/12  07:31:00     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  08:26:23  \r\n
+    Unit: OC3910  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  07:00:17     ENR: 12/08/12  07:00:20  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  07:17:20  \r\n
+    Unit: OC3902  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  07:00:32     ENR: 12/08/12  07:05:58  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  07:06:25  \r\n
+    Unit: E1594   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  06:50:59     ENR: 12/08/12  06:53:41  \r\n
+       ARV: 12/08/12  07:02:45     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  07:19:29  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  06:58:02     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  06:59:03     ENR: 12/08/12  06:59:06  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  07:03:08  \r\n
+    Unit: F381    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  06:50:58     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F3812   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/08/12  06:55:47     ENR: 12/08/12  06:55:49  \r\n
+       ARV: 12/08/12  06:58:07     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/08/12  07:19:06  \r\n
+ OC307 REQUEST 1 ADDITIONAL BLS FROM STA 468 SAME DISPATCHED   6:59:43 \r\n
+\r\n
+The Call Taker is HENNESSY JOHN  \r\n
+The Dispatcher is KINNEY DAVID R\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000995                    ORI: CO-15         Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: NewHanover  \r\n
+  Cross Street . : WRIGHTSTOWN COOKSTOWN RD \r\n
+\r\n
+Call Time- 06:49:59                                Date- 12/08/2012  \r\n
+Dispatch - 06:58:02     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 3800              Section :    1         Beat  . : 3800        Map . . :  \r\n
+Grid:                   Quadrant: 3812         District: 3812 \r\n
+\r\n
+Phone Number: (609) 820-0971                Call Source:  911 \r\n
+\r\n
+Caller. . . : PRINCEOTTIO MR \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 E159        E1594  \r\n
+ CO-15       OC307                03381       F381  \r\n
+ 03381       F3812                CO-15       OC3911  \r\n
+ E468        E468                 E468        E4682 \r\n
+\r\n
+Nature of Call : 2 VEH MVA//1 SUBJ IN AND OUT OF CONCIOUSNESS \r\n
+\r\n
+Additional Info  \r\n
+  FLUIDS ON RDWY \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E159        201200020624             E468        201200000656  \r\n
+ 03381       201200000139 \r\n
+\r\n
+The Call Taker is HENNESSY JOHN  \r\n
+The Dispatcher is KINNEY DAVID R\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000995                    ORI: CO-15         Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: NewHanover  \r\n
+  Cross Street . : WRIGHTSTOWN COOKSTOWN RD \r\n
+\r\n
+Call Time- 06:49:59                                Date- 12/08/2012  \r\n
+Dispatch - 06:58:02     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 3800              Section :    1         Beat  . : 3800        Map . . :  \r\n
+Grid:                   Quadrant: 3812         District: 3812 \r\n
+\r\n
+Phone Number: (609) 820-0971                Call Source:  911 \r\n
+\r\n
+Caller. . . : PRINCEOTTIO MR \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 E159        E1594  \r\n
+ CO-15       OC307                03381       F381  \r\n
+ 03381       F3812                CO-15       OC3911  \r\n
+ E468        E468 \r\n
+\r\n
+Nature of Call : 2 VEH MVA//1 SUBJ IN AND OUT OF CONCIOUSNESS \r\n
+\r\n
+Additional Info  \r\n
+  FLUIDS ON RDWY \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E159        201200020624             E468        201200000656  \r\n
+ 03381       201200000139 \r\n
+\r\n
+The Call Taker is HENNESSY JOHN  \r\n
+The Dispatcher is KINNEY DAVID R\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00001964                    ORI: E609          Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: 245 RT130                                            Venue: BdntwnCity  \r\n
+Located Between  : ELIZABETH ST/CROSSWICKS ST  \r\n
+Common Name. . . : ADULT BOOK STORE 60 \r\n
+\r\n
+Call Time- 02:53:41                                Date- 12/08/2012  \r\n
+Dispatch - 03:19:43     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 6007              Section :   61         Beat  . : 6090        Map . . :  \r\n
+Grid:   V3              Quadrant: 6001         District: 6001 \r\n
+\r\n
+Phone Number: (856) 340-3556                Call Source:  911 \r\n
+\r\n
+Caller. . . : DEJINSKI MR \r\n
+\r\n
+Units sent  :  \r\n
+ 03212       F2128                03213       F2138  \r\n
+ 03400       F4019                03461       F4618  \r\n
+ 03601       F601                 03601       F6011  \r\n
+ 03602       F602                 03602       F6021  \r\n
+ E609        E6091 \r\n
+\r\n
+Nature of Call : MVA/2 POLES DOWN \r\n
+\r\n
+Additional Info  \r\n
+  WPH1: \r\n
+\r\n
+Narrative  \r\n
+ Additional E911 Caller: GRAY,TIM,,,                           2:55:27  \r\n
+   Caller Address  . . : 179 CROSSWICKS RD                     2:55:27  \r\n
+   Caller Phone  . . . : (609)372-4782                         2:55:27  \r\n
+ Additional E911 Caller: AT&T MOBILITY,,,                      2:55:32  \r\n
+   Caller Address  . . : WIRELESS CALLER                       2:55:32  \r\n
+   Caller Phone  . . . : (856)571-5046                         2:55:32  \r\n
+ Additional E911 Caller: AT&T MOBILITY,,,                      3:00:37  \r\n
+   Caller Address  . . : WIRELESS CALLER                       3:00:37  \r\n
+   Caller Phone  . . . : (856)397-3412                         3:00:37  \r\n
+ Additional E911 Caller: VERIZON WIRELESS,,,                   3:00:43  \r\n
+   Caller Address  . . : WIRELESS CALLER                       3:00:43  \r\n
+   Caller Phone  . . . : (609)358-3168                         3:00:43  \r\n
+ VEH INVOLVED IFO ANTHONYS PIZZA 1 SUBJ TO BE                  3:11:24  \r\n
+ EVALUATED//E609 DISPATCHED                                    3:11:32  \r\n
+ F6021 CONFIRMING 2 POLES DOWN AND WIRES BLOCKING NB AND SB    3:11:59  \r\n
+ LANES OF RT130 //                                             3:12:20  \r\n
+ PSE&G NOTIFIED //                                             3:12:27 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ 03212       201200000123             03213       201200000132  \r\n
+ 03400       201200000520             03461       201200000200  \r\n
+ 03601       201200000208             03602       201200000182 \r\n
+\r\n
+The Call Taker is HENNESSY JOHN  \r\n
+The Dispatcher is MOORE DAVID S\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000199                    ORI: 03461         Station:  \r\n
+Incident Type  . :   11 F StrctrFire           Priority: 1  \r\n
+Incident Location: 14 JACOBSTOWN RD                                     Venue: Ocean Co  \r\n
+Common Name. . . : OCEAN COUNTY \r\n
+\r\n
+Call Time- 11:27:08                                Date- 12/07/2012  \r\n
+Dispatch - 11:27:36     En-route- 11:40:50     On-scene- 11:45:50     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 13:34:59 \r\n
+\r\n
+Area:   65              Section :   65         Beat  . : 6590  \r\n
+Grid:                   Quadrant: 6500         District: 6500 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : OCEAN \r\n
+\r\n
+Nature of Call : BUILDING \r\n
+\r\n
+Additional Info  \r\n
+  AGWAY \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: F381    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/07/12  11:27:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/07/12  11:33:50  \r\n
+    Unit: F3811   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/07/12  11:33:50     ENR: 12/07/12  11:34:01  \r\n
+       ARV: 12/07/12  11:37:29     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/07/12  11:48:21  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/07/12  11:27:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F4616   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/07/12  11:40:47     ENR: 12/07/12  11:40:50  \r\n
+       ARV: 12/07/12  11:45:50     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/07/12  13:34:59 \r\n
+\r\n
+The Call Taker is WECKENBROCK MICHAEL G  \r\n
+The Dispatcher is WECKENBROCK MICHAEL G\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000137                    ORI: 03381         Station:  \r\n
+Incident Type  . :   11 F StrctrFire           Priority: 1  \r\n
+Incident Location: 14 JACOBSTOWN RD                                     Venue: Ocean Co  \r\n
+Located Between  :  /  \r\n
+Common Name. . . : OCEAN COUNTY \r\n
+\r\n
+Call Time- 11:27:08                                Date- 12/07/2012  \r\n
+Dispatch - 11:27:36     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area:   65              Section :   65         Beat  . : 6590        Map . . :  \r\n
+Grid:                   Quadrant: 6500         District: 6500 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : OCEAN \r\n
+\r\n
+Units sent  :  \r\n
+ 03381       F381                 03381       F3811  \r\n
+ 03461       F461                 03461       F4616 \r\n
+\r\n
+Nature of Call : BUILDING \r\n
+\r\n
+Additional Info  \r\n
+  AGWAY \r\n
+\r\n
+Additional Inc#s:  \r\n
+ 03461       201200000199 \r\n
+\r\n
+The Call Taker is WECKENBROCK MICHAEL G  \r\n
+The Dispatcher is WECKENBROCK MICHAEL G\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000137                    ORI: 03381         Station:  \r\n
+Incident Type  . :   11 F StrctrFire           Priority: 1  \r\n
+Incident Location: 14 JACOBSTOWN RD                                     Venue: Ocean Co  \r\n
+Located Between  :  /  \r\n
+Common Name. . . : OCEAN COUNTY \r\n
+\r\n
+Call Time- 11:27:08                                Date- 12/07/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area:   65              Section :   65         Beat  . : 6590        Map . . :  \r\n
+Grid:                   Quadrant: 6500         District: 6500 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : OCEAN \r\n
+\r\n
+Units sent  :  \r\n
+ 03381       F381 \r\n
+\r\n
+Nature of Call : BUILDING \r\n
+\r\n
+Additional Info  \r\n
+  AGWAY \r\n
+\r\n
+Additional Inc#s:  \r\n
+ 03461       201200000199 \r\n
+\r\n
+The Call Taker is WECKENBROCK MICHAEL G  \r\n
+The Dispatcher is WECKENBROCK MICHAEL G\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000655                    ORI: E468          Station:  \r\n
+Incident Type  . :  132 E UnkMedEmrg           Priority: 7  \r\n
+Incident Location: 505 E MAIN ST                                        Venue: Wrghtstwn  \r\n
+Common Name. . . : DAYS INN 41 \r\n
+\r\n
+Call Time- 01:02:41                                Date- 12/07/2012  \r\n
+Dispatch - 01:03:28     En-route- 01:04:14     On-scene- 01:11:18     Depart 1- 01:19:40  \r\n
+Arrive 2 - 01:32:16     Depart 2-              In-statn-              Cleared - 01:53:41 \r\n
+\r\n
+Area: 4100              Section : 4100         Beat  . : 4190  \r\n
+Grid:  V13              Quadrant: 4101         District: 4101 \r\n
+\r\n
+Phone Number: (330) 701-3157                Call Source:  911 \r\n
+\r\n
+Caller. . . : PHILLIP MIRACLE \r\n
+\r\n
+Nature of Call : 33 YOM C/O LOWER (L) LEG PAIN//C&A \r\n
+\r\n
+Additional Info  \r\n
+  ROOM 110 \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/07/12  01:03:28     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/07/12  01:04:12     ENR: 12/07/12  01:04:14  \r\n
+       ARV: 12/07/12  01:11:18     DPT: 12/07/12  01:19:40  \r\n
+       AR2: 12/07/12  01:32:16     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/07/12  01:53:41  \r\n
+    Unit: F4119   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/07/12  01:03:28     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/07/12  01:10:32  \r\n
+    Unit: F4112   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/07/12  01:10:32     ENR: 12/07/12  01:10:34  \r\n
+       ARV: 12/07/12  01:13:09     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/07/12  01:19:43  \r\n
+    Unit: F4103   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/07/12  01:13:25     ENR: 12/07/12  01:13:28  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/07/12  01:15:21 \r\n
+\r\n
+The Call Taker is MOORE DAVID S  \r\n
+The Dispatcher is DYE LAURA\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000201                    ORI: 03411         Station:  \r\n
+Incident Type  . :  132 E UnkMedEmrg           Priority: 1  \r\n
+Incident Location: 505 E MAIN ST                                        Venue: Wrghtstwn  \r\n
+Located Between  : FRANCIS ST/NEW HANOVER TWP LINE  \r\n
+Common Name. . . : DAYS INN 41 \r\n
+\r\n
+Call Time- 01:02:41                                Date- 12/07/2012  \r\n
+Dispatch - 01:03:28     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4100              Section : 4100         Beat  . : 4190        Map . . :  \r\n
+Grid:  V13              Quadrant: 4101         District: 4101 \r\n
+\r\n
+Phone Number: (330) 701-3157                Call Source:  911 \r\n
+\r\n
+Caller. . . : PHILLIP MIRACLE \r\n
+\r\n
+Units sent  :  \r\n
+ 03411       F4119                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : 33M LEG PAIN \r\n
+\r\n
+Additional Info  \r\n
+  ROOM 110 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000655 \r\n
+\r\n
+The Call Taker is MOORE DAVID S  \r\n
+The Dispatcher is DYE LAURA\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000201                    ORI: 03411         Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 505 E MAIN ST                                        Venue: Wrghtstwn  \r\n
+Located Between  : FRANCIS ST/NEW HANOVER TWP LINE  \r\n
+Common Name. . . : DAYS INN 41 \r\n
+\r\n
+Call Time- 01:02:41                                Date- 12/07/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4100              Section : 4100         Beat  . : 4190        Map . . :  \r\n
+Grid:  V13              Quadrant: 4101         District: 4101 \r\n
+\r\n
+Phone Number: (330) 701-3157                Call Source:  911 \r\n
+\r\n
+Caller. . . : PHILLIP MIRACLE \r\n
+\r\n
+Nature of Call : 33M LEG PAIN \r\n
+\r\n
+Additional Info  \r\n
+  ROOM 110 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000655 \r\n
+\r\n
+The Call Taker is MOORE DAVID S  \r\n
+The Dispatcher is DYE LAURA\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000654                    ORI: E468          Station:  \r\n
+Incident Type  . :  132 E UnkMedEmrg           Priority: 9  \r\n
+Incident Location: 4283 N FALCON CT                                     Venue: McGuireAFB \r\n
+\r\n
+Call Time- 23:27:59                                Date- 12/06/2012  \r\n
+Dispatch - 23:29:05     En-route- 23:30:33     On-scene- 23:38:24     Depart 1- 23:48:16  \r\n
+Arrive 2 - 00:10:48     Depart 2-              In-statn-              Cleared - 00:26:20 \r\n
+\r\n
+Area: 6701              Section :    2         Beat  . : 6701  \r\n
+Grid:  V14              Quadrant: 6732         District: 6732 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Units sent  :  \r\n
+ E159        E1594                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : EDERLY FEMALE//DIZZY//VOMITING// \r\n
+\r\n
+Additional Info  \r\n
+  APT D \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: E1594   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/06/12  23:41:10     ENR: 12/06/12  23:41:15  \r\n
+       ARV: 12/06/12  23:57:07     DPT: 12/07/12  00:04:52  \r\n
+       AR2: 12/07/12  00:10:48     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/07/12  00:25:39  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/06/12  23:29:05     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/06/12  23:30:31  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/06/12  23:30:31     ENR: 12/06/12  23:30:33  \r\n
+       ARV: 12/06/12  23:38:24     DPT: 12/06/12  23:48:16  \r\n
+       AR2: 12/07/12  00:10:48     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/07/12  00:26:20 \r\n
+\r\n
+The Call Taker is FRIEDRICH JOSHUA  \r\n
+The Dispatcher is DYE LAURA\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000654                    ORI: E468          Station:  \r\n
+Incident Type  . :  132 E UnkMedEmrg           Priority: 1  \r\n
+Incident Location: 4283 N FALCON CT                                     Venue: McGuireAFB  \r\n
+Located Between  :  / \r\n
+\r\n
+Call Time- 23:27:59                                Date- 12/06/2012  \r\n
+Dispatch - 23:29:05     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 6701              Section :    2         Beat  . : 6701        Map . . :  \r\n
+Grid:  V14              Quadrant: 6732         District: 6732 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Units sent  :  \r\n
+ E468        E468                 E468        E4682 \r\n
+\r\n
+Nature of Call : EDERLY FEMALE//DIZZY//VOMITING// \r\n
+\r\n
+Additional Info  \r\n
+  APT D \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is FRIEDRICH JOSHUA  \r\n
+The Dispatcher is DYE LAURA\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000654                    ORI: E468          Station:  \r\n
+Incident Type  . :  132 E UnkMedEmrg           Priority: 1  \r\n
+Incident Location: 4283 N FALCON CT                                     Venue: McGuireAFB  \r\n
+Located Between  :  / \r\n
+\r\n
+Call Time- 23:27:59                                Date- 12/06/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 6701              Section :    2         Beat  . : 6701        Map . . :  \r\n
+Grid:  V14              Quadrant: 6732         District: 6732 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Nature of Call : EDERLY FEMALE//DIZZY//VOMITING// \r\n
+\r\n
+Additional Info  \r\n
+  APT D \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is FRIEDRICH JOSHUA  \r\n
+The Dispatcher is DYE LAURA\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000653                    ORI: E468          Station:  \r\n
+Incident Type  . :  104 E AsltRape             Priority: 1  \r\n
+Incident Location: 4038 W GEORGE ST                                     Venue: McGuireAFB \r\n
+\r\n
+Call Time- 08:00:40                                Date- 12/06/2012  \r\n
+Dispatch - 08:01:55     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 08:05:39 \r\n
+\r\n
+Area: 6701              Section :    2         Beat  . : 6701  \r\n
+Grid:  V14              Quadrant: 6732         District: 6732 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : JOINT BASE \r\n
+\r\n
+Nature of Call : BLS ONLY - ASSAULT VICTIM \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/06/12  08:01:55     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/06/12  08:05:39  \r\n
+ RECALLED BY JOINT BASE FIRE/EMS.                              8:05:35 \r\n
+\r\n
+The Call Taker is YURCHO GEORGE  \r\n
+The Dispatcher is GILBERT CHRISTINE M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000463                    ORI: E679          Station:  \r\n
+Incident Type  . :  104 E AsltRape             Priority: 1  \r\n
+Incident Location: 4038 W GEORGE ST                                     Venue: McGuireAFB  \r\n
+Located Between  : N BOLLING BV/ANDREWS LA \r\n
+\r\n
+Call Time- 08:00:40                                Date- 12/06/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 6701              Section :    2         Beat  . : 6701        Map . . :  \r\n
+Grid:  V14              Quadrant: 6732         District: 6732 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  TEL \r\n
+\r\n
+Caller. . . : JOINT BASE \r\n
+\r\n
+Nature of Call : BLS ONLY - ASSAULT VICTIM \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000653 \r\n
+\r\n
+The Call Taker is YURCHO GEORGE  \r\n
+The Dispatcher is GILBERT CHRISTINE M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000652                    ORI: E468          Station:  \r\n
+Incident Type  . :  106 E Breathin             Priority: 1  \r\n
+Incident Location: 42 CROSSWICKS ELLISDALE RD                           Venue: N Hanover \r\n
+\r\n
+Call Time- 04:00:56                                Date- 12/06/2012  \r\n
+Dispatch - 04:01:57     En-route- 04:08:39     On-scene- 04:15:57     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 04:44:10 \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600  \r\n
+Grid:   Z8              Quadrant: 4611         District: 4611 \r\n
+\r\n
+Phone Number: (609) 259-3847                Call Source:  911 \r\n
+\r\n
+Caller. . . : DANIELLE SMIRES \r\n
+\r\n
+Units sent  :  \r\n
+ E159        E1594                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : 91M//CONS//RESP DISTRESS WITH FLU LIKE SYMPTO \r\n
+\r\n
+Additional Info  \r\n
+  RESD:  \r\n
+  MS//EXTENSIVE HX// \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: E1594   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/06/12  04:01:57     ENR: 12/06/12  04:04:21  \r\n
+       ARV: 12/06/12  04:18:06     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/06/12  04:41:48  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/06/12  04:01:57     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/06/12  04:08:37  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/06/12  04:08:37     ENR: 12/06/12  04:08:39  \r\n
+       ARV: 12/06/12  04:15:57     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/06/12  04:44:10  \r\n
+ PD ON LOC ADVISING PT CARDIAC ARREST                          4:15:14  \r\n
+ ALS/BLS ADVISING PT WAS PRONOUNCED                            4:44:06 \r\n
+\r\n
+The Call Taker is MIAL DORINDA R  \r\n
+The Dispatcher is SPROWL HERBERT H\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000652                    ORI: E468          Station:  \r\n
+Incident Type  . :  106 E Breathin             Priority: 1  \r\n
+Incident Location: 42 CROSSWICKS ELLISDALE RD                           Venue: N Hanover  \r\n
+Located Between  : PROVINCELINE RD/CHESTERFIELD TWP LINE \r\n
+\r\n
+Call Time- 04:00:56                                Date- 12/06/2012  \r\n
+Dispatch - 04:01:57     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600        Map . . :  \r\n
+Grid:   Z8              Quadrant: 4611         District: 4611 \r\n
+\r\n
+Phone Number: (609) 259-3847                Call Source:  911 \r\n
+\r\n
+Caller. . . : DANIELLE SMIRES \r\n
+\r\n
+Units sent  :  \r\n
+ E159        E1594                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : 91M//CONS//RESP DISTRESS WITH FLU LIKE SYMPTO \r\n
+\r\n
+Additional Info  \r\n
+  RESD:  \r\n
+  MS//EXTENSIVE HX// \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E159        201200020503 \r\n
+\r\n
+The Call Taker is MIAL DORINDA R  \r\n
+The Dispatcher is SPROWL HERBERT H\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000652                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 42 CROSSWICKS ELLISDALE RD                           Venue: N Hanover  \r\n
+Located Between  : PROVINCELINE RD/CHESTERFIELD TWP LINE \r\n
+\r\n
+Call Time- 04:00:56                                Date- 12/06/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    9         Beat  . : 4600        Map . . :  \r\n
+Grid:   Z8              Quadrant: 4611         District: 4611 \r\n
+\r\n
+Phone Number: (609) 259-3847                Call Source:  911 \r\n
+\r\n
+Caller. . . : DANIELLE SMIRES \r\n
+\r\n
+Nature of Call : MALE DIFF BREATHING \r\n
+\r\n
+Additional Info  \r\n
+  RESD: \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is MIAL DORINDA R  \r\n
+The Dispatcher is SPROWL HERBERT H\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000198                    ORI: 03461         Station:  \r\n
+Incident Type  . :  129 E AccInjry             Priority: 1  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: N Hanover  \r\n
+  Cross Street . : WRIGHTSTOWN SYKESVILLE RD \r\n
+\r\n
+Call Time- 06:56:29                                Date- 12/05/2012  \r\n
+Dispatch - 06:57:48     En-route- 07:03:24     On-scene- 07:09:14     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 07:12:53 \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4606 \r\n
+\r\n
+Nature of Call : MVA \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC39    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  06:59:09     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC3902  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  07:03:39     ENR: 12/05/12  07:03:43  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/05/12  07:10:03  \r\n
+    Unit: OC306   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  07:04:03     ENR: 12/05/12  07:04:06  \r\n
+       ARV: 12/05/12  07:09:34     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/05/12  07:09:38  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  06:57:47     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/05/12  07:00:20  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  07:00:20     ENR: 12/05/12  07:00:22  \r\n
+       ARV: 12/05/12  07:07:33     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/05/12  07:23:23  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  06:57:48     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F4618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  07:03:23     ENR: 12/05/12  07:03:24  \r\n
+       ARV: 12/05/12  07:09:14     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/05/12  07:12:53 \r\n
+\r\n
+The Call Taker is NIXON KRISTEN L  \r\n
+The Dispatcher is BRIGGS KEVIN S\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000651                    ORI: E468          Station:  \r\n
+Incident Type  . :  129 E AccInjry             Priority: 1  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: N Hanover  \r\n
+  Cross Street . : WRIGHTSTOWN SYKESVILLE RD \r\n
+\r\n
+Call Time- 06:56:29                                Date- 12/05/2012  \r\n
+Dispatch - 06:57:47     En-route- 07:00:22     On-scene- 07:07:33     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 07:23:23 \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4606 \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC39                 CO-15       OC306  \r\n
+ CO-15       OC3902               03461       F461  \r\n
+ 03461       F4618                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : MVA \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC39    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  06:59:09     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC3902  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  07:03:39     ENR: 12/05/12  07:03:43  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/05/12  07:10:03  \r\n
+    Unit: OC306   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  07:04:03     ENR: 12/05/12  07:04:06  \r\n
+       ARV: 12/05/12  07:09:34     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/05/12  07:09:38  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  06:57:47     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/05/12  07:00:20  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  07:00:20     ENR: 12/05/12  07:00:22  \r\n
+       ARV: 12/05/12  07:07:33     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/05/12  07:23:23  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  06:57:48     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F4618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/05/12  07:03:23     ENR: 12/05/12  07:03:24  \r\n
+       ARV: 12/05/12  07:09:14     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/05/12  07:12:53 \r\n
+\r\n
+The Call Taker is NIXON KRISTEN L  \r\n
+The Dispatcher is BRIGGS KEVIN S\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000651                    ORI: E468          Station:  \r\n
+Incident Type  . :  129 E AccInjry             Priority: 1  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: N Hanover  \r\n
+  Cross Street . : WRIGHTSTOWN SYKESVILLE RD \r\n
+\r\n
+Call Time- 06:56:29                                Date- 12/05/2012  \r\n
+Dispatch - 06:57:48     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4606 \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC39                 03461       F461  \r\n
+ 03461       F4618                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : MVA \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200000992             03461       201200000198 \r\n
+\r\n
+The Call Taker is NIXON KRISTEN L  \r\n
+The Dispatcher is BRIGGS KEVIN S\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000651                    ORI: E468          Station:  \r\n
+Incident Type  . :  129 E AccInjry             Priority: 1  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: N Hanover  \r\n
+  Cross Street . : WRIGHTSTOWN SYKESVILLE RD \r\n
+\r\n
+Call Time- 06:56:29                                Date- 12/05/2012  \r\n
+Dispatch - 06:57:47     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4606 \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC39                 03461       F461  \r\n
+ E468        E468                 E468        E4682 \r\n
+\r\n
+Nature of Call : MVA \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200000992             03461       201200000198 \r\n
+\r\n
+The Call Taker is NIXON KRISTEN L  \r\n
+The Dispatcher is BRIGGS KEVIN S\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000651                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: N Hanover  \r\n
+  Cross Street . : WRIGHTSTOWN SYKESVILLE RD \r\n
+\r\n
+Call Time- 06:56:29                                Date- 12/05/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4606 \r\n
+\r\n
+Nature of Call : MVA \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is NIXON KRISTEN L  \r\n
+The Dispatcher is BRIGGS KEVIN S\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000651                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: N Hanover  \r\n
+  Cross Street . : WRIGHTSTOWN SYKESVILLE RD \r\n
+\r\n
+Call Time- 06:56:29                                Date- 12/05/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (000) 000-0000                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4606 \r\n
+\r\n
+Units sent  :  \r\n
+ E468        E468 \r\n
+\r\n
+Nature of Call : MVA \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ 03461       201200000198 \r\n
+\r\n
+The Call Taker is NIXON KRISTEN L  \r\n
+The Dispatcher is BRIGGS KEVIN S\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000650                    ORI: E468          Station:  \r\n
+Incident Type  . :  110 E ChestPain            Priority: 1  \r\n
+Incident Location: 102 GEORGETOWN RD                                    Venue: N Hanover \r\n
+\r\n
+Call Time- 20:53:28                                Date- 12/04/2012  \r\n
+Dispatch - 20:54:32     En-route- 21:00:10     On-scene- 21:07:12     Depart 1- 21:26:53  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 21:53:24 \r\n
+\r\n
+Area: 4600              Section :    5         Beat  . : 4600  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (609) 610-0353                Call Source:  911 \r\n
+\r\n
+Caller. . . : MARICONI MR \r\n
+\r\n
+Units sent  :  \r\n
+ E159        E1594                E159        E1596  \r\n
+ E468        E468                 E468        E4682 \r\n
+\r\n
+Nature of Call : 50 YOF CHEST PAIN//PAIN RADIATING DOWN THE LE \r\n
+\r\n
+Additional Info  \r\n
+  WPH1:  \r\n
+  FT ARM//PRESSURE IN CENTER OF CHEST//DIAPHORTIC// HX OF MI// C&A \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: E1596   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  20:54:32     ENR: 12/04/12  20:57:14  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  21:00:13  \r\n
+    Unit: E1594   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  20:59:58     ENR: 12/04/12  21:00:10  \r\n
+       ARV: 12/04/12  21:10:19     DPT: 12/04/12  21:26:53  \r\n
+       QTR:             :  :       CLR: 12/04/12  21:53:14  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  20:54:32     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  21:00:05  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  21:00:05     ENR: 12/04/12  21:00:10  \r\n
+       ARV: 12/04/12  21:07:12     DPT: 12/04/12  21:26:53  \r\n
+       QTR:             :  :       CLR: 12/04/12  21:53:24 \r\n
+\r\n
+The Call Taker is HENNESSY JOHN  \r\n
+The Dispatcher is BRIGGS KEVIN S\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000650                    ORI: E468          Station:  \r\n
+Incident Type  . :  110 E ChestPain            Priority: 1  \r\n
+Incident Location: 102 GEORGETOWN RD                                    Venue: N Hanover  \r\n
+Located Between  : ELIZABETH ST/SPRINGFIELD TWP LINE \r\n
+\r\n
+Call Time- 20:53:28                                Date- 12/04/2012  \r\n
+Dispatch - 20:54:32     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    5         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (609) 610-0353                Call Source:  911 \r\n
+\r\n
+Caller. . . : MARICONI MR \r\n
+\r\n
+Units sent  :  \r\n
+ E159        E1594                E159        E1596  \r\n
+ E468        E468                 E468        E4682 \r\n
+\r\n
+Nature of Call : 50 YOF CHEST PAIN//PAIN RADIATING DOWN THE LE \r\n
+\r\n
+Additional Info  \r\n
+  WPH1:  \r\n
+  FT ARM//PRESSURE IN CENTER OF CHEST//DIAPHORTIC// HX OF MI// C&A \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Building-GEO : Residential Property  \r\n
+  Date of Entry:     11-26-2003  \r\n
+  Residence Name:    MORICONI  \r\n
+  Residence Phn#:    609-723-7901  \r\n
+  Hazard Info:       DRIVEWAY LOCATED AT FOOT OF THE SMALL WOODEN BRIDGE \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E159        201200020436 \r\n
+\r\n
+The Call Taker is HENNESSY JOHN  \r\n
+The Dispatcher is BRIGGS KEVIN S\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000650                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 102 GEORGETOWN RD                                    Venue: N Hanover  \r\n
+Located Between  : ELIZABETH ST/SPRINGFIELD TWP LINE \r\n
+\r\n
+Call Time- 20:53:28                                Date- 12/04/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    5         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (609) 610-0353                Call Source:  911 \r\n
+\r\n
+Caller. . . : MARICONI MR \r\n
+\r\n
+Nature of Call : FEMALE CHEST PAINS \r\n
+\r\n
+Additional Info  \r\n
+  WPH1: \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Building-GEO : Residential Property  \r\n
+  Date of Entry:     11-26-2003  \r\n
+  Residence Name:    MORICONI  \r\n
+  Residence Phn#:    609-723-7901  \r\n
+  Hazard Info:       DRIVEWAY LOCATED AT FOOT OF THE SMALL WOODEN BRIDGE \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is HENNESSY JOHN  \r\n
+The Dispatcher is BRIGGS KEVIN S\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000649                    ORI: E468          Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: 382 MEANY RD                                         Venue: N Hanover \r\n
+\r\n
+Call Time- 17:39:42                                Date- 12/04/2012  \r\n
+Dispatch - 17:41:36     En-route- 17:42:54     On-scene- 17:47:27     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 18:07:50 \r\n
+\r\n
+Area: 4600              Section :    6         Beat  . : 4600  \r\n
+Grid:  X14              Quadrant: 4613         District: 4613 \r\n
+\r\n
+Phone Number: (609) 758-7928                Call Source:  911 \r\n
+\r\n
+Caller. . . :  JENNIFER RUSS \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC39  \r\n
+ 03381       F3800                03381       F3811  \r\n
+ 03381       F3812                CO-15       OC3902  \r\n
+ 03461       F4600                03461       F4605  \r\n
+ 03461       F4612                E468        E4681  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : MVA// STRUCK RETAINING WALL DRIVER HAS NECK \r\n
+\r\n
+Additional Info  \r\n
+  AND ARM PAIN \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  17:46:38  \r\n
+    Unit: OC39    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC3902  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:49     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  17:46:38  \r\n
+    Unit: E4681   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  17:42:52  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:42:52     ENR: 12/04/12  17:42:54  \r\n
+       ARV: 12/04/12  17:47:27     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  18:07:50  \r\n
+    Unit: F3811   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F3800   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:42:56     ENR: 12/04/12  17:43:00  \r\n
+       ARV: 12/04/12  17:43:45     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  18:07:50  \r\n
+    Unit: F3812   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:45:16     ENR: 12/04/12  17:45:22  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  17:46:38  \r\n
+    Unit: F4612   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  17:46:38  \r\n
+    Unit: F4600   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:45     ENR: 12/04/12  17:41:47  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  18:07:50  \r\n
+    Unit: F4605   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:45:38     ENR: 12/04/12  17:45:42  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  18:07:50  \r\n
+ CALLED OCEAN COUNTY FOR STA 30 AND 39 UNABLE TO GHET A THEM  17:45:14  \r\n
+ VIA LANDLINE.  F4600 ADVISED OF DELAY AND CAN HANDLE WITH    17:45:29  \r\n
+ BURLINGTON COUNTY UNITS                                      17:45:36 \r\n
+\r\n
+The Call Taker is LECONEY KAREN L  \r\n
+The Dispatcher is ENDRES ANTHONY G\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000197                    ORI: 03461         Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: 382 MEANY RD                                         Venue: N Hanover \r\n
+\r\n
+Call Time- 17:39:42                                Date- 12/04/2012  \r\n
+Dispatch - 17:41:36     En-route- 17:41:47     On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 18:07:50 \r\n
+\r\n
+Area: 4600              Section :    6         Beat  . : 4600  \r\n
+Grid:  X14              Quadrant: 4613         District: 4613 \r\n
+\r\n
+Phone Number: (609) 758-7928                Call Source:  911 \r\n
+\r\n
+Caller. . . :  JENNIFER RUSS \r\n
+\r\n
+Nature of Call : MVA// STRUCK RETAINING WALL DRIVER HAS NECK \r\n
+\r\n
+Additional Info  \r\n
+  AND ARM PAIN \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  17:46:38  \r\n
+    Unit: OC39    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC3902  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:49     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  17:46:38  \r\n
+    Unit: E4681   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  17:42:52  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:42:52     ENR: 12/04/12  17:42:54  \r\n
+       ARV: 12/04/12  17:47:27     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  18:07:50  \r\n
+    Unit: F3811   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F3800   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:42:56     ENR: 12/04/12  17:43:00  \r\n
+       ARV: 12/04/12  17:43:45     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  18:07:50  \r\n
+    Unit: F3812   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:45:16     ENR: 12/04/12  17:45:22  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  17:46:38  \r\n
+    Unit: F4612   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:36     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  17:46:38  \r\n
+    Unit: F4600   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:41:45     ENR: 12/04/12  17:41:47  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  18:07:50  \r\n
+    Unit: F4605   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  17:45:38     ENR: 12/04/12  17:45:42  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  18:07:50  \r\n
+ CALLED OCEAN COUNTY FOR STA 30 AND 39 UNABLE TO GHET A THEM  17:45:14  \r\n
+ VIA LANDLINE.  F4600 ADVISED OF DELAY AND CAN HANDLE WITH    17:45:29  \r\n
+ BURLINGTON COUNTY UNITS                                      17:45:36 \r\n
+\r\n
+The Call Taker is LECONEY KAREN L  \r\n
+The Dispatcher is ENDRES ANTHONY G\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000649                    ORI: E468          Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: 382 MEANY RD                                         Venue: N Hanover  \r\n
+Located Between  : JACOBSTOWN NEW EGYPT RD/COOKSTOWN NEW EGYPT R \r\n
+\r\n
+Call Time- 17:39:42                                Date- 12/04/2012  \r\n
+Dispatch - 17:41:36     En-route- 17:41:47     On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    6         Beat  . : 4600        Map . . :  \r\n
+Grid:  X14              Quadrant: 4613         District: 4613 \r\n
+\r\n
+Phone Number: (609) 758-7928                Call Source:  911 \r\n
+\r\n
+Caller. . . :  JENNIFER RUSS \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC39  \r\n
+ 03381       F3800                03381       F3811  \r\n
+ 03381       F3812                CO-15       OC3902  \r\n
+ 03461       F4600                03461       F4612  \r\n
+ E468        E4681                E468        E4682 \r\n
+\r\n
+Nature of Call : MVA// STRUCK RETAINING WALL DRIVER HAS NECK \r\n
+\r\n
+Additional Info  \r\n
+  AND ARM PAIN \r\n
+\r\n
+Narrative  \r\n
+ CALLED OCEAN COUNTY FOR STA 30 AND 39 UNABLE TO GHET A THEM  17:45:14  \r\n
+ VIA LANDLINE.  F4600 ADVISED OF DELAY AND CAN HANDLE WITH    17:45:29  \r\n
+ BURLINGTON COUNTY UNITS                                      17:45:36 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200000990             03381       201200000136  \r\n
+ 03461       201200000197 \r\n
+\r\n
+The Call Taker is LECONEY KAREN L  \r\n
+The Dispatcher is ENDRES ANTHONY G\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000649                    ORI: E468          Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: 382 MEANY RD                                         Venue: N Hanover  \r\n
+Located Between  : JACOBSTOWN NEW EGYPT RD/COOKSTOWN NEW EGYPT R \r\n
+\r\n
+Call Time- 17:39:42                                Date- 12/04/2012  \r\n
+Dispatch - 17:41:36     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    6         Beat  . : 4600        Map . . :  \r\n
+Grid:  X14              Quadrant: 4613         District: 4613 \r\n
+\r\n
+Phone Number: (609) 758-7928                Call Source:  911 \r\n
+\r\n
+Caller. . . :  JENNIFER RUSS \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC39  \r\n
+ 03381       F3811                CO-15       OC3902  \r\n
+ 03461       F4600                03461       F4612  \r\n
+ E468        E4681                E468        E4682 \r\n
+\r\n
+Nature of Call : MVA// VEH INTO WALL \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200000990             03381       201200000136  \r\n
+ 03461       201200000197 \r\n
+\r\n
+The Call Taker is LECONEY KAREN L  \r\n
+The Dispatcher is ENDRES ANTHONY G\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000649                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 382 MEANY RD                                         Venue: N Hanover  \r\n
+Located Between  : JACOBSTOWN NEW EGYPT RD/COOKSTOWN NEW EGYPT R \r\n
+\r\n
+Call Time- 17:39:42                                Date- 12/04/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    6         Beat  . : 4600        Map . . :  \r\n
+Grid:  X14              Quadrant: 4613         District: 4613 \r\n
+\r\n
+Phone Number: (609) 758-7928                Call Source:  911 \r\n
+\r\n
+Caller. . . :  JENNIFER RUSS \r\n
+\r\n
+Nature of Call : MVA// VEH INTO WALL \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ 03461       201200000197 \r\n
+\r\n
+The Call Taker is LECONEY KAREN L  \r\n
+The Dispatcher is ENDRES ANTHONY G\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000649                    ORI: E468          Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: 382 MEANY RD                                         Venue: N Hanover  \r\n
+Located Between  : JACOBSTOWN NEW EGYPT RD/COOKSTOWN NEW EGYPT R \r\n
+\r\n
+Call Time- 17:39:42                                Date- 12/04/2012  \r\n
+Dispatch - 17:41:36     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    6         Beat  . : 4600        Map . . :  \r\n
+Grid:  X14              Quadrant: 4613         District: 4613 \r\n
+\r\n
+Phone Number: (609) 758-7928                Call Source:  911 \r\n
+\r\n
+Caller. . . :  JENNIFER RUSS \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC39  \r\n
+ 03381       F3811                03461       F4612  \r\n
+ E468        E4681 \r\n
+\r\n
+Nature of Call : MVA// VEH INTO WALL \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200000990             03381       201200000136  \r\n
+ 03461       201200000197 \r\n
+\r\n
+The Call Taker is LECONEY KAREN L  \r\n
+The Dispatcher is ENDRES ANTHONY G\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000649                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 382 MEANY RD                                         Venue: N Hanover  \r\n
+Located Between  : JACOBSTOWN NEW EGYPT RD/COOKSTOWN NEW EGYPT R \r\n
+\r\n
+Call Time- 17:39:42                                Date- 12/04/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    6         Beat  . : 4600        Map . . :  \r\n
+Grid:  X14              Quadrant: 4613         District: 4613 \r\n
+\r\n
+Phone Number: (609) 758-7928                Call Source:  911 \r\n
+\r\n
+Caller. . . :  JENNIFER RUSS \r\n
+\r\n
+Units sent  :  \r\n
+ 03381       F3811                03461       F4612 \r\n
+\r\n
+Nature of Call : MVA// VEH INTO WALL \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ 03381       201200000136             03461       201200000197 \r\n
+\r\n
+The Call Taker is LECONEY KAREN L  \r\n
+The Dispatcher is ENDRES ANTHONY G\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000648                    ORI: E468          Station:  \r\n
+Incident Type  . :  129 E AccInjry             Priority: 1  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: N Hanover  \r\n
+  Cross Street . : NEW HANOVER TWP LINE \r\n
+\r\n
+Call Time- 11:44:01                                Date- 12/04/2012  \r\n
+Dispatch - 11:44:35     En-route- 11:47:29     On-scene- 11:53:38     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 11:54:04 \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (609) 462-1689                Call Source:  TEL \r\n
+\r\n
+Caller. . . : USA TOWING \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC309                CO-15       OC3902  \r\n
+ 03461       F461                 E468        E4682 \r\n
+\r\n
+Nature of Call : VEH HIT MEDIAN//IN FAST LANE WITH FLAT \r\n
+\r\n
+Additional Info  \r\n
+  HEADING TWRD SYKESVILLE RD \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC309   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  11:44:35     ENR: 12/04/12  11:46:50  \r\n
+       ARV: 12/04/12  11:51:44     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  12:05:04  \r\n
+    Unit: OC3902  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  11:44:35     ENR: 12/04/12  11:46:58  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  11:52:14  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  11:44:35     ENR: 12/04/12  11:47:29  \r\n
+       ARV: 12/04/12  11:53:38     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  11:54:04  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  11:44:35     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  11:54:45  \r\n
+ Wrecker selected from USA                                    11:34:45  \r\n
+ BMW//REQ FLATBED...                                          11:35:46 \r\n
+\r\n
+The Call Taker is HAINES WILLIAM  \r\n
+The Dispatcher is KNOTT VINCENT M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000196                    ORI: 03461         Station:  \r\n
+Incident Type  . :  129 E AccInjry             Priority: 1  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: N Hanover  \r\n
+  Cross Street . : NEW HANOVER TWP LINE \r\n
+\r\n
+Call Time- 11:44:01                                Date- 12/04/2012  \r\n
+Dispatch - 11:44:35     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 11:54:45 \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (609) 462-1689                Call Source:  TEL \r\n
+\r\n
+Caller. . . : USA TOWING \r\n
+\r\n
+Nature of Call : VEH HIT MEDIAN//IN FAST LANE WITH FLAT \r\n
+\r\n
+Additional Info  \r\n
+  HEADING TWRD SYKESVILLE RD \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC309   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  11:44:35     ENR: 12/04/12  11:46:50  \r\n
+       ARV: 12/04/12  11:51:44     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  12:05:04  \r\n
+    Unit: OC3902  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  11:44:35     ENR: 12/04/12  11:46:58  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  11:52:14  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  11:44:35     ENR: 12/04/12  11:47:29  \r\n
+       ARV: 12/04/12  11:53:38     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  11:54:04  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  11:44:35     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  11:54:45  \r\n
+ Wrecker selected from USA                                    11:34:45  \r\n
+ BMW//REQ FLATBED...                                          11:35:46 \r\n
+\r\n
+The Call Taker is HAINES WILLIAM  \r\n
+The Dispatcher is KNOTT VINCENT M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000648                    ORI: E468          Station:  \r\n
+Incident Type  . : 1660 P MVA No Inj           Priority: 2  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: N Hanover  \r\n
+  Cross Street . : NEW HANOVER TWP LINE \r\n
+\r\n
+Call Time- 11:44:01                                Date- 12/04/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (609) 462-1689                Call Source:  TEL \r\n
+\r\n
+Caller. . . : USA TOWING \r\n
+\r\n
+Units sent  :  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : VEH HIT MEDIAN//IN FAST LANE WITH FLAT \r\n
+\r\n
+Additional Info  \r\n
+  HEADING TWRD SYKESVILLE RD \r\n
+\r\n
+Narrative  \r\n
+ Wrecker selected from USA                                    11:34:45  \r\n
+ BMW//REQ FLATBED...                                          11:35:46 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ 03461       201200000196 \r\n
+\r\n
+The Call Taker is HAINES WILLIAM  \r\n
+The Dispatcher is KNOTT VINCENT M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000648                    ORI: E468          Station:  \r\n
+Incident Type  . : 1660 P MVA No Inj           Priority: 2  \r\n
+Incident Location: DEFENSE ACCESS RD                                    Venue: N Hanover  \r\n
+  Cross Street . : NEW HANOVER TWP LINE \r\n
+\r\n
+Call Time- 11:44:01                                Date- 12/04/2012  \r\n
+Dispatch - 11:44:35     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    7         Beat  . : 4600        Map . . :  \r\n
+Grid:  V12              Quadrant: 4614         District: 4612 \r\n
+\r\n
+Phone Number: (609) 462-1689                Call Source:  TEL \r\n
+\r\n
+Caller. . . : USA TOWING \r\n
+\r\n
+Units sent  :  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : VEH HIT MEDIAN//IN FAST LANE WITH FLAT \r\n
+\r\n
+Additional Info  \r\n
+  HEADING TWRD SYKESVILLE RD \r\n
+\r\n
+Narrative  \r\n
+ Wrecker selected from USA                                    11:34:45  \r\n
+ BMW//REQ FLATBED...                                          11:35:46 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is HAINES WILLIAM  \r\n
+The Dispatcher is KNOTT VINCENT M\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000195                    ORI: 03461         Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: 242 MONMOUTH RD                                      Venue: N Hanover  \r\n
+Common Name. . . : BLACEYS AUTO PARTS \r\n
+\r\n
+Call Time- 10:12:03                                Date- 12/04/2012  \r\n
+Dispatch - 10:13:17     En-route- 10:15:03     On-scene- 10:16:32     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 10:37:00 \r\n
+\r\n
+Area: 4600              Section :    8         Beat  . : 4600  \r\n
+Grid:  Z12              Quadrant: 4615         District: 4611 \r\n
+\r\n
+Phone Number: (609) 758-8737                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4630 \r\n
+\r\n
+Nature of Call : MVA 2 PTS WITH HEAD & NECK PAIN \r\n
+\r\n
+Additional Info  \r\n
+  IFO \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:13:42     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC3918  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:13:42     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC309   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:15:51     ENR: 12/04/12  10:15:53  \r\n
+       ARV: 12/04/12  10:17:09     DPT: 12/04/12  10:31:06  \r\n
+       AR2: 12/04/12  10:42:42     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  11:19:37  \r\n
+    Unit: OC3902  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:16:23     ENR: 12/04/12  10:16:26  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  10:17:03  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:13:17     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  10:14:23  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:14:23     ENR: 12/04/12  10:14:25  \r\n
+       ARV: 12/04/12  10:17:06     DPT: 12/04/12  10:27:53  \r\n
+       AR2: 12/04/12  10:41:23     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  11:19:37  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:13:17     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F4600   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:15:01     ENR: 12/04/12  10:15:03  \r\n
+       ARV: 12/04/12  10:16:32     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  10:37:00  \r\n
+    Unit: F4618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:20:39     ENR: 12/04/12  10:20:42  \r\n
+       ARV: 12/04/12  10:22:42     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  10:37:00  \r\n
+ F4600 ADVS MINOR 2 VEH MVA//RECALL OC3902                    10:16:58 \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is JOHNSON THOMAS\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000647                    ORI: E468          Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: 242 MONMOUTH RD                                      Venue: N Hanover  \r\n
+Common Name. . . : BLACEYS AUTO PARTS \r\n
+\r\n
+Call Time- 10:12:03                                Date- 12/04/2012  \r\n
+Dispatch - 10:13:17     En-route- 10:14:25     On-scene- 10:17:06     Depart 1- 10:27:53  \r\n
+Arrive 2 - 10:41:23     Depart 2-              In-statn-              Cleared - 11:19:37 \r\n
+\r\n
+Area: 4600              Section :    8         Beat  . : 4600  \r\n
+Grid:  Z12              Quadrant: 4615         District: 4611 \r\n
+\r\n
+Phone Number: (609) 758-8737                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4630 \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC309  \r\n
+ CO-15       OC3902               CO-15       OC3918  \r\n
+ 03461       F4600                03461       F461  \r\n
+ 03461       F4618                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : MVA 2 PTS WITH HEAD & NECK PAIN \r\n
+\r\n
+Additional Info  \r\n
+  IFO \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:13:42     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC3918  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:13:42     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC309   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:15:51     ENR: 12/04/12  10:15:53  \r\n
+       ARV: 12/04/12  10:17:09     DPT: 12/04/12  10:31:06  \r\n
+       AR2: 12/04/12  10:42:42     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  11:19:37  \r\n
+    Unit: OC3902  Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:16:23     ENR: 12/04/12  10:16:26  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  10:17:03  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:13:17     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  10:14:23  \r\n
+    Unit: E4682   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:14:23     ENR: 12/04/12  10:14:25  \r\n
+       ARV: 12/04/12  10:17:06     DPT: 12/04/12  10:27:53  \r\n
+       AR2: 12/04/12  10:41:23     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  11:19:37  \r\n
+    Unit: F461    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:13:17     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: F4600   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:15:01     ENR: 12/04/12  10:15:03  \r\n
+       ARV: 12/04/12  10:16:32     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  10:37:00  \r\n
+    Unit: F4618   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  10:20:39     ENR: 12/04/12  10:20:42  \r\n
+       ARV: 12/04/12  10:22:42     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  10:37:00  \r\n
+ F4600 ADVS MINOR 2 VEH MVA//RECALL OC3902                    10:16:58 \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is JOHNSON THOMAS\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000647                    ORI: E468          Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: 242 MONMOUTH RD                                      Venue: N Hanover  \r\n
+Located Between  : YORKSHIRE TE/IVY LA  \r\n
+Common Name. . . : BLACEYS AUTO PARTS \r\n
+\r\n
+Call Time- 10:12:03                                Date- 12/04/2012  \r\n
+Dispatch - 10:13:17     En-route- 10:15:03     On-scene- 10:16:32     Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    8         Beat  . : 4600        Map . . :  \r\n
+Grid:  Z12              Quadrant: 4615         District: 4611 \r\n
+\r\n
+Phone Number: (609) 758-8737                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4630 \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC309  \r\n
+ CO-15       OC3902               CO-15       OC3918  \r\n
+ 03461       F4600                03461       F461  \r\n
+ 03461       F4618                E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : MVA 2 PTS WITH HEAD & NECK PAIN \r\n
+\r\n
+Additional Info  \r\n
+  IFO \r\n
+\r\n
+Narrative  \r\n
+ F4600 ADVS MINOR 2 VEH MVA//RECALL OC3902                    10:16:58 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200000988             03461       201200000195 \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is JOHNSON THOMAS\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000647                    ORI: E468          Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: 242 MONMOUTH RD                                      Venue: N Hanover  \r\n
+Located Between  : YORKSHIRE TE/IVY LA  \r\n
+Common Name. . . : BLACEYS AUTO PARTS \r\n
+\r\n
+Call Time- 10:12:03                                Date- 12/04/2012  \r\n
+Dispatch - 10:13:17     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    8         Beat  . : 4600        Map . . :  \r\n
+Grid:  Z12              Quadrant: 4615         District: 4611 \r\n
+\r\n
+Phone Number: (609) 758-8737                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4630 \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC3918  \r\n
+ 03461       F4600                03461       F461  \r\n
+ E468        E468                 E468        E4682 \r\n
+\r\n
+Nature of Call : MVA 2 PTS WITH HEAD & NECK PAIN \r\n
+\r\n
+Additional Info  \r\n
+  IFO \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200000988             03461       201200000195 \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is JOHNSON THOMAS\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000647                    ORI: E468          Station:  \r\n
+Incident Type  . : 129F E Mva/Fire             Priority: 1  \r\n
+Incident Location: 242 MONMOUTH RD                                      Venue: N Hanover  \r\n
+Located Between  : YORKSHIRE TE/IVY LA  \r\n
+Common Name. . . : BLACEYS AUTO PARTS \r\n
+\r\n
+Call Time- 10:12:03                                Date- 12/04/2012  \r\n
+Dispatch - 10:13:17     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    8         Beat  . : 4600        Map . . :  \r\n
+Grid:  Z12              Quadrant: 4615         District: 4611 \r\n
+\r\n
+Phone Number: (609) 758-8737                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4630 \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC3918  \r\n
+ 03461       F461                 E468        E468  \r\n
+ E468        E4682 \r\n
+\r\n
+Nature of Call : MVA 2 PTS WITH HEAD & NECK PAIN \r\n
+\r\n
+Additional Info  \r\n
+  IFO \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ CO-15       201200000988             03461       201200000195 \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is JOHNSON THOMAS\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000647                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 242 MONMOUTH RD                                      Venue: N Hanover  \r\n
+Located Between  : YORKSHIRE TE/IVY LA  \r\n
+Common Name. . . : BLACEYS AUTO PARTS \r\n
+\r\n
+Call Time- 10:12:03                                Date- 12/04/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    8         Beat  . : 4600        Map . . :  \r\n
+Grid:  Z12              Quadrant: 4615         District: 4611 \r\n
+\r\n
+Phone Number: (609) 758-8737                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4630 \r\n
+\r\n
+Units sent  :  \r\n
+ E468        E468 \r\n
+\r\n
+Nature of Call : MVA 2 PTS WITH HEAD & NECK PAIN \r\n
+\r\n
+Additional Info  \r\n
+  IFO \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ 03461       201200000195 \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is JOHNSON THOMAS\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000647                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 242 MONMOUTH RD                                      Venue: N Hanover  \r\n
+Located Between  : YORKSHIRE TE/IVY LA  \r\n
+Common Name. . . : BLACEYS AUTO PARTS \r\n
+\r\n
+Call Time- 10:12:03                                Date- 12/04/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    8         Beat  . : 4600        Map . . :  \r\n
+Grid:  Z12              Quadrant: 4615         District: 4611 \r\n
+\r\n
+Phone Number: (609) 758-8737                Call Source:  RAD \r\n
+\r\n
+Caller. . . : P4630 \r\n
+\r\n
+Nature of Call : MVA 2 PTS WITH HEAD & NECK PAIN \r\n
+\r\n
+Additional Info  \r\n
+  IFO \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is SUMNER MARGARET L  \r\n
+The Dispatcher is JOHNSON THOMAS\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000646                    ORI: E468          Station:  \r\n
+Incident Type  . :  124 E Pregnant             Priority: 1  \r\n
+Incident Location: 221 COOKSTOWN NEW EGYPT RD                           Venue: N Hanover  \r\n
+Common Name. . . : HANOVER EAST APTS \r\n
+\r\n
+Call Time- 06:03:40                                Date- 12/04/2012  \r\n
+Dispatch - 06:05:01     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 06:14:59 \r\n
+\r\n
+Area: 4600              Section :    1         Beat  . : 4600  \r\n
+Grid:  X14              Quadrant: 4622         District: 4613 \r\n
+\r\n
+Phone Number: (609) 558-7025                Call Source:  911 \r\n
+\r\n
+Caller. . . : DEITER MR \r\n
+\r\n
+Units sent  :  \r\n
+ CO-15       OC30                 CO-15       OC309  \r\n
+ E468        E468 \r\n
+\r\n
+Nature of Call : FEMALE 3RD CHILD HAVING CONTRACTIONS UNSURE \r\n
+\r\n
+Additional Info  \r\n
+  APT F8  \r\n
+  HOW FAR APART \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: OC30    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  06:06:45     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: OC309   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  06:10:23     ENR: 12/04/12  06:10:26  \r\n
+       ARV: 12/04/12  06:12:42     DPT: 12/04/12  06:25:54  \r\n
+       QTR:             :  :       CLR: 12/04/12  06:49:06  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/04/12  06:05:01     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/04/12  06:14:59 \r\n
+\r\n
+The Call Taker is HENNESSY JOHN  \r\n
+The Dispatcher is WILSON KEON C\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000646                    ORI: E468          Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 221 COOKSTOWN NEW EGYPT RD                           Venue: N Hanover  \r\n
+Located Between  : CALIFORNIA VILLA/OCEAN COUNTY LINE  \r\n
+Common Name. . . : HANOVER EAST APTS \r\n
+\r\n
+Call Time- 06:03:40                                Date- 12/04/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4600              Section :    1         Beat  . : 4600        Map . . :  \r\n
+Grid:  X14              Quadrant: 4622         District: 4613 \r\n
+\r\n
+Phone Number: (609) 558-7025                Call Source:  911 \r\n
+\r\n
+Caller. . . : DEITER MR \r\n
+\r\n
+Nature of Call : MATERNITY \r\n
+\r\n
+Additional Info  \r\n
+  APT F8 \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Resident Name - ZWEIBACK,SCOTT,,,  \r\n
+ Suspect in Case: 201200004474 \r\n
+\r\n
+Additional Inc#s: \r\n
+\r\n
+The Call Taker is HENNESSY JOHN  \r\n
+The Dispatcher is WILSON KEON C\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \r\n
+Incident Number  : 2012-00000645                    ORI: E468          Station:  \r\n
+Incident Type  . :  110 E ChestPain            Priority: 9  \r\n
+Incident Location: 49 W MAIN ST                                         Venue: Wrghtstwn \r\n
+\r\n
+Call Time- 22:51:43                                Date- 12/01/2012  \r\n
+Dispatch - 22:52:44     En-route- 22:55:19     On-scene- 23:02:00     Depart 1- 23:11:56  \r\n
+Arrive 2 - 23:26:11     Depart 2-              In-statn-              Cleared - 23:42:36 \r\n
+\r\n
+Area: 4100              Section : 4100         Beat  . : 4190  \r\n
+Grid:  U13              Quadrant: 4101         District: 4101 \r\n
+\r\n
+Phone Number: (856) 470-7848                Call Source:  911 \r\n
+\r\n
+Caller. . . : CHRIS GOFF \r\n
+\r\n
+Nature of Call : 51M CHEST PAIN//RESP DIFF//NO OTHER COMPLAINT \r\n
+\r\n
+Additional Info  \r\n
+  WPH2:  RADIUS 04 MILES  \r\n
+  //DENIES HX//C&A \r\n
+\r\n
+Narrative  \r\n
+ Information on the units assigned to the call follows.  \r\n
+    Unit: E1594   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/01/12  22:52:44     ENR: 12/01/12  22:53:39  \r\n
+       ARV: 12/01/12  23:04:09     DPT: 12/01/12  23:11:56  \r\n
+       AR2: 12/01/12  23:26:11     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/01/12  23:43:09  \r\n
+    Unit: E3393   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/01/12  22:52:44     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: E3391   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/01/12  22:55:36     ENR: 12/01/12  22:55:42  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/01/12  22:55:46  \r\n
+    Unit: E468    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/01/12  22:52:44     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR:             :  :  \r\n
+    Unit: E4681   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/01/12  22:55:16     ENR: 12/01/12  22:55:19  \r\n
+       ARV: 12/01/12  23:02:00     DPT: 12/01/12  23:11:56  \r\n
+       AR2: 12/01/12  23:26:11     DP2:             :  :  \r\n
+       QTR:             :  :       CLR: 12/01/12  23:42:36  \r\n
+    Unit: F411    Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/01/12  22:52:44     ENR:             :  :  \r\n
+       ARV:             :  :       DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/01/12  22:56:56  \r\n
+    Unit: F4112   Radio:           Ofcr 1:            Ofcr 2:  \r\n
+       DSP: 12/01/12  22:56:56     ENR: 12/01/12  22:56:59  \r\n
+       ARV: 12/01/12  22:57:58     DPT:             :  :  \r\n
+       QTR:             :  :       CLR: 12/01/12  23:13:20 \r\n
+\r\n
+The Call Taker is MIAL DORINDA R  \r\n
+The Dispatcher is MOORE DAVID S\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000200                    ORI: 03411         Station:  \r\n
+Incident Type  . :  110 E ChestPain            Priority: 1  \r\n
+Incident Location: 49 W MAIN ST                                         Venue: Wrghtstwn  \r\n
+Located Between  : FT DIX ST/MEETING HOUSE RD \r\n
+\r\n
+Call Time- 22:51:43                                Date- 12/01/2012  \r\n
+Dispatch - 22:52:44     En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4100              Section : 4100         Beat  . : 4190        Map . . :  \r\n
+Grid:  U13              Quadrant: 4101         District: 4101 \r\n
+\r\n
+Phone Number: (856) 470-7848                Call Source:  911 \r\n
+\r\n
+Caller. . . : CHRIS GOFF \r\n
+\r\n
+Units sent  :  \r\n
+ E159        E1594                E339        E3393  \r\n
+ 03411       F411                 E468        E468  \r\n
+ E468        E4681 \r\n
+\r\n
+Nature of Call : 51M CHEST PAIN//RESP DIFF//NO OTHER COMPLAINT \r\n
+\r\n
+Additional Info  \r\n
+  WPH2:  RADIUS 04 MILES  \r\n
+  //DENIES HX//C&A \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E159        201200020241             E339        201200001355  \r\n
+ E468        201200000645 \r\n
+\r\n
+The Call Taker is MIAL DORINDA R  \r\n
+The Dispatcher is MOORE DAVID S\r\n
+\r\n
+\r\n
+Subject: 461/468
+\r\n
+  \r\n
+Incident Number  : 2012-00000200                    ORI: 03411         Station:  \r\n
+Incident Type  . :  EMS E EMS Call             Priority: 1  \r\n
+Incident Location: 49 W MAIN ST                                         Venue: Wrghtstwn  \r\n
+Located Between  : FT DIX ST/MEETING HOUSE RD \r\n
+\r\n
+Call Time- 22:51:43                                Date- 12/01/2012  \r\n
+Dispatch -              En-route-              On-scene-              Depart 1-  \r\n
+Arrive 2 -              Depart 2-              In-statn- \r\n
+\r\n
+Area: 4100              Section : 4100         Beat  . : 4190        Map . . :  \r\n
+Grid:  U13              Quadrant: 4101         District: 4101 \r\n
+\r\n
+Phone Number: (856) 470-7848                Call Source:  911 \r\n
+\r\n
+Caller. . . : CHRIS GOFF \r\n
+\r\n
+Nature of Call : MALE HAVING CHEST PAINS \r\n
+\r\n
+Additional Info  \r\n
+  WPH2:  RADIUS 04 MILES \r\n
+\r\n
+Address Checks \r\n
+\r\n
+Additional Inc#s:  \r\n
+ E468        201200000645 \r\n
+\r\n
+The Call Taker is MIAL DORINDA R  \r\n
+The Dispatcher is MOORE DAVID S\r\n
+\r\n
+\r\n
+Subject: Active911 Update: Scheduled maintenance
+\r\n
+We will be performing server upgrades over the next several days. Expect some possible brief outages, mostly after midnight. We do not expect any outage to last more than 20 minutes, but we want everyone to be prepared in case there is a missed alarm or some glitchy behavior. \r\n
+\r\n
+More information:\r\n
+\r\n
+https://www.active911.com/node/87\r\n
+\r\n
+\r\n
+\r\n
+\r\n
+Thanks,\r\n
+\r\n
+The Active911 Team\r\n
+\r\n
+You are receiving this email because of your affiliation with Active911.\r\n
