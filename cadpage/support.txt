@@ -500,15 +500,14 @@ Good luck
 -Ken
 
 ******************************************************************
+* Direct paging delays 
 
-This has been reported by a few people using direct paging.  The Google protocol we use to push pages out to Cadpage seems to suffer from unexplained delays.  If only affects a few people, but once it starts happening it seems to reoccur.  We are still trying to figure out why.
+This has been reported by a few people using direct paging.  The Google protocol we use to push pages out to Cadpage seems to suffer from unexplained delays.  If only affects a few people, but once it starts happening it seems to reoccur.  Usually restarting the device and reconnecting to your direct paging vendor fixes the problem.  To do that, go into settings and select
+Direct Paging Vendors > Reconnect Direct Paging
 
-The data push process is dependent on the reliability of your phone's Internet connectivity.  If using a local WiFi access, and your local ISP is unreliable, or if the line is clogged with kids downloading stuff.  You could experience problems.  These are things that are worth checking into, but the delay issues has been reported by people with solid Internet connections, so there has to be something else.
+You can go to the Active911 member info page, select the devices tab and send yourself a test message to see how it is working.
 
-Unregistering and reregistering Cadpage with Active911 does seem to help, at least temporarily.  To do this, go into Cadpage Settings and select
-Direct Paging Vendors > Active911.com > Unregister, followed by Register
-
-Let us know how things work out.
+Good luck,
 -Ken
 
 ******************************************************************

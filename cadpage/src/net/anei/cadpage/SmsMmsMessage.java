@@ -955,8 +955,6 @@ public class SmsMmsMessage implements Serializable {
  
   public boolean duplicate(SmsMmsMessage msg) {
     if (messageType != msg.messageType) return false;
-    if (!match(fromAddress, msg.fromAddress)) return false;
-    if (messageType != msg.messageType) return false;
     if (messageType == MESSAGE_TYPE_MMS) {
       return match(contentLoc, msg.contentLoc) &&
           match(mmsMsgId, msg.mmsMsgId);
