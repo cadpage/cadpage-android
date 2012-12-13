@@ -3597,9 +3597,6 @@ Sender: libertyfc@fdcms.com
 Contact: Bill Nestor <bnest19@gmail.com>
 Sender: wwfc.fdcms1@verizon.net
 FRM:wwfc.fdcms1@verizon.net\nSUBJ:Dispatch\nMSG:14:30 ** BRIANS HOUSE--610-594-8344- ** DEAD END & OAK LA ** ALARM - FIRE * ** 0603 ** WWHITE **
-Contact: Jinx Ratcliff <mysterymachinegt@yahoo.com>
-Sender: 44@westwoodfire.com
-  / Dispatch\n19:40\nBUILDING FIRE *\n1614 COBBLESTONE DR ,16  btwn FLINT DR &\n3RD FLR\nCOUZ,GABRIEL\n610-354-282\n\n**********************************************************
 Unknown
 Contact: Chris <chrisdi9@aol.com>
 Sender: Dispatch@TomsRiver.org
@@ -4849,6 +4846,17 @@ Contact: David Liske <david.liskeusmc@gmail.com>
 Sender: secc@scott.ia.us
 (Incident) MCFD\2s106 N SALINA ST McCausland EMS or MVC-Solo\2sCall successfully transferred to peer Agency. [MedicEMS]\2sPeer CFS Number = 0045-A_2012-12-01 [MedicEM
 **********************************************************
+************  FARMED OUT *********************************
+**********************************************************
+Livingston County, NY (NYLivingstonCountyParser)
+(Automatic R&R Notification) \n  \nIncident Number  : 2012-00001594                    ORI: EMSGENESE     Station:  \nIncident Type  . :  5A2 E 5A2                  Priority: 4  \nIncident Location: 182 LIMA RD                                          Venue: V/GENESEO  \nLocated Between  : KIMBERLY DR/IVY LN \n\nCall Time- 13:55:50                                Date- 12/12/2012  \nDispatch -              En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: PDGE              Section :    1         Beat  . :  GPD        Map . . :  \nGrid:                   Quadrant: GENF         District: GENA \n\nPhone Number: (585) 243-3772                Call Source: E911 \n\nCaller. . . : SHELLY STUEWE \n\nNature of Call : ROOD RES PAIN FROM MOVING TO CHAIR 71 YO \n\nAdditional Info  \n  BACK PAIN  \n  RESD: \n\nAddress Checks \n\nAdditional Inc#s: \n\nThe Call Taker is MORRIS WENDY L  \nThe Dispatcher is MORRIS WENDY L
+(Automatic R&R Notification) \n  \nIncident Number  : 2012-00000349                    ORI: FDGENESEO     Station:  \nIncident Type  . :  631 F CONT BURN            Priority: 4  \nIncident Location: 4818 LIMA RD                                         Venue: T/GENESEO  \nLocated Between  : ELM RD/NORTH RD \n\nCall Time- 09:33:44                                Date- 12/12/2012  \nDispatch -              En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: SOGE              Section :    1         Beat  . : AZON        Map . . :   E7  \nGrid:                   Quadrant: GENF         District: GENA \n\nPhone Number: (000) 746-3096                Call Source:  TEL \n\nCaller. . . : THOMAS LINSNER \n\nNature of Call : CONTROLLED BURN LAND CLEARING FOR THE DAY \n\nAdditional Inc#s: \n\nThe Call Taker is MORRIS WENDY L  \nThe Dispatcher is MORRIS WENDY L
+(Automatic R&R Notification) \n  \nIncident Number  : 2012-00001593                    ORI: EMSGENESE     Station:  \nIncident Type  . : 10D4 E 10D4                 Priority: 1  \nIncident Location: 133 CENTER ST                                        Venue: V/GENESEO  \nLocated Between  : STUYVESANT MA/E SOUTH ST  \nCommon Name. . . : GENESEO EMS HALL \n\nCall Time- 02:12:20                                Date- 12/12/2012  \nDispatch -              En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: PDGE              Section :    1         Beat  . :  GPD        Map . . :  \nGrid:                   Quadrant: GENF         District: GENA \n\nPhone Number: (000) 356-3952                Call Source: C911 \n\nCaller. . . : JENNIFER NIZIOL \n\nNature of Call : 27YOM HEART HX-3  CHEST PAIN/ABD PAIN/DOWN \n\nAdditional Info  \n  LEFT ARM CLAMMY  \n  2008 CHEVY COBALT \n\nAddress Checks \n\nAdditional Inc#s: \n\nThe Call Taker is CARROLL LONNI  \nThe Dispatcher is CARROLL LONNI
+**********************************************************
+Chester County, PA (PAChesterCountyHParser)
+Dispatch\n13:35\nBACK PAIN - ALS *\n1226 W LINCOLN HW ,38  btwn AIRPORT RD &\n\n\n610-384-902
+Dispatch\n08:00\nRESPIRATORY DIFFICULTY - ALS *\n615 W LINCOLN HW ,38  btwn MOUNT PLEASAN\n\nMORRIS, DONNA\n610-679-021
+Dispatch\n01:48\nRESPIRATORY DIFFICULTY - ALS *\n370 E CHESTNUT ST ,16  btwn N THIRD AV &\n1ST FL APT\nSPUILL, SHERMAN\n215-626-746
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5030,4 +5038,3 @@ Sender: CSOCallComplete@MCSONJ.ORG
 **********************************************************
 * EOF
 **********************************************************
-
