@@ -29,8 +29,8 @@ Fhowrpg:VAWHEL NPPVQRAG\a480GU & 289GU - 1 SRZNYR JVGU HAXABJA VAWHEL\e
 (12-15072 - NZO : Nzohynapr Pnyy) 440 A UVNJNGUN QE, PNAGBA, FQ 82 l/b S cg - TV Oyrrq - Cyrnfr erfcbaq vzzrqvngryl.
 (12-14996 - NZO : Nzohynapr Pnyy) 908 Natry Ya, Pnagba, FQ 57013 \e\aCyrnfr erfcbaq vzzrqvngryl. Zrqvp Nyreg.
 (12-15941 - NZO : Nzohynapr Pnyy) 47926 275GU FG Ryqreyl Z cg - Cbff Fgebxr.  Cyrnfr erfcbaq vzzrqvngryl.
-
 27527 481fg nir, sbe nqhyg znyr qvnorgvp, unf unq fvrmher naq vf abj haerfcbafvir
+(224 J 3EQ FG) CQ ERDHRFG PBQR 1 SBE FGNAQ OL
 
 
 ** Cnefre snvyherf **
@@ -198,6 +198,11 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZO : Nzohynapr Pnyy",
         "NQQE:47926 275GU FG",
         "VASB:Ryqreyl Z cg - Cbff Fgebxr.");
+
+    qbGrfg("G20",
+        "(224 J 3EQ FG) CQ ERDHRFG PBQR 1 SBE FGNAQ OL",
+        "PNYY:CQ ERDHRFG PBQR 1 SBE FGNAQ OL",
+        "NQQE:224 J 3EQ FG");
 
   }
   

@@ -34,6 +34,12 @@ public class SDLincolnCountyParser extends SmartAddressParser {
     
     if (subject.length() == 0) return false;
     
+    if (checkAddress(subject) > 1) {
+      parseAddress(subject, data);
+      data.strCall = body;
+      return true;
+    }
+    
     boolean good = false;
     Matcher match = CALL_ID_PTN.matcher(subject);
     if (match.find()) {
