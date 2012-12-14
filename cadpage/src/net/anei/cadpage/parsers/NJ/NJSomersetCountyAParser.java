@@ -29,7 +29,7 @@ public class NJSomersetCountyAParser extends MsgParser {
   private static final Pattern MARKER = Pattern.compile("^(?:(?:/ [A-Z0-9 ]* / )?(?:[A-Za-z]+:)?(?:[[^:]*]:)?)?(?:([^: ]+):)?(\\d{8}) *:(\\d\\d/\\d\\d/\\d\\d\\d\\d) (\\d\\d:\\d\\d:\\d\\d):");
   private static final Pattern MASTER = Pattern.compile("(.*?): ([A-Z ]+)-(?! )(?:(.*) / +)?([^\\(]*)(?:\\((.*)\\))?");
   private static final Pattern ROUTE_HWY_PTN = Pattern.compile("\\b(STATE|COUNTY|US) (?:ROUTE|ROAD|HWY)(?: NO)? (\\d+)(?: HWY)?\\b");
-  private static final Pattern APT_PTN = Pattern.compile(" +(?:APT|FL|FLR|BLDG) +[-A-Z0-9]$");
+  private static final Pattern APT_PTN = Pattern.compile(" +((?:APT|FL|FLR|BLDG) +[-A-Z0-9]+)$");
   
   public NJSomersetCountyAParser() {
     super("SOMERSET COUNTY", "NJ");
@@ -70,9 +70,11 @@ public class NJSomersetCountyAParser extends MsgParser {
     }
     match = APT_PTN.matcher(sAddr);
     if (match.find()) {
-      data.strApt = match.group();
-      if (data.strApt.startsWith("APT ")) data.strApt = data.strApt.substring(4).trim();
-      body = body.substring(0,match.start());
+      data.strApt = match.group(1);
+      if (data.strApt.startsWith("APT ")) {
+        data.strApt = data.strApt.substring(4).trim();
+      }
+      sAddr = sAddr.substring(0,match.start());
     }
     parseAddress(sAddr, data);
     data.strAddress = ROUTE_HWY_PTN.matcher(data.strAddress).replaceFirst("$1 $2");
