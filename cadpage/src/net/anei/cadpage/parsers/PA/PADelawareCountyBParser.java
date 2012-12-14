@@ -123,13 +123,13 @@ public class PADelawareCountyBParser extends FieldProgramParser {
       "ED", "EDDYSTONE",
       "EG", "EDGEMONT TWP",
       "EL", "EAST LANSDOWNE",
-      "ES", "ESSINGTON", // SECTION OF TINICUM TWP
+      "ES TN", "ESSINGTON", // SECTION OF TINICUM TWP
       "FL", "FOLCROFT",
       "GL", "GLENOLDEN",
       "HV", "HAVERFORD TWP",
       "LA", "LANSDOWNE",
       "LC", "LOWER CHICHESTER TWP",
-      "LS", "LESTER", // SECTION OF TINICUM TWP
+      "LS TN", "LESTER", // SECTION OF TINICUM TWP
       "MB", "MILLBOURNE",
       "MD", "MIDDLETOWN TWP",
       "ME", "MEDIA",
