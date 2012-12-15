@@ -1,50 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12062012</string>
-  <string name="release_version">v1.5.71</string>
+  <string name="release_date">12152012</string>
+  <string name="release_version">v1.5.72</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Bloomfield, CT\n
-Groton, CT\n
-Wicomico County, MD (alt)\n
-St Lawrence County, NY\n
-Hood County, TX\n
-Parker County, TX\n
+Starke County, IN\n
+Baltimore County, MD (alt)\n
 \n      
 Location Parsing Fixes:\n
-Date County, GA\n
-Kosciusko County, IN\n
-Oldham County, KY\n
-Muhlenberg County, KY\n
-Carroll County, MD\n
-York County, ME\n
-Calhoun County, MS\n
-Mercer County, NJ\n
+Baldwin County, AL\n
+Adams County, CO\n
+Groton, CT\n
+Madison County, IN\n
+Polk County, IN\n
+Anne Arundel County, MD\n
+Somerset County, NJ\n
 Monroe County, NY\n
 Nassau County, NY\n
-Orange County, NY\n
-Guilford County, NC\n
-Rowan County, NC\n
-Fairfield County, OH\n
-Highland County, OH\n
-Knox County, OH\n
-Lawrence County, OH\n
-Mahoning County, OH\n
-Portage County, OH\n
-Stark County, OH\n
-Wayne County, OH\n
-Chester County, PA\n
-Delaware County,PA\n
-Montgomery County, PA\n
+St Lawrence County, NY\n
+Iredell County, NC\n
+Johnston County, NC\n
+Hamilton County, OH\n
+Bucks County, PA\n
+Delaware County, PA\n
 Northumberland County, PA\n
-Snyder County, PA\n
-Nassau Bay, TX\n
+Lincoln County, SD\n
+Lexington-Rockbridge County, VA\n
+Washington County, VA\n
+New South Wales, AU\n
+Canmore County, AB, CA\n
 \n
 General Fixes:\n
-Another attempt to fix the ICS IllegalStatException problem\n
-Fixed EOY problem with subscription renewals\n
+Cadpage will suppress duplicate messages from different sender numbers\n
   </string>  
 </resources>
   
