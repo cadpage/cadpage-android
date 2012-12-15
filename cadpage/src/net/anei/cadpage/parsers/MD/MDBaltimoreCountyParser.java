@@ -1,117 +1,13 @@
 package net.anei.cadpage.parsers.MD;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import net.anei.cadpage.parsers.GroupBestParser;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/**
- * Baltimore County, MD
- */
-public class MDBaltimoreCountyParser extends FieldProgramParser {
-  
-  private static final Pattern SUBJECT_PTN = Pattern.compile("Station (\\d+) ALERT!!");
+public class MDBaltimoreCountyParser extends GroupBestParser {
   
   public MDBaltimoreCountyParser() {
-    super("BALTIMORE COUNTY", "MD",
-           "CALL MAP UNIT ADDR/S INFO? ID!");
+    super(new MDBaltimoreCountyAParser(),
+           new MDBaltimoreCountyBParser());
   }
   
-  @Override
-  public String getFilter() {
-    return "postmaster@sparkgroup.net,fast@md-carroll-04.fastalerting.com";
-  }
-
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    
-    Matcher match = SUBJECT_PTN.matcher(subject);
-    if (!match.find()) return false;
-    data.strSource = match.group(1);
-    return parseFields(body.split("\n"), 5, data);
-  }
-  
-  @Override
-  public String getProgram() {
-    return "SRC " + super.getProgram();
-  }
-  
-  private class MyUnitField extends UnitField {
-    @Override
-    public void parse(String field, Data data) {
-      field = field.replaceAll("  +", " ");
-      super.parse(field, data);
-    }
-  }
-  
-  private static final Pattern MUTUAL_AID_ADDR_PTN = Pattern.compile("(?:(\\d+-\\d+) +)?(.*?)(?: +(OPS\\d+))?");
-  private class MyAddressField extends AddressField {
-    @Override
-    public void parse(String field, Data data) {
-      
-      if (data.strCall.startsWith("MUTUAL AID")) {
-        Matcher match = MUTUAL_AID_ADDR_PTN.matcher(field);
-        if (!match.matches()) abort();   // Can't happen
-        String code = match.group(1);
-        if (code != null) data.strCall = data.strCall + " " + code;
-        field = match.group(2);
-        data.strChannel = getOptGroup(match.group(3));
-        parseAddress(StartType.START_ADDR, field, data);
-        data.strCall = append(data.strCall, " ", getLeft());
-      } else {
-        Parser p = new Parser(field);
-        String place = p.getOptional('@');
-        String addr = p.get(',');
-        Result res = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr);
-        if (place.length() > 0) {
-          Result res2 = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, place);
-          if (res2.getStatus() > res.getStatus()) {
-            res = res2;
-            place = addr;
-          }
-        }
-        res.getData(data);
-        data.strPlace = place;
-        data.strCity = p.get(',');
-        data.strState = p.get();
-        if (data.strState.equals(data.defState)) data.strState = "";
-      }
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "PLACE " + super.getFieldNames() + " CITY ST CH";
-    }
-  }
-
-  private static final Pattern ID_PTN = Pattern.compile("Incident Number \\((\\d+)\\)");
-  private class MyIdField extends IdField {
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      Matcher match = ID_PTN.matcher(field);
-      if (!match.matches()) return false;
-      super.parse(match.group(1), data);
-      return true;
-    }
-
-    @Override
-    public void parse(String field, Data data) {
-      if (!checkParse(field, data)) abort();
-    }
-  }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("MAP")) return new MapField("(?:\\d{3}|CAR)-\\d{2}|\\d{4}|[A-Z]{2}", true);
-    if (name.equals("UNIT")) return new MyUnitField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("ID")) return new MyIdField();
-    return super.getField(name);
-  }
 }
