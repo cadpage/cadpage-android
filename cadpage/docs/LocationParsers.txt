@@ -214,13 +214,13 @@ it adds a number of parseAddress() methods.  All of them take an initial
 StartType parameter indicating what your parsed field starts with and, of course,
 the data field to be parsed.  The start type an be
 StartType.START_ADDR - if address must start in beginning of field.
-StartType.START_CALL - if address will be preceeded by a call field
-StartType.START_PLACE - if address will be preceeded by a place field
+StartType.START_CALL - if address will be preceded by a call field
+StartType.START_PLACE - if address will be preceded by a place field
 
 A bitmask of flag values is optional.  THere are a lot of flags that do 
 strange and wonderful things.  The most commonly uses are
 FLAG_START_FLD_REQUIRED - indicates that a starting field, usually the call field, must be present
-FLAG_ANCHHOR_END - indiates the address extends to the end of the parsed field
+FLAG_ANCHHOR_END - indicates the address extends to the end of the parsed field
 
 Most of the parseAddress methods are passed a Data object where the parse results
 will be returned.  Subsequent calls to getStatus() tell you how confident we are 
@@ -250,9 +250,9 @@ delimiters, the base class parseMsg(String, Data) method can be called
 and will break the message up into fields and process them.
 
 The program string passed to the constructor controls everything.  It usually
-consists of a set of terms separaged by blanks.  Each term consists of
-a field name, an optional prceeding tag/label name followed by a colon, and
-an optional trailing set of options preceeded by a slash all followed by an
+consists of a set of terms separated by blanks.  Each term consists of
+a field name, an optional preceding tag/label name followed by a colon, and
+an optional trailing set of options preceded by a slash all followed by an
 optional set of special character flags.
 
 The field name is passed to getFields which returns a Field object that will
@@ -261,13 +261,13 @@ getField() method to find.  You only need to supply your own getField() method
 when it is necessary to create your own field class to do some special processing.
 For on writing Field objects later
 
-The tag/label name is a keyword which must preceed any data field that will be
+The tag/label name is a keyword which must precede any data field that will be
 considered for this field term.  Blanks in the actual keyword must be replaced with 
 underscores.
 
 The options are specific to each particular field term.  Documentation on them can be
 found in the FieldProgramParser source.  One commonly used option that is applicable
-to all field names is Z which means, don't trust or use this fields validition checking.
+to all field names is Z which means, don't trust or use this fields validation checking.
 More on that later
 
 The special flags are
@@ -277,6 +277,9 @@ The special flags are
   complete it and, if possible, it should want for another text message with more of the page content
 ? means this field is optional, which means it may or may not be present.  This
   very definitely complicates things
++ means this field repeats indefinetely.  + by itself repeats forever, or until a keyword
+  labeled data field breaks the sequence.  +? is a conditional repeat that will stop when
+  the right conditions are met.  
   
 Some field terms can validate their data results, meaning they can determine if the data field
 passed to them is valid or not.  And some cannot.  Usually this is obvious.  An address field
@@ -292,6 +295,8 @@ to the next field(s) in sequence, looking for one that can validate data.  If fo
 use that one to see if the optional field is present or not present in the array of data
 fields.  If it reaches the end of the program without finding an validating field, or finds
 another optional field first, the constructor will throw an exception.
+
+Similar logic is used to determine when conditional repeating item will stop repeating
 
 But wait, there is more.....
 
