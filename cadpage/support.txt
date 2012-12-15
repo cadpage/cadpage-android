@@ -605,6 +605,26 @@ Thanks for reporting it,
 -Ken
 
 ******************************************************************
+*** Scanner setup
+
+You have to set up some things before the Start Radio button will work
+
+1) You have to install the Scanner Radio or Scanner Radio Pro app.
+
+2) Open the Scanner Radio app and select one or more favorite channels that you want to listen to.
+
+3) Then, open Cadpage Location Settings, scroll down to the bottom and use the Scanner Channel setting to select one of the Scanner Radio favorite channels.
+
+4) If you want the channel to open automatically when a new call is received, check the box labeled "Auto Open Scanner Channel".
+
+The Start Radio button should now launch the Scanner Radio app listening to the selected channel.
+
+This doesn't magically turn your Android device into a shortwave radio receiver.  Scanner Radio works by relaying Internet feeds from volunteers across the country who have set up audio feeds from real hardware scanners.  If no one has set this up in your area your are out of luck.
+
+Good luck,
+-Ken
+
+******************************************************************
 *** Scanner problems
 
 Everything looks like it is set up correctly. Check to make sure that the scanner channel you are trying to active is still online.  If it is not, Scanner cannot play it.
@@ -702,16 +722,12 @@ Hope that helps,
 iphone questions
 ******************************************************************
 
-There is a Cadpage-like app available in the Apple app store, called Active911. 
+The guy doing Cadpage/IPhone is having trouble getting it accepted by the App Store.  Apple runs a really tight ship, and there are several prohibitions listed in their terms of service that Cadpage skirts around the edges of.  Active911 got in, despite doing essentially the same thing, only because the developer included pages of explanations why Active911 doesn't really violate those prohibitions.  Jesse is currently using all of those argument to try and appeal the Cadpage rejection.  How that will turn out is anyones guess.
 
-The problem is that the IOS environment is a lot more restrictive than Android.  Unless you have a jail broken phone, it is not possible to pick up 
-text messages the way we do for Android.
+Even if it were available, it probably wouldn't be much help.  The problem is that the IOS environment is a lot more restrictive than Android.  Unless you have a jail broken phone, it is not possible to pick up 
+text messages the way we do for Android.  The only way Cadpage will work is if you get pages from a message service that can push pages to Cadpage without using text messaging.  And right now there are only 2, Active911.com and CodeMessaging.net.
 
-All is not lost.  Messaging services that can push pages to Cadpage over the Internet can do the same for an IPhone app.  But this means the IPhone apps 
-will only work in conjunction with a message service that can push pages to them.  Active911 or Code Messaging will do that for you.
-
-A real Cadpage app is in development and has been submitted to the Apple masters for approval, but apparently is not yet available.  When it is 
-available, it will likely be called Cadpage, will cost $10 and will work with both CodeMessaging.net and Active911.com. 
+All of this gets added to the reasons why I am never going to purchase an Apple product myself.
 
 Good luck,
 Jean, Assistant to Ken Corbin

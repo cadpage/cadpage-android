@@ -47,6 +47,7 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
       data.strPlace = sPlace;
       data.strCall = call.trim();
       data.strSupp = getOptGroup(info);
+      if (data.strSupp.startsWith("Original Location :")) data.strSupp = "";
     }
     
     // New format just has one field with a call description, address, and additional information
@@ -55,7 +56,7 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
       info = getLeft();
       if (info.startsWith("LOC:")) {
         info = info.substring(4).trim();
-        int pt = info.indexOf(" Original Location:");
+        int pt = info.indexOf(" Original Location :");
         if (pt >= 0) info = info.substring(0,pt).trim();
         data.strPlace = info;
       } else {
