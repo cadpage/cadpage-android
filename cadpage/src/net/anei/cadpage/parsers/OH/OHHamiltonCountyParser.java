@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class OHHamiltonCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("HC:(.*) \\*\\*? (.*?) \\*\\*( .*?)??(?: (\\d{1,2}:\\d\\d)( .*)?)?");
+  private static final Pattern MASTER = Pattern.compile("HC:(.*?)(?: \\*\\*? (.*?) \\*\\*( .*?)??)?(?: (\\d{1,2}:\\d\\d)( .*)?)?");
  
   public OHHamiltonCountyParser() {
     super(CITY_CODES, "HAMILTON COUNTY", "OH");
@@ -26,23 +26,57 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
     
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
-    parseAddress(StartType.START_SKIP, match.group(1).trim(), data);
-    data.strAddress = data.strAddress.replace("DE SOTO", "DESOTO");
-    String sPlace = getLeft();
-    if (sPlace.startsWith("APT ")) {
-      Parser p = new Parser(sPlace.substring(4).trim());
-      data.strApt = p.get(' ');
-      sPlace = p.get();
+    String addr = match.group(1).trim();
+    String call = match.group(2);
+    String info = match.group(3);
+    String time = match.group(4);
+    String extra = match.group(5);
+    
+    // Old format had an asterisk delimited call field with a place
+    // name in front of it and a info field behind.  There is another
+    // call description in front of the address that duplicates the
+    // asterisk delimited field so we just skip it
+    if (call != null) {
+      parseAddress(StartType.START_SKIP, addr, data);
+      String sPlace = getLeft();
+      if (sPlace.startsWith("APT ")) {
+        Parser p = new Parser(sPlace.substring(4).trim());
+        data.strApt = p.get(' ');
+        sPlace = p.get();
+      }
+      data.strPlace = sPlace;
+      data.strCall = call.trim();
+      data.strSupp = getOptGroup(info);
     }
-    data.strPlace = sPlace;
-    data.strCall = match.group(2).trim();
-    data.strSupp = getOptGroup(match.group(3));
-    data.strTime = getOptGroup(match.group(4));
-    Parser p = new Parser(getOptGroup(match.group(5)));
-    String x2 = p.getLastOptional(" XST2:");
-    String x1 = p.getLastOptional(" XST:");
-    data.strUnit = p.get();
-    data.strCross = append(x1, " & ", x2);
+    
+    // New format just has one field with a call description, address, and additional information
+    else {
+      parseAddress(StartType.START_CALL, addr, data);
+      info = getLeft();
+      if (info.startsWith("LOC:")) {
+        info = info.substring(4).trim();
+        int pt = info.indexOf(" Original Location:");
+        if (pt >= 0) info = info.substring(0,pt).trim();
+        data.strPlace = info;
+      } else {
+        data.strSupp = info;
+      }
+    }
+
+    // Fix some Dispatch address typos
+    data.strAddress = data.strAddress.replace("DE SOTO", "DESOTO");
+    
+    // Process time if present
+    if (time  != null) data.strTime = time;
+
+    // Process leftover stuff
+    if (extra != null) {
+      Parser p = new Parser(extra.trim());
+      String x2 = p.getLastOptional(" XST2:");
+      String x1 = p.getLastOptional(" XST:");
+      data.strUnit = p.get();
+      data.strCross = append(x1, " & ", x2);
+    }
     
     return true;
   }
