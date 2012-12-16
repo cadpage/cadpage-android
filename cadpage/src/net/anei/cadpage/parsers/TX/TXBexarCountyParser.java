@@ -26,15 +26,11 @@ public class TXBexarCountyParser extends FieldProgramParser {
   private static final Pattern COLON_MAP_PTN = Pattern.compile(":( " + MAP_PATTERN + ")");
   private static final Pattern DELIM_PTN = Pattern.compile(" -(?= )| \\*\\*");
   
-  private static final Set<String> CALL_PREFIX_SET = new HashSet<String>(Arrays.asList(new String[]{
-      "Alarm", "Assist", "Fire", "Med", "MED", "Rescue", "RESCUE"
-  }));
-  
   private boolean dashStyle;
   
   public TXBexarCountyParser() {
     super("BEXAR COUNTY", "TX",
-          "DATETIME? CALL CALL2? ADDR XAPT+? MAP ID? INFO+");
+          "DATETIME? CALL CALL? ADDR XAPT+? MAP ID? INFO+");
   }
   
   public String getFilter() {
@@ -97,24 +93,44 @@ public class TXBexarCountyParser extends FieldProgramParser {
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
+      
+      // Very special case.  A numeric token coming in as the 
+      // second part of the address is probably the start of
+      // a house number range and should go in the address
+      if (data.strCall.length() > 0 && NUMERIC.matcher(field).matches()) {
+        data.strAddress = field;
+        return;
+      }
+      
       if (field.startsWith("*")) field = field.substring(1).trim();
-      super.parse(field, data);
+      data.strCall = append(data.strCall, " - ", field);
     }
   }
   
-  private class MyCall2Field extends CallField {
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
+  private static final Pattern CALL_DESC_PTN = Pattern.compile("[A-Za-z ]*");
+  private static final Pattern IH_PTN = Pattern.compile("\\bIh\\b", Pattern.CASE_INSENSITIVE);
+  private class MyAddressField extends AddressField {
     @Override
     public boolean checkParse(String field, Data data) {
 
-      // The whole point it to correct for dashes in data field that got
-      // confused with field delimiters, if we aren't using dash field
-      // delimiters, there is no point
-      if (!dashStyle) return false;
+      // The only time this should fail is if the real call field got 
+      // broken up because it contains dashes.  If we are not using the
+      // dash field separator, this cannot fail
+      if (dashStyle) {
+        
+        // A numeric token is probably a house number starting a house number range
+        // We reject it as an address, the call description logic will put it in the
+        // address field
+        if (NUMERIC.matcher(field).matches()) return false;
+
+        // OK, check some exceptional cases of call descriptions
+        // that look like addresses
+        if (field.equals("Tree / Br")) return false;
+        
+        // Otherwise, if contains only alpha letters and blanks, it is a call description
+        // otherwise it is an address
+        if (CALL_DESC_PTN.matcher(field).matches()) return false;
+      }
       
       // A numeric field is assumed to be part of a street range that will
       // be prepended to the address that is coming up next
@@ -123,21 +139,11 @@ public class TXBexarCountyParser extends FieldProgramParser {
         return true;
       }
       
-      // Otherwise see if the previous call description was one of the short keywords that
-      // we expect to be followed by a second call description
-      // If it is, and this field doesn't start with zero, append it to the 
-      // previous call description
-      if (!CALL_PREFIX_SET.contains(data.strCall)) return false;
-      if (field.length() == 0) return false;
-      if (Character.isDigit(field.charAt(0))) return false;
-      
-      data.strCall = append(data.strCall, " - ", field);
+      // Looks good, parse the field and return true status
+      parse(field, data);
       return true;
     }
-  }
-  
-  private static final Pattern IH_PTN = Pattern.compile("\\bIh\\b", Pattern.CASE_INSENSITIVE);
-  private class MyAddressField extends AddressField {
+    
     @Override
     public void parse(String field, Data data) {
       String prefix = data.strAddress;
@@ -264,7 +270,6 @@ public class TXBexarCountyParser extends FieldProgramParser {
     if (name.startsWith("T") && name.length()==2) return new SkipField(name, true);
     if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("CALL2")) return new MyCall2Field();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("XAPT")) return new MyCrossAptField();
     if (name.equals("MAP")) return new MyMapField();

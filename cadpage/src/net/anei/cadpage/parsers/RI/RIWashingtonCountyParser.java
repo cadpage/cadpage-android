@@ -9,7 +9,7 @@ public class RIWashingtonCountyParser extends FieldProgramParser {
  
   public RIWashingtonCountyParser() {
     super(CITY_LIST, "WASHINGTON COUNTY", "RI",
-           "URL? DATETIME ADDR PLACE? CITY CALL EMPTY ( ASGN_UNIT UNIT EMPTY | ) NOTES INFO");
+           "URL? DATETIME ADDR PLACE? CITY CALL CALL ( ASGN_UNIT UNIT EMPTY | ) NOTES INFO");
   }
   
   @Override
@@ -47,44 +47,51 @@ public class RIWashingtonCountyParser extends FieldProgramParser {
       super.parse(field, data);
     }
   }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCall = append(data.strCall, " - ", field);
+    }
+  }
 
   @Override
   protected Field getField(String name) {
     if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("PLACE")) return new MyPlaceField();
-    if (name.equals("EMPTY")) return new SkipField("", true);
+    if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ASGN_UNIT")) return new SkipField("Assigned Units", true);
     if (name.equals("NOTES")) return new SkipField("Notes", true);
     return super.getField(name);
   }
   
   private static final String[] CITY_LIST = new String[]{
-    "CHARLESTOWN ",
+    "CHARLESTOWN",
     "CAROLINA",
     "EXETER",
-    "HOPKINTON ",
+    "HOPKINTON",
     "ASHAWAY",
     "HOPE VALLEY",
-    "NARRAGANSETT ",
+    "NARRAGANSETT",
     "GALILEE",
     "NARRAGANSETT PIER",
     "NEW SHOREHAM",
-    "NORTH KINGSTOWN ",
+    "NORTH KINGSTOWN",
     "WICKFORD",
     "SAUNDERSTOWN",
-    "RICHMOND ",
+    "RICHMOND",
     "CAROLINA",
     "KENYON",
     "SHANNOCK",
     "USQUEPAUG",
     "WYOMING",
-    "SOUTH KINGSTOWN ",
+    "SOUTH KINGSTOWN",
     "KINGSTON",
     "MATUNUCK",
     "PEACEDALE",
     "WAKEFIELD",
-    "WESTERLY ",
+    "WESTERLY",
     "BRADFORD",
     "WATCH HILL",
     "WHITE ROCK"

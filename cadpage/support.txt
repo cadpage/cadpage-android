@@ -122,7 +122,7 @@ This will generate an email with the correct email account (usually a gmail acco
 Your Payment status should change when you load the next Cadpage version. 
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-SKCRQICA or skcrqica.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+UHCXPKBA or uhcxpkba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -190,7 +190,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail address) so I can make sure you get credit for it.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-SKCRQICA or skcrqica.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+UHCXPKBA or uhcxpkba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -301,7 +301,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-SKCRQICA or skcrqica.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+UHCXPKBA or uhcxpkba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -315,7 +315,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-SKCRQICA or skcrqica.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+UHCXPKBA or uhcxpkba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -325,7 +325,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-SKCRQICA or skcrqica.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+UHCXPKBA or uhcxpkba.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -506,6 +506,25 @@ This has been reported by a few people using direct paging.  The Google protocol
 Direct Paging Vendors > Reconnect Direct Paging
 
 You can go to the Active911 member info page, select the devices tab and send yourself a test message to see how it is working.
+
+Good luck,
+-Ken
+
+******************************************************************
+* Active911 registration issues
+
+Every know and then Google has problem with pushing direct pages to the desired device.  There are a couple things you can try, usually something works.
+
+Go to the home screen and select Home > Settings > Accounts and Sync
+and make sure Background Data setting is enabled
+
+Restart the device and try again
+
+This takes care of 95% of the reported problems.  If it does not there are some odder tricks that are occasionally required.
+
+Power down your device, remove the SD card, then power it up and register Cadpage with Active911.  I have no idea why this would make any difference, but it got one user up and running.
+
+Double check your Active911 device configuration to confirm that it is configured with a page type of Cadpage (Android)
 
 Good luck,
 -Ken
