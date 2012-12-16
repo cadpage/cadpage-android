@@ -4861,6 +4861,13 @@ Contact: Mr Brown <brown1396@gmail.com>
 Sender: GCM
 12-1  WIRE/POLE DOWN  PAGED  15 PARK AVE,12  F12-1  F12A  unk if arcing
 **********************************************************
+**********************************************************
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 Isabella County, MI
 Contact: Ryan Guthrie <ryan@livewithunited.com>
 Sender: cad@isabellacounty.org
@@ -4869,13 +4876,9 @@ CAD:FYI: ;INJURY ACCIDENT;1999 S WINN RD/W PICKARD RD;MP
 CAD:FYI: ;AMBULANCE;2095 S NOTTAWA RD;MP;W PICKARD RD;W BROADWAY RD;77 y/o male, copd pt, diff breathing. [12/03/12 04:32:07 RMARTIN]
 CAD:CANCEL;2560 S NOTTAWA RD; MP
 CAD:FYI: ;SUICIDE INCLUDING ATTEMPTS;2560 S NOTTAWA RD;MP;W BROADWAY RD;suicidal male subject, richard anthony szott. [11/30/12 20:00:18 DRAPER]
-**********************************************************
-**********************************************************
-**********************************************************
-************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
+
+MP = MT PLEASANT
+BLA = BLANCHARD
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
