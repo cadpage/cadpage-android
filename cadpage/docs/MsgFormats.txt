@@ -4856,10 +4856,6 @@ Contact: David Liske <david.liskeusmc@gmail.com>
 Sender: secc@scott.ia.us
 (Incident) MCFD\2s106 N SALINA ST McCausland EMS or MVC-Solo\2sCall successfully transferred to peer Agency. [MedicEMS]\2sPeer CFS Number = 0045-A_2012-12-01 [MedicEM
 **********************************************************
-Monmouth County, NJ (alternate replacing A)
-Contact: Mr Brown <brown1396@gmail.com>
-Sender: GCM
-12-1  WIRE/POLE DOWN  PAGED  15 PARK AVE,12  F12-1  F12A  unk if arcing
 **********************************************************
 **********************************************************
 **********************************************************

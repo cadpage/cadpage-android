@@ -23,21 +23,27 @@ public class DispatchA11Parser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseFields(body.split("\n"), 6, data);
+    return super.parseFields(body.split("\n"), 6, data);
   }
   
-  private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM|ROOM)(.*)");
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM|ROOM)(.*)|(?:BLDG|BUILDING|SUITE).*");
   private class BaseAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
       if (cityCodes != null) data.strCity = convertCodes(p.getLastOptional(','), cityCodes);
-      String fld = p.getLastOptional(';');
-      Matcher match = APT_PTN.matcher(fld);
-      if (match.matches()) {
-        data.strApt = match.group(1).trim();
-      } else {
-        data.strPlace = fld;
+      while (true) {
+        String fld = p.getLastOptional(';');
+        if (fld.length() == 0) break;
+        Matcher match = APT_PTN.matcher(fld);
+        if (match.matches()) {
+          String apt = match.group(1);
+          if (apt == null) apt = match.group();
+          else apt = apt.trim();
+          data.strApt = append(apt, "-", data.strApt);
+        } else {
+          data.strPlace = append(fld, " - ", data.strPlace);
+        }
       }
       super.parse(p.get(), data);
     }
