@@ -4856,6 +4856,10 @@ Contact: David Liske <david.liskeusmc@gmail.com>
 Sender: secc@scott.ia.us
 (Incident) MCFD\2s106 N SALINA ST McCausland EMS or MVC-Solo\2sCall successfully transferred to peer Agency. [MedicEMS]\2sPeer CFS Number = 0045-A_2012-12-01 [MedicEM
 **********************************************************
+El Paso County, CO (replace?)
+Contact: Eric Riffle <ericriffle@ymail.com>
+Sender: ept@ept911.info
+  / AFA D1:AFA11,2111,AMR.Medical                  .6910 Carlton Dr               .AFA High School     .AFA218141           .
 **********************************************************
 **********************************************************
 **********************************************************
