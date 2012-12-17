@@ -34,8 +34,15 @@ public class SDLincolnCountyParser extends SmartAddressParser {
     
     if (subject.length() == 0) return false;
     
-    if (checkAddress(subject) > 1) {
-      parseAddress(subject, data);
+    // See if subject contains the address
+    // with possible city and state qualifier
+    Parser p = new Parser(subject);
+    String addr = p.get(',');
+    Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, addr);
+    if (res.getStatus() > 1) {
+      res.getData(data);
+      if (data.strCity.length() == 0) data.strCity = p.get(',');
+      data.strState = p.get(',');
       data.strCall = body;
       return true;
     }

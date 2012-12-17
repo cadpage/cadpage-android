@@ -4873,8 +4873,28 @@ CAD:FYI: ;AMBULANCE;2095 S NOTTAWA RD;MP;W PICKARD RD;W BROADWAY RD;77 y/o male,
 CAD:CANCEL;2560 S NOTTAWA RD; MP
 CAD:FYI: ;SUICIDE INCLUDING ATTEMPTS;2560 S NOTTAWA RD;MP;W BROADWAY RD;suicidal male subject, richard anthony szott. [11/30/12 20:00:18 DRAPER]
 
-MP = MT PLEASANT
-BLA = BLANCHARD
+ALMA                            ALMA
+REMUS                           RMS
+BLANCHARD                       BLA
+MT PLEASANT                     MP
+ROSEBUSH                        RSB
+CLARE                           CLR
+SHEPHERD                        SHP
+BEVERTON                        BEAV
+BARRYTON                        BRY
+COLEMAN                 CLM
+EDMORE                  EDM
+FARWELL                 FRW
+LAKE                            LKE
+LAKE ISABELLA                   LKI
+LAKEVIEW                        LVW
+RIVERDALE                       RVD
+ST LOUIS                        STL
+VESTABURG                       VEST
+WEIDMAN                 WDM
+WINN                            WNN
+LOOMIS                  LMS
+
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
