@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.TX;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -7,6 +10,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * Cy Creek Comm Center
  */
 public class TXCyFairParser extends MsgParser {
+  
+  private static final Pattern SIGNATURE = Pattern.compile("^Paging Message from VisiCAD\n+");
   
   public TXCyFairParser() {
     super("HARRIS COUNTY", "TX");
@@ -24,6 +29,10 @@ public class TXCyFairParser extends MsgParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    Matcher match = SIGNATURE.matcher(body);
+    if (match.find()) body = body.substring(match.end()).trim();
+    
     if (body.length() < 53) return false;
     if (body.charAt(10) != '/' || body.charAt(51) != '/') return false;
     data.strUnit = substring(body, 0, 10);

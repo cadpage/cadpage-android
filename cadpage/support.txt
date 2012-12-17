@@ -122,7 +122,7 @@ This will generate an email with the correct email account (usually a gmail acco
 Your Payment status should change when you load the next Cadpage version. 
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-UHCXPKBA or uhcxpkba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+GYNYJFGA or gynyjfga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -190,7 +190,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail address) so I can make sure you get credit for it.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-UHCXPKBA or uhcxpkba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+GYNYJFGA or gynyjfga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -272,18 +272,28 @@ subscription.
 
 Most of our users are volunteer firefighters or EMS workers.  My husband and I are both volunteers with our local fire department. Yes it is unfortunate that we have to ask people already volunteering so much time and energy to pay us for a cool app.  The reality is that maintaining and continually developing Cadpage is a full time job. We have to pay our bills somehow, and Google takes their fair share.
 
+$10 per year is way out of line for what you normally expect to pay for a general purpose Android app.  There are two reasons why this is necessary.
+1) Cadpage is an extremely high maintenance app.  We put out weekly releases, and every week there are usually 10 or so location parsers that have to be fixed, either because Dispatch changed the text format, or because someone found a corner case that wasn't covered by the existing parser.  Most apps get by with a release every 3 months or more.
+2) The potential user base is a tiny fraction of what a general purpose app can expect.  Cadpage is a niche market app, appealing to the small number of people who work or volunteer in emergency services.  The same development costs have to be spread among fewer people.
+
 We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them other then getting staff and volunteer members to bring it up.  If you can talk them into it, they get a 30% discount or more!  Details can be found at http://www.cadpage.org/financial-support/other-support-options.
 
 In the interest of helping communities, we offer a  number of approved ways to run Cadpage without paying anything.
 1) You  can ask for a free subscription.but you have to include a reasonable reason for not being able to afford $10 per year.  
 2) You can simply reinstall Cadpage every 30 days.
 3) If you (or your department) are currently using or can switch to using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free if you are using the direct messaging option.
-4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version is almost a year old, but it will not bug you about paying for it.
+4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version will not bug you about paying for it.
 
 We're here to help!
 Good Luck,
 Jean -- Assistant to Ken Corbin
 
+******************************************************************
+
+It is kind of amusing that people think nothing of shelling out $50+ per month for a smartphone carrier plan, but balk at anything more than $2-3 for an app, no matter how useful it might be.
+
+******************************************************************
+Market problem
 ******************************************************************
 
 What kind of problem are you having with your Cadpage payment?
@@ -301,7 +311,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-UHCXPKBA or uhcxpkba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+GYNYJFGA or gynyjfga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -315,7 +325,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-UHCXPKBA or uhcxpkba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+GYNYJFGA or gynyjfga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -325,7 +335,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-UHCXPKBA or uhcxpkba.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+GYNYJFGA or gynyjfga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -393,28 +403,6 @@ And, Cadpage is licensed under the GPL, which makes if free software in the "fre
 
 Have a nice day,
 -Ken
-
-******************************************************************
-
-It is kind of amusing that people think nothing of shelling out $50+ per month for a smartphone carrier plan, but balk at anything more than $2-3 for an app, no matter how useful it might be.
-
-******************************************************************
-
-$10 per year is way out of line for what you normally expect to pay for a general purpose Android app.  There are two reasons why this is necessary.
-1) Cadpage is an extremely high maintenance app.  We put out weekly releases, and every week there are usually 10 or so location parsers that have to be fixed, either because Dispatch changed the text format, or because someone found a corner case that wasn't covered by the existing parser.  Most apps get by with a release every 3 months or more.
-2) The potential user base is a tiny fraction of what a general purpose app can expect.  Cadpage is a niche market app, appealing to the small number of people who work or volunteer in emergency services.  The same development costs have to be spread among fewer people.
-
-It turns out to be full time job.  We're not getting rich doing this.
-
-We think that Cadpage is so valuable to firefighters and EMS workers, that we will always offer a free option.  In fact, there are several ways of running Cadpage without having to pay anything.
-1) If you (or your department) are currently using or can switch to using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free if you are using the direct messaging option.
-2) I give out free subscriptions to people who give me a reasonable reason as to why they cannot afford $10 per year.  
-3) You can just reinstall Cadpage every 30 days
-4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version is almost a year old, but it will not bug you about paying for it.
-
-Thanks for your feedback,
-Jean -- Assistant to Ken Corbin
-
 
 ******************************************************************
 ** Locations

@@ -1250,6 +1250,8 @@ Robert Kemmerer (st47fireguy@gmail.com)(fireguy@ptd.net)
 %%03/09/2012
 Gary Styers (glstyers@gmail.com)
 Paul Poston <kg4who@gmail.com> // market problem
+%%03/10/2012
+Nayim Sadik <na59552@gmail.com> // market problem
 %%03/12/2012
 Jason Shore <jshore766@gmail.com>
 Charles Walsh <efd7034@gmail.com>
@@ -1674,7 +1676,7 @@ Shane Jacobs (ncsirfr@hotmail.com) // PayPal
 %%12/09/2012
 Mike Clemens (michael.clemens@montgomerycountymd.gov).// Paypal paid twice $15
 %%12/10/2012
-Chad Wood (woodmichael18@yahoo.com) // PayPal
+Chad Wood (chadwood5601@gmail.com) (woodmichael18@yahoo.com) // PayPal
 tom mitchell (halagin2012@gmail.com) (twmitchell40@yahoo.com) // PayPal
 %%12/11/2012
 James Dietz <kc0usq@gmail.com> // Lincoln County, SD
@@ -1692,6 +1694,11 @@ Nick George (n.george265@gmail.com) (cobra2039@yahoo.com) // PayPal
 (pwcamb511@gmail.com)
 (pwcamb511b@gmail.com)
 (pwctrk511@gmail.com)
+%%12/16/2012
+Marty Bumgarner (gfpd311@yahoo.com) // PayPal
+Frank Hand (Fran408@msn.com) // PayPal
+Derek Schulz (dschulz0518@gmail.com) // PayPal
+Skyler Ellinger <sellinger87@gmail.com> // Starke County,IN
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
@@ -3678,4 +3685,18 @@ Brian Finger <rottdawg@gmail.com>
 billy Barb <billy2982@gmail.com>
 Kyle Carter <kcarter6334@gmail.com>
 Zach Lang (zacharymichaellang@gmail.com) <z.lang76@yahoo.com>
+%%12/16/2012
+Michael White <m.whitetailhntr@gmail.com>
+Joseph Campo <jcampo8301@gmail.com>
+Enoch Pierson <enochpierson@gmail.com>
+John Miller <millerfamtrans@gmail.com>
+Keith Pagan <emtpagan1@gmail.com>
+terry rollins <trollins34@gmail.com>
 
+
+// List of users getting free credit for 2013
+%2013/FREE
+%%12/16/2012
+Thomas Kunz <max.kunz99@gmail.com>
+Eric Marshall <ericdmarshall661@gmail.com>
+nick santangelo <nickmobil1@gmail.com>
