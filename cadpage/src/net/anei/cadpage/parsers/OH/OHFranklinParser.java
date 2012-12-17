@@ -19,7 +19,7 @@ public class OHFranklinParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("CAD|!")) return false;
+    if (!subject.equals("CAD|!") && !isPositiveId()) return false;
     body = body.replace(" BETWEEN ", " BETWEEN: ");
     return super.parseMsg(body, data);
   }
