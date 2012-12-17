@@ -120,6 +120,9 @@ public class Message {
     // Get rid of any \r characters
     body = body.replaceAll("\r+\n", "\n").replace('\r', '\n');
     
+    // Drop FWD: prefix
+    if (body.startsWith("FWD:")) body = body.substring(4).trim();
+    
     // default address and subject to obvious values
     parseAddress = fromAddress;
     parseSubject = decode(subject);
