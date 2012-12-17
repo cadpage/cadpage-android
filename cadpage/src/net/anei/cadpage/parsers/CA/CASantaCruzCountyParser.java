@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
  */
 public class CASantaCruzCountyParser extends DispatchPrintrakParser {
   
-  private static final Pattern CITY_AREA_PTN = Pattern.compile("BIG REDWOOD PRK|MISSION SPRINGS|PASATIEMPO|ZAYANTE|.* AREA?|.* AR|.* BYPASS");
+  private static final Pattern CITY_AREA_PTN = Pattern.compile("BIG REDWOOD PRK|MISSION SPRINGS|PASATIEMPO|ZAYANTE|.* AREA?|.* AR|.* BYPASS|.* CORR?IDOR");
   
   public CASantaCruzCountyParser() {
     super("SANTA CRUZ COUNTY", "CA");
@@ -37,6 +37,9 @@ public class CASantaCruzCountyParser extends DispatchPrintrakParser {
       data.strPlace = append(data.strPlace, " - ", data.strCity);
       data.strCity = "";
     }
+    
+    // And some just plain wrong city names
+    else if (data.strCity.equals("AP/LA SELVA")) data.strCity = "APTOS";
     
     return true;
   }
