@@ -124,6 +124,12 @@ Fraqre: qvfcngpu@svergenpxre.arg
 (SverCntr) *RJSQ* [TRA 1] JVER CEVZNEL QBJA EBFYLA EBNQ P/F:CBFG NIR 11/7/2012\aGBN:19:59 [SverGenpxre]
 (SverCntr) *RJSQ* [TRA 1] JVERF NAQ GERR 120 PUNEYRF FG P/F:PBATERFF NIR / PBYHZOHF\aCXJL ULQ:120/ 11/7/2012 GBN:18:49 [SverGenpxre]
 
+(SverCntr) *RJSQ* [PNEO 1] PNEO NHGBZNGVP/SNZCBTAN ERF 40 SNVEIVRJ NIR P/F:EBFYLA\e\aEBNQ / FPUBBY FG ULQ:19/37 11/21/2012 GBN:14:12 [SverGenpxre]\e\a
+(SverCntr) *RJSQ* [TRA 1] NHGB 81N178/JVPXRF ERF 143 PUNEYRF FG P/F:PBATERFF NIR /\e\aSRNGURE YN ULQ:137/154 11/22/2012 GBN:15:26 [SverGenpxre]\e\a
+(SverCntr) *RJSQ* [VAIRFG] JVER 33 SNVEIVRJ NIR P/F:EBFYLA EBNQ / FPUBBY FG\e\aULQ:19/37 11/24/2012 GBN:18:11 [SverGenpxre]\e\a
+(SverCntr) *RJSQ* [PNEO 1] PNEO AB VYYARFF 36 QBJAVAT FG P/F:YNGUNZ YN / PBATERFF\e\aNIR 11/29/2012 GBN:21:41 [SverGenpxre]\e\a
+(SverCntr) *RJSQ* [9N 911] NZOH Z/IBZVGVAT 212 QREOL FG P/F:EBFYLA EBNQ / UVTU FG\e\aULQ:197/ 12/2/2012 GBN:03:58 [SverGenpxre]\e\a
+
 */
 
 choyvp pynff ALAnffnhPbhaglSvergenpxreCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1145,11 +1151,64 @@ choyvp pynff ALAnffnhPbhaglSvergenpxreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:ULQ:120/",
         "QNGR:11/7/2012",
         "GVZR:18:49");
-    
+
+    qbGrfg("G21",
+        "(SverCntr) *RJSQ* [PNEO 1] PNEO NHGBZNGVP/SNZCBTAN ERF 40 SNVEIVRJ NIR P/F:EBFYLA\e\a" +
+        "EBNQ / FPUBBY FG ULQ:19/37 11/21/2012 GBN:14:12 [SverGenpxre]\e\a",
+
+        "FEP:RJSQ",
+        "PNYY:PNEO 1 / PNEO NHGBZNGVP/SNZCBTAN ERF",
+        "NQQE:40 SNVEIVRJ NIR",
+        "K:EBFYLA EBNQ / FPUBBY FG",
+        "VASB:ULQ:19/37",
+        "QNGR:11/21/2012",
+        "GVZR:14:12");
+
+    qbGrfg("G22",
+        "(SverCntr) *RJSQ* [TRA 1] NHGB 81N178/JVPXRF ERF 143 PUNEYRF FG P/F:PBATERFF NIR /\e\a" +
+        "SRNGURE YN ULQ:137/154 11/22/2012 GBN:15:26 [SverGenpxre]\e\a",
+
+        "FEP:RJSQ",
+        "PNYY:TRA 1 / NHGB 81N178/JVPXRF ERF",
+        "NQQE:143 PUNEYRF FG",
+        "K:PBATERFF NIR / SRNGURE YN",
+        "VASB:ULQ:137/154",
+        "QNGR:11/22/2012",
+        "GVZR:15:26");
+
+    qbGrfg("G23",
+        "(SverCntr) *RJSQ* [VAIRFG] JVER 33 SNVEIVRJ NIR P/F:EBFYLA EBNQ / FPUBBY FG\e\aULQ:19/37 11/24/2012 GBN:18:11 [SverGenpxre]\e\a",
+        "FEP:RJSQ",
+        "PNYY:VAIRFG / JVER",
+        "NQQE:33 SNVEIVRJ NIR",
+        "K:EBFYLA EBNQ / FPUBBY FG",
+        "VASB:ULQ:19/37",
+        "QNGR:11/24/2012",
+        "GVZR:18:11");
+
+    qbGrfg("G24",
+        "(SverCntr) *RJSQ* [PNEO 1] PNEO AB VYYARFF 36 QBJAVAT FG P/F:YNGUNZ YN / PBATERFF\e\aNIR 11/29/2012 GBN:21:41 [SverGenpxre]\e\a",
+        "FEP:RJSQ",
+        "PNYY:PNEO 1 / PNEO AB VYYARFF",
+        "NQQE:36 QBJAVAT FG",
+        "K:YNGUNZ YN / PBATERFF NIR",
+        "QNGR:11/29/2012",
+        "GVZR:21:41");
+
+    qbGrfg("G25",
+        "(SverCntr) *RJSQ* [9N 911] NZOH Z/IBZVGVAT 212 QREOL FG P/F:EBFYLA EBNQ / UVTU FG\e\aULQ:197/ 12/2/2012 GBN:03:58 [SverGenpxre]\e\a",
+        "FEP:RJSQ",
+        "PNYY:9N 911 / NZOH Z/IBZVGVAT",
+        "NQQE:212 QREOL FG",
+        "K:EBFYLA EBNQ / UVTU FG",
+        "VASB:ULQ:197/",
+        "QNGR:12/2/2012",
+        "GVZR:03:58");
+   
   }    
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALAnffnhPbhaglSvergenpxreCnefreGrfg().trarengrGrfgf("G1");
-    //arj ALAnffnhPbhaglSvergenpxreCnefreGrfg().trarengrGrfgf("G1", "FEP PNYY NQQE K VASB");
+    arj ALAnffnhPbhaglSvergenpxreCnefreGrfg().trarengrGrfgf("G21");
+    //arj ALAnffnhPbhaglSvergenpxreCnefreGrfg().trarengrGrfgf("G21", "FEP PNYY NQQE K VASB");
   }
 }
