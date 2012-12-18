@@ -6,6 +6,11 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Arj Fbhgu Jnyrf, Nhfgenvyvn
+
+Pbagnpg: Nqnz Uhturf <nuhturf@cynavg.arg.nh>
+Fraqre: +61487297300
+18 Qrprzore 2012 16:31:52 VAPVRAG PNYY JVA SVER NG FHZZRE UNMR CNEX 445 BA JNL
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jvaznyrr Eheny Sver Oevtnqr
 Ybpngvba: Jvaznyrr, AFJ, Nhfgenyvn
@@ -18,7 +23,6 @@ Fraqre: @rfraqrk.arg
 (09 Bpgbore 2012 10:20:50 VAPVQRAG PNYY -...) 09 Bpgbore 2012 10:20:50 VAPVQRAG PNYY - ERFCBAQ GB ZIN URNGURE EQ K UNJXRFOHEL EQ JVAZNYRR
 (07 Qrprzore 2012 15:13:49 VAPVQRAG PNYY ...) 07 Qrprzore 2012 15:13:49 VAPVQRAG PNYY JVAZNYRR - ERFCBAQ GB FGEHPGHER SVER, 28 GHGBE PYBFR JVAZNYRR.7/12/2012
 (02 Qrprzore 2012 14:11:32 VAPVQRAG PNYY ...) 02 Qrprzore 2012 14:11:32 VAPVQRAG PNYY JVAZNYYRR TNF YVAR OEBXRA 4 PBENZNAQRY CY JVAZNYYRR
-
 (27 Abirzore 2012 14:09:57 VAPVQRAG PNYY ...) 27 Abirzore 2012 14:09:57 VAPVQRAG PNYY JVAZNYRR; CEBPRRQ GB TEBFF URNQ FGU, VAIRFGVTNGR FZBXR VA IVPVAVGL
 (12 Abirzore 2012 21:18:12  ERFCBAQ GB PN...) 12 Abirzore 2012 21:18:12  ERFCBAQ GB PNE NYVTUG
 (09 Abirzore 2012 19:20:08 VAPVQRAG PNYY ...) 09 Abirzore 2012 19:20:08 VAPVQRAG PNYY JVAZNYRR - ERFCBAQ GB FGEHPGHER SVER, 74 ZHEH NIR, JVAZNYRR.
@@ -38,7 +42,20 @@ choyvp pynff MNHArjFbhguJnyrfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre() {
+  choyvp ibvq grfgNqnzUhturf() {
+
+    qbGrfg("G1",
+        "18 Qrprzore 2012 16:31:52 VAPVRAG PNYY JVA SVER NG FHZZRE UNMR CNEX 445 BA JNL",
+        "QNGR:12/18/2012",
+        "GVZR:16:31:52",
+        "FEP:JVA",
+        "PNYY:SVER",
+        "NQQE:FHZZRE UNMR CNEX 445 BA JNL");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgJvaznyrrSver() {
 
     qbGrfg("G1",
         "(12 Abirzore 2012 21:18:12  ERFCBAQ GB PN...) 12 Abirzore 2012 21:18:12  ERFCBAQ GB PNE NYVTUG",

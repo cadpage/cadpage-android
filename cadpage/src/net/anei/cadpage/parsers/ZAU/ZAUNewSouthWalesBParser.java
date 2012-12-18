@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class ZAUNewSouthWalesBParser extends SmartAddressParser {
   
   private static final Pattern DATE_TIME_MARKER = Pattern.compile("^(\\d\\d [A-Z][a-z]+ \\d{4} \\d\\d:\\d\\d:\\d\\d) ");
-  private static final Pattern INCIDENT_CALL_PTN = Pattern.compile("^(?:INCIDENT CALL(?: ([A-Z]+);?)?)? ");
+  private static final Pattern INCIDENT_CALL_PTN = Pattern.compile("^(?:INCID?ENT CALL(?: ([A-Z]+);?)?)? ");
   private static final Pattern RESPOND_TO_PTN = Pattern.compile("^(?:- )?RESPOND TO ");
   private static final Pattern TRAIL_DATE_PTN = Pattern.compile("\\. *[\\d/]*$");
   private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("dd MMMMMMMM yyyy HH:mm:ss");
@@ -39,6 +39,7 @@ public class ZAUNewSouthWalesBParser extends SmartAddressParser {
     if (!match.find()) {
       data.strCall = "GENERAL ALERT";
       data.strPlace = body;
+      return true;
     }
     
     data.strSource = getOptGroup(match.group(1));
