@@ -1638,9 +1638,10 @@ choyvp pynff PNFnagnPehmPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:2",
         "VQ:SSQ121213024607",
         "PNYY:*HAXNPP*",
+        "CYNPR:SEQZ OY PBEVQBE",
         "NQQE:SERRQBZ OY & UNZRF EQ",
         "ZNC:E36-P",
-        "ANZR:IREVMBA JVERYRFF 800 - SEQZ OY PBEVQBE",
+        "ANZR:IREVMBA JVERYRFF 800",
         "VASB:CER-NYREG PBHAGL SVER QVFGEVPG 6 / CVPX HC IF FPUBBY OHF - NVEONT QRCYBL - PUC RAE - ASV",
         "GVZR:14:26",
         "HAVG:SQR3512");
