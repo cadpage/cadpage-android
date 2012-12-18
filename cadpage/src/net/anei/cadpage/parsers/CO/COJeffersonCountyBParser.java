@@ -27,7 +27,7 @@ public class COJeffersonCountyBParser extends SmartAddressParser {
   
   @Override 
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Jeffco Alert")) return false;
+    if (!subject.equals("Jeffco Alert") && !subject.equals("Jeffco Sheriff Message")) return false;
     int pt = body.lastIndexOf('\n');
     if (pt < 0) return false;
     String dateTime = body.substring(pt+1).trim();

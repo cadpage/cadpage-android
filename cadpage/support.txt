@@ -62,9 +62,9 @@ The problem with this arrangement is that Cadpage lacks the ability to display r
 
 ******************************************************************
 
-First, do you have an account with Active911?  If not you should contact them about getting set up.  You can do that by visiting their web page and leaving a message at http://active911.com/Contact.
+First, do you have an account with Active911?  If not you should contact them about getting set up.  You can do that by visiting their web page, click the contact link, then then the "click here to sign up online" link in the right sidebar.
 
-If you have an Active911 account.  Got to their website and open the Member Access page.  Then select the correct department and open the Devices tab.  If there is no existing entry for your device set up a new one.  If there is, edit it and set the Type to smartphone and the Page Type to "Cadpage Direct (Android)"  Make a note of the Device Key (or Access Code) associated with the device.
+If someone already set up a device for you, they should give you the device number and activation code you will need.  If you do not have that, Go to their website and open the Member Access page.  Then select the correct department and open the Devices tab.  If there is a device entry for you, it will show the required device number and activation code.  If not it should tell you who to contact to set one up.  The device type needs to be set to Smartphone and the Page Type to "Cadpage Direct (Android)"  Make a note of the Device Key (or Access Code) associated with the device.
 
 Next open the Cadpage settings on your phone.  Select
 Direct Paging Vendors > Active911.com > Register
@@ -73,7 +73,7 @@ This takes you to a web page where you need to enter the two part Device Key / A
 At this point, Active911 will start sending you pages through the Internet data network instead of using SMS text pages.
 
 Good Luck,
-Jean, Assistant to Ken Corbin
+Jean -- Assistant to Ken Corbin
 
 ******************************************************************
 ** PayPal and user list
@@ -100,6 +100,10 @@ Good Luck,
 Jean Goul
 
 ******************************************************************
+Subsequent $10 payments are set up as maintenance fees. 
+ You can continue to use Cadpage after the first expiration date as long as you do not install a release published after that date.
+ 
+******************************************************************
 
 Your Cadpage subscription has expired as of __________.  
 
@@ -122,7 +126,7 @@ This will generate an email with the correct email account (usually a gmail acco
 Your Payment status should change when you load the next Cadpage version. 
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-GYNYJFGA or gynyjfga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+EHTEWYDA or ehtewyda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -190,7 +194,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail address) so I can make sure you get credit for it.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-GYNYJFGA or gynyjfga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+EHTEWYDA or ehtewyda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -311,7 +315,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GYNYJFGA or gynyjfga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+EHTEWYDA or ehtewyda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -325,7 +329,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GYNYJFGA or gynyjfga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+EHTEWYDA or ehtewyda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -335,7 +339,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GYNYJFGA or gynyjfga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+EHTEWYDA or ehtewyda.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 

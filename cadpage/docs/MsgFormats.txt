@@ -4862,16 +4862,25 @@ Contact: Eric Riffle <ericriffle@ymail.com>
 Sender: ept@ept911.info
   / afa22 2306 Cadet dr at the Chapel 33yom c/b having heart rate problems\n
   / AFA D1:AFA11,2111,AMR.Medical                  .6910 Carlton Dr               .AFA High School     .AFA218141           .
+  / AFA D4:AFA44,2113,2152,AMR1.Unconscious / Fainting   .11700 I-25                    .MM154 I-25          .AFA218298           .\n
+  / to afa4 unconcious pty @ mm154 SB - state trooper has pty pulled over - 25 yof fainted // no further\n
+  / AFA D4:AFA44,2113,2152,AMR1.Suicidal Check the Welfar.13000 I-25                    .AFA Northgate mm156b.AFA218304           .\n
+  / AFA4  ALL UNITS CAN DISREGARD THE SUIC CTW  PARTY NOT ONS\n
 **********************************************************
 Clinton County, MO
 Contact: Rod McQuerrey <rmcquerrey@plattsburgfire.org>
 Sender: dispatch@clintoncosheriff.org
 FRM:Rod McQuerrey \nMSG:dispatch@clintoncosheriff.org\n\nHISTORY FOR OCC #12-97, INC...\n\nOCC #12-97, INC #12-6000 - FIRE - Fire\nTime ...
-**********************************************************
+1 of 2\nFRM:dispatch@clintoncosheriff.org\nSUBJ:NEWOCC #OUTS\2sMEDI - Medical\nMSG:NEWOCC #OUTS\2sMEDI - Medical\r\nAddress: 204 W Riley St,\n(Con't) 2 of 2\nPlattsburg\r\nReporting Person: Susan Hunt, Phone: 8165392537\r\nDetail: female unk conditon, worke up with headache 87 poss stroke.(End)
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
+**********************************************************
+Nassau County, NY (fix to variant F)
+Contact: "Haiken, Todd" <thaiken@bmems.org>
+Sender: 2ndSignal@2sig.com
+(*) RESCUE\nAMBU\n\nSICK MALESICK MALE\n2358 BENNETT AVE\nNO BELLMORE\n1-516-324-2379   support@2sig.com
 **********************************************************
 Isabella County, MI
 Contact: Ryan Guthrie <ryan@livewithunited.com>
@@ -4907,9 +4916,15 @@ LOOMIS                  LMS
 Clinton County, PA
 Contact: woolrichvolfireco@comcast.net
 Sender: Message.CC_PSAP@clintoncountypa.com
-Body:'MVA w/Entp\3sRTE 220 N MC TO AV 117\3sWayne\3sMVA W/PERSON UNDER VEHICLE\3s2012-00000206'
-Body:'801\3sAlarm\3s1059 VALLEY VIEW RD\3sPine Creek\3sFIRST FLOOR SMOKE DETECTOR\3s2012-00000211\3sCHARLES RESIDENCE'
-Body:'1202\3sLocal\3s2161 WOODWARD AVE\3sPine Creek\3sWIRE ARCING, POSSIBLE DOWN\3s2012-00000195'
+'MVA w/Entp\3sRTE 220 N MC TO AV 117\3sWayne\3sMVA W/PERSON UNDER VEHICLE\3s2012-00000206'
+'801\3sAlarm\3s1059 VALLEY VIEW RD\3sPine Creek\3sFIRST FLOOR SMOKE DETECTOR\3s2012-00000211\3sCHARLES RESIDENCE'
+'1202\3sLocal\3s2161 WOODWARD AVE\3sPine Creek\3sWIRE ARCING, POSSIBLE DOWN\3s2012-00000195'
+'1201\3sBLSE\3s439 PARK AVE\3sPine Creek\3s62 Y/O MALE NECK PAIN FROM A BULDGING DISK\3s2012-00000194'
+'1202\3sMVA w/Inj\3sISLAND RD/HARLEY\3sPine Creek\3sONE VEHICLE WITH INURIES\3s2012-00000188'
+'1202\3sMVA w/n In\3s1491 DUTCH HOLLOW RD\3sPine Creek\3sMVA WITH ROLEOVER, NO ONE AROUND THE VEHICLE\3s2012-00000182\3sVW JETTA'
+'1201\3sMVA w/Inj\3s419 PARK AVE\3sPine Creek\3sCAR INTO A TREE\3s2012-00000170'
+'1001\3sAlarm\3s612 MCELHATTAN DR\3sWayne\3sZONE 13 SMOKE DETECTOR\3s2012-00000199\3sBALD EAGLE TRUCK STOP'
+'1205\3sService\3s668 LITTLE PLUM RUN RD\3sDunnstable\3sFALL VICTIM, LIFT ASSISTANCE\3s2012-00000203'
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

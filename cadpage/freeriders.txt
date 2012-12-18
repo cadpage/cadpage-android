@@ -1695,10 +1695,12 @@ Nick George (n.george265@gmail.com) (cobra2039@yahoo.com) // PayPal
 (pwcamb511b@gmail.com)
 (pwctrk511@gmail.com)
 %%12/16/2012
-Marty Bumgarner (gfpd311@yahoo.com) // PayPal
+Marty Bumgarner (marty.bumgarner@gmail.com) (gfpd311@yahoo.com) // PayPal
 Frank Hand (Fran408@msn.com) // PayPal
 Derek Schulz (dschulz0518@gmail.com) // PayPal
 Skyler Ellinger <sellinger87@gmail.com> // Starke County,IN
+%%12/17/2012
+Greg Hockaday (farmallcub01@gmail.com) <ghockaday@brassfieldfiredept.com> // Granville County, NC
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
@@ -1795,8 +1797,10 @@ Eric Trygstad           (5412819975)
 // Sponsored Districts
 // TXManvel - John Aucoin <johnaucoin@sbcglobal.net> - 09/10/2012
 
-// List of users getting credit for 2013
+// List of users getting credit or paid for 2013
 %2013
+%%01/09/2012
+Raymond Shaw (mshaw1957@gmail.com) // paid by check 2684 $20 12-12-12
 %%03/01/2012
 Michael Krott(krott.michael@gmail.com)
 %%03/02/2012
@@ -3692,6 +3696,11 @@ Enoch Pierson <enochpierson@gmail.com>
 John Miller <millerfamtrans@gmail.com>
 Keith Pagan <emtpagan1@gmail.com>
 terry rollins <trollins34@gmail.com>
+%%12/17/2012
+Kenny Handwerk <khandwerk13@gmail.com>
+(coltonlust@gmail.com) (lclengine5@gmail.com)
+timothy ziegler <ziggy9827@gmail.com>
+
 
 
 // List of users getting free credit for 2013

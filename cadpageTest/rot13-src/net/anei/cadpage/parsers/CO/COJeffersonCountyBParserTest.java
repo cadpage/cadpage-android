@@ -13,6 +13,10 @@ Fraqre: @pb.wrssrefba.pb.hf
 (Wrsspb Nyreg) rp - 0738uef - vasb - 9051 F Jneunjx Eq - erperngvbany ohea sebz 0800-1430\e\aFng Bpg 06 07:39:13 2012
 (Wrsspb Nyreg) ***VASB**** \e\aPbagebyyrq Ohea \e\a23442 Cyrnfnag Cnex Eq \e\aErp Ohea hagvy 2300uef\e\aSev Bpg 05 12:39:06 2012
 
+Pbagnpg: QNAAL ORMN <zrqormn@lnubb.pbz>
+Fraqre: @pb.wrssrefba.pb.hf
+Fhowrpg:Wrsspb Furevss Zrffntr\a9601 Nfcra Ynar - Bqbe vairfgvtngvba - fzryy bs angheny tnf vafvqr gur ubhfr\aZba Qrp 17 10:00:39 2012
+
 */
 
 choyvp pynff PBWrssrefbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -63,6 +67,20 @@ choyvp pynff PBWrssrefbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:Erp Ohea hagvy 2300uef",
         "QNGR:10/05/2012",
         "GVZR:12:39:06");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnaalOrmn() {
+
+    qbGrfg("G1",
+        "Fhowrpg:Wrsspb Furevss Zrffntr\a" +
+        "9601 Nfcra Ynar - Bqbe vairfgvtngvba - fzryy bs angheny tnf vafvqr gur ubhfr\a" +
+        "Zba Qrp 17 10:00:39 2012",
+
+        "PNYY:- Bqbe vairfgvtngvba - fzryy bs angheny tnf vafvqr gur ubhfr",
+        "NQQE:9601 Nfcra Ynar",
+        "QNGR:12/17/2012",
+        "GVZR:10:00:39");
 
   }
   
