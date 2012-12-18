@@ -20,7 +20,7 @@ public class DispatchA5Parser extends FieldProgramParser {
            "Incident_Location:ADDR! Venue:CITY! " +
            "Located_Between:X? Cross_Street:X? Common_Name:PLACE? " +
            "Call_Time:TIME! Call_Date:DATE! " +
-           "Area:MAP! Section:MAP! Beat:SKIP! Map:SKIP! " +
+           "Area:MAP! Section:MAP! Beat:SKIP! Map:SKIP? " +
            "Grid:SKIP! Quadrant:MAP! District:MAP! " +
            "Phone_Number:PHONE! Call_Source:SKIP! " +
            "Caller:NAME? " +

@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.NJ;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA5Parser;
@@ -9,6 +10,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA5Parser;
  * Burlington County, NJ
  */
 public class NJBurlingtonCountyCParser extends DispatchA5Parser {
+  
+  private static final Pattern SPECIAL_SUBJECT_PTN = Pattern.compile("\\d+/\\d+");
   
   public NJBurlingtonCountyCParser() {
     super("BURLINGTON COUNTY", "NJ");
@@ -21,6 +24,11 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (SPECIAL_SUBJECT_PTN.matcher(subject).matches()) {
+      subject = "Automatic R&R Notification";
+    }
+    
     if (!super.parseMsg(subject, body, data)) return false;
     
     // Expand call description
@@ -36,9 +44,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
     }
     
     // Fix city abbreviations
-    if (data.strCity.equalsIgnoreCase("Southamptn")) data.strCity = "Southampton";
-    if (data.strCity.equalsIgnoreCase("Pembtn Twp")) data.strCity = "Pemberton Twp";
-    if (data.strCity.equalsIgnoreCase("Willingbor")) data.strCity = "Willingboro";
+    data.strCity = convertCodes(data.strCity, CITY_ABBRV);
     return true;
   }
   
@@ -54,6 +60,18 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
     if (name.equals("CALL")) return new MyCallField();
     return super.getField(name);
   }
+  
+  private static Properties CITY_ABBRV = buildCodeTable(new String[]{
+      "BdntwnCity", "Bordentown City",
+      "Chesterfld", "Chesterfield",
+      "McGuireAFB", "McGuire AFB",
+      "NewHanover", "New Hanover",
+      "Ocean Co",   "Ocean County",
+      "Pembtn Twp", "Pemberton Twp",
+      "Southamptn", "Southampton",
+      "Willingbor", "Willingboro",
+      "Wrghtstwn",  "Wrightstown"
+  });
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
       "CCD",   "Critical Care Divert",
