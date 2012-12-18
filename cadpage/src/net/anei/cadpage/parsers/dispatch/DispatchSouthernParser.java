@@ -116,6 +116,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     Parser p = new Parser(sAddr);
     data.strCode = p.getLastOptional(" MDL ");
     if (data.strCode.length() == 0) data.strCode = p.getLastOptional(" FDL ");
+    if (data.strCode.length() == 0) data.strCode = p.getLastOptional(" LDL ");
     sAddr = p.get();
     StartType st = (inclPlace ? StartType.START_PLACE : StartType.START_ADDR);
     int flags = (inclCross || inclCrossNamePhone ? FLAG_CROSS_FOLLOWS : 0);
