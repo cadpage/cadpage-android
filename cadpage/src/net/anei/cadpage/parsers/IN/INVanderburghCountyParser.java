@@ -11,7 +11,7 @@ public class INVanderburghCountyParser extends DispatchOSSIParser {
  
   public INVanderburghCountyParser() {
     super("VANDERBURGH COUNTY", "IN",
-           "SRC UNIT CALL PLACE? ADDR! CH? INFO+");
+           "BOX UNIT CALL PLACE? ADDR! CH? INFO+");
     setupCallList();
   }
   
