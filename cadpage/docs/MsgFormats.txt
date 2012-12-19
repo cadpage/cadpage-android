@@ -4873,10 +4873,6 @@ FRM:Rod McQuerrey \nMSG:dispatch@clintoncosheriff.org\n\nHISTORY FOR OCC #12-97,
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Nassau County, NY (fix to variant F)
-Contact: "Haiken, Todd" <thaiken@bmems.org>
-Sender: 2ndSignal@2sig.com
-(*) RESCUE\nAMBU\n\nSICK MALESICK MALE\n2358 BENNETT AVE\nNO BELLMORE\n1-516-324-2379   support@2sig.com
 **********************************************************
 Isabella County, MI
 Contact: Ryan Guthrie <ryan@livewithunited.com>
@@ -5066,5 +5062,3 @@ Dispatch\n01:48\nRESPIRATORY DIFFICULTY - ALS *\n370 E CHESTNUT ST ,16  btwn N T
 **********************************************************
 * EOF
 **********************************************************
-FYI: ;HEADACHE;196 PALOMINO CV;JA;(S)SPEARS RANCH ON SALADO CREEK (N)3H
-
