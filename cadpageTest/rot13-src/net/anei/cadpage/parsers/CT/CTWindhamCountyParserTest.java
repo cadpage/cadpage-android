@@ -36,6 +36,16 @@ Pbagnpg: Yneel Ybbzvf <yneel.ybbzvf.we@tznvy.pbz>
 .... (Zbbfhc Sver) FGN94  33.88 CEV 1 FGN94 sbe E1 Crefbaary gb Cynvasvryq/  Snyy Vawhel 796 ABEJVPU EQ / ZP QBANYQF Cynvasvryq (K-FGF YNGUEBC EQ RKG / BYQ ABEJVPU EQ ) 13:52
 .... (Zbbfhc Sver) FGN94  HUS-4 BCRE HUS CYRNFR Sver Nynez 19 FHAAL NPERF / Zbbfhc (K-FGF QNTTRGG FG / QRNQ RAQ ) 11:56
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Yvfoba Sver  Nzohynapr
+Ybpngvba: Yvfoba, PG, Havgrq Fgngrf
+Fraqre: dirpcntvat@dirp.bet
+
+(Yvfoba SQ Cntr) FGN54 FGN554 E554  33.88 CEV 1 ZRRG GUR GEBBC / Haxabja Ceboyrz (RZF) 55 XRAQNYY EQ / Yvfoba (K-FGF XRAQNYY EQ RKG / CERFGBA NYYRA EQ ) 18:38
+(Yvfoba SQ Cntr) FGN54 FGN554 E554  33.88 CEV 1 FLAPBCL ABJ PBAP. Hapbafpvbhf/Snvagvat 114 EVIRE EQ / URAAL CRAAL Yvfoba (K-FGF RKVG 84 A / YRR EQ ) 11:17
+(Yvfoba SQ Cntr) FGN54  33.74 PB (Ab Flzcgbzf) 18 IREFNVYYRF EQ / Yvfoba (K-FGF XRAQNYY EQ / QRNQ RAQ ) 20:08
+(Yvfoba SQ Cntr) FGN54  33.88 CEV 2 RZG fgvyy arrqrq /  Zragny Qvfbeqre A OHEAUNZ UJL / EBFF UVYY EQ Yvfoba (K-FGF ) 11:03
+
 */
 
 choyvp pynff PGJvaqunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -208,66 +218,58 @@ choyvp pynff PGJvaqunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgYneelYbbzvf() {
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgYvfobaSverNzohynapr() {
+
     qbGrfg("G1",
-        ".... (Zbbfhc Sver) FGN94 FGN594 ZBBF1  HUS-4 CEV 1 Qbja na raonaxzrag Iruvpyr Nppvqrag ZNEL NIR / GBZ NIR Zbbfhc (K-FGF ) 21:59",
-        "FEP:Zbbfhc Sver",
-        "HAVG:FGN94 FGN594 ZBBF1",
-        "PU:HUS-4",
-        "CEV:1",
-        "PNYY:Qbja na raonaxzrag Iruvpyr Nppvqrag",
-        "NQQE:ZNEL NIR & GBZ NIR",
-        "PVGL:Zbbfhc",
-        "GVZR:21:59");
-
-    qbGrfg("G2",
-        ".... (Zbbfhc Sver) FGN94 FGN594 ZBBF2  HUS-4 CEV 1 Vawherq Crefba 47 CEBFCRPG FG / CNEXVAT YBG Zbbfhc (K-FGF ENVYEBNQ NIR / NYYRA FG ) 18:25",
-        "FEP:Zbbfhc Sver",
-        "HAVG:FGN94 FGN594 ZBBF2",
-        "PU:HUS-4",
-        "CEV:1",
-        "PNYY:Vawherq Crefba",
-        "NQQE:47 CEBFCRPG FG",
-        "CYNPR:CNEXVAT YBG",
-        "PVGL:Zbbfhc",
-        "K:ENVYEBNQ NIR / NYYRA FG",
-        "GVZR:18:25");
-
-    qbGrfg("G3",
-        ".... (Zbbfhc Sver) FGN94 FGN594 ZBBF2  HUS-4 CEV 1 Zbbf Nzo. 2aq Perj arrqrq /  Fvpx Crefba 29 FHAAL NPERF / Zbbfhc (K-FGF QRNQ RAQ / QNTTRGG FG ) 12:34",
-        "FEP:Zbbfhc Sver",
-        "HAVG:FGN94 FGN594 ZBBF2",
-        "PU:HUS-4",
-        "CEV:1",
-        "PNYY:Zbbf Nzo 2aq Perj arrqrq/Fvpx Crefba",
-        "NQQE:29 FHAAL NPERF",
-        "PVGL:Zbbfhc",
-        "K:QRNQ RAQ / QNTTRGG FG",
-        "GVZR:12:34");
-
-    qbGrfg("G4",
-        ".... (Zbbfhc Sver) FGN94  33.88 CEV 1 FGN94 sbe E1 Crefbaary gb Cynvasvryq/  Snyy Vawhel 796 ABEJVPU EQ / ZP QBANYQF Cynvasvryq (K-FGF YNGUEBC EQ RKG / BYQ ABEJVPU EQ ) 13:52",
-        "FEP:Zbbfhc Sver",
-        "HAVG:FGN94",
+        "(Yvfoba SQ Cntr) FGN54 FGN554 E554  33.88 CEV 1 ZRRG GUR GEBBC / Haxabja Ceboyrz (RZF) 55 XRAQNYY EQ / Yvfoba (K-FGF XRAQNYY EQ RKG / CERFGBA NYYRA EQ ) 18:38",
+        "FEP:Yvfoba SQ",
+        "HAVG:FGN54 FGN554 E554",
         "PU:33.88",
         "CEV:1",
-        "PNYY:FGN94 sbe E1 Crefbaary gb Cynvasvryq/Snyy Vawhel",
-        "NQQE:796 ABEJVPU EQ",
-        "CYNPR:ZP QBANYQF",
-        "PVGL:Cynvasvryq",
-        "K:YNGUEBC EQ RKG / BYQ ABEJVPU EQ",
-        "GVZR:13:52");
+        "PNYY:ZRRG GUR GEBBC/Haxabja Ceboyrz (RZF)",
+        "NQQE:55 XRAQNYY EQ",
+        "PVGL:Yvfoba",
+        "K:XRAQNYY EQ RKG / CERFGBA NYYRA EQ",
+        "GVZR:18:38");
 
-    qbGrfg("G5",
-        ".... (Zbbfhc Sver) FGN94  HUS-4 BCRE HUS CYRNFR Sver Nynez 19 FHAAL NPERF / Zbbfhc (K-FGF QNTTRGG FG / QRNQ RAQ ) 11:56",
-        "FEP:Zbbfhc Sver",
-        "HAVG:FGN94",
-        "PU:HUS-4",
-        "PNYY:BCRE HUS CYRNFR Sver Nynez",
-        "NQQE:19 FHAAL NPERF",
-        "PVGL:Zbbfhc",
-        "K:QNTTRGG FG / QRNQ RAQ",
-        "GVZR:11:56");
+    qbGrfg("G2",
+        "(Yvfoba SQ Cntr) FGN54 FGN554 E554  33.88 CEV 1 FLAPBCL ABJ PBAP. Hapbafpvbhf/Snvagvat 114 EVIRE EQ / URAAL CRAAL Yvfoba (K-FGF RKVG 84 A / YRR EQ ) 11:17",
+        "FEP:Yvfoba SQ",
+        "HAVG:FGN54 FGN554 E554",
+        "PU:33.88",
+        "CEV:1",
+        "PNYY:FLAPBCL ABJ PBAP Hapbafpvbhf/Snvagvat",
+        "NQQE:114 EVIRE EQ",
+        "CYNPR:URAAL CRAAL",
+        "PVGL:Yvfoba",
+        "K:RKVG 84 A / YRR EQ",
+        "GVZR:11:17");
 
+    qbGrfg("G3",
+        "(Yvfoba SQ Cntr) FGN54  33.74 PB (Ab Flzcgbzf) 18 IREFNVYYRF EQ / Yvfoba (K-FGF XRAQNYY EQ / QRNQ RAQ ) 20:08",
+        "FEP:Yvfoba SQ",
+        "HAVG:FGN54",
+        "PU:33.74",
+        "PNYY:PB (Ab Flzcgbzf)",
+        "NQQE:18 IREFNVYYRF EQ",
+        "PVGL:Yvfoba",
+        "K:XRAQNYY EQ / QRNQ RAQ",
+        "GVZR:20:08");
+
+    qbGrfg("G4",
+        "(Yvfoba SQ Cntr) FGN54  33.88 CEV 2 RZG fgvyy arrqrq /  Zragny Qvfbeqre A OHEAUNZ UJL / EBFF UVYY EQ Yvfoba (K-FGF ) 11:03",
+        "FEP:Yvfoba SQ",
+        "HAVG:FGN54",
+        "PU:33.88",
+        "CEV:2",
+        "PNYY:RZG fgvyy arrqrq/Zragny Qvfbeqre",
+        "NQQE:A OHEAUNZ UJL & EBFF UVYY EQ",
+        "PVGL:Yvfoba",
+        "GVZR:11:03");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

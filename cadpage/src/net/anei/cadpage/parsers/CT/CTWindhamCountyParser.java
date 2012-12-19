@@ -108,6 +108,9 @@ public class CTWindhamCountyParser extends SmartAddressParser {
          "SOUTH WINDHAM",
          "WILLIMANTIC",
       "WOODSTOCK",
-         "SOUTH WOODSTOCK"
+         "SOUTH WOODSTOCK",
+      
+      // New London County
+      "LISBON"
   }));
 }
