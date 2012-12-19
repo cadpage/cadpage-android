@@ -10,6 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 public class MOGreeneCountyParser extends DispatchPrintrakParser {
   
   private static final Pattern FR_PTN = Pattern.compile("\\bFR(?= *\\d)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SHXX_PTN = Pattern.compile("\\b(SH)([A-Z]{1,2}|\\d+)\\b");
   
   public MOGreeneCountyParser() {
     super("GREENE COUNTY", "MO");
@@ -29,7 +30,10 @@ public class MOGreeneCountyParser extends DispatchPrintrakParser {
 
   @Override
   public String adjustMapAddress(String sAddress) {
-    return FR_PTN.matcher(sAddress).replaceAll(" FARM RD ").trim().replaceAll("  +", " ");
+    sAddress = SHXX_PTN.matcher(sAddress).replaceAll("MO $2");
+    sAddress = FR_PTN.matcher(sAddress).replaceAll(" FARM RD ");
+    sAddress = sAddress.trim().replaceAll("  +", " ");
+    return sAddress;
   }
   
   
