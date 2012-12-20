@@ -4869,6 +4869,20 @@ Sender: dispatch@clintoncosheriff.org
 FRM:Rod McQuerrey \nMSG:dispatch@clintoncosheriff.org\n\nHISTORY FOR OCC #12-97, INC...\n\nOCC #12-97, INC #12-6000 - FIRE - Fire\nTime ...
 1 of 2\nFRM:dispatch@clintoncosheriff.org\nSUBJ:NEWOCC #OUTS\2sMEDI - Medical\nMSG:NEWOCC #OUTS\2sMEDI - Medical\r\nAddress: 204 W Riley St,\n(Con't) 2 of 2\nPlattsburg\r\nReporting Person: Susan Hunt, Phone: 8165392537\r\nDetail: female unk conditon, worke up with headache 87 poss stroke.(End)
 **********************************************************
+Newberry County, SC
+Contact: Jimmyhazel <jimmyhazel@yahoo.com>
+Sender: 9 11
+FRM:9 11 \nMSG:4040 kings drive    poss seizure 3yo
+**********************************************************
+Hudson, OH ???
+Contact:  "daveandfaith@yahoo.com" <daveandfaith@yahoo.com>
+Sender: +12143184576
+0-0460, BASEMENT SMOKE DETECTORS, SUMMIT DIVERSF. 216-741-0470, CODE WHITE
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
@@ -5062,3 +5076,15 @@ Dispatch\n01:48\nRESPIRATORY DIFFICULTY - ALS *\n370 E CHESTNUT ST ,16  btwn N T
 **********************************************************
 * EOF
 **********************************************************
+From:rc.686@c-msg.net
+Body:BOX:041-06 CALL:ALL RX,HX SEVERE REACTION ADDR:214 COCKEYS MILL RD
+UNIT:1 M415 M56 FS41 M415 M415 4 041-06 INFO:07:38:09 ID:123530\r
+Send time:1355816303000
+Rec time: 1355834316704
+
+From:rc.686@c-msg.net
+Body:BOX:041-06 CALL:ALL RX,HX SEVERE REACTION ADDR:214 COCKEYS MILL RD
+UNIT:1 M415 M56 FS41 M415 M415 4 041-06 INFO:07:38:09 ID:123530\r
+Send time:1355816303000
+Rec time: 1355834316704
+
