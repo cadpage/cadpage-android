@@ -503,6 +503,20 @@ Good luck,
 -Ken
 
 ******************************************************************
+* Text paging delays 
+
+This is being reported fairly often recently.  You are getting text pages, and the only reason Cadpage alerting will be delayed for text pages is because the messages are just not arrive at your device in a timely fashion.  If you want to prove this, go into Cadpage Additional Settings and check the box labeled "Pass Calls through to SMS Client".  With that set, all calls will be passed to your message inbox in addition to alerting Cadpage and you can confirm the extent to which the messages are delayed.
+
+According to the message timestamps, it took only 16 seconds for the carrier to deliver this call to you, which would imply that the delay was introduced by the dispatch messaging service.  But this should not be considered hard proof, I have some suspicions that carriers are holding messages in a system queue for some reason and that the total delay is not represented by this number.
+
+You can also try sending yourself text messages when these delays are observed to see if those messages are also being delayed.  But when it comes down to it, about the only thing you can really do is complain to the carrier and/or dispatch service about the delays.
+
+It might be worth considering switching to another messaging service.  CodeMessaging.net and Active911.com are reasonably priced and can push pages to your device without relying on text messaging and will probably fix your delay problem.  Unless the dispatch center is slow getting the pages out, in which case they have logs to prove that and some clout to take the issue up with dispatch IT people.  And Cadpage doesn't bug you about paying for a subscription when you are getting direct pages from them.
+
+Good luck,
+-Ken
+
+******************************************************************
 * Active911 registration issues
 
 Every know and then Google has problem with pushing direct pages to the desired device.  There are a couple things you can try, usually something works.

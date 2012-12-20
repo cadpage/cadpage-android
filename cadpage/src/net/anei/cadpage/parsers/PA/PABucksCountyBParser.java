@@ -23,7 +23,7 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
   private static final Pattern TERMINATOR_PTN = Pattern.compile("\n+--");
   private static final Pattern SOFT_BREAK_PTN = Pattern.compile("\n(?=[^/ ])");
   
-  private static final Pattern SRC_PTN = Pattern.compile("TO INT1 FROM [A-Z0-9]+ +: +(.*?)(?=\n)");
+  private static final Pattern SRC_PTN = Pattern.compile("TO INT1 FROM [A-Z0-9]+ +: +(?:\n(?=/))?(.*?)(?=\n)");
   private static final Pattern ID_PTN = Pattern.compile("\n *Inc History for: #([A-Z]{2}\\d+)\\b");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\n *Dispatched  +(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d:\\d\\d) +");
   private static final Pattern CALL_PTN = Pattern.compile("\n *Final Type: (.*?) Pri:");

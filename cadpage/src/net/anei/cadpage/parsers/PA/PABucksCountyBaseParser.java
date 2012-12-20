@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.PA;
 
+import java.util.Properties;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA7BaseParser;
 
@@ -13,7 +15,7 @@ Base parser with methods needed by all Bucks COunty Parsers
 public class PABucksCountyBaseParser extends DispatchA7BaseParser {
   
   public PABucksCountyBaseParser(String program) {
-    super(INIT_TOWN_CODE, TOWN_CODES, CITY_LIST, "BUCKS COUNTY", "PA", program);
+    super(INIT_TOWN_CODE, TOWN_CODES, CITY_CODES, "BUCKS COUNTY", "PA", program);
   }
    
   
@@ -106,8 +108,10 @@ public class PABucksCountyBaseParser extends DispatchA7BaseParser {
   /*79*/ "YARDLEY"
   };
   
-  // City list is only used for out of county mutual aid calls
-  private static final String[] CITY_LIST = new String[]{
-    "MONTGOMERY TWP"
-  };
+  // City codes is only used for out of county mutual aid calls
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+    "MONTGOMERY TWP",   "MONTGOMERY TWP",
+    "MONTCO TWP",       "MONTGOMERY TWP",
+    "MONT TWP",         "MONTGOMERY TWP"
+  });
 }
