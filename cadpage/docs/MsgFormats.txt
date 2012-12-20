@@ -4902,18 +4902,6 @@ Sender: +12143184576
 **********************************************************
 **********************************************************
 **********************************************************
-Clinton County, PA
-Contact: woolrichvolfireco@comcast.net
-Sender: Message.CC_PSAP@clintoncountypa.com
-'MVA w/Entp\3sRTE 220 N MC TO AV 117\3sWayne\3sMVA W/PERSON UNDER VEHICLE\3s2012-00000206'
-'801\3sAlarm\3s1059 VALLEY VIEW RD\3sPine Creek\3sFIRST FLOOR SMOKE DETECTOR\3s2012-00000211\3sCHARLES RESIDENCE'
-'1202\3sLocal\3s2161 WOODWARD AVE\3sPine Creek\3sWIRE ARCING, POSSIBLE DOWN\3s2012-00000195'
-'1201\3sBLSE\3s439 PARK AVE\3sPine Creek\3s62 Y/O MALE NECK PAIN FROM A BULDGING DISK\3s2012-00000194'
-'1202\3sMVA w/Inj\3sISLAND RD/HARLEY\3sPine Creek\3sONE VEHICLE WITH INURIES\3s2012-00000188'
-'1202\3sMVA w/n In\3s1491 DUTCH HOLLOW RD\3sPine Creek\3sMVA WITH ROLEOVER, NO ONE AROUND THE VEHICLE\3s2012-00000182\3sVW JETTA'
-'1201\3sMVA w/Inj\3s419 PARK AVE\3sPine Creek\3sCAR INTO A TREE\3s2012-00000170'
-'1001\3sAlarm\3s612 MCELHATTAN DR\3sWayne\3sZONE 13 SMOKE DETECTOR\3s2012-00000199\3sBALD EAGLE TRUCK STOP'
-'1205\3sService\3s668 LITTLE PLUM RUN RD\3sDunnstable\3sFALL VICTIM, LIFT ASSISTANCE\3s2012-00000203'
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
