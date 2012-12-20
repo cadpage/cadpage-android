@@ -158,7 +158,7 @@ public class Message {
         if (found) break;
       }
       if (found) {
-        boolean pinned = (match.start() == 0 && match.end() == body.length());
+        boolean pinned = (match.groupCount() == 3 && match.start() == 0 && match.end() == body.length());
         int ndx = 1;
         if (!pinned && match.groupCount() == 3) {
           parseAddress = match.group(ndx++);
