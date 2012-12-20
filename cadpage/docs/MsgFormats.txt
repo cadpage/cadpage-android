@@ -2683,6 +2683,11 @@ Clearfield County, PA (PAClearfieldCounty)
 (Clearfield Alert) Inc: Sick Person BLS\nAdd: 137 OKLAHOMA CEMETERY RD\nCity: SANDY\nUnits: 4352\n43EMS\n10/17/2012 12:05:24 PM
 (Clearfield Alert) Inc: Breathing Probs ALS\nAdd: 817 GREEN GLEN DR\nCity: DUBOIS\nUnits: 4352\n43EMS\n10/17/2012 2:43:57 PM
 ***************************************************************************
+Clinton County, PA (PAClintonCountyParser)
+'MVA w/Entp   RTE 220 N MC TO AV 117   Wayne   MVA W/PERSON UNDER VEHICLE   2012-00000206'
+'801   Alarm   1059 VALLEY VIEW RD   Pine Creek   FIRST FLOOR SMOKE DETECTOR   2012-00000211   CHARLES RESIDENCE'
+'1202   Local   2161 WOODWARD AVE   Pine Creek   WIRE ARCING, POSSIBLE DOWN   2012-00000195'
+***************************************************************************
 Dauphin County, PA (PADauphinCountyParser)
 (29CAD) [!] Box:29-1 Loc:31 S RIVER RD HFT DAUP XSts:PETERS MOUNTAIN RD ,SYCAMORE AV Event Type:OVERDOSE / POISONING (INGESTION) Class: 1 Disp: P29
 (29CAD) [!] Box:29-6 Loc:100 S FOURTH ST HFX DAUP: @BEER AND SODA PLUS XSts:RISE ST ,PETERS MOUNTAIN RD Event Type:TRAFFIC / TRANSPORTATION ACCIDENT INJURIES Class: Disp: E29-1

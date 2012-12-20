@@ -570,6 +570,7 @@ public class ParserList {
               ,"PAChesterCounty"                ,"Chester County, PA"
               ,"PAClarionCounty"                ,"Clarion County, PA"
               ,"PAClearfieldCounty"             ,"Clearfield County, PA"
+              ,"PAClintonCounty"                ,"Clinton County, PA"
               ,"PACrawfordCounty"               ,"Crawford County, PA"
               ,"PADauphinCounty"                ,"Dauphin County, PA"
               ,"PADelawareCounty"               ,"Delaware County, PA"
