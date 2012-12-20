@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MDTalbotCountyParser extends SmartAddressParser {
   
-  private static final Pattern MARKER = Pattern.compile("^Talbot 911:\\*D ");
+  private static final Pattern MARKER = Pattern.compile("^Talbot ?911:\\*D ");
   
   public MDTalbotCountyParser() {
     super("TALBOT COUNTY", "MD");
@@ -18,7 +18,7 @@ public class MDTalbotCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "msg@cfmsg.com";
+    return "msg@cfmsg.com,777";
   }
 
   @Override
