@@ -29,7 +29,8 @@ public class CAOrovilleParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.startsWith("Dispatched Call")) return false;
-    if (!parseFields(body.split(" \\* "), 5, data)) return false;
+    if (body.endsWith("*")) body = body + " ";
+    if (!parseFields(body.split(" \\* ", -1), 5, data)) return false;
     if (data.strCall.length() == 0) data.strCall = "ALERT";
     return true;
   }

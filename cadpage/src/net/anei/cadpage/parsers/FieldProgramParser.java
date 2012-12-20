@@ -2275,7 +2275,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public boolean canFail() {
-      return hardPattern || super.canFail();
+      return hardPattern || fmt != null || super.canFail();
     }
 
     @Override
@@ -2464,6 +2464,11 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public boolean checkParse(String field, Data data) {
       return field.length() == 0;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   
