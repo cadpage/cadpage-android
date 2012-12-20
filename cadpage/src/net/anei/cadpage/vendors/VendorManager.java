@@ -76,6 +76,25 @@ public class VendorManager {
   }
   
   /**
+   * @return true if phone is registered with specified vendor
+   * @param vendorName registered vendor name
+   */
+  public boolean isRegistered(String vendorName) {
+    Vendor vendor = findVendor(vendorName);
+    if (vendor == null) return false;
+    return vendor.isEnabled();
+  }
+  
+  /**
+   * @return true specified vendor is a legal vendor name
+   * @param vendorName registered vendor name
+   */
+  public boolean isVendorDefined(String vendorName) {
+    Vendor vendor = findVendor(vendorName);
+    return vendor != null;
+  }
+  
+  /**
    * @return Name of sponsoring agency if an active vendor is sponsoring Cadpage
    */
   public String getSponsor() {

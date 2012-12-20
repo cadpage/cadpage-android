@@ -23,6 +23,7 @@ import java.text.SimpleDateFormat;
 
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.donation.UserAcctManager;
 import net.anei.cadpage.donation.DonationManager.DonationStatus;
 import net.anei.cadpage.vendors.VendorManager;
 import android.app.Activity;
@@ -267,12 +268,29 @@ public class C2DMReceiver extends BroadcastReceiver {
       }
       bld.appendQueryParameter("paid_status", paid);
       if (expireDate != null) bld.appendQueryParameter("paid_expire_date", expireDate);
+      
+      // also add phone number.  CodeMessaging wants this to identify users who 
+      // are getting text and direct pages
+      String phone = UserAcctManager.instance().getPhoneNumber();
+      if (phone != null) bld.appendQueryParameter("phone", phone);
     }
     
-    // Add version code
+    // If a vendor code was specified, return status and version code assoicated with vendor
     if (vendorCode != null) {
-      bld.appendQueryParameter("version", VendorManager.instance().getClientVersion(vendorCode));
+      
+      VendorManager vm = VendorManager.instance();
+      if (!vm.isVendorDefined(vendorCode)) {
+        bld.appendQueryParameter("vendor_status", "undefined");
+      } else {
+        bld.appendQueryParameter("vendor_status", vm.isRegistered(vendorCode) ? "registered" : "not_registered");
+        
+        // Add version code
+        bld.appendQueryParameter("version", vm.getClientVersion(vendorCode));
+      }
     }
+  
+    // Add version code
+    bld.appendQueryParameter("version", VendorManager.instance().getClientVersion(vendorCode));
     
     // Send the request
     HttpService.addHttpRequest(context, new HttpRequest(bld.build()));
