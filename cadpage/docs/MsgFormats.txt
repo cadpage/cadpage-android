@@ -1191,9 +1191,9 @@ Nassau County, NY (NYNassauCountyDParser)
 *** 11) AFA -HOUSE *** 21 CLARK ST CS: EILEEN AVE TOA: 08:09 03-29-11
 *******************************************************************************
 Nassau County, NY (NYNassauCountyFParser)
-(*) RESCUE\n11:06 AM\n1815 CAMP AVE\nNO MERRICK\nRHODE AVE\nMAEDER AVE\nKNEE PAIN\n1-516-324-2379   support@2sig.com
-(*) RESCUE\n11:26 AM\n1409 BELLMORE AVE\nNO BELLMORE\nWALLEN LA\nWARING ST\nSICK FEMALE\n1-516-324-2379   support@2sig.com
-(*) RESCUE\n3:29 PM\n404 LINDEN ST\nBELLMORE\nTHE CREEK\nNEWBRIDGE ROAD\n91/M STROKE\n1-516-324-2379   support@2sig.com
+(*) RESCUE\nAMBU\n\nSICK MALESICK MALE\n2358 BENNETT AVE\nNO BELLMORE\n1-516-324-2379   support@2sig.com
+(*) RESCUE\nAMBU\n\nCARDIACCARDIAC\n2574 ACORN PL\nNO BELLMORE\n1-516-324-2379   support@2sig.com
+(*) RESCUE\nAMBU\n\nSICK MALESICK MALE\n2358 BENNETT AVE\nNO BELLMORE\n1-516-324-2379   support@2sig.com
 *******************************************************************************
 Nassau County, NY (NYNassauCountyGParser)
 (** ALARM: ** SIGNAL 8 **) ** SIGNAL 8 ** AUTOMATIC ALARM  KNIGHTS OF COLUMBUS  155 MANORHAVEN BLVD  C/S: GRAYWOOD ROAD / HICKORY ROAD ADTNL: [2ND FLOOR DETECTOR] TOA: 08:36 7/23/2012
@@ -5084,12 +5084,3 @@ Dispatch\n01:48\nRESPIRATORY DIFFICULTY - ALS *\n370 E CHESTNUT ST ,16  btwn N T
 **********************************************************
 * EOF
 **********************************************************
-From:rc.686@c-msg.net
-Body:BOX:056-50 CALL:1050PI ADDR:I795 MM 7.0 N; 0 FRANKLIN*WSTMNSTR PK UNIT:2 A415 IV315 E56 E412 FS41 A415 E412 A415 E412 4 1 056-50 I\r
-Send time:1355853941000
-Rec time: 1355871961555
-
-From:rc.686@c-msg.net
-Body:NFO:18:05:30 ID:123531525\r
-Send time:1355853950000
-Rec time: 1355872067531
