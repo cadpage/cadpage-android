@@ -77,12 +77,6 @@ CAD:510B;5B5,5E15;GRASS OR BRUSH FIRE;120 W EVERGREEN RD;TAC5;RESIDENTS BURNING 
 CAD:505B;5E5,5A50;MEDICAL EMERGENCY RESPONSE;4515 CROWNE RIDGE CT;TAC5;Radio Channel: TAC5 [11/23/12 15:24:40 APEARCE]
 CAD:505C;5B5,5T5,5A50;GRASS OR BRUSH FIRE;GOEBEL SOCCER FIELD;6800 N GREEN RIVER RD;SB NORTH OF GRN MYSTERY VAN [11/23/2012 11:29:13 LGROSSMAN]
 *******************************************************************************
-Livingston County, MI (MILivingstonCountyParser)
-CAD:FYI: ;ALARMF;11555 PLEASANT VIEW DR;INDIAN TRL;SMOKE ALARMS GOING OFF IN THE HOUSE FOR THE LAST 30 MIN ON AND OFF/ NO SMOKE OR SMOKE SHOWING [09/24/10 04:17:07 ECOOK]
-CAD:FYI: ;UNKACC;E M36/PETTYS RD;VEHICLE HIT A POLE/ MALE RUNNING E/B FROM SCENE [09/23/10 21:45:06 ECOOK]
-CAD:FYI: ;CHSTPN;8422 PAWNEE TRL;SHOSHONI PASS;[Medical Priority Info] RESPONSE: P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 72 year old, Female, Conscious, Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. Cal
-CAD:FYI: ;UNCON;8732 RIVER VALLEY RD;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 63 year old, Female, Conscious, Breathing. Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
-*******************************************************************************
 Eaton County, MI (MIEatonCountyParser)
 CAD:FYI: ;20110000176;10/04/2011 20:35:39;BRUSH FIRE;W MT HOPE HWY/N SHAYTOWN RD;CALLER PASSERBY [10/04/11 20:36:48 KANTCLIFF] N OF ABOVE ADDRESS
 CAD:FYI: ;20110000177;10/09/2011 09:45:21;MEDICAL ASSIST;3286 E EATON HWY;Event spawned from EMS PRIORITY 2. [10/09/2011 09:45:21
@@ -92,6 +86,17 @@ Emmet County, MI (MIEmmetCountyParser)
 CAD:Msg:FYI: ;PERSONAL INJURY ACCIDENT;RBFR;409 N DIVISION RD/SUMMIT PARK DR;2 VEH PI. ONE VEH INTO THE TREES  [07/24/12 11:46:46 KMATELSKI]<10><13><10>
 CAD:Msg:FYI: ;MEDIC TRANSPORT;AEAM;416 CONNABLE AV;GOING TO CHEBOYGAN HOSPIC  [07/24/2012 11:57:20 KHEWITT]<10><13><10>
 CAD:Msg:Update: ;AMBULANCE;EJAM;5632 RICHARDS RD;[Medical Priority Info] PROBLEM: HUSBAND FEELING FAINT 82YM   # PATS: 1   AGE: 82   SEX: Male   CONSCIOUS: Yes   BREATHING: Yes  [07/24/12 12:15:28 KMATELSKI]<10>[Medical Priority Info] RESPONSE: Ambula<13><10>
+*******************************************************************************
+Isabella County, MI (MIIsabellaCountyParser)
+CAD:FYI: ;AMBULANCE;402 W REMUS RD;MP;FITCH DR;S MERIDIAN RD;chest pains [12/13/12 21:20:21 HADLEY] m-65 / hx heart / diff brthing [12/13/12 21:20:07 HADLEY]
+CAD:FYI: ;INJURY ACCIDENT;1999 S WINN RD/W PICKARD RD;MP
+CAD:FYI: ;AMBULANCE;2095 S NOTTAWA RD;MP;W PICKARD RD;W BROADWAY RD;77 y/o male, copd pt, diff breathing. [12/03/12 04:32:07 RMARTIN]
+*******************************************************************************
+Livingston County, MI (MILivingstonCountyParser)
+CAD:FYI: ;ALARMF;11555 PLEASANT VIEW DR;INDIAN TRL;SMOKE ALARMS GOING OFF IN THE HOUSE FOR THE LAST 30 MIN ON AND OFF/ NO SMOKE OR SMOKE SHOWING [09/24/10 04:17:07 ECOOK]
+CAD:FYI: ;UNKACC;E M36/PETTYS RD;VEHICLE HIT A POLE/ MALE RUNNING E/B FROM SCENE [09/23/10 21:45:06 ECOOK]
+CAD:FYI: ;CHSTPN;8422 PAWNEE TRL;SHOSHONI PASS;[Medical Priority Info] RESPONSE: P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 72 year old, Female, Conscious, Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. Cal
+CAD:FYI: ;UNCON;8732 RIVER VALLEY RD;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 63 year old, Female, Conscious, Breathing. Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 *******************************************************************************
 Montcalm County, MI (MIMontcalmCountyParser)
 CAD:FYI: ;06/22/2012 01:39:53;4566 S GREENVILLE RD;Event spawned from STRUCTURE FIRE. [06/22/2012 01:38:55 TMORTENSEN]
@@ -4896,36 +4901,6 @@ Sender: +12143184576
 **********************************************************
 **********************************************************
 **********************************************************
-Isabella County, MI
-Contact: Ryan Guthrie <ryan@livewithunited.com>
-Sender: cad@isabellacounty.org
-CAD:FYI: ;AMBULANCE;402 W REMUS RD;MP;FITCH DR;S MERIDIAN RD;chest pains [12/13/12 21:20:21 HADLEY] m-65 / hx heart / diff brthing [12/13/12 21:20:07 HADLEY]
-CAD:FYI: ;INJURY ACCIDENT;1999 S WINN RD/W PICKARD RD;MP
-CAD:FYI: ;AMBULANCE;2095 S NOTTAWA RD;MP;W PICKARD RD;W BROADWAY RD;77 y/o male, copd pt, diff breathing. [12/03/12 04:32:07 RMARTIN]
-CAD:CANCEL;2560 S NOTTAWA RD; MP
-CAD:FYI: ;SUICIDE INCLUDING ATTEMPTS;2560 S NOTTAWA RD;MP;W BROADWAY RD;suicidal male subject, richard anthony szott. [11/30/12 20:00:18 DRAPER]
-
-ALMA                            ALMA
-REMUS                           RMS
-BLANCHARD                       BLA
-MT PLEASANT                     MP
-ROSEBUSH                        RSB
-CLARE                           CLR
-SHEPHERD                        SHP
-BEVERTON                        BEAV
-BARRYTON                        BRY
-COLEMAN                 CLM
-EDMORE                  EDM
-FARWELL                 FRW
-LAKE                            LKE
-LAKE ISABELLA                   LKI
-LAKEVIEW                        LVW
-RIVERDALE                       RVD
-ST LOUIS                        STL
-VESTABURG                       VEST
-WEIDMAN                 WDM
-WINN                            WNN
-LOOMIS                  LMS
 **********************************************************
 Clinton County, PA
 Contact: woolrichvolfireco@comcast.net
@@ -5084,4 +5059,4 @@ Dispatch\n01:48\nRESPIRATORY DIFFICULTY - ALS *\n370 E CHESTNUT ST ,16  btwn N T
 **********************************************************
 * EOF
 **********************************************************
- 
+

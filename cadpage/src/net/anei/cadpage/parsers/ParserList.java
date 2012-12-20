@@ -320,6 +320,7 @@ public class ParserList {
               ,"MICheboyganCounty"              ,"Cheboygan County, MI"
               ,"MIEatonCounty"                  ,"Eaton County, MI"
               ,"MIEmmetCounty"                  ,"Emmet County, MI"
+              ,"MIIsabellaCounty"               ,"Isabella County, MI"
               ,"MILeelanauCounty"               ,"Leelanau County, MI"
               ,"MILivingstonCounty"             ,"Livingston County, MI"
               ,"MIMidlandCounty"                ,"Midland County, MI"
