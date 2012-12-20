@@ -5084,3 +5084,12 @@ Dispatch\n01:48\nRESPIRATORY DIFFICULTY - ALS *\n370 E CHESTNUT ST ,16  btwn N T
 **********************************************************
 * EOF
 **********************************************************
+From:rc.686@c-msg.net
+Body:BOX:056-50 CALL:1050PI ADDR:I795 MM 7.0 N; 0 FRANKLIN*WSTMNSTR PK UNIT:2 A415 IV315 E56 E412 FS41 A415 E412 A415 E412 4 1 056-50 I\r
+Send time:1355853941000
+Rec time: 1355871961555
+
+From:rc.686@c-msg.net
+Body:NFO:18:05:30 ID:123531525\r
+Send time:1355853950000
+Rec time: 1355872067531

@@ -18,7 +18,7 @@ public class NCDuplinCountyParser extends DispatchSouthernParser {
   
   @Override
   protected boolean parseMsg(String field, Data data) {
-    if (!super.parseMsg(field, data));
+    if (!super.parseMsg(field, data)) return false;
     if (data.strCity.equals("DUPLIN")) data.strCity = "";
     return true;
   }
