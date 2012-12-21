@@ -97,10 +97,29 @@ public class COAdamsCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern INFO_GPS_PTN = Pattern.compile("^[-+]\\d+\\.\\d{6} [-+]\\d+\\.\\d{6}\\b");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = INFO_GPS_PTN.matcher(field);
+      if (match.find()) {
+        data.strGPSLoc = match.group();
+        field = field.substring(match.end()).trim();
+      }
+      super.parse(field, data);
+    }
+    
+    @Override 
+    public String getFieldNames() {
+      return "GPS INFO";
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("TIME")) return new MyTimeField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
@@ -109,6 +128,7 @@ public class COAdamsCountyParser extends FieldProgramParser {
       "ADAM AUR",  "AURORA",
       "ADAM BPD",  "BRIGHTON",
       "ADAM CCPD", "COMMERCE CITY",
+      "ADAM TPD",  "THORNTON",
       "ARAP ARAP", "ARAPAHOE COUNTY"
   });
 }
