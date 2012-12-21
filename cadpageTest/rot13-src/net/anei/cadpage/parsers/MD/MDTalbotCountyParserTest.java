@@ -26,6 +26,24 @@ Pbagnpg: pylqr qvpxrl <pyqvpxrl45@tznvy.pbz>
 Fraqre: 777255020755
 Gnyobg911:*Q 54 ERFVQRAGVNY SVER 9695 PBHAPRYY EQ FVATYR G50
 
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Gnyobg QRF
+Ybpngvba: Rnfgba, ZQ, Havgrq Fgngrf
+Fraqre: Gnyobg911@gnyobgqrf.bet
+
+Gnyobg911:*Q 44   N-FVPX CREFBA        6319 OBMZNA ARNIVGG EQ                       HAJRYY / VYY         G40
+Gnyobg911:*Q 60   ZIN/CV               UNEEVFBA FG A / JNFUVATGBA FG A                                   G60
+Gnyobg911:*Q PNE  NFFVFG SVER          23200 TEBIR EQ                                                    P300
+Gnyobg911:*Q 43   O-VAQHFGEVNY NYNEZ   27040 EVTOLYBG EQ                            ERFVQRAGVNY/FVATYR   G40
+Gnyobg911:*T 64   ZIN/CV               RNFGBA OLC A / FG ZVPUNRYF EQ                                     G60
+Gnyobg911:*Q 41P  P-OERNGUVAT CEBOYRZF 210 ABEGU FG                                 NOABEZNY OERNGUVAT   G40
+Gnyobg911:*Q 61P  N-FVPX CREFBA        43 ZNEVNA GRE                                HAJRYY / VYY         G60
+Gnyobg911:*Q 61   Q-OERNGUVAT CEBOYRZF 10 CEBFCRPG NIR                              QVSSVPHYGL FCRNXVAT  G60
+Gnyobg911:*Q 71   ZRQVPNY NYNEZ        21352 FRGU NIR                               OENIB ERFCBAFR       G70
+Gnyobg911:*Q 43   Q-HAPBAFPVBHF/SNVAG  7560 ELQREF ERFG YA                          HAPBAFP/RSSRP OERNGU G40
+
+
 Gur pbqrf sbyybjvat gur *Q ner gur obk nern naq gura gur G__ naq fhpu vf gur
 fgngvba ahzore gung unf gur pnyy. Jr unir gur sbyybjvat fgngvbaf va gur
 pbhagl.
@@ -113,6 +131,81 @@ choyvp pynff ZQGnyobgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ERFVQRAGVNY SVER",
         "NQQE:9695 PBHAPRYY EQ",
         "VASB:FVATYR G50");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGnyobgQRF() {
+
+    qbGrfg("G1",
+        "Gnyobg911:*Q 44   N-FVPX CREFBA        6319 OBMZNA ARNIVGG EQ                       HAJRYY / VYY         G40",
+        "OBK:44",
+        "PNYY:N-FVPX CREFBA",
+        "NQQE:6319 OBMZNA ARNIVGG EQ",
+        "VASB:HAJRYY / VYY G40");
+
+    qbGrfg("G2",
+        "Gnyobg911:*Q 60   ZIN/CV               UNEEVFBA FG A / JNFUVATGBA FG A                                   G60",
+        "OBK:60",
+        "PNYY:ZIN/CV",
+        "NQQE:UNEEVFBA FG A & JNFUVATGBA FG A",
+        "VASB:G60");
+
+    qbGrfg("G3",
+        "Gnyobg911:*Q PNE  NFFVFG SVER          23200 TEBIR EQ                                                    P300",
+        "OBK:PNE",
+        "PNYY:NFFVFG SVER",
+        "NQQE:23200 TEBIR EQ",
+        "VASB:P300");
+
+    qbGrfg("G4",
+        "Gnyobg911:*Q 43   O-VAQHFGEVNY NYNEZ   27040 EVTOLYBG EQ                            ERFVQRAGVNY/FVATYR   G40",
+        "OBK:43",
+        "PNYY:O-VAQHFGEVNY NYNEZ",
+        "NQQE:27040 EVTOLYBG EQ",
+        "VASB:ERFVQRAGVNY / FVATYR G40");
+
+    qbGrfg("G5",
+        "Gnyobg911:*T 64   ZIN/CV               RNFGBA OLC A / FG ZVPUNRYF EQ                                     G60",
+        "OBK:64",
+        "PNYY:ZIN/CV RNFGBA OLC A/FG",
+        "NQQE:ZVPUNRYF EQ",
+        "VASB:G60");
+
+    qbGrfg("G6",
+        "Gnyobg911:*Q 41P  P-OERNGUVAT CEBOYRZF 210 ABEGU FG                                 NOABEZNY OERNGUVAT   G40",
+        "OBK:41P",
+        "PNYY:P-OERNGUVAT CEBOYRZF",
+        "NQQE:210 ABEGU FG",
+        "VASB:NOABEZNY OERNGUVAT G40");
+
+    qbGrfg("G7",
+        "Gnyobg911:*Q 61P  N-FVPX CREFBA        43 ZNEVNA GRE                                HAJRYY / VYY         G60",
+        "OBK:61P",
+        "PNYY:N-FVPX CREFBA",
+        "NQQE:43 ZNEVNA GRE",
+        "VASB:HAJRYY / VYY G60");
+
+    qbGrfg("G8",
+        "Gnyobg911:*Q 61   Q-OERNGUVAT CEBOYRZF 10 CEBFCRPG NIR                              QVSSVPHYGL FCRNXVAT  G60",
+        "OBK:61",
+        "PNYY:Q-OERNGUVAT CEBOYRZF",
+        "NQQE:10 CEBFCRPG NIR",
+        "VASB:QVSSVPHYGL FCRNXVAT G60");
+
+    qbGrfg("G9",
+        "Gnyobg911:*Q 71   ZRQVPNY NYNEZ        21352 FRGU NIR                               OENIB ERFCBAFR       G70",
+        "OBK:71",
+        "PNYY:ZRQVPNY NYNEZ",
+        "NQQE:21352 FRGU NIR",
+        "VASB:OENIB ERFCBAFR G70");
+
+    qbGrfg("G10",
+        "Gnyobg911:*Q 43   Q-HAPBAFPVBHF/SNVAG  7560 ELQREF ERFG YA                          HAPBAFP/RSSRP OERNGU G40",
+        "OBK:43",
+        "PNYY:Q-HAPBAFPVBHF/SNVAG",
+        "NQQE:7560 ELQREF ERFG YA",
+        "VASB:HAPBAFP / RSSRP OERNGU G40");
 
   }
   

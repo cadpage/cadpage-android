@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MDTalbotCountyParser extends SmartAddressParser {
   
-  private static final Pattern MARKER = Pattern.compile("^Talbot ?911:\\*D ");
+  private static final Pattern MARKER = Pattern.compile("^Talbot ?911:\\*[DG] ");
   
   public MDTalbotCountyParser() {
     super("TALBOT COUNTY", "MD");
