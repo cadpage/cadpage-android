@@ -5,7 +5,9 @@ support@cadpage.org
 
 Hello,
 
-The v1.5.73 release crashes when processing some direct pages.  A new version of Cadpage has been released which fixes this.
+The v1.5.73 release crashes when processing some direct pages.  A new version of Cadpage has been released which fixes this. You can install it with the Google Play Store app.  
+
+We apologize for any inconvenience.
 
 Thank you for reporting this,
 -Ken
