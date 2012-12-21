@@ -753,8 +753,7 @@ choyvp pynff VYQhCntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "VAP01 1.0 RI-KKK 0       SJT1212050027890A025 JVASVRYQ EQ               W319UBFCVGNY/AHEFVAT UBZPQU                                                             ",
         "VQ:SJT121205002789",
-        "NQQE:0A025 JVASVRYQ EQ",
-        "ZNQQE:PQU,0A025 JVASVRYQ EQ",
+        "NQQE:25 A JVASVRYQ EQ",
         "PBQR:W319",
         "PNYY:UBFCVGNY/AHEFVAT UBZ",
         "CYNPR:PQU");
@@ -913,7 +912,7 @@ choyvp pynff VYQhCntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VAP01 1.0 RI-KKK 0       SJT12121600287429J310 ABEGU NI                 V050QVNORGVP CEBOYRZF   FBAAL NPERF SNEZ                                                ",
         "VQ:SJT121216002874",
         "NQQE:29J310 ABEGU NI",
-        "ZNQQE:FBAAL NPERF SNEZ,29J310 ABEGU NIR",
+        "ZNQQE:29J310 ABEGU NIR",
         "PBQR:V050",
         "PNYY:QVNORGVP CEBOYRZF",
         "CYNPR:FBAAL NPERF SNEZ");
@@ -983,7 +982,6 @@ choyvp pynff VYQhCntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VAP01 1.0 RI-KKK 0       SJT1212160028654A146 TBYS IVRJ PG              V054HAPBAFVBHF CREFBAF/SBSP                                                             ",
         "VQ:SJT121216002865",
         "NQQE:4A146 TBYS IVRJ PG",
-        "ZNQQE:BSP,4A146 TBYS IVRJ PG",
         "PBQR:V054",
         "PNYY:HAPBAFVBHF CREFBAF/S",
         "CYNPR:BSP");
@@ -1092,8 +1090,7 @@ choyvp pynff VYQhCntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G44",
         "VAP01 1.0 RI-KKK 0       SJT1212140028520A025 JVASVRYQ EQ               W319UBFCVGNY/AHEFVAT UBZPQU                                                             ",
         "VQ:SJT121214002852",
-        "NQQE:0A025 JVASVRYQ EQ",
-        "ZNQQE:PQU,0A025 JVASVRYQ EQ",
+        "NQQE:25 A JVASVRYQ EQ",
         "PBQR:W319",
         "PNYY:UBFCVGNY/AHEFVAT UBZ",
         "CYNPR:PQU");
@@ -1201,7 +1198,6 @@ choyvp pynff VYQhCntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VAP01 1.0 RI-KKK 0       SJT1212120028383A471 CBJVF EQ                  V053IRUVPYR SVER (CNFFNAPYNFFVP YNAQFPNCVAT                                             ",
         "VQ:SJT121212002838",
         "NQQE:3A471 CBJVF EQ",
-        "ZNQQE:PYNFFVP YNAQFPNCVAT,3A471 CBJVF EQ",
         "PBQR:V053",
         "PNYY:IRUVPYR SVER (CNFFNA",
         "CYNPR:PYNFFVP YNAQFPNCVAT");

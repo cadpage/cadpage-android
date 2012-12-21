@@ -773,7 +773,7 @@ public class MsgInfo {
    * @return true if address is valid standalone address
    * (ie either starts with a house number or contains an intersection marker) 
    */
-  private static final Pattern HOUSE_NO_PTN = Pattern.compile("^(?:[NSEW] +)?\\d+[A-Z]? ", Pattern.CASE_INSENSITIVE);
+  private static final Pattern HOUSE_NO_PTN = Pattern.compile("^(?:(?:[NSEW] +)?\\d+[A-Z]?|\\d+[NSEW]\\d+) ", Pattern.CASE_INSENSITIVE);
   private boolean validAddress(String sAddr) {
     if (HOUSE_NO_PTN.matcher(sAddr).find()) return true;;
     if (sAddr.contains("&") || sAddr.contains(" AND ") || sAddr.contains(" and ")) return true; 

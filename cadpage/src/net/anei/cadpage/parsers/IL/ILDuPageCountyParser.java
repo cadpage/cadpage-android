@@ -24,6 +24,7 @@ public class ILDuPageCountyParser extends MsgParser {
     String addr = substring(body, 40, 70);
     int pt = addr.indexOf("...");
     if (pt >= 0) addr = addr.substring(0,pt).trim();
+    if (addr.startsWith("0N025 ")) addr = "25 N " + addr.substring(6);
     parseAddress(addr, data);
     data.strCity = convertCodes(substring(body,70,72), CITY_CODES);
     data.strCode = substring(body, 72, 76);
