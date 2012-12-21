@@ -287,10 +287,10 @@ public class C2DMReceiver extends BroadcastReceiver {
         // Add version code
         bld.appendQueryParameter("version", vm.getClientVersion(vendorCode));
       }
+      
+      // Add version code
+      bld.appendQueryParameter("version", VendorManager.instance().getClientVersion(vendorCode));
     }
-  
-    // Add version code
-    bld.appendQueryParameter("version", VendorManager.instance().getClientVersion(vendorCode));
     
     // Send the request
     HttpService.addHttpRequest(context, new HttpRequest(bld.build()));
