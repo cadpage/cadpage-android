@@ -4863,24 +4863,6 @@ Contact: David Liske <david.liskeusmc@gmail.com>
 Sender: secc@scott.ia.us
 (Incident) MCFD\2s106 N SALINA ST McCausland EMS or MVC-Solo\2sCall successfully transferred to peer Agency. [MedicEMS]\2sPeer CFS Number = 0045-A_2012-12-01 [MedicEM
 **********************************************************
-El Paso County, CO (replace?)
-Contact: Eric Riffle <ericriffle@ymail.com>
-Sender: ept@ept911.info
-  / afa22 2306 Cadet dr at the Chapel 33yom c/b having heart rate problems\n
-  / AFA D1:AFA11,2111,AMR.Medical                  .6910 Carlton Dr               .AFA High School     .AFA218141           .
-  / AFA D4:AFA44,2113,2152,AMR1.Unconscious / Fainting   .11700 I-25                    .MM154 I-25          .AFA218298           .\n
-  / to afa4 unconcious pty @ mm154 SB - state trooper has pty pulled over - 25 yof fainted // no further\n
-  / AFA D4:AFA44,2113,2152,AMR1.Suicidal Check the Welfar.13000 I-25                    .AFA Northgate mm156b.AFA218304           .\n
-  / AFA4  ALL UNITS CAN DISREGARD THE SUIC CTW  PARTY NOT ONS\n
-Body:\2s/ AFA D4:AFA44,2113,2170,2152,AMR,CSP.Traff Acc Unk Injuries\3s.13000 I-25\20s.MM156 I-25\10s.AFA218383\11s.\n
-Body:\2s/ TA UNK INJURIES MM156 NOTHBOUND SILVER DODGE IN MEDIAN\n
-Body:ept@ept911.info /\2s/ [AFA: AFA D4 ] AFA44,2113,2170,2152,AMR,CSP~Traff Acc Unk Injuries\3s~I 25 / N Academy Blvd\5s#\5s~\20s~AFA218388\n
-Body:\2s/ 25/N ACAD NB-- TA UNK UNK INJ-- RED SUV SPUN OU\n
-Body:\2s/ [CITY:220-6\2s] FINFO2,FINFO2,AFA4,FINFO2,CSFD~Test Call\9s~6712 Test\17s#\5s~6712X\10s~CSFD218385\n
-Body:\2s/ [AFA: AFA D1 ] AFA11,2111,2170,2152,AMR2~Traff Acc Unk Injuries\3s~6910 Carlton Dr\11s#\5s~Air Academy High Sch~AFA218394\n
-Body:\2s/ TA W INJURIES AT HIGH SCHOOL 6910 CARLTON DR\2sSINGLE VEHICLE WITH UNK OCCUPANTS\2s29D02\n
-Body:\2s/ TA W INJURIES AT HIGH SCHOOL 6910 CARLTON DR\2sSINGLE VEHICLE ROLLOVER WITH INJURIES\n
-**********************************************************
 Clinton County, MO
 Contact: Rod McQuerrey <rmcquerrey@plattsburgfire.org>
 Sender: dispatch@clintoncosheriff.org
@@ -4896,6 +4878,25 @@ Hudson, OH ???
 Contact:  "daveandfaith@yahoo.com" <daveandfaith@yahoo.com>
 Sender: +12143184576
 0-0460, BASEMENT SMOKE DETECTORS, SUMMIT DIVERSF. 216-741-0470, CODE WHITE
+**********************************************************
+El Paso County, CO (replace?)
+Contact: Eric Riffle <ericriffle@ymail.com>
+Sender: ept@ept911.info
+  / afa22 2306 Cadet dr at the Chapel 33yom c/b having heart rate problems\n
+  / AFA D1:AFA11,2111,AMR.Medical                  .6910 Carlton Dr               .AFA High School     .AFA218141           .
+  / AFA D4:AFA44,2113,2152,AMR1.Unconscious / Fainting   .11700 I-25                    .MM154 I-25          .AFA218298           .\n
+  / to afa4 unconcious pty @ mm154 SB - state trooper has pty pulled over - 25 yof fainted // no further\n
+  / AFA D4:AFA44,2113,2152,AMR1.Suicidal Check the Welfar.13000 I-25                    .AFA Northgate mm156b.AFA218304           .\n
+  / AFA4  ALL UNITS CAN DISREGARD THE SUIC CTW  PARTY NOT ONS\n
+  / AFA D4:AFA44,2113,2170,2152,AMR,CSP.Traff Acc Unk Injuries   .13000 I-25                    .MM156 I-25          .AFA218383          .\n
+  / TA UNK INJURIES MM156 NOTHBOUND SILVER DODGE IN MEDIAN\n
+ept@ept911.info /  / [AFA: AFA D4 ] AFA44,2113,2170,2152,AMR,CSP~Traff Acc Unk Injuries   ~I 25 / N Academy Blvd     #     ~                    ~AFA218388\n
+  / 25/N ACAD NB-- TA UNK UNK INJ-- RED SUV SPUN OU\n
+  / [CITY:220-6  ] FINFO2,FINFO2,AFA4,FINFO2,CSFD~Test Call        ~6712 Test                 #     ~6712X          ~CSFD218385\n
+  / [AFA: AFA D1 ] AFA11,2111,2170,2152,AMR2~Traff Acc Unk Injuries   ~6910 Carlton Dr           #     ~Air Academy High Sch~AFA218394\n
+  / TA W INJURIES AT HIGH SCHOOL 6910 CARLTON DR  SINGLE VEHICLE WITH UNK OCCUPANTS  29D02\n
+  / TA W INJURIES AT HIGH SCHOOL 6910 CARLTON DR  SINGLE VEHICLE ROLLOVER WITH INJURIES\n
+  / afa22 2302 cadet drive - arnold hall - 50 yom a/b fall poss broken arm at the front door 17a01g\n
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5052,4 +5053,3 @@ Dispatch\n01:48\nRESPIRATORY DIFFICULTY - ALS *\n370 E CHESTNUT ST ,16  btwn N T
 **********************************************************
 * EOF
 **********************************************************
-

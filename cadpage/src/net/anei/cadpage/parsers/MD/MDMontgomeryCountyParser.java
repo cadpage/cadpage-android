@@ -13,6 +13,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class MDMontgomeryCountyParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("\\* (D|\\d[a-z]{2}) \\*");
+  private static final Pattern STATION_PTN = Pattern.compile("^Sent by Montgomery CAD to.*(FS\\d+),.* Montgomery CAD");
   
   public MDMontgomeryCountyParser() {
     super(CITY_CODES, "MONTGOMERY COUNTY", "MD",
@@ -30,8 +31,18 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
 	  if (!match.find()) return false;
 	  body = body.substring(match.end()).trim();
 	  int pt = body.indexOf('\n');
-	  if (pt >= 0) body = body.substring(0,pt).trim();
+	  if (pt >= 0) {
+	    String extra = body.substring(pt+1).trim();
+	    match = STATION_PTN.matcher(extra);
+	    if (match.find()) data.strSource = match.group(1);
+	    body = body.substring(0,pt).trim();
+	  }
 	  return parseFields(body.split("\\*"), 4, data);
+	}
+	
+	@Override
+	public String getProgram() {
+	  return super.getProgram() + " SRC";
 	}
 	
 	private final Field CITY_FIELD = new CityField();
@@ -53,7 +64,7 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
 	  
 	  @Override
 	  public String getFieldNames() {
-	    return super.getFieldNames() + " CITY PLACE";
+	    return super.getFieldNames() + " CITY ST PLACE";
 	  }
 	}
 	
@@ -77,10 +88,13 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
 	}
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "C4",  "CHEVY CHASE",
+      "CV",  "CHEVY CHASE",
       "DC",  "DC",
-      "GA", "GAITHERSBURG",
+      "GA",  "GAITHERSBURG",
       "MCG", "",
       "PG",  "PRINCE GEORGES COUNTY",
+      "PO",  "POOLESVILLE",
       "RO",  "ROCKVILLE",
       "SS",  "SILVER SPRING",
       "TP",  "TACOMA PARK"
