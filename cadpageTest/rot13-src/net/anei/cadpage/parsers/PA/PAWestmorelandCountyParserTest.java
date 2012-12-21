@@ -32,6 +32,11 @@ Pbagnpg: Tbbtyr <sversvtugre4920@tznvy.pbz>
 Fraqre: nyreg@rpz2.hf
 1 bs 3\aSEZ:nyreg@rpz2.hf\aFHOW:FG49 - 911 Pnyy\aZFT:Ybp: 151 TBBQIVRJ QE JNFU_G: @JRFG UNIRA ZNABE AHEFVAT UBZR K-fgf: EBHGR 66 & EBHGR 66 \a(Pba'g) 2 bs 3\aVap#:S12002321 ANGHER: NSN NHGBZNGVP SVER NYNEZ  PNYYRE: FRYRPG FRPHEVGL.20 GBP: 18:09:59 Sver GNP:  RZF Gnp: Pbzzragf: FCRPVNY NQQERFF\a(Pba'g) 3 bs 3\aPBZZRAG: JVAT ?? EBBZ # ?? TRARENY SVER JNGP SG 6  Qvfc: R49,D102,R102,R169\a(Raq)
 
+Pbagnpg: Tnel Tnhxre <gnmm49.tt@tznvy.pbz>
+Fraqre: nyreg@rpz2.hf
+(FG49 - 911 Pnyy) Ybp: 4206 EBHGR 66 JNFU_G: @TYNFFZNEG K-fgf: EBHGR 380 & ORNIRE EHA EQ  Vap#:S12020572 ANGHER: FZBXR FZBXR VAIRFGVTNGVBA  PNYYRE: TYNFF ZNEG SBBQ FG
+
+
 */
 
 choyvp pynff CNJrfgzberynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -206,7 +211,7 @@ choyvp pynff CNJrfgzberynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:BQBE BS CBFF CYNFGVP OHEAVAT VA GUR ERFQVRAPR SG 3\\ NQI GB TRG BHG BS GUR UBHFR...ABUB NQI",
         "HAVG:R94-2,R57,R02-1,R03-1,D10");
 
-    qbGrfg("G1",
+    qbGrfg("G16",
         "1 bs 3\a" +
         "SEZ:nyreg@rpz2.hf\a" +
         "FHOW:FG49 - 911 Pnyy\a" +
@@ -218,7 +223,7 @@ choyvp pynff CNJrfgzberynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Raq)",
 
         "NQQE:151 TBBQIVRJ QE",
-        "PVGL:JNFU_G",
+        "PVGL:JNFUVATGBA GJC",
         "CYNPR:JRFG UNIRA ZNABE AHEFVAT UBZR",
         "K:EBHGR 66 & EBHGR 66",
         "VQ:S12002321",
@@ -226,7 +231,17 @@ choyvp pynff CNJrfgzberynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:FRYRPG FRPHEVGL.20",
         "VASB:FCRPVNY NQQERFF PBZZRAG: JVAT ?? EBBZ # ?? TRARENY SVER JNGP SG 6",
         "HAVG:R49,D102,R102,R169");
-       
+
+    qbGrfg("G17",
+        "(FG49 - 911 Pnyy) Ybp: 4206 EBHGR 66 JNFU_G: @TYNFFZNEG K-fgf: EBHGR 380 & ORNIRE EHA EQ  Vap#:S12020572 ANGHER: FZBXR FZBXR VAIRFGVTNGVBA  PNYYRE: TYNFF ZNEG SBBQ FG",
+        "NQQE:4206 EBHGR 66",
+        "PVGL:JNFUVATGBA GJC",
+        "CYNPR:TYNFFZNEG",
+        "K:EBHGR 380 & ORNIRE EHA EQ",
+        "VQ:S12020572",
+        "PNYY:FZBXR FZBXR VAIRFGVTNGVBA",
+        "ANZR:TYNFF ZNEG SBBQ FG");
+      
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

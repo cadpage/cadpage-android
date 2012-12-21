@@ -8,24 +8,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class PAWestmorelandCountyParser extends FieldProgramParser {
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "HEMP_T",    "HEMPFIELD TWP",
-      "MT_PLEAS_T","MT PLEASANT TWP",
-      "N_HUNT_T",  "N HUNTINGDON TWP",
-      "PENN_T",    "PENN TWP",
-      "SEWICK_T",  "SEWICKELY TWP",
-      
-      "IRWIN_B",   "IRWIN",
-      "MANOR_B",   "MANOR",
-      "N_IRWIN_B", "NORTH IRWIN",
-      "N_STANTN_B","NEW STANTON",
-      "PENN_B",    "PENN",
-      "SUTERSVL_B","SUTERSVILLE",
-      "SW_GBG_B",  "SW GREENSBURG",
-      "YNGWD_B",   "YOUNGWOOD"
-
-  });
-  
   public PAWestmorelandCountyParser() {
     super("WESTMORELAND COUNTY", "PA",
            "Loc:ADDR/S X-sts:X Inc:ID NATURE:CALL! CALLER:NAME TOC:SKIP Comments:INFO Response_text:SKIP Disp:UNIT");
@@ -75,4 +57,23 @@ public class PAWestmorelandCountyParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "HEMP_T",    "HEMPFIELD TWP",
+      "MT_PLEAS_T","MT PLEASANT TWP",
+      "N_HUNT_T",  "N HUNTINGDON TWP",
+      "PENN_T",    "PENN TWP",
+      "SEWICK_T",  "SEWICKELY TWP",
+      "WASH_T",    "WASHINGTON TWP",
+      
+      "IRWIN_B",   "IRWIN",
+      "MANOR_B",   "MANOR",
+      "N_IRWIN_B", "NORTH IRWIN",
+      "N_STANTN_B","NEW STANTON",
+      "PENN_B",    "PENN",
+      "SUTERSVL_B","SUTERSVILLE",
+      "SW_GBG_B",  "SW GREENSBURG",
+      "YNGWD_B",   "YOUNGWOOD"
+
+  });
 }
