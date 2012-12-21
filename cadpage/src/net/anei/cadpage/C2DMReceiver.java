@@ -117,6 +117,7 @@ public class C2DMReceiver extends BroadcastReceiver {
     
     // Get the vendor code
     String vendorCode = intent.getStringExtra("vendor");
+    if (vendorCode == null) vendorCode = intent.getStringExtra("sponsor");
     
     // See what kind of message this is
     String type = intent.getStringExtra("type");
