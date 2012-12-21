@@ -1,39 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12152012</string>
-  <string name="release_version">v1.5.72</string>
+  <string name="release_date">12202012</string>
+  <string name="release_version">v1.5.73</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Starke County, IN\n
-Baltimore County, MD (alt)\n
+Isabella County, MI\n
+Clinton County, PA\n
 \n      
 Location Parsing Fixes:\n
 Baldwin County, AL\n
+Shelby County, AL\n
+Santa Cruz County, CA\n
 Adams County, CO\n
-Groton, CT\n
-Madison County, IN\n
-Polk County, IN\n
-Anne Arundel County, MD\n
-Somerset County, NJ\n
-Monroe County, NY\n
+Jefferson County, CO\n
+Windham County, CT\n
+DuPage County, IL\n
+VanderBurgh County, IN\n
+Franklin County, OH\n
+Baltimore County, MD\n
+Carroll County, MD\n
+Montgomery County, MD\n
+Talbot County, MD\n
+Greene County, MO\n
+Burlington County, NJ\n
+Monmouth County, NJ\n
 Nassau County, NY\n
 St Lawrence County, NY\n
-Iredell County, NC\n
-Johnston County, NC\n
-Hamilton County, OH\n
+Carteret County, NC\n
+Duplin County, NC\n
+Linn County, OR\n
 Bucks County, PA\n
-Delaware County, PA\n
-Northumberland County, PA\n
+Washington County, RI\n
 Lincoln County, SD\n
-Lexington-Rockbridge County, VA\n
-Washington County, VA\n
+Bexar County, TX\n
+Cypress-Harris, TX\n
+Harris County NWEMS, TX\n
 New South Wales, AU\n
-Canmore County, AB, CA\n
 \n
 General Fixes:\n
-Cadpage will suppress duplicate messages from different sender numbers\n
+Fixed crash processing an empty page\n
   </string>  
 </resources>
   
