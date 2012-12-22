@@ -14,12 +14,17 @@ public class NYSomersParser extends FieldProgramParser {
     "LINCOLNDALE", "KATONAH", "SOMERS"
   };
   
-  private static final Pattern MARKER = Pattern.compile("^(\\d{4}-\\d{6}) \\*\\*\\* (.+) \\*\\*\\* ");
+  private static final Pattern MARKER = Pattern.compile("^(\\d{4}-\\d{6}) ?\\*\\*\\* (.+) \\*\\*\\* ?");
   private static final Pattern TIME_DATE = Pattern.compile("^\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d\\d ");
   
   public NYSomersParser() {
     super(CITY_LIST, "SOMERS", "NY",
         "ADDR CS:X? TOA:INFO");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "somersfire@somersfd.com";
   }
   
   @Override

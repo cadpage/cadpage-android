@@ -25,7 +25,8 @@ Pbagnpg: Gnq Jngfba <gnq.jngfba84@lnubb.pbz>, 5152400762@igrkg.pbz
 
 Pbagnpg: "Rina Z. Xryyvf" <XryyvfRZ@peapv.pbz>
 Frqare: zrffntvat@vnzerfcbaqvat.pbz
-Obql:Fhowrpg:QRSQ\aGlcr: ERFPHR CVN Pnyyre: IREVMBA Gvzr: 05:41:17
+Fhowrpg:QRSQ\aGlcr: ERFPHR CVN Pnyyre: IREVMBA Gvzr: 05:41:17
+Fhowrpg:QRSQ\aYbpngvba: 6930 AR 56GU FG QRYN,54: @PBHAGEL YVIVAT ZBOVYR UBZR CNEX - QRYN Glcr: VAIRFGVTNGVBA PB Pnyyre: FGHNEG,PVAQL
 
 Pbagnpg: fhccbeg@npgvir911.pbz
 [PNQ] Ybpngvba: 819 JERA QE NYGB Glcr: ZRQVPNY  Pnyyre: ZPTVAAVF,JVYYVNZ & QBEVF Gvzr: 15:48:02\a
@@ -178,7 +179,18 @@ choyvp pynff VNCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ERFPHR CVN",
         "CYNPR:IREVMBA",
         "GVZR:05:41:17");
-       
+
+    qbGrfg("G2",
+        "Fhowrpg:QRSQ\a" +
+        "Ybpngvba: 6930 AR 56GU FG QRYN,54: @PBHAGEL YVIVAT ZBOVYR UBZR CNEX - QRYN Glcr: VAIRFGVTNGVBA PB Pnyyre: FGHNEG,PVAQL",
+
+        "FEP:QRSQ",
+        "NQQE:6930 AR 56GU FG",
+        "NCG:54",
+        "PVGL:QRYNJNER GJC",
+        "PNYY:VAIRFGVTNGVBA PB",
+        "CYNPR:PBHAGEL YVIVAT ZBOVYR UBZR CNEX - QRYN / FGHNEG,PVAQL");
+      
   }
   
   @Grfg

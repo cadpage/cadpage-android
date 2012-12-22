@@ -12,7 +12,7 @@ public class IAPolkCountyParser extends FieldProgramParser {
   
   public IAPolkCountyParser() {
     super(CITY_CODES, "POLK COUNTY", "IA",
-           "Location:ADDR/S Type:CALL! Caller:PLACE? Time:TIME!");
+           "Location:ADDR/S Type:CALL! Caller:PLACE? Time:TIME%");
   }
   
   @Override
