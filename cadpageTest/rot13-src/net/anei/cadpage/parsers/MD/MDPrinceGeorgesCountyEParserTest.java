@@ -32,6 +32,10 @@ S121800373: Pbyyncfr, 1501 PNOVA OENAPU QE, CC, ogja FNINTR FG naq PBYHZOVN CNEX
 GE S121850028: Pbasvarq Fcnpr Erfph, 4706 UBYYLJBBQ EQ, CC, ogja 47GU CY naq 48GU NIR, GTQ3, 1102, Havgf:N812, NH816, OB886, P699, R811, RZFQB, UP816, ZQ812, AFB, GE806, GF814, JV
 S122460026: Bireqbfr, 5427 56GU NIR, CC, ogja YBATSRYYBJ FG naq ZNQVFBA FG, GTN2, 1301, Havgf:N807, R807
 (PNQ) [RZF09] S122530267: Zrqvp Ybpny, RO WBUA UNAFBA UJL RO NG RO PBYHZOVN CNEX EQ, CC, ng RO WBUA UNAFBA UJL RO NG RO PBYHZOVN CNEX EQ, CC <5503/0, GTN2, 3820,
+ 
+Pbagnpg: Oehpr Oevqtrgg <ctsq13192@tznvy.pbz>
+Fraqre: nyeg_UD4B@nyreg.pb.ct.zq.hf
+(1/2) S123560177: Ubhfr Sver, 11800 YVYVHZ YA, CC, ogja RAQ naq PBFZBF PG, GTN3, 1814, Havgf:OB881, OB882, R816, R818, R819O,
 
 Pbagnpg: Npgvir911
 [PNQ Srrq] FGERRG, Fgerrg Nynez, 9001 ZPUHTU QE, CC, ogja RAQ naq PNZCHF JNL A, GN11, 0616, 5531 Q 3, BQBE BS RYRPGEVPNY OHEAVAT VA GUR FGBER, Havgf:OB881, R833, R837, DG838, GX828\a
@@ -334,6 +338,16 @@ choyvp pynff ZQCevaprTrbetrfPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:WBUA UNAFBA UJL & PBYHZOVN CNEX EQ",
         "PU:GTN2",
         "OBK:3820");
+
+    qbGrfg("G20",
+        "(1/2) S123560177: Ubhfr Sver, 11800 YVYVHZ YA, CC, ogja RAQ naq PBFZBF PG, GTN3, 1814, Havgf:OB881, OB882, R816, R818, R819O,",
+        "VQ:S123560177",
+        "PNYY:Ubhfr Sver",
+        "NQQE:11800 YVYVHZ YA",
+        "K:RAQ naq PBFZBF PG",
+        "PU:GTN3",
+        "OBK:1814",
+        "HAVG:OB881,OB882,R816,R818,R819O");
  
   }
   

@@ -1,5 +1,5 @@
 
-**** Cadpage C2DM messaging protocol
+**** Cadpage GCM messaging protocol
     
 Stuff we need from you
 A list of the IP address ranges that will be used by your servers to push pages to Cadpage

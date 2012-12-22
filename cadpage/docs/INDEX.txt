@@ -1,7 +1,7 @@
 What all can be found here.
 
-C2DMProtocol.txt - describes the protocols used to push pages to Cadpage with
-the Google C2DM message protocol.
+GCMProtocol.txt - describes the protocols used to push pages to Cadpage with
+the Google GCM message protocol.
 
 CadpageParser.txt - instructions on how to run the Standalone Cadpage Parser
 

@@ -10,7 +10,7 @@ The v1.5.73 release crashes when processing some direct pages.  A new version of
 We apologize for any inconvenience.
 
 Thank you for reporting this,
--Ken
+Jean
 
 ******************************************************************
 
