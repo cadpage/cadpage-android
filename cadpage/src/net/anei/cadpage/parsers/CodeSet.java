@@ -2,6 +2,8 @@ package net.anei.cadpage.parsers;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Enumeration;
+import java.util.Properties;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -19,6 +21,14 @@ public class CodeSet {
   
   public CodeSet(String ... table) {
     codeSet.addAll(Arrays.asList(table));
+  }
+  
+  public CodeSet(Properties codeTable) {
+    @SuppressWarnings("unchecked")
+    Enumeration<String> e = (Enumeration<String>) codeTable.propertyNames();
+    while (e.hasMoreElements()) {
+      codeSet.add(e.nextElement());
+    }
   }
 
 
