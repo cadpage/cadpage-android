@@ -43,7 +43,7 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     if (!match.find()) return false;
     
     // The delimiter preceding and following the Dispatched term should be the same
-    // If they are not, see if we can ruduce them to a common delimiter by removing
+    // If they are not, see if we can reduce them to a common delimiter by removing
     // whitespace.  If we cannot do that, return failure
     String delimA = match.group(2);
     String delim = match.group(3);

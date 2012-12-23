@@ -26,7 +26,6 @@ Fraqre: ohyybputn911@fzgc.ftppr-vap.pbz
 *** Abg cnefvat - ab nqqerff ***
 (1070T) PRQNEJBBQ NPERF YBG 21\aLNEQ FRG BA SVER OL BJAREF\aABG GUERNGRAVAT NALGUVAT\a1070T
 
-
 */
 
 choyvp pynff TNOhyybpuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

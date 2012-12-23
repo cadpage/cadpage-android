@@ -4912,6 +4912,10 @@ Sender: msg@cfmsg.com
 Sender: enp@southhaysfire.org
 1\n Alerted at: 1:11:34 AM\nSouth Hays Fire Page
 **********************************************************
+DuPage County, IL (alternate)S
+Contact: Kirk Odiet <gefd73@gmail.com>
+Sender: DU-COMM@ducomm.org
+*!* GF *!*  AUTOMATIC FIRE ALARM  @  675 ROOSEVELT RD                 [District:  D623]
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5024,6 +5028,24 @@ SEYMOUR, CT (NEW HAVEN) *CAR VS POLE* S MAIN ST & HILLSIDE AVE. CAR VS UTILITY P
 WESTPORT, CT (FAIRFIELD) *MULTI VEH MVA* I-95 SB EXIT 19-18. 3 VEH MVA. NO ENTR. AMR O/S & WESTPORT EMS E/R TO EVAL. CT806
 NORWALK, CT (FAIRFIELD) *CO EMERG W/ VICTIMS* 26 DAVIS ST. EMS TRANS 4 PT FROM HOME W/ EXP TO CO. 2 ADULTS & 2 PEDI. FD TO INVEST CAUSE & VENT. CT806
 **********************************************************
+Bulloch County, GA
+Contact: Active911
+Agency name: Bulloch County Fire Department
+Location: Statesboro, GA, United States
+Sender: "Bulloch 911" <bullochga@ez911mail.com>
+
+(Disp SFD Case # 2012121206 Call # 1204) 12/23/2012 15:25:25 /1070A /LITTLE LOTS CREEK APTS /14 /E JONES AV /ZONE 3 FIRE PULL STATION\nFrom : kborgman User Id: 14
+(Disp SFD Case # 2012121202 Call # 1200) 12/23/2012 14:16:09 /1070 /HAGIN LN /HAGIN LN /COTTON MODULE ON FIRE NOT THREATHEN ANYTHING\nFrom : mrich User Id: 15
+(Disp 2200 Case # 2012121174 Call # 1172) 12/23/2012 08:10:50 /1070S /THOMPSON POOLS /21 /N ZETTEROWER AVE\nFrom : kborgman User Id: 14
+(Disp SFD Case # 2012121174 Call # 1172) 12/23/2012 08:10:50 / /THOMPSON POOLS /31 /N ZETTEROWER AVE\nFrom : kborgman User Id: 14
+(Disp 9900 Case # 2012121174 Call # 1172) 12/23/2012 08:10:50 / /THOMPSON POOLS /31 /N ZETTEROWER AVE\nFrom : kborgman User Id: 14
+(Disp SFD Case # 2012121138 Call # 1136) 12/22/2012 18:36:22 / /238 N COLLEGE ST /N COLLEGE ST\nFrom : tmcdonald User Id: 16
+(Disp SFD Case # 2012121022 Call # 1020) 12/21/2012 11:50:19 / /COUNTRY CLUB COURT APTS | 354 < 400 - 550 > B | BRANNEN DR /1900\nFrom : mrich User Id: 15
+(Disp SFD Case # 2012121011 Call # 1009) 12/21/2012 08:44:48 /1070A /TIMBERLINE RD /205 /TIMBERLINE RD /FALSE CALL NOT DISPATCHED\nFrom : kborgman User Id: 14
+(Disp SFD Case # 2012121011 Call # 1009) 12/21/2012 08:44:48 /1070A /TIMBERLINE RD /205 /TIMBERLINE RD /FALSE CALL NOT DISPATCHED\nFrom : kborgman User Id: 14
+(Disp SFD Case # 2012121011 Call # 1009) 12/21/2012 08:44:48 /1070A /TIMBERLINE RD /205 /TIMBERLINE RD /FALSE CALL NOT DISPATCHED\nFrom : kborgman User Id: 14
+(Disp SFD Case # 201212955 Call # 953) 12/20/2012 5:17:55 PM /1070 /CAMPUS CROSSING /133 /906 /LANIER DR /SMOKE INSIDE APT http://maps.google.com/maps?q=32.41461754,+-81.78285187\nFrom : rfail User Id: 8
+(Disp SFD Case # 201212951 Call # 949) 12/20/2012 16:27:25 /1070A /BOTANICAL GARDENS /1501 /BLAND AV /GENERAL ALARM http://maps.google.com/maps?q=32.42193023,+-81.77463692\nFrom : kpuchala User Id: 7
 **********************************************************
 Bergen County, NJ
 Contact: Active911

@@ -26,14 +26,15 @@ public class DispatchA13Parser extends FieldProgramParser {
   }
   
   // SRCID field contains source and call ID
-  private static final Pattern SRCID_PTN = Pattern.compile(".*?([A-Z0-9][ A-Z0-9]+):(\\d+:\\d+)");
+  private static final Pattern SRCID_PTN = Pattern.compile(".*?([A-Z0-9][ A-Z0-9]+)?:(\\d+:\\d+)");
   private class SourceIdField extends Field {
     
     @Override
     public boolean checkParse(String field, Data data) {
       Matcher match = SRCID_PTN.matcher(field);
       if (!match.matches()) return false;
-      data.strSource = match.group(1);
+      String src = match.group(1);
+      if (src != null) data.strSource = src;
       data.strCallId = match.group(2);;
       return true;
     }

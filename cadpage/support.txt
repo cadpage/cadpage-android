@@ -530,10 +530,10 @@ Good luck,
 ******************************************************************
 * Active911 registration issues
 
-Every know and then Google has problem with pushing direct pages to the desired device.  There are a couple things you can try, usually something works.
+Very occasionally, people having trouble with registering with Active911.  There are a couple things you can try, usually something works.
 
 Go to the home screen and select Home > Settings > Accounts and Sync
-and make sure Background Data setting is enabled
+and make sure Background Data and Auto-Sync settings are enabled.  While you are here, press the Google account setting and Sync Now.
 
 Restart the device and try again
 
