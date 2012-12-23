@@ -207,7 +207,7 @@ public class DispatchOSSIParser extends FieldProgramParser {
   
   @Override
   protected Field getField(String name) {
-    if (name.equals("FYI")) return new SkipField("FYI:|Update:");
+    if (name.equals("FYI")) return new SkipField("FYI:|Update:", true);
     if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} +\\d\\d:\\d\\d:\\d\\d", true);
     return super.getField(name);
   }

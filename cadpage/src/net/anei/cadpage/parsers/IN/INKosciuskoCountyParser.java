@@ -12,7 +12,7 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
   
   public INKosciuskoCountyParser() {
     super(CITY_CODES, "KOSCIUSKO COUNTY", "IN",
-           "FYI CALL ADDR! APT? CITY END");
+           "( CANCEL | FYI CALL ) ADDR! APT? CITY END");
   }
   
   @Override
@@ -29,6 +29,12 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
     // In any case we don't want to accept it
     if (data.strCity.length() > 0 && Character.isDigit(data.strCity.charAt(0))) return false;
     return true;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CANCEL")) return new CallField("CANCEL", true);
+    return super.getField(name);
   }
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
