@@ -64,6 +64,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   private static Properties CITY_ABBRV = buildCodeTable(new String[]{
       "BdntwnCity", "Bordentown City",
       "Chesterfld", "Chesterfield",
+      "Cinnaminsn", "Cinnaminson Twp",
       "McGuireAFB", "McGuire AFB",
       "NewHanover", "New Hanover",
       "Ocean Co",   "Ocean County",

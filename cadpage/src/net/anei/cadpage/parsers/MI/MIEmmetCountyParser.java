@@ -1,10 +1,14 @@
 package net.anei.cadpage.parsers.MI;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 
 public class MIEmmetCountyParser extends DispatchOSSIParser {
+  
+  private static final Pattern MARKER = Pattern.compile("^CAD:MSG:", Pattern.CASE_INSENSITIVE);
   
   public MIEmmetCountyParser() {
     this("EMMET COUNTY", "MI");
@@ -22,7 +26,7 @@ public class MIEmmetCountyParser extends DispatchOSSIParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    body = body.replace("CAD:MSG", "CAD:");
+    body = MARKER.matcher(body).replaceFirst("CAD:");
     return super.parseMsg(body, data);
   }
   

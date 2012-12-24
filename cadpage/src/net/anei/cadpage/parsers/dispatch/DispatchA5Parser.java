@@ -12,6 +12,8 @@ public class DispatchA5Parser extends FieldProgramParser {
   private static final Pattern KEYWORD_TRAIL_PTN = Pattern.compile("[ \\.]+:|(?: \\.){2,}(?=\n)");
   private static final Pattern CALL_TIME_DATE_PTN = Pattern.compile("\\bCall Time- ([0-9:]+) +Date- ([0-9/]+) *\n.*?(?=\nArea:)", Pattern.DOTALL);
   private static final Pattern LINE_PTN = Pattern.compile("(.*)(?:\n|$)");
+  private static final Pattern TRIM_TRAIL_BLANKS = Pattern.compile(" +$");
+  private static final Pattern TRIM_EXTRA_INFO = Pattern.compile("(?:\nAddress Checks *)?(?:\nAdditional Inc#s: *)?$");
   
   public DispatchA5Parser(String defCity, String defState) {
     super(defCity, defState,
@@ -25,7 +27,7 @@ public class DispatchA5Parser extends FieldProgramParser {
            "Phone_Number:PHONE! Call_Source:SKIP! " +
            "Caller:NAME? " +
            "Units_sent:UNIT? " +
-           "Nature_of_Call:INFO ");
+           "Nature_of_Call:INFO");
   }
   
   @Override
@@ -52,17 +54,32 @@ public class DispatchA5Parser extends FieldProgramParser {
     if (!super.parseMsg(body, data)) return false;
     
     // Add additional information from trailing data
+    boolean display = false;
+    boolean trimLead = false;
     match = LINE_PTN.matcher(extra);
-    if (match.find() && match.group(1).startsWith("Additional Info")) {
-      while (match.find()) {
-        String line = match.group(1);
-        if (line.length() == 0) continue;
-        if (!line.startsWith("  ")) break;
-        line = line.trim();
-        if (line.endsWith(":")) continue;
+    while (match.find()) {
+      String line = match.group(1);
+      boolean skip = false;
+      if (line.startsWith("Additional Info")) {
+        display = true;
+        trimLead = true;
+        skip = true;
+      } else if (line.startsWith("Address Checks")) {
+        display = true;
+        trimLead = false;
+      } else if (line.startsWith("Narrative") || line.startsWith("The Call Taker is")) {
+        display = false;
+        trimLead = false;
+      }
+      if (display && !skip && line.length() > 0) {
+        if (trimLead) line = line.trim();
+        else line = TRIM_TRAIL_BLANKS.matcher(line).replaceFirst("");
         data.strSupp = append(data.strSupp, "\n", line);
       }
     }
+    
+    // Trim off any Empty titles from the extra information
+    data.strSupp = TRIM_EXTRA_INFO.matcher(data.strSupp).replaceFirst("");
     return true;
   }
   
