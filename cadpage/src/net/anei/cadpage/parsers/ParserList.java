@@ -631,6 +631,7 @@ public class ParserList {
               ,"TNJohnsonCounty"                ,"Johnson County, TN"
               ,"TNKnoxCounty"                   ,"Knox County, TN"
               ,"TNLoudonCounty"                 ,"Loudon County, TN"
+              ,"TNOakRidge"                     ,"Oak Ridge, TN"
               ,"TNOliverSprings"                ,"Oliver Springs, TN"
               ,"TNSumnerCounty"                 ,"Sumner County, TN"
               ,"TNUnionCounty"                  ,"Union County, TN"
