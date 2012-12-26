@@ -61,6 +61,7 @@ public class VARoanokeCountyParser extends SmartAddressParser {
     if (!good) return false;
     
     parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_ANCHOR_END | FLAG_START_FLD_NO_DELIM, body, data);
+    if (data.strAddress.length() == 0) return false;
     
     // See if we should split a place name from the call description
     if (data.strPlace.length() == 0) {

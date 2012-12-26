@@ -118,10 +118,6 @@ FGN19:SNYEZ nqe:TBYQRA YVIVAT ,28 ng 432 ZNCYR NI ,28 ogja:PBGGNTR FG & RNFG FG 
 FGN19:SNYEZ nqe:TEHAQL UNYY ,29 ng 1290 NYZFUBHFR EQ ,29 ogja:GHEX EQ & EG 611 obk:79057 gz:12:13:33 SQ1202423 Eha: R79 Frag ol zff911 Ohpxf gb FGN19,
 FGN19:SNYEZ nqe:1290 NYZFUBHFR EQ ,29 - TEHAQL UNYY ogja:GHEX EQ & EG 611 nnv:2153434117 obk:79057 gz:18:47:59 SQ1202516 Eha: R79 Frag ol zff911 Ohpxf
 
-
-
-
-
 Pbagnpg: Rq Npxrezna <rq.npxrezna@tznvy.pbz>
 Fraqre: Ohpxf EFNA
 SEZ:Ohpxf EFNA\aFHOW:1/1\aZFT:JVERVA\anqe:1871 JUVGR OEVNE EQ ,73\aobk:02047\agz:09:52:53 SQ1201327\aEha: R2 Y1 R4 E6=
@@ -198,6 +194,8 @@ Fraqre: "Ohpxf EFNA" <nyreg10965@nyreg.ohpxfrzn.bet>
 [Vzcbegnag zrffntr sebz Ohpxf Pbhagl EFNA] FGN19:SNYEZ\anqe:1290 NYZFUBHFR EQ ,29 -- TEHAQL UNYY\aogja:GHEX EQ & EG 611\annv:2153434117\aobk:79057\agz:18:47:59 SQ1202516  Eha: R79\aFrag ol zff911 Ohpxf gb FGN19, zff911 Ohpxf (Ibvpr/Snk Qvnyre, R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ohpxf Pbhagl EFNA\a
 (Vzcbegnag zrffntr sebz Ohpxf Pbhagl EFNA) FD134:NSNYY\anqe:2800 FGNGR EQ #315 ,77 -- YHGURENA PBZZHAVGL ogja:GRYSB OBEB YVAR & NHGHZA YRN PV nnv:ZRNQBJF NCGF\aobk:37501 znc:2919U7\agz:12:30:21 RQ1212342\aFrag ol zff911 Ohpxf gb FD134, zff911 Ohpxf (Ibvpr/Snk Qvnyre, R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ohpxf Pbhagl EFNA
 [Vzcbegnag zrffntr sebz Ohpxf Pbhagl EFNA] FD134 FGN60:NQVNO\anqe:31 PUHEPU EQ ,36\aogja:ORGUYRURZ CX & CNEX EQ\aobk:60011 znc:3032R1\agz:23:13:05 RQ1215516\aFrag ol zff911 Ohpxf gb FD134, FGN60, zff911 Ohpxf (Ibvpr/Snk Qvnyre, R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ohpxf Pbhagl EFNA\a
+[Vzcbegnag zrffntr sebz Ohpxf Pbhagl EFNA] FGN27 FGN26 FGN59:SOYQ\anqe:270 UNZCFUVER QE ,36\aogja:TYRAJBBQ QE & TYRAJBBQ QE\aobk:27032\agz:03:03:07 SQ1220177  Eha: GJ26 R59 R26\a\aFrag ol zff911 Ohpxf gb FGN27, FGN26, FGN59, zff911 Ohpxf (Ibvpr/Snk Qvnyre, R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ohpxf Pbhagl EFNA
+
 
 *** BBP Zhghny Nvq ***
 [Vzcbegnag zrffntr sebz Ohpxf Pbhagl EFNA] FD134:NPIN\anqe:54 ARFUNZVAL SNYYF PVEPYR K/JBBQFOYHSS\annv:EA -PI 345N ZBAGTB GJC\aobk: znc:\agz:16:14:29 RQ1208711\aFrag ol zff911 Ohpxf gb FD134, zff911 Ohpxf (Ibvpr/Snk Qvnyre, R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ohpxf Pbhagl EFNA
@@ -2182,6 +2180,25 @@ choyvp pynff CNOhpxfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:23:13:05",
         "VQ:RQ1215516",
         "HAVG:FD134 FGN60");
+
+    qbGrfg("G19",
+        "[Vzcbegnag zrffntr sebz Ohpxf Pbhagl EFNA] FGN27 FGN26 FGN59:SOYQ\a" +
+        "nqe:270 UNZCFUVER QE ,36\a" +
+        "ogja:TYRAJBBQ QE & TYRAJBBQ QE\a" +
+        "obk:27032\a" +
+        "gz:03:03:07 SQ1220177  Eha: GJ26 R59 R26\a\a" +
+        "Frag ol zff911 Ohpxf gb FGN27, FGN26, FGN59, zff911 Ohpxf (Ibvpr/Snk Qvnyre, R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ohpxf Pbhagl EFNA",
+
+        "FEP:FGN27 FGN26 FGN59",
+        "PNYY:SOYQ - OHVYQVAT SVER (OBK)",
+        "OBK:27032",
+        "NQQE:270 UNZCFUVER QE",
+        "PVGL:UVYYGBJA GJC",
+        "K:TYRAJBBQ QE & TYRAJBBQ QE",
+        "GVZR:03:03:07",
+        "VQ:SQ1220177",
+        "HAVG:GJ26 R59 R26");
+       
   }
   
   @Grfg
