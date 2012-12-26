@@ -13,7 +13,7 @@ public class VAIsleOfWightCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "CAD@isleofwightUS.net";
+    return "@isleofwightUS.net";
   }
   
   @Override
