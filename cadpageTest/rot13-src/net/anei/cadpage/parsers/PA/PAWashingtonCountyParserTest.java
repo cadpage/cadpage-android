@@ -22,7 +22,7 @@ Fraqre: 7247471210
 (911) Ybpngvba: 200 GNAQRZ IVYYNTR EQ AFGE: @CPU 48 PBAFHYNGR OYQT 2 Kfgerrg: YVAQRA PERRX EQ QRNQ RAQ GLCR: SVER NYNE
 (911) Ybpngvba: 100 ZRQVPNY OYIQ AFGE: @PNABAFOHET UBFCVGNY Kfgerrg: OBBAR NIR UVYY PUHEPU UBHFGBA EQ GLCR: SVER NYNEZ
 
-Pbagnpg: Ivpgbe & Genpv Srqevpx <puvrs40@mbbzvagrearg.arg>,7247975596@zrffntvat.fcevagcpf.pbz
+**QB ABG PBAGNPG** Ivpgbe & Genpv Srqevpx <puvrs40@mbbzvagrearg.arg>,7247975596@zrffntvat.fcevagcpf.pbz
 Fhowrpg:911\aYbpngvba: 213 RKCERFF JNL YBAT: RFG Kfgerrg: RKCERFF JNL RO QNYYL EQ GLCR: IRUVPYR NPPVQRAG JVGU HAXABJA VAWHEVRF GVZ
 Fhowrpg:911\aYbpngvba: 6 ENVYEBNQ FG NYYR Kfgerrg: SENAXYVA FG UNZVYGBA FG GLCR: ZHGHNY NVQ ERDHRFG GVZR: 11:34:09 Pbzzragf:
 Fhowrpg:911\aYbpngvba: 213 RKCERFF JNL YBAT: RFG Kfgerrg: RKCERFF JNL RO QNYYL EQ GLCR: IRUVPYR NPPVQRAG JVGU HAXABJA VAWHEVRF GVZ
@@ -32,7 +32,7 @@ Pbagnpg: Puneyrf Jbbq <puneyrfejbbq@tznvy.pbz>
 Fraqre: JnfuPb911
 1 bs 2\aSEZ:JnfuPb911 \aFHOW:911\aZFT:Ybpngvba: 791 YBPHFG NIR RK FFGE: @CPU 44 UNJGUBEAR JBBQF NFFVFGRQ YVIVAT Kfgerrg: OREEL EQ IREBAN QE GLCR:\a(Pba'g) 2 bs 2\aHAPBAFPVBHF CG / VF OERNGUVAT GVZR: 08:26:06 Pbzzragf: 1FG SYBBE URNYGU EBBZ\a(Raq)
 
-Ivpgbe Srqevpx <i_n_srqevpx@lnubb.pbz>
+** QB ABG PBAGNPG **Ivpgbe Srqevpx <i_n_srqevpx@lnubb.pbz>
 Fraqre: JnfuPb911 <JnfuPb911@pb.jnfuvatgba.cn.hf>
 Fhowrpg:911\aYbpngvba: 2 JURRYVAT CVGGFOHETU FGRRY QE NYYR: @NZEBK Kfgerrg: ZVYY EQ W S XRAARQL FG GLCR: SVER GVZR: 15:07:31 Pbzzragf: ng gur jurryvat cvggfohetu cynag
 Fhowrpg:911\aYbpngvba: 5 PRAGRE FG NYYR Kfgerrg: NAQREFBA FG FE 88 GLCR: BQBE BS ANGHENY TNF GVZR: 21:39:50 Pbzzragf:

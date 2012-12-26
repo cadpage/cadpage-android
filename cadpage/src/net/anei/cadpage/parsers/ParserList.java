@@ -712,6 +712,7 @@ public class ParserList {
               ,"WAJeffersonCounty"              ,"Jefferson County, WA"
               ,"WAKingCounty"                   ,"King County, WA"
               ,"WALewisCounty"                  ,"Lewis County, WA"
+              ,"WAMasonCounty"                  ,"Mason County, WA"
               ,"WAPierceCounty"                 ,"Pierce County, WA"
               ,"WAYakimaCounty"                 ,"Yakima County, WA"
           ),
