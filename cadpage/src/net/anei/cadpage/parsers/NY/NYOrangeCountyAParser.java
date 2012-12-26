@@ -51,10 +51,20 @@ public class NYOrangeCountyAParser extends FieldProgramParser {
     }
   }
   
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("INCIDENT CLONED FROM")) return;
+      if (field.startsWith("PARENT:")) return;
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("F\\d{9,}");
+    if (name.equals("ID")) return new IdField("F\\d{9,}|\\d{5,}");
     if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
