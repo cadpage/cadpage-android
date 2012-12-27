@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class COJeffersonCountyAParser extends FieldProgramParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("Alarm .*DISP:.*ENR:.*SCN:.*CLR:.*");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("Alarm .*DISP:.*SCN:.*CLR:.*");
   
 
   public COJeffersonCountyAParser() {
@@ -25,7 +25,9 @@ public class COJeffersonCountyAParser extends FieldProgramParser {
   
   @Override 
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.endsWith("WRCAD")) return false; 
+    
+    data.strSource = subject.split("\\|")[0].trim();
+    
     if (RUN_REPORT_PTN.matcher(body).matches()) {
       data.strCall = "RUN REPORT";
       data.strPlace = body;
@@ -38,7 +40,7 @@ public class COJeffersonCountyAParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return super.getProgram() + " PLACE";
+    return "SRC " + super.getProgram() + " PLACE";
   }
 }
   
