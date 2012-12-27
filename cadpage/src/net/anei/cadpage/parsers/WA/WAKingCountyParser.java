@@ -20,14 +20,23 @@ public class WAKingCountyParser extends MsgParser {
   protected boolean parseMsg(String body, Data data) {
     if (body.length() < 102) return false;
     if (body.charAt(50) != '#') return false;
-    if (body.charAt(60) != ' ') return false;
-    if (body.charAt(90) != ' ') return false;
-    if (body.charAt(100) != ' ') return false;
+    if (!isStartField(body, 61)) return false;
+    int endCity = isStartField(body, 91) ? 61 : 96;
+    if (!isStartField(body, endCity+30)) return false;
+    if (!isStartField(body, endCity+40)) return false;
     
     parseAddress(substring(body, 0, 50), data);
     data.strApt = substring(body, 51, 60);
-    data.strCall = substring(body, 61, 90);
-    data.strUnit = substring(body, 101);
+    data.strCity = substring(body, 61, endCity);
+    data.strCall = substring(body, endCity, endCity+29);
+    data.strUnit = substring(body, endCity+40);
+    return true;
+  }
+  
+  private boolean isStartField(String body, int pt) {
+    if (body.length() <= pt) return false;
+    if (body.charAt(pt) == ' ') return false;
+    if (body.charAt(pt-1) != ' ') return false;
     return true;
   }
 }
