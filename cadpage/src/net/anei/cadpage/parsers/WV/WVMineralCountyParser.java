@@ -21,10 +21,12 @@ public class WVMineralCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseFields(body.split(" >"), 5, data);
+    String[] flds = body.split(" >");
+    if (flds.length < 5) flds = body.split("\n");
+    return parseFields(flds, 5, data);
   }
 
-  private static final Pattern SOURCE_ID_PTN = Pattern.compile("\\?\\?\\? ([A-Z]{3,4}):(\\d{4}:\\d{4})");
+  private static final Pattern SOURCE_ID_PTN = Pattern.compile("(?:\\?\\?\\? )?([A-Z]{3,5}):(\\d{4}:\\d{4})");
   private class SourceIdField extends Field {
     @Override
     public void parse(String field, Data data) {
@@ -51,27 +53,55 @@ public class WVMineralCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern ADDR_DELIM = Pattern.compile(" *[,;] *");
+  private static final Pattern NEXT_TO_PTN = Pattern.compile("NEXT TO (.*) INTERSECTION", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       if (field.endsWith("(;)")) field = field.substring(0,field.length()-3).trim();
-      if (field.endsWith(", MNRL WV")) field = field.substring(0, field.length()-9).trim();
-      Parser p = new Parser(field);
-      data.strCross = p.getLastOptional(", BETWEEN");
-      data.strCity =  p.getLastOptional(',');
-      String sAddr = p.getLast(';');
-      data.strSupp = p.get();
-      if (data.strCity.length() > 0) {
-        parseAddress(sAddr, data);
-      } else {
-        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
+      String[] parts = ADDR_DELIM.split(field);
+      int ndx = 0;
+      Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, parts[0]);
+      if (parts.length > 1) {
+        Result res2= parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, parts[1]);
+        if (res2.getStatus() > res.getStatus()) {
+          ndx = 1;
+          res = res2;
+          data.strPlace = parts[0];
+        }
       }
-      if (data.strCity.equalsIgnoreCase("WESTERNPORT")) data.strState = "MD";
+      res.getData(data);
+      data.strSupp = res.getLeft();
+      
+      for (ndx++; ndx < parts.length; ndx++) {
+        String part = parts[ndx];
+        String upPart = part.toUpperCase();
+        if (upPart.equals("MNRL WV")) continue;
+        if (upPart.startsWith("BETWEEN ")) {
+          data.strCross = append(data.strCross, " / ", part.substring(8).trim());
+          continue;
+        }
+        if (isCity(upPart)) {
+          data.strCity = part;
+          continue;
+        }
+        Matcher match = NEXT_TO_PTN.matcher(part);
+        if (match.matches()) {
+          data.strAddress = data.strAddress + " & " + match.group(1);
+          continue;
+        }
+        data.strSupp = append(data.strSupp, " / ", part);
+      }
+      if (data.strCity.equalsIgnoreCase("MCOOLE")) data.strCity = "MCCOOLE";
+      else if (data.strCity.equalsIgnoreCase("FROST BURG")) data.strCity = "FROSTBURG";
+      if (data.strCity.equalsIgnoreCase("WESTERNPORT") ||
+          data.strCity.equalsIgnoreCase("MCCOOLE") ||
+          data.strCity.equalsIgnoreCase("FROSTBURG")) data.strState = "MD";
     }
     
     @Override
     public String getFieldNames() {
-      return "INFO ADDR APT CITY ST X";
+      return "PLACE ADDR APT CITY ST X INFO";
     }
   }
   
@@ -128,6 +158,10 @@ public class WVMineralCountyParser extends FieldProgramParser {
     "WAGONER",
     "WILEY FORD",
     
+    "FROST BURG",
+    "FROSTBURG",
+    "MCOOLE",
+    "MCCOOLE",
     "WESTERNPORT"
   };
 }

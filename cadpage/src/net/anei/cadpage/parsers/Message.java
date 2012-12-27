@@ -349,9 +349,11 @@ public class Message {
    * @return
    */
   private String decode(String body) {
+    body = HTML_PTN.matcher(body).replaceAll("");
     body = BR_PTN.matcher(body).replaceAll("\n");
     return trimLead(body.replace("&nbsp;",  " ").replace("&amp;",  "&").replace("&gt;", ">").replace("&lt;", "<"));
   }
+  private static final Pattern HTML_PTN = Pattern.compile("^.*<HTML>|<BODY>|</BODY>|</HTML>.*$", Pattern.CASE_INSENSITIVE);
   private static final Pattern BR_PTN = Pattern.compile("< *br */?>", Pattern.CASE_INSENSITIVE);
   
   /**
