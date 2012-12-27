@@ -8,10 +8,6 @@ vzcbeg bet.whavg.Grfg;
 /*
 Tybhprfgre Pbhagl, AW (irefvba N)
 
-Pbagnpg: "evpu2118@pbzpnfg.arg" <evpu2118@pbzpnfg.arg>
-Fraqre: 777259763803
-TP NYREG (#423679) SQ 9-2: {12/26/2012 10:42:45}\aFRVM     - Frvmherf{3}\a135 Iblntre QE;O FGBC
-
 Pbagnpg: Npgvir911
 Ntrapl anzr: Juvgzna Fdhner Sver Unyy
 Ybpngvba: Frjryy, AW, Havgrq Fgngrf

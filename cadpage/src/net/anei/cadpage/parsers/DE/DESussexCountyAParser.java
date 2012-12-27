@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.DE;
 
+import java.util.Properties;
+
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -7,20 +9,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DESussexCountyAParser extends SmartAddressParser {
   
-  private static final String DEF_STATE = "DE";
-  private static final String DEF_CITY = "SUSSEX COUNTY";
-  
-  private static final String[] CITY_LIST = new String[] {
-    "BETHANY BEACH", "BETHEL", "BLADES", "BRIDGEVILLE", "DAGSBORO", "DELMAR",
-    "DEWEY BEACH", "ELENDALE", "FENWICK ISLAND", "FRANKFORD", "GEORGETOWN",
-    "GREENWOOD", "HENLOPEN ACRES", "LAUREL", "LEWES", "MILFORD", "MILLSBORO",
-    "MILLVILLE", "MILTON", "OCEAN VIEW", "REHOBOTH BEACH", "SEAFORD", "SELBYVILLE",
-    "SLAUGHTER BEACH", "SOUTH BETHANY"
-  };
-                                                       
-  
   public DESussexCountyAParser() {
-    super(CITY_LIST, DEF_CITY, DEF_STATE);
+    super(CITY_LIST, "SUSSEX COUNTY", "DE");
   }
 
   @Override
@@ -73,28 +63,35 @@ public class DESussexCountyAParser extends SmartAddressParser {
 
     if (result.getStatus() == 0) return false;
     result.getData(data);
+    
+    // Hopefully it found a city, if not we will have to parse one out
+    // of what is left
+    if (data.strCity.length() == 0) {
       
-      // Hopefully it found a city, if not we will have to parse one out
-      // of what is left
-      if (data.strCity.length() == 0) {
-        
-        // If the last token in what is left is a 5 digit zip code, strip it off
-        String sAddress = getLeft();
-        Parser p = new Parser(sAddress);
-        String last = p.getLastOptional(' ');
-        if (last.length() == 5 && NUMERIC.matcher(last).matches()) sAddress = p.get();
-        
-        // If last character is a comma, get rid of it
-        
-        // If the new last token is "DE" with or without a trailing comma, strip it off 
-        p = new Parser(sAddress);
-        last = p.getLastOptional(' ');
-        if (last.endsWith(",")) last = last.substring(0, last.length()-1);
-        if (last.equalsIgnoreCase("DE")) sAddress = p.get();
+      // If the last token in what is left is a 5 digit zip code, strip it off
+      String sAddress = getLeft();
+      Parser p = new Parser(sAddress);
+      String last = p.getLastOptional(' ');
+      if (last.length() == 5 && NUMERIC.matcher(last).matches()) sAddress = p.get();
       
-        // Whatever is left is our city
-        data.strCity = sAddress;
-      }
+      // If last character is a comma, get rid of it
+      
+      // If the new last token is "DE" with or without a trailing comma, strip it off 
+      p = new Parser(sAddress);
+      last = p.getLastOptional(' ');
+      if (last.endsWith(",")) last = last.substring(0, last.length()-1);
+      if (last.equalsIgnoreCase("DE")) sAddress = p.get();
+    
+      // Whatever is left is our city
+      data.strCity = sAddress;
+    }
+    
+    // Some city names are subdivisons or apartment complexes
+    String city = PLACE_NAMES.getProperty(data.strCity.toUpperCase());
+    if (city != null) {
+      data.strPlace = append(data.strPlace, " - ", data.strCity);
+      data.strCity = city;
+    }
 
     return true;
   }
@@ -104,6 +101,43 @@ public class DESussexCountyAParser extends SmartAddressParser {
     if (address.startsWith("0 ")) address = address.substring(2).trim();
     return parseAddress(StartType.START_ADDR, address);
   }
+  
+  private static final String[] CITY_LIST = new String[] {
+    "BETHANY BEACH", 
+    "BETHEL", 
+    "BLADES", 
+    "BRIDGEVILLE", 
+    "DAGSBORO", 
+    "DELMAR",
+    "DEWEY BEACH", 
+    "ELENDALE", 
+    "FENWICK ISLAND", 
+    "FRANKFORD", 
+    "GEORGETOWN",
+    "GREENWOOD", 
+    "HENLOPEN ACRES", 
+    "LAUREL", 
+    "LEWES", 
+    "MILFORD", 
+    "MILLSBORO",
+    "MILLVILLE", 
+    "MILTON", 
+    "OCEAN VIEW", 
+    "REHOBOTH BEACH", 
+    "SEAFORD", 
+    "SELBYVILLE",
+    "SLAUGHTER BEACH", 
+    "SOUTH BETHANY",
+    
+    "ASPEN MEADOWS",
+    "SHADY GROVE"
+  };
+  
+  private static final Properties PLACE_NAMES = buildCodeTable(new String[]{
+      "ASPEN MEADOWS", "REHOBOTH BEACH",
+      "SHADY GROVE",   "REHOBOTH BEACH"
+  });
+  
 }
 
 

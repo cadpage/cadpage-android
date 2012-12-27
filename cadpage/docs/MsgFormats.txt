@@ -8613,14 +8613,6 @@ Sender: CAD@kcgov.local
 CAD:FYI: ;US 30/CEDAR RD;BOUR;MEDICAL CALL;11/16/2012 07:10:17
 CAD:FYI: ;DIFFICULTY BREATHING;1 ELKHART CO MILFORD;358 N MAIN ST;MILF
 **********************************************************
-**********************************************************
-**********************************************************
-************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 Person County, NC? (alternate/replace)
 Contact: Brett Wrenn <bwrenn89@gmail.com>
 Sender: CAD@personcounty.net
@@ -8631,6 +8623,21 @@ CAD:BURLINGTON RD / LEWIS WINSTEAD LOOP, MDL 29B01, 20:03:18, MVA PI CARD 29 ( O
 CAD:69 JONES LESTER RD ROXBORO, SEMORA RD X WINSTEAD-HICKS RD, MDL 26D01, 10:55:41, SICK CALL CARD 26 (C D) OCA: 201212-1916
 CAD:75 CARMICHAEL DR ROXBORO, DANCY DAY RD X DEAD END, 01:16:20, ALARMS-CARBON MONOXIDE OCA: 201212-1915
 CAD:3377 ALLENSVILLE RD ROXBORO, SPENCER RD X JACK CRUMPTON RD, 00:32:25, FIRE VEHICLE OCA: 201212-1914
+**********************************************************
+**********************************************************
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+*** NOT PARSING ***
+Contact: "rich2118@comcast.net" <rich2118@comcast.net>
+Sender: 777259763803
+GC ALERT (#423679) FD 9-2: {12/26/2012 10:42:45}\nSEIZ     - Seizures{3}\n135 Voyager DR;B STOP
+
+FD 9-2 is station code
+B STOP ends all pages
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
