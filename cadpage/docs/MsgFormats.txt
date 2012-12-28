@@ -3396,7 +3396,6 @@ Type: Medical Call - BLS
 ADDRESS: 1326 FLETCHER ST, Anderson   RD# 509  
 UNITS:ANM1  
 INFO:  52 DIABETIC MALE  NOT FEELING WELL  GLUCOSE IS 35 
-
 (CFS)
 Units: PEA82Call
 Type: Accident - w/Injuries 
@@ -3800,8 +3799,7 @@ By: SPUTNAM
 Pos:001\nCall Send Time    :       02:28:02\nSent By   : SPUTNAM   
 Action: D\nCall Dispatch
 Time:       02:29:26\nCall Enroute Time :       02:29:50\nCall Arrival Time :       00:00:00\nCall Clear Time   :       00:00:00\nCall Closed   :00/00/0000 00:00:00\nEvent : MED2    2     
-Language:\nLaw   :\nFire  :\nEMS   :            1BLS 1ALS\nRescue:\n\n[No Directions Found]\n\n\n[MSAG INFORMATION]\nMap:              \n
-Grid: 503  -000\n\n[No Hydrant Information Found]\n.......................................\nUNIT   DPT STATUS/DISP    DATE    TIME\nLOCATION/REMARK                    USER\n.......................................\nSH22   L01 DSP            11/10 02:29:26\n                                   MANSO\nSH29   L01 DSP            11/10 02:29:33\nHOMESTEAD                          MANSO\nSH29   L01 ENR            11/10 02:29:50\n                                   MANSO\nSH22   L01 ENR            11/10 02:29:54\n                                   MANSO\nLDE    E02 DSP            11/10 02:32:15\n                                   SPUTN\n\n(CAD Incident Detail
+Language:\nLaw   :\nFire  :\nEMS   :            1BLS 1ALS\nRescue:\n\n[No Directions Found]\n\n\n[MSAG INFORMATION]\nMap:              \nGrid: 503  -000\n\n[No Hydrant Information Found]\n.......................................\nUNIT   DPT STATUS/DISP    DATE    TIME\nLOCATION/REMARK                    USER\n.......................................\nSH22   L01 DSP            11/10 02:29:26\n                                   MANSO\nSH29   L01 DSP            11/10 02:29:33\nHOMESTEAD                          MANSO\nSH29   L01 ENR            11/10 02:29:50\n                                   MANSO\nSH22   L01 ENR            11/10 02:29:54\n                                   MANSO\nLDE    E02 DSP            11/10 02:32:15\n                                   SPUTN\n\n(CAD Incident Detail
 for:2012-0000010797) CAD
 Incident: 2012-00010797\nPhone    : XXXXXXX-XXXX\nName     : XXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nAddress  : 1862 N LAKE LEELANAU DR\nCommunity: LELAND TWP\nESN   : 0502            L   F   E   R\nJurisdctn:\nLo
 Cross:\nHi
@@ -5145,14 +5143,11 @@ Prem: [  ]\n EMS
 Blk:  134620 Fire
 Blk:  60063  Police
 Blk:  36106  Map
-Page: 3032G4 \n
-Group: EN 
+Page: 3032G4 \nGroup: EN 
 Beat: 134
 Src:  N
-ATT:  MTC - Meet the Complainant  \n
-Loc: RT 309 OFFICE FURN ,36 at 1711 BETHLEHEM PK ,36 btwn SWARTLEY RD & MILL RD\n \n Loc
-Info: \n
-Name: DAN MCTAGUE            
+ATT:  MTC - Meet the Complainant  \nLoc: RT 309 OFFICE FURN ,36 at 1711 BETHLEHEM PK ,36 btwn SWARTLEY RD & MILL RD\n \n Loc
+Info: \nName: DAN MCTAGUE            
 Addr:                        
 Phone: 2676406378\n \n/1557  (753     ) 
 ENTRY:         63YOM,,AWAKE BUT INCOHERENT,,REFUSING THE SUGA\n                                  RS\n/1557  (619     )  DISP    A134    #125093   PANKOE,RYAN \n/1557              ADD     QUT60  
@@ -5168,14 +5163,11 @@ Dspo:\nPrem: [  ]\n EMS
 Blk:  134062 Fire
 Blk:  74062  Police
 Blk:  48101  Map
-Page: 3033E6\n
-Group: EN 
+Page: 3033E6\nGroup: EN 
 Beat: 134
 Src:  
-ATT:\n
-Loc: 214 HAMPSHIRE DR ,48  btwn CORNWALL DR & SURREY RD\n\n Loc
-Info:\n
-Name: SHANNON GILROY         
+ATT:\nLoc: 214 HAMPSHIRE DR ,48  btwn CORNWALL DR & SURREY RD\n\n Loc
+Info:\nName: SHANNON GILROY         
 Addr:                        
 Phone: 2679873669\n\n/2110  (576     )  COPY           ,FOR AN INTOX MALE\n/2110             $CROSS          #PD121041267\n                                  ,FOR AN INTOX MALE\n/2111  (807     )  DISP    A134    #125093   PANKOE,RYAN\n\n-- \n\n\nDISCLAIMER: This electronic message transmission has been sent by Chalfont Emergency Medical Services, Inc., which may contain confidential or privileged information. This information is intended for the individual or entity named above. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of the contents of this information is prohibited. If you have received this electronic transmission in error, please notify us immediately by telephone at 215-822-1308 x116, or by electronic mail (reply).
 <SYSTEM GENERATED> TO INT1 FROM FS01  : 125/134\n\n\n\n Inc History
@@ -5191,14 +5183,11 @@ Prem: [  ]\n EMS
 Blk:  125003 Fire
 Blk:  19003  Police
 Blk:  29202  Map
-Page: 2922D10\n
-Group: EN 
+Page: 2922D10\nGroup: EN 
 Beat: 125
 Src:  9
-ATT:\n
-Loc: 39 PINEVALE RD ,29  btwn PINE VALLEY RD S & PINE VALLEY RD N\n\n Loc
-Info:\n
-Name: KAREN RICHARDSON       
+ATT:\nLoc: 39 PINEVALE RD ,29  btwn PINE VALLEY RD S & PINE VALLEY RD N\n\n Loc
+Info:\nName: KAREN RICHARDSON       
 Addr: DAUGHTER               
 Phone: 2153487812\n\n/0919  (619     ) 
 ENTRY:         82YOF,,VERY WEAK,,UNABLE TO WALK\n/0919  (271     )  DISP    A134    #078910   MCDONAGH, PENELOPE\n                                  #131319   MEEHAN, JOSEPH (EMT)\n/0919              ADD     1253    #208306   WHITESIDE, JESSICA (EMT)\n                                  #100580   HARKER, KEVIN (EMT)\n\n\n\n--\n\n\nDISCLAIMER: This electronic message transmission has been sent by Chalfont\nEmergency Medical Services, Inc., which may contain confidential or\nprivileged information. This information is intended for the individual or\nentity named above. If you are not the intended recipient, be aware that\nany disclosure, copying, distribution or use of the contents of this\ninformation is prohibited. If you have received this electronic\ntransmission in error, please notify us immediately by telephone at\n215-822-1308\nx116, or by electronic mail (reply).
@@ -5265,23 +5254,18 @@ Type: BUILDNG (BUILDING FIRE *)\n Initial
 Priority: E      Final
 Priority: E \n Initial Alarm
 Level: 1   Final Alarm
-Level: 1\n
-Disposition:       
+Level: 1\nDisposition:       
 Source: 9    Primary
 Unit: LAD25      
 Rsp: 0033  \n Police
 BOX: 6402  Fire
 BOX: 2566  EMS
-BOX: 2566 \n
-Group: 25FD         
+BOX: 2566 \nGroup: 25FD         
 Section: 25    
-Map: 40H13    X: 7562189  Y: 3986984\n\n
-Loc: 6 PONDS EDGE DR ,64  btwn E VILLAGE LA & N VILLAGE LA (V) \n
-AKA:  
+Map: 40H13    X: 7562189  Y: 3986984\n\nLoc: 6 PONDS EDGE DR ,64  btwn E VILLAGE LA & N VILLAGE LA (V) \nAKA:  
 Municipality: PNSBRY
 Dev: \n Loc
-Info: LYONS DOUGHERTY LLC\n
-Name: NASEEF, MICHAEL        
+Info: LYONS DOUGHERTY LLC\nName: NASEEF, MICHAEL        
 Addr: SAA                    
 PH: 610-388-7371   \n\n/1433  (713   )  ENTRY            SMOKE IN BLDG FROM HVAC SYSTEM.\n/1433            ENTRY            DETAILS TO FOLLOW\n/1433  (465   )  DTSEEN           INFO SEEN\n/1433            DISP    LAD25    \n/1433            ASST    ENG252    #ENG252 ENG252 MDT \n/1433            ASST    MIC253    #MIC253 MIC253 MDT \n/1433            ASST    DTKR59   \n/1433            ASST    D592     \n/1433            ASST    D593     \n/1433            ASST    D594     \n/1433            ASST    TKR36    \n/1433            ASST    ENG36     #ENG36  ENG36 MDT \n/1434  (713   )  SUPP            
 LOCI: LYONS DOUGHERTY LLC, \n                                 
@@ -5297,23 +5281,18 @@ Type: BUILDNG (BUILDING FIRE *)\n Initial
 Priority: E      Final
 Priority: E \n Initial Alarm
 Level: 1   Final Alarm
-Level: 1\n
-Disposition:       
+Level: 1\nDisposition:       
 Source: 9    Primary
 Unit: LAD41      
 Rsp: 0033  \n Police
 BOX: 1603  Fire
 BOX: 4138  EMS
-BOX: 4138 \n
-Group: 41FD         
+BOX: 4138 \nGroup: 41FD         
 Section: 41    
-Map: 28K5     X: 7582046  Y: 3998514\n\n
-Loc: 118 N THIRD AV ,16  btwn LUMBER ST & FLEETWOOD ST (V) \n
-AKA:  
+Map: 28K5     X: 7582046  Y: 3998514\n\nLoc: 118 N THIRD AV ,16  btwn LUMBER ST & FLEETWOOD ST (V) \nAKA:  
 Municipality: COATVL
 Dev: \n Loc
-Info: TO REAR OF\n
-Name: BIRD DIANE             
+Info: TO REAR OF\nName: BIRD DIANE             
 Addr: 112 N THIRD AV ,16     
 PH: 610-384-2411   \n\n/0013  (171   )  ENTRY            UNK TYPE BUILDING\n/0013            ENTRY            DETAILS TO FOLLOW\n/0014            SUPP            
 TXT: CONFIRMED PEOPLE INSIDE \n/0014  (436   )  DTSEEN           INFO SEEN\n/0014            DTSEEN           INFO SEEN\n/0014            DISP    LAD41     #LAD41  LAD41 MDT \n/0014            ASST    RES41     #RES41  RES41 MDT \n/0014            ASST    AMB413    #AMB413 AMB413 MDT \n/0014            ASST    ENG43     #ENG43  ENG43 MDT \n/0014            ASST    ENG38     #ENG38  ENG38 MDT \n/0014            ASST    ENG371    #ENG371 ENG371 MDT \n/0014            ASST    ENG76     #ENG76  ENG76 MDT \n/0014            ASST    AMB372    #AMB372 AMB372 MDT \n/0014  (580   )  ENROUT  ENG38    \n/0015  (171   )  SUPP            
@@ -5334,22 +5313,17 @@ Type: NOTIFFC (NOTIFY FIRE CHIEF)\n Initial
 Priority: 3      Final
 Priority: 3 \n Initial Alarm
 Level: 1   Final Alarm
-Level: 1\n
-Disposition:       
+Level: 1\nDisposition:       
 Source: 9    Primary
 Unit: AMB212     
 Rsp: 0027  \n Police
 BOX: 6801  Fire
 BOX: 2113  EMS
-BOX: 2113 \n
-Group: 21FD         
+BOX: 2113 \nGroup: 21FD         
 Section: 21    
-Map: 50B11    X: 7608341  Y: 3974022\n\n
-Loc: 251 RED PUMP RD ,68  btwn TAYLOR LA & BRYAN LA (V) \n
-AKA:  
+Map: 50B11    X: 7608341  Y: 3974022\n\nLoc: 251 RED PUMP RD ,68  btwn TAYLOR LA & BRYAN LA (V) \nAKA:  
 Municipality: WNOTT 
-Dev: \n
-Name: WARD, SANDRA           
+Dev: \nName: WARD, SANDRA           
 Addr: SAA                    
 PH: 610-932-1121   \n\n/1332  (709   )  ENTRY            FILLING HER 02 TANK AND THE VALVE IS STUCK OPE\n                                  N 4FT X 16 INCH TANK - SPRAYING THROUGH THE HO\n                                  USE - STILL GOING OFF\n/1333           $CROSS            #OXFF12000815 \n/1333  (465   )  HOLD             \n/1335  (709   ) $CROSS            #68PJ12000475 \n/1336  (465   )  DISPER  AMB212    #AMB212 AMB212 MDT \n/1337            ASST    OFC15    [CHF] \nPRIOR PREMISE HISTORY
 FOR: 251 RED PUMP RD ,68                               \n\nNo Prior Premise History found for the Location\n\n+++ATE0Q1\n\n{\n ** WNOTT **  ** 21 ** 3 ** TAYLOR LA & BRYAN LA **\n \n \nThis County of Chester e-mail message, including any attachments, is intended for the sole use of the individual(s) and entity(ies) to whom it is addressed, and may contain information that is privileged, confidential and exempt from disclosure under applicable law. If you are not the intended addressee, nor authorized to receive for the intended addressee, you are hereby notified that you may not use, copy, disclose or distribute to anyone this e-mail message including any attachments, or any information contained in this e-mail message including any attachments. If you have received this e-mail message in error, please immediately notify the sender by reply e-mail and delete the message. Thank you very much.) ***************************************************************************
@@ -5370,22 +5344,17 @@ Type: RELOCAT (RELOCATE FIRE/EMS UNITS)\n Initial
 Priority: 3      Final
 Priority: 3 \n Initial Alarm
 Level: 1   Final Alarm
-Level: 1\n
-Disposition:       
+Level: 1\nDisposition:       
 Source: T    Primary
 Unit: ENG22      
 Rsp: 0099  \n Police
 BOX:   Fire
 BOX:   EMS
-BOX:  \n
-Group: C88F         
+BOX:  \nGroup: C88F         
 Section:  
-Map:          X: 0000000  Y: 0000000\n\n
-Loc: NCC STA19   (NV)\n
-AKA:  
+Map:          X: 0000000  Y: 0000000\n\nLoc: NCC STA19   (NV)\nAKA:  
 Municipality:       
-Dev: \n
-Name: NCC ENG19              
+Dev: \nName: NCC ENG19              
 Addr:                        
 PH:                \n\n/1315  (135   )  ENTRY            NO FURTHER INFORMATION\n/1315            DISP    ENG242    #ENG242 ENG242 MDT \n/1323           $PREMPT  ENG242   \n/1323           $DISP    ENG22     #ENG22  ENG22 MDT \n/1323            EXCH    ENG242   ENG22    \nPRIOR PREMISE HISTORY
 FOR: NCC STA19                                         \n\nNo Prior Premise History found for the Location
@@ -5396,21 +5365,16 @@ Type: ACCENT  (ACCIDENT - ENTRAPMENT *)\n Initial
 Priority: E      Final
 Priority: E\n Initial Alarm
 Level: 1   Final Alarm
-Level: 1\n
-Disposition:       
+Level: 1\nDisposition:       
 Source: T    Primary
 Unit: RES22      
 Rsp: 0002\n Police
 BOX: 5802  Fire
 BOX: 2204  EMS
-BOX: 2204\n
-Group: 22FD         
+BOX: 2204\nGroup: 22FD         
 Section: 22    
-Map:          X: 7586988  Y: 3982389\n
-Loc: OLD BALTIMORE PK/RT 796 ,58    (V)\n
-AKA:                           
-Municipality: PENN\nDev:\n
-Name:                        
+Map:          X: 7586988  Y: 3982389\nLoc: OLD BALTIMORE PK/RT 796 ,58    (V)\nAKA:                           
+Municipality: PENN\nDev:\nName:                        
 Addr:                        
 PH:\n610-633-8998C\n/0609  (693   )  ENTRY            2 VEHS -- HEAD ON COLLISION -- ENTRAPMENT\n/0609            ENTRY            DETAILS TO FOLLOW\n/0609  (157   )  DTSEEN           INFO SEEN\n/0609            DISP    RES22     #RES22  RES22 MDT\n/0609            ASST    ENG22     #ENG22  ENG22 MDT\n/0609            ASST    AMB221    #AMB221 AMB221 MDT\n/0609            ASST    MED941    #MED941 MED941 MDT\n/0609            ASST    ENG12     #ENG12  ENG12 MDT\n/0609            ASST    AMB222    #AMB222 AMB222 MDT\n/0609            ASST    ENG32     #ENG32  ENG32 MDT\nPRIOR PREMISE HISTORY
 FOR: OLD BALTIMORE PK/RT 796\n,58\nNo Prior Premise History found for the Location\n*** List of closest hydrants\n***\n Inc #WGRF12000543
@@ -5423,22 +5387,17 @@ Type: INVOUT  (SMOKE/ODOR INVEST (OUTSIDE)\n*)\n Initial
 Priority: 1      Final
 Priority: 1\n Initial Alarm
 Level: 1   Final Alarm
-Level: 1\n
-Disposition:       
+Level: 1\nDisposition:       
 Source: T    Primary
 Unit: ENG22      
 Rsp: 0026\n Police
 BOX: 59BP  Fire
 BOX: 2202  EMS
-BOX: 2202\n
-Group: 22FD         
+BOX: 2202\nGroup: 22FD         
 Section: 22    
-Map: 45D7     X: 7580925  Y: 3983699\n\n
-Loc: 160 SB RT 1 BP ,59  btwn CHATHAM RD & BAKER STATION RD (V)\n
-AKA: KENNETT OXFORD BP 
+Map: 45D7     X: 7580925  Y: 3983699\n\nLoc: 160 SB RT 1 BP ,59  btwn CHATHAM RD & BAKER STATION RD (V)\nAKA: KENNETT OXFORD BP 
 Municipality: LGROVE
-Dev:\n
-Name: WERTZ, JONATHON        
+Dev:\nName: WERTZ, JONATHON        
 Addr: 343 LEA DR             
 PH:\n610-812-0021\n\n/2331  (663   )  ENTRY            LOOKED LIKE WHAREHOUSE MIGHT HAVE BEEN ON\nFIRE\n                                   ONLY SAW WHITE COLORED SMOKE WHILE\nDRIVING BY\n/2332  (135   )  DISP    ENG22     #ENG22  ENG22 MDT\n/2332            ASST    LAD22     #LAD22  LAD22 MDT\n/2332            ASST    ENG12     #ENG12  ENG12 MDT\n/2332            ASST    ENG32     #ENG32  ENG32 MDT\nPRIOR PREMISE HISTORY
 FOR: 160 SB RT 1 BP\n,59\n\nNo Prior Premise History found for the Location
@@ -6033,24 +5992,21 @@ CODE: 06D02
 *******************************************************************************
 Hood County, TX (TXHoodCountyParser)
 (INCIDENT # D12120202) LONG TERM CAD#    224765   ACTIVE CALL# 84\nPRIORITY: 8                  
-REPORTED: 14:20:12 12/02/12\n\n
-Nature: CONTROL BURN                               
+REPORTED: 14:20:12 12/02/12\n\nNature: CONTROL BURN                               
 Type: f\nAddress: Blue Water Cir                             
 Zone: 253\n  
 City: Granbury\n\nResponding
 Units: DCBE,HCFM\n\nDirections:\n\n\nComments:\nsubjects burning leaves behind his residence,unmanned approx inches from wooden\nfence\n\nContact: oakley,kendall                   
 Phone: (817)219-2128
 (INCIDENT # D12120102) LONG TERM CAD#    224603   ACTIVE CALL# 142\nPRIORITY: 3                  
-REPORTED: 17:36:10 12/01/12\n\n
-Nature: FIRE SMALL(HZ:B                            
+REPORTED: 17:36:10 12/01/12\n\nNature: FIRE SMALL(HZ:B                            
 Type: f\nAddress: Six J  Ct; 3rd house  on left              
 Zone: 253\n  
 City: Granbury\n\nResponding
 Units: DCBE,HCFM\n\nDirections:\n\n\nComments:\nmale burning furniture in back yard behind a building smoke everywhere\n17:38:43 12/01/2012 - Young D\nProQA Fire Case Entry Finished\nOutside Fire.  .\n\n17:38:57 12/01/2012 - Young D\nProQA Fire Recommended Dispatch Level = 67B02U\n  SMALL OUTSIDE fire with hazardous materials  (Unknown).\n 1. The caller is on scene (2nd party).\n 2. This is a SMALL OUTSIDE fire.\n 3. The fire has not been extinguished.\n 4. It is not known if the fire is threatening anything.\n 5. Hazardous materials are present.\n17:39:00 12/01/2012 - Young D\nProQA Fire Case 224603 Complete\nleavins, gordon\n\nContact: leavins, gordon                  
 Phone: (817)559-7622
 (INCIDENT # D12113004) LONG TERM CAD#    224378   ACTIVE CALL# 148\nPRIORITY: 3                  
-REPORTED: 17:56:05 11/30/12\n\n
-Nature: FIRE
+REPORTED: 17:56:05 11/30/12\n\nNature: FIRE
 SMALL:B                               
 Type: f\nAddress: 3700 Texas Ave & Montego Blvd              
 Zone: 253\n  
@@ -8549,9 +8505,9 @@ Clinton County, MO
 Contact: Rod McQuerrey <rmcquerrey@plattsburgfire.org>
 Sender: dispatch@clintoncosheriff.org
 FRM:Rod McQuerrey \nMSG:dispatch@clintoncosheriff.org\n\nHISTORY FOR OCC #12-97, INC...\n\nOCC #12-97, INC #12-6000 - FIRE - Fire\nTime ...
-1 of 2\nFRM:dispatch@clintoncosheriff.org\nSUBJ:NEWOCC #OUTS\2sMEDI - Medical\nMSG:NEWOCC #OUTS\2sMEDI - Medical\r\nAddress: 204 W Riley St,\n(Con't) 2 of 2\nPlattsburg\r\nReporting
+1 of 2\nFRM:dispatch@clintoncosheriff.org\nSUBJ:NEWOCC #OUTS\2sMEDI - Medical\nMSG:NEWOCC #OUTS\2sMEDI - Medical\nAddress: 204 W Riley St,\n(Con't) 2 of 2\nPlattsburg\nReporting
 Person: Susan Hunt,
-Phone: 8165392537\r\nDetail: female unk conditon, worke up with headache 87 poss stroke.(End)
+Phone: 8165392537\nDetail: female unk conditon, worke up with headache 87 poss stroke.(End)
 **********************************************************
 Newberry County, SC
 Contact: Jimmyhazel <jimmyhazel@yahoo.com>
@@ -8566,22 +8522,8 @@ Sender: +12143184576
 El Paso County, CO (replace?)
 Contact: Eric Riffle <ericriffle@ymail.com>
 Sender: ept@ept911.info
-  / afa22 2306 Cadet dr at the Chapel 33yom c/b having heart rate problems\n
-  / AFA D1:AFA11,2111,AMR.Medical                  .6910 Carlton Dr               .AFA High School     .AFA218141           .
-  / AFA D4:AFA44,2113,2152,AMR1.Unconscious / Fainting   .11700 I-25                    .MM154 I-25          .AFA218298           .\n
-  / to afa4 unconcious pty @ mm154 SB - state trooper has pty pulled over - 25 yof fainted // no further\n
-  / AFA D4:AFA44,2113,2152,AMR1.Suicidal Check the Welfar.13000 I-25                    .AFA Northgate mm156b.AFA218304           .\n
-  / AFA4  ALL UNITS CAN DISREGARD THE SUIC CTW  PARTY NOT ONS\n
-  / AFA D4:AFA44,2113,2170,2152,AMR,CSP.Traff Acc Unk Injuries   .13000 I-25                    .MM156 I-25          .AFA218383          .\n
-  / TA UNK INJURIES MM156 NOTHBOUND SILVER DODGE IN MEDIAN\n
-ept@ept911.info /  / [AFA: AFA D4 ] AFA44,2113,2170,2152,AMR,CSP~Traff Acc Unk Injuries   ~I 25 / N Academy Blvd     #     ~                    ~AFA218388\n
-  / 25/N ACAD NB-- TA UNK UNK INJ-- RED SUV SPUN OU\n
-  / [CITY:220-6  ] FINFO2,FINFO2,AFA4,FINFO2,CSFD~Test Call        ~6712 Test                 #     ~6712X          ~CSFD218385\n
-  / [AFA: AFA D1 ] AFA11,2111,2170,2152,AMR2~Traff Acc Unk Injuries   ~6910 Carlton Dr           #     ~Air Academy High Sch~AFA218394\n
-  / TA W INJURIES AT HIGH SCHOOL 6910 CARLTON DR  SINGLE VEHICLE WITH UNK OCCUPANTS  29D02\n
-  / TA W INJURIES AT HIGH SCHOOL 6910 CARLTON DR  SINGLE VEHICLE ROLLOVER WITH INJURIES\n
-  / afa22 2302 cadet drive - arnold hall - 50 yom a/b fall poss broken arm at the front door 17a01g\n
-**********************************************************
+  / afa22 2306 Cadet dr at the Chapel 33yom c/b having heart rate problems\n  / AFA D1:AFA11,2111,AMR.Medical                  .6910 Carlton Dr               .AFA High School     .AFA218141           .
+  / AFA D4:AFA44,2113,2152,AMR1.Unconscious / Fainting   .11700 I-25                    .MM154 I-25          .AFA218298           .\n  / to afa4 unconcious pty @ mm154 SB - state trooper has pty pulled over - 25 yof fainted // no further\n  / AFA D4:AFA44,2113,2152,AMR1.Suicidal Check the Welfar.13000 I-25                    .AFA Northgate mm156b.AFA218304           .\n  / AFA4  ALL UNITS CAN DISREGARD THE SUIC CTW  PARTY NOT ONS\n  / AFA D4:AFA44,2113,2170,2152,AMR,CSP.Traff Acc Unk Injuries   .13000 I-25                    .MM156 I-25          .AFA218383          .\n  / TA UNK INJURIES MM156 NOTHBOUND SILVER DODGE IN MEDIAN\nept@ept911.info /  / [AFA: AFA D4 ] AFA44,2113,2170,2152,AMR,CSP~Traff Acc Unk Injuries   ~I 25 / N Academy Blvd     #     ~                    ~AFA218388\n  / 25/N ACAD NB-- TA UNK UNK INJ-- RED SUV SPUN OU\n  / [CITY:220-6  ] FINFO2,FINFO2,AFA4,FINFO2,CSFD~Test Call        ~6712 Test                 #     ~6712X          ~CSFD218385\n  / [AFA: AFA D1 ] AFA11,2111,2170,2152,AMR2~Traff Acc Unk Injuries   ~6910 Carlton Dr           #     ~Air Academy High Sch~AFA218394\n  / TA W INJURIES AT HIGH SCHOOL 6910 CARLTON DR  SINGLE VEHICLE WITH UNK OCCUPANTS  29D02\n  / TA W INJURIES AT HIGH SCHOOL 6910 CARLTON DR  SINGLE VEHICLE ROLLOVER WITH INJURIES\n  / afa22 2302 cadet drive - arnold hall - 50 yom a/b fall poss broken arm at the front door 17a01g\n**********************************************************
 Kent County, DE (mashup of variant B)
 Contact: cesn35 <cesn35@comcast.net>
 Sender: 64CAD@amb64.net
@@ -8592,11 +8534,10 @@ Contact: "Stoltz, Eric" <EStoltz@avfd.com>
 Sender: msg@cfmsg.com
 1 of 2\nFRM:msg@cfmsg.com\nSUBJ:Chief ALT\nMSG:[FIRE] - Light Smoke Outside - 3618 Trace Ct -
 Map: 376G- - Atascocita Forest - Xst's: Shrub Oak Dr\n(Con't 2 of 2\n-
-Units: E-E29 E-D69 E-D99 E-E19 - 201256866\r\n(End)
+Units: E-E29 E-D69 E-D99 E-E19 - 201256866\n(End)
 1 of 2\nFRM:msg@cfmsg.com\nSUBJ:Chief ALT\nMSG:[FIRE] - Outside Fire - Investiga - 18551 Timber Forest Dr -
 Map: 337W- - Timber Lake Apts - Xst's:\n(Con't 2 of 2\nFlax Bourton St Atascocit -
-Units: E-E19 E-D69 E-B39 E-E39 - 201256973\r\n(End)
-
+Units: E-E19 E-D69 E-B39 E-E39 - 201256973\n(End)
 Sender: enp@southhaysfire.org
 1\n Alerted
 at: 1:11:34 AM\nSouth Hays Fire Page
@@ -8631,11 +8572,23 @@ CAD:3377 ALLENSVILLE RD ROXBORO, SPENCER RD X JACK CRUMPTON RD, 00:32:25, FIRE V
 **********************************************************
 **********************************************************
 **********************************************************
-*** NOT PARSING ***
+Gloucester County, NJ (fix)
 Contact: "rich2118@comcast.net" <rich2118@comcast.net>
 Sender: 777259763803
 GC ALERT (#423679) FD 9-2: {12/26/2012 10:42:45}\nSEIZ     - Seizures{3}\n135 Voyager DR;B STOP
-
+(Phoenix Notification) 2012040337 {12/25/2012 22:59:18}
+ALMC     - CO Alarm{3}
+Inverness Apts,3805;B
+Units:
+    FE9     
+Comments:
+ Toner Alert Instantiated 
+{092},{090}[FE9] Station Dispatched : {092} Units Recommended: ,FE9;
+Dispatched: {092}, FE9 Toner Alert Instantiated, Following tones sent to  
+device - F1   
+0100 - 9-2 Tacoma FD        
+0111 - 9-2 Tacoma FD        
+ CO ALARM SOUNDING WILL BE WAITING OUTSIDE Update reviewed by dispatcher-  
 FD 9-2 is station code
 B STOP ends all pages
 **********************************************************
@@ -8667,7 +8620,6 @@ MED EMERG AT 12280 COTTONWOOD RD IN COTTONWOOD SUBJ HAS FALLEN...COMM
 MEDICAL CALL COTTONWOOD RD/SEALY WELLS 56YOM DISORIENTED-DIABETICS
 PERSON  DOWN  6001  S CR 55  POSS S44
 S38A  432  PHILLIP RD..C2
-
 Contact: Donald Harbison <donald63harbison@gmail.com>
 Sender: robot.alert@dothan.org
 NO FIRE AT THE VEHICLE FIRE AT 5 STAR CREDIT UNION  ... AUTH/COMMAND #6
@@ -8948,7 +8900,6 @@ Agency
 name: Bulloch County Fire Department
 Location: Statesboro, GA, United States
 Sender: "Bulloch 911" <bullochga@ez911mail.com>
-
 (Disp SFD Case # 2012121206 Call # 1204) 12/23/2012 15:25:25 /1070A /LITTLE LOTS CREEK APTS /14 /E JONES AV /ZONE 3 FIRE PULL STATION\nFrom : kborgman User
 Id: 14
 (Disp SFD Case # 2012121202 Call # 1200) 12/23/2012 14:16:09 /1070 /HAGIN LN /HAGIN LN /COTTON MODULE ON FIRE NOT THREATHEN ANYTHING\nFrom : mrich User
@@ -8982,7 +8933,6 @@ Agency
 name: Park Ridge Fire Department
 Location: Park Ridge, NJ, United States
 Sender: InfoMap911 <pri_njfd@infomap911.com>
-
 (InfoMap911
 Dispatch: 12-10370-1657 --ETA In
 Minutes:) \nDISPATCH
@@ -9017,7 +8967,6 @@ Agency
 name: Colts Neck Fire Department
 Location: Colts Neck, NJ, United States
 Sender: CSOCallComplete@MCSONJ.ORG
-
 {Call Complete Notification         Incident #: 12FD84649}         Incident #: 12FD84649\n\n     CAD Call ID #: 12109624\n             
 Type: lf\n         Date/Time: 11:45:17 12/02/12\n\n          
 Address: 94 HEULITT RD\n          
@@ -9164,24 +9113,3 @@ Dispatch\n01:48\nRESPIRATORY DIFFICULTY - ALS *\n370 E CHESTNUT ST ,16  btwn N T
 * EOF
 **********************************************************
 **********************************************************
-From:777800475001
-Eff From:777800475001
-Body: ALERTROCKBRIDGE\2s(2/2) PM STOP
-Send time:1356637708000
-Rec time: 1356637727485
-
-From:777800475001
-Eff From:777800475001
-Body: ALERTROCKBRIDGE\2s(1/2) [CAD] Type: EMS-FX/DIS Loc: ROCKBRIDGE MIDDLE SCHOOL Units: CO07A,FAIR1, City: ROCKBRIDGE COUNTY 12/27/2012 2:47:49 STOP
-Send time:1356637708000
-Rec time: 1356637725067
-
-From:777800475001
-Body: ALERTROCKBRIDGE\2s(1/2) [CAD] Type: ACCIDENT MVC Loc: POORHOUSE RD AFTER TUNNEL Units: CO06A,FAIR1,LXRS1, City: ROCKBRIDGE COUNTY 12/26/2012 STOP
-Send time:1356576077000
-Rec time: 1356577289004
-
-From:777800475001
-Body: ALERTROCKBRIDGE\2s(2/2) 9:42:15 PM STOP
-Send time:1356576072000
-Rec time: 1356577285575

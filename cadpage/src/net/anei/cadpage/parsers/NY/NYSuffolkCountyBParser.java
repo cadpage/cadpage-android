@@ -17,7 +17,7 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@firerescuesystems.xohost.com,scmproducts@optonline.net";
+    return "@firerescuesystems.xohost.com,scmproducts@optonline.net,paging@bcfa.xohost.com";
   }
   
   @Override

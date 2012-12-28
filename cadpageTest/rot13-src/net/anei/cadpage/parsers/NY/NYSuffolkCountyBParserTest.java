@@ -6,7 +6,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.AL.ALFhssbyxPbhaglOCnefre;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Fhssbyx Pbhagl, AL (Irefvba O)
+Onolyba, Fhssbyx Pbhagl, AL
 
 *** 13 - Fgehpgher Sver *** 147 PUREHOVAN YA PF: YRNQRE NIR  / FXVQZBER EQ GBN: 22:37 09/22/10 BVY OHEARE ABEGU ONOLYBA SP 2010-002398 UL: 8' 11
 *** 13 - Fgehpgher Sver *** 514 ZBHAG CY PF: RFFRK FG  / YNXRJNL QE GBN: 19:55 09/22/10 ABEGU ONOLYBA SP 2010-002393 UL: 12' 533 ZBHAG CY @ RFFR

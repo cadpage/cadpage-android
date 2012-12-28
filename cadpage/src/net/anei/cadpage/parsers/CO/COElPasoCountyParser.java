@@ -1,11 +1,17 @@
 package net.anei.cadpage.parsers.CO;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgParser;
 
 
 
 public class COElPasoCountyParser extends MsgParser {
+  
+  private static final Pattern MASTER = 
+      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] ([^~]+?)~([^~]+?)~([^#\\.]+?)\\.?#([^~]*?)~([^~]*?)~([A-Z0-9]+)");
   
   public COElPasoCountyParser() {
     super("EL PASO COUNTY", "CO");
@@ -17,7 +23,24 @@ public class COElPasoCountyParser extends MsgParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Square bracket got turned into a subject and needs to be turned back
+    if (subject.length() > 0) body = '[' + subject + "] " + body;
+    
+    // Not everyone is using it, but see if this is the new standard dispatch format
+    Matcher match = MASTER.matcher(body);
+    if (match.matches()) {
+      data.strSource = match.group(1).trim();
+      data.strMap = match.group(2).trim();
+      data.strUnit = match.group(3).trim();
+      data.strCall = match.group(4).trim();
+      parseAddress(match.group(5).trim(), data);
+      data.strApt = match.group(6).trim();
+      data.strPlace = match.group(7).trim();
+      data.strCallId = match.group(8);
+      return true;
+    }
     
     // There are (at least) three different fixed length formats used by 
     // three different agencies.  So I guess we just have to figure out
