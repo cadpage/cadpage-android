@@ -11,11 +11,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class MDBaltimoreCountyAParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("Station (\\d+) ALERT!!");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("Station (\\d+) ALERT!!(?: \\((\\d+)\\))?");
   
   public MDBaltimoreCountyAParser() {
     super("BALTIMORE COUNTY", "MD",
-           "CALL MAP UNIT ADDR/S INFO? ID!");
+           "CALL MAP UNIT ADDR/S0! INFO? ID");
   }
   
   @Override
@@ -29,12 +29,13 @@ public class MDBaltimoreCountyAParser extends FieldProgramParser {
     Matcher match = SUBJECT_PTN.matcher(subject);
     if (!match.find()) return false;
     data.strSource = match.group(1);
-    return parseFields(body.split("\n"), 5, data);
+    data.strCallId = getOptGroup(match.group(2));
+    return parseFields(body.split("\n"), 4, data);
   }
   
   @Override
   public String getProgram() {
-    return "SRC " + super.getProgram();
+    return "SRC ID " + super.getProgram();
   }
   
   private class MyUnitField extends UnitField {
@@ -46,6 +47,7 @@ public class MDBaltimoreCountyAParser extends FieldProgramParser {
   }
   
   private static final Pattern MUTUAL_AID_ADDR_PTN = Pattern.compile("(?:(\\d+-\\d+) +)?(.*?)(?: +(OPS\\d+))?");
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT|RM|ROOM|SUITE) *(.*)", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -61,11 +63,20 @@ public class MDBaltimoreCountyAParser extends FieldProgramParser {
         data.strCall = append(data.strCall, " ", getLeft());
       } else {
         Parser p = new Parser(field);
+        String city = p.getLastOptional(',');
+        if (city.length() == 2) {
+          if (!city.equals(data.defState)) data.strState = city;
+          city = p.getLastOptional(',');
+        }
+        
+        String extra = p.getLastOptional(';');
+        if (extra.length() == 0) extra = p.getLastOptional("   ");
+        
         String place = p.getOptional('@');
-        String addr = p.get(',');
-        Result res = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr);
+        String addr = p.get();
+        Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, addr);
         if (place.length() > 0) {
-          Result res2 = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, place);
+          Result res2 = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, place);
           if (res2.getStatus() > res.getStatus()) {
             res = res2;
             place = addr;
@@ -73,15 +84,25 @@ public class MDBaltimoreCountyAParser extends FieldProgramParser {
         }
         res.getData(data);
         data.strPlace = place;
-        data.strCity = p.get(',');
-        data.strState = p.get();
-        if (data.strState.equals(data.defState)) data.strState = "";
+        
+        
+        if (city.length() > 0) data.strCity = city;
+        if (extra.length() > 0) {
+          for (String part : extra.split("   +")) {
+            Matcher match = APT_PTN.matcher(part);
+            if (match.matches()) {
+              data.strApt = append(data.strApt, "-", match.group(1).trim());
+            } else {
+              data.strSupp = append(data.strSupp, " / ", part);
+            }
+          }
+        }
       }
     }
     
     @Override
     public String getFieldNames() {
-      return "PLACE " + super.getFieldNames() + " CITY ST CH";
+      return "PLACE " + super.getFieldNames() + " APT INFO CITY ST CH";
     }
   }
 

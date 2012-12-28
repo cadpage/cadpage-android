@@ -43,11 +43,14 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-    nffregRdhnyf(1, cnefre.purpxNqqerff("HF 301 UJL F"));
   }
   
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(NQQE, SYNT_PURPX_FGNGHF | SYNT_NAPUBE_RAQ, "400 INYYRL ZRNQBJ PV NCG O1",
+           "NQQE:400 INYYRL ZRNQBJ PV",
+           "NCG:O1");
     
     qbGrfg(NQQE, "EG50 J/PNCR FG PYNVER EQ DCZ1,R191,DR1,DNSQ ZIP",
            "NQQE:EG50 J & PNCR FG PYNVER EQ");
