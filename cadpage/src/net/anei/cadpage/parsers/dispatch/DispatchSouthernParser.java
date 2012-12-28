@@ -60,7 +60,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   public DispatchSouthernParser(CodeSet callSet, String[] cityList, String defCity, String defState, int flags) {
     super(cityList, defCity, defState,
-          "ADDR/S"+((flags & DSFLAG_LEAD_PLACE) != 0 ? "P" : "") +" CODE? ID? TIME INFO! INFO2");
+          "ADDR/S"+((flags & DSFLAG_LEAD_PLACE) != 0 ? "P" : "") +" X? CODE? ID? TIME INFO! INFO2 OCA:ID2");
     this.callSet = callSet;
     this.leadDispatch = (flags & DSFLAG_DISPATCH_ID) != 0;
     this.optDispatch = (flags & DSFLAG_OPT_DISPATCH_ID) != 0;
@@ -85,7 +85,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     
     // See if this looks like one of the new comma delimited page formats
     // If it is, let FieldProgramParser handle it.
-    String[] flds = body.split(",");
+    String[] flds = body.replace(" OCA:", ",OCA:").split(",");
     if (flds.length >= 3) {
       if (parseFields(flds, data)) return true;
       data.initialize();
@@ -233,6 +233,26 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   //  Classes for handling the new comma delimited format
   
+  private class MyCrossField extends CrossField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.contains(" X ")) return false;
+      parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace(" X ", " / ");
+      super.parse(field, data);
+    }
+  }
+  
   private class MyCodeField extends CodeField {
     @Override
     public boolean canFail() {
@@ -279,10 +299,12 @@ public class DispatchSouthernParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CODE"))  return new MyCodeField();
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("ID")) return new IdField("\\d\\d-?\\d{5,8}", true);
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("INFO2")) return new MyInfo2Field();
+    if (name.equals("ID2")) return new IdField("\\d{6}-\\d{4}");
     return super.getField(name);
   }
 }
