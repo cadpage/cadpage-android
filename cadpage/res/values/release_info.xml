@@ -1,46 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12202012</string>
-  <string name="release_version">v1.5.73</string>
+  <string name="release_date">12272012</string>
+  <string name="release_version">v1.5.76</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Isabella County, MI\n
-Clinton County, PA\n
+El Paso County, CO (alt)\n
+Oak Ridge, TN\n
+Mason County, WA\n
 \n      
 Location Parsing Fixes:\n
-Baldwin County, AL\n
-Shelby County, AL\n
-Santa Cruz County, CA\n
-Adams County, CO\n
 Jefferson County, CO\n
-Windham County, CT\n
-DuPage County, IL\n
-VanderBurgh County, IN\n
-Franklin County, OH\n
-Baltimore County, MD\n
-Carroll County, MD\n
-Montgomery County, MD\n
-Talbot County, MD\n
-Greene County, MO\n
+Sussex County, DE\n
+Hamilton County, IN\n
+Kosciusko County, IN\n
+Polk County, IN\n
 Burlington County, NJ\n
-Monmouth County, NJ\n
-Nassau County, NY\n
-St Lawrence County, NY\n
-Carteret County, NC\n
-Duplin County, NC\n
-Linn County, OR\n
-Bucks County, PA\n
-Washington County, RI\n
-Lincoln County, SD\n
-Bexar County, TX\n
-Cypress-Harris, TX\n
-Harris County NWEMS, TX\n
-New South Wales, AU\n
-\n
-General Fixes:\n
-Fixed crash processing an empty page\n
+Gloucester County, NJ\n
+Oneida County, NY\n
+Orange County, NY\n
+Person County, NC\n
+Hamilton County, OH\n
+Westmoreland County, PA\n
+Loudon County, TN\n
+Roanoke County, VA\n
+King County, WA\n
+Mineral County, WV\n
   </string>  
 </resources>
   
