@@ -35,8 +35,8 @@ public class DispatchVisionAirParser extends FieldProgramParser {
       }
     }
     if (!found) return false;
-    if (body.endsWith("*")) body = body.substring(0,body.length()-1).trim();
-    return parseFields(DELIM.split(body), 12, data);
+    if (body.endsWith("*")) body = body + " ";
+    return parseFields(DELIM.split(body), data);
   }
   
   private class BaseAddressField extends AddressField {
@@ -89,6 +89,7 @@ public class DispatchVisionAirParser extends FieldProgramParser {
       field = field.substring(match.end()).trim();
       
       for (String fld1 : EXTRA_MARKER.split(field)) {
+        String connect = "\n";
         for (String fld2 : EXTRA_DELIM.split(fld1)) {
           fld2 = fld2.trim();
           if (fld2.length() == 0) continue;
@@ -126,7 +127,10 @@ public class DispatchVisionAirParser extends FieldProgramParser {
             if (saveCross.length() > 0) data.strCross = saveCross;
           }
           
-          data.strSupp = append(data.strSupp, " / ", fld2);
+          if (fld2.length() > 0 && !fld2.equals(":") && !data.strSupp.contains(fld2)) {
+            data.strSupp = append(data.strSupp, connect, fld2);
+            connect = " / ";
+          }
         }
       }
       return true;
@@ -134,7 +138,8 @@ public class DispatchVisionAirParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
-      if (!checkParse(field, data)) abort();
+      if (checkParse(field, data)) return;
+      data.strSupp = append(data.strSupp, "\n", field);
     }
     
     @Override
