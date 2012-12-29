@@ -34,15 +34,24 @@ public class COGoldenParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       String[] parts = field.split(",");
-      if (parts.length < 2 && parts.length > 3) abort();
-      if (parts.length == 3) data.strPlace = parts[0].trim();
-      parseAddress(parts[parts.length-2].trim(), data);
-      data.strCity = parts[parts.length-1].trim();
+      if (parts.length > 3) abort();
+      int ndx = 0;
+      if (parts.length == 3) data.strPlace = parts[ndx++].trim();
+      parseAddress(parts[ndx++].trim(), data);
+      if (ndx < parts.length) data.strCity = parts[ndx].trim();
     }
     
     @Override
     public String getFieldNames() {
       return "PLACE ADDR APT CITY";
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("/")) return;
+      super.parse(field, data);
     }
   }
   
@@ -57,6 +66,7 @@ public class COGoldenParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("MAP")) return new MyMapField();
     return super.getField(name);
   }
