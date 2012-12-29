@@ -81,6 +81,7 @@ Fraqre: rcg@rcg911.vasb
 [PUSQ:223      ] Puz,PUSQ1,JVYQP,ERUNO~Fzbxr Vairfgvtngvba      ~1100 Xnpuvan Qe           #     ~                    ~PUSQ218582
 [SNY SQ:SNY Q1   ] SNY1,OSSQ,ERUNO2,JVYQP~Fzbxr Vairfgvtngvba      ~Whqtr Bee Eq / R Ujl 24   #     ~                    ~SNY218556
 [PNY SQ:597-2  ] PNY,FVZ,GEP,JVYQP~Bhgfvqr Sver             ~36350 Shax Eq             #     ~                    ~PNY218491
+[NSN: NSN Q4 ] NSN44,2113,2152,JVYQP~Iruvpyr Sver             ~V 25 / Vagredhrfg Cxjl    #     ~ZZ153 V-25          ~NSN218835\e\a
 
  */
 
@@ -474,6 +475,16 @@ choyvp pynff PBRyCnfbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Bhgfvqr Sver",
         "NQQE:36350 Shax Eq",
         "VQ:PNY218491");
+
+    qbGrfg("G1",
+        "[NSN: NSN Q4 ] NSN44,2113,2152,JVYQP~Iruvpyr Sver             ~V 25 / Vagredhrfg Cxjl    #     ~ZZ153 V-25          ~NSN218835\e\a",
+        "FEP:NSN",
+        "ZNC:NSN Q4",
+        "HAVG:NSN44,2113,2152,JVYQP",
+        "PNYY:Iruvpyr Sver",
+        "NQQE:V 25 & Vagredhrfg Cxjl",
+        "CYNPR:ZZ153 V-25",
+        "VQ:NSN218835");
 
   }
   
