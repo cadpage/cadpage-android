@@ -8568,11 +8568,11 @@ FRM:FRES CAD\nMSG:TYPE: FALLS LOC: 231 N TITMUS DR MASTIC   CROSS: PONCHO DR / S
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-**********************************************************
 Rock Island County, IL (FIX, swapped fields)
 Contact: Darin Keith <darin.keith@hotmail.com>
 Sender: CAD@ricoetsb.org
 S: M:91:FYI: ;3130 9TH ST;STRUCTURE FIRE/GENERAL;RI 
+S: M:90:Update: ;2626 RODMAN AV;STRUCTURE FIRE/GENERAL;RIA 
 **********************************************************
 Gloucester County, NJ (fix)
 Contact: "rich2118@comcast.net" <rich2118@comcast.net>
@@ -8593,6 +8593,16 @@ device - F1
  CO ALARM SOUNDING WILL BE WAITING OUTSIDE Update reviewed by dispatcher-  
 FD 9-2 is station code
 B STOP ends all pages
+**********************************************************
+Yavapai County, AZ
+Contact: "Joel Rosenberg Northern AZ. Garage Doors" <nazgaragedoors@gmail.com>
+Sender: @sedonafire.org
+CT:EMS E UNC PERSON 2714 S PIPE CREEK DR CTWD BOX:3030 DUE:C314
+CT:EMS E UNC PERSON 2714 S PIPE CREEK DR CTWD BOX:3030 DUE:E411 A-VVFD
+CT:EMS UNC PERSON 2714 S PIPE CREEK DR CTWD BOX:3030 DUE:CH7RA E311 A311
+CT:EMS E 1295 E HOMBRE DR CTWD BOX:3060 DUE:C314
+CT:EMS E 1295 E HOMBRE DR CTWD BOX:3060 DUE:E411 A-VVFD TIPS N-VVDC
+CT:EMS 1295 E HOMBRE DR CTWD BOX:3060 DUE:CH7RA E311 A311
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
@@ -9115,3 +9125,4 @@ Dispatch\n01:48\nRESPIRATORY DIFFICULTY - ALS *\n370 E CHESTNUT ST ,16  btwn N T
 * EOF
 **********************************************************
 **********************************************************
+

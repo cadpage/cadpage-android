@@ -543,7 +543,7 @@ Good luck,
 
 Very occasionally, people having trouble with registering with Active911.  There are a couple things you can try, usually something works.
 
-Go to the home screen and select Home > Settings > Accounts and Sync
+Go to the home screen and select Menu > Settings > Accounts and Sync
 and make sure Background Data and Auto-Sync settings are enabled.  While you are here, press the Google account setting and Sync Now.
 
 Restart the device and try again
