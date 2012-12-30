@@ -13,11 +13,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class NYOnondagaCountyAParser extends FieldProgramParser {
 
-  private static final Pattern MARKER = Pattern.compile("^(?:I/)?CAD MSG ([A-Z]+) +(\\d\\d:\\d\\d:\\d\\d) +");
+  private static final Pattern MARKER = Pattern.compile("^(?:(?:(?:I/)?CAD MSG )?([A-Z]+) +)?(\\d\\d:\\d\\d:\\d\\d) +");
+  
+  private static final Pattern CITY_EXP_PTN = Pattern.compile("\\b(TMA),[A-Z]\\b");
 
   public NYOnondagaCountyAParser() {
     super(CITY_CODES, "ONONDAGA COUNTY", "NY",
-           "ADDR/SXP! XTS:X! P:PRI! Lev:SKIP X:INFO Disp:UNIT%");
+           "ADDR/SXP! XTS:X! P:PRI Lev:SKIP X:INFO Disp:UNIT%");
   }
   
   @Override
@@ -36,12 +38,13 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
     // Make sure pages starts with initial marker
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
-    data.strSource = match.group(1);
+    data.strSource = getOptGroup(match.group(1));
     data.strTime = match.group(2);
     body = body.substring(match.end());
     
     // Drop line breaks and duplicate blanks
     body = body.replace('\n', ' ').replaceAll("  +", " ");
+    body = CITY_EXP_PTN.matcher(body).replaceAll("$1");
     return super.parseMsg(body, data);
   }
   
@@ -111,12 +114,16 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "OTOW","OWASCO",
-      "TMR", "MARCELLUS",
-      "TPO", "POMPEY",
-      "TSL", "SALINA",
-      "TSK", "SKANEATELES",
-      "VSK", "SKANEATELES"
+      "OTOW",  "OWASCO",
+      "TMA",   "MANLIUS",
+      "TMR",   "MARCELLUS",
+      "TPO",   "POMPEY",
+      "TSL",   "SALINA",
+      "TSK",   "SKANEATELES",
+      "VFY",   "FAYETTEVILLE",
+      "VSK",   "SKANEATELES",
+      
+      "OVCH MAD", "MADISON COUNTY"
   });
   
 }
