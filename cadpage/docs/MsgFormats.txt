@@ -8554,13 +8554,25 @@ Sender: CAD@kcgov.local
 CAD:FYI: ;US 30/CEDAR RD;BOUR;MEDICAL CALL;11/16/2012 07:10:17
 CAD:FYI: ;DIFFICULTY BREATHING;1 ELKHART CO MILFORD;358 N MAIN ST;MILF
 **********************************************************
+Snohomish, WA
+Contact: Jeff Torgerson <torgie17@gmail.com>
+Sender: 6245
+** DISP **UPGRADED MEDIC (ALS) RESPONSE !8512 163 AV NE ,GRF !AM2022 !TG/T05 !358E-5!A86 A87 AMFULL E87 M81 PGEND !,MALE, UNCON, NBR . DOING CPR
 **********************************************************
+Suffolk County, NY (broken)
+Contact: Raymond Larsen <raymond.radar@gmail.com>
+Sender: Random
+FRM:FRES CAD\nMSG:TYPE: FALLS LOC: 231 N TITMUS DR MASTIC   CROSS: PONCHO DR / SWEETBRIAR\nDR CODE: 17-D-3 TIME: 09:54:13
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
 **********************************************************
+Rock Island County, IL (FIX, swapped fields)
+Contact: Darin Keith <darin.keith@hotmail.com>
+Sender: CAD@ricoetsb.org
+S: M:91:FYI: ;3130 9TH ST;STRUCTURE FIRE/GENERAL;RI 
 **********************************************************
 Gloucester County, NJ (fix)
 Contact: "rich2118@comcast.net" <rich2118@comcast.net>

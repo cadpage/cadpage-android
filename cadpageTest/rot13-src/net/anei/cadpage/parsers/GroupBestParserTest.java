@@ -5,12 +5,26 @@ vzcbeg arg.narv.pnqcntr.cnefref.PB.PBNqnzfPbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBObhyqrePbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBJryqPbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBAbegutyraaRZFCnefre;
+vzcbeg arg.narv.pnqcntr.cnefref.AW.AWZreprePbhaglCnefre;
+vzcbeg arg.narv.pnqcntr.cnefref.trareny.TrarenyCnefre;
 
 vzcbeg bet.whavg.Grfg;
 vzcbeg fgngvp bet.whavg.Nffreg.*;
 
 
 choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
+  
+  @Grfg
+  choyvp ibvq grfgTrarenyNyreg() {
+    frgCnefre(arj TebhcOrfgCnefre(arj TrarenyCnefre(), arj AWZreprePbhaglCnefre()), "", "");
+    frgRkcYbpPbqr("AWZreprePbhagl");
+    frgQrsnhygf("ZREPRE PBHAGL", "AW");
+    qbGrfg("G1",
+        "HAVG: YF6 ; YNGR GHEA-NEBHAQ ;CYRNFR PNYY YVSRPBZZ JVGU LBHE FGNGHF ; (#1\e\a",
+        "HAVG:YF6",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:YNGR GHEA-NEBHAQ ;CYRNFR PNYY YVSRPBZZ JVGU LBHE FGNGHF ; (#1");
+  }
   
   @Grfg
   choyvp ibvq grfgErnyCnefre() {

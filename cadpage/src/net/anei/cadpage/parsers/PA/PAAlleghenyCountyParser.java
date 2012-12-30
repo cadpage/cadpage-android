@@ -1,23 +1,23 @@
 package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * Allegheny County, PA
  */
-public class PAAlleghenyCountyParser extends MsgParser {
+public class PAAlleghenyCountyParser extends FieldProgramParser {
   
   private static final String MARKER = "ALLEGHENY COUNTY 911 :";
-  
-  // Run ID consists of one or two 6+ digit numbers
-  private static final Pattern BOX_PTN = Pattern.compile("E?\\d{5,}(?: +E?\\d{5,})*");
+  private static final Pattern TRAILER_PTN = Pattern.compile(" - From \\d+ (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)$");
   
   public PAAlleghenyCountyParser() {
-    super("ALLEGHENY COUNTY", "PA");
+    super(CITY_CODES, "ALLEGHENY COUNTY", "PA",
+           "CODE PRI CALL ADDR CITY ( AT CITY | ) XINFO+? SRC BOX! ID? INFO+ Units:UNIT UNIT+");
   }
 
   @Override
@@ -40,96 +40,125 @@ public class PAAlleghenyCountyParser extends MsgParser {
       return false;
     } while (false);
     
+    // Drop anything beyond a line break
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    
     // Remove trailing stuff that we aren't interested in
-    data.expectMore = true;
-    int pt = body.indexOf(" - From");
-    if (pt >= 0) {
-      data.expectMore = false;
-      body = body.substring(0, pt).trim();
+    Matcher match = TRAILER_PTN.matcher(body);
+    if (match.find()) {
+      data.strDate = match.group(1);
+      data.strTime = match.group(2);
+      body = body.substring(0,match.start()).trim();
     }
     
-    // Split body into comma separated fields
-    String[] flds = body.split(" *, *");
-    int fldCnt = flds.length;
-    if (fldCnt < 6) return false;
-    
-    // Fields 0 is code
-    // Field 1 is priority
-    // Field 2 is call description
-    data.strCode = flds[0];
-    data.strPriority = flds[1];
-    data.strCall = flds[2];
-    
-    // Field 3 is up for grabs
-    // Field 4 should be a 3 character town code
-    String cityCode = flds[4];
-    if (cityCode.length() != 3) return false;
-    data.strCity = convertCodes(cityCode, CITY_CODES);
-    
-    // If field 5 starts with "at" then it contains the address and
-    // field 3 contains the place name.  Field 6 probably duplicates
-    // the city code and should be skipped
-    int ndx = 5;
-    if (flds[ndx].startsWith("at ")) {
-    		parseAddress(flds[ndx].substring(3).trim(), data);
-    		data.strPlace = flds[3];
-    		ndx++;
-    		if (ndx < fldCnt && flds[ndx].equals(cityCode)) ndx++;
-    } 
-    
-    // Otherwise field 3 contains the address
+    // If it isn't there or is truncated, remove what we 
+    // do find and set the possibly incomplete data flag
     else {
-      parseAddress(flds[3], data);
+      data.expectMore = true;
+      pt = body.indexOf(" - From");
+      if (pt >= 0) body = body.substring(0, pt).trim();
     }
     
-    // Start looking for a run ID.
-    // Once we find it, the field in front of it is the source, anything before
-    // that goes into supplemental info
-    String source = null;
-    while (ndx < fldCnt) {
-      String fld = flds[ndx++];
-      
-      // Except for fields that start with btwn which become cross strees
-      if (fld.startsWith("btwn ")) {
-        data.strCross = fld.substring(5).trim();
-        continue;
-      }
-      if (BOX_PTN.matcher(fld).matches()) {
-        if (source != null) data.strSource = append(data.strSource, " ", source);
-        source = null;
-        data.strBox = append(data.strBox, " ", fld);
-        break;
-      }
-      if (source != null) {
-        if (data.strSupp.length() > 0) data.strSupp += " / ";
-        data.strSupp += source;
-      }
-      
-      source = fld;
-    }
-    if (source != null) {
-      if (data.strSupp.length() > 0) data.strSupp += " / ";
-      data.strSupp += source;
-    }
-    
-    // Now anything from here until we find a Unit: tag going into 
-    // supp info
-    if (ndx >= fldCnt) return true;
-    while (!flds[ndx].startsWith("Units:")) {
-      if (!flds[ndx].startsWith("Medical ProQA")) {
-        data.strSupp = append(data.strSupp, " / ", flds[ndx]);
-      }
-      if (++ndx >= fldCnt) return true;
-    }
-    
-    // Anything from the Unit tag on goes into units
-    data.strUnit = append(data.strUnit, " ", flds[ndx].substring(6).trim());
-    while (++ndx < fldCnt) {
-      data.strUnit = append(data.strUnit, " ", flds[ndx]);
-    }
-    
-    return true;
+    body = body.replace(" Unit:", " Units:");
+    return parseFields(body.split(","), 7, data);
   }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " DATE TIME";
+  }
+  
+  // Stock address field is fine, but we want test generator to know
+  // that this might be a place field
+  private class MyAddressField extends AddressField {
+    @Override
+    public String getFieldNames() {
+      return "PLACE " + super.getFieldNames();
+    }
+  }
+  
+
+  // City field must always be exactly 3 characters long
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() != 3) abort();
+      super.parse(field, data);
+    }
+  }
+  
+  // AT field is option and hold the real address
+  // if present, the previous address turns into a place name
+  private class MyAtField extends AddressField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("at ")) return false;
+      data.strPlace = data.strAddress;
+      data.strAddress = "";
+      super.parse(field.substring(3).trim(), data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+  }
+  
+  private static final Pattern PHONE_PTN = Pattern.compile("\\d{10}");
+  private class MyCrossInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("btwn ")) {
+        data.strCross = field.substring(5).trim();
+      } else if (PHONE_PTN.matcher(field).matches()) {
+        data.strPhone = field;
+      } else {
+        super.parse(field, data);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO X PHONE";
+    }
+  }
+  
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("Medical ProQA")) return;
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, " ", field);
+    }
+  }
+
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("AT")) return new MyAtField();
+    if (name.equals("XINFO")) return new MyCrossInfoField();
+    if (name.equals("BOX")) return new BoxField("E?\\d{5,}(?: +E?\\d{5,})*", true);
+    if (name.equals("ID")) return new IdField("F\\d{9}", true);
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("UNIT")) return new MyUnitField();
+    return super.getField(name);
+  }
+  
+
+
   
   private static Properties CITY_CODES = buildCodeTable(new String[]{
       "ALE", "ALEPPO",

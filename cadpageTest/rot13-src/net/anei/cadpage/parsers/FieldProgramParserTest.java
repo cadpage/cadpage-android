@@ -24,25 +24,6 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgNalBeqre() {
-    qbSvryqGrfg("NalBeqre svryqf", "PNYY:PNYY NQQERFF:NQQE PEBFF:K HAVG:HAVG", 
-        SvryqCebtenzCnefre.SYQCEBT_NAL_BEQRE | SvryqCebtenzCnefre.SYQCEBT_VTABER_PNFR,
-        "Pebff:PEBFF FG;Nqqerff:5 OYNPX FG;Pnyy:ONQ ARJF;Havg:K15",
-        "K:PEBFF FG",
-        "NQQE:5 OYNPX FG",
-        "PNYY:ONQ ARJF",
-        "HAVG:K15");
-    
-    qbSvryqSnvy("NalBeqre svryqf", "PNYY:PNYY NQQERFF:NQQE PEBFF:K HAVG:HAVG", 
-        SvryqCebtenzCnefre.SYQCEBT_NAL_BEQRE | SvryqCebtenzCnefre.SYQCEBT_VTABER_PNFR,
-        "Pebff:PEBFF FG;Nqqerff:5 OYNPX FG;Pnyy:ONQ ARJF;Havg:K15;ONQ SVRYQ");
-    
-    qbSvryqSnvy("NalBeqre svryqf", "PNYY:PNYY NQQERFF:NQQE PEBFF:K HAVG:HAVG", 
-        SvryqCebtenzCnefre.SYQCEBT_NAL_BEQRE | SvryqCebtenzCnefre.SYQCEBT_VTABER_PNFR,
-        "Pebff:PEBFF FG;Nqqerff:5 OYNPX FG;Pnyy:ONQ ARJF;Havg:K15;ONQ:ONQ SVRYQ");
-  }
-  
-  @Grfg
   choyvp ibvq grfgceboyrzf() {
     
     qbSvryqGrfg("G1", "GLCR:PNYY HAGF:HAVG KFG:K HAGF:HAVG",
@@ -438,7 +419,22 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:VASB",
         "NCG:20",
         "HAVG:NNN");
-        
+    
+    qbSvryqGrfg("oenapu-pbaq-ercrng",
+        "( VQ CYNPR | ) VASB+? FEP PVGL!",
+        "999;WBRF ONE;KKK;XRA GBJA",
+        "VQ:999",
+        "CYNPR:WBRF ONE",
+        "FEP:KKK",
+        "PVGL:XRA GBJA");
+    
+    qbSvryqGrfg("oenapu-pbaq-ercrng",
+        "( VQ CYNPR | ) VASB+? FEP PVGL!",
+        "WBRF ONE;KKK;XRA GBJA",
+        "VASB:WBRF ONE",
+        "FEP:KKK",
+        "PVGL:XRA GBJA");
+       
   }
   
   @Grfg
@@ -604,6 +600,25 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:PBQR");
   }
   
+  @Grfg
+  choyvp ibvq grfgNalBeqre() {
+    qbSvryqGrfg("NalBeqre svryqf", "PNYY:PNYY NQQERFF:NQQE PEBFF:K HAVG:HAVG", 
+        SvryqCebtenzCnefre.SYQCEBT_NAL_BEQRE | SvryqCebtenzCnefre.SYQCEBT_VTABER_PNFR,
+        "Pebff:PEBFF FG;Nqqerff:5 OYNPX FG;Pnyy:ONQ ARJF;Havg:K15",
+        "K:PEBFF FG",
+        "NQQE:5 OYNPX FG",
+        "PNYY:ONQ ARJF",
+        "HAVG:K15");
+    
+    qbSvryqSnvy("NalBeqre svryqf", "PNYY:PNYY NQQERFF:NQQE PEBFF:K HAVG:HAVG", 
+        SvryqCebtenzCnefre.SYQCEBT_NAL_BEQRE | SvryqCebtenzCnefre.SYQCEBT_VTABER_PNFR,
+        "Pebff:PEBFF FG;Nqqerff:5 OYNPX FG;Pnyy:ONQ ARJF;Havg:K15;ONQ SVRYQ");
+    
+    qbSvryqSnvy("NalBeqre svryqf", "PNYY:PNYY NQQERFF:NQQE PEBFF:K HAVG:HAVG", 
+        SvryqCebtenzCnefre.SYQCEBT_NAL_BEQRE | SvryqCebtenzCnefre.SYQCEBT_VTABER_PNFR,
+        "Pebff:PEBFF FG;Nqqerff:5 OYNPX FG;Pnyy:ONQ ARJF;Havg:K15;ONQ:ONQ SVRYQ");
+  }
+ 
   @Bireevqr
   choyvp ibvq grfgOnqZft() {
     cnefre.frgCebtenz("FXVC NQQE!", 0);

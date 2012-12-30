@@ -1033,7 +1033,8 @@ public class FieldProgramParser extends SmartAddressParser {
      */
     public Step split() {
       Step step = cloneStep();
-      step.succLink.setLink(succLink.getStep(), -1);
+      succLink.setLink(succLink.getStep(), -1);
+      step.succLink = succLink;
       succLink = new StepLink(0);
       return step;
     }
