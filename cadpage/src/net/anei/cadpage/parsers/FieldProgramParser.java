@@ -1864,6 +1864,56 @@ public class FieldProgramParser extends SmartAddressParser {
       data.strApt = append(data.strApt, "-", field);
     }
   }
+  
+  /**
+   * Special Apartment field processor
+   */
+  public class Apt2Field extends AptField {
+    
+    private int lengthLimit;
+    
+    public Apt2Field() {
+      this(-1);
+    }
+    
+    public Apt2Field(int lengthLimit) {
+      this.lengthLimit = lengthLimit;
+    }
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = APT2_PTN.matcher(field);
+      if (!match.matches()) {
+        if (lengthLimit < 0 || field.length() > lengthLimit) return false;
+      } else {
+        String tmp = match.group(1);
+        if (tmp != null) field = tmp;
+      }
+      super.parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = APT2_PTN.matcher(field);
+      if (match.matches()) {
+        String tmp = match.group(1);
+        if (tmp != null) field = null;
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "APT";
+    }
+  }
+  private static final Pattern APT2_PTN = Pattern.compile("(?:APT|RM|ROOM|SUITE) *(.*)|(?:BLDG?|LOT).*");
 
   /**
    * Cross street field processor
@@ -2539,6 +2589,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("ZIP")) return new ZipField();
     if (name.equals("ADDRCITY")) return new AddressCityField();
     if (name.equals("APT")) return new AptField();
+    if (name.equals("APT2")) return new Apt2Field();
     if (name.equals("X")) return new CrossField();
     if (name.equals("BOX")) return new BoxField();
     if (name.equals("UNIT")) return new UnitField();

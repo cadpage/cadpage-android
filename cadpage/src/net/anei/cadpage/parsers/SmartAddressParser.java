@@ -273,7 +273,9 @@ public abstract class SmartAddressParser extends MsgParser {
         "TERRACE", "TRC", "TRCE",
         "ESTATES", "ESTS",
         "WALK",
-        "CUTOFF");
+        "CUTOFF",
+        "RCH", "REACH",
+        "ARCH");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
     setupDictionary(ID_AMBIG_ROAD_SFX, 
