@@ -4941,26 +4941,20 @@ Time: 11:52
 Units:  Common Name
 *******************************************************************************
 Love County, OK (OKLoveCountyParser)
-(NEWOCC #OUTS  ANML - Animal Complaint) NEWOCC #OUTS  ANML - Animal Complaint\nAddress: 602 S 4TH AVE, MARIETTA\nReporting
-Person: TIME GILLEY,
-Phone: 812-2050\nDetail: BLK AND TAN DOG RUNNING LOOSE IN THIER YARD THEY HAVE IT CAUGHT ON FRONT PORCH\n(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\nAddress: V  alero - MARIETTA\nINCIDENT IN PROGRESS\nReporting
-Person: ,
-Phone: \nDetail: TC- BF1K295\n(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\nAddress: Hwy 77/ Mill, MARIETTA\nINCIDENT IN PROGRESS\nReporting
-Person: ,
-Phone: \nDetail: 518GSD\n*******************************************************************************
+(NEWOCC #OUTS  ANML - Animal Complaint) NEWOCC #OUTS  ANML - Animal Complaint\r\nAddress: 602 S 4TH AVE, MARIETTA\r\nReporting Person: TIME GILLEY, Phone: 812-2050\r\nDetail: BLK AND TAN DOG RUNNING LOOSE IN THIER YARD THEY HAVE IT CAUGHT ON FRONT PORCH\r\n
+(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\r\nAddress: V  alero - MARIETTA\r\nINCIDENT IN PROGRESS\r\nReporting Person: , Phone: \r\nDetail: TC- BF1K295\r\n
+(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\r\nAddress: Hwy 77/ Mill, MARIETTA\r\nINCIDENT IN PROGRESS\r\nReporting Person: , Phone: \r\nDetail: 518GSD\r\n
+*******************************************************************************
+Pontonoc County, OK (OKPontonocCountyParser)
+(DispatchAlert) MEDICAL CALL \n231 W MAIN
+(DispatchAlert) ALARM/FIRE \n200 S BROADWAY
+(DispatchAlert) SMOKE INVESTIGATION \n1921 STONECIPHER BLVD
+(DispatchAlert) CONTROLLED BURN \n11136 CR 3560
+*******************************************************************************
 Seminole County, OK (OKSeminoleCountyParser)
-(Alarm - SPD - FIELD WORK) FIELD WORK - OTHER, SPD,
-Loc:900 HARVEY RD
-Rcvd: 13:0:51 SPD20120005584
-Comments: 7/2/2012 1:00:41 PM TEST 
-(Alarm - SPD - FIELD WORK) FIELD WORK - OTHER, SPD,
-Loc:2215 WRANGLER BLVD
-Rcvd: 13:5:19 SPD20120005585
-Comments:  
-(Alarm - SPD - FIELD WORK) FIELD WORK - OTHER, SPD,
-Loc:35687 EW1210 RD
-Rcvd: 13:16:45 SPD20120005586
-Comments:  
+(Alarm - SPD - FIELD WORK) FIELD WORK - OTHER, SPD, Loc:900 HARVEY RD Rcvd: 13:0:51 SPD20120005584 Comments: 7/2/2012 1:00:41 PM TEST 
+(Alarm - SPD - FIELD WORK) FIELD WORK - OTHER, SPD, Loc:2215 WRANGLER BLVD Rcvd: 13:5:19 SPD20120005585 Comments:  
+(Alarm - SPD - FIELD WORK) FIELD WORK - OTHER, SPD, Loc:35687 EW1210 RD Rcvd: 13:16:45 SPD20120005586 Comments:  
 *******************************************************************************
 Tulusa, OK (OKTulsaParser)
 09:11PM Tue 05/10/2011 2200 N HWY167NB EXPY; UNK WHAT IS ON FIRE CS7 ENR PUBLIC SAFETY COMMUNICATIONS
@@ -9125,4 +9119,3 @@ Dispatch\n01:48\nRESPIRATORY DIFFICULTY - ALS *\n370 E CHESTNUT ST ,16  btwn N T
 * EOF
 **********************************************************
 **********************************************************
-

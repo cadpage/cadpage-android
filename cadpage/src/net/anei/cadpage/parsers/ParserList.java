@@ -540,6 +540,7 @@ public class ParserList {
           ),
           new ParserCategory("Oklahoma"
               ,"OKLoveCounty"                   ,"Love County, OK"
+              ,"OKPontotocCounty"               ,"Pontotoc County, OK"
               ,"OKPottawatomieCounty"           ,"Pottawatomie County, OK"
               ,"OKSeminoleCounty"               ,"Seminole County, OK"
               ,"OKTulsa"                        ,"Tusla, OK"
