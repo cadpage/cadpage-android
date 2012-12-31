@@ -25,7 +25,7 @@ public class NCPersonCountyParser extends DispatchSouthernParser {
   };
 
   public NCPersonCountyParser() {
-    super(CITY_LIST, "PERSON COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_ID_OPTIONAL);
+    super(CITY_LIST, "PERSON COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_ID_OPTIONAL |  DSFLAG_FOLLOW_CROSS);
   }
 
 }

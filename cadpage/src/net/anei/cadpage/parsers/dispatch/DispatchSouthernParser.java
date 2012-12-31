@@ -34,6 +34,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
   // name & phone
   public static final int DSFLAG_CROSS_NAME_PHONE = 0x40;
   
+  // Flag indicating there is no name and phone following the address
+  public static final int DSFLAG_NO_NAME_PHONE = 0x80;
+  
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
   private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) (\\d\\d:\\d\\d:\\d\\d)\\b");
   private static final Pattern OPT_ID_TIME_PTN = Pattern.compile(" (?:(\\d{2,4}-?\\d{4,8}) )?(\\d\\d:\\d\\d:\\d\\d)(?: |$)");
@@ -48,6 +51,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean inclPlace;
   private boolean inclCross;
   private boolean inclCrossNamePhone;
+  private boolean noNamePhone;
   private CodeSet callSet;
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {
@@ -59,16 +63,31 @@ public class DispatchSouthernParser extends FieldProgramParser {
   }
   
   public DispatchSouthernParser(CodeSet callSet, String[] cityList, String defCity, String defState, int flags) {
-    super(cityList, defCity, defState,
-          "ADDR/S"+((flags & DSFLAG_LEAD_PLACE) != 0 ? "P" : "") +" X? CODE? ID? TIME INFO! INFO2 OCA:ID2");
+    super(cityList, defCity, defState, "");
     this.callSet = callSet;
     this.leadDispatch = (flags & DSFLAG_DISPATCH_ID) != 0;
     this.optDispatch = (flags & DSFLAG_OPT_DISPATCH_ID) != 0;
     this.unitId = (flags & DSFLAG_UNIT) != 0;
-    this.idTimePattern = (flags & DSFLAG_ID_OPTIONAL) != 0 ? OPT_ID_TIME_PTN : ID_TIME_PTN;
+    boolean idOptional = (flags & DSFLAG_ID_OPTIONAL) != 0;
+    this.idTimePattern =  idOptional ? OPT_ID_TIME_PTN : ID_TIME_PTN;
     this.inclPlace = (flags &  DSFLAG_LEAD_PLACE) != 0;
     this.inclCross = (flags & DSFLAG_FOLLOW_CROSS) != 0;
     this.inclCrossNamePhone = (flags & DSFLAG_CROSS_NAME_PHONE) != 0;
+    this.noNamePhone = (flags & DSFLAG_NO_NAME_PHONE) != 0;
+    
+    // Program string needs to be built at run time
+    StringBuilder sb = new StringBuilder();
+    sb.append("ADDR/S");
+    if (inclPlace) sb.append('P');
+    if (inclCross || inclCrossNamePhone) sb.append(" X?");
+    if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE");
+    sb.append(" CODE?");
+    sb.append(" ID");
+    if (idOptional) sb.append('?');
+    sb.append(" TIME");
+    sb.append(" INFO! INFO2 OCA:ID2");
+    String program = sb.toString();
+    setProgram(program, 0);
   }
 
   
@@ -119,7 +138,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (data.strCode.length() == 0) data.strCode = p.getLastOptional(" LDL ");
     sAddr = p.get();
     StartType st = (inclPlace ? StartType.START_PLACE : StartType.START_ADDR);
-    int flags = (inclCross || inclCrossNamePhone ? FLAG_CROSS_FOLLOWS : 0);
+    int flags = 0;
+    if (inclCross || inclCrossNamePhone) flags |= FLAG_CROSS_FOLLOWS;
+    if (noNamePhone && inclPlace) flags |= FLAG_ANCHOR_END;
     parseAddress(st, flags, sAddr, data);
     String sLeft = getLeft();
     
@@ -253,6 +274,13 @@ public class DispatchSouthernParser extends FieldProgramParser {
     }
   }
   
+  private class MyNameField extends NameField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strName = append(data.strName, ", ", field);
+    }
+  }
+  
   private class MyCodeField extends CodeField {
     @Override
     public boolean canFail() {
@@ -301,6 +329,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (name.equals("CODE"))  return new MyCodeField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("ID")) return new IdField("\\d\\d-?\\d{5,8}", true);
+    if (name.equals("NAME")) return new MyNameField();
+    if (name.equals("PHONE")) return new PhoneField("\\d{10}");
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("INFO2")) return new MyInfo2Field();

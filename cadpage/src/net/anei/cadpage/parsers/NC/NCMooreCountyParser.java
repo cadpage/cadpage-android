@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class NCMooreCountyParser extends DispatchSouthernParser {
   
   public NCMooreCountyParser() {
-    super(CITY_LIST, "MOORE COUNTY", "NC", DSFLAG_UNIT);
+    super(CITY_LIST, "MOORE COUNTY", "NC", DSFLAG_NO_NAME_PHONE | DSFLAG_ID_OPTIONAL | DSFLAG_UNIT);
   }
   
   @Override

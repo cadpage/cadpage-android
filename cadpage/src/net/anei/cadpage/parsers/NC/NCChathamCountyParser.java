@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class NCChathamCountyParser extends DispatchSouthernParser {
 
   public NCChathamCountyParser() {
-    super(CITY_LIST, "CHATHAM COUNTY", "NC");
+    super(CITY_LIST, "CHATHAM COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_NO_NAME_PHONE);
     
     
   }

@@ -8,7 +8,7 @@ public class NCBrunswickCountyParser extends DispatchSouthernParser {
   
   
   public NCBrunswickCountyParser() {
-    super(CITY_LIST, "BRUNSWICK COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID | DSFLAG_LEAD_PLACE);
+    super(CITY_LIST, "BRUNSWICK COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID | DSFLAG_LEAD_PLACE | DSFLAG_NO_NAME_PHONE);
   }
   
   @Override
