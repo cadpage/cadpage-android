@@ -142,7 +142,7 @@ choyvp pynff BXCbagbgbpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G10",
         "(QvfcngpuNyreg) NPPVQRAG/HAXABJA VAWHEL \aFU19 NAQ FU3J",
         "PNYY:NPPVQRAG/HAXABJA VAWHEL",
-        "NQQE:FU19 NAQ FU3J",
+        "NQQE:FU19 NAQ FU3J",  
         "ZNQQE:BX 19 NAQ BX 3J");
 
     qbGrfg("G11",

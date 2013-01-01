@@ -4,13 +4,13 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser;
 
 /**
  * Cy Creek Comm Center
  */
-public class TXCyCreekCommCenterParser extends MsgParser {
+public class TXCyCreekCommCenterParser extends SmartAddressParser {
   
   private static final Pattern MARKER = Pattern.compile("^(\\d\\d/\\d\\d) (?:(\\d\\d:\\d\\d) )?");
   private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");
@@ -67,7 +67,18 @@ public class TXCyCreekCommCenterParser extends MsgParser {
     if (sPlace.length() > 0) data.strPlace = sPlace;
     data.strCall = props.getProperty("Nat", "");
     data.strUnit = props.getProperty("Units", "");
-    data.strCross = props.getProperty("X-St", "");
+    String cross = props.getProperty("X-St", "");
+    if (cross.contains("/") || cross.contains("&")) {
+      data.strCross = cross;
+    } else {
+      Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ONLY_CROSS | FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT, cross);
+      if (res.getStatus() > 0) {
+        res.getData(data);
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_CROSS_FOLLOWS, cross, data);
+        data.strCross = append(data.strCross, " / ", getLeft());
+      }
+    }
     
     if (data.strCity.length() == 0 && data.strCall.contains("MA-MUTUAL AID")) data.strCity = "HOUSTON";
     return true;

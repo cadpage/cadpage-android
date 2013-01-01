@@ -910,8 +910,17 @@ public abstract class SmartAddressParser extends MsgParser {
    * @return index of connector if successful, otherwise -1
    */
   private int startIntersection(int sAddr) {
+    
+    // Find eend of road at specified start point
     int ndx = findRoadEnd(sAddr, 2);
     if (ndx < 0) return -1;
+    
+    // If there was a following direction token, the findRoadEnd() method
+    // won't pick it up if it migth belong to a following cross street.
+    // So we have to check for that here
+    if (isFlagSet(FLAG_CROSS_FOLLOWS) && isType(ndx, ID_DIRECTION)) ndx++;
+    
+    //  Is this followed by a connector?
     if (! isType(ndx, ID_CONNECTOR)) return -1;
     return ndx;
   }
@@ -1019,8 +1028,10 @@ public abstract class SmartAddressParser extends MsgParser {
         
         // increment end pointer past the road terminator
         // If the following token is a direction, increment end pointer past that too
+        // unless we expected a following cross street, in which case the direction should
+        // be considered part of the following cross street
         ndx++;
-        if (isType(ndx, ID_DIRECTION)) ndx++;
+        if (!isFlagSet(FLAG_CROSS_FOLLOWS) && isType(ndx, ID_DIRECTION)) ndx++;
       }
       result.startField.end(atStart ? sAddr-1 : sAddr);
     }
@@ -1624,8 +1635,9 @@ public abstract class SmartAddressParser extends MsgParser {
       
     } while (false);
     
-    // If road is followed by a direction, include that
-    if (isType(end, ID_DIRECTION)) end++;
+    // If road is followed by a direction and that direction can not be part of
+    // a following cross street, include it
+    if (!isFlagSet(FLAG_CROSS_FOLLOWS) && isType(end, ID_DIRECTION)) end++;
     return end;
   }
 

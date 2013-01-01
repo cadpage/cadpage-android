@@ -24,4 +24,9 @@ public class OKPontotocCountyParser extends MsgParser {
     parseAddress(p.get(), data);
     return data.strAddress.length() > 0;
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    return addr.replace("SH3W", "OK 3W");
+  }
 }

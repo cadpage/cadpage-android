@@ -71,7 +71,12 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
       body = body.replace("Snyder Hill", "Snyder-Hill");
       body = body.replace(",", " ,");
       parseAddress(st, flags | FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS, body, data);
-      data.strCross = getPadField();
+      String pad = getPadField();
+      if (pad.length() > 0 && !pad.contains(" ")) {
+        data.strAddress = append(data.strAddress, " ", pad);
+      } else {
+        data.strCross = getPadField();
+      }
       extra = getLeft().replace(" ,", ",");
     }
     
