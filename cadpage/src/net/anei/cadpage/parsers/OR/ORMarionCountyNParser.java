@@ -36,7 +36,16 @@ public class ORMarionCountyNParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("Incident")) return false;
+    do {
+      if (subject.equals("Incident")) break;
+      
+      if (body.startsWith("Incident / ")) {
+        body = body.substring(11).trim();
+        break;
+      }
+      
+      return false;
+    } while (false);
     
     // Time field has to be protected from being broken up by colon field separators
     body = TIME_PTN.matcher(body).replaceAll("$1-$2-$3");
