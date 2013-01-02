@@ -8553,6 +8553,17 @@ Contact: Raymond Larsen <raymond.radar@gmail.com>
 Sender: Random
 FRM:FRES CAD\nMSG:TYPE: FALLS LOC: 231 N TITMUS DR MASTIC   CROSS: PONCHO DR / SWEETBRIAR\nDR CODE: 17-D-3 TIME: 09:54:13
 **********************************************************
+Sweden,
+Contact: ebba.ehrstedt@gmail.com
+
+Interna brandlarm
+Inringt från platsen
+Flerfamiljshus
+östra åsgatan 6, 1
+Nyfors
+D10
+PositionWGS84 : La = 59 grader 22,084'N    Lo = 016 grader 30,468'E
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
@@ -8603,6 +8614,60 @@ Snopac Dispatch???
 ** DISP **BLS RESPONSE !11916 CHAPPEL RD ,ARL !AM2223A!TG/T05 !338F-7!AMDUTY E87 PGEND !,*PFC*FEM BLOODY, HBD,CON,BREATHING VERIFIED
 ** DISP **MEDIC (ALS) RESPONSE !15022 77 ST NE ,LKS !AM2022 !TG/T05 !358C-6!A86 AMDUTY M81 PGEND !,FEM CARDI HX BREATHING DIFF
 ** DISP **FIRE RESIDENTIAL !3925 147 AV NE ,LKS !AG1722 !TG/T06 !378C-4!A81 AGFULL B81 E68 E81 E82 E83 E87 FM81 PGEND STN81 T87 TE49 !,GARAGE ON FIRE
+
+** DISP **FIRE RESIDENTIAL !3925 147 AV NE ,LKS !AG1722 !TG/T06 !378C-4!A81
+AGFULL B81 E68 E81 E82 E83 E87 FM81 PGEND STN81 T87 TE49 !,GARAGE ON FIRE
+Eff Body:** DISP **FIRE RESIDENTIAL !3925 147 AV NE ,LKS !AG1722 !TG/T06
+!378C-4!A81 AGFULL B81 E68 E81 E82 E83 E87 FM81 PGEND STN81 T87 TE49
+!,GARAGE ON FIRE
+***Disp*** don't know why its here
+Fire Residential, is the type code given by dispatch. other type codes
+can be BLS, MED, MVC, MVCM, it can't be more then 6 characters in lengh
+*3925 147 av ne, LKS* is the address. AV is avenue, NE, is northeast. PL:
+place, CT, court ST: street
+AG1722 is the grid page (Snohmish county is broken into grids to make
+mapping easier)
+378C-4: Thomas guide page and grid number
+After that are units being dispatched
+After that is the text that dispatch put in for the call.
+On Tue, Jan 1, 2013 at 1:31 PM, Jeff Torgerson <torgie3916@gmail.com> wrote:
+
+
+Grf, granite falls
+Lks, lake Stevens
+Arl, Arlington
+Sno, Snohomish
+Stw, Stanwood
+Gbr, Gold Bar
+Mck, Mill Creek
+Eve, Everett
+Mar, Marysville
+Dar, Darrington
+Sul, Sultan
+Lyn, Lynnwood
+Idx, Index
+Edm, Edmonds
+Mon, Monroe
+Muk, Mukilteo
+Bot, Bothell
+Mlt, Mountlake Terrace
+Bri, Brier
+**********************************************************
+Town of Hamburg, NY (Erie County) :(
+Contact: Jack Chiappone <jchiappone77@verizon.net>
+Sender: dispatch@townofhamburgny.com
+ 
+EMS: 54 Y/F FELL UNKNOWN INJURIES  COLD RESPONSE  SCRANTON 8 MUTUAL AID TO BIG TREE\n17A03  at 4365 BAYVIEW RD, Hamburg  c/s: POLLY LA   O: COMMUNITY S
+EMS: 66 Years Male Conscious/Breathing\n17A01 Falls-arm injury BLS COLD  in vestibule Bldg H at 4150 SOWLES RD #H, Hamburg  c/s: CLARICE DR   O: IRIS 
+Miscellaneous Alarm, INVESTIGATE ODOR: Odor of plastic burning at 5660 SOUTH PARK AV, Hamburg  c/s: ARTHUR CT   O: BRADFORD PLACE ENTERPRISES . . 19:07
+Working  Fire: Residential fire - house filled with smoke. all residents evacuated.  at 8264 HAYES HOLLOW RD, Colden  c/s: IRISH RD . . 07:49:32
+Working  Fire: ATTACHED GARAGE FIRE\n at AMSDELL RD / DEVONSHIRE DR, Hamburg . . 05:49:49
+Misc Mutual Aid: 63m unable to ambulate cold response needs to go to VA at 25 BUFFALO ST #612, Village of Hamburg  c/s: MAIN ST   O: CREEK BEND HGTS AP
+EMS Auto Accident: PIAA EXIT 57 ENT W BD  at 4418 NEW YORK STATE TW, Hamburg c/s: N CREEK RD (OVERPASS) . . 18:17:32
+EMS: 81m ill weak unable to move 3rd party call bls hot at 5546 SCRANTON RD #York2, Hamburg  c/s: CAMP RD   O: WASHINGTON SQUARE APARTMENTS . . 11:35:4
+Alarm Activation: fire alarm   2nd floor south rooms  at 5285 SOUTH PARK AV, Hamburg  c/s: SOWLES RD   O: COURTYARDS ADULT CARE FACILITY . . 23:34:22
+EMS: 77 Years Female Conscious: allergic reaction not alert paramedic response at 5358 ADAMS ST, Hamburg  c/s: ELLSWORTH AV . . 15:30:52
+Misc Mutual Aid: NA FAST SC6 TO RESPOND at 707 STERLING DR, Orchard Park c/s: WINDWARD RD   O: MENTHOLATUM CO . . 12:10:42
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
