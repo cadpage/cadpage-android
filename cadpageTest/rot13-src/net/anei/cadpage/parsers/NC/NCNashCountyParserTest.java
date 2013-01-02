@@ -30,6 +30,10 @@ Pbagnpg: "dhvagvawrssrevrf76@tznvy.pbz" <dhvagvawrssrevrf76@tznvy.pbz>
 Fraqre: ANFU911@ANFUPBHAGLAP.TBI
 ANFU911:* 220 J JNFUVATGBA FG* * * ANFUIVYYR* * RYRPGEVPNY* * AP8* * 14SQ1* * * * *
 
+Pbagnpg: Tnel <gevtgerznlar@lnubb.pbz>
+Fraqre: 93001025
+ANFU911:* A HF 301* * * ONGGYROBEB* * ZIN CVA-U* * FUC* * 9SQ1,RZF9,FG3* * * * *
+
 */
 
 choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -130,8 +134,19 @@ choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:220 J JNFUVATGBA FG",
         "PVGL:ANFUIVYYR",
         "PNYY:RYRPGEVPNY",
-        "CYNPR:AP8");
-}
+        "CYNPR:AP8",
+        "HAVG:14SQ1");
+
+    qbGrfg("G14",
+        "ANFU911:* A HF 301* * * ONGGYROBEB* * ZIN CVA-U* * FUC* * 9SQ1,RZF9,FG3* * * * *",
+        "NQQE:A HF 301",
+        "ZNQQE:FUC,A HF 301",
+        "PVGL:ONGGYROBEB",
+        "PNYY:ZIN CVA-U",
+        "CYNPR:FUC",
+        "HAVG:9SQ1,RZF9,FG3");
+
+  }
   
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
