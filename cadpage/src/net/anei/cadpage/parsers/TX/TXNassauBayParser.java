@@ -35,6 +35,11 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
   public boolean parseMsg(String body, Data data) {
     
     // Strip off option number prefix
@@ -59,17 +64,20 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   public Field getField(String name) {
     if (name.equals("CANCEL")) return new CallField("CANCEL", true);
     if (name.equals("SRC")) return new SourceField("[A-Z]{4}", true);
-    if (name.equals("UNIT")) return new UnitField("(?:[A-Z]+\\d+|[A-Z]{2}FD|\\d{2,4})(?:,.*)?", true);
+    if (name.equals("UNIT")) return new UnitField("(?:[A-Z]+\\d+|[A-Z]{2}FD|\\d{2,4})(?:,.*)?|SENS", true);
     if (name.equals("CODE")) return new CodeField("[A-Z]{1,3}[A-Z0-9]", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
   @Override
-  public String adjustMapAddress(String sAddress) {
-    return PVT_DR_PTN.matcher(sAddress).replaceAll("");
+  public String adjustMapAddress(String address) {
+    address = PVT_DR_PTN.matcher(address).replaceAll("");
+    address = DASH_ALPH_PTN.matcher(address).replaceAll("");
+    return address;
   }
   private static final Pattern PVT_DR_PTN = Pattern.compile("\\(PVT.*?\\)(?: *(?:DR|RD)\\b)?", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DASH_ALPH_PTN = Pattern.compile("-(?:SH|ST|LA).*$");
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CLEMC", "CLEAR LAKE",
@@ -81,7 +89,10 @@ public class TXNassauBayParser extends DispatchOSSIParser {
       "HC", "",
       "HO", "NASSAU BAY",
       "LC", "LEAGUE CITY",
+      "LP", "LA PORTE",
+      "MP", "MORGANS POINT",
       "NB", "NASSAU BAY",
+      "PA", "PASADENA",
       "SB", "SEABROOK",
       "SO", "",           // Harris County Sherrifs office
       "WB", "WEBSTER"
