@@ -16,8 +16,6 @@ public class SponsorNoExpDonateEvent extends DonateScreenEvent {
   
   public SponsorNoExpDonateEvent() {
     super(AlertStatus.GREEN, R.string.donate_sponsor_noexp_title, R.string.donate_sponsor_noexp_text,
-           AndroidDonateEvent.instance(),
-           PaypalDonateEvent.instance(),
            MagicWordEvent.instance(),
            DonateResetMarketEvent.instance());
   }
