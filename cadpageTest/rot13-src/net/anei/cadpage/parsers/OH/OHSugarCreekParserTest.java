@@ -11,7 +11,6 @@ pbagnpg: Wba Svfure <fgsq26@pyrnejver.arg>
 fraqre: PNQ@fhtneperrxgbjafuvc.pbz <Sebz%3NPNQ@fhtneperrxgbjafuvc.pbz>
 
 "Pg:RZF ZVABE       Ybp:4336 FGNGR EG 725            Ncg:      KFg:ONLOREEL PBIR Q YNXRZNA QE      Tevq:003S Havgf:72                                        Ezx:"
-Jr hfr Pvfpb Choyvp Fnsrgl�f RPNQ cebtenz gb cntr bhg PSF riragf.  PNQ qbrf fraq bhg zhygvcyr cntrf cre rirag � bar sbe gur pnyy naq rnpu erfcbaqvat havg.  Orybj ner fnzcyr grkgf sbe erivrj:
 "Pg:SVER NYNEZ - ER Ybp:4334 XVYYVNA PG              Ncg:      KFg:ORYSNFG QE                      Tevq:0001 Havgf:Z71   O70   C219                          Ezx:"
 "Pg:RZF ZVABE       Ybp:V 675 A/8ZZ                  Ncg:      KFg:JVYZVATGBA CVXR SRRQJVER EQ     Tevq:0045 Havgf:72                                        Ezx:"
 "Pg:GENSSVP NPPVQRA Ybp:SRRQJVER EQ/JVAFUVER GRE     Ncg:      KFg:YVGGYR FHTNEPER YRQTRFGBAR OYIQ Tevq:0002 Havgf:P70   O70   R71   Z72   C228              Ezx:"

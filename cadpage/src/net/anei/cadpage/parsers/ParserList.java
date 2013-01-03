@@ -124,6 +124,7 @@ public class ParserList {
           ),
           new ParserCategory("Arizona"
               ,"AZMaricopaCounty"               ,"Maricopa County, AZ"
+              ,"AZYavapaiCounty"                ,"Yavapai County, AZ"
           ),
           new ParserCategory("Arkansas"
               ,"ARGarlandCounty"                ,"Garland County, AZ"

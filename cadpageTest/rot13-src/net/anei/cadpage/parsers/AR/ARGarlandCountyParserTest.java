@@ -14,7 +14,6 @@ Fraqre: qvfcngpu@yvsrargrzf.bet
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:0052-N/Eha#48329/11:11/11:12/11:12/11:17\e\a\e\a
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:0107-N/Eha#49057/14:12/14:12/14:12/14:18\e\a\e\a
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0054-N/ Eha# 50760/ jnf Pnapryrq: Svefg Erfcbaqre Bayl/09:55/09:55/09:57/10:03/10:11\e\a\e\a
-
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Eha# 50760/1-Rzretrapl-Yvsr Guerng/108 PNENJNL FG//n/CRNEPL/71964/Lbh ner erfcbaqvat gb n cngvrag jvgu purfg cnva.  Gur cngvrag vf n 61-lrne-byq  srznyr/ jub vf pbafpvbhfnaq oernguvat. Pynzzl.  Purfg Cnva (Aba-Genhzngvp).\e\a\e\a
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Eha# 50702/1-Rzretrapl-Yvsr Guerng/104 EBYYVAT NPERF QE///CRNEPL/71964/Lbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy.  Gur cngvrag vf n 38-lrne-byq  znyr/ jub vf pbafpvbhf naq oernguvat. Abg nyreg.  Snyyf.\e\a\e\a
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Eha# 50580/2-Rzretrapl-Aba Yvsr Guerng/F ZBBER EQ & NVECBEG EQ///UBG FCEVATF/71913/Lbh ner erfcbaqvat gb n cngvrag vawherq va n genssvp vapvqrag.  Gur cngvrag vf bs  haxabja ntr naq traqre/ naq vf pbafpvbhf naq oernguvat. Haxabja  fgnghf/Bgure pbqrf abg nccyvpnoyr.  Genssvp / Genafcbegngvba Vapvqragf.\e\a\e\a

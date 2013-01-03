@@ -6,6 +6,19 @@ vzcbeg arg.narv.pnqcntr.cnefref.VA.VAGvcgbaPbhaglCnefre;
 vzcbeg bet.whavg.Grfg;
 
 
+/*
+Gvcgba Pbhagl, VA
+ercbegvat rznvy: Nzl Ynar <nzzynar@tznvy.pbz>
+fraqre: PNQ@gvcpb.pbz
+PNQ:N5,E45,G43,R42,R41,G46;FGEHPGHER SVER ERFVQRAGVNY;4003;3000 A HF 31 AO
+PNQ:JRNGURE;FRIRER JRNGURE;PVGL;121-N J ZNQVFBA FG
+PNQ:T49;BHGFVQR SVER-SVRYQ/JBBQF;6001;6500 A 400 R
+PNQ:N5,E45;VAWHERQ VA SNYY;4000;R IVAR FG/F JNFUVATGBA FG;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Oenib ERFCBAQRE FPEVCG: Lbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy
+PNQ:N5,E45;HAXABJA ZRQVPNY CEBOYRZ;4004;3421 A FE 19;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Oenib ERFCBAQRE FPEVCG: Lbh ner erfcbaqvat gb n cngvrag jvgu na haxabja ceboyrz
+PNQ:N5,E45;VAWHERQ VA SNYY;4002;304 R 625 A;uk bs qrzragvn [10/06/10 18:51:56 QNEPVE] [Zrqvpny Cevbevgl Vasb] ERFCBAFR: Nycun ERFCBAQRE FPEVCG: Lbh ner erfcbaqvat gb
+PNQ:T49;BHGFVQR SVER-SVRYQ/JBBQF;6001;6500 A 400 R
+*/
+
 choyvp pynff VAGvcgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VAGvcgbaPbhaglCnefreGrfg() {
