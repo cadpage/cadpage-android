@@ -51,6 +51,10 @@ Pbagnpg: Puevfgbcure Qvnm <pqvnm@ybsfsver.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 Fhowrpg:YBSF\aS32:\aERFC.NEE.NFG RZF @ PUVPNTBYNAQ PUEVFGVNA IVYYNTR,JAG\a- ng 6685 R 117GU NI,JAG\aPEBFF: ogja TVOFBA FG naq WNL FG\a-\e
 
+Pbagnpg: GBZ FUNCRA <pncg1903@tznvy.pbz>
+Fraqre: cpqvfc@cbegrepb-cf.bet
+(PNQ Cntr)\a#130001233 - \aS32:\aERFC.NEE.NFG RZF @ 76 J HF UJL 6 #81,YOG\aPEBFF: ogja A 75 J naq A 125 J\aTEC:YS\aCEV:1\apbzzrag: PNYYRQ 911 HAXABJA CEBOYRZ
+
 */
 
 choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -319,6 +323,33 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Jvasvryq Gjc",
         "K:TVOFBA FG naq WNL FG");
  }
+  
+  @Grfg
+  choyvp ibvq grfgGbzFuncra() {
+
+    qbGrfg("G1",
+        "(PNQ Cntr)\a" +
+        "#130001233 - \a" +
+        "S32:\a" +
+        "ERFC.NEE.NFG RZF @ 76 J HF UJL 6 #81,YOG\a" +
+        "PEBFF: ogja A 75 J naq A 125 J\a" +
+        "TEC:YS\a" +
+        "CEV:1\a" +
+        "pbzzrag: PNYYRQ 911 HAXABJA CEBOYRZ",
+
+        "FEP:YS",
+        "VQ:130001233",
+        "HAVG:S32",
+        "PNYY:ERFC.NEE.NFG RZF",
+        "NQQE:76 J HF UJL 6",
+        "ZNQQE:76 J HF 6",
+        "NCG:81",
+        "PVGL:Yvoregl Gjc",
+        "K:A 75 J naq A 125 J",
+        "CEV:1",
+        "VASB:PNYYRQ 911 HAXABJA CEBOYRZ");
+
+  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj VACbegrePbhaglCnefreGrfg().trarengrGrfgf("G1");

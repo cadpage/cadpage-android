@@ -73,12 +73,23 @@ public class NYNassauCountyGParser extends FieldProgramParser {
       data.strSupp = append(data.strSupp, "\n", field);
     }
   }
+  
+  private class MyTimeDateField extends TimeDateField {
+    public MyTimeDateField() {
+      super("\\d\\d:\\d\\d \\d\\d?[-/]\\d\\d?[-/]\\d\\d(?:\\d\\d)?", true);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      super.parse(field.replace('-', '/'), data);
+    }
+  }
 
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("TIMEDATE")) return new TimeDateField("\\d\\d:\\d\\d \\d\\d?/\\d\\d?/\\d{4}", true);
+    if (name.equals("TIMEDATE")) return new MyTimeDateField();
     return super.getField(name);
   }
   
