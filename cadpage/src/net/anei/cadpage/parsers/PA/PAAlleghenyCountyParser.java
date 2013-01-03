@@ -150,7 +150,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("AT")) return new MyAtField();
     if (name.equals("XINFO")) return new MyCrossInfoField();
-    if (name.equals("BOX")) return new BoxField("E?\\d{5,}(?: +E?\\d{5,})*", true);
+    if (name.equals("BOX")) return new BoxField("[A-Z]?\\d{5,}(?: +[A-Z]?\\d{5,})*|[A-Z]{2,3}\\d{2,3}", true);
     if (name.equals("ID")) return new IdField("F\\d{9}", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("UNIT")) return new MyUnitField();
