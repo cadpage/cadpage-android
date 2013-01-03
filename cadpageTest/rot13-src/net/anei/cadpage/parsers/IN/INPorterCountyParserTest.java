@@ -5,6 +5,54 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 
+/*
+Cbegre Pbhagl, VA
+Pbagnpg: Punq Ryjbbq <punqryjbbq@tznvy.pbz>
+Pbagnpg: "Tertbel Nqnve" <tnqnve@jnfuvatgbasver.arg>
+Pbagnpg: Zvxr Yhpmnx <sversvtugre3198@tznvy.pbz>
+Fraqre: cpqvfc@cbegrepb-cf.bet
+Flfgrz: Gvoreba
+
+Fhowrpg:PNQ Cntr\a\a#110089211 - \aS35C2:\aRZF NFG-C2 @ 380 A 400 R,JTG\aPEBFF: ogja NHTHFGVAR QE naq R 400 A\acpqvfc@cbegrepb-cf.betTEC:JS\aCEV:2\apbzzrag: Zrqvpny C
+Fhowrpg: PNQ Cntr\a\a#110085268 - \aS35:\aZVFP. NFG RZF @ 4 JVYYVNZFOHET QE,JTG\aPEBFF: ogja QRNQ RAQ naq IVETVAVN PG\aTEC:JS\aCEV:4\apbzzrag: HA
+Fhowrpg: PNQ Cntr\a\a#110085607 -\aS35C2:\aRZF NFG-C2 @ 342 A 325 R,JTG\aPEBFF: ogja YBAT CENVEVR EQ naq FGERNZJBBQ QE TEC:JS\aCEV:2\apbzzrag:
+Fhowrpg: PNQ Cntr\a\a#110086732 - \aS3:\aRYRPGEVPNY SVER @ 3705 INYR CNEX EQ,JTG\aPEBFF: ogja FG EQ 49 naq ONEGM EQ\aTEC:JS\aCEV:1\apbzzrag: 2 CB
+Fhowrpg: PNQ Cntr\a\a#110086764 - \aS33:\aZNACBJRE NFG RZF @ 13 JVYYVNZFOHET QE,JTG\aPEBFF: ogja QRNQ RAQ naq WNZRFGBJA NI\aTEC:JS\aCEV:1\apbzzra
+Fhowrpg: PNQ Cntr\a\a#110087784 - \aS35C2:\aRZF NFG-C2 @ JNFUVATGBA GJC UVTU FPUBBY,JTG\a - ng 383 R FG EQ 2,JTG\aPEBFF: ogja R RINAF NI naq A
+Fhowrpg: PNQ Cntr\a\a#110088677 - \aS41:\aZHG.NVQ/ERFC. GB FPA @ 177 URNGUREUVYY QE,PGG\aPEBFF: ogja QRNQ RAQ naq UNPXARL YA\aTEC:JS\aCEV:1\apbzz
+Fhowrpg: PNQ Cntr\a\a#110089211 - \aS35C2:\aRZF NFG-C2 @ 380 A 400 R,JTG\aPEBFF: ogja NHTHFGVAR QE naq R 400 A\aTEC:JS\aCEV:2\apbzzrag: Zrqvpny C
+Fhowrpg: PNQ Cntr\a\a#110089866 -\aR29\aZI PENFU/GENAF.NPP @ R HF UJL 6 / RQZBAQ PG, YOG - < 0/ 801>\aTEC:CZ\aCEV:1\apbzzrag: PNE IF CVPXHC, PNE VF VA QVGPU
+
+Pbagnpg: sverzrqvp3087 <sverzrqvp3087@tznvy.pbz>
+Fhowrpg:PNQ Cntr\a\a#110120370 - \aS5:\aOEHFU/TENFF SVER @ R RATRY QE / PNVA QE,JTG\a-  < 3900/ 1>\aTEC:JS\aCEV:1\apbzzrag: BCRA OHEA VA NERN/
+Fhowrpg:PNQ Cntr\a\a#110127635 - \aS35:\aZVFP. NFG RZF @ CVYBG GENIRY PRAGRE,JTG\a- ng 4105 R ZBEGUYNAQ QE,JTG\aPEBFF: arne QRNQ RAQ\aTEC:JS\aC
+Fhowrpg:PNQ Cntr\a\a#110137072 - \aS35C1:\aRZF NFG-C1 @ 429 R FG EQ 2,JTG\aPEBFF: ogja A 400 R naq A 450 R\aTEC:JS\aCEV:1\apbzzrag: Zrqvpny CebD
+
+Pbagnpg: "Xhegm, Revp [XhegmR@pbzpnfg.arg] " <XhegmR@pbzpnfg.arg>
+Fraqre: cpqvfc@cbegrepb-cf.bet
+Fhowrpg:PNQ Cntr\a\a#110166809 - \aS35C1:\aRZF NFG-C1 @ 53 NFCRA EQ,BTQ\aPEBFF: ogja OVGGREFJRRG YA naq BTQRA EQ\aTEC:BS\aCEV:1\apbzzrag: Zrqvpn
+
+Pbagnpg: Tertbel Nqnve <sverzrqvp3087@tznvy.pbz>
+Fraqre: cpqvfc@cbegrepb-cf.bet
+Fhowrpg:PNQ Cntr\a\a#120036045 - \aS35:\aZVFP. NFG RZF @ 253-1 A FG EQ 2,JTG\aPEBFF: ogja EVTT EQ naq R 300 A\aTEC:JS\aCEV:1\apbzzrag: PBZCYNVAV\e
+
+Pbagnpg: Rzf Zrqvp 31 <rzfzrqvp31@tznvy.pbz>
+Fraqre: cpqvfc@cbegrepb-cf.bet
+(PNQ Cntr) #120048030 - \aR32:\aHAX.CEBO.(ZNA QBJA) @ ZZ22,OUO\a- ng 240 V94,OUO\aPEBFF: ogja V94&HF20 Q naq FG EQ 149\aTEC:CZ\aCEV:1\apbzzrag: V 94 JRFGOBHAQ 22 Z
+
+Pbagnpg: Zvpunry Mnccvn <zx.mnccvn@tznvy.pbz>
+Fraqre: cpqvfc@cbegrepb-cf.bet
+(PNQ Cntr) #120065003 - \aS35C1:\aRZF NFG-C1 @ 1118 JVAGRE CNEX QE,YOG\aPEBFF: ogja NFCRA QE naq FHA INYYRL QE\aTEC:YS\aCEV:1\apbzzrag: Zrqvpny CebDN erpbzzraqf qv
+
+Pbagnpg: Pbagnpg: sverzrqvp3087 <sverzrqvp3087@tznvy.pbz>
+Fhowrpg:PNQ Cntr\a\a#120110035 - \aS51:\aNYNEZ:FZBXR/SVER/PB @ 463 R HF UJL 30,JTG\aPEBFF: ogja A 450 R naq A 575 R\aTEC:JS\aCEV:1\apbzzrag: NPG\e
+
+Pbagnpg: Puevfgbcure Qvnm <pqvnm@ybsfsver.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+Fhowrpg:YBSF\aS32:\aERFC.NEE.NFG RZF @ PUVPNTBYNAQ PUEVFGVNA IVYYNTR,JAG\a- ng 6685 R 117GU NI,JAG\aPEBFF: ogja TVOFBA FG naq WNL FG\a-\e
+
+*/
+
 choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VACbegrePbhaglCnefreGrfg() {

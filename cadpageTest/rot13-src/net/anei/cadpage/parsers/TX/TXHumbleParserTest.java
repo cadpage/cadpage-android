@@ -26,6 +26,17 @@ Fraqre: zft@pszft.pbz
 (Puvrs NYG) [SVER] - Sver Nynez - Pbzzrepvny - 5250 R Sz 1960, Uhzoyr - Znc: 337J- - Uhzoyr Zvav Jnerubhfr - Kfg'f: Zbba Genvy Qe Gvzore Sber - Havgf: NGSQ R-R39 - 20
 (Puvrs NYG) [SVER] - Hax Ceboyrz - Zrqvpny Nyr - 17811 Qrrc Funqr Pg, Uhzoyr - Znc: 377R- - Kfg'f: Pbavsre Evqtr Jnl - Havgf: R-Z29 R-R19 R-R39 - 201149242
 
+PlSnve, GK (Ngnfpbpvgn GK)
+Pbagnpg:  "Fgbygm, Revp" <RFgbygm@nisq.pbz>
+Fraqre: zft@pszft.pbz
+ 1 bs 2\aSEZ:zft@pszft.pbz\aFHOW:Puvrs NYG\aZFT:[SVER] - Sver Nynez - Erfvqragvny - 17202 Orerggn Oraq Qe - Znc: 376S- - Ngnfpbpvgn Genpr - Kfg'f:\a(Pba'g) 2 bs 2\aZhfpbel Qe Furnejngre Ora - Havgf: NGSQ R-R29 - 201300303\a(Raq)
+ 1 bs 2\aSEZ:zft@pszft.pbz\aFHOW:Puvrs NYG\aZFT:[SVER] - Zbgbe Iruvpyr Vapvqrag - 2300 R Sz 1960 - Znc: 336F- - Kfg'f: Zbbafuvar Uvyy Eq 1fg Fg -\a(Pba'g) 2 bs 2\aHavgf: R-Z29 R-R29 R-R39 - 201300177\a(Raq)
+ 1 bs 2\aSEZ:zft@pszft.pbz\aFHOW:Puvrs NYG\aZFT:[SVER] - Zbgbe Iruvpyr Vapvqrag - Gvzore Sberfg Qe & r Sz 1960 - Znc: 337F- - Bnxf Bs Ngnfpbpvgn -\a(Pba'g) 2 bs 2\aKfg'f: R Sz 1960 Terra Gvzoref Q - Havgf: R-Z29 R-R39 R-R29 - 201300087\a(Raq)
+ 1 bs 2\aSEZ:zft@pszft.pbz\aFHOW:Puvrs NYG\aZFT:[SVER] - Fznyy Bhgfvqr Sver - 6818 Nzore Nfu Pg - Znc: 337D- - Xvatf Evire Ivyyntr - Kfg'f: Pevzfba\a(Pba'g 2 bs 2\aBnx Gey - Havgf: R-R39 SJ R-R19 - 201300006\a(Raq)
+ 1 bs 2\aSEZ:zft@pszft.pbz\aFHOW:Puvrs NYG\aZFT:[SVER] - Yvtug Fgehpgher Vapvqrag - 7619 Oebamr Genvy Qe - Znc: 377Q- - Jnyqra Ba Ynxr Ubhfgba -\a(Pba'g) 2 bs 2\aKfg'f: Fnvysvfu Pbir Qe Gebcul C - Havgf: R-Q89 R-R19 R-Y19 - 201258397\a(Raq)
+ 1 bs 2\aSEZ:zft@pszft.pbz\aFHOW:Puvrs NYG\aZFT:[SVER] - Erfvqragvny Sver - 7619 Oebamr Genvy Qe - Znc: 377Q- - Jnyqra Ba Ynxr Ubhfgba - Kfg'f:\a(Pba'g) 2 bs 2\aFnvysvfu Pbir Qe Gebcul C - Havgf: R-R19 R-Y19 R-Q99 R-R39 - 201258397\a(Raq)
+
+
 Fgnghf zrffntr, Fubhyq or unaqyrq nf Trareny Nyreg
 (Puvrs NYG) [NISQ RZF GVZRF] - Vapvqrag: 201117017 -- Havg: R-Z19 Qvfc 18:20:53 -- Raebhgr: 18:22:50 -- Neevirq: -- Genafcbeg: -- Ng Ubfc: -- Ninvynoyr: 18:24:58
 (Puvrs NYG) [RG] - [ 201141019 ] - HAVG: R-Z29 Qvfc 21:47:04 - RAEG: 21:48:26 - BFA: 21:54:23 - GENA: - @UBF: - NINY: 22:22:50
@@ -235,9 +246,121 @@ choyvp pynff GKUhzoyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:Pbavsre Evqtr Jnl",
         "HAVG:R-Z29 R-R19 R-R39",
         "VQ:201149242");
- }
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNgnfpbpvgn() {
+
+    qbGrfg("G1",
+        " 1 bs 2\a" +
+        "SEZ:zft@pszft.pbz\a" +
+        "FHOW:Puvrs NYG\a" +
+        "ZFT:[SVER] - Sver Nynez - Erfvqragvny - 17202 Orerggn Oraq Qe - Znc: 376S- - Ngnfpbpvgn Genpr - Kfg'f:\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "Zhfpbel Qe Furnejngre Ora - Havgf: NGSQ R-R29 - 201300303\a" +
+        "(Raq)",
+
+        "FEP:SVER",
+        "PNYY:Sver Nynez - Erfvqragvny",
+        "NQQE:17202 Orerggn Oraq Qe",
+        "ZNC:376S-",
+        "CYNPR:Ngnfpbpvgn Genpr",
+        "K:Zhfpbel Qe Furnejngre Ora",
+        "HAVG:NGSQ R-R29",
+        "VQ:201300303");
+
+    qbGrfg("G2",
+        " 1 bs 2\a" +
+        "SEZ:zft@pszft.pbz\a" +
+        "FHOW:Puvrs NYG\a" +
+        "ZFT:[SVER] - Zbgbe Iruvpyr Vapvqrag - 2300 R Sz 1960 - Znc: 336F- - Kfg'f: Zbbafuvar Uvyy Eq 1fg Fg -\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "Havgf: R-Z29 R-R29 R-R39 - 201300177\a" +
+        "(Raq)",
+
+        "FEP:SVER",
+        "PNYY:Zbgbe Iruvpyr Vapvqrag",
+        "NQQE:2300 R Sz 1960",
+        "ZNC:336F-",
+        "K:Zbbafuvar Uvyy Eq 1fg Fg",
+        "HAVG:R-Z29 R-R29 R-R39",
+        "VQ:201300177");
+
+    qbGrfg("G3",
+        " 1 bs 2\a" +
+        "SEZ:zft@pszft.pbz\a" +
+        "FHOW:Puvrs NYG\a" +
+        "ZFT:[SVER] - Zbgbe Iruvpyr Vapvqrag - Gvzore Sberfg Qe & r Sz 1960 - Znc: 337F- - Bnxf Bs Ngnfpbpvgn -\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "Kfg'f: R Sz 1960 Terra Gvzoref Q - Havgf: R-Z29 R-R39 R-R29 - 201300087\a" +
+        "(Raq)",
+
+        "FEP:SVER",
+        "PNYY:Zbgbe Iruvpyr Vapvqrag",
+        "NQQE:Gvzore Sberfg Qe & r Sz 1960",
+        "ZNC:337F-",
+        "CYNPR:Bnxf Bs Ngnfpbpvgn",
+        "K:R Sz 1960 Terra Gvzoref Q",
+        "HAVG:R-Z29 R-R39 R-R29",
+        "VQ:201300087");
+
+    qbGrfg("G4",
+        " 1 bs 2\a" +
+        "SEZ:zft@pszft.pbz\a" +
+        "FHOW:Puvrs NYG\a" +
+        "ZFT:[SVER] - Fznyy Bhgfvqr Sver - 6818 Nzore Nfu Pg - Znc: 337D- - Xvatf Evire Ivyyntr - Kfg'f: Pevzfba\a" +
+        "(Pba'g 2 bs 2\a" +
+        "Bnx Gey - Havgf: R-R39 SJ R-R19 - 201300006\a" +
+        "(Raq)",
+
+        "FEP:SVER",
+        "PNYY:Fznyy Bhgfvqr Sver",
+        "NQQE:6818 Nzore Nfu Pg",
+        "ZNC:337D-",
+        "CYNPR:Xvatf Evire Ivyyntr",
+        "K:Pevzfba Bnx Gey",
+        "HAVG:R-R39 SJ R-R19",
+        "VQ:201300006");
+
+    qbGrfg("G5",
+        " 1 bs 2\a" +
+        "SEZ:zft@pszft.pbz\a" +
+        "FHOW:Puvrs NYG\a" +
+        "ZFT:[SVER] - Yvtug Fgehpgher Vapvqrag - 7619 Oebamr Genvy Qe - Znc: 377Q- - Jnyqra Ba Ynxr Ubhfgba -\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "Kfg'f: Fnvysvfu Pbir Qe Gebcul C - Havgf: R-Q89 R-R19 R-Y19 - 201258397\a" +
+        "(Raq)",
+
+        "FEP:SVER",
+        "PNYY:Yvtug Fgehpgher Vapvqrag",
+        "NQQE:7619 Oebamr Genvy Qe",
+        "ZNC:377Q-",
+        "CYNPR:Jnyqra Ba Ynxr Ubhfgba",
+        "K:Fnvysvfu Pbir Qe Gebcul C",
+        "HAVG:R-Q89 R-R19 R-Y19",
+        "VQ:201258397");
+
+    qbGrfg("G6",
+        " 1 bs 2\a" +
+        "SEZ:zft@pszft.pbz\a" +
+        "FHOW:Puvrs NYG\a" +
+        "ZFT:[SVER] - Erfvqragvny Sver - 7619 Oebamr Genvy Qe - Znc: 377Q- - Jnyqra Ba Ynxr Ubhfgba - Kfg'f:\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "Fnvysvfu Pbir Qe Gebcul C - Havgf: R-R19 R-Y19 R-Q99 R-R39 - 201258397\a" +
+        "(Raq)",
+
+        "FEP:SVER",
+        "PNYY:Erfvqragvny Sver",
+        "NQQE:7619 Oebamr Genvy Qe",
+        "ZNC:377Q-",
+        "CYNPR:Jnyqra Ba Ynxr Ubhfgba",
+        "K:Fnvysvfu Pbir Qe Gebcul C",
+        "HAVG:R-R19 R-Y19 R-Q99 R-R39",
+        "VQ:201258397");
+   
+  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj GKUhzoyrCnefreGrfg().trarengrGrfgf("G17");
+    arj GKUhzoyrCnefreGrfg().trarengrGrfgf("G1");
   }
 }

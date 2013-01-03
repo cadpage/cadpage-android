@@ -5314,19 +5314,6 @@ Contact: cesn35 <cesn35@comcast.net>
 Sender: 64CAD@amb64.net
 (643020) - 26C2 Sick Person \n108 N  HIGH ST ,\nSmyrna: Xst's:\nW MOUNT VERNON ST / W NORTH ST\nCaller:SIPLE, DONNA
 **********************************************************
-Harris County, TX (alternate)
-Contact: "Stoltz, Eric" <EStoltz@avfd.com>
-Sender: msg@cfmsg.com
-1 of 2\nFRM:msg@cfmsg.com\nSUBJ:Chief ALT\nMSG:[FIRE] - Light Smoke Outside - 3618 Trace Ct -
-Map: 376G- - Atascocita Forest - Xst's: Shrub Oak Dr\n(Con't 2 of 2\n-
-Units: E-E29 E-D69 E-D99 E-E19 - 201256866\n(End)
-1 of 2\nFRM:msg@cfmsg.com\nSUBJ:Chief ALT\nMSG:[FIRE] - Outside Fire - Investiga - 18551 Timber Forest Dr -
-Map: 337W- - Timber Lake Apts - Xst's:\n(Con't 2 of 2\nFlax Bourton St Atascocit -
-Units: E-E19 E-D69 E-B39 E-E39 - 201256973\n(End)
-Sender: enp@southhaysfire.org
-1\n Alerted
-at: 1:11:34 AM\nSouth Hays Fire Page
-**********************************************************
 DuPage County, IL (alternate)S
 Contact: Kirk Odiet <gefd73@gmail.com>
 Sender: DU-COMM@ducomm.org
@@ -5344,28 +5331,9 @@ Contact: Raymond Larsen <raymond.radar@gmail.com>
 Sender: Random
 FRM:FRES CAD\nMSG:TYPE: FALLS LOC: 231 N TITMUS DR MASTIC   CROSS: PONCHO DR / SWEETBRIAR\nDR CODE: 17-D-3 TIME: 09:54:13
 **********************************************************
-Gloucester County, NJ (fix)
-Contact: "rich2118@comcast.net" <rich2118@comcast.net>
-Sender: 777259763803
-GC ALERT (#423679) FD 9-2: {12/26/2012 10:42:45}\nSEIZ     - Seizures{3}\n135 Voyager DR;B STOP
-(Phoenix Notification) 2012040337 {12/25/2012 22:59:18}
-ALMC     - CO Alarm{3}
-Inverness Apts,3805;B
-Units:
-    FE9     
-Comments:
- Toner Alert Instantiated 
-{092},{090}[FE9] Station Dispatched : {092} Units Recommended: ,FE9;
-Dispatched: {092}, FE9 Toner Alert Instantiated, Following tones sent to  
-device - F1   
-0100 - 9-2 Tacoma FD        
-0111 - 9-2 Tacoma FD        
- CO ALARM SOUNDING WILL BE WAITING OUTSIDE Update reviewed by dispatcher-  
-FD 9-2 is station code
-B STOP ends all pages
-**********************************************************
 Sweden,
 Contact: ebba.ehrstedt@gmail.com
+Active911 Agency ID: 5631
 
 Interna brandlarm
 Inringt från platsen
@@ -5375,12 +5343,29 @@ Nyfors
 D10
 PositionWGS84 : La = 59 grader 22,084'N    Lo = 016 grader 30,468'E
 **********************************************************
+Contact: Eric Riffle <ericriffle@ymail.com>
+Sender: :ept@ept911.info
+  / AFA44 I25 MM 153-- EAST SIDE OF RD-- SM GRASS FIRE NEAR CONSTRUCTION SITE
+*********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
+Gloucester County, NJ (fix)
+Contact: "rich2118@comcast.net" <rich2118@comcast.net>
+Dispatch Contact: jjones@co.gloucester.nj.us
+Sender: 777259763803
+GC ALERT (#423679) FD 9-2: {12/26/2012 10:42:45}\nSEIZ     - Seizures{3}\n135 Voyager DR;B STOP
+GC ALERT (#426211) FD 9-2: {01/03/2013 09:54:56}\nCVA      - Stroke{2}\n441 Trowbridge AVE;B STOP
+GC ALERT (#425595) FD 9-2: {01/01/2013 10:48:28}\nRE       - Respiratory Emergency{2}\n796 Tacoma BLVD;B STOP
+GC ALERT (#425415) FD 9-2: {12/31/2012 17:57:48}\nDWEL     - Dwelling Fire{2}\n749 Quail PL;B STOP
+GC ALERT (#425315) FD 9-1: {12/31/2012 12:49:16}\nALRM     - Fire Alarm System{3}\nGloucester Manor;B STOP
+GC ALERT (#425253) FD 9-2: {12/31/2012 09:45:49}\nALRM     - Fire Alarm System{3}\n820 Cooper ST;B STOP
+
+FD 9-2 is station code
+B STOP ends all pages
 **********************************************************
-*********************************************************
 Snohomish, WA
 Contact: Jeff Torgerson <torgie17@gmail.com>
 Sender: 6245

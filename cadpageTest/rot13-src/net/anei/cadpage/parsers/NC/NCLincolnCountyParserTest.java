@@ -42,7 +42,8 @@ Pbagnpg: fhccbeg@npgvir911.pbz
 [] 4:PNQ:A3S-1200000772-BHGFVQR SVER-OHSSNYB FUBNYF EQ/OYNVE EQ-Rirag fcnjarq sebz YNEPRAL / GURSG. [05/27/2012 18:18:31 PYNSSREGL] {Y182} k1 qrgnvarq [05/27/12 18:09:22 FCVGGF] tnir gb pbhagl [05/27/12 18:03:27 FCVGGF] {PVGL15} erq puril gx evtug ba ohssnyb\a
 
 Pbagnpg: npgvir911.pbz
-Ntrapl anzr: Obtre Pvgl Sver Qrcnegzrag Ybpngvba: Yvapbyagba, AP 
+Ntrapl anzr: Obtre Pvgl Sver Qrcnegzrag 
+Ybpngvba: Yvapbyagba, AP 
 Fraqre: PNQ@qb-abg-ercyl-yvapbyar911.bet
 PNQ:OPS-NYYRETVRF NYYRETVP ERNPGVBA-410 ZPNYVFGRE EQ-CBFFVOYR NYYRETVP ERNPGVBA GB ORR FGVAT. GX40 NQI FGNAQOL BA RZF [07/02/2012 21:07:31 GENCRE] -ORRPUAHG FG-ZRQVPNY PRAGRE QE
 PNQ:OPS-17Q04-17-Q-4 SNYYF-441 OHSSNYB FUBNYF EQ-UVTUYNAQ QE-VAQVNA GE-[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Qrygn ERFCBAQRE FPEVCG: 61 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. Snyyf. Purfg be Arpx vawhel (jvgu qvssvphygl oernguvat). 1.Guvf unccrarq abj (yrff guna 6ue

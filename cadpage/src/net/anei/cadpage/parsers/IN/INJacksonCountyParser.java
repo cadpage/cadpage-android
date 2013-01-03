@@ -3,18 +3,6 @@ package net.anei.cadpage.parsers.IN;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-/*
-Jackson County, IN
-Contact: J.L McElfresh <jmcelfresh36@gmail.com>
-Sender: @injacso.com
- 
-(medical run) 1047 E CR 400 S Wegan Church 80 y/o/f unconscious
-(medical) 4904 W CR 440 N\n25yom Chest Pain
-(Brownstown VFD) 10-50 Rollover 4062 N CR 225 W
-(medical) 383 S Circle Dr medical unresponsive male
-(medical run) 1047 E CR 400 S Wegan Church 80 y/o/f unconscious
-
-*/
 
 public class INJacksonCountyParser extends SmartAddressParser {
   
