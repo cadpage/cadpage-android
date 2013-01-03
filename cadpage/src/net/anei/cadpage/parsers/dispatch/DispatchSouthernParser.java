@@ -39,7 +39,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
   private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) (\\d\\d:\\d\\d:\\d\\d)\\b");
-  private static final Pattern OPT_ID_TIME_PTN = Pattern.compile(" (?:(\\d{2,4}-?\\d{4,8}) )?(\\d\\d:\\d\\d:\\d\\d)(?: |$)");
+  private static final Pattern OPT_ID_TIME_PTN = Pattern.compile("\\b(?:(\\d{2,4}-?\\d{4,8}) )?(\\d\\d:\\d\\d:\\d\\d)(?: |$)");
   private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /]+)\\b[ \\.,-]*");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
   private static final Pattern CALL_BRK_PTN = Pattern.compile(" +/+ *");
@@ -81,7 +81,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (inclPlace) sb.append('P');
     if (inclCross || inclCrossNamePhone) sb.append(" X?");
     if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE");
-    sb.append(" CODE?");
+    sb.append(" CODE+? PARTCODE?");
     sb.append(" ID");
     if (idOptional) sb.append('?');
     sb.append(" TIME");
@@ -282,21 +282,13 @@ public class DispatchSouthernParser extends FieldProgramParser {
   }
   
   private class MyCodeField extends CodeField {
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      if (!field.startsWith("MDL ") && !field.startsWith("FDL ")) return false;
-      data.strCode = field.substring(4).trim();
-      return true;
+    public MyCodeField() {
+      super("[FML]DL *(.*)", true);
     }
     
     @Override
     public void parse(String field, Data data) {
-      if (!checkParse(field, data)) abort();
+      if (data.strCode.length() == 0) super.parse(field, data);
     }
   }
   
@@ -327,6 +319,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CODE"))  return new MyCodeField();
+    if (name.equals("PARTCODE")) return new SkipField("[MFL]D?");
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("ID")) return new IdField("\\d\\d-?\\d{5,8}", true);
     if (name.equals("NAME")) return new MyNameField();

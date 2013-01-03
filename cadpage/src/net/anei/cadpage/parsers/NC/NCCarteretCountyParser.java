@@ -16,7 +16,7 @@ public class NCCarteretCountyParser extends DispatchSouthernParser {
   private final static Pattern CALL_ID_PTN = Pattern.compile(" +OCA: *(\\d\\d-\\d\\d-\\d{4})$");
   
   public NCCarteretCountyParser() {
-    super(CITY_LIST, "CARTERET COUNTY", "NC");
+    super(CITY_LIST, "CARTERET COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_NO_NAME_PHONE | DSFLAG_ID_OPTIONAL);
   }
   
   @Override
@@ -30,12 +30,12 @@ public class NCCarteretCountyParser extends DispatchSouthernParser {
     boolean badTime = false;
     if (subject.length() > 0 && SUB_MARKER.matcher(body).find()) {
       if (!SUB_TRAILER.matcher(subject).find()) {
+        if (subject.contains(",") && !subject.endsWith(",")) subject += ',';
         subject += " 00";
         badTime = true;
       }
       body = "CEC:" + subject + ':' + body.substring(4);
     }
-    body = body.replace(",", "");
     
     Matcher match = CALL_ID_PTN.matcher(body);
     String callId = "";
