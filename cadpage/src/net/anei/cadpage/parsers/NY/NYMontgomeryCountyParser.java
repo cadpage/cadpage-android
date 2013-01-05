@@ -92,6 +92,7 @@ public class NYMontgomeryCountyParser extends SmartAddressParser {
     "T AMSTERDAM",
     "CANAJOHARIE",
     "CANAJOHARIE VILLAGE",
+    "T CANAJOHARIE",
     "V CANAJOHARIE",
     "CHARLESTON",
     "FLORIDA",
@@ -108,11 +109,13 @@ public class NYMontgomeryCountyParser extends SmartAddressParser {
     "FULTONVILLE VILLAGE",
     "V FULTONVILLE",
     "GLEN",
+    "T GLEN",
     "HAGAMAN",
     "HAGAMAN VILLAGE",
     "V HAGAMAN",
     "MINDEN",
     "MOHAWK",
+    "T MOHAWK",
     "NELLISTON",
     "NELLISTON VILLAGE",
     "V NELLISTON",
@@ -123,7 +126,8 @@ public class NYMontgomeryCountyParser extends SmartAddressParser {
     "ROO",
     "ST JOHNSVILLE",
     "ST JOHNSVILLE VILLAGE",
-    "V ST JOHSVILLE"
+    "T ST JOHNSVILLE",
+    "V ST JOHNSVILLE"
   };
 }
 	
