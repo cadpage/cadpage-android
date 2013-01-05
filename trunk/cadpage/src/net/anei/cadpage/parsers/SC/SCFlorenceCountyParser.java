@@ -1,0 +1,46 @@
+package net.anei.cadpage.parsers.SC;
+
+import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchBParser;
+
+
+
+public class SCFlorenceCountyParser extends DispatchBParser {
+ 
+  public SCFlorenceCountyParser() {
+    super(CITY_CODES, "FLORENCE COUNTY", "SC");
+  }
+  
+  @Override
+  protected boolean isPageMsg(String body) {
+    return true;
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    
+    // See if this is one of our pages
+    if (! body.startsWith("FLORENCE CO 911:")) return false;
+    body = body.substring(16);
+    int pt = body.indexOf('>');
+    if (pt < 0) return false;
+    data.strCode = body.substring(0,pt).trim();
+    
+    // Call superclass parser
+    return super.parseMsg(body, data);
+  }
+  
+  private static final String[] CITY_CODES = new String[]{
+    "COWARD",
+    "EFFINGHAM",
+    "FLORENCE",
+    "JOHNSONVILLE",
+    "LAKE CITY",
+    "MARS BLUFF",
+    "OLANTA",
+    "PAMPLICO",
+    "QUINBY",
+    "SCRANTON",
+    "TIMMONSVILLE"
+  };
+}

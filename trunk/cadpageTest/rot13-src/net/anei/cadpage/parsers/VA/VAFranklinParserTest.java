@@ -1,0 +1,114 @@
+cnpxntr arg.narv.pnqcntr.cnefref.IN;
+
+vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
+
+vzcbeg bet.whavg.Grfg;
+
+/*
+Senaxyva Pbhagl, IN
+Pbagnpg: Evpxl Tevmmneq <etevmmneq@senaxyvain.pbz>
+Fraqre: zugheare@senaxyvacbyvpr.bet
+
+zugheare:501 PUNEYRF FG SENAXYVA J 3EQ NIR K TNL FG 06:11:02 SVER - NC MBAR 2
+zugheare:16 PERFPRAG QE SENAXYVA A UVTU FG K ZPPHGPURBA FG 13:01:24 ERFPHR RZF- NC SRZNYR CNGVRAG CNFFRQ BHG TRGGVAT VAGB INA
+zugheare:31218 PUREBXRR QE SENAXYVA 08:18:36 ERFPHR RZF- NC 58 LBN ZNYR - DHVG GNYXVAT GB AHEFR - OERNGUVAT FUNYYBJ
+nwhfghf:1401 A UVTU FG Ez 106 SENAXYVA BNXJBBQ QE K PVGL YVZVGF 16:30:35 ERFPHR RZF- NC 80 lbn srznyr purfg cnva, fubeg bs oerngu
+zugheare:1903 FBHGU FG 205 SENAXYVA UBTNEG FG K UNEEVFBA FG 14:39:48 ERFPHR RZF- NC IREL JRNX - PYNZZL UNAQF - CBGNFFVHZ YBJ GJB QNLF NTB
+zugheare:31338 RNFG QNEQRA FG SENAXYVA 14:31:13 ERFPHR RZF- NC 73 LBN SRZNYR - YRSG FVQR
+pfurrul:331 EBBFRIRYG NIR SENAXYVA 00:37:00 SVER - NC FGEHPGHER SVER.
+pfurrul:1 PNZC CXJL SENAXYVA 20:52:56 SVER - NC SVER OHEAVAT VA PBGGBA SVRYQ NPEBFF SEBZ EVIREQNYR RYRZ
+jpbggba:1328 NEZBEL QE SENAXYVA PBZZRERAPR CNEX EQ (YBBC) K PBZZRERAPR CNEX EQ (YBBC) 12:26:39 ERFPHR RZF- NC JBZNA NFFNHYGRQ
+
+*/
+
+choyvp pynff INSenaxyvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
+  
+  choyvp INSenaxyvaCnefreGrfg() {
+    frgCnefre(arj INSenaxyvaCnefre(), "SENAXYVA", "IN");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCnefre() {
+
+    qbGrfg("G1",
+        "zugheare:501 PUNEYRF FG SENAXYVA J 3EQ NIR K TNL FG 06:11:02 SVER - NC MBAR 2",
+        "NQQE:501 PUNEYRF FG",
+        "PVGL:SENAXYVA",
+        "K:J 3EQ NIR / TNL FG",
+        "GVZR:06:11:02",
+        "PNYY:SVER - NC MBAR 2");
+
+    qbGrfg("G2",
+        "zugheare:16 PERFPRAG QE SENAXYVA A UVTU FG K ZPPHGPURBA FG 13:01:24 ERFPHR RZF- NC SRZNYR CNGVRAG CNFFRQ BHG TRGGVAT VAGB INA",
+        "NQQE:16 PERFPRAG QE",
+        "PVGL:SENAXYVA",
+        "K:A UVTU FG / ZPPHGPURBA FG",
+        "GVZR:13:01:24",
+        "PNYY:ERFPHR RZF- NC",
+        "VASB:SRZNYR CNGVRAG CNFFRQ BHG TRGGVAT VAGB INA");
+
+    qbGrfg("G3",
+        "zugheare:31218 PUREBXRR QE SENAXYVA 08:18:36 ERFPHR RZF- NC 58 LBN ZNYR - DHVG GNYXVAT GB AHEFR - OERNGUVAT FUNYYBJ",
+        "NQQE:31218 PUREBXRR QE",
+        "PVGL:SENAXYVA",
+        "GVZR:08:18:36",
+        "PNYY:ERFPHR RZF- NC",
+        "VASB:58 LBN ZNYR - DHVG GNYXVAT GB AHEFR - OERNGUVAT FUNYYBJ");
+
+    qbGrfg("G4",
+        "nwhfghf:1401 A UVTU FG Ez 106 SENAXYVA BNXJBBQ QE K PVGL YVZVGF 16:30:35 ERFPHR RZF- NC 80 lbn srznyr purfg cnva, fubeg bs oerngu",
+        "NQQE:1401 A UVTU FG",
+        "NCG:106",
+        "PVGL:SENAXYVA",
+        "K:BNXJBBQ QE / PVGL YVZVGF",
+        "GVZR:16:30:35",
+        "PNYY:ERFPHR RZF- NC",
+        "VASB:80 lbn srznyr purfg cnva, fubeg bs oerngu");
+
+    qbGrfg("G5",
+        "zugheare:1903 FBHGU FG 205 SENAXYVA UBTNEG FG K UNEEVFBA FG 14:39:48 ERFPHR RZF- NC IREL JRNX - PYNZZL UNAQF - CBGNFFVHZ YBJ GJB QNLF NTB",
+        "NQQE:1903 FBHGU FG 205",
+        "PVGL:SENAXYVA",
+        "K:UBTNEG FG / UNEEVFBA FG",
+        "GVZR:14:39:48",
+        "PNYY:ERFPHR RZF- NC",
+        "VASB:IREL JRNX - PYNZZL UNAQF - CBGNFFVHZ YBJ GJB QNLF NTB");
+
+    qbGrfg("G6",
+        "zugheare:31338 RNFG QNEQRA FG SENAXYVA 14:31:13 ERFPHR RZF- NC 73 LBN SRZNYR - YRSG FVQR",
+        "NQQE:31338 RNFG QNEQRA FG",
+        "PVGL:SENAXYVA",
+        "GVZR:14:31:13",
+        "PNYY:ERFPHR RZF- NC",
+        "VASB:73 LBN SRZNYR - YRSG FVQR");
+
+    qbGrfg("G7",
+        "pfurrul:331 EBBFRIRYG NIR SENAXYVA 00:37:00 SVER - NC FGEHPGHER SVER.",
+        "NQQE:331 EBBFRIRYG NIR",
+        "PVGL:SENAXYVA",
+        "GVZR:00:37:00",
+        "PNYY:SVER - NC FGEHPGHER SVER.");
+
+    qbGrfg("G8",
+        "pfurrul:1 PNZC CXJL SENAXYVA 20:52:56 SVER - NC SVER OHEAVAT VA PBGGBA SVRYQ NPEBFF SEBZ EVIREQNYR RYRZ",
+        "NQQE:1 PNZC CXJL",
+        "PVGL:SENAXYVA",
+        "GVZR:20:52:56",
+        "PNYY:SVER - NC",
+        "VASB:SVER OHEAVAT VA PBGGBA SVRYQ NPEBFF SEBZ EVIREQNYR RYRZ");
+
+    qbGrfg("G9",
+        "jpbggba:1328 NEZBEL QE SENAXYVA PBZZRERAPR CNEX EQ (YBBC) K PBZZRERAPR CNEX EQ (YBBC) 12:26:39 ERFPHR RZF- NC JBZNA NFFNHYGRQ",
+        "NQQE:1328 NEZBEL QE",
+        "PVGL:SENAXYVA",
+        "K:PBZZRERAPR CNEX EQ (YBBC) / PBZZRERAPR CNEX EQ",
+        "ANZR:(YBBC)",
+        "GVZR:12:26:39",
+        "PNYY:ERFPHR RZF- NC JBZNA NFFNHYGRQ");
+
+  }
+  
+  choyvp fgngvp ibvq znva(Fgevat[] netf) {
+    arj INSenaxyvaCnefreGrfg().trarengrGrfgf("G1", "CYNPR NQQE NCG PVGL K ANZR CUBAR PBQR VQ GVZR PNYY VASB");
+  }
+}

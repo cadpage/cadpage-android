@@ -1,0 +1,27 @@
+<project name="Cadpage main" default="build" basedir=".">
+
+  <target name="build" description="build Cadpag Parser Library">
+    <ant dir="cadpage" target="build"/>
+  </target>
+
+  <target name="stat" description="svn status">
+    <ant antfile="cadpageTest/build.xml" target="stat"/>
+  </target>
+	
+  <target name="commit" description="svn commit">
+    <ant antfile="cadpageTest/build.xml" target="commit"/>
+  </target>
+	
+  <target name="update" description="svn update">
+    <ant antfile="cadpageTest/build.xml" target="update"/>
+  </target>
+	
+  <target name="import" description="import">
+    <ant antfile="cadpageTest/build.xml" target="import"/>
+  </target>
+	
+  <target name="export" description="export">
+    <ant antfile="cadpageTest/build.xml" target="export"/>
+  </target>
+
+</project>

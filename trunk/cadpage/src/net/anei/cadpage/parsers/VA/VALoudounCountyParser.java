@@ -1,0 +1,68 @@
+package net.anei.cadpage.parsers.VA;
+
+import java.util.Properties;
+
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
+
+
+public class VALoudounCountyParser extends MsgParser {
+
+  private static final Properties LCFRCityCodes = buildCodeTable(new String[]{
+        "CH", "Chantilly",
+        "LB", "Leesburg",
+        "AL", "Aldie",
+        "ST", "Sterling",
+        "MB", "Middleburg",
+        "AB", "Ashburn",
+        "SP", "Sterling",
+        "BL", "Bluemont",
+        "CE", "Centreville",
+        "HA", "Hamilton",
+        "LV", "Lovettsville",
+        "PA", "Paris",
+        "PV", "Purcellville",
+        "PS", "Paeonian",
+        "RH", "Round Hill",
+        "UP", "Upperville",
+        "FX19", "Fairfax",
+        "FX11", "Fairfax",
+        "FX", "Fairfax",
+        "FQ", "Faquier"});
+  
+  public VALoudounCountyParser() {
+    super("LOUDOUN COUNTY", "VA");
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    
+    // Clean off extra junk at both ends
+    int pt = body.indexOf("Call:");
+    if (pt < 0) return false;
+    
+    body = body.substring(pt);
+    pt = body.lastIndexOf('[');
+    if (pt >= 0) body = body.substring(0, pt).trim();
+
+    // Needs some massaging before it can be run through the standard parser
+    body = body.replace(" Apt:", ",Apt:");
+    Properties props = parseMessage(body, ",", new String[]{"Addr", "Unit"});
+    data.strCall = props.getProperty("Call", "");
+    parseAddressCity(props.getProperty("Addr", ""), data);
+    if (data.strAddress.length() == 0) return false;
+    data.strApt = props.getProperty("Apt");
+    if (data.strApt == null) return false;
+    data.strCross = props.getProperty("X-St");
+    if (data.strCross == null) return false;
+    data.strUnit = props.getProperty("Unit", "");
+    data.strBox = props.getProperty("Box", "");
+    String sMap = props.getProperty("ADC", "");
+    pt = sMap.indexOf('[');
+    if (pt >= 0) sMap = sMap.substring(0,pt).trim();
+    data.strMap = sMap;
+    data.strCity = convertCodes(data.strCity, LCFRCityCodes);
+    
+    return true;
+  }
+}

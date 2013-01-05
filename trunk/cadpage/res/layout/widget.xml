@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="horizontal"
+android:background="@drawable/cadpage_widget_bkg"
+android:layout_gravity="center"
+android:layout_width="wrap_content" android:layout_height="wrap_content">
+     
+    
+    <LinearLayout 
+            android:id="@+id/LinearLayout01"
+            android:layout_height="wrap_content" 
+            android:orientation="horizontal" android:layout_width="wrap_content" android:weightSum="1">
+            
+    
+    
+
+
+ <ImageView android:id="@+id/widget_button_cadpage"
+  android:layout_width="fill_parent" android:clickable="true"
+  android:layout_height="wrap_content"  android:cropToPadding="true" 
+  android:src="@drawable/cadpage_widget_logo"/>
+  <ImageView android:id="@+id/widget_button_notification"
+  android:layout_width="wrap_content" android:clickable="true"
+  android:layout_height="wrap_content" android:cropToPadding="true" 
+  android:src="@drawable/cadpage_widget_bell"/>
+  <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:cropToPadding="true"
+  android:src="@drawable/cadpage_widget_talk" android:clickable="true" 
+  android:id="@+id/widget_button_popup" />
+  <Button android:clickable="true"  android:id="@+id/widget_text_newcalls"  android:layout_gravity="center_vertical|center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:cropToPadding="true" android:layout_weight="6" android:width="50dp"></Button>
+  
+ 
+</LinearLayout>
+</LinearLayout>

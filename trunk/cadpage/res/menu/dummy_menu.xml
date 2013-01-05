@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  This isn't really used, but we want to define some menu items for the 
+      calback buttons  -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/ack_item" />
+  <item android:id="@+id/resp_call_item" />
+  <item android:id="@+id/resp_text_item" />
+  <item android:id="@+id/resp_http_item" />
+</menu>
