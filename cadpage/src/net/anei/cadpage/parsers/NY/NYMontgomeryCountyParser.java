@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class NYMontgomeryCountyParser extends SmartAddressParser {
   
   private static final Pattern SUBJ_PTN = Pattern.compile("[A-Z]{4} *\\d*");
-  private static final Pattern TAIL_PTN = Pattern.compile(" (\\d\\d/\\d\\d/\\d{4}) (\\d+)$");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile(" (\\d\\d/\\d\\d/\\d{4}) (\\d+)\\b");
   private static final Pattern CITY_TRIM_PTN = Pattern.compile(" (?:CITY|VILLAGE)$");
   
   public NYMontgomeryCountyParser() {
@@ -28,11 +28,12 @@ public class NYMontgomeryCountyParser extends SmartAddressParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (SUBJ_PTN.matcher(subject).matches()) data.strSource = subject;
-    Matcher match = TAIL_PTN.matcher(body);
+    Matcher match = DATE_TIME_PTN.matcher(body);
     if (!match.find()) return false;
     data.strDate = match.group(1);
     String time = match.group(2);
     data.strTime = time.substring(0,2) + ':' + time.substring(2,4);
+    data.strSupp = body.substring(match.end()).trim();
     body = body.substring(0,match.start()).trim();
     
     StartType st = StartType.START_CALL;
@@ -65,6 +66,13 @@ public class NYMontgomeryCountyParser extends SmartAddressParser {
     if (match.find()) data.strCity = data.strCity.substring(0,match.start()).trim();
     return true;
   }
+ 
+  @Override
+  public String adjustMapAddress(String addr) {
+    return CTR_PTN.matcher(addr).replaceAll("CENTER");
+  }
+  private static final Pattern CTR_PTN = Pattern.compile("\\bCTR\\b");
+ 
   
   private static final String[] CALL_LIST = new String[] {
     "EMS - EMS CALL",
