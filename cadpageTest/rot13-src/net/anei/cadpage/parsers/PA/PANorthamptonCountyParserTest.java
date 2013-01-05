@@ -26,7 +26,7 @@ Fhowrpg:#6550\a[s14]ZINH >ZIN JVGU HAXABJ VAWHVEVRF JVYYBJ CNEX EQ ORGUYRURZ GJC
 Pbagnpg: Rqzhaq Ynzbagntar <rqzhaqy79@tznvy.pbz>
 *3750: *nyreg_6WC4@abgvslap.bet /  / [s25]BQBE >BQBE / BGURE GUNA FZBXR NEAQG EQ SBEXF Znc: Tevqf:0,0 Pnq: 2011-0000171220 <20110000171220>
 
-Pbagnpg: fbhccbeg@npgvir911.pbz
+Pbagnpg: fhccbeg@npgvir911.pbz
 [#8VPG  Abegunzcgba Pbhagl CN PNQ] [r46]OYF >ONFVP YVSR FHCCBEG PNYY 6303 UNABIREIVYYR EQ RNFG NYYRA FNEN UVYOREG Znc: Tevqf:0,0 Pnq: 2012-0000098761\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=397037&p=s5q0q sbe gur znc bs gur nern\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet \a
 [#8VWA  Abegunzcgba Pbhagl CN PNQ] [r46]NYF >NQINAPRQ YVSR FHCCBEG PNYY 5516 YBVF YA RNFG NYYRA UBFRE, PUEVFGVAR Znc: Tevqf:0,0 Pnq: 2012-0000099349\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=397283&p=8r4o8 sbe gur znc bs gur nern\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet \a
 [#8VXM  Abegunzcgba Pbhagl CN PNQ] [r46]NYF >NQINAPRQ YVSR FHCCBEG PNYY 251 F TERRAOEVNE QE RNFG NYYRA UBEGBA, EBOREG Znc: Tevqf:0,0 Pnq: 2012-0000099450\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=397331&p=4r113 sbe gur znc bs gur nern\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet \a
@@ -39,6 +39,23 @@ Pbagnpg: fbhccbeg@npgvir911.pbz
 Pbagnpg: Urael Uraavatf <zlbso23@tznvy.pbz>
 [s20]SVERQ >QJRYYVAT SVER 912-14 PRAGER FG RNFGBA ZNYR PNYYRE Znc: Tevqf:0,0 Pnq: 2012-0000136112
  
+Pbagnpg: Npgvir911
+Ntrapl anzr: Cra Netly Sver
+Ybpngvba: Cra Netly, CN, Havgrq Fgngrf
+Fraqre: "APRZF PNQ" <Nyreg@abgvslap.bet>
+
+(#NOOR  Abegunzcgba Pbhagl CN PNQ) [s32]SVERQ >QJRYYVAT SVER 1573 QRYNOBYR EQ CYNVASVRYQ EVYRL,QRAAVF Znc: Tevqf:0,0 Pnq: 2013-0000001381\a\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=481226&p=58158 sbe gur znc bs gur nern\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet 
+(#NNPN  Abegunzcgba Pbhagl CN PNQ) [s32]SVERN >SVER NYNEZ 201 J ZNVA FG CRA NETLY QBEVF TVYOREG Znc: Tevqf:0,0 Pnq: 2012-0000234804\a\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=479962&p=962q0 sbe gur znc bs gur nern\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet 
+(#NN96  Abegunzcgba Pbhagl CN PNQ) [s32]SVERJ >SVER GENAFSBEZRE / JVERF 300 A FPUNAPX NIR - OYX BS PENVT XHFGRE Pnq: 2012-0000234655\a\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=479850&p=19n04 sbe gur znc bs gur nern\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet 
+(#N74B  Abegunzcgba Pbhagl CN PNQ) [s32]ERF >ERFPHR (GLCR) 202 A YBOO NIR CRA NETLY JVYYVF OEBJA Znc: Tevqf:0,0 Pnq: 2012-0000229180\a\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=475800&p=sqo56 sbe gur znc bs gur nern\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet 
+(#N71B  Abegunzcgba Pbhagl CN PNQ) [s32]JVER >JVER (TRARENY CEBOYRZ) 121 WNPXFBA NIR CRA NETLY JVYYVNZ OVRPUL Znc: Tevqf:0,0 Pnq: 2012-0000228997\a\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=475692&p=sro38 sbe gur znc bs gur nern\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet 
+(#N610  Abegunzcgba Pbhagl CN PNQ) [s32]SVERN >SVER NYNEZ 509 R ZNVA FG CRA NETLY GUR FYNGR UBGRY & CHO Znc: Tevqf:0,0 Pnq: 2012-0000226994\a\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=474372&p=2ro24 sbe gur znc bs gur nern\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet 
+(#N5FV  Abegunzcgba Pbhagl CN PNQ) [s32]CP >CUBAR PNYY 44 J ORYY NIR CRA NETLY C3211 Znc: Tevqf:0,0 Pnq: 2012-0000226490\a\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=474066&p=84n21 sbe gur znc bs gur nern\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet 
+(#N4WB  Abegunzcgba Pbhagl CN PNQ) [s32]SVERN >SVER NYNEZ 301 J ZNVA FG CRA NETLY GUR FNYINGVBA NEZL Znc: Tevqf:0,0 Pnq: 2012-0000223781\a\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=472452&p=31p06 sbe gur znc bs gur nern\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet 
+(#N4VN  Abegunzcgba Pbhagl CN PNQ) [s32]SVERI >IRUVPYR SVER 202 R ZNVA FG CRA NETLY CNFGRE SENAX Znc: Tevqf:0,0 Pnq: 2012-0000223678\a\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=472402&p=4182n sbe gur znc bs gur nern\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet 
+(#N4OF  Abegunzcgba Pbhagl CN PNQ) [s32]SVERN >SVER NYNEZ 513 JBBQ NIR F CRA NETLY CNAXB, NYVPR W Znc: Tevqf:0,0 Pnq: 2012-0000223306\a\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=472168&p=q22p4 sbe gur znc bs gur nern\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet 
+(#N38L  Abegunzcgba Pbhagl CN PNQ) [s32]SVERN >SVER NYNEZ 509 R ZNVA FG CRA NETLY GUR FYNGR UBGRY & CHO Znc: Tevqf:0,0 Pnq: 2012-0000221222\a\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=470770&p=84srs sbe gur znc bs gur nern\e\a--\e\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a\e\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet 
+
 */
 
 choyvp pynff CNAbegunzcgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -217,7 +234,8 @@ choyvp pynff CNAbegunzcgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:r46",
         "PNYY:ONFVP YVSR FHCCBEG",
         "NQQE:478 OYHR ZBHAGNVA QE",
-        "ANZR:YRUVTU XNEZBAVPX, GREEL",
+        "PVGL:YRUVTU",
+        "ANZR:XNEZBAVPX, GREEL",
         "VQ:2012-0000100411");
 
     qbGrfg("G6",
@@ -274,6 +292,186 @@ choyvp pynff CNAbegunzcgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:RNFGBA",
         "ANZR:ZNYR PNYYRE",
         "VQ:2012-0000136112");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCraNetlySver() {
+
+    qbGrfg("G1",
+        "(#NOOR  Abegunzcgba Pbhagl CN PNQ) [s32]SVERQ >QJRYYVAT SVER 1573 QRYNOBYR EQ CYNVASVRYQ EVYRL,QRAAVF Znc: Tevqf:0,0 Pnq: 2013-0000001381\a\a" +
+        "Frag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a" +
+        "Ivfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=481226&p=58158 sbe gur znc bs gur nern\e\a" +
+        "--\e\a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a" +
+        "\e\a" +
+        "Gryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet ",
+
+        "HAVG:s32",
+        "PNYY:QJRYYVAT SVER",
+        "NQQE:1573 QRYNOBYR EQ",
+        "PVGL:CYNVASVRYQ",
+        "ANZR:EVYRL,QRAAVF",
+        "VQ:2013-0000001381");
+
+    qbGrfg("G2",
+        "(#NNPN  Abegunzcgba Pbhagl CN PNQ) [s32]SVERN >SVER NYNEZ 201 J ZNVA FG CRA NETLY QBEVF TVYOREG Znc: Tevqf:0,0 Pnq: 2012-0000234804\a\a" +
+        "Frag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a" +
+        "Ivfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=479962&p=962q0 sbe gur znc bs gur nern\e\a" +
+        "--\e\a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a" +
+        "\e\a" +
+        "Gryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet ",
+
+        "HAVG:s32",
+        "PNYY:SVER NYNEZ",
+        "NQQE:201 J ZNVA FG",
+        "PVGL:CRA NETLY",
+        "ANZR:QBEVF TVYOREG",
+        "VQ:2012-0000234804");
+
+    qbGrfg("G3",
+        "(#NN96  Abegunzcgba Pbhagl CN PNQ) [s32]SVERJ >SVER GENAFSBEZRE / JVERF 300 A FPUNAPX NIR - OYX BS PENVT XHFGRE Pnq: 2012-0000234655\a\a" +
+        "Frag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a" +
+        "Ivfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=479850&p=19n04 sbe gur znc bs gur nern\e\a" +
+        "--\e\a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a" +
+        "\e\a" +
+        "Gryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet ",
+
+        "HAVG:s32",
+        "PNYY:SVER GENAFSBEZRE/JVERF",
+        "NQQE:300 A FPUNAPX NIR",
+        "ANZR:- OYX BS PENVT XHFGRE",
+        "VQ:2012-0000234655");
+
+    qbGrfg("G4",
+        "(#N74B  Abegunzcgba Pbhagl CN PNQ) [s32]ERF >ERFPHR (GLCR) 202 A YBOO NIR CRA NETLY JVYYVF OEBJA Znc: Tevqf:0,0 Pnq: 2012-0000229180\a\a" +
+        "Frag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a" +
+        "Ivfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=475800&p=sqo56 sbe gur znc bs gur nern\e\a" +
+        "--\e\a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a" +
+        "\e\a" +
+        "Gryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet ",
+
+        "HAVG:s32",
+        "PNYY:ERFPHR (GLCR)",
+        "NQQE:202 A YBOO NIR",
+        "PVGL:CRA NETLY",
+        "ANZR:JVYYVF OEBJA",
+        "VQ:2012-0000229180");
+
+    qbGrfg("G5",
+        "(#N71B  Abegunzcgba Pbhagl CN PNQ) [s32]JVER >JVER (TRARENY CEBOYRZ) 121 WNPXFBA NIR CRA NETLY JVYYVNZ OVRPUL Znc: Tevqf:0,0 Pnq: 2012-0000228997\a\a" +
+        "Frag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a" +
+        "Ivfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=475692&p=sro38 sbe gur znc bs gur nern\e\a" +
+        "--\e\a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a" +
+        "\e\a" +
+        "Gryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet ",
+
+        "HAVG:s32",
+        "PNYY:JVER (TRARENY CEBOYRZ)",
+        "NQQE:121 WNPXFBA NIR",
+        "PVGL:CRA NETLY",
+        "ANZR:JVYYVNZ OVRPUL",
+        "VQ:2012-0000228997");
+
+    qbGrfg("G6",
+        "(#N610  Abegunzcgba Pbhagl CN PNQ) [s32]SVERN >SVER NYNEZ 509 R ZNVA FG CRA NETLY GUR FYNGR UBGRY & CHO Znc: Tevqf:0,0 Pnq: 2012-0000226994\a\a" +
+        "Frag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a" +
+        "Ivfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=474372&p=2ro24 sbe gur znc bs gur nern\e\a" +
+        "--\e\a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a" +
+        "\e\a" +
+        "Gryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet ",
+
+        "HAVG:s32",
+        "PNYY:SVER NYNEZ",
+        "NQQE:509 R ZNVA FG",
+        "PVGL:CRA NETLY",
+        "ANZR:GUR FYNGR UBGRY & CHO",
+        "VQ:2012-0000226994");
+
+    qbGrfg("G7",
+        "(#N5FV  Abegunzcgba Pbhagl CN PNQ) [s32]CP >CUBAR PNYY 44 J ORYY NIR CRA NETLY C3211 Znc: Tevqf:0,0 Pnq: 2012-0000226490\a\a" +
+        "Frag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a" +
+        "Ivfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=474066&p=84n21 sbe gur znc bs gur nern\e\a" +
+        "--\e\a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a" +
+        "\e\a" +
+        "Gryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet ",
+
+        "HAVG:s32",
+        "PNYY:CUBAR",
+        "NQQE:44 J ORYY NIR",
+        "PVGL:CRA NETLY",
+        "ANZR:C3211",
+        "VQ:2012-0000226490");
+
+    qbGrfg("G8",
+        "(#N4WB  Abegunzcgba Pbhagl CN PNQ) [s32]SVERN >SVER NYNEZ 301 J ZNVA FG CRA NETLY GUR FNYINGVBA NEZL Znc: Tevqf:0,0 Pnq: 2012-0000223781\a\a" +
+        "Frag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a" +
+        "Ivfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=472452&p=31p06 sbe gur znc bs gur nern\e\a" +
+        "--\e\a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a" +
+        "\e\a" +
+        "Gryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet ",
+
+        "HAVG:s32",
+        "PNYY:SVER NYNEZ",
+        "NQQE:301 J ZNVA FG",
+        "PVGL:CRA NETLY",
+        "ANZR:GUR FNYINGVBA NEZL",
+        "VQ:2012-0000223781");
+
+    qbGrfg("G9",
+        "(#N4VN  Abegunzcgba Pbhagl CN PNQ) [s32]SVERI >IRUVPYR SVER 202 R ZNVA FG CRA NETLY CNFGRE SENAX Znc: Tevqf:0,0 Pnq: 2012-0000223678\a\a" +
+        "Frag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a" +
+        "Ivfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=472402&p=4182n sbe gur znc bs gur nern\e\a" +
+        "--\e\a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a" +
+        "\e\a" +
+        "Gryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet ",
+
+        "HAVG:s32",
+        "PNYY:IRUVPYR SVER",
+        "NQQE:202 R ZNVA FG",
+        "PVGL:CRA NETLY",
+        "ANZR:CNFGRE SENAX",
+        "VQ:2012-0000223678");
+
+    qbGrfg("G10",
+        "(#N4OF  Abegunzcgba Pbhagl CN PNQ) [s32]SVERN >SVER NYNEZ 513 JBBQ NIR F CRA NETLY CNAXB, NYVPR W Znc: Tevqf:0,0 Pnq: 2012-0000223306\a\a" +
+        "Frag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a" +
+        "Ivfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=472168&p=q22p4 sbe gur znc bs gur nern\e\a" +
+        "--\e\a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a" +
+        "\e\a" +
+        "Gryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet ",
+
+        "HAVG:s32",
+        "PNYY:SVER NYNEZ",
+        "NQQE:513 JBBQ NIR F",
+        "PVGL:CRA NETLY",
+        "ANZR:CNAXB, NYVPR W",
+        "VQ:2012-0000223306");
+
+    qbGrfg("G11",
+        "(#N38L  Abegunzcgba Pbhagl CN PNQ) [s32]SVERN >SVER NYNEZ 509 R ZNVA FG CRA NETLY GUR FYNGR UBGRY & CHO Znc: Tevqf:0,0 Pnq: 2012-0000221222\a\a" +
+        "Frag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\e\a" +
+        "Ivfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=470770&p=84srs sbe gur znc bs gur nern\e\a" +
+        "--\e\a" +
+        "Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\e\a" +
+        "\e\a" +
+        "Gryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet ",
+
+        "HAVG:s32",
+        "PNYY:SVER NYNEZ",
+        "NQQE:509 R ZNVA FG",
+        "PVGL:CRA NETLY",
+        "ANZR:GUR FYNGR UBGRY & CHO",
+        "VQ:2012-0000221222");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

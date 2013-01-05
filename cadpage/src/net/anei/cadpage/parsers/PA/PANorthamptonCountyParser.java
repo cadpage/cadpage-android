@@ -82,6 +82,25 @@ public class PANorthamptonCountyParser extends DispatchBParser {
     "UPPER MOUNT BETHEL TWP",
     "UPPER NAZARETH TWP",
     "WASHINGTON TWP",
-    "WILLIAMS TWP"
+    "WILLIAMS TWP",
+
+    "ALLEN",
+    "BETHLEHEM",
+    "BUSHKILL",
+    "EAST ALLEN",
+    "FORKS",
+    "HANOVER",
+    "LEHIGH",
+    "LOWER MOUNT BETHEL",
+    "LOWER NAZARETH",
+    "LOWER SAUCON",
+    "MOORE",
+    "PALMER",
+    "PLAINFIELD",
+    "UPPER MOUNT BETHEL",
+    "UPPER NAZARETH",
+    "WASHINGTON",
+    "WILLIAMS"
+
   };
 }
