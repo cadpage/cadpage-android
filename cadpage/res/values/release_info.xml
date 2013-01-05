@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12272012</string>
-  <string name="release_version">v1.5.76</string>
+  <string name="release_date">01042013</string>
+  <string name="release_version">v1.5.77</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-El Paso County, CO (alt)\n
-Oak Ridge, TN\n
-Mason County, WA\n
+Yavapai County, AZ\n
+Carroll County, MD (alt)\n
+Summit County, OH (alt)\n
+Pontotoc County, OK\n
 \n      
 Location Parsing Fixes:\n
-Jefferson County, CO\n
-Sussex County, DE\n
-Hamilton County, IN\n
-Kosciusko County, IN\n
-Polk County, IN\n
-Burlington County, NJ\n
-Gloucester County, NJ\n
-Oneida County, NY\n
-Orange County, NY\n
-Person County, NC\n
-Hamilton County, OH\n
-Westmoreland County, PA\n
-Loudon County, TN\n
-Roanoke County, VA\n
-King County, WA\n
-Mineral County, WV\n
+El Paso County, CO\n
+Rock Island County, IL\n
+Baltimore County, MD\n
+Nassau County, NY\n
+Carteret County, NC\n
+Hunt County, NC\n
+Iredell County, NC\n
+Lincoln County, NC\n
+North Marion County, OR\n
+Allegheny County, PA\n
+Loudoun County, TN\n
+Cypress Creek Comm Center, TX\n
+Nassau Bay, TX\n
+Isle of Wight County, VA\n
+Washington County, VA\n
+Raleigh County, WV\n
+\n
+Misc Fixes:\n
+Fixed crash parsing Golden, CO pages\n
   </string>  
 </resources>
   

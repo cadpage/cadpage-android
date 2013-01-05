@@ -7,7 +7,6 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Tybhprfgre Pbhagl, AW (irefvba N)
-
 Pbagnpg: Npgvir911
 Ntrapl anzr: Juvgzna Fdhner Sver Unyy
 Ybpngvba: Frjryy, AW, Havgrq Fgngrf

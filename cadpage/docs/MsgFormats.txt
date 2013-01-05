@@ -5362,7 +5362,8 @@ Sender: :ept@ept911.info
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Gloucester County, NJ (fix)
+*********************************************************
+Gloucester County, NJ (alternate)
 Contact: "rich2118@comcast.net" <rich2118@comcast.net>
 Dispatch Contact: jjones@co.gloucester.nj.us
 Sender: 777259763803
@@ -5375,7 +5376,6 @@ GC ALERT (#425253) FD 9-2: {12/31/2012 09:45:49}\nALRM     - Fire Alarm System{3
 
 FD 9-2 is station code
 B STOP ends all pages
-*********************************************************
 **********************************************************
 Snohomish, WA
 Contact: Jeff Torgerson <torgie17@gmail.com>
