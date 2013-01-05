@@ -22,6 +22,10 @@ Pbagnpg: Znex Fzvgu <fzvgl725@tznvy.pbz>
 Fraqre: puvyvsq@erqazkpnq.pbz
 Y: 50 PBGGNTR TEBIR PV OBK: 0622\aG: PUVR - 6Q2 : GEO OERNGUVAT- QVSS FCRNXVAT            \aO: EBPU CERFO  CU:\aP1: OHSSNYB EQ\aP2: QRNQ RAQ\aK: 43 LB S CEBO OERNG
 
+Pbagnpg: Gvz Ulynaq <Ulynaq@cvggfsbeqsq.bet>
+Fraqre: csqpnq@cvggfsbeqsq.bet
+Y: 25 A ZNVA FG\aG: JNGRE CEBOYRZ\aB: INPNAG UBHFR- NCG NO\aO: \aP1: F ZNVA FG\aP2: ONETR PNANY\aK: PYRNE JNGRE SYBBQVAT BHGFVQR SEBZ NCG -CBHEVAT BHG BS TNE
+
 Pbagnpg: Npgvir911
 (Fpbggfivyyr Nzo.) FPBR  O:0310 1  Y:19 PUVYV NI ,FPB - TEBHC UBZR G:6Q4    K: ZNYR 50 GEBHOYR OERNGUVAT--PYNZZL NAQ SRIREVFU--
 (Fpbggfivyyr Nzo.) FPBR  O:0320 2  Y:521 ABEGU EQ ,FPB - XNLYRVTU FGRRYYZNA ERF G:23P1   K: KSRE SEBZ 211/PYE ERD NZO SBE 19 LB S VAGBK, UK BS FHVPVQNY GRAQRAPVRF, I VBYRAG, ABG NYREG, FBHAQRQ YVXR FUR JNF OERNGUVAT NOABEZNYYL CRE 211, S U/H BA 211 
@@ -142,7 +146,26 @@ choyvp pynff ALZbaebrPbhaglJrofgreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:EBPU CERFO",
         "K:OHSSNYB EQ & QRNQ RAQ",
         "VASB:43 LB S CEBO OERNG");
-    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGvzUlynaq() {
+
+    qbGrfg("G1",
+        "Y: 25 A ZNVA FG\a" +
+        "G: JNGRE CEBOYRZ\a" +
+        "B: INPNAG UBHFR- NCG NO\a" +
+        "O: \a" +
+        "P1: F ZNVA FG\a" +
+        "P2: ONETR PNANY\a" +
+        "K: PYRNE JNGRE SYBBQVAT BHGFVQR SEBZ NCG -CBHEVAT BHG BS TNE",
+
+        "NQQE:25 A ZNVA FG",
+        "K:F ZNVA FG & ONETR PNANY",
+        "PNYY:JNGRE CEBOYRZ",
+        "ANZR:INPNAG UBHFR- NCG NO",
+        "VASB:PYRNE JNGRE SYBBQVAT BHGFVQR SEBZ NCG -CBHEVAT BHG BS TNE");
+ 
   }
   
   @Grfg

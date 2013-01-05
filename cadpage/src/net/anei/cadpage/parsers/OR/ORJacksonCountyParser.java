@@ -70,8 +70,30 @@ public class ORJacksonCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "AS", "ASHLAND",
+      "BF", "BUTTE FALLS",
+      "CJ", "CAVE JUNCTION",
+      "CL", "CRATER LAKE",
+      "CP", "CENTRAL POINT",
+      "DL", "DIAMOND LAKE",
+      "EP", "EAGLE POINT",
+      "GH", "GOLD HILL",
+      "GP", "GRANTS PASS",
+      "JV", "JACKSONVILLE",
+      "KE", "KERBY",
+      "KF", "KLAMATH FALLS",
+      "ME", "MERLIN",
       "MF", "MEDFORD",
+      "OB", "O'BRIEN",
       "PH", "PHOENIX",
-      "TA", "TALENT"
+      "PR", "PROSPECT",
+      "RR", "ROGUE RIVER",
+      "SC", "SHADY COVE",
+      "SE", "SELMA",
+      "TA", "TALENT",
+      "TR", "TRAIL",
+      "WC", "WHITE CITY",
+      "WI", "WILLIAMS",
+      "WO", "WOLF CREEK",
+      "WV", "WILDERVILLE"
   });
 }

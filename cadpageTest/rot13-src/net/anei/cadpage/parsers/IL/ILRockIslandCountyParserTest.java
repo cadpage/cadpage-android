@@ -25,6 +25,7 @@ Fraqre: PNQ@evpbrgfo.bet
 
 F: Z:91:SLV: ;3130 9GU FG;FGEHPGHER SVER/TRARENY;EV 
 F: Z:90:Hcqngr: ;2626 EBQZNA NI;FGEHPGHER SVER/TRARENY;EVN 
+F: Z:93:SLV: ;2932 EBQZNA NI;FGEHPGHER SVER/TRARENY;EVN 
 
 */
 
@@ -51,6 +52,15 @@ choyvp pynff VYEbpxVfynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:2626 EBQZNA NIR",
         "PNYY:FGEHPGHER SVER/TRARENY",
         "PVGL:EBPX VFYNAQ NEFRANY");
+
+    qbGrfg("G3",
+        "F: Z:93:SLV: ;2932 EBQZNA NI;FGEHPGHER SVER/TRARENY;EVN ",
+        "VQ:93",
+        "NQQE:2932 EBQZNA NI",
+        "ZNQQE:2932 EBQZNA NIR",
+        "PNYY:FGEHPGHER SVER/TRARENY",
+        "PVGL:EBPX VFYNAQ NEFRANY");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

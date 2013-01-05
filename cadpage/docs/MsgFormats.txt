@@ -5362,7 +5362,6 @@ Sender: :ept@ept911.info
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-*********************************************************
 Gloucester County, NJ (alternate)
 Contact: "rich2118@comcast.net" <rich2118@comcast.net>
 Dispatch Contact: jjones@co.gloucester.nj.us
@@ -5373,6 +5372,10 @@ GC ALERT (#425595) FD 9-2: {01/01/2013 10:48:28}\nRE       - Respiratory Emergen
 GC ALERT (#425415) FD 9-2: {12/31/2012 17:57:48}\nDWEL     - Dwelling Fire{2}\n749 Quail PL;B STOP
 GC ALERT (#425315) FD 9-1: {12/31/2012 12:49:16}\nALRM     - Fire Alarm System{3}\nGloucester Manor;B STOP
 GC ALERT (#425253) FD 9-2: {12/31/2012 09:45:49}\nALRM     - Fire Alarm System{3}\n820 Cooper ST;B STOP
+
+Contact:  Jay Hauss <jhauss9010@gmail.com>
+Sender: 1410000250
+FRM:GC RSAN #426585\nMSG:FD 22-1: {01/04/2013 14:52:09}\r\nSERV\5s- Service assignment (Fire){3}\r\n389 Breakneck RD;J=
 
 FD 9-2 is station code
 B STOP ends all pages
@@ -5441,6 +5444,14 @@ EMS: 81m ill weak unable to move 3rd party call bls hot at 5546 SCRANTON RD #Yor
 Alarm Activation: fire alarm   2nd floor south rooms  at 5285 SOUTH PARK AV, Hamburg  c/s: SOWLES RD   O: COURTYARDS ADULT CARE FACILITY . . 23:34:22
 EMS: 77 Years Female Conscious: allergic reaction not alert paramedic response at 5358 ADAMS ST, Hamburg  c/s: ELLSWORTH AV . . 15:30:52
 Misc Mutual Aid: NA FAST SC6 TO RESPOND at 707 STERLING DR, Orchard Park c/s: WINDWARD RD   O: MENTHOLATUM CO . . 12:10:42
+**********************************************************
+Scott County, IA
+Contact: David Liske <david.liskeusmc@gmail.com>
+Sender: secc@scott.ia.us
+(Incident) MCFD  21822 274TH ST Scott County EMS or MVC-Solo  GRANDAUGHTER  SEIZURE  E911 Info - Class of Service: RESD Special Response Info: PSAP=SECC SCOTT SD  
+(Incident) MCFD  401 S SALINA ST McCausland EMS or MVC-Solo  DAUGHTER ILL.  VOMITING.  E911 Info - Class of Service: RESD Special Response Info: PSAP=SECC MCCAUSLA
+(Incident) MCFD  210TH AVE 300TH ST Scott County EMS or MVC-Solo  Call Number 5550 was created from Call Number 5548(Dec 21 2012  4:51AM)  CALLER WAS NOT SURE IF A
+(Incident) MCFD  210TH AVE 300TH ST Scott County <NEW CALL>  E911 Info - Class of Service: WPH2 Special Response Info: PSAP=        Verify PD  Verify FD  Verify EM
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
