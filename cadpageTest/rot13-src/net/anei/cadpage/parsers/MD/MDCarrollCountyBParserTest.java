@@ -10,7 +10,6 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Errfr ISP
 Ybpngvba: Jrfgzvafgre, ZQ, Havgrq Fgngrf
 Fraqre: "SNFGnyreg Flfgrz" <snfg@zq-pneebyy-09.snfgnyregvat.pbz>
-Gvpxrg#2012123010000041
 
 (Fgngvba 09 NYREG!! (13000193)) \aOYF ZRQVPNY PNYY\a0911\aK99\a1727 ERRFR EQ, Jrfgzvafgre, ZQ\a
 (Fgngvba 09 NYREG!! (13000179)) \aHAPBAFPVBHF FHOWRPG\a0321\aK99  SE3\aRYXF PYHO @538 TBEFHPU EQ, Jrfgzvafgre, ZQ\a

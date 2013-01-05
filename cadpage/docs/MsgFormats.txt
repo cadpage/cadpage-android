@@ -2527,10 +2527,15 @@ Shelby County, OH (OHShelbyCountyParser)
 11-008684|11:09:00|:28 - SF|MICROWAVE ON FIRE @ 301 ELIZABETH ST RUSSIA BETW FIRST ST & CUL DE SAC|PHLIPOT
 11-008838|05:35:00|:28 - MIS|UKNOWN TYPE FIRE ON EAST SIDE OF ROAD NORTH OF CARDO NEAR LOY RD @ 8000-B SR 66 FT LORAMIE BETW LOY RD & BASINBURG RD|
 ***************************************************************************
-Summit County, OH (OHSummitCountyParser)
+Summit County, OH (OHSummitCountyAParser)
 (Alert Notification) 1246,Cleve-Mass Rd (N),BATH ELEMENTARY SCHOOL,AKRONF13,SERVICE CALL DISP, S1D1 TEST PAGE DO NOT RESPOND<br /><br/>\nThe enclosed information is STRICTLY CONFIDENTIAL and is intended for the use of the addressee only. Summit County, Oh and its affiliates disclaim any responsibility for unauthorized disclosure of this information other than the addressee. To unsubscribe, please email stop to remove@wensnetwork.com.
 (Alert Notification) 2075,Glengary Rd,,Akron 1,ABDOMINAL PROBLEMS 12, S1D256 YOF ABDOMINAL PAIN<br /><br/>\nThe enclosed information is STRICTLY CONFIDENTIAL and is intended for the use of the addressee only. Summit County, Oh and its affiliates disclaim any responsibility for unauthorized disclosure of this information other than the addressee. To unsubscribe, please email stop to remove@wensnetwork.com.
 (Alert Notification) 4894,Everett Rd,,Akron 26,SICK PERSON DISP, S1D1 USE GARAGE DOOR ProQA - 66 year old, Female, Conscious, Breathing. Sick Person (Specific Diagnosis).<br /><br/>\nThe enclosed information is STRICTLY CONFIDENTIAL and is intended for the use of the addressee only. Summit County, Oh and its affiliates disclaim any responsibility for unauthorized disclosure of this information other than the addressee. To unsubscribe, please email stop to remove@wensnetwork.com.
+***************************************************************************
+Wadsworth, OH (OHSummitCountyBParser)
+BRTH-DIF BREATHING,587 HIGHLAND AV,WADSWORTH,85 YOM SHORTNESS OF BREATH, 
+STRK-STROKE,1160 WILLIAMS RESERVE BV 1,WADS DIALYSIS FRESENIUS,WADSWORTH,ELDERLY FEMALE POSSIBLE STROKE, LEFT ARM WEAKNESS,
+STRK-STROKE,190 MAIN ST LOBBY,WADS TOWERS,WADSWORTH,53 YOM POSS STROKE, CONFUSED, HEADACHE,
 ***************************************************************************
 Union County, OH (OHUnionCountyParser)
 FIRE, 121 E BLAGROVE ST 1/2 RICHWOOD, BEATTY AVE,RICHWOOD//N CLINTON ST,RICHWOOD,\nHEART PROBLEMS, 10535 MAPLE DELL RD MARYSVILLE, STATE ROUTE 37,MARYSVILLE//, 53 YOF POSS HEART\nFALL/BACK INJURY, 85 ROSE ST MAGNETIC SPRINGS, W CATHERINE ST,MAGNETIC SPRINGS//W MAGNETIC ST,MAGNETIC SPRINGS, DALE FAGG FELL AND HI
@@ -5351,7 +5356,7 @@ PositionWGS84 : La = 59 grader 22,084'N    Lo = 016 grader 30,468'E
 Contact: Eric Riffle <ericriffle@ymail.com>
 Sender: :ept@ept911.info
   / AFA44 I25 MM 153-- EAST SIDE OF RD-- SM GRASS FIRE NEAR CONSTRUCTION SITE
-*********************************************************
+  / AFA22 4102 PINION DR- 10TH MED GROUP-- MALE PTY FELL- W/ MED ONS\n
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -5370,6 +5375,7 @@ GC ALERT (#425253) FD 9-2: {12/31/2012 09:45:49}\nALRM     - Fire Alarm System{3
 
 FD 9-2 is station code
 B STOP ends all pages
+*********************************************************
 **********************************************************
 Snohomish, WA
 Contact: Jeff Torgerson <torgie17@gmail.com>
