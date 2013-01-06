@@ -24,6 +24,10 @@ public class MOGreeneCountyParser extends DispatchPrintrakParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.length() == 0 && data.strName.equals("CHRISTIAN COUNTY")) {
+      data.strCity = data.strName;
+      data.strName = "";
+    }
     if (data.strCity.equals("CHRISTIAN COUNT")) data.strCity = "CHRISTIAN COUNTY";
     return true;
   }
