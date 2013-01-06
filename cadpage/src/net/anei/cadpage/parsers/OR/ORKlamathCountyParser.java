@@ -20,7 +20,7 @@ public class ORKlamathCountyParser extends FieldProgramParser {
   
   public ORKlamathCountyParser() {
     super(CITY_CODES, "KLAMATH COUNTY", "OR",
-           "DATEID! EVENT_#:IDUNIT! CALL! PRIORITY:PRI! LOCATION:ADDR! CITY:CITY! APT:APT! PREMISE:PLACE? COMMENT:INFO+");
+           "DATETIME! EVENT_#:IDUNIT! CALL! PRIORITY:PRI! LOCATION:ADDR! CITY:CITY! APT:APT! PREMISE:PLACE? COMMENT:INFO+");
   }
   
   @Override
@@ -34,10 +34,15 @@ public class ORKlamathCountyParser extends FieldProgramParser {
     return parseFields(body.split("\n"), data);
   }
   
-  private class MyDateIdField extends SkipField {
-    
-    public MyDateIdField() {
-      setPattern(Pattern.compile("\\d{1,2}/\\d{1,2}/\\d{4} \\d+"), true);
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d{1,2}/\\d{1,2}/\\d{4}) (\\d{4})");
+  private class MyDateTimeField extends DateTimeField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = DATE_TIME_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strDate = match.group(1);
+      String time = match.group(2);
+      data.strTime = time.substring(0,2) + ':' + time.substring(2,4);
     }
   }
   
@@ -60,7 +65,7 @@ public class ORKlamathCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("DATEID")) return new MyDateIdField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("IDUNIT")) return new MyIdUnitField();
     return super.getField(name);
   }
