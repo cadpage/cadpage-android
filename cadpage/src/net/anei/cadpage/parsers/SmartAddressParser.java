@@ -254,7 +254,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "SQUARE", "SQ",
         "BLVD", "BL", "BLV",
         "PARKWAY", "WAY", "PKWY", "PKY", "PK", "PY", "FWY", "WY", "HW", "EXPW", "PW",
-        "CIRCLE", "CIR", "CL", "CI",
+        "CIRCLE", "CIR", "CL", "CI", "CR",
         "TRAIL", "TRL", "TR", "TL",
         "PATH",
         "PIKE", "PKE",
@@ -281,7 +281,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_AMBIG_ROAD_SFX, 
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", 
         "RUN", "LANE", "PARK", "POINT", "RIDGE", "CREEK", "MILL", "BRIDGE", "HILLS",
-        "HILL", "TRACE", "STREET", "MILE", "BAY", "NOTCH");
+        "HILL", "TRACE", "STREET", "MILE", "BAY", "NOTCH", "END");
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
         "AVENUE", "AV", "AVE", 
@@ -328,7 +328,7 @@ public abstract class SmartAddressParser extends MsgParser {
       
     case NZ:
       setupDictionary(ID_ROAD_SFX,
-          "CR", "CRES", "CRESCENT",
+          "CRES", "CRESCENT",
           "TCE", "TERRACE");
     }
   }
@@ -769,7 +769,27 @@ public abstract class SmartAddressParser extends MsgParser {
       
       // Otherwise, see if we can find a road starting from the next token
       if (sEnd < 0) sEnd = findRoadEnd(sAddr+1, 2);
-      if (sEnd > 0) break;
+      if (sEnd > 0) {
+        
+        // We found one.  But before accepting it lets check for one
+        // particular special case.  If the start address position is not locked
+        // and the road suffix that ended this address also happens to be a 
+        // numbered route prefix, the see if we can get a better address
+        // match treating treating that as a number route prefix
+        if (startAddress < 0 && isType(sEnd-1, ID_ROUTE_PFX)) {
+          int tmp = sEnd-2;
+          while (tmp > 0 && isType(tmp, ID_DIRECTION)) tmp--;
+          if (tmp > sAddr) {
+            int saveStartAddress =  startAddress;
+            startAddress = tmp;
+            if (parseSimpleAddress(result)) return true;
+            startAddress = saveStartAddress;
+          }
+        }
+        
+        // Not problem, this will be the end of the address
+        break;
+      }
       
       // This isn't what we are looking for
       // Increment the search index and look for something else
@@ -1620,6 +1640,8 @@ public abstract class SmartAddressParser extends MsgParser {
         // An intersection marker marks the end of things
         if (isType(end, ID_CONNECTOR)) return failIndex;
 
+        // See if this is a normal road suffix
+        // Skip if it an ambiguous road suffix and a real road suffix follows it
         good = true;
         if (isType(end, ID_ROAD_SFX) &&
             (! (isType(end, ID_AMBIG_ROAD_SFX) && isType(end+1, ID_ROAD_SFX)))) {

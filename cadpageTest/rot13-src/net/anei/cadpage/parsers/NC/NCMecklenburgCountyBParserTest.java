@@ -95,7 +95,8 @@ choyvp pynff APZrpxyraohetPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:13538 Vqyrsvryq Ya",
         "CEV:P",
         "PBQR:30",
-        "PNYY:Genhzngvp vawhevrf,fcrpvspVqyr Qe/Zvyyf Raq Pe",
+        "PNYY:Genhzngvp vawhevrf,fcrpvspVqyr Qe /",
+        "K:Zvyyf Raq Pe",
         "HAVG:Zu212",
         "ZNC:381381/Q8",
         "VQ:06202011-335");
@@ -251,8 +252,8 @@ choyvp pynff APZrpxyraohetPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2721 Anapr Pbir Eq",
         "CEV:P",
         "PBQR:13",
-        "PNYY:Qvnorgvp ceboyrzf Zvyyjbbq Pe/Gnyy",
-        "K:Zrnqbj Eq",
+        "PNYY:Qvnorgvp ceboyrzf",
+        "K:Zvyyjbbq Pe / Gnyy Zrnqbj Eq",
         "HAVG:PBBE1",
         "ZNC:292292/U6",
         "VQ:01052012-163");

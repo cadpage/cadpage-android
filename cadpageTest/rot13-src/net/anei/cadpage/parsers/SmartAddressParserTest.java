@@ -48,6 +48,10 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
     
+    qbGrfg(PNYY, "10-50 Ebyybire 4062 A PE 225 J",
+        "PNYY:10-50 Ebyybire", 
+        "NQQE:4062 A PE 225 J");
+    
     qbGrfg(NQQE, SYNT_BAYL_PEBFF | SYNT_PEBFF_SBYYBJF, "XHLXRAQNUY EQ F EBYYVAT B",
         "K:XHLXRAQNUY EQ");
     

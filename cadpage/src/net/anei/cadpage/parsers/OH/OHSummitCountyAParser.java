@@ -70,6 +70,7 @@ public class OHSummitCountyAParser extends FieldProgramParser {
   private class HouseNumberField extends Field {
     @Override
     public void parse(String field, Data data) {
+      if (!NUMERIC.matcher(field).matches()) abort();
       if (!field.equals("0")) data.strAddress = field;
     }
   }
