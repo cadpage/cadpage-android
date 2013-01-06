@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NCIredellCountyParser extends MsgParser {
   
-  private static final Pattern MASTER_PTN = Pattern.compile("(F[RD]\\d+|[A-Z]{1,2}FD) *([^,]+), *(.*)");
+  private static final Pattern MASTER_PTN = Pattern.compile("(F[RD]\\d+|[A-Z]{1,4}(?= )) *([^,]+), *(.*)");
   
   public NCIredellCountyParser() {
     super("IREDELL COUNTY", "NC");

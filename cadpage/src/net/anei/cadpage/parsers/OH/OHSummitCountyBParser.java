@@ -10,13 +10,15 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class OHSummitCountyBParser extends FieldProgramParser {
   
+  private static final Pattern OPERATOR_PTN = Pattern.compile("^[a-z]+: +", Pattern.CASE_INSENSITIVE);
+  
   public OHSummitCountyBParser() {
     this("SUMMIT COUNTY", "OH");
   }
   
   OHSummitCountyBParser(String defCity, String defState) {
     super(CITY_LIST, defCity, defState,
-           "CALL ADDR PLACE? CITY! INFO+");
+           "CALL ADDR ( CITY | PLACE CITY | ) INFO+");
   }
   
   @Override
@@ -26,6 +28,7 @@ public class OHSummitCountyBParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    body = OPERATOR_PTN.matcher(body).replaceFirst("");
     return parseFields(body.split(","), 3, data);
   }
   
@@ -127,6 +130,9 @@ public class OHSummitCountyBParser extends FieldProgramParser {
     
     
     // Medina County
-    "WADSWORTH"  
+    "WADSWORTH",
+    "WADSWORTH TOWNSHIP",
+    "WADSWORTH TWP"
+    
   };
 }

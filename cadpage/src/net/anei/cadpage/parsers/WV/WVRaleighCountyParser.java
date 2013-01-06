@@ -65,10 +65,10 @@ public class WVRaleighCountyParser extends DispatchBParser {
     "BIG STICK",
     "BLUE JAY",
     "BLUE JAY 6",
-    "BOLT, WEST VIRGINIA",
+    "BOLT",
     "BOWYER",
     "BRADLEY",
-    "BRAGG",
+    "BRAGG", // new
     "CEDAR",
     "CIRTSVILLE",
     "COAL CITY",
