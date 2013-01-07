@@ -6010,7 +6010,23 @@ Sender: waterwitch71@atlanticbbn.net
 (Messenger 911) AMBO CALL\n394 PILOT TOWN RD\nCAMP SHADOW BROOK RD\nOAKWOOD RD\nCONO\n15:07:32\n13000024\nAMBO (AMBO CALL )\n
 (Messenger 911) SICK PERSON\n127 DOWNIN LN                 \nPD\n10:42:29\n13000013\n26A11 (SICK PERSON )\n
 **********************************************************
+Frederick County, VA
+Contact: Active911
+Agency name: Valley Medical Transport
+Location: Winchester, VA, United States
+Sender: gdalton@valleyhealthlink.com
+
+(- part 1 of 1) RC:Go to post MARTINSBURG
+(- part 1 of 1) RC:Run#31119/CALL:17:25/DISP:18:42/ENR:18:57/ATS:19:24/TRA:20:19/ATD:20:36/AVA:20:36
+(- part 1 of 1) RC:Run#31059/CALL:14:03/DISP:16:11/ENR:16:13/ATS:17:06/TRA:17:30/ATD:18:17/AVA:18:57
+(- part 1 of 1) RC:Run# 31119/BLS/INPATIENT DISCHARGE/Scheduled/19:00/CITY HOSPITAL//604/BARBOUR/ PHYLLIS/CANTERBURY OF SHEPHERDSTOWN///MARTINSBURG/SHEPHERDSTOWN/BRADYCARDIA/ NO NEEDS/ NO ISO/ 150LBS
+(- part 1 of 1) RC:Run# 31059/ALS/INTERHOSPITAL TRANSFER/Non-Immediate/14:48/1 HEALTHY WAY//er curtain 1/PHIPPS/ LUELLA/WINCHESTER MEDICAL CENTER//341/BERKELEY SPRINGS/WINCHESTER/mi /monitor/heprin/02/119 lbs
+(- part 1 of 1) RC:Run#31061/CALL:12:57/DISP:14:05/ENR:14:06/ATS:14:48/TRA:15:08/ATD:15:56/AVA:16:11
+**********************************************************
 **********************************************************
 * EOF
 **********************************************************
 **********************************************************
+
+
+

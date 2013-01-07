@@ -18,7 +18,7 @@ public class GAWhitfieldCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "7064632252";
+    return "777";
   }
   
   @Override
