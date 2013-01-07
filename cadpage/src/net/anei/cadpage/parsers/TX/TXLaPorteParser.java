@@ -11,15 +11,15 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
  * Nassau Bay (Harris County, TX)  
  */
 
-public class TXNassauBayParser extends DispatchOSSIParser {
+public class TXLaPorteParser extends DispatchOSSIParser {
   
   private static final Pattern PREFIX = Pattern.compile("^\\d*:");
   
-  public TXNassauBayParser() {
-    this("NASSAU BAY", "TX");
+  public TXLaPorteParser() {
+    this("LA PORTE", "TX");
   }
   
-  protected TXNassauBayParser(String defCity, String defState) {
+  protected TXLaPorteParser(String defCity, String defState) {
     super(CITY_CODES, defCity, defState,
           "( FYI SRC? CALL! ADDR! UNIT? CITY? CODE? DATETIME! | CANCEL ADDR! CITY? ) INFO+");
   }

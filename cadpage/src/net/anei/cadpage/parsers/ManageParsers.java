@@ -173,7 +173,8 @@ public class ManageParsers {
         "NCGrahmCounty",      "NCGrahamCounty",         // 10/04/2012
         "CTMontville",        "CTNewLondonCounty",      // 10/13/2012
         "VAFranklinCountyB",  "VAFranklin",             // 11/15/2012
-        "VAFranklinCountyA",  "VAFranklinCounty"        // 11/15/2012
+        "VAFranklinCountyA",  "VAFranklinCounty",       // 11/15/2012
+        "TXNassauBay",        "TXLaPorte"               // 01/06/2012
         
   });
 

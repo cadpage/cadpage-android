@@ -230,10 +230,10 @@ Fraqre: PNQ@bffvpnqcntvat.pbz
  */
 
 
-choyvp pynff GKAnffnhOnlCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff GKYnCbegrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp GKAnffnhOnlCnefreGrfg() {
-    frgCnefre(arj GKAnffnhOnlCnefre(), "ANFFNH ONL", "GK");
+  choyvp GKYnCbegrCnefreGrfg() {
+    frgCnefre(arj GKYnCbegrCnefre(), "YN CBEGR", "GK");
   }
   
   @Grfg
@@ -2036,6 +2036,6 @@ choyvp pynff GKAnffnhOnlCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj GKAnffnhOnlCnefreGrfg().trarengrGrfgf("G1");
+    arj GKYnCbegrCnefreGrfg().trarengrGrfgf("G1");
   }
 }

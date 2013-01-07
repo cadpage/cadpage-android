@@ -78,6 +78,7 @@ Fhowrpg:3005 SENAXF QE ZBERURNQ PVGL, 12-149001,\aPRP:19:47, FGNO - THAFUBG - CR
 Fhowrpg:812 FURCNEQ FG 220 ZBERURNQ PVGL, ZQY, S\aPRP:01:59, SNYY BPN: 24-13-0021\a
 rvsqpnyyf+pns_=2522416626=igrkg.pbz@tznvy.pbz (YRR NIR / RZRENYQ QE RZRENYQ VFYR, ZQY, SQY, YQY, 13-000855, 15) PRP:17:05, GENSSVP FGBC
 Fhowrpg:4034 NERAQRYY FG ZBERURNQ PVGL, ZQY, SQY\aPRP:27:52, FVPX CREFBA BPN: 24-13-0040\a
+rvsqpnyyf+pns_=2522416626=igrkg.pbz@tznvy.pbz (8102 RZRENYQ QE RZRENYQ VFYR, ZQY, SQY, YQY, 13-001396, 01) PRP:06:15, QVFG - AHVF - SVTUG VC
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jrfgrea Pnegrerg Sver  RZF
@@ -609,6 +610,14 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ZBERURNQ PVGL",
         "VQ:24-13-0040",
         "PNYY:FVPX CREFBA");
+
+    qbGrfg("G13",
+        "rvsqpnyyf+pns_=2522416626=igrkg.pbz@tznvy.pbz (8102 RZRENYQ QE RZRENYQ VFYR, ZQY, SQY, YQY, 13-001396, 01) PRP:06:15, QVFG - AHVF - SVTUG VC",
+        "NQQE:8102 RZRENYQ QE",
+        "PVGL:RZRENYQ VFYR",
+        "VQ:13-001396",
+        "GVZR:01:06:15",
+        "PNYY:QVFG - AHVF - SVTUG VC");
 
   }
   
