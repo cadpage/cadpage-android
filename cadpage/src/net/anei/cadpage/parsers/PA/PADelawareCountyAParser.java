@@ -10,7 +10,7 @@ public class PADelawareCountyAParser extends FieldProgramParser {
   
   public PADelawareCountyAParser() {
     super(CITY_CODES, "DELAWARE COUNTY", "PA",
-           "( TIME CALL ADDR/S X | UPDATE? ADDR/S1 X/Z? UNIT GPS? ) INFO+");
+           "( TIME CALL ADDR/S! X | UPDATE? ADDR/S1! X/Z? UNIT! GPS? ) INFO+");
   }
   
   @Override
@@ -59,7 +59,7 @@ public class PADelawareCountyAParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("UNIT")) return new UnitField("(?:[A-Z]+\\d+|\\d{3}[A-Z]?)(?:/.*)?", true);
     if (name.equals("GPS")) return new GPSField("([-+]\\d+\\.\\d+ +[-+]\\d+\\.\\d+)\\b.*", true);
-    if (name.equals("UPDATE")) return new SkipField("\\[Update\\]");
+    if (name.equals("UPDATE")) return new SkipField("\\[Update\\]", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }

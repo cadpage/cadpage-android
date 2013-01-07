@@ -20,9 +20,6 @@ public class ORCrookCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-
-    if (!subject.contains("NEW INCIDENT")) return false;
-    
     body = body.replace("\nEVENT # ","\nEVENT:")
                .replace("\nPRIORITY ","\nPRIORITY:").replace("\nLOCATION ","\nLOCATION:")
                .replace("\nCITY ","\nCITY:").replace("\nAPT ","\nAPT:");
