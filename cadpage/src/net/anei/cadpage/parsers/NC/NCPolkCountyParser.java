@@ -50,8 +50,10 @@ public class NCPolkCountyParser extends DispatchSouthernParser {
     }
     
     // Fix some after market additions
-    data.strName = data.strPlace;
-    data.strPlace = "";
+    if (data.strName.length() == 0) {
+      data.strName = data.strPlace;
+      data.strPlace = "";
+    }
     
     Parser p = new Parser(data.strSupp);
     p.getLastOptional(". ");
