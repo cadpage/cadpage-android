@@ -7,7 +7,6 @@ import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
 public class DispatchSouthernParser extends FieldProgramParser {
   
   // Flag indicating  a leading dispatch name is required
@@ -37,6 +36,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
   // Flag indicating there is no name and phone following the address
   public static final int DSFLAG_NO_NAME_PHONE = 0x80;
   
+  // Flag indicating first part of message may have been moved to subject
+  public static final int DSFLAG_SUBJECT_FIRST = 0x100;
+  
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
   private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) (\\d\\d:\\d\\d:\\d\\d)\\b");
   private static final Pattern OPT_ID_TIME_PTN = Pattern.compile("\\b(?:(\\d{2,4}-?\\d{4,8}) )?(\\d\\d:\\d\\d:\\d\\d)(?: |$)");
@@ -52,6 +54,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean inclCross;
   private boolean inclCrossNamePhone;
   private boolean noNamePhone;
+  private boolean subjectFirst;
   private CodeSet callSet;
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {
@@ -74,6 +77,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     this.inclCross = (flags & DSFLAG_FOLLOW_CROSS) != 0;
     this.inclCrossNamePhone = (flags & DSFLAG_CROSS_NAME_PHONE) != 0;
     this.noNamePhone = (flags & DSFLAG_NO_NAME_PHONE) != 0;
+    this.subjectFirst = (flags & DSFLAG_SUBJECT_FIRST) != 0;
     
     // Program string needs to be built at run time
     StringBuilder sb = new StringBuilder();
@@ -92,8 +96,44 @@ public class DispatchSouthernParser extends FieldProgramParser {
 
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    subject = subject.trim();
+    boolean badTime = false;
+    String callId = "";
     
+    if (subjectFirst && subject.length() > 0) {
+      Matcher match = SUB_MARKER.matcher(body);
+      if (match.find()) {
+        String operId = match.group(1);
+        body = body.substring(match.end(1));
+        if (!SUB_TRAILER.matcher(subject).find()) {
+          if (subject.contains(",") && !subject.endsWith(",")) subject += ',';
+          subject += " 00";
+          badTime = true;
+        }
+        if (operId != null) subject = operId + subject;
+        body = subject + ':' + body;
+      }
+      
+      match = CALL_ID_PTN.matcher(body);
+      if (match.find()) {
+        callId = match.group(1);
+        body = body.substring(0,match.start());
+      }
+    }
+    
+    if (!doParseMsg(body, data)) return false;
+    if (badTime) data.strTime = "";
+    
+    if (data.strCallId.length() == 0) data.strCallId = callId;
+    return true;
+  }
+  
+  private final static Pattern SUB_MARKER = Pattern.compile("^([A-Za-z0-9]+:)?\\d\\d:\\d\\d[ ,;]");
+  private final static Pattern SUB_TRAILER = Pattern.compile(" \\d\\d$");
+  private final static Pattern CALL_ID_PTN = Pattern.compile(" +OCA: *(\\d\\d-\\d\\d-\\d{4})$");
+
+  private boolean doParseMsg(String body, Data data) {
     // Message must always start with dispatcher ID, which we promptly discard
     if (leadDispatch || optDispatch) {
       Matcher match = LEAD_PTN.matcher(body);
