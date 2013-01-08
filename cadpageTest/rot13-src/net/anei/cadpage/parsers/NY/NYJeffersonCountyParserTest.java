@@ -151,7 +151,7 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:NQNZF",
         "VASB:PUVZARL SVER",
         "CUBAR:(315)783-7406",
-        "TCF:+043.910222 -075.996056");
+        "TCF:+43.910222,-75.996056");
 
     qbGrfg("G1",
         "(QVFCNGPU:29,1) GRFG-SVER/RZF|310 F ZNVA FG; ZNAAFIVYYR ZNABE SVER QRCNEG:ZNAAFIVYYR(I)|",
@@ -179,7 +179,7 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:JNGREGBJA",
         "VASB:GENPGBE GENVYRE GBJVAT GNAXRE BA SVER IRU VF CHYYRQ BIRE GB GUR FVQR",
         "CUBAR:(440)654-7000",
-        "TCF:+043.926719 -075.972433");
+        "TCF:+43.926719,-75.972433");
 
     qbGrfg("G3",
         "(QVFCNGPU:7,17,20,34,24) BHGQBBE SVER|13650 PBHAGL EBHGR 76:NQNZF(G)|PE 76 QBJA GUR EBNQ SEBZ PE 75 YNETR TENFF SVER WHFG ORSBER XRIVA FVZCFBA'F ERFVQRAPR   PNYYONPX=(315)286-9652 YNG=  YBA= HAP=    04315-286-9652 07/31 13:23:16  012PNHGVBA:  JVERYRFF PNYY         JVERYRFF-NG&G ZBOVYVGL(GPF) JCU1   10435         PBHAGL EBHGR 77                                NQNZF                         ALPRYY = 3005  FRPGBE = 1                             YNG:+043.820333  YBA:-076.087806RYI:+00000 PBS:0         PBC:000ZGA:315-511-4606       PCS:NGGZB-911nv.pbz-            RFA:00888                                IREVSL CQ                       IREVSL SQ                       IREVSL RZF             :4103 ERDHRFGVAT NQNZF NAQ ORYIVYYR SVER :4103 ERDHRFG NQNZF PRAGRE JVGU GURVE OEHFU GEHPX :4103 BA FPRAR YNENTR TENFF SVER ERDHRFGVAT GNAXREF NAQ OEHFU GEHPX SEBZ G/JNGREGBJA NAQ URAQREFBA SVER :271 NAQ 252 RA :541 RA ERDHRFGVAT NQQ ZC GB FGNGVBA SBE GNAXRE :2AQ NPG SBE ORYIVYYR SVER :URAQREFBA OEHPU GEHPX RA :4131 BA FP\a" +
@@ -192,7 +192,7 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:NQNZF",
         "VASB:PE 76 QBJA GUR EBNQ SEBZ PE 75 YNETR TENFF SVER WHFG ORSBER XRIVA FVZCFBA'F ERFVQRAPR",
         "CUBAR:(315)286-9652",
-        "TCF:+043.820333 -076.087806");
+        "TCF:+43.820333,-76.087806");
 
     qbGrfg("G4",
         "(QVFCNGPU:TRZF,7SE) OERNGUVAT CEBOY|201 SENAXYVA FG:OEBJAIVYYR(I)|  02315-782-2016 08/03 02:18:14  020                                PURNY, GRERFN U             ERFQ     201         SENAXYVA                                       OEBJAIVYYR IVYYNTR            AL                                                    YNG:             YBA:           RYI:       PBS:          PBC:   ZGA:315-782-2016       PCS:IREVM-911nv.pbz-            RFA:00841                                GEV IVYYNTR CBYVPR              OEBJAIVYYR SVER                 QRKGRE NZOHYNAPR",
@@ -216,7 +216,7 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:OEBJAIVYYR",
         "VASB:62/Z FGHAT OL ORR VF FUNXVAT",
         "CUBAR:(315)767-1721",
-        "TCF:+044.011874 -076.046891");
+        "TCF:+44.011874,-76.046891");
 
     qbGrfg("G7",
         "(QVFCNGPU:40,46,7SNFG,QRCP) FGEHPGHER SVER|FGNGR EBHGR 180 & ZVYVGNEL EQ:UBHAFSVRYQ(G)|  PNYYONPX=(315)783-8034 YNG=+043.972231 YBA=-076.047256 HAP=   03315-783-8034 08/03 20:57:11  066                                Irevmba Jveryrff            JCU223875            ALF Ebhgr 180 - FR Frpgbe                      Qrkgre                        AL                                                    YNG:+043.972231  YBA:-076.047256RYI:+00000 PBS:36        PBC:095ZGA:315-511-4642       PCS:IMJ  -911nv.pbz-            RFA:01315",
@@ -225,7 +225,7 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:FGNGR 180 & ZVYVGNEL EQ",
         "PVGL:UBHAFSVRYQ",
         "CUBAR:(315)783-8034",
-        "TCF:+043.972231 -076.047256");
+        "TCF:+43.972231,-76.047256");
 
     qbGrfg("G8",
         "(QVFCNGPU:TRZF3,7SE) OERNGUVAT CEBOY|24272 CREPU YNXR EQ:OEBJAIVYYR(G)|18 LRNE BYQ SRZNYR NFGUZN NGGNPX  PNYYONPX=(315)771-2309 YNG=  YBA= HAP=    06315-771-2309 08/03 21:44:23  010                                Irevmba Jveryrff            JCU1                 Fnyzba Eha Znyy Ebnq - AJ Frpgbe               Jngregbja                     AL                                                    YNG:+043.984301  YBA:-075.947843RYI:+00000 PBS:1709      PBC:100ZGA:315-511-4649       PCS:IMJ  -911nv.pbz-            RFA:01315",
@@ -234,7 +234,7 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:OEBJAIVYYR",
         "VASB:18 LRNE BYQ SRZNYR NFGUZN NGGNPX",
         "CUBAR:(315)771-2309",
-        "TCF:+043.984301 -075.947843");
+        "TCF:+43.984301,-75.947843");
 
     qbGrfg("G9",
         "(QVFCNGPU:7) JVERF/GERR QBJA|24883 PBHAGL EBHGR 54:OEBJAIVYYR(G)|GERR OENAPU YNLVAT BA N CEVZNEL YVAR",
@@ -252,7 +252,7 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:OEBJAIVYYR",
         "VASB:P1 CNFFREOL FGNGRQ FHOWRPG YNLVAT SNPR QBJA VA TENIRY CNEXVAT YBG OYHR GEHPX VA CEXVAT YBG",
         "CUBAR:(315)681-0124",
-        "TCF:+044.020528 -075.918472");
+        "TCF:+44.020528,-75.918472");
 
     qbGrfg("G11",
         "(QVFCNGPU:39,21,7SNFG,QRCP) FGEHPGHER SVER|21149 FGNCYVA EQ:EHGYNAQ(G)|ONEA BA SVER.  JUBYR GUVATF VF TBAR, SHYY BS PBJF.  PNYYONPX=(315)408-6712 YNG=  YBA= HAP=    01315-408-6712 08/08 04:02:42  078                                Irevmba Jveryrff            JCU1                 Ebhgr 126, Fgngr Fgerrg Uvyy - AR Frpgbe       Jngregbja                     AL                                                    YNG:+043.953670  YBA:-075.842400RYI:+00000 PBS:1709      PBC:100ZGA:315-511-4634       PCS:IMJ  -911nv.pbz-            RFA:01315             :PYBFR GB SERRFGLYR ONEA NAQ UBHFR",
@@ -261,7 +261,7 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:EHGYNAQ",
         "VASB:ONEA BA SVER. JUBYR GUVATF VF TBAR, SHYY BS PBJF.",
         "CUBAR:(315)408-6712",
-        "TCF:+043.953670 -075.842400");
+        "TCF:+43.953670,-75.842400");
 
     qbGrfg("G12",
         "(QVFCNGPU:7) CBYR SVER|BYQ EBZR EQ & FGNGR EBHGR 12S:UBHAFSVRYQ(G)|CBYR NEPVAT FRPBAQ CBYR VA SEBZ EBHGR 12S.  ABGUVAT BA GUR JVER NAQ AB GENAFSBEZRE GURER.  PNYYONPX=(315)777-7493 YNG=+043.989687 YBA=-075.947199 HAP=   01315-777-7493 08/08 04:37:18  085                                Irevmba Jveryrff            JCU2                 Fnyzba Eha Znyy Ebnq - AR Frpgbe               Jngregbja                     AL                                                    YNG:+043.989687  YBA:-075.947199RYI:+00000 PBS:19        PBC:095ZGA:315-511-4666       PCS:IMJ  -911nv.pbz-            RFA:01315",
@@ -270,7 +270,7 @@ choyvp pynff ALWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:UBHAFSVRYQ",
         "VASB:CBYR NEPVAT FRPBAQ CBYR VA SEBZ EBHGR 12S. ABGUVAT BA GUR JVER NAQ AB GENAFSBEZRE GURER.",
         "CUBAR:(315)777-7493",
-        "TCF:+043.989687 -075.947199");
+        "TCF:+43.989687,-75.947199");
 
     qbGrfg("G13",
         "(QVFCNGPU:17,7) PURFG CNVA|23129 BYQ FGNGR EQ:UBHAFSVRYQ(G)|WHFGVA FCRAPRE ERFQ -- 38L/Z -- FRIRER PURFG CNVA ENQVNGVVAT QBJA UVF NEZ 639-6389 :CebDN Zrqvpny Erpbzzraqrq Qvfcngpu Yriry = 10Q04 Lbh ner erfcbaqvat gb n cngvrag jvgu purfg cnva.  Gur cngvrag vf n 38-lrne-byq  znyr, jub vf pbafpvbhf naq oernguvat. Pynzzl.  Purfg Cnva (Aba-Genhzngvp).  Pnyyre Fgngrzrag: PURFG CNVA ENQVNGVAT QBJA NEZ.  1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2. Vg'f abg xabja vs ur vf oernguvat abeznyyl.  3. Ur vf abg punatvat pbybe.  4. Ur vf pynzzl.\a" +

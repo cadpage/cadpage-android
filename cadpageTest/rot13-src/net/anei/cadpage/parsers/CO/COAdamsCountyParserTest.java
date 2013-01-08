@@ -125,7 +125,7 @@ choyvp pynff PBNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:R-470 & R 56GU NIR",
         "GVZR:22:58:36",
         "PNYY:ABAFGE",
-        "TCF:-104.701552 +39.798521",
+        "TCF:+39.798521,-104.701552",
         "VASB:JU");
     
     qbGrfg("G9",
@@ -202,7 +202,7 @@ choyvp pynff PBNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:28 OBJVR PG",
         "PNYY:RZF",
         "GVZR:07:19:15",
-        "TCF:-104.987583 +39.829699",
+        "TCF:+39.829699,-104.987583",
         "VASB:76 LE BYQ SRZNYR VF NGGRAQRQ");
 
     qbGrfg("G3",
@@ -211,7 +211,7 @@ choyvp pynff PBNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZF",
         "ANZR:ARMN FHZZREFBA",
         "GVZR:03:10:20",
-        "TCF:-104.906366 +39.795538",
+        "TCF:+39.795538,-104.906366",
         "VASB:ECF VF IREL QVMML NAQ ANHGVF PEK ANHFVBHF VF P/O/ UBZR NYBAR UK BS UVTU YOBBQ CERFFHER SRYYR FYVXG URER VF ONAQ NEBHAQ URE PURFG");
 
     qbGrfg("G4",
@@ -262,7 +262,7 @@ choyvp pynff PBNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZF",
         "ANZR:NZNAQN YLBAF",
         "GVZR:07:52:04",
-        "TCF:-104.986639 +39.844805",
+        "TCF:+39.844805,-104.986639",
         "VASB:FBA UNF N GRZC BS 103 2 1/2 LBN ZNYR P/O UNF UNQ N SRIRE FVAPR SEVQNL UNF ORRA GB GUR QBPGBE FRIRENY GVZRF VF BA ZRQVPNGVBAF");
 
     qbGrfg("G10",

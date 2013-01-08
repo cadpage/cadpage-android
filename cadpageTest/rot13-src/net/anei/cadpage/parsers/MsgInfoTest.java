@@ -141,7 +141,7 @@ choyvp pynff ZftVasbGrfg {
     qngn.cnefre = arj TrarenyCnefre();
     
     ZftVasb vasb = arj ZftVasb(qngn);
-    nffregRdhnyf(gvgyr, erfhyg, vasb.trgZncNqqerff(snyfr, ahyy, ahyy));
+    nffregRdhnyf(gvgyr, erfhyg, vasb.trgZncNqqerff(2, ahyy, ahyy));
   }
   
   cevingr ibvq qbZncCynprGrfg(Fgevat gvgyr, Fgevat erfhyg, Fgevat nqqerff, Fgevat cynpr) { 
@@ -155,7 +155,7 @@ choyvp pynff ZftVasbGrfg {
     qngn.cnefre = arj TrarenyCnefre();
     
     ZftVasb vasb = arj ZftVasb(qngn);
-    nffregRdhnyf(gvgyr, erfhyg, vasb.trgZncNqqerff(snyfr, ahyy,ahyy));
+    nffregRdhnyf(gvgyr, erfhyg, vasb.trgZncNqqerff(2, ahyy,ahyy));
   }
 
 }

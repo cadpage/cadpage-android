@@ -30,7 +30,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 26;
+  private static final int PREFERENCE_VERSION = 27;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -462,6 +462,11 @@ public class ManagePreferences {
   
   public static String mapNetworkChk() {
     return prefs.getString(R.string.pref_map_network_chk_key);
+  }
+  
+  public static int gpsMapOption() {
+    String val = prefs.getString(R.string.pref_gps_map_option_key);
+    return val.charAt(0) - '0';
   }
   
   public static String reportPosition() {

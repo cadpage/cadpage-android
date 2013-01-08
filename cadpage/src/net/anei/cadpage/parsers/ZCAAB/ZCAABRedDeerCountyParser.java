@@ -29,6 +29,7 @@ public class ZCAABRedDeerCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!parseFields(body.split("\n"), data)) return false;
+    setGPSLoc(data.strGPSLoc, data);
     if (data.strAddress.startsWith("Unknown Location -") && data.strGPSLoc.length() > 0) {
       data.strAddress = data.strGPSLoc;
     }

@@ -61,4 +61,9 @@ public class PABlairCountyParser extends FieldProgramParser {
     if (name.equals("GPS2")) return new MyGPS2Field();
     return super.getField(name);
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
 }

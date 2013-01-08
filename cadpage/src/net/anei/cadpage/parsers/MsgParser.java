@@ -19,12 +19,166 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * This class is responsible for parsing useful information from an SMS page message
  */
 public abstract class MsgParser {
+  
+  private static final int GPS_POS_LAT =  0x01;  // Lattitude should be positive
+  private static final int GPS_NEG_LAT =   0x02;  // Lattitude should be negative
+  private static final int GPS_POS_LONG = 0x04;  // Longitidue should be positive
+  private static final int GPS_NEG_LONG =  0x08;  // Longitude should be negative
+  private static final int GPS_LARGE_LAT = 0x10;  // Abs value of latitude should exceed abs value of longitude
+  private static final int GPS_LARGE_LONG = 0x20;  // Abs value of longitude should exceed abs value of latitidue
 
   /**
    * Country code passed to constructor to set up tables for specific countries
+   * The country code is also responsible for converting GPS coordinates to a normal
+   * Google standard form.  Because there is no standard as to which coordinate comes
+   * first and whether or not they are signed, this conversion has to make various
+   * assumptions about what legitimate GPS coordinates look like that can vary from
+   * country to country
    */
-  public enum CountryCode {US, UK, AU, NZ};
+  public static enum CountryCode {
+    
+    US(GPS_POS_LAT | GPS_NEG_LONG | GPS_LARGE_LONG), 
+    UK(GPS_POS_LAT | GPS_LARGE_LAT), 
+    AU(GPS_NEG_LAT | GPS_POS_LONG | GPS_LARGE_LONG), 
+    NZ(GPS_NEG_LAT | GPS_POS_LONG | GPS_LARGE_LONG);
+    
+    private int gpsFlags;
+    
+   CountryCode(int gpsFlags) {
+      this.gpsFlags = gpsFlags;
+    }
+
+   /**
+    * Look for GPS coordinates in address line.  If found, parse them into a
+    * set of coordinates that Google Maps will recognize
+    */
+   public String parseGPSCoords(String address) {
+     Matcher match = GPS_PATTERN.matcher(address);
+     if (!match.find()) return null;
+
+     // Calculate the coordinate values
+     double c1 = cvtGpsCoord(match.group(2));
+     double c2 = cvtGpsCoord(match.group(4));
+     
+     // If they used the X: ... Y: ... labels, swap the parameters
+     // because we and google expect the latitude to come first
+     if (match.group(1) != null && match.group(3) != null) {
+       double tmp = c1;
+       c1 = c2;
+       c2 = tmp;
+     }
+     
+     // There isn't a consistent standard as to which is latitude and
+     // which is longitude, so we will have to make some guesses.
+     double latitude, longitude;
+     
+     // First step is to identify which is latitude and which is longitude
+     // If one must be larger hat the other, we can use their relative sizes
+     // to determine that
+     double ac1 = Math.abs(c1);
+     double ac2 = Math.abs(c2);
+     if (ac1 == 1.0 && ac2 == 1.0) return null;
+     if ((gpsFlags & GPS_LARGE_LAT) != 0) {
+       if (ac1 > ac2) {
+         latitude = c1;
+         longitude = c2;
+       } else {
+         latitude = c2;
+         longitude = c1;
+       }
+     } else if ((gpsFlags & GPS_LARGE_LONG) != 0) {
+       if (ac2 > ac1) {
+         latitude = c1;
+         longitude = c2;
+       } else {
+         latitude = c2;
+         longitude = c1;
+       }
+     } 
+     
+     // No luck there  there are some other tricks we can try if one
+     // coordinate is negative but the other is not.  Then check to
+     // see which coordinate is supposed to be negative
+     else if (c1 < 0 ^ c2 < 0) {
+       if ((gpsFlags & GPS_NEG_LAT|GPS_NEG_LONG) == GPS_NEG_LAT) {
+         if (c1 < 0) {
+           latitude = c1;
+           longitude = c2;
+         } else {
+           latitude = c2;
+           longitude = c1;
+         }
+       } else if ((gpsFlags & (GPS_NEG_LAT|GPS_NEG_LONG)) == GPS_NEG_LONG) {
+         if (c2 < 0) {
+           latitude = c1;
+           longitude = c2;
+         } else {
+           latitude = c2;
+           longitude = c1;
+         }
+       } else {
+         latitude = c1;
+         longitude = c2;
+       }
+     } 
+     
+     // Lacking any other information, assume first is lattitude and second is longitude
+     else {
+       latitude = c1;
+       longitude = c2;
+     }
+     
+     // Rest is easy, make sure anything that should be negative is negative
+     if ((gpsFlags & GPS_NEG_LAT) != 0) {
+       if (latitude > 0) latitude = - latitude;
+     }
+     if ((gpsFlags & GPS_NEG_LONG) != 0) {
+       if (longitude > 0) longitude = - longitude;
+     }
+     
+     // And convert the result to a GPS string
+     return String.format("%+8.6f,%+8.6f", latitude, longitude);
+   }
+
+   /**
+    * Convert GPS coordinate in degree:min:sec form  or degree min form to strait degrees
+    */
+   private static double cvtGpsCoord(String coord) {
+     Matcher match = GPS_COORD_PTN.matcher(coord);
+     if (!match.matches()) throw new RuntimeException("This cannot possibly fail");
+     String tmp = match.group(1);
+     if (tmp != null) return Double.parseDouble(tmp);
+     
+     String sign;
+     double degrees;
+     double minutes;
+     sign = match.group(2);
+     if (sign != null) {
+       degrees = Double.parseDouble(match.group(3));
+       minutes = Double.parseDouble(match.group(4));
+     } else {
+       sign = match.group(5);
+       degrees = Double.parseDouble(match.group(6));
+       minutes = Double.parseDouble(match.group(7));
+       double seconds = Double.parseDouble(match.group(8));
+       minutes += seconds/60.0;
+     }
+     
+     degrees += minutes/60;
+     if (sign.equals("-")) degrees = - degrees;
+     return degrees;
+   }
+  };
   
+  /**
+   * Pattern that identifies GPS coordinates in an arbitrary field
+   */
+  private static final String GPS_COORD_PTN_STR = "([-+]?[0-9]+\\.[0-9]{4,})|([-+]?)([0-9]+) +([0-9]+\\.[0-9]{2,})|([-+]?)([0-9]+):([0-9]+):([0-9]+\\.[0-9]{1,})";
+  private static final Pattern GPS_COORD_PTN = Pattern.compile(GPS_COORD_PTN_STR);
+  private static final String GPS_COORD_PTN_STR2 = GPS_COORD_PTN_STR.replace("(", "").replace(")","");
+  public static final Pattern GPS_PATTERN = 
+      Pattern.compile("\\b(X: *)?(" + GPS_COORD_PTN_STR2 + ")[,\\W]\\W*(Y: *)?(" + GPS_COORD_PTN_STR2 + ")\\b");
+
   /**
    * Parse flag indicates that sender address filtering should not be checked
    */
@@ -327,6 +481,8 @@ public abstract class MsgParser {
    * MAP_FLG_SUPPR_EXT suppresses EXT removal
    * MAP_FLG_ADD_DEFAULT_CNTY always add default county
    * MAP_FLG_SUPPR_DIRO suppresses [NEWS]O -> & adjustment
+   * MAP_FLG_SUPPR_ADD_PLACE suppress logic to add place name to naked streets
+   * MAP_FLG_PREFER_GPS recomend GPS coordinates of map address for mapping purposes 
    */
   public int getMapFlags() {
     return 0;
@@ -336,6 +492,7 @@ public abstract class MsgParser {
   public static final int MAP_FLG_ADD_DEFAULT_CNTY = MsgInfo.MAP_FLG_ADD_DEFAULT_CNTY;
   public static final int MAP_FLG_SUPPR_DIRO = MsgInfo.MAP_FLG_SUPPR_DIRO;
   public static final int MAP_FLG_SUPPR_ADD_PLACE = MsgInfo.MAP_FLG_SUPPR_ADD_PLACE;
+  public static final int MAP_FLG_PREFER_GPS = MsgInfo.MAP_FLG_PREFER_GPS;
 
 
   /**
@@ -723,6 +880,16 @@ public abstract class MsgParser {
   private static final DateFormat DATE_FMT2 = new SimpleDateFormat("MM/dd");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("HH:mm:ss");
  
+  
+  /**
+   * Set GPS Coordinates in standard Google search format
+   * @param location GPS coordinates to be saved
+   * @param data data information object
+   */
+  public void setGPSLoc(String location, Data data) {
+    String gpsLoc = countryCode.parseGPSCoords(location);
+    data.strGPSLoc = (gpsLoc != null ? gpsLoc : "");
+  }
 
  /**
   * Build a code table for use by convertCodeTable

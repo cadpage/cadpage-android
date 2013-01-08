@@ -64,6 +64,16 @@
     <item>5</item>
     <item>6</item>
   </string-array>
+  <string-array name="pref_gps_map_option_entries">
+    <item>When recomended</item>
+    <item>Never</item>
+    <item>When available</item>
+  </string-array>
+  <string-array name="pref_gps_map_option_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
   
   <!--  Configurable popup dialog buttons -->
   <string-array name="pref_button_text">

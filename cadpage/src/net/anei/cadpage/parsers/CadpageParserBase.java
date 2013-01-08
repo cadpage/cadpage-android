@@ -45,6 +45,8 @@ public class CadpageParserBase  extends FieldProgramParser{
     setMap("DST");
     setMap("MADDR");
     setMap("URL",         "response_url");
+    setMap("CO");
+    setMap("REC_GPS");
   }
 
   /**
@@ -59,20 +61,12 @@ public class CadpageParserBase  extends FieldProgramParser{
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("DCITY")) return new DefCityField();
     if (name.equals("DST")) return new DefStateField();
     if (name.equals("MADDR")) return new SkipField();
+    if (name.equals("CO")) return new CountryField();
+    if (name.equals("REC_GPS")) return new PreferGPSField();
     return super.getField(name);
-  }
-  
-  // We need an address field that just saves the address.  The default
-  // field process handles all kinds of cool things
-  private class MyAddressField extends AddressField {
-    @Override
-    public void parse(String field, Data data) {
-      data.strAddress = field;
-    }
   }
 
   // And something to save the default city and state
@@ -87,6 +81,22 @@ public class CadpageParserBase  extends FieldProgramParser{
     @Override 
     public void parse(String field, Data data) {
       data.defState = field;
+    }
+  }
+  
+  private class CountryField extends Field {
+    @Override
+    public void parse(String field, Data data) {
+      try {
+        data.countryCode = CountryCode.valueOf(field);
+      } catch (Exception ex) {}
+    }
+  }
+  
+  private class PreferGPSField extends Field {
+    @Override 
+    public void parse(String field, Data data) {
+      data.preferGPSLoc = (field.length() > 0 && "YES".startsWith(field));
     }
   }
   

@@ -211,6 +211,9 @@
   <string name="pref_map_network_chk_title">Map Network Status</string>
   <string name="pref_map_network_chk_summary">Map request allowed when network status is %s</string>
   
+  <string name="pref_gps_map_option_title">GPS Mapping Option</string>
+  <string name="pref_gps_map_option_summary">Use GPS coordinates for mapping: %s</string>
+  
   <string name="pref_report_position_title">Report position when responding</string>
   <string name="pref_report_position_summary">Report your current position when responding to calls: %s</string>
 

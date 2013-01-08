@@ -63,7 +63,7 @@ public class TXHoodCountyParser extends FieldProgramParser {
       match = PHONE_GPS_PTN.matcher(field);
       if (match.matches()) {
         data.strPhone = match.group(1);
-        data.strGPSLoc = match.group(2) + "," + match.group(3);
+        setGPSLoc(match.group(2) + "," + match.group(3), data);
         return;
       }
       

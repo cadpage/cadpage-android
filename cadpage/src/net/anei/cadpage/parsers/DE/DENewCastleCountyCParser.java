@@ -84,7 +84,7 @@ public class DENewCastleCountyCParser extends DispatchA7BaseParser {
     data.strMap = match.group(1);
     String lat = match.group(2);
     String lng = match.group(3);
-    if (lat != null && lng != null) data.strGPSLoc = lat + ',' + lng;
+    if (lat != null && lng != null) setGPSLoc(lat + ',' + lng, data);
     
     match = p.getMatcher(ADDR_CROSS_PTN);
     if (match == null) return false;
@@ -184,6 +184,11 @@ public class DENewCastleCountyCParser extends DispatchA7BaseParser {
     }
     
     return true;
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
   
   private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{

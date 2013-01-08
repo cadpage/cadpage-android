@@ -149,7 +149,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:Erqqra Eq & Fhffrk Ujl",
         "PVGL:OEVQTRIVYYR",
         "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "TCF:38.749167 75.593147",
+        "TCF:+38.749167,-75.593147",
         "GVZR:17:43:24");
 
     qbGrfg("G3",
@@ -171,7 +171,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:juvgr ufr oynpx fhi va qe",
         "PVGL:OEVQTRIVYYR",
         "PNYY:Pbaihyfvbaf/Frvmherf-NYF",
-        "TCF:38.759789 75.637263",
+        "TCF:+38.759789,-75.637263",
         "GVZR:16:16:57",
         "K:CBYX EQ/GJVA YNARF SNEZ EQ");
 
@@ -204,7 +204,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:19 Unira Qe",
         "PVGL:TRBETRGBJA",
         "PNYY:Oernguvat ---f-NYF",
-        "TCF:38.656946 75.321836",
+        "TCF:+38.656946,-75.321836",
         "GVZR:08:10:20",
         "K:CRGREXVAF EQ/BNX XABYY PG");
 
@@ -322,7 +322,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:lryybj naq juvgr genvybe",
         "PVGL:TERRAJBBQ",
         "PNYY:Urnqnpur-OYF",
-        "TCF:38.789084 75.596637",
+        "TCF:+38.789084,-75.596637",
         "GVZR:20:20:43",
         "K:NYCUN FG/NQNZF EQ");
 
@@ -374,7 +374,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:a/o",
         "PVGL:TERRAJBBQ",
         "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "TCF:38.767148 75.592781",
+        "TCF:+38.767148,-75.592781",
         "GVZR:15:21:34");
 
     qbGrfg("G24",
@@ -435,7 +435,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:Erqqra Eq & Nccyr Gerr Eq",
         "PVGL:OEVQTRIVYYR",
         "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
-        "TCF:38.748040 75.551423",
+        "TCF:+38.748040,-75.551423",
         "GVZR:11:57:02");
 
     qbGrfg("G30",
@@ -457,7 +457,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:F/O",
         "PVGL:OEVQTRIVYYR",
         "PNYY:Genssvp/GenafcbegngvbaNpqagNYF",
-        "TCF:38.729900 75.591016",
+        "TCF:+38.729900,-75.591016",
         "GVZR:12:38:11",
         "K:EVSYR ENATR EQ/PBAARPGVAT EBNQ");
 
@@ -489,7 +489,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:8460 Uvpxzna Eq",
         "PVGL:TERRAJBBQ",
         "PNYY:Genssvp/GenafcbegngvbaNpqagOYF",
-        "TCF:38.808690 75.600119",
+        "TCF:+38.808690,-75.600119",
         "GVZR:07:32:05",
         "K:QRYNJNER QE/J ZNEXRG FG");
 
@@ -500,7 +500,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:13384 Fnvag Wbuafgbja Eq",
         "PVGL:TERRAJBBQ",
         "PNYY:Qvnorgvp ---f-OYF",
-        "TCF:38.804634 75.575759",
+        "TCF:+38.804634,-75.575759",
         "GVZR:11:45:43",
         "K:FUNJARR EQ/FHTNE UVYY EQ");
 
@@ -601,7 +601,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:12154 Qrre Sberfg Eq",
         "PVGL:OEVQTRIVYYR",
         "PNYY:Urzbeeuntr/Ynprengvbaf-OYF",
-        "TCF:38.749267 75.540050",
+        "TCF:+38.749267,-75.540050",
         "GVZR:14:43:34",
         "K:WRAAN YA/BNX EQ");
 
@@ -652,7 +652,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:103 Fhffrk Nir",
         "PVGL:OEVQTRIVYYR",
         "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)-OYF",
-        "TCF:38.738785 75.598120",
+        "TCF:+38.738785,-75.598120",
         "GVZR:17:44:55",
         "K:F ZNVA FG/YNJF FG");
 
@@ -664,7 +664,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:Wrssf Gnc Ebbz",
         "PVGL:OEVQTRIVYYR",
         "PNYY:Oheaf(Fpnyqf)/Rkcybfvba-OYF",
-        "TCF:38.742585 75.604883",
+        "TCF:+38.742585,-75.604883",
         "GVZR:21:07:15",
         "K:Zvyy Fg/A Pnaaba Fg");
 
@@ -777,7 +777,7 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:508 A Pnaaba Fg",
         "PVGL:OEVQTRIVYYR",
         "PNYY:Nffnhyg/Frkhny Nffnhyg-OYF",
-        "TCF:38.746952 75.603992",
+        "TCF:+38.746952,-75.603992",
         "GVZR:20:54:38",
         "K:BNX FG/FRPBAQ FG");
 

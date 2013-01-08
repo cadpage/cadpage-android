@@ -41,7 +41,7 @@ public class MIMidlandCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       Matcher match = GPS_PTN.matcher(field);
       if (!match.matches()) return;
-      data.strGPSLoc = match.group(1) + ',' + match.group(2);
+      setGPSLoc(match.group(1) + ',' + match.group(2), data);
     }
   }
   
@@ -49,5 +49,10 @@ public class MIMidlandCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("GPS")) return new MyGPSField();
     return super.getField(name);
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
 }

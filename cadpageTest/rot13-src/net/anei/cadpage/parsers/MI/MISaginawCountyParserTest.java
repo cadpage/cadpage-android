@@ -61,7 +61,7 @@ choyvp pynff ZVFntvanjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "YBP:F CBEGFZBHGU EQ / XVAT EQ QRFP:YNG: <43.384720>  YBAT: <-83.837678> NCG: GLC:*Z*CQN CVA VA WHFG BPPH",
         "NQQE:F CBEGFZBHGU EQ & XVAT EQ",
-        "TCF:43.384720,-83.837678",
+        "TCF:+43.384720,-83.837678",
         "PNYY:CQN CVA VA WHFG BPPH");
   }
   
@@ -94,7 +94,7 @@ choyvp pynff ZVFntvanjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "YBP:F CBEGFZBHGU EQ / XVAT EQ QRFP:YNG: <43.384720>  YBAT: <-83.837678> NCG: GLC:*Z*CQN CVA VA WHFG BPPH",
         "NQQE:F CBEGFZBHGU EQ & XVAT EQ",
-        "TCF:43.384720,-83.837678",
+        "TCF:+43.384720,-83.837678",
         "PNYY:CQN CVA VA WHFG BPPH");
 
     qbGrfg("G6",

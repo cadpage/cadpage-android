@@ -29,6 +29,7 @@
    <string name="pref_xtra_resp_button3_default">0</string>
    <string name="pref_delete_unopen_default">false</string>
    <string name="pref_map_network_chk_default">C</string>
+   <string name="pref_gps_map_option_default">1</string>
    <string name="pref_report_position_default">A</string>
    <string name="pref_screen_on_default">true</string>
    <string name="pref_override_filter_default">true</string>

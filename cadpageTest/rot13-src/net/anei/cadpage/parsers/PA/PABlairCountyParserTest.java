@@ -48,7 +48,7 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:ZPZNUBA EQ & 17GU FG",
         "PVGL:YBTNA GJC",
         "HAVG:1102 430 519 512 518 433 15N 16N  15N",
-        "TCF:@40.49756 @78.38746",
+        "TCF:+40.497560,-78.387460",
         "VQ:11-0150208");
 
     qbGrfg("G2",
@@ -57,7 +57,7 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:219 A 16GU NIR",
         "PVGL:YBTNA GJC",
         "HAVG:18N 1101 16N  16N",
-        "TCF:@40.53965 @78.39608",
+        "TCF:+40.539650,-78.396080",
         "VQ:11-0160247");
 
     qbGrfg("G3",
@@ -66,7 +66,7 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:3545 WHAVNGN TNC EQ",
         "PVGL:YBTNA GJC",
         "HAVG:18N  18N",
-        "TCF:@40.54878 @78.42869",
+        "TCF:+40.548780,-78.428690",
         "VQ:11-0180238");
 
     qbGrfg("G4",
@@ -75,7 +75,7 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1100 BYQ ZVYY EHA EQ",
         "PVGL:YBTNA GJC",
         "HAVG:12N 14N  12N",
-        "TCF:@40.51172 @78.46085",
+        "TCF:+40.511720,-78.460850",
         "VQ:11-0120148");
 
     qbGrfg("G5",
@@ -84,7 +84,7 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1632 PNZCHF IVRJ QE",
         "PVGL:YBTNA GJC",
         "HAVG:18N 1621 1632 512 1811 1851 1211 1221  12N",
-        "TCF:@40.54572 @78.41391",
+        "TCF:+40.545720,-78.413910",
         "VQ:11-0120145");
 
     qbGrfg("G6",
@@ -93,7 +93,7 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:531 R JBCFBABABPX NIR",
         "PVGL:NYGBBAN",
         "HAVG:18N  18N",
-        "TCF:@40.53712 @78.40229",
+        "TCF:+40.537120,-78.402290",
         "VQ:11-0180225");
 
     qbGrfg("G7",
@@ -103,7 +103,7 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:R CYRNFNAG INYYRL OYIQ & OHPXARYY YA",
         "PVGL:YBTNA GJC",
         "HAVG:16N  16N",
-        "TCF:@40.53196 @78.36087",
+        "TCF:+40.531960,-78.360870",
         "VQ:11-0160229");
 
     qbGrfg("G8",
@@ -113,7 +113,7 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:17GU FG & INYYRL IVRJ OYIQ",
         "PVGL:YBTNA GJC",
         "HAVG:15N 16N 1211  15N",
-        "TCF:@40.49939 @78.39013",
+        "TCF:+40.499390,-78.390130",
         "VQ:11-0150194");
 
     qbGrfg("G9",
@@ -122,7 +122,7 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1105 3EQ NIR",
         "PVGL:QHAPNAFIVYYR",
         "HAVG:10N 20N 420 626 421 2001 2021 604 5011 816 5001 2031 1011 5031 1551  15N",
-        "TCF:@40.42410 @78.43086",
+        "TCF:+40.424100,-78.430860",
         "VQ:11-0150196");
   }
   
@@ -135,7 +135,7 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:605 5GU FG",
         "PVGL:GLEBAR",
         "HAVG:400 31N 31N",
-        "TCF:@40.66879 @78.25321");
+        "TCF:+40.668790,-78.253210");
 
     qbGrfg("G2",
         "(Vap: Pbzzrepvny Sver Nynez) Vap: Pbzzrepvny Sver Nynez \aNqq: 505 3EQ FG \aPvgl: GLEBAR OB \aHavgf: 400 31N\a31N\aYng/Yba: @40.66619 @78.25446\a10/1/2011 2:43:28",
@@ -143,14 +143,13 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:505 3EQ FG",
         "PVGL:GLEBAR",
         "HAVG:400 31N 31N",
-        "TCF:@40.66619 @78.25446");
+        "TCF:+40.666190,-78.254460");
 
     qbGrfg("G3",
         "(Vap: SVER NFFVFG) Vap: SVER NFFVFG \aNqq: FGNGVBA 1 \aPvgl:  \aHavgf: 9011 31N\a31N\aYng/Yba: @-1.00000 @-1.00000\a10/5/2011 2:27:41 NZ \aQE #: 311100256",
         "PNYY:SVER NFFVFG",
         "NQQE:FGNGVBA 1",
         "HAVG:9011 31N 31N",
-        "TCF:@-1.00000 @-1.00000",
         "VQ:311100256");
 
     qbGrfg("G4",
@@ -160,7 +159,7 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:110 FHAFRG UVYYF",
         "PVGL:FALQRE GJC",
         "HAVG:31N 31N",
-        "TCF:@40.67871 @78.25442",
+        "TCF:+40.678710,-78.254420",
         "VQ:31");
   }
   
@@ -179,7 +178,7 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:GNLYBE GJC",
         "HAVG:400 60N 40N",
         "FEP:40N",
-        "TCF:+40.34854,-78.40453");
+        "TCF:+40.348540,-78.404530");
 
   }
   

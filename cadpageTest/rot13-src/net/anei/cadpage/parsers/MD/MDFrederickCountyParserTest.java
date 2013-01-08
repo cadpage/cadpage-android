@@ -240,7 +240,7 @@ choyvp pynff ZQSerqrevpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SerqPb",
         "PNYY:VAWHEL SEBZ IRUVPYR NPPVQRAG",
         "NQQE:YY(-77:23:59.6013,39:21:53.1520)",
-        "ZNQQE:39.36476444444445,-77.39988925",
+        "ZNQQE:+39.364764,-77.399889",
         "CYNPR:V270AO / ZBABPNPL EVIRE",
         "OBK:327002",
         "ZNC:46");
@@ -471,7 +471,7 @@ choyvp pynff ZQSerqrevpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SerqPb",
         "PNYY:IRUVPYR NPPVQRAG",
         "NQQE:YY(-77:38:25.0189,39:20:22.5676)",
-        "ZNQQE:39.33960211111111,-77.64028302777778",
+        "ZNQQE:+39.339602,-77.640283",
         "CYNPR:EG340RO / EG17",
         "ZNC:4682U6",
         "HAVG:N197,N199,EF19,R51,YPR616");
@@ -481,7 +481,7 @@ choyvp pynff ZQSerqrevpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SerqPb",
         "PNYY:IRUVPYR NPPVQRAG",
         "NQQE:YY(-77:38:25.0189,39:20:22.5676)",
-        "ZNQQE:39.33960211111111,-77.64028302777778",
+        "ZNQQE:+39.339602,-77.640283",
         "CYNPR:EG340RO / EG17",
         "ZNC:4682U6",
         "HAVG:N197,N199,EF19,R51,YPR616");
@@ -491,7 +491,7 @@ choyvp pynff ZQSerqrevpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SerqPb",
         "PNYY:IRUVPYR NPPVQRAG",
         "NQQE:YY(-77:38:25.0189,39:20:22.5676)",
-        "ZNQQE:39.33960211111111,-77.64028302777778",
+        "ZNQQE:+39.339602,-77.640283",
         "CYNPR:EG340RO / EG17",
         "ZNC:4682U6",
         "HAVG:N197,N199,EF19,R51,YPR616");
@@ -593,7 +593,7 @@ choyvp pynff ZQSerqrevpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:IRUVPYR NPPVQRAG",
         "NQQE:YY(-77:30:13.3095,39:21:58.0321)",
-        "ZNQQE:39.36612002777778,-77.50369708333334",
+        "ZNQQE:+39.366120,-77.503697",
         "CYNPR:EG340JO / EG15 (WRSSREFBA)",
         "ZNC:4684X2",
         "HAVG:N39,N38,EF20,R201,R31,P3-3,P20-2,ER11");

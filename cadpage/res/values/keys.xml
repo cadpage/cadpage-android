@@ -78,6 +78,7 @@
    <string name="pref_xtra_resp_button2_key">xtra_resp_button2</string>
    <string name="pref_xtra_resp_button3_key">xtra_resp_button3</string>
    <string name="pref_map_network_chk_key">map_network_chk</string>
+   <string name="pref_gps_map_option_key">gps_map_option</string>
    <string name="pref_report_position_key">report_location</string>
    <string name="pref_delete_unopen_key">delete_unopen</string>
    <string name="pref_screen_on_key">screenon</string>

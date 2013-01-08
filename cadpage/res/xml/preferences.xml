@@ -155,6 +155,14 @@
           android:dialogTitle="@string/pref_map_network_chk_title"
           android:defaultValue="@string/pref_map_network_chk_default" />
       <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_gps_map_option_key"
+          android:title="@string/pref_gps_map_option_title"
+          android:summary="@string/pref_gps_map_option_summary"
+          android:entries="@array/pref_gps_map_option_entries"
+          android:entryValues="@array/pref_gps_map_option_values"
+          android:dialogTitle="@string/pref_gps_map_option_title"
+          android:defaultValue="@string/pref_gps_map_option_default" />
+      <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_report_position_key"
           android:title="@string/pref_report_position_title"
           android:summary="@string/pref_report_position_summary"

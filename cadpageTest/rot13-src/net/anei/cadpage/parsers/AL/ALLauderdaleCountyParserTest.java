@@ -54,7 +54,7 @@ choyvp pynff NYYnhqreqnyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZQ-SNYY-ZVABE",
         "K:UJL 43 & UJL 43",
         "CUBAR:931-242-1174",
-        "TCF:-087.544169 +34.975694",
+        "TCF:+34.975694,-87.544169",
         "VASB:83 LBS SNYY CBFFVOYR UVC VAWHEL\\");
 
     qbGrfg("G3",
@@ -65,7 +65,7 @@ choyvp pynff NYYnhqreqnyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:ZPQBANYQF",
         "PNYY:ZQ-FRVMHER",
         "CUBAR:256-702-9165",
-        "TCF:-087.585777 +34.846252",
+        "TCF:+34.846252,-87.585777",
         "VASB:20LBS NPGVIR FVRMHER");
 
     qbGrfg("G4",
@@ -84,7 +84,7 @@ choyvp pynff NYYnhqreqnyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER-FGEHPGHER - BGURE",
         "K:JRFG SBEX QE & CEVINGR QEVIR",
         "CUBAR:256-702-4551",
-        "TCF:-087.535736 +34.930687",
+        "TCF:+34.930687,-87.535736",
         "VASB:OHVYQVAT BA SVER");
 
     qbGrfg("G6",
@@ -96,7 +96,7 @@ choyvp pynff NYYnhqreqnyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:JERPX-VAWHEL - OYBPXNTR",
         "K:UJL 72 & OEHFU PERRX EQ",
         "CUBAR:256-810-6502",
-        "TCF:-087.556701 +34.856937",
+        "TCF:+34.856937,-87.556701",
         "VASB:PNYYRE ERCBEGVAT JERPX HAXABJA VAWHEVRF");
 
     qbGrfg("G7",
@@ -108,7 +108,7 @@ choyvp pynff NYYnhqreqnyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZQ-HAPBAFPVBHF",
         "K:CRQRA FG & OEHFU PERRX EQ",
         "CUBAR:256-762-4010",
-        "TCF:-087.556701 +34.856937",
+        "TCF:+34.856937,-87.556701",
         "VASB:7 LRNE BYQ ZNYR UNF CNFFRQ BHG VF OERNGUVAT JVY OR NG GUR SVRYQ VA GUR UBYR");
 
     qbGrfg("G8",
@@ -119,14 +119,14 @@ choyvp pynff NYYnhqreqnyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:SBBQYNAQ",
         "PNYY:ZQ-GENHZN - FANXROVG",
         "CUBAR:256-247-8813",
-        "TCF:-087.390038 +34.846100",
+        "TCF:+34.846100,-87.390038",
         "VASB:PNYYRE NQIVFRQ URE FBA UNF ORRA OVGGRA OL N PBCCREURNQ FANXR 38 LRNE BYQ ZNYR UNF ORRA OVGGRA BA GUR UNAQ JVYY OR QEVIVAT N TERRA CNGUSVAQRE");
 
     qbGrfg("G9",
         "CEV: RZN NQ: YY(-87:39:45.5030,34:47:57.4231): @JRNGURE  GVZR: 01:55:09 RI: JRNGURE -: GFGBEZ-JNEAT PF1:  PF2:  ER:  FCRPVNY NQQERFF PBZZRAG: ab nq FRIRER GUHAQREFGBEZ JNEAVAT GVY 2:30NZ",
         "FEP:RZN",
         "NQQE:YY(-87:39:45.5030,34:47:57.4231)",
-        "ZNQQE:34.79928419444444,-87.66263972222222",
+        "ZNQQE:+34.799284,-87.662640",
         "CYNPR:JRNGURE",
         "PNYY:JRNGURE - GFGBEZ-JNEAT",
         "VASB:FCRPVNY NQQERFF PBZZRAG: ab nq FRIRER GUHAQREFGBEZ JNEAVAT GVY 2:30NZ");

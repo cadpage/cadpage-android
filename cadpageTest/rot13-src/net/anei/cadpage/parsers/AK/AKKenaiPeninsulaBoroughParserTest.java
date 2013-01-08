@@ -264,7 +264,7 @@ choyvp pynff NXXranvCravafhynObebhtuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Haxabja\e\a",
 
         "NQQE:60.5330705955000000 -150.4798026600000000",
-        "ZNQQE:60.5330705955,-150.47980266",
+        "ZNQQE:+60.533071,-150.479803",
         "K:FGREYVAT UJL / FXVYNX YNXR EQ",
         "PNYY:IVQ",
         "VASB:Pbafpvbhf: Haxabja\aOernguvat: Haxabja");
@@ -633,7 +633,7 @@ choyvp pynff NXXranvCravafhynObebhtuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Haxabja\e\a",
 
         "NQQE:60.5240007668000000 -150.8767482150000000",
-        "ZNQQE:60.5240007668,-150.876748215",
+        "ZNQQE:+60.524001,-150.876748",
         "K:PENAR FBAT FG / FGREYVAT UJL / RIRETERRA QE",
         "PNYY:ZRQVPNY/SVER",
         "VASB:Pbafpvbhf: Haxabja\aOernguvat: Haxabja");
@@ -1016,7 +1016,7 @@ choyvp pynff NXXranvCravafhynObebhtuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "52-P-03T\e\a",
 
         "NQQE:60.4847820000000000 -151.0688960000000000",
-        "ZNQQE:60.484782,-151.068896",
+        "ZNQQE:+60.484782,-151.068896",
         "PVGL:FBYQBGAN",
         "K:HAXABJA / YVGGYR NIR / EBOVA CY",
         "PBQR:52-P-03T",
@@ -1867,7 +1867,7 @@ choyvp pynff NXXranvCravafhynObebhtuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Haxabja\e\a",
 
         "NQQE:60.5243097676000000 -149.6543220880000000",
-        "ZNQQE:60.5243097676,-149.654322088",
+        "ZNQQE:+60.524310,-149.654322",
         "PNYY:ZRQVPNY/SVER",
         "VASB:Pbafpvbhf: Haxabja\aOernguvat: Haxabja");
 
@@ -1898,7 +1898,7 @@ choyvp pynff NXXranvCravafhynObebhtuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Haxabja\e\a",
 
         "NQQE:60.4733600000000000 -151.1533140000000000",
-        "ZNQQE:60.47336,-151.153314",
+        "ZNQQE:+60.473360,-151.153314",
         "PVGL:NQQVGVBANY YBPNGVBA VASBEZNGVBA:J FRPGBE",
         "K:TNF JRYY EQ / RPUB YNXR EQ / XNYVSBEAFXL ORNPU EQ",
         "PNYY:ZRQVPNY/SVER",
@@ -1989,7 +1989,7 @@ choyvp pynff NXXranvCravafhynObebhtuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Haxabja\e\a",
 
         "NQQE:60.5316555084000000 -150.4212824840000000",
-        "ZNQQE:60.5316555084,-150.421282484",
+        "ZNQQE:+60.531656,-150.421282",
         "PVGL:FNYNZNGBS",
         "K:FGREYVAT UJL / FXVYNX YNXR EQ",
         "PNYY:<ARJ PNYY>",

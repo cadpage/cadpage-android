@@ -35,7 +35,7 @@ choyvp pynff PNPnynirenfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:22",
         "PVGL:PNYNIRENF PBHAGL",
         "ZNC:467/19Q_018",
-        "TCF:-120.669912 38.191340",
+        "TCF:+38.191340,-120.669912",
         "PNYY:ZRQVPNY: 64 LB S CBFF FGEBXR",
         "HAVG:Q4494");
 
@@ -44,7 +44,7 @@ choyvp pynff PNPnynirenfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5489 GBANCNU EQ",
         "PVGL:PNYNIRENF PBHAGL",
         "ZNC:2647/32N_001",
-        "TCF:-120.377143 38.169860",
+        "TCF:+38.169860,-120.377143",
         "PNYY:ZRQVPNY: 77 LB S SI CBFF SK NAXYR",
         "HAVG:43 R4480 Q4494");
 
@@ -52,10 +52,10 @@ choyvp pynff PNPnynirenfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PNQ Cntr) Vap# 007104: ANGHENY OEVQTRF @ =Y(38.051636,-120.470996) ,PNYNIRENF_PBHAGL :Znc  509/37O_005: YNG/YBAT K: -120 28.2597  L: 38 3.09816: ZRQ, GENSSVP PBYYVFVBA: ZIN: 24 22 R4452",
         "CYNPR:ANGHENY OEVQTRF",
         "NQQE:=Y(38.051636,-120.470996)",
-        "ZNQQE:38.051636,-120.470996",
+        "ZNQQE:+38.051636,-120.470996",
         "PVGL:PNYNIRENF PBHAGL",
         "ZNC:509/37O_005",
-        "TCF:-120.470995 38.051636",
+        "TCF:+38.051636,-120.470995",
         "PNYY:ZRQ, GENSSVP PBYYVFVBA: ZIN",
         "HAVG:24 22 R4452");
 
@@ -64,7 +64,7 @@ choyvp pynff PNPnynirenfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:18455 BNX FG",
         "PVGL:GHBYHZAR PVGL",
         "ZNC:3249",
-        "TCF:-120.239875 37.956790",
+        "TCF:+37.956790,-120.239875",
         "PNYY:SVER, ERFVQRAGVNY:Fzbxr sebz fgehpgher",
         "HAVG:O4415 R4485 R4465 R761 73 81 53 72 56 O795 JG518 JG569 JG768 C701 QHGLPUS SVHKGB Q4494");
 
@@ -74,7 +74,7 @@ choyvp pynff PNPnynirenfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:445 ZNVA FG F",
         "PVGL:NATRYF PNZC",
         "ZNC:508/30P_016",
-        "TCF:-120.551633 38.077994",
+        "TCF:+38.077994,-120.551633",
         "PNYY:ZRQVPNY: 78 LB S FRVMHERF FVYRAG NCCEBNPU Z-24",
         "HAVG:Q4494 21 R4472");
 
@@ -84,7 +84,7 @@ choyvp pynff PNPnynirenfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:1262 CRAAFLYINAVN THYPU EQ",
         "PVGL:ZHECULF",
         "ZNC:2797/31N_024",
-        "TCF:-120.435225 38.130351",
+        "TCF:+38.130351,-120.435225",
         "PNYY:SVER, JVYQYNAQ:Irt Sver",
         "HAVG:R4472 Q4494 UPIY2 UPIY4");
 
@@ -95,7 +95,7 @@ choyvp pynff PNPnynirenfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:247",
         "PVGL:PBYHZOVN",
         "ZNC:3097/38O_013",
-        "TCF:-120.406455 38.037173",
+        "TCF:+38.037173,-120.406455",
         "PNYY:ZRQVPNY: 50 LB QVNORGVP HAERFCBAFVIR",
         "HAVG:Q4494");
 

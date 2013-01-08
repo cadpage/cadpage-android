@@ -197,7 +197,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Tenaohel",
         "HAVG:FG1,FG2,UPSZ",
         "VASB:Bhgfvqr Sver.  .Pnyyre Fgngrzrag: fznyy tenff sver. / nccebk 40lqf, fcernqvat fybjyl / pnyyre jnf irel hapbbcrengvir, ab zber vasb / FZNYY BHGFVQR sver  (Haxabja). / 1. Gur pnyyre vf ba fprar (2aq cnegl). / 2. Guvf vf n FZNYY BHGFVQR sver. / 3. Gur sver unf abg orra rkgvathvfurq. / 4. Vg vf abg xabja vs gur sver vf guerngravat nalguvat. / 5. Ab unmneqbhf zngrevnyf ner cerfrag. / Phegvf,Oragyrl",
-        "TCF:+032.451639,-097.769115",
+        "TCF:+32.451639,-97.769115",
         "ANZR:Phegvf,Oragyrl",
         "CUBAR:(817)964-6488");
 
@@ -295,7 +295,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Tenaohel",
         "HAVG:FG1,VUSQ,CCSQ,FG2,UPSZ",
         "VASB:Pbasvarq Fcnpr / Fgehpgher Pbyyncfr.  .Pnyyre Fgngrzrag: sver. / RAGENCZRAG (hapbasvezrq)  (Pbasvarq fcnpr). / 1. Gur pnyyre vf ba fprar (1fg cnegl). / 2. N pbasvarq fcnpr vf vaibyirq. / 3. Vg vf abg pbasvezrq gung fbzrbar vf genccrq. / 4. Vg vf abg xabja vs gurer ner unmneqbhf zngrevnyf vaibyirq. / Fgehpgher Sver.  Erfvqragvny (zhygvcyr). / 2. Synzrf ner ivfvoyr. / 3. Gur vapvqrag vaibyirf n zhygvcyr-snzvyl erfvqragvny fgehpgher. / 4. N fvatyr-yriry fgehpgher vf vaibyirq. / 5. Gur pnyyre unf abg vaqvpngrq gung gurer ner genccrq crefba(f). / 6. Ab bar vf genccrq vafvqr gur fgehpgher. / 7. Ab bar vf ercbegrq gb or vawherq. / SVKRQ NGGZB 8006356840 BCG4 / qelre ba sver",
-        "TCF:+032.413466,-097.758601",
+        "TCF:+32.413466,-97.758601",
         "ANZR:SVKRQ NGGZB 8006356840 BCG4",
         "CUBAR:(817)894-4119");
 
@@ -331,7 +331,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Tenaohel",
         "HAVG:70SQ,FG1,AUPB,FG2,UPSZ",
         "VASB:Fgehpgher Sver.  .Pnyyre Fgngrzrag: sver . / Haxabja fvghngvba (vairfgvtngvba). / 1. Gur pnyyre vf ba fprar (1fg cnegl). / 2. Synzrf ner ivfvoyr. / 3. Vg vf abg xabja jung xvaq bs fgehpgher vf vaibyirq. / 4. Vg vf abg xabja ubj znal yriryf be fgbevrf gurer ner. / 5. Gur pnyyre unf abg vaqvpngrq gung gurer ner genccrq crefba(f).",
-        "TCF:+032.513963,-097.850933",
+        "TCF:+32.513963,-97.850933",
         "ANZR:NG&G ZBOVYVGL",
         "CUBAR:(817)487-6010");
 
@@ -474,7 +474,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Tenaohel",
         "HAVG:70SQ,FG1,AUPB,FG2,UPSZ",
         "VASB:Bhgfvqr Sver.  .Pnyyre Fgngrzrag: PNA FRR SYNZRF. / Haxabja fvghngvba (vairfgvtngvba)  (Haxabja). / 1. Gur pnyyre vf abg ba fprar. / 2. Vg vf abg xabja rknpgyl jung vf oheavat. / 3. Vg vf abg xabja vs gur sver vf guerngravat nalguvat. / 4. Vg vf abg xabja vs nal ryrpgevpny yvarf ner ba gur tebhaq. / 5. Vg vf abg xabja vs nalbar vf va qnatre. / 6. Vg vf abg xabja vs gur sver vf fcernqvat. / 7. Vg vf abg xabja jung fvmr bs na nern vf oheavat. / 8. Vg vf abg xabja vs nalbar vf vawherq. / 3eq pnyyre pnyyvat sebz 3700 Eborefba Pg fur nqi fur vf cerggl fher vg'f n / ohvyqvat / frpbaq pnyyre nqi gung ur pna frr synzrf ohg abg fher vs vg vf tenff be n / ubhfr. Pbzc nqi vg ybbxf yvxr vg vf sebz gur onpx tngr bs bgf haxabja ybpngvba / PBYYVAF,WBFUHN / nabgure pnyyre nqi ubhfr vf ba sver / pnyyre nqi fur oryvirf gur ubhfr vf nonaqbarq / 4gu pnyyre nqi gung vg vf n fgehpgher sver naq gung vg vf fcernqvat gb gerrf / pbzc nqi gerrf nebhaq gur erf ner ba sver nf jryy",
-        "TCF:+032.492870,-097.840869",
+        "TCF:+32.492870,-97.840869",
         "ANZR:PBYYVAF,WBFUHN",
         "CUBAR:(817)559-0697");
 
@@ -502,7 +502,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Gbyne",
         "HAVG:FG1,VUSQ,GISQ,FG2,UPSZ",
         "VASB:Bhgfvqr Sver.  .Pnyyre Fgngrzrag: tenff sver.",
-        "TCF:+032.375947,-097.908697",
+        "TCF:+32.375947,-97.908697",
         "ANZR:syvccva,funar",
         "CUBAR:(817)559-4880");
 
@@ -549,7 +549,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Tenaohel",
         "HAVG:QPOR,UPSZ",
         "VASB:Iruvpyr Sver.  .Pnyyre Fgngrzrag: iruvpyr sver. / ogj qpor naq wnzrf eq / Iruvpyr sver. / 1. Gur pnyyre vf abg ba fprar. / 2. Ab bar vf genccrq. / 3. N cvpxhc gehpx vf vaibyirq. / 4. Gur iruvpyr vf abg vafvqr n ohvyqvat/fgehpgher. / 5. Gur sver unf abg orra rkgvathvfurq. / 6. Vg vf abg xabja vs gur sver vf guerngravat nalguvat. / 7. Ab unmneqbhf zngrevnyf ner cerfrag. / 8. Vg vf abg xabja vs nalbar vf vawherq. / Ybjel,Wrev",
-        "TCF:+032.435482,-097.704270",
+        "TCF:+32.435482,-97.704270",
         "ANZR:Ybjel,Wrev",
         "CUBAR:(817)368-4374");
 
@@ -1201,7 +1201,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Yvcna",
         "HAVG:70SQ,YISQ,GISQ,UPSZ",
         "VASB:Znevar Sver.  . / O / Pbasvarq Fcnpr / Fgehpgher Pbyyncfr.",
-        "TCF:+032.514639,-098.049545",
+        "TCF:+32.514639,-98.049545",
         "ANZR:fuvyn",
         "CUBAR:(817)929-7391");
 

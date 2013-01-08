@@ -24,7 +24,7 @@ public class MISaginawCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       Matcher match = GPS_PTN.matcher(field);
       if (match.find()) {
-        data.strGPSLoc = match.group(1) + "," + match.group(2);
+        setGPSLoc(match.group(1) + "," + match.group(2), data);
       } else {
         super.parse(field, data);
       }

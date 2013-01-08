@@ -79,7 +79,7 @@ public class ALLauderdaleCountyParser extends FieldProgramParser {
       Matcher match = CELL_INFO_PTN.matcher(field);
       if (match.find()) {
         data.strPhone = match.group(1);
-        data.strGPSLoc = match.group(2);
+        setGPSLoc(match.group(2), data);
         field = field.substring(match.end()).trim();
       }
       super.parse(field, data);

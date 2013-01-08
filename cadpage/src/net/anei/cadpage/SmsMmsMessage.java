@@ -806,7 +806,8 @@ public class SmsMmsMessage implements Serializable {
       defCity = ManagePreferences.defaultCity();
       defState = ManagePreferences.defaultState();
     }
-    return info.getMapAddress(useGPS, defCity, defState);
+    int gps_option = ManagePreferences.gpsMapOption();
+    return info.getMapAddress(gps_option, defCity, defState);
   }
   
   /**

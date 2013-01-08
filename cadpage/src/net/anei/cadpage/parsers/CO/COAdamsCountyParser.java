@@ -97,13 +97,12 @@ public class COAdamsCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern INFO_GPS_PTN = Pattern.compile("^[-+]\\d+\\.\\d{6} [-+]\\d+\\.\\d{6}\\b");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      Matcher match = INFO_GPS_PTN.matcher(field);
+      Matcher match = GPS_PATTERN.matcher(field);
       if (match.find()) {
-        data.strGPSLoc = match.group();
+        setGPSLoc(match.group(), data);
         field = field.substring(match.end()).trim();
       }
       super.parse(field, data);

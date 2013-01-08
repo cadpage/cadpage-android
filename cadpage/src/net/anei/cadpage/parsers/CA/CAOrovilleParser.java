@@ -42,6 +42,7 @@ public class CAOrovilleParser extends FieldProgramParser {
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
+      String gpsLoc = "";
       for (String line : INFO_DELIM.split(field)) {
         if (line.startsWith("Service Class:")) continue;
         if ("Service Class:".startsWith(line)) continue;
@@ -54,13 +55,14 @@ public class CAOrovilleParser extends FieldProgramParser {
         } else if (APT_PTN.matcher(line).matches()) {
           data.strApt = append(data.strApt, "-", line); 
         } else if ((match = GPS_PTN.matcher(line)).matches()) {
-          data.strGPSLoc = append(data.strGPSLoc, ",", match.group(1)); 
+          gpsLoc = append(gpsLoc, ",", match.group(1)); 
         } else if (data.strCall.length() == 0) {
           data.strCall = line;
         } else {
           super.parse(line, data);
         }
       }
+      setGPSLoc(gpsLoc, data);
     }
     
     @Override

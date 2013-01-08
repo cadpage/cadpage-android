@@ -45,9 +45,8 @@ choyvp pynff MPNNOYnpbzorPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:06/02/2012",
         "GVZR:13:02:11",
         "PNYY:TENFF - 2.3 Tenff/ Oehfu/ Sberfg",
-        "NQQE:52.38667500,-113.81778000",
-        "ZNQQE:52.386675,-113.81778",
-        "TCF:52.38667500,-113.81778000");
+        "NQQE:+52.386675,-113.817780",
+        "TCF:+52.386675,-113.817780");
 
     qbGrfg("G2",
         "(Vapvqrag Zrffntr) Qngr: 2012-06-02 13:02:11\a" +
@@ -88,7 +87,7 @@ choyvp pynff MPNNOYnpbzorPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYNEZF - 2.6 Nynezf",
         "NQQE:6 JVAFGBA CY",
         "PVGL:OYNPXSNYQF",
-        "TCF:52.38963050,-113.79837571",
+        "TCF:+52.389631,-113.798376",
         "HAVG:OYXC1, OYXC2, OYXE3, OYXP, OYXG1");
 
   }

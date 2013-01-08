@@ -88,6 +88,11 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "AV", "AVON",
       "av", "AVON",

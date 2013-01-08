@@ -37,7 +37,7 @@ choyvp pynff ZVZvqynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:J OHEAF EQ naq A PNFGBE EQ",
         "ZNQQE:J OHEAF EQ & A PNFGBE EQ",
         "PNYY:GENSSVP NPPVQRAG",
-        "TCF:+43.72719,-84.48703");
+        "TCF:+43.727190,-84.487030");
 
     qbGrfg("G2",
         "(PNQ Cntr sbe PSF Z101412-41) OHF : \a" +
@@ -60,7 +60,7 @@ choyvp pynff ZVZvqynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:102 JRFG HF UJL 10",
         "ZNQQE:102 JRFG HF 10",
         "PNYY:CQN - HAXABJA",
-        "TCF:+43.76840,-84.58168");
+        "TCF:+43.768400,-84.581680");
 
     qbGrfg("G4",
         "(PNQ Cntr sbe PSF Z101112-117 <101112117>) OHF : \a" +
@@ -71,7 +71,7 @@ choyvp pynff ZVZvqynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:Z101112-117",
         "NQQE:6990 A PBYRZNA EQ",
         "PNYY:PUVZZARL SVER",
-        "TCF:+43.81458,-84.58607");
+        "TCF:+43.814580,-84.586070");
 
     qbGrfg("G5",
         "(PNQ Cntr sbe PSF Z101212-56 <10121256>) OHF : \a" +
@@ -82,7 +82,7 @@ choyvp pynff ZVZvqynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:Z101212-56",
         "NQQE:3095 J CRER ZNEDHRGGR EQ",
         "PNYY:FGEBXR",
-        "TCF:+43.71114,-84.49158");
+        "TCF:+43.711140,-84.491580");
 
   }
   

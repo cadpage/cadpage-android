@@ -52,14 +52,14 @@ public class NYJeffersonCountyParser extends FieldProgramParser {
       if (match.find()) {
         cutoff = Math.min(cutoff, match.start());
         data.strPhone = match.group(1);
-        data.strGPSLoc = append(match.group(2), " ", match.group(3));
+        setGPSLoc(append(match.group(2), " ", match.group(3)), data);
       }
       
       if (data.strGPSLoc.length() == 0) {
         match = LATLON_PTN.matcher(field);
         if (match.find()) {
           cutoff = Math.min(cutoff, match.start());
-          data.strGPSLoc = append(match.group(1), " ", match.group(2));
+          setGPSLoc(append(match.group(1), " ", match.group(2)), data);
         }
       }
 

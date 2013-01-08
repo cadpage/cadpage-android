@@ -26,7 +26,6 @@ public class TXParkerCountyParser extends FieldProgramParser {
     data.strCross = clean(data.strCross);
     data.strCity = clean(data.strCity);
     data.strMap = clean(data.strMap);
-    data.strGPSLoc = clean(data.strGPSLoc);
     
     String city = PLACE_CITY_XREF.getProperty(data.strCity.toUpperCase());
     if (city != null) {

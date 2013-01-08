@@ -2249,7 +2249,7 @@ public class FieldProgramParser extends SmartAddressParser {
 
     @Override
     public void parse(String field, Data data) {
-      data.strGPSLoc = field;
+      setGPSLoc(field, data);
     }
   }
 

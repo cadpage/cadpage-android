@@ -28,6 +28,9 @@ public class MsgInfo {
   
   // Suppress inclusion of place name in front of naked street names
   public static final int MAP_FLG_SUPPR_ADD_PLACE = 0x10;
+  
+  // Recommend use of GPS coordinates for mapping
+  public static final int MAP_FLG_PREFER_GPS = 0x20;
 
   private String strCall;
   private String strPlace;
@@ -54,6 +57,7 @@ public class MsgInfo {
   private String defCity;
   private String defState;
   private MsgParser.CountryCode countryCode;
+  private boolean preferGPSLoc;
   
   // Flag set when parser determines that message is incomplete
   // and another part should be expected
@@ -97,6 +101,7 @@ public class MsgInfo {
     public String defCity;
     public String defState;
     public MsgParser.CountryCode countryCode;
+    public boolean preferGPSLoc;
     
     public boolean expectMore;
     
@@ -138,11 +143,13 @@ public class MsgInfo {
       defCity = "";
       defState="";
       countryCode = MsgParser.CountryCode.US;
+      preferGPSLoc = false;
       
       if (parser != null) {
         this.defCity = parser.getDefaultCity();
         this.defState = parser.getDefaultState();
         this.countryCode = parser.getCountryCode();
+        this.preferGPSLoc = (parser.getMapFlags() & MAP_FLG_PREFER_GPS) != 0;
       }
     }
     
@@ -239,6 +246,7 @@ public class MsgInfo {
     defState = info.defState;
     countryCode = info.countryCode;
     expectMore = info.expectMore;
+    preferGPSLoc = info.preferGPSLoc;
     
     parser = info.parser;
   }
@@ -299,19 +307,22 @@ public class MsgInfo {
   
   /**
    * Calculate map search string to be passed to Google maps
-   * @param useGPS true if GPS coordinates should be used in preference to map address
+   * @param useGPSOption GPS preference option
+   *    1 - Follow parser preference (default)
+   *    2 - Always use street address
+   *    3 - Always use GPS coordinates when available
    * @param overrideCity if non-null, this value should override parser default city
    * @param overrideState if non-null, this value should override parser default state
    * @return return mapping address or null if there is no map address
    */
-  public String getMapAddress(boolean useGPS, String overrideCity, String overrideState) {
+  public String getMapAddress(int useGPSOption, String overrideCity, String overrideState) {
     
     // if there is no base address, return null
-    String mapAddr = getBaseMapAddress(useGPS);
+    String mapAddr = getBaseMapAddress(useGPSOption);
     if (mapAddr.length() == 0) return null;
     
     // If there is a GPS pattern in this, don't append anything
-    if (GPS_PATTERN.matcher(mapAddr).find()) return mapAddr;
+    if (MsgParser.GPS_PATTERN.matcher(mapAddr).find()) return mapAddr;
 
     
     StringBuilder sb = new StringBuilder(mapAddr);
@@ -349,58 +360,6 @@ public class MsgInfo {
     
     return sb.toString();
   }
-
-  /**
-   * Look for GPS coordinates in address line.  If found, parse them into a
-   * set of coordinates that Google Maps will recognize
-   */
-  private static String parseGPSCoords(String address) {
-    Matcher match = GPS_PATTERN.matcher(address);
-    if (!match.find()) return null;
-
-    double c1 = cvtGpsCoord(match.group(1));
-    double c2 = cvtGpsCoord(match.group(2));
-    
-    // There isn't a consistent standard as to which is latitude and
-    // which is longitude, so we will have to make some guesses.
-    double latitude, longitude;
-    if (c1 < 0) {
-      latitude = c2;
-      longitude = c1;
-    } else if (c2 < 0) {
-      latitude = c1;
-      longitude = c2;
-    } else if (c1 > c2) {
-      latitude = c2;
-      longitude = -c1;
-    } else {
-      latitude = c1;
-      longitude = -c2;
-    }
-    return "" + latitude + "," + longitude;
-  }
-  
-  public static final Pattern GPS_PATTERN = 
-    Pattern.compile("\\b([+-]?[0-9]+\\.[0-9]{4,}|[+-]?[0-9]+:[0-9]+:[0-9]+\\.[0-9]{4,})[,\\W]\\W*([+-]?[0-9]+\\.[0-9]{4,}|[+-]?[0-9]+:[0-9]+:[0-9]+\\.[0-9]{4,})\\b");
-
-  /**
-   * Convert GPS coordinate in degree:min:sec form to strait degrees
-   */
-  private static double cvtGpsCoord(String coord) {
-    int pt1 = coord.indexOf(':');
-    if (pt1 < 0) return Double.parseDouble(coord);
-    int pt2 = coord.indexOf(':', pt1+1);
-    String sDeg = coord.substring(0, pt1);
-    char sgn = sDeg.charAt(0);
-    boolean neg = (sgn == '-');
-    if (neg || sgn == '+') sDeg = sDeg.substring(1);
-    int deg = Integer.parseInt(sDeg);
-    int min = Integer.parseInt(coord.substring(pt1+1,pt2));
-    double sec = Double.parseDouble(coord.substring(pt2+1));
-    double result = deg + min/60. + sec/3600.;
-    if (neg) result = -result;
-    return result;
-  }
   
   /**
    * @return base mapping address, which is the adjusted address without
@@ -409,14 +368,18 @@ public class MsgInfo {
   private static final Pattern UK_POST_CODE_PTN = Pattern.compile("^[A-Z]{1,2}\\d{1,2}[A-Z]? \\d[A-Z]{2} +");
   private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O |(?: JUST)? (?:[NSEW]|NORTH|SOUTH|EAST|WEST) OF ");
   private static final Pattern CROSS_DELIM = Pattern.compile("[&/,@]| - | AND ", Pattern.CASE_INSENSITIVE);
-  public String getBaseMapAddress(boolean useGPS) {
+  public String getBaseMapAddress(int useGPSOption) {
+    
+    // See if we should return the GPS coordinates
+    if (useGPSOption != 2 && strGPSLoc.length() > 0) {
+      if (useGPSOption == 3 || preferGPSLoc) return strGPSLoc;
+    }
     
     if (strBaseMapAddress != null) return strBaseMapAddress;
     
     // See if we can find any GPS coordinates, if we do, return those
     String mapAddr = null;
-    if (useGPS) mapAddr = parseGPSCoords(strGPSLoc);
-    if (mapAddr == null) mapAddr = parseGPSCoords(strAddress);
+    if (mapAddr == null) mapAddr = countryCode.parseGPSCoords(strAddress);
     if (mapAddr != null) {
       strBaseMapAddress = mapAddr;
       return mapAddr;
@@ -919,6 +882,14 @@ public class MsgInfo {
    */
   public String getDefState() {
     return defState;
+  }
+
+  public CountryCode getCountryCode() {
+    return countryCode;
+  }
+
+  public boolean isPreferGPSLoc() {
+    return preferGPSLoc && strGPSLoc.length() > 0;
   }
   
   /**

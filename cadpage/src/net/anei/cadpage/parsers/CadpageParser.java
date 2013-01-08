@@ -104,9 +104,14 @@ public class CadpageParser  extends CadpageParserBase {
     append(sb, "URL", info.getInfoURL(), delim);
     if (info.getCity().length() == 0) append(sb, "DCITY", info.getDefCity(), delim);
     if (info.getState().length() == 0) append(sb, "DST", info.getDefState(), delim);
-    if (inclMapAddr) {
-      append(sb, "MADDR", info.getBaseMapAddress(false), delim);
+    CountryCode country = info.getCountryCode();
+    if (country != CountryCode.US) {
+      append(sb, "CO", country.toString(), delim);
     }
+    if (inclMapAddr) {
+      append(sb, "MADDR", info.getBaseMapAddress(2), delim);
+    }
+    if (info.isPreferGPSLoc()) append(sb, "REC_GPS", "Y", delim);
     return sb.toString();
   }
   

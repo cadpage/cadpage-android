@@ -563,9 +563,9 @@ public abstract class SmartAddressParser extends MsgParser {
     // in this address.  If we do find them, pack them so they will parse
     // into a single token
     String gpsCoords = null;
-    Matcher match = MsgInfo.GPS_PATTERN.matcher(address);
+    Matcher match = MsgParser.GPS_PATTERN.matcher(address);
     if (match.find()) {
-      gpsCoords = match.group(1) + ',' + match.group(2); 
+      gpsCoords = match.group(2) + ',' + match.group(4); 
       address = address.substring(0, match.start()) + gpsCoords 
                   + address.substring(match.end());
     }

@@ -43,7 +43,7 @@ public class CANapaCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "PLACE " + super.getFieldNames();
+      return "PLACE " + super.getFieldNames() + " CITY";
     }
   }
 
@@ -61,5 +61,10 @@ public class CANapaCountyParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("ID")) return new MyIdField();
     return super.getField(name);
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
 }

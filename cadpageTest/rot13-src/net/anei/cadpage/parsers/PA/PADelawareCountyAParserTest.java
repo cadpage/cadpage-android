@@ -233,7 +233,7 @@ choyvp pynff CNQrynjnerPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:ZNEPRYYN YA",
         "PVGL:HCCRE CEBIVQRAPR GJC",
         "HAVG:RAT73",
-        "TCF:-075.404602 +039.914093");
+        "TCF:+39.914093,-75.404602");
 
     qbGrfg("G2",
         "70 QVRZRE QE HC*ZNEPRYYN YA*RAT73*-075.404602 +039.914093 PNHGVB",
@@ -241,7 +241,7 @@ choyvp pynff CNQrynjnerPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:ZNEPRYYN YA",
         "PVGL:HCCRE CEBIVQRAPR GJC",
         "HAVG:RAT73",
-        "TCF:-075.404602 +039.914093");
+        "TCF:+39.914093,-75.404602");
 
     qbGrfg("G3",
         "[Hcqngr]*CNYZREF ZVYY EQ / ZNAFVBA QE H*CNYZREF ZVYY EQ / ZNAFVBA QE*738/Z23/237/ER73/739N/GS53/GS4*PNE/CBYR,PBZCY ABG VAIBYIRQ,2A",
@@ -446,14 +446,14 @@ choyvp pynff CNQrynjnerPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:A EVQYRL PERRX EQ & ZNEPRYYN Y",
         "K:A EVQYRL PERRX EQ / ZNEPRYYN Y",
         "HAVG:ER73",
-        "TCF:-075.404449 +039.920797");
+        "TCF:+39.920797,-75.404449");
 
     qbGrfg("G29",
         "A EVQYRL PERRX EQ / ZNEPRYYN Y*A EVQYRL PERRX EQ / ZNEPRYYN Y*ER73/Z23/ER51/237*-075.404449 +039.920797",
         "NQQE:A EVQYRL PERRX EQ & ZNEPRYYN Y",
         "K:A EVQYRL PERRX EQ / ZNEPRYYN Y",
         "HAVG:ER73/Z23/ER51/237",
-        "TCF:-075.404449 +039.920797");
+        "TCF:+39.920797,-75.404449");
 
     qbGrfg("G30",
         "[Hcqngr]*62 YRGVGVN YA HC*FGN73*GUVF CNEG BS GUR FGERRG VF PYB",

@@ -12,6 +12,78 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class CAMendocinoCountyParser extends FieldProgramParser {
   
+  public CAMendocinoCountyParser() {
+    super(CITY_CODES, "MENDOCINO COUNTY", "CA",
+           "CALL ADDR! Inc:IDGPSUNIT! INFO+");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "meucad@fire.ca.gov";
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    body = body.replace(" Inc# ", " Inc: ");
+    return parseFields(body.split(";"), data);
+  }
+  
+  private static final Pattern TRAIL_PARENS = Pattern.compile("\\(([^\\(]*?)\\)$");
+  private class MyAddressField extends AddressField {
+    
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = TRAIL_PARENS.matcher(field);
+      if (match.find()) {
+        data.strPlace = match.group(1);
+        field = field.substring(0,match.start()).trim();
+      }
+      Parser p = new Parser(field);
+      data.strPlace = append(p.getOptional('@'), " / ", data.strPlace);
+      data.strCity = convertCodes(p.getLastOptional(','), CITY_CODES);
+      parseAddress(p.get(), data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE ADDR CITY";
+    }
+  }
+  
+  private static final Pattern ID_GPS_UNIT_PTN =
+    Pattern.compile("(\\d*) *X: ([- 0-9.]+) Y: ([- 0-9.]+)(.*)");
+  private class IdGpsUnitField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ID_GPS_UNIT_PTN.matcher(field);
+      if (match.matches()) {
+        data.strCallId = match.group(1).trim();
+        // GPS coordinates have to be reversed, Google expects Latitude first.
+        String gpsLoc = match.group(3) + ',' + match.group(2);
+        setGPSLoc(gpsLoc, data);
+        data.strUnit = match.group(4).trim();
+      }
+    }
+    
+    @Override
+    public String  getFieldNames() {
+      return "ID GPS UNIT";
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("IDGPSUNIT")) return new IdGpsUnitField();
+    return super.getField(name);
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ALBI", "ALBION",
       "ANCB", "ANCHOR BAY",
@@ -62,69 +134,4 @@ public class CAMendocinoCountyParser extends FieldProgramParser {
       "WILL", "WILLITS",
       "YORK", "YORKVILLE"
   });
-  
-  public CAMendocinoCountyParser() {
-    super(CITY_CODES, "MENDOCINO COUNTY", "CA",
-           "CALL ADDR! Inc:IDGPSUNIT! INFO+");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "meucad@fire.ca.gov";
-  }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    body = body.replace(" Inc# ", " Inc: ");
-    return parseFields(body.split(";"), data);
-  }
-  
-  private static final Pattern TRAIL_PARENS = Pattern.compile("\\(([^\\(]*?)\\)$");
-  private class MyAddressField extends AddressField {
-    
-    @Override
-    public void parse(String field, Data data) {
-      Matcher match = TRAIL_PARENS.matcher(field);
-      if (match.find()) {
-        data.strPlace = match.group(1);
-        field = field.substring(0,match.start()).trim();
-      }
-      Parser p = new Parser(field);
-      data.strPlace = append(p.getOptional('@'), " / ", data.strPlace);
-      data.strCity = convertCodes(p.getLastOptional(','), CITY_CODES);
-      parseAddress(p.get(), data);
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "PLACE ADDR CITY";
-    }
-  }
-  
-  private static final Pattern ID_GPS_UNIT_PTN =
-    Pattern.compile("(\\d*) *(X: [- 0-9.]+ Y: [- 0-9.]+)(.*)");
-  private class IdGpsUnitField extends Field {
-
-    @Override
-    public void parse(String field, Data data) {
-      Matcher match = ID_GPS_UNIT_PTN.matcher(field);
-      if (match.matches()) {
-        data.strCallId = match.group(1).trim();
-        data.strGPSLoc = match.group(2).trim();
-        data.strUnit = match.group(3).trim();
-      }
-    }
-    
-    @Override
-    public String  getFieldNames() {
-      return "ID GPS UNIT";
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("IDGPSUNIT")) return new IdGpsUnitField();
-    return super.getField(name);
-  }
 }
