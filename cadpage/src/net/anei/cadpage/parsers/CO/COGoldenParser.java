@@ -15,7 +15,7 @@ public class COGoldenParser extends FieldProgramParser {
   
   public COGoldenParser() {
     super("GOLDEN", "CO",
-           "Call#:ID! Time:TIME! Type_of_call:CALL! Location:ADDR! Cross_streets:X? Map_page:MAP? Units:UNIT? Narrative:INFO");
+           "Call#:ID! Time:TIME! Type_of_call:CALL! Location:ADDR/SXa! Cross_streets:X? Map_page:MAP? Units:UNIT? Narrative:INFO");
   }
   
   @Override
@@ -37,8 +37,13 @@ public class COGoldenParser extends FieldProgramParser {
       if (parts.length > 3) abort();
       int ndx = 0;
       if (parts.length == 3) data.strPlace = parts[ndx++].trim();
-      parseAddress(parts[ndx++].trim(), data);
+      super.parse(parts[ndx++].trim(), data);
       if (ndx < parts.length) data.strCity = parts[ndx].trim();
+      
+      if (data.strApt.contains("MM") || data.strApt.equals("HWY")) {
+        data.strAddress = data.strAddress + " " + data.strApt;
+        data.strApt = "";
+      }
     }
     
     @Override
