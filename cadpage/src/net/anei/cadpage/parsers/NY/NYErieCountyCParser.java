@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -9,6 +10,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class NYErieCountyCParser extends SmartAddressParser {
   
+  private static final Pattern MARKER = Pattern.compile("^(?:Erie_Alert|USMO SMS:) ");
   private static final Pattern TRAIL_JUNK = Pattern.compile("[\\. ]+$");
   
   public NYErieCountyCParser() {
@@ -17,8 +19,9 @@ public class NYErieCountyCParser extends SmartAddressParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (! body.startsWith("Erie_Alert ")) return false;
-    body = body.substring(11).trim();
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    body = body.substring(match.end()).trim();
     if (body.endsWith("<NOREPLY>")) body = body.substring(0,body.length()-9).trim();
     body = TRAIL_JUNK.matcher(body).replaceAll("");
     
