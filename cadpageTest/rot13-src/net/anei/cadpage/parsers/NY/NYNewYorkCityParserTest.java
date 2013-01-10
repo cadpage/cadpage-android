@@ -31,6 +31,10 @@ Nir Z - Org: R 18Gu Fg & R 18Gu Fg - Pnyy VQ: 933-3131
 609 Bprna Cxjl - Org: 18Gu Nir & Qvgznf Nir - 1fg sybbe - Pnyy VQ: 933-4081
 1579 R 5Gu Fg - Org: Elqre Nir / Ebqre Nir & Nirahr B - 1fg sybbe - Pnyy VQ: 942-8371
 
+Pbagnpg: Nneba Ebguzna <syngohfu97@tznvy.pbz>
+Fraqre: igrkg.pbz@tznvy.pbz
+syngohfu97+pns_=9179688745=igrkg.pbz@tznvy.pbz 2078 R 19Gu Fg - Org: Nirahr G & Nirahr H - 1fg sybbe - Pnyy VQ: 957-5211
+
 */
 
 choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -162,12 +166,19 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:1fg sybbe",
         "VQ:933-4081");
 
-    qbGrfg("G1",
+    qbGrfg("G18",
         "1579 R 5Gu Fg - Org: Elqre Nir / Ebqre Nir & Nirahr B - 1fg sybbe - Pnyy VQ: 942-8371",
         "NQQE:1579 R 5Gu Fg",
         "K:Elqre Nir / Ebqre Nir & Nirahr B",
         "CYNPR:1fg sybbe",
         "VQ:942-8371");
+
+    qbGrfg("G19",
+        "syngohfu97+pns_=9179688745=igrkg.pbz@tznvy.pbz 2078 R 19Gu Fg - Org: Nirahr G & Nirahr H - 1fg sybbe - Pnyy VQ: 957-5211",
+        "NQQE:2078 R 19Gu Fg",
+        "K:Nirahr G & Nirahr H",
+        "CYNPR:1fg sybbe",
+        "VQ:957-5211");
 
   }
   
