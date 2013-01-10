@@ -1850,20 +1850,18 @@ Larry Price (pwceng511@gmail.com) (ljprice75@gmail.com) // PayPal $15 on 12/12 +
 
 %2013/Battleboro Community Volunteer Fire Department // Payment pending
 %%01/05/2013
-Chris Barus   (2525679749)
-Ashley Hardee (2529556616)
-Jim Hardee    (2529031802)
-Eddie Hardee  (2529034376)
-Janalee Miller  (2523821873)
-John Miller   (2523821849)
-Josh Peele    (2529084653)
-Kevin Rose    (2529032013)
-Clay Skinner  (2525442747)
-Adam Spivey   (2528135040)
-Robbie Stokes (2528131501)
-Andy Tess     (2529087075)
-Bubba Webb    (2528833603)
-
+Chris Barus                 (2525679749)
+Dereck Carpenter      (2528852855)
+Ashley Hardee           (2529556616)
+Jim Hardee                 (2529031802)
+Eddie Hardee             (2529034376)
+Josh Peele                  (2529084653)
+Kevin Rose                 (2529032013)
+Clay Skinner               (2525442747)
+Adam Spivey              (2528135040)
+Cory Strange              (2528839651)
+Andy Tess                   (2529087075)
+Bubba Webb              (2528833603)
 
 // List of users getting credit or paid for 2013
 %2013
@@ -1900,6 +1898,8 @@ Greg Staten (medic2pa76@gmail.com) (shannastaten@woh.rr.com) // PayPal by Shanna
 // *** Insert Paid Users here ***
 // List of users getting credit or paid for 2014
 %2014
+%%01/07/2013
+Jerry Digennaro (jerryd264@gmail.com) // paid by check 1230 $20 for 2 years
 %%01/09/2012
 Mike Shaw (mshaw1957@gmail.com) // Raymond Shaw paid by check 2684 $20 12-12-12
 
@@ -3911,6 +3911,13 @@ Stephen Tripp <firefighter1269@gmail.com>
 Beeker <beekerwolf@gmail.com>
 %%01/07/2013
 Rick Murphy <ford133ff2@gmail.com>
+Nathaniel Riggs <n8thgr8@gmail.com>
+Nicholas Funk <nfunk01@gmail.com>
+Art (arthood7663@gmail.com) <art@akhood.com>
+dustin joyner <dustin.joyner3@gmail.com>
+
+
+
 
 
 
