@@ -17,9 +17,11 @@ Handcent is the culprit.  They insist on being the top dog in the SMS queue, mea
 Actually it is more complicated that that.  Cadpage, Handcent, and Go SMS are all fighting for the top slot, and the Android system awards that prize to the one that was installed first.  So you will find it starts working when you install a new version of Handcent, and stops working when you install a new version of Cadpage.  Which always makes it look like our Cadpage update broke things.
 
 So what can you do, there are a few choices
-1) You can uninstall Handcent and look for another messaging app, preferably after sending them a polite note telling them you won't put up with apps that don't play nicely with Cadpage.
-2) You use the Handcent settings to blacklist the email/phone number dispatch uses to send you pages.  Then it nicely drops those calls back to Cadpage.
-3) You can go to our download page at http://www.cadpage.org/download-cadpage/ where we keep the most recent version of Handcent that plays nicely with Cadpage.  Install that and things should work nicely.
+1) The latest version of Handcent has a new option to lower the input priority.  Presumably this will make it compatible with Cadpage, but this has not been conclusively confirmed.To get to it, select
+   Menu > Settings > Application Settings > Lower Priority
+2) You can uninstall Handcent and look for another messaging app, preferably after sending them a polite note telling them you won't put up with apps that don't play nicely with Cadpage.
+3) You use the Handcent settings to blacklist the email/phone number dispatch uses to send you pages.  Then it nicely drops those calls back to Cadpage.
+4) You can go to our download page at http://www.cadpage.org/download-cadpage/ where we keep the most recent version of Handcent that plays nicely with Cadpage.  Install that and things should work nicely.
 
 Good luck,
 -Ken
@@ -1027,3 +1029,16 @@ Philomath, OR, 97370
 Or you can ask us to send you an invoice
 
 ******************************************************************************
+** Response Button Setup **
+
+If you want to report your responding status to IamResponding, you can configure Cadpage to call the phone number that IamResponding give you.  To do that, go into Cadpage settings and select
+Additional Settings > Button Configuration > Response Button Menu
+and set the Button 2 Phone/Code setting to the number you would like to call.
+
+If you want, you can get more complicated and set up multiple response buttons with different titles calling different phone numbers.  If you do, make sure you leave one button with no PhoneCode setting that you can use to close the response button menu without calling anybody.
+
+Have a nice day,
+-Ken
+
+******************************************************************************
+

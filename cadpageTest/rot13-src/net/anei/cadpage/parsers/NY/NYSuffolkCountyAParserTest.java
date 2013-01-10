@@ -83,6 +83,10 @@ Pbagnpg: Tnel Syrfpuare <tnel.syrfpuare@tznvy.pbz>
 Fraqre: cntvat@fpserf.pbz
 GLCR: NYNEZF YBP: IVYYNTR TERRA QE CBEGWF :2330  PEBFF: BYQ GBJA EQ / BYQ GBJA EQ PBQR: 52-P-4F GVZR: 14:02:25\e\a\e\a\e
 
+Pbagnpg: Eba Ubavt <ubavt484@tznvy.pbz>
+Fraqre: cntvat@fpserf.pbz
+/ GLCR: PBAIHYFVBAF / FRVMHERF YBP: 811 OYHR EVQTR QE ZRQSBE  CC 37 PEBFF: TENAAL EQ / TENAAL EQ PBQR: 12-Q-2R GVZR: 22:51:08
+
 Pbagnpg: fhccbeg@npgvir911.pbz
 GLCR: ERFCVENGBEL YBP: 14 EVGN QE ZBHAGF PEBFF: JRFGPYVSS QE / WBAV QE PBQR:6-Q-1 GVZR: 23:35:41
 GLCR: OYRRQVAT / YNPRENGVBAF YBP: 103 EBR YA CBEGWR PEBFF: IVYYNTR JBBQF EQ / PBQR: 21-O-1 GVZR: 13:18:59
@@ -391,7 +395,17 @@ choyvp pynff ALFhssbyxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:BYQ GBJA EQ / BYQ GBJA EQ",
         "PBQR:52-P-4F",
         "GVZR:14:02:25");
- 
+
+    qbGrfg("G31",
+        "/ GLCR: PBAIHYFVBAF / FRVMHERF YBP: 811 OYHR EVQTR QE ZRQSBE  CC 37 PEBFF: TENAAL EQ / TENAAL EQ PBQR: 12-Q-2R GVZR: 22:51:08",
+        "PNYY:PBAIHYFVBAF / FRVMHERF",
+        "NQQE:811 OYHR EVQTR QE",
+        "PVGL:ZRQSBEQ",
+        "CYNPR:CC 37",
+        "K:TENAAL EQ / TENAAL EQ",
+        "PBQR:12-Q-2R",
+        "GVZR:22:51:08");
+
   }
   
   @Grfg
