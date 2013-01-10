@@ -5352,6 +5352,131 @@ Flerfamiljshus
 Nyfors
 D10
 PositionWGS84 : La = 59 grader 22,084'N    Lo = 016 grader 30,468'E
+
+Från: 3315 [MOBILE: 3315]
+Skickat: den 2 januari 2013 18:24
+Ämne: 3325673
+Trafikolycka - singel
+Personbil
+Motorväg
+E 20 Lövlund
+
+D10
+PositionWGS84 : La = 59 grader 22,137'N    Lo = 016 grader 42,915'E
+
+
+3325673
+Trafikolycka - singel
+Personbil
+Motorväg
+E 20 Lövlund
+
+D10
+PositionWGS84 : La = 59 grader 22,137'N    Lo = 016 grader 42,915'E
+
+Från: 3315 [MOBILE: 3315]
+Skickat: den 2 januari 2013 21:18
+Ämne: 3325975
+Trafikolycka - flera fordon
+Personbil
+Övrigt
+carlavägen 47a
+
+D10
+PositionWGS84 : La = 59 grader 22,299'N    Lo = 016 grader 31,957'E
+
+
+3325975
+Trafikolycka - flera fordon
+Personbil
+Övrigt
+carlavägen 47a
+
+D10
+PositionWGS84 : La = 59 grader 22,299'N    Lo = 016 grader 31,957'E
+
+Från: 3315 [MOBILE: 3315]
+Skickat: den 5 januari 2013 02:00
+Ämne: 3331568
+Röklukt - byggnad
+Flerfamiljshus
+
+Noachs Tvärgata 2A
+Eskilstuna
+D10
+PositionWGS84 : La = 59 grader 22,417'N    Lo = 016 grader 31,361'E
+
+
+3331568
+Röklukt - byggnad
+Flerfamiljshus
+
+Noachs Tvärgata 2A
+Eskilstuna
+D10
+PositionWGS84 : La = 59 grader 22,417'N    Lo = 016 grader 31,361'E
+
+Från: 3315 [MOBILE: 3315]
+Skickat: den 7 januari 2013 12:40
+Ämne: 3336671
+Interna brandlarm
+Inringt från platsen
+Övrigt
+Sättargatan
+
+D10
+PositionWGS84 : La = 59 grader 20,574'N    Lo = 016 grader 29,103'E
+
+
+3336671
+Interna brandlarm
+Inringt från platsen
+Övrigt
+Sättargatan
+
+D10
+PositionWGS84 : La = 59 grader 20,574'N    Lo = 016 grader 29,103'E
+
+Från: 3315 [MOBILE: 3315]
+Skickat: den 7 januari 2013 14:32
+Ämne: 3337055
+Automatlarm
+Brand
+
+Mälarsjukhuset     Nr 69 Mälarsjukhuset, Eskilstun
+Eskilstuna
+D10
+PositionWGS84 : La = 59 grader 21,772'N    Lo = 016 grader 32,388'E
+
+3337055
+Automatlarm
+Brand
+
+Mälarsjukhuset     Nr 69 Mälarsjukhuset, Eskilstun
+Eskilstuna
+D10
+PositionWGS84 : La = 59 grader 21,772'N    Lo = 016 grader 32,388'E
+
+Från: 3315 [MOBILE: 3315]
+Skickat: den 8 januari 2013 13:15
+Ämne: 3339777
+Automatlarm
+Brand
+
+Kungsgatan 68      Nr 31 Kontor  Studielokal
+Eskilstuna
+D10
+PositionWGS84 : La = 59 grader 22,592'N    Lo = 016 grader 29,983'E
+
+
+3339777
+Automatlarm
+Brand
+
+Kungsgatan 68      Nr 31 Kontor  Studielokal
+Eskilstuna
+D10
+PositionWGS84 : La = 59 grader 22,592'N    Lo = 016 grader 29,983'E
 **********************************************************
 Contact: Eric Riffle <ericriffle@ymail.com>
 Sender: :ept@ept911.info
@@ -5370,7 +5495,7 @@ S:!  M:Electrical Fire: 613 SW WESTERN AVE B , Grants Pass:  \n1/6/2013 12:29:06
 **********************************************************
 **********************************************************
 **********************************************************
-Gloucester County, NJ (alternate)
+Gloucester County, NJ (alternate - fix)
 Contact: "rich2118@comcast.net" <rich2118@comcast.net>
 Dispatch Contact: jjones@co.gloucester.nj.us
 Sender: 777259763803
@@ -5392,6 +5517,10 @@ Fwd: GC ALERT (#424219) FD 10-3: {12/27/2012 17:42:05} ALRM     - Fire Alarm Sys
 Contact:  Jay Hauss <jhauss9010@gmail.com>
 Sender: 1410000250
 FRM:GC RSAN #426585\nMSG:FD 22-1: {01/04/2013 14:52:09}\r\nSERV\5s- Service assignment (Fire){3}\r\n389 Breakneck RD;J=
+
+Contact: Richard Harris <rwh037@gmail.com>
+Sender: 777282007204
+Body:GC ALERT (#427869) FD 6-3: {01/09/2013 08:12:58}\nALMC\5s- CO Alarm{3}\n11 Victorian Way;T STOP
 
 FD 9-2 is station code
 B STOP ends all pages

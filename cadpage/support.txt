@@ -60,6 +60,7 @@ Active911 is a separate Organization from Cadpage, though we do work very closel
 
 Cadpage and Active911 have a symbiotic relationship.  Cadpage takes the roll of the Active911 client for Android phones.  Active911 depends on the message text parsers developed by Cadpage to drive their IPhone and cell phone traffic.  
 
+
 The problem with this arrangement is that Cadpage lacks the ability to display responder status information that is integrated into the Active911/Iphone app.  We are aware of the deficiency, but thus far have not decided how to resolve it.  Cadpage will let you display the Active911 incident web page, but that page lacks the real time responder location display that makes the Active911/IPhone app so cool.  There are serious technical challenges to adding that functionality directly to Cadpage.  On top of that, Cadpage is an open source product.  Active911 is not, and they are understandably reluctant to put a lot of their map and communication code into an open source app where their competitors can access it.
 
 ******************************************************************
