@@ -17,9 +17,11 @@ Handcent is the culprit.  They insist on being the top dog in the SMS queue, mea
 Actually it is more complicated that that.  Cadpage, Handcent, and Go SMS are all fighting for the top slot, and the Android system awards that prize to the one that was installed first.  So you will find it starts working when you install a new version of Handcent, and stops working when you install a new version of Cadpage.  Which always makes it look like our Cadpage update broke things.
 
 So what can you do, there are a few choices
-1) You can uninstall Handcent and look for another messaging app, preferably after sending them a polite note telling them you won't put up with apps that don't play nicely with Cadpage.
-2) You use the Handcent settings to blacklist the email/phone number dispatch uses to send you pages.  Then it nicely drops those calls back to Cadpage.
-3) You can go to our download page at http://www.cadpage.org/download-cadpage/ where we keep the most recent version of Handcent that plays nicely with Cadpage.  Install that and things should work nicely.
+1) The latest version of Handcent has a new option to lower the input priority.  Presumably this will make it compatible with Cadpage, but this has not been conclusively confirmed.To get to it, select
+   Menu > Settings > Application Settings > Lower Priority
+2) You can uninstall Handcent and look for another messaging app, preferably after sending them a polite note telling them you won't put up with apps that don't play nicely with Cadpage.
+3) You use the Handcent settings to blacklist the email/phone number dispatch uses to send you pages.  Then it nicely drops those calls back to Cadpage.
+4) You can go to our download page at http://www.cadpage.org/download-cadpage/ where we keep the most recent version of Handcent that plays nicely with Cadpage.  Install that and things should work nicely.
 
 Good luck,
 -Ken
@@ -57,7 +59,6 @@ Will Active911 be available on Android?
 Active911 is a separate Organization from Cadpage, though we do work very closely together.  Which means that any answer I give should be considered advisory.  You really should ask them if you want definitive answers.
 
 Cadpage and Active911 have a symbiotic relationship.  Cadpage takes the roll of the Active911 client for Android phones.  Active911 depends on the message text parsers developed by Cadpage to drive their IPhone and cell phone traffic.  
-
 
 The problem with this arrangement is that Cadpage lacks the ability to display responder status information that is integrated into the Active911/Iphone app.  We are aware of the deficiency, but thus far have not decided how to resolve it.  Cadpage will let you display the Active911 incident web page, but that page lacks the real time responder location display that makes the Active911/IPhone app so cool.  There are serious technical challenges to adding that functionality directly to Cadpage.  On top of that, Cadpage is an open source product.  Active911 is not, and they are understandably reluctant to put a lot of their map and communication code into an open source app where their competitors can access it.
 
@@ -320,13 +321,14 @@ We also take PayPal & snail mail payments,   Details on how to do that can be fo
 
 Basically, you can mail a check or money order to
 
-Cadpage35136 Kings Valley Hwy
+Cadpage
+35136 Kings Valley Hwy
 Philomath, OR 97370
 
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GOLDLSAA or goldlsaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+PACUNRGA or pacunrga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -340,7 +342,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GOLDLSAA or goldlsaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+PACUNRGA or pacunrga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -350,7 +352,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GOLDLSAA or goldlsaa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+PACUNRGA or pacunrga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -763,7 +765,7 @@ iphone questions
 The developer doing Cadpage/IPhone is having trouble getting it accepted by the App Store.  Apple runs a really tight ship, and there are several prohibitions listed in their terms of service that Cadpage skirts around the edges of.  Active911 got in, despite doing essentially the same thing, only because the developer included pages of explanations why Active911 doesn't really violate those prohibitions.  Jesse is currently using all of those argument to try and appeal the Cadpage rejection.  How that will turn out is anyones guess.
 
 Even if it were available, it probably wouldn't be much help.  The problem is that the IOS environment is a lot more restrictive than Android.  Unless you have a jail broken phone, it is not possible to pick up 
-text messages the way we do for Android.  The only way Cadpage will work is if you get pages from a message service that can push pages to Cadpage without using text messaging.  And right now there are only 2, Active911.com and CodeMessaging.net.
+text messages the way we do for Android.  The only way Cadpage will work is if you get pages from a message service that can push pages to Cadpage without using text messaging.  And right now there are only two message services: Active911.com and CodeMessaging.net.  Please try one of those.
 
 Good luck,
 Jean, Assistant to Ken Corbin
@@ -1027,3 +1029,17 @@ Philomath, OR, 97370
 Or you can ask us to send you an invoice
 
 ******************************************************************************
+
+** Response Button Setup **
+
+If you want to report your responding status to IamResponding, you can configure Cadpage to call the phone number that IamResponding give you.  To do that, go into Cadpage settings and select
+Additional Settings > Button Configuration > Response Button Menu
+and set the Button 2 Phone/Code setting to the number you would like to call.
+
+If you want, you can get more complicated and set up multiple response buttons with different titles calling different phone numbers.  If you do, make sure you leave one button with no PhoneCode setting that you can use to close the response button menu without calling anybody.
+
+Have a nice day,
+-Ken
+
+******************************************************************************
+
