@@ -9,6 +9,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYNassauCountyDParser extends FieldProgramParser {
   
+  private static final Pattern MISSING_BLANK = Pattern.compile("([^ ])(CS:|TOA:)");
+  private static final Pattern MISSING_BLANK2 = Pattern.compile("\\b(\\d\\d-\\d\\d-\\d\\d)(\\d{4}-\\d{6})\\b");
   private static final Pattern ID_PTN = Pattern.compile("^(\\d{4}-\\d{6}) ");
   private static final Pattern ID_PTN2 = Pattern.compile("\\b(\\d{4}-\\d{6})\\b");
   
@@ -29,11 +31,13 @@ public class NYNassauCountyDParser extends FieldProgramParser {
     // Call description is in front of text bracketed by three asterisks
     int pt1 = body.indexOf("***");
     if (pt1 < 0) return false;
-    int pt2 = body.indexOf("*** ", pt1+3);
+    int pt2 = body.indexOf("***", pt1+3);
     if (pt2 < 0) return false;
     data.strCall = append(body.substring(0,pt1).trim(), " / ", body.substring(pt1+3, pt2).trim());
     
-    body = body.substring(pt2+4).trim();
+    body = body.substring(pt2+3).trim();
+    body = MISSING_BLANK.matcher(body).replaceAll("$1 $2");
+    body = MISSING_BLANK2.matcher(body).replaceAll("$1 $2");
     return super.parseMsg(body, data);
   }
   

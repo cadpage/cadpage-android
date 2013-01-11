@@ -52,6 +52,14 @@ Fraqre: rnfgzrnqbjsq@tznvy.pbz
 ***Erfphr Pnyy*** 38 ZBEEVF QE PF: EBAAV QE  / FHFNA PG GBN: 12:07 06/01/12
 ***Erfphr Pnyy*** 576 FNYVFOHEL CNEX QE PF: URQTR YA GBN: 15:10 07/16/12
 
+Pbagnpg: cavpbyn@angpn.arg
+Fraqre: jnagntucntvat@tznvy.pbz
+*** 300 ERFPHR ***2170 FBHGUNEQ NIRPF: JNIREYL NIR - JRFYRL FGGBN: 15:59 01-02-132013-000007
+*** 310 ERFPHR - PNEQVNP ***1689 CNEXIVRJ NIRPF: CVGGFOHETU NIR - PYNEX FGGBN: 11:55 01-01-132013-000003
+*** 350 ERFPHR - SNYY ***3886 PBAQVG FGPF: FRNZNAF ARPX EQ - WNPXFBA NIRGBN: 09:44 01-01-132013-000002
+*** 110 ZVABE VAG -UBHFR SVER NHGB NYZ ***2316 FZVGU YAPF: ZREEVPX EQ - WBUA YAGBN: 13:11 12-31-122012-000709
+*** 300 ERFPHR ***ZREEVPX EQPF: FZVGU YAB26GBN: 12:46 12-31-122012-000708
+
 */
 
 choyvp pynff ALAnffnhPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -324,6 +332,57 @@ choyvp pynff ALAnffnhPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:URQTR YA",
         "QNGR:07/16/12",
         "GVZR:15:10");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgcavpbyn() {
+
+    qbGrfg("G1",
+        "*** 300 ERFPHR ***2170 FBHGUNEQ NIRPF: JNIREYL NIR - JRFYRL FGGBN: 15:59 01-02-132013-000007",
+        "VQ:2013-000007",
+        "PNYY:300 ERFPHR",
+        "NQQE:2170 FBHGUNEQ NIR",
+        "K:JNIREYL NIR - JRFYRL FG",
+        "QNGR:01/02/13",
+        "GVZR:15:59");
+
+    qbGrfg("G2",
+        "*** 310 ERFPHR - PNEQVNP ***1689 CNEXIVRJ NIRPF: CVGGFOHETU NIR - PYNEX FGGBN: 11:55 01-01-132013-000003",
+        "VQ:2013-000003",
+        "PNYY:310 ERFPHR - PNEQVNP",
+        "NQQE:1689 CNEXIVRJ NIR",
+        "K:CVGGFOHETU NIR - PYNEX FG",
+        "QNGR:01/01/13",
+        "GVZR:11:55");
+
+    qbGrfg("G3",
+        "*** 350 ERFPHR - SNYY ***3886 PBAQVG FGPF: FRNZNAF ARPX EQ - WNPXFBA NIRGBN: 09:44 01-01-132013-000002",
+        "VQ:2013-000002",
+        "PNYY:350 ERFPHR - SNYY",
+        "NQQE:3886 PBAQVG FG",
+        "K:FRNZNAF ARPX EQ - WNPXFBA NIR",
+        "QNGR:01/01/13",
+        "GVZR:09:44");
+
+    qbGrfg("G4",
+        "*** 110 ZVABE VAG -UBHFR SVER NHGB NYZ ***2316 FZVGU YAPF: ZREEVPX EQ - WBUA YAGBN: 13:11 12-31-122012-000709",
+        "VQ:2012-000709",
+        "PNYY:110 ZVABE VAG -UBHFR SVER NHGB NYZ",
+        "NQQE:2316 FZVGU YA",
+        "K:ZREEVPX EQ - WBUA YA",
+        "QNGR:12/31/12",
+        "GVZR:13:11");
+
+    qbGrfg("G5",
+        "*** 300 ERFPHR ***ZREEVPX EQPF: FZVGU YAB26GBN: 12:46 12-31-122012-000708",
+        "VQ:2012-000708",
+        "PNYY:300 ERFPHR",
+        "NQQE:ZREEVPX EQ",
+        "ZNQQE:ZREEVPX EQ & FZVGU YAB26",
+        "K:FZVGU YAB26",
+        "QNGR:12/31/12",
+        "GVZR:12:46");
 
   }
   
