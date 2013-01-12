@@ -78,6 +78,20 @@ Good Luck,
 Jean -- Assistant to Ken Corbin
 
 ******************************************************************
+
+So, the department should have an account with Active911.  And everyone should have device that it associated with that account.  Each user needs the numeric device number and the 4 character activation code associated with that device.  This is all information you get working with Active911.
+
+Next open the Cadpage settings on your phone.  Select
+Direct Paging Vendors > Active911.com > Register
+This takes you to a web page where you need to enter the two part Device Key / Access code associated with the device.  If all goes well, Cadpage will display a notice that your Active911 direct paging connection has been activated.
+
+At this point, Active911 will start sending you pages through the Internet data network instead of using SMS text pages. 
+
+Please let me know if you still have problems with Cadpage.
+
+Good Luck, Jean, Assistant to Ken Corbin
+
+******************************************************************
 ** PayPal and user list
 ******************************************************************
 
@@ -128,7 +142,7 @@ This will generate an email with the correct email account (usually a gmail acco
 Your Payment status should change when you load the next Cadpage version. 
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-DIXFHYCA or dixfhyca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+QNZEOGAA or qnzeogaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -209,7 +223,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail address) so I can make sure you get credit for it.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-DIXFHYCA or dixfhyca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+QNZEOGAA or qnzeogaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -330,7 +344,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-DIXFHYCA or dixfhyca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+QNZEOGAA or qnzeogaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -344,7 +358,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-DIXFHYCA or dixfhyca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+QNZEOGAA or qnzeogaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -354,7 +368,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-DIXFHYCA or dixfhyca.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+QNZEOGAA or qnzeogaa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
