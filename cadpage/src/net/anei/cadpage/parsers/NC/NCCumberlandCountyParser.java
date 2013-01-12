@@ -13,7 +13,7 @@ public class NCCumberlandCountyParser extends FieldProgramParser {
   
   public NCCumberlandCountyParser() {
     super("CUMBERLAND COUNTY", "NC",
-           "UNIT? PLACE? DATETIME CALL UNIT2? ADDR X PLACE");
+           "UNIT? PLACE? DATETIME CALL UNIT2? ADDR! X PLACE");
   }
   
   @Override

@@ -1047,15 +1047,15 @@ Or you can ask us to send you an invoice
 ******************************************************************************
 
 ** Response Button Setup **
-
-If you want to report your responding status to IamResponding, you can configure Cadpage to call the phone number that IamResponding give you.  To do that, go into Cadpage settings and select
-Additional Settings > Button Configuration > Response Button Menu
-and set the Button 2 Phone/Code setting to the number you would like to call.
-
-If you want, you can get more complicated and set up multiple response buttons with different titles calling different phone numbers.  If you do, make sure you leave one button with no PhoneCode setting that you can use to close the response button menu without calling anybody.
-
-Have a nice day,
--Ken
+  
+  If you want to report your responding status to IamResponding, you can configure Cadpage to call the phone number that IamResponding give you.  To do that, go into Cadpage settings and select
+  Additional Settings > Button Configuration > Response Button Menu
+  and set the Button 2 Phone/Code setting to the number you would like to call.
+  
+  If you want, you can get more complicated and set up multiple response buttons with different titles calling different phone numbers.  If you do, make sure you leave one button with no PhoneCode setting that you can use to close the response button menu without calling anybody.
+  
+  Have a nice day,
+  -Ken
 
 ******************************************************************************
 
