@@ -30,6 +30,7 @@ Fraqre: 7771
 Pbagnpg: Wnlzrf Aryfba <wnlzrfearyfba@tznvy.pbz>
 Fraqre: Sebz:qvfcngpu@pprep911.bet
 (&) 130100078/01-10-13/08:28:25/Fgehpgher Sver/2400 WBUAFGBJA EQ/UHAGVATGBA/PBIRANAG FPUBBY/FGEBAT RYRPGEVPNY FZRYY/ [Nggnpuzrag(f) erzbirq]
+(&) 130080282/01-08-13/18:07:33/Fgehpgher Sver/810 J 13GU FG/UHAGVATGBA/ZNQVFBA NIR/ZBAEBR NIR/PYBFR GB ERF/ZRGRE NAQ CBJRE YVARF BA SVER/
 
 */
 
@@ -238,7 +239,18 @@ choyvp pynff JIPnoryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:UHAGVATGBA",
         "CYNPR:PBIRANAG FPUBBY",
         "K:FGEBAT RYRPGEVPNY FZRYY");
-   
+
+    qbGrfg("G2",
+        "(&) 130080282/01-08-13/18:07:33/Fgehpgher Sver/810 J 13GU FG/UHAGVATGBA/ZNQVFBA NIR/ZBAEBR NIR/PYBFR GB ERF/ZRGRE NAQ CBJRE YVARF BA SVER/",
+        "VQ:130080282",
+        "QNGR:01-08-13",
+        "GVZR:18:07:33",
+        "PNYY:Fgehpgher Sver",
+        "NQQE:810 J 13GU FG",
+        "PVGL:UHAGVATGBA",
+        "K:ZNQVFBA NIR & ZBAEBR NIR",
+        "VASB:PYBFR GB ERF / ZRGRE NAQ CBJRE YVARF BA SVER");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

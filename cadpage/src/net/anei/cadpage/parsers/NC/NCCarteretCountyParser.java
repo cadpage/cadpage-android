@@ -1,16 +1,16 @@
 package net.anei.cadpage.parsers.NC;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
+import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
 
 /**
  * Carteret county, NC
  */
-public class NCCarteretCountyParser extends DispatchSouthernParser {
+public class NCCarteretCountyParser extends DispatchSouthernPlusParser {
   
   public NCCarteretCountyParser() {
     super(CITY_LIST, "CARTERET COUNTY", "NC", 
-          DSFLAG_SUBJECT_FIRST | DSFLAG_DISPATCH_ID | DSFLAG_NO_NAME_PHONE | DSFLAG_ID_OPTIONAL);
+          DSFLAG_DISPATCH_ID | DSFLAG_NO_NAME_PHONE | DSFLAG_ID_OPTIONAL);
   }
   
   @Override

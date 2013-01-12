@@ -1,15 +1,15 @@
 package net.anei.cadpage.parsers.NC;
 
-import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
+import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
 /**
  * Brunswick County, NC
  */
-public class NCBrunswickCountyParser extends DispatchSouthernParser {
+public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
   
   
   public NCBrunswickCountyParser() {
     super(CITY_LIST, "BRUNSWICK COUNTY", "NC", 
-          DSFLAG_SUBJECT_FIRST | DSFLAG_OPT_DISPATCH_ID | DSFLAG_LEAD_PLACE | DSFLAG_NO_NAME_PHONE);
+          DSFLAG_OPT_DISPATCH_ID | DSFLAG_LEAD_PLACE | DSFLAG_NO_NAME_PHONE);
   }
   
   @Override
