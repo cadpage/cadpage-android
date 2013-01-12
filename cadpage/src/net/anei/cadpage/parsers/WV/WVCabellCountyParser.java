@@ -26,11 +26,15 @@ public class WVCabellCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     do {
       if (SUBJECT_PTN.matcher(subject).matches()) break;
+      
       Matcher match = MARKER_PTN.matcher(body);
       if (match.find()) {
         body = body.substring(match.end()).trim();
         break;
       }
+
+      if (subject.equals("&")) break;
+      
       return false;
     } while (false);
     
