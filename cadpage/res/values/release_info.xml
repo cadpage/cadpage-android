@@ -1,36 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01042013</string>
-  <string name="release_version">v1.5.77</string>
+  <string name="release_date">01122013</string>
+  <string name="release_version">v1.6.00</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+Cadpage will default to using GPS coordinates to map locations for districts where
+dispatch centers routinely supply GPS coordiantes for most calls.  This is a mixed 
+blessing.  GPS mapped locations are more reliable but not always as accurate as calls
+mapped by their street address.  There is a new GPS Mapping Option in Additional 
+settings that can be used to override this default telling Cadpage to always use
+stree address mapping or to use GPS coordiate mapping any time GPS coordiantes are 
+available\n
+\n
+New GPS Mapping Locations:\n
+El Dorado County, CA\n
+Calveras County, CA\n
+Mendicino County, CA\n
+Napa County, CA\n
+Middlesex County, CT\n
+New Castle County, DE\n
+Midland County, MI\n
+Blair County, PA\n
+\n      
 New Locations:\n
-Yavapai County, AZ\n
-Carroll County, MD (alt)\n
-Summit County, OH (alt)\n
-Pontotoc County, OK\n
+La Porte, TX renamed from Nassau Bay, TX\n
 \n      
 Location Parsing Fixes:\n
-El Paso County, CO\n
-Rock Island County, IL\n
-Baltimore County, MD\n
+Golden, CO\n
+Whhitfield County, GA\n
+Muskegon County, MI\n
+Greene County, MO\n
+Erie County, NY\n
+Montgomery County, NY\n
 Nassau County, NY\n
-Carteret County, NC\n
-Hunt County, NC\n
-Iredell County, NC\n
-Lincoln County, NC\n
-North Marion County, OR\n
-Allegheny County, PA\n
-Loudoun County, TN\n
-Cypress Creek Comm Center, TX\n
-Nassau Bay, TX\n
-Isle of Wight County, VA\n
-Washington County, VA\n
-Raleigh County, WV\n
-\n
-Misc Fixes:\n
-Fixed crash parsing Golden, CO pages\n
+Brunswick County, NC\n
+Polk County, NC\n
+Summit County, OH\n
+Jackson County, OR\n
+Klamath County, OR\n
+Delaware County, PA\n
+Northampton County, PA\n
+Cabell County, WV\n
   </string>  
 </resources>
   
