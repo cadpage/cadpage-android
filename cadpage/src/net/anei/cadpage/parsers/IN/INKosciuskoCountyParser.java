@@ -17,7 +17,7 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
   
   @Override
   public int getMapFlags() {
-    return MAP_FLG_SUPPR_LA;
+    return MAP_FLG_SUPPR_LA | MAP_FLG_SUPPR_SR;
   }
   
   

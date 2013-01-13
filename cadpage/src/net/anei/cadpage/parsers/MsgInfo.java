@@ -31,6 +31,9 @@ public class MsgInfo {
   
   // Recommend use of GPS coordinates for mapping
   public static final int MAP_FLG_PREFER_GPS = 0x20;
+  
+  // Suppress SR -> ST translation
+  public static final int MAP_FLG_SUPPR_SR = 0x40;
 
   private String strCall;
   private String strPlace;
@@ -508,7 +511,9 @@ public class MsgInfo {
     sAddr = replace(sAddr, CRSN_PTN, "CRESCENT");
     sAddr = replace(sAddr, CG_PTN, "CROSSING");
     sAddr = replace(sAddr, BP_PTN, "BYPASS");
-    sAddr = replace(sAddr, SR_PTN, "ST");
+    if ((parser.getMapFlags() & MAP_FLG_SUPPR_SR) == 0) {
+      sAddr = replace(sAddr, SR_PTN, "ST");
+    }
     sAddr = replace(sAddr, TP_PTN, "TPK");
     sAddr = replace(sAddr, PA_PTN, "PATH");
     sAddr = replace(sAddr, PLAZ_PTN, "PLAZA");
@@ -630,7 +635,18 @@ public class MsgInfo {
       match.appendTail(sb);
       sAddress = sb.toString();
     }
-    sAddress = SRT_PTN.matcher(sAddress).replaceAll(state);
+    boolean suppr_sr = (parser.getMapFlags() & MAP_FLG_SUPPR_SR) != 0;;
+    match = SRT_PTN.matcher(sAddress);
+    if (match.find()) {
+      StringBuffer sb = new StringBuffer();
+      do {
+        if (!suppr_sr || !match.group().equalsIgnoreCase("SR")) {
+          match.appendReplacement(sb, state);
+        }
+      } while (match.find());
+      match.appendTail(sb);
+      sAddress = sb.toString();
+    }
     return sAddress;
   }
 

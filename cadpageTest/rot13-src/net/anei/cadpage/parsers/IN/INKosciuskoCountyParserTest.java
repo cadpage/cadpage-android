@@ -30,6 +30,7 @@ PNQ:Hcqngr: ;CERTANAG BO;221 F UVTU FG;NCG Q
 PNQ:SLV: ;SNYY;1827 YN IVFGN QE;JNE
 PNQ:SLV: ;HF 30/PRQNE EQ;OBHE;SVER TENFF;12/01/2012 23:38:17
 PNQ:PNAPRY;602 F ZBEGBA FG; JNE
+PNQ:SLV: ;HAPBAFPVBHF CREFBA;801 A BYQ FE 15;ZVYS 
 
  */
 choyvp pynff VAXbfpvhfxbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -151,6 +152,12 @@ choyvp pynff VAXbfpvhfxbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:602 F ZBEGBA FG",
         "PVGL:JNEFNJ");
 
+    qbGrfg("G6",
+        "PNQ:SLV: ;HAPBAFPVBHF CREFBA;801 A BYQ FE 15;ZVYS ",
+        "PNYY:HAPBAFPVBHF CREFBA",
+        "NQQE:801 A BYQ FE 15",
+        "PVGL:ZVYSBEQ");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
