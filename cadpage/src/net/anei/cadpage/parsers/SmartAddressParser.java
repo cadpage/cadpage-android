@@ -560,15 +560,11 @@ public abstract class SmartAddressParser extends MsgParser {
     result.startType = sType;
     
     // Before we do anything else, see if we can find some GPS coordinates
-    // in this address.  If we do find them, pack them so they will parse
-    // into a single token
+    // in this address.  If we do find them, they will need to be protected
+    // from being broken into separate tokens
     String gpsCoords = null;
     Matcher match = MsgParser.GPS_PATTERN.matcher(address);
-    if (match.find()) {
-      gpsCoords = match.group(2) + ',' + match.group(4); 
-      address = address.substring(0, match.start()) + gpsCoords 
-                  + address.substring(match.end());
-    }
+    if (match.find()) gpsCoords = match.group(); 
 
     // We have a lot of pre parsing adjustments that must be made to normal
     // address strings, but get skipped if we have already identified this
@@ -602,7 +598,7 @@ public abstract class SmartAddressParser extends MsgParser {
     if (address.length() == 0) return result;
 
     // Set up token list and types
-    setTokenTypes(sType, address, result);
+    setTokenTypes(sType, address, gpsCoords, result);
     
     // If we are looking for a city and nothing else, parseToCity can find it
     // If the city has to start and end the field, check that that start index is zero
@@ -1663,14 +1659,29 @@ public abstract class SmartAddressParser extends MsgParser {
     return end;
   }
 
-  private void setTokenTypes(StartType sType, String address, Result result) {
+  private void setTokenTypes(StartType sType, String address, String gpsCoords, Result result) {
     // Parse line into tokens and categorize each token
     // While we are doing this, identify the index of the last city
     // And see if we have a keyword flagging the start of the address
     startAddress =  -1;
     lastCity = -1;
     startNdx = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
-    result.tokens = tokens = address.trim().split("\\s+");
+    
+    // GPS Coordinates can now contain blanks, which we need to go to some trouble
+    // to temporarily replace so they do not result int he coordnates being broken up
+    String altGPSCoords = null;
+    if (gpsCoords != null && gpsCoords.contains(" ")) {
+      altGPSCoords = gpsCoords.replace(' ', '~');
+      address = address.replace(gpsCoords, altGPSCoords);
+    }
+    tokens = address.trim().split("\\s+");
+    if (altGPSCoords != null) {
+      for (int ndx = 0; ndx < tokens.length; ndx++) {
+        tokens[ndx] = tokens[ndx].replace(altGPSCoords, gpsCoords);
+      }
+    }
+    result.tokens = tokens;
+    
     tokenType = new int[tokens.length];
     boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
     boolean ignoreAt = isFlagSet(FLAG_IGNORE_AT);
