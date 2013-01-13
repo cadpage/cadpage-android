@@ -81,8 +81,8 @@ public class Message {
     Pattern.compile("^\\( *(\\d) +of +(\\d) *\\)"),
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+) /(\\d)/(\\d) /"),
     Pattern.compile("^(\\d)/(\\d)\n+"),
-    Pattern.compile("^(\\d)/(\\d)(?!\\d)"),
-    Pattern.compile("^(\\d)/(\\d)"),  // This one is scarry !!!
+    Pattern.compile("^(\\d)/(\\d)(?![/\\d])"),
+    Pattern.compile("^(\\d)/(\\d)(?=\\d{3,}:)"),  // This one is scarry !!!
     Pattern.compile("\\[(\\d) of (\\d)\\]$"),
     Pattern.compile(":(\\d)of(\\d)$"),
     Pattern.compile("^[A-Z]+ +\\((\\d)/(\\d)\\) +(.*?) +STOP$")
