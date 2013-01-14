@@ -305,9 +305,14 @@ public class MmsTransactionService extends Service {
           mainHandler.post(new Runnable(){
             @Override
             public void run() {
-              if (startService(intent) == null) {
-                Log.e("Tranaction.RETRIEVE_TRANSACTION service not found");
+              try {
+                if (startService(intent) == null) {
+                  Log.e("Tranaction.RETRIEVE_TRANSACTION service not found");
+                }
+              } catch (Exception ex) {
+                Log.e(ex);
               }
+              
             }});
           entry.loading = true;
           continue;
