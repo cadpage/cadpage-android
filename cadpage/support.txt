@@ -15,7 +15,7 @@ Good luck,
 Handcent is the culprit.  They insist on being the top dog in the SMS queue, meaning they control whether Cadpage gets to see SMS text pages rather than the other way around.
 
 Actually it is more complicated that that.  Cadpage, Handcent, and Go SMS are all fighting for the top slot, and the Android system awards that prize to the one that was installed first.  So you will find it starts working when you install a new version of Handcent, and stops working when you install a new version of Cadpage.  Which always makes it look like our Cadpage update broke things.
-
+expire
 So what can you do, there are a few choices:
 1) The latest version of Handcent has a new option to lower the input priority.  Presumably this will make it compatible with Cadpage, but this has not been conclusively confirmed.To get to it, select
    Menu > Settings > Application Settings > Lower Priority
