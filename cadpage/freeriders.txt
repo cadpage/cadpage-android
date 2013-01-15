@@ -1850,9 +1850,6 @@ Larry Price (pwceng511@gmail.com) (ljprice75@gmail.com) // PayPal $15 on 12/12 +
 (pwcamb511b@gmail.com)
 (pwctrk511@gmail.com)
 
-// Sponsored Districts
-// TXManvel - John Aucoin <johnaucoin@sbcglobal.net> - 09/10/2012
-
 %2013/Battleboro Community Volunteer Fire Department // Paid 1-11-13
 %%01/05/2013
 Chris Barus                 (2525679749)
@@ -1870,7 +1867,7 @@ Cory Strange              (2528839651)
 Andy Tess                   (2529087075)
 Bubba Webb              (2528833603)
 
-%2013/West Valley VFD // Jerry F. Shepherd,Fire Chief Payment pending
+%2013/West Valley VFD // Jerry F. Shepherd,Fire Chief Payment pending $70
 %%01/12/2013
 Bryan Backeberg  (4064598617)
 Michelle Clark (4064619608)
@@ -1882,7 +1879,10 @@ Michael Newhouse (4064614879)
 Paul Nuebel	(4064390806)
 David Quick (4064311725)
 Jerry Shepherd (4064313833)
+Shanna Newhouse (4064598486)
 
+// Sponsored Districts
+// TXManvel - John Aucoin <johnaucoin@sbcglobal.net> - 09/10/2012
 
 // List of users getting credit or paid for 2013
 %2013
