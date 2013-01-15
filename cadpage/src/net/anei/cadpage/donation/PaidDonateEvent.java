@@ -17,7 +17,8 @@ public class PaidDonateEvent extends DonateScreenEvent {
           Vendor2Event.instance(),
           AndroidDonateEvent.instance(),
           PaypalDonateEvent.instance(),
-          MagicWordEvent.instance());
+          MagicWordEvent.instance(),
+          DonateResetMarketEvent.instance());
   }
 
   @Override

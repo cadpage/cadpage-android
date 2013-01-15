@@ -1045,7 +1045,6 @@ Philomath, OR, 97370
 Or you can ask us to send you an invoice
 
 ******************************************************************************
-
 ** Response Button Setup **
   
   If you want to report your responding status to IamResponding, you can configure Cadpage to call the phone number that IamResponding give you.  To do that, go into Cadpage settings and select
@@ -1056,6 +1055,18 @@ Or you can ask us to send you an invoice
   
   Have a nice day,
   -Ken
+
+******************************************************************************
+** MMS doesn't work with Jellybean **
+
+Bad news, The logic Cadpage uses to handle MMS messages relies on some undocumented back door interfaces to the messaging system.  As of Jellybean (Android 4.1) these throw a security exception.
+
+I added some code in the next release to trap the abort.  So it won't crash on you.  But it probably won't work either.  It might, especially if you the message options set to download the data content automatically.  But we just don't know.  Won't be able to do anything about it till I get a Jellybean phone of my own, which will hopefully be in a couple weeks
+
+So, what are your options?  You can revert back to the ICS version of Android where MMS logic apparently works.  Or you can sign up with the Active911.com message service.  They have a way of pushing long pages to Cadpage without relying on SMS or MMS messages.  Their fees are reasonable.  Cadpage gets a share of what they charge, so we don't except Cadpage users getting direct pages from Active911 to pay anything further.
+
+Good luck,
+-Ken
 
 ******************************************************************************
 
