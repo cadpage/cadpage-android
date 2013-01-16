@@ -5292,11 +5292,6 @@ SRC:CSFD
 UNIT:CSFD
 INFO:FIRE ALARMS  STRUCTURE CALLS ALSO SEND BOILING SPRINGS\2sCHESNEE COMM / RESIDENTIAL STRUCTURE FIRE
 **********************************************************
-Scotty County, IA
-Contact: David Liske <david.liskeusmc@gmail.com>
-Sender: secc@scott.ia.us
-(Incident) MCFD\2s106 N SALINA ST McCausland EMS or MVC-Solo\2sCall successfully transferred to peer Agency. [MedicEMS]\2sPeer CFS Number = 0045-A_2012-12-01 [MedicEM
-**********************************************************
 Clinton County, MO
 Contact: Rod McQuerrey <rmcquerrey@plattsburgfire.org>
 Sender: dispatch@clintoncosheriff.org
@@ -5606,6 +5601,11 @@ CAD||Addr: 79500 Wb90 Problem: MVA - Aid Emergency Units: A291,L87,KTAID,A291,SP
 CAD||messaging at Station: KTCOM,CADVoice processing messaging at Station: ST291,Undefined at Station: ZAMBS,ST291 Alerted at 01/07/2013 08:32:29 for E291,A291,
 CAD||410 NE 6th St # NORTH BEND Medic FTAC1 A88,M3,L87
 **********************************************************
+Scotty County, IA
+Contact: David Liske <david.liskeusmc@gmail.com>
+Sender: secc@scott.ia.us
+(Incident) MCFD\2s106 N SALINA ST McCausland EMS or MVC-Solo\2sCall successfully transferred to peer Agency. [MedicEMS]\2sPeer CFS Number = 0045-A_2012-12-01 [MedicEM
+
 Scott County, IA
 Contact: David Liske <david.liskeusmc@gmail.com>
 Sender: secc@scott.ia.us
@@ -5613,6 +5613,8 @@ Sender: secc@scott.ia.us
 (Incident) MCFD  401 S SALINA ST McCausland EMS or MVC-Solo  DAUGHTER ILL.  VOMITING.  E911 Info - Class of Service: RESD Special Response Info: PSAP=SECC MCCAUSLA
 (Incident) MCFD  210TH AVE 300TH ST Scott County EMS or MVC-Solo  Call Number 5550 was created from Call Number 5548(Dec 21 2012  4:51AM)  CALLER WAS NOT SURE IF A
 (Incident) MCFD  210TH AVE 300TH ST Scott County <NEW CALL>  E911 Info - Class of Service: WPH2 Special Response Info: PSAP=        Verify PD  Verify FD  Verify EM
+
+Drop class of service & special response fields
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
