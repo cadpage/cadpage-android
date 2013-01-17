@@ -17,6 +17,7 @@ public class SDLincolnCountyParser extends SmartAddressParser {
   private static final Pattern CALL_ID_PTN = Pattern.compile("^\\{?(\\d\\d-\\d+)\\b\\}?");
   private static final Pattern MASTER_PTN = Pattern.compile("\\{?(.*?)\\}? *(\n| - )(.*)");
   private static final Pattern STANDBY_PTN = Pattern.compile("^STANDBY +(?:AT +)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern APT_PTN = Pattern.compile("^# *([^,]+?) *,");
   private static final Pattern CITY_ST_PTN = Pattern.compile("^([A-Z ]+)\\b *, *([A-Z]{2})(?: +\\d{5})?", Pattern.CASE_INSENSITIVE);
   private static final Pattern INFO_JUNK_PTN = Pattern.compile(" *Please respond immediately\\.? *", Pattern.CASE_INSENSITIVE);
  
@@ -97,6 +98,13 @@ public class SDLincolnCountyParser extends SmartAddressParser {
       // Otherwise, we have found an address, so parse it as best we can
       parseAddress(body.substring(0,pt).trim(), data);
       body = body.substring(pt+1).trim();
+      
+      // Might be followed by an apartment
+      match = APT_PTN.matcher(body);
+      if (match.find()) {
+        data.strApt = match.group(1);
+        body = body.substring(match.end()).trim();
+      }
       
       // See if what is left can be identified as a city, st combination
       match = CITY_ST_PTN.matcher(body);
