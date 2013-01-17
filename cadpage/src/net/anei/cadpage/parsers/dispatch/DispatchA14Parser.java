@@ -28,6 +28,9 @@ public class DispatchA14Parser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    // Rule out the similar NYNassauCountyA format
+    if (body.contains(" c/s:")) return false;
+    
     Matcher match = ID_PTN.matcher(body);
     if (match.find()) {
       data.strCallId = match.group(1);
