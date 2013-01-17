@@ -249,7 +249,7 @@ choyvp pynff ALAnffnhPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "68 - S/S Snzvyl ***Erfphr Pnyy*** 1964 YVAPBYA NIR PF: QRIBA FG  / IVYYNTR QE GBN: 15:25 06/09/12 'FVTANY 68 - ZRZOREF UBHFR - YNQQRE BAR",
-        "PNYY:68 - S/S Snzvyl / Erfphr Pnyy",
+        "PNYY:68 - S/S Snzvyl - Erfphr Pnyy",
         "NQQE:1964 YVAPBYA NIR",
         "K:QRIBA FG  / IVYYNTR QE",
         "QNGR:06/09/12",
@@ -267,7 +267,7 @@ choyvp pynff ALAnffnhPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G3",
         "68 - S/S Snzvyl ***Erfphr Pnyy*** 170 ZNCYR NIR PF: SEBAG FG  / QNAARG CY GBN: 22:07 06/08/12",
-        "PNYY:68 - S/S Snzvyl / Erfphr Pnyy",
+        "PNYY:68 - S/S Snzvyl - Erfphr Pnyy",
         "NQQE:170 ZNCYR NIR",
         "K:SEBAG FG  / QNAARG CY",
         "QNGR:06/08/12",
@@ -275,7 +275,7 @@ choyvp pynff ALAnffnhPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "68 - S/S Snzvyl ***Erfphr Pnyy*** 197 R ZRNQBJ NIR PF: SEBAG FG  / SNVEUNIRA EQ GBN: 08:27 06/07/12 BAR CREFBA NYJNLF VA GUR OHVYQVAT 24 ",
-        "PNYY:68 - S/S Snzvyl / Erfphr Pnyy",
+        "PNYY:68 - S/S Snzvyl - Erfphr Pnyy",
         "NQQE:197 R ZRNQBJ NIR",
         "K:SEBAG FG  / SNVEUNIRA EQ",
         "QNGR:06/07/12",
