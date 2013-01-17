@@ -13,6 +13,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class NJWarrenCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER = Pattern.compile("([A-Z0-9]+) ALERT: ([^\\(\\)]+?) \\(SENT (\\d\\d/\\d\\d) (\\d\\d:\\d\\d)\\)");
+  private static final Pattern DELIM = Pattern.compile(" *, +");
   private static final Pattern CITY_TRIM_PTN = Pattern.compile(" (?:BORO|TOWN)$");
   
   public NJWarrenCountyParser() {
@@ -34,7 +35,28 @@ public class NJWarrenCountyParser extends SmartAddressParser {
     data.strDate = match.group(3);
     data.strTime = match.group(4);
     
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, sAddr, data);
+    // Sometimes there are nice comma delimiters
+    String[] flds = DELIM.split(sAddr);
+    if (flds.length == 3) {
+      data.strCall = flds[0];
+      data.strCity = flds[2];
+      
+      String addr = flds[1];
+      String[] parts = addr.split(" / ");
+      if (parts.length == 2 && checkAddress(parts[0]) == 0) {
+        data.strPlace = parts[0].trim();
+        addr = parts[1].trim();
+      }
+      parseAddress(addr, data);
+    }
+    
+    // and sometimes there are not
+    else {
+      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, sAddr, data);
+    }
+    
+    // Clean up odd things in call and city fields
+    if (data.strCall.endsWith("/")) data.strCall = data.strCall.substring(0,data.strCall.length()-1).trim();
     match = CITY_TRIM_PTN.matcher(data.strCity);
     if (match.find()) data.strCity = data.strCity.substring(0,match.start());
     
