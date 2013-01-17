@@ -1808,7 +1808,7 @@ Curt Meyer (6127598086)
 Mike Lessard (9522925958)
 Rob Vierling (9522922517)
 
-%2012/Davie County // Switching to county billing as of 10/17/2012 and paid up
+%2012/Davie County // Switching to county billing as of 10/17/2012 and PAID
 %%05/16/2012
 Mark Hancock            (3369091082)
 Andy Lipscomb           (3363453410)
@@ -1868,7 +1868,7 @@ Cory Strange              (2528839651)
 Andy Tess                   (2529087075)
 Bubba Webb              (2528833603)
 
-%2013/West Valley VFD // Jerry F. Shepherd,Fire Chief Payment pending $70
+%2013/West Valley VFD // Jerry F. Shepherd,Fire Chief Payment pending $70-84
 %%01/12/2013
 Bryan Backeberg  (4064598617)
 Michelle Clark (4064619608)
@@ -1922,10 +1922,10 @@ Buck Pittman (william.pittmanjr@gmail.com)<buck.p@suddenlink.net> // paid by che
 %%01/13/2013
 Troy Hatt (thatt61@gmail.com) <kristihatt@aol.com> // PayPal
 Richard Michels (sirblknight007@aol.com) // PayPal
-
 %%01/16/2013
 Greg Staten (medic2pa76@gmail.com) (shannastaten@woh.rr.com) // PayPal by Shanna Staten
-
+Ari Schloss (aschloss@terpalum.umd.edu) // PayPal
+John Moats (jmoats2199@yahoo.com) // PayPal
 
 
 // *** Insert Paid Users here ***
@@ -4014,6 +4014,14 @@ Stoney Powers Jr <mopar820@gmail.com>
 Jason Overholt <jkoverholt@gmail.com>
 Jeff (jtatum109@gmail.com) <cowboync25@yahoo.com>
 <jew81278@gmail.com>
+%%01/16/2013
+Samantha Nasca (nasca5189@gmail.com) <nasca5189@yahoo.com>
+Landon Russ <landonruss1993@gmail.com>
+"Jacobs, Charles" <cajacobs0919@email.campbell.edu>
+George Martin <gmd616@gmail.com>
+Nathan Dean <rndean71@gmail.com>
+Josh Levan (levan.josh@gmail.com) <levan.josh@yahoo.com>
+
 
 
 
