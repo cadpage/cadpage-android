@@ -1770,12 +1770,6 @@ Scott Vincent (2693171902)
 Kaleb Walbeck (2692093654)
 Tim Waterson (2693170994)
 
-%2012/Pine Ridge FD, CO //cadpage@pineridgefd.com
-%%03/18/2012
-John Smith (33424584534)
-Bill Stone (3428820123)
-Joan Black (3429963432)
-
 %2012/Porter EMS, IL            // Paid
 %%04/06/2012
 Medic 11        (2194053540)
@@ -1924,8 +1918,8 @@ Troy Hatt (thatt61@gmail.com) <kristihatt@aol.com> // PayPal
 Richard Michels (sirblknight007@aol.com) // PayPal
 %%01/16/2013
 Greg Staten (medic2pa76@gmail.com) (shannastaten@woh.rr.com) // PayPal by Shanna Staten
-Ari Schloss (aschloss@terpalum.umd.edu) // PayPal
-John Moats (jmoats2199@yahoo.com) // PayPal
+Ari Schloss (aschloss1@gmail.com) (aschloss@terpalum.umd.edu) // PayPal
+John Moats (jmoats2199@gmail.com) (jmoats2199@yahoo.com) // PayPal
 
 
 // *** Insert Paid Users here ***
@@ -1935,6 +1929,8 @@ John Moats (jmoats2199@yahoo.com) // PayPal
 Jerry Digennaro (jerryd264@gmail.com) // paid by check 1230 $20 for 2 years
 %%01/09/2012
 Mike Shaw (mshaw1957@gmail.com) // Raymond Shaw paid by check 2684 $20 12-12-12
+%%01/17/2013
+George Samuel Burns <samburns06@gmail.com> // extra year deal
 
 
 // List of users getting free credit for 2012
@@ -3285,7 +3281,7 @@ Richard Blair <rblair253@gmail.com>
 %%09/07/2012
 Donny Foster (donnyfoster63@gmail.com) <donnyfoster63@aol.com>
 RICK BOLINSKY (rickbteamvictory@gmail.com) <psubull92@yahoo.com>
-"Chuck" (chief9a@gmail.com) <lebhoser@yahoo.com>
+Charles Klepfer (lebhoser@gmail.com) <lebhoser@yahoo.com>
 Essie Edwards <essie7338@gmail.com>
 Shawn Conley (nwfd205@gmail.com) <nwfd205@yahoo.com>
 %%09/08/2012
