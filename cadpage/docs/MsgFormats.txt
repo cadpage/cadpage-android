@@ -5479,11 +5479,6 @@ Sender: :ept@ept911.info
   / AFA44 I25 MM 153-- EAST SIDE OF RD-- SM GRASS FIRE NEAR CONSTRUCTION SITE
   / AFA22 4102 PINION DR- 10TH MED GROUP-- MALE PTY FELL- W/ MED ONS\n
 **********************************************************
-Josephine County, OR??
-Contact: KEVIN HARRIS <kev911er@msn.com>
-Sender: Dispatch@Pacific.com
-S:!  M:Electrical Fire: 613 SW WESTERN AVE B , Grants Pass:  \n1/6/2013 12:29:06 AM: 208791: 7317, 7553, 7400: SMELLING WHAT SMELLS LIKE AN ELECTRICAL PROBLEM\nHAZE INSIDE..\n
-**********************************************************
 Mercer County, NJ (alternate?)
 Contact: Harvey Bailey <happyharv01@gmail.com>
 Sender: Bailey, Michael
@@ -5615,6 +5610,20 @@ Sender: secc@scott.ia.us
 (Incident) MCFD  210TH AVE 300TH ST Scott County <NEW CALL>  E911 Info - Class of Service: WPH2 Special Response Info: PSAP=        Verify PD  Verify FD  Verify EM
 
 Drop class of service & special response fields
+**********************************************************
+Josephine County, OR??
+Contact: KEVIN HARRIS <kev911er@msn.com>
+Sender: Dispatch@Pacific.com
+S:!  M:Electrical Fire: 613 SW WESTERN AVE B , Grants Pass:  \n1/6/2013 12:29:06 AM: 208791: 7317, 7553, 7400: SMELLING WHAT SMELLS LIKE AN ELECTRICAL PROBLEM\nHAZE INSIDE..
+S:!  M:Commercial Fire: 115 SW H ST, Grants Pass:  \n1/5/2013 9:17:02 PM: 208791: 7307, 7309, 7328, FA1, 7501, 7553, 161, 7531, 7353: AUDIBLE 2 HITS\nUPSTAIRS MOTION \nRP PENDING \n*RP:  BUD HOPSO..
+S:!  M:TA1R - Traffic Accident Rollov: 5098 NEW HOPE RD, Grants Pass:  \n1/6/2013 12:09:35 AM: 201841: 7551, M1: JOSH MAIN 541-660-9673\nVEH ROLLED \nVEH IN THE DITCH\nIN THE ..
+S:!  M:TA1R - Traffic Accident Rollov: 13000 REDWOOD HWY, Wilderville:  \n1/10/2013 7:48:12 AM: 204991: 7514, 7555: 
+S:!  M:TA1R - Traffic Accident Rollov: 4520 JUMP OFF JOE CREEK RD, Grants Pass:  \n1/10/2013 10:44:44 AM: 108252: 7512, 7555, M3 : HE TOLD CALLER HE WAN'T INJURIED\n19 YOA MALE\nBETWEEN AND TH..
+S:!  M:TA1R - Traffic Accident Rollov: 3279 FISH HATCHERY RD, Grants Pass:  \n1/10/2013 11:10:24 AM: 204991: 7514, 7551, M1: GREEN CAR
+S:!  M:Large Vehicle Fire: 785 WILDERVILLE LN, Grants Pass:  \n1/10/2013 9:35:09 PM: 204991: 7309, 7514, 7541, 7551, 7200, COFD: 
+S:!  M:Structure Fire: 1730 NE FOOTHILL BLVD, Grants Pass:  \n1/8/2013 3:33:58 PM: 308791: 7307, 7308, 7309, FA5, 7553, M12, 7531, 7353: WHITE SMOKE FROM ATTIC\nDOESN'T BELIEVE THEY HAVE A WOOD STO..
+S:!  M:TA1 - Traffic Accident: WILLIAMS HWY@ SW GRANDVIEW AVE , Grants Pass:  \n1/12/2013 9:17:18 AM: 201897: 7501, 7553, M1, 171: single veh into pole
+S:!  M:Grass Fire: ROUNDS AVE@ REDWOOD AVE , Grants Pass:  \n1/12/2013 6:45:11 PM: 109411: 7514, 7553, 7200, COFD: TREE ON FIRE
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

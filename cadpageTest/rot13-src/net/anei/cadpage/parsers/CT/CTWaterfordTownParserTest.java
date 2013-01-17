@@ -76,6 +76,7 @@ choyvp pynff PGJngresbeqGbjaCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2012-009419",
         "NQQE:VAGREFGNGR 395 (K77-ZBAG)",
+        "ZNQQE:VAGREFGNGR 395",
         "PVGL:JNGRESBEQ",
         "PNYY:IRUVPYR NPPVQRAG - UVTUJNL/FCRRQ",
         "HAVG:49,PB4,PB5,ZRQ11,J500,J51,J57");

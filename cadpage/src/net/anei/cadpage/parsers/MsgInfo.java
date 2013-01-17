@@ -407,6 +407,7 @@ public class MsgInfo {
     if ((parser.getMapFlags() & MAP_FLG_SUPPR_DIRO) == 0) {
       sAddr = DIR_OF_PTN.matcher(sAddr).replaceAll(" & ");
     }
+    sAddr = cleanParens(sAddr);
     sAddr = cleanStreetSuffix(sAddr);
     sAddr = cleanBlock(sAddr);
     sAddr = cleanBounds(sAddr);
@@ -433,6 +434,7 @@ public class MsgInfo {
           if (sCross.equals(sAddr)) sCross = strCross.substring(match.end()).trim(); 
         }
         if (parser != null) sCross = parser.adjustMapAddress(sCross);
+        sCross = cleanParens(sCross);
         sCross = cleanStreetSuffix(sCross);
         sCross = cleanBounds(sCross);
         sCross = cleanRoutes(sCross);
@@ -462,6 +464,34 @@ public class MsgInfo {
     return strBaseMapAddress;
 	}
   
+  // Remove any nested parenthesis from potential address
+  private String cleanParens(String sAddr) {
+    if (!sAddr.contains("(")) return sAddr;
+    
+    StringBuilder sb = new StringBuilder();
+    int level = 0;
+    boolean brk = false;
+    boolean lastBlank = false;
+    for (char chr : sAddr.toCharArray()){
+      if (chr == '(') {
+        brk = true;
+        level++;
+      }
+      else if (chr == ')') {
+        if (level > 0) level--;
+      } else if (level == 0) {
+        if (brk) {
+          brk = false;
+          if (!lastBlank && chr != ' ') sb.append(' ');
+          else if (lastBlank && chr == ' ') continue;
+        }
+        sb.append(chr);
+        lastBlank = (chr == ' ');
+      }
+    }
+    return (level == 0 ? sb.toString().trim() : sAddr);
+  }
+
   // Clean up any street suffix abbreviations that Google isn't happy with
   private static final Pattern CR_PTN = Pattern.compile("\\bCR\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CRNN_PTN = Pattern.compile("\\b(?:CR|COUNTY|(?:CO|CTY|CNTY|COUNTY)(?: *(?:RD|RT|RTE|ROAD|HWY|ROUTE))?)[- ]*(\\d+[A-Z]?)(?: HWY)?\\b", Pattern.CASE_INSENSITIVE);

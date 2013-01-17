@@ -236,6 +236,7 @@ choyvp pynff ZQPuneyrfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NFFVFG GUR",
         "HAVG:NZOHYNAPR, ZVFP",
         "NQQE:10200 YN CYNGN EQ (EG 488)",
+        "ZNQQE:10200 YN CYNGN EQ",
         "CYNPR:PPAU 109O",
         "ZNC:17 U6-X4",
         "VASB:ARRQRQ SBE ZNACBJRE",

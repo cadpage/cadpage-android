@@ -9,8 +9,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTLitchfieldCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*) RESPOND TO (.*?)(?:,|,? +(\\d{1,2}-[A-Z]-\\d{1,2})) *(?::|--)(\\d\\d:\\d\\d)");
+  private static final Pattern MASTER = Pattern.compile("(.*) RESPOND TO (.*?)(?:,|,? +(\\d{1,2}-[A-Z]-\\d{1,2}|HOT|ALPHA)) *(?::|--)(\\d\\d:\\d\\d)");
   private static final Pattern MAU_HILL = Pattern.compile("^(.*) MAUWEEHOO H(?:IL)?L (.*)$");
+  private static final Pattern START_PAREN_PTN = Pattern.compile("^\\(.*?\\)");
   
   public CTLitchfieldCountyParser() {
     super(CITY_LIST, "LITCHFIELD COUNTY", "CT");
@@ -19,7 +20,7 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "textmsg@lcd911.com,89361";
+    return "@lcd911.com,89361";
   }
   
   @Override
@@ -31,7 +32,7 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
     data.strSource = match.group(1).trim();
     String sAddr = match.group(2).trim();
     data.strCode = getOptGroup(match.group(3));
-    // data.strTime = match.group(4);
+    data.strTime = match.group(4);
     
     Parser p = new Parser(sAddr);
     data.strCall = p.getLast(',');
@@ -52,8 +53,34 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
         sPlace = match.group(2);
       }
     }
-    if (data.strPlace.length() == 0) data.strPlace = sPlace;
-    else data.strApt = sPlace;
+    
+    // OK, there can be some strange things in the pad field
+    // A leading term in parens is an alternative street name that should be appended to the
+    // address.  It will be removed from the map address
+    match = START_PAREN_PTN.matcher(sPlace);
+    if (match.find()) {
+      data.strAddress = append(data.strAddress, " ", match.group());
+      sPlace = sPlace.substring(match.end()).trim();
+    }
+    
+    // If what is left is a valid address, take it as a cross street
+    // Make allowances for temporary name in parens
+    String chkCross = sPlace;
+    if (chkCross.endsWith(")")) {
+      int pt = chkCross.indexOf('(');
+      if (pt >= 0) chkCross = chkCross.substring(0,pt).trim();
+    }
+    if (checkAddress(chkCross) > 0) {
+      data.strCross = sPlace;
+    }
+    
+    // If we we already have a place, this is an apartment
+    // otherwise it is a place
+    else if (data.strPlace.length() == 0) {
+      data.strPlace = sPlace;
+    } else {
+      data.strApt = sPlace;
+    }
     return true;
   }
   
@@ -92,7 +119,9 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
     "WINCHESTER",
     "WINSTED",
     "WOODBURY",
-    
+
+    "CANTON",
+    "HARTFORD",
     "SHERMAN",
     "ROXBURY"
   };

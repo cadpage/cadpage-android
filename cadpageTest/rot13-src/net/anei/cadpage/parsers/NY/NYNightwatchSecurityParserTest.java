@@ -75,7 +75,8 @@ choyvp pynff ALAvtugjngpuFrphevglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:13:46:11",
         "ANZR:Wnpxvr Wbuafgba",
         "CUBAR:(347)265-6123",
-        "NQQE:NHGBMBAR #4713 (FGNGRA VFYNAQ)");
+        "NQQE:NHGBMBAR #4713 (FGNGRA VFYNAQ)",
+        "ZNQQE:NHGBMBAR");
 
     qbGrfg("G2",
         "(arj zrffntrf sbe 3694)       ********** Avtugjngpu Frphevgl - Nppbhag 3694 ********** \a" +

@@ -203,6 +203,7 @@ choyvp pynff PNRyQbenqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER, FZBXR PURPX",
         "VQ:020679",
         "NQQE:=O(ONYQ ZBHAGNVA YBBXBHG@272.5,6.0)",
+        "ZNQQE:=O",
         "PVGL:TRBETRGBJA",
         "HAVG:TRBRAT Z61 61 R2762",
         "TCF:+38.905333,-120.813285");

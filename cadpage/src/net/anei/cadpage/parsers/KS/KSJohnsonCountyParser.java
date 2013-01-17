@@ -14,7 +14,7 @@ public class KSJohnsonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "93001,ecc1@jocogov.org,ecc2@jocogov.org";
+    return "93001,ecc1@jocogov.org,ecc2@jocogov.org,ecc3@jocogov.org";
   }
   
   @Override

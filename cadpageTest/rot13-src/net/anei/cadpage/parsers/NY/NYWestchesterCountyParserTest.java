@@ -84,7 +84,7 @@ choyvp pynff ALJrfgpurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNZNEBARPX_G: @V95 AO 07.1 RKVG 17 (PUNGFJBEGU NIR), Pebff: , Glcr:ZIN, VAWHEVRF, Gvzr bhg: 11:03:47 Nern: YNEPU,Nynez",
 
         "NQQE:V95 AO 07.1 RKVG 17 (PUNGFJBEGU NIR)",
-        "ZNQQE:V 95 07.1 RKVG 17 (PUNGFJBEGU NIR)",
+        "ZNQQE:V 95 07.1 RKVG 17",
         "PVGL:YNEPUZBAG",
         "PNYY:ZIN / VAWHEVRF",
         "GVZR:11:03:47");
@@ -199,7 +199,7 @@ choyvp pynff ALJrfgpurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "VCntr / ZNZNEBARPX_G: @V95 AO 07.1 RKVG 17 (PUNGFJBEGU NIR), Pebff: , Glcr:ZIN, VAWHEVRF, Gvzr bhg: 11:03:47 Nern: YNEPU,Nynez",
         "NQQE:V95 AO 07.1 RKVG 17 (PUNGFJBEGU NIR)",
-        "ZNQQE:V 95 07.1 RKVG 17 (PUNGFJBEGU NIR)",
+        "ZNQQE:V 95 07.1 RKVG 17",
         "PVGL:YNEPUZBAG",
         "PNYY:ZIN / VAWHEVRF",
         "GVZR:11:03:47");
@@ -258,7 +258,7 @@ choyvp pynff ALJrfgpurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G12",
         "(VCntr) ABEGU_PNFGYR: @V684 FO 07.5 OEVQTR (EG22 HAQRECNFF), Pebff: , Glcr:ZN, SVER, Gvzr bhg: 11:36:54 Nern: NEZAX,Nynez yri:",
         "NQQE:V684 FO 07.5 OEVQTR (EG22 HAQRECNFF)",
-        "ZNQQE:V 684 07.5 OEVQTR (EG 22 HAQRECNFF)",
+        "ZNQQE:V 684 07.5 OEVQTR",
         "PVGL:NEZBAX",
         "PNYY:ZN / SVER",
         "GVZR:11:36:54");
@@ -310,7 +310,7 @@ choyvp pynff ALJrfgpurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "- ELR_OEBBX: @UEC AO 19.7 ABEGU BS (EVQTR FG), Pebff: , Glcr:ZIN, VAWHEVRF, Gvzr bhg: 15:15:11 Nern: CBEGP,Nynez yri: 0 ,Pbzzragf:   PURFG CNVA",
         "NQQE:UEC AO 19.7 ABEGU BS (EVQTR FG)",
-        "ZNQQE:UEC 19.7 & (EVQTR FG)",
+        "ZNQQE:UEC 19.7 &",
         "PVGL:CBEG PURFGRE",
         "PNYY:ZIN / VAWHEVRF",
         "GVZR:15:15:11",

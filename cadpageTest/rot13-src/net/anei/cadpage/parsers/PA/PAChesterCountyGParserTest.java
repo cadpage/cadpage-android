@@ -51,6 +51,7 @@ choyvp pynff CNPurfgrePbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
          "GVZR:13:15:42",
          "PNYY:ERYBPNG (ERYBPNGR SVER/RZF HAVGF)",
          "NQQE:APP FGN19 (AI)",
+         "ZNQQE:APP FGN19",
          "ANZR:APP RAT19",
          "VASB:AB SHEGURE VASBEZNGVBA",
          "HAVG:AT242 AT22");
