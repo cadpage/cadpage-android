@@ -6174,3 +6174,94 @@ Sender: gdalton@valleyhealthlink.com
 * EOF
 **********************************************************
 **********************************************************
+
+Contact: Active911
+Agency name: El Medio Fire District
+Location: Oroville, CA, United States
+
+(Dispatched Call (121)) MYERS ST/OROVILLE DAM BLVD E, Oroville, CA *  * OROVILLE DAM BLVD E *  * FDTC1 *  * \nTWO VEHICLES
+(Dispatched Call (313)) 3093 OROVILLE BANGOR HWY, Oroville, CA *  * V-6 RD/AUTREY LN *  * FDMED *  * Service Class: VOIP\nMATERNITY COMPLICATIONS
+(Dispatched Call (313)) 2024 OROVILLE DAM BLVD E, Oroville, CA * BLOCKBUSTER VIDEO * BROWN AV/CURRIER CT *  * FDINVEST *  * ZONE 100 GENERAL
+(Dispatched Call (121)) 445 OROVILLE DAM BLVD E, Oroville, CA * MCDONALDS * FEATHER RIVER BLVD/7TH A *  * FDTC1 *  * \nIN DRIVETHRU         WHITE NISSAN 4DR     GREE
+(Dispatched Call (113)) 1751 OROVILLE DAM BLVD E, Oroville, CA * PAPACITOS * LINCOLN ST/MYERS ST * 14 * FDMED *  * BODY LYING NEXT TO TRACKS ON OVERPASS            
+(Dispatched Call (113)) 1218 POMONA AV, Oroville, CA *  * 3RD AV/VEATCH ST * 1 * FDMED *  * \nILL BABY
+(Dispatched Call (113)) 1611 FEATHER RIVER BLVD, Oroville, CA * COMMUNITY COMPREHENSIVE-WOMENS * HIGH ST/POMONA AV * 10 * FDMED *  * Service Class: BUSN\nhigh blood
+(Dispatched Call (121)) 2060 2ND ST, Oroville, CA * PROSPECT HIGH SCHOOL * GRAND AV/NELSON AV *  * FDMED *  * Service Class: CNTX\nover medicated
+(Dispatched Call (121)) 1408 OROVILLE DAM BLVD W, Oroville, CA *  * 14TH ST/HARLAN AV *  * FDMED *  * ill fem
+(Dispatched Call (121)) 125 COTTONWOOD CIR, Oroville, CA *  * 5TH AV/MULBERRY DR * BLDG TRL * FDASSIST *  * Service Class: RESD\nlift assist
+(Dispatched Call (313)) OROVILLE BANGOR HWY/MYERS ST, Oroville, CA *  * MYERS ST *  * FDFIRE1 *  * VEH FIRE
+(Dispatched Call (313)) 3020 GREENVILLE ST, Oroville, CA *  * LOWER WYANDOTTE RD/V-C R *  * FDMED *  * DIFF BREATHING
+(Dispatched Call (113)) 646 POMONA AV, Oroville, CA *  * 7TH AV/8TH AV *  * FDMED *  * 10-5 FORM CAL FIRE. ILL MALE, 3RD HAND REPORT OF MEDICAL ISSUE.
+(Dispatched Call (313)) 1825 FORT WAYNE ST, Oroville, CA *  * LINCOLN BLVD/LINCOLN BLVD *  * FDMED *  * SEIZURE
+(Dispatched Call (313)) 3106 LINCOLN BLVD, Oroville, CA * B & S COIN LAUNDRY * WYANDOTTE AV/A ST *  * FDMED *  * ALOC / GOLD SATURN
+(Dispatched Call (121)) 1735 MONTGOMERY ST, Oroville, CA * CITY HALL * OAK ST/LINCOLN ST *  * FDHAZMA1 *  * 
+(Dispatched Call (113)) 1735 MONTGOMERY ST, Oroville, CA * CITY HALL * OAK ST/LINCOLN ST *  * FDHAZMA1 *  * 
+(Dispatched Call (313)) 2262 LAS PLUMAS AV, Oroville, CA *  * LAS PLUMAS WAY/CRESTRIDG *  * FDMED *  * Service Class: RESD\n\nILL MALE
+(Dispatched Call (113)) 1460 OLIVER ST, Oroville, CA * SHEAR ELEGANCE BEAUTY SALON * HIGH ST/ROBINSON ST *  * FDMED *  * \n\nFALL
+(Dispatched Call (313)) OROVILLE DAM BLVD E/CANYON DR, Oroville, CA *  * CANYON DR *  * FDTC1 *  * AUTO AID CAL FIRE
+(Dispatched Call (313)) 5825 VISTA DEL CERRO, Oroville, CA *  * VIA LATON *  * FDMED *  * \nILL FEM
+(Dispatched Call (113)) WYANDOTTE AV/LINCOLN BLVD, Oroville, CA *  * LINCOLN BLVD *  * FDMED *  * Service Class: VOIP\n\nFALL UNK INJURIES
+(Dispatched Call (313)) 3070 MYERS ST, Oroville, CA * PIGGS CLUB * WYANDOTTE AV/A ST *  * FDMED *  * STAGE / ASSAULT / PD ENRT
+(Dispatched Call (113)) 1000 EXECUTIVE PKWY, Oroville, CA * OLIVE RIDGE CARE HOME * MEDICAL CENTER DR * 101 A * FDMED *  * DIFF BREATHING
+(Dispatched Call (113)) 825 GARDELLA AV, Oroville, CA *  * 5TH AV/6TH AV *  * FDMED *  * FALL
+(Dispatched Call (113)) 900 OROVILLE DAM BLVD E, Oroville, CA *  * 5TH AV/VEATCH ST *  * FDMED *  * Service Class: BUSN\n\nDIFFICULTY BREATHING
+(Dispatched Call (121)) 1827 OROVILLE DAM BLVD E, Oroville, CA * ORO JEWELRY AND LOAN * LINCOLN ST/MYERS ST *  * FDTC1 *  * BLK HONDA GRY ESCORT ROADWAY IS CLEAR
+(Dispatched Call (113)) 900 OROVILLE DAM BLVD E, Oroville, CA * COMMUNITY COMP CARE * 5TH AV/VEATCH ST *  * FDMED *  * Service Class: BUSN\n\nSHORTNESS OF BREATH. I
+(Dispatched Call (313)) 2850 MYERS ST, Oroville, CA *  * ONTARIO AV/CORTO ST * 11 * FDMED *  * Service Class: RESD\n\nFALL WITH INJURY
+(Dispatched Call (113)) 1911 OROVILLE DAM BLVD E, Oroville, CA * DOLLAR STORE * MYERS ST/BROWN AV *  * FDMED *  * \n\nFEM W/ KNEE INJURY. FEM IS WEARING A GRN JACKET
+(Dispatched Call (121)) 3415 OROVILLE DAM BLVD E, Oroville, CA * WE LANDSCAPE * STANFORD AV/ACACIA AV * 114 * FDASSIST *  * \nLIFT ASSIST, BACK BEDROOM
+(Dispatched Call (113)) 1536 5TH AV, Oroville, CA *  * ROBINSON ST/HIGH ST *  * FDMED *  * Service Class: RESD\n\nDIFFICULTY BREATHING
+(Dispatched Call (113)) 700 MITCHELL AV, Oroville, CA * WINSTON GARDENS * 5TH AV/3RD AV * 32 * FDMED *  * 92 YEAR OLD FEMALE 530-534-6512 VELMA MORRISON\nCHEST PAIN
+(Dispatched Call (121)) 2185 PERKINS AV, Oroville, CA *  * QUARTZ AV/MITCHELL AV *  * FDINVEST *  * Service Class: VOIP\n\nSMOKE ALARM SOUNDING, RP DOES NOT SMELL S
+(Dispatched Call (313)) 2930 GREENVILLE ST, Oroville, CA *  * BURLINGTON AV/V-C RD * 4 * FDMED *  * CHEST PAIN
+(Dispatched Call (121)) 2588 OLIVE HWY, Oroville, CA * FLUFF & FOLD LAUNDRY * FAY WAY/FAY WAY * AB * FDMED *  * ILL MALE
+(Dispatched Call (113)) TABLE MOUNTAIN BLVD/WASHINGTON A, Oroville, CA * GREEN BRIDGE * WASHINGTON AV *  * FDMED *  * 
+(Dispatched Call (121)) 1017 BIRD ST, Oroville, CA * STEADFAST MANAGEMENT * 4TH AV/3RD AV *  * FDASSIST *  * 2 YR OLD LOCKED INSIDE RUNNING VEHICLE; HEATER ON HIGH
+(Dispatched Call (113)) 1000 EXECUTIVE PKWY, Oroville, CA * OLIVE RIDGE CARE HOME * MEDICAL CENTER DR * 109 * FDMED *  * Service Class: PBXb\n\nUNRESPONSIVE
+(Dispatched Call (113)) MONTGOMERY ST/MYERS ST, Oroville, CA *  * MYERS ST *  * FDINVEST *  * 
+(Dispatched Call (121)) 293 COLINA WAY, Oroville, CA *  * GOLD AVE *  * FDMED *  * MAN DOWN
+(Dispatched Call (313)) 5280 SUZANNE CT, Oroville, CA *  * OAK KNOLL WAY *  * FDMED *  * Service Class: RESD\nBREATHING DIFF
+(Dispatched Call (313)) 2606 OAK KNOLL WAY, Oroville, CA *  * V-E AV/SEACREST DR *  * FDMED *  * INJURIES FROM FALL
+(Dispatched Call (113)) 2329 MONTGOMERY ST, Oroville, CA * TASSIS HAIR & NAILS * ARLIN RHINE DR/WASHINGTO * 7 * FDMED *  * Service Class: VOIP\n\nILL FEMALE
+(Dispatched Call (121)) 1601 MITCHELL AV, Oroville, CA * PACIFIC COAST PRODUCERS * PINE ST/W LINCOLN ST *  * FDINVEST *  * FIRE ALARM WATER FLOW FROM WAREHOUSE G N/
+(Dispatched Call (121)) 2472 OROVILLE QUINCY HWY, Oroville, CA *  * MYRTLE DR/LINDA LOMA DR * B * FDINVEST *  * HOME AT REAR OF LOCATION.  CO2 DETECTOR.
+(Dispatched Call (113)) 2750 LINCOLN BLVD, Oroville, CA * OROVILLE MANOR APARTMENTS * OROVILLE DAM BLVD E/PEAR * 105 * FDMED *  * Service Class: RESD\n\nILL FEMALE
+(Dispatched Call (113)) 505 MONTGOMERY ST, Oroville, CA * MOTEL 6 * EB HWY 70 OFFRAMP/EB HWY * 133 * FDMED *  * Service Class: V\n\nILL MALE
+(Dispatched Call (113)) 2740 OROVILLE DAM BLVD E, Oroville, CA * TRICOUNTY TREATMENT * GILMORE LN/OROVILLE QUIN *  * FDMED *  * CHEST PAIN
+(Dispatched Call (313)) 5342 BECKY LN, Oroville, CA *  * CINDY CT/STUMP DR *  * FDMED *  * CHEST PAIN
+(Dispatched Call (313)) OLIVE HWY/KELLY RIDGE RD, Oroville, CA *  * KELLY RIDGE RD *  * FDTC1 *  * OLIVE IC ON CALCORD
+(Dispatched Call (313)) 5721 AUTREY LN, Oroville, CA *  * MONTE VISTA AV/VIA MADER *  * FDMED *  * CHEST PAIN
+(Dispatched Call (313)) 3515 MYERS ST, Oroville, CA * EL MEDIO FIRE * D ST/ELGIN ST *  * FDMED *  * DIFFICULTY BREATHING
+(Dispatched Call (113)) 60 HIGHLANDS BLVD, Oroville, CA *  * COVENTRY DR/ROCKRIDGE RD *  * FDMED *  * Service Class: VOIP\nILL FEMALE  POSSIBLE STROKE
+(Dispatched Call (113)) 1454 14TH ST, Oroville, CA *  * FEATHER AV/GRAND AV *  * FDMED *  * \nDIFF BREATHING
+(Dispatched Call (121)) 1454 14TH ST, Oroville, CA *  * FEATHER AV/GRAND AV *  * FDMED *  * \nDIFF BREATHING
+(Dispatched Call (113)) 1215 5TH AV, Oroville, CA *  * SAFFORD ST/MONTGOMERY ST *  * FDMED *  * Service Class: RESD\n\nILL FEMALE
+(Dispatched Call (313)) 2156 WYANDOTTE AV, Oroville, CA *  * BARNES WAY/FLORENCE AV *  * FDMED *  * Service Class: VOIP\nILL BABY  SIEZURES
+(Dispatched Call (313)) 2923 MYERS ST, Oroville, CA *  * ONTARIO AV/CORTO ST *  * FDMED *  * \n\nDIFFICULTY BREATHING
+(Dispatched Call (121)) 1100 FEATHER RIVER BLVD, Oroville, CA * BEDROCK PARK * 5TH AV/SAFFORD ST *  * FDMED *  * \n\nILL FEM AT TENNIS COURTS
+(Dispatched Call (113)) 2160 FEATHER RIVER BLVD, Oroville, CA * APPLEBEES * MITCHELL AV/OROVILLE DAM *  * FDTC1 *  * \n\nNECK INJURY IN PARKING LOT\n2 VEHS
+(Dispatched Call (113)) 2055 LINCOLN ST, Oroville, CA * OROVILLE POLICE DEPARTMENT * HUNTOON ST/MITCHELL AV *  * TEST *  * TEST ONLY
+(Dispatched Call (121)) 1875 FEATHER RIVER BLVD, Oroville, CA * OROVILLE GYMNASTICS ACADEMY * MITCHELL AV/OROVILLE DAM *  * FDMED *  * \n\nNECK INJURY
+(Dispatched Call (113)) 1100 FEATHER RIVER BLVD, Oroville, CA * SKATE PARK * 5TH AV/SAFFORD ST *  * FDMED *  * \nANKLE INJURY  NEAR ENTRANCE
+(Dispatched Call (113)) 2719 MITCHELL AV, Oroville, CA *  * OROVILLE QUINCY HWY/BRID * 4 * FDMED *  * \n\nSEIZURE
+(Dispatched Call (113)) 2105 PARK AV, Oroville, CA * PARK PLACE APARTMENTS * PLACER LN/HEWITT AV * 6 * FDMED *  * Service Class: RESD\n\nDIFFICULTY BREATHING
+(Dispatched Call (313)) 3245 COLUMBIA AV, Oroville, CA *  * A ST/B ST * A * FDMED *  * ILL FEMALE \n\nService Class: RESD
+(Dispatched Call (113)) 505 MONTGOMERY ST, Oroville, CA * MOTEL 6 * EB HWY 70 OFFRAMP/EB HWY * 130 * FDMED *  * \n\nSEIZURE
+(Dispatched Call (113)) 965 MONTGOMERY ST, Oroville, CA *  * 4TH AV/3RD AV *  * FDMED *  * ILL MALE.
+(Dispatched Call (313)) 3245 COLUMBIA AV, Oroville, CA *  * A ST/B ST * A * FDMED *  * Service Class: RESD\nILL FEMALE
+(Dispatched Call (313)) WASHINGTON AV/OROVILLE DAM BLVD, Oroville, CA *  * OROVILLE DAM BLVD E *  * TE *  * 
+(Dispatched Call (121)) 2078 2ND ST, Oroville, CA *  * GRAND AV/NELSON AV *  * FDMED *  * POSS UNRESPONSIVE INFANT \n\nCellular E911 Call: \nLat:39.521556  Lon:-121
+(Dispatched Call (113)) 85 RANCHO VISTA DR, Oroville, CA * RANCHO VISTA APARTMENTS * GRAND AV * 12 * FDMED *  * \nILL FEMALE   DIFF BREATHING
+(Dispatched Call (313)) 3245 COLUMBIA AV, Oroville, CA *  * A ST/B ST * A * FDMED *  * Service Class: RESD\nILL FEMALE BREATHING DIFF   DOOR OPEN
+(Dispatched Call (313)) 3010 MYERS ST, Oroville, CA * ROBERTS DRUG STORE * CORTO ST/WYANDOTTE AV *  * FDMED *  * Service Class: BUSN\nUNCONSCIOUS FEMALE
+(Dispatched Call (313)) 2167 B ST, Oroville, CA *  * SPENCER AV/ROSEBEN AV *  * FDMED *  * \n\nILL FEMALE
+(Dispatched Call (113)) 974 MONTGOMERY ST, Oroville, CA *  * 4TH AV/3RD AV * 1 * FDMED *  * 
+(Dispatched Call (113)) 85 RANCHO VISTA DR, Oroville, CA * RANCHO VISTA APARTMENTS * GRAND AV * 34 * FDMED *  * Service Class: RESD\n\nAPARTMENT CLOSEST TO RIO VIST
+(Dispatched Call (313)) EL NOBLE AV/MESA AV, Oroville, CA *  * MESA AV *  * FDHAZD3 *  * BROKEN FIRE HYDRANTE
+(Dispatched Call (113)) 1 GILMORE LN, Oroville, CA * SHADOWBROOK HEALTH CARE * OROVILLE DAM BLVD E/MEDI * 19 * FDMED *  * bed 2 chest pain
+(Dispatched Call (313)) 55 CONCORDIA LN, Oroville, CA * COUNTRY CREST * EDGEWOOD DR * 209 * FDMED *  * ALTERED LOC
+(Dispatched Call (113)) 2053 OROVILLE BANGOR HWY, Oroville, CA *  * LINCOLN BLVD/SPENCER AV *  * FDMED *  * \n\nILL MALE
+(Dispatched Call (114)) 2053 OROVILLE BANGOR HWY, Oroville, CA *  * LINCOLN BLVD/SPENCER AV *  * FDMED *  * \n\nILL MALE
+(Dispatched Call (313)) 28 REGENT LOOP, Oroville, CA *  * MONTE VISTA AV *  * FDMED *  * AUTO MEDICAL
+(Dispatched Call (114)) 1980 MOUNTAIN VISTA DR, Oroville, CA *  * CREST DR *  * FDMED *  * ALTERED LOC
+(Dispatched Call (121)) 18 COVENTRY DR, Oroville, CA *  * PARKWOOD DR/LINDA DR *  * FDASSIST *  * Service Class: RESD\nLIFT ASSIST

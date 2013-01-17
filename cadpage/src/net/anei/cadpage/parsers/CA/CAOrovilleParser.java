@@ -13,7 +13,7 @@ public class CAOrovilleParser extends FieldProgramParser {
   
   public CAOrovilleParser() {
     super("OROVILLE", "CA",
-           "ADDRCITY PLACE X APT SRC! EMPTY INFO");
+           "ADDRCITYST PLACE X APT SRC! EMPTY INFO");
   }
   
   @Override
@@ -29,10 +29,37 @@ public class CAOrovilleParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.startsWith("Dispatched Call")) return false;
+    if (body.startsWith(",")) {
+      String[] parts = subject.split("\\|");
+      if (parts.length > 1) {
+        body = '(' + parts[parts.length-1] + ')' + body;
+      }
+    }
     if (body.endsWith("*")) body = body + " ";
     if (!parseFields(body.split(" \\* ", -1), 5, data)) return false;
     if (data.strCall.length() == 0) data.strCall = "ALERT";
     return true;
+  }
+  
+  private class MyAddressCityStField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      String city = p.getLast(',');
+      if (city.length() == 2) {
+        data.strState = city;
+        city = p.getLast(',');
+      }
+      String addr = p.get();
+      if (addr.length() == 0) abort();
+      super.parse(addr, data);
+      data.strCity = city;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " CITY ST";
+    }
   }
   
   private static final Pattern INFO_DELIM = Pattern.compile(" *\n+ *|  +| *, *(?!.*\\.$)");
@@ -73,6 +100,7 @@ public class CAOrovilleParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ADDRCITYST")) return new MyAddressCityStField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
