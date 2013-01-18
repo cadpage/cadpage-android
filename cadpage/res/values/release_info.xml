@@ -5,43 +5,23 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-Cadpage will default to using GPS coordinates to map locations for districts where
-dispatch centers routinely supply GPS coordiantes for most calls.  This is a mixed 
-blessing.  GPS mapped locations are more reliable but not always as accurate as calls
-mapped by their street address.  There is a new GPS Mapping Option in Additional 
-settings that can be used to override this default telling Cadpage to always use
-stree address mapping or to use GPS coordiate mapping any time GPS coordiantes are 
-available\n
-\n
-New GPS Mapping Locations:\n
-El Dorado County, CA\n
-Calveras County, CA\n
-Mendicino County, CA\n
-Napa County, CA\n
-Middlesex County, CT\n
-New Castle County, DE\n
-Midland County, MI\n
-Blair County, PA\n
-\n      
-New Locations:\n
-La Porte, TX renamed from Nassau Bay, TX\n
-\n      
 Location Parsing Fixes:\n
-Golden, CO\n
-Whhitfield County, GA\n
-Muskegon County, MI\n
-Greene County, MO\n
-Erie County, NY\n
-Montgomery County, NY\n
-Nassau County, NY\n
-Brunswick County, NC\n
-Polk County, NC\n
-Summit County, OH\n
-Jackson County, OR\n
-Klamath County, OR\n
-Delaware County, PA\n
-Northampton County, PA\n
-Cabell County, WV\n
+Oroville, CA\n
+Litchfield County, CT\n
+Kosciusko County, IN\n
+Johnson County, KS\n
+Jefferson County, MO\n
+Warren County, NJ\n
+Gloucester County, NJ\n
+Suffolk County, NJ\n
+Cumberland County, NC\n
+Nash County, NC\n
+Crook County, OR\n
+Northampton, PA\n
+Lincoln County, SD\n
+\n
+General fixes:\n
+Force close in new GPS mapping logic\n
   </string>  
 </resources>
   
