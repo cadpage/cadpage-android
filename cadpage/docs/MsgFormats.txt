@@ -5485,39 +5485,9 @@ Sender: Bailey, Michael
 FRM:Bailey, Michael\nMSG::Alarm Commercial  Day 1004   WINDSOR CENTER DR  EAST WINDSOR TWP
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Gloucester County, NJ (alternate - fix)
-Contact: "rich2118@comcast.net" <rich2118@comcast.net>
-Dispatch Contact: jjones@co.gloucester.nj.us
-Sender: 777259763803
-GC ALERT (#423679) FD 9-2: {12/26/2012 10:42:45}\nSEIZ     - Seizures{3}\n135 Voyager DR;B STOP
-GC ALERT (#426211) FD 9-2: {01/03/2013 09:54:56}\nCVA      - Stroke{2}\n441 Trowbridge AVE;B STOP
-GC ALERT (#425595) FD 9-2: {01/01/2013 10:48:28}\nRE       - Respiratory Emergency{2}\n796 Tacoma BLVD;B STOP
-GC ALERT (#425415) FD 9-2: {12/31/2012 17:57:48}\nDWEL     - Dwelling Fire{2}\n749 Quail PL;B STOP
-GC ALERT (#425315) FD 9-1: {12/31/2012 12:49:16}\nALRM     - Fire Alarm System{3}\nGloucester Manor;B STOP
-GC ALERT (#425253) FD 9-2: {12/31/2012 09:45:49}\nALRM     - Fire Alarm System{3}\n820 Cooper ST;B STOP
-
-Contact: John Godish <jg10306@gmail.com>
-System: Pro Phoenix
-Fwd: GC ALERT (#427167) FD 10-3: {01/06/2013 17:49:14} FUME     - Fumes{3} 5 Downing LN;R STOP
-Fwd: GC ALERT (#426947) FD 10-3: {01/06/2013 02:55:46} DWEL     - Dwelling Fire{2} 28 Cranford RD;R STOP
-Fwd: GC ALERT (#426447) FD 10-3: {01/04/2013 06:01:34} RUB      - Rubbish Fire{3} 24 Venus WAY;R STOP
-Fwd: GC ALERT (#425961) FD 10-3: {01/02/2013 14:45:22} ALMC     - CO Alarm{3} 411 Timothy TER;R STOP
-Fwd: GC ALERT (#424219) FD 10-3: {12/27/2012 17:42:05} ALRM     - Fire Alarm System{3} 16 Ferro DR;R STOP
-
-Contact:  Jay Hauss <jhauss9010@gmail.com>
-Sender: 1410000250
-FRM:GC RSAN #426585\nMSG:FD 22-1: {01/04/2013 14:52:09}\r\nSERV\5s- Service assignment (Fire){3}\r\n389 Breakneck RD;J=
-
-Contact: Richard Harris <rwh037@gmail.com>
-Sender: 777282007204
-Body:GC ALERT (#427869) FD 6-3: {01/09/2013 08:12:58}\nALMC\5s- CO Alarm{3}\n11 Victorian Way;T STOP
-
-FD 9-2 is station code
-B STOP ends all pages
 **********************************************************
 Snohomish, WA
 Contact: Jeff Torgerson <torgie17@gmail.com>
@@ -5624,6 +5594,20 @@ S:!  M:Large Vehicle Fire: 785 WILDERVILLE LN, Grants Pass:  \n1/10/2013 9:35:09
 S:!  M:Structure Fire: 1730 NE FOOTHILL BLVD, Grants Pass:  \n1/8/2013 3:33:58 PM: 308791: 7307, 7308, 7309, FA5, 7553, M12, 7531, 7353: WHITE SMOKE FROM ATTIC\nDOESN'T BELIEVE THEY HAVE A WOOD STO..
 S:!  M:TA1 - Traffic Accident: WILLIAMS HWY@ SW GRANDVIEW AVE , Grants Pass:  \n1/12/2013 9:17:18 AM: 201897: 7501, 7553, M1, 171: single veh into pole
 S:!  M:Grass Fire: ROUNDS AVE@ REDWOOD AVE , Grants Pass:  \n1/12/2013 6:45:11 PM: 109411: 7514, 7553, 7200, COFD: TREE ON FIRE
+**********************************************************
+Vance County, NC
+Contact: Boyd Edwards <boedwr@gmail.com>
+Sender: VanceCounty911@vancecounty.org
+VanceCounty911:1301-002044 GREYSTONE RD // 109 BROOKSTON RD HENDERSON ACCIDENT PERSONAL INJURY STEPHANIE WILLIAMS EMS,S12,VCRS
+VanceCounty911:1301-001945 1850 NEWTON DAIRY RD HENDERSON ACCIDENT PERSONAL INJURY VERIZON WIRELESS ENGN2,M4,R81,S47,SHP,SQD 3,V
+VanceCounty911:1301-001945 CAREY CHAPEL RD // NEWTON DAIRY RD HENDERSON ACCIDENT PERSONAL INJURY VERIZON WIRELESS EMS,GBELT,SHP,
+VanceCounty911:1301-001822 KITTRELL COLLEGE RD // US 1 HWY S KITTRELL ACCIDENT PERSONAL INJURY VERIZON WIRELESS EMS,KITTR,SHP,VC
+VanceCounty911:1301-000846 WARRENTON RD // CAREY CHAPEL RD HENDERSON ACCIDENT PERSONAL INJURY US CELLULAR EMS,VCRS
+VanceCounty911:1212-066577 4115 JACKSONTOWN RD MANSON CHIMNEY FIRE WILLIE HARGROVE DVFD,EMS,RIDGE,VCFD,VCRS
+VanceCounty911:1212-065802 143 DABNEY WOODS LN HENDERSON MEDICAL MIKE NICHOLAS M3,WATKI
+VanceCounty911:1212-065025 2727 US 158 BYPASS 24 HENDERSON STRUCTURE FIRE VERIZON WIRELESS HVFD,VCFD,VCRS,WVFD
+VanceCounty911:1212-067149 2610 BURNSIDE RD OXFORD MISSING PERSON HVFD,SQD30,TVFD,VCRS
+VanceCounty911:1212-066277 745 EPSOM ROCKY FORD RD HENDERSON ACCIDENT PERSONAL INJURY EMS,EPSOM,VCRS
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

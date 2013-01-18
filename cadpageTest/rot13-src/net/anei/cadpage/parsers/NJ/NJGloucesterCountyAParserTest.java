@@ -7,6 +7,37 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Tybhprfgre Pbhagl, AW (irefvba N)
+
+Pbagnpg: "evpu2118@pbzpnfg.arg" <evpu2118@pbzpnfg.arg>
+Qvfcngpu Pbagnpg: wwbarf@pb.tybhprfgre.aw.hf
+Fraqre: 777259763803
+TP NYREG (#423679) SQ 9-2: {12/26/2012 10:42:45}\aFRVM     - Frvmherf{3}\a135 Iblntre QE;O FGBC
+TP NYREG (#426211) SQ 9-2: {01/03/2013 09:54:56}\aPIN      - Fgebxr{2}\a441 Gebjoevqtr NIR;O FGBC
+TP NYREG (#425595) SQ 9-2: {01/01/2013 10:48:28}\aER       - Erfcvengbel Rzretrapl{2}\a796 Gnpbzn OYIQ;O FGBC
+TP NYREG (#425415) SQ 9-2: {12/31/2012 17:57:48}\aQJRY     - Qjryyvat Sver{2}\a749 Dhnvy CY;O FGBC
+TP NYREG (#425315) SQ 9-1: {12/31/2012 12:49:16}\aNYEZ     - Sver Nynez Flfgrz{3}\aTybhprfgre Znabe;O FGBC
+TP NYREG (#425253) SQ 9-2: {12/31/2012 09:45:49}\aNYEZ     - Sver Nynez Flfgrz{3}\a820 Pbbcre FG;O FGBC
+
+Pbagnpg: Wbua Tbqvfu <wt10306@tznvy.pbz>
+Flfgrz: Ceb Cubravk
+Sjq: TP NYREG (#427167) SQ 10-3: {01/06/2013 17:49:14} SHZR     - Shzrf{3} 5 Qbjavat YA;E FGBC
+Sjq: TP NYREG (#426947) SQ 10-3: {01/06/2013 02:55:46} QJRY     - Qjryyvat Sver{2} 28 Penasbeq EQ;E FGBC
+Sjq: TP NYREG (#426447) SQ 10-3: {01/04/2013 06:01:34} EHO      - Ehoovfu Sver{3} 24 Irahf JNL;E FGBC
+Sjq: TP NYREG (#425961) SQ 10-3: {01/02/2013 14:45:22} NYZP     - PB Nynez{3} 411 Gvzbgul GRE;E FGBC
+Sjq: TP NYREG (#424219) SQ 10-3: {12/27/2012 17:42:05} NYEZ     - Sver Nynez Flfgrz{3} 16 Sreeb QE;E FGBC
+
+Pbagnpg:  Wnl Unhff <wunhff9010@tznvy.pbz>
+Fraqre: 1410000250
+SEZ:TP EFNA #426585\aZFT:SQ 22-1: {01/04/2013 14:52:09}\aFREI     - Freivpr nffvtazrag (Sver){3}\a389 Oernxarpx EQ;W=
+
+Pbagnpg: Evpuneq Uneevf <eju037@tznvy.pbz>
+Fraqre: 777282007204
+TP NYREG (#427869) SQ 6-3: {01/09/2013 08:12:58}\aNYZP     - PB Nynez{3}\a11 Ivpgbevna Jnl;G FGBC
+
+Pbagnpg: Gbqq Oveqfnyy <gbqqoveqfnyy88@tznvy.pbz>
+Fraqre: 777284581792
+TP NYREG (#429277) SQ 43-5: {01/13/2013 18:30:03}\aNYEZ     - Sver Nynez Flfgrz{3}\a114 J Nepgvp NIR;04 FGBC
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Juvgzna Fdhner Sver Unyy
 Ybpngvba: Frjryy, AW, Havgrq Fgngrf
@@ -98,6 +129,185 @@ choyvp pynff AWTybhprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp AWTybhprfgrePbhaglNCnefreGrfg() {
     frgCnefre(arj AWTybhprfgrePbhaglNCnefre(), "TYBHPRFGRE PBHAGL", "AW");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEvpu2118() {
+
+    qbGrfg("G1",
+        "TP NYREG (#423679) SQ 9-2: {12/26/2012 10:42:45}\aFRVM     - Frvmherf{3}\a135 Iblntre QE;O FGBC",
+        "VQ:423679",
+        "FEP:SQ 9-2",
+        "QNGR:12/26/2012",
+        "GVZR:10:42:45",
+        "PBQR:FRVM",
+        "PNYY:Frvmherf",
+        "CEV:3",
+        "NQQE:135 Iblntre QE");
+
+    qbGrfg("G2",
+        "TP NYREG (#426211) SQ 9-2: {01/03/2013 09:54:56}\aPIN      - Fgebxr{2}\a441 Gebjoevqtr NIR;O FGBC",
+        "VQ:426211",
+        "FEP:SQ 9-2",
+        "QNGR:01/03/2013",
+        "GVZR:09:54:56",
+        "PBQR:PIN",
+        "PNYY:Fgebxr",
+        "CEV:2",
+        "NQQE:441 Gebjoevqtr NIR");
+
+    qbGrfg("G3",
+        "TP NYREG (#425595) SQ 9-2: {01/01/2013 10:48:28}\aER       - Erfcvengbel Rzretrapl{2}\a796 Gnpbzn OYIQ;O FGBC",
+        "VQ:425595",
+        "FEP:SQ 9-2",
+        "QNGR:01/01/2013",
+        "GVZR:10:48:28",
+        "PBQR:ER",
+        "PNYY:Erfcvengbel Rzretrapl",
+        "CEV:2",
+        "NQQE:796 Gnpbzn OYIQ");
+
+    qbGrfg("G4",
+        "TP NYREG (#425415) SQ 9-2: {12/31/2012 17:57:48}\aQJRY     - Qjryyvat Sver{2}\a749 Dhnvy CY;O FGBC",
+        "VQ:425415",
+        "FEP:SQ 9-2",
+        "QNGR:12/31/2012",
+        "GVZR:17:57:48",
+        "PBQR:QJRY",
+        "PNYY:Qjryyvat Sver",
+        "CEV:2",
+        "NQQE:749 Dhnvy CY");
+
+    qbGrfg("G5",
+        "TP NYREG (#425315) SQ 9-1: {12/31/2012 12:49:16}\aNYEZ     - Sver Nynez Flfgrz{3}\aTybhprfgre Znabe;O FGBC",
+        "VQ:425315",
+        "FEP:SQ 9-1",
+        "QNGR:12/31/2012",
+        "GVZR:12:49:16",
+        "PBQR:NYEZ",
+        "PNYY:Sver Nynez Flfgrz",
+        "CEV:3",
+        "NQQE:Tybhprfgre Znabe");
+
+    qbGrfg("G6",
+        "TP NYREG (#425253) SQ 9-2: {12/31/2012 09:45:49}\aNYEZ     - Sver Nynez Flfgrz{3}\a820 Pbbcre FG;O FGBC",
+        "VQ:425253",
+        "FEP:SQ 9-2",
+        "QNGR:12/31/2012",
+        "GVZR:09:45:49",
+        "PBQR:NYEZ",
+        "PNYY:Sver Nynez Flfgrz",
+        "CEV:3",
+        "NQQE:820 Pbbcre FG");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbuaTbqvfu() {
+
+    qbGrfg("G1",
+        "Sjq: TP NYREG (#427167) SQ 10-3: {01/06/2013 17:49:14} SHZR     - Shzrf{3} 5 Qbjavat YA;E FGBC",
+        "VQ:427167",
+        "FEP:SQ 10-3",
+        "QNGR:01/06/2013",
+        "GVZR:17:49:14",
+        "PBQR:SHZR",
+        "PNYY:Shzrf",
+        "CEV:3",
+        "NQQE:5 Qbjavat YA");
+
+    qbGrfg("G2",
+        "Sjq: TP NYREG (#426947) SQ 10-3: {01/06/2013 02:55:46} QJRY     - Qjryyvat Sver{2} 28 Penasbeq EQ;E FGBC",
+        "VQ:426947",
+        "FEP:SQ 10-3",
+        "QNGR:01/06/2013",
+        "GVZR:02:55:46",
+        "PBQR:QJRY",
+        "PNYY:Qjryyvat Sver",
+        "CEV:2",
+        "NQQE:28 Penasbeq EQ");
+
+    qbGrfg("G3",
+        "Sjq: TP NYREG (#426447) SQ 10-3: {01/04/2013 06:01:34} EHO      - Ehoovfu Sver{3} 24 Irahf JNL;E FGBC",
+        "VQ:426447",
+        "FEP:SQ 10-3",
+        "QNGR:01/04/2013",
+        "GVZR:06:01:34",
+        "PBQR:EHO",
+        "PNYY:Ehoovfu Sver",
+        "CEV:3",
+        "NQQE:24 Irahf JNL");
+
+    qbGrfg("G4",
+        "Sjq: TP NYREG (#425961) SQ 10-3: {01/02/2013 14:45:22} NYZP     - PB Nynez{3} 411 Gvzbgul GRE;E FGBC",
+        "VQ:425961",
+        "FEP:SQ 10-3",
+        "QNGR:01/02/2013",
+        "GVZR:14:45:22",
+        "PBQR:NYZP",
+        "PNYY:PB Nynez",
+        "CEV:3",
+        "NQQE:411 Gvzbgul GRE");
+
+    qbGrfg("G5",
+        "Sjq: TP NYREG (#424219) SQ 10-3: {12/27/2012 17:42:05} NYEZ     - Sver Nynez Flfgrz{3} 16 Sreeb QE;E FGBC",
+        "VQ:424219",
+        "FEP:SQ 10-3",
+        "QNGR:12/27/2012",
+        "GVZR:17:42:05",
+        "PBQR:NYEZ",
+        "PNYY:Sver Nynez Flfgrz",
+        "CEV:3",
+        "NQQE:16 Sreeb QE");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWnlUnhff() {
+
+    qbGrfg("G1",
+        "SEZ:TP EFNA #426585\aZFT:SQ 22-1: {01/04/2013 14:52:09}\aFREI     - Freivpr nffvtazrag (Sver){3}\a389 Oernxarpx EQ;W=",
+        "VQ:426585",
+        "FEP:SQ 22-1",
+        "QNGR:01/04/2013",
+        "GVZR:14:52:09",
+        "PBQR:FREI",
+        "PNYY:Freivpr nffvtazrag (Sver)",
+        "CEV:3",
+        "NQQE:389 Oernxarpx EQ");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEvpuneqUneevf() {
+
+    qbGrfg("G1",
+        "TP NYREG (#427869) SQ 6-3: {01/09/2013 08:12:58}\aNYZP     - PB Nynez{3}\a11 Ivpgbevna Jnl;G FGBC",
+        "VQ:427869",
+        "FEP:SQ 6-3",
+        "QNGR:01/09/2013",
+        "GVZR:08:12:58",
+        "PBQR:NYZP",
+        "PNYY:PB Nynez",
+        "CEV:3",
+        "NQQE:11 Ivpgbevna Jnl");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGbzOveqfnyy() {
+
+    qbGrfg("G1",
+        "TP NYREG (#429277) SQ 43-5: {01/13/2013 18:30:03}\aNYEZ     - Sver Nynez Flfgrz{3}\a114 J Nepgvp NIR;04 FGBC",
+        "VQ:429277",
+        "FEP:SQ 43-5",
+        "QNGR:01/13/2013",
+        "GVZR:18:30:03",
+        "PBQR:NYEZ",
+        "PNYY:Sver Nynez Flfgrz",
+        "CEV:3",
+        "NQQE:114 J Nepgvp NIR");
+
   }
   
   @Grfg
