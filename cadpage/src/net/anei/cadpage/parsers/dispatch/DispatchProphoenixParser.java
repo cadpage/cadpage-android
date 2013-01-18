@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchProphoenixParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^(?:(\\d+)|[ A-Z0-9]+ +\\(#(\\d+)\\) +([- A-Z0-9]+):) +");
+  private static final Pattern MARKER = Pattern.compile("^(?:(\\d+)|(?:[ A-Z0-9]+ +\\(#(\\d+)\\) +)?([- A-Z0-9]+):) +");
   private static final Pattern TRAILER_PTN = Pattern.compile(" *;[A-Z0-9]+ +STOP$"); 
   
   private Properties cityCodes;
@@ -34,6 +34,7 @@ public class DispatchProphoenixParser extends FieldProgramParser {
     data.strCallId = match.group(1);
     if (data.strCallId == null) {
       data.strCallId = match.group(2);
+      if (data.strCallId == null) data.strCallId = "";
       data.strSource = match.group(3).trim();
     }
     body = body.substring(match.end());
