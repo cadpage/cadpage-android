@@ -34,6 +34,10 @@ Pbagnpg: Tnel <gevtgerznlar@lnubb.pbz>
 Fraqre: 93001025
 ANFU911:* A HF 301* * * ONGGYROBEB* * ZIN CVA-U* * FUC* * 9SQ1,RZF9,FG3* * * * *
 
+Pbagnpg: Eboreg Nzrefba <ernzrefba614@tznvy.pbz>
+Fraqre: ANFU911@anfupbhaglap.tbi
+ANFU911:* 111 ZPPBL QE* * * ANFUIVYYR* * * * * TNF YRNX* * NYVWNU UBHFGBA* * 14SQ1* * Yvar16=* Yvar17=* Yvar18=*
+
 */
 
 choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -145,6 +149,14 @@ choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN CVA-U",
         "CYNPR:FUC",
         "HAVG:9SQ1,RZF9,FG3");
+
+    qbGrfg("G15",
+        "ANFU911:* 111 ZPPBL QE* * * ANFUIVYYR* * * * * TNF YRNX* * NYVWNU UBHFGBA* * 14SQ1* * Yvar16=* Yvar17=* Yvar18=*",
+        "NQQE:111 ZPPBL QE",
+        "PVGL:ANFUIVYYR",
+        "PNYY:TNF YRNX",
+        "CYNPR:NYVWNU UBHFGBA",
+        "HAVG:14SQ1");
 
   }
   
