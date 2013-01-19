@@ -18,6 +18,6 @@ public class CTWindhamCountyBParser extends CTNewHavenCountyBParser {
     "CHAPLIN",
     "HEBRON",
     "MANSFIELD",
-    "STORRS",
+    "STORRS"
   };
 }
