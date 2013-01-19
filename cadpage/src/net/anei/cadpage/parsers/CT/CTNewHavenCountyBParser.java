@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class CTNewHavenCountyBParser extends SmartAddressParser {
   
   private static final Pattern MARKER = Pattern.compile("^(\\d{10}) +");
-  private static final Pattern DATE_TIME_PTN = Pattern.compile(" +(\\d{6}) (\\d\\d:\\d\\d)$"); 
+  private static final Pattern DATE_TIME_PTN = Pattern.compile(" +(\\d{6}) (\\d\\d:\\d\\d)(?:[ ,]|$)"); 
   private static final Pattern TRUNC_DATE_TIME_PTN = Pattern.compile(" +\\d{6} [\\d:]+$| +\\d{1,6}$"); 
   private static final Pattern ADDR_END_MARKER = Pattern.compile(",|Apt ?#:");
   private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?:Prem )?Map -");
@@ -19,18 +19,27 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   private static final Pattern MAP_EXTRA_PTN = Pattern.compile("\\(Prem Map (.*?)\\)");
   private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+(?=\\d)");
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-    "GUILFORD", "GUILFORD",
-    "WLFD", "WALLINFORD",
-    "WALLINGFORD", "WALLINGFORD"
-  });
+  private Properties cityCodes = null;
   
   public CTNewHavenCountyBParser() {
-    this(CITY_CODES, "NORTH BRANFORD", "CT");
+    this(CITY_LIST, CITY_CODES, "NORTH BRANFORD", "CT");
+  }
+  
+  public CTNewHavenCountyBParser(String defCity, String defState) {
+    super(defCity, defState);
+  }
+  
+  public CTNewHavenCountyBParser(String[] cityList, String defCity, String defState) {
+    super(cityList, defCity, defState);
   }
   
   public CTNewHavenCountyBParser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState);
+  }
+  
+  public CTNewHavenCountyBParser(String[] cityList, Properties cityCodes, String defCity, String defState) {
+    super(cityList, defCity, defState);
+    this.cityCodes = cityCodes;
   }
   
   @Override
@@ -50,6 +59,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
       String date = match.group(1);
       data.strDate = date.substring(2,4) + "/" + date.substring(4,6) + "/" + date.substring(0,2);
       data.strTime = match.group(2);
+      data.strSupp = body.substring(match.end()).trim();
       body = body.substring(0,match.start());
     } else {
       match = TRUNC_DATE_TIME_PTN.matcher(body);
@@ -69,13 +79,19 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
       } else {
         data.strApt = token;
       }
-      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END | FLAG_START_FLD_REQ, addr, data);
+      parseAddress(StartType.START_CALL, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS | FLAG_ANCHOR_END | FLAG_START_FLD_REQ, addr, data);
     }
     
     else {
-      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
+      parseAddress(StartType.START_CALL, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS | FLAG_START_FLD_REQ, body, data);
       sExtra = getLeft();
     }
+    
+    // If there is a pad field, treat it as a place or cross street
+    String pad = getPadField();
+    if (checkAddress(pad) > 0) data.strCross = pad;
+    else data.strPlace = pad;
+    
     match = MAP_PFX_PTN.matcher(sExtra);
     if (match.find()) {
       sExtra = sExtra.substring(match.end()).trim();
@@ -134,6 +150,19 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     if (match.find()) {
       data.strAddress = data.strAddress.substring(match.end()).trim();
     }
+    
+    if (cityCodes != null) data.strCity = convertCodes(data.strCity, cityCodes);
     return true;
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "GUILFORD",
+    "WALLINGFORD",
+    "WLFD"
+  };
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+    "WLFD", "WALLINGFORD"
+  });
+
 }

@@ -138,7 +138,7 @@ choyvp pynff PGArjUniraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN J/VAWHEVRF",
         "NQQE:A ZNVA FG & EG68",
         "ZNQQE:A ZNVA FG & EG 68",
-        "PVGL:JNYYVASBEQ",
+        "PVGL:JNYYVATSBEQ",
         "HAVG:N44",
         "QNGR:09/06/11",
         "GVZR:17:05");

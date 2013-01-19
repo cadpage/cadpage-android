@@ -1499,10 +1499,15 @@ Waterford Town, CT (CTWaterfordTown)
 2012-009419*\nINTERSTATE 395 (X77-MONT)*\n*\n*\nWATERFORD*\n*\nMVA HIGH*\nVEHICLE ACCIDENT - HIGHWAY/SPEED*\n*\n*\n49,CO4,CO5,MED11,W500,W51,W57*\n*\n*\n*\n*
 2012-009444*\n14 KINGFISHER WAY*\n*\n*\nWATERFORD*\n*\nCARB MONOX*\nCARBON MONOXIDE INCIDENT*\nNOLDA,ZACH*\n*\nCO1,CO4,W100,W11,W400*\n*\n*\n*\n*
 ***************************************************************************
-Windham County, CT (CTWindhamCountyParser)
+Windham County, CT (CTWindhamCountyAParser)
 (Moosup FD Page) STA94 STA594 MOOS1  UHF-4 PRI 1 person fallen Medical Alarm 1 SARA LN / Moosup (X-STS HIGH ST / DEAD END ) 07:31
 (Moosup FD Page) STA94 STA594 MOOS1  33.88 PRI 1 Sick Person 109 WHIP POOR WILL DR / Moosup (X-STS ) 10:57
 (Moosup FD Page) STA94 STA594 MOOS1  UHF-4 PRI 1 Sick Person BARBER HILL RD / N  MAIN ST Moosup (X-STS ) 17:35
+***************************************************************************
+Windham County, CT (CTWindhamCountyBParser)
+1300000897 ALS EMS RESPONSE  00080  GILEAD ST  HEBRON  130118 17:40   ALT MENTAL STATUS 6 Y/O
+1300000896 ALS EMS RESPONSE  00184  CHEWINK RD  CHAPLIN  130118 16:41   DIFF BREATHING
+1300000876 ALS EMS RESPONSE  00022  HUSKY CIRCLE   STORRS  130118 11:43   ALERGIC REACTION,APT 210
 ***************************************************************************
 Delmar DE (DEDelmarParser)
 (CAD Alert) 74AST      Call at 101 Delaware Ave              Delmar Nursing and RehabilitatCity19940      Problem Interfacillity/Palliative-ALS
