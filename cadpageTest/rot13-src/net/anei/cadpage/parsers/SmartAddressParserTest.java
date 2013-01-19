@@ -48,6 +48,9 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
     
+    qbGrfg(NQQE, SYNT_PEBFF_SBYYBJF, "UVTUJNL 43 & V 44 RO",
+        "NQQE:UVTUJNL 43 & V 44 RO");
+    
     qbGrfg(PNYY, "10-50 Ebyybire 4062 A PE 225 J",
         "PNYY:10-50 Ebyybire", 
         "NQQE:4062 A PE 225 J");
@@ -775,9 +778,6 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgPebffBayl() {
-    qbGrfg(PNYY, SYNT_BAYL_PVGL, "Uryc zr trg gb xra gbja gbavtug",
-        "PNYY:Uryc zr trg gb",
-        "PVGL:xra gbja");
     
     qbGrfg(PNYY, SYNT_BAYL_PEBFF, "NYNEZ A WBARF FG & OVT GBJA NIR 101 FBZRJURER VA XRAFOHET",
         "PNYY:NYNEZ",
@@ -820,6 +820,30 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(PNYY, SYNT_BAYL_PEBFF | SYNT_NAPUBE_RAQ, "Fvpx crefba Fvzcfba Eq/R V-485 VAARE UL",
         "PNYY:Fvpx crefba",
         "K:Fvzcfba Eq / R V-485 VAARE UL");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgBaylPvgl() {
+
+    qbGrfg(PNYY, SYNT_BAYL_PVGL, "Uryc zr trg gb xra gbja gbavtug",
+        "PNYY:Uryc zr trg gb",
+        "PVGL:xra gbja");
+    
+    qbGrfg(NQQE, SYNT_BAYL_PVGL, "XRA GBJA BIRE",
+        "PVGL:XRA GBJA");
+    
+    qbGrfg(PNYY, SYNT_BAYL_PVGL, "ONQ JBYS XRA GBJA BIRE",
+        "PNYY:ONQ JBYS",
+        "PVGL:XRA GBJA");
+    
+    qbGrfg(PNYY, SYNT_BAYL_PVGL, "GRRCRR ZUC",
+        "PNYY:GRRCRR ZUC");
+    
+    qbGrfg(NQQE, SYNT_BAYL_PVGL, "GRRCRR ZUC");
+    
+    qbGrfg(NQQE, SYNT_BAYL_PVGL | SYNT_PEBFF_SBYYBJF, "XRAFOHET YNAR NCGF",
+        "PVGL:XRAFOHET");
 
   }
   

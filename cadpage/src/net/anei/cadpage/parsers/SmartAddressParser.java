@@ -607,6 +607,12 @@ public abstract class SmartAddressParser extends MsgParser {
         if (sType != StartType.START_ADDR || result.cityField.fldStart == 0) {
           result.status = 4;
         }
+      } else {
+        if (result.startField != null) {
+          result.startField.end(tokens.length);
+        } else {
+          result.endAll = 0;
+        }
       }
       return result;
     }
@@ -1046,8 +1052,10 @@ public abstract class SmartAddressParser extends MsgParser {
         // If the following token is a direction, increment end pointer past that too
         // unless we expected a following cross street, in which case the direction should
         // be considered part of the following cross street
+        // unless the direction token is the last token in which case there can't be a following
+        // cross street, can there
         ndx++;
-        if (!isFlagSet(FLAG_CROSS_FOLLOWS) && isType(ndx, ID_DIRECTION)) ndx++;
+        if ((!isFlagSet(FLAG_CROSS_FOLLOWS) || ndx+1 == tokens.length) && isType(ndx, ID_DIRECTION)) ndx++;
       }
       result.startField.end(atStart ? sAddr-1 : sAddr);
     }
@@ -1428,7 +1436,8 @@ public abstract class SmartAddressParser extends MsgParser {
     if (endNdx < 0) return -1;
     
     // We did find a city, but if it is followed by a road suffix, disqualify it
-    if (isType(endNdx, ID_ROAD_SFX)) return -1;
+    // Unless we are only parsing a city, in which case it is OK
+    if (isType(endNdx, ID_ROAD_SFX) && !isFlagSet(FLAG_ONLY_CITY)) return -1;
     
     // A road suffix one or two tokens past the end of the city also disqualifies it
     // Except some times there really is cross street information following
@@ -1655,7 +1664,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // If road is followed by a direction and that direction can not be part of
     // a following cross street, include it
-    if (!isFlagSet(FLAG_CROSS_FOLLOWS) && isType(end, ID_DIRECTION)) end++;
+    if ((!isFlagSet(FLAG_CROSS_FOLLOWS) || end+1 == tokens.length) && isType(end, ID_DIRECTION)) end++;
     return end;
   }
 
