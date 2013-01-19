@@ -26,17 +26,64 @@ public class ILDuPageCountyParser extends MsgParser {
     if (pt >= 0) addr = addr.substring(0,pt).trim();
     if (addr.startsWith("0N025 ")) addr = "25 N " + addr.substring(6);
     parseAddress(addr, data);
-    data.strCity = convertCodes(substring(body,70,72), CITY_CODES);
-    data.strCode = substring(body, 72, 76);
+    data.strSource = substring(body,70,72);
+    data.strUnit = substring(body, 72, 76);
     data.strCall = substring(body, 76, 96);
     data.strPlace = substring(body, 96, 141);
-    data.strCross = substring(body, 141);
+    data.strCross = append(substring(body, 141, 161), " & ", substring(body, 161, 181));
+    data.strCity = convertCodes(substring(body, 347, 350), CITY_CODES);
     return true;
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "OR", "",
-      "RO", "ROSELLE",
-      "VP", "VILLA PARK"
+      "AD",        "ADDISON",
+      "ANL",       "ARGONNE NATL LABS",
+      "AU",        "AURORA",
+      "BA",        "BARTLETT",
+      "BE",        "BENSENVILLE",
+      "BL",        "BLOOMINGDALE",
+      "BO",        "BOLINGBROOK",
+      "BR",        "BURR RIDGE",
+      "BV",        "BATAVIA",
+      "CG",        "CHICAGO",
+      "CH",        "CLARENDON HILLS",
+      "CK",        "COOK COUNTY",
+      "CS",        "CAROL STREAM",
+      "DA",        "DARIEN",
+      "DG",        "DOWNERS GROVE",
+      "EG",        "ELK GROVE VILLAGE",
+      "EL",        "ELMHURST",
+      "EOL",       "EOLA",
+      "FML",       "FERMILAB",
+      "GE",        "GLEN ELLYN",
+      "GL",        "GLENDALE HEIGHTS",
+      "HI",        "HINSDALE",
+      "HP",        "HANOVER PARK",
+      "IM",        "(empty)",
+      "IT",        "ITASCA",
+      "KC",        "KANE COUNTY",
+      "KE",        "KENDALL COUNTY",
+      "KNV",       "(empty)",
+      "LE",        "LEMONT",
+      "LI",        "LISLE",
+      "LO",        "LOMBARD",
+      "MED",       "MEDINAH",
+      "NA",        "NAPERVILLE",
+      "OB",        "OAKBROOK",
+      "OT",        "OAKBROOK TERRACE",
+      "RO",        "ROSELLE",
+      "SC",        "SAINT CHARLES",
+      "SH",        "SHAUMBURG",
+      "VP",        "VILLA PARK",
+      "WA",        "WAYNE",
+      "WC",        "WEST CHICAGO",
+      "WD",        "WOOD DALE",
+      "WH",        "WHEATON",
+      "WI",        "WINFIELD",
+      "WL",        "WILLOWBROOK",
+      "WO",        "WOODRIDGE",
+      "WR",        "WARRENVILLE",
+      "WS",        "WESTMONT",
+      "WY",        "WILL COUNTY"
   });
 }
