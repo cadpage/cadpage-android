@@ -5295,13 +5295,13 @@ ID:CF33406
 DST:SC
 SRC:CSFD
 UNIT:CSFD
-INFO:FIRE ALARMS  STRUCTURE CALLS ALSO SEND BOILING SPRINGS\2sCHESNEE COMM / RESIDENTIAL STRUCTURE FIRE
+INFO:FIRE ALARMS  STRUCTURE CALLS ALSO SEND BOILING SPRINGS  CHESNEE COMM / RESIDENTIAL STRUCTURE FIRE
 **********************************************************
 Clinton County, MO
 Contact: Rod McQuerrey <rmcquerrey@plattsburgfire.org>
 Sender: dispatch@clintoncosheriff.org
 FRM:Rod McQuerrey \nMSG:dispatch@clintoncosheriff.org\n\nHISTORY FOR OCC #12-97, INC...\n\nOCC #12-97, INC #12-6000 - FIRE - Fire\nTime ...
-1 of 2\nFRM:dispatch@clintoncosheriff.org\nSUBJ:NEWOCC #OUTS\2sMEDI - Medical\nMSG:NEWOCC #OUTS\2sMEDI - Medical\nAddress: 204 W Riley St,\n(Con't) 2 of 2\nPlattsburg\nReporting
+1 of 2\nFRM:dispatch@clintoncosheriff.org\nSUBJ:NEWOCC #OUTS  MEDI - Medical\nMSG:NEWOCC #OUTS  MEDI - Medical\nAddress: 204 W Riley St,\n(Con't) 2 of 2\nPlattsburg\nReporting
 Person: Susan Hunt,
 Phone: 8165392537\nDetail: female unk conditon, worke up with headache 87 poss stroke.(End)
 **********************************************************
@@ -5489,9 +5489,20 @@ Contact: Harvey Bailey <happyharv01@gmail.com>
 Sender: Bailey, Michael
 FRM:Bailey, Michael\nMSG::Alarm Commercial  Day 1004   WINDSOR CENTER DR  EAST WINDSOR TWP
 **********************************************************
+Suffolk County, NY (alternate)
+Contact: Noah Pilnick <npilnick@commackambulance.org>
+Sender: news@1rwn.com
+1 of 2\nFRM:news@1rwn.com\nMSG:NORTH BABYLON, NY (SUFFOLK) *PURSUIT* SUNRISE HWY SVS RD & DEER PARK AVE (1 PCT). SCPD 102 RPTS PURSUIT OF A BROWN\n(Con't) 2 of 2\nFORD F350 W/ CAP ON THE BACK. HELO UP ABOVE TO CANVAS.  NY340\n(End)
+**********************************************************
+Erie County, PA (truncated B??)
+Contact: Joe Reed <jmreed1959@verizon.net>
+Sender: messaging@iamresponding.com
+(Crescent) Chest Pain - 11 South Washington Street -  -
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
 **********************************************************
 **********************************************************
 Snohomish, WA
@@ -5574,7 +5585,7 @@ CAD||410 NE 6th St # NORTH BEND Medic FTAC1 A88,M3,L87
 Scotty County, IA
 Contact: David Liske <david.liskeusmc@gmail.com>
 Sender: secc@scott.ia.us
-(Incident) MCFD\2s106 N SALINA ST McCausland EMS or MVC-Solo\2sCall successfully transferred to peer Agency. [MedicEMS]\2sPeer CFS Number = 0045-A_2012-12-01 [MedicEM
+(Incident) MCFD  106 N SALINA ST McCausland EMS or MVC-Solo  Call successfully transferred to peer Agency. [MedicEMS]  Peer CFS Number = 0045-A_2012-12-01 [MedicEM
 
 Scott County, IA
 Contact: David Liske <david.liskeusmc@gmail.com>
@@ -5613,6 +5624,7 @@ VanceCounty911:1212-065802 143 DABNEY WOODS LN HENDERSON MEDICAL MIKE NICHOLAS M
 VanceCounty911:1212-065025 2727 US 158 BYPASS 24 HENDERSON STRUCTURE FIRE VERIZON WIRELESS HVFD,VCFD,VCRS,WVFD
 VanceCounty911:1212-067149 2610 BURNSIDE RD OXFORD MISSING PERSON HVFD,SQD30,TVFD,VCRS
 VanceCounty911:1212-066277 745 EPSOM ROCKY FORD RD HENDERSON ACCIDENT PERSONAL INJURY EMS,EPSOM,VCRS
+VanceCounty911:1301-002189 132 PEBBLE HILL LN HENDERSON STRUCTURE FIRE KATHERINE BC-1,ENG60,ENG63,ENGN2,FM1,M1,R81,S12,TAN33,TAN
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
@@ -6170,5 +6182,4 @@ Sender: gdalton@valleyhealthlink.com
 **********************************************************
 **********************************************************
 * EOF
-**********************************************************
 **********************************************************

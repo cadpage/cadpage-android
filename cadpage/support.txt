@@ -455,6 +455,10 @@ This isn't the text format we are expecting for <<LOCATION>>.  This happens all 
 
 ******************************************************************************
 
+This isn't one of the many text formats we are expecting for Suffolk County.  Apparently dispatch changed the way page are sent and  we need to write a new parser for you.  
+
+******************************************************************************
+
 To add a new location we need 5-10 sample text messages from your dispatch.  Please include what County/City/Company these pages are for so we can place it in the right grouping. Please try to include 1-2 calls with intersections so we can parse those correctly. Include any details you can regarding how the messages are formatted. If possible please include what email the messages come from.
 
 We also need to know what agency is generating these messages and some idea of what other departments receive the same message formats.  If you can identify the CAD software that is sending your text pages that would help a lot.   
@@ -465,6 +469,13 @@ In the meantime, try using the general location setting and set the From: filter
 
 Good Luck,
 Jean, Assistant to Ken Corbin
+
+*****************************************************************
+
+It will help when we get a location parser written for Vance County.  Unfortunately this could take a while.  Normally we get new parsers out within a week of being requested, but these are not normal times.  I've been completely overloaded with parser problem reports since the beginning of the year, apparently a lot of dispatch centers schedule major changes to their CAD software about that time.  I'm struggling to catch up on problem reports and want to finish those before I go back to implementing new location parsers.  It could easily be 3-4 weeks before I get this done.
+
+I apologize for the delay,
+-Ken
 
 *****************************************************************
 
