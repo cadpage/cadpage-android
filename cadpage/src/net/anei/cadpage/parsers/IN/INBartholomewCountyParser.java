@@ -37,6 +37,7 @@ public class INBartholomewCountyParser extends DispatchOSSIParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CLIF", "CLIFFORD",
       "COL",  "COLUMBUS",
-      "HOPE", "HOPE"
+      "HOPE", "HOPE",
+      "TAYL", "TAYLORSVILLE"
   });
 }
