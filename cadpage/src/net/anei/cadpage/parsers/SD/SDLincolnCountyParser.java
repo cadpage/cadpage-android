@@ -14,6 +14,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class SDLincolnCountyParser extends SmartAddressParser {
   
+  private static final Pattern LEAD_NUMBER = Pattern.compile("^\\d+ .*");
   private static final Pattern CALL_ID_PTN = Pattern.compile("^\\{?(\\d\\d-\\d+)\\b\\}?");
   private static final Pattern MASTER_PTN = Pattern.compile("\\{?(.*?)\\}? *(\n| - )(.*)");
   private static final Pattern STANDBY_PTN = Pattern.compile("^STANDBY +(?:AT +)", Pattern.CASE_INSENSITIVE);
@@ -40,7 +41,7 @@ public class SDLincolnCountyParser extends SmartAddressParser {
     Parser p = new Parser(subject);
     String addr = p.get(',');
     Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, addr);
-    if (res.getStatus() > 1) {
+    if (res.getStatus() > 1 || LEAD_NUMBER.matcher(addr).matches()) {
       res.getData(data);
       if (data.strCity.length() == 0) data.strCity = p.get(',');
       data.strState = p.get(',');
@@ -89,7 +90,7 @@ public class SDLincolnCountyParser extends SmartAddressParser {
         parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, body, data);
         info = append(getLeft(), " - ", info);
       }
-      if (!good && getStatus() == 0 &&
+      if (true && !good && getStatus() == 0 &&
            (!isPositiveId() || info.length() == 0)) return false;
     } 
     

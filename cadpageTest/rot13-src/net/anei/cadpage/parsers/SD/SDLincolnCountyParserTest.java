@@ -36,6 +36,7 @@ Fhowrpg:VAWHEL NPPVQRAG\a480GU & 289GU - 1 SRZNYR JVGU HAXABJA VAWHEL\e
 Pbagnpg: Wnzrf Qvrgm <xp0hfd@tznvy.pbz>
 Fraqre: ab-ercyl@yrqfcbegny.pbz
 (13-00330 - NZO : Nzohynapr Pnyy) 503 R CBCYNE QE, # 111, PNAGBA, FQ 57013 Yvsg Nffvfg.  Cyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]
+(227 F WBUAFBA) ZNYR - QVSSVPHYGL OERNGUVAT [Nggnpuzrag(f) erzbirq]
 
 ** Cnefre snvyherf **
 Fhowrpg:qrulqengvba\a519 f onegyrgg 18 lb srznyr qrulengrq, cyrnfr erfcbaq\e
@@ -229,6 +230,11 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PNAGBA",
         "FG:FQ",
         "VASB:Yvsg Nffvfg.");
+
+    qbGrfg("G2",
+        "(227 F WBUAFBA) ZNYR - QVSSVPHYGL OERNGUVAT [Nggnpuzrag(f) erzbirq]",
+        "PNYY:ZNYR - QVSSVPHYGL OERNGUVAT",
+        "NQQE:227 F WBUAFBA");
 
   }
   
