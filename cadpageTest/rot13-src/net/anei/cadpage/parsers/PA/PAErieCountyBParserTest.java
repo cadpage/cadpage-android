@@ -22,6 +22,10 @@ Senpgher - 2 J FGNGR FGERRG - Pbhagel Snve - ZRRG CQ - Znva Fgerrg & Npnqrzl Fge
 Pneqvnp - 210 R FGNGR FGERRG - Abegujrfg Nern Urnygu Pragre  (CER-CYNA) - Bepuneq Fgerrg & Guveq Nirahr
 Haerfcbafvir Cngvrag - 44 JNYAHG FGERRG - FUREZNA ERFVQRAPR - Gubeagba Nirahr & Rhpyvq Fgerrg
 
+Pbagnpg: Wbr Errq <wzerrq1959@irevmba.arg>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Perfprag) Purfg Cnva - 11 Fbhgu Jnfuvatgba Fgerrg -  -
+
 Trareny nyregf!
 2AQ GNC ZRQVPNY NYNEZ  32 JRFG CRNEY FGERRG.  QEVIRE ARRQRQ
 2AQ GNC RZF FPV NYOVBA SEBAG RAGENAPR PURFG CNVA.  QP/JPR.
@@ -113,6 +117,16 @@ choyvp pynff CNRevrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:44 JNYAHG FGERRG",
         "CYNPR:FUREZNA ERFVQRAPR",
         "K:Gubeagba Nirahr & Rhpyvq Fgerrg");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbrErrq() {
+
+    qbGrfg("G1",
+        "(Perfprag) Purfg Cnva - 11 Fbhgu Jnfuvatgba Fgerrg -  -",
+        "PNYY:Purfg Cnva",
+        "NQQE:11 Fbhgu Jnfuvatgba Fgerrg");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

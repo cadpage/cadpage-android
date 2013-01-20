@@ -19,8 +19,8 @@ public class PAErieCountyBParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (body.endsWith(" -")) body = body.substring(0,body.length()-2).trim();
-    String[] flds = body.split(" - ");
+    if (body.endsWith(" -")) body = body + ' ';
+    String[] flds = body.split(" - ", -1);
     if (flds.length < 4) return false;
     return parseFields(flds, data);
   }
