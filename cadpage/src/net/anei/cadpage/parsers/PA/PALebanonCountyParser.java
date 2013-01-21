@@ -11,16 +11,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class PALebanonCountyParser extends SmartAddressParser {
   
+  private static final Pattern DAUPHIN_EAST_HANOVER_PTN = Pattern.compile("^(DAUPHIN(?: CO(?:UNTY)?)?[ /]EAST HANOVER(?: TWP)?)[= ]", Pattern.CASE_INSENSITIVE);
   private static final Pattern[] CITY_PTNS = new Pattern[]{
-    Pattern.compile("^(.* Township) ", Pattern.CASE_INSENSITIVE),
-    Pattern.compile("^(.* Twp) ", Pattern.CASE_INSENSITIVE),
-    Pattern.compile("^City of ([^ ]*) ", Pattern.CASE_INSENSITIVE),
-    Pattern.compile("^(.*) Borough ", Pattern.CASE_INSENSITIVE),
-    Pattern.compile("^(.*) Boro ", Pattern.CASE_INSENSITIVE)
-  };
-  private static final String[] DAUPHIN_EAST_HANOVER_STRINGS = new String[]{
-    "DAUPHIN EAST HANOVER ",
-    "DAUPHIN CO/EAST HANOVER "
+    Pattern.compile("^(.* Township)[ =]", Pattern.CASE_INSENSITIVE),
+    Pattern.compile("^(.* Twp)[ =]", Pattern.CASE_INSENSITIVE),
+    Pattern.compile("^City of ([^ ]*)[ =]", Pattern.CASE_INSENSITIVE),
+    Pattern.compile("^(.*) Borough[ =]", Pattern.CASE_INSENSITIVE),
+    Pattern.compile("^(.*) Boro[ =]", Pattern.CASE_INSENSITIVE)
   };
   private static final Pattern COUNTY_PTN = Pattern.compile("^[^ ]+ COUNTY\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_PREFIX_PTN =
@@ -44,22 +41,22 @@ public class PALebanonCountyParser extends SmartAddressParser {
     
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
+    if (body.startsWith("LANCASTER ")) body = body.substring(10).trim();
+    
+    // Look for recognizable East Handover Township - Dauphin County prefixes
+    Matcher match = DAUPHIN_EAST_HANOVER_PTN.matcher(body);
+    if (match.find()) {
+      data.strCity = "East Hanover Twp, DAUPHIN COUNTY";
+      body = body.substring(match.end()).trim();
+    }
 
     // Look for city, borough, or township at start of text
-    if (body.startsWith("LANCASTER ")) body = body.substring(10).trim();
-    for (Pattern ptn : CITY_PTNS) {
-      Matcher match = ptn.matcher(body);
-      if (match.find()) {
-        data.strCity = match.group(1).toUpperCase();
-        body = body.substring(match.end()).trim();
-        break;
-      }
-    }
     if (data.strCity.length() == 0) {
-      for (String prefix : DAUPHIN_EAST_HANOVER_STRINGS) {
-        if (body.toUpperCase().startsWith(prefix)) {
-          data.strCity = "East Hanover Twp, DAUPHIN COUNTY";
-          body = body.substring(prefix.length()).trim();
+      for (Pattern ptn : CITY_PTNS) {
+        match = ptn.matcher(body);
+        if (match.find()) {
+          data.strCity = match.group(1).toUpperCase();
+          body = body.substring(match.end()).trim();
           break;
         }
       }
@@ -67,7 +64,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
     }
     
     // Check for county qualifier
-    Matcher match = COUNTY_PTN.matcher(body);
+    match = COUNTY_PTN.matcher(body);
     if (match.find()) {
       data.strCity = data.strCity + ", " + match.group();
       body = body.substring(match.end()).trim();
