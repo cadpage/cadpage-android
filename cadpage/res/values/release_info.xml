@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01172013</string>
-  <string name="release_version">v1.6.01</string>
+  <string name="release_date">01202013</string>
+  <string name="release_version">v1.6.02</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-Location Parsing Fixes:\n
-Oroville, CA\n
-Litchfield County, CT\n
-Kosciusko County, IN\n
-Johnson County, KS\n
-Jefferson County, MO\n
-Warren County, NJ\n
-Gloucester County, NJ\n
-Suffolk County, NJ\n
-Cumberland County, NC\n
-Nash County, NC\n
-Crook County, OR\n
-Northampton, PA\n
-Lincoln County, SD\n
+New Locations:\n
+WIndham Cunty, CT (alt)\n
 \n
-General fixes:\n
-Force close in new GPS mapping logic\n
+Location Parsing Fixes:\n
+Du Page County, IL\n
+Bartholomew County, IN\n
+Newton County, MO\n
+Ulster County, NY\n
+Erie County, PA\n
+Lebanon County, PA\n
+Lincoln County, SD\n
+New Zealand
   </string>  
 </resources>
   
