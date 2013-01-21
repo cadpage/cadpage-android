@@ -1,18 +1,19 @@
 package net.anei.cadpage.parsers.NY;
 
-import java.util.Properties;
-import net.anei.cadpage.parsers.MsgParser;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * Ulster County, NY
  */
-public class NYUlsterCountyParser extends MsgParser {
+public class NYUlsterCountyParser extends FieldProgramParser {
 
-  private static final String[]Kingstonkeywords = new String[]{"Unit","UnitSts","Loc", "XSts", "Venue", "Inc","Date", "Time"};
-  
   public NYUlsterCountyParser() {
-    super("ULSTER COUNTY", "NY");
+    super("ULSTER COUNTY", "NY",
+           "Unit:UNIT! UnitSts:SKIP? Loc:ADDR! XSts:X! Venue:CITY! Inc:CALL! Date:DATE! Time:TIME! Addtl:INFO");
   }
   
   @Override
@@ -24,25 +25,34 @@ public class NYUlsterCountyParser extends MsgParser {
   protected boolean parseMsg(String body, Data data) {
 
     body = body.replace('\n', ' ');
-    if (!isPageMsg(body, Kingstonkeywords)) return false;
+    if (!super.parseMsg(body, data)) return false;
 
-    Properties props = parseMessage(body, Kingstonkeywords);
-    data.strCity = props.getProperty("Venue", "").replaceAll(" +", " ");
-    if (data.strCity.toUpperCase().startsWith("KING CITY")) { data.strCity="KINGSTON";} 
-    data.strCall = props.getProperty("Inc", "");
-    parseAddress(props.getProperty("Loc", ""), data);
-    data.strCross = props.getProperty("XSts", "");
-    data.strUnit = props.getProperty("Unit", "");
-    data.strDate = props.getProperty("Date", "");
-    String sSupp = props.getProperty("Time","");
-    int ipt = sSupp.indexOf(' ');
-    if (ipt >= 0) {
-      data.strSupp = sSupp.substring(ipt+1).trim();
-      sSupp = sSupp.substring(0,ipt).trim();
-    }
-    data.strTime = sSupp;
+    data.strCity = data.strCity.replaceAll(" +", " ");
+    if (data.strCity.toUpperCase().startsWith("KING CITY")) { data.strCity="KINGSTON";}
     return true;
+  }
+  
+  private static final Pattern TIME_PTN = Pattern.compile("^\\d\\d:\\d\\d\\b");
+  private class MyTimeField extends TimeField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = TIME_PTN.matcher(field);
+      if (!match.find()) abort();
+      data.strTime = match.group();
+      data.strSupp = field.substring(match.end()).trim();
+    }
     
+    @Override
+    public String getFieldNames() {
+      return "TIME INFO";
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("DATE")) return new DateField("\\d\\d/\\d\\d/\\d{4}", true);
+    if (name.equals("TIME")) return new MyTimeField();
+    return super.getField(name);
   }
 }
 
