@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchA14Parser extends FieldProgramParser {
   
   private static final Pattern[] MISSING_BLANK_PTNS = new Pattern[]{
-    Pattern.compile("([^ ])(CS:|TOA:)"),
+    Pattern.compile("([^ ])(CS:|ADTML:|CODE:|TOA:|TYPE:|LOC:)"),
     Pattern.compile("\\b(\\d\\d-\\d\\d-\\d\\d)([^ ])"),
     Pattern.compile("([^ ])(\\d{4}-\\d{6})\\b")
   };
