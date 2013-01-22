@@ -40,9 +40,9 @@ Which means,
 2) No SMS text message size limits
 3) It works on Android tablets
 
-It only works if you are getting messages from a cooperating message service.  Active911.com just came online, CodeMessaging.net is next in line and should be online in a couple of days.
+It only works if you are getting messages from a cooperating message service, which currently means either CodeMessaging.net or Active911.com.  CodeMessaging will only work with departments. Active911 works for departments or individuals.
 
-If you are getting pages through CodeMessaging, just hang on, direct paging will be available soon.  If you aren't you can only get it if you or your department switch to using one of those two messaging services.
+Cadpage does not expect subscription payments if you are registered to get direct pages from one of these agencies.  We get part of they money you pay them.
 
 Have a nice day,
 -Ken
