@@ -933,6 +933,8 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nresponseMenuActive:");
     sb.append(responseMenuVisible);
     
+    sb.append("\ninfoURL:");
+    sb.append(infoURL);
     
     sb.append("\nCall ID:");
     sb.append(callId);

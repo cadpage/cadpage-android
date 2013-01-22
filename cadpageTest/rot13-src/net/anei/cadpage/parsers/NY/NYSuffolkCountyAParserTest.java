@@ -82,6 +82,7 @@ GLCR: FVPX YBP: 54 ZNAUNFFRG NI SNEZIV   PEBFF: NQVEBAQNPX QE / F OVPLPYR CNGU P
 Pbagnpg: Tnel Syrfpuare <tnel.syrfpuare@tznvy.pbz>
 Fraqre: cntvat@fpserf.pbz
 GLCR: NYNEZF YBP: IVYYNTR TERRA QE CBEGWF :2330  PEBFF: BYQ GBJA EQ / BYQ GBJA EQ PBQR: 52-P-4F GVZR: 14:02:25\e\a\e\a\e
+GLCR: PURFG CNVA YBP: 7 WHANEQ OYIQ GREELI   PEBFF: QNIVQ YA / PNANY EQ PBQR: 10-Q-4 GVZR: 15:51:09
 
 Pbagnpg: Eba Ubavt <ubavt484@tznvy.pbz>
 Fraqre: cntvat@fpserf.pbz
@@ -405,6 +406,15 @@ choyvp pynff ALFhssbyxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:TENAAL EQ / TENAAL EQ",
         "PBQR:12-Q-2R",
         "GVZR:22:51:08");
+
+    qbGrfg("G32",
+        "GLCR: PURFG CNVA YBP: 7 WHANEQ OYIQ GREELI   PEBFF: QNIVQ YA / PNANY EQ PBQR: 10-Q-4 GVZR: 15:51:09",
+        "PNYY:PURFG CNVA",
+        "NQQE:7 WHANEQ OYIQ",
+        "PVGL:GREELIVYYR",
+        "K:QNIVQ YA / PNANY EQ",
+        "PBQR:10-Q-4",
+        "GVZR:15:51:09");
 
   }
   

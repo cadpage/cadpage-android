@@ -5493,7 +5493,22 @@ Suffolk County, NY (alternate)
 Contact: Noah Pilnick <npilnick@commackambulance.org>
 Sender: news@1rwn.com
 1 of 2\nFRM:news@1rwn.com\nMSG:NORTH BABYLON, NY (SUFFOLK) *PURSUIT* SUNRISE HWY SVS RD & DEER PARK AVE (1 PCT). SCPD 102 RPTS PURSUIT OF A BROWN\n(Con't) 2 of 2\nFORD F350 W/ CAP ON THE BACK. HELO UP ABOVE TO CANVAS.  NY340\n(End)
-**********************************************************
+Body: 1 of 2\n
+FRM:news@1rwn.com\n
+MSG:SHOREHAM, NY (SUFFOLK) *WORKING FIRE* 45 RANDALL RD C/S ALBERT ST (ROCKY POINT FD). RPFD O/S RPT FIRE IN A P/D. REQ\n
+(Con't) 2 of 2\n
+RETONE "13/35". M/A ASSIGNED. NY517\n
+(End)
+Body: 1 of 2\n
+FRM:news@1rwn.com\n
+MSG:CENTRAL ISLIP, NY (SUFFOLK) *NAT GAS LEAK* 54 TAMARACK ST. CHIEF 3-7-32 RPTS NAT GAS LEAK. REQ GAS CO. ENG 3-7-3\n
+(Con't) 2 of 2\n
+FIRST DUE ENG, 3-7-5 FIRST DUE TRUCK.\2sNY340\n
+(End)
+Body:FRM:news@1rwn.com\n
+MSG:NORTH BABYLON, NY (SUFFOLK) *O/T AUTO W/ EJECTION* DEER PARK AVE/POPLAR ST. PD O/S W/ O/T AUTO 1 SUBJ. EJECTED AVN ON S/B. NY200\n
+
+
 **********************************************************
 Suffolk County, NY (fix?)
 Contact: Brett Deacon <deachead15@gmail.com>
@@ -5505,10 +5520,11 @@ Contact: Jonathon Sabrsula <jrsabrsula@gmail.com>
 Sender: fbcsotibsys@co.fort-bend.tx.us
 1 of 2\nFRM:fbcsotibsys@co.fort-bend.tx.us\nSUBJ:CAD Page\nMSG:DISPATCH:MVA, Acc w/inj, US 90AW/HERMAN SULAK RD, WAL,  <11300/ 11200>, EMS, EB20,\n(Con't) 2 of 2\n600V, Medical ProQA recommends dispatch at this time, Units:BFE, MEDI02 - From DW05 01/17/2013 16:02:10\r\n(End)
 **********************************************************
-Rowan County, NC (alternate or replace)
+Rowan County, NC (alternate?)
 Contact: Kevin Aube <auberacing@gmail.com>
 Sender: 93001043
 4954:CAD:A2,E31,E21,CFL7,E11,BC1,OPS1;1;RESCUE ASSIGNMENT;667 WILSON ST;K103;SMITH ST;JOHNDY AV;tree fell through roof, no injuries [01/17/13 16:57:37 BSHOTTS]
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
