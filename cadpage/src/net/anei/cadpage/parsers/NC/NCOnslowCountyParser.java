@@ -16,7 +16,7 @@ public class NCOnslowCountyParser extends DispatchOSSIParser {
   
   public NCOnslowCountyParser() {
     super(CITY_CODES, "ONSLOW COUNTY", "NC",
-           "( ASSIST ADDR CITY DIST? INFO+ | ADDR ( SELECT/EMS PLACE? UNIT UNIT? CALL CODE | PLACE? CALL SRC UNIT2! ) )");
+           "( ASSIST ADDR CITY DIST? INFO+ | ADDR ( SELECT/EMS PLACE? UNIT UNIT? CALL! CODE | PLACE? CALL SRC UNIT2! ) )");
   }
   
   @Override
@@ -27,7 +27,7 @@ public class NCOnslowCountyParser extends DispatchOSSIParser {
   @Override
   protected boolean parseFields(String[] fields, Data data) {
     if (fields.length == 0) return false;
-    selectValue = (CODE_PTN.matcher(fields[fields.length-1]).matches() ? "EMS" : "FIRE");
+    selectValue = (fields.length < 4 || CODE_PTN.matcher(fields[fields.length-1]).matches() ? "EMS" : "FIRE");
     return super.parseFields(fields, data);
   }
 

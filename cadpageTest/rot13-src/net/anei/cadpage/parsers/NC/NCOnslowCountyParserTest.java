@@ -27,6 +27,10 @@ SEZ:PNQ@bafybjpbhaglap.tbi\aZFT:PNQ:9018 9GU FG;10;PURFG CNVA;10Q04
 SEZ:PNQ@bafybjpbhaglap.tbi\aZFT:PNQ:1822 ARJ EVIRE VAYRG EQ;1107;17;SNYY;17N01
 SEZ:PNQ@bafybjpbhaglap.tbi\aZFT:PNQ:2075 UJL 172;PBNFGNY QERQTVAT;IRUVPYR SVER;FSSQ;15N
 
+Pbagnpg: Xraargu Ynpuzna <xrazna70@tznvy.pbz>
+Fraqre: PNQ@bafybjpbhaglap.tbi
+PNQ:649 BYQ SBYXFGBAR EQ;21;URZBEEUNTR
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Evpuynaqf Erfphr
 Ybpngvba: Evpuynaqf, AP, Havgrq Fgngrf
@@ -162,6 +166,17 @@ choyvp pynff APBafybjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:PBNFGNY QERQTVAT",
         "FEP:FSSQ");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXraarguYnpuzna() {
+
+    qbGrfg("G1",
+        "PNQ:649 BYQ SBYXFGBAR EQ;21;URZBEEUNTR",
+        "NQQE:649 BYQ SBYXFGBAR EQ",
+        "HAVG:21",
+        "PNYY:URZBEEUNTR");
+   
   }
   
   @Grfg
