@@ -22,7 +22,7 @@ public class WIEauClaireParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "tfddispatch@att.net";
+    return "tfddispatch@att.net,messaging@iamresponding.com";
   }
   
   @Override
@@ -33,7 +33,7 @@ public class WIEauClaireParser extends FieldProgramParser {
     String sub = body.substring(0,pt).trim();
     body = body.substring(pt+1).trim();
     
-    if (subject.length() == 0) subject = sub;
+    if (!subject.startsWith("Case#")) subject = sub;
     if (sub.length() > 0 && !sub.equals(subject)) return false;
     
     if (subject.length() > 0) {
