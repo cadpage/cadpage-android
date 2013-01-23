@@ -15,7 +15,7 @@ public class MDBaltimoreCountyAParser extends FieldProgramParser {
   
   public MDBaltimoreCountyAParser() {
     super("BALTIMORE COUNTY", "MD",
-           "CALL MAP UNIT ADDR/S0! INFO? ID");
+           "CALL ( UNIT MAP | MAP UNIT ) ADDR/S0! INFO? ID");
   }
   
   @Override
@@ -53,6 +53,7 @@ public class MDBaltimoreCountyAParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       
       if (data.strCall.startsWith("MUTUAL AID")) {
+        field = field.replaceAll(" *// *", " ");
         Matcher match = MUTUAL_AID_ADDR_PTN.matcher(field);
         if (!match.matches()) abort();   // Can't happen
         String code = match.group(1);
@@ -105,6 +106,14 @@ public class MDBaltimoreCountyAParser extends FieldProgramParser {
       return "PLACE " + super.getFieldNames() + " APT INFO CITY ST CH";
     }
   }
+  
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals(".")) return;
+      super.parse(field, data);
+    }
+  }
 
   private static final Pattern ID_PTN = Pattern.compile("Incident Number \\((\\d+)\\)");
   private class MyIdField extends IdField {
@@ -132,6 +141,7 @@ public class MDBaltimoreCountyAParser extends FieldProgramParser {
     if (name.equals("MAP")) return new MapField("(?:\\d{3}|CAR)-\\d{2}|\\d{4}|[A-Z]{2}", true);
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("ID")) return new MyIdField();
     return super.getField(name);
   }

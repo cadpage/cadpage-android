@@ -283,10 +283,7 @@ BC911:MVAUNK>MOTOR VEH ACC UNKNOWN INJ STATE HIGHWAY 39 JENKINS VERIZON WIRELESS
 BC911:FIRES >STRUCTURE FIRE 23270 STATE HIGHWAY TT BARRY COUNTY CAHD REAVIS 3350036 Map: Grids:0,0 Cad: 2011-0000015655
 ***************************************************************************
 Marion County, MS (MSMarionCountyParser)
--  - 911-CENTER:SFIRE >STRUCTURE FIRE 1129 PICKWICK RD FOXWORTH FORBES, WILLEASE Map: Grids:, Cad: 2012-0000001317\n
--  - 911-CENTER:SIG72 >MEDICAL CALL 577 MT CARMEL CHURCH RD FOXWORTH AT&T MOBILITY Map: Grids:, Cad: 2012-0000001285\n
--  - 911-CENTER:SIG72 >MEDICAL CALL 244 SPRING HILL CHURCH RD SANDY HOOK AT&T MOBILITY Map: Grids:, Cad: 2012-0000001188\n
-***************************************************************************
+-  - 911-CENTER:SFIRE >STRUCTURE FIRE 1129 PICKWICK RD FOXWORTH FORBES, WILLEASE Map: Grids:, Cad: 2012-0000001317\n-  - 911-CENTER:SIG72 >MEDICAL CALL 577 MT CARMEL CHURCH RD FOXWORTH AT&T MOBILITY Map: Grids:, Cad: 2012-0000001285\n-  - 911-CENTER:SIG72 >MEDICAL CALL 244 SPRING HILL CHURCH RD SANDY HOOK AT&T MOBILITY Map: Grids:, Cad: 2012-0000001188\n***************************************************************************
 Salem County, NJ (NJSalemCountyAParser)
 911-CENTER:06N >ALARM SYSTEM-NIGHT 40 EATON RD XS: LINCOLN DR AND S WASHINGTON DR PENNSVILLE TWP TC02 // MONITORING CENT 
 911-CENTER:02 >STRUCTURE FIRE-MEDIUM HAZARD 429 N BROADWAY WAY XS: ROUTE 130 OVERPASS PENNSVILLE TWP KIM MILLER 3511754 
@@ -378,10 +375,7 @@ ANDERSON CO 911:29B4 >MVA-ALS PRI1 HIGHWAY 29 N MICHAEL QUEEN2214421 Cad: 2011-0
 ANDERSON CO 911:32 >UNKNOWN PROBLEM 1216 ROUND ABOUT TRL JOSH 201-4436 Cad: 2011-0000004370
 *******************************************************************************
 Chester County, SC (SCChesterCountyParser)
-CHESTER_911:1070 >FIRE 3204 LANCASTER HWY RICHBURG WAFFLE HOUSE RICHBURG 8037895535 Map: Grids:0,0 Cad: 2012-0000051009\n
-CHESTER_911:1052P1>EMS NEEDED PRIORITY 1 4576 WYLIES MILL RD XS: LANCASTER HWY EDGEMOOR PATRICA G MCINTOSH 8037895237 Map: Grids:0,0 Cad: 2012-0000050983\n
-CHESTER_911:1070 >FIRE 4250 SLOAN RD XS: LANCASTER RD RICHBURG ALLIED WIRELESS 877.510.4357 8032095766 Map: Grids:0,0 Cad: 2012-0000050888\n
-*******************************************************************************
+CHESTER_911:1070 >FIRE 3204 LANCASTER HWY RICHBURG WAFFLE HOUSE RICHBURG 8037895535 Map: Grids:0,0 Cad: 2012-0000051009\nCHESTER_911:1052P1>EMS NEEDED PRIORITY 1 4576 WYLIES MILL RD XS: LANCASTER HWY EDGEMOOR PATRICA G MCINTOSH 8037895237 Map: Grids:0,0 Cad: 2012-0000050983\nCHESTER_911:1070 >FIRE 4250 SLOAN RD XS: LANCASTER RD RICHBURG ALLIED WIRELESS 877.510.4357 8032095766 Map: Grids:0,0 Cad: 2012-0000050888\n*******************************************************************************
 Florence County, SC (SCFlorenceCountyParser)
 FLORENCE CO 911:21B2 >HEM/LACER-SERIOUS 2004 NEW HOPE DR XS: W MCARTHUR DR OFF MECHANICSVILLE RD FLORENCE BARR, ETHEL Map: Grids:0,0 Cad: 2011-0000105
 FLORENCE CO 911:32D1 >UNK PROBLEM-LIFE STAT QUESTION W MARION ST XS: N ALEXANDER FLORENCE DAWN WITHERSPOON Cad: 2011-0000103800
@@ -586,10 +580,7 @@ RED:[43]- NATURE: EMERGENCY MEDICAL CALL LOCATION: 80 TfHOMAS BL NW LAWRENCE TWP
 RED:[02]- NATURE: PUBLIC SERVICE-SQUAD LOCATION: 8757 SPRING GRO VE AV NW LAWRENCE TWP BETWEEN GLENCOE / GENEVA COMMENTS: LI FT ASSIST GARAGE ENTRANCE
 *******************************************************************************
 Wayne County, OH (OHWayneCountyCParser)
-JCR:[JCRM21]- NATURE: 30CP LOCATION: 4969 E LINCOLN WAY EAST UNION TWP BETWEEN HONEYTOWN / MAGNIPOWER CO COMMENTS: 51-Y R-OLD FEMALE\n
-JCD:[JCDT16]- NATURE: 30IL LOCATION: 37 W MAIN APPLE CREEK C OMMENTS: 12 Y/O MALE CON / BREATHING CANNOT GET TRACH BACK INTO THROAT\n
-JCJ:[JCJG33]- NATURE: 28OB LOCATION: 140 LERUE EAST UNION TW P BETWEEN E LINCOLN WAY / DEAD END COMMENTS: CALLER ON MCQU AD ADVISING SUBJECTS AT END OF LERUE BURNING LEAVES\n
-*******************************************************************************
+JCR:[JCRM21]- NATURE: 30CP LOCATION: 4969 E LINCOLN WAY EAST UNION TWP BETWEEN HONEYTOWN / MAGNIPOWER CO COMMENTS: 51-Y R-OLD FEMALE\nJCD:[JCDT16]- NATURE: 30IL LOCATION: 37 W MAIN APPLE CREEK C OMMENTS: 12 Y/O MALE CON / BREATHING CANNOT GET TRACH BACK INTO THROAT\nJCJ:[JCJG33]- NATURE: 28OB LOCATION: 140 LERUE EAST UNION TW P BETWEEN E LINCOLN WAY / DEAD END COMMENTS: CALLER ON MCQU AD ADVISING SUBJECTS AT END OF LERUE BURNING LEAVES\n*******************************************************************************
 *******************************************************************************
 * DispatchPrintrakParser subclasses
 *******************************************************************************
@@ -625,10 +616,7 @@ STRUCTURE FIRE AD: 8336 17 AV S CMT1: READING ON CO DETECTOR GAS ADN 225 - BEEPI
 SELECT STATION CALL APT: 6 AD: 25 98 ST W LOC: METRO APARTMENTS CMT1: STOVE WAS LEFT ON - NEED VENTILATION - OFFICER IS ON SCENE
 *******************************************************************************
 Christian County, MO (MOChristianCountyParser)
-(Incident Notification) TYP: FIRE ALARM COMM LOC: AD: 822 W MT VERNON ST Nixa XST: S GREGG RD, N GREGG RD / S GREGG RD, N GREGG RD CMTS:  MARC IS THE BUSINESS NAME. HEAT DETECTOR GENERAL.  SIMPLEX GRINELL  UNTS: EN22  10/13/12 14:32\n
-(Incident Notification) TYP: MEDICAL LOC: AD: 302 N YOSEMITE CT Nixa XST: UNKNOWN / N YOSEMITE DR, W OSAGE DR CMTS:  NOT ALERT - COX ENROUTE  79 YOF IS COMPLAINING OF SOB. SHE HAS BEEN TAKING SOME ANTIBIOTIC INJECTIONS FOR THE PAST FEW  UNTS: EN22  10/13/12 14:00\n
-(Incident Notification) TYP: MEDICAL LOC: AD: 310 N PROSPECT ST Nixa XST: E DONNA ST / E PROSPECT ST CMTS:  LEG PAIN  HE IS VOMITING BLOOD COTS  73 YOM IS CONSCIOUS  E911 Info - Class of Service: WRLS  UNTS: BR21  10/13/12 09:52\n
-*******************************************************************************
+(Incident Notification) TYP: FIRE ALARM COMM LOC: AD: 822 W MT VERNON ST Nixa XST: S GREGG RD, N GREGG RD / S GREGG RD, N GREGG RD CMTS:  MARC IS THE BUSINESS NAME. HEAT DETECTOR GENERAL.  SIMPLEX GRINELL  UNTS: EN22  10/13/12 14:32\n(Incident Notification) TYP: MEDICAL LOC: AD: 302 N YOSEMITE CT Nixa XST: UNKNOWN / N YOSEMITE DR, W OSAGE DR CMTS:  NOT ALERT - COX ENROUTE  79 YOF IS COMPLAINING OF SOB. SHE HAS BEEN TAKING SOME ANTIBIOTIC INJECTIONS FOR THE PAST FEW  UNTS: EN22  10/13/12 14:00\n(Incident Notification) TYP: MEDICAL LOC: AD: 310 N PROSPECT ST Nixa XST: E DONNA ST / E PROSPECT ST CMTS:  LEG PAIN  HE IS VOMITING BLOOD COTS  73 YOM IS CONSCIOUS  E911 Info - Class of Service: WRLS  UNTS: BR21  10/13/12 09:52\n*******************************************************************************
 Greene County, MO
 TYP: RESIDENTIAL FIRE AD: 500 S VENTURA AVE CTY: REPUBLIC MAP: U-8 CN: JOE SNYDER CMT1: * * * CLONE STRUCTURE FIRES TO GF/FHOUSE-FBLDG/BF10/ CMT:AUTO_AID * * * TIME: 22:21 UNTS: RF/BRUSH1 XST: 598 S FOREST LN XST2: 600 W ONEAL RD
 TYP: MEDICAL AD: 1013 E US60 EAST CTY: REPUBLIC MAP: T-9 LOC: PRICE CUTTER CMT1: * * * CLONE STRUCTURE FIRES TO GF/ FHOUSE-FBLDG/BF10/CMT:AUTO_AID * * * CMT2: PERSON FELL OFF BICYCLE -ELDERLY TIME: 19:12 UNTS: RF/ST1
@@ -1280,10 +1268,7 @@ Shelby County, AL (ALShelbyCountyParser)
  1 of 2\nFRM:arns@shelby911.org\nSUBJ:SHELBY911 ARNS ALERT\nMSG:\n5/17/2012 9:40:01 AM\nFIRE1208391\nCAH_VALY - STA184\nALARM-FIRE\n\n5116 LIBERTY\n(Con't) 2 of 2\nPKWY @ URBAN CENTER PKWY / URBAN CENTER PKWY\n\nBHM FD(End)
 ***************************************************************************
 Kenai Peninsula Borough, AK (AKKenaiPeninsulaBoroughParser)
-(911 Rip And Run Service) Location: \r\nBEHIND THE POOR HOUSE \r\n, AK\r\n\r\nCross Streets: \r\n\r\n\r\n\r\nCall Type: \r\n69-STRUCTURE FIRE\r\n\r\n\r\nConscious: \r\nUnknown\r\n\r\nBreathing:\r\nUnknown\r\n\r\nDispatch Code:\r\n69-D-05\r\r\n
-(911 Rip And Run Service) Location: \r\n264 UPPER ROSIAN DR \r\n  SOLDOTNA\r\n, AK\r\n\r\nCross Streets: \r\n\r\nW LONDON ROSE CIR / DEAD END\r\n\r\n\r\nCall Type: \r\n17-FALLS\r\n\r\n\r\nConscious: \r\nYES\r\n\r\nBreathing:\r\nYES\r\n\r\nDispatch Code:\r\n17-D-03\r\r\n
-(911 Rip And Run Service) Location: \r\nMAP SHOP \r\n, AK\r\n\r\nCross Streets: \r\n\r\n\r\n\r\nCall Type: \r\nMEDICAL/FIRE\r\n\r\n\r\nConscious: \r\nUnknown\r\n\r\nBreathing:\r\nUnknown\r\n\r\nDispatch Code:\r\nUnknown\r\n
-***************************************************************************
+(911 Rip And Run Service) Location: \nBEHIND THE POOR HOUSE \n, AK\n\nCross Streets: \n\n\n\nCall Type: \n69-STRUCTURE FIRE\n\n\nConscious: \nUnknown\n\nBreathing:\nUnknown\n\nDispatch Code:\n69-D-05\r\n(911 Rip And Run Service) Location: \n264 UPPER ROSIAN DR \n  SOLDOTNA\n, AK\n\nCross Streets: \n\nW LONDON ROSE CIR / DEAD END\n\n\nCall Type: \n17-FALLS\n\n\nConscious: \nYES\n\nBreathing:\nYES\n\nDispatch Code:\n17-D-03\r\n(911 Rip And Run Service) Location: \nMAP SHOP \n, AK\n\nCross Streets: \n\n\n\nCall Type: \nMEDICAL/FIRE\n\n\nConscious: \nUnknown\n\nBreathing:\nUnknown\n\nDispatch Code:\nUnknown\n***************************************************************************
 Maricopa County, AZ (AZMaricopaCountyParser)
 (I/Page Notification) Location: 843 S LONGMORE MESA,1019: @DEL CORONADO AP EVENT: F2012031039 TYPE CODE: 909WORK CALLER NAME: FRITZY SALAZAR CALLER ADDR:  TIME: 20:58:16 Comments:  SPECIAL ADDRESS COMMENT: Grid: BC04 Plat: 14 Block: 1500 W SMOKE INSIDE APT 1019....FIRE ALARM SOUNDING ALSO ALARM SOUNDING FOR PAST HOUR. RESIDENTS NOT HOME AT THIS TIME ENROUTE CODE 3 RP LIVES UPSTAIRS JUST WENT TO CHECK AND CAN SEE SMOKE INSIDE ENROUTE CODE 3 ENROUTE CODE 3 POSS DOGS INSIDE ENROUTE CODE 3 ENROUTE CODE 3 5C14 -- NO FLAMES ALOT OF SMOKE...H/O 97 ENROUTE CODE 3 +++RESOURCE REQUEST+++ : WORKING FIRE 5C14 -- FOOD ON STOVE
 (I/Page Notification) Location: 161 E 6TH PL MESA: @COMMUNICATIONS EVENT: F2012030962 TYPE CODE: CADTEST CALLER NAME:  CALLER ADDR:  TIME: 14:44:25 Comments:  SPECIAL ADDRESS COMMENT: Grid: AB11 Plat: 28 Block: 700 N TEST ENCODE DISREGARD PAGE....NO INCIDENT
@@ -1346,10 +1331,7 @@ MED, PERSON DOWN; STN621 @ 54160 MARANATHA DR ,IDYL ; ; 25778 BLK JOHNSON RD; 81
 MED, PERSON DOWN; 25280 NORWOOD DR ,PINC ; RX TO PRES MEDS; 52100 BLK ACORN LN; 813_H_5/154__116; Inc# 118213; Cmd: RRU SUP 8; Tac: RVC TAC 0; STN23A E23 M624; NO TEXT
 ***************************************************************************
 San Bernardino County, CA (CASanBernardinoCountyParser)
-[] | TU - T>W Cypress Ave / S Center St - REDC >LOC INFO: >AGN MAP:RED045 -TB MAP:648 B2 >X ST: >E261,MS261,AMR33>COMMENTS:GREEN 300 vs BLACK SEDAN,External Case Number 'RED _1200689' added for Redlands.,Automatic Case Number(s) issued for Ground Ambulance: \n
-[] | HEART->1600 E Citrus Ave -A REDC >LOC INFO:DR HOENSHELL >AGN MAP:RED069 -TB MAP:608 F7 >X ST:N DEARBORN ST/S LA SALLE ST >E261,MS261,AMR37>COMMENTS:[ProQA Session Aborted] ALLIED AGENCY,External Case Number 'RED _1200691' added for Redlands.,Automatic C\n
-[] | SICK-D>105 Terracina Blvd -106-a REDC >LOC INFO:BROOKSIDE HEALTH >AGN MAP:RED043 -TB MAP:647 H2 >X ST:BROOKSIDE AVE/CORDOVA AVE >E264,ME263R,AMR39>COMMENTS:793-2271,[ProQA Script] Dispatch code: 26D01 85 year old, Male, Conscious, Breathing. Sick Person\n
-***************************************************************************
+[] | TU - T>W Cypress Ave / S Center St - REDC >LOC INFO: >AGN MAP:RED045 -TB MAP:648 B2 >X ST: >E261,MS261,AMR33>COMMENTS:GREEN 300 vs BLACK SEDAN,External Case Number 'RED _1200689' added for Redlands.,Automatic Case Number(s) issued for Ground Ambulance: \n[] | HEART->1600 E Citrus Ave -A REDC >LOC INFO:DR HOENSHELL >AGN MAP:RED069 -TB MAP:608 F7 >X ST:N DEARBORN ST/S LA SALLE ST >E261,MS261,AMR37>COMMENTS:[ProQA Session Aborted] ALLIED AGENCY,External Case Number 'RED _1200691' added for Redlands.,Automatic C\n[] | SICK-D>105 Terracina Blvd -106-a REDC >LOC INFO:BROOKSIDE HEALTH >AGN MAP:RED043 -TB MAP:647 H2 >X ST:BROOKSIDE AVE/CORDOVA AVE >E264,ME263R,AMR39>COMMENTS:793-2271,[ProQA Script] Dispatch code: 26D01 85 year old, Male, Conscious, Breathing. Sick Person\n***************************************************************************
 Shasta County, CA
 (CAD Page) FIRE, SMOKE CHECK; 21199 HWY 299 E ,BELLAVISTA ; ; 11764 BLK REBECCA LN; Map: 3225; Inc# 009012; VOL33; neighbor burning
 (CAD Page) MED, TRAFFIC COLLISION; 21044 HWY 299 E / 11760 NEAL LN ,BELLAVISTA ; ; ; Map: 3225; Inc# 009230; B2413 VOL33 E2462; VEH
@@ -1366,10 +1348,7 @@ E18-1 11020566     Fire Alarm - Co  5045 S State Route 99 E F E ARCH RD/E SUNNY 
       12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386                Assigned Units: E9-3,E9-2,E26-2,BC9-0
 ***************************************************************************
 Santa Clara County, CA (CASantaClaraCountyParser)
-(Cmd/Orig (AM/EM3)) EMDC#M123040190LOC=MS1 CTY= ADDL=>MS1 SAYS LEAVE TYPE=1021/NONE CD=1/  MAP=     DETAILS=RE: MED EVENT 104 FROM THIS AFTERNOON. THE PATIENT CLAIMS THE MEDICS\r\nWENT THRU HER PURSE TO CHECK FOR HER MEDICAL CARD AND ID AND SHE HAD A\r\n$100 BILL IN THERE THAT IS MISSING NOW. TC=10/30/12 17:37:32\r\n
-(Evt/Cmd/Orig (M123040175/D/M1)) EMDC#M123040175LOC=298 SARATOGA AV (D1) @ PRUNERIDGE AV (SC) CTY=SC ADDL=UNION 76 TYPE=STNDBY/NONE CD=2/  MAP=0833-C-7 DETAILS=DO NOT COME FROM PRUNERIDGE ITS CLOSED FROM SARATOGA TO\r\nCYPRESS...40-50OFFICERS FOR AN ARMED 211BANK, POS BARRICADED SUBJ, NO\r\nMEDICAL YET.  1632: MS1 ADVISED TC=10/30/12 16:31:13\r\n
-(Cmd/Orig (AM/EM5)) EMDC#M123040119LOC=4180 NETWORK CL @ LEONARD STOCKING DR (SC) (P) CTY=SC ADDL=NONE TYPE=00/17B1G CD=3/2 MAP=0813-D-5 DETAILS=ORACLE//SUBJ FELL, REQ AMB/NFD    REDUCE M30 TO C2 TC=10/30/12 12:51:53\r\n
-***************************************************************************
+(Cmd/Orig (AM/EM3)) EMDC#M123040190LOC=MS1 CTY= ADDL=>MS1 SAYS LEAVE TYPE=1021/NONE CD=1/  MAP=     DETAILS=RE: MED EVENT 104 FROM THIS AFTERNOON. THE PATIENT CLAIMS THE MEDICS\nWENT THRU HER PURSE TO CHECK FOR HER MEDICAL CARD AND ID AND SHE HAD A\n$100 BILL IN THERE THAT IS MISSING NOW. TC=10/30/12 17:37:32\n(Evt/Cmd/Orig (M123040175/D/M1)) EMDC#M123040175LOC=298 SARATOGA AV (D1) @ PRUNERIDGE AV (SC) CTY=SC ADDL=UNION 76 TYPE=STNDBY/NONE CD=2/  MAP=0833-C-7 DETAILS=DO NOT COME FROM PRUNERIDGE ITS CLOSED FROM SARATOGA TO\nCYPRESS...40-50OFFICERS FOR AN ARMED 211BANK, POS BARRICADED SUBJ, NO\nMEDICAL YET.  1632: MS1 ADVISED TC=10/30/12 16:31:13\n(Cmd/Orig (AM/EM5)) EMDC#M123040119LOC=4180 NETWORK CL @ LEONARD STOCKING DR (SC) (P) CTY=SC ADDL=NONE TYPE=00/17B1G CD=3/2 MAP=0813-D-5 DETAILS=ORACLE//SUBJ FELL, REQ AMB/NFD    REDUCE M30 TO C2 TC=10/30/12 12:51:53\n***************************************************************************
 Sonoma County, CA (CASonomaCountyParser)
 Loc: HWY1/VALLEY FORD ROAD VFR BOX: 3540 TYP:TC CN: CHP LOG # 632 C#: TYPE CODE: TC CALLER NAME: CHP LOG # 632 CALLER ADDR:  TIME: 11:07:31 COM: ** Case n
 Loc: 1320 BAY VIEW ST BBY:@ BODEGA UNION CHURCH BOX: 3433 B3 TYP: GAS-IN CN: BODEGA BAY UNION CHURCH C#: (707)875-3559 TYPE CODE: GAS-IN CALLER NAME: BODEGA
@@ -1650,9 +1629,7 @@ FIRE/RESCUE - DEERFARM/SHIPLEY -
 FIRE/RESCUE - S PALMER ST NOBLE -
 ***************************************************************************
 Winnebago County, IL (ILWinnebagoParser)
-S:HRFD: Med: 687 Marion Rd M: 56 f deleious\n\n
-S:HRFD: Med:9918 Bluebonnet M: 70 M diaahra\n\n
-(HRFD: Med:14244 krotz Dr) m fall victim
+S:HRFD: Med: 687 Marion Rd M: 56 f deleious\n\nS:HRFD: Med:9918 Bluebonnet M: 70 M diaahra\n\n(HRFD: Med:14244 krotz Dr) m fall victim
 (HRFD: Med:6792 Michelle Dr) F Trouble Breathing
 *************************************************************************
 Jackson County, IN (INJacksonCountyParser)
@@ -1680,7 +1657,6 @@ Unit:ST40 UnitSts: Loc:E 400N/100E Venue:RICHLA TWP Inc:Brush Fire Date:10/15/20
 Madison County, IN (INMadisonCountyBParser)
 (CFS) Call Type: Medical Call - BLS   ADDRESS: 222 BEECH ST, Anderson   RD# 224   UNITS:ANM4   INFO:  95 FEMALE / COMPLAINING OF LEG PAIN 
 (CFS) Call Type: Medical Call - BLS   ADDRESS: 1326 FLETCHER ST, Anderson   RD# 509   UNITS:ANM1   INFO:  52 DIABETIC MALE  NOT FEELING WELL  GLUCOSE IS 35 
-
 (CFS) Units: PEA82Call Type: Accident - w/Injuries  Address: 218.8 MM I 69 N   Info:
 (CFS) Units: PEA81Call Type: Accident - w/Injuries  Address: RT 67@ RT 9 , Pendleton   Info:
 (CFS) Units: PE1, PEA81Call Type: Suicide - Attempted or Threatene  Address: 152 W CENTRAL WAY, Pendleton   Info:
@@ -1705,10 +1681,7 @@ Black Hawk County, IA (IABlackHawkCountyParser)
 [] (Dispatch) 12-092660 ALLERGIES/HIVES/STING/MEDREACT \nReported: 09/03/2012 14:41:50 \n6615 LAFAYETTE RD \n4TH ST / 3 RD ST (RA/YMOND RD \nJOE THOME TRUCKING RAYMO\n[] (Dispatch) 12-087578 BURNING COMPLAINT\nReported: 08/21/2012 17:21:39\n504 S 3RD ST\nDUBUQUE / S S CT/\nMARSHALL,DAVID M3407  LID 6661 RAYMOND\n921\n***************************************************************************
 ***************************************************************************
 Jackson County, IA (IAJacksonCountyParser)
-S:Dispatch Center M:11-004602 GENERAL MEDICAL/AMBULANCE\n33618 MILL CREEK RD\n325 AVE / SIEVERDING/RIDGE RD\nBELLEVUE\nBEA1 BEF1\n\n\n
-S:Dispatch Center M:11-004682 GENERAL MEDICAL/AMBULANCE\n208 N 12 ST\nSTATE ST / PARK ST/\nMEDICAL ASSOCIATES OF BELLEVUE  BELLEVUE\nBEA1\n\n\n
-S:Dispatch Center M:11-004692 MOTOR VEH ACCIDENT W/INJURIES\nE 1 ST/ N MAIN ST\nST DONATUS\n49 8 BEA1 BEA2 BEF1\n\n\n
-***************************************************************************
+S:Dispatch Center M:11-004602 GENERAL MEDICAL/AMBULANCE\n33618 MILL CREEK RD\n325 AVE / SIEVERDING/RIDGE RD\nBELLEVUE\nBEA1 BEF1\n\n\nS:Dispatch Center M:11-004682 GENERAL MEDICAL/AMBULANCE\n208 N 12 ST\nSTATE ST / PARK ST/\nMEDICAL ASSOCIATES OF BELLEVUE  BELLEVUE\nBEA1\n\n\nS:Dispatch Center M:11-004692 MOTOR VEH ACCIDENT W/INJURIES\nE 1 ST/ N MAIN ST\nST DONATUS\n49 8 BEA1 BEA2 BEF1\n\n\n***************************************************************************
 Polk County, IA (IAPolkCountyParser)
 .... (Grimes) Location: 500 S JAMES ST GRIM: @SCHOOL - GRIM Type: STILL VEHICLE Caller:  Time: 19:47:24
 .... (Grimes) Location: 101 SE DESTINATION DR GRIMES Type: MEDICAL  Caller: GRIMES FAMILY PHYSICIANS Time: 10:54:07
@@ -1786,10 +1759,7 @@ Carroll County, MD (MDCarrollCountyAParser)
 (Co12) [!] CT:BLS 5584 COMPTON LA SYKE BOX:1214 DUE:X129 [70]
 ***************************************************************************
 Carroll County, MD (MDCarrollCountyBParser)
-(Station 09 ALERT!! (13000193)) \nBLS MEDICAL CALL\n0911\nX99\n1727 REESE RD, Westminster, MD\n
-(Station 09 ALERT!! (13000179)) \nUNCONSCIOUS SUBJECT\n0321\nX99  FR3\nELKS CLUB @538 GORSUCH RD, Westminster, MD\n
-(Station 09 ALERT!! (13000159)) \nALS MEDICAL CALL\n0901\nX99\n9 SHAMROCK CIR, Westminster, MD\n
-***************************************************************************
+(Station 09 ALERT!! (13000193)) \nBLS MEDICAL CALL\n0911\nX99\n1727 REESE RD, Westminster, MD\n(Station 09 ALERT!! (13000179)) \nUNCONSCIOUS SUBJECT\n0321\nX99  FR3\nELKS CLUB @538 GORSUCH RD, Westminster, MD\n(Station 09 ALERT!! (13000159)) \nALS MEDICAL CALL\n0901\nX99\n9 SHAMROCK CIR, Westminster, MD\n***************************************************************************
 Cecil County, MD (MDCecilCountyAParser)
 0833*HEART RELATED*37 LILLIAN CIR*BARNES CORNER RD*HOPEWELL RD*RS*11:04:07*10023098
 0841*SICK PERSON*480 HARRISVILLE RD*THRUWAY DR*WYATT LN*COLO*13:46:15*10023234
@@ -1913,10 +1883,7 @@ Yarmouth, MA (MAYarmouthParser)
  43 MEDINAH DR\n2_West_3\n\nNotes\nDEHYDRATION SHORTNESS OF BREATH
 ***************************************************************************
 Leelaneau County, MI (MILeelaneauCountyParser)
-(CAD Incident Detail for:2012-0000010862) CAD Incident: 2012-00010862\nPhone    : XXXXXXX-XXXX\nName     : XXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nAddress  : 5033 E BLUE SPRUCE LN\nCommunity: LELAND TWP\nESN   : 0503            L   F   E   R\nJurisdctn:\nLo Cross:\nHi Cross:\nSubDivisn:\nLaw   :\nFire  :                 05 09 08 06 03 0\nEMS   :                 02 04 03\nRescue:\n  Disp  :\nSource: CEL\nCaller Address:\n1095 S PIT RD - OMNI SECTOR\n.......................................\nCAD Times: MEDICAL EMERGENCY - PRIORITY\n.......................................\nIncoming Call: 11/10/2012 02:26:32\nCall Created : 11/10/2012 02:26:39\nCreated By: SPUTNAM    Pos:001\nCall Send Time    :       02:28:02\nSent By   : SPUTNAM    Action: D\nCall Dispatch Time:       02:29:26\nCall Enroute Time :       02:29:50\nCall Arrival Time :       00:00:00\nCall Clear Time   :       00:00:00\nCall Closed   :00/00/0000 00:00:00\nEvent : MED2    2      Language:\nLaw   :\nFire  :\nEMS   :            1BLS 1ALS\nRescue:\n\n[No Directions Found]\n\n\n[MSAG INFORMATION]\nMap:              \r\n Grid: 503  -000\n\n[No Hydrant Information Found]\n.......................................\nUNIT   DPT STATUS/DISP    DATE    TIME\nLOCATION/REMARK                    USER\n.......................................\nSH22   L01 DSP            11/10 02:29:26\n                                   MANSO\nSH29   L01 DSP            11/10 02:29:33\nHOMESTEAD                          MANSO\nSH29   L01 ENR            11/10 02:29:50\n                                   MANSO\nSH22   L01 ENR            11/10 02:29:54\n                                   MANSO\nLDE    E02 DSP            11/10 02:32:15\n                                   SPUTN\n\r\n
-(CAD Incident Detail for:2012-0000010797) CAD Incident: 2012-00010797\nPhone    : XXXXXXX-XXXX\nName     : XXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nAddress  : 1862 N LAKE LEELANAU DR\nCommunity: LELAND TWP\nESN   : 0502            L   F   E   R\nJurisdctn:\nLo Cross:\nHi Cross:\nSubDivisn:\nLaw   :\nFire  :                 05 09 06 08 01 0\nEMS   :                 02 04 03\nRescue:\n  Disp  :\nSource: 911\n.......................................\nCAD Times: PROQA MED\n.......................................\nIncoming Call: 11/08/2012 15:18:27\nCall Created : 11/08/2012 15:18:29\nCreated By: WMORTON    Pos:002\nCall Send Time    :       15:18:53\nSent By   : WMORTON    Action:\nCall Dispatch Time:       15:19:02\nCall Enroute Time :       00:00:00\nCall Arrival Time :       00:00:00\nCall Clear Time   :       00:00:00\nCall Closed   :00/00/0000 00:00:00\nEvent : MED     1      Language:\nLaw   :\nFire  :\nEMS   : MED\nRescue:\n\n[No Directions Found]\n\n\n[MSAG INFORMATION]\nMap:               Grid: 502  -000\n\n[No Hydrant Information \r\nFound]\n.......................................\nUNIT   DPT STATUS/DISP    DATE    TIME\nLOCATION/REMARK                    USER\n.......................................\nLDE    E02 DSP            11/08 15:19:02\n                                   WMORT\n\r\n
-(CAD Incident Detail for:2012-0000010776) CAD Incident: 2012-00010776\nPhone    : XXXXXXX-XXXX\nName     : XXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nAddress  : 108 W HILL ST\nCommunity: LELAND TWP\nESN   : 0505            L   F   E   R\nJurisdctn:\nLo Cross:\nHi Cross:\nSubDivisn:\nLaw   :\nFire  :                 05 09 06 08 03 0\nEMS   :                 02 04 03\nRescue:\n  Disp  :\nSource: 911\n.......................................\nCAD Times: FIRE - GAS LEAK\n.......................................\nIncoming Call: 11/07/2012 19:49:19\nCall Created : 11/07/2012 19:49:22\nCreated By: WMORTON    Pos:003\nCall Send Time    :       19:50:03\nSent By   : WMORTON    Action:\nCall Dispatch Time:       19:52:02\nCall Enroute Time :       00:00:00\nCall Arrival Time :       00:00:00\nCall Clear Time   :       00:00:00\nCall Closed   :00/00/0000 00:00:00\nEvent : FIREGA  1      Language:\nLaw   :\nFire  :\nEMS   :\nRescue:\n\n[No Directions Found]\n\n\n[MSAG INFORMATION]\nMap:               Grid: 505  -000\n\n[No Hydrant Information \r\nFound]\n.......................................\nUNIT   DPT STATUS/DISP    DATE    TIME\nLOCATION/REMARK                    USER\n.......................................\nLDF511 F05 DSP            11/07 19:52:00\n                                   WMORT\nLDE591 E02 DSP            11/07 19:52:00\n                                   WMORT\nLDF512 F05 DSP            11/07 19:52:00\n                                   WMORT\nSBF911 F09 DSP            11/07 19:52:00\n                                   WMORT\nLDF581 F05 DSP            11/07 19:52:01\n                                   WMORT\nLDF521 F05 DSP            11/07 19:52:01\n                                   WMORT\nLDF522 F05 DSP            11/07 19:52:01\n                                   WMORT\nLDF551 F05 DSP            11/07 19:52:02\n                                   WMORT\n\r\n
-***************************************************************************
+(CAD Incident Detail for:2012-0000010862) CAD Incident: 2012-00010862\nPhone    : XXXXXXX-XXXX\nName     : XXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nAddress  : 5033 E BLUE SPRUCE LN\nCommunity: LELAND TWP\nESN   : 0503            L   F   E   R\nJurisdctn:\nLo Cross:\nHi Cross:\nSubDivisn:\nLaw   :\nFire  :                 05 09 08 06 03 0\nEMS   :                 02 04 03\nRescue:\n  Disp  :\nSource: CEL\nCaller Address:\n1095 S PIT RD - OMNI SECTOR\n.......................................\nCAD Times: MEDICAL EMERGENCY - PRIORITY\n.......................................\nIncoming Call: 11/10/2012 02:26:32\nCall Created : 11/10/2012 02:26:39\nCreated By: SPUTNAM    Pos:001\nCall Send Time    :       02:28:02\nSent By   : SPUTNAM    Action: D\nCall Dispatch Time:       02:29:26\nCall Enroute Time :       02:29:50\nCall Arrival Time :       00:00:00\nCall Clear Time   :       00:00:00\nCall Closed   :00/00/0000 00:00:00\nEvent : MED2    2      Language:\nLaw   :\nFire  :\nEMS   :            1BLS 1ALS\nRescue:\n\n[No Directions Found]\n\n\n[MSAG INFORMATION]\nMap:              \n Grid: 503  -000\n\n[No Hydrant Information Found]\n.......................................\nUNIT   DPT STATUS/DISP    DATE    TIME\nLOCATION/REMARK                    USER\n.......................................\nSH22   L01 DSP            11/10 02:29:26\n                                   MANSO\nSH29   L01 DSP            11/10 02:29:33\nHOMESTEAD                          MANSO\nSH29   L01 ENR            11/10 02:29:50\n                                   MANSO\nSH22   L01 ENR            11/10 02:29:54\n                                   MANSO\nLDE    E02 DSP            11/10 02:32:15\n                                   SPUTN\n\n(CAD Incident Detail for:2012-0000010797) CAD Incident: 2012-00010797\nPhone    : XXXXXXX-XXXX\nName     : XXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nAddress  : 1862 N LAKE LEELANAU DR\nCommunity: LELAND TWP\nESN   : 0502            L   F   E   R\nJurisdctn:\nLo Cross:\nHi Cross:\nSubDivisn:\nLaw   :\nFire  :                 05 09 06 08 01 0\nEMS   :                 02 04 03\nRescue:\n  Disp  :\nSource: 911\n.......................................\nCAD Times: PROQA MED\n.......................................\nIncoming Call: 11/08/2012 15:18:27\nCall Created : 11/08/2012 15:18:29\nCreated By: WMORTON    Pos:002\nCall Send Time    :       15:18:53\nSent By   : WMORTON    Action:\nCall Dispatch Time:       15:19:02\nCall Enroute Time :       00:00:00\nCall Arrival Time :       00:00:00\nCall Clear Time   :       00:00:00\nCall Closed   :00/00/0000 00:00:00\nEvent : MED     1      Language:\nLaw   :\nFire  :\nEMS   : MED\nRescue:\n\n[No Directions Found]\n\n\n[MSAG INFORMATION]\nMap:               Grid: 502  -000\n\n[No Hydrant Information \nFound]\n.......................................\nUNIT   DPT STATUS/DISP    DATE    TIME\nLOCATION/REMARK                    USER\n.......................................\nLDE    E02 DSP            11/08 15:19:02\n                                   WMORT\n\n(CAD Incident Detail for:2012-0000010776) CAD Incident: 2012-00010776\nPhone    : XXXXXXX-XXXX\nName     : XXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nAddress  : 108 W HILL ST\nCommunity: LELAND TWP\nESN   : 0505            L   F   E   R\nJurisdctn:\nLo Cross:\nHi Cross:\nSubDivisn:\nLaw   :\nFire  :                 05 09 06 08 03 0\nEMS   :                 02 04 03\nRescue:\n  Disp  :\nSource: 911\n.......................................\nCAD Times: FIRE - GAS LEAK\n.......................................\nIncoming Call: 11/07/2012 19:49:19\nCall Created : 11/07/2012 19:49:22\nCreated By: WMORTON    Pos:003\nCall Send Time    :       19:50:03\nSent By   : WMORTON    Action:\nCall Dispatch Time:       19:52:02\nCall Enroute Time :       00:00:00\nCall Arrival Time :       00:00:00\nCall Clear Time   :       00:00:00\nCall Closed   :00/00/0000 00:00:00\nEvent : FIREGA  1      Language:\nLaw   :\nFire  :\nEMS   :\nRescue:\n\n[No Directions Found]\n\n\n[MSAG INFORMATION]\nMap:               Grid: 505  -000\n\n[No Hydrant Information \nFound]\n.......................................\nUNIT   DPT STATUS/DISP    DATE    TIME\nLOCATION/REMARK                    USER\n.......................................\nLDF511 F05 DSP            11/07 19:52:00\n                                   WMORT\nLDE591 E02 DSP            11/07 19:52:00\n                                   WMORT\nLDF512 F05 DSP            11/07 19:52:00\n                                   WMORT\nSBF911 F09 DSP            11/07 19:52:00\n                                   WMORT\nLDF581 F05 DSP            11/07 19:52:01\n                                   WMORT\nLDF521 F05 DSP            11/07 19:52:01\n                                   WMORT\nLDF522 F05 DSP            11/07 19:52:01\n                                   WMORT\nLDF551 F05 DSP            11/07 19:52:02\n                                   WMORT\n\n***************************************************************************
 Midland County, MI (MIMidlandCountyParser)
 (CAD Page for CFS M101512-29) BUS : \nADDX: W BURNS RD and N CASTOR RD APT: \nCODE: TRAFFIC ACCIDENT\nhttp://maps.google.com/maps?q=+43.72719%20-84.48703
 (CAD Page for CFS M101412-41) BUS : \nADDX: 8405 S EBERHART APT: \nCODE: HOUSE FIRE\nhttp://maps.google.com/maps?q=+-1.00000%20--1.00000
@@ -2066,11 +2033,7 @@ EMS E EMS Call Loc: 4 THORNHILL LA Ven: Willingbor XS: TYLER DR/TREBING LA Natur
 EMS E EMS Call Loc: 15 BLUEBERRY LA Ven: Willingbor XS: BABBITT LA/BRADFORD LA Nature: 7MT PREGNANT /FALL VICTIM/SPOTTING 08:42:37 06/27/2012
 ***************************************************************************
 Burlington County, NJ (NJBurlingtonCountyGParser)
-[] 22:41:04\n2012-00000107\nFIRE F Fire Call\n172 NAHMA TR\nCONAWAGA TR/CAYUSE TR\nSMELL OF SMOKE FROM BACK YARD\n3711\n
-[] 14:48:13\n2012-00001094\nEMS E EMS Call\n650 TABERNACLE RD\nBEAR HEAD RD/TABERNACLE TWP LI\nMOTORCYCLE VS VEH MVA\n2510\n
-[] 19:42:31\n2012-00000154\n132 E UnkMedEmrg\n110 NOKOMIS TR\nMISHE MOKWA TR/KAWESEA TR\n74F PAIN TO LEG UNABLE TO STAN\n3711\n
-[] 21:04:44\n2012-00000112\n44 F Wires\n81 OSWEGO TR\nHIAWATHA TR/NANTUCKET TR\nPOSS. ELECTRICAL SURGE IN RES.\n3711\n
-***************************************************************************
+[] 22:41:04\n2012-00000107\nFIRE F Fire Call\n172 NAHMA TR\nCONAWAGA TR/CAYUSE TR\nSMELL OF SMOKE FROM BACK YARD\n3711\n[] 14:48:13\n2012-00001094\nEMS E EMS Call\n650 TABERNACLE RD\nBEAR HEAD RD/TABERNACLE TWP LI\nMOTORCYCLE VS VEH MVA\n2510\n[] 19:42:31\n2012-00000154\n132 E UnkMedEmrg\n110 NOKOMIS TR\nMISHE MOKWA TR/KAWESEA TR\n74F PAIN TO LEG UNABLE TO STAN\n3711\n[] 21:04:44\n2012-00000112\n44 F Wires\n81 OSWEGO TR\nHIAWATHA TR/NANTUCKET TR\nPOSS. ELECTRICAL SURGE IN RES.\n3711\n***************************************************************************
 Camden County, NJ (NJCamdenCountyAParser)
 (Dispatch SD45) DWELLING\n312 9TH ST ,14\n#:\nX:CENTER/CHERRY\nZN:14A\nCP:  2011-03-31 10:44:12\nMI#:110073123\nRES#:SD45
 (Dispatch SD45) M.V.A\nROUTE 295 SB RAMP TO 76 SB ALJO CUR ,04\n#:\nX:/\nZN:04Q\nCP:ROUTE 295 SB RAMP T  2011-03-31 09:06:36\nMI#:110073062 
@@ -2102,10 +2065,7 @@ Hunterdon County, NJ (Flemington)
 49FD:SMOKE L3: (49)WALGREENS / 29 STATE HWY NO 31 NEAR: CHURCH ST TO RARITAN TWP LINE 12002674: BAD SMELL OF SMOKE COMING OUT OF VENTS
 ***************************************************************************
 Mercer County, NJ (NJMercerCountyParser)
-UNIT: 794 ; CALL: Seizures - ALS ; PLACE: MC Junior Senior Hig; ADDR: 1050 Edinburg Rd ; BLDG: ; APT: ; CITY: Hamilton ; XSTREETS: Hughes Dr/Dead End ; ID: 11132012-0051953 ; DATE: 11/13; TIME: 12:55; (msg11)\r\n
-UNIT: 793 ; CALL: Trauma - ALS ; PLACE: ; ADDR: 23 Bittner Rd ; BLDG: ; APT: ; CITY: Millstone (So) ; XSTREETS: Dead End/Robbins Rd ; ID: 11132012-0051957 ; DATE: 11/13; TIME: 13:37; (msg11)\r\n
-UNIT: 793 ; CALL: Stroke/CVA - ALS ; PLACE: ARCADIA NURSING HOME; ADDR: 1503 State Hwy 33 ; BLDG: ; APT: 221B ; CITY: Hamilton ; XSTREETS: Endicott Rd/Crest Ave ; ID: 11132012-0051950 ; DATE: 11/13; TIME: 12:30; (msg11)\r\n
-***************************************************************************
+UNIT: 794 ; CALL: Seizures - ALS ; PLACE: MC Junior Senior Hig; ADDR: 1050 Edinburg Rd ; BLDG: ; APT: ; CITY: Hamilton ; XSTREETS: Hughes Dr/Dead End ; ID: 11132012-0051953 ; DATE: 11/13; TIME: 12:55; (msg11)\nUNIT: 793 ; CALL: Trauma - ALS ; PLACE: ; ADDR: 23 Bittner Rd ; BLDG: ; APT: ; CITY: Millstone (So) ; XSTREETS: Dead End/Robbins Rd ; ID: 11132012-0051957 ; DATE: 11/13; TIME: 13:37; (msg11)\nUNIT: 793 ; CALL: Stroke/CVA - ALS ; PLACE: ARCADIA NURSING HOME; ADDR: 1503 State Hwy 33 ; BLDG: ; APT: 221B ; CITY: Hamilton ; XSTREETS: Endicott Rd/Crest Ave ; ID: 11132012-0051950 ; DATE: 11/13; TIME: 12:30; (msg11)\n***************************************************************************
 Monmouth County, NJ (NJMonmouthCountyBParser)
 (mCAD) [!] FIRA F FIRE ALARM | 21 LASATTA AV | X-ST: | BULIDING 700//SPRINKLER ROOM SMOKE DETECTOR | 08:22:17 | 02/17/2012
 (mCAD) [!] FIRA F FIRE ALARM | 4189 N RT 9 | X-ST: RT 522/SCHIBANOFF RD | BUSN: BROCK FARMS // ZONE: GENERAL | 15:30:16 | 01/26/2012
@@ -2354,10 +2314,7 @@ Cumberland County, NC (NCCumberlandCountyParser)
 [S]  (N)C4;01/27/2011 17:08:27;UNKNOWN STATUS TRAFFIC ACCIDEN;ST22;670 LILLINGTON HWY;HOLLAND DR;WALMART
 ***************************************************************************
 Davidson County, NC (NCDavidsonCountyBParser)
-(Dispatch Report Incident #2012231432) Dispatch\r\nCommunications\r\nAddress:\r\nCross:\r\n160 LOWES BLVD\r\nCOTTON GROVE RD\r\nFAIRVIEW DR\r\nNature:\r\nP31â€‘UNCONSCIOUS/FAINTINGâ€‘ALPHA\r\nMP:\r\n31A03\r\nDate:\r\n10/29/12\r\nTime Out:\r\n21:39\r\nCity:\r\nLEX\r\n10/29/2012 14:47 1086 â€‘ LARCENY/SHOPLIFTING\r\n10/29/2012 09:37 1086 â€‘ LARCENY/SHOPLIFTING\r\n10/28/2012 16:27 1037â€‘DISTURBANCE\r\n10/28/2012 13:25 50PDâ€‘MOTOR VEH/PD ONLY\r\n10/28/2012 13:24 50PDâ€‘MOTOR VEH/PD ONLY\r\n10/28/2012 12:34 FORGERY/FRAUD\r\n10/27/2012 17:00 1086 â€‘ LARCENY/SHOPLIFTING\r\n10/27/2012 15:09 1063â€‘INVESTIGATE/SUPPLEMENTAL\r\n10/27/2012 12:22 1063â€‘INVESTIGATE/SUPPLEMENTAL\r\n10/26/2012 23:22 1037â€‘DISTURBANCE\r\nNOTIFICATION OF THE HEALTH DEPT. MAY BE NEEDED AND\r\nREQUESTED BY THE FIRE DEPT.HERE IS THE CALL ORDER IF SUCH A\r\nREQUEST IS MADE.\r\n1.  JOHN HENDREN  240â€‘0246\r\n2.  GREG HENNESSEE  787â€‘3690 OR 240â€‘0263\r\n3.  ANGELA PINYAN  775â€‘1071 OR 749â€‘3756\r\n4.  LILLIAN BARFIELD 252â€‘299â€‘0609\r\n5.  DEBRA HARMON 250â€‘9147\r\n6.  IF CAN`T GET ANYONE ABOVE CALL 242â€‘2310,\r\n     LEAVE A MESSAGE AND IT WILL ALERT ONâ€‘CALL\r\nHot Spot:\r\nPremise:\r\nWALMART\r\nBusiness:\r\nAddt Address:\r\n3364030812\r\n[Medical Priority Info] PROBLEM: employee feels faint   # PATS: 1   AGE: 21\r\nSEX: Male   CONSCIOUS: Yes   BREATHING: Yes  [10/29/12 21:38:51\r\nJGRUBB]\r\n[Medical Priority Info] RESPONSE: Alpha RESPONDER SCRIPT: Fainting\r\nepisode(s) and alert < 35 (without cardiac history).\r\n1. His breathing is completely normal.\r\n2. He is completely alert (responding appropriately).\r\n3. He is not changing color.\r\n4. He has no history of heart problems.  [10/29/12 21:39:16 JGRUBB]\r\nNotes:\r\nDispatch\r\nCommunications\r\nM10, TK62\r\nCITY OF LEXINGTON\r\nUnits:\r\nStreet Notes:\r\nEND\r\n\r\n________________________________\r\nIf you are not the intended recipient, you must destroy this message and inform the sender immediately. This electronic mail message and any attachments, as well as any electronic mail message(s) sent in response to it may be considered public record and as such subject to request and review by anyone at any time. It also may contain information which is confidential within the meaning of applicable federal and state laws.\r\n\r\nDavidson County Government, PO Box 1067, Lexington, NC, USA, www.co.davidson.nc.us\r\n
-(Dispatch Report Incident #2012231406) Dispatch\r\nCommunications\r\nAddress:\r\nCross:\r\n250 HOSPITAL DR\r\nW MEDICAL PARK DR\r\nNature:\r\nP33Aâ€‘TRANSFER/INTERFACâ€‘ALPHA\r\nDate:\r\n10/29/12\r\nTime Out:\r\n20:55\r\nCity:\r\nLEX\r\n10/29/2012 08:11 1063â€‘INVESTIGATE/SUPPLEMENTAL\r\n10/28/2012 16:55 1063â€‘INVESTIGATE/SUPPLEMENTAL\r\n10/28/2012 15:02 1086 â€‘ LARCENY/SHOPLIFTING\r\n10/28/2012 12:11 1073â€‘MENTAL SUBJECT\r\n10/28/2012 10:48 1073â€‘MENTAL SUBJECT\r\n10/28/2012 04:33 1063â€‘INVESTIGATE/SUPPLEMENTAL\r\n10/28/2012 01:00 1037â€‘DISTURBANCE\r\n10/26/2012 22:25 1073â€‘MENTAL SUBJECT\r\n10/26/2012 16:21 1073â€‘MENTAL SUBJECT\r\nNOTIFICATION OF THE HEALTH DEPT. MAY BE NEEDED AND\r\nREQUESTED BY THE FIRE DEPT.HERE IS THE CALL ORDER IF SUCH A\r\nREQUEST IS MADE.\r\n1.  JOHN HENDREN  240â€‘0246\r\n2.  GREG HENNESSEE  787â€‘3690 OR 240â€‘0263\r\n3.  ANGELA PINYAN  775â€‘1071 OR 749â€‘3756\r\n4.  LILLIAN BARFIELD 252â€‘299â€‘0609\r\n5.  DEBRA HARMON 250â€‘9147\r\n6.  IF CAN`T GET ANYONE ABOVE CALL 242â€‘2310,\r\n     LEAVE A MESSAGE AND IT WILL ALERT ONâ€‘CALL\r\nM11\r\nHot Spot:\r\nPremise:\r\nUnits:\r\nLMC LEXINGTON MEDICAL CENTER\r\nBusiness:\r\nAddt Address:\r\nICU 641\r\nGOING TO NCBH CCU BED 4, IV, O2, MONITOR  [10/29/12 20:52:14 JCOX]\r\nNotes:\r\nEND\r\n\r\n________________________________\r\nIf you are not the intended recipient, you must destroy this message and inform the sender immediately. This electronic mail message and any attachments, as well as any electronic mail message(s) sent in response to it may be considered public record and as such subject to request and review by anyone at any time. It also may contain information which is confidential within the meaning of applicable federal and state laws.\r\n\r\nDavidson County Government, PO Box 1067, Lexington, NC, USA, www.co.davidson.nc.us\r\n
-(Dispatch Report Incident #2012231334) Dispatch\r\nCommunications\r\nAddress:\r\nCross:\r\n17 CORNELIA ST\r\nN TALBERT BLVD\r\nRALEIGH RD\r\nNature:\r\nP31â€‘UNCONSCIOUS/FAINTINGâ€‘DELTA\r\nMP:\r\n31D03\r\nDate:\r\n10/29/12\r\nTime Out:\r\n18:36\r\nCity:\r\nLEX\r\nNOTIFICATION OF THE HEALTH DEPT. MAY BE NEEDED AND\r\nREQUESTED BY THE FIRE DEPT.HERE IS THE CALL ORDER IF SUCH A\r\nREQUEST IS MADE.\r\n1.  JOHN HENDREN  240â€‘0246\r\n2.  GREG HENNESSEE  787â€‘3690 OR 240â€‘0263\r\n3.  ANGELA PINYAN  775â€‘1071 OR 749â€‘3756\r\n4.  LILLIAN BARFIELD 252â€‘299â€‘0609\r\n5.  DEBRA HARMON 250â€‘9147\r\n6.  IF CAN`T GET ANYONE ABOVE CALL 242â€‘2310,\r\n     LEAVE A MESSAGE AND IT WILL ALERT ONâ€‘CALL\r\nM10, ST6B\r\nCITY OF LEXINGTON\r\nPremise:\r\nUnits:\r\nStreet Notes:\r\nLEXINGTON HEALTH CARE\r\nBusiness:\r\nAddt Address:\r\n3RD HUNT\r\n[Medical Priority Info] PROBLEM: patient changes in level of conciousness   #\r\nPATS: 1   AGE: 78   SEX: Female   CONSCIOUS: Yes   BREATHING: Yes\r\n[10/29/12 18:36:21 JGRUBB]\r\n[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: Not alert.\r\n1. Her breathing is not completely normal.\r\n2. She is not completely alert (not responding appropriately).\r\n3. She is changing color.\r\n4. Her color change is pale.  [10/29/12 18:36:36 JGRUBB]\r\n[Medical Priority Info] Key Questions Complete RESPONSE: Delta\r\nRESPONDER SCRIPT:\r\n5. She has a history of heart problems.  [10/29/12 18:36:42 JGRUBB]\r\nNotes:\r\nEND\r\n\r\n________________________________\r\nIf you are not the intended recipient, you must destroy this message and inform the sender immediately. This electronic mail message and any attachments, as well as any electronic mail message(s) sent in response to it may be considered public record and as such subject to request and review by anyone at any time. It also may contain information which is confidential within the meaning of applicable federal and state laws.\r\n\r\nDavidson County Government, PO Box 1067, Lexington, NC, USA, www.co.davidson.nc.us\r\n
-***************************************************************************
+(Dispatch Report Incident #2012231432) Dispatch\nCommunications\nAddress:\nCross:\n160 LOWES BLVD\nCOTTON GROVE RD\nFAIRVIEW DR\nNature:\nP31â€‘UNCONSCIOUS/FAINTINGâ€‘ALPHA\nMP:\n31A03\nDate:\n10/29/12\nTime Out:\n21:39\nCity:\nLEX\n10/29/2012 14:47 1086 â€‘ LARCENY/SHOPLIFTING\n10/29/2012 09:37 1086 â€‘ LARCENY/SHOPLIFTING\n10/28/2012 16:27 1037â€‘DISTURBANCE\n10/28/2012 13:25 50PDâ€‘MOTOR VEH/PD ONLY\n10/28/2012 13:24 50PDâ€‘MOTOR VEH/PD ONLY\n10/28/2012 12:34 FORGERY/FRAUD\n10/27/2012 17:00 1086 â€‘ LARCENY/SHOPLIFTING\n10/27/2012 15:09 1063â€‘INVESTIGATE/SUPPLEMENTAL\n10/27/2012 12:22 1063â€‘INVESTIGATE/SUPPLEMENTAL\n10/26/2012 23:22 1037â€‘DISTURBANCE\nNOTIFICATION OF THE HEALTH DEPT. MAY BE NEEDED AND\nREQUESTED BY THE FIRE DEPT.HERE IS THE CALL ORDER IF SUCH A\nREQUEST IS MADE.\n1.  JOHN HENDREN  240â€‘0246\n2.  GREG HENNESSEE  787â€‘3690 OR 240â€‘0263\n3.  ANGELA PINYAN  775â€‘1071 OR 749â€‘3756\n4.  LILLIAN BARFIELD 252â€‘299â€‘0609\n5.  DEBRA HARMON 250â€‘9147\n6.  IF CAN`T GET ANYONE ABOVE CALL 242â€‘2310,\n     LEAVE A MESSAGE AND IT WILL ALERT ONâ€‘CALL\nHot Spot:\nPremise:\nWALMART\nBusiness:\nAddt Address:\n3364030812\n[Medical Priority Info] PROBLEM: employee feels faint   # PATS: 1   AGE: 21\nSEX: Male   CONSCIOUS: Yes   BREATHING: Yes  [10/29/12 21:38:51\nJGRUBB]\n[Medical Priority Info] RESPONSE: Alpha RESPONDER SCRIPT: Fainting\nepisode(s) and alert < 35 (without cardiac history).\n1. His breathing is completely normal.\n2. He is completely alert (responding appropriately).\n3. He is not changing color.\n4. He has no history of heart problems.  [10/29/12 21:39:16 JGRUBB]\nNotes:\nDispatch\nCommunications\nM10, TK62\nCITY OF LEXINGTON\nUnits:\nStreet Notes:\nEND\n\n________________________________\nIf you are not the intended recipient, you must destroy this message and inform the sender immediately. This electronic mail message and any attachments, as well as any electronic mail message(s) sent in response to it may be considered public record and as such subject to request and review by anyone at any time. It also may contain information which is confidential within the meaning of applicable federal and state laws.\n\nDavidson County Government, PO Box 1067, Lexington, NC, USA, www.co.davidson.nc.us\n(Dispatch Report Incident #2012231406) Dispatch\nCommunications\nAddress:\nCross:\n250 HOSPITAL DR\nW MEDICAL PARK DR\nNature:\nP33Aâ€‘TRANSFER/INTERFACâ€‘ALPHA\nDate:\n10/29/12\nTime Out:\n20:55\nCity:\nLEX\n10/29/2012 08:11 1063â€‘INVESTIGATE/SUPPLEMENTAL\n10/28/2012 16:55 1063â€‘INVESTIGATE/SUPPLEMENTAL\n10/28/2012 15:02 1086 â€‘ LARCENY/SHOPLIFTING\n10/28/2012 12:11 1073â€‘MENTAL SUBJECT\n10/28/2012 10:48 1073â€‘MENTAL SUBJECT\n10/28/2012 04:33 1063â€‘INVESTIGATE/SUPPLEMENTAL\n10/28/2012 01:00 1037â€‘DISTURBANCE\n10/26/2012 22:25 1073â€‘MENTAL SUBJECT\n10/26/2012 16:21 1073â€‘MENTAL SUBJECT\nNOTIFICATION OF THE HEALTH DEPT. MAY BE NEEDED AND\nREQUESTED BY THE FIRE DEPT.HERE IS THE CALL ORDER IF SUCH A\nREQUEST IS MADE.\n1.  JOHN HENDREN  240â€‘0246\n2.  GREG HENNESSEE  787â€‘3690 OR 240â€‘0263\n3.  ANGELA PINYAN  775â€‘1071 OR 749â€‘3756\n4.  LILLIAN BARFIELD 252â€‘299â€‘0609\n5.  DEBRA HARMON 250â€‘9147\n6.  IF CAN`T GET ANYONE ABOVE CALL 242â€‘2310,\n     LEAVE A MESSAGE AND IT WILL ALERT ONâ€‘CALL\nM11\nHot Spot:\nPremise:\nUnits:\nLMC LEXINGTON MEDICAL CENTER\nBusiness:\nAddt Address:\nICU 641\nGOING TO NCBH CCU BED 4, IV, O2, MONITOR  [10/29/12 20:52:14 JCOX]\nNotes:\nEND\n\n________________________________\nIf you are not the intended recipient, you must destroy this message and inform the sender immediately. This electronic mail message and any attachments, as well as any electronic mail message(s) sent in response to it may be considered public record and as such subject to request and review by anyone at any time. It also may contain information which is confidential within the meaning of applicable federal and state laws.\n\nDavidson County Government, PO Box 1067, Lexington, NC, USA, www.co.davidson.nc.us\n(Dispatch Report Incident #2012231334) Dispatch\nCommunications\nAddress:\nCross:\n17 CORNELIA ST\nN TALBERT BLVD\nRALEIGH RD\nNature:\nP31â€‘UNCONSCIOUS/FAINTINGâ€‘DELTA\nMP:\n31D03\nDate:\n10/29/12\nTime Out:\n18:36\nCity:\nLEX\nNOTIFICATION OF THE HEALTH DEPT. MAY BE NEEDED AND\nREQUESTED BY THE FIRE DEPT.HERE IS THE CALL ORDER IF SUCH A\nREQUEST IS MADE.\n1.  JOHN HENDREN  240â€‘0246\n2.  GREG HENNESSEE  787â€‘3690 OR 240â€‘0263\n3.  ANGELA PINYAN  775â€‘1071 OR 749â€‘3756\n4.  LILLIAN BARFIELD 252â€‘299â€‘0609\n5.  DEBRA HARMON 250â€‘9147\n6.  IF CAN`T GET ANYONE ABOVE CALL 242â€‘2310,\n     LEAVE A MESSAGE AND IT WILL ALERT ONâ€‘CALL\nM10, ST6B\nCITY OF LEXINGTON\nPremise:\nUnits:\nStreet Notes:\nLEXINGTON HEALTH CARE\nBusiness:\nAddt Address:\n3RD HUNT\n[Medical Priority Info] PROBLEM: patient changes in level of conciousness   #\nPATS: 1   AGE: 78   SEX: Female   CONSCIOUS: Yes   BREATHING: Yes\n[10/29/12 18:36:21 JGRUBB]\n[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: Not alert.\n1. Her breathing is not completely normal.\n2. She is not completely alert (not responding appropriately).\n3. She is changing color.\n4. Her color change is pale.  [10/29/12 18:36:36 JGRUBB]\n[Medical Priority Info] Key Questions Complete RESPONSE: Delta\nRESPONDER SCRIPT:\n5. She has a history of heart problems.  [10/29/12 18:36:42 JGRUBB]\nNotes:\nEND\n\n________________________________\nIf you are not the intended recipient, you must destroy this message and inform the sender immediately. This electronic mail message and any attachments, as well as any electronic mail message(s) sent in response to it may be considered public record and as such subject to request and review by anyone at any time. It also may contain information which is confidential within the meaning of applicable federal and state laws.\n\nDavidson County Government, PO Box 1067, Lexington, NC, USA, www.co.davidson.nc.us\n***************************************************************************
 Davie County, NC (NCDavieCountyParser)
 911:Call #110619-2932* Address:866 ANGELL RD* * * City:MOCKSVILLE* * Type:HC* HAZARDOUS CONDITION* HILL JOEL* PH#:336-940-2303* Units:17* IRA:* Medical: No* Haza.
 911:Call #110622-3347* Address:2388 LIBERTY CHURCH RD* * * City:MOCKSVILLE* * Type:19D4* HEART PROBLEMS* HALL GENE* PH#:336-492-5114* Units:17,34,ST4,YC24* IRA:*
@@ -2448,10 +2405,7 @@ Paging: Location= 557 US 221A HWY*\nAPT/ROOM* City=Forest City* Call \nType= FIR
 Paging: Location= 140 WALKER DR*\nAPT/ROOM* City=Forest City* Call \nType= FIRE ILLEGAL* Units=SMFD1*\nApr23,3:53am
 ***************************************************************************
 Surry County, NC (NCSurryCountyParser)
-[] SC911::Call #120627-0079 [Address] 112 SOLO LN [X St] PEACE HAVEN CIR TO DEADEND [Type] ASST PATIENT\n
-[] SC911::Call #120627-0206 [Address] 587 N FRANKLIN RD [X St] TO [Type] CARDIAC\n
-[] SC911::Call #120627-0221 [Address] 297 MAPLE HOLLOW RD [X St] MARK ST TO LYNN ST [Type] DIABETIC D\n
-***************************************************************************
+[] SC911::Call #120627-0079 [Address] 112 SOLO LN [X St] PEACE HAVEN CIR TO DEADEND [Type] ASST PATIENT\n[] SC911::Call #120627-0206 [Address] 587 N FRANKLIN RD [X St] TO [Type] CARDIAC\n[] SC911::Call #120627-0221 [Address] 297 MAPLE HOLLOW RD [X St] MARK ST TO LYNN ST [Type] DIABETIC D\n***************************************************************************
 Union County, NC (NCUnionCountyParser)
 CAD:5413 MONROE ANSONVILLE RD;CHEST PAIN EMD;S09;B-CF2;CLARK ST;ANSONVILLE RD;01/26/2011 05:41:48
 CAD:226 S MAIN ST;GATEWOOD VILLAGE;FIRE ALARM EFD;S09;B2;HINSON ST;GOODWILL LN;01/16/2011 14:04:24
@@ -2567,10 +2521,7 @@ FMALS-MEDIC AL Location: 378 WINDING TRL LAMPLIGHTER PL, WOODLAND DR / HELEN AVE
 FGRA-GRASS/FIELD Location: 731 HOOK RD OLD HOOK RD / S BICKETT RD XENIA TWP Time: 11:52 Units:  Common Name
 *******************************************************************************
 Love County, OK (OKLoveCountyParser)
-(NEWOCC #OUTS  ANML - Animal Complaint) NEWOCC #OUTS  ANML - Animal Complaint\nAddress: 602 S 4TH AVE, MARIETTA\nReporting Person: TIME GILLEY, Phone: 812-2050\nDetail: BLK AND TAN DOG RUNNING LOOSE IN THIER YARD THEY HAVE IT CAUGHT ON FRONT PORCH\n
-(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\nAddress: V  alero - MARIETTA\nINCIDENT IN PROGRESS\nReporting Person: , Phone: \nDetail: TC- BF1K295\n
-(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\nAddress: Hwy 77/ Mill, MARIETTA\nINCIDENT IN PROGRESS\nReporting Person: , Phone: \nDetail: 518GSD\r\n
-*******************************************************************************
+(NEWOCC #OUTS  ANML - Animal Complaint) NEWOCC #OUTS  ANML - Animal Complaint\nAddress: 602 S 4TH AVE, MARIETTA\nReporting Person: TIME GILLEY, Phone: 812-2050\nDetail: BLK AND TAN DOG RUNNING LOOSE IN THIER YARD THEY HAVE IT CAUGHT ON FRONT PORCH\n(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\nAddress: V  alero - MARIETTA\nINCIDENT IN PROGRESS\nReporting Person: , Phone: \nDetail: TC- BF1K295\n(NEWOCC #OUTS  TS - Traffic Stop) NEWOCC #OUTS  TS - Traffic Stop\nAddress: Hwy 77/ Mill, MARIETTA\nINCIDENT IN PROGRESS\nReporting Person: , Phone: \nDetail: 518GSD\n*******************************************************************************
 Pontonoc County, OK (OKPontonocCountyParser)
 (DispatchAlert) MEDICAL CALL \n231 W MAIN
 (DispatchAlert) ALARM/FIRE \n200 S BROADWAY
@@ -3186,10 +3137,7 @@ Yakima County, WA (VAYakimaCountyParser)
 11.51.01 02/08/12 EMR MEDIC 330 NORTH ST;BLUE SKY MARKET MBFD MB1 MB0 PR12 SYNCOPE 65 YOF PER RP PT
 ***************************************************************************
 Berkeley County, WV (WVBerkeleyCountyParser)
-(Alert) Description:ALRM CO/IN\nAddress: 5550 WINCHESTER AVE \nMARTINSBURG\r\n\r\n\r\n
-(Alert) Description:ALRM CO/IN\nAddress: 58 HAPPY SCHOOL AVE \nBUNKER HILL\r\n\r\n\r\n
-(Alert) Description:MUTAID S H\nAddress: 2718 WELLTOWN RD \nMARTINSBURG\r\n\r\n\r\n
-***************************************************************************
+(Alert) Description:ALRM CO/IN\nAddress: 5550 WINCHESTER AVE \nMARTINSBURG\n\n\n(Alert) Description:ALRM CO/IN\nAddress: 58 HAPPY SCHOOL AVE \nBUNKER HILL\n\n\n(Alert) Description:MUTAID S H\nAddress: 2718 WELLTOWN RD \nMARTINSBURG\n\n\n***************************************************************************
 Cabell County. WV (WVCabellCountyParser)
 1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22225) CCERC911\nMSG:113030126/10-30-11/06:42:08/Other Fire/8160 FRAZIERS LN/LESAGE/LORENA LN/KATHI\n(Con't) 2 of 2\nLN/50YF/BLEEDING FROM A SURGICAL WOUND IN STOMACH//(End)
 1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22343) CCERC911\nMSG:113030199/10-30-11/14:16:29/Structure Fire/6419 RT 60/BARBOURSVILLE/GEORGES DRY\n(Con't) 2 of 2\nCLEANERS/FARMDALE RD/MAIN ST/201 231 ENRT/237/(End)
@@ -4105,8 +4053,7 @@ Sender: MWAA-Alert System [mailto:alert70270@rsan.mwaa.com]
 Comments:  SPECIAL ADDRESS
 COMMENT: THE STANDBY LOCATION FOR PD ON ALERTS IS THE EAST END OF THE C/D CONCOURSE ETA 12 MICS UNKNWN SOULS OR FUELS SMOKE IN COCKPIT SMOKE IN THE COCK PIT 
 Disp: F302,F345,F352,TAU302,P2,F358,TW302,BC302,M302,EMS302)
-Subject: IPS I/Page Notification\n2451 W ENTRANCE RD
-DCA: @QTA ALSCT
+(IPS I/Page Notification\n2451 W ENTRANCE RD) DCA: @QTA ALSCT
 PED--TIME: 16:23:18
 Comments:  PERSON WAS HIT BY A VEHICLE / CAR WAS NOT IN PARK MALE IS CONCIOUS / BREATHING IN THE AREA OF THE CAR WASH / BAY 2 PERSON HUNG UP / TRANSFER FROM ARLINGTON 
 Disp: EMS301,E301B,P2,M301
@@ -5345,8 +5292,7 @@ FRM:FRES CAD\nMSG:TYPE: FALLS LOC: 231 N TITMUS DR MASTIC   CROSS: PONCHO DR / S
 Contact: Eric Riffle <ericriffle@ymail.com>
 Sender: :ept@ept911.info
   / AFA44 I25 MM 153-- EAST SIDE OF RD-- SM GRASS FIRE NEAR CONSTRUCTION SITE
-  / AFA22 4102 PINION DR- 10TH MED GROUP-- MALE PTY FELL- W/ MED ONS\n
-**********************************************************
+  / AFA22 4102 PINION DR- 10TH MED GROUP-- MALE PTY FELL- W/ MED ONS\n**********************************************************
 Mercer County, NJ (alternate?)
 Contact: Harvey Bailey <happyharv01@gmail.com>
 Sender: Bailey, Michael
@@ -5356,21 +5302,9 @@ Suffolk County, NY (alternate)
 Contact: Noah Pilnick <npilnick@commackambulance.org>
 Sender: news@1rwn.com
 1 of 2\nFRM:news@1rwn.com\nMSG:NORTH BABYLON, NY (SUFFOLK) *PURSUIT* SUNRISE HWY SVS RD & DEER PARK AVE (1 PCT). SCPD 102 RPTS PURSUIT OF A BROWN\n(Con't) 2 of 2\nFORD F350 W/ CAP ON THE BACK. HELO UP ABOVE TO CANVAS.  NY340\n(End)
-Body: 1 of 2\n
-FRM:news@1rwn.com\n
-MSG:SHOREHAM, NY (SUFFOLK) *WORKING FIRE* 45 RANDALL RD C/S ALBERT ST (ROCKY POINT FD). RPFD O/S RPT FIRE IN A P/D. REQ\n
-(Con't) 2 of 2\n
-RETONE "13/35". M/A ASSIGNED. NY517\n
-(End)
-Body: 1 of 2\n
-FRM:news@1rwn.com\n
-MSG:CENTRAL ISLIP, NY (SUFFOLK) *NAT GAS LEAK* 54 TAMARACK ST. CHIEF 3-7-32 RPTS NAT GAS LEAK. REQ GAS CO. ENG 3-7-3\n
-(Con't) 2 of 2\n
-FIRST DUE ENG, 3-7-5 FIRST DUE TRUCK.\2sNY340\n
-(End)
-Body:FRM:news@1rwn.com\n
-MSG:NORTH BABYLON, NY (SUFFOLK) *O/T AUTO W/ EJECTION* DEER PARK AVE/POPLAR ST. PD O/S W/ O/T AUTO 1 SUBJ. EJECTED AVN ON S/B. NY200\n
-**********************************************************
+Body: 1 of 2\nFRM:news@1rwn.com\nMSG:SHOREHAM, NY (SUFFOLK) *WORKING FIRE* 45 RANDALL RD C/S ALBERT ST (ROCKY POINT FD). RPFD O/S RPT FIRE IN A P/D. REQ\n(Con't) 2 of 2\nRETONE "13/35". M/A ASSIGNED. NY517\n(End)
+Body: 1 of 2\nFRM:news@1rwn.com\nMSG:CENTRAL ISLIP, NY (SUFFOLK) *NAT GAS LEAK* 54 TAMARACK ST. CHIEF 3-7-32 RPTS NAT GAS LEAK. REQ GAS CO. ENG 3-7-3\n(Con't) 2 of 2\nFIRST DUE ENG, 3-7-5 FIRST DUE TRUCK.\2sNY340\n(End)
+Body:FRM:news@1rwn.com\nMSG:NORTH BABYLON, NY (SUFFOLK) *O/T AUTO W/ EJECTION* DEER PARK AVE/POPLAR ST. PD O/S W/ O/T AUTO 1 SUBJ. EJECTED AVN ON S/B. NY200\n**********************************************************
 Suffolk County, NY (fix?)
 Contact: Brett Deacon <deachead15@gmail.com>
 Sender: amityvillefdpaging@gmail.com
@@ -5379,7 +5313,7 @@ Sender: amityvillefdpaging@gmail.com
 Unknown
 Contact: Jonathon Sabrsula <jrsabrsula@gmail.com>
 Sender: fbcsotibsys@co.fort-bend.tx.us
-1 of 2\nFRM:fbcsotibsys@co.fort-bend.tx.us\nSUBJ:CAD Page\nMSG:DISPATCH:MVA, Acc w/inj, US 90AW/HERMAN SULAK RD, WAL,  <11300/ 11200>, EMS, EB20,\n(Con't) 2 of 2\n600V, Medical ProQA recommends dispatch at this time, Units:BFE, MEDI02 - From DW05 01/17/2013 16:02:10\r\n(End)
+1 of 2\nFRM:fbcsotibsys@co.fort-bend.tx.us\nSUBJ:CAD Page\nMSG:DISPATCH:MVA, Acc w/inj, US 90AW/HERMAN SULAK RD, WAL,  <11300/ 11200>, EMS, EB20,\n(Con't) 2 of 2\n600V, Medical ProQA recommends dispatch at this time, Units:BFE, MEDI02 - From DW05 01/17/2013 16:02:10\n(End)
 **********************************************************
 Rowan County, NC (alternate?)
 Contact: Kevin Aube <auberacing@gmail.com>
@@ -5399,7 +5333,6 @@ Sender: masticambco@optonline.net
 Sweden,
 Contact: ebba.ehrstedt@gmail.com
 Active911 Agency ID: 5631
-
 Interna brandlarm
 Inringt från platsen
 Flerfamiljshus
@@ -5407,7 +5340,6 @@ Flerfamiljshus
 Nyfors
 D10
 PositionWGS84 : La = 59 grader 22,084'N    Lo = 016 grader 30,468'E
-
 Från: 3315 [MOBILE: 3315]
 Skickat: den 2 januari 2013 18:24
 Ämne: 3325673
@@ -5415,20 +5347,15 @@ Trafikolycka - singel
 Personbil
 Motorväg
 E 20 Lövlund
-
 D10
 PositionWGS84 : La = 59 grader 22,137'N    Lo = 016 grader 42,915'E
-
-
 3325673
 Trafikolycka - singel
 Personbil
 Motorväg
 E 20 Lövlund
-
 D10
 PositionWGS84 : La = 59 grader 22,137'N    Lo = 016 grader 42,915'E
-
 Från: 3315 [MOBILE: 3315]
 Skickat: den 2 januari 2013 21:18
 Ämne: 3325975
@@ -5436,41 +5363,31 @@ Trafikolycka - flera fordon
 Personbil
 Övrigt
 carlavägen 47a
-
 D10
 PositionWGS84 : La = 59 grader 22,299'N    Lo = 016 grader 31,957'E
-
-
 3325975
 Trafikolycka - flera fordon
 Personbil
 Övrigt
 carlavägen 47a
-
 D10
 PositionWGS84 : La = 59 grader 22,299'N    Lo = 016 grader 31,957'E
-
 Från: 3315 [MOBILE: 3315]
 Skickat: den 5 januari 2013 02:00
 Ämne: 3331568
 Röklukt - byggnad
 Flerfamiljshus
-
 Noachs Tvärgata 2A
 Eskilstuna
 D10
 PositionWGS84 : La = 59 grader 22,417'N    Lo = 016 grader 31,361'E
-
-
 3331568
 Röklukt - byggnad
 Flerfamiljshus
-
 Noachs Tvärgata 2A
 Eskilstuna
 D10
 PositionWGS84 : La = 59 grader 22,417'N    Lo = 016 grader 31,361'E
-
 Från: 3315 [MOBILE: 3315]
 Skickat: den 7 januari 2013 12:40
 Ämne: 3336671
@@ -5478,56 +5395,43 @@ Interna brandlarm
 Inringt från platsen
 Övrigt
 Sättargatan
-
 D10
 PositionWGS84 : La = 59 grader 20,574'N    Lo = 016 grader 29,103'E
-
-
 3336671
 Interna brandlarm
 Inringt från platsen
 Övrigt
 Sättargatan
-
 D10
 PositionWGS84 : La = 59 grader 20,574'N    Lo = 016 grader 29,103'E
-
 Från: 3315 [MOBILE: 3315]
 Skickat: den 7 januari 2013 14:32
 Ämne: 3337055
 Automatlarm
 Brand
-
 Mälarsjukhuset     Nr 69 Mälarsjukhuset, Eskilstun
 Eskilstuna
 D10
 PositionWGS84 : La = 59 grader 21,772'N    Lo = 016 grader 32,388'E
-
 3337055
 Automatlarm
 Brand
-
 Mälarsjukhuset     Nr 69 Mälarsjukhuset, Eskilstun
 Eskilstuna
 D10
 PositionWGS84 : La = 59 grader 21,772'N    Lo = 016 grader 32,388'E
-
 Från: 3315 [MOBILE: 3315]
 Skickat: den 8 januari 2013 13:15
 Ämne: 3339777
 Automatlarm
 Brand
-
 Kungsgatan 68      Nr 31 Kontor  Studielokal
 Eskilstuna
 D10
 PositionWGS84 : La = 59 grader 22,592'N    Lo = 016 grader 29,983'E
-
-
 3339777
 Automatlarm
 Brand
-
 Kungsgatan 68      Nr 31 Kontor  Studielokal
 Eskilstuna
 D10
@@ -5545,7 +5449,6 @@ Snopac Dispatch???
 ** DISP **FIRE RESIDENTIAL !3925 147 AV NE ,LKS !AG1722 !TG/T06 !378C-4!A81 AGFULL B81 E68 E81 E82 E83 E87 FM81 PGEND STN81 T87 TE49 !,GARAGE ON FIRE
 ** DISP **FIRE SINGLE ENGINE RESPONSE !11325 184 DR NE ,GRF !AM2224B!TG/T05 !358H-1!AMDUTY E87 PGEND !,CHIMNEY FIRE
 ** DISP **SERVICE CALL !15119 116 ST NE ,ARL !AM2222W!TG/T05 !358C-1!A86 PGEND !,TO THE SOUTH AND UP THE HILL, ILL BURN, ONGOING PROB , RP REQ PH AFTER CHECK
-
 ** DISP **FIRE RESIDENTIAL !3925 147 AV NE ,LKS !AG1722 !TG/T06 !378C-4!A81
 AGFULL B81 E68 E81 E82 E83 E87 FM81 PGEND STN81 T87 TE49 !,GARAGE ON FIRE
 Eff Body:** DISP **FIRE RESIDENTIAL !3925 147 AV NE ,LKS !AG1722 !TG/T06
@@ -5562,8 +5465,6 @@ mapping easier)
 After that are units being dispatched
 After that is the text that dispatch put in for the call.
 On Tue, Jan 1, 2013 at 1:31 PM, Jeff Torgerson <torgie3916@gmail.com> wrote:
-
-
 Grf, granite falls
 Lks, lake Stevens
 Arl, Arlington
@@ -5587,7 +5488,6 @@ Bri, Brier
 Town of Hamburg, NY (Erie County) :(
 Contact: Jack Chiappone <jchiappone77@verizon.net>
 Sender: dispatch@townofhamburgny.com
- 
 EMS: 54 Y/F FELL UNKNOWN INJURIES  COLD RESPONSE  SCRANTON 8 MUTUAL AID TO BIG TREE\n17A03  at 4365 BAYVIEW RD, Hamburg  c/s: POLLY LA   O: COMMUNITY S
 EMS: 66 Years Male Conscious/Breathing\n17A01 Falls-arm injury BLS COLD  in vestibule Bldg H at 4150 SOWLES RD #H, Hamburg  c/s: CLARICE DR   O: IRIS 
 Miscellaneous Alarm, INVESTIGATE ODOR: Odor of plastic burning at 5660 SOUTH PARK AV, Hamburg  c/s: ARTHUR CT   O: BRADFORD PLACE ENTERPRISES . . 19:07
@@ -5603,7 +5503,6 @@ Misc Mutual Aid: NA FAST SC6 TO RESPOND at 707 STERLING DR, Orchard Park c/s: WI
 King County, WA
 Contact: "Dan Covey" <dan@dancovey.net>
 System: Aegis
-
 CAD||44530 Se 148th St # KING COUNTY Aid - Emergency FTAC1 L87,A88 
 CAD||39664 Se Spruce St # Structure Fire - Residential FTAC2 281ST,E281,SQSOP,L87,E271,B71ST
  |136
@@ -5616,7 +5515,6 @@ Scotty County, IA
 Contact: David Liske <david.liskeusmc@gmail.com>
 Sender: secc@scott.ia.us
 (Incident) MCFD  106 N SALINA ST McCausland EMS or MVC-Solo  Call successfully transferred to peer Agency. [MedicEMS]  Peer CFS Number = 0045-A_2012-12-01 [MedicEM
-
 Scott County, IA
 Contact: David Liske <david.liskeusmc@gmail.com>
 Sender: secc@scott.ia.us
@@ -5624,7 +5522,6 @@ Sender: secc@scott.ia.us
 (Incident) MCFD  401 S SALINA ST McCausland EMS or MVC-Solo  DAUGHTER ILL.  VOMITING.  E911 Info - Class of Service: RESD Special Response Info: PSAP=SECC MCCAUSLA
 (Incident) MCFD  210TH AVE 300TH ST Scott County EMS or MVC-Solo  Call Number 5550 was created from Call Number 5548(Dec 21 2012  4:51AM)  CALLER WAS NOT SURE IF A
 (Incident) MCFD  210TH AVE 300TH ST Scott County <NEW CALL>  E911 Info - Class of Service: WPH2 Special Response Info: PSAP=        Verify PD  Verify FD  Verify EM
-
 Drop class of service & special response fields
 **********************************************************
 Josephine County, OR??
@@ -6188,31 +6085,12 @@ Contact: Active911
 Agency name: Water Witch Fire Company 
 Location: Port Deposit , MD, United States
 Sender: waterwitch71@atlanticbbn.net
-
-(Messenger 911) DIABETIC\n117 W MAPLE HEIGHTS CT\nRS\n18:35:28\n13000215\n13A01 (DIABETIC )\n
-(Messenger 911) RESPIRATORY DISTRESS\n325 JACKSON STATION RD\nCRESWELL LN\nRESERVOIR RD\nPV\n16:42:10\n13000210\n06D02 (RESPIRATORY D\n
-(Messenger 911) FALL\n98 MILLCREEK RD\nPRINCIPIO FURNACE RD\nBAYSCAPE DR\nPV\n16:23:08\n13000209\n17A01 (FALL )\n
-(Messenger 911) HEART RELATED\n1227 ROCK SPRINGS RD\nWOODY BROWN RD\nOLD MILL RD\nRS\n08:06:21\n13000188\n19D04 (HEART RELATED\n
-(Messenger 911) [Update]\nFALL\n149 TULIP DR\nWINDMILL RD\nDUTCH DR\nCONO\n21:44:33\n13000179\n17A03 (FALL )\n
-(Messenger 911) FALL\n149 TULIP DR\nWINDMILL RD\nDUTCH DR\nCONO\n21:44:33\n13000179\n17A03 (FALL )\n
-(Messenger 911) [Update]\nSICK PERSON\n137 MOUNT ZOAR RD\nNORTH VW\nPARK WAY\nCONO\n17:55:12\n13000172\n26A11 (SICK PERSON )\n
-(Messenger 911) SICK PERSON\n137 MOUNT ZOAR RD\nNORTH VW\nPARK WAY\nCONO\n17:55:12\n13000172\n26A11 (SICK PERSON )\n
-(Messenger 911) FYI - RACE STREET IS CLOSED IN THE AREA OF 34 - 38 FOR THE NEXT 3 WEEKS.\n
-(Messenger 911) RESPIRATORY DISTRESS\n144 BILL LEIGHT RD\nMOUNT ZOAR RD\nWHITECAVAGE CT\nCONO\n16:09:56\n13000112\n06D02 (RESPIRATORY D\n
-(Messenger 911) FALL\n1565 DOCTOR JACK RD\nPARSONS PATCH LN\nDESIRE DR\nCONO\n19:33:33\n13000086\n17A03 (FALL )\n
-(Messenger 911) WATER RESCUE\nCONOWINGO DAM\n19:11:00\n13000084\nWRESCUE (WATER RESCU\n
-(Messenger 911) AMBO CALL\n1530 DOCTOR JACK RD\nHARMONY CHAPEL RD\nPARSONS PATCH LN\nCONO\n16:10:26\n13000077\nAMBO (AMBO CALL )\n
-(Messenger 911) DIABETIC\n60 TWIN LAKES RD\nPD\n04:32:05\n13000048\n13C03 (DIABETIC )\n
-(Messenger 911) RESPIRATORY DISTRESS\n1574 COLORA RD\nCOLORA SCHOOL RD\nCOUNTRY WAY\nCOLO\n17:01:14\n13000032\n06D02 (RESPIRATORY D\n
-(Messenger 911) AMBO CALL\n394 PILOT TOWN RD\nCAMP SHADOW BROOK RD\nOAKWOOD RD\nCONO\n15:07:32\n13000024\nAMBO (AMBO CALL )\n
-(Messenger 911) SICK PERSON\n127 DOWNIN LN                 \nPD\n10:42:29\n13000013\n26A11 (SICK PERSON )\n
-**********************************************************
+(Messenger 911) DIABETIC\n117 W MAPLE HEIGHTS CT\nRS\n18:35:28\n13000215\n13A01 (DIABETIC )\n(Messenger 911) RESPIRATORY DISTRESS\n325 JACKSON STATION RD\nCRESWELL LN\nRESERVOIR RD\nPV\n16:42:10\n13000210\n06D02 (RESPIRATORY D\n(Messenger 911) FALL\n98 MILLCREEK RD\nPRINCIPIO FURNACE RD\nBAYSCAPE DR\nPV\n16:23:08\n13000209\n17A01 (FALL )\n(Messenger 911) HEART RELATED\n1227 ROCK SPRINGS RD\nWOODY BROWN RD\nOLD MILL RD\nRS\n08:06:21\n13000188\n19D04 (HEART RELATED\n(Messenger 911) [Update]\nFALL\n149 TULIP DR\nWINDMILL RD\nDUTCH DR\nCONO\n21:44:33\n13000179\n17A03 (FALL )\n(Messenger 911) FALL\n149 TULIP DR\nWINDMILL RD\nDUTCH DR\nCONO\n21:44:33\n13000179\n17A03 (FALL )\n(Messenger 911) [Update]\nSICK PERSON\n137 MOUNT ZOAR RD\nNORTH VW\nPARK WAY\nCONO\n17:55:12\n13000172\n26A11 (SICK PERSON )\n(Messenger 911) SICK PERSON\n137 MOUNT ZOAR RD\nNORTH VW\nPARK WAY\nCONO\n17:55:12\n13000172\n26A11 (SICK PERSON )\n(Messenger 911) FYI - RACE STREET IS CLOSED IN THE AREA OF 34 - 38 FOR THE NEXT 3 WEEKS.\n(Messenger 911) RESPIRATORY DISTRESS\n144 BILL LEIGHT RD\nMOUNT ZOAR RD\nWHITECAVAGE CT\nCONO\n16:09:56\n13000112\n06D02 (RESPIRATORY D\n(Messenger 911) FALL\n1565 DOCTOR JACK RD\nPARSONS PATCH LN\nDESIRE DR\nCONO\n19:33:33\n13000086\n17A03 (FALL )\n(Messenger 911) WATER RESCUE\nCONOWINGO DAM\n19:11:00\n13000084\nWRESCUE (WATER RESCU\n(Messenger 911) AMBO CALL\n1530 DOCTOR JACK RD\nHARMONY CHAPEL RD\nPARSONS PATCH LN\nCONO\n16:10:26\n13000077\nAMBO (AMBO CALL )\n(Messenger 911) DIABETIC\n60 TWIN LAKES RD\nPD\n04:32:05\n13000048\n13C03 (DIABETIC )\n(Messenger 911) RESPIRATORY DISTRESS\n1574 COLORA RD\nCOLORA SCHOOL RD\nCOUNTRY WAY\nCOLO\n17:01:14\n13000032\n06D02 (RESPIRATORY D\n(Messenger 911) AMBO CALL\n394 PILOT TOWN RD\nCAMP SHADOW BROOK RD\nOAKWOOD RD\nCONO\n15:07:32\n13000024\nAMBO (AMBO CALL )\n(Messenger 911) SICK PERSON\n127 DOWNIN LN                 \nPD\n10:42:29\n13000013\n26A11 (SICK PERSON )\n**********************************************************
 Frederick County, VA
 Contact: Active911
 Agency name: Valley Medical Transport
 Location: Winchester, VA, United States
 Sender: gdalton@valleyhealthlink.com
-
 (- part 1 of 1) RC:Go to post MARTINSBURG
 (- part 1 of 1) RC:Run#31119/CALL:17:25/DISP:18:42/ENR:18:57/ATS:19:24/TRA:20:19/ATD:20:36/AVA:20:36
 (- part 1 of 1) RC:Run#31059/CALL:14:03/DISP:16:11/ENR:16:13/ATS:17:06/TRA:17:30/ATD:18:17/AVA:18:57
@@ -6223,108 +6101,3 @@ Sender: gdalton@valleyhealthlink.com
 **********************************************************
 * EOF
 **********************************************************
-
-Contact: Active911
-Agency name: Cheltenham Fire Co
-Location: Cheltenham, PA, United States
-Sender: firecall@cheltenhamfirecompany.org
-
-#F1301488 at 500 W GERMANTOWN PIKE PLYM,100: @BOSCOV'S, Note: ALL UNITS REDUCE SPEED, PER BC44-1 (MCEDS) 
-7403 ELIZABETH RD CHEL XST: LANFAIR RD/NORMANDY LN MUN:CHEL NAT: CARBON MONOXIDE DETECTOR NO SYMPTOMS,MAP/BOX-PLAN:26-45/ ADC:3481A2,I#F1301079,TIME: 21:33:16,NOTES:  DETECTOR HAS BEEN GOING OFF SINCE APPROX 2000HRS THIS EVENING CHANGED BATTERIES AND IT WAS STILL GOING OFF  TRUCKS: E4,FMX26 
-115 CHELTENHAM AVE CHEL XST: BRIEF RD/N MASCHER ST MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-45/ ADC:3481A2,I#F1300860,TIME: 18:33:27,NOTES:  SMOKE ALARM  TRUCKS: E4,FMX26 
-7437 BARCLAY RD CHEL XST: LANFAIR RD/BROOKFIELD RD MUN:CHEL NAT: UNKNOWN TYPE FIRE,MAP/BOX-PLAN:26-45/ ADC:3481A1,I#F1300853,TIME: 16:13:58,NOTES:  CALLER SMELLS SOMETHING BURNING BUT HE DOESNT KNOW WHAT IT IS OR WHERE IT'S COMING FROM SAYS ITS SMOKEY OUTSIDE BUT CANT SEE THE ORIGIN  TRUCKS: E4,FMX26 
-233 BARCLAY CIR CHEL XST: PARKVIEW RD/ASH RD MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-45/ ADC:3481A1,I#F1300546,TIME: 17:06:06,NOTES:  AUD - DURESS - FIRE HEAT 1ST FL IN BASEMENT RES - DAVID AND SHELLY CHAMBERLAIN 215-635-1738 ACCOUNT INFO SAYS JUST TO DISPATCH PD W/N A/C BACK ONLINE-SPOKE WITH HOME OWNER  TRUCKS: E4,FMX26 
-9 CHELTENHAM AVE CHEL XST: ROWLAND AVE/PINE RIDGE RD MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-46/ ADC:3481B3,I#F1300405,TIME: 18:20:14,NOTES:  GENERAL RES - SHARON BROWN - 215-635-1020 W/N  TRUCKS: E4,FMX26 
-21 CHELTENHAM AVE CHEL XST: IVINETTA RD/BELLMAWR RD MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-46/ ADC:3481B3,I#F1300082,TIME: 11:04:46,NOTES:  KITCHEN SMOKE DETECTOR RES WRIGHT #215-782-2029 CELL #215-284-6347 W/N A/C COULD NOT GIVE CROSS STREETS  TRUCKS: E4,FMX26 
-107 CENTRAL AVE CHEL XST: JEFFERSON AVE/BEECHER AVE MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-43/ ADC:3371F10,I#F1231894,TIME: 14:37:20,NOTES:  NO BUSINESS NAME LISTED SMOKE DETECTOR FOR APT 1 AND 2 PH: NONE LISTED W/N  TRUCKS: E4,FMX26 
-107 CENTRAL AVE CHEL XST: JEFFERSON AVE/BEECHER AVE MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-43/ ADC:3371F10,I#F1231881,TIME: 13:04:08,NOTES:  2ND FLOOR APT. #2 SMOKE DETECTOR  TRUCKS: E4,FMX26 
- XST: WALDEN RD/ARBOR RD MUN:CHEL NAT: ELECTRICAL FIRE OUTSIDE,MAP/BOX-PLAN:26-44/ ADC:3481D1,I#F1231820,TIME: 12:03:11,NOTES:  -075.103483 +040.059274 PECO WIRE IS SMOKING AT.... PECO POLE # 67246  TRUCKS: E4,FMX26 
-EVENT: F1231657  XST: ASHMEAD RD/TOOKANY CREEK PKWY MUN:CHEL NAT: TRANSFERRED CALL HYDRANT BACK IN SERVICE,MAP/BOX-PLAN:26-46/ ADC:3481D2,I#F1231657,TIME: 10:51:25,NOTES:  HYDRANT #5-386  
-#F1231651 at 7901 JENKINTOWN RD CHEL CHEL, Note: ALL UNITS OPERATE ON EVENT 5 PER CMD 4 (MCEDS) 
-#F1231651 at 7901 JENKINTOWN RD CHEL CHEL, Note: SMOKE FROM ROOF PER SD4 (MCEDS) 
-7901 JENKINTOWN RD CHEL XST: ASHBOURNE RD/ROLLING GREEN RD MUN:CHEL NAT: BUILDING FIRE COMMERCIAL,MAP/BOX-PLAN:26-42/ ADC:3481D1,I#F1231651,TIME: 09:48:59,NOTES:  LOWER LEVEL SMOKE AND SECOND FLOOR HALLWAY SMOKE NOW GETTING BURGULAR ALARM FOR LOWER LEVEL MOTION AND KITCHEN DETECTOR RESD: DOUGLAS AND BONNIE AARON 215-663-9397 W/N  TRUCKS: FMX26,SD4,TW4,E4,E3,E9,SD200,L3,FM26,R9,FO-CL 
-EVENT: F1231634  XST: ASHMEAD RD/TOOKANY CREEK PKWY MUN:CHEL NAT: TRANSFERRED CALL HYDRANT OUT OF SERVICE,MAP/BOX-PLAN:26-46/ ADC:3481D2,I#F1231634,TIME: 21:46:24,NOTES:  ON ASHMEADE - 733' SOUTH OF TOOKANY CREEK - HYDRANT OOS-TFN - STRUCK BY AUTO  
-7812 HAINES RD CHEL XST: ORLEANS RD/ASHBOURNE RD MUN:CHEL NAT: ELECTRICAL FIRE OUTSIDE,MAP/BOX-PLAN:26-45/ ADC:3371B10,I#F1231554,TIME: 22:16:02,NOTES:  POWER LINE WAS ON FIRE TREE WAS ON FIRE 2 MIN AGO CALLER SMELLS SMOKE CAN NO LONGER SEE FIRE ' UNK IF THE LINE IS ALIVE  TRUCKS: E4,FMX26 
-#F1231195 at 8311 FOREST AVE ELPK CHEL, Note: ALL UNITS REDUCE SPEED, PER LT5 (MCEDS) 
-8311 FOREST AVE ELPK XST: TULPEHOCKEN AVE/FISHER RD MUN:CHEL NAT: BUILDING FIRE NON-COMMERCIAL,MAP/BOX-PLAN:26-31/ ADC:3371A8,I#F1231195,TIME: 12:20:12,NOTES:  CALLER SEE SMOKE COMING OUT OF CHIMENY DOESNT LOOK LIKE NORMAL SMOKE  TRUCKS: E5,E2,E200,E9,L3,TW4,R5,AIR5,FM26 
-810 GILBERT RD CHEL XST: CROYDEN RD/BOYER RD MUN:CHEL NAT: FIRE INVESTIGATION,MAP/BOX-PLAN:26-44/ ADC:3481E1,I#F1231128,TIME: 04:34:32,NOTES:  LARGE TREE LIMB THROUGH THE ROOF OF THE HOME  TRUCKS: FM26,CH4,DC4,CT4 
-#F1230880 at 101 CHELTENHAM AVE CHEL CHEL: @SAVE-A-LOT, Note: NOTHING SHOWING PER POLICE (MCEDS) 
-101 CHELTENHAM AVE CHEL: @SAVE-A-LOT XST: N FRONT ST/BRIEF RD MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-45/ ADC:3481A2,I#F1230880,TIME: 03:17:24,NOTES:  SPECIAL ADDRESS COMMENT: + MELROSE SHOPPING CENTER FROM PHILLY DISPATCH FIRE ALARM FOR WATER FLOW NO PHONE # #234 PHILLY A/C HAD PHILLY LISTED AS TOWNSHIP  TRUCKS: E4,FMX26 
-#F1230866 at 101 BEECHER AVE CHEL CHEL, Note: ALL UNITS EVACUATE THE BLDG PER 4CMMD (MCEDS) 
-#F1230866 at HASBROOK AVE/FRANKLIN AVE CHEL, Note: ALL UNITS EVACUATE THE BLDG PER 4CMMD (MCEDS) 
-#F1230866 at HASBROOK AVE/FRANKLIN AVE CHEL, Note: CH4-SMOKE FROM THE ROOF (MCEDS) 
- XST: HASBROOK AVE/FRANKLIN AVE MUN:CHEL NAT: BUILDING FIRE COMMERCIAL,MAP/BOX-PLAN:26-43/ ADC:3481F1,I#F1230866,TIME: 19:48:29,NOTES:  BUSINESS IS ON HASBROOKE, BTWN FRANKLIN AND BEECHER TIRE WAREHOUSE SEES SMOKE FROM TOP OF BLDG ON THE CHELTENHAM SIDE, UNK NAME OF BUSINESS  TRUCKS: E4,E9,E3,E2,TW4,L200,FM26 
-104 PARKVIEW RD CHEL XST: N FRONT ST/BROOKFIELD RD MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-45/ ADC:3481B2,I#F1230821,TIME: 08:36:35,NOTES:  GENERAL ALARM RES NAME - STEPTOE RES PH - 215-635-0271 W/N  TRUCKS: E4,FMX26 
-25 WASHINGTON LN WYCT: @WYNCOTE HOUSE XST: TOWNSHIP LINE RD/RR UNDERPASS MUN:CHEL NAT: VEHICLE ACCIDENT RESCUE,MAP/BOX-PLAN:26-13/ ADC:3370J6,I#F1230659,TIME: 13:40:54,NOTES:  POSS RESCUE, NO ONE GETTING OUT, OVER TURNED, SEVERE DAMAGE TRASH TRUCK INVOLVED STATED ON WASHINGTON BTWN W CHURCH AND TOWNSHIPLINE Duplicate Event:Location = 25 WASHINGTON LN CHEL : @WYNCOTE HOUSECross Street 1TOWNSHIP LINE RDCross Street 2RR UNDERPASS, Type = VA VEHICLE ACCIDENT, Subtype = RE RESCUE, Caller Name = 
-#F1230661 at 922 ROCK LN ELPK CHEL, Note: RECALL ALL UNITS, PER FM26 (MCEDS) 
-922 ROCK LN ELPK XST: SERPENTINE LN/DELL LN MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:\n/ ADC:3370H7,I#F1230661,TIME: 13:48:13,NOTES:  SPECIAL ADDRESS COMMENT: RESIDENCE OF FEDERAL JUDGE JAMES T. GILES CONTACT US MARSHALS SERVICE WITH ANY EMERGENCY RESPONSE TO THIS LOCATION. 215-597-0374 ZONE 2 RES JAMES GUILES 215-884-5041 W/N  TRUCKS: FMX26,E3,L3,SD4 
-30 LANFAIR RD CHEL XST: IVINETTA RD/N FRONT ST MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-46/ ADC:3481B2,I#F1230656,TIME: 13:16:07,NOTES:  AUD - 2ND FLR GENERAL  TRUCKS: E4,FMX26 
-123 FRANKLIN AVE CHEL XST: HASBROOK AVE/RYERS AVE MUN:CHEL NAT: CARBON MONOXIDE DETECTOR SYMPTOMS,MAP/BOX-PLAN:26-43/ ADC:3481F1,I#F1230515,TIME: 15:09:12,NOTES:  HIGH BLOOD PRESSURE 85 YO F BREATHING HEAVY FEAMEL VERY UPSET] STATED SHE HAD WATER IN BASEMENT THAT IS WHY HER BP IS HIGH HUNG UP ON CNTY 2616 - DISPATCH FD FOR HIGH CARBON MONOXIDE LEVEL IN THE HOUSE  TRUCKS: E4,FMX26 
-#F1230240 at 521 WOODLAND AVE CHEL CHEL, Note: ALL UNITS OPERATE FIREGROUND-5 PER CH4 (MCEDS) 
-#F1230240 at 519 WOODLAND AVE CHEL CHEL, Note: 4 UNITS TO THE REAR - OTHER ON WOODLAND PER CH4 (MCEDS) 
-500 WOODLAND AVE CHEL XST: E LAUREL AVE/LINCOLN AVE MUN:CHEL NAT: BUILDING FIRE NON-COMMERCIAL,MAP/BOX-PLAN:26-43/ ADC:3481F1,I#F1230240,TIME: 20:00:08,NOTES:  XFER FROM PHILADELPHIA DUPLEX IS ON FIRE FLAMES & SMOKE VISIBLE UNKN IF ANYONE IS INSIDE  TRUCKS: E4,E9,E3,TW4,L200 
-#F1229776 at 8149 NEW SECOND ST CHEL CHEL: @ELKINS PARK SCHOOL, Note: ALL UNITS SWITCH TO EVENT 5 PER CH4 (MCEDS) 
-8149 NEW SECOND ST CHEL: @ELKINS PARK SCHOOL XST: TOOKANY CREEK PKWY/KINGSTON RD MUN:CHEL NAT: RESCUE OTHER THAN VEH/WATER,MAP/BOX-PLAN:26-42/26-42 ADC:3371B9,I#F1229776,TIME: 08:36:13,NOTES:  SPECIAL ADDRESS COMMENT: MODULAR BLDG CLASS ROOMS LOCATED ON PROPERTY OCCUPIED BY CHELTENHAM ELEMENTARY SCHOOL TO THE REAR OF PROEPRTY MALE CAUGHT IN BOBCAT 32 YOM  TRUCKS: SD4,SS4,FMX26,R5 
-EVENT: F1229646  XST: NEW SECOND ST/MARVIN RD MUN:CHEL NAT: TRANSFERRED CALL ROAD CLOSURE,MAP/BOX-PLAN:26-41/ ADC:3371C9,I#F1229646,TIME: 07:55:57,NOTES:  AND TOWNSHIPLINE OPEN EMERGENCY VEH FOR LEAF COLLECTION  
-EVENT: F1229506  XST: E CHURCH RD/HAWTHORNE LN MUN:CHEL NAT: TRANSFERRED CALL HYDRANT BACK IN SERVICE,MAP/BOX-PLAN:26-41/ ADC:3371D9,I#F1229506,TIME: 13:13:13,NOTES:  5-227  
-13 DEWEY RD CHEL XST: ROWLAND AVE/IVINETTA RD MUN:CHEL NAT: FIRE INVESTIGATION,MAP/BOX-PLAN:26-46/ ADC:3481B3,I#F1229522,TIME: 18:08:45,NOTES:  TRANSFORMER IS ON FIRE IN THE AREA OF..  TRUCKS: FM26,CH4,DC4,CT4 
-20 LANFAIR RD CHEL XST: ROWLAND AVE/IVINETTA RD MUN:CHEL NAT: ELECTRICAL FIRE OUTSIDE,MAP/BOX-PLAN:26-46/ ADC:3481B2,I#F1229518,TIME: 17:13:41,NOTES:  WIRES ON POLE ON FIRE  TRUCKS: E4,FMX26 
-EVENT: F1229506  XST: E CHURCH RD/HAWTHORNE LN MUN:CHEL NAT: TRANSFERRED CALL HYDRANT OUT OF SERVICE,MAP/BOX-PLAN:26-41/ ADC:3371D9,I#F1229506,TIME: 14:31:35,NOTES:  5-227  
-#F1229434 at 1708 GRAHAM LN LAMT CHEL, Note: EXCEPT E2/E5/L3 RECALL PER CT5-1 (MCEDS) 
-#F1229434 at 1708 GRAHAM LN LAMT CHEL, Note: EXCEPT E2/L3 ALL UNITS REDUCE SPEED PER E2 (MCEDS) 
-1708 GRAHAM LN LAMT XST: SYCAMORE AVE/B D ST MUN:CHEL NAT: BUILDING FIRE NON-COMMERCIAL,MAP/BOX-PLAN:26-27/ ADC:3370H10,I#F1229434,TIME: 17:13:13,NOTES:  FULL OF SMOKE  TRUCKS: E2,E5,L3,TW4,FMX26,FM26 
-801 CEDAR RD XST: SHELMIRE ST/FOX CHASE RD MUN:RKLG NAT: VEHICLE ACCIDENT RESCUE,MAP/BOX-PLAN:\n/ ADC:3371D7,I#F1228988,TIME: 20:42:48,NOTES:  2 VEHS, BLOCKING 70/F LEG INJURY 3RD PARTY CALLER STATING ONE PARTY CANNOT GET OUT OF THE VEH CB - RICK FROM AGERO - 866-895-4322 ALSO HAS A PT C/O BLOODY NOSE  TRUCKS: E9,E9-1,R9,SD4 
-EVENT: F1228747 100 ASHMEAD RD CHEL XST: RR UNDERPASS/TOOKANY CREEK PKWY MUN:CHEL NAT: TRANSFERRED CALL INFORMATION,MAP/BOX-PLAN:26-46/ ADC:3481D2,I#F1228747,TIME: 07:19:38,NOTES:  ONE LANE CLOSED TILL AROUND 2:30 BETW TOOKANY CREEK AND RAILROAD TRACKS EMERGENCY CAN GET THROUGH WILL ADVISE WHEN DONE  
-EVENT: F1228747 100 ASHMEAD RD CHEL XST: RR UNDERPASS/TOOKANY CREEK PKWY MUN:CHEL NAT: TRANSFERRED CALL INFORMATION,MAP/BOX-PLAN:26-46/ ADC:3481D2,I#F1228747,TIME: 07:19:38,NOTES:  ONE LANE CLOSED TILL AROUND 2:30 BETW TOOKANY CREEK AND RAILROAD TRACKS EMERGENCY CAN GET THROUGH WILL ADVISE WHEN DONE  
-#F1228521 at 17 S PENN AVE RKLG: @CREVELING AUTO REPAIR, Note: HOLD RESPONSE TO STA 9 & TW4 PER CH9 (MCEDS) 
- XST: N PENN AVE/HUNTINGDON PIKE MUN:RKLG NAT: BUILDING FIRE NON-COMMERCIAL,MAP/BOX-PLAN:\n/ ADC:3371F7,I#F1228521,TIME: 13:29:19,NOTES:  -075.093098 +040.084648 SMOKE COMING OUT OF A WINDOW FROM A HOUSE ON N PENN CALLER SEES THIS FROM HER APT BLDG AT 4 SHADY LANE HOUSE IS WHITE WITH RED TRIM AROUND THE WINDOWS  TRUCKS: E9,E4,E8,TW4,R9 
-EVENT: F1228436  XST: TOOKANY CREEK PKWY/ASHBOURNE RD MUN:CHEL NAT: TRANSFERRED CALL ROAD OPENING,MAP/BOX-PLAN:26-44/ ADC:3481E1,I#F1228436,TIME: 14:25:58,NOTES:  ROAD IS NOW OPEN TO ALL TRAFFIC  
-EVENT: F1228425  XST: TOOKANY CREEK PKWY/ASHBOURNE RD MUN:CHEL NAT: TRANSFERRED CALL ROAD CLOSURE,MAP/BOX-PLAN:26-44/ ADC:3481E1,I#F1228425,TIME: 12:47:49,NOTES:  FOR THE NEXT FEW HOURS TOOKANY CREEK BTWN ASHBOURNE AND ASHMEAD TREES LEANING DOWN BEING REMOVED CLOSED TO ALL VEHS  
-7930 OAK HILL DR CHEL XST: ASHBOURNE RD/ MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-44/ ADC:3371D10,I#F1228060,TIME: 17:19:21,NOTES:  RESD/LUIS AND DAMARIS CORTEZ 215-663-1933 ZONE 9 - SMOKE DETECTOR  TRUCKS: E4,FMX26 
- XST: N FRONT ST/CHELTENHAM AVE MUN:CHEL NAT: VEHICLE ACCIDENT STAND-BY,MAP/BOX-PLAN:26-45/ ADC:3481A2,I#F1228020,TIME: 10:53:44,NOTES:  CRAIN FELL WITH 3 MALES IN IT HOW FAR DID IT FALL? ALOT OF PEOPLE AREA AROUNG FELL ABOUT 5 STORIES SAYING IN MELROSE SHOPPING CENTER  TRUCKS: SD4,SS4,FMX26 
-#F1227878 at 238 GLENWOOD RD MRPK CHEL, Note: ALL UNITS RECALL EXCEPT E3 L3 TW4 PER CMMD (MCEDS) 
-#F1227878 at 238 GLENWOOD RD MRPK CHEL, Note: ALL UNITS OPERATE ON EVENT 5 PER CT3 (MCEDS) 
-238 GLENWOOD RD MRPK XST: LYCOMING AVE/WOODLAWN AVE MUN:CHEL NAT: HAZARDOUS MATERIALS INCIDENT INSIDE NON-COMMERCIAL BUILDING,MAP/BOX-PLAN:26-34/ ADC:3371A10,I#F1227878,TIME: 19:51:15,NOTES:  IN THE GARAGE ORGANO PHOSPAHATE BLEW UP NOTHING ON FIRE PECO ON LOC 62/M AND 94/F ON LOCATION NEED EMS  TRUCKS: E3,E2,E5,E200,L3,TW4,R5,AIR5,FM26 
-641 ASHBOURNE RD CHEL XST: ROLLING GREEN RD/JENKINTOWN RD MUN:CHEL NAT: SPECIAL SERVICE,MAP/BOX-PLAN:26-44/ ADC:3481D1,I#F1227599,TIME: 00:55:00,NOTES:  69/M C/A DIF BREATHING PT WEIGHS 400LBS PRE-ARRIVAL INSTRUCTIONS GIVEN MED HX: CHF EMS TO USE THE DOOR FACING ASHBOURNE RD 358-1 - FD FOR LIFT ASSIST  TRUCKS: SD4 
-8007 JENKINTOWN RD CHEL XST: TOOKANY CREEK PKWY/HAMMOND RD MUN:CHEL NAT: CARBON MONOXIDE DETECTOR NO SYMPTOMS,MAP/BOX-PLAN:26-42/ ADC:3371C10,I#F1227475,TIME: 22:00:41,NOTES:  STARTED GOING OFF AT 1930 - HAVE BEEN WAITING IN VEH EVER SINCE LEVELS READING UP TO 600 ALL PARTIES ARE EVACUATED  TRUCKS: E4,FMX26 
-60 E TOWNSHIP LINE RD CHEL: @EINSTEIN MEDICAL CENTER ELKINS PARK HOSPITAL - EPH XST: HOLME AVE/ROLLING HILL RD MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-41/26-49 ADC:3371D9,I#F1227473,TIME: 21:17:05,NOTES:  SPECIAL ADDRESS COMMENT: INTER-HOSPITAL TRANSPORTS FOR EPH ARE HANDLED BY SECURITY - DO NOT DISP FD ZONE 1 - FIRE PANEL / ZONE FA - GENERAL ALARM BUSN: 215 663 6000 - W/N  TRUCKS: E4,TW4,FMX26 
-7610 IVINETTA RD CHEL XST: JOHNS RD/EDGEMOOR RD MUN:CHEL NAT: ELECTRICAL FIRE OUTSIDE,MAP/BOX-PLAN:26-46/ ADC:3481B2,I#F1227395,TIME: 08:10:24,NOTES:  PINE TREE LEANING ON WIRE SPARKING/FLAMES FLAMES NOW OUT LOCATED IN REAR OF HOME CALLER STATED NO LONGER BURNING  TRUCKS: E4,FMX26 
- XST: E CHURCH RD/HAWTHORNE LN MUN:CHEL NAT: FIRE INVESTIGATION,MAP/BOX-PLAN:26-41/ ADC:3371D9,I#F1227352,TIME: 17:56:04,NOTES:  POLE SPARKED AND POLE IS ON FIRE WIRE IS ALSO DOWN  TRUCKS: FM26,CH4,DC4,CT4 
- XST: E CHURCH RD/HAWTHORNE LN MUN:CHEL NAT: ELECTRICAL FIRE OUTSIDE,MAP/BOX-PLAN:26-41/ ADC:3371D9,I#F1227330,TIME: 13:50:12,NOTES:  TRANSFORMER SPARKING CALLER STATING GREEN/YELLOW LOUD SOUND COMING FROM TRANSFORMER SPARKS SHOOTING OUT/NO FLAMES  TRUCKS: E4,FMX26 
- XST: 
-20 EDG}MOOR RD CH}L XST: GARDEN RD/IVINETTA RD MUN:{HEL NAT: FIRE LARM,MApoCOX-PLAN:26-46o'ADC:348?B2,I#F1227?66,TIM}: 20:55:11,NOT}S:  lONALD$LONEY?RESn#RES 215-635-2122 woO  TRUCKS: E4,FMX26 
-34 CARTER LN CHEL XST: NEW SECOND ST/TOOKANY CREEK PKWY MUN:CHEL NAT: FIRE INVESTIGATION,MAP/BOX-PLAN:26-42/ ADC:3371B10,I#F1226862,TIME: 20:39:44,NOTES:  RESD. TEXTED CALLER TRANSFORMER LEAKING SOMETYPE OF FLUID PECO PARTIALLY CONTAINED LEAK STILL FLUID ON THE ROADWAY RESD.-SHERRY HANLEY--215-817-8267 .  TRUCKS: FM26,CH4,DC4,CT4 
-#F1226769 at 7733 MILL RD ELPK CHEL, Note: ALL UNITS SWITCH TO EVENT-5 PER CMMD (MCEDS) 
-#F1226769 at 7733 MILL RD ELPK CHEL, Note: SMOKE SHOWING PER E3 (MCEDS) 
-7733 MILL RD ELPK XST: GLENWOOD RD/ASHBOURNE RD MUN:CHEL NAT: BUILDING FIRE NON-COMMERCIAL,MAP/BOX-PLAN:26-34/ ADC:3371A10,I#F1226769,TIME: 12:51:22,NOTES:  ALARM CO SPOKE TO RESD WHO STATED SHE HAS A FIRE RESD-ERLEBACHER, MARTHA 215/635-4832  TRUCKS: E3,E2,E5,E200,L3,TW4,R5,AIR5,FM26 
-#F1226691 at 902 VALLEY RD MRPK CHEL,14A: @MELROSE STATION APARTMENTS, Note: ALL UNITS RECALL PER CT3 (MCEDS) 
-#F1226691 at 902 VALLEY RD MRPK CHEL,14A: @MELROSE STATION APARTMENTS, Note: ALL UNITS REDUCE SPEED PER CT3 (MCEDS) 
-902 VALLEY RD MRPK: @MELROSE STATION APARTMENTS,APT: 14A  XST: RR OVERPASS/MOUNTAIN AVE MUN:CHEL NAT: BUILDING FIRE COMMERCIAL,MAP/BOX-PLAN:26-33/ ADC:3480K1,I#F1226691,TIME: 06:38:56,NOTES:  BUILDING 14, POSSIBLY APARTMENT A CALLER SEES ORANGE FLICKERING COMING FROM ...  TRUCKS: E3,E2,E5,E200,L3,TW4,R5,AIR5,FM26 
-1129 COVENTRY AVE CHEL XST: HAINES RD/NEW SECOND ST MUN:CHEL NAT: CARBON MONOXIDE DETECTOR SYMPTOMS,MAP/BOX-PLAN:26-45/ ADC:3481B1,I#F1226637,TIME: 20:59:18,NOTES:  CALLER DOES NOT HAVE A DETECTOR - HAS A HEADACHE/DIZZINESS AND THE OFC WHO WAS ON SCENE EARLIER FROM THE FIRE AT ... SUGGESTED SHE HAVE THE CARBON MONOXIDE LEVELS RECHECKED CALLER DID NOT WANT AN AMBULANCE  TRUCKS: E4,FMX26 
-#F1226594 at 7 WINDSOR AVE MRPK CHEL, Note: 3CMMD-RECALL ALL UNITS EXCEPT 3 UNITS E2 E5 TW4 (MCEDS) 
-#F1226594 at 7 WINDSOR AVE MRPK CHEL, Note: ALL UNITS SWITCH TO EVENT 5 PER 3CMD (MCEDS) 
-7 WINDSOR AVE MRPK XST: MONTGOMERY AVE/LAFAYETTE AVE MUN:CHEL NAT: BUILDING FIRE NON-COMMERCIAL,MAP/BOX-PLAN:26-34/ ADC:3370K10,I#F1226594,TIME: 18:33:54,NOTES:  SMOKE IN THE HOUSE ALARM IS SOUNDING SMOKE IS THROUGHOUT THE HOUSE POSSIBLE FROM ELECTRIC HEAT  TRUCKS: E3,E2,E5,E200,L3,TW4,R5,AIR5,FM26 
-1116 ORLEANS RD CHEL XST: GAYL RD/HAINES RD MUN:CHEL NAT: ELECTRICAL FIRE OUTSIDE,MAP/BOX-PLAN:26-45/ ADC:3481B1,I#F1226583,TIME: 18:05:01,NOTES:  WIRE AND THE POLE ARE ON FIRE OUTSIDE OF...  TRUCKS: E4,FMX26 
-1127 ASHBOURNE RD CHEL XST: GAYL RD/HAINES RD MUN:CHEL NAT: ELECTRICAL FIRE OUTSIDE,MAP/BOX-PLAN:26-42/ ADC:3371B10,I#F1226553,TIME: 16:36:42,NOTES:  IN THE REAR OF.. WIRES ARE SMOKE CORR SMOKING  TRUCKS: E4,FMX26 
-#F1226526 at 1129 COVENTRY AVE CHEL CHEL, Note: HOLD RESPONSE TO SD4 (MCEDS) 
-219 BARCLAY CIR CHEL XST: PARKVIEW RD/ASH RD MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-45/ ADC:3481B1,I#F1226524,TIME: 14:21:13,NOTES:  BEDROOM ALARM GOING OFF STATING ACCIDENTAL CAUSED FROM CANDLES  TRUCKS: E4,FMX26 
-8018 HAMMOND RD CHEL XST: JENKINTOWN RD/WETHERILL RD MUN:CHEL NAT: CARBON MONOXIDE DETECTOR NO SYMPTOMS,MAP/BOX-PLAN:26-42/ ADC:3371C9,I#F1226417,TIME: 05:52:50,NOTES:  DETECTOR GOING OFF FOR THE PAST 30 MINS  TRUCKS: E4,FMX26 
-112 KREWSON LN CHEL XST: YEW RD/YEW RD MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-43/ ADC:3371E10,I#F1226412,TIME: 05:06:48,NOTES:  CALDMAN RESD. GENERAL W/N RESD 215-379-0228  TRUCKS: E4,FMX26 
- XST: E CHURCH RD/JENKINTOWN RD MUN:CHEL NAT: ELECTRICAL FIRE OUTSIDE,MAP/BOX-PLAN:26-42/ ADC:3371C9,I#F1226314,TIME: 20:48:28,NOTES:  TOP OF THE POLE SPARKING AT... UNK IF IT IS A TRANSFORMER OR NOT  TRUCKS: E4,FMX26 
-915 PITT RD CHEL XST: BOYER RD/ARBOR RD MUN:CHEL NAT: ELECTRICAL FIRE OUTSIDE,MAP/BOX-PLAN:26-44/ ADC:3481D1,I#F1225983,TIME: 08:06:44,NOTES:  TO THE REAR OF... TREE AND WIRES  TRUCKS: E4,FMX26 
-641 ASHBOURNE RD CHEL XST: ROLLING GREEN RD/JENKINTOWN RD MUN:CHEL NAT: SPECIAL SERVICE,MAP/BOX-PLAN:26-44/ ADC:3481D1,I#F1225936,TIME: 06:35:47,NOTES:  69/M IS ON O2 24/7 RAN OUT OF TANKS LAST NIGHT AND POWER IS OUT LABORED BREATHING CALLER SAID HE DID NOT WANT TO GO ANYWHERE JUST WANTED SOMEONE TO BRING HIM TANKS AT FIRST DECLINED EMS THEN AGREED TO LET ME SEND EMS CALLER ADVISED COUNTY HE WEIGHS OVER 400 LBS -- page to 358A 382 -- Note: 358A+382 RECALL PER 358-3 COVER DISP; RESPONSE 2610 -- 
-641 ASHBOURNE RD CHEL XST: ROLLING GREEN RD/JENKINTOWN RD MUN:CHEL NAT: SPECIAL SERVICE,MAP/BOX-PLAN:26-44/ ADC:3481D1,I#F1225003,TIME: 10:15:19,NOTES:  69/M C/A DIFF BREATHING HX BREATHING 358-2 - FD AT EMERGENCY SPEED FOR A LIFT ASSIST  TRUCKS: SD4 
-418 CENTRAL AVE CHEL XST: MYRTLE AVE/E LAUREL AVE MUN:CHEL NAT: TRASH/DUMPSTER FIRE,MAP/BOX-PLAN:26-43/ ADC:3481E1,I#F1224929,TIME: 21:25:29,NOTES:  TEENAGERS ARE HAVING A BONFIRE AT... NO ADULTS WERE SEEN ON LOC  TRUCKS: E4,FMX26 
-EVENT: F1224811  XST: RYERS AVE/OLD SOLDIERS RD MUN:CHEL NAT: TRANSFERRED CALL HYDRANT BACK IN SERVICE,MAP/BOX-PLAN:26-44/ ADC:3481E1,I#F1224811,TIME: 14:45:06,NOTES:  # 5-118  
- XST: WOODLAND AVE/E LAUREL AVE MUN:CHEL NAT: GAS-ODOR/LEAK OUTSIDE,MAP/BOX-PLAN:26-43/ ADC:3481F1,I#F1224788,TIME: 10:32:11,NOTES:  APPROX 30 MINS AGO CALLER WAS AT.. AND SMELLED A STRONG ODOR OF GAS CALLER IS NO LONGER ON LOCATION BUT ALSO SMELLED IT IN THE AREA YESTERDAY  TRUCKS: E4,FMX26 
-EVENT: F1224758  XST: RYERS AVE/OLD SOLDIERS RD MUN:CHEL NAT: TRANSFERRED CALL HYDRANT OUT OF SERVICE,MAP/BOX-PLAN:26-44/ ADC:3481E1,I#F1224758,TIME: 00:37:04,NOTES:  NOTIFY WATER DEPT FIRE HYRANT KNOCKED OVER AT... HYDRANDT NOT LEAKING 2616-HYDRANDT WILL BE OUT OF SERVICE ACQUA NOTIFIED RECVD CALL FROM A JUDY FROM AQUA PA CONFIRMING ... HER CB# 610 525 1402  
-439 ASHBOURNE RD CHEL: @CHELTENHAM ART CENTER XST: FOSTER RD/OAK HILL DR MUN:CHEL NAT: FIRE ALARM,MAP/BOX-PLAN:26-44/ ADC:3481E1,I#F1224756,TIME: 00:10:10,NOTES:  BASEMENT REAR HALL BUS - 215-379-4660 W/N  TRUCKS: E4,FMX26 
-#F1224683 at 7515 WOODLAWN AVE MRPK CHEL, Note: CH3: HOLD THE RESPONSE TO STA3 (MCEDS) 
-7515 WOODLAWN AVE MRPK XST: MELROSE AVE/WINDSOR AVE MUN:CHEL NAT: BUILDING FIRE NON-COMMERCIAL,MAP/BOX-PLAN:26-34/ ADC:3481A1,I#F1224683,TIME: 09:35:40,NOTES:  DRY IS SMOKEING NO FLAMES  TRUCKS: E3,E2,E5,E200,L3,TW4,R5,AIR5,FM26 
-#F1224315 at 107 JEFFERSON AVE CHEL CHEL,1, Note: HOLD THE RESPONSE TO STA4 (MCEDS) 
-107 JEFFERSON AVE CHEL XST: HASBROOK AVE/RYERS AVE MUN:CHEL NAT: BUILDING FIRE COMMERCIAL,MAP/BOX-PLAN:26-43/ ADC:3371F10,I#F1224315,TIME: 03:40:07,NOTES:  APT 1  TRUCKS: E4,E9,E3,E2,TW4,L200,FM26 
- XST: CENTRAL AVE/E LAUREL AVE MUN:CHEL NAT: UNKNOWN TYPE FIRE,MAP/BOX-PLAN:26-43/ ADC:3481E1,I#F1224292,TIME: 19:22:09,NOTES:  CALLER SMEELS BURNING WOOD IN THE AREA  TRUCKS: E4,FMX26 
-8140 OGONTZ AVE WYCT: @KENTUCKY FRIED CHICKEN - KFC XST: SHOPPERS LN/CHELTENHAM AVE MUN:CHEL NAT: GAS-ODOR/LEAK INSIDE COMMERCIAL BUILDING,MAP/BOX-PLAN:26-23/ ADC:3370E8,I#F1224256,TIME: 10:41:00,NOTES:  -075.159637 +040.075732 SMELLS NATURAL GAS INSIDE BUILDING EVACUATING  TRUCKS: L3,FMX26,FM26,SD10,CH2,CT10-1,E2-1,TW4 
-8328 THOMSON RD CHEL XST: MARVIN RD/TOWNSHIP LINE RD MUN:CHEL NAT: CARBON MONOXIDE DETECTOR NO SYMPTOMS,MAP/BOX-PLAN:26-41/ ADC:3371C9,I#F1223887,TIME: 00:38:44,NOTES:  DETECTOR WENT OFF 30 MINS AGO  TRUCKS: E4,FMX26 
-#F1223858 at 60 E TOWNSHIP LINE RD CHEL CHEL: @EINSTEIN MEDICAL CENTER ELKINS PARK HOSPITAL - EPH, Note: SD4 - 3 & 9 TO THE REAR - 4 & 200 TO FRONT (MCEDS) 
-60 E TOWNSHIP LINE RD CHEL: @EINSTEIN MEDICAL CENTER ELKINS PARK HOSPITAL - EPH XST: HOLME AVE/ROLLING HILL RD MUN:CHEL NAT: BUILDING FIRE COMMERCIAL,MAP/BOX-PLAN:26-41/26-49 ADC:3371D9,I#F1223858,TIME: 16:54:07,NOTES:  SPECIAL ADDRESS COMMENT: INTER-HOSPITAL TRANSPORTS FOR EPH ARE HANDLED BY SECURITY - DO NOT DISP FD GEN FIRE #2156636000 W/N SECURITY ON THE LINE BELIVES WATER INTO WIRING ON THE 2ND FLR INTO THE MECHAIN RM AT 107 NOT EVACING  TRUCKS: E4,FMX26,E9,E3,E2,E5,TW4,L200,L3,R5,R9,FM26 
