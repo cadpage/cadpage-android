@@ -22,6 +22,10 @@ Flfgrz: Vagrenpg
 911-PRAGRE:40 >OYF 255 A EVIRE QE KF: ZRNQBJ EBNQ CRAAFIVYYR GJC PBARL, XRAARGU E 6785492 Znc: Tevqf: 00000 ,000 
 911-PRAGRE:40 >OYF 11 XRAG NIR Ncg: 412 Oyqt KF: ABEGU OEBNQJNL CRAAFIVYYR GJC SENAXYVA NYNEZ PB BCRE 2769 6782600 Znc: 
 
+Pbagnpg: Zvxr Xunvemnqn <zxunvemnqn@pbzpnfg.arg>
+911-PRAGRE:40 >OYF 328 A OEBNQJNL JNL KF: XRAG NIR CRAAFIVYYR GJC ENLZBAQ ZREXF 3623457 Znc: Tevqf:00000,000
+911-PRAGRE:41 >NYF 9 JNGRE FG KF: ORAFBA NIR CRAAFIVYYR GJC TEBFMRJFXV, TRENYQ 6783759 Znc: Tevqf:00000,000
+
 */
 
 choyvp pynff AWFnyrzPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -129,6 +133,29 @@ choyvp pynff AWFnyrzPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:CRAAFIVYYR GJC",
         "ANZR:SENAXYVA NYNEZ PB BCRE 2769",
         "CUBAR:6782600");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZvxrXunvemnqn() {
+
+    qbGrfg("G1",
+        "911-PRAGRE:40 >OYF 328 A OEBNQJNL JNL KF: XRAG NIR CRAAFIVYYR GJC ENLZBAQ ZREXF 3623457 Znc: Tevqf:00000,000",
+        "PNYY:OYF",
+        "NQQE:328 A OEBNQJNL JNL",
+        "K:XRAG NIR",
+        "PVGL:CRAAFIVYYR GJC",
+        "ANZR:ENLZBAQ ZREXF",
+        "CUBAR:3623457");
+
+    qbGrfg("G2",
+        "911-PRAGRE:41 >NYF 9 JNGRE FG KF: ORAFBA NIR CRAAFIVYYR GJC TEBFMRJFXV, TRENYQ 6783759 Znc: Tevqf:00000,000",
+        "PNYY:NYF",
+        "NQQE:9 JNGRE FG",
+        "K:ORAFBA NIR",
+        "PVGL:CRAAFIVYYR GJC",
+        "ANZR:TEBFMRJFXV, TRENYQ",
+        "CUBAR:6783759");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

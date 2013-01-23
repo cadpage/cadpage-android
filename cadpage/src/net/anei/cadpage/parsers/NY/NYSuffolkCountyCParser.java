@@ -21,6 +21,9 @@ public class NYSuffolkCountyCParser extends DispatchRedAlertParser {
     // Anything starting with TYPE: belongs to variant A
     if (body.startsWith("TYPE:")) return false;
     
+    // Anything starting with three asterisks belongs to variant B
+    if (body.startsWith("***")) return false;
+    
     // They use a strange E/B convention
     return super.parseMsg(subject, DIR_SLASH_BOUND.matcher(body).replaceAll("$1B"), data);
   }
