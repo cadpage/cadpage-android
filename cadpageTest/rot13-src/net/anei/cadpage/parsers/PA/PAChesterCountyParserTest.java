@@ -1,5 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.CN;
 
+vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
+
 vzcbeg bet.whavg.rkcrevzragny.ehaaref.Rapybfrq;
 vzcbeg bet.whavg.ehaare.EhaJvgu;
 
@@ -71,6 +73,11 @@ choyvp pynff CNPurfgrePbhaglCnefreGrfg {
     choyvp GrfgT() {
       frgCnefre(arj CNPurfgrePbhaglCnefre());
     }
+  }
+  
+  
+  choyvp fgngvp ibvq znva(Fgevat[] netf) {
+    arj OnfrCnefreGrfg(){}.trarengrGrfgf(arj CNPurfgrePbhaglCnefre());
   }
   
 }
