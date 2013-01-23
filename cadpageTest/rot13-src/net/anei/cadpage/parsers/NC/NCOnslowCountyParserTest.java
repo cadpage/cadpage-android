@@ -189,7 +189,7 @@ choyvp pynff APBafybjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "PNQ:1401 DHNEGREF YNAQVAT PVE;NCG 409;9;PNEQVNP NEERFG QRNGU;09O01n",
-        "NQQE:1401 DHNEGREF YNAQVAT PVE",
+        "NQQE:1401 DHNEGREF YNAQVAT PVE", // Abg znccvat
         "NCG:409",
         "HAVG:9",
         "PNYY:PNEQVNP NEERFG QRNGU",

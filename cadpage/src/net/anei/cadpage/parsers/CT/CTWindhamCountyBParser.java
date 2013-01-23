@@ -13,11 +13,20 @@ public class CTWindhamCountyBParser extends CTNewHavenCountyBParser {
   }
   
   private static final String[] CITY_LIST = new String[]{
+    "ANDOVER",
     "ASHFORD",
     "COLUMBIA",
+    "COVENTRY",
     "CHAPLIN",
+    "EASTFORD",
+    "FRANKLIN",
+    "HAMPTON",
     "HEBRON",
+    "LEBANON",
     "MANSFIELD",
-    "STORRS"
+    "SCOTLAND",
+    "STORRS",
+    "WILLIMANTIC",
+    "WILLINGTON"
   };
 }
