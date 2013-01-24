@@ -149,7 +149,7 @@ Jean -- Assistant to Ken Corbin
 
 *****************************************************************
 
-Thanks!  We received your PayPal payment.
+Thanks!  We received your PayPal payment for a one-year Cadpage subscription.
 
 You have been added to a paid subscriber list that is distributed with the app.  
 
@@ -287,13 +287,14 @@ I found your Google Play Store payment record as of ______.  However, your Cadpa
 
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status. This reloads your payment status from the market which will usually fix things.
 
-If it does not work, please check that you have the same Google Play Store account that you did on the previous phone.  Open the Play Store app, press Menu, then Accounts to view and possibly change your market account. Then try the Recalculate Payment Status again.
-
 If that fails, please contact us again. If you have changed your email address, that may be the issue. Our information from Play Store is limited.
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
 
+****************************************************************
+
+If it does not work, please check that you have the same Google Play Store account that you did on the previous phone.  Open the Play Store app, press Menu, then Accounts to view and possibly change your market account. Then try the Recalculate Payment Status again.
 
 *****************************************************************
 Dual use of Cadpage Subscription
