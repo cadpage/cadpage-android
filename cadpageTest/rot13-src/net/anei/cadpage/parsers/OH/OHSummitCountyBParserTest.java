@@ -56,6 +56,7 @@ Fraqre: vasb@fhaqnapr-flf.pbz
 Pbagnpg: Zvxr Onaxf <zonaxf@jnqfjbegupvgl.bet>
 Fraqre: vasb@fhaqnapr-flf.pbz
 (Sebz: JnqfGrkgFraqre) OEGU-QVS OERNGUVAT,1160 JVYYVNZF ERFREIR OI 1,JNQF QVNYLFVF SERFRAVHF,JNQFJBEGU,RYQREYL ZNYR QVNYLFVF CG - QVSSVPHYGL OERNGUVAT NAQ ANH
+(Sebz: JnqfGrkgFraqre) FRVM-FRVMHER,7981 EVQTR EQ,JNQFJBEGU,ZNYR VA FRVMHER, SRYY QBJA 6 FGRCF, VAPBURERAG,
 
  */
 
@@ -342,6 +343,13 @@ choyvp pynff BUFhzzvgPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:JNQFJBEGU",
         "CYNPR:JNQF QVNYLFVF SERFRAVHF",
         "VASB:RYQREYL ZNYR QVNYLFVF CG - QVSSVPHYGL OERNGUVAT NAQ ANH");
+
+    qbGrfg("G2",
+        "(Sebz: JnqfGrkgFraqre) FRVM-FRVMHER,7981 EVQTR EQ,JNQFJBEGU,ZNYR VA FRVMHER, SRYY QBJA 6 FGRCF, VAPBURERAG,",
+        "PNYY:FRVM-FRVMHER",
+        "NQQE:7981 EVQTR EQ",
+        "PVGL:JNQFJBEGU",
+        "VASB:ZNYR VA FRVMHER / SRYY QBJA 6 FGRCF / VAPBURERAG");
 
   }
   
