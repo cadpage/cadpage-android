@@ -37,16 +37,16 @@ public class DispatchSouthernParser extends FieldProgramParser {
   public static final int DSFLAG_NO_NAME_PHONE = 0x80;
   
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
-  private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) (\\d\\d:\\d\\d:\\d\\d)\\b");
-  private static final Pattern OPT_ID_TIME_PTN = Pattern.compile("\\b(?:(\\d{2,4}-?\\d{4,8}) )?(\\d\\d:\\d\\d:\\d\\d)(?: |$)");
+  private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
+  private static final Pattern ID_PTN = Pattern.compile("\\b\\d{2,4}-?\\d{4,8}$");
   private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /]+)\\b[ \\.,-]*");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
   private static final Pattern CALL_BRK_PTN = Pattern.compile(" +/+ *");
 
-  private Pattern idTimePattern;
   private boolean leadDispatch;
   private boolean optDispatch;
   private boolean unitId;
+  private boolean idOptional;
   private boolean inclPlace;
   private boolean inclCross;
   private boolean inclCrossNamePhone;
@@ -67,8 +67,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     this.leadDispatch = (flags & DSFLAG_DISPATCH_ID) != 0;
     this.optDispatch = (flags & DSFLAG_OPT_DISPATCH_ID) != 0;
     this.unitId = (flags & DSFLAG_UNIT) != 0;
-    boolean idOptional = (flags & DSFLAG_ID_OPTIONAL) != 0;
-    this.idTimePattern =  idOptional ? OPT_ID_TIME_PTN : ID_TIME_PTN;
+    this.idOptional = (flags & DSFLAG_ID_OPTIONAL) != 0;
     this.inclPlace = (flags &  DSFLAG_LEAD_PLACE) != 0;
     this.inclCross = (flags & DSFLAG_FOLLOW_CROSS) != 0;
     this.inclCrossNamePhone = (flags & DSFLAG_CROSS_NAME_PHONE) != 0;
@@ -84,7 +83,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     sb.append(" ID");
     if (idOptional) sb.append('?');
     sb.append(" TIME");
-    sb.append(" INFO! INFO2 OCA:ID2");
+    sb.append(" INFO+ OCA:ID2");
     String program = sb.toString();
     setProgram(program, 0);
   }
@@ -101,21 +100,28 @@ public class DispatchSouthernParser extends FieldProgramParser {
     
     // See if this looks like one of the new comma delimited page formats
     // If it is, let FieldProgramParser handle it.
-    String[] flds = body.replace(" OCA:", ";OCA:").split(";");
-    if (flds.length < 3) flds = body.replace(" OCA:", ",OCA:").split(",");
-    if (flds.length >= 3) {
-      if (parseFields(flds, data)) return true;
-      data.initialize();
+    Matcher match = NAKED_TIME_PTN.matcher(body);
+    if (!match.find()) return false;
+    String delim = match.group(1);
+    if (delim.charAt(0) != ' ') {
+      body = body.replace(" OCA:", delim + "OCA:");
+      return parseFields(body.split(delim), data);
     }
     
-    // find an ID/Time pattern which splits the message into two fields
-    Matcher match = idTimePattern.matcher(body);
-    if (!match.find()) return false;
+    // Blank delimited fields get complicated
+    // We already found a time field.  Use that to split the message 
+    // into and address and extra versions 
     
-    data.strCallId = getOptGroup(match.group(1));
     data.strTime = match.group(2);
     String sAddr = body.substring(0,match.start()).trim();
     String sExtra = body.substring(match.end()).trim();
+    
+    // See if there is an ID field immediate in front of the time field
+    match = ID_PTN.matcher(sAddr);
+    if (match.find()) {
+      data.strCallId = match.group();
+      sAddr = sAddr.substring(0,match.start()).trim();
+    } else if (!idOptional) return false;
     
     if (sAddr.length() > 0) {
       parseMain(sAddr, data);
@@ -189,9 +195,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
     // then call description and long call description
     // Call description comes first and contains only upper case letters and numbers
     Matcher match;
-    Parser p;
     if (unitId) {
-      p = new Parser(sExtra);
+      Parser p = new Parser(sExtra);
       data.strUnit = p.get(' ');
       sExtra = p.get();
     }
@@ -293,24 +298,24 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      parseExtra(field, data);
+      
+      if (unitId && data.strUnit.length() == 0) {
+        Parser p = new Parser(field);
+        data.strUnit = p.get(' ');
+        field = p.get();
+      }
+      
+      if (data.strCall.length() == 0) {
+        data.strCall = field;
+        return;
+      }
+      
+      super.parse(field, data);
     }
     
     @Override
     public String getFieldNames() {
       return "UNIT CALL INFO";
-    }
-  }
-  
-  private class MyInfo2Field extends InfoField {
-    @Override
-    public void parse(String field, Data data) {
-      if (data.strCall.length() == 0) {
-        data.strCall = data.strSupp;
-        data.strSupp = field;
-      } else {
-        super.parse(field, data);
-      }
     }
   }
   
@@ -324,7 +329,6 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (name.equals("PHONE")) return new PhoneField("\\d{10}");
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("INFO2")) return new MyInfo2Field();
     if (name.equals("ID2")) return new IdField("\\d{6}-\\d{4}");
     return super.getField(name);
   }

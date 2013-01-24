@@ -587,7 +587,7 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:3005 SENAXF QE",
         "PVGL:ZBERURNQ PVGL",
         "VQ:12-149001",
-        "VASB:FGNO - THAFUBG - CRARGENGVAT GENHZN");
+        "PNYY:FGNO - THAFUBG - CRARGENGVAT GENHZN");
 
     qbGrfg("G10",
         "Fhowrpg:812 FURCNEQ FG 220 ZBERURNQ PVGL, ZQY, S\aPRP:01:59, SNYY BPN: 24-13-0021\a",
@@ -933,7 +933,7 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:113P01",
         "VQ:13-000001",
         "GVZR:01:30:06",
-        "VASB:YBHQ ABVFR - ZHFVP/ONEXVAT/CNEGL");
+        "PNYY:YBHQ ABVFR - ZHFVP/ONEXVAT/CNEGL");
 
     qbGrfg("G17",
         "(203 FPNYYBC PG RZRENYQ VFYR, ZQY, SQY, YQY, 12-162829, 20) PRP:39:08, PURFG CNVA BPN: 67-12-0773",
@@ -1044,7 +1044,7 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:121P01",
         "VQ:12-158113",
         "GVZR:00:27:33",
-        "VASB:ZRAGNY QVFBEQRE/ORUNIVBENY CEBOYRZF");
+        "PNYY:ZRAGNY QVFBEQRE/ORUNIVBENY CEBOYRZF");
 
     qbGrfg("G8",
         "(6741 UJL 70 ARJCBEG, ZQY 29O01, 12-158086, 22) PRP:43:24, ZIP CV BE EBYYBIRE BPN: 08-12-2801",

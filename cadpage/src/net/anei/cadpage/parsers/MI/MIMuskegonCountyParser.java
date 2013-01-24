@@ -126,6 +126,7 @@ public class MIMuskegonCountyParser extends DispatchOSSIParser {
   private static final Set<String> CALL_SET = new HashSet<String>(Arrays.asList(new String[]{
       "COMMERCIAL FIRE",
       "COMMERICAL FIRE",  // Dispatch spelling??
+      "ICE RESCUE",
       "MEDICAL EMERGENCY-PRIORITY 1",
       "STRUCTURE FIRE"
   }));

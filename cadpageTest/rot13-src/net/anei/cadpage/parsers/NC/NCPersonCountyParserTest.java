@@ -158,15 +158,14 @@ choyvp pynff APCrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:FVQR RAG \"OEBBXJBBQ NCGF\" / OEBNQ EQ",
         "PBQR:24Q03",
         "GVZR:05:56:40",
-        "VASB:CERTANAPL PUVYQOVEGU ZVFPNEEVNTR PNEQ 24 (P Q)");
+        "PNYY:CERTANAPL PUVYQOVEGU ZVFPNEEVNTR PNEQ 24 (P Q)");
 
     qbGrfg("G4",
         "PNQ:OHEYVATGBA EQ / YRJVF JVAFGRNQ YBBC, ZQY 29O01, 20:03:18, ZIN CV PNEQ 29 ( B N O ) BPN: 201212-1920",
         "NQQE:OHEYVATGBA EQ & YRJVF JVAFGRNQ YBBC",
         "PBQR:29O01",
         "GVZR:20:03:18",
-        "PNYY:ZIN CV PNEQ 29",
-        "VASB:( B N O )",
+        "PNYY:ZIN CV PNEQ 29 ( B N O )",
         "VQ:201212-1920");
 
     qbGrfg("G5",
@@ -176,8 +175,7 @@ choyvp pynff APCrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:FRZBEN EQ / JVAFGRNQ-UVPXF EQ",
         "PBQR:26Q01",
         "GVZR:10:55:41",
-        "PNYY:FVPX PNYY PNEQ 26",
-        "VASB:(P Q)",
+        "PNYY:FVPX PNYY PNEQ 26 (P Q)",
         "VQ:201212-1916");
 
     qbGrfg("G6",

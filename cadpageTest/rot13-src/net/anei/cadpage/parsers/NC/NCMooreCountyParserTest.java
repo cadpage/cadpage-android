@@ -142,8 +142,7 @@ choyvp pynff APZbberPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2012031517",
         "GVZR:15:45:55",
         "HAVG:Z31",
-        "PNYY:HAPBAFPVBHFARFF/SNVAGVAT",
-        "VASB:(ARNE)");
+        "PNYY:HAPBAFPVBHFARFF/SNVAGVAT (ARNE)");
 
     qbGrfg("G2",
         "232 NYYRA YA NOREQRRA ZQY 30N01 2012028950 15:18:54 Z30 GENHZNGVP VAWHEVRF\e",
@@ -189,8 +188,7 @@ choyvp pynff APZbberPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:31Q03",
         "GVZR:11:05:29",
         "HAVG:Z31",
-        "PNYY:HAPBAFPVBHFARFF/SNVAGVAT",
-        "VASB:(ARNE)");
+        "PNYY:HAPBAFPVBHFARFF/SNVAGVAT (ARNE)");
 
     qbGrfg("G7",
         "144 FUNQL JBBQ PG JRFG RAQ, SQY 69Q06, 08:46:34, S69 FGEHPGHER SVER, JBXR HC NAQ URE FGBIR JBHYQAG BCRA.\e",
@@ -291,8 +289,7 @@ choyvp pynff APZbberPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:JUVFCREVAT CVARF",
         "GVZR:22:16:31",
         "HAVG:Z31",
-        "PNYY:HAPBAFPVBHFARFF/SNVAGVAT",
-        "VASB:(ARNE)");
+        "PNYY:HAPBAFPVBHFARFF/SNVAGVAT (ARNE)");
 
   }   
   
