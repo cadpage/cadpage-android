@@ -10,7 +10,7 @@ public class NCRandolphCountyParser extends FieldProgramParser {
   
   public NCRandolphCountyParser() {
     super("RANDOLPH COUNTY", "NC",
-           "SRC CALL ADDR UNIT SKIP INFO! INFO+");
+           "SRC ( UNIT ID PLACE! PLACE+ | CALL ADDR UNIT! SKIP INFO+ )");
   }
   
   @Override
@@ -62,10 +62,22 @@ public class NCRandolphCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyPlaceField extends PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strCall.length() == 0) data.strCall = "RUN REPORT";
+      data.strPlace = append(data.strPlace, "\n", field);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
+    if (name.equals("SRC")) return new SourceField("[A-Z]{4}");
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("UNIT")) return new UnitField("[A-Z]+[0-9]+", true);
+    if (name.equals("ID")) return new IdField("\\d{9}");
+    if (name.equals("PLACE")) return new MyPlaceField();
     return super.getField(name);
   }
 }
