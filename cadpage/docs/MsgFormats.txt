@@ -5319,14 +5319,43 @@ Contact: stupman97 <stupman97@gmail.com>
 Sender: masticambco@optonline.net
 ** 16-24 Pregnancy \n** TOA: 09:15 01-18-13 \n** 24-D-3 \n** 115 MEADOWMERE AV** CS: MASTIC RD / CLOVER ST \n** 2013-000127 \n**24-D-
 **********************************************************
-Las Vegas, NV
-Contact: andrew frechette <lvswatmedic12@gmail.com>
-Sender: sms@pageway.net
-(SMS) 580 13006900 Pri:2 Prob:17B Grid:02729-55 INDIOS AV & BOULDER HWY Bld: Apt: Zip:89121
+Unknown
+Contact: Jason Davis <onceamedic@gmail.com>
+Sender: messaging@iamresponding.com
+S:INDF M:CFS#: 2013-01188\nCallType: MEDICAL / AMBULANCE CALL\nAddress: 1203 N E ST, IA
+**********************************************************
+Hennepin County, MN (Alternate?)
+Contact: zoominruhmann <zoominruhmann@gmail.com>
+Sender: LOGIS-Emergin-Paging@logis.org
+STRUCTURE FIRE AD: 11014 OREGON CURVE CMT1: HARD OF HEARING OR POOR PHONE CONNECTION FEMALE SAYING "ALL MY DETECTOR\r
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
+**********************************************************
+Las Vegas, NV (replace?)
+Contact: andrew frechette <lvswatmedic12@gmail.com>
+Contact: Trevor Nelson <robs_trevor@yahoo.com>
+Sender: sms@pageway.net
+(SMS) 580 13006900 Pri:2 Prob:17B Grid:02729-55 INDIOS AV & BOULDER HWY Bld: Apt: Zip:89121
+(SMS) 580 13007393 Pri:2 Prob:17B Grid:02629-57 4800 VEGAS VALLEY DR Bld: Apt:179 Zip:89121
+(SMS) VALLEY HAS OPEN BEDS
+(SMS) 580 13007380 Cancel Call. Disp:10:24 Enroute:10:25 On Scene:10:40 Cancelled:10:48 Reason:851
+(SMS) 580 13007380 Pri:1 Prob:23C Grid:03127-22 5850 EUCLID ST Bld: Apt: Zip:89120
+(SMS) 580 13007378 Pri:3 Prob:26A Grid:02726-31 3501 S MARYLAND PKY Bld: Apt:87 Zip:
+(SMS) 580 13007214 Pri:2 Prob:32B Grid:02226-53 E LAKE MEAD BLVD & N LAS VEGAS BLVD Bld: Apt: Zip:
+(SMS) 580 13007175 Pri:2 Prob:32B Grid:02628-44 3738 BOULDER HWY Bld: Apt: Zip:89121
+(SMS) 580 13007151 Pri:3 Prob:1A- Grid:02826-59 2325 E HARMON AV Bld: Apt: Zip:89119
+(SMS) 580 13007151 Disp:16:09:12 Enroute:16:09:27 On Scene:16:13:55 To Hosp:16:21:56 At Hosp:16:36:49
+ SMS / 518 13006170 Pri:1 Prob:29D Grid:02631-11 E SAHARA AV & S NELLIS BLVD Bld: Apt: Zip:89142
+ SMS / 518 13006481 Pri:1 Prob:12D Grid:01929-89 3325 N NELLIS BLVD Bld: Apt:115 Zip:89115
+ SMS / 518 13006170 Pri:1 Prob:29D Grid:02631-11 E SAHARA AV & S NELLIS BLVD Bld: Apt: Zip:89142
+ SMS / 518 13006183 Pri:1 Prob:6C- Grid:2625-1/11 2945 CASA VEGAS ST Bld: Apt:117 B Zip:89169
+ SMS / 518 13006224 Pri:1 Prob:29D Grid:02624-94 S LAS VEGAS BLVD & ECHELON RESORT DR Bld: Apt: Zip:89109
+ SMS / 518 13006481 Pri:1 Prob:12D Grid:01929-89 3325 N NELLIS BLVD Bld: Apt:115 Zip:89115
+ SMS / 518 13006411 Pri:1 Prob:6D- Grid:01923-81 3602 GOLD SLUICE AVE Bld: Apt: Zip:
+ SMS / 518 13006393 Pri:1 Prob:31D Grid:02724-14 3131 S LAS VEGAS BLVD Bld: Apt: Zip:89109
+ SMS / 518 13006426 Pri:1 Prob:27D Grid:02725-67 3825 CAMBRIDGE ST Bld: Apt: Zip:89119
 **********************************************************
 Sweden,
 Contact: ebba.ehrstedt@gmail.com
@@ -6096,8 +6125,28 @@ Sender: gdalton@valleyhealthlink.com
 (- part 1 of 1) RC:Run# 31059/ALS/INTERHOSPITAL TRANSFER/Non-Immediate/14:48/1 HEALTHY WAY//er curtain 1/PHIPPS/ LUELLA/WINCHESTER MEDICAL CENTER//341/BERKELEY SPRINGS/WINCHESTER/mi /monitor/heprin/02/119 lbs
 (- part 1 of 1) RC:Run#31061/CALL:12:57/DISP:14:05/ENR:14:06/ATS:14:48/TRA:15:08/ATD:15:56/AVA:16:11
 **********************************************************
+Contact: Active911
+Agency name: East Meadow Fire Department
+Location: East Meadow, NY, United States
+Sender: eastmeadowfd@eastmeadowfd.net
+
+***Rescue Call* * NEIGHBOR AT THE MEADOWS *812 MEADOWOODS DR *CS: FRONT ST / GLENN CURTIS BLVD *TOA: 13:28 01/24/13 *2013-000086 *HYDRANTS I.F.O. UNITS 1, 6, 9, 14, 18, 24, 28/31,
+***Rescue Call* * NEIGHBOR AT THE MEADOWS *1505 MEADOWOODS DR *CS: FRONT ST / GLENN CURTIS BLVD *TOA: 13:08 01/24/13 *2013-000085 *HYDRANTS I.F.O. UNITS 1, 6, 9, 14, 18, 24, 28/31,
+***House Fire* * NEIGHBOR *215 CLEARMEADOW DR *CS: MARGARET DR / PLYMOUTH PL *TOA: 23:31 01/23/13 *2013-000084 *209 CLEARMEADOW DR. / 263 CLEARMEADOW DR.
+***Rescue Call* * KROPP *2104 CENTRAL DR S *CS: SHELLEY PL / ABBOTT ST *TOA: 19:06 01/23/13 *2013-000083 *2086 CENTRAL DR. S.
+***A/A House Fire* * NEIGHBOR *1509 GARFIELD RD *CS: HAYES CT / GARNER PL *TOA: 04:29 01/23/13 *2013-000079 *1469 GARFIELD RD. / 640 GARNER PL.
+98 - P/U Hydrant***House Fire* * NEIGHBOR *102 OLD FARM RD *CS: HILLTOP RD / VALLEY RD *TOA: 20:25 01/22/13 *2013-000078 *65 OLD FARM RD. / 113 OLD FARM RD.
+***House Fire* * NEIGHBOR *102 OLD FARM RD *CS: HILLTOP RD / VALLEY RD *TOA: 20:25 01/22/13 *2013-000078 *65 OLD FARM RD. / 113 OLD FARM RD.
+***A/A House Fire* * RYAN *2172 POE AVE *CS: E MEADOW AVE / CENTRAL DR N *TOA: 19:36 01/22/13 *2013-000077 *2161 POE AVE. / 806 EAST MEADOW AVE.
+***Rescue Call* * BEL AIRE CONDOMINIUMS *50 MERRICK AVE *CS: HEMPSTEAD TPKE / GLENN CURTIS BLVD *TOA: 15:10 01/22/13 *2013-000076 *ON SITE- REAR SERVICE RD- (NEAREST FDC/ C/O EXP 2/
+98 - P/U Hydrant***Building Fire* * BP GAS STATION *1955 HEMPSTEAD TPKE *CS: BLY RD / CONTI SQUARE BLVD *TOA: 12:37 01/22/13 *2013-000075 *NORTH SIDE HEMPSTEAD TPKE 400' EAST OF BLY ROAD (I
+***Building Fire* * BP GAS STATION *1955 HEMPSTEAD TPKE *CS: BLY RD / CONTI SQUARE BLVD *TOA: 12:37 01/22/13 *2013-000075 *NORTH SIDE HEMPSTEAD TPKE 400' EAST OF BLY ROAD (I
+***Rescue Call* * NEIGHBOR AT THE KNOLLS *4207 SALISBURY PARK DR *CS: CARMAN AVE / OLD WESTBURY RD *TOA: 08:37 01/22/13 *2013-000073 *HYDRANTS LOCATED THROUGHOUT COMPLEX
+***Mutual Aid* *  *WANTAGH STATE PKWY S/B *TOA: 22:10 01/21/13 *2013-000072 *
+***Building Fire* * NEIGHBOR *173 MITCHEL AVE *CS: ATLAS CT / MERRICK AVE *TOA: 17:57 01/21/13 *2013-000070 *149 MITCHEL AVE. / 189 MITCHEL AVE.
+***Rescue Call* * NEIGHBOR *148 NANCY DR *CS: JEAN PL / BETTE RD *TOA: 10:55 01/21/13 *2013-000069 *165 MARGARET DR. / 149 NANCY DR.
+***Natural Gas Interior* * CITIBANK *670 MERRICK AVE *CS: TYLER AVE / CLEVELAND AVE *TOA: 09:30 01/20/13 *2013-000067 *W/S MERRICK AVE , 75 N/O CLEVELAND AVE IFO #670
 **********************************************************
 * EOF
 **********************************************************
 
- 
