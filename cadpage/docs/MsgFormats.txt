@@ -1665,6 +1665,11 @@ Marion County, IN (INMarionCountyParser)
 1702 E GIMBER ST,IND S02750 E01700 STRUCT/COLLAPSE CSTF TC01 LD01 TC23 EG23 SQ10 C1103 SF06 C1823 MD29 EG29 LD29 BC14 DST6 OP1 I05219
 W 16TH ST/N AUBURN ST,SPD N01600 W05000 APARTMNT/WORKI LD30 TS18 TS83 SF08 WRKFIR IFDFYI I05193
 ***************************************************************************
+Porter County, IN (INPorterCountyParser)
+Subject:CAD Page\n\n#110089211 - \nF35P2:\nEMS AST-P2 @ 380 N 400 E,WGT\nCROSS: btwn AUGUSTINE DR and E 400 N\npcdisp@porterco-ps.orgGRP:WF\nPRI:2\ncomment: Medical P
+Subject: CAD Page\n\n#110085268 - \nF35:\nMISC. AST EMS @ 4 WILLIAMSBURG DR,WGT\nCROSS: btwn DEAD END and VIRGINIA CT\nGRP:WF\nPRI:4\ncomment: UN
+Subject: CAD Page\n\n#110085607 -\nF35P2:\nEMS AST-P2 @ 342 N 325 E,WGT\nCROSS: btwn LONG PRAIRIE RD and STREAMWOOD DR GRP:WF\nPRI:2\ncomment:
+***************************************************************************
 Starke County, IN (INStarkeCountyParser)
 1 of 2\nFRM:DISPATCH@co.starke.in.us\nMSG:DISPATCH:VFD:BLFD - 11/20 11:59 - 8048 FIRE-STRUCTURE 800 N /// LAKE STREET,MONTEREY//VFD:BLFD//PULASKI\n(Con't) 2 of 2\nCOUNTY ADVISED MONTEREY FIRE IS REQUESTING BLFD TO THIS LOCATION FOR SMOKE SHOWING OUT THE BACK DOOR OF A BLU/TAN TRAILER BLFD TONED @ 1(End)
 1 of 2\nFRM:DISPATCH@co.starke.in.us\nMSG:DISPATCH:VFD:BLFD - 12/02 04:28 - 8045 FIRE-GENERAL SANDBAR,BASS LAKE//VFD:BLFD//LARRY ADVD HEAVY SMOKE\n(Con't) 2 of 2\nCOMING FROM THE SANDBAR DOES NOT SEE FLAMES AT THIS TIME BASS LAKE FIRE TONED @ 04:26(End)
@@ -3677,16 +3682,6 @@ Greene County, PA
 Contact: 7248800930@vzwpix.com
 [ALERT]  OVERDOSE ALS501 HARTS RD ,05 #:X:HART RD/E GREEN VALLEY
 RDGD:ZN:ZSWCP:06/06/2011 21:07:06MI#:110008245
-**********************************************************
-Porter County, IN
-Contact: Mike Luczak <firefighter3198@gmail.com>
-.(CAD Page) #110053588 -
-F42:
-MUT.AID/STANDBY OWN @ 1012 W INDIANA AV,KTS
-CROSS: btwn S 125 E and E ST RD 8
-GRP:MF
-PRI:1
-comment: HEAVY SMOKE INSIDE BUILDING
 **********************************************************
 Snyder County, PA
 Contact: Chris Yetter <co50ffyetter@gmail.com>
@@ -6104,3 +6099,5 @@ Sender: gdalton@valleyhealthlink.com
 **********************************************************
 * EOF
 **********************************************************
+
+ 

@@ -37,7 +37,8 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
       
       if (subject.endsWith(" Station")) break;
         
-      return false;
+      // And sometimes there is no signature whatsoever
+      
     } while (false);
     
     // Drop anything beyond a line break
