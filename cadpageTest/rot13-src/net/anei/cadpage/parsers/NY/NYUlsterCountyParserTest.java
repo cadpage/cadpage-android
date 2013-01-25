@@ -253,6 +253,7 @@ choyvp pynff ALHyfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:CT29",
         "NQQE:13 IVYYNTR QE",
+        "NCG:503",
         "K:EBHGR 9J/FGRIRAF PG",
         "PVGL:Fnhtregvrf",
         "PNYY:Pevg/345",
@@ -295,6 +296,6 @@ choyvp pynff ALHyfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALHyfgrePbhaglCnefreGrfg().trarengrGrfgf("G1", "HAVG NQQE K PVGL PNYY QNGR GVZR VASB");
+    arj ALHyfgrePbhaglCnefreGrfg().trarengrGrfgf("G1", "HAVG NQQE NCG K PVGL PNYY QNGR GVZR VASB");
   }
 }
