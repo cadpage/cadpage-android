@@ -74,6 +74,8 @@ This takes you to a web page where you need to enter the two part Device Key / A
 
 At this point, Active911 will start sending you pages through the Internet data network instead of using SMS text pages.
 
+Please let me know if you still  have problems with Cadpage.
+
 Good Luck,
 Jean -- Assistant to Ken Corbin
 
@@ -592,6 +594,11 @@ Good luck,
 -Ken
 
 ******************************************************************
+LATE PAGES:
+
+If you can long press one of the calls you get and select Report Problem to send them to us, I could give you a better idea what is happening.  I need to see all of the alerts that are associated with one of your calls.
+
+*******************************************************************
 
 Here is the long list of things to check when Cadpage is not working. Some things may not apply to you. The important steps are the last two.  They send us information about your text pages that we need to figure out what is wrong.
 
