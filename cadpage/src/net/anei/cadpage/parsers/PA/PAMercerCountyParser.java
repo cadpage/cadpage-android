@@ -85,7 +85,8 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "GROV", "GROVE CITY",
       "JACK", "JACKSON TWP",
       "PINE", "PINE",
-      "SLAK", "Sandy Lake",
+      "SLAK", "SANDY LAKE",
+      "SPRG", "SPRINGFIELD",
       "STON", "STONEBORO"
   });
   
@@ -102,6 +103,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "GARF", "Garbage Fire",
       "HAZ",  "Hazmat",
       "HF",   "House fire",
+      "MHF",  "Mobile Home Fire",
       "MUT",  "Mutual Aid",
       "MVA",  "Motor Vehicle Crash w. no injuries",
       "MVE",  "Motor Vehicle Crash w. trap",
