@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class PALebanonCountyParser extends SmartAddressParser {
   
-  private static final Pattern DAUPHIN_EAST_HANOVER_PTN = Pattern.compile("^(DAUPHIN(?: CO(?:UNTY)?)?[ /]EAST HANOVER(?: TWP)?)[= ]", Pattern.CASE_INSENSITIVE);
+  private static final Pattern COUNTY_PREFIX_PTN = Pattern.compile("^(DAUPHIN|LANCASTER)(?: CO(?:UNTY)?)?[ /]", Pattern.CASE_INSENSITIVE);
   private static final Pattern[] CITY_PTNS = new Pattern[]{
     Pattern.compile("^(.* Township)[ =]", Pattern.CASE_INSENSITIVE),
     Pattern.compile("^(.* Twp)[ =]", Pattern.CASE_INSENSITIVE),
@@ -19,7 +19,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
     Pattern.compile("^(.*) Borough[ =]", Pattern.CASE_INSENSITIVE),
     Pattern.compile("^(.*) Boro[ =]", Pattern.CASE_INSENSITIVE)
   };
-  private static final Pattern COUNTY_PTN = Pattern.compile("^[^ ]+ COUNTY\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SPECIAL_CITY_PTN = Pattern.compile("^((?:(?:NORTH|SOUTH|EAST|WEST) )?[A-Z]+)[ =]", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_PREFIX_PTN =
       Pattern.compile(" (?:Med Class(\\d) |([A-Z]{2,6} ?- ?))");
   private static final Pattern BOX_PTN = 
@@ -41,34 +41,55 @@ public class PALebanonCountyParser extends SmartAddressParser {
     
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
-    if (body.startsWith("LANCASTER ")) body = body.substring(10).trim();
     
-    // Look for recognizable East Handover Township - Dauphin County prefixes
-    Matcher match = DAUPHIN_EAST_HANOVER_PTN.matcher(body);
+    // See if a county has been specified
+    String county = null;
+    Matcher match = COUNTY_PREFIX_PTN.matcher(body);
     if (match.find()) {
-      data.strCity = "East Hanover Twp, DAUPHIN COUNTY";
-      body = body.substring(match.end()).trim();
+      county = match.group(1);
+      body = body.substring(match.end());
     }
 
+    
     // Look for city, borough, or township at start of text
+    String city = "";
     if (data.strCity.length() == 0) {
       for (Pattern ptn : CITY_PTNS) {
         match = ptn.matcher(body);
         if (match.find()) {
-          data.strCity = match.group(1).toUpperCase();
+          city = match.group(1);
           body = body.substring(match.end()).trim();
           break;
         }
       }
-      if (data.strCity.length() == 0) return false;
     }
     
-    // Check for county qualifier
-    match = COUNTY_PTN.matcher(body);
-    if (match.find()) {
-      data.strCity = data.strCity + ", " + match.group();
-      body = body.substring(match.end()).trim();
+    // If we found something, see if it is followed by a county qualifier
+    if (city.length() > 0) {
+      if (county == null) {
+        match = COUNTY_PREFIX_PTN.matcher(body);
+        if (match.find()) {
+          county = match.group(1);
+          body = body.substring(match.end()).trim();
+        }
+      }
     }
+    
+    // if we did not find a city, but there was a county prefix in front of it
+    // we get a bit less strict about what qualifies as a city
+    else if (county != null) {
+      match = SPECIAL_CITY_PTN.matcher(body);
+      if (match.find()) {
+        city = match.group(1);
+        body = body.substring(match.end()).trim();
+      }
+    }
+    
+    // Finally put it all together
+    if (county != null) {
+      city = append(city, ", ", county + " COUNTY");
+    }
+    data.strCity = city.toUpperCase();
     
     match = CALL_PREFIX_PTN.matcher(body);
     if (!match.find()) return false;
