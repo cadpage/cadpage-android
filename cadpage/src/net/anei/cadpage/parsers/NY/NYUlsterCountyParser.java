@@ -13,7 +13,7 @@ public class NYUlsterCountyParser extends FieldProgramParser {
 
   public NYUlsterCountyParser() {
     super("ULSTER COUNTY", "NY",
-           "Unit:UNIT! UnitSts:SKIP? Loc:ADDR! XSts:X! Venue:CITY! Inc:CALL! Date:DATE! Time:TIME! Addtl:INFO");
+           "Unit:UNIT! UnitSts:SKIP Loc:ADDR! XSts:X! Venue:CITY Inc:CALL! Date:DATE Time:TIME Addtl:INFO Nature:INFO", FLDPROG_ANY_ORDER);
   }
   
   @Override
@@ -37,7 +37,7 @@ public class NYUlsterCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       Matcher match = TIME_PTN.matcher(field);
-      if (!match.find()) abort();
+      if (!match.find()) return;
       data.strTime = match.group();
       data.strSupp = field.substring(match.end()).trim();
     }

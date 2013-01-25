@@ -1667,8 +1667,7 @@ W 16TH ST/N AUBURN ST,SPD N01600 W05000 APARTMNT/WORKI LD30 TS18 TS83 SF08 WRKFI
 ***************************************************************************
 Porter County, IN (INPorterCountyParser)
 Subject:CAD Page\n\n#110089211 - \nF35P2:\nEMS AST-P2 @ 380 N 400 E,WGT\nCROSS: btwn AUGUSTINE DR and E 400 N\npcdisp@porterco-ps.orgGRP:WF\nPRI:2\ncomment: Medical P
-Subject: CAD Page\n\n#110085268 - \nF35:\nMISC. AST EMS @ 4 WILLIAMSBURG DR,WGT\nCROSS: btwn DEAD END and VIRGINIA CT\nGRP:WF\nPRI:4\ncomment: UN
-Subject: CAD Page\n\n#110085607 -\nF35P2:\nEMS AST-P2 @ 342 N 325 E,WGT\nCROSS: btwn LONG PRAIRIE RD and STREAMWOOD DR GRP:WF\nPRI:2\ncomment:
+{CAD Page\n\n#110085268 - \nF35:\nMISC. AST EMS @ 4 WILLIAMSBURG DR,WGT\nCROSS: btwn DEAD END and VIRGINIA CT\nGRP:WF\nPRI:4\ncomment: UN} Subject: CAD Page\n\n#110085607 -\nF35P2:\nEMS AST-P2 @ 342 N 325 E,WGT\nCROSS: btwn LONG PRAIRIE RD and STREAMWOOD DR GRP:WF\nPRI:2\ncomment:
 ***************************************************************************
 Starke County, IN (INStarkeCountyParser)
 1 of 2\nFRM:DISPATCH@co.starke.in.us\nMSG:DISPATCH:VFD:BLFD - 11/20 11:59 - 8048 FIRE-STRUCTURE 800 N /// LAKE STREET,MONTEREY//VFD:BLFD//PULASKI\n(Con't) 2 of 2\nCOUNTY ADVISED MONTEREY FIRE IS REQUESTING BLFD TO THIS LOCATION FOR SMOKE SHOWING OUT THE BACK DOOR OF A BLU/TAN TRAILER BLFD TONED @ 1(End)
@@ -6149,4 +6148,3 @@ Sender: eastmeadowfd@eastmeadowfd.net
 **********************************************************
 * EOF
 **********************************************************
-
