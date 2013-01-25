@@ -884,6 +884,20 @@ public abstract class MsgParser {
   
   /**
    * Set GPS Coordinates in standard Google search format
+   * handling special case where trailing zeros have been dropped
+   * from the coordinates
+   * @param location GPS coordinates to be saved
+   * @param data data information object
+   */
+  public void setTrimmedGPSLoc(String location, Data data) {
+    location = END_NUMBER.matcher(location).replaceAll("000");
+    setGPSLoc(location, data);
+  }
+  private static final Pattern END_NUMBER = Pattern.compile("(?<=\\d)(?= |$)");
+  
+  
+  /**
+   * Set GPS Coordinates in standard Google search format
    * @param location GPS coordinates to be saved
    * @param data data information object
    */

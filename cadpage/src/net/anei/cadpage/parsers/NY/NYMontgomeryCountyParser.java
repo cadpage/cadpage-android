@@ -11,8 +11,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYMontgomeryCountyParser extends SmartAddressParser {
   
-  private static final Pattern SUBJ_PTN = Pattern.compile("[A-Z]{4} *\\d*");
+  private static final Pattern SUBJ_PTN = Pattern.compile("[A-Z]{4} *\\d+");
   private static final Pattern DATE_TIME_PTN = Pattern.compile(" (\\d\\d/\\d\\d/\\d{4}) (\\d+)\\b");
+  private static final Pattern GPS_PTN = Pattern.compile("(?: +[-+]?\\d+\\.\\d+){2}$");
   private static final Pattern CITY_TRIM_PTN = Pattern.compile(" (?:CITY|VILLAGE)$");
   
   public NYMontgomeryCountyParser() {
@@ -22,6 +23,11 @@ public class NYMontgomeryCountyParser extends SmartAddressParser {
   @Override
   public String getFilter() {
     return "paging@impact-sys.com,messaging@iamresponding.com,impact@impact.co.Montgomery.NY.us";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
 
   @Override
@@ -33,8 +39,15 @@ public class NYMontgomeryCountyParser extends SmartAddressParser {
     data.strDate = match.group(1);
     String time = match.group(2);
     data.strTime = time.substring(0,2) + ':' + time.substring(2,4);
-    data.strSupp = body.substring(match.end()).trim();
+    String info = body.substring(match.end()).trim();
     body = body.substring(0,match.start()).trim();
+    
+    match = GPS_PTN.matcher(info);
+    if (match.find()) {
+      setTrimmedGPSLoc(match.group().trim(), data);
+      info = info.substring(0,match.start()).trim();
+    }
+    data.strSupp = info;
     
     StartType st = StartType.START_CALL;
     int pt = body.indexOf("  ");
