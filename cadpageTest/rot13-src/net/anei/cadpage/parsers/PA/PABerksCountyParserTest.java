@@ -17,6 +17,7 @@ Pbagnpg: 4843343577@zrffntvat.fcevagcpf.pbz
 Pbagnpg: Zvxr Ebgu <zebgu@fcevatgjcorexf.bet>
 Pbagnpg: IW TERRX <iwterrx@tznvy.pbz>
 Pbagnpg: Ohqql <sjneqvi@tznvy.pbz>
+Pbagnpg: Cubravk <ncubravkevfvat13@tznvy.pbz>
 Fraqre: nyeg_3JCW@orexf.nyregcn.bet,@efvk.ebnzfrpher.arg,14100
 Havg:Z590N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 215 GBJRE EQ ; ; F CNEX NIR / PYNL EQ ; Zhav: YBATFJNZC ; 64 LBZ / VA NPGVIR FVRMHER  ; 07/10/12 12:57
 Havg:Z590O Fgnghf:Qvfcngpurq ZINHAX ; J ZNVA FG ABEZNY NIR ; ; ; Zhav: XHGMGBJA ; ; 07/10/12 14:06
@@ -41,6 +42,7 @@ Havg:PB85 Fgnghf:Qvfcngpurq ZINJVGU ; 1780 NPBEA QE ; ; GVZORE YA / TENIRY UVYY 
 Havg:R85-2 Fgnghf:Qvfcngpurq UNMZNG ; 2227 ZPXVAYRL NIR ; ; HAXABJA / JRFG JLBZVFFVAT OYIQ ; Zhav: FCEVAT ; PUS85 NAQ R85-2 RA SBE BQBE BS TNFBYVAR VA ERFVQRAPR ; 07/11/12 10:07\a\aFrag ol Orexf Pbhagl EFNA gb PB85 Nyy Pnyy
 Havg:ERA85 Fgnghf:Qvfcngpurq FS ; 44 JNGRE FG ; ; CBGGFIVYYR CXR / A 5 FGERRG UJL ; Zhav: ZHUYRAORET ; ryqreyl sz / abg nafjrevat dhrfgvbaf  ; 07/12/12 00:54\a\aFrag ol Orexf Pbhagl EFNA gb PB85 Nyy Pnyy
 Havg:E1 Fgnghf:Qvfcngpurq ZINHAX ; BNX YA / EVPUZBAQ FG ; ; ; Zhav: YBJRE NYFNPR ; zp vagb qvgpu / ba bnx ya / ; 07/12/12 12
+SEZ: \aFHOW:1/2\aZFT:Havg:PB13 Fgnghf:Qvfcngpurq NSN ; 2525 A 12 FG OYQT 30 FGBARCBVAG PRAGRE ; ; JRFGREA RYRPGEVP QE / QRNQ RAQ ; ZHUYRAORET ;  
 
 Pbagnpg: Npgvir911
 (orexf.pb85@efvk.ebnzfrpher.arg) Havg:PB85 Fgnghf:Qvfcngpurq ZS ; 828 OYHR TNGR YA ; ; CREFVZZBA QE / URNEGUFGBAR YA ; Zhav: FCEVAT ; ; 07/13/12 14:09 Frag ol Orexf Pbhagl EFNA gb PB85 Nyy Pnyy -- Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf. 
@@ -361,6 +363,18 @@ choyvp pynff CNOrexfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:BNX YA & EVPUZBAQ FG",
         "PVGL:YBJRE NYFNPR",
         "VASB:zp vagb qvgpu / ba bnx ya /");
+
+    qbGrfg("G24",
+        "SEZ: \a" +
+        "FHOW:1/2\a" +
+        "ZFT:Havg:PB13 Fgnghf:Qvfcngpurq NSN ; 2525 A 12 FG OYQT 30 FGBARCBVAG PRAGRE ; ; JRFGREA RYRPGEVP QE / QRNQ RAQ ; ZHUYRAORET ;  ",
+
+        "HAVG:PB13",
+        "PNYY:NSN - Sver Nynez",
+        "NQQE:2525 A 12 FG",
+        "NCG:OYQT 30 FGBARCBVAG PRAGRE",
+        "PVGL:ZHUYRAORET",
+        "K:JRFGREA RYRPGEVP QE / QRNQ RAQ");
   
   }
   

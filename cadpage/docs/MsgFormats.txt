@@ -5332,7 +5332,7 @@ STRUCTURE FIRE AD: 11014 OREGON CURVE CMT1: HARD OF HEARING OR POOR PHONE CONNEC
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Las Vegas, NV (replace?)
+Las Vegas, NV (alternate)
 Contact: andrew frechette <lvswatmedic12@gmail.com>
 Contact: Trevor Nelson <robs_trevor@yahoo.com>
 Sender: sms@pageway.net
@@ -5355,6 +5355,7 @@ Sender: sms@pageway.net
  SMS / 518 13006411 Pri:1 Prob:6D- Grid:01923-81 3602 GOLD SLUICE AVE Bld: Apt: Zip:
  SMS / 518 13006393 Pri:1 Prob:31D Grid:02724-14 3131 S LAS VEGAS BLVD Bld: Apt: Zip:89109
  SMS / 518 13006426 Pri:1 Prob:27D Grid:02725-67 3825 CAMBRIDGE ST Bld: Apt: Zip:89119
+(SMS) I: 4414642 U: 2221, P: 2, G: 3223, PH: 31 L: W MARTIN AVE / S VALLEY VIEW BLVD# , B: , AL: PC:, 29B N:29B], 11:27:33 [Geographic Area: W MARTIN AVE / S VALLEY
 **********************************************************
 Sweden,
 Contact: ebba.ehrstedt@gmail.com

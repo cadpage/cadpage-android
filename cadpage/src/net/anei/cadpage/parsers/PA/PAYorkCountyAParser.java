@@ -9,9 +9,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class PAYorkCountyAParser extends SmartAddressParser {
   
+  private static final Pattern STATION_PTN = Pattern.compile("\\d\\d");
   private static final Pattern TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)¿?$");
   private static final Pattern ID_PTN = Pattern.compile("^(\\d{7}) ");
-  private static final Pattern CITY_PTN = Pattern.compile("^([A-Z ]+?) +(?:CITY|BORO|TWP)\\b *");
+  private static final Pattern CITY_PTN = Pattern.compile("^([A-Z ]+?) +(CITY|BORO|TWP|COUNTY)\\b *");
   private static final Pattern MAP_PTN = Pattern.compile("\\b(\\d{2}-\\d{2,3})\\b");
   private static final Pattern DELIM = Pattern.compile("\n\n|    *");
   private static final Pattern SRC_PTN = Pattern.compile("^(FIRESTA\\d+) ");
@@ -29,7 +30,9 @@ public class PAYorkCountyAParser extends SmartAddressParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (subject.length() > 0) {
-      if (subject.startsWith("Station ")) data.strSource = subject;
+      if (subject.startsWith("Station ") || STATION_PTN.matcher(subject).matches()) {
+        data.strSource = subject;
+      }
     }
     
     Matcher match = TIME_PTN.matcher(body);
@@ -52,8 +55,14 @@ public class PAYorkCountyAParser extends SmartAddressParser {
     // There has to be a leading city
     match = CITY_PTN.matcher(body);
     if (!match.find()) return false;
-    data.strCity = match.group(1);
-    if (data.strCity.equals("MANCH")) data.strCity = "MANCHESTER";
+    String type = match.group(2);
+    if (type.equals("TWP") || type.equals("COUNTY")) {
+      data.strCity = match.group().trim();
+    } else {
+      data.strCity = match.group(1);
+    }
+    if (data.strCity.equals("MANCH TWP")) data.strCity = "MANCHESTER TWP";
+    else if (data.strCity.equals("CARROLL COUNTY")) data.strState = "MD";
     body = body.substring(match.end()).trim();
     
     match = MAP_PTN.matcher(body);
