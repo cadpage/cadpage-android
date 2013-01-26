@@ -370,7 +370,7 @@ public class ParserList {
               ,"MTLewisAndClarkCounty"          ,"Lewis &amp; Clark County, MT"
           ),
           new ParserCategory("Nevada"
-              ,"NVLasVegas"                     ,"Las Vegas, NV"
+              ,"NVClarkCounty"                  ,"Clark County, NV"
           ),
           new ParserCategory("New Hampshire"
               ,"NHHanover"                      ,"Hanover, NH"

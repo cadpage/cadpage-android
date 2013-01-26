@@ -8,10 +8,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 
-public class NVLasVegasParser extends FieldProgramParser {
+public class NVClarkCountyAParser extends FieldProgramParser {
   
-  public NVLasVegasParser() {
-    super("LAS VEGAS", "NV",
+  public NVClarkCountyAParser() {
+    super("CLARK COUNTY", "NV",
            "I:ID! U:UNIT! P:PRI! G:MAP! PH:MAP! L:ADDR! B:PLACE! AL:INFO! PC:CODE! CODE N:SKIP TIME+");
   }
   

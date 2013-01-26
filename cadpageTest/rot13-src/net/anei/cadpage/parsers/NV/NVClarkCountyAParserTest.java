@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Ynf Irtnf Pbhagl, AI
+Pynex Pbhagl, AI
 Pbagnpg: Naql Fgbar <nxzrqvp33@tznvy.pbz>
 Fraqre: fzf@cntrjnl.arg
 
@@ -17,6 +17,7 @@ Fraqre: fzf@cntrjnl.arg
 (FZF) V: 4274468 H: 3901, C: 3, T: 3425, CU: 25 Y: 8105 OHEAG FVRAAN FG-PP# , O: , NY: CP:, 17N A:17N], Ybpngvba sebz Sver: 8105 OHEAG FVRAAN FG
 (FZF) V: 4274545 H: 3901, C: 7, T: 3216, CU: 11 Y: 9300 J FHAFRG EQ-PP# RE 1 , O: FBHGUREA UVYYF UBFCV, NY: 9ZBZ / VI ZBA B2 / U1C RE CP:, 430 A
 (FZF) V: 4275070 H: 1972, C: 1, T: 3516, CU: 56 Y: 8898 QRRC EVQTR PG-PP# , O: , NY: CP:, 10P A:10P], Ybpngvba sebz Sver: 8898 QRRC EVQTR PG, 19
+(FZF) V: 4414642 H: 2221, C: 2, T: 3223, CU: 31 Y: J ZNEGVA NIR / F INYYRL IVRJ OYIQ# , O: , NY: CP:, 29O A:29O], 11:27:33 [Trbtencuvp Nern: J ZNEGVA NIR / F INYYRL
 
 (FZF) EHA#:4273913 /EPI:00:32:57/RAE:00:34:10/BAF:00:40:00/GEF:01:23:33/QRF:01:28:03/ZVY:
 (FZF) EA#4274400 /EPI:19:03:42/RAE:19:04:20/BAF:19:08:38/NIN:19:13:06
@@ -24,10 +25,10 @@ Fraqre: fzf@cntrjnl.arg
 
 */
 
-choyvp pynff AIYnfIrtnfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff AIPynexPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp AIYnfIrtnfPbhaglCnefreGrfg() {
-    frgCnefre(arj AIYnfIrtnfCnefre(), "YNF IRTNF", "AI");
+  choyvp AIPynexPbhaglNCnefreGrfg() {
+    frgCnefre(arj AIPynexPbhaglNCnefre(), "PYNEX PBHAGL", "AI");
   }
   
   @Grfg
@@ -116,10 +117,21 @@ choyvp pynff AIYnfIrtnfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:8898 QRRC EVQTR PG",
         "PVGL:PYNEX PBHAGL",
         "PBQR:10P");
+
+    qbGrfg("G9",
+        "(FZF) V: 4414642 H: 2221, C: 2, T: 3223, CU: 31 Y: J ZNEGVA NIR / F INYYRL IVRJ OYIQ# , O: , NY: CP:, 29O A:29O], 11:27:33 [Trbtencuvp Nern: J ZNEGVA NIR / F INYYRL",
+        "VQ:4414642",
+        "HAVG:2221",
+        "CEV:2",
+        "ZNC:3223-31",
+        "NQQE:J ZNEGVA NIR & F INYYRL IVRJ OYIQ",
+        "PBQR:29O",
+        "GVZR:11:27:33");
+
   }
   
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj AIYnfIrtnfPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj AIPynexPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }
 }
