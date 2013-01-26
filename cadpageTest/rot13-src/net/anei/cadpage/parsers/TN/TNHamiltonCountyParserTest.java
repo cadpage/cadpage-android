@@ -151,7 +151,6 @@ choyvp pynff GAUnzvygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NAFOG-NAVZNY BE FANXR OVGR",
         "CYNPR:JNSSYR UBHFR",
         "NQQE:8912 YRR UJL",
-        "K:8912 YRR UJL",
         "PVGL:PUNGNABBTN");
 
   }
