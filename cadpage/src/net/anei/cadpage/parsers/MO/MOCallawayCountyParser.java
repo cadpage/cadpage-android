@@ -29,7 +29,7 @@ public class MOCallawayCountyParser extends FieldProgramParser {
     return true;
   }
   
-  private static final Pattern ID_CODE_CALL_PTN = Pattern.compile("NEW[A-Z]{3} +#(\\d\\d-\\d+|OUTS) +(\\d)+ +- +(.*)");;
+  private static final Pattern ID_CODE_CALL_PTN = Pattern.compile("NEW[A-Z]{3} +#(\\d\\d-\\d+|OUTS) +(\\d[A-Z]?)+ +- +(.*)");;
   private class MyIdCallField extends Field {
     @Override
     public void parse(String field, Data data) {
