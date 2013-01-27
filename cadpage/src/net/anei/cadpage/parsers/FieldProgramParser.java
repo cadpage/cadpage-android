@@ -217,7 +217,11 @@ public class FieldProgramParser extends SmartAddressParser {
   }
   
   public FieldProgramParser(String defCity, String defState, String programStr) {
-    super(defCity, defState);
+    this(defCity, defState, CountryCode.US, programStr);
+  }
+  
+  public FieldProgramParser(String defCity, String defState, CountryCode country, String programStr) {
+    super(defCity, defState, country);
     setProgram(programStr, 0);
   }
   

@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE 
-      = Cnggrea.pbzcvyr("(?: +[-+]?\\q+\\.\\q+){2}$");
+      = Cnggrea.pbzcvyr("Yn = (\\q+)Âº ([\\q,]+)'([AF])");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("25 LBS FRVMHER UK 42.952 -74.2147");
+    qbGrfg("Yn = 59Âº 23.486'A    Yb = 016Âº 28.492'R");
   }
     
   

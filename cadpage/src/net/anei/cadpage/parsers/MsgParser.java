@@ -40,7 +40,8 @@ public abstract class MsgParser {
     US(GPS_POS_LAT | GPS_NEG_LONG | GPS_LARGE_LONG), 
     UK(GPS_POS_LAT | GPS_LARGE_LAT), 
     AU(GPS_NEG_LAT | GPS_POS_LONG | GPS_LARGE_LONG), 
-    NZ(GPS_NEG_LAT | GPS_POS_LONG | GPS_LARGE_LONG);
+    NZ(GPS_NEG_LAT | GPS_POS_LONG | GPS_LARGE_LONG),
+    SE(GPS_POS_LAT | GPS_POS_LONG | GPS_LARGE_LAT);
     
     private int gpsFlags;
     

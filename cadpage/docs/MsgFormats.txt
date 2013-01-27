@@ -3221,6 +3221,11 @@ New Zealand (ZNZNewZealandParser)
 (KAMO192) 111-MIN 58 EDEN TCE KAMO. (XStr MARIPOSA PL/LOGAN PL) .CARPORT ON FIRE PRESSUMED OUT OPP. #F1269009
 (KAMO191) 111-MIN (Box -C) MERRIVALE REST HOME 1 WINGER CR KAMO. (XStr GREAT NORTH RD/) .ALARMS SOUNDING NSOF. #F1268810
 ***************************************************************************
+Sweden (ZSESwedenParser)
+3386836\nTrafikolycka - singel\nPersonbil\nVajervÃ¤g\nRiksvÃ¤g 56 Eskilstuna mot VÃ¤sterÃ¥s\nGrÃ¶ndal\nD10\nPositionWGS84 : La = 59Âº 24,996'N    Lo = 016Âº 21,934'E
+3385463\nRÃ¶klukt - byggnad\nFlerfamiljshus\n\nEskilsgatan 62A\n\nD10\nPositionWGS84 : La = 59Âº 21,556'N    Lo = 016Âº 31,495'E
+3385353\nAutomatlarm\nBrand\n\nKungsvÃ¤gen 67     Nr 110 DjurgÃ¥rdens Sjukhem\nEskilstuna\nD10\nPositionWGS84 : La = 59Âº 21,840'N    Lo = 016Âº 32,210'E
+***************************************************************************
 West Midlands, UK (ZUKWestMidlandsParser)
 E:1699 (16:45) Unconscious DY8 4JA The Brambles Residential Home 69a Vicarage Road Amblecote Stourbridge (390070,285129)
 E:989 (12:13) Abdo Pain DY8 1HB Highbury House Nursing Home The Old Rectory Parkfield Road Stourbridge (390537,284075)

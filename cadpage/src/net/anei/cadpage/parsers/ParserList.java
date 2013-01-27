@@ -756,6 +756,9 @@ public class ParserList {
           new ParserCategory("New Zealand"
               ,"ZNZNewZealand"                  ,"New Zealand"
           ),
+          new ParserCategory("Sweden"
+              ,"ZSESweden"                      ,"Sweden"
+          ),
           new ParserCategory("United Kingdom"
               ,"ZUKWestMidlands"                ,"West Midlands Region, UK"
               ,"ZUKGeneral"                     ,"Generic Location"
