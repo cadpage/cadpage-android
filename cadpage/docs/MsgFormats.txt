@@ -3133,10 +3133,15 @@ Pierce County, WA (WAPierceCountyAParser)
 (- part 1 of 1) RC:Run# 36872/Sick Person/<Unknown>/S 56TH ST & PACIFIC AVE///X=56th&55th/TACOMA// AVE//606//TACOMA/773 G5/\n\nThis is a confidential/proprietary communication intended for the add
 (- part 1 of 1) RC:Run# 45146/Unconscious/<Unknown>/6TH AVE & N STEVENS ST//behind 76 station/X=N Verde St&N Stevens St/TACOMA//\n\nThis is a confidential/propri
 (-***************************************************************************
-Pierce County, WA (variant B)
+Pierce County, WA (WAPierceCountyBParser)
 FIRE911\n\n31D3 @ 16:57:29\nDLOC\n6505 CLIFF AV KS,16\nMap=300,RD=16- 400\nto: F16\n\nPowered by m.textmarks.com\n\n*Psoriasis treatment option http://4in.fo/gP_Gbw
 FIRE911\n\n26C1 @ 02:48:37\nALTERED LOC\n2627 200TH AV KS,16\nMap=195,RD=16- 320\nto: F16\n\nPowered by m.textmarks.com
 FIRE911\n\n19C7 @ 11:23:01\nHEART PROB\n19515 28TH ST KS,16\nMap=195,RD=16- 320\nto: F16\n\nPowered by m.textmarks.com
+***************************************************************************
+Snohomish County, WA (WASnohomishCountyParser)
+** DISP **UPGRADED MEDIC (ALS) RESPONSE !8512 163 AV NE ,GRF !AM2022 !TG/T05 !358E-5!A86 A87 AMFULL E87 M81 PGEND !,MALE, UNCON, NBR . DOING CPR
+** DISP **MEDIC (ALS) RESPONSE !603 N INDIANA AV ,GRF !AM2125 !TG/T05 !358J-4!A87 AMDUTY M81 PGEND !,4 YOF, SAYING SHE CANT BREATHE AND GRABBING AT HER THROAT,
+** DISP **MEDIC (ALS) RESPONSE !112 NOBLE WY ,GRF !AM2124 !TG/T05 !358H-4!A87 AMDUTY M81 PGEND !,4YO, DIFF BREATHING, COUGHING, HIVES, POSS ALLERGIC REACTION
 ***************************************************************************
 Yakima County, WA (VAYakimaCountyParser)
 08.22.10 02/07/12 EMR RED 505 MADISON AVE; GARFIELD SCHOOL TPFD TP1 YM06 TP0 UNK TYPE OF INJ  / OUTSIDE IN PLAYGROUND / 8 YR BOY - NURSE ON SCENE RP TOLD TO CALL - NOT ON SCENE MAIN PLAYGROUND - WILL MEET UNITS TO DIRECT
@@ -5444,53 +5449,6 @@ Eskilstuna
 D10
 PositionWGS84 : La = 59 grader 22,592'N    Lo = 016 grader 29,983'E
 **********************************************************
-Snohomish, WA
-Contact: Jeff Torgerson <torgie17@gmail.com>
-Sender: 6245
-Snopac Dispatch???
-** DISP **UPGRADED MEDIC (ALS) RESPONSE !8512 163 AV NE ,GRF !AM2022 !TG/T05 !358E-5!A86 A87 AMFULL E87 M81 PGEND !,MALE, UNCON, NBR . DOING CPR
-** DISP **MEDIC (ALS) RESPONSE !603 N INDIANA AV ,GRF !AM2125 !TG/T05 !358J-4!A87 AMDUTY M81 PGEND !,4 YOF, SAYING SHE CANT BREATHE AND GRABBING AT HER THROAT,
-** DISP **MEDIC (ALS) RESPONSE !112 NOBLE WY ,GRF !AM2124 !TG/T05 !358H-4!A87 AMDUTY M81 PGEND !,4YO, DIFF BREATHING, COUGHING, HIVES, POSS ALLERGIC REACTION
-** DISP **BLS RESPONSE !11916 CHAPPEL RD ,ARL !AM2223A!TG/T05 !338F-7!AMDUTY E87 PGEND !,*PFC*FEM BLOODY, HBD,CON,BREATHING VERIFIED
-** DISP **MEDIC (ALS) RESPONSE !15022 77 ST NE ,LKS !AM2022 !TG/T05 !358C-6!A86 AMDUTY M81 PGEND !,FEM CARDI HX BREATHING DIFF
-** DISP **FIRE RESIDENTIAL !3925 147 AV NE ,LKS !AG1722 !TG/T06 !378C-4!A81 AGFULL B81 E68 E81 E82 E83 E87 FM81 PGEND STN81 T87 TE49 !,GARAGE ON FIRE
-** DISP **FIRE SINGLE ENGINE RESPONSE !11325 184 DR NE ,GRF !AM2224B!TG/T05 !358H-1!AMDUTY E87 PGEND !,CHIMNEY FIRE
-** DISP **SERVICE CALL !15119 116 ST NE ,ARL !AM2222W!TG/T05 !358C-1!A86 PGEND !,TO THE SOUTH AND UP THE HILL, ILL BURN, ONGOING PROB , RP REQ PH AFTER CHECK
-** DISP **FIRE RESIDENTIAL !3925 147 AV NE ,LKS !AG1722 !TG/T06 !378C-4!A81
-AGFULL B81 E68 E81 E82 E83 E87 FM81 PGEND STN81 T87 TE49 !,GARAGE ON FIRE
-Eff Body:** DISP **FIRE RESIDENTIAL !3925 147 AV NE ,LKS !AG1722 !TG/T06
-!378C-4!A81 AGFULL B81 E68 E81 E82 E83 E87 FM81 PGEND STN81 T87 TE49
-!,GARAGE ON FIRE
-***Disp*** don't know why its here
-Fire Residential, is the type code given by dispatch. other type codes
-can be BLS, MED, MVC, MVCM, it can't be more then 6 characters in lengh
-*3925 147 av ne, LKS* is the address. AV is avenue, NE, is northeast. PL:
-place, CT, court ST: street
-AG1722 is the grid page (Snohmish county is broken into grids to make
-mapping easier)
-378C-4: Thomas guide page and grid number
-After that are units being dispatched
-After that is the text that dispatch put in for the call.
-On Tue, Jan 1, 2013 at 1:31 PM, Jeff Torgerson <torgie3916@gmail.com> wrote:
-Grf, granite falls
-Lks, lake Stevens
-Arl, Arlington
-Sno, Snohomish
-Stw, Stanwood
-Gbr, Gold Bar
-Mck, Mill Creek
-Eve, Everett
-Mar, Marysville
-Dar, Darrington
-Sul, Sultan
-Lyn, Lynnwood
-Idx, Index
-Edm, Edmonds
-Mon, Monroe
-Muk, Mukilteo
-Bot, Bothell
-Mlt, Mountlake Terrace
-Bri, Brier
 **********************************************************
 Town of Hamburg, NY (Erie County) :(
 Contact: Jack Chiappone <jchiappone77@verizon.net>

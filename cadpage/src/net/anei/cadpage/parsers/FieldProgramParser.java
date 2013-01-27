@@ -2033,7 +2033,7 @@ public class FieldProgramParser extends SmartAddressParser {
 
     @Override
     public void parse(String field, Data data) {
-      data.strMap = field;
+      data.strMap = append(data.strMap, "-", field);
     }
   }
 
