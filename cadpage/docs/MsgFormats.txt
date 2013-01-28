@@ -3150,6 +3150,7 @@ Yakima County, WA (VAYakimaCountyParser)
 ***************************************************************************
 Berkeley County, WV (WVBerkeleyCountyParser)
 (Alert) Description:ALRM CO/IN\nAddress: 5550 WINCHESTER AVE \nMARTINSBURG\n\n\n(Alert) Description:ALRM CO/IN\nAddress: 58 HAPPY SCHOOL AVE \nBUNKER HILL\n\n\n(Alert) Description:MUTAID S H\nAddress: 2718 WELLTOWN RD \nMARTINSBURG\n\n\n***************************************************************************
+***************************************************************************
 Cabell County. WV (WVCabellCountyParser)
 1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22225) CCERC911\nMSG:113030126/10-30-11/06:42:08/Other Fire/8160 FRAZIERS LN/LESAGE/LORENA LN/KATHI\n(Con't) 2 of 2\nLN/50YF/BLEEDING FROM A SURGICAL WOUND IN STOMACH//(End)
 1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22343) CCERC911\nMSG:113030199/10-30-11/14:16:29/Structure Fire/6419 RT 60/BARBOURSVILLE/GEORGES DRY\n(Con't) 2 of 2\nCLEANERS/FARMDALE RD/MAIN ST/201 231 ENRT/237/(End)
