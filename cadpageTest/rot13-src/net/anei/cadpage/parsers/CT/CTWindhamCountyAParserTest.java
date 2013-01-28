@@ -46,6 +46,22 @@ Fraqre: dirpcntvat@dirp.bet
 (Yvfoba SQ Cntr) FGN54  33.74 PB (Ab Flzcgbzf) 18 IREFNVYYRF EQ / Yvfoba (K-FGF XRAQNYY EQ / QRNQ RAQ ) 20:08
 (Yvfoba SQ Cntr) FGN54  33.88 CEV 2 RZG fgvyy arrqrq /  Zragny Qvfbeqre A OHEAUNZ UJL / EBFF UVYY EQ Yvfoba (K-FGF ) 11:03
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Qnavryfba Sver Qrcnegzrag
+Ybpngvba: Qnavryfba, PG, Havgrq Fgngrf
+Fraqre: "dirpcntvat@dirp.bet" <dirpcntvat@dirp.bet>
+
+(Qnavryfba SQ Cntr) DIZrqvp1 ERF61 FGN561 XO1  XVYYVATYL 460 CEV 1 Qvssvphygl Oernguvat 30 TYNQLF FG / Xvyyvatyl (K-FGF EVIRE FG / ZNCYR FG ) 16:39
+(Qnavryfba SQ Cntr) ERF61 FGN561 XO2  XVYYVATYL 460 CEV 1 2AQ PERJ ARRQRQ Fvpx Crefba 22 CNYZRE FG / Xvyyvatyl (K-FGF YRNAQRE FG / ZNCYR FG, J CNYZRE FG ) 23:47
+(Qnavryfba SQ Cntr) ERF61 FGN561 XO1 DIZrqvp1  XVYYVATYL 460 CEV 1 Cevbe gb Rkvg 92 Hapbafpvbhf/Snvagvat EBHGR 395 ABEGUOBHAQ / Xvyyvatyl (K-FGF ) 15:16
+(Qnavryfba SQ Cntr) ERF61 FGN561 XO1  XVYYVATYL 460 CEV 1 dhrfgvba bs bofgehpgrq nvejnl Pubxvat/Nvejnl Ceboyrz 29 BNX FG / Xvyyvatyl (K-FGF FCEVAT FG / ZRPUNAVP FG ) 15:09
+(Qnavryfba SQ Cntr) FGN61  33.90 ERCNTR SBE R161 Unmneqbhf Zngrevnyf 111 JRFGPBGG EQ / Xvyyvatyl (K-FGF FCENTHR FG / ZNVA FG, UHGPUVAF FG ) 13:54
+(Qnavryfba SQ Cntr) FGN61  33.90 Sver Nynez 111 JRFGPBGG EQ / Xvyyvatyl (K-FGF FCENTHR FG / ZNVA FG, UHGPUVAF FG ) 13:54
+(Qnavryfba SQ Cntr) FGN61 :  Bcre 33.76 /  RG161 gb Pbire ng FGN67 (Fgreyvat)
+(Qnavryfba SQ Cntr) FGN61  33.76 PB (Ab Flzcgbzf) 231 ZNVA FG / HAVG N Xvyyvatyl (K-FGF ERLABYQF FG, FCEVAT FG / OEBNQ FG ) 00:57
+(Qnavryfba SQ Cntr) FGN61  33.90 fzbxr qrgrpgbef  Sver Nynez 163 PBZZREPR NIR / Xvyyvatyl (K-FGF ) 18:24
+(Qnavryfba SQ Cntr) FGN61  33.76 Sver Nynez 127 YUBZZR FG / Xvyyvatyl (K-FGF OBAARIVYYR FG / RKVG 92 F, TNHGUVRE NIR ) 14:20
+
 */
 
 choyvp pynff PGJvaqunzPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -270,6 +286,122 @@ choyvp pynff PGJvaqunzPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Yvfoba",
         "GVZR:11:03");
  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnavryfbaSver() {
+
+    qbGrfg("G1",
+        "(Qnavryfba SQ Cntr) DIZrqvp1 ERF61 FGN561 XO1  XVYYVATYL 460 CEV 1 Qvssvphygl Oernguvat 30 TYNQLF FG / Xvyyvatyl (K-FGF EVIRE FG / ZNCYR FG ) 16:39",
+        "FEP:Qnavryfba SQ",
+        "HAVG:DIZrqvp1 ERF61 FGN561 XO1",
+        "PU:XVYYVATYL 460",
+        "CEV:1",
+        "PNYY:Qvssvphygl Oernguvat",
+        "NQQE:30 TYNQLF FG",
+        "PVGL:Xvyyvatyl",
+        "K:EVIRE FG / ZNCYR FG",
+        "GVZR:16:39");
+
+    qbGrfg("G2",
+        "(Qnavryfba SQ Cntr) ERF61 FGN561 XO2  XVYYVATYL 460 CEV 1 2AQ PERJ ARRQRQ Fvpx Crefba 22 CNYZRE FG / Xvyyvatyl (K-FGF YRNAQRE FG / ZNCYR FG, J CNYZRE FG ) 23:47",
+        "FEP:Qnavryfba SQ",
+        "HAVG:ERF61 FGN561 XO2",
+        "PU:XVYYVATYL 460",
+        "CEV:1",
+        "PNYY:2AQ PERJ ARRQRQ Fvpx Crefba",
+        "NQQE:22 CNYZRE FG",
+        "PVGL:Xvyyvatyl",
+        "K:YRNAQRE FG / ZNCYR FG, J CNYZRE FG",
+        "GVZR:23:47");
+
+    qbGrfg("G3",
+        "(Qnavryfba SQ Cntr) ERF61 FGN561 XO1 DIZrqvp1  XVYYVATYL 460 CEV 1 Cevbe gb Rkvg 92 Hapbafpvbhf/Snvagvat EBHGR 395 ABEGUOBHAQ / Xvyyvatyl (K-FGF ) 15:16",
+        "FEP:Qnavryfba SQ",
+        "HAVG:ERF61 FGN561 XO1 DIZrqvp1",
+        "PU:XVYYVATYL 460",
+        "CEV:1",
+        "PNYY:Cevbe gb Rkvg",
+        "NQQE:92 Hapbafpvbhf & Snvagvat EBHGR 395 ABEGUOBHAQ",
+        "ZNQQE:92 Hapbafpvbhf",
+        "PVGL:Xvyyvatyl",
+        "GVZR:15:16");
+
+    qbGrfg("G4",
+        "(Qnavryfba SQ Cntr) ERF61 FGN561 XO1  XVYYVATYL 460 CEV 1 dhrfgvba bs bofgehpgrq nvejnl Pubxvat/Nvejnl Ceboyrz 29 BNX FG / Xvyyvatyl (K-FGF FCEVAT FG / ZRPUNAVP FG ) 15:09",
+        "FEP:Qnavryfba SQ",
+        "HAVG:ERF61 FGN561 XO1",
+        "PU:XVYYVATYL 460",
+        "CEV:1",
+        "PNYY:dhrfgvba bs bofgehpgrq nvejnl Pubxvat/Nvejnl Ceboyrz",
+        "NQQE:29 BNX FG",
+        "PVGL:Xvyyvatyl",
+        "K:FCEVAT FG / ZRPUNAVP FG",
+        "GVZR:15:09");
+
+    qbGrfg("G5",
+        "(Qnavryfba SQ Cntr) FGN61  33.90 ERCNTR SBE R161 Unmneqbhf Zngrevnyf 111 JRFGPBGG EQ / Xvyyvatyl (K-FGF FCENTHR FG / ZNVA FG, UHGPUVAF FG ) 13:54",
+        "FEP:Qnavryfba SQ",
+        "HAVG:FGN61",
+        "PU:33.90",
+        "PNYY:ERCNTR SBE R161 Unmneqbhf Zngrevnyf",
+        "NQQE:111 JRFGPBGG EQ",
+        "PVGL:Xvyyvatyl",
+        "K:FCENTHR FG / ZNVA FG, UHGPUVAF FG",
+        "GVZR:13:54");
+
+    qbGrfg("G6",
+        "(Qnavryfba SQ Cntr) FGN61  33.90 Sver Nynez 111 JRFGPBGG EQ / Xvyyvatyl (K-FGF FCENTHR FG / ZNVA FG, UHGPUVAF FG ) 13:54",
+        "FEP:Qnavryfba SQ",
+        "HAVG:FGN61",
+        "PU:33.90",
+        "PNYY:Sver Nynez",
+        "NQQE:111 JRFGPBGG EQ",
+        "PVGL:Xvyyvatyl",
+        "K:FCENTHR FG / ZNVA FG, UHGPUVAF FG",
+        "GVZR:13:54");
+
+    qbGrfg("G7",
+        "(Qnavryfba SQ Cntr) FGN61 :  Bcre 33.76 /  RG161 gb Pbire ng FGN67 (Fgreyvat)",
+        "FEP:Qnavryfba SQ",
+        "HAVG:FGN61 : Bcre",
+        "PU:33.76",
+        "CYNPR:RG161 gb Pbire ng FGN67 (Fgreyvat)");
+
+    qbGrfg("G8",
+        "(Qnavryfba SQ Cntr) FGN61  33.76 PB (Ab Flzcgbzf) 231 ZNVA FG / HAVG N Xvyyvatyl (K-FGF ERLABYQF FG, FCEVAT FG / OEBNQ FG ) 00:57",
+        "FEP:Qnavryfba SQ",
+        "HAVG:FGN61",
+        "PU:33.76",
+        "PNYY:PB (Ab Flzcgbzf)",
+        "NQQE:231 ZNVA FG",
+        "CYNPR:HAVG N",
+        "PVGL:Xvyyvatyl",
+        "K:ERLABYQF FG, FCEVAT FG / OEBNQ FG",
+        "GVZR:00:57");
+
+    qbGrfg("G9",
+        "(Qnavryfba SQ Cntr) FGN61  33.90 fzbxr qrgrpgbef  Sver Nynez 163 PBZZREPR NIR / Xvyyvatyl (K-FGF ) 18:24",
+        "FEP:Qnavryfba SQ",
+        "HAVG:FGN61",
+        "PU:33.90",
+        "PNYY:fzbxr qrgrpgbef Sver Nynez",
+        "NQQE:163 PBZZREPR NIR",
+        "PVGL:Xvyyvatyl",
+        "GVZR:18:24");
+
+    qbGrfg("G10",
+        "(Qnavryfba SQ Cntr) FGN61  33.76 Sver Nynez 127 YUBZZR FG / Xvyyvatyl (K-FGF OBAARIVYYR FG / RKVG 92 F, TNHGUVRE NIR ) 14:20",
+        "FEP:Qnavryfba SQ",
+        "HAVG:FGN61",
+        "PU:33.76",
+        "PNYY:Sver Nynez",
+        "NQQE:127 YUBZZR FG",
+        "PVGL:Xvyyvatyl",
+        "K:OBAARIVYYR FG / RKVG 92 F, TNHGUVRE NIR",
+        "GVZR:14:20");
+
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
