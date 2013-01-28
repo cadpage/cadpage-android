@@ -24,7 +24,7 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "e9web1@ongov.net";
+    return "e9web1@ongov.net,messaging@emergencysmc.com,@notifyatonce.net";
   }
 
   @Override
@@ -115,12 +115,15 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "OTOW",  "OWASCO",
+      "TCI",   "CICERO",
+      "TCL",   "CLAY",
       "TMA",   "MANLIUS",
       "TMR",   "MARCELLUS",
       "TPO",   "POMPEY",
       "TSL",   "SALINA",
       "TSK",   "SKANEATELES",
       "VFY",   "FAYETTEVILLE",
+      "VNS",   "NORTH SYRACUSE",
       "VSK",   "SKANEATELES",
       
       "OVCH MAD", "MADISON COUNTY"

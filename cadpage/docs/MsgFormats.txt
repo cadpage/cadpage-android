@@ -5327,10 +5327,12 @@ Contact: Kevin Aube <auberacing@gmail.com>
 Sender: 93001043
 4954:CAD:A2,E31,E21,CFL7,E11,BC1,OPS1;1;RESCUE ASSIGNMENT;667 WILSON ST;K103;SMITH ST;JOHNDY AV;tree fell through roof, no injuries [01/17/13 16:57:37 BSHOTTS]
 **********************************************************
-Suffolk County, NY (Fix?)
+Suffolk County, NY (Fix? for NYSuffolkCountyB)
 Contact: stupman97 <stupman97@gmail.com>
 Sender: masticambco@optonline.net
 ** 16-24 Pregnancy \n** TOA: 09:15 01-18-13 \n** 24-D-3 \n** 115 MEADOWMERE AV** CS: MASTIC RD / CLOVER ST \n** 2013-000127 \n**24-D-
+** 16-29 Traffic Accident \n** TOA: 03:50 01-26-13 \n** 29-D-4 \n**** CS: MASTIC RD / SOMERSET AVE \n** 2013-000183 \n**29-D-4**
+** 16-26 Sick \n** TOA: 14:15 01-26-13 \n** 26-A-10 \n** 223 PATCHOGUE AV** CS: MAY PL / DOUGLASTON ST \n** 2013-000185 \n**26-A-10**
 **********************************************************
 Unknown
 Contact: Jason Davis <onceamedic@gmail.com>
@@ -5343,116 +5345,9 @@ Sender: LOGIS-Emergin-Paging@logis.org
 STRUCTURE FIRE AD: 11014 OREGON CURVE CMT1: HARD OF HEARING OR POOR PHONE CONNECTION FEMALE SAYING "ALL MY DETECTOR\r
 **********************************************************
 **********************************************************
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-Sweden,
-Contact: ebba.ehrstedt@gmail.com
-Active911 Agency ID: 5631
-Interna brandlarm
-Inringt från platsen
-Flerfamiljshus
-östra åsgatan 6, 1
-Nyfors
-D10
-PositionWGS84 : La = 59 grader 22,084'N    Lo = 016 grader 30,468'E
-Från: 3315 [MOBILE: 3315]
-Skickat: den 2 januari 2013 18:24
-Ämne: 3325673
-Trafikolycka - singel
-Personbil
-Motorväg
-E 20 Lövlund
-D10
-PositionWGS84 : La = 59 grader 22,137'N    Lo = 016 grader 42,915'E
-3325673
-Trafikolycka - singel
-Personbil
-Motorväg
-E 20 Lövlund
-D10
-PositionWGS84 : La = 59 grader 22,137'N    Lo = 016 grader 42,915'E
-Från: 3315 [MOBILE: 3315]
-Skickat: den 2 januari 2013 21:18
-Ämne: 3325975
-Trafikolycka - flera fordon
-Personbil
-Övrigt
-carlavägen 47a
-D10
-PositionWGS84 : La = 59 grader 22,299'N    Lo = 016 grader 31,957'E
-3325975
-Trafikolycka - flera fordon
-Personbil
-Övrigt
-carlavägen 47a
-D10
-PositionWGS84 : La = 59 grader 22,299'N    Lo = 016 grader 31,957'E
-Från: 3315 [MOBILE: 3315]
-Skickat: den 5 januari 2013 02:00
-Ämne: 3331568
-Röklukt - byggnad
-Flerfamiljshus
-Noachs Tvärgata 2A
-Eskilstuna
-D10
-PositionWGS84 : La = 59 grader 22,417'N    Lo = 016 grader 31,361'E
-3331568
-Röklukt - byggnad
-Flerfamiljshus
-Noachs Tvärgata 2A
-Eskilstuna
-D10
-PositionWGS84 : La = 59 grader 22,417'N    Lo = 016 grader 31,361'E
-Från: 3315 [MOBILE: 3315]
-Skickat: den 7 januari 2013 12:40
-Ämne: 3336671
-Interna brandlarm
-Inringt från platsen
-Övrigt
-Sättargatan
-D10
-PositionWGS84 : La = 59 grader 20,574'N    Lo = 016 grader 29,103'E
-3336671
-Interna brandlarm
-Inringt från platsen
-Övrigt
-Sättargatan
-D10
-PositionWGS84 : La = 59 grader 20,574'N    Lo = 016 grader 29,103'E
-Från: 3315 [MOBILE: 3315]
-Skickat: den 7 januari 2013 14:32
-Ämne: 3337055
-Automatlarm
-Brand
-Mälarsjukhuset     Nr 69 Mälarsjukhuset, Eskilstun
-Eskilstuna
-D10
-PositionWGS84 : La = 59 grader 21,772'N    Lo = 016 grader 32,388'E
-3337055
-Automatlarm
-Brand
-Mälarsjukhuset     Nr 69 Mälarsjukhuset, Eskilstun
-Eskilstuna
-D10
-PositionWGS84 : La = 59 grader 21,772'N    Lo = 016 grader 32,388'E
-Från: 3315 [MOBILE: 3315]
-Skickat: den 8 januari 2013 13:15
-Ämne: 3339777
-Automatlarm
-Brand
-Kungsgatan 68      Nr 31 Kontor  Studielokal
-Eskilstuna
-D10
-PositionWGS84 : La = 59 grader 22,592'N    Lo = 016 grader 29,983'E
-3339777
-Automatlarm
-Brand
-Kungsgatan 68      Nr 31 Kontor  Studielokal
-Eskilstuna
-D10
-PositionWGS84 : La = 59 grader 22,592'N    Lo = 016 grader 29,983'E
 **********************************************************
 **********************************************************
 Town of Hamburg, NY (Erie County) :(
@@ -5532,6 +5427,42 @@ MAILBOX@GalaxVa.com MAILBOX:CANARS 19:47 EMS - BREATHING DIFFICULTY 000000 S I-7
 MAILBOX:CANARS 00:49 FIRE - ELECTRICAL 005613 CHANCES CREEK RD CFS# 2013-002102
 MAILBOX:CANARS 23:16 EMS - NAUSEA / VOMITING 000021 BECKY'S LN CFS# 2013-001739
 MAILBOX:CANARS 20:23 FIRE - VEHICLE 000000 FISH LAKE RD CFS# 2013-001732
+**********************************************************
+Humble, TX (Atascocita FD
+Contact: "Wassell, Michael" <MWassell@avfd.com>
+Sender:  msg@cfmsg.com
+(Chief ALT) [FIRE] - 29b1 Motor Vehicle A - Forest Timbers Dr / Timber Forest D - Key Map:337S - Box #:A3901
+(Chief ALT) [EMS] - 29b1 Motor Vehicle A - Forest Timbers Dr / Timber Forest D - Key Map:337S - Box #:A3901
+(Chief ALT) [FIRE] - 29b1 Motor Vehicle A - Forest Timbers Dr / Timber Forest D - Key Map:337S - Box #:A3901
+(Chief ALT) [EMS] - Breathing Problems - 8300 E Fm 1960 - Xst's: Fairway Island Dr/pine Echo Dr - Apt:1016 - Bldg:Veranda At - Key Map:338S - Box #:A1901
+(Chief ALT) [EMS] - 29b4 Motor Vehicle A - Timber Forest Dr / Atascocita Rd - Key Map:377A - Box #:A2901
+(Chief ALT) [FIRE] - 29b4 Motor Vehicle A - Timber Forest Dr / Atascocita Rd - Key Map:377A - Box #:A2901
+(Chief ALT) [FIRE] - 29b4 Motor Vehicle A - Timber Forest Dr / Atascocita Rd - Key Map:377A - Box #:A2901
+(Chief ALT) [FIRE] - 29b4 Motor Vehicle A - Timber Forest Dr / Atascocita Rd - Key Map:377A - Box #:A2901
+(Chief ALT) [EMS] - 6c1 Respiratory - 5310 Moonshadows Dr - Xst's: Wellswood Ct/pocito Ct - Key Map:337S - Box #:A3901
+(Chief ALT) [FIRE] - 52b1 Alarms - 19823 Firesign Dr - Xst's: W Lake Houston Pkwy/january Dr - Key Map:337U - Box #:A1901
+(Chief ALT) [EMS] - Incident Number : 13-01-03450 Address: 19911 Faye Oak Dr M19 19:19:52 19:20:54 19:29:38 19:42:29
+(Chief ALT) [FIRE] - Fuel Spill - 3820 Atascocita Rd - Xst's: Will Clayton Pkwy/woodland Hil - Bldg:Krogers Ga - Key Map:376C - Box #:A2901
+(Chief ALT) [FIRE] - Fuel Spill - 3820 Atascocita Rd - Xst's: Will Clayton Pkwy/woodland Hil - Bldg:Krogers Ga - Key Map:376C - Box #:A2901
+(Chief ALT) [EMS] - 29b3 Motor Vehicle A - E Fm 1960 / Moonshine Hill Loop - Key Map:336T - Box #:A2903
+(Chief ALT) [EMS] - 26a1 Medical Call - 4850 Lazy Timbers Dr - Xst's: June Forest Dr/lago Forest Dr - Key Map:376D - Box #:A2901
+(Chief ALT) [EMS] - ID#:13-01-03348 - Address changed to:4859 LAZY TIMBERS DR - Cross Streets:JUNE FOREST DR/LAGO FOREST DR - Key Map:377A
+(Chief ALT) [EMS] - 31a Unconscious Part - 6450 Kings Park Way - Xst's: Kings Arbor Trl/w Lake Houston - Bldg:Rosemont A - Key Map:337U - Box #:A1901
+(Chief ALT) [EMS] - 31d3 Unconscious Par - 6450 Kings Park Way - Xst's: Kings Arbor Trl/w Lake Houston - Bldg:Rosemont A - Key Map:337U - Box #:A1901
+(Chief ALT) [FIRE] - 31d3 Unconscious Par - 6450 Kings Park Way - Xst's: Kings Arbor Trl/w Lake Houston - Bldg:Rosemont A - Key Map:337U - Box #:A1901
+(Chief ALT) [FIRE] - 52b1 Alarms - 6808 Treeline Dr - Xst's: Atasca South Dr/summer Anne Dr - Key Map:377C - Box #:A1901
+(Chief ALT) [FIRE] - 52b1 Alarms - 6808 Treeline Dr - Xst's: Atasca South Dr/summer Anne Dr - Key Map:377C - Box #:A1901
+(Chief ALT) [EMS] - 26a1 Medical Call - 4850 Lazy Timbers Dr - Xst's: June Forest Dr/lago Forest Dr - Key Map:376D - Box #:A2901
+(Chief ALT) [EMS] - ID#:13-01-03348 - Address changed to:4859 LAZY TIMBERS DR - Cross Streets:JUNE FOREST DR/LAGO FOREST DR - Key Map:377A
+(Chief ALT) [EMS] - 31a Unconscious Part - 6450 Kings Park Way - Xst's: Kings Arbor Trl/w Lake Houston - Bldg:Rosemont A - Key Map:337U - Box #:A1901
+(Chief ALT) [EMS] - 31d3 Unconscious Par - 6450 Kings Park Way - Xst's: Kings Arbor Trl/w Lake Houston - Bldg:Rosemont A - Key Map:337U - Box #:A1901
+(Chief ALT) [FIRE] - 31d3 Unconscious Par - 6450 Kings Park Way - Xst's: Kings Arbor Trl/w Lake Houston - Bldg:Rosemont A - Key Map:337U - Box #:A1901
+(Chief ALT) [FIRE] - 52b1 Alarms - 6808 Treeline Dr - Xst's: Atasca South Dr/summer Anne Dr - Key Map:377C - Box #:A1901
+(Chief ALT) [FIRE] - 52b1 Alarms - 6808 Treeline Dr - Xst's: Atasca South Dr/summer Anne Dr - Key Map:377C - Box #:A1901
+
+Mapping should use the city Humble, TX
+TIMES pages will be in this format:
+[EMS] - Incident Number : 13-01-03450 Address: 19911 Faye Oak Dr M19 19:19:52 19:20:54 19:29:38 19:42:29
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>
@@ -6092,3 +6023,108 @@ Sender: eastmeadowfd@eastmeadowfd.net
 **********************************************************
 * EOF
 **********************************************************
+
+Agency name: Cicero Fire Department
+Location: Cicero, NY, United States
+Contact: Active911
+Sender: cfd001__1477896@notifyatonce.net
+I/CAD MSG CIF 10:43:51 8504 BAYRIDGE RD TCI XTS:SITKA DR/PINION DR,  , DIFB\n- P:1 Lev:0 X:  HAMILTON, G J RESD 01/27 10:43:02 SPECIAL ADDRESS COMMENT:\nSEE SPECIAL SITUATION FOR ACCESS INFO ______________________________________\n63F, DIFB, CON,LOW PULSE,COPD Number of patients: 1 Responder script: 63\nyear old, Female, Conscious, Breathing. Breathing Problems. Caller Statement:\n63F, DIFB, CON,LOW PULSE,COPD. Response text: Delta Responder script: DIFFICULTY\nSPEAKING BETWEEN BREATHS. POI  Disp: 10C
+I/CAD MSG CIF 17:44:12 818 N MAIN ST TCI: @DUNKIN DONUTS XTS:BEAR RD/KOPP\nAVE, AT INTERSECTION IFO , MVC -IB P:1 Lev:0 X:  E SECTOR -076.126542 043.145703\nCAUTION: WIRELESS CALL 01/26 17:41:58 M911 CC Re: HIS BLK OLDSMOBILE V\nBLK HUIMMER -- REQ AMBU FOR WIFE 21 YOF CON/BREATHING -- IS 38 WKS PREGNANT\nDuplicate Event:Location = 7777 BREWERTON RD TCI: @COPPERTOP TAVERN,\nCross M911- CC CALLER IN A HUMMER H3 COLOR BLK VS A DRK SUV.NO INJURIES.\nARE IN THE ROAD ON THE SIDE. Street 1 = KOPP AVE BUSINES
+(I/CAD MSG) CIF 17:44:12 818 N MAIN ST TCI: @DUNKIN DONUTS XTS:BEAR RD/KOPP AVE, AT\nINTERSECTION IFO , MVC -IB P:1 Lev:0 X:  E SECTOR -076.126542 043.145703\nCAUTION: WIRELESS CALL 01/26 17:41:58 M911 CC Re: HIS BLK OLDSMOBILE V\nBLK HUIMMER -- REQ AMBU FOR WIFE  Disp: 10C1,10C2,10C3,10C4,10E1,10E3,10M1,10R1,10SD1,10SD2
+(I/CAD MSG) CIF 14:09:42 DAMON RD/ROUTE 31 TCI XTS:DAMON RD/ROUTE 31,  , MVC -IB P:1\nLev:0 X:  ONE VEH BLK WENT OFF THE ROAD  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10M1,10R1,10SD1,10SD2
+(I/CAD MSG) CIF 06:00:10 8330 DOREEN AVE TCI XTS:LOUWAYNE PL/ROUTE 31,  , DIFB - P:1\nLev:0 X:  PH STEVER EDWARD RESD 01/26 05:59:04 HUSBAND DIF BREATH 70YM\nNumber of patients: 1 Responder script: 70 year old, Male, Conscious, Breathing.\nBreathing Problems. Caller Statement: HUSBAND DIF BREATH 70YM. Response\ntext: Delta Responder script: DIFFICULTY SPEAKING BETWEEN BREATHS. COPD\nDisp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+(I/CAD MSG) CIF 17:54:58 6178 DAWNS RDG TCI XTS:CORDERO DR/HONEYCOMB PATH,  , CHOK -\nP:1 Lev:0 X:  SE SECTOR -076.099291 043.188736 01/25 17:53:57 SON IS CHOKING\nNumber of patients: 1 Responder script: 3 month old, Male, Conscious, Breathing.\nChoking. Caller Statement: SON IS CHOKING. Response text: Delta Responder\nscript: Not alert.  Disp: 10C1,10C2,10C3,10M1,10SD1,10SD2
+I/CAD MSG CIF 17:35:04 818 N MAIN ST TCI: @DUNKIN DONUTS XTS:BEAR RD/KOPP\nAVE, IFO , MVC -IB P:1 Lev:0 X:  M911 - NOCC - WHI P/U VS DK COLOR SUV\n- LOOKS PRETTY BAD - FEMALE LOOKS SHAKEN UP Duplicate Event:Location =\n7777 BREWERTON RD TCI: @COPPERTOP TAVERN, Cross SE SECTOR -076.126649 043.145907\n01/25 17:33:55 M911 -- CALLER IS A WITNESS -- DRK GRY SUV VS CREME TRUCK\n-- UNK ON INJ Street 1 = KOPP AVE BUSINESS AVE, Cross Street 2 = BUSINESS\nAVE, Type = MVC - MOTOR VEHICLE COLLISION, Subtype = PB 
+(I/CAD MSG) SBF 11:54:57 SOUTH BAY RD/WHITING RD TCI XTS:SOUTH BAY RD/WHITING RD,  ,\nMVC -PB P:2 Lev:0 X:  M911 CC RE: GRN JEEP CHEREKEE VS A DRK GRN CHEVY\nSUBURBAN ANY U Duplicate Event:Location = SOUTH BAY RD/WHITING RD TCI,\nCross Street 1 = SOUTH BAY RD WHITING RD, Cross Street 2 = WHITING\nRD, Call Source = 9-911, Alarm Level = 0 End of Duplicate Event data\nDisp: 10E2,58C1,58C2,58C3,58E1,58R3,58RP2,58SD4
+(I/CAD MSG) SBF 10:49:40 7074 CATTLEMANS CROSSING RD TCI XTS:JOSETTE JUNCTION RD/BAYVIEW\nDR,  , ALRM -F P:1 Lev:0 X:  M911--C/C--SMOKE ALRM GOING OFF--NO SIGNS\nSMOKE/FIRE ANY U  Disp: 10TK1,58C1,58C2,58C3,58E1,58R3,58RP2,58SD4,CFCTAC3
+(I/CAD MSG) CIF 02:19:26 5704 ROUTE 31 TCI XTS:LEGIONNAIRE DR/BREWERTON RD,  , DIFB\n- P:1 Lev:0 X:  DIFB Number of patients: 1 Responder script: 41 year old,\nFemale, Conscious, Breathing. Breathing Problems. Caller Statement: DIFB.\nResponse text: Delta Responder script: DIFFICULTY SPEAKING BETWEEN BREATHS.\nPOI.  Disp: 10C2,10C3,10C4,10M1,10SD1,10SD2
+I/CAD MSG CIF 23:22:53 5930 GRIFFIN DR TCI XTS:COBBLESTONE DR/, APT QQ -\n86 , UNCP - P:1 Lev:0 X:  SPECIAL ADDRESS COMMENT: This record created\nby the CADAVU (Address Verification Utility) program. ABD PAINS AND SICK\n45YF Number of patients: 1 Responder script: 45 year old, Female, Conscious,\nBreathing. Abdominal Pain / Problems. Caller Statement: ABD PAINS AND SICK\n45YF. Response text: Charlie Responder script: Females with fainting or\nnear fainting 12-50. Reconfigured on another card: No  Disp
+(I/CAD MSG) CIF 08:58:54 8236 BREWERTON RD TCI: @CICERO TOWN HALL XTS:GILLETTE RD/FACTORY\nST,  , ALRM -F P:1 Lev:0 X:  911/ FIRE ALRM GOING OFF, WANTS FD DISPATCHED\nNO SMOKE OR FLAMES  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10M1,10R1,10SD1,10SD2,10TK1,CFCTAC3
+(I/CAD MSG) CIF 08:44:49 8236 BREWERTON RD TCI: @CICERO TOWN HALL XTS:GILLETTE RD/FACTORY\nST,  , ALRM -F P:1 Lev:0 X:  BARN POLE, TIME WARNER, 8005473229, OP 102\nDisp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10M1,10R1,10SD1,10SD2,10TK1,CFCTAC3
+(I/CAD MSG) CIF 20:51:16 5663 E CIRCLE DR TCI,1000: @SUPERCUTS XTS:E CIRCLE DR FROM\nNB ROUTE 481 RMP/FRONTAGE RD,  , FIRE -I P:1 Lev:0 X:  M911 CC RE LIGHT\nSMPOKE CONDITION IN THE BLDG NO FIRE SEEN THIS STORE IS ATTACHED TO OTHER\nBUSINESSES ALSO HAVE AN ODOR OF SNOKE OR POSS GAS ADV TO WAIT OUTISDE \nDisp: 09R7,10C1,10C2,10C3,10C4,10E1,10E2,10E3,10SD1,10SD2,10TK1,11E31,35R1,43TK1,CFCTAC4
+(I/CAD MSG) CIF 14:13:41 5759 ROUTE 31 TCI XTS:LEGIONNAIRE DR/BREWERTON RD, XST RT 31\n, CARD - P:1 Lev:0 X:  HAS CDS -VOMITING SYNDROME Number of patients: 1\nResponder script: 39 year old, Male, Conscious, Breathing. Chest Pain (Non-Traumatic).\nCaller Statement: HAS CDS -VOMITING SYNDROME . HAS CDS -VOMITING SYNDROME\nResponse text: Delta Responder script: Clammy.  Disp: 10C1,10C2,10C3,10C4,10M1,10SD2
+(I/CAD MSG) CIF 09:14:51 8170 THOMPSON RD TCI: @GIRLS SCOUT COUNCIL OF CNY XTS:SOUTH\nBAY RD/HEDDY LN,  , ALRM -F P:1 Lev:0 X:  VIA DOYLE - GENERAL AUDIBLE FIRE\nALRM 800-333-1830  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10M1,10TK1,CFCTAC3
+I/CAD MSG CIF 09:01:48 8504 BAYRIDGE RD TCI XTS:SITKA DR/PINION DR,  , CARD\n- P:1 Lev:0 X:  HAMILTON, G J RESD 01/23 09:00:41 SPECIAL ADDRESS COMMENT:\nSEE SPECIAL SITUATION FOR ACCESS INFO ______________________________________\nCHEST PAIN Number of patients: 1 Responder script: 63 year old, Female,\nConscious, Breathing. Chest Pain (Non-Traumatic). Caller Statement: CHEST\nPAIN. Response text: Charlie Responder script: Breathing normally =>\n35. -Comments: BLOOD THINNERS-  Disp: 10C1,10C2,10C3,10C4
+I/CAD MSG CIF 03:31:54 6112 COBBLESTONE DR TCI XTS:GRIFFIN DR/THOMPSON RD,\nBIULDING H APT 4  , PINJ - P:2 Lev:0 X:  FLR 2 APT H4 HUBER WILLIAM RESD\n01/23 03:09:32 FELL AND POSSIBLE BROKE HIP Number of patients: 1 Responder\nscript: 56 year old, Male, Conscious, Breathing. Falls. Caller Statement:\nFELL AND POSSIBLE BROKE HIP. Dispatch level suffix: G Response text: Alpha\nResponder script: NOT DANGEROUS body area (On the ground or floor). POI\nCALLER STATES THAT DOOR UNLOCKED. Reconfigured on anothe
+(I/CAD MSG) CIF 01:16:20 7952 JOSS FARM WAY TCI XTS:WRIGHTS HOTEL CRSE/WRIGHTS HOTEL\nCRSE,  , ALRM -F P:1 Lev:0 X:  M911 RE:FEMALE ON LINE GAVE THIS ADDRESS\nAND STATED HER SMOKE ALARMS ARE GOING OFF - LINE DISC WCB  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10M1,10SD1,10SD2,10TK1,CFCTAC3
+(I/CAD MSG) CIF 19:59:59 8594 NAZARETH DR TCI XTS:JERUSALEM DR/JERUSALEM DR,  , UNCP\n- P:1 Lev:0 X:  POST TBI - FLUID LEAKING THRU NOSE Number of patients:\n1 Responder script: 39 year old, Female, Conscious, Breathing. Unconscious\n/ Fainting (Near). Caller Statement: POST TBI - FLUID LEAKING THRU NOSE.\nResponse text: Charlie Responder script: Females 12-50 with abdominal pain.\nDisp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+(I/CAD MSG) CIF 14:03:22 6032 MONOPOLI PATH TCI XTS:/FRANCICA TER,  , DIFB - P:1 Lev:0\nX:  FALL AND DIFF BREATHING Number of patients: 1 Responder script: 56\nyear old, Female, Conscious, Breathing. Breathing Problems. Caller Statement:\nFALL AND DIFF BREATHING. Response text: Charlie Responder script: Abnormal\nbreathing.  Disp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+(I/CAD MSG) CIF 11:25:22 8550 PARDEE RD TCI: @PAUL DE LIMA COFFEE XTS:CARMENICA DR/MCKINLEY\nRD,  , FIRE -P P:2 Lev:0 X:  M911--NO C/C--POLE ON FIRE COMPL IS PASSERBY--STATES\nIN FRT OF PEPSI DISTRIBUTION PLANT  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10R1,10TK1
+I/CAD MSG CIF 07:23:25 6062 HAIFA LN TCI XTS:NAZARETH DR/JERUSALEM DR, \n, CARD - P:1 Lev:0 X:  TWCBL BELL JACQUELINE VOIP 01/20 07:20:49 SPECIAL\nADDRESS COMMENT: This record created by the CADAVU (Address Verification\nUtility) program. SORE THROAT/UNABLE TO SWALLOW Number of patients: 1 Responder\nscript: 72 year old, Female, Conscious, Breathing. Sick Person (Specific\nDiagnosis). Caller Statement: SORE THROAT/UNABLE TO SWALLOW. Response text:\nDelta Responder script: Chest Pain (Non-Traumatic). D
+I/CAD MSG CIF 04:08:01 6086 ROUTE 31 TCI XTS:NEW COUNTRY DR/DAMON RD,  ,\nBLMJ - P:1 Lev:0 X:  TWCBL DICKSON, LOIS VOIP 01/20 04:05:43 VOMITING BLOOD,\nSTOMACH PAIN/DISTENSION Number of patients: 1 Responder script: 78 year\nold, Female, Conscious, Breathing. Hemorrhage / Lacerations. Caller Statement:\nVOMITING BLOOD, STOMACH PAIN/DISTENSION . VOMITING BLOOD, STOMACH PAIN/DISTENSION\nResponse text: Bravo Responder script: POSSIBLY DANGEROUS hemorrhage. Reconfigured\non another card: No  Disp: 10C2,10
+I/CAD MSG CIF 15:40:25 6361 CATSPAW TER TCI XTS:FARM GATE PATH/,  , MVC\n-IB P:1 Lev:0 X:  POSS FX WRIST WHILE 4-WHEELING Number of patients: 1\nResponder script: 14 year old, Male, Conscious, Breathing. Traffic / Transportation\nIncidents. Caller Statement: POSS FX WRIST WHILE 4-WHEELING. Dispatch level\nsuffix: k Response text: Delta Responder script: HIGH MECHANISM (k through\ns) (All-terrain/snowmobile). 2.Chemicals or other hazards are not involved.\nI/O 20 MINS AGO - I/O IN A NEARBY FIELD PARENT
+(I/CAD MSG) CIF 13:49:14 8766 BREWERTON RD TCI: @LAMPLIGHTER MOTEL XTS:MCKINLEY RD/SNELLER\nRD, ROOM 6 , BLMJ - P:1 Lev:0 X:  59F, CON,BREATH Number of patients: 1\nResponder script: 59 year old, Female, Conscious, Breathing. Hemorrhage\n/ Lacerations. Caller Statement: 59F, CON,BREATH. Response text: Delta\nResponder script: Abnormal breathing. HIT HER HEAD ON CORNER OF THE CUPBOARD\nDOOR. FEELS DIZZY. & IS BLEEDING.  Disp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+I/CAD MSG CIF 11:52:13 6138 DAWNS RDG TCI: alias 6138 DAWNS RIDGE XTS:SNOWSHOE\nTRL/CORDERO DR,  , CARD - P:1 Lev:0 X:  DIFB CHEST PAINS, DIAB,HEART RACING\nNumber of patients: 1 Responder script: 36 year old, Female, Conscious,\nBreathing. Chest Pain (Non-Traumatic). Caller Statement: DIFB CHEST PAINS,\nDIAB,HEART RACING. Response text: Delta Responder script: DIFFICULTY SPEAKING\nBETWEEN BREATHS. PAIN ACROSS UPPER BACK ALSO SHE IS ALONE FRONT DOOR IS\nPOSS UNLOCKED HAS ASPIRIN IN HSE BUT UNK WHERE I
+(I/CAD MSG) CIF 11:52:13 6138 DAWNS RDG TCI: alias 6138 DAWNS RIDGE XTS:SNOWSHOE TRL/CORDERO\nDR,  , CARD - P:1 Lev:0 X:  DIFB CHEST PAINS, DIAB,HEART RACING Number\nof patients: 1 Responder script: 36 year old, Female, Conscious, Breathing.\nChest Pain (Non-Traumatic). Caller Statement: DIFB CHEST PAINS, DIAB,HEART\nRACING. Response text: Delta Responder script: DIFFICULTY SPEAKING BETWEEN\nBREATHS. PAIN ACROSS UPPER BACK ALSO  Disp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+(I/CAD MSG) CIF 09:39:46 SB I 81/ROUTE 31 TO SB I 81 RMP LAR TCI XTS:SB I 81/ROUTE 31\nTO SB I 81 RMP, JUST PAST THE EXIT FOR CICERO IN MEDIAN , MVC -PB P:2 Lev:0\nX:  M911 - C/C HIT GUARDRAL - NO AIR BAGS - SAID NO INJURIES VEH IS SAND\n(LT BRO) TOYOTA CORROLLA AU  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10R1,10SD1,10SD2
+(I/CAD MSG) CIF 05:32:32 8306 CODYS CORNERS TCI XTS:ANGLERS CLUB/ANGLERS CLUB, IN AREA\n-  , ALRM -U P:2 Lev:0 X:  BBBB AAAA RESD 01/18 05:31:32 911/NOCC/ RE STATES\nTHERE IS AN ALARM GOING OFF AND SEE THEY CAN SEE FLASHING LIGHTS POSS ON\nBACK PROCH  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10M1,10R1,10SD1,10SD2,10TK1,CFCTAC3
+(I/CAD MSG) CIF 01:12:13 8121 MCCAMIDGE DR TCI XTS:BROWNSTONE PATH/MISTY RIDGE LN, \n, DOM -IA P:1 Lev:0 X:  NADEAU ANDY RESD 01/18 01:11:41 911 - FEM HYSTERICAL\nFATHER/SON FIGHTING - BOTH JUST FELL DOWN A FLIGHT OF STAIRS - UNKN IF\nTHEY ARE CONS & BREATHING  Disp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+(I/CAD MSG) CIF 19:09:13 8365 FACTORY ST TCI: @SACRED HEART APTS XTS:NEW ST/BREWERTON\nRD, APT 205 , UNCP - P:1 Lev:0 X:  FOUND FATHER ON GROUND - UNRESPONSIVE\nNumber of patients: 1 Responder script: 85 year old, Male, Unconscious,\nBreathing. Unconscious / Fainting (Near). Caller Statement: FOUND FATHER\nON GROUND - UNRESPONSIVE. Response text: Delta Responder script: Unconscious\n-- Effective breathing.  Disp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+I/CAD MSG CIF 18:21:08 6012 DARBY RD TCI XTS:PICKETT LN/SOUTH BAY RD,  ,\nDIFB - P:1 Lev:0 X:  MELFI CHERYL RESD 01/17 18:18:31 SPECIAL ADDRESS COMMENT:\nThis record created by the CADAVU (Address Verification Utility) program.\nPOSS PANCREAITIS Number of patients: 1 Responder script: 53 year old, Female,\nConscious, Breathing. Abdominal Pain / Problems. Caller Statement: POSS\nPANCREAITIS. Response text: Charlie Responder script: Females with pain\nabove navel => 45. -Comments: SHARP STABBING PAIN- N
+(I/CAD MSG) CIF 20:47:43 6195 ROUTE 31 TCI: @LAKESHORE HEIGHTS PLAZA XTS:THOMPSON RD/SANDRA\nAVE,  , FIRE -F P:2 Lev:0 X:  VIA 10C1 -- NEEDS AN ENGINE WITH A METER\n- OUTSIDE GAS ODOR  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10R1,10TK1,CFCTAC3
+(I/CAD MSG) CIF 14:57:05 99 KOPP AVE TCI XTS:N MAIN ST/,  , UNCP - P:1 Lev:0 X:  PAIN\nIN RIGHT SIDE Number of patients: 1 Responder script: 60 year old, Female,\nConscious, Breathing. Abdominal Pain / Problems. Caller Statement: PAIN\nIN RIGHT SIDE. Response text: Charlie Responder script: Fainting or near\nfainting => 50. -Comments: RIGHT SIDE- POI Reconfigured on another card:\nNo  Disp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+(I/CAD MSG) CIF 12:13:50 6247 HENRYK WOODS RD TCI XTS:YUKON DR/GASPE LN,  , FIRE -F\nP:2 Lev:0 X:  TWCBL GROTH JEFFERY VOIP 01/16 12:08:40 911, NO VOICE, IMM\nHGP, ATT CB NOW SPEAKING TO CARRIE GROTH, SAYS SHE IS 33 YO, MAY HAVE SMELLED\nSMOKE, OR NOW SAYS POSS GAS ODOR CALLER WAS EVASIVE, SAID MAYBE CIGARETTE\nSMOKE, ALSO THEY HAD A GAS LEAK SOMETIME RECENTLY WAS ADVISED TO WAKE UP\nHER FATHER AND EVAC THE HOUSE  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10R1,10TK1,CFCTAC3
+(I/CAD MSG) CIF 08:20:29 7961 BREWERTON RD TCI: @HESS MART XTS:HOGAN DR W/CAUGHDENOY\nRD,  , UNCP - P:1 Lev:0 X:  AMERADA HESS CORP BUSN 01/16 08:19:48 911,\nAPPRX 30 YOM, UNCONC/UNK BREATYHING  Disp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+(I/CAD MSG) CIF 00:09:10 8060 BREWERTON RD TCI: @WALMART XTS:LINCOLN AVE/STEVENS DR,\n, ALRM -F P:1 Lev:0 X:  PER WALMART ALARM CENTRAL - OP 5642 - CB 800 530\n9924 - WATER FLOW 1 IN ZONE 9 AU  Disp: 10C2,10C3,10C4,10C5,10E1,10E2,10E3,10M1,10R1,10SD1,10SD2,10TK1,CFCTAC4
+(I/CAD MSG) CIF 19:02:45 6419 ELECTRIC RAILWAY TCI XTS:CICERO STAGE/ANGLERS CLUB,  ,\nALRM -F P:1 Lev:0 X:  SPECIAL ADDRESS COMMENT: This record created by the\nCADAVU (Address Verification Utility) program. CFC - FIRST FLOOR SMOKE\nTIME WARNER - C/B 432-0343, OPER 98  Disp: 10C2,10C3,10C4,10E1,10E2,10E3,10M1,10R1,10SD1,10SD2,10TK1,CFCTAC3
+I/CAD MSG CIF 11:05:15 5689 WILLIAMSON PKWY TCI XTS:/SUNSET TER,  , CVA\n- P:1 Lev:0 X:  TWCBL FITZPATRICK, WALT VOIP 01/14 11:01:29 MALE ON THE\nFLOOR Number of patients: 1 Responder script: 85 year old, Male, Conscious,\nBreathing. Falls. Caller Statement: MALE ON THE FLOOR. Responder script:\nStroke (CVA). Dispatch level suffix: U Response text: Charlie Responder\nscript: Not alert (Unknown when the symptoms started). -Comments: DID NOT\nUSE- Reconfigured on another card: No  Disp: 10C1,10C2,10C3,1
+I/CAD MSG CIF 16:06:25 8060 BREWERTON RD TCI: @WALMART XTS:LINCOLN AVE/STEVENS\nDR, INSIDE NEXT TO PHARMACY  , CARD - P:1 Lev:0 X:  SW SECTOR -076.118152\n043.161689 01/13 16:04:39 RAPID HEART RATE -CHEST PAINS Number of patients:\n1 Responder script: 39 year old, Male, Conscious, Breathing. Chest Pain\n(Non-Traumatic). Caller Statement: RAPID HEART RATE -CHEST PAINS . RAPID\nHEART RATE -CHEST PAINS Response text: Charlie Responder script: Heart\nattack or angina history.  Disp: 10C1,10C2,10C3,10C4,10
+(I/CAD MSG) CIF 09:50:55 8829 HAVEN CIR TCI XTS:MCKINLEY RD/,  , CARD - P:1 Lev:0 X:\nRAGONESE CW RESD 01/13 09:49:47 CHEST PAIN & DIFF BREAHTING Number of\npatients: 1 Responder script: 53 year old, Male, Conscious, Breathing.\nChest Pain (Non-Traumatic). Caller Statement: CHEST PAIN & DIFF BREAHTING.\nResponse text: Delta Responder script: DIFFICULTY SPEAKING BETWEEN BREATHS.\nDisp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+(I/CAD MSG) CIF 12:26:11 BREWERTON RD/CAUGHDENOY RD TCI XTS:BREWERTON RD/CAUGHDENOY\nRD, BEHIND WILSON FARMS , DOWN - P:1 Lev:0 X:  T/V/NO CC/CALLER STATETD\nTHERE IS A PERSON LYING UNK BREATHING OR CONS  Disp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+(I/CAD MSG) CIF 18:23:48 5789 NOEL RD TCI XTS:SOPHIA DR/EILEEN AVE,  , CARD - P:1 Lev:0\nX:  VAN DUSEN, THOMAS RESD 01/11 18:22:11 HUSBAND POSS HAVING A HEART ATTACK\nNumber of patients: 1 Responder script: 71 year old, Male, Conscious, Breathing.\nChest Pain (Non-Traumatic). Caller Statement: HUSBAND POSS HAVING A HEART\nATTACK. Response text: Charlie Responder script: Breathing normally =>\n35. -Comments: HAS TAKEN DIABETES AND HIGH BP MEDS-  Disp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+I/CAD MSG CIF 21:43:00 5954 PONY LN TCI XTS:APPLETON RD/PICKETT LN,  , CARD\n- P:1 Lev:0 X:  CHEST PAIN AND DIFB FEET NUMB Number of patients: 1 Responder\nscript: 49 year old, Male, Conscious, Breathing. Chest Pain (Non-Traumatic).\nCaller Statement: CHEST PAIN AND DIFB FEET NUMB. Response text: Delta Responder\nscript: Clammy. 1.He is completely alert (responding appropriately). 2.He\nis not breathing normally. 3.He does not have any difficulty speaking between\nbreaths. 4.He is not changing color. 
+I/CAD MSG CIF 10:51:17 8392 BOYKO FARM TCI XTS:MOYER CARRIAGE/ROUTE 31,\n, STAT -A P:2 Lev:0 X:  OINPD DEPT ONEIDA INDIAN NATION PBXb 01/10 10:24:52\n911 NO CC = COMP SECURITY AT TURNING STONE - CHECK ON EMPLOYEE WHO HASNT\nBEEN TO WORK IN 4 DAYS - THOMAS BLAIR 56 YOA - UNK MEDICAL HISTORY =\nPHONE CALLS TO HOUSE GO TO ANSWERING MACHING THAT IS FULL - COMP SENT EMPLOYEE\nTO HOUSE THIS MORNING - NO ANSWER AT DOOR & SEVERAL DOGS RUNNING LOOSE\nIN HOUSE AND MAKING A COMMOTION (DOGS ARE MR. BLAIRS - NOT 
+(I/CAD MSG) CIF 00:56:16 PARDEE RD/ROUTE 31 TCI XTS:PARDEE RD/ROUTE 31,  , WIRE -E P:1\nLev:0 X:  M911/NO CC RE WIRE DOWN AND ARCING IN TREE AU  Disp: 10BC2,10C1,10C2,10C3,10C4,10E1,10E2,10E3,10R1,10TK1,CIF1
+(I/CAD MSG) CIF 00:56:16 PARDEE RD/ROUTE 31 TCI XTS:PARDEE RD/ROUTE 31,  , WIRE -E P:1\nLev:0 X:  M911/NO CC RE WIRE DOWN AND ARCING IN TREE  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10R1,10TK1
+I/CAD MSG CIF 16:28:23 5575 MELTZER CT TCI: @CICERO TWIN ICE AREN XTS:/KNOWLEDGE\nLN,  , PINJ - P:2 Lev:0 X:  M911 - 2 PTS - BOTH 7 OR 8 - HEAD LACs AFTER\nA COLLISION BOTH CON AND BREATH Duplicate Event:Location = 5575 MELTZER\nCT TCI: @CICERO TWIN ICE AREN, Cross FEMALE SKATER FELL - HEAD INJURY Number\nof patients: 1 Street 1 = KNOWLEDGE LN, Cross Street 2 = KNOWLEDGE\nLN, Type = PINJ - PERSONAL INJURY, Caller Ph Number = (315) 382-7690,\nCall Source = 9-911, Alarm Level = Responder script: 7 year 
+(I/CAD MSG) NSF 11:56:21 628 S MAIN ST VNS: @MAINES PLAZA XTS:MELROSE DR/E TAFT RD,\nTHRIFTY SHOPPER , FIRE -I P:1 Lev:0 X:  STATED THEY SMELL BURNING IN THE\nROOF THERE IS A VOLUNTERR FIREFIGHTER THERE ALSO  Disp: 10E1,28TK2,35R1,39E32,43C1,43C2,43C3,43E2,43E4,43E6,43E8,43R3,43R5,43TK1,CFCTAC3,LVF1,LVF3
+(I/CAD MSG) CIF 07:59:35 5858 ROUTE 31 TCI: @FASTRAC XTS:PARDEE RD/LAKESHORE RD, IFO\nABOVE , MVC -IB P:1 Lev:0 X:  N SECTOR -076.115019 043.175712 01/09 07:58:00\nM911, CC APRIL ASHE, 23 YOF, CONC/BREATHING, HIT HER HEAD ON THE STEERING\nWHEEL. CC IS IN A RED CARD & OTHER VEH IS SLVR  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10M1,10R1,10SD1,10SD2
+I/CAD MSG CLF 00:32:12 8254 STEARNS RD TCL XTS:FORTUNA PKWY/ROUTE 31,  ,\nDIFB - P:1 Lev:0 X:  DIFB, URINATING HIMSELF Number of patients: 1 Responder\nscript: 91 year old, Male, Conscious, Breathing. Breathing Problems. Caller\nStatement: DIFB, URINATING HIMSELF . DIFB, URINATING HIMSELF Response text:\nDelta Responder script: DIFFICULTY SPEAKING BETWEEN BREATHS. POI RECVD\nBY LIFELINE, CB 888-289-2018 - SIDE DOOR IS OPEN Reconfigured on another\ncard: No REQ TO RESET LIFELINE BUTTON ON UNIT PT IS WE
+(I/CAD MSG) CIF 21:42:21 6194 WYNMOOR DR TCI XTS:CHINKAPIN CIR/CHINKAPIN CIR,  , BLMJ\n- P:1 Lev:0 X:  TWCBL GOETTEL JAMES VOIP 01/07 21:40:53 THROWING UP BLOOD\n55YOM Number of patients: 1 Responder script: 55 year old, Male, Conscious,\nBreathing. Hemorrhage / Lacerations. Caller Statement: THROWING UP BLOOD\n55YOM. Response text: Delta Responder script: DANGEROUS hemorrhage. MALE\nPUT PHONE DOWN  Disp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+(I/CAD MSG) SBF 13:14:58 8212 EASTWOOD RD TCI XTS:ISLAND RD/ROUTE 31,  , FIRE -R P:1\nLev:0 X:  ATTIC FIRE - ADVISED TO EVAC ANY UNIT MADISON NOTIFED FOR 07E3\nDisp: 07E3,10E1,11C2,11E31,58C1,58C2,58C3,58E1,58R3,58RP2,58SD4,CFCTAC3
+(I/CAD MSG) CIF 22:01:40 5575 MELTZER CT TCI: @CICERO TWIN ICE AREN XTS:/KNOWLEDGE LN,\nINSIDE  , DIFB - P:1 Lev:0 X:  M911- CAN BARELY HEAR THE CALLER--- 14 YO\nMALE CON/DIFB SAYS THE MALE HAS A HX OF HEART---- SAYS TO COME IN THE BACK\nOF THE ICE RINK THEY HAVE A DOOR OPEN PT IS OFF THE ICE... IS BY THE LOCKER\nROOM  Disp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+I/CAD MSG CIF 16:33:50 8362 THOMPSON RD TCI XTS:DIFFIN RD/ROUTE 31,  , SEIZ\n- P:1 Lev:0 X:  THIRD PARTY - POSS SEIZ HERE Number of patients: 1 Responder\nscript: 44 year old, Female, Consciousness unknown, Breathing status unknown.\nConvulsions / Seizures. Caller Statement: THIRD PARTY - POSS SEIZ HERE.\nDispatch level suffix: E Response text: Delta Responder script: Effective\nbreathing not verified => 35 (Epileptic or Previous history of seizures).\nCALLER IS ER TO THIS ADDRESS - HIS GIRLF IS THE P
+SON DENTAL CNTX 01/04 11:27:09 SPECIAL ADDRESS COMMENT: This record created\nby the CADAVU (Address Verification Utility) program. 
+I/CAD MSG CIF 11:28:45 8397 BREWERTON RD TCI: @JEFFERSON DENTAL XTS:ROUTE\n31/MELTZER CT, MAIN DOORS  , UNCP - P:1 Lev:0 X:  JEFFER
+107 BRUMFIELD, M RESD 01/04 09:05:59 NAUSEA, VOMITING Number of patients:\n1 Responder script: 81 year old, Female, Conscious, Brea
+I/CAD MSG CIF 09:08:04 8365 FACTORY ST TCI: @SACRED HEART APTS XTS:NEW ST/BREWERTON\nRD, APT 107  , DIFB - P:1 Lev:0 X:  FLR 1 APT 
+I/CAD MSG CIF 02:34:54 6138 DAWNS RDG TCI: alias 6138 DAWNS RIDGE TCI XTS:SNOWSHOE\nTRL/CORDERO DR,  , UNCP - P:1 Lev:0 X:  UNRESPO
+NSIVE, POSS DIAB RELATED Number of patients: 1 Responder script: 36 year\nold, Female, Unconscious, Breathing. Unconscious / Fainti
+:35:17 SPECIAL ADDRESS COMMENT: This record created by the CADAVU (Address\nVerification Utility) program.  Disp: 10C1,10C2,10C3,10
+I/CAD MSG CIF 01:35:51 6239 WELLAND LN TCI XTS:PALISADES DR/TARTAN DR N,\n, FIRE -V P:2 Lev:0 X:  TWCBL BROOKS DONNA VOIP 01/04 01
+O ONE INSIDE -- CALLER HUNG UP  Disp: 10E1,11C1,11C2,11C3,11C4,11E11,11E12,11E31,11R3,11TK3,39R3,43TK1,CFCTAC3
+I/CAD MSG CLF 15:16:12 9156 MUD MILL RD TCL XTS:CAUGHDENOY RD/BEAR SPRINGS\nRD,  , FIRE -R P:1 Lev:0 X:  HOUSE FIRE = O ONE INSDE N
+T ABOVE -- RECEIVED DISCONNECT -- NFI  Disp: 10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+I/CAD MSG CIF 13:13:41 6384 MUD MILL RD TCI XTS:FINISH LINE TRL/BEACH RD,\n, CALL -E P:1 Lev:0 X:  911 ONLY CELL -- FML REQ AMBU A
+I/CAD MSG CIF 11:04:47 6333 DAEDALUS RD TCI: @IMAGE PRESS XTS:SOUTH BAY\nRD/,  , ALRM -F P:1 Lev:0 X:  CO FIRE FIRE ALARM MAINTENAN
+CE OFFICE PULL STATION VIA SONITROL OP#39913 CB#800-932-3822 ANY UNIT  Disp:\n10C1,10C2,10C3,10C4,10E1,10E2,10E3,10M1,10R1,10SD1,10
+I/CAD MSG CIF 05:18:00 7952 JOSS FARM WAY TCI XTS:WRIGHTS HOTEL CRSE/WRIGHTS\nHOTEL CRSE,  , ALRM -F P:1 Lev:0 X:  KRONENBERG KIMBE
+RLY RESD 01/03 05:17:17 911 - FIRE ALRM GOING OFF - AUD ALRM IN BACKGROUND\nNO SMOKE OR FLAMES SEEN AU ALT CB 395-0910  Disp: 10C1,
+I/CAD MSG CIF 05:18:00 7952 JOSS FARM WAY TCI XTS:WRIGHTS HOTEL CRSE/WRIGHTS\nHOTEL CRSE,  , ALRM -F P:1 Lev:0 X:  KRONENBERG KIMBE
+RLY RESD 01/03 05:17:17 911 - FIRE ALRM GOING OFF - AUD ALRM IN BACKGROUND\nNO SMOKE OR FLAMES SEEN AU  Disp: 10C1,10C2,10E1,10E2,1
+by the CADAVU (Address Verification Utility) program. VIA 10C1- CO ALM\nGOES OFF EVERYTIME THE FURNANCE GOES ON NO ILLNESS REPORTE
+I/CAD MSG CIF 16:44:42 8341 EVA CIR TCI XTS:LANA LN/LANA LN,  , ALRM -C\nP:1 Lev:0 X:  SPECIAL ADDRESS COMMENT: This record created
+I/CAD MSG CIF 14:41:05 8417 ANGLERS CLUB TCI XTS:BOYKO FARM/ELECTRIC RAILWAY,\n1 FAMILY , DIFB - P:1 Lev:0 X:  SW SECTOR -076.05455
+2 043.183093 01/02 14:38:54 SPECIAL ADDRESS COMMENT: This record created\nby the CADAVU (Address Verification Utility) program. KID
+E NOT CONCIOUS 88YF Number of patients: 1 Responder script: 88 year old,\nFemale, Unconscious, Breathing. Unconscious / Fainting (N
+I/CAD MSG CIF 09:35:00 5877 GLENDORA RD TCI XTS:BREWERTON RD/,  , UNCP -\nP:1 Lev:0 X:  TWCBL DI PINO FRANK VOIP 01/02 09:33:19 WIF
+02 06:55:26 FEMALE TRYING TO OD Number of patients: 1 Responder script:\n15 year old, Female, Conscious, Breathing. Psychiatric / A
+I/CAD MSG CIF 07:12:52 8552 SNOWSHOE TRL TCI XTS:ROSSLAND CIR/ROSSLAND CIR,\n, OVRD - P:1 Lev:0 X:  TWCBL METRAS STEVEN E VOIP 01/
+cord created by the CADAVU (Address Verification Utility) program. SEVERE\nBACK PAIN Number of patients: 1 Responder script: 45 yea
+I/CAD MSG CIF 14:29:28 5930 GRIFFIN DR TCI XTS:COBBLESTONE DR/, APT QQ-86\n, DIFB - P:1 Lev:0 X:  SPECIAL ADDRESS COMMENT: This re
+ING AS A DUCT DETECTOR  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10M1,10R1,10SD1,10SD2,10TK1,CFCTAC3
+I/CAD MSG CIF 12:37:48 8400 PARDEE RD TCI: @CRACKER BARRELL XTS:ROUTE 31\nTO NB I 81 RMP/CARMENICA DR,  , ALRM -F P:1 Lev:0 X:  COM
+I/CAD MSG CIF 02:58:27 5860 CARMENICA DR TCI: @HOLIDAY INN EXPRESS CICERO\nXTS:PARDEE RD/PASUBIO TER,  , UNCP - P:1 Lev:0 X:  20'S 
+MALE PASSED OUT IN HALLWAY IN FRONT OF ROOM 405. COMP IS EMPLOYEE  Disp:\n10C1,10C2,10C3,10C4,10M1,10SD1,10SD2
+IAL ADDRESS COMMENT: SEE SPECIAL SITUATION FOR ACCESS INFO ______________________________________\nDIFB Number of patients: 1 Respo
+I/CAD MSG CIF 20:55:42 8504 BAYRIDGE RD TCI XTS:SITKA DR/PINION DR,  , DIFB\n- P:1 Lev:0 X:  HAMILTON, G J RESD 12/31 20:54:18 SPEC
+THE BOARDS,30M Number of patients: 1 Responder script: 30 year old, Male,\nConscious, Breathing. Traumatic Injuries (Specific). Cal
+I/CAD MSG CIF 09:41:52 5575 MELTZER CT TCI: @CICERO TWIN ICE AREN XTS:/KNOWLEDGE\nLN,  , PINJ - P:2 Lev:0 X:  POSS NECK INJURY,HIT 
+I/CAD MSG CIF 05:15:14 8011 BREWERTON RD TCI,200: @SUN SERVICE CENTER XTS:CAUGHDENOY\nRD/LINCOLN AVE,  , ALRM -F P:1 Lev:0 X:  VIA 
+SONITROL - ZONE 8 INDICATOR - CB 8009323822 - OP 87154 AU  Disp: 10C1,10C2,10C3,10C4,10E1,10E2,10E3,10M1,10R1,10SD1,10SD2,10TK1,CF
+I/CAD MSG CIF 08:28:14 6265 PREAKNESS PATH TCI XTS:FINISH LINE TRL/TRACK\nSIDE TRL,  , ALRM -C P:1 Lev:0 X:  OCSO/CC/CO ALARM WENT 
+OFF AND THEN STOPPED WOULD LIKE IT CHECKED CALLER TOOK FAMILY AND LEFT TO\nDUNKIN DONUTS - ETA 6 MINS BACK TO RESD,NOBODY ILL  Disp
+OFF AND THEN STOPPED WOULD LIKE IT CHECKED CALLER TOOK FAMILY AND LEFT TO\nDUNKIN DONUTS - ETA 6 MINS BACK TO RESD,NOBODY ILL  Disp
+I/CAD MSG CIF 08:27:43 6265 PREAKNESS PATH TCI XTS:FINISH LINE TRL/TRACK\nSIDE TRL,  , ALRM -C P:1 Lev:0 X:  OCSO/CC/CO ALARM WENT 
+(6032 MONOPOLI PATH) Dispatch **  ** 12/29/12 ** 18:16 **  ** F-ASSIST-CITIZEN ** 6032 MONOPOLI PATH ** FRANCICA TER ** - ** AST-C ** CIF121001017 ** CIF ** TCI **  ** CI ** 
+ev:0 X:  SW SECTOR -076.118045 043.161689 12/29 16:07:53 M911 CC RE: FEM\nLOCKED CHILD IN VEH ANY UNIT 2 YOM LOCKED IN VEH -- VEH I
