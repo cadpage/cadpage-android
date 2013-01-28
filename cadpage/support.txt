@@ -94,6 +94,32 @@ Please let me know if you still have problems with Cadpage.
 Good Luck, Jean, Assistant to Ken Corbin
 
 ******************************************************************
+Trouble registering with Active911
+******************************************************************
+
+Very occasionally, people having trouble with registering with
+Active911.  There are a couple things you can try, usually something works.
+
+Go to the home screen and select Menu > Settings > Accounts and Sync
+and make sure Background Data and Auto-Sync settings are enabled.  While
+you are here, press the Google account setting and Sync Now.
+
+Restart the device and try again.
+
+This takes care of 95% of the reported problems.  If it does not there
+are some odder tricks that are occasionally required.
+
+Power down your device, remove the SD card, then power it up and
+register Cadpage with Active911.  I have no idea why this would make any
+difference, but it got one user up and running.
+
+Double check your Active911 device configuration to confirm that it is
+configured with a page type of Cadpage (Android).
+
+Good luck,
+-Ken
+
+**********************************************************************
 ** PayPal and user list
 ******************************************************************
 
