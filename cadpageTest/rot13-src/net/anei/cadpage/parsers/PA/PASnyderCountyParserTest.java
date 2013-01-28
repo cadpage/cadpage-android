@@ -25,6 +25,10 @@ Pbagnpg: Oevna R <oqr407@tznvy.pbz>
 Fraqre: 5705419455
 FALQRE911:NHGBVA>ERFPHR - NHGB NPPVQRAG/ VAWHEL 16286 EBHGR 104 PRAGRE GJC Znc:6 Tevqf:, Pnq: 2013-0000000363
 
+Pbagnpg: Yhpnf Ovatzna <ypovatzna@cgq.arg>
+Fraqre: 15705419455
+FALQRE911:VYYCRE>RZF - VYY CREFBA 225 J ZNEXRG FG KF: F BENATR FG ORNIREGBJA OBEB JVYYVNZF, YNEEL 5706587492 Znc:27 Tevqf:, Pnq: 2013-0000000886
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Xernzre Sver Qrcg
 Ybpngvba: Zvqqyrohet, CN, Havgrq Fgngrf
@@ -176,6 +180,22 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:6",
         "VQ:2013-0000000363");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgYhpnfOvatzna() {
+
+    qbGrfg("G1",
+        "FALQRE911:VYYCRE>RZF - VYY CREFBA 225 J ZNEXRG FG KF: F BENATR FG ORNIREGBJA OBEB JVYYVNZF, YNEEL 5706587492 Znc:27 Tevqf:, Pnq: 2013-0000000886",
+        "PNYY:RZF - VYY CREFBA",
+        "NQQE:225 J ZNEXRG FG",
+        "PVGL:ORNIREGBJA",
+        "K:F BENATR FG",
+        "ANZR:JVYYVNZF, YNEEL",
+        "CUBAR:5706587492",
+        "ZNC:27",
+        "VQ:2013-0000000886");
+
   }
   
   @Grfg

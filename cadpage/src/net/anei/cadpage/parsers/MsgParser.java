@@ -1390,13 +1390,21 @@ public abstract class MsgParser {
      if (tFilter.length() <= 1) continue;
      
      // If filter consists only of numeric digits, it needs to match the
-     // beginning of what is presumably a phone number.  Otherwise it can
+     // beginning of what is presumably a phone number. Taking some pains
+     // to eliminate the spurious +1 that sometimes gets added to the the
+     // sender phonen number
+     if (DIGITS.matcher(tFilter).matches()) {
+       String tmp = sAddress;
+       if (tmp.startsWith("+")) tmp = tmp.substring(1);
+       if (tmp.startsWith("1") && ! tFilter.startsWith("1")) tmp = tmp.substring(1);
+       if (tmp.startsWith(tFilter)) return true;
+     } 
+     
+     // Otherwise it can
      // match any substring of the sender address.  This last
      // check should be case insensitive, which we accomplish by downshifting
      // both the address and the filter
-     if (DIGITS.matcher(tFilter).matches()) {
-       if (sAddress.startsWith(tFilter)) return true;
-     } else {
+     else {
        if (sAddress.toLowerCase().contains(tFilter.toLowerCase())) return true;
      }
    }
