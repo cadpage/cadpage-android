@@ -205,8 +205,17 @@
   
   <string name="donate_cadpage_nz_title">New Zealand location</string>
   <string name="donate_cadpage_nz_text">
-    You are using a location in the New Zealand.\n
+    You are using a location in New Zealand.\n
     We are not charging New Zealand users at this time.  Partly because non-US location
+    support is still experimental and partly because we want encourage more
+    users to try it there.  We may change this at some later time if/when
+    Cadpage becomes well established there.
+  </string>
+  
+  <string name="donate_cadpage_se_title">Sweden location</string>
+  <string name="donate_cadpage_se_text">
+    You are using a location in Sweden.\n
+    We are not charging Swedish users at this time.  Partly because non-US location
     support is still experimental and partly because we want encourage more
     users to try it there.  We may change this at some later time if/when
     Cadpage becomes well established there.

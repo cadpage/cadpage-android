@@ -443,7 +443,8 @@ public abstract class MsgParser {
     // UK locations are free for now
     if (countryCode == CountryCode.UK) return "UK";
     if (countryCode == CountryCode.AU) return "AU";
-    if (countryCode == CountryCode.NZ) return "NZ"; 
+    if (countryCode == CountryCode.NZ) return "NZ";
+    if (countryCode == CountryCode.SE) return "SE"; 
     return null;
   }
   
