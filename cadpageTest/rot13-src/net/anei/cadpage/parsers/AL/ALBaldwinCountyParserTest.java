@@ -23,7 +23,7 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Qncuar Sver Qrcg. Ybpngvba: Qncuar, NY 
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 
-(QN) 07-27-12 22:54: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 318501 (Fhvpvqr) ng 8764 QEVSGBA PG
+** Erzbirq **
 (QN) 07-28-12 01:58: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 318559 (Purfg Cnva) ng 29793 JBBQEBJ YA
 (QN) 07-28-12 13:44: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 318716 (Trareny Vyyarff) ng 131 EVQTRJBBQ QE (0)
 (QN) 07-28-12 14:11: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 318728 (Nhgb Nppvqrag) ng UJL181 AO V-10
@@ -35,7 +35,7 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (QN) 07-29-12 09:06: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319086 (Hapbafpvbhf) ng 200 CNEZN QE
 (QN) 07-29-12 11:38: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319128 (Sver Nynez) ng 27642 HF UJL 98
 (QN) 07-29-12 14:03: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319179 (Fgebxr) ng 28480 ONL PYVSS YA
-(QN) 07-29-12 15:23: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319200 (Fhvpvqr Guerng) ng 8764 QEVSGBA PG
+** Erzbirq **
 (QN) 07-30-12 06:56: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319399 (Fgehpgher Sver) ng CNEX QE
 (QN) 07-30-12 08:19: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319417 (Hapbafpvbhf) ng 27434 FGENGSBEQ TYRA QE
 (QN) 07-30-12 08:51: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319429 (Snyy) ng 29951 FG ONEONEN FG
@@ -189,15 +189,6 @@ choyvp pynff NYOnyqjvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgNpgvir911N() {
 
-    qbGrfg("G1",
-        "(QN) 07-27-12 22:54: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 318501 (Fhvpvqr) ng 8764 QEVSGBA PG",
-        "QNGR:07/27/2012",
-        "GVZR:22:54",
-        "HAVG:FGN66",
-        "VQ:318501",
-        "PNYY:Fhvpvqr",
-        "NQQE:8764 QEVSGBA PG");  // Abg znccvat
-
     qbGrfg("G2",
         "(QN) 07-28-12 01:58: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 318559 (Purfg Cnva) ng 29793 JBBQEBJ YA",
         "QNGR:07/28/2012",
@@ -299,15 +290,6 @@ choyvp pynff NYOnyqjvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:319179",
         "PNYY:Fgebxr",
         "NQQE:28480 ONL PYVSS YA");
-
-    qbGrfg("G13",
-        "(QN) 07-29-12 15:23: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319200 (Fhvpvqr Guerng) ng 8764 QEVSGBA PG",
-        "QNGR:07/29/2012",
-        "GVZR:15:23",
-        "HAVG:FGN66",
-        "VQ:319200",
-        "PNYY:Fhvpvqr Guerng",
-        "NQQE:8764 QEVSGBA PG");
 
     qbGrfg("G14",
         "(QN) 07-30-12 06:56: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319399 (Fgehpgher Sver) ng CNEX QE",
