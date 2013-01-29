@@ -15,7 +15,7 @@ public class VAAugustaCountyParser extends DispatchOSSIParser {
   
   public VAAugustaCountyParser() {
     super("AUGUSTA COUNTY", "VA",
-           "FYI? EMPTY? CALL! PLACE? ADDR/S! MAP? EXTRA? X X INFO");
+           "FYI? EMPTY? CALL! ( ADDR/SZ! END | PLACE? ADDR/S! MAP? EXTRA? X X INFO )");
   }
   
   @Override
