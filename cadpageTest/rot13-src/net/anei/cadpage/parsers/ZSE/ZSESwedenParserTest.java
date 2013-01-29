@@ -9,6 +9,8 @@ Fjrqra
 
 Pbagnpg: Ebtre Ruefgrqg <roon.ruefgrqg@tznvy.pbz>
 Fraqre: 3315
+3391350\aNhgbzngynez\aOenaq\a\aUäyyol             Ae 86 IPR Phfgbz Pragre\aRfxvyfghan\aQ10\aCbfvgvbaJTF84 : Yn = 59 tenqre 24,079'A    Yb = 016 tenqre 26,958'R\a
+
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Eqqavatfgwafgra Rfxvyfghan
@@ -91,7 +93,30 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre() {
+  choyvp ibvq grfgEbtreRuefgrqg() {
+
+    qbGrfg("G1",
+        "3391350\a" +
+        "Nhgbzngynez\a" +
+        "Oenaq\a\a" +
+        "Uäyyol             Ae 86 IPR Phfgbz Pragre\a" +
+        "Rfxvyfghan\a" +
+        "Q10\a" +
+        "CbfvgvbaJTF84 : Yn = 59 tenqre 24,079'A    Yb = 016 tenqre 26,958'R\a",
+
+        "VQ:3391350",
+        "PNYY:Nhgbzngynez / Oenaq",
+        "NQQE:Uäyyol",
+        "NCG:86",
+        "CYNPR:IPR Phfgbz Pragre",
+        "PVGL:Rfxvyfghan",
+        "FEP:Q10",
+        "TCF:+59.401317,+16.449300");
+   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEqqavatfgwafgraRfxvyfghan() {
 
     qbGrfg("G1",
         "3386836\a" +
@@ -129,7 +154,9 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:3385353",
         "PNYY:Nhgbzngynez / Oenaq",
-        "NQQE:XhatfiÃ¤tra 67     Ae 110 QwhetÃ¥eqraf Fwhxurz",
+        "NQQE:XhatfiÃ¤tra 67",
+        "NCG:110",
+        "CYNPR:QwhetÃ¥eqraf Fwhxurz",
         "PVGL:Rfxvyfghan",
         "FEP:Q10",
         "TCF:+59.364000,+16.536833");
@@ -153,7 +180,9 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:3382387",
         "PNYY:Nhgbzngynez / Oenaq",
-        "NQQE:UÃ¶earqnyftngna 1  Ae 126 Yhaqolfxbyna",
+        "NQQE:UÃ¶earqnyftngna 1",
+        "NCG:126",
+        "CYNPR:Yhaqolfxbyna",
         "PVGL:Rfxvyfghan",
         "FEP:Q10",
         "TCF:+59.375083,+16.480667");
@@ -177,7 +206,9 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:3380211",
         "PNYY:Nhgbzngynez / Oenaq",
-        "NQQE:UÃ¶earqnyftngna 1  Ae 126 Yhaqolfxbyna",
+        "NQQE:UÃ¶earqnyftngna 1",
+        "NCG:126",
+        "CYNPR:Yhaqolfxbyna",
         "PVGL:Rfxvyfghan",
         "FEP:Q10",
         "TCF:+59.375083,+16.480667");
@@ -201,7 +232,9 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:3375027",
         "PNYY:Nhgbzngynez / Oenaq",
-        "NQQE:Fghertngna 11      Ae 36 SeÃ¶fyhaqnfxbyna",
+        "NQQE:Fghertngna 11",
+        "NCG:36",
+        "CYNPR:SeÃ¶fyhaqnfxbyna",
         "PVGL:Rfxvyfghan",
         "FEP:Q10",
         "TCF:+59.356567,+16.499583");
@@ -248,7 +281,9 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:3371027",
         "PNYY:Nhgbzngynez / Oenaq",
-        "NQQE:YnteÃ¥qftngna 28     Ae 8 YntreoretftÃ¥eqra",
+        "NQQE:YnteÃ¥qftngna 28",
+        "NCG:8",
+        "CYNPR:YntreoretftÃ¥eqra",
         "PVGL:Rfxvyfghan",
         "FEP:Q10",
         "TCF:+59.354683,+16.474367");
@@ -345,7 +380,9 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:3361381",
         "PNYY:Nhgbzngynez / Oenaq",
-        "NQQE:YhaqoynqfiÃ¤tra 4-6 Ae101 Firncyna Pragehz",
+        "NQQE:YhaqoynqfiÃ¤tra 4-6",
+        "NCG:101",
+        "CYNPR:Firncyna Pragehz",
         "PVGL:Rfxvyfghan",
         "FEP:Q10",
         "TCF:+59.365617,+16.523900");
@@ -393,7 +430,9 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2145006403",
         "PNYY:Nhgbzngynez / Oenaq",
-        "NQQE:Enqrznpuretngna 27  Ae 2 Pvgluhfrg",
+        "NQQE:Enqrznpuretngna 27",
+        "NCG:2",
+        "CYNPR:Pvgluhfrg",
         "PVGL:Rfxvyfghan",
         "FEP:Q10",
         "TCF:+59.372383,+16.511550");
@@ -477,7 +516,7 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:3355792",
         "PNYY:Gensvxbylpxn - fvatry / Crefbaovy / Ã–ievtg",
-        "NQQE:IÃ¤t 56, Zryyna Xngevarubyz bpu Fg Fhaqol",
+        "NQQE:IÃ¤t 56, Zryyna Xngevarubyz bpu Fg. Fhaqol",
         "PVGL:Zryyna Xngevarubyz bpu Fg. Fhaqol",
         "FEP:Q20",
         "TCF:+59.017917,+16.214217");
@@ -630,7 +669,9 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:3339777",
         "PNYY:Nhgbzngynez / Oenaq",
-        "NQQE:Xhatftngna 68      Ae 31 Xbagbe  Fghqvrybxny",
+        "NQQE:Xhatftngna 68",
+        "NCG:31",
+        "CYNPR:Xbagbe  Fghqvrybxny",
         "PVGL:Rfxvyfghan",
         "FEP:Q10",
         "TCF:+59.376533,+16.499717");
@@ -646,7 +687,9 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:3337055",
         "PNYY:Nhgbzngynez / Oenaq",
-        "NQQE:ZÃ¤ynefwhxuhfrg     Ae 69 ZÃ¤ynefwhxuhfrg, Rfxvyfgha",
+        "NQQE:ZÃ¤ynefwhxuhfrg",
+        "NCG:69",
+        "CYNPR:ZÃ¤ynefwhxuhfrg, Rfxvyfgha",
         "PVGL:Rfxvyfghan",
         "FEP:Q10",
         "TCF:+59.362867,+16.539800");
@@ -655,7 +698,9 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "3337055\aNhgbzngynez\aOenaq\a\aZÃ¤ynefwhxuhfrg     Ae 69 ZÃ¤ynefwhxuhfrg\aRfxvyfghan\aQ10\aCbfvgvbaJTF84 : ",
         "VQ:3337055",
         "PNYY:Nhgbzngynez / Oenaq",
-        "NQQE:ZÃ¤ynefwhxuhfrg     Ae 69 ZÃ¤ynefwhxuhfrg",
+        "NQQE:ZÃ¤ynefwhxuhfrg",
+        "NCG:69",
+        "CYNPR:ZÃ¤ynefwhxuhfrg",
         "PVGL:Rfxvyfghan",
         "FEP:Q10");
 

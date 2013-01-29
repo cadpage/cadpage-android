@@ -33,7 +33,23 @@ public class ZSESwedenParser extends FieldProgramParser {
     return parseFields(body.split("\n"), 8, data);
   };
   
-  private static final Pattern GPS_PTN = Pattern.compile("La = (\\d+)Âº ([\\d\\.,]+)'([NS]) +Lo = (\\d+)Âº ([\\d\\.,]+)'([EW])");
+  private static final Pattern APT_MARKER = Pattern.compile(" Nr(?= |\\d)");
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      data.strAddress = p.get(APT_MARKER);
+      data.strApt = p.get(' ');
+      data.strPlace = p.get();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT PLACE";
+    }
+  }
+  
+  private static final Pattern GPS_PTN = Pattern.compile("La = (\\d+)(?:Âº| grader) ([\\d\\.,]+)'([NS]) +Lo = (\\d+)(?:Âº| grader) ([\\d\\.,]+)'([EW])");
   private class MyGPSField extends GPSField {
     @Override
     public void parse(String field, Data data) {
@@ -51,6 +67,7 @@ public class ZSESwedenParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new IdField("\\d+");
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("GPS")) return new MyGPSField();
     return super.getField(name);
   }

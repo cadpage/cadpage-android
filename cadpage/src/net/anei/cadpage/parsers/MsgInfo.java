@@ -394,6 +394,9 @@ public class MsgInfo {
     String sAddr = strAddress;
     if (parser != null) sAddr = parser.adjustMapAddress(sAddr);
     
+    // Non-English addresses is beyond our capabilites at this point
+    if (countryCode == CountryCode.SE) return sAddr;
+    
     // UK addresses have a postal code prefix that we don't want to mess with
     String prefix = "";
     if (countryCode == MsgParser.CountryCode.UK){
