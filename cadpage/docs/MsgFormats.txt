@@ -3120,10 +3120,15 @@ East Jefferson County, WA (WAJeffersonCountyParser)
 (JCFD5) BLS  :  E52   :   :  2911 SHERMAN ST  :  Port Townsend  :  29TH ST / 30TH ST  :  09/06/12 18:37  :  Narrative :   LEG IS STUCK  PT IS STUCK IN H
 (JCFD5) Fire - Dumpster  :  E16 A16 DC11   :   :  CASS ST  :  Port Townsend  :   :  09/06/12 02:22  :  Narrative :   IN THE MIDDLE OF THE STREET  COUCH 
 ***************************************************************************
-King County, WA (WAKingCountyParser)
+King County, WA (WAKingCountyAParser)
 92701 Stevens Pass Hwy                            #          Aid - Emergency               A295      A295
 19426 636th Ave Ne                                #          Aid - Emergency               A296      A295,A296,A296,295ST,SPM54
 141 Old Cascade Hwy E                             #          Aid - Emergency               A295      A295
+***************************************************************************
+King County, WA (WAKingCountyBParser)
+CAD||44530 Se 148th St # KING COUNTY Aid - Emergency FTAC1 L87,A88 
+CAD||39664 Se Spruce St # Structure Fire - Residential FTAC2 281ST,E281,SQSOP,L87,E271,B71ST
+CAD||51699 EB90 # KING COUNTY MVA - Rescue FTAC3 M3,A88,87ST,E291,E2
 ***************************************************************************
 Lewis County, WA (WALewisCountyParser)
 FD05_;fipo; 11/23/12 20:18:44; Fire -Brush; Jackson Hwy & State Route 508; north side of the road on hwy 508 about 50 ft from jackson hwy,  line of fire\nabout 25 ft long \n; [D00900820] - AlarmMessenger
@@ -5358,16 +5363,6 @@ STRUCTURE FIRE AD: 11014 OREGON CURVE CMT1: HARD OF HEARING OR POOR PHONE CONNEC
 **********************************************************
 **********************************************************
 **********************************************************
-King County, WA
-Contact: "Dan Covey" <dan@dancovey.net>
-System: Aegis
-CAD||44530 Se 148th St # KING COUNTY Aid - Emergency FTAC1 L87,A88 
-CAD||39664 Se Spruce St # Structure Fire - Residential FTAC2 281ST,E281,SQSOP,L87,E271,B71ST
- |136
-CAD||51699 EB90 # KING COUNTY MVA - Rescue FTAC3 M3,A88,87ST,E291,E2
-CAD||Addr: 79500 Wb90 Problem: MVA - Aid Emergency Units: A291,L87,KTAID,A291,SPFD1,E291, [Geographic Area: 79500 WB90] [Medi
-CAD||messaging at Station: KTCOM,CADVoice processing messaging at Station: ST291,Undefined at Station: ZAMBS,ST291 Alerted at 01/07/2013 08:32:29 for E291,A291,
-CAD||410 NE 6th St # NORTH BEND Medic FTAC1 A88,M3,L87
 **********************************************************
 Scotty County, IA
 Contact: David Liske <david.liskeusmc@gmail.com>
