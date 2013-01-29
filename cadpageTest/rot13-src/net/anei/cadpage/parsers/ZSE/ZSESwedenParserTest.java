@@ -10,7 +10,7 @@ Fjrqra
 Pbagnpg: Ebtre Ruefgrqg <roon.ruefgrqg@tznvy.pbz>
 Fraqre: 3315
 3391350\aNhgbzngynez\aOenaq\a\aUäyyol             Ae 86 IPR Phfgbz Pragre\aRfxvyfghan\aQ10\aCbfvgvbaJTF84 : Yn = 59 tenqre 24,079'A    Yb = 016 tenqre 26,958'R\a
-
+3393916\aEöxyhxg - olttanq\aSyresnzvywfuhf\a\aGrtaretngna 16 n,1\aAlsbef\aQ10\aCbfvgvbaJTF84 : Yn = 59 tenqre 21,823'A    Yb = 016 tenqre 29,934'R
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Eqqavatfgwafgra Rfxvyfghan
@@ -112,6 +112,22 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Rfxvyfghan",
         "FEP:Q10",
         "TCF:+59.401317,+16.449300");
+
+    qbGrfg("G2",
+        "3393916\a" +
+        "Eöxyhxg - olttanq\a" +
+        "Syresnzvywfuhf\a\a" +
+        "Grtaretngna 16 n,1\a" +
+        "Alsbef\a" +
+        "Q10\a" +
+        "CbfvgvbaJTF84 : Yn = 59 tenqre 21,823'A    Yb = 016 tenqre 29,934'R",
+
+        "VQ:3393916",
+        "PNYY:Eöxyhxg - olttanq / Syresnzvywfuhf",
+        "NQQE:Grtaretngna 16 n,1",
+        "PVGL:Alsbef",
+        "FEP:Q10",
+        "TCF:+59.363717,+16.498900");
    
   }
   

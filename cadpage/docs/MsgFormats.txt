@@ -914,6 +914,11 @@ Fire Alarm, Commercial Fire Alarm: AUDIBAL ALARM NO SMOKE NO FIRE. BASEMENT LIGH
 Motor Vehicle Accident, Motor Vehicle Accident with Injuries at BRITTON DR / BLUE HILLS AVE, BLOOMFIELD . . 13:08:56
 Motor Vehicle Accident, Motor Vehicle Accident with Injuries: CAR VS BOX TRUCK at BLUE HILLS AVE / WEST DUDLEY TOWN RD, BLOOMFIELD . . 13:52:30
 *******************************************************************************
+Erie County, NY (NYErieCountyRedAlertParser)
+*2EMS: 60/M LONG FALL POSSIBLE ARM AND LEG FRACTURE ILS RESPONSE at 3425 OLD LAKEVIEW RD, Hamburg  c/s: ENGEL DR . . 17:31:57\n\n-- \nThis message has bee
+*2EMS: Male fell has a elbow laceration Cold Response at 25 BUFFALO ST #420, Village of Hamburg  c/s: MAIN ST   O: CREEK BEND HGTS APTS . . 05:16:00\n\n-
+*2EMS: 23 male poss od uncx at 7219 LIEBLER RD, Boston  c/s: COLE RD . . 19:44:01\n\n-- \nThis message has been scanned for viruse
+*******************************************************************************
 Suffolk County, NY (NYSuffolkCountyCParser)
 MOTOR VEHICLE ACCIDENT . . MVA 29D4 at intersection of GREENBELT PKWY and PATCHOGUE-HOLBROOK RD. . 10:48:57
 WIRES . . POWER CONDENSER FIRE at intersection of PATCHOGUE-HOLBROOK RD and FURROWS RD. . 07:14:36
@@ -2178,8 +2183,9 @@ CLA 9970 Greiner Rd. EMS Finger laceration
 CLA 5727 Marthas Vineyard EMS 55 y/o fell
 ***************************************************************************
 Erie County, NY (NYErieCountyEParser)
-(Call) FIRE RESIDENTIAL 6680 LAKE SHORE RD EVANS FOREGIN OBJECT STRUCK A LIVE ELECTRICAL OUTLET.?\n(Call) EMS 1425 STURGEON PT RD EVANS H/NE/RM ACT  CARBON MONOXIDE DETECTOR WITH ILLNESS IN THE RESIDENCE?\n(Call) NE ACT FOR A ENGINE M/A TO LAKEVIEW FOR AN AUTO ACCIDENT ROUTE 5 AND OLD LAKESHORE RD?\n***************************************************************************
-Erie County, NY (NYErieCountyBParser)
+ALERT@ERIE.GOV FIRE CO-DETECTOR 262 MILLER ST APT: GARAGE LANCASTER TOWN CO DETECTOR ACTIV / NO SYMPTOMS
+ALERT@ERIE.GOV EMS 4779 TRANSIT RD LANCASTER TOWN GREEN DODGE CALIBER 25 YO FEMALE FEELS AS THOUGH SHE MAY PASS OUT
+ALERT@ERIE.GOV EMS 4805 TRANSIT RD APT: 1106 LANCASTER TOWN EMS- 59 YO MALE, LEG PAIN AS A RESULT OF A FALL EARLIER
 ***************************************************************************
 Genesee County, NY (NYGeneseeCountyParser)
 [Dispatch]  Acc PIAA ** 392.3 RT 90 E** , BATAVIA - ** ONE VEHICLE ROLLOVER ** LEWISTON RD, I 90 / KELSEY RD, I 90 ** 07/12/11 17:29 **
@@ -5351,20 +5357,6 @@ STRUCTURE FIRE AD: 11014 OREGON CURVE CMT1: HARD OF HEARING OR POOR PHONE CONNEC
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Town of Hamburg, NY (Erie County) :(
-Contact: Jack Chiappone <jchiappone77@verizon.net>
-Sender: dispatch@townofhamburgny.com
-EMS: 54 Y/F FELL UNKNOWN INJURIES  COLD RESPONSE  SCRANTON 8 MUTUAL AID TO BIG TREE\n17A03  at 4365 BAYVIEW RD, Hamburg  c/s: POLLY LA   O: COMMUNITY S
-EMS: 66 Years Male Conscious/Breathing\n17A01 Falls-arm injury BLS COLD  in vestibule Bldg H at 4150 SOWLES RD #H, Hamburg  c/s: CLARICE DR   O: IRIS 
-Miscellaneous Alarm, INVESTIGATE ODOR: Odor of plastic burning at 5660 SOUTH PARK AV, Hamburg  c/s: ARTHUR CT   O: BRADFORD PLACE ENTERPRISES . . 19:07
-Working  Fire: Residential fire - house filled with smoke. all residents evacuated.  at 8264 HAYES HOLLOW RD, Colden  c/s: IRISH RD . . 07:49:32
-Working  Fire: ATTACHED GARAGE FIRE\n at AMSDELL RD / DEVONSHIRE DR, Hamburg . . 05:49:49
-Misc Mutual Aid: 63m unable to ambulate cold response needs to go to VA at 25 BUFFALO ST #612, Village of Hamburg  c/s: MAIN ST   O: CREEK BEND HGTS AP
-EMS Auto Accident: PIAA EXIT 57 ENT W BD  at 4418 NEW YORK STATE TW, Hamburg c/s: N CREEK RD (OVERPASS) . . 18:17:32
-EMS: 81m ill weak unable to move 3rd party call bls hot at 5546 SCRANTON RD #York2, Hamburg  c/s: CAMP RD   O: WASHINGTON SQUARE APARTMENTS . . 11:35:4
-Alarm Activation: fire alarm   2nd floor south rooms  at 5285 SOUTH PARK AV, Hamburg  c/s: SOWLES RD   O: COURTYARDS ADULT CARE FACILITY . . 23:34:22
-EMS: 77 Years Female Conscious: allergic reaction not alert paramedic response at 5358 ADAMS ST, Hamburg  c/s: ELLSWORTH AV . . 15:30:52
-Misc Mutual Aid: NA FAST SC6 TO RESPOND at 707 STERLING DR, Orchard Park c/s: WINDWARD RD   O: MENTHOLATUM CO . . 12:10:42
 **********************************************************
 King County, WA
 Contact: "Dan Covey" <dan@dancovey.net>
