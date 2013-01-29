@@ -322,7 +322,8 @@ public class SmsPopupActivity extends Safe40Activity {
     sb.append(info.getAddress());
     String appt = info.getApt();
     if (appt.length() > 0) {
-      sb.append(" Apt:"); 
+      sb.append(' ');
+      sb.append(getString(R.string.apt_label));
       sb.append(appt);
     }
     String delim="\n";
@@ -336,41 +337,50 @@ public class SmsPopupActivity extends Safe40Activity {
       sb.append(info.getState());
     }
     if (info.getCross().length() > 0) {
-      sb.append("\nX:");
+      sb.append('\n');
+      sb.append(getString(R.string.cross_label));
       sb.append(info.getCross());
     }
     if (info.getMap().length() > 0) {
-      sb.append("\nMAP:");
+      sb.append('\n');
+      sb.append(getString(R.string.map_label));
       sb.append(info.getMap());
     }
     if (info.getBox().length() > 0) {
-      sb.append("\nBOX:");
+      sb.append('\n');
+      sb.append(getString(R.string.box_label));
       sb.append(info.getBox());
     }
     if (info.getUnit().length() > 0) {
-      sb.append("\nUnits: ");
+      sb.append('\n');
+      sb.append(getString(R.string.units_label));
       sb.append(info.getUnit());
     }
     if (ManagePreferences.showPersonal()) {
       if (info.getName().length() > 0) {
-        sb.append("\nName:");
+        sb.append('\n');
+        sb.append(getString(R.string.name_label));
         sb.append(info.getName());
       }
       if (info.getPhone().length() > 0) {
-        sb.append("\nPhone:");
+        sb.append('\n');
+        sb.append(getString(R.string.phone_label));
         sb.append(info.getPhone());
       }
     }
     if (info.getChannel().length() > 0) {
-      sb.append("\nChannel: ");
+      sb.append('\n');
+      sb.append(getString(R.string.channel_label));
       sb.append(info.getChannel());
     }
     if (info.getSupp().length() >0) {
-      sb.append("\nInfo:");
+      sb.append('\n');
+      sb.append(getString(R.string.info_label));
       sb.append(info.getSupp());
     }
     if (info.getCallId().length() >0) {
-      sb.append("\nCID:");
+      sb.append('\n');
+      sb.append(getString(R.string.call_id_label));
       sb.append(info.getCallId());
     }
     messageTV.setText(sb.toString());

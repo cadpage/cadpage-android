@@ -6,6 +6,16 @@
    <string name="new_text_at">New Call Received at %s</string>
    <string name="src_text_at">%1$s call at %2$s</string>
    <string name="mms_subject">Subject:</string>
+   <string name="apt_label">Apt:</string>
+   <string name="cross_label">"X:</string>
+   <string name="map_label">Map:</string>
+   <string name="box_label">Box:</string>
+   <string name="units_label">Units:</string>
+   <string name="name_label">Name:</string>
+   <string name="phone_label">Phone:</string>
+   <string name="channel_label">Channel:</string>
+   <string name="info_label">Info:</string>
+   <string name="call_id_label">CID:</string>
    
 <!--  Permission strings -->
    <string name="cadperm_title">Receive CAD pages</string>
