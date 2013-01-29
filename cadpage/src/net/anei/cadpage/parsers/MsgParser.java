@@ -8,6 +8,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Locale;
 import java.util.Properties;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -138,7 +139,7 @@ public abstract class MsgParser {
      }
      
      // And convert the result to a GPS string
-     return String.format("%+8.6f,%+8.6f", latitude, longitude);
+     return String.format(Locale.US, "%+8.6f,%+8.6f", latitude, longitude);
    }
 
    /**
