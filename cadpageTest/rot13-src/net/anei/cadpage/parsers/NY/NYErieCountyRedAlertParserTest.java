@@ -47,6 +47,7 @@ RZF: 81z vyy jrnx hanoyr gb zbir 3eq cnegl pnyy oyf ubg ng 5546 FPENAGBA EQ #Lbe
 Nynez Npgvingvba: sver nynez   2aq sybbe fbhgu ebbzf  ng 5285 FBHGU CNEX NI, Unzohet  p/f: FBJYRF EQ   B: PBHEGLNEQF NQHYG PNER SNPVYVGL . . 23:34:22
 RZF: 77 Lrnef Srznyr Pbafpvbhf: nyyretvp ernpgvba abg nyreg cnenzrqvp erfcbafr ng 5358 NQNZF FG, Unzohet  p/f: RYYFJBEGU NI . . 15:30:52
 Zvfp Zhghny Nvq: AN SNFG FP6 GB ERFCBAQ ng 707 FGREYVAT QE, Bepuneq Cnex p/f: JVAQJNEQ EQ   B: ZRAGUBYNGHZ PB . . 12:10:42
+NYREG@REVR.TBI RZF: z pneqvnp neerfg ng 3965 FBJYRF EQ, Unzohet  p/f: JVAGREJNL YN . . 16:59:52?
 
 */
 
@@ -326,6 +327,14 @@ choyvp pynff ALRevrPbhaglErqNyregCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:JVAQJNEQ EQ",
         "CYNPR:ZRAGUBYNGHZ PB",
         "GVZR:12:10:42");
+
+    qbGrfg("G12",
+        "NYREG@REVR.TBI RZF: z pneqvnp neerfg ng 3965 FBJYRF EQ, Unzohet  p/f: JVAGREJNL YN . . 16:59:52?",
+        "PNYY:RZF",
+        "VASB:z pneqvnp neerfg",
+        "NQQE:3965 FBJYRF EQ",
+        "PVGL:Unzohet",
+        "K:JVAGREJNL YN . . 16:59:52?");
 
   }
   
