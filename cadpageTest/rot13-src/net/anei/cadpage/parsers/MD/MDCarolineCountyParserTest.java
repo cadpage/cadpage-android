@@ -32,6 +32,10 @@ Pbagnpg: Cw Qlbgg <cqlbgg@tznvy.pbz>
 Fraqre: zft@pszft.pbz
 (Puvrs NYG) [200 RZF] 10 P-Purfg Cnva -- 215 Nccyr Ya Cerfgba - KFgf: Qrnq Raq / Onpx Ynaqvat Eq
 
+Pbagnpg: Obool <eno901pbzfhc@lnubb.pbz>
+Fraqre: nyreg@pszft.pbz
+(Puvrs NYG) [600 RZF] 26 N-Fvpx Crefba -- 12070 Terrafobeb Eq Terrafobeb - KFgf: Wbcc Ya / Byq Zvyy Ya
+
  */
 
 choyvp pynff ZQPnebyvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -129,6 +133,15 @@ choyvp pynff ZQPnebyvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:215 Nccyr Ya",
         "PVGL:Cerfgba",
         "K:Qrnq Raq / Onpx Ynaqvat Eq");
+
+    qbGrfg("G12",
+        "(Puvrs NYG) [600 RZF] 26 N-Fvpx Crefba -- 12070 Terrafobeb Eq Terrafobeb - KFgf: Wbcc Ya / Byq Zvyy Ya",
+        "FEP:600 RZF",
+        "PNYY:26 N-Fvpx Crefba",
+        "NQQE:12070 Terrafobeb Eq",
+        "PVGL:Terrafobeb",
+        "K:Wbcc Ya / Byq Zvyy Ya");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
