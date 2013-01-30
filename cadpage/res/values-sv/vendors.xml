@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="code_messaging_title">CodeMessaging.net</string>
+  <string name="code_messaging_summary">
+Fullvärdig meddelandeplattform för larmmedelanden som får ut ärenden till responders FORT!
+  </string>
+  <string name="code_messaging_text">
+    Skicka och visa din förvaltnings ärenden på dina enheter och kontrollera status i realtid med ResponseCheck. Användare kan logga in och skicka meddelanden inom förvaltningen samt sköta sin egen profil för att skicka ärenden till personsökare, telefoner,pekplattor eller datorer. CodeMessaging.net är specialicerade på att leverera kontroll av enheter och first-responders.
+  </string>
+  <string name="active911_title">Active 911</string>
+  <string name="active911_summary">Livespårning och kartruttning</string>
+  <string name="active911_text">
+  Active911 tillhandahåller en tjänst för smartphones, mobiltelefoner och tablets:\n
+   - Aktuella resursers status visas i realtid\n
+   - LIVE positionering av hela din besättning\n
+   - Detaljerad rapportgenerering\n
+   - Funkar på Iphone,Blackberry, mm\n
+   - 2-vägs meddelandeservice förser din personal med ytterligare information\n
+  </string>
+  <string name="vendor_notice_title">Cadpage Meddelandeservice</string>
+  <string name="vendor_more_info">Berätta mer</string>
+  <string name="vendor_profile">Användarprofil</string>
+  <string name="vendor_register">Registrera dig</string>
+  <string name="vendor_unregister">Avregistrera dig</string>
+  <string name="vendor_registered">Du är nu registrerad för en meddelandeservice</string>
+  <string name="vendor_should_register">Du bör registrera dig till en meddelandeservice</string>
+  <string name="vendor_confirm_unregister">
+Det här kommer att blockera att din meddelandeservice skickar larm till dig. Är du säker att du vill göra detta?his?
+  </string>
+  <string name="vendor_connect_msg">Meddelandeservice från %s har aktiverats</string>
+  <string name="vendor_disconnect_msg">Meddelandeservice från %s har kopplats från</string>
+  <string name="vendor_reg_failure_msg">
+     Google C2DM registrering misslyckades\n
+  </string>
+  <string name="vendor_register_err_msg">
+    Meddelandeservice från %1$s har kopplats ner\n
+    Servern svarar: %2$s
+  </string>
+  <string name="vendor_registration_error">
+    Försök att koppla in meddelandeservice har nekats. Det rapporterade felet var\n %s\n
+    Vänligen rapportera detta till utvecklarna av Cadpage.
+  </string>
+  <string name="vendor_account_missing_error">
+Ett Google-konto måste vara registrerat på denna enhet innan du kan registrera dig för en meddelandeservice
+  </string>
+</resources>
