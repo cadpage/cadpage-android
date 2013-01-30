@@ -48,6 +48,10 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
     
+    qbGrfg(NQQE, "KK UJL 9 / TREGBA UJL XRAFOHET P21E OYXQ-EQ FPBGG ZBBER",
+        "NQQE:KK UJL 9 & TREGBA UJL",
+        "PVGL:XRAFOHET");
+    
     qbGrfg(NQQE, SYNT_PEBFF_SBYYBJF, "UVTUJNL 43 & V 44 RO",
         "NQQE:UVTUJNL 43 & V 44 RO");
     

@@ -58,10 +58,10 @@ Fraqre: PNQ@oryyrihrjn.tbi
 
 */
 
-choyvp pynff JNXvatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff JNXvatPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp JNXvatPbhaglCnefreGrfg() {
-    frgCnefre(arj JNXvatPbhaglCnefre(), "XVAT PBHAGL", "JN");
+  choyvp JNXvatPbhaglNCnefreGrfg() {
+    frgCnefre(arj JNXvatPbhaglNCnefre(), "XVAT PBHAGL", "JN");
   }
   
   @Grfg
@@ -332,6 +332,6 @@ choyvp pynff JNXvatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj JNXvatPbhaglCnefreGrfg().trarengrGrfgf("G1", "NQQE NCG PVGL PNYY HAVG");
+    arj JNXvatPbhaglNCnefreGrfg().trarengrGrfgf("G1", "NQQE NCG PVGL PNYY HAVG");
   }
 }

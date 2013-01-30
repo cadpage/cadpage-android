@@ -700,14 +700,6 @@ have a nice day,
 -Ken
 
 ******************************************************************
-*** java.lang.IllegalStateExcepti
-
-This apparently is a sporadic problem with newer Android versions.  I've done a lot of searching for information, and implemented all of the recommended workarounds.  But it just keeps on happening :(
-
-Thanks for reporting it,
--Ken
-
-******************************************************************
 *** Scanner setup
 
 You have to set up some things before the Start Radio button will work
