@@ -229,8 +229,7 @@ choyvp pynff VAUnzvygbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(PNQCntr) Ybpngvba: 11099 IVYYNTR FDHNER YA  /   Dhnq: 93P Havgf:  Glcr: S Erfphr Grpuavpny ABP: Anee:  FGNTR CNTR IUS NAQ NYCUN FRAG  R93 BA FPRAR 1 FGBEL PBZZ OHVYQVAT, FGEHPGHER QNZNTR GB BHGFVQR OHVYQVAT AB FZBXR AB SVER, R93 UNF PBZZNAQ ST  Pnyy Ahzore 807 jnf perngrq sebz Pnyy Ahzore 804(Abi 23 2012  3:03CZ)  nqi ur unf onpxrq onpx bhg bs gur ohvyqvat  ur uvg gur ohvyqvat, nqi gur ohvyqvat qbrf unir fgehpgheny  qnzntr-ynathntr oneevre  juvgr jbex ina  PSF:  807",
-        "NQQE:11099 IVYYNTR FDHNER",
-        "NCG:YA",
+        "NQQE:11099 IVYYNTR FDHNER YA",
         "ZNC:93P",
         "PNYY:S Erfphr Grpuavpny ABP:",
         "VASB:FGNTR CNTR IUS NAQ NYCUN FRAG  R93 BA FPRAR 1 FGBEL PBZZ OHVYQVAT, FGEHPGHER QNZNTR GB BHGFVQR OHVYQVAT AB FZBXR AB SVER, R93 UNF PBZZNAQ ST  Pnyy Ahzore 807 jnf perngrq sebz Pnyy Ahzore 804(Abi 23 2012  3:03CZ)  nqi ur unf onpxrq onpx bhg bs gur ohvyqvat  ur uvg gur ohvyqvat, nqi gur ohvyqvat qbrf unir fgehpgheny  qnzntr-ynathntr oneevre  juvgr jbex ina",
@@ -238,8 +237,7 @@ choyvp pynff VAUnzvygbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "(PNQCntr) Havg:R93 Fgnghf:Qvfcngpurq Ybpngvba: 11301 IVYYNTR FDHNER YA  /   Dhnq: 93P Havgf: R93 R91 Y91 E91 GNP91 ONG9 U45 1801 Z93 UST01 GNP80  Glcr: S Erfphr Grpuavpny ABP: Anee:  Pnyy Ahzore 807 jnf perngrq sebz Pnyy Ahzore 804(Abi 23 2012  3:03CZ)  nqi ur unf onpxrq onpx bhg bs gur ohvyqvat  ur uvg gur ohvyqvat, nqi gur ohvyqvat qbrf unir fgehpgheny  qnzntr-ynathntr oneevre  juvgr jbex ina  PSF:  807",
-        "NQQE:11301 IVYYNTR FDHNER",
-        "NCG:YA",
+        "NQQE:11301 IVYYNTR FDHNER YA",
         "ZNC:93P",
         "HAVG:R93 R91 Y91 E91 GNP91 ONG9 U45 1801 Z93 UST01 GNP80",
         "PNYY:S Erfphr Grpuavpny ABP:",

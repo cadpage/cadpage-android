@@ -1029,7 +1029,8 @@ choyvp pynff APOhapbzorPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SF4",
         "PNYY:GENZNGVP VAWHEVRF",
         "CUBAR:8287776867",
-        "VASB:ERV ERPERNGVBANY RDHVCZRAG / R FPURAPX PERF / GBJA FDHNER OYIQ",
+        "VASB:ERV ERPERNGVBANY RDHVCZRAG / R FPURAPX PERF",
+        "K:GBJA FDHNER OYIQ",
         "VQ:12011452");
 
     qbGrfg("G12",

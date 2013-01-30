@@ -89,7 +89,8 @@ choyvp pynff ZVVfnoryynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FHVPVQR VAPYHQVAT NGGRZCGF",
         "NQQE:346 PBNPUZNA QE",
         "PVGL:ZG CYRNFNAG",
-        "VASB:SBHE FDHNER QE / 17/s gbbx cvyyf, vf nyreg",
+        "K:SBHE FDHNER QE",
+        "VASB:17/s gbbx cvyyf, vf nyreg",
         "QNGR:12/20/12",
         "GVZR:16:28:04");
 

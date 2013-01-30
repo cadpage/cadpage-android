@@ -5350,33 +5350,6 @@ Contact: zoominruhmann <zoominruhmann@gmail.com>
 Sender: LOGIS-Emergin-Paging@logis.org
 STRUCTURE FIRE AD: 11014 OREGON CURVE CMT1: HARD OF HEARING OR POOR PHONE CONNECTION FEMALE SAYING "ALL MY DETECTOR\r
 **********************************************************
-Douglas County, CO
-Contact: (Q) D George-Nichols <D_George-Nichols@q.com>
-Sender: Group_Page_Notification@usamobility.net
-
-w/West Douglas: 01/18 16:54 AJ-16-C 491 S 67 Hwy SPRUCEWOOD INN MVA - INJURIES WDF3,M39,E39,BC34
-w/West Douglas: 01/18 12:39 AF-21-B 7279 Piute Dr SICK PARTY WDF3,M46,E39,BC34
-w/West Douglas: 12/30 09:41 AG-22-B 4062 N 67 Hwy STANDBY IN THE AREA WDF3,M39,E39,BC34
-w/West Douglas: 09/07 15:49 AF-27-B 1395 Waverton Ranch Rd ALARM - RESIDENTIAL FIRE WDF1
-w/West Douglas: 12/19 11:45 AD-22-C 6625 Lambert Ranch Crossing ALARM - COMMERCIAL FIRE WDF2
-w/West Douglas: 12/03 10:52 AE-21-D 7250 Rainbow Creek Rd BREATHING PROBLEMS WDF3,M39,E39,BC34
-Comment: M134 HANDLING CALL ON AT GABRIELS NO FURTHER ASSISTANCE, Info Only: 12 19:34:50 AD-24-D 5450 Manhart St GABRIELS PUBLIC ASSIST M134,WDF1 12 19:34:50
-w/West Douglas: 07/05 15:09 AD-24-D 5068 Plum Ave JOHNSON & SONS CONSTRUCTION RESCUE - ANIMAL WDF3
- 
- 
-Here are some of the text messages that we get on cell phones and smartphones with the map page XXXXX:
- 
-From: Group_Page_Notification@usamobility.net w/West Douglas:01/28 18:28 AE-24-A 4909 Woodley Ave LOCK OUT EMERGENT WDF2,M39,E39,BC34 Received: Mon Jan 28, 6:28 pm
-From: Group_Page_Notification@usamobility.net w/West Douglas: 01/18 16:54 AJ-16-C 491 S 67 Hwy SPRUCEWOOD INN MVA – INJURIES WDF3,M39,E39,BC34 Received Fri Jan 18, 4:54 pm
-From: Group_Page_Notification@usamobility.net w/West Douglas: 01/15 21:11 AJ-14-B 128 Hill Dr ALARM – CO NO SICK PARTIES WDF3  Received Tue Jan 15, 9:11 pm
-From: Group_Page_Notification@usamobility.net w/West Douglas: 01/18 12:39 AF-21-B 7270 Piute Dr SICK PARTY WDF3,M46,E39,BC34 Received Fri Jan 1, 12:40 pm
-From: Group_Page_Notification@usamobility.net w/West Douglas: 01/13 20:20 AF-22-C 3522 Winnebago Dr SICK PARTY WDF2,E39,M39,BC34 Received: Sun Jan 13, 8:21 pm
-From: Group_Page_Notification@usamobility.net w/West Douglas: 12/03 15:00 AH-21-B Oak Valley Rd INVESTIGATION – SMOKE OUTSIDE WDF3 Received: Mon Dec 3, 3:01 pm
-From: Group_Page_Notification@usamobility.net w/West Douglas: 12/03 10:52 AE-21-D 7250 Rainbow Creek Rd BREATHING PROBLEMS WDF3,M39,E39,BC34 Received: Mon Dec 3, 1052 am
-From: Group_Page_Notification@usamobility.net w/West Douglas: 08/01 15:29 AF-23-A N 67 Hwy / Rainbow Creek Rd CHEST PAIN WDF1, M39, E39 Received: Mon Dec 3, 1052 am
-From: Group_Page_Notification@usamobility.net w/West Douglas: 08/18 12:26 AH-17-D N 67 Hwy / N Rampart Range Rd MVA – INJURIES WDF3, M39, E39 Received: Mon Dec 3, 1052 am
-**********************************************************
-**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
@@ -5425,7 +5398,7 @@ MAILBOX:CANARS 20:23 FIRE - VEHICLE 000000 FISH LAKE RD CFS# 2013-001732
 **********************************************************
 Humble, TX (Atascocita FD
 Contact: "Wassell, Michael" <MWassell@avfd.com>
-Sender:  msg@cfmsg.com
+Sender:  alerts@cfmsg.com
 (Chief ALT) [FIRE] - 29b1 Motor Vehicle A - Forest Timbers Dr / Timber Forest D - Key Map:337S - Box #:A3901
 (Chief ALT) [EMS] - 29b1 Motor Vehicle A - Forest Timbers Dr / Timber Forest D - Key Map:337S - Box #:A3901
 (Chief ALT) [FIRE] - 29b1 Motor Vehicle A - Forest Timbers Dr / Timber Forest D - Key Map:337S - Box #:A3901
@@ -5458,6 +5431,33 @@ Sender:  msg@cfmsg.com
 Mapping should use the city Humble, TX
 TIMES pages will be in this format:
 [EMS] - Incident Number : 13-01-03450 Address: 19911 Faye Oak Dr M19 19:19:52 19:20:54 19:29:38 19:42:29
+**********************************************************
+Douglas County, CO
+Contact: (Q) D George-Nichols <D_George-Nichols@q.com>
+Sender: Group_Page_Notification@usamobility.net
+
+w/West Douglas: 01/18 16:54 AJ-16-C 491 S 67 Hwy SPRUCEWOOD INN MVA - INJURIES WDF3,M39,E39,BC34
+w/West Douglas: 01/18 12:39 AF-21-B 7279 Piute Dr SICK PARTY WDF3,M46,E39,BC34
+w/West Douglas: 12/30 09:41 AG-22-B 4062 N 67 Hwy STANDBY IN THE AREA WDF3,M39,E39,BC34
+w/West Douglas: 09/07 15:49 AF-27-B 1395 Waverton Ranch Rd ALARM - RESIDENTIAL FIRE WDF1
+w/West Douglas: 12/19 11:45 AD-22-C 6625 Lambert Ranch Crossing ALARM - COMMERCIAL FIRE WDF2
+w/West Douglas: 12/03 10:52 AE-21-D 7250 Rainbow Creek Rd BREATHING PROBLEMS WDF3,M39,E39,BC34
+Comment: M134 HANDLING CALL ON AT GABRIELS NO FURTHER ASSISTANCE, Info Only: 12 19:34:50 AD-24-D 5450 Manhart St GABRIELS PUBLIC ASSIST M134,WDF1 12 19:34:50
+w/West Douglas: 07/05 15:09 AD-24-D 5068 Plum Ave JOHNSON & SONS CONSTRUCTION RESCUE - ANIMAL WDF3
+ 
+ 
+Here are some of the text messages that we get on cell phones and smartphones with the map page XXXXX:
+ 
+From: Group_Page_Notification@usamobility.net w/West Douglas:01/28 18:28 AE-24-A 4909 Woodley Ave LOCK OUT EMERGENT WDF2,M39,E39,BC34 Received: Mon Jan 28, 6:28 pm
+From: Group_Page_Notification@usamobility.net w/West Douglas: 01/18 16:54 AJ-16-C 491 S 67 Hwy SPRUCEWOOD INN MVA – INJURIES WDF3,M39,E39,BC34 Received Fri Jan 18, 4:54 pm
+From: Group_Page_Notification@usamobility.net w/West Douglas: 01/15 21:11 AJ-14-B 128 Hill Dr ALARM – CO NO SICK PARTIES WDF3  Received Tue Jan 15, 9:11 pm
+From: Group_Page_Notification@usamobility.net w/West Douglas: 01/18 12:39 AF-21-B 7270 Piute Dr SICK PARTY WDF3,M46,E39,BC34 Received Fri Jan 1, 12:40 pm
+From: Group_Page_Notification@usamobility.net w/West Douglas: 01/13 20:20 AF-22-C 3522 Winnebago Dr SICK PARTY WDF2,E39,M39,BC34 Received: Sun Jan 13, 8:21 pm
+From: Group_Page_Notification@usamobility.net w/West Douglas: 12/03 15:00 AH-21-B Oak Valley Rd INVESTIGATION – SMOKE OUTSIDE WDF3 Received: Mon Dec 3, 3:01 pm
+From: Group_Page_Notification@usamobility.net w/West Douglas: 12/03 10:52 AE-21-D 7250 Rainbow Creek Rd BREATHING PROBLEMS WDF3,M39,E39,BC34 Received: Mon Dec 3, 1052 am
+From: Group_Page_Notification@usamobility.net w/West Douglas: 08/01 15:29 AF-23-A N 67 Hwy / Rainbow Creek Rd CHEST PAIN WDF1, M39, E39 Received: Mon Dec 3, 1052 am
+From: Group_Page_Notification@usamobility.net w/West Douglas: 08/18 12:26 AH-17-D N 67 Hwy / N Rampart Range Rd MVA – INJURIES WDF3, M39, E39 Received: Mon Dec 3, 1052 am
+**********************************************************
 **********************************************************
 Champaign-Urbana, IL (alternate)
 Contact: jeremy hoffman <firemanj79@gmail.com>

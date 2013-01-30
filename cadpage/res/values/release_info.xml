@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01272013</string>
-  <string name="release_version">v1.6.04</string>
+  <string name="release_date">01302013</string>
+  <string name="release_version">v1.6.05</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-New Locations\n
-Clark County, NV rename from Las Vegas, NV\n
-Snohomish County, WA\n
-Sweden\n
+Added Swedish language support\n
+\n
+New Locations:\n
+Scott County, IA\n
+Henderson County, NC\n
+King County, WA\n
 \n
 Location Parsing Fixes:\n
-Hamilton County, IN\n
-Muskegon County, MI\n
-Callaway County, MO\n
-Minneapolis - St Paul, MN\n
-Montgomery County, NY\n
-Ulster County, NY\n
-Brunswick County, NC\n
-Randolph County, NC\n
-Wayne County, NC\n
-Allegheny County, PA\n
-Lebanon County, PA\n
-Mercer County, PA\n
-York County, PA\n
+Windham County, CT\n
+Onondaga County, NY\n
+Erie County, PA\n
+Augusta County, VA\n
+Cabell County, WV\n
+Sweden\n
+\n
+General Fixes:\n
+Problem matching sender phone numbers with a +1 prefix\n
   </string>  
 </resources>
   
