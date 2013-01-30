@@ -264,6 +264,7 @@ public class ParserList {
               ,"IAMuscatineCounty"              ,"Muscatine County, IA"
               ,"IAPolkCounty"                   ,"Polk County, IA"
               ,"IAPottawattamieCounty"          ,"Pottawattamie County, IA"
+              ,"IAScottCounty"                  ,"Scott County, IA"
               ,"IAWoodburyCounty"               ,"Woodbury County, IA"
           ),
           new ParserCategory("Kansas"

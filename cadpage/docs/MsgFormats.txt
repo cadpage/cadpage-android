@@ -1699,6 +1699,11 @@ Pottawattamie county, IA (IAPottawattamieCountyParser)
 [1700]  17-11-338 11/21 17:33\n3000 RISEN SON BV, POTT COUNTY\nEMS/FIRE - UNCONCIOUS/FAINTING\nXST: VIRGINIA HILLS RD//
 [1700]  17-11-337 11/20 16:02\n18088 BENT TREE RIDGE, POTT COUNTY\nFIRE - AUTOMATIC FIRE DETECTION SIGNAL\nXST: THREE BRIDGE RD//DEAD END
 ***************************************************************************
+Scotty County, IA (IAScottCountyParser)
+(Incident) MCFD  106 N SALINA ST McCausland EMS or MVC-Solo  Call successfully transferred to peer Agency. [MedicEMS]  Peer CFS Number = 0045-A_2012-12-01 [MedicEM
+(Incident) MCFD  21822 274TH ST Scott County EMS or MVC-Solo  GRANDAUGHTER  SEIZURE  E911 Info - Class of Service: RESD Special Response Info: PSAP=SECC SCOTT SD  
+(Incident) MCFD  401 S SALINA ST McCausland EMS or MVC-Solo  DAUGHTER ILL.  VOMITING.  E911 Info - Class of Service: RESD Special Response Info: PSAP=SECC MCCAUSLA
+***************************************************************************
 Woodbury County, IA (IAWoodburyCountyParser)
 J:FIRE ALARM/813 N DERBY LN NORTH SIOUX PORTIONABLES/ FREEDOM DR & DEVILSFOOD DR/NSIOUX/ 72B1 72EMS9 72E4 72E5 72F7 72Q6 72R8/ PORTIONABLES.... WATER FLOW ALARM
 J:FIRE SM VEHICLE/110 SODRAC DR NORTH SIOUX RED CARPET INN/ RIVER DR &/NSIOUX/ 72B1 72EMS9 72E4 72E5 72F7 72Q6 72R8/ TRUCK SMOKING LOOKS ON FIRE- NOBODY AROUND -IN FRONT OF INN
@@ -3294,7 +3299,9 @@ Lincoln County, NC
 Contact: "Chris Garner" <cgarner@taylorviola.com>
 No Samples (reminder 2/13/2011)
 Unknown
-******************************************************************************************************************************************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 Unknown
 Contact: "Arnold, Douglas" <Douglas.Arnold@montgomerycountymd.gov>
 Sender: rc.283@c-msg.net
@@ -3304,7 +3311,8 @@ Sender: rc.306@c-msg.net
 (WCo) [!] BURNSIDE BRIDGE RD / FERNROCK LN - PIC, PERS INJURY COLLISION  - CO1,R19 - 1101829 10:28
 Contact: terry barnes <firefighter2049@gmail.com>
 Sender: rc.236@c-msg.net
-Subject:WCo\n[!] 17430 VIRGINIA AVE - VEHICLE, AUTO FIRE -CO26,CO2,TWR26,C26,E24,E261,8FP261,ET2 - 1110036 21:12\n\n**********************************************************
+Subject:WCo\n[!] 17430 VIRGINIA AVE - VEHICLE, AUTO FIRE -CO26,CO2,TWR26,C26,E24,E261,8FP261,ET2 - 1110036 21:12\n\n
+**********************************************************
 Unknown?
 Contact: Cody Shell <spiritcontra@gmail.com>
 More examples 2/15
@@ -5364,18 +5372,6 @@ STRUCTURE FIRE AD: 11014 OREGON CURVE CMT1: HARD OF HEARING OR POOR PHONE CONNEC
 **********************************************************
 **********************************************************
 **********************************************************
-Scotty County, IA
-Contact: David Liske <david.liskeusmc@gmail.com>
-Sender: secc@scott.ia.us
-(Incident) MCFD  106 N SALINA ST McCausland EMS or MVC-Solo  Call successfully transferred to peer Agency. [MedicEMS]  Peer CFS Number = 0045-A_2012-12-01 [MedicEM
-Scott County, IA
-Contact: David Liske <david.liskeusmc@gmail.com>
-Sender: secc@scott.ia.us
-(Incident) MCFD  21822 274TH ST Scott County EMS or MVC-Solo  GRANDAUGHTER  SEIZURE  E911 Info - Class of Service: RESD Special Response Info: PSAP=SECC SCOTT SD  
-(Incident) MCFD  401 S SALINA ST McCausland EMS or MVC-Solo  DAUGHTER ILL.  VOMITING.  E911 Info - Class of Service: RESD Special Response Info: PSAP=SECC MCCAUSLA
-(Incident) MCFD  210TH AVE 300TH ST Scott County EMS or MVC-Solo  Call Number 5550 was created from Call Number 5548(Dec 21 2012  4:51AM)  CALLER WAS NOT SURE IF A
-(Incident) MCFD  210TH AVE 300TH ST Scott County <NEW CALL>  E911 Info - Class of Service: WPH2 Special Response Info: PSAP=        Verify PD  Verify FD  Verify EM
-Drop class of service & special response fields
 **********************************************************
 Josephine County, OR??
 Contact: KEVIN HARRIS <kev911er@msn.com>
