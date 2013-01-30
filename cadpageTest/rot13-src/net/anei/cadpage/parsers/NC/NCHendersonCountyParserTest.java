@@ -286,7 +286,9 @@ choyvp pynff APUraqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "13005726 29 YNHERY EVQTR QE ZVYYF EVIRE P21Y YVSR YA YVSR NYREG 800-638-8222 21,RUF1,ZE1 Yvar16= Yvar17= Yvar18=",
         "VQ:13005726",
         "NQQE:29 YNHERY EVQTR QE",
-        "PNYY:ZVYYF EVIRE P21Y YVSR YA YVSR NYREG",
+        "PVGL:ZVYYF EVIRE",
+        "PNYY:P21Y YVSR YA",
+        "ANZR:YVSR NYREG",
         "CUBAR:800-638-8222",
         "HAVG:21,RUF1,ZE1");
 
@@ -306,7 +308,9 @@ choyvp pynff APUraqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13005717",
         "NQQE:1957 UNLJBBQ EQ",
         "NCG:1",
-        "PNYY:URAQREFBAIVYYR P21Y YVSR YA TRG URYC ABJ",
+        "PVGL:URAQREFBAIVYYR",
+        "PNYY:P21Y YVSR YA",
+        "ANZR:TRG URYC ABJ",
         "CUBAR:800-662-1711",
         "HAVG:USQ");
 
@@ -815,7 +819,9 @@ choyvp pynff APUraqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "13005079 3460 OERINEQ EQ URAQREFBAIVYYR P21Y YVSR YA YVSRYVAR 888-289-2018 21,RUF1 Yvar16= Yvar17= Yvar18=",
         "VQ:13005079",
         "NQQE:3460 OERINEQ EQ",
-        "PNYY:URAQREFBAIVYYR P21Y YVSR YA YVSRYVAR",
+        "PVGL:URAQREFBAIVYYR",
+        "PNYY:P21Y YVSR YA",
+        "ANZR:YVSRYVAR",
         "CUBAR:888-289-2018",
         "HAVG:21,RUF1");
 

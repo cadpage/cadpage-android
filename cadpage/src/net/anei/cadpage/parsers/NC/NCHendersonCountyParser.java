@@ -59,10 +59,10 @@ public class NCHendersonCountyParser extends SmartAddressParser {
     // Parse the address and city
     // We have to fudge the BLKD RD call because it makes the
     // city look like part of a new road name
-    body = body.replace("//", "/").replace("BLKD RD", "BLKD-RD").replace("PWR LN", "PWR-LN");
+    body = body.replace("//", "/").replace("BLKD RD", "BLKD-RD").replace("PWR LN", "PWR-LN").replace("LIFE LN", "LIFE-LN");
     parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, body, data);
     data.strApt = append(data.strApt, "-", getPadField());
-    body = getLeft().replace("BLKD-RD", "BLKD RD").replace("PWR-LN", "PWR LN");
+    body = getLeft().replace("BLKD-RD", "BLKD RD").replace("PWR-LN", "PWR LN").replace("LIFE-LN", "LIFE LN");
     
     // Split what is left into call description and name
     data.strCall = CALL_LIST.getCode(body);
