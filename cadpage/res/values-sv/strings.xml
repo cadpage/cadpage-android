@@ -6,7 +6,7 @@
   <string name="new_text_at">Nytt larm mottaget %s</string>
   <string name="src_text_at">%1$s call at %2$s</string>
   <string name="mms_subject">Objekt:</string>
-  <string name="apt_label">Apt:</string>
+  <string name="apt_label">Lgh:</string>
   <string name="cross_label">"X:</string>
   <string name="map_label">Karta:</string>
   <string name="box_label">Box:</string>
@@ -21,7 +21,7 @@
   <string name="cadperm_desc">
    Tillåt att applikationen tar emot information från nödsamtal. Illasinnad programvara skulle kunna använda denna information för att komma åt personlig information från dessa samtal.</string>
   <!-- Menu Strings -->
-  <string name="settings">Inställninar</string>
+  <string name="settings">Inställningar</string>
   <!-- Network error strings -->
   <string name="network_err_title">Nätverksfel</string>
   <string name="network_err_not_connected">Den här handlingen kräver tillgång till nätverk</string>
@@ -282,15 +282,15 @@
   <string name="unlock_item_text">Lås upp</string>
   <string name="delete_item_text">Ta bort</string>
   <string name="close_item_text">Stäng</string>
-  <string name="close_app_item_text">Close App</string>
+  <string name="close_app_item_text">Stäng App</string>
   <string name="email_item_text">Rapportera problem</string>
-  <string name="publish_item_text">Publish Page</string>
+  <string name="publish_item_text">Publicera larm</string>
   <string name="more_info_item_text">Mer info</string>
   <string name="start_radio_item_text">Starta Radio</string>
   <string name="response_check_text">Kvittenskontroll</string>
   <!--  Response message menu items  -->
   <string name="responding_text">Kvitterar</string>
-  <string name="not_responding_text">Ej disponibel</string>
+  <string name="not_responding_text">Indisponibel</string>
   <!-- Email developer Dialog items -->
   <string name="pref_sendemail_title">E-mail till utvecklaren</string>
   <string name="sendemail_btn_ok">Skicka</string>

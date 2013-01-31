@@ -610,6 +610,16 @@ Good luck,
 -Ken
 
 ******************************************************************
+* Duplicate pages with Active911
+
+That is a fairly common problem for new Active911 users.  Some time back, you arranged to have dispatch send text pages to your phone.  Those pages don't stop coming when you register with Active911.  As a result you always get two pages for each incident.
+
+You have to talk to someone in your department about stopping the original text pages.  Probably the same person who got them sent to your phone in the first place.
+
+Good luck,
+-Ken
+
+******************************************************************
 
 Your phone is running Android 2.1.  Direct Paging relies on a Google messaging service that is only supported for 2.2 and up.  
 
