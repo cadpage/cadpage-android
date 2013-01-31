@@ -674,18 +674,22 @@ public abstract class MsgParser {
        // if it is, we will trim that part off.
        iEndPt = body.length();
        int iTempPt = iEndPt;
-       for (int cnt = 1; cnt <= 3; cnt++) {
+       String[] trailers = new String[]{null, null, null};
+       for (int cnt = 0; cnt < trailers.length; cnt++) {
          iTempPt = body.lastIndexOf(' ', iTempPt-1);
          if (iTempPt < 0) break;
-         String tail = body.substring(iTempPt+1);
-         for (int ndx = iKey+1; ndx < keyWords.length; ndx++) {
-           if (keyWords[ndx].startsWith(tail)) {
-             iEndPt = iTempPt;
-             iTempPt = 0;
+         trailers[cnt] = body.substring(iTempPt+1);
+       }
+       boolean found = false;
+       for (int ndx = iKey+1; ndx < keyWords.length; ndx++) {
+         for (String tail : trailers) {
+           if (tail != null && keyWords[ndx].startsWith(tail)) {
+             iEndPt = body.length()-tail.length()-1;
+             found = true;
              break;
            }
          }
-         if (iTempPt == 0) break;
+         if (found) break;
        }
      }
      

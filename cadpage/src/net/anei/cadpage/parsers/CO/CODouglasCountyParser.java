@@ -11,14 +11,16 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class CODouglasCountyParser extends FieldProgramParser {
   
   private static final Pattern TRAIL_ID_PTN = Pattern.compile(" +(\\d{4}-\\d{8})$");
+  private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Time:)");
 
   public CODouglasCountyParser() {
     this("DOUGLAS COUNTY", "CO");
   }
   
   protected CODouglasCountyParser(String defCity, String defState) {
-    super(defCity, defState,
-           "Call:CALL! Location:ADDR! Map:MAP Units:UNIT! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO");
+    super(CITY_LIST, defCity, defState,
+           "( Call:CALL! Location:ADDRCH! Map:MAP Units:UNIT! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO | " +
+              "Call_Type:CALLID! Common_Name:PLACE! Location:ADDR/SXXx! Call_Time:DATETIME! Narrative:INFO Nature_Of_Call:INFO )");
   }
   
   @Override
@@ -40,8 +42,21 @@ public class CODouglasCountyParser extends FieldProgramParser {
       data.strCallId = match.group(1);
       body = body.substring(0,match.start());
     }
-    body = body.replace("Time: ", " Time: ");
-    return super.parseMsg(body, data);
+    body = MISSING_BLANK_PTN.matcher(body).replaceAll(" ");
+    if (!super.parseMsg(body, data)) return false;
+    
+    if (data.strCross.equals("No Cross Streets Found")) data.strCross = "";
+    
+    // Intersections are (sometimes) saved as cross roads :(
+    if (data.strAddress.length() == 0 && data.strCross.length() > 0) {
+      for (String addr : data.strCross.split(",")) {
+        if (addr.contains("/")) {
+          parseAddress(addr.trim(), data);
+          break;
+        }
+      }
+    }
+    return true;
   }
   
   @Override
@@ -52,7 +67,7 @@ public class CODouglasCountyParser extends FieldProgramParser {
   // Address field should strip  trailing slash characters
   // and a trailing operations channel
   private static final Pattern OPS_PTN = Pattern.compile("\\bEOPS\\d$");
-  private class MyAddressField extends AddressField {
+  private class MyAddressChannelField extends AddressField {
     
     @Override
     public void parse(String field, Data data) {
@@ -79,7 +94,11 @@ public class CODouglasCountyParser extends FieldProgramParser {
       Parser p = new Parser(field);
       super.parse(p.get("  "), data);
       data.strCross = p.get();
-      if (data.strCross.equals("No Cross Streets Found")) data.strCross = "";
+      if (data.strCross.length() == 0 && 
+          (data.strUnit.equals("No Cross Streets Found") || data.strUnit.contains("/"))) {
+        data.strCross = data.strUnit;
+        data.strUnit = "";
+      }
     }
     
     @Override
@@ -116,14 +135,88 @@ public class CODouglasCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyCallIdField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = TRAIL_ID_PTN.matcher(field);
+      if (!match.find()) abort();
+      data.strCall = field.substring(0,match.start());
+      data.strCallId = match.group(1);
+    }
+  }
+  
   
   @Override
   public Field getField(String  name) {
-    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDRCH")) return new MyAddressChannelField();
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("CALLID")) return new MyCallIdField();
     return super.getField(name);
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    
+    // Douglas County
+    "AURORA",
+    "CASTLE PINES NORTH",
+    "CASTLE ROCK",
+    "LARKSPUR",
+    "LITTLETON",
+    "LONE TREE",
+    "PARKER",
+    "ACRES GREEN",
+    "CARRIAGE CLUB",
+    "CASTLE PINES",
+    "COTTONWOOD",
+    "FRANKTOWN",
+    "GRAND VIEW ESTATES",
+    "HERITAGE HILLS",
+    "HIGHLANDS RANCH",
+    "LOUVIERS",
+    "MERIDIAN",
+    "PERRY PARK",
+    "ROXBOROUGH PARK",
+    "SEDALIA",
+    "STONEGATE",
+    "THE PINERY",
+    "WESTCREEK",
+    "CASTLE PINES VILLAGE",
+    "DAKAN",
+    "DECKERS",
+    "GREENLAND",
+
+    
+    // Elbert County
+    "AGATE",
+    "ELIZABETH",
+    "ELBERT",
+    "FONDIS",
+    "KIOWA",
+    "MATHESON",
+    "PONDEROSA PARK",
+    "SIMLA",
+    "ACRES GREEN",
+    "CARRIAGE CLUB",
+    "CASTLE PINES",
+    "COTTONWOOD",
+    "FRANKTOWN",
+    "GRAND VIEW ESTATES",
+    "HERITAGE HILLS",
+    "HIGHLANDS RANCH",
+    "LOUVIERS",
+    "MERIDIAN",
+    "PERRY PARK",
+    "ROXBOROUGH PARK",
+    "SEDALIA",
+    "STONEGATE",
+    "THE PINERY",
+    "WESTCREEK",
+    "CASTLE PINES VILLAGE",
+    "DAKAN",
+    "DECKERS",
+    "GREENLAND"
+  };
 }

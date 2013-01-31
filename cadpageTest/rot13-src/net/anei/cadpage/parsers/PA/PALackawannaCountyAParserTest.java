@@ -151,8 +151,8 @@ choyvp pynff CNYnpxnjnaanPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G13",
         "Havg R22 R20 Y20 E23 22-9 FD22  Ybpngvba: 8 FPBGG EQ J ZBHAGNVA EQ, R ZBHAGNVA EQ / TERRA TEBIR EQ 22 Pbzzba Anzr: ZHFGNAT ZBGBEFPnyy Glcr: FGEG Pnyy Gvzr: 11/22/11 13:11 Aneengvir  OYNPX FZBXR  Angher Bs Pnyy: FZBXR PBZVAT SEBZ OHVYQVAT",
-        "NQQE:8 FPBGG EQ J",
-        "K:ZBHAGNVA EQ, R ZBHAGNVA EQ / TERRA TEBIR EQ 22",
+        "NQQE:8 FPBGG EQ",
+        "K:J ZBHAGNVA EQ, R ZBHAGNVA EQ / TERRA TEBIR EQ 22",
         "CYNPR:ZHFGNAT ZBGBEF",
         "PNYY:FGEG",
         "QNGR:11/22/11",

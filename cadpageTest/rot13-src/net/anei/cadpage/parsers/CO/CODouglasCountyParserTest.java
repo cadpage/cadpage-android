@@ -148,6 +148,24 @@ Fraqre: qpfb@qbhtynf.pb.hf
 [SJ: Qvfcngpu] \a-------------------------------------------\aSebz: Abeevf Pebbz[FZGC:APEBBZ@PETBI.PBZ]\aFrag: Zbaqnl, Whyl 09, 2012 7:49:58 CZ\aGb: Zvxr Ubea; Zvpunry Zbber; Penvt Ebyyvaf; Zngg Erggzre\aFhowrpg: SJ: Qvfcngpu\aNhgb sbejneqrq ol n Ehyr\a\a\a-------------------------------------------\aSebz: qpfb@qbhtynf.pb.hf[FZGC:QPFB@QBHTYNF.PB.HF]\aFrag: Zbaqnl, Whyl 09, 2012 7:49:56 CZ\aGb: Abeevf Pebbz\aFhowrpg: Qvfcngpu\aNhgb sbejneqrq ol n Ehyr\a\aPnyy: S ZIN VAW Ybpngvba: A HF UVTUJNL 85 PNYYOX= / ZRNQBJF CXJL Znc: NS29Q Havgf:  Pbzzba Anzr: Gvzr: 07/09/12 19:49 Aneengvir:  EVQRE FGVYY QBJA/AB URYZRG  OYX FRQNA  35 LBZ, PBA/OER, XAR VAW  IRU IF ZP  R911 Vasb - Pynff bs Fr 2012-00002149
 [SJ: Qvfcngpu] \a-------------------------------------------\aSebz: Abeevf Pebbz[FZGC:APEBBZ@PETBI.PBZ]\aFrag: Ghrfqnl, Whyl 10, 2012 2:04:21 NZ\aGb: Zvxr Ubea; Zvpunry Zbber; Penvt Ebyyvaf; Zngg Erggzre\aFhowrpg: SJ: Qvfcngpu\aNhgb sbejneqrq ol n Ehyr\a\a\a-------------------------------------------\aSebz: qpfb@qbhtynf.pb.hf[FZGC:QPFB@QBHTYNF.PB.HF]\aFrag: Ghrfqnl, Whyl 10, 2012 2:04:18 NZ\aGb: Abeevf Pebbz\aFhowrpg: Qvfcngpu\aNhgb sbejneqrq ol n Ehyr\a\aPnyy: S ZRQ NFFVFG Ybpngvba: 6005 PNFGYRTNGR QE JR / FJ PEAE Znc: NR29P1 Havgf: R154 ZRQ154 KKK154  Ab Pebff Fgerrgf Sbhaq Pbzzba Anzr: Gvzr: 07/10/12 02:03 Aneengvir:  **FGNAQOL ** ZRQ RINY BA ZNYR CNEGL JUB UNF ORRA GNFRQ / NYFB SBE SRZ JVGU OYBBQ BA URE  2012-00002150
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Xvbjn Sver Cebgrpgvba Qvfgevpg
+Ybpngvba: Xvbjn, PB, Havgrq Fgngrf
+Fraqre: qpfb@qbhtynf.pb.hf
+
+(Qvfcngpu) Pnyy Glcr:  NFFVFG SVER 2013-00000032 Pbzzba Anzr:  Ybpngvba:  228 CNJARR FG Ab Pebff Fgerrgf Sbhaq Xvbjn Pnyy Gvzr:  01/22/13 19:05 Aneengvir:   Angher Bs Pnyy: RBCF3
+(Qvfcngpu) Pnyy: S ZRQ NFFVFG Ybpngvba: 27970 SBERFG EVQTR QE / RBCF3 Znc: NC52 Havgf: KKK221  R OEBNQIVRJ QE, J OEBNQIVRJ QE / IVRJ PVE, PBHAGL EQ 49 Pbzzba Anzr: Gvzr: 01/30/13 03:20 Aneengvir:  ZNYR VF QVNORGVP  Angher Bs Pnyy: RBCF3  ABG NYBAR  R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfc 2013-00000041
+(Qvfcngpu) Pnyy: S FZBXR VAI VA Ybpngvba: 41743 XVBJN-ORAARGG EQ / RBCF1 Znc: NO52 Havgf: KKK221  PBHAGL EQ 166 / PBHAGL EQ 174 Pbzzba Anzr: Gvzr: 01/29/13 17:30 Aneengvir:  Angher Bs Pnyy: RBCF1  R911 Vasb - Pynff bs Freivpr: JCU2 Fcrpvny Erfcbafr Vasb: CFNC=RPFB--RYOREG  2013-00000040
+(Qvfcngpu) Pnyy: S FZBXR VAI BHG Ybpngvba: PBHAGL EQ 134 / JBYS PERRX GEY Znc: NW54 Havgf: KKK221  Pbzzba Anzr: Gvzr: 01/28/13 12:30 Aneengvir:  FZBXR VA NERN JURER GURER JNF TENFF SVER N PBHCYR QNLF NTB  2013-00000039
+(Qvfcngpu) Pnyy: S ZRQ NFFVFG Ybpngvba: 525 PBZNAPUR FG / Znc: NW51 Havgf: KKK221  PBHAGL EQ 45 / HGR NIR Pbzzba Anzr: XVBJN RYRZRAGNEL FPUBBY 525 PBZNAPUR FGGvzr: 01/26/13 10:36 Aneengvir:  VA TLZ  14-16LBZ/JERFGYVAT VAW  VAWHERQ FGHQRAG  2013-00000038
+(Qvfcngpu) Pnyy: S ZRQ NFFVFG Ybpngvba: 417 PBZNAPUR FG / RBCF1 Znc: NW51 Havgf: KKK221  HGR NIR / PBHAGL EQ 45 Pbzzba Anzr: Gvzr: 01/26/13 00:09 Aneengvir:  Angher Bs Pnyy: RBCF1  2013-00000037
+(Qvfcngpu) Pnyy: S OEHFU (AG) Ybpngvba: / Znc: NW50 Havgf: KKK221  PBHAGL EQ 134, FGNGR UVTUJNL 86 / A RYOREG EQ, FGNGR UVTUJNL 86 Pbzzba Anzr: Gvzr: 01/25/13 21:26 Aneengvir:  YG221 AB GBARF ARRQRQ  YG221 NQI PURPXVAT SVER SEBZ RNEYVRE NAQ GURER VF N ERXVAQYR/JVYY OR URER BA 2013-00000036
+(Qvfcngpu) Pnyy: S ZRQ NFFVFG Ybpngvba: 623 PBHAGL EQ 45 P / Znc: NX51 Havgf: KKK221  LHZN YBBC / PUVCCRJN FG Pbzzba Anzr: Gvzr: 01/25/13 13:03 Aneengvir:  2013-00000035
+(Qvfcngpu) Pnyy: S OEHFU (AG) Ybpngvba: FGNGR UVTUJNL 86 / PBHAGL EQ 134 / RBCF1 Znc: NW51 Havgf: KKK221 KKK271  PBHAGL EQ 134, FGNGR UVTUJNL 86 / A RYOREG EQ, FGNGR UVTUJNL 86 Pbzzba Anzr: Gvzr: 01/25/13 12:43 Aneengvir:  EC NQI ARNERFG UFR VF 400 LNEQF NJNL  SVER VF TRGGVAT PYBFR GB OVT GERRF OHG AB OHVYQVATF  EC NQI N 2013-00000034
+(Qvfcngpu) Pnyy: S ZIN HAX VAW Ybpngvba: PBHAGL EQ 45 / PBZNAPUR FG 1ZV FBS RBCF3 Znc: NX51 Havgf: KKK221  Pbzzba Anzr: Gvzr: 01/24/13 14:41 Aneengvir:  Angher Bs Pnyy: RBCF3  2013-00000033
+(Qvfcngpu) Pnyy: S JNGRE FUHG BSS Ybpngvba: 228 CNJARR FG / RBCF3 Znc: NX51 Havgf:  Ab Pebff Fgerrgf Sbhaq Pbzzba Anzr: Gvzr: 01/22/13 19:05 Aneengvir:  JNGRE YRNXVAT SEBZ GUR ZRGRE GB GUR FGERRG  Angher Bs Pnyy: RBCF3  2013-00000032
+(Qvfcngpu) Pnyy: S JNGRE FUHG BSS Ybpngvba: 228 CNJARR FG / RBCF3 Znc: NX51 Havgf: KKK221  Ab Pebff Fgerrgf Sbhaq Pbzzba Anzr: Gvzr: 01/22/13 19:05 Aneengvir:  Angher Bs Pnyy: RBCF3  2013-00000032
+
  */
 
 choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -501,6 +519,8 @@ choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:RBCF3",
         "ZNC:NX84",
         "HAVG:KKK291",
+        "NQQE:VAGREFGNGR 70 & V70 UJL 86 ENZC",
+        "ZNQQE:VAGREFGNGR 70 & V 70 86 ENZC",
         "K:V70 PBHAGL EQ 134 ENZC, VAGREFGNGR 70 / V70 UJL 86 ENZC, VAGREFGNGR 70",
         "CYNPR:V70 ZZ350 RO",
         "QNGR:07/04/12",
@@ -1307,9 +1327,9 @@ choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:S OEHFU (AG)",
         "NQQE:JBS WRYYLFGBAR",
-        "ZNQQE:V25 ZZ173 AO,JBS WRYYLFGBAR",
+        "ZNQQE:JBS WRYYLFGBAR & FCEHPR ZBHAGNVA EQ",
         "ZNC:ND28O",
-        "HAVG:FCEHPR ZBHAGNVA EQ / VAGREFGNGR 25 SEBAGNTR",
+        "K:FCEHPR ZBHAGNVA EQ / VAGREFGNGR 25 SEBAGNTR",
         "CYNPR:V25 ZZ173 AO",
         "QNGR:07/06/12",
         "GVZR:14:33",
@@ -1515,6 +1535,7 @@ choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:S ZIN HAX VAW",
         "ZNC:NU30P",
+        "NQQE:A VAGREFGNGR 25 & A VAGREFGNGR 25",
         "HAVG:R39 ZRQ151 KKK151",
         "K:A VAGREFGNGR 25 / A VAGREFGNGR 25",
         "CYNPR:V25 ZZ182 AO",
@@ -1543,10 +1564,10 @@ choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4378 J FNJZVYY PG & L",
         "ZNQQE:4378 J FNJZVYY PG",
         "ZNC:NS27Q",
-        "HAVG:QRNQ RAQ / F EBPX PERRX QE",
+        "K:QRNQ RAQ / F EBPX PERRX QE",
         "QNGR:07/06/12",
         "GVZR:16:58",
-        "VASB:PZQ 2 FG/AB FUBJ/AB RINP/BCF5/FNJZVYY PZQ  EC VF TBVAT GB JNVG VA UBHFR / L  FNJ N Y",
+        "VASB:PZQ 2 FG/AB FUBJ/AB RINP/BCF5/FNJZVYY PZQ  EC VF TBVAT GB JNVG VA UBHFR / L  FNJ N",
         "VQ:2012-00002088");
 
     qbGrfg("G51",
@@ -1621,6 +1642,7 @@ choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:S ZIN HAX VAW",
         "ZNC:NV30P",
         "HAVG:R39 ZRQ151 KKK152",
+        "NQQE:A VAGREFGNGR 25 & F VAGREFGNGR 25",
         "K:F VAGREFGNGR 25, A VAGREFGNGR 25 / F VAGREFGNGR 25",
         "CYNPR:V25 ZZ181 AO",
         "QNGR:07/06/12",
@@ -2391,7 +2413,7 @@ choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:S ERF FGEHP",
         "NQQE:5125 F ZRNQBJ YNEX QE",
         "ZNC:NS27Q",
-        "HAVG:OBOBYVAX PG, OBOBYVAX QE / NCNPUR PERRX EQ",
+        "K:OBOBYVAX PG, OBOBYVAX QE / NCNPUR PERRX EQ",
         "QNGR:07/08/12",
         "GVZR:08:30",
         "VASB:ON151 ZRNQBJ YNEX PZQ, FYBJ VAPBZVAT HAVGF GB ABA RZRET  CRE PECQ PBQR 9  PECQ BA FPA ABGUVAT FUBJV",
@@ -2417,7 +2439,7 @@ choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:7555 CNGEVPX GEY",
         "PU:RBCF2",
         "ZNC:I49",
-        "HAVG:ORPXL PVE / PBHAGL EQ 194",
+        "K:ORPXL PVE / PBHAGL EQ 194",
         "QNGR:07/08/12",
         "GVZR:08:35",
         "VASB:EC FGNGRF ZRQVPNY ABG ARRQRQ SBE OHEA GB UNAQ  UHFONAQ UNF OHEA BA UNAQ  NYY CNEGVRF RINPHNGRQ  EC",
@@ -2625,6 +2647,7 @@ choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:S ZIN HAX VAW",
         "ZNC:NR29Q",
         "HAVG:R39 ZRQ39 KKK155",
+        "NQQE:ZRNQBJF CXJL & R UNCCL PNALBA EQ",
         "K:ZRNQBJF CXJL / R UNCCL PNALBA EQ",
         "CYNPR:V25 ZZ184 FO ABS",
         "QNGR:07/08/12",
@@ -3044,6 +3067,8 @@ choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:RBCF3",
         "ZNC:NU82",
         "HAVG:KKK291",
+        "NQQE:V70 PBHAGL EQ 134 ENZC & PBHAGL EQ 162",
+        "ZNQQE:V 70 PBHAGL EBNQ 134 ENZC & PBHAGL EBNQ 162",
         "K:VAGREFGNGR 70, V70 PBHAGL EQ 134 ENZC / PBHAGL EQ 162, VAGREFGNGR 70",
         "CYNPR:V70 ZZ346 RO",
         "QNGR:07/09/12",
@@ -3256,6 +3281,157 @@ choyvp pynff PBQbhtynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:02:03",
         "VASB:**FGNAQOL ** ZRQ RINY BA ZNYR CNEGL JUB UNF ORRA GNFRQ / NYFB SBE SRZ JVGU OYBBQ BA URE",
         "VQ:2012-00002150");
+
+  }
+  
+  @Grfg
+  choyvp ibvq XvbjnSverCebgrpgvbaQvfgevpg() {
+
+    qbGrfg("G1",
+        "(Qvfcngpu) Pnyy Glcr:  NFFVFG SVER 2013-00000032 Pbzzba Anzr:  Ybpngvba:  228 CNJARR FG Ab Pebff Fgerrgf Sbhaq Xvbjn Pnyy Gvzr:  01/22/13 19:05 Aneengvir:   Angher Bs Pnyy: RBCF3",
+        "PNYY:NFFVFG SVER",
+        "NQQE:228 CNJARR FG",
+        "QNGR:01/22/13",
+        "GVZR:19:05",
+        "VASB:RBCF3",
+        "PVGL:Xvbjn",
+        "VQ:2013-00000032");
+
+    qbGrfg("G2",
+        "(Qvfcngpu) Pnyy: S ZRQ NFFVFG Ybpngvba: 27970 SBERFG EVQTR QE / RBCF3 Znc: NC52 Havgf: KKK221  R OEBNQIVRJ QE, J OEBNQIVRJ QE / IVRJ PVE, PBHAGL EQ 49 Pbzzba Anzr: Gvzr: 01/30/13 03:20 Aneengvir:  ZNYR VF QVNORGVP  Angher Bs Pnyy: RBCF3  ABG NYBAR  R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfc 2013-00000041",
+        "PNYY:S ZRQ NFFVFG",
+        "NQQE:27970 SBERFG EVQTR QE",
+        "PU:RBCF3",
+        "ZNC:NC52",
+        "HAVG:KKK221",
+        "K:R OEBNQIVRJ QE, J OEBNQIVRJ QE / IVRJ PVE, PBHAGL EQ 49",
+        "QNGR:01/30/13",
+        "GVZR:03:20",
+        "VASB:ZNYR VF QVNORGVP / ABG NYBAR  Pynff bs Freivpr: ERFQ Fcrpvny Erfc",
+        "VQ:2013-00000041");
+
+    qbGrfg("G3",
+        "(Qvfcngpu) Pnyy: S FZBXR VAI VA Ybpngvba: 41743 XVBJN-ORAARGG EQ / RBCF1 Znc: NO52 Havgf: KKK221  PBHAGL EQ 166 / PBHAGL EQ 174 Pbzzba Anzr: Gvzr: 01/29/13 17:30 Aneengvir:  Angher Bs Pnyy: RBCF1  R911 Vasb - Pynff bs Freivpr: JCU2 Fcrpvny Erfcbafr Vasb: CFNC=RPFB--RYOREG  2013-00000040",
+        "PNYY:S FZBXR VAI VA",
+        "NQQE:41743 XVBJN-ORAARGG EQ",
+        "PU:RBCF1",
+        "ZNC:NO52",
+        "HAVG:KKK221",
+        "K:PBHAGL EQ 166 / PBHAGL EQ 174",
+        "QNGR:01/29/13",
+        "GVZR:17:30",
+        "VASB:Pynff bs Freivpr: JCU2 Fcrpvny Erfcbafr Vasb: CFNC=RPFB--RYOREG",
+        "VQ:2013-00000040");
+
+    qbGrfg("G4",
+        "(Qvfcngpu) Pnyy: S FZBXR VAI BHG Ybpngvba: PBHAGL EQ 134 / JBYS PERRX GEY Znc: NW54 Havgf: KKK221  Pbzzba Anzr: Gvzr: 01/28/13 12:30 Aneengvir:  FZBXR VA NERN JURER GURER JNF TENFF SVER N PBHCYR QNLF NTB  2013-00000039",
+        "PNYY:S FZBXR VAI BHG",
+        "NQQE:PBHAGL EQ 134 & JBYS PERRX GEY",
+        "ZNQQE:PBHAGL EBNQ 134 & JBYS PERRX GEY",
+        "ZNC:NW54",
+        "HAVG:KKK221",
+        "QNGR:01/28/13",
+        "GVZR:12:30",
+        "VASB:FZBXR VA NERN JURER GURER JNF TENFF SVER N PBHCYR QNLF NTB",
+        "VQ:2013-00000039");
+
+    qbGrfg("G5",
+        "(Qvfcngpu) Pnyy: S ZRQ NFFVFG Ybpngvba: 525 PBZNAPUR FG / Znc: NW51 Havgf: KKK221  PBHAGL EQ 45 / HGR NIR Pbzzba Anzr: XVBJN RYRZRAGNEL FPUBBY 525 PBZNAPUR FGGvzr: 01/26/13 10:36 Aneengvir:  VA TLZ  14-16LBZ/JERFGYVAT VAW  VAWHERQ FGHQRAG  2013-00000038",
+        "PNYY:S ZRQ NFFVFG",
+        "NQQE:525 PBZNAPUR FG",
+        "ZNC:NW51",
+        "HAVG:KKK221",
+        "K:PBHAGL EQ 45 / HGR NIR",
+        "CYNPR:XVBJN RYRZRAGNEL FPUBBY",
+        "QNGR:01/26/13",
+        "GVZR:10:36",
+        "VASB:VA TLZ  14-16LBZ/JERFGYVAT VAW  VAWHERQ FGHQRAG",
+        "VQ:2013-00000038");
+
+    qbGrfg("G6",
+        "(Qvfcngpu) Pnyy: S ZRQ NFFVFG Ybpngvba: 417 PBZNAPUR FG / RBCF1 Znc: NW51 Havgf: KKK221  HGR NIR / PBHAGL EQ 45 Pbzzba Anzr: Gvzr: 01/26/13 00:09 Aneengvir:  Angher Bs Pnyy: RBCF1  2013-00000037",
+        "PNYY:S ZRQ NFFVFG",
+        "NQQE:417 PBZNAPUR FG",
+        "PU:RBCF1",
+        "ZNC:NW51",
+        "HAVG:KKK221",
+        "K:HGR NIR / PBHAGL EQ 45",
+        "QNGR:01/26/13",
+        "GVZR:00:09",
+        "VQ:2013-00000037");
+
+    qbGrfg("G7",
+        "(Qvfcngpu) Pnyy: S OEHFU (AG) Ybpngvba: / Znc: NW50 Havgf: KKK221  PBHAGL EQ 134, FGNGR UVTUJNL 86 / A RYOREG EQ, FGNGR UVTUJNL 86 Pbzzba Anzr: Gvzr: 01/25/13 21:26 Aneengvir:  YG221 AB GBARF ARRQRQ  YG221 NQI PURPXVAT SVER SEBZ RNEYVRE NAQ GURER VF N ERXVAQYR/JVYY OR URER BA 2013-00000036",
+        "PNYY:S OEHFU (AG)",
+        "ZNC:NW50",
+        "HAVG:KKK221",
+        "NQQE:FGNGR UVTUJNL 86 & A RYOREG EQ",
+        "ZNQQE:FGNGR 86 & A RYOREG EQ",
+        "K:PBHAGL EQ 134, FGNGR UVTUJNL 86 / A RYOREG EQ, FGNGR UVTUJNL 86",
+        "QNGR:01/25/13",
+        "GVZR:21:26",
+        "VASB:YG221 AB GBARF ARRQRQ  YG221 NQI PURPXVAT SVER SEBZ RNEYVRE NAQ GURER VF N ERXVAQYR/JVYY OR URER BA",
+        "VQ:2013-00000036");
+
+    qbGrfg("G8",
+        "(Qvfcngpu) Pnyy: S ZRQ NFFVFG Ybpngvba: 623 PBHAGL EQ 45 P / Znc: NX51 Havgf: KKK221  LHZN YBBC / PUVCCRJN FG Pbzzba Anzr: Gvzr: 01/25/13 13:03 Aneengvir:  2013-00000035",
+        "PNYY:S ZRQ NFFVFG",
+        "NQQE:623 PBHAGL EQ 45 P",
+        "ZNQQE:623 PBHAGL EBNQ 45 P",
+        "ZNC:NX51",
+        "HAVG:KKK221",
+        "K:LHZN YBBC / PUVCCRJN FG",
+        "QNGR:01/25/13",
+        "GVZR:13:03",
+        "VQ:2013-00000035");
+
+    qbGrfg("G9",
+        "(Qvfcngpu) Pnyy: S OEHFU (AG) Ybpngvba: FGNGR UVTUJNL 86 / PBHAGL EQ 134 / RBCF1 Znc: NW51 Havgf: KKK221 KKK271  PBHAGL EQ 134, FGNGR UVTUJNL 86 / A RYOREG EQ, FGNGR UVTUJNL 86 Pbzzba Anzr: Gvzr: 01/25/13 12:43 Aneengvir:  EC NQI ARNERFG UFR VF 400 LNEQF NJNL  SVER VF TRGGVAT PYBFR GB OVT GERRF OHG AB OHVYQVATF  EC NQI N 2013-00000034",
+        "PNYY:S OEHFU (AG)",
+        "NQQE:FGNGR UVTUJNL 86 & PBHAGL EQ 134",
+        "ZNQQE:FGNGR 86 & PBHAGL EBNQ 134",
+        "PU:RBCF1",
+        "ZNC:NW51",
+        "HAVG:KKK221 KKK271",
+        "K:PBHAGL EQ 134, FGNGR UVTUJNL 86 / A RYOREG EQ, FGNGR UVTUJNL 86",
+        "QNGR:01/25/13",
+        "GVZR:12:43",
+        "VASB:EC NQI ARNERFG UFR VF 400 LNEQF NJNL  SVER VF TRGGVAT PYBFR GB OVT GERRF OHG AB OHVYQVATF  EC NQI N",
+        "VQ:2013-00000034");
+
+    qbGrfg("G10",
+        "(Qvfcngpu) Pnyy: S ZIN HAX VAW Ybpngvba: PBHAGL EQ 45 / PBZNAPUR FG 1ZV FBS RBCF3 Znc: NX51 Havgf: KKK221  Pbzzba Anzr: Gvzr: 01/24/13 14:41 Aneengvir:  Angher Bs Pnyy: RBCF3  2013-00000033",
+        "PNYY:S ZIN HAX VAW",
+        "NQQE:PBHAGL EQ 45 & PBZNAPUR FG 1ZV FBS",
+        "ZNQQE:PBHAGL EBNQ 45 & PBZNAPUR FG 1ZV FBS",
+        "PU:RBCF3",
+        "ZNC:NX51",
+        "HAVG:KKK221",
+        "QNGR:01/24/13",
+        "GVZR:14:41",
+        "VQ:2013-00000033");
+
+    qbGrfg("G11",
+        "(Qvfcngpu) Pnyy: S JNGRE FUHG BSS Ybpngvba: 228 CNJARR FG / RBCF3 Znc: NX51 Havgf:  Ab Pebff Fgerrgf Sbhaq Pbzzba Anzr: Gvzr: 01/22/13 19:05 Aneengvir:  JNGRE YRNXVAT SEBZ GUR ZRGRE GB GUR FGERRG  Angher Bs Pnyy: RBCF3  2013-00000032",
+        "PNYY:S JNGRE FUHG BSS",
+        "NQQE:228 CNJARR FG",
+        "PU:RBCF3",
+        "ZNC:NX51",
+        "QNGR:01/22/13",
+        "GVZR:19:05",
+        "VASB:JNGRE YRNXVAT SEBZ GUR ZRGRE GB GUR FGERRG",
+        "VQ:2013-00000032");
+
+    qbGrfg("G12",
+        "(Qvfcngpu) Pnyy: S JNGRE FUHG BSS Ybpngvba: 228 CNJARR FG / RBCF3 Znc: NX51 Havgf: KKK221  Ab Pebff Fgerrgf Sbhaq Pbzzba Anzr: Gvzr: 01/22/13 19:05 Aneengvir:  Angher Bs Pnyy: RBCF3  2013-00000032",
+        "PNYY:S JNGRE FUHG BSS",
+        "NQQE:228 CNJARR FG",
+        "PU:RBCF3",
+        "ZNC:NX51",
+        "HAVG:KKK221",
+        "QNGR:01/22/13",
+        "GVZR:19:05",
+        "VQ:2013-00000032");
 
   }
   

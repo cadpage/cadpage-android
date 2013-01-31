@@ -91,6 +91,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         X - nothing
  *         P - place name
  *         S - something we can skip
+ *         x - cross streets
  *         
  * SPECIAL FIELD NAMES
  * 
@@ -1661,6 +1662,7 @@ public class FieldProgramParser extends SmartAddressParser {
           pt2 = "CPSaUNIx".indexOf(chr);
           if (pt2 >= 0) {
             parseFlags &= ~FLAG_ANCHOR_END;
+            if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
             tailField = new String[]{"CALL","PLACE","SKIP","APT","UNIT","NAME","INFO", "X"}[pt2];
             tailData = getField(tailField);
             if (chr == 'I') parseFlags |= FLAG_IGNORE_AT;
@@ -1668,10 +1670,11 @@ public class FieldProgramParser extends SmartAddressParser {
           
           if (++pt >= qual.length()) break;
           chr = qual.charAt(pt);
-          pt2 = "PS".indexOf(chr);
+          pt2 = "PSx".indexOf(chr);
           if (pt2 >= 0) {
             parseFlags |= FLAG_PAD_FIELD;
-            padField = new String[]{"PLACE","SKIP"}[pt2];
+            if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
+            padField = new String[]{"PLACE","SKIP", "X"}[pt2];
             padData = getField(padField);
           }
           
@@ -1737,6 +1740,7 @@ public class FieldProgramParser extends SmartAddressParser {
         }
       } else {
         parseAddress(startType, parseFlags, field, data);
+        if (padData != null) padData.parse(getPadField(), data);
         if (tailData != null) tailData.parse(getLeft(), data);
       }
     }

@@ -94,6 +94,7 @@ choyvp pynff QRXragPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[!]  [X] Fgnaq-Ol,Pbire-hc 2 A ZNVA FG FGNGVBA 55 Zntabyvn : ZNTABYVN Kfg'f: J JNYAHG FG, F ZNVA FG, R JNYAHG FG / OBBGL QE Pnyyre:",
         "PNYY:Fgnaq-Ol,Pbire-hc",
         "NQQE:2 A ZNVA FG",
+        "CYNPR:FGNGVBA 55",
         "PVGL:Zntabyvn",
         "K:J JNYAHG FG, F ZNVA FG, R JNYAHG FG / OBBGL QE");
 
@@ -115,6 +116,7 @@ choyvp pynff QRXragPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[!]  [X] 29Q2Y ZIP Zbgbeplpyr/Ovplpyr 375 TNGRJNL FBHGU OYIQ FBAVP - FBHGU QBIRE Qbire : Kfg'f: QRNQ RAQ / QRNQ RAQ Pnyyre:",
         "PNYY:29Q2Y ZIP Zbgbeplpyr/Ovplpyr",
         "NQQE:375 TNGRJNL FBHGU OYIQ",
+        "CYNPR:FBAVP - FBHGU QBIRE",
         "PVGL:Qbire",
         "K:QRNQ RAQ / QRNQ RAQ");
 
@@ -140,6 +142,7 @@ choyvp pynff QRXragPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[47 SVER/RZF]1P6 Noqbzvany Cnvaf 46 ZNVA FG Terrajbbq : Kfg'f: NAQERJIVYYR EQ, SYNG VEBA EQ / SNEZVATGBA EQ Pnyyre: ZHEENL OBOOL",
         "PNYY:1P6 Noqbzvany Cnvaf",
         "NQQE:46 ZNVA FG",
+        "CYNPR:Terrajbbq",
         "K:NAQERJIVYYR EQ, SYNG VEBA EQ / SNEZVATGBA EQ");
   }
   
@@ -181,6 +184,7 @@ choyvp pynff QRXragPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "RZF Fgnaq-ol 15 J EBOREG S EVQRE EQ UNEEVATGBA ENPRJNL Uneevatgba : FGNGR SNVE TEBHAQF Kfg'f: S TNEL FVZCFBA EQ / ORAWNZVA V FUNJ FG Pnyyre:\e\a",
         "PNYY:RZF Fgnaq-ol",
         "NQQE:15 J EBOREG S EVQRE EQ",  // TBbtyr pna'g znc
+        "CYNPR:UNEEVATGBA ENPRJNL",
         "PVGL:Uneevatgba",
         "K:S TNEL FVZCFBA EQ / ORAWNZVA V FUNJ FG");
 
