@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class ORKlamathCountyParser extends FieldProgramParser {
   
-  private static Pattern KEYWORD_PTN = Pattern.compile("(?<=\n(?:EVENT #|PRIORITY|LOCATION|CITY|APT|PREMISE|COMMENT))");
+  private static Pattern KEYWORD_PTN = Pattern.compile("(?<=\n(?:UNITS|EVENT #|PRIORITY|LOCATION|CITY|APT|PREMISE|COMMENT))");
 
   private static Properties CITY_CODES = buildCodeTable(new String[]{
       "KF", "KLAMATH FALLS"
@@ -20,7 +20,7 @@ public class ORKlamathCountyParser extends FieldProgramParser {
   
   public ORKlamathCountyParser() {
     super(CITY_CODES, "KLAMATH COUNTY", "OR",
-           "DATETIME! EVENT_#:IDUNIT! CALL! PRIORITY:PRI! LOCATION:ADDR! CITY:CITY! APT:APT! PREMISE:PLACE? COMMENT:INFO+");
+           "DATETIME! UNITS:UNIT? EVENT_#:IDUNIT! CALL! PRIORITY:PRI! LOCATION:ADDR! CITY:CITY! APT:APT! PREMISE:PLACE? COMMENT:INFO+");
   }
   
   @Override
@@ -46,27 +46,28 @@ public class ORKlamathCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern ID_UNIT_PTN = Pattern.compile("(\\d{10}) (.*)");
-  private class MyIdUnitField extends Field {
+  private static final Pattern ID_SRC_PTN = Pattern.compile("(\\d{10}) (.*)");
+  private class MyIdSourceField extends Field {
     
     @Override
     public void parse(String field, Data data) {
-      Matcher match = ID_UNIT_PTN.matcher(field);
+      Matcher match = ID_SRC_PTN.matcher(field);
       if (!match.matches()) abort();
+      
       data.strCallId = match.group(1).trim();
-      data.strUnit =  match.group(2).trim();
+      data.strSource =  match.group(2).trim();
     }
     
     @Override
     public String getFieldNames() {
-      return "ID UNIT";
+      return "ID SRC";
     }
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("IDUNIT")) return new MyIdUnitField();
+    if (name.equals("IDUNIT")) return new MyIdSourceField();
     return super.getField(name);
   }
 }

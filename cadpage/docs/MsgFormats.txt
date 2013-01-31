@@ -1406,9 +1406,9 @@ Pueblo RFD, CO (COPuebloParser)
 (Page ) 04:52PM 11/27 ATTN RURAL FIRE: 28141 south rd....male poss overdose...jaa
 ***************************************************************************
 Weld County, CO (COWeldCountyParser) 
-20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \COMP:1ST CLASS SECURITY \PH:800 482 9800,
-20431,SMKODR,1ST ST/8TH AV.E4 L1,TEXT:SMELL OF NATURAL GAS ALL OVER THE AREA \COMP:W012,
-20373,SMKODR,10TH AV/22ND ST.E4 R1,TEXT:STRONG SMELL OF NATURAL GAS IN AIR IN THIS AREA \COMP:MIKE RUANE \PH:608 630 2959,
+" " 24\nSIPF\nD\n3211 LUPTON AVE\nEV\n24\nMOM IS NOT WAKING UP 0000 Confirm 0001 Refuse TXT STOP to opt-out
+" " 24\nALARMFR\nD\n2936 PARK VIEW DR   ; CARRICH RESIDENCE\nEV\n24D\nAUDIBLE FROM ZONE 4.  NO ANSWER OS.  PREM PH 970 339 7664.  WILL BE ATC\nKEYHOLDER. 0000 Confirm 0001 Refuse TXT STOP to opt-out
+" " 36\nTAU\nD\nWCR 21\nPL\n36\n4DR SD DOWN IN DITCH\nProQA Medical Recommended Dispatch Level = 29B04U\nYou are responding to patients involved in a traffic incident.  (If known -- relay  pertinent patient-specific information.) Unknown status/Other codes n TXT STOP to opt-out
 ***************************************************************************
 Groton, CT (CTGrotonParser)
 (CAD PAGE) UNKNOWN MEDICAL|AMTRAK STATION| 2 ROOSEVELT AVE,STON |STA MGHOXIE XS BROADWAY  AVE/LINCOLN AVE|11:08|NARR SOUTHBOUND TRAIN MEDICAL EMERGENCY
@@ -6019,3 +6019,4 @@ Sender: eastmeadowfd@eastmeadowfd.net
 * EOF
 **********************************************************
 **********************************************************
+
