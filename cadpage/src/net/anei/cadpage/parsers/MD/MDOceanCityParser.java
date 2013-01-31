@@ -14,7 +14,7 @@ public class MDOceanCityParser extends DispatchAegisParser {
   
   @Override
   public String getFilter() {
-    return "msg@cfmsg.com";
+    return "alert@cfmsg.com";
   }
   
   public MDOceanCityParser() {

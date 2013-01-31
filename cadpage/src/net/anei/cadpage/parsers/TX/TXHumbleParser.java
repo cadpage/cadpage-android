@@ -22,7 +22,7 @@ public class TXHumbleParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "msg@cfmsg.com";
+    return "msg@cfmsg.com,alert@cfmsg.com";
   }
   
   @Override

@@ -14,7 +14,7 @@ public class MDCarolineCountyParser extends DispatchAegisParser {
   
   @Override
   public String getFilter() {
-    return "msg@cfmsg.com,alert@cfmsg.com";
+    return "alert@cfmsg.com";
   }
   
   // Assume single word city name, because that all they have

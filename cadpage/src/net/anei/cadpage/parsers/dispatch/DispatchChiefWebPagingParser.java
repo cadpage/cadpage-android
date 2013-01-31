@@ -18,7 +18,7 @@ public class DispatchChiefWebPagingParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@c-msg.net,msg@cfmsg.com";
+    return "@c-msg.net,msg@cfmsg.com,alert@cfmsg.com";
   }
 
   @Override
