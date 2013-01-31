@@ -42,6 +42,22 @@ Fraqre: neaf@furyol911.bet
 (FURYOL 911 NEAF NYREG) \a12/15/2012 3:34:22 CZ\aSVER1221705\aPNYREN - FGN2\aSNYY-YNQQRE\a\a148 JNGRESBEQ YNXR QE @ JNGRESBEQ YNXR PVE / JNGRESBEQ YNXR IVRJ\a\a PENVT, ONEONEN
 (FURYOL 911 NEAF NYREG) \a12/15/2012 1:29:42 CZ\aSVER1221697\aPNYREN - FGN2\aSNYY-FGNAQVAT\a\a3042 UVTUIVRJ YA @ UVTUIVRJ QE / \a\a ZNFBA, RYRNABE
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: OISEQ
+Ybpngvba: Oevresvryq, NY, Havgrq Fgngrf
+Fraqre: neaf@furyol911.bet
+
+(FURYOL NEAF NYREG) 1/29/2013 7:11:21 CZ\aSVER1301804\aOEVRESYQ - OVOO PB\aSVER-FGEHPGHER\aOESQ\a   @  / \a: @OESQ:18735 139,YBG 3\a UNAFBA, EBLPR
+(FURYOL NEAF NYREG) 1/27/2013 7:12:26 NZ\aSVER1301629\aOEVRESYQ - OVOO PB\aBO-\aOESQ\a   @  / \a: @OESQ:28 ZVPXRAF EQ
+(FURYOL NEAF NYREG) 1/27/2013 4:12:05 NZ\aSVER1301623\aOEVRESYQ - OVOO PB\aFHVPVQR-\aOESQ\a   @  / \a: @OESQ:1060 NPNQRZL EQ:\aOVOO PB
+(FURYOL NEAF NYREG) 1/25/2013 8:09:21 NZ\aSVER1301510\aOEVRESYQ - FURYOL\aZIP-PURPX_VAWHEVRF\a\a1486. 25 UJL @ 139 UJL / ERRQRE FG\a\a IREVMBA JVERYRFF
+(FURYOL NEAF NYREG) 1/24/2013 9:51:36 CZ\aSVER1301498\aOEVRESYQ - OVOO PB\aPURFGCNVA-\aOESQ\a   @  / \a: @OESQ: 460 YHGM YA\a JBBQ, WBRNAA
+(FURYOL NEAF NYREG) 1/24/2013 12:40:41 NZ\aSVER1301443\aOEVRESYQ - OVOO PB\aOERNGUVAT-\aOESQ\a   @  / \a: @OESQ: 1017 RORAVMRE EQ\aOVOO PB
+(FURYOL NEAF NYREG) 1/22/2013 3:02:16 CZ\aSVER1301360\aOEVRESYQ - OVOO PB\aURNQ/ARPX-\aOESQ\a   @  / \a: @OESQ:1085 R NFUOL EQ
+(FURYOL NEAF NYREG) 1/22/2013 1:46:11 CZ\aSVER1301355\aOEVRESYQ - OVOO PB\aFRVMHER-\aOESQ\a   @  / \a: @OESQ: 189 139\a NG&G ZBOVYVGL
+(FURYOL NEAF NYREG) 1/21/2013 1:34:16 CZ\aSVER1301304\aOEVRESYQ - OVOO PB\aPURFGCNVA-\aOESQ\a   @  / \a: @OESQ:239 OBBGUR YA\a NG&G ZBOVYVGL
+(FURYOL NEAF NYREG) 1/20/2013 4:39:01 CZ\aSVER1301255\aOEVRESYQ - OVOO PB\aSVER-IRUVPYR\aOESQ\a   @  / \a: @OESQ: 1231 JRFG NFUOL EQ\a IREVMBA JVERYRFF
+
 */
 
 choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -489,6 +505,158 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:UVQQRA PERRX YA / JNGREFGBAR JNL",
         "VASB:OYNPXJNGRE GRPUABYBTVRF");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOISEQ() {
+
+    qbGrfg("G1",
+        "(FURYOL NEAF NYREG) 1/29/2013 7:11:21 CZ\a" +
+        "SVER1301804\a" +
+        "OEVRESYQ - OVOO PB\a" +
+        "SVER-FGEHPGHER\a" +
+        "OESQ\a" +
+        "   @  / \a" +
+        ": @OESQ:18735 139,YBG 3\a" +
+        " UNAFBA, EBLPR",
+
+        "QNGR:1/29/2013",
+        "GVZR:19:11:21",
+        "VQ:SVER1301804",
+        "FEP:OEVRESYQ - OVOO PB",
+        "PNYY:SVER-FGEHPGHER",
+        "NQQE:18735 139",
+        "NCG:YBG 3",
+        "VASB:UNAFBA, EBLPR");
+
+    qbGrfg("G2",
+        "(FURYOL NEAF NYREG) 1/27/2013 7:12:26 NZ\aSVER1301629\aOEVRESYQ - OVOO PB\aBO-\aOESQ\a   @  / \a: @OESQ:28 ZVPXRAF EQ",
+        "QNGR:1/27/2013",
+        "GVZR:07:12:26",
+        "VQ:SVER1301629",
+        "FEP:OEVRESYQ - OVOO PB",
+        "PNYY:BO",
+        "NQQE:28 ZVPXRAF EQ");
+
+    qbGrfg("G3",
+        "(FURYOL NEAF NYREG) 1/27/2013 4:12:05 NZ\aSVER1301623\aOEVRESYQ - OVOO PB\aFHVPVQR-\aOESQ\a   @  / \a: @OESQ:1060 NPNQRZL EQ:\aOVOO PB",
+        "QNGR:1/27/2013",
+        "GVZR:04:12:05",
+        "VQ:SVER1301623",
+        "FEP:OEVRESYQ - OVOO PB",
+        "PNYY:FHVPVQR",
+        "NQQE:1060 NPNQRZL EQ:",
+        "VASB:OVOO PB");
+
+    qbGrfg("G4",
+        "(FURYOL NEAF NYREG) 1/25/2013 8:09:21 NZ\a" +
+        "SVER1301510\a" +
+        "OEVRESYQ - FURYOL\a" +
+        "ZIP-PURPX_VAWHEVRF\a\a" +
+        "1486. 25 UJL @ 139 UJL / ERRQRE FG\a\a" +
+        " IREVMBA JVERYRFF",
+
+        "QNGR:1/25/2013",
+        "GVZR:08:09:21",
+        "VQ:SVER1301510",
+        "FEP:OEVRESYQ - FURYOL",
+        "PNYY:ZIP-PURPX_VAWHEVRF",
+        "NQQE:1486 25 UJL",
+        "ZNQQE:1486 UJL 25",
+        "K:139 UJL / ERRQRE FG",
+        "VASB:IREVMBA JVERYRFF");
+
+    qbGrfg("G5",
+        "(FURYOL NEAF NYREG) 1/24/2013 9:51:36 CZ\a" +
+        "SVER1301498\a" +
+        "OEVRESYQ - OVOO PB\a" +
+        "PURFGCNVA-\a" +
+        "OESQ\a" +
+        "   @  / \a" +
+        ": @OESQ: 460 YHGM YA\a" +
+        " JBBQ, WBRNAA",
+
+        "QNGR:1/24/2013",
+        "GVZR:21:51:36",
+        "VQ:SVER1301498",
+        "FEP:OEVRESYQ - OVOO PB",
+        "PNYY:PURFGCNVA",
+        "NQQE:460 YHGM YA",
+        "VASB:JBBQ, WBRNAA");
+
+    qbGrfg("G6",
+        "(FURYOL NEAF NYREG) 1/24/2013 12:40:41 NZ\a" +
+        "SVER1301443\a" +
+        "OEVRESYQ - OVOO PB\a" +
+        "OERNGUVAT-\a" +
+        "OESQ\a" +
+        "   @  / \a" +
+        ": @OESQ: 1017 RORAVMRE EQ\a" +
+        "OVOO PB",
+
+        "QNGR:1/24/2013",
+        "GVZR:00:40:41",
+        "VQ:SVER1301443",
+        "FEP:OEVRESYQ - OVOO PB",
+        "PNYY:OERNGUVAT",
+        "NQQE:1017 RORAVMRE EQ",
+        "VASB:OVOO PB");
+
+    qbGrfg("G7",
+        "(FURYOL NEAF NYREG) 1/22/2013 3:02:16 CZ\aSVER1301360\aOEVRESYQ - OVOO PB\aURNQ/ARPX-\aOESQ\a   @  / \a: @OESQ:1085 R NFUOL EQ",
+        "QNGR:1/22/2013",
+        "GVZR:15:02:16",
+        "VQ:SVER1301360",
+        "FEP:OEVRESYQ - OVOO PB",
+        "PNYY:URNQ/ARPX",
+        "NQQE:1085 R NFUOL EQ");
+
+    qbGrfg("G8",
+        "(FURYOL NEAF NYREG) 1/22/2013 1:46:11 CZ\aSVER1301355\aOEVRESYQ - OVOO PB\aFRVMHER-\aOESQ\a   @  / \a: @OESQ: 189 139\a NG&G ZBOVYVGL",
+        "QNGR:1/22/2013",
+        "GVZR:13:46:11",
+        "VQ:SVER1301355",
+        "FEP:OEVRESYQ - OVOO PB",
+        "PNYY:FRVMHER",
+        "NQQE:189 139",
+        "VASB:NG&G ZBOVYVGL");
+
+    qbGrfg("G9",
+        "(FURYOL NEAF NYREG) 1/21/2013 1:34:16 CZ\a" +
+        "SVER1301304\a" +
+        "OEVRESYQ - OVOO PB\a" +
+        "PURFGCNVA-\a" +
+        "OESQ\a" +
+        "   @  / \a" +
+        ": @OESQ:239 OBBGUR YA\a" +
+        " NG&G ZBOVYVGL",
+
+        "QNGR:1/21/2013",
+        "GVZR:13:34:16",
+        "VQ:SVER1301304",
+        "FEP:OEVRESYQ - OVOO PB",
+        "PNYY:PURFGCNVA",
+        "NQQE:239 OBBGUR YA",
+        "VASB:NG&G ZBOVYVGL");
+
+    qbGrfg("G10",
+        "(FURYOL NEAF NYREG) 1/20/2013 4:39:01 CZ\a" +
+        "SVER1301255\a" +
+        "OEVRESYQ - OVOO PB\a" +
+        "SVER-IRUVPYR\a" +
+        "OESQ\a" +
+        "   @  / \a" +
+        ": @OESQ: 1231 JRFG NFUOL EQ\a" +
+        " IREVMBA JVERYRFF",
+
+        "QNGR:1/20/2013",
+        "GVZR:16:39:01",
+        "VQ:SVER1301255",
+        "FEP:OEVRESYQ - OVOO PB",
+        "PNYY:SVER-IRUVPYR",
+        "NQQE:1231 JRFG NFUOL EQ",
+        "VASB:IREVMBA JVERYRFF");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

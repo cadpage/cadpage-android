@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class ALShelbyCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("SHELBY ?911 ARNS ALERT");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("SHELBY(?: ?911)? ARNS ALERT");
   
   public ALShelbyCountyParser() {
     super("SHELBY COUNTY", "AL",
@@ -96,12 +96,13 @@ public class ALShelbyCountyParser extends FieldProgramParser {
         field = field.substring(3).trim();
         int pt = field.indexOf(':');
         if (pt < 0) pt = field.indexOf(' ');
-        if (pt < 0) abort();
+        if (pt < 0) pt = field.length();
         String place = field.substring(0,pt);
-        field = field.substring(pt+1).trim();
         if (!PLACE_SRC_PTN.matcher(place).matches()) {
           data.strPlace = append(data.strPlace, " - ", place);
         }
+        if (pt >= field.length()) return;
+        field = field.substring(pt+1).trim();
       }
       String apt = "";
       int pt = field.lastIndexOf(',');
