@@ -524,7 +524,7 @@ choyvp pynff BUYnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G26",
         "Ybpngvba: 3753 ZNVA FG CI Pebff Fgerrgf: ANEEBJF EQ PRAGRE EQ Glcr Pbqr: SVER Fho Glcr: NYNEZ Gvzr: 14:31:53",
         "NQQE:3753 ZNVA FG",
-        "PVGL:CNVAFIVYYR",
+        "PVGL:CREEL",
         "K:ANEEBJF EQ / PRAGRE EQ",
         "PNYY:SVER - NYNEZ",
         "GVZR:14:31:53");
