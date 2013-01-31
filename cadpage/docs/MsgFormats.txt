@@ -2476,6 +2476,7 @@ HudsonCAD:CAD System 6150,NICHOLSON DR.,,HUDSON EMS,EMS63 YOM, DIABETIC SHOCK
 HudsonCAD:CAD System 0,ANYWHERE,OTHER LOCATION OUT OF CITY,HudsonEMS,EMSMUTAL AID TO TWINSBURG FOR WORKING HOUSE FIRE, 2416 WHITE MARSH
 HudsonCAD:CAD System 6150,NICHOLSON DR.,,HUDSON EMS,EMS
 ***************************************************************************
+Lake County, OH (OHLakeCountyParser)
 Location: 69 E PROSPECT ST PC Cross Streets: WARNER ST COURTLAND ST Type Code: FIRE Sub Type: RESIDE Time: 13:03:08 
 Location: 828 LIBERTY ST PA Cross Streets: BANK ST UNNAMED STREET Type Code: ILLNESS Sub Type: GENERAL Time: 09:19:01 
 Location: 2050 I 90 HWY LE Cross Streets: Type Code: ACCIDENT Sub Type: INJACC Time: 07:19:04 

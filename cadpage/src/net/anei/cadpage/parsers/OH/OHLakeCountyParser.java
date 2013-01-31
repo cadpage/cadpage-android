@@ -56,7 +56,10 @@ public class OHLakeCountyParser extends FieldProgramParser {
       "LE", "LEROY TWP",
       "MA", "MADISON",
       "MV", "MADISON",
+      "NP", "NORTH PERRY",
       "PA", "PAINSVILLE",
-      "PC", "PAINSVILLE"
+      "PE", "PERRY",
+      "PC", "PAINSVILLE",
+      "PV", "PERRY",
   });
 }
