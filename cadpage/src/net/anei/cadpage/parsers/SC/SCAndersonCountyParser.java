@@ -9,7 +9,8 @@ public class SCAndersonCountyParser extends DispatchBParser {
   private static final String[] MARKERS = new String[] {
     "ANDERSON CO 911:",
     "AND 911:",
-    "active911:"
+    "active911:",
+    "06-wp:"
   };
   
   private static final String[] CITY_CODES = new String[]{
@@ -31,7 +32,7 @@ public class SCAndersonCountyParser extends DispatchBParser {
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
     // See if this is one of our pages
     boolean good = false;
@@ -43,11 +44,13 @@ public class SCAndersonCountyParser extends DispatchBParser {
       }
     }
     if (!good) return false;
+    body = append(subject, " ", body);
     
     int pt = body.indexOf('>');
     if (pt >= 0) data.strCode = body.substring(0,pt).trim();
     
     // Call superclass parser
+    body = body.replace('@', '&');
     return super.parseMsg(body, data);
     
   }
