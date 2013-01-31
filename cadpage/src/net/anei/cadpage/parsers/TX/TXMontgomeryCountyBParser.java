@@ -12,54 +12,104 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
   public TXMontgomeryCountyBParser() {
-    super("MONTGOMERY COUNTY", "TX",
-           "UNIT? CODE? MAP ADDR APT? CITY? PRI? INFO! INFO+");
+    super(CITY_LIST, "MONTGOMERY COUNTY", "TX",
+           "ID UNIT! Priority:PRI! CALL MAP ADDR/S! INFO+");
   }
   
   @Override
   public String getFilter() {
-    return "dispatch@mchd-tx.org";
+    return "tritechcad@mchd-tx.org";
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (!subject.equals("CAD Message")) return false;
+    
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
-    return super.parseMsg(body, data);
+    
+    return parseFields(body.split(","), data);
   }
-  
-  private static final Pattern ZIP_CODE_PTN = Pattern.compile("(\\d{5})(?:-\\d{4})?");
-  private class MyCityField extends CityField {
-    
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      Matcher match = ZIP_CODE_PTN.matcher(field);
-      if (!match.matches()) return false;
-      super.parse(match.group(1), data);
-      return true;
-    }
+
+  private static final Pattern CALL_PTN = Pattern.compile("([^-]+?) *-?- +(.*)");
+  private class MyCallField extends CallField {
     
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf('-');
-      if (pt >= 0) field = field.substring(0,pt).trim();
+      Matcher match = CALL_PTN.matcher(field);
+      if (match.matches()) {
+        data.strCode = match.group(1);
+        field = match.group(2);
+      }
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE CALL";
+    }
+  }
+  
+  private static final Pattern ZIP_CODE_PTN = Pattern.compile(" +(\\d{5})$");
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      String zip = null;
+      Matcher match = ZIP_CODE_PTN.matcher(field);
+      if (match.find()) {
+        zip = match.group(1);
+        field = field.substring(0,match.start());
+      }
+      super.parse(field, data);
+      if (zip != null && data.strCity.length() == 0) data.strCity = zip;
     }
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("UNIT")) return new UnitField("\\d\\d", true);
-    if (name.equals("CODE")) return new CodeField("\\d{2}[A-Z]\\d{2}", true);
-    if (name.equals("MAP")) return new MapField("\\d{1,4}[A-Z]", true);
-    if (name.equals("APT")) return new AptField(".{1,4}", true);
-    if (name.equals("CITY")) return new MyCityField();
-    if (name.equals("PRI")) return new PriorityField("Priority +(\\d(?:-.*)?)", true);
+    if (name.equals("ID")) return new IdField("\\d{4}-\\d{6}", true);
+    if (name.equals("PRI")) return new PriorityField("\\d");
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    
+    // Cities
+    "CONROE",
+    "CUT AND SHOOT",
+    "HOUSTON",
+    "MAGNOLIA",
+    "MONTGOMERY",
+    "OAK RIDGE NORTH",
+    "PANORAMA VILLAGE",
+    "PATTON VILLAGE",
+    "ROMAN FOREST",
+    "SHENANDOAH",
+    "SPLENDORA",
+    "STAGECOACH",
+    "WOODBRANCH",
+    "WOODLOCH",
+    "WILLIS",
+
+    // Census designated places
+    "PINEHURST",
+    "PORTER HEIGHTS",
+    "THE WOODLANDS",
+
+    // Unincorporated areas
+    "DOBBIN",
+    "DECKER PRAIRIE",
+    "IMPERIAL OAKS",
+    "NEW CANEY",
+    "PORTER",
+    "RIVER PLANTATION",
+    "TAMINA",
+    "THE WOODLANDS",
+    
+    // Harris County
+    "SPRING"
+  };
 }
