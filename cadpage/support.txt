@@ -64,6 +64,7 @@ The problem with this arrangement is that Cadpage lacks the ability to display r
 
 ******************************************************************
 
+Here are the details in setting up Cadpage with Active911:
 First, do you have an account with Active911?  If not you should contact them about getting set up.  You can do that by visiting their web page at Active911.com.  Click the contact link, then the "click here to sign up online" link in the right sidebar.
 
 If someone already set up a device for you, they should give you the device number and activation code you will need.  If you do not have that, Go to their website and open the Member Access page.  Then select the correct department and open the Devices tab.  If there is a device entry for you, it will show the required device number and activation code.  If not it should tell you who to contact to set one up.  The device type needs to be set to Smartphone and the Page Type to "Cadpage Direct (Android)"  Make a note of the Device Key (or Access Code) associated with the device.
