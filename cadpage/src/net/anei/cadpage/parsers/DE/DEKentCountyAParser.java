@@ -18,7 +18,7 @@ public class DEKentCountyAParser extends FieldProgramParser {
   
   public DEKentCountyAParser() {
     super(CITY_LIST, "KENT COUNTY", "DE",
-           "ADDR/SCXP Xsts:X CALLER:NAME");
+           "( CALL ADDR/Z CITY | ADDR/SCXP ) Xsts:X CALLER:NAME");
   }
   
   @Override
