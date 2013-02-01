@@ -727,6 +727,7 @@ public class ParserList {
               ,"WVHampshireCounty"              ,"Hampshire County, WV"
               ,"WVKanawhaCounty"                ,"Kanawha County, WV"
               ,"WVMineralCounty"                ,"Mineral County, WV"
+              ,"WVMorganCounty"                 ,"Morgan County, WV"
               ,"WVRaleighCounty"                ,"Raleigh County, WV"
           ),
           new ParserCategory("Wisconsin"

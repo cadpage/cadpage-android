@@ -16,6 +16,11 @@ public class DispatchBParser extends SmartAddressParser {
   private static final Pattern REPORT_PTN = Pattern.compile("EVENT:.* Cad: ([-0-9]+) ");
   private static final Pattern PHONE_PTN = Pattern.compile(" (\\d{10}|\\d{7}|\\d{3} \\d{7}|\\d{3}-\\d{4})$");
   
+  public DispatchBParser(Properties cityCodes, String defCity, String defState) {
+    super(cityCodes, defCity, defState);
+    setup();
+  }
+  
   public DispatchBParser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
     setup();
