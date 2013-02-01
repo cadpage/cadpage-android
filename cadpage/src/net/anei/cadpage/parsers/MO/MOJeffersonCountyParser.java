@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.MO;
 
 
 import java.util.Properties;
+import java.util.regex.Matcher;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -63,8 +64,15 @@ public class MOJeffersonCountyParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
+      
+      // If address contains GPS coordinates, make sure skip over any
+      // colons it might contain
+      int pt = 0;
+      Matcher match = GPS_PATTERN.matcher(field);
+      if (match.find()) pt = match.end();
+      
       field = field.replace(";", ":");
-      int pt = field.indexOf(':');
+      pt = field.indexOf(':', pt);
       if (pt >= 0) {
         String tmp = field.substring(pt+1).trim();
         field = field.substring(0,pt).trim();
@@ -121,7 +129,7 @@ public class MOJeffersonCountyParser extends FieldProgramParser {
     "OLYV", "OLYMPIAN VILLAGE ",
 
     "ARNOLD",           "ARNOLD",
-    "BYRNES MILL",       "BYRNES MILL",
+    "BYRNES MILL",      "BYRNES MILL",
     "HILLSBORO",        "HILLSBORO",
     "DESOTO",           "DESOTO",
     "JEFFERSON COUNTY", "",
