@@ -20,12 +20,6 @@ public class DEKentCountyCParser extends FieldProgramParser {
   public String getFilter() {
     return "kentcenter@state.de.us";
   }
-
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Incident Alert") && !subject.equals("!")) return false;
-    return super.parseMsg(body, data);
-  }
   
   private static final Pattern CODE_PTN = Pattern.compile("^(\\d{1,2}[A-Z]\\d{1,2}[A-Z]?) (?:- )?");
   private class MyAddressField extends AddressField {
