@@ -13,6 +13,28 @@ import java.util.TreeMap;
  */
 public class CodeTable {
   
+  public static class Result {
+    private Map.Entry<String,String> entry;
+    private String code;
+    
+    private Result(Map.Entry<String,String> entry, String code) {
+      this.entry = entry;
+      this.code = code;
+    }
+    
+    public String getCode() {
+      return entry.getKey();
+    }
+    
+    public String getDescription() {
+      return entry.getValue();
+    }
+    
+    public String getRemainder() {
+      return code.substring(entry.getKey().length()).trim();
+    }
+  }
+  
   private TreeMap<String,String> codeMap = new TreeMap<String,String>(new Comparator<String>(){
     @Override
     public int compare(String str1, String str2) {
@@ -35,6 +57,17 @@ public class CodeTable {
    * @return description associated with code or null if none found
    */
   public String getCodeDescription(String code) {
+    Result res = getResult(code);
+    if (res == null) return null;
+    return res.getDescription();
+  }
+
+  /**
+   * Look for a call description corresponding to a specific code
+   * @param code call code
+   * @return result object describing result if found, null otherwise
+   */
+  public Result getResult(String code) {
     
     // Search the code dictionary sorted map for the highest entry less than or
     // equal to call code.  If the code starts with this string, we have a
@@ -46,7 +79,7 @@ public class CodeTable {
     SortedMap<String,String> tail =  codeMap.tailMap(code);
     for (Map.Entry<String,String> entry : tail.entrySet()) {
       String key = entry.getKey();
-      if (code.startsWith(key)) return entry.getValue();
+      if (code.startsWith(key)) return new Result(entry, code);;
       if (!code.startsWith(key)) break;
     }
     return null;
