@@ -121,6 +121,15 @@ Good luck,
 -Ken
 
 **********************************************************************
+Duplicate messages
+**********************************************************************
+
+That is fairly common for new Active911 users.  Usually you were getting text pages from dispatch or another service first.  These pages keep coming when you register for Active911 pages.  To stop them, you need to talk to someone in your department.  Probably the same person who got those pages sent to your phone in the first place.
+
+Good luck,
+-Ken
+
+************************************************************************
 ** PayPal and user list
 ******************************************************************
 
@@ -171,7 +180,7 @@ This will generate an email with the correct email account (usually a gmail acco
 Your Payment status should change when you load the next Cadpage version. 
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-CCSTVCGA or ccstvcga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+QHUSCLDA or qhusclda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -256,7 +265,7 @@ If you do this, please include your Cadpage User email address (usually a gmail 
 We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them other then getting staff and volunteer members to bring it up.  If you can talk them into it, they get a 30% discount or more!  Details can be found at http://www.cadpage.org/financial-support/other-support-options.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-CCSTVCGA or ccstvcga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+QHUSCLDA or qhusclda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -351,7 +360,6 @@ In the interest of helping communities, we offer a  number of approved ways to r
 3) If you (or your department) are currently using or can switch to using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free if you are using the direct messaging option.
 4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version will not bug you about paying for it.
 
-We're here to help!
 Good Luck,
 Jean -- Assistant to Ken Corbin
 
@@ -378,7 +386,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-CCSTVCGA or ccstvcga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+QHUSCLDA or qhusclda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -392,7 +400,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-CCSTVCGA or ccstvcga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+QHUSCLDA or qhusclda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -402,7 +410,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-CCSTVCGA or ccstvcga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+QHUSCLDA or qhusclda.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
