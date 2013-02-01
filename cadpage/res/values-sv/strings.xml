@@ -34,15 +34,15 @@
   <string name="button_view_mms">Visa MMS</string>
   <string name="button_close">Stäng</string>
   <!-- Main Preferences -->
-  <string name="pref_config_title">Cadpage konfiguration</string>
+  <string name="pref_config_title">Cadpage-konfiguration</string>
   <string name="pref_other_title">Andra inst.</string>
   <string name="pref_enabled_title">Aktivera Cadpage</string>
   <string name="pref_enabled_summaryon">Cadpage är aktiverat</string>
   <string name="pref_enabled_summaryoff">Cadpage är avaktiverat</string>
   <string name="pref_enable_msg_type_title">Meddelandetyp behandlad</string>
   <string name="pref_enable_msg_type_summary">Cadpage kommer att behandla\n%s</string>
-  <string name="pref_mms_timeout_title">MMS download timeout</string>
-  <string name="pref_mms_timeout_summary">MMS content download time limit\nCur value:%s min</string>
+  <string name="pref_mms_timeout_title">Tidsgräns för MMS-nedladdning</string>
+  <string name="pref_mms_timeout_summary">Max nedladdningstid för MMS\nAktuellt värde:%s min</string>
   <string name="pref_about_title">Om</string>
   <string name="pref_about_summary">Om Cadpage</string>
   <string name="pref_about_text">
@@ -50,9 +50,9 @@
       Svensk översättning av Roger Ehrstedt\n
   </string>
   <string name="pref_faq_title">Vanliga frågor</string>
-  <string name="pref_faq_summary">Vanligen ställda frågor</string>
+  <string name="pref_faq_summary">Vanliga frågor</string>
   <string name="pref_faq_url">http://www.Cadpage.org/faq</string>
-  <string name="pref_releasenotes_title">Vad är nytt?</string>
+  <string name="pref_releasenotes_title">Nyheter?</string>
   <string name="pref_releasenotes_summary">Nyheter i denna version</string>
   <string name="pref_releasenotes_diagtitle">Nyheter i denna version</string>
   <string name="pref_review_title">Skriv en recension om Cadpage</string>
@@ -61,7 +61,7 @@
   <!-- Additional Preferences -->
   <string name="pref_popup_control">Alarm Popup kontroll</string>
   <string name="pref_additional_title">Ytterligare inställningar</string>
-  <string name="pref_additional_summary">Ytterligare Cadpage konfigurering</string>
+  <string name="pref_additional_summary">Ytterligare Cadpage-konfigurering</string>
   <string name="pref_timeout_title">Tidsinställning för skärm</string>
   <string name="pref_timeout_summary">Skärmen kommer att gå till viloläge efter denna tid. Inställd tid är: %s</string>
   <string name="pref_dimscreen_title">Dimma ner Popup-fönster</string>
@@ -74,8 +74,8 @@
   <string name="pref_show_personal_summaryon">Inringares namn/telefon kommer att visas</string>
   <string name="pref_show_personal_summaryoff">Inringares namn/telefon kommer inte att visas</string>
   <string name="pref_popup_enabled_title">Visa Popup</string>
-  <string name="pref_popup_enabled_summaryon">Larm kommer att visa popup-ruta</string>
-  <string name="pref_popup_enabled_summaryoff">Larm kommer inte att visa popup-ruta</string>
+  <string name="pref_popup_enabled_summaryon">Larm visar popup-fönster</string>
+  <string name="pref_popup_enabled_summaryoff">Larm visar inte popup-fönster</string>
   <string name="pref_onlyShowOnKeyguard_title">Knapplås popup begränsningar</string>
   <string name="pref_onlyShowOnKeyguard_summaryon">Popup-fönstret kommer endast visas när knapplås är aktivt.</string>
   <string name="pref_onlyShowOnKeyguard_summaryoff">Popup-fönstret kommer alltid att visas.</string>
@@ -98,7 +98,7 @@
   <string name="pref_notif_test_summary">Testa din notifikation</string>
   <string name="pref_notif_test_message">Testar din notifikation nu!</string>
   <string name="pref_notif_sound_title">Notifikationsljud</string>
-  <string name="pref_notif_sound_summary">Det här ljudet kommer att låta när du får ett larm</string>
+  <string name="pref_notif_sound_summary">Det här ljudet kommer att låta vid larm</string>
   <string name="pref_vibrate_title">Vibrera</string>
   <string name="pref_vibrate_summaryon">Vibration är på</string>
   <string name="pref_vibrate_summaryoff">Vibration är av</string>
@@ -156,12 +156,12 @@
   <string name="pref_resp_merge_title">Meny för meddelandeservice</string>
   <string name="pref_resp_merge_summary">Meny för direktmeddelande kommer att vara\n%s</string>
   <string name="pref_button_summary">Aktuell inställning: %s</string>
-  <string name="pref_button1_title">Knapp 1 Konfigurering</string>
-  <string name="pref_button2_title">Knapp 2 Konfigurering</string>
-  <string name="pref_button3_title">Knapp 3 Konfigurering</string>
-  <string name="pref_button4_title">Knapp 4 Konfigurering</string>
-  <string name="pref_button5_title">Knapp 5 Konfigurering</string>
-  <string name="pref_button6_title">Knapp 6 Konfigurering</string>
+  <string name="pref_button1_title">Konfigurera Knapp 1</string>
+  <string name="pref_button2_title">Konfigurera Knapp 2 </string>
+  <string name="pref_button3_title">Konfigurera Knapp 3</string>
+  <string name="pref_button4_title">Konfigurera Knapp 4</string>
+  <string name="pref_button5_title">Konfigurera Knapp 5</string>
+  <string name="pref_button6_title">Konfigurera Knapp 6</string>
   <string name="pref_desc_callback1_title">Beskrivning knapp 1</string>
   <string name="pref_desc_callback2_title">Beskrivning knapp 2</string>
   <string name="pref_desc_callback3_title">Beskrivning knapp 3</string>
@@ -186,7 +186,7 @@
   <string name="pref_delete_unopen_summaryoff">Tillåt inte att oöppnade larm tas bort</string>
   <string name="pref_screen_on_title">Skärm på för popup</string>
   <string name="pref_screen_on_summaryon">Skärmen kommer att sättas på när popup visas</string>
-  <string name="pref_screen_on_summaryoff">Skärmen kommer inte att sättas på när skärmen visas</string>
+  <string name="pref_screen_on_summaryoff">Skärmen kommer inte att sättas på när popup visas</string>
   <string name="pref_screen_category">Skärm</string>
   <string name="pref_notif_repeat_times_entries_keep_repeting">Fortsätt repetera</string>
   <string name="pref_timeout_entries_10s">10 sekunder</string>
@@ -228,7 +228,7 @@
   <string name="pref_show_source_title">Visa källan till larm</string>
   <string name="pref_show_source_summaryon">Kommer att visa källan till larm</string>
   <string name="pref_show_source_summaryoff">Kommer inte att visa källan till larm</string>
-  <string name="pref_override_default_title">Override Default City/State Skriv över förvald stat/stad</string>
+  <string name="pref_override_default_title">Skriv över förvald stat/stad</string>
   <string name="pref_override_default_summaryon">Använd användardefinierad stat/stad</string>
   <string name="pref_override_default_summaryoff">Använd förvald stat/stad</string>
   <string name="pref_defcity_title">Förvald stat/stad </string>
@@ -299,7 +299,7 @@
   <string name="pref_disclaimer_summary">Läs friskrivningsavtal</string>
   <string name="pref_disclaimer_url">http://www.cadpage.org/disclaimer</string>
   <!-- Location settings -->
-  <string name="pref_location_screen_title">Lokal-inställningar</string>
+  <string name="pref_location_screen_title">Lokala anpassningar</string>
   <string name="pref_location_screen_summary">Larmbehandlingsdetaljer</string>
   <string name="pref_textsize_large">Stor</string>
   <string name="pref_textsize_medium">Medium</string>

@@ -88,29 +88,21 @@
   <string name="donate_magic_word_title">Jag har en autentiseringskod</string>
   <string name="donate_magic_word_text">Fyll i autentiseringskod</string>
   <string name="donate_magic_word_reject">
-      Sorry, that is not a recognized Cadpage authorization code\n\n
-      If you have an activation code for CodeMessaging or Active911, this is
-      not the right place for them.  Go back to Cadpage Settings and select\n
-      Direct Paging Vendors &gt; (approriate vendor) &gt; Register\n
-      and follow the directions
+    Tyvärr så känner jag inte igen autentiseringskoden \n\n
+    Om du har en autentiseringsgod för CodeMessaging eller Actie911 så ska du inte skriva in dom här. Gå tillbaka till Inställningar för Cadpage och välj Meddelandeservice&gt;(välj tjänst)&gt;registrera dig och följ instruktionerna
   </string>
-  <string name="donate_android_problem_title">I can\'t make Android Market payments</string>
-  <string name="donate_android_problem_text">
-    Bummer, let\'s see what we can do about that.
-  </string>
-  <string name="donate_reset_market_title">Recalculate Payment Status</string>
-  <string name="donate_sob_story_title">"I can't afford $10 this year"</string>
+  <string name="donate_android_problem_title">Jag kan inte göra betalningar på android market</string>
+  <string name="donate_android_problem_text">Jäklar,vi ska se vad vi kan göra åt det</string>
+  <string name="donate_reset_market_title">Räkna om betalningsstatus</string>
+  <string name="donate_sob_story_title">"Jag har inte råd med $10 i år"</string>
   <string name="donate_sob_story_text">
-    "Tell us why you can't afford a $10 payment.  We're really easy on these.\n\n"
-    Is there anything we can do to make Cadpage easier to use?  Do you any
-    suggestions on better ways we can finance the considerable costs of maintaining
-    Cadpage?
+    "Berätta varför du inte har råd att betala $10.  Vi är lätta  att övertala.\n\n"
+    Vet du något sätt som gör Cadpage lättare att använda?  Har du något förslag på bättre sätt att finansiera de avsevärda kostnaderna att underhålla Cadpage?
+   
   </string>
-  <string name="clear_data_title">Reinstall Cadpage</string>
+  <string name="clear_data_title">Ominstallera Cadpage</string>
   <string name="clear_data_text">
-    This will restart your 30 day demo period.  But it will also erase all app data, 
-    including your call history and settings.  Are you sure you want to do this?
-  </string>
+    Det här kommer att omstarta din 30-dagars demo-period.  Det kommer även att radera app-datan inklusive larmhistorik och inställningar. Är du säker på att du vill göra detta?  </string>
   <string name="donate_extra_day_title">Ge mig en extra dag (%d kvar)</string>
   <string name="donate_exempt_title">Exempt from release checks</string>
   <string name="donate_exempt_text">
@@ -119,10 +111,7 @@
   <string name="donate_cadpage_se_title">Plats i Sverige</string>
   <string name="donate_cadpage_se_text">
     Du använder en plats i Sverige .\n
-    Vi tar inte .  Partly because non-US location
-    support is still experimental and partly because we want encourage more
-    users to try it there.  We may change this at some later time if/when
-    Cadpage becomes well established there.
+    Vi tar inte betalt, dels pga att vi vill uppmuntra användare i Sverige, dels pga att användandet är på experimentstadie. Detta kan komma att ändras om vi blir mer väletablerad där.
   </string>
   <string name="donate_cadpage_title">Sponsrad av Cadpage</string>
   <string name="donate_cadpage_text">
@@ -139,8 +128,8 @@
   </string>
   <string name="vendor_help_title">Vad menas med direct paging?</string>
   <string name="vendor_help_text">
-    Med Direct paging menas att du låter speciella meddelandeservice-agenturer skicka dina larm via mobila nätverk utan att vara beroende av SMS. Det medför att  kostnaden för SMS försvinner samt att längden på textmeddelandet ökar. De flesta agenturer betalar  Cadpage med pengar från larmcentraler och förvaltningar så vi förväntar oss inte att kunder som använder direct paging även ska köpa en licens för Cadpage.
+    Med Meddelandeservice menas att du låter speciella meddelandeservicetjänster skicka dina larm via mobila nätverk utan att vara beroende av SMS. Det medför att  kostnaden för SMS försvinner samt att längden på textmeddelandet ökar. De flesta agenturer betalar Cadpage med pengar från larmcentraler och förvaltningar så vi förväntar oss inte att kunder som använder meddelandeservice ska köpa separat licens för Cadpage.
   </string>
   <string name="vendor_ignore_title">Låt sakerna vara som de var</string>
-  <string name="vendor_register_title">Register for direct paging</string>
+  <string name="vendor_register_title">Registrera dig för meddelandeservice</string>
 </resources>
