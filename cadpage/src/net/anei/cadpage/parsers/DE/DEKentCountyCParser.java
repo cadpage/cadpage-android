@@ -34,7 +34,16 @@ public class DEKentCountyCParser extends FieldProgramParser {
         data.strCode = match.group(1);
         field = field.substring(match.end()).trim();
       }
-      super.parse(field, data);
+      
+      if (field.endsWith(":")) field = field.substring(0,field.length()-1).trim();
+      
+      int pt = field.indexOf(" : ");
+      if (pt >= 0) {
+        data.strCall = field.substring(0,pt).trim();
+        parseAddress(field.substring(pt+3).trim(), data);
+      } else {
+        super.parse(field, data);
+      }
     }
     
     @Override
