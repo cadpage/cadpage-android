@@ -30,26 +30,39 @@ public class ZSESwedenParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseFields(body.split("\n"), 8, data);
+    if (!parseFields(body.split("\n"), 8, data)) return false;
+    if (data.strCity.equals("-")) data.strCity = "";
+    if (data.strPlace.equals(data.strCity)) data.strPlace = "";
+    return true;
   };
   
-  private static final Pattern APT_MARKER = Pattern.compile(" Nr(?= |\\d)");
+  private static final Pattern APT_MARKER = Pattern.compile("(?: Nr(?= |\\d)|,) *(\\d+[A-Z]?\\b)? *(.*)$");
+  private static final Pattern PROPERTY_MARKER = Pattern.compile("\\w+:.*");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      data.strAddress = p.get(APT_MARKER);
-      data.strApt = p.get(' ');
-      data.strPlace = p.get();
+      Matcher match = APT_MARKER.matcher(field);
+      if (match.find()) {
+        field = field.substring(0,match.start()).trim();
+        data.strApt = getOptGroup(match.group(1));
+        String place = match.group(2);
+        if (place.startsWith(";")) place = place.substring(1).trim();
+        if (PROPERTY_MARKER.matcher(place).matches()) {
+          data.strSupp = place;
+        } else {
+          data.strPlace = place;
+        }
+      }
+      data.strAddress = field;
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR APT PLACE";
+      return "ADDR APT PLACE INFO";
     }
   }
   
-  private static final Pattern GPS_PTN = Pattern.compile("La = (\\d+)(?:Âº| grader) ([\\d\\.,]+)'([NS]) +Lo = (\\d+)(?:Âº| grader) ([\\d\\.,]+)'([EW])");
+  private static final Pattern GPS_PTN = Pattern.compile("La = (\\d+)(?:º| grader) ([\\d\\.,]+)'([NS]) +Lo = (\\d+)(?:º| grader) ([\\d\\.,]+)'([EW])");
   private class MyGPSField extends GPSField {
     @Override
     public void parse(String field, Data data) {
