@@ -18,7 +18,7 @@ public class OHSummitCountyBParser extends FieldProgramParser {
   
   OHSummitCountyBParser(String defCity, String defState) {
     super(CITY_LIST, defCity, defState,
-           "CALL ADDR ( CITY | PLACE CITY | ) INFO+");
+           "( CALL ADDR | CALLADDR ) ( CITY | PLACE CITY | ) INFO+");
   }
   
   @Override
@@ -37,6 +37,16 @@ public class OHSummitCountyBParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (field.startsWith("0 ")) field = field.substring(2).trim();
       super.parse(field, data);
+    }
+  }
+  
+  // CALLADDR is a hybrid call address that we try if the CALL field does
+  // not match the property pattern.
+  private class MyCallAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END | FLAG_CHECK_STATUS, field, data);
+      if (getStatus() == 0) abort();
     }
   }
   
@@ -72,7 +82,8 @@ public class OHSummitCountyBParser extends FieldProgramParser {
 
   @Override
   protected Field getField(String name) {
-    if (name.equals("CALL")) return new CallField("[A-Z]+-.*", true);
+    if (name.equals("CALL")) return new CallField("[A-Z0-9/]+-.*", true);
+    if (name.equals("CALLADDR")) return new MyCallAddressField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("INFO")) return new MyInfoField();
