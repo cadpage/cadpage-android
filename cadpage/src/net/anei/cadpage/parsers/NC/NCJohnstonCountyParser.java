@@ -130,7 +130,7 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
   protected Field getField(String name) {
     if (name.equals("CH")) return new ChannelField("OPS.*|.*FR|VPR.*");
     if (name.equals("SRC")) return new MySourceField();
-    if (name.equals("CODE")) return new CodeField("\\d\\d[A-Z]\\d\\d[A-Z]?");
+    if (name.equals("CODE")) return new CodeField("\\d\\d[A-Z]\\d\\d[A-Za-z]?");
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("APT")) return new AptField("APT.*|SUITE.*");
     if (name.equals("PLACE")) return new MyPlaceField();
