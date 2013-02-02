@@ -69,6 +69,10 @@ Pbagnpg: Ehff Oramry <exnex911@tznvy.pbz>
 Fraqre: 93001025
 22\aFVCS\aQ\aGHEARE OYIQ @ UJL 119 JO\aZI1N\a2227\aTELUBHAQ OHF ARNE GUR FURYY FGA. CREFBA UNIVAT N FRVMVAT
 
+Pbagnpg: Funja Jnyxre <wbwrf9398@tznvy.pbz>
+Fraqre: 777298270544
+JRYQ PBHAGL 24\aFVCS\aQ\a2400 DHNL FG\aRI\a24\aSRZNYR PNYYVAT BA 911 NQIVFRQ GUR NQQERFF NAQ TNIR CUBAR AHZORE NAQ GURA YBFG\aPBAARPGVBA\aSRZNYR FNVQ GUNG VG JNF N QRNQ CUBAR NAQ FUR PBHYQ BAYL PNYY 911\aGEVRQ AHZORE ONPX NAQ VG JBHYQA'G NPPRCG PNYYF\aRC130 NQIFQ\a52 L FGBC
+
  */
 
 choyvp pynff PBJryqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -688,8 +692,29 @@ choyvp pynff PBJryqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgCbhqerSverNhgubevgl() {
-    
+  choyvp ibvq grfgFunjaJnyxre() {
+
+    qbGrfg("G1",
+        "JRYQ PBHAGL 24\a" +
+        "FVCS\a" +
+        "Q\a" +
+        "2400 DHNL FG\a" +
+        "RI\a" +
+        "24\a" +
+        "SRZNYR PNYYVAT BA 911 NQIVFRQ GUR NQQERFF NAQ TNIR CUBAR AHZORE NAQ GURA YBFG\a" +
+        "PBAARPGVBA\a" +
+        "SRZNYR FNVQ GUNG VG JNF N QRNQ CUBAR NAQ FUR PBHYQ BAYL PNYY 911\a" +
+        "GEVRQ AHZORE ONPX NAQ VG JBHYQA'G NPPRCG PNYYF\a" +
+        "RC130 NQIFQ\a" +
+        "52 L FGBC",
+
+        "PBQR:FVCS",
+        "PNYY:FVPX NAQ VAWHERQ CBYVPR/SVER",
+        "NQQE:2400 DHNL FG",
+        "FEP:RI",
+        "HAVG:24",
+        "VASB:SRZNYR PNYYVAT BA 911 NQIVFRQ GUR NQQERFF NAQ TNIR CUBAR AHZORE NAQ GURA YBFG / PBAARPGVBA / SRZNYR FNVQ GUNG VG JNF N QRNQ CUBAR NAQ FUR PBHYQ BAYL PNYY 911 / GEVRQ AHZORE ONPX NAQ VG JBHYQA'G NPPRCG PNYYF / RC130 NQIFQ / 52 L FGBC");
+
   }
   
   choyvp fgngvp ibvq  znva(Fgevat[] netf) {

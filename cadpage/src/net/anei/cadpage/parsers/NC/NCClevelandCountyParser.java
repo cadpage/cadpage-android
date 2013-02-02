@@ -13,7 +13,7 @@ public class NCClevelandCountyParser extends DispatchOSSIParser {
   
   public NCClevelandCountyParser() {
     super("CLEVELAND COUNTY", "NC",
-           "( NAME PHONE | PHONE? ) CALL+? ADDR X+? INFO+");
+           "( NAME PHONE | PHONE? ) CALL+? ADDR ( X X? | PLACE X  X? | PLACE PLACE X X? | ) INFO+");
   }
   
   @Override
@@ -29,10 +29,18 @@ public class NCClevelandCountyParser extends DispatchOSSIParser {
     }
   }
   
+  private class MyPlaceField extends PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strPlace = append(data.strPlace, "-", field);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("PHONE")) return new PhoneField("\\d{10}");
     if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("PLACE")) return new MyPlaceField();
     return super.getField(name);
   }
 }
