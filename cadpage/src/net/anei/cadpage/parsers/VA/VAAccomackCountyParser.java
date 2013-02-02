@@ -46,6 +46,11 @@ public class VAAccomackCountyParser extends DispatchOSSIParser {
       data.strCity = p.get(' ');
       data.strState = p.get();
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "CITY ST";
+    }
   }
   
   // And we need a special MAP field that will append two map data fields

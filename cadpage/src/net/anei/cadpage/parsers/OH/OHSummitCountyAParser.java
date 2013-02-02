@@ -73,6 +73,11 @@ public class OHSummitCountyAParser extends FieldProgramParser {
       if (!NUMERIC.matcher(field).matches()) abort();
       if (!field.equals("0")) data.strAddress = field;
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR";
+    }
   }
   
   private class MyAddressField extends AddressField {

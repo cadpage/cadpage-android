@@ -33,7 +33,7 @@ public class NCBuncombeCountyParser extends DispatchOSSIParser {
   }
   
   private static final Pattern CHANGED_PTN = Pattern.compile("Changed ([A-Za-z]+) from .*? to (.*)");
-  private class MyChangeField extends Field {
+  private class MyChangeField extends CallField {
     
     @Override
     public boolean canFail() {
@@ -53,7 +53,6 @@ public class NCBuncombeCountyParser extends DispatchOSSIParser {
     @Override
     public void parse(String field, Data data) {
     }
-    
   }
   
   /**

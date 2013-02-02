@@ -106,6 +106,11 @@ public class MOJeffersonCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (field.length() > 0) callerAddress = field;
     }
+    
+    @Override
+    public String getFieldNames() {
+      return null;
+    }
   }
   
   @Override

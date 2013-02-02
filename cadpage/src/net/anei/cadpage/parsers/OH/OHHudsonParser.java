@@ -32,6 +32,11 @@ public class OHHudsonParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (!field.equals("0")) data.strAddress = field;
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR";
+    }
   }
   
   private class MyAddressField extends AddressField {

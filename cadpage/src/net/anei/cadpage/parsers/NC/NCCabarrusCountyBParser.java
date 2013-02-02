@@ -89,6 +89,11 @@ public class NCCabarrusCountyBParser extends FieldProgramParser {
       if (match.matches()) return;
       data.strPlace = append(data.strPlace, " / ", field);
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "PHONE PLACE";
+    }
   }
   
   private class MyIdField extends IdField {

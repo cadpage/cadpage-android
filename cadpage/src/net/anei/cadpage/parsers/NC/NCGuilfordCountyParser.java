@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -15,7 +16,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
   public NCGuilfordCountyParser() {
     super("GUILFORD COUNTY", "NC",
-           "FYI? ( CALL2 ADDR! | PRI/Z MUTUAL ADDR! | ( SRC SRC PRI | PRI ) CODE? CALL ADDR! ) XINFO+");
+           "FYI? ( CALL2 ADDR! | PRI/Z MUTUAL ADDR! | ( SRC SRC PRI | PRI? ) CODE? CALL ADDR! ) ( X X? | PLACE X X? | ) ( PRI UNIT SRC SRC | ) XINFO+? UNIT END");
   }
   
   @Override
@@ -78,14 +79,32 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     }
   }
   
+  private static final Pattern CODE_PTN = Pattern.compile("\\d\\d[A-Z]\\d\\d[A-Za-z]?");
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT |RM:) *(.*)");
+  private class MyCodeField extends CodeField {
+    public MyCodeField() {
+      setPattern(CODE_PTN, true);
+    }
+  }
+  
   private class CrossInfoField extends Field {
 
     @Override
     public void parse(String field, Data data) {
-      if (field.equalsIgnoreCase("ROCK")) {
-        data.strCity = "ROCKINGHAM COUNTY";
-      } else if (checkAddress(field) > 0) {
-        data.strCross = append(data.strCross, " & ", field);
+      String city = CITY_CODES.getProperty(field);
+      Matcher match;
+      if (city != null) {
+        data.strCity = city;;
+      } else if (field.startsWith("TAC ")) {
+        data.strChannel = field;
+      } else if ((match = APT_PTN.matcher(field)).matches()) {
+        data.strApt = append(data.strApt, " - ", match.group(1));
+      } else if (data.strCode.length() == 0 && CODE_PTN.matcher(field).matches()) {
+        data.strCode = field;
+//      } else if (checkAddress(field) > 0) {
+//        data.strCross = append(data.strCross, " & ", field);
+      } else if (data.strCall.length() == 0) {
+        data.strCall = field;
       } else {
         data.strSupp = append(data.strSupp, " / ", field);
       }
@@ -93,7 +112,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     
     @Override
     public String getFieldNames() {
-      return "X CITY INFO";
+      return "X CITY INFO CODE CH CALL";
     }
   }
 
@@ -103,14 +122,17 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     if (name.equals("MUTUAL")) return new MutualField();
     if (name.equals("SRC")) return new MySourceField();
     if (name.equals("PRI")) return new PriorityField("\\d", true);
-    if (name.equals("CODE")) return new CodeField("\\d\\d[A-Z]\\d\\d[A-Za-z]?");
+    if (name.equals("CODE")) return new MyCodeField();
     if (name.equals("XINFO")) return new CrossInfoField();
+    if (name.equals("UNIT")) return new UnitField("[A-Z]+\\d+(?:,[A-Z]+\\d+)*", true);
     return super.getField(name);
   }
   
-  @Override
-  public String getProgram() {
-    return "SRC " + super.getProgram();
-  }
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "OAK",  "OAK RIDGE",
+      "ROCK", "ROCKINGHAM COUNTY",
+      "ST",   "STOKESDALE",
+      "SU",   "SUMMERFIELD",
+  });
   
 }

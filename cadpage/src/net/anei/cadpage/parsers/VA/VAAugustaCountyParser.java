@@ -59,6 +59,11 @@ public class VAAugustaCountyParser extends DispatchOSSIParser {
       if (data.strPlace.length() == 0) data.strPlace = field;
       else data.strSupp = append(data.strSupp, " / ", field);
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE INFO";
+    }
   }
 
   @Override

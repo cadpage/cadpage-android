@@ -191,6 +191,11 @@ public class FieldProgramParser extends SmartAddressParser {
   
   private Map<String, Step> keywordMap = null;
   
+  // List of step fields executed in the process of parsing a text string
+  // This is used by the getProgram() method to calculate a field
+  // order list that can be used to generate a test for this parsing
+  private Field[] fieldRecord = null;
+  
   public static String setExpectFlag(String program, String fldTerm) {
     if (fldTerm == null) return program;
     int pt = program.indexOf(fldTerm);
@@ -251,10 +256,25 @@ public class FieldProgramParser extends SmartAddressParser {
   }
 
   /**
-   * @return uncompiled program string
+   * This is only called by the test generation logic in an attempt
+   * to determine the order of fields within the text message.  Originally
+   * it did this by returning the uncompiled program string.  Now
+   * it tries to build this string while executing the compiled program
+   * @return uncompiled program string or reasonable facimile thereof
    */
   public String getProgram() {
-    return programStr;
+    if (fieldRecord == null) return programStr;
+    StringBuilder sb = new StringBuilder();
+    for (Field field : fieldRecord) {
+      if (field != null) {
+        String names = field.getFieldNames();
+        if (names != null) {
+          if (sb.length() > 0) sb.append(' ');
+          sb.append(names);
+        }
+      }
+    }
+    return sb.toString();
   }
   
   /**
@@ -826,6 +846,8 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   protected boolean parseFields(String[] fields, Data data) {
     
+    fieldRecord = new Field[fields.length];
+    
     // If we are running in any field order mode, things get a lot easier
     if (anyOrder) {
       
@@ -1260,6 +1282,10 @@ public class FieldProgramParser extends SmartAddressParser {
           else {
             field.doParse(curFld, data);
           }
+          
+          // Keep a record of which fields successfully processed
+          // which data fields
+          if (success && ndx < fieldRecord.length) fieldRecord[ndx] = field;
         }
       } catch (FieldProgramException ex) {
         state.setResult(false);
@@ -1533,15 +1559,9 @@ public class FieldProgramParser extends SmartAddressParser {
     }
     
     /**
-     * Return blank separated names of the base info fields that might be set by this field
-     * If this returns null, the name of of the field term used to look up
-     * this field will be used.  It should be overridden by any field processor
-     * that sets an info field other than the one described by its name
-     * @return
+     * @return blank separated names of the base info fields that might be set by this field
      */
-    public String getFieldNames() {
-      return null;
-    }
+    abstract public String getFieldNames();
   }
 
   /**
@@ -1561,6 +1581,11 @@ public class FieldProgramParser extends SmartAddressParser {
     public void parse(String field, Data data) {
       data.strCall = append(data.strCall, " / ", field);
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL";
+    }
   }
 
   /**
@@ -1579,6 +1604,11 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public void parse(String field, Data data) {
       data.strPlace = field;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE";
     }
   }
 
@@ -1802,6 +1832,11 @@ public class FieldProgramParser extends SmartAddressParser {
         data.strCity = field;
       }
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "CITY";
+    }
   }
   
   private static final Pattern ZIP_PATTERN = Pattern.compile("\\d{5}");
@@ -1875,6 +1910,11 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public void parse(String field, Data data) {
       data.strApt = append(data.strApt, "-", field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "APT";
     }
   }
   
@@ -1971,6 +2011,11 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       data.strCross = append(data.strCross, " & ", field);
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "X";
+    }
   }
 
   /**
@@ -1989,6 +2034,11 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public void parse(String field, Data data) {
       data.strBox = field;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "BOX";
     }
   }
 
@@ -2009,6 +2059,11 @@ public class FieldProgramParser extends SmartAddressParser {
     public void parse(String field, Data data) {
       data.strUnit = field;
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "UNIT";
+    }
   }
 
   /**
@@ -2023,6 +2078,11 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public void parse(String field, Data data) {
       data.strState = field;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ST";
     }
   }
 
@@ -2042,6 +2102,11 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public void parse(String field, Data data) {
       data.strMap = append(data.strMap, "-", field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "MAP";
     }
   }
 
@@ -2063,6 +2128,11 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public void parse(String field, Data data) {
       data.strCallId = field;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ID";
     }
   }
 
@@ -2086,6 +2156,11 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public void parse(String field, Data data) {
       data.strPhone = field;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PHONE";
     }
   }
 
@@ -2143,6 +2218,11 @@ public class FieldProgramParser extends SmartAddressParser {
     public void parse(String field, Data data) {
       data.strSource = field;
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "SRC";
+    }
   }
 
   /**
@@ -2162,6 +2242,11 @@ public class FieldProgramParser extends SmartAddressParser {
     public void parse(String field, Data data) {
       data.strCode = field;
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE";
+    }
   }
 
   /**
@@ -2180,6 +2265,11 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public void parse(String field, Data data) {
       data.strName = field;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "NAME";
     }
   }
 
@@ -2226,6 +2316,11 @@ public class FieldProgramParser extends SmartAddressParser {
     public void parse(String field, Data data) {
       data.strPriority = field;
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "PRI";
+    }
   }
 
   /**
@@ -2245,6 +2340,11 @@ public class FieldProgramParser extends SmartAddressParser {
     public void parse(String field, Data data) {
       data.strChannel = field;
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "CHANNEL";
+    }
   }
 
   /**
@@ -2263,6 +2363,11 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public void parse(String field, Data data) {
       setGPSLoc(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "GPS";
     }
   }
 
@@ -2312,6 +2417,11 @@ public class FieldProgramParser extends SmartAddressParser {
         return true;
       }
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "DATE";
+    }
   }
 
   /**
@@ -2360,7 +2470,12 @@ public class FieldProgramParser extends SmartAddressParser {
         return true;
       }
     }
-  }
+    
+    @Override
+    public String getFieldNames() {
+      return "TIME";
+    }
+ }
 
   /**
    * Date/Time field processor
@@ -2478,6 +2593,11 @@ public class FieldProgramParser extends SmartAddressParser {
     public void parse(String field, Data data) {
       data.strInfoURL = field;
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "URL";
+    }
   }
   
   /**
@@ -2496,6 +2616,11 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public void parse(String field, Data data) {
     }
+    
+    @Override
+    public String getFieldNames() {
+      return null;
+    }
   }
   
   /**
@@ -2504,7 +2629,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * but has ability to verify initials contents
    */
   private static final Pattern INITLS_PAT = Pattern.compile("[A-Za-z]{2,3}");
-  public class InitialsField extends Field {
+  public class InitialsField extends SkipField {
     
     public InitialsField() {
       setPattern(INITLS_PAT);

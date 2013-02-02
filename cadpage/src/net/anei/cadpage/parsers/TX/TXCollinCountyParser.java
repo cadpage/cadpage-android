@@ -227,6 +227,11 @@ public class TXCollinCountyParser extends FieldProgramParser {
       if (cross) data.strCross = getLeft();
       return true;
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "ID CALL ADDR APT CITY X";
+    }
   }
   
   private static final Pattern INFO_TIME_PTN = Pattern.compile("^(\\d\\d:\\d\\d)\\b");

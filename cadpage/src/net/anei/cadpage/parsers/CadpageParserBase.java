@@ -70,21 +70,21 @@ public class CadpageParserBase  extends FieldProgramParser{
   }
 
   // And something to save the default city and state
-  private class DefCityField extends Field {
+  private class DefCityField extends SkipField {
     @Override 
     public void parse(String field, Data data) {
       data.defCity = field;
     }
   }
   
-  private class DefStateField extends Field {
+  private class DefStateField extends SkipField {
     @Override 
     public void parse(String field, Data data) {
       data.defState = field;
     }
   }
   
-  private class CountryField extends Field {
+  private class CountryField extends SkipField {
     @Override
     public void parse(String field, Data data) {
       try {
@@ -93,7 +93,7 @@ public class CadpageParserBase  extends FieldProgramParser{
     }
   }
   
-  private class PreferGPSField extends Field {
+  private class PreferGPSField extends SkipField {
     @Override 
     public void parse(String field, Data data) {
       data.preferGPSLoc = (field.length() > 0 && "YES".startsWith(field));
