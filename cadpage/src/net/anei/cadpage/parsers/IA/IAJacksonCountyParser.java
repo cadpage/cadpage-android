@@ -18,7 +18,7 @@ public class IAJacksonCountyParser extends FieldProgramParser {
   
   public IAJacksonCountyParser() {
     super(CITY_LIST, "JACKSON COUNTY", "IA",
-           "CALL! Reported:DATETIME? ADDR! X ( CITY | PLACECITY | PLACE CITY ) UNIT");
+           "CALL! Reported:DATETIME? ADDR/S! X? ( UNIT | ( CITY | PLACECITY | PLACE CITY ) UNIT )");
   }
   
   @Override
@@ -34,6 +34,25 @@ public class IAJacksonCountyParser extends FieldProgramParser {
     data.strCallId = match.group(1);
     body = body.substring(match.end()).trim();
     return parseFields(body.split("\n"), data);
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public  boolean checkParse(String field, Data data) {
+      
+      // Replace all slashes past the first one with blanks
+      int pt = field.indexOf('/');
+      if (pt >= 0) {
+        field = field.substring(0,pt+1) + field.substring(pt+1).replace('/', ' ');
+        field = field.trim();
+      }
+      
+      if (field.contains("/")) {
+        parse(field, data);
+        return true;
+      } 
+      return super.checkParse(field, data);
+    }
   }
   
   private class PlaceCityField extends PlaceField {
@@ -60,7 +79,9 @@ public class IAJacksonCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("PLACECITY")) return new PlaceCityField();
+    if (name.equals("UNIT")) return new UnitField("[A-Z]*\\d+(?: +[A-Z]*\\d+)*", true);
     return super.getField(name);
   }
   
@@ -168,5 +189,8 @@ public class IAJacksonCountyParser extends FieldProgramParser {
     "UNION TWP",
     "VAN BUREN TWP",
     "WASHINGTON TWP",
+    
+    // Clinton County
+    "CLINTON"
   };
 }
