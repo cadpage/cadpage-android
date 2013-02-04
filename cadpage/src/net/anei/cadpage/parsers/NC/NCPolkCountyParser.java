@@ -49,6 +49,8 @@ public class NCPolkCountyParser extends DispatchSouthernParser {
       data.strAddress = data.strAddress.substring(0,pt).trim();
     }
     
+    data.strAddress = data.strAddress.replace(" @ ", " & ");
+    
     // Fix some after market additions
     if (data.strName.length() == 0) {
       data.strName = data.strPlace;
@@ -61,6 +63,5 @@ public class NCPolkCountyParser extends DispatchSouthernParser {
     data.strSupp = p.get();
     return true;
   }
-  
 
 }

@@ -616,7 +616,7 @@ public abstract class MsgParser {
    List<String> fields = new ArrayList<String>();
    int iKey = -1;  // Current key table pointer
    int iStartPt = 0;   // current data field start index
-   int iColonPt = iStartPt;
+   int iColonPt = -1;
    int iNxtKey;
    
    // Loop processing each keyword found
@@ -631,8 +631,8 @@ public abstract class MsgParser {
      while (true) {
        
        // Find the next colon character, if there isn't one, bail out
-       int iDataPt = iColonPt;
-       iColonPt = body.indexOf(breakChar, iColonPt+1);
+       int iDataPt = iColonPt+1;
+       iColonPt = body.indexOf(breakChar, iDataPt);
        if (iColonPt < 0) break;
        
        int ipt = iColonPt;
@@ -645,7 +645,7 @@ public abstract class MsgParser {
          int len = key.length();
          int iTempPt = ipt - len;
          if (iTempPt < iDataPt) continue;
-         if (iTempPt > 0) {
+         if (iTempPt > iDataPt) {
            char chr = body.charAt(iTempPt-1);
            if (!Character.isWhitespace(chr)) continue;
          }
