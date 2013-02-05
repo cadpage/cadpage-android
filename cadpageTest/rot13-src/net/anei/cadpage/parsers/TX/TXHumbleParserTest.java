@@ -25,6 +25,7 @@ Fraqre: zft@pszft.pbz
 (Puvrs NYG) [RZF] - Purfg Cnva - Pynzzl - 0218 Cbjrefpbheg - Znc: 337H- - Havgf: R-Z39 R-R39 R-Q59 - 201141272
 (Puvrs NYG) [SVER] - Sver Nynez - Pbzzrepvny - 5250 R Sz 1960, Uhzoyr - Znc: 337J- - Uhzoyr Zvav Jnerubhfr - Kfg'f: Zbba Genvy Qe Gvzore Sber - Havgf: NGSQ R-R39 - 20
 (Puvrs NYG) [SVER] - Hax Ceboyrz - Zrqvpny Nyr - 17811 Qrrc Funqr Pg, Uhzoyr - Znc: 377R- - Kfg'f: Pbavsre Evqtr Jnl - Havgf: R-Z29 R-R19 R-R39 - 201149242
+(Puvrs NYG) [RZF] -  Oernguvat Ceboyrzf  -  20035 J Ynxr Ubhfgba Cxjl  - Kfg'f: Sverfvta Qe/wnahnel Qe - Oyqt:Crq Nffbpv - Xrl Znc:337H - Obk #:N1901
 
 PlSnve, GK (Ngnfpbpvgn GK)
 Pbagnpg:  "Fgbygm, Revp" <RFgbygm@nisq.pbz>
@@ -246,6 +247,17 @@ choyvp pynff GKUhzoyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:Pbavsre Evqtr Jnl",
         "HAVG:R-Z29 R-R19 R-R39",
         "VQ:201149242");
+
+    qbGrfg("G17",
+        "(Puvrs NYG) [RZF] -  Oernguvat Ceboyrzf  -  20035 J Ynxr Ubhfgba Cxjl  - Kfg'f: Sverfvta Qe/wnahnel Qe - Oyqt:Crq Nffbpv - Xrl Znc:337H - Obk #:N1901",
+        "FEP:RZF",
+        "PNYY:Oernguvat Ceboyrzf",
+        "NQQE:20035 J Ynxr Ubhfgba Cxjl",
+        "K:Sverfvta Qe/wnahnel Qe",
+        "CYNPR:Crq Nffbpv",
+        "ZNC:337H",
+        "OBK:N1901");
+
   }
   
   @Grfg

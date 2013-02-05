@@ -11,6 +11,7 @@ public class DispatchA6Parser extends SmartAddressParser {
   
   public DispatchA6Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState);
+    setFieldList("CALL ID MAP DATE ADDR APT CITY PLACE ID X INFO TIME UNIT");
   }
   
   private static final Pattern LEAD_DATE_PAT = Pattern.compile("^(?:([- A-Z0-9]+) )?(?:(?:Ic# +(.*?) +Ds# ([^ ]*?) (?:Al# ([^ ]*?))? Utl# (?:([^ ]*?) +)?)?(\\d\\d/\\d\\d/\\d\\d)|\\^ )");
