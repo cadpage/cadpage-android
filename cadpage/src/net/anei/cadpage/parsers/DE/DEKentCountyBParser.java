@@ -43,6 +43,7 @@ public class DEKentCountyBParser extends DispatchAegisParser {
       select = "A"; 
       body = MISSING_DELIM.matcher(body).replaceAll(" - ");
       body = body.replace(" - Cross Sts:", " - Xst's:");
+      body = body.replace("-- :", "-- ").replace(":,", ",");
       if (!super.parseMsg(subject,  body, data)) return false;
     }
     return good;

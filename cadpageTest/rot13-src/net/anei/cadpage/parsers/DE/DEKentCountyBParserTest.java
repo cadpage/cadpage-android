@@ -9,6 +9,7 @@ Xrag Pbhagl, QR (Inevnag O)
 Pbagnpg: wrsserl zbeevf <objref4015@tznvy.pbz>
 Pbagnpg: Nqnz Jneare <njneare7777@tznvy.pbz>
 Pbagnpg: Znex Unyy <znexunyy285@tznvy.pbz>
+Pbagnpg: Xriva Fvccyr <xriva.fvccyr@irevmba.arg>
 Fraqre: zft@pszft.pbz
 Flfgrz: Nrtvf PNQ
 
@@ -24,6 +25,8 @@ Flfgrz: Nrtvf PNQ
 (Puvrs NYG) [40 Sver] - 17N2 - Snyyf - Aba-Erprag -- 254 Ynxr Fuber Qe, Serqrevpn -- Uvtu Cbvag Zuc -- Kfg'f: Glfba Ya / Vovf Pg -- Pnyyre: Fcvax Xvzoreyrl
 (Puvrs NYG) [40 Sver] - Bhgfvqr Sver-Haxabja 2124 OBJREF ORNPU EQ, Serqrevpn -- Kfg'f: Tez Qe / Juvgjryy Qryvtug Eq
 (Puvrs NYG) [46 Sver] -- Nynezf-Uvtu Yvsr Unmneq -- NCG-JUVGRBNX NCGF -- 1001 Juvgrbnx Eq Qbire - Pebff Fgf: A Unyfrl E - Pnyyre:TEVRE, XVRNFUN
+(Puvrs NYG) [48 Sver] - Bhgfvqr Sver-Fznyy -- : 121 Nyyna Nir :, Srygba -- Zbhag Ireaba Rfgngrf -- Kfg'f: Xvatf Ya / Zbhag Ireaba Qe -- Pnyyre: Fgrss Qvnar
+(Puvrs NYG) [48 Sver] - 29Q5 - ZIP Abg Nyreg -- : 837 Rdhvgngvba Ya :, Srygba -- Kfg'f: Whzc Fpubby Ubhfr Eq / Ubyyl Fcevat Eq -- Pnyyre: Oevtug Cnz
 
 Pbagnpg:Npgvir911
 [Puvrs NYG] [46 Sver] -- Fgnaq-Ol,Pbire-hc -- 110 Sverubhfr Ya Znelqry - Pebff Fgf: Fgenhff Ni\a
@@ -252,6 +255,26 @@ choyvp pynff QRXragPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Qbire",
         "K:A Unyfrl E",
         "ANZR:TEVRE, XVRNFUN");
+
+    qbGrfg("G13",
+        "(Puvrs NYG) [48 Sver] - Bhgfvqr Sver-Fznyy -- : 121 Nyyna Nir :, Srygba -- Zbhag Ireaba Rfgngrf -- Kfg'f: Xvatf Ya / Zbhag Ireaba Qe -- Pnyyre: Fgrss Qvnar",
+        "FEP:48 Sver",
+        "PNYY:Bhgfvqr Sver-Fznyy",
+        "NQQE:121 Nyyna Nir",
+        "PVGL:Srygba",
+        "CYNPR:Zbhag Ireaba Rfgngrf",
+        "K:Xvatf Ya / Zbhag Ireaba Qe",
+        "ANZR:Fgrss Qvnar");
+
+    qbGrfg("G14",
+        "(Puvrs NYG) [48 Sver] - 29Q5 - ZIP Abg Nyreg -- : 837 Rdhvgngvba Ya :, Srygba -- Kfg'f: Whzc Fpubby Ubhfr Eq / Ubyyl Fcevat Eq -- Pnyyre: Oevtug Cnz",
+        "FEP:48 Sver",
+        "PBQR:29Q5",
+        "PNYY:ZIP Abg Nyreg",
+        "NQQE:837 Rdhvgngvba Ya",
+        "PVGL:Srygba",
+        "K:Whzc Fpubby Ubhfr Eq / Ubyyl Fcevat Eq",
+        "ANZR:Oevtug Cnz");
 
   }
   
