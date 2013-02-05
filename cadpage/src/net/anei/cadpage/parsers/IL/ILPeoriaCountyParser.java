@@ -18,7 +18,7 @@ public class ILPeoriaCountyParser extends DispatchA6Parser {
   
   @Override
   public String getFilter() {
-    return "firepage@ci.peoria.il.us";
+    return "firepage@ci.peoria.il.us,firepage@peoriagov.org";
   }
   
   @Override
