@@ -11,9 +11,15 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
  */
 public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
+  private static final Pattern MASTER = Pattern.compile("(\\d{4})(\\d{4}-\\d{7}) +(.*?) *(\\d\\d[A-Z]-[A-Z]) +(\\d{3}[A-Z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*))?");
+  
+  private static final Pattern RUN_REPORT_PTN = 
+      Pattern.compile("(\\d{4}-\\d{6}) +,?((?:Time Canceled:|Time Call Complete:|Assigned|Time at Destination:|Priority Change:|Call Canceled Reason:).*)");
+  
   public TXMontgomeryCountyBParser() {
     super(CITY_LIST, "MONTGOMERY COUNTY", "TX",
            "ID UNIT! Priority:PRI! CALL MAP ADDR/S! INFO+");
+    setFieldList("UNIT ID ADDR APT CALL CODE MAP SRC");
   }
   
   @Override
@@ -29,7 +35,30 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     
-    return parseFields(body.split(","), data);
+    Matcher match = RUN_REPORT_PTN.matcher(body);
+    if (match.matches()) {
+      data.strCall = "RUN REPORT";
+      data.strCallId = match.group(1);
+      data.strPlace = match.group(2);
+      return true;
+    }
+    
+    // See if we can use the regular comma delimited form
+    String[] flds = body.split(",");
+    if (flds.length >= 5) return parseFields(body.split(","), data);
+    
+    // Foo.  Now we have to do this the hard way
+    match = MASTER.matcher(body);
+    if (!match.matches()) return false;
+    data.strUnit = match.group(1);
+    data.strCallId = match.group(2);
+    parseAddress(StartType.START_ADDR, match.group(3), data);
+    data.strCall = getLeft();
+    if (data.strCall.length() == 0) return false;
+    data.strCode = match.group(4);
+    data.strMap = match.group(5);
+    data.strSource = getOptGroup(match.group(6));
+    return true;
   }
 
   private static final Pattern CALL_PTN = Pattern.compile("([^-]+?) *-?- +(.*)");

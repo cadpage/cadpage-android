@@ -1173,6 +1173,7 @@ Thank you for your support and understanding.
 Jean, Assistant to Ken Corbin
 
 *************************************************************************
+
 Does Cadpage require an active data connection?
 
 Yes it does.  It needs either Internet connectivity or an active phone
@@ -1181,5 +1182,15 @@ needs Internet connectivity to map the call locations.
 
 Have a nice day,
 -Ken
+
+*************************************************************************
+
+We have never gotten a good handle on this problem.  When you have the Override Notification setting checked, Cadpage skips the usual notification procedure and instead uses the Media Player to play are specific alert tone at full volume.  One some devices, the Media Player apparently cannot play our alert ringtone and Cadpage crashes.  Exactly why only those few devices are impacted remains a mystery.
+
+The simple workaround is to turn off the Override Notification setting in Notification Settings.  Hopefully someday we will come up with a better solution.
+
+Good luck,
+-Ken
+
 
 

@@ -213,6 +213,9 @@ public abstract class MsgParser {
    * flag was not passed.
    */
   public static final int PARSE_FLG_TEST_MODE = 0x10;
+  
+  // Pattern matching a terminated string of digits
+  public static final Pattern NUMERIC = Pattern.compile("\\b\\d+\\b");
 
   /**
    * Force flag forces processing of message
@@ -233,8 +236,8 @@ public abstract class MsgParser {
   // were not passed the parse flags
   private int parseFlags;
   
-  // Pattern matching a terminated string of digits
-  public static final Pattern NUMERIC = Pattern.compile("\\b\\d+\\b");
+  // List of field terms to be used when generating tests for this parser
+  private String fieldList = null;
   
   public MsgParser(String defCity, String defState) {
     this(defCity, defState, CountryCode.US);
@@ -278,6 +281,19 @@ public abstract class MsgParser {
    */
   public CountryCode getCountryCode() {
     return countryCode;
+  }
+  
+  public void setFieldList(String fieldList) {
+    this.fieldList = fieldList;
+  }
+  
+  /**
+   * Misnamed for unfortunate historical reason.  This is not to be confused
+   * with the real program field set by FieldProgramParser.setProgram
+   * @return list of field terms to be used to generate tests for this parser
+   */
+  public String getProgram() {
+    return fieldList;
   }
   
   /**

@@ -15,8 +15,6 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 vzcbeg bet.whavg.Orsber;
 vzcbeg bet.whavg.Grfg;
 
-vzcbeg arg.narv.pnqcntr.cnefref.SvryqCebtenzCnefre.Svryq;
-
 vzcbeg fgngvp bet.whavg.Nffreg.*;
 
 
@@ -26,6 +24,8 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   cevingr fgngvp svany vag CNEFR_SYNTF = ZftCnefre.CNEFR_SYT_GRFG_ZBQR | 
                                             ZftCnefre.CNEFR_SYT_CBFVGVIR_VQ | 
                                             ZftCnefre.CNEFR_SYT_FXVC_SVYGRE;
+  
+  cevingr fgngvp svany Fgevat[] EHA_ERCBEG_GREZF = "PNYY VQ HAVG CYNPR QNGR GVZR".fcyvg(" ");
 
   cevingr ZftCnefre cnefre = ahyy;
   cevingr Fgevat qrsPvgl;
@@ -296,6 +296,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
    * Trarengr grfg pbqr sbe pheerag cnefre sebz grkg fgevat ernq sebz fgqva
    * @cnenz gvgyr gvgyr bs svefg grfg
    * @cnenz svryqAnzrf yvfg bs svryq anzrf gb ercbeg
+   * @qrcerpngrq Cnefref fubhyq qrsvar svryq anzrf jvgu ZftCnefre.frgSvryqAnzrf()
    */
   choyvp ibvq trarengrGrfgf(Fgevat gvgyr, Fgevat svryqAnzrf) {
     trarengrGrfgf(gvgyr, svryqAnzrf, snyfr);
@@ -378,14 +379,19 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       erghea;
     }
     
+    // Trg gur yvfg bs svryq grezf gb hfr sbe guvf grfg
+    ZftVasb vasb = zft.trgVasb();
+    Fgevat pnyy = vasb.trgPnyy();
     Fgevat[] grezf;
-    vs (svryqAnzrf != ahyy) {
+    vs (pnyy.rdhnyf("TRARENY NYREG") || pnyy.rdhnyf("EHA ERCBEG")) {
+      grezf = EHA_ERCBEG_GREZF;
+    }
+    ryfr vs (svryqAnzrf != ahyy) {
       grezf = svryqAnzrf.fcyvg(" +");
     } ryfr {
       grezf = trgGrfgGrezf();
     }
     
-    ZftVasb vasb = zft.trgVasb();
     Flfgrz.bhg.cevagya();
     Flfgrz.bhg.cevagya("    qbGrfg(\"" + gvgyr + "\",");
     Fgevat oex = "";
@@ -431,12 +437,8 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   }
   
   cevingr Fgevat[] trgGrfgGrezf() {
-
-    vs (! (cnefre vafgnaprbs SvryqCebtenzCnefre)) {
-      guebj arj EhagvzrRkprcgvba("Pnaabg pbafgehpg svryq yvfg sbe guvf cnefre");
-    }
     
-    Fgevat cebt = ((SvryqCebtenzCnefre)cnefre).trgCebtenz();
+    Fgevat cebt = cnefre.trgCebtenz();
     
     Yvfg<Fgevat> grezYvfg = arj NeenlYvfg<Fgevat>();
     Frg<Fgevat> grezFrg = arj UnfuFrg<Fgevat>();

@@ -168,9 +168,6 @@ public class FieldProgramParser extends SmartAddressParser {
   // table converting city codes to city names
   private Properties cityCodes = null;
   
-  // Original program string
-  private String programStr;
-  
   // Start of program steps
   private StepLink startLink;
   
@@ -262,8 +259,9 @@ public class FieldProgramParser extends SmartAddressParser {
    * it tries to build this string while executing the compiled program
    * @return uncompiled program string or reasonable facimile thereof
    */
+  @Override
   public String getProgram() {
-    if (fieldRecord == null) return programStr;
+    if (fieldRecord == null) return super.getProgram();
     StringBuilder sb = new StringBuilder();
     for (Field field : fieldRecord) {
       if (field != null) {
@@ -291,7 +289,6 @@ public class FieldProgramParser extends SmartAddressParser {
     if (program == null) return;
     
     parseTags = false;
-    this.programStr = program;
     
     // Construct a head link and tail node and compile the tokens between them
     this.startLink = new StepLink(0);
