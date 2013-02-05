@@ -18,7 +18,7 @@ public class DEKentCountyAParser extends FieldProgramParser {
   
   public DEKentCountyAParser() {
     super(CITY_LIST, "KENT COUNTY", "DE",
-           "( CALL ADDR/Z CITY | ADDR/SCXP ) Xsts:X CALLER:NAME");
+           "( CALL ADDR/Z PLACECITY | ADDR/SCXP ) Xsts:X CALLER:NAME");
   }
   
   @Override
@@ -52,6 +52,37 @@ public class DEKentCountyAParser extends FieldProgramParser {
     String tail = body.substring(pt);
     if (tail.length() > 0) list.add(tail);
     return list.toArray(new String[list.size()]);
+  }
+  
+  private class MyPlaceCityField extends Field {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Result res = parseAddress(StartType.START_PLACE, FLAG_ONLY_CITY | FLAG_ANCHOR_END, field);
+      if (res.getStatus() == 0) return false;
+      res.getData(data);
+      return true;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE CITY";
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("PLACECITY")) return new MyPlaceCityField();
+    return super.getField(name);
   }
   
   private static final String[] CITY_LIST = new String[]{
