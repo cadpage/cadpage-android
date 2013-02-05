@@ -5363,17 +5363,10 @@ Pbagnpg: mbbzvaehuznaa <mbbzvaehuznaa@tznvy.pbz>
 Fraqre: YBTVF-Rzretva-Cntvat@ybtvf.bet
 FGEHPGHER SVER NQ: 11014 BERTBA PHEIR PZG1: UNEQ BS URNEVAT BE CBBE CUBAR PBAARPGVBA SRZNYR FNLVAT "NYY ZL QRGRPGBE\e
 **********************************************************
-Shygba Pbhagl, AL
-Pbagnpg: Xra Fghqvre
-Fraqre: vzcnpgcntvat@pb.shygba.al.hf
-SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:CRE RZF SNYYF 4602 FGNGR UJL 30 G CREGU NQVEBAQNPX SRRQ PRAGRE 01/29/2013 1417 42.9882 -74.1887
-SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:CRE ZIN CV 4635 FGNGR UJL 30 G CREGU URFF TNF FGNGVBA 01/28/2013 1705 -1 -1
-SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:OEB SVER FGEHPGHER 248 EROVFM EQ G OEBNQNYOVA 01/03/2013 1043
+**********************************************************
+**********************************************************
 **********************************************************
 ************  ERNQL GB EBYY ******************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Wbfrcuvar Pbhagl, BE??
@@ -5476,6 +5469,18 @@ Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf: 12/03 15:00 NU-21-
 Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf: 12/03 10:52 NR-21-Q 7250 Envaobj Perrx Eq OERNGUVAT CEBOYRZF JQS3,Z39,R39,OP34 Erprvirq: Zba Qrp 3, 1052 nz
 Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf: 08/01 15:29 NS-23-N A 67 Ujl / Envaobj Perrx Eq PURFG CNVA JQS1, Z39, R39 Erprvirq: Zba Qrp 3, 1052 nz
 Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf: 08/18 12:26 NU-17-Q A 67 Ujl / A Enzcneg Enatr Eq ZIN – VAWHEVRF JQS3, Z39, R39 Erprvirq: Zba Qrp 3, 1052 nz
+**********************************************************
+Shygba Pbhagl, AL
+Pbagnpg: Xra Fghqvre
+Fraqre: vzcnpgcntvat@pb.shygba.al.hf
+SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:CRE RZF SNYYF 4602 FGNGR UJL 30 G CREGU NQVEBAQNPX SRRQ PRAGRE 01/29/2013 1417 42.9882 -74.1887
+SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:CRE ZIN CV 4635 FGNGR UJL 30 G CREGU URFF TNF FGNGVBA 01/28/2013 1705 -1 -1
+SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:OEB SVER FGEHPGHER 248 EROVFM EQ G OEBNQNYOVA 01/03/2013 1043
+SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:CRE RZF VYYARFF  ABA FCRPVSVP 527 PBHAGL UJL 132 G CREGU  01/08/2013 1305
+SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:CRE RZF SENPGHERF 555 PBHAGL UJL 132 G CREGU  12/30/2012 1102
+SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT: RZF HAXABJA CEBOYRZ 4293 FGNGR UJL 30 CREGU ABEGUJNL ZBOVYR UBZR CNEX 01/19/2013 1929 43.0092 -74.1893
+SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:CRE ZIN CV 4470 FGNGR UJL 30 G CREGU UNCCL QNMR 01/24/2013 1631 42.9979 -74.1904
+SEZ:vzcnpgcntvat@pb.shygba.al.hf\aZFT:CRE SVER FGEHPGHER 1542 PBHAGL UJL 107 G CREGU  01/27/2013 1617 43.0107 -74.2193
 **********************************************************
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)

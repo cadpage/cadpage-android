@@ -434,15 +434,6 @@ Jean -- Assistant to Ken Corbin
 ******************************************************************
 ******************************************************************
 
-A lot of people lost their alerts because Chief Messaging changed the message sender from msg@cfmsg.com to alerts@cfmsg.com.  If that is what happened to you, it will be fixed in the next release.  Until then you can override the default sender filter.
-
-Go into Cadpage location settings and check the box labeled "Override Location Filter".  Then set the "From: (filter)" setting to alert@cfmsg.com.
-
-Good luck,
--Ken
-
-******************************************************************
-
 This will be fixed in the next release.  
 
 Weekly releases are generally published every Thursday evening.  If you want it earlier than that this should be in beta release at http://www.cadpage.org/download-cadpage tomorrow morning.
