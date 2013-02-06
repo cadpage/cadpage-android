@@ -28,6 +28,8 @@ public class OHSummitCountyBParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
     body = OPERATOR_PTN.matcher(body).replaceFirst("");
     return parseFields(body.split(","), 3, data);
   }
