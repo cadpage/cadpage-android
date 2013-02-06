@@ -10,10 +10,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class OHEnglewoodParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("([^:]+?):(\\d\\d:\\d\\d:\\d\\d)-([A-Z0-9]+:[-A-Z0-9]*):([^:?]+):@([^,]+?),([A-Z ]*?):(.*)");
+  private static final Pattern MASTER = Pattern.compile("([^:]+?):(\\d\\d:\\d\\d:\\d\\d)-\nCode:([A-Z0-9]+:[-A-Z0-9]*)\nCall: *([^\n]+?)(?:, *(?:APT|RM|ROOM) *([^,]*?))?,\n([^,]*?),([^,]+?),([A-Z ]*?):\nCross: *(.*?)\nInfo: *(.*)", Pattern.DOTALL);
   
   public OHEnglewoodParser() {
     super("ENGLEWOOD", "OH");
+    setFieldList("UNIT TIME CODE CALL PLACE ADDR APT CITY X INFO");
   }
   
   @Override
@@ -28,17 +29,21 @@ public class OHEnglewoodParser extends MsgParser {
 
   @Override
   public boolean parseMsg(String body, Data data) {
-    body = body.replace('\n', ' ').trim();
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
-    data.strUnit = match.group(1).trim();
-    data.strTime =match.group(2).trim();
-    data.strCode = match.group(3).trim();
-    data.strCall = match.group(4).trim();
-    String sAddr = match.group(5).trim().replace("@", " & ");
+    int ndx = 1;
+    data.strUnit = match.group(ndx++).trim();
+    data.strTime =match.group(ndx++).trim();
+    data.strCode = match.group(ndx++).trim();
+    data.strCall = match.group(ndx++).trim();
+    String apt = getOptGroup(match.group(ndx++));
+    data.strPlace = match.group(ndx++).trim();
+    String sAddr = match.group(ndx++).trim().replace("@", " & ");
     parseAddress(sAddr, data);
-    data.strCity = match.group(6).trim();
-    data.strSupp = match.group(7).trim();
+    data.strApt = append(apt, "-", data.strApt);
+    data.strCity = match.group(ndx++).trim();
+    data.strCross = match.group(ndx++).trim();
+    data.strSupp = match.group(ndx++).trim();
     return true;
   }
 }
