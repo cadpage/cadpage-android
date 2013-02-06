@@ -121,6 +121,19 @@ Good luck,
 -Ken
 
 **********************************************************************
+
+This could be one of two different problems.
+
+1) the more common one is where your register Cadpage with Active911.  Active911 accepts the registration the confirmation never gets to Cadpage.  As a result, Cadpage does not show that you are registered with Active911 and your payment status does not give you credit for being sponsored by Active911, but you still receive direct pages from Active911.
+
+2) Your Cadpage registration works successfully, Both Active911 and Cadpage report a fully activated status for a time.  But then something happens that unregistered your device on Active911, but not on Cadpage.
+
+Which is your situation?
+
+Good luck,
+-Ken
+
+**********************************************************************
 Duplicate messages
 **********************************************************************
 
