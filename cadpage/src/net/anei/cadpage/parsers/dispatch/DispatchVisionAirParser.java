@@ -56,6 +56,16 @@ public class DispatchVisionAirParser extends FieldProgramParser {
       super.parse(field, data);
     }
   }
+  
+  private static final Pattern LINE_PREFIX = Pattern.compile("^Line\\d+=");
+  private class BaseInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = LINE_PREFIX.matcher(field);
+      if (match.find()) field = field.substring(match.end()).trim();
+      super.parse(field, data);
+    }
+  }
 
   private static final Pattern EXTRA_MARKER = Pattern.compile("\\b(\\d?\\d/\\d?\\d/\\d{4}) (\\d?\\d:\\d?\\d:\\d?\\d(?: [AP]M)?) : (pos\\d+) : [A-Za-z0-9]+\\b");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
@@ -69,6 +79,7 @@ public class DispatchVisionAirParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
+      if (field.startsWith("Line18=")) field = field.substring(7).trim();
       Matcher match = EXTRA_MARKER.matcher(field);
       if (!match.find()) {
         if (field.length() < 3) return false;
@@ -152,6 +163,7 @@ public class DispatchVisionAirParser extends FieldProgramParser {
   protected Field getField(String name) {
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("CALL")) return new BaseCallField();
+    if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("EXTRA")) return new BaseExtraField();
     return super.getField(name);
   }

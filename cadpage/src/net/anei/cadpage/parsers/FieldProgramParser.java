@@ -2199,6 +2199,22 @@ public class FieldProgramParser extends SmartAddressParser {
   }
 
   /**
+   * Unknown field processor
+   */
+  public class UnknownField extends Field {
+    
+    @Override
+    public void parse(String field, Data data) {
+      data.strSupp = append(data.strSupp, " / ", field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return null;
+    }
+  }
+
+  /**
    * Source field processor
    */
   public class SourceField extends Field {
@@ -2340,7 +2356,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public String getFieldNames() {
-      return "CHANNEL";
+      return "CH";
     }
   }
 
@@ -2733,7 +2749,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("ID")) return new IdField();
     if (name.equals("PHONE")) return new PhoneField();
     if (name.equals("INFO")) return new InfoField();
-    if (name.equals("UNK")) return new InfoField();    // For unknown fields never known to be non-empty
+    if (name.equals("UNK")) return new UnknownField();    // For unknown fields never known to be non-empty
     if (name.equals("SRC")) return new SourceField();
     if (name.equals("CODE")) return new CodeField();
     if (name.equals("NAME")) return new NameField();

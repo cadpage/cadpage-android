@@ -789,6 +789,17 @@ public abstract class MsgParser {
   * Perform any parser specific customizations involved in calcualting a
   * map address
   * @param sAddress original map address
+  * @param cross true if we are adjusting a cross street instead of the main address
+  * @return customized map address
+  */
+ public String adjustMapAddress(String sAddress, boolean cross) {
+   return adjustMapAddress(sAddress);
+ }
+ 
+ /**
+  * Perform any parser specific customizations involved in calcualting a
+  * map address
+  * @param sAddress original map address
   * @return customized map address
   */
  public String adjustMapAddress(String sAddress) {

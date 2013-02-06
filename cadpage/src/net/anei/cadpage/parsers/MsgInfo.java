@@ -392,7 +392,7 @@ public class MsgInfo {
 
     // Perform any parser specific customizations
     String sAddr = strAddress;
-    if (parser != null) sAddr = parser.adjustMapAddress(sAddr);
+    if (parser != null) sAddr = parser.adjustMapAddress(sAddr, false);
     
     // Non-English addresses is beyond our capabilites at this point
     if (countryCode == CountryCode.SE) return sAddr;
@@ -436,7 +436,7 @@ public class MsgInfo {
           sCross = sCross.substring(0,match.start()).trim();
           if (sCross.equals(sAddr)) sCross = strCross.substring(match.end()).trim(); 
         }
-        if (parser != null) sCross = parser.adjustMapAddress(sCross);
+        if (parser != null) sCross = parser.adjustMapAddress(sCross, true);
         sCross = cleanParens(sCross);
         sCross = cleanStreetSuffix(sCross);
         sCross = cleanBounds(sCross);
