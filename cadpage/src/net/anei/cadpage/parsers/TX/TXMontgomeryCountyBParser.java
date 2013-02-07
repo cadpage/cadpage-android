@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
  */
 public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
-  private static final Pattern MASTER = Pattern.compile("(\\d{4})(\\d{4}-\\d{7}) +(.*?) *(\\d\\d[A-Z]-[A-Z]) +(\\d{3}[A-Z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*))?");
+  private static final Pattern MASTER = Pattern.compile("(?:(\\d{4})(\\d{4}-\\d{7}) +)?(.*?) *(\\d\\d[A-Z]-[A-Z]) +(\\d{3}[A-Z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*))?(?: +(TAC +\\d+))?");
   
   private static final Pattern RUN_REPORT_PTN = 
       Pattern.compile("(\\d{4}-\\d{6}) +,?((?:Time Canceled:|Time Call Complete:|Assigned|Time at Destination:|Priority Change:|Call Canceled Reason:).*)");
@@ -50,14 +50,15 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
     // Foo.  Now we have to do this the hard way
     match = MASTER.matcher(body);
     if (!match.matches()) return false;
-    data.strUnit = match.group(1);
-    data.strCallId = match.group(2);
+    data.strUnit = getOptGroup(match.group(1));
+    data.strCallId = getOptGroup(match.group(2));
     parseAddress(StartType.START_ADDR, match.group(3), data);
     data.strCall = getLeft();
     if (data.strCall.length() == 0) return false;
     data.strCode = match.group(4);
     data.strMap = match.group(5);
     data.strSource = getOptGroup(match.group(6));
+    data.strChannel = getOptGroup(match.group(7));
     return true;
   }
 
