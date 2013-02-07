@@ -1373,7 +1373,8 @@ choyvp pynff GKZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Fgehpgher - Erfvqrag",
         "PBQR:18N-G",
         "ZNC:245K",
-        "FEP:SQ5");
+        "FEP:SQ5",
+        "PU:GNP 15");
 
     qbGrfg("G7",
         "(PNQ Zrffntr)  9703 Nmher Ynxr Qe Fzbxr - Va gur Nern 18N-G 214E SQ2\a\a\a" +

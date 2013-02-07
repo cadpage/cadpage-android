@@ -48,10 +48,6 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
     
-    qbGrfg(NQQE, "35270 - 35299 Uvtujnl 249 ZIN",
-        "NQQE:35270 - 35299 Uvtujnl 249",
-        "PNYY:ZIN");
-    
     qbGrfg(NQQE, "KK UJL 9 / TREGBA UJL XRAFOHET P21E OYXQ-EQ FPBGG ZBBER",
         "NQQE:KK UJL 9 & TREGBA UJL",
         "PVGL:XRAFOHET");

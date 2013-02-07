@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02022013</string>
-  <string name="release_version">v1.6.06</string>
+  <string name="release_date">02072013</string>
+  <string name="release_version">v1.6.07</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-New Locations:\n
-Morgan County, WV\n
-\n      
 Location Parsing Fixes:\n
-Shelby County, AL\n
-Castle County, DE\n
+Northglenn EMS, CO\n
 Kent County, DE\n
-Doublas County, OR\n
-Caroline County, MD\n
-Ocean City, MD\n
-Talbot County, MD\n
-Wicomico County, MD\n
-Jefferson County, MO\n
-Salem County, NJ\n
-Warren County, NJ\n
-Cleaveland County, NC\n
-Henderson County, NC\n
-Lake County, OH\n
+Peoria County, IL\n
+Marion County, IN\n
+Porter County, IN\n
+Jackson County, IA\n
+Frederick County, MD\n
+Burlington County, NJ\n
+Nassau County, NY\n
+Ulster County, NY\n
+Guilford County, NC\n
+Hoke County, NC\n
+Englewood, OH\n
 Summit County, OH\n
-Klamath County, OR\n
-Anderson County, SC\n
-Humble County, TX\n
+Humble, TX\n
 Montgomery County, TX\n
-Sweden\n
   </string>  
 </resources>
   

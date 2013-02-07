@@ -19,7 +19,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   public TXMontgomeryCountyBParser() {
     super(CITY_LIST, "MONTGOMERY COUNTY", "TX",
            "ID UNIT! Priority:PRI! CALL MAP ADDR/S! INFO+");
-    setFieldList("UNIT ID ADDR APT CALL CODE MAP SRC");
+    setFieldList("UNIT ID ADDR APT CALL CODE MAP SRC CH");
   }
   
   @Override
