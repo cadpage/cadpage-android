@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.NJ;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -12,6 +13,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA5Parser;
 public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   
   private static final Pattern SPECIAL_SUBJECT_PTN = Pattern.compile("\\d+/\\d+");
+  private static final Pattern SUBJECT_PREFIX_PTN = Pattern.compile("\\[(.*?)\\] *(.*)");
   
   public NJBurlingtonCountyCParser() {
     super("BURLINGTON COUNTY", "NJ");
@@ -25,11 +27,19 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
+    String source = null;
+    Matcher match = SUBJECT_PREFIX_PTN.matcher(subject);
+    if (match.matches()) {
+      source = match.group(1).trim();
+      subject = match.group(2).trim();
+    }
     if (SPECIAL_SUBJECT_PTN.matcher(subject).matches()) {
       subject = "Automatic R&R Notification";
     }
     
     if (!super.parseMsg(subject, body, data)) return false;
+    
+    if (data.strSource.length() == 0 && source != null) data.strSource = source;
     
     // Expand call description
     Parser p = new Parser(data.strCall);
