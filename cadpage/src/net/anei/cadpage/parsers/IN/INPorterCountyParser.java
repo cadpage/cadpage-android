@@ -13,7 +13,7 @@ public class INPorterCountyParser extends FieldProgramParser {
   
   public INPorterCountyParser() {
     super("PORTER COUNTY", "IN",
-           "ID? UNIT ADDR! ADDR2 CROSS:X? GRP:SRC? PRI:PRI comment:INFO");
+           "ID? UNIT ( ADDR1/Z ADDR2 | ADDR3! ) CROSS:X? GRP:SRC? PRI:PRI comment:INFO");
   }
   
   @Override
@@ -75,37 +75,73 @@ public class INPorterCountyParser extends FieldProgramParser {
     }
   }
   
+  /*
+   * Address field comes in three flavors, all of which can determine their state
+   * type 1 = call @ place,city
+   * type 2 = - at address,city
+   * type 3 = call @ address, city
+   */
   private class MyAddressField extends AddressField {
     
+    private int type;
+    
+    public MyAddressField(int type) {
+      this.type = type;
+    }
+    
     @Override
-    public void  parse(String field, Data data) {
-      int pt1 = field.lastIndexOf('@');
-      int pt2 = field.lastIndexOf(',');
-      if (pt1 < 0 || pt2 < 0 || pt1 > pt2) abort();
-      data.strCall = field.substring(0,pt1).trim();
-      data.strAddress = field.substring(pt1+1,pt2).trim();
-      String sCity = field.substring(pt2+1).trim();
-      pt1 = sCity.indexOf('-');
-      if (pt1 >= 0) sCity = sCity.substring(0,pt1).trim();
-      if (sCity.equals("WNT")) data.defCity = "LAKE COUNTY";
-      data.strCity = convertCodes(sCity, CITY_CODES);
+    public boolean checkParse(String field, Data data) {
+      if (type == 2) {
+        if (!field.startsWith("- at ")) return false; 
+        field = field.substring(5).trim();
+      }
+      
+      else {
+        int pt1 = field.lastIndexOf('@');
+        if (pt1 < 0) return false;
+        data.strCall = field.substring(0,pt1).trim();
+        field = field.substring(pt1+1).trim();
+      }
+      
+      int pt = field.lastIndexOf(',');
+      if (pt >= 0) {
+        String sCity = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+        if (data.strCity.length() == 0) {
+          pt = sCity.indexOf('-');
+          if (pt >= 0) sCity = sCity.substring(0,pt).trim();
+          if (sCity.equals("WNT")) data.defCity = "LAKE COUNTY";
+          data.strCity = convertCodes(sCity, CITY_CODES);
+        }
+      }
+      
+      if (type == 1) {
+        data.strPlace = field;
+      }
+      
+      else {
+        super.parse(field, data);
+      }
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
     
     @Override 
     public String getFieldNames() {
-      return "CALL PLACE " + super.getFieldNames() + " CITY";
-    }
-  }
-  
-  private class MyAddress2Field extends AddressField {
-    @Override
-    public void parse(String field, Data data) {
-      if (!field.startsWith("- at ")) return; 
-      field = field.substring(5).trim();
-      int pt = field.lastIndexOf(',');
-      if (pt >= 0) field = field.substring(0,pt).trim();
-      data.strPlace = data.strAddress;
-      data.strAddress = field;
+      switch (type) {
+      case 1:
+        return "CALL PLACE CITY";
+      case 2:
+        return super.getFieldNames() + " CITY";
+      case 3:
+        return "CALL " + super.getFieldNames() + " CITY";
+      default:
+        return null;
+      }
     }
   }
   
@@ -121,8 +157,9 @@ public class INPorterCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("UNIT")) return new MyUnitField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("ADDR2")) return new MyAddress2Field();
+    if (name.equals("ADDR1")) return new MyAddressField(1);
+    if (name.equals("ADDR2")) return new MyAddressField(2);
+    if (name.equals("ADDR3")) return new MyAddressField(3);
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
@@ -131,6 +168,7 @@ public class INPorterCountyParser extends FieldProgramParser {
       "BHB", "Burns Harbor",
       "BSH", "Beverly Shores",
       "CHE", "Chesterton",
+      "DAC", "Dune Acres",
       "HEB", "Hebron",
       "KTS", "Kouts",
       "OGD", "Ogden Dunes",
