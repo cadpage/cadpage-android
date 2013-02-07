@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
  */
 public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
-  private static final Pattern MASTER = Pattern.compile("(?:(\\d{4})(\\d{4}-\\d{7}) +)?(.*?) *(\\d\\d[A-Z]-[A-Z]) +(\\d{3}[A-Z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*))?(?: +(TAC +\\d+))?");
+  private static final Pattern MASTER = Pattern.compile("(?:(\\d{4})(\\d{4}-\\d{7}) +)?(.*?) *(\\d\\d[A-Z]-[A-Z]) +(\\d{2,3}[A-Z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*))?(?: +(TAC +\\d+))?");
   
   private static final Pattern RUN_REPORT_PTN = 
       Pattern.compile("(\\d{4}-\\d{6}) +,?((?:Time Canceled:|Time Call Complete:|Assigned|Time at Destination:|Priority Change:|Call Canceled Reason:).*)");

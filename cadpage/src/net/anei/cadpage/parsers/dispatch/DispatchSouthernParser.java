@@ -86,6 +86,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
     sb.append(" INFO+ OCA:ID2");
     String program = sb.toString();
     setProgram(program, 0);
+    
+    setFieldList("ADDR APT CITY PLACE X NAME PHONE CODE ID TIME CALL INFO");
   }
 
   @Override
