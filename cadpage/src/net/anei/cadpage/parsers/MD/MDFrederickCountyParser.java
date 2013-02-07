@@ -155,9 +155,11 @@ public class MDFrederickCountyParser extends FieldProgramParser {
         }
       }
       
-      // If call is to Franklin or Adams county, set state to PA
-      if (data.strCity.equals("Franklin County") || data.strCity.equals("Adams County")) {
-        data.strState = "PA";
+      // See of this an out of state city
+      int pt = data.strCity.indexOf(',');
+      if (pt >= 0) {
+        data.strState = data.strCity.substring(pt+1);
+        data.strCity = data.strCity.substring(0,pt);
       }
     }
     
@@ -191,10 +193,11 @@ public class MDFrederickCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = 
     buildCodeTable(new String[]{
-        "ADAM","Adams County", //PA
-        "ADAMCO", "Adams County", //PA
-        "ADAM CO", "Adams County", //PA
-        "ADCO","Adams County", //PA
+        "ADAM","Adams County,PA",
+        "ADAMCO", "Adams County,PA",
+        "ADAM CO", "Adams County,PA",
+        "ADCO","Adams County,PA",
+        "BRAD CFR2", "Braddock Heights",
         "BRUN","Brunswick",   
         "CARRCO", "Carroll County",
         "CEMB","Emmitsburg",
@@ -203,6 +206,7 @@ public class MDFrederickCountyParser extends FieldProgramParser {
         "CFR3","Frederick City",
         "CFR4","Frederick City",
         "CIJM", "New Market",
+        "CJEF", "Jefferson",
         "CMON", "Monrovia",
         "CMID", "Middletown",
         "CNMA","New Market",
@@ -211,15 +215,29 @@ public class MDFrederickCountyParser extends FieldProgramParser {
         "CTHU","Thurmont",
         "CWAL","Walkersville",
         "EMMB", "Emmitsburg",
-        "FRAN", "Franklin County",
-        "FRAN CO", "Franklin County",
-        "FRANCO", "Franklin County",
+        "FRAN", "Franklin County,PA",
+        "FRAN CO", "Franklin County,PA",
+        "FRANCO", "Franklin County,PA",
         "FRE1", "Frederick City",
         "FRE2", "Frederick City",
         "FRE3", "Frederick City",
+        "JEFF", "Jefferson County,WV",
+        "JEFFCO", "Jefferson County,WV",
+        "JEFF CO", "Jefferson County,WV",
+        "LOUD", "Loudoun County,VA",
+        "LOUDCO", "Loudoun County,VA",
+        "LOUD CO", "Loudoun County,VA",
+        "MIDD", "Middletown",
         "MTAY", "Mt Airy",
         "NEWM", "New Market",
         "THUR","Thurmont",
+        "WASH", "Washington County,MD", 
+        "WASHCO", "Washington County,MD", 
+        "WASH CO", "Washington County,MD", 
         "WOOD","Woodsboro",
+        
+
+
+
   });
 }
