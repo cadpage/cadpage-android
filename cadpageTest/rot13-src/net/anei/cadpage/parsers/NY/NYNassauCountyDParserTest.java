@@ -663,7 +663,7 @@ choyvp pynff ALAnffnhPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G17",
         "***Zhghny Nvq* *  *81 OBOYVAX YNAR *GBN: 16:33 01/29/13 *2013-000102 *",
         "PNYY:Zhghny Nvq",
-        "NQQE:81 OBOYVAX YNAR",
+        "NQQE:81 OBOYVAX YNAR",  // Tbbtyr pnyyf guvf OBOBYVAX 
         "GVZR:16:33",
         "QNGR:01/29/13",
         "VQ:2013-000102");

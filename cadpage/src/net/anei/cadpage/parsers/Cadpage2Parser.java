@@ -17,14 +17,21 @@ public class Cadpage2Parser extends CadpageParserBase {
     
     // Otherwise, process fields broken by newlines and ignore
     // anything that doesn't start with a valid keyword
+    // Except for lines following an INFO: keyword, which we
+    // assume result from a long INFO string that contains line breaks
+    boolean info = false;
     for (String line : body.split("\n")) {
       int pt = line.indexOf(':');
       if (pt < 0) continue;
       String key = line.substring(0,pt).trim();
       String value = line.substring(pt+1).trim();
       Field field = getMapField(key);
-      if (field == null) continue;
-      field.parse(value, data);
+      if (field != null) {
+        info = key.equals("INFO");
+        field.parse(value, data);
+      } else if (info) {
+        data.strSupp = append(data.strSupp, "\n", line);
+      }
     }
     return true;
   }
