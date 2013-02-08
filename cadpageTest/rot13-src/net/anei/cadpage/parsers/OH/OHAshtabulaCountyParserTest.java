@@ -49,7 +49,7 @@ choyvp pynff BUNfugnohynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SVER, 3595 HF EG 322 BEJRYY GJC, CNEXRE EQ,BEJRYY GJC//, YNETR OBA SVER VA N SVRYQ NPEBFF GUR FGERRG SEBZ GUVF NQQERFF, NCCRNEF HANGGRAQRQ, ARNE N F",
         "PNYY:SVER",
         "NQQE:3595 HF EG 322",
-        "ZNQQE:3595 HF 322",  // Abg znccvat, ercbegrq gb Tbbtyr
+        "ZNQQE:3595 HF 322",
         "PVGL:BEJRYY GJC",
         "K:CNEXRE EQ",
         "VASB:YNETR OBA SVER VA N SVRYQ NPEBFF GUR FGERRG SEBZ GUVF NQQERFF, NCCRNEF HANGGRAQRQ, ARNE N F");
@@ -85,7 +85,7 @@ choyvp pynff BUNfugnohynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NYNEZ QEBC, 8789 FG EG 45 BEJRYY GJC, JNGREF EQ,BEJRYY GJC//JVAGREF EQ,BEJRYY GJC, TRARENY SVER NYNEZ, XVATF FGBENTR TNENTR",
         "PNYY:NYNEZ QEBC",
         "NQQE:8789 FG EG 45",
-        "ZNQQE:8789 BU 45",  // Tbbtyr whfg vfa'g svaqvat guvf
+        "ZNQQE:8789 BU 45",  // Tbbtyr whfg vfa'g svaqvat guvf  - va FNLOEBBX GJC
         "PVGL:BEJRYY GJC",
         "K:JNGREF EQ & JVAGREF EQ",
         "VASB:TRARENY SVER NYNEZ, XVATF FGBENTR TNENTR");
@@ -94,7 +94,7 @@ choyvp pynff BUNfugnohynPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SVER, 6410 HF EG 322 JVAQFBE GJC, PBK EQ,JVAQFBE GJC//JVFJRYY EQ,JVAQFBE GJC, OEHFU SVER NCCEBK 100 SRRG BSS GUR EBNQ",
         "PNYY:SVER",
         "NQQE:6410 HF EG 322",
-        "ZNQQE:6410 HF 322",  // Tbbtyr abg znccvat
+        "ZNQQE:6410 HF 322",
         "PVGL:JVAQFBE GJC",
         "K:PBK EQ & JVFJRYY EQ",
         "VASB:OEHFU SVER NCCEBK 100 SRRG BSS GUR EBNQ");
