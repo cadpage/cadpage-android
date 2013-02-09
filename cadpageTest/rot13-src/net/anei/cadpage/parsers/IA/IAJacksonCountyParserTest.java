@@ -28,6 +28,7 @@ F:Qvfcngpu Pragre Z:12-014621 TRARENY ZRQVPNY/NZOHYNAPR \aErcbegrq: 10/16/2012 0
 Pbagnpg: mrvzrge@lnubb.pbz
 Fraqre: fjznvy@zndhbxrgnvn.pbz
 F:Qvfcngpu Pragre Z:13-001384 ZBGBE IRU NPPVQRAG J/VAWHEVRF \a Ercbegrq: 02/02/2013 22:16:05 \a 1336 335 NI PYVAGBA \a CEN1 CES1
+F:Qvfcngpu Pragre Z:13-001551 FGEHPGHER SVER \a Ercbegrq: 02/07/2013 19:42:43 \a 440 SREEL EQ \a NYYRA FG / BEFBA FG \a ZVYRF \a ZVS1 CEN1 CES1
 
  */
 
@@ -164,6 +165,23 @@ choyvp pynff VNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:1336 335 NIR",
         "PVGL:PYVAGBA",
         "HAVG:CEN1 CES1");
+
+    qbGrfg("G2",
+        "F:Qvfcngpu Pragre Z:13-001551 FGEHPGHER SVER \a" +
+        " Ercbegrq: 02/07/2013 19:42:43 \a" +
+        " 440 SREEL EQ \a" +
+        " NYYRA FG / BEFBA FG \a" +
+        " ZVYRF \a" +
+        " ZVS1 CEN1 CES1",
+
+        "VQ:13-001551",
+        "PNYY:FGEHPGHER SVER",
+        "QNGR:02/07/2013",
+        "GVZR:19:42:43",
+        "NQQE:440 SREEL EQ",
+        "PVGL:ZVYRF",
+        "K:NYYRA FG / BEFBA FG",
+        "HAVG:ZVS1 CEN1 CES1");
 
   }
   

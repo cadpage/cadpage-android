@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA10Parser;
 
 
@@ -15,6 +16,20 @@ public class OHAshtabulaCountyParser extends DispatchA10Parser {
     return "Sheriffadmin@ashtabulacounty.us";
   }
   
+  @Override
+  public boolean parseMsg(String body, Data data) {
+    
+    if (!super.parseMsg(body, data)) return false;
+    
+    if (data.strCity.endsWith(" TWP")) {
+      data.strCity = data.strCity.substring(0,data.strCity.length()-4).trim();
+    }
+    return true;
+  }
+
+
+
+
   private static final String[] CITY_LIST = new String[]{
 
     // Cities
