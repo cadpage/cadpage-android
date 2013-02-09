@@ -520,7 +520,7 @@ You are still using the General location setting.  The general location doesn't 
 
 ******************************************************************************
 
-That's about as good as we can get with a generic location.  Remember the generic parser has to process CAD pages of any format, and can only do this by making some very basic assumptions.  Assumptions that will frequently be wrong for specific locations.   You will get much better results by requesting a new location coded for your specific dispatch text format.
+That's about as good as we can get with a generic location.  The generic parser has to process CAD pages of any format, and can only do this by making some very basic assumptions.  Assumptions that will frequently be wrong for specific locations.   You will get much better results by requesting a new location coded for your specific dispatch text format.
 
 ******************************************************************************
 
