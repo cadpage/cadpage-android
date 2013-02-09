@@ -11,7 +11,7 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
   
   public ORDeschutesCountyParser() {
     super("DESCHUTES COUNTY", "OR",
-          "CALL PRI UNITSRC ADDR! MAP?");
+          "CALL PRI UNITSRC ADDR! MAP TIME");
   }
   
   @Override
@@ -25,24 +25,16 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
     // Normally broken by dash field separators.
     // but a dash with a space on both side is probably a "REAL" dash and
     // needs to be projected from our parsing breaks
-    body = body.replaceAll(" - ", "__");
-    String[] flds = body.split("-");
-    if (flds.length < 5) return false;
-    return parseFields(flds, data);
+    body = body.replace(" - ", " %% ");
+    body = body.replace("NON-EMERGENCY", "NON%%EMERGENCY");
+    return parseFields(body.split("-"), 5, data);
   }
   
   // Call field, replace double underscores with dash
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
-      super.parse(field.replace("__", " - "), data);
-    }
-  }
-  
-  // Priority has to match form
-  private class MyPriorityField extends PriorityField {
-    public MyPriorityField() {
-      setPattern(Pattern.compile("[A-Z][A-Z0-9]?"), true);
+      super.parse(field.replace("%%", "-"), data);
     }
   }
   
@@ -80,16 +72,22 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
+      if (field.length() == 0) return true;
       if (!field.startsWith("Map ")) return false;
       super.parse(field.substring(4).trim(), data);
       return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("PRI")) return new MyPriorityField();
+    if (name.equals("PRI")) return new PriorityField("[A-Z][A-Z0-9]{0,2}", true);
     if (name.equals("UNITSRC")) return new UnitSourceField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("MAP")) return new MyMapField();
