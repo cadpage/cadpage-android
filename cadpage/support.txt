@@ -1227,5 +1227,21 @@ The simple workaround is to turn off the Override Notification setting in Notifi
 Good luck,
 -Ken
 
+*************************************************************************
+
+Most likely you do not have to completely uninstall and reinstall Cadpage.  As long as Cadpage believes it is still connected to CodeMessaging, going into Cadpage Settings an selecting
+Direct Paging Vendors > Reconnect Direct Paging
+
+will usually fix things.
+
+We are still trying to identify why this happens.  What we know is that something happens with your device that tells Google the connection to it has been broken.  The next time CodeMessaging or Active911 try to push a page to your device Google tells them the connection is broken and they unregister your device.
+
+We know that simply leaving the phone powered down or off the grid for an extended period of time will not break the connection.  We know that uninstalling and reinstalling Cadpage, or restoring it from some kind of backup, will.
+
+But since you probably have not done one of those things, there seems to be some other condition that breaks the linkage.  Which might or might not be connected with installing a new version of Cadpage.  If you can identify any action or event on your phone that seems to be associated with this broken connection condition, it would be a big help.
+
+Good luck,
+-Ken
+
 
 

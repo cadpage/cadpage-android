@@ -892,7 +892,8 @@ public class ManagePreferences {
         R.string.pref_history_limit_key,
         R.string.pref_delete_unopen_key,
         R.string.pref_map_network_chk_key,
-
+        R.string.pref_gps_map_option_key,
+        
         R.string.pref_popup_enabled_key,
         R.string.pref_onlyShowOnKeyguard_key,
         R.string.pref_noShowInCall_key,

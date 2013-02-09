@@ -20,6 +20,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     setupMultiWordStreets(
         "GREAT NORTH"
     );
+    setFieldList("UNIT CODE BOX PLACE ADDR APT CITY X CALL GPS ID");
   }
   
   @Override
