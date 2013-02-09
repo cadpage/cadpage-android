@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -19,7 +21,7 @@ public class DispatchA5Parser extends FieldProgramParser {
   
   public DispatchA5Parser(String defCity, String defState) {
     super(defCity, defState,
-           "Incident_Number:ID! ORI:SKIP! Station:SRC! " +
+           "Incident_Number:ID! ORI:UNIT! Station:SRC! " +
            "Incident_Type:CALL! Priority:PRI! " +
            "Incident_Location:ADDR! Venue:CITY! " +
            "Located_Between:X? Cross_Street:X? Common_Name:PLACE? " +
@@ -82,6 +84,18 @@ public class DispatchA5Parser extends FieldProgramParser {
     
     // Trim off any Empty titles from the extra information
     data.strSupp = TRIM_EXTRA_INFO.matcher(data.strSupp).replaceFirst("");
+    
+    // Clean up any duplicates in unit field
+    StringBuilder sb = new StringBuilder();
+    Set<String> unitSet = new HashSet<String>();
+    for (String unit : data.strUnit.split(" +")) {
+      if (unitSet.add(unit)) {
+        if (sb.length() > 0) sb.append(' ');
+        sb.append(unit);
+      }
+    }
+    data.strUnit = sb.toString();
+    
     return true;
   }
   
@@ -110,11 +124,19 @@ public class DispatchA5Parser extends FieldProgramParser {
     }
   }
   
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, " ", field);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("MAP")) return new MyMapField();
     if (name.equals("PHONE")) return new MyPhoneField();
+    if (name.equals("UNIT")) return new  MyUnitField();
     return super.getField(name);
   }
 }
