@@ -238,6 +238,7 @@ choyvp pynff ZQUnesbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:R04",
         "PNYY:ZRQ CER-NYREG",
         "NQQE:20 OBK UVYY FBHGU CXL",
+        "ZNQQE:20 OBK UVYY FBHGU CXJL",
         "NCG:304 Oyqt",
         "K:ZREPUNAG OYIQ",
         "ANZR:TNEQARE,EBJRAN");
@@ -255,6 +256,7 @@ choyvp pynff ZQUnesbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:R04",
         "PNYY:URNQNPUR",
         "NQQE:20 OBK UVYY FBHGU CXL",
+        "ZNQQE:20 OBK UVYY FBHGU CXJL",
         "NCG:304 Oyqt",
         "K:ZREPUNAG OYIQ",
         "PVGL:NOVATQBA",

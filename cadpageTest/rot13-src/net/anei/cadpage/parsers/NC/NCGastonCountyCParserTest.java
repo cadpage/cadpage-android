@@ -36,6 +36,7 @@ choyvp pynff APTnfgbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "Nynez-Sver|2010 GUR BNXF CXL|QRNQ RAQ/JBBQYNJA FG|ORYZBAG|Fgngvba 43|3RA433,RA432,EF32|",
         "NQQE:2010 GUR BNXF CXL",
+        "ZNQQE:2010 GUR BNXF CXJL",
         "K:QRNQ RAQ/JBBQYNJA FG",
         "PVGL:ORYZBAG",
         "FEP:43",

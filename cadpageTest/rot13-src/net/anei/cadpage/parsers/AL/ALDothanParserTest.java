@@ -227,6 +227,7 @@ choyvp pynff NYQbgunaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "18:51:49/F22PS-Nffnhyg-Pbqr VV/2233 JRFGTNGR CXL NCGY81/QBGUNA/JRFGTNGR IVYYNTR Y81/96315842/VAI WHIF --- 6 LBZ, OYRRQVAT SEBZ ABFR/",
         "PNYY:F22PS-Nffnhyg-Pbqr VV",
         "NQQE:2233 JRFGTNGR CXL",
+        "ZNQQE:2233 JRFGTNGR CXJL",
         "NCG:Y81",
         "PVGL:QBGUNA",
         "CYNPR:JRFGTNGR IVYYNTR Y81",

@@ -166,6 +166,7 @@ choyvp pynff ZQCevaprTrbetrfPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:20:50",
         "HAVG:R812 GX812 R811 GX814 R807O GX801 R809 OB884",
         "NQQE:5211 CNVAG OENAPU CXL",
+        "ZNQQE:5211 CNVAG OENAPU CXJL",
         "K:52AQ NIR naq EVIREFVQR NIR");
 
     qbGrfg("G14",
@@ -211,7 +212,7 @@ choyvp pynff ZQCevaprTrbetrfPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:10:11",
         "HAVG:N809 R809P",
         "NQQE:RO YNAQBIRE EQ & AO ONYGVZBER JNFUVATGBA CXL AO",
-        "ZNQQE:YNAQBIRE EQ & ONYGVZBER JNFUVATGBA CXL");
+        "ZNQQE:YNAQBIRE EQ & ONYGVZBER JNFUVATGBA CXJL");
 
  }
   

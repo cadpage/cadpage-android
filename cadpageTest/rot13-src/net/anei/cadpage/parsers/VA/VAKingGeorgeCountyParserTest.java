@@ -115,6 +115,7 @@ choyvp pynff INXvatTrbetrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:QRF",
         "PNYY:NOQBZVANY CNVA",
         "NQQE:4755 WNZRF ZNQVFBA CXL",
+        "ZNQQE:4755 WNZRF ZNQVFBA CXJL",
         "VQ:000657",
         "K:PBZZREPR QE/QNAHOR QE");
 

@@ -116,6 +116,7 @@ choyvp pynff VAUnzvygbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G6",
         "Fhowrpg:PNQCntr\aHavg:E15 Fgnghf:Qvfcngpurq Ybpngvba: 13914 FBHGURNFGREA CXL  /   Dhnq: 92G Havgf: Y92 Y77 R95 E15 ONG9 UST01  Gl\e",
         "NQQE:13914 FBHGURNFGREA CXL",
+        "ZNQQE:13914 FBHGURNFGREA CXJL",
         "ZNC:92G",
         "HAVG:Y92 Y77 R95 E15 ONG9 UST01",
         "PNYY:NYREG");

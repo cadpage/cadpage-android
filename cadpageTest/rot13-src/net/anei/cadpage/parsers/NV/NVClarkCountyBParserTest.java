@@ -87,6 +87,7 @@ choyvp pynff AIPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:26N",
         "ZNC:02726-31",
         "NQQE:3501 F ZNELYNAQ CXL",
+        "ZNQQE:3501 F ZNELYNAQ CXJL",
         "NCG:87");
 
     qbGrfg("G6",

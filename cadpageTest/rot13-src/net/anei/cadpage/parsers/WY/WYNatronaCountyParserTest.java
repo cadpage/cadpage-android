@@ -1400,6 +1400,7 @@ choyvp pynff JLAngebanPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:APFB",
         "PNYY:Nyreg 1-Nvepens",
         "NQQE:8500 NVECBEG CXL",
+        "ZNQQE:8500 NVECBEG CXJL",
         "CYNPR:NVECBEG",
         "PVGL:ANGEBAN PBHAGL",
         "ZNC:APFJ",

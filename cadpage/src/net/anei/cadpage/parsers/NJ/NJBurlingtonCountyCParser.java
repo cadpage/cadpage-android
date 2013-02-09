@@ -33,7 +33,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
       int pt1 = 0;
       while (pt1 < subject.length() && TRIM_SUBJ_LEADER.indexOf(subject.charAt(pt1)) >= 0) pt1++;
       int pt2 = subject.length()-1;
-      while (pt2 >= pt1 & TRIM_SUBJ_TRAILER.indexOf(subject.charAt(pt2)) >= 0) pt2--;
+      while (pt2 >= pt1 && TRIM_SUBJ_TRAILER.indexOf(subject.charAt(pt2)) >= 0) pt2--;
       source = subject.substring(pt1,pt2+1);
       subject = SUBJECT_SIGNATURE;
     }

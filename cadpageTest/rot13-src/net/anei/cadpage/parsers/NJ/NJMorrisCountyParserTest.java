@@ -118,6 +118,7 @@ choyvp pynff AWZbeevfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CBEMVB OEBZORET & ARJZNA (22) , 100 FBHGUTNGR CXL [Zbeevf Gjc] (FVPX CREFA) - FREVBHF CNVA VA YRTF... HANOYR GB JNYX... - R2368 17:14",
         "CYNPR:CBEMVB OEBZORET & ARJZNA",
         "NQQE:100 FBHGUTNGR CXL",
+        "ZNQQE:100 FBHGUTNGR CXJL",
         "PVGL:Zbeevf Gjc",
         "PNYY:FVPX CREFA",
         "VASB:FREVBHF CNVA VA YRTF... HANOYR GB JNYX...",

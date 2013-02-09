@@ -706,7 +706,7 @@ choyvp pynff ALFhssbyxPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "***23 Urnil Erfphr***  FHAXRA ZRNQBJ CXL PF: ABEGUREA FGNGR CXL GBN: 23:23 04-01-12",
         "PNYY:23 Urnil Erfphr",
         "NQQE:FHAXRA ZRNQBJ CXL",
-        "ZNQQE:FHAXRA ZRNQBJ CXL & ABEGUREA FGNGR CXL",
+        "ZNQQE:FHAXRA ZRNQBJ CXJL & ABEGUREA FGNGR CXJL",
         "K:ABEGUREA FGNGR CXL",
         "GVZR:23:23",
         "QNGR:04/01/12");

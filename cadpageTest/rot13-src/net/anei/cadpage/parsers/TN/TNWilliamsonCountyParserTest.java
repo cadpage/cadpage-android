@@ -70,7 +70,7 @@ choyvp pynff GAJvyyvnzfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2012-0000017016",
         "PNYY:ZRQVPNY PNYY",
         "NQQE:ANGPURM GENPR CXL",
-        "ZNQQE:ANGPURM GENPR CXL & ARJ UVTUJNL 96 J",
+        "ZNQQE:ANGPURM GENPR CXJL & ARJ UVTUJNL 96 J",
         "K:ARJ UVTUJNL 96 J",
         "PVGL:SENAXYVA",
         "ANZR:PRAGREFGBAR PEVFVF PRAGRE");
