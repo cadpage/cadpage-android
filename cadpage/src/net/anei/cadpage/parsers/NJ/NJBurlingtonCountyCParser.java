@@ -1,8 +1,6 @@
 package net.anei.cadpage.parsers.NJ;
 
 import java.util.Properties;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA5Parser;
@@ -12,8 +10,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA5Parser;
  */
 public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   
-  private static final Pattern SPECIAL_SUBJECT_PTN = Pattern.compile("\\d+/\\d+");
-  private static final Pattern SUBJECT_PREFIX_PTN = Pattern.compile("\\[(.*?)\\] *(.*)");
+  private static final String TRIM_SUBJ_LEADER = "([ ";
+  private static final String TRIM_SUBJ_TRAILER = ")]. ";
   
   public NJBurlingtonCountyCParser() {
     super("BURLINGTON COUNTY", "NJ");
@@ -27,14 +25,17 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
+    // For some reason, these pages usually alter or eliminate the subject signature
+    // that is required for all other A5 parser subclasses.
     String source = null;
-    Matcher match = SUBJECT_PREFIX_PTN.matcher(subject);
-    if (match.matches()) {
-      source = match.group(1).trim();
-      subject = match.group(2).trim();
-    }
-    if (SPECIAL_SUBJECT_PTN.matcher(subject).matches()) {
-      subject = "Automatic R&R Notification";
+    if (!subject.equals(SUBJECT_SIGNATURE)) {
+      subject = subject.replace(SUBJECT_SIGNATURE, "").trim();
+      int pt1 = 0;
+      while (pt1 < subject.length() && TRIM_SUBJ_LEADER.indexOf(subject.charAt(pt1)) >= 0) pt1++;
+      int pt2 = subject.length()-1;
+      while (pt2 >= pt1 & TRIM_SUBJ_TRAILER.indexOf(subject.charAt(pt2)) >= 0) pt2--;
+      source = subject.substring(pt1,pt2+1);
+      subject = SUBJECT_SIGNATURE;
     }
     
     if (!super.parseMsg(subject, body, data)) return false;
@@ -73,6 +74,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   
   private static Properties CITY_ABBRV = buildCodeTable(new String[]{
       "BdntwnCity", "Bordentown City",
+      "Burl Twp",   "Burlington Twp",
       "Chesterfld", "Chesterfield",
       "Cinnaminsn", "Cinnaminson Twp",
       "McGuireAFB", "McGuire AFB",

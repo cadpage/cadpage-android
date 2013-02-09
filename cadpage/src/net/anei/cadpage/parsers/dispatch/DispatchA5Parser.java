@@ -8,6 +8,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchA5Parser extends FieldProgramParser {
   
+  public static final String SUBJECT_SIGNATURE = "Automatic R&R Notification";
+  
   private static final Pattern TERMINATOR_PTN = Pattern.compile("\n(?:Additional Info|Address Checks|Additional Inc#s:|Narrative|The Call Taker is)");
   private static final Pattern KEYWORD_TRAIL_PTN = Pattern.compile("[ \\.]+:|(?: \\.){2,}(?=\n)");
   private static final Pattern CALL_TIME_DATE_PTN = Pattern.compile("\\bCall Time- ([0-9:]+) +Date- ([0-9/]+) *\n.*?(?=\nArea:)", Pattern.DOTALL);
@@ -32,7 +34,7 @@ public class DispatchA5Parser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Automatic R&R Notification")) return false;
+    if (!subject.equals(SUBJECT_SIGNATURE)) return false;
     if (body.contains("** FINAL REPORT **")) {
       data.strCall = "RUN REPORT";
       data.strPlace = body;
