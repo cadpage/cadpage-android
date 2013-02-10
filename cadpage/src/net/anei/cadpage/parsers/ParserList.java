@@ -686,6 +686,7 @@ public class ParserList {
               ,"VABrunswickCounty"              ,"Brunswick County, VA"
               ,"VABotetourtCounty"              ,"Botetourt County, VA"
               ,"VACampbellCounty"               ,"Campbell County, VA"
+              ,"VACarrollCounty"                ,"Carroll County, VA"
               ,"VAFauquierCounty"               ,"Fauquier County, VA"
               ,"VAFranklin"                     ,"Franklin, VA"
               ,"VAFranklinCounty"               ,"Franklin County, VA"
