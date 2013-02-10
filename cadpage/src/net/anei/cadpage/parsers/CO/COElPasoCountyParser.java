@@ -15,6 +15,10 @@ public class COElPasoCountyParser extends MsgParser {
   
   public COElPasoCountyParser() {
     super("EL PASO COUNTY", "CO");
+    setFieldList("SRC MAP UNIT CALL ADDR APT PLACE ID");
+//    setFieldList("SRC PRI CALL ADDR APT PLACE INFO");
+//    setFieldList("SRC ADDR APT CALL INFO");
+
   }
   
   @Override
