@@ -1378,10 +1378,15 @@ Fhowrpg:VCF V/Cntr Abgvsvpngvba R 64GU NIR/ZBANPB FG NQNZ PPCQ 09:51:48 GLCR PBQ
 Fhowrpg:VCF V/Cntr Abgvsvpngvba 6950 AVNTNEN FG NQNZ PPCQ 11:04:10 GLCR PBQR: RZF PNYYRE ANZR: SRYVK - 13LB GVZR: 11:04:10 Pbzzragf: 15LB
 Fhowrpg:VCF V/Cntr Abgvsvpngvba 10220 OEVTUGBA EQ NQNZ PPCQ:QVIREFVSVRF GEHPX NAQ EI 17:22:11 GLCR PBQR: ABAFGE PNYYRE ANZR: OBO GVZR: 17:
 ***************************************************************************
-Qbhtynf Pbhagl, PB (PBQbhtynfPbhaglCnefre)
+Qbhtynf Pbhagl, PB (PBQbhtynfPbhaglNCnefre)
 (Qvfcngpu) Pnyy: S ZRQ NFFVFG Ybpngvba: 6287 BYQ QVIVQR GEY / Znc: NQ35P Havgf: ZRQ181 R184 KKK184  UBFCVGNYVGL CY / TERRA PG Pbzzba Anzr: Gvzr: 08/25/.
 (Qvfcngpu) Pnyy: S ZRQ NFFVFG Ybpngvba: 11710 CBAQREBFN YA / Znc: NS40Q Havgf: R184 ZRQ181 KKK184  CBAQREBFN EQ / RYXUBEA QE Pbzzba Anzr: Gvzr: 08/25/1
 (Qvfcngpu) Pnyy: S TNF YC BHGFVQR Ybpngvba: QRRESVRYQ EQ / F  JUVGR GNVY QE V Znc: NV38Q Havgf: R181 KKK181  Pbzzba Anzr: Gvzr: 08/25/11 20:07 Aneengvi
+***************************************************************************
+Qbhtynf Pbhagl, PB (PBQbhtynfPbhaglOCnefre)
+j/Jrfg Qbhtynf: 01/18 16:54 NW-16-P 491 F 67 Ujl FCEHPRJBBQ VAA ZIN - VAWHEVRF JQS3,Z39,R39,OP34
+j/Jrfg Qbhtynf: 01/18 12:39 NS-21-O 7279 Cvhgr Qe FVPX CNEGL JQS3,Z46,R39,OP34
+j/Jrfg Qbhtynf: 12/30 09:41 NT-22-O 4062 A 67 Ujl FGNAQOL VA GUR NERN JQS3,Z39,R39,OP34
 ***************************************************************************
 Ry Cnfb Pbhagl, PB (PBRyCnfbPbhaglCnefre)
 PNY SQ - Hapbafpvbhf / Snvagv24615 Fpbgg Eq                Ovt Pngf bs Fre[Cerzvfr:  24615 FPBGG EQ] [Ybj] [HAXABJA] Frr " C
@@ -5398,11 +5403,11 @@ Fraqre: 2075151833
 **********************************************************
 **********************************************************
 **********************************************************
+Pna jr fjvgpu gurz gb Npgvir911?
 Uhzoyr, GK (Ngnfpbpvgn SQ
 Pbagnpg: "Jnffryy, Zvpunry" <ZJnffryy@nisq.pbz>
 Fraqre:  nyregf@pszft.pbz
 (Puvrs NYG) [SVER] - 29o1 Zbgbe Iruvpyr N - Sberfg Gvzoref Qe / Gvzore Sberfg Q - Xrl Znc:337F - Obk #:N3901
-(Puvrs NYG) [RZF] - 29o1 Zbgbe Iruvpyr N - Sberfg Gvzoref Qe / Gvzore Sberfg Q - Xrl Znc:337F - Obk #:N3901
 (Puvrs NYG) [SVER] - 29o1 Zbgbe Iruvpyr N - Sberfg Gvzoref Qe / Gvzore Sberfg Q - Xrl Znc:337F - Obk #:N3901
 (Puvrs NYG) [RZF] - Oernguvat Ceboyrzf - 8300 R Sz 1960 - Kfg'f: Snvejnl Vfynaq Qe/cvar Rpub Qe - Ncg:1016 - Oyqt:Irenaqn Ng - Xrl Znc:338F - Obk #:N1901
 (Puvrs NYG) [RZF] - 29o4 Zbgbe Iruvpyr N - Gvzore Sberfg Qe / Ngnfpbpvgn Eq - Xrl Znc:377N - Obk #:N2901
@@ -5434,31 +5439,6 @@ Znccvat fubhyq hfr gur pvgl Uhzoyr, GK
 GVZRF cntrf jvyy or va guvf sbezng:
 [RZF] - Vapvqrag Ahzore : 13-01-03450 Nqqerff: 19911 Snlr Bnx Qe Z19 19:19:52 19:20:54 19:29:38 19:42:29
 **********************************************************
-Qbhtynf Pbhagl, PB
-Pbagnpg: (D) Q Trbetr-Avpubyf <Q_Trbetr-Avpubyf@d.pbz>
-Fraqre: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg
-
-j/Jrfg Qbhtynf: 01/18 16:54 NW-16-P 491 F 67 Ujl FCEHPRJBBQ VAA ZIN - VAWHEVRF JQS3,Z39,R39,OP34
-j/Jrfg Qbhtynf: 01/18 12:39 NS-21-O 7279 Cvhgr Qe FVPX CNEGL JQS3,Z46,R39,OP34
-j/Jrfg Qbhtynf: 12/30 09:41 NT-22-O 4062 A 67 Ujl FGNAQOL VA GUR NERN JQS3,Z39,R39,OP34
-j/Jrfg Qbhtynf: 09/07 15:49 NS-27-O 1395 Jniregba Enapu Eq NYNEZ - ERFVQRAGVNY SVER JQS1
-j/Jrfg Qbhtynf: 12/19 11:45 NQ-22-P 6625 Ynzoreg Enapu Pebffvat NYNEZ - PBZZREPVNY SVER JQS2
-j/Jrfg Qbhtynf: 12/03 10:52 NR-21-Q 7250 Envaobj Perrx Eq OERNGUVAT CEBOYRZF JQS3,Z39,R39,OP34
-Pbzzrag: Z134 UNAQYVAT PNYY BA NG TNOEVRYF AB SHEGURE NFFVFGNAPR, Vasb Bayl: 12 19:34:50 NQ-24-Q 5450 Znauneg Fg TNOEVRYF CHOYVP NFFVFG Z134,JQS1 12 19:34:50
-j/Jrfg Qbhtynf: 07/05 15:09 NQ-24-Q 5068 Cyhz Nir WBUAFBA & FBAF PBAFGEHPGVBA ERFPHR - NAVZNY JQS3
- 
- 
-Urer ner fbzr bs gur grkg zrffntrf gung jr trg ba pryy cubarf naq fznegcubarf jvgu gur znc cntr KKKKK:
- 
-Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf:01/28 18:28 NR-24-N 4909 Jbbqyrl Nir YBPX BHG RZRETRAG JQS2,Z39,R39,OP34 Erprvirq: Zba Wna 28, 6:28 cz
-Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf: 01/18 16:54 NW-16-P 491 F 67 Ujl FCEHPRJBBQ VAA ZIN – VAWHEVRF JQS3,Z39,R39,OP34 Erprvirq Sev Wna 18, 4:54 cz
-Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf: 01/15 21:11 NW-14-O 128 Uvyy Qe NYNEZ – PB AB FVPX CNEGVRF JQS3  Erprvirq Ghr Wna 15, 9:11 cz
-Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf: 01/18 12:39 NS-21-O 7270 Cvhgr Qe FVPX CNEGL JQS3,Z46,R39,OP34 Erprvirq Sev Wna 1, 12:40 cz
-Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf: 01/13 20:20 NS-22-P 3522 Jvaarontb Qe FVPX CNEGL JQS2,R39,Z39,OP34 Erprvirq: Fha Wna 13, 8:21 cz
-Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf: 12/03 15:00 NU-21-O Bnx Inyyrl Eq VAIRFGVTNGVBA – FZBXR BHGFVQR JQS3 Erprvirq: Zba Qrp 3, 3:01 cz
-Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf: 12/03 10:52 NR-21-Q 7250 Envaobj Perrx Eq OERNGUVAT CEBOYRZF JQS3,Z39,R39,OP34 Erprvirq: Zba Qrp 3, 1052 nz
-Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf: 08/01 15:29 NS-23-N A 67 Ujl / Envaobj Perrx Eq PURFG CNVA JQS1, Z39, R39 Erprvirq: Zba Qrp 3, 1052 nz
-Sebz: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg j/Jrfg Qbhtynf: 08/18 12:26 NU-17-Q A 67 Ujl / A Enzcneg Enatr Eq ZIN – VAWHEVRF JQS3, Z39, R39 Erprvirq: Zba Qrp 3, 1052 nz
 **********************************************************
 Shygba Pbhagl, AL
 Pbagnpg: Xra Fghqvre

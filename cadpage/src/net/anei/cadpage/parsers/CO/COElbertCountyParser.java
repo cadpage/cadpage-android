@@ -7,7 +7,7 @@ Elbert County, CO (Dispatched through Douglas County, CO
  */
 
 
-public class COElbertCountyParser extends CODouglasCountyParser {
+public class COElbertCountyParser extends CODouglasCountyAParser {
 
   public COElbertCountyParser() {
     super("ELBERT COUNTY", "CO");
