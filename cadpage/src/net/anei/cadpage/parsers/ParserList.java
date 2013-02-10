@@ -495,6 +495,7 @@ public class ParserList {
               ,"NCStanlyCounty"                 ,"Stanly County, NC"
               ,"NCTransylvaniaCounty"           ,"Transylvania County, NC"
               ,"NCUnionCounty"                  ,"Union County, NC"
+              ,"NCVanceCounty"                  ,"Vance County, NC"  
               ,"NCWakeCounty"                   ,"Wake County, NC"
               ,"NCWataugaCounty"                ,"Watauga County, NC"
               ,"NCWayneCounty"                  ,"Wayne County, NC"
