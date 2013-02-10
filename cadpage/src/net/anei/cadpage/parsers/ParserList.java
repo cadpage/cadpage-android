@@ -553,6 +553,7 @@ public class ParserList {
               ,"ORClackamasCounty"              ,"Clackamas County, OR"
               ,"ORCrookCounty"                  ,"Crook County, OR"
               ,"ORDeschutesCounty"              ,"Deschutes County, OR"
+              ,"ORJosephineCounty"              ,"Josephine County, OR"
               ,"ORJacksonCounty"                ,"Jackson County, OR"
               ,"ORKlamathCounty"                ,"Klamath County, OR"
               ,"ORLaneCounty"                   ,"Lane County, OR"
