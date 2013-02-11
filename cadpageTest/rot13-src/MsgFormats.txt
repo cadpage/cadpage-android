@@ -1760,6 +1760,11 @@ Fpbggl Pbhagl, VN (VNFpbggPbhaglCnefre)
 (Vapvqrag) ZPSQ  21822 274GU FG Fpbgg Pbhagl RZF be ZIP-Fbyb  TENAQNHTUGRE  FRVMHER  R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: CFNC=FRPP FPBGG FQ  
 (Vapvqrag) ZPSQ  401 F FNYVAN FG ZpPnhfynaq RZF be ZIP-Fbyb  QNHTUGRE VYY.  IBZVGVAT.  R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: CFNC=FRPP ZPPNHFYN
 ***************************************************************************
+Jneera Pbhagl, VN (VNJneeraPbhaglCnefre)
+F:VAQS Z:PSF#: 2013-01188\aPnyyGlcr: ZRQVPNY / NZOHYNAPR PNYY\aNqqerff: 1203 A R FG, VN
+F:VAQS Z:PSF#: 2013-01890\aPnyyGlcr: SVER - IRUVPYR\aNqqerff: UJL 65 69 / T 24 UJL, VN
+F:VAQS Z:PSF#: 2013-01883\aPnyyGlcr: ZRQVPNY / NZOHYNAPR PNYY\aNqqerff: 506 F Q FG Ncg:9, VAQVNABYN, VN
+***************************************************************************
 Jbbqohel Pbhagl, VN (VNJbbqohelPbhaglCnefre)
 W:SVER NYNEZ/813 A QREOL YA ABEGU FVBHK CBEGVBANOYRF/ SERRQBZ QE & QRIVYFSBBQ QE/AFVBHK/ 72O1 72RZF9 72R4 72R5 72S7 72D6 72E8/ CBEGVBANOYRF.... JNGRE SYBJ NYNEZ
 W:SVER FZ IRUVPYR/110 FBQENP QE ABEGU FVBHK ERQ PNECRG VAA/ EVIRE QE &/AFVBHK/ 72O1 72RZF9 72R4 72R5 72S7 72D6 72E8/ GEHPX FZBXVAT YBBXF BA SVER- ABOBQL NEBHAQ -VA SEBAG BS VAA
@@ -5497,13 +5502,6 @@ Pbagnpg: znggurj jvafgba <jvaavrjvafgba2272@ubgznvy.pbz>
 Fraqre: 2075151833
 258:Qvfcngpu:20 fcehpr fg ehzsbeq... zrk sq 1 ratvar gb fpa fzbxr va ohvyq ercbeg
 **********************************************************
-**********************************************************
-************  ERNQL GB EBYY ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 Pna jr fjvgpu gurz gb Npgvir911?
 Uhzoyr, GK (Ngnfpbpvgn SQ
 Pbagnpg: "Jnffryy, Zvpunry" <ZJnffryy@nisq.pbz>
@@ -5541,15 +5539,14 @@ GVZRF cntrf jvyy or va guvf sbezng:
 [RZF] - Vapvqrag Ahzore : 13-01-03450 Nqqerff: 19911 Snlr Bnx Qe Z19 19:19:52 19:20:54 19:29:38 19:42:29
 **********************************************************
 **********************************************************
+************  ERNQL GB EBYY ******************************
 **********************************************************
-Jneera Pbhagl, VN
-Pbagnpg: Wnfba Qnivf <baprnzrqvp@tznvy.pbz>
-Fraqre: zrffntvat@vnzerfcbaqvat.pbz
-F:VAQS Z:PSF#: 2013-01188\aPnyyGlcr: ZRQVPNY / NZOHYNAPR PNYY\aNqqerff: 1203 A R FG, VN
-F:VAQS Z:PSF#: 2013-01890\aPnyyGlcr: SVER - IRUVPYR\aNqqerff: UJL 65 69 / T 24 UJL, VN
-F:VAQS Z:PSF#: 2013-01883\aPnyyGlcr: ZRQVPNY / NZOHYNAPR PNYY\aNqqerff: 506 F Q FG Ncg:9, VAQVNABYN, VN
-F:VAQS Z:PSF#: 2013-01695\aPnyyGlcr: ZRQVPNY / NZOHYNAPR PNYY\aNqqerff: 307 R FPRAVP INYYRL NIR, VAQVNABYN, VN
-F:VAQS Z:PSF#: 2013-01979\aPnyyGlcr: ZRQVPNY / NZOHYNAPR PNYY\aNqqerff: 121 ZNVA FG, FG ZNELF, VN
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
