@@ -16,7 +16,7 @@ QZO193 #:002011072054 FHCREIVFBE NYEZ ng 7887 94GU NIR UBYVQNL VAA RKCERFF
 QZO193 #:002011072060 ZIN ng 80GU NIR naq PBBCRE EQ
 
 Pbagnpg: "xftengr@lnubb.pbz" <xftengr@lnubb.pbz>
-Sebz: PAG304 #:002011086007 NYF ZRQ ng 835 UVPXBEL EQ Erz: 53 S ;FRVMHERF PBAFPVBHF: LRF ,OERNGUVAT: LRF\37f
+Sebz: PAG304 #:002011086007 NYF ZRQ ng 835 UVPXBEL EQ Erz: 53 S ;FRVMHERF PBAFPVBHF: LRF ,OERNGUVAT: LRF
 
 Pbagnpg: Wrerzl <Fcevag43@lnubb.pbz>
 Sebz: WQE315 #:002011089429 NYF ZRQ ng 21922 121FG FG Erz: 64 S ;URNEG CEBOYRZ PBAFPVBHF: LRF ,OERNGUVAT: LRF
@@ -92,11 +92,11 @@ choyvp pynff JVXrabfunPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:80GU NIR & PBBCRE EQ");
 
     qbGrfg("G6",
-        "Sebz: PAG304 #:002011086007 NYF ZRQ ng 835 UVPXBEL EQ Erz: 53 S ;FRVMHERF PBAFPVBHF: LRF ,OERNGUVAT: LRF\37f",
+        "Sebz: PAG304 #:002011086007 NYF ZRQ ng 835 UVPXBEL EQ Erz: 53 S ;FRVMHERF PBAFPVBHF: LRF ,OERNGUVAT: LRF",
         "VQ:002011086007",
         "PNYY:NYF ZRQ",
         "NQQE:835 UVPXBEL EQ",
-        "VASB:53 S ;FRVMHERF PBAFPVBHF: LRF ,OERNGUVAT: LRF\37f");
+        "VASB:53 S ;FRVMHERF PBAFPVBHF: LRF ,OERNGUVAT: LRF");
 
     qbGrfg("G7",
         "Sebz: WQE315 #:002011089429 NYF ZRQ ng 21922 121FG FG Erz: 64 S ;URNEG CEBOYRZ PBAFPVBHF: LRF ,OERNGUVAT: LRF",
@@ -180,6 +180,6 @@ choyvp pynff JVXrabfunPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj JVXrabfunPbhaglNCnefreGrfg().trarengrGrfgf("G18", "VQ PNYY NQQE CYNPR VASB");
+    arj JVXrabfunPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }
 }

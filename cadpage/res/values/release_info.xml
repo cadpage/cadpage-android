@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02072013</string>
-  <string name="release_version">v1.6.07</string>
+  <string name="release_date">02102013</string>
+  <string name="release_version">v1.6.08</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+New Locations:\n
+Douglas County, CO (alt)\n
+Warren County, IA\n
+Fulton County, NY\n
+Vance County, NC\n
+Josephine County, OR\n
+Carroll County, VA\n
+\n      
 Location Parsing Fixes:\n
-Northglenn EMS, CO\n
-Kent County, DE\n
-Peoria County, IL\n
-Marion County, IN\n
-Porter County, IN\n
-Jackson County, IA\n
-Frederick County, MD\n
 Burlington County, NJ\n
+Gloucester County, NJ\n
 Nassau County, NY\n
-Ulster County, NY\n
-Guilford County, NC\n
-Hoke County, NC\n
-Englewood, OH\n
-Summit County, OH\n
-Humble, TX\n
-Montgomery County, TX\n
+Ashtabula County, OH\n
+Descuttes County, OR\n
+Cypress-Fairfield, TX\n
+Berkeley County, WV\n
+Cadpage2\n
   </string>  
 </resources>
   
