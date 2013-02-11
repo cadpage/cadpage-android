@@ -98,7 +98,8 @@ public class Message {
     Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n"),
     Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?((?:[\\w.!\\-]+|\\\"[\\w.!\\- ]+\\\")@[\\w.]+)[\\s:]"),
     Pattern.compile("^\\*\\d+: \\*([\\w\\w]+@[\\w\\.]+) +"),
-    Pattern.compile("(?:Fr|From|Frm): *(\\S+)\\s+"),
+    Pattern.compile("^[^\n]*\\bFr: *(\\S+@\\S+)\\s+"),
+    Pattern.compile("^From: *(\\S+@\\S+) +"),
     Pattern.compile("sentto-[-\\d]+ *= *([-\\.\\w]+@[-\\.\\w]+) +"),
   };
   private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)(?:\\n|: )");

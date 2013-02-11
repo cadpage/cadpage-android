@@ -14,6 +14,7 @@ public class WIKenoshaCountyAParser extends SmartAddressParser {
   
   public WIKenoshaCountyAParser() {
     super("KENOSHA COUNTY", "WI");
+    setFieldList("ID CALL ADDR PLACE INFO");
   }
   
   @Override
