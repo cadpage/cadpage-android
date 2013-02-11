@@ -411,6 +411,7 @@ public class ParserList {
               ,"NYDuchessCounty"                ,"Duchess County, NY"
               ,"NYDixHills"                     ,"Dix Hills, NY"
               ,"NYErieCounty"                   ,"Erie County, NY"
+              ,"NYFultonCounty"                 ,"Fulton County, NY"
               ,"NYGeneseeCounty"                ,"Genesee County, NY"
               ,"NYGreeneCounty"                 ,"Greene County, NY"
               ,"NYHerkimerCounty"               ,"Herkimer County, NY"
