@@ -18,6 +18,7 @@ public class TNLoudonCountyParser extends DispatchSouthernParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    if (body.startsWith("LDN911 ")) body = body.substring(7).trim();
     body = body.replaceAll("//+", "/");
     return super.parseMsg(body, data);
   }

@@ -21,6 +21,10 @@ Pbagnpg: Ylaar Zneybj <ylaar.n.zneybj@tznvy.pbz>
 Fraqre: 93001040
 WOYNXRFYRR:1781 UVARF INYYRL EQ YRABVE PVGL 2013000066 12:19:42 SVER ZVFP SVER ORUVAQ ARVTUOBEF UBHFR..NYBG BS FZBXR
 
+Pbagnpg: Znex Wbuafba <znexfgerrgtyvqr2009@tznvy.pbz>
+Fraqre: 777304531252
+YQA911 zzpzvyyna:222 ZRNYRE EQ YRABVE PVGL 2013005922 17:58:47 SVER NYNEZ ERF SVER NYNEZ//ERF RHRYY//CUBAR 8656043774 Ercyl jvgu RAQ gb BCG BHG
+
 */
 
 choyvp pynff GAYbhqbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -74,8 +78,21 @@ choyvp pynff GAYbhqbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:SVER ZVFP SVER ORUVAQ ARVTUOBEF UBHFR..NYBG BS FZBXR");
 
   }
+  
+  @Grfg
+  choyvp ibvq grfgZnexWbuafba() {
+
+    qbGrfg("G1",
+        "YQA911 zzpzvyyna:222 ZRNYRE EQ YRABVE PVGL 2013005922 17:58:47 SVER NYNEZ ERF SVER NYNEZ//ERF RHRYY//CUBAR 8656043774 Ercyl jvgu RAQ gb BCG BHG",
+        "NQQE:222 ZRNYRE EQ",
+        "PVGL:YRABVE PVGL",
+        "VQ:2013005922",
+        "GVZR:17:58:47",
+        "VASB:SVER NYNEZ ERF SVER NYNEZ/ERF RHRYY/CUBAR 8656043774 Ercyl jvgu RAQ gb BCG BHG");
+   
+  }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj GAYbhqbaPbhaglCnefreGrfg().trarengrGrfgf("G1", "NQQE PVGL CYNPR PBQR VQ GVZR PNYY VASB");
+    arj GAYbhqbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
