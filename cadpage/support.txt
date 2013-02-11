@@ -469,7 +469,7 @@ Jean -- Assistant to Ken Corbin
 
 This will be fixed in the next release.  
 
-Weekly releases are generally published every Thursday evening.  If you want it earlier than that this should be in beta release at http://www.cadpage.org/download-cadpage tomorrow morning.
+Weekly releases are generally published every Sunday evening.  If you want it earlier than that this should be in beta release at http://www.cadpage.org/download-cadpage tomorrow morning.
 
 Have a nice day,
 -Ken

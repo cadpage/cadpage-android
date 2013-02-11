@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
  */
 public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
-  private static final Pattern MASTER = Pattern.compile("(?:(\\d{4})(\\d{4}-\\d{7}) +)?(.*?) *(\\d\\d[A-Z]-[A-Z]) +(\\d{2,3}[A-Z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*))?(?: +(TAC +\\d+))?");
+  private static final Pattern MASTER = Pattern.compile("(?:(\\d{4})(\\d{4}-\\d{7}) +)?(.*?)(?: *(\\d\\d[A-Z]-[A-Z]))? +(\\d{2,3}[A-Za-z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*))?(?: +(TAC +\\d+))?");
   
   private static final Pattern RUN_REPORT_PTN = 
       Pattern.compile("(\\d{4}-\\d{6}) +,?((?:Time Canceled:|Time Call Complete:|Assigned|Time at Destination:|Priority Change:|Call Canceled Reason:).*)");
@@ -55,10 +55,12 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
     parseAddress(StartType.START_ADDR, match.group(3), data);
     data.strCall = getLeft();
     if (data.strCall.length() == 0) return false;
-    data.strCode = match.group(4);
+    data.strCode = getOptGroup(match.group(4));
     data.strMap = match.group(5);
     data.strSource = getOptGroup(match.group(6));
     data.strChannel = getOptGroup(match.group(7));
+    
+    if (data.strCall.equals("Out of County Respon")) data.defCity = "";
     return true;
   }
 
