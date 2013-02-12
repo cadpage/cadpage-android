@@ -156,6 +156,8 @@ public class CallHistoryActivity extends ListActivity {
 
   @Override
   protected Dialog onCreateDialog(int id) {
+    
+    if (isFinishing()) return null;
     switch (id) {
 
       case RELEASE_DIALOG:
@@ -167,6 +169,7 @@ public class CallHistoryActivity extends ListActivity {
         .setPositiveButton(android.R.string.ok, null)
         .create();
     }
+    
     return super.onCreateDialog(id);
   }
 

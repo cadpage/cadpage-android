@@ -85,6 +85,7 @@ public class VendorActivity extends Safe40Activity {
 
   @Override
   protected Dialog onCreateDialog(int id) {
+    if (isFinishing()) return null;
     switch (id) {
 
       case CONFIRM_UNREGISTER_DLG:

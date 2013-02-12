@@ -33,6 +33,7 @@ public class DonateActivity extends Safe40Activity {
 
   @Override
   protected Dialog onCreateDialog(int id) {
+    if (!isFinishing()) return null;
     return event.createDialog(this, id);
   }
 
