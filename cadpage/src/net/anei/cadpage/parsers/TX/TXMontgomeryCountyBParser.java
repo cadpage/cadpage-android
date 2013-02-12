@@ -11,7 +11,10 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
  */
 public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
-  private static final Pattern MASTER = Pattern.compile("(?:(\\d{4})(\\d{4}-\\d{7}) +)?(.*?)(?: *(\\d\\d[A-Z]-[A-Z]))? +(\\d{2,3}[A-Za-z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*))?(?: +(TAC +\\d+))?");
+  private static final String FIELD_LIST1 = "UNIT ID ADDR APT CALL BOX MAP SRC CH";
+  private static final String FIELD_LIST2 = "CODE CALL BOX ADDR SRC MAP";
+  private static final Pattern MASTER1 = Pattern.compile("(?:(\\d{4})(\\d{4}-\\d{7}) +)?(.*?)(?: *(\\d\\d[A-Z]-[A-Z]))? +(\\d{2,3}[A-Za-z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*))?(?: +(TAC +\\d+))?");
+  private static final Pattern MASTER2 = Pattern.compile("(?:([A-Z0-9]+)-)?(.*?) *(\\d\\d[A-Z]-[A-Z]) +(.*?) +(F[DG]\\d+(?: +F[DG]\\d+)*) +(\\d{2,3}[A-Za-z])");
   
   private static final Pattern RUN_REPORT_PTN = 
       Pattern.compile("(\\d{4}-\\d{6}) +,?((?:Time Canceled:|Time Call Complete:|Assigned|Time at Destination:|Priority Change:|Call Canceled Reason:).*)");
@@ -19,7 +22,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   public TXMontgomeryCountyBParser() {
     super(CITY_LIST, "MONTGOMERY COUNTY", "TX",
            "ID UNIT! Priority:PRI! CALL MAP ADDR/S! INFO+");
-    setFieldList("UNIT ID ADDR APT CALL CODE MAP SRC CH");
+    setFieldList(FIELD_LIST1);
   }
   
   @Override
@@ -48,20 +51,37 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
     if (flds.length >= 5) return parseFields(body.split(","), data);
     
     // Foo.  Now we have to do this the hard way
-    match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    data.strUnit = getOptGroup(match.group(1));
-    data.strCallId = getOptGroup(match.group(2));
-    parseAddress(StartType.START_ADDR, match.group(3), data);
-    data.strCall = getLeft();
-    if (data.strCall.length() == 0) return false;
-    data.strCode = getOptGroup(match.group(4));
-    data.strMap = match.group(5);
-    data.strSource = getOptGroup(match.group(6));
-    data.strChannel = getOptGroup(match.group(7));
     
-    if (data.strCall.equals("Out of County Respon")) data.defCity = "";
-    return true;
+    match = MASTER2.matcher(body);
+    if (match.matches()) {
+      setFieldList(FIELD_LIST2);
+      data.strCode = getOptGroup(match.group(1));
+      data.strCall = match.group(2).trim();
+      if (data.strCall.equals("Out of County Respon")) data.defCity = "";
+      data.strBox = match.group(3);
+      parseAddress(match.group(4).trim(), data);
+      data.strSource = match.group(5);
+      data.strMap = match.group(6);
+      return true;
+    }
+
+    match = MASTER1.matcher(body);
+    if (match.matches()) {
+      setFieldList(FIELD_LIST1);
+      data.strUnit = getOptGroup(match.group(1));
+      data.strCallId = getOptGroup(match.group(2));
+      parseAddress(StartType.START_ADDR, match.group(3), data);
+      data.strCall = getLeft();
+      if (data.strCall.equals("Out of County Respon")) data.defCity = "";
+      if (data.strCall.length() == 0) return false;
+      data.strBox = getOptGroup(match.group(4));
+      data.strMap = match.group(5);
+      data.strSource = getOptGroup(match.group(6));
+      data.strChannel = getOptGroup(match.group(7));
+      return true;
+    }
+    
+    return false;
   }
 
   private static final Pattern CALL_PTN = Pattern.compile("([^-]+?) *-?- +(.*)");
