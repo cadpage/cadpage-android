@@ -60,6 +60,11 @@ public class NYUlsterCountyParser extends FieldProgramParser {
         super.parse(field, data);
       }
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO DATE TIME";
+    }
   }
   
   @Override

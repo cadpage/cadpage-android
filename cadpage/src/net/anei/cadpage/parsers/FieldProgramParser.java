@@ -852,6 +852,7 @@ public class FieldProgramParser extends SmartAddressParser {
       for (Step step : keywordMap.values()) step.checked = false;
       
       // Loop through all of the fields
+      int fldNdx = 0;
       for (String field : fields) {
         
         // Break field into keyword and value
@@ -875,6 +876,7 @@ public class FieldProgramParser extends SmartAddressParser {
           } catch (FieldProgramException ex) {
             return false;
           }
+          fieldRecord[fldNdx++] = step.field;
         }
       }
       
