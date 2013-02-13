@@ -58,7 +58,7 @@ public class ZCAABRedDeerCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
       data.strCity = p.getLastOptional(',');
-      super.parse(p.get(','), data);
+      super.parse(p.get(',').replace('\\', '/'), data);
     }
     
     @Override
