@@ -66,6 +66,11 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
       super.parse(field, data);
       return true;
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL " + super.getFieldNames();
+    }
   }
   
   // Unit field only exists if it is tagged
