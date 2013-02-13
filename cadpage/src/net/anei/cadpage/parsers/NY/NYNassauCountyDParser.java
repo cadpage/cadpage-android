@@ -9,13 +9,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYNassauCountyDParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^([^\\*]*?)\\*\\*\\*([^\\*]+?)\\* \\* ");
+  private static final Pattern MARKER = Pattern.compile("^([^\\*]*?)\\*\\*\\*([^\\*]+?)\\* \\* ?");
   private static final Pattern MISSING_DELIM = Pattern.compile("(?<=[^\\*])(?=TOA:)");
   private static final Pattern DELIM = Pattern.compile(" \\*");
   
   public NYNassauCountyDParser() {
     super("NASSAU COUNTY", "NY",
-           "PLACE ADDR! CS:X? TOA:TIMEDATE? UNITID? INFO+");
+           "PLACE? ADDR/Z! CS:X? TOA:TIMEDATE? UNITID? INFO+");
   }
   
   @Override
@@ -31,6 +31,23 @@ public class NYNassauCountyDParser extends FieldProgramParser {
   @Override
   public String getProgram() {
     return "CALL " + super.getProgram();
+  }
+  
+  private class MyPlaceField extends PlaceField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      // If the next field has a colon, it cannot be an address
+      // so this field cannot be a place field
+      String nextFld = getRelativeField(+1);
+      if (nextFld.contains(":")) return false;
+      super.parse(field, data);
+      return true;
+    }
   }
   
   private static final Pattern UNIT_ID_PTN = Pattern.compile("(.*)(\\d{4}-\\d{6})");
@@ -84,6 +101,7 @@ public class NYNassauCountyDParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("UNITID")) return new MyUnitIdField();
     return super.getField(name);
