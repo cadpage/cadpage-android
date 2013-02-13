@@ -115,6 +115,7 @@ Ybpngvba: Gbzonyy, GK, Havgrq Fgngrf
 201239375* 22311 UHSFZVGU XBUEIVYYR EQ* * * UNEEVF PB* PBHAGEL PYHO TERRA* JVYYBJ PERRX RFGNGRF* 289W* Ynaqznex Pbzzrag: XABK OBK YBPNGRQ NG SEBAG TNGR* Nynez Ohet* Nynezf - Ohetynel/Vagehfvba* FRZONEN* 281-220-4076* 395,536* 7201* Zrqvpny: Ab* Unmneqf: Ab* 12/25/2012 10:01:38 : cbf10 : rbhnyyvar ** RCQ Pnfr Pbzcyrgr ** 12/25/2012 10:01:30 : cbf10 : rbhnyyvar ** RCQ Xrl Dhrfgvbaf Svavfurq ** Xrl Dhrfgvbaf: * 4.Gur anzr bs gur ohfvarff/erfvqrag/bjare vf: FNYPB * 5.Gur npgvingvba nern vf: AJ JNERUBHFR BIREURNQ QBBEF * 6.Gur cubar ahzore bs gur ohfvarff/erfvqrag/bjare vf: 281 351 0274 * 7.N xrlubyqre/bjare jvyy or pbagnpgrq. 12/25/2012 10:00:29 : cbf10 : rbhnyyvar ** RCQ Erpbzzraqrq Qvfcngpu ** Erfcbafr Grkg: Qrygn Qvfcngpu Yriry: 104Q01 PNQ Vapvqrag Pbqr: Nynez Ohet Xrl Dhrfgvbaf: * 1.Gur pnyyre vf abg ba fprar. * 2.Guvf pnyy vf sebz na nynez zbavgbevat pbzcnal. * 3.Guvf vf n ohetynel/vagehfvba nynez. 12/25/2012 10:00:16 : cbf10 : rbhnyyvar ** RCQ Pnfr Ragel Svavfurq ** Puvrs Pbzcynvag 
 201239297* 400 SNAAVA FG* * * GBZONYY* F BNX* F CVAR FG* 288U* * WNVY QHGL* WNVY QHGL* JNYXRE, WHQTR* 281-351-5451* 216,72* 7102* Zrqvpny: Ab* Unmneqf: Ab* 12/24/2012 11:46:50 : cbf10 : rbhnyyvar Ynaqznex: GBZONYY PVGL WNVY Pebff fgerrgf: F BNX//F CVAR FG*
 201239288* 28048 GBZONYY CXJL* S* * GBZONYY* NYVPR EQ* UVEFPUSVRYQ EQ* 288D* Ynaqznex Pbzzrag: AB XABK OBK* QVFGHEONAPR* QVFGHEONAPR* * 281-351-2274* 216,395,536,72* 7201* Zrqvpny: Ab* Unmneqf: Ab* 12/24/2012 10:17:14 : cbf10 : rbhnyyvar Pebff fgerrgf: NYVPR EQ//UVEFPUSVRYQ EQ Ynaqznex: PNFU NZREVPN CNJA Ynaqznex Pbzzrag: AB XABK OBK*
+201239987* 6004 OERRA QE* * * * MHVAA FG* NAGBVAR QE* 411T* Trb Pbzzrag: UPRP AOU: ERPERNGVBA NPERF* 67B01* BHGFVQR SVER - Pbagebyyrq ohea* * * QR-41* 4812* * * 12/31/2012 11:49:28 : cbf32 : PXABJREF ** RSQ Pnfr Pbzcyrgr ** 12/31/2012 11:49:26 : cbf32 : PXABJREF ** RSQ Erpbzzraqrq Qvfcngpu ** Erfcbafr Grkg: Bzrtn Qvfcngpu Yriry: 67B01 PNQ Vapvqrag Pbqr: 67B01 Xrl Dhrfgvbaf: * 1.Gur pnyyre vf ba fprar (1fg cnegl). * 2.Guvf vf n pbagebyyrq ohea. * 3.Gur sver unf abg orra rkgvathvfurq. * 4.Gur sver vf abg guerngravat nalguvat ng cerfrag. * 5.Gurer ner ab nccnerag ryrpgevpny yvarf ba gur tebhaq. * 6.Ab bar vf ercbegrq gb or va qnatre. * 7.Gur sver vf abg fcernqvat. * 8.Vg vf abg xabja jung fvmr bs na nern vf oheavat. * 9.Ab bar vf ercbegrq gb or vawherq. 12/31/2012 11:48:57 : cbf32 : PXABJREF Pebff fgerrgf: MHVAA FG//NAGBVAR QE Trb Pbzzrag: UPRP AOU: ERPERNGVBA NPERF*\e\a
 
 */
 
@@ -1158,6 +1159,20 @@ choyvp pynff GKUneevfPbhaglAJRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:12/24/2012",
         "GVZR:10:17:14",
         "PU:cbf10");
+
+    qbGrfg("G21",
+        "201239987* 6004 OERRA QE* * * * MHVAA FG* NAGBVAR QE* 411T* Trb Pbzzrag: UPRP AOU: ERPERNGVBA NPERF* 67B01* BHGFVQR SVER - Pbagebyyrq ohea* * * QR-41* 4812* * * 12/31/2012 11:49:28 : cbf32 : PXABJREF ** RSQ Pnfr Pbzcyrgr ** 12/31/2012 11:49:26 : cbf32 : PXABJREF ** RSQ Erpbzzraqrq Qvfcngpu ** Erfcbafr Grkg: Bzrtn Qvfcngpu Yriry: 67B01 PNQ Vapvqrag Pbqr: 67B01 Xrl Dhrfgvbaf: * 1.Gur pnyyre vf ba fprar (1fg cnegl). * 2.Guvf vf n pbagebyyrq ohea. * 3.Gur sver unf abg orra rkgvathvfurq. * 4.Gur sver vf abg guerngravat nalguvat ng cerfrag. * 5.Gurer ner ab nccnerag ryrpgevpny yvarf ba gur tebhaq. * 6.Ab bar vf ercbegrq gb or va qnatre. * 7.Gur sver vf abg fcernqvat. * 8.Vg vf abg xabja jung fvmr bs na nern vf oheavat. * 9.Ab bar vf ercbegrq gb or vawherq. 12/31/2012 11:48:57 : cbf32 : PXABJREF Pebff fgerrgf: MHVAA FG//NAGBVAR QE Trb Pbzzrag: UPRP AOU: ERPERNGVBA NPERF*\e\a",
+        "VQ:201239987",
+        "NQQE:6004 OERRA QE",
+        "K:MHVAA FG & NAGBVAR QE",
+        "ZNC:411T",
+        "VASB:UPRP AOU: ERPERNGVBA NPERF / 4812\a** RSQ Pnfr Pbzcyrgr **\a** RSQ Erpbzzraqrq Qvfcngpu ** / Bzrtn Qvfcngpu Yriry: 67B01 PNQ Vapvqrag Pbqr: 67B01\a1.Gur pnyyre vf ba fprar (1fg cnegl).\a2.Guvf vf n pbagebyyrq ohea.\a3.Gur sver unf abg orra rkgvathvfurq.\a4.Gur sver vf abg guerngravat nalguvat ng cerfrag.\a5.Gurer ner ab nccnerag ryrpgevpny yvarf ba gur tebhaq.\a6.Ab bar vf ercbegrq gb or va qnatre.\a7.Gur sver vf abg fcernqvat.\a8.Vg vf abg xabja jung fvmr bs na nern vf oheavat.",
+        "PBQR:67B01",
+        "PNYY:BHGFVQR SVER - Pbagebyyrq ohea",
+        "HAVG:QR-41",
+        "QNGR:12/31/2012",
+        "GVZR:11:48:57",
+        "PU:cbf32");
 
   }
 
