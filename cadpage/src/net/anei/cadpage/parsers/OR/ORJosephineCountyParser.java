@@ -12,7 +12,7 @@ public class ORJosephineCountyParser extends FieldProgramParser {
   
   public ORJosephineCountyParser() {
     super("JOSEPHINE COUNTY", "OR",
-          "CALL ADDRCITY DATETIME ID UNIT! INFO");
+          "CALL ADDRCITY PLACE DATETIME ID UNIT! INFO+");
   }
   
   @Override
@@ -23,7 +23,7 @@ public class ORJosephineCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (! subject.equals("!")) return false;
-    return parseFields(body.split(": "), 5, data);
+    return parseFields(body.split(": |\n"), 6, data);
   }
   
   private static final Pattern INTERSECT_MARKER = Pattern.compile(" *@ *");
@@ -50,8 +50,7 @@ public class ORJosephineCountyParser extends FieldProgramParser {
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      field = field.replaceAll("\\s+", " ");
-      super.parse(field, data);
+      data.strSupp = append(data.strSupp, " ", field);
     }
   }
   
