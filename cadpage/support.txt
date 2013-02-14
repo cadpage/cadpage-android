@@ -5,7 +5,7 @@ support@cadpage.org
 
 Weld County mapping is seriously broken.  Someone is stripping all of the line break characters out of the regular dispatch page.  If they had replaced them with something nice like semicolons, I could parse them with no problems.  If they replace them with blanks I would have had a few choice comments about the situation but could have worked with it.  But they are just gone leaving all of your data fields mashed up against each other.  I just can't parse that :(
 
-All you can do is complain to your department or dispatch IT people.  If they can't get the issue resolved, you may have to switch messaging services.  CodeMessaging.com and Active911.net are recommended because they can push pages directly to Cadpage.
+All you can do is complain to your department or dispatch IT people.  If they can't get the issue resolved, you may have to switch messaging services.  CodeMessaging.net and Active911.com are recommended because they can push pages directly to Cadpage.
 
 Good luck,
 -Ken
@@ -193,7 +193,7 @@ This will generate an email with the correct email account (usually a gmail acco
 Your Payment status should change when you load the next Cadpage version. 
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-OBIUWRFA or obiuwrfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+CJDGQYBA or cjdgqyba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -278,7 +278,7 @@ If you do this, please include your Cadpage User email address (usually a gmail 
 We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them other then getting staff and volunteer members to bring it up.  If you can talk them into it, they get a 30% discount or more!  Details can be found at http://www.cadpage.org/financial-support/other-support-options.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-OBIUWRFA or obiuwrfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+CJDGQYBA or cjdgqyba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -332,7 +332,7 @@ Jean -- Assistant to Ken Corbin
 
 ******************************************************************
 
-If you are getting text pages through CodeMessaging, you need to register your device for Code Messaging direct paging.
+If you are getting text pages through CodeMessaging, you need to register your device for CodeMessaging direct paging.
 
 Go into Cadpage Settings and select
 Direct Paging Vendors > CodeMessaging.net > Register
@@ -419,7 +419,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-OBIUWRFA or obiuwrfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+CJDGQYBA or cjdgqyba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -433,7 +433,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-OBIUWRFA or obiuwrfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+CJDGQYBA or cjdgqyba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -443,7 +443,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-OBIUWRFA or obiuwrfa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+CJDGQYBA or cjdgqyba.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -581,7 +581,7 @@ When a call comes in as an SMS text page, and Cadpage doesn't do anything to it,
 
 Direct paging is different.  If Cadpage doesn't handle them, they just disappear.  Since this seemed like an undesirable outcome, Cadpage always handles a direct page message.  If it isn't a real CAD page it will be treated as  a general alert, regardless of the process General Alert setting.   However, many people are, like yourself, unhappy with this state of affairs.  But we aren't sure what to do about it.
 
-Code Messaging is going to try to give users more options about whether non-page calls are sent to you or not.  But this really doesn't solve the problem, does it.
+CodeMessaging is going to try to give users more options about whether non-page calls are sent to you or not.  But this really doesn't solve the problem, does it.
 
 It would be easy enough to have Cadpage honor the process general alert setting for direct pages.  But as I explained, they will not show in you message inbox if we do this, they will completely disappear.  Is this what you would prefer?
 
@@ -684,8 +684,6 @@ If you are getting messages going through to your messaging app, check to make s
 Wait until the next text pages comes in.  If it still does not trigger CadPage, then use the Send Email to Developer feature to send us an email report.  This should include the most recently received text message, whether or not it was processed by CadPage, which gives us a lot of information we need to resolve the problem.
 
 If the messages are triggering CADpage, but will not allow you to select map option: Long press the message to open the Options menu and select the "Report Problem" menu item.  This will generate an email containing all of the information we should need to track down the problem with this message.  You can get the same menu options from the call history screen by long pressing one of the call entries.
-
-Please contact us again if you still have problems.
 
 Good luck,
 Jean -- Assistant to Ken Corbin
