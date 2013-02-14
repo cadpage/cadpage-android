@@ -13,7 +13,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
   private static final String FIELD_LIST1 = "UNIT ID ADDR APT CALL BOX MAP SRC CH";
   private static final String FIELD_LIST2 = "CODE CALL BOX ADDR SRC MAP";
-  private static final Pattern MASTER1 = Pattern.compile("(?:(\\d{4})(\\d{4}-\\d{7}) +)?(.*?)(?: *(\\d\\d[A-Z]-[A-Z]))? +(\\d{2,3}[A-Za-z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*))?(?: +(TAC +\\d+))?");
+  private static final Pattern MASTER1 = Pattern.compile("(?:(\\d{4})(\\d{4}-\\d{7}) +)?(.*?)(?: *(\\d\\d[A-Z]-[A-Z]))? +(\\d{2,3}[A-Za-z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*))?(?: +([A-Z]+\\d+(?: +[A-Z]+\\d+)*))?(?: +(TAC +\\d+))?");
   private static final Pattern MASTER2 = Pattern.compile("(?:([A-Z0-9]+)-)?(.*?) *(\\d\\d[A-Z]-[A-Z]) +(.*?) +(F[DG]\\d+(?: +F[DG]\\d+)*) +(\\d{2,3}[A-Za-z])");
   
   private static final Pattern RUN_REPORT_PTN = 
@@ -77,7 +77,8 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       data.strBox = getOptGroup(match.group(4));
       data.strMap = match.group(5);
       data.strSource = getOptGroup(match.group(6));
-      data.strChannel = getOptGroup(match.group(7));
+      data.strUnit = append(data.strUnit, " ", getOptGroup(match.group(7)));
+      data.strChannel = getOptGroup(match.group(8));
       return true;
     }
     
