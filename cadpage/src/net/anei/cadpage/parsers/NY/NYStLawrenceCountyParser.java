@@ -65,37 +65,59 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
     // Dispatch sprinkles a lot of #NY terms after addresses for no apparent reason
     if (data.strApt.startsWith("NY")) data.strApt = data.strApt.substring(2).trim();
     
-    if (data.strCity.equals("OGD")) {
-      data.strCity = "OGDENSBURG";
-    }
-    
-    // Trim VILLAGE off of city names
-    else if (data.strCity.endsWith(" VILLAGE")) {
-      data.strCity = data.strCity.substring(0,data.strCity.length()-8).trim();
-    }
-    
-    else if (data.strCity.endsWith(" CITY")) {
-      data.strCity = data.strCity.substring(0,data.strCity.length()-5).trim();
-    }
-    
-    // More special cases
-    else if (NUMERIC.matcher(data.strAddress).matches() && data.strCity.contains(" ")) {
+    // Check for house number separated from street address by a comma
+    if (NUMERIC.matcher(data.strAddress).matches() && data.strCity.contains(" ")) {
       data.strAddress = data.strAddress + " " + data.strCity;
       data.strCity = "";
     }
     
-    else if (data.strCity.endsWith(" DORM")) {
-      data.strPlace = append(data.strPlace, " - ", data.strCity);
-      data.strCity = "";
+    // Redundant processing, but extra information is sometimes appended to address
+    
+    String addr = data.strAddress;
+    String saveCity = data.strCity;
+    data.strAddress = "";
+    parseAddress(StartType.START_ADDR, addr, data);
+    data.strSupp = cleanCitySuffix(getLeft(), data);
+    if (saveCity.length() > 0) {
+      if (!data.strCity.equals(saveCity)) {
+        data.strSupp = append(data.strSupp, " ", saveCity);
+      }
     }
     
-    else if (data.strCity.equalsIgnoreCase("CLARKSON UNIVERSITY")) {
+    // And Place name may follow city names
+    addr = data.strCity;
+    data.strCity = "";
+    Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, addr);
+    if (res.getStatus() > 0) {
+      res.getData(data);
+      addr = getLeft();
+      addr = cleanCitySuffix(addr, data);
+    }
+    data.strPlace = append(addr, " - ", data.strPlace);
+    
+    data.strCity = convertCodes(data.strCity, CITY_CODES);
+    
+    if (data.strCity.equalsIgnoreCase("CLARKSON UNIVERSITY")) {
       data.strPlace = append(data.strPlace, " - ", data.strAddress);
       data.strAddress = data.strCity;
       data.strCity = "POTSDAM";
     }
     
     return true;
+  }
+
+  private String cleanCitySuffix(String addr, Data data) {
+    if (addr.startsWith("VILLAGE")) {
+      addr = addr.substring(7).trim();
+    }
+    else if (addr.startsWith("CITY")) {
+      addr = addr.substring(4).trim();
+    }
+    if (addr.startsWith("CROSS ")) {
+      data.strCross = append(data.strCross, " / ", addr.substring(6).trim());
+      addr = "";
+    }
+    return addr;
   }
   
   @Override
@@ -120,13 +142,16 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
     "BRASHER FALLS-WINTHROP",
     "CANTON",
     "CLARE",
+    "CLARKSON UNIVERSITY",
     "CLIFTON",
     "COLTON",
     "DE KALB",
     "DE PEYSTER",
+    "DEPEYSTER",
     "EDWARDS",
     "FINE",
     "FOWLER",
+    "GOUV",
     "GOUVERNEUR",
     "HAMMOND",
     "HERMON",
@@ -142,6 +167,7 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
     "NORFOLK",
     "NORWOOD",
     "OGD",
+    "OGDENBURG",
     "OGDENSBURG",
     "OSWEGATCHIE",
     "PARISHVILLE",
@@ -153,10 +179,21 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
     "RICHVILLE",
     "ROSSIE",
     "RUSSELL",
+    "SOUTH COLTON",
     "STAR LAKE",
     "STOCKHOLM",
-    "WADDINGTON"
+    "WADDINGTON",
+    
+    // Jefferson County
+    "ANTWERP"
   };
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "DEPEYSTER",    "DE PEYSTER",
+      "GOUV",         "GOUVERNEUR",
+      "OGD",          "OGDENSBURG",
+      "OGDENBURG",    "OGDENSBURG"
+  });
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
       
