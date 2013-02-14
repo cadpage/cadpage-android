@@ -456,7 +456,7 @@ choyvp pynff APUraqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G36",
         "UPFB CntrTngr Freivpr:13015804 PUVZARL EBPX EQ // YNLPBPX EQ 828884 URAQREFBAIVYYR P15 NHGB NPP WBL UVTOL 828-582-8884 RQ1 Yvar16= Yvar17= Yvar18= ",
         "VQ:13015804",
-        "NQQE:PUVZARL EBPX EQ & YNLPBPX EQ",
+        "NQQE:PUVZARL EBPX EQ & YNLPBPX EQ",  // Abg va URAQREFBAIVYYR pvgl yvzvgf
         "NCG:828884",
         "PVGL:URAQREFBAIVYYR",
         "PBQR:P15",

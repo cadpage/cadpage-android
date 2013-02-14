@@ -23,8 +23,6 @@ public class NCHendersonCountyParser extends SmartAddressParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    //
-    
     // Strip call id from front of text
     Matcher  match = ID_PTN.matcher(body);
     if (!match.find()) return false;
