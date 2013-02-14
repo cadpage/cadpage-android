@@ -76,7 +76,7 @@ public class Message {
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
     Pattern.compile("^(\\d) *of *(\\d):"),
-    Pattern.compile("^\\((\\d)/(\\d)\\)"),
+    Pattern.compile("^\\(?\\((\\d)/(\\d)\\)"),
     Pattern.compile("^ *(\\d)/(\\d) / "),
     Pattern.compile("^\\( *(\\d) +of +(\\d) *\\)"),
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+) /(\\d)/(\\d) /"),
@@ -167,8 +167,14 @@ public class Message {
         msgIndex = Integer.parseInt(match.group(ndx++));
         msgCount = Integer.parseInt(match.group(ndx++));
         if (pinned) body = match.group(ndx);
-        else if (match.start() == 0) body = trimLead(body.substring(match.end()));
-        else body = trimLead(body.substring(0,match.start()));
+        else if (match.start() == 0) {
+          String origBody = body;
+          body = trimLead(body.substring(match.end()));
+          if (origBody.startsWith("((")) {
+            if (body.startsWith(")")) body = trimLead(body.substring(1));
+            else body = "(" + body;
+          }
+        } else body = trimLead(body.substring(0,match.start()));
       } else {
         if (body.startsWith("/ ")) body = trimLead(body.substring(2));
       }

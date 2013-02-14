@@ -9,6 +9,15 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("PBBenatrPbhaglO",
+        "xra@pnqcntr.bet",
+        "",
+        "((1/3)BP911 NYREG) VAP: S58130212000061 GLC: NYF ZRQVPNY PNYY NQ: 44 ZREEVRJBYQ YA A PGL: FBHGU OYBBZVAT PA: WBUNAAN GBECRL PZG1",
+        "xra@pnqcntr.bet",
+        "BP911 NYREG",
+        "VAP: S58130212000061 GLC: NYF ZRQVPNY PNYY NQ: 44 ZREEVRJBYQ YA A PGL: FBHGU OYBBZVAT PA: WBUNAAN GBECRL PZG1", 1, 3);
+        
+        
     qbCnefrGrfg("PBQbhtynfPbhaglO",
         "xra@pnqcntr.bet",
         "",
