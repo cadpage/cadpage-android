@@ -1192,7 +1192,8 @@ Jnlar Pbhagl, AW (AWJnlarPbhaglCnefre)
 2012000017 {01/04/2012 10:49:09}\aNSPV     - Sver nynez - pbzzrepvny/vaqhfgevny{3}\a520 Eg46;CQ.\a  Havgf:\a\aPbzzragf:\a  Fgngvba Qvfcngpurq : {P1 } Fgngvba Qvfcngpurq : {P2 } Havgf Erpbzzraqrq: ,;\aQvfcngpurq: {P2 }, {P1 } Nqg/877 2387739/vq vho/npja\aErq Ybofgre\ambar 18 NAFHY
 *******************************************************************************
 Xrabfun Pbhagl, JV (JVXrabfunPbhaglPCnefre)
-Fhowrpg:Cubravk Abgvsvpngvba\a2012000453 {04/15/2012 14:23:51}\aZRQ PNYY - Zrqvpny Pnyy{1}\a9747 84gu Cy\aHavgf:\a    5642    \aPbzzragf:\aFhowrpg:Cubravk Abgvsvpngvba\a2012000454 {04/15/2012 17:21:48}\aSVER FAT - Sver - Fvatyr Ratvar{1}\a905 114gu Fg\aHavgf:\a    5641    5611  
+Fhowrpg:Cubravk Abgvsvpngvba\a2012000453 {04/15/2012 14:23:51}\aZRQ PNYY - Zrqvpny Pnyy{1}\a9747 84gu Cy\aHavgf:\a    5642    \aPbzzragf:
+Fhowrpg:Cubravk Abgvsvpngvba\a2012000454 {04/15/2012 17:21:48}\aSVER FAT - Sver - Fvatyr Ratvar{1}\a905 114gu Fg\aHavgf:\a    5641    5611  
 Fhowrpg:Cubravk Abgvsvpngvba\a2012000454 {04/15/2012 17:21:48}\aSVER FAT - Sver - Fvatyr Ratvar{1}\a905 114gu Fg\aHavgf:\a    5641    5611  
 *******************************************************************************
 *******************************************************************************
@@ -6125,5 +6126,4 @@ Fraqre: tqnygba@inyyrlurnyguyvax.pbz
 * RBS
 **********************************************************
 **********************************************************
-(BP911 NYREG) VAP: S58130212000061 GLC: NYF ZRQVPNY PNYY NQ: 44 ZREEVRJBYQ YA A PGL: FBHGU OYBBZVAT PA: WBUNAAN GBECRL PZG1 CNVA PZG2: Z 43 LRNE BYQ ZNYR PBAFPVBHF OERNGUVAT 1)UR VF PBZCYRGRYL NYREG (ERFC GVZR: 17:09 KFG: 391 YNXR FUBER QE KFG2: 305 YNXR FUBER QE
-
+2013000139 {02/14/2013 07:25:59}\aNZOB     - Nzohynapr Erdhrfg{1}\a280 Ovepuebpx Jnl,N1\aHavgf:\a    ZSQ2    \aPbzzragf:\a Grfg Nzob Pnyy \a
