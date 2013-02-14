@@ -1701,7 +1701,7 @@ public class FieldProgramParser extends SmartAddressParser {
           chr = qual.charAt(pt);
           pt2 = "PSx".indexOf(chr);
           if (pt2 >= 0) {
-            parseFlags |= FLAG_PAD_FIELD;
+            parseFlags |= (chr == 'P' || chr == 'x' ? FLAG_PAD_FIELD : FLAG_PAD_FIELD_EXCL_CITY);
             if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
             padField = new String[]{"PLACE","SKIP", "X"}[pt2];
             padData = getField(padField);

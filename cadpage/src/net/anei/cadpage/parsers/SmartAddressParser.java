@@ -112,6 +112,17 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_AT_SIGN_ONLY = 0x4000;
   
+  /**
+   * Flag indicating the presence of some kind of PAD field between
+   * the address and city name.  Similar to the FLAG_PAD_FIELD flag
+   * except that this pad field may not contain a legitimate city name.
+   * The pad field can later be retrieved with the getPadField() method
+   */
+  public static final int FLAG_PAD_FIELD_EXCL_CITY = 0x8000;
+  
+  
+  private static final int FLAG_ANY_PAD_FIELD = FLAG_PAD_FIELD | FLAG_PAD_FIELD_EXCL_CITY;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -647,7 +658,8 @@ public abstract class SmartAddressParser extends MsgParser {
   }
 
   /**
-   * Called after address has been parsed with FLAG_PAD_FIELD flag
+   * Called after address has been parsed with FLAG_PAD_FIELD or
+   * FLAG_PAD_FIELD_EXCL_CITY flag
    * @return pad field between address and city
    */
   public String getPadField() {
@@ -674,7 +686,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // Or we should parse out a pad field
     // then return failure status so one of the other address parsers can make
     // some kind of reasonableness check on this
-    if (isFlagSet(FLAG_CHECK_STATUS|FLAG_IMPLIED_INTERSECT|FLAG_PAD_FIELD)) return false;
+    if (isFlagSet(FLAG_CHECK_STATUS|FLAG_IMPLIED_INTERSECT|FLAG_ANY_PAD_FIELD)) return false;
     
     // OK, we have to have at least 2 items before the city
     // Unless we are parsing a cross street instead of a real address, in which
@@ -717,7 +729,7 @@ public abstract class SmartAddressParser extends MsgParser {
   private boolean parseSimpleAddress(Result result) {
     
     result.reset();
-    boolean padField = isFlagSet(FLAG_PAD_FIELD);
+    boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
     
     // Look for a numeric field which we assume is the house number
     // If field starts with address this has to be the first token
@@ -829,7 +841,7 @@ public abstract class SmartAddressParser extends MsgParser {
   private boolean parseIntersection(Result result) {
     
     result.reset();
-    boolean padField = isFlagSet(FLAG_PAD_FIELD);
+    boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
     
     // First lets figure out where the address starts
     int sAddr;
@@ -959,7 +971,7 @@ public abstract class SmartAddressParser extends MsgParser {
     result.reset();
     boolean flexAt = isFlagSet(FLAG_AT_BOTH);
     boolean atStart = false;
-    boolean padField = isFlagSet(FLAG_PAD_FIELD);
+    boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
 
     // If address starts at beginning of field, find end of address and
     // Don't have to look for city because we wouldn't be here if both startAddr
@@ -1317,14 +1329,14 @@ public abstract class SmartAddressParser extends MsgParser {
     // end of the line without looking for a city
     boolean anchorEnd = isFlagSet(FLAG_ANCHOR_END);
     boolean parseToEnd = anchorEnd && ! isFlagSet(FLAG_CHECK_STATUS);
-    boolean padField = isFlagSet(FLAG_PAD_FIELD);
+    boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
 
     if (srcNdx >= tokens.length) return false;
     if (!parseToEnd && lastCity < srcNdx) return false;
     
     boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
     
-    // Notice: If the FLAG_PAD_FIELD was set, some of these fields might have
+    // Notice: If the FLAG_ANY_PAD_FIELD was set, some of these fields might have
     // been found before the PAD field, in which case we don't want to disturb
     // them.
     FieldSpec placeField = null;
@@ -1356,7 +1368,7 @@ public abstract class SmartAddressParser extends MsgParser {
           // place name that includes a local city name.  So we will call
           // ourselves recursively in an attempt to find another city name
           // behind this one
-          if (padField && endCity < tokens.length) {
+          if (isFlagSet(FLAG_PAD_FIELD) && endCity < tokens.length) {
             parseToCity(fldSpec, endCity+1, result);
           }
           return true;
@@ -1732,7 +1744,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // character tokens are OK
     if (!pastAddr && BAD_CHARS.matcher(token).find()) {
       tokenType[ndx] |= ID_NOT_ADDRESS;
-      if (isFlagSet(FLAG_ANCHOR_END) && !isFlagSet(FLAG_PAD_FIELD)) startNdx = ndx+1;
+      if (isFlagSet(FLAG_ANCHOR_END) && !isFlagSet(FLAG_ANY_PAD_FIELD)) startNdx = ndx+1;
       return;
     }
     
@@ -1766,7 +1778,7 @@ public abstract class SmartAddressParser extends MsgParser {
     else if (NUMERIC.matcher(token).matches()) {
       if (token.length() >= 9) {
         tokenType[ndx] |= ID_NOT_ADDRESS;
-        if (isFlagSet(FLAG_ANCHOR_END) && !isFlagSet(FLAG_PAD_FIELD)) startNdx = ndx+1;
+        if (isFlagSet(FLAG_ANCHOR_END) && !isFlagSet(FLAG_ANY_PAD_FIELD)) startNdx = ndx+1;
         return;
       }
       else mask |= ID_NUMBER;

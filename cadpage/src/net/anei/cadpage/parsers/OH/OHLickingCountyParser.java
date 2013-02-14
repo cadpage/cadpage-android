@@ -32,7 +32,7 @@ public class OHLickingCountyParser extends SmartAddressParser {
     
     // Smart address parser has to take things from here
     // Leaving room for a possible apt number between address and city
-    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, body, data);
+    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD_EXCL_CITY, body, data);
     data.strApt = append(data.strApt, " ", getPadField());
     if (data.strApt.startsWith("APT ")) data.strApt = data.strApt.substring(4).trim();
     

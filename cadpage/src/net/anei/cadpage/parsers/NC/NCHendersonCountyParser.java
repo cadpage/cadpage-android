@@ -10,17 +10,20 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NCHendersonCountyParser extends SmartAddressParser {
   
-  private static final Pattern ID_PTN = Pattern.compile("^(\\d{8}) +");
+  private static final Pattern ID_PTN = Pattern.compile("^(?:HCSO PageGate Service:)?(\\d{8}) +");
   private static final Pattern LINE_PTN = Pattern.compile(" Line\\d+=");
   private static final Pattern UNIT_PTN = Pattern.compile(" +([-#,A-Z0-9#]+)$");
   private static final Pattern PHONE_PTN = Pattern.compile(" +(?:(\\d{3}-\\d{3}-\\d{4}(?: *[xX]\\d+)?)|\\d{3}- -)$");
   
   public NCHendersonCountyParser() {
     super(CITY_LIST, "HENDERSON COUNTY", "NC");
+    setFieldList("ID ADDR APT CITY CODE CALL NAME PHONE UNIT INFO");
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    
+    //
     
     // Strip call id from front of text
     Matcher  match = ID_PTN.matcher(body);
@@ -60,7 +63,7 @@ public class NCHendersonCountyParser extends SmartAddressParser {
     // We have to fudge the BLKD RD call because it makes the
     // city look like part of a new road name
     body = body.replace("//", "/").replace("BLKD RD", "BLKD-RD").replace("PWR LN", "PWR-LN").replace("LIFE LN", "LIFE-LN");
-    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, body, data);
+    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD_EXCL_CITY, body, data);
     data.strApt = append(data.strApt, "-", getPadField());
     body = getLeft().replace("BLKD-RD", "BLKD RD").replace("PWR-LN", "PWR LN").replace("LIFE-LN", "LIFE LN");
     
