@@ -10,21 +10,34 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTTollandCountyParser extends SmartAddressParser {
   
+  private static final Pattern SUBJECT_PTN = Pattern.compile("[A-Z]+");
   private static final Pattern TIME_PTN = Pattern.compile("\\b\\d\\d: \\d\\d\\b");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{8}$");
   
   public CTTollandCountyParser() {
     super(CITY_LIST, "TOLLAND COUNTY", "CT");
+    setFieldList("SRC ADDR APT CITY CALL X ID");
   }
   
   @Override
   public String getFilter() {
-    return "@TollandCounty911.org,@TollandCounty911.com";
+    return "@TollandCounty911.org,@TollandCounty911.com,messaging@iamresponding.com";
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("TN Alert")) return false;
+    
+    do {
+      
+      if (subject.equals("TN Alert")) break;
+      
+      if (SUBJECT_PTN.matcher(subject).matches()) {
+        data.strSource = subject;
+        break;
+      }
+      
+      return false;
+    } while (false);
     
     // We are invoking the smart address parser strictly to find city, it
     // shouldn't have to do much parsing.  If it doesn't find a city, bail out.
@@ -123,6 +136,8 @@ public class CTTollandCountyParser extends SmartAddressParser {
     "MASHAPAUG",
     
     "WAREHOUSE POINT",
+
+    "UCONN",
     
     // Windham county
     "ASHFORD",
