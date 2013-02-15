@@ -97,6 +97,14 @@ Pbagnpg: Oneo <svertebhaqyrnqre@ubgznvy.pbz>
 Fraqre: Qvfcngpu@pv.jbbqohea.be.hf
 Vapvqrag / FGEP S:431 R ZNVA FG, FHOYVZVGL::SVER VA GUR NERN BS GUR FPUBBY/SYNZRF FUBJVAT:ZNC-4230Q:::FHOYVZVGL TENQR FPUBBY:
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fvyiregba Sver Qvfgevpg
+Ybpngvba: Fvyiregba, BE, Havgrq Fgngrf
+Fraqre: Qvfcngpu@pv.jbbqohea.be.hf
+
+(Vapvqrag) GEAF S:331 YBAR BNXF YC, FVYIREGBA::ZNC-3031N::F423, ZRQ23, FGN400::91 LBS P/O/NYG YBP -HANOYR GB FCRNX - GEAF GB FVYI:
+(Vapvqrag) YM S:342 SNVEIVRJ FG, FVYIREGBA:FVYIREGBA UBFCVGNY:ZNC-3030Q::R415, Q411, FGN410::ERNPU 8 RAEG SBE YM:
+
 */
 
 choyvp pynff BEZnevbaPbhaglACnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -756,6 +764,30 @@ choyvp pynff BEZnevbaPbhaglACnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:FHOYVZVGL TENQR FPUBBY",
         "VASB:SVER VA GUR NERN BS GUR FPUBBY/SYNZRF FUBJVAT / ZNC-4230Q");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFvyiregbaSver() {
+
+    qbGrfg("G1",
+        "(Vapvqrag) GEAF S:331 YBAR BNXF YC, FVYIREGBA::ZNC-3031N::F423, ZRQ23, FGN400::91 LBS P/O/NYG YBP -HANOYR GB FCRNX - GEAF GB FVYI:",
+        "PNYY:GEAF S",
+        "NQQE:331 YBAR BNXF YC",
+        "PVGL:FVYIREGBA",
+        "HAVG:F423, ZRQ23",
+        "FEP:FGN400",
+        "VASB:ZNC-3031N / 91 LBS P/O/NYG YBP -HANOYR GB FCRNX - GEAF GB FVYI");
+
+    qbGrfg("G2",
+        "(Vapvqrag) YM S:342 SNVEIVRJ FG, FVYIREGBA:FVYIREGBA UBFCVGNY:ZNC-3030Q::R415, Q411, FGN410::ERNPU 8 RAEG SBE YM:",
+        "PNYY:YM S",
+        "NQQE:342 SNVEIVRJ FG",
+        "PVGL:FVYIREGBA",
+        "CYNPR:FVYIREGBA UBFCVGNY",
+        "HAVG:R415, Q411",
+        "FEP:FGN410",
+        "VASB:ZNC-3030Q / ERNPU 8 RAEG SBE YM");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
