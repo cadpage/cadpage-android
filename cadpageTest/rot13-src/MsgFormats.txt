@@ -5542,13 +5542,6 @@ Fraqre: 2075151833,2075151834
 263:Qvfcngpu:Erfcbaq gb 53 Bftbbq Nir Ncg3, zrkvpb sbe ercbeg bs fcnexf gung pnzr bhg bs n gurezbfgng. Abguvat fubjvat abj jbhyq yvxr vg purpxrq bhg
 257:Qvfcngpu:2138 ebkohel eq, hafher Ebkohel be Oleba 10-55 ebyybire bcrengbe qralvat vawhevrf
 **********************************************************
-Haxabja
-Pbagnpg: enaqnyy terrayrr <enaqlterrayrr@foptybony.arg>
-Fraqre: fyhpnq@sver.pn.tbi
-EN: N-10; PNZC FYB @ =Y(35.325251,-120.728507) #831 ,FYB_PB ;  ; SVER, PBZZREPVNY NYNEZ; ; Znc: 633_O_5/633_O_5; Vap# 001150; O3416 R12 RPZP; TRARENY SVER NYNEZ\a<n uers="uggc://zncf.tbbtyr.pbz/?d=35.325251,-120.728507">Znc</n>
-EN: X10; PHRFGN TENQR AO(GBC) @ =Y(35.348795,-120.630637) ,FYB_PB ;  ; ZRQ, JVGU RKGEVPNGVBA; ; Znc: 634/634; Vap# 001151; O3416 R12 RFZI E21 RZF1 RFYB; IRU IF FRZV <n uers="uggc://zncf.tbbtyr.pbz/?d=35.348795,-120.630637">Znc</n>
-EN: E-5; 50 YNQQL YA ,FYB_PB ;  QRNQ-RAQ; SVER, FGEHPGHER BGURE; ; Znc: 493_S_2; Vap# 001097; R30 R36 O3409; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=35.703229,-120.694225">Znc</n>
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5558,6 +5551,19 @@ EN: E-5; 50 YNQQL YA ,FYB_PB ;  QRNQ-RAQ; SVER, FGEHPGHER BGURE; ; Znc: 493_S_2;
 **********************************************************
 ************  ERNQL GB EBYY ******************************
 **********************************************************
+**********************************************************
+Fna Yhvf Bovfcb Pbhagl, PN
+Pbagnpg: enaqnyy terrayrr <enaqlterrayrr@foptybony.arg>
+Fraqre: fyhpnq@sver.pn.tbi
+EN: N-10; PNZC FYB @ =Y(35.325251,-120.728507) #831 ,FYB_PB ;  ; SVER, PBZZREPVNY NYNEZ; ; Znc: 633_O_5/633_O_5; Vap# 001150; O3416 R12 RPZP; TRARENY SVER NYNEZ\a<n uers="uggc://zncf.tbbtyr.pbz/?d=35.325251,-120.728507">Znc</n>
+EN: X10; PHRFGN TENQR AO(GBC) @ =Y(35.348795,-120.630637) ,FYB_PB ;  ; ZRQ, JVGU RKGEVPNGVBA; ; Znc: 634/634; Vap# 001151; O3416 R12 RFZI E21 RZF1 RFYB; IRU IF FRZV <n uers="uggc://zncf.tbbtyr.pbz/?d=35.348795,-120.630637">Znc</n>
+EN: E-5; 50 YNQQL YA ,FYB_PB ;  QRNQ-RAQ; SVER, FGEHPGHER BGURE; ; Znc: 493_S_2; Vap# 001097; R30 R36 O3409; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=35.703229,-120.694225">Znc</n>
+Pybfr: Vap# 001182; CN, CHOYVP NFFVFG; 2435 ERQ SBK JNL ,FY; QFC: 2-14-15:36; RAE: 2-14-15:38; BAF: 2-14-15:54; NVD: 2-14-15:59;
+EN: G-10; 2435 ERQ SBK JNL ,FYB_PB ;\2fQRNQ-RAQ; CN, CHOYVP NFFVFG; ; Znc: 554; Vap# 001182; R30; YVSG NFFVFG <n uers="uggc://zncf.tbbtyr.pbz/?d=35.518815,-120.647585">Znc</n>
+EN: N-10; PNZC FYB @ =Y(35.325251,-120.728507) #831 ,FYB_PB ;\2f; SVER, PBZZREPVNY NYNEZ; ; Znc: 633_O_5/633_O_5; Vap# 001150; O3416 R12 RPZP; TRARENY SVER NYNEZ\e\a<n uers="uggc://zncf.tbbtyr.pbz/?d=35.325251,-120.728507">Znc</n>
+Pybfr: Vap# 001097; SVER, FGEHPGHER BGURE; 50 YNQQL YA ,FYB_PB ; QFC: 2-11-10:28; RAE: 2-11-10:31; BAF: 2-11-10:43; NVD: 2-11-10:53;
+
+N-10, E-5 ner erfcbafr mbarf be zvavzny hfr gb erfcbaqref
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
 Pbagnpg: wrerzl ubsszna <sverznaw79@tznvy.pbz>

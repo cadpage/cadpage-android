@@ -22,7 +22,7 @@ public class VAAccomackCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "cad@esva911.org";
+    return "cad@esva911.org,14100";
   }
 
   // We need a special field parser to handle the CITYST field

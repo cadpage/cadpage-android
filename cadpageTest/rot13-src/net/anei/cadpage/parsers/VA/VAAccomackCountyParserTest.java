@@ -39,6 +39,10 @@ PNQ:PNEOBA ZBABKVQR QRGRPGBE;11478 CNEX NIR;RKZB;A203;Q6;WNPXFBA FG;UBYYL PVE
 PNQ:RZF HAVG SVER VAPVQRAG FGNAQOL;7247 LBHAT FG;ZNPU;A33;P3;ONLFVQR EQ;YNAXSBEQ UJL;ABEGUNZCGBA ZVQQYR FPUBBY
 PNQ:RYRPGEVPNY RDHVCZRAG SVER;10669 GO EQ/ONLFVQR EQ;RKZB;A10;P5
 
+Pbagnpg: griva qbhtugl <griva.qbhtugl@lnubb.pbz>
+Fraqre: 1410000002
+SEZ:Rnfgrea Fuber bs Ivetvavn 911 Pbzzvffvba\aZFT:PNQ:BIREQBFR/CBVFBAVAT;12176 BNXYNAQ QE;RKZB;A11;P1;QHRE PG;FRNFVQR EQ
+
 */
 
 choyvp pynff INNppbznpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -161,6 +165,19 @@ choyvp pynff INNppbznpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:10669 GO EQ",
         "ZNC:A10,P5");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXrivaQbhtugl() {
+
+
+    qbGrfg("G1",
+        "SEZ:Rnfgrea Fuber bs Ivetvavn 911 Pbzzvffvba\aZFT:PNQ:BIREQBFR/CBVFBAVAT;12176 BNXYNAQ QE;RKZB;A11;P1;QHRE PG;FRNFVQR EQ",
+        "PNYY:BIREQBFR/CBVFBAVAT",
+        "NQQE:12176 BNXYNAQ QE",
+        "ZNC:A11,P1",
+        "K:QHRE PG & FRNFVQR EQ");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
