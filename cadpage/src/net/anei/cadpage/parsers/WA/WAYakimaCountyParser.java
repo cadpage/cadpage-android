@@ -11,11 +11,12 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class WAYakimaCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER = 
-    Pattern.compile("(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d) (.*?) ([A-Z]{2}FD)((?: [A-Z]+\\d+)+)( +.*)?");
+    Pattern.compile("(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d) (.*?) ([A-Z]{2}FD|AMR|ALS)((?: +[A-Z]+\\d+)+)( +.*)?");
   
   public WAYakimaCountyParser() {
     super("YAKIMA COUNTY", "WA");
     setup();
+    setFieldList("TIME DATE CALL ADDR PLACE SRC UNIT INFO");
   }
   
   @Override
@@ -50,6 +51,7 @@ public class WAYakimaCountyParser extends SmartAddressParser {
       "ACCIDENT HITRUN",
       "ACCIDENT INJURY",
       "ACCIDENT NO INJ",
+      "CITIZEN ASSIST",
       "EMR ALARM MED",
       "EMR AMB",
       "EMR IFT",
@@ -64,6 +66,7 @@ public class WAYakimaCountyParser extends SmartAddressParser {
       "FIRE ALARM RES",
       "FIRE ALARM 2",
       "FIRE AUTO ALARM",
+      "FIRE AUTO ALM 2",
       "FIRE BRUSH GRAS",
       "FIRE CHIMNEY",
       "FIRE EWR",
@@ -78,7 +81,8 @@ public class WAYakimaCountyParser extends SmartAddressParser {
       "FIRE STRUC COMM",
       "FIRE STRUCTURE",
       "FIRE TRASH GARB",
-      "FIRE VEHICLE"
+      "FIRE VEHICLE",
+      "PAGED"
     );
   }
 }
