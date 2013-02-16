@@ -16,7 +16,7 @@ public class KYDaviessCountyParser extends DispatchBParser {
   
   @Override
   public String getFilter() {
-    return "911-CENTER,2002";
+    return "911-CENTER,911CENTRAL,2002";
   }
   
   @Override
@@ -29,7 +29,7 @@ public class KYDaviessCountyParser extends DispatchBParser {
   
   @Override
   protected boolean isPageMsg(String body) {
-    if (body.startsWith("911-CENTER:")) return true;
+    if (body.startsWith("911-CENTER:") || body.startsWith("911CENTRAL")) return true;
     return super.isPageMsg(body);
   }
   
