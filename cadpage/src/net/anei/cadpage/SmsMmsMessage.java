@@ -463,7 +463,9 @@ public class SmsMmsMessage implements Serializable {
     if (reqLocation != null) {
       try {
         parser = ManageParsers.getInstance().getParser(reqLocation);
-      } catch (RuntimeException ex) {}
+      } catch (RuntimeException ex) {
+        Log.e(ex);
+      }
     }
     
     // If that didn't work, get the default location parser

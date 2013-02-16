@@ -65,6 +65,9 @@ Fraqre: ep.87@p-zft.arg
 (27PNQ) [rSO] S00 21:16 1 - G:65N1 (Y1*ZHGHNY NVQ-ZHYGV HAVG~GB VA) Y:1068 UBJRYY FPUBBY EQ ,UH11 -- YHZF CBAQ FGNGR CX - K:ogja OHPX WREFRL EQ
 (27PNQ) [rSO] S00 10:31 1 - G:68N1 (Y1*FZBXR VAIRFGVTNGVBA) Y:OBLQF PBEARE EQ~ABESBYX FBHGUREA EE ,UH1 - K:
 
+Pbagnpg: Znggurj Jbygre <zjbygre@hqry.rqh>
+[rSO] S00 14:05 1 - G:52P3T (Y1*PBZZREPVNY SVER NYNEZ) Y:153 PBHEGARL FG ,3N -- VAGREAGY UBHFR *HQ RNFG PNZCHF - K:ogja NPNQRZL FG ~ ZNAHRY FG QRFP: nynez.�!�!�!
+
  */
 
 choyvp pynff QRArjPnfgyrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -327,6 +330,19 @@ choyvp pynff QRArjPnfgyrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:27PNQ",
         "PNYY:68N1 (Y1*FZBXR VAIRFGVTNGVBA)",
         "NQQE:OBLQF PBEARE EQ & ABESBYX FBHGUREA EE");
+   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZngurjJbygre() {
+
+    qbGrfg("G1",
+        "[rSO] S00 14:05 1 - G:52P3T (Y1*PBZZREPVNY SVER NYNEZ) Y:153 PBHEGARL FG ,3N -- VAGREAGY UBHFR *HQ RNFG PNZCHF - K:ogja NPNQRZL FG ~ ZNAHRY FG QRFP: nynez.�!�!�!",
+        "PNYY:52P3T (Y1*PBZZREPVNY SVER NYNEZ)",
+        "NQQE:153 PBHEGARL FG",
+        "CYNPR:VAGREAGY UBHFR *HQ RNFG PNZCHF",
+        "K:NPNQRZL FG & ZNAHRY FG",
+        "VASB:nynez.�!�!�!");
    
   }
   

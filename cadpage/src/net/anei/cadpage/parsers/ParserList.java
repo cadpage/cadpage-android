@@ -184,7 +184,7 @@ public class ParserList {
           new ParserCategory("Delaware"
               ,"DEDelmar"                       ,"Delmar, DE"
               ,"DEKentCounty"                   ,"Kent County, DE"
-              ,"DENewCastleCounty"              ,"New Castle, DE"
+              ,"DENewCastleCounty"              ,"New Castle County, DE"
               ,"DESussexCounty"                 ,"Sussex County, DE"
               ,"DEWilmington"                   ,"Wilmington, DE"
           ),
