@@ -47,22 +47,33 @@ public class CTTollandCountyParser extends SmartAddressParser {
     parseAddress(StartType.START_ADDR, body, data);
     if (data.strCity.length() == 0) return false;
     String sAddr = unescape(data.strAddress);
+    data.strApt = unescape(data.strApt);
     body = unescape(getLeft());
     
     // Address always has a slash, which the address parser turned to an ampersand
     // What is in front of that becomes the address
     int pt = sAddr.indexOf('/');
-    if (pt < 0) return false;
-    data.strAddress = sAddr.substring(0,pt).trim();
-    sAddr = sAddr.substring(pt+1).trim();
+    if (pt >= 0) {
+      data.strAddress = sAddr.substring(0,pt).trim();
+      sAddr = sAddr.substring(pt+1).trim();
+      
+      // if what comes after the slash is a street name, append it to address
+      // If not, put it in the apt field
+      Result res = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr);
+      if (res.getStatus() > 0) {
+        data.strAddress = append(data.strAddress, " & ", sAddr);
+      } else {
+        data.strApt = append(data.strApt, " - ", sAddr);
+      }
+    }
     
-    // if what comes after the slash is a street name, append it to address
-    // If not, put it in the apt field
-    Result res = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr);
-    if (res.getStatus() > 0) {
-      data.strAddress = append(data.strAddress, " & ", sAddr);
+    // Once in a blue moon, the slash ends up in the apartment field
+    else if (data.strApt.endsWith("/")) {
+      data.strApt = data.strApt.substring(0,data.strApt.length()-1).trim();
     } else {
-      data.strApt = append(data.strApt, " - ", sAddr);
+      pt = data.strApt.indexOf('/');
+      if (pt < 0) return false;
+      data.strApt = append(data.strApt.substring(0,pt).trim(), " - ", data.strApt.substring(pt+1).trim());
     }
     
     // Everything from city to time field is the call description
