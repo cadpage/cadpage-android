@@ -11,14 +11,10 @@ import net.anei.cadpage.parsers.MsgParser;
 public class COElPasoCountyParser extends MsgParser {
   
   private static final Pattern MASTER = 
-      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] ([^~]+?)~([^~]+?)~([^#\\.]+?)\\.?#([^~]*?)~([^~]*?)~([A-Z0-9]+) *~*");
+      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] ([^~]+?)~([^~]+?)~([^#\\.]+?)\\.?#([^~]*?)~([^~]*?)~([-A-Z0-9]+) *~*");
   
   public COElPasoCountyParser() {
     super("EL PASO COUNTY", "CO");
-    setFieldList("SRC MAP UNIT CALL ADDR APT PLACE ID");
-//    setFieldList("SRC PRI CALL ADDR APT PLACE INFO");
-//    setFieldList("SRC ADDR APT CALL INFO");
-
   }
   
   @Override
@@ -35,6 +31,7 @@ public class COElPasoCountyParser extends MsgParser {
     // Not everyone is using it, but see if this is the new standard dispatch format
     Matcher match = MASTER.matcher(body);
     if (match.matches()) {
+      setFieldList("SRC MAP UNIT CALL ADDR APT PLACE ID");
       data.strSource = match.group(1).trim();
       data.strMap = match.group(2).trim();
       data.strUnit = match.group(3).trim();
@@ -56,7 +53,8 @@ public class COElPasoCountyParser extends MsgParser {
         body.charAt(4) == '-' &&
         body.substring(30,34).equals("APT-") &&
         body.substring(65,69).equals("DET-")) {
-      
+
+      setFieldList("SRC ADDR APT CALL INFO");
       data.strSource = body.substring(0,4).trim();
       parseAddress(body.substring(5,30).trim(), data);
       data.strApt = body.substring(34,40).trim();
@@ -69,6 +67,7 @@ public class COElPasoCountyParser extends MsgParser {
     if (body.length() >= 30 &&
         body.substring(6,9).equals(" - ")) {
       
+      setFieldList("SRC CALL ADDR APT PLACE SUPP");
       data.strSource = body.substring(0,6).trim();
       data.strCall = substring(body, 9, 29);
       parseAddress(substring(body, 29, 59), data);
@@ -83,6 +82,7 @@ public class COElPasoCountyParser extends MsgParser {
         Character.isDigit(body.charAt(6)) &&
         body.substring(7,13).trim().length() == 0) {
       
+      setFieldList("SRC PRI CALL ADDR APT INFO");
       data.strSource = body.substring(0,4).trim();
       data.strPriority = body.substring(5,7); 
       data.strCall = body.substring(13,43).trim();
