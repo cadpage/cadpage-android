@@ -28,9 +28,9 @@ Havg:RZF4 #2012-031691 Oernguvat Ceboyrzf OYF Arjgba Gbja 249 Uvtu Fg Ncg12-J Pe
 Havg:RZF4 #2012-031058 Fgnaqol OYF Arjgba Gbja 85 Zvyy Fg Ncg Pebff Fg:Pyvagba Fg/Arjgba Fjnegfjbbq Eq
  
  */
-choyvp pynff PRAPBZCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff AWPRAPBZCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp PRAPBZCnefreGrfg() {
+  choyvp AWPRAPBZCnefreGrfg() {
     frgCnefre(arj AWPRAPBZCnefre(), "", "AW");
   }
   
@@ -187,6 +187,6 @@ choyvp pynff PRAPBZCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PRAPBZCnefreGrfg().trarengrGrfgf("G1");
+    arj AWPRAPBZCnefreGrfg().trarengrGrfgf("G1");
   }
 }
