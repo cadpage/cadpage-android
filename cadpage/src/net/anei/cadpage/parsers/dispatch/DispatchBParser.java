@@ -4,31 +4,72 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
-public class DispatchBParser extends SmartAddressParser {
+public class DispatchBParser extends FieldProgramParser {
   
+  private static final String FIELD_PROGRAM = "ADDR/SC XS:X NAME Return_Phone:PHONE Cad:ID!";
   private static final String[] FIXED_KEYWORDS = new String[]{"Map", "Grids", "Cad"};
   private static final String[] KEYWORDS = 
-    new String[]{"Loc", "BOX", "Map", "Grids", "Cad"};
+    new String[]{"Loc", "Return Phone", "BOX", "Map", "Grids", "Cad"};
   private static final Pattern REPORT_PTN = Pattern.compile("EVENT:.* Cad: ([-0-9]+) ");
   private static final Pattern PHONE_PTN = Pattern.compile(" (\\d{10}|\\d{7}|\\d{3} \\d{7}|\\d{3}-\\d{4})$");
   
   public DispatchBParser(Properties cityCodes, String defCity, String defState) {
-    super(cityCodes, defCity, defState);
+    super(cityCodes, defCity, defState, FIELD_PROGRAM);
     setup();
   }
   
   public DispatchBParser(String[] cityList, String defCity, String defState) {
-    super(cityList, defCity, defState);
+    super(cityList, defCity, defState, FIELD_PROGRAM);
     setup();
   }
   
   public DispatchBParser(String defCity, String defState) {
-    super(defCity, defState);
+    super(defCity, defState, FIELD_PROGRAM);
     setup();
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    
+    // See if this is the new fangled line break delimited format
+    String[] flds = body.split("\n");
+    if (flds.length >= 4) return parseFields(flds, data);
+ 
+    // Otherwise use the old logic
+    if (! isPageMsg(body)) return false;
+    
+    Matcher match = REPORT_PTN.matcher(body);
+    if (match.find()) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body.substring(match.start());
+      data.strCallId = match.group(1);
+      return true;
+    }
+    
+    body = "Loc: " + body;
+    Properties props = parseMessage(body, KEYWORDS);
+    
+    if (!parseAddrField(props.getProperty("Loc", ""), data)) return false;
+    
+    String phone = props.getProperty("Return Phone");
+    if (phone != null) data.strPhone = phone;
+    data.strBox = props.getProperty("BOX", "");
+    data.strMap = props.getProperty("Map", "");
+    String callId = props.getProperty("Cad");
+    if (callId != null) {
+      int pt = callId.indexOf(' ');
+      if (pt >= 0) {
+        data.strSupp = callId.substring(pt+1).trim();
+        callId = callId.substring(0,pt);
+      }
+      data.strCallId = callId;
+    }
+    
+    return true;
   }
   
   /**
@@ -48,6 +89,7 @@ public class DispatchBParser extends SmartAddressParser {
    * @return true if parse was successful
    */
   protected boolean parseAddrField(String field, Data data) {
+    
     // Default is to ignore everything up to the first '>'
     int ipt = field.indexOf('>');
     if (ipt >= 0) field = field.substring(ipt+1);
@@ -64,41 +106,9 @@ public class DispatchBParser extends SmartAddressParser {
     }
     return true;
   }
-
-  @Override
- protected boolean parseMsg(String body, Data data) {
-    
-    if (! isPageMsg(body)) return false;
-    
-    Matcher match = REPORT_PTN.matcher(body);
-    if (match.find()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body.substring(match.start());
-      data.strCallId = match.group(1);
-      return true;
-    }
-    
-    body = "Loc: " + body;
-    Properties props = parseMessage(body, KEYWORDS);
-    
-    if (!parseAddrField(props.getProperty("Loc", ""), data)) return false;
-    
-    data.strBox = props.getProperty("BOX", "");
-    data.strMap = props.getProperty("Map", "");
-    String callId = props.getProperty("Cad");
-    if (callId != null) {
-      int pt = callId.indexOf(' ');
-      if (pt >= 0) {
-        data.strSupp = callId.substring(pt+1).trim();
-        callId = callId.substring(0,pt);
-      }
-      data.strCallId = callId;
-    }
-    
-    return true;
-  }
   
   private void setup() {
+    setFieldList("CODE CALL ADDR APT X CITY NAME PHONE BOX MAP ID");
     setupCallList(
         "911 HANG UP",
         "ACCIDENT - INJURIES",

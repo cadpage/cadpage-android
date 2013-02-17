@@ -23,11 +23,10 @@ public class SCFlorenceCountyParser extends DispatchBParser {
     if (! body.startsWith("FLORENCE CO 911:")) return false;
     body = body.substring(16);
     int pt = body.indexOf('>');
-    if (pt < 0) return false;
-    data.strCode = body.substring(0,pt).trim();
+    if (pt >= 0) data.strCode = body.substring(0,pt).trim();
     
     // Call superclass parser
-    return super.parseMsg(body, data);
+    return super.parseMsg(body, data) && data.strCallId.length() > 0;
   }
   
   private static final String[] CITY_CODES = new String[]{
