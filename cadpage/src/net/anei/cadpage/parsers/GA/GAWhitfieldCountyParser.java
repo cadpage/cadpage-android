@@ -9,11 +9,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class GAWhitfieldCountyParser extends SmartAddressParser {
 
-  private static final Pattern MARKER = Pattern.compile("^WHITFIELD CO\\. 911:|WHITFIELD_CO_911:");
+  private static final Pattern MARKER = Pattern.compile("^WHITFIELD CO\\. 911:|WHITFIELD_CO_911:|WHITFIELD_911::");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
   
   public GAWhitfieldCountyParser() {
     super("WHITFIELD COUNTY", "GA");
+    setFieldList("CALL ADDR PHONE INFO");
   }
   
   @Override
