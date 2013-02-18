@@ -13,10 +13,11 @@ import net.anei.cadpage.parsers.MsgParser;
 public class CACalaverasCountyParser extends MsgParser {
   
   private static final Pattern MASTER = 
-      Pattern.compile("Inc# (\\d+):(?:([^@]+)@)?(.+?), *([A-Z_]+) *:Map  ([^:]*):(?: :)? LAT/LONG (X: [-+]?\\d+ \\d+\\.\\d+ +Y: [-+]?\\d+ \\d+\\.\\d+): ([^:]*:[^:]+):(.*)");
+      Pattern.compile("Inc# (\\d+):([^:]+):(?:([^@]+)@)?(.+?) , *([A-Z_]+) *:Map +([^:]*):(?: :)? LAT/LONG (X: [-+]?\\d+ \\d+\\.\\d+ +Y: [-+]?\\d+ \\d+\\.\\d+): ([^:]*):([^:]*)(?::.*)?");
   
   public CACalaverasCountyParser() {
     super("CALAVERAS COUNTY", "CA");
+    setFieldList("ID CALL PLACE ADDR APT CITY MAP GPS INFO UNIT");
   }
   
   @Override
@@ -27,17 +28,17 @@ public class CACalaverasCountyParser extends MsgParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("CAD Page")) return false;
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
-    data.strCall = match.group(1);
-    data.strPlace = getOptGroup(match.group(2));
-    parseAddress(match.group(3).trim(), data);
-    data.strCity = match.group(4).replace('_', ' ').trim();
-    data.strMap = match.group(5).trim();
-    setGPSLoc(match.group(6), data);
-    data.strCall = match.group(7).trim();
-    data.strUnit = match.group(8).trim();
+    data.strCallId = match.group(1);
+    data.strCall = match.group(2);
+    data.strPlace = getOptGroup(match.group(3));
+    parseAddress(match.group(4).trim(), data);
+    data.strCity = match.group(5).replace('_', ' ').trim();
+    data.strMap = match.group(6).trim();
+    setGPSLoc(match.group(7), data);
+    data.strSupp = match.group(8).trim();
+    data.strUnit = match.group(9).trim();
     
     return true;
   }
