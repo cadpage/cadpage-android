@@ -31,7 +31,7 @@ public class WVMorganCountyParser extends DispatchBParser {
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     body = body.substring(match.end()).trim();
-    body = subject + " @ " + body;
+    body = subject + " @ " + body.replace('\n', ' ');
     return super.parseMsg(body, data);
   }
   

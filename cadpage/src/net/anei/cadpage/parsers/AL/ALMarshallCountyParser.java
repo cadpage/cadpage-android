@@ -1,7 +1,9 @@
 package net.anei.cadpage.parsers.AL;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
 /**
@@ -16,8 +18,16 @@ public class ALMarshallCountyParser extends DispatchBParser {
   }
   
   @Override
+  public boolean parseMsg(String body, Data data) {
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    body = body.substring(match.end()).trim();
+    return super.parseMsg(body,  data);
+  }
+  
+  @Override
   protected boolean isPageMsg(String body) {
-    return MARKER.matcher(body).find();
+    return true;
   }
   
   private static final String[] CITY_LIST = new String[]{
