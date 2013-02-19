@@ -46,8 +46,11 @@ public class MONewtonCountyParser extends FieldProgramParser {
         
         // There isn't really a following  cross street.  But there are place names
         // that look enough like cross streets that this will fix
-        parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY | FLAG_CROSS_FOLLOWS, extra, data);
-        data.strPlace = getLeft();
+        parseAddress(StartType.START_PLACE, FLAG_ONLY_CITY | FLAG_CROSS_FOLLOWS, extra, data);
+        if (data.strCity.length() > 0) {
+          data.strApt = append(data.strApt, " ", data.strPlace);
+          data.strPlace = getLeft();
+        }
       } else {
         super.parse(field, data);
         if (append(data.strApt, " ", data.strPlace).startsWith(data.strAddress)) {
