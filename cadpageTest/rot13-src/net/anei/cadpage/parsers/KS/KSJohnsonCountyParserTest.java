@@ -25,6 +25,10 @@ Pbagnpg: Oenq Enyfgba <oenyfgba911@tznvy.pbz>
 Fraqre:RPP2@wbpbtbi.bet
 Fhowrpg:vasb:\aNqq: R Yvapbya Ya & A Rireterra Ncg: q          Ybp: Yvapbya Gbjaubz Angher: Aba Oerngure - P1P             Tevq: 339/1 Vapvqrag
 
+Pbagnpg: Zngg Tvyybggv <zngg.tvyybggv@wbpbsq1.bet>
+Fraqre: pnyyf+oapONNOOKCBETRDXTDRYRL4HNV@wbpbsq1.bet
+(vasb:) Nqq: 210 R Zppnegl Fg           Ncg:            Ybp:                 Angher: ZRQVPNY                        Tevq: 430/1 Vapvqra
+
 */
 
 choyvp pynff XFWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -105,9 +109,15 @@ choyvp pynff XFWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Aba Oerngure - P1P",
         "ZNC:339/1");
 
+    qbGrfg("G10",
+        "(vasb:) Nqq: 210 R Zppnegl Fg           Ncg:            Ybp:                 Angher: ZRQVPNY                        Tevq: 430/1 Vapvqra",
+        "NQQE:210 R Zppnegl Fg",
+        "PNYY:ZRQVPNY",
+        "ZNC:430/1");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj XFWbuafbaPbhaglCnefreGrfg().trarengrGrfgf("G9");
+    arj XFWbuafbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

@@ -34,11 +34,10 @@ public class PANorthamptonCountyParser extends DispatchBParser {
     if (!super.parseMsg(body, data)) return false;
     return true;
   }
-
+  
   @Override
-  protected boolean parseAddrField(String field, Data data) {
-    // TODO Auto-generated method stub
-    return super.parseAddrField(field, data);
+  public String getProgram() {
+    return "UNIT " + super.getProgram();
   }
   
   private static final String[] CITY_LIST = new String[]{

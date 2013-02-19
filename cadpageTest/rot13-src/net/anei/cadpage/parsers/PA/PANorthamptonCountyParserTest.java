@@ -8,8 +8,7 @@ vzcbeg bet.whavg.Grfg;
 /*
 Abegunzcgba Pbhagl, CN
 Pbagnpg: Zngg Jvagre <znggtjvagre@tznvy.pbz>
-Fraqre: @abgvslap.betnqqerff
-QvfcngpuOCnefre fhopynff
+Fraqre: @abgvslap.bet
 
 [r49]NYF >NQINAPRQ YVSR FHCCBEG PNYY 602 R 21FG FG Ncg: 119 Oyqt ABEGUNZCGBA QVNAR RPX Znc: Tevqf:0,0 Pnq: 2011-0000086714
 [r49]OYF >ONFVP YVSR FHCCBEG PNYY 1323 ARJCBEG NIR Ncg: ERNE Oyqt ABEGUNZCGBA GBAL SREEREN Znc: Tevqf:0,0 Pnq: 2011-00000
@@ -25,6 +24,10 @@ Fhowrpg:#6550\a[s14]ZINH >ZIN JVGU HAXABJ VAWHVEVRF JVYYBJ CNEX EQ ORGUYRURZ GJC
 
 Pbagnpg: Rqzhaq Ynzbagntar <rqzhaqy79@tznvy.pbz>
 *3750: *nyreg_6WC4@abgvslap.bet /  / [s25]BQBE >BQBE / BGURE GUNA FZBXR NEAQG EQ SBEXF Znc: Tevqf:0,0 Pnq: 2011-0000171220 <20110000171220>
+
+Pbagnpg: qnivq ohetva <qnirohetva2001@tznvy.pbz>
+Fraqre: _NBFD@abgvslap.bet
+[s35]ERF >ERFPHR (GLCR) 951 F OEBNQJNL JVAQ TNC SRZNYR PNYYRE Znc: Tevqf:0,0 Pnq: 2013-0000027694
 
 Pbagnpg: fhccbeg@npgvir911.pbz
 [#8VPG  Abegunzcgba Pbhagl CN PNQ] [r46]OYF >ONFVP YVSR FHCCBEG PNYY 6303 UNABIREIVYYR EQ RNFG NYYRA FNEN UVYOREG Znc: Tevqf:0,0 Pnq: 2012-0000098761\aFrag ol Abegunzcgba Pbhagl Nyreg Argjbex cbjrerq ol Pbbcre Abgvsvpngvba'f Ebnz Frpher Nyreg Argjbex\aIvfvg uggcf://jjj.abgvslap.bet/nz.cuc?n=397037&p=s5q0q sbe gur znc bs gur nern\a--\aLbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Abegunzcgba Pbhagl Nyreg Argjbex . Gb punatr lbhe nyregvat cersreraprf tb gb jjj.abgvslap.bet/zltebhcf.cuc\aGryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet \a
@@ -157,6 +160,20 @@ choyvp pynff CNAbegunzcgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:NEAQG EQ",
         "ANZR:SBEXF",
         "VQ:2011-0000171220 <20110000171220>");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnivqOhetva() {
+
+    qbGrfg("G1",
+        "[s35]ERF >ERFPHR (GLCR) 951 F OEBNQJNL JVAQ TNC SRZNYR PNYYRE Znc: Tevqf:0,0 Pnq: 2013-0000027694",
+        "HAVG:s35",
+        "PNYY:ERFPHR (GLCR)",
+        "NQQE:951 F OEBNQJNL",
+        "PVGL:JVAQ TNC",
+        "ANZR:SRZNYR PNYYRE",
+        "VQ:2013-0000027694");
 
   }
  
