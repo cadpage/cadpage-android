@@ -1791,10 +1791,15 @@ OP911:65F SVER-FGEHPGHER 1016 GHEYRL NIR TERRAHC,PBHAGL R911
 OP911:20K QBZRFGVP-VACEBTERFF* 1500OYX UBBQF PERRX CVXR HF EBHGR 23 ZBGBEVFG
 OP911:20K QBZRFGVP-VACEBTERFF* 3274 PBHEG FG
 ***************************************************************************
-Wrssrefba Cneevfu, YN (YNWrssrefbaCnevfu)
+Wrssrefba Cneevfu, YN (YNWrssrefbaCnevfuCnefre)
 QVFCNGPU Sebz WQ112:51N, Nhgb Sver Nynez, 107 YNXR YLAA QE, UL, ogja GHYYREVRF TNEQRA YA naq YNXR RYVMNORGU PG, 6QS, 6305, P1...PBZC FUNEBA JRYPU NQIQ URE SVER NYNEZ XRRCF TBVAT BSS OHG FUR QBRFA'G FZRYY NAQ FZBXR BE NALGUVAT PBZC NQI FUR VF BA BKLTRA ERD HAVG BHG DHVPXYL, Havg:H609 - UISP Sver 
 QVFCNGPU Sebz TQ01:47T, Vairfgvt Tnfbyva, TERGAN OYIQ/ORYYR PUNFFR UJL, TE,  <599/ 3095>, QPS, PE4, CEBCNAR GNAX SRYY BIRE OL GUR JNGRE GBJRE VF YRNXVAT, Havgf:RT2, FGN46 - UISP Sver 
 QVFCNGPU Sebz WQ103:51N, Nhgb Sver Nynez, 2800 CRGREF EQ, UL, ogja ONLBH EQ naq ENZC, 6QS, 6203, OHFPMREB WNZRFGBJA JNERUBHFR JNGRE SYBJ JNERUBHFR, Havgf:R616, R626, Y627, FGN61 - UISP Sver 
+***************************************************************************
+Bksbeq Pbhagl, ZR (ZRBksbeqPbhaglCnefre)
+258:Qvfcngpu:20 fcehpr fg ehzsbeq... zrk sq 1 ratvar gb fpa fzbxr va ohvyq ercbeg
+262:Qvfcngpu:2 iru 10-55 va nern bs 25 Evire Eq nveont qrcyblzrag
+263:Qvfcngpu:Erfcbaq gb 53 Bftbbq Nir Ncg3, zrkvpb sbe ercbeg bs fcnexf gung pnzr bhg bs n gurezbfgng. Abguvat fubjvat abj jbhyq yvxr vg purpxrq bhg
 ***************************************************************************
 Lbex Pbhagl, ZR (ZRLbexPbhaglCnefre)
 [Cntr]  ZRQVPNY RZRETRAPL26 RNFG FUBER EQ Jngreobeb7/4/2011 12:36
@@ -5538,13 +5543,6 @@ IRUVPYR NPPVQRAG SVER CBYVPR ~ PU77 SC34-1 SC9 ~ 1824 EVQTR CVXR ~ HCEB ~ XYVAR 
 **********************************************************
 **********************************************************
 **********************************************************
-Bksbeq Pbhagl, ZR
-Pbagnpg: znggurj jvafgba <jvaavrjvafgba2272@ubgznvy.pbz>
-Fraqre: 2075151833,2075151834
-258:Qvfcngpu:20 fcehpr fg ehzsbeq... zrk sq 1 ratvar gb fpa fzbxr va ohvyq ercbeg
-262:Qvfcngpu:2 iru 10-55 va nern bs 25 Evire Eq nveont qrcyblzrag
-263:Qvfcngpu:Erfcbaq gb 53 Bftbbq Nir Ncg3, zrkvpb sbe ercbeg bs fcnexf gung pnzr bhg bs n gurezbfgng. Abguvat fubjvat abj jbhyq yvxr vg purpxrq bhg
-257:Qvfcngpu:2138 ebkohel eq, hafher Ebkohel be Oleba 10-55 ebyybire bcrengbe qralvat vawhevrf
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
 Pbagnpg: wrerzl ubsszna <sverznaw79@tznvy.pbz>

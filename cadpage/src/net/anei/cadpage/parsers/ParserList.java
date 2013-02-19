@@ -285,6 +285,7 @@ public class ParserList {
               ,"LAJeffersonParish"              ,"Jefferson Parish, LA"
           ),
           new ParserCategory("Maine"
+              ,"MEOxfordCounty"                 ,"Oxford County, ME"
               ,"MEYorkCounty"                   ,"York County, ME"
           ),
           new ParserCategory("Maryland"

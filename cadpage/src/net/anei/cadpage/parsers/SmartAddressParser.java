@@ -619,13 +619,14 @@ public abstract class SmartAddressParser extends MsgParser {
       if (parseStartToCity(0, result)) {
         if (sType != StartType.START_ADDR || result.cityField.fldStart == 0) {
           result.status = 4;
+          return result;
         }
+        result.cityField = null;
+      } 
+      if (result.startField != null) {
+        result.startField.end(tokens.length);
       } else {
-        if (result.startField != null) {
-          result.startField.end(tokens.length);
-        } else {
-          result.endAll = 0;
-        }
+        result.endAll = 0;
       }
       return result;
     }

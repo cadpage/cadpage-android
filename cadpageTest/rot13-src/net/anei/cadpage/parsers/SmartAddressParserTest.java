@@ -848,6 +848,11 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     
     qbGrfg(NQQE, SYNT_BAYL_PVGL | SYNT_PEBFF_SBYYBJF, "XRAFOHET YNAR NCGF",
         "PVGL:XRAFOHET");
+    
+    qbGrfg(NQQE, SYNT_BAYL_PVGL, "XRA GBJA VF BIRE GUR UVYY",
+        "PVGL:XRA GBJA");
+    
+    qbGrfg(NQQE, SYNT_BAYL_PVGL, "VF XRA GBJA VF BIRE GUR UVYY");
 
   }
   
