@@ -9,7 +9,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NCPittCountyParser extends FieldProgramParser {
   
-  private static final Pattern CONFIRM_FIRE_MARKER = Pattern.compile(">>ADDRESS: +0 +- +>>NOTES: *(.*?)(?: // (.*))?");
+  private static final Pattern CONFIRM_FIRE_MARKER = Pattern.compile(">>ADDRESS: +(?:0 +-|(.*?)) +>>NOTES: *(.*?)(?: // (.*))?");
+  private static final Pattern APT_PTN = Pattern.compile("^(?:APT|RM|ROOM) *", Pattern.CASE_INSENSITIVE);
   
   public NCPittCountyParser() {
     super("PITT COUNTY", "NC",
@@ -29,9 +30,23 @@ public class NCPittCountyParser extends FieldProgramParser {
     
     Matcher match = CONFIRM_FIRE_MARKER.matcher(body);
     if (match.matches()) {
+      setFieldList("CALL ADDR APT INFO");
       data.strCall = "CONFIRMED FIRE";
-      parseAddress(match.group(1).trim(), data);
-      data.strSupp = getOptGroup(match.group(2));
+      String addr = match.group(1);
+      String apt = null;
+      if (addr == null) {
+        addr = match.group(2);
+      } else {
+        apt = match.group(2).trim();
+      }
+      parseAddress(addr.trim(), data);
+      if (apt != null) {
+        Matcher match2 = APT_PTN.matcher(apt);
+        if (match2.find()) apt = apt.substring(match2.end());
+        data.strApt = append(data.strApt, "-", apt);
+      }
+      
+      data.strSupp = getOptGroup(match.group(3));
       return true;
     }
     

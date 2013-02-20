@@ -49,6 +49,9 @@ fraqre: qbabgercyl@cvggpbhaglap.tbi
 (911 Sver Pnyy) >>NQQERFF: 0 - >>ABGRF: 3211 FHZZRE CY 3
 [911 Sver Pnyy] >>NQQERFF: 0  -   >>ABGRF: 305 NYVPR QE // ERQ PEBFF ABGVSVRQ // THP RYRPGEVP ABGVSVRQ // FNZ FZVGU ABGVSVRQ
 
+(911 Sver Pnyy) >>NQQERFF: 113  EVQTR CY  >>ABGRF: NCG 18
+(911 Sver Pnyy) >>NQQERFF: 0  -   >>ABGRF: 450 OHEEVATGBA EQ
+
 */
 
 choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -773,6 +776,17 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PBASVEZRQ SVER",
         "VASB:ERQ PEBFF ABGVSVRQ // THP RYRPGEVP ABGVSVRQ // FNZ FZVGU ABGVSVRQ",
         "NQQE:305 NYVPR QE");
+
+    qbGrfg("G3",
+        "(911 Sver Pnyy) >>NQQERFF: 113  EVQTR CY  >>ABGRF: NCG 18",
+        "PNYY:PBASVEZRQ SVER",
+        "NQQE:113  EVQTR CY",
+        "NCG:18");
+
+    qbGrfg("G4",
+        "(911 Sver Pnyy) >>NQQERFF: 0  -   >>ABGRF: 450 OHEEVATGBA EQ",
+        "PNYY:PBASVEZRQ SVER",
+        "NQQE:450 OHEEVATGBA EQ");
 
   }
 
