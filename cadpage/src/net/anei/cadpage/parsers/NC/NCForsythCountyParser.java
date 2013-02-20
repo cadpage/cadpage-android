@@ -42,7 +42,7 @@ public class NCForsythCountyParser extends FieldProgramParser {
     if (!super.parseMsg(body, data)) return false;
     
     if (data.strCity.equals(data.defCity)) data.strCity = "";
-    if (data.strCross.equals("/")) data.strCross = "";
+    if (data.strCross.endsWith("/")) data.strCross = data.strCross.substring(0,data.strCross.length()-1).trim();
     
     // Intersections seem to be saved as cross streets, at least some of the time
     if (data.strAddress.length() == 0) {
