@@ -19,7 +19,7 @@ public class CODouglasCountyAParser extends FieldProgramParser {
   
   protected CODouglasCountyAParser(String defCity, String defState) {
     super(CITY_LIST, defCity, defState,
-           "( Call:CALL! Location:ADDRCH! Map:MAP Units:UNIT! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO | " +
+           "( Call:CALL! Location:ADDRCH/SXa! Map:MAP Units:UNIT! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO | " +
               "Call_Type:CALLID! Common_Name:PLACE! Location:ADDR/SXXx! Call_Time:DATETIME! Narrative:INFO Nature_Of_Call:INFO )");
   }
   
@@ -67,6 +67,7 @@ public class CODouglasCountyAParser extends FieldProgramParser {
   // Address field should strip  trailing slash characters
   // and a trailing operations channel
   private static final Pattern OPS_PTN = Pattern.compile("\\bEOPS\\d$");
+  private static final Pattern DIR_PTN = Pattern.compile("\\b(NO|EA|SO|WE)\\b");
   private class MyAddressChannelField extends AddressField {
     
     @Override
@@ -76,7 +77,23 @@ public class CODouglasCountyAParser extends FieldProgramParser {
         data.strChannel = match.group();
         field = field.substring(0,match.start()).trim();
       }
+      if (field.startsWith("/")) field = field.substring(1).trim();
       if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
+      
+      // Dispatch frequently uses 2 letter direction abbreviations that the address
+      // parsing logic does not understand.  So we turn those into one character abbreviations
+      match = DIR_PTN.matcher(field);
+      if (match.find()) {
+        StringBuffer sb = new StringBuffer();
+        int last = 0;
+        do {
+          sb.append(field.substring(last, match.start()+1));
+          last = match.end();
+        } while (match.find());
+        sb.append(field.substring(last));
+        field = sb.toString();
+      }
+      
       super.parse(field, data);
     }
     
