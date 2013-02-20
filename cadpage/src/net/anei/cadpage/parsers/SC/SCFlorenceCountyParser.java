@@ -20,7 +20,7 @@ public class SCFlorenceCountyParser extends DispatchBParser {
   protected boolean parseMsg(String body, Data data) {
     
     // See if this is one of our pages
-    if (! body.startsWith("FLORENCE CO 911:")) return false;
+    if (! body.startsWith("FLORENCE CO 911:") && !body.startsWith("FLORENCE_CO_911")) return false;
     body = body.substring(16);
     int pt = body.indexOf('>');
     if (pt >= 0) data.strCode = body.substring(0,pt).trim();
