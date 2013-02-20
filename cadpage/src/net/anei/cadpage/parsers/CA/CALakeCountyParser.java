@@ -98,6 +98,7 @@ public class CALakeCountyParser extends FieldProgramParser {
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
       "FDAA", "Auto Accident",
+      "FDBT", "Bomb Threat",
       "FDAR", "Alarm Sounding",
       "FDHM", "Haz-Mat",
       "FDMA", "Medical Aid",
