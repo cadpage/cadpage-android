@@ -61,7 +61,7 @@ public class WVHampshireCountyParser extends DispatchBParser {
     }
     
     if (data.strCallId.endsWith("`")) {
-      data.strCallId = data.strCall.substring(0,data.strCallId.length()-1).trim();
+      data.strCallId = data.strCallId.substring(0,data.strCallId.length()-1).trim();
     }
     return true;
   }
