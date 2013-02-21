@@ -162,6 +162,7 @@ public class ParserList {
               ,"COLarimerCounty"                ,"Larimer County, CO"
               ,"CONorthglennEMS"                ,"Northglenn EMS, CO"
               ,"COPuebloCounty"                 ,"Pueblo County, CO"
+              ,"COTellerCounty"                 ,"Teller County, CO"
               ,"COWeldCounty"                   ,"Weld County, CO"
           ),
           new ParserCategory("Connecticut"
