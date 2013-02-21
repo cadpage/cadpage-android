@@ -7,12 +7,15 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.Handler;
 
 /**
  * Main CadPage application
  * which is where we need to do our one time initialization
  */
 public class CadPageApplication extends Application {
+  
+  private static Handler mainHandler = null;
 
   /* (non-Javadoc)
    * @see android.app.Application#onCreate()
@@ -20,6 +23,7 @@ public class CadPageApplication extends Application {
   @Override
   public void onCreate() {
     super.onCreate();
+    mainHandler = new Handler();
     Log.v("Intialization startup");
     getVersionInfo(this);
     try {
@@ -46,7 +50,7 @@ public class CadPageApplication extends Application {
 
         // If we have a GCM registration ID, we are supposed to request a new one
         if (ManagePreferences.registrationId() != null) {
-           C2DMReceiver.register(this);
+           C2DMService.register(this);
         }
       }
       
@@ -95,5 +99,9 @@ public class CadPageApplication extends Application {
   
   public static boolean isBetaRelease() {
     return versionCode % 10 > 0;
+  }
+  
+  public static Handler getMainHandler() {
+    return mainHandler;
   }
 }

@@ -18,10 +18,15 @@ public class TopExceptionHandler implements Thread.UncaughtExceptionHandler {
   private static int THRASHING_LIMIT = 60; 
   
   private static Thread.UncaughtExceptionHandler defaultUEH;
+  
+  // Handler used to transfer exceptions occuring in other threads to the main therad
+  // where all of this exception handling logic will kick in
+  private static Handler mainHandler;
 
   private Context context = null;
 
   public static void enable(Context context) {
+    mainHandler = new Handler();
     defaultUEH = Thread.getDefaultUncaughtExceptionHandler();
     Thread.setDefaultUncaughtExceptionHandler(new TopExceptionHandler(context));
   }
@@ -155,5 +160,17 @@ public class TopExceptionHandler implements Thread.UncaughtExceptionHandler {
       public void run() {
         System.exit(2);
       }}, 5000L);
+  }
+  
+  /**
+   * Report outside thread exception
+   */
+  public static void reportException(final Exception ex) {
+    mainHandler.post(new Runnable(){
+      @Override
+      public void run() {
+        throw new RuntimeException(ex.getMessage(), ex);
+      }});
+   
   }
 }

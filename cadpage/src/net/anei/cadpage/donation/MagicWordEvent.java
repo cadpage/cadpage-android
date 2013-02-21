@@ -1,6 +1,6 @@
 package net.anei.cadpage.donation;
 
-import net.anei.cadpage.C2DMReceiver;
+import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import android.app.Activity;
@@ -33,7 +33,7 @@ public class MagicWordEvent extends DonateQueryEvent {
     
     // Special word that nobody knows about that will reset the C2DM registration code
     if (input.equalsIgnoreCase("ZAPIT")) {
-      C2DMReceiver.unregister(activity);
+      C2DMService.unregister(activity);
       return true;
     }
     

@@ -137,7 +137,7 @@ public abstract class UserAcctManager {
       builder.appendQueryParameter("id", phoneNumber);
       
       // Send it to the server and see what comes back
-      HttpService.addHttpRequest(context, new HttpRequest(builder.build()){
+      HttpService.addHttpRequest(context, new HttpRequest(builder.build(), true){
 
         @Override
         public void processBody(String body) {

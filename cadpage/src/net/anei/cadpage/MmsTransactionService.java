@@ -56,7 +56,7 @@ public class MmsTransactionService extends Service {
   // Timer interval, negative to disable timer
   private static final int TIMER_INTERVAL = -1;
   
-  private Handler mainHandler = new Handler();
+  private Handler mainHandler = CadPageApplication.getMainHandler();
   private ServiceHandler mServiceHandler;
   private Looper mServiceLooper;
   private PowerManager.WakeLock mWakeLock;

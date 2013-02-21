@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 //import net.anei.cadpage.ContentQuery;
-import net.anei.cadpage.C2DMReceiver;
+import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
@@ -226,15 +226,15 @@ public class DeveloperToolsManager {
         break;
         
       case 31:    // C2DM Register
-        C2DMReceiver.register(context);
+        C2DMService.register(context);
         break;
         
       case 32:    // C2DM Unregister
-        C2DMReceiver.unregister(context);
+        C2DMService.unregister(context);
         break;
         
       case 33:    // C2DM: Report
-        C2DMReceiver.emailRegistrationId(context);
+        C2DMService.emailRegistrationId(context);
         break;
       }
       MainDonateEvent.instance().refreshStatus();

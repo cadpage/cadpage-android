@@ -14,7 +14,6 @@ import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.os.Handler;
 import android.os.IBinder;
 import android.os.PowerManager;
 import android.os.Process;
@@ -25,29 +24,44 @@ public class HttpService extends Service {
     
     private Uri uri = null;
     private URL url = null;
+    
     private int connectTimeout = 60000;
     private int readTimeout = 30000;
+    
+    private boolean uiResult;
     
     private int status = -1;
     private String result = null;
     private String content = null;
     
     public HttpRequest(Uri uri) {
+      this(uri, false);
+    }
+    
+    public HttpRequest(Uri uri, boolean uiResult) {
       this.uri = uri;
+      this.uiResult = uiResult;
     }
     
     public HttpRequest(URL url) {
-      this.url = url;
+      this(url, false);
     }
     
-    public HttpRequest(Uri uri, int connectTimeout, int readTimeout) {
+    public HttpRequest(URL url, boolean uiResult) {
+      this.url = url;
+      this.uiResult = uiResult;
+    }
+    
+    public HttpRequest(Uri uri, boolean uiResult, int connectTimeout, int readTimeout) {
       this.uri = uri;
+      this.uiResult = uiResult;
       this.connectTimeout = connectTimeout;
       this.readTimeout = readTimeout;
     }
     
-    public HttpRequest(URL url, int connectTimeout, int readTimeout) {
+    public HttpRequest(URL url, boolean uiResult, int connectTimeout, int readTimeout) {
       this.url = url;
+      this.uiResult = uiResult;
       this.connectTimeout = connectTimeout;
       this.readTimeout = readTimeout;
     }
@@ -122,6 +136,20 @@ public class HttpService extends Service {
           }
           Log.i("Result:" + status + ": " + result + '\n' + content);
         }
+        
+        // If ansync result requested, run the result status on our worker thread
+        if (! uiResult) {
+          process();
+        }
+        
+        // Otherwise, run result processing on the UI thread
+        else {
+          CadPageApplication.getMainHandler().post(new Runnable(){
+            @Override
+            public void run() {
+              process();
+           }});
+        }
       }
     }
     
@@ -157,8 +185,6 @@ public class HttpService extends Service {
      */
     protected void processBody(String body) {}
   }
-  
-  private static Handler mHandler;
 
   // Wake lock and synchronize lock
   private static PowerManager.WakeLock mWakeLock = null;
@@ -168,9 +194,6 @@ public class HttpService extends Service {
 
   @Override
   public void onCreate() {
-    
-    // Create a handler which (we hope) will link to the main dispatch thread msg queue
-    mHandler = new Handler();
     
     // Launch the HttpServiceThread that is going to do all of the work
     new HttpServiceThread();
@@ -210,24 +233,12 @@ public class HttpService extends Service {
           
           // Build and fire off the Http request
           req.connect();
-          
-          // And call the request process response method on the main dispatch thread
-          final HttpRequest req2 = req;
-          mHandler.post(new Runnable(){
-            @Override
-            public void run() {
-              req2.process();
-            }});
         }
       } 
       
       // Any exceptions that get thrown should be rethrown on the dispatch thread
       catch (final Exception ex) {
-        mHandler.post(new Runnable(){
-          @Override
-          public void run() {
-            throw new RuntimeException(ex.getMessage(), ex);
-          }});
+        TopExceptionHandler.reportException(ex);
       }
     }
   }

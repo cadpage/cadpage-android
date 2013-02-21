@@ -5,7 +5,7 @@ import java.net.URL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.C2DMReceiver;
+import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsPopupUtils;
@@ -172,7 +172,7 @@ public class VendorManager {
     // If there are any enabled or broken vendors, request a new registration ID
     for (Vendor vendor : vendorList) {
       if (vendor.isEnabled()) {
-        C2DMReceiver.register(context);
+        C2DMService.register(context);
         break;
       }
     }
@@ -206,7 +206,7 @@ public class VendorManager {
     }
     
     // If any are, we need to request a new registration ID
-    if (reregister) C2DMReceiver.register(context);
+    if (reregister) C2DMService.register(context);
   }
   
   /**

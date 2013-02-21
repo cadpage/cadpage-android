@@ -1,6 +1,6 @@
 package net.anei.cadpage.vendors;
 
-import net.anei.cadpage.C2DMReceiver;
+import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.SmsPopupUtils;
@@ -396,7 +396,7 @@ abstract class Vendor {
     // If we don't request one and and send the request to the server when
     // it comes back in
     else {
-      if (!C2DMReceiver.register(context)) showNotice(context, R.string.vendor_reg_failure_msg, null);
+      if (!C2DMService.register(context)) showNotice(context, R.string.vendor_reg_failure_msg, null);
     }
   }
 
@@ -420,7 +420,7 @@ abstract class Vendor {
     
     // Finally unregister from Google C2DM service.  If there are other vendor
     // services that are still active, they will request a new registration ID
-    C2DMReceiver.unregister(context);
+    C2DMService.unregister(context);
   }
   
   /**
@@ -485,7 +485,7 @@ abstract class Vendor {
         
         // A 299 response indicates that the server has been having trouble with our registration ID
         // and we should request another one.
-        if (status == 299) C2DMReceiver.register(context);
+        if (status == 299) C2DMService.register(context);
         
         // If nothing has changed, all is well
         if (enabled == newStat) return;
@@ -518,7 +518,7 @@ abstract class Vendor {
       reportStatusChange();
       showNotice(context, register ? R.string.vendor_connect_msg : R.string.vendor_disconnect_msg, null);
       if (register) setTextPage(false);
-      else C2DMReceiver.unregister(context);
+      else C2DMService.unregister(context);
     }
   }
 
