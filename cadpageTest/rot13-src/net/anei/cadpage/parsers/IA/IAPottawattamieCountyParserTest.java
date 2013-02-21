@@ -36,6 +36,10 @@ Pbagnpg: znegl zbber <zneglzbber130@tznvy.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (2400) 24-12-088 05/23 12:38\aVQYRJBBQ EQ // 265 FG, CBGG PBHAGL\aRZF/SVER - VAWHEL/GENSSVP NPPVQRAG
 
+Pbagnpg: Oevna Jbuyuhgre <ojbuyuhgre@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+Fhowrpg:2000\a20-13-012 02/18 21:03\a205 ZNVA FG, ZVAQRA\aSVER/RZF - ZRQVPNY RZRETRAPL\aKFG: CNEX FG//OEBNQJNL FG
+
  */
 
 choyvp pynff VNCbggnjnggnzvrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -258,6 +262,22 @@ choyvp pynff VNCbggnjnggnzvrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:12:38",
         "NQQE:VQYRJBBQ EQ & 265 FG",
         "PNYY:RZF/SVER - VAWHEL/GENSSVP NPPVQRAG");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOevnaJbuyuhgre() {
+
+    qbGrfg("G1",
+        "Fhowrpg:2000\a20-13-012 02/18 21:03\a205 ZNVA FG, ZVAQRA\aSVER/RZF - ZRQVPNY RZRETRAPL\aKFG: CNEX FG//OEBNQJNL FG",
+        "FEP:2000",
+        "VQ:20-13-012",
+        "QNGR:02/18",
+        "GVZR:21:03",
+        "NQQE:205 ZNVA FG",
+        "PVGL:ZVAQRA",
+        "PNYY:SVER/RZF - ZRQVPNY RZRETRAPL",
+        "K:CNEX FG//OEBNQJNL FG");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

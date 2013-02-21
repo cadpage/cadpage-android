@@ -16,7 +16,7 @@ public class COAdamsCountyParser extends FieldProgramParser {
   
   public COAdamsCountyParser() {
     super(CITY_TABLE, "ADAMS COUNTY", "CO",
-           "ADDR! TYPE_CODE:CALL! CALLER_NAME:NAME! TIME:TIME! Comments:INFO");
+           "ADDR! TYPE_CODE:CALL! CALLER_NAME:NAME! TIME:TIME% Comments:INFO");
   }
   
   @Override

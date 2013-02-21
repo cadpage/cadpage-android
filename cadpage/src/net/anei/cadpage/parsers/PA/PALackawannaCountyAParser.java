@@ -9,7 +9,7 @@ public class PALackawannaCountyAParser extends FieldProgramParser {
   
   public PALackawannaCountyAParser() {
     super("LACKAWANNA COUNTY", "PA",
-           "Location:ADDR/SXx! Common_Name:PLACE? Call_Type:CALL! Call_Time:DATETIME Narrative:INFO Quadrant:MAP District:SKIP Nature_Of_Call:INFO");
+           "Location:ADDR/SXx! Common_Name:PLACE? Call_Type:CALL! Call_Time:DATETIME Nature_of_Call:INFO CFS_Number:ID");
   }
   
   @Override
@@ -18,8 +18,10 @@ public class PALackawannaCountyAParser extends FieldProgramParser {
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    body = body.replace("Call Type:", " Call Type:").replace(" Narrative ", " Narrative: ");
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("Dispatch")) return false;
+    body = body.replace("Call Type:", " Call Type:").replaceAll(" CFS Number ", " CFS Number: ").replace('\n', ' ');
+
     return super.parseMsg(body, data);
   }
   
