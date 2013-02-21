@@ -1927,6 +1927,7 @@ Katie Turpin  (4064611467)
 James Turpin  (4062025467)
 Shaina Dargan (4064657964)
 Keith Greaney (4064594158)
+Bridget DeFord   (5734294494)
 
 // Sponsored Districts
 // TXManvel - John Aucoin <johnaucoin@sbcglobal.net> - 09/10/2012
@@ -2033,7 +2034,8 @@ andrew frechette <lvswatmedic12@gmail.com> // Clark County, NV
 christopher martin (christopher.martin1231@gmail.com) // PayPal
 %%02/19/2013
 matthew winston (winniewinston123@gmail.com) <winniewinston2272@hotmail.com> // Oxford County, ME
-
+%%02/20/2013
+Bill Hoag (bhoag@scgov.net) // PayPal
 
 %%03/06/2013
 Emma Schneider (airygirl52@gmail.com) <ejschneider41@verizon.net> // Baltimore Co, MD
@@ -2048,9 +2050,12 @@ Jerry Digennaro (jerryd264@gmail.com) // paid by check 1230 $20 for 2 years
 Mike Shaw (mshaw1957@gmail.com) // Raymond Shaw paid by check 2684 $20 12-12-12
 %%01/17/2013
 George Samuel Burns <samburns06@gmail.com> // extra year deal
+%%02/20/2013
+Dean Vinson (9102718144) // $20 money order 
+Jody Patram (9102845753) // $20 money order with Dean Vinson
 
 
-// List of users getting free credit for 2012
+// List of users getting FREE subscription for 2012
 %2012/FREE
 %%01/01/2012
 >>Kyle Miller <millerk1110@gmail.com>
@@ -4026,7 +4031,7 @@ CJ Ammann (christopherammann2013@gmail.com) <ammanncj@yahoo.com>
 Shawn Ramsey <mpsguard@gmail.com>
 Bruce Valari <bvalari06@gmail.com>
 
-// List of users getting free credit for 2013
+// List of users getting FREE subscription for 2013
 %2013/FREE
 %%12/16/2012
 Thomas Kunz <max.kunz99@gmail.com>
@@ -4342,8 +4347,8 @@ Jerik (jhondusky@gmail.com) <jhondusky@twcny.rr.com>
 Stan Cohen <stancohen1962@gmail.com>
 Tyler Allen <tylerallen377@gmail.com>
 William Bowmaster (wbowmast@gmail.com) <wbowmast@co.frederick.va.us>
-
-
-
+%%02/20/2013
+G Haney (ghaney619@gmail.com) <haney@post.com>
+<calebandlillysmom@gmail.com>
 
 
