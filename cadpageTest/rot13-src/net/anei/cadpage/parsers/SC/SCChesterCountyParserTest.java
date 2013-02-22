@@ -126,7 +126,6 @@ choyvp pynff FPPurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:EVPUOHET EQ & PNGNJON EVIRE EQ",
         "K:PNGNJON EVIRE EQ",
         "PVGL:SBEG YNJA",
-        "ANZR:NG&G ZBOVYVGL",
         "CUBAR:8034609375",
         "VQ:2012-0000050664");
 
@@ -213,7 +212,6 @@ choyvp pynff FPPurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:124 JVYYVNZ FGRIRAFBA EQ",
         "K:JRFG YNAPNFGRE FG",
         "PVGL:EVPUOHET",
-        "ANZR:NG&G ZBOVYVGL",
         "CUBAR:8033792886",
         "VQ:2012-0000049258");
 
@@ -316,6 +314,6 @@ choyvp pynff FPPurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj FPPurfgrePbhaglCnefreGrfg().trarengrGrfgf("G1", "PBQR PNYY NQQE NCG K PVGL ANZR CUBAR OBK ZNC VQ");
+    arj FPPurfgrePbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

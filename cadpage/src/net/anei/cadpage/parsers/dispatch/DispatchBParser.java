@@ -15,7 +15,7 @@ public class DispatchBParser extends FieldProgramParser {
   private static final String[] KEYWORDS = 
     new String[]{"Loc", "Return Phone", "BOX", "Map", "Grids", "Cad"};
   private static final Pattern REPORT_PTN = Pattern.compile("EVENT:.* Cad: ([-0-9]+) ");
-  private static final Pattern PHONE_PTN = Pattern.compile(" (\\d{10}|\\d{7}|\\d{3} \\d{7}|\\d{3}-\\d{4})$");
+  private static final Pattern PHONE_PTN = Pattern.compile("(?: +(?:VERIZON|AT ?& ?T MOBILITY))? +(\\d{10}|\\d{7}|\\d{3} \\d{7}|\\d{3}-\\d{4})$");
   
   public DispatchBParser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, FIELD_PROGRAM);
@@ -96,7 +96,7 @@ public class DispatchBParser extends FieldProgramParser {
     Matcher match = PHONE_PTN.matcher(field);
     if (match.find()) {
       data.strPhone = match.group(1);
-      field = field.substring(0,match.start()).trim();
+      field = field.substring(0,match.start());
     }
     parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, field, data);
     data.strName = getLeft();
@@ -104,6 +104,7 @@ public class DispatchBParser extends FieldProgramParser {
       data.strApt = data.strApt + " Bldg";
       data.strName = data.strName.substring(4).trim();
     }
+    if (data.strName.equals("UNK")) data.strName = "";
     return true;
   }
   
@@ -154,6 +155,7 @@ public class DispatchBParser extends FieldProgramParser {
         "CHEST PAIN DIFF SPEAK BTW BRE",
         "CHEST PAIN/RESPIRATORY DISTRES",
         "CHILD LOCKED IN CAR",
+        "CHILD LOCKED IN VEHICLE",
         "CO DETECTOR / FIRE RESPONSE",
         "DIABETIC-ALS PRI2",
         "DIABETIC EMRG.",
@@ -199,6 +201,10 @@ public class DispatchBParser extends FieldProgramParser {
         "ILLPERSON",
         "ILL PERSON BLS",
         "IMMEDIATE TRANSPORT",
+        "INJURED PERSON",
+        "INJURED PERSON ALS",
+        "INJURED PERSON BLS",
+        "INJURY ACCIDENT",
         "LIFT ASSIST/NON EMER EMS",
         "MVA-ALS PRI1",
         "M.V.A. - POSSIBLE INJURIES",
@@ -230,6 +236,7 @@ public class DispatchBParser extends FieldProgramParser {
         "MVA - WITH INJURIES",
         "MVA WITH UNKNOW INJUIRIES",
         "MVA W/ RESCUE",
+        "NO INJURY ACCIDENT",
         "NON-SPECIFIC DIAGNOSIS",
         "ODOR / OTHER THAN SMOKE",
         "OTHER-FIRE",
