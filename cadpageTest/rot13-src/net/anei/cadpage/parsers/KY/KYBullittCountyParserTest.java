@@ -6,7 +6,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.XL.XLOhyyvggPbhaglCnefre;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Ohyyvgg Pbhagl, XL Fnzcyr cntrf
+Ohyyvgg Pbhagl, XL
 Pbagnpg: pbqrZrffntvat
 Fraqre:  pbqrZrffntvat
 OHYYVGG PB 911:ABVAW >AB VAWHEL NPPVQRAG JNGRE FG & UJL 44 Pnq: 2013-0000006371
