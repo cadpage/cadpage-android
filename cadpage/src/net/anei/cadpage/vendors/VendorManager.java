@@ -172,7 +172,7 @@ public class VendorManager {
     // If there are any enabled or broken vendors, request a new registration ID
     for (Vendor vendor : vendorList) {
       if (vendor.isEnabled()) {
-        C2DMService.register(context);
+        C2DMService.register(context, true);
         break;
       }
     }
@@ -215,8 +215,11 @@ public class VendorManager {
    * @param error error message
    */
   public void failureC2DMId(Context context, String error) {
-    int resId = R.string.vendor_registration_error;
-    if (error.equals("ACCOUNT_MISSING")) resId = R.string.vendor_account_missing_error;
+    int resId;
+    if (error.equals("SERVICE_NOT_AVAILABLE")) resId = R.string.vendor_service_not_available_error;
+    else if (error.equals("ACCOUNT_MISSING")) resId = R.string.vendor_account_missing_error;
+    else if (error.equals("AUTHENTICATION_FAILED")) resId = R.string.vendor_authentication_failed_error;
+    else resId = R.string.vendor_registration_error;
     String errMsg = context.getString(resId, error);
     NoticeActivity.showNotice(context, errMsg);
     

@@ -56,8 +56,15 @@
     %s\n
     Please report this to the Cadpage developers.
   </string>
+  <string name="vendor_service_not_available_error">
+      The Google servers seem to be busy right now.  Please try again later"
+  </string>
   <string name="vendor_account_missing_error">
     A Google account must be registered on this device before you can register
     with a direct paging vendor
+  </string>
+  <string name="vendor_authentication_failed_error">
+    There was an error authenticating the Google Account used by this device.
+    Please check that the account and password are valid.  
   </string>
 </resources>

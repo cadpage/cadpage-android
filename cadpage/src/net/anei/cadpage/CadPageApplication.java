@@ -50,7 +50,7 @@ public class CadPageApplication extends Application {
 
         // If we have a GCM registration ID, we are supposed to request a new one
         if (ManagePreferences.registrationId() != null) {
-           C2DMService.register(this);
+           C2DMService.register(this, true);
         }
       }
       

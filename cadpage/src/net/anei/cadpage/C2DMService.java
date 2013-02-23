@@ -1,34 +1,41 @@
 package net.anei.cadpage;
 
 import java.text.SimpleDateFormat;
+import java.util.Random;
 
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.UserAcctManager;
 import net.anei.cadpage.donation.DonationManager.DonationStatus;
 import net.anei.cadpage.vendors.VendorManager;
-import android.app.Activity;
+import android.app.AlarmManager;
 import android.app.IntentService;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.PowerManager;
+import android.os.SystemClock;
 
 public class C2DMService extends IntentService {
+  
+  // Minimum and maximum time periods we will delay before asking Google's overloaded server
+  // for another registration ID
+  private static final int INIT_REREGISTER_DELAY = 3000;  // 3 seconds
+  private static final int MAX_REREGISTER_DELAY = 3600000;  // 1 Hour
   
   private static final String ACTION_C2DM_REGISTER = "com.google.android.c2dm.intent.REGISTER";
   private static final String ACTION_C2DM_UNREGISTER = "com.google.android.c2dm.intent.UNREGISTER";
   private static final String ACTION_C2DM_REGISTERED = "com.google.android.c2dm.intent.REGISTRATION";
   private static final String ACTION_C2DM_RECEIVE = "com.google.android.c2dm.intent.RECEIVE";
+  private static final String ACTION_RETRY_REGISTER = "net.anei.cadpage.RETRY_REGISTER";
   private static final String GCM_PROJECT_ID = "1027194726673";
 
   // wakelock
   private static final String WAKELOCK_KEY = "C2DMService";
   private static PowerManager.WakeLock sWakeLock;
 
-  // Activity that should display any alerts or warnings
-  private static Activity curActivity = null;
+  private static final Random RANDOM = new Random();
 
   public C2DMService() {
     super("C2DMService");
@@ -38,7 +45,7 @@ public class C2DMService extends IntentService {
   protected void onHandleIntent(Intent intent) {
     
     try {
-      if (Log.DEBUG) Log.v("C2DMReceiver: onReceive()");
+      Log.v("C2DMReceiver: onReceive()");
       
       if (ACTION_C2DM_REGISTERED.equals(intent.getAction())) {
         handleRegistration(intent);
@@ -46,6 +53,10 @@ public class C2DMService extends IntentService {
       
       else if (ACTION_C2DM_RECEIVE.equals(intent.getAction())) {
         handleMessage(intent);
+      }
+      
+      else if (ACTION_RETRY_REGISTER.equals(intent.getAction())) {
+        retryRegisterRequest(intent);
       }
     }
     
@@ -58,7 +69,7 @@ public class C2DMService extends IntentService {
       sWakeLock.release();
     }
  }
-  
+
   private void handleRegistration(final Intent intent) {
     
     // Dump intent info
@@ -73,8 +84,10 @@ public class C2DMService extends IntentService {
         String error = intent.getStringExtra("error");
         if (error != null) {
           Log.w("C2DM registration failed: " + error);
-          ManagePreferences.setRegistrationId(null);
-          VendorManager.instance().failureC2DMId(C2DMService.this, error);
+          if (!retryRegistration(error)) {
+            ManagePreferences.setRegistrationId(null);
+            VendorManager.instance().failureC2DMId(C2DMService.this, error);
+          }
           return;
         }
         
@@ -82,6 +95,7 @@ public class C2DMService extends IntentService {
         if (regId != null) {
           Log.w("C2DM registration cancelled: " + regId);
           ManagePreferences.setRegistrationId(null);
+          ManagePreferences.setRegisterReq(0);
           VendorManager.instance().unregisterC2DMId(C2DMService.this, regId);
           return;
         }
@@ -90,11 +104,63 @@ public class C2DMService extends IntentService {
         if (regId != null) {
           Log.w("C2DM registration succeeded: " + regId);
           ManagePreferences.setRegistrationId(regId);
+          ManagePreferences.setRegisterReq(0);
           VendorManager.instance().registerC2DMId(C2DMService.this, regId);
           return;
         }
       }
     });
+  }
+  
+  /**
+   * Called after a registration error has been reported
+   * @param error
+   * @return true if a server is busy and a subsequent request has been scheduled, false otherwise
+   */
+  private boolean retryRegistration(String error) {
+    
+    // We can only recover from the SERVICE_NOT_AVAILABLE error
+    if (!error.equals("SERVICE_NOT_AVAILABLE")) return false;
+    
+    // See if request should be rescheduled
+    int req = ManagePreferences.registerReq();
+    int delayMS = ManagePreferences.reregisterDelay();
+    if (req == 0 || delayMS == 0) return false;
+    
+    // If it should compute how long to delay before reissuing the request.  Since we are
+    // potentially running in synch with thousands of other requesters trying to overload
+    // Google's server, we add a randomizing factor into the actual delay time so we don't
+    // all hit it at once.
+    int realDelayMS = delayMS/2 + RANDOM.nextInt(delayMS); 
+    Intent retryIntent = new Intent(ACTION_RETRY_REGISTER);
+    retryIntent.setClass(this, C2DMReceiver.class);
+    PendingIntent retryPendingIntent = PendingIntent.getBroadcast(this, 0, retryIntent, 0);
+    AlarmManager am = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
+    am.set(AlarmManager.ELAPSED_REALTIME, SystemClock.elapsedRealtime() + realDelayMS, retryPendingIntent);
+    Log.v("Rescheduling request in " + realDelayMS + " / " + delayMS + " msecs");
+    return true;
+  }
+
+  /**
+   * Called when the retry register event scheduled by retryRegistration() goes off.
+   * This is where we actually do the followup registration request
+   */
+  private void retryRegisterRequest(Intent intent) {
+    Log.w("Processing C2DM Retry request");
+    ContentQuery.dumpIntent(intent);
+
+    // Get the registration information
+    int req = ManagePreferences.registerReq();
+    int delayMS = ManagePreferences.reregisterDelay();
+    if (req == 0 || delayMS == 0) return;
+    
+    // Double the delay that will be invoked if this request also fails
+    // subject to an absolute maximum value
+    delayMS *= 2;
+    if (delayMS > MAX_REREGISTER_DELAY) delayMS = MAX_REREGISTER_DELAY;
+    
+    // Fire off the request
+    startRegisterRequest(this, req, delayMS);
   }
 
   private void handleMessage(final Intent intent) {
@@ -254,22 +320,6 @@ public class C2DMService extends IntentService {
   }
   
   /**
-   * Register activity to be used to generate any alert dialogs
-   * @param activity
-   */
-  public static void registerActivity(Activity activity) {
-    curActivity = activity;
-  }
-  
-  /**
-   * Unregister activity previously registered for any generated alert dialogs
-   * @param activity
-   */
-  public static void unregisterActivity(Activity activity) {
-    if (curActivity == activity) curActivity = null;
-  }
-  
-  /**
    * send response messages
    * @param context current context
    * @param ackReq acknowledge request code
@@ -339,10 +389,18 @@ public class C2DMService extends IntentService {
    * component to handle C2DM registrations
    */
   public static boolean register(Context context) {
-    Intent intent = new Intent(ACTION_C2DM_REGISTER);
-    intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
-    intent.putExtra("sender", GCM_PROJECT_ID);
-    return context.startService(intent) != null;
+    return register(context, false);
+  }
+  
+  /**
+   * Request a new C2DM registration ID
+   * @param context current context
+   * @param auto true if this is an automatically generated registration request
+   * @return true if register request was initiated, false if there is not
+   * component to handle C2DM registrations
+   */
+  public static boolean register(Context context, boolean auto) {
+    return startRegisterRequest(context, 1, auto);
   }
 
   
@@ -352,7 +410,45 @@ public class C2DMService extends IntentService {
    */
   public static boolean unregister(Context context) {
     ManagePreferences.setRegistrationId(null);
-    Intent intent = new Intent(ACTION_C2DM_UNREGISTER);
+    return startRegisterRequest(context, 2, true);
+  }
+  
+  
+  /**
+   * Launch initial GCM register/unregister request
+   * @param context current context
+   * @param reqCode 1 - register, 2 - unregister
+   * @param auto true if this is an automatically generated registration request
+   * @return true if request was initiated
+   */
+  private static boolean startRegisterRequest(Context context, int reqCode, boolean auto) {
+    ManagePreferences.setRegisterReq(reqCode);
+    return startRegisterRequest(context, reqCode, (auto ? INIT_REREGISTER_DELAY : 0));
+  }
+  
+  /**
+   * Launch initial or repeat GCM register/unregister request
+   * @param context current context
+   * @param reqCode 1 - register, 2 - unregister
+   * @param delayMS If request fails for any reason, delay for this amount of time before issuing a second request
+   * @return true if request was initiated
+   */
+  private static boolean startRegisterRequest(Context context, int reqCode, int delayMS) {
+
+    ManagePreferences.setReregisterDelay(delayMS);
+    Intent intent = null;
+    switch (reqCode) {
+    case 1:
+      intent = new Intent(ACTION_C2DM_REGISTER);
+      intent.putExtra("sender", GCM_PROJECT_ID);
+      break;
+      
+    case 2:
+      intent = new Intent(ACTION_C2DM_UNREGISTER);
+      break;
+    }
+    
+    if (intent == null) return false;
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
     return context.startService(intent) != null;
   }

@@ -802,6 +802,22 @@ public class ManagePreferences {
     return true;
   }
   
+  public static int registerReq() {
+    return prefs.getInt(R.string.pref_register_req_key, 0);
+  }
+  
+  public static void setRegisterReq(int newVal) {
+    prefs.putInt(R.string.pref_register_req_key, newVal);
+  }
+  
+  public static int reregisterDelay() {
+    return prefs.getInt(R.string.pref_reregister_delay_key, 0);
+  }
+  
+  public static void setReregisterDelay(int newVal) {
+    prefs.putInt(R.string.pref_reregister_delay_key, newVal);
+  }
+  
   public static String ledColor() {
     return prefs.getString(R.string.pref_flashled_color_key, R.string.pref_flashled_color_default);
   }
@@ -947,7 +963,9 @@ public class ManagePreferences {
         R.string.pref_auth_last_check_time_key,
         
         R.string.pref_registration_id_key,
-        R.string.pref_prev_version_code
+        R.string.pref_prev_version_code,
+        R.string.pref_register_req_key,
+        R.string.pref_reregister_delay_key
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();

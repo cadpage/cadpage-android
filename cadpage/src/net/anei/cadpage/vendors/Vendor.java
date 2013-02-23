@@ -421,6 +421,9 @@ abstract class Vendor {
     // Finally unregister from Google C2DM service.  If there are other vendor
     // services that are still active, they will request a new registration ID
     C2DMService.unregister(context);
+
+    // If the user is loosing a sponsored payment status, reset the 30 day evaluation period
+    if (isSponsored()) ManagePreferences.setAuthRunDays(0);
   }
   
   /**
@@ -479,18 +482,11 @@ abstract class Vendor {
         // Don't know what negative result means, but lets ignore it
         if (status < 0) return;
         
-        // A successful return indicates link is working, anything else
-        // indicates that it is broken
-        boolean newStat = ((status / 100) == 2);
-        
         // A 299 response indicates that the server has been having trouble with our registration ID
         // and we should request another one.
         if (status == 299) C2DMService.register(context);
         
-        // If nothing has changed, all is well
-        if (enabled == newStat) return;
-        
-        // Otherwise, we are basically done.  The GCM protocol, it has it's own way of 
+        // That is all we have to do.  The GCM protocol, it has it's own way of 
         // getting the new registration ID to our servers.  So we don't have to do anything 
         // drastic if the reregister request fails
         return;
@@ -518,7 +514,10 @@ abstract class Vendor {
       reportStatusChange();
       showNotice(context, register ? R.string.vendor_connect_msg : R.string.vendor_disconnect_msg, null);
       if (register) setTextPage(false);
-      else C2DMService.unregister(context);
+      else {
+        C2DMService.unregister(context);
+        ManagePreferences.setAuthRunDays(0);
+      }
     }
   }
 

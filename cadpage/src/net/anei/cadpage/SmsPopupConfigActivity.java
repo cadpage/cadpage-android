@@ -410,9 +410,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   
   @Override
   protected void onStart() {
-    
-    C2DMService.registerActivity(this);
-    
     oldLocation = ManagePreferences.location();
     oldTextSize = ManagePreferences.textSize();
     oldSplitBlank = ManagePreferences.splitBlankIns();
@@ -429,8 +426,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     if (!location.equals(oldLocation) || ! textSize.equals(oldTextSize)) {
       SmsMessageQueue.getInstance().notifyDataChange();
     }
-    
-    C2DMService.unregisterActivity(this);
   }
   
   /**
