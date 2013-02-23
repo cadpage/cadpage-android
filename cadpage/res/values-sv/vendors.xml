@@ -36,11 +36,18 @@ Det här kommer att blockera att din meddelandeservice skickar larm till dig. Ä
     Meddelandeservice från %1$s har kopplats ner\n
     Servern svarar: %2$s
   </string>
-  <string name="vendor_registration_error">
+  <string name="vendor_registration_error">  <!-- *NEW* -->
     Försök att koppla in meddelandeservice har nekats. Det rapporterade felet var\n %s\n
     Vänligen rapportera detta till utvecklarna av Cadpage.
   </string>
+  <string name="vendor_service_not_available_error">
+      The Google servers seem to be busy right now.  Please try again later"
+  </string>
   <string name="vendor_account_missing_error">
 Ett Google-konto måste vara registrerat på denna enhet innan du kan registrera dig för en meddelandeservice
+  </string>
+  <string name="vendor_authentication_failed_error">  <!-- *NEW* -->
+    There was an error authenticating the Google Account used by this device.
+    Please check that the account and password are valid.  
   </string>
 </resources>
