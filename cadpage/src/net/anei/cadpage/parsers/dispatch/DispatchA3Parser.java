@@ -56,6 +56,14 @@ public class DispatchA3Parser extends FieldProgramParser {
     }
   }
   
+  private class BaseCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("_")) field = field.substring(1).trim();
+      super.parse(field, data);
+    }
+  }
+  
   private class BaseCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
@@ -149,6 +157,7 @@ public class DispatchA3Parser extends FieldProgramParser {
     if (name.equals("ID")) return new IdField("\\d{2,4}-\\d{4,}|", true);
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("CH")) return new BaseChannelField();
+    if (name.equals("X")) return new BaseCrossField();
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("INFO1")) return new BaseInfo1Field();
     if (name.equals("INFO")) return new BaseInfoField();
