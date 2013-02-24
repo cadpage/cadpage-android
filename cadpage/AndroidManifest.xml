@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
   xmlns:android="http://schemas.android.com/apk/res/android"
-  package="net.anei.cadpage" android:versionName="1.6.09D" android:versionCode="16094" >
+  package="net.anei.cadpage" android:versionName="1.6.09F" android:versionCode="16096" >
   <uses-sdk
     android:targetSdkVersion="8" android:minSdkVersion="4"/>
       
@@ -82,7 +82,7 @@
             <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
             <category android:name="net.anei.cadpage" />
         </intent-filter>
-    </receiver>
+        </receiver>
     
     <receiver android:name=".ExternalEventReceiver">
       <intent-filter>
@@ -100,6 +100,7 @@
     </receiver>
     <receiver android:name=".ClearAllReceiver" />
     <receiver android:name=".ReminderReceiver" />
+    <receiver android:name=".C2DMRetryReceiver" />
     <service android:name=".MmsTransactionService"/>
     <service android:name=".billing.BillingService" />
     <service android:name=".KeepAliveService"/>

@@ -17,30 +17,24 @@
 
 package net.anei.cadpage;
 
-import net.anei.cadpage.donation.DonationManager;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
 /**
- * Receives M2DM related intents 
+ * Receives C2DM Retry request
+ * Had to make our own receiver because the main C2DM recever 
+ * requires permissions that we don't have access to
  */
-public class C2DMReceiver extends BroadcastReceiver {
+public class C2DMRetryReceiver extends BroadcastReceiver {
 
   @Override
   public void onReceive(Context context, Intent intent) {
-    Log.v("C2DMReceiver: onReceive()");
+    Log.v("C2DMRetryReceiver: onReceive()");
     
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) return;
-    
-    // Free version doesn't do C2DM stuff
-    if (DonationManager.instance().isFreeVersion()) return;
-    
-    // If not free version, abort broadcast so this won't be picked up by early
-    // versions of Free Cadpage that lack the above check
-    abortBroadcast();
 
     // Everything else gets handed off to the service intent
     C2DMService.runIntentInService(context, intent);

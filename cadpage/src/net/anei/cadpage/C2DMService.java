@@ -133,11 +133,12 @@ public class C2DMService extends IntentService {
     // all hit it at once.
     int realDelayMS = delayMS/2 + RANDOM.nextInt(delayMS); 
     Intent retryIntent = new Intent(ACTION_RETRY_REGISTER);
-    retryIntent.setClass(this, C2DMReceiver.class);
+    retryIntent.setClass(this, C2DMRetryReceiver.class);
     PendingIntent retryPendingIntent = PendingIntent.getBroadcast(this, 0, retryIntent, 0);
     AlarmManager am = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
     am.set(AlarmManager.ELAPSED_REALTIME, SystemClock.elapsedRealtime() + realDelayMS, retryPendingIntent);
     Log.v("Rescheduling request in " + realDelayMS + " / " + delayMS + " msecs");
+    ContentQuery.dumpIntent(retryIntent);
     return true;
   }
 
@@ -449,6 +450,8 @@ public class C2DMService extends IntentService {
     }
     
     if (intent == null) return false;
+    Log.v("C2DMService sending registration request");
+    ContentQuery.dumpIntent(intent);
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
     return context.startService(intent) != null;
   }
