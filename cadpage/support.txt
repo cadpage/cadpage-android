@@ -105,6 +105,12 @@ Go to the home screen and select Menu > Settings > Accounts and Sync
 and make sure Background Data and Auto-Sync settings are enabled.  While
 you are here, press the Google account setting and Sync Now.
 
+The above options do not seem to exist on newer versions of Android.  If you can't find them, try registering with Active911 while connected to a WiFi hotspot.  If that works, let us know and we will tell you what we know about changing the new settings that affect background synchronization on mobile networks.
+
+Go into Cadpage Settings and select
+Payment Status > I have an authorization code
+and enter a code of "zapit".
+
 Restart the device and try again.
 
 This takes care of 95% of the reported problems.  If it does not there

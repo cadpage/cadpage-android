@@ -2,7 +2,9 @@ package net.anei.cadpage.vendors;
 
 import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.CadPageApplication;
+import net.anei.cadpage.EmailDeveloperActivity;
 import net.anei.cadpage.HttpService;
+import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.ManagePreferences;
@@ -408,6 +410,9 @@ abstract class Vendor {
     
     if (!enabled) return;
     
+    Log.v("User initiated disconnect from " + title);
+    EmailDeveloperActivity.logSnapshot(context, "User initiated disconect");
+    
     // Disable access and save that status change
     enabled = false;
     saveStatus();
@@ -518,6 +523,8 @@ abstract class Vendor {
         C2DMService.unregister(context);
         ManagePreferences.setAuthRunDays(0);
       }
+      
+      if (!register) EmailDeveloperActivity.logSnapshot(context, "Vendor initiated disconnect");
     }
   }
 
