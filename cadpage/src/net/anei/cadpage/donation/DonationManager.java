@@ -311,7 +311,11 @@ public class DonationManager {
    * @return Today's authorization code
    */
   public static String getAuthCode(int type) {
-    return calcAuthCode(type, new JulianDate(new Date()));
+    return getAuthCode(type, new Date());
+  }
+  
+  public static String getAuthCode(int type, Date date) {
+    return calcAuthCode(type, new JulianDate(date));
   }
   
   /**
