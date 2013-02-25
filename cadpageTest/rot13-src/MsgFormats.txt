@@ -1582,10 +1582,15 @@ Fhffrk Pbhagl, QR (QRFhffrkPbhaglOCnefre)
 (*PNQ*) [PNQ] Fgn: 78NFG   Ybp: 7229 Frnfuber Ujl   --- Snyyf-OYF
 (*PNQ*) [PNQ] Fgn: 78NFG   Ybp: 14490 Oebnq Nir   Pvgl: 19950   --- Oernguvat Ceboyrzf-NYF    Cerzvfr 14490 Oebnq Nir
 ***************************************************************************
-Jvyzvatgba, QR (QRJvyzvatgbaCnefre)
+Jvyzvatgba, QR (QRJvyzvatgbaCnefreN)
 06/06/2011*21:22*Y1*FZBXR VAIRFGVTNGVBA*8 R YRN OY ogja A ZNEXRG FG & *CRAAEBFR
 06/21/2011*06:01*NFFNHYG - HAXABJA*1202 SNVEIVRJ NI ogja ZNCYR NI*UBYYL BNX GREENPR*ZNYR FHOWRPG ZNPRQ //APPCQ RAE
 08/14/2011*08:19*PIN - ABG NYREG*207 EBJYNAQ CNEX OY ogja UVYYF*PNEEPEBSG
+***************************************************************************
+Jvyzvatgba, QR (QRJvyzvatgbaCnefreO)
+ceif=7588or9p8=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Nyyra Ahggre Ybp: ARJ PNFGYR NIR Vap: I1 Nhgbzbovyr Sver Gvzr: 02/21/13 21:20 2013-00002834 FO2  Anee:
+ceif=7588or9p8=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Nyyra Ahggre Ybp: 900 F  URNYQ FG Vap: I1 Nhgbzbovyr Sver Gvzr: 02/21/13 21:20 2013-00002834  Anee:  5 
+ceif=757o48ns5=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Zvxr Jvyyvnzf Ybp: 800 A  SERAPU FG Vap: Y5 Ryringbe Erfphr Gvzr: 02/21/13 15:35 2013-00002823 FO2 Y1 O5  Anee:
 ***************************************************************************
 Perfgivrj, SY (SYPerfgivrjCnefre)
 Pnyy_Ahzore: 1806 | Vap_Ahzore:  | Havgf: PSQ,Ratvar 2, | Pbzcynvag: ZHGHNY NVQ | Ybpngvba: Frpbaq Nir | Nqqerff: 481    | Qvfcbfvgvba:  | Obk:  | Gvzr_Qvfcngpurq: 2012-06-25 07:20:20 | Aneengvir: fghzc ba sver 10 sg sebz n erfvqrapr npghny fvgr vf npebff | Guvf_Havg: Ratvar 2
@@ -5562,12 +5567,6 @@ ZRQVPNY RZRETRAPL\a445 ZNELSVRYQ CYNAGNGVBA EQ PNZQRA PBHAGL\aHavgf: YF1,G18\aZr
 ************  ERNQL GB EBYY ******************************
 **********************************************************
 **********************************************************
-Jvyzvatgba, QR (nygreangr be ercynpr)
-Pbagnpg: Zvxr Xunvemnqn <zxunvemnqn@pbzpnfg.arg>
-Fraqre: JYCQ@fgngr.qr.hf
-ceif=7588or9p8=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Nyyra Ahggre Ybp: ARJ PNFGYR NIR Vap: I1 Nhgbzbovyr Sver Gvzr: 02/21/13 21:20 2013-00002834 FO2  Anee:
-ceif=7588or9p8=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Nyyra Ahggre Ybp: 900 F  URNYQ FG Vap: I1 Nhgbzbovyr Sver Gvzr: 02/21/13 21:20 2013-00002834  Anee:  5 
-ceif=757o48ns5=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Zvxr Jvyyvnzf Ybp: 800 A  SERAPU FG Vap: Y5 Ryringbe Erfphr Gvzr: 02/21/13 15:35 2013-00002823 FO2 Y1 O5  Anee:
 **********************************************************
 Terrafobeb Pbhagl, AP (nygreangr)
 Pbagnpg: Npgvir911

@@ -7,9 +7,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 
-public class DEWilmingtonParser extends FieldProgramParser {
+public class DEWilmingtonAParser extends FieldProgramParser {
   
-  public DEWilmingtonParser() {
+  public DEWilmingtonAParser() {
     super("WILMINGTON", "DE",
            "DATE TIME PRI? CALL ADDR! PLACE INFO");
   }
@@ -23,18 +23,6 @@ public class DEWilmingtonParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     if (body.startsWith("*")) body = body.substring(1);
     return parseFields(body.split("\\*"), data);
-  }
-  
-  private class DateField extends SkipField {
-    public DateField() {
-      setPattern(Pattern.compile("\\d\\d/\\d\\d/\\d{4}"), true);
-    }
-  }
-  
-  private class TimeField extends SkipField {
-    public TimeField() {
-      setPattern(Pattern.compile("\\d\\d:\\d\\d"), true);
-    }
   }
   
   private class MyPriorityField extends PriorityField {
@@ -60,8 +48,8 @@ public class DEWilmingtonParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("DATE")) return new DateField();
-    if (name.equals("TIME")) return new TimeField();
+    if (name.equals("DATE")) return new DateField("\\d\\d/\\d\\d/\\d{4}", true);
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
     if (name.equals("PRI")) return new MyPriorityField();
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
