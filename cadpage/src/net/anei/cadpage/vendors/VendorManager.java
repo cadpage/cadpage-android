@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.CadPageApplication;
+import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.donation.DeveloperToolsManager;
@@ -239,7 +240,14 @@ public class VendorManager {
     // Identify the correct vendor and pass request to them
     Vendor vendor = findVendor(vendorCode);
     if (vendor == null) return;
+    
+    // If the overall sponsor status changes from unsponsored to sponsored
+    // as a result of this operation, set the register date to today.  We
+    // will use this date to detect and possibly compensate users are are
+    // paying for a Cadpage subscription and have a sponsored vendor.
+    String sponsor = getSponsor();
     vendor.vendorRequest(context, type, account, token);
+    if (sponsor == null && getSponsor() != null) ManagePreferences.setRegisterDate();
   }
   
   /**

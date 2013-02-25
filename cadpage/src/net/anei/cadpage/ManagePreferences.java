@@ -818,6 +818,26 @@ public class ManagePreferences {
     prefs.putInt(R.string.pref_reregister_delay_key, newVal);
   }
   
+  public static Date registerDate() {
+    String dateStr = prefs.getString(R.string.pref_register_date_key, null);
+    if (dateStr == null) return null;
+    try {
+      return DATE_FORMAT.parse(dateStr);
+    } catch (ParseException ex) {
+      throw new RuntimeException(ex);
+    }
+  }
+  
+  public static void setRegisterDate() {
+    Date curDate = new Date();
+    setRegisterDate(curDate);
+  }
+  
+  public static void setRegisterDate(Date date) {
+    String dateStr = DATE_FORMAT.format(date);
+    prefs.putString(R.string.pref_register_date_key, dateStr);
+  }
+  
   public static String ledColor() {
     return prefs.getString(R.string.pref_flashled_color_key, R.string.pref_flashled_color_default);
   }
@@ -965,7 +985,8 @@ public class ManagePreferences {
         R.string.pref_registration_id_key,
         R.string.pref_prev_version_code,
         R.string.pref_register_req_key,
-        R.string.pref_reregister_delay_key
+        R.string.pref_reregister_delay_key,
+        R.string.pref_register_date_key
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();

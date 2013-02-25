@@ -59,6 +59,9 @@ public class DonationManager {
   // Cached Sponsor name
   private String sponsor;
   
+  // Cached overpaid days
+  private int overpaidDays;
+  
   
   /**
    * Calculate all cached values
@@ -87,6 +90,16 @@ public class DonationManager {
     // Get sponsor name and expiration date from either the
     // Vendor manager or the current parser
     sponsor = VendorManager.instance().getSponsor();
+    JulianDate regJDate = null;
+    if (sponsor != null) {
+      Date regDate = ManagePreferences.registerDate();
+      if (regDate == null) {
+        ManagePreferences.setRegisterDate();
+        regJDate = curJDate;
+      } else {
+        regJDate = new JulianDate(regDate);
+      }
+    }
     expireDate = null;
     if (!VendorManager.instance().isRegistered()) {
       MsgParser parser = ManagePreferences.getCurrentParser();
@@ -106,6 +119,7 @@ public class DonationManager {
     // Calculate subscription expiration date
     // (one year past the purchase date anniversary in the last paid year)
     // ((Use install date if there is no purchase date))
+    overpaidDays = 0;
     int daysTillSubExpire = -99999;
     int paidYear = ManagePreferences.paidYear();
     if (paidYear > 0) {
@@ -115,6 +129,13 @@ public class DonationManager {
       cal.setTime(tDate);
       cal.set(Calendar.YEAR, paidYear+1);
       tDate = cal.getTime();
+      
+      // If there is a sponsored vendor register date and they have a paid subscription
+      // expiration date, compute the number of days between them.  This is the number 
+      // of days they have been doubled billed by both us and the vendor
+      if (regJDate != null) {
+        overpaidDays = regJDate.diffDays(new JulianDate(tDate)); 
+      }
       
       // If we have both a subscription and sponsor expiration date, choose the
       // latest one
@@ -265,6 +286,13 @@ public class DonationManager {
   public boolean isEnabled() {
     calculate();
     return enabled;
+  }
+  
+  /**
+   * @return number of overpaid days
+   */
+  public int getOverpaidDays() {
+    return overpaidDays;
   }
   
   // Singleton instance

@@ -52,6 +52,11 @@ public abstract class UserAcctManager {
     sb.append('\n');
     sb.append("Phone:");
     sb.append(getPhoneNumber());
+    int overpaidDays = DonationManager.instance().getOverpaidDays();
+    if (overpaidDays > 0) {
+      sb.append("\nOverpaid:");
+      sb.append(overpaidDays);
+    }
   }
 
   // This really is used, but we have to invoke the class at runtime because it

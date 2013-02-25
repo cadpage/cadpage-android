@@ -24,6 +24,7 @@
    <string name="pref_prev_version_code">prev_version_code</string>
    <string name="pref_register_req_key">register_req</string>
    <string name="pref_reregister_delay_key">reregister_delay</string>
+   <string name="pref_register_date_key">register_date</string>
    
    <string name="pref_payment_status_key">paymentstatus</string>
    
