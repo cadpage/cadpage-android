@@ -30,12 +30,6 @@ public class PAMontgomeryCountyAParser extends FieldProgramParser {
     return parseFields(flds, data);
   }
   
-  private class TimeField extends SkipField {
-    public TimeField() {
-      setPattern(Pattern.compile("\\d\\d:\\d\\d"), true);
-    }
-  }
-  
   private class MyPlaceField extends PlaceField {
     @Override
     public void parse(String field, Data data) {
@@ -46,7 +40,7 @@ public class PAMontgomeryCountyAParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("TIME")) return new TimeField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
     if (name.equals("PLACE")) return new MyPlaceField();
     return super.getField(name);
   }

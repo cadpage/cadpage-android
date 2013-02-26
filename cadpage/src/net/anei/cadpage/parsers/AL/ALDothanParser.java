@@ -26,12 +26,6 @@ public class ALDothanParser extends FieldProgramParser {
     return parseFields(body.split("/"), 4, data);
   }
   
-  private class TimeField extends SkipField {
-    public TimeField() {
-      setPattern(Pattern.compile("\\d\\d:\\d\\d:\\d\\d"), true);
-    }
-  }
-  
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -97,7 +91,7 @@ public class ALDothanParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("TIME")) return new TimeField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("ID")) return new MyIdField();

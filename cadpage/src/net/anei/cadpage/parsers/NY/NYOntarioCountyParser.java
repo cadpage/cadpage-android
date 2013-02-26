@@ -26,12 +26,6 @@ public class NYOntarioCountyParser extends FieldProgramParser {
 	    return parseFields(body.split("\n"), data);
 	  }
 	  
-	  private class TimeField extends SkipField {
-	    public TimeField() {
-	      setPattern(Pattern.compile("\\d\\d:\\d\\d"), true);
-	    }
-	  }
-	  
 	  private class MyAddressField extends AddressField {
 	    @Override
 	    public void parse(String field, Data data) {
@@ -60,7 +54,7 @@ public class NYOntarioCountyParser extends FieldProgramParser {
 
     @Override
     protected Field getField(String name) {
-      if (name.equals("TIME")) return new TimeField();
+      if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
       if (name.equals("ADDR")) return new MyAddressField();
       if (name.equals("X")) return new MyCrossField();
       return super.getField(name);

@@ -33,12 +33,6 @@ public class ILChampaignUrbanaParser extends FieldProgramParser {
     }
   }
   
-  private class TimeField extends SkipField {
-    public TimeField() {
-      setPattern(Pattern.compile("\\d\\d:\\d\\d"), true);
-    }
-  }
-  
   private class MyAptField extends AptField {
     public MyAptField() {
       setPattern(Pattern.compile(".{1,3}"));
@@ -56,7 +50,7 @@ public class ILChampaignUrbanaParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("NAME")) return new MyNameField();
-    if (name.equals("TIME")) return new TimeField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);

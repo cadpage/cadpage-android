@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
-import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -42,16 +41,10 @@ public class PABeaverCountyParser extends FieldProgramParser {
     }
   }
   
-  private class TimeField extends SkipField {
-    public TimeField() {
-      setPattern(Pattern.compile("\\d\\d:\\d\\d:\\d\\d"), true);
-    }
-  }
-  
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("TIME")) return new TimeField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     return super.getField(name);
   }
   

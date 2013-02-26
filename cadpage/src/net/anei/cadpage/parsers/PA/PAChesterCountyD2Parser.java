@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.PA;
 
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
@@ -10,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class PAChesterCountyD2Parser extends PAChesterCountyBaseParser {
   
   public PAChesterCountyD2Parser() {
-    super("CALL SKIP INFO+? DATE!");
+    super("CALL SKIP INFO+? DATE! TIME");
   }
   
   @Override
@@ -34,24 +32,10 @@ public class PAChesterCountyD2Parser extends PAChesterCountyBaseParser {
     return parseFields(body.split("\\*"), data);
   }
   
-  // Time must match correct format
-  private class TimeField extends SkipField {
-    public TimeField() {
-      setPattern(Pattern.compile("\\d\\d:\\d\\d"), true);
-    }
-  }
-  
-  // Date must match correct format
-  private class DateField extends SkipField {
-    public DateField() {
-      setPattern(Pattern.compile("\\d\\d/\\d\\d/\\d\\d"), true);
-    }
-  }
-  
   @Override
   public Field getField(String name) {
-    if (name.equals("TIME")) return new TimeField();
-    if (name.equals("DATE")) return new DateField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
+    if (name.equals("DATE")) return new DateField("\\d\\d/\\d\\d/\\d\\d", true);
     return super.getField(name);
   }
   
