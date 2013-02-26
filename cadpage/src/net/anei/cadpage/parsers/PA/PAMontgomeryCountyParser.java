@@ -16,7 +16,8 @@ public class PAMontgomeryCountyParser extends GroupBestParser {
            new PAMontgomeryCountyBParser(),
            new PAMontgomeryCountyCParser(),
            new PAMontgomeryCountyDParser(),
-           new PAMontgomeryCountyEParser());
+           new PAMontgomeryCountyEParser(),
+           new PAMontgomeryCountyFParser());
   }
   
   static final Properties CITY_CODES = buildCodeTable(new String[]{
@@ -24,6 +25,7 @@ public class PAMontgomeryCountyParser extends GroupBestParser {
       "AMBL", "AMBLER",
       "BRYA", "BRYN ATHYN",
       "BUCO", "BUCKS COUNTY",
+      "CHCO", "CHESTER COUNTY",
       "CHEL", "CHELTENHAM TWP",
       "HATB", "HATBORO",
       "HORS", "HORHAM TWP",
@@ -34,15 +36,18 @@ public class PAMontgomeryCountyParser extends GroupBestParser {
       "LGWY", "LOWER GWYNEDD TWP",
       "LMER", "LOWER MERION TWP",
       "LMOR", "LOWER MORELAND TWP",
+      "LMRK", "LIMERICK TWP",
       "MONT", "MONTGOMERY TWP",
       "NWAL", "NORTH WALES",
       "PLYM", "PLYMOUTH TWP",
       "RKLG", "ROCKLEDGE",
+      "RYFD", "ROYERSFORD",
       "SPRG", "SPRINGFIELD TWP",
       "TWMC", "TOWAMENCIN TWP",
       "UDUB", "UPPER DUBLIN TWP",
       "UGWY", "UPPER GWYNEDD TWP",
       "UMOR", "UPPER MORELAND TWP",
+      "UPRO", "UPPER PROVIDENCE TWP",
       "WHPN", "WHITPAIN TWP",
       "WORC", "WORCESTER TWP"
   });

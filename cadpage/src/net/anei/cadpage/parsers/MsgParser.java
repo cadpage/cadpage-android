@@ -57,6 +57,17 @@ public abstract class MsgParser {
    public String parseGPSCoords(String address) {
      Matcher match = GPS_PATTERN.matcher(address);
      if (!match.find()) return null;
+     
+     return parseGPSCoords(match);
+   }
+   
+   /**
+    * Extract GPS coordiantes from pattern matcher.  The Matcher
+    * object must have been created by calling GPS_PATTERN.matcher()
+    * @param match Pattern match
+    * @return parsed GPS coordinates
+    */
+   public String parseGPSCoords(Matcher match) {
 
      // Calculate the coordinate values
      double c1 = cvtGpsCoord(match.group(2));
@@ -934,10 +945,14 @@ public abstract class MsgParser {
    * Set GPS Coordinates in standard Google search format
    * @param location GPS coordinates to be saved
    * @param data data information object
+   * @return location field after removing the GPS coordinates
    */
-  public void setGPSLoc(String location, Data data) {
-    String gpsLoc = countryCode.parseGPSCoords(location);
-    data.strGPSLoc = (gpsLoc != null ? gpsLoc : "");
+  public String setGPSLoc(String location, Data data) {
+    Matcher match = GPS_PATTERN.matcher(location);
+    if (!match.find()) return location;
+    data.strGPSLoc = countryCode.parseGPSCoords(match);
+    location = location.substring(0,match.start()).trim() + ' ' + location.substring(match.end()).trim();
+    return location.trim();
   }
 
  /**

@@ -13,6 +13,7 @@ public class PAMontgomeryCountyDParser extends MsgParser {
 
   public PAMontgomeryCountyDParser() {
     super("MONTGOMERY COUNTY", "PA");
+    setFieldList("ID DATE TIME CODE CALL PLACE ADDR APT X MAP BOX CITY UNIT");
   }
   
   @Override

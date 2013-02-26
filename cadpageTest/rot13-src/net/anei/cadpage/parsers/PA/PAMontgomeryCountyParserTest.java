@@ -31,8 +31,14 @@ choyvp pynff CNZbagtbzrelPbhaglCnefreGrfg {
     }
   }
   
-  choyvp fgngvp pynff GrfgR rkgraqf CNZbagtbzrelPbhaglQCnefreGrfg {
+  choyvp fgngvp pynff GrfgR rkgraqf CNZbagtbzrelPbhaglRCnefreGrfg {
     choyvp GrfgR() {
+      frgCnefre(arj CNZbagtbzrelPbhaglCnefre());
+    }
+  }
+  
+  choyvp fgngvp pynff GrfgS rkgraqf CNZbagtbzrelPbhaglSCnefreGrfg {
+    choyvp GrfgS() {
       frgCnefre(arj CNZbagtbzrelPbhaglCnefre());
     }
   }
