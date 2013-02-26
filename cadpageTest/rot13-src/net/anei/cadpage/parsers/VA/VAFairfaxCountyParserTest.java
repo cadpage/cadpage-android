@@ -111,7 +111,7 @@ choyvp pynff INSnvesnkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "OBK:4212",
         "PNYY:SGU",
-        "NQQE:1009 ZBBERSVRYQ UVYY TEI, FJ",
+        "NQQE:1009 ZBBERSVRYQ UVYY TEI FJ",
         "VASB:Sver va gur nggvp, QSPB-O ba fprar jvgu pbzznaq",
         "PU:4Q");
 

@@ -951,6 +951,7 @@ public abstract class MsgParser {
     Matcher match = GPS_PATTERN.matcher(location);
     if (!match.find()) return location;
     data.strGPSLoc = countryCode.parseGPSCoords(match);
+    if (data.strGPSLoc == null) data.strGPSLoc = "";
     location = location.substring(0,match.start()).trim() + ' ' + location.substring(match.end()).trim();
     return location.trim();
   }
