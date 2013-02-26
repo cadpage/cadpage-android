@@ -693,6 +693,7 @@ public class ParserList {
               ,"VABotetourtCounty"              ,"Botetourt County, VA"
               ,"VACampbellCounty"               ,"Campbell County, VA"
               ,"VACarrollCounty"                ,"Carroll County, VA"
+              ,"VAFairfaxCounty"                ,"Fairfax County, VA"
               ,"VAFauquierCounty"               ,"Fauquier County, VA"
               ,"VAFranklin"                     ,"Franklin, VA"
               ,"VAFranklinCounty"               ,"Franklin County, VA"
