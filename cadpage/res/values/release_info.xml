@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02182013</string>
-  <string name="release_version">v1.6.09</string>
+  <string name="release_date">02252013</string>
+  <string name="release_version">v1.6.10</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-San Luis Obispo County, CA\n
-Oxford County, ME\n
+Teller County, CO\n
+Wilmington, DE (alt)\n
+Bullit County, KY\n
+Montgomery County, PA (alt)\n
+Fairfax County, VA\n
 \n      
 Location Parsing Fixes:\n
-Calveras County, CA\n
-El Paso County, CO\n
-Tolland County, CT\n
-Kent County, DE\n
-Whitfield County, GA\n
-Butler County, KS\n
-Davies County, KY\n
-Nassau County, NY\n
-St Lawrence County, NY\n
-Josephine County, OR\n
+Durham County, AL\n
+Lake County, CA\n
+Douglas County, CO\n
+Champaign Urbana, IL\n
+Johnson County, KS\n
+Ontario County, NY\n
+Pitt County, NC\n
+Sampson County, NC\n
+Beaver County, PA\n
+Chester County, PA\n
+Lackawanna County, PA\n
+Montgomery County, PA\n
 Florence County, SC\n
-Loudon County, TN\n
-Harris County NWEMS, TX\n
-Montgomery County, TX\n
-Accomack County, VA\n
-Northampton County, VA\n
-Yakima County, WA\n
+Hampshire County, WV\n
 \n
 General Fixes:\n
-Sporadic crashes under advanced versions of Android
+Improved logic handing direct paging registrations.\n
   </string>  
 </resources>
   
