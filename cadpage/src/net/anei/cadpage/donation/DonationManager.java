@@ -323,6 +323,12 @@ public class DonationManager {
     
     // No luck, see if it matches yesterdays has code
     jDate = new JulianDate(jDate, -1);
+    type = validateAuthCode(code, jDate);
+    if (type > 0) return type;
+    
+    // OK, now that Jeanie can enter future codes, let's check
+    // tommorrow's codes
+    jDate = new JulianDate(jDate, 2);
     return validateAuthCode(code, jDate);
   }
   
