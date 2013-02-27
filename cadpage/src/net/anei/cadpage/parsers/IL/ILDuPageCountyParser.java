@@ -10,6 +10,7 @@ public class ILDuPageCountyParser extends MsgParser {
   
   public ILDuPageCountyParser() {
     super("DUPAGE COUNTY", "IL");
+    setFieldList("ID ADDR SRC UNIT CALL PLACE X CITY");
   }
   
   @Override

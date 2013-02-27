@@ -140,7 +140,7 @@ choyvp pynff ALShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "OEB, SVER FGEHPGHER, 415 UBARLJRYY PBEARE EQ, G OEBNQNYOVA,, 02/19/2013, 0635, -1 -1",
         "PNYY:SVER FGEHPGHER",
-        "NQQE:415 UBARLJRYY PBEARE EQ",
+        "NQQE:415 UBARLJRYY PBEARE EQ",  // UBARLJRYY PBEAREF EQ
         "PVGL:OEBNQNYOVA",
         "QNGR:02/19/2013",
         "GVZR:06:35");
