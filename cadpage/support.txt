@@ -3,6 +3,13 @@ support@cadpage.org
 
 ******************************************************************
 
+Google is having a problem duplicating messages sent through their message push system.  This is affecting many other apps than Cadpage..  Google is aware of the problem and is working on fixing it.
+
+Sorry for the inconvenience,
+-Ken
+
+******************************************************************
+
 Weld County mapping is seriously broken.  Someone is stripping all of the line break characters out of the regular dispatch page.  If they had replaced them with something nice like semicolons, I could parse them with no problems.  If they replace them with blanks I would have had a few choice comments about the situation but could have worked with it.  But they are just gone leaving all of your data fields mashed up against each other.  I just can't parse that :(
 
 All you can do is complain to your department or dispatch IT people.  If they can't get the issue resolved, you may have to switch messaging services.  CodeMessaging.net and Active911.com are recommended because they can push pages directly to Cadpage.

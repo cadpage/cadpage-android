@@ -16,6 +16,7 @@ public class NCMecklenburgCountyAParser extends MsgParser {
   
   public NCMecklenburgCountyAParser() {
     super("MECKLENBURG COUNTY", "NC");
+    setFieldList("ADDR APT PLACE INFO CALL X CH MAP ID");
   }
   
   @Override

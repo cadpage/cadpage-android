@@ -88,6 +88,7 @@ public class C2DMService extends IntentService {
             ManagePreferences.setRegistrationId(null);
             VendorManager.instance().failureC2DMId(C2DMService.this, error);
           }
+          EmailDeveloperActivity.logSnapshot(C2DMService.this, "GCM Registration failure report");
           return;
         }
         

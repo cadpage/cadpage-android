@@ -21,6 +21,7 @@ public class NCMecklenburgCountyBParser extends SmartAddressParser {
   
   public NCMecklenburgCountyBParser() {
     super("MECKLENBURG COUNTY", "NC");
+    setFieldList("ADDR APT INFO PRI CODE CALL X UNIT MAP ID");
     setupMultiWordStreets(
         "60 FOOT"
     );

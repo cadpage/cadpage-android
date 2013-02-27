@@ -74,6 +74,9 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Juvgrunyy) FG3500 GLC: NYNEZ-PB AB IVPGVZF NQ: 406 F SENAPRF PVE PGL: JUVGRUNYY PA: NAQREFBA F P PZG1: **PNEOBA ZBABKVQR NYNEZ - AB IVPGVZF PZG2: PNEOB
 (Juvgrunyy) FG3500 GLC: NYNEZ-SVER-PBZEPY NQ: 706 TENCR FG PGL: JUVGRUNYY YBP: IVFVBA ZNFGREF PA: BCRE # 333 PZG1: **PBZZREVPNY SVER NYNEZ PZG2: SVER NY
 
+Pbagnpg: Enaql Fpuzblre <nffgpuvrs2404@tznvy.pbz>
+1 bs 2\aSEZ:911@yruvtupbhagl.bet\aZFT:FG2400 GLC: NYNEZ-SVER-UVTU EVFR NQ: 425 XHAGM FG PGL: FYNGVATGBA YBP: TRBETR QVYYVNEQ ZNABE PA: BCRE # 3652\a(Pba'g) 2 bs 2\aPZG1: **SVER NYNEZ - UVTU EVFR PZG2: CERZVFR CUBAR:(Raq)
+
 */
 
 choyvp pynff CNYruvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -488,6 +491,26 @@ choyvp pynff CNYruvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:IVFVBA ZNFGREF",
         "ANZR:BCRE # 333",
         "VASB:SVER NY");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEnaqlFpuzblre() {
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:911@yruvtupbhagl.bet\a" +
+        "ZFT:FG2400 GLC: NYNEZ-SVER-UVTU EVFR NQ: 425 XHAGM FG PGL: FYNGVATGBA YBP: TRBETR QVYYVNEQ ZNABE PA: BCRE # 3652\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "PZG1: **SVER NYNEZ - UVTU EVFR PZG2: CERZVFR CUBAR:(Raq)",
+
+        "FEP:FG2400",
+        "PNYY:SVER NYNEZ - UVTU EVFR",
+        "NQQE:425 XHAGM FG",
+        "PVGL:FYNGVATGBA",
+        "CYNPR:TRBETR QVYYVNEQ ZNABE",
+        "ANZR:BCRE # 3652",
+        "VASB:CERZVFR CUBAR:");
 
   }
   
