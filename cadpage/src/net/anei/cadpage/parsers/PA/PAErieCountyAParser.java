@@ -63,4 +63,9 @@ public class PAErieCountyAParser extends DispatchB2Parser {
     }
     return result;
   }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
+  }
 }

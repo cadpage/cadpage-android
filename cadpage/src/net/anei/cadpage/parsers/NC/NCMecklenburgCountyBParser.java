@@ -29,7 +29,7 @@ public class NCMecklenburgCountyBParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "@minthillvfd.com,alerts@cadpage.org";
+    return "@minthillvfd.com,@huntersvillefd.com,alerts@cadpage.org,cadmail@medic911.com";
   }
   
   @Override
