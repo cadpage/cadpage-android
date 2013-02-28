@@ -411,7 +411,6 @@ abstract class Vendor {
     if (!enabled) return;
     
     Log.v("User initiated disconnect from " + title);
-    EmailDeveloperActivity.logSnapshot(context, "User initiated disconect");
     
     // Disable access and save that status change
     enabled = false;

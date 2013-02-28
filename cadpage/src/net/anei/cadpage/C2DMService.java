@@ -98,6 +98,7 @@ public class C2DMService extends IntentService {
           ManagePreferences.setRegistrationId(null);
           ManagePreferences.setRegisterReq(0);
           VendorManager.instance().unregisterC2DMId(C2DMService.this, regId);
+          EmailDeveloperActivity.logSnapshot(C2DMService.this, "GCM Registration unregister report");
           return;
         }
         
@@ -412,7 +413,9 @@ public class C2DMService extends IntentService {
    */
   public static boolean unregister(Context context) {
     ManagePreferences.setRegistrationId(null);
-    return startRegisterRequest(context, 2, true);
+    boolean result = startRegisterRequest(context, 2, true);
+    EmailDeveloperActivity.logSnapshot(context, "General Unregister Request");
+    return result;
   }
   
   
