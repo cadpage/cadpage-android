@@ -13,10 +13,17 @@ public class DispatchVisionAirParser extends FieldProgramParser {
   
   private String[] prefixs;
   
+  /**
+   * @deprecated - Switch to DispatchA3 when convenient 
+   */
   public DispatchVisionAirParser(String prefix, String defCity, String defState, String program) {
     this(new String[]{prefix}, defCity, defState, program);
   }
   
+  
+  /**
+   * @deprecated - Switch to DispatchA3 when convenient 
+   */
   public DispatchVisionAirParser(String[] prefixs, String defCity, String defState, String program) {
     super(defCity, defState, program);
     this.prefixs = prefixs;

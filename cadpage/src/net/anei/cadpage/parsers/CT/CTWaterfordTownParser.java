@@ -1,32 +1,20 @@
 package net.anei.cadpage.parsers.CT;
 
 
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.dispatch.DispatchVisionAirParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 
 /**
  * Waterford Town, CT
  */
-public class CTWaterfordTownParser extends DispatchVisionAirParser {
-  
-  private static final Pattern DELIM = Pattern.compile("\\*[\n ]");
+public class CTWaterfordTownParser extends DispatchA3Parser {
   
   public CTWaterfordTownParser() {
-    super("", "WATERFORD TWP", "CT",
-          "ID ADDR APT APT CITY INFO SKIP CALL! PLACENAME PHONE UNIT EMPTY+? EXTRA INFO+");
+    super(2, "", "WATERFORD TWP", "CT");
   }
   
   @Override
   public String getFilter() {
     return "wecc@waterfordct.org";
-  }
-  
-  @Override
-  public boolean parseMsg(String body, Data data) {
-    if (body.endsWith("*")) body = body + '\n';
-    return parseFields(DELIM.split(body), 8, data);
   }
   
   @Override

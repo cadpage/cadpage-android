@@ -132,8 +132,13 @@ choyvp pynff APJngnhtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:321F-QRRESVRYQ EQ-EG NVECBEG RAQ BS ONZOBB EQ");
 
   }
+  
+  @Grfg
+  choyvp ibvq grfgQnaCynar() {
+    
+  }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj APJngnhtnPbhaglCnefreGrfg().trarengrGrfgf("G1", "NQQE PVGL CYNPR PBQR VQ GVZR PNYY VASB");
+    arj APJngnhtnPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

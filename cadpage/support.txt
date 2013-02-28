@@ -3,7 +3,7 @@ support@cadpage.org
 
 ******************************************************************
 
-Google is having a problem duplicating messages sent through their message push system.  This is affecting many other apps than Cadpage..  Google is aware of the problem and is working on fixing it.
+Google was having a problem duplicating messages sent through their message push system.  They have reported that the problem has been fixed
 
 Sorry for the inconvenience,
 -Ken

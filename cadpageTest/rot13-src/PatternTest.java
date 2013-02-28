@@ -6,12 +6,11 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE 
-  = Cnggrea.pbzcvyr("^([^:]+?):(\\q\\q:\\q\\q:\\q\\q)-\aPbqr:([N-M0-9]+:[-N-M0-9]*)\aPnyy: *([^,]+?),\a([^,]+?),([^,]*),([N-M ]*?):\aPebff: *(.*?)\aVasb: *(.*)$");
+  = Cnggrea.pbzcvyr("\\*\\* RZQ (?:Pnfr Ragel Svavfurq|Pnfr Pbzcyrgr|Erpbzzraqrq Qvfcngpu) \\*\\*|\\oErfcbafr Grkg:|\\oXrl Dhrfgvbaf:|\\oTrb Pbzzrag:|\\oYnaqznex Pbzzrag:|Aneengvir ?:|\\o(?=Pebff Fgerrgf:|Ynaqznex:|AOU:)|Cynpr Pbzzrag:|  +|\a", Cnggrea.PNFR_VAFRAFVGVIR);
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("RZ98:17:55:00-\aPbqr:45:R45\aPnyy: ZRQVP/ CBFF FGBEXR -  ZRRG PBZ,\aFNZNEVGNA ABEGU URNYGU PRAGRE,9000 A ZNVA FG,QNLGBA:\aPebff: V-70 & URNGUPYVSS EQ\aVasb:PNAPRE PRAGRE PNYYF TB GB PNAPRE PRAGRE\aYNXRFVQR NZO RAGENAPR SBE OFZG-TEBHAQ-1FG SYBBE\aRZF ERFCBAQF GB FBHGU QBPX SBE PNYYF BA SYBBEF 2-4\aXRLOBK");
+    qbGrfg("** RZQ Pnfr Ragel Svavfurq ** Puvrs Pb");
   }
-    
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
     Zngpure zngpu = ZNFGRE.zngpure(grfg);
