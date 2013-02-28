@@ -96,6 +96,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "BRU",  "Brush Fire",
       "CHIM", "Chimney Fire",
       "CMD",  "Carbon Monoxide Detector",
+      "CMDS", "Carbon Monoxide detector w/ symptoms",
       "COM",  "Commercial Fire",
       "ELI",  "Electric Fire",
       "ELO",  "Electric Lines down",
