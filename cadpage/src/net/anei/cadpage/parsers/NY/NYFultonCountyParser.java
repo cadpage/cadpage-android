@@ -15,7 +15,6 @@ public class NYFultonCountyParser extends FieldProgramParser {
     public NYFultonCountyParser() {
       super(CITY_LIST, "FULTON COUNTY", "NY",
              "SKIP CALL ADDR CITY PLACE DATE TIME! GPS");
-      setFieldList("SRC CALL ADDR APT CITY PLACE DATE TIME GPS");
     }
     
     @Override
@@ -38,6 +37,7 @@ public class NYFultonCountyParser extends FieldProgramParser {
 	    } else { 
   	    
   	    // No such luck.  Have to parse it the old way
+	      setFieldList("SRC CALL ADDR APT CITY PLACE DATE TIME GPS");
   	    Matcher match = MASTER.matcher(body);
   	    if (!match.matches()) return false;
   	    data.strSource = match.group(1);
@@ -57,6 +57,11 @@ public class NYFultonCountyParser extends FieldProgramParser {
       }
 	    
 	    return true;
+	  }
+	  
+	  @Override
+	  public String getProgram() {
+	    return "SRC " + super.getProgram();
 	  }
 	  
 	  private static final Pattern TIME_PTN = Pattern.compile("\\d{4}");
