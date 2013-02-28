@@ -10,6 +10,7 @@ import net.anei.cadpage.HttpService;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
+import net.anei.cadpage.billing.BillingManager;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -97,19 +98,27 @@ public abstract class UserAcctManager {
           // Likewise, if Cadpage has been initialized but the purchase and install dates are the same
           // the purchase date is not trustworthy and we need to reload the payment status immediately
           if (ManagePreferences.paidYear() == 0 ||
-              !ManagePreferences.purchaseDate().equals(ManagePreferences.installDate()))
+              !ManagePreferences.purchaseDate().equals(ManagePreferences.installDate())) {
+              
+            // Otherwise, we will try to spread out the load by timing the next authorization check 
+            // at a random time within the next 30 days
             
-          // Otherwise, we will try to spread out the load by timing the next authorization check 
-          // at a random time within the next 30 days
-          
-            lastTime = curTime - (long)(Math.random()*AUTH_CHECK_INTERVAL);
-            ManagePreferences.setAuthLastCheckTime(lastTime);
+              lastTime = curTime - (long)(Math.random()*AUTH_CHECK_INTERVAL);
+              ManagePreferences.setAuthLastCheckTime(lastTime);
+          }
         }
         
         // Having done all of that, if the different between the current time and the
-        // latched checked time exceeds the 30 day intervale, perform an automatic reload
-        // Also clear the initialized flag which will trigger an Android billing logic reload
+        // latched checked time exceeds the 30 day intervals, perform an automatic reload
         if (curTime - lastTime > AUTH_CHECK_INTERVAL) {
+          
+          // Reset Android purchase information
+          ManagePreferences.setInitBilling(false);
+          BillingManager.instance().initialize(context);
+          
+          // Request status reload from server
+          UserAcctManager.instance().reloadStatus(context);
+
           ManagePreferences.setInitialized(false);
           reloadStatus(context);
         }
