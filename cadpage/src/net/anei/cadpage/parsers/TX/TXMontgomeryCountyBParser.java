@@ -11,10 +11,11 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
  */
 public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
-  private static final String FIELD_LIST1 = "UNIT ID ADDR APT CALL BOX MAP SRC CH";
-  private static final String FIELD_LIST2 = "CODE CALL BOX ADDR SRC MAP";
-  private static final Pattern MASTER1 = Pattern.compile("(?:(\\d{4})(\\d{4}-\\d{7}) +)?(.*?)(?: *(\\d\\d[A-Z]-[A-Z]))? +(\\d{2,3}[A-Za-z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*))?(?: +([A-Z]+\\d+(?: +[A-Z]+\\d+)*))?(?: +(TAC +\\d+))?");
+  private static final String FIELD_LIST1 = "UNIT ID ADDR APT CITY CALL BOX MAP SRC CH";
+  private static final String FIELD_LIST2 = "CODE CALL BOX ADDR APT CITY SRC MAP";
+  private static final Pattern MASTER1 = Pattern.compile("(?:(\\d+?)?(\\d{2,4}-\\d{6,7}) +)?(.*?)(?: *(\\d\\d[A-Z]-[A-Z]))? +(\\d{2,3}[A-Za-z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*)(?: +(?:North|East|South|West))?)?(?: +([A-Z]+\\d+(?: +[A-Z]+\\d+)*))?(?: +(TAC +\\d+))?");
   private static final Pattern MASTER2 = Pattern.compile("(?:([A-Z0-9]+)-)?(.*?) *(\\d\\d[A-Z]-[A-Z]) +(.*?) +(F[DG]\\d+(?: +F[DG]\\d+)*) +(\\d{2,3}[A-Za-z])");
+  private static final Pattern ADDRESS_RANGE_PTN = Pattern.compile("\\b(\\d+) *- *(\\d+)\\b");
   
   private static final Pattern RUN_REPORT_PTN = 
       Pattern.compile("(\\d{4}-\\d{6}) +,?((?:Time Canceled:|Time Call Complete:|Assigned|Time at Destination:|Priority Change:|Call Canceled Reason:).*)");
@@ -70,7 +71,9 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       setFieldList(FIELD_LIST1);
       data.strUnit = getOptGroup(match.group(1));
       data.strCallId = getOptGroup(match.group(2));
-      parseAddress(StartType.START_ADDR, match.group(3), data);
+      String addr = match.group(3).trim();
+      addr = ADDRESS_RANGE_PTN.matcher(addr).replaceAll("$1-$2");
+      parseAddress(StartType.START_ADDR, addr, data);
       data.strCall = getLeft();
       if (data.strCall.equals("Out of County Respon")) data.defCity = "";
       if (data.strCall.length() == 0) return false;

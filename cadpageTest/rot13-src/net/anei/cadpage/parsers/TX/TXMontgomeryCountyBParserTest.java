@@ -225,6 +225,22 @@ Ybpngvba: Cbegre, GK, Havgrq Fgngrf
 (PNQ Zrffntr) 02132013-0000206 24710 Zrnqbj Ya Qvssvphygl Oernguvat12N-G 296Y SQ3
 (PNQ Zrffntr) 02132013-0000205 Fbegref Eq / Byq Fbegref ZIN 12N-G 295T SQ3
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Arrqunz Sver Erfphr
+Ybpngvba: Pbaebr, GK, Havgrq Fgngrf
+Fraqre: gevgrpupnq@zpuq-gk.bet
+
+(PNQ Zrffntr) 13-002850 11794 - 11945 Uvtujnl 242 ZIN 06R-G 219A SQ3 R64
+(PNQ Zrffntr) 02182013-0000422 29603 Yrtraqf Uvyy Qe Fgehpgher - Erfvqrag11O-U 253K SQ5 Fbhgu PE61
+(PNQ Zrffntr) 82013-0000422 29603 Yrtraqf Uvyy Qe Fgehpgher - Erfvqrag11O-U 253K SQ5 Fbhgu PE61
+(PNQ Zrffntr) 02142013-0000112 704 Pneevntr Uvyyf Oyiq Qvssvphygl Oernguvat06S-G 217N SQ3 ZE64
+(PNQ Zrffntr) 02132013-0000361 27330 Bnx Evqtr Fpubby Eq Nynez 11O-U 252R SQ2
+(PNQ Zrffntr) 13-002996 Pneevntr Uvyyf Oyiq / Sz ZIN 06S-G 217R SQ3 R64
+(PNQ Zrffntr) 13-002975 16924 Fpravp Xabyy Qe Qvssvphygl Oernguvat06R-G 218D SQ3 ZE61
+(PNQ Zrffntr) 13-002962 9081 Juvgr Bnx Qe Hapbafpvbhf/Snvagvat06S-G 217N SQ3 ZE64
+(PNQ Zrffntr) 13-002850 11794 - 11945 Uvtujnl 242 ZIN 06R-G 219A SQ3 R64
+(PNQ Zrffntr) 13-002843 17110 Sverubhfr Eq Unmzng 06R-G 218C SQ3 E61
+
  */
 
 choyvp pynff GKZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -2367,6 +2383,113 @@ choyvp pynff GKZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:/ Byq Fbegref ZIN",
         "OBK:12N-G",
         "ZNC:295T",
+        "FEP:SQ3");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgArrqunzSverErfphr() {
+
+    qbGrfg("G1",
+        "(PNQ Zrffntr) 13-002850 11794 - 11945 Uvtujnl 242 ZIN 06R-G 219A SQ3 R64",
+        "VQ:13-002850",
+        "HAVG:R64",
+        "NQQE:11794-11945 Uvtujnl 242",  // Ab fhpu uvtujnl ???
+        "ZNQQE:11794 Uvtujnl 242",
+        "PNYY:ZIN",
+        "OBK:06R-G",
+        "ZNC:219A",
+        "FEP:SQ3");
+
+    qbGrfg("G2",
+        "(PNQ Zrffntr) 02182013-0000422 29603 Yrtraqf Uvyy Qe Fgehpgher - Erfvqrag11O-U 253K SQ5 Fbhgu PE61",
+        "VQ:2013-0000422",
+        "HAVG:0218 PE61",
+        "NQQE:29603 Yrtraqf Uvyy Qe",
+        "PNYY:Fgehpgher - Erfvqrag",
+        "OBK:11O-U",
+        "ZNC:253K",
+        "FEP:SQ5");
+
+    qbGrfg("G3",
+        "(PNQ Zrffntr) 82013-0000422 29603 Yrtraqf Uvyy Qe Fgehpgher - Erfvqrag11O-U 253K SQ5 Fbhgu PE61",
+        "HAVG:8 PE61",
+        "VQ:2013-0000422",
+        "NQQE:29603 Yrtraqf Uvyy Qe",
+        "PNYY:Fgehpgher - Erfvqrag",
+        "OBK:11O-U",
+        "ZNC:253K",
+        "FEP:SQ5");
+
+    qbGrfg("G4",
+        "(PNQ Zrffntr) 02142013-0000112 704 Pneevntr Uvyyf Oyiq Qvssvphygl Oernguvat06S-G 217N SQ3 ZE64",
+        "VQ:2013-0000112",
+        "HAVG:0214 ZE64",
+        "NQQE:704 Pneevntr Uvyyf Oyiq",
+        "PNYY:Qvssvphygl Oernguvat",
+        "OBK:06S-G",
+        "ZNC:217N",
+        "FEP:SQ3");
+
+    qbGrfg("G5",
+        "(PNQ Zrffntr) 02132013-0000361 27330 Bnx Evqtr Fpubby Eq Nynez 11O-U 252R SQ2",
+        "VQ:2013-0000361",
+        "HAVG:0213",
+        "NQQE:27330 Bnx Evqtr Fpubby Eq",
+        "PNYY:Nynez",
+        "OBK:11O-U",
+        "ZNC:252R",
+        "FEP:SQ2");
+
+    qbGrfg("G6",
+        "(PNQ Zrffntr) 13-002996 Pneevntr Uvyyf Oyiq / Sz ZIN 06S-G 217R SQ3 R64",
+        "VQ:13-002996",
+        "HAVG:R64",
+        "NQQE:Pneevntr Uvyyf Oyiq",
+        "PNYY:/ Sz ZIN",
+        "OBK:06S-G",
+        "ZNC:217R",
+        "FEP:SQ3");
+
+    qbGrfg("G7",
+        "(PNQ Zrffntr) 13-002975 16924 Fpravp Xabyy Qe Qvssvphygl Oernguvat06R-G 218D SQ3 ZE61",
+        "VQ:13-002975",
+        "HAVG:ZE61",
+        "NQQE:16924 Fpravp Xabyy Qe",
+        "PNYY:Qvssvphygl Oernguvat",
+        "OBK:06R-G",
+        "ZNC:218D",
+        "FEP:SQ3");
+
+    qbGrfg("G8",
+        "(PNQ Zrffntr) 13-002962 9081 Juvgr Bnx Qe Hapbafpvbhf/Snvagvat06S-G 217N SQ3 ZE64",
+        "VQ:13-002962",
+        "HAVG:ZE64",
+        "NQQE:9081 Juvgr Bnx Qe",
+        "PNYY:Hapbafpvbhf / Snvagvat",
+        "OBK:06S-G",
+        "ZNC:217N",
+        "FEP:SQ3");
+
+    qbGrfg("G9",
+        "(PNQ Zrffntr) 13-002850 11794 - 11945 Uvtujnl 242 ZIN 06R-G 219A SQ3 R64",
+        "VQ:13-002850",
+        "HAVG:R64",
+        "NQQE:11794-11945 Uvtujnl 242",
+        "ZNQQE:11794 Uvtujnl 242",
+        "PNYY:ZIN",
+        "OBK:06R-G",
+        "ZNC:219A",
+        "FEP:SQ3");
+
+    qbGrfg("G10",
+        "(PNQ Zrffntr) 13-002843 17110 Sverubhfr Eq Unmzng 06R-G 218C SQ3 E61",
+        "VQ:13-002843",
+        "HAVG:E61",
+        "NQQE:17110 Sverubhfr Eq",
+        "PNYY:Unmzng",
+        "OBK:06R-G",
+        "ZNC:218C",
         "FEP:SQ3");
 
   }

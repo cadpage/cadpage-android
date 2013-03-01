@@ -6,10 +6,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE 
-  = Cnggrea.pbzcvyr("\\*\\* RZQ (?:Pnfr Ragel Svavfurq|Pnfr Pbzcyrgr|Erpbzzraqrq Qvfcngpu) \\*\\*|\\oErfcbafr Grkg:|\\oXrl Dhrfgvbaf:|\\oTrb Pbzzrag:|\\oYnaqznex Pbzzrag:|Aneengvir ?:|\\o(?=Pebff Fgerrgf:|Ynaqznex:|AOU:)|Cynpr Pbzzrag:|  +|\a", Cnggrea.PNFR_VAFRAFVGVIR);
+  = Cnggrea.pbzcvyr("(?:(\\q{4})?(\\q{2,4}-\\q{6,7}) +)?(.*?)(?: *(\\q\\q[N-M]-[N-M]))? +(\\q{2,3}[N-Mn-m])(?: +(S[QT]\\q+(?: +S[QT]\\q+)*)(?: +(?:Abegu|Rnfg|Fbhgu|Jrfg))?)?(?: +([N-M]+\\q+(?: +[N-M]+\\q+)*))?(?: +(GNP +\\q+))?");
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("** RZQ Pnfr Ragel Svavfurq ** Puvrs Pb");
+    qbGrfg("02182013-0000422 29603 Yrtraqf Uvyy Qe Fgehpgher - Erfvqrag11O-U 253K SQ5 Fbhgu PE61");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
