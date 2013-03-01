@@ -929,6 +929,12 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:125 XVATF PRAGRE");
   }
   
+  @Grfg
+  choyvp ibvq grfgOnq() {
+    qbGrfg(PNYY, "OVT TERRA SEBT",
+        "PNYY:OVT TERRA SEBT");
+  }
+  
   @Bireevqr
   choyvp ibvq grfgOnqZft() {
   }

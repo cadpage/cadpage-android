@@ -16,6 +16,12 @@ choyvp pynff TrarenyCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgCeboyrz() {
   }
   
+  
+  @Grfg
+  choyvp ibvq grfgOnqZft() {
+    qbOnqGrfg("OVT TERRA SEBT");
+  }
+  
   @Grfg
   choyvp ibvq grfgCnefre() {
 
