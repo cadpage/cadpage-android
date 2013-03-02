@@ -8,6 +8,7 @@ import java.util.Date;
 
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.HttpService.HttpRequest;
+import net.anei.cadpage.Log;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.billing.BillingManager;
@@ -141,6 +142,8 @@ public abstract class UserAcctManager {
     
     @Override
     public void reloadStatus(Context context) {
+      
+      Log.trace("Reload authorization status");
       
       // Build query with all of the possible account and phone ID's
       Uri.Builder builder = Uri.parse(context.getString(R.string.donate_server_url)).buildUpon();

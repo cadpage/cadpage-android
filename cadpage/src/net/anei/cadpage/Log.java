@@ -4,6 +4,10 @@ public class Log {
   public final static String LOGTAG = "CadPage";
 
   public static final boolean DEBUG = false;
+  
+  public static void trace(String msg) {
+    android.util.Log.v(LOGTAG, msg, new Exception());
+  }
 
   public static void v(String msg) {
     android.util.Log.v(LOGTAG, msg);

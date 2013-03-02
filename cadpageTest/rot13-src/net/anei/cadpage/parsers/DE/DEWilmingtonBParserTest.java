@@ -53,6 +53,11 @@ choyvp pynff QRJvyzvatgbaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
   
+  @Grfg
+  choyvp ibvq grfgZvxrXunvemnqn() {
+    
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj QRJvyzvatgbaOCnefreGrfg().trarengrGrfgf("G1");
   }
