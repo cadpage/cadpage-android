@@ -11,23 +11,29 @@ import net.anei.cadpage.parsers.dispatch.DispatchBParser;
  */
 public class ALMarshallCountyParser extends DispatchBParser {
   
-  private static final Pattern MARKER = Pattern.compile("(?:^|\n)911-CENTER:");
+  private static final Pattern ID_PTN = Pattern.compile("^(\\d+):");
 
   public ALMarshallCountyParser() {
-    super(CITY_LIST, "MARSHALL COUNTY", "AL");
+    super(2, CITY_LIST, "MARSHALL COUNTY", "AL");
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
-    Matcher match = MARKER.matcher(body);
+  public String getFilter() {
+    return "911-CENTER@marshall911.com";
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    Matcher match = ID_PTN.matcher(body);
     if (!match.find()) return false;
+    data.strCallId = match.group(1);
     body = body.substring(match.end()).trim();
     return super.parseMsg(body,  data);
   }
   
   @Override
-  protected boolean isPageMsg(String body) {
-    return true;
+  public String getProgram() {
+    return "ID " + super.getProgram();
   }
   
   private static final String[] CITY_LIST = new String[]{

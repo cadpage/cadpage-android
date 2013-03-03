@@ -10,34 +10,63 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchBParser extends FieldProgramParser {
   
-  private static final String FIELD_PROGRAM = "ADDR/SC XS:X NAME Return_Phone:PHONE Cad:ID!";
   private static final String[] FIXED_KEYWORDS = new String[]{"Map", "Grids", "Cad"};
   private static final String[] KEYWORDS = 
     new String[]{"Loc", "Return Phone", "BOX", "Map", "Grids", "Cad"};
   private static final Pattern REPORT_PTN = Pattern.compile("EVENT:.* Cad: ([-0-9]+) ");
   private static final Pattern PHONE_PTN = Pattern.compile("(?: +(?:VERIZON|AT ?& ?T MOBILITY))? +(\\d{10}|\\d{7}|\\d{3} \\d{7}|\\d{3}-\\d{4})$");
   
+  int version;
+  
   public DispatchBParser(Properties cityCodes, String defCity, String defState) {
-    super(cityCodes, defCity, defState, FIELD_PROGRAM);
-    setup();
+    this(0, cityCodes, defCity, defState);
   }
   
   public DispatchBParser(String[] cityList, String defCity, String defState) {
-    super(cityList, defCity, defState, FIELD_PROGRAM);
-    setup();
+    this(0, cityList, defCity, defState);
   }
   
   public DispatchBParser(String defCity, String defState) {
-    super(defCity, defState, FIELD_PROGRAM);
+    this(0, defCity, defState);
+  }
+  
+  public DispatchBParser(int version, Properties cityCodes, String defCity, String defState) {
+    super(cityCodes, defCity, defState, calcProgram(version));
+    this.version = version;
     setup();
   }
+  
+  public DispatchBParser(int version, String[] cityList, String defCity, String defState) {
+    super(cityList, defCity, defState, calcProgram(version));
+    this.version = version;
+    setup();
+  }
+  
+  public DispatchBParser(int version, String defCity, String defState) {
+    super(defCity, defState, calcProgram(version));
+    this.version = version;
+    setup();
+  }
+  
+  private static String calcProgram(int version) {
+    switch (version) {
+    case 0: return null;
+    case 1: return "ADDR/SC XS:X NAME Return_Phone:PHONE Cad:ID!";
+    case 2: return "CALL ADDR Apt:APT? CITY? PLACE Map:MAP";
+    default:return null;
+    }
+  }
+  
+  private static final int MIN_FIELD_COUNTS[] = new int[]{ 4, 2};
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
     // See if this is the new fangled line break delimited format
-    String[] flds = body.split("\n");
-    if (flds.length >= 4) return parseFields(flds, data);
+    if (version > 0) {
+      String[] flds = body.split("\n");
+      if (flds.length >= MIN_FIELD_COUNTS[version-1]) return parseFields(flds, data);
+    }
  
     // Otherwise use the old logic
     if (! isPageMsg(body)) return false;
@@ -106,6 +135,52 @@ public class DispatchBParser extends FieldProgramParser {
     }
     if (data.strName.equals("UNK")) data.strName = "";
     return true;
+  }
+  
+  private class BaseCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf('>');
+      if (pt < 0) abort();
+      data.strCode = field.substring(0,pt).trim();
+      data.strCall = field.substring(pt+1).trim();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE CALL";
+    }
+  }
+  
+  private class BaseAptField extends AptField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf("Bldg");
+      if (pt >= 0) field = append(field.substring(pt+4).trim(), "-", field.substring(0,pt).trim());
+      super.parse(field, data);
+    }
+  }
+  
+  private class BaseMapField extends MapField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf("Grids:");
+      if (pt >= 0) {
+        String grid = field.substring(pt+6).trim();
+        if (grid.equals("00000,000")) grid = "";
+        field = field.substring(0,pt).trim();
+        field = append(field, "-", grid);
+      }
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new BaseCallField();
+    if (name.equals("APT")) return new BaseAptField();
+    if (name.equals("MAP")) return new BaseMapField();
+    return super.getField(name);
   }
   
   private void setup() {

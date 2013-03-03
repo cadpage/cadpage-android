@@ -547,6 +547,19 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SBERFG SVER;ZNC:33",
         "PNYY:SBERFG SVER",
         "ZNC:33");
+    
+    qbSvryqGrfg("QbhoyrGnt-1", "PNYY Ncg:NCG? PVGL Znc:ZNC",
+        "OVT SVER;XRAGBJA;Znc:K21",
+        "PNYY:OVT SVER",
+        "PVGL:XRAGBJA",
+        "ZNC:K21");
+    
+    qbSvryqGrfg("QbhoyrGnt-2", "PNYY Ncg:NCG? PVGL Znc:ZNC",
+        "OVT SVER;Ncg:O;XRAGBJA;Znc:K21",
+        "PNYY:OVT SVER",
+        "NCG:O",
+        "PVGL:XRAGBJA",
+        "ZNC:K21");
 
   }
   

@@ -1224,13 +1224,26 @@ public class FieldProgramParser extends SmartAddressParser {
           
           // if the current start step is also untagged, process it normally
           if (startStep.tag == null) break;
-          
-          // If the current step is tagged, untagged data fields will usually be 
-          // ignored until we come to the tagged step.  An exception is made if
-          // the current step tag matches the previous step tag, in which case it
-          // is assumed that the untagged data field inherits the tag from a
-          // previous data field.
+
+          // Current step is tagged, current data field is untagged
+          // If the current step tag matches the previous step tag we assume that
+          // the untagged field inherits a tag label form a previous data field.
           if (lastStep != null && startStep.tag.equals(lastStep.tag)) break;
+          
+          // No luck there.  If the the current step is an optional tagged step, skip ahead to
+          // see if we can find a untagged step to match this with data field
+          if (startStep.optional) {  
+            Step tStep = startStep;
+            do {
+              tStep = tStep.nextStep;
+            } while (tStep != null && tStep.tag != null && tStep.optional);
+            if (tStep != null && tStep.tag == null) {
+              procStep = tStep;
+              break;
+            }
+          }
+
+          // Still no luck, Skip this data field and go on to the next one
           if (++ndx >= flds.length) {
             
             // There is no data field matching this steps tag
@@ -1590,6 +1603,7 @@ public class FieldProgramParser extends SmartAddressParser {
   /**
    * Place field processor
    */
+  private static final Pattern PLACE_SKIP_PTN = Pattern.compile("VERIZON(?: WIRELESS)?|AT ?& ?T(?: MOBILITY)", Pattern.CASE_INSENSITIVE);
   public class PlaceField extends Field {
     
     public PlaceField() {};
@@ -1602,6 +1616,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void parse(String field, Data data) {
+      if (PLACE_SKIP_PTN.matcher(field).matches()) return;
       data.strPlace = field;
     }
     

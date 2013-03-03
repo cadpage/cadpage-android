@@ -279,7 +279,6 @@ choyvp pynff APYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:IRUVPYR NPP CQ BAYL",
         "NQQE:7046787685",
         "ZNQQE:7046787685 & FUBNY EQ",
-        "CYNPR:NG&G ZBOVYVGL",
         "K:FUBNY EQ/YNZN YA",
         "VASB:IRU VF CNEGYL VA EQJL",
         "QNGR:05/25/12",

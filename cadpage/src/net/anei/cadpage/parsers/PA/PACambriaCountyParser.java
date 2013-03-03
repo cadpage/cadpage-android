@@ -17,7 +17,7 @@ public class PACambriaCountyParser extends FieldProgramParser {
   
   public PACambriaCountyParser() {
     super(CITY_CODES, "CAMBRIA COUNTY", "PA",
-           "( Date:DATE | ) ( Time:TIME! Nature:CALL! Add:ADDR/y! Cross:X? | DATE:DATE! TIME CALL ADDR/y X ) UNIT Sta:UNIT");
+           "( Date:DATE | ) ( Time:TIME! Nature:CALL! Add:ADDR/y! Cross:X? UNIT | DATE:DATE! TIME CALL ADDR/y X UNIT ) Sta:UNIT");
   }
   
   @Override

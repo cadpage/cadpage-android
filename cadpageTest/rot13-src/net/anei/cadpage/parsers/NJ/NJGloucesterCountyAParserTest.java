@@ -348,8 +348,8 @@ choyvp pynff AWTybhprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:NYEZ",
         "PNYY:Sver Nynez Flfgrz",
         "CEV:3",
-        "NQQE:Ovepurf",
-        "NCG:f-1",
+        "NQQE:Ovepurf Ncgf",
+        "NCG:1",
         "PVGL:JNFUVATGBA GJC",
         "HAVG:102",
         "VASB:FBHAQF YVXR JUBYR OHVYQVAT FBHAQVAT 600 OHVYQVAT");
@@ -1337,8 +1337,8 @@ choyvp pynff AWTybhprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:OYRQ",
         "PNYY:Oyrrqvat",
         "CEV:3",
-        "NQQE:Jurng Znabe",
-        "NCG:f-29",
+        "NQQE:Jurng Znabe Ncgf",
+        "NCG:29",
         "PVGL:OHRAN IVFGN GJC",
         "HAVG:R1192 119",
         "VASB:0155 - 11-9 Ohran Obeb RZF\a13/Z BCRAVAT PNA BS PNG SBBQ PHG SVATRE");
@@ -1769,8 +1769,7 @@ choyvp pynff AWTybhprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SNYY",
         "PNYY:Snyy Ivpgvz",
         "CEV:3",
-        "NQQE:Ohran Greenpr",
-        "NCG:f",
+        "NQQE:Ohran Greenpr Ncgf",
         "PVGL:OHRAN IVFGN GJC",
         "HAVG:R1191 119",
         "VASB:0145 - 11-9 Ohran Obeb RZF\aNCG 304\a94/S - SRYY - CNVA VA YBJRE RKGERZVAGL");
