@@ -52,7 +52,7 @@ public class DispatchBParser extends FieldProgramParser {
     switch (version) {
     case 0: return null;
     case 1: return "ADDR/SC XS:X NAME Return_Phone:PHONE Cad:ID!";
-    case 2: return "CALL ADDR Apt:APT? CITY? PLACE Map:MAP";
+    case 2: return "CALL ADDR Apt:APT? CITY? PLACE Map:MAP Cad:ID";
     default:return null;
     }
   }

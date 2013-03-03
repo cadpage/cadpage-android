@@ -17,9 +17,11 @@ TERRAR 911:FZBXR >FZBXR VAIRFGVTNGVBA 2AQ FG IRAGR WBRNA Pnq: 2010-0000034969
 TERRAR 911:CVNN >ZIN JVGU VAWHEVRF ZNEXRG FG NGURAF OHPUNXVNA,QNIVQ Pnq: 2010-0000033852
 TERRAR 911:FGEHPG>FGEHPGHER SVER 408 J OEVQTR FG PNGFXVYY YNVEQ, WNPDHRYLAA Pnq: 2010-0000034875
 TERRAR 911:NYNEZS>SVER NYNEZ 341 J ZNVA FG PNGFXVYY IVYYNTR #401 Znc: Tevqf:, Pnq: 2011-0000011139
-
 SEZ:TERRAR911@guvaxterrar.hf\aZFT:TERRAR911:FGEHPG>FGEHPGHER SVER FYRRCL UBYYBJ EQ & YNXR IVRJ Q NGURAF ONEONEN Pnq: 2012-0000002596
 
+Pbagnpg: Arvy Xryyrture <xryyrture@lnubb.pbz>
+Fraqre: TERRAR911@guvaxterrar.hf
+SEZ:TERRAR911@guvaxterrar.hf\aZFT:TERRAR911:IRUVPY>IRUVPYR SVER\aEBHGR 23\aQHEUNZ\aWNRTRE, WRNA\aZnc: Tevqf:,\aPnq: 2013-0000005477
 
 */
 
@@ -92,9 +94,22 @@ choyvp pynff ALTerrarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
    
   }
   
+  @Grfg
+  choyvp ibvq grfgArvyXryyrture() {
+
+    qbGrfg("G1",
+        "SEZ:TERRAR911@guvaxterrar.hf\aZFT:TERRAR911:IRUVPY>IRUVPYR SVER\aEBHGR 23\aQHEUNZ\aWNRTRE, WRNA\aZnc: Tevqf:,\aPnq: 2013-0000005477",
+        "PNYY:IRUVPYR SVER",
+        "NQQE:EBHGR 23",
+        "PVGL:QHEUNZ",
+        "ANZR:WNRTRE, WRNA",
+        "VQ:2013-0000005477");
+
+  }
+  
   
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALTerrarPbhaglCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE PVGL ANZR ZNC VQ");
+    arj ALTerrarPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
