@@ -488,7 +488,7 @@ abstract class Vendor {
         
         // A 299 response indicates that the server has been having trouble with our registration ID
         // and we should request another one.
-        if (status == 299) C2DMService.register(context);
+        if (status == 299) C2DMService.register(context, true);
         
         // That is all we have to do.  The GCM protocol, it has it's own way of 
         // getting the new registration ID to our servers.  So we don't have to do anything 
