@@ -23,6 +23,7 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
 
   public MDCharlesCountyAParser() {
     super( "CHARLES COUNTY", "MD");
+    setFieldList("CALL UNIT ADDR APT PLACE CODE MAP INFO ID");
   }
   
   @Override
@@ -126,7 +127,7 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
       // Otherwise we have to use the smart parser to separate out what we didn't get
       int flags = (mapSt >= 0 ? FLAG_ANCHOR_END : 0);
       parseAddress(start, flags, body, data);
-      good = (getStatus() > 0);
+      good = (getStatus() > 1);
 
       if (data.strCall.endsWith(",")) data.strCall = data.strCall.substring(0, data.strCall.length()-1).trim();
       

@@ -95,6 +95,11 @@ choyvp pynff ZQPuneyrfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq onqZft() {
+    qbOnqGrfg("Obql:(Ohqql Juvgr Pb 7 qvrq guvf zbeavat. Neenatrzragf ...) Ohqql Juvgr Pb 7 qvrq guvf zbeavat. Neenatrzragf jvyy sbyybj.");
+  }
+  
+  @Grfg
   choyvp ibvq grfgCnefre() {
 
     qbGrfg("G1",
@@ -510,7 +515,7 @@ choyvp pynff ZQPuneyrfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
     
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZQPuneyrfPbhaglNCnefreGrfg().trarengrGrfgf("G1", "PNYY HAVG NQQE NCG CYNPR PBQR ZNC VASB VQ");
+    arj ZQPuneyrfPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }
 
 }
