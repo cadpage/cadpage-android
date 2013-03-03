@@ -17,7 +17,7 @@ public class PAMontgomeryCountyBParser extends DispatchA8Parser {
   
   @Override
   public String getFilter() {
-    return "Beryl0908@comcast.net";
+    return "Beryl0908@comcast.net,adi53@comcast.net";
   }
 
   @Override
@@ -30,18 +30,20 @@ public class PAMontgomeryCountyBParser extends DispatchA8Parser {
     }
     if (! super.parseMsg(body, data)) return false;
     if (data.strSupp.equals("SPECIAL ADDRESS COMMENT:")) data.strSupp = "";
-    while (!sExtra.startsWith("** ")) {
-      pt = sExtra.indexOf('\n');
-      if (pt < 0) return false;
-      data.strSupp = append(data.strSupp, "/n", sExtra.substring(0,pt).trim());
-      sExtra = sExtra.substring(pt+1).trim();
+    if (sExtra.length() > 0) {
+      while (!sExtra.startsWith("** ")) {
+        pt = sExtra.indexOf('\n');
+        if (pt < 0) return false;
+        data.strSupp = append(data.strSupp, "/n", sExtra.substring(0,pt).trim());
+        sExtra = sExtra.substring(pt+1).trim();
+      }
+      
+      Parser p = new Parser(sExtra);
+      data.strCallId = getPatternValue(p, CALL_ID_PTN);
+      data.strCross = getPatternValue(p, CROSS_STREET_PTN);
+      data.strCity = convertCodes(getPatternValue(p, MUNICIPALITY_PTN), PAMontgomeryCountyParser.CITY_CODES);
+      data.strUnit = getPatternValue(p, UNIT_PTN);
     }
-    
-    Parser p = new Parser(sExtra);
-    data.strCallId = getPatternValue(p, CALL_ID_PTN);
-    data.strCross = getPatternValue(p, CROSS_STREET_PTN);
-    data.strCity = convertCodes(getPatternValue(p, MUNICIPALITY_PTN), PAMontgomeryCountyParser.CITY_CODES);
-    data.strUnit = getPatternValue(p, UNIT_PTN);
     
     return true;
   }

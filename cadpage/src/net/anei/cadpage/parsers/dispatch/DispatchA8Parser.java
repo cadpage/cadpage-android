@@ -11,7 +11,7 @@ public class DispatchA8Parser extends FieldProgramParser {
   
   protected DispatchA8Parser(String defCity, String defState) {
     super(defCity, defState,
-           "DISPATCH? TIME CALL ADDR PLACE NAME PHONE! MAP INFO+");
+           "DISPATCH? TIME CALL ADDR PLACE ( MAP X | NAME PHONE! MAP ) INFO+");
   }
   
   @Override
@@ -48,8 +48,9 @@ public class DispatchA8Parser extends FieldProgramParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("DISPATCH")) return new SkipField("Dispatch", true);
-    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d(?::\\d\\d)?|", true);
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d(?::\\d\\d)?", false);
     if (name.equals("PLACE")) return new BasePlaceField();
+    if (name.equals("MAP")) return new MapField("\\d\\d-[A-Z0-9]\\d", false);
     return super.getField(name);
   }
   
