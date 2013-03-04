@@ -1,38 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02272013</string>
-  <string name="release_version">v1.6.11</string>
+  <string name="release_date">03042013</string>
+  <string name="release_version">v1.6.12</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Teller County, CO\n
-Wilmington, DE (alt)\n
-Bullit County, KY\n
-Montgomery County, PA (alt)\n
-Fairfax County, VA\n
 \n      
 Location Parsing Fixes:\n
-Durham County, AL\n
-Lake County, CA\n
-Douglas County, CO\n
-Waterford Town, CT\n
-Champaign Urbana, IL\n
-Johnson County, KS\n
-Fulton County, NY\n
-Ontario County, NY\n
-Pitt County, NC\n
-Sampson County, NC\n
-Beaver County, PA\n
-Chester County, PA\n
-Lackawanna County, PA\n
+Marshall County, AL\n
+Shelby County, AL\n
+Sussex County, DE\n
+Mercer County, PA\n
 Montgomery County, PA\n
-Florence County, SC\n
-Hampshire County, WV\n
+Charles County, MD\n
+Greene County, NY\n
 \n
 General Fixes:\n
-Improved logic handing direct paging registrations.\n
-No error display when invalid authorization code entered\n
+More attempt to identify and resolve direct paging registration issues.\n
   </string>  
 </resources>
   

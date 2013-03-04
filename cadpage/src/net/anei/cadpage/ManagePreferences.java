@@ -1006,9 +1006,15 @@ public class ManagePreferences {
 
     Map<String, ?> map = prefs.mPrefs.getAll();
     
+    Object regId = null;
     for (int key : pref_keys) {
       String keyName = context.getString(key);
-      sb.append(String.format("%s: %s\n", keyName, map.get(keyName)));
+      Object value = map.get(keyName);
+      if (key == R.string.pref_registration_id_key) regId = value;
+      if (key == R.string.pref_prev_registration_id_key) {
+        if (value != null && value.equals(regId)) value = "< Same >";
+      }
+      sb.append(String.format("%s: %s\n", keyName, value));
     }
 
     // Add locale info
