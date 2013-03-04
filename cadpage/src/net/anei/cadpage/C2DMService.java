@@ -96,7 +96,7 @@ public class C2DMService extends IntentService {
         if (regId != null) {
           Log.w("C2DM registration cancelled: " + regId);
           ManagePreferences.setRegistrationId(null);
-          ManagePreferences.setRegisterReq(0);
+          ManagePreferences.setRegisterReqActive(false);
           VendorManager.instance().unregisterC2DMId(C2DMService.this, regId);
           EmailDeveloperActivity.logSnapshot(C2DMService.this, "GCM Registration unregister report");
           return;
@@ -106,7 +106,7 @@ public class C2DMService extends IntentService {
         if (regId != null) {
           Log.w("C2DM registration succeeded: " + regId);
           ManagePreferences.setRegistrationId(regId);
-          ManagePreferences.setRegisterReq(0);
+          ManagePreferences.setRegisterReqActive(false);
           VendorManager.instance().registerC2DMId(C2DMService.this, regId);
           return;
         }
@@ -427,7 +427,13 @@ public class C2DMService extends IntentService {
    * @return true if request was initiated
    */
   private static boolean startRegisterRequest(Context context, int reqCode, boolean auto) {
+    
+    // Don't do anything if we already have an active ongoing request for this type
+    if (ManagePreferences.registerReqActive() && ManagePreferences.registerReq() == reqCode) return true;
+    
+    // Set the current registration status and launch the request
     ManagePreferences.setRegisterReq(reqCode);
+    ManagePreferences.setRegisterReqActive(true);
     return startRegisterRequest(context, reqCode, (auto ? INIT_REREGISTER_DELAY : 0));
   }
   

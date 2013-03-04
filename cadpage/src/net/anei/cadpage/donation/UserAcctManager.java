@@ -119,9 +119,6 @@ public abstract class UserAcctManager {
           
           // Request status reload from server
           UserAcctManager.instance().reloadStatus(context);
-
-          ManagePreferences.setInitialized(false);
-          reloadStatus(context);
         }
       }
     }

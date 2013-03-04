@@ -96,6 +96,9 @@ public class ManagePreferences {
     // Set the install date if it hasn't already been set
     setInstallDate();
     
+    // Clear GCM registration in progress flag
+    if (registerReqActive()) setRegisterReqActive(false);
+    
     // Finally set the application enable status
     String enableStr = (enabled() ? enableMsgType() : "");
     SmsPopupUtils.enableSMSPopup(context, enableStr);
@@ -792,6 +795,8 @@ public class ManagePreferences {
   }
   
   public static void setRegistrationId(String regId) {
+    String oldRegId = registrationId();
+    if (oldRegId != null) prefs.putString(R.string.pref_prev_registration_id_key, oldRegId);
     prefs.putString(R.string.pref_registration_id_key, regId);
   }
   
@@ -800,6 +805,14 @@ public class ManagePreferences {
     if (versionCode == prevVersion) return false;
     prefs.putInt(R.string.pref_prev_version_code, versionCode);
     return true;
+  }
+  
+  public static boolean registerReqActive() {
+    return prefs.getBoolean(R.string.pref_register_req_active_key);
+  }
+  
+  public static void setRegisterReqActive(boolean newVal) {
+    prefs.putBoolean(R.string.pref_register_req_active_key, newVal);
   }
   
   public static int registerReq() {
@@ -983,7 +996,9 @@ public class ManagePreferences {
         R.string.pref_auth_last_check_time_key,
         
         R.string.pref_registration_id_key,
+        R.string.pref_prev_registration_id_key,
         R.string.pref_prev_version_code,
+        R.string.pref_register_req_active_key,
         R.string.pref_register_req_key,
         R.string.pref_reregister_delay_key,
         R.string.pref_register_date_key
