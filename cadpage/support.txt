@@ -206,7 +206,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-XHLIIJCA or xhliijca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+JCJJBBFA or jcjjbbfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -292,7 +292,7 @@ If you do this, please include your Cadpage User email address (usually a gmail 
 We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them other then getting staff and volunteer members to bring it up.  If you can talk them into it, they get a 30% discount or more!  Details can be found at http://www.cadpage.org/financial-support/other-support-options.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-XHLIIJCA or xhliijca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+JCJJBBFA or jcjjbbfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -433,7 +433,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XHLIIJCA or xhliijca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+JCJJBBFA or jcjjbbfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -447,7 +447,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XHLIIJCA or xhliijca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+JCJJBBFA or jcjjbbfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -457,7 +457,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XHLIIJCA or xhliijca.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+JCJJBBFA or jcjjbbfa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -687,6 +687,14 @@ LATE PAGES:
 If you can long press one of the calls you get and select Report Problem to send them to us, I could give you a better idea what is happening.  I need to see all of the alerts that are associated with one of your calls.
 
 *******************************************************************
+This has been reported by a few people using direct paging.  The Google protocol we use to push pages out to Cadpage seems to suffer from unexplained delays.  If only affects a few people, but once it starts happening it seems to reoccur.  Usually restarting the device and reconnecting to your direct paging vendor fixes the problem.  To do that, go into settings and select
+Direct Paging Vendors > Reconnect Direct Paging
+
+You can go to the Active911 member info page, select the devices tab and send yourself a test message to see how it is working.
+
+Good luck,
+-Ken 
+******************************************************************
 
 Here is the long list of things to check when Cadpage is not working. Some things may not apply to you. The important steps are the last two.  They send us information about your text pages that we need to figure out what is wrong.
 
@@ -1269,5 +1277,17 @@ the lucky ones that, life is good.  If not, the only way you can get
 pages to the tablet is if you use CodeMessaging.net or Active911.com as
 your message service.
 
+*******************************************************************
+explanation of DEMO status vs PAID for length of time left
+
+All is working as it should.  You have a paid subscription that will expire on 3/15/13.  But you reinstalled Cadpage on 1/27/13, and since then you have used only 5 days of the allotted 30 day evaluation period.  Cadpage does the math and figures your new evaluation period expires somewhere around 3/29/13.   Since you get more time as an evaluation demo that you do under the paid subscription, it reports the evaluation demo status.
+
+The process isn't perfect, since you don't see the paid subscription expiration warning, you don't get informed that you can continue to run Cadpage beyond that date as long as you do not install a released published after that date.  But that still is an option.
+
+Hope that all made sense, 
+Ken
+
+*********************
+end
 
 
