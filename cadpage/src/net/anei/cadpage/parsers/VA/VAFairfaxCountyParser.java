@@ -1,9 +1,13 @@
 package net.anei.cadpage.parsers.VA;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class VAFairfaxCountyParser extends FieldProgramParser {
+  
+  private static final Pattern DELIM = Pattern.compile("/ *\n");
   
   public VAFairfaxCountyParser() {
     super("FAIRFAX COUNTY", "VA",
@@ -13,14 +17,18 @@ public class VAFairfaxCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "EAN_23NQ@ean.fairfaxcounty.gov";
+    return "EAN_23NQ@ean.fairfaxcounty.gov,EAN";
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    int pt = body.indexOf("\n\nSent on:");
+    int pt = body.indexOf("\nSent on:");
     if (pt >= 0) body = body.substring(0,pt).trim();
-    return parseFields(body.split("/\n"), data);
+    
+    if (body.length() < 4) return false;
+    if (!body.startsWith("Box")) return false;
+    setBreakChar(body.charAt(3));
+    return parseFields(DELIM.split(body), 3, data);
   }
   
   private class MyAddressField extends AddressField {
