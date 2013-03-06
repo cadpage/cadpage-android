@@ -85,7 +85,8 @@ public class Message {
     Pattern.compile("^(\\d)/(\\d)(?=\\d{3,}:)"),  // This one is scarry !!!
     Pattern.compile("\\[(\\d) of (\\d)\\]$"),
     Pattern.compile(":(\\d)of(\\d)$"),
-    Pattern.compile("^[A-Z]+ +\\((\\d)/(\\d)\\) +(.*?) +STOP$")
+    Pattern.compile("^[A-Z]+ +\\((\\d)/(\\d)\\) +(.*?) +STOP$"),
+    Pattern.compile("^\\( *([^\\)]*?) +(\\d) *of *(\\d)\\)(.*)$")
   };
   private static final Pattern[] SUBJECT_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(\\d)/(\\d)$")
@@ -159,14 +160,21 @@ public class Message {
         if (found) break;
       }
       if (found) {
-        boolean pinned = (match.groupCount() == 3 && match.start() == 0 && match.end() == body.length());
+        boolean pinned = (match.groupCount() >= 3 && match.start() == 0 && match.end() == body.length());
         int ndx = 1;
-        if (!pinned && match.groupCount() == 3) {
+        if (pinned) {
+          if (match.groupCount() == 4) {
+            addSubject(match.group(ndx++));
+          }
+        } 
+        else if (match.groupCount() == 3) {
           parseAddress = match.group(ndx++);
         }
         msgIndex = Integer.parseInt(match.group(ndx++));
         msgCount = Integer.parseInt(match.group(ndx++));
-        if (pinned) body = match.group(ndx);
+        if (pinned) {
+          body = match.group(ndx);
+        }
         else if (match.start() == 0) {
           String origBody = body;
           body = trimLead(body.substring(match.end()));
