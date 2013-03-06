@@ -5515,13 +5515,6 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (FBO) :21:08|TNFYRNX|BYQZNGNJNA EQ|GBJA YVAR gb XRNEARL NI|||FBOSQ
 (FBO) :14:25|SNYNEZ|100 GVPRGBJA EQ||INYYRLINYR QE GB WRAAVSRE YA||FBOSQ
 **********************************************************
-Rqtrpbzor Pbhagl, AP
-Pbagnpg: Onggyrobeb Sver Qrcg. <opisq@fhqqrayvaxznvy.pbz>
-Fraqre: rqtrpbzor911@pb.rqtrpbzor.ap.hf
-Flfgrz: Cntrtngr
-F: Z:Rqtrpbzor911:* 2031 GNAARE EQ* * * EBPXL ZBHAG* * Yvar7=* Yvar8=* Yvar9=* Yvar10=* Yvar11=FGEHPGHER SVER – UBHFR, PUHEPU, BPPHCVRQ QJRYYVAT* Yvar12=* Yvar13=* Y 
-F: Z:Rqtrpbzor911:* 720 QHAONE JBBQF EQ* * * ONGGYROBEB* * Yvar7=* Yvar8=* Yvar9=* Yvar10=* Yvar11=SVER NYNEZ NPGVINGVBA* Yvar12=* Yvar13=* Yvar14=18SQ1,19SQ1,9SQANF 
-**********************************************************
 Yrrgbavn, BU (va Pbyhzovnan Pbhagl)
 Pbagnpg: avtugeu@ngg.arg <avtugeu@ngg.arg>
 Fraqre: yrrgbavnsq@ubgznvy.pbz
@@ -5800,6 +5793,14 @@ QP911:ANGHER: 10-52 /YBPNGVBA: 14020 240GU NIR /PBZZRAGF: PNE IF UBHFR 1 ZNYR VA
 QP911:ANGHER: 10-52 /YBPNGVBA: UJL 86/UJL 71 /PBZZRAGF: 10-50 CV 
 QP911:[02-NI]- ANGHER: 52 YBPNGVBA: 107 A 3EQ FG GREEVY PBZZ RAGF: 62 LB SRZNYR NAQ URE UVC VF BHG NTNVA. GUVEQ GVZR VGF UNCCRARQ
 QP911:[02-NI]- ANGHER: 52 YBPNGVBA: 2505 YVAPBYA NIR FCVEVG YNXR ORGJRRA 23EQ FG / 28GU FG PBZZRAGF: 62 LB QVNORGVP CEB OYRZ PBAPVBHF NAQ OERNGUVAT FUNXVAT O
+**********************************************************
+Rqtrpbzor Pbhagl, AP
+Pbagnpg: Onggyrobeb Sver Qrcg. <opisq@fhqqrayvaxznvy.pbz>
+Fraqre: rqtrpbzor911@pb.rqtrpbzor.ap.hf
+Flfgrz: Cntrtngr
+F: Z:Rqtrpbzor911:* 2031 GNAARE EQ* * * EBPXL ZBHAG* * Yvar7=* Yvar8=* Yvar9=* Yvar10=* Yvar11=FGEHPGHER SVER – UBHFR, PUHEPU, BPPHCVRQ QJRYYVAT* Yvar12=* Yvar13=* Y 
+F: Z:Rqtrpbzor911:* 720 QHAONE JBBQF EQ* * * ONGGYROBEB* * Yvar7=* Yvar8=* Yvar9=* Yvar10=* Yvar11=SVER NYNEZ NPGVINGVBA* Yvar12=* Yvar13=* Yvar14=18SQ1,19SQ1,9SQANF 
+F: Z:Rqtrpbzor911:6120 BYQ ONGGYROBEB EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,JUVGNXREF1
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
 Pbagnpg: wrerzl ubsszna <sverznaw79@tznvy.pbz>

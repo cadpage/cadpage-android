@@ -44,7 +44,7 @@ public class INStarkeCountyParser extends FieldProgramParser {
   
   // The address city class is complicated.  It comes in two flavors, the
   // first is an optional repeat and will not validate data fields.
-  // The second always finishes thing up, and it will vaidate the data field
+  // The second always finishes thing up, and it will validate the data field
   private class MyCallAddressField extends AddressField {
     private boolean lastField;
     
@@ -128,10 +128,19 @@ public class INStarkeCountyParser extends FieldProgramParser {
         }
 
         // If this is the first bit of address information
-        // See if it starts with a house number/direction combination
+        // See if it starts with a sequence that looks like it should be appended 
+        // to the call description
+        Matcher match = CALL_EXTEND_PTN.matcher(part);
+        if (match.find()) {
+          char connect = (ndx == 0 ? '/' : ',');
+          data.strCall = data.strCall + connect + match.group(1);
+          part = part.substring(match.end());
+        }
+        
+        // Now see if it starts with a house number/direction combination
         // that needs to be split up
         if (data.strAddress.length() == 0) {
-          Matcher match = HOUSE_NUMBER_PTN2.matcher(part);
+          match = HOUSE_NUMBER_PTN2.matcher(part);
           if (match.find()) {
             data.strAddress = append(match.group(1), " ", getOptGroup(match.group(2)));
             part = part.substring(match.end()).trim();
@@ -158,6 +167,7 @@ public class INStarkeCountyParser extends FieldProgramParser {
   }
   private static final Pattern HOUSE_NUMBER_PTN1 = Pattern.compile(" (\\d+) *([NSEW]?)$");
   private static final Pattern HOUSE_NUMBER_PTN2 = Pattern.compile("^(\\d+) *([NSEW]?)\\b");
+  private static final Pattern CALL_EXTEND_PTN = Pattern.compile("^(AMBULANCE|MEDICAL|RESCUE)\\b *");
   
   private class MySourceField extends SourceField {
     @Override
