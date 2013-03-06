@@ -9,7 +9,7 @@ public class PAMontgomeryCountyFParser extends FieldProgramParser {
   
   public PAMontgomeryCountyFParser() {
     super(PAMontgomeryCountyParser.CITY_CODES, "MONTGOMERY COUNTY", "PA",
-           "CALL UNIT ADDR CITY X ID DISPATCH TIME PLACE UNK UNK MAP INFO+");
+           "CALL UNIT ADDR CITY X ID DISPATCH TIME PLACE UNK UNK MAP! INFO+");
   }
   
   @Override
@@ -22,7 +22,7 @@ public class PAMontgomeryCountyFParser extends FieldProgramParser {
     
     if (body.endsWith("~")) body = body + " ";
     body = body.replace('\n', ' ');
-    return parseFields(body.split(" ~ "), data);
+    return parseFields(body.split(" ~ "), 12, data);
   }
   
   private class MyPlaceField extends PlaceField {

@@ -28,6 +28,11 @@ choyvp pynff CNZbagtbzrelPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgOnq() {
+    qbOnqGrfg("UNCCL OVEGUQNL GB ZVFF QRNAQEN!!!!!!!");
+  }
+  
+  @Grfg
   choyvp ibvq grfgCnefre() {
 
     qbGrfg("G1",
