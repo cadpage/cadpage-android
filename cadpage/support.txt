@@ -1299,6 +1299,13 @@ Thank you again!
 Jesse
 (713) 823-4924
 
+****************************
+get Cadpage to work while roaming
+
+Go into Cadpage Additional Settings and set the "Map Network Status"
+setting to "Roaming".
+
+********************************************
 
 end
 
