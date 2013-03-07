@@ -11,6 +11,11 @@ Fraqre: nyreg@orexryrlji.bet
 
 Fhowrpg:Nyreg\aQrfpevcgvba:SHRY PBA FZ\aNqqerff: 14000 V-81 \aZNEGVAFOHET\a\a
 
+Pbagnpg: fgpzsq1 <fgpzsq1@ubgznvy.pbz>
+Fraqre: nyreg@orexryrlji.bet
+F:NyregZ:Qrfpevcgvba:NYEZ UY/UE\aNqqerff: 703 CBEGRE NIR \aZNEGVAFOHET
+F:NyregZ:Qrfpevcgvba:NYEZ UY/UE\aNqqerff: 200 R FGRCURA FG \aZNEGVAFOHET\a\a
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fbhgu Orexryrl ISP
 Ybpngvba: Vajbbq, JI, Havgrq Fgngrf
@@ -93,6 +98,23 @@ choyvp pynff JIOrexryrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:14000 V 81",
         "PVGL:ZNEGVAFOHET");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgfgzpsq1() {
+
+    qbGrfg("G1",
+        "F:NyregZ:Qrfpevcgvba:NYEZ UY/UE\aNqqerff: 703 CBEGRE NIR \aZNEGVAFOHET",
+        "PNYY:UVTU EVFR SVER NYNEZ",
+        "NQQE:703 CBEGRE NIR",
+        "PVGL:ZNEGVAFOHET");
+
+    qbGrfg("G2",
+        "F:NyregZ:Qrfpevcgvba:NYEZ UY/UE\aNqqerff: 200 R FGRCURA FG \aZNEGVAFOHET\a\a",
+        "PNYY:UVTU EVFR SVER NYNEZ",
+        "NQQE:200 R FGRCURA FG",
+        "PVGL:ZNEGVAFOHET");
+   
   }
   
   @Grfg

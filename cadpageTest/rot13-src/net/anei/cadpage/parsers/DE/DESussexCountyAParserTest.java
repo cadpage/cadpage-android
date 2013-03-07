@@ -53,6 +53,9 @@ PBagnpg: "pvtabgvf7@tznvy.pbz" <pvtabgvf7@tznvy.pbz>
 Fraqre: zft@pszft.pbz
 Fhowrpg:Puvrs NYG\a[71 RZF] -- Nffnhyg/Frkhny Nffnhyg-NYF -- 25687 Pbearyvn Fg Frnsbeq 19973\a
 
+Pbagnpg: Yrj Gnyyrl <yrj.gnyyrl83@tznvy.pbz>
+Fraqre: nyreg@pszft.pbz
+(Puvrs NYG) [83 SVER] -- Bhgfvqr Sver -- 24322 - 24557 Tbqjva Fpub Zvyyfobeb 19966 -- KFG: Eriry Eq & Oryzbag Oyiq
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zvq Fhffrk Erfphr Fdhnq
@@ -387,6 +390,21 @@ choyvp pynff QRFhffrkPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:36101 Frnfvqr Oyiq",
         "PVGL:Erubobgu Ornpu",
         "CYNPR:Oenaqljvar Nffvfgrq Yvivat");
+   
+  }
+  
+  
+  @Grfg
+  choyvp ibvq grfgYrjGnyyrl() {
+
+    qbGrfg("G1",
+        "(Puvrs NYG) [83 SVER] -- Bhgfvqr Sver -- 24322 - 24557 Tbqjva Fpub Zvyyfobeb 19966 -- KFG: Eriry Eq & Oryzbag Oyiq",
+        "FEP:83 SVER",
+        "PNYY:Bhgfvqr Sver",
+        "NQQE:24322 - 24557 Tbqjva Fpub",
+        "ZNQQE:24322 Tbqjva Fpub",
+        "PVGL:Zvyyfobeb",
+        "CYNPR:KFG: Eriry Eq & Oryzbag Oyiq");
    
   }
   

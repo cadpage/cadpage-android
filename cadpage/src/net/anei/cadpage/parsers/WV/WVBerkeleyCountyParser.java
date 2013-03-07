@@ -23,7 +23,14 @@ public class WVBerkeleyCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Alert")) return false;
+    if (!subject.startsWith("Alert")) return false;
+    
+    // Someone is terminating the subject with a colon instead of a newline.  
+    // If we find that, the rest of the subject really belongs in the  main text
+    int pt = subject.indexOf(':');
+    if (pt >= 0) {
+      body = subject.substring(pt+1).trim() + '\n' + body;
+    }
     return parseFields(body.split("\n"), 3, data);
   }
   
