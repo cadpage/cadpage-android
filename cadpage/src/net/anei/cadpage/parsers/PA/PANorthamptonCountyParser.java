@@ -73,6 +73,7 @@ public class PANorthamptonCountyParser extends DispatchBParser {
     "HANOVER TWP",
     "LEHIGH TWP",
     "LOWER MOUNT BETHEL TWP",
+    "LOWER MT BETHEL",
     "LOWER NAZARETH TWP",
     "LOWER SAUCON TWP",
     "MOORE TWP",
