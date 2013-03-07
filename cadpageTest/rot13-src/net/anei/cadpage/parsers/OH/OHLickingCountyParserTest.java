@@ -37,7 +37,7 @@ YP911:- Angher: PUBXVAT - Ybpngvba:     155.00  PYNEX QE WBUAFGBJA -
 
 YP911:FVPX CREFBA     48 A XNFFBA FG   WBUAFGBJA
 
-Pbagnpg: Zvpunry Fvzzf <zvpunry.n.fvzz
+Pbagnpg: Zvpunry Fvzzf <zvpunry.n.fvzzf@tznvy.pbz>
 YP911:GENSSVP NPPVQRAG 161 JO ARNE ORRPU EQ\a
 YP911:SVER - UBHFR 13335 ABEGU QE BHGFVQR R 9-1-1 PB\a
 
@@ -210,7 +210,16 @@ choyvp pynff BUYvpxvatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
   
+  @Grfg
+  choyvp ibvq grfgQQrpxre() {
+
+    qbGrfg("G1",
+        "(Znqvfba Sver) YP911:[3298]- ANGHER: SNYYF YBPNGVBA: 11397 FGNQQRAF OEVQTR EQ FR ZNQVFBA GJC ORGJRRA JRVNAG EQ / YRFYRL QE",
+        "PNYY:[3298]- ANGHER: SNYYF YBPNGVBA: 11397 FGNQQRAF OEVQTR EQ FR ZNQVFBA GJC ORGJRRA JRVNAG EQ / YRFYRL QE");
+
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj BUYvpxvatPbhaglCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE NCG PVGL VASB");
+    arj BUYvpxvatPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

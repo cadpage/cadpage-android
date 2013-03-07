@@ -100,12 +100,18 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     if (pt < 0) pt = -1;
     String word = field.substring(pt+1,pos);
     if (isDictionaryWord(word)) return field;
+    boolean numeric = NUMERIC.matcher(word).matches();
    
     // Ditto for word in back of this blank
     pt = field.indexOf(' ', pos+1);
     if (pt < 0) pt = field.length();
     word = field.substring(pos+1,pt);
     if (isDictionaryWord(word)) return field;
+    
+    // if one, but not both, of the words contain only numeric digits
+    // don't change anything
+    if (NUMERIC.matcher(word).matches()) numeric = !numeric;
+    if (numeric) return field;
    
     // Otherwise, assume this is an extraneous blank and remove it
     field = field.substring(0,pos) + field.substring(pos+1);

@@ -8,6 +8,7 @@ public class OHLickingCountyParser extends SmartAddressParser {
   
   public OHLickingCountyParser() {
     super(CITY_LIST, "LICKING COUNTY", "OH");
+    setFieldList("CALL ADDR APT CITY INFO");
   }
   
   @Override

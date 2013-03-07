@@ -8,7 +8,8 @@ vzcbeg bet.whavg.Grfg;
 Jneera Pbhagl, BU
 
 Pbagnpg: Npgvir911
-Ntrapl anzr: Jnlar Gjc. Sver Qrcnegzrag Ybpngvba: Jnlarfivyyr, BU 
+Ntrapl anzr: Jnlar Gjc. Sver Qrcnegzrag 
+Ybpngvba: Jnlarfivyyr, BU 
 Fraqre: JPCFA@jpbu.arg
 
 (Rznvy Pbcl Zrffntr Sebz Uvcyvax) 052 CEV: 4 VAP: S91120725000593 GLC: SNYYF NQ: 3592 GBJAFUVC YVAR EQ PGL: JNLAR GJC ZNC: U14 PA: SHYYRE, EVPUNEQ & TY PZG1: NQHYG ZNYR = SRYY VA TNENTR - CBFF UVC SK - JVSR JVGU UVZ GVZR: 13:01 91F91 91P91 KFG: 3301 A HF EG 42 KFG2: 3000 BYQ FG EG 122
