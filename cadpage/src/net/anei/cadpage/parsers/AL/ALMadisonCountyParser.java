@@ -25,8 +25,9 @@ public class ALMadisonCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    
-   if (! subject.contains(CAD_MARKER)) {
+
+    if (body.startsWith("/ ")) body = body.substring(2).trim();
+    if (! subject.contains(CAD_MARKER)) {
      if (! body.startsWith(CAD_MARKER + " / ")) return false;
       body = body.substring(CAD_MARKER.length()+3);
     }
@@ -45,7 +46,7 @@ public class ALMadisonCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ADDR APT PLACE";
+      return "ADDR APT CITY PLACE";
     }
   }
   
