@@ -14,6 +14,7 @@ PNQ:1 R81,R82 ERFQ NYZ 15650 FUVAVAT FCEVAT QE JRF (F)IVXVAT ZRNQBJF NQQVGVBA (A
 PNQ:1 N81,R81 FRVMHER 18200-94 HF 31 JRF (F)ABEGU TYRA IVYYNTR (A) 81 [Zrqvpny Cevbevgl Vasb] ERFCBAFR: Cevbevgl 1 ERFCBAQRE FPEVCG: Lbh ner erfcbaqvat gb n cngvrag jub unf unq n frvmher. Gur cngvrag vf n 53-lrne-byq srznyr, jub vf hapbafpvbhf naq oernguvat. PBAGVAHBH:
 PNQ:1 R83,N82 ZRGAY CG 4154 RYXUBEA JNL JRF (F)PERFG IVRJ NQQVGVBA (A) 83 Rirag fcnjarq sebz ZRAGNY/RZBGVBANY - QVFBEQREF. [10/19/2012 10:14:06 UFLYGR] ZNYR ARRQF GB OR GENAFCBEGRQ GB PBZZHAVGL ABEGU [10/19/12 09:52:34 EINHTUNA] AB JRNCBAF [10/19/12 09:51:50 EINHTUNA]
 PNQ:1 R83,N82 OPX CNVA XEBTRE FHCREZNEXRG 17447 PNERL EQ JRF 83 [Zrqvpny Cevbevgl Vasb] ERFCBAFR: Cevbevgl 4 ERFCBAQRE FPEVCG: Lbh ner erfcbaqvat gb n cngvrag jvgu aba-genhzngvp onpx cnva. Gur cngvrag vf n 42-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. ABA-GE:
+(Grkg Zrffntr) PNQ:R83,N82 VAW CEFA 4624 ZPXVAYRL PG JRF (F)FHZZVG YNXRF NQQVGVBA (A) 83 [Zrqvpny Cevbevgl Vasb] ERFCBAFR: Cevbevgl 4 ERFCBAQRE FPEVCG: L erfcbaqvat gb n cngvrag vaibyirq va n snyy. Gur cngvrag vf n 73-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. ABG QNATREBHF obql nern (Ba sybbe). Snyyf. Pnyyre Fgngrzrag: snyy. 1. Guvf unccrarq abj (yrff guna 6uef ntb). 2. Vg`f ercbegrq gung ur sryy ng tebhaq yriry. 3. Gur sn nppvqragny. 4. Gurer vf fbz
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Aboyrfivyyr Sver Qrcnegzrag
@@ -168,6 +169,16 @@ choyvp pynff VAUnzvygbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:JRFGSVRYQ",
         "FEP:83",
         "VASB:Lbh ner erfcbaqvat gb n cngvrag jvgu aba-genhzngvp onpx cnva. Gur cngvrag vf n 42-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. ABA-GE:");
+
+    qbGrfg("G5",
+        "(Grkg Zrffntr) PNQ:R83,N82 VAW CEFA 4624 ZPXVAYRL PG JRF (F)FHZZVG YNXRF NQQVGVBA (A) 83 [Zrqvpny Cevbevgl Vasb] ERFCBAFR: Cevbevgl 4 ERFCBAQRE FPEVCG: L erfcbaqvat gb n cngvrag vaibyirq va n snyy. Gur cngvrag vf n 73-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. ABG QNATREBHF obql nern (Ba sybbe). Snyyf. Pnyyre Fgngrzrag: snyy. 1. Guvf unccrarq abj (yrff guna 6uef ntb). 2. Vg`f ercbegrq gung ur sryy ng tebhaq yriry. 3. Gur sn nppvqragny. 4. Gurer vf fbz",
+        "HAVG:R83,N82",
+        "PNYY:GENHZNGVP VAWHEVRF (FCRPVSVP)",
+        "CYNPR:FHZZVG YNXRF NQQVGVBA",
+        "NQQE:4624 ZPXVAYRL PG",
+        "PVGL:JRFGSVRYQ",
+        "FEP:83",
+        "VASB:L erfcbaqvat gb n cngvrag vaibyirq va n snyy. Gur cngvrag vf n 73-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. ABG QNATREBHF obql nern (Ba sybbe). Snyyf. Pnyyre Fgngrzrag: snyy. 1. Guvf unccrarq abj (yrff guna 6uef ntb). 2. Vg`f ercbegrq gung ur sryy ng tebhaq yriry. 3. Gur sn nppvqragny. 4. Gurer vf fbz");
 
   }
   
