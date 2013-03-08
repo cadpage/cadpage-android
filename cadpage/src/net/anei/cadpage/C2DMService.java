@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
 import java.util.Random;
 
@@ -278,6 +279,16 @@ public class C2DMService extends IntentService {
     String callId = intent.getStringExtra("call_id");
     String serverTime = intent.getStringExtra("unix_time");
     String infoUrl = intent.getStringExtra("info_url"); 
+    
+    // See if we need to correct for character set problems
+    String charset = intent.getStringExtra("charset");
+    if (charset != null && charset.length() > 0 && !charset.equals("UTF-8")) {
+      try {
+        content = new String(content.getBytes(charset), "UTF-8");
+      } catch (UnsupportedEncodingException e) {
+        Log.e("charset " + charset + " not supported");
+      }
+    }
     
     final SmsMmsMessage message = 
       new SmsMmsMessage(from, subject, content, timestamp,
