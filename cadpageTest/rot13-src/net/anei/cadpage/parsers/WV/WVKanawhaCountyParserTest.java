@@ -116,6 +116,19 @@ Fraqre: Zrgeb911@zrgeb911.bet
 (Zrffntr Sbejneqrq ol CntrTngr) NHGB NPPVQRAG JVGU VAWHEVRF ercbegrq ng 106 V77 ABEGU va FVFFBAIVYYR ba 09/26/12 08:31
 (Zrffntr Sbejneqrq ol CntrTngr) NHGB NPPVQRAG JVGU VAWHEVRF ercbegrq ng 112 V77 FBHGU va FVFFBAIVYYR ba 09/26/12 08:19
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Glyre Zbhagnva Ibyhagrre Sver Qrcnegzrag
+Ybpngvba: Pebff ynarf, JI, Havgrq Fgngrf
+Fraqre: FVERA@zrgeb911.bet
+
+(ZRGEB PNQ NYREG) VAIRFGVTNGVBA SVER ercbegrq ng 498 ARJ TBSS ZBHAGNVA EQ va PEBFF YNARF ( PNEBYVAN SERVTUG ) ba 03/06/13 11:57 Pnyy Ahzore: 573
+(ZRGEB PNQ NYREG) IRUVPYR SVER ercbegrq ng 2815 SNVEYNJA NIR va QHAONE ( ELQRE GEHPX ERAGNY VAFGVGHGR ) ba 03/06/13 00:12 Pnyy Ahzore: 249
+(ZRGEB PNQ NYREG) IRUVPYR SVER ercbegrq ng QNVEL EQ & QBP ONVYRL EQ va PEBFF YNARF (  ) ba 03/05/13 19:20 Pnyy Ahzore: 86
+(ZRGEB PNQ NYREG) NPPVQRAG - j/VAWHEVRF ercbegrq ng 47 V64J va AVGEB ( PEBFF YNARF RKVG JO ) ba 03/05/13 17:48 Pnyy Ahzore: 16
+(ZRGEB PNQ NYREG) NPPVQRAG - j/VAWHEVRF ercbegrq ng QBP ONVYRL EQ OVT GLYRE EQ va PEBFF YNARF (  ) ba 03/05/13 12:33 Pnyy Ahzore: 689
+(ZRGEB PNQ NYREG) VAIRFGVTNGVBA SVER ercbegrq ng 109 YNXR FUBER QE va PEBFF YNARF (  ) ba 03/04/13 19:47 Pnyy Ahzore: 165
+(ZRGEB PNQ NYREG) NYNEZ SVER ercbegrq ng 5525 OVT GLYRE EQ va PEBFF YNARF ( PEBFF YNARF RYRZRAGNEL FPUBBY ) ba 03/04/13 15:51 Pnyy Ahzore: 971
+
 */
 
 choyvp pynff JIXnanjunPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -452,7 +465,7 @@ choyvp pynff JIXnanjunPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G21",
         "(Zrffntr Sbejneqrq ol CntrTngr) NHGB NPPVQRAG JVGU VAWHEVRF ercbegrq ng V77 ABEGU // V77 / V79 FCYVG va FVFFBAIVYYR ba 11/12/12 18:16",
         "PNYY:NHGB NPPVQRAG JVGU VAWHEVRF",
-        "NQQE:V77 ABEGU & V77 & V79 FCYVG",
+        "NQQE:V-77 ABEGU & V77 & V79 FCYVG",
         "ZNQQE:V 77 ABEGU & V 77 & V 79 FCYVG",
         "CYNPR:FVFFBAIVYYR",
         "PVGL:PUNEYRFGBA",
@@ -517,7 +530,7 @@ choyvp pynff JIXnanjunPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G28",
         "(Zrffntr Sbejneqrq ol CntrTngr) NHGB NPPVQRAG JVGU VAWHEVRF ercbegrq ng V77 ABEGU // V77 / V79 FCYVG va FVFFBAIVYYR ba 11/07/12 22:44",
         "PNYY:NHGB NPPVQRAG JVGU VAWHEVRF",
-        "NQQE:V77 ABEGU & V77 & V79 FCYVG",
+        "NQQE:V-77 ABEGU & V77 & V79 FCYVG",
         "ZNQQE:V 77 ABEGU & V 77 & V 79 FCYVG",
         "CYNPR:FVFFBAIVYYR",
         "PVGL:PUNEYRFGBA",
@@ -949,7 +962,7 @@ choyvp pynff JIXnanjunPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G75",
         "(Zrffntr Sbejneqrq ol CntrTngr) NHGB NPPVQRAG JVGU VAWHEVRF ercbegrq ng V77 ABEGU // RQRAF SBEX RKVG va FVFFBAIVYYR ba 09/30/12 20:07",
         "PNYY:NHGB NPPVQRAG JVGU VAWHEVRF",
-        "NQQE:V77 ABEGU & RQRAF SBEX RKVG",
+        "NQQE:V-77 ABEGU & RQRAF SBEX RKVG",
         "ZNQQE:V 77 ABEGU & RQRAF SBEX RKVG",
         "CYNPR:FVFFBAIVYYR",
         "PVGL:PUNEYRFGBA",
@@ -987,7 +1000,7 @@ choyvp pynff JIXnanjunPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G79",
         "(Zrffntr Sbejneqrq ol CntrTngr) NHGB NPPVQRAG JVGU VAWHEVRF ercbegrq ng V77 FBHGU // RQRAF SBEX RKVG va FVFFBAIVYYR ba 09/28/12 07:55",
         "PNYY:NHGB NPPVQRAG JVGU VAWHEVRF",
-        "NQQE:V77 FBHGU & RQRAF SBEX RKVG",
+        "NQQE:V-77 FBHGU & RQRAF SBEX RKVG",
         "ZNQQE:V 77 FBHGU & RQRAF SBEX RKVG",
         "CYNPR:FVFFBAIVYYR",
         "PVGL:PUNEYRFGBA",
@@ -1025,7 +1038,80 @@ choyvp pynff JIXnanjunPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
   
+  @Grfg
+  choyvp ibvq grfgGlyreZbhagnvaSver() {
+
+    qbGrfg("G1",
+        "(ZRGEB PNQ NYREG) VAIRFGVTNGVBA SVER ercbegrq ng 498 ARJ TBSS ZBHAGNVA EQ va PEBFF YNARF ( PNEBYVAN SERVTUG ) ba 03/06/13 11:57 Pnyy Ahzore: 573",
+        "PNYY:VAIRFGVTNGVBA SVER",
+        "NQQE:498 ARJ TBSS ZBHAGNVA EQ",
+        "PVGL:PEBFF YNARF",
+        "CYNPR:PNEBYVAN SERVTUG",
+        "QNGR:03/06/13",
+        "GVZR:11:57",
+        "VQ:573");
+
+    qbGrfg("G2",
+        "(ZRGEB PNQ NYREG) IRUVPYR SVER ercbegrq ng 2815 SNVEYNJA NIR va QHAONE ( ELQRE GEHPX ERAGNY VAFGVGHGR ) ba 03/06/13 00:12 Pnyy Ahzore: 249",
+        "PNYY:IRUVPYR SVER",
+        "NQQE:2815 SNVEYNJA NIR",
+        "PVGL:QHAONE",
+        "CYNPR:ELQRE GEHPX ERAGNY VAFGVGHGR",
+        "QNGR:03/06/13",
+        "GVZR:00:12",
+        "VQ:249");
+
+    qbGrfg("G3",
+        "(ZRGEB PNQ NYREG) IRUVPYR SVER ercbegrq ng QNVEL EQ & QBP ONVYRL EQ va PEBFF YNARF (  ) ba 03/05/13 19:20 Pnyy Ahzore: 86",
+        "PNYY:IRUVPYR SVER",
+        "NQQE:QNVEL EQ & QBP ONVYRL EQ",
+        "PVGL:PEBFF YNARF",
+        "QNGR:03/05/13",
+        "GVZR:19:20",
+        "VQ:86");
+
+    qbGrfg("G4",
+        "(ZRGEB PNQ NYREG) NPPVQRAG - j/VAWHEVRF ercbegrq ng 47 V64J va AVGEB ( PEBFF YNARF RKVG JO ) ba 03/05/13 17:48 Pnyy Ahzore: 16",
+        "PNYY:NPPVQRAG - j/VAWHEVRF",
+        "NQQE:47 V-64J",
+        "ZNQQE:47 V 64",
+        "PVGL:AVGEB",
+        "CYNPR:PEBFF YNARF RKVG JO",
+        "QNGR:03/05/13",
+        "GVZR:17:48",
+        "VQ:16");
+
+    qbGrfg("G5",
+        "(ZRGEB PNQ NYREG) NPPVQRAG - j/VAWHEVRF ercbegrq ng QBP ONVYRL EQ OVT GLYRE EQ va PEBFF YNARF (  ) ba 03/05/13 12:33 Pnyy Ahzore: 689",
+        "PNYY:NPPVQRAG - j/VAWHEVRF",
+        "NQQE:QBP ONVYRL EQ & OVT GLYRE EQ",
+        "PVGL:PEBFF YNARF",
+        "QNGR:03/05/13",
+        "GVZR:12:33",
+        "VQ:689");
+
+    qbGrfg("G6",
+        "(ZRGEB PNQ NYREG) VAIRFGVTNGVBA SVER ercbegrq ng 109 YNXR FUBER QE va PEBFF YNARF (  ) ba 03/04/13 19:47 Pnyy Ahzore: 165",
+        "PNYY:VAIRFGVTNGVBA SVER",
+        "NQQE:109 YNXR FUBER QE",
+        "PVGL:PEBFF YNARF",
+        "QNGR:03/04/13",
+        "GVZR:19:47",
+        "VQ:165");
+
+    qbGrfg("G7",
+        "(ZRGEB PNQ NYREG) NYNEZ SVER ercbegrq ng 5525 OVT GLYRE EQ va PEBFF YNARF ( PEBFF YNARF RYRZRAGNEL FPUBBY ) ba 03/04/13 15:51 Pnyy Ahzore: 971",
+        "PNYY:NYNEZ SVER",
+        "NQQE:5525 OVT GLYRE EQ",
+        "PVGL:PEBFF YNARF",
+        "CYNPR:PEBFF YNARF RYRZRAGNEL FPUBBY",
+        "QNGR:03/04/13",
+        "GVZR:15:51",
+        "VQ:971");
+
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj JIXnanjunPbhaglCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE CYNPR PVGL QNGR GVZR");
+    arj JIXnanjunPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
