@@ -103,6 +103,7 @@ public class ParserList {
               ,"StandardA"                      ,"Standard Format A"
               ,"Cadpage"                        ,"Standard Cadpage Format A"
               ,"Cadpage2"                       ,"Standard Cadpage Format B"
+              ,"Cadpage3"                       ,"Standard Cadpage Format C"
               ,"StandardSpottedDog"             ,"Spotted Dog Technologies"
           ),
           new ParserCategory("Alabama"
