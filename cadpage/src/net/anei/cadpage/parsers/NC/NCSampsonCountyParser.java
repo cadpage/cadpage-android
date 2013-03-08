@@ -37,6 +37,8 @@ public class NCSampsonCountyParser extends DispatchA3Parser {
   protected boolean parseMsg(String body, Data data) {
     body = body.replace('\n', ' ');
     body = MISSED_BLANK_PTN.matcher(body).replaceAll("* ");
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.length() > 0) data.strCall = '(' + data.strCity + ") " + data.strCall;
+    return true;
   }
 }
