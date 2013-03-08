@@ -31,7 +31,7 @@ public class PALancasterCountyParser extends FieldProgramParser {
     
     if (! body.contains("~")) return false;
     
-    if (subject.indexOf(' ') >= 0 || subject.indexOf('-') >= 0) { 
+    if (subject.indexOf(' ') >= 0 || subject.indexOf('-') >= 0 || subject.indexOf('/') >= 0) { 
       data.strCall = subject;
     } else {
       data.strSource = subject;
