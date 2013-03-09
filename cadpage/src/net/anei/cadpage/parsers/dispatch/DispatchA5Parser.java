@@ -11,6 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchA5Parser extends FieldProgramParser {
   
   public static final String SUBJECT_SIGNATURE = "Automatic R&R Notification";
+  public static final Pattern RUN_REPORT_UNIT_PTN = Pattern.compile(" ORI: *(.*?) *Station: *(\\S*)");
   
   private static final Pattern TERMINATOR_PTN = Pattern.compile("\n(?:Additional Info|Address Checks|Additional Inc#s:|Narrative|The Call Taker is)");
   private static final Pattern KEYWORD_TRAIL_PTN = Pattern.compile("[ \\.]+:|(?: \\.){2,}(?=\n)");
@@ -40,6 +41,11 @@ public class DispatchA5Parser extends FieldProgramParser {
     if (body.contains("** FINAL REPORT **")) {
       data.strCall = "RUN REPORT";
       data.strPlace = body;
+      Matcher match = RUN_REPORT_UNIT_PTN.matcher(body);
+      if (match.find()) {
+        data.strUnit = match.group(1);
+        data.strSource = match.group(2);
+      }
       return true;
     }
     
