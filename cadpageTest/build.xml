@@ -18,6 +18,10 @@
 	<property name="bin" value="${base}/bin"/>
 	<property name="select" value="net/anei/cadpage/ant/**"/>
 	<property name="filename" value="CadpageParser"/>
+	
+	<condition property="SVNEDITOR" value="notepad" else="gedit">
+	  <os family="windows"/>
+	</condition>
   
   <target name="compile">
     <javac srcdir="${src}" includes="${select}" destdir="${bin}" 
@@ -41,24 +45,25 @@
 	</target>
 	
 	<target name="stat">
-	    <antcall target="export"/>
-	    <exec executable="svn">
-	      <arg line="stat"/>
-	    </exec>
+    <antcall target="export"/>
+	  <exec executable="svn">
+	    <arg line="stat"/>
+	  </exec>
 	</target>
-	 
-  <target name="commit">
-      <antcall target="export"/>
-      <exec executable="svn">
-        <arg line="commit"/>
-      </exec>
+   
+  <target name="update" depends="export">
+    <exec executable="svn">
+      <arg line="update"/>
+    </exec>
+    <antcall target="import"/>
   </target>
    
-  <target name="update">
-      <exec executable="svn">
-        <arg line="update"/>
-      </exec>
-      <antcall target="import"/>
-      </target>
+  <target name="commit" depends="update">
+    <antcall target="export"/>
+    <exec executable="svn">
+      <env key="SVN_EDITOR" value="${SVNEDITOR}"/>
+      <arg line="commit"/>
+    </exec>
+  </target>
   	
 </project>

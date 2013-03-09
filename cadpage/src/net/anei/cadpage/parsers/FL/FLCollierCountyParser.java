@@ -17,7 +17,7 @@ public class FLCollierCountyParser extends DispatchPrintrakParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    if (!MARKER.matcher(body).find()) return false;
-    return super.parseMsg("INC:" + body, data);
+    if (MARKER.matcher(body).find()) body = "INC:" + body; 
+    return super.parseMsg(body, data);
   }
 }

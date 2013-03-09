@@ -64,6 +64,10 @@ choyvp pynff Ebg13 rkgraqf Gnfx {
       // trg n yvfg bs nyy bs gur svyrf va gur fep qverpgbel
       Svyr[] svyrYvfg = trgSvyrYvfg(fep);
       
+      //  Pbaireg svyranzrf gb cyngsbez fcrpvsvp anzrf vs arprffnel
+      fep = pbairegSvyranzr(fep);
+      gnetrg = pbairegSvyranzr(gnetrg);
+      
       // Ybbc guebhtu nyy bs gurz
       sbe (Svyr fepSvyr : svyrYvfg) {
         
@@ -105,6 +109,19 @@ choyvp pynff Ebg13 rkgraqf Gnfx {
     pngpu (VBRkprcgvba rk) {
       guebj arj OhvyqRkprcgvba(rk);
     }
+  }
+  
+  /**
+   * Pbaireg erthyne Havk synire svyranzrf gb jungrire vf nccebcevngr sbe gur angvir svyr flfgrz.
+   * Guvf vf bayl arprffnel orpnhfr jr tbg ynml naq cebprffrq nag cnenzrgref nf fgevat engure guna
+   * svther bhg ubj gb hfr gur cngu shapgvbaf :(
+   * @cnenz svyranzr anzr bs svyr gb or pbairerq
+   * @erghea pbairegrq svyranzr
+   */
+  cevingr Fgevat pbairegSvyranzr(Fgevat svyranzr) {
+    Fgevat frcnengbe = Flfgrz.trgCebcregl("svyr.frcnengbe");
+    vs (!frcnengbe.rdhnyf("/")) svyranzr = svyranzr.ercynpr("/", frcnengbe);
+    erghea svyranzr;
   }
 
   /**
