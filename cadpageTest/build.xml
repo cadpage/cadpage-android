@@ -19,7 +19,7 @@
 	<property name="select" value="net/anei/cadpage/ant/**"/>
 	<property name="filename" value="CadpageParser"/>
 	
-	<condition property="SVNEDITOR" value="notepad" else="gedit">
+	<condition property="SVNEDITOR" value="notepad" else="kate">
 	  <os family="windows"/>
 	</condition>
   
@@ -61,8 +61,7 @@
   <target name="commit" depends="update">
     <antcall target="export"/>
     <exec executable="svn">
-      <env key="SVN_EDITOR" value="${SVNEDITOR}"/>
-      <arg line="commit"/>
+      <arg line="commit --editor-cmd=${SVNEDITOR}"/>
     </exec>
   </target>
   	

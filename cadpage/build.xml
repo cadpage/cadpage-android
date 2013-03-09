@@ -32,5 +32,18 @@
 		     level="9" manifest="MANIFEST.MF"/>
 	</target>
 	
-	<target name="build" depends="jarfile"/>
+	<target name="build" depends="jarfile" description="Build Parser Library"/>
+	
+	<target name="update" description="Sync with repository">
+	  <ant dir=".." target="update"/>
+	</target>
+  
+  <target name="stat" description="Show workspace status">
+    <ant dir=".." target="stat"/>
+  </target>
+		 
+  <target name="commit" description="Commit changes to repository">
+    <ant dir=".." target="commit"/>
+  </target>
+	
 </project>
