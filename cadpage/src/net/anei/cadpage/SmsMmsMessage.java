@@ -992,6 +992,7 @@ public class SmsMmsMessage implements Serializable {
      * @return true if character key is present, false otherwise
      */
     public boolean init(char chr) {
+      if (ackReq == null) return false;
       pt = ackReq.indexOf(chr);
       if (pt < 0) return false;
       pt++;
