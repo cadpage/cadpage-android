@@ -88,7 +88,6 @@ choyvp pynff APPyrirynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G6",
         "PNQ:FCEVAG CPF-9802953855-SVERNCG-415 TNEQARE FG-FZVGU FG-ZNEGVA FG-xvgpura ba sver ng ncegzrag 5 gurl ner gelvat gb trg rirel bar bhg bs nqwnprag ncgf [07/",
-        "ANZR:FCEVAG CPF",
         "CUBAR:9802953855",
         "PNYY:SVERNCG",
         "NQQE:415 TNEQARE FG",
@@ -108,7 +107,6 @@ choyvp pynff APPyrirynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G8",
         "PNQ:NG&G ZBOVYVGL-9118385620-SVER/ZVF-705 R QVKBA OYIQ-JNY-ZNEG-RNEY EQ-TEBIR FG",
-        "ANZR:NG&G ZBOVYVGL",
         "CUBAR:9118385620",
         "PNYY:SVER/ZVF",
         "NQQE:705 R QVKBA OYIQ",
@@ -215,7 +213,6 @@ choyvp pynff APPyrirynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G10",
         "PNQ:IREVMBA JVERYRFF-7044738019-10-50 CV-1043 CBCYNE FCEVATF PUHEPU EQ-FUREVSS NYYRA EQ-ORA WBARF EQ",
-        "ANZR:IREVMBA JVERYRFF",
         "CUBAR:7044738019",
         "PNYY:10-50 CV",
         "NQQE:1043 CBCYNE FCEVATF PUHEPU EQ",

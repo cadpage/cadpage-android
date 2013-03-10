@@ -14,6 +14,7 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
  
   public OHHamiltonCountyParser() {
     super(CITY_CODES, "HAMILTON COUNTY", "OH");
+    setFieldList("ADDR CITY APT PLACE CALL INFO TIME UNIT X");
   }
   
   @Override

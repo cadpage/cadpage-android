@@ -1603,7 +1603,7 @@ public class FieldProgramParser extends SmartAddressParser {
   /**
    * Place field processor
    */
-  private static final Pattern PLACE_SKIP_PTN = Pattern.compile("VERIZON(?: WIRELESS)?|AT ?& ?T(?: MOBILITY)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern WIRELESS_CARRIER_PTN = Pattern.compile("(?:VERIZON(?: WIRELESS)?|ATT? ?& ?T(?: MOBILITY)?|ATTMO|T-MOBILE|SPRINT(?:PCS)?|US CELLULAR|METRO ?PCS)\\b.*", Pattern.CASE_INSENSITIVE);
   public class PlaceField extends Field {
     
     public PlaceField() {};
@@ -1616,7 +1616,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void parse(String field, Data data) {
-      if (PLACE_SKIP_PTN.matcher(field).matches()) return;
+      if (WIRELESS_CARRIER_PTN.matcher(field).matches()) return;
       data.strPlace = field;
     }
     
@@ -2294,6 +2294,7 @@ public class FieldProgramParser extends SmartAddressParser {
 
     @Override
     public void parse(String field, Data data) {
+      if (WIRELESS_CARRIER_PTN.matcher(field).matches()) return;
       data.strName = field;
     }
     
@@ -2319,6 +2320,7 @@ public class FieldProgramParser extends SmartAddressParser {
 
     @Override
     public void parse(String field, Data data) {
+      if (WIRELESS_CARRIER_PTN.matcher(field).matches()) return;
       if (checkPlace(field)) data.strPlace = field;
       else data.strName = field;
     }

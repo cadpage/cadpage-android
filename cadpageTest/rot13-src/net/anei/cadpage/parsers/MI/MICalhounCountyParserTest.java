@@ -231,7 +231,6 @@ choyvp pynff ZVPnyubhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
             "ZNQQE:V 69 & A-QEVIR A",
             "PVGL:PBAIVF GJC",
             "CYNPR:ZZ 42 FO",
-            "ANZR:FCEVAG CPF",
             "VASB:FO, PNE/GENVYRE EBYYR");
 
   }

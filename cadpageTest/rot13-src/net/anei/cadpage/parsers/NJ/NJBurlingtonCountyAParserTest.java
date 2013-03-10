@@ -52,7 +52,6 @@ choyvp pynff AWOheyvatgbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:19:13:51",
         "VQ:1711",
         "CUBAR:(856) 287-8607",
-        "ANZR:IREVMBA JVERYRFF",
         "VASB:ZNYR HAPBAFPVBHF CBFF BIREQBFR / JCU2: ENQVHF 02 ZVYRF");
 
     qbGrfg("G2",
@@ -100,8 +99,6 @@ choyvp pynff AWOheyvatgbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2 EVQTR EQ",
         "PVGL:Fbhgunzcgba",
         "K:ERQ YVBA EQ/EG206",
-        "CYNPR:IREVMBA 17",
-        "ANZR:IREVMBA FRP",
         "VASB:TRARENY SVER NYNEZ/AB CUBAR BA FVGR");
 
     qbGrfg("G6",

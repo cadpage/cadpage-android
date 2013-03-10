@@ -97,7 +97,6 @@ choyvp pynff AWFnyrzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Craafivyyr Gbjafuvc",
         "FG:AW",
         "K:Oenaqevss Nir",
-        "ANZR:IREVMBA / XNERA",
         "CUBAR:6158005");
 
     qbGrfg("G5",

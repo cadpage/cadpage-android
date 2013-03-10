@@ -177,7 +177,6 @@ choyvp pynff APWbuafgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:PYQ",
         "PNYY:ZIN CREFBANY VAWHEL",
         "NQQE:JNGXVAF EQ & PYRIRYNAQ EQ",
-        "ANZR:FCEVAG CPF",
         "QNGR:02/08/2011",
         "GVZR:07:18:56",
         "HAVG:PYQ1");
@@ -206,7 +205,6 @@ choyvp pynff APWbuafgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:314 V-40 UJL",
         "ZNQQE:314 V 40",
         "CYNPR:314.5",
-        "ANZR:FCEVAG CPF",
         "QNGR:02/07/2011",
         "GVZR:15:54:03",
         "HAVG:PYQ1");
@@ -608,7 +606,6 @@ choyvp pynff APWbuafgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:552 ONEORE ZVYY EQ",
         "K:PYRIRYNAQ EQ & TBIREAZRAG EQ",
         "CYNPR:QVFG: 20.26 sg",
-        "ANZR:NG&G ZBOVYVGL",
         "QNGR:12/03/2012",
         "GVZR:17:28:56",
         "HAVG:PGF11,PGQP4,SGQ1,PYQ1");

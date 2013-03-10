@@ -332,7 +332,6 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:70SQ,FG1,AUPB,FG2,UPSZ",
         "VASB:Fgehpgher Sver.  .Pnyyre Fgngrzrag: sver . / Haxabja fvghngvba (vairfgvtngvba). / 1. Gur pnyyre vf ba fprar (1fg cnegl). / 2. Synzrf ner ivfvoyr. / 3. Vg vf abg xabja jung xvaq bs fgehpgher vf vaibyirq. / 4. Vg vf abg xabja ubj znal yriryf be fgbevrf gurer ner. / 5. Gur pnyyre unf abg vaqvpngrq gung gurer ner genccrq crefba(f).",
         "TCF:+32.513963,-97.850933",
-        "ANZR:NG&G ZBOVYVGL",
         "CUBAR:(817)487-6010");
 
     qbGrfg("G8",
@@ -787,7 +786,6 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Tenaohel",
         "HAVG:FG1,VUSQ,GISQ,FG2,UPSZ",
         "VASB:Fgehpgher Sver.  .Pnyyre Fgngrzrag: SVER. / Zbovyr ubzr, ubhfr genvyre, cbegnoyr bssvpr. / 1. Gur pnyyre vf ba fprar (2aq cnegl). / 2. Obgu fzbxr naq synzrf ner ivfvoyr. / 3. Gur vapvqrag vaibyirf n zbovyr ubzr. / 4. Vg vf abg xabja ubj znal yriryf be fgbevrf gurer ner. / 5. Gur pnyyre unf abg vaqvpngrq gung gurer ner genccrq crefba(f). / 6. Vg vf abg xabja vs nalbar vf genccrq vafvqr gur fgehpgher. / 7. Vg vf abg xabja vs nalbar vf vawherq. / G-ZBOVYR HFN, VAP. / PBZC NQIVFRQ JUVGR FZBXR NAQ GUR 20SG SYNZRF",
-        "ANZR:G-ZBOVYR HFN, VAP.",
         "CUBAR:(817)776-1755");
 
     qbGrfg("G20",
@@ -822,8 +820,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:254",
         "PVGL:Tenaohel",
         "HAVG:FG1,VUSQ,CCSQ,FG2,UPSZ",
-        "VASB:Fgehpgher Sver.  .Pnyyre Fgngrzrag: sver. / Zbovyr ubzr, ubhfr genvyre, cbegnoyr bssvpr. / 1. Gur pnyyre vf ba fprar (1fg cnegl). / 2. Obgu fzbxr naq synzrf ner ivfvoyr. / 3. Gur vapvqrag vaibyirf n zbovyr ubzr. / 4. N fvatyr-yriry fgehpgher vf vaibyirq. / 5. Gur pnyyre unf abg vaqvpngrq gung gurer ner genccrq crefba(f).",
-        "ANZR:NG&G ZBOVYVGL");
+        "VASB:Fgehpgher Sver.  .Pnyyre Fgngrzrag: sver. / Zbovyr ubzr, ubhfr genvyre, cbegnoyr bssvpr. / 1. Gur pnyyre vf ba fprar (1fg cnegl). / 2. Obgu fzbxr naq synzrf ner ivfvoyr. / 3. Gur vapvqrag vaibyirf n zbovyr ubzr. / 4. N fvatyr-yriry fgehpgher vf vaibyirq. / 5. Gur pnyyre unf abg vaqvpngrq gung gurer ner genccrq crefba(f).");
 
     qbGrfg("G21",
         "(VAPVQRAG # V12111601) VAPVQRAG # V12111601\a\a" +

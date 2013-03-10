@@ -129,7 +129,6 @@ choyvp pynff PNFbabznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FE",
         "OBK:2946 Q4",
         "PNYY:FGEHJ",
-        "ANZR:NG&G ZBOVYVGL",
         "CUBAR:(707) 327-7382");
 
     qbGrfg("G6",
@@ -207,7 +206,6 @@ choyvp pynff PNFbabznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:YNE",
         "OBK:2747 O2",
         "PNYY:IRT",
-        "ANZR:NG&G ZBOVYVGL 800 635 6840  4",
         "CUBAR:(707) 953-6573");
 
     qbGrfg("G13",
@@ -314,7 +312,6 @@ choyvp pynff PNFbabznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FE",
         "OBK:3049 N4",
         "PNYY:IRUSHYY",
-        "ANZR:NG&G ZBOVYVGL 8",
         "CUBAR:(707) 480-1310");
 
     qbGrfg("G22",
@@ -395,7 +392,6 @@ choyvp pynff PNFbabznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:ZJF",
         "OBK:2649 O2",
         "PNYY:IRT",
-        "ANZR:IREVMBA JVERYRFF 800 451 5242 4",
         "CUBAR:(707) 326-5961",
         "GVZR:16:25:22");
 
@@ -406,7 +402,6 @@ choyvp pynff PNFbabznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:JV",
         "OBK:2443 O2",
         "PNYY:FGEH",
-        "ANZR:IREVMBA JVERYRFF 800 451 5242 4",
         "CUBAR:(707) 479-6714",
         "GVZR:17:29");
 
@@ -419,7 +414,6 @@ choyvp pynff PNFbabznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FE",
         "OBK:3149 N2",
         "PNYY:TNF-BHG",
-        "ANZR:FCEVAG ARKGRY-VQRA 866-398-3284",
         "CUBAR:(415) 760-0590");
 
     qbGrfg("G31",
@@ -429,7 +423,6 @@ choyvp pynff PNFbabznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:UOT",
         "OBK:2450 O",
         "PNYY:FGEH",
-        "ANZR:IREVMBA JVERYRFF 800 451 5242 4",
         "CUBAR:(707) 321-7803",
         "GVZR:10:48:36",
         "VASB:A -122.9023 G 38.54100");
@@ -442,7 +435,6 @@ choyvp pynff PNFbabznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:FBABZN UVYYF ERGVERZRAG PRAGRE",
         "OBK:3661 P2",
         "PNYY:ZRQ",
-        "ANZR:IREVMBA JVERYRFF 800 451 5242 4",
         "CUBAR:(415) 601-8539",
         "NCG:156");
 
@@ -479,7 +471,6 @@ choyvp pynff PNFbabznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:ISE",
         "OBK:3540",
         "PNYY:GP",
-        "ANZR:NG&G ZBOVYVGL 800 635 6840  4",
         "CUBAR:(650) 455-7732",
         "GVZR:16:00:06",
         "VASB:A -122.7320 G 38.40650 ZRGREF 2758 ZBGBEPLPYR");
@@ -524,7 +515,6 @@ choyvp pynff PNFbabznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2885 ONL UVYY EQ",
         "OBK:3437",
         "PNYY:IRT",
-        "ANZR:IREVMBA JVERYRFF 800 451 5242 4",
         "CUBAR:(707) 321-9508",
         "PVGL:OBQRTN ONL",
         "FEP:OQTN ONL",
@@ -566,7 +556,6 @@ choyvp pynff PNFbabznPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FB",
         "CYNPR:IVAGNTR NG FBABZN",
         "PNYY:ZRQ",
-        "ANZR:FCEVAG ARKGRY-PQZN 866-398-3284 RVQ: 4444104",
         "NCG:117",
         "GVZR:13:45:54",
         "VASB:A -122.4580 G 38.27444 ZRGREF 41 SNYY / URNQ VAWHEL - 87 LBZ EG UVC CNVA PBAGEBY 4 EBBZ 117 17 O 1 - T");

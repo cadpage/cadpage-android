@@ -73,7 +73,6 @@ choyvp pynff ALPnggnenhthfCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:NFUSBEQ",
         "PNYY:Fgeh Sver",
         "VASB:UBHFR SVER",
-        "ANZR:IREVMBA JVERYRFF",
         "VQ:2011-00000061");
 
     qbGrfg("G4",

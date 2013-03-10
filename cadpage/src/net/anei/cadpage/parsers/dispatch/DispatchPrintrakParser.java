@@ -115,7 +115,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
       if (field.startsWith("CALLBK=")) {
         data.strPhone = field.substring(7).trim();
       } else {
-        data.strPlace = field;
+        super.parse(field, data);
       }
     }
     

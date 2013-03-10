@@ -14,7 +14,7 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
   
   public NCLincolnCountyParser() {
     super("LINCOLN COUNTY", "NC",
-           "ID: FYI? SRC ID? CODE? CALL ADDR! ( X X? | PLACE X X? | ) INFO+");
+           "ID: FYI? SRC ID? CODE? CALL ( PHONE NAME | ) PARTADDR? ADDR! ( X X? | PLACE X X? | ) INFO+");
   }
   
   @Override
@@ -24,6 +24,9 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    
+    int pt = body.indexOf("\nDISCLAIMER:");
+    if (pt >= 0) body = body.substring(0,pt).trim();
     
     // The OSSI parser either expects a leading ID field, or does not expect one.  It can't handle our case
     // where it sometimes is there and sometimes isn't.  We fix that by adding a dummy ID if there isn't one.
@@ -52,11 +55,42 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
     }
   }
   
+  private class MyPartAddressField extends AddressField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!NUMERIC.matcher(field).matches()) return false;
+      parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      data.strAddress = field;
+    }
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = append(data.strAddress, "-", field);
+      data.strAddress = "";
+      super.parse(field, data);
+    }
+  }
+  
   
   @Override
   protected Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("CODE")) return new MyCodeField();
+    if (name.equals("PHONE")) return new PhoneField("\\d{7,}", true);
+    if (name.equals("PARTADDR")) return new MyPartAddressField();
+    if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
 }

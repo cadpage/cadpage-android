@@ -207,7 +207,6 @@ choyvp pynff JVPnyhzrgPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:JV 29 & 32 & FHAYVGR QE",
         "PVGL:UBONEG",
         "ZNC:12D",
-        "ANZR:FCEVAG",
         "GVZR:08:16",
         "HAVG:UOUOSQ <:1012");
 
@@ -234,7 +233,6 @@ choyvp pynff JVPnyhzrgPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:JV 29 & 32 & FHAYVGR QE",
         "PVGL:UBONEG",
         "ZNC:12D",
-        "ANZR:FCEVAG",
         "GVZR:08:16",
         "HAVG:UOUOSQ <:1012");
 
