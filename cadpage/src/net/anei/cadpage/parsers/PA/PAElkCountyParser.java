@@ -14,7 +14,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class PAElkCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
-      "RIDGWAY_B", "RIDGEWAY",
+      "JOHNSBURG", "JOHNSONBURG",
+      "RIDGWAY_B", "RIDGWAY",
       "ST_MARYS", "ST MARYS"
   }); 
   
