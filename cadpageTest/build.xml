@@ -1,5 +1,5 @@
 <project name="Cadpage Test Project" basedir=".">
-	<description>an
+	<description>
 		Provides the infrastructure to rot13 protect the java test source code.  This provides a
 		minimal level of privacy protection for citizens referred to in the 911 pages that make up a
 		large part of the test classes while keeping the information readily available for developers
@@ -7,12 +7,12 @@
 	</description>
 	
 	<condition property="base" value="cadpageTest" else="."> 
-	  <available file="robots.txt"/>
+	  <available file="${basedir}/robots.txt"/>
 	</condition>
 	
-  <property name="src" value="${base}/src"/>
-  <property name="rot13src" value="${base}/rot13-src"/>
-  <property name="libdir" value="${base}/lib"/>
+  <property name="src" value="${basedir}/${base}/src"/>
+  <property name="rot13src" value="${basedir}/${base}/rot13-src"/>
+  <property name="libdir" value="${basedir}/${base}/lib"/>
   <property name="rot13jarfile" value="${libdir}/antRot13.jar"/>  
 	
 	<property name="bin" value="${base}/bin"/>
