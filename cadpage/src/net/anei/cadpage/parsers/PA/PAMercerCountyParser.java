@@ -92,6 +92,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
       "AF",   "Fire-Admin Activity",
+      "ANML", "Animal Rescue",
       "BARN", "Barn Fire",
       "BRU",  "Brush Fire",
       "CHIM", "Chimney Fire",
