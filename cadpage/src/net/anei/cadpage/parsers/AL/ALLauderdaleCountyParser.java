@@ -29,7 +29,7 @@ public class ALLauderdaleCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911paging@florenceal.org";
+    return "911paging@florenceal.org,911paging";
   }
 
   @Override

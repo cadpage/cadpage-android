@@ -26,6 +26,10 @@ Pbagnpg: Puevf Cuvyyvcf <pcssrzg@nby.pbz>
 Fraqre: 911Cntvat@syberaprny.bet
 (VCF V/Cntr) CEV: XYRZF NQ: 1650 UJL 72 XVYY: @XVYYRA CBFG BSSVPR  GVZR: 16:21:16 RI: JERPX-VAWHEL -: OYBPXNTR PF1: OEHFU PERRX EQ PF2: CBCYNE FG ER:  NYG#
 
+Pbagnpg: Ebl Antyr <enantyr58@tznvy.pbz>
+Fraqre: 911cntvat
+1 bs 2\aSEZ:911cntvat \aFHOW:VCF V/Cntr\aZFT:CEV: TUISQ NQ: 13055 PBHAGL EQ 47 PAGL  GVZR: 08:50:53 RI: ZQ-OERNGUVAT -: qrsnhyg PF1: PBHAGL EQ 38\a(Pba'g) 2 bs 2\aPF2: PBHAGL EQ 38 ER:  63/Z PNAG OERNGU \a(Raq)
+
  */
 
 
@@ -161,6 +165,27 @@ choyvp pynff NYYnhqreqnyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:OEHFU PERRX EQ & CBCYNE FG",
         "VASB:NYG#");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEblAntyr() {
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:911cntvat \a" +
+        "FHOW:VCF V/Cntr\a" +
+        "ZFT:CEV: TUISQ NQ: 13055 PBHAGL EQ 47 PAGL  GVZR: 08:50:53 RI: ZQ-OERNGUVAT -: qrsnhyg PF1: PBHAGL EQ 38\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "PF2: PBHAGL EQ 38 ER:  63/Z PNAG OERNGU \a" +
+        "(Raq)",
+
+        "FEP:TUISQ",
+        "NQQE:13055 PBHAGL EQ 47",
+        "ZNQQE:13055 PBHAGL EBNQ 47",
+        "PNYY:ZQ-OERNGUVAT - qrsnhyg",
+        "K:PBHAGL EQ 38 & PBHAGL EQ 38",
+        "VASB:63/Z PNAG OERNGU");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
