@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03042013</string>
-  <string name="release_version">v1.6.12</string>
+  <string name="release_date">03112013</string>
+  <string name="release_version">v1.6.13</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-New Locations:\n
-\n      
 Location Parsing Fixes:\n
-Marshall County, AL\n
-Shelby County, AL\n
-Sussex County, DE\n
+Lauderdale County, AL\n
+Madison County, AL\n
+Ventura County, CA\n
+Collier County, FL\n
+DuPage County, IL\n
+Hamilton County, IN\n
+Starke County, IN\n
+Johnson County, KS\n
+Burlington County, NJ\n
+Lincoln County, NC\n
+Sampson County, NC\n
+Franklin, OH\n
+Elk County, PA\n
+Erie County, PA\n
+Lancaster County, PA\n
 Mercer County, PA\n
-Montgomery County, PA\n
-Charles County, MD\n
-Greene County, NY\n
+Northampton County, PA\n 
+Fairfax County, VA\n
+Berkeley County, WV\n
+Kanawha County, WV\n
 \n
 General Fixes:\n
-More attempt to identify and resolve direct paging registration issues.\n
+Force close handling response button\n
+Removed mobile carrier names from most name and place fields.\n
   </string>  
 </resources>
   
