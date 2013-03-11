@@ -34,6 +34,7 @@ public class ALLauderdaleCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = body.replace("TIME:", " TIME:");
     if (!super.parseMsg(body, data)) return false;
     if (data.strAddress.length() == 0) {
       if (data.strCross.length() == 0) return false;

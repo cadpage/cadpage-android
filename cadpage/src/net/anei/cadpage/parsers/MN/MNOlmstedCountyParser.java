@@ -10,6 +10,7 @@ public class MNOlmstedCountyParser extends SmartAddressParser {
   
   public MNOlmstedCountyParser() {
     super("OLMSTED COUNTY", "MN");
+    setFieldList("ADDR APT PLACE CALL INFO");
   }
   
   @Override
