@@ -211,7 +211,7 @@ choyvp pynff APJnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:STENFF",
         "ZNC:066V",
-        "NQQE:HF 64 UJL RO & JRAQRYY OYIQ",
+        "NQQE:HF 64 UJL RO & JRAQRYY OYIQ",   // V qba'g haqrefgnaq guvf
         "ZNQQE:HF 64 & JRAQRYY OYIQ",
         "CYNPR:RKVG 429 JRAQRYY OYI",
         "HAVG:JRO114",
@@ -881,7 +881,7 @@ choyvp pynff APJnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:53B2",
         "ZNC:017T",
-        "NQQE:FVK SBEXF EQ & QHKSBEQ QE",
+        "NQQE:FVK SBEXF EQ & QHKSBEQ QE",   // Abg va Enyrvtu
         "HAVG:OYC251",
         "PU:B4",
         "PVGL:JNXR PBHAGL",

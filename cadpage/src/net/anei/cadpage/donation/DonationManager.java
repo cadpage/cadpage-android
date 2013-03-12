@@ -161,6 +161,7 @@ public class DonationManager {
     
     // OK, we have calculated all of the intermediate stuff.  Now use that to
     // determine the overall status
+    String location = ManagePreferences.location();
     if (ManagePreferences.freeRider()) status = DonationStatus.LIFE;
     else if (ManagePreferences.authLocation().equals(ManagePreferences.location())) {
       status = DonationStatus.AUTH_DEPT;
@@ -180,8 +181,8 @@ public class DonationManager {
       }
       else status = (sponsor != null ? DonationStatus.SPONSOR_EXPIRE : DonationStatus.PAID_EXPIRE);
     } 
-    else if ("General".equals(ManagePreferences.location()) &&
-              ManagePreferences.filter().length()<=1 &&
+    else if ((location == null || location.startsWith("General")) &&
+              ManagePreferences.filter().trim().length()<=1 &&
               !VendorManager.instance().isRegistered()) {
       status = DonationStatus.NEW;
     } else if (sponsor != null) status = DonationStatus.SPONSOR;
