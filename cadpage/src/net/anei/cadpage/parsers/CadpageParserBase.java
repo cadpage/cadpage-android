@@ -27,15 +27,15 @@ public class CadpageParserBase  extends FieldProgramParser{
     setMap("PRI");
     setMap("DATE");
     setMap("TIME");
-    setMap("CALL",        "title");
+    setMap("CALL");
     setMap("PLACE", "PL");
-    setMap("ADDR",        "address");
-    setMap("CITY",        "city");
+    setMap("ADDR");
+    setMap("CITY");
     setMap("ST");
     setMap("APT");
     setMap("X");
     setMap("BOX");
-    setMap("MAP",         "map_code");
+    setMap("MAP");
     setMap("CH");
     setMap("UNIT");
     setMap("INFO");
@@ -43,12 +43,12 @@ public class CadpageParserBase  extends FieldProgramParser{
     setMap("PHONE", "PH");
     setMap("CODE");
     setMap("GPS");
-    setMap("ID",           "cad_code");
+    setMap("ID");
     setMap("SRC");
     setMap("DCITY");
     setMap("DST");
     setMap("MADDR");
-    setMap("URL",         "response_url");
+    setMap("URL");
     setMap("CO");
     setMap("REC_GPS");
   }

@@ -161,6 +161,6 @@ choyvp pynff APGenaflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj APGenaflyinavnPbhaglCnefreGrfg().trarengrGrfgf("G1", "NQQE PVGL CYNPR PBQR VQ GVZR PNYY VASB");
+    arj APGenaflyinavnPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
