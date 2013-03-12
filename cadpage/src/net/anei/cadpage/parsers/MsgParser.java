@@ -1135,6 +1135,18 @@ public abstract class MsgParser {
    if (end > len) end = len;
    return body.substring(st, end).trim();
  }
+
+ /**
+  * Clean name or place field of any references to wireless carrier names
+  * @param name name to be cleaned
+  * @return return cleaned result
+  */
+ protected String cleanWirelessCarrier(String name) {
+   if (WIRELESS_CARRIER_PTN.matcher(name).matches()) return "";
+   return name;
+ }
+ private static final Pattern WIRELESS_CARRIER_PTN = Pattern.compile("(?:VERIZON(?: WIRELESS)?|ATT? ?& ?T(?: MOBILITY)?|ATTMO|T-MOBILE|SPRINT(?:PCS)?|US CELLULAR|METRO ?PCS)\\b.*", Pattern.CASE_INSENSITIVE);
+
  
  /**
   * Worker class that will parse a into consecutive substrings up to the
