@@ -5815,6 +5815,8 @@ Flfgrz: Cntrtngr
 F: Z:Rqtrpbzor911:* 2031 GNAARE EQ* * * EBPXL ZBHAG* * Yvar7=* Yvar8=* Yvar9=* Yvar10=* Yvar11=FGEHPGHER SVER – UBHFR, PUHEPU, BPPHCVRQ QJRYYVAT* Yvar12=* Yvar13=* Y 
 F: Z:Rqtrpbzor911:* 720 QHAONE JBBQF EQ* * * ONGGYROBEB* * Yvar7=* Yvar8=* Yvar9=* Yvar10=* Yvar11=SVER NYNEZ NPGVINGVBA* Yvar12=* Yvar13=* Yvar14=18SQ1,19SQ1,9SQANF 
 F: Z:Rqtrpbzor911:6120 BYQ ONGGYROBEB EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,JUVGNXREF1
+F: Z:RqtrpbzorPrageny:4371 ONGGYROBEB-YRTTRGG EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,EBPXLZG1
+F: Z:Rqtrpbzor911:6120 BYQ ONGGYROBEB EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,JUVGNXREF1
 **********************************************************
 Yrrgbavn, BU (va Pbyhzovnan Pbhagl)
 Pbagnpg: avtugeu@ngg.arg <avtugeu@ngg.arg>
