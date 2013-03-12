@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class INStarkeCountyParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^DISPATCH:([A-Z]{3}:[A-Z]{4}) - (?:(\\d\\d?/\\d\\d?) (\\d\\d?:\\d\\d?) - )?");
+  private static final Pattern MARKER = Pattern.compile("^DISPATCH:([A-Z]{3}:[A-Z]{3,4}) - (?:(\\d\\d?/\\d\\d?) (\\d\\d?:\\d\\d?) - )?");
   private static final Pattern DELIM = Pattern.compile("/+");
   private static final Pattern DIR_OF_PTN = Pattern.compile(" (?:NO|SO|EA|WE|NORTH|SOUTH|EAST|WEST) OF ");
   
@@ -186,7 +186,7 @@ public class INStarkeCountyParser extends FieldProgramParser {
       return "UNIT SRC";
     }
   }
-  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]{3}:[A-Z]{4}");
+  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]{3}:[A-Z]{3,4}");
   
   @Override
   public Field getField(String name) {

@@ -27,6 +27,7 @@ SEZ:QVFCNGPU@pb.fgnexr.va.hf\aZFT:QVFCNGPU:ISQ:OYSQ - 8088 GENSSVP NPPVQRAG-VAWH
 Pbagnpg: Wbr Fubeg <wfubeg@pb.fgnexr.va.hf>
 Fraqre: QVFCNGPU@pb.fgnexr.va.hf
 SEZ:QVFCNGPU@pb.fgnexr.va.hf\aZFT:QVFCNGPU:ISQ:JGSQ - 03/04 11:58 - 8040 ERFPHR/NZOHYNAPR 1820, F 1100 R,PHYIRE//RZF:Z-3,ISQ:JGSQ//RZRETRAPL FREIVPR QVFCNGPU
+1 bs 2\aSEZ:QVFCNGPU@pb.fgnexr.va.hf\aZFT:QVFCNGPU:ISQ:USQ - 03/11 10:46 - 8161 ZRQVPNY 340, R HF UVTUJNL 30,UNZYRG//RZF:Z-5,ISQ:USQ//ERD ZRQVPF\a(Pba'g) 2 bs 2\aSBE ZNYR FHOWRPG UNIVAT PURFG CNVAF GBARQ Z-5 & USQ(Raq)
 
 */
 
@@ -244,7 +245,24 @@ choyvp pynff VAFgnexrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:RZF:Z-3",
         "FEP:ISQ:JGSQ",
         "VASB:RZRETRAPL FREIVPR QVFCNGPU");
-  
+
+    qbGrfg("G2",
+        "1 bs 2\a" +
+        "SEZ:QVFCNGPU@pb.fgnexr.va.hf\a" +
+        "ZFT:QVFCNGPU:ISQ:USQ - 03/11 10:46 - 8161 ZRQVPNY 340, R HF UVTUJNL 30,UNZYRG//RZF:Z-5,ISQ:USQ//ERD ZRQVPF\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "SBE ZNYR FHOWRPG UNIVAT PURFG CNVAF GBARQ Z-5 & USQ(Raq)",
+
+        "QNGR:03/11",
+        "GVZR:10:46",
+        "PNYY:8161 ZRQVPNY",
+        "NQQE:340 R HF UVTUJNL 30",
+        "ZNQQE:340 R HF 30",
+        "PVGL:UNZYRG",
+        "HAVG:RZF:Z-5",
+        "FEP:ISQ:USQ",
+        "VASB:ERD ZRQVPF SBE ZNYR FHOWRPG UNIVAT PURFG CNVAF GBARQ Z-5 & USQ");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
