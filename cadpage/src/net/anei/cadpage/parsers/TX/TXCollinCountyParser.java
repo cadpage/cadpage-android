@@ -36,7 +36,7 @@ public class TXCollinCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "ccsodispatch@co.collin.tx.us";
+    return "ccsodispatch@co.collin.tx.us,DispatchSMS@coppelltx.gov";
   }
 
   @Override
@@ -98,6 +98,11 @@ public class TXCollinCountyParser extends FieldProgramParser {
     
     if (alert != null) return data.parseGeneralAlert(alert);
     return false;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "ID CALL ADDR CITY PLACE X SRC MAP UNIT INFO TIME";
   }
   
   // Parse a mashup of ID, CALL, ADDR, CITY, and Cross streets all of which might
@@ -259,11 +264,6 @@ public class TXCollinCountyParser extends FieldProgramParser {
     if (name.equals("MASH")) return new MashField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
-  }
-  
-  @Override
-  public String getProgram() {
-    return "ID CALL ADDR CITY PLACE X SRC MAP UNIT INFO";
   }
   
 //  
