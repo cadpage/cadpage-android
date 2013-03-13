@@ -5,6 +5,17 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
+
+import javax.net.ssl.HostnameVerifier;
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLSession;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.X509TrustManager;
+
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
+
 import java.net.URL;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -19,6 +30,43 @@ import android.os.PowerManager;
 import android.os.Process;
 
 public class HttpService extends Service {
+  
+  // SSL Host Verifier that accepts everything
+  private static final HostnameVerifier PERMISSIVE_HOST_VERIFIER = new HostnameVerifier() {
+    public boolean verify(String hostname, SSLSession session) {
+      return true;
+    }
+  };
+  
+  /**
+   * Trust every server - dont check for any certificate
+   */
+  static {
+    // Create a trust manager that does not validate certificate chains
+    TrustManager[] trustAllCerts = new TrustManager[] { new X509TrustManager() {
+      public java.security.cert.X509Certificate[] getAcceptedIssuers() {
+        return new java.security.cert.X509Certificate[] {};
+      }
+
+      public void checkClientTrusted(X509Certificate[] chain,
+          String authType) throws CertificateException {
+      }
+
+      public void checkServerTrusted(X509Certificate[] chain,
+          String authType) throws CertificateException {
+      }
+    } };
+
+    // Install the all-trusting trust manager
+    try {
+      SSLContext sc = SSLContext.getInstance("TLS");
+      sc.init(null, trustAllCerts, new java.security.SecureRandom());
+      HttpsURLConnection
+          .setDefaultSSLSocketFactory(sc.getSocketFactory());
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
   
   public static class HttpRequest {
     
@@ -108,8 +156,13 @@ public class HttpService extends Service {
           InputStream is = null;
           try {
             connect = (HttpURLConnection)url.openConnection();
+            if (connect instanceof HttpsURLConnection) {
+              ((HttpsURLConnection)connect).setHostnameVerifier(PERMISSIVE_HOST_VERIFIER);
+            }
             connect.setConnectTimeout(connectTimeout);
             connect.setReadTimeout(readTimeout);
+            Log.v("ConnectTimeout:" + connect.getConnectTimeout());
+            Log.v("ReadTimeout:" + connect.getReadTimeout());
             connect.connect();
             status = connect.getResponseCode();
             result = connect.getResponseMessage();
