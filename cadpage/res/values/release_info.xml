@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03112013</string>
-  <string name="release_version">v1.6.13</string>
+  <string name="release_date">03132013</string>
+  <string name="release_version">v1.6.14</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 Location Parsing Fixes:\n
-Lauderdale County, AL\n
-Madison County, AL\n
-Ventura County, CA\n
-Collier County, FL\n
-DuPage County, IL\n
-Hamilton County, IN\n
 Starke County, IN\n
-Johnson County, KS\n
-Burlington County, NJ\n
-Lincoln County, NC\n
-Sampson County, NC\n
-Franklin, OH\n
-Elk County, PA\n
-Erie County, PA\n
-Lancaster County, PA\n
-Mercer County, PA\n
-Northampton County, PA\n 
-Fairfax County, VA\n
-Berkeley County, WV\n
-Kanawha County, WV\n
+Wake County, NC\n
+Vance County, NC\n
+Collin County, TX\n
+Sweden\n
 \n
 General Fixes:\n
-Force close handling response button\n
-Removed mobile carrier names from most name and place fields.\n
+Fixed problem send response status and location reports to Active911
   </string>  
 </resources>
   
