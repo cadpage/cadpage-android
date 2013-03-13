@@ -7,6 +7,8 @@ vzcbeg bet.whavg.Grfg;
 /*
 Fjrqra
 
+Nyy Rznvy cntrf ner orvat erqrsvarq, cnefre fubhyq or erjevggra jura jr unir zber qngn gb jbex sebz (ntnva)
+
 Pbagnpg: Ebtre Ruefgrqg <roon.ruefgrqg@tznvy.pbz>
 Fraqre: 3315
 3491105\aOenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aUäaqryfrorfxeviavat : Oenaq v genccuhf ivq vatåat, oevaare v oeriyåqn\aPneyniätra 45n\a\aCbfvgvbaJTF84 : Yn = 59º 22,267'A    Yb = 016º 31,964'R
@@ -26,6 +28,7 @@ Fraqre: @mravg.fbfnynez.fr
 3491105\aOenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aUäaqryfrorfxeviavat : Oenaq v genccuhf ivq vatåat, oevaare v oeriyåqn\aPneyniätra 45n\a\aCbfvgvbaJTF84 : Yn = 59º 22,267'A    Yb = 016º 31,964'R\a
 3490536\aOenaq v olttanq\aSyresnzvywfuhf\aGenccuhf\aUäaqryfrorfxeviavat : yhxgne eöx v genccuhfrg, fbz ra yägg qvzzn\aEnqrznpuretngna 21, iåa 5\a\aCbfvgvbaJTF84 : Yn = 59º 22,308'A    Yb = 016º 30,783'R\a
 3488440\aNhgbzngynez\aOenaq\a\aUäaqryfrorfxeviavat : \aIvyfgn            Ae 138 Ivyfgn Enfgfghtn\aRfxvyfghan\aQ10\aCbfvgvbaJTF84 : Yn = 59º 21,027'A    Yb = 016º 30,613'R\aFgngvbafxbq : \aYnezxngrtbev anza : \a
+
 3487792\aNhgbzngynez\aOenaq\a\aUäaqryfrorfxeviavat : \aZäynefwhxuhfrg     Ae 69 Zäynefwhxuhfrg, Rfxvyfgha\aRfxvyfghan\aQ10\aCbfvgvbaJTF84 : Yn = 59º 21,738'A    Yb = 016º 31,957'R\aFgngvbafxbq : \aYnezxngrtbev anza : \a
 3487587\aNhgbzngynez\aOenaq\a\aUäaqryfrorfxeviavat : \aObyvaqreiätra 10  Ae 153 Fxna Yått Yntrecnegare\aRfxvyfghan\aQ10\aCbfvgvbaJTF84 : Yn = 59º 24,222'A    Yb = 016º 26,323'R\aFgngvbafxbq : \aYnezxngrtbev anza : \a
 3485836\aFwhxqbzfsnyy\aNyyretv\a\aUäaqryfrorfxeviavat : \aAbnxftngna 14N\a\aQ10\aCbfvgvbaJTF84 : \a
@@ -437,7 +440,26 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Q14",
         "TCF:+59.326367,+16.110833");
 
-  }
+    qbGrfg("G21",
+        "2338824\a" +
+        "Öievtg eäqqavat\a\a\a" +
+        "Fgninatretngna 4,1\a" +
+        "Rfxvyfghan\a" +
+        "Q10\a" +
+        "CbfvgvbaJTF84 : Yn = 59º 21,546'A    Yb = 016º 29,297'R\a" +
+        "Uäaqryfrorfxeviavat : Unccnenagn cå qöeera\a" +
+        "oenaqineaner ywhqre\a",
+
+        "VQ:2338824",
+        "PNYY:Öievtg eäqqavat",
+        "VASB:Unccnenagn cå qöeera / oenaqineaner ywhqre",
+        "NCG:1",
+        "NQQE:Fgninatretngna 4",
+        "PVGL:Rfxvyfghan",
+        "FEP:Q10",
+        "TCF:+59.359100,+16.488283");
+
+ }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj MFRFjrqraCnefreGrfg().trarengrGrfgf("G1");
