@@ -10,7 +10,7 @@ public class ZSESwedenParser extends FieldProgramParser {
 
   public ZSESwedenParser() {
     super("", "", CountryCode.SE,
-          "ID CALL CALL CALL ADDR CITY SRC! PositionWGS84:GPS! END");
+          "( ID CALL CALL CALL! Händelsebeskrivning:INFO! INFO2? ADDR CITY! SRC Larmkategori_namn:PRI PositionWGS84:GPS! | CALL CALL CALL ADDR CITY SRC? GPS! ) END");
   }
   
   @Override
@@ -30,11 +30,33 @@ public class ZSESwedenParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!parseFields(body.split("\n"), 8, data)) return false;
+    if (!parseFields(body.split("\n"), 6, data)) return false;
     if (data.strCity.equals("-")) data.strCity = "";
     if (data.strPlace.equals(data.strCity)) data.strPlace = "";
     return true;
   };
+  
+  // Sometimes the info field is split by a newline leaving a fragment that we have to
+  // identify and merge back into the original info field. Detecting this situation is
+  // a bit tricky.  Best bet is to look ahead to see if the source field is what it should
+  // be if this is an extra field
+  private static final Pattern INFO_SRC_PTN = Pattern.compile("D\\d+");
+  private class ExtraInfoField extends InfoField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (data.strSupp.length() == 0) return false;
+      String src = getRelativeField(3);
+      if (!INFO_SRC_PTN.matcher(src).matches()) return false;
+      parse(field, data);
+      return true;
+    }
+  }
   
   private static final Pattern APT_MARKER = Pattern.compile("(?: Nr(?= |\\d)|,) *(\\d+[A-Z]?\\b)? *(.*)$");
   private static final Pattern PROPERTY_MARKER = Pattern.compile("\\w+:.*");
@@ -64,23 +86,38 @@ public class ZSESwedenParser extends FieldProgramParser {
   
   private static final Pattern GPS_PTN = Pattern.compile("La = (\\d+)(?:º| grader) ([\\d\\.,]+)'([NS]) +Lo = (\\d+)(?:º| grader) ([\\d\\.,]+)'([EW])");
   private class MyGPSField extends GPSField {
+    
     @Override
-    public void parse(String field, Data data) {
-      if (field.length() == 0) return;
+    public boolean canFail() {
+      return false;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      
+      if (field.length() == 0) return true;
       Matcher match = GPS_PTN.matcher(field);
-      if (!match.matches()) abort();
+      if (!match.matches()) return false;
       
       String gpsLoc = (match.group(3).charAt(0) == 'S' ? "-" : "+") + match.group(1) + ' ' + match.group(2) + ' ' +
                       (match.group(6).charAt(0) == 'W' ? "-" : "+") + match.group(4) + ' ' + match.group(5);
       gpsLoc = gpsLoc.replace(',', '.');
       setGPSLoc(gpsLoc, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new IdField("\\d+");
+    if (name.equals("INFO2")) return new ExtraInfoField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("SRC")) return new SourceField("|D\\d+");
     if (name.equals("GPS")) return new MyGPSField();
     return super.getField(name);
   }
