@@ -122,7 +122,7 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
   
   @Override
   public String getProgram() {
-    return super.getProgram() + " PLACE";
+    return super.getProgram().replace("CALL", "CODE CALL") + " PLACE";
   }
   
   @Override

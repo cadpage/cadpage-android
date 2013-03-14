@@ -14,6 +14,7 @@ public class WAKingCountyBParser extends MsgParser {
   
   public WAKingCountyBParser() {
     super("KING COUNTY", "WA");
+    setFieldList("ADDR APT CALL CH UNIT");
   }
 
   @Override
