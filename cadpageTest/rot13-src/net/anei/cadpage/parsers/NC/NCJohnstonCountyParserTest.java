@@ -629,7 +629,7 @@ choyvp pynff APWbuafgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Cngvrag Rkgevpngrq",
         "PVGL:PYNLGBA",
         "NQQE:2138 AP 42 UJL J",
-        "ZNQQE:2138 AP 42 J");
+        "ZNQQE:2138 FGNGR 42 J");
 
     qbGrfg("G28",
         "PNQ:PGF1;29O01;ZIN CREFBANY VAWHEL 29-O-01;2138 AP 42 UJL J;NZRYVN PUHEPU EQ;FCEVATOEBBX NIR;WZPP;12/02/2012 17:59:02;PGF11,PGQE1,PGQOP3,PGQR1",
@@ -637,7 +637,7 @@ choyvp pynff APWbuafgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:29O01",
         "PNYY:ZIN CREFBANY VAWHEL 29-O-01",
         "NQQE:2138 AP 42 UJL J",
-        "ZNQQE:2138 AP 42 J",
+        "ZNQQE:2138 FGNGR 42 J",
         "K:NZRYVN PUHEPU EQ & FCEVATOEBBX NIR",
         "ANZR:WZPP",
         "QNGR:12/02/2012",

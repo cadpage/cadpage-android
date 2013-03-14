@@ -643,38 +643,38 @@ public class MsgInfo {
   // This method breaks those up into two separate tokens, also dropping any
   // direction qualifiers
   private static final Pattern ROUTE_PTN =
-    Pattern.compile("\\b(RT|RTE|HW|HWY|US|ST|SH|FM|I|CO|CR|CORD|SRT?|I)-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern ROUTE_PTN2 =
-    Pattern.compile("\\b([A-Z]{2})(\\d{1,3})(?:[NSEW]B)?\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b(?:(RT|RTE|HW|HWY|US|ST|SH|FM|I|CO|CR|CORD|SRT?|I)|([A-Z]{2}))-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SRT_PTN = Pattern.compile("\\bS(?:RT?| ?H)\\b", Pattern.CASE_INSENSITIVE);
   
   private String cleanRoutes(String sAddress) {
     
-    // Google gets confused by the ST abbreviation for State hwy.  We have a couple choices but lets use
-    // the default state if there is one and STATE if there isn't.
-    String state = (strState.length() > 0 ? strState : 
-                    countryCode == CountryCode.US && defState.length() > 0 ? defState : "STATE");
+    String state = getStateCode();
+    String repState = getRepState(state);
 
     Matcher match = ROUTE_PTN.matcher(sAddress);
-    sAddress = match.replaceAll("$1 $2");
-    
-    match = ROUTE_PTN2.matcher(sAddress);
     if (match.find()) {
       StringBuffer sb = new StringBuffer();
       do {
-        String replace = (state.equalsIgnoreCase(match.group(1)) ? "$1 $2" : "$0");
+        String g1 = match.group(1);
+        if (g1 == null) {
+          g1 = match.group(2);
+          if (!g1.equals(state)) continue;
+        }
+        if (g1.equals("ST") || g1.equals(state)) g1 = repState;
+        String replace = g1 + ' ' + match.group(3);
         match.appendReplacement(sb, replace);
       } while (match.find());
       match.appendTail(sb);
       sAddress = sb.toString();
     }
+    
     boolean suppr_sr = (parser.getMapFlags() & MAP_FLG_SUPPR_SR) != 0;;
     match = SRT_PTN.matcher(sAddress);
     if (match.find()) {
       StringBuffer sb = new StringBuffer();
       do {
         if (!suppr_sr || !match.group().equalsIgnoreCase("SR")) {
-          match.appendReplacement(sb, state);
+          match.appendReplacement(sb, repState);
         }
       } while (match.find());
       match.appendTail(sb);
@@ -682,6 +682,7 @@ public class MsgInfo {
     }
     return sAddress;
   }
+  
 
   // Google can handle things like ST 666 or US 666 or RTE 666.
   // But it doesn't like US RTE 666 or US 666 HWY
@@ -694,6 +695,11 @@ public class MsgInfo {
   private static final Pattern REV_HWY_PTN = Pattern.compile("(?<!-)\\b(\\d+) *(HWY|RT|RTE|ROUTE)(?=$| *&)", Pattern.CASE_INSENSITIVE);
   private static final Pattern I_FWY_PTN = Pattern.compile("\\b(I[- ]\\d+) +[FH]WY\\b", Pattern.CASE_INSENSITIVE);
   private String cleanDoubleRoutes(String sAddress) {
+    
+    String state = getStateCode();
+    if (state.length() == 0) state = defState;
+    String repState = getRepState(state);
+    
     for (Pattern ptn : DBL_ROUTE_PTNS) {
       Matcher match = ptn.matcher(sAddress);
       if (!match.find()) continue;
@@ -709,8 +715,6 @@ public class MsgInfo {
           middle = "";
           hwy = match.group(2).toUpperCase();
         }
-        String state = strState;
-        if (state.length() == 0) state = defState;
         if (!hwy.equals("TO") && !hwy.equals("OF") && !hwy.equals("OR")) {
           if (prefix.length() != 2 ||
               (prefix.equals(state) ||
@@ -719,10 +723,7 @@ public class MsgInfo {
                prefix.equals("ST") ||
                prefix.equals("FM"))) {
             if (!prefix.equals("COUNTY") || !middle.equals("ROAD") && !middle.equals("RD")) {
-              if (prefix.equals("ST")) {
-                if (state.length() == 0) state = "STATE";
-                prefix = state;
-              }
+              if (prefix.equals("ST") || prefix.equals(state)) prefix = repState;
               match.appendReplacement(sb, prefix + " " + hwy);
             }
           }
@@ -778,10 +779,37 @@ public class MsgInfo {
     
     // Google gets confused by the ST abbreviation for State hwy.  We have a couple choices but lets use
     // the default state if there is one and STATE if there isn't.
-    String state = (countryCode == CountryCode.US && defState.length() > 0 ? defState : "STATE");
+    String state = getRepState(getStateCode());
     return ST_PTN.matcher(sAddress).replaceAll(state);
   }
 
+  
+  // Google gets confused by the ST abbreviation for State hwy.  We have a couple choices but lets use
+  // the default state if there is one and STATE if there isn't.
+  // That turned out to be an unwise choice.  STATE seems be more reliable.  But changing it
+  // accross the board will break so many existing test case that we are going to phase this in
+  // on a state by state basis, starting with states where it is known to be a problem.
+
+  /**
+   * Returns the current state code in effect for this message
+   * @return current state code
+   */
+  private String getStateCode() {
+    return strState.length() > 0 ? strState : 
+            defState.length() > 0 ? defState : "STATE";
+  }
+  
+  /**
+   * returns the value that should replace the state code when we encounter it in abbreviations for 
+   * state highways.  We used to always set this to the current state code, but found some cases and
+   * some states where this does not work properly and "STATE" does.  Changing this across the board is
+   * going to break huge numbers of test cases, so we will phase it in on a state by state basis
+   * @param state current state code
+   * @return state code replacement value
+   */
+  private String getRepState(String state) {
+    return state.equals("NC") ? "STATE" : state;
+  }
   
   /**
    * @return true if address is valid standalone address

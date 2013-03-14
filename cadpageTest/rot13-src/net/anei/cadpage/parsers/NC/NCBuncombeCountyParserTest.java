@@ -1167,7 +1167,7 @@ choyvp pynff APOhapbzorPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "[] PNQ:219 BYQ AP 20 UJL;O2;JNYFU,QRAVFR;FVPX CREFBA;FHA INYYRL QE;QNYR GURYZN ZRZBEVNY QE\e\a\a",
         "NQQE:219 BYQ AP 20 UJL",
-        "ZNQQE:219 BYQ AP 20",
+        "ZNQQE:219 BYQ FGNGR 20",
         "HAVG:O2",
         "PNYY:FVPX CREFBA",
         "ANZR:JNYFU,QRAVFR",

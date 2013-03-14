@@ -35,7 +35,7 @@ choyvp pynff APCraqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911-:=12-010417* BYQ ZNCYR UVYY EQ A // AP UJL 50* * * * * * * * * 29-GENSSVP/GENAFCBEGNGVBA NPPVQRAGF* * * SQ13* * * * *",
         "VQ:12-010417",
         "NQQE:BYQ ZNCYR UVYY EQ A & AP UJL 50",
-        "ZNQQE:BYQ ZNCYR UVYY EQ A & AP 50",
+        "ZNQQE:BYQ ZNCYR UVYY EQ A & FGNGR 50",
         "PNYY:29-GENSSVP/GENAFCBEGNGVBA NPPVQRAGF",
         "HAVG:SQ13");
 
@@ -43,7 +43,7 @@ choyvp pynff APCraqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911-:=12-012441* BYQ ZNCYR UVYY EQ A // AP UJL 50* * * * * * * * * OEHFU/SBERFG SVER (EC 1-4)* * * SQ13* * * * *",
         "VQ:12-012441",
         "NQQE:BYQ ZNCYR UVYY EQ A & AP UJL 50",
-        "ZNQQE:BYQ ZNCYR UVYY EQ A & AP 50",
+        "ZNQQE:BYQ ZNCYR UVYY EQ A & FGNGR 50",
         "PNYY:OEHFU/SBERFG SVER (EC 1-4)",
         "HAVG:SQ13");
 
@@ -51,7 +51,7 @@ choyvp pynff APCraqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911-:=12-012596* UBYYVATFJBEGU QE // AP UJL 50* * * * * * * * * 29-GENSSVP/GENAFCBEGNGVBA NPPVQRAGF* * * SQ13* * * * *",
         "VQ:12-012596",
         "NQQE:UBYYVATFJBEGU QE & AP UJL 50",
-        "ZNQQE:UBYYVATFJBEGU QE & AP 50",
+        "ZNQQE:UBYYVATFJBEGU QE & FGNGR 50",
         "PNYY:29-GENSSVP/GENAFCBEGNGVBA NPPVQRAGF",
         "HAVG:SQ13");
 
@@ -66,7 +66,7 @@ choyvp pynff APCraqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911-:=12-009752* 5471 AP UJL 50* * * * * * * * * 29-GENSSVP/GENAFCBEGNGVBA NPPVQRAGF* * * SQ13* * * * *",
         "VQ:12-009752",
         "NQQE:5471 AP UJL 50",
-        "ZNQQE:5471 AP 50",
+        "ZNQQE:5471 FGNGR 50",
         "PNYY:29-GENSSVP/GENAFCBEGNGVBA NPPVQRAGF",
         "HAVG:SQ13");
 
@@ -74,7 +74,7 @@ choyvp pynff APCraqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911-:=12-009855* 14976 AP UJL 53 RNFG* * * * * * * * * NFFVFG RZF* * * SQ13,SQ15* * * * *",
         "VQ:12-009855",
         "NQQE:14976 AP UJL 53",
-        "ZNQQE:14976 AP 53",
+        "ZNQQE:14976 FGNGR 53",
         "CYNPR:RNFG",
         "PNYY:NFFVFG RZF",
         "HAVG:SQ13,SQ15");

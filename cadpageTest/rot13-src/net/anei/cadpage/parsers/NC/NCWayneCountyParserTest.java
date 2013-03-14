@@ -252,7 +252,7 @@ choyvp pynff APJnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "EG:Iruvpyr Sver  Ybp:1606 R AP 55 UJL, ZBHAG BYVIR (AP 403 UJL, CVARIVRJ PRZRGREL EQ/FGNAYRL PUNCRY PUHEPU EQ) [64]",
         "PNYY:Iruvpyr Sver",
         "NQQE:1606 R AP 55 UJL",
-        "ZNQQE:1606 R AP 55",
+        "ZNQQE:1606 R FGNGR 55",
         "PVGL:ZBHAG BYVIR",
         "K:AP 403 UJL, CVARIVRJ PRZRGREL EQ/FGNAYRL PUNCRY PUHEPU EQ");
 

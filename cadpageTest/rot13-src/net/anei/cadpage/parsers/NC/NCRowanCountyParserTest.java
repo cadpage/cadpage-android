@@ -212,14 +212,14 @@ choyvp pynff APEbjnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:ESQ PBZZNAQ RFGNOYVFURQ;2470 R AP 152 UJL; PUTI",
         "PNYY:ESQ PBZZNAQ RFGNOYVFURQ",
         "NQQE:2470 R AP 152 UJL",
-        "ZNQQE:2470 R AP 152",
+        "ZNQQE:2470 R FGNGR 152",
         "PVGL:PUVAN TEBIR");
 
     qbGrfg("G5",
         "PNQ:29O1 GENSSVP NPPVQRAG JVGU VAW;R AP 152 UJL/F V 85;PUTI;4123;EST2",
         "PNYY:29O1 GENSSVP NPPVQRAG JVGU VAW",
         "NQQE:R AP 152 UJL & F V 85",
-        "ZNQQE:R AP 152 & F V 85",
+        "ZNQQE:R FGNGR 152 & F V 85",
         "PVGL:PUVAN TEBIR",
         "ZNC:4123",
         "HAVG:EST2");
@@ -228,7 +228,7 @@ choyvp pynff APEbjnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:ESQ PBZZNAQ RFGNOYVFURQ;R AP 152 UJL/F V 85; PUTI",
         "PNYY:ESQ PBZZNAQ RFGNOYVFURQ",
         "NQQE:R AP 152 UJL & F V 85",
-        "ZNQQE:R AP 152 & F V 85",
+        "ZNQQE:R FGNGR 152 & F V 85",
         "PVGL:PUVAN TEBIR");
 
     qbGrfg("G7",

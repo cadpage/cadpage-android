@@ -11,6 +11,7 @@ choyvp pynff ZftVasbGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+    qbZncGrfg("EG3", "JR75 & KK 10,XRAOHET,KK", "JR75&KK10");
   }
 
   @Grfg

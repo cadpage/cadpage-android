@@ -158,7 +158,7 @@ choyvp pynff APCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G11",
         "cbyxpbhagl911:4861 R AP 108 UJL ZVYY FCEVAT FYVZCYRK TERARYY 888746753911:28:38 SVER NYNEZ OHVYQVAT BAR SEBZ UBHFGBA EQ/JNYXRE FG GB EHGURESBEQ PB YVAR. Whar 14, 11:29 NZ.",
         "NQQE:4861 R AP 108 UJL",
-        "ZNQQE:4861 R AP 108",
+        "ZNQQE:4861 R FGNGR 108",
         "PVGL:ZVYY FCEVAT",
         "ANZR:FYVZCYRK TERARYY",
         "VQ:8887467539",
@@ -304,7 +304,7 @@ choyvp pynff APCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G9",
         "cbyxpbhagl911:750 R AP 108 UJL PBYHZOHF; ora; 2013-002006; 15:32:55; EBHGVAR GENAFCBEG; pnyyre fnvq n znyr pnzr gurer naq fnvq ur arrqrq n evqr gb fg yhxrf qbrf abg arrq nzohynapr; SEBZ UBHFGBA EQ/JNYXRE FG GB EHGURESBEQ PB YVAR",
         "NQQE:750 R AP 108 UJL",
-        "ZNQQE:750 R AP 108",
+        "ZNQQE:750 R FGNGR 108",
         "PVGL:PBYHZOHF",
         "ANZR:ora, 2013-002006, 15:32:55, EBHGVAR GENAFCBEG, pnyyre fnvq n znyr pnzr gurer naq fnvq ur arrqrq n evqr gb fg yhxrf qbrf abg arrq nzohynapr, SEBZ UBHFGBA EQ/JNYXRE FG GB EHGURESBEQ PB YVAR");
 
@@ -316,7 +316,7 @@ choyvp pynff APCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G11",
         "cbyxpbhagl911:1 AP UJL 9 AE GUR FP YVAR; ESF 312; 2013-001751; 18:05:04; ZIN/10-50; ERCBEG BS N 10-50 CV VAIBYIVAT N ZBGBEPLPYR AP UJL 9 AE GUR FP YVAR",
         "NQQE:1 AP UJL 9 AE GUR FP YVAR",
-        "ZNQQE:1 AP 9 AE GUR FP YVAR",
+        "ZNQQE:1 FGNGR 9 AE GUR FP YVAR",
         "ANZR:ESF 312, 2013-001751, 18:05:04, ZIN/10-50, ERCBEG BS N 10-50 CV VAIBYIVAT N ZBGBEPLPYR AP UJL 9 AE GUR FP YVAR");
 
     qbGrfg("G12",

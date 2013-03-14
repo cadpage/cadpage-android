@@ -100,7 +100,7 @@ choyvp pynff APQheunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:PURFG CNVA;2238 J AP 54 UJL;PRYRFGR PVE",
         "PNYY:PURFG CNVA",
         "NQQE:2238 J AP 54 UJL",
-        "ZNQQE:2238 J AP 54",
+        "ZNQQE:2238 J FGNGR 54",
         "K:PRYRFGR PVE");
 
     qbGrfg("G6",
@@ -153,7 +153,7 @@ choyvp pynff APQheunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PNQ:) NFFG CQ FRVMHER;1125 J AP 54 UJL;[YNJ] {N324} PBA OERNGUVAT NAQ NYREG [09/10/11 01:52:07 ZVGPURYYZ] Rirag fcnjarq sebz VAGBKVPNGRQ QEVIRE. [09/10/2011 01:51",
         "PNYY:NFFG CQ FRVMHER",
         "NQQE:1125 J AP 54 UJL",
-        "ZNQQE:1125 J AP 54",
+        "ZNQQE:1125 J FGNGR 54",
         "HAVG:N324",
         "VASB:PBA OERNGUVAT NAQ NYREG / Rirag fcnjarq sebz VAGBKVPNGRQ QEVIRE.",
         "QNGR:09/10/11",

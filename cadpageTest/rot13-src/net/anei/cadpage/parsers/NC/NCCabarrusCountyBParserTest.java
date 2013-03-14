@@ -169,7 +169,7 @@ choyvp pynff APPnoneehfPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
          "PNYY:JBEXVAT SVER HCTENQR",
          "PU:BCF3",
          "NQQE:1051 AP UJL 49 F",
-         "ZNQQE:1051 AP 49 F",
+         "ZNQQE:1051 FGNGR 49 F",
          "K:TYRAJBBQ QE FJ & BYQ PUNEYBGGR EQ FJ",
          "CEV:8",
          "HAVG:834",

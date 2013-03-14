@@ -161,7 +161,7 @@ choyvp pynff APQnivqfbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GERR QBJA/SVER;YVPX PERRX PUHEPU EQ/AP UJL 8;2011016908;ovt gerr cyhz npebff gur ebnq [08/20/11 08:28:05 WRIREUNEG] 2048 ra ebhgr [08/20/11 08:33:44 WRIREU",
         "PNYY:GERR QBJA/SVER",
         "NQQE:YVPX PERRX PUHEPU EQ & AP UJL 8",
-        "ZNQQE:YVPX PERRX PUHEPU EQ & AP 8",
+        "ZNQQE:YVPX PERRX PUHEPU EQ & FGNGR 8",
         "VQ:2011016908",
         "VASB:ovt gerr cyhz npebff gur ebnq / 2048 ra ebhgr",
         "QNGR:08/20/11",
