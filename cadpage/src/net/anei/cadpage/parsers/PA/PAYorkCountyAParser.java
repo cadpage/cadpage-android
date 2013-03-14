@@ -12,6 +12,7 @@ public class PAYorkCountyAParser extends SmartAddressParser {
   private static final Pattern STATION_PTN = Pattern.compile("\\d\\d");
   private static final Pattern TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)¿?$");
   private static final Pattern ID_PTN = Pattern.compile("^(\\d{7}) ");
+  private static final Pattern TIME_DATE_PTN = Pattern.compile("^(\\d\\d:\\d\\d:\\d\\d) +(\\d\\d-\\d\\d-\\d\\d) +");
   private static final Pattern CITY_PTN = Pattern.compile("^([A-Z ]+?) +(CITY|BORO|TWP|COUNTY)\\b *");
   private static final Pattern MAP_PTN = Pattern.compile("\\b(\\d{2}-\\d{2,3})\\b");
   private static final Pattern DELIM = Pattern.compile("\n\n|    *");
@@ -19,11 +20,12 @@ public class PAYorkCountyAParser extends SmartAddressParser {
   
   public PAYorkCountyAParser() {
     super("YORK COUNTY", "PA");
+    setFieldList("SRC ID CITY ST PLACE ADDR APT X CALL MAP UNIT TIME DATE");
   }
   
   @Override
   public String getFilter() {
-    return "FIRE@mantwp.com";
+    return "FIRE@mantwp.com,paging@zoominternet.net";
   }
 
   @Override
@@ -49,6 +51,14 @@ public class PAYorkCountyAParser extends SmartAddressParser {
     match = ID_PTN.matcher(body);
     if (match.find()) {
       data.strCallId = match.group(1);
+      body = body.substring(match.end()).trim();
+    }
+    
+    // Check for leading time/date
+    match = TIME_DATE_PTN.matcher(body);
+    if (match.find()) {
+      data.strTime = match.group(1);
+      data.strDate = match.group(2).replace('-', '/');
       body = body.substring(match.end()).trim();
     }
 
