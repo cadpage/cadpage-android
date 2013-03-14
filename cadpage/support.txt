@@ -206,7 +206,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-OZOHKTGA or ozohktga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+CHKTDADA or chktdada.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -292,7 +292,7 @@ If you do this, please include your Cadpage User email address (usually a gmail 
 We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them other then getting staff and volunteer members to bring it up.  If you can talk them into it, they get a 30% discount or more!  Details can be found at http://www.cadpage.org/financial-support/other-support-options.
 
 In the meantime, I can give you a 30 day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-OZOHKTGA or ozohktga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+CHKTDADA or chktdada.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -436,7 +436,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-OZOHKTGA or ozohktga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+CHKTDADA or chktdada.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -450,7 +450,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30 day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-OZOHKTGA or ozohktga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+CHKTDADA or chktdada.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -460,7 +460,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30 day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-OZOHKTGA or ozohktga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+CHKTDADA or chktdada.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -631,7 +631,7 @@ Good luck,
 ******************************************************************
 * Text paging delays 
 
-This is being reported fairly often recently.  You are getting text pages, and the only reason Cadpage alerting will be delayed for text pages is because the messages are just not arrive at your device in a timely fashion.  If you want to prove this, go into Cadpage Additional Settings and check the box labeled "Pass Calls through to SMS Client".  With that set, all calls will be passed to your message inbox in addition to alerting Cadpage and you can confirm the extent to which the messages are delayed.
+This is being reported fairly often recently.  You are getting text pages, and the only reason Cadpage alerting will be ked for text pages is because the messages are just not arrive at your device in a timely fashion.  If you want to prove this, go into Cadpage Additional Settings and check the box labeled "Pass Calls through to SMS Client".  With that set, all calls will be passed to your message inbox in addition to alerting Cadpage and you can confirm the extent to which the messages are delayed.
 
 According to the message timestamps, it took only 16 seconds for the carrier to deliver this call to you, which would imply that the delay was introduced by the dispatch messaging service.  But this should not be considered hard proof, I have some suspicions that carriers are holding messages in a system queue for some reason and that the total delay is not represented by this number.
 
@@ -664,7 +664,8 @@ Good luck,
 ******************************************************************
 * Duplicate pages with Active911
 
-That is a fairly common problem for new Active911 users.  Some time back, you arranged to have dispatch send text pages to your phone.  Those pages don't stop coming when you register with Active911.  As a result you always get two pages for each incident.
+That is a fairly common problem for new Active911 users.  Some time back, you arranged to have 
+send text pages to your phone.  Those pages don't stop coming when you register with Active911.  As a result you always get two pages for each incident.
 
 You have to talk to someone in your department about stopping the original text pages.  Probably the same person who got them sent to your phone in the first place.
 
@@ -1314,6 +1315,17 @@ Go into Cadpage Additional Settings and set the "Map Network Status"
 setting to "Roaming".
 
 ********************************************
+ trouble seeing the whole message when cadpage goes off
+
+Usually you can just scroll the window to get the rest of the call.
+
+If you long press the call and select Report Problem to send it to us, I
+might be able to tell you more about what might be going on.
+
+Good luck,
+-Ken
+
+
 
 end
 
