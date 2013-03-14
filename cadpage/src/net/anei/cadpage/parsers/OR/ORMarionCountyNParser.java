@@ -17,10 +17,11 @@ public class ORMarionCountyNParser extends FieldProgramParser {
   
   private static final Pattern TIME_PTN = Pattern.compile("\\b(\\d{1,2}):(\\d{1,2}):(\\d{1,2})\\b");
   private static final Pattern GPS_PTN = Pattern.compile("\\bLAT: *([+-]?[\\d.]+), *LON: *([+-]?[\\d.]+)\\b");
+  private static final Pattern MAP_PTN = Pattern.compile(":MAP::(\\d+[A-Z]):");
   
   public ORMarionCountyNParser() {
     super("MARION COUNTY", "OR",
-           "( ADDR/SXCZ END | CALL ADDRCITY ( PLACE UNK APT UNIT! EMPTY INFO DATETIME | UNIT! INFO UNK UNK UNK PLACE ) )");
+           "( ADDR/SXCZ END | CALL ADDRCITY ( UNIT! INFO+? EMPTY EMPTY+? PLACE | PLACE? MAP APT UNIT! INFO+? DATETIME ) )");
   }
   
   @Override
@@ -53,6 +54,9 @@ public class ORMarionCountyNParser extends FieldProgramParser {
     // As does a GPS address field
     body = GPS_PTN.matcher(body).replaceAll("$1,$2");
     
+    // And a MAP::<code> construct
+    body = MAP_PTN.matcher(body).replaceFirst(":MAP-$1:");
+    
     return parseFields(body.split(":", -1), data);
   }
   
@@ -61,7 +65,22 @@ public class ORMarionCountyNParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       field = field.replace('@', '&');
-      super.parse(field, data);
+      int pt = field.indexOf(',');
+      if (pt >= 0) {
+        data.strCity = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+      }
+      if (field.contains("I5") || field.contains(" MP ")) {
+        parseAddress(field, data);
+      } else {
+        parseAddress(StartType.START_ADDR, field, data);
+        data.strApt = append(data.strApt, "-", getLeft());
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT CITY";
     }
   }
   
@@ -91,6 +110,19 @@ public class ORMarionCountyNParser extends FieldProgramParser {
   }
   
   private class MyPlaceField extends PlaceField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.startsWith("MAP-")) return false;
+      parse(field, data);
+      return true;
+    }
+    
     @Override 
     public void parse(String field, Data data) {
       if (field.equals(data.strAddress)) return;
@@ -98,13 +130,44 @@ public class ORMarionCountyNParser extends FieldProgramParser {
     }
   }
   
+  private class MyMapField extends MapField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() == 0) return;
+      if (!field.startsWith("MAP-")) abort();
+      field = field.substring(4).trim();
+      super.parse(field, data);
+    }
+  }
+  
+  private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("MM/dd/yyyy hh-mm-ss aa");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\d\\d?/\\d\\d?/\\d+.*");
+  private class MyDateTimeField extends DateTimeField {
+    
+    public MyDateTimeField() {
+      super(DATE_TIME_FMT);
+    }
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (! DATE_TIME_PTN.matcher(field).matches()) return false;
+      super.checkParse(field, data);
+      return true;
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("UNIT")) return new MyUnitField();
-    if (name.equals("DATETIME")) return new DateTimeField(DATE_TIME_FMT);
     if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
     return super.getField(name);
   }
-  private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("MM/dd/yyyy hh-mm-ss aa"); 
 }
