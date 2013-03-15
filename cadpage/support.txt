@@ -631,7 +631,7 @@ Good luck,
 ******************************************************************
 * Text paging delays 
 
-This is being reported fairly often recently.  You are getting text pages, and the only reason Cadpage alerting will be ked for text pages is because the messages are just not arrive at your device in a timely fashion.  If you want to prove this, go into Cadpage Additional Settings and check the box labeled "Pass Calls through to SMS Client".  With that set, all calls will be passed to your message inbox in addition to alerting Cadpage and you can confirm the extent to which the messages are delayed.
+This is being reported fairly often recently.  You are getting text pages, and the only reason Cadpage alerting will be delayed for text pages is because the messages are just not arriving at your device in a timely fashion.  If you want to prove this, go into Cadpage Additional Settings and check the box labeled "Pass Calls through to SMS Client".  With that set, all calls will be passed to your message inbox in addition to alerting Cadpage and you can confirm the extent to which the messages are delayed.
 
 According to the message timestamps, it took only 16 seconds for the carrier to deliver this call to you, which would imply that the delay was introduced by the dispatch messaging service.  But this should not be considered hard proof, I have some suspicions that carriers are holding messages in a system queue for some reason and that the total delay is not represented by this number.
 
@@ -1203,7 +1203,7 @@ Have a nice day,
 ******************************************************************************
 ** MMS doesn't work with Jellybean **
 
-The logic Cadpage uses to handle MMS messages relies on some undocumented back door interfaces to the messaging system.  As of Jellybean (Android 4.1) these throw a security exception.
+The kic Cadpage uses to handle MMS messages relies on some undocumented back door interfaces to the messaging system.  As of Jellybean (Android 4.1) these throw a security exception.
 
 I added some code in the next release to trap the abort.  So it won't crash on you.  But it probably won't work either.  If you really aren't receiving MMS pages, you can turn processing off by going into Location Settings and changing the Message Type Processed setting to something that does not include MMS messages.  Problem solved!!
 
@@ -1325,6 +1325,30 @@ might be able to tell you more about what might be going on.
 Good luck,
 -Ken
 
+****************************************************
+
+The only system that we use for "publishing" is Firefighter Log, which you would need to install before the "publish page" button will work.
+
+Sharing dispatches on Facebook is TOTALLY against any policies we have in our fire department.  Dispatches are not meant to be public knowledge and could be a very serious breech of confidentiality with patients or others involved.  Please reconsider!
+
+Thanks for your inquiry,
+Jean, Assistant to Ken Corbin
+
+******************************************************
+sound problems
+
+Restarting your phone seems to fix most odd sound problems.  That's
+about all the advice we have.
+
+Good luck,
+-Ken
+
+in response to question: 
+> The sound does not play when I receive a call. It use to work. My phone
+> just updated the software also. After the update the sound worked once
+> and does not work now. Please help
+>
+******************************************************
 
 
 end
