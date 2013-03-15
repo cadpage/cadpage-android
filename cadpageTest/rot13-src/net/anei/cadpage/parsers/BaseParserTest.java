@@ -25,7 +25,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
                                             ZftCnefre.CNEFR_SYT_CBFVGVIR_VQ | 
                                             ZftCnefre.CNEFR_SYT_FXVC_SVYGRE;
   
-  cevingr fgngvp svany Fgevat[] EHA_ERCBEG_GREZF = "PNYY VQ HAVG CYNPR QNGR GVZR".fcyvg(" ");
+  cevingr fgngvp svany Fgevat[] EHA_ERCBEG_GREZF = "PNYY FEP VQ HAVG CYNPR QNGR GVZR".fcyvg(" ");
 
   cevingr ZftCnefre cnefre = ahyy;
   cevingr Fgevat qrsPvgl;
