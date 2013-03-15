@@ -63,7 +63,7 @@ choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "PNQ:2370 AP 90 UJL R;AP QRCG BS GENAFCBEGNGVBA;GENSSVP NPPVQRAG;NQNZF CBAQ YA;JVAGREUNIRA EQ",
         "NQQE:2370 AP 90 UJL R",
-        "ZNQQE:2370 AP 90 R",
+        "ZNQQE:2370 FGNGR 90 R",
         "CYNPR:AP QRCG BS GENAFCBEGNGVBA",
         "PNYY:GENSSVP NPPVQRAG",
         "K:NQNZF CBAQ YA & JVAGREUNIRA EQ");
@@ -125,7 +125,7 @@ choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G11",
         "PNQ:505 AP 16 UJL A;HAPBAFPVBHF BE SNVAGVAT;31Q02;TENIRY UVYY PG;ANG THNEQ NEZBEL EQ",
         "NQQE:505 AP 16 UJL A",
-        "ZNQQE:505 AP 16 A",
+        "ZNQQE:505 FGNGR 16 A",
         "PNYY:HAPBAFPVBHF BE SNVAGVAT",
         "PBQR:31Q02",
         "K:TENIRY UVYY PG & ANG THNEQ NEZBEL EQ");
@@ -133,7 +133,7 @@ choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G12",
         "PNQ:2818 AP 90 UJL R;PURFG CNVA;10Q03;WRFFVPN YRR YA;JUVGR CYNVAF EQ",
         "NQQE:2818 AP 90 UJL R",
-        "ZNQQE:2818 AP 90 R",
+        "ZNQQE:2818 FGNGR 90 R",
         "PNYY:PURFG CNVA",
         "PBQR:10Q03",
         "K:WRFFVPN YRR YA & JUVGR CYNVAF EQ");
@@ -149,7 +149,7 @@ choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G14",
         "PNQ:8510 AP 90 UJL R;FUHEGNCR GRPUABYBTVRF VAP;GENHZNGVP VAWHEVRF;30O02;FUHSBEQ EQ;EHEVGNA CNEX EQ",
         "NQQE:8510 AP 90 UJL R",
-        "ZNQQE:8510 AP 90 R",
+        "ZNQQE:8510 FGNGR 90 R",
         "CYNPR:FUHEGNCR GRPUABYBTVRF VAP",
         "PNYY:GENHZNGVP VAWHEVRF",
         "PBQR:30O02",
@@ -158,7 +158,7 @@ choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G15",
         "PNQ:7400 AP 16 UJL A;QRNY NCCYR BEPUNEQF;YM FRGHC;BYQ AP 16 UJL;QRNY BEPUNEQ YA",
         "NQQE:7400 AP 16 UJL A",
-        "ZNQQE:7400 AP 16 A",
+        "ZNQQE:7400 FGNGR 16 A",
         "CYNPR:QRNY NCCYR BEPUNEQF",
         "PNYY:YM FRGHC",
         "K:BYQ AP 16 UJL & QRNY BEPUNEQ YA");
@@ -187,7 +187,7 @@ choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G19",
         "PNQ:2850 AP 90 UJL R;PURFG CNVA;10Q02;WRFFVPN YRR YA;JUVGR CYNVAF EQ",
         "NQQE:2850 AP 90 UJL R",
-        "ZNQQE:2850 AP 90 R",
+        "ZNQQE:2850 FGNGR 90 R",
         "PNYY:PURFG CNVA",
         "PBQR:10Q02",
         "K:WRFFVPN YRR YA & JUVGR CYNVAF EQ");

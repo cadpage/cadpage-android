@@ -11,17 +11,15 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Marion County (North), OR
+ * Marion County, OR
  */
-public class ORMarionCountyNParser extends FieldProgramParser {
+public class ORMarionCountyParser extends FieldProgramParser {
   
-  private static final Pattern TIME_PTN = Pattern.compile("\\b(\\d{1,2}):(\\d{1,2}):(\\d{1,2})\\b");
-  private static final Pattern GPS_PTN = Pattern.compile("\\bLAT: *([+-]?[\\d.]+), *LON: *([+-]?[\\d.]+)\\b");
   private static final Pattern MAP_PTN = Pattern.compile(":MAP::(\\d+[A-Z]):");
   
-  public ORMarionCountyNParser() {
+  public ORMarionCountyParser() {
     super("MARION COUNTY", "OR",
-           "( ADDR/SXCZ END | CALL ADDRCITY ( UNIT! INFO+? EMPTY EMPTY+? PLACE | PLACE? MAP APT UNIT! INFO+? DATETIME ) )");
+           "CALL ADDRCITY ( UNIT! MAP MAP | PLACE? MAP MAP2 UNIT! ) INFO+");
   }
   
   @Override
@@ -47,12 +45,6 @@ public class ORMarionCountyNParser extends FieldProgramParser {
       
       return false;
     } while (false);
-    
-    // Time field has to be protected from being broken up by colon field separators
-    body = TIME_PTN.matcher(body).replaceAll("$1-$2-$3");
-    
-    // As does a GPS address field
-    body = GPS_PTN.matcher(body).replaceAll("$1,$2");
     
     // And a MAP::<code> construct
     body = MAP_PTN.matcher(body).replaceFirst(":MAP-$1:");
@@ -167,6 +159,7 @@ public class ORMarionCountyNParser extends FieldProgramParser {
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("MAP2")) return new MapField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
     return super.getField(name);
   }

@@ -174,8 +174,9 @@ public class ManageParsers {
         "CTMontville",        "CTNewLondonCounty",      // 10/13/2012
         "VAFranklinCountyB",  "VAFranklin",             // 11/15/2012
         "VAFranklinCountyA",  "VAFranklinCounty",       // 11/15/2012
-        "TXNassauBay",        "TXLaPorte",              // 01/06/2012
-        "NVLasVegas",         "NVClarkCounty"           // 01/26/2012
+        "TXNassauBay",        "TXLaPorte",              // 01/06/2013
+        "NVLasVegas",         "NVClarkCounty",          // 01/26/2013
+        "ORMarionCountyN",    "ORMarionCounty"          // 03/14/2013
         
   });
 
