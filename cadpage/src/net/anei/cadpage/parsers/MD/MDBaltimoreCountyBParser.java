@@ -15,7 +15,7 @@ public class MDBaltimoreCountyBParser extends FieldProgramParser {
   
   public MDBaltimoreCountyBParser() {
     super("BALTIMORE COUNTY", "MD",
-           "BOX:BOX CALL:CALL! ADDR:ADDR! UNIT:UNIT! INFO:INFO ID:ID%");
+           "BOX:BOX CALL:CALL! ADDR:ADDR! PL:PLACE UNIT:UNIT! INFO:INFO ID:ID%");
   }
   
   @Override
