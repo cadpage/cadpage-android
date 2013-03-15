@@ -8,11 +8,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYNassauCountyMassepequaParser extends FieldProgramParser {
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "MASS", "MASSEPEQUA",
-      "MPK",  "MASSEPEQUA PARK"
-  });
-  
   public NYNassauCountyMassepequaParser() {
     super(CITY_CODES, "NASSAU COUNTY", "NY", 
           "ADDR! Town:CITY! Cross:X! Map:MAP! Block:INFO!");
@@ -20,7 +15,7 @@ public class NYNassauCountyMassepequaParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "paging@rednmxcad.com";
+    return "paging@rednmxcad.com,massapequafd@rednmxcad.com";
   }
   
   @Override
@@ -50,4 +45,10 @@ public class NYNassauCountyMassepequaParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "E/M",  "EAST MASSAPEQUA",
+      "MASS", "MASSAPEQUA",
+      "MPK",  "MASSAPEQUA PARK"
+  });
 }
