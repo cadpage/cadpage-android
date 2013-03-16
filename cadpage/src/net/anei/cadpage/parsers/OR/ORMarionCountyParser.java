@@ -19,7 +19,7 @@ public class ORMarionCountyParser extends FieldProgramParser {
   
   public ORMarionCountyParser() {
     super("MARION COUNTY", "OR",
-           "CALL ADDRCITY ( UNIT! MAP MAP | PLACE? MAP MAP2 UNIT! ) INFO+");
+           "CALL ADDRCITY ( UNIT! MAP MAP | PLACE? MAP CH UNIT! ) INFO+");
   }
   
   @Override
@@ -159,7 +159,6 @@ public class ORMarionCountyParser extends FieldProgramParser {
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("MAP")) return new MyMapField();
-    if (name.equals("MAP2")) return new MapField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
     return super.getField(name);
   }
