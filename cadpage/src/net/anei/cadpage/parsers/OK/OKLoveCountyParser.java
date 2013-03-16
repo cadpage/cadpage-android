@@ -22,7 +22,7 @@ public class OKLoveCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "Alert@loveco911.org";
+    return "Alert@loveco911.org,EnterpolAlerts@loveco911.org";
   }
 
   @Override
