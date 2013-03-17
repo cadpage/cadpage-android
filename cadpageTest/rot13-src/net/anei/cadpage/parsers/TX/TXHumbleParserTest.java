@@ -37,6 +37,9 @@ Fraqre: zft@pszft.pbz
  1 bs 2\aSEZ:zft@pszft.pbz\aFHOW:Puvrs NYG\aZFT:[SVER] - Yvtug Fgehpgher Vapvqrag - 7619 Oebamr Genvy Qe - Znc: 377Q- - Jnyqra Ba Ynxr Ubhfgba -\a(Pba'g) 2 bs 2\aKfg'f: Fnvysvfu Pbir Qe Gebcul C - Havgf: R-Q89 R-R19 R-Y19 - 201258397\a(Raq)
  1 bs 2\aSEZ:zft@pszft.pbz\aFHOW:Puvrs NYG\aZFT:[SVER] - Erfvqragvny Sver - 7619 Oebamr Genvy Qe - Znc: 377Q- - Jnyqra Ba Ynxr Ubhfgba - Kfg'f:\a(Pba'g) 2 bs 2\aFnvysvfu Pbir Qe Gebcul C - Havgf: R-R19 R-Y19 R-Q99 R-R39 - 201258397\a(Raq)
 
+Pbagnpg: Oelna <xlsverzrqvp36@nby.pbz>
+Fraqre: nyreg@pszft.pbz
+1 bs 2\aSEZ:nyreg@pszft.pbz\aFHOW:Puvrs NYG\aZFT:[SVER] -  Genhzngvp Vawhevrf (  -  6931 R Sz 1960  - Kfg'f: Gbja Pragre Oyiq/ngnfpbpvgn Eq -\a(Pba'g) 2 bs 2\aOyqt:Gnetrg Fgb - Xrl Znc:337L - Obk #:N1901\a\a(Raq)
 
 Fgnghf zrffntr, Fubhyq or unaqyrq nf Trareny Nyreg
 (Puvrs NYG) [NISQ RZF GVZRF] - Vapvqrag: 201117017 -- Havg: R-Z19 Qvfc 18:20:53 -- Raebhgr: 18:22:50 -- Neevirq: -- Genafcbeg: -- Ng Ubfc: -- Ninvynoyr: 18:24:58
@@ -370,6 +373,28 @@ choyvp pynff GKUhzoyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:R-R19 R-Y19 R-Q99 R-R39",
         "VQ:201258397");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOleba() {
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:nyreg@pszft.pbz\a" +
+        "FHOW:Puvrs NYG\a" +
+        "ZFT:[SVER] -  Genhzngvp Vawhevrf (  -  6931 R Sz 1960  - Kfg'f: Gbja Pragre Oyiq/ngnfpbpvgn Eq -\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "Oyqt:Gnetrg Fgb - Xrl Znc:337L - Obk #:N1901\a\a" +
+        "(Raq)",
+
+        "FEP:SVER",
+        "PNYY:Genhzngvp Vawhevrf (",
+        "NQQE:6931 R Sz 1960",
+        "K:Gbja Pragre Oyiq/ngnfpbpvgn Eq",
+        "CYNPR:Gnetrg Fgb",
+        "ZNC:337L",
+        "OBK:N1901");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
