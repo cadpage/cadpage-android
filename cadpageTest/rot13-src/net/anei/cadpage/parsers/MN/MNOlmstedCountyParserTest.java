@@ -124,7 +124,43 @@ choyvp pynff ZAByzfgrqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgZvpunyrgmQrerx() {
-   
+
+    qbGrfg("G1",
+        "(BYZFGRQ PBHAGL (EBPURFGRE)(ZA)) Oleba Svefg Erfcbaqref arrqrq sbe n zrqvpny 126 8 fg AR Oleba sbe n srznyr qvssvphygl oernguvat",
+        "PNYY:Oleba Svefg Erfcbaqref arrqrq sbe n zrqvpny",
+        "NQQE:126 8 fg AR",
+        "PVGL:Oleba",
+        "VASB:sbe n srznyr qvssvphygl oernguvat");
+
+    qbGrfg("G2",
+        "(BYZFGRQ PBHAGL (EBPURFGRE)(ZA)) zrq 863 uvtu cbvag qe ar, oleba znexrg cynpr",
+        "PNYY:zrq",
+        "NQQE:863 uvtu cbvag qe ar",
+        "VASB:oleba znexrg cynpr");
+
+    qbGrfg("G3",
+        "(BYZFGRQ PBHAGL (EBPURFGRE)(ZA)) sir  16 2 nir aj  xjvx gevc oleba  sebagntr eq",
+        "PNYY:sir",
+        "NQQE:16 2 nir aj",
+        "VASB:xjvx gevc oleba sebagntr eq");
+
+    qbGrfg("G4",
+        "(BYZFGRQ PBHAGL (EBPURFGRE)(ZA)) zrqvpny  9346 35 fg  fj cbff srvoyr frvmher",
+        "PNYY:zrqvpny",
+        "NQQE:9346 35 fg fj",
+        "VASB:cbff srvoyr frvmher");
+
+    qbGrfg("G5",
+        "(BYZFGRQ PBHAGL (EBPURFGRE)(ZA)) nppvqrag hax vaw ba ujl 14 jrfg va sebag bs zpqbanyqf",
+        "PNYY:nppvqrag hax vaw ba",
+        "NQQE:ujl 14",
+        "VASB:jrfg va sebag bs zpqbanyqf");
+
+    qbGrfg("G6",
+        "(BYZFGRQ PBHAGL (EBPURFGRE)(ZA)) arrq uryc jvgu ragenczrag, ab vawhel nppvqrag 10 nir ar / 7 fg ar",
+        "PNYY:arrq uryc jvgu ragenczrag ab vawhel nppvqrag",
+        "NQQE:10 nir ar & 7 fg ar");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
