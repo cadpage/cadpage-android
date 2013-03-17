@@ -100,8 +100,7 @@ choyvp pynff BUYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "nyreg:[121]- ANGHER: NOQ YBPNGVBA: 989 GJC EQ 161 SNLRGGR GJC PBZZRAGF:",
         "HAVG:121",
         "PNYY:NOQ",
-        "NQQE:989 GJC EQ",
-        "NCG:161",
+        "NQQE:989 GJC EQ 161",
         "ANZR:SNLRGGR GJCPBZZRAGF:");
 
     qbGrfg("G7",
