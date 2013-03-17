@@ -15,7 +15,7 @@ public class MNOlmstedCountyParser extends SmartAddressParser {
   
   public MNOlmstedCountyParser() {
     super(CITY_LIST, "OLMSTED COUNTY", "MN");
-    setFieldList("CALL ADDR APT CITY PLACE INFO");
+    setFieldList("SRC CALL ADDR APT CITY PLACE INFO");
   }
   
   @Override
