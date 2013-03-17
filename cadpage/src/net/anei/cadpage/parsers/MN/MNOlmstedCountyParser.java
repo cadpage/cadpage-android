@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.MN;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -8,9 +11,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class MNOlmstedCountyParser extends SmartAddressParser {
   
+  private static final Pattern SUBJECT_PTN = Pattern.compile("OLMSTED COUNTY \\((.*?)\\)\\(MN\\)");
+  
   public MNOlmstedCountyParser() {
-    super("OLMSTED COUNTY", "MN");
-    setFieldList("ADDR APT PLACE CALL INFO");
+    super(CITY_LIST, "OLMSTED COUNTY", "MN");
+    setFieldList("CALL ADDR APT CITY PLACE INFO");
   }
   
   @Override
@@ -21,6 +26,22 @@ public class MNOlmstedCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
+    // New calls have a distinctive subject
+    Matcher match = SUBJECT_PTN.matcher(subject);
+    if (match.matches()) {
+      data.strSource = match.group(1).trim();
+  
+      body = body.replace(",", " ");
+      parseAddress(StartType.START_CALL, body, data);
+      if (data.strCall.length() == 0) {
+        data.strCall = getLeft();
+      } else {
+        data.strSupp = getLeft();
+      }
+      return true;
+    }
+    
+    // Otherwise drop back to the old logic
     // Not enough identification features to positively identify as a text page
     // so we require that identification be done externally
     if (!isPositiveId()) return false;
@@ -59,4 +80,52 @@ public class MNOlmstedCountyParser extends SmartAddressParser {
     }
     return true;
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    
+    // Cities
+    "BYRON",
+    "CHATFIELD",
+    "DOVER",
+    "EYOTA",
+    "ORONOCO",
+    "PINE ISLAND",
+    "ROCHESTER",
+    "STEWARTVILLE",
+
+    // Townships
+    "CASCADE TWP",
+    "DOVER TWP",
+    "ELMIRA TWP",
+    "EYOTA TWP",
+    "FARMINGTON TWP",
+    "HAVERHILL TWP",
+    "HIGH FOREST TWP",
+    "KALMAR TWP",
+    "MARION TWP",
+    "NEW HAVEN TWP",
+    "ORION TWP",
+    "ORONOCO TWP",
+    "PLEASANT GROVE TWP",
+    "QUINCY TWP",
+    "ROCHESTER TWP",
+    "ROCK DELL TWP",
+    "SALEM TWP",
+    "VIOLA TWP",
+  
+    // Unicorporated 
+    "CHESTER",
+    "DANESVILLE",
+    "DOUGLAS",
+    "GENOA",
+    "HIGH FOREST",
+    "PLEASANT GROVE",
+    "POST TOWN",
+    "POTSDAM",
+    "RINGE",
+    "SALEM CORNERS",
+    "SHANTY TOWN",
+    "SIMPSON",
+    "VIOLA"
+  };
 }
