@@ -11,7 +11,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class CadpageParser  extends CadpageParserBase {
   
-  private static final Pattern KEYWORD = Pattern.compile("(?:^|\n)([\\w]+):");
+  private static final Pattern KEYWORD = Pattern.compile("\\b([\\w]+):");
+//  private static final Pattern KEYWORD = Pattern.compile("(?:^|\n)([\\w]+):");
   
   @Override
   public String getLocName() {
