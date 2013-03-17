@@ -1350,6 +1350,11 @@ Ry Qbenqb Pbhagl, PN (PNRyQbenqbPbhaglCnefre)
 (PNQ Cntr) 19-Znl-2011/12:37:08: ZRQVPNY: Vap# 010306: 6530 JRAGJBEGU FCEVATF EQ ,TRBETRGBJA (TRBETRGBJA RYRZRAGNEL FPUBBY) TRBPUS TRBRAT Z89 61; ; K: -120 49.84
 (PNQ Cntr) 17-Znl-2011/01:52:37: ZRQ, GENSSVP PBYYVFVBA: Vap# 010121: 4800 OYNPX BNX ZVAR EQ / 4702 ZNEFUNYY EQ ,TNEQRA_INYYRL  TEIPUS R2772 R251A Z61 51 TRBRATA
 ***************************************************************************
+Uhzobyg Pbhagl, PN (PNUhzobyqgPbhaglCnefre)
+EN: EVBYEN; ZRQVPNY; 270 BTYR NIR ,EVB_QRYY  K: -124 7.31976  L: 40 30.3687 Vap# 001122; EVB SEN2; Qrfpe: cnva va fgbznpu  Cng Pag: 1  Ntr: 28  Lrnef  Frk: Znyr  Pba: Lrf  Oerngu: Lrf  Erfc Fpevcg: Lbh ner erfcbaqvat gb n cngvrag jvgu noqbzvany cnva.  Gur cngvrag vf n  28-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. Abg nyreg.  Pnyyre Fgngrzrag: cnva va fgbznpu.  1.Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).   <n uers="uggc://zncf.tbbtyr.pbz/?d=40.506146,-124.121996">Znc</n>
+EN: EVBYEN; ZRQVPNY; 1 CNVAGRE FG ,EVB_QRYY  K: -124 6.4185  L: 40 30.1550 Vap# 001112; EVB SEN1; evb qryy zbovyr uz genvyre <n uers="uggc://zncf.tbbtyr.pbz/?d=40.502584,-124.106975">Znc</n>
+EN: EVBYEN; ZRQVPNY; 270 BTYR NIR ,EVB_QRYY  K: -124 7.31976  L: 40 30.3687 Vap# 001104; EVB SEN1; 29 LB Z jvgu fgbznpu cnva. <n uers="uggc://zncf.tbbtyr.pbz/?d=40.506146,-124.121996">Znc</n>
+***************************************************************************
 Ynxr Pbhagl, PN
 475 SBERFG QE * * FHAFRG QE/GREENPR QE * * YC * SQZN * * 8 LBS SNYY J/ OYBBQL ABFR, P/N/O
 [Qvfcngpurq Pnyy]  F FGNGR UJL 29/UVTUYNAQ FCEVATF EQ, Ynxrcbeg *  * UVTUYNAQ FCEVATF EQ *  * SQZN *  * ORGJRRA NETBANHG NAQ UVTUYNAQ FCEVATF VA
@@ -5548,14 +5553,6 @@ Obql:911:Pnyy #130312-8472* Nqqerff:129 AP UJL 801 F* * * Pvgl:NQINAPR* HF UJL 1
 **********************************************************
 **********************************************************
 **********************************************************
-Uhzobyg Pbhagl, PN
-Pbagnpg: Wbfu Zventyvn <zventyvnww@tznvy.pbz>
-Fraqre: uhhpnq@sver.pn.tbi
-EN: EVBYEN; ZRQVPNY; 270 BTYR NIR ,EVB_QRYY  K: -124 7.31976  L: 40 30.3687 Vap# 001122; EVB SEN2; Qrfpe: cnva va fgbznpu  Cng Pag: 1  Ntr: 28  Lrnef  Frk: Znyr  Pba: Lrf  Oerngu: Lrf  Erfc Fpevcg: Lbh ner erfcbaqvat gb n cngvrag jvgu noqbzvany cnva.  Gur cngvrag vf n  28-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. Abg nyreg.  Pnyyre Fgngrzrag: cnva va fgbznpu.  1.Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).   <n uers="uggc://zncf.tbbtyr.pbz/?d=40.506146,-124.121996">Znc</n>
-EN: EVBYEN; ZRQVPNY; 1 CNVAGRE FG ,EVB_QRYY  K: -124 6.4185  L: 40 30.1550 Vap# 001112; EVB SEN1; evb qryy zbovyr uz genvyre <n uers="uggc://zncf.tbbtyr.pbz/?d=40.502584,-124.106975">Znc</n>
-EN: EVBYEN; ZRQVPNY; 270 BTYR NIR ,EVB_QRYY  K: -124 7.31976  L: 40 30.3687 Vap# 001104; EVB SEN1; 29 LB Z jvgu fgbznpu cnva. <n uers="uggc://zncf.tbbtyr.pbz/?d=40.506146,-124.121996">Znc</n>
-EN: EVBYEN; ZRQVPNY; 271 PUREEL YA ,EVB_QRYY  K: -124 6.43332  L: 40 29.6445 Vap# 001089; EVB SEN1; 70 lb znyr yrt cnva <n uers="uggc://zncf.tbbtyr.pbz/?d=40.494076,-124.107222">Znc</n>
-EN: EVBYEN; ZRQVPNY; 355 QBHTYNF FG ,EVB_QRYY  K: -124 6.49914  L: 40 29.7651 Vap# 001009; EVB SEN1; Qrfpe: oernguvat vffhrf 85  Cng Pag: 1  Ntr: 85  Lrnef  Frk: Srznyr  Pba: Lrf  Oerngu: Lrf  Erfc Fpevcg: Lbh ner erfcbaqvat gb n cngvrag jvgu oernguvat ceboyrzf.  Gur cngvrag vf n  85-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. QVSSVPHYGL  FCRNXVAT ORGJRRA OERNGUF.  Pnyyre Fgngrzrag: oernguvat vffhrf 85.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur unf qvssvphygl fcrnxvat orgjrra oernguf.   <n uers="uggc://zncf.tbbtyr.pbz/?d=40.496086,-124.108319">Znc</n>
 **********************************************************
 Trarin, BU
 Pbagnpg: Qnyr Nexraohet <qnexraohet@tznvy.pbz>

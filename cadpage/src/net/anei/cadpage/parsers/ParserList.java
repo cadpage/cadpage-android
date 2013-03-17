@@ -134,6 +134,7 @@ public class ParserList {
               ,"CAButteCounty"                  ,"Butte County, CA"
               ,"CACalaverasCounty"              ,"Calaveras County, CA"
               ,"CAElDoradoCounty"               ,"El Dorado County, CA"
+              ,"CAHumboldtCounty"               ,"Humboldt County, CA"
               ,"CALakeCounty"                   ,"Lake County, CA"
               ,"CALosAngelesCounty"             ,"Los Angeles County, CA"
               ,"CAMendocinoCounty"              ,"Mendocino County, CA"
