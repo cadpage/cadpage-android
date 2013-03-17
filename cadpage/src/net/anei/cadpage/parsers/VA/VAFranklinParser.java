@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /**
- * Franlin County, VA (B)
+ * City of Franklin, VA
  */
 public class VAFranklinParser extends DispatchSouthernParser {
   
@@ -20,11 +20,13 @@ public class VAFranklinParser extends DispatchSouthernParser {
 
   @Override
   public String getFilter() {
-    return "@franklinpolice.org,777";
+    return "777";
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    if (!body.startsWith("CITY OF FRANKLIN ")) return false;
+    body = body.substring(17).trim();
     if (!super.parseMsg(body, data)) return false;
     if (data.strCall.length() == 0) {
       Matcher match = CALL_PATTERN.matcher(data.strSupp);
