@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 
@@ -7,12 +8,29 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHKnoxCountyParser extends DispatchEmergitechParser {
   
   public OHKnoxCountyParser() {
-    super("Dispatch:", 69, CITY_LIST, "KNOX COUNTY", "OH");
+    super(null, new int[]{59,60}, CITY_LIST, "KNOX COUNTY", "OH");
   }
   
   @Override
   public String getFilter() {
     return "Dispatch@smtp-server.Columbus.rr.com";
+  }
+  
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // We have to do a lot of massaging to get the message back to standard form
+    // including recovering a square bracket unit that might have been interpreted
+    // as the message subject
+    if (body.startsWith("Dispatch:")) body = body.substring(9).trim();
+    else if (subject.length() > 0) body = '[' + subject + ']' + body;
+    
+    // Fix some word breaks the basic logic won't catch
+    body = body.replace(" SP ARTA ", " SPARTA ");
+    body = body.replace(" FREDERICKTOW N ", " FREDERICKTOWN ");
+
+    if (!super.parseMsg(body, data)) return false;
+    return true;
   }
   
   private static final String[] CITY_LIST = new String[]{

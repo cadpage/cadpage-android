@@ -2009,6 +2009,11 @@ public abstract class SmartAddressParser extends MsgParser {
           
           // And add the first token to the dictionary as an incomplete city
           if (flags1 != 0) setupDictionary(flags1, tokenList[0]);
+          
+          // Add the rest of the tokens to the dictionary with no flags
+          // Doesn't hurt the address parsing logic and the weird DispatchEmergitechParser
+          // subclasses work better if these are in the dictionary
+          for (int ndx = 1; ndx < tokenList.length; ndx++) setupDictionary(0, tokenList[ndx]);
         }
         
         // Otherwise, we just add this to dictionary as a normal city

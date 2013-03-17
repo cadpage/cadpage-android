@@ -8,6 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchEmergitechParser extends FieldProgramParser {
   
+  private static final String UNIT_PTN = "\\[([A-Z0-9]+)\\]- ";
   private static final Pattern COMMENTS_PTN = Pattern.compile("C ?O ?M ?M ?E ?N ?T ?S ?:");
   
   private Pattern markerPattern;
@@ -27,15 +28,23 @@ public class DispatchEmergitechParser extends FieldProgramParser {
                            String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
            "NATURE:CALL? LOCATION:ADDR/SPN! BETWEEN:X? COMMENTS:INFO");
-    markerPattern = Pattern.compile("^" + prefix + "\\[([A-Z0-9]+)\\]- ");
+    
+    // An empty prefix just means no prefix is expected
+    // a null prefix means no prefix is expected and the entire unit block is optional
+    if (prefix != null) {
+      markerPattern = Pattern.compile("^" + prefix + UNIT_PTN);
+    } else {
+      markerPattern = Pattern.compile("^(?:" + UNIT_PTN + ")?");
+    }
     this.extraSpacePosList = extraSpacePosList;
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
     Matcher match = markerPattern.matcher(body);
     if (!match.find()) return false;
-    data.strUnit = match.group(1);
+    String unit = match.group(1);
+    if (unit != null) data.strUnit = unit;
     
     // There are usually 2 extraneous blanks.  The first one tends to fall in the
     // address field and we will spend a lot of time trying to excise it.  The
@@ -62,7 +71,6 @@ public class DispatchEmergitechParser extends FieldProgramParser {
         }
         if (body.length() != oldLen) break;
       }
-      body = body.replace(" CO MMENTS:", " COMMENTS:");
     }
     
     // Carry on with more normal adjustments
