@@ -240,6 +240,7 @@ public class ParserList {
               ,"ILPeoriaCounty"                 ,"Peoria County, IL"
               ,"ILRichlandCounty"               ,"Richland County, IL"
               ,"ILRockIslandCounty"             ,"Rock Island County, IL"
+              ,"ILSangamonCounty"               ,"Sangamon County, IL"
               ,"ILTazewellCounty"               ,"Tazewell County, IL"
               ,"ILWinnebagoCounty"              ,"Winnebago County, IL"
               ,"ILWoodfordCounty"               ,"Woodford County, IL"
