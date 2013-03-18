@@ -2127,7 +2127,7 @@ choyvp pynff ZQNaarNehaqryPbhaglRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZQNaarNehaqryPbhaglRZFCnefreGrfg().trarengrGrfgf("G1", "PBQR OBK PNYY NQQE NCG PVGL CYNPR K ZNC PU HAVG GVZR VASB");
+    arj ZQNaarNehaqryPbhaglRZFCnefreGrfg().trarengrGrfgf("G1");
   }
   
 }

@@ -251,6 +251,13 @@ public class FieldProgramParser extends SmartAddressParser {
   protected void setBreakChar(char breakChar) {
     this.breakChar = breakChar;
   }
+  
+
+  @Override
+  public void setFieldList(String fieldList) {
+    fieldRecord = null;
+    super.setFieldList(fieldList);
+  }
 
   /**
    * This is only called by the test generation logic in an attempt

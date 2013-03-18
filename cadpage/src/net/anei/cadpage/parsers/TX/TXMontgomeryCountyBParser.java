@@ -12,9 +12,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
   private static final String FIELD_LIST1 = "UNIT ID ADDR APT CITY CALL BOX MAP SRC CH";
-  private static final String FIELD_LIST2 = "CODE CALL BOX ADDR APT CITY SRC MAP";
+  private static final String FIELD_LIST2 = "CODE CALL BOX ADDR APT CITY SRC MAP UNIT";
   private static final Pattern MASTER1 = Pattern.compile("(?:(\\d+?)?(\\d{2,4}-\\d{6,7}) +)?(.*?)(?: *(\\d\\d[A-Z]-[A-Z]))? +(\\d{2,3}[A-Za-z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*)(?: +(?:North|East|South|West))?)?(?: +([A-Z]+\\d+(?: +[A-Z]+\\d+)*))?(?: +(TAC +\\d+))?");
-  private static final Pattern MASTER2 = Pattern.compile("(?:([A-Z0-9]+)-)?(.*?) *(\\d\\d[A-Z]-[A-Z]) +(.*?) +(F[DG]\\d+(?: +F[DG]\\d+)*) +(\\d{2,3}[A-Za-z])");
+  private static final Pattern MASTER2 = Pattern.compile("(?:([A-Z0-9]+)-)?(.*?) *(\\d\\d[A-Z]-[A-Z]) +(.*?) +(F[DG]\\d+(?: +F[DG]\\d+)*) +(\\d{2,3}[A-Za-z])(?: +(.*))?");
   private static final Pattern ADDRESS_RANGE_PTN = Pattern.compile("\\b(\\d+) *- *(\\d+)\\b");
   
   private static final Pattern RUN_REPORT_PTN = 
@@ -48,8 +48,14 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
     }
     
     // See if we can use the regular comma delimited form
+    // Sometimes a long list of comma separated unit numbers will return more
+    // than 5 fields even if this is not a legitimate comma delimited form, so
+    // we have to recover and try again if the parse call fails
     String[] flds = body.split(",");
-    if (flds.length >= 5) return parseFields(body.split(","), data);
+    if (flds.length >= 5) {
+      if (parseFields(body.split(","), data)) return true;
+      data.initialize();
+    }
     
     // Foo.  Now we have to do this the hard way
     
@@ -63,6 +69,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       parseAddress(match.group(4).trim(), data);
       data.strSource = match.group(5);
       data.strMap = match.group(6);
+      data.strUnit = getOptGroup(match.group(7));
       return true;
     }
 

@@ -102,6 +102,12 @@ Fraqre: "nyreg@nqnzf911.pbz" <nyreg@nqnzf911.pbz>
 (Nyreg: Qvnorgvp Rzretrapl - 1) NYEZ YIY: 1\aYBP:\a712 YVAQRA NIR\aPBARJNTB GJC\aOGJA: ZNCYR NIR & RYZ NIR\a\a\a\aPBZ:\a61-lrne-byq, znyr, pbafpvbhf, oernguvat.\aUr vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).\aUr vf orunivat abeznyyl abj.\aUr vf oernguvat abeznyyl.\aQrgrezvanag: 13P01, Fhssvk: , Erfcbafr: Pynff 1\a\aPG:\aNWUNAF ng CBF 04
 (Nyreg: Snyyf - 3) NYEZ YIY: 1\aYBP:\aPUNEYRF S MRVTYRE & FBAF SYBBEPBI\a1110 J RYZ NIR\aPBARJNTB GJC\aOGJA: WRSSREFBA FG & JNFUVATGBA FG\a\aEPIQ NF 911\a\aPBZ:\a65-lrne-byq, znyr, pbafpvbhf, oernguvat.\aGuvf unccrarq abj (yrff guna 6uef ntb).\aVg''f ercbegrq gung ur sryy ng tebhaq yriry.\aGur snyy jnf nppvqragny.\aGurer vf ab oyrrqvat abj.\aUr vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\aUr unf ab vawhevrf.\aUr vf fgvyy ba gur sybbe (tebhaq).\aQrgrezvanag: 17N03, Fhssvk: T, Erfcbafr: Pynff 3\aGur cngvrag vf n 65 lrne(f) znyr jub vf pbafpvbhf naq oernguvat.\a\aPG:\aYZOLRE ng CBF 04
 
+*** ABG CNEFVAT - AB PNYY QRFPEVCGVBA ***
+Pbagnpg: ufunax571@pbzpnfg.arg <ufunax571@pbzpnfg.arg>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(TSQ) NYEZ YIY: 1\aYBP:\a2225 GNOYR EBPX EQ\aO\aOHGYRE GJC\aOGJA: TBYQRAIVYYR EQ & FUEVIREF PBEARE EQ\a\aEPIQ NF 911\a\aPBZ:\aFur vf pbzcyrgryl nyreg (e
+(TSQ) NYEZ YIY: 1\aYBP:\a147 UHAGREF GEY\aPHZOREYNAQ GJC\aOGJA: PUNZOREFOHET EQ & RAQ\a\aEPIQ NF 911\a\aPBZ:\aGuvf unccrarq abj (yrff guna 6uef ntb).\aV
+
 */
 
 choyvp pynff CNNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

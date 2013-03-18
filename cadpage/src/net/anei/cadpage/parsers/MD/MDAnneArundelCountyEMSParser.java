@@ -28,6 +28,7 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
   public MDAnneArundelCountyEMSParser() {
     super(DEF_CITY, DEF_STATE);
     setupMultiWordStreets("CAPE ST CLAIRE");
+    setFieldList("CODE BOX CALL ADDR APT CITY PLACE X MAP CH UNIT TIME INFO");
   }
   
   @Override

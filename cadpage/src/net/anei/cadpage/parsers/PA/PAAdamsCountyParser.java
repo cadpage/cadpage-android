@@ -14,7 +14,7 @@ public class PAAdamsCountyParser extends DispatchA1Parser {
 
   @Override
   public String getFilter() {
-    return"alert@adams911.com";
+    return"alert@adams911.com,messaging@iamresponding.com";
   }
 
   @Override
