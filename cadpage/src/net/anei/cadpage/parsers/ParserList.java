@@ -524,6 +524,7 @@ public class ParserList {
               ,"OHFairfieldCounty"              ,"Fairfield County, OH"
               ,"OHFranklin"                     ,"Franklin, OH"
               ,"OHGeaugaCounty"                 ,"Geauga County, OH"
+              ,"OHGeneva"                       ,"Geneva, OH"
               ,"OHHamiltonCounty"               ,"Hamilton County, OH"
               ,"OHHighlandCounty"               ,"Highland County, OH"
               ,"OHHudson"                       ,"Hudson, OH"
