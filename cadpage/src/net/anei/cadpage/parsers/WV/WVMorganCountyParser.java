@@ -13,7 +13,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchBParser;
  */
 public class WVMorganCountyParser extends DispatchBParser {
   
-  private static final Pattern MARKER = Pattern.compile("^\\d{1,2}:MORGANCO911@FRONTIER.COM:");
+  private static final Pattern MARKER = Pattern.compile("^\\d+:MORGANCO911@FRONTIER.COM:");
 
   public WVMorganCountyParser() {
     super(CITY_CODES, "MORGAN COUNTY", "WV");
@@ -27,7 +27,19 @@ public class WVMorganCountyParser extends DispatchBParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (subject.length() == 0) return false;
+    
+    // A subject is required.  But there have been cases where the
+    // subject contained a unmatched left parent that messes up the
+    // persparser paren counting.  We will try to fix that.
+    if (subject.length() == 0) {
+      if (!body.startsWith("(")) return false;
+      int pt = body.indexOf(')');
+      if (pt < 0) return false;
+      subject = body.substring(1,pt).trim();
+      body = body.substring(pt+1).trim();
+      if (subject.length() == 0) return false;
+    }
+    
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     body = body.substring(match.end()).trim();
