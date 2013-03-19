@@ -10,7 +10,11 @@
   <target name="stat" description="Show workspace status">
     <ant dir=".." target="stat"/>
   </target>
-     
+  
+  <target name="gen_patch" description="Generate Patch File">
+    <ant dir=".." target="gen_patch"/>
+  </target>
+  
   <target name="commit" description="Commit changes to repository">
     <ant dir=".." target="commit"/>
   </target>

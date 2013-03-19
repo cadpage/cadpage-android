@@ -1,6 +1,6 @@
 <project name="Cadpage main" default="build" basedir=".">
 
-  <target name="build" description="build Cadpag Parser Library">
+  <target name="build" description="build Cadpage Parser Library">
     <ant dir="cadpage" target="build"/>
   </target>
 
@@ -22,6 +22,13 @@
 	
   <target name="export" description="export">
     <ant antfile="cadpageTest/build.xml" target="export"/>
+  </target>
+
+  <target name="gen_patch" description="Generate Cadpage patch file" depends="export">
+    <exec executable="svn" output="cadpage.patch">
+      <arg line="diff"/>
+    </exec>
+    <echo message="Patch file cadpage.patch generated"/>
   </target>
 
 </project>
