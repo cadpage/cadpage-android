@@ -120,8 +120,13 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_PAD_FIELD_EXCL_CITY = 0x8000;
   
-  
   private static final int FLAG_ANY_PAD_FIELD = FLAG_PAD_FIELD | FLAG_PAD_FIELD_EXCL_CITY;
+  
+  /**
+   * Flag indicating that this call should not find a city.  That any predefined city lists
+   * or codes should be ignored
+   */
+  public static final int FLAG_NO_CITY = 0x10000;
   
   private Properties cityCodes = null;
   
@@ -953,7 +958,7 @@ public abstract class SmartAddressParser extends MsgParser {
     if (ndx < 0) return -1;
     
     // If there was a following direction token, the findRoadEnd() method
-    // won't pick it up if it migth belong to a following cross street.
+    // won't pick it up if it might belong to a following cross street.
     // So we have to check for that here
     if (isFlagSet(FLAG_CROSS_FOLLOWS) && isType(ndx, ID_DIRECTION)) ndx++;
     
@@ -1331,6 +1336,7 @@ public abstract class SmartAddressParser extends MsgParser {
     boolean anchorEnd = isFlagSet(FLAG_ANCHOR_END);
     boolean parseToEnd = anchorEnd && ! isFlagSet(FLAG_CHECK_STATUS);
     boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
+    boolean cityOnly = isFlagSet(FLAG_ONLY_CITY);
 
     if (srcNdx >= tokens.length) return false;
     if (!parseToEnd && lastCity < srcNdx) return false;
@@ -1375,6 +1381,9 @@ public abstract class SmartAddressParser extends MsgParser {
           return true;
         }
       }
+      
+      // If we are only parsing a city field, skip all of the fancy stuff
+      if (cityOnly) continue;
       
       // Only check for fun stuff if it isn't inside a pad field
       if (!padField) {
@@ -1444,6 +1453,9 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // If there is no city list, obviously there is no city
     if (mWordCities == null) return -1;
+    
+    // If this call should ignore any listed cities, return now
+    if (isFlagSet(FLAG_NO_CITY)) return -1;
 
     // See if we can find the end of a city sequence
     // If not, then return -1;
