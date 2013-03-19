@@ -9,7 +9,7 @@ public class OHXeniaParser extends FieldProgramParser {
   
   public OHXeniaParser() {
     super(CITY_LIST, "GREENE COUNTY", "OH",
-           "CALL Location:ADDR! Time:SKIP Units:UNIT Common_Name:NAME Info:INFO");
+           "CALL Location:ADDR! Time:TIME Units:UNIT Common_Name:NAME Info:INFO");
   }
   
   @Override
