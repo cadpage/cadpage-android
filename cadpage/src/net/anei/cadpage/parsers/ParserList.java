@@ -526,6 +526,7 @@ public class ParserList {
               ,"OHFranklin"                     ,"Franklin, OH"
               ,"OHGeaugaCounty"                 ,"Geauga County, OH"
               ,"OHGeneva"                       ,"Geneva, OH"
+              ,"OHGreeneCounty"                 ,"Greene County, OH"
               ,"OHHamiltonCounty"               ,"Hamilton County, OH"
               ,"OHHighlandCounty"               ,"Highland County, OH"
               ,"OHHudson"                       ,"Hudson, OH"
@@ -550,7 +551,6 @@ public class ParserList {
               ,"OHWadsworth"                    ,"Wadsworth, OH"
               ,"OHWarrenCounty"                 ,"Warren County, OH"
               ,"OHWayneCounty"                  ,"Wayne County, OH"
-              ,"OHXenia"                        ,"Xenia Twp, OH"
           ),
           new ParserCategory("Oklahoma"
               ,"OKLoveCounty"                   ,"Love County, OK"

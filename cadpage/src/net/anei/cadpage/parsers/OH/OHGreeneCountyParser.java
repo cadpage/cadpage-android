@@ -5,9 +5,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 
-public class OHXeniaParser extends FieldProgramParser {
+public class OHGreeneCountyParser extends FieldProgramParser {
   
-  public OHXeniaParser() {
+  public OHGreeneCountyParser() {
     super(CITY_LIST, "GREENE COUNTY", "OH",
            "CALL Location:ADDR! Time:TIME Units:UNIT Common_Name:NAME Info:INFO");
   }

@@ -69,10 +69,10 @@ Fraqre: CFVFA_Qvfcngpu@pv.kravn.bu.hf
 
  */
 
-choyvp pynff BUKravnCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff BUTerrarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp BUKravnCnefreGrfg() {
-    frgCnefre(arj BUKravnCnefre(), "TERRAR PBHAGL", "BU");
+  choyvp BUTerrarPbhaglCnefreGrfg() {
+    frgCnefre(arj BUTerrarPbhaglCnefre(), "TERRAR PBHAGL", "BU");
   }
   
   @Grfg
@@ -516,6 +516,6 @@ choyvp pynff BUKravnCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj BUKravnCnefreGrfg().trarengrGrfgf("G1");
+    arj BUTerrarPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
