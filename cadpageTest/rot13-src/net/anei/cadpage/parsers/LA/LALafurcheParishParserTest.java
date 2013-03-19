@@ -7,6 +7,7 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 
+Ynsbhepur Cnevfu, YN
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ynsbhepur Sver Qvfgevpg #1
 Ybpngvba: Enprynaq, YN, Havgrq Fgngrf
@@ -86,6 +87,25 @@ Fraqre: ab-ercyl@yrqfcbegny.pbz
 (12-92608 - 20V : Penfu j/Vawhevrf) 572 FG YBHVF FG, ENPRYNAQ, YNBAR LRNE BYQ PUVYQ ENA BIRE OL IRUVPYR ...NVE ZRQ RAEBHGR NPNQVNA ERDHRFGVAT.
 (12-92455 - 52N : Sver Nynez) 4249 UJL 1, ENPRYNAQ\aTRARENY SVER NYNEZ NG CBCRLRF
 
+ABGRF:  Guvf bar ybbxf fvzcyr, ohg gurer ner tbvat gb or fbzr gevpxl cnegf.
+Fgneg ol birevqvat ZftCnefre.  Vg qbrfa'g ybbx yvxr jr arrq gur fzneg nqqerff ybtvp
+Fgneg ol Ercynpvat nyy arjyvarf jvgu oynaxf.  Gung jvyy svk ceboyrzf jvgu byqre pnyyf.
+Gur cneg va cneragurfvf jvyy or cnffrq gb gur cnefre nf n zrffntr fhowrpg.  Gur erfg bs gur grkg cntr jvyy or gur zrffntr obql.
+Lbh jvyy arrq n pyrire cnggrea gb vqragvsl gur zrffntr fhowrpg naq rkgenpg n pnyyre VQ naq pnyy qrfpevcgvba sebz vg.
+Gurer ner n yvzvgrq ahzore bs anxrq pnyy qrfpevcgvbaf gung fubhyq or npprcgrq, SVER NYNEZ naq NVE ZRQ ybbx yvxr nobhg vg.  
+Rirelguvat ryfr fubhyq erwrpgrq (zrnavat cnefrZft fubhyq erghea snyfr)
+
+Cebprffvat grkg zrffntr.  Rirelguvat hc gb gur svefg pbzzn vf gur nqqerff.  Vs ab pbzzn, rirelguvat vf gur nqqerff.
+Nqqerff ner nyjnlf cnffrq ol pnyyvat bar bs gur cnefrNqqerff zrgubqf.  Gurer vf bayl bar va ZftCnefre.
+
+Gur gevpxl cneg vf unaqyvat gur pvgl anzr.  vs gurer vf bar, vg jvyy vzzrqvngryl sbyybj gur pbzzn, ohg vg znl be znl abg or 
+frcnengrq sebz gur erfg bs gur grkg jvgu oynax.  Jr unir n xbby gbby gung znxrf guvf n ybg rnfvre.  Lbh arrq gb perngr
+n PbqrFrg bowrpg jvgu nyy bs gur erpbtavmrq pvgl anzrf va gur Cneevfu.  Lbh trg guvf sebz gur Jvxvcrqvn ragel sbe gur cneevfu.
+Pagy-Fusg-K jvyy hcfuvsg gur grkg naq fbzr pyrire erthyne rkcerffvba jvyy ghea gur yvfg vagb n yvfg bs Wnin fgevatf.  Pnyy gur 
+PbqrFrg bowrpg fbzrguvat yvxr PVGL_FRG be PVGL_PBQRFRG.  Vg fubhyq or n cevingr fgngvp svany bowrpg juvpu vf jul gur anzr
+vf hccre pnfr.  Pnyy gur trgPbqr zrgubq jvgu gur erznvavat grkg fgevat.  Vs vg ergheaf n aba-ahyy erfhyg gur erfhyg orpbzrf
+gur pvgl naq hfr fhofgevat gb erzbir vg sebz gur grkg yvar.  Arkg purpx sbe yrnqvat pbzznf naq cbffvoyl YN qrfvtangvba juvpu
+ntnva znl abg or sbyybjrq ol n oynax.  Nalguvat yrsg orpbzrf gur  fgeFhcc svryq. 
  */
 choyvp pynff YNYnshepurCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
