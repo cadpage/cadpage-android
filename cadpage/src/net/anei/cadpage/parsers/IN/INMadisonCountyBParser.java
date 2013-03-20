@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.IN;
 
 import java.text.SimpleDateFormat;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -20,6 +21,12 @@ public class INMadisonCountyBParser extends FieldProgramParser {
   public String getFilter() {
     return "cfs@madisoncountypaging.com";
   }
+  
+  @Override
+  public String adjustMapAddress(String address) {
+    return CORD_PTN.matcher(address).replaceAll("");
+  }
+  private static final Pattern CORD_PTN = Pattern.compile("\\bCORD\\b");
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
