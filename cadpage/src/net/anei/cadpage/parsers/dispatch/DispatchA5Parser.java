@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.dispatch;
 
 import java.util.HashSet;
+import java.util.Properties;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -21,7 +22,11 @@ public class DispatchA5Parser extends FieldProgramParser {
   private static final Pattern TRIM_EXTRA_INFO = Pattern.compile("(?:\nAddress Checks *)?(?:\nAdditional Inc#s: *)?$");
   
   public DispatchA5Parser(String defCity, String defState) {
-    super(defCity, defState,
+    this(null, defCity, defState);
+  }
+  
+  public DispatchA5Parser(Properties cityCodes, String defCity, String defState) {
+    super(cityCodes, defCity, defState,
            "Incident_Number:ID! ORI:UNIT! Station:SRC! " +
            "Incident_Type:CALL! Priority:PRI! " +
            "Incident_Location:ADDR! Venue:CITY! " +

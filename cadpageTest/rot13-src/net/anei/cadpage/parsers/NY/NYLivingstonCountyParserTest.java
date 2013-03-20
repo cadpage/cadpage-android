@@ -156,12 +156,11 @@ Fraqre: @PB.YVIVATFGBA.AL.HF
 (Nhgbzngvp E&E Abgvsvpngvba) \a  \a** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001056                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 17O1 R 17O1                 Cevbevgl: 1  \aVapvqrag Ybpngvba: 21 IVPXF CY                                          Irahr: G/PNANQVPR \a\aPnyy Gvzr- 19:57:24                                Qngr- 12/05/2012  \aQvfcngpu - 19:57:28     Ra-ebhgr- 19:59:04     Ba-fprar-              Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 20:10:11 \a\aNern: PNAG              Frpgvba :    1         Orng  . :  BBP  \aTevq:                   Dhnqenag: EVPS         Qvfgevpg: EVPN \a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\aPnyyre. . . : BPFB \a\aHavgf frag  :  \a RZFYVIBAV   Z74 \a\aAngher bs Pnyy : UBARBLR RZF ERD NYF ZNYR SRYY YNP URNQ \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z74     Enqvb:           Bspe 1: ZPXVAYRLO  Bspe 2:  \a       QFC: 12/05/12  19:57:28     RAE: 12/05/12  19:59:04  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/05/12  20:10:11 \a\aGur Pnyy Gnxre vf EHGVTYVNAB WBUA N  \aGur Qvfcngpure vf EHGVTYVNAB WBUA N
 (Nhgbzngvp E&E Abgvsvpngvba) \a  \aVapvqrag Ahzore  : 2012-00001056                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 17O1 R 17O1                 Cevbevgl: 1  \aVapvqrag Ybpngvba: 21 IVPXF CY                                          Irahr: G/PNANQVPR  \aYbpngrq Orgjrra  : QRNQ RAQ/ENAPU EQ \a\aPnyy Gvzr- 19:57:24                                Qngr- 12/05/2012  \aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga- \a\aNern: PNAG              Frpgvba :    1         Orng  . :  BBP        Znc . . :  \aTevq:                   Dhnqenag: EVPS         Qvfgevpg: EVPN \a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\aPnyyre. . . : BPFB \a\aHavgf frag  :  \a RZFYVIBAV   Z74 \a\aAngher bs Pnyy : UBARBLR RZF ERD NYF ZNYR SRYY YNP URNQ \a\aNqqvgvbany Vap#f: \a\aGur Pnyy Gnxre vf EHGVTYVNAB WBUA N  \aGur Qvfcngpure vf EHGVTYVNAB WBUA N
 
-Abgrf!  Fvzcyr fhopynff bs QvfcngpuN5Cnefre fubhyq qb vg.  Bireevqr trgSvygre()
 */
 
-choyvp pynff ALYvivatfgbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff ALYvivatfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp ALYvivatfgbarPbhaglCnefreGrfg() {
+  choyvp ALYvivatfgbaPbhaglCnefreGrfg() {
     frgCnefre(arj ALYvivatfgbaPbhaglCnefre(), "YVIVATFGBA PBHAGL", "AL");
   }
   
@@ -2820,7 +2819,7 @@ choyvp pynff ALYvivatfgbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:19P4 R 19P4",
         "CEV:2",
         "NQQE:4939 NGRA EQ",
-        "PVGL:TEBIRYNA",
+        "PVGL:TEBIRYNAQ",
         "K:TEBIRYNAQ UVYY EQ/ONEORE UVYY EQ",
         "GVZR:09:20:57",
         "QNGR:12/06/2012",
@@ -3283,7 +3282,7 @@ choyvp pynff ALYvivatfgbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:26P2 R 26P2",
         "CEV:2",
         "NQQE:6588 TEBIRYNAQ UVYY EQ",
-        "PVGL:TEBIRYNA",
+        "PVGL:TEBIRYNAQ",
         "K:GHEARE EQ/ORAARGG UVYY EQ",
         "GVZR:15:51:50",
         "QNGR:12/05/2012",
@@ -4346,7 +4345,1637 @@ choyvp pynff ALYvivatfgbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
   
+  @Grfg
+  choyvp ibvq grfgYvibavnRZF() {
+
+    qbGrfg("G1",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001072                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 28P3 R 28P3                 Cevbevgl: 2  \a" +
+        "Vapvqrag Ybpngvba: 7498 OVT GERR EQ                                     Irahr: G/YVIBAVN  \a" +
+        "Ybpngrq Orgjrra  : ORGGLEHGU YA/PYNL FG \a\a" +
+        "Pnyy Gvzr- 19:55:50                                Qngr- 12/12/2012  \a" +
+        "Qvfcngpu - 19:56:08     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : PMBA        Znc . . :  S10  \a" +
+        "Tevq:                   Dhnqenag: URZ1         Qvfgevpg: YVIU \a\a" +
+        "Cubar Ahzore: (585) 367-8481                Pnyy Fbhepr: R911 \a\a" +
+        "Pnyyre. . . : ORPXL QRYVYYR \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : 60 LBZ CBFF FGEBXR JVGU UK YRSG FVQR JRNXARFF \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "   FYHEERQ FCRRPU PBA/OERNGUVAT \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf EBFR JNLAR FGRCURA  \a" +
+        "Gur Qvfcngpure vf EBFR JNLAR FGRCURA",
+
+        "VQ:2012-00001072",
+        "HAVG:RZFYVIBAV 2981",
+        "PNYY:28P3 R 28P3",
+        "CEV:2",
+        "NQQE:7498 OVT GERR EQ",
+        "PVGL:YVIBAVN",
+        "K:ORGGLEHGU YA/PYNL FG",
+        "GVZR:19:55:50",
+        "QNGR:12/12/2012",
+        "ZNC:YVIU/URZ1/2/FBYV",
+        "CUBAR:(585) 367-8481",
+        "ANZR:ORPXL QRYVYYR",
+        "VASB:60 LBZ CBFF FGEBXR JVGU UK YRSG FVQR JRNXARFF\aFYHEERQ FCRRPU PBA/OERNGUVAT");
+
+    qbGrfg("G2",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001071                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . :  6Q2 R 6Q2                  Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: 28 CRAAFLYINAVN NI                                   Irahr: G/YVIBAVN \a\a" +
+        "Pnyy Gvzr- 15:07:23                                Qngr- 12/12/2012  \a" +
+        "Qvfcngpu - 15:07:47     Ra-ebhgr- 15:12:28     Ba-fprar- 15:15:02     Qrcneg 1- 15:39:39  \a" +
+        "Neevir 2 - 16:11:46     Qrcneg 2- 17:06:45     Va-fgnga-              Pyrnerq - 17:50:33 \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA  \a" +
+        "Tevq: MBA2              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (888) 289-2018                Pnyy Fbhepr:   BN \a\a" +
+        "Pnyyre. . . : YVSRYVAR \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   Z74                  SQYNXRIVY   21  \a" +
+        " SQYNXRIVY   2171                 RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : UNEBYQ FNPUF 87 LB Z QVSS OERNGUVAT B2 YBJ \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  5853463442 \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a" +
+        "       QFC: 12/12/12  15:07:47     RAE: 12/12/12  15:12:28  \a" +
+        "       NEI: 12/12/12  15:15:02     QCG: 12/12/12  15:39:39  \a" +
+        "       NE2: 12/12/12  16:11:46     QC2: 12/12/12  17:06:45  \a" +
+        "       DGE:             :  :       PYE: 12/12/12  17:50:33  \a" +
+        "    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/12/12  15:07:47     RAE: 12/12/12  15:14:24  \a" +
+        "       NEI: 12/12/12  15:16:09     QCG: 12/12/12  15:39:39  \a" +
+        "       NE2: 12/12/12  16:11:46     QC2: 12/12/12  17:06:45  \a" +
+        "       DGE:             :  :       PYE: 12/12/12  17:50:33  \a" +
+        "    Havg: 2171    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/12/12  15:07:47     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/12/12  15:43:02  \a" +
+        "    Havg: 21      Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/12/12  15:10:05     RAE: 12/12/12  15:10:05  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/12/12  15:35:51 \a\a" +
+        "Gur Pnyy Gnxre vf ZBEEVF JRAQL Y  \a" +
+        "Gur Qvfcngpure vf ZBEEVF JRAQL Y",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001071                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . :  6Q2 R 6Q2                  Cevbevgl: 1  \aVapvqrag Ybpngvba: 28 CRAAFLYINAVN NI                                   Irahr: G/YVIBAVN \a\aPnyy Gvzr- 15:07:23                                Qngr- 12/12/2012  \aQvfcngpu - 15:07:47     Ra-ebhgr- 15:12:28     Ba-fprar- 15:15:02     Qrcneg 1- 15:39:39  \aNeevir 2 - 16:11:46     Qrcneg 2- 17:06:45     Va-fgnga-              Pyrnerq - 17:50:33 \a\aNern: FBYV              Frpgvba :    2         Orng  . : NMBA  \aTevq: MBA2              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\aCubar Ahzore: (888) 289-2018                Pnyy Fbhepr:   BN \a\aPnyyre. . . : YVSRYVAR \a\aHavgf frag  :  \a RZFYVIBAV   Z74                  SQYNXRIVY   21  \a SQYNXRIVY   2171                 RZFYVIBAV   2981 \a\aAngher bs Pnyy : UNEBYQ FNPUF 87 LB Z QVSS OERNGUVAT B2 YBJ \a\aNqqvgvbany Vasb  \a  5853463442 \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a       QFC: 12/12/12  15:07:47     RAE: 12/12/12  15:12:28  \a       NEI: 12/12/12  15:15:02     QCG: 12/12/12  15:39:39  \a       NE2: 12/12/12  16:11:46     QC2: 12/12/12  17:06:45  \a       DGE:             :  :       PYE: 12/12/12  17:50:33  \a    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/12/12  15:07:47     RAE: 12/12/12  15:14:24  \a       NEI: 12/12/12  15:16:09     QCG: 12/12/12  15:39:39  \a       NE2: 12/12/12  16:11:46     QC2: 12/12/12  17:06:45  \a       DGE:             :  :       PYE: 12/12/12  17:50:33  \a    Havg: 2171    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/12/12  15:07:47     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/12/12  15:43:02  \a    Havg: 21      Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/12/12  15:10:05     RAE: 12/12/12  15:10:05  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/12/12  15:35:51 \a\aGur Pnyy Gnxre vf ZBEEVF JRAQL Y  \aGur Qvfcngpure vf ZBEEVF JRAQL Y");
+
+    qbGrfg("G3",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001071                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . :  6Q2 R 6Q2                  Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: 28 CRAAFLYINAVN NI                                   Irahr: G/YVIBAVN  \a" +
+        "Ybpngrq Orgjrra  : F YVZN EQ/F QRNQ RAQ \a\a" +
+        "Pnyy Gvzr- 15:07:23                                Qngr- 12/12/2012  \a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA        Znc . . :   Q8  \a" +
+        "Tevq: MBA2              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (888) 289-2018                Pnyy Fbhepr:   BN \a\a" +
+        "Pnyyre. . . : YVSRYVAR \a\a" +
+        "Angher bs Pnyy : UNEBYQ FNPUF 87 LB Z QVSS OERNGUVAT B2 YBJ \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  5853463442 \a\a" +
+        "Nqqerff Purpxf \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf ZBEEVF JRAQL Y  \a" +
+        "Gur Qvfcngpure vf ZBEEVF JRAQL Y",
+
+        "VQ:2012-00001071",
+        "HAVG:RZFYVIBAV",
+        "PNYY:6Q2 R 6Q2",
+        "CEV:1",
+        "NQQE:28 CRAAFLYINAVN NI",
+        "ZNQQE:28 CRAAFLYINAVN NIR",
+        "PVGL:YVIBAVN",
+        "K:F YVZN EQ/F QRNQ RAQ",
+        "GVZR:15:07:23",
+        "QNGR:12/12/2012",
+        "ZNC:YVIY/YNX1/2/FBYV",
+        "CUBAR:(888) 289-2018",
+        "ANZR:YVSRYVAR",
+        "VASB:UNEBYQ FNPUF 87 LB Z QVSS OERNGUVAT B2 YBJ\a5853463442");
+
+    qbGrfg("G4",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001070                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 10Q2 R 10Q2                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: 5536 THYVPX                                          Irahr: PBHAGL BHG \a\a" +
+        "Pnyy Gvzr- 05:16:49                                Qngr- 12/12/2012  \a" +
+        "Qvfcngpu - 05:16:56     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 05:19:38 \a\a" +
+        "Nern:  BBP              Frpgvba :  BBP         Orng  . :  BBP  \a" +
+        "Tevq:                   Dhnqenag:              Qvfgevpg: \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : BAGNEVB PB \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   Z74 \a\a" +
+        "Angher bs Pnyy : 65 ZNYR JVGU PURFG CNVAF \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  GEO OERNGUVAT \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a" +
+        "       QFC: 12/12/12  05:16:56     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/12/12  05:19:38 \a\a" +
+        "Gur Pnyy Gnxre vf TENAG PHEG F  \a" +
+        "Gur Qvfcngpure vf TENAG PHEG F",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001070                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 10Q2 R 10Q2                 Cevbevgl: 1  \aVapvqrag Ybpngvba: 5536 THYVPX                                          Irahr: PBHAGL BHG \a\aPnyy Gvzr- 05:16:49                                Qngr- 12/12/2012  \aQvfcngpu - 05:16:56     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 05:19:38 \a\aNern:  BBP              Frpgvba :  BBP         Orng  . :  BBP  \aTevq:                   Dhnqenag:              Qvfgevpg: \a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\aPnyyre. . . : BAGNEVB PB \a\aHavgf frag  :  \a RZFYVIBAV   Z74 \a\aAngher bs Pnyy : 65 ZNYR JVGU PURFG CNVAF \a\aNqqvgvbany Vasb  \a  GEO OERNGUVAT \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a       QFC: 12/12/12  05:16:56     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/12/12  05:19:38 \a\aGur Pnyy Gnxre vf TENAG PHEG F  \aGur Qvfcngpure vf TENAG PHEG F");
+
+    frgQrsnhygf("", "AL");
+    qbGrfg("G5",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001070                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 10Q2 R 10Q2                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: 5536 THYVPX                                          Irahr: PBHAGL BHG  \a" +
+        "Ybpngrq Orgjrra  :  / \a\a" +
+        "Pnyy Gvzr- 05:16:49                                Qngr- 12/12/2012  \a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern:  BBP              Frpgvba :  BBP         Orng  . :  BBP        Znc . . :  \a" +
+        "Tevq:                   Dhnqenag:              Qvfgevpg: \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : BAGNEVB PB \a\a" +
+        "Angher bs Pnyy : 65 ZNYR JVGU PURFG CNVAF \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  GEO OERNGUVAT \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf TENAG PHEG F  \a" +
+        "Gur Qvfcngpure vf TENAG PHEG F",
+
+        "VQ:2012-00001070",
+        "HAVG:RZFYVIBAV",
+        "PNYY:10Q2 R 10Q2",
+        "CEV:1",
+        "NQQE:5536 THYVPX",
+        "GVZR:05:16:49",
+        "QNGR:12/12/2012",
+        "ZNC:BBP/BBP",
+        "ANZR:BAGNEVB PB",
+        "VASB:65 ZNYR JVGU PURFG CNVAF\aGEO OERNGUVAT");
+    frgQrsnhygf("YVIVATFGBA PBHAGL", "AL");
+
+    qbGrfg("G6",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001069                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . :  8Q5 R 8Q5                  Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: 3406 EBPURFGRE EQ 2                                  Irahr: G/YVIBAVN \a\a" +
+        "Pnyy Gvzr- 16:26:50                                Qngr- 12/11/2012  \a" +
+        "Qvfcngpu - 16:27:22     Ra-ebhgr- 16:30:32     Ba-fprar- 16:34:01     Qrcneg 1- 16:49:50  \a" +
+        "Neevir 2 - 17:24:14     Qrcneg 2- 17:39:46     Va-fgnga-              Pyrnerq - 18:09:54 \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA  \a" +
+        "Tevq: MBA1              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (315) 956-4405                Pnyy Fbhepr:  GRY \a\a" +
+        "Pnyyre. . . : JVYYVNZ ZPPBYYHZ \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   Z74                  SQYNXRIVY   C214  \a" +
+        " SQYNXRIVY   21                   RZFYVIBAV   2961  \a" +
+        " RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : UNF URNGRE JVGU AB IRAG TVEYSEVRAQ SRRYF FVPX \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a" +
+        "       QFC: 12/11/12  16:27:22     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/11/12  16:30:40  \a" +
+        "    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/11/12  16:27:22     RAE: 12/11/12  16:35:51  \a" +
+        "       NEI: 12/11/12  16:39:52     QCG: 12/11/12  16:49:50  \a" +
+        "       NE2: 12/11/12  17:24:14     QC2: 12/11/12  17:39:46  \a" +
+        "       DGE:             :  :       PYE: 12/11/12  18:09:54  \a" +
+        "    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a" +
+        "       QFC: 12/11/12  16:30:32     RAE: 12/11/12  16:30:32  \a" +
+        "       NEI: 12/11/12  16:34:01     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/11/12  16:55:23  \a" +
+        "    Havg: C214    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/11/12  16:27:22     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/11/12  16:55:02  \a" +
+        "    Havg: 21      Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/11/12  16:29:07     RAE: 12/11/12  16:29:07  \a" +
+        "       NEI: 12/11/12  16:33:11     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/11/12  16:55:02 \a\a" +
+        "Gur Pnyy Gnxre vf PBEAJRYY WRAAVSRE W  \a" +
+        "Gur Qvfcngpure vf PBEAJRYY WRAAVSRE W",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001069                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . :  8Q5 R 8Q5                  Cevbevgl: 1  \aVapvqrag Ybpngvba: 3406 EBPURFGRE EQ 2                                  Irahr: G/YVIBAVN \a\aPnyy Gvzr- 16:26:50                                Qngr- 12/11/2012  \aQvfcngpu - 16:27:22     Ra-ebhgr- 16:30:32     Ba-fprar- 16:34:01     Qrcneg 1- 16:49:50  \aNeevir 2 - 17:24:14     Qrcneg 2- 17:39:46     Va-fgnga-              Pyrnerq - 18:09:54 \a\aNern: FBYV              Frpgvba :    2         Orng  . : NMBA  \aTevq: MBA1              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\aCubar Ahzore: (315) 956-4405                Pnyy Fbhepr:  GRY \a\aPnyyre. . . : JVYYVNZ ZPPBYYHZ \a\aHavgf frag  :  \a RZFYVIBAV   Z74                  SQYNXRIVY   C214  \a SQYNXRIVY   21                   RZFYVIBAV   2961  \a RZFYVIBAV   2981 \a\aAngher bs Pnyy : UNF URNGRE JVGU AB IRAG TVEYSEVRAQ SRRYF FVPX \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a       QFC: 12/11/12  16:27:22     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/11/12  16:30:40  \a    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/11/12  16:27:22     RAE: 12/11/12  16:35:51  \a       NEI: 12/11/12  16:39:52     QCG: 12/11/12  16:49:50  \a       NE2: 12/11/12  17:24:14     QC2: 12/11/12  17:39:46  \a       DGE:             :  :       PYE: 12/11/12  18:09:54  \a    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a       QFC: 12/11/12  16:30:32     RAE: 12/11/12  16:30:32  \a       NEI: 12/11/12  16:34:01     QCG:             :  :  \a       DGE:             :  :       PYE: 12/11/12  16:55:23  \a    Havg: C214    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/11/12  16:27:22     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/11/12  16:55:02  \a    Havg: 21      Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/11/12  16:29:07     RAE: 12/11/12  16:29:07  \a       NEI: 12/11/12  16:33:11     QCG:             :  :  \a       DGE:             :  :       PYE: 12/11/12  16:55:02 \a\aGur Pnyy Gnxre vf PBEAJRYY WRAAVSRE W  \aGur Qvfcngpure vf PBEAJRYY WRAAVSRE W");
+
+    qbGrfg("G7",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001069                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . :  8Q5 R 8Q5                  Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: 3406 EBPURFGRE EQ                                    Irahr: G/YVIBAVN  \a" +
+        "Ybpngrq Orgjrra  : PERRXIVRJ PE/OVT GERR EQ \a\a" +
+        "Pnyy Gvzr- 16:26:50                                Qngr- 12/11/2012  \a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA        Znc . . :   R8  \a" +
+        "Tevq: MBA1              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (315) 956-4405                Pnyy Fbhepr:  GRY \a\a" +
+        "Pnyyre. . . : JVYYVNZ ZPPBYYHZ \a\a" +
+        "Angher bs Pnyy : UNF URNGRE JVGU AB IRAG TVEYSEVRAQ SRRYF FVPX \a\a" +
+        "Nqqerff Purpxf \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf PBEAJRYY WRAAVSRE W  \a" +
+        "Gur Qvfcngpure vf PBEAJRYY WRAAVSRE W",
+
+        "VQ:2012-00001069",
+        "HAVG:RZFYVIBAV",
+        "PNYY:8Q5 R 8Q5",
+        "CEV:1",
+        "NQQE:3406 EBPURFGRE EQ",
+        "PVGL:YVIBAVN",
+        "K:PERRXIVRJ PE/OVT GERR EQ",
+        "GVZR:16:26:50",
+        "QNGR:12/11/2012",
+        "ZNC:YVIY/YNX1/2/FBYV",
+        "CUBAR:(315) 956-4405",
+        "ANZR:JVYYVNZ ZPPBYYHZ",
+        "VASB:UNF URNGRE JVGU AB IRAG TVEYSEVRAQ SRRYF FVPX");
+
+    qbGrfg("G8",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001068                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 10Q1 R 10Q1                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: 6639 ZBEEVF EQ                                       Irahr: G/FCEVATJN \a\a" +
+        "Pnyy Gvzr- 09:30:59                                Qngr- 12/11/2012  \a" +
+        "Qvfcngpu - 09:33:11     Ra-ebhgr- 09:41:30     Ba-fprar- 09:54:54     Qrcneg 1- 10:10:51  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 11:21:09 \a\a" +
+        "Nern: FBFJ              Frpgvba :    1         Orng  . : PMBA  \a" +
+        "Tevq:                   Dhnqenag: FCE2         Qvfgevpg: FCE2 \a\a" +
+        "Cubar Ahzore: (585) 669-2340                Pnyy Fbhepr: R911 \a\a" +
+        "Pnyyre. . . : ORIREYL W INAFPBBGRE \a\a" +
+        "Angher bs Pnyy : 76 LBS  PURFG CNVAF \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  ERFQ:  (AN) \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z79     Enqvb:           Bspe 1:     URAEL  Bspe 2:  \a" +
+        "       QFC: 12/11/12  09:33:11     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/11/12  09:34:37  \a" +
+        "    Havg: 7901    Enqvb:           Bspe 1:     ZNAMB  Bspe 2:  \a" +
+        "       QFC: 12/11/12  09:34:23     RAE: 12/11/12  09:34:27  \a" +
+        "       NEI: 12/11/12  09:50:15     QCG: 12/11/12  10:10:51  \a" +
+        "       DGE:             :  :       PYE: 12/11/12  10:42:41  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a" +
+        "       QFC: 12/11/12  09:33:11     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/11/12  09:39:16  \a" +
+        "    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/11/12  09:33:11     RAE: 12/11/12  09:41:30  \a" +
+        "       NEI: 12/11/12  09:54:54     QCG: 12/11/12  10:10:51  \a" +
+        "       DGE:             :  :       PYE: 12/11/12  11:21:09  \a" +
+        "    Havg: E549    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/11/12  09:33:11     RAE: 12/11/12  09:42:39  \a" +
+        "       NEI: 12/11/12  09:48:50     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/11/12  10:05:48 \a\a" +
+        "Gur Pnyy Gnxre vf ENQRFV SENAX R  \a" +
+        "Gur Qvfcngpure vf ENQRFV SENAX R",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001068                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 10Q1 R 10Q1                 Cevbevgl: 1  \aVapvqrag Ybpngvba: 6639 ZBEEVF EQ                                       Irahr: G/FCEVATJN \a\aPnyy Gvzr- 09:30:59                                Qngr- 12/11/2012  \aQvfcngpu - 09:33:11     Ra-ebhgr- 09:41:30     Ba-fprar- 09:54:54     Qrcneg 1- 10:10:51  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 11:21:09 \a\aNern: FBFJ              Frpgvba :    1         Orng  . : PMBA  \aTevq:                   Dhnqenag: FCE2         Qvfgevpg: FCE2 \a\aCubar Ahzore: (585) 669-2340                Pnyy Fbhepr: R911 \a\aPnyyre. . . : ORIREYL W INAFPBBGRE \a\aAngher bs Pnyy : 76 LBS  PURFG CNVAF \a\aNqqvgvbany Vasb  \a  ERFQ:  (AN) \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z79     Enqvb:           Bspe 1:     URAEL  Bspe 2:  \a       QFC: 12/11/12  09:33:11     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/11/12  09:34:37  \a    Havg: 7901    Enqvb:           Bspe 1:     ZNAMB  Bspe 2:  \a       QFC: 12/11/12  09:34:23     RAE: 12/11/12  09:34:27  \a       NEI: 12/11/12  09:50:15     QCG: 12/11/12  10:10:51  \a       DGE:             :  :       PYE: 12/11/12  10:42:41  \a    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a       QFC: 12/11/12  09:33:11     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/11/12  09:39:16  \a    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/11/12  09:33:11     RAE: 12/11/12  09:41:30  \a       NEI: 12/11/12  09:54:54     QCG: 12/11/12  10:10:51  \a       DGE:             :  :       PYE: 12/11/12  11:21:09  \a    Havg: E549    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/11/12  09:33:11     RAE: 12/11/12  09:42:39  \a       NEI: 12/11/12  09:48:50     QCG:             :  :  \a       DGE:             :  :       PYE: 12/11/12  10:05:48 \a\aGur Pnyy Gnxre vf ENQRFV SENAX R  \aGur Qvfcngpure vf ENQRFV SENAX R");
+
+    qbGrfg("G9",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00000175                    BEV: RZFFCEVAT     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 10Q1 R 10Q1                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: 6639 ZBEEVF EQ                                       Irahr: G/FCEVATJN  \a" +
+        "Ybpngrq Orgjrra  : FGBEL EQ/ZNVA FG \a\a" +
+        "Pnyy Gvzr- 09:30:59                                Qngr- 12/11/2012  \a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBFJ              Frpgvba :    1         Orng  . : PMBA        Znc . . :   V9  \a" +
+        "Tevq:                   Dhnqenag: FCE2         Qvfgevpg: FCE2 \a\a" +
+        "Cubar Ahzore: (585) 669-2340                Pnyy Fbhepr: R911 \a\a" +
+        "Pnyyre. . . : ORIREYL W INAFPBBGRE \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : 76 LBS  PURFG CNVAF \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  ERFQ:  (AN) \a\a" +
+        "Nqqvgvbany Vap#f:  \a" +
+        " RZFYVIBAV   201200001068 \a\a" +
+        "Gur Pnyy Gnxre vf ENQRFV SENAX R  \a" +
+        "Gur Qvfcngpure vf ENQRFV SENAX R",
+
+        "VQ:2012-00000175",
+        "HAVG:RZFFCEVAT RZFYVIBAV 2981",
+        "PNYY:10Q1 R 10Q1",
+        "CEV:1",
+        "NQQE:6639 ZBEEVF EQ",
+        "PVGL:FCEVATJNGRE",
+        "K:FGBEL EQ/ZNVA FG",
+        "GVZR:09:30:59",
+        "QNGR:12/11/2012",
+        "ZNC:FCE2/FCE2/1/FBFJ",
+        "CUBAR:(585) 669-2340",
+        "ANZR:ORIREYL W INAFPBBGRE",
+        "VASB:76 LBS PURFG CNVAF\aERFQ:  (AN)\aNqqvgvbany Vap#f:\aRZFYVIBAV   201200001068");
+
+    qbGrfg("G10",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001067                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 23P7 R 23P7                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: PBUJL 33                                             Irahr: G/EVPUZBAQ \a\a" +
+        "Pnyy Gvzr- 22:58:54                                Qngr- 12/10/2012  \a" +
+        "Qvfcngpu - 22:58:55     Ra-ebhgr- 22:59:08     Ba-fprar- 23:16:07     Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 00:44:17 \a\a" +
+        "Nern:  BBP              Frpgvba : BAGN         Orng  . :  BBP  \a" +
+        "Tevq:                   Dhnqenag:              Qvfgevpg: \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:   BN \a\a" +
+        "Pnyyre. . . : BAGNEVB PB FB \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   Z74                  RZFYVIBAV   2961 \a\a" +
+        "Angher bs Pnyy : 16 LBS B/Q BA VOHCEBSVA \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a" +
+        "       QFC: 12/10/12  22:58:55     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/10/12  22:59:14  \a" +
+        "    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a" +
+        "       QFC: 12/10/12  22:58:55     RAE: 12/10/12  22:59:08  \a" +
+        "       NEI: 12/10/12  23:16:07     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/11/12  00:44:17 \a\a" +
+        "Gur Pnyy Gnxre vf TEBFF URNGURE Y  \a" +
+        "Gur Qvfcngpure vf TEBFF URNGURE Y",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001067                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 23P7 R 23P7                 Cevbevgl: 1  \aVapvqrag Ybpngvba: PBUJL 33                                             Irahr: G/EVPUZBAQ \a\aPnyy Gvzr- 22:58:54                                Qngr- 12/10/2012  \aQvfcngpu - 22:58:55     Ra-ebhgr- 22:59:08     Ba-fprar- 23:16:07     Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 00:44:17 \a\aNern:  BBP              Frpgvba : BAGN         Orng  . :  BBP  \aTevq:                   Dhnqenag:              Qvfgevpg: \a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:   BN \a\aPnyyre. . . : BAGNEVB PB FB \a\aHavgf frag  :  \a RZFYVIBAV   Z74                  RZFYVIBAV   2961 \a\aAngher bs Pnyy : 16 LBS B/Q BA VOHCEBSVA \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a       QFC: 12/10/12  22:58:55     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/10/12  22:59:14  \a    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a       QFC: 12/10/12  22:58:55     RAE: 12/10/12  22:59:08  \a       NEI: 12/10/12  23:16:07     QCG:             :  :  \a       DGE:             :  :       PYE: 12/11/12  00:44:17 \a\aGur Pnyy Gnxre vf TEBFF URNGURE Y  \aGur Qvfcngpure vf TEBFF URNGURE Y");
+
+    qbGrfg("G11",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001067                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 23P7 R 23P7                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: PBUJL 33                                             Irahr: G/EVPUZBAQ  \a" +
+        "Ybpngrq Orgjrra  :  / \a\a" +
+        "Pnyy Gvzr- 22:58:54                                Qngr- 12/10/2012  \a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern:  BBP              Frpgvba : BAGN         Orng  . :  BBP        Znc . . :  \a" +
+        "Tevq:                   Dhnqenag:              Qvfgevpg: \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:   BN \a\a" +
+        "Pnyyre. . . : BAGNEVB PB FB \a\a" +
+        "Angher bs Pnyy : 16 LBS B/Q BA VOHCEBSVA \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf TEBFF URNGURE Y  \a" +
+        "Gur Qvfcngpure vf TEBFF URNGURE Y",
+
+        "VQ:2012-00001067",
+        "HAVG:RZFYVIBAV",
+        "PNYY:23P7 R 23P7",
+        "CEV:1",
+        "NQQE:PBUJL 33",
+        "ZNQQE:PBHAGL EBNQ 33",
+        "PVGL:EVPUZBAQ",
+        "GVZR:22:58:54",
+        "QNGR:12/10/2012",
+        "ZNC:BAGN/BBP",
+        "ANZR:BAGNEVB PB FB",
+        "VASB:16 LBS B/Q BA VOHCEBSVA");
+
+    qbGrfg("G12",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001066                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 29O1 R 29O1                 Cevbevgl: 4  \a" +
+        "Vapvqrag Ybpngvba: 1304 TRARFRR RK FO                                   Irahr: G/NIBA  \a" +
+        "Pbzzba Anzr. . . : RKVG 9 FO \a\a" +
+        "Pnyy Gvzr- 19:00:20                                Qngr- 12/10/2012  \a" +
+        "Qvfcngpu - 19:10:59     Ra-ebhgr- 19:16:34     Ba-fprar- 19:25:29     Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 19:44:05 \a\a" +
+        "Nern: FBNI              Frpgvba :    1         Orng  . : NMBA  \a" +
+        "Tevq: O994              Dhnqenag: RNS5         Qvfgevpg: 3907 \a\a" +
+        "Cubar Ahzore: (585) 703-2473                Pnyy Fbhepr: P911 \a\a" +
+        "Pnyyre. . . : WBUA NYYRA \a\a" +
+        "Angher bs Pnyy : PNE - QRRE JVGU IRU QVFNOYRQ VA YNAR \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  QEVIRE UNF UNAQ VAW \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: 2481    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/10/12  19:01:04     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/10/12  19:16:45  \a" +
+        "    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/10/12  19:10:59     RAE: 12/10/12  19:16:34  \a" +
+        "       NEI: 12/10/12  19:25:29     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/10/12  19:44:05  \a" +
+        "    Havg: C277    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/10/12  19:01:04     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/10/12  19:08:56  \a" +
+        "    Havg: E279    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/10/12  19:01:04     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/10/12  19:08:56  \a" +
+        "    Havg: 2701    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/10/12  19:02:07     RAE: 12/10/12  19:02:07  \a" +
+        "       NEI: 12/10/12  19:05:50     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/10/12  19:28:32  \a" +
+        "    Havg: 2702    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/10/12  19:02:53     RAE: 12/10/12  19:02:53  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/10/12  19:28:32  \a" +
+        "    Havg: D278    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/10/12  19:07:29     RAE: 12/10/12  19:07:29  \a" +
+        "       NEI: 12/10/12  19:11:38     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/10/12  19:28:32 \a\a" +
+        "Gur Pnyy Gnxre vf OVQQYR XVC R  \a" +
+        "Gur Qvfcngpure vf OVQQYR XVC R",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001066                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 29O1 R 29O1                 Cevbevgl: 4  \aVapvqrag Ybpngvba: 1304 TRARFRR RK FO                                   Irahr: G/NIBA  \aPbzzba Anzr. . . : RKVG 9 FO \a\aPnyy Gvzr- 19:00:20                                Qngr- 12/10/2012  \aQvfcngpu - 19:10:59     Ra-ebhgr- 19:16:34     Ba-fprar- 19:25:29     Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 19:44:05 \a\aNern: FBNI              Frpgvba :    1         Orng  . : NMBA  \aTevq: O994              Dhnqenag: RNS5         Qvfgevpg: 3907 \a\aCubar Ahzore: (585) 703-2473                Pnyy Fbhepr: P911 \a\aPnyyre. . . : WBUA NYYRA \a\aAngher bs Pnyy : PNE - QRRE JVGU IRU QVFNOYRQ VA YNAR \a\aNqqvgvbany Vasb  \a  QEVIRE UNF UNAQ VAW \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: 2481    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/10/12  19:01:04     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/10/12  19:16:45  \a    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/10/12  19:10:59     RAE: 12/10/12  19:16:34  \a       NEI: 12/10/12  19:25:29     QCG:             :  :  \a       DGE:             :  :       PYE: 12/10/12  19:44:05  \a    Havg: C277    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/10/12  19:01:04     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/10/12  19:08:56  \a    Havg: E279    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/10/12  19:01:04     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/10/12  19:08:56  \a    Havg: 2701    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/10/12  19:02:07     RAE: 12/10/12  19:02:07  \a       NEI: 12/10/12  19:05:50     QCG:             :  :  \a       DGE:             :  :       PYE: 12/10/12  19:28:32  \a    Havg: 2702    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/10/12  19:02:53     RAE: 12/10/12  19:02:53  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/10/12  19:28:32  \a    Havg: D278    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/10/12  19:07:29     RAE: 12/10/12  19:07:29  \a       NEI: 12/10/12  19:11:38     QCG:             :  :  \a       DGE:             :  :       PYE: 12/10/12  19:28:32 \a\aGur Pnyy Gnxre vf OVQQYR XVC R  \aGur Qvfcngpure vf OVQQYR XVC R");
+
+    qbGrfg("G13",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00000815                    BEV: RZFNIBA       Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 29O1 R 29O1                 Cevbevgl: 4  \a" +
+        "Vapvqrag Ybpngvba: 1304 TRARFRR RK FO                                   Irahr: G/NIBA  \a" +
+        "Ybpngrq Orgjrra  : YNXRIVYYR EQ/ZNEFUNYY EQ  \a" +
+        "Pbzzba Anzr. . . : RKVG 9 FO \a\a" +
+        "Pnyy Gvzr- 19:00:20                                Qngr- 12/10/2012  \a" +
+        "Qvfcngpu - 19:10:59     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBNI              Frpgvba :    1         Orng  . : NMBA        Znc . . :   S5  \a" +
+        "Tevq: O994              Dhnqenag: RNS5         Qvfgevpg: 3907 \a\a" +
+        "Cubar Ahzore: (585) 703-2473                Pnyy Fbhepr: P911 \a\a" +
+        "Pnyyre. . . : WBUA NYYRA \a\a" +
+        "Havgf frag  :  \a" +
+        " SQRNFGNIB   C277                 SQRNFGNIB   D278  \a" +
+        " SQRNFGNIB   E279                 RZFNIBA     2481  \a" +
+        " SQRNFGNIB   2701                 SQRNFGNIB   2702  \a" +
+        " RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : PNE - QRRE JVGU IRU QVFNOYRQ VA YNAR \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  QEVIRE UNF UNAQ VAW \a\a" +
+        "Nqqerff Purpxf \a\a" +
+        "Nqqvgvbany Vap#f:  \a" +
+        " RZFYVIBAV   201200001066             SQRNFGNIB   201200000215 \a\a" +
+        "Gur Pnyy Gnxre vf OVQQYR XVC R  \a" +
+        "Gur Qvfcngpure vf OVQQYR XVC R",
+
+        "VQ:2012-00000815",
+        "HAVG:RZFNIBA SQRNFGNIB C277 D278 E279 2481 2701 2702 RZFYVIBAV 2981",
+        "PNYY:29O1 R 29O1",
+        "CEV:4",
+        "NQQE:1304 TRARFRR RK FO",
+        "ZNQQE:1304 TRARFRR RKCL",
+        "PVGL:NIBA",
+        "K:YNXRIVYYR EQ/ZNEFUNYY EQ",
+        "CYNPR:RKVG 9 FO",
+        "GVZR:19:00:20",
+        "QNGR:12/10/2012",
+        "ZNC:3907/RNS5/1/FBNI",
+        "CUBAR:(585) 703-2473",
+        "ANZR:WBUA NYYRA",
+        "VASB:PNE - QRRE JVGU IRU QVFNOYRQ VA YNAR\aQEVIRE UNF UNAQ VAW\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a RZFYVIBAV   201200001066             SQRNFGNIB   201200000215");
+
+    qbGrfg("G14",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001065                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 12N1 R 12N1                 Cevbevgl: 3  \a" +
+        "Vapvqrag Ybpngvba: 71 PBZZREPVNY FG                                     Irahr: I/YVIBAVN \a\a" +
+        "Pnyy Gvzr- 14:10:29                                Qngr- 12/10/2012  \a" +
+        "Qvfcngpu - 14:10:53     Ra-ebhgr- 14:15:44     Ba-fprar- 14:17:39     Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 14:46:20 \a\a" +
+        "Nern: FBYV              Frpgvba :    1         Orng  . : PMBA  \a" +
+        "Tevq:                   Dhnqenag: YVI1         Qvfgevpg: YVIN \a\a" +
+        "Cubar Ahzore: (585) 346-6345                Pnyy Fbhepr: R911 \a\a" +
+        "Pnyyre. . . : TNVY QENCRE \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   Z74                  RZFYVIBAV   2961  \a" +
+        " RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : 62LBZ UNQ N FZNYY FRVMHER, UK BS OENVA FHET \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a" +
+        "       QFC: 12/10/12  14:10:53     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/10/12  14:13:00  \a" +
+        "    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/10/12  14:10:53     RAE: 12/10/12  14:15:44  \a" +
+        "       NEI: 12/10/12  14:17:39     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/10/12  14:46:20  \a" +
+        "    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a" +
+        "       QFC: 12/10/12  14:12:03     RAE: 12/10/12  14:15:44  \a" +
+        "       NEI: 12/10/12  14:17:39     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/10/12  14:46:20 \a\a" +
+        "Gur Pnyy Gnxre vf OVQQYR XVC R  \a" +
+        "Gur Qvfcngpure vf OVQQYR XVC R",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001065                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 12N1 R 12N1                 Cevbevgl: 3  \aVapvqrag Ybpngvba: 71 PBZZREPVNY FG                                     Irahr: I/YVIBAVN \a\aPnyy Gvzr- 14:10:29                                Qngr- 12/10/2012  \aQvfcngpu - 14:10:53     Ra-ebhgr- 14:15:44     Ba-fprar- 14:17:39     Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 14:46:20 \a\aNern: FBYV              Frpgvba :    1         Orng  . : PMBA  \aTevq:                   Dhnqenag: YVI1         Qvfgevpg: YVIN \a\aCubar Ahzore: (585) 346-6345                Pnyy Fbhepr: R911 \a\aPnyyre. . . : TNVY QENCRE \a\aHavgf frag  :  \a RZFYVIBAV   Z74                  RZFYVIBAV   2961  \a RZFYVIBAV   2981 \a\aAngher bs Pnyy : 62LBZ UNQ N FZNYY FRVMHER, UK BS OENVA FHET \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a       QFC: 12/10/12  14:10:53     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/10/12  14:13:00  \a    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/10/12  14:10:53     RAE: 12/10/12  14:15:44  \a       NEI: 12/10/12  14:17:39     QCG:             :  :  \a       DGE:             :  :       PYE: 12/10/12  14:46:20  \a    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a       QFC: 12/10/12  14:12:03     RAE: 12/10/12  14:15:44  \a       NEI: 12/10/12  14:17:39     QCG:             :  :  \a       DGE:             :  :       PYE: 12/10/12  14:46:20 \a\aGur Pnyy Gnxre vf OVQQYR XVC R  \aGur Qvfcngpure vf OVQQYR XVC R");
+
+    qbGrfg("G15",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001065                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 12N1 R 12N1                 Cevbevgl: 3  \a" +
+        "Vapvqrag Ybpngvba: 71 PBZZREPVNY FG                                     Irahr: I/YVIBAVN  \a" +
+        "Ybpngrq Orgjrra  : FPUBBY FG/F YVIBAVN GBJA YVAR \a\a" +
+        "Pnyy Gvzr- 14:10:29                                Qngr- 12/10/2012  \a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBYV              Frpgvba :    1         Orng  . : PMBA        Znc . . :  \a" +
+        "Tevq:                   Dhnqenag: YVI1         Qvfgevpg: YVIN \a\a" +
+        "Cubar Ahzore: (585) 346-6345                Pnyy Fbhepr: R911 \a\a" +
+        "Pnyyre. . . : TNVY QENCRE \a\a" +
+        "Angher bs Pnyy : 62LBZ UNQ N FZNYY FRVMHER, UK BS OENVA FHET \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf OVQQYR XVC R  \a" +
+        "Gur Qvfcngpure vf OVQQYR XVC R",
+
+        "VQ:2012-00001065",
+        "HAVG:RZFYVIBAV",
+        "PNYY:12N1 R 12N1",
+        "CEV:3",
+        "NQQE:71 PBZZREPVNY FG",
+        "PVGL:YVIBAVN",
+        "K:FPUBBY FG/F YVIBAVN GBJA YVAR",
+        "GVZR:14:10:29",
+        "QNGR:12/10/2012",
+        "ZNC:YVIN/YVI1/1/FBYV",
+        "CUBAR:(585) 346-6345",
+        "ANZR:TNVY QENCRE",
+        "VASB:62LBZ UNQ N FZNYY FRVMHER, UK BS OENVA FHET");
+
+    qbGrfg("G16",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001064                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . :  101 R FGNAQ OL             Cevbevgl: 4  \a" +
+        "Vapvqrag Ybpngvba: 5601 OVT GERR EQ                                     Irahr: G/YVIBAVN  \a" +
+        "Pbzzba Anzr. . . : ZVAARUNAF \a\a" +
+        "Pnyy Gvzr- 18:37:44                                Qngr- 12/09/2012  \a" +
+        "Qvfcngpu - 18:37:51     Ra-ebhgr- 18:45:00     Ba-fprar- 18:51:00     Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 20:07:04 \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA  \a" +
+        "Tevq: MBA1              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (585) 346-6167                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : TRARFRB NZOHYNAPR \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : YVIBAVN RZF GB FGNAOL NG ZVAARUNAF SBE TRARFR \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/09/12  18:37:51     RAE: 12/09/12  18:45:00  \a" +
+        "       NEI: 12/09/12  18:51:00     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/09/12  20:07:04 \a\a" +
+        "Gur Pnyy Gnxre vf OVQQYR XVC R  \a" +
+        "Gur Qvfcngpure vf OVQQYR XVC R",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001064                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . :  101 R FGNAQ OL             Cevbevgl: 4  \aVapvqrag Ybpngvba: 5601 OVT GERR EQ                                     Irahr: G/YVIBAVN  \aPbzzba Anzr. . . : ZVAARUNAF \a\aPnyy Gvzr- 18:37:44                                Qngr- 12/09/2012  \aQvfcngpu - 18:37:51     Ra-ebhgr- 18:45:00     Ba-fprar- 18:51:00     Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 20:07:04 \a\aNern: FBYV              Frpgvba :    2         Orng  . : NMBA  \aTevq: MBA1              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\aCubar Ahzore: (585) 346-6167                Pnyy Fbhepr:  ENQ \a\aPnyyre. . . : TRARFRB NZOHYNAPR \a\aHavgf frag  :  \a RZFYVIBAV   2981 \a\aAngher bs Pnyy : YVIBAVN RZF GB FGNAOL NG ZVAARUNAF SBE TRARFR \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/09/12  18:37:51     RAE: 12/09/12  18:45:00  \a       NEI: 12/09/12  18:51:00     QCG:             :  :  \a       DGE:             :  :       PYE: 12/09/12  20:07:04 \a\aGur Pnyy Gnxre vf OVQQYR XVC R  \aGur Qvfcngpure vf OVQQYR XVC R");
+
+    qbGrfg("G17",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001064                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . :  101 R FGNAQ OL             Cevbevgl: 4  \a" +
+        "Vapvqrag Ybpngvba: 5601 OVT GERR EQ                                     Irahr: G/YVIBAVN  \a" +
+        "Ybpngrq Orgjrra  : J YNXR EQ/CROOYR ORNPU EQ  \a" +
+        "Pbzzba Anzr. . . : ZVAARUNAF \a\a" +
+        "Pnyy Gvzr- 18:37:44                                Qngr- 12/09/2012  \a" +
+        "Qvfcngpu - 18:37:51     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA        Znc . . :   R8  \a" +
+        "Tevq: MBA1              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (585) 346-6167                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : TRARFRB NZOHYNAPR \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : YVIBAVN RZF GB FGNAOL NG ZVAARUNAF SBE TRARFR \a\a" +
+        "Nqqerff Purpxf \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf OVQQYR XVC R  \a" +
+        "Gur Qvfcngpure vf OVQQYR XVC R",
+
+        "VQ:2012-00001064",
+        "HAVG:RZFYVIBAV 2981",
+        "PNYY:101 R FGNAQ OL",
+        "CEV:4",
+        "NQQE:5601 OVT GERR EQ",
+        "PVGL:YVIBAVN",
+        "K:J YNXR EQ/CROOYR ORNPU EQ",
+        "CYNPR:ZVAARUNAF",
+        "GVZR:18:37:44",
+        "QNGR:12/09/2012",
+        "ZNC:YVIY/YNX1/2/FBYV",
+        "CUBAR:(585) 346-6167",
+        "ANZR:TRARFRB NZOHYNAPR",
+        "VASB:YVIBAVN RZF GB FGNAOL NG ZVAARUNAF SBE TRARFR");
+
+    qbGrfg("G18",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001063                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 29Q4 R 29Q4                 Cevbevgl: 2  \a" +
+        "Vapvqrag Ybpngvba: 6156 CNEGEVQTR PBEAREF EQ                            Irahr: G/PBARFHF \a\a" +
+        "Pnyy Gvzr- 15:26:25                                Qngr- 12/09/2012  \a" +
+        "Qvfcngpu - 15:26:47     Ra-ebhgr- 15:34:16     Ba-fprar- 15:36:38     Qrcneg 1- 16:05:12  \a" +
+        "Neevir 2 - 16:26:02     Qrcneg 2- 17:07:41     Va-fgnga-              Pyrnerq - 17:44:00 \a\a" +
+        "Nern: FBPB              Frpgvba :    1         Orng  . : PMBA  \a" +
+        "Tevq:                   Dhnqenag: PBA1         Qvfgevpg: YVIP \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY \a\a" +
+        "Pnyyre. . . : EVPUNEQ PBEEVTNA \a\a" +
+        "Havgf frag  :  \a" +
+        " SQPBARFHF   Z342                 RZFYVIBAV   Z74  \a" +
+        " SQPBARFHF   C345                 SQPBARFHF   E349  \a" +
+        " RZFYVIBAV   2961                 RZFYVIBAV   2981  \a" +
+        " SQPBARFHF   3403 \a\a" +
+        "Angher bs Pnyy : VAGB N GERR \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/09/12  15:26:47     RAE: 12/09/12  15:34:16  \a" +
+        "       NEI: 12/09/12  15:58:03     QCG: 12/09/12  16:05:12  \a" +
+        "       NE2: 12/09/12  16:26:02     QC2: 12/09/12  17:07:41  \a" +
+        "       DGE:             :  :       PYE: 12/09/12  17:44:00  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a" +
+        "       QFC: 12/09/12  15:36:01     RAE: 12/09/12  15:36:01  \a" +
+        "       NEI: 12/09/12  15:36:38     QCG: 12/09/12  16:05:12  \a" +
+        "       NE2: 12/09/12  16:26:02     QC2: 12/09/12  17:07:41  \a" +
+        "       DGE:             :  :       PYE: 12/09/12  17:44:00  \a" +
+        "    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a" +
+        "       QFC: 12/09/12  15:36:08     RAE: 12/09/12  15:36:08  \a" +
+        "       NEI: 12/09/12  15:42:39     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/09/12  16:10:21  \a" +
+        "    Havg: C345    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/09/12  15:26:47     RAE: 12/09/12  15:37:05  \a" +
+        "       NEI: 12/09/12  15:58:12     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/09/12  16:57:02  \a" +
+        "    Havg: E349    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/09/12  15:26:47     RAE: 12/09/12  15:37:01  \a" +
+        "       NEI: 12/09/12  15:58:12     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/09/12  16:57:02  \a" +
+        "    Havg: Z342    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/09/12  15:38:05     RAE: 12/09/12  15:38:05  \a" +
+        "       NEI: 12/09/12  15:58:12     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/09/12  16:57:02  \a" +
+        "    Havg: 3403    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC:             :  :       RAE:             :  :  \a" +
+        "       NEI: 12/09/12  15:39:10     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/09/12  16:57:02 \a\a" +
+        "Gur Pnyy Gnxre vf ZBEEVF JRAQL Y  \a" +
+        "Gur Qvfcngpure vf ZBEEVF JRAQL Y",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001063                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 29Q4 R 29Q4                 Cevbevgl: 2  \aVapvqrag Ybpngvba: 6156 CNEGEVQTR PBEAREF EQ                            Irahr: G/PBARFHF \a\aPnyy Gvzr- 15:26:25                                Qngr- 12/09/2012  \aQvfcngpu - 15:26:47     Ra-ebhgr- 15:34:16     Ba-fprar- 15:36:38     Qrcneg 1- 16:05:12  \aNeevir 2 - 16:26:02     Qrcneg 2- 17:07:41     Va-fgnga-              Pyrnerq - 17:44:00 \a\aNern: FBPB              Frpgvba :    1         Orng  . : PMBA  \aTevq:                   Dhnqenag: PBA1         Qvfgevpg: YVIP \a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY \a\aPnyyre. . . : EVPUNEQ PBEEVTNA \a\aHavgf frag  :  \a SQPBARFHF   Z342                 RZFYVIBAV   Z74  \a SQPBARFHF   C345                 SQPBARFHF   E349  \a RZFYVIBAV   2961                 RZFYVIBAV   2981  \a SQPBARFHF   3403 \a\aAngher bs Pnyy : VAGB N GERR \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/09/12  15:26:47     RAE: 12/09/12  15:34:16  \a       NEI: 12/09/12  15:58:03     QCG: 12/09/12  16:05:12  \a       NE2: 12/09/12  16:26:02     QC2: 12/09/12  17:07:41  \a       DGE:             :  :       PYE: 12/09/12  17:44:00  \a    Havg: Z74     Enqvb:           Bspe 1:   FCNEXFE  Bspe 2:  \a       QFC: 12/09/12  15:36:01     RAE: 12/09/12  15:36:01  \a       NEI: 12/09/12  15:36:38     QCG: 12/09/12  16:05:12  \a       NE2: 12/09/12  16:26:02     QC2: 12/09/12  17:07:41  \a       DGE:             :  :       PYE: 12/09/12  17:44:00  \a    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a       QFC: 12/09/12  15:36:08     RAE: 12/09/12  15:36:08  \a       NEI: 12/09/12  15:42:39     QCG:             :  :  \a       DGE:             :  :       PYE: 12/09/12  16:10:21  \a    Havg: C345    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/09/12  15:26:47     RAE: 12/09/12  15:37:05  \a       NEI: 12/09/12  15:58:12     QCG:             :  :  \a       DGE:             :  :       PYE: 12/09/12  16:57:02  \a    Havg: E349    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/09/12  15:26:47     RAE: 12/09/12  15:37:01  \a       NEI: 12/09/12  15:58:12     QCG:             :  :  \a       DGE:             :  :       PYE: 12/09/12  16:57:02  \a    Havg: Z342    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/09/12  15:38:05     RAE: 12/09/12  15:38:05  \a       NEI: 12/09/12  15:58:12     QCG:             :  :  \a       DGE:             :  :       PYE: 12/09/12  16:57:02  \a    Havg: 3403    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC:             :  :       RAE:             :  :  \a       NEI: 12/09/12  15:39:10     QCG:             :  :  \a       DGE:             :  :       PYE: 12/09/12  16:57:02 \a\aGur Pnyy Gnxre vf ZBEEVF JRAQL Y  \aGur Qvfcngpure vf ZBEEVF JRAQL Y");
+
+    qbGrfg("G19",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001063                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 29O3 R 29O3                 Cevbevgl: 4  \a" +
+        "Vapvqrag Ybpngvba: 6156 CNEGEVQTR PBEAREF EQ                            Irahr: G/PBARFHF  \a" +
+        "Ybpngrq Orgjrra  : ZVQQYR EQ/QHTJNL EQ \a\a" +
+        "Pnyy Gvzr- 15:26:25                                Qngr- 12/09/2012  \a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBPB              Frpgvba :    1         Orng  . : PMBA        Znc . . :   U9  \a" +
+        "Tevq:                   Dhnqenag: PBA1         Qvfgevpg: YVIP \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY \a\a" +
+        "Pnyyre. . . : EVPUNEQ PBEEVTNA \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : VAGB N GERR \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf ZBEEVF JRAQL Y  \a" +
+        "Gur Qvfcngpure vf ZBEEVF JRAQL Y",
+
+        "VQ:2012-00001063",
+        "HAVG:RZFYVIBAV 2981",
+        "PNYY:29O3 R 29O3",
+        "CEV:4",
+        "NQQE:6156 CNEGEVQTR PBEAREF EQ",
+        "PVGL:PBARFHF",
+        "K:ZVQQYR EQ/QHTJNL EQ",
+        "GVZR:15:26:25",
+        "QNGR:12/09/2012",
+        "ZNC:YVIP/PBA1/1/FBPB",
+        "ANZR:EVPUNEQ PBEEVTNA",
+        "VASB:VAGB N GERR");
+
+    qbGrfg("G20",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00000189                    BEV: SQYVIBAVN     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 29Q2 R 29Q2                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: FGBAR UVYY EQ                                        Irahr: G/YVIBAVN  \a" +
+        "  Pebff Fgerrg . : OEBAFBA UVYY EQ \a\a" +
+        "Pnyy Gvzr- 00:26:40                                Qngr- 12/08/2012  \a" +
+        "Qvfcngpu - 00:27:13     Ra-ebhgr- 00:29:55     Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 00:36:37 \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA  \a" +
+        "Tevq: MBA2              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : 130 \a\a" +
+        "Angher bs Pnyy : OEBAFBA UVYY EQ \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z78     Enqvb:           Bspe 1:   UNAFUNJ  Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:28:29     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:28:32  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:31:49  \a" +
+        "    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE: 12/08/12  00:37:17  \a" +
+        "       NEI: 12/08/12  00:40:27     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:48:57  \a" +
+        "    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:59     RAE: 12/08/12  00:31:43  \a" +
+        "       NEI: 12/08/12  00:33:28     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:43:36  \a" +
+        "    Havg: C264    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:37:06  \a" +
+        "    Havg: C214    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:37:10  \a" +
+        "    Havg: E219    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:37:19  \a" +
+        "    Havg: 21      Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:30:02     RAE: 12/08/12  00:30:02  \a" +
+        "       NEI: 12/08/12  00:34:46     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:53:34  \a" +
+        "    Havg: C215    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:30:53     RAE: 12/08/12  00:30:53  \a" +
+        "       NEI: 12/08/12  00:32:06     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:57:29  \a" +
+        "    Havg: 2102    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:31:11     RAE: 12/08/12  00:31:11  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:53:34  \a" +
+        "    Havg: C254    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:36:37  \a" +
+        "    Havg: 2502    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:29:55     RAE: 12/08/12  00:29:55  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:36:33  \a" +
+        "    Havg: ZSP1    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC:             :  :       RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:33:01 \a\a" +
+        "Gur Pnyy Gnxre vf PNEEBYY YBAAV  \a" +
+        "Gur Qvfcngpure vf JBBQ OEVNA E",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:SQYVIBAVN",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00000189                    BEV: SQYVIBAVN     Fgngvba:  \aVapvqrag Glcr  . : 29Q2 R 29Q2                 Cevbevgl: 1  \aVapvqrag Ybpngvba: FGBAR UVYY EQ                                        Irahr: G/YVIBAVN  \a  Pebff Fgerrg . : OEBAFBA UVYY EQ \a\aPnyy Gvzr- 00:26:40                                Qngr- 12/08/2012  \aQvfcngpu - 00:27:13     Ra-ebhgr- 00:29:55     Ba-fprar-              Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 00:36:37 \a\aNern: FBYV              Frpgvba :    2         Orng  . : NMBA  \aTevq: MBA2              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\aPnyyre. . . : 130 \a\aAngher bs Pnyy : OEBAFBA UVYY EQ \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z78     Enqvb:           Bspe 1:   UNAFUNJ  Bspe 2:  \a       QFC: 12/08/12  00:28:29     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:28:32  \a    Havg: Z74     Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:31:49  \a    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE: 12/08/12  00:37:17  \a       NEI: 12/08/12  00:40:27     QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:48:57  \a    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a       QFC: 12/08/12  00:27:59     RAE: 12/08/12  00:31:43  \a       NEI: 12/08/12  00:33:28     QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:43:36  \a    Havg: C264    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:37:06  \a    Havg: C214    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:37:10  \a    Havg: E219    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:37:19  \a    Havg: 21      Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:30:02     RAE: 12/08/12  00:30:02  \a       NEI: 12/08/12  00:34:46     QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:53:34  \a    Havg: C215    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:30:53     RAE: 12/08/12  00:30:53  \a       NEI: 12/08/12  00:32:06     QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:57:29  \a    Havg: 2102    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:31:11     RAE: 12/08/12  00:31:11  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:53:34  \a    Havg: C254    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:36:37  \a    Havg: 2502    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:29:55     RAE: 12/08/12  00:29:55  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:36:33  \a    Havg: ZSP1    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC:             :  :       RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:33:01 \a\aGur Pnyy Gnxre vf PNEEBYY YBAAV  \aGur Qvfcngpure vf JBBQ OEVNA E");
+
+    qbGrfg("G21",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00000189                    BEV: SQYVIBAVN     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 29Q2 R 29Q2                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: FGBAR UVYY EQ                                        Irahr: G/YVIBAVN  \a" +
+        "  Pebff Fgerrg . : OEBAFBA UVYY EQ \a\a" +
+        "Pnyy Gvzr- 00:26:40                                Qngr- 12/08/2012  \a" +
+        "Qvfcngpu - 00:27:13     Ra-ebhgr- 00:29:55     Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 00:36:37 \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA  \a" +
+        "Tevq: MBA2              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : 130 \a\a" +
+        "Angher bs Pnyy : OEBAFBA UVYY EQ \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z78     Enqvb:           Bspe 1:   UNAFUNJ  Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:28:29     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:28:32  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:31:49  \a" +
+        "    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE: 12/08/12  00:37:17  \a" +
+        "       NEI: 12/08/12  00:40:27     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:48:57  \a" +
+        "    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:59     RAE: 12/08/12  00:31:43  \a" +
+        "       NEI: 12/08/12  00:33:28     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:43:36  \a" +
+        "    Havg: C264    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:37:06  \a" +
+        "    Havg: C214    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:37:10  \a" +
+        "    Havg: E219    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:37:19  \a" +
+        "    Havg: 21      Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:30:02     RAE: 12/08/12  00:30:02  \a" +
+        "       NEI: 12/08/12  00:34:46     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:53:34  \a" +
+        "    Havg: C215    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:30:53     RAE: 12/08/12  00:30:53  \a" +
+        "       NEI: 12/08/12  00:32:06     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:57:29  \a" +
+        "    Havg: 2102    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:31:11     RAE: 12/08/12  00:31:11  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:53:34  \a" +
+        "    Havg: C254    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:36:37  \a" +
+        "    Havg: 2502    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:29:55     RAE: 12/08/12  00:29:55  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:36:33  \a" +
+        "    Havg: ZSP1    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC:             :  :       RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:33:01 \a\a" +
+        "Gur Pnyy Gnxre vf PNEEBYY YBAAV  \a" +
+        "Gur Qvfcngpure vf JBBQ OEVNA E",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:SQYVIBAVN",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00000189                    BEV: SQYVIBAVN     Fgngvba:  \aVapvqrag Glcr  . : 29Q2 R 29Q2                 Cevbevgl: 1  \aVapvqrag Ybpngvba: FGBAR UVYY EQ                                        Irahr: G/YVIBAVN  \a  Pebff Fgerrg . : OEBAFBA UVYY EQ \a\aPnyy Gvzr- 00:26:40                                Qngr- 12/08/2012  \aQvfcngpu - 00:27:13     Ra-ebhgr- 00:29:55     Ba-fprar-              Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 00:36:37 \a\aNern: FBYV              Frpgvba :    2         Orng  . : NMBA  \aTevq: MBA2              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\aPnyyre. . . : 130 \a\aAngher bs Pnyy : OEBAFBA UVYY EQ \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z78     Enqvb:           Bspe 1:   UNAFUNJ  Bspe 2:  \a       QFC: 12/08/12  00:28:29     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:28:32  \a    Havg: Z74     Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:31:49  \a    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE: 12/08/12  00:37:17  \a       NEI: 12/08/12  00:40:27     QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:48:57  \a    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a       QFC: 12/08/12  00:27:59     RAE: 12/08/12  00:31:43  \a       NEI: 12/08/12  00:33:28     QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:43:36  \a    Havg: C264    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:37:06  \a    Havg: C214    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:37:10  \a    Havg: E219    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:37:19  \a    Havg: 21      Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:30:02     RAE: 12/08/12  00:30:02  \a       NEI: 12/08/12  00:34:46     QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:53:34  \a    Havg: C215    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:30:53     RAE: 12/08/12  00:30:53  \a       NEI: 12/08/12  00:32:06     QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:57:29  \a    Havg: 2102    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:31:11     RAE: 12/08/12  00:31:11  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:53:34  \a    Havg: C254    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:36:37  \a    Havg: 2502    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:29:55     RAE: 12/08/12  00:29:55  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:36:33  \a    Havg: ZSP1    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC:             :  :       RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:33:01 \a\aGur Pnyy Gnxre vf PNEEBYY YBAAV  \aGur Qvfcngpure vf JBBQ OEVNA E");
+
+    qbGrfg("G22",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001062                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 29Q2 R 29Q2                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: FGBAR UVYY EQ                                        Irahr: G/YVIBAVN  \a" +
+        "  Pebff Fgerrg . : OEBAFBA UVYY EQ \a\a" +
+        "Pnyy Gvzr- 00:26:40                                Qngr- 12/08/2012  \a" +
+        "Qvfcngpu - 00:27:13     Ra-ebhgr- 00:31:43     Ba-fprar- 00:33:28     Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 01:48:57 \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA  \a" +
+        "Tevq: MBA2              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : 130 \a\a" +
+        "Havgf frag  :  \a" +
+        " ZSPRAGENY   ZSP1                 RZFYVIBAV   Z74  \a" +
+        " NYFYVIPB    Z78                  SQYNXRIVY   C214  \a" +
+        " SQYNXRIVY   C215                 SQYVIBAVN   C254  \a" +
+        " SQURZYBPX   C264                 SQYNXRIVY   E219  \a" +
+        " SQYNXRIVY   21                   SQYNXRIVY   2102  \a" +
+        " SQYVIBAVN   2502                 RZFYVIBAV   2961  \a" +
+        " RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : OEBAFBA UVYY EQ \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z78     Enqvb:           Bspe 1:   UNAFUNJ  Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:28:29     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:28:32  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:31:49  \a" +
+        "    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE: 12/08/12  00:37:17  \a" +
+        "       NEI: 12/08/12  00:40:27     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:48:57  \a" +
+        "    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:59     RAE: 12/08/12  00:31:43  \a" +
+        "       NEI: 12/08/12  00:33:28     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:43:36  \a" +
+        "    Havg: C264    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:37:06  \a" +
+        "    Havg: C214    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:37:10  \a" +
+        "    Havg: E219    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:37:19  \a" +
+        "    Havg: 21      Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:30:02     RAE: 12/08/12  00:30:02  \a" +
+        "       NEI: 12/08/12  00:34:46     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:53:34  \a" +
+        "    Havg: C215    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:30:53     RAE: 12/08/12  00:30:53  \a" +
+        "       NEI: 12/08/12  00:32:06     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:57:29  \a" +
+        "    Havg: 2102    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:31:11     RAE: 12/08/12  00:31:11  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  01:53:34  \a" +
+        "    Havg: C254    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:27:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:36:37  \a" +
+        "    Havg: 2502    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/08/12  00:29:55     RAE: 12/08/12  00:29:55  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:36:33  \a" +
+        "    Havg: ZSP1    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC:             :  :       RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/08/12  00:33:01 \a\a" +
+        "Gur Pnyy Gnxre vf PNEEBYY YBAAV  \a" +
+        "Gur Qvfcngpure vf JBBQ OEVNA E",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001062                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 29Q2 R 29Q2                 Cevbevgl: 1  \aVapvqrag Ybpngvba: FGBAR UVYY EQ                                        Irahr: G/YVIBAVN  \a  Pebff Fgerrg . : OEBAFBA UVYY EQ \a\aPnyy Gvzr- 00:26:40                                Qngr- 12/08/2012  \aQvfcngpu - 00:27:13     Ra-ebhgr- 00:31:43     Ba-fprar- 00:33:28     Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 01:48:57 \a\aNern: FBYV              Frpgvba :    2         Orng  . : NMBA  \aTevq: MBA2              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\aPnyyre. . . : 130 \a\aHavgf frag  :  \a ZSPRAGENY   ZSP1                 RZFYVIBAV   Z74  \a NYFYVIPB    Z78                  SQYNXRIVY   C214  \a SQYNXRIVY   C215                 SQYVIBAVN   C254  \a SQURZYBPX   C264                 SQYNXRIVY   E219  \a SQYNXRIVY   21                   SQYNXRIVY   2102  \a SQYVIBAVN   2502                 RZFYVIBAV   2961  \a RZFYVIBAV   2981 \a\aAngher bs Pnyy : OEBAFBA UVYY EQ \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z78     Enqvb:           Bspe 1:   UNAFUNJ  Bspe 2:  \a       QFC: 12/08/12  00:28:29     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:28:32  \a    Havg: Z74     Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:31:49  \a    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE: 12/08/12  00:37:17  \a       NEI: 12/08/12  00:40:27     QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:48:57  \a    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a       QFC: 12/08/12  00:27:59     RAE: 12/08/12  00:31:43  \a       NEI: 12/08/12  00:33:28     QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:43:36  \a    Havg: C264    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:37:06  \a    Havg: C214    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:37:10  \a    Havg: E219    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:37:19  \a    Havg: 21      Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:30:02     RAE: 12/08/12  00:30:02  \a       NEI: 12/08/12  00:34:46     QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:53:34  \a    Havg: C215    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:30:53     RAE: 12/08/12  00:30:53  \a       NEI: 12/08/12  00:32:06     QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:57:29  \a    Havg: 2102    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:31:11     RAE: 12/08/12  00:31:11  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  01:53:34  \a    Havg: C254    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:27:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:36:37  \a    Havg: 2502    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/08/12  00:29:55     RAE: 12/08/12  00:29:55  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:36:33  \a    Havg: ZSP1    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC:             :  :       RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/08/12  00:33:01 \a\aGur Pnyy Gnxre vf PNEEBYY YBAAV  \aGur Qvfcngpure vf JBBQ OEVNA E");
+
+    qbGrfg("G23",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001062                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 29Q2 R 29Q2                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: FGBAR UVYY EQ                                        Irahr: G/YVIBAVN  \a" +
+        "  Pebff Fgerrg . : OEBAFBA UVYY EQ \a\a" +
+        "Pnyy Gvzr- 00:26:40                                Qngr- 12/08/2012  \a" +
+        "Qvfcngpu - 00:27:13     Ra-ebhgr- 00:29:55     Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA        Znc . . :   R8  \a" +
+        "Tevq: MBA2              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : 130 \a\a" +
+        "Havgf frag  :  \a" +
+        " ZSPRAGENY   ZSP1                 RZFYVIBAV   Z74  \a" +
+        " NYFYVIPB    Z78                  SQYNXRIVY   C214  \a" +
+        " SQYVIBAVN   C254                 SQURZYBPX   C264  \a" +
+        " SQYNXRIVY   E219                 SQYVIBAVN   2502  \a" +
+        " RZFYVIBAV   2961                 RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : OEBAFBA UVYY EQ \a\a" +
+        "Nqqvgvbany Vap#f:  \a" +
+        " NYFYVIPB    201200002849             SQURZYBPX   201200000098  \a" +
+        " SQYNXRIVY   201200000189             SQYVIBAVN   201200000189  \a" +
+        " ZSPRAGENY   201200000041 \a\a" +
+        "Gur Pnyy Gnxre vf PNEEBYY YBAAV  \a" +
+        "Gur Qvfcngpure vf JBBQ OEVNA E",
+
+        "VQ:2012-00001062",
+        "HAVG:RZFYVIBAV ZSPRAGENY ZSP1 Z74 NYFYVIPB Z78 SQYNXRIVY C214 SQYVIBAVN C254 SQURZYBPX C264 E219 2502 2961 2981",
+        "PNYY:29Q2 R 29Q2",
+        "CEV:1",
+        "NQQE:FGBAR UVYY EQ",
+        "ZNQQE:FGBAR UVYY EQ & OEBAFBA UVYY EQ",
+        "PVGL:YVIBAVN",
+        "K:OEBAFBA UVYY EQ",
+        "GVZR:00:26:40",
+        "QNGR:12/08/2012",
+        "ZNC:YVIY/YNX1/2/FBYV",
+        "ANZR:130",
+        "VASB:OEBAFBA UVYY EQ");
+
+    qbGrfg("G24",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001062                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 29Q2 R 29Q2                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: FGBAR UVYY EQ                                        Irahr: G/YVIBAVN  \a" +
+        "  Pebff Fgerrg . : OEBAFBA UVYY EQ \a\a" +
+        "Pnyy Gvzr- 00:26:40                                Qngr- 12/08/2012  \a" +
+        "Qvfcngpu - 00:27:13     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA        Znc . . :   R8  \a" +
+        "Tevq: MBA2              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : 130 \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   Z74                  SQYNXRIVY   C214  \a" +
+        " SQYVIBAVN   C254                 SQURZYBPX   C264  \a" +
+        " SQYNXRIVY   E219                 RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : OEBAFBA UVYY EQ \a\a" +
+        "Nqqvgvbany Vap#f:  \a" +
+        " SQURZYBPX   201200000098             SQYNXRIVY   201200000189  \a" +
+        " SQYVIBAVN   201200000189 \a\a" +
+        "Gur Pnyy Gnxre vf PNEEBYY YBAAV  \a" +
+        "Gur Qvfcngpure vf JBBQ OEVNA E",
+
+        "VQ:2012-00001062",
+        "HAVG:RZFYVIBAV Z74 SQYNXRIVY C214 SQYVIBAVN C254 SQURZYBPX C264 E219 2981",
+        "PNYY:29Q2 R 29Q2",
+        "CEV:1",
+        "NQQE:FGBAR UVYY EQ",
+        "ZNQQE:FGBAR UVYY EQ & OEBAFBA UVYY EQ",
+        "PVGL:YVIBAVN",
+        "K:OEBAFBA UVYY EQ",
+        "GVZR:00:26:40",
+        "QNGR:12/08/2012",
+        "ZNC:YVIY/YNX1/2/FBYV",
+        "ANZR:130",
+        "VASB:OEBAFBA UVYY EQ");
+
+    qbGrfg("G25",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001062                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 29Q2 R 29Q2                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: FGBAR UVYY EQ                                        Irahr: G/YVIBAVN  \a" +
+        "  Pebff Fgerrg . : OEBAFBA UVYY EQ \a\a" +
+        "Pnyy Gvzr- 00:26:40                                Qngr- 12/08/2012  \a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA        Znc . . :   R8  \a" +
+        "Tevq: MBA2              Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : 130 \a\a" +
+        "Angher bs Pnyy : OEBAFBA UVYY EQ \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf PNEEBYY YBAAV  \a" +
+        "Gur Qvfcngpure vf JBBQ OEVNA E",
+
+        "VQ:2012-00001062",
+        "HAVG:RZFYVIBAV",
+        "PNYY:29Q2 R 29Q2",
+        "CEV:1",
+        "NQQE:FGBAR UVYY EQ",
+        "ZNQQE:FGBAR UVYY EQ & OEBAFBA UVYY EQ",
+        "PVGL:YVIBAVN",
+        "K:OEBAFBA UVYY EQ",
+        "GVZR:00:26:40",
+        "QNGR:12/08/2012",
+        "ZNC:YVIY/YNX1/2/FBYV",
+        "ANZR:130",
+        "VASB:OEBAFBA UVYY EQ");
+
+    qbGrfg("G26",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001061                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 28P3 R 28P3                 Cevbevgl: 2  \a" +
+        "Vapvqrag Ybpngvba: 6510 SYBERAPR YA                                     Irahr: G/YVIBAVN \a\a" +
+        "Pnyy Gvzr- 12:35:10                                Qngr- 12/07/2012  \a" +
+        "Qvfcngpu - 12:36:52     Ra-ebhgr- 12:40:43     Ba-fprar- 12:43:58     Qrcneg 1- 12:54:24  \a" +
+        "Neevir 2 - 13:25:50     Qrcneg 2- 14:10:53     Va-fgnga-              Pyrnerq - 14:46:14 \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA  \a" +
+        "Tevq:                   Dhnqenag: YVG1         Qvfgevpg: YVIN \a\a" +
+        "Cubar Ahzore: (585) 346-2441                Pnyy Fbhepr: R911 \a\a" +
+        "Pnyyre. . . : YNEEL JUVGVAT \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFNIBA     Z70                  RZFYVIBAV   Z74  \a" +
+        " SQYVIBAVN   2501                 SQYVIBAVN   2502  \a" +
+        " RZFYVIBAV   2983 \a\a" +
+        "Angher bs Pnyy : GEBHOYR FCRNXVAT 71 LB \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  IBVC: \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z70     Enqvb:           Bspe 1:      ENPR  Bspe 2:  \a" +
+        "       QFC: 12/07/12  12:36:52     RAE: 12/07/12  12:37:19  \a" +
+        "       NEI: 12/07/12  12:50:04     QCG: 12/07/12  12:54:24  \a" +
+        "       NE2: 12/07/12  13:25:50     QC2: 12/07/12  14:10:53  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  14:41:55  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/07/12  12:36:52     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  12:41:49  \a" +
+        "    Havg: 2983    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/07/12  12:36:52     RAE: 12/07/12  12:40:43  \a" +
+        "       NEI: 12/07/12  12:43:58     QCG: 12/07/12  12:54:24  \a" +
+        "       NE2: 12/07/12  13:25:50     QC2: 12/07/12  14:10:53  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  14:46:14  \a" +
+        "    Havg: 2501    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC:             :  :       RAE:             :  :  \a" +
+        "       NEI: 12/07/12  12:39:50     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  13:07:07  \a" +
+        "    Havg: 2502    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC:             :  :       RAE:             :  :  \a" +
+        "       NEI: 12/07/12  12:41:44     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  13:07:07 \a\a" +
+        "Gur Pnyy Gnxre vf ZBEEVF JRAQL Y  \a" +
+        "Gur Qvfcngpure vf ZBEEVF JRAQL Y",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001061                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 28P3 R 28P3                 Cevbevgl: 2  \aVapvqrag Ybpngvba: 6510 SYBERAPR YA                                     Irahr: G/YVIBAVN \a\aPnyy Gvzr- 12:35:10                                Qngr- 12/07/2012  \aQvfcngpu - 12:36:52     Ra-ebhgr- 12:40:43     Ba-fprar- 12:43:58     Qrcneg 1- 12:54:24  \aNeevir 2 - 13:25:50     Qrcneg 2- 14:10:53     Va-fgnga-              Pyrnerq - 14:46:14 \a\aNern: FBYV              Frpgvba :    2         Orng  . : NMBA  \aTevq:                   Dhnqenag: YVG1         Qvfgevpg: YVIN \a\aCubar Ahzore: (585) 346-2441                Pnyy Fbhepr: R911 \a\aPnyyre. . . : YNEEL JUVGVAT \a\aHavgf frag  :  \a RZFNIBA     Z70                  RZFYVIBAV   Z74  \a SQYVIBAVN   2501                 SQYVIBAVN   2502  \a RZFYVIBAV   2983 \a\aAngher bs Pnyy : GEBHOYR FCRNXVAT 71 LB \a\aNqqvgvbany Vasb  \a  IBVC: \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z70     Enqvb:           Bspe 1:      ENPR  Bspe 2:  \a       QFC: 12/07/12  12:36:52     RAE: 12/07/12  12:37:19  \a       NEI: 12/07/12  12:50:04     QCG: 12/07/12  12:54:24  \a       NE2: 12/07/12  13:25:50     QC2: 12/07/12  14:10:53  \a       DGE:             :  :       PYE: 12/07/12  14:41:55  \a    Havg: Z74     Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/07/12  12:36:52     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/07/12  12:41:49  \a    Havg: 2983    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/07/12  12:36:52     RAE: 12/07/12  12:40:43  \a       NEI: 12/07/12  12:43:58     QCG: 12/07/12  12:54:24  \a       NE2: 12/07/12  13:25:50     QC2: 12/07/12  14:10:53  \a       DGE:             :  :       PYE: 12/07/12  14:46:14  \a    Havg: 2501    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC:             :  :       RAE:             :  :  \a       NEI: 12/07/12  12:39:50     QCG:             :  :  \a       DGE:             :  :       PYE: 12/07/12  13:07:07  \a    Havg: 2502    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC:             :  :       RAE:             :  :  \a       NEI: 12/07/12  12:41:44     QCG:             :  :  \a       DGE:             :  :       PYE: 12/07/12  13:07:07 \a\aGur Pnyy Gnxre vf ZBEEVF JRAQL Y  \aGur Qvfcngpure vf ZBEEVF JRAQL Y");
+
+    qbGrfg("G27",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00000188                    BEV: SQYVIBAVN     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 28P3 R 28P3                 Cevbevgl: 2  \a" +
+        "Vapvqrag Ybpngvba: 6510 SYBERAPR YA                                     Irahr: G/YVIBAVN \a\a" +
+        "Pnyy Gvzr- 12:35:10                                Qngr- 12/07/2012  \a" +
+        "Qvfcngpu - 12:39:50     Ra-ebhgr-              Ba-fprar- 12:39:50     Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 13:07:07 \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA  \a" +
+        "Tevq:                   Dhnqenag: YVG1         Qvfgevpg: YVIN \a\a" +
+        "Cubar Ahzore: (585) 346-2441                Pnyy Fbhepr: R911 \a\a" +
+        "Pnyyre. . . : YNEEL JUVGVAT \a\a" +
+        "Angher bs Pnyy : GEBHOYR FCRNXVAT 71 LB \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  IBVC: \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z70     Enqvb:           Bspe 1:      ENPR  Bspe 2:  \a" +
+        "       QFC: 12/07/12  12:36:52     RAE: 12/07/12  12:37:19  \a" +
+        "       NEI: 12/07/12  12:50:04     QCG: 12/07/12  12:54:24  \a" +
+        "       NE2: 12/07/12  13:25:50     QC2: 12/07/12  14:10:53  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  14:41:55  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/07/12  12:36:52     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  12:41:49  \a" +
+        "    Havg: 2983    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/07/12  12:36:52     RAE: 12/07/12  12:40:43  \a" +
+        "       NEI: 12/07/12  12:43:58     QCG: 12/07/12  12:54:24  \a" +
+        "       NE2: 12/07/12  13:25:50     QC2: 12/07/12  14:10:53  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  14:46:14  \a" +
+        "    Havg: 2501    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC:             :  :       RAE:             :  :  \a" +
+        "       NEI: 12/07/12  12:39:50     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  13:07:07  \a" +
+        "    Havg: 2502    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC:             :  :       RAE:             :  :  \a" +
+        "       NEI: 12/07/12  12:41:44     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  13:07:07 \a\a" +
+        "Gur Pnyy Gnxre vf ZBEEVF JRAQL Y  \a" +
+        "Gur Qvfcngpure vf ZBEEVF JRAQL Y",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:SQYVIBAVN",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00000188                    BEV: SQYVIBAVN     Fgngvba:  \aVapvqrag Glcr  . : 28P3 R 28P3                 Cevbevgl: 2  \aVapvqrag Ybpngvba: 6510 SYBERAPR YA                                     Irahr: G/YVIBAVN \a\aPnyy Gvzr- 12:35:10                                Qngr- 12/07/2012  \aQvfcngpu - 12:39:50     Ra-ebhgr-              Ba-fprar- 12:39:50     Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 13:07:07 \a\aNern: FBYV              Frpgvba :    2         Orng  . : NMBA  \aTevq:                   Dhnqenag: YVG1         Qvfgevpg: YVIN \a\aCubar Ahzore: (585) 346-2441                Pnyy Fbhepr: R911 \a\aPnyyre. . . : YNEEL JUVGVAT \a\aAngher bs Pnyy : GEBHOYR FCRNXVAT 71 LB \a\aNqqvgvbany Vasb  \a  IBVC: \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z70     Enqvb:           Bspe 1:      ENPR  Bspe 2:  \a       QFC: 12/07/12  12:36:52     RAE: 12/07/12  12:37:19  \a       NEI: 12/07/12  12:50:04     QCG: 12/07/12  12:54:24  \a       NE2: 12/07/12  13:25:50     QC2: 12/07/12  14:10:53  \a       DGE:             :  :       PYE: 12/07/12  14:41:55  \a    Havg: Z74     Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/07/12  12:36:52     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/07/12  12:41:49  \a    Havg: 2983    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/07/12  12:36:52     RAE: 12/07/12  12:40:43  \a       NEI: 12/07/12  12:43:58     QCG: 12/07/12  12:54:24  \a       NE2: 12/07/12  13:25:50     QC2: 12/07/12  14:10:53  \a       DGE:             :  :       PYE: 12/07/12  14:46:14  \a    Havg: 2501    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC:             :  :       RAE:             :  :  \a       NEI: 12/07/12  12:39:50     QCG:             :  :  \a       DGE:             :  :       PYE: 12/07/12  13:07:07  \a    Havg: 2502    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC:             :  :       RAE:             :  :  \a       NEI: 12/07/12  12:41:44     QCG:             :  :  \a       DGE:             :  :       PYE: 12/07/12  13:07:07 \a\aGur Pnyy Gnxre vf ZBEEVF JRAQL Y  \aGur Qvfcngpure vf ZBEEVF JRAQL Y");
+
+    qbGrfg("G28",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001060                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . :  1N1 R 1N1                  Cevbevgl: 4  \a" +
+        "Vapvqrag Ybpngvba: 6044 OBYYRE NI                                       Irahr: G/YVIBAVN \a\a" +
+        "Pnyy Gvzr- 11:42:46                                Qngr- 12/07/2012  \a" +
+        "Qvfcngpu - 11:43:06     Ra-ebhgr- 11:49:33     Ba-fprar- 11:53:51     Qrcneg 1- 12:09:56  \a" +
+        "Neevir 2 - 12:42:59     Qrcneg 2- 13:23:18     Va-fgnga-              Pyrnerq - 13:59:34 \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : PMBA  \a" +
+        "Tevq:                   Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (585) 766-9162                Pnyy Fbhepr: P911 \a\a" +
+        "Pnyyre. . . : TVAN N ZRVFRAMNUY \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   2961                 RZFYVIBAV   2981  \a" +
+        " NYFYVIPB    7901 \a\a" +
+        "Angher bs Pnyy : 19 LBS PBAP/OERNGUVAT ORYBJ ANIRY \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  OYHR UBHFR UNF OYHR U1 UHZZRE \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: 7901    Enqvb:           Bspe 1:   CBZVYVB  Bspe 2:  \a" +
+        "       QFC: 12/07/12  11:59:52     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  11:59:59  \a" +
+        "    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/07/12  11:43:06     RAE: 12/07/12  11:49:33  \a" +
+        "       NEI: 12/07/12  11:53:51     QCG: 12/07/12  12:09:56  \a" +
+        "       NE2: 12/07/12  12:42:59     QC2: 12/07/12  13:23:18  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  13:59:34  \a" +
+        "    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a" +
+        "       QFC: 12/07/12  11:59:26     RAE: 12/07/12  11:59:26  \a" +
+        "       NEI: 12/07/12  12:05:09     QCG: 12/07/12  12:09:56  \a" +
+        "       NE2: 12/07/12  12:42:59     QC2: 12/07/12  13:23:18  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  13:56:31 \a\a" +
+        "Gur Pnyy Gnxre vf FPUHYGM NZNAQN F  \a" +
+        "Gur Qvfcngpure vf FPUHYGM NZNAQN F",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001060                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . :  1N1 R 1N1                  Cevbevgl: 4  \aVapvqrag Ybpngvba: 6044 OBYYRE NI                                       Irahr: G/YVIBAVN \a\aPnyy Gvzr- 11:42:46                                Qngr- 12/07/2012  \aQvfcngpu - 11:43:06     Ra-ebhgr- 11:49:33     Ba-fprar- 11:53:51     Qrcneg 1- 12:09:56  \aNeevir 2 - 12:42:59     Qrcneg 2- 13:23:18     Va-fgnga-              Pyrnerq - 13:59:34 \a\aNern: FBYV              Frpgvba :    2         Orng  . : PMBA  \aTevq:                   Dhnqenag: YNX1         Qvfgevpg: YVIY \a\aCubar Ahzore: (585) 766-9162                Pnyy Fbhepr: P911 \a\aPnyyre. . . : TVAN N ZRVFRAMNUY \a\aHavgf frag  :  \a RZFYVIBAV   2961                 RZFYVIBAV   2981  \a NYFYVIPB    7901 \a\aAngher bs Pnyy : 19 LBS PBAP/OERNGUVAT ORYBJ ANIRY \a\aNqqvgvbany Vasb  \a  OYHR UBHFR UNF OYHR U1 UHZZRE \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: 7901    Enqvb:           Bspe 1:   CBZVYVB  Bspe 2:  \a       QFC: 12/07/12  11:59:52     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/07/12  11:59:59  \a    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/07/12  11:43:06     RAE: 12/07/12  11:49:33  \a       NEI: 12/07/12  11:53:51     QCG: 12/07/12  12:09:56  \a       NE2: 12/07/12  12:42:59     QC2: 12/07/12  13:23:18  \a       DGE:             :  :       PYE: 12/07/12  13:59:34  \a    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a       QFC: 12/07/12  11:59:26     RAE: 12/07/12  11:59:26  \a       NEI: 12/07/12  12:05:09     QCG: 12/07/12  12:09:56  \a       NE2: 12/07/12  12:42:59     QC2: 12/07/12  13:23:18  \a       DGE:             :  :       PYE: 12/07/12  13:56:31 \a\aGur Pnyy Gnxre vf FPUHYGM NZNAQN F  \aGur Qvfcngpure vf FPUHYGM NZNAQN F");
+
+    qbGrfg("G29",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001061                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 28P3 R 28P3                 Cevbevgl: 2  \a" +
+        "Vapvqrag Ybpngvba: 6510 SYBERAPR YA                                     Irahr: G/YVIBAVN  \a" +
+        "Ybpngrq Orgjrra  : CBCYNE UVYY EQ/R QRNQ RAQ \a\a" +
+        "Pnyy Gvzr- 12:35:10                                Qngr- 12/07/2012  \a" +
+        "Qvfcngpu - 12:36:52     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : NMBA        Znc . . :  QR9  \a" +
+        "Tevq:                   Dhnqenag: YVG1         Qvfgevpg: YVIN \a\a" +
+        "Cubar Ahzore: (585) 346-2441                Pnyy Fbhepr: R911 \a\a" +
+        "Pnyyre. . . : YNEEL JUVGVAT \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   2983 \a\a" +
+        "Angher bs Pnyy : GEBHOYR FCRNXVAT 71 LB \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  IBVC: \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf ZBEEVF JRAQL Y  \a" +
+        "Gur Qvfcngpure vf ZBEEVF JRAQL Y",
+
+        "VQ:2012-00001061",
+        "HAVG:RZFYVIBAV 2983",
+        "PNYY:28P3 R 28P3",
+        "CEV:2",
+        "NQQE:6510 SYBERAPR YA",
+        "PVGL:YVIBAVN",
+        "K:CBCYNE UVYY EQ/R QRNQ RAQ",
+        "GVZR:12:35:10",
+        "QNGR:12/07/2012",
+        "ZNC:YVIN/YVG1/2/FBYV",
+        "CUBAR:(585) 346-2441",
+        "ANZR:YNEEL JUVGVAT",
+        "VASB:GEBHOYR FCRNXVAT 71 LB\aIBVC:");
+
+    qbGrfg("G30",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001060                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . :  1N1 R 1N1                  Cevbevgl: 4  \a" +
+        "Vapvqrag Ybpngvba: 6044 OBYYRE NI                                       Irahr: G/YVIBAVN  \a" +
+        "Ybpngrq Orgjrra  : FUBERYVAR QE/R YNXR EQ \a\a" +
+        "Pnyy Gvzr- 11:42:46                                Qngr- 12/07/2012  \a" +
+        "Qvfcngpu - 11:43:06     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBYV              Frpgvba :    2         Orng  . : PMBA        Znc . . :   R8  \a" +
+        "Tevq:                   Dhnqenag: YNX1         Qvfgevpg: YVIY \a\a" +
+        "Cubar Ahzore: (585) 766-9162                Pnyy Fbhepr: P911 \a\a" +
+        "Pnyyre. . . : TVAN N ZRVFRAMNUY \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : 19 LBS PBAP/OERNGUVAT ORYBJ ANIRY \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  OYHR UBHFR UNF OYHR U1 UHZZRE \a\a" +
+        "Nqqerff Purpxf \a\a" +
+        "Erfvqrag Anzr - YNAR,ZRTNA,AVPBYR,,  \a" +
+        " Fhfcrpg va Pnfr: 200100018720 \a\a" +
+        "Erfvqrag Anzr - YNAR,ZVPURYYR,AVPBYR,,  \a" +
+        " Fhfcrpg va Pnfr: 200100018720  \a" +
+        " Fhfcrpg va Pnfr: 200100009572 \a\a" +
+        "Erfvqrag Anzr - YNAR,REARFG,R,VVV,  \a" +
+        " Fhfcrpg va Pnfr: 200400014712  \a" +
+        " Fhfcrpg va Pnfr: 200600000797 \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf FPUHYGM NZNAQN F  \a" +
+        "Gur Qvfcngpure vf FPUHYGM NZNAQN F",
+
+        "VQ:2012-00001060",
+        "HAVG:RZFYVIBAV 2981",
+        "PNYY:1N1 R 1N1",
+        "CEV:4",
+        "NQQE:6044 OBYYRE NI",
+        "ZNQQE:6044 OBYYRE NIR",
+        "PVGL:YVIBAVN",
+        "K:FUBERYVAR QE/R YNXR EQ",
+        "GVZR:11:42:46",
+        "QNGR:12/07/2012",
+        "ZNC:YVIY/YNX1/2/FBYV",
+        "CUBAR:(585) 766-9162",
+        "ANZR:TVAN N ZRVFRAMNUY",
+        "VASB:19 LBS PBAP/OERNGUVAT ORYBJ ANIRY\aOYHR UBHFR UNF OYHR U1 UHZZRE\aNqqerff Purpxf\aErfvqrag Anzr - YNAR,ZRTNA,AVPBYR,,\a Fhfcrpg va Pnfr: 200100018720\aErfvqrag Anzr - YNAR,ZVPURYYR,AVPBYR,,\a Fhfcrpg va Pnfr: 200100018720\a Fhfcrpg va Pnfr: 200100009572\aErfvqrag Anzr - YNAR,REARFG,R,VVV,\a Fhfcrpg va Pnfr: 200400014712\a Fhfcrpg va Pnfr: 200600000797");
+
+    qbGrfg("G31",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001059                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 12Q3 R 12Q3                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: 5930 CBJRYY EQ                                       Irahr: G/PBARFHF \a\a" +
+        "Pnyy Gvzr- 08:42:07                                Qngr- 12/07/2012  \a" +
+        "Qvfcngpu - 08:42:13     Ra-ebhgr- 08:43:35     Ba-fprar- 08:56:36     Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 10:09:30 \a\a" +
+        "Nern: FBPB              Frpgvba :    1         Orng  . : PMBA  \a" +
+        "Tevq:                   Dhnqenag: PBA1         Qvfgevpg: YVIP \a\a" +
+        "Cubar Ahzore: (585) 346-5629                Pnyy Fbhepr: R911 \a\a" +
+        "Pnyyre. . . : WREEL EHQBYCU \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   Z74                  NYFYVIPB    Z79  \a" +
+        " RZFYVIBAV   2961                 RZFYVIBAV   2981 \a\a" +
+        "Angher bs Pnyy : QVNORGVP 50 FRVMVAT \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  ERFQ: \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z79     Enqvb:           Bspe 1:   ONVYRLQ  Bspe 2:  \a" +
+        "       QFC: 12/07/12  08:43:12     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  08:43:43  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/07/12  08:42:13     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  08:44:13  \a" +
+        "    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/07/12  08:42:13     RAE: 12/07/12  08:47:31  \a" +
+        "       NEI: 12/07/12  08:57:24     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  09:46:54  \a" +
+        "    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a" +
+        "       QFC: 12/07/12  08:43:27     RAE: 12/07/12  08:43:35  \a" +
+        "       NEI: 12/07/12  08:56:36     QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/07/12  10:09:30 \a\a" +
+        "Gur Pnyy Gnxre vf OENQYRL ZVPUNRY W  \a" +
+        "Gur Qvfcngpure vf OENQYRL ZVPUNRY W",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001059                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 12Q3 R 12Q3                 Cevbevgl: 1  \aVapvqrag Ybpngvba: 5930 CBJRYY EQ                                       Irahr: G/PBARFHF \a\aPnyy Gvzr- 08:42:07                                Qngr- 12/07/2012  \aQvfcngpu - 08:42:13     Ra-ebhgr- 08:43:35     Ba-fprar- 08:56:36     Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 10:09:30 \a\aNern: FBPB              Frpgvba :    1         Orng  . : PMBA  \aTevq:                   Dhnqenag: PBA1         Qvfgevpg: YVIP \a\aCubar Ahzore: (585) 346-5629                Pnyy Fbhepr: R911 \a\aPnyyre. . . : WREEL EHQBYCU \a\aHavgf frag  :  \a RZFYVIBAV   Z74                  NYFYVIPB    Z79  \a RZFYVIBAV   2961                 RZFYVIBAV   2981 \a\aAngher bs Pnyy : QVNORGVP 50 FRVMVAT \a\aNqqvgvbany Vasb  \a  ERFQ: \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z79     Enqvb:           Bspe 1:   ONVYRLQ  Bspe 2:  \a       QFC: 12/07/12  08:43:12     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/07/12  08:43:43  \a    Havg: Z74     Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/07/12  08:42:13     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/07/12  08:44:13  \a    Havg: 2981    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/07/12  08:42:13     RAE: 12/07/12  08:47:31  \a       NEI: 12/07/12  08:57:24     QCG:             :  :  \a       DGE:             :  :       PYE: 12/07/12  09:46:54  \a    Havg: 2961    Enqvb:           Bspe 1:   FCNEXFR  Bspe 2:  \a       QFC: 12/07/12  08:43:27     RAE: 12/07/12  08:43:35  \a       NEI: 12/07/12  08:56:36     QCG:             :  :  \a       DGE:             :  :       PYE: 12/07/12  10:09:30 \a\aGur Pnyy Gnxre vf OENQYRL ZVPUNRY W  \aGur Qvfcngpure vf OENQYRL ZVPUNRY W");
+
+    qbGrfg("G32",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001059                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 13Q1 R 13Q1                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: 5930 CBJRYY EQ                                       Irahr: G/PBARFHF  \a" +
+        "Ybpngrq Orgjrra  : ZVFFVBA EQ/R QRNQ RAQ \a\a" +
+        "Pnyy Gvzr- 08:42:07                                Qngr- 12/07/2012  \a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBPB              Frpgvba :    1         Orng  . : PMBA        Znc . . :   T9  \a" +
+        "Tevq:                   Dhnqenag: PBA1         Qvfgevpg: YVIP \a\a" +
+        "Cubar Ahzore: (585) 346-5629                Pnyy Fbhepr: R911 \a\a" +
+        "Pnyyre. . . : WREEL EHQBYCU \a\a" +
+        "Angher bs Pnyy : QVNORGVP 50 FRVMVAT \a\a" +
+        "Nqqvgvbany Vasb  \a" +
+        "  ERFQ: \a\a" +
+        "Nqqerff Purpxf \a\a" +
+        "Ubhfr Jngpu  : ZRQVPNY PBAQVGVBA  \a" +
+        " Arkg bs Xva - ER: QVNAR RNQRF ERFVQ @ NOBIR NQQERFF FRIRE QVNORGVP  \a" +
+        "  BCRE AL ERT:  STL4793 2008 XVN FCBEGNTR OYX    Cubar: (000) 000-0000  \a" +
+        " Rzretrapl Pbagnpg- ZNELNAA EHQBYCU  (ZBZ GB QVNAR)  \a" +
+        "  5930,,CBJRYY,EQ,                               Cubar: (000) 346-5629  \a" +
+        " Fcrpvny Zrqvpny Pbaqvgvbaf - FRIRE QVNORGVP  \a" +
+        " Ubhfr Jngpu Aneengvir  \a" +
+        "  Qvnar Rnqrf erfvq @ 5930 Cbjryy Eq >>  \a" +
+        "  Pbarfhf jvgu ure zbgure - naq fur vf n frire qvnorgvp - ure zbfg  \a" +
+        "  erfrag rirag jnf:  fur jnf sbhaq va gur jbbqrq nern bs gur Urzybpx  \a" +
+        "  Obng Ynhapu - ynlvat ba gur tebhaq - fur bcre: AL ert:  STL4793  \a" +
+        "  2008 Xvn Fcbegntr Oynpx - ure pbagnpg crefba vf: ZnelNaa Ehqbycu  \a" +
+        "  - guvf vasb jnf cynprq bagb Ftg Orna sbe cbff ragel vagb gur  \a" +
+        "  Yvprapr cyngr ernqre - naq dhvpx pnyy sbe gur iru j/qbphzrag  \a" +
+        "  \a" +
+        "  *0011 PZO \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf OENQYRL ZVPUNRY W  \a" +
+        "Gur Qvfcngpure vf OENQYRL ZVPUNRY W",
+
+        "VQ:2012-00001059",
+        "HAVG:RZFYVIBAV",
+        "PNYY:13Q1 R 13Q1",
+        "CEV:1",
+        "NQQE:5930 CBJRYY EQ",
+        "PVGL:PBARFHF",
+        "K:ZVFFVBA EQ/R QRNQ RAQ",
+        "GVZR:08:42:07",
+        "QNGR:12/07/2012",
+        "ZNC:YVIP/PBA1/1/FBPB",
+        "CUBAR:(585) 346-5629",
+        "ANZR:WREEL EHQBYCU",
+        "VASB:QVNORGVP 50 FRVMVAT\aERFQ:\aNqqerff Purpxf\aUbhfr Jngpu  : ZRQVPNY PBAQVGVBA\a Arkg bs Xva - ER: QVNAR RNQRF ERFVQ @ NOBIR NQQERFF FRIRE QVNORGVP\a  BCRE AL ERT:  STL4793 2008 XVN FCBEGNTR OYX    Cubar: (000) 000-0000\a Rzretrapl Pbagnpg- ZNELNAA EHQBYCU  (ZBZ GB QVNAR)\a  5930,,CBJRYY,EQ,                               Cubar: (000) 346-5629\a Fcrpvny Zrqvpny Pbaqvgvbaf - FRIRE QVNORGVP\a Ubhfr Jngpu Aneengvir\a  Qvnar Rnqrf erfvq @ 5930 Cbjryy Eq >>\a  Pbarfhf jvgu ure zbgure - naq fur vf n frire qvnorgvp - ure zbfg\a  erfrag rirag jnf:  fur jnf sbhaq va gur jbbqrq nern bs gur Urzybpx\a  Obng Ynhapu - ynlvat ba gur tebhaq - fur bcre: AL ert:  STL4793\a  2008 Xvn Fcbegntr Oynpx - ure pbagnpg crefba vf: ZnelNaa Ehqbycu\a  - guvf vasb jnf cynprq bagb Ftg Orna sbe cbff ragel vagb gur\a  Yvprapr cyngr ernqre - naq dhvpx pnyy sbe gur iru j/qbphzrag\a  *0011 PZO");
+
+    qbGrfg("G33",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001058                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 24Q5 R 24Q5                 Cevbevgl: 3  \a" +
+        "Vapvqrag Ybpngvba: 8587 ZNVA FG Y47                                     Irahr: G/EVPUZBAQ  \a" +
+        "Pbzzba Anzr. . . : CNEXYNJA NCGF \a\a" +
+        "Pnyy Gvzr- 03:41:53                                Qngr- 12/06/2012  \a" +
+        "Qvfcngpu - 03:41:56     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 03:42:56 \a\a" +
+        "Nern:  BBP              Frpgvba : BAGN         Orng  . :  BBP  \a" +
+        "Tevq:                   Dhnqenag:  BBP         Qvfgevpg:  BBP \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : BAGNEVB PB \a\a" +
+        "Angher bs Pnyy : UVTU EVPX CERTRANPL CBFFVNOYR GRNE VA HGHEVF \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1: ZPXVAYRLO  Bspe 2:  \a" +
+        "       QFC: 12/06/12  03:41:56     RAE:             :  :  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/06/12  03:42:56 \a\a" +
+        "Gur Pnyy Gnxre vf TENAG PHEG F  \a" +
+        "Gur Qvfcngpure vf TENAG PHEG F",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001058                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 24Q5 R 24Q5                 Cevbevgl: 3  \aVapvqrag Ybpngvba: 8587 ZNVA FG Y47                                     Irahr: G/EVPUZBAQ  \aPbzzba Anzr. . . : CNEXYNJA NCGF \a\aPnyy Gvzr- 03:41:53                                Qngr- 12/06/2012  \aQvfcngpu - 03:41:56     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 03:42:56 \a\aNern:  BBP              Frpgvba : BAGN         Orng  . :  BBP  \aTevq:                   Dhnqenag:  BBP         Qvfgevpg:  BBP \a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\aPnyyre. . . : BAGNEVB PB \a\aAngher bs Pnyy : UVTU EVPX CERTRANPL CBFFVNOYR GRNE VA HGHEVF \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z74     Enqvb:           Bspe 1: ZPXVAYRLO  Bspe 2:  \a       QFC: 12/06/12  03:41:56     RAE:             :  :  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/06/12  03:42:56 \a\aGur Pnyy Gnxre vf TENAG PHEG F  \aGur Qvfcngpure vf TENAG PHEG F");
+
+    qbGrfg("G34",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001107                    BEV: PBHAGLBHG     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 24Q5 R 24Q5                 Cevbevgl: 3  \a" +
+        "Vapvqrag Ybpngvba: 8587 ZNVA FG Y47                                     Irahr: G/EVPUZBAQ  \a" +
+        "Ybpngrq Orgjrra  : R YNXR EQ/UBARBLR PBZZBAF  \a" +
+        "Pbzzba Anzr. . . : CNEXYNJA NCGF \a\a" +
+        "Pnyy Gvzr- 03:41:53                                Qngr- 12/06/2012  \a" +
+        "Qvfcngpu - 03:41:56     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern:  BBP              Frpgvba : BAGN         Orng  . :  BBP        Znc . . :  \a" +
+        "Tevq:                   Dhnqenag:  BBP         Qvfgevpg:  BBP \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : BAGNEVB PB \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   Z74 \a\a" +
+        "Angher bs Pnyy : UVTU EVPX CERTRANPL CBFFVNOYR GRNE VA HGHEVF \a\a" +
+        "Nqqvgvbany Vap#f:  \a" +
+        " RZFYVIBAV   201200001058 \a\a" +
+        "Gur Pnyy Gnxre vf TENAG PHEG F  \a" +
+        "Gur Qvfcngpure vf TENAG PHEG F",
+
+        "VQ:2012-00001107",
+        "HAVG:PBHAGLBHG RZFYVIBAV Z74",
+        "PNYY:24Q5 R 24Q5",
+        "CEV:3",
+        "NQQE:8587 ZNVA FG Y47",
+        "PVGL:EVPUZBAQ",
+        "K:R YNXR EQ/UBARBLR PBZZBAF",
+        "CYNPR:CNEXYNJA NCGF",
+        "GVZR:03:41:53",
+        "QNGR:12/06/2012",
+        "ZNC:BBP/BBP/BAGN/BBP",
+        "ANZR:BAGNEVB PB",
+        "VASB:UVTU EVPX CERTRANPL CBFFVNOYR GRNE VA HGHEVF");
+
+    qbGrfg("G35",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001057                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 30N1 R 30N1                 Cevbevgl: 4  \a" +
+        "Vapvqrag Ybpngvba: 30 OVT GERR FG 6                                     Irahr: I/YVIBAVN \a\a" +
+        "Pnyy Gvzr- 20:28:57                                Qngr- 12/05/2012  \a" +
+        "Qvfcngpu - 20:29:11     Ra-ebhgr- 20:33:45     Ba-fprar- 20:36:24     Qrcneg 1- 20:53:35  \a" +
+        "Neevir 2 - 21:21:30     Qrcneg 2- 21:55:16     Va-fgnga-              Pyrnerq - 22:14:39 \a\a" +
+        "Nern: FBYV              Frpgvba :    1         Orng  . : NMBA  \a" +
+        "Tevq:                   Dhnqenag: YVI1         Qvfgevpg: YVIN \a\a" +
+        "Cubar Ahzore: (585) 469-2909                Pnyy Fbhepr: P911 \a\a" +
+        "Pnyyre. . . : QBAARGGN Z PNEE \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   2983 \a\a" +
+        "Angher bs Pnyy : 8LBS YRSG NEZ VAWHEL \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: 2983    Enqvb:           Bspe 1:            Bspe 2:  \a" +
+        "       QFC: 12/05/12  20:29:11     RAE: 12/05/12  20:33:45  \a" +
+        "       NEI: 12/05/12  20:36:24     QCG: 12/05/12  20:53:35  \a" +
+        "       NE2: 12/05/12  21:21:30     QC2: 12/05/12  21:55:16  \a" +
+        "       DGE:             :  :       PYE: 12/05/12  22:14:39 \a\a" +
+        "Gur Pnyy Gnxre vf FALQRE ZNGGURJ W  \a" +
+        "Gur Qvfcngpure vf FALQRE ZNGGURJ W",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001057                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 30N1 R 30N1                 Cevbevgl: 4  \aVapvqrag Ybpngvba: 30 OVT GERR FG 6                                     Irahr: I/YVIBAVN \a\aPnyy Gvzr- 20:28:57                                Qngr- 12/05/2012  \aQvfcngpu - 20:29:11     Ra-ebhgr- 20:33:45     Ba-fprar- 20:36:24     Qrcneg 1- 20:53:35  \aNeevir 2 - 21:21:30     Qrcneg 2- 21:55:16     Va-fgnga-              Pyrnerq - 22:14:39 \a\aNern: FBYV              Frpgvba :    1         Orng  . : NMBA  \aTevq:                   Dhnqenag: YVI1         Qvfgevpg: YVIN \a\aCubar Ahzore: (585) 469-2909                Pnyy Fbhepr: P911 \a\aPnyyre. . . : QBAARGGN Z PNEE \a\aHavgf frag  :  \a RZFYVIBAV   2983 \a\aAngher bs Pnyy : 8LBS YRSG NEZ VAWHEL \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: 2983    Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 12/05/12  20:29:11     RAE: 12/05/12  20:33:45  \a       NEI: 12/05/12  20:36:24     QCG: 12/05/12  20:53:35  \a       NE2: 12/05/12  21:21:30     QC2: 12/05/12  21:55:16  \a       DGE:             :  :       PYE: 12/05/12  22:14:39 \a\aGur Pnyy Gnxre vf FALQRE ZNGGURJ W  \aGur Qvfcngpure vf FALQRE ZNGGURJ W");
+
+    qbGrfg("G36",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001057                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 30N1 R 30N1                 Cevbevgl: 4  \a" +
+        "Vapvqrag Ybpngvba: 30 OVT GERR FG 6                                     Irahr: I/YVIBAVN  \a" +
+        "Ybpngrq Orgjrra  : YNXR TYRA QE/JRFG NI \a\a" +
+        "Pnyy Gvzr- 20:28:57                                Qngr- 12/05/2012  \a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: FBYV              Frpgvba :    1         Orng  . : NMBA        Znc . . :  \a" +
+        "Tevq:                   Dhnqenag: YVI1         Qvfgevpg: YVIN \a\a" +
+        "Cubar Ahzore: (585) 469-2909                Pnyy Fbhepr: P911 \a\a" +
+        "Pnyyre. . . : QBAARGGN Z PNEE \a\a" +
+        "Angher bs Pnyy : 8LBS YRSG NEZ VAWHEL \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf FALQRE ZNGGURJ W  \a" +
+        "Gur Qvfcngpure vf FALQRE ZNGGURJ W",
+
+        "VQ:2012-00001057",
+        "HAVG:RZFYVIBAV",
+        "PNYY:30N1 R 30N1",
+        "CEV:4",
+        "NQQE:30 OVT GERR FG 6",
+        "PVGL:YVIBAVN",
+        "K:YNXR TYRA QE/JRFG NI",
+        "GVZR:20:28:57",
+        "QNGR:12/05/2012",
+        "ZNC:YVIN/YVI1/1/FBYV",
+        "CUBAR:(585) 469-2909",
+        "ANZR:QBAARGGN Z PNEE",
+        "VASB:8LBS YRSG NEZ VAWHEL");
+
+    qbGrfg("G37",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \a" +
+        "Vapvqrag Ahzore  : 2012-00001056                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 17O1 R 17O1                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: 21 IVPXF CY                                          Irahr: G/PNANQVPR \a\a" +
+        "Pnyy Gvzr- 19:57:24                                Qngr- 12/05/2012  \a" +
+        "Qvfcngpu - 19:57:28     Ra-ebhgr- 19:59:04     Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 20:10:11 \a\a" +
+        "Nern: PNAG              Frpgvba :    1         Orng  . :  BBP  \a" +
+        "Tevq:                   Dhnqenag: EVPS         Qvfgevpg: EVPN \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : BPFB \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   Z74 \a\a" +
+        "Angher bs Pnyy : UBARBLR RZF ERD NYF ZNYR SRYY YNP URNQ \a\a" +
+        "Aneengvir  \a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a" +
+        "    Havg: Z74     Enqvb:           Bspe 1: ZPXVAYRLO  Bspe 2:  \a" +
+        "       QFC: 12/05/12  19:57:28     RAE: 12/05/12  19:59:04  \a" +
+        "       NEI:             :  :       QCG:             :  :  \a" +
+        "       DGE:             :  :       PYE: 12/05/12  20:10:11 \a\a" +
+        "Gur Pnyy Gnxre vf EHGVTYVNAB WBUA N  \a" +
+        "Gur Qvfcngpure vf EHGVTYVNAB WBUA N",
+
+        "PNYY:EHA ERCBEG",
+        "HAVG:RZFYVIBAV",
+        "CYNPR:** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2012-00001056                    BEV: RZFYVIBAV     Fgngvba:  \aVapvqrag Glcr  . : 17O1 R 17O1                 Cevbevgl: 1  \aVapvqrag Ybpngvba: 21 IVPXF CY                                          Irahr: G/PNANQVPR \a\aPnyy Gvzr- 19:57:24                                Qngr- 12/05/2012  \aQvfcngpu - 19:57:28     Ra-ebhgr- 19:59:04     Ba-fprar-              Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 20:10:11 \a\aNern: PNAG              Frpgvba :    1         Orng  . :  BBP  \aTevq:                   Dhnqenag: EVPS         Qvfgevpg: EVPN \a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\aPnyyre. . . : BPFB \a\aHavgf frag  :  \a RZFYVIBAV   Z74 \a\aAngher bs Pnyy : UBARBLR RZF ERD NYF ZNYR SRYY YNP URNQ \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: Z74     Enqvb:           Bspe 1: ZPXVAYRLO  Bspe 2:  \a       QFC: 12/05/12  19:57:28     RAE: 12/05/12  19:59:04  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 12/05/12  20:10:11 \a\aGur Pnyy Gnxre vf EHGVTYVNAB WBUA N  \aGur Qvfcngpure vf EHGVTYVNAB WBUA N");
+
+    qbGrfg("G38",
+        "(Nhgbzngvp E&E Abgvsvpngvba) \a" +
+        "  \a" +
+        "Vapvqrag Ahzore  : 2012-00001056                    BEV: RZFYVIBAV     Fgngvba:  \a" +
+        "Vapvqrag Glcr  . : 17O1 R 17O1                 Cevbevgl: 1  \a" +
+        "Vapvqrag Ybpngvba: 21 IVPXF CY                                          Irahr: G/PNANQVPR  \a" +
+        "Ybpngrq Orgjrra  : QRNQ RAQ/ENAPU EQ \a\a" +
+        "Pnyy Gvzr- 19:57:24                                Qngr- 12/05/2012  \a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga- \a\a" +
+        "Nern: PNAG              Frpgvba :    1         Orng  . :  BBP        Znc . . :  \a" +
+        "Tevq:                   Dhnqenag: EVPS         Qvfgevpg: EVPN \a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  ENQ \a\a" +
+        "Pnyyre. . . : BPFB \a\a" +
+        "Havgf frag  :  \a" +
+        " RZFYVIBAV   Z74 \a\a" +
+        "Angher bs Pnyy : UBARBLR RZF ERD NYF ZNYR SRYY YNP URNQ \a\a" +
+        "Nqqvgvbany Vap#f: \a\a" +
+        "Gur Pnyy Gnxre vf EHGVTYVNAB WBUA N  \a" +
+        "Gur Qvfcngpure vf EHGVTYVNAB WBUA N",
+
+        "VQ:2012-00001056",
+        "HAVG:RZFYVIBAV Z74",
+        "PNYY:17O1 R 17O1",
+        "CEV:1",
+        "NQQE:21 IVPXF CY",
+        "PVGL:PNANQVPR",
+        "K:QRNQ RAQ/ENAPU EQ",
+        "GVZR:19:57:24",
+        "QNGR:12/05/2012",
+        "ZNC:EVPN/EVPS/1/PNAG",
+        "ANZR:BPFB",
+        "VASB:UBARBLR RZF ERD NYF ZNYR SRYY YNP URNQ");
+   
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALYvivatfgbarPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj ALYvivatfgbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
