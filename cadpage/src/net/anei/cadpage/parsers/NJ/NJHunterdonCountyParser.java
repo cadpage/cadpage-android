@@ -14,6 +14,7 @@ public class NJHunterdonCountyParser extends MsgParser {
   
   public NJHunterdonCountyParser() {
     super("HUNTERDON COUNTY", "NJ");
+    setFieldList("SRC CALL CITY PLACE ADDR APT X ID INFO");
   }
   
   @Override
@@ -27,13 +28,7 @@ public class NJHunterdonCountyParser extends MsgParser {
     if (!match.matches()) return false;
     data.strSource = match.group(1);
     data.strCall = match.group(2);
-    String sCity = convertCodes(match.group(3), CITY_CODES);
-    int pt = sCity.indexOf('/');
-    if (pt >= 0) {
-      if (data.strSource.endsWith("RS")) sCity = sCity.substring(pt+1);
-      else sCity = sCity.substring(0,pt);
-    }
-    data.strCity = sCity;
+    data.strCity = convertCodes(match.group(3), CITY_CODES);
     Parser p = new Parser(match.group(4));
     data.strPlace = p.getOptional(" / ");
     parseAddress(p.get().replace(" NO ", " "), data);
@@ -43,9 +38,6 @@ public class NJHunterdonCountyParser extends MsgParser {
     return true;
   }
   
-  // There are different city codes for fire and medical units.  Mostly they do
-  // not conflict.  In the two cases where they do the fire city will come first and
-  // be separated from the medical city by a /
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "11", "Frenchtown",
       "12", "Glen Gardner",
@@ -57,9 +49,9 @@ public class NJHunterdonCountyParser extends MsgParser {
       "18", "Lebanon",
       "19", "Lebanon Twp",
       "21", "Raritan Twp",
-      "22", "Whitehouse Station/Readington Twp",
+      "22", "Readington Twp",
       "23", "Stockton",
-      "24", "Oldwick/Tewksbury",
+      "24", "Tewksbury",
       "25", "Pattenburg",
       "26", "West Amwell Twp",
       "31", "East Whitehouse",
@@ -77,7 +69,7 @@ public class NJHunterdonCountyParser extends MsgParser {
       "52", "Asbury",
       "57", "Pottersville",
       "74", "Branchburg",
-      "79", "Neshanic/Hillsborough",
+      "79", "Hillsborough",
       "91", "Quakertown",
       "92", "Milford",
       "93", "Country Hills",
