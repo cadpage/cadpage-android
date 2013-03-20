@@ -27,6 +27,10 @@ Fraqre: *svercntr@pv.crbevn.vy.hf*<svercntr@pv.crbevn.vy.hf>
 Pbagnpg: Gbavn Jvaqvfu <gjvaqvfu4@tznvy.pbz>
 F: Z:10/03/11 415 J OHGGREAHG FG RY :( 400) A ZBETNA FG ZNYR J/ONQ URNQNPUR SRYY BA FNG NAQ JNF PXRQ BHG GURA OHG ABJ ERD GENAFC ONPX GB UBFC 94 L (01/02)\a\a
 
+Pbagnpg: Qnygba Pneyfba <qnpneyfba12@tznvy.pbz>
+Fraqre: svercntr@crbevntbi.bet
+03/19/13 { 1900}R FG WHQR PG We=CU :( 5700) A TNYRAN EQ 3CGL JBBQSBEQ NPP VAW HAX 1726,007
+
 */
 
 choyvp pynff VYCrbevnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -77,9 +81,8 @@ choyvp pynff VYCrbevnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "12/28/10 {10301}J YNAPNFGRE EQ PB :( 5500) F UNEXREF PBEARE EQ EBYY BIRE 1300,006",
         "QNGR:12/28/10",
-        "NQQE:10301 J YNAPNFGRE EQ",
+        "NQQE:J YNAPNFGRE EQ & F UNEXREF PBEARE EQ",
         "PVGL:CRBEVN PBHAGL",
-        "K:5500 F UNEXREF PBEARE EQ",
         "VASB:EBYY BIRE",
         "GVZR:13:00",
         "HAVG:006");
@@ -151,9 +154,8 @@ choyvp pynff VYCrbevnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G13",
         "08/29/12 {23500}J PYNLONHTU EQ We=PB :(10300) A EG 78 VF WHFG A PNE BIREGHEARQ CBFF PNE/QRRE NPP PNAG GRYY VS NALBAR FGVYY VAFVQR OYBBQ BIRE  (01/02)",
         "QNGR:08/29/12",
-        "NQQE:23500 J PYNLONHTU EQ",
+        "NQQE:J PYNLONHTU EQ & A EG 78",
         "PVGL:CRBEVN PBHAGL",
-        "K:10300 A EG 78",
         "VASB:VF WHFG A PNE BIREGHEARQ CBFF PNE / QRRE NPP PNAG GRYY VS NALBAR FGVYY VAFVQR OYBBQ BIRE (01 / 02)");
 
     qbGrfg("G14",
@@ -180,6 +182,20 @@ choyvp pynff VYCrbevnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:400 A ZBETNA FG",
         "VASB:ZNYR J / ONQ URNQNPUR SRYY BA FNG NAQ JNF PXRQ BHG GURA OHG ABJ ERD GENAFC ONPX GB UBFC 94 L (01 / 02)");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQbygbaPneyfba() {
+
+    qbGrfg("G1",
+        "03/19/13 { 1900}R FG WHQR PG We=CU :( 5700) A TNYRAN EQ 3CGL JBBQSBEQ NPP VAW HAX 1726,007",
+        "QNGR:03/19/13",
+        "NQQE:R FG WHQR PG & A TNYRAN EQ",
+        "PVGL:CRBEVN URVTUGF",
+        "VASB:3CGL JBBQSBEQ NPP VAW HAX",
+        "GVZR:17:26",
+        "HAVG:007");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

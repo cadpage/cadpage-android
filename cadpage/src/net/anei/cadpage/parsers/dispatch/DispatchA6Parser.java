@@ -15,7 +15,8 @@ public class DispatchA6Parser extends SmartAddressParser {
   }
   
   private static final Pattern LEAD_DATE_PAT = Pattern.compile("^(?:([- A-Z0-9]+) )?(?:(?:Ic# +(.*?) +Ds# ([^ ]*?) (?:Al# ([^ ]*?))? Utl# (?:([^ ]*?) +)?)?(\\d\\d/\\d\\d/\\d\\d)|\\^ )");
-  private static final Pattern CROSS_MARK_PAT = Pattern.compile(" :\\\\?\\( *(\\d*) *\\) | <> ");
+  private static final Pattern CROSS_MARK2_PAT = Pattern.compile(" :\\\\?\\( *(\\d*) *\\) | <> ");
+  private static final Pattern CROSS_MARK1_PAT = Pattern.compile("^\\{ *\\d+ *\\} *");
   private static final Pattern TIME_UNIT_PAT = Pattern.compile("(?<!\\d)(\\d{4}),(\\d{3})");
   
   @Override
@@ -33,18 +34,26 @@ public class DispatchA6Parser extends SmartAddressParser {
     }
     if (data.strDate.length() == 0) data.strDate = getOptGroup(match.group(6));
     
-    match = CROSS_MARK_PAT.matcher(body);
+    match = CROSS_MARK2_PAT.matcher(body);
     if (!match.find()) return false;
     String crossNumber = match.group(1);
     
-    String sAddr = body.substring(0,match.start()).replace('{', ' ').replace('}', ' ').trim();
+    String sAddr = body.substring(0,match.start()).trim();
+    body = body.substring(match.end()).trim();
+    
+    boolean intersect = false;
+    match = CROSS_MARK1_PAT.matcher(sAddr);
+    if (match.find()) {
+      intersect = true;
+      sAddr = sAddr.substring(match.end());
+    }
+    
     int pt = sAddr.lastIndexOf('#');
     if (pt >= 0) {
       data.strPlace = sAddr.substring(pt+1).trim();
       sAddr = sAddr.substring(0,pt).trim();
     }
     parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
-    body = body.substring(match.end()).trim();
     
     match = TIME_UNIT_PAT.matcher(body);
     if (match.find()) {
@@ -60,7 +69,12 @@ public class DispatchA6Parser extends SmartAddressParser {
     if (res.getStatus() > 0) {
       res.getData(data);
       data.strSupp = res.getLeft();
-      if (crossNumber != null) data.strCross = append(crossNumber, " ", data.strCross);
+      if (intersect) {
+        data.strAddress = append(data.strAddress, " & ", data.strCross);
+        data.strCross = "";
+      } else if (crossNumber != null) {
+        data.strCross = append(crossNumber, " ", data.strCross);
+      }
     } else {
       data.strSupp = body;
     }
