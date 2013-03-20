@@ -65,6 +65,7 @@ choyvp pynff APUnearggPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "1102-012074*8326 AP 27 J***YVYYVATGBA***ERFVQRAGVNY FGEHPGHER SVER****1175****",
         "VQ:1102-012074",
         "NQQE:8326 AP 27 J",
+        "ZNQQE:8326 FGNGR 27 J",
         "PVGL:YVYYVATGBA",
         "PNYY:ERFVQRAGVNY FGEHPGHER SVER");
 
@@ -117,6 +118,7 @@ choyvp pynff APUnearggPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SEZ:pnqcntr@uneargg.bet\aZFT:1201-002111*11860 AP 210 F*****SVER ERF FGE*********",
         "VQ:1201-002111",
         "NQQE:11860 AP 210 F",
+        "ZNQQE:11860 FGNGR 210 F",
         "PNYY:SVER ERF FGE");
 
     qbGrfg("G5",
@@ -207,6 +209,7 @@ choyvp pynff APUnearggPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SEZ:pnqcntr@uneargg.bet\aZFT:1210-093840*9090 AP 210 F***OHAAYRIRY*FBHGU UNEARGG YA*NAQREFBA PERRX FPUBBY EQ***ZIN*********",
         "VQ:1210-093840",
         "NQQE:9090 AP 210 F",
+        "ZNQQE:9090 FGNGR 210 F",
         "PVGL:OHAAYRIRY",
         "K:FBHGU UNEARGG YA & NAQREFBA PERRX FPUBBY EQ",
         "PNYY:ZIN");

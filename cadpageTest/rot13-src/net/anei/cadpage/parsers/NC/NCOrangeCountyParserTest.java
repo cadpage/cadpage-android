@@ -87,7 +87,8 @@ choyvp pynff APBenatrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:060411-348",
         "PU:BCF 1",
         "PNYY:OERNGUVAT",
-        "NQQE:8100 AP 86 A");
+        "NQQE:8100 AP 86 A",
+        "ZNQQE:8100 FGNGR 86 A");
 
     qbGrfg("G4",
         "(PNQ Cntr sbe PSF 060311-397) BCF 1\aGENHZNGVP VAWHEL\aZVYY PERRX EQ naq JNKFGNSS EQ\aNcg: \aOhvyq:",
@@ -103,7 +104,7 @@ choyvp pynff APBenatrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:BCF 1",
         "PNYY:Genssvp Nppvqrag-CV",
         "NQQE:ZPQNQR FGBER EQ naq AP 86 A",
-        "ZNQQE:ZPQNQR FGBER EQ & AP 86 A");
+        "ZNQQE:ZPQNQR FGBER EQ & FGNGR 86 A");
 
     qbGrfg("G6",
         "(PNQ Cntr sbe PSF 051311-370) BCF \aVASB SBE NYY HAVGF\a643 gnaxre onpx va freivpr\aNcg: \aOhvyq:",
@@ -174,6 +175,7 @@ choyvp pynff APBenatrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:BCF 1",
         "PNYY:PURFG CNVAF",
         "NQQE:112 AP 54",
+        "ZNQQE:112 FGNGR 54",
         "NCG:S1",
         "GVZR:18:34:31",
         "PBQR:10Q02");

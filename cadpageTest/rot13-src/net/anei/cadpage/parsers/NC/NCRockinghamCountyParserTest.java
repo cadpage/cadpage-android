@@ -293,6 +293,7 @@ choyvp pynff APEbpxvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ZIN",
         "NQQE:AP 135 & ZBHAGNVA EVQTR GE",
+        "ZNQQE:FGNGR 135 & ZBHAGNVA EVQTR GE",
         "PVGL:FGBARIVYYR",
         "HAVG:120",
         "PU:GNPG2",
@@ -328,6 +329,7 @@ choyvp pynff APEbpxvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ZIN",
         "NQQE:FRGGYR OEVQTR EQ & AP 135",
+        "ZNQQE:FRGGYR OEVQTR EQ & FGNGR 135",
         "PVGL:FGBARIVYYR",
         "HAVG:120",
         "VASB:Lbh ner erfcbaqvat gb n cngvrag vawherq va n genssvp vapvqrag. Gur cngvrag vf n 35-lrne-byq znyr, jub vf pbafpvbhf naq");
@@ -430,6 +432,7 @@ choyvp pynff APEbpxvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:BARHAVG;150 AP 65;WHFGVPR PRAGRE QE;PBHAGL UBZR EQ;ERVQ;RZRETRAPL FREIVPRF;ONF3\e\a\e\a",
         "PNYY:BARHAVG",
         "NQQE:150 AP 65",
+        "ZNQQE:150 FGNGR 65",
         "K:WHFGVPR PRAGRE QE & PBHAGL UBZR EQ",
         "PVGL:ERVQFIVYYR",
         "CYNPR:RZRETRAPL FREIVPRF",
@@ -456,6 +459,7 @@ choyvp pynff APEbpxvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:BARHAVG;150 AP 65;WHFGVPR PRAGRE QE;PBHAGL UBZR EQ;ERVQ;RZRETRAPL FREIVPRF;ONF3\e\a\e\a",
         "PNYY:BARHAVG",
         "NQQE:150 AP 65",
+        "ZNQQE:150 FGNGR 65",
         "K:WHFGVPR PRAGRE QE & PBHAGL UBZR EQ",
         "PVGL:ERVQFIVYYR",
         "CYNPR:RZRETRAPL FREIVPRF",
@@ -465,6 +469,7 @@ choyvp pynff APEbpxvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:HAQRE PBAGEBY;6970 AP 135; ZNL ;EZ 27\e\a\e\a",
         "PNYY:HAQRE PBAGEBY",
         "NQQE:6970 AP 135",
+        "ZNQQE:6970 FGNGR 135",
         "PVGL:ZNLBQNA",
         "NCG:EZ 27");
 
@@ -479,6 +484,7 @@ choyvp pynff APEbpxvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:PCEQRNGU;6970 AP 135;QNA INYYRL EQ;EVIRE EQ;ZNL;ABEGU CBVAGR BS ZNLBQNA;09Q01;ONF2\e\a\e\a",
         "PNYY:PCEQRNGU",
         "NQQE:6970 AP 135",
+        "ZNQQE:6970 FGNGR 135",
         "K:QNA INYYRL EQ & EVIRE EQ",
         "PVGL:ZNLBQNA",
         "CYNPR:ABEGU CBVAGR BS ZNLBQNA",

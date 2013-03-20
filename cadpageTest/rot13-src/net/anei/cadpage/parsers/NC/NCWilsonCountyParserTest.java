@@ -106,6 +106,7 @@ choyvp pynff APJvyfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:11000844",
         "PNYY:NPPVQRAG CEBCREGL QNZNTR",
         "NQQE:AP 222 & NFCRA TEBIR PUHEPU EQ",
+        "ZNQQE:FGNGR 222 & NFCRA TEBIR PUHEPU EQ",
         "FEP:2N",
         "VASB:ba ap 222 whfg orsber nfcra tebir puhepu juvyr ba gur cubar jvgu uc fur nqivfrq n uvffvat");
 
@@ -115,6 +116,7 @@ choyvp pynff APJvyfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:67Q02E",
         "PNYY:BHGFVQR SVER - JBBQF/YET OEHFU",
         "NQQE:4164 AP 42 R",
+        "ZNQQE:4164 FGNGR 42 R",
         "FEP:4P",
         "K:XRAG EQ & INEARYY EQ");
 

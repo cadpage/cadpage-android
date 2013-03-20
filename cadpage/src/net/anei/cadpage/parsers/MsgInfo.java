@@ -680,6 +680,10 @@ public class MsgInfo {
       match.appendTail(sb);
       sAddress = sb.toString();
     }
+    
+    // If the state code should be replaced with something else, we have to look for
+    // a route number starting with the state code
+    sAddress = sAddress.replaceAll("\\b" + state + " *(\\d+)\\b", repState + " $1");
     return sAddress;
   }
   
