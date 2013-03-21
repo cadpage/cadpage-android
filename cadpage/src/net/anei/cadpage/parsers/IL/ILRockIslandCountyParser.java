@@ -35,6 +35,7 @@ public class ILRockIslandCountyParser extends DispatchOSSIParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "HIL",  "HILLSDALE",
       "MO",   "MOLINE",
+      "PB",   "PORT BYRON",
       "RI",   "ROCK ISLAND",
       "RIA",  "ROCK ISLAND ARSENAL"
   });
