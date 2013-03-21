@@ -124,7 +124,4 @@ public class CadpageParser  extends CadpageParserBase {
       sb.append(value);
     }
   }
-  
-  
-
 }
