@@ -16,6 +16,7 @@ public class ILRockIslandCountyParser extends DispatchOSSIParser {
   public ILRockIslandCountyParser() {
     super(CITY_CODES, "ROCK ISLAND COUNTY", "IL",
           "ID:FYI ADDR CALL CITY!");
+    setFieldList("SRC ID ADDR CALL CITY");
   }
   
   @Override
@@ -32,6 +33,7 @@ public class ILRockIslandCountyParser extends DispatchOSSIParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "HIL",  "HILLSDALE",
       "MO",   "MOLINE",
       "RI",   "ROCK ISLAND",
       "RIA",  "ROCK ISLAND ARSENAL"

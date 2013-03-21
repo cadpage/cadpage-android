@@ -27,6 +27,11 @@ F: Z:91:SLV: ;3130 9GU FG;FGEHPGHER SVER/TRARENY;EV
 F: Z:90:Hcqngr: ;2626 EBQZNA NI;FGEHPGHER SVER/TRARENY;EVN 
 F: Z:93:SLV: ;2932 EBQZNA NI;FGEHPGHER SVER/TRARENY;EVN 
 
+Pbagnpg: Wvz Barl <wvzbarl95@lnubb.pbz>
+Fraqre: PNQ@evpbrgfo.bet
+417:SLV: ;28424 38GU NI A;PBHAGL RZF BAYL;UVY
+416:SLV: ;27521 94GU NI A;PBHAGL RZF BAYL;UVY
+
 */
 
 choyvp pynff VYEbpxVfynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -63,7 +68,28 @@ choyvp pynff VYEbpxVfynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   }
   
+  @Grfg
+  choyvp ibvq WvzBarl() {
+
+    qbGrfg("G1",
+        "417:SLV: ;28424 38GU NI A;PBHAGL RZF BAYL;UVY",
+        "VQ:417",
+        "NQQE:28424 38GU NI A",
+        "ZNQQE:28424 38GU NIR A",
+        "PNYY:PBHAGL RZF BAYL",
+        "PVGL:UVYYFQNYR");
+
+    qbGrfg("G2",
+        "416:SLV: ;27521 94GU NI A;PBHAGL RZF BAYL;UVY",
+        "VQ:416",
+        "NQQE:27521 94GU NI A",
+        "ZNQQE:27521 94GU NIR A",
+        "PNYY:PBHAGL RZF BAYL",
+        "PVGL:UVYYFQNYR");
+   
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj VYEbpxVfynaqPbhaglCnefreGrfg().trarengrGrfgf("G1", "FEP VQ NQQE PNYY PVGL");
+    arj VYEbpxVfynaqPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
