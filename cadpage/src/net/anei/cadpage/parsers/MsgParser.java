@@ -512,7 +512,8 @@ public abstract class MsgParser {
    * MAP_FLG_ADD_DEFAULT_CNTY always add default county
    * MAP_FLG_SUPPR_DIRO suppresses [NEWS]O -> & adjustment
    * MAP_FLG_SUPPR_ADD_PLACE suppress logic to add place name to naked streets
-   * MAP_FLG_PREFER_GPS recomend GPS coordinates of map address for mapping purposes 
+   * MAP_FLG_PREFER_GPS recomend GPS coordinates of map address for mapping purposes
+   * MAP_FLG_CR_CRES convert CR to CRES instead of CIR 
    */
   public int getMapFlags() {
     return 0;
@@ -524,6 +525,7 @@ public abstract class MsgParser {
   public static final int MAP_FLG_SUPPR_ADD_PLACE = MsgInfo.MAP_FLG_SUPPR_ADD_PLACE;
   public static final int MAP_FLG_PREFER_GPS = MsgInfo.MAP_FLG_PREFER_GPS;
   public static final int MAP_FLG_SUPPR_SR = MsgInfo.MAP_FLG_SUPPR_SR;
+  public static final int MAP_FLG_CR_CRES = MsgInfo.MAP_FLG_CR_CRES;
 
 
   /**

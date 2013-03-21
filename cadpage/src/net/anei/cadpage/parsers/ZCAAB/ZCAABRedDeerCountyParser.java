@@ -18,12 +18,17 @@ public class ZCAABRedDeerCountyParser extends FieldProgramParser {
   
   protected ZCAABRedDeerCountyParser(String defCity) {
     super(defCity, "AB",
-           "Date:DATETIME! Type:CALL! Location:ADDR! Latitude:GPS? Longitude:GPS? Units_Responding:UNIT");
+           "Date:DATETIME! Type:CALL! Location:ADDR! Units:UNIT? Latitude:GPS? Longitude:GPS? Units_Responding:UNIT");
   }
   
   @Override
   public String getFilter() {
     return "reddeer911@reddeer.ca,messaging@iamresponding.com";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS | MAP_FLG_CR_CRES;
   }
   
   @Override

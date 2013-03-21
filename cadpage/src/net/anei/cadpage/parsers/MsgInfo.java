@@ -34,6 +34,9 @@ public class MsgInfo {
   
   // Suppress SR -> ST translation
   public static final int MAP_FLG_SUPPR_SR = 0x40;
+  
+  // convert CR -> CRES instead of CIR
+  public static final int MAP_FLG_CR_CRES = 0x80;
 
   private String strCall;
   private String strPlace;
@@ -524,7 +527,9 @@ public class MsgInfo {
   private String cleanStreetSuffix(String sAddr) {
     
     // CR is a very versatile abbreviation.  In New Zealand, it is an abbreviation for Crescent
-    if (countryCode == CountryCode.NZ) sAddr = CR_PTN.matcher(sAddr).replaceAll("CRES"); 
+    if (countryCode == CountryCode.NZ || (parser.getMapFlags() & MAP_FLG_CR_CRES) != 0) {
+      sAddr = CR_PTN.matcher(sAddr).replaceAll("CRES"); 
+    }
     
     // convert CR nn to COUNTY ROAD nn
     // we need to do this before we do the abbreviations converstions that will
