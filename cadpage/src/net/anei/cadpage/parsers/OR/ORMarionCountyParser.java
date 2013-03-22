@@ -19,7 +19,7 @@ public class ORMarionCountyParser extends FieldProgramParser {
   
   public ORMarionCountyParser() {
     super("MARION COUNTY", "OR",
-           "CALL ADDRCITY ( UNIT! MAP MAP | PLACE? MAP! CH UNIT ) INFO+");
+          "CALL ADDRCITY ( UNIT! MAP? | PLACE? MAP! CH UNIT ) INFO+");
   }
   
   @Override
@@ -124,16 +124,6 @@ public class ORMarionCountyParser extends FieldProgramParser {
     }
   }
   
-  private class MyMapField extends MapField {
-    @Override
-    public void parse(String field, Data data) {
-      if (field.length() == 0) return;
-      if (!field.startsWith("MAP-")) abort();
-      field = field.substring(4).trim();
-      super.parse(field, data);
-    }
-  }
-  
   private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("MM/dd/yyyy hh-mm-ss aa");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\d\\d?/\\d\\d?/\\d+.*");
   private class MyDateTimeField extends DateTimeField {
@@ -160,7 +150,7 @@ public class ORMarionCountyParser extends FieldProgramParser {
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("PLACE")) return new MyPlaceField();
-    if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("MAP")) return new MapField("MAP-(.*)", true);
     if (name.equals("DATETIME")) return new MyDateTimeField();
     return super.getField(name);
   }
