@@ -12,7 +12,7 @@ public class PAYorkCountyCParser extends FieldProgramParser {
   
   public PAYorkCountyCParser() {
     super(CITY_LIST, "YORK COUNTY", "PA",
-           "ADDR PLACE? CITY! APT ( EMPTY | X/Z+? MAP! ) CALL+ Units_Sent:SKIP UNIT");
+           "ADDR PLACE? CITY! APT ( EMPTY | X/Z+? MAPPHONE! ) CALL+ Units_Sent:SKIP UNIT");
   }
   
   @Override
@@ -70,8 +70,8 @@ public class PAYorkCountyCParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern MAP_PTN = Pattern.compile("(?:District: *)?(\\d\\d-?\\d\\d)");
-  private class MyMapField extends MapField {
+  private static final Pattern MAP_PHONE_PTN = Pattern.compile("(?:District: *)?(\\d\\d-?\\d\\d?)|Phone *(.*)");
+  private class MyMapPhoneField extends Field {
     @Override
     public boolean canFail() {
       return true;
@@ -79,16 +79,25 @@ public class PAYorkCountyCParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      Matcher match = MAP_PTN.matcher(field);
+      Matcher match = MAP_PHONE_PTN.matcher(field);
       if (!match.matches()) return false;
-      data.strMap = match.group(1);
+      String map = match.group(1);
+      if (map != null) {
+        data.strMap = match.group(1);
+      } else {
+        data.strPhone = match.group(2);
+      }
       return true;
     }
     
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("District:")) field = field.substring(9).trim();
-      data.strMap = field;
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "MAP PHONE";
     }
   }
   
@@ -97,7 +106,7 @@ public class PAYorkCountyCParser extends FieldProgramParser {
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("EMPTY")) return new SkipField("", true);
-    if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("MAPPHONE")) return new MyMapPhoneField();
     return super.getField(name);
   }
   
