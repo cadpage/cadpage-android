@@ -19,17 +19,12 @@ public class ORMarionCountyParser extends FieldProgramParser {
   
   public ORMarionCountyParser() {
     super("MARION COUNTY", "OR",
-           "CALL ADDRCITY ( UNIT! MAP MAP | PLACE? MAP CH UNIT! ) INFO+");
+           "CALL ADDRCITY ( UNIT! MAP MAP | PLACE? MAP! CH UNIT ) INFO+");
   }
   
   @Override
   public String getFilter() {
     return "Dispatch@ci.woodburn.or.us";
-  }
-  
-  @Override
-  public String getProgram() {
-    return "CALL " + super.getProgram();
   }
 
   @Override
@@ -49,7 +44,14 @@ public class ORMarionCountyParser extends FieldProgramParser {
     // And a MAP::<code> construct
     body = MAP_PTN.matcher(body).replaceFirst(":MAP-$1:");
     
-    return parseFields(body.split(":", -1), data);
+    String[] flds = body.split(":", -1);
+    if (flds.length == 1) {
+      setFieldList("ADDR APT CALL");
+      parseAddress(StartType.START_ADDR, body, data);
+      data.strCall = getLeft();
+      return getStatus() > 0;
+    }
+    return parseFields(flds, data);
   }
   
   private class MyAddressCityField extends AddressCityField {
