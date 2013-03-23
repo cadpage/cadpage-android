@@ -4,7 +4,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 
@@ -19,7 +18,7 @@ public class WVKanawhaCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "METRO911@metro911.org";
+    return "@metro911.org";
   }
   
   @Override
