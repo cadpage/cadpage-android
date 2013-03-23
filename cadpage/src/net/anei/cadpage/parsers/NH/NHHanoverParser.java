@@ -14,7 +14,7 @@ public class NHHanoverParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "DISPATCH@HANOVER.PD,HDISPATCH@HOLLISNH.ORG";
+    return "DISPATCH@HANOVER.PD,HDISPATCH@HOLLISNH.ORG,messaging@iamresponding.com";
   }
 
   @Override
@@ -84,6 +84,7 @@ public class NHHanoverParser extends FieldProgramParser {
   }
   
   private static final String[] CITY_LIST = new String[]{
+    "BEDFORD",
     "BRADFORD",
     "BROOKLINE",
     "HANOVER",
