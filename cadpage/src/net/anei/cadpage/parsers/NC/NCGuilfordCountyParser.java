@@ -12,11 +12,11 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
  */
 public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
-  private static final Pattern MARKER = Pattern.compile("^[\\w@\\-\\.]+? *[\n:](?=CAD:)");
+  private static final Pattern MARKER = Pattern.compile("^(?:\\d{1,4}:)?[\\w@\\-\\.]+? *[\n:](?=CAD:)");
   
   public NCGuilfordCountyParser() {
     super("GUILFORD COUNTY", "NC",
-           "FYI? ( CALL2 ADDR! | PRI/Z MUTUAL ADDR! | ( SRC SRC PRI | PRI? ) CODE? CALL ADDR! ) ( X X? | PLACE X X? | ) ( PRI UNIT SRC SRC | ) XINFO+? UNIT END");
+           "FYI? ID? ( CALL2 ADDR! | PRI/Z MUTUAL ADDR! | ( SRC SRC PRI | PRI? ) CODE? CALL ADDR! ) EXTRA? ( X X? | PLACE X X? | ) ( PRI UNIT SRC SRC | ) XINFO+? UNIT");
   }
   
   @Override
@@ -80,10 +80,37 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   }
   
   private static final Pattern CODE_PTN = Pattern.compile("\\d\\d[A-Z]\\d\\d[A-Za-z]?");
-  private static final Pattern APT_PTN = Pattern.compile("(?:APT |RM:) *(.*)");
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT |RM:|ROOM ) *([^ ]*) *(.*)");
   private class MyCodeField extends CodeField {
     public MyCodeField() {
       setPattern(CODE_PTN, true);
+    }
+  }
+  
+  // Extra information field
+  private class ExtraField extends SkipField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.startsWith("DIST:")) {
+        data.strSupp = field;
+        return true;
+      }
+      if (field.startsWith("APT ")) {
+        data.strApt = field.substring(4).trim();
+        return true;
+      }
+      return false;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO APT";
     }
   }
   
@@ -92,17 +119,18 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     @Override
     public void parse(String field, Data data) {
       String city = CITY_CODES.getProperty(field);
-      Matcher match;
+      Matcher match = APT_PTN.matcher(field);
+      if (match.matches()) {
+        data.strApt = append(data.strApt, " - ", match.group(1));
+        field = match.group(2);
+        if (field.length() == 0) return;
+      }
       if (city != null) {
         data.strCity = city;;
       } else if (field.startsWith("TAC ")) {
         data.strChannel = field;
-      } else if ((match = APT_PTN.matcher(field)).matches()) {
-        data.strApt = append(data.strApt, " - ", match.group(1));
       } else if (data.strCode.length() == 0 && CODE_PTN.matcher(field).matches()) {
         data.strCode = field;
-//      } else if (checkAddress(field) > 0) {
-//        data.strCross = append(data.strCross, " & ", field);
       } else if (data.strCall.length() == 0) {
         data.strCall = field;
       } else {
@@ -118,10 +146,12 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
 
   @Override
   protected Field getField(String name) {
+    if (name.equals("ID")) return new IdField("\\d{7,}", true);
     if (name.equals("CALL2")) return new Call2Field();
     if (name.equals("MUTUAL")) return new MutualField();
     if (name.equals("SRC")) return new MySourceField();
     if (name.equals("PRI")) return new PriorityField("\\d", true);
+    if (name.equals("EXTRA")) return new ExtraField();
     if (name.equals("CODE")) return new MyCodeField();
     if (name.equals("XINFO")) return new CrossInfoField();
     if (name.equals("UNIT")) return new UnitField("[A-Z]+\\d+(?:,[A-Z]+\\d+)*", true);
