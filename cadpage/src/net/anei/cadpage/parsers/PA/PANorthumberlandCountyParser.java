@@ -31,6 +31,21 @@ public class PANorthumberlandCountyParser extends FieldProgramParser {
     return parseFields(DELIM.split(body), data);
   }
   
+  private static final Pattern UNIT_SPACE_PTN = Pattern.compile("(?<=[A-Z]) +(?=\\d)");
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      field = UNIT_SPACE_PTN.matcher(field).replaceAll("_");
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("UNIT")) return new MyUnitField();
+    return super.getField(name);
+  }
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "COA", "COAL",
       "NOB", "NORTHUMBERLAND",
