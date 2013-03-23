@@ -153,7 +153,10 @@ public class CTTollandCountyParser extends SmartAddressParser {
     // Windham county
     "ASHFORD",
     "WILLIMANTIC",
-    "WINDHAM"
+    "WINDHAM",
+    
+    // Hartford County
+    "BROAD BROOK"
   };
 
 }
