@@ -14,24 +14,30 @@ import java.util.TreeMap;
 public class CodeTable {
   
   public static class Result {
-    private Map.Entry<String,String> entry;
     private String code;
+    private String description;
+    private String remainder;
     
-    private Result(Map.Entry<String,String> entry, String code) {
-      this.entry = entry;
+    private Result(Map.Entry<String,String> entry, String text) {
+      this.code = entry.getKey();
+      this.description = entry.getValue();
+      this.remainder = text.substring(code.length()).trim();
+    }
+    
+    void setCode(String code) {
       this.code = code;
     }
     
     public String getCode() {
-      return entry.getKey();
+      return code;
     }
     
     public String getDescription() {
-      return entry.getValue();
+      return description;
     }
     
     public String getRemainder() {
-      return code.substring(entry.getKey().length()).trim();
+      return remainder;
     }
   }
   
@@ -48,6 +54,10 @@ public class CodeTable {
     for (int ndx = 0; ndx < table.length; ndx += 2) {
       codeMap.put(table[ndx], table[ndx+1]);
     }
+  }
+  
+  protected void put(String key, String value) {
+    codeMap.put(key, value);
   }
 
 

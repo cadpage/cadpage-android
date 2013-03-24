@@ -1832,6 +1832,11 @@ QVFCNGPU Sebz WQ112:51N, Nhgb Sver Nynez, 107 YNXR YLAA QE, UL, ogja GHYYREVRF T
 QVFCNGPU Sebz TQ01:47T, Vairfgvt Tnfbyva, TERGAN OYIQ/ORYYR PUNFFR UJL, TE,  <599/ 3095>, QPS, PE4, CEBCNAR GNAX SRYY BIRE OL GUR JNGRE GBJRE VF YRNXVAT, Havgf:RT2, FGN46 - UISP Sver 
 QVFCNGPU Sebz WQ103:51N, Nhgb Sver Nynez, 2800 CRGREF EQ, UL, ogja ONLBH EQ naq ENZC, 6QS, 6203, OHFPMREB WNZRFGBJA JNERUBHFR JNGRE SYBJ JNERUBHFR, Havgf:R616, R626, Y627, FGN61 - UISP Sver 
 ***************************************************************************
+Ybhvfivyyr, XL (XLYbhvfivyyrCnefre)
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: F 4GU FG/J BNX FG YIVY GLCR PBQR: 12Q02 FHO GLCR: qrsnhyg GVZR: 13:37:05 Pbzzragf:  FRVMHER CebDN qvfcngpu pbqr: 12Q02 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub unf unq n frvmher. Gur cngvrag vf n 49-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. PBAGVAHBHF be ZHYGVCYR frvmherf. PBAGVAHBHF be ZHYGVCYR frvmherf. 49-50 LBS TEA FUVEG, OYX WNPXRG, GNA CNAGF, NG OHF FGBC WHFG PBZVAT BHG BS FRVMHER, ABG NYREG 2081-1/PURFGAHG 
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4320 GHYVC TEBIR PG YIVY GLCR PBQR: 28P04K FHO GLCR: qrsnhyg GVZR: 11:04:46 Pbzzragf:  QVMML CebDN qvfcngpu pbqr: 31P02 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub vf hapbafpvbhf (be unf snvagrq). Gur cngvrag vf n 75-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. Snvagvat rcvfbqr(f) naq nyreg => 35 (jvgu pneqvnp uvfgbel). Snvagvat rcvfbqr(f) naq nyreg => 35 (jvgu pneqvnp uvfgbel). -Pbzzragf: INYIR ERCYNPRZRAG 1 LE NTB- SRRYVAT SNVAG, QVMML, AHZOARFF VA UVF GBATHR NAQ YVCF XB NAPU 
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: WHARNH QE/FURYOLIVYYR EQ ZGJA GLCR PBQR: 31N01 FHO GLCR: qrsnhyg GVZR: 10:05:30 Pbzzragf:  SRZNYR SRYY CebDN qvfcngpu pbqr: 31N01 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub vf hapbafpvbhf (be unf snvagrq). Gur cngvrag vf n 58-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. Snvagvat rcvfbqr(f) naq nyreg => 35 (jvgubhg pneqvnp uvfgbel). Snvagvat rcvfbqr(f) naq nyreg => 35 (jvgubhg pneqvnp uvfgbel). NG ZPQBANYQF BA GUR FVQR VF FVGGVAT VA URE IRU ZREPRQRF 
+***************************************************************************
 Bksbeq Pbhagl, ZR (ZRBksbeqPbhaglCnefre)
 258:Qvfcngpu:20 fcehpr fg ehzsbeq... zrk sq 1 ratvar gb fpa fzbxr va ohvyq ercbeg
 262:Qvfcngpu:2 iru 10-55 va nern bs 25 Evire Eq nveont qrcyblzrag

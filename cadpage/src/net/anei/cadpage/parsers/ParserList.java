@@ -282,6 +282,7 @@ public class ParserList {
               ,"KYBullittCounty"                ,"Bullit County, KY"
               ,"KYDaviessCounty"                ,"Daviess County, KY"
               ,"KYErlangerDispatch"             ,"Erlanger Dispatch, KY"
+              ,"KYLouisville"                   ,"Louisville, KY"
               ,"KYMuhlenbergCounty"             ,"Muhlenberg County, KY"
               ,"KYOldhamCounty"                 ,"Oldham County, KY"
           ),
