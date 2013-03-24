@@ -16,6 +16,10 @@ PG:RZF R 1295 R UBZOER QE PGJQ OBK:3060 QHR:P314
 PG:RZF R 1295 R UBZOER QE PGJQ OBK:3060 QHR:R411 N-IISQ GVCF A-IIQP
 PG:RZF 1295 R UBZOER QE PGJQ OBK:3060 QHR:PU7EN R311 N311
 
+Pbagnpg: wbqryyzbber@pnoyrbar.arg <wbqryyzbber@pnoyrbar.arg>
+Fraqre: 418@frqbansver.bet
+PG:FCRP VAINYVQ NFFVFG 521 GBQQ PVE PYX OBK:2120 QHR:PU7EN FQ210
+
 */
 
 choyvp pynff NMLnincnvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -75,6 +79,19 @@ choyvp pynff NMLnincnvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:3060",
         "HAVG:PU7EN R311 N311");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbqryyZbber() {
+
+    qbGrfg("G1",
+        "PG:FCRP VAINYVQ NFFVFG 521 GBQQ PVE PYX OBK:2120 QHR:PU7EN FQ210",
+        "PNYY:FCRP VAINYVQ NFFVFG",
+        "NQQE:521 GBQQ PVE",
+        "PVGL:PYNEXQNYR",
+        "OBK:2120",
+        "HAVG:PU7EN FQ210");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

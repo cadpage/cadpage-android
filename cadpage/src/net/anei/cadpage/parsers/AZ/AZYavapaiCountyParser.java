@@ -4,7 +4,6 @@ package net.anei.cadpage.parsers.AZ;
 import java.util.Properties;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * Mesa, AZ (Maricopa County)
@@ -23,6 +22,7 @@ public class AZYavapaiCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CLK",   "CLARKDALE",
       "CTWD",  "COTTONWOOD"
   });
 }
