@@ -459,6 +459,7 @@ public class ParserList {
               ,"NCCabarrusCounty"               ,"Cabarrus County, NC"
               ,"NCCaldwellCounty"               ,"Caldwell County, NC"
               ,"NCCarteretCounty"               ,"Carteret County, NC"
+              ,"NCCaswellCounty"                ,"Caswell County, NC"
               ,"NCCatawbaCounty"                ,"Catawba County, NC"
               ,"NCChathamCounty"                ,"Chatham County, NC"
               ,"NCClevelandCounty"              ,"Cleveland County, NC"

@@ -163,10 +163,10 @@ choyvp pynff APUnearggPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:NAQREFBA FG / NAQREFBA FG",
         "ANZR:NNE CBJRE OBFF",
         "CUBAR:9109449018",
-        "VQ:2012000773",
+        "VQ:201207-17",
         "GVZR:15:38:54",
         "PNYY:GRFG PNYY GLCR",
-        "VASB:grfg BPN: 201207-17");
+        "VASB:grfg");
 
     qbGrfg("G13",
         "2012000774 TVAB(RA)10:51:45|TVAB(VAS)14:06:24|TVAB(BF)12:47:42|TVAB(PY)12:48:30|",
@@ -210,6 +210,6 @@ choyvp pynff APUnearggPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj APUnearggPbhaglOCnefreGrfg().trarengrGrfgf("G1", "CYNPR NQQE PVGL K ANZR CUBAR PBQR VQ GVZR PNYY VASB");
+    arj APUnearggPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
 }

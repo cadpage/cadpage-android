@@ -38,6 +38,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
+  private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-0-9]+)$");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{2,4}-?\\d{4,8}$");
   private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /]+)\\b[ \\.,-]*");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
@@ -124,6 +125,13 @@ public class DispatchSouthernParser extends FieldProgramParser {
       data.strCallId = match.group();
       sAddr = sAddr.substring(0,match.start()).trim();
     } else if (!idOptional) return false;
+    
+    // See if there is a labeled OCA field at the end of the extra block
+    match = OCA_TRAIL_PTN.matcher(sExtra);
+    if (match.find()) {
+      data.strCallId = match.group(1).trim();
+      sExtra = sExtra.substring(0,match.start()).trim();
+    }
     
     if (sAddr.length() > 0) {
       parseMain(sAddr, data);
@@ -331,7 +339,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (name.equals("PHONE")) return new PhoneField("\\d{10}");
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("ID2")) return new IdField("\\d{6}-\\d{4}");
+    if (name.equals("ID2")) return new IdField("\\d{6}-\\d{2,4}");
     return super.getField(name);
   }
 }

@@ -1028,6 +1028,11 @@ PRP:303 PBYYRTR PVE ZBERURNQ PVGL SQY 52P03-T 11-090057 12:36:58 NYNEZ SVER
 PRP:3905 NERAQRYY FG ZBERURNQ PVGL ZQY 30O01 11-090021 11:38:14 GENHZNGVP VAWHEVRF
 PRP:828 F LNHCBA GRE ZBERURNQ PVGL 11-089759 20:36:57 PURPX JRYSNER
 **********************************************************
+Pnfjryy Pbhagl, AP (APPnfjryyPbhaglCnefre)
+WXLYNAQRE:764 YBIRYNPR EQ CRYUNZ 201301769 14:45:11 CBJRE,CUBAR YVAR/GERR QBJA GERR QBJA NPEBFF CBJRE YVAR, EBNQJNL OYBPXRQ, TENFF SVER VA GUR SEBAG L
+EWRSSREFBA:89 FHTNE ZNCYR YA CRYUNZ 201301628 12:18:43 FZBXR VAIRFGVTNGVBA BPN: 201302-24
+UTJLAA:2583 PUNAQYREF ZVYY EQ CRYUNZ ZQY 01P03 201301602 12:43:14 ZRQVPNY CEBDN BPN: 201302-23
+**********************************************************
 Pungunz Pbhagl, AP (APPungunzPbhaglCnefre)
 URNGURE.OBBAR:399 YLAQSVRYQ PYBFR CVGGFOBEB ZQY 10Q04 1119468 18:13:33 Purfg Cnvaf- Pynzzl UHFONAQ UNIVAT PURFG CNVAF - RZRE
 URNGURE.OBBAR:791 ERQ TNGR EQ CVGGFOBEB 1119520 05:38:59 zrqvpny pnyy UHFONAQ BSS ONYPBAL
@@ -5590,17 +5595,9 @@ Pbagnpg: Xreba Puneyrf <xreba.puneyrf001@tznvy.pbz>
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  ERNQL GB EBYY ******************************
 **********************************************************
 **********************************************************
-Pnfjryy Pbhagl, AP
-Pbagnpg: Wbfu Orasvryq <wuorasvryq@tznvy.pbz>
-Fraqre: @pnfjryypbhaglap.tbi
-WXLYNAQRE:764 YBIRYNPR EQ CRYUNZ 201301769 14:45:11 CBJRE,CUBAR YVAR/GERR QBJA GERR QBJA NPEBFF CBJRE YVAR, EBNQJNL OYBPXRQ, TENFF SVER VA GUR SEBAG L
-EWRSSREFBA:89 FHTNE ZNCYR YA CRYUNZ 201301628 12:18:43 FZBXR VAIRFGVTNGVBA BPN: 201302-24
-UTJLAA:2583 PUNAQYREF ZVYY EQ CRYUNZ ZQY 01P03 201301602 12:43:14 ZRQVPNY CEBDN BPN: 201302-23
-ZPBR:3065 BYQ HF UJL 29 CRYUNZ ZQY 06Q02-N 201301563 11:25:59 ZRQVPNY CEBDN pbawrfgvir urneg snvyher qrpernfrq b2 fgngf jvgu fjryyvat 66 lbs BPN: 201302-21
 **********************************************************
 Fbfubar Pbhagl, VQ
 Pbagnpg: Ovyy Ubyfgrva <jnubyfgrva@lnubb.pbz>
@@ -5711,6 +5708,62 @@ F:!  Z:3/21/2013 11:33:27 NZ  Yvsg Nffvfg \a211 ONEYBJ FG, Pnir Whapgvba  FUREJB
 F:!  Z:3/22/2013 11:53:33 NZ  GE3 - Genhzngvp Vawhel \aVAQVNA PERRX EQ@ QENCRE INYYRL EQ , Fryzn  Ab Pebff Fgerrgf Sbhaq\aHavgf:8932, Z4, 8900  \a54 LB ZNYR\aPBA/OERNGUVAT\aHCCRE YRT\aVAQVNAQ PERRX YBTTVAT BCRENGVBA   \a\a
 F:!  Z:3/22/2013 2:24:54 NZ  Yvsg Nffvfg \a222 BYYVF EQ 72 , Pnir Whapgvba  J EVIRE FG / QRNQ RAQ\aHavgf:8931, 8951, 8953  \aAB VAWHERQ \a79LBZ\aP/O \aERS: 143336848\aCU: 541-592-3704\aJVSR BF: ZVPURYYR  NAQ W..\3f\a\a
 F:!  Z:3/23/2013 1:20:30 CZ  GN2 - Genssvp Nppvqrag Ynar Oy \a18092 ERQJBBQ UJL, Fryzn  QENCRE INYYRL EQ / PYRNE PERRX EQ\aHavgf: 8932, 8900  \aUNF ABG GNYXRQ GB NAL QEVIREF\aVA GUR QVGPU\aSHYY FVMR INA JUVGR \aABG NOYR GB FRR..\3f\a\a
+**********************************************************
+Pneebyy Pbhagl, BU
+Pbagnpg: Qnivq Urff <ssurff@tznvy.pbz>
+Fraqre: vnzerfcbaqvat.pbz
+Flfgrz: Abznq Cntvat Flfgrz??
+WPBZ... EP:Rzretrapl/FGEBXR/508 NAGVTHN EQ//PNEEBYYGBA/Cbffvoyr PIN////10:53/1.7 az///<Haxabja>/Eha# 9888
+WPBZ... EP:Rzretrapl/Qvnorgvp Rzretrapl/104 NFGRE EQ FR//PNEEBYYGBA/60 lbz qvnorgvp-nygrerq YBP/911ppfb////18:36/7.0 az///<Haxabja>/Eha# 9169
+WPBZ... EP:Rzretrapl/Urneg/2081 JNLARFOHET EQ AJ//PNEEBYYGBA/ryqreyl srznyr ybj chyfr engr 30'f////11:41/2.1 az///<Haxabja>/Eha# 8516
+WPBZ... EP:Rzretrapl/Trareny Vyyarff/Pneebyy Tbyqra Ntr Ergerng (N)/JNEQ/PNEEBYYGBA/ORGGL ORNQARYY - JNF VA ERFC QVFGERFF - RZRAFVF K2 - GRZC 104.1////18:23/1.4 az///<Haxabja>/Eha# 8280
+WPBZ... EP:Rzretrapl/FGEBXR/6342 YLAA EQ AR//ZVAREIN/75 lbz cbff pin-cev pnyy////19:47/4.9 az///<Haxabja>/Eha# 8145
+WPBZ... EP:Rzretrapl/Snyy/2092 CNANZN EQ//PNEEBYYGBA/2 lbz Sryy / abg zbivat uvf urnq////09:42/4.7 az///<Haxabja>/Eha# 8249
+WPBZ... EP:Rzretrapl/OYRRQVAT - HAPBAGEBYYRQ/Zrepl Fgng Pner- Pneebyygba (911)//PNEEBYYGBA/cnegvny nzchgngvba bs y guhzo / 51 lbz////14:59/1.2 az///<Haxabja>/Eha# 40967
+WPBZ... EP:Rzretrapl/OYRRQVAT - HAPBAGEBYYRQ/Zrepl Fgng Pner- Pneebyygba (911)//PNEEBYYGBA/cnegvny nzchgngvba bs y guhzo / 51 lbz////14:59/1.2 az///<Haxabja>/Eha# 40967
+WPBZ... EP:Rzretrapl/Cnva - UVC/8240 PYBIRE EQ AR//ZRPUNAVPFGBJA/Uvc naq yrt cnva / evtug arkg gb Sbk Tnentr////08:05/7.8 az///<Haxabja>/Eha# 41101
+WPBZ... EP:Rzretrapl/Trareny Vyyarff/144 2AQ FG AJ//PNEEBYYGBA/24lbs/ cbff pbagenpgvbaf 28 jrrxf -- onpx cnexvat ybg////15:10/1.5 az///<Haxabja>/Eha# 40185
+WPBZ... EP:Rzretrapl/ZIN/YNENZVR EQ & PNAGBA EQ AJ//PNEEBYYGBA/zin 4 pne penfu////09:46/4.6 az///<Haxabja>/Eha# 40908
+WPBZ... EP:Rzretrapl/CNVA - NOQBZVANY/4257 WNQR EQ AJ//QRYYEBL/60 lbz/ cbff vzcnpgrq objry/ qbjaf flaqebzr / pne911////01:10/3.6 az///<Haxabja>/Eha# 478
+WPBZ... EP:Rzretrapl/Purfg Cnva/Zrepl Fgng Pner- Pneebyygba (911)/jnvgvat ez/PNEEBYYGBA/znyr/ purfg cnvaf////07:53/1.2 az///<Haxabja>/Eha# 40618
+WPBZ... EP:Rzretrapl/Purfg Cnva/Zrepl Fgng Pner- Pneebyygba (911)//PNEEBYYGBA/46 lbz purfg cnva/ qlfcarn/ 3 onol nfn tvira/ oenqlpneqvn////17:53/1.2 az///<Haxabja>/Eha# 40076
+WPBZ... EP:Rzretrapl/FRVMHERF/6084 XRAFVATGBA EQ AR//PNEEBYYGBA/25 lbz frvmher / pp911////03:46/6.2 az///<Haxabja>/Eha# 41972
+WPBZ... EP:Rzretrapl/ZIN/6118 FNYVARIVYYR EQ//ZRPUNAVPFGBJA/Xnatnebb Pebffvat / ZIN////13:34/5.6 az///<Haxabja>/Eha# 1463
+WPBZ... EP:Rzretrapl/Qlfcarn/5100 CVAGB EQ FR//PNEEBYYGBA/puevf gnygl fbo/ va n ebyy bss gehpx////14:52/6.0 az///<Haxabja>/Eha# 1593
+WPBZ... EP:Rzretrapl/OYRRQVAT - HAPBAGEBYYRQ/2292 JNLARFOHET EQ AJ//PNEEBYYGBA/srznyr/ univat abfr oyrrqf/ naq pbhtuvat hc oybbq////02:27/2.4 az///<Haxabja>/Eha# 2305
+WPBZ... EP:Rzretrapl/Trareny Vyyarff/Fhaalfybcr Ahefvat Ubzr (N)/q 12- orq o/OBJREFGBA/qnex oebja rzrafvf////07:40/11.3 az///<Haxabja>/Eha# 4329
+WPBZ... EP:Rzretrapl/Purfg Cnva/66 4GU FG AR//PNEEBYYGBA/znyr jvgu purfg cnvaf/ tvira 81 zt onol nfn tvira / pp911////03:42/1.5 az///<Haxabja>/Eha# 639
+WPBZ... EP:Rzretrapl/Cflpuvnpgevp/20 A YVOREGL FG//QRYYEBL/Cbff Fhvpvqny Fhowrpg / Jnf gnyxvat ba gur cubar jvgu ure jura gur cubar jrag qrnq naq gurl pbhyq abg ernpu ure / PPFB////07:49/5.3 az///<Haxabja>/Eha# 1452
+WPBZ... EP:Rzretrapl/OYRRQVAT - HAPBAGEBYYRQ/4334 YHANE EQ//PNEEBYYGBA/Srznyr sryy bss ubefr / Fbhgu bs Fcevat////13:39/2.1 az///<Haxabja>/Eha# 4882
+WPBZ... EP:Rzretrapl/Qvmmvarff/160 NEEBJ EQ FJ//PNEEBYYGBA/77 lbz qvmml pna'g trg bhg bs orq - onfrzrag qbbe / cevi pnyyre////07:08/3.2 az///<Haxabja>/Eha# 4863
+WPBZ... EP:Rzretrapl/Trareny Vyyarff/3072 PNAGBA EQ AJ//PNEEBYYGBA/Z cbff aba oerngure////12:10/1.6 az///<Haxabja>/Eha# 4802
+WPBZ... EP:Rzretrapl/ZIN/FG UJL 43/a/b tnyyb eq//zin cbff ragenczrag/ ppfb////00:47/0.0 az///<Haxabja>/Eha# 5344
+WPBZ... EP:Rzretrapl/ZIN/FGNGR UJL 39 & OHEEBJ EQ//PNEEBYYGBA/1 pne ebyy bire/ cbff 6 xvqf vaw////16:41/3.8 az///<Haxabja>/Eha# 3136
+WPBZ... EP:Rzretrapl/HAERFCBAFVIR/592 6GU FG AJ/pneebyy ynarf/PNEEBYYGBA/erfgnenhag znyr abg erfcbaqvat pp911////10:13/1.1 az///<Haxabja>/Eha# 3553
+WPBZ... EP:Rzretrapl/Purfg Cnva/5135 NYYVNAPR EQ AJ//ZNYIREA/purfg cnva////04:05/7.0 az///<Haxabja>/Eha# 4472
+WPBZ... EP:Rzretrapl/Snyy/6065 YLAA EQ AR//ZVAREIN/srznyr / vyy/ snyy fgvyy ba gur tebhaq ibzvgvat////13:17/4.7 az///<Haxabja>/Eha# 2562
+WPBZ... EP:Rzretrapl/FRVMHERF/FGNGR UJL 542 & ZNVA FG//QRYYEBL/Frvmherf / Juvgr perj pno jbex gehpx////08:32/5.5 az///<Haxabja>/Eha# 2312
+WPBZ... EP:Rzretrapl/Qvmmvarff/23550 FNAQL PERRX EQ//ZVAREIN/znyr yvtugurnqrq qvmml gheabire sebz fzvgu////13:25/9.2 az///<Haxabja>/Eha# 5862
+WPBZ... EP:Rzretrapl/ZIN/TREZNAB EQ FR & PBAQBE EQ//PNEEBYYGBA/2 PNE ZIN - PPFB - ARNE PBAQBER EQ////14:07/5.7 az///<Haxabja>/Eha# 6003
+WPBZ... EP:Rzretrapl/CNVA - NOQBZVANY/Zrepl Fgng Pner- Pneebyygba (911)//PNEEBYYGBA/41 lbs Frirer Noqbzvany cnva////10:16/1.2 az///<Haxabja>/Eha# 5727
+WPBZ... EP:Rzretrapl/Purfg Cnva/5075 JNLARFOHET EQ AJ//PNEEBYYGBA/Purfg Cnvaf enqvngvat gb nezf////21:08/4.8 az///<Haxabja>/Eha# 6058
+WPBZ... EP:Rzretrapl/Trareny Vyyarff/7194 ONEAUBHFR FG FJ//PNEEBYYGBA/srznyr tra vyyarff/ uk qvnovgvrf/ whfg gbbx vafhyva/ ppfb////05:54/8.4 az///<Haxabja>/Eha# 6086
+WPBZ... EP:Rzretrapl/Qvnorgvp Rzretrapl/463 PNAGBA EQ//PNEEBYYGBA/Dhvx Yhor / Qvnorgvp / PPFB////17:27/1.0 az///<Haxabja>/Eha# 7695
+WPBZ... EP:Rzretrapl/Senpgher/1165 OEHFFRY EQ//PNEEBYYGBA/Oenpr Cnq / Zvat Eq / Pnoyr oebxr naq uvg cngvrag / Cbff oebxra onpx / Ybat 40 62 0214 Yng 810504 / PPFB////16:03/3.0 az///<Haxabja>/Eha# 6757
+WPBZ... EP:Rzretrapl/HAERFCBAFVIR/151 FPVB EQ FR//PNEEBYYGBA/86 lbz hanoyr gb jnxr uvz hc/ vf oernguvat////09:47/1.8 az///<Haxabja>/Eha# 7747
+WPBZ... EP:Rzretrapl/FRVMHERF/552 OENZOYR EQ FJ//PNEEBYYGBA/48 lbz frvmherf/ pp911////18:45/7.7 az///<Haxabja>/Eha# 42055
+WPBZ... EP:Rzretrapl/Haxabja Zrqvpny/1226 YVAPBYA NIR AJ//PNEEBYYGBA/1 LE BYQ HAERFCBAFVIR/ PP911////22:55/0.7 az///<Haxabja>/Eha# 7054
+WPBZ... EP:Rzretrapl/Trareny Vyyarff/3313 YHANE EQ//PNEEBYYGBA/FHFL EBUERE - FVPX SBE BIRE 24 UEF - PP911////11:27/2.4 az///<Haxabja>/Eha# 6604
+WPBZ... EP:Rzretrapl/Qvnorgvp Rzretrapl/1460 NAQBEN EQ AR//PNEEBYYGBA/34 S qvnorgvp rzretrapl ybj fhtne////19:26/1.9 az///<Haxabja>/Eha# 7843
+WPBZ... EP:Rzretrapl/Qvnorgvp Rzretrapl/5850 ZRGRE EQ//ZRPUNAVPFGBJA/S/ ERPRAGYL CERTANAG/QVNORGVP- CBFF FRVMHER////18:29/6.6 az///<Haxabja>/Eha# 5918
+WPBZ... EP:Rzretrapl/Snyy/204 GVZOREYVAR YA FJ//PNEEBYYGBA/72 lbz snyy fgvyy qbja/ ynp gb snpr/ ppfb////02:07/3.9 az///<Haxabja>/Eha# 6800
+WPBZ... EP:Rzretrapl/CNVA - NOQBZVANY/Pneebyy Pbhagl Wnvy//PNEEBYYGBA/Noqbzvany cnva / Ibzvgvat////13:18/1.7 az///<Haxabja>/Eha# 40316
+WPBZ... EP:Rzretrapl/ZIN/FGNGR UJL 9/abegu bs neobe/PNEEBYYGBA/jngre gehpx fvqrjnlf/ zin haxabja vawhel/ pp911////23:01/7.3 az///<Haxabja>/Eha# 7857
+WPBZ... EP:Rzretrapl/HAERFCBAFVIR/592 12GU FG AJ//PNEEBYYGBA/qvfpbhag qeht zneg////13:49/0.6 az///<Haxabja>/Eha# 5287
+WPBZ... EP:Rzretrapl/Purfg Cnva/10490 FNYVARIVYYR EQ AR//FNYVARIVYYR/79 lbz purfg cnva-cev pnyy////19:46/9.8 az///<Haxabja>/Eha# 42653
+WPBZ... EP:RWPBZ... EP:Rzretrapl/Purfg Cnva/10490 FNYVARIVYYR EQ AR//FNYVARIVYYR/79 lbz purfg cnva-cev pnyy////19:46/9.8 az///<Haxabja>/Eha# 42653
+WPBZ... EP:Rzretrapl/Purfg Cnva/10490 FNYVARIVYYR EQ AR//FNYVARIVYYR/79 lbz purfg cnva-cev pnyy////19:46/9.8 az///<Haxabja>/Eha# 4265
+WPBZ... EP:Rzretrapl/CNVA - NOQBZVANY/Pneebyy Pbhagl Wnvy//PNEEBYYGBA/Noqbzvany cnva / Ibzvgvat////13:18/1.7 az///<Haxabja>/Eha# 40316
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
 Pbagnpg: wrerzl ubsszna <sverznaw79@tznvy.pbz>
