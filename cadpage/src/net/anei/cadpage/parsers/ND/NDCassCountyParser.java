@@ -15,6 +15,7 @@ public class NDCassCountyParser extends SmartAddressParser {
  
   public NDCassCountyParser() {
     super(CITY_CODES, "CASS COUNTY", "ND");
+    setFieldList("CALL ADDR APT CITY PLACE DATE TIME ID INFO UNIT");
   }
   
   @Override
