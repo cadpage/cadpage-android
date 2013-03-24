@@ -1,28 +1,19 @@
 package net.anei.cadpage.parsers.CT;
 
 
-import net.anei.cadpage.parsers.FieldProgramParser;
-
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA16Parser;
 /**
  * New London County, CT
  */
-public class CTNewLondonCountyParser extends FieldProgramParser {
+public class CTNewLondonCountyParser extends DispatchA16Parser {
   
   public CTNewLondonCountyParser() {
-    super(CITY_LIST, "NEW LONDON COUNTY", "CT",
-          "CALL PLACENAME? ADDR/S! CITY? INFO+ Fire_District:UNIT DATETIME");
+    super(CITY_LIST, "NEW LONDON COUNTY", "CT");
   }
 
   @Override
   public String getFilter() {
     return "@montville-ct.org,dispatch@mail.eastlyme911.gov,ledyard911@ct.org";
-  }
-  
-  @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Imc Solutions Page")) return false;
-    return parseFields(body.split("\n"), 4, data);
   }
   
   private static final String[] CITY_LIST= new String[]{

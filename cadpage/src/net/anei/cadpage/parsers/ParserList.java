@@ -230,6 +230,7 @@ public class ParserList {
               ,"IDBlaineCounty"                 ,"Blaine County, ID"
               ,"IDGoodingCounty"                ,"Gooding County, ID"
               ,"IDKootenaiCounty"               ,"Kootenai County, ID"
+              ,"IDShoshoneCounty"               ,"Shoshone County, ID"
           ),
           new ParserCategory("Illinois"
               ,"ILChampaignUrbana"              ,"Champaign-Urbana, IL"
