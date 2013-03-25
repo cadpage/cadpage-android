@@ -3,47 +3,57 @@ package net.anei.cadpage.parsers.DE;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.StandardCodeTable;
 
 
 
-public class DEWilmingtonBParser extends FieldProgramParser {
+public class DEWilmingtonBParser extends SmartAddressParser {
+  
+  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]+) Box Alarm (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d) (?:(.*?) (\\d{1,2}[A-Z]\\d{1,2}[A-Z]?)\\b *(.*)|(.*))");
   
   public DEWilmingtonBParser() {
-    super("WILMINGTON", "DE",
-           "From:SKIP! Loc:ADDR! Inc:CALL! Time:DATETIME! Narr:INFO");
+    super("WILMINGTON", "DE");
+    setFieldList("BOX DATE TIME ADDR APT CODE CALL INFO");
   }
   
   @Override
   public String getFilter() {
     return "WLPD@state.de.us";
   }
-
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d) (\\d{4}-\\d{8})(?: +(.*))?");
-  private class MyDateTimeField extends DateTimeField {
+  
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
     
-    @Override
-    public void parse(String field, Data data) {
-      Matcher match = DATE_TIME_PTN.matcher(field);
-      if (!match.matches()) abort();
-      data.strDate = match.group(1);
-      data.strTime = match.group(2);
-      data.strCallId = match.group(3);
-      data.strUnit = getOptGroup(match.group(4));
+    if (!subject.equals("Incident")) return false;
+    
+    Matcher match = MASTER.matcher(body);
+    if (!match.matches()) return false;
+    data.strBox = match.group(1);
+    data.strDate = match.group(2);
+    data.strTime = match.group(3);
+    String addr = match.group(4);
+    if (addr != null) {
+      parseAddress(addr.trim(), data);
+      data.strCode = match.group(5);
+      data.strSupp = match.group(6);
+      
+      String call = CALL_CODES.getCodeDescription(data.strCode);
+      if (call == null) call = data.strCode;
+      data.strCall = call;
+      return true;
     }
     
-    @Override
-    public String getFieldNames() {
-      return "DATE TIME ID UNIT";
+    else {
+      parseAddress(StartType.START_ADDR, match.group(7).trim(), data);
+      data.strCall = getLeft();
+      return (getStatus() > 1);
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    return super.getField(name);
-  }
+  private static final CodeTable CALL_CODES = new StandardCodeTable();
 }
 
 

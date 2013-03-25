@@ -197,6 +197,43 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
       "OGDENBURG",    "OGDENSBURG"
   });
   
-  private static final CodeTable CALL_CODES = new StandardCodeTable();
+  private static final CodeTable CALL_CODES = new StandardCodeTable(
+      "FAFA",      "Automatic Fire Alarm",
+      "FAFARD",    "Automatic Fire Alarm – reduced response",
+      "FAIRCR",    "Aircraft Fire",
+      "FBARN1",    "Barn Fire – first alarm",
+      "FBARN2",    "Barn Fire – second alarm",
+      "FBARN3",    "Barn Fire – third alarm",
+      "FBARN4",    "Barn Fire – fourth alarm",
+      "FCB",       "Controlled Burn",
+      "FCODET",    "Carbon Monoxide Detector",
+      "FHMINI",    "Hazardous Materials Incident – inside investigation",
+      "FHMNS",     "Hazardous Materials Incident – non-structure",
+      "FHMOUI",    "Hazardous Materials Incident – outside investigation",
+      "FHMSTR",    "Hazardous Materials Incident – structure fire",
+      "FLZ",       "Helicopter Landing Zone",
+      "FMASTN",    "Mass Transportation Incident",
+      "FMA",       "Fire Department Medical Assist", 
+      "FMISC",     "Miscellaneous Incident",
+      "FOTRES",    "Miscellaneous Rescue",
+      "FOUI",      "Outside Investigation",
+      "FSTR1",     "Structure Fire – first alarm",
+      "FSTR2",     "Structure Fire – second alarm",
+      "FSTR3",     "Structure Fire – third alarm",
+      "FSTR4",     "Structure Fire – fourth alarm",
+      "FVEHSM",    "Motor Vehicle Fire – car or small truck",
+      "FVEHLG",    "Motor Vehicle Fire – large truck",
+      "FVSNI",     "Motor Vehicle Versus Structure – no injuries",
+      "FWARES",    "Water Rescue",
+      "FWF",       "Wild Fire",
+      "FWFVEH",    "Wild Fire Involving Vehicle",
+      "FWFSTR",    "Wild Fire Endangering Structure",
+      "FXFER1",    "Transfer Assignment – first alarm",
+      "FXFER2",    "Transfer Assignment – second alarm",
+      "FXFER3",    "Transfer Assignment – third alarm",
+      "FXFER4",    "Transfer Assignment – fourth alarm",
+      "MUTAID",    "Mutual Aid Response",
+      "XFER",      "Transfer"    
+  );
 }
 	

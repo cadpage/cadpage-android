@@ -5,13 +5,17 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Jvyzvatgba, QR
+Jvyzvatgba, QR (O)
 Pbagnpg: Zvxr Xunvemnqn <zxunvemnqn@pbzpnfg.arg>
 Fraqre: JYCQ@fgngr.qr.hf
 
-ceif=7588or9p8=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Nyyra Ahggre Ybp: ARJ PNFGYR NIR Vap: I1 Nhgbzbovyr Sver Gvzr: 02/21/13 21:20 2013-00002834 FO2  Anee:
-ceif=7588or9p8=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Nyyra Ahggre Ybp: 900 F  URNYQ FG Vap: I1 Nhgbzbovyr Sver Gvzr: 02/21/13 21:20 2013-00002834  Anee:  5 
-ceif=757o48ns5=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Zvxr Jvyyvnzf Ybp: 800 A  SERAPU FG Vap: Y5 Ryringbe Erfphr Gvzr: 02/21/13 15:35 2013-00002823 FO2 Y1 O5  Anee:
+ceif=765q904q8=JYCQ@fgngr.qr.hf (Vapvqrag) SE2 Obk Nynez 03/01/13 10:33 1332 J  7GU FG  52O1
+[Vapvqrag]  SE2 Obk Nynez 03/02/13 19:31 3003 J  6GU FG  69P1  3.Guvf vf n ercbegrq pbagnvarq nccyvnapr sve  f ba fprar (1fg cnegl).  2.Fzbxr vf ivfvoyr
+[Vapvqrag]  SE2 Obk Nynez 03/03/13 08:58 216 A  PYNLGBA FG  60P1B  l).  1.Gur pnyyre vf ba fprar (1fg cnegl).  2  xvgpura.     Erfvqragvny (fvatyr)
+[Vapvqrag]  SE2 Obk Nynez 03/02/13 10:09 3301 A  ZNEXRG FG  o10 ba fprar j/ tnf bqbe vafvqr fgehpgher, nhgu o6 fraq 1 rat & 1 ynqqre
+[Vapvqrag]  SE2 Obk Nynez 03/02/13 17:34 514 A  UNEEVFBA FG  69Q6  yr.  3.Gur vapvqrag vaibyirf n fvatyr-snzvyl  re vf ba fprar (1fg cnegl).  2.Fzbxr
+[Vapvqrag]  SE2 Obk Nynez 03/01/13 19:06 34 J  31FG FG  52P4F  vf n fzbxr qrgrpgbe nynez.  3.Gur vapvqrag v  pnyyre vf na nynez zbavgbevat pbzcnal. 
+[Vapvqrag]  SE2 Obk Nynez 03/01/13 10:31 49 ONAPEBSG ZVYYF EQ  52P4T  cnal.  2.Vg vf n trareny/sver nynez.  3.Gur v  er).  1.Gur pnyyre vf na nynez z
 
  */
 
@@ -22,40 +26,75 @@ choyvp pynff QRJvyzvatgbaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre() {
+  choyvp ibvq grfgZvxrXunvemnqn() {
 
     qbGrfg("G1",
-        "ceif=7588or9p8=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Nyyra Ahggre Ybp: ARJ PNFGYR NIR Vap: I1 Nhgbzbovyr Sver Gvzr: 02/21/13 21:20 2013-00002834 FO2  Anee:",
-        "NQQE:ARJ PNFGYR NIR",
-        "PNYY:I1 Nhgbzbovyr Sver",
-        "QNGR:02/21/13",
-        "GVZR:21:20",
-        "VQ:2013-00002834",
-        "HAVG:FO2");
+        "ceif=765q904q8=JYCQ@fgngr.qr.hf (Vapvqrag) SE2 Obk Nynez 03/01/13 10:33 1332 J  7GU FG  52O1",
+        "OBK:SE2",
+        "QNGR:03/01/13",
+        "GVZR:10:33",
+        "NQQE:1332 J  7GU FG",
+        "PBQR:52O1",
+        "PNYY:52O1");
 
     qbGrfg("G2",
-        "ceif=7588or9p8=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Nyyra Ahggre Ybp: 900 F  URNYQ FG Vap: I1 Nhgbzbovyr Sver Gvzr: 02/21/13 21:20 2013-00002834  Anee:  5 ",
-        "NQQE:900 F  URNYQ FG",
-        "PNYY:I1 Nhgbzbovyr Sver",
-        "QNGR:02/21/13",
-        "GVZR:21:20",
-        "VQ:2013-00002834",
-        "VASB:5");
+        "[Vapvqrag]  SE2 Obk Nynez 03/02/13 19:31 3003 J  6GU FG  69P1  3.Guvf vf n ercbegrq pbagnvarq nccyvnapr sve  f ba fprar (1fg cnegl).  2.Fzbxr vf ivfvoyr",
+        "OBK:SE2",
+        "QNGR:03/02/13",
+        "GVZR:19:31",
+        "NQQE:3003 J  6GU FG",
+        "PBQR:69P1",
+        "PNYY:Fgehpgher sver Nccyvnapr (pbagnvarq)",
+        "VASB:3.Guvf vf n ercbegrq pbagnvarq nccyvnapr sve  f ba fprar (1fg cnegl).  2.Fzbxr vf ivfvoyr");
 
     qbGrfg("G3",
-        "ceif=757o48ns5=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Zvxr Jvyyvnzf Ybp: 800 A  SERAPU FG Vap: Y5 Ryringbe Erfphr Gvzr: 02/21/13 15:35 2013-00002823 FO2 Y1 O5  Anee:",
-        "NQQE:800 A  SERAPU FG",
-        "PNYY:Y5 Ryringbe Erfphr",
-        "QNGR:02/21/13",
-        "GVZR:15:35",
-        "VQ:2013-00002823",
-        "HAVG:FO2 Y1 O5");
+        "[Vapvqrag]  SE2 Obk Nynez 03/03/13 08:58 216 A  PYNLGBA FG  60P1B  l).  1.Gur pnyyre vf ba fprar (1fg cnegl).  2  xvgpura.     Erfvqragvny (fvatyr)",
+        "OBK:SE2",
+        "QNGR:03/03/13",
+        "GVZR:08:58",
+        "NQQE:216 A  PYNLGBA FG",
+        "PBQR:60P1B",
+        "PNYY:Tnf yrnx/Tnf bqbe Erfvqragvny (fvatyr) Bqbe bayl",
+        "VASB:l).  1.Gur pnyyre vf ba fprar (1fg cnegl).  2  xvgpura.     Erfvqragvny (fvatyr)");
 
-  }
-  
-  @Grfg
-  choyvp ibvq grfgZvxrXunvemnqn() {
-    
+    qbGrfg("G4",
+        "[Vapvqrag]  SE2 Obk Nynez 03/02/13 10:09 3301 A  ZNEXRG FG  o10 ba fprar j/ tnf bqbe vafvqr fgehpgher, nhgu o6 fraq 1 rat & 1 ynqqre",
+        "OBK:SE2",
+        "QNGR:03/02/13",
+        "GVZR:10:09",
+        "NQQE:3301 A ZNEXRG FG",
+        "PNYY:o10 ba fprar j / tnf bqbe vafvqr fgehpgher, nhgu o6 fraq 1 rat & 1 ynqqre");
+
+    qbGrfg("G5",
+        "[Vapvqrag]  SE2 Obk Nynez 03/02/13 17:34 514 A  UNEEVFBA FG  69Q6  yr.  3.Gur vapvqrag vaibyirf n fvatyr-snzvyl  re vf ba fprar (1fg cnegl).  2.Fzbxr",
+        "OBK:SE2",
+        "QNGR:03/02/13",
+        "GVZR:17:34",
+        "NQQE:514 A  UNEEVFBA FG",
+        "PBQR:69Q6",
+        "PNYY:Fgehpgher sver Erfvqragvny (fvatyr)",
+        "VASB:yr.  3.Gur vapvqrag vaibyirf n fvatyr-snzvyl  re vf ba fprar (1fg cnegl).  2.Fzbxr");
+
+    qbGrfg("G6",
+        "[Vapvqrag]  SE2 Obk Nynez 03/01/13 19:06 34 J  31FG FG  52P4F  vf n fzbxr qrgrpgbe nynez.  3.Gur vapvqrag v  pnyyre vf na nynez zbavgbevat pbzcnal. ",
+        "OBK:SE2",
+        "QNGR:03/01/13",
+        "GVZR:19:06",
+        "NQQE:34 J  31FG FG",
+        "PBQR:52P4F",
+        "PNYY:52P4F",
+        "VASB:vf n fzbxr qrgrpgbe nynez.  3.Gur vapvqrag v  pnyyre vf na nynez zbavgbevat pbzcnal.");
+
+    qbGrfg("G7",
+        "[Vapvqrag]  SE2 Obk Nynez 03/01/13 10:31 49 ONAPEBSG ZVYYF EQ  52P4T  cnal.  2.Vg vf n trareny/sver nynez.  3.Gur v  er).  1.Gur pnyyre vf na nynez z",
+        "OBK:SE2",
+        "QNGR:03/01/13",
+        "GVZR:10:31",
+        "NQQE:49 ONAPEBSG ZVYYF EQ",
+        "PBQR:52P4T",
+        "PNYY:52P4T",
+        "VASB:cnal.  2.Vg vf n trareny/sver nynez.  3.Gur v  er).  1.Gur pnyyre vf na nynez z");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
