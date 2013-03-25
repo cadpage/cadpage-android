@@ -47,16 +47,19 @@ public class CodeTable {
       return -str1.compareTo(str2);
     }});
   
+  private int minCodeLen = Integer.MAX_VALUE;
+  
   public CodeTable(String ... table) {
     if (table.length % 2 != 0) {
       throw new RuntimeException("CodeTable constructor must have even number of of entries");
     }
     for (int ndx = 0; ndx < table.length; ndx += 2) {
-      codeMap.put(table[ndx], table[ndx+1]);
+      put(table[ndx], table[ndx+1]);
     }
   }
   
   protected void put(String key, String value) {
+    if (key.length() < minCodeLen) minCodeLen = key.length();
     codeMap.put(key, value);
   }
 

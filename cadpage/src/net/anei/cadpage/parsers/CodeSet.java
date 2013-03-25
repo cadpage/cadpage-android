@@ -17,28 +17,37 @@ public class CodeSet {
     @Override
     public int compare(String str1, String str2) {
       return -str1.compareTo(str2);
-    }});
+    }
+  });
+  
+  // Minimum entry length
+  private int minCodeLen = Integer.MAX_VALUE;
   
   public CodeSet(String ... table) {
-    codeSet.addAll(Arrays.asList(table));
+    for (String code : table) add(code);
   }
   
   public CodeSet(Properties codeTable) {
     @SuppressWarnings("unchecked")
     Enumeration<String> e = (Enumeration<String>) codeTable.propertyNames();
     while (e.hasMoreElements()) {
-      codeSet.add(e.nextElement());
+      add(e.nextElement());
     }
+  }
+  
+  private void add(String code) {
+    if (code.length() < minCodeLen) minCodeLen = code.length();
+    codeSet.add(code);
   }
 
 
   /**
    * Look for a code that is a prefix to search string
-   * @param str search string
+   * @param code search string
    * @return longest table entry that is a prefix of search string or
    *          null if there is no such entry
    */
-  public String getCode(String str) {
+  public String getCode(String code) {
     
     // Search the code dictionary sorted map for the highest entry less than or
     // equal to call code.  If the code starts with this string, we have a
@@ -47,14 +56,13 @@ public class CodeSet {
     
     // We reversed the tree order so we can accomplish this trick without
     // needing a backward read feature, with Android seems to be lacking
-    String firstWord = new MsgParser.Parser(str).get(' ');
-    SortedSet<String> tail =  codeSet.tailSet(str);
+    
+    if (code.length() < minCodeLen) return null;
+    String  minCode = code.substring(0, minCodeLen);
+    SortedSet<String> tail =  codeSet.tailSet(code);
     for (String key : tail) {
-      if (str.startsWith(key)) {
-        if (str.length() == key.length() ||
-            str.charAt(key.length()) == ' ') return key;
-      }
-      if (!key.startsWith(firstWord)) break;
+      if (code.startsWith(key)) return key;
+      if (!code.startsWith(minCode)) break;
     }
     return null;
   }
