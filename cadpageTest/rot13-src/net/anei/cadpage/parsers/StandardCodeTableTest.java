@@ -22,7 +22,6 @@ choyvp pynff FgnaqneqPbqrGnoyrGrfg {
     purpx("01N01O", "01N01O", "XABPXRQ HC", "");
     purpx("1n1n ORRC ORRC", "1n1n", "ONQ GHZZLNPUR", "ORRC ORRC");
     purpx("01n01o", "01n01o", "XABPXRQ HC", "");
-    purpx("KSRE UBFC", "KSRE", "Genafsre", "UBFC");
   }
   
   cevingr ibvq purpx(Fgevat grkg, Fgevat rkcPbqr, Fgevat rkcQrfp, Fgevat rkcErznva) {
