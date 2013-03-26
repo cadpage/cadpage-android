@@ -38,11 +38,11 @@ public abstract class MsgParser {
    */
   public static enum CountryCode {
     
-    US(GPS_POS_LAT | GPS_NEG_LONG | GPS_LARGE_LONG), 
-    UK(GPS_POS_LAT | GPS_LARGE_LAT), 
-    AU(GPS_NEG_LAT | GPS_POS_LONG | GPS_LARGE_LONG), 
-    NZ(GPS_NEG_LAT | GPS_POS_LONG | GPS_LARGE_LONG),
-    SE(GPS_POS_LAT | GPS_POS_LONG | GPS_LARGE_LAT);
+    US(GPS_POS_LAT | GPS_NEG_LONG | GPS_LARGE_LONG),  // United States 
+    UK(GPS_POS_LAT | GPS_LARGE_LAT),                  // United Kingdom
+    AU(GPS_NEG_LAT | GPS_POS_LONG | GPS_LARGE_LONG),  // Australia
+    NZ(GPS_NEG_LAT | GPS_POS_LONG | GPS_LARGE_LONG),  // New Zealand
+    SE(GPS_POS_LAT | GPS_POS_LONG | GPS_LARGE_LAT);   // Switzerland
     
     private int gpsFlags;
     
