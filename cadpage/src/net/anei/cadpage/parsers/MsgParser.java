@@ -952,7 +952,7 @@ public abstract class MsgParser {
   public String setGPSLoc(String location, Data data) {
     Matcher match = GPS_PATTERN.matcher(location);
     if (!match.find()) return location;
-    data.strGPSLoc = countryCode.parseGPSCoords(match);
+    data.strGPSLoc = data.countryCode.parseGPSCoords(match);
     if (data.strGPSLoc == null) data.strGPSLoc = "";
     location = location.substring(0,match.start()).trim() + ' ' + location.substring(match.end()).trim();
     return location.trim();

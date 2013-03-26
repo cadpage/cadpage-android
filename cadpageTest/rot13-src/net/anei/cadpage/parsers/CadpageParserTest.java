@@ -18,8 +18,24 @@ choyvp pynff PnqcntrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgNpgvir911() {
+  choyvp ibvq grfgFjrqra() {
     
+    frgQrsnhygf("", "Fqreznaynaq");
+    qbGrfg("G1", "PNYY:Fwhxqbzfsnyy / Zrqirgfyöf-ihkra\aCYNPR:\aNQQE:oryyznafcyna 1\aQNGR: 03/26/2013\aGVZR: 15:06:01\aPVGL:Rfxvyfghan\aVQ:3521533\aQFG:Fqreznaynaq\aHAVG:Q10\aPB:FR\aTCF:59.35901700, 16.50505000\aVASB:\aPB: FR\aERPTCF: L",
+         "PNYY:Fwhxqbzfsnyy / Zrqirgfyöf-ihkra",
+         "NQQE:oryyznafcyna 1",
+         "QNGR:03/26/2013",
+         "GVZR:15:06:01",
+         "PVGL:Rfxvyfghan",
+         "VQ:3521533",
+         "HAVG:Q10",
+         "TCF:+59.359017,+16.505050");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNpgvir911() {
+         
     qbGrfg("G1", "PNYY:Grfg Zrffntr2 (JVGU TCF)\aNQQE: 1517 Pbyyrtr FG\aPVGL: Cuvybzngu\aTCF: 44.5420, -123.3660\aVASB: Guvf zrffntr unf n znahny TCF ibpno naq fubhyq erfhyg va TCF ibpno\aorvat frag gb Pnqcntr.",
          "PNYY:Grfg Zrffntr2 (JVGU TCF)",
          "NQQE:1517 Pbyyrtr FG",
