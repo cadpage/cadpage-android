@@ -290,6 +290,7 @@ public class ParserList {
           new ParserCategory("Lousiana"
               ,"LAAcadianAmbulance"             ,"Acadian Ambulance, LA"
               ,"LAJeffersonParish"              ,"Jefferson Parish, LA"
+              ,"LALafourcheParish"              ,"Lafourche Parish, LA"
           ),
           new ParserCategory("Maine"
               ,"MEOxfordCounty"                 ,"Oxford County, ME"
