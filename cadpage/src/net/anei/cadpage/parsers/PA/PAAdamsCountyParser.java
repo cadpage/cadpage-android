@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.PA;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA1Parser;
 
@@ -7,6 +10,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA1Parser;
  * Adams County, PA
  */
 public class PAAdamsCountyParser extends DispatchA1Parser {
+  
+  private static final Pattern IAMR_PREFIX = Pattern.compile("^Alert: .* - \\d\n");
   
   public PAAdamsCountyParser() {
     super("ADAMS COUNTY", "PA");
@@ -19,6 +24,16 @@ public class PAAdamsCountyParser extends DispatchA1Parser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Check for garbled prefix associated with IamResponding
+    Matcher match = IAMR_PREFIX.matcher(body);
+    if (match.find()) {
+      data.strSource = subject;
+      subject = match.group().trim();
+      body = body.substring(match.end()).trim();
+    }
+    
+    
     if (!super.parseMsg(subject, body, data)) return false;
     String city = data.strCity;
     if (city.toUpperCase().endsWith(" BORO")) {
@@ -26,5 +41,10 @@ public class PAAdamsCountyParser extends DispatchA1Parser {
     }
     data.strSupp = data.strSupp.replace(" / ", "\n");
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
 }
