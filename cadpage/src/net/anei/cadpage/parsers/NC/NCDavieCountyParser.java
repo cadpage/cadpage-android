@@ -1,18 +1,11 @@
 package net.anei.cadpage.parsers.NC;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
+import net.anei.cadpage.parsers.GroupBestParser;
 
-/**
- * Davie County, NC
- */
-public class NCDavieCountyParser extends DispatchA3Parser {
-  
+
+public class NCDavieCountyParser extends GroupBestParser {
+
   public NCDavieCountyParser() {
-    super(4, "911:Call #", "DAVIE COUNTY", "NC");
-  }
-  
-  @Override
-  public String getSponsor() {
-    return "Davie County";
+    super(new NCDavieCountyAParser(), new NCDavieCountyBParser());
   }
 }

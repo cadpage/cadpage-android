@@ -29,6 +29,8 @@ public class DispatchA3Parser extends FieldProgramParser {
                "ID Address:ADDR! APT CH! City:CITY! INFO+ Type:CALL CALL NAME PH#:PHONE Units:UNIT IRA:SKIP? INFO+ NARR:INFO INFO+"   // Not currently used
            : version == 4 ?
                "ID Address:ADDR! APT CH! City:CITY! X+ Type:X! X INFO+ PH#:CODE! Units:CALL! IRA:NAME PHONE UNIT% INFO+ NARR:INFO INFO+"   // Davie County, NC variant of 3
+           : version == 5 ?
+               "ID Address:ADDR! APT APT! City:CITY! X X MAP LocCmmt:INFO1! Comp:CODE! Desc:CALL! Caller:NAME! Ph#:PHONE! Units:UNIT! SKIP INFO+"
            : null);
     this.prefix = prefix;
   }
