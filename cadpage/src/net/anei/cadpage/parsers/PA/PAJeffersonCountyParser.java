@@ -17,6 +17,8 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
   
   public PAJeffersonCountyParser() {
     super(CITY_LIST, "JEFFERSON COUNTY", "PA");
+    setupMultiWordStreets("SWARTZ ACRES");
+    setFieldList("CALL UNIT ADDR APT X CITY PLACE INFO BOX CH");
   }
   
   @Override
@@ -90,15 +92,17 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
           data.strCross = append(data.strCross, ", ", part);
         }
         else if (cross) {
-          Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, part);
+          Result res = parseAddress(StartType.START_PLACE, FLAG_ONLY_CROSS, part);
           if (res.getStatus() > 0) {
+            String savePlace = data.strPlace;
             String saveCross = data.strCross;
-            data.strCross = "";
+            data.strPlace = data.strCross = "";
             res.getData(data);
+            data.strPlace = append(savePlace, " - ", data.strPlace);
             data.strCross = append(saveCross, ", ", data.strCross);
             part = res.getLeft();
             if (part.length() > 0) {
-              data.strPlace = part;
+              data.strPlace = append(data.strPlace, " - ", part);
               cross = false;
             }
           } else if (slash) {

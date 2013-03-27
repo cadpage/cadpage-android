@@ -15,7 +15,7 @@ vzcbeg bet.whavg.Grfg;
  Pbagnpg: Puevf Fzvgu <ssfzvgu20@tznvy.pbz>
  Fraqre: qvfcngpu@wrssrefbapbhaglcn.pbz
  ceif=0518956p10=qvfcngpu@ <qvfcngpu@wrssrefbapbhaglcn.pbz> wrssrefbapbhaglcn.pbz <qvfcngpu@wrssrefbapbhaglcn.pbz> (Vapvqrag) Sver - Nynez 251 F CRAA FGERRG RKG Chakfhgnjarl QRNQ RAQ / PYVSS FG 20-N Falqre Uvyy
-  ceif=0518956p10=qvfcngpu@ <qvfcngpu@wrssrefbapbhaglcn.pbz> wrssrefbapbhaglcn.pbz <qvfcngpu@wrssrefbapbhaglcn.pbz> (Vapvqrag) Fgehpgher Sver 251 F CRAA FG Chakfhgnjarl
+ ceif=0518956p10=qvfcngpu@ <qvfcngpu@wrssrefbapbhaglcn.pbz> wrssrefbapbhaglcn.pbz <qvfcngpu@wrssrefbapbhaglcn.pbz> (Vapvqrag) Fgehpgher Sver 251 F CRAA FG Chakfhgnjarl
  ceif=0516rpn2nr=qvfcngpu@ <qvfcngpu@wrssrefbapbhaglcn.pbz> wrssrefbapbhaglcn.pbz <qvfcngpu@wrssrefbapbhaglcn.pbz> (Vapvqrag) ZIN EBHGR 119 / EBHGR 436 Lbhat Aneengvir:
  ceif=0514s9p90o=qvfcngpu@ <qvfcngpu@wrssrefbapbhaglcn.pbz> wrssrefbapbhaglcn.pbz <qvfcngpu@wrssrefbapbhaglcn.pbz> (Vapvqrag) ZIN 3637 EBHGR 36 FCEVAT EQ / UBYYVF YA Byvire FZVGU UNHYVATAneengvir: 5-N Pbbyfcevat
  ceif=0512r03127=qvfcngpu@ <qvfcngpu@wrssrefbapbhaglcn.pbz> wrssrefbapbhaglcn.pbz <qvfcngpu@wrssrefbapbhaglcn.pbz> (Vapvqrag) Fgehpgher Sver 106 SBHAQEL FG PEVFFZNA NYL / J ZNUBAVAT FG Chakfhgnjarl Aneengvir: 40-N Falqre Uvyy
@@ -26,13 +26,13 @@ vzcbeg bet.whavg.Grfg;
  ceif=0555093757=qvfcngpu@wrssrefbapbhaglcn.pbz (Vapvqrag) Gerr Qbja F20  558 EBOVAFBA FG Oryy UNYY FG / QRNQ RAQ 20-O Falqre Uvyy
  ceif=05703r571q=qvfcngpu@ <qvfcngpu@wrssrefbapbhaglcn.pbz> wrssrefbapbhaglcn.pbz <qvfcngpu@wrssrefbapbhaglcn.pbz> (Vapvqrag) Fgehpgher Sver R20 E20 G20 R30 FD30 R40 GX40 E40 ZRQ50  105 JBBQYNAQ NIR Chakfhgnjarl FCEVAT FG / R ZNUBAVAT FG, PYRNESVRY
  ceif=0585990rs8=qvfcngpu@wrssrefbapbhaglcn.pbz (Vapvqrag) ZIN -29-Q Ragenczrag F40 F20 F30 ZRQ50  754 F ZNVA FGERRG RKG Lbhat SRZPB ZNPUVAR PBZCNALHAVIREFNY QE, PNYINEL YA / NYYVNA
-
  ceif=0678992q8p=qvfcngpu@wrssrefbapbhaglcn.pbz (Vapvqrag) ZIN -29-Q Ragenczrag F20  40.874|-79.0204 QRNQ RAQ / XNPUZNE EQ, FJNEGM NPERF EQ 12-V Falqre Uvyy
  ceif=0678992q8p=qvfcngpu@wrssrefbapbhaglcn.pbz (Vapvqrag) Fgehpgher Sver UU R20 E20 G20 R30 FD30 R40 GX40 E16 ZRQ50  238 R ZNUBAVAT FG Chakfhgnjarl A CRAA FG / A WRSSREFBA FG, F WR
  ceif=0595n29521=qvfcngpu@wrssrefbapbhaglcn.pbz (Vapvqrag) ZIN F20 ZRQ50  RYQREOREEL UVYY EQ, EG 36 / EG 36, BYQ EBHGR 36 20-O Falqre Uvyy
  ceif=05894q5n85=qvfcngpu@wrssrefbapbhaglcn.pbz (Vapvqrag) Iruvpyr Sver F20 ZRQ50  201 UNZCGBA NIR Chakfhgnjarl PBHAGL ZNEXRG, SRMRYYFGBEERAPR FG / PYNEX FG, EVQTR NIR 20-N Falqre U
  ceif=0588r3n5n6=qvfcngpu@wrssrefbapbhaglcn.pbz (Vapvqrag) ZIN F20 ZRQ50  108 PYVSS FG Chakfhgnjarl JRORE NIR / F CRAA FGERRG RKG 20-N Falqre Uvyy
  ceif=0588r3n5n6=qvfcngpu@wrssrefbapbhaglcn.pbz (Vapvqrag) ZIN F20 ZRQ50  301 J ZNUBAVAT FG Chakfhgnjarl SVEFG HAVGRQ ZRGUBQVFG PUHEPU, CHAKFHGNJARLPUHEPU FG / ZBEEVFBA NIR 20-N Fal
+ (Vapvqrag) ZIN -29-Q Ragenczrag F20 F30 F40 ZRQ50  306 VAQVNAN FG Chakfhgnjarl WBRF QEVIR VAATVYCVA FGERRG RKG / EG 119, ZNCYR NIR 20
 
  */
 
@@ -245,9 +245,18 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:20-N",
         "PU:Fal");
 
+    qbGrfg("G20",
+        " (Vapvqrag) ZIN -29-Q Ragenczrag F20 F30 F40 ZRQ50  306 VAQVNAN FG Chakfhgnjarl WBRF QEVIR VAATVYCVA FGERRG RKG / EG 119, ZNCYR NIR 20",
+        "PNYY:ZIN -29-Q Ragenczrag",
+        "HAVG:F20 F30 F40 ZRQ50",
+        "NQQE:306 VAQVNAN FG",
+        "K:VAATVYCVA FGERRG RKG / EG 119, ZNCYR NIR",
+        "PVGL:Chakfhgnjarl",
+        "CYNPR:WBRF QEVIR - 20");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj CNWrssrefbaPbhaglCnefreGrfg().trarengrGrfgf("G14", "PNYY HAVG NQQE NCG K PVGL CYNPR VASB OBK PU");
+    arj CNWrssrefbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
