@@ -35,7 +35,7 @@ choyvp pynff QRJvyzvatgbaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:10:33",
         "NQQE:1332 J  7GU FG",
         "PBQR:52O1",
-        "PNYY:52O1");
+        "PNYY:Nynezf - Erfvqragvny");
 
     qbGrfg("G2",
         "[Vapvqrag]  SE2 Obk Nynez 03/02/13 19:31 3003 J  6GU FG  69P1  3.Guvf vf n ercbegrq pbagnvarq nccyvnapr sve  f ba fprar (1fg cnegl).  2.Fzbxr vf ivfvoyr",
@@ -44,7 +44,7 @@ choyvp pynff QRJvyzvatgbaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:19:31",
         "NQQE:3003 J  6GU FG",
         "PBQR:69P1",
-        "PNYY:Fgehpgher sver Nccyvnapr (pbagnvarq)",
+        "PNYY:Fgehpgher Sver - Nccyvnapr (pbagnvarq)",
         "VASB:3.Guvf vf n ercbegrq pbagnvarq nccyvnapr sve  f ba fprar (1fg cnegl).  2.Fzbxr vf ivfvoyr");
 
     qbGrfg("G3",
@@ -54,7 +54,7 @@ choyvp pynff QRJvyzvatgbaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:08:58",
         "NQQE:216 A  PYNLGBA FG",
         "PBQR:60P1B",
-        "PNYY:Tnf yrnx/Tnf bqbe Erfvqragvny (fvatyr) Bqbe bayl",
+        "PNYY:Tnf yrnx/Tnf bqbe - Erfvqragvny (fvatyr) - Bqbe bayl",
         "VASB:l).  1.Gur pnyyre vf ba fprar (1fg cnegl).  2  xvgpura.     Erfvqragvny (fvatyr)");
 
     qbGrfg("G4",
@@ -72,7 +72,7 @@ choyvp pynff QRJvyzvatgbaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:17:34",
         "NQQE:514 A  UNEEVFBA FG",
         "PBQR:69Q6",
-        "PNYY:Fgehpgher sver Erfvqragvny (fvatyr)",
+        "PNYY:Fgehpgher Sver - Erfvqragvny (fvatyr)",
         "VASB:yr.  3.Gur vapvqrag vaibyirf n fvatyr-snzvyl  re vf ba fprar (1fg cnegl).  2.Fzbxr");
 
     qbGrfg("G6",
@@ -82,7 +82,7 @@ choyvp pynff QRJvyzvatgbaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:19:06",
         "NQQE:34 J  31FG FG",
         "PBQR:52P4F",
-        "PNYY:52P4F",
+        "PNYY:Nynezf - Erfvqragvny (zhygvcyr) - Fzbxr Qrgrpgbe",
         "VASB:vf n fzbxr qrgrpgbe nynez.  3.Gur vapvqrag v  pnyyre vf na nynez zbavgbevat pbzcnal.");
 
     qbGrfg("G7",
@@ -92,7 +92,7 @@ choyvp pynff QRJvyzvatgbaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:10:31",
         "NQQE:49 ONAPEBSG ZVYYF EQ",
         "PBQR:52P4T",
-        "PNYY:52P4T",
+        "PNYY:Nynezf - Erfvqragvny (zhygvcyr) - Trareny/Sver",
         "VASB:cnal.  2.Vg vf n trareny/sver nynez.  3.Gur v  er).  1.Gur pnyyre vf na nynez z");
 
   }

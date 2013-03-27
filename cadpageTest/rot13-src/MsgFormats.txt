@@ -5652,6 +5652,7 @@ F: Z:Rqtrpbzor911:* 720 QHAONE JBBQF EQ* * * ONGGYROBEB* * Yvar7=* Yvar8=* Yvar9
 F: Z:Rqtrpbzor911:6120 BYQ ONGGYROBEB EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,JUVGNXREF1
 F: Z:RqtrpbzorPrageny:4371 ONGGYROBEB-YRTTRGG EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,EBPXLZG1
 F: Z:Rqtrpbzor911:6120 BYQ ONGGYROBEB EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,JUVGNXREF1
+F: Z:RqtrpbzorPrageny:5590 ZBEAVAT FGNE PU EQ ONGGYROBEB Purfg Cnva PBQR 3 9SEANFU,JUVGNXREF2
 **********************************************************
 Yrrgbavn, BU (va Pbyhzovnan Pbhagl)
 Pbagnpg: avtugeu@ngg.arg <avtugeu@ngg.arg>
