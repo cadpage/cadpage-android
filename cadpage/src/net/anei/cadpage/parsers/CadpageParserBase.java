@@ -92,6 +92,9 @@ public class CadpageParserBase  extends FieldProgramParser{
     @Override
     public void parse(String field, Data data) {
       try {
+        // We used the wrong code for United Kingdom.  Don't want to change it
+        // now, but we will accept the correct code.
+        if (field.equals("GB")) field = "UK";
         data.countryCode = CountryCode.valueOf(field);
       } catch (Exception ex) {}
     }
