@@ -28,7 +28,6 @@ Fraqre: @mravg.fbfnynez.fr
 3491105\aOenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aUäaqryfrorfxeviavat : Oenaq v genccuhf ivq vatåat, oevaare v oeriyåqn\aPneyniätra 45n\a\aCbfvgvbaJTF84 : Yn = 59º 22,267'A    Yb = 016º 31,964'R\a
 3490536\aOenaq v olttanq\aSyresnzvywfuhf\aGenccuhf\aUäaqryfrorfxeviavat : yhxgne eöx v genccuhfrg, fbz ra yägg qvzzn\aEnqrznpuretngna 21, iåa 5\a\aCbfvgvbaJTF84 : Yn = 59º 22,308'A    Yb = 016º 30,783'R\a
 3488440\aNhgbzngynez\aOenaq\a\aUäaqryfrorfxeviavat : \aIvyfgn            Ae 138 Ivyfgn Enfgfghtn\aRfxvyfghan\aQ10\aCbfvgvbaJTF84 : Yn = 59º 21,027'A    Yb = 016º 30,613'R\aFgngvbafxbq : \aYnezxngrtbev anza : \a
-
 3487792\aNhgbzngynez\aOenaq\a\aUäaqryfrorfxeviavat : \aZäynefwhxuhfrg     Ae 69 Zäynefwhxuhfrg, Rfxvyfgha\aRfxvyfghan\aQ10\aCbfvgvbaJTF84 : Yn = 59º 21,738'A    Yb = 016º 31,957'R\aFgngvbafxbq : \aYnezxngrtbev anza : \a
 3487587\aNhgbzngynez\aOenaq\a\aUäaqryfrorfxeviavat : \aObyvaqreiätra 10  Ae 153 Fxna Yått Yntrecnegare\aRfxvyfghan\aQ10\aCbfvgvbaJTF84 : Yn = 59º 24,222'A    Yb = 016º 26,323'R\aFgngvbafxbq : \aYnezxngrtbev anza : \a
 3485836\aFwhxqbzfsnyy\aNyyretv\a\aUäaqryfrorfxeviavat : \aAbnxftngna 14N\a\aQ10\aCbfvgvbaJTF84 : \a
@@ -45,6 +44,7 @@ Fraqre: @mravg.fbfnynez.fr
 4077273\aOenaq v olttanq\aIvyyn\a\aUäaqryfrorfxeviavat : Oenaqynez seåa Frpgbe. Ri eöx\aUneinetngna 7\aRfxvyfghan\aQ10\aYnezxngrtbev anza : \aCbfvgvbaJTF84 : Yn = 59º 22,359'A    Yb = 016º 28,629'R\a
 3478390\aOenaq hgr - pbagnvare\a\a\aUäaqryfrorfxeviavat : oevaare v ra pbagrvare\aIäfgretngna 13\a\aQ10\aYnezxngrtbev anza : \aCbfvgvbaJTF84 : Yn = 59º 22,663'A    Yb = 016º 31,141'R\a
 3477652\aFwhxqbzfsnyy\a\a\aUäaqryfrorfxeviavat : Uwäegfgbcc\aUYE cåtåe\aEI 56 Iäfgreqny\a\aQ14\aYnezxngrtbev anza : \aCbfvgvbaJTF84 : Yn = 59º 19,582'A    Yb = 016º 06,650'R\a
+3523002\aGensvxbylpxn - syren sbeqba\aYnfgovy\aÖievtg\aÅeolebaqryyra\a\aCbfvgvbaJTF84 : \aUäaqryfrorfxeviavat : \a
 
 */
 
@@ -458,6 +458,12 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Rfxvyfghan",
         "FEP:Q10",
         "TCF:+59.359100,+16.488283");
+
+    qbGrfg("G22",
+        "3523002\aGensvxbylpxn - syren sbeqba\aYnfgovy\aÖievtg\aÅeolebaqryyra\a\aCbfvgvbaJTF84 : \aUäaqryfrorfxeviavat : \a",
+        "VQ:3523002",
+        "PNYY:Gensvxbylpxn - syren sbeqba / Ynfgovy / Öievtg",
+        "NQQE:Åeolebaqryyra");
 
  }
   

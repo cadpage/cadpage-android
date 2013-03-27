@@ -91,6 +91,7 @@ public abstract class MsgParser {
      double ac1 = Math.abs(c1);
      double ac2 = Math.abs(c2);
      if (ac1 == 1.0 && ac2 == 1.0) return null;
+     if (ac1 == 0.0 && ac2 == 0.0) return null;
      if ((gpsFlags & GPS_LARGE_LAT) != 0) {
        if (ac1 > ac2) {
          latitude = c1;

@@ -31,6 +31,15 @@ choyvp pynff PnqcntrCnefreGrfg rkgraqf OnfrCnefreGrfg {
          "HAVG:Q10",
          "TCF:+59.359017,+16.505050");
     
+    qbGrfg("G2", "PNYY:Gensvxbylpxn - syren sbeqba / Ynfgovy / Öievtg\aCYNPR:\aNQQE:Åeolebaqryyra\aQNGR: 03/27/2013\aGVZR: 07:38:05\aPVGL:Rfxvyfghan\aVQ:3523002\aQFG:Fqreznaynaq\aHAVG:Q10\aPB:FR\aTCF:0.00000000, 0.00000000\aVASB:\aPB: FR\a",
+        "PNYY:Gensvxbylpxn - syren sbeqba / Ynfgovy / Öievtg",
+        "NQQE:Åeolebaqryyra",
+        "QNGR:03/27/2013",
+        "GVZR:07:38:05",
+        "PVGL:Rfxvyfghan",
+        "VQ:3523002",
+        "HAVG:Q10");
+    
   }
   
   @Grfg
