@@ -268,7 +268,7 @@ public class SmsMsgAccumulator {
       lastMessage = newMsg;
       if (count > 0) {
         int ndx = newMsg.getMsgIndex();
-        list.set(ndx-1, newMsg);
+        if (ndx <= count) list.set(ndx-1, newMsg);
       } else {
         if (ManagePreferences.revMsgOrder()) {
           list.add(0, newMsg);

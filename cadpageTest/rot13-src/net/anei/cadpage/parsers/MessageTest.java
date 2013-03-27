@@ -9,6 +9,14 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("Trareny",
+        "xra@pnqcntr.bet",
+        "",
+        "\a3/25/2013 11:04:49 NZ JSF1 : QFCGPU & cevznel havg. \a",
+        "xra@pnqcntr.bet",
+        "",
+        "3/25/2013 11:04:49 NZ JSF1 : QFCGPU & cevznel havg. \a");
+    
     qbCnefrGrfg("VAUnzvygbaPbhagl",
         "xra@pnqcntr.bet",
         "",
