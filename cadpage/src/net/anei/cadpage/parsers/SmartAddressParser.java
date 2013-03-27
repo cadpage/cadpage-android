@@ -358,6 +358,14 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_DIRECTION, "NORTH", "SOUTH", "EAST", "WEST");
   }
   
+  /**
+   * Add additional words that should not be allowed in address fields
+   * @param words words to be added to list of invalid address words
+   */
+  protected void addInvalidWords(String ... words) {
+    setupDictionary(ID_NOT_ADDRESS, words);
+  }
+  
   private String[] getKeywords(Properties table) {
     String[] result = new String[table.size()];
     int ndx = 0;

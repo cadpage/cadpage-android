@@ -630,6 +630,7 @@ public class ParserList {
               ,"SCFlorenceCounty"               ,"Florence County, SC"
               ,"SCGreenvilleCounty"             ,"Greenville County, SC"
               ,"SCOconeeCounty"                 ,"Oconee County, SC"
+              ,"SCOrangeburgCounty"             ,"Orangeburg County, SC"
               ,"SCRichlandCounty"               ,"Richland County, SC"
               ,"SCSpartanburgCounty"            ,"Spartanburg County, SC"
               ,"SCYorkCounty"                   ,"York County, SC"
