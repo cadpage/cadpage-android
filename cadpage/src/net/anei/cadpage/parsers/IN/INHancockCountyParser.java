@@ -18,7 +18,7 @@ public class INHancockCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "mplus@hancockcoingov.org";
+    return "mplus@hancockcoingov.org,777";
   }
   
   @Override

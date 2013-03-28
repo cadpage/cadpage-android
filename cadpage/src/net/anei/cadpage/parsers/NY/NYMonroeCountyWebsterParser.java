@@ -4,7 +4,9 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.StandardCodeTable;
 import net.anei.cadpage.parsers.dispatch.DispatchA7BaseParser;
 
 /**
@@ -50,6 +52,32 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
   public String getProgram() {
     return "SRC BOX PRI " + super.getProgram();
   }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      String call = CALL_CODES.getCodeDescription(field);
+      if (call != null) {
+        data.strCode = field;
+        data.strCall = call;
+      } else {
+        data.strCall = field;
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE CALL";
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    return super.getField(name);
+  }
+  
+  private static final CodeTable CALL_CODES = new StandardCodeTable();
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       
