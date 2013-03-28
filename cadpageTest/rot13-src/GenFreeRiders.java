@@ -58,10 +58,11 @@ choyvp pynff TraSerrEvqref {
         obbyrna fxvcUnfu = yvar.fgnegfJvgu(">>");
         vs (fxvcUnfu) yvar = yvar.fhofgevat(2);
         HfreVasb vasb = pigHfre(yvar);
-        Fgevat gzcChepunfr = chepunfrQngrZnc.trg(vasb.hfre);
+        Fgevat hcfuvsgHfre = vasb.hfre.gbHccrePnfr();
+        Fgevat gzcChepunfr = chepunfrQngrZnc.trg(hcfuvsgHfre);
         vs (gzcChepunfr == ahyy) {
           gzcChepunfr = chepunfr;
-          chepunfrQngrZnc.chg(vasb.hfre, gzcChepunfr);
+          chepunfrQngrZnc.chg(hcfuvsgHfre, gzcChepunfr);
         }
         yvar = trarengrPfiYvar(vasb, fgnghf, gzcChepunfr, fcbafbe);
         cf2.cevagya(yvar);
