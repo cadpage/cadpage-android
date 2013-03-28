@@ -73,7 +73,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     String program = 
         (version == FLG_VERSION_1 ?
             "SRC PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE CN:NAME CMT1:" + cmt1Fld +  
-            " Original_Location:PLACE2? CMT2:INFO Original_Location:PLACE2? TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT"
+            " Original_Location:PLACE2? CMT2:INFO Original_Location:PLACE2? CE:INFO? CMT2:INFO CALLER_STATEMENT:INFO? STATEMENT:INFO? TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT"
         : version == FLG_VERSION_2 ?
             "TYP:CALL! LOC:PLACE! AD:ADDR/S! XST:X! CMT1:INFO! UNTS:UNIT!"
         : null);    
@@ -82,6 +82,8 @@ public class DispatchPrintrakParser extends FieldProgramParser {
   
   protected boolean parseMsg(String body, Data data) {
     body = body.replace(" CMTS:", " CMT1:").replace("AD:", " AD:");
+    body = body.replace(" CALLER / STATEMENT:", " CALLER STATEMENT:");
+    body = body.replace(" CALLER CMT2:", " CMT2:");
     return super.parseMsg(body, data);
   }
   
@@ -153,8 +155,19 @@ public class DispatchPrintrakParser extends FieldProgramParser {
   private class BasePlace2Field extends PlaceField {
     @Override
     public void parse(String field, Data data) {
-      if (data.strPlace.length() > 0) return;
-      super.parse(field, data);
+      if (data.strPlace.length() == 0) {
+        super.parse(field, data);
+      } else {
+        if (field.startsWith(data.strPlace)) {
+          field = field.substring(data.strPlace.length()).trim();
+          data.strSupp = append(data.strSupp, " / ", field);
+        }
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE INFO";
     }
   }
   

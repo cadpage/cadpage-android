@@ -14,6 +14,7 @@ public class FLCitrusCountyParser extends SmartAddressParser {
   
   public FLCitrusCountyParser() {
     super(CITY_LIST, "CITRUS COUNTY", "FL");
+    setFieldList("UNIT CODE CALL MAP ADDR APT X CITY INFO");
   }
   
   @Override
