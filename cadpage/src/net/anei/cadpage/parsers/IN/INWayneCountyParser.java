@@ -81,8 +81,8 @@ public class INWayneCountyParser extends MsgParser {
       do {
         loop = false;
         fld = flds[ndx].trim();
-        if (fld.contains("//")) {
-          data.strCross = fld.replace("//", " & ").replaceAll("  +", " ");
+        if (fld.contains("&")) {
+          data.strCross = fld.replace("&", " & ").replaceAll("  +", " ");
           ndx++;
           if (data.strAddress.equals(data.strCross)) {
             data.strCross = "";

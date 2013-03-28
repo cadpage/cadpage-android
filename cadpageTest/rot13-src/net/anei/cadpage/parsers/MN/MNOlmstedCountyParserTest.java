@@ -153,7 +153,8 @@ choyvp pynff ZAByzfgrqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:EBPURFGRE",
         "PNYY:zrq",
         "NQQE:863 uvtu cbvag qe ar",
-        "VASB:oleba znexrg cynpr");
+        "PVGL:oleba",
+        "VASB:znexrg cynpr");
 
     qbGrfg("G3",
         "(BYZFGRQ PBHAGL (EBPURFGRE)(ZA)) sir  16 2 nir aj  xjvx gevc oleba  sebagntr eq",

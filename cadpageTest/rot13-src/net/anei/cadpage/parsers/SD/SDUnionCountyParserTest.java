@@ -428,7 +428,7 @@ choyvp pynff FQHavbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:220 F QREOL YA",
         "PVGL:ABEGU FVBHK",
         "NCG:57",
-        "CYNPR:ABEGU FVBHK PBGGBAJBBQ GENVYRE PBHEG",
+        "CYNPR:PBGGBAJBBQ GENVYRE PBHEG",
         "FEP:AFVBHK",
         "HAVG:72RZF9",
         "VASB:Hfvat CebDN Zrqvpny");

@@ -1478,11 +1478,20 @@ public abstract class SmartAddressParser extends MsgParser {
     // Except some times there really is cross street information following
     // the address, in which case just ignore all the above
     if (!isFlagSet(FLAG_CROSS_FOLLOWS)) {
-      if (isType(endNdx+1, ID_ROAD_SFX) || isType(endNdx+2, ID_ROAD_SFX)) return -1;
+      if (isRealRoadSuffix(endNdx+1) || isRealRoadSuffix(endNdx+2)) return -1;
     }
     
     // Looks good, lets return this
     return endNdx;
+  }
+  
+  /**
+   * Determine if token is unambiguous street suffix
+   * @param ndx - token index
+   * @return true if token at index it unambiguous street suffix
+   */
+  private boolean isRealRoadSuffix(int ndx) {
+    return isType(ndx, ID_ROAD_SFX) && !isType(ndx, ID_AMBIG_ROAD_SFX);
   }
 
   /**
