@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE
-      = Cnggrea.pbzcvyr("EN: +([N-M0-9]+); +([^;]+); +([^,]+?) +,([^ ]*?) +K: +(-?[ \\q\\.]+?) +L: +(-?[ \\q\\.]+?) +Vap# +(\\q+); +([^;]+?) *; *(?:Qrfpe: *)?(.*)");
+    = Cnggrea.pbzcvyr("^(\\q\\q/\\q\\q(?:/\\q{4})?) (\\q\\q:\\q\\q)(?: ([^:]+): (.*)|: (.*) ng (.*?)(?:(?<!/)/(.*))?)$");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("EN: EVBYEN; ZRQVPNY; 270 BTYR NIR ,EVB_QRYY  K: -124 7.31976  L: 40 30.3687 Vap# 001122; EVB SEN2; Qrfpe: cnva va fgbznpu  Cng Pag: 1  Ntr: 28  Lrnef  Frk: Znyr  Pba: Lrf  Oerngu: Lrf  Erfc Fpevcg: Lbh ner erfcbaqvat gb n cngvrag jvgu noqbzvany cnva.  Gur cngvrag vf n  28-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. Abg nyreg.  Pnyyre Fgngrzrag: cnva va fgbznpu.  1.Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).   <n uers=\"uggc://zncf.tbbtyr.pbz/?d=40.506146,-124.121996\">Znc</n>");
+    qbGrfg("03/27/2013 20:38: Iruvpyr penfu jvgu n qrre ng A  OEVPX PUHEPU EQ // YBFG ZVYR EQ/UNTREFGBJA");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

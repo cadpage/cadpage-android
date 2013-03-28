@@ -22,6 +22,10 @@ Gur 209 vf na ncnegzrag be ebbz #. Va Vaqvnan, n 10-52 vf n zrqvpny eha. N 10-50
 (911) 06/01 09:43 900 F N FG : Ynaqznex: YRYNAQ ERFVQRAPR  F 10GU FG//F 9GU FG
 (911) 07/13 10:34 322 F 8GU FG BIREQBFR:  F P FG//F R FG ZNYR GBBX ZRQVPVAR YNFG AVTUG NCCEBK ZVQAVTUG FNENDVY NAQ IVFVGEVY  HAXABJA NZBHAG UR VF FYRRCVAT ABJ
 
+Pbagnpg: Serq Tevssva <sbt89600@tznvy.pbz>
+Fraqre: 40404
+@Jnlar_Pb_VA_911: 03/27/2013 20:38: Iruvpyr penfu jvgu n qrre ng A  OEVPX PUHEPU EQ // YBFG ZVYR EQ/UNTREFGBJA
+
 */
 
 choyvp pynff VAJnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -130,7 +134,20 @@ choyvp pynff VAJnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:HAXABJA NZBHAG UR VF FYRRCVAT ABJ");
   }
   
+  @Grfg
+  choyvp ibvq grfgSerqTevssva() {
+
+    qbGrfg("G1",
+        "@Jnlar_Pb_VA_911: 03/27/2013 20:38: Iruvpyr penfu jvgu n qrre ng A  OEVPX PUHEPU EQ // YBFG ZVYR EQ/UNTREFGBJA",
+        "QNGR:03/27/2013",
+        "GVZR:20:38",
+        "PNYY:Iruvpyr penfu jvgu n qrre",
+        "NQQE:A  OEVPX PUHEPU EQ & YBFG ZVYR EQ",
+        "PVGL:UNTREFGBJA");
+    
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj VAJnlarPbhaglCnefreGrfg().trarengrGrfgf("G1", "QNGR GVZR NQQE NCG PNYY CYNPR K VASB");
+    arj VAJnlarPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
