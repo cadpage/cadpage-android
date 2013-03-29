@@ -18,6 +18,7 @@ public class CASanJoaquinCountyParser extends SmartAddressParser {
   
   public CASanJoaquinCountyParser() {
     super("SAN JOAQUIN COUNTY", "CA");
+    setFieldList("UNIT ID CALL ADDR X MAP PLACE APT");
   }
   
   @Override

@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE
-    = Cnggrea.pbzcvyr("^(\\q\\q/\\q\\q(?:/\\q{4})?) (\\q\\q:\\q\\q)(?: ([^:]+): (.*)|: (.*) ng (.*?)(?:(?<!/)/(.*))?)$");
+    = Cnggrea.pbzcvyr("\\o(K: *)?([-+]?[0-9]+\\.[0-9]{4,}|[-+]?[0-9]+ +[0-9]+\\.[0-9]{2,}'?|[-+]?[0-9]+[: ][0-9]+[:'][0-9]+\\.[0-9]{1,}\"?)[AF]?[,\\J] ?\\J*(L: *)?([-+]?[0-9]+\\.[0-9]{4,}|[-+]?[0-9]+ +[0-9]+\\.[0-9]{2,}'?|[-+]?[0-9]+[: ][0-9]+[:'][0-9]+\\.[0-9]{1,}\"?)[RJ]\\o", Cnggrea.PNFR_VAFRAFVGVIR);
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("03/27/2013 20:38: Iruvpyr penfu jvgu n qrre ng A  OEVPX PUHEPU EQ // YBFG ZVYR EQ/UNTREFGBJA");
+    qbGrfg("37 39'46.96\"a & 121 26'30.72\"j");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

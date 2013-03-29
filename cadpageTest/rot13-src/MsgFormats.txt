@@ -5615,13 +5615,6 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Ebpurfgre Sver) Evc naq Eha Ercbeg\a\a~\aYbpngvba Vasbezngvba:\a\aYbpngvba:~304~CNEXIVRJ~QE~\aIrahr:~EBPURFGRE\aPebff Fgerrgf~\aYRKVATGBA QE / A JNGRE
 (Ebpurfgre Sver) Evc naq Eha Ercbeg\a\a~\aYbpngvba Vasbezngvba:\a\aYbpngvba:~404~YRKVATGBA~QE~\aIrahr:~EBPURFGRE\aPebff Fgerrgf~\aA JNGRE FG / CNEXIVRJ
 **********************************************************
-Rffrk Pbhagl, AL
-Pbagnpg: Xreba Puneyrf <xreba.puneyrf001@tznvy.pbz>
-(Wnl) WISQ:2013:12\aQVFCNGPURQ\aRZF\a1, zvyr FJ vag. bs NhFnoyr Qe. & FE 86 - AJ ;Wnl A
-[Wnl]  WISQ:2013:10\aQVFCNGPURQ\aNynez-Sver
-[Wnl]  WISQ:2013:9\aQVFCNGPURQ\aSver-Sver
-(Wnl) WISQ:2013:13\aQVFCNGPURQ\aSver\aNHFNOYR
-**********************************************************
 Anffnh Pbhagl, AL (ercynpr fbzrguvat???)
 Pbagnpg: Wrerzl Xneyva <wrerzlxneyva@bcgbayvar.arg>
 Fraqre: cntvat1@svererfphrflfgrzf.kbubfg.pbz
@@ -5776,6 +5769,14 @@ WPBZ... EP:Rzretrapl/Purfg Cnva/10490 FNYVARIVYYR EQ AR//FNYVARIVYYR/79 lbz purf
 WPBZ... EP:RWPBZ... EP:Rzretrapl/Purfg Cnva/10490 FNYVARIVYYR EQ AR//FNYVARIVYYR/79 lbz purfg cnva-cev pnyy////19:46/9.8 az///<Haxabja>/Eha# 42653
 WPBZ... EP:Rzretrapl/Purfg Cnva/10490 FNYVARIVYYR EQ AR//FNYVARIVYYR/79 lbz purfg cnva-cev pnyy////19:46/9.8 az///<Haxabja>/Eha# 4265
 WPBZ... EP:Rzretrapl/CNVA - NOQBZVANY/Pneebyy Pbhagl Wnvy//PNEEBYYGBA/Noqbzvany cnva / Ibzvgvat////13:18/1.7 az///<Haxabja>/Eha# 40316
+**********************************************************
+Rffrk Pbhagl, AL
+Pbagnpg: Xreba Puneyrf <xreba.puneyrf001@tznvy.pbz>
+(Wnl) WISQ:2013:12\aQVFCNGPURQ\aRZF\a1, zvyr FJ vag. bs NhFnoyr Qe. & FE 86 - AJ ;Wnl A
+[Wnl]  WISQ:2013:10\aQVFCNGPURQ\aNynez-Sver
+[Wnl]  WISQ:2013:9\aQVFCNGPURQ\aSver-Sver
+(Wnl) WISQ:2013:13\aQVFCNGPURQ\aSver\aNHFNOYR
+(Wnl) WISQ:2013:15\aQVFCNGPURQ\aSver\a70 ORRPU FG
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
 Pbagnpg: wrerzl ubsszna <sverznaw79@tznvy.pbz>
