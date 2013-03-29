@@ -405,7 +405,8 @@ tb fbhgu fb V gel gb nibvq gurz.  V jbhyq frg guvf hc nf n SvryqCebtenzCnefre jv
 fgevat bs "PNYY! Ybp:NQQE! Epiq:GVZR!"
 
 Bs pbhefr, nyy guerr svryqf arrq gb or bireevqqra.
-pnyy svryq - Zhfg raq jvgu () be pnyy nobeg() gb grezvangr cneefvat
+pnyy svryq - Zhfg raq jvgu () be pnyy nobeg() gb grezvangr cneefvat.  Rirelguvat nsgre ynfg
+             oynax tbrf va fgeFbhepr.  Pnyy fhcre.cnefr() jvgvu jung vf yrsg.
 nqqe svryq - Ybbx sbe n [@ frdhrapr.  Vs sbhaq rirelguvat nsgre vg tbg va fgeAnzr.
              Pnyy fhcre.cnefr jvgu jung vf yrsg
 gvzr svryq - Znxr guvf zngpu n cnggrea, vs vg snvyf pnyy nobeg.  Fcyvg vagb gjb
