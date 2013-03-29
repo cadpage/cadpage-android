@@ -195,6 +195,6 @@ choyvp pynff CNNezfgebatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj CNNezfgebatPbhaglCnefreGrfg().trarengrGrfgf("G1", "NQQE K CYNPR PNYY VQ GVZR CUBAR");
+    arj CNNezfgebatPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

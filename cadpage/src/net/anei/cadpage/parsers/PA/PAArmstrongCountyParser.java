@@ -16,6 +16,7 @@ public class PAArmstrongCountyParser extends SmartAddressParser {
   
   public PAArmstrongCountyParser() {
     super("ARMSTRONG COUNTY", "PA");
+    setFieldList("ADDR X PLACE CALL ID TIME PHONE");
   }
 
   @Override

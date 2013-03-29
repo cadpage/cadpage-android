@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.dispatch;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -68,6 +70,7 @@ public class DispatchA1Parser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern APT_PATTERN = Pattern.compile("(?:APT|ROOM)[-:]? *(.*)|(LOT *.*)");
   private class MyAptField extends AptField {
 
     @Override
@@ -77,10 +80,10 @@ public class DispatchA1Parser extends FieldProgramParser {
 
     @Override
     public boolean checkParse(String field, Data data) {
-      if (field.startsWith("APT")) {
-        field = field.substring(3).trim();
-      }
-      else if (field.startsWith("LOT")) {
+      Matcher match = APT_PATTERN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1);
+        if (field == null) field = match.group(2);
       }
       else if (field.length() > 3) return false; 
       parse(field, data);

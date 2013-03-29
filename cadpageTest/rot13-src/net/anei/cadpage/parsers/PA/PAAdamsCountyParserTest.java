@@ -24,6 +24,10 @@ Pbagnpg: ufunax571@pbzpnfg.arg <ufunax571@pbzpnfg.arg>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (TSQ) Nyreg: Snyyf - 2\aNYEZ YIY: 1\aYBP:\a54 CREEVA NIR\aPHZOREYNAQ GJC\aOGJA: CRTENZ FG & NEPURE FG\a\aEPIQ NF 911\a\aPBZ:\aGuvf unccrarq abj (yrff g
 
+Pbagnpg: ovyy zpynhtuyva <gnyn312@lnubb.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+Fhowrpg:TSQ\aNyreg: Purfg Cnva - 1\aNYEZ YIY: 1\aYBP:\aUVYGBA TNEQRA VAA\a1061 LBEX EQ\aEBBZ-205\aFGENONA GJC\aOGJA: ANGHENY FCEVAT
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Snvesvryq Sver naq RZF Ybpngvba: Snvesvryq, CN 
 Fraqre: nyreg@nqnzf911.pbz
@@ -234,6 +238,22 @@ choyvp pynff CNNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:CRTENZ FG & NEPURE FG",
         "VASB:Guvf unccrarq abj (yrff g");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOvyyzptynhtuva() {
+
+    qbGrfg("G1",
+        "Fhowrpg:TSQ\aNyreg: Purfg Cnva - 1\aNYEZ YIY: 1\aYBP:\aUVYGBA TNEQRA VAA\a1061 LBEX EQ\aEBBZ-205\aFGENONA GJC\aOGJA: ANGHENY FCEVAT",
+        "FEP:TSQ",
+        "PNYY:Purfg Cnva - 1",
+        "CEV:1",
+        "CYNPR:UVYGBA TNEQRA VAA",
+        "NQQE:1061 LBEX EQ",
+        "NCG:205",
+        "PVGL:FGENONA GJC",
+        "K:ANGHENY FCEVAT");
+   
   }
   
   @Grfg
