@@ -79,7 +79,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     sb.append("ADDR/S");
     if (inclPlace) sb.append('P');
     if (inclCross || inclCrossNamePhone) sb.append(" X?");
-    if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE");
+    if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE?");
     sb.append(" CODE+? PARTCODE?");
     sb.append(" ID");
     if (idOptional) sb.append('?');
@@ -287,7 +287,21 @@ public class DispatchSouthernParser extends FieldProgramParser {
     }
   }
   
+  // Name field continues until it finds a phone number, call number, or time
+  private static final Pattern NOT_NAME_PTN = Pattern.compile("\\d{10}|\\d\\d(?:\\d\\d)?-?\\d{5,8}|\\d\\d:\\d\\d:\\d\\d");
   private class MyNameField extends NameField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (NOT_NAME_PTN.matcher(field).matches()) return false;
+      parse(field, data);
+      return true;
+    }
+    
     @Override
     public void parse(String field, Data data) {
       data.strName = append(data.strName, ", ", field);

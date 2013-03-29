@@ -22,6 +22,8 @@ public class VAWashingtonCountyParser extends DispatchSouthernParser {
     "MEADOWVIEW",
     "SALTVILLE",
     "EMORY-MEADOWVIEW",
-    "MENDOTA"
+    "MENDOTA",
+    
+    "BRISTOL"
   }; 
 }
