@@ -9,7 +9,7 @@ public class NHHanoverParser extends FieldProgramParser {
   
   public NHHanoverParser() {
     super(CITY_LIST, "HANOVER","NH",
-           "CALL PLACE? ADDR/Z CITY! INFO? DATETIME INFO+");
+           "CALL PLACE? ADDR/Z CITY! INFO+? DATETIME INFO+");
   }
   
   @Override
