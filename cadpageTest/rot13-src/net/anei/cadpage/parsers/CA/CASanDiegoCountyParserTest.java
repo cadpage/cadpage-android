@@ -498,7 +498,7 @@ choyvp pynff PNFnaQvrtbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2012-079562",
         "PNYY:SNYY - ABG URVTUG",
         "NQQE:33 06'55.25\"a & 117 10'37.89\"j",
-        "ZNQQE:33 06'55.25\"a",
+        "ZNQQE:+33.115347,-117.177192",
         "ZNC:1128T4-5423P",
         "PU:GNP 1 VAQVN",
         "GVZR:11:39:45",

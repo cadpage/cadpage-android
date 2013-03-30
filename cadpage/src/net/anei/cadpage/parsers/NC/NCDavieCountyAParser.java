@@ -9,7 +9,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 public class NCDavieCountyAParser extends DispatchA3Parser {
   
   public NCDavieCountyAParser() {
-    super(4, "911:Call #", "DAVIE COUNTY", "NC");
+    super("911:Call #", "DAVIE COUNTY", "NC",
+           "ID Address:ADDR! APT CH! City:CITY! X+ Type:X! X INFO+ PH#:CODE! Units:CALL! IRA:NAME PHONE UNIT% INFO+ NARR:INFO INFO+");
   }
   
   @Override

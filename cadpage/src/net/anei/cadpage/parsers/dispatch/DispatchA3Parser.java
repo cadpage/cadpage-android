@@ -18,20 +18,18 @@ public class DispatchA3Parser extends FieldProgramParser {
   private String prefix;
   
   public DispatchA3Parser(int version, String prefix, String defCity, String defState) {
-    super(defCity, defState,
-           version == 0 ?
-             "ID? ADDR/SXP APT CH CITY! X X MAP INFO1 CALL INFO ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
-           : version == 1 ?
-               "ID? ADDR/SXP APT CH CITY! EMPTY+? CALL CALL ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
-           : version == 2 ?
-               "ID ADDR APT CH CITY X X MAP INFO1 SKIP CALL! PLACENAME PHONE UNIT INFO+"
-           : version == 3 ?
-               "ID Address:ADDR! APT CH! City:CITY! INFO+ Type:CALL CALL NAME PH#:PHONE Units:UNIT IRA:SKIP? INFO+ NARR:INFO INFO+"   // Not currently used
-           : version == 4 ?
-               "ID Address:ADDR! APT CH! City:CITY! X+ Type:X! X INFO+ PH#:CODE! Units:CALL! IRA:NAME PHONE UNIT% INFO+ NARR:INFO INFO+"   // Davie County, NC variant of 3
-           : version == 5 ?
-               "ID Address:ADDR! APT APT! City:CITY! X X MAP LocCmmt:INFO1! Comp:CODE! Desc:CALL! Caller:NAME! Ph#:PHONE! Units:UNIT! SKIP INFO+"
-           : null);
+    this(prefix, defCity, defState,
+          version == 0 ?
+            "ID? ADDR/SXP APT CH CITY! X X MAP INFO1 CALL INFO ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
+          : version == 1 ?
+              "ID? ADDR/SXP APT CH CITY! EMPTY+? CALL CALL ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
+          : version == 2 ?
+              "ID ADDR APT CH CITY X X MAP INFO1 SKIP CALL! PLACENAME PHONE UNIT INFO+"
+          : null);
+  }
+  
+  public DispatchA3Parser(String prefix, String defCity, String defState, String program) {
+    super(defCity, defState, program);
     this.prefix = prefix;
   }
   
