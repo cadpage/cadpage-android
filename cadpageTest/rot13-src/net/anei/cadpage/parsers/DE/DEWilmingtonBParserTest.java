@@ -16,6 +16,7 @@ ceif=765q904q8=JYCQ@fgngr.qr.hf (Vapvqrag) SE2 Obk Nynez 03/01/13 10:33 1332 J  
 [Vapvqrag]  SE2 Obk Nynez 03/02/13 17:34 514 A  UNEEVFBA FG  69Q6  yr.  3.Gur vapvqrag vaibyirf n fvatyr-snzvyl  re vf ba fprar (1fg cnegl).  2.Fzbxr
 [Vapvqrag]  SE2 Obk Nynez 03/01/13 19:06 34 J  31FG FG  52P4F  vf n fzbxr qrgrpgbe nynez.  3.Gur vapvqrag v  pnyyre vf na nynez zbavgbevat pbzcnal. 
 [Vapvqrag]  SE2 Obk Nynez 03/01/13 10:31 49 ONAPEBSG ZVYYF EQ  52P4T  cnal.  2.Vg vf n trareny/sver nynez.  3.Gur v  er).  1.Gur pnyyre vf na nynez z
+ceif=793ror2p2=JYCQ@fgngr.qr.hf (Vapvqrag) SE3 Gnpgvpny Obk Nynez 03/29/13 09:26 325 R  5GU FG  60Q2B  (1fg cnegl).  2.Gur ceboyrz vf ercbegrqyl vaf  f bqbe 5gu sybbe.\3f1.Gur pnyy
 
  */
 
@@ -94,6 +95,16 @@ choyvp pynff QRJvyzvatgbaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:52P4T",
         "PNYY:Nynezf - Erfvqragvny (zhygvcyr) - Trareny/Sver",
         "VASB:cnal.  2.Vg vf n trareny/sver nynez.  3.Gur v  er).  1.Gur pnyyre vf na nynez z");
+
+    qbGrfg("G8",
+        "ceif=793ror2p2=JYCQ@fgngr.qr.hf (Vapvqrag) SE3 Gnpgvpny Obk Nynez 03/29/13 09:26 325 R  5GU FG  60Q2B  (1fg cnegl).  2.Gur ceboyrz vf ercbegrqyl vaf  f bqbe 5gu sybbe.\\3f1.Gur pnyy",
+        "OBK:SE3",
+        "QNGR:03/29/13",
+        "GVZR:09:26",
+        "NQQE:325 R  5GU FG",
+        "PBQR:60Q2B",
+        "PNYY:Tnf yrnx/Tnf bqbe - Uvtu evfr - Bqbe bayl",
+        "VASB:(1fg cnegl).  2.Gur ceboyrz vf ercbegrqyl vaf  f bqbe 5gu sybbe.\\3f1.Gur pnyy");
 
   }
   

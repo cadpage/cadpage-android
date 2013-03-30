@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.StandardCodeTable;
 
 public class DEWilmingtonBParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]+) Box Alarm (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d) (?:(.*?) (\\d{1,2}[A-Z]\\d{1,2}[A-Z]?)\\b *(.*)|(.*))");
+  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]+) (?:Tactical )?Box Alarm (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d) (?:(.*?) (\\d{1,2}[A-Z]\\d{1,2}[A-Z]?)\\b *(.*)|(.*))");
   
   public DEWilmingtonBParser() {
     super("WILMINGTON", "DE");
