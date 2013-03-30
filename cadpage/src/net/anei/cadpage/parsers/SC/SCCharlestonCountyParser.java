@@ -13,12 +13,12 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   
   public SCCharlestonCountyParser() {
     super("CHARLESTON COUNTY", "SC",
-           "( PREFIX Address:ADDR! X_Street:X Cmd_Channel:CH | ADDR/SC! X_Street:X Cmd_Channel:CH! )");
+           "( PREFIX Address:ADDR! X_Street:X Cmd_Channel:CH | ADDR/SC! X_Street:X Cmd_Channel:CH! Units_Assigned:UNIT )");
   }
   
   @Override
   public String getFilter() {
-    return "CDC_Dispatch@charlestoncounty.org";
+    return "@charlestoncounty.org";
   }
   
   @Override
