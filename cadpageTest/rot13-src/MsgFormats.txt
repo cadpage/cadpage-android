@@ -2731,7 +2731,7 @@ Jnlar Pbhagl, BU (BUJnlarPbhaglOCnefre)
 (Qvfcngpu Zrffntr) FDHNQ: PNEQVNP/PURFG CNVA \a110 JRFG YRONABA EQ A 40\a33 LRNE BYQ ZNYR PURFG CNVAF\aUNF ZVGEBINYIR CEBYNFCR
 (Qvfcngpu Zrffntr) SVER: TENFF/GERRF/OEHFU   \aUNPXRGG EQ XNAFNF EQ F \aSVRYQ SVER NG F. XNAFNF NAQ UNPXRGG.
 ***************************************************************************
-Kravn gbjafuvc, BU (BUKravnCnefre)
+Terrar Pbhagl, BU (BUTerrarPbhaglCnefreCnefre)
 ZOYF-ZRQVPNY Ybpngvba: 160 EVPUNEQ QE QNLGBA KRAVN EQ / EBOREG YA KRAVN GJC Gvzr: 17:31 Havgf: Z51  Pbzzba
 SZNYF-ZRQVP NY Ybpngvba: 378 JVAQVAT GEY YNZCYVTUGRE CY, JBBQYNAQ QE / URYRA NIR KRAVN GJC Gvzr: 16:39 Havg
 STEN-TENFF/SVRYQ Ybpngvba: 731 UBBX EQ BYQ UBBX EQ / F OVPXRGG EQ KRAVN GJC Gvzr: 11:52 Havgf:  Pbzzba Anzr
@@ -6310,6 +6310,20 @@ ZIN HAXABJA VAWHEVRF HSE () Ybp:801 WNPXFBA EQ Epiq: 12:29:41 13004585
 ZRQVPNY-PURFG CNVA HSE () Ybp:100 XVEXYNAQ Epiq: 01:25:25 13004564
 ZRQVPNY PNYY HSE () Ybp:421 ABEGU FG Epiq: 13:2:3 13004544
 SVER-GENAFSBEZRE HSQ () Ybp:8433 UJL 492 [@GVYYZNA URYRA & EBOREG E Epiq: 21:11:44 13004456
+**********************************************************
+Ntrapl anzr: CraaFGNE Syvtug
+Pbagnpg: Npgvir911
+Ybpngvba: Cuvynqrycuvn, CN, Havgrq Fgngrf
+Fraqre: znvy@tuqf.arg
+
+23-13-31515: CraaFGNE PPG 1, Oela Znje Ubfcvgny, 23-13-31515
+23-13-31515: (FGNAQOL) CraaFGNE PPG 1, Oela Znje Ubfcvgny, 23-13-31515
+23-13-31512: CraaFGNE 5, A40 49.10 J75 54.70, 6.763 az /286.473 qrt. Zvaref Zrzbevny Ubfcvgny CUPBN
+23-13-31512: CraaFGNE 3, A40 49.10 J75 54.70, 26.797 az /292.737 qrt. Zvaref Zrzbevny Ubfcvgny CUPBN
+23-13-31510: CraaFGNE 3, A40 29.69 J74 27.05, 42.935 az /121.75 qrt. Eboreg Jbbq Wbuafba Havi Ubfc AUEJW
+23-13-31510: (FGNAQOL) CraaFGNE 3, A40 29.69 J74 27.05, 42.935 az /121.75 qrt. Eboreg Jbbq Wbuafba Havi Ubfc AUEJW
+23-13-31509: CraaFGNE 5, A40 49.10 J75 54.70, 6.862 az /286.493 qrt. Zvaref Zrzbevny Ubfcvgny CUPBN
+23-13-31508: CraaFGNE PPG 1, Zrepl Cuvynqrycuvn, 23-13-31508
 **********************************************************
 **********************************************************
 **********************************************************
