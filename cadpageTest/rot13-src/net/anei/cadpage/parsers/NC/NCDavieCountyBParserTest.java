@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Qnivr Pbhagl, AP
 
+Pbagnpg: Oneel Pnegre <oneel2139@tznvy.pbz>
+Fraqre:911@pb.qnivr.ap.hf
+1 bs 4\aSEZ:911@pb.qnivr.ap.hf\aZFT:911:Pnyy#130329-0643* Nqqerff:162 XABYY PERFG EQ* * * Pvgl:ZBPXFIVYYR* QRNQZBA EQ* UBYVQNL YA* * Ybpngvba:AOU:\a(Pba'g) 2 bs 4\aBSS 760 QRNQZBA EQ ARNE JVYYOBBAR EQ* Pbzcynvag:21* Qrfp:PNYY OL CUBAR* Pnyyre:erk fzvgu* Cu#:336-998-3324* Havgf:131,132,21,31,33* *\a(Pba'g) 3 bs 4\aZrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:03/29/2013 19:49:08 : cbf2 : FCUVYYVCF 131 ERDHRFGVAT RZF 2 CNGVRAGF, NAQ SVER QRCNEGZRAG JVGU PB\a(Pba'g) 4 bs 4\a2 03/29/2013 19:20(Raq)
+
 Pbagnpg: Npgvir911
 Arj sbezng - zhygvcyr ntrapvrf
 Fraqre: 911@pb.qnivr.ap.hf
@@ -122,6 +126,36 @@ choyvp pynff APQnivrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp APQnivrPbhaglOCnefreGrfg() {
     frgCnefre(arj APQnivrPbhaglOCnefre(), "QNIVR PBHAGL", "AP");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOneel() {
+
+    qbGrfg("G1",
+        "1 bs 4\a" +
+        "SEZ:911@pb.qnivr.ap.hf\a" +
+        "ZFT:911:Pnyy#130329-0643* Nqqerff:162 XABYY PERFG EQ* * * Pvgl:ZBPXFIVYYR* QRNQZBA EQ* UBYVQNL YA* * Ybpngvba:AOU:\a" +
+        "(Pba'g) 2 bs 4\a" +
+        "BSS 760 QRNQZBA EQ ARNE JVYYOBBAR EQ* Pbzcynvag:21* Qrfp:PNYY OL CUBAR* Pnyyre:erk fzvgu* Cu#:336-998-3324* Havgf:131,132,21,31,33* *\a" +
+        "(Pba'g) 3 bs 4\a" +
+        "Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:03/29/2013 19:49:08 : cbf2 : FCUVYYVCF 131 ERDHRFGVAT RZF 2 CNGVRAGF, NAQ SVER QRCNEGZRAG JVGU PB\a" +
+        "(Pba'g) 4 bs 4\a" +
+        "2 03/29/2013 19:20(Raq)",
+
+        "VQ:130329-0643",
+        "NQQE:162 XABYY PERFG EQ",
+        "PVGL:ZBPXFIVYYR",
+        "K:QRNQZBA EQ & UBYVQNL YA",
+        "VASB:Zrq:Zrqvpny: Ab / Unm:Unmneqf: Ab\aAnee:\a131 ERDHRFGVAT RZF 2 CNGVRAGF, NAQ SVER QRCNEGZRAG JVGU PB 2 03/29/2013 19:20",
+        "PBQR:21",
+        "PNYY:PNYY OL CUBAR",
+        "ANZR:erk fzvgu",
+        "CUBAR:336-998-3324",
+        "HAVG:131,132,21,31,33",
+        "QNGR:03/29/2013",
+        "GVZR:19:49:08",
+        "CYNPR:BSS 760 QRNQZBA EQ ARNE JVYYOBBAR EQ");
+   
   }
   
   @Grfg
