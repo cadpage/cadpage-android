@@ -24,6 +24,13 @@ public class OHColumbianaCountyParser extends GeneralParser {
     return "leetoniafd@hotmail.com,messaging@emergencysmc.com";
   }
   
+  // We did enough work on this that users really ought to pay for it, overriding the
+  // General location sponsorship
+  @Override
+  public String getSponsor() {
+    return null;
+  }
+  
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     Matcher match = SOURCE_PTN.matcher(body);

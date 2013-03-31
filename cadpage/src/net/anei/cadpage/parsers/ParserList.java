@@ -526,6 +526,7 @@ public class ParserList {
               ,"OHButlerCounty"                 ,"Butler County, OH"
               ,"OHClermontCounty"               ,"Clermont County, OH"
               ,"OHClintonCounty"                ,"Clinton County, OH"
+              ,"OHColumbianaCounty"             ,"Columbiana County, OH"
               ,"OHDelawareCounty"               ,"Delaware County, OH"
               ,"OHEnglewood"                    ,"Englewood Regional Communications, OH"
               ,"OHFairfieldCounty"              ,"Fairfield County, OH"
