@@ -472,6 +472,7 @@ public class ParserList {
               ,"NCDavieCounty"                  ,"Davie County, NC"
               ,"NCDuplinCounty"                 ,"Duplin County, NC"
               ,"NCDurhamCounty"                 ,"Durham County, NC"
+              ,"NCEdgecombeCounty"              ,"Edgecombe County, NC"
               ,"NCForsythCounty"                ,"Forsyth County, NC"
               ,"NCGastonCounty"                 ,"Gaston County, NC"
               ,"NCGrahamCounty"                 ,"Graham County, NC"

@@ -13,6 +13,7 @@ public class NCAlexanderCountyParser extends SmartAddressParser {
   
   public NCAlexanderCountyParser() {
     super("ALEXANDER COUNTY", "NC");
+    setFieldList("ADDR PLACE CALL CODE X");
   }
   
   @Override

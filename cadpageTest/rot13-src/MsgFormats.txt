@@ -2523,6 +2523,11 @@ Qnivr Pbhagl, AP (APQnivrPbhaglOCnefre)
 911:Pnyy#130327-0312* Nqqerff:130 BYRNAQRE QE* * * Pvgl:NQINAPR* UBYYLOEBBX QE* UBYYLOEBBX QE* * YbpPzzg:AOU: 140 UBYYLOEBBX GB 180 UBYYLOEBBX BSS OREZHQN IVYY QE* Pbzc:SNYY* Qrfp:SNYY* Pnyyre:PUHEPU RIRYLA URFGRE* Cu#:336-940-6575* Havgf:24* * Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:03/27/2013 08:46:56 : cbf1 : WWNFGRE ** RZQ Pnfr Ragel Svavfurq ** Puvrs Pbzcynvag Ahzore: 17 Xrl Dhrfgvbaf: 64 lrne
 911:Pnyy#130326-0272* Nqqerff:102 V40 RO* * * Pvgl:ZBPXFIVYYR* 601 ABEGU* SNEZVATGBA EQ* * YbpPzzg:* Pbzc:IS* Qrfp:IRUVPYR SVER* Pnyyre:AP QRCG BS GENAFCBEGNGVBA* Cu#:336-940-5627* Havgf:23,24* * Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:03/26/2013 21:13:00 : cbf4 : ECVREPR Pebff fgerrgf: 601 ABEGU//SNEZVATGBA EQ oynpx oynmre ba gur pnzcre fvqr pnyyre nqivfrq ybbxrq yvxr fbzrguvat jnf ba sver vafvqr 
 ****************************************************************************
+Rqtrpbzor Pbhagl, AP (APRqtrpbzorPbhaglCnefre)
+F: Z:Rqtrpbzor911:6120 BYQ ONGGYROBEB EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,JUVGNXREF1
+F: Z:RqtrpbzorPrageny:4371 ONGGYROBEB-YRTTRGG EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,EBPXLZG1
+F: Z:Rqtrpbzor911:6120 BYQ ONGGYROBEB EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,JUVGNXREF1
+****************************************************************************
 Sbeflgu Pbhagl, AP (APSbeflguPbhaglCnefre)
 Ybpngvba: 1 FGBXRF PBHAGL: @FGBXRF PBHAGL: 2312 UJL 65 R Angher: Hapbafpvbhf/Haerfcbafvir/Flapbcr C:1  - qrsnhyg QVFGEVPG: E09 K Fge: / PNYYRE ANZR: FGBX
 Ybpngvba: 6206 ERVQFIVYYR EQ SP: @PERRXFVQR ZNABE Angher: Purfg Cnva/Urneg Ceboyrzf C:1  - JVGU_FLZCGBZF QVFGEVPG: E31 K Fge: TBBQJVYY PUHEPU EQ/CVARL TE
@@ -5642,17 +5647,6 @@ ceif=793ror2p2=JYCQ@fgngr.qr.hf (Vapvqrag) Sebz: Wnzrf Ebffrry Ybp: 110 A  CBCYN
 **********************************************************
 **********************************************************
 **********************************************************
-Rqtrpbzor Pbhagl, AP
-Pbagnpg: Onggyrobeb Sver Qrcg. <opisq@fhqqrayvaxznvy.pbz>
-Fraqre: rqtrpbzorprageny@pb.rqtrpbzor.ap.hf
-Flfgrz: Cntrtngr
-F: Z:Rqtrpbzor911:* 2031 GNAARE EQ* * * EBPXL ZBHAG* * Yvar7=* Yvar8=* Yvar9=* Yvar10=* Yvar11=FGEHPGHER SVER – UBHFR, PUHEPU, BPPHCVRQ QJRYYVAT* Yvar12=* Yvar13=* Y 
-F: Z:Rqtrpbzor911:* 720 QHAONE JBBQF EQ* * * ONGGYROBEB* * Yvar7=* Yvar8=* Yvar9=* Yvar10=* Yvar11=SVER NYNEZ NPGVINGVBA* Yvar12=* Yvar13=* Yvar14=18SQ1,19SQ1,9SQANF 
-F: Z:Rqtrpbzor911:6120 BYQ ONGGYROBEB EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,JUVGNXREF1
-F: Z:RqtrpbzorPrageny:4371 ONGGYROBEB-YRTTRGG EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,EBPXLZG1
-F: Z:Rqtrpbzor911:6120 BYQ ONGGYROBEB EQ ONGGYROBEB Oernguvat Ceboyrzf PBQR 3 9SQANFU1,JUVGNXREF1
-F: Z:RqtrpbzorPrageny:5590 ZBEAVAT FGNE PU EQ ONGGYROBEB Purfg Cnva PBQR 3 9SEANFU,JUVGNXREF2
-F: Z:RqtrpbzorPrageny:1024 NSG YA ONGGYROBEB SVER NYNEZ NPGVINGVBA 12SQ1,18SQ1,9SQANFU1 
 **********************************************************
 Yrrgbavn, BU (va Pbyhzovnan Pbhagl)
 Pbagnpg: avtugeu@ngg.arg <avtugeu@ngg.arg>
