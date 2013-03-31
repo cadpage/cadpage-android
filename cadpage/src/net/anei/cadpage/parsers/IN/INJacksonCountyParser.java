@@ -8,6 +8,7 @@ public class INJacksonCountyParser extends SmartAddressParser {
   
   public INJacksonCountyParser() {
     super("JACKSON COUNTY", "IN");
+    setFieldList("SRC CALL ADDR APT INFO");
   }
   
   @Override
