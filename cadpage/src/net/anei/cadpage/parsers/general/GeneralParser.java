@@ -10,8 +10,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class GeneralParser extends SmartAddressParser {
   
-  private static final Pattern DATE_PATTERN = Pattern.compile("\\b(\\d\\d?/\\d\\d?/\\d\\d(\\d\\d)?)\\b[,;:]?");
-  private static final Pattern TIME_PATTERN = Pattern.compile("\\b(\\d\\d?(?::\\d\\d?){1,2})( [AP]M)?\\b[,;:]?", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DATE_PATTERN = Pattern.compile("\\b(\\d\\d?[-/]\\d\\d?[-/]\\d\\d(\\d\\d)?)\\b[,;:]?");
+  private static final Pattern TIME_PATTERN = Pattern.compile("\\b(\\d\\d?(?::\\d\\d?){1,2})( [AP]M)?\\b(?:[,;:]| +hrs\\b)?", Pattern.CASE_INSENSITIVE);
   private static final String DELIM_PATTERN_STR = ";|,|~|\\*|\\n|\\||\\b[A-Z][A-Za-z0-9-#]*:|\\bC/S:|\\b[A-Z][A-Za-z]*#";
   private static Pattern DELIM_PATTERN; // will be filled in by constructor
   private static final Pattern CALL_ID_PATTERN = Pattern.compile("\\d{2,4}-\\d{5,}|[A-Z]{1,2}\\d{6,}|\\d{11,}");
@@ -117,6 +117,13 @@ public class GeneralParser extends SmartAddressParser {
     // Accept anything, but only if someone else has identified this as a CAD page
     return isPositiveId();
   }
+  
+  /**
+   * @return set of flags to be passed to smart ParseAddress calls
+   */
+  protected int getParseAddressFlags() {
+    return FLAG_NO_IMPLIED_APT | FLAG_AT_BOTH;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -129,7 +136,7 @@ public class GeneralParser extends SmartAddressParser {
     // Strip out any date and time fields
     Matcher match = DATE_PATTERN.matcher(body);
     if (match.find()) {
-      data.strDate = match.group(1);
+      data.strDate = match.group(1).replace('-', '/');
       body = match.replaceAll("");
     }
     match = TIME_PATTERN.matcher(body);
@@ -228,7 +235,7 @@ public class GeneralParser extends SmartAddressParser {
           // Otherwise run it through the smart parser just in case the
           // call desc is followed by an address
           else {
-            parseAddress(StartType.START_CALL, FLAG_NO_IMPLIED_APT, fld, data);
+            parseAddress(StartType.START_CALL, getParseAddressFlags(), fld, data);
             if (data.strSupp.length() == 0) data.strSupp = getLeft();
           }
           break;
@@ -245,7 +252,7 @@ public class GeneralParser extends SmartAddressParser {
           foundAddr = true;
           StartType st = (data.strCall.length() == 0 ? StartType.START_CALL :
                           data.strPlace.length() == 0 ? StartType.START_PLACE : StartType.START_SKIP);
-          Result res = parseAddress(st, fld);
+          Result res = parseAddress(st, getParseAddressFlags(), fld);
           if (bestRes == null || res.getStatus() > bestRes.getStatus()) {
             if (secondAddr == null) secondAddr = bestAddr;
             bestAddr = fld;
@@ -320,7 +327,7 @@ public class GeneralParser extends SmartAddressParser {
         if (!foundAddr) {
           StartType st = (data.strCall.length() == 0 ? StartType.START_CALL :
                           data.strPlace.length() == 0 ? StartType.START_PLACE : StartType.START_SKIP);
-          Result res = parseAddress(st, FLAG_NO_IMPLIED_APT, fld);
+          Result res = parseAddress(st, getParseAddressFlags(), fld);
           if (res.getStatus() > 0) {
             // Bingo!  Anything past the address goes into info
             foundAddr = true;

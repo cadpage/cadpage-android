@@ -992,7 +992,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // and city was found
 
     int sAddr, ndx;
-    if (startAddress >= 0) {
+    if (!flexAt && startAddress >= 0) {
       sAddr = ndx = startAddress;
       while (isType(ndx, ID_OPT_ROAD_PFX)) ndx++;
       ndx = findRoadEnd(ndx, 0);
