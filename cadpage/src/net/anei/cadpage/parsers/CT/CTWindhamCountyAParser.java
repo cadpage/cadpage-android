@@ -13,12 +13,15 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTWindhamCountyAParser extends SmartAddressParser {
   
-  private static final Pattern CHANNEL_PTN = Pattern.compile(" +(UHF-\\d|\\d\\d\\.\\d\\d|\\b(?:KILLINGLY) \\d{3}|HIGH-BAND) +");
+  private static final Pattern CHANNEL_PTN = Pattern.compile("(?:^| +)(UHF-\\d|\\d\\d\\.\\d\\d|\\b(?:KILLINGLY|UNION) \\d{3}|HIGH-BAND) +");
   private static final Pattern PRIORITY_PTN = Pattern.compile("^PRI +(\\d) +");
   private static final Pattern TIME_PTN = Pattern.compile("\\d\\d:\\d\\d");
+  private static final Pattern RESERVE_CALL_PTN = Pattern.compile("\\b(?:CALL FROM|ALERT|ALARM)\\b", Pattern.CASE_INSENSITIVE);
+      
 
   public CTWindhamCountyAParser() {
     super("WINDHAM COUNTY", "CT");
+    setFieldList("SRC UNIT CH PRI CALL ADDR PLACE CITY X TIME");
   }
   
   @Override
@@ -56,7 +59,20 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
       data.strPriority = match.group(1);
       sAddr = sAddr.substring(match.end()).trim();
     }
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, sAddr, data);
+    
+    // There has bee a problem with some call descriptions that contains things that look like
+    // an address, so we try to identify and parser those out.
+    if (sAddr.startsWith("/")) sAddr = sAddr.substring(1).trim();
+    String reserveCall = "";
+    int flags = FLAG_START_FLD_REQ;
+    match = RESERVE_CALL_PTN.matcher(sAddr);
+    if (match.find()) {
+      reserveCall =  sAddr.substring(0,match.end()).replaceAll(" +", " ");
+      sAddr = sAddr.substring(match.end()).trim();
+      if (!reserveCall.toUpperCase().endsWith("FROM")) flags = 0;
+    }
+    parseAddress(StartType.START_CALL, flags | FLAG_ANCHOR_END, sAddr, data);
+    data.strCall = append(reserveCall, " ", data.strCall);
     
     pt = sPlaceCity.lastIndexOf(' ');
     if (pt < 0 || CITY_SET.contains(sPlaceCity.toUpperCase())) {
