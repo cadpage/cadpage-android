@@ -211,6 +211,7 @@ public class ParserList {
               ,"GADoolyCounty"                  ,"Dooly County, GA"
               ,"GADoughertyCounty"              ,"Dougherty County, GA"
               ,"GAEvansCounty"                  ,"Evans County, GA"
+              ,"GAFranklinCounty"               ,"Franklin County, GA"
               ,"GAHenryCounty"                  ,"Henry County, GA"
               ,"GAJacksonCounty"                ,"Jackson County, GA"
               ,"GAMaconCounty"                  ,"Macon County, GA"
