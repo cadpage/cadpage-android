@@ -122,7 +122,7 @@ public class GeneralParser extends SmartAddressParser {
    * @return set of flags to be passed to smart ParseAddress calls
    */
   protected int getParseAddressFlags() {
-    return FLAG_NO_IMPLIED_APT | FLAG_AT_BOTH;
+    return FLAG_NO_IMPLIED_APT;
   }
 
   @Override
