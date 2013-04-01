@@ -1,35 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03252013</string>
-  <string name="release_version">v1.6.16</string>
+  <string name="release_date">04012013</string>
+  <string name="release_version">v1.6.17</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Shoshone County, ID\n
-Louisville, KY\n
-Livingston County, NY\n
-Caswell County, NC\n
+Dickinson County, IA\n
+Franklin County, GA\n
+Lafourche Parish, LA\n
+Edgecombe County, NC\n
+Columbiana County, OH\n
+Orangeburg County, SC\n
 \n
 Location Parsing Fixes:\n
-Tolland County, CT\n
-Wilmington, DE\n
-Lee County, FL\n
-Peoria County, IL\n
-Rock Island County, IL\n
-Madison County, IN\n
-Marion County, OR\n
-Hunterdon County, NJ\n
+Yavapai County, AZ\n
+Windham County, CT\n
+Wilmington County, DE\n
+Collier County, FL\n
+Kankakee County, IL\n
+Hancock County, IN\n
+Wayne County, IN\n
+Charlevoix County, MI\n
 Hanover, NH\n
-Burke County, NC\n
-Guilford County, NC (merge Greensboro, NC)\n
-Greene County, OH (was Xenia, OH)\n
-Norhumberland County, PA\n
-York County, PA\n
-Montgomery County, TX\n
-Accomack County, VA\n
-Morgan County, WV\n
-Red Deer County, AB, Canada\n
+Livingston County, NY\n
+Monroe County, NY\n
+Davie County, NC\n
+Polk County, NC\n
+Adams County, PA\n
+Armstrong County, PA\n
+Jefferson County, PA\n
+Charleston County, SC\n
+Cumberland County, TN\n
+Washington COunty, VA\n
+\n
+General Fixes:\n
+Problem handlling GPS coordinates outside of North America\n
+Force close handling badly formated page messages\n
   </string>  
 </resources>
   
