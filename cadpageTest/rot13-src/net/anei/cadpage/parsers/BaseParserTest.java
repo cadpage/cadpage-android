@@ -20,6 +20,14 @@ vzcbeg fgngvp bet.whavg.Nffreg.*;
 
 choyvp nofgenpg pynff OnfrCnefreGrfg {
   
+  // Qhzzl cnefre pynff hfrq nf n cynprubyqre gb erfbyir pbzcvyr ersreraprf 
+  // va qhzzl fxryrgba grfg pynffrf
+  cebgrpgrq pynff QhzzlCnefre rkgraqf ZftCnefre {
+    choyvp QhzzlCnefre() {
+      fhcre("", "");
+    }
+  }
+  
   cevingr fgngvp svany Fgevat SEBZ_NQQERFF = "1112223333";
   cevingr fgngvp svany vag CNEFR_SYNTF = ZftCnefre.CNEFR_SYT_GRFG_ZBQR | 
                                             ZftCnefre.CNEFR_SYT_CBFVGVIR_VQ | 
