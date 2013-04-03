@@ -595,7 +595,7 @@ Jean, Assistant to Ken Corbin
 
 *****************************************************************
 
-OK, <<<>>> will be supported in the next release, probably Thursday  If you want it earlier than that this should be in beta release at http://www.cadpage.org/download-cadpage tomorrow morning.
+OK, <<<>>> will be supported in the next release, probably next Sunday  If you want it earlier than that this should be in beta release at http://www.cadpage.org/download-cadpage tomorrow morning.
 
 You are entitled to a free one year subscription for helping us set up a new location.  You just have to ask for it, preferably by using the Cadpage "Email the Developer" feature, so we know which account name has to be added to the subscription list.
 
