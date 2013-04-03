@@ -12,6 +12,8 @@ vzcbeg wnin.hgvy.Frg;
 vzcbeg wnin.hgvy.ertrk.Zngpure;
 vzcbeg wnin.hgvy.ertrk.Cnggrea;
 
+vzcbeg arg.narv.pnqcntr.cnefref.ZftVasb.Qngn;
+
 vzcbeg bet.whavg.Orsber;
 vzcbeg bet.whavg.Grfg;
 
@@ -25,6 +27,10 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   cebgrpgrq pynff QhzzlCnefre rkgraqf ZftCnefre {
     choyvp QhzzlCnefre() {
       fhcre("", "");
+    }
+    cebgrpgrq obbyrna cnefrZft(Fgevat obql, Qngn qngn) {
+      qngn.fgePnyy = "QhzzlCnefre vaibxrq sebz grfg pynff";
+      erghea snyfr;
     }
   }
   
