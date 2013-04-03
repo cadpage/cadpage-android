@@ -16,7 +16,7 @@ public class CTTollandCountyParser extends SmartAddressParser {
   
   public CTTollandCountyParser() {
     super(CITY_LIST, "TOLLAND COUNTY", "CT");
-    setFieldList("SRC ADDR APT CITY CALL X ID");
+    setFieldList("SRC ADDR APT CITY CALL TIME X ID");
   }
   
   @Override
@@ -54,7 +54,11 @@ public class CTTollandCountyParser extends SmartAddressParser {
     // What is in front of that becomes the address
     int pt = sAddr.indexOf('/');
     if (pt >= 0) {
-      data.strAddress = sAddr.substring(0,pt).trim();
+      
+      // Use smart address parser to extract trailing apt
+      parseAddress(StartType.START_ADDR, FLAG_NO_CITY, sAddr.substring(0,pt).trim(), data);
+      data.strApt = append(data.strApt, " - ", getLeft());
+      
       sAddr = sAddr.substring(pt+1).trim();
       
       // if what comes after the slash is a street name, append it to address
@@ -83,6 +87,7 @@ public class CTTollandCountyParser extends SmartAddressParser {
       data.strCall = body;
       return true;
     }
+    data.strTime = match.group().replace(" ", "");
     data.strCall = body.substring(0,match.start()).trim();
     body = body.substring(match.end()).trim();
     
@@ -152,6 +157,7 @@ public class CTTollandCountyParser extends SmartAddressParser {
     
     // Windham county
     "ASHFORD",
+    "EASTFORD",
     "WILLIMANTIC",
     "WINDHAM",
     
