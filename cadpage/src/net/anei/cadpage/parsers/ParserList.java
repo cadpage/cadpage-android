@@ -706,6 +706,7 @@ public class ParserList {
               ,"VABotetourtCounty"              ,"Botetourt County, VA"
               ,"VACampbellCounty"               ,"Campbell County, VA"
               ,"VACarrollCounty"                ,"Carroll County, VA"
+              ,"VAFairfaxCity"                  ,"Fairfax City, VA"
               ,"VAFairfaxCounty"                ,"Fairfax County, VA"
               ,"VAFauquierCounty"               ,"Fauquier County, VA"
               ,"VAFranklin"                     ,"Franklin, VA"

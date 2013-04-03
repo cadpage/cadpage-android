@@ -15,6 +15,7 @@ public class OKTulsaParser extends GeneralParser {
   
   public OKTulsaParser() {
     super("TULSA", "OK");
+    setFieldList("CALL ADDR X PHONE NAME ID INFO PLACE");
   }
   
   @Override
