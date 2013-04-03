@@ -1,16 +1,21 @@
 package net.anei.cadpage.parsers.SC;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchBParser;
+import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 
-public class SCAndersonCountyParser extends DispatchBParser {
+public class SCAndersonCountyParser extends DispatchB2Parser {
   
   private static final String[] MARKERS = new String[] {
     "ANDERSON CO 911:",
     "AND 911:",
     "active911:",
-    "06-wp:"
+    "06-wp:",
+    "als10:",
+    "ems1:",
+    "esadmin:",
+    "childcnty:",
+    "afdtrt:"
   };
   
   private static final String[] CITY_CODES = new String[]{
@@ -44,10 +49,11 @@ public class SCAndersonCountyParser extends DispatchBParser {
       }
     }
     if (!good) return false;
+    if (subject.equals("EVENT")) subject = "EVENT:";
     body = append(subject, " ", body);
     
-    int pt = body.indexOf('>');
-    if (pt >= 0) data.strCode = body.substring(0,pt).trim();
+//    int pt = body.indexOf('>');
+//    if (pt >= 0) data.strCode = body.substring(0,pt).trim();
     
     // Call superclass parser
     body = body.replace('@', '&');

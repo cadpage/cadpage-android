@@ -101,6 +101,11 @@ public class DispatchBParser extends FieldProgramParser {
     return true;
   }
   
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " INFO";
+  }
+  
   /**
    * Determines if this is a CAD page (may be overridden by subclasses)
    * @param body

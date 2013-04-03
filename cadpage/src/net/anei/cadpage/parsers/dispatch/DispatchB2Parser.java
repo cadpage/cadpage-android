@@ -18,8 +18,10 @@ Go Figure
 
 public class DispatchB2Parser extends DispatchBParser {
   
-  private static final Pattern CODE_PATTERN = Pattern.compile("^([A-Z0-9]+) *> *"); 
-  private static final Pattern PHONE_PTN = Pattern.compile(" (\\d{10}|\\d{7}|\\d{3} \\d{7}|\\d{3}-\\d{4})$");
+  private static final Pattern CODE_PATTERN = Pattern.compile("^([-A-Z0-9]+) *> *"); 
+  private static final Pattern PHONE_PTN = Pattern.compile(" *((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4})$");
+  private static final Pattern PHONE2_PTN = Pattern.compile("^((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}) *");
+  private static final Pattern APT_PTN = Pattern.compile("[A-Z]?\\d+[A-Z]?");
   
   private String prefix;
 
@@ -69,10 +71,27 @@ public class DispatchB2Parser extends DispatchBParser {
     match = PHONE_PTN.matcher(field);
     if (match.find()) {
       data.strPhone = match.group(1);
-      field = field.substring(0,match.start()).trim();
+      field = field.substring(0,match.start());
     }
     parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, field, data);
-    data.strName = getLeft();
+    String name = getLeft();
+    if (name.startsWith("&")) {
+      data.strAddress = append(data.strAddress, " ", name);
+    }
+    
+    else if (data.strPhone.length() == 0 && (match = PHONE2_PTN.matcher(name)).find()) {
+      data.strPhone = match.group(1);
+      data.strName = name.substring(match.end());
+    } 
+    
+    else if ((match = APT_PTN.matcher(name)).matches()) {
+      data.strApt = name;
+    }
+    
+    else {
+      data.strName = name;
+    }
+    
     return true;
   }
 }
