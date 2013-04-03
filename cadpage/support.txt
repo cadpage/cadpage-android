@@ -137,7 +137,7 @@ Good Luck, Jean, Assistant to Ken Corbin
 Trouble registering with Active911
 ******************************************************************
 
-Very occasionally, people having trouble with registering with
+Very occasionally, people are having trouble registering with
 Active911.  There are a couple things you can try, usually something works.
 
 Go to the home screen and select Menu > Settings > Accounts and Sync
@@ -238,7 +238,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-OJGTULBA or ojgtulba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+YIYULHCA or yiyulhca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -324,7 +324,7 @@ If you do this, please include your Cadpage User email address (usually a gmail 
 We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them other then getting staff and volunteer members to bring it up.  If you can talk them into it, they get a 30% discount or more!  Details can be found at http://www.cadpage.org/financial-support/other-support-options.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-OJGTULBA or ojgtulba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+YIYULHCA or yiyulhca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -468,7 +468,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-OJGTULBA or ojgtulba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+YIYULHCA or yiyulhca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -482,7 +482,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-OJGTULBA or ojgtulba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+YIYULHCA or yiyulhca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -492,7 +492,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-OJGTULBA or ojgtulba.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+YIYULHCA or yiyulhca.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -677,7 +677,7 @@ Good luck,
 ******************************************************************
 * Active911 registration issues
 
-Very occasionally, people having trouble with registering with Active911.  There are a couple things you can try, usually something works.
+Very occasionally, people are having trouble registering with Active911.  There are a couple things you can try, usually something works.
 
 Go to the home screen and select Menu > Settings > Accounts and Sync
 and make sure Background Data and Auto-Sync settings are enabled.  While you are here, press the Google account setting and Sync Now.
@@ -1458,6 +1458,20 @@ I hope this helps.  It has been an interesting time in this business!  We would 
 
 Thanks for your support and your inquiry.
 Jean
+
+*************************************************************
+
+So, here are the details in setting up the same email address for use on the second phone.
+
+In your second phone, go to Android settings --- Accounts -- Add new account --- select Google --- existing --- email.
+
+Enter your Cadpage User email address: 
+nightrh@gmail.com
+
+Then you may need to enter a password.
+
+Please note that the instructions may vary a bit depending on the type of second phone you have.  
+***************************************************************
 
 
 
