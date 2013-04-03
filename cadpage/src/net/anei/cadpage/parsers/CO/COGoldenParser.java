@@ -20,13 +20,17 @@ public class COGoldenParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "messaging@iamresponding.com";
+    return "messaging@iamresponding.com,CADTOFIRE@CITYOFGOLDEN.NET";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Golden Fire")) return false;
+    if (!subject.equals("Golden Fire") && !subject.startsWith("CAD call ")) return false;
     body = ENDLINE.matcher(body).replaceAll("\n");
+    
+    int pt = body.indexOf("\n\n\n\n");
+    if (pt >= 0) body = body.substring(0,pt);
+    
     return parseFields(DELIM.split(body), 6, data);
   }
   
@@ -68,11 +72,19 @@ public class COGoldenParser extends FieldProgramParser {
     }
   }
   
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strSupp = append(data.strSupp, "\n", field);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
 }
