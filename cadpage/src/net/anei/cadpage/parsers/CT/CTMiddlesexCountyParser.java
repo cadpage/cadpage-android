@@ -18,12 +18,12 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
   
   public CTMiddlesexCountyParser() {
     super(CITY_CODES, "MIDDLESEX COUNTY", "CT",
-          "GPS? CALL! ADDR! Apt:APT! CITY! Cross_Streets:X? Caller:NAME! Disp_Time:DATETIME! EMPTY+? GPS");
+          "GPS? CALL! ADDR! Apt:APT! CITY! Cross_Streets:X? Caller:NAME! Disp_Time:DATETIME% EMPTY+? GPS");
   }
 
   @Override
   public String getFilter() {
-    return ".sbc.mail.gq1.yahoo.com";
+    return ".sbc.mail.gq1.yahoo.com,administrator@valleyshore911.org";
   }
   
   @Override

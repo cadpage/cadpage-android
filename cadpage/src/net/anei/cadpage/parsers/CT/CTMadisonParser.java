@@ -16,6 +16,7 @@ public class CTMadisonParser extends SmartAddressParser {
   
   public CTMadisonParser() {
     super("MADISON", "CT");
+    setFieldList("CALL CODE ADDR APT X PLACE");
   }
 
   @Override
