@@ -1471,7 +1471,34 @@ nightrh@gmail.com
 Then you may need to enter a password.
 
 Please note that the instructions may vary a bit depending on the type of second phone you have.  
+
 ***************************************************************
+fix this up?:
+
+You might look into the FirefighterLog app.  It is published by somebody
+else, but it will pick up the page information displayed by Cadpage and
+will save it in a real database for long term retrieval and reporting
+purposes.
+
+Once you trial period expires, Cadpage will quit displaying call
+details, which makes it more or less useless.  You are given options to
+ask for another free day, I think you can do that 8 times.  Or to
+reinstall Cadpage which will reset your demo period but loose all
+Cadpage settings and history.
+
+
+> After your trial expires, there are some "free" options below.  There is
+> no loss of function with free, DEMO, or PAID Cadpage subscriptions.  The
+> only difference is the time period they are used before the payment
+> becomes an issue.
+>
+>> I was wondering if there is an add on available, or a different app
+>> that's works in conjunction with cadpage that I could keep track if
+>> which calls u went to, and possibly have the ability to track call
+>> duration. Also, I saw that there is a process for not having to pay the
+>> 10.00 after the trial expires. What functions are lost after the trial
+>> period expires?
+
 
 
 

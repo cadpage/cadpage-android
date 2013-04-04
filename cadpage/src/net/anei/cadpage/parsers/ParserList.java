@@ -429,6 +429,7 @@ public class ParserList {
               ,"NYGreeneCounty"                 ,"Greene County, NY"
               ,"NYHerkimerCounty"               ,"Herkimer County, NY"
               ,"NYJeffersonCounty"              ,"Jefferson County, NY"
+              ,"NYLewisCounty"                  ,"Lewis County, NY"
               ,"NYLivingstonCounty"             ,"Livingston County, NY"
               ,"NYMadisonCounty"                ,"Madison County, NY"
               ,"NYMonroeCounty"                 ,"Monroe County, NY"
