@@ -19,7 +19,7 @@
 	<property name="select" value="net/anei/cadpage/ant/**"/>
 	<property name="filename" value="CadpageParser"/>
 	
-	<condition property="SVNEDITOR" value="notepad" else="gedit --new-window">
+	<condition property="SVNEDITOR" value="notepad" else="kate -n">
 	  <os family="windows"/>
 	</condition>
   
