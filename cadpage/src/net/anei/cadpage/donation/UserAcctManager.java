@@ -8,7 +8,6 @@ import java.util.Date;
 
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.HttpService.HttpRequest;
-import net.anei.cadpage.Log;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.billing.BillingManager;
@@ -161,7 +160,7 @@ public abstract class UserAcctManager {
             // Evaluate the status field.  Value of LIFE translates to year 9999
             int year = -1;
             String stat = flds[1].trim();
-            if (stat.equals("LIFE")) {
+            if (stat.toUpperCase().equals("LIFE")) {
               year = 9999;
             } else {
               try {
