@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.CO;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -19,8 +21,9 @@ public class CODouglasCountyAParser extends FieldProgramParser {
   
   protected CODouglasCountyAParser(String defCity, String defState) {
     super(CITY_LIST, defCity, defState,
-           "( Call:CALL! Location:ADDRCH/SXa! Map:MAP Units:UNIT! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO | " +
-              "Call_Type:CALLID! Common_Name:PLACE! Location:ADDR/SXXx! Call_Time:DATETIME! Narrative:INFO Nature_Of_Call:INFO )");
+           "( Call:CALL! Location:ADDRCH/SXa! Map:MAP Units:UNITX! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO | " +
+             "Call_Type:CALLID! Common_Name:PLACE! Location:ADDR/SXXx! Call_Time:DATETIME! Narrative:INFO Nature_Of_Call:INFO | " +
+             "CALL! LOC:ADDRCITY/Sxa! Map:MAP! Closest_X:X! Units:UNIT! Nar:INFO LOC_Name:PLACE ADDL:INFO CR:ID3 Time:DATETIME3 )");
   }
   
   @Override
@@ -43,6 +46,11 @@ public class CODouglasCountyAParser extends FieldProgramParser {
       body = body.substring(0,match.start());
     }
     body = MISSING_BLANK_PTN.matcher(body).replaceAll(" ");
+    body = body.replace(": ADDL:", " ADDL:");
+    body = body.replace(" : Time:", " Time:");
+    body = body.replace("\nCR", " CR:");
+    body = body.replace('\n', ' ');
+    
     if (!super.parseMsg(body, data)) return false;
     
     if (data.strCross.equals("No Cross Streets Found")) data.strCross = "";
@@ -103,8 +111,26 @@ public class CODouglasCountyAParser extends FieldProgramParser {
     }
   }
   
+  // Address fields must turn @ to &
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace('@', '&');
+      super.parse(field, data);
+    }
+  }
+  
+  // Ditto for Address/City fields must turn @ to &
+  private class MyAddressCityField extends AddressCityField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace('@', '&');
+      super.parse(field, data);
+    }
+  }
+  
   // Unit field also contains cross field
-  private class MyUnitField extends UnitField {
+  private class MyUnitCrossField extends UnitField {
     
     @Override
     public void parse(String field, Data data) {
@@ -162,15 +188,39 @@ public class CODouglasCountyAParser extends FieldProgramParser {
     }
   }
   
+
+  private static final Pattern DATE_TIME3_PTN = Pattern.compile("\\d\\d?/\\d\\d?/\\d{4} +\\d\\d?:\\d\\d?:\\d\\d:? [AP]M");
+  private static final DateFormat DATE_TIME3_FMT = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa");
+  private class MyDateTime3Field extends DateTimeField {
+    @Override
+    public void parse(String field, Data data) {
+      if (!DATE_TIME3_PTN.matcher(field).matches()) return;
+      setDateTime(DATE_TIME3_FMT, field, data);
+    }
+  }
+  
+  private class MyId3Field extends IdField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf('(');
+      if (pt >= 0) field = field.substring(0,pt).trim();
+      super.parse(field, data);
+    }
+  }
+  
   
   @Override
   public Field getField(String  name) {
     if (name.equals("ADDRCH")) return new MyAddressChannelField();
-    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("UNITX")) return new MyUnitCrossField();
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("CALLID")) return new MyCallIdField();
+    if (name.equals("ID3")) return new MyId3Field();
+    if (name.equals("DATETIME3")) return new MyDateTime3Field();
     return super.getField(name);
   }
   

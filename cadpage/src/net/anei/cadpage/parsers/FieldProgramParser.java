@@ -2538,6 +2538,12 @@ public class FieldProgramParser extends SmartAddressParser {
       this.hardPattern = hardPattern;
     }
     
+    public DateTimeField(String pattern, DateFormat fmt, boolean hardPattern) {
+      super(pattern, hardPattern);
+      this.fmt = fmt;
+      this.hardPattern = hardPattern;
+    }
+    
     @Override
     public boolean canFail() {
       return hardPattern || super.canFail();
