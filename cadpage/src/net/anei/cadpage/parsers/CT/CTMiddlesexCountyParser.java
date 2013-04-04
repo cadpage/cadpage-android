@@ -31,7 +31,7 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
     Matcher match = SUBJECT_PTN.matcher(subject);
     if (!match.matches()) return false;
     data.strCallId = match.group(1);
-    return parseFields(body.split("\n"), 7, data);
+    return parseFields(body.split("\n"), 5, data);
   }
   
   @Override
