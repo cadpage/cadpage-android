@@ -15,6 +15,7 @@ public class NCSurryCountyParser extends SmartAddressParser {
   
   public NCSurryCountyParser() {
     super(CITY_LIST, "SURRY COUNTY", "NC");
+    setFieldList("ID ADDR APT CITY X CALL");
   }
   
   @Override

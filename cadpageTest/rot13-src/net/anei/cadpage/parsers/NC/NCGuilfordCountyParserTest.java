@@ -100,6 +100,10 @@ REVP CFLPUB <cflpub5444@tznvy.pbz>
 Fraqre: igrkg.pbz@znvyfdhnq.tebhcfcnprf.pbz
 PNQ:HAQRE PBAGEBY;3608 R YRR FG; T ;YBG 17
 
+Pbagnpg: Wbanguna Zbber <88gehpxpb@tznvy.pbz>
+Fraqre: :fgngvba10cntvat@tznvy.pbz
+SEZ:fgngvba10cntvat@tznvy.pbz\aZFT:fgngvba10cntvat:ZISQ;FG10;1;HAPBA;1960 SYNG EBPX EQ;ZPPBL EQ;31Q02
+
 Pbagnpg: Npgvir911.pbz
 Ntrapl anzr: Fgbxrfqnyr Sver Qrcnegzrag Ybpngvba: Fgbxrfqnyr, AP 
 Sebz: PNQ@terrafobeb-ap.tbi
@@ -717,6 +721,20 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:HAQRE PBAGEBY",
         "VASB:T / YBG 17");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbangunaZbber() {
+
+    qbGrfg("G1",
+        "SEZ:fgngvba10cntvat@tznvy.pbz\aZFT:fgngvba10cntvat:ZISQ;FG10;1;HAPBA;1960 SYNG EBPX EQ;ZPPBL EQ;31Q02",
+        "FEP:ZISQ-FG10",
+        "CEV:1",
+        "PNYY:HAPBA",
+        "NQQE:1960 SYNG EBPX EQ",
+        "K:ZPPBL EQ",
+        "PBQR:31Q02");
+  
   }
   
   @Grfg
