@@ -7,7 +7,7 @@ vzcbeg bet.whavg.Grfg;
 /* 
 Uhzoyr GK, (Uneevf Pbhagl)
 Pbagnpg: "Jnffryy, Zvpunry" <ZJnffryy@nisq.pbz>
-Fraqre: zft@pszft.pbz
+Fraqre: zft@pszft.pbz,nyreg@pszft.pbz
 [NISQ RZF] - Pneqvnp -- 17111 Qnja Funqbjf Qe, Uhzoyr -- Znc: 376U- -- Kfg'f: Sberfg Enva Ya Byq Neobe -- Havgf: R-Z29 -- 201105590
 [NISQ RZF] - Qvnorgvp Rzretrapl -- 5310 Zbbafunqbjf Qe, Uhzoyr -- Znc: 337F- -- Kfg'f: Cbpvgb Pg Jryyfjbbq Pg -- Havgf: R-Z29 -- 201105542
 [NISQ RZF] - Zrqvpny Pnyy -- 6810 Nzore Nfu Pg, Uhzoyr -- Znc: 337D- -- Kfg'f: Pevzfba Bnx Gey -- Havgf: R-Z19 -- 201105487
@@ -26,6 +26,7 @@ Fraqre: zft@pszft.pbz
 (Puvrs NYG) [SVER] - Sver Nynez - Pbzzrepvny - 5250 R Sz 1960, Uhzoyr - Znc: 337J- - Uhzoyr Zvav Jnerubhfr - Kfg'f: Zbba Genvy Qe Gvzore Sber - Havgf: NGSQ R-R39 - 20
 (Puvrs NYG) [SVER] - Hax Ceboyrz - Zrqvpny Nyr - 17811 Qrrc Funqr Pg, Uhzoyr - Znc: 377R- - Kfg'f: Pbavsre Evqtr Jnl - Havgf: R-Z29 R-R19 R-R39 - 201149242
 (Puvrs NYG) [RZF] -  Oernguvat Ceboyrzf  -  20035 J Ynxr Ubhfgba Cxjl  - Kfg'f: Sverfvta Qe/wnahnel Qe - Oyqt:Crq Nffbpv - Xrl Znc:337H - Obk #:N1901
+(Puvrs NYG) [RZF] -  10n1 Pneqvnp  -  18310 Inyvnag Oebbx Pg  -  Z19  - XZ:377P - Kfg'f: Qrnq Raq/ebfrohq Oraq Qe
 
 PlSnve, GK (Ngnfpbpvgn GK)
 Pbagnpg:  "Fgbygm, Revp" <RFgbygm@nisq.pbz>
@@ -65,7 +66,7 @@ choyvp pynff GKUhzoyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre() {
+  choyvp ibvq grfgZvpunryJnffryy() {
 
     qbGrfg("G1",
         "[NISQ RZF] - Pneqvnp -- 17111 Qnja Funqbjf Qe, Uhzoyr -- Znc: 376U- -- Kfg'f: Sberfg Enva Ya Byq Neobe -- Havgf: R-Z29 -- 201105590",
@@ -260,6 +261,15 @@ choyvp pynff GKUhzoyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:Crq Nffbpv",
         "ZNC:337H",
         "OBK:N1901");
+
+    qbGrfg("G18",
+        "(Puvrs NYG) [RZF] -  10n1 Pneqvnp  -  18310 Inyvnag Oebbx Pg  -  Z19  - XZ:377P - Kfg'f: Qrnq Raq/ebfrohq Oraq Qe",
+        "FEP:RZF",
+        "PNYY:10n1 Pneqvnp",
+        "NQQE:18310 Inyvnag Oebbx Pg",
+        "HAVG:Z19",
+        "ZNC:377P",
+        "K:Qrnq Raq/ebfrohq Oraq Qe");
 
   }
   

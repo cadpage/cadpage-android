@@ -17,7 +17,7 @@ public class TXHumbleParser extends DispatchOSSIParser {
   
   public TXHumbleParser() {
     super("HUMBLE", "TX",
-           "CALL CALL2? ADDRCITY! ( Map:MAP PLACE Xst's:X Units:UNIT ID | Xst's:X Bldg:PLACE Key_Map:MAP! Box_#:BOX )");
+           "CALL CALL2? ADDRCITY! ( Map:MAP PLACE Xst's:X Units:UNIT ID | Xst's:X Bldg:PLACE Key_Map:MAP! Box_#:BOX | UNIT KM:MAP Xst's:X )");
   }
   
   @Override
