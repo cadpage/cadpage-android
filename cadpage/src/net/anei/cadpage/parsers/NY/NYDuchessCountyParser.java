@@ -14,7 +14,7 @@ public class NYDuchessCountyParser extends FieldProgramParser {
 
   public NYDuchessCountyParser() {
       super("DUCHESS COUNTY", "NY",
-           "Type:CALL! Address:ADDR! Nature:CALL! Cross:X");
+           "CALL! CODE ADDR CALL! Cross:X INFO+");
   }
 
   @Override
@@ -23,12 +23,19 @@ public class NYDuchessCountyParser extends FieldProgramParser {
     if (!match.find()) return false;
     data.strSource = match.group(1);
     body = body.substring(match.end()).trim();
-    return parseFields(body.split("\\|"), 3, data);
+    return parseFields(body.split("\\|"), 4, data);
   }
   
   @Override
   public String getProgram() {
     return "SRC " + super.getProgram();
+  }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCall = append(data.strCall, " - ", field);
+    }
   }
   
   private class MyAddressField extends AddressField {
@@ -60,6 +67,7 @@ public class NYDuchessCountyParser extends FieldProgramParser {
 
   @Override
   protected Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
