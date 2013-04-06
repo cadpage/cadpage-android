@@ -14,7 +14,7 @@ public class NYDuchessCountyParser extends FieldProgramParser {
 
   public NYDuchessCountyParser() {
       super("DUCHESS COUNTY", "NY",
-           "CALL! CODE ADDR CALL! Cross:X INFO+");
+           "CALL! PLACE ADDR CALL! Cross:X INFO+");
   }
 
   @Override
@@ -73,4 +73,9 @@ public class NYDuchessCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  @Override
+  public String adjustMapAddress(String addr) {
+    return TSP_PTN.matcher(addr).replaceAll("TACONIC STATE PKWY");
+  }
+  private static final Pattern TSP_PTN = Pattern.compile("\\bTSP\\b");
 }

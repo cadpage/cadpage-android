@@ -28,6 +28,10 @@ Pbagnpg: ovyy zpynhtuyva <gnyn312@lnubb.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 Fhowrpg:TSQ\aNyreg: Purfg Cnva - 1\aNYEZ YIY: 1\aYBP:\aUVYGBA TNEQRA VAA\a1061 LBEX EQ\aEBBZ-205\aFGENONA GJC\aOGJA: ANGHENY FCEVAT
 
+Pbagnpg: Wbfrcu Grznenagm <wug726@tznvy.pbz>
+Fraqre: 777326416041
+.... (TSQ) Nyreg: Snyyf - 3\aNYEZ YIY: 1\aYBP:\aTRGGLFOHET YHGURENA UBZR\a1075 BYQ UNEEVFOHET EQ\a156\aFGENONA GJC\aOGJA: CEVINGR & FURNYRE EQ\a\aEPIQ NF 911\a\aPBZ:\aGuvf unccrarq abj (yrff guna 6uef ntb).\aVg''f ercbegrq gung fur sryy ng tebhaq yriry.\aGur ernfba sbe gur snyy vf abg xabja.\aGurer vf ab oyrrqvat abj.\aFur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\aGur vawhel vf gb n ABG QNATREBHF nern.\aFur vf ab ybatre ba gur sybbe (tebhaq).\aQrgrezvanag: 17N01, Fhssvk: , Erfcbafr: Pynff 3\aGur cngvrag vf n 95 lrne(f) srznyr jub vf pbafpvbhf naq oernguvat.\a\aPG:\aJRUREE ng CBF 04
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Lbex Fcevatf Sver Qrcnegzrag
 Ybpngvba: Lbex Fcevatf, CN, Havgrq Fgngrf
@@ -390,6 +394,44 @@ choyvp pynff CNNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:FGENONA GJC",
         "K:ANGHENY FCEVAT");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbfrcuGrznenagm() {
+
+    qbGrfg("G1",
+        ".... (TSQ) Nyreg: Snyyf - 3\a" +
+        "NYEZ YIY: 1\a" +
+        "YBP:\a" +
+        "TRGGLFOHET YHGURENA UBZR\a" +
+        "1075 BYQ UNEEVFOHET EQ\a" +
+        "156\a" +
+        "FGENONA GJC\a" +
+        "OGJA: CEVINGR & FURNYRE EQ\a\a" +
+        "EPIQ NF 911\a\a" +
+        "PBZ:\a" +
+        "Guvf unccrarq abj (yrff guna 6uef ntb).\a" +
+        "Vg''f ercbegrq gung fur sryy ng tebhaq yriry.\a" +
+        "Gur ernfba sbe gur snyy vf abg xabja.\a" +
+        "Gurer vf ab oyrrqvat abj.\a" +
+        "Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\a" +
+        "Gur vawhel vf gb n ABG QNATREBHF nern.\a" +
+        "Fur vf ab ybatre ba gur sybbe (tebhaq).\a" +
+        "Qrgrezvanag: 17N01, Fhssvk: , Erfcbafr: Pynff 3\a" +
+        "Gur cngvrag vf n 95 lrne(f) srznyr jub vf pbafpvbhf naq oernguvat.\a\a" +
+        "PG:\a" +
+        "JRUREE ng CBF 04",
+
+        "FEP:TSQ",
+        "PNYY:Snyyf - 3",
+        "CEV:1",
+        "CYNPR:TRGGLFOHET YHGURENA UBZR",
+        "NQQE:1075 BYQ UNEEVFOHET EQ",
+        "NCG:156",
+        "PVGL:FGENONA GJC",
+        "K:CEVINGR & FURNYRE EQ",
+        "VASB:Guvf unccrarq abj (yrff guna 6uef ntb).\aVg''f ercbegrq gung fur sryy ng tebhaq yriry.\aGur ernfba sbe gur snyy vf abg xabja.\aGurer vf ab oyrrqvat abj.\aFur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\aGur vawhel vf gb n ABG QNATREBHF nern.\aFur vf ab ybatre ba gur sybbe (tebhaq).\aQrgrezvanag: 17N01, Fhssvk: , Erfcbafr: Pynff 3\aGur cngvrag vf n 95 lrne(f) srznyr jub vf pbafpvbhf naq oernguvat.");
+
   }
   
   @Grfg
