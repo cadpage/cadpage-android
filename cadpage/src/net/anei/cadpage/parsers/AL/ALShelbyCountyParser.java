@@ -2,6 +2,9 @@ package net.anei.cadpage.parsers.AL;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -37,7 +40,13 @@ public class ALShelbyCountyParser extends FieldProgramParser {
       
       return false;
     } while (false);
-    return parseFields(body.split("\n"), 6, data);
+    if (!parseFields(body.split("\n"), 6, data)) return false;
+    if (data.strAddress.length() == 0) {
+      data.strAddress = "";
+      parseAddress(data.strCross, data);
+      data.strCross = "";
+    }
+    return true;
   }
   
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
@@ -128,7 +137,12 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith(": @")) {
+      field = cleanWirelessCarrier(field);
+      if (CITY_SET.contains(field)) {
+        if (field.equals("BIBB CO")) field = "BIBB COUNTY";
+        data.strCity = field;
+      }
+      else if (field.startsWith(": @")) {
         field = field.substring(3).trim();
         if (! field.equals(data.strPlace)) data.strPlace = append(data.strPlace, " - ", field);
       }
@@ -155,4 +169,44 @@ public class ALShelbyCountyParser extends FieldProgramParser {
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
+  
+  private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(
+    
+    "ALABASTER",
+    "BIRMINGHAM",
+    "CALERA",
+    "CHELSEA",
+    "COLUMBIANA",
+    "HARPERSVILLE",
+    "HELENA",
+    "HOOVER",
+    "INDIAN SPRINGS VILLAGE",
+    "LEEDS",
+    "MONTEVALLO",
+    "PELHAM",
+    "VESTAVIA HILLS",
+    "VINCENT",
+    "WESTOVER",
+    "WILSONVILLE",
+    "WILTON",
+    
+    "CLOVERDALE",
+    "INVERNESS",
+    "SAGINAW",
+    "SILURIA",
+    
+    "BRANTLEYVILLE",
+    "BROOK HIGHLAND",
+    "DUNNAVANT",
+    "HIGHLAND LAKES",
+    "MEADOWBROOK",
+    "SHELBY",
+    "SHOAL CREEK",
+    "STERRETT",
+    "VANDIVER",
+    "CHILDERSBURG",
+    
+    "BIBB CO",
+    "BIBB COUNTY"
+  ));  
 }

@@ -62,6 +62,38 @@ Fraqre: neaf@furyol911.bet
 (FURYOL NEAF NYREG) 1/21/2013 1:34:16 CZ\aSVER1301304\aOEVRESYQ - OVOO PB\aPURFGCNVA-\aOESQ\a   @  / \a: @OESQ:239 OBBGUR YA\a NG&G ZBOVYVGL
 (FURYOL NEAF NYREG) 1/20/2013 4:39:01 CZ\aSVER1301255\aOEVRESYQ - OVOO PB\aSVER-IRUVPYR\aOESQ\a   @  / \a: @OESQ: 1231 JRFG NFUOL EQ\a IREVMBA JVERYRFF
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fbhgurnfg Furyol Erfphr
+Ybpngvba: Pbyhzovnan, NY, Havgrq Fgngrf
+Fraqre: neaf@furyol911.bet
+
+(FURYOL NEAF NYREG) 4/5/2013 8:02:03 CZ\aSVER1306018\aFR_FURYOL - FGN2\aOERNGUVAT-\a\a9400 ZNVA FG @  / \a\a NG&G ZBOVYVGL
+(FURYOL NEAF NYREG) 4/5/2013 2:22:59 CZ\aSVER1305991\aFR_FURYOL - FGN1\aZIP-PURPX_VAWHEVRF\a\a   @ 25 UJL / 49 UJL\a\a NG&G ZBOVYVGL
+(FURYOL NEAF NYREG) 4/5/2013 1:53:32 CZ\aSVER1305988\aFR_FURYOL - FGN1\aONPX-\aCVTTYL JVTTYL - PBYH\a215 PBYYRTR FG @ JNYGBA FG / 25 UJL\a: @CVTTYL JVTTYL - PBYH\aPBYHZOVNAN
+(FURYOL NEAF NYREG) 4/5/2013 11:44:56 NZ\aSVER1305982\aFR_FURYOL - FGN2\aHAERFCBAFVIR-\a\a7300 61 UJL @ OEBJAR RINAF EQ / OHYYRG YA\a\a TBBYFOL, XRA
+(FURYOL NEAF NYREG) 4/5/2013 5:43:11 NZ\aSVER1305961\aFR_FURYOL - FGN2\aOYRRQVAT-\a\a80 CBCR FG @ PUHEPU FG / JRYQBA FG\a\a TERRA, RYBEVN
+(FURYOL NEAF NYREG) 4/4/2013 5:19:56 CZ\aSVER1305942\aFR_FURYOL - FGN1\aHAERFCBAFVIR-\a\a1319 47 UJL @ FPUHYGM EQ / UNEEVF EQ\a\a TERRAYRN, N U
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Jrfgbire Zhavpvcny Sver Qrcnegzrag
+Ybpngvba: Jrfgbire, NY, Havgrq Fgngrf
+Fraqre: neaf@furyol911.bet
+
+(FURYOL NEAF NYREG) 4/5/2013 7:01:06 CZ\aSVER1306015\aJRFGBPVGL - FGN290\aSVER-QHZCFGRE\aFUNJ ZBGBEF\a10047 280 UJL @ EBOREGFBA YA / CVPXRAF QE\a: @FUNJ ZBGBEF\aQRAGVFG BSSVPR ARKG GB FUNJ ZBGBEF
+(FURYOL NEAF NYREG) 4/3/2013 10:56:47 NZ\aSVER1305854\aJRFGBPVGL - FGN290\aHAERFCBAFVIR-\a\a12013 280 UJL @ FHAEVFR YA / 442 UJL\a\a UHYFRL, YRYQBA R & YNIREAR
+(FURYOL NEAF NYREG) 4/3/2013 10:56:37 NZ\aSVER1305853\aJRFGBPVGL - FGN290\aFRVMHER-\a\a12013 280 UJL @ FHAEVFR YA / 442 UJL\a\a NG&G ZBOVYVGL
+(FURYOL NEAF NYREG) 4/3/2013 9:26:06 NZ\aSVER1305846\aJRFGBPVGL - FGN290\aTRARENY-\aJRFGBIRE PVGL UNYY\a3312 JRFGBIRE EQ @ TERRA CVAR EQ / PRQNE UVYY SNEZ EQ\a: @JRFGBIRE PVGL UNYY
+(FURYOL NEAF NYREG) 4/1/2013 6:06:15 CZ\aSVER1305743\aJRFGBPVGL - FGN290\aCFLPU-\a\a101 PERFG QE @ BYQ 280 UJL / \a\a SVBERYYN, QNIVQ
+(FURYOL NEAF NYREG) 4/1/2013 3:54:08 CZ\aSVER1305736\aJRFGBPVGL - FGN290\aSQ-NFFVFG-YNJRAS\a\a   @ 280 UJL / 51 UJL\a\aWNFBA GUHEZNA
+(FURYOL NEAF NYREG) 4/1/2013 12:58:55 CZ\aSVER1305720\aJRFGBPVGL - FGN290\aSVER-OEHFU\a\a236 CNEXRE PVE @ EBBFGRE UVYY EQ / \a\a NG&G ZBOVYVGL
+(FURYOL NEAF NYREG) 3/31/2013 3:29:44 NZ\aSVER1305654\aJRFGBPVGL - FGN290\aFRVMHER-\a\a160 PERFG QE @ BYQ 280 UJL / \a\a IREVMBA JVERYRFF
+(FURYOL NEAF NYREG) 3/30/2013 10:10:25 CZ\aSVER1305649\aJRFGBPVGL - FGN290\aBO-\a\a137 YBIR YA @  / FUNECR FG\a\a IREVMBA JVERYRFF
+(FURYOL NEAF NYREG) 3/30/2013 3:52:19 CZ\aSVER1305634\aJRFGBPVGL - FGN290\aSVER-OEHFU\a\a7920 51 UJL @ 280 UJL / 442 UJL\a\a EBOREGFBA, OVYYVR
+(FURYOL NEAF NYREG) 3/26/2013 11:11:43 CZ\aSVER1305405\aJRFGBPVGL - FGN290\aTRARENY-\a\a7920 51 UJL @ 280 UJL / 442 UJL\a\a FCEVAGCPF
+(FURYOL NEAF NYREG) 3/25/2013 2:17:21 CZ\aSVER1305330\aJRFGBPVGL - FGN290\aNOQBZVANY-\a\a28 YLOENAQ EQ @ 55 UJL / NY-LBHGU QE\a\a CNEQHR, WREERY
+(FURYOL NEAF NYREG) 3/22/2013 5:29:17 CZ\aSVER1305153\aJRFGBPVGL - FGN290\aZIP-PURPX_VAWHEVRF\a\a   @ 280 UJL / 51 UJL\a\a NG&G ZBOVYVGL
+(FURYOL NEAF NYREG) 3/20/2013 7:56:02 CZ\aSVER1305037\aJRFGBPVGL - FGN290\aTRARENY-\a\a   @ 280 UJL / 51 UJL\a\a NG&G ZBOVYVGL
+
 */
 
 choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -124,8 +156,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5433 280 UJL",
         "ZNQQE:5433 UJL 280",
         "K:JNYG QE / GHEGYR YNXR QE",
-        "NCG:309",
-        "VASB:FCEVAG CPF JVERYRFF");
+        "NCG:309");
 
     qbGrfg("G3",
         " 1 bs 2\a" +
@@ -190,8 +221,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FHZZREUVY - FGN1",
         "PNYY:OERNGUVAT",
         "NQQE:19723 25 UJL",
-        "ZNQQE:19723 UJL 25",
-        "VASB:IREVMBA JVERYRFF");
+        "ZNQQE:19723 UJL 25");
 
   }
   
@@ -234,8 +264,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1216515",
         "FEP:OEVRESYQ - OVOO PB",
         "PNYY:URNEG",
-        "NQQE:1373 JRFG NFUOL EQ",
-        "VASB:IREVMBA JVERYRFF");
+        "NQQE:1373 JRFG NFUOL EQ");
 
     qbGrfg("G3",
         "(FURYOL911 NEAF NYREG) \a" +
@@ -282,7 +311,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OESQ\a" +
         "   @  / \a" +
         ": @OESQ:110 JNGRE GBJRE EQ\a" +
-        "OVOO PB",
+        "OVOO PBHAGL",
 
         "QNGR:9/22/2012",
         "GVZR:22:27:21",
@@ -290,7 +319,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:OEVRESYQ - OVOO PB",
         "PNYY:NYYRETVRF",
         "NQQE:110 JNGRE GBJRE EQ",
-        "VASB:OVOO PB");
+        "PVGL:OVOO PBHAGL");
 
     qbGrfg("G6",
         "(FURYOL911 NEAF NYREG) \a" +
@@ -301,7 +330,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OESQ\a" +
         "   @  / \a" +
         ": @OESQ 9423 ZBAGRINYYB EQ\a" +
-        "OVOO PB",
+        "OVOO PBHAGL",
 
         "QNGR:9/23/2012",
         "GVZR:23:02:33",
@@ -309,7 +338,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:OEVRESYQ - OVOO PB",
         "PNYY:PURFGCNVA",
         "NQQE:9423 ZBAGRINYYB EQ",
-        "VASB:OVOO PB");
+        "PVGL:OVOO PBHAGL");
 
     qbGrfg("G7",
         "(FURYOL911 NEAF NYREG) \a" +
@@ -327,8 +356,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1216809",
         "FEP:OEVRESYQ - OVOO PB",
         "PNYY:FRVMHER",
-        "NQQE:137 JRFG NFUOL EQ",
-        "VASB:IREVMBA JVERYRFF");
+        "NQQE:137 JRFG NFUOL EQ");
 
   }
   
@@ -368,8 +396,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:PNYREN - FGN1",
         "PNYY:OERNGUVAT",
         "NQQE:2633 16GU FG",
-        "K:CNZRYN QE / CNZRYN QE",
-        "VASB:NG&G ZBOVYVGL");
+        "K:CNZRYN QE / CNZRYN QE");
 
     qbGrfg("G3",
         "(FURYOL 911 NEAF NYREG) \a" +
@@ -386,8 +413,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:PNYREN - FGN1",
         "PNYY:CFLPU",
         "NQQE:504 PNZQRA PBIR PVE",
-        "K:ZNLSNVE YA / PNZQRA YNXR QE",
-        "VASB:G-ZBOVYR HFN");
+        "K:ZNLSNVE YA / PNZQRA YNXR QE");
 
     qbGrfg("G4",
         "(FURYOL 911 NEAF NYREG) \a" +
@@ -406,8 +432,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYYRETVRF",
         "NQQE:860 13GU FG",
         "NCG:YBG 3",
-        "K:8GU NI / 9GU NI",
-        "VASB:IREVMBA JVERYRFF");
+        "K:8GU NI / 9GU NI");
 
     qbGrfg("G5",
         "(FURYOL 911 NEAF NYREG) \a" +
@@ -445,8 +470,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:PNYREN SVER #1",
         "NQQE:1310 17GU NI",
         "ZNQQE:1310 17GU NIR",
-        "K:13GU FG / 14GU FG",
-        "VASB:IREVMBA JVERYRFF");
+        "K:13GU FG / 14GU FG");
 
     qbGrfg("G7",
         "(FURYOL 911 NEAF NYREG) \a" +
@@ -464,8 +488,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GENHZNGVP",
         "NQQE:3277 31 UJL",
         "ZNQQE:3277 UJL 31",
-        "K:EBFROHQ YA / BNX GERR YA",
-        "VASB:FCEVAGCPF");
+        "K:EBFROHQ YA / BNX GERR YA");
 
     qbGrfg("G8",
         "(FURYOL 911 NEAF NYREG) \a" +
@@ -566,7 +589,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:OEVRESYQ - OVOO PB",
         "PNYY:FHVPVQR",
         "NQQE:1060 NPNQRZL EQ:",
-        "VASB:OVOO PB");
+        "PVGL:OVOO PBHAGL");
 
     qbGrfg("G4",
         "(FURYOL NEAF NYREG) 1/25/2013 8:09:21 NZ\a" +
@@ -583,8 +606,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIP-PURPX_VAWHEVRF",
         "NQQE:1486 25 UJL",
         "ZNQQE:1486 UJL 25",
-        "K:139 UJL / ERRQRE FG",
-        "VASB:IREVMBA JVERYRFF");
+        "K:139 UJL / ERRQRE FG");
 
     qbGrfg("G5",
         "(FURYOL NEAF NYREG) 1/24/2013 9:51:36 CZ\a" +
@@ -620,7 +642,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:OEVRESYQ - OVOO PB",
         "PNYY:OERNGUVAT",
         "NQQE:1017 RORAVMRE EQ",
-        "VASB:OVOO PB");
+        "PVGL:OVOO PBHAGL");
 
     qbGrfg("G7",
         "(FURYOL NEAF NYREG) 1/22/2013 3:02:16 CZ\aSVER1301360\aOEVRESYQ - OVOO PB\aURNQ/ARPX-\aOESQ\a   @  / \a: @OESQ:1085 R NFUOL EQ",
@@ -638,8 +660,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1301355",
         "FEP:OEVRESYQ - OVOO PB",
         "PNYY:FRVMHER",
-        "NQQE:189 139",
-        "VASB:NG&G ZBOVYVGL");
+        "NQQE:189 139");
 
     qbGrfg("G9",
         "(FURYOL NEAF NYREG) 1/21/2013 1:34:16 CZ\a" +
@@ -656,8 +677,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1301304",
         "FEP:OEVRESYQ - OVOO PB",
         "PNYY:PURFGCNVA",
-        "NQQE:239 OBBGUR YA",
-        "VASB:NG&G ZBOVYVGL");
+        "NQQE:239 OBBGUR YA");
 
     qbGrfg("G10",
         "(FURYOL NEAF NYREG) 1/20/2013 4:39:01 CZ\a" +
@@ -674,9 +694,315 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1301255",
         "FEP:OEVRESYQ - OVOO PB",
         "PNYY:SVER-IRUVPYR",
-        "NQQE:1231 JRFG NFUOL EQ",
-        "VASB:IREVMBA JVERYRFF");
+        "NQQE:1231 JRFG NFUOL EQ");
  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFbhgurnfgFuryolErfphr() {
+
+    qbGrfg("G1",
+        "(FURYOL NEAF NYREG) 4/5/2013 8:02:03 CZ\aSVER1306018\aFR_FURYOL - FGN2\aOERNGUVAT-\a\a9400 ZNVA FG @  / \a\a NG&G ZBOVYVGL",
+        "QNGR:4/5/2013",
+        "GVZR:20:02:03",
+        "VQ:SVER1306018",
+        "FEP:FR_FURYOL - FGN2",
+        "PNYY:OERNGUVAT",
+        "NQQE:9400 ZNVA FG");
+
+    qbGrfg("G2",
+        "(FURYOL NEAF NYREG) 4/5/2013 2:22:59 CZ\aSVER1305991\aFR_FURYOL - FGN1\aZIP-PURPX_VAWHEVRF\a\a   @ 25 UJL / 49 UJL\a\a NG&G ZBOVYVGL",
+        "QNGR:4/5/2013",
+        "GVZR:14:22:59",
+        "VQ:SVER1305991",
+        "FEP:FR_FURYOL - FGN1",
+        "PNYY:ZIP-PURPX_VAWHEVRF",
+        "NQQE:25 UJL & 49 UJL",
+        "ZNQQE:UJL 25 & UJL 49");
+        
+
+    qbGrfg("G3",
+        "(FURYOL NEAF NYREG) 4/5/2013 1:53:32 CZ\a" +
+        "SVER1305988\a" +
+        "FR_FURYOL - FGN1\a" +
+        "ONPX-\a" +
+        "CVTTYL JVTTYL - PBYH\a" +
+        "215 PBYYRTR FG @ JNYGBA FG / 25 UJL\a" +
+        ": @CVTTYL JVTTYL - PBYH\a" +
+        "PBYHZOVNAN",
+
+        "QNGR:4/5/2013",
+        "GVZR:13:53:32",
+        "VQ:SVER1305988",
+        "FEP:FR_FURYOL - FGN1",
+        "PNYY:ONPX",
+        "CYNPR:CVTTYL JVTTYL - PBYH",
+        "NQQE:215 PBYYRTR FG",
+        "K:JNYGBA FG / 25 UJL",
+        "PVGL:PBYHZOVNAN");
+
+    qbGrfg("G4",
+        "(FURYOL NEAF NYREG) 4/5/2013 11:44:56 NZ\a" +
+        "SVER1305982\a" +
+        "FR_FURYOL - FGN2\a" +
+        "HAERFCBAFVIR-\a\a" +
+        "7300 61 UJL @ OEBJAR RINAF EQ / OHYYRG YA\a\a" +
+        " TBBYFOL, XRA",
+
+        "QNGR:4/5/2013",
+        "GVZR:11:44:56",
+        "VQ:SVER1305982",
+        "FEP:FR_FURYOL - FGN2",
+        "PNYY:HAERFCBAFVIR",
+        "NQQE:7300 61 UJL",
+        "ZNQQE:7300 UJL 61",
+        "K:OEBJAR RINAF EQ / OHYYRG YA",
+        "VASB:TBBYFOL, XRA");
+
+    qbGrfg("G5",
+        "(FURYOL NEAF NYREG) 4/5/2013 5:43:11 NZ\a" +
+        "SVER1305961\a" +
+        "FR_FURYOL - FGN2\a" +
+        "OYRRQVAT-\a\a" +
+        "80 CBCR FG @ PUHEPU FG / JRYQBA FG\a\a" +
+        " TERRA, RYBEVN",
+
+        "QNGR:4/5/2013",
+        "GVZR:05:43:11",
+        "VQ:SVER1305961",
+        "FEP:FR_FURYOL - FGN2",
+        "PNYY:OYRRQVAT",
+        "NQQE:80 CBCR FG",
+        "K:PUHEPU FG / JRYQBA FG",
+        "VASB:TERRA, RYBEVN");
+
+    qbGrfg("G6",
+        "(FURYOL NEAF NYREG) 4/4/2013 5:19:56 CZ\a" +
+        "SVER1305942\a" +
+        "FR_FURYOL - FGN1\a" +
+        "HAERFCBAFVIR-\a\a" +
+        "1319 47 UJL @ FPUHYGM EQ / UNEEVF EQ\a\a" +
+        " TERRAYRN, N U",
+
+        "QNGR:4/4/2013",
+        "GVZR:17:19:56",
+        "VQ:SVER1305942",
+        "FEP:FR_FURYOL - FGN1",
+        "PNYY:HAERFCBAFVIR",
+        "NQQE:1319 47 UJL",
+        "ZNQQE:1319 UJL 47",
+        "K:FPUHYGM EQ / UNEEVF EQ",
+        "VASB:TERRAYRN, N U");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgJrfgbireZhavpvcnySverQrcnegzrag() {
+
+    qbGrfg("G1",
+        "(FURYOL NEAF NYREG) 4/5/2013 7:01:06 CZ\a" +
+        "SVER1306015\a" +
+        "JRFGBPVGL - FGN290\a" +
+        "SVER-QHZCFGRE\a" +
+        "FUNJ ZBGBEF\a" +
+        "10047 280 UJL @ EBOREGFBA YA / CVPXRAF QE\a" +
+        ": @FUNJ ZBGBEF\a" +
+        "QRAGVFG BSSVPR ARKG GB FUNJ ZBGBEF",
+
+        "QNGR:4/5/2013",
+        "GVZR:19:01:06",
+        "VQ:SVER1306015",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:SVER-QHZCFGRE",
+        "CYNPR:FUNJ ZBGBEF",
+        "NQQE:10047 280 UJL",
+        "ZNQQE:10047 UJL 280",
+        "K:EBOREGFBA YA / CVPXRAF QE",
+        "VASB:QRAGVFG BSSVPR ARKG GB FUNJ ZBGBEF");
+
+    qbGrfg("G2",
+        "(FURYOL NEAF NYREG) 4/3/2013 10:56:47 NZ\a" +
+        "SVER1305854\a" +
+        "JRFGBPVGL - FGN290\a" +
+        "HAERFCBAFVIR-\a\a" +
+        "12013 280 UJL @ FHAEVFR YA / 442 UJL\a\a" +
+        " UHYFRL, YRYQBA R & YNIREAR",
+
+        "QNGR:4/3/2013",
+        "GVZR:10:56:47",
+        "VQ:SVER1305854",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:HAERFCBAFVIR",
+        "NQQE:12013 280 UJL",
+        "ZNQQE:12013 UJL 280",
+        "K:FHAEVFR YA / 442 UJL",
+        "VASB:UHYFRL, YRYQBA R & YNIREAR");
+
+    qbGrfg("G3",
+        "(FURYOL NEAF NYREG) 4/3/2013 10:56:37 NZ\a" +
+        "SVER1305853\a" +
+        "JRFGBPVGL - FGN290\a" +
+        "FRVMHER-\a\a" +
+        "12013 280 UJL @ FHAEVFR YA / 442 UJL\a\a" +
+        " NG&G ZBOVYVGL",
+
+        "QNGR:4/3/2013",
+        "GVZR:10:56:37",
+        "VQ:SVER1305853",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:FRVMHER",
+        "NQQE:12013 280 UJL",
+        "ZNQQE:12013 UJL 280",
+        "K:FHAEVFR YA / 442 UJL");
+
+    qbGrfg("G4",
+        "(FURYOL NEAF NYREG) 4/3/2013 9:26:06 NZ\a" +
+        "SVER1305846\a" +
+        "JRFGBPVGL - FGN290\a" +
+        "TRARENY-\a" +
+        "JRFGBIRE PVGL UNYY\a" +
+        "3312 JRFGBIRE EQ @ TERRA CVAR EQ / PRQNE UVYY SNEZ EQ\a" +
+        ": @JRFGBIRE PVGL UNYY",
+
+        "QNGR:4/3/2013",
+        "GVZR:09:26:06",
+        "VQ:SVER1305846",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:TRARENY",
+        "CYNPR:JRFGBIRE PVGL UNYY",
+        "NQQE:3312 JRFGBIRE EQ",
+        "K:TERRA CVAR EQ / PRQNE UVYY SNEZ EQ");
+
+    qbGrfg("G5",
+        "(FURYOL NEAF NYREG) 4/1/2013 6:06:15 CZ\aSVER1305743\aJRFGBPVGL - FGN290\aCFLPU-\a\a101 PERFG QE @ BYQ 280 UJL / \a\a SVBERYYN, QNIVQ",
+        "QNGR:4/1/2013",
+        "GVZR:18:06:15",
+        "VQ:SVER1305743",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:CFLPU",
+        "NQQE:101 PERFG QE",
+        "K:BYQ 280 UJL",
+        "VASB:SVBERYYN, QNIVQ");
+
+    qbGrfg("G6",
+        "(FURYOL NEAF NYREG) 4/1/2013 3:54:08 CZ\aSVER1305736\aJRFGBPVGL - FGN290\aSQ-NFFVFG-YNJRAS\a\a   @ 280 UJL / 51 UJL\a\aWNFBA GUHEZNA",
+        "QNGR:4/1/2013",
+        "GVZR:15:54:08",
+        "VQ:SVER1305736",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:SQ-NFFVFG-YNJRAS",
+        "NQQE:280 UJL & 51 UJL",
+        "ZNQQE:UJL 280 & UJL 51",
+        "VASB:WNFBA GUHEZNA");
+
+    qbGrfg("G7",
+        "(FURYOL NEAF NYREG) 4/1/2013 12:58:55 CZ\a" +
+        "SVER1305720\a" +
+        "JRFGBPVGL - FGN290\a" +
+        "SVER-OEHFU\a\a" +
+        "236 CNEXRE PVE @ EBBFGRE UVYY EQ / \a\a" +
+        " NG&G ZBOVYVGL",
+
+        "QNGR:4/1/2013",
+        "GVZR:12:58:55",
+        "VQ:SVER1305720",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:SVER-OEHFU",
+        "NQQE:236 CNEXRE PVE",
+        "K:EBBFGRE UVYY EQ");
+
+    qbGrfg("G8",
+        "(FURYOL NEAF NYREG) 3/31/2013 3:29:44 NZ\a" +
+        "SVER1305654\a" +
+        "JRFGBPVGL - FGN290\a" +
+        "FRVMHER-\a\a" +
+        "160 PERFG QE @ BYQ 280 UJL / \a\a" +
+        " IREVMBA JVERYRFF",
+
+        "QNGR:3/31/2013",
+        "GVZR:03:29:44",
+        "VQ:SVER1305654",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:FRVMHER",
+        "NQQE:160 PERFG QE",
+        "K:BYQ 280 UJL");
+
+    qbGrfg("G9",
+        "(FURYOL NEAF NYREG) 3/30/2013 10:10:25 CZ\aSVER1305649\aJRFGBPVGL - FGN290\aBO-\a\a137 YBIR YA @  / FUNECR FG\a\a IREVMBA JVERYRFF",
+        "QNGR:3/30/2013",
+        "GVZR:22:10:25",
+        "VQ:SVER1305649",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:BO",
+        "NQQE:137 YBIR YA",
+        "K:/ FUNECR FG");
+
+    qbGrfg("G10",
+        "(FURYOL NEAF NYREG) 3/30/2013 3:52:19 CZ\a" +
+        "SVER1305634\a" +
+        "JRFGBPVGL - FGN290\a" +
+        "SVER-OEHFU\a\a" +
+        "7920 51 UJL @ 280 UJL / 442 UJL\a\a" +
+        " EBOREGFBA, OVYYVR",
+
+        "QNGR:3/30/2013",
+        "GVZR:15:52:19",
+        "VQ:SVER1305634",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:SVER-OEHFU",
+        "NQQE:7920 51 UJL",
+        "ZNQQE:7920 UJL 51",
+        "K:280 UJL / 442 UJL",
+        "VASB:EBOREGFBA, OVYYVR");
+
+    qbGrfg("G11",
+        "(FURYOL NEAF NYREG) 3/26/2013 11:11:43 CZ\aSVER1305405\aJRFGBPVGL - FGN290\aTRARENY-\a\a7920 51 UJL @ 280 UJL / 442 UJL\a\a FCEVAGCPF",
+        "QNGR:3/26/2013",
+        "GVZR:23:11:43",
+        "VQ:SVER1305405",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:TRARENY",
+        "NQQE:7920 51 UJL",
+        "ZNQQE:7920 UJL 51",
+        "K:280 UJL / 442 UJL");
+
+    qbGrfg("G12",
+        "(FURYOL NEAF NYREG) 3/25/2013 2:17:21 CZ\a" +
+        "SVER1305330\a" +
+        "JRFGBPVGL - FGN290\a" +
+        "NOQBZVANY-\a\a" +
+        "28 YLOENAQ EQ @ 55 UJL / NY-LBHGU QE\a\a" +
+        " CNEQHR, WREERY",
+
+        "QNGR:3/25/2013",
+        "GVZR:14:17:21",
+        "VQ:SVER1305330",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:NOQBZVANY",
+        "NQQE:28 YLOENAQ EQ",
+        "K:55 UJL / NY-LBHGU QE",
+        "VASB:CNEQHR, WREERY");
+
+    qbGrfg("G13",
+        "(FURYOL NEAF NYREG) 3/22/2013 5:29:17 CZ\aSVER1305153\aJRFGBPVGL - FGN290\aZIP-PURPX_VAWHEVRF\a\a   @ 280 UJL / 51 UJL\a\a NG&G ZBOVYVGL",
+        "QNGR:3/22/2013",
+        "GVZR:17:29:17",
+        "VQ:SVER1305153",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:ZIP-PURPX_VAWHEVRF",
+        "NQQE:280 UJL & 51 UJL",
+        "ZNQQE:UJL 280 & UJL 51");
+
+    qbGrfg("G14",
+        "(FURYOL NEAF NYREG) 3/20/2013 7:56:02 CZ\aSVER1305037\aJRFGBPVGL - FGN290\aTRARENY-\a\a   @ 280 UJL / 51 UJL\a\a NG&G ZBOVYVGL",
+        "QNGR:3/20/2013",
+        "GVZR:19:56:02",
+        "VQ:SVER1305037",
+        "FEP:JRFGBPVGL - FGN290",
+        "PNYY:TRARENY",
+        "NQQE:280 UJL & 51 UJL",
+        "ZNQQE:UJL 280 & UJL 51");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
