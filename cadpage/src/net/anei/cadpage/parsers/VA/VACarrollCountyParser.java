@@ -17,7 +17,7 @@ public class VACarrollCountyParser extends DispatchDAPROParser {
   
   @Override
   public String getFilter() {
-    return "MAILBOX@GalaxVa.com";
+    return "MAILBOX@GalaxVa.com,pm_bounces@pm.mtasv.net";
   }
   
   @Override
