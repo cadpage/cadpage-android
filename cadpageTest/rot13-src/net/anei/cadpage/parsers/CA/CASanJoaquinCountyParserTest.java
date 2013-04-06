@@ -53,6 +53,7 @@ SEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:G26-1     12018873    Qvfcngpurq:05:47:04Raeb
  1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:G9-1  12018957     Genssvp Pbyyvfv V 580 Ro / F Pbeeny Ubyybj Eq                       U580P1          \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: R9-4,R9-8,G9-1,OP9-0,R26-1\e\a(Raq)
  1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:      12019053     Zrqvpny Nvq     25600 F Puevfzna Eq            J FPUHYGR EQ/RYVFFNT G354O           \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: G26-2\e\a(Raq)
  1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:      13007092     Genssvp Pbyyvfv 37 39'46.96"a & 121 26'30.72"j                    U580S1          \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: R9-3,R26-2,R9-7,OP9-0,G9-1\a(Raq)
+ 1 bs 2\aSEZ:YvsrpbzPryyCntvat@nze.arg\aZFT:      13007665     Irtrgngvba Sver V 205 Jo / V 580 Jo                       NYNZ4           \a(Pba'g) 2 bs 2\a    Nffvtarq Havgf: R9-5,R9-4,OP9-0,R26-2\a(Raq)
 
  */
 
@@ -437,6 +438,21 @@ choyvp pynff PNFnaWbndhvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:37 39'46.96\"a & 121 26'30.72\"j",
         "ZNQQE:+37.663044,-121.441867",
         "ZNC:U580S1");
+
+    qbGrfg("G15",
+        " 1 bs 2\a" +
+        "SEZ:YvsrpbzPryyCntvat@nze.arg\a" +
+        "ZFT:      13007665     Irtrgngvba Sver V 205 Jo / V 580 Jo                       NYNZ4           \a" +
+        "(Pba'g) 2 bs 2\a" +
+        "    Nffvtarq Havgf: R9-5,R9-4,OP9-0,R26-2\a" +
+        "(Raq)",
+
+        "HAVG:R9-5,R9-4,OP9-0,R26-2",
+        "VQ:13007665",
+        "PNYY:Irtrgngvba Sver",
+        "NQQE:V 205 Jo & V 580 Jo",
+        "ZNQQE:V 205 & V 580",
+        "ZNC:NYNZ4");
 
   }
   

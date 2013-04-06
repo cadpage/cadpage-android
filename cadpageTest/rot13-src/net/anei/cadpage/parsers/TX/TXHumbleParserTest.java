@@ -27,6 +27,7 @@ Fraqre: zft@pszft.pbz,nyreg@pszft.pbz
 (Puvrs NYG) [SVER] - Hax Ceboyrz - Zrqvpny Nyr - 17811 Qrrc Funqr Pg, Uhzoyr - Znc: 377R- - Kfg'f: Pbavsre Evqtr Jnl - Havgf: R-Z29 R-R19 R-R39 - 201149242
 (Puvrs NYG) [RZF] -  Oernguvat Ceboyrzf  -  20035 J Ynxr Ubhfgba Cxjl  - Kfg'f: Sverfvta Qe/wnahnel Qe - Oyqt:Crq Nffbpv - Xrl Znc:337H - Obk #:N1901
 (Puvrs NYG) [RZF] -  10n1 Pneqvnp  -  18310 Inyvnag Oebbx Pg  -  Z19  - XZ:377P - Kfg'f: Qrnq Raq/ebfrohq Oraq Qe
+(Puvrs NYG) [RZF] -  32o1 Haxabja Ceboyrz  -  5823 Sberfg Gvzoref Qe  -  Z19  - XZ:337G - Kfg'f: Bnx Fgngvba Qe/xryyl Gvzoref Q
 
 PlSnve, GK (Ngnfpbpvgn GK)
 Pbagnpg:  "Fgbygm, Revp" <RFgbygm@nisq.pbz>
@@ -270,6 +271,15 @@ choyvp pynff GKUhzoyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:Z19",
         "ZNC:377P",
         "K:Qrnq Raq/ebfrohq Oraq Qe");
+
+    qbGrfg("G19",
+        "(Puvrs NYG) [RZF] -  32o1 Haxabja Ceboyrz  -  5823 Sberfg Gvzoref Qe  -  Z19  - XZ:337G - Kfg'f: Bnx Fgngvba Qe/xryyl Gvzoref Q",
+        "FEP:RZF",
+        "PNYY:32o1 Haxabja Ceboyrz",
+        "NQQE:5823 Sberfg Gvzoref Qe",
+        "HAVG:Z19",
+        "ZNC:337G",
+        "K:Bnx Fgngvba Qe/xryyl Gvzoref Q");
 
   }
   
