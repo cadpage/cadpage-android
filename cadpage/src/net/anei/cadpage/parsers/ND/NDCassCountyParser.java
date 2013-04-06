@@ -54,8 +54,10 @@ public class NDCassCountyParser extends SmartAddressParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "AMEN",  "AMENIA",
       "CAST", "CASSELTON",
       "CHAF", "CHAFFEE",
+      "LEON", "LEONARD",
       "WHEA", "WHEATLAND",
       
       "CASS", ""

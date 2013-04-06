@@ -43,6 +43,10 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+    qbGrfg(PNYY, SYNT_VZCYVRQ_VAGREFRPG, "Iruvpyr Sver 41 FG FR 148 NIR FR XRAFOHET",
+        "PNYY:Iruvpyr Sver",
+        "NQQE:41 FG FR & 148 NIR FR",
+        "PVGL:XRAFOHET");
   }
   
   @Grfg

@@ -775,8 +775,10 @@ public abstract class SmartAddressParser extends MsgParser {
                 // named for saints, so if the next token is ST, give it a chance
                 // to be a valid street name
                 if (tokens[sAddr+1].equalsIgnoreCase("ST")) {
-                  sEnd = findRoadEnd(sAddr+1, 0);
-                  if (sEnd > 0) break;
+                  if (!isType(sAddr+2, ID_DIRECTION)) {
+                    sEnd = findRoadEnd(sAddr+1, 0);
+                    if (sEnd > 0) break;
+                  }
                 }
                 return false;
               }
