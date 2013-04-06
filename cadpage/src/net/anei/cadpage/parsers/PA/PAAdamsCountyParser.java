@@ -38,6 +38,11 @@ public class PAAdamsCountyParser extends DispatchA1Parser {
     String city = data.strCity;
     if (city.toUpperCase().endsWith(" BORO")) {
       data.strCity = city.substring(0,city.length()-5).trim();
+    } else {
+      if (city.endsWith(" CO")) data.strCity = city = city + "UNTY";
+      if (city.equals("WASHINGTON COUNTY") || 
+          city.equals("CARROLL COUNTY") ||
+          city.equals("FREDERICK COUNTY")) data.strState = "MD";
     }
     data.strSupp = data.strSupp.replace(" / ", "\n");
     return true;
@@ -45,6 +50,6 @@ public class PAAdamsCountyParser extends DispatchA1Parser {
   
   @Override
   public String getProgram() {
-    return "SRC " + super.getProgram();
+    return "SRC " + super.getProgram().replace("CITY", "CITY ST");
   }
 }

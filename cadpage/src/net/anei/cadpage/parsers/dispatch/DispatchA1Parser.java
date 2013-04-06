@@ -21,8 +21,9 @@ public class DispatchA1Parser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (! subject.startsWith("Alert: ")) return false;
-    data.strCall = subject.substring(7).trim();
+    if (! subject.startsWith("Alert:")) return false;
+    data.strCall = subject.substring(6).trim();
+    if (data.strCall.length() == 0) data.strCall = "ALERT";
     return parseFields(body.split("\\n"), data);
   }
   
@@ -70,7 +71,7 @@ public class DispatchA1Parser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern APT_PATTERN = Pattern.compile("(?:APT|ROOM)[-:]? *(.*)|(LOT *.*)");
+  private static final Pattern APT_PATTERN = Pattern.compile("(?:APT|ROOM|RM)[-:]? *(.*)|(LOT *.*|.* (?:APT|ROOM|RM|\\bHALLWAY\\b).*)");
   private class MyAptField extends AptField {
 
     @Override
@@ -85,12 +86,25 @@ public class DispatchA1Parser extends FieldProgramParser {
         field = match.group(1);
         if (field == null) field = match.group(2);
       }
-      else if (field.length() > 3) return false; 
+      else if (field.length() > 3 && !field.contains("#")) return false; 
       parse(field, data);
       return true;
     }
   }
   
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("N/A ")) field = field.substring(4).trim();
+      if (field.endsWith(" N/A")) field = field.substring(0,field.length()-4).trim();
+      if (field.startsWith("&")) field = field.substring(1).trim();
+      if (field.endsWith("&")) field = field.substring(0,field.length()-1).trim();
+      field = field.replaceAll("  +", " ");
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern SKIP_INFO_PTN = Pattern.compile("[A-Z]+[0-9]* at(?: POS \\d+)?");
   private class MyInfoField extends InfoField {
     @Override
     public boolean canFail() {
@@ -103,6 +117,12 @@ public class DispatchA1Parser extends FieldProgramParser {
       parse(field, data);
       return true;
     }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (SKIP_INFO_PTN.matcher(field).matches()) return;
+      super.parse(field, data);
+    }
   }
   
   @Override
@@ -110,6 +130,7 @@ public class DispatchA1Parser extends FieldProgramParser {
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("APT")) return new MyAptField();
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }

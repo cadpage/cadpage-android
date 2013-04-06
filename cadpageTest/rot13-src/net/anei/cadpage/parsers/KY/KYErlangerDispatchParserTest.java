@@ -59,7 +59,7 @@ choyvp pynff XLReynatreQvfcngpuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:3812 UNEIRFG JL",
         "PVGL:RYFZRER",
-        "K:UNEIRFG YA & A/N");
+        "K:UNEIRFG YA");
 
     qbGrfg("G3",
         "(Nyreg: Sver Fgehpgher) NYEZ YIY: 1\aYBP:\a416 RYXRA CY\aRYFZRER\aOGJA: ZNCYR NI & PNYQJRYY QE",
@@ -77,7 +77,7 @@ choyvp pynff XLReynatreQvfcngpuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:1028 PNCVGBY NIR",
         "NCG:1",
         "PVGL:RYFZRER",
-        "K:TNYIVA FG & A/N");
+        "K:TNYIVA FG");
 
     qbGrfg("G5",
         "(Nyreg: Sver Fgehpgher) NYEZ YIY: 1\aYBP:\aRYFZRER SVER QRCNEGZRAG\a401 TNEIRL NI\aRYFZRER\aOGJA: NFU FG & CNYNPR NI",
@@ -96,8 +96,7 @@ choyvp pynff XLReynatreQvfcngpuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:YNAVTNA'F",
         "NQQE:4409 QVKVR UJ",
         "ZNQQE:4409 QVKVR UJL",
-        "PVGL:RYFZRER",
-        "K:A/N & A/N");
+        "PVGL:RYFZRER");
 
     qbGrfg("G7",
         "(Nyreg: Sver Fgehpgher) NYEZ YIY: 1\aYBP:\a631 JVYYBJ FG\aRYFZRER\aOGJA: XRAGBA FG & ZNVA FG",
@@ -122,7 +121,7 @@ choyvp pynff XLReynatreQvfcngpuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:120 FCNEEBJ QE",
         "PVGL:RYFZRER",
-        "K:A/N & EBOVA QE");
+        "K:EBOVA QE");
 
     qbGrfg("G10",
         "(Nyreg: Sver Fgehpgher) NYEZ YIY: 1\aYBP:\a430 SBK FG\aRYFZRER\aOGJA: TNEIRL NI & ZNVA FG",
@@ -148,7 +147,7 @@ choyvp pynff XLReynatreQvfcngpuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:NYYRAQNYR ZBOVYR UBZR CNEX",
         "NQQE:1150 RQJNEQF EQ",
         "PVGL:RYFZRER",
-        "K:YLGYR NI & A/N");
+        "K:YLGYR NI");
   }
   
   @Grfg
@@ -303,7 +302,7 @@ choyvp pynff XLReynatreQvfcngpuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:7673 VEBAOEVQTR PG",
         "PVGL:RYFZRER",
-        "K:PBIRERQ OEVQTR QE & A/N",
+        "K:PBIRERQ OEVQTR QE",
         "VASB:ERSHFVAT ZRQVPNY / QBT OVG PUVYQ NG GUR RNFG PBIRERQ OEVQTR CNEX / OEBJA QBT / CBFF CVG OHYY / JEVFG NAQ UNAQ / 22-QYC ng CBF 01");
 
   }

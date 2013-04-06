@@ -35,8 +35,8 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:538 SVERGUBEA QE",
         "PVGL:ZBAEBRIVYYR",
-        "K:SVRYQFGBAR QE & A/N",
-        "VASB:23L/B SRZNYR FVPX / NYCUN / ZQ103 ng");
+        "K:SVRYQFGBAR QE",
+        "VASB:23L/B SRZNYR FVPX / NYCUN");
 
     qbGrfg("G2",
         "[Nyreg: Oernguvat]  NYEZ YIY: 1\aYBP:\a721 URNEGJBBQ QE\aZBAEBRIVYYR\aOGJA: PBGGBAJBBQ QE & PBGGBAJBBQ QE\a\aEPIQ NF Cubar\a\aPBZ:\a94 LB SRZNYR/QVSS OERNGUVAT/3EQ",
@@ -53,7 +53,7 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:245 NMNYRN QE",
         "PVGL:ZBAEBRIVYYR",
-        "K:TNEQRA PVGL QE & A/N",
+        "K:TNEQRA PVGL QE",
         "VASB:2AQ SYBBE CHYY FGNGVBA / ZQ10");
 
     qbGrfg("G4",
@@ -62,7 +62,7 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:540 SVERGUBEA QE",
         "PVGL:ZBAEBRIVYYR",
-        "K:SVRYQFGBAR QE & A/N",
+        "K:SVRYQFGBAR QE",
         "VASB:79 LBS UVTU GRZC, PUVYYF, YRGUNETVP. OENib");
 
     qbGrfg("G5",
@@ -71,7 +71,7 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:3912 ONEONEN NAA QE",
         "PVGL:ZBAEBRIVYYR",
-        "K:RIRETERRA QE & A/N",
+        "K:RIRETERRA QE",
         "VASB:90L/B ZNYR - SNZVYL ABJ JNAGF CG GENAFCBEGRQ GB UBF");
 
     qbGrfg("G6",
@@ -80,8 +80,7 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:166 XRRSRE",
         "PVGL:CRAA UVYYF",
-        "K:A/N & A/N",
-        "VASB:86L/B ZNYR NOQ CNVA / PUNEYVR / ZQ103 ng CBF 01");
+        "VASB:86L/B ZNYR NOQ CNVA / PUNEYVR");
 
     qbGrfg("G7",
         "[Nyreg: Snyy]  NYEZ YIY: 1\aYBP:\a3912 ONEONEN NAA QE\aZBAEBRIVYYR\aOGJA: RIRETERRA QE & A/N\a\aEPIQ NF Cubar\a\aPBZ:\a92 LB ZNYR/SRYY/ABG ORYVRIRQ GB OR VAWHERQ/3E",
@@ -89,7 +88,7 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:3912 ONEONEN NAA QE",
         "PVGL:ZBAEBRIVYYR",
-        "K:RIRETERRA QE & A/N",
+        "K:RIRETERRA QE",
         "VASB:92 LB ZNYR/SRYY/ABG ORYVRIRQ GB OR VAWHERQ/3E");
 
     qbGrfg("G8",
@@ -98,7 +97,7 @@ choyvp pynff CNZbaebrivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "NQQE:205 URNGURE QE",
         "PVGL:ZBAEBRIVYYR",
-        "K:QHSS EQ & A/N",
+        "K:QHSS EQ",
         "VASB:ENCVQ URNEG ORNG / 87 LBS PNEQVNP UK. PUNEYVR");
   }
   

@@ -34,7 +34,7 @@ choyvp pynff BUZbeebjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:3556 EQ 145",
         "PVGL:TVYRNQ GJC",
         "K:EQ 9 & EQ 30",
-        "VASB:PNE SYVCCRQ / 1 PNE / OEZ ng CBF 02");
+        "VASB:PNE SYVCCRQ / 1 PNE");
 
     qbGrfg("G2",
         "(Nyreg: Sver Bpphcvrq Fgehpgher) NYEZ YIY: 1\aYBP:\a2681 EQ 254\aYVAPBYA GJC\aOGJA: EQ 155 & QRNQ RAQ\a\aEPIQ NF 911\a\aPBZ:\aPUVZARL SVER\aTRGGVAT RIRELBAR BHG BS GUR UBHFR",
