@@ -6,6 +6,11 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Angeban Pbhagl, JL
+
+Pbagnpg: Pbaabe Lbhat <pgbja3625@tznvy.pb
+Fraqre: pfcuvcyvax@pvglbspnfcrejl.pbz
+(Zrffntr sebz UvcYvax) 1/1 RIS \a  Snyy\a  1180 JRFGREA NIR; Ohgpu'f Unccl Qnlf Yvd\a  351\a  E12\a  ****GNP 4****CBFFVOYR OEBXRA NAXYR
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pnfcre Sver-RZF Fgngvba 2 Ybpngvba: Pnfcre, JL 
 Fraqre: pfcuvcyvax@pvglbspnfcrejl.pbz
@@ -98,13 +103,34 @@ Fraqre: <pfcuvcyvax@pvglbspnfcrejl.pbz>
 (Zrffntr Sebz Uvcyvax) APFB\aNyreg 1-Nvepens\a8500 NVECBEG CXL; NVECBEG\aAPFJ\aP56\agnp 6\a\atyvqre znxvat n pebff ynaqvat
 (Zrffntr Sebz Uvcyvax) APFB\aRkcybfvirf\a2888 FVK ZVYR EQ\aAPFJ\aP56\aec sbhaq n ghor jvgu  qhpg gncr ba gur raqf naq fbzr xvaq bs sregnyvmre va vg guebja va uvf lneq\aec guvaxf vg vf n cvcr obzo bs fbzr xvaq
 (Zrffntr Sebz Uvcyvax) PCQ\aCebw. Yvsrfnir\a2885 VAQVNA FCEVATF QE\aCQ-6\aN209\aevpuneq wnpxfba unf jnaqrerq njnl / jnf sbhaq ng gur zvav zneg ynfg jrrx / serd # 215945 ur vf va pnq haqre Pney naq ur nafjref gb Pney
-
 */
 
 choyvp pynff JLAngebanPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp JLAngebanPbhaglCnefreGrfg() {
     frgCnefre(arj JLAngebanPbhaglCnefre(), "ANGEBAN PBHAGL", "JL");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPbaabeLbhat() {
+
+    qbGrfg("G1",
+        "(Zrffntr sebz UvcYvax) 1/1 RIS \a" +
+        "  Snyy\a" +
+        "  1180 JRFGREA NIR; Ohgpu'f Unccl Qnlf Yvd\a" +
+        "  351\a" +
+        "  E12\a" +
+        "  ****GNP 4****CBFFVOYR OEBXRA NAXYR",
+
+        "FEP:RIS",
+        "PNYY:Snyy",
+        "NQQE:1180 JRFGREA NIR",
+        "CYNPR:OHGPU'F UNCCL QNLF YVD",
+        "ZNC:351",
+        "HAVG:E12",
+        "PU:GNP 4",
+        "VASB:CBFFVOYR OEBXRA NAXYR");
+  
   }
   
   @Grfg

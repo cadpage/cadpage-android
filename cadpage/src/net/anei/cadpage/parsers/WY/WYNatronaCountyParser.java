@@ -22,7 +22,7 @@ public class WYNatronaCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Message From Hiplink")) return false;
+    if (!subject.equalsIgnoreCase("Message From Hiplink")) return false;
     return parseFields(body.split("\n"), 4, data);
   }
   

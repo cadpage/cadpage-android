@@ -9,6 +9,14 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("JLAngebanPbhagl",
+        "xra@pnqcntr.bet",
+        "",
+        "(Zrffntr sebz UvcYvax) 1/1 RIS \a  Snyy\a  1180 JRFGREA NIR; Ohgpu'f Unccl Qnlf Yvd\a  351\a  E12\a  ****GNP 4****CBFFVOYR OEBXRA NAXYR",
+        "xra@pnqcntr.bet",
+        "Zrffntr sebz UvcYvax",
+        "RIS \a  Snyy\a  1180 JRFGREA NIR; Ohgpu'f Unccl Qnlf Yvd\a  351\a  E12\a  ****GNP 4****CBFFVOYR OEBXRA NAXYR", 1, 1);
+    
     qbCnefrGrfg("Trareny",
         "xra@pnqcntr.bet",
         "",

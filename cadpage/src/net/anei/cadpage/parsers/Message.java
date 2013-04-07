@@ -88,6 +88,7 @@ public class Message {
     Pattern.compile("^[A-Z]+ +\\((\\d)/(\\d)\\) +(.*?) +STOP$"),
     Pattern.compile("^\\( *([^\\)]*?) +(\\d) *of *(\\d)\\)(.*)$")
   };
+  private static final Pattern MSG_HEADER_FINAL_PTN = Pattern.compile("^(\\d)/(\\d) +");
   private static final Pattern[] SUBJECT_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(\\d)/(\\d)$")
   };
@@ -345,7 +346,19 @@ public class Message {
       }
 
     } while (false);
-    parseMessageBody = finish(body);
+    body = finish(body);
+    
+    // Make one last check for a message index that might have been masked
+    // by parenthesized subjects
+    if (msgIndex < 0 && parseSubject.length() > 0) {
+      Matcher match = MSG_HEADER_FINAL_PTN.matcher(body);
+      if (match.find()) {
+        msgIndex = Integer.parseInt(match.group(1));
+        msgCount = Integer.parseInt(match.group(2));
+        body = body.substring(match.end());
+      }
+    }
+    parseMessageBody = body;
     
     // If we extracted an empty address from the text string, restore the
     // original address
