@@ -761,6 +761,7 @@ public class ParserList {
               ,"WIEauClaire"                    ,"Eau Claire, WI"
               ,"WIKenoshaCounty"                ,"Kenosha County, WI"
               ,"WIOutagamieCounty"              ,"Outagamie County, WI"
+              ,"WIWaukeshaCounty"               ,"Waukesha County, WI"
               ,"WIWinnebagoCounty"              ,"Winnebago County, WI"
           ),
           new ParserCategory("Wyoming"
