@@ -553,7 +553,7 @@ Fraqre: OYBHAGPB911@bgrypb.arg
 choyvp pynff NYOybhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp NYOybhagPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlPbhaglCnefre(), "OYBHAG PBHAGL", "NY");
+    frgCnefre(arj QhzzlCnefre(), "OYBHAG PBHAGL", "NY");
   }
   
   @Grfg
