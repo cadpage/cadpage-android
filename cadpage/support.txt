@@ -103,6 +103,8 @@ The problem with this arrangement is that Cadpage lacks the ability to display r
 
 ******************************************************************
 
+You or your department have apparently paid for Active911.  Cadpage is free if you use direct paging.
+
 Here are the details in setting up Cadpage with Active911:
 First, do you have an account with Active911?  If not, you should contact them about getting set up.  You can do that by visiting their web page at Active911.com.  Click the contact link, then the "click here to sign up online" link in the right sidebar.
 
@@ -313,7 +315,7 @@ If that does not work, the web page at
 http://www.cadpage.org/financial-support/paypal-payments
 has  instructions on how to make PayPal or Snail Mail payments
 
-Basically, you can mail a check or money order to
+Basically, you can make out a check or money order to Cadpage and mail to:
 
 Cadpage
 35136 Kings Valley Hwy
@@ -946,15 +948,17 @@ Hope that helps,
 -Ken
 
 ******************************************************************
-iphone questions
+iphone questions 
 ******************************************************************
 
-The developer doing Cadpage/IPhone is having trouble getting it accepted by the App Store.  Apple runs a really tight ship, and there are several prohibitions listed in their terms of service that Cadpage skirts around the edges of.  Active911 got in, despite doing essentially the same thing, only because the developer included pages of explanations why Active911 doesn't really violate those prohibitions. 
+We deal with Cadpage, an exclusively Android app.  
 
-Even if it were available, it probably wouldn't be much help.  The problem is that the IOS environment is a lot more restrictive than Android.  Unless you have a jail broken phone, it is not possible to pick up 
-text messages the way we do for Android.  
+But there are 2 options I see for iphone Users:
 
-The only way Cadpage will work is if you get pages from a message service that can push pages to Cadpage without using text messaging.  And right now there are only two message services: Active911.com and CodeMessaging.net.  Please try one of those.
+1.  Cadpage For IOS has been released recently.  You can contact Jesse at  support@apprhythmia.com
+However, you will still need a messaging service like Active911 or CodeMessaging for his app to work.
+
+2.  You or your department can purchase a messaging service.  Active911.com (for individuals or departments) or CodeMessaging.org (for departments). These services push pages from dispatch to cell phones.
 
 Good luck,
 Jean, Assistant to Ken Corbin
