@@ -6,22 +6,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class ORBentonCountyParser extends FieldProgramParser {
   
-  // List of streets that extend wholly or partly into a region that Google does
-  // not recognize as part of Philomath
-  private static final String[] NOT_IN_PHILOMATH = new String[]{
-    "BANKS",
-    "BREWSTER",
-    "BEAVER CREEK",
-    "BLUEROCK",
-    "DECKER",
-    "GRASS HEIGHTS",
-    "LINVILLE",
-    "MARYS PEAK",
-    "NEUMAN",
-    "PETERSON",
-    "STARR CREEK"
-  }; 
-  
   public ORBentonCountyParser() {
     super("BENTON COUNTY", "OR",
           "INC:CALL! ADD:ADDR! APT:APT CITY:CITY! X:X MAP:MAP CFS:ID DIS:UNIT");
@@ -66,4 +50,20 @@ public class ORBentonCountyParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
+  
+  // List of streets that extend wholly or partly into a region that Google does
+  // not recognize as part of Philomath
+  private static final String[] NOT_IN_PHILOMATH = new String[]{
+    "BANKS",
+    "BREWSTER",
+    "BEAVER CREEK",
+    "BLUEROCK",
+    "DECKER",
+    "GRASS HEIGHTS",
+    "LINVILLE",
+    "MARYS PEAK",
+    "NEUMAN",
+    "PETERSON",
+    "STARR CREEK"
+  }; 
 }
