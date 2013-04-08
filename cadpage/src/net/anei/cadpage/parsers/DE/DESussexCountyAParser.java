@@ -70,7 +70,7 @@ public class DESussexCountyAParser extends SmartAddressParser {
     if (data.strCity.length() == 0) {
       
       // If the last token in what is left is a 5 digit zip code, strip it off
-      String sAddress = getLeft();
+      String sAddress = result.getLeft();
       Parser p = new Parser(sAddress);
       String last = p.getLastOptional(' ');
       if (last.length() == 5 && NUMERIC.matcher(last).matches()) sAddress = p.get();

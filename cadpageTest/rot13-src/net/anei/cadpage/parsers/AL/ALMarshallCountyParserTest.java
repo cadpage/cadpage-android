@@ -311,9 +311,7 @@ choyvp pynff NYZnefunyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:NFFYG",
         "PNYY:NFFNHYG",
         "NQQE:2AQ NIR AJ",
-        "ZNQQE:PBEE JVERYRFF,2AQ NIR AJ",
-        "PVGL:NENO",
-        "CYNPR:PBEE JVERYRFF");
+        "PVGL:NENO");
 
     qbGrfg("G30",
         "69:FRVMHE>FRMVHER\\PBAIHYFVBA\aWRG CRC ZNVA FG NAQ UJL 69\aNENO\aERTVAN ARRQUNZ",

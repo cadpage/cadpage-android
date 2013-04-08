@@ -1145,10 +1145,22 @@ public abstract class MsgParser {
   * @return return cleaned result
   */
  protected String cleanWirelessCarrier(String name) {
-   if (WIRELESS_CARRIER_PTN.matcher(name).matches()) return "";
+   return cleanWirelessCarrier(name, false);
+ }
+
+ /**
+  * Clean name or place field of any references to wireless carrier names
+  * @param name name to be cleaned
+  * @param partial true if partial match should be removed, false if a complete match is required
+  * @return return cleaned result
+  */
+ protected String cleanWirelessCarrier(String name, boolean partial) {
+   Matcher match = WIRELESS_CARRIER_PTN.matcher(name);
+   boolean found = (partial ? match.find() : match.matches());
+   if (found) name = name.substring(0,match.start()).trim();
    return name;
  }
- private static final Pattern WIRELESS_CARRIER_PTN = Pattern.compile("(?:VERIZON(?: WIRELESS)?|ATT? ?& ?T(?: MOBILITY)?|ATTMO|T-MOBILE|SPRINT(?:PCS)?|US CELLULAR|METRO ?PCS)\\b.*", Pattern.CASE_INSENSITIVE);
+ private static final Pattern WIRELESS_CARRIER_PTN = Pattern.compile("\\b(?:VERIZON(?: WIRELESS)?|ATT? ?& ?T(?: MOBILITY)?|ATTMO|T-MOBILE|SPRINT(?:PCS)?|US CELLULAR|METRO ?PCS|CORR WIRELESS)\\b.*", Pattern.CASE_INSENSITIVE);
 
  
  /**

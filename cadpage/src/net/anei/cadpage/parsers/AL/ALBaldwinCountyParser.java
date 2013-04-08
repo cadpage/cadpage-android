@@ -20,6 +20,7 @@ public class ALBaldwinCountyParser extends MsgParser {
 
   public ALBaldwinCountyParser() {
     super("BALDWIN COUNTY", "AL");
+    setFieldList("SRC DATE TIME UNIT ID CALL ADDR APT");
   }
     
   @Override

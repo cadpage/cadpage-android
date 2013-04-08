@@ -19,6 +19,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
   
   public MDSaintMarysCountyParser() {
     super("SAINT MARYS COUNTY", "MD");
+    setFieldList("TIME CALL ADDR APT X PLACE CITY UNIT INFO");
   }
   
   @Override
@@ -98,7 +99,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
         if (lastResult.getStatus() < result.getStatus()) {
           data.strPlace = lastFld;
           result.getData(data);
-          data.strApt = append(data.strApt, "-", getLeft());
+          data.strApt = append(data.strApt, "-", result.getLeft());
           break;
         }
         

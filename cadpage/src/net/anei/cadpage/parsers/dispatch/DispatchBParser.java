@@ -13,7 +13,7 @@ public class DispatchBParser extends FieldProgramParser {
   private static final String[] FIXED_KEYWORDS = new String[]{"Map", "Grids", "Cad"};
   private static final String[] KEYWORDS = 
     new String[]{"Loc", "Return Phone", "BOX", "Map", "Grids", "Cad"};
-  private static final Pattern REPORT_PTN = Pattern.compile("EVENT:.* Cad: ([-0-9]+) ");
+  private static final Pattern REPORT_PTN = Pattern.compile("EVENT:.* Cad: ([-0-9]+) |.* DSP \\d\\d:\\d\\d:\\d\\d ");
   private static final Pattern PHONE_PTN = Pattern.compile("(?: +(?:VERIZON|AT ?& ?T MOBILITY))? +(\\d{10}|\\d{7}|\\d{3} \\d{7}|\\d{3}-\\d{4})$");
   
   int version;
@@ -75,7 +75,7 @@ public class DispatchBParser extends FieldProgramParser {
     if (match.find()) {
       data.strCall = "RUN REPORT";
       data.strPlace = body.substring(match.start());
-      data.strCallId = match.group(1);
+      data.strCallId = getOptGroup(match.group(1));
       return true;
     }
     
@@ -189,16 +189,17 @@ public class DispatchBParser extends FieldProgramParser {
   }
   
   private void setup() {
-    setFieldList("CODE CALL ADDR APT X CITY NAME PHONE BOX MAP ID");
+    setFieldList("CODE CALL ADDR APT X PLACE CITY NAME PHONE BOX MAP ID");
     setupCallList(
         "911 HANG UP",
+        "ABDOM PAIN - FEM 12-50 W/FAINT",
+        "ABDOM PAIN FAINT/NEAR > 50",
+        "ABDOMINAL PAIN/PROBLEM",
         "ACCIDENT - INJURIES",
         "ACCIDENT INJURIES",
         "ACCIDENT MVA WITH INJURIES",
         "ACCIDENT W/ INJURIES",
         "ACCIDENT WITH INJURIES",
-        "ABDOM PAIN - FEM 12-50 W/FAINT",
-        "ABDOMINAL PAIN/PROBLEM",
         "ADVANCED LIFE SUPPORT CALL",
         "AUTO ACCIDENT/INJURY",
         "AUTO ACCIDENT/NO INJURY",

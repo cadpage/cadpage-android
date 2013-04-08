@@ -63,17 +63,38 @@ public class DispatchB2Parser extends DispatchBParser {
    * @return true if parse was successful
    */
   protected boolean parseAddrField(String field, Data data) {
+    
+    String address = null;
+    if (field.charAt(0) == '(') {
+      int pt = field.indexOf(')');
+      if (pt < 0) return false;
+      address = field.substring(pt+1).trim();
+      field = field.substring(1, pt);
+    }
+
     Matcher match = CODE_PATTERN.matcher(field);
     if (match.find()) {
       data.strCode = match.group(1);
       field = field.substring(match.end());
     }
+    
+    StartType st = StartType.START_CALL;
+    int flags = FLAG_START_FLD_REQ;
+    if (address != null) {
+      data.strCall = field;
+      field = address;
+      st = StartType.START_ADDR;
+      flags = 0;
+    }
+    
     match = PHONE_PTN.matcher(field);
     if (match.find()) {
       data.strPhone = match.group(1);
       field = field.substring(0,match.start());
     }
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, field, data);
+    
+    field = cleanWirelessCarrier(field, true);
+    parseAddress(st, flags | FLAG_NEAR_TO_END, field, data);
     String name = getLeft();
     if (name.startsWith("&")) {
       data.strAddress = append(data.strAddress, " ", name);

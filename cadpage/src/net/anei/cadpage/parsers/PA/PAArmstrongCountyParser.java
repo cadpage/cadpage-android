@@ -49,7 +49,7 @@ public class PAArmstrongCountyParser extends SmartAddressParser {
         data.strCross = "";
         result2.getData(data);
         data.strCross = append(oldCross, " / ", data.strCross);
-        body = getLeft();
+        body = result2.getLeft();
       }
     } while (body.startsWith("/"));
     

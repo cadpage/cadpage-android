@@ -1768,7 +1768,7 @@ public class FieldProgramParser extends SmartAddressParser {
       else {
         Result res = parseAddress(startType, field);
         if (res.getStatus() <= 0) return false;
-        if ((parseFlags & FLAG_ANCHOR_END) != 0 && getLeft().length() > 0) return false;
+        if ((parseFlags & FLAG_ANCHOR_END) != 0 && res.getLeft().length() > 0) return false;
         
         // Looks good, lets parse out the data
         res.getData(data);

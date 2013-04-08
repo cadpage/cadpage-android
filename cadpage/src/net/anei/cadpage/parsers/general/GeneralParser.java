@@ -340,9 +340,9 @@ public class GeneralParser extends SmartAddressParser {
             // If we got any call info from anywhere, extra stuff goes into info 
             // otherwise it goes into the call description
             if (data.strCall.length() == 0) {
-              data.strCall = getLeft();
+              data.strCall =res.getLeft();
             } else {
-              data.strSupp = getLeft();
+              data.strSupp = res.getLeft();
             }
             continue;
           }

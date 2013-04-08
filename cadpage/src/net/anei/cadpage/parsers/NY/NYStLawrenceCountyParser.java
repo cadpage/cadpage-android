@@ -92,7 +92,7 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
     Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, addr);
     if (res.getStatus() > 0) {
       res.getData(data);
-      addr = getLeft();
+      addr = res.getLeft();
       addr = cleanCitySuffix(addr, data);
     }
     data.strPlace = append(addr, " - ", data.strPlace);

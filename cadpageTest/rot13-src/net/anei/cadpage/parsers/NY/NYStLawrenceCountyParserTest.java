@@ -591,8 +591,9 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:911P",
         "VQ:2012:0000008051",
         "PNYY:RZF",
-        "NQQE:BSS EG 812 ARNE FGRIRAFBA",
-        "ZNQQE:& EG 812 & FGRIRAFBA");
+        "NQQE:BSS EG 812",
+        "CYNPR:ARNE FGRIRAFBA",
+        "ZNQQE:& EG 812");
 
     qbGrfg("G6",
         "(911 QVFCNGPU) 911P:2012:0000008048\aQvfcngpurq\aRZF\a66 PAGL EGR 31 (BHGRE RYZ FG) - AJ FRPGBE #AL, ZNQEVQ",
@@ -1131,7 +1132,8 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2013:24",
         "PNYY:Sver",
         "NQQE:EG 58",
-        "VASB:ARNE TENIRY EQ");
+        "ZNQQE:EG 58 & TENIRY EQ",
+        "K:TENIRY EQ");
 
     qbGrfg("G3",
         "(911 QVFCNGPU) TBH SQ:2013:32\aQvfcngpurq\aSver\aNHFGVA FG TBHIREARHE IVYYNTR",
@@ -1353,7 +1355,8 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2013:4",
         "PNYY:RZF",
         "NQQE:EG 58",
-        "VASB:ARNE PE 10 NAQ GHGGYR EQ");
+        "ZNQQE:EG 58 & PBHAGL EBNQ 10",
+        "K:PE 10 NAQ GHGGYR EQ");
 
     qbGrfg("G30",
         "(911 QVFCNGPU) TBH SQ:2013:3\aQvfcngpurq\aSver\a664 FPBGPU FRGGYRZRAG EQ #AL, TBHIREARHE",
@@ -1429,7 +1432,7 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZF",
         "NQQE:PE 9",
         "ZNQQE:PBHAGL EBNQ 9",
-        "VASB:ARNE EFV OHVYQVAT");
+        "CYNPR:ARNE EFV OHVYQVAT");
 
     qbGrfg("G39",
         "(911 QVFCNGPU) TBH SQ:2012:270\aQvfcngpurq\aSver\a389 RNFG ZNVA FGERRG  CEVPR PUBCCRE",

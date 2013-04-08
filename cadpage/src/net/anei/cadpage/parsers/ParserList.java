@@ -108,6 +108,7 @@ public class ParserList {
           ),
           new ParserCategory("Alabama"
               ,"ALBaldwinCounty"                ,"Baldwin County, AL"
+              ,"ALBlountCounty"                 ,"Blount County, AL"
               ,"ALChiltonCounty"                ,"Chilton County, AL"
               ,"ALColbertCounty"                ,"Colbert County, AL"
               ,"ALDothan"                       ,"Dothan, AL"

@@ -27,10 +27,11 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   cebgrpgrq pynff QhzzlCnefre rkgraqf ZftCnefre {
     choyvp QhzzlCnefre() {
       fhcre("", "");
+      frgSvryqYvfg("PNYY");
     }
     cebgrpgrq obbyrna cnefrZft(Fgevat obql, Qngn qngn) {
       qngn.fgePnyy = "QhzzlCnefre vaibxrq sebz grfg pynff";
-      erghea snyfr;
+      erghea gehr;
     }
   }
   

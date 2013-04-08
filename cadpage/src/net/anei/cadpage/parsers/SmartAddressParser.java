@@ -128,6 +128,11 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_NO_CITY = 0x10000;
   
+  /**
+   * Flag indicating that a NEAR clause should extend to the end of the input string
+   */
+  public static final int FLAG_NEAR_TO_END = 0x20000;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -207,6 +212,8 @@ public abstract class SmartAddressParser extends MsgParser {
   private static final int ID_SPEC_CROSS_REV = 0x1000000;
   
   private static final int ID_RELATION = 0x2000000;
+  
+  private static final int ID_NEAR = 0x4000000;
   
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
@@ -319,6 +326,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // C/S should be in this list, but it gets changed before we parse stuff
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
+    setupDictionary(ID_NEAR, "NEAR", "ACROSS");
     setupDictionary(ID_APPT, "APT:", "APT", "APTS", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT");
     setupDictionary(ID_STREET_NAME_PREFIX, "LAKE", "MT", "MOUNT", "SUNKEN");
     setupDictionary(ID_NOT_ADDRESS, "YOM", "YOF", "YO");
@@ -435,6 +443,7 @@ public abstract class SmartAddressParser extends MsgParser {
   private int startAddress = -1;
   private int lastCity = -1;
   private int startNdx = 0;
+//  private Result result = null;
   
   // Have to save last result for backward compatibility with some calls
   private Result lastResult = null;
@@ -500,8 +509,8 @@ public abstract class SmartAddressParser extends MsgParser {
    * @param data data object to be filled with information from parsed address field.
    */
   protected void parseAddress(StartType sType, int flags, String address, MsgInfo.Data data) {
-    Result result = parseAddress(sType, flags, address);
-    result.getData(data);
+    lastResult = parseAddress(sType, flags, address);
+    lastResult.getData(data);
   }
   
   
@@ -561,7 +570,6 @@ public abstract class SmartAddressParser extends MsgParser {
     this.flags = flags;
     lastCity = -1;
     Result result = new Result();
-    lastResult = result;
 
     // If we have a call dictionary, and address starts with a call, search
     // the dictionary to see if address line starts with matching call
@@ -1347,9 +1355,10 @@ public abstract class SmartAddressParser extends MsgParser {
     boolean parseToEnd = anchorEnd && ! isFlagSet(FLAG_CHECK_STATUS);
     boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
     boolean cityOnly = isFlagSet(FLAG_ONLY_CITY);
+    boolean nearToEnd = isFlagSet(FLAG_NEAR_TO_END);
 
     if (srcNdx >= tokens.length) return false;
-    if (!parseToEnd && lastCity < srcNdx) return false;
+    if (!parseToEnd && !nearToEnd && lastCity < srcNdx) return false;
     
     boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
     
@@ -1359,6 +1368,7 @@ public abstract class SmartAddressParser extends MsgParser {
     FieldSpec placeField = null;
     FieldSpec aptField = null;
     FieldSpec crossField = null;
+    FieldSpec nearField = null;
     boolean aptToken = false;
     
     FieldSpec startField = new FieldSpec(0);
@@ -1377,6 +1387,7 @@ public abstract class SmartAddressParser extends MsgParser {
             result.aptField = aptField;
           }
           if (crossField != null) result.crossField = crossField;
+          if (nearField != null) result.nearField = nearField;
           result.cityField = new FieldSpec(ndx, endCity);
           result.endAll = endCity;
           if (fldSpec != null) fldSpec.end(startField.fldEnd);
@@ -1433,12 +1444,20 @@ public abstract class SmartAddressParser extends MsgParser {
             lastField.end(ndx);
             lastField = crossField = new FieldSpec(ndx+1);
           }
+          
+          if (nearField == null && isType(ndx, ID_NEAR)) {
+            lastField.end(ndx);
+            lastField = nearField = new FieldSpec(ndx);
+          }
         }
       }
     }
     
     // If we are parsing to end of field, return successful status
-    if (parseToEnd) {
+    // If we are still processing a NEAR field and the FLAG_NEAR_TO_END
+    // flag was set, do likewise
+    if (parseToEnd ||
+        nearToEnd && nearField != null && nearField == lastField) {
       lastField.end(tokens.length);
       if (placeField != null) result.placeField = placeField;
       if (aptField != null) {
@@ -1446,6 +1465,7 @@ public abstract class SmartAddressParser extends MsgParser {
         result.aptToken = aptToken;
       }
       if (crossField != null) result.crossField = crossField;
+      if (nearField != null) result.nearField = nearField;
       result.endAll = tokens.length;
       if (fldSpec != null) fldSpec.end(startField.fldEnd);
       return true;
@@ -2137,8 +2157,10 @@ public abstract class SmartAddressParser extends MsgParser {
     private FieldSpec crossField = null;
     private FieldSpec padField = null;
     private FieldSpec cityField = null;
+    private FieldSpec nearField = null;
     private int insertAmp = -1;
     int endAll = -1;
+    private Result nearResult = null;
     
     public void reset() {
       if (startAddress < 0) startField.end(-1);
@@ -2222,6 +2244,47 @@ public abstract class SmartAddressParser extends MsgParser {
         }
         break;
       }
+      
+      // We do the NEAR field last, because it requires a lot of special treatment
+      if (nearField != null) {
+        
+        // If there is no cross street and the near field content looks like an
+        // address, stick it in the cross street.
+        // Otherwise append the full term to the place field
+        String field = buildData(nearField, 0);
+        String field2 = null;
+        int pt = field.indexOf(' ');
+        if (pt >= 0) field2 = field.substring(pt+1);
+        
+        boolean nearPlace = true;
+        if (field2 != null && data.strCross.length() == 0) {
+          
+          // If we found a city, the near field has a well defined end
+          // and we can just call checkAddress to see if the near field is
+          // an address or not
+          if (data.strCity.length() > 0) {
+            if (checkAddress(field2) > 0) {
+              data.strCross = field2;
+              nearPlace = false;
+            }
+          }
+          
+          // If there is no city, things get complicated.  This could only have
+          // happened if the FLAG_NEAR_TO_END flag was specified and we have
+          // to make another call to parseAddress to see how much of the
+          // near field looks like an address.  Whatever is left will be saved
+          // and returned by a call to our getLeft() method.
+          else {
+            Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field2);
+            if (res.getStatus() > 0) {
+              res.getData(data);
+              nearResult = res;
+              nearPlace = false;
+            }
+          }
+        }
+        if (nearPlace) data.strPlace = append(data.strPlace, " ", field); 
+      }
     }
     
     /**
@@ -2237,6 +2300,7 @@ public abstract class SmartAddressParser extends MsgParser {
      * @return the part of the line after the address
      */
     public String getLeft() {
+      if (nearResult != null) return nearResult.getLeft();
       if (endAll < 0) return "";
       return buildData(endAll, tokens.length, 0);
     }
