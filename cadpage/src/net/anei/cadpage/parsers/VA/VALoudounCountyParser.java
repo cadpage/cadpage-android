@@ -7,31 +7,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class VALoudounCountyParser extends MsgParser {
-
-  private static final Properties LCFRCityCodes = buildCodeTable(new String[]{
-        "CH", "Chantilly",
-        "LB", "Leesburg",
-        "AL", "Aldie",
-        "ST", "Sterling",
-        "MB", "Middleburg",
-        "AB", "Ashburn",
-        "SP", "Sterling",
-        "BL", "Bluemont",
-        "CE", "Centreville",
-        "HA", "Hamilton",
-        "LV", "Lovettsville",
-        "PA", "Paris",
-        "PV", "Purcellville",
-        "PS", "Paeonian",
-        "RH", "Round Hill",
-        "UP", "Upperville",
-        "FX19", "Fairfax",
-        "FX11", "Fairfax",
-        "FX", "Fairfax",
-        "FQ", "Faquier"});
   
   public VALoudounCountyParser() {
     super("LOUDOUN COUNTY", "VA");
+    setFieldList("CALL ADDR CITY APT X UNIT BOX MAP");
   }
 
   @Override
@@ -65,4 +44,26 @@ public class VALoudounCountyParser extends MsgParser {
     
     return true;
   }
+
+  private static final Properties LCFRCityCodes = buildCodeTable(new String[]{
+        "CH", "Chantilly",
+        "LB", "Leesburg",
+        "AL", "Aldie",
+        "ST", "Sterling",
+        "MB", "Middleburg",
+        "AB", "Ashburn",
+        "SP", "Sterling",
+        "BL", "Bluemont",
+        "CE", "Centreville",
+        "HA", "Hamilton",
+        "LV", "Lovettsville",
+        "PA", "Paris",
+        "PV", "Purcellville",
+        "PS", "Paeonian",
+        "RH", "Round Hill",
+        "UP", "Upperville",
+        "FX19", "Fairfax",
+        "FX11", "Fairfax",
+        "FX", "Fairfax",
+        "FQ", "Faquier"});
 }
