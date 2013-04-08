@@ -404,13 +404,13 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgPebffFgerrgf() {
-    qbGrfg(NQQE, "1000 FHAOHEL BAPR KF: NPEBFF GBJA XRAFOHET WHAX",
+    qbGrfg(NQQE, "1000 FHAOHEL BAPR KF: VA GBJA XRAFOHET WHAX",
         "NQQE:1000 FHAOHEL BAPR",
-        "K:NPEBFF GBJA",
+        "K:VA GBJA",
         "PVGL:XRAFOHET");
     qbGrfg(NQQE, "1000 FHAOHEL BAPR KF: NPEBFF GBJA XRA GBJA WHAX",
         "NQQE:1000 FHAOHEL BAPR",
-        "K:NPEBFF GBJA",
+        "CYNPR:NPEBFF GBJA",
         "PVGL:XRA GBJA");
     qbGrfg(FXVC, "JNVG GVYY 500 ABEGU YA K: WNPXFBA FG ORYBJ FHAQNAPR",
         "NQQE:500 ABEGU YA",
