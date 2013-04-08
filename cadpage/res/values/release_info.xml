@@ -1,42 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04012013</string>
-  <string name="release_version">v1.6.17</string>
+  <string name="release_date">04082013</string>
+  <string name="release_version">v1.6.18</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Dickinson County, IA\n
-Franklin County, GA\n
-Lafourche Parish, LA\n
-Edgecombe County, NC\n
-Columbiana County, OH\n
-Orangeburg County, SC\n
+Blount County, AL\n
+Lewis County, NY\n
+Waukesha County, WI\n
 \n
 Location Parsing Fixes:\n
-Yavapai County, AZ\n
-Windham County, CT\n
-Wilmington County, DE\n
-Collier County, FL\n
-Kankakee County, IL\n
-Hancock County, IN\n
-Wayne County, IN\n
-Charlevoix County, MI\n
-Hanover, NH\n
-Livingston County, NY\n
-Monroe County, NY\n
-Davie County, NC\n
-Polk County, NC\n
+Shelby County, AL\n
+Douglas County, CO\n
+Golden, CO\n
+Middlesex County, CT\n
+Tolland County, CT\n
+Tipton County, IN\n
+Duchess County, NY\n
+Guilford County, NC\n
+Watauga County, NC\n
+Cass County, ND\n
+Josephine County, OR\n
 Adams County, PA\n
-Armstrong County, PA\n
-Jefferson County, PA\n
-Charleston County, SC\n
-Cumberland County, TN\n
-Washington COunty, VA\n
+Mercer County, PA\n
+Anderson County, SC\n
+Humble, TX\n
+Carroll County, VA\n
+Natrona County, WY\n
 \n
 General Fixes:\n
-Problem handlling GPS coordinates outside of North America\n
-Force close handling badly formated page messages\n
+Cadpage no longer recognizing lifetime subscribers\n
+Cadpage overriding user screen orientation preference\n
   </string>  
 </resources>
   
