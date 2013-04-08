@@ -245,7 +245,7 @@ public class CallHistoryActivity extends ListActivity {
   @Override
   protected void onResume() { 
       super.onResume(); 
-      setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
+      setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
       activityActive = true; 
   } 
   

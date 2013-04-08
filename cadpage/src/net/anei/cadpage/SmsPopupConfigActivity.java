@@ -394,7 +394,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     boolean enabled = myPrefs.getBoolean(getString(R.string.pref_enabled_key), true);
     mEnabledPreference.setChecked(enabled);
     
-    setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
+    setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
     activityActive = true; 
 
   }
