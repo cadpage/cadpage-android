@@ -27,7 +27,7 @@ public class ORJosephineCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (! subject.equals("!")) return false;
     body = UNITS_PTN.matcher(body).replaceFirst("Units:");
-    return parseFields(body.split(": |\n"), 6, data);
+    return parseFields(body.split(": |\n"), data);
   }
   
   @Override
@@ -130,34 +130,4 @@ public class ORJosephineCountyParser extends FieldProgramParser {
   public String postAdjustMapAddress(String address) {
     return address.replace("JUMP0OFF", "JUMP OFF");
   }
-  
-  private static final String[] CITY_LIST = new String[]{
-    "CAVE JUNCTION",
-    "GRANTS PASS",
-    "DRYDEN",
-    "FRUITDALE",
-    "GALICE",
-    "GOLDEN",
-    "GREENBACK",
-    "HARBECK-FRUITDALE",
-    "HOLLAND",
-    "HUGO",
-    "KERBY",
-    "LELAND",
-    "MERLIN",
-    "MURPHY",
-    "NEW HOPE",
-    "OBRIEN",
-    "PLACER",
-    "PLEASANT VALLEY",
-    "REDWOOD",
-    "SELMA",
-    "SUNNY VALLEY",
-    "TAKILMA",
-    "WALDO",
-    "WILDERVILLE",
-    "WILLIAMS",
-    "WOLF CREEK",
-    "WONDER"
-  };
 }

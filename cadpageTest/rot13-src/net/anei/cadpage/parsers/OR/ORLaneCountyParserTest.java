@@ -116,6 +116,6 @@ choyvp pynff BEYnarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat netf[]) {
-    arj BEYnarPbhaglCnefreGrfg().trarengrGrfgf("G1", "FEP PNYY NQQE NCG PVGL ZNC CYNPR GVZR");
+    arj BEYnarPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
