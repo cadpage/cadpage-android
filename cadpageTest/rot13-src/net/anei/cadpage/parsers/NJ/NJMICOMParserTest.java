@@ -80,8 +80,8 @@ choyvp pynff AWZVPBZCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:F2",
         "VQ:10-0092818",
         "PVGL:SBEG YRR",
-        "NQQE:0 - 0 Oevqtr Cym A",
-        "ZNQQE:0 Oevqtr Cym A",
+        "NQQE:Oevqtr Cym A",
+        "ZNQQE:Oevqtr Cym A & YRZBVAR NIR",
         "CYNPR:JNYTERRAF",
         "K:YRZBVAR NIR/YRZBVAR NIR",
         "PNYY:Genhzngvp Vawhevrf");

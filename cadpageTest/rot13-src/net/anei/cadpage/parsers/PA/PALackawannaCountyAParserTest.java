@@ -111,7 +111,7 @@ choyvp pynff CNYnpxnjnaanPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G3",
         "(Qvfcngpu) Havg  Ybpngvba: 0 FPENAGBA PNEOBAQNYR UJL 20 Pbzzba Anzr: Pnyy Glcr: NPPV Pnyy Gvzr: 02/20/13 12:14 Angher bs Pnyy: zin vaw PSF Ahzore 883",
-        "NQQE:0 FPENAGBA PNEOBAQNYR UJL",
+        "NQQE:FPENAGBA PNEOBAQNYR UJL",
         "NCG:20",
         "PNYY:NPPV",
         "QNGR:02/20/13",
@@ -121,7 +121,7 @@ choyvp pynff CNYnpxnjnaanPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "(Qvfcngpu) Havg E21 21-9 21-8  Ybpngvba: 0 FPENAGBA PNEOBAQNYR UJL 33 Pbzzba Anzr: Pnyy Glcr: NPPV Pnyy Gvzr: 02/20/13 12:14 Angher bs Pnyy: zin vaw PSF Ahzore 883",
-        "NQQE:0 FPENAGBA PNEOBAQNYR UJL",
+        "NQQE:FPENAGBA PNEOBAQNYR UJL",
         "NCG:33",
         "PNYY:NPPV",
         "QNGR:02/20/13",

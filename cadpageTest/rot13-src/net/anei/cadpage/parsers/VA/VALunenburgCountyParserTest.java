@@ -298,7 +298,7 @@ choyvp pynff INYharaohetPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ISQF-G QHZCFGRE SVER 000000 ONVYRL EQ PSF# 2012-005849",
         "FEP:ISQF-G",
         "PNYY:QHZCFGRE SVER",
-        "NQQE:000000 ONVYRL EQ",
+        "NQQE:ONVYRL EQ",
         "VQ:2012-005849");
 
     qbGrfg("G32",
@@ -326,7 +326,7 @@ choyvp pynff INYharaohetPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "IEF-G SVER 000000 PBHEGUBHFR FD PSF# 2012-005862",
         "FEP:IEF-G",
         "PNYY:SVER",
-        "NQQE:000000 PBHEGUBHFR FD",
+        "NQQE:PBHEGUBHFR FD",
         "VQ:2012-005862");
 
     qbGrfg("G36",

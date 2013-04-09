@@ -282,7 +282,7 @@ choyvp pynff ZQUnesbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4417 GBYPURFGRE PG",
         "K:OEVFGBY SBERFG QE",
         "PVGL:ORYPNZC",
-        "CYNPR:CVAANPYR / / BC",
+        "CYNPR:CVAANPYR / BC",
         "ANZR:INARFFN",
         "OBK:402",
         "VQ:2012-0000153349");

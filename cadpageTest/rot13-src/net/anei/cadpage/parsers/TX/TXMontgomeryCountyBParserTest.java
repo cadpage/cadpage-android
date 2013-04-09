@@ -359,8 +359,8 @@ choyvp pynff GKZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:29Q05",
         "PNYY:Genssvp Vapvqrag",
         "ZNC:252R",
-        "NQQE:0 Vu45 Fo Pybireyrns Ynxr JbbqGUR JBBQYNAQF",
-        "ZNQQE:0 Vu45 Pybireyrns Ynxr JbbqGUR JBBQYNAQF",
+        "NQQE:Vu45 Fo Pybireyrns Ynxr JbbqGUR JBBQYNAQF",
+        "ZNQQE:Vu45 Pybireyrns Ynxr JbbqGUR JBBQYNAQF",
         "PVGL:77380");
 
     qbGrfg("G12",

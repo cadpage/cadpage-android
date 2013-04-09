@@ -471,8 +471,8 @@ choyvp pynff PBWrssrefbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G11",
         "(Snvezbhag Sver) Nqq:0 Jo V70/ng Ujl 58 (szg)      Glcr:NNU   CtT-15 Pebff:                                                                                Pnfr#:121920125936-000647",
         "FEP:Snvezbhag Sver",
-        "NQQE:0 Jo V70 & ng Ujl 58 (szg)",
-        "ZNQQE:0 V 70",
+        "NQQE:Jo V70 & ng Ujl 58 (szg)",
+        "ZNQQE:V 70 & ng Ujl 58",
         "PNYY:NNU",
         "ZNC:T-15",
         "VQ:121920125936-000647");
@@ -498,8 +498,8 @@ choyvp pynff PBWrssrefbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G14",
         "(Snvezbhag Sver) Nqq:0 Ro V70/ng Jneq Eq (szg)     Glcr:NNU   CtT-15 Pebff:                                                                                Pnfr#:121720125936-000644",
         "FEP:Snvezbhag Sver",
-        "NQQE:0 Ro V70 & ng Jneq Eq (szg)",
-        "ZNQQE:0 V 70",
+        "NQQE:Ro V70 & ng Jneq Eq (szg)",
+        "ZNQQE:V 70 & ng Jneq Eq",
         "PNYY:NNU",
         "ZNC:T-15",
         "VQ:121720125936-000644");

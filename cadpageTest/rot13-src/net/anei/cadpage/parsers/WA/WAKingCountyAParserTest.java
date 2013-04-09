@@ -160,7 +160,7 @@ choyvp pynff JNXvatPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G16",
         "0 Asq 65 Eq                                       #          Fzbxr - Unmr Va Gur Nern      R295      E295,R295",
-        "NQQE:0 Asq 65 Eq",
+        "NQQE:Asq 65 Eq",
         "PNYY:Fzbxr - Unmr Va Gur Nern",
         "HAVG:E295,R295");
 

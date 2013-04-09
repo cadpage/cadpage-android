@@ -326,7 +326,7 @@ choyvp pynff APZrpxyraohetPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G3",
         "639 Yvtugfcha Ya pzcq23// z bq hax fhofgnapr Puneyvr 23- Bireqbfr/Vatrfgvba/Cbvfba Ovt Evire Eq/Fgbaruratr Ya YBAE4 Znc - 322322/N4 10082012-048\e\a",
         "NQQE:639 Yvtugfcha Ya",
-        "VASB:pzcq23 / / z bq hax fhofgnapr",
+        "VASB:pzcq23 / z bq hax fhofgnapr",
         "CEV:P",
         "PBQR:23",
         "PNYY:Bireqbfr/Vatrfgvba/Cbvfba Ovt",
