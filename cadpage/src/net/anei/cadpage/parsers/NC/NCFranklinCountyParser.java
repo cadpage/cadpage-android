@@ -30,5 +30,5 @@ public class NCFranklinCountyParser extends DispatchSouthernParser {
     "WAKE FOREST", 
     "YOUNGSVILLE"
     
-     };
+   };
 }

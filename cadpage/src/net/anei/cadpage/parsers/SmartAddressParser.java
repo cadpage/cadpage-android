@@ -570,6 +570,7 @@ public abstract class SmartAddressParser extends MsgParser {
     this.flags = flags;
     lastCity = -1;
     Result result = new Result();
+    boolean onlyCity = isFlagSet(FLAG_ONLY_CITY);
 
     // If we have a call dictionary, and address starts with a call, search
     // the dictionary to see if address line starts with matching call
@@ -610,7 +611,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // Another disaster that needs to be prevented is breaking up AT&T into
       // AT and an &
       // Ditto for 1/2
-      address = stripLeadingZero(address);
+      if (!onlyCity) address = stripLeadingZero(address);
       boolean att = address.contains("AT&T");
       if (att) address = address.replaceAll("AT&T", "AT%T");
       boolean half = address.contains("1/2");
@@ -637,7 +638,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // If we are looking for a city and nothing else, parseToCity can find it
     // If the city has to start and end the field, check that that start index is zero
-    if (isFlagSet(FLAG_ONLY_CITY) && ! isFlagSet(FLAG_ONLY_CROSS)) {
+    if (onlyCity && ! isFlagSet(FLAG_ONLY_CROSS)) {
       if (parseStartToCity(0, result)) {
         if (sType != StartType.START_ADDR || result.cityField.fldStart == 0) {
           result.status = 4;
