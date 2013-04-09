@@ -259,7 +259,7 @@ choyvp pynff BEWbfrcuvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "P/O \a" +
         "ERS: 143336848\a" +
         "CU: 541-592-3704\a" +
-        "JVSR BF: ZVPURYYR  NAQ W..\\3f\a\a",
+        "JVSR BF: ZVPURYYR  NAQ W..   \a\a",
 
         "GVZR:02:24:54",
         "PNYY:Yvsg Nffvfg",
@@ -268,7 +268,7 @@ choyvp pynff BEWbfrcuvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Pnir Whapgvba",
         "K:J EVIRE FG / QRNQ RAQ",
         "HAVG:8931, 8951, 8953",
-        "VASB:AB VAWHERQ 79LBZ P/O ERS 143336848 CU 541-592-3704 JVSR BF ZVPURYYR  NAQ W..\\3f");
+        "VASB:AB VAWHERQ 79LBZ P/O ERS 143336848 CU 541-592-3704 JVSR BF ZVPURYYR  NAQ W..");
 
     qbGrfg("G5",
         "F:!  Z:3/23/2013 1:20:30 CZ  GN2 - Genssvp Nppvqrag Ynar Oy \a" +
@@ -277,7 +277,7 @@ choyvp pynff BEWbfrcuvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "UNF ABG GNYXRQ GB NAL QEVIREF\a" +
         "VA GUR QVGPU\a" +
         "SHYY FVMR INA JUVGR \a" +
-        "ABG NOYR GB FRR..\\3f\a\a",
+        "ABG NOYR GB FRR..   \a\a",
 
         "GVZR:13:20:30",
         "PNYY:GN2 - Genssvp Nppvqrag Ynar Oy",
@@ -285,7 +285,7 @@ choyvp pynff BEWbfrcuvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Fryzn",
         "K:QENCRE INYYRL EQ / PYRNE PERRX EQ",
         "HAVG:8932, 8900",
-        "VASB:UNF ABG GNYXRQ GB NAL QEVIREF VA GUR QVGPU SHYY FVMR INA JUVGR ABG NOYR GB FRR..\\3f");
+        "VASB:UNF ABG GNYXRQ GB NAL QEVIREF VA GUR QVGPU SHYY FVMR INA JUVGR ABG NOYR GB FRR..");
 
     qbGrfg("G6",
         "F:!  Z:3/24/2013 5:31:07 NZ  PU1 - Purfg Cnva/Urneg Ceboyrz \a" +

@@ -1,12 +1,16 @@
 package net.anei.cadpage.parsers.SD;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class SDUnionCountyParser extends FieldProgramParser {
+  
+  private static final Pattern SUBJECT_MARKER = Pattern.compile("^(?:\\(\\d+\\) +)?J:");
   
   public SDUnionCountyParser() {
     super(CITY_LIST, "UNION COUNTY", "SD",
@@ -20,8 +24,15 @@ public class SDUnionCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.startsWith("J:")) return false;
-    return super.parseFields(body.split("/"), 5, data);
+    if (!SUBJECT_MARKER.matcher(subject).find()) return false;
+    if (!super.parseFields(body.split("/"), 5, data)) return false;
+    if (data.strCity.equals("SIOUX CITY")) data.strState = "IA";
+    return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("CITY", "CITY ST");
   }
   
   private class MyCallField extends CallField {
@@ -39,6 +50,7 @@ public class SDUnionCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern SRC_CODE_PTN = Pattern.compile("([A-Z]+)\\d+");
   private class MySourceField extends SourceField {
     @Override
     public boolean canFail() {
@@ -47,7 +59,9 @@ public class SDUnionCountyParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      String city = STATION_CODES.getProperty(field);
+      Matcher match = SRC_CODE_PTN.matcher(field);
+      if (!match.matches()) return false;
+      String city = STATION_CODES.getProperty(match.group(1));
       if (city == null) return false;
       data.strSource = field;
       if (data.strCity.length() == 0) data.strCity = city;
@@ -79,11 +93,14 @@ public class SDUnionCountyParser extends FieldProgramParser {
     "NORA",
     "NORTH SIOUX",
     "RICHLAND",
-    "SPINK"
+    "SPINK",
+    
+    "SOUIX CITY"
   };
   
   private static final Properties STATION_CODES = buildCodeTable(new String[]{
-      "DDUNES", "DAKOTA DUNES",
-      "NSIOUX", "NORTH SIOUX"
+      "DDUNES",   "DAKOTA DUNES",
+      "NSIOUX",   "NORTH SIOUX",
+      "SCFD",     "SIOUX CITY"
   });
 }
