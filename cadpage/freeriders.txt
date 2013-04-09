@@ -2037,7 +2037,7 @@ chad solaas <blackhillstools@gmail.com> // market problem email change
 Robert Miller (robmiller2111@gmail.com) (mnr711@verizon.net) // PayPal
 Philip Johnson (Badge145@gmail.com) (Paj145@yahoo.com) // PayPal
 Dave Hawkins (dhawkins1607@gmail.com) // paid by check
-robert petrie (petriejeep@yahoo.com) // PayPal
+Robert Petrie <petriejeep@gmail.com> (petriejeep@yahoo.com) // PayPal
 %%01/31/2013
 charles horan (choran3115@gmail.com) (cmhoran@comcast.net) // Paypal
 Chad Parlier <cparlier41@gmail.com> // market problem email change
@@ -2127,6 +2127,9 @@ Bill Holstein (wahchief505@gmail.com) <waholstein@yahoo.com> // Shoshone County,
 %%04/01/2013
 Bill Kriedler (kriedler22@gmail.com) (mkriedler@comcast.net) // PayPal
 Randy Hall (nightrh@gmail.com) <nightrh@att.net> (leetoniafd@hotmail.com) // Columbiana County, OH
+%%04/08/2013
+Blake Isbell (bwi7735@gmail.com) // PayPal
+
 
 // *** Insert Paid Users here ***
 // List of users getting credit or paid for 2014
@@ -4710,5 +4713,13 @@ Shane Ruby <shaneruby01@gmail.com>
 Bobby Liles <bliles72@gmail.com>
 aaron cheadle <ajaycheadle@gmail.com>
 (hummel6514@gmail.com) <hummel6514@live.com>
+%%04/08/2013
+damien king <dpking32@gmail.com>
+raleigh porter (rporter131968@gmail.com) <rjporter68@hotmail.com>
+Shawn Leonard <leonards018@gmail.com>
+Colby Butts <afd210.cb@gmail.com>
+
+
+
 
 

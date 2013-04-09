@@ -52,7 +52,7 @@ public class NCPittCountyParser extends FieldProgramParser {
     
     if (!parseFields(body.split("\\|"), data)) return false;
     
-    if (data.strAddress.length() == 0 || data.strAddress.equals("0") || data.strAddress.startsWith("0 ")) {
+    if (data.strAddress.length() == 0) {
       data.strAddress = "";
       parseAddress(StartType.START_ADDR, data.strSupp, data);
       data.strSupp = getLeft();
@@ -84,11 +84,20 @@ public class NCPittCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("0") || field.startsWith("0 ")) field = "";
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d", true);
     if (name.equals("SAME")) return new SkipField("SAME", true);
     if (name.equals("X")) return new MyCrossField();
+    if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
 }

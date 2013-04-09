@@ -839,6 +839,7 @@ public abstract class MsgParser {
  private static final Pattern INTERSECT = Pattern.compile("/|&");
  private static final Pattern APT = Pattern.compile("((?:\\bAPTS|\\bAPT(?!S)|\\bUNIT|\\bSUITE|\\bROOM|\\bSTE|\\bRM|\\bFLOOR|\\bFLR|\\bLOT)(?![A-Z])|#APT|#)[ #\\.]*(.+)$",Pattern.CASE_INSENSITIVE);
  private static final Pattern DOT = Pattern.compile("\\.(?!\\d)");
+ private static final Pattern DOUBLE_SLASH = Pattern.compile("//+");
  private static void parseAddress(String addressLine, MsgInfo.Data data, 
                                      boolean parseCity) {
    addressLine = addressLine.trim();
@@ -846,6 +847,9 @@ public abstract class MsgParser {
    // Periods used with abbreviations also cause trouble.  Just get rid of all periods
    // except those followed by a digit which are presumed to be decimal points
    addressLine = DOT.matcher(addressLine).replaceAll("");
+   
+   addressLine = stripLeadingZero(addressLine);
+   addressLine = DOUBLE_SLASH.matcher(addressLine).replaceAll("/");
    
    // Pick off trailing apartment
    Matcher match = APT.matcher(addressLine);
@@ -871,6 +875,11 @@ public abstract class MsgParser {
    data.strAddress = data.strAddress.replace("1%2", "1/2");
  }
   
+  protected static String stripLeadingZero(String addressLine) {
+    return LEAD_ZERO_PTN.matcher(addressLine).replaceFirst("");
+  }
+  private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^[-0 ]+( |$)");
+
   /**
    * Set formated date/time field
    * @param dateFmt Date format to be used to parse date/time string

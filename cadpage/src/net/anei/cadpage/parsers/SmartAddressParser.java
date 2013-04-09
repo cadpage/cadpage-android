@@ -610,11 +610,12 @@ public abstract class SmartAddressParser extends MsgParser {
       // Another disaster that needs to be prevented is breaking up AT&T into
       // AT and an &
       // Ditto for 1/2
+      address = stripLeadingZero(address);
       boolean att = address.contains("AT&T");
       if (att) address = address.replaceAll("AT&T", "AT%T");
       boolean half = address.contains("1/2");
       if (half) address = address.replaceAll("1/2", "1%2");
-      address = address.replaceAll(" C/S:? ", " XS: ").replace("/", " / ").replace("&", " & ").trim();
+      address = address.replaceAll(" C/S:? ", " XS: ").replaceAll("/+", " / ").replace("&", " & ").trim();
       if (att) address = address.replaceAll("AT%T", "AT&T");
       if (half) address = address.replaceAll("1%2", "1/2");
       
