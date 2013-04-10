@@ -11,6 +11,7 @@ public class ALHenryCountyParser extends SmartAddressParser {
 
   public ALHenryCountyParser() {
     super("HENRY COUNTY", "AL");
+    setFieldList("CALL ADDR CITY INFO");
     
     
   }
