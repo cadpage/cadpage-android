@@ -88,6 +88,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "MERC", "MERCER",
       "PINE", "PINE",
       "SLAK", "SANDY LAKE",
+      "SLTP", "SANDY LAKE TWP",
       "SPRG", "SPRINGFIELD",
       "STON", "STONEBORO"
   });
