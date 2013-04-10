@@ -19,6 +19,9 @@ Fraqre: xragpragre@fgngr.qr.hf
 (Evc naq Eha Ercbeg) Evc naq Eha Ercbeg\e\a\e\a~\e\aYbpngvba Vasbezngvba:\e\a\e\aYbpngvba:~68~FVCCYR~EQ~\e\aIrahr:~Qbire\e\aPebff Fgerrgf~\e\aAb Pebff Fgerrgf Sbhaq\e\aFgngvba:~Fgngvba 53\e\aDhnqenag:~53O\e\aQvfgevpg:~53O\e\a~\e\aPnyy Vasbezngvba:\e\a\e\aPnyy Ahzore:~1208\e\aPnyy Glcr:~ Fgehpgher-Erfvqragvny Fvatyr\e\aFbhepr:~911\e\aCevbevgl:~ 2\e\aFgnghf:~Va Cebterff\e\aPnyyre:~ANZR,~AB\e\aPnyy Qngr/Gvzr:~11/01/2012 21:32:34\e\aQvfcngpu Qngr/Gvzr:~11/01/2012 21:34:35\e\aNeevir Qngr/Gvzr:~\e\aPyrne Qngr/Gvzr:~\e\aRaebhgr Qngr/Gvzr:~\e\aYngrfg Havg Pyrnerq Qngr/Gvzr:~\e\a~\e\aVapvqrag Ahzore(f)\e\a2012-00021320~~Xrag Pbhagl Qrcnegzrag bs Choyvp Fnsrgl\e\a2012-00530097~~Yrvcfvp Sver Pbzcnal\e\a2012-00540267~~Yvggyr Perrx Sver Pbzcnal\e\a~\e\aHavgf Frag:~9\e\aC54S, C53S, 537, 536, 535, 532, E54, 545, 542~\e\a\e\aNyregf:\e\a~\e\aYbpngvba Nyregf\e\a\e\aCrefba Nyregf\e\a\e\aIruvpyr Nyregf\e\a~~\e\aAneengvir:\e\a\e\aAneengvir Gvzr~Aneengvir\e\a11/01/12 21:32:58~VA GUR N/B\e\a11/01/12 21:33:32~Arj CebDN Sver Pnfr Ahzore unf orra nffvtarq: -661138\e\a11/01/12 21:34:28~Fgehpgher Sver.  Erfvqragvny (fvatyr).Pnyyre Fgngrzrag: ANGHER HAXABJA.  1.Gur pnyyre vf abg ba fprar.  2.Obgu fzbxr naq synzrf ner ivfvoyr.  3.Gur vapvqrag vaibyirf n fvatyr-snzvyl erfvqragvny fgehpgher.  4.Vg vf abg xabja ubj znal yriryf be fgbevrf gurer ner.  5.Gur pnyyre unf abg vaqvpngrq gung gurer ner genccrq crefba(f).\e\a11/01/12 21:34:28~CebDN Sver Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 69; Qvfcngpu Yriry: 69Q06; Erfcbafr Grkg: n\e\a\e\a
 (Evc naq Eha Ercbeg) Evc naq Eha Ercbeg\e\a\e\a~\e\aYbpngvba Vasbezngvba:\e\a\e\aYbpngvba:~~ONLFVQR~QE/~CREFVZZBA GERR~YA\e\aIrahr:~Qbire\e\aPebff Fgerrgf~\e\aCubar:~632-7238\e\aFgngvba:~Fgngvba 53\e\aDhnqenag:~53O\e\aQvfgevpg:~53O\e\a~\e\aPnyy Vasbezngvba:\e\a\e\aPnyy Ahzore:~268\e\aPnyy Glcr:~ 29Q2F ZIP - Fvaxvat Iruvpyr\e\aFbhepr:~911\e\aCevbevgl:~ 2\e\aFgnghf:~Va Cebterff\e\aPnyyre:~YBUNZA,~PNEYBF\e\aPnyy Qngr/Gvzr:~10/29/2012 23:02:45\e\aQvfcngpu Qngr/Gvzr:~10/29/2012 23:05:34\e\aNeevir Qngr/Gvzr:~\e\aPyrne Qngr/Gvzr:~\e\aRaebhgr Qngr/Gvzr:~\e\aYngrfg Havg Pyrnerq Qngr/Gvzr:~\e\a~\e\aVapvqrag Ahzore(f)\e\a2012-00021116~~Xrag Pbhagl Qrcnegzrag bs Choyvp Fnsrgl\e\a2012-06709754~~Xrag Pbhagl Rzretrapl Zrqvpny Freivprf\e\a2012-00530095~~Yrvcfvp Sver Pbzcnal\e\a2012-00830243~~Yrvcfvp Sver Pbzcnal RZF\e\a~\e\aHavgf Frag:~5\e\aXZ7N, C53S, O53, 536, 532~\e\a\e\aNyregf:\e\a~\e\aYbpngvba Nyregf\e\a\e\aCrefba Nyregf\e\a\e\aIruvpyr Nyregf\e\a~~\e\aAneengvir:\e\a\e\aAneengvir Gvzr~Aneengvir\e\a10/29/12 23:04:38~Lbh ner erfcbaqvat gb cngvragf vaibyirq va n genssvp vapvqrag.  (Vs xabja -- erynl  cregvarag cngvrag-fcrpvsvp vasbezngvba.) UVTU ZRPUNAVFZ (x guebhtu f)  (Fvaxvat iruvpyr).  Haxabja ahzore bs cngvragf vaibyirq.  UVTU ZRPUNAVFZ (x guebhtu f)  (Fvaxvat iruvpyr).  1.Gur vapvqrag vaibyirf n fvaxvat iruvpyr.\e\a10/29/12 23:04:38~CebDN Zrqvpny Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 29; Qvfcngpu Yriry: 29Q02; Qvfcngpu Yriry Fhssvk: f; Erfcbafr Grkg: OYF, NYF, NIVNGVBA\e\a10/29/12 23:04:38~Ceboyrz: Fvaxvat iruvpyr -- Pnyyre vafvqr.  Cngvrag Vasb: Haxabja ahzore bs cngvragf; Haxabja Enatr byq; Haxabja; Pbafpvbhf: Lrf; Oernguvat: Lrf;\e\a\e\a
 (Evc naq Eha Ercbeg) Evc naq Eha Ercbeg\e\a\e\a~\e\aYbpngvba Vasbezngvba:\e\a\e\aYbpngvba:~30~GRKNF~YA~\e\aIrahr:~Qbire\e\aPebff Fgerrgf~\e\aZNVA FG / FNINAANU EQ\e\aCubar:~(800) 932-3822\e\aFgngvba:~Fgngvba 53\e\aDhnqenag:~53O\e\aQvfgevpg:~53O\e\a~\e\aPnyy Vasbezngvba:\e\a\e\aPnyy Ahzore:~190\e\aPnyy Glcr:~ Nynezf-Erfvqragvny (fvatyr)\e\aFbhepr:~Gryrcubar ( Aba - 911)\e\aCevbevgl:~ 4\e\aFgnghf:~Va Cebterff\e\aPnyyre:~PZU,~NQINAGRPU\e\aPnyy Qngr/Gvzr:~10/29/2012 18:04:25\e\aQvfcngpu Qngr/Gvzr:~10/29/2012 18:07:57\e\aNeevir Qngr/Gvzr:~\e\aPyrne Qngr/Gvzr:~\e\aRaebhgr Qngr/Gvzr:~\e\aYngrfg Havg Pyrnerq Qngr/Gvzr:~\e\a~\e\aVapvqrag Ahzore(f)\e\a2012-00021081~~Xrag Pbhagl Qrcnegzrag bs Choyvp Fnsrgl\e\a2012-00530093~~Yrvcfvp Sver Pbzcnal\e\a2012-00540260~~Yvggyr Perrx Sver Pbzcnal\e\a~\e\aHavgf Frag:~9\e\aC54S, C53S, 537, 536, 535, 532, E54, 545, 544~\e\a\e\aNyregf:\e\a~\e\aYbpngvba Nyregf\e\a\e\aCrefba Nyregf\e\a\e\aIruvpyr Nyregf\e\a~~\e\aAneengvir:\e\a\e\aAneengvir Gvzr~Aneengvir\e\a10/29/12 18:05:55~NSN FZBXR QRPG ONFRZRAG\e\a10/29/12 18:06:02~CebDN Zrqvpny Dhrfgvbaanver Nobegrq - 8. Aba-zrqvpny pnyy\e\a10/29/12 18:06:07~Arj CebDN Sver Pnfr Ahzore unf orra nffvtarq: -660120\e\a10/29/12 18:07:23~Nynezf.  Erfvqragvny (fvatyr)  (Fzbxr qrgrpgbe).Pnyyre Fgngrzrag: ONFRZRAG FZBXR QRPG.  1.Gur pnyyre vf na nynez zbavgbevat pbzcnal.  2.Vg vf n fzbxr qrgrpgbe nynez.  3.Gur vapvqrag vaibyirf n fvatyr-snzvyl erfvqragvny fgehpgher.  4.Gur anzr bs gur ohfvarff/erfvqrag/bjare vf: Y.PNEERL  5.Gur nern be mbar npgvingrq vf: ONFRZRAG/MBAR 1  6.Gur cubar ahzore bs gur ohfvarff/erfvqrag/bjare vf: 3027304042-Pbzzragf: Y.PNEERL--Pbzzragf: ONFRZRAG/MBAR 1--Pbzzragf: 3027304042-\e\a10/29/12 18:07:23~CebDN Sver Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 52; Qvfcngpu Yriry: 52O01; Qvfcngpu Yriry Fhssvk: F; Erfcbafr Grkg: b\e\a10/29/12 18:07:37~Nynezf.  Erfvqragvny (fvatyr)  (Fzbxr qrgrpgbe).Pnyyre Fgngrzrag: ONFRZRAG FZBXR QRPG.  1.Gur pnyyre vf na nynez zbavgbevat pbzcnal.  2.Vg vf n fzbxr qrgrpgbe nynez.  3.Gur vapvqrag vaibyirf n fvatyr-snzvyl erfvqragvny fgehpgher.  4.Gur anzr bs gur ohfvarff/erfvqrag/bjare vf: Y.PNEERL  5.Gur nern be mbar npgvingrq vf: ONFRZRAG/MBAR 1  6.Gur cubar ahzore bs gur ohfvarff/erfvqrag/bjare vf: 3027304042-Pbzzragf: Y.PNEERL--Pbzzragf: ONFRZRAG/MBAR 1--Pbzzragf: 3027304042-\e\a10/29/12 18:07:37~CebDN Sver Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 52; Qvfcngpu Yriry: 52O01; Qvfcngpu Yriry Fhssvk: F; Erfcbafr Grkg: b\e\a\e\a
+
+(Evc naq Eha Ercbeg) Evc naq Eha Ercbeg\a\a~\aYbpngvba Vasbezngvba:\a\aYbpngvba:~3034~F ~QHCBAG~OYIQ~\aNqqvgvbany Ybpngvba Vasbezngvba:SYE TEQ\aPbzzba Anzr:~ CVAANPYR URNYGU NAQ ERUNO PGE\aIrahr:~Fzlean\aPebff Fgerrgf~\aHAXABJA / IVYYNTR QE\aCubar:~(302) 653-5085\aFgngvba:~Fgngvba 44\aDhnqenag:~44S\aQvfgevpg:~44N (64 RZF)\a~\aPnyy Vasbezngvba:\a\aPnyy Ahzore:~4277\aPnyy Glcr:~ 33P2G Genafsre/Vagresnpvyvgl\aFbhepr:~911\aCevbevgl:~ 3\aFgnghf:~Va Cebterff\aPnyyre:~CEVPR,~PVPVYVN\aPnyy Qngr/Gvzr:~04/08/2013 12:00:20\aQvfcngpu Qngr/Gvzr:~04/08/2013 12:02:10\aNeevir Qngr/Gvzr:~\aPyrne Qngr/Gvzr:~\aRaebhgr Qngr/Gvzr:~\aYngrfg Havg Pyrnerq Qngr/Gvzr:~\a~\aVapvqrag Ahzore(f)\a2013-06702948~~Xrag Pbhagl Rzretrapl Zrqvpny Freivprf\a2013-00640798~~Fzlean Nzrevpvna Yrtvba Nzohynapr\a~\aHavgf Frag:~2\aXZ6N, N64~\a\aNyregf:\a~\aYbpngvba Nyregf\a\aCrefba Nyregf\a\aIruvpyr Nyregf\a~~\aAneengvir:\a\aAneengvir Gvzr~Aneengvir\a04/08/13 12:00:20~R911 Vasb - Pynff bs Freivpr: OHF Fcrpvny Erfcbafr Vasb: CBYVPR:   FGNGR CBYVPR        SVER:     FGNGVBA 44          ZRQVPNY:\a04/08/13 12:00:34~FVREEN EZ 130 O\a04/08/13 12:01:58~Ceboyrz: YBJ FNG .  Cngvrag Vasb: 1 cngvrag(f); 66 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;\a04/08/13 12:01:58~CebDN Zrqvpny Qvfcngpu Zrffntr Frag; Qvfcngpu Pbqr: 33-P-02G\a04/08/13 12:01:58~Lbh ner erfcbaqvat gb n cngvrag genafsre be zrqvpny pner snpvyvgl fvghngvba.  Gur cngvrag vf n 66-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat.  Noabezny oernguvat (nphgr bafrg)  (Genafsre).  1.Guvf pnyy vf n erfhyg bs na rinyhngvba ol n ahefr be qbpgbe.  2.Guvf vf n genafsre/vagresnpvyvgl pnfr.  3.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Fur vf abg oernguvat abeznyyl.  5.Guvf vf n fhqqra be harkcrpgrq punatr va ure pbaqvgvba.  6.Fur qbrf abg unir fvtavsvpnag oyrrqvat be flzcgbzf bs fubpx.  7.Fur vf abg va frirer cnva.  8.Fcrpvny rdhvczrag vf abg arprffnel.  9.Nqqvgvbany crefbaary jvyy abg or arrqrq.\a04/08/13 12:02:04~CebDN Zrqvpny Xrl Dhrfgvbaf unir orra pbzcyrgrq; Qvfcngpu Pbqr: 33-P-02G\a04/08/13 12:02:04~10.ZQ/EA anzrf naq snpvyvgl ahzoref (nf nccyvpnoyr) unir orra bognvarq bhgfvqr bs CebDN.\a04/08/13 12:02:04~Ceboyrz: YBJ FNG .  Cngvrag Vasb: 1 cngvrag(f); 66 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;\a\a\a
+
  */
 
 choyvp pynff QRXragPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -534,6 +537,60 @@ choyvp pynff QRXragPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:18:07:57",
         "HAVG:C54S, C53S, 537, 536, 535, 532, E54, 545, 544",
         "VASB:NSN FZBXR QRPG ONFRZRAG / CebDN Zrqvpny Dhrfgvbaanver Nobegrq - 8. Aba-zrqvpny pnyy / Arj CebDN Sver Pnfr Ahzore unf orra nffvtarq: -660120 / Nynezf.  Erfvqragvny (fvatyr)  (Fzbxr qrgrpgbe).Pnyyre Fgngrzrag: ONFRZRAG FZBXR QRPG.  1.Gur pnyyre vf na nynez zbavgbevat pbzcnal.  2.Vg vf n fzbxr qrgrpgbe nynez.  3.Gur vapvqrag vaibyirf n fvatyr-snzvyl erfvqragvny fgehpgher.  4.Gur anzr bs gur ohfvarff/erfvqrag/bjare vf: Y.PNEERL  5.Gur nern be mbar npgvingrq vf: ONFRZRAG/MBAR 1  6.Gur cubar ahzore bs gur ohfvarff/erfvqrag/bjare vf: 3027304042-Pbzzragf: Y.PNEERL--Pbzzragf: ONFRZRAG/MBAR 1--Pbzzragf: 3027304042- / CebDN Sver Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 52; Qvfcngpu Yriry: 52O01; Qvfcngpu Yriry Fhssvk: F; Erfcbafr Grkg: b / Nynezf.  Erfvqragvny (fvatyr)  (Fzbxr qrgrpgbe).Pnyyre Fgngrzrag: ONFRZRAG FZBXR QRPG.  1.Gur pnyyre vf na nynez zbavgbevat pbzcnal.  2.Vg vf n fzbxr qrgrpgbe nynez.  3.Gur vapvqrag vaibyirf n fvatyr-snzvyl erfvqragvny fgehpgher.  4.Gur anzr bs gur ohfvarff/erfvqrag/bjare vf: Y.PNEERL  5.Gur nern be mbar npgvingrq vf: ONFRZRAG/MBAR 1  6.Gur cubar ahzore bs gur ohfvarff/erfvqrag/bjare vf: 3027304042-Pbzzragf: Y.PNEERL--Pbzzragf: ONFRZRAG/MBAR 1--Pbzzragf: 3027304042- / CebDN Sver Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 52; Qvfcngpu Yriry: 52O01; Qvfcngpu Yriry Fhssvk: F; Erfcbafr Grkg: b");
+
+    qbGrfg("G8",
+        "(Evc naq Eha Ercbeg) Evc naq Eha Ercbeg\a\a" +
+        "~\a" +
+        "Ybpngvba Vasbezngvba:\a\a" +
+        "Ybpngvba:~3034~F ~QHCBAG~OYIQ~\a" +
+        "Nqqvgvbany Ybpngvba Vasbezngvba:SYE TEQ\a" +
+        "Pbzzba Anzr:~ CVAANPYR URNYGU NAQ ERUNO PGE\a" +
+        "Irahr:~Fzlean\a" +
+        "Pebff Fgerrgf~\a" +
+        "HAXABJA / IVYYNTR QE\a" +
+        "Cubar:~(302) 653-5085\a" +
+        "Fgngvba:~Fgngvba 44\a" +
+        "Dhnqenag:~44S\a" +
+        "Qvfgevpg:~44N (64 RZF)\a" +
+        "~\a" +
+        "Pnyy Vasbezngvba:\a\a" +
+        "Pnyy Ahzore:~4277\a" +
+        "Pnyy Glcr:~ 33P2G Genafsre/Vagresnpvyvgl\a" +
+        "Fbhepr:~911\a" +
+        "Cevbevgl:~ 3\a" +
+        "Fgnghf:~Va Cebterff\a" +
+        "Pnyyre:~CEVPR,~PVPVYVN\a" +
+        "Pnyy Qngr/Gvzr:~04/08/2013 12:00:20\a" +
+        "Qvfcngpu Qngr/Gvzr:~04/08/2013 12:02:10\a" +
+        "Neevir Qngr/Gvzr:~\a" +
+        "Pyrne Qngr/Gvzr:~\a" +
+        "Raebhgr Qngr/Gvzr:~\a" +
+        "Yngrfg Havg Pyrnerq Qngr/Gvzr:~\a" +
+        "~\a" +
+        "Vapvqrag Ahzore(f)\a" +
+        "2013-06702948~~Xrag Pbhagl Rzretrapl Zrqvpny Freivprf\a" +
+        "2013-00640798~~Fzlean Nzrevpvna Yrtvba Nzohynapr\a" +
+        "~\a" +
+        "Havgf Frag:~2\a" +
+        "XZ6N, N64~\a\a" +
+        "Nyregf:\a" +
+        "~\a" +
+        "Ybpngvba Nyregf\a\a" +
+        "Crefba Nyregf\a\a" +
+        "Iruvpyr Nyregf\a" +
+        "~~\a" +
+        "Aneengvir:\a\a" +
+        "Aneengvir Gvzr~Aneengvir\a" +
+        "04/08/13 12:00:20~R911 Vasb - Pynff bs Freivpr: OHF Fcrpvny Erfcbafr Vasb: CBYVPR:   FGNGR CBYVPR        SVER:     FGNGVBA 44          ZRQVPNY:\a" +
+        "04/08/13 12:00:34~FVREEN EZ 130 O\a" +
+        "04/08/13 12:01:58~Ceboyrz: YBJ FNG .  Cngvrag Vasb: 1 cngvrag(f); 66 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;\a" +
+        "04/08/13 12:01:58~CebDN Zrqvpny Qvfcngpu Zrffntr Frag; Qvfcngpu Pbqr: 33-P-02G\a" +
+        "04/08/13 12:01:58~Lbh ner erfcbaqvat gb n cngvrag genafsre be zrqvpny pner snpvyvgl fvghngvba.  Gur cngvrag vf n 66-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat.  Noabezny oernguvat (nphgr bafrg)  (Genafsre).  1.Guvf pnyy vf n erfhyg bs na rinyhngvba ol n ahefr be qbpgbe.  2.Guvf vf n genafsre/vagresnpvyvgl pnfr.  3.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Fur vf abg oernguvat abeznyyl.  5.Guvf vf n fhqqra be harkcrpgrq punatr va ure pbaqvgvba.  6.Fur qbrf abg unir fvtavsvpnag oyrrqvat be flzcgbzf bs fubpx.  7.Fur vf abg va frirer cnva.  8.Fcrpvny rdhvczrag vf abg arprffnel.  9.Nqqvgvbany crefbaary jvyy abg or arrqrq.\a" +
+        "04/08/13 12:02:04~CebDN Zrqvpny Xrl Dhrfgvbaf unir orra pbzcyrgrq; Qvfcngpu Pbqr: 33-P-02G\a" +
+        "04/08/13 12:02:04~10.ZQ/EA anzrf naq snpvyvgl ahzoref (nf nccyvpnoyr) unir orra bognvarq bhgfvqr bs CebDN.\a" +
+        "04/08/13 12:02:04~Ceboyrz: YBJ FNG .  Cngvrag Vasb: 1 cngvrag(f); 66 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;\a\a\a",
+
+        "NQQE:3034 F  QHCBAG OYIQ");
 
   }
   

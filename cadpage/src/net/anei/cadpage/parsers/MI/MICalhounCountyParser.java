@@ -17,7 +17,7 @@ public class MICalhounCountyParser extends DispatchPrintrakParser {
   
   @Override
   public String getFilter() {
-    return "postmaster@calhouncountymi.gov";
+    return "postmaster@calhouncountymi.gov,mcfd12@gmail.com";
   }
   
   
