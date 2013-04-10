@@ -18,7 +18,7 @@ public class DispatchA9Parser extends FieldProgramParser {
   
   public DispatchA9Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
-           "Location:ADDR! Common_Name:PLACE? Venue:CITY? SKIP X Phone:PHONE? Station:SRC? Quadrant:MAP? District:MAP? Call_Number:ID! Call_Type:CALL! Priority:PRI Caller:NAME Dispatch_Date/Time:DATETIME SKIP+? Units_Sent:SKIP UNIT Narrative:SKIP INFO+");
+           "Location:ADDR! Additional_Location_Information:APT? INFO Common_Name:PLACE? Venue:CITY? SKIP X Phone:PHONE? Station:SRC? Quadrant:MAP? District:MAP? Call_Number:ID! Call_Type:CALL! Priority:PRI Caller:NAME Dispatch_Date/Time:DATETIME SKIP+? Units_Sent:SKIP UNIT Narrative:SKIP INFO+");
   }
 
   @Override
