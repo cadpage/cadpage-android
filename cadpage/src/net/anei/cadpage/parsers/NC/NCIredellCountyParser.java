@@ -10,10 +10,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NCIredellCountyParser extends MsgParser {
   
-  private static final Pattern MASTER_PTN = Pattern.compile("(F[RD]\\d+|[A-Z]{1,4}(?= )) *([^,]+), *(.*)");
+  private static final Pattern MASTER_PTN = Pattern.compile("((?:A|FR|FD)\\d+?(?=[ A-Z]|10-)|MFD|MRS) *([^,]+), *([^,]*)(?:, *(\\d{2}-\\d{6}))?");
   
   public NCIredellCountyParser() {
     super("IREDELL COUNTY", "NC");
+    setFieldList("UNIT CALL ADDR ID");
   }
   
   @Override
@@ -25,9 +26,10 @@ public class NCIredellCountyParser extends MsgParser {
   public boolean parseMsg(String body, Data data) {
     Matcher match = MASTER_PTN.matcher(body);
     if (!match.matches()) return false;
-    data.strSource = match.group(1);
+    data.strUnit = getOptGroup(match.group(1));
     data.strCall = match.group(2).trim();
     parseAddress(match.group(3), data);
+    data.strCallId = getOptGroup(match.group(4));
     return data.strAddress.length() > 0;
   }
 }
