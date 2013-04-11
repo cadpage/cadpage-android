@@ -240,7 +240,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-BIQTMACA or biqtmaca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+XEMVMKEA or xemvmkea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -328,7 +328,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-BIQTMACA or biqtmaca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+XEMVMKEA or xemvmkea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -472,7 +472,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-BIQTMACA or biqtmaca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+XEMVMKEA or xemvmkea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -486,7 +486,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-BIQTMACA or biqtmaca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+XEMVMKEA or xemvmkea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -496,7 +496,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-BIQTMACA or biqtmaca.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+XEMVMKEA or xemvmkea.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -948,7 +948,7 @@ Hope that helps,
 -Ken
 
 ******************************************************************
-iphone questions 
+iphone questions also ipad?
 ******************************************************************
 
 We deal with Cadpage, an exclusively Android app.  
@@ -958,9 +958,25 @@ But there are 2 options I see for iphone Users:
 1.  Cadpage For IOS has been released recently.  You can contact Jesse at  support@apprhythmia.com
 However, you will still need a messaging service like Active911 or CodeMessaging for his app to work.
 
-2.  You or your department can purchase a messaging service.  Active911.com (for individuals or departments) or CodeMessaging.org (for departments). These services push pages from dispatch to cell phones.
+2.  You or your department can purchase a messaging service.  Active911.com (for individuals or departments) or CodeMessaging.net (for departments). These services push pages from dispatch to cell phones.
 
 Good luck,
+Jean, Assistant to Ken Corbin
+
+******************************************************************
+Cadpage is exclusively for Android devices.  But we partner with Active911 and CodeMessaging, which are both messaging services and can handle iphones and ipads.  There is also a new company on the block, Cadpage For IOS,which delivers Cadpage-like services to iphones, and maybe to ipads. However, with Cadpage For IOS, you would still need a messaging service like Active911 or CodeMessaging. We are 4 separate companies.
+
+Are you still with me?
+
+If you pay for a subscription with Active911 (for individuals or departments) or CodeMessaging (only departments), then Cadpage is free if you use direct paging.  Many departments are following this trend.  We at Cadpage help with writing parsers, so we get some payment from both services.  If your subscription is less than 6 months old, we would be happy to reimburse you.
+
+Here are some contact email addresses for your further exploration:
+Active911.com
+CodeMessaging.net
+Jesse at  support@apprhythmia.com is the developer of Cadpage For IOS
+
+I hope that helps!
+Take care!
 Jean, Assistant to Ken Corbin
 
 ******************************************************************
@@ -1504,11 +1520,56 @@ Cadpage settings and history.
 >> duration. Also, I saw that there is a process for not having to pay the
 >> 10.00 after the trial expires. What functions are lost after the trial
 >> period expires?
+************************************************************
+Sound questions
+Question is there away to set the length of the
+> alert tone? Also I work and volunteer as a firefighter. Is the a way to
+> set different tones for different departments
 
+All you can do is select a different notification sound.  Different
+notification sounds will play for different times.
 
+At this point, it is not possible to select different notification
+alerts for different departments.  A lot of people have requested that
+and I hope to get it done someday, but it will not be any time soon.
 
+Have a nice day,
+-Ken
 
->
+****************************************************************
+I am responding
+>   Is there a way to enable a button to auto dial Iamresponding?
+
+If you want to report your responding status to IamResponding, you can
+configure Cadpage to call the phone number that IamResponding give you.
+ To do that, go into Cadpage settings and select
+Additional Settings > Button Configuration > Response Button Menu
+and set the Button 2 Phone/Code setting to the number you would like to
+call.
+
+If you want, you can get more complicated and set up multiple response
+buttons with different titles calling different phone numbers.  If you
+do, make sure you leave one button with no PhoneCode setting that you
+can use to close the response button menu without calling anybody.
+
+Have a nice day,
+-Ken
+
+**************************************************************
+
+Quite probably.  But I can't tell until I see what the pages look like now.
+
+If Cadpage is still picking them up, you can long press the call and
+select "Report Problem" to send them to us.  If Cadpage is not picking
+up the call, using the Email the Developer feature right after Cadpage
+fails to pick up a call will usually get it to us.
+
+Good luck,
+-Ken
+
+On 04/10/2013 09:26 AM, Barry Carter wrote:
+> Cadpage started working after update but has stopped working again. Did
+> they change things again?
 
 end
 
