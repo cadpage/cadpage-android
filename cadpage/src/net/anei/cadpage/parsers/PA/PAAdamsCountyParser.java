@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA1Parser;
  */
 public class PAAdamsCountyParser extends DispatchA1Parser {
   
-  private static final Pattern IAMR_PREFIX = Pattern.compile("^Alert: .* - \\d\n");
+  private static final Pattern IAMR_PREFIX = Pattern.compile("^Alert: .*\n");
   
   public PAAdamsCountyParser() {
     super("ADAMS COUNTY", "PA");

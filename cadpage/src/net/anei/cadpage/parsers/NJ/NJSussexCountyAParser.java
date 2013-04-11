@@ -16,6 +16,7 @@ public class NJSussexCountyAParser extends SmartAddressParser {
   
   public NJSussexCountyAParser() {
     super("SUSSEX COUNTY", "NJ");
+    setFieldList("ID CALL ADDR CITY INFO");
   }
 
   @Override
