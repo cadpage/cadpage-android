@@ -11,20 +11,12 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
     "AND 911:",
     "active911:",
     "06-wp:",
+    "13-pie:",
     "als10:",
     "ems1:",
     "esadmin:",
     "childcnty:",
     "afdtrt:"
-  };
-  
-  private static final String[] CITY_CODES = new String[]{
-    "ANDERSON", "BELTON", "CLEMSON", "EASLEY", "HONEA PATH", "IVA", "PELZER", 
-    "STARR", "WEST PELZER", "WILLIAMSTON",
-    "CENTERVILLE", "HOMELAND PARK", "LA FRANC", "NORTHLAKE", "PIEDMONT", 
-    "POWDERSVILLE", "SANDY SPRINGS", "TOWNVILLE",
-    
-    "PENDLETON"
   };
  
   public SCAndersonCountyParser() {
@@ -52,12 +44,31 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
     if (subject.equals("EVENT")) subject = "EVENT:";
     body = append(subject, " ", body);
     
-//    int pt = body.indexOf('>');
-//    if (pt >= 0) data.strCode = body.substring(0,pt).trim();
-    
     // Call superclass parser
     body = body.replace('@', '&');
     return super.parseMsg(body, data);
-    
   }
+  
+  private static final String[] CITY_CODES = new String[]{
+    "ANDERSON", 
+    "BELTON", 
+    "CLEMSON", 
+    "EASLEY",
+    "HONEA PATH",
+    "IVA",
+    "PELZER", 
+    "STARR",
+    "WEST PELZER",
+    "WILLIAMSTON",
+    "CENTERVILLE",
+    "HOMELAND PARK",
+    "LA FRANC",
+    "NORTHLAKE",
+    "PIEDMONT", 
+    "POWDERSVILLE",
+    "SANDY SPRINGS",
+    "TOWNVILLE",
+    
+    "PENDLETON"
+  };
 }
