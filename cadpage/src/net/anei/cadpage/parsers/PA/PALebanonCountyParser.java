@@ -29,6 +29,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
 
   public PALebanonCountyParser() {
     super("LEBANON COUNTY", "PA");
+    setFieldList("CITY ADDR APT PLACE PRI CALL BOX UNIT");
   }
   
   @Override

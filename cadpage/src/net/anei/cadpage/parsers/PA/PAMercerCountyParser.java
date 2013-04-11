@@ -118,6 +118,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "SERV", "Service Call",
       "STR",  "Structure Fire",
       "TREE", "Tree down",
+      "UNKF", "Unknown Type Fire",
       "UTL",  "Utility Lines Down",
   });
 }
