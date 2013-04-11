@@ -86,7 +86,7 @@ public class Message {
     Pattern.compile("\\[(\\d) of (\\d)\\]$"),
     Pattern.compile(":(\\d)of(\\d)$"),
     Pattern.compile("^[A-Z]+ +\\((\\d)/(\\d)\\) +(.*?) +STOP$"),
-    Pattern.compile("^\\( *([^\\)]*?) +(\\d) *of *(\\d)\\)(.*)$")
+    Pattern.compile("^\\( *([^\\)]*?) +(\\d) *of *(\\d)\\)(.*)$", Pattern.DOTALL)
   };
   private static final Pattern MSG_HEADER_FINAL_PTN = Pattern.compile("^(\\d)/(\\d) +");
   private static final Pattern[] SUBJECT_HEADER_PTNS = new Pattern[]{
@@ -165,7 +165,8 @@ public class Message {
         int ndx = 1;
         if (pinned) {
           if (match.groupCount() == 4) {
-            addSubject(match.group(ndx++));
+            String tmp = match.group(ndx++);
+            if (!tmp.equals("- part")) addSubject(tmp);
           }
         } 
         else if (match.groupCount() == 3) {
