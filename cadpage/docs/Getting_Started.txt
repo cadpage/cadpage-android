@@ -43,7 +43,7 @@ If you want to tackle some serious coding challenges, you can dive into the pars
 
 The parsing support infrastructure consists of...
 
-MsgParser - the base class for all parser classes.  This is long with a fair number of support methods and classes, partiular the Parser subclass.  But is not all that complicated.
+MsgParser - the base class for all parser classes.  This is long with a fair number of support methods and classes, particularly the Parser subclass.  But is not all that complicated.
 
 SmartAddressParser - base class for classes that require smart address parsing.  Which is the ability to identify an address from a data field that contains an address and something else.  This gets far more complicated than you would believe possible, supporting all kinds of special options that were added to support some special condition required for something somewhere.
 
