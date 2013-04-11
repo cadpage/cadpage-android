@@ -10,6 +10,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * Ulster County, NY
  */
 public class NYUlsterCountyParser extends FieldProgramParser {
+  
+  private static final Pattern MARKER = Pattern.compile("\\(\\(\\d+\\)[-/ A-Z0-9]*\\)");
 
   public NYUlsterCountyParser() {
     super("ULSTER COUNTY", "NY",
@@ -18,13 +20,15 @@ public class NYUlsterCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "cad@co.ulster.ny.us";
+    return "cad@co.ulster.ny.us,777";
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
 
     body = body.replace('\n', ' ');
+    Matcher match = MARKER.matcher(body);
+    if (match.find()) body = body.substring(match.end()).trim();
     if (!super.parseMsg(body, data)) return false;
 
     data.strCity = data.strCity.replaceAll(" +", " ");

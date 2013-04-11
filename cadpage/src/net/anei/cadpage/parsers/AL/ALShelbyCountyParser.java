@@ -155,7 +155,7 @@ public class ALShelbyCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "PLACE APT INFO";
+      return "APT PLACE CITY INFO";
     }
   }
   
