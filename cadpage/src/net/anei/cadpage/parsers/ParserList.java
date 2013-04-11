@@ -477,6 +477,7 @@ public class ParserList {
               ,"NCDurhamCounty"                 ,"Durham County, NC"
               ,"NCEdgecombeCounty"              ,"Edgecombe County, NC"
               ,"NCForsythCounty"                ,"Forsyth County, NC"
+              ,"NCFranklinCounty"               ,"Franklin County, NC"
               ,"NCGastonCounty"                 ,"Gaston County, NC"
               ,"NCGrahamCounty"                 ,"Graham County, NC"
               ,"NCGranvilleCounty"              ,"Granville County, NC"
