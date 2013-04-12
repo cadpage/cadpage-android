@@ -16,6 +16,7 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
   public CTLitchfieldCountyParser() {
     super(CITY_LIST, "LITCHFIELD COUNTY", "CT");
     addExtendedDirections();
+    setFieldList("SRC ADDR X PLACE APT CITY CALL CODE TIME");
   }
   
   @Override
@@ -43,6 +44,7 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
     parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_ANCHOR_END, sAddr, data);
     if (data.strCity.equals("HEMLOCK ROXBURY")) data.strCity = "ROXBURY";
     String sPlace = getPadField();
+    
     
     // There is a street called MAUWEEHOO HILL (or HL) that just confuses
     // the heck out of the smart parser so we will make some special checks for it
