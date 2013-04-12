@@ -1505,7 +1505,7 @@ choyvp pynff APSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G9",
         "GJBBQ:0 HF 401 UJL F//QNEVHF CRNEPR EQ LBHATFIVYYR, 09:59:43, NPPVQRAG CV, FBZRBAR ENA FGBC YVTUG...JUVGR PNE, OYHR ZHFGNAT",
         "NQQE:HF 401 UJL F & QNEVHF CRNEPR EQ",
-        "ZNQQE:HF 401 F & QNEVHF CRNEPR EQ",
+        "ZNQQE:HF 401 F & QNEVHF CRNEPR EQ",   // Qbrf abg znc - Ercbegrq nf Tbbtyr ceboyrz
         "PVGL:LBHATFIVYYR",
         "GVZR:09:59:43",
         "PNYY:NPPVQRAG CV",
