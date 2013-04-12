@@ -358,6 +358,7 @@ public class ParserList {
               ,"MSAcadianAmbulance"             ,"Acadian Ambulance, MS"
               ,"MSCalhounCounty"                ,"Calhoun County, MS"
               ,"MSMarionCounty"                 ,"Marion County, MS"
+              ,"MSNewtonCounty"                 ,"Newton County, MS"
           ),
           new ParserCategory("Missouri"
               ,"MOBarryCounty"                  ,"Barry County, MO"

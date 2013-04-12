@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class MSNewtonCountyParser extends FieldProgramParser {
   
   public MSNewtonCountyParser() {
-    super("FRANKLIN COUNTY", "MS",
+    super("NEWTON COUNTY", "MS",
            "CALL! Loc:ADDR! Rcvd:TIME_ID!");
   }
   

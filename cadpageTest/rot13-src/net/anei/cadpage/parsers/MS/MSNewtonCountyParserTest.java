@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Senaxyva Pbhagl, ZF
+Arjgba Pbhagl, ZF
 Pbagnpg: Npgvir911
 Ntrapl anzr: Havba Sver Qrcnegzrag
 Ybpngvba: Havba, ZF, Havgrq Fgngrf
@@ -397,7 +397,7 @@ ZRQVPNY-URNEG CEBOYRZF TYSE () Ybp:V20 JO ZRQVNA RKVG 100 Epiq: 19:14:53 1300166
 choyvp pynff ZFArjgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZFArjgbaPbhaglCnefreGrfg() {
-    frgCnefre(arj ZFArjgbaPbhaglCnefre(), "SENAXYVA PBHAGL", "ZF");
+    frgCnefre(arj ZFArjgbaPbhaglCnefre(), "ARJGBA PBHAGL", "ZF");
   }
   
   @Grfg
