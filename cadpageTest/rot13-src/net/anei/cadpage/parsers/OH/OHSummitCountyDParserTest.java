@@ -1441,7 +1441,7 @@ choyvp pynff BUFhzzvgPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:0077 S ZHGHNY NVQ",
         "CEV:1",
         "NQQE:3975 PNFPNQR OYIQ",
-        "PVGL:OevzGjcCP", // abg znccvat
+        "PVGL:Oevzsvryq Gjc", // abg znccvat
         "GVZR:15:37:18",
         "QNGR:04/09/2013",
         "ZNC:9/9",
@@ -1474,7 +1474,7 @@ choyvp pynff BUFhzzvgPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:9999 S RZRETRAPL",
         "CEV:1",
         "NQQE:3975 PNFPNQR OYIQ",
-        "PVGL:OevzGjcCP", // abg znccvat
+        "PVGL:Oevzsvryq Gjc", // abg znccvat
         "GVZR:15:37:18",
         "QNGR:04/09/2013",
         "ZNC:9/9",

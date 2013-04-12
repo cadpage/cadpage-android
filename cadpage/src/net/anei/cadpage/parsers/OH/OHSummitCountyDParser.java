@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.Properties;
+
 import net.anei.cadpage.parsers.dispatch.DispatchA5Parser;
 
 /**
@@ -8,12 +10,16 @@ import net.anei.cadpage.parsers.dispatch.DispatchA5Parser;
 public class OHSummitCountyDParser extends DispatchA5Parser {
   
   public OHSummitCountyDParser() {
-    super("SUMMIT COUNTY", "OH");
+    super(CITY_CODES, "SUMMIT COUNTY", "OH");
   }
   
   @Override
   public String getFilter() {
     return "MAKRINOSL@STOW.OH.US";
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BrimTwpPC",    "Brimfield Twp",
+  });
   
 }
