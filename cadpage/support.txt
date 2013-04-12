@@ -1570,6 +1570,40 @@ Good luck,
 On 04/10/2013 09:26 AM, Barry Carter wrote:
 > Cadpage started working after update but has stopped working again. Did
 > they change things again?
+******************************************************************
+
+Coding Parsers for Cadpage
+Q: > I just wanted to let you know that I'm still interested in writing some
+> parsers for you. I'm just curious about the workflow.
+>
+> What kind of source control do you use? Git? Mercurial? SVN? Darcs?
+> Will I need to give you a public key for SSH? If so, what is the hostname
+> I'll be connecting to?
+> Is there any documentation of your abstract classes/interfaces for the
+> different classes? Or should it be fairly straightforward from reading the
+> source?
+***
+
+A: Cadpage is released under a GPLv3 license, the source code is hosted by Google Projects at https://code.google.com/p/cadpage/
+
+We use a Subversion archive.  Outsourcing work is a new development for us, you would be the second developer we would have doing work for us, so the process is still new and experimental.  But it basically runs like this.
+
+You check out the project source as an anonymous user.  The source tree consists of two Eclipse projects, one for the actual Android app and a second for all of the test classes.  What internal documentation we have is in the cadpage/docs directory.  There is a Getting_Started.txt file with the basic instructions to get things started.
+
+A Parser assignment comes with a skeleton test class containing all of the sample text pages you need to process.  That will be found in the subversion archive.  You write a real parser to handle those pages, add the necessary test cases to the test class and check everything.  When you are done, you email me a patch file.  I apply the patch, check it out, and if everything looks good commit the changes to the archive and give you credit for implementing it.  You have to update your source tree from the archive on a regular basis, which picks up the new changes from your parsers and others.
+
+There are a lot of tricks and underlying support infrastructure that is incredibly helpful but poorly documented.  We should schedule some time to get together and I can explain the basics and help you through the first couple parsers you write.  If you have a laptop you can bring it over to our house any time I'm home.  Otherwise we have found Skype screen sharing to be a helpful way I can check on how you are doing.
+
+I'm going to be in panic mode until I get my taxes filed this week, but we can get together sometime next week if you are interested.
+
+Have fun,
+-Ken
+
+
+
+
+
+
 
 end
 
