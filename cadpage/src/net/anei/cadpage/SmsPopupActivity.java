@@ -144,9 +144,6 @@ public class SmsPopupActivity extends Safe40Activity {
     wasVisible = false;
     // Reset exitingKeyguardSecurely bool to false
     exitingKeyguardSecurely = false;
-    
-    // Supposed to workaround Android 4 problem
-    setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
 
   }
 
