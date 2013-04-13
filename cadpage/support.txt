@@ -114,7 +114,8 @@ The problem with this arrangement is that Cadpage lacks the ability to display r
 
 You or your department have apparently paid for Active911.  Cadpage is free if you use direct paging.
 
-Here are the details in setting up Cadpage with Active911:
+Here are the details in setting up Cadpage with Active911.  You may not need all of this if you have registered before.
+
 First, do you have an account with Active911?  If not, you should contact them about getting set up.  You can do that by visiting their web page at Active911.com.  Click the contact link, then the "click here to sign up online" link in the right sidebar.
 
 If someone already set up a device for you, they should give you the device number and activation code you will need.  If you do not have that, Go to their website and open the Member Access page.  Then select the correct department and open the Devices tab.  If there is a device entry for you, it will show the required device number and activation code.  If not, it should tell you who to contact to set one up.  The device type needs to be set to Smartphone and the Page Type to "Cadpage Direct (Android)"  Make a note of the Device Key (or Access Code) associated with the device.
@@ -249,7 +250,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-XEMVMKEA or xemvmkea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+BKJGZYAA or bkjgzyaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -337,7 +338,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-XEMVMKEA or xemvmkea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+BKJGZYAA or bkjgzyaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -481,7 +482,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XEMVMKEA or xemvmkea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+BKJGZYAA or bkjgzyaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -495,7 +496,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XEMVMKEA or xemvmkea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+BKJGZYAA or bkjgzyaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -505,7 +506,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XEMVMKEA or xemvmkea.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+BKJGZYAA or bkjgzyaa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
