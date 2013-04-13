@@ -65,23 +65,39 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
       sPlace = sPlace.substring(match.end()).trim();
     }
     
-    // If what is left is a valid address, take it as a cross street
-    // Make allowances for temporary name in parens
+    // What's left is an optional place name followed by an optional cross
+    // street, which may have an alternate street name in parens
+    // So first remove the tentative alternate street name
     String chkCross = sPlace;
+    String extra = null;
     if (chkCross.endsWith(")")) {
       int pt = chkCross.indexOf('(');
-      if (pt >= 0) chkCross = chkCross.substring(0,pt).trim();
-    }
-    if (checkAddress(chkCross) > 0) {
-      data.strCross = sPlace;
+      if (pt >= 0) {
+        extra = chkCross.substring(pt);
+        chkCross = chkCross.substring(0,pt).trim();
+      }
     }
     
-    // If we we already have a place, this is an apartment
-    // otherwise it is a place
-    else if (data.strPlace.length() == 0) {
-      data.strPlace = sPlace;
-    } else {
-      data.strApt = sPlace;
+    // Now use the smart addresss parser to separate the place name from the cross street
+    String savePlace = data.strPlace;
+    data.strPlace = "";
+    parseAddress(StartType.START_PLACE, FLAG_ONLY_CROSS | FLAG_ANCHOR_END, chkCross, data);
+    
+    // Append the extra paren info the the cross street if we found one
+    // or to the place name if we did not
+    if (extra != null) {
+      if (data.strCross.length() > 0) {
+        data.strCross = append(data.strCross, " ", extra);
+      } else {
+        data.strPlace = append(data.strPlace, " ", extra);
+      }
+    }
+    
+    // If we had a place name before going into this logic, the field we
+    //  just parsed as a place should really be an apartment
+    if (savePlace.length() > 0) {
+      data.strApt = data.strPlace;
+      data.strPlace = savePlace;
     }
     return true;
   }
