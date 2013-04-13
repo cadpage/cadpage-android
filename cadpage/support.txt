@@ -3,6 +3,15 @@ support@cadpage.org
 
 ******************************************************************
 
+This looks like some kind an unintentional hiccup at dispatch.  I checked all the Weld County department feeds coming through Active911, and all except one of them look normal.  The exception is Windsor Severance Fire Rescue which is getting the same kind of calls that you are getting, and they only starting happening since April 10th.
+
+I would try contacting your department IT person to see if they can get Dispatch to track down whatever happened and fix it.
+
+Good luck,
+-Ken
+
+******************************************************************
+
 Those are coming from CodeMessaging, and CodeMessaging has been
 switching their dispatch pages to use one of our standard formats.
 
@@ -1257,11 +1266,11 @@ Have a nice day,
 ******************************************************************************
 ** MMS doesn't work with Jellybean **
 
-The kic Cadpage uses to handle MMS messages relies on some undocumented back door interfaces to the messaging system.  As of Jellybean (Android 4.1) these throw a security exception.
+The code Cadpage uses to handle MMS messages relies on some undocumented back door interfaces to the messaging system.  As of Jellybean (Android 4.1) these apparently throw a security exception.
 
-I added some code in the next release to trap the abort.  So it won't crash on you.  But it probably won't work either.  If you really aren't receiving MMS pages, you can turn processing off by going into Location Settings and changing the Message Type Processed setting to something that does not include MMS messages.  Problem solved!!
+The current regular release of Cadpage release to trap the abort.  So it won't crash on you.  But it probably won't work either.  If you really aren't receiving MMS pages, you can turn processing off by going into Location Settings and changing the Message Type Processed setting to something that does not include MMS messages.  Problem solved!!
 
-If you are getting MMS pages, there are not many options.  The code in the new release might work, especially if you the message options set to download the data content automatically.  But we just don't know.  Won't be able to do anything about it till I get a Jellybean phone of my own, which will hopefully be in a couple weeks
+If you are getting MMS pages, there are not many options.  The code in the new release might work, especially if you the message options set to download the data content automatically.  But we just don't know.  And I won't have time to investigate further options anytime soon.
 
 You could revert back to the ICS version of Android where MMS logic apparently works.  Or you can sign up with the Active911.com message service.  They have a way of pushing long pages to Cadpage without relying on SMS or MMS messages.  Their fees are reasonable.  Cadpage gets a share of what they charge, so we don't except Cadpage users getting direct pages from Active911 to pay anything further.
 
