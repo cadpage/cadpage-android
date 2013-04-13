@@ -3055,6 +3055,11 @@ YVAPBYA FG & ZRZBEVNY QE * FHA * PNEOBA ZBABKVQR VAPVQRAG * Qvfcngpu: PU 503,PU 
 330 F FUNZBXVA FG * FUN * SVER - IRUVPYR (PNE/FHI/INA/RGP...) * Qvfcngpu: SC 80,RAT 41,F/PU 4,RAT 11,F/PU 1 ,FU 21,F/PU 3,ERF 62 RAT 11,FU 21,F/PU 3,ERF 62,SC 80
 F NAGUENPVGR FG & J UVTU FG * FUN * SVER - OEHFU * Qvfcngpu: SC 80,RAT 41,OE 153,F/PU 4,FD 21,RAT 11,F/PU 1 ,FU 21,F/PU 3,F/PU 2,ERF 62 FU 21
 **************************************************************************
+CraaFGNE Syvtug, CN (CNCraaFgneCnefre)
+23-13-31515: CraaFGNE PPG 1, Oela Znje Ubfcvgny, 23-13-31515
+23-13-31515: (FGNAQOL) CraaFGNE PPG 1, Oela Znje Ubfcvgny, 23-13-31515
+23-13-31512: CraaFGNE 5, A40 49.10 J75 54.70, 6.763 az /286.473 qrt. Zvaref Zrzbevny Ubfcvgny CUPBN
+**************************************************************************
 Jnfuvatgba Pbhagl, CN
 Ybpngvba: 116 TENAG FG ZPQB Kfgerrg: ABEGU FG FGNGVBA FG GLCR: FGEHPGHER SVER GVZR: 23:42:41 Pbzzragf: VA GUR ONPX CBFF 112 BE 114
 Ybpngvba: 50 FGBARPERFG YA PRPV Kfgerrg: ZPPBAARYY EQ QRNQ RAQ GLCR: SVER GVZR: 23:40:09 Pbzzragf:
