@@ -84,6 +84,10 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Jnlarq SQ) 9130 TYRA OEBBX EQ, HEONAN GBJA (QVARUNEG EQ/ERFREIBVE UVYY EQ)SQ FGEHPGHER SVERUNZSQ:2012:00132
 (Jnlarq SQ) /FJVGMREYNAQ VAA ERFGNHENAG  (14109 XRHXN IVYYNTR EQ JNLAR GBJA BS)SQ OBNG RZRETRAPLJNLASQ:2012:00068
 
+Pbagnpg: Wnzrf Uvyyrthf <uvyyrthf47@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Ongu SQ\aZFT:/FJVFF PUNYRG  (14 J JNFUVATGBA FG), ONGU IVYYNTR BSSQ OEHFU SVEROGSQ:2013:00145
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ongu Sver Qrcnegzrag
 Ybpngvba: Ongu, AL, Havgrq Fgngrf
@@ -437,7 +441,7 @@ choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:V 86 & ORGJRRA RKVG 35 +",
         "K:ORGJRRA RKVG 35 +",
         "PBQR:29O1",
-        "PNYY:Genssvp Nppvqragf  Vawhevrf");
+        "PNYY:Genssvp Nppvqragf Vawhevrf");
 
     qbGrfg("G36",
         "zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) ::::ERPNYYRQ:::::: /ZVYR 139 ( V86 ORGJRRA RKVG 35 + ) 29O1 Genssvp Nppvqragf  Vawhevrf\aNIBPNSQNZO:2011:125",
@@ -447,7 +451,7 @@ choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:V 86 & ORGJRRA RKVG 35 +",
         "K:ORGJRRA RKVG 35 +",
         "PBQR:29O1",
-        "PNYY:ERPNYYRQ - Genssvp Nppvqragf  Vawhevrf");
+        "PNYY:ERPNYYRQ - Genssvp Nppvqragf Vawhevrf");
 
     qbGrfg("G37",
         "zrffntvat@vnzerfcbaqvat.pbz (Nibpn SQ) 61619 FGNGR EBHGR 415 #GEYE, NIBPN GBJA BS ( / JRAGJBEGU EQ) 19Q4 Urneg Ceboyrzf Pynzzl\aNIBPNSQNZO:2011:126",
@@ -692,6 +696,19 @@ choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgWnzrfUvyyrthf() {
+
+    qbGrfg("G1",
+        "SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Ongu SQ\aZFT:/FJVFF PUNYRG  (14 J JNFUVATGBA FG), ONGU IVYYNTR BSSQ OEHFU SVEROGSQ:2013:00145",
+        "FEP:Ongu SQ",
+        "CYNPR:FJVFF PUNYRG",
+        "NQQE:14 J JNFUVATGBA FG",
+        "PVGL:ONGU",
+        "PNYY:SQ OEHFU SVER");
+   
+  }
+  
+  @Grfg
   choyvp ibvq grfgOnguSver() {
 
     qbGrfg("G1",
@@ -756,7 +773,7 @@ choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALFgrhoraPbhaglCnefreGrfg().trarengrGrfgf("G1", "FEP CYNPR NQQE NCG PVGL K PBQR PNYY VASB");
+    arj ALFgrhoraPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 
 }
