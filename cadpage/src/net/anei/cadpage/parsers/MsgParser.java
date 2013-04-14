@@ -187,11 +187,11 @@ public abstract class MsgParser {
   /**
    * Pattern that identifies GPS coordinates in an arbitrary field
    */
-  private static final String GPS_COORD_PTN_STR = "([-+]?[0-9]+\\.[0-9]{4,})|([-+]?)([0-9]+) +([0-9]+\\.[0-9]{2,})'?|([-+]?)([0-9]+)[: ]([0-9]+)[:']([0-9]+\\.[0-9]{1,})\"?";
+  private static final String GPS_COORD_PTN_STR = "([-+]?[0-9]+\\.[0-9]{2,})|([-+]?)([0-9]+) +([0-9]+\\.[0-9]{2,})'?|([-+]?)([0-9]+)[: ]([0-9]+)[:']([0-9]+\\.[0-9]{1,})\"?";
   private static final Pattern GPS_COORD_PTN = Pattern.compile(GPS_COORD_PTN_STR);
   private static final String GPS_COORD_PTN_STR2 = GPS_COORD_PTN_STR.replace("(", "").replace(")","");
   public static final Pattern GPS_PATTERN = 
-      Pattern.compile("\\b(X: *)?[NnSs]?(" + GPS_COORD_PTN_STR2 + ")[NnSs]?[,\\W] ?\\W*(Y: *)?[EeWw]?(" + GPS_COORD_PTN_STR2 + ")[EeWw]?\\b");
+      Pattern.compile("\\b(X: *|LAT: *)?[NS]?(" + GPS_COORD_PTN_STR2 + ")[NnSs]?[,\\W] ?\\W*(Y: *|LON: *)?[EW]?(" + GPS_COORD_PTN_STR2 + ")[EW]?\\b", Pattern.CASE_INSENSITIVE);
 
   /**
    * Parse flag indicates that sender address filtering should not be checked

@@ -13,6 +13,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
   
   public NYSuffolkCountyAParser() {
     super(CITY_TABLE, "SUFFOLK COUNTY", "NY");
+    setFieldList("CALL ADDR CITY PLACE X CODE INFO TIME");
   }
   
   @Override

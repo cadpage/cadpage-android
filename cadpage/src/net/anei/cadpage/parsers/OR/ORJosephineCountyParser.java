@@ -11,6 +11,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class ORJosephineCountyParser extends FieldProgramParser {
   
+  private static final Pattern LAT_LON_PTN = Pattern.compile("\\bLAT: *([-+]?[\\d\\.]+),? +LON: *([-+]?[\\d\\.]+)\\b");
+  private static final Pattern LAT_LON_PTN2 = Pattern.compile("\\bLAT:([-+]?[\\d\\.]+) LON:([-+]?[\\d\\.]+)\\b");
+  
   private static final Pattern UNITS_PTN = Pattern.compile("Units: +");
   
   public ORJosephineCountyParser() {
@@ -26,8 +29,11 @@ public class ORJosephineCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (! subject.equals("!")) return false;
+    body = LAT_LON_PTN.matcher(body).replaceAll("LAT:$1 LON:$2");
     body = UNITS_PTN.matcher(body).replaceFirst("Units:");
-    return parseFields(body.split(": |\n"), data);
+    if (!parseFields(body.split(": |\n"), data)) return false;
+    data.strAddress = LAT_LON_PTN2.matcher(data.strAddress).replaceFirst("LAT: $1, LON: $2");
+    return true;
   }
   
   @Override
@@ -115,7 +121,7 @@ public class ORJosephineCountyParser extends FieldProgramParser {
     if (name.equals("ADDR_CITY_X")) return new MyAddressCityCrossField();
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("ID")) return new IdField("\\d+", true);
+    if (name.equals("ID")) return new IdField("\\d+|ODF", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }

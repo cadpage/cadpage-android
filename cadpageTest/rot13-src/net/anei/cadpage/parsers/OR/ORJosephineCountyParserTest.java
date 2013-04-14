@@ -20,11 +20,13 @@ F:!  Z:Fgehpgher Sver: 1730 AR SBBGUVYY OYIQ, Tenagf Cnff:  \a1/8/2013 3:33:58 C
 F:!  Z:GN1 - Genssvp Nppvqrag: JVYYVNZF UJL@ FJ TENAQIVRJ NIR , Tenagf Cnff:  \a1/12/2013 9:17:18 NZ: 201897: 7501, 7553, Z1, 171: fvatyr iru vagb cbyr
 F:!  Z:Tenff Sver: EBHAQF NIR@ ERQJBBQ NIR , Tenagf Cnff:  \a1/12/2013 6:45:11 CZ: 109411: 7514, 7553, 7200, PBSQ: GERR BA SVER
 F:!  Z:Tenff Sver: 3345 ERQJBBQ UJL, Tenagf Cnff: Ebthr Pbzzhavgl Pbyyrtr \a2/12/2013 12:34:01 CZ: 304911: 7309, 7541, 7555, 7200, PBSQ: 1 ZVYR HC ORUVAQ EPP\aVA GUR ZBHAGNVA\aFZBXR NAQ SYNZRF\aGERRF..\a
+F:!  Z:Jngre Erfphr: YNG: 42.5639, YBA: -123.57, Zreyva:  \a4/12/2013 3:28:18 CZ: BQS: 7512, 7553, Z2: A BS RAAVF EVCCYR\aOBNG VF PNCFVMRQ\aLRYYBJ BE GNA\aQBRFA'G FR..\a
 
 Pbagnpg: qraavfubxr34 <qraavfubxr34@tznvy.pbz>
 Fraqre: Qvfcngpu@Cnpvsvp.pbz
 
 F:!  Z:3/21/2013 10:59:31 NZ  OE1 - Oernguvat Ceboyrz/Pubxva \a1938 ERRIRF PERRX EQ 12 , Fryzn  38-8-25 EQ / 38-8-13 EQ, F FUBER QE\aHavgf:8932, Z4, 8900  \aQVSS OERNGU\aZNYR\aPBAF\aSRRYF YVXR UR VF NOBHG GB CNFF BHG\aQVSS FCRNXVAT   \a\a
+
 F:!  Z:3/21/2013 11:33:27 NZ  Yvsg Nffvfg \a211 ONEYBJ FG, Pnir Whapgvba  FUREJBBQ NIR / F WHAPGVBA NIR\aHavgf:8931, 8900  \aYVSG NFFVFG\aZNYR\aWHFG UNQ GBRF NZCHGNGRQ\a87 LBZ \aPBAF/OERNGU    \a\a
 F:!  Z:3/22/2013 11:53:33 NZ  GE3 - Genhzngvp Vawhel \aVAQVNA PERRX EQ@ QENCRE INYYRL EQ , Fryzn  Ab Pebff Fgerrgf Sbhaq\aHavgf:8932, Z4, 8900  \a54 LB ZNYR\aPBA/OERNGUVAT\aHCCRE YRT\aVAQVNAQ PERRX YBTTVAT BCRENGVBA   \a\a
 F:!  Z:3/22/2013 2:24:54 NZ  Yvsg Nffvfg \a222 BYYVF EQ 72 , Pnir Whapgvba  J EVIRE FG / QRNQ RAQ\aHavgf:8931, 8951, 8953  \aAB VAWHERQ \a79LBZ\aP/O \aERS: 143336848\aCU: 541-592-3704\aJVSR BF: ZVPURYYR  NAQ W..   \a\a
@@ -192,6 +194,23 @@ choyvp pynff BEWbfrcuvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:304911",
         "HAVG:7309, 7541, 7555, 7200, PBSQ",
         "VASB:1 ZVYR HC ORUVAQ EPP VA GUR ZBHAGNVA FZBXR NAQ SYNZRF GERRF..");
+
+    qbGrfg("G12",
+        "F:!  Z:Jngre Erfphr: YNG: 42.5639, YBA: -123.57, Zreyva:  \a" +
+        "4/12/2013 3:28:18 CZ: BQS: 7512, 7553, Z2: A BS RAAVF EVCCYR\a" +
+        "OBNG VF PNCFVMRQ\a" +
+        "LRYYBJ BE GNA\a" +
+        "QBRFA'G FR..\a",
+
+        "QNGR:04/12/2013",
+        "GVZR:15:28:18",
+        "PNYY:Jngre Erfphr",
+        "NQQE:YNG: 42.5639, YBA: -123.57",
+        "ZNQQE:+42.563900,-123.570000",
+        "PVGL:Zreyva",
+        "VQ:BQS",
+        "HAVG:7512, 7553, Z2",
+        "VASB:A BS RAAVF EVCCYR OBNG VF PNCFVMRQ LRYYBJ BE GNA QBRFA'G FR..");
  
   }
   
