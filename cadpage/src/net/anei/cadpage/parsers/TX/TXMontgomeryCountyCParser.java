@@ -37,6 +37,8 @@ public class TXMontgomeryCountyCParser extends Cadpage3Parser {
       data.strPlace = match.group(3);
       return true;
     }
+    
+    if (!body.startsWith("ID:")) return false;
     return super.parseMsg(body, data);
   }
 }

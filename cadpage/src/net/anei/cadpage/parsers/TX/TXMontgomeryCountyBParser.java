@@ -13,10 +13,13 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   
   private static final String FIELD_LIST1 = "UNIT ID ADDR APT CITY CALL BOX MAP SRC CH";
   private static final String FIELD_LIST2 = "CODE CALL BOX ADDR APT CITY SRC MAP UNIT";
+  
   private static final Pattern MASTER1 = Pattern.compile("(?:(\\d+?)?(\\d{2,4}-\\d{6,7}) +)?(.*?)(?: *(\\d\\d[A-Z]-[A-Z]))? +(\\d{2,3}[A-Za-z])(?: +(F[DG]\\d+(?: +F[DG]\\d+)*)(?: +(?:North|East|South|West))?)?(?: +([A-Z]+\\d+(?: +[A-Z]+\\d+)*))?(?: +(TAC +\\d+))?");
   private static final Pattern MASTER2 = Pattern.compile("(?:([A-Z0-9]+)-)?(.*?) *(\\d\\d[A-Z]-[A-Z]) +(.*?) +(F[DG]\\d+(?: +F[DG]\\d+)*) +(\\d{2,3}[A-Za-z])(?: +(.*))?");
+  
   private static final Pattern ADDRESS_RANGE_PTN = Pattern.compile("\\b(\\d+) *- *(\\d+)\\b");
   
+  private static final Pattern NOTIFICATION_PTN = Pattern.compile("(\\d\\d-\\d{6} - \\d+)\\) (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) [\\d:]+\\.000-\\[\\d+\\] \\[Notification\\] +(.*?)(?: +\\[Shared\\])?");
   private static final Pattern RUN_REPORT_PTN = 
       Pattern.compile("(\\d{4}-\\d{6}) +,?((?:Time Canceled:|Time Call Complete:|Assigned|Time at Destination:|Priority Change:|Call Canceled Reason:).*)");
   
@@ -44,6 +47,16 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
       data.strCall = "RUN REPORT";
       data.strCallId = match.group(1);
       data.strPlace = match.group(2);
+      return true;
+    }
+    
+    match = NOTIFICATION_PTN.matcher(body);
+    if (match.matches()) {
+      data.strCall = "GENERAL ALERT";
+      data.strCallId = match.group(1);
+      data.strDate = match.group(2);
+      data.strTime = match.group(3);
+      data.strPlace = match.group(4);
       return true;
     }
     
