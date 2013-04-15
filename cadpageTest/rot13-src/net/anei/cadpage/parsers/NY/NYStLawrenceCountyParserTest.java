@@ -778,7 +778,7 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2012:0000007780",
         "PNYY:Sver-Tenff",
         "NQQE:OEBHFR EQ",
-        "ZNQQE:OEBHFR EQ & 1",
+        "ZNQQE:OEBHFR EQ & 1/4 ZV & EG 420",
         "K:1/4 ZV BSS EG 420");
 
     qbGrfg("G28",

@@ -57,7 +57,7 @@ public class DispatchProQAParser extends FieldProgramParser {
     return "ID " + super.getProgram() + " CALL PLACE";
   }
   
-  private class BaseInfoField extends InfoField {
+  protected class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       if (field.equals("<PROQA_DET>")) return;

@@ -529,6 +529,7 @@ public class ParserList {
               ,"OHAshtabulaCounty"              ,"Ashtabula County, OH"
               ,"OHBrownCounty"                  ,"Brown County, OH"
               ,"OHButlerCounty"                 ,"Butler County, OH"
+              ,"OHCarrollCounty"                ,"Carroll County, OH"
               ,"OHClermontCounty"               ,"Clermont County, OH"
               ,"OHClintonCounty"                ,"Clinton County, OH"
               ,"OHColumbianaCounty"             ,"Columbiana County, OH"

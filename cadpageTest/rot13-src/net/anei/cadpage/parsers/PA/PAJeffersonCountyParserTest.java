@@ -191,7 +191,7 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN -29-Q Ragenczrag",
         "HAVG:F20",
         "NQQE:40.874,-79.0204",
-        "ZNQQE:40.874,-79.0204 & QRNQ RAQ",  // Guvf vf n grfg negvsnpg
+        "ZNQQE:+40.874000,-79.020400",  // Guvf vf n grfg negvsnpg
         "K:QRNQ RAQ / XNPUZNE EQ, FJNEGM NPERF EQ",
         "OBK:12-V",
         "PU:Falqre Uvyy");
