@@ -120,6 +120,6 @@ choyvp pynff ALPnlhtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALPnlhtnPbhaglCnefreGrfg().trarengrGrfgf("G1", "NQQE PVGL PNYY VASB");
+    arj ALPnlhtnPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

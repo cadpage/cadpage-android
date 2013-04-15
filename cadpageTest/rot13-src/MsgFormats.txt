@@ -924,6 +924,11 @@ JNGRE1 AYS () Ybp:AJ YBTNA EQ & NPPRFF Epiq: 13:51:1 Havgf: Q1141 R12130984 Pbzz
 * QvfcngpuN13Cnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
+Rffrk Pbhagl, AL (ALRffrkPbhaglCnefre)
+(Wnl) WISQ:2013:12\aQVFCNGPURQ\aRZF\a1, zvyr FJ vag. bs NhFnoyr Qe. & FE 86 - AJ ;Wnl A
+(Wnl) WISQ:2013:13\aQVFCNGPURQ\aSver\aNHFNOYR
+(Wnl) WISQ:2013:15\aQVFCNGPURQ\aSver\a70 ORRPU FG
+*******************************************************************************
 Znqvfba Pbhagl, AL (ALZnqvfbaPbhaglOCnefre)
 [911 Qvfcngpu]  OEXSQ:2011:173\aQvfcngpurq\aPurfg Cnva\a1929 NPNQRZL EQ , OEBBXSVRYQ ( / FCBBARE EQ)
 [911 Qvfcngpu]  OEXSQ:2011:172\aQvfcngpurq\aCflpuvngevp/Fhvpvqr Nggrzcg\a11325 ZVYY , OEBBXSVRYQ ( PRAGRE /)
@@ -5742,13 +5747,6 @@ JRYQ PBHAGL QVNTABANY UJL @ AVJBG EQ AO SBE N HAX VAW GN HAFHOFPEVOR
 **********************************************************
 **********************************************************
 **********************************************************
-Rffrk Pbhagl, AL
-Pbagnpg: Xreba Puneyrf <xreba.puneyrf001@tznvy.pbz>
-(Wnl) WISQ:2013:12\aQVFCNGPURQ\aRZF\a1, zvyr FJ vag. bs NhFnoyr Qe. & FE 86 - AJ ;Wnl A
-[Wnl]  WISQ:2013:10\aQVFCNGPURQ\aNynez-Sver
-[Wnl]  WISQ:2013:9\aQVFCNGPURQ\aSver-Sver
-(Wnl) WISQ:2013:13\aQVFCNGPURQ\aSver\aNHFNOYR
-(Wnl) WISQ:2013:15\aQVFCNGPURQ\aSver\a70 ORRPU FG
 **********************************************************
 Cbyx Pbhagl, ZB
 Pbagnpg:  Revp Qnirl <revpyrrqnirl@tznvy.pbz> (Znccvat Pbbeqvangbe,417-298-7448)

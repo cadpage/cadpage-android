@@ -425,6 +425,7 @@ public class ParserList {
               ,"NYDelawareCounty"               ,"Delaware County, NY"
               ,"NYDuchessCounty"                ,"Duchess County, NY"
               ,"NYDixHills"                     ,"Dix Hills, NY"
+              ,"NYEssexCounty"                  ,"Essex County, NY"
               ,"NYErieCounty"                   ,"Erie County, NY"
               ,"NYFultonCounty"                 ,"Fulton County, NY"
               ,"NYGeneseeCounty"                ,"Genesee County, NY"

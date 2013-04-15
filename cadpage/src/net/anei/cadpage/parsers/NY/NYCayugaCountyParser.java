@@ -14,6 +14,7 @@ public class NYCayugaCountyParser extends SmartAddressParser {
 
   public NYCayugaCountyParser() {
     super(CITY_LIST, "CAYUGA COUNTY", "NY");
+    setFieldList("ADDR CITY CALL INFO");
   }
   
   @Override
