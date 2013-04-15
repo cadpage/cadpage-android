@@ -36,6 +36,7 @@ Flfgrz: PNQ@yvapbyar911.bet
 636:PNQ:HSQ-1200000196-29O04-29-O-4 GENSSVP NPPVQRAG-ERRCFIVYYR EQ/GEVAVGL PUHEPU EQ-[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Oenib ERFCBAQRE FPEVCG: Ntr haxabja, Traqre haxabja, Pbafpvbhfarff haxabja, Oernguvat fgnghf haxabja. Genssvp / Genafcbegngvba Vapvqragf. Haxabja fgnghf/Bgure pbq
 637:PNQ:HSQ-26P01-26-P-1 FVPX CREFBA-1237 UBJNEQF PERRX ZVYY EQ-NOREARGUL SNEZ EQ-ERRCFIVYYR EQ-[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Puneyvr ERFCBAQRE FPEVCG: 73 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. Fvpx Crefba (Fcrpvsvp Qvntabfvf). NYGRERQ YRIRY BS PBAFPVBHFARFF. Pnyyre Fgngrzrag: YRGUNE
 17827:PNQ:Hcqngr: -RZFR-201211435-113Q02-4-N-1 NFFNHYG-7860 OYNPXJBBQ EQ-OHEONAX YA-PURINY YA-Rirag fcnjarq sebz QVFGHEONAPR BS NAL GLCR. [
+21644:PNQ:SLV: -RZFP-201303340-26N01-26-N-1 FVPX CREFBA-1099 YVGUVN YA-YVGUVN VAA EQ-[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Nycun ERFCBAQRE FPEVCG: 82 lrne byq, Znyr, Pbafpvbhf, Oernguvat. Fvpx Crefba (Fcrpvsvp Qvntabfvf). Ab cevbevgl flzcgbzf (pbzcynvag pbaqvgvbaf 2-11 abg vqragvsvrq). Pnyyre Fgngrzrag: HGV. 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf oernguvat abeznyyl. 3. Ur unf bgure cnva. 4. Ur vf abg oyrrqvat (be ibzvgvat oybbq).
 
 Pbagnpg: fhccbeg@npgvir911.pbz
 [] 1:PNQ:UPS-IRUVPYR NPP CQ BAYL-7046787685-NG&G ZBOVYVGL-FUBNY EQ/YNZN YA-IRU VF CNEGYL VA EQJL [05/25/12 20:19:16 PUNEXRL]\a
@@ -372,6 +373,16 @@ choyvp pynff APYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:7860 OYNPXJBBQ EQ",
         "K:OHEONAX YA & PURINY YA",
         "VASB:Rirag fcnjarq sebz QVFGHEONAPR BS NAL GLCR.");
+
+    qbGrfg("G20",
+        "21644:PNQ:SLV: -RZFP-201303340-26N01-26-N-1 FVPX CREFBA-1099 YVGUVN YA-YVGUVN VAA EQ-[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Nycun ERFCBAQRE FPEVCG: 82 lrne byq, Znyr, Pbafpvbhf, Oernguvat. Fvpx Crefba (Fcrpvsvp Qvntabfvf). Ab cevbevgl flzcgbzf (pbzcynvag pbaqvgvbaf 2-11 abg vqragvsvrq). Pnyyre Fgngrzrag: HGV. 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf oernguvat abeznyyl. 3. Ur unf bgure cnva. 4. Ur vf abg oyrrqvat (be ibzvgvat oybbq).",
+        "VQ:201303340",
+        "FEP:RZFP",
+        "PBQR:26N01",
+        "PNYY:FVPX CREFBA",
+        "NQQE:1099 YVGUVN YA",
+        "K:YVGUVN VAA EQ",
+        "VASB:82 lrne byq, Znyr, Pbafpvbhf, Oernguvat. Fvpx Crefba (Fcrpvsvp Qvntabfvf). Ab cevbevgl flzcgbzf (pbzcynvag pbaqvgvbaf 2 / 11 abg vqragvsvrq). Pnyyre Fgngrzrag: HGV. 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf oernguvat abeznyyl. 3. Ur unf bgure cnva. 4. Ur vf abg oyrrqvat (be ibzvgvat oybbq).");
 
   }
   
