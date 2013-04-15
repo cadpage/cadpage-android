@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04082013</string>
-  <string name="release_version">v1.6.18</string>
+  <string name="release_date">04152013</string>
+  <string name="release_version">v1.6.19</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Blount County, AL\n
-Lewis County, NY\n
-Waukesha County, WI\n
+Newton County, MS\n
+Essex County, NY\n
+Franklin County, NC\n
+Carroll County, OH\n
+Summit County, OH\n
+PennStar, PA\n
 \n
 Location Parsing Fixes:\n
-Shelby County, AL\n
-Douglas County, CO\n
-Golden, CO\n
-Middlesex County, CT\n
-Tolland County, CT\n
-Tipton County, IN\n
-Duchess County, NY\n
-Guilford County, NC\n
-Watauga County, NC\n
-Cass County, ND\n
+Blount County, AL\n
+Riverside County, CA\n
+Litchfield County, CT\n
+Kent County, DE\n
+Calhoun County, MI\n
+Stueben County, NY\n
+Ulster County, NY\n
+Davie County, NC\n
+Iredell County, NC\n
+Lincoln County, NC\n
 Josephine County, OR\n
 Adams County, PA\n
 Mercer County, PA\n
 Anderson County, SC\n
-Humble, TX\n
-Carroll County, VA\n
-Natrona County, WY\n
+Union County, SD\n
+Montgomery County, TX\n
 \n
 General Fixes:\n
-Cadpage no longer recognizing lifetime subscribers\n
 Cadpage overriding user screen orientation preference\n
+Force close processing unusual message\n
   </string>  
 </resources>
   
