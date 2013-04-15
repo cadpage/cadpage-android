@@ -30,9 +30,16 @@ public class CARiversideCountyParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
+      if (field.endsWith(")")) {
+        int pt = field.indexOf('(');
+        if (pt >= 0) {
+          data.strPlace = field.substring(pt+1, field.length()-1).trim();
+          field = field.substring(0,pt).trim();
+        }
+      }
       Parser p = new Parser(field);
       data.strCity = convertCodes(p.getLastOptional(','), CITY_CODES);
-      data.strPlace =p.getOptional('@');
+      data.strPlace = append(p.getOptional('@'), " - ", data.strPlace);
       parseAddress(p.get(), data);
     }
     
@@ -60,7 +67,9 @@ public class CARiversideCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ANZA", "ANZAS",
       "IDYL", "IDYLLWILD",
+      "MOUN", "MOUNTAIN CENTER",
       "PINC", "PINE COVE"
   });
 }
