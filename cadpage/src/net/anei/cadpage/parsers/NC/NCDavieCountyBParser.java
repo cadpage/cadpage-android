@@ -12,7 +12,7 @@ public class NCDavieCountyBParser extends DispatchA3Parser {
   
   public NCDavieCountyBParser() {
     super("911:Call#", "DAVIE COUNTY", "NC",
-          "ID Address:ADDR! APT APT! City:CITY! X X MAP Location:INFO1! Complaint:CODE! Desc:CALL! Caller:NAME! Ph#:PHONE! Units:UNIT! SKIP INFO+");
+          "ID Address:ADDR! APT APT! City:CITY! X X MAP Location:INFO1! Complaint:CODE! Desc:CALL! Caller:NAME Ph#:PHONE Units:UNIT SKIP INFO+");
   }
   
   @Override
@@ -28,6 +28,7 @@ public class NCDavieCountyBParser extends DispatchA3Parser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     body = body.replace(" LocCmmt:", " Location:").replace(" Comp:", " Complaint:");
+    body = body.replace(" Description:", " Desc:");
     return super.parseMsg(body, data);
   }
   
