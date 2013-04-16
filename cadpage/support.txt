@@ -250,7 +250,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-BKJGZYAA or bkjgzyaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+MFWULVEA or mfwulvea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -338,7 +338,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-BKJGZYAA or bkjgzyaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+MFWULVEA or mfwulvea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -482,7 +482,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-BKJGZYAA or bkjgzyaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+MFWULVEA or mfwulvea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -496,7 +496,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-BKJGZYAA or bkjgzyaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+MFWULVEA or mfwulvea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -506,7 +506,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-BKJGZYAA or bkjgzyaa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+MFWULVEA or mfwulvea.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -1607,6 +1607,41 @@ There are a lot of tricks and underlying support infrastructure that is incredib
 I'm going to be in panic mode until I get my taxes filed this week, but we can get together sometime next week if you are interested.
 
 Have fun,
+-Ken
+
+***********************************************************************
+Q: Does not work better than what i have now.  Would like to see a
+>> automatic function for turning notification sound on and off.  For
+>> example i receive text 24/7 but only work 2-10 pm so i want it  to turn
+>> the sound on between 2-10 then off when I am sleeping. Then i will be
+>> happy to pay.  Also it doesn't catch all text messages.  One still goes
+>> to my msg in box and the rest to cadpage.
+>>
+A: The Map feature is the only thing that is really unique to Cadpage.  If
+you are not using that then there are other, far cheaper, apps that will
+monitor and alert you about incoming text messages.
+
+If you do have any pages that are not mapping, long press the call and
+select Report Problem to send it to us.  We will see what we can do with it.
+
+If Cadpage fails to pick up something that you think it should, used the
+Email the Developer feature to send us an email ASAP.  The generated
+email includes technical information about the last text messages, which
+I can hopefully use to identify why Cadpage did not pick it up.
+
+A feature to allow alert notifications to be customized by a schedule or
+by call type is one of the most often requested new features.  I really
+hope to implement it someday, but just keeping up with text parsing is a
+full time job that doesn't leave much time to work on new Cadpage
+features.  We will probably get it done someday, but it isn't going to
+be any time soon.  You might want to look into getting your pages
+through Active911.com.  They do have scheduling and filtering
+capabilities.  They only control whether or not you get pages, there
+still is no way to customize different alerts for different pages, but
+it might suit your needs.  Cadpage is free if you are getting pages from
+Active911.
+
+Have a nice day,
 -Ken
 
 
