@@ -1,10 +1,10 @@
 package net.anei.cadpage.parsers.TN;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
+import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
 
 
-public class TNLoudonCountyParser extends DispatchSouthernParser {
+public class TNLoudonCountyParser extends DispatchSouthernPlusParser {
   
   
   public TNLoudonCountyParser() {
@@ -17,10 +17,10 @@ public class TNLoudonCountyParser extends DispatchSouthernParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
     if (body.startsWith("LDN911 ")) body = body.substring(7).trim();
     body = body.replaceAll("//+", "/");
-    return super.parseMsg(body, data);
+    return super.parseMsg(subject, body, data);
   }
   
 

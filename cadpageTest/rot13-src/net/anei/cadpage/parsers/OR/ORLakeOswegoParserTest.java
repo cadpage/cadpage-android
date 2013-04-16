@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Pynpxnznf Pbhagl, BE
+Ynxr Bfjrtb, BE
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ynxr Bfjrtb Sver Qrcnegzrag
 Ybpngvba: Ynxr Bfjrtb, BE, Havgrq Fgngrf
@@ -101,10 +101,10 @@ hc gur pbqrf hfrq urer YNX naq CBE naq nalguvat ryfr.
  
 */
 
-choyvp pynff BEPynpxnznfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff BEYnxrBfjrtbCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp BEPynpxnznfPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "PYNPXNZNF PBHAGL", "BE");
+  choyvp BEYnxrBfjrtbCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "YNXR BFJRTB", "BE");
   }
   
   @Grfg
@@ -113,6 +113,6 @@ choyvp pynff BEPynpxnznfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj BEPynpxnznfPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj BEYnxrBfjrtbCnefreGrfg().trarengrGrfgf("G1");
   }
 }
