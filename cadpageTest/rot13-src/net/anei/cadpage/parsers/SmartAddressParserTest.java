@@ -44,35 +44,13 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-    qbGrfg(NQQE, SYNT_ARNE_GB_RAQ, "UJL 75 ARNE FBHGURNFGREA KF: ERZYNC QE XRAFOHET IREVMBA JVERYRFF",
-        "NQQE:UJL 75",
-        "CYNPR:ARNE FBHGURNFGREA",
-        "K:ERZYNC QE",
-        "PVGL:XRAFOHET");
   }
-  
-  @Grfg
-  choyvp ibvq grfgArneSvryqf() {
-    qbGrfg(NQQE,"PB UJL 48 ARNE UJL 231 XRAFOHET",
-        "NQQE:PB UJL 48", 
-        "K:UJL 231",
-        "PVGL:XRAFOHET");
-    qbGrfg(NQQE,"PB UJL 48 ARNE OEVTUG UVYY XRAFOHET",
-        "NQQE:PB UJL 48", 
-        "CYNPR:ARNE OEVTUG UVYY",
-        "PVGL:XRAFOHET");
-    qbGrfg(NQQE, "PB UJL 48 ARNE FHAFUVAR PVGL",
-        "NQQE:PB UJL 48");
-    qbGrfg(NQQE, SYNT_ARNE_GB_RAQ, "PB UJL 48 ARNE FHAFUVAR PVGL",
-        "NQQE:PB UJL 48",
-        "CYNPR:ARNE FHAFUVAR PVGL");
-    qbGrfg(NQQE, SYNT_ARNE_GB_RAQ, "PB UJL 48 ARNE OYNPX FG IREVMBA",
-        "NQQE:PB UJL 48",
-        "K:OYNPX FG");
-  }
-  
+
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(NQQE, "0 BYQ UJL 68 N GUR BYQ EBNQFVQR CNEX",
+        "NQQE:BYQ UJL 68");
     
     qbGrfg(NQQE, "KK UJL 9 / TREGBA UJL XRAFOHET P21E OYXQ-EQ FPBGG ZBBER",
         "NQQE:KK UJL 9 & TREGBA UJL",
@@ -948,6 +926,32 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(NQQE, SYNT_BCG_FGERRG_FSK, "j ynxr naq a untnqbea   jnfuqbja   ng fprar bs cqn",
         "NQQE:j ynxr naq a untnqbea");
   }
+  
+  @Grfg
+  choyvp ibvq grfgArneSvryqf() {
+    qbGrfg(NQQE,"PB UJL 48 ARNE UJL 231 XRAFOHET",
+        "NQQE:PB UJL 48", 
+        "K:UJL 231",
+        "PVGL:XRAFOHET");
+    qbGrfg(NQQE,"PB UJL 48 ARNE OEVTUG UVYY XRAFOHET",
+        "NQQE:PB UJL 48", 
+        "CYNPR:ARNE OEVTUG UVYY",
+        "PVGL:XRAFOHET");
+    qbGrfg(NQQE, "PB UJL 48 ARNE FHAFUVAR PVGL",
+        "NQQE:PB UJL 48");
+    qbGrfg(NQQE, SYNT_ARNE_GB_RAQ, "PB UJL 48 ARNE FHAFUVAR PVGL",
+        "NQQE:PB UJL 48",
+        "CYNPR:ARNE FHAFUVAR PVGL");
+    qbGrfg(NQQE, SYNT_ARNE_GB_RAQ, "PB UJL 48 ARNE OYNPX FG IREVMBA",
+        "NQQE:PB UJL 48",
+        "K:OYNPX FG");
+    qbGrfg(NQQE, SYNT_ARNE_GB_RAQ, "UJL 75 ARNE FBHGURNFGREA KF: ERZYNC QE XRAFOHET IREVMBA JVERYRFF",
+        "NQQE:UJL 75",
+        "CYNPR:ARNE FBHGURNFGREA",
+        "K:ERZYNC QE",
+        "PVGL:XRAFOHET");
+  }
+  
   
   @Grfg
   choyvp ibvq grfgEryngvba() {
