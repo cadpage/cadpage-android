@@ -64,10 +64,14 @@ public class C2DMService extends IntentService {
     finally {
       
       // Release the power lock, so phone can get back to sleep.
-      // The lock is reference-counted by default, so multiple
-      // messages are ok.
+      // The lock should be reference-counted by default, so multiple
+      // messages are ok.  But one user is having under lock issues
+      // so we will double check to make sure the lock is held before
+      // we release it.
       Log.v("C2DMServce Releasing wakelock");
-      sWakeLock.release();
+      synchronized (C2DMService.class){ 
+        if (sWakeLock.isHeld()) sWakeLock.release();
+      }
     }
  }
 
@@ -325,6 +329,7 @@ public class C2DMService extends IntentService {
           if (sWakeLock == null) {
               PowerManager pm = (PowerManager)context.getSystemService(Context.POWER_SERVICE);
               sWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, WAKELOCK_KEY);
+              sWakeLock.setReferenceCounted(true);
           }
       }
       Log.v("C2DMService Acquiring wakelock");
