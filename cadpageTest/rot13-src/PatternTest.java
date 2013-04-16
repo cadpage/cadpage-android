@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE
-    = Cnggrea.pbzcvyr("\\o(K: *)?([-+]?[0-9]+\\.[0-9]{4,}|[-+]?[0-9]+ +[0-9]+\\.[0-9]{2,}'?|[-+]?[0-9]+[: ][0-9]+[:'][0-9]+\\.[0-9]{1,}\"?)[AF]?[,\\J] ?\\J*(L: *)?([-+]?[0-9]+\\.[0-9]{4,}|[-+]?[0-9]+ +[0-9]+\\.[0-9]{2,}'?|[-+]?[0-9]+[: ][0-9]+[:'][0-9]+\\.[0-9]{1,}\"?)[RJ]\\o", Cnggrea.PNFR_VAFRAFVGVIR);
+    = Cnggrea.pbzcvyr("^: ([^:]*?)(?: (\\q\\q:\\q\\q:\\q\\q))?$");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("37 39'46.96\"a & 121 26'30.72\"j");
+    qbGrfg(": HAXABJA CEBOYRZ : ZRQVPNY NYNEZ ABGVSVPNGVBA 19:27");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

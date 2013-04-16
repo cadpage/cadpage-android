@@ -13,7 +13,7 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   
   public SCCharlestonCountyParser() {
     super("CHARLESTON COUNTY", "SC",
-           "( PREFIX Address:ADDR! X_Street:X Cmd_Channel:CH% | ADDR/SC! X_Street:X Cmd_Channel:CH! Units_Assigned:UNIT% )");
+           "( PREFIX Address:ADDR! X_Street:X Cmd_Channel:CH% | ADDR/SC! X_Street:X Cmd_Channel:CH! Units_Assigned:UNIT% Time:TIME)");
   }
   
   @Override
