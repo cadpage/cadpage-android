@@ -37,7 +37,6 @@ Fraqre: cntvat@av911.pn
 (Sver Qvfcngpu) QHGL BSSVPRE 2350 Pyvssr Nir , Pbhegranl ,OP 03/26/2013 06:40:21\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
 (Sver Qvfcngpu) ZBGBE IRUVPYR NPPVQRAG Yrejvpx Eq / Elna Eq , Pbhegranl ,OP 03/24/2013 17:11:30
 (Sver Qvfcngpu) QHGL BSSVPRE 1926 Iren Qe , Pbhegranl ,OP 03/22/2013 19:51:38\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
-(Sver Qvfcngpu) QHGL BSSVPRE 1926 Iren Qe , Pbhegranl ,OP 03/22/2013 20:30:31\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
 (Sver Qvfcngpu) QHGL BSSVPRE 5620 A VFYNAQ UJL , Pbhegranl ,OP 03/22/2013 20:03:27\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
 (Sver Qvfcngpu) ORNPU/OEHFU/ZVFP BHG RZRET 1800 - 2199 Uneql Eq , Pbhegranl ,OP 03/22/2013 20:03:27
 (Sver Qvfcngpu) FGEHPGHER SVER 1926 Iren Qe , Pbhegranl ,OP 03/22/2013 19:51:38
@@ -84,14 +83,6 @@ Fraqre: cntvat@av911.pn
 (Sver Qvfcngpu) NYNEZF 1050 Oenvqjbbq Eq , Pbhegranl ,OP 02/26/2013 16:54:59
 (Sver Qvfcngpu) ERFPHR EBNQ 2186 Fgengupban Cxl , Zg Jnfuvatgba ,OP 02/26/2013 16:22:06
 (Sver Qvfcngpu) QHGL BSSVPRE 1472 Inyyrl Ivrj Qe , Pbhegranl ,OP 02/25/2013 19:19:34\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
-PUVZARL SVER 4269 SBEOVQQRA CYNG EQ , Pbhegranl ,OP 02/16/2013 07:41:26\a\a\aGunax lbh\a\aTert Ynzo\aSver Vafcrpgbe\aPvgl bs Pbhegranl\atynzo@pbhegranl.pn\aBssvpr Cubar 250-334-2513\aBssvpr Snk 250-897-1361\a\a\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
-QHGL BSSVPRE Jvyyrzne Nir / 13gu Fg , Pbhegranl ,OP 02/09/2013 19:30:49\a\a\aGunax lbh\a\aTert Ynzo\aSver Vafcrpgbe\aPvgl bs Pbhegranl\atynzo@pbhegranl.pn\aBssvpr Cubar 250-334-2513\aBssvpr Snk 250-897-1361\a\a\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
-QHGL BSSVPRE Fpubby - Neqra Ryrzragnel , Pbhegranl ,OP 02/03/2013 11:59:05\a\a\aGunax lbh\a\aTert Ynzo\aSver Vafcrpgbe\aPvgl bs Pbhegranl\atynzo@pbhegranl.pn\aBssvpr Cubar 250-334-2513\aBssvpr Snk 250-897-1361\a\a\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
-(Sver Qvfcngpu) QHGL BSSVPRE 0 Fpubby - Neqra Ryrzragnel , Pbhegranl ,OP 02/03/2013 11:59:05\a\a\aGunax lbh\a\aTert Ynzo\aSver Vafcrpgbe\aPvgl bs Pbhegranl\atynzo@pbhegranl.pn\aBssvpr Cubar 250-334-2513\aBssvpr Snk 250-897-1361\a\a\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
-ZBGBE IRUVPYR SVER FGENGUPBAN CXL/QHAPNA ONL ZNVA\a\aGunax lbh\a\aTert Ynzo\aSver Vafcrpgbe\aPvgl bs Pbhegranl\atynzo@pbhegranl.pn\aBssvpr Cubar 250-334-2513\aBssvpr Snk 250-897-1361\a\a\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
-ZIV FGENGUPBAN CXL / QHAPNA ONL ZNVA\a\aGunax lbh\a\aTert Ynzo\aSver Vafcrpgbe\aPvgl bs Pbhegranl\atynzo@pbhegranl.pn\aBssvpr Cubar 250-334-2513\aBssvpr Snk 250-897-1361\a\a\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
-ZBGBE IRUVPYR SVER  FGENGUPBAN CXL / QHAPNA ONL ZNVA\a\aGunax lbh\a\aTert Ynzo\aSver Vafcrpgbe\aPvgl bs Pbhegranl\atynzo@pbhegranl.pn\aBssvpr Cubar 250-334-2513\aBssvpr Snk 250-897-1361\a\a\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
-ZBGBE IRUVPYR SVER FGENGUPBAN CNEXJNL\a\aGunax lbh\a\aTert Ynzo\aSver Vafcrpgbe\aPvgl bs Pbhegranl\atynzo@pbhegranl.pn\aBssvpr Cubar 250-334-2513\aBssvpr Snk 250-897-1361\a\a\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
 (Sver Qvfcngpu) ZBGBE IRUVPYR SVER FGENGUPBAN CXL\a\aGunax lbh\a\aTert Ynzo\aSver Vafcrpgbe\aPvgl bs Pbhegranl\atynzo@pbhegranl.pn\aBssvpr Cubar 250-334-2513\aBssvpr Snk 250-897-1361\a\a\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
 (Sver Qvfcngpu) ZBGBE IRUVPYR SVER 0 FGENGUPBAN CXL\a\aGunax lbh\a\aTert Ynzo\aSver Vafcrpgbe\aPvgl bs Pbhegranl\atynzo@pbhegranl.pn\aBssvpr Cubar 250-334-2513\aBssvpr Snk 250-897-1361\a\a\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
 (Sver Qvfcngpu) ZIV Uvtujnl 19\a\aGunax lbh\a\aTert Ynzo\aSver Vafcrpgbe\aPvgl bs Pbhegranl\atynzo@pbhegranl.pn\aBssvpr Cubar 250-334-2513\aBssvpr Snk 250-897-1361\a\a\a\aQVFPYNVZRE- Guvf r-znvy naq nal nggnpuzragf znl pbagnva pbasvqragvny naq cevivyrtrq vasbezngvba. Nal hfr, qvfpybfher, pbclvat be qvffrzvangvba bs guvf vasbezngvba ol n crefba bgure guna na vagraqrq erpvcvrag vf abg nhgubevmrq naq znl or vyyrtny. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr abgvsl gur fraqre vzzrqvngryl ol erghea r-znvy, qryrgr guvf r-znvy naq qrfgebl nal pbcvrf. Shegure, bcvavbaf rkcerffrq ner fgevpgyl gur nhgube'f bja naq ner abg arprffnevyl gubfr bs gur Pvgl bs Pbhegranl.\e\a\e
@@ -283,12 +274,49 @@ Fraqre: cntvat@av911.pn
 (Sver Qvfcngpu) SVEFG ERFC Q 1600 Pbzbk Nir , Pbzbk ,OP 02/20/2013 14:44:53
 (Sver Qvfcngpu) GRFG 0 Sver Fgngvba Pbzbk , Pbzbk ,OP 02/20/2013 13:11:44
 
+Abgrf:  Perqvg $100
+
+"Zvq Vfynaq Ertvba" vf gur pbeerpg anzr bs gur cbyvgvpny fhoqvivfvba, ohg Tbbtyr qbrf abg erpbtavmr gung.
+fb qrsnhyg pvgll cnffrq gb pbafgehpgf arrqf gb or rzcgl.  
+Juvpu va ghea zrnaf gung cnefre jvyy unir gb bireevtr trgYbpAnzr() naq erghea fbzrguvat
+uhzna ernqnoyr yvxr "Zvq Vfynaq Ertvba, OP"
+
+Purpx gung fhowrpg vf "Sver Qvfcngpu"
+Frr vs gurer vf n \a va gur gkg obql, vs gurer vf, qryrgr rirelguvat sebz gurer ba.
+Oernx grkg obql hc ol pbzznf naq cnff gb cnefrSvryqf()
+
+Gur gevpxl cneg vf gung fbzrgvzrf gur pnyy qrfpevcgvba naq nqqerff tb va gur fnzr svryq
+naq fbzrgvzrf gurl ner frcnengrq ol pbzznf.  Gurer ner n pbhcyr jnlf gb unaqyr guvf. Zl
+pubvpr jbhyq or gb cnff n cebtenz fgevat bs
+PNYY? NQQE/MFP PVGL QNGRGVZR!
+
+Bireevqr QNGRGVZR svryq naq erghea QngrGvzrSvryq("OP (\q\q/\q\q/\q{4} \q\q:\q\q:\q\q)", gehr);
+Guvf qbrf gjb guvatf.  Vg znxrf guvf n fzneg svryq juvpu jvyy or hfrq gb qrgrezvar jurgure guvf 
+vf gur 3 svryq be 4 svryq sbez bs gur zrffntr.  Naq vg fgevcf gur yrnqvat OP bss orsber
+cnffvat gur svefg tebhc gur gur erthyne QngrGvzrSvryq cebprffbe
+
+Arkg jr unir gb bireevqr gur NQQE svryq.  Gur /MFP dhnyvsvref gryyf gur cnefre
+1) Qb abg hfr guvf svryq gb znxr qrpvfvbaf, xvpxvat gur pna qbja gur ebnq gb QNGRGVZR
+2) Hfr gur fzneg nqqerff cnefre naq gurer fubhyq or n yrnqvat pnyy qrfpevcgvba orsber
+   gur nqqerff
+Ohg jr unir gb nqq pbqr gb unaqyr gur fcyvg pnyy / nqqerff pnfr. juvpu jr qb ol bireevqqvat
+gur NQQE svryq jvgu bhe bja nqqerff svryq.  Vg'f cnefr() zrgubq purpxf gb frr vs fgePnyy yratgu > 0
+vs vg vf, whfg pnyy cnefrNqqerfff(svryq, qngn).  Vs abg, pnyy fhcre.cnefr(svryq, qngn)
+
+Nygreangr fbyhgvba juvpu jbhyq abg erdhver bireevqvat NQQE svryq jbhyq or gb hfr pbaqvgvbany
+oenapu jvgu onfvp svryqf.  FBzrguva yvxr
+( PNYY NQQE/M PVGL QNGRGVZR! | NQQE/MFP PVGL QNGRGVZR! )
+Lbh cvpx juvpu bar lbh jnag...
+
+V fgebatyl fhfcrpg gur fhcrepynff mreb fgerrg ahzore fhccerffvba jvyy abg jbex jura gur
+yrnqvat mreb vf abg gur svefg guvat va gur yvar.  Pnyy zr naq V jvyy gryy lbh unir gb svk gung.
+
 */
 
 choyvp pynff MPNOPZvqVfynaqErtvbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp MPNOPZvqVfynaqErtvbaCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "ZVQVFYNAQ ERTVBA", "OP");
+    frgCnefre(arj QhzzlCnefre(), "", "OP");
   }
   
   @Grfg
