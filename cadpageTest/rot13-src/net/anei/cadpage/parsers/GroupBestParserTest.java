@@ -6,6 +6,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.PB.PBObhyqrePbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBJryqPbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.PB.PBAbegutyraaRZFCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.AW.AWZreprePbhaglCnefre;
+vzcbeg arg.narv.pnqcntr.cnefref.GK.GKZbagtbzrelPbhaglCnefre;
 vzcbeg arg.narv.pnqcntr.cnefref.trareny.TrarenyCnefre;
 
 vzcbeg bet.whavg.Grfg;
@@ -16,10 +17,23 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgTrarenyNyreg() {
+    
+    frgCnefre(arj TebhcOrfgCnefre(arj TrarenyCnefre(), arj GKZbagtbzrelPbhaglCnefre()), "", "");
+    frgRkcYbpPbqr("GKZbagtbzrelPbhaglO");
+    frgQrsnhygf("ZBAGTBZREL PBHAGL", "GK");
+
+    qbGrfg("G17",
+        "(PNQ Zrffntr) 13-008577 - 7) 04/16/2013 18:45:46 18:45:46.000-[7] [Abgvsvpngvba] [Jbbqynaqf Sver]-Ceboyrz punatrq sebz Snyy gb Hapbafpvbhf/Snvagvat ol Jbbqynaqf Sver [Funerq]",
+        "PNYY:TRARENY NYREG",
+        "VQ:13-008577 - 7",
+        "CYNPR:[Jbbqynaqf Sver]-Ceboyrz punatrq sebz Snyy gb Hapbafpvbhf/Snvagvat ol Jbbqynaqf Sver",
+        "QNGR:04/16/2013",
+        "GVZR:18:45:46");
+    
     frgCnefre(arj TebhcOrfgCnefre(arj TrarenyCnefre(), arj AWZreprePbhaglCnefre()), "", "");
     frgRkcYbpPbqr("AWZreprePbhagl");
     frgQrsnhygf("ZREPRE PBHAGL", "AW");
-    qbGrfg("G1",
+    qbGrfg("G2",
         "HAVG: YF6 ; YNGR GHEA-NEBHAQ ;CYRNFR PNYY YVSRPBZZ JVGU LBHE FGNGHF ; (#1\e\a",
         "HAVG:YF6",
         "PNYY:TRARENY NYREG",
