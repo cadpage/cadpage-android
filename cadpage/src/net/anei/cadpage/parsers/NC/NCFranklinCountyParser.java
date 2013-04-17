@@ -28,7 +28,20 @@ public class NCFranklinCountyParser extends DispatchSouthernParser {
     "FRANKLINTON",
     "LOUISBURG",
     "WAKE FOREST", 
-    "YOUNGSVILLE"
+    "YOUNGSVILLE",
     
+    // Nash County
+    "CASTALIA",
+    "SPRING HOPE",
+    
+    // Vance County
+    "HENDERSON",
+    "KITTRELL",
+    
+    // Wake County
+    "ZEBULON",
+    
+    // Waren County
+    "WARRENTON"
    };
 }
