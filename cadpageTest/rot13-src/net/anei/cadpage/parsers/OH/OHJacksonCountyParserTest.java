@@ -19,7 +19,6 @@ Fraqre: nyregf@wnpxfbarzf.pbz
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Cflpuvngevp / Orunivbeny Rzretrapl/529 PNEE FG//18:04/cngvrag vf fhvpvqny naq arrqf gb or rinyhngrq
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Purfg Cnva/1000 IRGREAF QEVIR//16:21/cngvrag ba frpbaq sybbe bs nqran pyvavp pbzcynvavat bs purfg cnvaf
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Cbvfba / Vatrfgvba / Bireqbfr/2 RNFG ZBHAQ FG//14:29/19  lb srznyr  terra ubhfr
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0005-N (Eha# 1281) ng 11:23 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Trareny Fvpxarff/110 GVYYRL YA NCG P//11:23/cnavp nggnpx  69 lb srznyr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oernguvat Ceboyrzf/4 J OEBNQJNL FG//06:29/61 LB ZNYR. PBCQ.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Haxbja Ceboyrz/JVFPBAFVA NAQ P FG//09:28/75 lb znyr  3eq cnegl pnyy
@@ -35,7 +34,6 @@ Fraqre: nyregf@wnpxfbarzf.pbz
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Cngvrag Va Cnva/215 FRGU NIR/fcevat 6n/02:02/81 znyr / yrsg fubhyre cnva / cbfg snyy /
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Haerfcbafvir/1674 XRLFGBAR SHEANPR EQ.//21:43/sebz snyy/ uvg urnq.  terra qbhoyr jvqr ba gbc bs uvyy.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Purfg Cnva/710 A CRAA.   #19//17:23/ahzoarff va yrtf/ qvs oernguvat.   Cerivbhf urneg uvfgbel.
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0002-N (Eha# 1193) ng 10:41 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Pbyyvfvba/FE93//10:41/va sebag bs zvxrf bar fgbc
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Purfg Cnva/111 J. N. FGERRG//16:35/fubegarff bs oerngu/  zbovyr ubzr oruvaq nrebfny cynag.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Noqbzvany Cnva/1076 OEBUNEQ EQ.//18:49/Npebff oevqtr/ orvtr genvyre ba yrsg.  Arkg zbvoyr nsgre qhzcfgre.
@@ -43,12 +41,10 @@ Fraqre: nyregf@wnpxfbarzf.pbz
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Haerfcbafvir/118 YVZREVPX EQ.//17:39/pbeare bs ornire cvxr & yvzrevpx eq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Haxbja Ceboyrz/JNYZNEG//13:45/znantzrag pnyyrq fnvq fbzrbar sryy va cebqhpr nern
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oernguvat Ceboyrzf/140 CBJRYY QE//09:49/ohvyqvat r
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0002-N (Eha# 1168) ng 07:39 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Pneqvnp Neerfg/405 A CNEX NIR//07:39/RQTRJBBQ ZNABE
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Erfcvengbel Neerfg/4335 PU&Q EQ.//21:14/8 l/b.  Funec ERfvqrapr.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oernguvat Ceboyrzf/412 A. ZVPUVTNA NIR.//16:40/5 l/b/ nfguzn/ jurrmvat.  Erq ubhfr/  qrnq raq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Snyy/254 R ZNVA FG NCG 403//14:16/gur pnzoevna
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0007-N (Eha# 1154) ng 12:59 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oernguvat Ceboyrzf/1 CBJRYY QE//12:59/59 lb znyr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Trareny Fvpxarff/138 R FRPBAQ FG/302/02:02/38 znyr/ pbhtuvat
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Purfg Cnva/XEBTREF VA JRYYFGBA//22:10/PUNEYRF FNZZHG / BA Q FG  JNYXVAT GBJNEQF XEBTREF/
@@ -60,11 +56,9 @@ Fraqre: nyregf@wnpxfbarzf.pbz
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Snyy/172 NAQREFBA QE//15:16/erq prqne  86 lb znyr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oernguvat Ceboyrzf/24 F YBATJBEGU FG//12:37/54 lb srznyr  lryybj ubhfr terra fuhggref
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Noqbzvany Cnva/320 A BUVB  NIR.//21:50/juvgr/  tnentr ubzr/  terl iru bhg sebag.
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0012-N (Eha# 1108) ng 18:00 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Purfg Cnva/35 R PUHEPU FG.//18:00/juvgr zbovyr ubzr/ znebba fuhggref/ Pbnygba.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Haxbja Ceboyrz/NGURAF FG//15:11/ynfg oevpx ubhfr orsber gur birecnff
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Trareny Fvpxarff/349 R OEBNQJNL FG//11:01/orvtr ubhfr
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0006-N (Eha# 1102) ng 11:01 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Trareny Fvpxarff/349 R OEBNQJNL FG//11:01/orvtr ubhfr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Trareny Fvpxarff/349 R OEBNQJNL FG//09:43/73 lb znyr  orvtr ubhfr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Pbyyvfvba/HF 35 NG CNGGBAFIVYYR EQ//08:53/frzv jvgu rwrpgvba
@@ -78,11 +72,9 @@ Fraqre: nyregf@wnpxfbarzf.pbz
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Ynprengvba/2483 INA SBFFNA EQ//15:16/cvar evqtr sheavgher
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Pbyyvfvba/YVZREVPX EQ//13:02/ebyybire
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oernguvat Ceboyrzf/307 TNESVRYQ EQ//11:41/64 lb znyr  gna ubhfr
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0005-N (Eha# 1053) ng 11:36 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oernguvat Ceboyrzf/132 R 2AQ FG NCG O//11:36/49 lb srznyr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Haerfcbafvir/483 PUVYYVPBGUR FG//07:13/HAVGRQ ZRGUBQVFG PUHEPU
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Trareny Fvpxarff/249 JRFG 13GU FG//15:45/gjvfgrq naxyr
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0005-N (Eha# 1027) ng 12:33 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Purfg Cnva/711 F PBAA NIR//12:33/010
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Cbvfba / Vatrfgvba / Bireqbfr/96 A. PURFGAHG/ncg O/03:44/cbff bireqbfr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Pneqvnp Neerfg/3325 PNZON EQ//19:30/unatvat.  wpfb raebhgr.
@@ -93,24 +85,17 @@ Fraqre: nyregf@wnpxfbarzf.pbz
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Onpx Cnva/RNFG O FGERRG//11:23/SQ CREFBARY
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Pbyyvfvba/22059 FE 93//08:06/cbfg zip gung unccrarq arne jryyfgba fgnegrf thneqenvy.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Nppvqrag/8196 YVZREVPX EQ//01:42/QEVIRE PBZCYNVAVAT BS ONPX CNVA.
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Nppvqrag/8196 YVZREVPX EQ//01:42/QEVIRE PBZCYNVAVAT BS ONPX CNVA.
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Nppvqrag/8196 YVZREVPX EQ//01:42/QEVIRE PBZCYNVAVAT BS ONPX CNVA.
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Nppvqrag/8196 YVZREVPX EQ//01:42/QEVIRE PBZCYNVAVAT BS ONPX CNVA.
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Nppvqrag/8196 YVZREVPX EQ//01:42/QEVIRE PBZCYNVAVAT BS ONPX CNVA.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Nppvqrag/HF 35 @ FBHE EHA EQ//00:30/FVATYR IRUVPYR ZIN.
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0001-N (Eha# 988) ng 00:30 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Nppvqrag/HF 35 @ FBHE EHA EQ//00:30/FVATYR IRUVPYR ZIN.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Snyy/172 NAQREFBA QEVIR//23:35/pbeare bs naqrefba qe & syberapr nir.  Erq Prqne ubhfr.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oernguvat Ceboyrzf/1000 IRGRENAF QE//11:21/nqran  2aq sybbe
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Haerfcbafvir/200 GNSG FG//05:54/008
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Urneg Ceboyrzf/3166 SVIR CBVAGF EQ//22:52/ulcregrafvba.  1 zvyr fbhgu bs 32.  zbovyr ubzr/ 3 znvy obkrf ng raq bs qevir.
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0009-N (Eha# 976) ng 19:57 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Pbyyvfvba/11542 FG. EGR 139//19:57/qnex iru/ bire thneqenvy.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:snvagvat/280 CNGGBAFIVYYR EQ//15:22/hetrag pner
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Snyy/25 ZBHAQ FG//10:59/uvc cnva  fravbe pvgvmraf pragre
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Hapbafpvbhf/343 SEVQRZNXRE EQ//23:35/28 le byq srznyr /
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Pbyyvfvba/327 ABEGU / 2 ZVYRF//22:39/pne vf va perrx /
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0010-N (Eha# 942) ng 11:22 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Haerfcbafvir/125 YBPNF FG//11:22/srznyr / 64 lef byq/
 
 Pbagnpg: Npgvir911
@@ -118,7 +103,6 @@ Ntrapl anzr: Jryyfgba Sver Qrcnegzrag
 Ybpngvba: Jryyfgba, BU, Havgrq Fgngrf
 Fraqre: nyregf@wnpxfbarzf.pbz
 
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0013-N (Eha# 1304) ng 15:49 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Cngvrag Va Cnva/212 JRFG 9GU//15:49/fubhyqre vawhel 51 le byq znyr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Svefg Erfcbaqre Pnyy/512 PURNGJBBQ EQ//11:22/86 lb srznyr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oernguvat Ceboyrzf/570 J 1FG/204/10:23/SRZNYR/  71
@@ -135,19 +119,15 @@ Fraqre: nyregf@wnpxfbarzf.pbz
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Svefg Erfcbaqre Pnyy/132 R 2AQ FG NCG O//11:38/49 lb srznyr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Fgnaqol/FHCREVBE UNEQJBBQF//21:24/ng be arne guvf cynpr bs ohfvarff
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Purfg Cnva/401 JRFG Q FGERRG//16:43/fdhnq pbzvat sebz uzw re nyregrq svefg erfcbaqref.
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0011-N (Eha# 1033) ng 16:43 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Purfg Cnva/401 JRFG Q FGERRG//16:43/fdhnq pbzvat sebz uzw re nyregrq svefg erfcbaqref.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Pnyy/FG 1900//11:09/NAL NINVY SVERSVTUGRE ERFCBAQ CRE 1922
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Pnyy/30 F OEBNQJNL VA PBNYGBA/1 //21:46/fzbxr va ubhfr / onfr obneq urngref/
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oehfu Sver/HAVBA EVQTR BSS BS HF EG 50//15:35/Zhghny nvq jvgu Unzqra Sverq Qrcg/ erdhrfg zna cbjre naq oehfu gehpx
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Hapbafpvbhf/423 R 4GU//17:11/srznyr cg / / pbeare / juvgr wrrc naq terra pne /
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Purfg Cnva/515 R 6GU FG//23:10/srznyr
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0018-N (Eha# 769) ng 23:10 jnf hanffvtarq.
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Purfg Cnva/515 R 6GU FG//23:10/srznyr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Nppvqrag/1003 J 2AQ FG//03:46/IRUVPYR IF CBYR
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Iruvpyr Sver/F. CRAA/  NPEBFF SEBZ JRAQL'F.//21:12/npebff sebz jraqlf
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oehfu Sver/415 R FRPBAQ FG//16:27/pnyyre nqivfrq / tenff sver
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0015-N (Eha# 683) ng 16:27 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Oehfu Sver/415 R FRPBAQ FG//16:27/pnyyre nqivfrq / tenff sver
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Cngvrag Va Cnva/266 F ZVPUVTNA NIR//12:41/arrqvat nffvfgnapr bhg bs orq pnyyrq va ol fg. 8
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Svefg Erfcbaqre Pnyy/408 A ZVPUVTNA NIR//12:49/gna ubhfr  obng va sebag lneq
@@ -157,7 +137,6 @@ Fraqre: nyregf@wnpxfbarzf.pbz
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Pbyyvfvba/3088 SNVETERRAF EQ.//20:58/pne vagb n tnentr.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Nppvqrag/945 ZHYTN EQ//00:01/008
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Fgnaqol/2 F CRAA//22:46/iruvpny
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0010-N (Eha# 545) ng 12:38 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Frvmherf/JCQ//12:38/PNYYRQ VA OL JCQ CEVFBARE UNIVAT FRVMHERF
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Nppvqrag/A CRAAFLYINAVN NIR//01:40/NPPEBFF SEBZ QNEEBJ VAFHENAPR..008
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Svefg Erfcbaqre Pnyy/2151 ZHYTN EQ//12:17/ynlvat va gur ebnq
@@ -184,38 +163,50 @@ Fraqre: nyregf@wnpxfbarzf.pbz
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Pnyy/13GU NAQ QEVIVAT CNEX EQ//14:19/bvy fcvyy
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Purfg Cnva/425 F ZVFFBHEV NIR//21:57/008
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Nppvqrag/J OEBNQJNL//20:31/EBYYBIRE ZIN
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0009-N (Eha# 5218) ng 11:20 jnf hanffvtarq.
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Trareny Fvpxarff/80 GJYVTUG QE//11:20/62 lb srznyr  gna ubhfr znebba fuhggref
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Pnyy/908 WBYYL EQ//13:54/urael erfvqrapr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Pnyy/ARJ LBEX NIR GB ZHYTN EQ//13:41/shry ba gur ebnq
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Nynez/1183 XVFBE EQ//07:17/ERS # 322-160-160
-(Qvfcngpu Nyreg - cneg 1 bs 1) Pnapry nynez pnyy gb Gur Qrgbhe
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Haerfcbafvir/620 F ZVPUVTNA//00:19/srznyr / cg /
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Pnyy/300 TENQL YA//19:58/gerr npebff eq
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Fgebxr / PIN/JVFPBAFVA NAQ 2AQ FGERRG//00:21/Pnyyrq ol jcq. Cbffvoyr fgebxr
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Fgnaqol/122 J 11GU FG//05:52/FZRYY BS JVERF OHEAVAT-
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0011-N/ Eha# 5030/ jnf Pnapryrq: Sver Pnyy Pbzcyrgrq/15:10/15:10/15:12/15:20/16:43
 (Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Pbyyvfvba/FE 327//15:03/ol gur qrre snez
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0011-N/ Eha# 5014/ jnf Pnapryrq: 1fg Erfcbaqre Pbzcyrgrq/14:20/14:34/14:34/14:34/14:34
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Qeht Bireqbfr/314 RNFG 7GU FGERRG//Juvgr bar naq unys fgbel orfvqr nyyrl/14:11/Eha# 5014
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0011-N (Eha# 5014) ng 14:11 jnf hanffvtarq.
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Qeht Bireqbfr/314 RNFG 7GU FGERRG//Juvgr bar naq unys fgbel orfvqr nyyrl/14:11/Eha# 5014
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0015-N/ Eha# 5002/ jnf Pnapryrq: 1fg Erfcbaqre Pbzcyrgrq/20:28/20:28/20:32/20:32/20:39
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Yvsg Nffvfg/22 A ZVPUVTNA//YVFG NFFVFG JVGU 8-2/20:28/Eha# 5002
-(Qvfcngpu Nyreg - cneg 1 bs 1) QVFERTNEQ...QVFERTNEQ
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0007-N (Eha# 4994) ng 11:06 jnf hanffvtarq.
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Haxabja Ceboyrz / Zna Qbja/2109 TRVXR EVQTR EQ//QVNORGVP...008/11:06/Eha# 4994
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0015-N/ Eha# 4985/ jnf Pnapryrq: Sver Pnyy Pbzcyrgrq/16:59/16:59/17:00/17:02/17:55
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Pnyy/JRAQLF GBJEQF ARJ LBEX//Angheny tnf bqbe. Pnyyrq va ol JCQ/16:59/Eha# 4985
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0011-N/ Eha# 4981/ jnf Pnapryrq: Sver Pnyy Pbzcyrgrq/14:36/14:36/14:37/14:47/14:59
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Pnyy/652 ZNVA FG ORLRE//cbjre obk bs n pnzcre vf ba sver/14:36/Eha# 4981
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0003-N/ Eha# 4973/ jnf Pnapryrq: Sver Pnyy Pbzcyrgrq/00:57/00:57/01:03/01:03/01:18
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Haerfcbafvir/300 TENQL YNAR/66/znyr/ cngvrag / 27/00:57/Eha# 4973
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Wbo# 0011-N/ Eha# 4968/ jnf Pnapryrq: Grfg Pnyy/21:24/21:24/21:25
-(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Fgnaqol/2 ABEGU CRAA//Cbff ubhfr ubhfr / / puevfgvaznf cnegl nyfb ba Qrp 15 1800uef/ nyy zhfg nggraq/21:24/Eha# 4968
-(Qvfcngpu Nyreg - cneg 1 bs 1) grfg
-(Grfg) Grfg \a\aNneba Qhcerr
-(Grfg) Grfg \a\aNneba Qhcerr
+
+Perqvg $150 - guvf tbg pbzcyvpngrq :(
+
+Guvf vf pyrneyl onfrq ba cntrf abeznyyl cebprffrq ol QvfcngpuCebDNCnefre.  Ohg unf orra nygrerq gb gur
+cbvag jurer vg vf whfg abg jbegu hfvat gur onfr pynff.  Fb whfg fhopynff ba SvryqCebtenzCnefre
+
+Purpx gung fhowrpg fgnegf jvgu "Qvfcngpu Nyreg".
+Purpx gung grkg fgnegf jvgu "EP:" naq erzbir
+Fcyvg grkg ol "/+" cnggra naq cnff gb cnefr svryqf
+
+Gel cebtenz fgevat bs PNYY NQQE GVZR? VASB+
+Qeng, abg tbvat gb or gung fvzcyr.  Bcgvbany cynpr naq ncg svryqf unir gb or pbafvqrerq :(
+Naq pnyy qrfpevcgvba pbagnvavat fynfurf (fvtu..) Guvf vf tbvat gb trg htyl.
+
+Bayl jnl gb qvfgvathvfu cynpr anzrf sebz fynfurf va pnyy qrfpevcgvba vf orpnhfr fynfurf va
+pnyy qrfpevcgvbaf nyjnlf unir n fcnpr ba rvgure fvqr.  Ohg jr pna'g hfr gung qrsvavgvba
+nppebff gur obneq orpnhfr nyy fynfurf va gur vasb frpgvba arrq gb or pbafvqrerq svryq qryvzvgref
+fb....
+
+Qrpyner n fgngvp QRYVZ cnggrea onfrq ba 
+(?<![/ ])/+(?![/ ])
+Gung jbhyq or nal ahzore bs fynfurf gung yrnq naq sbyybj fbzrguvat bgure guna n fynfu be fcnpr
+
+Frnepu grkg sbe svefg QRYVZ zngpu.  Rirelguvat orsber gung cbvag fgnlf gur fnzr.  Va rirelguvat 
+nsgre gung cbvag, qb n cnggrea ercynpr " <fgne>/+ *" jvgu "/" fhofgvghgr * sbe <fgne>
+Abj jr pna hfr QRYVZ gb oernx hc gur cnefvat svryqf jvgubhg fcyvggvat hc gur pnyy qrfpevcgvba
+
+Arkg, yrgf gel cebtenz fgevat bs 
+PNYY ( CYNPR NQQE/M NCG GVZR! | NQQE/M NCG GVZR! | CYNPR NQQE GVZR! | NQQE GVZR! ) VASB+
+
+Birevqr NQQE svryq.  Ercynpr @ jvgu &.  Ercynpr crevbq jvgu abguvat
+Bireevqr NCG svryq.  Fubhyq or fzneg svryq gung vf inyvq bayl vs yratgu <= 4 naq qbrf abg pbagnva n pbyba.
+ Lbh pna whfg qrsvar cnggrea bs "[^:]{1,4}" be jevgr lbhe bja svryq.
+Bireevqr GVZR svryq.  Zhfg zngpu cnggrea \q\q:\q\q
+
 
  */
 
