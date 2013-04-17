@@ -298,7 +298,8 @@ public abstract class SmartAddressParser extends MsgParser {
         "WALK",
         "CUTOFF",
         "RCH", "REACH",
-        "ARCH");
+        "ARCH",
+        "MNR", "MANOR");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
     setupDictionary(ID_AMBIG_ROAD_SFX, 
@@ -1745,7 +1746,7 @@ public abstract class SmartAddressParser extends MsgParser {
     startNdx = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
     
     // GPS Coordinates can now contain blanks, which we need to go to some trouble
-    // to temporarily replace so they do not result int he coordnates being broken up
+    // to temporarily replace so they do not result in the coordinates being broken up
     String altGPSCoords = null;
     if (gpsCoords != null && gpsCoords.contains(" ")) {
       altGPSCoords = gpsCoords.replace(' ', '~');

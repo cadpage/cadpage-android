@@ -13,9 +13,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class CTNorthwestPublicSafetyParser extends SmartAddressParser {
   
   private static final Pattern UNIT_PTN = Pattern.compile("\\b(?:ROX?|TANGO)\\b");
+  private static final Pattern APT_EXT_PTN = Pattern.compile("UNIT|ROOM|RM|LOT|SUITE|FLR|1ST|2ND|3RD", Pattern.CASE_INSENSITIVE);
 
   public CTNorthwestPublicSafetyParser() {
     super(CITY_LIST, "", "CT");
+    setFieldList("ADDR APT PLACE CITY CALL UNIT ID");
   }
   
   @Override
@@ -37,9 +39,32 @@ public class CTNorthwestPublicSafetyParser extends SmartAddressParser {
     String sAddr = p.get("Primary Incident:");
     data.strCallId = p.get(' ');
     if (data.strCallId.length() == 0) return false;
+    String sAddr2 = p.get();
     
-    sAddr = sAddr.replace(',', ' ').trim();
-    parseAddress(StartType.START_ADDR, sAddr, data);
+    
+    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, sAddr.replace(',', ' '), data);
+    data.strPlace = getPadField();
+    if (data.strApt.startsWith("(")) {
+      pt = data.strPlace.indexOf(')');
+      if (pt >= 0) {
+        data.strApt = data.strApt + ' ' + data.strPlace.substring(0,pt+1);
+        data.strPlace = data.strPlace.substring(pt+1).trim();
+      }
+    } 
+    else if (APT_EXT_PTN.matcher(data.strApt).matches()) {
+      p = new Parser(data.strPlace);
+      data.strApt = append(data.strApt, " ", p.get(' '));
+      data.strPlace = p.get();
+    }
+    else if (data.strApt.equals("PARKING") && data.strPlace.startsWith("LOT")) {
+      data.strApt = "PARKING LOT";
+      data.strPlace = data.strPlace.substring(3).trim();
+    }
+    else if (data.strApt.length() == 0 && data.strPlace.startsWith("&")) {
+      data.strAddress = data.strAddress + " " + data.strPlace;
+      data.strPlace = "";
+    }
+    
     body = getLeft();
     Matcher match = UNIT_PTN.matcher(body);
     if (match.find()) {
@@ -47,6 +72,16 @@ public class CTNorthwestPublicSafetyParser extends SmartAddressParser {
       body = body.substring(0,match.start()).trim();
     }
     data.strCall = body;
+    
+    // There is a Primary Incident address at the end of the call that
+    // is usually the same as the initial address.  When it is different
+    // it is the address that we should use, unless it is just a truncated
+    // version of the initial address
+    if (!sAddr.startsWith(sAddr2)) {
+      data.strAddress = "";
+      data.strApt = "";
+      parseAddress(StartType.START_ADDR, sAddr2.replace(',', ' '), data);
+    }
     return true;
   }
   
