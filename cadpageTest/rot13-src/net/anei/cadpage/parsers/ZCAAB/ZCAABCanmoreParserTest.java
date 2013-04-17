@@ -64,7 +64,6 @@ Fraqre: YhpuvnZ@serfp.pn
 (Evc & Eha) 08:44NZ PNYY 10q04 NG 5-701 tbireazrag eq f, tyra zrnq 1, oynpx qvnzbaq
 (Evc & Eha) 08:44NZ PNYY 10q04 NG 5-701 tbireazrag eq f, tyra zrnq 1, oynpx qvnzbaq
 (Evc & Eha) 07:57CZ PNYY 52o01 NG 1300 bxnygn eq fj, gheare inyyrl
-
 (Evc & Eha) 09:48NZ PNYY 71q01 NG 509 fhaevfr uvyy fj, gheare inyyrl \e\a
 (Evc & Eha) 10:16NZ PNYY 10p04 NG 210 1 nir fj, oynpx qvnzbaq \e\a
 (Evc & Eha) 10:27NZ PNYY 29o01 NG * 176022 22 ujl, h:11 p:90, sbbguvyyf zq \e\a
@@ -78,6 +77,34 @@ Fraqre: YhpuvnZ@serfp.pn
 (Evc & Eha) 01:17CZ PNYY 65n02 NG 717 tbireazrag eq f, oynpx qvnzbaq \e\a
 (Evc & Eha) 06:55CZ PNYY 65n01 NG 115 prager nir j, oynpx qvnzbaq \e\a
 (Evc & Eha) 10:13NZ PNYY 65n01 NG 717 tbireazrag eq f, oynpx qvnzbaq \e\a
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Sbbguvyyf Sver Qrcg  Ybativrj Fgngvba
+Ybpngvba: Ybativrj, Nyoregn, Pnanqn
+Fraqre: YhpuvnZ@serfp.pn
+
+(Evc & Eha) 09:14CZ PNYY 12q02 NG 0 fj_13_17_4_j5, ubhfr 77, rqra inyyrl ve 216 
+(Evc & Eha) 04:26CZ PNYY 65n04 NG 216 eblnygvrf pe, yvsg nffvfg, ybativrj 
+(Evc & Eha) 11:20CZ PNYY 67o01 NG , ubhfr 87, rqra inyyrl 
+(Evc & Eha) 09:51CZ PNYY 65o02 NG 13-10 17_4_j5, ubhfr 13, rqra inyyrl ve 216 
+(Evc & Eha) 10:09CZ PNYY 65o02 NG , ubhfr 66, rqra inyyrl erfreir 
+(Evc & Eha) 04:14NZ PNYY 27q03 NG 0 ar_11_17_4_j5, ubhfr 62, rqra inyyrl ve 216 
+(Evc & Eha) 09:43CZ PNYY 65n04 NG 123 xrr qe, ohzclf cvg fgbc, ybativrj 
+(Evc & Eha) 09:37CZ PNYY 21q01 NG , ubhfr 72 rqra inyyrl, rqra inyyrl erfreir 
+(Evc & Eha) 07:23CZ PNYY 69q01 NG 22 ujl & 176 fg j, sbbguvyyf zq 
+(Evc & Eha) 10:08CZ PNYY 65o02 NG 541 ujl & 40 ujl, xnananfxvf vq 
+(Evc & Eha) 11:42CZ PNYY 10q04 NG 0 ubhfr_3, rqra inyyrl erfreir 
+(Evc & Eha) 10:03NZ PNYY 52p01 NG , puvrs wnpbo ornefcnj fpubby, rqra inyyrl 
+(Evc & Eha) 03:02CZ PNYY 21q02 NG #fr_14_17_4_j5, rqra inyyrl neran, rqra inyyrl ve 216 
+(Evc & Eha) 10:51NZ PNYY 26p02 NG yng 50.433560 yba -114.440860, ufr 109, sbbguvyyf zq 
+(Evc & Eha) 12:49CZ PNYY 65o02 NG 32015 562 nir j, sbbguvyyf zq 
+(Evc & Eha) 02:32CZ PNYY 69q01 NG ubhfr 8,  
+(Evc & Eha) 08:58CZ PNYY 65o02 NG , ufr 52, rqra inyyrl erfreir 
+(Evc & Eha) 05:43CZ PNYY 29q01 NG 530 nir j & 144 fg j, sbbguvyyf zq 
+(Evc & Eha) 05:32CZ PNYY 29q02 NG 0 fj_4_17_4_j5, cg vf ng choyvp jbexf, rqra inyyrl ve 216 
+(Evc & Eha) 05:18CZ PNYY 12n01 NG 0 ubhfr_72, rqra inyyrl erfreir 
+(Evc & Eha) 04:36CZ PNYY 29q02 NG 0 fj_4_17_4_j5, cg vf ng choyvp jbexf, rqra inyyrl ve 216 
+(Evc & Eha) 04:09NZ PNYY 23p02 NG 0 ar_14_17_4_j5, ubhfr 112, rqra inyyrl ve 216 
 
 */
 choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -543,7 +570,185 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
   
+  @Grfg
+  choyvp ibvq grfgSbbguvyyfSver() {
+
+    qbGrfg("G1",
+        "(Evc & Eha) 09:14CZ PNYY 12q02 NG 0 fj_13_17_4_j5, ubhfr 77, rqra inyyrl ve 216 ",
+        "GVZR:21:14:00",
+        "PNYY:12q02",
+        "NQQE:fj 13 17 4 j5",
+        "ZNQQE:ubhfr 77,fj 13 17 4 j5",
+        "CYNPR:ubhfr 77",
+        "PVGL:rqra inyyrl ve 216");
+
+    qbGrfg("G2",
+        "(Evc & Eha) 04:26CZ PNYY 65n04 NG 216 eblnygvrf pe, yvsg nffvfg, ybativrj ",
+        "GVZR:16:26:00",
+        "PNYY:65n04",
+        "NQQE:216 eblnygvrf pe",
+        "ZNQQE:216 eblnygvrf pve",
+        "CYNPR:yvsg nffvfg",
+        "PVGL:ybativrj");
+
+    qbGrfg("G3",
+        "(Evc & Eha) 11:20CZ PNYY 67o01 NG , ubhfr 87, rqra inyyrl ",
+        "GVZR:23:20:00",
+        "PNYY:67o01",
+        "NQQE:ubhfr 87",
+        "PVGL:rqra inyyrl");
+
+    qbGrfg("G4",
+        "(Evc & Eha) 09:51CZ PNYY 65o02 NG 13-10 17_4_j5, ubhfr 13, rqra inyyrl ve 216 ",
+        "GVZR:21:51:00",
+        "PNYY:65o02",
+        "NQQE:13-10 17 4 j5",
+        "ZNQQE:13 17 4 j5",
+        "CYNPR:ubhfr 13",
+        "PVGL:rqra inyyrl ve 216");
+
+    qbGrfg("G5",
+        "(Evc & Eha) 10:09CZ PNYY 65o02 NG , ubhfr 66, rqra inyyrl erfreir ",
+        "GVZR:22:09:00",
+        "PNYY:65o02",
+        "NQQE:ubhfr 66",
+        "PVGL:rqra inyyrl erfreir");
+
+    qbGrfg("G6",
+        "(Evc & Eha) 04:14NZ PNYY 27q03 NG 0 ar_11_17_4_j5, ubhfr 62, rqra inyyrl ve 216 ",
+        "GVZR:04:14:00",
+        "PNYY:27q03",
+        "NQQE:ar 11 17 4 j5",
+        "ZNQQE:ubhfr 62,ar 11 17 4 j5",
+        "CYNPR:ubhfr 62",
+        "PVGL:rqra inyyrl ve 216");
+
+    qbGrfg("G7",
+        "(Evc & Eha) 09:43CZ PNYY 65n04 NG 123 xrr qe, ohzclf cvg fgbc, ybativrj ",
+        "GVZR:21:43:00",
+        "PNYY:65n04",
+        "NQQE:123 xrr qe",
+        "CYNPR:ohzclf cvg fgbc",
+        "PVGL:ybativrj");
+
+    qbGrfg("G8",
+        "(Evc & Eha) 09:37CZ PNYY 21q01 NG , ubhfr 72 rqra inyyrl, rqra inyyrl erfreir ",
+        "GVZR:21:37:00",
+        "PNYY:21q01",
+        "NQQE:ubhfr 72 rqra inyyrl",
+        "PVGL:rqra inyyrl erfreir");
+
+    qbGrfg("G9",
+        "(Evc & Eha) 07:23CZ PNYY 69q01 NG 22 ujl & 176 fg j, sbbguvyyf zq ",
+        "GVZR:19:23:00",
+        "PNYY:69q01",
+        "NQQE:22 ujl & 176 fg j",
+        "ZNQQE:ujl 22 & 176 fg j",
+        "PVGL:sbbguvyyf zq");
+
+    qbGrfg("G10",
+        "(Evc & Eha) 10:08CZ PNYY 65o02 NG 541 ujl & 40 ujl, xnananfxvf vq ",
+        "GVZR:22:08:00",
+        "PNYY:65o02",
+        "NQQE:541 ujl & 40 ujl",
+        "ZNQQE:ujl 541 & ujl 40",
+        "PVGL:xnananfxvf vq");
+
+    qbGrfg("G11",
+        "(Evc & Eha) 11:42CZ PNYY 10q04 NG 0 ubhfr_3, rqra inyyrl erfreir ",
+        "GVZR:23:42:00",
+        "PNYY:10q04",
+        "NQQE:ubhfr 3",
+        "PVGL:rqra inyyrl erfreir");
+
+    qbGrfg("G12",
+        "(Evc & Eha) 10:03NZ PNYY 52p01 NG , puvrs wnpbo ornefcnj fpubby, rqra inyyrl ",
+        "GVZR:10:03:00",
+        "PNYY:52p01",
+        "NQQE:puvrs wnpbo ornefcnj fpubby",
+        "PVGL:rqra inyyrl");
+
+    qbGrfg("G13",
+        "(Evc & Eha) 03:02CZ PNYY 21q02 NG #fr_14_17_4_j5, rqra inyyrl neran, rqra inyyrl ve 216 ",
+        "GVZR:15:02:00",
+        "PNYY:21q02",
+        "NCG:fr 14 17 4 j5",
+        "CYNPR:rqra inyyrl neran",
+        "PVGL:rqra inyyrl ve 216");
+
+    qbGrfg("G14",
+        "(Evc & Eha) 10:51NZ PNYY 26p02 NG yng 50.433560 yba -114.440860, ufr 109, sbbguvyyf zq ",
+        "GVZR:10:51:00",
+        "PNYY:26p02",
+        "NQQE:yng 50.433560 yba -114.440860",
+        "ZNQQE:ufr 109,yng 50.433560 yba -114.440860",
+        "CYNPR:ufr 109",
+        "PVGL:sbbguvyyf zq");
+
+    qbGrfg("G15",
+        "(Evc & Eha) 12:49CZ PNYY 65o02 NG 32015 562 nir j, sbbguvyyf zq ",
+        "GVZR:12:49:00",
+        "PNYY:65o02",
+        "NQQE:32015 562 nir j",
+        "PVGL:sbbguvyyf zq");
+
+    qbGrfg("G16",
+        "(Evc & Eha) 02:32CZ PNYY 69q01 NG ubhfr 8,  ",
+        "GVZR:14:32:00",
+        "PNYY:69q01",
+        "NQQE:ubhfr 8");
+
+    qbGrfg("G17",
+        "(Evc & Eha) 08:58CZ PNYY 65o02 NG , ufr 52, rqra inyyrl erfreir ",
+        "GVZR:20:58:00",
+        "PNYY:65o02",
+        "NQQE:ufr 52",
+        "PVGL:rqra inyyrl erfreir");
+
+    qbGrfg("G18",
+        "(Evc & Eha) 05:43CZ PNYY 29q01 NG 530 nir j & 144 fg j, sbbguvyyf zq ",
+        "GVZR:17:43:00",
+        "PNYY:29q01",
+        "NQQE:530 nir j & 144 fg j",
+        "PVGL:sbbguvyyf zq");
+
+    qbGrfg("G19",
+        "(Evc & Eha) 05:32CZ PNYY 29q02 NG 0 fj_4_17_4_j5, cg vf ng choyvp jbexf, rqra inyyrl ve 216 ",
+        "GVZR:17:32:00",
+        "PNYY:29q02",
+        "NQQE:fj 4 17 4 j5",
+        "ZNQQE:cg vf ng choyvp jbexf,fj 4 17 4 j5",
+        "CYNPR:cg vf ng choyvp jbexf",
+        "PVGL:rqra inyyrl ve 216");
+
+    qbGrfg("G20",
+        "(Evc & Eha) 05:18CZ PNYY 12n01 NG 0 ubhfr_72, rqra inyyrl erfreir ",
+        "GVZR:17:18:00",
+        "PNYY:12n01",
+        "NQQE:ubhfr 72",
+        "PVGL:rqra inyyrl erfreir");
+
+    qbGrfg("G21",
+        "(Evc & Eha) 04:36CZ PNYY 29q02 NG 0 fj_4_17_4_j5, cg vf ng choyvp jbexf, rqra inyyrl ve 216 ",
+        "GVZR:16:36:00",
+        "PNYY:29q02",
+        "NQQE:fj 4 17 4 j5",
+        "ZNQQE:cg vf ng choyvp jbexf,fj 4 17 4 j5",
+        "CYNPR:cg vf ng choyvp jbexf",
+        "PVGL:rqra inyyrl ve 216");
+
+    qbGrfg("G22",
+        "(Evc & Eha) 04:09NZ PNYY 23p02 NG 0 ar_14_17_4_j5, ubhfr 112, rqra inyyrl ve 216 ",
+        "GVZR:04:09:00",
+        "PNYY:23p02",
+        "NQQE:ar 14 17 4 j5",
+        "ZNQQE:ubhfr 112,ar 14 17 4 j5",
+        "CYNPR:ubhfr 112",
+        "PVGL:rqra inyyrl ve 216");
+   
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj MPNNOPnazberCnefreGrfg().trarengrGrfgf("G9", "GVZR PNYY NQQE NCG CYNPR PVGL");
+    arj MPNNOPnazberCnefreGrfg().trarengrGrfgf("G1");
   }
 }

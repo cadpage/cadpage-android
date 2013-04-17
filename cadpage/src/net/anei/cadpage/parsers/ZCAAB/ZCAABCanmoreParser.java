@@ -18,6 +18,7 @@ public class ZCAABCanmoreParser extends MsgParser {
   
   public ZCAABCanmoreParser() {
     super("CANMORE", "AB");
+    setFieldList("TIME CALL ADDR APT PLACE CITY");
   }
   
   @Override
