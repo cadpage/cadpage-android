@@ -113,7 +113,7 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
   
   private class MyUnitField extends UnitField {
     public MyUnitField() {
-      super("(?:[0-9]?[A-Z]+[0-9]+|[0-9]{4})(?:,[A-Z0-9,]+)?", true);
+      super("(?:[0-9]?[A-Z]+[0-9]+|[0-9]{4})(?:[,\\$][A-Z0-9,\\$]+)?", true);
     }
     @Override
     public void parse(String field, Data data) {
