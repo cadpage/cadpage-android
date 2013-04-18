@@ -16,6 +16,10 @@ QBE911:PG:IRUVPYR SVER UNEQRRF @800 JBBQF EQ PNZO OBK:1-1 QHR:RA1-3 RA1-4 :QP
 QBE911:PG:FGEHPGHER SVER 118 IVETVAVN NIR PNZO OBK:1-1 QHR: RA1-1 RA1-2 RA1-3 EF1-1 GJ1-1 C100 :QP
 QBE911:PG:FVPX CREFBA 5226 JBBQF EQ @PNZOEVQTR PYHO NCG 6 NCG 6127 PNZO OBK:1-1 QHR: C101 EF1-1 :QP
 
+Pbagnpg: pjnlarpbbx@nby.pbz <pjnlarpbbx@nby.pbz>
+Fraqre: QBE911@qbpbtbarg.pbz
+QBE911:PG:OBNG HAX QVFGERFF BLFGREFURYY CG OBK:21-5 QHR:RA21-1 RA21-2 QI1-1 OG1-1 OG26-1 C100 N16-1 :QP
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Erfphr Sver Pbzcnal Fgn. 1
 Ybpngvba: Pnzoevqtr, ZQ, Havgrq Fgngrf
@@ -99,6 +103,66 @@ choyvp pynff ZQQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZQQbepurfgrePbhaglCnefreGrfg() {
     frgCnefre(arj ZQQbepurfgrePbhaglCnefre(), "QBEPURFGRE PBHAGL", "ZQ");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgElnaGeniref() {
+
+    qbGrfg("G1",
+        "QBE911:PG:PBZZREPVNY SVER NYNE 2715 BPRNA TGJL @UBYVQNL VAA PNZO OBK:1-1 QHR:RA1-1 RA1-2 :QP",
+        "PNYY:PBZZREPVNY SVER NYNE",
+        "NQQE:2715 BPRNA TGJL",
+        "PVGL:PNZOEVQTR",
+        "CYNPR:UBYVQNL VAA",
+        "OBK:1-1",
+        "HAVG:RA1-1 RA1-2");
+
+    qbGrfg("G2",
+        "QBE911:PG:TNF YRNX BHGFVQR 513 ENPR FG PNZO OBK:1-2 QHR: RA1-1 RA1-2 :QP",
+        "PNYY:TNF YRNX BHGFVQR",
+        "NQQE:513 ENPR FG",
+        "PVGL:PNZOEVQTR",
+        "OBK:1-2",
+        "HAVG:RA1-1 RA1-2");
+
+    qbGrfg("G3",
+        "QBE911:PG:IRUVPYR SVER UNEQRRF @800 JBBQF EQ PNZO OBK:1-1 QHR:RA1-3 RA1-4 :QP",
+        "PNYY:IRUVPYR SVER UNEQRRF",
+        "NQQE:800 JBBQF EQ",
+        "PVGL:PNZOEVQTR",
+        "OBK:1-1",
+        "HAVG:RA1-3 RA1-4");
+
+    qbGrfg("G4",
+        "QBE911:PG:FGEHPGHER SVER 118 IVETVAVN NIR PNZO OBK:1-1 QHR: RA1-1 RA1-2 RA1-3 EF1-1 GJ1-1 C100 :QP",
+        "PNYY:FGEHPGHER SVER",
+        "NQQE:118 IVETVAVN NIR",
+        "PVGL:PNZOEVQTR",
+        "OBK:1-1",
+        "HAVG:RA1-1 RA1-2 RA1-3 EF1-1 GJ1-1 C100");
+
+    qbGrfg("G5",
+        "QBE911:PG:FVPX CREFBA 5226 JBBQF EQ @PNZOEVQTR PYHO NCG 6 NCG 6127 PNZO OBK:1-1 QHR: C101 EF1-1 :QP",
+        "PNYY:FVPX CREFBA",
+        "NQQE:5226 JBBQF EQ",
+        "NCG:6 NCG 6127",
+        "PVGL:PNZOEVQTR",
+        "CYNPR:PNZOEVQTR PYHO",
+        "OBK:1-1",
+        "HAVG:C101 EF1-1");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPJnlarPbbx() {
+
+    qbGrfg("G1",
+        "QBE911:PG:OBNG HAX QVFGERFF BLFGREFURYY CG OBK:21-5 QHR:RA21-1 RA21-2 QI1-1 OG1-1 OG26-1 C100 N16-1 :QP",
+        "PNYY:OBNG HAX QVFGERFF",
+        "NQQE:BLFGREFURYY CG",
+        "OBK:21-5",
+        "HAVG:RA21-1 RA21-2 QI1-1 OG1-1 OG26-1 C100 N16-1");
+   
   }
   
   @Grfg

@@ -10,6 +10,7 @@ public class MDDorchesterCountyParser extends FieldProgramParser {
   public MDDorchesterCountyParser(){
     super(CITY_CODE_TABLE, "DORCHESTER COUNTY", "MD",
            "CT:ADDR/S0C! BOX:BOX! DUE:UNIT!");
+    addNauticalTerms();
   }
   
   public String getFilter() {

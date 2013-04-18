@@ -368,6 +368,17 @@ public abstract class SmartAddressParser extends MsgParser {
   }
   
   /**
+   * Add vocabulary to identify nautical locations
+   */
+  protected void addNauticalTerms() {
+    setupDictionary(ID_ROAD_SFX, 
+        "POINT", "PT",
+        "BAY",
+        "STRAIGHT",
+        "ISLAND", "ISLE");
+  }
+  
+  /**
    * Add additional words that should not be allowed in address fields
    * @param words words to be added to list of invalid address words
    */
