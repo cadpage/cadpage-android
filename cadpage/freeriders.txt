@@ -196,7 +196,7 @@ William Strite (wefr15@cinci.rr.com)
 yanksgt@gmail.com
 Zach Smith (zachsmith.91142@gmail.com)(bigz1232003@yahoo.com)
 
-// List of users getting credit for 2011
+// List of PAID users getting credit for 2011
 %2011
 %%10/01/2011
 Angus Duff (angus.duff66@gmail.com)(aduff@everestkc.net)
@@ -494,7 +494,7 @@ Guilford County 911 (GCES.C1450@gmail.com)
 Boiling Springs #1 (bsfd09@gmail.com)
 Boiling Springs #2 (bsfd10@gmail.com)
 
-// List of users getting free credit for 2011
+// List of users getting FREE credit for 2011
 %2011/FREE
 %%10/14/2011
 >>pedro saldanha (psaldanha3115@gmail.com)
@@ -1091,7 +1091,7 @@ Daniel Marlow (marlow4030@gmail.com)<dmarlow4030@gmail.com>
 >>"crazyredneck4747@aol.com" (crazyredneck4747@gmail.com)<crazyredneck4747@aol.com>
 
 
-// List of users getting credit for 2012
+// List of PAID users getting credit for 2012
 %2012
 Robert Tripe <rmtripe@gmail.com>
 Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com)
@@ -1765,6 +1765,7 @@ Jeremy Hertzog (ltfd5404@gmail.com) <lt665404@gmail.com> // market problem email
 Shane Jacobs (ncsirfr@hotmail.com) // PayPal
 %%12/09/2012
 Mike Clemens (michael.clemens@montgomerycountymd.gov).// Paypal paid twice $15
+David Carter (firecaptainl1b.dc@gmail.com) <firecaptainl1@yahoo.com> // market problem email change
 %%12/10/2012
 Chad Wood (chadwood5601@gmail.com) (woodmichael18@yahoo.com) // PayPal
 tom mitchell (halagin1969@gmail.com) (twmitchell40@yahoo.com) // PayPal
@@ -2150,7 +2151,8 @@ Paul Cappello <pfc868@gmail.com> // market problem
 Jon Montgomery (ltjonm63@gmail.com) (j4monk@msn.com) // PayPal on 4/13/13
 %%04/15/2013
  Jeffrey Taylor (jtaylorifd@gmail.com) (jtaylorifd@aol.com) // PayPal
- 
+%%04/17/2013
+Greg Klein (greg.klein65@gmail.com) (greg.klein@fuse.net) // PayPal
 %%04/18/2013
 Pat Gillott <pgill107@gmail.com> // Lackawanna County, PA
 
@@ -2978,7 +2980,7 @@ david west (cvfd1386@gmail.com) <cvfd02exp@yahoo.com>
 Nick Codiga <ncodiga@gmail.com>
 %%05/21/2012
 Anthony Lee <anthonylee254@gmail.com>
-Kyle (kmac249624@gmail.com) <kmac2496@yahoo.com>
+Kyle (enginerescue62@gmail.com) <kmac2496@yahoo.com>
 Dustin Dilks (d5954dilks@gmail.com) <res5cue54@yahoo.com>
 %%05/22/2012
 Jacob Craig <jcraig1230@vcat.cvcc.edu>
@@ -3830,7 +3832,6 @@ Derek Waddell <derekmwaddell@gmail.com>
 Tina Blackmon (jstressgirl@gmail.com) <jstressgirl@aol.com>
 Dan Cowan (dancowan71@gmail.com) <girlsdirector@northmetrosoccer.org>
 "Kenny Mountz Sr." (kenny.mountz@gmail.com) <kenny.mountz@yahoo.com>
-Jackie Cohen <jackster2024@gmail.com>
 %%11/03/2012
 james fox <darkwolf201231@gmail.com>
 Brandon Cockerham (brandoncockerham@gmail.com) <brandon.cockerham@yahoo.com>
@@ -3983,7 +3984,6 @@ Larry Zamora <lbzamora94@gmail.com>
 Kris LaRoche <krislaroche20@gmail.com>
 Andy Rudolph <arudolph241@gmail.com>
 %%12/01/2012
-Jackie Cohen <jackster2024@gmail.com>
 Mark turner <mturner071204@gmail.com>
 %%12/02/2012
 Thomas Dunbar (tdunbar75@gmail.com) <tdunbar@ucfsd.net>
@@ -3991,6 +3991,7 @@ Thomas Dunbar (tdunbar75@gmail.com) <tdunbar@ucfsd.net>
 Richard Pelton <ff1733@gmail.com>
 Duke Steinbaugh <dsteinbaugh75@gmail.com>
 Brian Summers <summersbrian014@gmail.com>
+Jackie Cohen (jackster2024@hotmail.com) <jackster2024@gmail.com>
 %%12/04/2012
 Charles Woodland <lollipopjuggs@gmail.com>
 Ryan DiMauro <ryandimauro@gmail.com>
@@ -4782,5 +4783,12 @@ Jason Bradley <fire4613@gmail.com>
 William Torres <williamtorres1963.wt@gmail.com>
 Ray Cumberledge (pitbullsanddiesel14@gmail.com) <lpostray@aol.com>
 Stacy O'Bannon <babynoah20@gmail.com>
+%%04/17/2013
+Craig Mcdowell <kjcm1520@gmail.com>
+Jeffrey Arnold JR (jwa19921203@gmail.com) <jwa19921203@yahoo.com>
+Timothy Mcclure <timothymcclure1331@gmail.com>
+Edward Komes (echodelta73@gmail.com) <echodelta73@yahoo.com>
+B Styron <bstyron1505@gmail.com>
+
 
 
