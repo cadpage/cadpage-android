@@ -86,7 +86,7 @@ public class INHancockCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern MAP_PTN = Pattern.compile("\\d\\d?(?:00\\d\\d)?|(?:BC|CU|GF|SC|NP)\\d+|");
+  private static final Pattern MAP_PTN = Pattern.compile("\\d\\d?(?:00\\d\\d)?|[A-Z]{2}\\d+[NESW]?|");
   private class MyMapField extends MapField {
     public MyMapField() {
       setPattern(MAP_PTN, true);
