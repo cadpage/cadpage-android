@@ -13,6 +13,6 @@ public class NCWilkesCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "CAD@wilkes.nc.local";
+    return "CAD@wilkes.nc.local,CAD@wilkescounty.net";
   }
 }

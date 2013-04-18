@@ -15,7 +15,7 @@ public class PAChesterCountyD4Parser extends PAChesterCountyBaseParser {
   private static final Pattern CITY_PTN = Pattern.compile("  Municipality: ([A-Z]+) ");
   
   public PAChesterCountyD4Parser() {
-    super("DISPATCH TIME CALL ADDRCITY PLACE NAME PHONE BOX INFO+");
+    super("DISPATCH TIME CALL ADDRCITY PLACE NAME PHONE BOX! INFO+");
   }
 
   @Override
