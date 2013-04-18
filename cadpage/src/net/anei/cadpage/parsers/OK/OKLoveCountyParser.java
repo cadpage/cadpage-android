@@ -9,6 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class OKLoveCountyParser extends FieldProgramParser {
   
+  private static final Pattern RUN_REPORT_ID_PTN = Pattern.compile(" INC #(\\d+-\\d+) ");
   private static final Pattern MARKER = Pattern.compile("^NEWOCC #OUTS  |^NEWINC #([-0-9]+) ");
   
   public OKLoveCountyParser() {
@@ -28,6 +29,8 @@ public class OKLoveCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (subject.startsWith("HISTORY FOR ")) {
+      Matcher match = RUN_REPORT_ID_PTN.matcher(subject);
+      if (match.find()) data.strCallId = match.group(1);
       data.strCall = "RUN REPORT";
       data.strPlace = body;
       return true;

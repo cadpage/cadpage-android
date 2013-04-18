@@ -8,6 +8,7 @@ public class OKPontotocCountyParser extends MsgParser {
   
   public OKPontotocCountyParser() {
     super("PONTOTOC COUNTY", "OK");
+    setFieldList("CALL ADDR APT");
   }
   
   @Override
