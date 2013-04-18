@@ -129,7 +129,8 @@ public class ParserList {
               ,"AZYavapaiCounty"                ,"Yavapai County, AZ"
           ),
           new ParserCategory("Arkansas"
-              ,"ARGarlandCounty"                ,"Garland County, AZ"
+              ,"ARBentonCounty"                 ,"Benton County, AR"
+              ,"ARGarlandCounty"                ,"Garland County, AR"
           ),
           new ParserCategory("California"
               ,"CAButteCounty"                  ,"Butte County, CA"
