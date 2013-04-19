@@ -74,7 +74,7 @@ public class ORWashingtonCountyParser extends FieldProgramParser {
   }
   private static final Pattern XX_PTN = Pattern.compile("\\b[A-Z]{2}\\b");
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+  static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ALO", "ALOHA",
       "AMI", "AMITY",
       "ARI", "ARIEL",
@@ -139,6 +139,7 @@ public class ORWashingtonCountyParser extends FieldProgramParser {
       "NOR", "NORTH PLAINS",
       "ODE", "ODELL",
       "ORE", "OREGON CITY",
+      "OC" , "OREGON CITY",
       "ORI", "ORIENT",
       "POR", "PORTLAND",
       "RHO", "RHODODENDRON",
