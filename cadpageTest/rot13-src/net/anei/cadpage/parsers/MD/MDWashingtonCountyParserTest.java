@@ -1350,6 +1350,7 @@ choyvp pynff ZQJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G40",
         "505 PUHEPU FG NCG 2O - [UVTU FG - WNZRF FG] - BCRA OHEAVAT -\"BHG\" bs PBAGEBY - R04,HG3 - 1307352 22:19",
         "NQQE:505 PUHEPU FG",
+        "NCG:2O",
         "K:UVTU FG & WNZRF FG",
         "PNYY:BCRA OHEAVAT -\"BHG\" bs PBAGEBY",
         "HAVG:R04,HG3",

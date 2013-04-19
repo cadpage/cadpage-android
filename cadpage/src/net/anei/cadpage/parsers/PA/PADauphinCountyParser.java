@@ -40,7 +40,7 @@ public class PADauphinCountyParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return "SRC " + super.getProgram();
+    return "SRC " + super.getProgram().replace(" X ", " ADDR X ");
   }
   
   private class MyAddressField extends AddressField {

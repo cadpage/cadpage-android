@@ -299,7 +299,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "CUTOFF",
         "RCH", "REACH",
         "ARCH",
-        "MNR", "MANOR");
+        "MNR");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
     setupDictionary(ID_AMBIG_ROAD_SFX, 

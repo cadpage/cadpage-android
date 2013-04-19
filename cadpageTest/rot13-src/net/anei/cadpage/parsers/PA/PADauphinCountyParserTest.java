@@ -32,6 +32,10 @@ PbqrZrffntvat pyvrag 446
 [!] Obk:54-2 Ybp:1674 EBHAQGBC EQ YQG QNHC KFgf:FPUBBYUBHFR EQ ,JNYGBAIVYYR EQ Rirag Glcr:GENSSVP / GENAFCBEGNGVBA NPPVQRAG RAGENCZRAG / PBASVARZRAG Pynff: Qvfc: R54,E88
 [!] Obk:88-3 Ybp:107 ZVYY FG ZQG QNHC: NCG 7 V @VAGRESNVGU NCGF KFgf:CBCYNE FG ,TEHOO FG Rirag Glcr:URNEG CEBOYRZF / N.V.P.Q. Pynff: 1 Qvfc: E88
 
+Pbagnpg: Qnavry Svfure <qnavry27166565@tznvy.pbz>
+PbqrZrffntvat pyvrag
+Obk:27-3 KFgf:R ZVQQYR EQ ,UVYY YA Rirag Glcr:GENSSVP / GENAFCBEGNGVBA NPPVQRAG VAWHEVRF Pynff:  Qvfc: E27
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ybjre Fjngnen Sver Qrcnegzrag Ybpngvba: Zvqqyrgbja, CN 
 Fraqre: cjq@zrffntvat.ay
@@ -261,6 +265,18 @@ choyvp pynff CNQnhcuvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "HAVG:E88");
  }
+  
+  @Grfg
+  choyvp ibvq grfgQnavrySvfure() {
+
+    qbGrfg("G1",
+        "Obk:27-3 KFgf:R ZVQQYR EQ ,UVYY YA Rirag Glcr:GENSSVP / GENAFCBEGNGVBA NPPVQRAG VAWHEVRF Pynff:  Qvfc: E27",
+        "OBK:27-3",
+        "NQQE:R ZVQQYR EQ & UVYY YA",
+        "PNYY:GENSSVP / GENAFCBEGNGVBA NPPVQRAG VAWHEVRF",
+        "HAVG:E27");
+   
+  }
   
   @Grfg
   choyvp ibvq grfgNpgvir911N() {
