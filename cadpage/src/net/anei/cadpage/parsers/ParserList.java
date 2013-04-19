@@ -582,6 +582,7 @@ public class ParserList {
               ,"ORJosephineCounty"              ,"Josephine County, OR"
               ,"ORJacksonCounty"                ,"Jackson County, OR"
               ,"ORKlamathCounty"                ,"Klamath County, OR"
+              ,"ORLakeOswego"                   ,"Lake Oswego, OR"
               ,"ORLaneCounty"                   ,"Lane County, OR"
               ,"ORLincolnCity"                  ,"Lincoln City, OR"
               ,"ORLinnCounty"                   ,"Linn County, OR"
@@ -779,6 +780,9 @@ public class ParserList {
               ,"ZCAABLacombeCounty"             ,"Lacombe County, AB"
               ,"ZCAABLamontCounty"              ,"Lamont County, AB"
               ,"ZCAABRedDeerCounty"             ,"Red Deer Count, AB"
+          ),
+          new ParserCategory("British Columbia, CA"
+              ,"ZCABCMidIslandRegion"           ,"Mid Island Region, BC"
           ),
           new ParserCategory("Ontario, CA"
               ,"ZCAONMississauga"               ,"Mississauga, ON"
