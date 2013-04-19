@@ -11,7 +11,7 @@ public class NCCurrituckCountyParser extends DispatchOSSIParser {
   
   public NCCurrituckCountyParser() {
     super(CITY_CODES, "CURRITUCK COUNTY", "NC",
-           "F6? CALL ADDR/S! CITY? PLACENAME PHONE");
+           "F6? CALL ADDR/S! CITY? X+? PLACENAME PHONE");
   }
   
   @Override
@@ -22,6 +22,7 @@ public class NCCurrituckCountyParser extends DispatchOSSIParser {
   private class MyPlaceNameField extends PlaceNameField {
     @Override
     public void parse(String field, Data data) {
+      field = cleanWirelessCarrier(field);
       if (field.startsWith("(S)") && field.endsWith("(N)")) {
         data.strPlace = field.substring(3,field.length()-3).trim();
       } else {
