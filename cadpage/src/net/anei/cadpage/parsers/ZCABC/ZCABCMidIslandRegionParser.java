@@ -18,6 +18,11 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
     return "paging@ni911.ca";
   }
   
+  @Override
+  public String getLocName() {
+    return "Mid-Island Region, BC";
+  }
+  
   @Override 
   public boolean parseMsg(String subject, String body, Data data) {
     
@@ -32,7 +37,7 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
     String[] fields = body.split(",");
     return parseFields(fields, data);
   }
-  
+
   private class MyAddressField extends AddressField {
     
     @Override
