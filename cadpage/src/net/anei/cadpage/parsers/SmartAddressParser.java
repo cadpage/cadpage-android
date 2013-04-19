@@ -2214,7 +2214,7 @@ public abstract class SmartAddressParser extends MsgParser {
      */
     public void getData(MsgInfo.Data data) {
       
-      if (addressField != null) data.strAddress = buildData(addressField, 2);
+      if (addressField != null) data.strAddress = stripLeadingZero(buildData(addressField, 2));
       if (placeField != null) data.strPlace = buildData(placeField, 0);
       if (aptField != null) {
         data.strApt = buildData(aptField, 0);
