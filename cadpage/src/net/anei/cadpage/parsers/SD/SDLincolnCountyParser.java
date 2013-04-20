@@ -24,6 +24,7 @@ public class SDLincolnCountyParser extends SmartAddressParser {
  
   public SDLincolnCountyParser() {
     super(CITY_LIST, "LINCOLN COUNTY", "SD");
+    setFieldList("ID CALL ADDR APT CITY ST INFO");
   }
   
   @Override
@@ -78,51 +79,61 @@ public class SDLincolnCountyParser extends SmartAddressParser {
       body = body.substring(match.end());
     }
     
-    // See if there is an comma terminating the address
-    int pt = body.indexOf(',');
-    if (pt < 0) {
-      
-      // Use the smart address parser to try and find and address
-      // if unsuccessful, return false.  If successful, mark as good
-      if (hardBreak) {
-        parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, body, data);
-      } else {
-        parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, body, data);
-        info = append(getLeft(), " - ", info);
-      }
-      if (true && !good && getStatus() == 0 &&
-           (!isPositiveId() || info.length() == 0)) return false;
-    } 
+    // See if address consists of GPS coordinates
+    match = GPS_PATTERN.matcher(body);
+    if (match.find()) {
+      data.strAddress = body.substring(0,match.end());
+      info =  append(body.substring(match.end()).trim(), " - ", info);
+    }
     
     else {
       
-      // Otherwise, we have found an address, so parse it as best we can
-      parseAddress(body.substring(0,pt).trim(), data);
-      body = body.substring(pt+1).trim();
+      // See if there is an comma terminating the address
+      int pt = body.indexOf(',');
+      if (pt < 0) {
+        
+        // Use the smart address parser to try and find and address
+        // if unsuccessful, return false.  If successful, mark as good
+        if (hardBreak) {
+          parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, body, data);
+        } else {
+          parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, body, data);
+          info = append(getLeft(), " - ", info);
+        }
+        if (true && !good && getStatus() == 0 &&
+             (!isPositiveId() || info.length() == 0)) return false;
+      } 
       
-      // Might be followed by an apartment
-      match = APT_PTN.matcher(body);
-      if (match.find()) {
-        data.strApt = match.group(1);
-        body = body.substring(match.end()).trim();
-      }
-      
-      // See if what is left can be identified as a city, st combination
-      match = CITY_ST_PTN.matcher(body);
-      if (match.find()) {
-        data.strCity = match.group(1);
-        data.strState = getOptGroup(match.group(2));
-        if (!CITY_SET.contains(data.strCity.toUpperCase())) return false;
-        body = body.substring(match.end()).trim();
-        if (info == null) info = body;
-        else info = append(body, " / ", info);
-      } else if (info.length() > 0) {
-        data.strCity = body;
-        if (!CITY_SET.contains(data.strCity.toUpperCase())) return false;
-      } else {
-        parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, body, data);
-        if (data.strCity.length() == 0) return false;
-        info = getLeft();
+      else {
+        
+        // Otherwise, we have found an address, so parse it as best we can
+        parseAddress(body.substring(0,pt).trim(), data);
+        body = body.substring(pt+1).trim();
+        
+        // Might be followed by an apartment
+        match = APT_PTN.matcher(body);
+        if (match.find()) {
+          data.strApt = match.group(1);
+          body = body.substring(match.end()).trim();
+        }
+        
+        // See if what is left can be identified as a city, st combination
+        match = CITY_ST_PTN.matcher(body);
+        if (match.find()) {
+          data.strCity = match.group(1);
+          data.strState = getOptGroup(match.group(2));
+          if (!CITY_SET.contains(data.strCity.toUpperCase())) return false;
+          body = body.substring(match.end()).trim();
+          if (info == null) info = body;
+          else info = append(body, " / ", info);
+        } else if (info.length() > 0) {
+          data.strCity = body;
+          if (!CITY_SET.contains(data.strCity.toUpperCase())) return false;
+        } else {
+          parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, body, data);
+          if (data.strCity.length() == 0) return false;
+          info = getLeft();
+        }
       }
     }
     

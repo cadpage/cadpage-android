@@ -37,6 +37,7 @@ Pbagnpg: Wnzrf Qvrgm <xp0hfd@tznvy.pbz>
 Fraqre: ab-ercyl@yrqfcbegny.pbz
 (13-00330 - NZO : Nzohynapr Pnyy) 503 R CBCYNE QE, # 111, PNAGBA, FQ 57013 Yvsg Nffvfg.  Cyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]
 (227 F WBUAFBA) ZNYR - QVSSVPHYGL OERNGUVAT [Nggnpuzrag(f) erzbirq]
+(13-04979 - NZO : Nzohynapr Pnyy1 pnyy ebyybire) +43.301044, -096.643700 \aCyrnfr erfcbaq vzzrqvngryl.\a18/jrfg bs 11\a2 cngvragf onpx naq arpx vawhevrf
 
 ** Cnefre snvyherf **
 Fhowrpg:qrulqengvba\a519 f onegyrgg 18 lb srznyr qrulengrq, cyrnfr erfcbaq\e
@@ -236,9 +237,21 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZNYR - QVSSVPHYGL OERNGUVAT",
         "NQQE:227 F WBUAFBA");
 
+    qbGrfg("G3",
+        "(13-04979 - NZO : Nzohynapr Pnyy1 pnyy ebyybire) +43.301044, -096.643700 \a" +
+        "Cyrnfr erfcbaq vzzrqvngryl.\a" +
+        "18/jrfg bs 11\a" +
+        "2 cngvragf onpx naq arpx vawhevrf",
+
+        "VQ:13-04979",
+        "PNYY:NZO : Nzohynapr Pnyy1 pnyy ebyybire",
+        "NQQE:+43.301044, -096.643700",
+        "ZNQQE:+43.301044,-96.643700",
+        "VASB:18/jrfg bs 11\a2 cngvragf onpx naq arpx vawhevrf");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj FQYvapbyaPbhaglCnefreGrfg().trarengrGrfgf("G1", "VQ PNYY NQQE NCG PVGL FG VASB");
+    arj FQYvapbyaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
