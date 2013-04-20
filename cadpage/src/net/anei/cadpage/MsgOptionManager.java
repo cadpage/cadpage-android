@@ -446,7 +446,7 @@ public class MsgOptionManager {
     
     // Disable map item if we have no address
     case R.id.map_item:
-      item.setEnabled(message.getInfo().getMapAddress(2, "", "").length() > 0);
+      item.setEnabled(message.getInfo().getMapAddress(2, "", "") != null);
       break;
     
     // Change label on toggle lock item depending on current lock state
