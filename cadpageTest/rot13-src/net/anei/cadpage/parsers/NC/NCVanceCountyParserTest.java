@@ -23,6 +23,10 @@ InaprPbhagl911:1301-002189 132 CROOYR UVYY YA URAQREFBA FGEHPGHER SVER XNGUREVAR
 
 InaprPbhagl911:2953 SNHYXARE GBJA EQ URAQREFBA SVER NYNEZ OBOOL JVYYVNZF RISQ,IPEF
 
+Pbagnpg: Wnfba Rqjneqf <wor12173@tznvy.pbz>
+Fraqre: InaprPbhagl911@inaprpbhagl.bet
+InaprPbhagl911:2726 ENYRVTU EQ URAQREFBA NPPVQRAG CREFBANY VAWHEL FCEVAG ARKGRY - PQZN ORNEC,RZF,F47
+
 */
 
 choyvp pynff APInaprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -134,6 +138,18 @@ choyvp pynff APInaprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER NYNEZ",
         "ANZR:OBOOL JVYYVNZF",
         "HAVG:RISQ,IPEF");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWnfbaRqjneqf() {
+
+    qbGrfg("G1",
+        "InaprPbhagl911:2726 ENYRVTU EQ URAQREFBA NPPVQRAG CREFBANY VAWHEL FCEVAG ARKGRY - PQZN ORNEC,RZF,F47",
+        "NQQE:2726 ENYRVTU EQ",
+        "PVGL:URAQREFBA",
+        "PNYY:NPPVQRAG CREFBANY VAWHEL",
+        "HAVG:ORNEC,RZF,F47");
 
   }
 

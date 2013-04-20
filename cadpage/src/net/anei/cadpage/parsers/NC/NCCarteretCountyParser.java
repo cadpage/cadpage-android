@@ -15,7 +15,7 @@ public class NCCarteretCountyParser extends DispatchSouthernPlusParser {
   
   @Override
   public String getFilter() {
-    return "cec@carteretcountygov.org,@sealevelfire-rescue.org";
+    return "cec@carteretcountygov.org,@sealevelfire-rescue.org,vtext.com@gmail.com";
   }
   
   @Override
