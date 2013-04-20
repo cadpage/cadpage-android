@@ -20,6 +20,7 @@ public class MOJeffersonCityParser extends MsgParser {
   
   public MOJeffersonCityParser() {
     super("JEFFERSON CITY", "MO");
+    setFieldList("UNIT NAME TIME CALL ADDR CITY X INFO");
   }
   
   @Override

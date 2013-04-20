@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.OH;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;

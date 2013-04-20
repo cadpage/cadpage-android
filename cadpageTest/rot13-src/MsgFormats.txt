@@ -1224,6 +1224,11 @@ Bfntr Pbhagl, ZB (ZBBfntrPbhaglCnefre)
 (Bfntr Pbhagl RBP ) VASBEZNGVBANY PNYY  420 OENAFBA YA BFNTR PBHAGL ZncErtvbaf: T2 PebffFgerrgf: PBHAGL EBNQ 705 0.14 zv R FQ 888 Qrfpevcgvba: IRUVPYR JNF GBJRQ SEBZ UVTUJNL X OL GUR FPUBBY - \aIRUVPYR JNF N PURIL F10, OYHR\aGBJRQ ORPNHFR VG JNF NONAQBARQ\a\aEC FGNGRVAT UR VF GUR BJARE OHG QVQ ABG TRG GVGYR GENAFSRERQ LRG, OHG VG VF VA UVF ANZR\a\aEC FNVQ UVF SEVRAQ FPBGG GBYQ UVZ GUR IRUVPYR JNF GBJRQ LRFGREQNL\a\aIRUVPYR VF PHEERAGYL ERTVFGRERQ VA OVYYL QNIVF ANZR\aFGNGRQ GUR IRUVPYR JNF FBYQ GB EC ZNEPU 16, 2012
 (Bfntr Pbhagl RBP ) VASBEZNGVBANY PNYY  406 R SBHEGU FG  ZncErtvbaf: T7 PebffFgerrgf: F ZNCYR FG 0.08 zv J UVTUJNL 89 A 0.11 zv R FQ 888 Qrfpevcgvba: YRSG ZFT BA NAFJREVAT ZNPUVAR - ERS EBNQ FVTAF
 *******************************************************************************
+Cbyx Pbhagl, ZB (ZBCbyxPbhaglCnefre)
+571 F SYVAG NI  FVPX CREFBA/26-P-1 Z1780 100 ZncErtvbaf: OBYVINE PebffFgerrgf: R OHSSNYB FG 0.03 zv F R ZNHCVA FG 0.15 zv A Qvfc: 4/1/2013 13:07:29 Qvfc: 4/1/2013 13:07:29
+404 R OEBNQJNL FG ZNABE UBHFR SVER NYNEZ 100 ZncErtvbaf: OBYVINE PebffFgerrgf: A NYONAL NI 0.03 zv AR A JVYFBA NI 0.02 zv J Qvfc: 4/1/2013 6:30:21
+1587 R 526GU EQ, Ncg. #4  URZBEEUNTR/YNPRENGVBAF/21-Q-3 300 Z1770 ZncErtvbaf: R4 PebffFgerrgf: UVTUJNL S 0.24 zv FJ F 120GU EQ 3.79 zv J Qvfc: 03/31/13 11:48:44 Qvfc: 03/31/13 11:48:44
+*******************************************************************************
 *******************************************************************************
 * QvfcngpuIvfvbaNveCnefre fhopynffrf
 *******************************************************************************
@@ -5730,18 +5735,6 @@ Fraqre: CbyvprPNQ@pnq.rugcq.pbz
 **********************************************************
 **********************************************************
 **********************************************************
-Cbyx Pbhagl, ZB
-Pbagnpg:  Revp Qnirl <revpyrrqnirl@tznvy.pbz> (Znccvat Pbbeqvangbe,417-298-7448)
-Ntrapl Anzr: Cbyx Pbhagl Prageny Qvfcngpu, Tybony Qvfcngpu
-Fraqre: 911cntvat@cbyxpb911.pbz 
-
-Sbezng: Nqqerff Cynpr Angher Havgf Zncertvbaf/pebfffgerrgf  qvfcngpu gvzr
-
-571 F SYVAG NI  FVPX CREFBA/26-P-1 Z1780 100 ZncErtvbaf: OBYVINE PebffFgerrgf: R OHSSNYB FG 0.03 zv F R ZNHCVA FG 0.15 zv A Qvfc: 4/1/2013 13:07:29 Qvfc: 4/1/2013 13:07:29
-404 R OEBNQJNL FG ZNABE UBHFR SVER NYNEZ 100 ZncErtvbaf: OBYVINE PebffFgerrgf: A NYONAL NI 0.03 zv AR A JVYFBA NI 0.02 zv J Qvfc: 4/1/2013 6:30:21
-1587 R 526GU EQ, Ncg. #4  URZBEEUNTR/YNPRENGVBAF/21-Q-3 300 Z1770 ZncErtvbaf: R4 PebffFgerrgf: UVTUJNL S 0.24 zv FJ F 120GU EQ 3.79 zv J Qvfc: 03/31/13 11:48:44 Qvfc: 03/31/13 11:48:44
-305 R 2AQ FG, Ncg. 7 SVER FGEHPGHER ERFVQRAGVNY 600 400 700 ZncErtvbaf: Snve Cynl PebffFgerrgf: NYYRL 0.02 zv FJ F OEVRE FG 0.02 zv R
-UVTUJNL U & R 562AQ EQ CBYX PBHAGL GENSSVP/GENAFCBEGNGVBA/29-O-4 ZFUC1 200 280 Z1780
 **********************************************************
 AJBfjrtbPbhaglCnefre 
 QvfcngpuN8Cnefre 

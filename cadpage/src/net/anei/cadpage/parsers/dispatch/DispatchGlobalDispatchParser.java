@@ -8,8 +8,14 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchGlobalDispatchParser extends FieldProgramParser {
   
+  // Station and unit codes lead the call/address field
   public static final int LEAD_SRC_UNIT_ADDR = 1;
+  
+  // Station and unit codes follow the call/address field
   public static final int TRAIL_SRC_UNIT_ADDR = 2;
+  
+  // Call description follows the address
+  public static final int CALL_FOLLOWS_ADDR = 4;
   
   private Pattern stationPtn;
   private Pattern unitPtn;
@@ -23,7 +29,8 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   public DispatchGlobalDispatchParser(String[] cityList, String defCity, String defState,
                                        int flags, Pattern stationPtn, Pattern unitPtn) {
     super(cityList, defCity, defState,
-           "ADDR/SC! MapRegions:MAP Description:INFO CrossStreets:X Description:INFO Dispatch:DATETIME Dispatch:SKIP");
+           ((flags & CALL_FOLLOWS_ADDR) != 0 ? "ADDR/SXC!" : "ADDR/SC!") +
+           " MapRegions:MAP Description:INFO CrossStreets:X Description:INFO Dispatch:DATETIME Dispatch:SKIP");
     this.stationPtn = stationPtn;
     this.unitPtn = unitPtn;
     leadStuff = (flags & LEAD_SRC_UNIT_ADDR) != 0;
@@ -52,12 +59,14 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
         // each word as station, unit or neither
         String[] words = field.split(" +");
         int[] types = new int[words.length];
-        int stReg;
-        for (stReg = 0; stReg<words.length; stReg++) {
-          String word = words[stReg];
-          types[stReg] = (stationPtn != null && stationPtn.matcher(word).matches() ? 1 :
-                          unitPtn != null && unitPtn.matcher(word).matches() ? 2 : 0);
-          if (types[stReg] == 0) break;
+        int stReg = 0;
+        if (leadStuff) {
+          for (stReg = 0; stReg<words.length; stReg++) {
+            String word = words[stReg];
+            types[stReg] = (stationPtn != null && stationPtn.matcher(word).matches() ? 1 :
+                            unitPtn != null && unitPtn.matcher(word).matches() ? 2 : 0);
+            if (types[stReg] == 0) break;
+          }
         }
         int endReg = words.length-1;
         if (stReg < words.length) {
