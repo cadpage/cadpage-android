@@ -45,6 +45,7 @@ Fraqre: @mravg.fbfnynez.fr
 3478390\aOenaq hgr - pbagnvare\a\a\aUäaqryfrorfxeviavat : oevaare v ra pbagrvare\aIäfgretngna 13\a\aQ10\aYnezxngrtbev anza : \aCbfvgvbaJTF84 : Yn = 59º 22,663'A    Yb = 016º 31,141'R\a
 3477652\aFwhxqbzfsnyy\a\a\aUäaqryfrorfxeviavat : Uwäegfgbcc\aUYE cåtåe\aEI 56 Iäfgreqny\a\aQ14\aYnezxngrtbev anza : \aCbfvgvbaJTF84 : Yn = 59º 19,582'A    Yb = 016º 06,650'R\a
 3523002\aGensvxbylpxn - syren sbeqba\aYnfgovy\aÖievtg\aÅeolebaqryyra\a\aCbfvgvbaJTF84 : \aUäaqryfrorfxeviavat : \a
+3582989\aGensvxbylpxn - syren sbeqba\aYnfgovy\aÖievtg\a\a\aCbfvgvbaJTF84 : Yn = 59º 23,399'A    Yb = 016º 31,945'R\aUäaqryfrorfxeviavat : 2 ovyne b uäfgfyäc. 3 qenoonqr.
 
 */
 
@@ -464,6 +465,19 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:3523002",
         "PNYY:Gensvxbylpxn - syren sbeqba / Ynfgovy / Öievtg",
         "NQQE:Åeolebaqryyra");
+
+    qbGrfg("G23",
+        "3582989\a" +
+        "Gensvxbylpxn - syren sbeqba\a" +
+        "Ynfgovy\a" +
+        "Öievtg\a\a\a" +
+        "CbfvgvbaJTF84 : Yn = 59º 23,399'A    Yb = 016º 31,945'R\a" +
+        "Uäaqryfrorfxeviavat : 2 ovyne b uäfgfyäc. 3 qenoonqr.",
+
+        "VQ:3582989",
+        "PNYY:Gensvxbylpxn - syren sbeqba / Ynfgovy / Öievtg",
+        "VASB:2 ovyne b uäfgfyäc. 3 qenoonqr.",
+        "TCF:+59.389983,+16.532417");
 
  }
   
