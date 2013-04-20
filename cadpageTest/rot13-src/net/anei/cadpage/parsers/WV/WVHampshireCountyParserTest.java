@@ -142,7 +142,6 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SNYY CNGVRAGF",
         "NQQE:UP 65 OBK 300",
         "PVGL:EBZARL",
-        "ANZR:HF PRYYHYNE",
         "VQ:2012-0000010380");
 
     qbGrfg("G10",
@@ -150,7 +149,6 @@ choyvp pynff JIUnzcfuverPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZBGBE IRUVPYR NPPVQRAG",
         "NQQE:WREFRL ZBHAGNVA EQ",
         "PVGL:EBZARL",
-        "ANZR:HF PRYYHYNE",
         "VQ:2012-0000010293");
 
     qbGrfg("G11",

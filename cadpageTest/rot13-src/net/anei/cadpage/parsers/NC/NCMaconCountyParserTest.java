@@ -77,7 +77,6 @@ choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:31 FPEBTTF EQ",
         "K:YBHVFN PUNCRY @ 1020",
         "PVGL:SENAXYVA",
-        "ANZR:IREVMBA JVERYRFF",
         "CUBAR:8283713353");
 
     qbGrfg("G15",
@@ -108,6 +107,6 @@ choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj APZnpbaPbhaglCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE K PVGL ANZR CUBAR");
+    arj APZnpbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

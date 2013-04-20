@@ -44,8 +44,7 @@ choyvp pynff GAJvyyvnzfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:FARRQ EQ J",
         "ZNQQE:FARRQ EQ J & UVYYFOBEB EQ",
         "K:UVYYFOBEB EQ",
-        "PVGL:SENAXYVA",
-        "ANZR:IREVMBA JVERYRFF");
+        "PVGL:SENAXYVA");
 
     qbGrfg("G3",
         "911-PRAGRE:ZRQ >ZRQVPNY PNYY 326 INHTUA EQ KF: FGEVPXYNAQ QE ANFUIVYYR ZNYYBL, ZVGPU Znc: Tevqf:H,2 Pnq: 2012-0000017260",
@@ -104,6 +103,6 @@ choyvp pynff GAJvyyvnzfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj GAJvyyvnzfbaPbhaglCnefreGrfg().trarengrGrfgf("G1", "VQ PNYY NQQE K PVGL ANZR CUBAR ZNC");
+    arj GAJvyyvnzfbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

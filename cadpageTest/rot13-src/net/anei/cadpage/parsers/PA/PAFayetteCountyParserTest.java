@@ -116,13 +116,12 @@ choyvp pynff CNSnlrggrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:OVGARE EQ & INAPRF ZVYY EQ",
         "K:INAPRF ZVYY EQ & EBHAQ ONEA EQ",
         "PVGL:SENAXYVA GJC",
-        "ANZR:IREVMBA JVERYRFF",
         "CUBAR:7248808596",
         "VQ:2011-0000031156");
   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj CNSnlrggrPbhaglCnefreGrfg().trarengrGrfgf("G9", "PNYY NQQE PVGL K CYNPR ANZR CUBAR ZNC VQ");
+    arj CNSnlrggrPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

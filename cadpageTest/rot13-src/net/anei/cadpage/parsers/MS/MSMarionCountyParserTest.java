@@ -69,7 +69,6 @@ choyvp pynff ZFZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY PNYY",
         "NQQE:577 ZG PNEZRY PUHEPU EQ",
         "PVGL:SBKJBEGU",
-        "ANZR:NG&G ZBOVYVGL",
         "VQ:2012-0000001285");
 
     qbGrfg("G3",
@@ -77,7 +76,6 @@ choyvp pynff ZFZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY PNYY",
         "NQQE:244 FCEVAT UVYY PUHEPU EQ",
         "PVGL:FNAQL UBBX",
-        "ANZR:NG&G ZBOVYVGL",
         "VQ:2012-0000001188");
 
     qbGrfg("G4",
@@ -140,7 +138,6 @@ choyvp pynff ZFZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN JVGU VAWHEVRF",
         "NQQE:GRA ZVYR PERRX EQ",
         "PVGL:SBKJBEGU",
-        "ANZR:NG&G ZBOVYVGL",
         "VQ:2012-0000004324");
 
     qbGrfg("G12",
@@ -175,7 +172,6 @@ choyvp pynff ZFZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY PNYY",
         "NQQE:221 ARJ UBCR XBXBZB EQ",
         "PVGL:SBKJBEGU",
-        "ANZR:NG&G ZBOVYVGL",
         "VQ:2012-0000004183");
 
     qbGrfg("G2",

@@ -29,6 +29,10 @@ public class DispatchB2Parser extends DispatchBParser {
     this(null, cityList, defCity, defState);
   }
   
+  public DispatchB2Parser(int version, String[] cityList, String defCity, String defState) {
+    super(version, cityList, defCity, defState);
+  }
+  
   public DispatchB2Parser(String defCity, String defState) {
     this((String)null, defCity, defState);
   }

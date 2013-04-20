@@ -260,7 +260,6 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZF - FRVMHERF",
         "NQQE:2078 A FHFDHRUNAAN GEY",
         "PVGL:ZBAEBR GJC",
-        "ANZR:FCEVAG CPF",
         "CUBAR:5704907446",
         "ZNC:8",
         "VQ:2012-0000011399");
@@ -357,7 +356,6 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZF - FRVMHERF",
         "NQQE:2078 A FHFDHRUNAAN GEY",
         "PVGL:ZBAEBR GJC",
-        "ANZR:FCEVAG CPF",
         "CUBAR:5704907446",
         "ZNC:8",
         "VQ:2012-0000011399");

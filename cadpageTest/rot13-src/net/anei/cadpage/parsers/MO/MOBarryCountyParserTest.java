@@ -40,7 +40,6 @@ choyvp pynff ZBOneelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:FGNGR UVTUJNL 39",
         "ZNQQE:FGNGR 39",
         "PVGL:WRAXVAF",
-        "ANZR:IREVMBA JVERYRFF",
         "VQ:2011-0000009418");
 
     qbGrfg("G3",
@@ -54,6 +53,6 @@ choyvp pynff ZBOneelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZBOneelPbhaglCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE K PVGL ANZR CUBAR ZNC CYNPR VQ");
+    arj ZBOneelPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

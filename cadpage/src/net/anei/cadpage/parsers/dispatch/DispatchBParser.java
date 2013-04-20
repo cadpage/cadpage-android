@@ -133,7 +133,7 @@ public class DispatchBParser extends FieldProgramParser {
       field = field.substring(0,match.start());
     }
     parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, field, data);
-    data.strName = getLeft();
+    data.strName = cleanWirelessCarrier(getLeft());
     if (data.strName.startsWith("Bldg")) {
       data.strApt = data.strApt + " Bldg";
       data.strName = data.strName.substring(4).trim();
