@@ -782,7 +782,7 @@ public class ParserList {
               ,"ZCAABRedDeerCounty"             ,"Red Deer Count, AB"
           ),
           new ParserCategory("British Columbia, CA"
-              ,"ZCABCMidIslandRegion"           ,"Mid Island Region, BC"
+              ,"ZCABCMidIslandRegion"           ,"Mid-Island Region, BC"
           ),
           new ParserCategory("Ontario, CA"
               ,"ZCAONMississauga"               ,"Mississauga, ON"
