@@ -376,6 +376,9 @@ public class MsgInfo {
   private static final Pattern CROSS_DELIM = Pattern.compile("(?<=..)[&/,@]| - | AND ", Pattern.CASE_INSENSITIVE);
   public String getBaseMapAddress(int useGPSOption) {
     
+    // If we do not have an address, return the GPS coordinates
+    if (strAddress.length() == 0) return strGPSLoc;
+    
     // See if we should return the GPS coordinates
     if (useGPSOption != 2 && strGPSLoc.length() > 0) {
       if (useGPSOption == 3 || preferGPSLoc) return strGPSLoc;
