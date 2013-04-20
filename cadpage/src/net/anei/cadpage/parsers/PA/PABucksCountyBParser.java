@@ -13,6 +13,7 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
   
   public PABucksCountyBParser() {
     super(null);
+    setFieldList("SRC ID DATE TIME CALL BOX MAP PLACE ADDR APT CITY X NAME PHONE INFO UNIT");
   }
   
   @Override
