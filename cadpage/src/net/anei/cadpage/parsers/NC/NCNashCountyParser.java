@@ -1,17 +1,14 @@
 package net.anei.cadpage.parsers.NC;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
+import net.anei.cadpage.parsers.SmartAddressParser;
 
 
-public class NCNashCountyParser extends DispatchOSSIParser {
+public class NCNashCountyParser extends SmartAddressParser {
   
   public NCNashCountyParser() {
-    super("NASH COUNTY", "NC",
-           "SKIP ADDR! SKIP SKIP CITY! UNK EMPTY+? CALL! SKIP PLACENAME UNK UNIT INFO+");
+    super(CITY_LIST, "NASH COUNTY", "NC");
+    setFieldList("ADDR APT CITY CALL NAME UNIT");
   }
   
   @Override
@@ -21,32 +18,49 @@ public class NCNashCountyParser extends DispatchOSSIParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    
     if (body.startsWith("/ ")) body = body.substring(2).trim();
     if (!body.startsWith("NASH911:")) return false;
-    body = body + " ";
-    return parseFields(body.split("\\* "), data);
+    body = body.substring(8).trim();
+    
+    parseAddress(StartType.START_ADDR, body, data);
+    String left = getLeft();
+    if (left.length() == 0) return false;
+    Parser p = new Parser(left.replace(" / ", "/"));
+    data.strCall = p.get(' ');
+    data.strUnit = p.getLast(' ');
+    data.strName = p.get();
+    return true;
   }
   
-  @Override
-  protected boolean checkPlace(String field) {
-    return !field.contains(",");
-  }
-  
-  private static final Pattern INFO_LINE_PTN = Pattern.compile("^Line\\d+=");
-  private class MyInfoField extends InfoField {
-    @Override
-    public void parse(String field, Data data) {
-      Matcher match = INFO_LINE_PTN.matcher(field);
-      if (match.find()) {
-        field = field.substring(match.end()).trim();
-      }
-      super.parse(field, data);
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
-  }
+  private static final String[] CITY_LIST = new String[]{
+
+      "BAILEY",
+      "CASTALIA",
+      "DORTCHES",
+      "MIDDLESEX",
+      "MOMEYER",
+      "NASHVILLE",
+      "RED OAK",
+      "ROCKY MOUNT",
+      "SPRING HOPE",
+      "WHITAKERS",
+      "BAILEY TWP",
+      "BATTLEBORO TWP",
+      "CASTALIA TWP",
+      "COOPERS TWP",
+      "DRY WELLS TWP",
+      "FERRELLS TWP",
+      "GRIFFINS TWP",
+      "JACKSON TWP",
+      "MANNINGS TWP",
+      "NASHVILLE TWP",
+      "NORTH WHITAKERS TWP",
+      "OAK LEVEL TWP",
+      "RED OAK TWP",
+      "ROCKY MOUNT TWP",
+      "SPRING HOPE TWP",
+      "SOUTH WHITAKERS TWP",
+      "STONY CREEK TWP"
+  };
 }
