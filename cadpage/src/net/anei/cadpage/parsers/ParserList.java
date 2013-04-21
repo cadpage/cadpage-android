@@ -546,6 +546,7 @@ public class ParserList {
               ,"OHHamiltonCounty"               ,"Hamilton County, OH"
               ,"OHHighlandCounty"               ,"Highland County, OH"
               ,"OHHudson"                       ,"Hudson, OH"
+              ,"OHJacksonCounty"                ,"Jackson County, OH"
               ,"OHKnoxCounty"                   ,"Knox County, OH"
               ,"OHLakeCounty"                   ,"Lake County, OH"
               ,"OHLawrenceCounty"               ,"Lawrence County, OH"

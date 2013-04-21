@@ -14,7 +14,7 @@ public class OHJacksonCountyParser extends FieldProgramParser {
   
   public OHJacksonCountyParser() {
     super("JACKSON COUNTY", "OH",
-           "CALL ADDR APT TIME! INFO+");
+           "CALL ADDR/Z+? APT TIME! INFO+");
   }
   
   @Override
