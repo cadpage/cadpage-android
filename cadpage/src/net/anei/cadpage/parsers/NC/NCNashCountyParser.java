@@ -29,7 +29,7 @@ public class NCNashCountyParser extends SmartAddressParser {
     Parser p = new Parser(left.replace(" / ", "/"));
     data.strCall = p.get(' ');
     data.strUnit = p.getLast(' ');
-    data.strName = p.get();
+    data.strName = cleanWirelessCarrier(p.get());
     return true;
   }
   

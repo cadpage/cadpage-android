@@ -10,6 +10,10 @@ Pbagnpg: ohpx.c <ohpx.c@fhqqrayvax.arg>
 Fraqre: ANFU911@ANFUPBHAGLAP.TBI
 F: Z:ANFU911:4956 QBEBGUL YA EBPXL ZBHAG PURFG-U ORNZNA, EBOREG 4SE1 
 
+Pbagnpg: Eboreg Nzrefba <ernzrefba614@tznvy.pbz>
+Fraqre: ANFU911@anfupbhaglap.tbi
+ANFU911:704 F ONFF QE ANFUIVYYR FGEHPGHER HF PRYYHYNE 14SQ1
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jrfg Zbhag ISQ
 Ybpngvba: Ebpxl Zbhag, AP, Havgrq Fgngrf
@@ -37,6 +41,18 @@ choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:ORNZNA, EBOREG",
         "HAVG:4SE1");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEboregNzrefba() {
+
+    qbGrfg("G1",
+        "ANFU911:704 F ONFF QE ANFUIVYYR FGEHPGHER HF PRYYHYNE 14SQ1",
+        "NQQE:704 F ONFF QE",
+        "PVGL:ANFUIVYYR",
+        "PNYY:FGEHPGHER",
+        "HAVG:14SQ1");
+   
   }
   
   @Grfg
