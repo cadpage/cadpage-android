@@ -477,7 +477,8 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:3582989",
         "PNYY:Gensvxbylpxn - syren sbeqba / Ynfgovy / Öievtg",
         "VASB:2 ovyne b uäfgfyäc. 3 qenoonqr.",
-        "TCF:+59.389983,+16.532417");
+        "TCF:+59.389983,+16.532417",
+        "ZNQQE:+59.389983,+16.532417");
 
  }
   

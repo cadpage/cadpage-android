@@ -447,6 +447,7 @@ public class ParserList {
               ,"NYOntarioCounty"                ,"Ontario County, NY"
               ,"NYOrangeCounty"                 ,"Orange County, NY"
               ,"NYOrleansCounty"                ,"Orleans County, NY"
+              ,"NYOswegoCounty"                 ,"Oswego County, NY"
               ,"NYOtsegoCounty"                 ,"Otsego County, NY"
               ,"NYPutnamCounty"                 ,"Putnam County, NY"
               ,"NYRocklandCounty"               ,"Rockland County, NY"

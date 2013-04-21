@@ -352,7 +352,8 @@ choyvp pynff MPNNOErqQrrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:205",
         "PVGL:Yrqhp",
         "HAVG:NPnyy, NUF1, YqR1, YqR2, YqED1, YqGB1",
-        "TCF:+53.258970,-113.545870");
+        "TCF:+53.258970,-113.545870",
+        "ZNQQE:+53.258970,-113.545870");
 
     qbGrfg("G7",
         "(PNQ Zrffntr) Qngr: 2013-03-15 19:48:32\a" +
@@ -417,7 +418,8 @@ choyvp pynff MPNNOErqQrrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:112",
         "PVGL:Yrqhp",
         "HAVG:NPnyy, NUF1, YqR1, YqR2, YqED1, YqGB1",
-        "TCF:+53.299760,-113.532540");
+        "TCF:+53.299760,-113.532540",
+        "ZNQQE:+53.299760,-113.532540");
 
     qbGrfg("G11",
         "(PNQ Zrffntr) Qngr: 2013-03-15 16:03:14\a" +
@@ -433,7 +435,8 @@ choyvp pynff MPNNOErqQrrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:112",
         "PVGL:Yrqhp",
         "HAVG:NPnyy, NUF1, YqR1, YqR2, YqED1, YqGB1",
-        "TCF:+53.299760,-113.532540");
+        "TCF:+53.299760,-113.532540",
+        "ZNQQE:+53.299760,-113.532540");
 
     qbGrfg("G12",
         "(PNQ Zrffntr) Qngr: 2013-03-14 19:44:48\a" +

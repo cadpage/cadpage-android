@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.Properties;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -7,11 +8,15 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchA8Parser extends FieldProgramParser {
 
-  private static final Pattern DELIM = Pattern.compile("\\*\\*");
+  private static final Pattern DELIM = Pattern.compile(" \\*\\*(?: |$)");
   
   protected DispatchA8Parser(String defCity, String defState) {
-    super(defCity, defState,
-           "DISPATCH? TIME CALL ADDR PLACE ( MAP X | NAME PHONE! MAP ) INFO+");
+    this(null, defCity, defState);
+  }
+
+  protected DispatchA8Parser(Properties cityCodes, String defCity, String defState) {
+    super(cityCodes, defCity, defState,
+           "DISPATCH? TIME CALL ADDR PLACE ( MAP X | NAME PHONE! MAP ) UNK INFO DATE CODE ID SRC SPECIAL CITY UNK SRC UNK X UNK UNIT");
   }
   
   @Override
@@ -21,7 +26,7 @@ public class DispatchA8Parser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseFields(DELIM.split(body), 6, data);
+    return parseFields(DELIM.split(body, -1), 6, data);
   }
   
   // Place field needs to strip off trailing dash
@@ -44,6 +49,53 @@ public class DispatchA8Parser extends FieldProgramParser {
       data.strPlace = append(data.strPlace, " - ", field);
     }
   }
+  
+  private class BaseSpecialField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      parseSpecialField(field, data);
+    }
+
+    @Override
+    public String getFieldNames() {
+      return specialFieldNames();
+    }
+  }
+  
+  protected void parseSpecialField(String field, Data data) {
+    
+  }
+  
+  protected String specialFieldNames() {
+    return "";
+  }
+  
+  private class BaseSourceField extends SourceField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strSource.length() == 0) data.strSource = field;
+    }
+  }
+  
+  private class BaseCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      // Cross street info from special field is more reliable
+      if (data.strCross.length() > 0) return;
+      super.parse(field, data);
+    }
+  }
+  
+  private class BaseUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      // Unit information from special field is more reliable than official unit field
+      if (data.strUnit.length() > 0) return;
+      if (field.endsWith(",")) field = field.substring(0,field.length()-1).trim();
+      super.parse(field, data);
+    }
+  }
 
   @Override
   protected Field getField(String name) {
@@ -51,6 +103,10 @@ public class DispatchA8Parser extends FieldProgramParser {
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d(?::\\d\\d)?", false);
     if (name.equals("PLACE")) return new BasePlaceField();
     if (name.equals("MAP")) return new MapField("\\d\\d-[A-Z0-9]\\d", false);
+    if (name.equals("SRC")) return new BaseSourceField();
+    if (name.equals("X")) return new BaseCrossField();
+    if (name.equals("UNIT")) return new BaseUnitField();
+    if (name.equals("SPECIAL")) return new BaseSpecialField();
     return super.getField(name);
   }
   
