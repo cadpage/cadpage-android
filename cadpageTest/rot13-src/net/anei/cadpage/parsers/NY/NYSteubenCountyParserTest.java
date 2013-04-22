@@ -87,6 +87,7 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 Pbagnpg: Wnzrf Uvyyrthf <uvyyrthf47@tznvy.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 SEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Ongu SQ\aZFT:/FJVFF PUNYRG  (14 J JNFUVATGBA FG), ONGU IVYYNTR BSSQ OEHFU SVEROGSQ:2013:00145
+1 bs 2\aSEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Ongu SQ\aZFT:3 R CHYGRARL FD, ONGU IVYYNTR (R ZBEEVF FG/; Arne:FGRHORA PBHAGL BSSVPR OHVYQVAT #1\a(Pba'g) 2 bs 2\aPBO)SQ NHGBZNGVP NYNEZOGSQ:2013:00154\a\a(Raq)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ongu Sver Qrcnegzrag
@@ -705,7 +706,23 @@ choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:14 J JNFUVATGBA FG",
         "PVGL:ONGU",
         "PNYY:SQ OEHFU SVER");
-   
+
+    qbGrfg("G2",
+        "1 bs 2\a" +
+        "SEZ:zrffntvat@vnzerfcbaqvat.pbz\a" +
+        "FHOW:Ongu SQ\a" +
+        "ZFT:3 R CHYGRARL FD, ONGU IVYYNTR (R ZBEEVF FG/; Arne:FGRHORA PBHAGL BSSVPR OHVYQVAT #1\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "PBO)SQ NHGBZNGVP NYNEZOGSQ:2013:00154\a\a" +
+        "(Raq)",
+
+        "FEP:Ongu SQ",
+        "CYNPR:FGRHORA PBHAGL BSSVPR OHVYQVAT #1 PBO",
+        "NQQE:3 R CHYGRARL FD",
+        "PVGL:ONGU IVYYNTR",
+        "K:R ZBEEVF FG",
+        "PNYY:SQ NHGBZNGVP NYNEZ");
+ 
   }
   
   @Grfg
