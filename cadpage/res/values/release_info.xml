@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04152013</string>
-  <string name="release_version">v1.6.19</string>
+  <string name="release_date">04222013</string>
+  <string name="release_version">v1.6.20</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Newton County, MS\n
-Essex County, NY\n
-Franklin County, NC\n
-Carroll County, OH\n
-Summit County, OH\n
-PennStar, PA\n
+Benton County, AR\n
+Polk County, MO\n
+Oswego County, NY\n
+Jackson County, OH\n
+Lake County, OR\n
+Delaware County, PA (alt)\n
+Mid-Island Region, BC, Canada\n
 \n
 Location Parsing Fixes:\n
-Blount County, AL\n
-Riverside County, CA\n
-Litchfield County, CT\n
-Kent County, DE\n
-Calhoun County, MI\n
-Stueben County, NY\n
-Ulster County, NY\n
-Davie County, NC\n
+Marshal County, AL\n
+Northwest Public Safety, CT\n
+Hancock County, IN\n
+Dorchester County, MD\n
+Washington County, MD\n
+Carteret County, NC\n
+Currituck County, NC\n
+Franklin County, NC\n
 Iredell County, NC\n
-Lincoln County, NC\n
-Josephine County, OR\n
-Adams County, PA\n
-Mercer County, PA\n
-Anderson County, SC\n
-Union County, SD\n
-Montgomery County, TX\n
+Nash County, NC\n
+Onondaga County, NY\n
+Love County, OK\n
+Montgomery County, PA\n
+Lincoln County, SD\n
+Loudon County, TN\n
+Waukesha County, WI\n
 \n
 General Fixes:\n
-Cadpage overriding user screen orientation preference\n
-Force close processing unusual message\n
+Force close processing direct pages\n
+Map button not enabled when only GPS map coordinates are available\n
   </string>  
 </resources>
   
