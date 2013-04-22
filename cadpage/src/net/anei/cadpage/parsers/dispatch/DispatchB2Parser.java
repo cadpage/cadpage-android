@@ -106,7 +106,12 @@ public class DispatchB2Parser extends DispatchBParser {
     
     else if (data.strPhone.length() == 0 && (match = PHONE2_PTN.matcher(name)).find()) {
       data.strPhone = match.group(1);
-      data.strName = name.substring(match.end());
+      field = name.substring(match.end());
+      if (checkAddress(field) > 0) {
+        data.strCross = field;
+      } else {
+        data.strName = field;
+      }
     } 
     
     else if ((match = APT_PTN.matcher(name)).matches()) {
