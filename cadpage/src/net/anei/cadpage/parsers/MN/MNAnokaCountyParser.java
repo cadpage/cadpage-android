@@ -15,6 +15,7 @@ public class MNAnokaCountyParser extends SmartAddressParser {
   
   public MNAnokaCountyParser() {
     super("ANOKA COUNTY", "MN");
+    setFieldList("SRC CALL ADDR PLACE INFO ID");
   }
   
   @Override

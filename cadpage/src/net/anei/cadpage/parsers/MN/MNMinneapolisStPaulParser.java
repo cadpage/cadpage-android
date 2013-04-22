@@ -12,7 +12,6 @@ import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 public class MNMinneapolisStPaulParser extends DispatchPrintrakParser {
   
   private static final Pattern ID_PTN = Pattern.compile("^[A-Z]{3}\\d{12} ");
-  private static final Pattern UNIT_PTN = Pattern.compile("-(Z[A-Z]+|\\d+[A-Z])$");
   
   public MNMinneapolisStPaulParser() {
     super("MINNEAPOLIS", "MN");
