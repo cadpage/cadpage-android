@@ -1,7 +1,6 @@
 cnpxntr arg.narv.pnqcntr.cnefref.XL;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.XL.XLOhyyvggPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -22,17 +21,6 @@ Fraqre:  "PVF Npgvir 911" <abercyl@pvfhfn.bet>
 (Fcrp qvnt-Fvpx crefba ng 3538 Cebivqrapr Genpr Qe, Fvyire Tebir, 41085) Abgvsvpngvba sebz PVF Npgvir 911:\a\aFcrp qvnt-Fvpx crefba ng 3538 Cebivqrapr Genpr Qe, Fvyire Tebir, 41085\a\aNyrknaqevn sq - 201300000850\a\aGvzr ercbegrq: 04/18/2013 4:40:25 CZ\a\a\aHavg(f) erfcbaqrq: \aZ191
 (Snyyf ng 3903 Zpqbanyq Ya, Fvyire Tebir/havapbec, 41085) Abgvsvpngvba sebz PVF Npgvir 911:\a\aSnyyf ng 3903 Zpqbanyq Ya, Fvyire Tebir/havapbec, 41085\a\aNyrknaqevn sq - 201300000849\a\aGvzr ercbegrq: 04/18/2013 4:33:52 CZ\aGvzr pbzcyrgrq: 04/18/2013 4:36:37 CZ\a\aHavg(f) erfcbaqrq: \aN171\aZ191
 (Fcrp qvnt-Fvpx crefba ng 3742 Cnexivrj Qe) Abgvsvpngvba sebz PVF Npgvir 911:\a\aFcrp qvnt-Fvpx crefba ng 3742 Cnexivrj Qe\a\aNyrknaqevn sq - 201300000847\a\aGvzr ercbegrq: 04/18/2013 3:02:09 CZ\a\a\aHavg(f) erfcbaqrq: \aN171
-(Snyyf ng 3903 Zpqbanyq Ya) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Snyyf ng 3903 Zpqbanyq Ya<oe>Nyrknaqevn sq - 201300000846<oe>Gvzr ercbegrq: 04/18/2013 2:35:46 CZ<oe>Gvzr pbzcyrgrq: 04/18/2013 3:04:02 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>Z191<oe></sbag>
-(Fcrp qvnt-Fvpx crefba ng 3742 Cnexivrj Qe) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Fcrp qvnt-Fvpx crefba ng 3742 Cnexivrj Qe<oe>Nyrknaqevn sq - 201300000848<oe>Gvzr ercbegrq: 04/18/2013 3:02:52 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>Z192<oe></sbag>
-(Sver fgehpgher nynez 1 ng 12465 Oheaf Eq) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Sver fgehpgher nynez 1 ng 12465 Oheaf Eq<oe>Nyrknaqevn sq - 201300000845<oe>Gvzr ercbegrq: 04/18/2013 12:52:28 CZ<oe>Gvzr pbzcyrgrq: 04/18/2013 1:06:16 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>S102<oe></sbag>
-(Nyyretvrf/uvirf/fgvat ng 2243 Aryfba Eq) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Nyyretvrf/uvirf/fgvat ng 2243 Aryfba Eq<oe>Nyrknaqevn sq - 201300000844<oe>Gvzr ercbegrq: 04/18/2013 11:34:17 NZ<oe>Gvzr pbzcyrgrq: 04/18/2013 1:01:07 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>Z191<oe></sbag>
-(Sver fgehpgher nynez 1 ng 12465 Oheaf Eq) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Sver fgehpgher nynez 1 ng 12465 Oheaf Eq<oe>Nyrknaqevn sq - 201300000845<oe>Gvzr ercbegrq: 04/18/2013 12:52:28 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>S102<oe></sbag>
-(Fcrp qvnt-Fvpx crefba ng 7726 Nyrknaqevn Cv) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Fcrp qvnt-Fvpx crefba ng 7726 Nyrknaqevn Cv<oe>Nyrknaqevn sq - 201300000843<oe>Gvzr ercbegrq: 04/18/2013 10:08:59 NZ<oe>Gvzr pbzcyrgrq: 04/18/2013 11:12:37 NZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>Z192<oe><oe><oe><sbag pbybe = "Tenl">Guvf vf na nhgbzngvp abgvsvpngvba.  Gb cerirag shgher abgvsvpngvbaf bs guvf glcr, zbqvsl gur PVF Npgvir 911 qvntabfgvp abgvsvpngvba bcgvbaf.</sbag>
-(Qbn ng 1013 R Ybj Tnc Eq) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Qbn ng 1013 R Ybj Tnc Eq<oe>Nyrknaqevn sq - 201300000840<oe>Gvzr ercbegrq: 04/18/2013 9:05:54 NZ<oe>Gvzr pbzcyrgrq: 04/18/2013 9:48:14 NZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>N171<oe><oe><oe><sbag pbybe = "Tenl">Guvf vf na nhgbzngvp abgvsvpngvba.  Gb cerirag shgher abgvsvpngvbaf bs guvf glcr, zbqvsl gur PVF Npgvir 911 qvntabfgvp abgvsvpngvba bcgvbaf.</sbag>
-(Oernguvat ceboyrzf ng 3883 Avar Zvyr Eq) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Oernguvat ceboyrzf ng 3883 Avar Zvyr Eq<oe>Nyrknaqevn sq - 201300000839<oe>Gvzr ercbegrq: 04/18/2013 1:36:54 NZ<oe>Gvzr pbzcyrgrq: 04/18/2013 2:26:37 NZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>Z191<oe><oe><oe><sbag pbybe = "Tenl">Guvf vf na nhgbzngvp abgvsvpngvba.  Gb cerirag shgher abgvsvpngvbaf bs guvf glcr, zbqvsl gur PVF Npgvir 911 qvntabfgvp abgvsvpngvba bcgvbaf.</sbag>
-(Cflpuvngevp/oruni ceboyrz ng 1005 Znel Vatyrf Uj) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Cflpuvngevp/oruni ceboyrz ng 1005 Znel Vatyrf Uj<oe>Nyrknaqevn sq - 201300000838<oe>Gvzr ercbegrq: 04/17/2013 9:36:33 CZ<oe>Gvzr pbzcyrgrq: 04/17/2013 9:54:14 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>Z191<oe><oe><oe><sbag pbybe = "Tenl">Guvf vf na nhgbzngvp abgvsvpngvba.  Gb cerirag shgher abgvsvpngvbaf bs guvf glcr, zbqvsl gur PVF Npgvir 911 qvntabfgvp abgvsvpngvba bcgvbaf.</sbag>
-(Sver - vairfgvtngvba ng 3442 Pneguntr Eq) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Sver - vairfgvtngvba ng 3442 Pneguntr Eq<oe>Nyrknaqevn sq - 201300000837<oe>Gvzr ercbegrq: 04/17/2013 10:02:59 NZ<oe>Gvzr pbzcyrgrq: 04/17/2013 1:18:09 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>S102<oe>S150<oe>S350<oe><oe><oe><sbag pbybe = "Tenl">Guvf vf na nhgbzngvp abgvsvpngvba.  Gb cerirag shgher abgvsvpngvbaf bs guvf glcr, zbqvsl gur PVF Npgvir 911 qvntabfgvp abgvsvpngvba bcgvbaf.</sbag>
-(Grfg npgvivgl ng 601 F Cynab Eq) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Sverubhfr Vagresnpr:<oe><oe><o>Grfg npgvivgl ng 601 F Cynab Eq ercbegrq ng 04/12/2013 01:39:43 CZ<oe>Grfg ntrapl - 201200007965</o><oe><oe>Havg(f) erfcbaqrq: <oe>N31<oe>N34<oe>R4<oe><oe><oe><sbag pbybe = "Tenl">Guvf vf na nhgbzngvp abgvsvpngvba.  Gb cerirag shgher abgvsvpngvbaf bs guvf glcr, zbqvsl gur PVF Sverubhfr vagresnpr qvntabfgvp abgvsvpngvba bcgvbaf.</sbag>
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jvyqre SverErfphr
@@ -42,10 +30,28 @@ Fraqre: "PVF Npgvir 911" <abercyl@pvfhfn.bet>
 (Sver qrgnvy ng NN/V275, Jvyqre, 41071) Abgvsvpngvba sebz PVF Npgvir 911:\a\aSver qrgnvy ng NN/V275, Jvyqre, 41071\a\aJvyqre sq - 201300000203\a\aGvzr ercbegrq: 04/19/2013 7:26:47 CZ\aGvzr pbzcyrgrq: 04/19/2013 8:14:43 CZ\a\aHavg(f) erfcbaqrq: \aS1403
 (Sver fgehpgher nynez 1 ng 365 Uvqqra Inyyrl Eq, Pbyq Fcevat/havapbec, 41076) Abgvsvpngvba sebz PVF Npgvir 911:\a\aSver fgehpgher nynez 1 ng 365 Uvqqra Inyyrl Eq, Pbyq Fcevat/havapbec, 41076\a\aJvyqre sq - 201300000202\a\aGvzr ercbegrq: 04/19/2013 7:08:14 CZ\aGvzr pbzcyrgrq: 04/19/2013 7:09:20 CZ\a\aHavg(f) erfcbaqrq: \aS1405
 (Nvq gb cebcregl ng 120 Yvpxvat Cv, Jvyqre, 41071) Abgvsvpngvba sebz PVF Npgvir 911:\a\aNvq gb cebcregl ng 120 Yvpxvat Cv, Jvyqre, 41071\a\aJvyqre sq - 201300000201\a\aGvzr ercbegrq: 04/18/2013 4:38:17 CZ\aGvzr pbzcyrgrq: 04/18/2013 5:19:00 CZ\a\aHavg(f) erfcbaqrq: \aS1401\aS1403\aS1436
-(Nvq gb cebcregl ng 308 Yvpxvat Cv) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Nvq gb cebcregl ng 308 Yvpxvat Cv<oe>Jvyqre sq - 201300000200<oe>Gvzr ercbegrq: 04/18/2013 12:34:20 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe><oe><oe><sbag pbybe = "Tenl">Guvf vf na nhgbzngvp abgvsvpngvba.  Gb cerirag shgher abgvsvpngvbaf bs guvf glcr, zbqvsl gur PVF Npgvir 911 qvntabfgvp abgvsvpngvba bcgvbaf.</sbag>
-(Cflpuvngevp/oruni ceboyrz ng 24 Jbbqynaq Uvyyf Qe) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Cflpuvngevp/oruni ceboyrz ng 24 Jbbqynaq Uvyyf Qe<oe>Jvyqre sq - 201300000199<oe>Gvzr ercbegrq: 04/17/2013 11:29:29 CZ<oe>Gvzr pbzcyrgrq: 04/17/2013 11:55:40 CZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>S1431<oe><oe><oe><sbag pbybe = "Tenl">Guvf vf na nhgbzngvp abgvsvpngvba.  Gb cerirag shgher abgvsvpngvbaf bs guvf glcr, zbqvsl gur PVF Npgvir 911 qvntabfgvp abgvsvpngvba bcgvbaf.</sbag>
-(Sver fgehpgher nynez 1 ng 1 Pragre Fg) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Sver fgehpgher nynez 1 ng 1 Pragre Fg<oe>Jvyqre sq - 201300000198<oe>Gvzr ercbegrq: 04/17/2013 10:24:11 NZ<oe>Gvzr pbzcyrgrq: 04/17/2013 10:28:38 NZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>S1401<oe>S1403<oe>S1405<oe>Z1380<oe><oe><oe><sbag pbybe = "Tenl">Guvf vf na nhgbzngvp abgvsvpngvba.  Gb cerirag shgher abgvsvpngvbaf bs guvf glcr, zbqvsl gur PVF Npgvir 911 qvntabfgvp abgvsvpngvba bcgvbaf.</sbag>
-(Nyyretvrf/uvirf/fgvat ng 30 Ivfgn Cbvagr Qe) <sbag  snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Npgvir 911:<oe><oe><o>Nyyretvrf/uvirf/fgvat ng 30 Ivfgn Cbvagr Qe<oe>Jvyqre sq - 201300000197<oe>Gvzr ercbegrq: 04/17/2013 4:05:32 NZ<oe>Gvzr pbzcyrgrq: 04/17/2013 4:16:40 NZ</o><oe><oe>Havg(f) erfcbaqrq: <oe>S1431<oe><oe><oe><sbag pbybe = "Tenl">Guvf vf na nhgbzngvp abgvsvpngvba.  Gb cerirag shgher abgvsvpngvbaf bs guvf glcr, zbqvsl gur PVF Npgvir 911 qvntabfgvp abgvsvpngvba bcgvbaf.</sbag>
+
+Perqvg: $100
+
+Xvaq bs n gbffhc jurgure gb qb guvf nf n pbzcyrgr cnggrea zngpu cnefre be nf n SvryqCebtenzCnefre fhopynff jvguvat "\a+" nf gur svryq qryvzvgre.
+Vs lbh qb vg nf n SvryqCebtenzCnefre, whfg nobhg rirel svryq jvyy arrq vg'f bja cnggrea onfrq bireevqr.
+
+Vtaber gur fhowrpg, vg whfg qhcyvpngrf cneg bs gur zrffntr grkg.
+Grkg zhfg fgneg jvgu
+Abgvsvpngvba sebz PVF Npgvir 911:\a\a\
+
+Svefg svryq nyjnlf oernxf qbja nf
+<pnyy> ng <nqqe>, <pvgl>, <mvc>
+Vtaber gur mvc pbqr naq whfg hfr gur pvgl
+
+Arkg svryq oernxf qbja nf
+<fbhepr> - <vq>
+
+Gvzr Ercbegrq: svryq tbg gb qvfcngpu qngr naq gvzr.  Lbh jvyy unir gb qrsvar n FvzcyrQngrSbezng bowrpg naq cnff vg gb gur 
+frgQngrGvzr() zrgubq
+
+Vs lbh tb jvgu gur SvryqCebtenzCnefre nccebnpr, gur havg cebprffvat cneg bs gur cebtenz fgevat pna or
+Havg(f)_erfcbaqrq:HAVG+
 
  */
 

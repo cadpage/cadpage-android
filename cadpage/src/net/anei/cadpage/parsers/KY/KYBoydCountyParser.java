@@ -13,6 +13,7 @@ public class KYBoydCountyParser extends SmartAddressParser {
  
   public KYBoydCountyParser() {
     super("BOYD COUNTY", "KY");
+    setFieldList("UNIT CALL ADDR APT INFO");
   }
   
   @Override
