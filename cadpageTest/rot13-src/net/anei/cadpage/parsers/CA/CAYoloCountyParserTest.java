@@ -67,6 +67,17 @@ Fraqre: PYNEX@pv.qnivf.pn.hf
 (Qvfcngpurq Pnyy (R31VCNQ)) 635 NAQREFBA EQ, Qnivf, PN * QNIVF SNZVYL CENPGVPR * FHAFRG PG/J 8GU FG * 10 * FGZN * 53 * 86 LBS URNEG CEBOYRZF \aNZE 325 P3
 (Qvfcngpurq Pnyy (R34)) 2900 FBYNAB CNEX PV, Qnivf, PN * FBYNAB CNEX OHVYQVAT #2900 (HPQ) * R NEOBERGHZ QE * 3211 * SVEFG * 71/87 * SEBZ HPQ J/ YNATHNTR ONEEVRE // 
 
+Abgrf:
+Pbzzba fhcrepynff jvgu PNBebivyyrCnefre
+Ubyq sbe shegure hfre vachg
+Cerggl onfvp.  
+Rkgenpg havg sebz fhowrpg
+Hfr "(?<= )\* " nf qryvzvgre cnggrea
+Cebtenz fgevat fbzrguvat yvxr PNYY CYNPR K NCG PNYY ZNC VASB
+V'z thrffvat ng jung gur 2 qvtvg svryq sbyybjvat gur pnyy vf,  jvyy nfx hfre
+Jvyy nyfb nfx hfre nobhg vzcyrzragvat n pnyy qrfpevcgvba ybbxhc
+Oernx nqqerff qbja vagb nqqerff, pvgl, naq fgngr.  Vtaber fgngr vs vg vf "PN".
+
  */
 
 choyvp pynff PNLbybPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
