@@ -13,6 +13,7 @@ public class MOStoneCountyParser extends SmartAddressParser {
   
   public MOStoneCountyParser() {
     super("STONE COUNTY", "MO");
+    setFieldList("CALL ADDR APT PHONE X INFO");
   }
   
   @Override
