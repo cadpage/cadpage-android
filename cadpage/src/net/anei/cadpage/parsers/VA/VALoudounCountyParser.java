@@ -15,14 +15,31 @@ public class VALoudounCountyParser extends MsgParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
+    int pt =0;
     // Clean off extra junk at both ends
-    int pt = body.indexOf("Call:");
-    if (pt < 0) return false;
-    
-    body = body.substring(pt);
-    pt = body.lastIndexOf('[');
+    if (body.contains("Call:")){ //Old Format call
+        pt = body.indexOf("Call:");
+        if (pt < 0) return false;
+      body = body.substring(pt);
+      pt = body.lastIndexOf('[');
     if (pt >= 0) body = body.substring(0, pt).trim();
+    
+    } else if (body.contains("CALL:")) { //New Format
+      if (body.contains("Subject:")){ // Get rid of email and subject for split messages
+        int disa = body.lastIndexOf("msg§");
+        int disb = body.lastIndexOf("Subject:");
+        
+        body= body.substring(0,disa) + body.substring(disb+12);
+        
+      }
+      pt = body.indexOf("CALL:");
+      if (pt < 0) return false;
+      body = body.substring(pt);
+      
+        pt = body.lastIndexOf("FDID:");
+      if (pt >= 0) body = body.substring(0, pt).trim();
+      
+    }
 
     // Needs some massaging before it can be run through the standard parser
     body = body.replace(" Apt:", ",Apt:");
