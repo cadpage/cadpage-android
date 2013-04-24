@@ -11,10 +11,11 @@ import net.anei.cadpage.parsers.dispatch.DispatchGlobalDispatchParser;
 public class MOOsageCountyParser extends DispatchGlobalDispatchParser {
   
   private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:[A-Z]+\\d+|RDC|RDL|RDL \\d|701|8[89]\\d|[A-Z]{1,4}FD))+$");
+  private static final Pattern DASH_DIR_PTN = Pattern.compile("- *([NSEW]|[NS][EW])\\b");
   private static final Pattern CROSS_UNIT_PTN = Pattern.compile("(.* (?:[NSEW]|[NS][EW]))\\b *(.*)");
   
   public MOOsageCountyParser() {
-    super(CITY_LIST, "OSAGE COUNTY", "MO");
+    super(CITY_LIST, "OSAGE COUNTY", "MO", PLACE_FOLLOWS_ADDR);
   }
   
   @Override
@@ -32,6 +33,9 @@ public class MOOsageCountyParser extends DispatchGlobalDispatchParser {
         body = body.substring(0,match.start());
       }
     }
+    
+    body = DASH_DIR_PTN.matcher(body).replaceAll("$1");
+    
     if (!super.parseMsg(body, data)) return false;
     if (data.strCity.equals("OSAGE COUNTY")) data.strCity = "";
     

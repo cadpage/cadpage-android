@@ -18,7 +18,6 @@ Pnyy:20Q01U-URNG RKCBFHER,FGBAR FCEVATF OYIQ-NY/ZVARENY FCEVATF PVE-NY Ncg:,K-Fg
 #Arj Sbezng pbzvat sebz EFNA. Arrq gb fhccbeg byq irefvba nf jryy.
 
 zft�1MQG�znvy.rznpbbc.ybhqbha.tbi Fhowrpg:1/2 PNYY:01N01-NOQBZVANY CNVA, 42073 TERRAFGBAR QE-NY NCG: K-FG:ZVARENY FCEVATF PVE & ORN Z6092 NPB9, OBK:0
-
 zft�1MQG�znvy.rznpbbc.ybhqbha.tbi Fhowrpg:2/2 910 NQP:5520 P02 SQVQ:99079 6:05 CZ
 # Raq bs ARJ sbezng.
 Pbagnpg: erorppn zpxraan <rzgpb9516@tznvy.pbz>

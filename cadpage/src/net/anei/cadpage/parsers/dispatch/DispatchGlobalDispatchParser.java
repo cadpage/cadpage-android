@@ -47,7 +47,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   private static final String calcAddressTerm(int flags) {
     StringBuilder sb = new StringBuilder("ADDR/S");
     sb.append((flags & CALL_FOLLOWS_ADDR) != 0 ? "XC" : "CX");
-    sb.append((flags & PLACE_FOLLOWS_ADDR) != 0 ? "P" : "");
+    if ((flags & PLACE_FOLLOWS_ADDR) != 0) sb.append('P');
     sb.append('!');
     return sb.toString();
   }

@@ -571,8 +571,10 @@ choyvp pynff ZBBfntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Bfntr Pbhagl RBP ) NAVZNY PNYYF  UVTUJNL 63 2-3 ZVYRF FBHGU BS SERROHET SERROHET ZncErtvbaf:  PebffFgerrgf: FQ 883 Qrfpevcgvba: qrre uvg fvqr bs frzv gehpx. bss va gur qvgpu ur oryvrirf. qbag' xabj vs vgf nyvir be qrnq",
         "HAVG:FQ 883",
         "PNYY:NAVZNY PNYYF",
-        "NQQE:UVTUJNL 63 2-3 ZVYRF FBHGU BS SERROHET",
-        "ZNQQE:UVTUJNL 63 2-3 ZVYRF & SERROHET",
+        "NQQE:UVTUJNL 63",
+        "ZNQQE:ZVYRF FBHGU BS SERROHET,UVTUJNL 63",
+        "NCG:2-3",
+        "CYNPR:ZVYRF FBHGU BS SERROHET",
         "PVGL:SERROHET",
         "VASB:qrre uvg fvqr bs frzv gehpx. bss va gur qvgpu ur oryvrirf. qbag' xabj vs vgf nyvir be qrnq");
 
@@ -604,7 +606,7 @@ choyvp pynff ZBBfntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:FQ ZFUC2",
         "PNYY:P & V QEVIVAT/QEHAX QEVIRE",
-        "NQQE:F UVTUJNL 63 - A",
+        "NQQE:F UVTUJNL 63 A",
         "PVGL:SERROHET",
         "VASB:ABEGUOBHAQ BA UVTUJNL 63 - JRNIVAT ABEGU BS SERROHET NOBHG 3 ZVYRF NG GUR FUNEC F PHEIRF\aYVP # LS4S3I\aOZJ FRQNA, CNVAG CRRYVAT BA QEVIREFVQR OHZCRE\aQNEX OYHR / WHFG CNFFRQ QRREYBQTR EBNQ",
         "QNGR:11/25/2012",
@@ -640,7 +642,7 @@ choyvp pynff ZBBfntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Bfntr Pbhagl RBP ) IRUVPYR / NGI / NPPVQRAG  UVTUJNL 100 - FR YVAA ZncErtvbaf:  PebffFgerrgf: JRFGCUNYVN SQ Z64 ZFUC EQJ Qrfpevcgvba:",
         "HAVG:JRFGCUNYVN SQ Z64 ZFUC EQJ",
         "PNYY:IRUVPYR/NGI/NPPVQRAG",
-        "NQQE:UVTUJNL 100 - FR",
+        "NQQE:UVTUJNL 100 FR",
         "PVGL:YVAA");
 
     qbGrfg("G49",
@@ -670,7 +672,7 @@ choyvp pynff ZBBfntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:FQ 704 888",
         "PNYY:911 UNAT HC",
-        "NQQE:UVTUJNL 100 - FR",
+        "NQQE:UVTUJNL 100 FR",
         "PVGL:YVAA",
         "VASB:urneq n zbna - cbffvoyr qvfgerff - / nggrzcgrq gb pnyy onpx - abg npprcgvat pnyyf / cre ngg guvf vf n genpx cubar naq gurl qb abg unir nal bjare vasbezngvba",
         "QNGR:11/25/2012",
@@ -759,7 +761,7 @@ choyvp pynff ZBBfntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:TNFPBANQR PBHAGL TNFPBA",
         "PNYY:911 UNAT HC",
-        "NQQE:PBHAGL EBNQ 738 - R",
+        "NQQE:PBHAGL EBNQ 738 R",
         "PVGL:ORYYR",
         "VASB:CBCF ARNE RYFVR QE-- TNFP PBHAGL\aAB FBHAQF BS QVFGERFF\aPBHYQ URNE FBZR XVQF / PNYYVAT AHZORE ONPX- YRSG AHZORE",
         "QNGR:11/24/2012",
@@ -1125,7 +1127,7 @@ choyvp pynff ZBBfntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Bfntr Pbhagl RBP ) IRUVPYR / NGI / NPPVQRAG  PBHAGL EBNQ 201 - J ZncErtvbaf:  PebffFgerrgf: EQY",
         "HAVG:EQY",
         "PNYY:IRUVPYR/NGI/NPPVQRAG",
-        "NQQE:PBHAGL EBNQ 201 - J");
+        "NQQE:PBHAGL EBNQ 201 J");
 
     qbGrfg("G21",
         "(Bfntr Pbhagl RBP ) TNF YRNX  209 GJVA EVQTR EQ ZncErtvbaf: S4 PebffFgerrgf: PBHAGL EBNQ 301 0.06 zv R FGNPRL YA 0.07 zv F EQY",
@@ -1144,7 +1146,7 @@ choyvp pynff ZBBfntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Bfntr Pbhagl RBP ) IRUVPYR / NGI / NPPVQRAG  PBHAGL EBNQ 201 - FR ZncErtvbaf:  PebffFgerrgf: BNQ1 891 BNQ2 Z61 EQY 2",
         "HAVG:BNQ1 891 BNQ2 Z61 EQY 2",
         "PNYY:IRUVPYR/NGI/NPPVQRAG",
-        "NQQE:PBHAGL EBNQ 201 - FR");
+        "NQQE:PBHAGL EBNQ 201 FR");
 
     qbGrfg("G24",
         "(Bfntr Pbhagl RBP ) IRUVPYR / NGI / NPPVQRAG UBZRGBJA YHZORE 742 UVTUJNL 50 J ZncErtvbaf:  PebffFgerrgf: F PYNL FG 6318.73 zv AJ J ZNVA FG 6318.73 zv AJ BNQ1 EQY",
