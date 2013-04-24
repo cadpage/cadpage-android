@@ -17,6 +17,9 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   // Call description follows the address
   public static final int CALL_FOLLOWS_ADDR = 4;
   
+  // Place name occurs between address and city name
+  public static final int PLACE_FOLLOWS_ADDR = 8;
+  
   private Pattern stationPtn;
   private Pattern unitPtn;
   private boolean leadStuff;
@@ -29,12 +32,20 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   public DispatchGlobalDispatchParser(String[] cityList, String defCity, String defState,
                                        int flags, Pattern stationPtn, Pattern unitPtn) {
     super(cityList, defCity, defState,
-           ((flags & CALL_FOLLOWS_ADDR) != 0 ? "ADDR/SXC!" : "ADDR/SC!") +
-           " MapRegions:MAP Description:INFO CrossStreets:X Description:INFO Dispatch:DATETIME Dispatch:SKIP");
+          calcAddressTerm(flags) +
+          " MapRegions:MAP Description:INFO CrossStreets:X Description:INFO Dispatch:DATETIME Dispatch:SKIP");
     this.stationPtn = stationPtn;
     this.unitPtn = unitPtn;
     leadStuff = (flags & LEAD_SRC_UNIT_ADDR) != 0;
     trailStuff = (flags & TRAIL_SRC_UNIT_ADDR) != 0;
+  }
+  
+  private static final String calcAddressTerm(int flags) {
+    StringBuilder sb = new StringBuilder("ADDR/S");
+    sb.append((flags & CALL_FOLLOWS_ADDR) != 0 ? "XC" : "CX");
+    sb.append((flags & PLACE_FOLLOWS_ADDR) != 0 ? "P" : "");
+    sb.append('!');
+    return sb.toString();
   }
   
   @Override
