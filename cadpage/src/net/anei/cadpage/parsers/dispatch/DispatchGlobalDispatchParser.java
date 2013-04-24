@@ -29,6 +29,10 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     this(cityList, defCity, defState, 0, null, null);
   }
   
+  public DispatchGlobalDispatchParser(String[] cityList, String defCity, String defState, int flags) {
+    this(cityList, defCity, defState, flags, null, null);
+  }
+  
   public DispatchGlobalDispatchParser(String[] cityList, String defCity, String defState,
                                        int flags, Pattern stationPtn, Pattern unitPtn) {
     super(cityList, defCity, defState,
