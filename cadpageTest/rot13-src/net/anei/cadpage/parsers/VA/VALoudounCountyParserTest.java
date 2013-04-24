@@ -17,8 +17,9 @@ Pnyy:20Q01U-URNG RKCBFHER,FGBAR FCEVATF OYIQ-NY/ZVARENY FCEVATF PVE-NY Ncg:,K-Fg
 
 #Arj Sbezng pbzvat sebz EFNA. Arrq gb fhccbeg byq irefvba nf jryy.
 
-zft§1MQG¡znvy.rznpbbc.ybhqbha.tbi Fhowrpg:1/2 PNYY:01N01-NOQBZVANY CNVA, 42073 TERRAFGBAR QE-NY NCG: K-FG:ZVARENY FCEVATF PVE & ORN Z6092 NPB9, OBK:0
-zft§1MQG¡znvy.rznpbbc.ybhqbha.tbi Fhowrpg:2/2 910 NQP:5520 P02 SQVQ:99079 6:05 CZ
+zftï¿½1MQGï¿½znvy.rznpbbc.ybhqbha.tbi Fhowrpg:1/2 PNYY:01N01-NOQBZVANY CNVA, 42073 TERRAFGBAR QE-NY NCG: K-FG:ZVARENY FCEVATF PVE & ORN Z6092 NPB9, OBK:0
+
+zftï¿½1MQGï¿½znvy.rznpbbc.ybhqbha.tbi Fhowrpg:2/2 910 NQP:5520 P02 SQVQ:99079 6:05 CZ
 # Raq bs ARJ sbezng.
 Pbagnpg: erorppn zpxraan <rzgpb9516@tznvy.pbz>
 ozpxraan+pns_=5712385054=igrkg.pbz@nepbynisq.bet Pnyy:31N01-SNVAGRQ ABJ NY,24801 CVAROEBBX EQ-PU Ncg:110,K-Fg:GNYY PRQNEF CXJL ,N619 Z6091 NPB19,Obk:1921 ,NQP:5520 S01 [97]
@@ -165,9 +166,10 @@ choyvp pynff INYbhqbhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:PUNEYRF GBJA CVXR",
         "HAVG:RE602 N6142 NY612 RPB2 NPB14",
         "OBK:0226X'NQP:4921 S09");
+    
     qbGrfg("G12",
-        "zft§1MQG¡znvy.rznpbbc.ybhqbha.tbi Fhowrpg:1/2 PNYY:01N01-NOQBZVANY CNVA, 42073 TERRAFGBAR QE-NY NCG: K-FG:ZVARENY FCEVATF PVE & ORN Z6092 NPB9, OBK:0" +
-        "zft§1MQG¡znvy.rznpbbc.ybhqbha.tbi Fhowrpg:2/2 910 NQP:5520 P02 SQVQ:99079",
+        "zftï¿½1MQGï¿½znvy.rznpbbc.ybhqbha.tbi Fhowrpg:1/2 PNYY:01N01-NOQBZVANY CNVA, 42073 TERRAFGBAR QE-NY NCG: K-FG:ZVARENY FCEVATF PVE & ORN Z6092 NPB9, OBK:0" +
+        "zftï¿½1MQGï¿½znvy.rznpbbc.ybhqbha.tbi Fhowrpg:2/2 910 NQP:5520 P02 SQVQ:99079",
             
         "PNYY:01N01-NOQBZVANY CNVA",
         "NQQE:42073 TERRAFGBAR QE",
@@ -178,8 +180,8 @@ choyvp pynff INYbhqbhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:5520 P02"
         );
     qbGrfg("G13",
-        "zft§1M9W¡znvy.rznpbbc.ybhqbha.tbi Fhowrpg:1/2 PNYY:31Q03-HAPBAFPVBHF CR, 25025 BJY PERRX QE-NY NCG: K-FG:HENY QE TENLJNPXR QE R609O, OBK:0948 NQP:5" +
-        "zft§1M9W¡znvy.rznpbbc.ybhqbha.tbi Fhowrpg:2/2 520 O02 SQVQ:99079 10709",
+        "zftï¿½1M9Wï¿½znvy.rznpbbc.ybhqbha.tbi Fhowrpg:1/2 PNYY:31Q03-HAPBAFPVBHF CR, 25025 BJY PERRX QE-NY NCG: K-FG:HENY QE TENLJNPXR QE R609O, OBK:0948 NQP:5" +
+        "zftï¿½1M9Wï¿½znvy.rznpbbc.ybhqbha.tbi Fhowrpg:2/2 520 O02 SQVQ:99079 10709",
         
         "PNYY:31Q03-HAPBAFPVBHF CR",
         "NQQE:25025 BJY PERRX QE",

@@ -123,6 +123,7 @@ choyvp pynff GKYbativrjCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:31414",
         "PNYY:CE Rirag/<Abar>/HF UJL 67",
         "NQQE:A33 11.075 k J94 42.799",
+        "ZNQQE:+33.184583,-94.713317",
         "PVGL:BZNUN",
         "VASB:CE RIRAG/CE RIRAG");
 
