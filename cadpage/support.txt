@@ -268,7 +268,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-LBKVMYGA or lbkvmyga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+ZDXHTFDA or zdxhtfda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -356,7 +356,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-LBKVMYGA or lbkvmyga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+ZDXHTFDA or zdxhtfda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -500,7 +500,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-LBKVMYGA or lbkvmyga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+ZDXHTFDA or zdxhtfda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -514,7 +514,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-LBKVMYGA or lbkvmyga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+ZDXHTFDA or zdxhtfda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -524,7 +524,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-LBKVMYGA or lbkvmyga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+ZDXHTFDA or zdxhtfda.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -1586,6 +1586,8 @@ Have a nice day,
 -Ken
 
 **************************************************************
+Q:
+Cadpage started working after update but has stopped working again. Did they change things again?
 
 Quite probably.  But I can't tell until I see what the pages look like now.
 
@@ -1597,9 +1599,6 @@ fails to pick up a call will usually get it to us.
 Good luck,
 -Ken
 
-On 04/10/2013 09:26 AM, Barry Carter wrote:
-> Cadpage started working after update but has stopped working again. Did
-> they change things again?
 ******************************************************************
 
 Coding Parsers for Cadpage
@@ -1664,10 +1663,66 @@ Active911.
 Have a nice day,
 -Ken
 
+***************************************************************************
 
+Go into Cadpage Settings and select
+Direct Paging Vendords > Reconnect DIrect Paging
+That usually fixes problems with delayed or missing direct pages.
 
+Good luck,
+-Ken 
+****************************************************************************
+Q:
+> I do not have the ability to see other responders in real time. Is this a
+> feature that is a available on the Android platform or only the iOS?
+A:
 
+Alas, that feature is only available for the Active911 IPhone app.  We are still trying to think of ways to implement that feature in Cadpage, but the technical challenges are formidable.
 
+****************************************************************************
+Q: Will not map the call when it comes across as a general alert
+
+A: Could you please long press all of the calls reporting as general alerts
+and select "Report Problem" to send them to us.
+
+**************************************************************************
+Q: > I am receiving pages well after the calls come out (30-60 min). I am not
+> sure if it's a cadpage or dispatch problem but others that have the app
+> are having the same problem.
+
+A: This is being reported fairly often recently.  You are getting text
+pages, and the only reason Cadpage alerting will be delayed for text
+pages is because the messages are just not arriving at your device in a
+timely fashion.  If you want to prove this, go into Cadpage Additional
+Settings and check the box labeled "Pass Calls through to SMS Client".
+With that set, all calls will be passed to your message inbox in
+addition to alerting Cadpage and you can confirm the extent to which the
+messages are delayed.
+
+According to the message timestamps, it took a bit over 5 seconds for
+the carrier to deliver this call to you, which would imply that the
+delay was introduced by the dispatch messaging service.  But this should
+not be considered hard proof, I have some suspicions that carriers are
+holding messages in a system queue for some reason and that the total
+delay is not represented by this number.
+
+You can also try sending yourself text messages when these delays are
+observed to see if those messages are also being delayed.  But when it
+comes down to it, about the only thing you can really do is complain to
+the carrier and/or dispatch service about the delays.
+
+It might be worth considering switching to another messaging service.
+CodeMessaging.net and Active911.com are reasonably priced and can push
+pages to your device without relying on text messaging and will probably
+fix your delay problem.  Unless the dispatch center is slow getting the
+pages out, in which case they have logs to prove that and some clout to
+take the issue up with dispatch IT people.  And Cadpage doesn't bug you
+about paying for a subscription when you are getting direct pages from them.
+
+Good luck,
+-Ken
+
+***************************************************************
 
 
 end
