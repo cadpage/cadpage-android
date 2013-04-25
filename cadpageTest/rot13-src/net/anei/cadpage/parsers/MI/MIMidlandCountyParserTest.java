@@ -9,7 +9,7 @@ vzcbeg bet.whavg.Grfg;
 Zvqynaq Pbhagl, ZV
 Pbagnpg: "Qenxr, Znggurj" <zqenxr@zbovyrzrqvpny.bet>
 Fraqre: qvfcngpu@zvqynaq911.bet
- 
+Fraqre: @zvqynaq911.bet 
 (PNQ Cntr sbe PSF Z101512-29) OHF : \aNQQK: J OHEAF EQ naq A PNFGBE EQ NCG: \aPBQR: GENSSVP NPPVQRAG\auggc://zncf.tbbtyr.pbz/zncf?d=+43.72719%20-84.48703
 (PNQ Cntr sbe PSF Z101412-41) OHF : \aNQQK: 8405 F ROREUNEG NCG: \aPBQR: UBHFR SVER\auggc://zncf.tbbtyr.pbz/zncf?d=+-1.00000%20--1.00000
 (PNQ Cntr sbe PSF Z101312-31 <10131231>) OHF :\aJO HF10 ZZ 102\aNQQK: 102 JRFG HF UJL 10 NCG: \aPBQR: CQN - HAXABJA\auggc://zncf.tbbtyr.pbz/zncf?d=+43.76840%20-84.58168
