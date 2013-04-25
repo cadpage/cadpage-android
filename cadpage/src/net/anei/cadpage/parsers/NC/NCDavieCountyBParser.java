@@ -27,7 +27,7 @@ public class NCDavieCountyBParser extends DispatchA3Parser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    body = body.replace(" LocCmmt:", " Location:").replace(" Comp:", " Complaint:");
+    body = body.replace(" LocCmmt:", " Location:").replace(" Comp:", " Complaint:").replace(" PH#:", " Ph#");
     body = body.replace(" Description:", " Desc:");
     return super.parseMsg(body, data);
   }

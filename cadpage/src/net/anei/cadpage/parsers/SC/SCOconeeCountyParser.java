@@ -22,7 +22,7 @@ public class SCOconeeCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911@oconeelaw.com";
+    return "911@oconeelaw.com,pagingsend@totalpaging.com";
   }
   
   @Override
