@@ -15,6 +15,7 @@ Fraqre: qvfcngpu@zvqynaq911.bet
 (PNQ Cntr sbe PSF Z101312-31 <10131231>) OHF :\aJO HF10 ZZ 102\aNQQK: 102 JRFG HF UJL 10 NCG: \aPBQR: CQN - HAXABJA\auggc://zncf.tbbtyr.pbz/zncf?d=+43.76840%20-84.58168
 (PNQ Cntr sbe PSF Z101112-117 <101112117>) OHF : \aNQQK: 6990 A PBYRZNA EQ NCG: \aPBQR: PUVZZARL SVER\auggc://zncf.tbbtyr.pbz/zncf?d=+43.81458%20-84.58607
 (PNQ Cntr sbe PSF Z101212-56 <10121256>) OHF : \aNQQK: 3095 J CRER ZNEDHRGGR EQ NCG: \aPBQR: FGEBXR\auggc://zncf.tbbtyr.pbz/zncf?d=+43.71114%20-84.49158
+[PNQ Cntr sbe PSF Z042313-110]  OHF :\aNQQK: YBBZVF/A BS HF10  NCG:\aPBQR: TENFF SVER\auggc://zncf.tbbtyr.pbz/zncf?d
 
 */
 
@@ -83,6 +84,13 @@ choyvp pynff ZVZvqynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:3095 J CRER ZNEDHRGGR EQ",
         "PNYY:FGEBXR",
         "TCF:+43.711140,-84.491580");
+
+    qbGrfg("G6",
+        "[PNQ Cntr sbe PSF Z042313-110]  OHF :\aNQQK: YBBZVF/A BS HF10  NCG:\aPBQR: TENFF SVER\auggc://zncf.tbbtyr.pbz/zncf?d",
+        "VQ:Z042313-110",
+        "NQQE:YBBZVF & A BS HF10",
+        "ZNQQE:YBBZVF & HF 10",
+        "PNYY:TENFF SVER");
 
   }
   

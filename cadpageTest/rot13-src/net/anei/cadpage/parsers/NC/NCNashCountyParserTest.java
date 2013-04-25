@@ -20,6 +20,10 @@ F: Z:ANFU911:5842 ERQ BNX EQ ONGGYROBEB FGEHPGHER FNOEVNN 12SQ1,18SQ1,9SQ1,RZF6
 F: Z:ANFU911:4288 JVYY PG ANFUIVYYR FRVMHERF-P 9SE1
 F: Z:ANFU911:4297 JBYYRGG ZVYY EQ ONGGYROBEB ZIN CV-U PNFPRYY, SNLR 12SQ1,9SE1,RZF6
 
+Pbagnpg: Wrss Gheare <ebsq1247@tznvy.pbz>
+Fraqre: ANFU911@anfupbhaglap.tbi
+ANFU911:2722 PUNEZVA YA EBPXL ZBHAG NOQ-U YNVGRA,RYVMNORGU 12SE1
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jrfg Zbhag ISQ
 Ybpngvba: Ebpxl Zbhag, AP, Havgrq Fgngrf
@@ -59,6 +63,19 @@ choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FGEHPGHER",
         "HAVG:14SQ1");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWrssGheare() {
+
+    qbGrfg("G1",
+        "ANFU911:2722 PUNEZVA YA EBPXL ZBHAG NOQ-U YNVGRA,RYVMNORGU 12SE1",
+        "NQQE:2722 PUNEZVA YA",
+        "PVGL:EBPXL ZBHAG",
+        "PNYY:NOQ-U",
+        "ANZR:YNVGRA,RYVMNORGU",
+        "HAVG:12SE1");
+  
   }
   
   @Grfg
@@ -107,6 +124,7 @@ choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:4SE1");
 
   }
+  
   
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
