@@ -15,6 +15,7 @@ public class ILCookCountyParser extends MsgParser {
   
   public ILCookCountyParser() {
     super("COOK COUNTY", "IL");
+    setFieldList("TIME DATE CALL ADDR APT CITY PLACE UNIT");
   }
   
   @Override

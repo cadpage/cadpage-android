@@ -13,6 +13,7 @@ public class ILWinnebagoCountyParser extends MsgParser {
   
   public ILWinnebagoCountyParser() {
     super("WINNEBAGO COUNTY", "IL");
+    setFieldList("SRC ADDR APT CALL");
   }
   
   @Override
