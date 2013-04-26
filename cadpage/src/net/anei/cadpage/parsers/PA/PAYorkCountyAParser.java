@@ -13,7 +13,7 @@ public class PAYorkCountyAParser extends SmartAddressParser {
   private static final Pattern TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)¿?$");
   private static final Pattern ID_PTN = Pattern.compile("^(\\d{7}) ");
   private static final Pattern TIME_DATE_PTN = Pattern.compile("^(\\d\\d:\\d\\d:\\d\\d) +(\\d\\d-\\d\\d-\\d\\d) +");
-  private static final Pattern CITY_PTN = Pattern.compile("^([A-Z ]+?) +(CITY|BORO|TWP|COUNTY)\\b *");
+  private static final Pattern CITY_PTN = Pattern.compile("^(?:.*?\\) *)?(([A-Z ]+?) +(CITY|BORO|TWP|COUNTY))\\b *");
   private static final Pattern MAP_PTN = Pattern.compile("\\b(\\d{2}-\\d{2,3})\\b");
   private static final Pattern DELIM = Pattern.compile("\n\n|    *");
   private static final Pattern SRC_PTN = Pattern.compile("^(FIRESTA\\d+) ");
@@ -65,11 +65,14 @@ public class PAYorkCountyAParser extends SmartAddressParser {
     // There has to be a leading city
     match = CITY_PTN.matcher(body);
     if (!match.find()) return false;
-    String type = match.group(2);
+    String type = match.group(3);
     if (type.equals("TWP") || type.equals("COUNTY")) {
-      data.strCity = match.group().trim();
+      data.strCity = match.group(1).trim();
+      if (data.strCity.equals("SP GARDEN TWP")) {
+        data.strCity = "SPRING GARDEN TWP";
+      }
     } else {
-      data.strCity = match.group(1);
+      data.strCity = match.group(2);
     }
     if (data.strCity.equals("MANCH TWP")) data.strCity = "MANCHESTER TWP";
     else if (data.strCity.equals("CARROLL COUNTY")) data.strState = "MD";
@@ -97,7 +100,7 @@ public class PAYorkCountyAParser extends SmartAddressParser {
     } 
     
     body = body.replace(',', ' ');
-    parseAddress(st, FLAG_IMPLIED_INTERSECT, body, data);
+    parseAddress(st, FLAG_IMPLIED_INTERSECT | FLAG_IGNORE_AT, body, data);
 
       // The address may be a simple address followed by a cross street
     String sAddr = getLeft();
