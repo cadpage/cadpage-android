@@ -163,11 +163,6 @@ Fraqre: 0@qhenag.bet
 0:ZRQ >ZRQVPNY PNYY 105 XNEE EQ OELNA XNEE,LIBAAR 5809200153 Pnq: 2013-0000012725
 0:RIRAG: ZRQ YBP:308 J JVYFBA NIR Pnq: 2013-0000012708 QFC >22:44:57 RAE >22:47:34 OZ 0 1097 >22:49:25 RZ 0.4 1098 >23:12:53
 
-Perqvg: $100
-
-Guvf ybbxf yvxr n QvfcngpuO2Cnefre fhopynff.  Ohg lbh jvyy cebonoyl unir gb qb fbzr sebag raq znavchyngvba gb trg vg gb svg.  
-Yvxr vafregvat gur rkcrpgrq '>' jura vg vf abg vapyhqrq.
-
  */
 
 choyvp pynff BXOelnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
