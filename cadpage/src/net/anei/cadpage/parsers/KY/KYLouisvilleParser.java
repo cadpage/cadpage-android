@@ -107,6 +107,7 @@ public class KYLouisvilleParser extends FieldProgramParser {
       "FHIL", "FOREST HILLS",
       "FINC", "FINCASTLE",
       "GMOR", "GRAYMOOR-DEVONDALE",
+      "HOAC", "HOUSTON ACRES",
       "HUAC", "HURSTBOURNE ACRES",
       "HURS", "HURSTBOURNE",
       "INH",  "INDIAN HILLS",
