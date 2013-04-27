@@ -190,10 +190,6 @@ Fraqre: jneerapbhagl911@jneerapbhagl911.bet
 (Qvfcngpu) NOQBZVANY CNVA/CEBOYRZF 26091 F FGNGR UVTUJNL 47 JPNQ JNEERA PBHAGL NZOHYNAPR ONFR 3 JNEERAGBA PebffFgerrgf: DHNEEL EQ 0.11 zv FR BJY PERRX QE 0.16 zv A Qrfpevcgvba: GRFG GRFG GRFG
 (Qvfcngpu) PURFG CNVA 127 OBYZ YA  GEHRFQNYR PebffFgerrgf: PBAENQ PVEPYR 0.01 zv AR FZVGU FG 0.07 zv F Qrfpevcgvba: CNG SRYY, ABJ UNIVAT PURFG CNVA NAQ UVC CNVA\a80 LBZ N/O\aQBRF UNIR N CNPR ZNXRE, UK BS URNEG CEBOYRZF
 
-Perqvg $100
-Zvtug or cerggl fvzcyr.  Fhopynff QvfcngpuTybonyCnefre, ab syntf arrqrq.
-Bireevqr cnefrZft() zrgubq naq purpx sbe fhowrpg rdhny "Qvfcngpu"
-Yrnivat ng shyy cevpr orpnhfr gurer vf n ybg bs qngn naq n ybg bs bccbheghavgvrf sbe guvatf gb trg pbzcyvpngrq
 */
 
 choyvp pynff ZBJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
