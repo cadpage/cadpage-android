@@ -571,6 +571,7 @@ public class ParserList {
               ,"OHWayneCounty"                  ,"Wayne County, OH"
           ),
           new ParserCategory("Oklahoma"
+              ,"OKBryanCounty"                  ,"Bryan County, OK"
               ,"OKLoveCounty"                   ,"Love County, OK"
               ,"OKPontotocCounty"               ,"Pontotoc County, OK"
               ,"OKPottawatomieCounty"           ,"Pottawatomie County, OK"
