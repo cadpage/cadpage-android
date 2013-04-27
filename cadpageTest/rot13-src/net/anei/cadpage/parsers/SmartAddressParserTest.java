@@ -48,6 +48,10 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    qbGrfg(PNYY, "FGEHPG SVER ERFVQ FG PNGUREVAR FG  XRA GBJA",
+        "PNYY:FGEHPG SVER ERFVQ",
+        "NQQE:FG PNGUREVAR FG",
+        "PVGL:XRA GBJA");
     
     qbGrfg(NQQE, SYNT_CNQ_SVRYQ, "10 ERFREIBVE ZAE Ncg E5  XRAFOHET ONPX QBBE",
         "NQQE:10 ERFREIBVE ZAE",

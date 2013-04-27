@@ -60,7 +60,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     return true;
   }
   
-  private class MyAddressField extends AddressField {
+  protected class BaseAddressField extends AddressField {
     
     @Override
     public void parse(String field, Data data) {
@@ -120,7 +120,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   }
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\[(\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) \\d+\\]");
-  private class MyInfoField extends InfoField {
+  private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = DATE_TIME_PTN.matcher(field);
@@ -138,8 +138,8 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new BaseInfoField();
+    if (name.equals("ADDR")) return new BaseAddressField();
     return super.getField(name);
   }
 }

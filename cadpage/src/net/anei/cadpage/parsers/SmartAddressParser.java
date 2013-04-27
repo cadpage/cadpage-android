@@ -1010,6 +1010,12 @@ public abstract class SmartAddressParser extends MsgParser {
     boolean flexAt = isFlagSet(FLAG_AT_BOTH);
     boolean atStart = false;
     boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
+    
+    // Normally we will consider the possiblilty that ST might be the
+    // beginning of a street name starting with the abbrevation for Saint.
+    // But don't try this if  there is a reason to expect a different
+    // street following this one.
+    boolean suppressSTLookahead = isFlagSet(FLAG_IMPLIED_INTERSECT|FLAG_CROSS_FOLLOWS);
 
     // If address starts at beginning of field, find end of address and
     // Don't have to look for city because we wouldn't be here if both startAddr
@@ -1062,6 +1068,20 @@ public abstract class SmartAddressParser extends MsgParser {
               (isType(ndx, ID_ROUTE_PFX) && isType(ndx+1, ID_NUMBER | ID_ALPHA_ROUTE)) ||
               (isType(ndx, ID_ROUTE_PFX_PFX) && isType(ndx+1, ID_ROUTE_PFX_EXT) && isType(ndx+2, ID_NUMBER)) ||
               (isType(ndx, ID_AMBIG_ROAD_SFX) && (isType(ndx+1, ID_ROAD_SFX)));
+          
+          // If street suffix was ST, see if it might be the beginning of a street name
+          // Don't do this if we are looking for an implied intersection
+          if (!startHwy && !suppressSTLookahead && tokens[ndx].equalsIgnoreCase("ST")) {
+            if (!isType(ndx+1, ID_DIRECTION)) {
+              int sEnd = findRoadEnd(ndx, 0);
+              if (sEnd > 0) {
+                found = true;
+                sAddr = ndx;
+                ndx = sEnd-1;
+                break;
+              }
+            }
+          }
           
           if (!startHwy) {
             found = true;
