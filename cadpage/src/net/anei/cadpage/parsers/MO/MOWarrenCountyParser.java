@@ -43,6 +43,7 @@ public class MOWarrenCountyParser extends DispatchGlobalDispatchParser {
     "WRIGHT CITY",
     
     // Lincoln County
-    "HAWK POINT"
+    "HAWK POINT",
+    "TROY"
   };
 }

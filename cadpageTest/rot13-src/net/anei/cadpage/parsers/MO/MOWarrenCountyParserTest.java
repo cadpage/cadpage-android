@@ -712,7 +712,7 @@ choyvp pynff ZBJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G17",
         "(Qvfcngpu) ZHGHNY NVQ 1200 QVRGEVPU EQ   PebffFgerrgf: Qrfpevcgvba: RAGENAPR GB VAPYVAR",
         "PNYY:ZHGHNY NVQ",
-        "NQQE:1200 QVRGEVPU EQ",      // QBRF ABG ZNC
+        "NQQE:1200 QVRGEVPU EQ",      // Va Fg Puneyrf Pbhagl
         "VASB:RAGENAPR GB VAPYVAR");
 
     qbGrfg("G18",
