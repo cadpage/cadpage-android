@@ -1,7 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.CN;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.CN.CNPynevbaPbhaglCnefreGrfg;
+vzcbeg arg.narv.pnqcntr.cnefref.CN.CNPynevbaPbhaglNCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -19,10 +19,10 @@ Flfgrz: Vagrenpg
 
 */
 
-choyvp pynff CNPynevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff CNPynevbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp CNPynevbaPbhaglCnefreGrfg() {
-    frgCnefre(arj CNPynevbaPbhaglCnefre(), "PYNEVBA PBHAGL", "CN");
+  choyvp CNPynevbaPbhaglNCnefreGrfg() {
+    frgCnefre(arj CNPynevbaPbhaglNCnefre(), "PYNEVBA PBHAGL", "CN");
   }
 
  
@@ -89,6 +89,6 @@ choyvp pynff CNPynevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj CNPynevbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj CNPynevbaPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }
 }

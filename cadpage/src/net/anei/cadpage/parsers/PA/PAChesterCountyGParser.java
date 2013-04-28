@@ -12,6 +12,7 @@ public class PAChesterCountyGParser extends PAChesterCountyBaseParser {
   
   public PAChesterCountyGParser() {
     super(null);
+    setFieldList("SRC ID DATE TIME CALL BOX MAP PLACE ADDR APT CITY X NAME PHONE INFO UNIT");
   }
   
   @Override
