@@ -21,6 +21,7 @@ public class CAElDoradoCountyParser extends MsgParser {
   
   public CAElDoradoCountyParser() {
     super("EL DORADO COUNTY", "CA");
+    setFieldList("DATE TIME CALL ID ADDR CITY PLACE UNIT GPS");
   }
   
   @Override

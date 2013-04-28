@@ -16,6 +16,7 @@ public class CAMontereyCountyParser extends MsgParser {
   
   public CAMontereyCountyParser() {
     super("MONTEREY COUNTY", "CA");
+    setFieldList("MAP CALL ADDR UNIT INFO");
   }
   
   @Override

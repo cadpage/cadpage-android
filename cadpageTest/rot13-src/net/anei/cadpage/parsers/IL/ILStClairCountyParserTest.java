@@ -40,15 +40,6 @@ Fraqre: gpnqvasb@fgpynvepbhaglvy.tbi
 (Abgvsvpngvba) ﻿Sver Eha\a\aErfcbafr Glcr: SVER Ybpngvba: 524 FPUYHRGRE-TREZNVAR EQ, ORYYRIVYYR, 62220  \aPerngvba Gvzr: 04/20/2013 21:16:12  \aNtrapl: FZVGUGBA SQ 
 (Abgvsvpngvba) ﻿Sver Eha\a\aErfcbafr Glcr: SVER Ybpngvba: 407 A ZNVA FG, FZVGUGBA, 62285  (PRAGRE FG/OERIB FG)  \aPerngvba Gvzr: 04/19/2013 19:48:03  \aNtrapl: FZVGUGBA SQ 
 (Abgvsvpngvba) ﻿Sver Eha\a\aErfcbafr Glcr: ZRQVPNY - SVEFG ERFCBAQREF Ybpngvba: 4921 YBAR EBPX YA, FZVGUGBA, 62285  (/QEVSGFGBAR YA)  \aPerngvba Gvzr: 04/19/2013 07:12:03  \aNtrapl: FZVGUGBA SQ 
-
-ABGRF:
-Perqvg $100
-
-Cerggl fgenvgsbejneq.
-
-Bar pnyy unf aba rkgenavbhf aba-nfpvv punenpgre tneontr.  Cebonoyl fubhyq hfre n cnggrea ercynpr gb qryrgr gurz.  Cnggrea fgevat bs 
-[^\c{NFPVV}]
-fubhyq zngpu nyy aba-NFPVV punenpgref
  
 */
 
