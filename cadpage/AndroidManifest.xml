@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
   xmlns:android="http://schemas.android.com/apk/res/android"
-  package="net.anei.cadpage" android:versionName="1.6.20A" android:versionCode="16201" >
+  package="net.anei.cadpage" android:versionName="1.6.20B" android:versionCode="16202" >
   <uses-sdk
     android:targetSdkVersion="8" android:minSdkVersion="4"/>
       

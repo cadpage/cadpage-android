@@ -44,7 +44,8 @@ public class NCNashCountyParser extends SmartAddressParser {
   
   private static final CodeSet CALL_SET = new CodeSet(
       "GAS LEAK",
-      "MVA PI-H"
+      "MVA PI-H",
+      "OUTSIDE FI"
   );
   
   private static final String[] CITY_LIST = new String[]{
