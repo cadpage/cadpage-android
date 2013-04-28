@@ -12,7 +12,7 @@ public class NCDavieCountyBParser extends DispatchA3Parser {
   
   public NCDavieCountyBParser() {
     super("911:Call#", "DAVIE COUNTY", "NC",
-          "ID Address:ADDR! APT APT! City:CITY! X X MAP Location:INFO1! Complaint:CODE! Desc:CALL! Caller:NAME Ph#:PHONE Units:UNIT SKIP INFO+");
+          "ID Address:ADDR! APT APT! City:CITY! X X MAP Location:INFO1! Complaint:CODE% Desc:CALL% Caller:NAME Ph#:PHONE Units:UNIT SKIP INFO+");
   }
   
   @Override

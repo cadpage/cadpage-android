@@ -82,13 +82,33 @@ public class DispatchA3Parser extends FieldProgramParser {
   }
   
   private static final Pattern COMMENT_LABEL = Pattern.compile("^(?:Landmark|Geo) Comment:");
+  private static final Pattern COMMENT_LABEL2 = Pattern.compile("(?:Landmark|Geo) Comment:");
   private class BaseInfo1Field extends InfoField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("NBH:") && !COMMENT_LABEL.matcher(field).find()) return false;
+      parse(field, data);
+      return true;
+    }
+    
     @Override
     public void parse(String field, Data data) {
       int pt = field.indexOf("NBH:");
       if (pt >= 0) {
-        data.strPlace = append(data.strPlace, " - ", field.substring(pt+4).trim());
+        String place = field.substring(pt+4).trim();
         field = field.substring(0,pt).trim();
+        Matcher match = COMMENT_LABEL2.matcher(place);
+        if (match.find()) {
+          pt = match.start();
+          field = place.substring(pt);
+          place = place.substring(0,pt).trim();
+        }
+        data.strPlace = append(data.strPlace, " - ", place);
       } 
       Matcher match = COMMENT_LABEL.matcher(field);
       if (match.find()) {
@@ -139,16 +159,25 @@ public class DispatchA3Parser extends FieldProgramParser {
           
           String upshift = fld2.toUpperCase();
           if (upshift.startsWith("LANDMARK:")) {
-            if (data.strPlace.length() == 0) data.strPlace = fld2.substring(9).trim();
+            if (data.strPlace.length() == 0) {
+              data.strPlace = fld2.substring(9).trim();
+            }
+            else if (data.strPlace.startsWith("OFF ")) {
+              data.strPlace = fld2.substring(9).trim() + ' ' + data.strPlace;
+            }
             continue;
           }
           
           // Strip redundant place
           if (upshift.startsWith("NBH:")) {
-            int pt2 = fld2.indexOf(data.strPlace);
+            String place = data.strPlace;
+            int pt2 = place.indexOf(" OFF ");
+            if (pt2 >= 0) place = place.substring(pt2+1);
+            pt2 = fld2.indexOf(place);
             if (pt2 >= 0) {
-              pt2 += data.strPlace.length();
+              pt2 += place.length();
               fld2 = fld2.substring(pt2).trim();
+              upshift = fld2.toUpperCase();
             }
           }
           
@@ -177,7 +206,10 @@ public class DispatchA3Parser extends FieldProgramParser {
               data.strCross = append(prefix, " / ", data.strCross);
             }
             if (saveCross.length() > 0) data.strCross = saveCross;
+            upshift = fld2.toUpperCase();
           }
+          
+          if (upshift.startsWith("NARR:")) fld2 = fld2.substring(5).trim();
          
           if (fld2.length() > 0 && !fld2.equals(":") && !data.strSupp.contains(fld2)) {
             data.strSupp = append(data.strSupp, connect, fld2);
