@@ -12,6 +12,7 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
     "active911:",
     "06-wp:",
     "13-pie:",
+    "20-hop:",
     "als10:",
     "ems1:",
     "esadmin:",

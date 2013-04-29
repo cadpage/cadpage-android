@@ -13,6 +13,7 @@ public class SCYorkCountyParser extends MsgParser {
 
   public SCYorkCountyParser() {
     super("YORK COUNTY", "SC");
+    setFieldList("UNIT ADDR X CITY PLACE CALL INFO ID");
   }
 
   @Override
