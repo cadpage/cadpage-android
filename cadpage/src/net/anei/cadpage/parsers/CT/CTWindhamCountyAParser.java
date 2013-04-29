@@ -60,7 +60,7 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
       sAddr = sAddr.substring(match.end()).trim();
     }
     
-    // There has bee a problem with some call descriptions that contains things that look like
+    // There has been a problem with some call descriptions that contains things that look like
     // an address, so we try to identify and parser those out.
     if (sAddr.startsWith("/")) sAddr = sAddr.substring(1).trim();
     String reserveCall = "";

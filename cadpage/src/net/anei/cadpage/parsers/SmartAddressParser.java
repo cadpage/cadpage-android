@@ -1740,6 +1740,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // If we have to pass more than two tokens before finding, give up
       end = start;
       boolean good = false;
+      boolean number = false;
       while (++end - start <= 3) {
         
         // An intersection marker marks the end of things
@@ -1755,7 +1756,10 @@ public abstract class SmartAddressParser extends MsgParser {
         }
         if (isType(end, ID_CROSS_STREET)) break;
         
+        // A numeric token is acceptable only if it is the last token in the street name
         good = false;
+        if (number) break;
+        if (isType(end, ID_NUMBER)) number = true;
       }
       
       if (!good) return failIndex;
