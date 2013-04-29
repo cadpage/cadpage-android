@@ -88,13 +88,14 @@ Fraqre: npprff@zieqn.bet
 (Abgvsvpngvba) OS - Oehfu/Jvyqynaq Sver | (N)FISQ | FISQ2013-00127 | @Zrfvyyn Qnz  (1 ZRFVYYN QNZ EQ) |
 (Abgvsvpngvba) Yvsg Nffvfg | (N)FISQ | FISQ2013-00126 | 9445 FPUNSSARE EQ, 88012  (SBK EQ/ZBBATNGR EQ) #4 |
 
+Gvpxrg#2013011710000441
 Cnlbhg: $100
 
 Qba'g jbeel nobhg gur &nzc; pbafgehpgf.  Gur cercebprffbe jvyy punatr gubfr gb fgenvtug '&' orsber
 gurl trg gb lbhe cnefre.
 
 Nqqerff cnefvat vf tbvat gb or vagrerfgrq.  Ybbxf yvxr gurl unir 2 be 3 qvssrerag sbezngf
-Znxr fher gur yrnqvat / qbrfa'g trg vagb gur pebff fgerrg svryq.
+Znxr fher gur yrnqvat be genvyvat / qbrfa'g trg vagb gur pebff fgerrg svryq.
 
 Bu lrne, gelvat gb fcyvg gur grkg jvgu n '|' cnggrea jvyy trg irel bqq erfhygf.  Arrqf gb or "\\|"
 

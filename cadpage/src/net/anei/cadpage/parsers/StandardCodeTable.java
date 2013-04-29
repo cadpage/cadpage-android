@@ -9,7 +9,7 @@ public class StandardCodeTable extends CodeTable {
     super(
         
         // 1. Abdominal Pain/Problems
-        "01",       "Abdominal pain - prealert",
+        "01",       "Abdominal pain - Prealert",
         "01A01",    "Abdominal pain",
         "01C01",    "Abdominal Pain - Fainting/near fainting ≥50",
         "01C02",    "Abdominal Pain - Females fainting/near fainting 12 – 50",
@@ -20,7 +20,7 @@ public class StandardCodeTable extends CodeTable {
         "01D01",    "Abdominal Pain - Not alert",
         
         /// 2. Allergies(Reactions)/Envenomations (Stings/Bites) 
-        "02",       "Alergic reaction - prealert",
+        "02",       "Alergic reaction - Prealert",
         "02A01",    "Allergic reaction - No difficulty breathing/swallowing",
         "02A02",    "Spider bite",
         "02B01",    "Allergic reaction - Unknown status (3rd party caller)",
@@ -34,7 +34,7 @@ public class StandardCodeTable extends CodeTable {
         "02E01",    "Allergic reaction - Ineffective breathing",
         
         // 3. Animal Bites/Attacks 
-        "03",       "Animal bite - prealert",
+        "03",       "Animal bite - Prealert",
         "03A01",    "Animal bite - Not dangerous body area",
         "03A02",    "Animal bite - Non-recent injuries (≥6 hours)",
         "03A03",    "Animal bite - Superficial bites",
@@ -50,7 +50,7 @@ public class StandardCodeTable extends CodeTable {
         "03D07",    "Animal bite - Attack or multiple animals",
         
         //4. Assault/Sexual Assault 
-        "04",       "Assault - prealert",
+        "04",       "Assault - Prealert",
         "04A01",    "Assault - Not dangerous body area",
         "04A02",    "Assault - Non-recent injuries (≥6 hours)",
         "04B01",    "Assault - Possibly dangerous body area",
@@ -62,7 +62,7 @@ public class StandardCodeTable extends CodeTable {
         "04D04",    "Assault - Multiple victims",
         
         // 5. Back Pain (Non-Traumatic or Non-Recent Trauma) 
-        "05",       "Back pain - prealert",
+        "05",       "Back pain - Prealert",
         "05A01",    "Non-traumatic back pain",
         "05A02",    "Non-recent traumatic back pain (≥6 hours)",
         "05C01",    "Back Pain - Suspected aortic aneuryism >50",
@@ -71,7 +71,7 @@ public class StandardCodeTable extends CodeTable {
         "05D01",    "Back Pain - Not alert",
         
         // 6. Breathing Problems 
-        "06",       "Abnormal breathing - prealert",
+        "06",       "Abnormal breathing - Prealert",
         "06C01",    "Abnormal breathing",
         "06C02",    "Breathing Problems - Cardiac history",
         "06D01",    "Breathing Problems - Not alert",
@@ -81,7 +81,7 @@ public class StandardCodeTable extends CodeTable {
         "06E01",    "Ineffective breathing",
         
         // 7. Burns (Scalds)/Explosions 
-        "07",       "Burns -  prealert",
+        "07",       "Burns -  Prealert",
         "07A01",    "Burns <18% body area",
         "07A02",    "Burns - Fire alarm (unknown situation)",
         "07A03",    "Burns - Sunburn or minor burns (≤ hand size)",
@@ -97,7 +97,7 @@ public class StandardCodeTable extends CodeTable {
         "07D04",    "Burns - Difficulty speaking between breaths",
         
         //8. Carbon Monoxide/Inhalation/Hazmat 
-        "08",       "Carbon Monoxide - prealert",
+        "08",       "Carbon Monoxide - Prealert",
         "08A01",    "CO detector alarm (without priority symptoms)",
         "08B01",    "Carbon Monoxide - Alert without difficulty breathing",
         "08C01",    "Carbon Monoxide - Alert with difficulty breathing",
@@ -108,7 +108,7 @@ public class StandardCodeTable extends CodeTable {
         "08D05",    "Carbon Monoxide - Unknown status",
         
         /// 9. Cardiac or Respiratory Arrest/Death 
-        "09",       "Cardiac or Respiratory Arrest - prealert",
+        "09",       "Cardiac or Respiratory Arrest - Prealert",
         "09B01",    "Obvious death (unquestionable)",
         "09B01a",   "Obvious death: Cold & stiff in a warm environment",
         "09B01b",   "Obvious death: Decapitation",
@@ -130,7 +130,7 @@ public class StandardCodeTable extends CodeTable {
         "09E07",    "Expected death",
         
         // 10. Chest pain 
-        "10",        "Chest Pain - prealert",
+        "10",        "Chest Pain - Prealert",
         "10A01",     "Chest Pain - Breathing normally <35",
         "10C01",     "Chest Pain - Abnormal breathing",
         "10C02",     "Chest Pain - Cardiac history",
@@ -142,14 +142,14 @@ public class StandardCodeTable extends CodeTable {
         "10D04",     "Chest Pain - Clammy",
         
         ///11. Choking 
-        "11",        "Choking - prealert",
+        "11",        "Choking - Prealert",
         "11A01",     "Choking - Not choking now (can talk or cry, is alert and breathing normally)",
         "11D01",     "Choking - Abnormal breathing (partial obstruction)",
         "11D02",     "Choking - Not alert",
         "11E01",     "Choking verified",
         
         // 12. Convulsions/Seizures 
-        "12",        "Seizure - prealert",
+        "12",        "Seizure - Prealert",
         "12A01",     "Seizure - Not seizing now and breathing regularly (verified)",
         "12A02",     "Seizure - Focal seizure (alert)",
         "12A03",     "Seizure - Impending seizure (aura)",
@@ -163,7 +163,7 @@ public class StandardCodeTable extends CodeTable {
         "12D04",     "Seizure - Breathing regularly – not verified ≥35",
         
         // 13. Diabetic Problems 
-        "13",        "Diabetic Problem - prealert",
+        "13",        "Diabetic Problem - Prealert",
         "13A01",     "Diabetic Problem - Alert",
         "13C01",     "Diabetic Problem - Not alert",
         "13C02",     "Diabetic Problem - Abnormal behavior",
