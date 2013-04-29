@@ -15,6 +15,7 @@ public class NYSuffolkCountyEParser extends SmartAddressParser {
   
   public NYSuffolkCountyEParser() {
     super(CITY_LIST, "SUFFOLK COUNTY","NY");
+    setFieldList("PLACE ADDR APT CITY INFO");
   }
 
   @Override

@@ -44,6 +44,12 @@ choyvp pynff ALAnffnhPbhaglCnefreGrfg {
     }
   }
   
+  choyvp fgngvp pynff GrfgU rkgraqf ALAnffnhPbhaglUCnefreGrfg {
+    choyvp GrfgU() {
+      frgCnefre(arj ALAnffnhPbhaglCnefre());
+    }
+  }
+  
   choyvp fgngvp pynff GrfgErqNyreg rkgraqf ALAnffnhPbhaglErqNyregCnefreGrfg {
     choyvp GrfgErqNyreg() {
       frgCnefre(arj ALAnffnhPbhaglCnefre());

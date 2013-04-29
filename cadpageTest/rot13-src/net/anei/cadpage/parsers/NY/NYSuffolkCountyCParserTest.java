@@ -600,7 +600,7 @@ choyvp pynff ALFhssbyxPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALFhssbyxPbhaglPCnefreGrfg().trarengrGrfgf("G1", "PNYY PBQR VASB NQQE NCG PVGL K CYNPR GVZR");
+    arj ALFhssbyxPbhaglPCnefreGrfg().trarengrGrfgf("G1");
   }
 
 }
