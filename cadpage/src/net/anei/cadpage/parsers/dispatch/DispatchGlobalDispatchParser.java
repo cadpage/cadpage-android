@@ -20,6 +20,8 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   // Place name occurs between address and city name
   public static final int PLACE_FOLLOWS_ADDR = 8;
   
+  private static final Pattern CALL_NUMBER_PTN = Pattern.compile("^Call Number: *(\\d+) +");
+  
   private Pattern stationPtn;
   private Pattern unitPtn;
   private boolean leadStuff;
@@ -54,10 +56,20 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    Matcher match = CALL_NUMBER_PTN.matcher(body);
+    if (match.find()) {
+      data.strCallId = match.group(1);
+      body = body.substring(match.end());
+    }
     if (! super.parseMsg(body, data)) return false;
     if (data.strCall.length() == 0) return false;
     if (data.strCity.length() == 0 && data.strUnit.length() == 0 && data.strCross.length() == 0 && !body.contains(" Description:")) return false;
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "ID " + super.getProgram();
   }
   
   protected class BaseAddressField extends AddressField {
