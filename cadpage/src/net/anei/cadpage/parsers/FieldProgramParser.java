@@ -2745,8 +2745,12 @@ public class FieldProgramParser extends SmartAddressParser {
 
     @Override
     public boolean checkParse(String field, Data data) {
-      return code.equals(getSelectValue());
+      return code.equals(getSelectValue(data));
     }
+  }
+  
+  protected String getSelectValue(Data data) {
+    return getSelectValue();
   }
   
   protected String getSelectValue() {

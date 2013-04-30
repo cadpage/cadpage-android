@@ -16,7 +16,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class TXBexarCountyParser extends FieldProgramParser {
   
-  private static final String MAP_PATTERN = "(?:\\d{3}[A-Z]\\d|SA\\d{3}(?:/[A-Z]\\d?)?)";
+  private static final String MAP_PATTERN = "(\\d{3}[A-Z]\\d|SA\\d{3}(?:/[A-Z]\\d?)?)";
   private static final Pattern SEMI_DELIM = Pattern.compile("(?<= ) *; ");
   private static final Pattern DASH_DELIM_PTN = Pattern.compile(" +- ");
   private static final Pattern PROTECT_KEYWORD = Pattern.compile("(?<=:)  +(?=[^ ])");
@@ -30,7 +30,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
   
   public TXBexarCountyParser() {
     super("BEXAR COUNTY", "TX",
-          "DATETIME? CALL CALL? ADDR XAPT+? MAP ID? INFO+");
+          "DATETIME? CALL CALL? ADDR X_APT+? MAP_ID_UNIT! MAP_ID_UNIT+? INFO+");
   }
   
   public String getFilter() {
@@ -40,7 +40,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // New main format is semicolon delimted.  So let's give that a try
+    // New main format is semicolon delimited.  So let's give that a try
     body = body.replace(" ;Apt", " ; Apt");
     String flds[] = SEMI_DELIM.split(body);
     
@@ -129,7 +129,8 @@ public class TXBexarCountyParser extends FieldProgramParser {
         
         // Otherwise, if contains only alpha letters and blanks, it is a call description
         // otherwise it is an address
-        if (CALL_DESC_PTN.matcher(field).matches()) return false;
+        // Not sure what EOC is, but treat it like an address
+        if (!field.equalsIgnoreCase("EOC") && CALL_DESC_PTN.matcher(field).matches()) return false;
       }
       
       // A numeric field is assumed to be part of a street range that will
@@ -183,25 +184,10 @@ public class TXBexarCountyParser extends FieldProgramParser {
     }
   }
   
-  private class MyMapField extends MapField {
+  private static final Pattern MAP_ID_UNIT_PATTERN = 
+      Pattern.compile(MAP_PATTERN + "|Case|([A-Z]{3,4}-\\d{4}-\\d{6,}|\\d{4}-(?:\\d{3}|[A-Z]{2})-\\d+)(?: +Dept[ -](.*))?|Dept[ -]+([^ \\*]+?)([ \\*].*|)");
+  private class MyMapIdUnitField extends MyInfoField {
     
-    public MyMapField() {
-      super(MAP_PATTERN + "|Case", true);
-    }
-    
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public void parse(String field, Data data) {
-      if (field.equals("Case")) return;
-      super.parse(field, data);
-    }
-  }
-  
-  private static final Pattern ID_PTN = Pattern.compile("([A-Z]{3,4}-\\d{4}-\\d{6,})(?: +Dept[ -](.*))?");
-  private class MyIdField extends IdField {
     @Override
     public boolean canFail() {
       return true;
@@ -209,21 +195,45 @@ public class TXBexarCountyParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      Matcher match = ID_PTN.matcher(field);
+      Matcher match = MAP_ID_UNIT_PATTERN.matcher(field);
       if (!match.matches()) return false;
-      data.strCallId = match.group(1);
-      data.strUnit = getOptGroup(match.group(2));
+      
+      field = match.group(1);
+      if (field != null) {
+        data.strMap = field;
+        return true;
+      }
+      
+      field = match.group(2);
+      if (field != null) {
+        data.strCallId = field;
+        data.strUnit = getOptGroup(match.group(3));
+        return true;
+      }
+      
+      field = match.group(4);
+      if (field != null) {
+        data.strUnit = field;
+        super.parse(match.group(5), data);
+        return true;
+      }
+      
       return true;
     }
-    
+
     @Override
     public void parse(String field, Data data) {
       if (!checkParse(field, data)) abort();
     }
+
+    @Override
+    public String getFieldNames() {
+      return "MAP ID " + super.getFieldNames();
+    }
   }
   
   // Info field tries to clean up some of the more useless information
-  private static final Pattern INFO_DEPT_PTN = Pattern.compile("^Dept[ -]([^ ]+?)(?: |$)");
+  private static final Pattern INFO_DEPT_PTN = Pattern.compile("^Dept[ -]+([^ \\*]+?)(?:[ \\*]|$)");
   private static final Pattern ACADIAN_PTN = Pattern.compile("(?:\\bACADIAN:|\\[ProQA Script\\]) *");
   private static final Pattern SPEC_INFO_PTN = Pattern.compile("(?<=^|,) *Unit: *([^ ]+)\\b|" +                                // Unit:
                                                                   "(?<=^|,) *Dispatch code: *([^ ]+)\\b|" +                       // Dispatch code:
@@ -271,9 +281,8 @@ public class TXBexarCountyParser extends FieldProgramParser {
     if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("XAPT")) return new MyCrossAptField();
-    if (name.equals("MAP")) return new MyMapField();
-    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("X_APT")) return new MyCrossAptField();
+    if (name.equals("MAP_ID_UNIT")) return new MyMapIdUnitField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
