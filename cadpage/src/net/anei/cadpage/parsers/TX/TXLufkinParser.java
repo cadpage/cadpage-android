@@ -3,10 +3,10 @@ package net.anei.cadpage.parsers.TX;
 import net.anei.cadpage.parsers.dispatch.DispatchA18Parser;
 
 
-public class TXKellerParser extends DispatchA18Parser {
+public class TXLufkinParser extends DispatchA18Parser {
   
-  public TXKellerParser() {
-    super("TARRANT COUNTY","TX");
+  public TXLufkinParser() {
+    super("ANGELINA COUNTY","TX");
   }
   
   @Override

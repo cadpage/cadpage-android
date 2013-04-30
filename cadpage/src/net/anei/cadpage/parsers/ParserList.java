@@ -698,6 +698,7 @@ public class ParserList {
               ,"TXLewisville"                   ,"Lewisville, TX"
               ,"TXLibertyCounty"                ,"Liberty County, TX"
               ,"TXLongview"                     ,"Longview, TX"
+              ,"TXLufkin"                       ,"Lufkin, TX"
               ,"TXManvel"                       ,"Manvel, TX"
               ,"TXMontgomeryCounty"             ,"Montgomery County, TX"
               ,"TXNuecesCounty"                 ,"Nueces County, TX"
