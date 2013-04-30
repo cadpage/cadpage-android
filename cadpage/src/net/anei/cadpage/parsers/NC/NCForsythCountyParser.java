@@ -17,14 +17,13 @@ public class NCForsythCountyParser extends FieldProgramParser {
       "CL", "CLEMMONS",
       "HP", "HIGH POINT",
       "KE", "KERNERSVILLE",
+      "KI", "KING",
       "LE", "LEWISVILLE",
       "RH", "RURAL HALL",
       "TO", "TOBACCOVILLE",
       "WA", "WALKERTOWN",
       "WS", "WINSTON-SALEM"
   });
-  
-  private static final Pattern MA_PATTERN = Pattern.compile("@(.+):"); 
   
   public NCForsythCountyParser() {
     super(CITY_CODES, "FORSYTH COUNTY", "NC",
@@ -54,6 +53,14 @@ public class NCForsythCountyParser extends FieldProgramParser {
     return true;
   }
   
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " ADDR";
+  }
+  
+  
+  private static final Pattern MA_PATTERN = Pattern.compile("@(.+):"); 
+  private static final Pattern APT_PTN = Pattern.compile("[,:](?:APT|RM|(?! )) *(.*?)$");
   private static final Pattern FC_PTN = Pattern.compile("\\bFC\\b");
   private class MyAddressField extends AddressField {
     
@@ -70,10 +77,10 @@ public class NCForsythCountyParser extends FieldProgramParser {
         fld = fld.substring(0,pt).trim();
       }
       
-      pt = fld.indexOf(",RM ");
-      if (pt >= 0) {
-        data.strApt = fld.substring(pt+4).trim();
-        fld = fld.substring(0,pt).trim();
+      match = APT_PTN.matcher(fld);
+      if (match.find()) {
+        data.strApt = match.group(1);
+        fld = fld.substring(0,match.start()).trim();
       }
       
       super.parse(fld, data);
