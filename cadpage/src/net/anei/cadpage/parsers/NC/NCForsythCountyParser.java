@@ -59,7 +59,8 @@ public class NCForsythCountyParser extends FieldProgramParser {
   }
   
   
-  private static final Pattern MA_PATTERN = Pattern.compile("@(.+):"); 
+  private static final Pattern MA_PATTERN = Pattern.compile("@([A-Z ]+):"); 
+  private static final Pattern MA_PATTERN2 = Pattern.compile("^1 +([A-Z ]+):");
   private static final Pattern APT_PTN = Pattern.compile("[,:](?:APT|RM|(?! )) *(.*?)$");
   private static final Pattern FC_PTN = Pattern.compile("\\bFC\\b");
   private class MyAddressField extends AddressField {
@@ -67,10 +68,15 @@ public class NCForsythCountyParser extends FieldProgramParser {
     @Override
     public void parse(String fld, Data data) {
       Matcher match = MA_PATTERN.matcher(fld);
-      if (match.find()) {
+      boolean found = match.find();
+      if (!found) {
+        match = MA_PATTERN2.matcher(fld);
+        found = match.find();
+      }
+      if (found) {
         data.strCity = match.group(1);
         fld = fld.substring(match.end()).trim();
-      }
+      } 
       int pt = fld.indexOf('@');
       if (pt >= 0) {
         data.strPlace = fld.substring(pt+1).trim();
