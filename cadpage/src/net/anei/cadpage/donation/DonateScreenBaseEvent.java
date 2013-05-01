@@ -86,6 +86,10 @@ public abstract class DonateScreenBaseEvent extends DonateEvent {
     // instantiated which will set up the class map.
     MainDonateEvent.instance();
     
+    // Except for Vendor1Event which isn't in the main menu.   So we will invoke it
+    // as well
+    Vendor1Event.instance();
+    
     DonateScreenBaseEvent event = screenEventMap.get(classname);
     if (event == null) {
       StringBuilder sb = new StringBuilder("No Event registered for " + classname);
