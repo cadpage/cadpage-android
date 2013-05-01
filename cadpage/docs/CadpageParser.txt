@@ -98,6 +98,75 @@ CFS:0907010-119
 DIS:PHILOMATH FIRE
 
 
+What is returned is a list of name:value pairs separated by newline characaters.
+The possible name values are as follows:
+
+These fields contain important information that should always be reported to the user
+PRI     Call priority
+CODE    Short Call Code
+CALL    Call description
+PLACE   Place or business name
+ADDR    Incident address
+APT     Apartment
+CITY    Incident City
+X       Cross Streets
+BOX     Alarm box code
+MAP     Map Code
+CH      Radio Channel
+UNIT    Dispatched unit(s)
+INFO    Other useful information
+ID      Call ID or number
+
+These field contain useful information that you might want to suppress out of
+concerns for caller/patient privacy.  Cadpage has a configurable option to 
+determine whether or not these are displayed.  Default is off
+NAME    Pt/Caller name
+PHONE   Pt/Caller phone
+
+More useful information that is not displayed by default because most users
+only responde to one station and department and will never get calls to any
+other station or department.  Cadpage has another option to turn this display on.
+SRC     Station or department code
+
+These are mapping support fields.  They are generally not displayed to the user
+but are used to construct the search string to be passed to the mapping software
+when an incident map is requested
+GPS     GPS Coordinates
+REC_GPS Y if parser recommends using GPS coordinates in preference to map address
+MADDR   Mapping address if different from incident address
+DCITY   Default City
+DST     Default State
+CO      Country code
+Cadpage has a user option to determine whether GPS coordines should be used instead
+of mapping addresses to identify the location.  It has three states.  Use GPS, use
+address, or the default follow parser recomendation.
+The GPS coordinates should be used if GPS coordinates are present the user option
+user option or REC_GPS flag recommends use of GPS coordinates.
+When building a search string from the address information, use the following 
+information separated by commas.
+MADDR field if present, ADDR field otherwise  (Replace & with AT in result)
+CITY field if present, DCITY field otherwise
+ST field if present, DST field otherwise
+CO field if present
+
+This field defines an URL where users can display more information about the call.
+Typically this results in a "More Info" button appearing that users can press to
+open this page in a web browser.
+URL     URL with more information about the call.
+
+These fields contain dispatch date and time message extracted from message.  They
+are not always present and should not be relied upon to determine the reported
+message time.  
+DATE  Dispatch date in mm/dd/yy or mm/dd/yyyy form  **
+TIME  Dispatch time in hh:mm:ss or hh:mm form **
+The date/time reporting algorithm should use these fields if present.
+Otherwise it should use the date/time the vendor reported receiving the
+message, which probably need to be adjusted from UMT to local time.
+Otherwise report the date/time them message was received.
+Some fancy logic may be required when matching a time from one source with
+a date from a different source to correct problems that occur when the calls
+were on different sides of midnight.
+
 
 *** For more information ****
 
