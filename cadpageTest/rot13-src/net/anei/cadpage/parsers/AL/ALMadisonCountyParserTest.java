@@ -45,6 +45,18 @@ pnq.cntr@znqpb911.pbz / VCF V/Cntr Abgvsvpngvba / Ybp: 1770 QHT UVYY EQ ZQPB RIG
 pnq.cntr@znqpb911.pbz / VCF V/Cntr Abgvsvpngvba / Ybp: 117 FGNPL PVE ZQPB RIG#: P1301732 GLCR: Z GVZR: 09:12:11 TEVQ VQ: 1419
 pnq.cntr@znqpb911.pbz / VCF V/Cntr Abgvsvpngvba / Ybp: 3252 UVTUJNL 72 R ZQPB: nyvnf 3252 UJL 72 RIG#: P1301707 GLCR: Z GVZR: 16:08:52 TEVQ VQ: 1430
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Zbaebivn SverErfphr
+Ybpngvba: Uhagfivyyr, NY, Havgrq Fgngrf
+Fraqre: Funja Greel <sverpuvrs@zbaebivnsver.bet>
+
+GRFG BAYL Ybp: WRSS EQ/PNCFUNJ EQ ZQPB RIG#: P1303111 GLCR: FHV/N GVZR: 09:23:34 TEVQ VQ: 1221
+Ybp: 290 UBZRCYNPR YA ZQPB RIG#: P1301940 GLCR: Z GVZR: 15:27:43 TEVQ VQ: 1208
+Ybp: 115 GVAQNYY QE ZQPB RIG#: P1301468 GLCR: S/NYNEZF GVZR: 12:01:24 TEVQ VQ: 1209
+Ybp: 345 ZG. MVBA EQ ZQPB RIG#: P13KKKK GLCR: GRFG BAYL\e\a
+Ybp: 345 ZG. MVBA EQ ZQPB RIG#: P1301298 GLCR: GRFG GVZR: 10:54:13 TEVQ VQ: 1217
+Ybp: 124 FNORY PVE ZQPB RIG#: P1301301 GLCR: Z GVZR: 12:37:06 TEVQ VQ: 1211\e\a
+
  */
 
 choyvp pynff NYZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -211,6 +223,63 @@ choyvp pynff NYZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:16:08:52",
         "ZNC:1430");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZbaebivnSverErfphr() {
+
+    qbGrfg("G1",
+        "GRFG BAYL Ybp: WRSS EQ/PNCFUNJ EQ ZQPB RIG#: P1303111 GLCR: FHV/N GVZR: 09:23:34 TEVQ VQ: 1221",
+        "NQQE:WRSS EQ & PNCFUNJ EQ",
+        "PVGL:ZNQVFBA PBHAGL",
+        "VQ:P1303111",
+        "PNYY:FHV/N",
+        "GVZR:09:23:34",
+        "ZNC:1221");
+
+    qbGrfg("G2",
+        "Ybp: 290 UBZRCYNPR YA ZQPB RIG#: P1301940 GLCR: Z GVZR: 15:27:43 TEVQ VQ: 1208",
+        "NQQE:290 UBZRCYNPR YA",
+        "PVGL:ZNQVFBA PBHAGL",
+        "VQ:P1301940",
+        "PNYY:ZRQVPNY",
+        "GVZR:15:27:43",
+        "ZNC:1208");
+
+    qbGrfg("G3",
+        "Ybp: 115 GVAQNYY QE ZQPB RIG#: P1301468 GLCR: S/NYNEZF GVZR: 12:01:24 TEVQ VQ: 1209",
+        "NQQE:115 GVAQNYY QE",
+        "PVGL:ZNQVFBA PBHAGL",
+        "VQ:P1301468",
+        "PNYY:SVER NYNEZ",
+        "GVZR:12:01:24",
+        "ZNC:1209");
+
+    qbGrfg("G4",
+        "Ybp: 345 ZG. MVBA EQ ZQPB RIG#: P13KKKK GLCR: GRFG BAYL\e\a",
+        "NQQE:345 ZG MVBA EQ",
+        "PVGL:ZNQVFBA PBHAGL",
+        "VQ:P13KKKK",
+        "PNYY:GRFG BAYL");
+
+    qbGrfg("G5",
+        "Ybp: 345 ZG. MVBA EQ ZQPB RIG#: P1301298 GLCR: GRFG GVZR: 10:54:13 TEVQ VQ: 1217",
+        "NQQE:345 ZG MVBA EQ",
+        "PVGL:ZNQVFBA PBHAGL",
+        "VQ:P1301298",
+        "PNYY:GRFG",
+        "GVZR:10:54:13",
+        "ZNC:1217");
+
+    qbGrfg("G6",
+        "Ybp: 124 FNORY PVE ZQPB RIG#: P1301301 GLCR: Z GVZR: 12:37:06 TEVQ VQ: 1211\e\a",
+        "NQQE:124 FNORY PVE",
+        "PVGL:ZNQVFBA PBHAGL",
+        "VQ:P1301301",
+        "PNYY:ZRQVPNY",
+        "GVZR:12:37:06",
+        "ZNC:1211");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

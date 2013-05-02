@@ -27,10 +27,14 @@ public class ALMadisonCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
 
     if (body.startsWith("/ ")) body = body.substring(2).trim();
-    if (! subject.contains(CAD_MARKER)) {
-     if (! body.startsWith(CAD_MARKER + " / ")) return false;
-      body = body.substring(CAD_MARKER.length()+3);
-    }
+    do {
+      if (subject.contains(CAD_MARKER)) break;
+      
+      if (body.startsWith(CAD_MARKER + " / ")) {
+        body = body.substring(CAD_MARKER.length()+3);
+        break;
+      }
+    } while (false);
    
     return super.parseMsg(body, data);
   }
