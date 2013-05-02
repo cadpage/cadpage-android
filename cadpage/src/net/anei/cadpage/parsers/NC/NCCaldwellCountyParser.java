@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.NC;
 
 import java.util.Properties;
-import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -11,7 +10,7 @@ public class NCCaldwellCountyParser extends FieldProgramParser {
   
   public NCCaldwellCountyParser() {
     super(CITY_CODES, "CALDWELL COUNTY", "NC",
-           "CALL PLACE? ADDR/Z CITY APT? X/Z+? ID");
+           "CALL ( ADDR/Z ID | ADDR/Z CITY APT? X/Z+? ID | PLACE ADDR/Z ID | PLACE ADDR/Z CITY APT? X/Z+? ID )");
   }
   
   @Override
@@ -39,16 +38,10 @@ public class NCCaldwellCountyParser extends FieldProgramParser {
     }
   }
   
-  private class MyIdField extends IdField {
-    public MyIdField() {
-      setPattern(Pattern.compile("\\d{10}"));
-    }
-  }
-  
   @Override
   public Field getField(String name) {
     if (name.equals("APT")) return new MyAptField();
-    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("ID")) return new IdField("\\d{10}", true);
     return super.getField(name);
   }
   
