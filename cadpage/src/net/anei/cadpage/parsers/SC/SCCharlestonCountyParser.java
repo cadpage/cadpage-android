@@ -13,7 +13,7 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   
   public SCCharlestonCountyParser() {
     super("CHARLESTON COUNTY", "SC",
-           "( PREFIX Address:ADDR! X_Street:X Cmd_Channel:CH% | ADDR/SC! X_Street:X Cmd_Channel:CH! Units_Assigned:UNIT% Time:TIME )");
+           "( PREFIX Address:ADDR! X_Street:X Cmd_Channel:CH% | ADDR2/SC! X_Street:X Cmd_Channel:CH! Units_Assigned:UNIT% Time:TIME )");
   }
   
   @Override
@@ -58,11 +58,6 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
     return true;
   }
   
-  @Override
-  public String getProgram() {
-    return "UNIT ID SRC CALL CODE ADDR X APT INFO PLACE CH";
-  }
-  
   private static String getField(String body, int start, int end) {
     int len = body.length();
     if (start > len) start = len;
@@ -93,12 +88,41 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
     public String getFieldNames() {
       return "ID SRC";
     }
+  }
+  
+  private static final Pattern RESP_AREA_PTN = 
+      Pattern.compile("^(NCFD (?:NORTH|SOUTH|EAST|WEST) \\d+|[A-Z]{2}FD \\d+|FD WEST ASHLEY RIVER|CHFD \\d+|(?:ST|TH) NAVAL WEAPONS STA)\\b");
+  private class MyAddress2Field extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(" Response Area: ");
+      if (pt >= 0) {
+        String call = field.substring(0,pt).trim();
+        field = field.substring(pt+16).trim();
+        Matcher match = RESP_AREA_PTN.matcher(field);
+        if (match.find()) {
+          data.strMap = match.group(1);
+          parseAddress(field.substring(match.end()).trim(), data);
+        } else {
+          super.parse(field, data);
+          data.strMap = data.strCall;
+        }
+        data.strCall = call;
+      } else {
+        super.parse(field, data);
+      }
+    }
     
+    @Override
+    public String getFieldNames() {
+      return "CALL MAP ADDR APT";
+    }
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("PREFIX")) return new PrefixField();
+    if (name.equals("ADDR2")) return new MyAddress2Field();
     return super.getField(name);
   }
 }
