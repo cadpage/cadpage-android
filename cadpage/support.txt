@@ -268,7 +268,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-ZGMUTGEA or zgmutgea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+YFZHQIEA or yfzhqiea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -356,7 +356,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-ZGMUTGEA or zgmutgea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+YFZHQIEA or yfzhqiea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -456,7 +456,7 @@ subscription.
 
 **********************************************************************
 
-Most of our users are volunteer firefighters or EMS workers.  My husband and I are both volunteers with our local fire department. Yes it is unfortunate that we have to ask people already volunteering so much time and energy to pay us for a cool app.  The reality is that maintaining and continually developing Cadpage is more than a full time job. We have to pay our bills somehow, and Google takes their fair share.
+Most of our Users are volunteer firefighters or EMS workers.  My husband and I are both volunteers with our local fire department. Yes it is unfortunate that we have to ask people already volunteering so much time and energy to pay us for a cool app.  The reality is that maintaining and continually developing Cadpage is more than a full time job. We have to pay our bills somehow, and Google takes their fair share.
 
 $10 per year is way out of line for what you normally expect to pay for a general purpose Android app.  There are two reasons why this is necessary.
 1) Cadpage is an extremely high maintenance app.  We put out weekly releases, and every week there are usually 10 or so location parsers that have to be fixed, either because Dispatch changed the text format, or because someone found a corner case that wasn't covered by the existing parser.  Most apps get by with a release every 3 months or more.
@@ -500,7 +500,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-ZGMUTGEA or zgmutgea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+YFZHQIEA or yfzhqiea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -514,7 +514,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-ZGMUTGEA or zgmutgea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+YFZHQIEA or yfzhqiea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -524,7 +524,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-ZGMUTGEA or zgmutgea.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+YFZHQIEA or yfzhqiea.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -1755,6 +1755,37 @@ would like to port Cadpage to Windows phones, we would be happy to help
 any way that we can.
 
 **************************************************************
+
+The basic problem is that all dispatch centers have a different way of
+formatting their text pages.  Which a specific text parser has to be
+written for each one.  Since this parser is dedicated to handling only
+pages from this dispatch center, it can be very specific about pulling
+the correct information out of each message.  The downside is that we
+need a lot of these parsers, getting close to 800 now, and they have to
+be continuously updated to keep up with changes dispatch centers make to
+how the pages are formatted.  Which is what makes Cadpage such a high
+maintenance (read expensive) app.
+
+When we don't have a specific location parser to handle your pages, the
+only way you can use Cadpage is with one of the general location
+parsers.  These parsers don't know the specifics of the pages they have
+to handle, so look at everything and make general informed guesses at
+where the needed information can be found.  Because they lack this
+specific knowledge, the won't always get the correct information, and
+are more likely to fail completely that a location specific parser.
+While the general parsers are large and complicated, some of my best
+work really, they are rather static and almost never need to be updated.
+ Because they are not as reliable as a location specific parser.  And
+because their total maintenance costs are relatively low, we have chosen
+to not try to collect from users until we have a location specific
+parser they can use.
+
+Hope that all makes sense,
+-Ken
+
+Q"
+> Was wondering what it meant under payment status as sponsored by cadpage
+> and unreliable? What exactly is unreliable?
 
 end
 
