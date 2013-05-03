@@ -34,6 +34,11 @@ public class PAMontgomeryCountyBParser extends DispatchA8Parser {
       data.strSupp = append(data.strSupp, "\n", field.substring(pt).replaceAll("\n\n+", "\n"));
     }
   }
+  
+  @Override
+  protected String specialFieldNames() {
+    return "INFO";
+  }
 
   @Override
   public Field getField(String name) {

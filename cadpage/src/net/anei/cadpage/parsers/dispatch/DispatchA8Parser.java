@@ -16,7 +16,7 @@ public class DispatchA8Parser extends FieldProgramParser {
 
   protected DispatchA8Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
-           "DISPATCH? TIME CALL ADDR PLACE ( MAP X | NAME PHONE! MAP ) UNK INFO DATE CODE ID SRC SPECIAL CITY UNK SRC UNK X UNK UNIT");
+           "DISPATCH? TIME CALL ADDR PLACE ( MAP X | NAME PHONE! MAP ) ( DATE SPECIAL CITY X UNIT | INFO DATE SPECIAL CITY X UNIT | UNK INFO DATE CODE ID SRC SPECIAL CITY UNK SRC UNK X UNK UNIT )");
   }
   
   @Override
@@ -100,9 +100,10 @@ public class DispatchA8Parser extends FieldProgramParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("DISPATCH")) return new SkipField("Dispatch", true);
-    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d(?::\\d\\d)?", false);
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d(?::\\d\\d)?", true);
     if (name.equals("PLACE")) return new BasePlaceField();
-    if (name.equals("MAP")) return new MapField("\\d\\d-[A-Z0-9]\\d", false);
+    if (name.equals("MAP")) return new MapField("\\d\\d-[A-Z0-9]\\d|\\d+[A-Z] [A-Z]|\\d-\\d [A-Z]", false);
+    if (name.equals("DATE")) return new DateField("\\d\\d/\\d\\d/\\d\\d", true);
     if (name.equals("SRC")) return new BaseSourceField();
     if (name.equals("X")) return new BaseCrossField();
     if (name.equals("UNIT")) return new BaseUnitField();
