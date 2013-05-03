@@ -36,6 +36,10 @@ Pbagnpg: Qnaal Ornhinvf <gnlybeqt85@tznvy.pbz>
 Fraqre: PbzzgrpuZrffratre (rzretva)
 SEZ:PbzzgrpuZrffratre (rzretva)\aZFT:ZSQ P-65 FRVMHERF, 544 OVYGZBER FG, 13-00958
 
+Pbagnpg: "Fuvssyrg, Znex" <zfuvssyrg@pv.zbberfivyyr.ap.hf>
+Fraqre: PbzzgrpuZrffratre (rzretva)
+SEZ:PbzzgrpuZrffratre (rzretva)\aZFT:ZSQ P-50 HAPBAFPVBHF, 113 FUNTONEX YA, 13-01077
+
 Pbagnpg: fhccbeg.npgvir911.pbz
 [] SQ18 P-90 UBHFR SVER, 127 SYBEN YA\a
 [] SQ18 P-36 FGNAQ OL NG ONFR, 1819 EVQTR EQ\a
@@ -265,6 +269,18 @@ choyvp pynff APVerqryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:544 OVYGZBER FG",
         "VQ:13-00958");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZnexFuvssyrg() {
+
+    qbGrfg("G1",
+        "SEZ:PbzzgrpuZrffratre (rzretva)\aZFT:ZSQ P-50 HAPBAFPVBHF, 113 FUNTONEX YA, 13-01077",
+        "HAVG:ZSQ",
+        "PNYY:P-50 HAPBAFPVBHF",
+        "NQQE:113 FUNTONEX YA",
+        "VQ:13-01077");
+  
   }
   
   @Grfg

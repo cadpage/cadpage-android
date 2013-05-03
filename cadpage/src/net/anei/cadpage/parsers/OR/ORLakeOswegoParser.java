@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class ORLakeOswegoParser extends FieldProgramParser {
   
-  private static final Pattern PTN_UNIT_CODE_CALL = Pattern.compile("([A-Z0-9]{4,5}) - ([A-Z0-9]{3}) \\((.*)\\)");
+  private static final Pattern PTN_UNIT_CODE_CALL = Pattern.compile("([A-Z0-9]{3,5}) - ([A-Z0-9/]{3,4}) \\((.*)\\)");
   
   public ORLakeOswegoParser() {
     this("LAKE OSWEGO", "OR");
