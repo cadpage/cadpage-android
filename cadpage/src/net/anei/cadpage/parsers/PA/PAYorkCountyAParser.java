@@ -25,7 +25,7 @@ public class PAYorkCountyAParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "FIRE@mantwp.com,paging@zoominternet.net";
+    return "FIRE@mantwp.com,paging@zoominternet.net,dtfdfilter@yahoo.com";
   }
 
   @Override
