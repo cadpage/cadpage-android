@@ -59,6 +59,7 @@ public class WVRaleighCountyParser extends DispatchBParser {
     "ABRAHAM",
     "AFFINITY",
     "AMIGO",
+    "ARNETT",
     "ARTIE",
     "BEAVER",
     "BESOCO",
@@ -72,13 +73,16 @@ public class WVRaleighCountyParser extends DispatchBParser {
     "CEDAR",
     "CIRTSVILLE",
     "COAL CITY",
+    "COLCORD",
     "COOL RIDGE",
     "CRAB ORCHARD",
+    "DAMERON",
     "DANIELS",
     "DOROTHY",
     "EASTGULF",
     "ECCLES",
     "EGERIA",
+    "EUNICE",
     "FIRECO",
     "FLAT TOP",
     "GHENT",
@@ -91,6 +95,7 @@ public class WVRaleighCountyParser extends DispatchBParser {
     "JONBEN",
     "JOSEPHINE",
     "KILLARNEY",
+    "LEEVALE",
     "LEGO",
     "LILLYBROOK",
     "MACARTHUR",
@@ -100,6 +105,7 @@ public class WVRaleighCountyParser extends DispatchBParser {
     "NAOMA",
     "NEW",
     "ODD",
+    "PACKSVILLE",
     "PEMBERTON",
     "PICKSHIN",
     "PINEPOCA",
@@ -117,8 +123,10 @@ public class WVRaleighCountyParser extends DispatchBParser {
     "SOPHIA",
     "SPRAGUE",
     "STANAFORD",
+    "STICKNEY",
     "STOTESBURY",
     "SULLIVAN",
+    "SUNDIAL",
     "SYLVIA",
     "TAMS",
     "URY",
@@ -126,10 +134,18 @@ public class WVRaleighCountyParser extends DispatchBParser {
     "WHITE OAK",
     "WILLIBET",
     "WINDING GULF",
-    "WOODPECK"
+    "WOODPECK",
+    
+    // Boone County
+    "BOONE COUNTY",
+    "WHITESVILLE"
   };
   
   private static final Properties CITY_PLACE_NAMES = buildCodeTable(new String[]{
       "CALLOWAY HEIGHTS",   "BECKLEY",
+      "DAMERON",            "",
+      "EUNICE",             "WHITESVILLE",
+      "LEEVALE",            "WHITESVILLE",
+      "PACKSVILLE",         ""
   });
 }
