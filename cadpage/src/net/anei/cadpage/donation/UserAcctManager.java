@@ -78,6 +78,8 @@ public abstract class UserAcctManager {
       phoneNumber = tMgr.getLine1Number();
       if (phoneNumber == null) phoneNumber = tMgr.getVoiceMailNumber();
       phoneNumber = cleanName(phoneNumber);
+      if (phoneNumber.startsWith("+")) phoneNumber = phoneNumber.substring(1);
+      if (phoneNumber.startsWith("1")) phoneNumber = phoneNumber.substring(1);
       
       Account[] accounts = AccountManager.get(context).getAccountsByType("com.google");
       if (accounts.length > 0) userEmail = cleanName(accounts[0].name);
