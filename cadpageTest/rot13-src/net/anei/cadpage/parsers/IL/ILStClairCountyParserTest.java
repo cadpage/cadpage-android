@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Fg. Pynve Pbhagl, VY
+Fg Pynve Pbhagl, VY
 Pbagnpg: Npgvir911
 Ntrapl anzr: Serrohet Sver
 Ybpngvba: Serrohet, VY, Havgrq Fgngrf

@@ -40,6 +40,11 @@ PNQ:SLV: ;FGEHPGHER SVER;2501 JBBQYNAQF QE FR;SYNZRF VAFVQR SHFR OBK VAFVQR PNYY
 PNQ:Hcqngr: ;IRUVPYR SVER;F PBOO QE FR/OBHEAR QE FR;ZRGEB CPF;BJARE BS IRU PNYYRQ --- NQI BA 280 NG JU [10/11/10 17:46:52 NOREEL] oyx qbqtr punetre ba sver [10/
 PNQ:SLV: ;IRUVPYR SVER;JVAQL UVYY EQ FR/F PBOO QE FR;ZRGEB CPF;oyx qbqtr punetre ba sver [10/11/10 17:46:16 QFAVIRYL] ;104107
 *******************************************************************************
+Fg Pynve Pbhagl, VY (VYFgPynvePbhaglCnefre)
+(Abgvsvpngvba) ﻿Sver Eha\a\aErfcbafr Glcr: SVER Ybpngvba: A FGNGR FG/J FG PYNVE FG, SERROHET  \aPerngvba Gvzr: 04/24/2013 08:12:32  \aNtrapl: SERROHET SQ 
+(Abgvsvpngvba) ﻿Sver Eha\a\aErfcbafr Glcr: ZRQVPNY - SVEFG ERFCBAQREF Ybpngvba: F VYYVABVF FG/FPUYHRGRE-TREZNVAR EQ (FPUYHRGRE TREZNVAR EQ), ORYYRIVYYR \aPerngvba Gvzr: 04/22/2013 15:26:32  \aNtrapl: FZVGUGBA SQ 
+(Abgvsvpngvba) ﻿Sver Eha\a\aErfcbafr Glcr: SVER RZF Ybpngvba: 214 A ZNVA FG, SERROHET, 62243  (/J CUVYYVCF FG)  \aPerngvba Gvzr: 04/20/2013 03:34:48  \aNtrapl: SERROHET SQ 
+*******************************************************************************
 Gnmrjryy Pbhagl, VY (VYGnmrjryyPbhaglCnefre)
 PNQ:SLV: ;ZNSQ;10/20/2012 10:04:35;PURFG CNVA;500-P1 J 2AQ FG
 PNQ:SLV: ;ZNSQ;11/06/2012 16:06:32;RZRETRAPL ZRQVPNY;507 R SVSGU;XREYVA;F WHYVNAN

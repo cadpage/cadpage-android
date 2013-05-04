@@ -245,6 +245,7 @@ public class ParserList {
               ,"ILRichlandCounty"               ,"Richland County, IL"
               ,"ILRockIslandCounty"             ,"Rock Island County, IL"
               ,"ILSangamonCounty"               ,"Sangamon County, IL"
+              ,"ILStClairCounty"                ,"St Clair County, IL"
               ,"ILTazewellCounty"               ,"Tazewell County, IL"
               ,"ILWinnebagoCounty"              ,"Winnebago County, IL"
               ,"ILWoodfordCounty"               ,"Woodford County, IL"
