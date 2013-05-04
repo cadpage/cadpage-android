@@ -15,7 +15,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class ALShelbyCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("SHELBY(?: ?911)? ARNS ALERT");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("(?:SHELBY(?: ?911)? )?ARNS ALERT");
   private static final String MARKER = "SHELBY ARNS ALERT / ";
   
   public ALShelbyCountyParser() {
