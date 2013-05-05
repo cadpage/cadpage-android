@@ -559,6 +559,7 @@ public class ParserList {
               ,"OHMadisonCounty"                ,"Madison County, OH"
               ,"OHMahoningCounty"               ,"Mahoning County, OH"
               ,"OHMedinaCounty"                 ,"Medina County, OH"
+              ,"OHMiamiCounty"                  ,"Miami County, OH"
               ,"OHMorrowCounty"                 ,"Morrow County, OH"
               ,"OHNECC"                         ,"NECC, OH"
               ,"OHOxford"                       ,"Oxford, OH"
