@@ -536,6 +536,7 @@ public class ParserList {
               ,"OHBrownCounty"                  ,"Brown County, OH"
               ,"OHButlerCounty"                 ,"Butler County, OH"
               ,"OHCarrollCounty"                ,"Carroll County, OH"
+              ,"OHChampaignCounty"              ,"Champaign County, OH"
               ,"OHClermontCounty"               ,"Clermont County, OH"
               ,"OHClintonCounty"                ,"Clinton County, OH"
               ,"OHColumbianaCounty"             ,"Columbiana County, OH"
