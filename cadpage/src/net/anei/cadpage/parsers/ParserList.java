@@ -286,6 +286,7 @@ public class ParserList {
           new ParserCategory("Kentucky"
               ,"KYBoydCounty"                   ,"Boyd County, KY"
               ,"KYBullittCounty"                ,"Bullit County, KY"
+              ,"KYCampbellCounty"               ,"Campbell County, KY"
               ,"KYDaviessCounty"                ,"Daviess County, KY"
               ,"KYErlangerDispatch"             ,"Erlanger Dispatch, KY"
               ,"KYLouisville"                   ,"Louisville, KY"
