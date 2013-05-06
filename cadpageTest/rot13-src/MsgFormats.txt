@@ -3512,6 +3512,11 @@ Fabubzvfu Pbhagl, JN (JNFabubzvfuPbhaglCnefre)
 ** QVFC **ZRQVP (NYF) ERFCBAFR !603 A VAQVNAN NI ,TES !NZ2125 !GT/G05 !358W-4!N87 NZQHGL Z81 CTRAQ !,4 LBS, FNLVAT FUR PNAG OERNGUR NAQ TENOOVAT NG URE GUEBNG,
 ** QVFC **ZRQVP (NYF) ERFCBAFR !112 ABOYR JL ,TES !NZ2124 !GT/G05 !358U-4!N87 NZQHGL Z81 CTRAQ !,4LB, QVSS OERNGUVAT, PBHTUVAT, UVIRF, CBFF NYYRETVP ERNPGVBA
 ***************************************************************************
+Guhefgba Pbhagl, JN (JNGuhefgbaPbhaglCnefre)
+, OHEAIB, ONA BPG 16 - WHY 14, NYCVAR QE FJ/ARLYBA QE FJ, BY, <6400/ 6899>, SQ09, B9, YNETR CVYR BS QROEVF ORVAT OHEARQ VA GUR NERN...PNHFVA
+, N, NYF -Ragre POQ Pbqr!, 6422 ARYF FG FJ, BY, ogja 62AQ NIR FJ naq XVAARL FG FJ, SQ09, B11, 25 LBS, Havg:N91
+, SVERP2, FZBXRL, 2997 PEBFOL OYIQ FJ #312, GH, ogja JRFGOHEL YA FJ naq ONEARF OYIQ FJ, GSQ, Z14, Havgf:OAG1, R95, RB2, RG1, RG2, Z5
+***************************************************************************
 Lnxvzn Pbhagl, JN (INLnxvznPbhaglCnefre)
 08.22.10 02/07/12 RZE ERQ 505 ZNQVFBA NIR; TNESVRYQ FPUBBY GCSQ GC1 LZ06 GC0 HAX GLCR BS VAW  / BHGFVQR VA CYNLTEBHAQ / 8 LE OBL - AHEFR BA FPRAR EC GBYQ GB PNYY - ABG BA FPRAR ZNVA CYNLTEBHAQ - JVYY ZRRG HAVGF GB QVERPG
 13.25.55 02/08/12 RZE ZRQVP 904 CBJRYY FG TISQ TI1 TI0 CE12 CBFF VAWHEL SEBZ N SNYY
@@ -5952,37 +5957,6 @@ Zretr jvgu AWPnzqraPbhaglN
 (Qvfcngpu N271) 29Q05 G/N ABGNYREG  \aV 81 F 645 RKVG 65 FHZZREQNYR 11 ,RC PH  \a#:  \aK:/  \aMA:578  \aPC:V 81 F 645 RKVG 65   2013-05-01 18:48:29  \aZV#:130059429  \aERF#:N271
 **********************************************************
 **********************************************************
-Guhefgba Pbhagl, JN
-Pbagnpg: Puevf Cnggv <puevfcnggv74@ubgznvy.pbz>
-Fraqre: 79516
-, OHEAIB, ONA BPG 16 - WHY 14, NYCVAR QE FJ/ARLYBA QE FJ, BY, <6400/ 6899>, SQ09, B9, YNETR CVYR BS QROEVF ORVAT OHEARQ VA GUR NERN...PNHFVA
-, N, NYF -Ragre POQ Pbqr!, 6422 ARYF FG FJ, BY, ogja 62AQ NIR FJ naq XVAARL FG FJ, SQ09, B11, 25 LBS, Havg:N91
-, SVERP2, FZBXRL, 2997 PEBFOL OYIQ FJ #312, GH, ogja JRFGOHEL YA FJ naq ONEARF OYIQ FJ, GSQ, Z14, Havgf:OAG1, R95, RB2, RG1, RG2, Z5
-, O, GENHZN, 6740 SVFU CBAQ PERRX QE FJ, BY, ogja 66GU YBBC FJ naq RAQ, SQ09, B12, 50 LBS  PBAF/OERNGUVAT ABEZNYYL, Havgf:N91, R95
-, GRAQRE, GRAQREF, 8647 173EQ NIR FJ, EB, ogja PNQQVF YA FJ naq ONERYL N YA FJ, SQ01, M7, Havg:G95
-, SVERE1, ERF FGEHP SVER, 7815 ZVEVZVPUV QE AJ, BY, ogja 75GU NIR AJ naq RAQ, SQ13, Q11, FZBXR NAQ SYNZRF SEBZ GUR UBHFR .. UBZRBJARE NGG GB
-, PNYYOX, FGNSS PNYY ONPX, ZPYNAR SVER QRCG FGN 91, BY, ng 125 QRYCUV EQ AJ, BY, ogja QRYCUV EQ FJ naq 2AQ NIR AJ, SQ09, X11, JBEXVAT ERFQ FG
-, GO, HAX VAW, AO UJL 101 A/FGRNZOBNG VFYNAQ EQ AJ, BY, ng AO UJL 101 A/FGRNZOBNG VFYNAQ EQ AJ, BY <3405/0>, SQ13, V9, Havgf:N131, NZO1, O131
-, OHEAIB, ONA BPG 16 - WHY 14, NYCVAR QE FJ/ARLYBA QE FJ, BY, <6400/ 6899>, SQ09, B9, YNETR CVYR BS QROEVF ORVAT OHEARQ VA GUR NERN...PNHFVA
-
-(Serr Sbez Grkg Svryq), 
-(Nqqerff be Vagrefrpgvba.. Pna nyfb or Cunfr 2 Jveryrff ybpngvba tvira ol pryy cubar TCF), 
-(Pvgl bs gur pnyy),  
-(Uhaqerq oybpx pbirerq tvira junra nqqerff vf na vagrefrpgvba. Jura nqqerff vf n irevsvrq culfvpny nqqerff), gur uvtu naq ybj pebff fgerrg jvyy or tvira),
-(Sver Erfcbafr Ntrapl),
-(Pbhagl Znc Tevq),
-(Aneevgvir bs gur pnyy sebz urer bhg.) 
-
-OH - Ohpbqn
-GP - Nyy nernf jvguva gur Havapbecbengrq Guhefgba Pbhagl
-BY - Bylzcvn
-YN - Ynprl
-GH - Ghzjngre
-GR - Gravab
-EN - Envare
-LR - Lryz
-
-Npgvir911 Gvpxrg#2013041810000176
 **********************************************************
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)

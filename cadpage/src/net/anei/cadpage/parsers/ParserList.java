@@ -761,6 +761,7 @@ public class ParserList {
               ,"WAMasonCounty"                  ,"Mason County, WA"
               ,"WAPierceCounty"                 ,"Pierce County, WA"
               ,"WASnohomishCounty"              ,"Snohomish County, WA"
+              ,"WAThurstonCounty"               ,"Thurston County, WA"
               ,"WAYakimaCounty"                 ,"Yakima County, WA"
           ),
           new ParserCategory("West Virginia"
