@@ -9,7 +9,7 @@ public class NCNashCountyParser extends SmartAddressParser {
   
   public NCNashCountyParser() {
     super(CITY_LIST, "NASH COUNTY", "NC");
-    setFieldList("ADDR APT CITY CALL NAME UNIT");
+    setFieldList("ADDR APT CITY X CALL NAME UNIT");
   }
   
   @Override
@@ -24,9 +24,17 @@ public class NCNashCountyParser extends SmartAddressParser {
     if (!body.startsWith("NASH911:")) return false;
     body = body.substring(8).trim();
     
-    parseAddress(StartType.START_ADDR, body, data);
+    parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, body, data);
     String left = getLeft();
     if (left.length() == 0) return false;
+    
+    // look for cross street information
+    Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT, left);
+    if (res.getStatus() > 0) {
+      res.getData(data);
+      left = res.getLeft();
+    }
+    
     left = left.replace(" / ", "/");
     Parser p;
     String call = CALL_SET.getCode(left);
@@ -43,8 +51,10 @@ public class NCNashCountyParser extends SmartAddressParser {
   }
   
   private static final CodeSet CALL_SET = new CodeSet(
+      "ALARM-FIRE SEC",
       "GAS LEAK",
       "MVA PI-H",
+      "MVA PIN-H",
       "OUTSIDE FI"
   );
   
