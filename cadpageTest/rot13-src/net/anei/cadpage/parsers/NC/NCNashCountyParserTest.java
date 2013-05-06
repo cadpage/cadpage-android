@@ -29,6 +29,10 @@ Pbagnpg: Wrss Gheare <ebsq1247@tznvy.pbz>
 Fraqre: ANFU911@anfupbhaglap.tbi
 ANFU911:2722 PUNEZVA YA EBPXL ZBHAG NOQ-U YNVGRA,RYVMNORGU 12SE1
 
+Pbagnpg: Nhfgva Jeraa <jeraanhfgva@tznvy.pbz>
+Fraqre: ANFU911@anfupbhaglap.tbi
+ANFU911:8379 OHPX QRNAF EQ ZVQQYRFRK HAPBAFP-U WBLARE, REARFG 5SE1
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jrfg Zbhag ISQ
 Ybpngvba: Ebpxl Zbhag, AP, Havgrq Fgngrf
@@ -149,6 +153,19 @@ choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:EZCQ",
         "HAVG:9SQ1,RZF9,EZSQ1");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNhfgvaJeraa() {
+
+    qbGrfg("G1",
+        "ANFU911:8379 OHPX QRNAF EQ ZVQQYRFRK HAPBAFP-U WBLARE, REARFG 5SE1",
+        "NQQE:8379 OHPX QRNAF EQ",
+        "PVGL:ZVQQYRFRK",
+        "PNYY:HAPBAFP-U",
+        "ANZR:WBLARE, REARFG",
+        "HAVG:5SE1");
+   
   }
   
   @Grfg
