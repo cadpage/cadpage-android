@@ -50,7 +50,7 @@ public class IDGoodingCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  private static final DateFormat TIME_FMT = new SimpleDateFormat("mm:ss aa");
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm aa");
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "WND AREA", "WENDELL"
