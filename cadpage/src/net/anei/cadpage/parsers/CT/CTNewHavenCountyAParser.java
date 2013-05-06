@@ -14,6 +14,7 @@ public class CTNewHavenCountyAParser extends SmartAddressParser {
   
   public CTNewHavenCountyAParser() {
     super(CITY_LIST, "NEW HAVEN COUNTY", "CT");
+    setFieldList("PRI CALL ADDR CITY SRC INFO");
   }
   
   @Override

@@ -23,6 +23,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   
   public CTNewHavenCountyBParser() {
     this(CITY_LIST, CITY_CODES, "NORTH BRANFORD", "CT");
+    setFieldList("ID CALL ADDR APT CITY MAP X UNIT DATE TIME");
   }
   
   public CTNewHavenCountyBParser(String defCity, String defState) {
@@ -44,7 +45,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "paging@mail.nbpolicect.org,paging@nbpolicect.org,paging@easthavenfire.com";
+    return "paging@mail.nbpolicect.org,paging@nbpolicect.org";
   }
   
   @Override
@@ -89,7 +90,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     
     // If there is a pad field, treat it as a place or cross street
     String pad = getPadField();
-    if (checkAddress(pad) > 0) data.strCross = pad;
+    if (checkAddress(pad) > 0) data.strCross = append(data.strCross, " / ", pad);
     else data.strPlace = pad;
     
     match = MAP_PFX_PTN.matcher(sExtra);
@@ -106,7 +107,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     // If there is a premium map marker between them, things get easy
     match = MAP_EXTRA_PTN.matcher(sExtra);
     if (match.find()) {
-      data.strCross = sExtra.substring(0, match.start()).trim();
+      data.strCross = append(data.strCross, " / ", sExtra.substring(0, match.start()).trim());
       data.strUnit = sExtra.substring(match.end()).trim();
       if (data.strMap.length() == 0) data.strMap = match.group(1).trim();
     }
@@ -129,7 +130,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
       if (pt2 > 3 && body.charAt(pt2-1)==' ' && body.charAt(pt2-2)==' ' && body.charAt(pt2-3)!='-') brk = 0;
       if (brk >= 0) {
         data.strUnit = sExtra.substring(brk).trim();
-        data.strCross = sExtra.substring(0,brk).trim();
+        data.strCross = append(data.strCross, " / ", sExtra.substring(0,brk).trim());
       }
       
       // If we didn't find one, we will have to use the smart address parser to figure out where

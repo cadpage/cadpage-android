@@ -292,8 +292,8 @@ choyvp pynff PGArjUniraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:R4 R1 G3 R6 E1 E4 F2 P4");
 
   }
-  
+ 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PGArjUniraPbhaglOCnefreGrfg().trarengrGrfgf("G1", "VQ PNYY NQQE PVGL ZNC K HAVG QNGR GVZR");
+    arj PGArjUniraPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
 }
