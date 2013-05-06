@@ -108,6 +108,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern CALL_DESC_PTN = Pattern.compile("[A-Za-z ]*");
+  private static final Pattern SPEC_CALL_DESC_PTN = Pattern.compile("^Witness?\\b");
   private static final Pattern IH_PTN = Pattern.compile("\\bIh\\b", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     @Override
@@ -133,6 +134,14 @@ public class TXBexarCountyParser extends FieldProgramParser {
         if (!field.equalsIgnoreCase("EOC") && CALL_DESC_PTN.matcher(field).matches()) return false;
       }
       
+      // There (so far) one case where there was no delimiter beween the last part of
+      // the call description and the address, so they need to be split apart
+      Matcher match = SPEC_CALL_DESC_PTN.matcher(field);
+      if (match.find()) {
+        data.strCall = append(data.strCall, " - ", match.group());
+        field = field.substring(match.end()).trim();
+      }
+      
       // A numeric field is assumed to be part of a street range that will
       // be prepended to the address that is coming up next
       if (NUMERIC.matcher(field).matches()) {
@@ -147,6 +156,15 @@ public class TXBexarCountyParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
+      
+      // There (so far) one case where there was no delimiter beween the last part of
+      // the call description and the address, so they need to be split apart
+      Matcher match = SPEC_CALL_DESC_PTN.matcher(field);
+      if (match.find()) {
+        data.strCall = append(data.strCall, " - ", match.group());
+        field = field.substring(match.end()).trim();
+      }
+      
       String prefix = data.strAddress;
       data.strAddress = "";
       field = IH_PTN.matcher(field).replaceAll("I");
