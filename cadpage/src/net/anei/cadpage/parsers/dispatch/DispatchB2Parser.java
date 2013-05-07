@@ -69,6 +69,7 @@ public class DispatchB2Parser extends DispatchBParser {
   protected boolean parseAddrField(String field, Data data) {
     
     String address = null;
+    if (field.length() == 0) return false;
     if (field.charAt(0) == '(') {
       int pt = field.indexOf(')');
       if (pt < 0) return false;

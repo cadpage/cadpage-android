@@ -93,7 +93,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   }
   
   cevingr ibvq purpxReebe(Fgevat grfg) {
-    cnefre.vfCntrZft(arj Zrffntr(gehr, sebzNqqerff, "", grfg), 0);
+    cnefre.vfCntrZft(arj Zrffntr(gehr, sebzNqqerff, "", grfg), CNEFR_SYNTF);
   }
   
   choyvp ibvq qbOnqGrfg(Fgevat grfg) {

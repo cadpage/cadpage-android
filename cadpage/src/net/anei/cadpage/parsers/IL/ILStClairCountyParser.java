@@ -47,8 +47,7 @@ public class ILStClairCountyParser extends FieldProgramParser {
     }
     
     // Put delimiter in front of Location label
-    int location = body.indexOf("Location: ");
-    body = body.substring(0, location) + "\n" + body.substring(location);
+    body = body.replace(" Location:", "\nLocation:");
     
     // Add label for Cross street
     Matcher crossMatch = PTN_CROSS_STREET.matcher(body);
