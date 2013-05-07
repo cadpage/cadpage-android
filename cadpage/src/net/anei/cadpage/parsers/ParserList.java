@@ -538,6 +538,7 @@ public class ParserList {
               ,"OHButlerCounty"                 ,"Butler County, OH"
               ,"OHCarrollCounty"                ,"Carroll County, OH"
               ,"OHChampaignCounty"              ,"Champaign County, OH"
+              ,"OHClarkCounty"                  ,"Clark County, OH"
               ,"OHClermontCounty"               ,"Clermont County, OH"
               ,"OHClintonCounty"                ,"Clinton County, OH"
               ,"OHColumbianaCounty"             ,"Columbiana County, OH"
