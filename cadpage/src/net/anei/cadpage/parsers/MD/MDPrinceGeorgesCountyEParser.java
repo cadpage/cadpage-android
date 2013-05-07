@@ -22,7 +22,7 @@ public class MDPrinceGeorgesCountyEParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@alert.co.pg.md.us,rc.505@c-msg.net";
+    return "@alert.co.pg.md.us,rc.505@c-msg.net,14100";
   }
   
   @Override
