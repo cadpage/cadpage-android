@@ -194,7 +194,7 @@ choyvp pynff JIOrexryrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "(Nyreg) Qrfpevcgvba:JVER QJA A\aNqqerff: 158 ORYIVRJ QE \aZNEGVAFOHET\e\a\e\a\e\a",
-        "PNYY:JVER QJA A",
+        "PNYY:JVERF QBJA AB NEPVAT",
         "NQQE:158 ORYIVRJ QE",
         "PVGL:ZNEGVAFOHET");
 
@@ -230,7 +230,7 @@ choyvp pynff JIOrexryrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G8",
         "(Nyreg) Qrfpevcgvba:GENSNP AB\aNqqerff: OEBJA EQ // JVYYVNZFCBEG CVXR \aZNEGVAFOHET\e\a\e\a\e\a",
-        "PNYY:GENSNP AB",
+        "PNYY:CEBCREGL QNZNTR NPPVQRAG AB VAWHEL",
         "NQQE:OEBJA EQ & JVYYVNZFCBEG CVXR",
         "PVGL:ZNEGVAFOHET");
 
@@ -302,7 +302,7 @@ choyvp pynff JIOrexryrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G9",
         "(Nyreg) Qrfpevcgvba:ZHGNVQ SVYY\aNqqerff: PB 1 \aZNEGVAFOHET\e\a\e\a\e\a",
-        "PNYY:ZHGNVQ SVYY",
+        "PNYY:FGNGVBA SVYY ZHGHNY NVQ",
         "NQQE:PB 1",
         "ZNQQE:PBHAGL EBNQ 1",
         "PVGL:ZNEGVAFOHET");
