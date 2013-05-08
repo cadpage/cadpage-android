@@ -243,7 +243,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
   public boolean isVariantGMsg(String body) {
     return VARIANT_G_MARKER.matcher(body).find();
   }
-  private static final Pattern VARIANT_G_MARKER = Pattern.compile("^ *Inc History");
+  private static final Pattern VARIANT_G_MARKER = Pattern.compile("^(?:\\([A-Z]\\) *)?Inc History");
   
   private static final String[] CITY_LIST = new String[]{
     /* 00 */ "",

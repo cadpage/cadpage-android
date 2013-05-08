@@ -17,7 +17,7 @@ public class PAChesterCountyGParser extends PAChesterCountyBaseParser {
   
   @Override
   public String getFilter() {
-    return "gallison39@comcast.net,messaging@iamresponding.com";
+    return "gallison39@comcast.net,messaging@iamresponding.com,pfdfire65@comcast.net";
   }
   
   private static final Pattern TERMINATOR_PTN = Pattern.compile("\nPRIOR PREMISE HISTORY");
@@ -105,8 +105,8 @@ public class PAChesterCountyGParser extends PAChesterCountyBaseParser {
           if (line.startsWith("TXT:")) line = line.substring(4).trim();
           data.strSupp = append(data.strSupp, "\n", line);
         }
-        else if (type.equals("DISP") || type.equals("ASST")) {
-          data.strUnit = append(data.strUnit, " ", substring(line,26,33).trim());
+        else if (type.startsWith("DISP") || type.startsWith("ASST")) {
+          data.strUnit = append(data.strUnit, " ", substring(line,25,33).trim());
         }
       }
       else if (CONT_MARK_PTN.matcher(line).find()) {
