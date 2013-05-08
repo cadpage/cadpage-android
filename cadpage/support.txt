@@ -151,7 +151,8 @@ At this point, Active911 will start sending you pages through the Internet data 
 Please let me know if you still have problems with Cadpage.
 
 Good Luck,
-Jean 
+Jean, Assistant to Ken Corbin
+
 ******************************************************************
 
 So, the department should have an account with Active911.  And everyone should have a device that is associated with that account.  Each user needs the numeric device number and the 4 character activation code associated with that device.  This is all information you get working with Active911.
@@ -271,7 +272,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-YDGVDKFA or ydgvdkfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+MZHVPVFA or mzhvpvfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -359,7 +360,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-YDGVDKFA or ydgvdkfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+MZHVPVFA or mzhvpvfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -440,12 +441,13 @@ I found your Google Play Store payment record as of ______.  However, your Cadpa
 
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status. This reloads your payment status from the market which will usually fix things.
 
-If that fails, please contact us again. If you have changed your email address, that may be the issue. Our information from Play Store is limited.
+If that fails, please contact us again. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
 
 ****************************************************************
+If you have changed your email address, that may be the issue. Our information from Play Store is limited.
 
 If it does not work, please check that you have the same Google Play Store account that you did on the previous phone.  Open the Play Store app, press Menu, then Accounts to view and possibly change your market account. Then try the Recalculate Payment Status again.
 
@@ -503,7 +505,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-YDGVDKFA or ydgvdkfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+MZHVPVFA or mzhvpvfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -517,7 +519,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-YDGVDKFA or ydgvdkfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+MZHVPVFA or mzhvpvfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -527,7 +529,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-YDGVDKFA or ydgvdkfa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+MZHVPVFA or mzhvpvfa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -616,6 +618,8 @@ This isn't the text format we are expecting for <<LOCATION>>.  This happens all 
 This isn't one of the many text formats we are expecting for Suffolk County.  Apparently dispatch changed the way page are sent and  we need to write a new parser for you.  
 
 ******************************************************************************
+Details on setting up a new location
+*****************************************************************
 
 To add a new location we need 5-10 sample text messages from your dispatch.  Please include what County/City/Company these pages are for so we can place it in the right grouping. Please try to include 1-2 calls with intersections so we can parse those correctly. Include any details you can regarding how the messages are formatted. If possible please include what email the messages come from.
 
@@ -893,18 +897,7 @@ Jean, Assistant to Ken Corbin
 
 The intended purpose of Cadpage is to support emergency responders who get text pages from a central dispatch center when they are asked to respond to an emergency.  Cadpage takes those pages, displays the information from them, and gives the user the option to bring up a Google map showing the location of the incident.Then they can ask for directions to that location.
 
-******************************************************************
-Details on setting up a new location
-*****************************************************************
 
-To add a new location we need 5-10 sample text messages from your dispatch.  Please include what County/City/Company these pages are for so we can place it in the right grouping. Please try to include 1-2 calls with intersections so we can parse those correctly. Include any details you can regarding how the messages are formatted. If possible please include what email the messages come from.
-
-We also need to know what agency is generating these messages and some idea of what other departments receive the same message formats.  If you can identify the CAD software that is sending your text pages that would help a lot.   
-
-All of this needs to be emailed to our main support address at support@cadpage.org.  If the messages are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and past them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list.
-
-Good Luck,
-Jean, Assistant to Ken Corbin
 
 ******************************************************************
 
@@ -917,23 +910,6 @@ The intended purpose of Cadpage is to support emergency responders who get text 
 Please email us again if you would like to know how to set up Cadpage for your location.  We have very little experience writing a location parser in any language other than English, but we would be happy to give it a try in your language.  We would need help with translating text.
 
 Good Luck,
-Jean, Assistant to Ken Corbin
-
-**********************************************************************
-*** Addition if they write back and want more info
-*****
-
-A location parser has to be written for each particular dispatch text format, generally that means one for every dispatch center.  We have not yet tried to write a location parser in any language other than English, but I would be happy to give it a try.
-
-To add a new location we need 5-10 sample text messages from your dispatch.  Please include what County/City/Company these pages are for so we can place it in the right grouping. Please try to include 1-2 calls with intersections so we can parse those correctly. Include any details you can regarding how the messages are formatted. If possible please include what email the messages come from.
-
-We also need to know what agency is generating these messages and some idea of what other departments receive the same message formats.  If you can identify the CAD software that is sending your text pages that would help a lot.   
-
-All of this needs to be emailed to our main support address at support@cadpage.org.  If they are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and past them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list.
-
-In the meantime, try using the general location setting and set the From: filter to whoever appears in the From: field of your page text messages.  For English language street names, this usually give you some degree of functionality while you are waiting for full location support.   For other languages, the results are completely unpredictable.
-
-Good luck,
 Jean, Assistant to Ken Corbin
 
 ******************************************************************
@@ -1795,7 +1771,11 @@ SPONSOR by Cadpage -- for General Location; foreign (non-Canada) locations
 You may continue with the SPONSORed Cadpage by using the General location setting and set the From: filter to whoever appears in the From: field of your page text messages. 
 
 *********************************************************************************
+Well, when you go into Cadpage, you probably have a list of past calls, named Call History.
 
+You can send us any number of these dispatch messages by long pressing the call from the Call History list.  Then select Report Problem from the menu list, and Email the Developer.  That generates an email to us with details of the call.
+
+*******************************************************************************
 end
 
 
