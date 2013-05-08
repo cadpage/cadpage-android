@@ -60,11 +60,11 @@ public class ILDuPageCountyParser extends MsgParser {
       "BL",     "BLOOMINGDALE",
       // "BL",     "BELLWOOD",     // Conflict
       "BO",     "BOLINGBROOK",
-      "BR",     "BARTLETT",
-      // "BR",     "BURR RIDGE",   // Old entry
+      "BR",     "BURR RIDGE",
+      // "BR",     "BARTLETT",
       "BT",     "BATAVIA",
-      "BV",     "BENSENVILLE",
-      // "BV",     "BATAVIA",      // Old entry
+      "BV",     "BATAVIA",
+      // "BV",     "BENSENVILLE",
       "BW",     "BROADVIEW",
       "CA",     "CARY",
       "CG",     "CHICAGO",
@@ -124,12 +124,12 @@ public class ILDuPageCountyParser extends MsgParser {
       "MP",     "MELROSE PARK",
       "MT",     "MOUNT PROSPECT",
       "MW",     "MAYWOOD",
-      "NA",     "NORTH AURORA",
-      // "NA",     "NAPERVILLE",      // Old entry   
+      "NA",     "NAPERVILLE",   
+      // "NA",     "NORTH AURORA",
       "NL",     "NORHTLAKE",
       "NV",     "NAPERVILLE",
-      "OB",     "OAK BROOK TERRACE",
-      // "OB",     "OAKBROOK",        // Old entry
+      "OB",     "OAK BROOK",
+      // "OB",     "OAK BROOK TERRACE",
       "OK",     "OAK BROOK",
       "OP",     "OAK BROOK",
       "OT",     "OAK BROOK TERRACE",
@@ -168,8 +168,8 @@ public class ILDuPageCountyParser extends MsgParser {
       "WN",     "WINFIELD",
       "WO",     "WOODRIDGE",
       "WR",     "WARRENVILLE",
-      "WS",     "WESTERN SPRINGS",
-      // "WS",     "WESTMONT",       // Old entry
+      "WS",     "WESTMONT",
+      // "WS",     "WESTERN SPRINGS",
       "WT",     "WHEATON",
       "WT",     "WHEELING",
       "WV",     "WARRENVILLE",
