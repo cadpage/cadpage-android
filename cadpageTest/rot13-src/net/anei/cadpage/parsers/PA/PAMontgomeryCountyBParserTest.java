@@ -73,6 +73,22 @@ Fraqre: jbeprfgresq@pbzpnfg.arg
 (SVER NYNEZ) Qvfcngpu ** 16:59 ** SVER NYNEZ ** 3337 FXVCCNPX CVXR ** - **  **  ** 64-06 **  ** 04/23/13 ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: S1308412\aVapvqrag Erprvirq: 04-23-2013  16:59:10              Pnyy Fbhepr:  10QVTVG\a\aPBQR: SNY-SVER NYNEZ \a\a3337 FXVCCNPX CVXR \aPebff Fgerrg: TERRA UVYY EQ NAQ PRQNEF UVYY EQ\a\aZnc: 64-06O Cyna:   NQP: 3143O7  ZHA: JBEP\a\aHavgf Qhr:   G83  R83\a\aNqqvgvbany Vasb:\a---------- ----\a\aRirag Pbzzragf:\a----- ---------\a16:59  ERFQ-YNJERAPR GNLYBE 610/584-4905\a16:59  JVYY NGGRZCG GB ABGVSL\a16:59  TRARENYY SVER NYNEZ\a\aCevbe Riragf:\a----- -------\aS1214278    06-27-2012    SVER NYNEZ\a\a\a ** JBEP ** TERRA UVYY EQ NAQ PRQNEF ** G83  R83 ** 
 (OHVYQVAT SVER ABA-PBZZREPVNY) Qvfcngpu ** 11:47 ** OHVYQVAT SVER ABA-PBZZREPVNY ** 3122 JNGRE FGERRG EQ ** - **  **  ** 64-22 **  ** 04/21/13 ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: S1308226\aVapvqrag Erprvirq: 04-21-2013  11:47:32              Pnyy Fbhepr:  10QVTVG\a\aPBQR: SOY-OHVYQVAT SVER ABA-PBZZREPVNY\a\a3122 JNGRE FGERRG EQ \aPebff Fgerrg: DHNEEL UNYY EQ NAQ UBYYBJ EQ\a\aZnc: 64-22O Cyna:   NQP: 3255N2  ZHA: JBEP\a\aHavgf Qhr:   G83  R83\a\aNqqvgvbany Vasb:\a---------- ----\a\aRirag Pbzzragf:\a----- ---------\a11:47  UBHFR BA SVER\a11:47  BHG BS GUR UBHFR\a11:47  PNG VAFVQR GUR UBHFR\a11:48  OHFU BA SVER HC NTNVAFG GUR UBHFR\a\aCevbe Riragf:\a----- -------\a\a\a ** JBEP ** DHNEEL UNYY EQ NAQ UBYYBJ ** G83  R83 ** 
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Frpbaq Nynezref Erfphr Fdhnq
+Ybpngvba: Jvyybj Tebir, CN, Havgrq Fgngrf
+Fraqre: Orely0908@pbzpnfg.arg
+
+(Qvfcngpu) Qvfcngpu ** 15:05:34 ** IRUVPYR NPPVQRAG VAWHEVRF ** RNFGBA EQ NAQ SVGMJNGREGBJA EQ ** - **  **  ** 35-44 **  ** 2 IRU\a1 CNEGL JVGU ARPX CNVA\a ** 05/08/13 ** INV ** R1325328 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325328\aVapvqrag Erprvirq: 05-08-2013  15:05:34              Pnyy Fbhepr:  10QVTVG\a\aPBQR: IN-IRUVPYR NPPVQRAG VAWHEVRF\a\a   \aPebff Fgerrg: RNFGBA EQ NAQ SVGMJNGREGBJA EQ\a\aZnc: 35-44  Cyna:   NQP: 3259N6  ZHA: HZBE\a\aHavgf Qhr:   381-5\a\aNqqvgvbany Vasb:\a---------- ----\a\aRirag Pbzzragf:\a----- ---------\a15:05  2 IRU\a15:05  1 CNEGL JVGU ARPX CNVA\a\aCevbe Riragf:\a----- -------\aR1312954    03-05-2013    IRUVPYR NPPVQRAG\aR1306959    02-02-2013    IRUVPYR NPPVQRAG\a\a\a ** HZBE **  **  **  ** RNFGBA EQ NAQ SVGMJNGREGBJA EQ **  ** 381-5 ** 
+(Qvfcngpu) Qvfcngpu ** 14:12:41 ** ANHFRN/IBZVGVAT ** 1565 CEBFCRPG NIR ** - **  **  ** 29-P2 **  ** -075.122795 +040.131307\aIBZVGVAT, FUNXVAT\a36/S\a ** 05/08/13 ** ZAI ** R1325321 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325321\aVapvqrag Erprvirq: 05-08-2013  14:12:41              Pnyy Fbhepr:  10QVTVG\a\aPBQR: ZAI-ANHFRN/IBZVGVAT \a\a1565 CEBFCRPG NIR \aPebff Fgerrg: JNFUVATGBA NIR NAQ UNZVYGBA NIR\a\aZnc: 29-P2  Cyna:   NQP: 3259N10  ZHA: NOTA\a\aHavgf Qhr:   AP381\a\aNqqvgvbany Vasb:\a---------- ----\a\aRirag Pbzzragf:\a----- ---------\a14:12  -075.122795 +040.131307\a14:12  IBZVGVAT, FUNXVAT\a14:12  36/S\a\aCevbe Riragf:\a----- -------\a\a\a ** NOTA **  **  **  ** JNFUVATGBA NIR NAQ UNZVYGBA NIR **  ** AP381 ** 
+(Qvfcngpu) Qvfcngpu ** 13:52:59 ** NOQBZVANY CNVAF ** 345 LBEX EQ A Ncg# 1 ** UNGOBEB ZRQVPNY NFFBPVNGRF- **  **  ** 37-19 **  ** FCRPVNY NQQERFF PBZZRAG:\aNOQBZVANY CNVA\a59/S\aINYVQ FHVGRF NG YBPNGVBA - ERIREVSL\a ** 05/08/13 ** ZNC ** R1325317 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325317\aVapvqrag Erprvirq: 05-08-2013  13:52:59              Pnyy Fbhepr:      911\a\aPBQR: ZNC-NOQBZVANY CNVAF \aUNGOBEB ZRQVPNY NFFBPVNGRF\a345 LBEX EQ A Ncg# 1\aPebff Fgerrg: IVYYNTR CY NAQ UBZR EQ\a\aZnc: 37-19  Cyna:   NQP: 3259Q1  ZHA: UNGO\a\aHavgf Qhr:   AP384\a\aNqqvgvbany Vasb:\a---------- ----\a\aRirag Pbzzragf:\a----- ---------\a13:52  FCRPVNY NQQERFF PBZZRAG:\a13:52  NOQBZVANY CNVA\a13:52  59/S\a13:52  INYVQ FHVGRF NG YBPNGVBA - ERIREVSL\a\aCevbe Riragf:\a----- -------\aR1315621    03-19-2013    ERFCVENGBEL RZRETRAPL\aR1310395    02-20-2013    PNEQVNP RZRETRAPL\aR1309974    02-18-2013    QVMMVARFF\aR1309434    02-15-2013    ERFCVENGBEL RZRETRAPL\aR1269892    12-27-2012    PNEQVNP RZRETRAPL\a\a\a ** UNGO **  **  **  ** IVYYNTR CY NAQ UBZR EQ **  ** AP384 ** 
+(Qvfcngpu) Qvfcngpu ** 13:49:06 ** IRUVPYR NPPVQRAG VAWHEVRF ** 3432 CRAAFLYINAVN GCXR RO ** - **  **  ** 35-38 **  ** -075.120005 +040.161509\aOYX YVAPBYA GBJAPNE\aQEVIRE UNF ONPX CNVA\a ** 05/08/13 ** INV ** R1325316 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325316\aVapvqrag Erprvirq: 05-08-2013  13:49:06              Pnyy Fbhepr:      911\a\aPBQR: IN-IRUVPYR NPPVQRAG VAWHEVRF\a\a3432 CRAAFLYINAVN GCXR RO\aPebff Fgerrg: F LBEX EQ HAQRECNFF NAQ ENZC EG611 GB V276 RO\a\aZnc: 35-38  Cyna:   NQP: 3259O5  ZHA: HZBE\a\aHavgf Qhr:   384-8\a\aNqqvgvbany Vasb:\a---------- ----\a\aRirag Pbzzragf:\a----- ---------\a13:49  -075.120005 +040.161509\a13:49  OYX YVAPBYA GBJAPNE\a13:49  QEVIRE UNF ONPX CNVA\a\aCevbe Riragf:\a----- -------\aR1269860    12-27-2012    IRUVPYR SVER\a\a\a ** HZBE **  **  **  ** F LBEX EQ HAQRECNFF NAQ ENZC EG611 GB V276 RO **  ** 384-8 ** 
+(Qvfcngpu) Qvfcngpu ** 13:43:27 ** PIN/FGEBXR ** 1439 FG PUNEYRF CY ** - **  **  ** 29-O2 **  ** 46/Z CBFFVOYL UNIVAT N FGEBXR\aFYHEERQ FCRNPU, CEVBE FGEBXR\aP/N\a ** 05/08/13 ** ZPI ** R1325314 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325314\aVapvqrag Erprvirq: 05-08-2013  13:43:27              Pnyy Fbhepr:  10QVTVG\a\aPBQR: ZPI-PIN/FGEBXR \a\a1439 FG PUNEYRF CY \aPebff Fgerrg: CREFUVAT NIR NAQ CNGNAR NIR\a\aZnc: 29-O2  Cyna:   NQP: 3258W9  ZHA: NOTA\a\aHavgf Qhr:   381-5\a\aNqqvgvbany Vasb:\a---------- ----\a\aRirag Pbzzragf:\a----- ---------\a13:43  46/Z CBFFVOYL UNIVAT N FGEBXR\a13:43  FYHEERQ FCRNPU, CEVBE FGEBXR\a13:43  P/N\a\aCevbe Riragf:\a----- -------\aR1323448    04-29-2013    ZRQVPNY NYREG NYNEZ\aR1318405    04-03-2013    NOQBZVANY CNVAF\aR1308892    02-12-2013    ZRQVPNY NYREG NYNEZ\aR1258039    10-30-2012    ERFCVENGBEL RZRETRAPL\aR1246922    09-03-2012    QVNORGVP RZRETRAPL\a\a\a ** NOTA **  **  **  ** CREFUVAT NIR NAQ CNGNAR NIR **  ** 381-5 ** 
+(Qvfcngpu) Qvfcngpu ** 11:24:31 ** ZRQVPNY NYREG NYNEZ ** 310 ENVYEBNQ NIR ** - **  **  ** 46-21 **  ** NPGVINGVBA SEBZ CRAQNAG\aFGNPL OERJRE ERFQ\a267-460-8365\aAB PNYY YVFG\aUNIR CQ PURPX GUR ERFQ, AB RZF QVFCNGPU\a46-133 JVYY IREVSL\aFHOW JNF GENAFCBEGRQ GB GUR UBFC JVGU GUR CRAQNAG\a ** 05/08/13 ** ZZN ** R1325295 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325295\aVapvqrag Erprvirq: 05-08-2013  11:24:31              Pnyy Fbhepr:  10QVTVG\a\aPBQR: ZZN-ZRQVPNY NYREG NYNEZ \a\a310 ENVYEBNQ NIR \aPebff Fgerrg: J ZG CYRNFNAG NIR NAQ BNX FG\a\aZnc: 46-21  Cyna:   NQP: 3257Q5  ZHA: JUCA\a\aHavgf Qhr:   385FG\a\aNqqvgvbany Vasb:\a---------- ----\a\aRirag Pbzzragf:\a----- ---------\a11:24  NPGVINGVBA SEBZ CRAQNAG\a11:24  FGNPL OERJRE ERFQ\a11:24  267-460-8365\a11:24  AB PNYY YVFG\a11:26  UNIR CQ PURPX GUR ERFQ, AB RZF QVFCNGPU\a11:26  46-133 JVYY IREVSL\a11:26  FHOW JNF GENAFCBEGRQ GB GUR UBFC JVGU GUR CRAQNAG\a\aCevbe Riragf:\a----- -------\aR1325284    05-08-2013    PNEQVNP RZRETRAPL\aR1307493    02-05-2013    ZRQVPNY NYREG NYNEZ\aR1246911    09-03-2012    FRVMHERF\a\a\a ** JUCA **  **  **  ** J ZG CYRNFNAG NIR NAQ BNX FG **  ** 385FG ** 
+(Qvfcngpu) Qvfcngpu ** 10:56:48 ** SRIRE ** 3855 OYNVE ZVYY EQ  Ncg# 239Q ** OYNVE ZVYY IVYYNTR RNFG NCNEGZRAGF- **  **  ** 35-52 **  ** SRIRE BS 100+\aPRYHYYVHF VA YRTF\a72/S\aP/N\a ** 05/08/13 ** ZSR ** R1325291 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325291\aVapvqrag Erprvirq: 05-08-2013  10:56:48              Pnyy Fbhepr:      911\a\aPBQR: ZSR-SRIRE \aOYNVE ZVYY IVYYNTR RNFG NCNEGZRAGF\a3855 OYNVE ZVYY EQ  Ncg# 239Q\aPebff Fgerrg: J ZBERYNAQ NIR NAQ NYVFBA EQ\a\aZnc: 35-52  Cyna:   NQP: 3259N2  ZHA: HZBE\a\aHavgf Qhr:   DK10  384-8\a\aNqqvgvbany Vasb:\a---------- ----\a\aRirag Pbzzragf:\a----- ---------\a10:56  SRIRE BS 100+\a10:56  PRYHYYVHF VA YRTF\a10:56  72/S\a10:56  P/N\a\aCevbe Riragf:\a----- -------\aR1312301    03-02-2013    SNYY IVPGVZ\aR1265983    12-08-2012    FHOWRPG VA CNVA\a\a\a ** HZBE **  **  **  ** J ZBERYNAQ NIR NAQ NYVFBA EQ **  ** DK10  384-8 ** 
+(Qvfcngpu) Qvfcngpu ** 10:26:19 ** PNEQVNP RZRETRAPL ** 310 ENVYEBNQ NIR ** - **  **  ** 46-21 **  ** PURFG CNVAF\a3EQ CNEGL\a42/S\aP/N\aFBO\a ** 05/08/13 ** ZPR ** R1325284 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325284\aVapvqrag Erprvirq: 05-08-2013  10:26:19              Pnyy Fbhepr:  10QVTVG\a\aPBQR: ZPR-PNEQVNP RZRETRAPL \a\a310 ENVYEBNQ NIR \aPebff Fgerrg: J ZG CYRNFNAG NIR NAQ BNX FG\a\aZnc: 46-21  Cyna:   NQP: 3257Q5  ZHA: JUCA\a\aHavgf Qhr:   385-3\a\aNqqvgvbany Vasb:\a---------- ----\a\aRirag Pbzzragf:\a----- ---------\a10:26  PURFG CNVAF\a10:26  3EQ CNEGL\a10:26  42/S\a10:27  P/N\a10:27  FBO\a\aCevbe Riragf:\a----- -------\aR1307493    02-05-2013    ZRQVPNY NYREG NYNEZ\aR1246911    09-03-2012    FRVMHERF\a\a\a ** JUCA **  **  **  ** J ZG CYRNFNAG NIR NAQ BNX FG **  ** 385-3 ** 
+(Qvfcngpu) Qvfcngpu ** 10:20:46 ** PIN/FGEBXR ** 1073 BYQ LBEX EQ ** NOVATGBA LZPN- **  **  ** 29-Q3 **  **  ** 05/08/13 ** ZPI ** R1325280 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325280\aVapvqrag Erprvirq: 05-08-2013  10:20:46              Pnyy Fbhepr:  10QVTVG\a\aPBQR: ZPI-PIN/FGEBXR \aNOVATGBA LZPN\a1073 BYQ LBEX EQ \aPebff Fgerrg: NQNZF NIR NAQ FHFDHRUNAAN EQ\a\aZnc: 29-Q3  Cyna:   NQP: 3371N2  ZHA: NOTA\a\aHavgf Qhr:   AP382  383-13\a\aNqqvgvbany Vasb:\a---------- ----\aXABK OBK YBPNGRQ GB EVTUG BS CNEXVAT YBG NGEVHZ RAGENAPR NCCEBK 12SG UVTU (YNQQRE ARRQRQ).  OBK PBAGNVAF ZNFGRE XRL, PBAGNPG VASB, NYNEZ PBQR VASB.\a\aRirag Pbzzragf:\a----- ---------\a\aCevbe Riragf:\a----- -------\aR1313951    03-11-2013    SNYY IVPGVZ\aR1307253    02-04-2013    SENPGHER\aR1306667    02-01-2013    ERFCVENGBEL RZRETRAPL\aR1306245    01-30-2013    SNYY IVPGVZ\aR1252330    10-01-2012    HAPBAFPVBHF FHOWRPG\a\a\a ** NOTA **  **  **  ** NQNZF NIR NAQ FHFDHRUNAAN EQ **  ** AP382  383-13 ** 
+(Qvfcngpu) Qvfcngpu ** 10:19:28 ** ERFCVENGBEL RZRETRAPL ** 1515 GUR SNVEJNL   Ncg# 514 ** ELQNY CNEX AHEFVAT UBZR- **  **  ** 29-R4 **  ** FCRPVNY NQQERFF PBZZRAG:\a+ ELQNY CNEX AHEFVAT UBZR - BOGNVA OHVYQVAT ANZR\aNPPRFF VASB NINVY FRR NV ABGRF.\aFCRPVNY NQQERFF PBZZRAG:\aGEBHOYR OERNGUVAT/YNOBERQ\aNPPRFF VASB NINVY FRR NV ABGRF.\a87/S\aZVAVZNYYL ERFCBAFVIR\a+ ELQNY CNEX AHEFVAT UBZR - BOGNVA OHVYQVAT ANZR\a ** 05/08/13 ** ZER ** R1325279 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325279\aVapvqrag Erprvirq: 05-08-2013  10:19:28              Pnyy Fbhepr:      911\a\aPBQR: ZER-ERFCVENGBEL RZRETRAPL \aELQNY CNEX AHEFVAT UBZR\a1515 GUR SNVEJNL   Ncg# 514\aPebff Fgerrg: ELQNY EQ NAQ ELQNY EQ\a\aZnc: 29-R4  Cyna:   NQP: 3371O3  ZHA: NOTA\a\aHavgf Qhr:   AP382  383-13\a\aNqqvgvbany Vasb:\a---------- ----\a\aRirag Pbzzragf:\a----- ---------\a10:19  FCRPVNY NQQERFF PBZZRAG:\a10:19  + ELQNY CNEX AHEFVAT UBZR - BOGNVA OHVYQVAT ANZR\a10:19  NPPRFF VASB NINVY FRR NV ABGRF.\a10:19  FCRPVNY NQQERFF PBZZRAG:\a10:19  GEBHOYR OERNGUVAT/YNOBERQ\a10:19  NPPRFF VASB NINVY FRR NV ABGRF.\a10:19  87/S\a10:19  ZVAVZNYYL ERFCBAFVIR\a10:19  + ELQNY CNEX AHEFVAT UBZR - BOGNVA OHVYQVAT ANZR\a\aCevbe Riragf:\a----- -------\aR1316058    03-21-2013    HAPBAFPVBHF FHOWRPG\a\a\a ** NOTA **  **  **  ** ELQNY EQ NAQ ELQNY EQ **  ** AP382  383-13 ** 
+
 */
 
 choyvp pynff CNZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1783,6 +1799,419 @@ choyvp pynff CNZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:DHNEEL UNYY EQ NAQ UBYYBJ",
         "HAVG:G83  R83");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFrpbaqNynezrefErfphrFdhnq() {
+
+    qbGrfg("G1",
+        "(Qvfcngpu) Qvfcngpu ** 15:05:34 ** IRUVPYR NPPVQRAG VAWHEVRF ** RNFGBA EQ NAQ SVGMJNGREGBJA EQ ** - **  **  ** 35-44 **  ** 2 IRU\a" +
+        "1 CNEGL JVGU ARPX CNVA\a" +
+        " ** 05/08/13 ** INV ** R1325328 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325328\a" +
+        "Vapvqrag Erprvirq: 05-08-2013  15:05:34              Pnyy Fbhepr:  10QVTVG\a\a" +
+        "PBQR: IN-IRUVPYR NPPVQRAG VAWHEVRF\a\a" +
+        "   \a" +
+        "Pebff Fgerrg: RNFGBA EQ NAQ SVGMJNGREGBJA EQ\a\a" +
+        "Znc: 35-44  Cyna:   NQP: 3259N6  ZHA: HZBE\a\a" +
+        "Havgf Qhr:   381-5\a\a" +
+        "Nqqvgvbany Vasb:\a" +
+        "---------- ----\a\a" +
+        "Rirag Pbzzragf:\a" +
+        "----- ---------\a" +
+        "15:05  2 IRU\a" +
+        "15:05  1 CNEGL JVGU ARPX CNVA\a\a" +
+        "Cevbe Riragf:\a" +
+        "----- -------\a" +
+        "R1312954    03-05-2013    IRUVPYR NPPVQRAG\a" +
+        "R1306959    02-02-2013    IRUVPYR NPPVQRAG\a" +
+        "\a\a" +
+        " ** HZBE **  **  **  ** RNFGBA EQ NAQ SVGMJNGREGBJA EQ **  ** 381-5 ** ",
+
+        "GVZR:15:05:34",
+        "PNYY:IRUVPYR NPPVQRAG VAWHEVRF",
+        "NQQE:RNFGBA EQ NAQ SVGMJNGREGBJA EQ",
+        "ZNC:35-44",
+        "VASB:2 IRU\a1 CNEGL JVGU ARPX CNVA\aNqqvgvbany Vasb:\a---------- ----\aRirag Pbzzragf:\a----- ---------\a15:05  2 IRU\a15:05  1 CNEGL JVGU ARPX CNVA\aCevbe Riragf:\a----- -------\aR1312954    03-05-2013    IRUVPYR NPPVQRAG\aR1306959    02-02-2013    IRUVPYR NPPVQRAG",
+        "QNGR:05/08/13",
+        "PBQR:INV",
+        "VQ:R1325328",
+        "PVGL:HCCRE ZBERYNAQ GJC",
+        "K:RNFGBA EQ NAQ SVGMJNGREGBJA EQ",
+        "HAVG:381-5");
+
+    qbGrfg("G2",
+        "(Qvfcngpu) Qvfcngpu ** 14:12:41 ** ANHFRN/IBZVGVAT ** 1565 CEBFCRPG NIR ** - **  **  ** 29-P2 **  ** -075.122795 +040.131307\a" +
+        "IBZVGVAT, FUNXVAT\a" +
+        "36/S\a" +
+        " ** 05/08/13 ** ZAI ** R1325321 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325321\a" +
+        "Vapvqrag Erprvirq: 05-08-2013  14:12:41              Pnyy Fbhepr:  10QVTVG\a\a" +
+        "PBQR: ZAI-ANHFRN/IBZVGVAT \a\a" +
+        "1565 CEBFCRPG NIR \a" +
+        "Pebff Fgerrg: JNFUVATGBA NIR NAQ UNZVYGBA NIR\a\a" +
+        "Znc: 29-P2  Cyna:   NQP: 3259N10  ZHA: NOTA\a\a" +
+        "Havgf Qhr:   AP381\a\a" +
+        "Nqqvgvbany Vasb:\a" +
+        "---------- ----\a\a" +
+        "Rirag Pbzzragf:\a" +
+        "----- ---------\a" +
+        "14:12  -075.122795 +040.131307\a" +
+        "14:12  IBZVGVAT, FUNXVAT\a" +
+        "14:12  36/S\a\a" +
+        "Cevbe Riragf:\a" +
+        "----- -------\a" +
+        "\a\a" +
+        " ** NOTA **  **  **  ** JNFUVATGBA NIR NAQ UNZVYGBA NIR **  ** AP381 ** ",
+
+        "GVZR:14:12:41",
+        "PNYY:ANHFRN/IBZVGVAT",
+        "NQQE:1565 CEBFCRPG NIR",
+        "ZNC:29-P2",
+        "VASB:-075.122795 +040.131307\aIBZVGVAT, FUNXVAT\a36/S\aNqqvgvbany Vasb:\a---------- ----\aRirag Pbzzragf:\a----- ---------\a14:12  -075.122795 +040.131307\a14:12  IBZVGVAT, FUNXVAT\a14:12  36/S\aCevbe Riragf:\a----- -------",
+        "QNGR:05/08/13",
+        "PBQR:ZAI",
+        "VQ:R1325321",
+        "PVGL:NOVATGBA GJC",
+        "K:JNFUVATGBA NIR NAQ UNZVYGBA NIR",
+        "HAVG:AP381");
+
+    qbGrfg("G3",
+        "(Qvfcngpu) Qvfcngpu ** 13:52:59 ** NOQBZVANY CNVAF ** 345 LBEX EQ A Ncg# 1 ** UNGOBEB ZRQVPNY NFFBPVNGRF- **  **  ** 37-19 **  ** FCRPVNY NQQERFF PBZZRAG:\a" +
+        "NOQBZVANY CNVA\a" +
+        "59/S\a" +
+        "INYVQ FHVGRF NG YBPNGVBA - ERIREVSL\a" +
+        " ** 05/08/13 ** ZNC ** R1325317 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325317\a" +
+        "Vapvqrag Erprvirq: 05-08-2013  13:52:59              Pnyy Fbhepr:      911\a\a" +
+        "PBQR: ZNC-NOQBZVANY CNVAF \a" +
+        "UNGOBEB ZRQVPNY NFFBPVNGRF\a" +
+        "345 LBEX EQ A Ncg# 1\a" +
+        "Pebff Fgerrg: IVYYNTR CY NAQ UBZR EQ\a\a" +
+        "Znc: 37-19  Cyna:   NQP: 3259Q1  ZHA: UNGO\a\a" +
+        "Havgf Qhr:   AP384\a\a" +
+        "Nqqvgvbany Vasb:\a" +
+        "---------- ----\a\a" +
+        "Rirag Pbzzragf:\a" +
+        "----- ---------\a" +
+        "13:52  FCRPVNY NQQERFF PBZZRAG:\a" +
+        "13:52  NOQBZVANY CNVA\a" +
+        "13:52  59/S\a" +
+        "13:52  INYVQ FHVGRF NG YBPNGVBA - ERIREVSL\a\a" +
+        "Cevbe Riragf:\a" +
+        "----- -------\a" +
+        "R1315621    03-19-2013    ERFCVENGBEL RZRETRAPL\a" +
+        "R1310395    02-20-2013    PNEQVNP RZRETRAPL\a" +
+        "R1309974    02-18-2013    QVMMVARFF\a" +
+        "R1309434    02-15-2013    ERFCVENGBEL RZRETRAPL\a" +
+        "R1269892    12-27-2012    PNEQVNP RZRETRAPL\a" +
+        "\a\a" +
+        " ** UNGO **  **  **  ** IVYYNTR CY NAQ UBZR EQ **  ** AP384 ** ",
+
+        "GVZR:13:52:59",
+        "PNYY:NOQBZVANY CNVAF",
+        "NQQE:345 LBEX EQ A",
+        "NCG:1",
+        "CYNPR:UNGOBEB ZRQVPNY NFFBPVNGRF",
+        "ZNC:37-19",
+        "VASB:NOQBZVANY CNVA\a59/S\aINYVQ FHVGRF NG YBPNGVBA - ERIREVSL\aNqqvgvbany Vasb:\a---------- ----\aRirag Pbzzragf:\a----- ---------\a13:52  FCRPVNY NQQERFF PBZZRAG:\a13:52  NOQBZVANY CNVA\a13:52  59/S\a13:52  INYVQ FHVGRF NG YBPNGVBA - ERIREVSL\aCevbe Riragf:\a----- -------\aR1315621    03-19-2013    ERFCVENGBEL RZRETRAPL\aR1310395    02-20-2013    PNEQVNP RZRETRAPL\aR1309974    02-18-2013    QVMMVARFF\aR1309434    02-15-2013    ERFCVENGBEL RZRETRAPL\aR1269892    12-27-2012    PNEQVNP RZRETRAPL",
+        "QNGR:05/08/13",
+        "PBQR:ZNC",
+        "VQ:R1325317",
+        "PVGL:UNGOBEB",
+        "K:IVYYNTR CY NAQ UBZR EQ",
+        "HAVG:AP384");
+
+    qbGrfg("G4",
+        "(Qvfcngpu) Qvfcngpu ** 13:49:06 ** IRUVPYR NPPVQRAG VAWHEVRF ** 3432 CRAAFLYINAVN GCXR RO ** - **  **  ** 35-38 **  ** -075.120005 +040.161509\a" +
+        "OYX YVAPBYA GBJAPNE\a" +
+        "QEVIRE UNF ONPX CNVA\a" +
+        " ** 05/08/13 ** INV ** R1325316 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325316\a" +
+        "Vapvqrag Erprvirq: 05-08-2013  13:49:06              Pnyy Fbhepr:      911\a\a" +
+        "PBQR: IN-IRUVPYR NPPVQRAG VAWHEVRF\a\a" +
+        "3432 CRAAFLYINAVN GCXR RO\a" +
+        "Pebff Fgerrg: F LBEX EQ HAQRECNFF NAQ ENZC EG611 GB V276 RO\a\a" +
+        "Znc: 35-38  Cyna:   NQP: 3259O5  ZHA: HZBE\a\a" +
+        "Havgf Qhr:   384-8\a\a" +
+        "Nqqvgvbany Vasb:\a" +
+        "---------- ----\a\a" +
+        "Rirag Pbzzragf:\a" +
+        "----- ---------\a" +
+        "13:49  -075.120005 +040.161509\a" +
+        "13:49  OYX YVAPBYA GBJAPNE\a" +
+        "13:49  QEVIRE UNF ONPX CNVA\a\a" +
+        "Cevbe Riragf:\a" +
+        "----- -------\a" +
+        "R1269860    12-27-2012    IRUVPYR SVER\a" +
+        "\a\a" +
+        " ** HZBE **  **  **  ** F LBEX EQ HAQRECNFF NAQ ENZC EG611 GB V276 RO **  ** 384-8 ** ",
+
+        "GVZR:13:49:06",
+        "PNYY:IRUVPYR NPPVQRAG VAWHEVRF",
+        "NQQE:3432 CRAAFLYINAVN GCXR RO",
+        "ZNQQE:3432 CRAAFLYINAVN GCXR",
+        "ZNC:35-38",
+        "VASB:-075.120005 +040.161509\aOYX YVAPBYA GBJAPNE\aQEVIRE UNF ONPX CNVA\aNqqvgvbany Vasb:\a---------- ----\aRirag Pbzzragf:\a----- ---------\a13:49  -075.120005 +040.161509\a13:49  OYX YVAPBYA GBJAPNE\a13:49  QEVIRE UNF ONPX CNVA\aCevbe Riragf:\a----- -------\aR1269860    12-27-2012    IRUVPYR SVER",
+        "QNGR:05/08/13",
+        "PBQR:INV",
+        "VQ:R1325316",
+        "PVGL:HCCRE ZBERYNAQ GJC",
+        "K:F LBEX EQ HAQRECNFF NAQ ENZC EG611 GB V276 RO",
+        "HAVG:384-8");
+
+    qbGrfg("G5",
+        "(Qvfcngpu) Qvfcngpu ** 13:43:27 ** PIN/FGEBXR ** 1439 FG PUNEYRF CY ** - **  **  ** 29-O2 **  ** 46/Z CBFFVOYL UNIVAT N FGEBXR\a" +
+        "FYHEERQ FCRNPU, CEVBE FGEBXR\a" +
+        "P/N\a" +
+        " ** 05/08/13 ** ZPI ** R1325314 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325314\a" +
+        "Vapvqrag Erprvirq: 05-08-2013  13:43:27              Pnyy Fbhepr:  10QVTVG\a\a" +
+        "PBQR: ZPI-PIN/FGEBXR \a\a" +
+        "1439 FG PUNEYRF CY \a" +
+        "Pebff Fgerrg: CREFUVAT NIR NAQ CNGNAR NIR\a\a" +
+        "Znc: 29-O2  Cyna:   NQP: 3258W9  ZHA: NOTA\a\a" +
+        "Havgf Qhr:   381-5\a\a" +
+        "Nqqvgvbany Vasb:\a" +
+        "---------- ----\a\a" +
+        "Rirag Pbzzragf:\a" +
+        "----- ---------\a" +
+        "13:43  46/Z CBFFVOYL UNIVAT N FGEBXR\a" +
+        "13:43  FYHEERQ FCRNPU, CEVBE FGEBXR\a" +
+        "13:43  P/N\a\a" +
+        "Cevbe Riragf:\a" +
+        "----- -------\a" +
+        "R1323448    04-29-2013    ZRQVPNY NYREG NYNEZ\a" +
+        "R1318405    04-03-2013    NOQBZVANY CNVAF\a" +
+        "R1308892    02-12-2013    ZRQVPNY NYREG NYNEZ\a" +
+        "R1258039    10-30-2012    ERFCVENGBEL RZRETRAPL\a" +
+        "R1246922    09-03-2012    QVNORGVP RZRETRAPL\a" +
+        "\a\a" +
+        " ** NOTA **  **  **  ** CREFUVAT NIR NAQ CNGNAR NIR **  ** 381-5 ** ",
+
+        "GVZR:13:43:27",
+        "PNYY:PIN/FGEBXR",
+        "NQQE:1439 FG PUNEYRF CY",
+        "ZNC:29-O2",
+        "VASB:46/Z CBFFVOYL UNIVAT N FGEBXR\aFYHEERQ FCRNPU, CEVBE FGEBXR\aP/N\aNqqvgvbany Vasb:\a---------- ----\aRirag Pbzzragf:\a----- ---------\a13:43  46/Z CBFFVOYL UNIVAT N FGEBXR\a13:43  FYHEERQ FCRNPU, CEVBE FGEBXR\a13:43  P/N\aCevbe Riragf:\a----- -------\aR1323448    04-29-2013    ZRQVPNY NYREG NYNEZ\aR1318405    04-03-2013    NOQBZVANY CNVAF\aR1308892    02-12-2013    ZRQVPNY NYREG NYNEZ\aR1258039    10-30-2012    ERFCVENGBEL RZRETRAPL\aR1246922    09-03-2012    QVNORGVP RZRETRAPL",
+        "QNGR:05/08/13",
+        "PBQR:ZPI",
+        "VQ:R1325314",
+        "PVGL:NOVATGBA GJC",
+        "K:CREFUVAT NIR NAQ CNGNAR NIR",
+        "HAVG:381-5");
+
+    qbGrfg("G6",
+        "(Qvfcngpu) Qvfcngpu ** 11:24:31 ** ZRQVPNY NYREG NYNEZ ** 310 ENVYEBNQ NIR ** - **  **  ** 46-21 **  ** NPGVINGVBA SEBZ CRAQNAG\a" +
+        "FGNPL OERJRE ERFQ\a" +
+        "267-460-8365\a" +
+        "AB PNYY YVFG\a" +
+        "UNIR CQ PURPX GUR ERFQ, AB RZF QVFCNGPU\a" +
+        "46-133 JVYY IREVSL\a" +
+        "FHOW JNF GENAFCBEGRQ GB GUR UBFC JVGU GUR CRAQNAG\a" +
+        " ** 05/08/13 ** ZZN ** R1325295 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325295\a" +
+        "Vapvqrag Erprvirq: 05-08-2013  11:24:31              Pnyy Fbhepr:  10QVTVG\a\a" +
+        "PBQR: ZZN-ZRQVPNY NYREG NYNEZ \a\a" +
+        "310 ENVYEBNQ NIR \a" +
+        "Pebff Fgerrg: J ZG CYRNFNAG NIR NAQ BNX FG\a\a" +
+        "Znc: 46-21  Cyna:   NQP: 3257Q5  ZHA: JUCA\a\a" +
+        "Havgf Qhr:   385FG\a\a" +
+        "Nqqvgvbany Vasb:\a" +
+        "---------- ----\a\a" +
+        "Rirag Pbzzragf:\a" +
+        "----- ---------\a" +
+        "11:24  NPGVINGVBA SEBZ CRAQNAG\a" +
+        "11:24  FGNPL OERJRE ERFQ\a" +
+        "11:24  267-460-8365\a" +
+        "11:24  AB PNYY YVFG\a" +
+        "11:26  UNIR CQ PURPX GUR ERFQ, AB RZF QVFCNGPU\a" +
+        "11:26  46-133 JVYY IREVSL\a" +
+        "11:26  FHOW JNF GENAFCBEGRQ GB GUR UBFC JVGU GUR CRAQNAG\a\a" +
+        "Cevbe Riragf:\a" +
+        "----- -------\a" +
+        "R1325284    05-08-2013    PNEQVNP RZRETRAPL\a" +
+        "R1307493    02-05-2013    ZRQVPNY NYREG NYNEZ\a" +
+        "R1246911    09-03-2012    FRVMHERF\a" +
+        "\a\a" +
+        " ** JUCA **  **  **  ** J ZG CYRNFNAG NIR NAQ BNX FG **  ** 385FG ** ",
+
+        "GVZR:11:24:31",
+        "PNYY:ZRQVPNY NYREG NYNEZ",
+        "NQQE:310 ENVYEBNQ NIR",
+        "ZNC:46-21",
+        "VASB:NPGVINGVBA SEBZ CRAQNAG\aFGNPL OERJRE ERFQ\a267-460-8365\aAB PNYY YVFG\aUNIR CQ PURPX GUR ERFQ, AB RZF QVFCNGPU\a46-133 JVYY IREVSL\aFHOW JNF GENAFCBEGRQ GB GUR UBFC JVGU GUR CRAQNAG\aNqqvgvbany Vasb:\a---------- ----\aRirag Pbzzragf:\a----- ---------\a11:24  NPGVINGVBA SEBZ CRAQNAG\a11:24  FGNPL OERJRE ERFQ\a11:24  267-460-8365\a11:24  AB PNYY YVFG\a11:26  UNIR CQ PURPX GUR ERFQ, AB RZF QVFCNGPU\a11:26  46-133 JVYY IREVSL\a11:26  FHOW JNF GENAFCBEGRQ GB GUR UBFC JVGU GUR CRAQNAG\aCevbe Riragf:\a----- -------\aR1325284    05-08-2013    PNEQVNP RZRETRAPL\aR1307493    02-05-2013    ZRQVPNY NYREG NYNEZ\aR1246911    09-03-2012    FRVMHERF",
+        "QNGR:05/08/13",
+        "PBQR:ZZN",
+        "VQ:R1325295",
+        "PVGL:JUVGCNVA GJC",
+        "K:J ZG CYRNFNAG NIR NAQ BNX FG",
+        "HAVG:385FG");
+
+    qbGrfg("G7",
+        "(Qvfcngpu) Qvfcngpu ** 10:56:48 ** SRIRE ** 3855 OYNVE ZVYY EQ  Ncg# 239Q ** OYNVE ZVYY IVYYNTR RNFG NCNEGZRAGF- **  **  ** 35-52 **  ** SRIRE BS 100+\a" +
+        "PRYHYYVHF VA YRTF\a" +
+        "72/S\a" +
+        "P/N\a" +
+        " ** 05/08/13 ** ZSR ** R1325291 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325291\a" +
+        "Vapvqrag Erprvirq: 05-08-2013  10:56:48              Pnyy Fbhepr:      911\a\a" +
+        "PBQR: ZSR-SRIRE \a" +
+        "OYNVE ZVYY IVYYNTR RNFG NCNEGZRAGF\a" +
+        "3855 OYNVE ZVYY EQ  Ncg# 239Q\a" +
+        "Pebff Fgerrg: J ZBERYNAQ NIR NAQ NYVFBA EQ\a\a" +
+        "Znc: 35-52  Cyna:   NQP: 3259N2  ZHA: HZBE\a\a" +
+        "Havgf Qhr:   DK10  384-8\a\a" +
+        "Nqqvgvbany Vasb:\a" +
+        "---------- ----\a\a" +
+        "Rirag Pbzzragf:\a" +
+        "----- ---------\a" +
+        "10:56  SRIRE BS 100+\a" +
+        "10:56  PRYHYYVHF VA YRTF\a" +
+        "10:56  72/S\a" +
+        "10:56  P/N\a\a" +
+        "Cevbe Riragf:\a" +
+        "----- -------\a" +
+        "R1312301    03-02-2013    SNYY IVPGVZ\a" +
+        "R1265983    12-08-2012    FHOWRPG VA CNVA\a" +
+        "\a\a" +
+        " ** HZBE **  **  **  ** J ZBERYNAQ NIR NAQ NYVFBA EQ **  ** DK10  384-8 ** ",
+
+        "GVZR:10:56:48",
+        "PNYY:SRIRE",
+        "NQQE:3855 OYNVE ZVYY EQ",
+        "NCG:239Q",
+        "CYNPR:OYNVE ZVYY IVYYNTR RNFG NCNEGZRAGF",
+        "ZNC:35-52",
+        "VASB:SRIRE BS 100+\aPRYHYYVHF VA YRTF\a72/S\aP/N\aNqqvgvbany Vasb:\a---------- ----\aRirag Pbzzragf:\a----- ---------\a10:56  SRIRE BS 100+\a10:56  PRYHYYVHF VA YRTF\a10:56  72/S\a10:56  P/N\aCevbe Riragf:\a----- -------\aR1312301    03-02-2013    SNYY IVPGVZ\aR1265983    12-08-2012    FHOWRPG VA CNVA",
+        "QNGR:05/08/13",
+        "PBQR:ZSR",
+        "VQ:R1325291",
+        "PVGL:HCCRE ZBERYNAQ GJC",
+        "K:J ZBERYNAQ NIR NAQ NYVFBA EQ",
+        "HAVG:DK10  384-8");
+
+    qbGrfg("G8",
+        "(Qvfcngpu) Qvfcngpu ** 10:26:19 ** PNEQVNP RZRETRAPL ** 310 ENVYEBNQ NIR ** - **  **  ** 46-21 **  ** PURFG CNVAF\a" +
+        "3EQ CNEGL\a" +
+        "42/S\a" +
+        "P/N\a" +
+        "FBO\a" +
+        " ** 05/08/13 ** ZPR ** R1325284 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325284\a" +
+        "Vapvqrag Erprvirq: 05-08-2013  10:26:19              Pnyy Fbhepr:  10QVTVG\a\a" +
+        "PBQR: ZPR-PNEQVNP RZRETRAPL \a\a" +
+        "310 ENVYEBNQ NIR \a" +
+        "Pebff Fgerrg: J ZG CYRNFNAG NIR NAQ BNX FG\a\a" +
+        "Znc: 46-21  Cyna:   NQP: 3257Q5  ZHA: JUCA\a\a" +
+        "Havgf Qhr:   385-3\a\a" +
+        "Nqqvgvbany Vasb:\a" +
+        "---------- ----\a\a" +
+        "Rirag Pbzzragf:\a" +
+        "----- ---------\a" +
+        "10:26  PURFG CNVAF\a" +
+        "10:26  3EQ CNEGL\a" +
+        "10:26  42/S\a" +
+        "10:27  P/N\a" +
+        "10:27  FBO\a\a" +
+        "Cevbe Riragf:\a" +
+        "----- -------\a" +
+        "R1307493    02-05-2013    ZRQVPNY NYREG NYNEZ\a" +
+        "R1246911    09-03-2012    FRVMHERF\a" +
+        "\a\a" +
+        " ** JUCA **  **  **  ** J ZG CYRNFNAG NIR NAQ BNX FG **  ** 385-3 ** ",
+
+        "GVZR:10:26:19",
+        "PNYY:PNEQVNP RZRETRAPL",
+        "NQQE:310 ENVYEBNQ NIR",
+        "ZNC:46-21",
+        "VASB:PURFG CNVAF\a3EQ CNEGL\a42/S\aP/N\aFBO\aNqqvgvbany Vasb:\a---------- ----\aRirag Pbzzragf:\a----- ---------\a10:26  PURFG CNVAF\a10:26  3EQ CNEGL\a10:26  42/S\a10:27  P/N\a10:27  FBO\aCevbe Riragf:\a----- -------\aR1307493    02-05-2013    ZRQVPNY NYREG NYNEZ\aR1246911    09-03-2012    FRVMHERF",
+        "QNGR:05/08/13",
+        "PBQR:ZPR",
+        "VQ:R1325284",
+        "PVGL:JUVGCNVA GJC",
+        "K:J ZG CYRNFNAG NIR NAQ BNX FG",
+        "HAVG:385-3");
+
+    qbGrfg("G9",
+        "(Qvfcngpu) Qvfcngpu ** 10:20:46 ** PIN/FGEBXR ** 1073 BYQ LBEX EQ ** NOVATGBA LZPN- **  **  ** 29-Q3 **  **  ** 05/08/13 ** ZPI ** R1325280 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325280\a" +
+        "Vapvqrag Erprvirq: 05-08-2013  10:20:46              Pnyy Fbhepr:  10QVTVG\a\a" +
+        "PBQR: ZPI-PIN/FGEBXR \a" +
+        "NOVATGBA LZPN\a" +
+        "1073 BYQ LBEX EQ \a" +
+        "Pebff Fgerrg: NQNZF NIR NAQ FHFDHRUNAAN EQ\a\a" +
+        "Znc: 29-Q3  Cyna:   NQP: 3371N2  ZHA: NOTA\a\a" +
+        "Havgf Qhr:   AP382  383-13\a\a" +
+        "Nqqvgvbany Vasb:\a" +
+        "---------- ----\a" +
+        "XABK OBK YBPNGRQ GB EVTUG BS CNEXVAT YBG NGEVHZ RAGENAPR NCCEBK 12SG UVTU (YNQQRE ARRQRQ).  OBK PBAGNVAF ZNFGRE XRL, PBAGNPG VASB, NYNEZ PBQR VASB.\a\a" +
+        "Rirag Pbzzragf:\a" +
+        "----- ---------\a\a" +
+        "Cevbe Riragf:\a" +
+        "----- -------\a" +
+        "R1313951    03-11-2013    SNYY IVPGVZ\a" +
+        "R1307253    02-04-2013    SENPGHER\a" +
+        "R1306667    02-01-2013    ERFCVENGBEL RZRETRAPL\a" +
+        "R1306245    01-30-2013    SNYY IVPGVZ\a" +
+        "R1252330    10-01-2012    HAPBAFPVBHF FHOWRPG\a" +
+        "\a\a" +
+        " ** NOTA **  **  **  ** NQNZF NIR NAQ FHFDHRUNAAN EQ **  ** AP382  383-13 ** ",
+
+        "GVZR:10:20:46",
+        "PNYY:PIN/FGEBXR",
+        "NQQE:1073 BYQ LBEX EQ",
+        "CYNPR:NOVATGBA LZPN",
+        "ZNC:29-Q3",
+        "VASB:Nqqvgvbany Vasb:\a---------- ----\aXABK OBK YBPNGRQ GB EVTUG BS CNEXVAT YBG NGEVHZ RAGENAPR NCCEBK 12SG UVTU (YNQQRE ARRQRQ).  OBK PBAGNVAF ZNFGRE XRL, PBAGNPG VASB, NYNEZ PBQR VASB.\aRirag Pbzzragf:\a----- ---------\aCevbe Riragf:\a----- -------\aR1313951    03-11-2013    SNYY IVPGVZ\aR1307253    02-04-2013    SENPGHER\aR1306667    02-01-2013    ERFCVENGBEL RZRETRAPL\aR1306245    01-30-2013    SNYY IVPGVZ\aR1252330    10-01-2012    HAPBAFPVBHF FHOWRPG",
+        "QNGR:05/08/13",
+        "PBQR:ZPI",
+        "VQ:R1325280",
+        "PVGL:NOVATGBA GJC",
+        "K:NQNZF NIR NAQ FHFDHRUNAAN EQ",
+        "HAVG:AP382  383-13");
+
+    qbGrfg("G10",
+        "(Qvfcngpu) Qvfcngpu ** 10:19:28 ** ERFCVENGBEL RZRETRAPL ** 1515 GUR SNVEJNL   Ncg# 514 ** ELQNY CNEX AHEFVAT UBZR- **  **  ** 29-R4 **  ** FCRPVNY NQQERFF PBZZRAG:\a" +
+        "+ ELQNY CNEX AHEFVAT UBZR - BOGNVA OHVYQVAT ANZR\a" +
+        "NPPRFF VASB NINVY FRR NV ABGRF.\a" +
+        "FCRPVNY NQQERFF PBZZRAG:\a" +
+        "GEBHOYR OERNGUVAT/YNOBERQ\a" +
+        "NPPRFF VASB NINVY FRR NV ABGRF.\a" +
+        "87/S\a" +
+        "ZVAVZNYYL ERFCBAFVIR\a" +
+        "+ ELQNY CNEX AHEFVAT UBZR - BOGNVA OHVYQVAT ANZR\a" +
+        " ** 05/08/13 ** ZER ** R1325279 **  ** ------ Qvfcngpu Ercbeg i1.3FC ------                   VAPVQRAG: R1325279\a" +
+        "Vapvqrag Erprvirq: 05-08-2013  10:19:28              Pnyy Fbhepr:      911\a\a" +
+        "PBQR: ZER-ERFCVENGBEL RZRETRAPL \a" +
+        "ELQNY CNEX AHEFVAT UBZR\a" +
+        "1515 GUR SNVEJNL   Ncg# 514\a" +
+        "Pebff Fgerrg: ELQNY EQ NAQ ELQNY EQ\a\a" +
+        "Znc: 29-R4  Cyna:   NQP: 3371O3  ZHA: NOTA\a\a" +
+        "Havgf Qhr:   AP382  383-13\a\a" +
+        "Nqqvgvbany Vasb:\a" +
+        "---------- ----\a\a" +
+        "Rirag Pbzzragf:\a" +
+        "----- ---------\a" +
+        "10:19  FCRPVNY NQQERFF PBZZRAG:\a" +
+        "10:19  + ELQNY CNEX AHEFVAT UBZR - BOGNVA OHVYQVAT ANZR\a" +
+        "10:19  NPPRFF VASB NINVY FRR NV ABGRF.\a" +
+        "10:19  FCRPVNY NQQERFF PBZZRAG:\a" +
+        "10:19  GEBHOYR OERNGUVAT/YNOBERQ\a" +
+        "10:19  NPPRFF VASB NINVY FRR NV ABGRF.\a" +
+        "10:19  87/S\a" +
+        "10:19  ZVAVZNYYL ERFCBAFVIR\a" +
+        "10:19  + ELQNY CNEX AHEFVAT UBZR - BOGNVA OHVYQVAT ANZR\a\a" +
+        "Cevbe Riragf:\a" +
+        "----- -------\a" +
+        "R1316058    03-21-2013    HAPBAFPVBHF FHOWRPG\a" +
+        "\a\a" +
+        " ** NOTA **  **  **  ** ELQNY EQ NAQ ELQNY EQ **  ** AP382  383-13 ** ",
+
+        "GVZR:10:19:28",
+        "PNYY:ERFCVENGBEL RZRETRAPL",
+        "NQQE:1515 GUR SNVEJNL",
+        "NCG:514",
+        "CYNPR:ELQNY CNEX AHEFVAT UBZR",
+        "ZNC:29-R4",
+        "VASB:+ ELQNY CNEX AHEFVAT UBZR - BOGNVA OHVYQVAT ANZR\aNPPRFF VASB NINVY FRR NV ABGRF.\aFCRPVNY NQQERFF PBZZRAG:\aGEBHOYR OERNGUVAT/YNOBERQ\aNPPRFF VASB NINVY FRR NV ABGRF.\a87/S\aZVAVZNYYL ERFCBAFVIR\a+ ELQNY CNEX AHEFVAT UBZR - BOGNVA OHVYQVAT ANZR\aNqqvgvbany Vasb:\a---------- ----\aRirag Pbzzragf:\a----- ---------\a10:19  FCRPVNY NQQERFF PBZZRAG:\a10:19  + ELQNY CNEX AHEFVAT UBZR - BOGNVA OHVYQVAT ANZR\a10:19  NPPRFF VASB NINVY FRR NV ABGRF.\a10:19  FCRPVNY NQQERFF PBZZRAG:\a10:19  GEBHOYR OERNGUVAT/YNOBERQ\a10:19  NPPRFF VASB NINVY FRR NV ABGRF.\a10:19  87/S\a10:19  ZVAVZNYYL ERFCBAFVIR\a10:19  + ELQNY CNEX AHEFVAT UBZR - BOGNVA OHVYQVAT ANZR\aCevbe Riragf:\a----- -------\aR1316058    03-21-2013    HAPBAFPVBHF FHOWRPG",
+        "QNGR:05/08/13",
+        "PBQR:ZER",
+        "VQ:R1325279",
+        "PVGL:NOVATGBA GJC",
+        "K:ELQNY EQ NAQ ELQNY EQ",
+        "HAVG:AP382  383-13");
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class TXHarrisCountyESD1BParser extends FieldProgramParser {
   
   private static final Pattern REPORT_PTN = Pattern.compile("^ID#:[^ ]+ *- *UNIT:[^ ]+ .*- *DISP:");
-  private static final Pattern DELIM = Pattern.compile("(?:^| )-");
+  private static final Pattern DELIM = Pattern.compile("(?<=^|[^\\d])-|-(?=[^\\d])");
 
   public TXHarrisCountyESD1BParser() {
     super("HARRIS COUNTY", "TX",
