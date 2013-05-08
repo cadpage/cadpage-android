@@ -254,7 +254,6 @@ Fraqre: gevgrpupnq@zpuq-gk.bet
 (PNQ Zrffntr) 13-008049 - 8) 04/12/2013 14:21:55 14:21:55.000-[8] [Abgvsvpngvba] [Zbagtbzrel Pbhagl Ubfc Qvfg]-10 ZBAGU BYQ PUBXRQ BA N CVRPR BS VPR. ABG PUBXVAT NAQ NYREG [Funerq]
 (PNQ Zrffntr) 13-008047 - 13) 04/12/2013 13:42:29 13:42:29.000-[13] [Abgvsvpngvba] [Zbagtbzrel Pbhagl Ubfc Qvfg]-27 LBS YRSG SBBG FJBYYRA CBFFVOYR OYBBQ PYBG. UK BS OYBBQ PYBGF. [Funerq]
 (PNQ Zrffntr) 13-008038 - 9) 04/12/2013 11:51:37 11:51:37.000-[9] [Abgvsvpngvba] [Zbagtbzrel Pbhagl Ubfc Qvfg]-68 LBS ERFC QVFGERFF. [Funerq]
-
 (PNQ Zrffntr) 13-008577 - 7) 04/16/2013 18:45:46 18:45:46.000-[7] [Abgvsvpngvba] [Jbbqynaqf Sver]-Ceboyrz punatrq sebz Snyy gb Hapbafpvbhf/Snvagvat ol Jbbqynaqf Sver [Funerq]
 (PNQ Zrffntr) 13-008577 - 4) 04/16/2013 18:42:46 18:42:46.000-[4] [Abgvsvpngvba] [Jbbqynaqf Sver]-Ceboyrz punatrq sebz Zrqvpny Cevbevgl 2 gb Snyy ol Jbbqynaqf Sver [Funerq]
 (PNQ Zrffntr) 13-008525 - 3) 04/16/2013 09:47:20 09:47:20.000-[3] [Abgvsvpngvba] [Zbagtbzrel Pbhagl Ubfc Qvfg]-Ceboyrz punatrq sebz *32 - Haxabja Cebo. Cer-Nyreg gb *12 - Frvmherf Cer-Nyreg ol Zbagtbzrel Pbhagl Ubfc Qvfg [Funerq]
