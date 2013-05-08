@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Nyonal Pbhagl, AL (nygreangr)
+Nyonal Pbhagl, AL
 Pbagnpg: fghearezkm@nby.pbz
 Fraqre: qvfcngpu@rqvfcngpurf.pbz
 (ryfzrersq_pnq Frc15-15:30) GLCR:BHG S Bhgqbbef  \e\aYBP:10 FABJQRA NI  \e\aOGJA:QRYNJNER NI/RYYFJBEGU NI \e\aANGHER:SVER / FZRYYF NAQ URNIL FZBXR /

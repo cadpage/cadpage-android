@@ -18,7 +18,7 @@ public class NYAlbanyCountyAParser extends FieldProgramParser {
     
     @Override
     public String getFilter() {
-      return "CAD@colonie.org";
+      return "@colonie.org";
     }
 
 	  @Override

@@ -22,6 +22,10 @@ FGEHPGHER SVER - CBFFVOYR R437,R438,GX7,EF7,R405\a6 TYRAZBER QE\aZnc ZVQJNL 14:4
 OSVER NYNEZ R412,R410,GX3,EF3,R405\a1425 PRAGENY NI\aFRNEF\aZnc SHYYRE 11:57:21
 ZRQVPNY PNYY N621,PE16,R406\a1 RYZ PG\aZnc PBY IVYY 16:25:57
 
+Pbagnpg: unei oraqre <uneio70@tznvy.pbz>
+Fraqre: ovnapr@pbybavr.bet
+OERNGUVAT CEBOYRZF/QVSS FCRNXVAT ORGJRRA OERNGUF N652,FD6\a800 A CRNEY FG #ALF-QRCG-BS-PBEERPGVBANY\aALF QRCG PBEERPGVBANY FREIVPRF\aZnc ZRANAQF 11:12:35
+
 */
 
 choyvp pynff ALNyonalPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -131,6 +135,25 @@ choyvp pynff ALNyonalPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1 RYZ PG",
         "ZNC:PBY IVYY",
         "GVZR:16:25:57");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgUneiOraqre() {
+
+    qbGrfg("G1",
+        "OERNGUVAT CEBOYRZF/QVSS FCRNXVAT ORGJRRA OERNGUF N652,FD6\a" +
+        "800 A CRNEY FG #ALF-QRCG-BS-PBEERPGVBANY\a" +
+        "ALF QRCG PBEERPGVBANY FREIVPRF\a" +
+        "Znc ZRANAQF 11:12:35",
+
+        "PNYY:OERNGUVAT CEBOYRZF/QVSS FCRNXVAT ORGJRRA OERNGUF",
+        "HAVG:N652,FD6",
+        "NQQE:800 A CRNEY FG",
+        "NCG:ALF-QRCG-BS-PBEERPGVBANY",
+        "CYNPR:ALF QRCG PBEERPGVBANY FREIVPRF",
+        "ZNC:ZRANAQF",
+        "GVZR:11:12:35");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
