@@ -217,7 +217,10 @@ public class Message {
       http://fireblitz.com/18/8.shtm
       */
       int pt1 = -1;
-      if (body.startsWith("FRM:")) {
+      if (body.startsWith("FR:")) {
+        pt1 = 3;
+      } 
+      else if (body.startsWith("FRM:")) {
         pt1 = 4;
       } else if (EMAIL_PFX_PATTERN.matcher(body).find()) {
         pt1 = 0;

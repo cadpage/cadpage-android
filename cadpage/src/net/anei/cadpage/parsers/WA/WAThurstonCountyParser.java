@@ -20,7 +20,7 @@ public class WAThurstonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "79516";
+    return "79516,MBLFD";
   }
 
   @Override
