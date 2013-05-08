@@ -13,14 +13,24 @@ public class MEYorkCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@sanfordmaine.org";
+    return "dispatch@sanfordmaine.org.2159700406";
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("Sanford RCC Page")) return false;
+    do {
+      if (subject.equals("Sanford RCC Page")) break;
+      if (body.startsWith("SANFORD RCC (Sanford RCC Page) ")) {
+        body = body.substring(33).trim();
+        break;
+      }
+      return false;
+    } while (false);
+    
+    if (body.endsWith(" UNSUBSCRIBE")) body = body.substring(0,body.length()-12).trim();
     body = body.replace("\nFire District:", "\nDistrict:");
+    
     return parseFields(body.split("\n"), data);
   }
   
