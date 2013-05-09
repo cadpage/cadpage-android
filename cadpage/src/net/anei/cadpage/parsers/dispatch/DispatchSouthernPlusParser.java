@@ -35,7 +35,7 @@ public class DispatchSouthernPlusParser extends DispatchSouthernParser {
       Matcher match = SUB_MARKER.matcher(body);
       if (match.find()) {
         String operId = match.group(1);
-        body = body.substring(match.end(1));
+        if (operId != null) body = body.substring(match.end(1));
         if (!SUB_TRAILER.matcher(subject).find()) {
           if (subject.contains(",") && !subject.endsWith(",")) subject += ',';
           subject += " 00";

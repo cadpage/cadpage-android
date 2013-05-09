@@ -10,7 +10,7 @@ public class NCCarteretCountyParser extends DispatchSouthernPlusParser {
   
   public NCCarteretCountyParser() {
     super(CITY_LIST, "CARTERET COUNTY", "NC", 
-          DSFLAG_DISPATCH_ID | DSFLAG_NO_NAME_PHONE | DSFLAG_ID_OPTIONAL);
+          DSFLAG_OPT_DISPATCH_ID | DSFLAG_NO_NAME_PHONE | DSFLAG_ID_OPTIONAL);
   }
   
   @Override
