@@ -72,6 +72,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         X - nothing
  *         C - call description (req)
  *         c - call description (opt)
+ *         L - Call and Place (call req)
+ *         l - Call and Place (opt)
  *         P - Place name (opt)
  *         p - place name (req)
  *         S - something we can skip (opt)
@@ -1696,14 +1698,14 @@ public class FieldProgramParser extends SmartAddressParser {
             if (++pt >= qual.length()) break;
           }
           chr = qual.charAt(pt);
-          int pt2 = "cPsCpS".indexOf(chr);
+          int pt2 = "cPslCpSL".indexOf(chr);
           if (pt2 >= 0) {
-            if (pt2 >= 3) {
-              pt2 -= 3;
+            if (pt2 >= 4) {
+              pt2 -= 4;
               parseFlags |= FLAG_START_FLD_REQ;
             }
-            startField = new String[]{"CALL","PLACE",null}[pt2];
-            startType = new StartType[]{StartType.START_CALL,StartType.START_PLACE,StartType.START_SKIP}[pt2];
+            startField = new String[]{"CALL","PLACE",null,"CALL PLACE"}[pt2];
+            startType = new StartType[]{StartType.START_CALL,StartType.START_PLACE,StartType.START_SKIP,StartType.START_CALL_PLACE}[pt2];
           }
           
           if (++pt >= qual.length()) break;

@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.MO;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -11,11 +12,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class MOStLouisCountyBParser extends FieldProgramParser {
   
   private static final Pattern TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)$");
-  private static final Pattern CARD_PTN = Pattern.compile(",? +([A-Z]{2} +Card ?#(?: ?\\d+\\b)?)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern CARD_PTN = Pattern.compile(",? +([A-Z]{2} +Card ?#(?: ?\\d+\\b)?),?", Pattern.CASE_INSENSITIVE);
   
   public MOStLouisCountyBParser() {
     super("ST LOUIS COUNTY", "MO",
-          "ADDR/SCU! Map:MAP! X-St:X");
+          "ADDR/SLU! Map:MAP X-St:X");
+    setupCallList(CALL_TABLE);
   }
   
   @Override
@@ -79,7 +81,7 @@ public class MOStLouisCountyBParser extends FieldProgramParser {
       
       // Avenue H is a problem
       field = field.replace("AVENUE H", "AVENUE-H").replace("AVE H", "AVE-H");
-      parseAddress(StartType.START_CALL, flags | FLAG_NO_IMPLIED_APT, field, data);
+      parseAddress(StartType.START_CALL_PLACE, flags | FLAG_NO_IMPLIED_APT, field, data);
       if (data.strUnit.length() == 0) {
         if (data.strUnit.startsWith(data.strAddress)) data.strUnit = data.strUnit.substring(data.strAddress.length()).trim();
         data.strUnit = getLeft();
@@ -90,6 +92,19 @@ public class MOStLouisCountyBParser extends FieldProgramParser {
         if (match.find() && match.start() > 0) {
           data.strUnit = match.group(1);
           data.strAddress = data.strAddress.substring(0,match.start());
+        }
+      } 
+      
+      else {
+        if (data.strUnit.startsWith(data.strAddress)) {
+          data.strUnit = data.strUnit.substring(data.strAddress.length()).trim();
+        }
+        if (data.strUnit.startsWith("[")) {
+          pt = data.strUnit.indexOf(']');
+          if (pt >= 0) {
+            data.strPlace = append(data.strPlace, " - ", data.strUnit.substring(1,pt).trim());
+            data.strUnit = data.strUnit.substring(pt+1).trim();
+          }
         }
       }
       
@@ -115,4 +130,32 @@ public class MOStLouisCountyBParser extends FieldProgramParser {
     if (name.equals("BOX")) return new MyBoxField();
     return super.getField(name);
   }
+  
+  private static final CodeSet CALL_TABLE = new CodeSet(
+      "ABDOMINAL PAIN",
+      "ACCIDENTAL INJURY",
+      "ALLERGIC REACTION",
+      "ASSAULT",
+      "ASTEMS",
+      "ASTFIR",
+      "CHEST PAIN",
+      "COMALM",
+      "COMERCIAL FIRE",
+      "DIABETIC",
+      "DIFFICULTY BREATHING",
+      "FAINTING (NEAR FAINTING)",
+      "FALL",
+      "FULL ARREST",
+      "GASOUT",
+      "MEDALM",
+      "OBS",
+      "PERSON DOWN",
+      "RESALM",
+      "SEIZURE",
+      "SICK CASE",
+      "STROKE",
+      "UNCONSCIOUS PERSON",
+      "VEHACC"
+      );
+  
 }

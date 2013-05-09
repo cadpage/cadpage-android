@@ -44,10 +44,15 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+    qbGrfg(FXVC, "ZNLOR OYNPX FG A JVYY JBEX",
+        "NQQE:OYNPX FG A");
   }
 
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(CYNPR , SYNT_AB_VZCYVRQ_NCG, "UVTUJNL J & EVIREF RAQ QE 2417 2434",
+        "NQQE:UVTUJNL J & EVIREF RAQ QE");
     
     qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD, "1 RG GB PBIRE FGN 71 Zvfp 6 JRFGSBEQ EQ",
         "PNYY:1 RG GB PBIRE FGN 71 Zvfp", 

@@ -1140,7 +1140,8 @@ choyvp pynff ZBBfntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G22",
         "(Bfntr Pbhagl RBP ) IRUVPYR / NGI / NPPVQRAG  UVTUJNL J ZncErtvbaf:  PebffFgerrgf: EQY 3",
         "HAVG:EQY 3",
-        "PNYY:IRUVPYR/NGI/NPPVQRAG UVTUJNL J");
+        "PNYY:IRUVPYR/NGI/NPPVQRAG",
+        "NQQE:UVTUJNL J");
 
     qbGrfg("G23",
         "(Bfntr Pbhagl RBP ) IRUVPYR / NGI / NPPVQRAG  PBHAGL EBNQ 201 - FR ZncErtvbaf:  PebffFgerrgf: BNQ1 891 BNQ2 Z61 EQY 2",

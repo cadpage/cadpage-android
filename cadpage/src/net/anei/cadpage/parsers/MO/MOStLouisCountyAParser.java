@@ -14,6 +14,7 @@ public class MOStLouisCountyAParser extends MsgParser {
 
   public MOStLouisCountyAParser() {
     super("ST LOUIS COUNTY", "MO");
+    setFieldList("PLACE ADDR CALL UNIT");
   }
   
   @Override

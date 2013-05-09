@@ -933,8 +933,19 @@ public abstract class SmartAddressParser extends MsgParser {
             break;
           }
           
-          if (sAddr > start && isType(sAddr-1, ID_ROUTE_PFX) & isType(sAddr, ID_NUMBER | ID_ALPHA_ROUTE)) {
-            sAddr--;
+          // Check for a route prefix followed by a numeric or alpha route number
+          // We check two positions for this sequence to catch the odd case where an alpha route number
+          // has previously been mistaken for a direction
+          // Good old St Louis County, MO. Thank your for creating a HWY W :(
+          int stt = -1;
+          for (int t = sAddr-1; t <= sAddr; t++) {
+            if (t >= start && isType(t, ID_ROUTE_PFX) & isType(t+1, ID_NUMBER | ID_ALPHA_ROUTE)) {
+              stt = t;
+              break;
+            }
+          }
+          if (stt >= 0) {
+            sAddr = stt;
             if (sAddr > start && 
                 isType(sAddr, ID_ROUTE_PFX_EXT) && 
                 isType(sAddr-1, ID_ROUTE_PFX_PFX)) sAddr--;
@@ -1065,7 +1076,7 @@ public abstract class SmartAddressParser extends MsgParser {
         
         if (isType(ndx, ID_ROAD_SFX) && !isType(sAddr, ID_NOT_ADDRESS | ID_CONNECTOR)) {
           boolean startHwy = 
-              (isType(ndx, ID_ROUTE_PFX) && isType(ndx+1, ID_NUMBER | ID_ALPHA_ROUTE)) ||
+              (isType(ndx, ID_ROUTE_PFX) && isType(ndx+1, ID_NUMBER)) ||
               (isType(ndx, ID_ROUTE_PFX_PFX) && isType(ndx+1, ID_ROUTE_PFX_EXT) && isType(ndx+2, ID_NUMBER)) ||
               (isType(ndx, ID_AMBIG_ROAD_SFX) && (isType(ndx+1, ID_ROAD_SFX)));
           
@@ -1879,10 +1890,17 @@ public abstract class SmartAddressParser extends MsgParser {
     // it is one or two characters long
     // all of the characters are letters
     // it is not a common 2 letter word
-    if (mask == 0 && Character.isLetter(token.charAt(0))) {
-      if (token.length() == 1 ||
-         token.length() == 2 && Character.isLetter(token.charAt(1)) &&
-         !token.equals("IN") && !token.equals("OF")) {
+    // The ordinal directions (NSEW) are legitimate alpha routes (grumble)
+    if (mask == 0) {
+      if (Character.isLetter(token.charAt(0))) {
+        if (token.length() == 1 ||
+           token.length() == 2 && Character.isLetter(token.charAt(1)) &&
+           !token.equals("IN") && !token.equals("OF")) {
+          mask |= ID_ALPHA_ROUTE;
+        }
+      }
+    } else {
+      if (token.length() == 1 && "NSEW".contains(token)) {
         mask |= ID_ALPHA_ROUTE;
       }
     }
