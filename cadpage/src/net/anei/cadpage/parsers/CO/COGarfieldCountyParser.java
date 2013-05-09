@@ -26,6 +26,7 @@ public class COGarfieldCountyParser extends SmartAddressParser {
     super("GARFIELD COUNTY", "CO");
     setupCallList(CALL_LIST);
     setupMultiWordStreets("CHAIR BAR");
+    setFieldList("CALL PLACE ADDR APT CITY MAP ID");
   }
   
   @Override

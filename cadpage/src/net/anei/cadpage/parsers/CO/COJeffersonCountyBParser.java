@@ -18,6 +18,7 @@ public class COJeffersonCountyBParser extends SmartAddressParser {
 
   public COJeffersonCountyBParser() {
     super("Jefferson County", "CO");
+    setFieldList("CALL ADDR APT INFO DATE TIME");
   }
 
   @Override
