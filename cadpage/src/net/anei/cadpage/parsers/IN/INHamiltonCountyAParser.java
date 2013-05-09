@@ -11,7 +11,7 @@ public class INHamiltonCountyAParser extends FieldProgramParser {
  
   public INHamiltonCountyAParser() {
     super("HAMILTON COUNTY", "IN",
-           "Unit:SKIP? Status:DISPATCHED? Location:ADDR/SXa! Quad:MAP! Units:UNIT! Type:CALL Narr:INFO CFS:ID Coord:GPS Venue:CITY");
+           "Unit:SKIP? Status:DISPATCHED? Location:ADDR/SXa! Quad:MAP! Units:UNIT! Type:CALL Narr:INFO CFS:ID Coord:GPS Venue:CITY Inc_#:ID");
   }
   
   @Override
