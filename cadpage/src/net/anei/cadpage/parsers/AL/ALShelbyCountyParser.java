@@ -25,7 +25,7 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "arns@shelby911.org";
+    return "arns@shelby911.org,arns@shelbyal.com";
   }
   
   @Override

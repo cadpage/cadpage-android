@@ -23,6 +23,10 @@ Pbagnpg: pnt222 <pnt222@oryyfbhgu.arg>
 Fraqre: neaf@furyolny.pbz
 1 bs 2\aSEZ:neaf@furyolny.pbz\aFHOW:NEAF NYREG\aZFT:5/3/2013 9:40:01 CZ\e\aSVER1307853\e\aURYRAN - FGN2\e\aNYNEZ-ZRQVPNY\e\a\e\a510 EBFROHEL EQ @ NCCYRSBEQ\a(Pba'g) 2 bs 2\aEQ / EBFROHEL PVE\e\a\e\aONG 68(Raq)
 
+Pbagnpg: Puevf <ebyy_gvqr68@lnubb.pbz>
+Fraqre: neaf@furyolny.pbz
+1 bs 2\aSEZ:neaf@furyolny.pbz\aFHOW:NEAF NYREG\aZFT:5/8/2013 7:57:52 CZ\aSVER1308155\aURYRAN - FGN1\aSNYY-FGNAQVAT\a\a1613 PHAAVATUNZ QE @ YNJYRL\a(Pba'g) 2 bs 2\aFG / OEVTTVAF QE\a\a UHQFBA, QNEERA(Raq)
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: OISEQ Ybpngvba: Oevresvryq, NY 
 Fraqre: neaf@furyol911.bet
@@ -287,6 +291,33 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:NCCYRSBEQ EQ / EBFROHEL PVE",
         "VASB:ONG 68");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPuevf() {
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:neaf@furyolny.pbz\a" +
+        "FHOW:NEAF NYREG\a" +
+        "ZFT:5/8/2013 7:57:52 CZ\a" +
+        "SVER1308155\a" +
+        "URYRAN - FGN1\a" +
+        "SNYY-FGNAQVAT\a\a" +
+        "1613 PHAAVATUNZ QE @ YNJYRL\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "FG / OEVTTVAF QE\a\a" +
+        " UHQFBA, QNEERA(Raq)",
+
+        "QNGR:5/8/2013",
+        "GVZR:19:57:52",
+        "VQ:SVER1308155",
+        "FEP:URYRAN - FGN1",
+        "PNYY:SNYY-FGNAQVAT",
+        "NQQE:1613 PHAAVATUNZ QE",
+        "K:YNJYRL FG / OEVTTVAF QE",
+        "VASB:UHQFBA, QNEERA");
+ 
   }
   
   @Grfg
