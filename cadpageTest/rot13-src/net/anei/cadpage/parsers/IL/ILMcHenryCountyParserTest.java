@@ -1,7 +1,6 @@
 cnpxntr arg.narv.pnqcntr.cnefref.VY;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.VY.VYZrqfgneCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -324,6 +323,18 @@ Fraqre: QbAbgErcyl@zprgfo.bet
 (JQSQ Qvfcngpu) #\aBPN : 1301349\aGlcr: NZO\aQngr: 4/30/2013 14:58:33\aYbpn: 2028 A FRZVANEL NI\aPvgl: JBBQFGBPX\aQvfg: 313
 (JQSQ Qvfcngpu) #\aBPN : 1301348\aGlcr: NZO\aQngr: 4/30/2013 13:30:54\aYbpn: 2626 PBOOYRFGBAR QE\aNcg : 36\aPvgl: CENVEVR TEBIR\aQvfg: 13
 (JQSQ Qvfcngpu) #\aBPN : 1301347\aGlcr: NBN\aQngr: 4/30/2013 13:26:37\aYbpn: 100 J JBBQFGBPX FG\aPvgl: PELFGNY YNXR\aPebf: A PNEBYVAR \aQvfg: 14
+
+Perqvg: $100
+
+Cnggrea zngpu fhowrpg, fnir svefg cneg nf fbhepr.
+Purpx gung obql fgnegf jvgu "#\a" naq erzbir
+
+Bireevqr trgCebtenz() naq nqq "FEP " gb ortvaavat bs erghearq erfhyg
+
+Cebtenz Fgevat
+BPN:VQ? Glcr:PNYY! Qngr:QNGRGVZR! Ybpn:NQQE! Pvgl:PVGL! Pebf:K VASB+
+
+Nqq cnggrea inyvqngvba jurer nccebcevngr
 
  */
 
