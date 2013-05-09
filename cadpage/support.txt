@@ -133,6 +133,7 @@ Jean -- Assistant to Ken Corbin
 
 ******************************************************************
 Already has activation code:
+********************************
 
 You or your department has apparently paid for Active911, but you need to register your device.
 Here are the details:
@@ -1776,6 +1777,32 @@ Well, when you go into Cadpage, you probably have a list of past calls, named Ca
 You can send us any number of these dispatch messages by long pressing the call from the Call History list.  Then select Report Problem from the menu list, and Email the Developer.  That generates an email to us with details of the call.
 
 *******************************************************************************
+Q:I gather that it is still filtering the
+pages add they come into our phones but the location settings help parse
+out and display the page properly. Am I reading that correctly?
+
+A: The location setting only tells Cadpage how the expected text page is
+formmatted so we know how to parse information from it.  Usually all of
+the departments served by one dispatch center use the same text page
+format, so the same location will work for all departments dispatched by
+that center.  It is a common misconception that setting a particular
+location is all that you have to do to start receiving pages from that
+center.  As explaned before, it is the dispatch center/message service
+that decides which pages will be sent to your device, the location just
+tells Cadpage how to interpret those pages.
+
+> 3) When my calls are coming through, my map option is not available. Any
+> ideas?
+>
+3) The map option not being available usually means I have to fix
+something.  You need to long press all of the calls that are not mapping
+and select "Report Problem" to generate an email to us with details
+about that call.
+
+Good luck,
+-Ken
+********************************************************************************
+
 end
 
 
