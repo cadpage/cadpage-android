@@ -1309,6 +1309,11 @@ GLCR: TNF YRNXF / TNF BQBE (ANGHENY / Y.C.T.) YBP: 11 OERAGJBBQ CXJL OERAGJ UBZR
 GLCR: FGEHPGHER SVER YBP: 81 ARJ UNZCFUVER NI AONLFU  PEBFF: R SBEXF EQ / R 3 NI PBQR: 69-Q-10 GVZR: 16:36:48
 GLCR: BCRA OHEAVAT YBP: 65 TENAG NIR OERAGJ PEBFF: FHSSBYX NIR 18:39:20 PBQR: 54-P-6
 ****************************************************************************
+Fhssbyx Pbhagl, AL (ALFhssbyxPbhaglSCnefre)
+** 16 Erfphr \a** GBN: 12:04 05-07-13 \a** 26-N-10 \a** 3 RNTYR EQ\a** PF: SNVEJNL QE ** 2013-000367 \a** NS\a** YBV frnepu pbzcyrgrq ng 05/07/
+** NN Nhgbzngvp Nynez \a** GBN: 17:22 05-07-13 \a** 52-O-1 \a** 81 UVTU UVYY EQ\a** PF: ERZFRA EQ / R JBBQYNAQ QE \a** 2013-000368 \a** XVGPURA
+** ZI Zbgbe Iruvpyr Nppvqrag \a** GBN: 18:25 05-07-13 \a** 29-Q-2Y \a** ZNVQFGBAR YA\a** PF: PNAGREOHEL QE ** 2013-000369 \a** ** YBV frnepu pb
+****************************************************************************
 Qvk Uvyyf, AL (ALQvkUvyyfCnefre)
 2010-001784 23:36 *** 16- Erfphr *** 17 OELPRJBBQ QE FCVRTRY, YBEV N Qvk Uvyyf UD NEVFGN QE 31-N-1 HAPBAFPVBHF / SNVAGVAT (ARNE) PRJBBQ QE QVKUVY
 GLCR:
@@ -5692,11 +5697,6 @@ Obql: 1 bs 2\aSEZ:arjf@1eja.pbz\aZFT:FUBERUNZ, AL (FHSSBYX) *JBEXVAT SVER* 45 EN
 Obql: 1 bs 2\aSEZ:arjf@1eja.pbz\aZFT:PRAGENY VFYVC, AL (FHSSBYX) *ANG TNF YRNX* 54 GNZNENPX FG. PUVRS 3-7-32 ECGF ANG TNF YRNX. ERD TNF PB. RAT 3-7-3\a(Pba'g) 2 bs 2\aSVEFG QHR RAT, 3-7-5 SVEFG QHR GEHPX.\2fAL340\a(Raq)
 Obql:SEZ:arjf@1eja.pbz\aZFT:ABEGU ONOLYBA, AL (FHSSBYX) *B/G NHGB J/ RWRPGVBA* QRRE CNEX NIR/CBCYNE FG. CQ B/F J/ B/G NHGB 1 FHOW. RWRPGRQ NIA BA F/O. AL200
 **********************************************************
-Fhssbyx Pbhagl, AL (svk?)
-Pbagnpg: Oergg Qrnpba <qrnpurnq15@tznvy.pbz>
-Fraqre: nzvglivyyrsqcntvat@tznvy.pbz
-** 16 - Erfphr \a** 400 FHAEVFR UJL** NZVGLIVYYR** GBN: 06:44 01-17-13 \a** 2013-000057 \a** 50 l/b cngvrag fbhgu jrfg gjb
-**********************************************************
 Haxabja
 Pbagnpg: Wbanguba Fnoefhyn <wefnoefhyn@tznvy.pbz>
 Fraqre: sopfbgvoflf@pb.sbeg-oraq.gk.hf
@@ -5706,13 +5706,6 @@ Ebjna Pbhagl, AP (nygreangr?)
 Pbagnpg: Xriva Nhor <nhorenpvat@tznvy.pbz>
 Fraqre: 93001043
 4954:PNQ:N2,R31,R21,PSY7,R11,OP1,BCF1;1;ERFPHR NFFVTAZRAG;667 JVYFBA FG;X103;FZVGU FG;WBUAQL NI;gerr sryy guebhtu ebbs, ab vawhevrf [01/17/13 16:57:37 OFUBGGF]
-**********************************************************
-Fhssbyx Pbhagl, AL (Svk? sbe ALFhssbyxPbhaglO)
-Pbagnpg: fghczna97 <fghczna97@tznvy.pbz>
-Fraqre: znfgvpnzopb@bcgbayvar.arg
-** 16-24 Certanapl \a** GBN: 09:15 01-18-13 \a** 24-Q-3 \a** 115 ZRNQBJZRER NI** PF: ZNFGVP EQ / PYBIRE FG \a** 2013-000127 \a**24-Q-
-** 16-29 Genssvp Nppvqrag \a** GBN: 03:50 01-26-13 \a** 29-Q-4 \a**** PF: ZNFGVP EQ / FBZREFRG NIR \a** 2013-000183 \a**29-Q-4**
-** 16-26 Fvpx \a** GBN: 14:15 01-26-13 \a** 26-N-10 \a** 223 CNGPUBTHR NI** PF: ZNL CY / QBHTYNFGBA FG \a** 2013-000185 \a**26-N-10**
 **********************************************************
 Uraarcva Pbhagl, ZA (Nygreangr?)
 Pbagnpg: mbbzvaehuznaa <mbbzvaehuznaa@tznvy.pbz>
@@ -5973,15 +5966,6 @@ Fraqre: ppcnrbp@pbzpnfg.arg
 (Qvfcngpu N271) 29Q05 G/N ABGNYREG  \aV 81 F 645 RKVG 65 FHZZREQNYR 11 ,RC PH  \a#:  \aK:/  \aMA:578  \aPC:V 81 F 645 RKVG 65   2013-05-01 18:48:29  \aZV#:130059429  \aERF#:N271
 **********************************************************
 **********************************************************
-Fhssbyx Pbhagl, AL
-Pbagnpg: Unax Zrffnan <rzgc217@tznvy.pbz>
-Fraqre: Cntvat1@svererfphrflfgrzf.kbubfg.pbz
-** 16 Erfphr \a** GBN: 12:04 05-07-13 \a** 26-N-10 \a** 3 RNTYR EQ\a** PF: SNVEJNL QE ** 2013-000367 \a** NS\a** YBV frnepu pbzcyrgrq ng 05/07/
-** NN Nhgbzngvp Nynez \a** GBN: 17:22 05-07-13 \a** 52-O-1 \a** 81 UVTU UVYY EQ\a** PF: ERZFRA EQ / R JBBQYNAQ QE \a** 2013-000368 \a** XVGPURA
-** ZI Zbgbe Iruvpyr Nppvqrag \a** GBN: 18:25 05-07-13 \a** 29-Q-2Y \a** ZNVQFGBAR YA\a** PF: PNAGREOHEL QE ** 2013-000369 \a** ** YBV frnepu pb
-** NN Nhgbzngvp Nynez \a** GBN: 10:47 05-08-13 \a** 52-P-1 \a** 283 EBHGR 25N\a** PF: QRRESVRYQ QE / TNGRJNL QE \a** 2013-000370 \a** TRARENY S
-** 16 Erfphr \a** GBN: 15:45 05-08-13 \a** 3-N-1 \a** 1503 A PBHAGEL EQ\a** PF: A JNQVAT EVIRE EQ / WNPBOF YA \a** 2013-000371 \a** 50 LBS PNG
-** NN Nhgbzngvp Nynez \a** GBN: 12:48 05-09-13 \a** 52-P-3T \a** 2450 A JNQVAT EVIRE EQ\a** PF: ABEGUFVQR EQ / PNEEVR PG \a** 2013-000373
 **********************************************************
 **********************************************************
 **********************************************************
