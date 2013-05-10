@@ -75,11 +75,13 @@ public class TXLaPorteParser extends DispatchOSSIParser {
     address = PVT_DR_PTN.matcher(address).replaceAll("");
     address = DASH_ALPH_PTN.matcher(address).replaceAll("");
     address = HALF_PTN.matcher(address).replaceAll("1/2");
+    address =  IH45_PTN.matcher(address).replaceAll("GULF FWY");
     return address.trim();
   }
   private static final Pattern PVT_DR_PTN = Pattern.compile("\\(PVT.*?\\)(?: *(?:DR|RD)\\b)?", Pattern.CASE_INSENSITIVE);
   private static final Pattern DASH_ALPH_PTN = Pattern.compile("-(?:SH|ST|LA).*$");
   private static final Pattern HALF_PTN = Pattern.compile("\\bHALF\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern IH45_PTN = Pattern.compile("\\bIH *45(?: *FWY)?", Pattern.CASE_INSENSITIVE);
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CLEMC", "CLEAR LAKE",

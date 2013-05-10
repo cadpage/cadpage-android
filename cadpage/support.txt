@@ -3,11 +3,9 @@ support@cadpage.org
 
 ******************************************************************
 
-This looks like some kind an unintentional hiccup at dispatch.  I checked all the Weld County department feeds coming through Active911, and all except one of them look normal.  The exception is Windsor Severance Fire Rescue which is getting the same kind of calls that you are getting, and they only starting happening since April 10th.
+This problem has been fixed in the beta release that you can install from  http://www.cadpage.org/download-cadpage/
 
-I would try contacting your department IT person to see if they can get Dispatch to track down whatever happened and fix it.
-
-Good luck,
+Sorry for the inconvenience,
 -Ken
 
 ******************************************************************
