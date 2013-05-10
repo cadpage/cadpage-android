@@ -1,11 +1,15 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 
 public class OHGreeneCountyParser extends FieldProgramParser {
+  
+  private static final Pattern MISSED_BLANK_PTN = Pattern.compile("([^ ])(Info:)");
   
   public OHGreeneCountyParser() {
     super(CITY_LIST, "GREENE COUNTY", "OH",
@@ -15,6 +19,12 @@ public class OHGreeneCountyParser extends FieldProgramParser {
   @Override
   public String getFilter() {
     return "psisn_dispatch@ci.xenia.oh.us";
+  }
+  
+  @Override
+  public boolean parseMsg(String body, Data data) {
+    body = MISSED_BLANK_PTN.matcher(body).replaceAll("$1 $2");
+    return super.parseMsg(body, data);
   }
   
   private class MyAddressField extends AddressField {
@@ -36,6 +46,7 @@ public class OHGreeneCountyParser extends FieldProgramParser {
       Parser p = new Parser(getLeft());
       data.strPlace = p.getOptional(',');
       data.strCross = p.get();
+      if (data.strCross.equalsIgnoreCase("No Cross Streets Found")) data.strCross = "";
       
       if (city.equals("CAESARCREEK TWP")) city = "CAESARSCREEK TWP";
       data.strCity = city;
@@ -43,7 +54,7 @@ public class OHGreeneCountyParser extends FieldProgramParser {
 
     @Override
     public String getFieldNames() {
-      return "ADDR PLACE X CITY";
+      return "ADDR APT PLACE X CITY";
     }
   }
 
