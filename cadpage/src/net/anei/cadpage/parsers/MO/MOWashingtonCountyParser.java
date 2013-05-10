@@ -17,7 +17,7 @@ public class MOWashingtonCountyParser extends DispatchCiscoParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    return super.parseMsg(body.replace('\n', ' ').replace("!",""), data);
+    return super.parseMsg(body, data);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
