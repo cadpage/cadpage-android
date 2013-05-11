@@ -21,11 +21,17 @@ public class DispatchA5Parser extends FieldProgramParser {
   private static final Pattern TRIM_TRAIL_BLANKS = Pattern.compile(" +$");
   private static final Pattern TRIM_EXTRA_INFO = Pattern.compile("(?:\nAddress Checks *)?(?:\nAdditional Inc#s: *)?$");
   
+  private Properties callCodes;
+  
   public DispatchA5Parser(String defCity, String defState) {
-    this(null, defCity, defState);
+    this(null, null, defCity, defState);
   }
   
   public DispatchA5Parser(Properties cityCodes, String defCity, String defState) {
+    this(cityCodes, null, defCity, defState);
+  }
+  
+  public DispatchA5Parser(Properties cityCodes, Properties callCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
            "Incident_Number:ID! ORI:UNIT! Station:SRC! " +
            "Incident_Type:CALL! Priority:PRI! " +
@@ -38,6 +44,7 @@ public class DispatchA5Parser extends FieldProgramParser {
            "Caller:NAME? " +
            "Units_sent:UNIT? " +
            "Nature_of_Call:INFO");
+    this.callCodes = callCodes;
   }
   
   @Override
@@ -110,6 +117,26 @@ public class DispatchA5Parser extends FieldProgramParser {
     return true;
   }
   
+  private static final Pattern CALL_CODE_PTN = Pattern.compile("([^ ]+) ([EF] .*)");
+  private class MyCallField extends CallField {
+    @Override public void parse(String field, Data data) {
+      Matcher match = CALL_CODE_PTN.matcher(field);
+      if (match.find()) {
+        data.strCode = match.group(1);
+        field = match.group(2);
+        String call = null;
+        if (callCodes != null) call = callCodes.getProperty(data.strCode);
+        if (call != null) field = call;
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE CALL";
+    }
+  }
+  
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
@@ -144,6 +171,7 @@ public class DispatchA5Parser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("MAP")) return new MyMapField();
     if (name.equals("PHONE")) return new MyPhoneField();

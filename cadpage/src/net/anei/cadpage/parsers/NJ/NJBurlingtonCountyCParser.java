@@ -14,7 +14,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   private static final String TRIM_SUBJ_TRAILER = ")]. ";
   
   public NJBurlingtonCountyCParser() {
-    super("BURLINGTON COUNTY", "NJ");
+    super(CITY_ABBRV, CALL_CODES, "BURLINGTON COUNTY", "NJ");
   }
   
   @Override
@@ -41,35 +41,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
     if (!super.parseMsg(subject, body, data)) return false;
     
     if (data.strSource.length() == 0 && source != null) data.strSource = source;
-    
-    // Expand call description
-    Parser p = new Parser(data.strCall);
-    String code = p.get(' ');
-    String type = p.get(' ');
-    if (type.equals("E") || type.equals("F")) {
-      String desc = CALL_CODES.getProperty(code);
-      if (desc != null) {
-        data.strCode = code + " " + type;
-        data.strCall = desc;
-      }
-    }
-    
-    // Fix city abbreviations
-    data.strCity = convertCodes(data.strCity, CITY_ABBRV);
     return true;
-  }
-  
-  private class MyCallField extends CallField {
-    @Override
-    public String getFieldNames() {
-      return "CODE CALL";
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    return super.getField(name);
   }
   
   private static Properties CITY_ABBRV = buildCodeTable(new String[]{
