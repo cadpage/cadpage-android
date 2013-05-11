@@ -15,6 +15,7 @@ Fraqre: Cntvat1@svererfphrflfgrzf.kbubfg.pbz
 ** NN Nhgbzngvp Nynez \a** GBN: 10:47 05-08-13 \a** 52-P-1 \a** 283 EBHGR 25N\a** PF: QRRESVRYQ QE / TNGRJNL QE \a** 2013-000370 \a** TRARENY S
 ** 16 Erfphr \a** GBN: 15:45 05-08-13 \a** 3-N-1 \a** 1503 A PBHAGEL EQ\a** PF: A JNQVAT EVIRE EQ / WNPBOF YA \a** 2013-000371 \a** 50 LBS PNG
 ** NN Nhgbzngvp Nynez \a** GBN: 12:48 05-09-13 \a** 52-P-3T \a** 2450 A JNQVAT EVIRE EQ\a** PF: ABEGUFVQR EQ / PNEEVR PG \a** 2013-000373
+** NN Nhgbzngvp Nynez \a** GBN: 15:43 05-10-13 \a** 52-P-3P \a** 5720 EBHGR 25N\a** PF: FBHAQ NIR / R JVAQ QE \a** 2013-000377 \a** NYNEZ\aObql:** 16 Erfphr \a** GBN: 20:28 05-10-13 \a** 26-N-8 \a** 364 ERZFRA EQ\a** PF: EBPXYRVA EQ / UVTU UVYY EQ \a** 2013-000378 \a** NS CNVA\aAhzore b
 
  */
 
@@ -132,6 +133,48 @@ choyvp pynff ALFhssbyxPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2450 A JNQVAT EVIRE EQ",
         "K:ABEGUFVQR EQ / PNEEVR PG",
         "VQ:2013-000373");
+
+    qbGrfg("G7",
+        "** NN Nhgbzngvp Nynez \a" +
+        "** GBN: 12:48 05-09-13 \a" +
+        "** 52-P-3T \a" +
+        "** 2450 A JNQVAT EVIRE EQ\a" +
+        "** PF: ABEGUFVQR EQ / PNEEVR PG \a" +
+        "** 2013-000373",
+
+        "PNYY:NN Nhgbzngvp Nynez",
+        "GVZR:12:48",
+        "QNGR:05/09/13",
+        "PBQR:52-P-3T",
+        "NQQE:2450 A JNQVAT EVIRE EQ",
+        "K:ABEGUFVQR EQ / PNEEVR PG",
+        "VQ:2013-000373");
+
+    qbGrfg("G8",
+        "** NN Nhgbzngvp Nynez \a" +
+        "** GBN: 15:43 05-10-13 \a" +
+        "** 52-P-3P \a" +
+        "** 5720 EBHGR 25N\a" +
+        "** PF: FBHAQ NIR / R JVAQ QE \a" +
+        "** 2013-000377 \a" +
+        "** NYNEZ\a" +
+        "Obql:** 16 Erfphr \a" +
+        "** GBN: 20:28 05-10-13 \a" +
+        "** 26-N-8 \a" +
+        "** 364 ERZFRA EQ\a" +
+        "** PF: EBPXYRVA EQ / UVTU UVYY EQ \a" +
+        "** 2013-000378 \a" +
+        "** NS CNVA\a" +
+        "Ahzore b",
+
+        "PNYY:NN Nhgbzngvp Nynez",
+        "GVZR:15:43",
+        "QNGR:05/10/13",
+        "PBQR:52-P-3P",
+        "NQQE:5720 EBHGR 25N",
+        "K:FBHAQ NIR / R JVAQ QE",
+        "VQ:2013-000377",
+        "VASB:NYNEZ\aObql: / 16 Erfphr / GBN: 20:28 05-10-13 / 26-N-8 / 364 ERZFRA EQ / PF: EBPXYRVA EQ / UVTU UVYY EQ / 2013-000378 / NS CNVA\aAhzore b");
 
   }
   
