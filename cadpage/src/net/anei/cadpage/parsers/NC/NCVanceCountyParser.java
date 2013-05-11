@@ -47,6 +47,7 @@ public class NCVanceCountyParser extends SmartAddressParser {
   
   private CodeSet CALL_SET = new CodeSet(
       "ACCIDENT PERSONAL INJURY",
+      "BREATHING PROBLEMS",
       "CHIMNEY FIRE",
       "FIRE ALARM",
       "MEDICAL",
