@@ -995,8 +995,11 @@ Mapping from wrong system
 
 You have to uninstall (or just clear the defaults) for the mapping program that you accidentally set as the default mapping app.
 
+How you do this depends on the version of Android you have.  For ICS and above use
+Main > Menu > Application Manager > (Wrong mapping app) > Clear Defaults
+
+For Gingerbread and below it is
 Main > Menu > Settings > Applications > Manage Applications > (Wrong mapping app) > Clear Defaults
-should do it.
 
 Have a  nice day,
 -Ken

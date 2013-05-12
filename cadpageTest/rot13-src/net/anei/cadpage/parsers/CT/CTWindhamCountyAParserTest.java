@@ -36,6 +36,10 @@ Pbagnpg: Yneel Ybbzvf <yneel.ybbzvf.we@tznvy.pbz>
 .... (Zbbfhc Sver) FGN94  33.88 CEV 1 FGN94 sbe E1 Crefbaary gb Cynvasvryq/  Snyy Vawhel 796 ABEJVPU EQ / ZP QBANYQF Cynvasvryq (K-FGF YNGUEBC EQ RKG / BYQ ABEJVPU EQ ) 13:52
 .... (Zbbfhc Sver) FGN94  HUS-4 BCRE HUS CYRNFR Sver Nynez 19 FHAAL NPERF / Zbbfhc (K-FGF QNTTRGG FG / QRNQ RAQ ) 11:56
 
+Pbagnpg: Oevna Gurevnhyg <pne194@pg.zrgebpnfg.arg>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Zbbfhc Sver) FGN94 FGN594 ZBBF1  RXBAX 460 CEV 1 CBFFVOYR PUBXVAT Haxabja Ceboyrz (RZF) 81 YNXR FG / Zbbfhc (K-FGF IVPGBEVN QE / CNERAG UVYY EQ ) 07:26
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Yvfoba Sver  Nzohynapr
 Ybpngvba: Yvfoba, PG, Havgrq Fgngrf
@@ -264,7 +268,19 @@ choyvp pynff PGJvaqunzPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgYneelYbbzvf() {
+  choyvp ibvq grfgOevnaGurevnhyg() {
+
+    qbGrfg("G1",
+        "(Zbbfhc Sver) FGN94 FGN594 ZBBF1  RXBAX 460 CEV 1 CBFFVOYR PUBXVAT Haxabja Ceboyrz (RZF) 81 YNXR FG / Zbbfhc (K-FGF IVPGBEVN QE / CNERAG UVYY EQ ) 07:26",
+        "FEP:Zbbfhc Sver",
+        "HAVG:FGN94 FGN594 ZBBF1 RXBAX",
+        "PU:460",
+        "CEV:1",
+        "PNYY:CBFFVOYR PUBXVAT Haxabja Ceboyrz (RZF)",
+        "NQQE:81 YNXR FG",
+        "PVGL:Zbbfhc",
+        "K:IVPGBEVN QE / CNERAG UVYY EQ",
+        "GVZR:07:26");
 
   }
   

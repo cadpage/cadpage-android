@@ -13,7 +13,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTWindhamCountyAParser extends SmartAddressParser {
   
-  private static final Pattern CHANNEL_PTN = Pattern.compile("(?:^| +)(UHF-\\d|\\d\\d\\.\\d\\d|\\b(?:KILLINGLY|UNION) \\d{3}|HIGH-BAND) +");
+  private static final Pattern CHANNEL_PTN = Pattern.compile("(?:^| +)(UHF-\\d|\\d\\d\\.\\d\\d|\\d{3}|\\b(?:KILLINGLY|UNION) \\d{3}|HIGH-BAND) +");
   private static final Pattern PRIORITY_PTN = Pattern.compile("^PRI +(\\d) +");
   private static final Pattern TIME_PTN = Pattern.compile("\\d\\d:\\d\\d");
   private static final Pattern RESERVE_CALL_PTN = Pattern.compile("\\b(?:CALL FROM|ALERT|ALARM)\\b", Pattern.CASE_INSENSITIVE);
