@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA19Parser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("INCIDENT # ([A-Z]\\d{8})");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("(?:DISPATCH)?INCIDENT # ([A-Z0-9]+)");
   private static final Pattern HASH_DELIM = Pattern.compile("(?<=[A-Z]) ?#(?= )");
   private static final Pattern FIELD_BREAK = Pattern.compile(" (ACTIVE CALL|REPORTED|Type|Zone|Phone):");
   private static final Pattern FIELD_DELIM = Pattern.compile(" *\n+ *");
