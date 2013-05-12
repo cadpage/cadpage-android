@@ -9,8 +9,9 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class LALafourcheParishParser extends SmartAddressParser {
 
-  public final static Pattern PATTERN_SUBJECT = Pattern.compile("(\\d\\d-\\d{5}) - (\\d+[A-Z]?) : (.*)");
-  public final static Pattern PATTERN_SUBJECT_SPC = Pattern.compile("FIRE ALARM|AIR MED");
+  public final static Pattern PATTERN_SUBJECT = Pattern.compile("(\\d\\d-\\d{5,6}) - (\\d+[A-Z]?) : (.*)");
+  public final static Pattern PATTERN_SUBJECT_SHORT = Pattern.compile("(\\d\\d-\\d{5}) -");
+  public final static Pattern PATTERN_SUBJECT_SPC = Pattern.compile("FIRE ALARM|AIR MED|HOUSE FIRE|FIRE AT .*");
   
   public LALafourcheParishParser() {
     super(CITY_LIST, "LAFOURCHE PARISH", "LA");
@@ -19,26 +20,44 @@ public class LALafourcheParishParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "no-reply@ledsportal.com";
+    return "no-reply@ledsportal.com,Dispatch@thibfiredept.org";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
   }
 
   @Override
   protected boolean parseMsg(String strSubject, String strMessage, Data data) {
     
     // Extract the message ID from the Subject
-    Matcher subMatch = PATTERN_SUBJECT.matcher(strSubject);
-    if(subMatch.matches()) {                                      // Test for regular pattern
-      data.strCallId = subMatch.group(1);
-      data.strCode = subMatch.group(2);
-      data.strCall = subMatch.group(3).trim();
-    }
-    else {                                                        // Test for special pattern
+    do {
+      Matcher subMatch = PATTERN_SUBJECT.matcher(strSubject);
+      if(subMatch.matches()) {                                      // Test for regular pattern
+        data.strCallId = subMatch.group(1);
+        data.strCode = subMatch.group(2);
+        data.strCall = subMatch.group(3).trim();
+        break;
+      }
+      Matcher shortMatch = PATTERN_SUBJECT_SHORT.matcher(strSubject);
+      if (shortMatch.matches()) {
+        data.strCallId = shortMatch.group(1);
+        int pt = strMessage.toUpperCase().indexOf(" AT ");
+        if (pt < 0) return false;
+        data.strCall = strMessage.substring(0,pt).trim();
+        strMessage = strMessage.substring(pt+4).trim();
+        break;
+      }
+      
       Matcher special = PATTERN_SUBJECT_SPC.matcher(strSubject);
       if(special.matches()) {
         data.strCall = strSubject;
+        break;
       }
-      else return false;
-    }
+      
+      return false;
+    } while (false);
     
     // Substitute LF's with spaces from message
     strMessage = strMessage.replace('\n', ' ');
