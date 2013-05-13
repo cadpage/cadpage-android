@@ -20,7 +20,7 @@ public class DispatchA3Parser extends FieldProgramParser {
   public DispatchA3Parser(int version, String prefix, String defCity, String defState) {
     this(prefix, defCity, defState,
           version == 0 ?
-            "ID? ADDR/SXP APT CH CITY! X X MAP INFO1 CALL INFO ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
+            "ID? ADDR/SXP APT CH CITY! X X MAP INFO1 CALL CALL ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
           : version == 1 ?
               "ID? ADDR/SXP APT CH CITY! EMPTY+? CALL CALL ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
           : version == 2 ?
@@ -248,7 +248,7 @@ public class DispatchA3Parser extends FieldProgramParser {
     if (name.equals("INFO1")) return new BaseInfo1Field();
     if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("NAME")) return new BaseNameField();
-    if (name.equals("UNIT")) return new UnitField("(?:[A-Z0-9]{1,4}[0-9]|CSRS)(?:,(?:[A-Z]{0,3}[0-9]+[A-Z]{0,3}|[A-Z]{1,4}))*");
+    if (name.equals("UNIT")) return new UnitField("(?:[A-Z0-9]{1,4}[0-9]|RRS|CSRS)(?:[,/](?:[A-Z]{0,3}[0-9]+[A-Z]{0,3}|[A-Z]{1,4}))*");
     return super.getField(name);
   }
 }

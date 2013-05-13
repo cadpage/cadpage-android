@@ -6,6 +6,7 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -21,7 +22,7 @@ public class DispatchA5Parser extends FieldProgramParser {
   private static final Pattern TRIM_TRAIL_BLANKS = Pattern.compile(" +$");
   private static final Pattern TRIM_EXTRA_INFO = Pattern.compile("(?:\nAddress Checks *)?(?:\nAdditional Inc#s: *)?$");
   
-  private Properties callCodes;
+  private CodeTable callCodes;
   
   public DispatchA5Parser(String defCity, String defState) {
     this(null, null, defCity, defState);
@@ -31,7 +32,7 @@ public class DispatchA5Parser extends FieldProgramParser {
     this(cityCodes, null, defCity, defState);
   }
   
-  public DispatchA5Parser(Properties cityCodes, Properties callCodes, String defCity, String defState) {
+  public DispatchA5Parser(Properties cityCodes, CodeTable callCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
            "Incident_Number:ID! ORI:UNIT! Station:SRC! " +
            "Incident_Type:CALL! Priority:PRI! " +
@@ -125,7 +126,7 @@ public class DispatchA5Parser extends FieldProgramParser {
         data.strCode = match.group(1);
         field = match.group(2);
         String call = null;
-        if (callCodes != null) call = callCodes.getProperty(data.strCode);
+        if (callCodes != null) call = callCodes.getCodeDescription(data.strCode);
         if (call != null) field = call;
       }
       super.parse(field, data);

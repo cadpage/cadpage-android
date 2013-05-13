@@ -199,7 +199,7 @@ choyvp pynff JNXvatPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G3",
         "33700 Jo90 Jrfg Bs Fe18                           #          XVAT PBHAGL                        ZIN - Nvq Rzretrapl           SGNP2     R281,N87,71FG,O71,Y73,N74",
         "NQQE:33700 Jo90 Jrfg Bs Fe18",
-        "ZNQQE:33700 Jo90 Jrfg Bs JN 18",
+        "ZNQQE:33700 Jo90",
         "PVGL:XVAT PBHAGL",
         "PNYY:ZIN - Nvq Rzretrapl",
         "HAVG:R281,N87,71FG,O71,Y73,N74");

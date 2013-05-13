@@ -1676,7 +1676,11 @@ public class StandardCodeTable extends CodeTable {
     Result res =  super.getResult(expCode);
     if (res == null) return null;
     
-    int codeLength = res.getCode().length() - (expCode.length() - code.length());
+    // Prealert codes don't count unless they are an exact match
+    String resCode =  res.getCode();
+    if (resCode.length() <= 2 && !code.equals(resCode)) return null;
+    
+    int codeLength = resCode.length() - (expCode.length() - code.length());
     res.setCode(code.substring(0,codeLength));
     return res;
   }

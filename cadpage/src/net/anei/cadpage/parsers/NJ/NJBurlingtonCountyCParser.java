@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.NJ;
 
 import java.util.Properties;
 
+import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA5Parser;
 
@@ -58,7 +59,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
       "Wrghtstwn",  "Wrightstown"
   });
   
-  private static final Properties CALL_CODES = buildCodeTable(new String[]{
+  private static final CodeTable CALL_CODES = new CodeTable(
       "CCD",   "Critical Care Divert",
       "DUP",   "Duplicate Incident",
       "EMS",   "EMS Call",
@@ -127,5 +128,5 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
       "DUP",   "Duplicate Incident",
       "BURN",  "Controlled Burn",
       "FIRE",  "Fire Call"
-  });
+  );
 }

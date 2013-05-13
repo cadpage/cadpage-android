@@ -879,7 +879,7 @@ choyvp pynff GKCnexrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZF",
         "FEP:48",
         "NQQE:Crry Eq ab ahzrevpf ninyvoyr",
-        "ZNQQE:Crry Eq ab ahzrevpf ninyvoyr & Byq Pbggbaqnyr Eq",
+        "ZNQQE:Crry Eq & ahzrevpf ninyvoyr",
         "K:Byq Pbggbaqnyr Eq",  // Abg znccvat
         "ZNC:402 S",
         "VASB:Ercbegrq Uvg naq eha Gbarq ol YP - Oenql CPSN");
