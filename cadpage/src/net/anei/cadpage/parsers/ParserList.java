@@ -552,6 +552,7 @@ public class ParserList {
               ,"OHGreeneCounty"                 ,"Greene County, OH"
               ,"OHHamiltonCounty"               ,"Hamilton County, OH"
               ,"OHHighlandCounty"               ,"Highland County, OH"
+              ,"OHHolmesCounty"                 ,"Holmes County, OH"
               ,"OHHudson"                       ,"Hudson, OH"
               ,"OHJacksonCounty"                ,"Jackson County, OH"
               ,"OHKnoxCounty"                   ,"Knox County, OH"
