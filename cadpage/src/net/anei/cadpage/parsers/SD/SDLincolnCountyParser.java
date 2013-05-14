@@ -14,7 +14,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class SDLincolnCountyParser extends SmartAddressParser {
   
-  private static final Pattern LEAD_NUMBER = Pattern.compile("^\\d+ .*");
+  private static final Pattern LEAD_NUMBER = Pattern.compile("^\\d+ +(?!Y/O |YO ).*");
   private static final Pattern CALL_ID_PTN = Pattern.compile("^\\{?(\\d\\d-\\d+)\\b\\}?");
   private static final Pattern MASTER_PTN = Pattern.compile("\\{?(.*?)\\}? *(\n| - )(.*)");
   private static final Pattern STANDBY_PTN = Pattern.compile("^STANDBY +(?:AT +)", Pattern.CASE_INSENSITIVE);

@@ -39,6 +39,11 @@ Fraqre: ab-ercyl@yrqfcbegny.pbz
 (227 F WBUAFBA) ZNYR - QVSSVPHYGL OERNGUVAT [Nggnpuzrag(f) erzbirq]
 (13-04979 - NZO : Nzohynapr Pnyy1 pnyy ebyybire) +43.301044, -096.643700 \aCyrnfr erfcbaq vzzrqvngryl.\a18/jrfg bs 11\a2 cngvragf onpx naq arpx vawhevrf
 
+Pbagnpg: Wnzrf Qvrgm <xp0hfd@tznvy.pbz>
+Fraqre: ab-ercyl@yrqfcbegny.pbz
+(83 L/B Srznyr abg srryvat jryy Qvss oernguvat) 519 F Onegyrgg\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]
+(20 L/B Srznyr fgbznpu naq onpx cnva) 28106 472aq Nir\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]
+
 ** Cnefre snvyherf **
 Fhowrpg:qrulqengvba\a519 f onegyrgg 18 lb srznyr qrulengrq, cyrnfr erfcbaq\e
 Fhowrpg:12-11706 - NZO : Nzohynapr Pnyy\a420 F. Qnxbgn, p \e\aCyrnfr erfcbaq vzzrqvngryl. 36 lb. z cnffrq bhg.\e
@@ -249,6 +254,21 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:+43.301044,-96.643700",
         "VASB:18/jrfg bs 11\a2 cngvragf onpx naq arpx vawhevrf");
  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCnefre3() {
+
+    qbGrfg("G1",
+        "(83 L/B Srznyr abg srryvat jryy Qvss oernguvat) 519 F Onegyrgg\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]",
+        "PNYY:83 L/B Srznyr abg srryvat jryy Qvss oernguvat",
+        "NQQE:519 F Onegyrgg");
+
+    qbGrfg("G2",
+        "(20 L/B Srznyr fgbznpu naq onpx cnva) 28106 472aq Nir\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]",
+        "PNYY:20 L/B Srznyr fgbznpu naq onpx cnva",
+        "NQQE:28106 472aq Nir");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
