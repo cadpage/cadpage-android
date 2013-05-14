@@ -35,6 +35,10 @@ Pbagnpg: Nneba Ebguzna <syngohfu97@tznvy.pbz>
 Fraqre: igrkg.pbz@tznvy.pbz
 syngohfu97+pns_=9179688745=igrkg.pbz@tznvy.pbz 2078 R 19Gu Fg - Org: Nirahr G & Nirahr H - 1fg sybbe - Pnyy VQ: 957-5211
 
+Pbagnpg: OELNA XRFFYRE <ungmd17@tznvy.pbz>
+Fraqre: ungmd17+pns_=7187571701=igrkg.pbz@tznvy.pbz
+117-01 84Gu Nir - Org: 117Gu Fg & 118Gu Fg / 84Gu Nir - Ncg: 409 - 4gu sybbe - Pnyy VQ: 10021301
+
 */
 
 choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -180,6 +184,20 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:1fg sybbe",
         "VQ:957-5211");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOelnaXrffyre() {
+
+    qbGrfg("G1",
+        "117-01 84Gu Nir - Org: 117Gu Fg & 118Gu Fg / 84Gu Nir - Ncg: 409 - 4gu sybbe - Pnyy VQ: 10021301",
+        "NQQE:117-01 84Gu Nir",
+        "ZNQQE:117 84Gu Nir",
+        "NCG:409",
+        "K:117Gu Fg & 118Gu Fg / 84Gu Nir",
+        "CYNPR:4gu sybbe",
+        "VQ:10021301");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

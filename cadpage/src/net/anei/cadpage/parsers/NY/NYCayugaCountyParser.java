@@ -21,7 +21,7 @@ public class NYCayugaCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "cayuga911@co.cayuga.ny.us,cayuga911@nameservices.net";
+    return "cayuga911@co.cayuga.ny.us,cayuga911@nameservices.net,cayuga911@www.cayugacounty.us";
   }
 
   @Override
