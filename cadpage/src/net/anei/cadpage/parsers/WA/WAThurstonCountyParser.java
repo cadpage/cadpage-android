@@ -15,12 +15,12 @@ public class WAThurstonCountyParser extends FieldProgramParser {
   
   public WAThurstonCountyParser() {
     super(CITY_CODES, "THURSTON COUNTY", "WA",
-           "EMPTY CODE CALL ADDR CITY X+? SRC MAP! INFO+ Units:UNIT+");
+           "EMPTY CODE CALL ADDR CITY! X+? SRC MAP% INFO+ Units:UNIT+");
   }
   
   @Override
   public String getFilter() {
-    return "79516,MBLFD";
+    return "50911,70359,79516,MBLFD";
   }
 
   @Override

@@ -8,7 +8,7 @@ vzcbeg bet.whavg.Grfg;
 Guhefgba Pbhagl, JN
 
 Pbagnpg: Puevf Cnggv <puevfcnggv74@ubgznvy.pbz>
-Fraqre: 79516,ZOYSQ
+Fraqre: 50911,70359,79516,ZOYSQ
 , OHEAIB, ONA BPG 16 - WHY 14, NYCVAR QE FJ/ARLYBA QE FJ, BY, <6400/ 6899>, SQ09, B9, YNETR CVYR BS QROEVF ORVAT OHEARQ VA GUR NERN...PNHFVA
 , N, NYF -Ragre POQ Pbqr!, 6422 ARYF FG FJ, BY, ogja 62AQ NIR FJ naq XVAARL FG FJ, SQ09, B11, 25 LBS, Havg:N91
 , SVERP2, FZBXRL, 2997 PEBFOL OYIQ FJ #312, GH, ogja JRFGOHEL YA FJ naq ONEARF OYIQ FJ, GSQ, Z14, Havgf:OAG1, R95, RB2, RG1, RG2, Z5
@@ -26,6 +26,7 @@ SE:ZOYSQ\aZFT:, O, OERNGUVAT, 2110 54GU NIR FJ #28, BY, ogja GEBFCRE EQ FJ naq O
 SE:ZOYSQ\aZFT:, GO, HAX VAW, FO UJL 101 F/BYQ 101 UJL AJ, BY, ng FO UJL 101 F/BYQ 101 UJL AJ, BY <7399/0>, SQ13, U9, Havg:N91
 SE:ZOYSQ\aZFT:, GO, HAX VAW, FO UJL 101 F/JUVGNXRE EQ AJ, BY, ng FO UJL 101 F/JUVGNXRE EQ AJ, BY <6709/0>, SQ13, V9, Havgf:N131, NZO1, O131, R131, R91
 SE:ZOYSQ\aZFT:, O, HAX ZRQVPNY, FNYZBA FUBERF ERFBEG #38, BY, ng 5446 OYNPX YNXR OYIQ FJ #38, BY, ogja TBYQFOL FG FJ naq 56GU NIR FJ, SQ09, A11, EC ABG J/
+SE:ZOYSQ\aZFT:, O, OYF -Ragre POQ Pbqr!, NCCYR CNEX NCNEGZRAGF #P-102, BY, ng 3200 PNCVGNY ZNYY QE FJ #P-102, BY, ogja PBBCRE CBVAG EQ FJ naq NEPUJBBQ QE F
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Tevssva Sver Qrcnegzrag
@@ -261,6 +262,18 @@ choyvp pynff JNGuhefgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SQ09",
         "ZNC:A11",
         "VASB:EC ABG J/");
+
+    qbGrfg("G17",
+        "SE:ZOYSQ\a" +
+        "ZFT:, O, OYF -Ragre POQ Pbqr!, NCCYR CNEX NCNEGZRAGF #P-102, BY, ng 3200 PNCVGNY ZNYY QE FJ #P-102, BY, ogja PBBCRE CBVAG EQ FJ naq NEPUJBBQ QE F",
+
+        "PBQR:O",
+        "PNYY:OYF -Ragre POQ Pbqr!",
+        "CYNPR:NCCYR CNEX NCNEGZRAGF",
+        "NQQE:3200 PNCVGNY ZNYY QE FJ",
+        "NCG:P-102",
+        "PVGL:BYLZCVN",
+        "K:PBBCRE CBVAG EQ FJ / NEPUJBBQ QE F");
 
   }
   
@@ -597,6 +610,6 @@ choyvp pynff JNGuhefgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj JNGuhefgbaPbhaglCnefreGrfg().trarengrGrfgf("G10");
+    arj JNGuhefgbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
