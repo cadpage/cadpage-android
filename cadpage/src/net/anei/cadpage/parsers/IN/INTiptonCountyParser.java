@@ -6,7 +6,7 @@ public class INTiptonCountyParser extends DispatchOSSIParser {
   
   public INTiptonCountyParser() {
     super("TIPTON COUNTY", "IN",
-           "UNIT CALL ID? ADDR INFO+");
+           "UNIT CALL MAP? ADDR INFO+");
   }
   
   @Override
@@ -16,7 +16,7 @@ public class INTiptonCountyParser extends DispatchOSSIParser {
   
   @Override
   public Field  getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d+");
+    if (name.equals("MAP")) return new MapField("\\d+|CITY");
     return super.getField(name);
   }
 }
