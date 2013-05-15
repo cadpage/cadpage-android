@@ -18,6 +18,7 @@ public class TXCyCreekCommCenterParser extends SmartAddressParser {
   
   public TXCyCreekCommCenterParser() {
     super("HARRIS COUNTY", "TX");
+    setFieldList("SRC DATE TIME PHONE ADDR APT CITY MAP PLACE CALL UNIT X ID");
   }
   
   @Override
