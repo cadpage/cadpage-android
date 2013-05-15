@@ -116,6 +116,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "MVI",  "Motor Vehicle Crash w/ injuries",
       "MVU",  "Motor Vehicle Crash w/ unknown injuries",
       "SERV", "Service Call",
+      "SMOI", "Smoke in Structure",
       "STR",  "Structure Fire",
       "TREE", "Tree down",
       "UNKF", "Unknown Type Fire",
