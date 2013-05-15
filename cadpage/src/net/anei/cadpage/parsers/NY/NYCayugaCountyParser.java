@@ -47,44 +47,61 @@ public class NYCayugaCountyParser extends SmartAddressParser {
       body = body.substring(match.end());
       st = StartType.START_ADDR;
     }
-    parseAddress(st, FLAG_IMPLIED_INTERSECT, body, data);
+    int pt = body.indexOf(',');
+    if (pt >= 0) {
+      parseAddress(st, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, body.substring(0,pt).trim(), data);
+      parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, body.substring(pt+1).trim(), data);
+    } else { 
+      parseAddress(st, FLAG_IMPLIED_INTERSECT, body, data);
+    }
     data.strCall = getLeft();
     if (data.strCall.length() > 30) {
       data.strSupp = data.strCall;
       data.strCall = "";
     }
+    
+    if (data.strCity.toUpperCase().endsWith(" ONONDAGA COUNTY")) {
+      data.strCity = data.strCity.substring(0,data.strCity.length()-16).trim();
+    }
     return true;
   }
   
   private static final String[] CITY_LIST = new String[]{
-
     "AUBURN",
-    "AURELIUS", "CAYUGA",
-    "BRUTUS", "WEEDSPORT",
-    "CATO", "MERIDIAN", "CATO",
+    "AURELIUS", 
+    "CAYUGA",
+    "BRUTUS", 
+    "WEEDSPORT",
+    "CATO", 
+    "MERIDIAN",
     "CONQUEST", 
     "FLEMING",
     "GENOA",
     "IRA",
-    "LEDYARD", "AURORA",
+    "LEDYARD", 
+    "AURORA",
     "LOCKE",
-    "MENTZ", "PORT BYRON",
+    "MENTZ", 
+    "PORT BYRON",
     "MONTEZUMA",
-    "MORAVIA", "MORAVIA",
+    "MORAVIA", 
     "NILES", 
     "OWASCO",
     "SCIPIO",
     "SEMPRONIUS",
     "SENNETT",
-    "SPRINGPORT", "UNION SPRINGS",
-    "STERLING", "FAIR HAVEN",
+    "SPRINGPORT", 
+    "UNION SPRINGS",
+    "STERLING", 
+    "FAIR HAVEN",
     "SUMMERHILL",
     "THROOP",
     "VENICE",
     "VICTORY",
     
-    "ONONDAGA COUNTY"
+    "ONONDAGA COUNTY",
+    "SKANEATELES",
+    "SKANEATELES ONONDAGA COUNTY"
   };
-  
 }
 	
