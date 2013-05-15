@@ -14,7 +14,7 @@ public class ZCAABCalgaryParser extends FieldProgramParser {
   
   protected ZCAABCalgaryParser() {
     super(CITY_TABLE, "CALGARY", "AB",
-           "Add:ADDR/S Map:MAP Det:CALL! FireTAC:CH Evt:ID!");
+           "Add:ADDR/S4 Map:MAP Det:CALL! FireTAC:CH Evt:ID!");
   }
 
   @Override

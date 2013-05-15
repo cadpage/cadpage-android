@@ -133,6 +133,11 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_NEAR_TO_END = 0x20000;
   
+  /**
+   * Flag indicating a city with no address is an acceptable result
+   */
+  public static final int FLAG_EMPTY_ADDR_OK = 0x40000;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -728,7 +733,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // Unless we are parsing a cross street instead of a real address, in which
     // case we allow it to be empty
     if (startAddress < 0) return false;
-    int reserve = (isFlagSet(FLAG_ONLY_CROSS) ? 0 : 2);
+    int reserve = (isFlagSet(FLAG_ONLY_CROSS | FLAG_EMPTY_ADDR_OK) ? 0 : 2);
     return parseAddressToCity(startAddress, startAddress+reserve, result);
   }
 

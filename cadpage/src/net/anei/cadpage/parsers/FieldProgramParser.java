@@ -68,6 +68,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         1 - @ or AT marks beginning of place
  *         2 - Only @ will be treated as start maker.  Ignore "AT"
  *         3 - Address followed by cross street or something similar
+ *         4 - Empty address should be accepted
  *         First field character determines what can come ahead of the address
  *         X - nothing
  *         C - call description (req)
@@ -1695,6 +1696,10 @@ public class FieldProgramParser extends SmartAddressParser {
           }
           if (chr == '3') {
             parseFlags |= FLAG_CROSS_FOLLOWS;
+            if (++pt >= qual.length()) break;
+          }
+          if (chr == '4') {
+            parseFlags |= FLAG_EMPTY_ADDR_OK;
             if (++pt >= qual.length()) break;
           }
           chr = qual.charAt(pt);
