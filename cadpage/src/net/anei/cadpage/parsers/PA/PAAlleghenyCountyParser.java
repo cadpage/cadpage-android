@@ -14,6 +14,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
   
   private static final String MARKER = "ALLEGHENY COUNTY 911 :";
   private static final Pattern TRAILER_PTN = Pattern.compile(" - From \\d+ (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)$");
+  private static final Pattern MOVE_UP_PTN = Pattern.compile("MOVE-UP: +([A-Z0-9]+) +to +([A-Z0-9]+)\\.?");
   
   public PAAlleghenyCountyParser() {
     super(CITY_CODES, "ALLEGHENY COUNTY", "PA",
@@ -34,6 +35,8 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
         body = body.substring(1).trim();
         break;
       }
+      
+      if (body.startsWith("MOVE-UP:")) break;
       
       if (subject.endsWith(" Station")) break;
         
@@ -59,6 +62,15 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
       data.expectMore = true;
       pt = body.indexOf(" - From");
       if (pt >= 0) body = body.substring(0, pt).trim();
+    }
+    
+    // MOVE-UP is a special case
+    match = MOVE_UP_PTN.matcher(body);
+    if (match.matches()) {
+      setFieldList("CALL UNIT DATE TIME");
+      data.strCall = "MOVE-UP to " + match.group(2);
+      data.strUnit = match.group(1);
+      return true;
     }
     
     body = body.replace(" Unit:", " Units:");
@@ -119,6 +131,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
         data.strCross = field.substring(5).trim();
       } else if (PHONE_PTN.matcher(field).matches()) {
         data.strPhone = field;
+      } else if (field.startsWith("<") && field.endsWith(">")) {
       } else {
         super.parse(field, data);
       }
@@ -126,7 +139,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "INFO X PHONE";
+      return "X PHONE INFO";
     }
   }
   
@@ -152,7 +165,7 @@ public class PAAlleghenyCountyParser extends FieldProgramParser {
     if (name.equals("AT")) return new MyAtField();
     if (name.equals("XINFO")) return new MyCrossInfoField();
     if (name.equals("BOX")) return new BoxField("[A-Z]?\\d{5,}(?: +[A-Z]?\\d{5,})*|[A-Z]{2,3}\\d{2,3}", true);
-    if (name.equals("ID")) return new IdField("F\\d{9}", true);
+    if (name.equals("ID")) return new IdField("[A-Z]\\d{9}", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
