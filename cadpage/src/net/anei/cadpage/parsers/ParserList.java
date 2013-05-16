@@ -669,6 +669,7 @@ public class ParserList {
           ),
           new ParserCategory("Tennessee"
               ,"TNAndersonCounty"               ,"Anderson County, TN"
+              ,"TNBedfordCounty"                ,"Bedford County, TN"
               ,"TNBlountCounty"                 ,"Blount County, TN"
               ,"TNCampbellCounty"               ,"Campbell County, TN"
               ,"TNCumberlandCounty"             ,"Cumberland County, TN"
