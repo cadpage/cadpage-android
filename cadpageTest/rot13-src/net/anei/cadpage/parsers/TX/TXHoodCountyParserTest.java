@@ -64,7 +64,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "srapr\a\a" +
         "Pbagnpg: bnxyrl,xraqnyy                    Cubar: (817)219-2128",
 
-        "VQ:Q12120202",
+        "VQ:Q12120202/224765/84",
         "CEV:8",
         "GVZR:14:20:12",
         "QNGR:12/02/12",
@@ -104,10 +104,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "yrnivaf, tbeqba\a\a" +
         "Pbagnpg: yrnivaf, tbeqba                   Cubar: (817)559-7622",
 
-        "VQ:Q12120102",
+        "VQ:Q12120102/224603/142",
         "CEV:3",
-        "QNGR:12/01/2012",
         "GVZR:17:39:00",
+        "QNGR:12/01/2012",
         "PNYY:SVER FZNYY(UM:O",
         "NQQE:Fvk W  Pg",
         "K:3eq ubhfr  ba yrsg",
@@ -145,10 +145,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "pbaavr,creel\a\a" +
         "Pbagnpg: pbaavr,creel                      Cubar: (817)917-5660",
 
-        "VQ:Q12113004",
+        "VQ:Q12113004/224378/148",
         "CEV:3",
-        "QNGR:11/30/2012",
         "GVZR:17:59:22",
+        "QNGR:11/30/2012",
         "PNYY:SVER FZNYY:O",
         "NQQE:3700 Grknf Nir & Zbagrtb Oyiq",
         "ZNQQE:3700 Grknf Nir",
@@ -191,10 +191,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Phegvf,Oragyrl\a\a" +
         "Pbagnpg: Phegvf,Oragyrl                    Cubar: (817)964-6488",
 
-        "VQ:T12112801",
+        "VQ:T12112801/223906/91",
         "CEV:3",
-        "QNGR:11/28/2012",
         "GVZR:11:47:36",
+        "QNGR:11/28/2012",
         "PNYY:SVER FZNYY:O",
         "NQQE:Erhavba Pg",
         "ZNC:445",
@@ -240,10 +240,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CebDN Sver Pnfr 223745 Pbzcyrgr\a\a" +
         "Pbagnpg: CBJYRL,ZVXR                       Cubar: (817)408-5701",
 
-        "VQ:T12112709",
+        "VQ:T12112709/223745/156",
         "CEV:4",
-        "QNGR:11/27/2012",
         "GVZR:19:25:58",
+        "QNGR:11/27/2012",
         "PNYY:SVER PAGEYOHE:B",
         "NQQE:1136 Erhavba Pg",
         "ZNC:445",
@@ -291,10 +291,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "qelre ba sver\a\a" +
         "Pbagnpg: SVKRQ NGGZB 8006356840 BCG4       Cubar: (817)894-4119",
 
-        "VQ:T12112602",
+        "VQ:T12112602/223544/201",
         "CEV:2",
-        "QNGR:11/26/2012",
         "GVZR:20:44:42",
+        "QNGR:11/26/2012",
         "PNYY:SVER FGEHPGHE:Q",
         "NQQE:3811 Unab Gey",
         "ZNC:254",
@@ -328,10 +328,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         " 5. Gur pnyyre unf abg vaqvpngrq gung gurer ner genccrq crefba(f).\a\a" +
         "Pbagnpg: NG&G ZBOVYVGL                     Cubar: (817)487-6010",
 
-        "VQ:M12112501",
+        "VQ:M12112501/223167/43",
         "CEV:2",
-        "QNGR:11/25/2012",
         "GVZR:03:56:48",
+        "QNGR:11/25/2012",
         "PNYY:SVER FGEHPGHE:Q",
         "NQQE:5909 Grknf Gey",
         "ZNC:253",
@@ -370,10 +370,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Bfobear,Oneonen\a\a" +
         "Pbagnpg: Bfobear,Oneonen                   Cubar: (817)578-4901",
 
-        "VQ:T12112302",
+        "VQ:T12112302/222819/32",
         "CEV:2",
-        "QNGR:11/23/2012",
         "GVZR:07:11:20",
+        "QNGR:11/23/2012",
         "PNYY:SVER FGEHPGHE:Q",
         "NQQE:1505 Fcnavfu Bnx Qe",
         "ZNC:245",
@@ -417,10 +417,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GUBZCFBA, WBUA\a\a" +
         "Pbagnpg: GUBZCFBA, WBUA                    Cubar: (682)936-2360",
 
-        "VQ:M12112202",
+        "VQ:M12112202/222768/119",
         "CEV:3",
-        "QNGR:11/22/2012",
         "GVZR:20:01:02",
+        "QNGR:11/22/2012",
         "PNYY:SVER FZNYY:O",
         "NQQE:Juvccbbejvyy Qe",
         "ZNC:263",
@@ -473,10 +473,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "pbzc nqi gerrf nebhaq gur erf ner ba sver nf jryy\a\a" +
         "Pbagnpg: PBYYVAF,WBFUHN                    Cubar: (817)559-0697",
 
-        "VQ:M12112101",
+        "VQ:M12112101/222598/181",
         "CEV:3",
-        "QNGR:11/21/2012",
         "GVZR:20:24:37",
+        "QNGR:11/21/2012",
         "PNYY:SVER:O",
         "NQQE:Jbbqynxr Qe",
         "ZNC:253",
@@ -502,10 +502,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Bhgfvqr Sver.  .Pnyyre Fgngrzrag: tenff sver.\a\a" +
         "Pbagnpg: syvccva,funar                     Cubar: (817)559-4880",
 
-        "VQ:T12112101",
+        "VQ:T12112101/222503/95",
         "CEV:2",
-        "QNGR:11/21/2012",
         "GVZR:13:12:15",
+        "QNGR:11/21/2012",
         "PNYY:SVER",
         "NQQE:1314 Uvyy Pvgl Ujl",
         "ZNC:262",
@@ -548,10 +548,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybjel,Wrev\a\a" +
         "Pbagnpg: Ybjel,Wrev                        Cubar: (817)368-4374",
 
-        "VQ:Q12112001",
+        "VQ:Q12112001/222246/45",
         "CEV:3",
-        "QNGR:11/20/2012",
         "GVZR:08:16:12",
+        "QNGR:11/20/2012",
         "PNYY:SVER IRUVPYR:O",
         "NQQE:Abegu Tngr Eq",
         "ZNQQE:Abegu Tngr Eq & wnzrf eq",
@@ -576,7 +576,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Fhow vf oheavat jung fzryyf yvxr cynfgvp\a\a" +
         "Pbagnpg: Nabalzbhf                         Cubar: (   )   -",
 
-        "VQ:Q12111801",
+        "VQ:Q12111801/221900/47",
         "CEV:8",
         "GVZR:12:36:23",
         "QNGR:11/18/12",
@@ -601,7 +601,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Fhow vf oheavat jung fzryyf yvxr cynfgvp\a\a" +
         "Pbagnpg: Nabalzbhf                         Cubar: (   )   -",
 
-        "VQ:T12111802",
+        "VQ:T12111802/221900/47",
         "CEV:8",
         "GVZR:12:36:23",
         "QNGR:11/18/12",
@@ -643,10 +643,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Guvry,Grtna\a\a" +
         "Pbagnpg: Guvry,Grtna                       Cubar: (817)694-3566",
 
-        "VQ:T12111801",
+        "VQ:T12111801/221895/42",
         "CEV:2",
-        "QNGR:11/18/2012",
         "GVZR:11:56:19",
+        "QNGR:11/18/2012",
         "PNYY:SVER FGEHPGHE:Q",
         "NQQE:2017 Jnyxre Fg",
         "ZNC:245",
@@ -683,10 +683,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "WNZRF,PHEGVF R\a\a" +
         "Pbagnpg: WNZRF,PHEGVF R                    Cubar: (817)279-9236",
 
-        "VQ:V12111702",
+        "VQ:V12111702/221816/139",
         "CEV:3",
-        "QNGR:11/17/2012",
         "GVZR:20:04:30",
+        "QNGR:11/17/2012",
         "PNYY:SVER FZNYY:O",
         "NQQE:Urevgntr Pg",
         "ZNC:254",
@@ -709,7 +709,7 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "pbagnpg jnagrq gb erznva naba\a\a" +
         "Pbagnpg: naba                              Cubar: (   )   -",
 
-        "VQ:V12111701",
+        "VQ:V12111701/221764/96",
         "CEV:4",
         "GVZR:14:30:48",
         "QNGR:11/17/12",
@@ -750,10 +750,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ORARTNYVN,GREEFN\a\a" +
         "Pbagnpg: ORARTNYVN,GREEFN                  Cubar: (817)578-4663",
 
-        "VQ:A12111602",
+        "VQ:A12111602/221648/161",
         "CEV:3",
-        "QNGR:11/16/2012",
         "GVZR:21:36:14",
+        "QNGR:11/16/2012",
         "PNYY:BQBE BHGFVQR:N",
         "NQQE:1900 Gryyre Oryy Pg",
         "K:Oragjngre",
@@ -795,10 +795,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBZC NQIVFRQ JUVGR FZBXR NAQ GUR 20SG SYNZRF\a\a" +
         "Pbagnpg: G-ZBOVYR HFN, VAP.                Cubar: (817)776-1755",
 
-        "VQ:T12111603",
+        "VQ:T12111603/221606/123",
         "CEV:2",
-        "QNGR:11/16/2012",
         "GVZR:18:46:06",
+        "QNGR:11/16/2012",
         "PNYY:SVER FGEHPGHE:Q",
         "NQQE:Pbxr Pg",
         "ZNC:145",
@@ -831,10 +831,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         " 5. Gur pnyyre unf abg vaqvpngrq gung gurer ner genccrq crefba(f).\a\a" +
         "Pbagnpg: NG&G ZBOVYVGL                     Cubar:",
 
-        "VQ:T12111601",
+        "VQ:T12111601/T12111601/221537/72",
         "CEV:2",
-        "QNGR:11/16/2012",
         "GVZR:12:52:47",
+        "QNGR:11/16/2012",
         "PNYY:SVER FGEHPGHE:Q",
         "NQQE:408 Fxlyvar Qe",
         "ZNC:254",
@@ -871,10 +871,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "onpn,inyrevr\a\a" +
         "Pbagnpg: onpn,inyrevr                      Cubar: (970)373-6447",
 
-        "VQ:V12111601",
+        "VQ:V12111601/V12111601/221480/21",
         "CEV:2",
-        "QNGR:11/16/2012",
         "GVZR:07:00:13",
+        "QNGR:11/16/2012",
         "PNYY:FZBXR URNIL:P",
         "NQQE:Ahoova Evqtr Pg",
         "ZNC:254",
@@ -917,10 +917,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "pnaabg frr nal synzrf be fzbxr, ohg fzryyf fbzrguvat\a\a" +
         "Pbagnpg: WBUAFBA,ERRPR QNYR                Cubar: (817)573-2110",
 
-        "VQ:Q12111502",
+        "VQ:Q12111502/Q12111502/221252/47",
         "CEV:3",
-        "QNGR:11/15/2012",
         "GVZR:08:43:45",
+        "QNGR:11/15/2012",
         "PNYY:NYNEZ ERFVQRA:O",
         "NQQE:9410 Oryyrpunfr Eq",
         "ZNC:257",
@@ -961,10 +961,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "WBUAFBA,ERRPR QNYR\a\a" +
         "Pbagnpg: WBUAFBA,ERRPR QNYR                Cubar: (817)573-2110",
 
-        "VQ:C12111501",
+        "VQ:C12111501/C12111501/221252/47",
         "CEV:3",
-        "QNGR:11/15/2012",
         "GVZR:08:40:15",
+        "QNGR:11/15/2012",
         "PNYY:NYNEZ ERFVQRA:O",
         "NQQE:9410 Oryyrpunfr Eq",
         "ZNC:257",
@@ -1002,10 +1002,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NABGURE PNYYRE EVPUNEQ YNZOREG 817-812-8724 NQI VG VF N FZNYY TENFF SVER RO\a\a" +
         "Pbagnpg:                                   Cubar: (   )   -",
 
-        "VQ:P12111301",
+        "VQ:P12111301/P12111301/220905/123",
         "CEV:3",
-        "QNGR:11/13/2012",
         "GVZR:19:11:41",
+        "QNGR:11/13/2012",
         "PNYY:SVER FZNYY:O",
         "NQQE:R HF Uvtujnl 377",
         "ZNQQE:R HF 377",
@@ -1049,10 +1049,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FPUZVQG,ZNEL\a\a" +
         "Pbagnpg: FPUZVQG,ZNEL                      Cubar: (817)559-3960",
 
-        "VQ:T12111301",
+        "VQ:T12111301/T12111301/220879/108",
         "CEV:3",
-        "QNGR:11/13/2012",
         "GVZR:16:08:48",
+        "QNGR:11/13/2012",
         "PNYY:FZBXR YVTUG:N",
         "NQQE:Zhfgnat Gey",
         "ZNC:245",
@@ -1096,10 +1096,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FPUZVQG,ZNEL\a\a" +
         "Pbagnpg: FPUZVQG,ZNEL                      Cubar: (817)559-3960",
 
-        "VQ:T12111301",
+        "VQ:T12111301/T12111301/220879/108",
         "CEV:3",
-        "QNGR:11/13/2012",
         "GVZR:16:08:48",
+        "QNGR:11/13/2012",
         "PNYY:FZBXR YVTUG:N",
         "NQQE:Zhfgnat Gey",
         "ZNC:245",
@@ -1136,10 +1136,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "pnearf,nznaqn\a\a" +
         "Pbagnpg: pnearf,nznaqn                     Cubar: (817)408-0432",
 
-        "VQ:A12111202",
+        "VQ:A12111202/A12111202/220722/111",
         "CEV:3",
-        "QNGR:11/12/2012",
         "GVZR:20:41:05",
+        "QNGR:11/12/2012",
         "PNYY:TNF YRNX/BQBE:O",
         "NQQE:Pbhagel Zrnqbjf Eq",
         "ZNC:263",
@@ -1182,10 +1182,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "crccrezna,wbr\a\a" +
         "Pbagnpg: crccrezna,wbr                     Cubar: (817)933-0539",
 
-        "VQ:V12111201",
+        "VQ:V12111201/V12111201/220669/71",
         "CEV:4",
-        "QNGR:11/12/2012",
         "GVZR:13:50:53",
+        "QNGR:11/12/2012",
         "PNYY:VYYRTNY OHEAVAT",
         "NQQE:3800 Fpravp Uvyy Ya & Pbagenel Perrx Eq",
         "ZNQQE:3800 Fpravp Uvyy Ya",
@@ -1216,10 +1216,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pbasvarq Fcnpr / Fgehpgher Pbyyncfr.\a\a" +
         "Pbagnpg: fuvyn                             Cubar: (817)929-7391",
 
-        "VQ:M12111105",
+        "VQ:M12111105/M12111105/220529/142",
         "CEV:2",
-        "QNGR:11/11/2012",
         "GVZR:19:12:39",
+        "QNGR:11/11/2012",
         "PNYY:SVER",
         "NQQE:227 F Pnqqb Fg",
         "K:Pnqqb",
@@ -1270,10 +1270,10 @@ choyvp pynff GKUbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "hanoyr gb er-rfgnoyvfu pbagnpg jvgu pnyyre\a\a" +
         "Pbagnpg: N W OEVAXREUBSS                   Cubar: (682)936-2223",
 
-        "VQ:T12111102",
+        "VQ:T12111102/T12111102/220516/129",
         "CEV:2",
-        "QNGR:11/11/2012",
         "GVZR:17:18:18",
+        "QNGR:11/11/2012",
         "PNYY:SVER FGEHPGHE:Q",
         "NQQE:1803 Vmncn Pg",
         "ZNC:254",

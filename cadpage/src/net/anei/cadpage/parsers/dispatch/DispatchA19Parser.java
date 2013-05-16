@@ -10,14 +10,14 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA19Parser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("(?:DISPATCH)?INCIDENT # ([A-Z0-9]+)");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("(?:DISPATCH)?INCIDENT # ([-,A-Z0-9]+)");
   private static final Pattern HASH_DELIM = Pattern.compile("(?<=[A-Z]) ?#(?= )");
   private static final Pattern FIELD_BREAK = Pattern.compile(" (ACTIVE CALL|REPORTED|Type|Zone|Phone):");
   private static final Pattern FIELD_DELIM = Pattern.compile(" *\n+ *");
   
   public DispatchA19Parser(String defCity, String defState) {
     super(defCity, defState,
-           "INCIDENT:ID? LONG_TERM_CAD:ID! ACTIVE_CALL:SKIP! PRIORITY:PRI! REPORTED:TIMEDATE! Nature:CALL! Type:SKIP! Address:ADDR! Zone:MAP! City:CITY! Responding_Units:UNIT! Directions:INFO! Comments:INFO! INFO+ Contact:NAME Phone:PHONE");
+           "INCIDENT:ID? LONG_TERM_CAD:ID! ACTIVE_CALL:ID! PRIORITY:PRI! REPORTED:TIMEDATE! Nature:CALL! Type:SKIP! Address:ADDR! Zone:MAP! City:CITY! Responding_Units:UNIT! Directions:INFO! Comments:INFO! INFO+ Contact:NAME Phone:PHONE");
 
   }
   
@@ -34,7 +34,7 @@ public class DispatchA19Parser extends FieldProgramParser {
   private class MyIdField extends IdField {
     @Override
     public void parse(String field, Data data) {
-      if (data.strCallId.length() == 0) data.strCallId = field;
+      data.strCallId = append(data.strCallId, "/", field);
     }
   }
   

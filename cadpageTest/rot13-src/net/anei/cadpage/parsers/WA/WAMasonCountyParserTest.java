@@ -64,7 +64,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "72 lb znyr erfcvengbel & ulcbgrafvir, nyreg, shyy pbqr, shyy gerngzrag\a\a" +
         "Pbagnpg: ez 3 orq 2                        Cubar: (360)426-1737",
 
-        "VQ:12-045978",
+        "VQ:12-5S4574,1/12-045978/47",
         "GVZR:11:58:49",
         "QNGR:12/25/12",
         "PNYY:OERNGUVAT",
@@ -98,7 +98,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "vf bxnl\a\a" +
         "Pbagnpg:                                   Cubar: (   )   -",
 
-        "VQ:12-045976",
+        "VQ:12-16S195,1/12-045976/45",
         "GVZR:11:43:01",
         "QNGR:12/25/2012",
         "PNYY:GENSSVP/GEAFCEG",
@@ -120,7 +120,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "sver nynez znyshapgvba, cneg jrag bss sbe ab nccnerag ernfba, jvyy abg erfrg\a\a" +
         "Pbagnpg: lrf                               Cubar: (360)427-0300",
 
-        "VQ:12-045971",
+        "VQ:12-5S4573/12-045971/40",
         "GVZR:11:16:36",
         "QNGR:12/25/12",
         "PNYY:31Q.SVER NYNEZ",
@@ -143,7 +143,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "nffvfg zbgbevfg\a\a" +
         "Pbagnpg:                                   Cubar: (   )   -",
 
-        "VQ:12-045975",
+        "VQ:12-6S0419/12-045975/44",
         "GVZR:11:28:12",
         "QNGR:12/25/12",
         "PNYY:29S.QVFNOYRQ",
@@ -166,7 +166,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "nzbhagf bs erq oybbq\a\a" +
         "Pbagnpg: ez 31 orq 1                       Cubar: (   )   -",
 
-        "VQ:12-045972",
+        "VQ:12-5S4572,1/12-045972/41",
         "GVZR:11:14:38",
         "QNGR:12/25/12",
         "PNYY:PURFG CNVA",
@@ -189,7 +189,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "bar pne bss gur ebnq va gur qvgpu, oyh 4qbbe pne, 1zv a bs 108\a\a" +
         "Pbagnpg:                                   Cubar: (360)463-8657",
 
-        "VQ:12-045970",
+        "VQ:12-4S1010,1/12-045970/39",
         "GVZR:10:53:15",
         "QNGR:12/25/12",
         "PNYY:GENSSVP/GEAFCEG",
@@ -219,7 +219,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "cre 460 juvgr pne ba gbc bire onax\a\a" +
         "Pbagnpg:                                   Cubar: (360)349-9544",
 
-        "VQ:12-045966",
+        "VQ:12-4S1009,1/12-045966/37",
         "GVZR:10:28:23",
         "QNGR:12/25/2012",
         "PNYY:GENSSVP/GEAFCEG",
@@ -244,7 +244,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "r46 ibyib j ba nepnqvn znebba\a\a" +
         "Pbagnpg: r46                               Cubar: (   )   -",
 
-        "VQ:12-045957",
+        "VQ:12-4S1008/12-045957/26",
         "GVZR:09:18:53",
         "QNGR:12/25/2012",
         "PNYY:GENSSVP/GEAFCEG",
@@ -269,7 +269,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "cbffvoyr frm abj..\a\a" +
         "Pbagnpg:                                   Cubar: (360)280-0334",
 
-        "VQ:12-045949",
+        "VQ:12-12S122,1/12-045949/21",
         "GVZR:08:29:00",
         "QNGR:12/25/2012",
         "PNYY:FGEBXR",
@@ -294,7 +294,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "cbffvoyr frm abj..\a\a" +
         "Pbagnpg:                                   Cubar: (   )   -",
 
-        "VQ:12-045949",
+        "VQ:12-R5241/12-045949/21",
         "GVZR:08:29:00",
         "QNGR:12/25/2012",
         "PNYY:FGEBXR",
@@ -317,7 +317,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "nccrnef gb or abawhel\a\a" +
         "Pbagnpg:                                   Cubar: (   )   -",
 
-        "VQ:12-045948",
+        "VQ:12-4S1007,1/12-045948/20",
         "GVZR:08:18:24",
         "QNGR:12/25/12",
         "PNYY:GENSSVP/GEAFCEG",
@@ -339,7 +339,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "4 lb znyr unf orra ibzvgvat rirel 30 zva naq unf unq qvneurn\a\a" +
         "Pbagnpg:                                   Cubar: (360)427-3869",
 
-        "VQ:12-045945",
+        "VQ:12-5S4571/12-045945/18",
         "GVZR:08:04:37",
         "QNGR:12/25/12",
         "PNYY:FVPX CREFBA",
@@ -362,7 +362,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "80 lb srznyr sryy, uvc cnva, hc va punve abj, OYF\a\a" +
         "Pbagnpg: ez 112                            Cubar: (   )   -",
 
-        "VQ:12-045941",
+        "VQ:12-5S4570,1/12-045941/15",
         "GVZR:07:01:17",
         "QNGR:12/25/12",
         "PNYY:SNYYF",
@@ -389,7 +389,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "s1216 nee vairfgvtngvat\a\a" +
         "Pbagnpg: LRF                               Cubar: (360)426-0392",
 
-        "VQ:12-045936",
+        "VQ:12-12S121/12-045936/12",
         "GVZR:05:47:18",
         "QNGR:12/25/2012",
         "PNYY:24V.FREIVPR",
@@ -416,7 +416,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ERDHRFGVAT FVYRAG NCCEBNPU\a\a" +
         "Pbagnpg: LRF                               Cubar: (360)275-2300",
 
-        "VQ:12-045937",
+        "VQ:12-2S1940/12-045937/13",
         "GVZR:05:50:39",
         "QNGR:12/25/2012",
         "PNYY:SNYYF",
@@ -441,7 +441,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZBAGU BYQ.\a\a" +
         "Pbagnpg: LRF                               Cubar: (360)426-0392",
 
-        "VQ:12-045936",
+        "VQ:12-12S121/12-045936/12",
         "GVZR:05:30:46",
         "QNGR:12/25/12",
         "PNYY:24V.FREIVPR",
@@ -465,7 +465,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNYR JVGU UK BS PBCQ. ABG FHER VS GUVF VF ERYNGRQ BE ABG. CG VF PBURERAG.\a\a" +
         "Pbagnpg: LRF                               Cubar: (360)275-0454",
 
-        "VQ:12-045935",
+        "VQ:12-3S0319,1/12-045935/11",
         "GVZR:05:24:44",
         "QNGR:12/25/12",
         "PNYY:FVPX CREFBA",
@@ -488,7 +488,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "vagresnpvyygl sebz ztu  gb fcu\a\a" +
         "Pbagnpg:                                   Cubar: (   )   -",
 
-        "VQ:12-045934",
+        "VQ:12-R5238/12-045934/10",
         "GVZR:05:03:18",
         "QNGR:12/25/12",
         "PNYY:GENAFSRE",
@@ -509,7 +509,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pbzzragf:\a\a\a" +
         "Pbagnpg:                                   Cubar: (   )   -",
 
-        "VQ:12-045932",
+        "VQ:12-5S4568,1/12-045932/9",
         "GVZR:04:11:34",
         "QNGR:12/25/12",
         "PNYY:URNEG CEBO/NVPQ",
@@ -533,7 +533,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NYGRERQ YBP\a\a" +
         "Pbagnpg: LRF                               Cubar: (360)426-9192",
 
-        "VQ:12-045927",
+        "VQ:12-4S1006,1/12-045927/5",
         "GVZR:02:52:11",
         "QNGR:12/25/2012",
         "PNYY:QVNORGVP FUBPX",
@@ -556,7 +556,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PUNEYVR ERFCBAFR SBE 67LB SRZNYR JVGU PURFG CNVAF NAQ UVTU OYBBQ CERFFHER.\a\a" +
         "Pbagnpg: LRF                               Cubar: (360)878-3426",
 
-        "VQ:12-045926",
+        "VQ:12-4S1005,1/12-045926/4",
         "GVZR:02:29:35",
         "QNGR:12/25/12",
         "PNYY:PURFG CNVA",
@@ -579,7 +579,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pbzzragf:\a\a\a" +
         "Pbagnpg: LRF                               Cubar: (360)427-3730",
 
-        "VQ:12-045925",
+        "VQ:12-12S120,1/12-045925/3",
         "GVZR:01:22:29",
         "QNGR:12/25/12",
         "PNYY:FVPX CREFBA",
@@ -608,7 +608,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "fjrngl\a\a" +
         "Pbagnpg:  Pbagnpg                          Cubar: (   )   -",
 
-        "VQ:12-045919",
+        "VQ:12-2S1939/12-045919/99",
         "GVZR:23:55:35",
         "QNGR:12/24/2012",
         "PNYY:FVPX CREFBA",
@@ -631,7 +631,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "vagresnpvyvgl sebz ztu gb nycvar\a\a" +
         "Pbagnpg:                                   Cubar: (   )   -",
 
-        "VQ:12-045915",
+        "VQ:12-R5233/12-045915/95",
         "GVZR:22:57:17",
         "QNGR:12/24/12",
         "PNYY:GENSSVP/GEAFCEG",
@@ -653,7 +653,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "68 lbs pnaabg jnyx, uk bs fgebxr\a\a" +
         "Pbagnpg: Pbagnpg Ncnegzrag R46             Cubar: (360)427-0418",
 
-        "VQ:12-045909",
+        "VQ:12-5S4567,1/12-045909/90",
         "GVZR:20:54:29",
         "QNGR:12/24/12",
         "PNYY:FGEBXR",
@@ -677,7 +677,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "22 LB ZNYR PURFG CNVAF.. PBAP NAQ OERNGUVAT.. HAXA ZRQ UVFGBEL\a\a" +
         "Pbagnpg: LRF                               Cubar: (360)426-4435",
 
-        "VQ:12-045913",
+        "VQ:12-R5232/12-045913/93",
         "GVZR:21:30:14",
         "QNGR:12/24/12",
         "PNYY:URNEG CEBOYRZ",
@@ -699,7 +699,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pbzzragf:\a\a\a" +
         "Pbagnpg:                                   Cubar: (   )   -",
 
-        "VQ:12-045912",
+        "VQ:12-2S1938/12-045912/92",
         "GVZR:21:27:18",
         "QNGR:12/24/12",
         "PNYY:OERNGUVAT",
@@ -719,7 +719,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pbzzragf:\a\a\a" +
         "Pbagnpg:                                   Cubar: (   )   -",
 
-        "VQ:12-045909",
+        "VQ:12-5S4567,1/12-045909/90",
         "GVZR:20:54:29",
         "QNGR:12/24/12",
         "PNYY:FGEBXR",
@@ -741,7 +741,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "cg riny vagbkvpngrq fhowrpg\a\a" +
         "Pbagnpg:                                   Cubar: (   )   -",
 
-        "VQ:12-045906",
+        "VQ:12-11S439,1/12-045906/87",
         "GVZR:20:39:22",
         "QNGR:12/24/12",
         "PNYY:FVPX CREFBA",
@@ -766,7 +766,7 @@ choyvp pynff JNZnfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "erd ynj gb nffvfg\a\a" +
         "Pbagnpg: nern pux                          Cubar: (360)426-4840",
 
-        "VQ:13-014553",
+        "VQ:13-5S1556/13-014553/16",
         "GVZR:06:34:21",
         "QNGR:05/06/2013",
         "PNYY:24.SVERF",

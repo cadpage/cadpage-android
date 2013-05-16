@@ -37,7 +37,7 @@ choyvp pynff BUUbyzrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pbzzragf:\a\a\a" +
         "Pbagnpg: Ynhen Znfg                        Cubar: (330)674-2981",
 
-        "VQ:102850",
+        "VQ:13RSQ0066,1/102850/24",
         "GVZR:15:17:19",
         "QNGR:05/06/13",
         "PNYY:SVER FGEHPGHER",
@@ -61,7 +61,7 @@ choyvp pynff BUUbyzrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Yrf Cbfrl, ntr 88 unf snyyra va gur qevirjnl\a\a" +
         "Pbagnpg: Unggra,Cnz                        Cubar: (330)279-4417",
 
-        "VQ:135300045",
+        "VQ:135300045/102836/10",
         "GVZR:10:17:26",
         "QNGR:05/06/13",
         "PNYY:FDHNQ EHA",
@@ -86,7 +86,7 @@ choyvp pynff BUUbyzrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pbzzragf:\a\a\a" +
         "Pbagnpg:                                   Cubar: (   )   -",
 
-        "VQ:13USQ0022",
+        "VQ:13USQ0022/102820/45",
         "GVZR:21:06:54",
         "QNGR:05/05/13",
         "PNYY:SVER NYY BGUREF",
