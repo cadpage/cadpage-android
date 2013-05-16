@@ -10,10 +10,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class MOStoneCountyParser extends SmartAddressParser {
   
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
+  private static final Pattern APT_PTN = Pattern.compile("^Apt: *([A-Z0-9]+) +Bldg\\b");
   
   public MOStoneCountyParser() {
     super("STONE COUNTY", "MO");
-    setFieldList("CALL ADDR APT PHONE X INFO");
+    setFieldList("CALL ADDR PHONE APT X INFO");
   }
   
   @Override
@@ -30,6 +31,27 @@ public class MOStoneCountyParser extends SmartAddressParser {
     } else {
       parseAddress(StartType.START_CALL, body, data);
       sInfo = getLeft();
+    }
+    
+    match = APT_PTN.matcher(sInfo);
+    if (match.find()) {
+      data.strApt = append(data.strApt, "-", match.group(1));
+      sInfo = sInfo.substring(match.end()).trim();
+      String bldg = null;
+      if (sInfo.length() <= 3) {
+        bldg = sInfo;
+        sInfo = "";
+      } else {
+        int pt = sInfo.indexOf(' ');
+        if (pt == 1) {
+          char chr = sInfo.charAt(0);
+          if ("NSEW".indexOf(chr) < 0) {
+            bldg = "" + chr;
+            sInfo = sInfo.substring(2).trim();
+          }
+        }
+      }
+      if (bldg != null) data.strApt = data.strApt + " Bldg " + bldg;
     }
     
     Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, sInfo);
