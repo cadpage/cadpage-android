@@ -633,9 +633,13 @@ public class FieldProgramParser extends SmartAddressParser {
     
     // Fourth pass to remove any remaining SKIP steps
     // We can't do this in the 2nd pass because a subsequent node might have
-    // tried to link back to it
+    // tried to link back to it.
+    // Additional complication. Hold on to skip fields following an optional
+    // tagged field.  They might be invoked to handle an untagged field.
+    boolean holdSkip = false;
     for (Step step : fieldSteps) {
-      step.removeSkip();
+      if (!holdSkip) step.removeSkip();
+      holdSkip = step.tag != null && step.optional;
     }
   }
   
