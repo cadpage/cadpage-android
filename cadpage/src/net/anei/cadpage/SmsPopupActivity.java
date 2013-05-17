@@ -152,9 +152,6 @@ public class SmsPopupActivity extends Safe40Activity {
     super.onPause();
     if (Log.DEBUG) Log.v("SMSPopupActivity: onPause()");
 
-    // Hide the soft keyboard in case it was shown via quick reply
-    hideSoftKeyboard();
-
 //    // Shutdown eyes-free TTS
 //    if (eyesFreeTts != null) {
 //      eyesFreeTts.shutdown();
@@ -654,19 +651,6 @@ public class SmsPopupActivity extends Safe40Activity {
 
     mainLL.setMinimumWidth(width);
     mainLL.invalidate();
-  }
-
-  /**
-   * Hide the soft keyboard
-   */
-  private void hideSoftKeyboard() {
-    if (inputView == null) return;
-    if (Log.DEBUG) Log.v("hideSoftKeyboard()");
-    if (inputManager == null) {
-      inputManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-    }
-    inputManager.hideSoftInputFromWindow(inputView.getApplicationWindowToken(), 0);
-    inputView = null;
   }
   
   /**
