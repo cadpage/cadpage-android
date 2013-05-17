@@ -23,6 +23,36 @@ public class NYSuffolkCountyXBaseParser extends FieldProgramParser {
 	    body = body.substring(3).trim();
 	    return parseFields(DELIM.split(body), data);
 	  }
+    
+    private static final Pattern ID_PTN = Pattern.compile("\\d{4}-\\d{6}");
+    private class BaseIdField extends IdField {
+      
+      private boolean allowPartial;
+      
+      public BaseIdField(boolean allowPartial) {
+        this.allowPartial = allowPartial;
+      }
+      
+      @Override
+      public boolean checkParse(String field, Data data) {
+        Matcher match = ID_PTN.matcher(field);
+        if (match.matches()) {
+          super.parse(field, data);
+          return true;
+        }
+        
+        // OK, this isn't valid, but we check to see if we allow
+        // truncated TOA fields
+        if (!allowPartial || field.length() == 0) return false;
+        if (getRelativeField(+1).length() > 0) return false;
+        return "NNNN-NNNNNN".startsWith(field.replaceAll("\\d", "N"));
+      }
+      
+      @Override
+      public void parse(String field, Data data) {
+        if (!checkParse(field, data)) abort();
+      }
+    }
 	  
 	  private static final Pattern TOA_PTN = Pattern.compile("\\d\\d:\\d\\d \\d\\d-\\d\\d-\\d\\d");
 	  private class TOAField extends TimeDateField {
@@ -57,7 +87,8 @@ public class NYSuffolkCountyXBaseParser extends FieldProgramParser {
     @Override
     protected Field getField(String name) {
       if (name.equals("CODE")) return new CodeField("\\d{1,2}-[A-Z]-\\d{1,2}[A-Z]?", true);
-      if (name.equals("ID")) return new IdField("\\d{4}-\\d{6}", true);
+      if (name.equals("ID")) return new BaseIdField(false);
+      if (name.equals("IDP")) return new BaseIdField(true);
       if (name.equals("TOA")) return new TOAField(false);
       if (name.equals("TOAP")) return new TOAField(true);
       return super.getField(name);
