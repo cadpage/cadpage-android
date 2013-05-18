@@ -374,6 +374,7 @@ public class MsgInfo {
   private static final Pattern UK_POST_CODE_PTN = Pattern.compile("^[A-Z]{1,2}\\d{1,2}[A-Z]? \\d[A-Z]{2} +");
   private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O |(?: JUST)? (?:[NSEW]|NORTH|SOUTH|EAST|WEST) OF ", Pattern.CASE_INSENSITIVE);
   private static final Pattern CROSS_DELIM = Pattern.compile("(?<=..)[&/,@]| - | AND ", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DEAD_END_PTN = Pattern.compile("END OF .*|DEAD END", Pattern.CASE_INSENSITIVE);
   public String getBaseMapAddress(int useGPSOption) {
     
     // If we do not have an address, return the GPS coordinates
@@ -442,17 +443,21 @@ public class MsgInfo {
           sCross = sCross.substring(0,match.start()).trim();
           if (sCross.equals(sAddr)) sCross = strCross.substring(match.end()).trim(); 
         }
-        if (parser != null) sCross = parser.adjustMapAddress(sCross, true);
-        sCross = cleanParens(sCross);
-        sCross = cleanStreetSuffix(sCross);
-        sCross = cleanBounds(sCross);
-        sCross = cleanRoutes(sCross);
-        sCross = cleanDoubleRoutes(sCross);
-        sCross = cleanInterstate(sCross);
-        sCross = cleanOffRamp(sCross);
-        sCross = cleanSTRoutes(sCross);
-        sCross = sCross.trim();
-        if (sCross.length() > 0) sAddr = prefix + sAddr + " & " + sCross;
+        
+        // Don't use DEAD END or like phrases
+        if (!DEAD_END_PTN.matcher(sCross).matches()) {
+          if (parser != null) sCross = parser.adjustMapAddress(sCross, true);
+          sCross = cleanParens(sCross);
+          sCross = cleanStreetSuffix(sCross);
+          sCross = cleanBounds(sCross);
+          sCross = cleanRoutes(sCross);
+          sCross = cleanDoubleRoutes(sCross);
+          sCross = cleanInterstate(sCross);
+          sCross = cleanOffRamp(sCross);
+          sCross = cleanSTRoutes(sCross);
+          sCross = sCross.trim();
+          if (sCross.length() > 0) sAddr = prefix + sAddr + " & " + sCross;
+        }
       }
     
       // If that didn't work, lets hope a place name will be enough

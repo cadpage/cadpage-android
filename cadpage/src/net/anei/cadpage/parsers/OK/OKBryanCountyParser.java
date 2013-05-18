@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 public class OKBryanCountyParser extends DispatchB2Parser {
   
-  private static final Pattern PTN_CODE = Pattern.compile("0:[A-Z]+ ?>");
+  private static final Pattern PTN_CODE = Pattern.compile("0:[-/A-Z]+ ?>");
   
   public OKBryanCountyParser() {
     this("BRYAN COUNTY", "OK");

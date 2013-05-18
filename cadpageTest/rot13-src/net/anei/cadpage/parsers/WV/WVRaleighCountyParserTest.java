@@ -326,8 +326,8 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "ENYRVTU911:GERRQ >GERR QBJA PBNY EVIRE EQ JUVGRFIVYYR J\\ROO, DHVAPL Znc: Tevqf:00000,000 Pnq: 2013-0000024894",
-        "PNYY:GERR QBJA PBNY",
-        "NQQE:EVIRE EQ",
+        "PNYY:GERR QBJA",
+        "NQQE:PBNY EVIRE EQ",
         "PVGL:JUVGRFIVYYR",  // Abg npghnyyl va Juvgrfivyyr
         "ANZR:J\\ROO, DHVAPL",
         "VQ:2013-0000024894");
@@ -342,9 +342,9 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G3",
         "ENYRVTU911:SVERN >SVER NYNEZ OBBAR PBHAGL OBBAR OBBAR PB 911 Znc: Tevqf:, Pnq: 2013-0000023549",
-        "PNYY:SVER NYNEZ OBBAR PBHAGL OBBAR OBBAR",
-        "NQQE:PB 911",
-        "ZNQQE:PBHAGL EBNQ 911",
+        "PNYY:SVER NYNEZ",
+        "NQQE:OBBAR PBHAGL OBBAR OBBAR PB 911",
+        "ZNQQE:OBBAR PBHAGL OBBAR OBBAR PBHAGL EBNQ 911",
         "VQ:2013-0000023549");
 
     qbGrfg("G4",

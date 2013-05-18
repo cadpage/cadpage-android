@@ -742,7 +742,6 @@ choyvp pynff QRFhffrkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2012-017726",
         "FEP:78NF3",
         "NQQE:R Znexrg Fg",
-        "ZNQQE:R Znexrg Fg & Qrnq Raq",
         "CYNPR:Lbqre'f Znexrg",
         "PVGL:TERRAJBBQ",
         "PNYY:Noqbzvany Cnva-OYF",

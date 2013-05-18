@@ -239,7 +239,6 @@ choyvp pynff CNQnhcuvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[!] Obk:54-9 Ybp:FHFDHRUNAAN EVIRE YQG QNHC KFgf:QRNQ RAQ ,HCNFF Rirag Glcr:JNGRE ERFPHR (FJVSG, FGVYY, VPR) UHZNA(F) Pynff: 1 Qvfc: J54,J88,R54",
         "OBK:54-9",
         "NQQE:FHFDHRUNAAN EVIRE",
-        "ZNQQE:FHFDHRUNAAN EVIRE & QRNQ RAQ",
         "PVGL:YBAQBAQREEL GJC",
         "K:QRNQ RAQ / HCNFF",
         "PNYY:JNGRE ERFPHR (FJVSG, FGVYY, VPR) UHZNA(F)",

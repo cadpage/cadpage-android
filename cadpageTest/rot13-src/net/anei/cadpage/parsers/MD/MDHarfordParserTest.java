@@ -290,9 +290,8 @@ choyvp pynff ZQUnesbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G6",
         "(UPPNQ) [!] RBP:R11 ZHGOP >ZHG NVQ ONYGB PB OPB 48-4 12652 SBEX EQ Pnq: 2012-0000153395",
         "HAVG:R11",
-        "PNYY:ZHG NVQ ONYGB PB OPB",
-        "NQQE:48-4 12652 SBEX EQ",
-        "ZNQQE:48 12652 SBEX EQ",
+        "PNYY:ZHG NVQ",
+        "NQQE:ONYGB PB OPB 48-4 12652 SBEX EQ",
         "VQ:2012-0000153395");
 
     qbGrfg("G7",
@@ -389,9 +388,8 @@ choyvp pynff ZQUnesbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G16",
         "(UPPNQ) [!] RBP:R11 ZHGOP >ZHG NVQ ONYGB PB OP 38-23 5 YNHERY ZVYY PG Pnq: 2012-0000155581",
         "HAVG:R11",
-        "PNYY:ZHG NVQ ONYGB PB OP",
-        "NQQE:38-23 5 YNHERY ZVYY PG",
-        "ZNQQE:38 5 YNHERY ZVYY PG",
+        "PNYY:ZHG NVQ",
+        "NQQE:ONYGB PB OP 38-23 5 YNHERY ZVYY PG",
         "VQ:2012-0000155581");
 
     qbGrfg("G17",
@@ -494,9 +492,9 @@ choyvp pynff ZQUnesbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G27",
         "(UPPNQ) [!] RBP:R11 ZHGOP >ZHG NVQ ONYGB PB OPZO 38-11 13330 YBAT TERRA CV Pnq: 2012-0000156882",
         "HAVG:R11",
-        "PNYY:ZHG NVQ ONYGB PB OPZO",
-        "NQQE:38-11 13330 YBAT TERRA CV",
-        "ZNQQE:38 13330 YBAT TERRA CVXR",
+        "PNYY:ZHG NVQ",
+        "NQQE:ONYGB PB OPZO 38-11 13330 YBAT TERRA CV",
+        "ZNQQE:ONYGB PB OPZO 38-11 13330 YBAT TERRA CVXR",
         "VQ:2012-0000156882");
 
     qbGrfg("G28",
@@ -514,6 +512,6 @@ choyvp pynff ZQUnesbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZQUnesbeqCnefreGrfg().trarengrGrfgf("G1", "HAVG PNYY NQQE NCG K PVGL CYNPR VASB ANZR OBK VQ");
+    arj ZQUnesbeqCnefreGrfg().trarengrGrfgf("G1");
   }
 }

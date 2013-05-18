@@ -25,7 +25,11 @@ public class PACrawfordCountyParser extends DispatchBParser {
     if (!subject.contains(">")) return false;
     if (!body.startsWith("OESCAD:")) return false;
     body = subject + " " + body.substring(7).trim();
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.toUpperCase().endsWith(" BORO")) {
+      data.strCity = data.strCity.substring(0,data.strCity.length()-5).trim();
+    }
+    return true;
   }
   
   private static final String[] CITY_LIST = new String[]{
@@ -33,6 +37,9 @@ public class PACrawfordCountyParser extends DispatchBParser {
     // Cities
     "MEADVILLE",
     "TITUSVILLE",
+    
+    "MEADVILLE CITY",
+    "TITUSVILLE CITY",
     
     // Boroughs
     "BLOOMING VALLEY",
@@ -49,7 +56,22 @@ public class PACrawfordCountyParser extends DispatchBParser {
     "TOWNVILLE",
     "VENANGO",
     "WOODCOCK",
-    
+
+    "BLOOMING VALLEY BORO",
+    "CAMBRIDGE SPRINGS BORO",
+    "CENTERVILLE BORO",
+    "CONNEAUT LAKE BORO",
+    "CONNEAUTVILLE BORO",
+    "COCHRANTON BORO",
+    "HYDETOWN BORO",
+    "LINESVILLE BORO",
+    "SAEGERTOWN BORO",
+    "SPARTANSBURG BORO",
+    "SPRINGBORO BORO",
+    "TOWNVILLE BORO",
+    "VENANGO BORO",
+    "WOODCOCK BORO",
+
     // Townships
     "ATHENS TWP",
     "BEAVER TWP",

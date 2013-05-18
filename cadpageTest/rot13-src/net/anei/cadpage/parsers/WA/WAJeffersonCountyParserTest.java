@@ -39,7 +39,6 @@ choyvp pynff JNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:OYF",
         "HAVG:N51",
         "NQQE:OX=(36",
-        "ZNQQE:OX=(36 & QRNQ RAQ",
         "K:QRNQ RAQ / PNFFREYNEL EBNQ RKG, ZVFGL EVQTR EQ",
         "QNGR:09/06/12",
         "GVZR:20:27",

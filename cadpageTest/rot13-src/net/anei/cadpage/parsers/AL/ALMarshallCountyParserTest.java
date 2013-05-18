@@ -352,7 +352,8 @@ choyvp pynff NYZnefunyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "911-PRAGRE:F/FZBX>FZRYY BS FZBXR 710 R ZNAA NIR OBNM Znc: Tevqf:00000,000",
-        "PNYY:F/FZBX>FZRYY BS FZBXR",
+        "PBQR:F/FZBX",
+        "PNYY:FZRYY BS FZBXR",
         "NQQE:710 R ZNAA NIR",
         "PVGL:OBNM");
 
@@ -387,7 +388,8 @@ choyvp pynff NYZnefunyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G7",
         "911-PRAGRE:FVPCRE>FVPX CREFBA OBNM SVER FGN ERFPHR 1",
         "PBQR:FVPCRE",
-        "PNYY:FVPX CREFBA OBNM SVER FGN ERFPHR 1");
+        "PNYY:FVPX CREFBA",
+        "NQQE:OBNM SVER FGN ERFPHR 1");
 
     qbGrfg("G8",
         "911-PRAGRE:FGEBXR>FGEBXR(PIN) 201 ZBHAG IREABA UBZRF OBNM NG&G ZBOVYVGL Znc: Tevqf:00000,000",

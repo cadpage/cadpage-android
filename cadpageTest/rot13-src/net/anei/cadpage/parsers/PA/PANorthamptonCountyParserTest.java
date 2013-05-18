@@ -375,7 +375,7 @@ choyvp pynff CNAbegunzcgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Gryy n sevraq/pb-jbexre nobhg Abegunzcgba Pbhagl Nyreg Argjbex! Sbejneq guvf zrffntr gb gurz naq unir gurz ertvfgre sbe guvf serr freivpr ng jjj.abgvslap.bet ",
 
         "HAVG:s32",
-        "PNYY:SVER GENAFSBEZRE/JVERF",
+        "PNYY:SVER GENAFSBEZRE / JVERF",
         "NQQE:300 A FPUNAPX NIR",
         "ANZR:- OYX BS PENVT XHFGRE",
         "VQ:2012-0000234655");

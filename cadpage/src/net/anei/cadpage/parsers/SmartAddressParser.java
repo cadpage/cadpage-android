@@ -583,6 +583,7 @@ public abstract class SmartAddressParser extends MsgParser {
   }
   
   private static final Pattern DOT_PATTERN = Pattern.compile("\\.(?!\\d)");
+  private static final Pattern ADDR_START_PTN = Pattern.compile("^(?:@|AT |REPORTED AT )", Pattern.CASE_INSENSITIVE);
   private Result parseAddressInternal(StartType sType, int flags, String address) {
     this.flags = flags;
     lastCity = -1;
@@ -601,8 +602,8 @@ public abstract class SmartAddressParser extends MsgParser {
         // line, and set the start type to start with the address
         result.callPrefix = address.substring(0,call.length());
         address = address.substring(call.length()).trim();
-        if (address.startsWith("@")) address = address.substring(2).trim();
-        if (address.startsWith("REPORTED AT ")) address = address.substring(12).trim();
+        Matcher match = ADDR_START_PTN.matcher(address);
+        if (match.find()) address = address.substring(match.end()).trim();
         sType = (sType == StartType.START_CALL_PLACE ? StartType.START_PLACE : StartType.START_ADDR);
         this.flags &= ~FLAG_START_FLD_REQ;
       }

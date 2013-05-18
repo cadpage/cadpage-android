@@ -192,8 +192,8 @@ choyvp pynff BXOelnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G3",
         "0:SVERK SVER RKCYBFVBA ZRNQ PRZRGERL EQ 9186918950",
         "PBQR:SVERK",
-        "PNYY:SVER RKCYBFVBA ZRNQ",
-        "NQQE:PRZRGERL EQ",
+        "PNYY:SVER RKCYBFVBA",
+        "NQQE:ZRNQ PRZRGERL EQ",
         "CUBAR:9186918950");
 
     qbGrfg("G4",
@@ -642,7 +642,8 @@ choyvp pynff BXOelnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G20",
         "0:JNAG/S>JNEENAG FREIVPR / SRYBAL 1317 A 6GU NIR QHENAG Znc: Tevqf:0,0 Pnq: 2013-0000013169",
-        "PNYY:JNAG/S>JNEENAG >FREIVPR/SRYBAL",
+        "PBQR:JNAG/S",
+        "PNYY:JNEENAG FREIVPR / SRYBAL",
         "NQQE:1317 A 6GU NIR",
         "PVGL:QHENAG",
         "VQ:2013-0000013169");
@@ -952,7 +953,10 @@ choyvp pynff BXOelnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G64",
         "0:ZIP >ZBGBE IRUVPYR PBYYVFVBA 9GU & ZNVA QHENAG GBZZL QNIVF 9034561459 Pnq: 2013-0000012871",
         "PBQR:ZIP",
-        "PNYY:ZBGBE IRUVPYR PBYYVFVBA 9GU & ZNVA QHENAG GBZZL QNIVF",
+        "PNYY:ZBGBE IRUVPYR PBYYVFVBA",
+        "NQQE:9GU & ZNVA",
+        "PVGL:QHENAG",
+        "ANZR:GBZZL QNIVF",
         "CUBAR:9034561459",
         "VQ:2013-0000012871");
 

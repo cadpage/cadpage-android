@@ -303,7 +303,6 @@ choyvp pynff ZQFnvagZnelfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:15:07:57",
         "PNYY:Fvpx Crefba",
         "NQQE:JVYYBJF EQ",
-        "ZNQQE:JVYYBJF EQ & QRNQ RAQ",
         "K:QRNQ RAQ",
         "CYNPR:46656 SYBJRE BS GUR SBERFG EQ",
         "PVGL:YRKVATGBA CNEX",
