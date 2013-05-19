@@ -7,7 +7,7 @@ public class NYSuffolkCountyFParser extends NYSuffolkCountyXBaseParser {
   
     public NYSuffolkCountyFParser() {
       super("SUFFOLK COUNTY", "NY",
-             "CALL! TOA:TOA! CODE ADDR! CS:X IDP! INFO+");
+             "CALL! TOA:TOA! CODE ADDR! CS:X? IDP! INFO+");
     }
     
     @Override

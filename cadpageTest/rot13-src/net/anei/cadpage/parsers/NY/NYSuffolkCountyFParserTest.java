@@ -19,6 +19,7 @@ Fraqre: Cntvat1@svererfphrflfgrzf.kbubfg.pbz
 ** 16 Erfphr \e\a** GBN: 11:23 05-12-13 \e\a** 21-O-1 \e\a** 53 UBJNEQ FG\e\a** PF: FLYINA QE / BNXJBBQ QE \e\a** 2013-000382 \e\a** ECQ 203\e\aABFR OYRRQ\e\aA
 ** 16 Erfphr \e\a** GBN: 10:43 05-12-13 \e\a** 30-O-1 \e\a** 703 SERFU CBAQ NI\e\a** PF: 1FG FG / 8GU FG \e\a** 2013-000381 \e\a** UVC VAWHEL\e\aAhzore bs cn
 ** ZI Zbgbe Iruvpyr Nppvqrag \a** GBN: 06:21 05-17-13 \a** 29-Q-4 \a** JNQVAT EVIRE ZNABE EQ\a** PF: EG 25N / JNQVAT EVIRE ZNABE EQ \a** 2013-0
+** 16 Erfphr \a** GBN: 11:58 05-17-13 \a** 31-P-2 \a** AO JVYYVNZ SYBLQ CXJL** 2013-000395 \a** N/Z\a** YBV frnepu pbzcyrgrq ng 05/17/13 11:50:
 
  */
 
@@ -234,6 +235,23 @@ choyvp pynff ALFhssbyxPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:JNQVAT EVIRE ZNABE EQ",
         "ZNQQE:JNQVAT EVIRE ZNABE EQ & EG 25N",
         "K:EG 25N / JNQVAT EVIRE ZNABE EQ");
+
+    qbGrfg("G12",
+        "** 16 Erfphr \a" +
+        "** GBN: 11:58 05-17-13 \a" +
+        "** 31-P-2 \a" +
+        "** AO JVYYVNZ SYBLQ CXJL** 2013-000395 \a" +
+        "** N/Z\a" +
+        "** YBV frnepu pbzcyrgrq ng 05/17/13 11:50:",
+
+        "PNYY:16 Erfphr",
+        "GVZR:11:58",
+        "QNGR:05/17/13",
+        "PBQR:31-P-2",
+        "NQQE:AO JVYYVNZ SYBLQ CXJL",
+        "ZNQQE:JVYYVNZ SYBLQ CXJL",
+        "VQ:2013-000395",
+        "VASB:N/Z / YBV frnepu pbzcyrgrq ng 05/17/13 11:50:");
 
   }
   
