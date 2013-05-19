@@ -43,6 +43,7 @@ public class WICalumetCountyAParser extends DispatchPrintrakParser {
       "CMCK", "KIEL",
       "CMCN", "NEW HOLSTEIN",
       "CMCT", "CHARLESTOWN",
+      "CMHV", "HARRISON",
       "CMTB", "BRILLION",
       "CMSV", "SHERWOOD",
       "CMTH", "HARRISON",
