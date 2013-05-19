@@ -39,6 +39,7 @@ Fraqre: cntvat@rnfgunirasver.pbz
 1100004625 PUNEYVR ZRQVPNY GS4N 00038 GNYZNQTR NIR Cerz Znc -3 CC165 CBAQ FG/QRNQ RAQ (Cerz Znc -3 CC165) E1 111016 22:00
 1100004612 NYCUN ZRQVPNY 01270 ABEGU UVTU FG Cerz Znc -14 CC 63 PBEOVA EQ/ZNCYR FG F5 111015 21:49
 1100004608 QRYGN ZRQVPNY GS1 00152 XVZOREYL NIR Znc -7 CNEQRR CY/XVZOREYL NIR E1 111015 19:03
+1300002345 PUNEYVR ZRQVPNY 00082 RYYVBG FG  Cerz Znc -3  CC 16 URAEL FG/UBBC CBYR YN   E1 R4 130517 09:47
 
 Snezvatgba, PG (va Unegsbeq pbhagl)
 Pbagnpg: "W. Arirf" <warirf@rssq.bet>
@@ -277,6 +278,18 @@ choyvp pynff PGArjUniraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:E1",
         "QNGR:10/15/11",
         "GVZR:19:03");
+
+    qbGrfg("G8",
+        "1300002345 PUNEYVR ZRQVPNY 00082 RYYVBG FG  Cerz Znc -3  CC 16 URAEL FG/UBBC CBYR YN   E1 R4 130517 09:47",
+        "VQ:1300002345",
+        "PNYY:PUNEYVR ZRQVPNY",
+        "NQQE:82 RYYVBG FG",
+        "ZNC:3 CC 16",
+        "K:URAEL FG / UBBC CBYR YN",
+        "HAVG:E1 R4",
+        "QNGR:05/17/13",
+        "GVZR:09:47");
+    
   }
   
   @Grfg
