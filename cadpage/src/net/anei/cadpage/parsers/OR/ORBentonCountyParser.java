@@ -24,6 +24,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
     // Now for some special fixes to work around Dispatch map issues
     if (data.strCity.equals("PHILOMATH")) {
       data.strAddress = data.strAddress.replace("MELVILL CRESCENT AV","MELVILL CRESCENT");
+      data.strAddress = data.strAddress.replace("MCCORMICK", "MC CORMICK");
       String tmp = data.strAddress.toUpperCase();
       for (String badRoad : NOT_IN_PHILOMATH) {
         if (tmp.contains(badRoad)) {
