@@ -80,6 +80,7 @@ Fraqre: PbzzPragre@pprzf.pbz
 Pbagnpg: yivfarnh <yivfarnh@lnubb.pbz>
 Fraqre: PbzzPragre@pprzf.pbz
  1 bs 2\aSEZ:PbzzPragre@pprzf.pbz\aZFT:05/17 03:13 20840 XNGL SEJL JO-UP, GRKNF EBNQUBHFR; Znc:486O- Fho: Ang:52P03F-SVER NYNEZ - PBZZREPVNY\a(Pba'g) 2 bs 2\aHavgf:JISQ FD42 K-Fg:A JRFGTERRA OYIQ CEVPR CY 201320282(Raq)
+ 1 bs 2\aSEZ:PbzzPragre@pprzf.pbz\aZFT:05/18 13:11 19011 LBHCBA UVYY PG-UP, ; Znc:446E- Fho: Ang:17-VAWHERQ CREFBA SEBZ N SNYY Havgf:N42 FD42\a(Pba'g) 2 bs 2\aK-Fg:JNYAHG XABYY JNL 201320496(Raq)
 
 Pbagnpg: Npgvir911.pbz
 Fraqre: <PbzzPragre@pprzf.pbz>
@@ -600,6 +601,22 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:JISQ FD42",
         "K:A JRFGTERRA OYIQ / CEVPR CY",
         "VQ:201320282");
+
+    qbGrfg("G1",
+        " 1 bs 2\a" +
+        "SEZ:PbzzPragre@pprzf.pbz\a" +
+        "ZFT:05/18 13:11 19011 LBHCBA UVYY PG-UP, ; Znc:446E- Fho: Ang:17-VAWHERQ CREFBA SEBZ N SNYY Havgf:N42 FD42\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "K-Fg:JNYAHG XABYY JNL 201320496(Raq)",
+
+        "QNGR:05/18",
+        "GVZR:13:11",
+        "NQQE:19011 LBHCBA UVYY PG",
+        "ZNC:446E-",
+        "PNYY:17-VAWHERQ CREFBA SEBZ N SNYY",
+        "HAVG:N42 FD42",
+        "K:JNYAHG XABYY JNL",
+        "VQ:201320496");
 
   }
     

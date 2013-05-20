@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -16,7 +17,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ALShelbyCountyParser extends FieldProgramParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("(?:SHELBY(?: ?911)? )?ARNS ALERT");
-  private static final String MARKER = "SHELBY ARNS ALERT / ";
+  private static final Pattern MARKER_PTN = Pattern.compile("^(?:SHELBY )?ARNS ALERT / ");
   
   public ALShelbyCountyParser() {
     super("SHELBY COUNTY", "AL",
@@ -32,9 +33,10 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     do {
       if (SUBJECT_PTN.matcher(subject).matches()) break;
-      
-      if (body.startsWith(MARKER)) {
-        body = body.substring(MARKER.length()).trim();
+
+      Matcher  match = MARKER_PTN.matcher(body);
+      if(match.find()) {
+        body = body.substring(match.end()).trim();
         break;
       }
       
@@ -83,8 +85,10 @@ public class ALShelbyCountyParser extends FieldProgramParser {
       if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
       int pt = field.indexOf('@');
       if (pt >= 0) {
-        data.strCross = field.substring(pt+1).trim();
+        String cross = field.substring(pt+1).trim();
         field = field.substring(0,pt).trim();
+        if (cross.startsWith("/")) cross = cross.substring(1).trim();
+        data.strCross = cross;
       }
       super.parse(field, data);
     }

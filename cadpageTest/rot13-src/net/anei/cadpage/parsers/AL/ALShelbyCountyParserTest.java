@@ -18,6 +18,7 @@ Fraqre: neaf@furyol911.bet
 Pbagnpg: Xneel Wbarf <xwbarf.sversvtugre@tznvy.pbz>
 Fraqre: neaf@furyol911.bet
 FURYOL NEAF NYREG / 3/1/2013 4:21:52 CZ\aSVER1303698\aFHZZREUVY - FGN1\aOERNGUVAT-\a\a19723 25 UJL @  / \a\aIREVMBA JVERYRFF\a
+NEAF NYREG / 5/17/2013 5:10:43 CZ\aSVER1308727\aFHZZREUVY - FGN1\aFGEBXR-\a\a317 343 UJL @  / 70 UJL
 
 Pbagnpg: pnt222 <pnt222@oryyfbhgu.arg>
 Fraqre: neaf@furyolny.pbz
@@ -261,6 +262,17 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:OERNGUVAT",
         "NQQE:19723 25 UJL",
         "ZNQQE:19723 UJL 25");
+
+    qbGrfg("G2",
+        "NEAF NYREG / 5/17/2013 5:10:43 CZ\aSVER1308727\aFHZZREUVY - FGN1\aFGEBXR-\a\a317 343 UJL @  / 70 UJL",
+        "QNGR:5/17/2013",
+        "GVZR:17:10:43",
+        "VQ:SVER1308727",
+        "FEP:FHZZREUVY - FGN1",
+        "PNYY:FGEBXR",
+        "NQQE:317 343 UJL",
+        "ZNQQE:317 UJL 343",
+        "K:70 UJL");
 
   }
   
@@ -1520,7 +1532,7 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:JRFGBPVGL - FGN290",
         "PNYY:BO",
         "NQQE:137 YBIR YA",
-        "K:/ FUNECR FG");
+        "K:FUNECR FG");
 
     qbGrfg("G11",
         "(FURYOL NEAF NYREG) 3/30/2013 3:52:19 CZ\a" +
