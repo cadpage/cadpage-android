@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class NYSuffolkCountyXBaseParser extends FieldProgramParser {
   
-  private static final Pattern DELIM = Pattern.compile("\\*\\* ");
+  private static final Pattern DELIM = Pattern.compile("\\*\\* |\n\\*\\*");
   
     public NYSuffolkCountyXBaseParser(String defCity, String defState, String program) {
       super(defCity, defState, program);
@@ -21,6 +21,7 @@ public class NYSuffolkCountyXBaseParser extends FieldProgramParser {
 	  protected boolean parseMsg(String body, Data data) {
 	    if (!body.startsWith("** ")) return false;
 	    body = body.substring(3).trim();
+	    if (body.endsWith("**")) body = body.substring(0, body.length()-2).trim();
 	    return parseFields(DELIM.split(body), data);
 	  }
     
@@ -83,6 +84,14 @@ public class NYSuffolkCountyXBaseParser extends FieldProgramParser {
 	      if (!checkParse(field, data)) abort();
 	    }
 	  }
+	  
+	  private class MyInfoField extends InfoField {
+	    @Override
+	    public void parse(String field, Data data) {
+	      if (field.equals(data.strCode)) return;
+	      super.parse(field, data);
+	    }
+	  }
 
     @Override
     protected Field getField(String name) {
@@ -91,6 +100,7 @@ public class NYSuffolkCountyXBaseParser extends FieldProgramParser {
       if (name.equals("IDP")) return new BaseIdField(true);
       if (name.equals("TOA")) return new TOAField(false);
       if (name.equals("TOAP")) return new TOAField(true);
+      if (name.equals("INFO")) return new MyInfoField();
       return super.getField(name);
     }
 	  

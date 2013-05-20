@@ -3,13 +3,6 @@ support@cadpage.org
 
 ******************************************************************
 
-This problem has been fixed in the beta release that you can install from  http://www.cadpage.org/download-cadpage/
-
-Sorry for the inconvenience,
--Ken
-
-******************************************************************
-
 Those are coming from CodeMessaging, and CodeMessaging has been
 switching their dispatch pages to usfe one of our standard formats.
 
@@ -567,6 +560,13 @@ This will be fixed in the next release.
 Weekly releases are generally published every Sunday evening.  If you want it earlier than that this should be in beta release at http://www.cadpage.org/download-cadpage tomorrow morning.
 
 Have a nice day,
+-Ken
+
+******************************************************************
+
+This problem has been fixed in the beta release that you can install from  http://www.cadpage.org/download-cadpage/
+
+Sorry for the inconvenience,
 -Ken
 
 ******************************************************************
