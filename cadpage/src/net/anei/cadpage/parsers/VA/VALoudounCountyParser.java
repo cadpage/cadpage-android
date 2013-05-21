@@ -15,7 +15,6 @@ public class VALoudounCountyParser extends FieldProgramParser {
   private static final Pattern MISSING_COMMA_PTN = Pattern.compile("(?<!,) (?=APT:|X-ST:|BOX:|ADC:|FDID:)");
   private static final Pattern TRAILER_PTN = Pattern.compile(" +(?:(\\d\\d?:\\d\\d? +[AP]M)|\\[\\d*\\]?)$");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm aa");
-  private static final Pattern CROSS_UNIT_PTN = Pattern.compile(" +([A-Z]+\\d+[A-Z]?(?: *[A-Z]+\\d+[A-Z]?)*),?$");
   
   public VALoudounCountyParser() {
     super(CITY_CODES, "LOUDOUN COUNTY", "VA",
@@ -51,15 +50,6 @@ public class VALoudounCountyParser extends FieldProgramParser {
 
     // Invoke the main parser
     if (! super.parseFields(body.split(","), data)) return false;
-    
-    // The newer format lacks a comma between the cross street an unit fields
-    // If we did not find a unit field, try splitting units off from the
-    // cross street
-    match = CROSS_UNIT_PTN.matcher(data.strCross);
-    if (match.find()) {
-      data.strUnit = match.group(1);
-      data.strCross = data.strCross.substring(0,match.start());
-    }
     return true;
   }
   
@@ -85,9 +75,39 @@ public class VALoudounCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern CROSS_UNIT_PTN = Pattern.compile("(?:(?: +|^)(?:[A-Z]+\\d+[A-Z]?|CODE|EC|AC))+,?$");
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // The newer format lacks a comma between the cross street an unit fields
+      // If we did not find a unit field, try splitting units off from the
+      // cross street
+      Matcher match = CROSS_UNIT_PTN.matcher(field);
+      if (match.find()) {
+        data.strUnit = match.group().trim();
+        field = field.substring(0,match.start());
+      }
+      
+      // Sometimes there is an & separator, and sometimes there is not.
+      if (field.contains("&")) {
+        super.parse(field, data);
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field, data);
+        data.strCross = append(data.strCross, " & ", getLeft());
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X UNIT";
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
 
