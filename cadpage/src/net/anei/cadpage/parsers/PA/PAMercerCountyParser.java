@@ -14,7 +14,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
   
   public PAMercerCountyParser() {
     super(CITY_CODES, "MERCER COUNTY", "PA",
-           "Location:ADDR/S! EID:ID! TYPE_CODE:CALL! CALLER_NAME:NAME CALLER_ADDR:SKIP TIME:TIME");
+           "Location:ADDR/S? EID:ID! TYPE_CODE:CALL! CALLER_NAME:NAME CALLER_ADDR:ADDR/S TIME:TIME");
   }
   
   @Override
@@ -32,6 +32,8 @@ public class PAMercerCountyParser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
+      if (data.strAddress.length() > 0) return;
+      
       String sPlace = "";
       Matcher match = PLACE_MARKER.matcher(field);
       if (match.find()) {
