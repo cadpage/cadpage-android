@@ -334,6 +334,7 @@ public class ParserList {
               ,"MAYarmouth"                     ,"Yarmouth, MA"
           ),
           new ParserCategory("Michigan"
+              ,"MIBayCounty"                    ,"Bay County, MI"
               ,"MICalhounCounty"                ,"Calhoun County, MI"
               ,"MICharlevoixCounty"             ,"Charlevoix County, MI"
               ,"MICheboyganCounty"              ,"Cheboygan County, MI"
