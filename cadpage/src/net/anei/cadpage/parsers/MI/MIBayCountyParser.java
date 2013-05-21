@@ -28,6 +28,7 @@ public class MIBayCountyParser extends MsgParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = body.replace('\n', ' ');
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     
