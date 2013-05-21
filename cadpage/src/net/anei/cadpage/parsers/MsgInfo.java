@@ -112,6 +112,7 @@ public class MsgInfo {
     public boolean expectMore;
     
     public MsgParser parser;
+    public String strBaseMapAddress;
     
     public Data(MsgParser parser) {
       this.parser = parser;
@@ -157,6 +158,8 @@ public class MsgInfo {
         this.countryCode = parser.getCountryCode();
         this.preferGPSLoc = (parser.getMapFlags() & MAP_FLG_PREFER_GPS) != 0;
       }
+      
+      strBaseMapAddress = null;
     }
     
     /**
@@ -255,6 +258,7 @@ public class MsgInfo {
     preferGPSLoc = info.preferGPSLoc;
     
     parser = info.parser;
+    strBaseMapAddress = info.strBaseMapAddress;
   }
   
   /**
@@ -1008,6 +1012,7 @@ public class MsgInfo {
     addInfo(sb, "Call", strCall);
     addInfo(sb, "Place", strPlace);
     addInfo(sb, "Addr", strAddress);
+    addInfo(sb, "MapAddr", strBaseMapAddress);
     addInfo(sb, "City", strCity);
     addInfo(sb, "Apt", strApt);
     addInfo(sb, "X", strCross);
@@ -1029,7 +1034,7 @@ public class MsgInfo {
   }
   
   private void addInfo(StringBuilder sb, String title, String value) {
-    if (value.length() > 0) {
+    if (value != null && value.length() > 0) {
       sb.append('\n');
       sb.append(title);
       sb.append(':');

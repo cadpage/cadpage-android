@@ -77,8 +77,8 @@ choyvp pynff PnqcntrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgRirelguvat() {
-    qbNyyGrfg("CEV: 1\aQNGR: 12/15/2011\aGVZR: 09:12\aPNYY: URYC ZR\aCYNPR: ZL UBHFR\aNQQE: 611 CVAR FG\aPVGL: CUVYBZNGU\aFG: KK\aNCG: W3\aK: OYNPX FG & OYHR NI\aOBK: KK77\aZNC: W75F2\aPU: BC6\aHAVG: 221\aVASB: ORUVAQ UBHFR\aANZR: XRA\aCU: 5551212\aPBQR: 77W23\aVQ: 2011-001\aFEP: FG202\aTCF: +43.710000,-84.490000");
-    qbNyyGrfg("CEV: 1\aQNGR: 12/15/2011\aGVZR: 09:12\aPNYY: URYC ZR\aCYNPR: ZL UBHFR\aNQQE: 611 CVAR FG\aNCG: W3\aK: OYNPX FG & OYHR NI\aOBK: KK77\aZNC: W75F2\aPU: BC6\aHAVG: 221\aVASB: ORUVAQ UBHFR\aANZR: XRA\aCU: 5551212\aPBQR: 77W23\aVQ: 2011-001\aFEP: FG202\aQPVGL: ORAGBA PBHAGL\aQFG: BE\aPB=NH\aTCF: +43.710000,-84.490000\aERP_TCF: L");
+    qbNyyGrfg("CEV: 1\aQNGR: 12/15/2011\aGVZR: 09:12\aPNYY: URYC ZR\aCYNPR: ZL UBHFR\aNQQE: 611 CVAR FG\aPVGL: CUVYBZNGU\aFG: KK\aNCG: W3\aK: OYNPX FG & OYHR NI\aOBK: KK77\aZNC: W75F2\aPU: BC6\aHAVG: 221\aVASB: ORUVAQ UBHFR\aANZR: XRA\aCU: 5551212\aPBQR: 77W23\aVQ: 2011-001\aFEP: FG202\aTCF: +43.710000,-84.490000\aCNEFRE: Pnqcntr");
+    qbNyyGrfg("CEV: 1\aQNGR: 12/15/2011\aGVZR: 09:12\aPNYY: URYC ZR\aCYNPR: ZL UBHFR\aNQQE: 611 CVAR FG\aNCG: W3\aK: OYNPX FG & OYHR NI\aOBK: KK77\aZNC: W75F2\aPU: BC6\aHAVG: 221\aVASB: ORUVAQ UBHFR\aANZR: XRA\aCU: 5551212\aPBQR: 77W23\aVQ: 2011-001\aFEP: FG202\aQPVGL: ORAGBA PBHAGL\aQFG: BE\aPB=NH\aTCF: +43.710000,-84.490000\aERP_TCF: L\aCNEFRE: Pnqcntr");
   }
   
   cevingr ibvq qbNyyGrfg(Fgevat obql) {
@@ -86,5 +86,17 @@ choyvp pynff PnqcntrCnefreGrfg rkgraqf OnfrCnefreGrfg {
     ZftCnefre cnefre = arj PnqcntrCnefre();
     nffregGehr(cnefre.vfCntrZft(zft, 0));
     nffregRdhnyf(obql, PnqcntrCnefre.sbezngVasb(zft.trgVasb(), "\a", snyfr));
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFcrpvnySvryqf() {
+    qbGrfg("G1", "NQQE:80 J CVAR FG\aZNQQE:810 A CVAR FG\aCNEFRE:BEOnqCnefre",
+        "NQQE:80 J CVAR FG",
+        "ZNQQE:810 A CVAR FG");
+    
+    frgRkcYbpPbqr("BEOragbaPbhagl");
+    qbGrfg("G2", "NQQE:80 J CVAR FG\aZNQQE:810 A CVAR FG\aCNEFRE:BEOragbaPbhagl",
+        "NQQE:80 J CVAR FG",
+        "ZNQQE:810 A CVAR FG");
   }
 }

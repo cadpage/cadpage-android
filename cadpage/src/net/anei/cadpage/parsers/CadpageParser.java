@@ -113,6 +113,9 @@ public class CadpageParser  extends CadpageParserBase {
     if (inclMapAddr) {
       append(sb, "MADDR", info.getBaseMapAddress(2), delim);
     }
+    MsgParser parser = info.getParser();
+    if (parser != null) append(sb, "PARSER", parser.getParserCode(), delim);
+    
     return sb.toString();
   }
   
