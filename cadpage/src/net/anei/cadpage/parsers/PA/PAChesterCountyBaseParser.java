@@ -317,7 +317,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     /* 68 */ "WEST NOTTINGHAM TWP",
     /* 69 */ "EAST NOTTINGHAM TWP",
     /* 70 */ "",
-    /* 71 */ "",
+    /* 71 */ "NEW LONDON TWP",
     /* 72 */ "",
     /* 73 */ "",
     /* 74 */ "",
