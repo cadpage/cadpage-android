@@ -20,7 +20,7 @@ public class NCSurryCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "SC911:@co.surry.nc.us";
+    return "SC911:@co.surry.nc.us,sc911@co.surry.nc.us";
   }
   
   @Override
