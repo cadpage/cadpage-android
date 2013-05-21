@@ -153,7 +153,7 @@ choyvp pynff APZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G3",
         "272 ULYGBA UBYYBJ EQ ZNEFUNYY 2013005928 05:01:21 URNEG NGGNPX 62 Z purfg cnva sbe nobhg na ubhe univat gebhoyr oernguvat ..pynzzl naq guebjvat hc .. unf gnxra urn",
-        "NQQE:272 ULYGBA UBYYBJ EQ",
+        "NQQE:272 ULYGBA UBYYBJ EQ",  // Abg znccvat
         "PVGL:ZNEFUNYY",
         "VQ:2013005928",
         "GVZR:05:01:21",

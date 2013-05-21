@@ -60,7 +60,7 @@ public class ILStClairCountyParser extends FieldProgramParser {
   }
   
   
-  private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*, .*), \\d{5}");
+  private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*, .*), *\\d{5}");
   private class MyAddressField extends AddressCityField {
     
     @Override 
