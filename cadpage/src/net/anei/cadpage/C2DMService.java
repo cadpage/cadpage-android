@@ -127,7 +127,12 @@ public class C2DMService extends IntentService {
   private boolean retryRegistration(String error) {
     
     // We can only recover from the SERVICE_NOT_AVAILABLE error
-    if (!error.equals("SERVICE_NOT_AVAILABLE")) return false;
+    // Lately PHONE_REGISTRATION_ERROR appears to be a recoverable error
+    // But we can at least check to make sure there is an identifiable user account
+    if (!error.equals("SERVICE_NOT_AVAILABLE")) {
+      if (!error.equals("PHONE_REGISTRATION_ERROR")) return false;
+      if (UserAcctManager.instance().getUser() != null) return false;
+    }
     
     // See if request should be rescheduled
     int req = ManagePreferences.registerReq();

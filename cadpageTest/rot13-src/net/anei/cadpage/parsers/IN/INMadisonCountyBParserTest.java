@@ -79,6 +79,7 @@ Fraqre: psf@znqvfbapbhaglcntvat.pbz
 (PSF) Pnyy Glcr: Zrqvpny Pnyy - NYF Nqqerff: 3154 R PBEQ 100 F, Purfgresvryq Havgf: PUN51  Vasb: 79lbs/uvtu srire/pbashfrq   uk/fgebxr
 (PSF) Pnyy Glcr: Zrqvpny Pnyy - NYF Nqqerff: 4609 YNAABL YA, Naqrefba Havgf: PUN51  Vasb: 59LBZ Gebhoyr Oernguvat/Pba naq Nyreg
 (PSF) Pnyy Glcr: Fgehpgher Sver - Erfvqragny Nqqerff: 425 A PBEQ 500 R 1 , Purfgresvryq Havgf: NQR11, PUO50, PUR54, PUY55, FNR82  Vasb: synzrf fubjvat
+(PSF) Pnyy Glcr: Fhvpvqr - Nggrzcgrq be Guerngrar Nqqerff: 3023 R PBEQ 67, Naqrefba Havgf: PUO50, PUN51  Vasb: 39LBS GUERNGRAVAT FHVPVQR JNF UNATVAT
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Senaxgba Ibyhagrre Sver Qrcnegzrag
@@ -719,6 +720,15 @@ choyvp pynff VAZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Purfgresvryq",
         "HAVG:NQR11, PUO50, PUR54, PUY55, FNR82",
         "VASB:synzrf fubjvat");
+
+    qbGrfg("G11",
+        "(PSF) Pnyy Glcr: Fhvpvqr - Nggrzcgrq be Guerngrar Nqqerff: 3023 R PBEQ 67, Naqrefba Havgf: PUO50, PUN51  Vasb: 39LBS GUERNGRAVAT FHVPVQR JNF UNATVAT",
+        "PNYY:Fhvpvqr - Nggrzcgrq be Guerngrar",
+        "NQQE:3023 R PBEQ 67",
+        "ZNQQE:3023 R  67",
+        "PVGL:Naqrefba",
+        "HAVG:PUO50, PUN51",
+        "VASB:39LBS GUERNGRAVAT FHVPVQR JNF UNATVAT");
     
   }
   
