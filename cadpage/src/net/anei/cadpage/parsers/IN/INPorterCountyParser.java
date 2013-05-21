@@ -13,7 +13,7 @@ public class INPorterCountyParser extends FieldProgramParser {
   
   public INPorterCountyParser() {
     super("PORTER COUNTY", "IN",
-           "ID? UNIT ( ADDR1/Z ADDR2 | ADDR3! ) CROSS:X? GRP:SRC? PRI:PRI comment:INFO");
+           "ID? CODE ( ADDR1/Z ADDR2 | ADDR3! ) CROSS:X? GRP:UNIT? PRI:PRI comment:INFO");
   }
   
   @Override
@@ -67,11 +67,21 @@ public class INPorterCountyParser extends FieldProgramParser {
     }
   }
   
-  private class MyUnitField extends UnitField {
+  private static final Pattern CODE_PRI_PTN = Pattern.compile("(.*?)(?:P(\\d))?:?");
+  private class MyCodeField extends CodeField {
     @Override
     public void parse(String field, Data data) {
-      if (field.endsWith(":")) field = field.substring(0,field.length()-1).trim();
+      Matcher match = CODE_PRI_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        data.strPriority = getOptGroup(match.group(2));
+      }
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE PRI";
     }
   }
   
@@ -156,7 +166,7 @@ public class INPorterCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
-    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("CODE")) return new MyCodeField();
     if (name.equals("ADDR1")) return new MyAddressField(1);
     if (name.equals("ADDR2")) return new MyAddressField(2);
     if (name.equals("ADDR3")) return new MyAddressField(3);

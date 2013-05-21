@@ -82,6 +82,7 @@ Fraqre: PbzzPragre@pprzf.pbz
  1 bs 2\aSEZ:PbzzPragre@pprzf.pbz\aZFT:05/17 03:13 20840 XNGL SEJL JO-UP, GRKNF EBNQUBHFR; Znc:486O- Fho: Ang:52P03F-SVER NYNEZ - PBZZREPVNY\a(Pba'g) 2 bs 2\aHavgf:JISQ FD42 K-Fg:A JRFGTERRA OYIQ CEVPR CY 201320282(Raq)
  1 bs 2\aSEZ:PbzzPragre@pprzf.pbz\aZFT:05/18 13:11 19011 LBHCBA UVYY PG-UP, ; Znc:446E- Fho: Ang:17-VAWHERQ CREFBA SEBZ N SNYY Havgf:N42 FD42\a(Pba'g) 2 bs 2\aK-Fg:JNYAHG XABYY JNL 201320496(Raq)
  1 bs 2\aSEZ:PbzzPragre@pprzf.pbz\aZFT:05/20 06:24 1579 SEL EQ-UP, QRAALF ERFGNHENAG; Znc:446L- Fho: Ang:25-RZBGVBANY PEVFVF Havgf:N42 FD42 Z41\a(Pba'g) 2 bs 2\aK-Fg:JNYZNEG UBZR QRCBG EQ & N 201320778(Raq)
+ 1 bs 2\aSEZ:PbzzPragre@pprzf.pbz\aZFT:05/21 12:23 1111 SEL EQ-UP, UBZR QRCBG; Znc:446L- Fho: Ang:29-ZBGBE IRUVPYR VAPVQRAG Havgf:N43 FD41\a(Pba'g) 2 bs 2\aK-Fg:XNGL SEJL JO JNYZNEG UBZR 201320954(Raq)
 
 Pbagnpg: Npgvir911.pbz
 Fraqre: <PbzzPragre@pprzf.pbz>
@@ -635,6 +636,23 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:N42 FD42 Z41",
         "K:JNYZNEG UBZR QRCBG EQ & N",
         "VQ:201320778");
+
+    qbGrfg("G36",
+        " 1 bs 2\a" +
+        "SEZ:PbzzPragre@pprzf.pbz\a" +
+        "ZFT:05/21 12:23 1111 SEL EQ-UP, UBZR QRCBG; Znc:446L- Fho: Ang:29-ZBGBE IRUVPYR VAPVQRAG Havgf:N43 FD41\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "K-Fg:XNGL SEJL JO JNYZNEG UBZR 201320954(Raq)",
+
+        "QNGR:05/21",
+        "GVZR:12:23",
+        "NQQE:1111 SEL EQ",
+        "ZNC:446L-",
+        "CYNPR:UBZR QRCBG",
+        "PNYY:29-ZBGBE IRUVPYR VAPVQRAG",
+        "HAVG:N43 FD41",
+        "K:XNGL SEJL JO JNYZNEG UBZR",
+        "VQ:201320954");
 
   }
     
