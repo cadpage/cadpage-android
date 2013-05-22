@@ -131,7 +131,7 @@ public class C2DMService extends IntentService {
     // But we can at least check to make sure there is an identifiable user account
     if (!error.equals("SERVICE_NOT_AVAILABLE")) {
       if (!error.equals("PHONE_REGISTRATION_ERROR")) return false;
-      if (UserAcctManager.instance().getUser() != null) return false;
+      if (UserAcctManager.instance().getUser() == null) return false;
     }
     
     // See if request should be rescheduled
