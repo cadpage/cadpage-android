@@ -57,7 +57,6 @@ Fraqre: pnlhtn911@anzrfreivprf.arg
 (Sebz 911 Pragre) 04/10/13 14:58 RAGRECEVFR ERAGNY329 TENAG NIRAHR EQ FRAARGG Trareny Vyyarff  80 ZNYR ABG SRRYVAT  R911 Vasb - Pynff bs Freivpr: PAGK Fcrpvny Erfcbafr Vasb: PNL. PB. FUREVSS & AL FG CBYVPR FRAARGG SQ                      EHENY ZRGEB NZOHYNAPR j 
 (Sebz 911 Pragre) 04/09/13 14:54 FURCUREQ EQ JRRQFCBEG FRAARGG EQ FRAARGG ZINCV  zbgbeplyr nppvqrag/2 crbcyr jvgu vawhevrf 
 (Sebz 911 Pragre) 05/08/13 16:21 14 JRFGYNXR FG, FXNARNGRYRF BABAQNTN PBHAGL Nffvfg ol Sver  PEBFF JRFG TRARFRR FG (EG 20)  BIRA SVER ----BAR RATVAR SEBZ FRAARGG
-
 (Sebz 911 Pragre) 05/07/13 21:15 7822 CNEPRYY EQ FRAARGG Trareny Vyyarff  78 L/B ZNYR EHAAVAT N SRIRE NAQ VF PBASHFRQ... WHFG UNQ YHAT FHETREL
 (Sebz 911 Pragre) 05/09/13 10:25 R  TRARFRR FGERRG EQ FJNZC EQ FRAARGG Unmneq - Sver  ORGJRRA FJNZC EQ NAQ ORRPU EQ, YBJ UNATVAT JVER FGEHPX OL N GEHPX
 (Sebz 911 Pragre) 05/08/13 11:13 3636 R TRARFRR FGERRG EQ FRAARGG Hapbafpvbhf Crefba  46 l/b znyr cnffrq bhg pbyq
@@ -329,9 +328,9 @@ choyvp pynff ALPnlhtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz 911 Pragre) 05/09/13 10:25 R  TRARFRR FGERRG EQ FJNZC EQ FRAARGG Unmneq - Sver  ORGJRRA FJNZC EQ NAQ ORRPU EQ, YBJ UNATVAT JVER FGEHPX OL N GEHPX",
         "QNGR:05/09/13",
         "GVZR:10:25",
-        "CYNPR:R TRARFRR FGERRG EQ FJNZC EQ FRAARGG Unmneq - Sver ORGJRRA",
-        "NQQE:FJNZC EQ NAQ ORRPU EQ",
-        "VASB:YBJ UNATVAT JVER FGEHPX OL N GEHPX");
+        "NQQE:R TRARFRR FGERRG EQ & FJNZC EQ",
+        "PVGL:FRAARGG",
+        "VASB:Unmneq - Sver ORGJRRA FJNZC EQ NAQ ORRPU EQ, YBJ UNATVAT JVER FGEHPX OL N GEHPX");
 
     qbGrfg("G18",
         "(Sebz 911 Pragre) 05/08/13 11:13 3636 R TRARFRR FGERRG EQ FRAARGG Hapbafpvbhf Crefba  46 l/b znyr cnffrq bhg pbyq",
@@ -344,6 +343,6 @@ choyvp pynff ALPnlhtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALPnlhtnPbhaglCnefreGrfg().trarengrGrfgf("G16");
+    arj ALPnlhtnPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

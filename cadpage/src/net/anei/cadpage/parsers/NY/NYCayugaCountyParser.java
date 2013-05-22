@@ -47,14 +47,25 @@ public class NYCayugaCountyParser extends SmartAddressParser {
       body = body.substring(match.end());
       st = StartType.START_ADDR;
     }
+    
+    // See if there is a comma separating the address from the city.
+    // If what follows the comma is not a recognized city, assume it is extraneous
     int pt = body.indexOf(',');
     if (pt >= 0) {
-      parseAddress(st, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, body.substring(0,pt).trim(), data);
-      parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, body.substring(pt+1).trim(), data);
-    } else { 
+      Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, body.substring(pt+1).trim());
+      if (res.getStatus() > 0) {
+        parseAddress(st, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, body.substring(0,pt).trim(), data);
+        res.getData(data);
+        data.strCall = res.getLeft();
+      } else {
+        pt = -1;
+      }
+    } 
+    
+    if (pt < 0) { 
       parseAddress(st, FLAG_IMPLIED_INTERSECT, body, data);
+      data.strCall = getLeft();
     }
-    data.strCall = getLeft();
     if (data.strCall.length() > 30) {
       data.strSupp = data.strCall;
       data.strCall = "";
