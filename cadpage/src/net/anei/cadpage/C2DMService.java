@@ -138,6 +138,14 @@ public class C2DMService extends IntentService {
     int req = ManagePreferences.registerReq();
     int delayMS = ManagePreferences.reregisterDelay();
     if (req == 0 || delayMS == 0) return false;
+
+    // Since PHONE_REGISTRATION_ERROR isn't really recoverable, 
+    // we will give up on it when we hit the maximum delay time
+    if (delayMS == MAX_REREGISTER_DELAY && error.equals("PHONE_REGISTRATION_ERROR")) {
+      ManagePreferences.setRegisterReq(0);
+      ManagePreferences.setReregisterDelay(0);
+      return false;
+    }
     
     // If it should compute how long to delay before reissuing the request.  Since we are
     // potentially running in synch with thousands of other requesters trying to overload
