@@ -58,6 +58,10 @@ Pbagnpg:  Enycu Fcnqhmmv <efcnqhmmv@tznvy.pbz>
 Fraqre: cntvat@rnfgunirasver.pbz
 1200003638 NSN AVTUG ERFCBAFR 00003 PBFRL ORNPU NIR  Cerz Znc -2 CC 88 SBHE ORNPURF RAGENAPR/WNZNPN PB  R4 R1 G3 R6 E1 E4 F2 P4 120820\e
 
+Pbagnpg: wnfba ylzna <wnfylzna@tznvy.pbz>
+Fraqre: cntvat@aocbyvprpg.bet
+  / 1300003606 ZRQVPNY ZRQN 00009  QNIVQ YA GBZZL'F CNGU/QRNQ RAQ  514  ZRQ4  130522 18:00
+
 */
 
 
@@ -304,6 +308,21 @@ choyvp pynff PGArjUniraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:SBHE ORNPURF RAGENAPR / WNZNPN PB",
         "HAVG:R4 R1 G3 R6 E1 E4 F2 P4");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWnfbaYlzna() {
+
+    qbGrfg("G1",
+        "  / 1300003606 ZRQVPNY ZRQN 00009  QNIVQ YA GBZZL'F CNGU/QRNQ RAQ  514  ZRQ4  130522 18:00",
+        "VQ:1300003606",
+        "PNYY:ZRQVPNY ZRQN",
+        "NQQE:9 QNIVQ YA",
+        "K:GBZZL'F CNGU / QRNQ RAQ",
+        "HAVG:514 ZRQ4",
+        "QNGR:05/22/13",
+        "GVZR:18:00");
+   
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
