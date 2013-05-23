@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE
-    = Cnggrea.pbzcvyr("^: ([^:]*?)(?: (\\q\\q:\\q\\q:\\q\\q))?$");
+     = Cnggrea.pbzcvyr("[ /](\\q{3}-\\q{3}-\\q{4})$");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg(": HAXABJA CEBOYRZ : ZRQVPNY NYNEZ ABGVSVPNGVBA 19:27");
+    qbGrfg("GVPXYR ERF 610-255-4016");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

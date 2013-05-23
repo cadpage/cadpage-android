@@ -196,20 +196,6 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     }
   }
   
-  // EMPTY: must be empty
-  protected class EmptyField extends SkipField {
-
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-
-    @Override
-    public boolean checkParse(String field, Data data) {
-      return field.length() == 0;
-    }
-  }
-  
   
   @Override
   public Field getField(String name) {
@@ -318,8 +304,8 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     /* 69 */ "EAST NOTTINGHAM TWP",
     /* 70 */ "",
     /* 71 */ "NEW LONDON TWP",
-    /* 72 */ "",
-    /* 73 */ "",
+    /* 72 */ "FRANKLIN TWP",
+    /* 73 */ "LANDENBERG",
     /* 74 */ "",
     /* 75 */ "WEST CHESTER",    // WEST CHESTER UNIVERSITY PD 
     /* 76 */ "OXFORD",          // LINCOLN UNIVERSITY 

@@ -5,8 +5,6 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
-
 public class PAChesterCountyD4Parser extends PAChesterCountyBaseParser {
   
   private static final Pattern DETAIL_MARKER = Pattern.compile("(?:\n| \\*\\* )DETAILS TO ");
@@ -16,11 +14,15 @@ public class PAChesterCountyD4Parser extends PAChesterCountyBaseParser {
   private static final Pattern CITY_PTN = Pattern.compile("  Municipality: ([A-Z]+) ");
   
   public PAChesterCountyD4Parser() {
-    super("DISPATCH TIME CALL UNK? ADDRCITY ( X/Z PLACE_PHONE/Z CITY | PLACE NAME PHONE ) BOX! INFO+");
+    super("DISPATCH TIME CALL UNK? ADDRCITY ( X/Z PLACE_PHONE CITY | PLACE NAME PHONE ) BOX! INFO+");
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (body.startsWith("Dispatch / ")) {
+      body = body.substring(11).trim();
+    }
     String sExtra = null;
     int pt;
     Matcher match = DETAIL_MARKER.matcher(body);
@@ -57,31 +59,32 @@ public class PAChesterCountyD4Parser extends PAChesterCountyBaseParser {
     }
   }
   
-  private static final Pattern PLACE_PHONE_PTN = Pattern.compile("(.*?)[ /](\\d{3}-\\d{3}-\\d{4})-");
-  private class MyPlacePhoneField extends Field {
-    @Override
-    public boolean canFail() {
-      return true;
-    }
+  private static final Pattern PLACE_PHONE_PTN = Pattern.compile("[ /](\\d{3}-\\d{3}-\\d{4})$");
+  private class MyPlacePhoneField extends PlaceField {
     
     @Override
-    public boolean checkParse(String field, Data data) {
-      Matcher match = PLACE_PHONE_PTN.matcher(field);
-      if (!match.matches()) return false;
-      data.strPlace = match.group(1).trim();
-      data.strPhone = match.group(2);
-      return true;
-    }
-
-    @Override
     public void parse(String field, Data data) {
-      if (!checkParse(field, data)) abort();
+      if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
+      Matcher match = PLACE_PHONE_PTN.matcher(field);
+      if (match.find()) {
+        data.strPhone = match.group(1);
+        field = field.substring(0,match.start()).trim();
+      }
+      super.parse(field, data);
     }
 
     @Override
     public String getFieldNames() {
-      // TODO Auto-generated method stub
-      return null;
+      return "PLACE PHONE";
+    }
+  }
+  
+  private class MyNameField extends NameField {
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
+      super.parse(field, data);
     }
   }
   
@@ -90,6 +93,7 @@ public class PAChesterCountyD4Parser extends PAChesterCountyBaseParser {
     if (name.equals("DISPATCH")) return new SkipField("Dispatch", true);
     if (name.equals("PLACE_PHONE")) return new MyPlacePhoneField();
     if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("NAME")) return new MyNameField();
     return super.getField(name);
   }
 } 
