@@ -1672,6 +1672,7 @@ robert waegerle (rwaegerle@gmail.com) (rwaegerle@att.net) // PayPal
 David Bessolo (dbessolo@kleinfiredept.com) (dbessolo@flash.net) // PayPal
 %%10/27/2012
 MARJ HARTMAN (marjcostys25@gmail.com) <marjcostys@live.com> // market problem email change
+David Olmstead (dolmstead@alsteadfire.com) <dolmstead@diluzioambulance.com> // market problem email change
 %%10/29/2012
 james bennett <brimfieldfire100@gmail.com> // market problem change email
 %%10/30/2012
@@ -2176,6 +2177,8 @@ Bill Holstein (wahchief505@gmail.com) <waholstein@yahoo.com> // Shoshone County,
 %%04/01/2013
 Bill Kriedler (kriedler22@gmail.com) (mkriedler@comcast.net) // PayPal
 Randy Hall (nightrh@gmail.com) <nightrh@att.net> (leetoniafd@hotmail.com) // Columbiana County, OH
+%%04/05/2013
+Kevin Paxton (kpaxton039@gmail.com) <kevpaxs914@hotmail.com> // market problem email change
 %%04/08/2013
 Blake Isbell (bwi7735@gmail.com) // PayPal
 %%04/09/2013
@@ -2229,15 +2232,14 @@ Greg Troyer (gregtroyer@frontier.com) // PayPal
 Kirk Polley <kpolley03@gmail.com> // Sangamon County, IL
 %%05/10/2013
 Jeffrey Minten (djczminten@gmail.com) // PayPal
-Scott Flockhart (s_flockhart@hotmail.com) // PayPal $1
 %%05/12/2013
 Randy Christiansen (randyc308@gmail.com) (randy308@bellsouth.net) // PayPal
 %%05/13/2013
 dwayne ferry (ferry76@gmail.com) (snakeman_python@yahoo.com) // PayPal
 %%05/16/2013
 Douglas Pascoe (dapascoe590@gmail.com) (dpascoe15063@comcast.net) // PayPal
-Nathaniel Atkinson (fireman_23480@Yahoo.com) // PayPal $1
-
+%%05/22/2013
+Steven young (steve_y@earthlink.net) // PayPal
 
 // *** Insert Paid Users here ***
 // List of users getting credit or paid for 2014
