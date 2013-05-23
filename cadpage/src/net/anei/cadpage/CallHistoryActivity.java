@@ -270,10 +270,10 @@ public class CallHistoryActivity extends ListActivity {
     outState.putString("WORKAROUND_FOR_BUG_19917_KEY", "WORKAROUND_FOR_BUG_19917_VALUE");
     super.onSaveInstanceState(outState);
 
-    int orientation = Safe40Activity.getDisplayOrientation(this);
+//    int orientation = Safe40Activity.getDisplayOrientation(this);
     
     //Lock the screen orientation to the current display orientation : Landscape or Portrait
-    this.setRequestedOrientation(orientation);
+//    this.setRequestedOrientation(orientation);
   }
   
   /**

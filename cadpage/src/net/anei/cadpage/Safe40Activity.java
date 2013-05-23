@@ -45,10 +45,10 @@ public class Safe40Activity extends Activity {
     outState.putString("WORKAROUND_FOR_BUG_19917_KEY", "WORKAROUND_FOR_BUG_19917_VALUE");
     super.onSaveInstanceState(outState);
 
-    int orientation = getDisplayOrientation(this);
+//    int orientation = getDisplayOrientation(this);
     
     //Lock the screen orientation to the current display orientation : Landscape or Portrait
-    this.setRequestedOrientation(orientation);
+//    this.setRequestedOrientation(orientation);
   }
 
   //A method found in stackOverflow, don't remember the author, to determine the right screen
