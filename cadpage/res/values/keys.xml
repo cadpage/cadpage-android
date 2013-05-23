@@ -116,4 +116,6 @@
    <string name="pref_textsize_key">textsize</string>
    <string name="pref_direct_paging_key">direct_paging</string>
    <string name="pref_reconnect_key">reconnect</string>
+   <string name="pref_last_loc_time_key">last_loc_time</string>
+   <string name="pref_last_loc_acc_key">last_loc_acc</string>
 </resources>

@@ -768,6 +768,7 @@ public class SmsMmsMessage implements Serializable {
     // See how long tracking is last following message receipt.  If time is 
     // up, don't do anything
     long delta = timestamp + limit * 60000L - System.currentTimeMillis();
+    
     if (delta <= 0) return;
     
     // We are good to go with tracking request

@@ -875,6 +875,22 @@ public class ManagePreferences {
     prefs.putString(R.string.pref_flashled_pattern_custom_key, pattern);
   }
   
+  public static long lastLocTime() {
+    return prefs.getLong(R.string.pref_last_loc_time_key, 0L);
+  }
+  
+  public static void setLastLocTime(long newVal) {
+    prefs.putLong(R.string.pref_last_loc_time_key, newVal);
+  }
+  
+  public static float lastLocAcc() {
+    return prefs.getFloat(R.string.pref_last_loc_acc_key, 1.E30F);
+  }
+  
+  public static void setLastLocAcc(float newVal) {
+    prefs.putFloat(R.string.pref_last_loc_acc_key, newVal);
+  }
+  
   public static void clearAll() {
     SharedPreferences.Editor settings = prefs.mPrefs.edit();
     settings.clear();
@@ -1001,7 +1017,10 @@ public class ManagePreferences {
         R.string.pref_register_req_active_key,
         R.string.pref_register_req_key,
         R.string.pref_reregister_delay_key,
-        R.string.pref_register_date_key
+        R.string.pref_register_date_key,
+        
+        R.string.pref_last_loc_time_key,
+        R.string.pref_last_loc_acc_key
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();
@@ -1132,6 +1151,16 @@ public class ManagePreferences {
     return result;
   }
   
+  protected float getFloat(int resPrefId, float defValue) {
+    return mPrefs.getFloat(context.getString(resPrefId), defValue);
+  }
+  
+  protected float getFloat(int resPrefId) {
+    float result = getFloat(resPrefId, Float.MAX_VALUE);
+    if (result == Float.MAX_VALUE) throw new RuntimeException("No configured preference value found");
+    return result;
+  }
+  
   protected void putBoolean(int resPrefId, boolean newVal) {
     SharedPreferences.Editor settings = mPrefs.edit();
     String key = context.getString(resPrefId);
@@ -1160,6 +1189,14 @@ public class ManagePreferences {
     SharedPreferences.Editor settings = mPrefs.edit();
     String key = context.getString(resPrefId);
     settings.putLong(key, newVal);
+    settings.commit();
+    notifyListeners(key);
+  }
+  
+  protected void putFloat(int resPrefId, float newVal) {
+    SharedPreferences.Editor settings = mPrefs.edit();
+    String key = context.getString(resPrefId);
+    settings.putFloat(key, newVal);
     settings.commit();
     notifyListeners(key);
   }

@@ -9,6 +9,7 @@ import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -26,6 +27,9 @@ public class TrackingService extends Service implements LocationListener {
   // moving all that much until the call came in.
   private static final long MAX_INITIAL_RPT_AGE = 300000;  // 5 minutes
   private static final long MAX_REPEAT_RPT_AGE = 30000;    // 30 seconds
+  
+  // Expected accuracy degradation in m/msec
+  private static final double LOC_ACC_ADJUSTMENT = .002;  // About 2 m/sec
 
   private static final String ACTION_SHUTDOWN = "ACTION_SHUTDOWN";
   private static final String ACTION_REPORT = "ACTION_REPORT";
@@ -35,6 +39,9 @@ public class TrackingService extends Service implements LocationListener {
   private static final String EXTRA_MIN_DIST = "EXTRA_MIN_DIST";
   
   private static final int TRACKING_NOTIFICATION = 298;
+
+  // Wake lock and synchronize lock
+  static private PowerManager.WakeLock mWakeLock = null;
   
   /**
    * Internal class defining a location report request
@@ -85,10 +92,10 @@ public class TrackingService extends Service implements LocationListener {
   private Handler mHandler = null;
   
   // Queue of outstanding location requests
-  private List<LocationRequest> requestQueue = null;
-
-  // Wake lock and synchronize lock
-  private PowerManager.WakeLock mWakeLock = null;
+  private List<LocationRequest> requestQueue = new LinkedList<LocationRequest>();
+  
+  // Best location service
+  private String bestProvider = null;
 
   @SuppressLint("NewApi")
   @Override
@@ -117,22 +124,12 @@ public class TrackingService extends Service implements LocationListener {
       stopSelf();
       return 0;
     }
+    
+    if (!mWakeLock.isHeld()) mWakeLock.acquire(); 
     String url = intent.getStringExtra(EXTRA_URL);
     long endTime = intent.getLongExtra(EXTRA_END_TIME, 0L);
     int minDist = intent.getIntExtra(EXTRA_MIN_DIST, 10);
     int minTime = intent.getIntExtra(EXTRA_MIN_TIME, 10);
-    
-    // If we haven't established a power wake lock, do that now.
-    if (mWakeLock == null) {
-      PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
-      mWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, Log.LOGTAG+".LocationService");
-      mWakeLock.setReferenceCounted(false);
-    }
-    if(!mWakeLock.isHeld()) mWakeLock.acquire();
-    
-    // If we do not have a request queue, flag this as our first call and create one
-    boolean firstTime = (requestQueue == null);
-    if (firstTime) requestQueue = new LinkedList<LocationRequest>();
 
     // See if we can merge this request into an existing one. 
     boolean found = false;
@@ -146,14 +143,33 @@ public class TrackingService extends Service implements LocationListener {
     // If not, create a new entry and add it to the queue
     if (!found) requestQueue.add(new LocationRequest(url, endTime));
     
-    // If this is the first request, register ourselves for location updates
+    // If we don't have an active best provider, set one up and
     LocationManager locMgr = (LocationManager)this.getSystemService(LOCATION_SERVICE);
-    if (firstTime) {
-      locMgr.requestLocationUpdates(LocationManager.GPS_PROVIDER, minDist, minTime, this);
-    }          
+    if (bestProvider == null) {
+      Criteria criteria = new Criteria();
+      criteria.setAccuracy(Criteria.ACCURACY_FINE);
+      bestProvider = locMgr.getBestProvider(criteria, true);
+      locMgr.requestLocationUpdates(bestProvider, minDist, minTime, this);
+    }
+
+    // Get a list of all enabled location providers see which one 
+    // provides the best last known location
+    Location bestLoc = null;
+    for (String name : locMgr.getProviders(true)) {
+      Location loc = locMgr.getLastKnownLocation(name);
+      if (loc == null) continue;
+      Log.v("lastKnownLocation:" + loc.toString());
+      if (bestLoc != null) {
+        float deltaAcc = loc.getAccuracy() - bestLoc.getAccuracy();
+        long deltaTime = loc.getTime() - bestLoc.getTime();
+        deltaAcc -= deltaTime * LOC_ACC_ADJUSTMENT;
+        if (deltaAcc < 0) continue;
+      }
+      bestLoc = loc;
+    }
     
-    // Use the cached last known position to prime things
-    onLocationChanged(locMgr.getLastKnownLocation(LocationManager.GPS_PROVIDER), MAX_INITIAL_RPT_AGE);
+    // Use the that best last known position to prime things
+    onLocationChanged(bestLoc, MAX_INITIAL_RPT_AGE);
 
     return Service.START_REDELIVER_INTENT;
   }
@@ -170,7 +186,26 @@ public class TrackingService extends Service implements LocationListener {
   
   private void onLocationChanged(Location location, long maxAge) {
     
+    // If no location, skip it
     if (location == null) return;
+    
+    Log.v("Location:" + location.toString());
+    
+    // Do not allow location reports closer that .5 sec apart
+    // unless accuracy is significantly improved
+    long locTime = location.getTime();
+    float locAcc = location.getAccuracy();
+    long lastTime = ManagePreferences.lastLocTime();
+    if (locTime - lastTime <= 500) {
+      float lastAcc = ManagePreferences.lastLocAcc();
+      if (lastAcc - locAcc < .5) return;
+    }
+    
+    // Save current location time and accuracy for future adjustments
+    ManagePreferences.setLastLocTime(locTime);
+    ManagePreferences.setLastLocAcc(locAcc);
+    
+    // REport location to all requesters
     for (LocationRequest req : requestQueue) req.report(this, location);
   }
   
@@ -179,6 +214,7 @@ public class TrackingService extends Service implements LocationListener {
     Log.v("Shutting down LocationService");
     LocationManager locMgr = (LocationManager)this.getSystemService(LOCATION_SERVICE);
     locMgr.removeUpdates(this);
+    bestProvider = null;
     if (mWakeLock != null) mWakeLock.release();
   }
 
@@ -206,6 +242,16 @@ public class TrackingService extends Service implements LocationListener {
    * @param minTime minimum delta reporting time in seconds
    */
   public static void addLocationRequest(Context context, String URL, int duration, int minDist, int minTime) {
+    
+    // If we haven't established a power wake lock, do that now.
+    synchronized (TrackingService.class) {
+      if (mWakeLock == null) {
+        PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
+        mWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, Log.LOGTAG+".LocationService");
+        mWakeLock.setReferenceCounted(false);
+      }
+      if(!mWakeLock.isHeld()) mWakeLock.acquire();
+    }
     
     Intent intent = new Intent(ACTION_REPORT, null, context, TrackingService.class);
     intent.putExtra(EXTRA_URL, URL);
