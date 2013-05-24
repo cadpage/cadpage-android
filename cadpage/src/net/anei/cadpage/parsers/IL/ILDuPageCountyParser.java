@@ -113,7 +113,7 @@ public class ILDuPageCountyParser extends MsgParser {
       "LG",     "LAGRANGE",
       "LI",     "LISLE",
       "LM",     "LEMONT",
-      "LO",     "LOCKPORT",
+      "LO",     "LOMBARD",
       "LP",     "LAGRANGE PARK",
       "LW",     "LISLE- WOODRIDGE",
       "LY",     "LEYDEN",
