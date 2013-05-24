@@ -44,8 +44,9 @@ public class ALMadisonCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       field = field.replaceAll(" alias ", " @");
       Parser p = new Parser(field);
-      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, p.get(": @"), data);
+      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, p.get(":"), data);
       data.strPlace = p.get();
+      if (data.strPlace.startsWith("@")) data.strPlace = data.strPlace.substring(1).trim();
     }
     
     @Override
@@ -69,8 +70,11 @@ public class ALMadisonCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
+      "MAD",   "MADISON",
       "MDCO",  "MADISON COUNTY",
       "HSV",   "HUNTSVILLE",
+      "LIME",  "LIMESTONE COUNTY",
+      "LIME MAD", "MADISON",
       "NEWH",  "NEW HOPE",
       "OXRD",  "OWENS CROSS ROADS",
       "TRI",   "TRIANA"
