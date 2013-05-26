@@ -5,6 +5,11 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
+
+Pbagnpg: OZrruna282@nby.pbz
+Fraqre: ab-ercyl@abjrfgcf.bet
+(Sebz Abegujrfg) ZFT:37 NCCYR YA  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00057 37 NCCYR YA
+
 Ebkohel, PG
 Pbagnpg: Zvxr Wbfrsfba <zvxrwbfrsfba@tznvy.pbz>
 Fraqre: tybonycntvat@abjrfgcf.bet

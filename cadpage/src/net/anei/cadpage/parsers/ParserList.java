@@ -500,6 +500,7 @@ public class ParserList {
               ,"NCIredellCounty"                ,"Iredell County, NC"
               ,"NCJacksonCounty"                ,"Jackson County, NC"
               ,"NCJohnstonCounty"               ,"Johnston County, NC"
+              ,"NCLenoirCounty"                 ,"Lenoir County, NC"
               ,"NCLincolnCounty"                ,"Lincoln County, NC"
               ,"NCMaconCounty"                  ,"Macon County, NC"
               ,"NCMadisonCounty"                ,"Madison County, NC"
