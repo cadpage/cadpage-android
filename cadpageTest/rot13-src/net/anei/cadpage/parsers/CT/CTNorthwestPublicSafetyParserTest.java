@@ -6,10 +6,6 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 
-Pbagnpg: OZrruna282@nby.pbz
-Fraqre: ab-ercyl@abjrfgcf.bet
-(Sebz Abegujrfg) ZFT:37 NCCYR YA  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00057 37 NCCYR YA
-
 Ebkohel, PG
 Pbagnpg: Zvxr Wbfrsfba <zvxrwbfrsfba@tznvy.pbz>
 Fraqre: tybonycntvat@abjrfgcf.bet
@@ -20,6 +16,10 @@ SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:102 CNVAGRE UVYY EQ  EBK
 SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:314 CNVAGRE UVYY EQ  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00120\a\a(Raq)
 SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:71 FBHGU FG  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00119\a\a\a(Raq)
 SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:OBGFSBEQ UVYY EQ & TBYQRA UNEIRFG EQ  EBKOHEL JVERF QBJA/SVER EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00109
+
+Pbagnpg: OZrruna282@nby.pbz
+Fraqre: ab-ercyl@abjrfgcf.bet
+(Sebz Abegujrfg) 37 NCCYR YA  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00057 37 NCCYR YA
 
 Frlzbhe, PG
 Pbagnpg: fhccbeg@npgvir911.pbz
@@ -183,6 +183,19 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:JVERF QBJA / SVER",
         "HAVG:EBK ERF9 EBK SQ1",
         "VQ:00109");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOZrruna282() {
+
+    qbGrfg("G1",
+        "(Sebz Abegujrfg) 37 NCCYR YA  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00057 37 NCCYR YA",
+        "NQQE:37 NCCYR YA",
+        "PVGL:EBKOHEL",
+        "PNYY:SVER NYNEZ",
+        "HAVG:EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1",
+        "VQ:00057");
     
   }
   

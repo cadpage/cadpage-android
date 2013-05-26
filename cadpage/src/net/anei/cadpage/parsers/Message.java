@@ -42,6 +42,10 @@ public class Message {
     return parseMessageBody;
   }
   
+  public void setMessageBody(String body) {
+    parseMessageBody = body;
+  }
+  
   public int getMsgIndex() {
     return msgIndex;
   }

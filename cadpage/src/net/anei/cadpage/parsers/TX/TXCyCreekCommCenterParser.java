@@ -4,6 +4,7 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.Message;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
@@ -12,6 +13,8 @@ import net.anei.cadpage.parsers.SmartAddressParser;
  */
 public class TXCyCreekCommCenterParser extends SmartAddressParser {
   
+  private static final Pattern PART_MARKER = Pattern.compile("^\\d\\d:\\d\\d ");
+  private static final Pattern DATE_PTN = Pattern.compile("(\\d+)/(\\d+)");
   private static final Pattern MARKER = Pattern.compile("^(\\d\\d/\\d\\d) (?:(\\d\\d:\\d\\d) )?");
   private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");
   private static final Pattern VAL_PTN = Pattern.compile("\\bVAL\\b", Pattern.CASE_INSENSITIVE);
@@ -24,6 +27,33 @@ public class TXCyCreekCommCenterParser extends SmartAddressParser {
   @Override
   public String getFilter() {
     return "CommCenter@ccems.com,93001,777,888,messaging@iamresponding.com";
+  }
+
+  @Override
+  protected Data parseMsg(Message msg, int parseFlags) {
+    
+    // Sometimes the date is include in parenthesis, where it will be
+    // missinterpreted as a subject or message index :(
+    String body = msg.getMessageBody();
+    if  (PART_MARKER.matcher(body).find()) {
+      int month;
+      int day;
+      String subject = msg.getSubject();
+      if (subject.length() > 0) {
+        Matcher match = DATE_PTN.matcher(subject);
+        if (!match.matches()) return null;
+        month = Integer.parseInt(match.group(1));
+        day = Integer.parseInt(match.group(2));
+      } else {
+        if (msg.getMsgCount() < 0) return null;
+        month = msg.getMsgIndex();
+        day = msg.getMsgCount();
+      }
+      subject = String.format("%02d/%02d", month, day);
+      body = subject + ' ' + body;
+      msg.setMessageBody(body);
+    }
+    return super.parseMsg(msg, parseFlags);
   }
 
   @Override

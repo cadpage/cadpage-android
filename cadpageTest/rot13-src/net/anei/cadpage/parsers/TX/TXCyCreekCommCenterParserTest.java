@@ -84,6 +84,11 @@ Fraqre: PbzzPragre@pprzf.pbz
  1 bs 2\aSEZ:PbzzPragre@pprzf.pbz\aZFT:05/20 06:24 1579 SEL EQ-UP, QRAALF ERFGNHENAG; Znc:446L- Fho: Ang:25-RZBGVBANY PEVFVF Havgf:N42 FD42 Z41\a(Pba'g) 2 bs 2\aK-Fg:JNYZNEG UBZR QRCBG EQ & N 201320778(Raq)
  1 bs 2\aSEZ:PbzzPragre@pprzf.pbz\aZFT:05/21 12:23 1111 SEL EQ-UP, UBZR QRCBG; Znc:446L- Fho: Ang:29-ZBGBE IRUVPYR VAPVQRAG Havgf:N43 FD41\a(Pba'g) 2 bs 2\aK-Fg:XNGL SEJL JO JNYZNEG UBZR 201320954(Raq)
 
+Pbagnpg: rtnynemn331@lnubb.pbz <rtnynemn331@lnubb.pbz>
+Fraqre:  93001025
+(5/25) 18:05 7007 SBK ZRFN YA-UP, ; Znc:334Y- Fho:SBKJBBQ Ang:28-PIN Havgf:Z510 SB334 FD91 K-Fg:SBK GENVY YA 201321615
+(1/6) 18:05 7007 SBK ZRFN YA-UP, ; Znc:334Y- Fho:SBKJBBQ Ang:28-PIN Havgf:Z510 SB334 FD91 K-Fg:SBK GENVY YA 201321615
+
 Pbagnpg: Npgvir911.pbz
 Fraqre: <PbzzPragre@pprzf.pbz>
 02/17 17:42 QHAPNA EQ-UP/J SZ 1960-UP, ; Znc:370P- Fho: Ang:29-ZBGBE IRUVPYR VAPVQRAG Havgf:Z55 SB370 R12 K-Fg:J SZ 1960 GURNYY EQ 201207247
@@ -654,6 +659,36 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:XNGL SEJL JO JNYZNEG UBZR",
         "VQ:201320954");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRtnynemn331() {
+
+    qbGrfg("G1",
+        "(5/25) 18:05 7007 SBK ZRFN YA-UP, ; Znc:334Y- Fho:SBKJBBQ Ang:28-PIN Havgf:Z510 SB334 FD91 K-Fg:SBK GENVY YA 201321615",
+        "FEP:5/25",
+        "QNGR:05/25",
+        "GVZR:18:05",
+        "NQQE:7007 SBK ZRFN YA",
+        "ZNC:334Y-",
+        "CYNPR:SBKJBBQ",
+        "PNYY:28-PIN",
+        "HAVG:Z510 SB334 FD91",
+        "K:SBK GENVY YA",
+        "VQ:201321615");
+
+    qbGrfg("G2",
+        "(1/6) 18:05 7007 SBK ZRFN YA-UP, ; Znc:334Y- Fho:SBKJBBQ Ang:28-PIN Havgf:Z510 SB334 FD91 K-Fg:SBK GENVY YA 201321615",
+        "QNGR:01/06",
+        "GVZR:18:05",
+        "NQQE:7007 SBK ZRFN YA",
+        "ZNC:334Y-",
+        "CYNPR:SBKJBBQ",
+        "PNYY:28-PIN",
+        "HAVG:Z510 SB334 FD91",
+        "K:SBK GENVY YA",
+        "VQ:201321615");
+     
   }
     
   @Grfg
