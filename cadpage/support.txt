@@ -264,7 +264,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-THIRRGFA or thirrgfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+GEZEXWGA or gezexwga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -371,7 +371,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-THIRRGFA or thirrgfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+GEZEXWGA or gezexwga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -390,27 +390,6 @@ We are very grateful for all contributions and apologize for any complications.
 Jean, Assistant to Ken Corbin
 
 *********************************************************************
-
-I cannot find a payment from you.  Under what name was the payment made?  Have you recently changed your email address?  Is it possible that you or your department have paid for an account with Active911?
-
-Here are the details in setting up Cadpage with Active911.  If this is not correct, please let me know.
-
-First, do you have an account with Active911?  If not you should contact them about getting set up.  You can do that by visiting their web page at Active911.com.  Click the contact link, then the "click here to sign up online" link in the right sidebar.
-
-If someone already set up a device for you, they should give you the device number and activation code you will need.  If you do not have that, Go to their website and open the Member Access page.  Then select the correct department and open the Devices tab.  If there is a device entry for you, it will show the required device number and activation code.  If not it should tell you who to contact to set one up.  The device type needs to be set to Smartphone and the Page Type to "Cadpage Direct (Android)"  Make a note of the Device Key (or Access Code) associated with the device.
-
-Next open the Cadpage settings on your phone.  Select
-Direct Paging Vendors > Active911.com > Register
-This takes you to a web page where you need to enter the two part Device Key / Access code associated with the device.  If all goes well, Cadpage will display a notice that your Active911 direct paging connection has been activated.
-
-At this point, Active911 will start sending you pages through the Internet data network instead of using SMS text pages.
-
-Please let me know if you still  have problems with Cadpage.
-
-Good Luck,
-Jean -- Assistant to Ken Corbin 
-
-******************************************************************
 
 I found your free subscription to Cadpage as of _____.  
 
@@ -516,7 +495,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-THIRRGFA or thirrgfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+GEZEXWGA or gezexwga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -530,7 +509,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-THIRRGFA or thirrgfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+GEZEXWGA or gezexwga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -540,7 +519,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-THIRRGFA or thirrgfa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+GEZEXWGA or gezexwga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -553,7 +532,7 @@ Have a nice day,
 
 No problem. I have added your name and current User email address to a backup authorization server.  
 
-Please try again:  Go into settings, press Payment Status and then Recalculate Payment Status,
+Please try again:  Go into Settings, press Payment Status and then Recalculate Payment Status,
 
 As always, please let us know of any further difficulties. 
 
@@ -1840,7 +1819,7 @@ Good luck,
 -Ken
 
 ********************************************************************************
-GCM Registration Failure
+GCM Registration Failure or phone registration error
 
 Go into Cadpage settings and select
 Direct Paging Vendors > Reconnect Direct Paging
@@ -1851,12 +1830,20 @@ Good luck,
 -Ken 
 *********************************************************************************
 
-Ah yes, the dreaded PHONE_REGISTRATION_ERROR problem.  This started about 2 weeks ago, so far the best solution seems to be to keep retrying it until it works.
+Ah yes, the dreaded PHONE_REGISTRATION_ERROR problem, that started about 2 weeks ago.
 
-Since you are no longer registered with Active911, you will need to go through the whole registration process again.  If it doesn't work the first time, try it a couple more times.  If it still does not work, use the Email the Developer setting to ask for help.  That will include an event log that might be helpful.
+Ken has released a new Cadpage update to handle this.  First, Please install the latest Cadpage release.
 
-Good luck,
--Ken
+Then, you will need to register again with Active911.  
+
+If you are already registered successfully, you will need to go into Cadpage settings and select
+Direct Paging Vendors > Reconnect Direct Paging
+
+Please let us know if this fails to solve the problem, or if you need further help.  This is a new fix.
+
+Thanks for your patience,
+Jean, Assistant to Ken Corbin
+
 *********************************************************************************
 The intended purpose of Cadpage is to support emergency responders who get text pages from a central dispatch center when they are asked to respond to an emergency.  
 
