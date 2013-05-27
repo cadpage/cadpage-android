@@ -49,8 +49,13 @@ public class CadPageApplication extends Application {
         VendorManager.instance().newReleaseReset(this);
 
         // If we have a GCM registration ID, we are supposed to request a new one
+        // But if we don't have any registered GCM vendors, just erase the old registration ID
         if (ManagePreferences.registrationId() != null) {
-           C2DMService.register(this, true);
+          if (VendorManager.instance().isRegistered()) {
+            C2DMService.register(this, true);
+          } else {
+            ManagePreferences.setRegistrationId(null);
+          }
         }
       }
       
