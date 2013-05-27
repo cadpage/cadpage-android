@@ -2,6 +2,7 @@ package net.anei.cadpage;
 
 import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Random;
 
 import net.anei.cadpage.HttpService.HttpRequest;
@@ -265,9 +266,8 @@ public class C2DMService extends IntentService {
    * @param intent received intent
    */
   private void sendAutoAck(Intent intent, String vendorCode) {
-    String ackReq = intent.getStringExtra("ack_req");
     String ackURL = intent.getStringExtra("ack_url");
-    sendResponseMsg(this, ackReq, ackURL, "AUTO", vendorCode);
+    sendResponseMsg(this, "", ackURL, "AUTO", vendorCode);
   }
     
   private void processContent(Intent intent, String content, long timestamp) {
@@ -368,19 +368,18 @@ public class C2DMService extends IntentService {
     if (ackReq.contains("P")) {
       DonationStatus status = DonationManager.instance().status(); 
       String paid;
-      String expireDate;
+      String expireDate = null;
       if (status == DonationManager.DonationStatus.LIFE) {
         paid = "YES";
         expireDate = "LIFE";
       } else if (ManagePreferences.freeSub()) {
         paid = "NO";
-        expireDate = null;
       } else if (status == DonationStatus.PAID || status == DonationStatus.PAID_WARN) {
         paid = "YES";
-        expireDate = DATE_FORMAT.format(DonationManager.instance().expireDate());
+        Date expDate = DonationManager.instance().expireDate();
+        if (expDate != null) expireDate = DATE_FORMAT.format(expDate);
       } else {
         paid = "NO";
-        expireDate = null;
       }
       bld.appendQueryParameter("paid_status", paid);
       if (expireDate != null) bld.appendQueryParameter("paid_expire_date", expireDate);

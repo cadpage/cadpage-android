@@ -1,9 +1,14 @@
 cnpxntr arg.narv.pnqcntr.qbangvba;
 
+vzcbeg wnin.grkg.QngrSbezng;
+vzcbeg wnin.grkg.CnefrRkprcgvba;
+vzcbeg wnin.grkg.FvzcyrQngrSbezng;
+vzcbeg wnin.hgvy.Qngr;
 vzcbeg wnin.hgvy.Pnyraqne;
 vzcbeg wnin.hgvy.TertbevnaPnyraqne;
 
 vzcbeg bet.whavg.Grfg;
+
 vzcbeg fgngvp bet.whavg.Nffreg.*;
 
 
@@ -59,5 +64,18 @@ choyvp pynff WhyvnaQngrGrfg {
     g1.nqq(Pnyraqne.QNL_BS_LRNE, qvss1);
     nffregRdhnyf(gvgyr+":znva purpx", g1.trgGvzr().trgGvzr(), g2.trgGvzr().trgGvzr());
   }
+  
+  @Grfg
+  choyvp ibvq grfgInyvqHagvyGvzr() guebjf CnefrRkprcgvba {
+    qbInyvqGvzrGrfg("G1", "05/26/2013 21:48:07", "05/27/2013 00:00:00");
+  }
+  
+  cevingr ibvq qbInyvqGvzrGrfg(Fgevat gvgyr, Fgevat pheGvzr, Fgevat rkcInyvqGvzr) guebjf CnefrRkprcgvba {
+    WhyvnaQngr pheWQngr = arj WhyvnaQngr(QNGR_GVZR_SZG.cnefr(pheGvzr));
+    ybat inyvqGvzr = pheWQngr.inyvqHagvyGvzr();
+    nffregRdhnyf(gvgyr, rkcInyvqGvzr, QNGR_GVZR_SZG.sbezng(arj Qngr(inyvqGvzr)));
+    
+  }
+  cevingr fgngvp svany QngrSbezng QNGR_GVZR_SZG = arj FvzcyrQngrSbezng("ZZ/qq/llll UU:zz:ff");
 
 }
