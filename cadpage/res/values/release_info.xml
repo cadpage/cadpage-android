@@ -1,41 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05202013</string>
-  <string name="release_version">v1.6.24</string>
+  <string name="release_date">05262013</string>
+  <string name="release_version">v1.6.25</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Bay County, MI\n
-Holmes County, OH\n
-Montgomery County, OH\n
-Bedford County, TN\n
+Barry County, MI\n
+Lenoir County, NC\n
 \n
 Location Parsing Fixes:\n
-Shelby County, AL\n
+Madison County, AL\n
+New Haven County, CT\n
+Northwest Public Services, CT\n
 DuPage County, IL\n
-Tipton County, IN\n
-Stone County, MO\n
-Burlington County, NJ\n
-Ocean County, NJ\n
+St Clair County, IL\n
+Porter County, IN\n
+Bay County, MI\n
+Jefferson County, MO\n
 Cayuga County, NY\n
-Suffolk County, NY\n
-Surry County, NC\n
-Benton County, OR\n
-Adams County, PA\n
-Allegheny County, PA\n
+Nassau County, NY\n
+Madison County, NC\n
+Rockingham County,  NC\n
+Bucks County, PA\n
 Chester County, PA\n
-Crawford County, PA\n
 Mercer County, PA\n
-Lincoln County, SD\n
-Hood County, TX\n
-Mason County, WA\n
-Thurston County, WA\n
-Calumet County, WI\n
+CyCreek Comm Center, TX\n
+Loudoun County, VA\n
 \n
 General Fixes:\n
-Attempt to fix problem that started disconnect
-direct paging connections last week.\n
+Another attempt to fix problem that started disconnecting
+direct paging connections two weeks ago.\n
+Improved responder position reporting feature.\n
+Cadpage was not available for Galaxy Tab 2.\n
+Call Detail Screen not changing screen orientation.\n
   </string>  
 </resources>
   
