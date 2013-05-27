@@ -2198,6 +2198,11 @@ Lnezbhgu, ZN (ZNLnezbhguCnefre)
  579 OHPX VFYNAQ EQ\aZNLSYBJRE CYNPR\aLNEZBHGU\aZrqvpny Cevbevgl 2/3\a3_Fbhgu_1\a\aAbgrf\aOERJFGRE HAVG RLR FJRYYVAT
  43 ZRQVANU QE\a2_Jrfg_3\a\aAbgrf\aQRULQENGVBA FUBEGARFF BS OERNGU
 ***************************************************************************
+Oneel Pbhagl, ZV (ZVOneelPbhaglCnefre)
+[PNQ Cntr sbe PSF 051213-48]  NFFHNYG , 4282 CVPXRERY PBIR EQ\a20:31\aBERFVX SYRQ BA SBBG\a\aPEBFF BS ZNEFU EQ / EVTUG ORUVAQ TVYYR
+[PNQ Cntr sbe PSF 031913-37]  ZRQVPNY RZRETRAPL , 9500 ORIRE EQ\a12:16\aErfcbaqre Fpevcg6.Fur qvq abg gnxr nal qehtf (zrqvpngvbaf)
+[PNQ Cntr sbe PSF 051113-57]  ZRQVPNY RZRETRAPL , 4734 GBEFGRA QE\a13:44\aErfcbaqre FpevcgUNF CNPR\a\aErfcbaqre Fpevcg5.Fur vf hajr
+***************************************************************************
 Onl Pbhagl, ZV (ZVOnlPbhaglCnefre)
 SVER NYNEZ  200 NGUYBAR OPU, Onatbe Gjc    eboreg yrr erfvqrapr- tra sver nynez4/30/2013 9:34:32 CZ
 FGEHPGHER  1012 A PUVYFBA FG, Onatbe Gjc  QELRE SVER VA GUR TNENTR JUVPU VF NGGNPURQ GB GUR UBHFR5/18/2013 3:31:35 CZ
@@ -5932,32 +5937,6 @@ Pbagnpg: Xryyl Bhoer <xryyl.bhoer74@tznvy.pbz>
 Fraqre: Qvfcngpu@guvosverqrcg.bet
 (Sver Pnyy- 5/11/2013 8:37:35 NZ) <uggc://zncf.tbbtyr.pbz/zncf?d=113+PRQNE+FG,+70301>\a\a113 PRQNE FG\a\aFGBIR BA SVER
 **********************************************************
-Oneel Pbhagl, ZV
-Pbagnpg: Zngg Ryxvaf <zryxvaf83@tznvy.pbz>
-[PNQ Cntr sbe PSF 051213-48]  NFFHNYG , 4282 CVPXRERY PBIR EQ
-20:31
-BERFVX SYRQ BA SBBG
-
-PEBFF BS ZNEFU EQ / EVTUG ORUVAQ TVYYR
-
-[PNQ Cntr sbe PSF 031913-37]  ZRQVPNY RZRETRAPL , 9500 ORIRE EQ
-12:16
-Erfcbaqre Fpevcg6.Fur qvq abg gnxr nal qehtf (zrqvpngvbaf)
-
-[PNQ Cntr sbe PSF 051113-57]  ZRQVPNY RZRETRAPL , 4734 GBEFGRA QE
-13:44
-Erfcbaqre FpevcgUNF CNPR
-
-Erfcbaqre Fpevcg5.Fur vf hajr
-
-[PNQ Cntr sbe PSF 050813-17]  SVER , 11965 SNEZ IVRJ QE
-09:08
-PBZC PNA FZRYY FZBXR SEBZ HAQRE GUR GENVYRE.  PNA ABG FRR NAL FZBXR
-
-[PNQ Cntr sbe PSF 050313-44]  ZRQVPNYGENAFSRE , 11075 XRYYRE EQ
-13:43
-GENAFCBEG GB ZNTAHZ
-uggc://zncf.tbbtyr.pbz/zncf?d=+42.5629
 **********************************************************
 **********************************************************
 **********************************************************
