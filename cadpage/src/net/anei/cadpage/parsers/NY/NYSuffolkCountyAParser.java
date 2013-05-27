@@ -18,7 +18,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "paging@scfres.com,@communityamb.org";
+    return "paging@scfres.com,@communityamb.org,FRES CAD";
   }
 
   @Override
