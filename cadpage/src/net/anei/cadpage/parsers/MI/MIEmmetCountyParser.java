@@ -17,7 +17,7 @@ public class MIEmmetCountyParser extends DispatchOSSIParser {
   
   MIEmmetCountyParser(String defCity, String defState) {
     super(CITY_CODES, defCity, defState,
-           "ID?:( CANCEL | FYI CALL SRC ) ADDR! CITY? INFO+");
+           "ID?:( CANCEL | FYI CALL SRC? ) ADDR! CITY? SRC? INFO+");
   }
   
   @Override
@@ -48,10 +48,17 @@ public class MIEmmetCountyParser extends DispatchOSSIParser {
       "HS",   "HARBOR SPRINGS",
       
       "BRC",  "BEAR CREEK TWP",
+      "CRS",  "CROSS VILLAGE TWP",
+      "FRN",  "FRIENDSHIP TWP",
       "LTR",  "LITTLE TRAVERSE TWP",
+      "MCK",  "MCKINLEY TWP",
       "MLR",  "MELROSE TWP",
       "PLS",  "PLEASANTVIEW TWP",
+      "RDM",  "READMOND TWP",
       "RST",  "RESORT TWP",
       "WST",  "WEST TRAVERSE TWP",
+      
+      // Charlevoix County
+      "BYT",  "BOYNE CITY"
   });
 }

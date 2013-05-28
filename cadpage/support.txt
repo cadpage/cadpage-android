@@ -1,10 +1,44 @@
 
 support@cadpage.org
 
+
+******************************************************************
+** PHONE_REGISTRATION_ERROR responses
+******************************************************************
+
+Something has been going haywire with the Google infrastructure supporting direct paging about 2 weeks ago.  I only impacts a small percentage of direct paging users, but that is small comfort to those that are impacted.  We have been complaining to Google but so far have not gotten any response.
+
+The latest version of Cadpage (v1.6.25) has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
+
+Good luck,
+-Ken
+
+******************************************************************
+
+First, make sure you have the v1.6.25 version of Cadpage installed.
+
+Next, try registering with Active911 again.  This version will not report a PHONE_REGISTRATION_ERROR like previous versions.  Instead it will continue to send registration requests to Google for about an hour before giving up.  If you get the Active911 registration screen within a few minutes, we have succeeded and Active911 registration should proceed with no difficulty.
+
+If not, double check that the account associated with Google Play Store is valid.  Open the Play Store App and select
+Menu > Accounts
+verify that the selected account is the one you expect.
+
+The go back to the home screen and select
+Menu > Settings
+Scroll down to the Account settings and select Google
+Verify that the Google Play account is syncing properly (ie.. that the last sync date/time is fairly recent)
+
+Wait a couple hours and try the registration process again.  Just in case Cadpage did finally succeed in getting a connection from Google.
+
+If it still doesn't work.  We are down to recommending a factory reset.  Which is a drastic step. Before you resort to that, please contact us to see if we have learned anything new.
+
+Good luck,
+-Ken
+
 ******************************************************************
 
 Those are coming from CodeMessaging, and CodeMessaging has been
-switching their dispatch pages to usfe one of our standard formats.
+switching their dispatch pages to use one of our standard formats.
 
 If you are getting these directly from CodeMessaging, meaning they come
 from a a rc.nnn@c-msg.net address, then you probably want to switch to
