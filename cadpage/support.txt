@@ -1,6 +1,14 @@
 
 support@cadpage.org
 
+******************************************************************
+
+You are not currently registered to receive direct pages from Active911.  To fix this you will have to go through the registration process again.
+
+Several users have reported that installing v1.6.25 unregistered them from Active911.  So far I have not found any hard evidence of this happening, but the investigation is continuing.  If you believe this has happened to you, can you send me your Active911 device number so I can have them research things on their side of the fence.
+
+Thanks,
+-Ken
 
 ******************************************************************
 ** PHONE_REGISTRATION_ERROR responses

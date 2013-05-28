@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="release_date">05262013</string>
-  <string name="release_version">v1.6.25</string>
+  <string name="release_version">v1.6.26</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -17,9 +17,11 @@ DuPage County, IL\n
 St Clair County, IL\n
 Porter County, IN\n
 Bay County, MI\n
+Emmet County, MI\n
 Jefferson County, MO\n
 Cayuga County, NY\n
 Nassau County, NY\n
+Suffolk COunty, NY\n
 Madison County, NC\n
 Rockingham County,  NC\n
 Bucks County, PA\n
@@ -34,6 +36,8 @@ direct paging connections two weeks ago.\n
 Improved responder position reporting feature.\n
 Cadpage was not available for Galaxy Tab 2.\n
 Call Detail Screen not changing screen orientation.\n
+Force close and direct paging disconnection problems
+introduced in v1.6.25.\n
   </string>  
 </resources>
   
