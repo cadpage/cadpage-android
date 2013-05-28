@@ -10,6 +10,8 @@ Something has been going haywire with the Google infrastructure supporting direc
 
 The latest version of Cadpage (v1.6.25) has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
 
+If it does not, use the Email the Developer feature to report the situation and we will see what we can do from there.
+
 Good luck,
 -Ken
 
