@@ -149,7 +149,7 @@ public class TrackingService extends Service implements LocationListener {
       Criteria criteria = new Criteria();
       criteria.setAccuracy(Criteria.ACCURACY_FINE);
       bestProvider = locMgr.getBestProvider(criteria, true);
-      locMgr.requestLocationUpdates(bestProvider, minDist, minTime, this);
+      if (bestProvider != null) locMgr.requestLocationUpdates(bestProvider, minDist, minTime, this);
     }
 
     // Get a list of all enabled location providers see which one 
