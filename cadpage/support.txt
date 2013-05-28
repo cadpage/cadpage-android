@@ -14,7 +14,7 @@ Thanks,
 ** PHONE_REGISTRATION_ERROR responses
 ******************************************************************
 
-Something has been going haywire with the Google infrastructure supporting direct paging about 2 weeks ago.  I only impacts a small percentage of direct paging users, but that is small comfort to those that are impacted.  We have been complaining to Google but so far have not gotten any response.
+Something has been going haywire with the Google infrastructure supporting direct paging for about 2 weeks ago.  It only impacts a small percentage of direct paging users, but that is small comfort to those who are impacted.  We have been complaining to Google but so far have not gotten any response.
 
 The latest version of Cadpage (v1.6.25) has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
 
@@ -38,15 +38,28 @@ Menu > Settings
 Scroll down to the Account settings and select Google
 Verify that the Google Play account is syncing properly (ie.. that the last sync date/time is fairly recent)
 
-Wait a couple hours and try the registration process again.  Just in case Cadpage did finally succeed in getting a connection from Google.
+Wait a of couple hours and try the registration process again, just in case Cadpage did finally succeed in getting a connection from Google.
 
-If it still doesn't work.  We are down to recommending a factory reset.  Which is a drastic step. Before you resort to that, please contact us to see if we have learned anything new.
+If it still doesn't work, we are down to recommending a factory reset.  Which is a drastic step. Before you resort to that, please contact us to see if we have learned anything new.
 
 Good luck,
 -Ken
 
 ******************************************************************
 
+First,  make you you have installed the latest version of Cadpage (1.6.25).  It has some additional logic to resolve at least one of the causes of our phone registration error issue.
+
+Next, use the Active911 member info web page to send a test message to your device.  If it arrives, problems are all solved.
+
+If not, go into Cadpage Settings and select
+Direct Paging Vendors > Reconnect Direct paging
+
+Then back out to the main settings menu and use the Email the Developer feature to send us an email.  That will include a lot of technical and event log information that I can use to investigate what is going on.
+
+Good luck,
+-Ken
+
+***************************************************************************
 Those are coming from CodeMessaging, and CodeMessaging has been
 switching their dispatch pages to use one of our standard formats.
 
@@ -308,7 +321,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-GEZEXWGA or gezexwga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+UJBEEFEA or ujbeefea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -415,7 +428,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-GEZEXWGA or gezexwga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+UJBEEFEA or ujbeefea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -539,7 +552,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GEZEXWGA or gezexwga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+UJBEEFEA or ujbeefea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -553,7 +566,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GEZEXWGA or gezexwga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+UJBEEFEA or ujbeefea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -563,7 +576,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GEZEXWGA or gezexwga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+UJBEEFEA or ujbeefea.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
