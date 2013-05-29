@@ -12,6 +12,15 @@ Thank you for reporting it,
 ** PHONE_REGISTRATION_ERROR responses
 ******************************************************************
 
+Your phone are not currently registered with Active911 to receive direct pages.  I cannot tell, but you may well have been caught by a "feature" in the v1.6.25 version that was disconnecting direct paging users that were receiving direct pages even though the registration process had  never successfully completed.  That has been fixed in the latest Cadpage release, but installing that now will not help you, you have already been disconnected.
+
+In any case, you need to re-register your phone with Active911 to enable direct paging.
+
+Good luck,
+-Ken
+
+******************************************************************
+
 Something has been going haywire with the Google infrastructure supporting direct paging for about 2 weeks ago.  It only impacts a small percentage of direct paging users, but that is small comfort to those who are impacted.  We have been complaining to Google but so far have not gotten any response.
 
 The latest version of Cadpage (v1.6.26) has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.

@@ -488,7 +488,7 @@ public class C2DMService extends IntentService {
     }
     
     if (intent == null) return false;
-    Log.trace("C2DMService sending registration request");
+    Log.v("C2DMService sending registration request");
     ContentQuery.dumpIntent(intent);
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
     return context.startService(intent) != null;
