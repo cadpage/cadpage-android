@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.TX;
 
-import java.util.Properties;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -97,71 +95,3 @@ private static final String[] CITY_LIST = new String[]{
     
   };
 }
-//  
-//  @Override
-//  public String getProgram() {
-//    return super.getProgram().replace(" CITY ", " SRC CITY ");
-//  }
-//  
-//  private class MyCity2Field extends CityField {
-//    @Override
-//    public boolean checkParse(String field, Data data) {
-//      if (field.length() == 4) return false;
-//      return super.checkParse(field, data);
-//    }
-//  }
-//  
-//  private static final Pattern SOURCE_PTN = Pattern.compile("[A-Z]{2}FD"); 
-//  private class MySourceField extends SourceField {
-//    public MySourceField() {
-//      setPattern(SOURCE_PTN);
-//    }
-//  }
-  
-//  
-//  private class MyInfoField extends InfoField {
-//    @Override
-//    public void parse(String field, Data data) {
-//      Matcher match = SOURCE_PTN.matcher(field);
-//      if (match.matches()) {
-//        data.strSource = field;
-//        if (data.strCity.length() == 0) data.strCity = field;
-//        return;
-//      }
-//      if (checkAddress(field) > 0) {
-//        data.strCross = append(data.strCross, " & ", field);
-//      } else {
-//        super.parse(field, data);
-//      }
-//    }
-//    
-//    @Override
-//    public String getFieldNames() {
-//      return "SRC CITY X INFO";
-//    }
-//  }
-  
-//  
-//  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-//      "ARFD", "ARGYLE",
-//      "CORI", "CORINTH",
-//      "LAKE", "LAKE DALLAS",
-//      "LEFD", "LITTLE ELM",
-//      "LVFD", "LEWISVILLE",
-//      "HICK", "HICKORY CREEK",
-//      "PPFD", "PILOT POINT",
-//      "SHAD", "SHADY SHORES",
-//      "TCFD", "THE COLONY",
-//      "LCFD", "LAKE CITIES",
-//  });
-  
-//    "ARFD", 
-//    "CORI", 
-//    "LAKE", 
-//    "LEFD",
-//    "LVFD", 
-//    "HICK", 
-//    "SHAD", 
-//    "PPFD",    
-//    "TCFD",
-//    "LCFD",
