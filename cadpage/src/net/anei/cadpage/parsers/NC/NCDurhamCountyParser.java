@@ -11,7 +11,7 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
   
   public NCDurhamCountyParser() {
     super("DURHAM COUNTY", "NC",
-           "CALL ADDR CH? X? X? INFO+");
+           "CALL ADDR CH? INFO+");
   }
   
   @Override
@@ -57,9 +57,27 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
     }
   }
   
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() == 0) return;
+      if (checkAddress(field) > 0) {
+        data.strCross = append(data.strCross, " & ", field);
+      } else {
+        super.parse(field, data);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO X";
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("CH")) return new MyChannelField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
 }
