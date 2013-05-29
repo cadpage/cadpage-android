@@ -3,11 +3,9 @@ support@cadpage.org
 
 ******************************************************************
 
-You are not currently registered to receive direct pages from Active911.  To fix this you will have to go through the registration process again.
+There is a new version of Cadpage available in the Google Play Store that fixes this.
 
-Several users have reported that installing v1.6.25 unregistered them from Active911.  So far I have not found any hard evidence of this happening, but the investigation is continuing.  If you believe this has happened to you, can you send me your Active911 device number so I can have them research things on their side of the fence.
-
-Thanks,
+Thank you for reporting it,
 -Ken
 
 ******************************************************************
@@ -16,7 +14,7 @@ Thanks,
 
 Something has been going haywire with the Google infrastructure supporting direct paging for about 2 weeks ago.  It only impacts a small percentage of direct paging users, but that is small comfort to those who are impacted.  We have been complaining to Google but so far have not gotten any response.
 
-The latest version of Cadpage (v1.6.25) has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
+The latest version of Cadpage (v1.6.26) has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
 
 If it does not, use the Email the Developer feature to report the situation and we will see what we can do from there.
 
@@ -25,7 +23,7 @@ Good luck,
 
 ******************************************************************
 
-First, make sure you have the v1.6.25 version of Cadpage installed.
+First, make sure you have the v1.6.26 version of Cadpage installed.
 
 Next, try registering with Active911 again.  This version will not report a PHONE_REGISTRATION_ERROR like previous versions.  Instead it will continue to send registration requests to Google for about an hour before giving up.  If you get the Active911 registration screen within a few minutes, we have succeeded and Active911 registration should proceed with no difficulty.
 
@@ -816,6 +814,7 @@ LATE PAGES:
 If you can long press one of the calls you get and select Report Problem to send them to us, I could give you a better idea what is happening.  I need to see all of the alerts that are associated with one of your calls.
 
 *******************************************************************
+
 This has been reported by a few people using direct paging.  The Google protocol we use to push pages out to Cadpage seems to suffer from unexplained delays.  If only affects a few people, but once it starts happening it seems to reoccur.  Usually restarting the device and reconnecting to your direct paging vendor fixes the problem.  To do that, go into settings and select
 Direct Paging Vendors > Reconnect Direct Paging
 
@@ -823,11 +822,12 @@ You can go to the Active911 member info page, select the devices tab and send yo
 
 Good luck,
 -Ken 
+
 ******************************************************************
 
-Here is the long list of things to check when Cadpage is not working. Some things may not apply to you. Take it one step at a time. The important steps are the last two.  They send us information about your text pages that we need to figure out what is wrong.
+We have two different long and involved trouble shooting procedures.  This the list for user who are getting regular text pages.  If you are getting direct pages from Active911 or CodeMessaging, this is the wrong list for you.  You should contact us for the direct page troubleshooting list.
 
-Does your department use a messaging service like Active911 or CodeMessaging?  You would need to register your device.  Just let me know which service, and I can provide the details.
+It is a long list. Take it one step at a time. The important steps are the last two.  They send us information about your text pages that we need to figure out what is wrong.
 
 Do you have Go SMS Pro or Handcent or AT&T Messenger installed?  They have proven to be incompatible with Cadpage. We keep the most recent version of Handcent that works with Cadpage on our Download page at http://www.cadpage.org/download-cadpage/
 
