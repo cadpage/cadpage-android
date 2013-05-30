@@ -20,15 +20,19 @@ public class VARoanokeCountyParser extends SmartAddressParser {
   public VARoanokeCountyParser() {
     super("ROANOKE COUNTY", "VA");
     setupCallList(
+        "ACCIDENT",
         "ACCIDENT PERSONAL INJURY",
         "ALS",
         "ALS CRITICAL",
+        "BLS",
         "COMMERCIAL FIRE ALARM",
         "COMMERCIAL GAS LEAK",
         "COMMERCIAL STRUCTURE FIRE",
+        "FIRE SERVICE CALL",
         "RESIDENTIAL FIRE ALARM",
         "RESIDENTIAL GAS LEAK",
-        "RESIDENTIAL STRUCTURE FIRE"
+        "RESIDENTIAL STRUCTURE FIRE",
+        "SERVICE CALL"
     );
     setFieldList("UNIT CALL PLACE ADDR APT X DATE TIME");
   }
