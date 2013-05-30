@@ -14,7 +14,7 @@ public class NJMercerCountyParser extends FieldProgramParser {
   
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("; Disp: ?\\d\\d:\\d\\d;");
   
-  private static final Pattern UNIT_PTN = Pattern.compile("^UNIT: +([A-Z0-9]+) *; *");
+  private static final Pattern UNIT_PTN = Pattern.compile("^UNIT: +([ A-Z0-9]+) *; *");
   
   
   public NJMercerCountyParser() {
