@@ -51,7 +51,7 @@ public class VARoanokeCountyParser extends SmartAddressParser {
     int pt = body.indexOf(" XST ");
     if (pt >= 0) {
       String cross  = body.substring(pt+5).trim().replace("   ", " & ");
-      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, cross, data);
+      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT, cross, data);
       data.strPlace = getLeft();
       body = body.substring(0,pt).trim();
       good = true;

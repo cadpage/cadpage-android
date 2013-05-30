@@ -15,7 +15,7 @@ public class DispatchRedAlertParser extends SmartAddressParser {
   
   public DispatchRedAlertParser(String defCity, String defState) {
     super(defCity, defState);
-    setFieldList("CALL CODE INFO ADDR APT CITY X PLACE TIME");
+    setFieldList("CALL CODE INFO ADDR APT CITY BOX X PLACE TIME");
   }
 
   @Override

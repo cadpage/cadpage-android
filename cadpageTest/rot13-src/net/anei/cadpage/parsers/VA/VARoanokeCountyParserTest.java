@@ -103,7 +103,8 @@ choyvp pynff INEbnabxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:PB3 J3 PB11 R11 PB7 J7 ERF3 Z31 Y3 RZF2",
         "PNYY:Pbzzrepvny Fgehpgher Sver",
         "NQQE:3155 Oreel YA",
-        "K:RYRPGEVP EQ CBFGNY QE QRNQ RAQ");
+        "K:RYRPGEVP EQ / CBFGNY QE",
+        "CYNPR:QRNQ RAQ");
 
     qbGrfg("G5",
         "PBZZREPVNY SVER NYNEZ EVPUSVRYQ ZRZBEL PNER PRAGRE 3719 XABYYEVQTR EQ KFG",
