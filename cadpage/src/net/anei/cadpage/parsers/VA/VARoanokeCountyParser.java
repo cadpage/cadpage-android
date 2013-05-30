@@ -22,6 +22,7 @@ public class VARoanokeCountyParser extends SmartAddressParser {
     setupCallList(
         "ACCIDENT PERSONAL INJURY",
         "ALS",
+        "ALS CRITICAL",
         "COMMERCIAL FIRE ALARM",
         "COMMERCIAL GAS LEAK",
         "COMMERCIAL STRUCTURE FIRE",
@@ -29,6 +30,7 @@ public class VARoanokeCountyParser extends SmartAddressParser {
         "RESIDENTIAL GAS LEAK",
         "RESIDENTIAL STRUCTURE FIRE"
     );
+    setFieldList("UNIT CALL PLACE ADDR APT X DATE TIME");
   }
 
   @Override
@@ -44,7 +46,9 @@ public class VARoanokeCountyParser extends SmartAddressParser {
     
     int pt = body.indexOf(" XST ");
     if (pt >= 0) {
-      data.strCross = body.substring(pt+5).trim().replace("   ", " & ");
+      String cross  = body.substring(pt+5).trim().replace("   ", " & ");
+      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, cross, data);
+      data.strPlace = getLeft();
       body = body.substring(0,pt).trim();
       good = true;
     } else if (body.endsWith(" XST")) {
@@ -60,8 +64,9 @@ public class VARoanokeCountyParser extends SmartAddressParser {
     }
     if (!good) return false;
     
-    parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_ANCHOR_END | FLAG_START_FLD_NO_DELIM, body, data);
+    parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_START_FLD_NO_DELIM, body, data);
     if (data.strAddress.length() == 0) return false;
+    data.strApt = append(data.strApt, "-", getLeft());
     
     // See if we should split a place name from the call description
     if (data.strPlace.length() == 0) {
