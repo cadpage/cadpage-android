@@ -36,7 +36,7 @@ public class NYErieCountyCParser extends SmartAddressParser {
     parseAddress(StartType.START_CALL, FLAG_IGNORE_AT, body, data);
     data.strSupp = getLeft();
     if (getStatus() == 0) {
-      return data.parseGeneralAlert(saveBody);
+      return data.parseGeneralAlert(this, saveBody);
     }
     
     pt = data.strCall.indexOf(':');

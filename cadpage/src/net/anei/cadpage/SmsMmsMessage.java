@@ -463,6 +463,7 @@ public class SmsMmsMessage implements Serializable {
     if (reqLocation != null) {
       try {
         parser = ManageParsers.getInstance().getParser(reqLocation);
+        location = reqLocation;
       } catch (RuntimeException ex) {
         Log.e(ex);
       }
@@ -490,6 +491,12 @@ public class SmsMmsMessage implements Serializable {
     // If we didn't build a parse message info object when this was constructed
     // we never will have and pared message information
     if (parseInfo == null) return null;
+    
+    // Early versions of the Cadpage parser were setting location to the secondary 
+    // parser name which is cause subsequent attempt to parse the information with the
+    // wrong parser to fail.  We don't do that anymore, but we do want to fix calls
+    // that were parsed with that version.
+    if (reqLocation != null && reqLocation.startsWith("Cadpage")) location = reqLocation;
     
     // Some special logic if the previous location was General
     // And the current location code preference is not general

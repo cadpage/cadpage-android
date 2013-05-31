@@ -32,7 +32,7 @@ public class VARoanokeCityParser extends FieldProgramParser {
       String sAddr = match.group(2).replace("APT ", " APT").trim();
       parseAddress(sAddr, data);
       if (checkAddress(data.strAddress, 2) > 0) return true;
-      data.initialize();
+      data.initialize(this);
     }
     
     return super.parseMsg(body, data);

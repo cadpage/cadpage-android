@@ -65,11 +65,11 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     
     // Parse failure - but see if this is one of two kinds of recognized general message
     if (subject.equals("Important message from Bucks County RSAN")) {
-      data.parseGeneralAlert(saveBody);
+      data.parseGeneralAlert(this, saveBody);
     } else if (subject.equals("911 Data")) {
       match = GEN_ALERT_MARKER.matcher(saveBody);
       if (!match.find()) return false;
-      data.parseGeneralAlert(saveBody.substring(match.end()).trim());
+      data.parseGeneralAlert(this, saveBody.substring(match.end()).trim());
       data.strDate = match.group(1);
       data.strTime = match.group(2);
     } else return false;

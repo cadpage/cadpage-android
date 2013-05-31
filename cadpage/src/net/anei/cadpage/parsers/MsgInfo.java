@@ -72,7 +72,15 @@ public class MsgInfo {
   // Cached map address
   private String strBaseMapAddress = null;
   
-  // Parser used to create this information block
+  // Parser code of parser used to create this information block
+  private String parserCode;
+  
+  // Parser to be used for any followup processing
+  // This is usually the same as the parser used to create this information block
+  // The exception is the Cadpage family of parsers that are relaying information
+  // created by another primary parser running on a vendor server.  In that
+  // situation, parserCode refers to the Cadpage class parser that parsed the 
+  // information and parser points to the original information parser
   private MsgParser parser;
   
 
@@ -110,19 +118,19 @@ public class MsgInfo {
     public boolean preferGPSLoc;
     
     public boolean expectMore;
-    
+
+    public String parserCode;
     public MsgParser parser;
     public String strBaseMapAddress;
     
     public Data(MsgParser parser) {
-      this.parser = parser;
-      initialize();
+      initialize(parser);
     }
     
     /**
      * Initialize existing Data structure to original state
      */
-    public void initialize() {
+    public void initialize(MsgParser parser) {
       expectMore = false;
       
       strCall = "";
@@ -152,7 +160,9 @@ public class MsgInfo {
       countryCode = MsgParser.CountryCode.US;
       preferGPSLoc = false;
       
+      this.parser = parser;
       if (parser != null) {
+        this.parserCode = parser.getParserCode();
         this.defCity = parser.getDefaultCity();
         this.defState = parser.getDefaultState();
         this.countryCode = parser.getCountryCode();
@@ -168,8 +178,8 @@ public class MsgInfo {
      * @param message message to be set as the general alert text
      * @returns always returns true
      */
-    public boolean parseGeneralAlert(String message) {
-      initialize();
+    public boolean parseGeneralAlert(MsgParser parser, String message) {
+      initialize(parser);
       strCall = "GENERAL ALERT";
       strPlace = message;
       return true;
@@ -181,9 +191,9 @@ public class MsgInfo {
      * @param message message to be set as the general alert text
      * @returns always returns true
      */
-    public boolean parseRunReport(String message) {
+    public boolean parseRunReport(MsgParser parser, String message) {
       String saveCallId = strCallId;
-      initialize();
+      initialize(parser);
       strCall = "RUN REPORT";
       strCallId = saveCallId;
       strPlace = message;
@@ -257,6 +267,7 @@ public class MsgInfo {
     expectMore = info.expectMore;
     preferGPSLoc = info.preferGPSLoc;
     
+    parserCode = info.parserCode;
     parser = info.parser;
     strBaseMapAddress = info.strBaseMapAddress;
   }
@@ -995,6 +1006,10 @@ public class MsgInfo {
    */
   public boolean isExpectMore() {
     return expectMore;
+  }
+  
+  public String getParserCode() {
+    return parserCode;
   }
   
   public MsgParser getParser() {

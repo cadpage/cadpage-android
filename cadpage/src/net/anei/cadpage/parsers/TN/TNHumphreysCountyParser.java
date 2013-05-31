@@ -24,6 +24,6 @@ public class TNHumphreysCountyParser extends GeneralParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (! subject.equals("E911")) return false;
     return super.parseMsg("", body, data) ||
-            data.parseGeneralAlert(body);
+            data.parseGeneralAlert(this, body);
   }
 }

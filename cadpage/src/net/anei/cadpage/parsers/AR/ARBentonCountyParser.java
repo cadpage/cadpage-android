@@ -74,7 +74,7 @@ public class ARBentonCountyParser extends FieldProgramParser {
     if (parseFields(fields, 4, data)) return true;
     
     // If parsing fails, return general alert
-    return data.parseGeneralAlert(body);
+    return data.parseGeneralAlert(this,body);
   }
   
   private class MyAddressField extends AddressField {

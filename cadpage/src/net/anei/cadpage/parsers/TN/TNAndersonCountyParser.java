@@ -35,7 +35,7 @@ public class TNAndersonCountyParser extends FieldProgramParser {
     } while (false);
     
     // If page contains times keywords, report as general alert
-    if (body.contains(" INSRV:")) return data.parseRunReport(body);;
+    if (body.contains(" INSRV:")) return data.parseRunReport(this, body);;
     
     return parseFields(DELIM.split(body), data);
   }

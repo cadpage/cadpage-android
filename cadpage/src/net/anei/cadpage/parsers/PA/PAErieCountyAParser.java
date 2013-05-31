@@ -57,7 +57,7 @@ public class PAErieCountyAParser extends DispatchB2Parser {
       }
     }
     if (!result && data.strSource.equals("ERIE911")) {
-      data.parseGeneralAlert(body.trim());
+      data.parseGeneralAlert(this, body.trim());
       data.strSource = "ERIE911";
       result = true;
     }

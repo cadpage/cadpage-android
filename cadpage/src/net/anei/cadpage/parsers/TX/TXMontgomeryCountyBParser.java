@@ -67,7 +67,7 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
     String[] flds = body.split(",");
     if (flds.length >= 5) {
       if (parseFields(body.split(","), data)) return true;
-      data.initialize();
+      data.initialize(this);
     }
     
     // Foo.  Now we have to do this the hard way

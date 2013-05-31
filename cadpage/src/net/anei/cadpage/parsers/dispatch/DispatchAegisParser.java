@@ -38,7 +38,7 @@ public class DispatchAegisParser extends FieldProgramParser {
     
     String src = data.strSource;
     if (src.length() == 0) return false;
-    data.parseGeneralAlert(body);
+    data.parseGeneralAlert(this, body);
     data.strSource = src;
     return true;
   }

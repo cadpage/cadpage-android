@@ -96,7 +96,7 @@ public class TXCollinCountyParser extends FieldProgramParser {
       if (data.strAddress.length() > 0) return true;
     }
     
-    if (alert != null) return data.parseGeneralAlert(alert);
+    if (alert != null) return data.parseGeneralAlert(this, alert);
     return false;
   }
   

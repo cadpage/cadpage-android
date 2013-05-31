@@ -44,7 +44,7 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
     
     String flds[] = body.split("\\*\\*");
     return parseFields(flds, 3, data) ||
-            data.parseGeneralAlert(saveBody);
+            data.parseGeneralAlert(this, saveBody);
   }
   
   @Override

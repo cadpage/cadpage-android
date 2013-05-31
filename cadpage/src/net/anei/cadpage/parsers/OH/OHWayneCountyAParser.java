@@ -48,7 +48,7 @@ public class OHWayneCountyAParser extends SmartAddressParser {
     String sPlace = getLeft();
     data.strSupp = sPlace;
     if (data.strAddress.length() >= 4 ) return true;
-    return data.parseGeneralAlert(body);
+    return data.parseGeneralAlert(this, body);
   }
 
   

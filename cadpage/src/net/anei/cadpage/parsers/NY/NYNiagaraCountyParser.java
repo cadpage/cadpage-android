@@ -89,7 +89,7 @@ public class NYNiagaraCountyParser extends SmartAddressParser {
 	    parseAddress(st, FLAG_NO_IMPLIED_APT, body, data);
 	    if (getStatus() == 0) {
 	      String callId = data.strCallId;
-	      if (!data.parseGeneralAlert(save)) return false;
+	      if (!data.parseGeneralAlert(this, save)) return false;
 	      data.strCallId = callId;
 	      return true;
 	    }
