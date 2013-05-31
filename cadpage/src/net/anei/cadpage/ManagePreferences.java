@@ -794,10 +794,12 @@ public class ManagePreferences {
     return prefs.getString(R.string.pref_registration_id_key, null);
   }
   
-  public static void setRegistrationId(String regId) {
+  public static boolean setRegistrationId(String regId) {
     String oldRegId = registrationId();
-    if (oldRegId != null) prefs.putString(R.string.pref_prev_registration_id_key, oldRegId);
+    prefs.putString(R.string.pref_prev_registration_id_key, oldRegId);
     prefs.putString(R.string.pref_registration_id_key, regId);
+    if (regId == null) return (oldRegId == null);
+    else return !regId.equals(oldRegId);
   }
   
   public static boolean newVersion(int versionCode) {
@@ -849,6 +851,14 @@ public class ManagePreferences {
   public static void setRegisterDate(Date date) {
     String dateStr = DATE_FORMAT.format(date);
     prefs.putString(R.string.pref_register_date_key, dateStr);
+  }
+  
+  public static boolean reconnect() {
+    return prefs.getBoolean(R.string.pref_reconnect_key);
+  }
+  
+  public static void setReconnect(boolean newVal) {
+    prefs.putBoolean(R.string.pref_reconnect_key, newVal);
   }
   
   public static String ledColor() {
@@ -1018,6 +1028,7 @@ public class ManagePreferences {
         R.string.pref_register_req_key,
         R.string.pref_reregister_delay_key,
         R.string.pref_register_date_key,
+        R.string.pref_reconnect_key,
         
         R.string.pref_last_loc_time_key,
         R.string.pref_last_loc_acc_key

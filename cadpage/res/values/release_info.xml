@@ -1,43 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="release_date">05262013</string>
-  <string name="release_version">v1.6.26</string>
+  <string name="release_version">v1.6.27</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-New Locations:\n
-Barry County, MI\n
-Lenoir County, NC\n
-\n
 Location Parsing Fixes:\n
-Madison County, AL\n
-New Haven County, CT\n
-Northwest Public Services, CT\n
-DuPage County, IL\n
-St Clair County, IL\n
-Porter County, IN\n
-Bay County, MI\n
-Emmet County, MI\n
-Jefferson County, MO\n
-Cayuga County, NY\n
+Rock Island, IL\n
+Charlevoix County, MI\n
+Jefferson City, MO\n
+Mercer County, NJ\n
 Nassau County, NY\n
-Suffolk COunty, NY\n
-Madison County, NC\n
-Rockingham County,  NC\n
-Bucks County, PA\n
-Chester County, PA\n
-Mercer County, PA\n
-CyCreek Comm Center, TX\n
-Loudoun County, VA\n
+Durham County, NC\n
+Denton County, TX\n
+Roanoke County, VA\n
 \n
 General Fixes:\n
-Another attempt to fix problem that started disconnecting
-direct paging connections two weeks ago.\n
-Improved responder position reporting feature.\n
-Cadpage was not available for Galaxy Tab 2.\n
-Call Detail Screen not changing screen orientation.\n
-Force close and direct paging disconnection problems
-introduced in v1.6.25.\n
+Active911 pages not displaying correctly after Cadpage is restarted.\n
+Force close in responder location tracking logic.\n
+More attempts to increase reliability of direct paging.\n
   </string>  
 </resources>
   

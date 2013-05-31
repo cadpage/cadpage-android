@@ -434,8 +434,9 @@ abstract class Vendor {
    * Called when a new or changed C2DM registration ID is reported
    * @param context current context
    * @param registrationId registration ID
+   * @return true if we actually did anything
    */
-  void registerC2DMId(final Context context, String registrationId) {
+  boolean registerC2DMId(final Context context, String registrationId) {
     
     // If we are in process of registering with server, send the web registration request
     if (inProgress) {
@@ -457,13 +458,30 @@ abstract class Vendor {
       }
       inProgress = false;
       discoverUri = null;
+      return true;
     }
     
     // Otherwise, if we are registered with this server, pass the new registration
     // ID to them
     else if (enabled) {
-      sendReregister(context, registrationId);            
+      sendReregister(context, registrationId);
+      return true;
     }
+    
+    // Otherwise we have nothing to do
+    return false;
+  }
+
+  /**
+   * Check that a vendor from whom we have received a direct page is really fully
+   * registered
+   */
+  public void checkVendorStatus(Context context) {
+    // If we are enabled, nothing needs to be done
+    if (enabled) return;
+    
+    // Otherwise send a reg_query to this vendor
+    sendRegQuery(context, ManagePreferences.registrationId());
   }
   
   /**
@@ -495,6 +513,16 @@ abstract class Vendor {
         // drastic if the reregister request fails
         return;
       }});
+  }
+  
+  /**
+   * Send reg_query request to vendor
+   * @param context current context
+   * @param registrationId registration ID
+   */
+  void sendRegQuery(Context context, String registrationId) {
+    Uri uri = buildRequestUri("req_query", registrationId);
+    HttpService.addHttpRequest(context, new HttpService.HttpRequest(uri));
   }
 
   /**
@@ -550,8 +578,10 @@ abstract class Vendor {
     Uri.Builder builder = getBaseURI(req).buildUpon();
     builder = builder.appendQueryParameter("req", req);
     builder = builder.appendQueryParameter("vendor", getVendorCode());
-    if (account != null) builder = builder.appendQueryParameter("account", account);
-    if (token != null) builder = builder.appendQueryParameter("token", token);
+    if (enabled) {
+      if (account != null) builder = builder.appendQueryParameter("account", account);
+      if (token != null) builder = builder.appendQueryParameter("token", token);
+    }
     if (phone != null) builder = builder.appendQueryParameter("phone", phone);
     builder = builder.appendQueryParameter("type", "GCM");
     if (registrationId != null) builder = builder.appendQueryParameter("CadpageRegId", registrationId);

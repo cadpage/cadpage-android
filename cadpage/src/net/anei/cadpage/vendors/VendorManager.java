@@ -169,25 +169,37 @@ public class VendorManager {
    * @param context current context
    */
   void reconnect(Context context) {
-    
-    // If there are any enabled or broken vendors, request a new registration ID
-    for (Vendor vendor : vendorList) {
-      if (vendor.isEnabled()) {
-        C2DMService.register(context, true);
-        break;
-      }
-    }
+    ManagePreferences.setReconnect(true);
+    C2DMService.register(context, true);
   }
   
   /**
    * Called by CD2MReceiver when a new registration ID is defined
    * @param context current context
+   * @param change true if new registration ID differs from previous ID
    * @param registrationId new registration ID
    */
-  public void registerC2DMId(Context context, String registrationId) {
+  public void registerC2DMId(Context context, boolean change, String registrationId) {
+    
+    // Skip everything if the ID has not changed and a reconnect was not forced
+    boolean reconect = ManagePreferences.reconnect();
+    if (!change && !reconect) return;
+    
+    // Pass new reg ID to all vendors and see if any of the respond
+    boolean done = false;
     for (Vendor vendor : vendorList) {
-      vendor.registerC2DMId(context, registrationId);
+      if (vendor.registerC2DMId(context, registrationId)) done = true;
     }
+    
+    // If no vendors are currently enabled, send a reg_query to all of them
+    if (!done) {
+      for (Vendor vendor : vendorList) {
+        vendor.sendRegQuery(context, registrationId);
+      }
+    }
+    
+    // Reset the connect flag
+    if (reconect) ManagePreferences.setReconnect(false);
   }
   
   /**
@@ -235,7 +247,7 @@ public class VendorManager {
    * @param token vendor security token
    */
   public void vendorRequest(Context context, String type, String vendorCode,
-                              String account, String token) {
+                            String account, String token) {
 
     // Identify the correct vendor and pass request to them
     Vendor vendor = findVendor(vendorCode);
@@ -418,6 +430,16 @@ public class VendorManager {
   public void addStatusInfo(StringBuilder sb) {
     for (Vendor vendor : vendorList) vendor.addStatusInfo(sb);
   }
+
+  /**
+   * Confirm that the vendor who has just sent us a message is really enabled
+   * @param vendorCode vendor code
+   */
+  public void checkVendorStatus(Context context, String vendorCode) {
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor == null) return;
+    vendor.checkVendorStatus(context);
+  }
   
   /**
    * Find vendor with matching vendor code
@@ -438,5 +460,4 @@ public class VendorManager {
   public static VendorManager instance() {
     return instance;
   }
-
 }

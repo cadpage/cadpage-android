@@ -92,6 +92,18 @@ req=unregister     Used by Cadpage to inidicate user request to unregister their
     If user is not registered with your service, you should send an req=unregister
     request to the registration ID that is passed.
     
+req=reg_query    Used by Cadpage to report a device registration ID and request that
+                 any devices with a matching registration ID be reported
+    vendor          Vendor code
+    phone           Phone number if we have it (for Android tablets we probably will not)
+    type            GCM for now (Another code my be used in future for Apple Push connections)
+    CadpageRegId    New Cadpage registration ID
+    version         Cadpage client version
+    
+    Device tables should be searched for a device with a matching registration ID.
+    If one is found, send REGISTER request to the device which will include the user 
+    account number and security token
+    
 Once you have a GCM registration ID, you can send messages to the device.  The
 technical details are explained at http://developer.android.com/guide/google/gcm/index.html
 

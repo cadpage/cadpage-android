@@ -111,9 +111,9 @@ public class C2DMService extends IntentService {
         regId = intent.getStringExtra("registration_id");
         if (regId != null) {
           Log.w("C2DM registration succeeded: " + regId);
-          ManagePreferences.setRegistrationId(regId);
+          boolean change = ManagePreferences.setRegistrationId(regId);
           ManagePreferences.setRegisterReqActive(false);
-          VendorManager.instance().registerC2DMId(C2DMService.this, regId);
+          VendorManager.instance().registerC2DMId(C2DMService.this, change, regId);
           return;
         }
       }
@@ -146,7 +146,6 @@ public class C2DMService extends IntentService {
       Log.v("C2DMService terminating registration retries");
       ManagePreferences.setRegisterReq(0);
       ManagePreferences.setReregisterDelay(0);
-      ManagePreferences.setRegistrationId(null);
       return false;
     }
     
@@ -212,6 +211,7 @@ public class C2DMService extends IntentService {
       // Ping just needs to be acknowledged
       if (type.equals("PING")) {
         sendAutoAck(intent, vendorCode);
+        VendorManager.instance().checkVendorStatus(this, vendorCode);
         return;
       }
       
@@ -231,7 +231,10 @@ public class C2DMService extends IntentService {
         sendAutoAck(intent, vendorCode);
         return;
       }
-      
+
+      // Check vendor enabled status
+      VendorManager.instance().checkVendorStatus(this, vendorCode);
+
       // Save timestamp
       final long timestamp = System.currentTimeMillis();
       
@@ -392,7 +395,7 @@ public class C2DMService extends IntentService {
       if (phone != null) bld.appendQueryParameter("phone", phone);
     }
     
-    // If a vendor code was specified, return status and version code assoicated with vendor
+    // If a vendor code was specified, return status and version code associated with vendor
     if (vendorCode != null) {
       
       VendorManager vm = VendorManager.instance();
