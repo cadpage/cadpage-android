@@ -3,9 +3,9 @@ support@cadpage.org
 
 ******************************************************************
 
-There is a new version of Cadpage available in the Google Play Store that fixes this.
+This should be fixed in the next Cadpage release, which should be published later this evening.
 
-Thank you for reporting it,
+Have a nice day,
 -Ken
 
 ******************************************************************

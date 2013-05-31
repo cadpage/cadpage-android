@@ -33,6 +33,10 @@ Fraqre: PNQ@evpbrgfo.bet
 416:SLV: ;27521 94GU NI A;PBHAGL RZF BAYL;UVY
 F: Z:417:SLV: ;28424 38GU NI A;PBHAGL RZF BAYL;UVY 
 
+Pbagnpg: qneva.xrvgu@ubgznvy.pbz
+Fraqre: PNQ@evpbrgfo.bet
+F: Z:135:SLV: ;1201 7GU FG;FGEHPGHER SVER/TRARENY;RZ 
+
 */
 
 choyvp pynff VYEbpxVfynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -88,6 +92,18 @@ choyvp pynff VYEbpxVfynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PBHAGL RZF BAYL",
         "PVGL:UVYYFQNYR");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnevaXrvgu() {
+
+    qbGrfg("G1",
+        "F: Z:135:SLV: ;1201 7GU FG;FGEHPGHER SVER/TRARENY;RZ ",
+        "VQ:135",
+        "NQQE:1201 7GU FG",
+        "PNYY:FGEHPGHER SVER/TRARENY",
+        "PVGL:RNFG ZBYVAR");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

@@ -33,6 +33,7 @@ public class ILRockIslandCountyParser extends DispatchOSSIParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "EM",   "EAST MOLINE",
       "HIL",  "HILLSDALE",
       "MO",   "MOLINE",
       "PB",   "PORT BYRON",
