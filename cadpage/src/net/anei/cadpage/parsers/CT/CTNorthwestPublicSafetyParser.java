@@ -33,8 +33,7 @@ public class CTNorthwestPublicSafetyParser extends SmartAddressParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("From Northwest")) return false;
-    int pt = body.indexOf('\n');
-    if (pt >= 0) body = body.substring(0,pt).trim();
+    body = body.replace('\n', ' ');
     Parser p = new Parser(body);
     String sAddr = p.get("Primary Incident:");
     data.strCallId = p.get(' ');
@@ -45,7 +44,7 @@ public class CTNorthwestPublicSafetyParser extends SmartAddressParser {
     parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, sAddr.replace(',', ' '), data);
     data.strPlace = getPadField();
     if (data.strApt.startsWith("(")) {
-      pt = data.strPlace.indexOf(')');
+      int pt = data.strPlace.indexOf(')');
       if (pt >= 0) {
         data.strApt = data.strApt + ' ' + data.strPlace.substring(0,pt+1);
         data.strPlace = data.strPlace.substring(pt+1).trim();

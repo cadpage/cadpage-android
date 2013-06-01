@@ -3,7 +3,7 @@ support@cadpage.org
 
 ******************************************************************
 
-This should be fixed in the next Cadpage release, which should be published later this evening.
+This should be fixed in the current Cadpage release, which available from Google Play Store.
 
 Have a nice day,
 -Ken
@@ -20,8 +20,12 @@ Good luck,
 -Ken
 
 ******************************************************************
+** Recent PHONE_REGISTRATION_ERROR
+** Null RegistrationID
+** Cadpage version < 1.6.26
+****************************************************************** 
 
-Something has been going haywire with the Google infrastructure supporting direct paging for about 2 weeks ago.  It only impacts a small percentage of direct paging users, but that is small comfort to those who are impacted.  We have been complaining to Google but so far have not gotten any response.
+Something has been going haywire with the Google infrastructure supporting direct paging some time ago.  It only impacts a small percentage of direct paging users, but that is small comfort to those who are impacted.  We have been complaining to Google but so far have not gotten any response.
 
 The latest version of Cadpage (v1.6.26) has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
 
@@ -31,42 +35,49 @@ Good luck,
 -Ken
 
 ******************************************************************
+** Recent PHONE_REGISTRATION_ERROR
+** Null RegistrationID
+** Cadpage version >= 1.6.26
+******************************************************************
+ 
+It looks like you are one of the users who cannot get the Google registration you need to implement direct paging.  Usually just retrying it a few times is enough to get things working.  But sometimes more serious measures are called for.
 
-First, make sure you have the v1.6.26 version of Cadpage installed.
-
-Next, try registering with Active911 again.  This version will not report a PHONE_REGISTRATION_ERROR like previous versions.  Instead it will continue to send registration requests to Google for about an hour before giving up.  If you get the Active911 registration screen within a few minutes, we have succeeded and Active911 registration should proceed with no difficulty.
-
-If not, double check that the account associated with Google Play Store is valid.  Open the Play Store App and select
+First, double check that the account associated with Google Play Store is valid.  To do that, open the Play Store App and select
 Menu > Accounts
-verify that the selected account is the one you expect.
+and verify that the selected account is the one you expect.
 
-The go back to the home screen and select
+*** For Android versions >= 4.0
+Then go back to the Android home screen and select
 Menu > Settings
 Scroll down to the Account settings and select Google
 Verify that the Google Play account is syncing properly (ie.. that the last sync date/time is fairly recent)
 
-Wait a of couple hours and try the registration process again, just in case Cadpage did finally succeed in getting a connection from Google.
+*** For Android versions < 4.0
+Then go back to the Android home screen and select
+Menu > Settings > Accounts & Sync > Google > Sync
+and see if everything synchronizes.
 
-If it still doesn't work, we are down to recommending a factory reset.  Which is a drastic step. Before you resort to that, please contact us to see if we have learned anything new.
+Next, go back to Cadpage Settings and try to register with Active911/Code Messaging again.  If this still doesn't open the registration screen after a minute or so, use the Email the Developer to send us another email and we will go on to the next steps.
 
 Good luck,
 -Ken
 
 ******************************************************************
+** Recent PHONE_REGISTRATION_ERROR
+** Above instructions were unsuccessful.
+******************************************************************
 
-First,  make you you have installed the latest version of Cadpage (1.6.25).  It has some additional logic to resolve at least one of the causes of our phone registration error issue.
+I assuming that you are trying, unsuccessfully, to register your phone with CodeMessaging, that you tried everything in the previous email and things still are not working.  So we move on to more complicated solutions.
 
-Next, use the Active911 member info web page to send a test message to your device.  If it arrives, problems are all solved.
+One user has reported that replacing the SIM card resolved this problem.  Since SIM cards usually cost money, I would first try removing the SIM card and trying to register Cadpage with CodeMessaging while your phone is connected to a WiFi router.  If that works, you can go ahead and get a new SIM card.
 
-If not, go into Cadpage Settings and select
-Direct Paging Vendors > Reconnect Direct paging
-
-Then back out to the main settings menu and use the Email the Developer feature to send us an email.  That will include a lot of technical and event log information that I can use to investigate what is going on.
+Try installing and setting up the Google Chrome to Phone App.  You need to install the Chrome to Phone extension to the Chrome web browser on a PC system somewhere and then use it to send a web link to your phone.  Chrome to Phone uses the same underlying protocol that we use for Cadpage Direct Paging.  If you have the same problems with that app as we are having with Cadpage, we can make the case that this is a problem with the underlying Google protocol.
 
 Good luck,
 -Ken
 
 ***************************************************************************
+
 Those are coming from CodeMessaging, and CodeMessaging has been
 switching their dispatch pages to use one of our standard formats.
 
@@ -187,9 +198,8 @@ Good Luck,
 Jean -- Assistant to Ken Corbin
 
 ******************************************************************
-Already has activation code; with 
-details:
-********************************
+** Already has activation code; with details:
+******************************************************************
 
 You or your department has apparently paid for Active911, but you need to register your device. Here are the details:
 
@@ -230,11 +240,17 @@ Trouble registering with Active911
 Very occasionally, people are having trouble registering with
 Active911.  There are a couple things you can try, usually something works.
 
-Go to the home screen and select Menu > Settings > Accounts and Sync
-and make sure Background Data and Auto-Sync settings are enabled.  While
-you are here, press the Google account setting and Sync Now.
 
-The above options do not seem to exist on newer versions of Android.  If you can't find them, try registering with Active911 while connected to a WiFi hotspot.  If that works, let us know and we will tell you what we know about changing the new settings that affect background synchronization on mobile networks.
+*** For Android versions >= 4.0
+Go back to the Android home screen and select
+Menu > Settings
+Scroll down to the Account settings and select Google
+Verify that the Google Play account is syncing properly (ie.. that the last sync date/time is fairly recent)
+
+*** For Android versions < 4.0
+Go back to the Android home screen and select
+Menu > Settings > Accounts & Sync > Google > Sync
+and see if everything synchronizes.
 
 Go into Cadpage Settings and select
 Payment Status > I have an authorization code
@@ -757,6 +773,8 @@ Have a nice day,
 -Ken
 
 ******************************************************************
+** text page information is truncated
+******************************************************************
 
 Not much we can do about that.  All network carriers have limits how long an SMS text message can be.  If dispatch tries to send you something longer than that, it gets truncated.  There are things the message sending service can do to get around that.  But nothing we can do on the receiving end.
 
@@ -765,19 +783,21 @@ The only thing you can do is switch to a different message sending service.  Two
 Good luck
 -Ken
 
+***************************************************************************
+* Direct paging registered but pages missing or delayed 
+* Use is registered with Direct paging vendor
 ******************************************************************
-* Direct paging delays 
 
-This has been reported by a few people using direct paging.  The Google protocol we use to push pages out to Cadpage seems to suffer from unexplained delays.  If only affects a few people, but once it starts happening it seems to reoccur.  Usually restarting the device and reconnecting to your direct paging vendor fixes the problem.  To do that, go into settings and select
+Go into Cadpage Settings and select
 Direct Paging Vendors > Reconnect Direct Paging
-
-You can go to the Active911 member info page, select the devices tab and send yourself a test message to see how it is working.
+That usually fixes problems with delayed or missing direct pages.
 
 Good luck,
--Ken
+-Ken 
 
 ******************************************************************
 * Text paging delays 
+******************************************************************
 
 This is being reported fairly often recently.  You are getting text pages, and the only reason Cadpage alerting will be delayed for text pages is because the messages are just not arriving at your device in a timely fashion.  If you want to prove this, go into Cadpage Additional Settings and check the box labeled "Pass Calls through to SMS Client".  With that set, all calls will be passed to your message inbox in addition to alerting Cadpage and you can confirm the extent to which the messages are delayed.
 
@@ -792,11 +812,22 @@ Good luck,
 
 ******************************************************************
 * Active911 registration issues
+******************************************************************
+
+That is pretty much true.  Sometimes we end up in a partially connected state where Active911 or CodeMessaging believe it is connected to your device, and can even ship pages to the phone.  But Cadpage never got the final acknowledgement and still does not believe it is registered.
 
 Very occasionally, people are having trouble registering with Active911.  There are a couple things you can try, usually something works.
 
-Go to the home screen and select Menu > Settings > Accounts and Sync
-and make sure Background Data and Auto-Sync settings are enabled.  While you are here, press the Google account setting and Sync Now.
+*** For Android versions >= 4.0
+Then go back to the Android home screen and select
+Menu > Settings
+Scroll down to the Account settings and select Google
+Verify that the Google Play account is syncing properly (ie.. that the last sync date/time is fairly recent)
+
+*** For Android versions < 4.0
+Then go back to the Android home screen and select
+Menu > Settings > Accounts & Sync > Google > Sync
+and see if everything synchronizes.
 
 Restart the device and try again
 
@@ -809,8 +840,10 @@ Double check your Active911 device configuration to confirm that it is configure
 Good luck,
 -Ken
 
+
 ******************************************************************
 * Duplicate pages with Active911
+******************************************************************
 
 That is a fairly common problem for new Active911 users.  Some time back, you arranged to have 
 send text pages to your phone.  Those pages don't stop coming when you register with Active911.  As a result you always get two pages for each incident.
@@ -837,16 +870,6 @@ Good luck,
 LATE PAGES:
 
 If you can long press one of the calls you get and select Report Problem to send them to us, I could give you a better idea what is happening.  I need to see all of the alerts that are associated with one of your calls.
-
-*******************************************************************
-
-This has been reported by a few people using direct paging.  The Google protocol we use to push pages out to Cadpage seems to suffer from unexplained delays.  If only affects a few people, but once it starts happening it seems to reoccur.  Usually restarting the device and reconnecting to your direct paging vendor fixes the problem.  To do that, go into settings and select
-Direct Paging Vendors > Reconnect Direct Paging
-
-You can go to the Active911 member info page, select the devices tab and send yourself a test message to see how it is working.
-
-Good luck,
--Ken 
 
 ******************************************************************
 
@@ -1399,22 +1422,6 @@ Good luck,
 -Ken
 
 *************************************************************************
-
-Most likely you do not have to completely uninstall and reinstall Cadpage.  As long as Cadpage believes it is still connected to CodeMessaging, going into Cadpage Settings an selecting
-Direct Paging Vendors > Reconnect Direct Paging
-
-will usually fix things.
-
-We are still trying to identify why this happens.  What we know is that something happens with your device that tells Google the connection to it has been broken.  The next time CodeMessaging or Active911 try to push a page to your device Google tells them the connection is broken and they unregister your device.
-
-We know that simply leaving the phone powered down or off the grid for an extended period of time will not break the connection.  We know that uninstalling and reinstalling Cadpage, or restoring it from some kind of backup, will.
-
-But since you probably have not done one of those things, there seems to be some other condition that breaks the linkage.  Which might or might not be connected with installing a new version of Cadpage.  If you can identify any action or event on your phone that seems to be associated with this broken connection condition, it would be a big help.
-
-Good luck,
--Ken
-
-*************************************************************************
 run Cadpage on cell and tablet?
 
 You do not need an authorization code to run Cadpage anywhere.  If you
@@ -1425,7 +1432,7 @@ have configured Google Play Store to use the same email account.
 If you are still having trouble, use the Email the Developer feature to
 send us an email from both the phone and tablet.
 
-Note, where there is no problem at all running Cadpage on Android
+Note, while there is no problem at all running Cadpage on Android
 tablets, you may have trouble getting pages to the tablet.  Most
 Android tablets cannot receive SMS or MMS messages.  If you have one of
 the lucky ones that, life is good.  If not, the only way you can get
@@ -1739,14 +1746,6 @@ Active911.
 Have a nice day,
 -Ken
 
-***************************************************************************
-
-Go into Cadpage Settings and select
-Direct Paging Vendords > Reconnect DIrect Paging
-That usually fixes problems with delayed or missing direct pages.
-
-Good luck,
--Ken 
 ****************************************************************************
 Q:
 > I do not have the ability to see other responders in real time. Is this a
