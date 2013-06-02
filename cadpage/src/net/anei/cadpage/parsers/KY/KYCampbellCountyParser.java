@@ -17,7 +17,7 @@ public class KYCampbellCountyParser extends FieldProgramParser {
   
   public KYCampbellCountyParser() {
     super("CAMPBELL COUNTY", "KY",
-           "ADDRCITY/S0C SRC Time_reported:DATETIME Unit(s)_responded:UNIT+");
+           "ADDRCITY/SC DUP? SRC! Time_reported:DATETIME! Unit(s)_responded:UNIT+");
   }
   
   @Override
@@ -49,8 +49,10 @@ public class KYCampbellCountyParser extends FieldProgramParser {
       data.strUnit = units.replace("\n", ", ").trim();   
       
       // Extract ID
-      String[] srcID = fields[1].split("-");
-      data.strCallId = srcID[1].trim();
+      if (fields.length > 1) {
+        String[] srcID = fields[1].split("-");
+        if (srcID.length > 1) data.strCallId = srcID[1].trim();
+      }
       
       data.strPlace = body;                                               // Put remaining in Place.
       return true;
@@ -77,6 +79,18 @@ public class KYCampbellCountyParser extends FieldProgramParser {
     }
   }
 
+  private class DuplField extends SkipField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return field.equals(getRelativeField(-1));
+    }
+  }
   
   private class MySrcField extends SourceField {
     
@@ -97,12 +111,22 @@ public class KYCampbellCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace('\n', ' ');
+      super.parse(field, data);
+    }
+  }
+  
   
   @Override
   public Field getField(String name) {
       if (name.equals("ADDRCITY")) return new MyAddressField();
+      if (name.equals("DUP")) return new DuplField();
       if (name.equals("SRC")) return new MySrcField();
       if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa"));
+      if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
 

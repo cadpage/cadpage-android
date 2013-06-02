@@ -9,6 +9,7 @@ vzcbeg bet.whavg.Grfg;
 Ebkohel, PG
 Pbagnpg: Zvxr Wbfrsfba <zvxrwbfrsfba@tznvy.pbz>
 Fraqre: tybonycntvat@abjrfgcf.bet
+Fraqre: ab-ercyl@abjrfgcf.bet
 
 SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:SYNT FJNZC EQ & FBHGU FG  EBKOHEL ZIN RZF EBK NZO EB RZFK EB RAT12 EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 040734\a\a(Raq)
 SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:39 GENAFLYINAVN EQ  EBKOHEL PUBXVAT NOABEZ OERNGU (CNEGVNY BOFGEHPG) EBK NZO EB RZFK Cevznel Vapvqrag: 040410\a\a(Raq)
@@ -16,6 +17,7 @@ SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:102 CNVAGRE UVYY EQ  EBK
 SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:314 CNVAGRE UVYY EQ  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00120\a\a(Raq)
 SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:71 FBHGU FG  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00119\a\a\a(Raq)
 SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:OBGFSBEQ UVYY EQ & TBYQRA UNEIRFG EQ  EBKOHEL JVERF QBJA/SVER EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00109
+SEZ:ab-ercyl@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:27 SYNT FJNZC EQ  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK\aERF9 EBK SQ1\aCevznel Vapvqrag: 00061 27 SYNT FJNZC EQ
 
 Pbagnpg: OZrruna282@nby.pbz
 Fraqre: ab-ercyl@abjrfgcf.bet
@@ -183,7 +185,20 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:JVERF QBJA / SVER",
         "HAVG:EBK ERF9 EBK SQ1",
         "VQ:00109");
-    
+
+    qbGrfg("G7",
+        "SEZ:ab-ercyl@abjrfgcf.bet\a" +
+        "FHOW:Sebz Abegujrfg\a" +
+        "ZFT:27 SYNT FJNZC EQ  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK\a" +
+        "ERF9 EBK SQ1\a" +
+        "Cevznel Vapvqrag: 00061 27 SYNT FJNZC EQ",
+
+        "NQQE:27 SYNT FJNZC EQ",
+        "PVGL:EBKOHEL",
+        "PNYY:SVER NYNEZ",
+        "HAVG:EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1",
+        "VQ:00061");
+
   }
   
   @Grfg
