@@ -67,7 +67,7 @@ Good luck,
 ** Above instructions were unsuccessful.
 ******************************************************************
 
-I assuming that you are trying, unsuccessfully, to register your phone with CodeMessaging, that you tried everything in the previous email and things still are not working.  So we move on to more complicated solutions.
+I assume that you are trying, unsuccessfully, to register your phone with CodeMessaging, that you tried everything in the previous email and things still are not working.  So we move on to more complicated solutions.
 
 One user has reported that replacing the SIM card resolved this problem.  Since SIM cards usually cost money, I would first try removing the SIM card and trying to register Cadpage with CodeMessaging while your phone is connected to a WiFi router.  If that works, you can go ahead and get a new SIM card.
 
@@ -872,6 +872,8 @@ LATE PAGES:
 If you can long press one of the calls you get and select Report Problem to send them to us, I could give you a better idea what is happening.  I need to see all of the alerts that are associated with one of your calls.
 
 ******************************************************************
+** long list
+******************************************************************
 
 We have two different long and involved trouble shooting procedures.  This the list for user who are getting regular text pages.  If you are getting direct pages from Active911 or CodeMessaging, this is the wrong list for you.  You should contact us for the direct page troubleshooting list.
 
@@ -1032,7 +1034,7 @@ filter to whoever appears in the From: field of your page text messages.
  That will usually give you some degree of functionality while you are
 waiting for full location support.
 
-Please contact us again if you still have difficulties.
+Please contact us again if you still have difficulties.  The best way to do this is use the Email the Developer item in the main settings menu.
 
 Good luck,
 -Ken

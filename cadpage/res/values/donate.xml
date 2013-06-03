@@ -8,7 +8,7 @@
   
   <string name="donate_server_url">https://cadpageweb.appspot.com/lookup</string>
   
-  <string name="free_release_text">
+  <string name="free_release_text">  <!-- TRANSLATE -->
     This is the free version of Cadpage.  This version will never bother you
     for financial contributions to future Cadpage development.  Customer support
     is minimal, and updates will be infrequent at best.\n
@@ -20,7 +20,7 @@
     If you are willing to pay to Cadpage developers to continue supporting 
     Cadpage development, you should use the standard version.\n
     \n
-    If you can"'"t afford to the $10 standard payment, you should use the standard
+    If you cannot afford to pay the $10/year standard payment, you should use the standard
     version and ask for a free subscription.\n
     \n
     If you are adamantly opposed to paying anything on general principle, you
@@ -181,12 +181,9 @@
   
   <string name="donate_reset_market_title">Recalculate Payment Status</string>
   
-  <string name="donate_sob_story_title">"I can't afford $10 this year"</string>
+  <string name="donate_sob_story_title">"I can't afford $10 this year"</string>   <!-- TRANSLATE -->
   <string name="donate_sob_story_text">
-    "Tell us why you can't afford a $10 payment.  We're really easy on these.\n\n"
-    Is there anything we can do to make Cadpage easier to use?  Do you any
-    suggestions on better ways we can finance the considerable costs of maintaining
-    Cadpage?
+    "Tell us why you cannot afford a $10/year payment.  We are really easy on these."
   </string>
   
   <string name="clear_data_title">Reinstall Cadpage</string>
