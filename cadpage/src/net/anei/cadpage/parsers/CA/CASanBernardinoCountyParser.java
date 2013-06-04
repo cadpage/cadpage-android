@@ -13,8 +13,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class CASanBernardinoCountyParser extends FieldProgramParser {
   
   public CASanBernardinoCountyParser() {
-    super("SAN BERNARDINO COUNTY", "CA",
-           "CALL! ADDR! LOC_INFO:PLACE AGN_MAP:MAP! X_ST:X! UNIT COMMENTS:INFO");
+    super(CITY_CODES, "SAN BERNARDINO COUNTY", "CA",
+           "CALL! ADDR! ( XST:X LOC_INFO:PLACE! CITY! AGN_MAP:MAP! INFO UNIT CALL_INFO:INFO | LOC_INFO:PLACE AGN_MAP:MAP! X_ST:X! UNIT COMMENTS:INFO )");
   }
   
   @Override
@@ -25,7 +25,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (!body.startsWith("|")) return false;
-    body = body.substring(2).trim();
+    body = body.substring(1).trim();
     return parseFields(body.split(">"), data);
   }
   
@@ -35,15 +35,25 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
       String key = field;
+      String extra = "";
       int pt = key.indexOf(' ');
-      if (pt >= 0) key = field.substring(0,pt);
+      if (pt >= 0) {
+        key = field.substring(0,pt);
+        extra = field.substring(pt+1).trim();
+        if (extra.startsWith("-")) extra = extra.substring(1).trim();
+      }
       String desc = TYPE_CODES.getProperty(key);
       if (desc == null) {
-        pt = key.indexOf('-');
-        if (pt >= 0) key = key.substring(0,pt);
-        desc = TYPE_CODES.getProperty(key);
+        int pt2 = key.indexOf('-');
+        if (pt2 >= 0) {
+          String key2 = key.substring(0,pt2);
+          desc = TYPE_CODES.getProperty(key2);
+        }
       }
-      if (desc != null) field = field + " - " + desc;
+      if (desc != null) {
+        if (desc.startsWith(extra)) field = key;
+        field = field + " - " + desc;
+      }
       super.parse(field, data);
     }
   }
@@ -54,6 +64,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
       data.strCity = convertCodes(p.getLast(' '), CITY_CODES);
+      if (data.strCity.equals("-")) data.strCity = "";
       data.strApt = p.getLastOptional(" -");
       parseAddress(p.get(), data);
     }
