@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -9,9 +10,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class OHPortageCountyParser extends FieldProgramParser {
   
+  private static final Pattern MARKER = Pattern.compile("^[A-Z0-9\\.]+: +", Pattern.CASE_INSENSITIVE);
+  
   public OHPortageCountyParser() {
     super("PORTAGE", "OH",
-           "CALL ADDR CITY INFO+");
+          "CALL ZERO? ADDR SRC? CITY INFO+");
   }
   
   @Override
@@ -21,75 +24,42 @@ public class OHPortageCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("* ")) return false;
-    body = body.substring(2).replace('\n', ' ').trim();
-    if (!parseFields(body.split("\\*"), data)) return false;
     
-    if (data.strAddress.length() == 0) {
-      parseAddress(data.strCross, data);
-      data.strCross = "";
-    }
-    return true;
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    body = body.substring(match.end());
+    return parseFields(body.split(","), data);
   }
-  
+
+  private static final Pattern CALL_CODE_PTN = Pattern.compile("^([A-Z0-9]{1,2})-");
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(',');
-      if (pt < 0) abort();
-      super.parse(field.substring(pt+1).trim(), data);
-      String src = field.substring(0,pt).trim();
-      pt = src.indexOf("_general");
-      if (pt >= 0) {
-        data.strSource = src.substring(0,pt).trim();
+      Matcher match = CALL_CODE_PTN.matcher(field);
+      if (match.find()) {
+        data.strCode = match.group(1);
+        field = field.substring(match.end()).trim();
       }
+      super.parse(field, data);
     }
     
     @Override 
     public String getFieldNames() {
-      return "SRC CALL";
+      return "CODE CALL";
     }
   }
   
-  private class MyAddressField extends AddressField {
-    @Override
-    public void parse(String field, Data data) {
-      field = field.replace(',', ' ').trim();
-      if (field.startsWith("0 ")) field = field.substring(2).trim();
-      if (field.equals("0")) field = "";
-      super.parse(field, data);
-    }
-  }
-  
-  private class MyCityField extends CityField {
-    @Override
-    public void parse(String field, Data data) {
-      
-      // ,Ravenna is the name of the dispatch center
-      // and needs to be stripped off
-      if (field.endsWith(",Ravenna")) field = field.substring(0,field.length()-8).trim();
-      Parser p = new Parser(field);
-      String city = p.getLast(',');
-      String cross = p.get();
-      if (cross.length() == 0 && city.contains("/")) {
-        cross = city;
-        city = "";
-      }
-      data.strCross = cross;
-      data.strCity = city;
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "X CITY";
+  private class MySourceField extends SourceField {
+    public MySourceField() {
+      setPattern(Pattern.compile("DEERFIELD FIRE", Pattern.CASE_INSENSITIVE), true);
     }
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("ZERO")) return new SkipField("0?");
+    if (name.equals("SRC")) return new MySourceField();
     return super.getField(name);
   }
   

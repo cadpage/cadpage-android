@@ -9,32 +9,36 @@ Cbegntr Pbhagl, BU
 Pbagnpg: Wbfrcu Y Pbeova We <wpbeovawe@tznvy.pbz>
 Fraqre: 911@pv.eniraan.bu.hf
 Flfgrz: Fhaqnapr
-*
-911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny29,ZRQVPNY RZRETRAPL *\a3594,VAQEHFGEL EQ, * ,EBBGFGBJA * 89LBN ZNYR BKLTRA ZNPUVAR OEBXRA,\aGEBH
-911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny29,ZRQVPNY RZRETRAPL * 4265,EBPX FCEVAT EQ, * ,Eniraan * 53 LE BYQ ZNYR QVSSVPHYGL OERNGUVAT, CB
-911@pv.eniraan.bu.hf:* 15_rqvaohet_trarenyZN,ZHGHNY NVQ * 0,CNYZLEN GBJAFUVC [RQVG], * CNYZLEN,Eniraan * 1511 GB ZRRG 2011 NG FGNGVBA 20
-911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny29,ZRQVPNY RZRETRAPL * 7824,GNYYZNQTR EQ, * ,Eniraan * 80 LBN SRZNYR PURFG CNVAF﻿
-911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny29,ZRQVPNY RZRETRAPL * 4174,CBEGRE EQ , * ,RQVAOHET GJC * SRZNYR IREL YVTUG URNQRQ﻿
-911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny29,ZRQVPNY RZRETRAPL * 3594,VAQHFGEL EQ, * ,EBBGFGBJA * 89 LBN ZNYR SNYYRA
-911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny28,SVER * 4907,EBPX FCEVAT EQ, * ,Eniraan * PUVZARL SVER﻿
+
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Qrresvryq Sver Qrcnegzrag
 Ybpngvba: Qrresvryq, BU, Havgrq Fgngrf
 Fraqre: 911@pv.eniraan.bu.hf
 
-911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny29,ZRQVPNY RZRETRAPL * 114,FGNGR EG 225, * ,Eniraan * 75 LBN SRZNYR SRYY HAXABJA ZRQVPNY ARRQ
-911@pv.eniraan.bu.hf:* 14_qrresvryq_trarenyZN,ZHGHNY NVQ * 2547,CBEGRE EQ, * ,Eniraan * NGJNGRE ERD ZRQVP 73 LEB ZNYR PURFG CNVAF
-911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny29,ZRQVPNY RZRETRAPL * 1449,FGNGR EG 14, * ,Eniraan * 79LBN ZNYR FGEBXR
-911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny2,NPPVQRAG - AB VAWHEL * 0,, * FE 225/IVETVAVN EQ,Eniraan * IRU NPPVQRAG/ART VAW/CBFF RAGENCZRAG
-911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny28,SVER * 2385,JNLYNAQ EQ, * ,Eniraan * YRNS SVER
-911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny80S,NYNEZ QEBC - SVER * 400,FGVYYJNGRE, * ,Eniraan * FZBXR QRGRPGBE
-911@pv.eniraan.bu.hf:* 14_qrresvryq_trarenyZN,ZHGHNY NVQ * 3613,F ARJGBA SNYYF EQ, * ,Eniraan * FGEHPGHER SVER...OEVAT JUNG LBH PNA
-911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny29,ZRQVPNY RZRETRAPL * 9041,FG EG 224, * ,Eniraan * BYQRE ZNYR CNFFRQ BHG, ABJ NYREG & GNYXVAT.
-911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny29,ZRQVPNY RZRETRAPL * 1449,FGNGR EG 14, * ,Eniraan * 79LBN ZNYR QVFBEVRAGRQ - PNER TVIRE JVGU UVZ
-911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny28,SVER * 3858,FGNGR EG 14, * ,Eniraan * ZHGHNY NVQ GB RQVAOHET GNAXRE. ONEA SVER. AB NAVZNYF, WHFG JBBQ NAQ RDHVCZRAG
-911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny29,ZRQVPNY RZRETRAPL * 2332,QRRESVRYQ QE, * ,Eniraan * 2 QRCHGVRF BHG JVGU NA BQ 3305815179
-911@pv.eniraan.bu.hf:* 14_qrresvryq_trarenyZN,ZHGHNY NVQ * 8228,F QHPX PERRX EQ, * ,Eniraan * ZNYR PUBXVAT
+ehzzryn: 29-ZRQVPNY RZRETRAPL,2138 CNEXJNL QE,,70LBN ZNYR GEBHOYR OERNGUVAT,
+911@pv.eniraan.bu.hf:fpuyrtw: 29-ZRQVPNY RZRETRAPL,0 ,FGNGR EG 224 OEVQTR NG OREYVA YNXR,,GEHPX SYVCCRQ BIRE BA OEVQTRJRFG RAQ BS GUR OEVQTR,
+911@pv.eniraan.bu.hf:fpuyrtw: ZN-ZHGHNY NVQ,16278 FUVYYVAT EQ 1,,FDHNQ ZHGHNY NVQ 16278 FUVYYVATT EQ NC[G 16 SRZNYR YBJ OYBQQ FHTNE,
+911@pv.eniraan.bu.hf:frarssz: 29-ZRQVPNY RZRETRAPL,1839 ABGGZNA EQ,,74 ZNYR UREAVN,
+911@pv.eniraan.bu.hf:cnhyrlp: 28-SVER,1859 ABGZNA EQ,,YNETR OBASVER,QRRESVRYQ NPX PNYY,
+911@pv.eniraan.bu.hf:fpuyrtw: ZN-ZHGHNY NVQ,15843 J NXEBA PNASVRYQ EQ,,15843 J NXEBA PNASVRYQ EQ 2 SRZNYRF JRER VA N SVTUG OREYVA,
+911@pv.eniraan.bu.hf:unqqnqg: ZN-ZHGHNY NVQ,4128 QHPX PERRX,,29 LEB ZNYR FRIRER PHG GB SVATRE,
+911@pv.eniraan.bu.hf:ynafvatrer: 29-ZRQVPNY RZRETRAPL,2311 QRRESVRYQ QE,,PURFG CNVAF,
+911@pv.eniraan.bu.hf:fpuyrtw: ZN-ZHGHNY NVQ,0 ,FGNGR EG 224/ FGNGR EG 534,,OREYVA 3 PNE PENFU 224 NAQ 534,
+911@pv.eniraan.bu.hf:Gvssnal.Orerprx: ZN-ZHGHNY NVQ,0 ,FE 534/ A JRFGREA ERFREIR EQ,,OREYVA ERD FDHNQ FRZV BA SVER,
+911@pv.eniraan.bu.hf:cnhyrlp: 29-ZRQVPNY RZRETRAPL,2145 CNEX JNL,,ARVTUOBE UNIVAT UVC CNVA,
+911@pv.eniraan.bu.hf:ynhery.fpvnaan: ZN-ZHGHNY NVQ,0 FGNGR EG 183/FGNGR EG 224,NGJNGRE,ZHGHNY NVQ ZNA CBJRE / 2 PNE NPPVQRAG / NGJNGRE ERDHRFGVAT,
+911@pv.eniraan.bu.hf:ynhery.fpvnaan: 29-ZRQVPNY RZRETRAPL,1339 ABEGU FG,QRRESVRYQ ,,
+911@pv.eniraan.bu.hf:fpuyrtw: 29-ZRQVPNY RZRETRAPL,2155 CNEXJNL QE,,29 JRRX CETANAG JNGRE YRNXNTR UNF N 15 ZABAGU BYQ JVGU URE,
+911@pv.eniraan.bu.hf:fpuyrtw: ZN-ZHGHNY NVQ,7400 ORQRYY EQ,,ZVYY PERRX PNZCTEGBHAQ ZNYR NG ZNVAG OHVYQVAT CBFF URNEG NEGGNPX,
+911@pv.eniraan.bu.hf:Gvssnal.Orerprx: 29-ZRQVPNY RZRETRAPL,10793 XRIVA EQ,,UVTU FHTNE/GEBHOYR OERNGUVAT 55 LEB ZNYR,
+911@pv.eniraan.bu.hf:Zbberu: 29-ZRQVPNY RZRETRAPL,0 ,QRRESVRYQ FCRRQJNL,,FDHNQ ARRQRQ SBE GENAFCBEG SBE N 12 LE BYQ JVGU N FCVANY VAWHEL,ERFCBAQ GB SEBAG BS CVGF,
+911@pv.eniraan.bu.hf:Zbberu: ZN-ZHGHNY NVQ,16278 FUVYYVATF EQ,,OREYVA ERDHRFGVAT Z/N SBE N FDHNQ SBE N FHOWRPG GUNG ARRQF GB OR GENAFCBEGRQ GB UBFCVGNY,
+911@pv.eniraan.bu.hf:Zbberu: 29-ZRQVPNY RZRETRAPL,9482 FGNGR EG 224,Qrresvryq Sver,Qrresvryq,JNYX VA BA FGNGVBA- PUYBEVAR RKCBFHER,RABHTU FGNSSVAT BA FGNGVBA,
+911@pv.eniraan.bu.hf:Zbberu: 4-NPPVQRAG - VAWHEL,0 ,OBAARE EQ/FE 224,,NHGB NPPVQRAG,
+911@pv.eniraan.bu.hf:ohexri: 29-ZRQVPNY RZRETRAPL,1273 FURSSYRGBA EQ,,57 LBN ZNYR PURFG CNVAF,
+911@pv.eniraan.bu.hf:gnlybey: 29-ZRQVPNY RZRETRAPL,0 ,FGNGR EG 224 1 ZVYR RNFG BS PVEPYR,,ZBGBEPLPYR UVG N QRRE 2 CNGVRAGF,
+911@pv.eniraan.bu.hf:ynafvatrer: 29-ZRQVPNY RZRETRAPL,10793 XRIVA EQ,,QVNORGVP YBJ FHTNE. CNGVRAG FRRZF GB OR VA RKGERZR QVFGERFF,
 
  */
 
@@ -45,159 +49,179 @@ choyvp pynff BUCbegntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgRqvaohetSver() {
-
-    qbGrfg("G1",
-        "911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny29,ZRQVPNY RZRETRAPL *\a" +
-        "3594,VAQEHFGEL EQ, * ,EBBGFGBJA * 89LBN ZNYR BKLTRA ZNPUVAR OEBXRA,\a" +
-        "GEBH",
-
-        "FEP:15_rqvaohet",
-        "PNYY:ZRQVPNY RZRETRAPL",
-        "NQQE:3594 VAQEHFGEL EQ",
-        "PVGL:EBBGFGBJA",
-        "VASB:89LBN ZNYR BKLTRA ZNPUVAR OEBXRA, GEBH");
-
-    qbGrfg("G2",
-        "911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny29,ZRQVPNY RZRETRAPL * 4265,EBPX FCEVAT EQ, * ,Eniraan * 53 LE BYQ ZNYR QVSSVPHYGL OERNGUVAT, CB",
-        "FEP:15_rqvaohet",
-        "PNYY:ZRQVPNY RZRETRAPL",
-        "NQQE:4265 EBPX FCEVAT EQ",
-        "VASB:53 LE BYQ ZNYR QVSSVPHYGL OERNGUVAT, CB");
-
-    qbGrfg("G3",
-        "911@pv.eniraan.bu.hf:* 15_rqvaohet_trarenyZN,ZHGHNY NVQ * 0,CNYZLEN GBJAFUVC [RQVG], * CNYZLEN,Eniraan * 1511 GB ZRRG 2011 NG FGNGVBA 20",
-        "FEP:15_rqvaohet",
-        "PNYY:ZHGHNY NVQ",
-        "NQQE:CNYZLEN GBJAFUVC [RQVG]",
-        "PVGL:CNYZLEN",
-        "VASB:1511 GB ZRRG 2011 NG FGNGVBA 20");
-
-    qbGrfg("G4",
-        "911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny29,ZRQVPNY RZRETRAPL * 7824,GNYYZNQTR EQ, * ,Eniraan * 80 LBN SRZNYR PURFG CNVAF﻿",
-        "FEP:15_rqvaohet",
-        "PNYY:ZRQVPNY RZRETRAPL",
-        "NQQE:7824 GNYYZNQTR EQ",
-        "VASB:80 LBN SRZNYR PURFG CNVAF﻿");
-
-    qbGrfg("G5",
-        "911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny29,ZRQVPNY RZRETRAPL * 4174,CBEGRE EQ , * ,RQVAOHET GJC * SRZNYR IREL YVTUG URNQRQ﻿",
-        "FEP:15_rqvaohet",
-        "PNYY:ZRQVPNY RZRETRAPL",
-        "NQQE:4174 CBEGRE EQ",
-        "PVGL:RQVAOHET GJC",
-        "VASB:SRZNYR IREL YVTUG URNQRQ﻿");
-
-    qbGrfg("G6",
-        "911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny29,ZRQVPNY RZRETRAPL * 3594,VAQHFGEL EQ, * ,EBBGFGBJA * 89 LBN ZNYR SNYYRA",
-        "FEP:15_rqvaohet",
-        "PNYY:ZRQVPNY RZRETRAPL",
-        "NQQE:3594 VAQHFGEL EQ",
-        "PVGL:EBBGFGBJA",
-        "VASB:89 LBN ZNYR SNYYRA");
-
-    qbGrfg("G7",
-        "911@pv.eniraan.bu.hf:* 15_rqvaohet_trareny28,SVER * 4907,EBPX FCEVAT EQ, * ,Eniraan * PUVZARL SVER﻿",
-        "FEP:15_rqvaohet",
-        "PNYY:SVER",
-        "NQQE:4907 EBPX FCEVAT EQ",
-        "VASB:PUVZARL SVER﻿");
-    
-  }
-  
-  @Grfg
   choyvp ibvq grfgQrresvryqSver() {
 
     qbGrfg("G1",
-        "911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny29,ZRQVPNY RZRETRAPL * 114,FGNGR EG 225, * ,Eniraan * 75 LBN SRZNYR SRYY HAXABJA ZRQVPNY ARRQ",
-        "FEP:14_qrresvryq",
+        "ehzzryn: 29-ZRQVPNY RZRETRAPL,2138 CNEXJNL QE,,70LBN ZNYR GEBHOYR OERNGUVAT,",
+        "PBQR:29",
         "PNYY:ZRQVPNY RZRETRAPL",
-        "NQQE:114 FGNGR EG 225",
-        "ZNQQE:114 FGNGR EBHGR 225",
-        "VASB:75 LBN SRZNYR SRYY HAXABJA ZRQVPNY ARRQ");
+        "NQQE:2138 CNEXJNL QE",
+        "VASB:70LBN ZNYR GEBHOYR OERNGUVAT");
 
     qbGrfg("G2",
-        "911@pv.eniraan.bu.hf:* 14_qrresvryq_trarenyZN,ZHGHNY NVQ * 2547,CBEGRE EQ, * ,Eniraan * NGJNGRE ERD ZRQVP 73 LEB ZNYR PURFG CNVAF",
-        "FEP:14_qrresvryq",
-        "PNYY:ZHGHNY NVQ",
-        "NQQE:2547 CBEGRE EQ",
-        "VASB:NGJNGRE ERD ZRQVP 73 LEB ZNYR PURFG CNVAF");
+        "911@pv.eniraan.bu.hf:fpuyrtw: 29-ZRQVPNY RZRETRAPL,0 ,FGNGR EG 224 OEVQTR NG OREYVA YNXR,,GEHPX SYVCCRQ BIRE BA OEVQTRJRFG RAQ BS GUR OEVQTR,",
+        "PBQR:29",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:FGNGR EG 224 OEVQTR NG OREYVA YNXR",
+        "ZNQQE:FGNGR 224 OEVQTR NG OREYVA YNXR",
+        "VASB:GEHPX SYVCCRQ BIRE BA OEVQTRJRFG RAQ BS GUR OEVQTR");
 
     qbGrfg("G3",
-        "911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny29,ZRQVPNY RZRETRAPL * 1449,FGNGR EG 14, * ,Eniraan * 79LBN ZNYR FGEBXR",
-        "FEP:14_qrresvryq",
-        "PNYY:ZRQVPNY RZRETRAPL",
-        "NQQE:1449 FGNGR EG 14",
-        "ZNQQE:1449 FGNGR 14",
-        "VASB:79LBN ZNYR FGEBXR");
+        "911@pv.eniraan.bu.hf:fpuyrtw: ZN-ZHGHNY NVQ,16278 FUVYYVAT EQ 1,,FDHNQ ZHGHNY NVQ 16278 FUVYYVATT EQ NC[G 16 SRZNYR YBJ OYBQQ FHTNE,",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ",
+        "NQQE:16278 FUVYYVAT EQ 1",
+        "VASB:FDHNQ ZHGHNY NVQ 16278 FUVYYVATT EQ NC[G 16 SRZNYR YBJ OYBQQ FHTNE");
 
     qbGrfg("G4",
-        "911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny2,NPPVQRAG - AB VAWHEL * 0,, * FE 225/IVETVAVN EQ,Eniraan * IRU NPPVQRAG/ART VAW/CBFF RAGENCZRAG",
-        "FEP:14_qrresvryq",
-        "PNYY:NPPVQRAG - AB VAWHEL",
-        "NQQE:FE 225 & IVETVAVN EQ",
-        "ZNQQE:FGNGR EBHGR 225 & IVETVAVN EQ",
-        "VASB:IRU NPPVQRAG/ART VAW/CBFF RAGENCZRAG");
+        "911@pv.eniraan.bu.hf:frarssz: 29-ZRQVPNY RZRETRAPL,1839 ABGGZNA EQ,,74 ZNYR UREAVN,",
+        "PBQR:29",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:1839 ABGGZNA EQ",  // Tbbtyr fnlf guvf vf ABGZNA EQ
+        "VASB:74 ZNYR UREAVN");
 
     qbGrfg("G5",
-        "911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny28,SVER * 2385,JNLYNAQ EQ, * ,Eniraan * YRNS SVER",
-        "FEP:14_qrresvryq",
+        "911@pv.eniraan.bu.hf:cnhyrlp: 28-SVER,1859 ABGZNA EQ,,YNETR OBASVER,QRRESVRYQ NPX PNYY,",
+        "PBQR:28",
         "PNYY:SVER",
-        "NQQE:2385 JNLYNAQ EQ",
-        "VASB:YRNS SVER");
+        "NQQE:1859 ABGZNA EQ",
+        "VASB:YNETR OBASVER / QRRESVRYQ NPX PNYY");
 
     qbGrfg("G6",
-        "911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny80S,NYNEZ QEBC - SVER * 400,FGVYYJNGRE, * ,Eniraan * FZBXR QRGRPGBE",
-        "FEP:14_qrresvryq",
-        "PNYY:NYNEZ QEBC - SVER",
-        "NQQE:400 FGVYYJNGRE",
-        "VASB:FZBXR QRGRPGBE");
+        "911@pv.eniraan.bu.hf:fpuyrtw: ZN-ZHGHNY NVQ,15843 J NXEBA PNASVRYQ EQ,,15843 J NXEBA PNASVRYQ EQ 2 SRZNYRF JRER VA N SVTUG OREYVA,",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ",
+        "NQQE:15843 J NXEBA PNASVRYQ EQ",
+        "VASB:15843 J NXEBA PNASVRYQ EQ 2 SRZNYRF JRER VA N SVTUG OREYVA");
 
     qbGrfg("G7",
-        "911@pv.eniraan.bu.hf:* 14_qrresvryq_trarenyZN,ZHGHNY NVQ * 3613,F ARJGBA SNYYF EQ, * ,Eniraan * FGEHPGHER SVER...OEVAT JUNG LBH PNA",
-        "FEP:14_qrresvryq",
+        "911@pv.eniraan.bu.hf:unqqnqg: ZN-ZHGHNY NVQ,4128 QHPX PERRX,,29 LEB ZNYR FRIRER PHG GB SVATRE,",
+        "PBQR:ZN",
         "PNYY:ZHGHNY NVQ",
-        "NQQE:3613 F ARJGBA SNYYF EQ",
-        "VASB:FGEHPGHER SVER...OEVAT JUNG LBH PNA");
+        "NQQE:4128 QHPX PERRX",  // Abg znccvat (zhghny nvq bhg bs pbhagl??
+        "VASB:29 LEB ZNYR FRIRER PHG GB SVATRE");
 
     qbGrfg("G8",
-        "911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny29,ZRQVPNY RZRETRAPL * 9041,FG EG 224, * ,Eniraan * BYQRE ZNYR CNFFRQ BHG, ABJ NYREG & GNYXVAT.",
-        "FEP:14_qrresvryq",
+        "911@pv.eniraan.bu.hf:ynafvatrer: 29-ZRQVPNY RZRETRAPL,2311 QRRESVRYQ QE,,PURFG CNVAF,",
+        "PBQR:29",
         "PNYY:ZRQVPNY RZRETRAPL",
-        "NQQE:9041 FG EG 224",   // Tbbtyr fnlf guvf vf HF 224 - Qvfcngpu glcb?
-        "ZNQQE:9041 BU 224",
-        "VASB:BYQRE ZNYR CNFFRQ BHG, ABJ NYREG & GNYXVAT.");
+        "NQQE:2311 QRRESVRYQ QE",
+        "VASB:PURFG CNVAF");
 
     qbGrfg("G9",
-        "911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny29,ZRQVPNY RZRETRAPL * 1449,FGNGR EG 14, * ,Eniraan * 79LBN ZNYR QVFBEVRAGRQ - PNER TVIRE JVGU UVZ",
-        "FEP:14_qrresvryq",
-        "PNYY:ZRQVPNY RZRETRAPL",
-        "NQQE:1449 FGNGR EG 14",
-        "ZNQQE:1449 FGNGR 14",
-        "VASB:79LBN ZNYR QVFBEVRAGRQ - PNER TVIRE JVGU UVZ");
+        "911@pv.eniraan.bu.hf:fpuyrtw: ZN-ZHGHNY NVQ,0 ,FGNGR EG 224/ FGNGR EG 534,,OREYVA 3 PNE PENFU 224 NAQ 534,",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ",
+        "NQQE:FGNGR EG 224 & FGNGR EG 534",
+        "ZNQQE:FGNGR 224 & FGNGR 534",
+        "VASB:OREYVA 3 PNE PENFU 224 NAQ 534");
 
     qbGrfg("G10",
-        "911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny28,SVER * 3858,FGNGR EG 14, * ,Eniraan * ZHGHNY NVQ GB RQVAOHET GNAXRE. ONEA SVER. AB NAVZNYF, WHFG JBBQ NAQ RDHVCZRAG",
-        "FEP:14_qrresvryq",
-        "PNYY:SVER",
-        "NQQE:3858 FGNGR EG 14",
-        "ZNQQE:3858 FGNGR 14",
-        "VASB:ZHGHNY NVQ GB RQVAOHET GNAXRE. ONEA SVER. AB NAVZNYF, WHFG JBBQ NAQ RDHVCZRAG");
+        "911@pv.eniraan.bu.hf:Gvssnal.Orerprx: ZN-ZHGHNY NVQ,0 ,FE 534/ A JRFGREA ERFREIR EQ,,OREYVA ERD FDHNQ FRZV BA SVER,",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ",
+        "NQQE:FE 534 & A JRFGREA ERFREIR EQ",
+        "ZNQQE:BU 534 & A JRFGREA ERFREIR EQ",
+        "VASB:OREYVA ERD FDHNQ FRZV BA SVER");
 
     qbGrfg("G11",
-        "911@pv.eniraan.bu.hf:* 14_qrresvryq_trareny29,ZRQVPNY RZRETRAPL * 2332,QRRESVRYQ QE, * ,Eniraan * 2 QRCHGVRF BHG JVGU NA BQ 3305815179",
-        "FEP:14_qrresvryq",
+        "911@pv.eniraan.bu.hf:cnhyrlp: 29-ZRQVPNY RZRETRAPL,2145 CNEX JNL,,ARVTUOBE UNIVAT UVC CNVA,",
+        "PBQR:29",
         "PNYY:ZRQVPNY RZRETRAPL",
-        "NQQE:2332 QRRESVRYQ QE",
-        "VASB:2 QRCHGVRF BHG JVGU NA BQ 3305815179");
+        "NQQE:2145 CNEX JNL",
+        "VASB:ARVTUOBE UNIVAT UVC CNVA");
 
     qbGrfg("G12",
-        "911@pv.eniraan.bu.hf:* 14_qrresvryq_trarenyZN,ZHGHNY NVQ * 8228,F QHPX PERRX EQ, * ,Eniraan * ZNYR PUBXVAT",
-        "FEP:14_qrresvryq",
+        "911@pv.eniraan.bu.hf:ynhery.fpvnaan: ZN-ZHGHNY NVQ,0 FGNGR EG 183/FGNGR EG 224,NGJNGRE,ZHGHNY NVQ ZNA CBJRE / 2 PNE NPPVQRAG / NGJNGRE ERDHRFGVAT,",
+        "PBQR:ZN",
         "PNYY:ZHGHNY NVQ",
-        "NQQE:8228 F QHPX PERRX EQ",  // Abg znccvat
-        "VASB:ZNYR PUBXVAT");
+        "NQQE:FGNGR EG 183 & FGNGR EG 224",
+        "ZNQQE:FGNGR 183 & FGNGR 224",
+        "PVGL:NGJNGRE",
+        "VASB:ZHGHNY NVQ ZNA CBJRE / 2 PNE NPPVQRAG / NGJNGRE ERDHRFGVAT");
 
+    qbGrfg("G13",
+        "911@pv.eniraan.bu.hf:ynhery.fpvnaan: 29-ZRQVPNY RZRETRAPL,1339 ABEGU FG,QRRESVRYQ ,,",
+        "PBQR:29",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:1339 ABEGU FG",
+        "PVGL:QRRESVRYQ");
+
+    qbGrfg("G14",
+        "911@pv.eniraan.bu.hf:fpuyrtw: 29-ZRQVPNY RZRETRAPL,2155 CNEXJNL QE,,29 JRRX CETANAG JNGRE YRNXNTR UNF N 15 ZABAGU BYQ JVGU URE,",
+        "PBQR:29",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:2155 CNEXJNL QE",
+        "VASB:29 JRRX CETANAG JNGRE YRNXNTR UNF N 15 ZABAGU BYQ JVGU URE");
+
+    qbGrfg("G15",
+        "911@pv.eniraan.bu.hf:fpuyrtw: ZN-ZHGHNY NVQ,7400 ORQRYY EQ,,ZVYY PERRX PNZCTEGBHAQ ZNYR NG ZNVAG OHVYQVAT CBFF URNEG NEGGNPX,",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ",
+        "NQQE:7400 ORQRYY EQ",
+        "VASB:ZVYY PERRX PNZCTEGBHAQ ZNYR NG ZNVAG OHVYQVAT CBFF URNEG NEGGNPX");
+
+    qbGrfg("G16",
+        "911@pv.eniraan.bu.hf:Gvssnal.Orerprx: 29-ZRQVPNY RZRETRAPL,10793 XRIVA EQ,,UVTU FHTNE/GEBHOYR OERNGUVAT 55 LEB ZNYR,",
+        "PBQR:29",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:10793 XRIVA EQ",
+        "VASB:UVTU FHTNE/GEBHOYR OERNGUVAT 55 LEB ZNYR");
+
+    qbGrfg("G17",
+        "911@pv.eniraan.bu.hf:Zbberu: 29-ZRQVPNY RZRETRAPL,0 ,QRRESVRYQ FCRRQJNL,,FDHNQ ARRQRQ SBE GENAFCBEG SBE N 12 LE BYQ JVGU N FCVANY VAWHEL,ERFCBAQ GB SEBAG BS CVGF,",
+        "PBQR:29",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:QRRESVRYQ FCRRQJNL",
+        "VASB:FDHNQ ARRQRQ SBE GENAFCBEG SBE N 12 LE BYQ JVGU N FCVANY VAWHEL / ERFCBAQ GB SEBAG BS CVGF");
+
+    qbGrfg("G18",
+        "911@pv.eniraan.bu.hf:Zbberu: ZN-ZHGHNY NVQ,16278 FUVYYVATF EQ,,OREYVA ERDHRFGVAT Z/N SBE N FDHNQ SBE N FHOWRPG GUNG ARRQF GB OR GENAFCBEGRQ GB UBFCVGNY,",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ",
+        "NQQE:16278 FUVYYVATF EQ",
+        "VASB:OREYVA ERDHRFGVAT Z/N SBE N FDHNQ SBE N FHOWRPG GUNG ARRQF GB OR GENAFCBEGRQ GB UBFCVGNY");
+
+    qbGrfg("G19",
+        "911@pv.eniraan.bu.hf:Zbberu: 29-ZRQVPNY RZRETRAPL,9482 FGNGR EG 224,Qrresvryq Sver,Qrresvryq,JNYX VA BA FGNGVBA- PUYBEVAR RKCBFHER,RABHTU FGNSSVAT BA FGNGVBA,",
+        "PBQR:29",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:9482 FGNGR EG 224",
+        "ZNQQE:9482 FGNGR 224",
+        "FEP:Qrresvryq Sver",
+        "PVGL:Qrresvryq",
+        "VASB:JNYX VA BA FGNGVBA- PUYBEVAR RKCBFHER / RABHTU FGNSSVAT BA FGNGVBA");
+
+    qbGrfg("G20",
+        "911@pv.eniraan.bu.hf:Zbberu: 4-NPPVQRAG - VAWHEL,0 ,OBAARE EQ/FE 224,,NHGB NPPVQRAG,",
+        "PBQR:4",
+        "PNYY:NPPVQRAG - VAWHEL",
+        "NQQE:OBAARE EQ & FE 224",
+        "ZNQQE:OBAARE EQ & BU 224",
+        "VASB:NHGB NPPVQRAG");
+
+    qbGrfg("G21",
+        "911@pv.eniraan.bu.hf:ohexri: 29-ZRQVPNY RZRETRAPL,1273 FURSSYRGBA EQ,,57 LBN ZNYR PURFG CNVAF,",
+        "PBQR:29",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:1273 FURSSYRGBA EQ",
+        "VASB:57 LBN ZNYR PURFG CNVAF");
+
+    qbGrfg("G22",
+        "911@pv.eniraan.bu.hf:gnlybey: 29-ZRQVPNY RZRETRAPL,0 ,FGNGR EG 224 1 ZVYR RNFG BS PVEPYR,,ZBGBEPLPYR UVG N QRRE 2 CNGVRAGF,",
+        "PBQR:29",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:FGNGR EG 224 1 ZVYR RNFG BS PVEPYR",
+        "ZNQQE:FGNGR 224 1 ZVYR & PVEPYR",
+        "VASB:ZBGBEPLPYR UVG N QRRE 2 CNGVRAGF");
+
+    qbGrfg("G23",
+        "911@pv.eniraan.bu.hf:ynafvatrer: 29-ZRQVPNY RZRETRAPL,10793 XRIVA EQ,,QVNORGVP YBJ FHTNE. CNGVRAG FRRZF GB OR VA RKGERZR QVFGERFF,",
+        "PBQR:29",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:10793 XRIVA EQ",
+        "VASB:QVNORGVP YBJ FHTNE. CNGVRAG FRRZF GB OR VA RKGERZR QVFGERFF");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
