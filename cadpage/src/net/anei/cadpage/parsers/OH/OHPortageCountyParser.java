@@ -14,7 +14,7 @@ public class OHPortageCountyParser extends FieldProgramParser {
   
   public OHPortageCountyParser() {
     super("PORTAGE", "OH",
-          "CALL ZERO? ADDR SRC? CITY INFO+");
+          "CALL ZERO? ADDR! SRC? CITY INFO+");
   }
   
   @Override
@@ -51,7 +51,7 @@ public class OHPortageCountyParser extends FieldProgramParser {
   
   private class MySourceField extends SourceField {
     public MySourceField() {
-      setPattern(Pattern.compile("DEERFIELD FIRE", Pattern.CASE_INSENSITIVE), true);
+      setPattern(Pattern.compile(".* (?:FIRE|POLICE)", Pattern.CASE_INSENSITIVE), true);
     }
   }
   
