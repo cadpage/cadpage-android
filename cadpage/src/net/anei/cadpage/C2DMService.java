@@ -13,6 +13,7 @@ import net.anei.cadpage.vendors.VendorManager;
 import android.app.AlarmManager;
 import android.app.IntentService;
 import android.app.PendingIntent;
+import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -34,7 +35,6 @@ public class C2DMService extends IntentService {
   private static final String GCM_PROJECT_ID = "1027194726673";
 
   // wakelock
-  private static final String WAKELOCK_KEY = "C2DMService";
   private static PowerManager.WakeLock sWakeLock;
 
   private static final Random RANDOM = new Random();
@@ -44,35 +44,27 @@ public class C2DMService extends IntentService {
   }
 
   @Override
+  public int onStartCommand(Intent intent, int flags, int startId) {
+    if (flags != 0) holdPowerLock(this);
+    super.onStartCommand(intent, flags, startId);
+    return Service.START_REDELIVER_INTENT;
+  }
+
+  @Override
   protected void onHandleIntent(Intent intent) {
     
-    try {
-      Log.v("C2DMReceiver: onReceive()");
-      
-      if (ACTION_C2DM_REGISTERED.equals(intent.getAction())) {
-        handleRegistration(intent);
-      }
-      
-      else if (ACTION_C2DM_RECEIVE.equals(intent.getAction())) {
-        handleMessage(intent);
-      }
-      
-      else if (ACTION_RETRY_REGISTER.equals(intent.getAction())) {
-        retryRegisterRequest(intent);
-      }
+    Log.v("C2DMReceiver: onReceive()");
+    
+    if (ACTION_C2DM_REGISTERED.equals(intent.getAction())) {
+      handleRegistration(intent);
     }
     
-    finally {
-      
-      // Release the power lock, so phone can get back to sleep.
-      // The lock should be reference-counted by default, so multiple
-      // messages are ok.  But one user is having under lock issues
-      // so we will double check to make sure the lock is held before
-      // we release it.
-      Log.v("C2DMServce Releasing wakelock");
-      synchronized (C2DMService.class){ 
-        if (sWakeLock.isHeld()) sWakeLock.release();
-      }
+    else if (ACTION_C2DM_RECEIVE.equals(intent.getAction())) {
+      handleMessage(intent);
+    }
+    
+    else if (ACTION_RETRY_REGISTER.equals(intent.getAction())) {
+      retryRegisterRequest(intent);
     }
  }
 
@@ -334,6 +326,12 @@ public class C2DMService extends IntentService {
       }
     });
   }
+  
+  @Override
+  public void onDestroy() {
+    Log.v("Shutting down C2DMService");
+    if (sWakeLock != null) sWakeLock.release();
+  }
 
   /**
    * Called from the broadcast receiver.
@@ -343,19 +341,22 @@ public class C2DMService extends IntentService {
    * alive.
    */
   static void runIntentInService(Context context, Intent intent) {
-      synchronized (C2DMService.class) {
-          if (sWakeLock == null) {
-              PowerManager pm = (PowerManager)context.getSystemService(Context.POWER_SERVICE);
-              sWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, WAKELOCK_KEY);
-              sWakeLock.setReferenceCounted(true);
-          }
-      }
-      Log.v("C2DMService Acquiring wakelock");
-      sWakeLock.acquire();
-      intent.setClass(context, C2DMService.class);
-      context.startService(intent);
+    holdPowerLock(context);
+    intent.setClass(context, C2DMService.class);
+    context.startService(intent);
   }
-  
+
+  private static void holdPowerLock(Context context) {
+    synchronized (C2DMService.class) {
+      if (sWakeLock == null) {
+        PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
+        sWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, Log.LOGTAG+".C2DMService");
+        sWakeLock.setReferenceCounted(false);
+      }
+      if(!sWakeLock.isHeld()) sWakeLock.acquire();
+    }
+  }
+
   /**
    * send response messages
    * @param context current context

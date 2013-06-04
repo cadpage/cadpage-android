@@ -41,7 +41,7 @@ public class TrackingService extends Service implements LocationListener {
   private static final int TRACKING_NOTIFICATION = 298;
 
   // Wake lock and synchronize lock
-  static private PowerManager.WakeLock mWakeLock = null;
+  static private PowerManager.WakeLock sWakeLock = null;
   
   /**
    * Internal class defining a location report request
@@ -215,7 +215,7 @@ public class TrackingService extends Service implements LocationListener {
     LocationManager locMgr = (LocationManager)this.getSystemService(LOCATION_SERVICE);
     locMgr.removeUpdates(this);
     bestProvider = null;
-    if (mWakeLock != null) mWakeLock.release();
+    if (sWakeLock != null) sWakeLock.release();
   }
 
   @Override
@@ -256,12 +256,12 @@ public class TrackingService extends Service implements LocationListener {
 
   private static void holdPowerLock(Context context) {
     synchronized (TrackingService.class) {
-      if (mWakeLock == null) {
+      if (sWakeLock == null) {
         PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
-        mWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, Log.LOGTAG+".LocationService");
-        mWakeLock.setReferenceCounted(false);
+        sWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, Log.LOGTAG+".TrackingService");
+        sWakeLock.setReferenceCounted(false);
       }
-      if(!mWakeLock.isHeld()) mWakeLock.acquire();
+      if(!sWakeLock.isHeld()) sWakeLock.acquire();
     }
   }
 }
