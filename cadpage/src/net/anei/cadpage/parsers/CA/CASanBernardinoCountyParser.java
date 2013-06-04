@@ -24,7 +24,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("| ")) return false;
+    if (!body.startsWith("|")) return false;
     body = body.substring(2).trim();
     return parseFields(body.split(">"), data);
   }
@@ -74,24 +74,51 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
   
   private static final Pattern PRO_QA_PTN = Pattern.compile(" *\\[ProQA .*?\\] *");
   private static final Pattern CODE_PTN = Pattern.compile("\\bDispatch code: *(\\w+)\\b");
+  private static final Pattern GPS_PTN = Pattern.compile("W(?:PH2|911) LAT:([-+]?[\\d\\.]+) LON:([-+]?[\\d\\.]+) .*");
+  private static final String[] SKIP_MARKERS = new String[]{
+    "External",
+    "Automatic Case Number(s)",
+    "A cellular re-bid has occurred", 
+    "check the ANI/ALI Viewer",
+    "WPH2 ",
+    "W911 "
+  };
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(",External");
-      if (pt >= 0) field = field.substring(0,pt).trim();
+      
       field = PRO_QA_PTN.matcher(field).replaceAll(" ");
+      field = field.replaceAll("  +", " ").trim();
+      
       Matcher match = CODE_PTN.matcher(field);
       if (match.find()) {
         data.strCode = match.group(1);
         field = field.substring(0,match.start()) + " " + field.substring(match.end());
       }
-      field = field.replaceAll("  +", " ").trim();
-      super.parse(field, data);
+
+      for (String fld : field.split(",")) {
+        match = GPS_PTN.matcher(fld);
+        if (match.matches()) {
+          data.strGPSLoc = match.group(1) + ',' + match.group(2);
+          continue;
+        }
+        boolean skip = false;
+        String trimFld =  fld.trim();
+        for (String skip_mark : SKIP_MARKERS) {
+          if (trimFld.startsWith(skip_mark) || skip_mark.startsWith(trimFld)) {
+            skip = true;
+            break;
+          }
+        }
+        if (skip) continue;
+        
+        data.strSupp = append(data.strSupp, ",", fld).trim();
+      }
     }
     
     @Override
     public String getFieldNames() {
-      return "CODE INFO";
+      return "CODE GPS INFO";
     }
   }
   
