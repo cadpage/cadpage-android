@@ -9,17 +9,6 @@ Have a nice day,
 -Ken
 
 ******************************************************************
-** PHONE_REGISTRATION_ERROR responses
-******************************************************************
-
-Your phone is not currently registered with Active911 to receive direct pages.  I cannot tell, but you may well have been caught by a "feature" in the v1.6.25 version that was disconnecting direct paging users that were receiving direct pages even though the registration process had  never successfully completed.  That has been fixed in the latest Cadpage release, but installing that now will not help you, you have already been disconnected.
-
-In any case, you need to re-register your phone with Active911 to enable direct paging.
-
-Good luck,
--Ken
-
-******************************************************************
 ** Recent PHONE_REGISTRATION_ERROR
 ** Null RegistrationID
 ** Cadpage version < 1.6.26
@@ -812,10 +801,20 @@ Good luck,
 -Ken
 
 ******************************************************************
-* Active911 registration issues
+** Active911 registration issues
+** Swift device has page type other than cadpage_c2dm
 ******************************************************************
 
-That is pretty much true.  Sometimes we end up in a partially connected state where Active911 or CodeMessaging believe it is connected to your device, and can even ship pages to the phone.  But Cadpage never got the final acknowledgement and still does not believe it is registered.
+Whoever set up your device in Active911, and gave you the device number and activation code to use, set it up with the wrong page type.  The page type should be "Cadpage (Android)".  They should be able to fix that.
+
+Good luck,
+-Ken
+
+******************************************************************
+** Active911 registration issues
+** No recent GCM registration problems
+** registration_id not null
+******************************************************************
 
 Very occasionally, people are having trouble registering with Active911.  There are a couple things you can try, usually something works.
 
@@ -835,8 +834,6 @@ Restart the device and try again
 This takes care of 95% of the reported problems.  If it does not there are some odder tricks that are occasionally required.
 
 Power down your device, remove the SD card, then power it up and register Cadpage with Active911.  I have no idea why this would make any difference, but it got one user up and running.
-
-Double check your Active911 device configuration to confirm that it is configured with a page type of Cadpage (Android)
 
 Good luck,
 -Ken
