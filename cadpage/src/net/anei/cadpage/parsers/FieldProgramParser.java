@@ -1295,14 +1295,18 @@ public class FieldProgramParser extends SmartAddressParser {
       int ndx = state.getIndex();
       
       // Next we invoke our field object to process the current data field.
-      // If there is a fail step, we will ask the field object to check to
-      // see if this is a valid data field before parsing it.  if there is
-      // not, it will not be given that option
+      // If there is a fail step and step is no tagged, we will ask the 
+      // field object to check to see if this is a valid data field before 
+      // parsing it.  if there is not, it will not be given that option
+      
+      // If step is tagged the fail link is only taken if a matching data field
+      // is not found.  We would not be here unless the data field had a matching
+      // tag, so the fail step should never be taken at this point
       boolean success = true;
       try {
         if (field != null) {
           field.setFieldList(flds, ndx);
-          if (failLink != null) {
+          if (tag == null && failLink != null) {
             success = field.doCheckParse(curFld, data);
           }
           else {
