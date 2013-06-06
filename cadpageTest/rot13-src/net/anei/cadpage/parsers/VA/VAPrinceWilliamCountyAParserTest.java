@@ -26,6 +26,12 @@ Pbagnpg: Cngevpx Cnynpvbf <cnynpvbf.cngevpx@tznvy.pbz>
 Fraqre:1410000011
 1 bs 2\aSEZ:CJEFNA\aZFT:17-Bpg-2012/07:30:19/NPPO/4065 CEVAPR JVYYVNZ CL / 13124 UVYYRAQNYR QE ,CJP /13/N510O R513O Z513O FGN13 /fpubby ohf naq n\a(Pba'g) 2 bs 2\aoyh fhi// srznyr vf ubyqvat ure purfg// fur ybbxf funxra hn(Raq)
 
+Pbagnpg: Whqv Zvyyre <wzvyyre@fekn.pbz>
+Fraqre: CJEFNA
+SEZ:CJEFNA\aZFT:06-Wha-2013/16:19:27/FVPN/ZF TNVA @ 8001 YVZRFGBAR QE ,CJP /04/R504 Z525 /7gu tenqr srznyr fghqrag srvagrq // vf pbap abja
+1 bs 2\aSEZ:CJEFNA\aZFT:06-Wha-2013/13:29:05/UNMNEQ/13655 OEVQYRJBBQ QE ,CJP /25/R525O /pnyyre nqi bar bs gurve gehpxf unq nagvserrmr fcvyy ng noi\a(Pba'g) 2 bs 2\a// nqi nccebk 3 tnyybaf // (Raq)
+1 bs 2SEZ:CJEFNAZFT:06-Wha-2013/12:46:47/SNYNEZ/10885 ZBEAVAT TYBEL PG ,CJP /11/R525O FGN11 G504 /ebfrznel evqtr ncg / ab ahzore / trareny(Pba'g) 2 bs 2mbar 11 / fnvq nqqerff jnf  7601 - 10880 zbeavat tybel  ohvqv (Raq)
+
 Pbagnpg: fhccbeg@npgvir911.pbz
 Fraqre: @efna.cjptbi.bet
 
@@ -196,6 +202,51 @@ choyvp pynff INCevaprJvyyvnzPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:N510O R513O Z513O FGN13",
         "VASB:fpubby ohf naq n oyh fhi / srznyr vf ubyqvat ure purfg / fur ybbxf funxra hn");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWhqvZvyyre() {
+
+    qbGrfg("G1",
+        "SEZ:CJEFNA\a" +
+        "ZFT:06-Wha-2013/16:19:27/FVPN/ZF TNVA @ 8001 YVZRFGBAR QE ,CJP /04/R504 Z525 /7gu tenqr srznyr fghqrag srvagrq // vf pbap abja",
+
+        "QNGR:06/06/2013",
+        "GVZR:16:19:27",
+        "PBQR:FVPN",
+        "PNYY:NYF - Fvpxarff",
+        "NQQE:8001 YVZRFGBAR QE",
+        "CYNPR:ZF TNVA",
+        "OBK:04",
+        "HAVG:R504 Z525",
+        "VASB:7gu tenqr srznyr fghqrag srvagrq / vf pbap abja");
+
+    qbGrfg("G2",
+        "1 bs 2\a" +
+        "SEZ:CJEFNA\a" +
+        "ZFT:06-Wha-2013/13:29:05/UNMNEQ/13655 OEVQYRJBBQ QE ,CJP /25/R525O /pnyyre nqi bar bs gurve gehpxf unq nagvserrmr fcvyy ng noi\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "// nqi nccebk 3 tnyybaf // (Raq)",
+
+        "QNGR:06/06/2013",
+        "GVZR:13:29:05",
+        "PBQR:UNMNEQ",
+        "PNYY:Unmneqbhf Fvghngvba",
+        "NQQE:13655 OEVQYRJBBQ QE",
+        "OBK:25",
+        "HAVG:R525O",
+        "VASB:pnyyre nqi bar bs gurve gehpxf unq nagvserrmr fcvyy ng noi / nqi nccebk 3 tnyybaf");
+
+    qbGrfg("G3",
+        "1 bs 2SEZ:CJEFNAZFT:06-Wha-2013/12:46:47/SNYNEZ/10885 ZBEAVAT TYBEL PG ,CJP /11/R525O FGN11 G504 /ebfrznel evqtr ncg / ab ahzore / trareny(Pba'g) 2 bs 2mbar 11 / fnvq nqqerff jnf  7601 - 10880 zbeavat tybel  ohvqv (Raq)",
+        "GVZR:12:46:47",
+        "PBQR:SNYNEZ",
+        "PNYY:Sver Nynez Fbhaqvat",
+        "NQQE:10885 ZBEAVAT TYBEL PG",
+        "OBK:11",
+        "HAVG:R525O FGN11 G504",
+        "VASB:ebfrznel evqtr ncg / ab ahzore / trareny(Pba'g) 2 bs 2mbar 11 / fnvq nqqerff jnf  7601 - 10880 zbeavat tybel  ohvqv (Raq)");
+ 
   }
   
   @Grfg

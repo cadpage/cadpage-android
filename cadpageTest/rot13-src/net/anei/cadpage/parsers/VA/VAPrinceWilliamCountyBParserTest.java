@@ -6,6 +6,11 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Cevapr Jvyyvnz Pbhagl
+Pbagnpg: Whqv Zvyyre <wzvyyre@fekn.pbz>
+Fraqre: CJEFNA
+1 bs 3\aSEZ:CJEFNA\aZFT:Genhzn Sylbhg  \aVap. Nqqerff: 13909 Fzbxrgbja Eq  \aObk Ahzore: 2090  \aEnqvb Punaary: 5P  \aPbzznaq: R510  \aYnaqvat\a(Pba'g) 2 bs 3\aMbar: Tbynafxl OYIQ./ Aboyr Cbaq Jnl  \aPbzzragf: Havgf ba gur fprar erdhrfgvat n uryvpbcgre sbe n 6 lrne byq jvgu urnq n vawhel. \a(Pba'g) 3 bs 3\aZrqfgne 2 vf va ebhgr jvgu n 10 zva RGN.v(Raq)
+
+Pbagnpg: Npgvir911
 Ntrapl anzr: Abxrfivyyr Iby. Sver Erfphr Ybpngvba: Oevfgbj, IN 
 Fraqre: @efna.cjptbi.bet>
 
@@ -37,6 +42,32 @@ choyvp pynff INCevaprJvyyvnzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp INCevaprJvyyvnzPbhaglOCnefreGrfg() {
     frgCnefre(arj INCevaprJvyyvnzPbhaglOCnefre(), "CEVAPR JVYYVNZ PBHAGL", "IN");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWhqlZvyyre() {
+
+    qbGrfg("G1",
+        "1 bs 3\a" +
+        "SEZ:CJEFNA\a" +
+        "ZFT:Genhzn Sylbhg  \a" +
+        "Vap. Nqqerff: 13909 Fzbxrgbja Eq  \a" +
+        "Obk Ahzore: 2090  \a" +
+        "Enqvb Punaary: 5P  \a" +
+        "Pbzznaq: R510  \a" +
+        "Ynaqvat\a" +
+        "(Pba'g) 2 bs 3\a" +
+        "Mbar: Tbynafxl OYIQ./ Aboyr Cbaq Jnl  \a" +
+        "Pbzzragf: Havgf ba gur fprar erdhrfgvat n uryvpbcgre sbe n 6 lrne byq jvgu urnq n vawhel. \a" +
+        "(Pba'g) 3 bs 3\a" +
+        "Zrqfgne 2 vf va ebhgr jvgu n 10 zva RGN.v(Raq)",
+
+        "PNYY:Genhzn Sylbhg",
+        "NQQE:13909 Fzbxrgbja Eq",
+        "OBK:2090",
+        "PU:5P",
+        "VASB:Pzq: R510\aYM: Tbynafxl OYIQ./ Aboyr Cbaq Jnl\aHavgf ba gur fprar erdhrfgvat n uryvpbcgre sbe n 6 lrne byq jvgu urnq n vawhel.  Zrqfgne 2 vf va ebhgr jvgu n 10 zva RGN.v");
+   
   }
   
   @Grfg

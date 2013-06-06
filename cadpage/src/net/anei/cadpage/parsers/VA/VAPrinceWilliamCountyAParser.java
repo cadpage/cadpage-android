@@ -21,7 +21,7 @@ public class VAPrinceWilliamCountyAParser extends VAPrinceWilliamCountyBaseParse
 
   @Override
   public String getFilter() {
-    return "cc_message_notification@usamobility.net,@rsan.pwcgov.org";
+    return "cc_message_notification@usamobility.net,@rsan.pwcgov.org,PWRSAN";
   }
 
   @Override
