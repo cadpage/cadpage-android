@@ -24,8 +24,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("|")) return false;
-    body = body.substring(1).trim();
+    if (body.startsWith("|")) body = body.substring(1).trim();
     return parseFields(body.split(">"), data);
   }
   
@@ -39,6 +38,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       int pt = key.indexOf(' ');
       if (pt >= 0) {
         key = field.substring(0,pt);
+        if (key.endsWith("-")) key = key.substring(0,key.length()-1).trim();
         extra = field.substring(pt+1).trim();
         if (extra.startsWith("-")) extra = extra.substring(1).trim();
       }
@@ -289,6 +289,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       "BIRTH", "Childbirth",
       "BP", "Back Pain",
       "BT", "Bomb Threat",
+      "CA", "Commercial Alarm",
       "CI", "Commercial Investigation",
       "CO", "Carbon Monoxide Alarm",
       "CP", "Chest Pains",
@@ -330,6 +331,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       "GWX", "Weather Incident",
       "HA", "Headache",
       "HCE", "Heat/Cold Exposure",
+      "HEART", "Heart Problem",
       "HL", "Hemorrhage/Laceration",
       "HP", "Heart problems",
       "HZ", "Hazardous Materials",
