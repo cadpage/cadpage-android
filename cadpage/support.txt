@@ -16,7 +16,7 @@ Have a nice day,
 
 Something has been going haywire with the Google infrastructure supporting direct paging some time ago.  It only impacts a small percentage of direct paging users, but that is small comfort to those who are impacted.  We have been complaining to Google but so far have not gotten any response.
 
-The latest version of Cadpage (v1.6.26) has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
+The latest version of Cadpage (v1.6.27) has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
 
 If it does not, use the Email the Developer feature to report the situation and we will see what we can do from there.
 
@@ -167,9 +167,9 @@ The problem with this arrangement is that Cadpage lacks the ability to display r
 
 ******************************************************************
 
-You or your department have apparently paid for Active911.  Cadpage is free if you use direct paging.
+You or your department have apparently paid for Active911, but you need to re-register your phone with Active911 to enable direct paging. 
 
-Here are the details in setting up Cadpage with Active911.  If you have your activation code of letters and numbers, jump to step 3 below.
+Here are the details. If you have your activation code of letters and numbers, jump to step 3 below.
 
 1. First, do you have an account with Active911?  If not, you should contact them about getting set up.  You can do that by visiting their web page at Active911.com.  Click the contact link, then the "click here to sign up online" link in the right sidebar.
 
@@ -187,43 +187,28 @@ Good Luck,
 Jean -- Assistant to Ken Corbin
 
 ******************************************************************
-** Already has activation code; with details:
+** Already has activation code
 ******************************************************************
 
-You or your department has apparently paid for Active911, but you need to register your phone with Active911 to enable direct paging. Here are the details:
+Your department has apparently paid for Active911, but you need to register your device.  
 
-Your activation code is:
-
-Open the Cadpage settings on your phone.  Select
-Direct Paging Vendors > Active911.com > Register
-
-This takes you to a web page where you need to enter the two part Device Key / Access code associated with the device.
-
-If all goes well, Cadpage will display a notice that your Active911 direct paging connection has been activated.
-
-At this point, Active911 will start sending you pages through the Internet data network instead of using SMS text pages.
-
-Please let me know if you still have problems with Cadpage or this registration process.
-
-Good Luck,
-Jean, Assistant to Ken Corbin
-
-******************************************************************
-
-So, the department should have an account with Active911.  And everyone should have a device that is associated with that account.  Each user needs the numeric device number and the 4 character activation code associated with that device.  This is all information you get working with Active911.
+You will need the numeric device number and 4 character activation code associated with that device.  This is information you can obtain from your administrator, but let me know if you need assistance with that.
 
 Next open the Cadpage settings on your phone.  Select
 Direct Paging Vendors > Active911.com > Register
+
 This takes you to a web page where you need to enter the two part Device Key / Access code associated with the device.  If all goes well, Cadpage will display a notice that your Active911 direct paging connection has been activated.
 
 At this point, Active911 will start sending you pages through the Internet data network instead of using SMS text pages. 
 
-Please let me know if you still have problems with Cadpage.
+Please let me know if you still have problems with Cadpage or the registration process.
 
-Good Luck, Jean, Assistant to Ken Corbin
+Good Luck, 
+Jean, Assistant to Ken Corbin
+
 
 ******************************************************************
-Trouble registering with Active911
+Trouble registering with Active911  phase 2
 ******************************************************************
 
 Very occasionally, people are having trouble registering with
@@ -333,7 +318,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-VMHDUBDA or vmhdubda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+HFMRAVGA or hfmravga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -456,7 +441,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-VMHDUBDA or vmhdubda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+HFMRAVGA or hfmravga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -545,9 +530,13 @@ $10 per year is way out of line for what you normally expect to pay for a genera
 We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them other then getting staff and volunteer members to bring it up.  If you can talk them into it, they get a 30% discount or more!  Details can be found at http://www.cadpage.org/financial-support/other-support-options.
 
 In the interest of helping communities, we offer a  number of approved ways to run Cadpage without paying anything.
+
 1) You  can ask for a free subscription.but you have to include a reasonable reason for not being able to afford $10 per year.  
+
 2) You can simply reinstall Cadpage every 30 days.
+
 3) If you (or your department) are currently using or can switch to using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free if you are using the direct messaging option.
+
 4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version will not bug you about paying for it.
 
 Good Luck,
@@ -580,7 +569,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-VMHDUBDA or vmhdubda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+HFMRAVGA or hfmravga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -594,7 +583,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-VMHDUBDA or vmhdubda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+HFMRAVGA or hfmravga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -604,7 +593,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-VMHDUBDA or vmhdubda.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+HFMRAVGA or hfmravga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -889,6 +878,20 @@ If the messages are triggering CADpage, but will not allow you to select map opt
 
 Good luck,
 Jean -- Assistant to Ken Corbin
+
+******************************************************************
+
+We have two different long and involved trouble shooting procedures.  This the list for user who are getting regular text pages.  If you are getting direct pages from Active911 or CodeMessaging, this is the wrong list for you.  You should contact us for the direct page troubleshooting list.
+
+This is a partial list of what the problem might be.  If you need more help, please use the Cadpage app, and from Settings, select Email the Developer. We can gain lots of information from the data that comes with that message.
+
+Do you have Go SMS Pro or Handcent or AT&T Messenger installed?  They have proven to be incompatible with Cadpage. We keep the most recent version of Handcent that works with Cadpage on our Download page at http://www.cadpage.org/download-cadpage/
+
+Are you getting text pages from your dispatch center?  CadPage works by processing those text messages, if you have not arranged to have them sent to your device, CadPage will not do anything for you.
+
+Good luck,
+Jean -- Assistant to Ken Corbin
+
 
 ******************************************************************
 
@@ -1933,6 +1936,28 @@ We do not support the sending of these confidential dispatch messages to social 
 Thanks for your inquiry,
 Jean, Assistant to Ken Corbin
 **********************************************************************************
+
+The LED flash notification has always been problematic.  It apparently works on some devices.  But never the ones I use.  I isn't a  high priority issues and I have never found time to investigate it.
+
+Have a nice day,
+-Ken
+**********************************************************************************
+Q: registered with Active911 but not getting pages
+
+A: Whoever set up your device in Active911, and gave you the device number and activation code to use, set it up with the wrong page type.  The page type should be "Cadpage (Android)".  They should be able to fix that.
+
+Good luck,
+-Ken
+
+**********************************************************************************
+Q: different tones for different department alerts??
+
+A: Not at this time.  This is an often requested feature and I hope to get something implemented someday.
+
+Have a nice day,
+-Ken
+
+*********************************************************************************
 
 end
 

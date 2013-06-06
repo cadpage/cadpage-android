@@ -33,7 +33,7 @@ ASYRZVAT:6100 SNVETEBHAQ EQ QHAA JVYYVR ZPYRBQ YA/CIG EQ K OVEPUQNYR QE 20121720
 choyvp pynff APUnearggPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp APUnearggPbhaglOCnefreGrfg() {
-    frgCnefre(arj APUnearggPbhaglOCnefre(), "UNLJBBQ PBHAGL", "AP");
+    frgCnefre(arj APUnearggPbhaglOCnefre(), "UNEARGG PBHAGL", "AP");
   }
   
   @Grfg
