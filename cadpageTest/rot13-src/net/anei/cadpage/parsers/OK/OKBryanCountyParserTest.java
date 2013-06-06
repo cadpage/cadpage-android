@@ -627,7 +627,7 @@ choyvp pynff BXOelnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G18",
         "0:ZIPV >IRUVPYR PBYYVFVBA /J VAWHEVRF 1425 F 9GU NIR QHENAG E; & Q NHGB FNYINTR 5809249323 Znc: Tevqf:0,0 Pnq: 2013-0000013193",
         "PBQR:ZIPV",
-        "PNYY:IRUVPYR PBYYVFVBA/J VAWHEVRF",
+        "PNYY:IRUVPYR PBYYVFVBA /J VAWHEVRF",
         "NQQE:1425 F 9GU NIR",
         "PVGL:QHENAG",
         "ANZR:E; & Q NHGB FNYINTR",
@@ -657,7 +657,7 @@ choyvp pynff BXOelnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G22",
         "0:ARG >ABA RZRET GENAFCBEG QCQ///GRFG Pnq: 2013-0000013128",
         "PBQR:ARG",
-        "PNYY:ABA RZRET GENAFCBEG QCQ/GRFG",
+        "PNYY:ABA RZRET GENAFCBEG QCQ///GRFG",
         "VQ:2013-0000013128");
 
     qbGrfg("G23",
@@ -1143,7 +1143,7 @@ choyvp pynff BXOelnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G88",
         "0:ZIPV >IRUVPYR PBYYVFVBA /J VAWHEVRF 6160 JVYFBA EQ OELNA HF PRYYHYNE 5807758522 Znc: Tevqf:0,0 Pnq: 2013-0000012778",
         "PBQR:ZIPV",
-        "PNYY:IRUVPYR PBYYVFVBA/J VAWHEVRF",
+        "PNYY:IRUVPYR PBYYVFVBA /J VAWHEVRF",
         "NQQE:6160 JVYFBA EQ",
         "ANZR:OELNA",
         "CUBAR:5807758522",

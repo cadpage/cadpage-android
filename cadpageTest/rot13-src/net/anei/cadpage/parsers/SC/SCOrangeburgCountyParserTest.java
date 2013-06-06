@@ -576,7 +576,7 @@ choyvp pynff FPBenatrohetPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         ":bopqvfcngpu:ZRQVPNY PNYY NG 155 BVYREF QE SBE CNVA..ZRQVP HAVG SEBZ FGNGVBA 5",
         "PNYY:ZRQVPNY PNYY",
         "NQQE:155 BVYREF QE",
-        "VASB:SBE CNVA ZRQVP HAVG SEBZ FGNGVBA 5");
+        "VASB:SBE CNVA..ZRQVP HAVG SEBZ FGNGVBA 5");
 
     qbGrfg("G74",
         ":bopqvfcngpu:BO-CERANGNY NG 309 GHPXRE EQ. PEBFF BS BYQ AHZORE FVK UJL/ TEVQ 54/N4",
@@ -615,7 +615,7 @@ choyvp pynff FPBenatrohetPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         ":bopqvfcngpu:ZRQVPNY PNYY NG 453 TNOVTNE EQ SBE ERFCVENGBEL QVFGERFF....ZRQVP HAVG SEBZ FGNGVBA 5",
         "PNYY:ZRQVPNY PNYY",
         "NQQE:453 TNOVTNE EQ",
-        "VASB:SBE ERFCVENGBEL QVFGERFF ZRQVP HAVG SEBZ FGNGVBA 5");
+        "VASB:SBE ERFCVENGBEL QVFGERFF....ZRQVP HAVG SEBZ FGNGVBA 5");
 
   }
   

@@ -120,7 +120,7 @@ choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5326 UNGUNJNL FG",
         "PVGL:ONGGYROBEB",
         "PNYY:TNF YRNX",
-        "ANZR:jvafgrnq/EZCQ9-1-1",
+        "ANZR:jvafgrnq//EZCQ9-1-1",
         "HAVG:9SQ1");
 
     qbGrfg("G5",

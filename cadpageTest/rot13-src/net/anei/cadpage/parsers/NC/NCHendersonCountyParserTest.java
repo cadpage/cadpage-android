@@ -408,7 +408,7 @@ choyvp pynff APUraqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:SYRGPURE",
         "PBQR:P21N",
         "PNYY:SVER NYNEZ",
-        "ANZR:UNLARF GRPU / JUVGARL",
+        "ANZR:UNLARF GRPU/ JUVGARL",
         "CUBAR:800-852-2902",
         "HAVG:SY1");
 

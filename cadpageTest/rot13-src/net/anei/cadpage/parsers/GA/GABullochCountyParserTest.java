@@ -60,7 +60,7 @@ choyvp pynff TNOhyybpuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(FGEHPHGER SVER) 715 PNZQRA PG QELRE BA SVER  FGNGVBA 8 QVFG",
         "PNYY:FGEHPHGER SVER",
         "NQQE:715 PNZQRA PG",
-        "VASB:QELRE BA SVER FGNGVBA 8 QVFG");
+        "VASB:QELRE BA SVER  FGNGVBA 8 QVFG");
 
     qbGrfg("G5",
         "(JBBQF SVER) JBBQF SVER\aORUVAQ BNX UVYY GEYE CX\a25213 A UVTUJNL 301",
@@ -84,7 +84,7 @@ choyvp pynff TNOhyybpuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(JBBQF SVER) FUHZNA EQ BSS BS BYQ EVIRE EQ  ABEGU",
         "PNYY:JBBQF SVER",
         "NQQE:FUHZNA EQ",
-        "VASB:BSS BS BYQ EVIRE EQ ABEGU");
+        "VASB:BSS BS BYQ EVIRE EQ  ABEGU");
 
     qbGrfg("G9",
         "(1070O) BYQ EVIRE EQ ABEGU VA SEBAG BS PBBCRE JRVFF OHVYQVAT, OEHFU SVER SYNVE HC",
@@ -102,6 +102,6 @@ choyvp pynff TNOhyybpuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj TNOhyybpuPbhaglCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE NCG VASB");
+    arj TNOhyybpuPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

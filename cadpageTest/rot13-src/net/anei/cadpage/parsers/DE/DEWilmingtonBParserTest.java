@@ -65,7 +65,7 @@ choyvp pynff QRJvyzvatgbaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:03/02/13",
         "GVZR:10:09",
         "NQQE:3301 A ZNEXRG FG",
-        "PNYY:o10 ba fprar j / tnf bqbe vafvqr fgehpgher, nhgu o6 fraq 1 rat & 1 ynqqre");
+        "PNYY:o10 ba fprar j/ tnf bqbe vafvqr fgehpgher, nhgu o6 fraq 1 rat & 1 ynqqre");
 
     qbGrfg("G5",
         "[Vapvqrag]  SE2 Obk Nynez 03/02/13 17:34 514 A  UNEEVFBA FG  69Q6  yr.  3.Gur vapvqrag vaibyirf n fvatyr-snzvyl  re vf ba fprar (1fg cnegl).  2.Fzbxr",

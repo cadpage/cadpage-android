@@ -2,6 +2,7 @@
 
 package net.anei.cadpage.parsers.NC;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /**
@@ -12,12 +13,17 @@ public class NCFranklinCountyParser extends DispatchSouthernParser {
 
   public NCFranklinCountyParser() {
     super(CITY_LIST, "FRANKLIN COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_NO_NAME_PHONE | DSFLAG_ID_OPTIONAL);
-    
-    
   }
+  
   @Override
   public String getFilter() {
     return "@franklincountync.us";
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    body = body.replace("//", "/");
+    return super.parseMsg(body, data);
   }
   
   private static final String[] CITY_LIST = new String[]{

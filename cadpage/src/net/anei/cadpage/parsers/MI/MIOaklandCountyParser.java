@@ -15,6 +15,7 @@ public class MIOaklandCountyParser extends SmartAddressParser {
   public MIOaklandCountyParser() {
     super("OAKLAND COUNTY", "MI");
     setupMultiWordStreets("DOWNY NEST");
+    setFieldList("CALL PLACE ADDR APT INFO");
   }
   
   @Override

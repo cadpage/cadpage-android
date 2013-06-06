@@ -255,7 +255,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2100 VAQRCRAQRAPR QE",
         "K:RAQ BS EBNQ",
         "PVGL:FNRTREGBJA",
-        "ANZR:YG QRAZNA",
+        "ANZR:YG. QRAZNA",
         "ZNC:S-14",
         "VQ:2013-0000017330");
 

@@ -138,7 +138,7 @@ choyvp pynff CNFbzrefrgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:GBBYNAQ EQ",
         "ZNQQE:GBBYNAQ EQ & PBZCF EQ",
         "K:PBZCF EQ",
-        "ANZR:SNVEUBCR OHQ PYNLGBA / PFK EE",
+        "ANZR:SNVEUBCR OHQ PYNLGBA/ PFK EE",
         "CUBAR:8002320144",
         "VQ:2012-0000019181");
 

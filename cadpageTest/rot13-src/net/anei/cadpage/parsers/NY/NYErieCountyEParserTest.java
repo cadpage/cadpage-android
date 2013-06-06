@@ -119,7 +119,7 @@ choyvp pynff ALRevrPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:48 ORAGYRL PE",
         "ZNQQE:48 ORAGYRL PVE",
         "PVGL:YNAPNFGRE GBJA",
-        "VASB:79 L / B SRZNYR YRGUNETVP");
+        "VASB:79 L/B SRZNYR YRGUNETVP");
     
     qbGrfg("G5",
         "NYREG@REVR.TBI SVER PB-QRGRPGBE 47 IVN QBANGB R YNAPNFGRE GBJA PB QRGRPGBE AB FLZCGBZF ERSRE GJVA QVFGEVPG SQ",
@@ -133,7 +133,7 @@ choyvp pynff ALRevrPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER-PBZZREPVNY",
         "NQQE:2170 HAVBA EQ",
         "PVGL:JRFG FRARPN",
-        "VASB:TRARENY SVER NYNEZ TBVAT BSS");
+        "VASB:TRARENY SVER NYNEZ TBVAT BSS.");
 
     qbGrfg("G7",
         "NYREG@REVR.TBI RZF 13191 PRAGREYVAR EQ S-SRYY HAX VS VAWHERQ",
@@ -177,14 +177,14 @@ choyvp pynff ALRevrPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER ERFVQRAGVNY",
         "NQQE:6680 YNXR FUBER EQ",
         "PVGL:RINAF",
-        "VASB:SBERTVA BOWRPG FGEHPX N YVIR RYRPGEVPNY BHGYRG");
+        "VASB:SBERTVA BOWRPG FGEHPX N YVIR RYRPGEVPNY BHGYRG.");
 
     qbGrfg("G2",
         "(Pnyy) RZF 1425 FGHETRBA CG EQ RINAF U/AR/EZ NPG  PNEOBA ZBABKVQR QRGRPGBE JVGU VYYARFF VA GUR ERFVQRAPR?\a",
         "PNYY:RZF",
         "NQQE:1425 FGHETRBA CG EQ",
         "PVGL:RINAF",
-        "VASB:U / AR / EZ NPG PNEOBA ZBABKVQR QRGRPGBE JVGU VYYARFF VA GUR ERFVQRAPR");
+        "VASB:U/AR/EZ NPG  PNEOBA ZBABKVQR QRGRPGBE JVGU VYYARFF VA GUR ERFVQRAPR");
 
     qbGrfg("G3",
         "(Pnyy) AR NPG SBE N RATVAR Z/N GB YNXRIVRJ SBE NA NHGB NPPVQRAG EBHGR 5 NAQ BYQ YNXRFUBER EQ\a",
@@ -225,6 +225,6 @@ choyvp pynff ALRevrPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALRevrPbhaglRCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE NCG PVGL VASB");
+    arj ALRevrPbhaglRCnefreGrfg().trarengrGrfgf("G1");
   }
 }

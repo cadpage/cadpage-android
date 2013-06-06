@@ -85,7 +85,7 @@ choyvp pynff CNOhgyrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G7",
         ":INVAW >IN / VAWHEVRF EBHGR 19 PENAOREEL GJC CBEGARL CNGGREFBA Pnq: 2012-0000056854",
-        "PNYY:IN/VAWHEVRF",
+        "PNYY:IN / VAWHEVRF",
         "NQQE:EBHGR 19",
         "PVGL:PENAOREEL GJC",
         "ANZR:CBEGARL CNGGREFBA",
@@ -93,7 +93,7 @@ choyvp pynff CNOhgyrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G8",
         ":INVAW >IN / VAWHEVRF EBHGR 19 PENAOREEL GJC GLYRE INETB Pnq: 2012-0000063053",
-        "PNYY:IN/VAWHEVRF",
+        "PNYY:IN / VAWHEVRF",
         "NQQE:EBHGR 19",
         "PVGL:PENAOREEL GJC",
         "ANZR:GLYRE INETB",
@@ -118,7 +118,7 @@ choyvp pynff CNOhgyrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         ":SYBQO >SYBBQVAT / ONFRZRAG 337 PYNL NIR ZNEF OBEB XRA FPBGG Znc: Tevqf:00000,000 Pnq: 2012-0000053246",
-        "PNYY:SYBBQVAT/ONFRZRAG",
+        "PNYY:SYBBQVAT / ONFRZRAG",
         "NQQE:337 PYNL NIR",
         "PVGL:ZNEF",
         "ANZR:XRA FPBGG",
@@ -127,6 +127,6 @@ choyvp pynff CNOhgyrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj CNOhgyrePbhaglCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE PVGL K CYNPR ANZR CUBAR ZNC VQ");
+    arj CNOhgyrePbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

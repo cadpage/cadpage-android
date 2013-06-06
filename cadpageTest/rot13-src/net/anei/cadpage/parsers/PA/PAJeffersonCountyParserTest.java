@@ -64,7 +64,7 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G3",
         "ceif=0484p9755n=qvfcngpu@wrssrefbapbhaglcn.pbz (Vapvqrag) Sver - Nynez. 3823 EBHGR 310 UVZRF UVYY EQ / PUVCF EQ Jvafybj.    Aneengvir:  onfrzrag fzbxr qrgrpgbe-  6-P Sver Gbjre",
-        "PNYY:Sver - Nynez",
+        "PNYY:Sver - Nynez.",
         "NQQE:3823 EBHGR 310",
         "K:UVZRF UVYY EQ / PUVCF EQ",
         "PVGL:Jvafybj",

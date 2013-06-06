@@ -66,7 +66,7 @@ choyvp pynff INPneebyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:PNANEF 23:16 RZF - ANHFRN / IBZVGVAT 000021 ORPXL'F YA PSF# 2013-001739",
         "FEP:PNANEF",
         "GVZR:23:16",
-        "PNYY:RZF - ANHFRN/IBZVGVAT",
+        "PNYY:RZF - ANHFRN / IBZVGVAT",
         "NQQE:21 ORPXL'F YA",
         "VQ:2013-001739");
 

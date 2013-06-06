@@ -132,7 +132,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   }
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\[(\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) \\d+\\]");
-  private class BaseInfoField extends InfoField {
+  protected class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = DATE_TIME_PTN.matcher(field);

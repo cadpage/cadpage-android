@@ -55,7 +55,7 @@ choyvp pynff ZBCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:300 Z1770",
         "NQQE:1587 R 526GU EQ",
         "NCG:#4",
-        "PNYY:URZBEEUNTR / YNPRENGVBAF",
+        "PNYY:URZBEEUNTR/YNPRENGVBAF",
         "PBQR:21-Q-3",
         "ZNC:R4",
         "K:UVTUJNL S 0.24 zv FJ F 120GU EQ 3.79 zv J",
@@ -75,7 +75,7 @@ choyvp pynff ZBCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "UVTUJNL U & R 562AQ EQ CBYX PBHAGL GENSSVP/GENAFCBEGNGVBA/29-O-4 ZFUC1 200 280 Z1780",
         "HAVG:ZFUC1 200 280 Z1780",
         "NQQE:UVTUJNL U & R 562AQ EQ",  // Abg znccvat
-        "PNYY:GENSSVP / GENAFCBEGNGVBA",
+        "PNYY:GENSSVP/GENAFCBEGNGVBA",
         "PBQR:29-O-4");
    
   }

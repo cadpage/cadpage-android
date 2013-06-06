@@ -536,7 +536,7 @@ public class MsgInfo {
   private static final Pattern GR_PTN = Pattern.compile("\\bGR\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CRSN_PTN = Pattern.compile("\\bCRSN\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CG_PTN = Pattern.compile("\\bCG\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern BP_PTN = Pattern.compile("\\bBP\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern BYP_PTN = Pattern.compile("\\bBY?P\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern LA_PTN = Pattern.compile("\\bLA\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern EXT_PTN = Pattern.compile(" EXT?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SR_PTN = Pattern.compile("\\bSR\\b", Pattern.CASE_INSENSITIVE);
@@ -571,7 +571,7 @@ public class MsgInfo {
     sAddr = replace(sAddr, GR_PTN, "GRADE");
     sAddr = replace(sAddr, CRSN_PTN, "CRESCENT");
     sAddr = replace(sAddr, CG_PTN, "CROSSING");
-    sAddr = replace(sAddr, BP_PTN, "BYPASS");
+    sAddr = replace(sAddr, BYP_PTN, "BYPASS");
     if ((parser.getMapFlags() & MAP_FLG_SUPPR_SR) == 0) {
       sAddr = replace(sAddr, SR_PTN, "ST");
     }

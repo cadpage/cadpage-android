@@ -221,7 +221,7 @@ choyvp pynff ALFhssbyxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:ZPTENJ FG",
         "ZNQQE:ZPTENJ FG & TENAQ NIR",
         "PVGL:FUVEYRL",
-        "CYNPR:V / I / B FUVEYRL CYNMN",
+        "CYNPR:V/I/B FUVEYRL CYNMN",
         "K:TENAQ NI / BNX NI",
         "PBQR:60-P-2",
         "GVZR:02:06:34");

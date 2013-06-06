@@ -572,7 +572,7 @@ choyvp pynff JIZvarenyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:08:53:15",
         "PNYY:URNQNPUR-18",
         "NQQE:FGBARL EHA EBNQ",
-        "VASB:SEBZ EG 220 1 / 8 ZVYR BA GUR EVTUG ZNEBBA NAQ TENL ERQ OYNMRE VA QEVIR / NEABYQ NAQ ONEONEN RINAF");
+        "VASB:SEBZ EG. 220 1/8 ZVYR BA GUR EVTUG. ZNEBBA NAQ TENL ERQ OYNMRE VA QEVIR / NEABYQ NAQ ONEONEN RINAF");
 
     qbGrfg("G40",
         "ï»¿<UGZY><obql>TENAG:2012:0028<oe />2012-11-28 17:14:22<oe />NYREGRQ<oe />ZIN<oe />EG 50 1 ZVYR BHGFVQR BS ZBHAG FGBEZ</obql></UGZY>",
@@ -603,7 +603,7 @@ choyvp pynff JIZvarenyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:10:12:13",
         "PNYY:SVER SYHR",
         "NQQE:FUVEYRL'F YNAR",
-        "VASB:BSS EG 50 2 ZVYRF VA BA YRSG / QBZNA ERFVQRAPR");
+        "VASB:BSS EG. 50 2 ZVYRF VA BA YRSG / QBZNA ERFVQRAPR");
 
   }
   
@@ -629,7 +629,7 @@ choyvp pynff JIZvarenyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:14:54:12",
         "PNYY:TNF RZRETRAPL",
         "NQQE:JRFG UNZCFUVER FGERRG",
-        "VASB:SENAPVAR TNEYNAQ ERF");
+        "VASB:SENAPVAR TNEYNAQ ERF.");
 
     qbGrfg("G3",
         "ï»¿<UGZY><obql>CSQ:2012:0226<oe />2012-12-25 12:20:18<oe />NYREGRQ<oe />SVER NYNEZ PBZZREPVNY<oe />25 WBARF FGERRG</obql></UGZY>",

@@ -14,6 +14,7 @@ public class TXLibertyCountyParser extends SmartAddressParser {
   
   public TXLibertyCountyParser() {
     super(CITY_CODES, "LIBERTY COUNTY", "TX");
+    setFieldList("CALL ADDR PLACE INFO");
   }
   
   public String getFilter() {

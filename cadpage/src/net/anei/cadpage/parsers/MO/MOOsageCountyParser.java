@@ -16,6 +16,10 @@ public class MOOsageCountyParser extends DispatchGlobalDispatchParser {
   
   public MOOsageCountyParser() {
     super(CITY_LIST, "OSAGE COUNTY", "MO", PLACE_FOLLOWS_ADDR);
+    setupMultiWordStreets(
+        "MARTINS BLUFF",
+        "ROLLINS FERRY"
+    );
   }
   
   @Override

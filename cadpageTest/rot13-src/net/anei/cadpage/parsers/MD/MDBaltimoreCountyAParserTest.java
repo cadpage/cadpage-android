@@ -993,7 +993,8 @@ choyvp pynff ZQOnygvzberPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "FEP:04",
         "VQ:13001143",
-        "PNYY:ZHGHNY NVQ NYNEZ / OYBBZVAT TEBIR FGEHP 7-28 NCG N-8",
+        "PNYY:ZHGHNY NVQ NYNEZ /OYBBZVAT TEBIR FGEHP 7-28",
+        "NCG:N-8",
         "HAVG:R72 RG73 G2 K79 PNCG7 PS7 RG44 RG24 O46",
         "ZNC:LP",
         "NQQE:5333 GEHZC EQ");
@@ -1008,7 +1009,8 @@ choyvp pynff ZQOnygvzberPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "FEP:04",
         "VQ:13001143",
-        "PNYY:ZHGHNY NVQ NYNEZ / OYBBZVAT TEBIR FGEHP 7-28 NCG N-8",
+        "PNYY:ZHGHNY NVQ NYNEZ /OYBBZVAT TEBIR FGEHP 7-28",
+        "NCG:N-8",
         "HAVG:R72 RG73 G2 K79 PNCG7 PS7 RG44 RG24",
         "ZNC:LP",
         "NQQE:5333 GEHZC EQ");

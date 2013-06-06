@@ -41,7 +41,7 @@ public class CTNorthwestPublicSafetyParser extends SmartAddressParser {
     String sAddr2 = p.get();
     
     
-    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, sAddr.replace(',', ' '), data);
+    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, sAddr, data);
     data.strPlace = getPadField();
     if (data.strApt.startsWith("(")) {
       int pt = data.strPlace.indexOf(')');
@@ -79,7 +79,7 @@ public class CTNorthwestPublicSafetyParser extends SmartAddressParser {
     if (!sAddr.startsWith(sAddr2)) {
       data.strAddress = "";
       data.strApt = "";
-      parseAddress(StartType.START_ADDR, sAddr2.replace(',', ' '), data);
+      parseAddress(StartType.START_ADDR, sAddr2, data);
     }
     return true;
   }

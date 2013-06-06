@@ -57,7 +57,7 @@ choyvp pynff PGUnegsbeqPbhaglNibaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SQ Shyy Nffvtazrag 00255  NIBA ZBHAGNVA EQ QRREPYVSS EQ/RNFG ZNVA FG Y12  G5  E8  O15  269  GX16  GX6  R9  R10  R14  R7  R11",
         "PNYY:SQ Shyy Nffvtazrag",
         "NQQE:255 NIBA ZBHAGNVA EQ",
-        "K:QRREPYVSS EQ / RNFG ZNVA FG",
+        "K:QRREPYVSS EQ/RNFG ZNVA FG",
         "HAVG:Y12 G5 E8 O15 269 GX16 GX6 R9 R10 R14 R7 R11");
 
     qbGrfg("G5",
@@ -90,7 +90,7 @@ choyvp pynff PGUnegsbeqPbhaglNibaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SQ Shyy Nffvtazrag 00020  FRPHEVGL QE QNEYVAT QE/NEPU EQ  Y12  G5  E8 O15  250  GX16  GX6  R9  R10  R14  R7  R11",
         "PNYY:SQ Shyy Nffvtazrag",
         "NQQE:20 FRPHEVGL QE",
-        "K:QNEYVAT QE / NEPU EQ",
+        "K:QNEYVAT QE/NEPU EQ",
         "HAVG:Y12 G5 E8 O15 250 GX16 GX6 R9 R10 R14 R7 R11");
 
 
@@ -110,6 +110,6 @@ choyvp pynff PGUnegsbeqPbhaglNibaCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PGUnegsbeqPbhaglNibaCnefreGrfg().trarengrGrfgf("G1", "FEP VQ PNYY NQQE PVGL ZNC K HAVG QNGR GVZR");
+    arj PGUnegsbeqPbhaglNibaCnefreGrfg().trarengrGrfgf("G1");
   }
 }

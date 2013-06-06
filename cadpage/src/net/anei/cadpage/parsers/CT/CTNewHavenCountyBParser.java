@@ -15,32 +15,37 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   private static final Pattern TRUNC_DATE_TIME_PTN = Pattern.compile(" +\\d{6} [\\d:]+$| +\\d{1,6}$"); 
   private static final Pattern ADDR_END_MARKER = Pattern.compile(",|Apt ?#:");
   private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?:Prem )?Map -");
-  private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: ?[A-Z]{2} ?\\d{1,3})?\\b");
+  private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: *[A-Z]{2} *\\d{1,3})?\\b");
   private static final Pattern MAP_EXTRA_PTN = Pattern.compile("\\(Prem Map (.*?)\\)");
   private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+(?=\\d)");
+  
+  private static final String FIELD_LIST = "ID CALL ADDR APT CITY MAP X UNIT DATE TIME";
   
   private Properties cityCodes = null;
   
   public CTNewHavenCountyBParser() {
     this(CITY_LIST, CITY_CODES, "NORTH BRANFORD", "CT");
-    setFieldList("ID CALL ADDR APT CITY MAP X UNIT DATE TIME");
   }
   
   public CTNewHavenCountyBParser(String defCity, String defState) {
     super(defCity, defState);
+    setFieldList(FIELD_LIST);
   }
   
   public CTNewHavenCountyBParser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
+    setFieldList(FIELD_LIST);
   }
   
   public CTNewHavenCountyBParser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState);
+    setFieldList(FIELD_LIST);
   }
   
   public CTNewHavenCountyBParser(String[] cityList, Properties cityCodes, String defCity, String defState) {
     super(cityList, defCity, defState);
     this.cityCodes = cityCodes;
+    setFieldList(FIELD_LIST);
   }
   
   @Override
@@ -68,6 +73,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     }
     
     String sExtra;
+    boolean noCross = false;
     match = ADDR_END_MARKER.matcher(body);
     if (match.find()) {
       sExtra = body.substring(match.end()).trim();
@@ -86,6 +92,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     else {
       parseAddress(StartType.START_CALL, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS | FLAG_START_FLD_REQ, body, data);
       sExtra = getLeft();
+      noCross = isMBlankLeft();
     }
     
     // If there is a pad field, treat it as a place or cross street
@@ -95,16 +102,21 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     
     match = MAP_PFX_PTN.matcher(sExtra);
     if (match.find()) {
-      sExtra = sExtra.substring(match.end()).trim();
+      sExtra = sExtra.substring(match.end());
+      noCross = sExtra.startsWith("   ");
+      sExtra = sExtra.trim();
       match = MAP_PTN.matcher(sExtra);
       if (match.find()) {
         data.strMap = match.group();
-        sExtra = sExtra.substring(match.end()).trim();
+        sExtra = sExtra.substring(match.end());
+        noCross = sExtra.startsWith("  ");
+        sExtra = sExtra.trim();
       }
     }
     
     // Now we have to split what is left into a cross street and unit
     // If there is a premium map marker between them, things get easy
+    if (sExtra.startsWith("/")) sExtra = sExtra.substring(1).trim();
     match = MAP_EXTRA_PTN.matcher(sExtra);
     if (match.find()) {
       data.strCross = append(data.strCross, " / ", sExtra.substring(0, match.start()).trim());
@@ -113,35 +125,28 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     }
     
     // If not, our best approach is to looking for the first multiple blank delimiter.
-    // What makes this complicated is that double blanks have been squeezed out
-    // of sExtra so we have to look at the end of sBody to see where they should be
-    else { 
-      int brk = -1;
-      int pt1 = sExtra.length();
-      int pt2 = body.length();
-      while (pt1 > 0) {
-        char chr1 = sExtra.charAt(--pt1);
-        char chr2 = body.charAt(--pt2);
-        int tmp = pt2;
-        while (pt2 > 0 && chr2 == ' ') chr2 = body.charAt(--pt2);
-        if (tmp-pt2 > 1) brk = pt1;
-        while (pt1 > 0 && chr1 == ' ') chr1 = sExtra.charAt(--pt1);
-      }
-      if (pt2 > 3 && body.charAt(pt2-1)==' ' && body.charAt(pt2-2)==' ' && body.charAt(pt2-3)!='-') brk = 0;
-      if (brk >= 0) {
-        data.strUnit = sExtra.substring(brk).trim();
-        data.strCross = append(data.strCross, " / ", sExtra.substring(0,brk).trim());
-      }
-      
-      // If we didn't find one, we will have to use the smart address parser to figure out where
-      // the cross street information ends
-      else {
-        Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, sExtra);
-        if (res.getStatus() > 0) {
-          res.getData(data);
-          data.strUnit = res.getLeft();
-        } else {
-          data.strUnit = sExtra;
+    // which is a heck of a lot easier to do now that double blanks are preserved by
+    // the getLeft() method.
+    else {
+      if (noCross) {
+        data.strUnit = sExtra;
+      } else {
+        int pt = sExtra.indexOf("  ");
+        if (pt >= 0) {
+          data.strCross = append(data.strCross, " / ", sExtra.substring(0,pt));
+          data.strUnit = sExtra.substring(pt+2).trim();
+        }
+        
+        // If we didn't find one, we will have to use the smart address parser to figure out where
+        // the cross street information ends
+        else {
+          Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, sExtra);
+          if (res.getStatus() > 0) {
+            res.getData(data);
+            data.strUnit = res.getLeft();
+          } else {
+            data.strUnit = sExtra;
+          }
         }
       }
     }

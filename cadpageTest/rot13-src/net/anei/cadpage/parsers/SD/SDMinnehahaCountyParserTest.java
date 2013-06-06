@@ -78,7 +78,7 @@ choyvp pynff FQZvaarununPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:100 PYVSS NIR",
         "NCG:2",
         "PVGL:INYYRL FCEVATF",
-        "PNYY:Hapbafp / Snvag",
+        "PNYY:Hapbafp/Snvag",
         "PBQR:P3",
         "VQ:2011-00000870");
 

@@ -77,7 +77,7 @@ choyvp pynff ALFbzrefCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "2011-000496 *** Bgure Sver *** NATYROEBBX TBYS PYHO Y.C. 100 EG 202 FBZREF FBZREF PF: EG 139 P-3,4 GBN: 19:12 03/18/11 Fbzref SQ Fbzref SQ UD TENAVGR FCEVAT",
         "VQ:2011-000496",
         "PNYY:Bgure Sver",
-        "CYNPR:NATYROEBBX TBYS PYHO Y C",
+        "CYNPR:NATYROEBBX TBYS PYHO Y.C.",
         "NQQE:100 EG 202",
         "PVGL:FBZREF",
         "K:EG 139 P-3,4",

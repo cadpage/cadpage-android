@@ -12,6 +12,7 @@ public class GeneralParser extends SmartAddressParser {
   
   private static final Pattern DATE_PATTERN = Pattern.compile("\\b(\\d\\d?[-/]\\d\\d?[-/]\\d\\d(\\d\\d)?)\\b[,;:]?");
   private static final Pattern TIME_PATTERN = Pattern.compile("\\b(\\d\\d?(?::\\d\\d?){1,2})( [AP]M)?\\b(?:[,;:]| +hrs\\b)?", Pattern.CASE_INSENSITIVE);
+  private static final Pattern TIME2_PATTERN = Pattern.compile("\\b(\\d{1,2})(\\d{2}) *hrs\\b", Pattern.CASE_INSENSITIVE);
   private static final String DELIM_PATTERN_STR = ";|,|~|\\*|\\n|\\||\\b[A-Z][A-Za-z0-9-#]*:|\\bC/S:|\\b[A-Z][A-Za-z]*#";
   private static Pattern DELIM_PATTERN; // will be filled in by constructor
   private static final Pattern CALL_ID_PATTERN = Pattern.compile("\\d{2,4}-\\d{5,}|[A-Z]{1,2}\\d{6,}|\\d{11,}");
@@ -153,6 +154,12 @@ public class GeneralParser extends SmartAddressParser {
         }
       }
       data.strTime = time;
+    } else {
+      match = TIME2_PATTERN.matcher(body);
+      if (match.find()) {
+        data.strTime = match.group(1) + ':' + match.group(2);
+        body = match.replaceAll("");
+      }
     }
     
     match = MAP_PATTERN.matcher(body);
@@ -160,7 +167,7 @@ public class GeneralParser extends SmartAddressParser {
       data.strMap = match.group(1);
       body = match.replaceAll("");
     }
-
+    
     // Parse text into different fields separated by delimiters
     // that match DELIM_PATTERN
     match = DELIM_PATTERN.matcher(body);
@@ -201,7 +208,7 @@ public class GeneralParser extends SmartAddressParser {
         nextType = null;
         fld = body.substring(pt);
       }
-      fld = fld.trim();
+      fld = fld.trim().replaceAll("  +", " ");
       
       // fld is the data field being processed
       // delim is the delimiter that started this field

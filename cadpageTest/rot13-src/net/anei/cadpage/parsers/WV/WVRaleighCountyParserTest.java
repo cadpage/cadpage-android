@@ -224,7 +224,7 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ENYRVTU911:CNAVN >NYNEZ-UBYQHC 1071 BYQ TENAQIVRJ EQ TENAQIVRJ BCE JYP P/B NQG Znc: Tevqf:00000,000 Pnq: 2012-0000082560",
         "PNYY:NYNEZ-UBYQHC",
         "NQQE:1071 BYQ TENAQIVRJ EQ",
-        "ANZR:TENAQIVRJ BCE JYP P / B NQG",
+        "ANZR:TENAQIVRJ BCE JYP P/B NQG",
         "VQ:2012-0000082560");
 
     qbGrfg("G20",
@@ -411,7 +411,7 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FGEHPGHER SVER",
         "NQQE:QERJF PEX",
         "PVGL:ANBZN",
-        "ANZR:WBRY J / JUVGRFIVYYR",
+        "ANZR:WBRY J/JUVGRFIVYYR",
         "VQ:2013-0000013194");
 
     qbGrfg("G12",

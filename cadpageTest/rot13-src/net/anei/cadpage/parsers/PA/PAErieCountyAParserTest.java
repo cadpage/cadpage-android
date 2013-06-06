@@ -239,7 +239,7 @@ choyvp pynff CNRevrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:52O1U",
         "PNYY:ERF (FVATYR) URNG QRGRPGBE",
         "NQQE:1530 GNLYBE EVQTR PG",
-        "ANZR:NQG / QVBAAN",
+        "ANZR:NQG/QVBAAN",
         "ZNC:2540",
         "PVGL:SNVEIVRJ GJC",
         "VQ:2011-0000046825");

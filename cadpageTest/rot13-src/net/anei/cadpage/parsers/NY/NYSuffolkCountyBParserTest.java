@@ -417,7 +417,7 @@ choyvp pynff ALFhssbyxPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G20",
         "*** 30 - ERFPHR *** H.F.N. FXNGVAT EVAX 1276 UVPXFIVYYR EQ PF: FHSSBYX NIR  / QBTJBBQ YA N-2 GBN: 20:12 03/30/11 2011-000250 Unmzng",
         "PNYY:30 - ERFPHR",
-        "CYNPR:H F N FXNGVAT EVAX",
+        "CYNPR:H.F.N. FXNGVAT EVAX",
         "NQQE:1276 UVPXFIVYYR EQ",
         "K:FHSSBYX NIR  / QBTJBBQ YA N-2",
         "GVZR:20:12",

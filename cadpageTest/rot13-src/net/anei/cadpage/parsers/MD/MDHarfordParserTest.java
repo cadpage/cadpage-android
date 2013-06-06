@@ -138,8 +138,7 @@ choyvp pynff ZQUnesbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:ZQ 24 & FNVAG ZNELF EQ",
         "K:FNVAG ZNELF EQ",
         "PVGL:CLYRFIVYYR",
-        "CYNPR:QRQEVPX",
-        "ANZR:CNGGV",
+        "ANZR:QRQEVPX.CNGGV",
         "VQ:2010-0000162161");
     
     qbGrfg("G6",
@@ -282,7 +281,7 @@ choyvp pynff ZQUnesbeqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4417 GBYPURFGRE PG",
         "K:OEVFGBY SBERFG QE",
         "PVGL:ORYPNZC",
-        "CYNPR:CVAANPYR / BC",
+        "CYNPR:CVAANPYR/BC",
         "ANZR:INARFFN",
         "OBK:402",
         "VQ:2012-0000153349");

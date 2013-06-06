@@ -158,7 +158,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:102 CNVAGRE UVYY EQ  EBKOHEL SNVAGVAT/FLAPBCR EBK NZO EB RZFK Cevznel Vapvqrag: 040378\a\a(Raq)",
         "NQQE:102 CNVAGRE UVYY EQ",
         "PVGL:EBKOHEL",
-        "PNYY:SNVAGVAT / FLAPBCR",
+        "PNYY:SNVAGVAT/FLAPBCR",
         "HAVG:EBK NZO EB RZFK",
         "VQ:040378");
 
@@ -182,7 +182,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:OBGFSBEQ UVYY EQ & TBYQRA UNEIRFG EQ  EBKOHEL JVERF QBJA/SVER EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00109",
         "NQQE:OBGFSBEQ UVYY EQ & TBYQRA UNEIRFG EQ",
         "PVGL:EBKOHEL",
-        "PNYY:JVERF QBJA / SVER",
+        "PNYY:JVERF QBJA/SVER",
         "HAVG:EBK ERF9 EBK SQ1",
         "VQ:00109");
 
@@ -230,7 +230,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:15 FUNEV QE",
         "NCG:O",
         "PVGL:FRLZBHE",
-        "PNYY:QVSSVPHYGL OERNGUVAT FBO",
+        "PNYY:QVSSVPHYGL OERNGUVAT, FBO",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:012581");
 
@@ -238,7 +238,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 1 RYZJBBQ QE  FRLZBHE PBAIHYFVBA/FRVMHER PBAG/ZHYGV FRVMHERF GNATB 5 FRL 1FG Cevznel Vapvqrag: 012603 1 RYZJBBQ QE",
         "NQQE:1 RYZJBBQ QE",
         "PVGL:FRLZBHE",
-        "PNYY:PBAIHYFVBA / FRVMHER PBAG / ZHYGV FRVMHERF",
+        "PNYY:PBAIHYFVBA/FRVMHER PBAG/ZHYGV FRVMHERF",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:012603");
 
@@ -295,7 +295,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 234 JRFGJBBQ QE  FRLZBHE NOQ. CNVA/CEBO QRYGN GNATB 6 FRL 1FG Cevznel Vapvqrag: 017289 234 JRFGJBBQ QE",
         "NQQE:234 JRFGJBBQ QE",
         "PVGL:FRLZBHE",
-        "PNYY:NOQ CNVA / CEBO QRYGN",
+        "PNYY:NOQ. CNVA/CEBO QRYGN",
         "HAVG:GNATB 6 FRL 1FG",
         "VQ:017289");
 
@@ -324,7 +324,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:3EQ AF",
         "CYNPR:FUNQL XABYY URNYGU PNER",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL PUNEYVR",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL PUNEYVR",
         "HAVG:GNATB 6 FRL 1FG",
         "VQ:017140");
 
@@ -358,7 +358,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:10 ERFREIBVE ZAE",
         "NCG:E5",
         "PVGL:FRLZBHE",
-        "PNYY:B Q / CBVFBAVAT PUNEYVR",
+        "PNYY:B.Q./CBVFBAVAT PUNEYVR",
         "HAVG:GNATB 6 FRL 1FG",
         "VQ:017051");
 
@@ -374,7 +374,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 32 PUNZOREYVA EQ  FRLZBHE B.Q./CBVFBAVAT BZRTN GNATB 5 FRL 1FG Cevznel Vapvqrag: 016958 32 PUNZOREYVA EQ",
         "NQQE:32 PUNZOREYVA EQ",
         "PVGL:FRLZBHE",
-        "PNYY:B Q / CBVFBAVAT BZRTN",
+        "PNYY:B.Q./CBVFBAVAT BZRTN",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:016958");
 
@@ -441,7 +441,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 127 FXBXBENG FG  FRLZBHE B.Q./CBVFBAVAT PUNEYVR GNATB 5 FRL 1FG Cevznel Vapvqrag: 016671 127 FXBXBENG FG",
         "NQQE:127 FXBXBENG FG",
         "PVGL:FRLZBHE",
-        "PNYY:B Q / CBVFBAVAT PUNEYVR",
+        "PNYY:B.Q./CBVFBAVAT PUNEYVR",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:016671");
 
@@ -459,7 +459,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:2AQ SY",
         "CYNPR:EZ231",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL NYCUN",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL NYCUN",
         "HAVG:GNATB 7 FRL 702",
         "VQ:016586");
 
@@ -476,7 +476,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:43 FXBXBENG FG",
         "NCG:2AQ SY",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL PUNEYVR",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL PUNEYVR",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:016583");
 
@@ -493,14 +493,14 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:43 FXBXBENG FG",
         "NCG:234",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL NYCUN",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL NYCUN",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:016550");
 
     qbGrfg("G25",
         "(Sebz Abegujrfg) 20 TEBIR FG  NAFBAVN QVSSVPHYGL OERNGUVAT, FBO GNATB 5 Cevznel Vapvqrag: 016526 20 TEBIR FG",
         "NQQE:20 TEBIR FG",
-        "PNYY:NAFBAVN QVSSVPHYGL OERNGUVAT FBO",
+        "PNYY:NAFBAVN QVSSVPHYGL OERNGUVAT, FBO",
         "HAVG:GNATB 5",
         "VQ:016526");
 
@@ -534,7 +534,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 50 OHPXVATUNZ EQ  FRLZBHE B.Q./CBVFBAVAT PUNEYVR GNATB 5 FRL 1FG Cevznel Vapvqrag: 016466 50 OHPXVATUNZ EQ",
         "NQQE:50 OHPXVATUNZ EQ",
         "PVGL:FRLZBHE",
-        "PNYY:B Q / CBVFBAVAT PUNEYVR",
+        "PNYY:B.Q./CBVFBAVAT PUNEYVR",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:016466");
 
@@ -542,7 +542,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 2 JNYAHG FG  FRLZBHE CFLPU/RQC GNATB 5 FRL 1FG Cevznel Vapvqrag: 016393 2 JNYAHG FG",
         "NQQE:2 JNYAHG FG",
         "PVGL:FRLZBHE",
-        "PNYY:CFLPU / RQC",
+        "PNYY:CFLPU/RQC",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:016393");
 
@@ -550,7 +550,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 292 ONAX FG  FRLZBHE CFLPU/RQC GNATB 6 FRL 701 Cevznel Vapvqrag: 016345 292 ONAX FG",
         "NQQE:292 ONAX FG",
         "PVGL:FRLZBHE",
-        "PNYY:CFLPU / RQC",
+        "PNYY:CFLPU/RQC",
         "HAVG:GNATB 6 FRL 701",
         "VQ:016345");
 
@@ -559,7 +559,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:43 FXBXBENG FG",
         "NCG:2AQ SY",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL PUNEYVR",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL PUNEYVR",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:016344");
 
@@ -583,7 +583,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 28 FZVGU FG  FRLZBHE HAPBAFP/SNVAGVAT QRYGN GNATB 5 FRL 1FG Cevznel Vapvqrag: 016281 28 FZVGU FG",
         "NQQE:28 FZVGU FG",
         "PVGL:FRLZBHE",
-        "PNYY:HAPBAFP / SNVAGVAT QRYGN",
+        "PNYY:HAPBAFP/SNVAGVAT QRYGN",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:016281");
 
@@ -607,7 +607,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 4 FHAFRG GRE  FRLZBHE HAPBAFP/SNVAGVAT QRYGN GNATB 6 FRL 1FG Cevznel Vapvqrag: 016201 4 FHAFRG GRE",
         "NQQE:4 FHAFRG GRE",
         "PVGL:FRLZBHE",
-        "PNYY:HAPBAFP / SNVAGVAT QRYGN",
+        "PNYY:HAPBAFP/SNVAGVAT QRYGN",
         "HAVG:GNATB 6 FRL 1FG",
         "VQ:016201");
 
@@ -625,7 +625,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:10 PBYBAL FGERRG RKG",
         "ZNQQE:10 PBYBAL FGERRG",
         "PVGL:FRLZBHE",
-        "PNYY:HAPBAFP / SNVAGVAT QRYGN",
+        "PNYY:HAPBAFP/SNVAGVAT QRYGN",
         "HAVG:GNATB 7 FRL 1FG",
         "VQ:016100");
 
@@ -634,7 +634,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2 OBGFSBEQ EQ",
         "NCG:AHEFR",
         "PVGL:FRLZBHE",
-        "PNYY:CFLPU / FHVPVQR NGGRZCG OENIB",
+        "PNYY:CFLPU/FHVPVQR NGGRZCG OENIB",
         "HAVG:GNATB 6 FRL 1FG",
         "VQ:016091");
 
@@ -643,7 +643,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:43 FXBXBENG FG",
         "CYNPR:FUNQL XABYY URNYGU PNER",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL PUNEYVR",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL PUNEYVR",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:016085");
 
@@ -706,7 +706,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:43 FXBXBENG FG",
         "NCG:(HAVG 224)",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL PUNEYVR",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL PUNEYVR",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:015707");
 
@@ -743,7 +743,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:303-1",
         "CYNPR:JYJ O",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL NYCUN",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL NYCUN",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:015556");
 
@@ -778,7 +778,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 221 TERNG UVYY EQ  FRLZBHE B.Q./CBVFBAVAT QRYGN GNATB 5 FRL 1FG Cevznel Vapvqrag: 015485 221 TERNG UVYY EQ",
         "NQQE:221 TERNG UVYY EQ",
         "PVGL:FRLZBHE",
-        "PNYY:B Q / CBVFBAVAT QRYGN",
+        "PNYY:B.Q./CBVFBAVAT QRYGN",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:015485");
 
@@ -803,7 +803,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:43 FXBXBENG FG",
         "NCG:(HAVG 224)",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL PUNEYVR",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL PUNEYVR",
         "HAVG:GNATB 6 FRL 1FG",
         "VQ:015409");
 
@@ -846,7 +846,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 129 FDHNAGHPX EQ  FRLZBHE URNEG CEBO/NVPQ PUNEYVR GNATB 5 FRL 1FG Cevznel Vapvqrag: 015272 129 FDHNAGHPX EQ",
         "NQQE:129 FDHNAGHPX EQ",
         "PVGL:FRLZBHE",
-        "PNYY:URNEG CEBO / NVPQ PUNEYVR",
+        "PNYY:URNEG CEBO/NVPQ PUNEYVR",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:015272");
 
@@ -856,7 +856,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:(HAVG 224)",
         "CYNPR:FUNQL XABYY URNYGU PNER",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL PUNEYVR",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL PUNEYVR",
         "HAVG:GNATB 6 FRL 1FG",
         "VQ:015234");
 
@@ -873,7 +873,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:43 FXBXBENG FG",
         "NCG:(HAVG 224)",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL PUNEYVR",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL PUNEYVR",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:015220");
 
@@ -882,7 +882,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:43 FXBXBENG FG",
         "NCG:(HAVG 224)",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL NYCUN",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL NYCUN",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:015165");
 
@@ -890,7 +890,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 146 ZBHAGNVA EQ  FRLZBHE HAPBAFP/SNVAGVAT QRYGN GNATB 5 FRL 1FG Cevznel Vapvqrag: 015141 146 ZBHAGNVA EQ",
         "NQQE:146 ZBHAGNVA EQ",
         "PVGL:FRLZBHE",
-        "PNYY:HAPBAFP / SNVAGVAT QRYGN",
+        "PNYY:HAPBAFP/SNVAGVAT QRYGN",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:015141");
 
@@ -899,7 +899,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:48 ZNVA FG",
         "CYNPR:MBVF CVMMN",
         "PVGL:FRLZBHE",
-        "PNYY:FRVMHERF / PBAIHYFVBAF",
+        "PNYY:FRVMHERF/PBAIHYFVBAF",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:015124");
 
@@ -908,7 +908,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:28 FGBQQNEQ FG",
         "NCG:SYE 1",
         "PVGL:FRLZBHE",
-        "PNYY:CFLPU / FHVPVQR NGGRZCG NYCUN",
+        "PNYY:CFLPU/FHVPVQR NGGRZCG NYCUN",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:015103");
 
@@ -916,7 +916,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 23 ORRPURE FG  FRLZBHE CFLPU/RQC GNATB 5 FRL 1FG Cevznel Vapvqrag: 015083 23 ORRPURE FG",
         "NQQE:23 ORRPURE FG",
         "PVGL:FRLZBHE",
-        "PNYY:CFLPU / RQC",
+        "PNYY:CFLPU/RQC",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:015083");
 
@@ -952,7 +952,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:2AQ FUNQL",
         "CYNPR:XABYY URNYGU PNER",
         "PVGL:FRLZBHE",
-        "PNYY:GENAFSRE / VAGRESNPVYVGL NYCUN",
+        "PNYY:GENAFSRE/VAGRESNPVYVGL NYCUN",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:015025");
 
@@ -968,7 +968,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 36 YBPXR FG, Ncg. 2AQ SYBBE  NAFBAVN FRVMHERF/PBAIHYFVBAF GNATB 6 Cevznel Vapvqrag: 014971 36 YBPXR FG, Ncg. 2AQ SYBBE",
         "NQQE:36 YBPXR FG",
         "NCG:2AQ",
-        "PNYY:SYBBE NAFBAVN FRVMHERF / PBAIHYFVBAF",
+        "PNYY:SYBBE  NAFBAVN FRVMHERF/PBAIHYFVBAF",
         "HAVG:GNATB 6",
         "VQ:014971");
 
@@ -976,7 +976,7 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz Abegujrfg) 53 WHCVGRE QE  FRLZBHE NOQ. CNVA/CEBO PUNEYVR GNATB 5 FRL 1FG Cevznel Vapvqrag: 014965 53 WHCVGRE QE",
         "NQQE:53 WHCVGRE QE",
         "PVGL:FRLZBHE",
-        "PNYY:NOQ CNVA / CEBO PUNEYVR",
+        "PNYY:NOQ. CNVA/CEBO PUNEYVR",
         "HAVG:GNATB 5 FRL 1FG",
         "VQ:014965");
 

@@ -30,7 +30,7 @@ choyvp pynff AWPnzqraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PPPNyreg) ERD SBE SZ GB ERFCBAQ - 508 ZNVA NIR. ORQEBBZ SVER. HAQRE PBAGEBY.",
         "PNYY:ERD SBE SZ GB ERFCBAQ -",
         "NQQE:508 ZNVA NIR",
-        "VASB:ORQEBBZ SVER HAQRE PBAGEBY");
+        "VASB:ORQEBBZ SVER. HAQRE PBAGEBY.");
 
     qbGrfg("G2",
         "(PPPNyreg) 2 OYF HAVGF NAQ ERFPHR BCRENGVAT NG EG 561 NAQ ZBEEVF QEVIR SBE NA BIREGHEARQ QHZC GEHPX BA GBC BS N IRUVPYR",
@@ -53,16 +53,16 @@ choyvp pynff AWPnzqraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PPPNyreg) ERD SBE SZ GB ERFCBAQ - 508 ZNVA NIR. ORQEBBZ SVER. HAQRE PBAGEBY.",
         "PNYY:ERD SBE SZ GB ERFCBAQ -",
         "NQQE:508 ZNVA NIR",
-        "VASB:ORQEBBZ SVER HAQRE PBAGEBY");
+        "VASB:ORQEBBZ SVER. HAQRE PBAGEBY.");
 
     qbGrfg("G6",
         "(PPPNyreg) QJRYYVAT 1513 OEVPX EQ / FD1331 BA YBPNGVBA ERCBEGVAT  2 FGL FVATYR SNZVYL FZBXR FUBJVAT SEBZ SEBAG QBBE",
         "PNYY:QJRYYVAT",
         "NQQE:1513 OEVPX EQ",
-        "VASB:/ FD1331 BA YBPNGVBA ERCBEGVAT 2 FGL FVATYR SNZVYL FZBXR FUBJVAT SEBZ SEBAG QBBE");
+        "VASB:/ FD1331 BA YBPNGVBA ERCBEGVAT  2 FGL FVATYR SNZVYL FZBXR FUBJVAT SEBZ SEBAG QBBE");
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj AWPnzqraPbhaglOCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE NCG VASB");
+    arj AWPnzqraPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
 }

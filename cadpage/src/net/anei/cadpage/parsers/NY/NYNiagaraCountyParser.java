@@ -24,6 +24,7 @@ public class NYNiagaraCountyParser extends SmartAddressParser {
     
     public NYNiagaraCountyParser() {
       super("NIAGARA COUNTY", "NY");
+      setFieldList("ID CALL PLACE ADDR APT INFO DATE TIME");
     }
     
     @Override

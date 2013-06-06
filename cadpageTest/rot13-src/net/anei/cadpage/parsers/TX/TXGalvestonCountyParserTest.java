@@ -108,7 +108,7 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Fnagn Sr Sver",
         "PNYY:SVER - ABA FCRPVSVP",
         "NQQE:7600 NIR R",
-        "VASB:orgjrra 32aq fg naq 33eq fg erf vf ba Nir R ynetr sver nccrnef gb or fcrnqvat gb oehfu",
+        "VASB:orgjrra 32aq fg naq 33eq fg..erf vf ba Nir R..ynetr sver nccrnef gb or fcrnqvat gb oehfu",
         "QNGR:11/30/11",
         "GVZR:20:49:27");
 
@@ -135,7 +135,7 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Fnagn Sr Sver",
         "PNYY:YNAQVAT MBAR",
         "NQQE:15117 JNYAHG FG",
-        "VASB:Rirag fcnjarq sebz FGEBXR / {FSZRQ1} ARRQ YS BHG URER / PNYYRE NQI UR NFXRQ UVF JVSR VS FUR XARJ JUB UR JNF NAQ FUR GUBHTUG UR JNF NA RZG..",
+        "VASB:Rirag fcnjarq sebz FGEBXR. / {FSZRQ1} ARRQ YS BHG URER / PNYYRE NQI UR NFXRQ UVF JVSR VS FUR XARJ JUB UR JNF NAQ FUR GUBHTUG UR JNF NA RZG..",
         "QNGR:03/04/2012",
         "GVZR:21:08:14");
 
@@ -144,7 +144,7 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Fnagn Sr Sver",
         "PNYY:CBYR SVER",
         "NQQE:5318 VXR SENAX EQ",
-        "VASB:PYE NQI GURER JNF N GENAFSBEZRE BA SVER NG GUVF NQQERFF NIQ GUNG VG VF BHG UNF FGBCCRQ FZBXVAT",
+        "VASB:PYE NQI GURER JNF N GENAFSBEZRE BA SVER NG GUVF NQQERFF. NIQ GUNG VG VF BHG. UNF FGBCCRQ FZBXVAT",
         "QNGR:03/04/12",
         "GVZR:07:48:36");
   }

@@ -23,6 +23,7 @@ public class CTTrumbullParser extends SmartAddressParser {
   
   public CTTrumbullParser() {
     super(CITY_LIST, "TRUMBULL", "CT");
+    setFieldList("SRC UNIT CH PLACE ADDR APT CITY CALL");
   }
   
   @Override
@@ -76,8 +77,8 @@ public class CTTrumbullParser extends SmartAddressParser {
     parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT  | FLAG_CROSS_FOLLOWS, body, data);
     body = getLeft();
     
-    if (body.endsWith(" F / A")) {
-      data.strPlace = append(data.strPlace, " ", body.substring(0,body.length()-6).trim());
+    if (body.endsWith(" F/A")) {
+      data.strPlace = append(data.strPlace, " ", body.substring(0,body.length()-4).trim());
       body = "FIRE ALARM";
     } else {
       match = TRAIL_PLACE_PTN.matcher(body);
@@ -85,7 +86,7 @@ public class CTTrumbullParser extends SmartAddressParser {
         data.strPlace = append(data.strPlace, " ", match.group(1));
         body = body.substring(match.end()).trim();
       } else {
-        if (body.equals("F / A")) body = "FIRE ALARM";
+        if (body.equals("F/A")) body = "FIRE ALARM";
       }
     }
     

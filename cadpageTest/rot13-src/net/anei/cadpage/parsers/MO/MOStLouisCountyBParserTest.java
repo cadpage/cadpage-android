@@ -214,7 +214,7 @@ choyvp pynff ZBFgYbhvfPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(.FPSN Cntr)  NFGSVE 5048 UVTUJNL A   2492   CN Znc# 71 08:03 ",
         "PNYY:NFGSVE",
         "NQQE:5048 UVTUJNL A",
-        "HAVG:2492 CN Znc# 71",
+        "HAVG:2492   CN Znc# 71",
         "GVZR:08:03");
 
     qbGrfg("G9",
@@ -348,7 +348,7 @@ choyvp pynff ZBFgYbhvfPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NFGRZF",
         "NQQE:JO V-44",
         "ZNQQE:V 44",
-        "HAVG:& ZZ 257 2427",
+        "HAVG:& ZZ 257   2427",
         "GVZR:16:49");
 
     qbGrfg("G24",

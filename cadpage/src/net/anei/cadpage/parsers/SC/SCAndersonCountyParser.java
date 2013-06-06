@@ -46,7 +46,7 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
     body = append(subject, " ", body);
     
     // Call superclass parser
-    body = body.replace('@', '&');
+    body = body.replace('@', '&').replace("//", "/");
     return super.parseMsg(body, data);
   }
   

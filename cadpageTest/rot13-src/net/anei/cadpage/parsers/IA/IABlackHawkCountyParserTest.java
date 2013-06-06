@@ -43,7 +43,7 @@ choyvp pynff VNOynpxUnjxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "10-127299 ZIN EBYYBIRE/20 UJL FRETRNAG EQ JNGREYBB",
         "VQ:10-127299",
-        "PNYY:ZIN EBYYBIRE /",
+        "PNYY:ZIN EBYYBIRE/",
         "NQQE:20 UJL FRETRNAG EQ",
         "PVGL:JNGREYBB");
     
@@ -52,7 +52,7 @@ choyvp pynff VNOynpxUnjxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:10-124880",
         "PNYY:ZIN EBYYBIRE",
         "NQQE:1941 J 6GU FG",
-        "K:RHERXN / ZVGPURYY",
+        "K:RHERXN/ ZVGPURYY",
         "PVGL:JNGREYBB");
    
   }

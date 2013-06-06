@@ -610,7 +610,7 @@ choyvp pynff BUFhzzvgPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:S14",
         "PNYY:ERCBEG GB FGNGVBA 12",
         "ZNC:F1Q4",
-        "VASB:89 LBZ HANOYR GB IBVQ OYNQQRE ZNA NAQ FDHNQ FNAQEHA CXJL NAQ QHEENA");
+        "VASB:89 LBZ HANOYR GB IBVQ OYNQQRE. ZNA NAQ FDHNQ. FNAQEHA CXJL NAQ QHEENA");
 
     qbGrfg("G42",
         "(Nyreg Abgvsvpngvba) 3979,Zrqvan Eq,NPZR SERFU ZNEXRG 15,Ongu21,URZBEEUNTR / YNPRENGVBAF QVFC, F2Q3ol qryv - srznyr oyrrqvat sebz snyy<oe /><oe/>\a" +

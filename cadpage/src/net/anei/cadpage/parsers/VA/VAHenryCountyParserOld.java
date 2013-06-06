@@ -16,6 +16,7 @@ public class VAHenryCountyParserOld extends SmartAddressParser {
   
   public VAHenryCountyParserOld() {
     super(CITY_LIST, DEF_CITY, DEF_STATE);
+    setFieldList("ID CALL PLACE ADDR CITY INFO");
   }
 
   @Override

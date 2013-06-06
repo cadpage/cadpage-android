@@ -47,7 +47,7 @@ choyvp pynff BUOhgyrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:12-026840",
         "NQQE:4090 ZVYYVXVA EQ",
         "K:SNVEPERFG & YVOREGL SNVESVRYQ EQ",
-        "VASB:Zrqvpny: Ab / Unmneqf: Ab\a41 LBZ, QVNORGVP HAERFCBAFVIR",
+        "VASB:Zrqvpny: Ab / Unmneqf: Ab\a41 LBZ,. QVNORGVP HAERFCBAFVIR",
         "PNYY:YVSR FDHNQ ERDHRFG",
         "QNGR:05/18/2012",
         "GVZR:20:47:29",

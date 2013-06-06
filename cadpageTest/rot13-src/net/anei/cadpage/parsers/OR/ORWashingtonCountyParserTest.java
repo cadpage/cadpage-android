@@ -168,7 +168,7 @@ choyvp pynff BEJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "[] OERNGUVAT CEBO. 59185 R PUNYRG CY (QRNQ RAQ & R RNFG EQ) FNA ZNC: 6324N HAVG: FD252\e\a\e\a\a",
-        "PNYY:OERNGUVAT CEBO",
+        "PNYY:OERNGUVAT CEBO.",
         "NQQE:59185 R PUNYRG CY",
         "PVGL:FNAQL",
         "K:QRNQ RAQ & R RNFG EQ",

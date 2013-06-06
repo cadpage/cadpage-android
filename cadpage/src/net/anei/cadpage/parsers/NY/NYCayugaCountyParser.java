@@ -15,7 +15,7 @@ public class NYCayugaCountyParser extends SmartAddressParser {
 
   public NYCayugaCountyParser() {
     super(CITY_LIST, "CAYUGA COUNTY", "NY");
-    setFieldList("DATE TIME PLACE ADDR CITY CALL INFO");
+    setFieldList("DATE TIME PLACE ADDR CITY CALL X INFO");
     setupMultiWordStreets("WEST LAKE");
   }
   
@@ -48,15 +48,24 @@ public class NYCayugaCountyParser extends SmartAddressParser {
       st = StartType.START_ADDR;
     }
     
+    // See if we can split off a cross street keyword
+    String cross = null;
+    int pt = body.indexOf(" BETWEEN ");
+    if (pt >= 0) {
+      cross = body.substring(pt+9).trim();
+      body = body.substring(0,pt).trim();
+    }
+    
     // See if there is a comma separating the address from the city.
     // If what follows the comma is not a recognized city, assume it is extraneous
-    int pt = body.indexOf(',');
+    String extra = "";
+    pt = body.indexOf(',');
     if (pt >= 0) {
       Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, body.substring(pt+1).trim());
       if (res.getStatus() > 0) {
         parseAddress(st, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, body.substring(0,pt).trim(), data);
         res.getData(data);
-        data.strCall = res.getLeft();
+        extra = res.getLeft();
       } else {
         pt = -1;
       }
@@ -64,12 +73,38 @@ public class NYCayugaCountyParser extends SmartAddressParser {
     
     if (pt < 0) { 
       parseAddress(st, FLAG_IMPLIED_INTERSECT, body, data);
-      data.strCall = getLeft();
+      extra = getLeft();
     }
-    if (data.strCall.length() > 30) {
-      data.strSupp = data.strCall;
-      data.strCall = "";
+    
+    // Things change if we have identified a cross street segment
+    // What is left of extra is the call description
+    // what follows the BETWEEN keyword is a cross street and supplemental info
+    if (cross != null) {
+      data.strCall = extra;
+      pt = cross.indexOf(',');
+      if (pt >= 0) {
+        data.strCross = cross.substring(0,pt).trim();
+        data.strSupp = cross.substring(pt+1).trim();
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, cross);
+        data.strSupp = getLeft();
+      }
     }
+    
+    // Othrwise Try to split extra into call description and supp info
+    else {
+      pt = extra.indexOf("  ");
+      if (pt >= 0 && pt <= 30) {
+        data.strCall = extra.substring(0,pt);
+        data.strSupp = extra.substring(pt+2).trim();
+      } else if (extra.length() <= 30) {
+        data.strCall = extra;
+      } else {
+        data.strSupp = extra;
+      }
+    }
+    
+    data.strSupp = data.strSupp.replaceAll("   +", "  ");
     
     if (data.strCity.toUpperCase().endsWith(" ONONDAGA COUNTY")) {
       data.strCity = data.strCity.substring(0,data.strCity.length()-16).trim();

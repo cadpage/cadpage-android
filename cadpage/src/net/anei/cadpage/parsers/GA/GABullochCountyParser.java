@@ -12,6 +12,7 @@ public class GABullochCountyParser extends SmartAddressParser {
   
   public GABullochCountyParser() {
     this("BULLOCH COUNTY", "GA");
+    setFieldList("CALL ADDR APT INFO");
   }
   
   public GABullochCountyParser(String defCity, String defState) {

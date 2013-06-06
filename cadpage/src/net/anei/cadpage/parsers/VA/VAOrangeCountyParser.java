@@ -77,7 +77,7 @@ public class VAOrangeCountyParser extends FieldProgramParser {
       
       field = p.get();
       parseAddress(StartType.START_PLACE, FLAG_ONLY_CITY, field, data);
-      data.strCross = data.strPlace.replace("/", " / ");
+      data.strCross = data.strPlace;
       data.strPlace = "";
       data.strSupp = getLeft();
     }

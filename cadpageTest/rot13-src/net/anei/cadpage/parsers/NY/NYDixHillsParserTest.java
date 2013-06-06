@@ -86,7 +86,7 @@ choyvp pynff ALQvkUvyyfCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:13- Fgehpgher Sver",
         "NQQE:29 JVYQJBBQ QE",
         "ANZR:GEHRA, PENVT",
-        "VASB:UD JUVGARL PG 60-P-1B TNF YRNXF / TNF BQBE (ANGHENY / Y C T ) QJBBQ");
+        "VASB:UD JUVGARL PG 60-P-1B TNF YRNXF / TNF BQBE (ANGHENY / Y.C.T.) QJBBQ");
 
     qbGrfg("G7",
         "2010-001919 01:48 *** 16- Erfphr *** 179 BNXSVRYQ NI OEHMMRFR, EBPPB  FRNZNA ARPX EQ 6-Q-3 ERFCVENGBEL XSVRYQ NI QVKUVY GLCR: ERFCVENGBEL YBP: 179  BNXSV",
@@ -95,7 +95,7 @@ choyvp pynff ALQvkUvyyfCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:16- Erfphr",
         "NQQE:179 BNXSVRYQ NI",
         "ZNQQE:179 BNXSVRYQ NIR",
-        "VASB:OEHMMRFR, EBPPB FRNZNA ARPX EQ 6-Q-3 ERFCVENGBEL XSVRYQ NI QVKUVY GLCR: ERFCVENGBEL YBP: 179 BNXSV");
+        "VASB:OEHMMRFR, EBPPB  FRNZNA ARPX EQ 6-Q-3 ERFCVENGBEL XSVRYQ NI QVKUVY GLCR: ERFCVENGBEL YBP: 179  BNXSV");
 
     qbGrfg("G8",
         "2010-001923 11:44 *** 16- Erfphr *** 337 QRRE CNEX NI FHAEVFR NFFVFGRQ YVIVAT ERQ ZNCYR YN Nyreg",
@@ -134,6 +134,6 @@ choyvp pynff ALQvkUvyyfCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALQvkUvyyfCnefreGrfg().trarengrGrfgf("G1", "VQ GVZR PNYY NQQE ANZR VASB");
+    arj ALQvkUvyyfCnefreGrfg().trarengrGrfgf("G1");
   }
 }

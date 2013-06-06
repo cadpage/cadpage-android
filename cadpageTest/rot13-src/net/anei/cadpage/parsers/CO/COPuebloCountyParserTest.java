@@ -95,7 +95,7 @@ choyvp pynff PBChroybPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G4",
         "(Cntr ) EHENY  75 lbs oernguvat qvss  1130 JNTB QE",
         "NQQE:1130 JNTB QE",
-        "PNYY:EHENY 75 lbs oernguvat qvss");
+        "PNYY:EHENY  75 lbs oernguvat qvss");
 
     qbGrfg("G5",
         "(Cntr ) ngga chroyb eheny sver 27025 gbhepurl jnl srznyr qvmml naq abg srryvat tbbq",

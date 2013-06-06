@@ -76,7 +76,7 @@ choyvp pynff CNGvbtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1883 FUHZJNL UVYY EQ",
         "K:EBHGR 6",
         "PVGL:PUNEYRFGBA GJC",
-        "ANZR:OEBNQ NPEF UYGU / ERUNO423",
+        "ANZR:OEBNQ NPEF UYGU/ERUNO423",
         "VQ:2011-0000020675");
 
     qbGrfg("G6",
@@ -145,6 +145,6 @@ choyvp pynff CNGvbtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj CNGvbtnPbhaglCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE NCG K PVGL CYNPR ANZR CUBAR ZNC VQ");
+    arj CNGvbtnPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

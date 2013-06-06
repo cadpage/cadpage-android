@@ -53,8 +53,13 @@ public class MDBaltimoreCountyAParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       
       if (data.strCall.startsWith("MUTUAL AID")) {
+        Matcher match = APT_PTN.matcher(field);
+        if (match.find()) {
+          data.strApt = append(data.strApt, "-", match.group(1).trim());
+          field = field.substring(0,match.start()).trim();
+        }
         field = field.replaceAll(" *// *", " ");
-        Matcher match = MUTUAL_AID_ADDR_PTN.matcher(field);
+        match = MUTUAL_AID_ADDR_PTN.matcher(field);
         if (!match.matches()) abort();   // Can't happen
         String code = match.group(1);
         if (code != null) data.strCall = data.strCall + " " + code;

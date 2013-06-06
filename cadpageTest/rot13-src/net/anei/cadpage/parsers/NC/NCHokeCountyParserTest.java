@@ -949,7 +949,7 @@ choyvp pynff APUbxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ubxr Pb 911:194 UVPXBEL QE* * * * * **NFFNHYG* * * * * * * * 01/16/2013 01:28:34 : cbf1 : YTENQL7274 13 ARRQ RZF EBHGVAR URNQ VAWHEL 01/16/2013 01:18:36 : cbf1 : YTENQL7274 Pebff fgerrgf: 4770 CVGGZNA TEBIR PUHEPU//700 QBTJBBQ YA 01/16/2013",
         "NQQE:194 UVPXBEL QE",
         "K:NFFNHYG",
-        "VASB:13 ARRQ RZF EBHGVAR URNQ VAWHEL\a01 / 16 / 2013",
+        "VASB:13 ARRQ RZF EBHGVAR URNQ VAWHEL\a01/16/2013",
         "QNGR:01/16/2013",
         "GVZR:01:28:34",
         "PU:cbf1");

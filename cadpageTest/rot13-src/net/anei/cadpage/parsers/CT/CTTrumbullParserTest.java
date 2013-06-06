@@ -112,7 +112,7 @@ choyvp pynff PGGehzohyyCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:SP1",
         "CYNPR:VSB",
         "NQQE:271 CHGGVAT TERRA EQ",
-        "PNYY:GERR YVZO BA JVERF 102 JVYY UNAQYR PNYY J / PERJ GUNG VF VA DHNEGREF");
+        "PNYY:GERR YVZO BA JVERF 102 JVYY UNAQYR PNYY J/ PERJ GUNG VF VA DHNEGREF");
 
     qbGrfg("G3",
         "GP SP1 91 ZBBFR UVYY EQ 2-3 SRRG JNGRE VA ONFRZRAG",
@@ -344,7 +344,7 @@ choyvp pynff PGGehzohyyCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:SP1",
         "NQQE:40 CBEGREF UVYY EQ",
         "PVGL:GEHZOHYY",
-        "PNYY:PB / N JVGU FLZCGBZF");
+        "PNYY:PB/N JVGU FLZCGBZF");
 
     qbGrfg("G24",
         "GP SP1 | 14 UNJGUBEAR EVQTR PY GEHZOHYY | FGEBAT BQBE BS TNF VA GUR OHVYQVAT",
@@ -380,7 +380,7 @@ choyvp pynff PGGehzohyyCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:SP1",
         "NQQE:222 GRYYRE EQ",
         "PVGL:GEHZOHYY",
-        "PNYY:PB / N HAXABJA FLZCGBZF");
+        "PNYY:PB/N HAXABJA FLZCGBZF");
 
     qbGrfg("G28",
         "GP SP1 | 1021 QNAVRYF SNEZ EQ GEHZOHYY | PB/N HAXABJA FLZCGBZF",
@@ -388,7 +388,7 @@ choyvp pynff PGGehzohyyCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:SP1",
         "NQQE:1021 QNAVRYF SNEZ EQ",
         "PVGL:GEHZOHYY",
-        "PNYY:PB / N HAXABJA FLZCGBZF");
+        "PNYY:PB/N HAXABJA FLZCGBZF");
 
     qbGrfg("G29",
         "GP SP1 VSB | 710 QNAVRYF SNEZ EQ GEHZOHY | QNAVRYF SNEZ RYRZRAGNEL FPUBBY ZIN SYHVQ FCVYY",
@@ -445,7 +445,7 @@ choyvp pynff PGGehzohyyCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:SP1",
         "NQQE:79 PBIRAGEL YA",
         "PVGL:GEHZOHYY",
-        "PNYY:PB / N HAXABJA FLZCGBZF");
+        "PNYY:PB/N HAXABJA FLZCGBZF");
 
     qbGrfg("G36",
         "GP SP1 | 112 FHMNAAR PVE GEHZOHYY | JVER QBJA",
@@ -494,7 +494,7 @@ choyvp pynff PGGehzohyyCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:SP1",
         "NQQE:15 ZNENGUBA EQ",
         "PVGL:GEHZOHYY",
-        "PNYY:2AQ GBAR - PB / N AB FLZCGBZF");
+        "PNYY:2AQ GBAR - PB/N AB FLZCGBZF");
 
     qbGrfg("G42",
         "GP SP1 | 15 ZNENGUBA EQ GEHZOHYY | PB/N AB FLZCGBZF",
@@ -502,7 +502,7 @@ choyvp pynff PGGehzohyyCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:SP1",
         "NQQE:15 ZNENGUBA EQ",
         "PVGL:GEHZOHYY",
-        "PNYY:PB / N AB FLZCGBZF");
+        "PNYY:PB/N AB FLZCGBZF");
 
     qbGrfg("G43",
         "GP SP1 VSB | 19 UVTUJBBQ CY GEHZOHYY | SVER VA EBNQJNL",
@@ -519,7 +519,7 @@ choyvp pynff PGGehzohyyCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:SP1",
         "NQQE:14 PBGGNTR CY",
         "PVGL:GEHZOHYY",
-        "PNYY:PB / N AB FLZCGBZF");
+        "PNYY:PB/N AB FLZCGBZF");
 
     qbGrfg("G45",
         "GP SP1 | 65 PNEQVANY PY GEHZOHYY | GRYRCUBAR CBYR BA SVER",
@@ -555,7 +555,7 @@ choyvp pynff PGGehzohyyCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:210 URQTRUBT PY",
         "ZNQQE:210 URQTRUBT PVE",
         "PVGL:GEHZOHYY",
-        "PNYY:1 RATVAR ARRQRQ JVGU FVK ZRZOREF 2 NFFVFG JVGU PURPXVAT NYY GUR ERFVQRAPRF & NCNEGZRAGF NG GUR PBZCYRK");
+        "PNYY:1 RATVAR ARRQRQ JVGU FVK ZRZOREF 2 NFFVFG  JVGU PURPXVAT NYY GUR ERFVQRAPRF & NCNEGZRAGF NG GUR PBZCYRK");
 
     qbGrfg("G49",
         "GP SP1 | 68 URQTRUBT PY GEHZOHYY | S/N",
@@ -622,6 +622,6 @@ choyvp pynff PGGehzohyyCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PGGehzohyyCnefreGrfg().trarengrGrfgf("G1", "FEP HAVG PU CYNPR NQQE NCG PVGL PNYY");
+    arj PGGehzohyyCnefreGrfg().trarengrGrfgf("G1");
   }
 }

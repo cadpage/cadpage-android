@@ -37,6 +37,8 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
     boolean good = false;
     if (subject.equals("*CAD*|CAD")) good = true;
     
+    body = body.replace('\n', ' ');
+    
     Matcher match = ID_PATTERN.matcher(body);
     if (match.find()) {
       good = true;

@@ -643,7 +643,7 @@ choyvp pynff AWTybhprfgrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:S FREI NFFA",
         "CEV:5",
         "NQQE:GHPXNUBR EQ",
-        "ZNQQE:GHPXNUBR EQ & PEBFFXRLF OLC",
+        "ZNQQE:GHPXNUBR EQ & PEBFFXRLF OLCNFF",
         "PVGL:JNFUVATGBA",
         "K:PEBFFXRLF OLC",
         "GVZR:10:53:57",

@@ -15,6 +15,7 @@ public class PAMonroeCountyParser extends SmartAddressParser {
   
   public PAMonroeCountyParser() {
     super(CITY_CODES, "MONROE COUNTY", "PA");
+    setFieldList("CODE CALL PLACE ADDR APT CITY X INFO");
   }
   
   @Override

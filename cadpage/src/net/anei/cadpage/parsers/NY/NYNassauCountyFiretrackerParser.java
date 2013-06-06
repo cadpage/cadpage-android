@@ -93,6 +93,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   }
   
   private static final Pattern APT_PTN = Pattern.compile("\\bAPT ([^ ]+)\\b");
+  private static final Pattern DIR_BOUND_PTN = Pattern.compile("\\b([NSEW])/B\\b");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -102,6 +103,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
         field = field.substring(0,match.start()) + field.substring(match.end());
       }
       
+      field = DIR_BOUND_PTN.matcher(field).replaceAll("$1B");
       StartType st = StartType.START_CALL;
       int flags = FLAG_START_FLD_REQ;
       String connect = " - ";

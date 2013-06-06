@@ -59,7 +59,7 @@ choyvp pynff APZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FGEHPGHER SVER",
         "NQQE:289 FHGGBA YA",
         "PVGL:SENAXYVA",
-        "ANZR:NNNNN, NNNNNNN & NNNNNN",
+        "ANZR:NNNNN, NNNNNNN& NNNNNN",
         "CUBAR:5555559999");
         
     qbGrfg("G4",

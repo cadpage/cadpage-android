@@ -135,7 +135,7 @@ choyvp pynff BUPyrezbagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:R BFOBEAR FG & A RNFG FG",
         "K:A RNFG FG",
         "PVGL:ORGURY",
-        "ANZR:WRSS J / EHZCXR",
+        "ANZR:WRSS J/EHZCXR",
         "VQ:2011-0000017232");
 
     qbGrfg("G8",

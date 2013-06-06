@@ -8,6 +8,7 @@ public class TNHumphreysCountyParser extends GeneralParser {
   
   public TNHumphreysCountyParser() {
     super("HUMPHREYS COUNTY", "TN");
+    setFieldList("CALL ADDR PLACE INFO");
   }
   
   @Override

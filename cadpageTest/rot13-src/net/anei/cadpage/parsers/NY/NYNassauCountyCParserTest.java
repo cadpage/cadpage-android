@@ -61,7 +61,7 @@ choyvp pynff ALAnffnhPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "* 4- FVTANY 9  * YYBLQ Y. YNATYRL 248 FUREZNA FGERRG PF: OEBNQJNL \\ EBZNA NIRAHR GBN: 19:47 04-08-11",
         "PNYY:4- FVTANY 9",
-        "CYNPR:YYBLQ Y YNATYRL",
+        "CYNPR:YYBLQ Y. YNATYRL",
         "NQQE:248 FUREZNA FGERRG",
         "K:OEBNQJNL \\ EBZNA NIRAHR");
 

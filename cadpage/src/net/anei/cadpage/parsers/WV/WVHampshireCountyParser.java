@@ -5,12 +5,12 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchBParser;
+import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 /**
  * Hampshire County, WV
  */
-public class WVHampshireCountyParser extends DispatchBParser {
+public class WVHampshireCountyParser extends DispatchB2Parser {
   
   private static final Pattern COUNTY_PTN = Pattern.compile("^(HARDY|FRED|FREDERICK|MINERAL|ALLEGANY|MORGAN) ", Pattern.CASE_INSENSITIVE);
 
@@ -68,7 +68,7 @@ public class WVHampshireCountyParser extends DispatchBParser {
   
   @Override
   public String getProgram() {
-    return super.getProgram().replace("CITY ", "CITY ST");
+    return super.getProgram().replace("CITY ", "CITY ST ");
   }
   
   @Override

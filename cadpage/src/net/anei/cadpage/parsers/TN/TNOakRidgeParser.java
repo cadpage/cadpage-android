@@ -18,6 +18,7 @@ public class TNOakRidgeParser extends SmartAddressParser {
   
   public TNOakRidgeParser() {
     super("OAK RIDGE", "TN");
+    setFieldList("CALL ADDR PLACE APT INFO");
   }
   
   @Override

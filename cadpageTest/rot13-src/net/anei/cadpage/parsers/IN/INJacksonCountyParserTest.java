@@ -27,7 +27,7 @@ choyvp pynff VAWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(zrqvpny eha) 1047 R PE 400 F Jrtna Puhepu 80 l/b/s hapbafpvbhf",
-        "PNYY:Jrtna Puhepu 80 l / b / s hapbafpvbhf",
+        "PNYY:Jrtna Puhepu 80 l/b/s hapbafpvbhf",
         "NQQE:1047 R PE 400 F",
         "ZNQQE:1047 R PBHAGL EBNQ 400 F");
 
@@ -51,7 +51,7 @@ choyvp pynff VAWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "(zrqvpny eha) 1047 R PE 400 F Jrtna Puhepu 80 l/b/s hapbafpvbhf",
-        "PNYY:Jrtna Puhepu 80 l / b / s hapbafpvbhf",
+        "PNYY:Jrtna Puhepu 80 l/b/s hapbafpvbhf",
         "NQQE:1047 R PE 400 F",
         "ZNQQE:1047 R PBHAGL EBNQ 400 F");
   }

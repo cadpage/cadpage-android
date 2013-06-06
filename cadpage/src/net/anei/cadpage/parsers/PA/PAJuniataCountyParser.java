@@ -9,6 +9,7 @@ public class PAJuniataCountyParser extends DispatchBParser {
  
   public PAJuniataCountyParser() {
     super(CITY_LIST, "JUNIATA COUNTY", "PA");
+    setFieldList("SRC CALL ADDR CITY X NAME MAP PLACE ID");
   }
   
   @Override

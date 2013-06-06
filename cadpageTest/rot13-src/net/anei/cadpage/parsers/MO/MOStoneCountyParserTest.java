@@ -110,7 +110,7 @@ choyvp pynff ZBFgbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:BYQ JVER EQ & EBHAQUBHFR EQ",
         "NCG:417",
         "K:EBHAQUBHFR EQ",
-        "VASB:EHOOVFU SVER");
+        "VASB:EHOOVFU SVER.");
   }
   
   @Grfg

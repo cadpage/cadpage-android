@@ -445,7 +445,7 @@ choyvp pynff ZBArjgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G20",
         "(911 PNYY) 5203 F ENATRYVAR EQ RKGERZR FCBEGF FPHON/RQF RYRPGEVP PebffFgerrgf: FNTVANJ EQ 0.09 zv A FHAFRG CY 0.03 zv F FVPX CREFBA RFA: ct49 Pnyy Ahzore: 771254",
         "NQQE:5203 F ENATRYVAR EQ",
-        "CYNPR:RKGERZR FCBEGF FPHON / RQF RYRPGEVP",
+        "CYNPR:RKGERZR FCBEGF FPHON/RQF RYRPGEVP",
         "K:FNTVANJ EQ 0.09 zv A FHAFRG CY 0.03 zv F",
         "PNYY:FVPX CREFBA",
         "ZNC:ct49",

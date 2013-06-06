@@ -15,6 +15,7 @@ public class NYErieCountyCParser extends SmartAddressParser {
   
   public NYErieCountyCParser() {
     super("ERIE COUNTY", "NY");
+    setFieldList("CALL ADDR APT INFO X PLACE");
   }
 
   @Override

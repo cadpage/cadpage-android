@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class CTTollandCountyAParser extends SmartAddressParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("[A-Z]+");
-  private static final Pattern TIME_PTN = Pattern.compile("\\b\\d\\d: \\d\\d\\b");
+  private static final Pattern TIME_PTN = Pattern.compile("\\b\\d\\d:\\d\\d\\b");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{8}$");
   
   public CTTollandCountyAParser() {

@@ -336,7 +336,7 @@ choyvp pynff ZQQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PG:ZBGBE IRU. PBYYVFVBA WNPXGBJA GENVYRE CNE @2950 BPRNA TGJL PNZO OBK:1-4 QHR:EF1-1 RA1-1 RA1-2 C100 :QP\e\a" +
         "\e\a",
 
-        "PNYY:ZBGBE IRU PBYYVFVBA WNPXGBJA GENVYRE CNE",
+        "PNYY:ZBGBE IRU. PBYYVFVBA WNPXGBJA GENVYRE CNE",
         "NQQE:2950 BPRNA TGJL",
         "PVGL:PNZOEVQTR",
         "OBK:1-4",

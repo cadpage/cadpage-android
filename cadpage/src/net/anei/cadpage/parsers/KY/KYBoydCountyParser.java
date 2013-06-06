@@ -10,10 +10,11 @@ public class KYBoydCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER = Pattern.compile("BC911:([A-Z0-9]{3}) (?:([-A-Z ]+\\*) )?(.*)");
   private static final Pattern FRK_ST_PTN = Pattern.compile("\\bFRK ST\\b"); 
+  private static final Pattern STRAIGHT_CRK_PTN = Pattern.compile("\\bSTRAIGHT CRK(?: RD)?\\b");
  
   public KYBoydCountyParser() {
     super("BOYD COUNTY", "KY");
-    setFieldList("UNIT CALL ADDR APT INFO");
+    setFieldList("UNIT CALL ADDR APT X INFO NAME");
   }
   
   @Override
@@ -37,7 +38,10 @@ public class KYBoydCountyParser extends SmartAddressParser {
       st = StartType.START_ADDR;
     }
     
+    addr = FRK_ST_PTN.matcher(addr).replaceAll("FORK RD");
+    addr = STRAIGHT_CRK_PTN.matcher(addr).replaceAll("STRAIGHT CREEK RD");
     int flags = 0;
+    String extra = "";
     int pt = addr.indexOf(" Apt: ");
     if (pt > 0) {
       flags = FLAG_ANCHOR_END;
@@ -47,11 +51,23 @@ public class KYBoydCountyParser extends SmartAddressParser {
       Parser p = new Parser(info);
       data.strApt = p.getOptional(" Bldg");
       if (data.strApt.length() == 0) data.strApt = p.get(' ');
-      data.strSupp = p.get();
+      extra = p.get();
     }
     
     parseAddress(st, flags | FLAG_IMPLIED_INTERSECT, addr, data);
-    if (flags == 0) data.strSupp = getLeft();
+    if (flags == 0) extra = getLeft();
+    
+    Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, extra);
+    if (res.getStatus() > 0) {
+      res.getData(data);
+      extra = res.getLeft();
+    }
+    
+    if (extra.contains(",")) {
+      data.strName = extra;
+    } else {
+      data.strSupp = extra;
+    }
     
     data.strAddress = FRK_ST_PTN.matcher(data.strAddress).replaceAll("FORK RD");
     

@@ -88,7 +88,7 @@ choyvp pynff INJnlarfobebCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G10",
         "Qvfcngpu@pv.jnlarfobeb.in.hf Zft: Qvfcngpu:ERFCBAQ 142 CURNFNAG EHA URNQNPUR, QVSSVPHYGL , 14 L/B PBHAGL 1",
-        "PNYY:URNQNPUR QVSSVPHYGL 14 L / B PBHAGL 1",
+        "PNYY:URNQNPUR QVSSVPHYGL  14 L/B PBHAGL 1",
         "NQQE:142 CURNFNAG EHA");
     
   }
@@ -110,6 +110,6 @@ choyvp pynff INJnlarfobebCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj INJnlarfobebCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE NCG VASB");
+    arj INJnlarfobebCnefreGrfg().trarengrGrfgf("G1");
   }
 }

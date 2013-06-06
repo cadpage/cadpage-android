@@ -35,7 +35,7 @@ choyvp pynff APWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "Ovyy:1 PUNEYRLF PERRX EQ/ARQQL ZGA 2011010597 08:40:01 10-50Q NPPVQRAG/CEBCREGL QNZNTR NQIF FVATYR PNE 10-50, AB CV",
         "NQQE:1 PUNEYRLF PERRX EQ",
-        "CYNPR:/ ARQQL ZGA",
+        "CYNPR:/ARQQL ZGA",
         "VQ:2011010597",
         "GVZR:08:40:01",
         "VASB:10-50Q NPPVQRAG/CEBCREGL QNZNTR NQIF FVATYR PNE 10-50, AB CV");

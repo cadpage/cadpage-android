@@ -13,6 +13,7 @@ public class PAButlerCountyParser extends DispatchBParser {
 
   public PAButlerCountyParser() {
     super(CITY_LIST, "BUTLER COUNTY", "PA");
+    setFieldList("CALL ADDR CITY X PLACE NAME PHONE MAP ID");
   }
   
   @Override

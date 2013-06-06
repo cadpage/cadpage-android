@@ -1249,7 +1249,7 @@ choyvp pynff BEZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "(Vapvqrag) 381 R FNAGVNZ FG  FGNTR SBE 15LBS CBFF FHVPVQNY P/N/O ZNC 4430Q",
         "NQQE:381 R FNAGVNZ FG",
-        "PNYY:FGNTR SBE 15LBS CBFF FHVPVQNY P / N / O ZNC 4430Q");
+        "PNYY:FGNTR SBE 15LBS CBFF FHVPVQNY P/N/O ZNC 4430Q");
 
     qbGrfg("G2",
         "(Vapvqrag) 9158 FGNLGBA EQ FR ZRQVPNY CRAQNAG NPGVINGVBA",

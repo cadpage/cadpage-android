@@ -22,6 +22,7 @@ public class CTHartfordCountyAvonParser extends SmartAddressParser {
   
   public CTHartfordCountyAvonParser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState);
+    setFieldList("SRC ID CALL ADDR CITY MAP X UNIT DATE TIME");
   }
   
   @Override

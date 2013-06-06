@@ -22,6 +22,7 @@ public class DispatchB2Parser extends DispatchBParser {
   private static final Pattern PHONE_PTN = Pattern.compile(" *((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4})$");
   private static final Pattern PHONE2_PTN = Pattern.compile("^((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}) *");
   private static final Pattern APT_PTN = Pattern.compile("[A-Z]?\\d+[A-Z]?");
+  private static final Pattern NAME_PTN = Pattern.compile(" +([A-Z]+, ?[A-Z]+(?: [A-Z]\\.?)?)$");
   
   private String prefix;
 
@@ -99,28 +100,34 @@ public class DispatchB2Parser extends DispatchBParser {
     }
     
     field = cleanWirelessCarrier(field, true);
+    match = NAME_PTN.matcher(field);
+    if (match.find()) {
+      data.strName = match.group(1);
+      field = field.substring(0,match.start());
+    }
     parseAddress(st, flags | FLAG_NEAR_TO_END, field, data);
     String name = getLeft();
-    if (name.startsWith("&")) {
-      data.strAddress = append(data.strAddress, " ", name);
-    }
-    
-    else if (data.strPhone.length() == 0 && (match = PHONE2_PTN.matcher(name)).find()) {
-      data.strPhone = match.group(1);
-      field = name.substring(match.end());
-      if (checkAddress(field) > 0) {
-        data.strCross = field;
-      } else {
-        data.strName = field;
+    if (name.length() > 0) {
+      if (name.startsWith("&")) {
+        data.strAddress = append(data.strAddress, " ", name);
+      } 
+      else if (data.strPhone.length() == 0 && (match = PHONE2_PTN.matcher(name)).find()) {
+        data.strPhone = match.group(1);
+        field = name.substring(match.end());
+        if (checkAddress(field) > 0) {
+          data.strCross = field;
+        } else {
+          data.strName = append(field, " ", data.strName);
+        }
       }
-    } 
-    
-    else if ((match = APT_PTN.matcher(name)).matches()) {
-      data.strApt = name;
-    }
-    
-    else {
-      data.strName = name;
+      
+      else if ((match = APT_PTN.matcher(name)).matches()) {
+        data.strApt = name;
+      }
+      
+      else {
+        data.strName = append(name, " ", data.strName);
+      }
     }
     
     return true;

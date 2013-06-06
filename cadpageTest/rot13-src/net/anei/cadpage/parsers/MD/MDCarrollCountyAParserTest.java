@@ -313,6 +313,7 @@ choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:IP",
         "OBK:0260",
         "NQQE:UNZCFGRNQ OLC & EG 482",
+        "ZNQQE:UNZCFGRNQ OLCNFF & EG 482",
         "PVGL:UNZCFGRNQ",
         "HAVG:R43");
 
@@ -331,7 +332,7 @@ choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:IP",
         "OBK:0261",
         "NQQE:EG 30 OLC & UNABIRE CXR & FBH",
-        "ZNQQE:EG 30 OLC & UNABIRE CVXR & FBH",
+        "ZNQQE:EG 30 OLCNFF & UNABIRE CVXR & FBH",
         "PVGL:UNZCFGRNQ",
         "HAVG:K29 OZ435 R23 OR432");
 
@@ -657,7 +658,7 @@ choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G61",
         "[Pb 2]  [!] PG:ZN 43-2 16106 QNEX UBYYBJ EQ / GERAGBA EQ URYB Y/M OBK:OP QHR:R23 [36]",
         "FEP:Pb 2",
-        "PNYY:ZN - URYB Y / M",
+        "PNYY:ZN - URYB Y/M",
         "OBK:43-2",
         "NQQE:16106 QNEX UBYYBJ EQ",
         "K:GERAGBA EQ",

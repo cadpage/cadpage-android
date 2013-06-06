@@ -204,6 +204,7 @@ choyvp pynff ZQFnvagZnelfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:18:34:06",
         "PNYY:Oernguvat Qvssvphygvrf",
         "NQQE:22030 BKSBEQ PG",
+        "NCG:NCG",
         "K:TYBHPRFGRE PG / QRNQ RAQ",
         "PVGL:YRKVATGBA CNEX",
         "HAVG:NYF PB39 PB6E",

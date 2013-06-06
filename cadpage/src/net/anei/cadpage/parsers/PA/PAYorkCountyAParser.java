@@ -99,12 +99,23 @@ public class PAYorkCountyAParser extends SmartAddressParser {
       st = StartType.START_ADDR;
     } 
     
-    body = body.replace(',', ' ');
     parseAddress(st, FLAG_IMPLIED_INTERSECT | FLAG_IGNORE_AT, body, data);
 
-      // The address may be a simple address followed by a cross street
+    // The address may be a simple address followed by a cross street
+    // But the cross street may consist of a road followed by a comma 
+    // followed by another cross street sequence :(
     String sAddr = getLeft();
     if (sAddr.startsWith("/")) sAddr = sAddr.substring(1).trim();
+    String cross = "";
+    int pt = sAddr.indexOf(',');
+    if (pt >= 0) {
+      String tmp = sAddr.substring(0,pt).trim();
+      if (checkAddress(tmp) > 0) {
+        cross = tmp;
+        sAddr = sAddr.substring(pt+1).trim();
+            
+      }
+    }
     parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT, sAddr, data);
 
     // Anything left should be the call description
@@ -115,6 +126,7 @@ public class PAYorkCountyAParser extends SmartAddressParser {
       data.strCall = data.strCross;
       data.strCross = "";
     }
+    data.strCross = append(cross, ", ", data.strCross);
     
     // last part may contain a station in first position.  Everything else is unit
     match = SRC_PTN.matcher(part3);

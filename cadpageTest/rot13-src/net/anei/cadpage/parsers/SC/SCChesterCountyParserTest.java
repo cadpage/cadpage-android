@@ -191,7 +191,7 @@ choyvp pynff FPPurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4006 YRJVFIVYYR UVTU FPU EQ",
         "K:YNAPNFGRE UJL",
         "PVGL:EVPUOHET",
-        "ANZR:FPUBBYF CHOYVP / WBNAA",
+        "ANZR:FPUBBYF CHOYVP/WBNAA",
         "CUBAR:8037895164",
         "VQ:2012-0000049703");
 

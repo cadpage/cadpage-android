@@ -23,6 +23,7 @@ public class MDCalvertCountyParser extends SmartAddressParser {
   
   public MDCalvertCountyParser() {
     super(CITY_LIST, "CALVERT COUNTY", "MD");
+    setFieldList("TIME DATE CALL UNIT BOX ADDR PLACE CITY ID INFO");
   }
   
   @Override

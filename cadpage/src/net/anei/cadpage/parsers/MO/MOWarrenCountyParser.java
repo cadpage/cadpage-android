@@ -1,12 +1,14 @@
 package net.anei.cadpage.parsers.MO;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchGlobalDispatchParser;
 
 
 
 public class MOWarrenCountyParser extends DispatchGlobalDispatchParser {
-  
+
   public MOWarrenCountyParser() {
     super(CITY_TABLE, "WARREN COUNTY", "MO", DispatchGlobalDispatchParser.PLACE_FOLLOWS_ADDR);
     setupMultiWordStreets("REVEREND THOMAS S HIGGINS",
@@ -23,10 +25,30 @@ public class MOWarrenCountyParser extends DispatchGlobalDispatchParser {
     
     if(!subject.equals("Dispatch")) return false;
     
-    body = body.replace("\n", ". ");
+    if (!super.parseMsg(subject, body, data)) return false;
     
-    return super.parseMsg(subject, body, data);
-    
+    int pt = data.strCross.indexOf('\n');
+    if (pt >= 0) {
+      data.strPlace = append(data.strPlace, " - ", data.strCross.substring(pt+1).trim());
+      data.strCross = data.strCross.substring(0,pt).trim();
+    }
+    return true;
+  }
+  
+  
+  private static final Pattern LINE_BREAK_PTN = Pattern.compile("[\\. ]*\n+");
+  private class MyInfoField extends BaseInfoField {
+    @Override
+    public void parse(String field, Data data) {
+      field = LINE_BREAK_PTN.matcher(field).replaceAll(". ");
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private static final String[] CITY_TABLE = new String[]{

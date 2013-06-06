@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.TX;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -32,6 +33,7 @@ public class TXCollinCountyParser extends FieldProgramParser {
   protected TXCollinCountyParser(String defCity, String defState) {
     super(defCity, defState,
           "MASH UNITS:UNIT ST_RMK:INFO CFS_RMK:INFO");
+    setupCallList(CALL_LIST);
   }
   
   @Override
@@ -266,40 +268,35 @@ public class TXCollinCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-//  
-//  private static final String[] CITY_LIST = new String[] {
-//    "COLLIN COUNTY",
-//    "ALLEN",
-//    "ANNA",
-//    "BLUE RIDGE",
-//    "CARROLLTON",
-//    "CELINA",
-//    "COPEVILLE ",
-//    "DALLAS",
-//    "FAIRVIEW",
-//    "FARMERSVILLE",
-//    "FRISCO",
-//    "GARLAND",
-//    "JOSEPHINE",
-//    "LAVON",
-//    "LOWRY CROSSING",
-//    "LUCAS",
-//    "MCKINNEY",
-//    "MELISSA",
-//    "MURPHY",
-//    "NEVADA",
-//    "NEW HOPE",
-//    "PARKER",
-//    "PLANO",
-//    "PRINCETON",
-//    "PROSPER",
-//    "RICHARDSON",
-//    ROYSE CITY",
-//    "SACHSE",
-//    "ST PAUL",
-//    "VAN ALSTYNE",
-//    "WESTMINSTER ",
-//    "WESTON",
-//    "WYLIE"
-//  };
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "COMERCIAL FIRE ALARM",
+      "DUMPSTER FIRE",
+      "DRIVING WHILE INTOXICATED",
+      "EMERGENCY MEDICAL CALL",
+      "FIRE ALARM",
+      "FIRE PUBLIC ASSIST",
+      "FIRST RESPONDERS",
+      "GRASS FIRE",
+      "INJURED PERSON",
+      "INVESTIGATION-UNKNOWN SIT.",
+      "MAJOR ACCIDENT 10/50",
+      "MINOR ACCIDENT 10/50",
+      "MEDICAL EMERGENCY",
+      "MEDICATION OVERDOSE",
+      "MUTUAL AID GRASS FIRE",
+      "MUTUAL AID SFIRE",
+      "MUTUAL AID STRUCTURE FIRE",
+      "PROPERTY PUBLIC ASSIST",
+      "RESCUE-TRAPED PERSON(S)",
+      "RESIDENTIAL FIRE ALARM",
+      "STANDBY ELECTRICAL FIRE",
+      "STRUCTURE FIRE",
+      "TEST CALL",
+      "TRAFIC HAZARD",
+      "TRASH FIRE",
+      "UNAUTHORZED BURN",
+      "UNKNOWN FIRE",
+      "VEHICLE FIRE",
+      "WELFARE CHECK"
+  );
 }

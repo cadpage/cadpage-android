@@ -14,6 +14,7 @@ public class NYDixHillsParser extends SmartAddressParser {
   
   public NYDixHillsParser() {
     super("DIX HILLS", "NY");
+    setFieldList("ID TIME CALL ADDR NAME INFO");
   }
   
   @Override

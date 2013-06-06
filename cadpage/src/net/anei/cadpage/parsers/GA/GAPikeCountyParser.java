@@ -14,6 +14,7 @@ public class GAPikeCountyParser extends SmartAddressParser {
   
   public GAPikeCountyParser() {
     super("PIKE COUNTY", "GA");
+    setFieldList("CALL ADDR PLACE PHONE X");
   }
   
   @Override

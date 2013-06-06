@@ -184,7 +184,7 @@ choyvp pynff ZQDhrraNaarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[Grkg Zrffntr]  DN911pbz:*Q 1-10 FRVMHERF 1918 NAPUBENTR QE PBAGVAHBHF/ZHYGVCYR D01",
         "PNYY:1-10 FRVMHERF",
         "NQQE:1918 NAPUBENTR QE",
-        "VASB:PBAGVAHBHF / ZHYGVCYR",
+        "VASB:PBAGVAHBHF/ZHYGVCYR",
         "OBK:D01");
 
     qbGrfg("G5",
@@ -321,19 +321,19 @@ choyvp pynff ZQDhrraNaarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "[Grkg Zrffntr] DN911pbz:*Q 1-8 GENHZNGVP VAWHEL ONFXVA EBOVAF/ QHAXVA QBHTAHGF @1243 FUBCCVA CBFF QNAT OBQL NERN D01\a",
-        "PNYY:1-8 GENHZNGVP VAWHEL ONFXVA EBOVAF/QHAXVA QBHTAHGF",
+        "PNYY:1-8 GENHZNGVP VAWHEL ONFXVA EBOVAF/ QHAXVA QBHTAHGF",
         "NQQE:1243 FUBCCVA CBFF QNAT OBQL NERN",
         "OBK:D01");
 
     qbGrfg("G3",
         "[Grkg Zrffntr] DN911pbz:*T 1-8 GENHZNGVP VAWHEL ONFXVA EBOVAF/ QHAXVA QBHTAHGF @1243 FUBCCVA CBFF QNAT OBQL NERN D01\a",
-        "PNYY:1-8 GENHZNGVP VAWHEL ONFXVA EBOVAF/QHAXVA QBHTAHGF",
+        "PNYY:1-8 GENHZNGVP VAWHEL ONFXVA EBOVAF/ QHAXVA QBHTAHGF",
         "NQQE:1243 FUBCCVA CBFF QNAT OBQL NERN",
         "OBK:D01");
 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZQDhrraNaarfPbhaglCnefreGrfg().trarengrGrfgf("G1", "PNYY PVGL NQQE CYNPR VASB OBK");
+    arj ZQDhrraNaarfPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

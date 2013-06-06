@@ -118,7 +118,7 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:TNF BQBE/BHGFVQR",
         "NQQE:1011 FHAEVFR QE",
         "PVGL:FRYVAFTEBIR",
-        "ANZR:HTV / FNAQ",
+        "ANZR:HTV/FNAQ",
         "VQ:2011-0000005999");
 
     qbGrfg("G5",
@@ -143,7 +143,7 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NHGB NYNEZ/SVER",
         "NQQE:111 ZNEXRGCYNPR OYIQ",
         "PVGL:ZBAEBR GJC",
-        "ANZR:FRPHEVGL FREIVPR PB , 8717",
+        "ANZR:FRPHEVGL FREIVPR  PB., 8717",
         "VQ:2011-0000005983");
 
     qbGrfg("G8",
@@ -160,7 +160,7 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "NHGBVA>ERFPHR - NHGB NPPVQRAG/ VAWHEL 979 ZVQQYR EQ PRAGRE GJC GRFG Znc:6 Tevqf:, Pnq: 2012-0000011047",
-        "PNYY:ERFPHR - NHGB NPPVQRAG/VAWHEL",
+        "PNYY:ERFPHR - NHGB NPPVQRAG/ VAWHEL",
         "NQQE:979 ZVQQYR EQ",
         "PVGL:PRAGRE GJC",
         "ANZR:GRFG",
@@ -174,7 +174,7 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "FALQRE911:NHGBVA>ERFPHR - NHGB NPPVQRAG/ VAWHEL 16286 EBHGR 104 PRAGRE GJC Znc:6 Tevqf:, Pnq: 2013-0000000363",
-        "PNYY:ERFPHR - NHGB NPPVQRAG/VAWHEL",
+        "PNYY:ERFPHR - NHGB NPPVQRAG/ VAWHEL",
         "NQQE:16286 EBHGR 104",
         "PVGL:PRAGRE GJC",
         "ZNC:6",
@@ -203,7 +203,7 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(NHGBVA>ERFPHR - NHGB NPPVQRAG/ VAWHEL) FALQRE911:1 QBPX UVYY EQ KF: EBHGR 522 SENAXYVA GJC ORAQRE, RGUNA 5705415970 Znc:11,25 Tevqf:, Pnq: 2012-0000011433",
-        "PNYY:ERFPHR - NHGB NPPVQRAG/VAWHEL",
+        "PNYY:ERFPHR - NHGB NPPVQRAG/ VAWHEL",
         "NQQE:1 QBPX UVYY EQ",
         "PVGL:SENAXYVA GJC",
         "K:EBHGR 522",
@@ -246,7 +246,7 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "(NHGBVA>ERFPHR - NHGB NPPVQRAG/ VAWHEL) FALQRE911:13000OYX EBHGR 522 SENAXYVA GJC OHEYBHTU, QNAVRY 5708379297 Znc:11 Tevqf:, Pnq: 2012-0000011404",
-        "PNYY:ERFPHR - NHGB NPPVQRAG/VAWHEL",
+        "PNYY:ERFPHR - NHGB NPPVQRAG/ VAWHEL",
         "NQQE:13000OYX EBHGR 522",
         "ZNQQE:13000 EBHGR 522",
         "PVGL:SENAXYVA GJC",
@@ -342,7 +342,7 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "(NHGBVA>ERFPHR - NHGB NPPVQRAG/ VAWHEL) FALQRE911:13000OYX EBHGR 522 SENAXYVA GJC OHEYBHTU, QNAVRY 5708379297 Znc:11 Tevqf:, Pnq: 2012-0000011404",
-        "PNYY:ERFPHR - NHGB NPPVQRAG/VAWHEL",
+        "PNYY:ERFPHR - NHGB NPPVQRAG/ VAWHEL",
         "NQQE:13000OYX EBHGR 522",
         "ZNQQE:13000 EBHGR 522",
         "PVGL:SENAXYVA GJC",
@@ -417,7 +417,7 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(NHGBVA>ERFPHR - NHGB NPPVQRAG/ VAWHEL) FALQRE911:1 QBPX UVYY EQ KF: EBHGR 522 SENAXYVA GJC ORAQRE, RGUNA 5705415970 Znc:11,25 Tevqf:, Pnq: 2012-0000011433",
-        "PNYY:ERFPHR - NHGB NPPVQRAG/VAWHEL",
+        "PNYY:ERFPHR - NHGB NPPVQRAG/ VAWHEL",
         "NQQE:1 QBPX UVYY EQ",
         "PVGL:SENAXYVA GJC",
         "K:EBHGR 522",
@@ -428,7 +428,7 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "(NHGBVA>ERFPHR - NHGB NPPVQRAG/ VAWHEL) FALQRE911:13000OYX EBHGR 522 SENAXYVA GJC OHEYBHTU, QNAVRY 5708379297 Znc:11 Tevqf:, Pnq: 2012-0000011404",
-        "PNYY:ERFPHR - NHGB NPPVQRAG/VAWHEL",
+        "PNYY:ERFPHR - NHGB NPPVQRAG/ VAWHEL",
         "NQQE:13000OYX EBHGR 522",
         "ZNQQE:13000 EBHGR 522",
         "PVGL:SENAXYVA GJC",
@@ -467,7 +467,7 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G6",
         "(NHGBVA>ERFPHR - NHGB NPPVQRAG/ VAWHEL) FALQRE911:2000OYX WBARF UVYY EQ JNFUVATGBA GJC OEBHFR, XUNYVR 5705418066 Znc:12 Tevqf:, Pnq: 2012-0000011106",
-        "PNYY:ERFPHR - NHGB NPPVQRAG/VAWHEL",
+        "PNYY:ERFPHR - NHGB NPPVQRAG/ VAWHEL",
         "NQQE:2000OYX WBARF UVYY EQ",
         "ZNQQE:2000 WBARF UVYY EQ",  // Abg znccvat
         "PVGL:JNFUVATGBA GJC",
@@ -478,7 +478,7 @@ choyvp pynff CNFalqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G7",
         "(NHGBVA>ERFPHR - NHGB NPPVQRAG/ VAWHEL) FALQRE911:7415 EBHGR 104 KF: FGHPX EQ CREEL GJC YRVGMRY, XRIVA 5707656168 Znc:17 Tevqf:, Pnq: 2012-0000011105",
-        "PNYY:ERFPHR - NHGB NPPVQRAG/VAWHEL",
+        "PNYY:ERFPHR - NHGB NPPVQRAG/ VAWHEL",
         "NQQE:7415 EBHGR 104",
         "PVGL:CREEL GJC",
         "K:FGHPX EQ",

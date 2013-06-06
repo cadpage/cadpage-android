@@ -75,7 +75,7 @@ choyvp pynff INUraelPbhaglCnefreByqGrfg rkgraqf OnfrCnefreGrfg {
         "(PNQ Pnyy) 2010095255\aZBGBE IRUVPYR PENFU\aURAEL PBHAGL CYLJBBQ PB. 1580 CUBFCUB FCEVATF EQ EVQTRJNL",
         "VQ:2010095255",
         "PNYY:ZBGBE IRUVPYR PENFU",
-        "CYNPR:URAEL PBHAGL CYLJBBQ PB",
+        "CYNPR:URAEL PBHAGL CYLJBBQ PB.",
         "NQQE:1580 CUBFCUB FCEVATF EQ",
         "PVGL:EVQTRJNL");
     
@@ -131,6 +131,6 @@ choyvp pynff INUraelPbhaglCnefreByqGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj INUraelPbhaglCnefreByqGrfg().trarengrGrfgf("G12", "VQ PNYY CYNPR NQQE PVGL VASB");
+    arj INUraelPbhaglCnefreByqGrfg().trarengrGrfgf("G1");
   }
 }

@@ -27,7 +27,7 @@ choyvp pynff TrarenFynfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZOHYNAPR",
         "NQQE:208 A 12 FG",
         "K:FGNGR FG & CNEX FG",
-        "VASB:ZRQVPNY NFFBPVNGRF BS ORYYRIHR  ORYYRIHR",
+        "VASB:ZRQVPNY NFFBPVNGRF BS ORYYRIHR ORYYRIHR",
         "HAVG:ORN1");
 
   }

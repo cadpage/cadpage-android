@@ -556,7 +556,7 @@ choyvp pynff ZQNaarNehaqryPbhaglRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G16",
         "Ybpny Obk 23-4 133 OBBAR GEY R171 PB QRG./AB VAWHEVRF (PBYQ); 1159 PB [4/186] \a",
         "OBK:23-4",
-        "PNYY:PB QRG / AB VAWHEVRF (PBYQ)",
+        "PNYY:PB QRG./AB VAWHEVRF (PBYQ)",
         "NQQE:133 OBBAR GEY",
         "HAVG:R171",
         "GVZR:11:59",
@@ -1025,7 +1025,7 @@ choyvp pynff ZQNaarNehaqryPbhaglRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Zrqvpny Obk 40-84 V97 A/EG50 J CZ35,R402,R5 ZIP; 1325 [9/101] ",
         "OBK:40-84",
         "PNYY:ZIP",
-        "NQQE:V-97 A & EG50 J",
+        "NQQE:V97 A & EG50 J",
         "ZNQQE:V 97 A & EG 50 J",
         "HAVG:CZ35,R402,R5",
         "GVZR:13:25");
@@ -1034,7 +1034,7 @@ choyvp pynff ZQNaarNehaqryPbhaglRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Zrqvpny Obk 40-84 V97 A/EG50 J ZH40,R402,R5 ZIP; 0909 [5/97] ",
         "OBK:40-84",
         "PNYY:ZIP",
-        "NQQE:V-97 A & EG50 J",
+        "NQQE:V97 A & EG50 J",
         "ZNQQE:V 97 A & EG 50 J",
         "HAVG:ZH40,R402,R5",
         "GVZR:09:09");
@@ -1051,7 +1051,7 @@ choyvp pynff ZQNaarNehaqryPbhaglRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Zrqvpny Obk 40-84 V97 A/PEBJAFIVYYR EQ CZ5,R402,R5 ZIP; FVYIRE PNE UVG QRRE  0639 [2/94] ",
         "OBK:40-84",
         "PNYY:ZIP; FVYIRE PNE UVG QRRE",
-        "NQQE:V-97 A & PEBJAFIVYYR EQ",
+        "NQQE:V97 A & PEBJAFIVYYR EQ",
         "ZNQQE:V 97 A & PEBJAFIVYYR EQ",
         "HAVG:CZ5,R402,R5",
         "GVZR:06:39");
@@ -1089,16 +1089,16 @@ choyvp pynff ZQNaarNehaqryPbhaglRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G44",
         "Zrqvpny Obk 5-82 V97 F/PEBJAFIVYYR RKVG ZH40,R5,R3 ZIP; 1609 [14/87] ",
         "OBK:5-82",
-        "PNYY:PEBJAFIVYYR RKVG ZH40,R5,R3 ZIP",
-        "NQQE:V-97 F",
-        "ZNQQE:V 97 F",
-        "HAVG:/",
+        "PNYY:ZIP",
+        "NQQE:V97 F & PEBJAFIVYYR RKVG",
+        "ZNQQE:V 97 F & PEBJAFIVYYR RKVG",
+        "HAVG:ZH40,R5,R3",
         "GVZR:16:09");
 
     qbGrfg("G45",
         "Zrqvpny Obk 40-24 TRARENYF UJL/ORFGTNGR EQ R402,ZH39 ZIP; &PURFG CNVA  1341 [10/83] ",
         "OBK:40-24",
-        "PNYY:ZIP; & PURFG CNVA",
+        "PNYY:ZIP; &PURFG CNVA",
         "NQQE:TRARENYF UJL & ORFGTNGR EQ",
         "HAVG:R402,ZH39",
         "GVZR:13:41");

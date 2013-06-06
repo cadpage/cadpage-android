@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE
-     = Cnggrea.pbzcvyr("[ /](\\q{3}-\\q{3}-\\q{4})$");
+    = Cnggrea.pbzcvyr(" +(?:\\q{1,2}-[N-M]\\q{1,2}|\\q{5}|[N-M0-9]+,[N-M0-9]+) +");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("GVPXYR ERF 610-255-4016");
+    qbGrfg("552 TERRAUVYY PG 21012 N19,R17 URZBEEUNTR; 0340 NS L>BGU");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

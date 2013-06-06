@@ -1293,7 +1293,7 @@ choyvp pynff ZQUbjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:SERQREVPX EQ & PNEEF ZVYY EQ",  // Abg znccvat
         "PNYY:ERFPHR-GENCCRQ",
         "GVZR:14:52:27",
-        "VASB:3 C1'F NYY PNG N' f - 1 GENCCRQ BSS EBNQ JNL - NIVNGVBA ERDHRFGRQ 3K - BCF O1");
+        "VASB:3 C1'F NYY PNG. N' f - 1 GENCCRQ BSS EBNQ JNL - NIVNGVBA ERDHRFGRQ 3K - BCF O1");
 
     qbGrfg("G2",
         "\a-------------------------------------------\a" +

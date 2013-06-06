@@ -52,7 +52,7 @@ choyvp pynff APYrabvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G4",
         "GENSSVP NP 29 - GENSSVP / GENAFCBEGNGVBA NPPVQRAGF SREERY EQ & UJL 11 ABEGU TEVSGBA",
         "PBQR:29",
-        "PNYY:GENSSVP/GENAFCBEGNGVBA NPPVQRAGF",
+        "PNYY:GENSSVP / GENAFCBEGNGVBA NPPVQRAGF",
         "NQQE:SREERY EQ & UJL 11",  // Abg znccvat
         "PVGL:ABEGU TEVSGBA");
 

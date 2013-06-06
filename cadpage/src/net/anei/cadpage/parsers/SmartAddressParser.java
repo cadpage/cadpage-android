@@ -304,7 +304,8 @@ public abstract class SmartAddressParser extends MsgParser {
         "CUTOFF",
         "RCH", "REACH",
         "ARCH",
-        "MNR");
+        "MNR",
+        "BYPASS", "BYP");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
     setupDictionary(ID_AMBIG_ROAD_SFX, 
@@ -330,8 +331,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
     setupDictionary(ID_AT_MARKER, "@", "AT");
     
-    // C/S should be in this list, but it gets changed before we parse stuff
-    setupDictionary(ID_CROSS_STREET, "XS:", "X:");
+    setupDictionary(ID_CROSS_STREET, "XS:", "X:", "C/S:", "C/S");
     setupDictionary(ID_NEAR, "NEAR", "ACROSS");
     setupDictionary(ID_APPT, "APT:", "APT", "APTS", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT");
     setupDictionary(ID_STREET_NAME_PREFIX, "LAKE", "MT", "MOUNT", "SUNKEN");
@@ -457,10 +457,11 @@ public abstract class SmartAddressParser extends MsgParser {
   private int flags;
   private String[] tokens;
   private int[] tokenType;
+  private int[] tokenPos;
   private int startAddress = -1;
   private int lastCity = -1;
   private int startNdx = 0;
-//  private Result result = null;
+  private String saveAddress;
   
   // Have to save last result for backward compatibility with some calls
   private Result lastResult = null;
@@ -572,7 +573,41 @@ public abstract class SmartAddressParser extends MsgParser {
    * @return integer indicating how good this address is, higher number mean better fit
    */
   protected Result parseAddress(StartType sType, int flags, String address) {
+    address = address.trim();
     Result result = parseAddressInternal(sType, flags, address);
+    
+    result.startFldNoDelim = isFlagSet(FLAG_START_FLD_NO_DELIM);
+    
+    // Now is where we use the result to compute the true prefix and leftover segments
+    result.stdPrefix = "";
+    result.left = "";
+    result.mBlankLeft = false;
+    
+    if (result.startField != null) {
+      
+      // If prefix ends with some variation of "REPORTED AT" drop the 
+      // REPORTED (AT has already been dropped)
+      int tmp = result.startField.fldEnd;
+      if (tmp > 0 && isAtSign(tmp) && tokens[tmp-1].equalsIgnoreCase("REPORTED")) tmp--;
+      
+      if (tmp > 0) {
+        if (tmp >= tokenPos.length) {
+          result.stdPrefix = saveAddress;
+        } else {
+          result.stdPrefix = saveAddress.substring(0,tokenPos[tmp]).trim();
+        }
+      }
+    }
+    
+    if (result.endAll >= 0 && result.endAll < tokenPos.length) {
+      int tmp = result.endAll;
+      while (tmp < tokens.length && tokens[tmp].equals(",")) tmp++;
+      if (tmp < tokenPos.length){ 
+        int pt = tokenPos[tmp];
+        result.mBlankLeft = (pt >= 2 && saveAddress.substring(pt-2, pt).equals("  "));
+        result.left = saveAddress.substring(pt);
+      }
+    }
     
     // If we were really parsing cross streets, switch address index to cross street index
     if (isFlagSet(FLAG_ONLY_CROSS)) {
@@ -582,7 +617,6 @@ public abstract class SmartAddressParser extends MsgParser {
     return result;
   }
   
-  private static final Pattern DOT_PATTERN = Pattern.compile("\\.(?!\\d)");
   private static final Pattern ADDR_START_PTN = Pattern.compile("^(?:@|AT |REPORTED AT )", Pattern.CASE_INSENSITIVE);
   private Result parseAddressInternal(StartType sType, int flags, String address) {
     this.flags = flags;
@@ -611,48 +645,30 @@ public abstract class SmartAddressParser extends MsgParser {
 
     // Save the result address type
     result.startType = sType;
+
+    // Check for null string
+    result.status = 0;
+    address = address.trim();
+    if (address.length() == 0) return result;
     
     // Before we do anything else, see if we can find some GPS coordinates
     // in this address.  If we do find them, they will need to be protected
     // from being broken into separate tokens
     String gpsCoords = null;
     Matcher match = MsgParser.GPS_PATTERN.matcher(address);
-    if (match.find()) gpsCoords = match.group(); 
-
-    // We have a lot of pre parsing adjustments that must be made to normal
-    // address strings, but get skipped if we have already identified this
-    // as a GSP coordinate address
-    else {
-      
-      // Make sure any / or & character will parse by itself
-      // Before we do that we have to protect the C/S cross street indicator
-      // Another disaster that needs to be prevented is breaking up AT&T into
-      // AT and an &
-      // Ditto for 1/2
-      if (!onlyCity) address = stripLeadingZero(address);
-      boolean att = address.contains("AT&T");
-      if (att) address = address.replaceAll("AT&T", "AT%T");
-      boolean half = address.contains("1/2");
-      if (half) address = address.replaceAll("1/2", "1%2");
-      address = address.replaceAll(" C/S:? ", " XS: ").replaceAll("/+", " / ").replace("&", " & ").trim();
-      if (att) address = address.replaceAll("AT%T", "AT&T");
-      if (half) address = address.replaceAll("1%2", "1/2");
-      
-      // Make sure any colon keyword parsers by itself
-      address = address.replaceAll(":", ": ");
-      
-      // Periods used with abbreviations also cause trouble.  Just get rid of all periods
-      // Except for periods followed by a digit which are presumably decimal points
-      address = DOT_PATTERN.matcher(address).replaceAll(" ");
-    }
-
-    // Check for null string
-    result.status = 0;
-    address = address.trim();
-    if (address.length() == 0) return result;
+    if (match.find()) gpsCoords = match.group();
+    
+    // Strip leading zeros from starting numeric tokens
+    if (!onlyCity) address = stripLeadingZero(address);
 
     // Set up token list and types
     setTokenTypes(sType, address, gpsCoords, result);
+    
+    // Null token list should return total failure status
+    if (tokens.length == 0) {
+      result.status = 0;
+      return result;
+    }
     
     // If we are looking for a city and nothing else, parseToCity can find it
     // If the city has to start and end the field, check that that start index is zero
@@ -714,6 +730,14 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public String getLeft() {
     return lastResult.getLeft();
+  }
+
+  /**
+   * Called after address has been parsed
+   * @return the part of the line after the address
+   */
+  public boolean isMBlankLeft() {
+    return lastResult.isMBlankLeft();
   }
   
   /**
@@ -1428,7 +1452,9 @@ public abstract class SmartAddressParser extends MsgParser {
     for (int ndx = srcNdx; ndx < tokens.length; ndx++) {
       
       // Is there a city here?
-      int endCity = findEndCity(ndx);
+      int tmpNdx = ndx;
+      if (isComma(tmpNdx)) tmpNdx++;
+      int endCity = findEndCity(tmpNdx);
       if (endCity >= 0) {
         if (!anchorEnd || endCity == tokens.length) {
           lastField.end(ndx);
@@ -1439,7 +1465,7 @@ public abstract class SmartAddressParser extends MsgParser {
           }
           if (crossField != null) result.crossField = crossField;
           if (nearField != null) result.nearField = nearField;
-          result.cityField = new FieldSpec(ndx, endCity);
+          result.cityField = new FieldSpec(tmpNdx, endCity);
           result.endAll = endCity;
           if (fldSpec != null) fldSpec.end(startField.fldEnd);
           
@@ -1460,8 +1486,6 @@ public abstract class SmartAddressParser extends MsgParser {
       // Only check for fun stuff if it isn't inside a pad field
       if (!padField) {
         
-        if (isType(ndx, ID_NOT_ADDRESS)) return false;
-        
         // Check for place name
         if (flexAt && placeField == null) {
           if (isAtSign(ndx)) {
@@ -1478,17 +1502,20 @@ public abstract class SmartAddressParser extends MsgParser {
 
         // Check for apartment marker
           if (aptField == null) {
-            if (isType(ndx, ID_APPT)) {
+            tmpNdx = ndx;
+            if (isComma(ndx) && ndx+1 < tokens.length) tmpNdx++;
+            if (isType(tmpNdx, ID_APPT)) {
               lastField.end(ndx);
+              ndx = tmpNdx;
               lastField = aptField = new FieldSpec(ndx+1);
             }
-            else if (isAptToken(tokens[ndx], false)) {
+            else if (isAptToken(tokens[tmpNdx], false)) {
               aptToken = true;
               lastField.end(ndx);
+              ndx = tmpNdx;
               lastField = aptField = new FieldSpec(ndx);
             }
           }
-          
           
           // Check for cross street marker
           if (crossField == null && isType(ndx, ID_CROSS_STREET)) {
@@ -1501,6 +1528,8 @@ public abstract class SmartAddressParser extends MsgParser {
             lastField = nearField = new FieldSpec(ndx);
           }
         }
+        
+        if (isType(ndx, ID_NOT_ADDRESS)) return false;
       }
     }
     
@@ -1605,15 +1634,19 @@ public abstract class SmartAddressParser extends MsgParser {
     }
     
     // First lets look for an apartment
-    if (isType(result.endAll, ID_APPT)) {
-      if (++result.endAll < tokens.length) {
-        result.aptField = new FieldSpec(result.endAll, ++result.endAll);
+    int ndx = result.endAll;
+    if (isComma(ndx)) ndx++;
+    if (isType(ndx, ID_APPT)) {
+      if (++ndx < tokens.length) {
+        result.aptField = new FieldSpec(ndx, ++ndx);
+        result.endAll = ndx;
       }
     }
     
-    else if (isAptToken(result.endAll)) {
+    else if (isAptToken(ndx)) {
       result.aptToken = true;
-      result.aptField = new FieldSpec(result.endAll, ++result.endAll);
+      result.aptField = new FieldSpec(ndx, ++ndx);
+      result.endAll = ndx;
     }
     
     // Now see if we are at a cross street indicator.  If not, nothing to find
@@ -1797,20 +1830,64 @@ public abstract class SmartAddressParser extends MsgParser {
     lastCity = -1;
     startNdx = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
     
-    // GPS Coordinates can now contain blanks, which we need to go to some trouble
+    // A lot of special constructs need to be protected.  Which we will accomplish
+    // by creating a second version of the address line that will be used to
+    // identify the token positions with the line.  While the original address line
+    // will be used to actually extract the token values
+    String searchAddress = address;
+    
+    // GPS Coordinates can now contain blanks or colons, which we need to go to some trouble
     // to temporarily replace so they do not result in the coordinates being broken up
-    String altGPSCoords = null;
-    if (gpsCoords != null && gpsCoords.contains(" ")) {
-      altGPSCoords = gpsCoords.replace(' ', '~');
-      address = address.replace(gpsCoords, altGPSCoords);
+    if (gpsCoords != null) {
+      String altGPSCoords = gpsCoords.replaceAll(".", "~");
+      searchAddress = searchAddress.replace(gpsCoords, altGPSCoords);
     }
-    tokens = address.trim().split("\\s+");
-    if (altGPSCoords != null) {
-      for (int ndx = 0; ndx < tokens.length; ndx++) {
-        tokens[ndx] = tokens[ndx].replace(altGPSCoords, gpsCoords);
+    
+    // The field delimiter pattern we use will break tokens before and after any / or & 
+    // characters.  But there are some special constructs that we do not want broken up.
+    // These need to be protected
+    searchAddress = searchAddress.replace("AT&T", "AT%T");
+    searchAddress = searchAddress.replace("1/2", "1%2");
+    searchAddress = searchAddress.replace(" C/S:", " C%S:");
+    searchAddress = searchAddress.replace(" C/S ", " C%S ");
+
+    // Now scan through the protected address line using the field token
+    // delimiter pattern to identify the start and end of each token
+    // Despite our best effort, there are case where the pattern may detect
+    // back to back delimiters and we have to take steps to prevent that 
+    // from producing zero length tokens
+    List<Integer> tokenStartList = new ArrayList<Integer>();
+    List<Integer> tokenEndList = new ArrayList<Integer>();
+    Matcher match = TOKEN_DELIM_PTN.matcher(searchAddress);
+    int lastEnd = 0;
+    while (match.find()) {
+      int st = match.start();
+      int end = match.end();
+      if (st > lastEnd) {
+        tokenStartList.add(lastEnd);
+        tokenEndList.add(st);
       }
+      lastEnd = end;
     }
+    if (lastEnd < address.length()) {
+      tokenStartList.add(lastEnd);
+      tokenEndList.add(address.length());
+    }
+    
+    int cnt = tokenStartList.size();
+    tokenPos = new int[cnt];
+    tokens = new String[cnt];
+    for (int ndx = 0; ndx < cnt; ndx++) {
+      int st = tokenStartList.get(ndx);
+      tokenPos[ndx] = st;
+      tokens[ndx] = address.substring(st, tokenEndList.get(ndx));
+    }
+    
     result.tokens = tokens;
+    
+    // Save the original address
+    // When parsing is finished, we will use this to calculate the true prefix and leftover segments
+    saveAddress = address;
     
     tokenType = new int[tokens.length];
     boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
@@ -1839,6 +1916,13 @@ public abstract class SmartAddressParser extends MsgParser {
       if (isType(ndx, ID_CITY)) lastCity = ndx;
     }
   }
+  // Token delimiter pattern should find field breaks
+  // 1) for any sequence of one or more blanks
+  // 2) Before or after any & or / or comma
+  // 3) After any :
+  // 4) For any period not followed by a space
+  private static final Pattern TOKEN_DELIM_PTN = 
+      Pattern.compile("\\.?(?:\\s+|(?<! )(?=[/&,])|(?<=[/&,:])(?! )|(?<=\\.)(?![ \\d])|,)");
 
   // Identify token type
   private static final Pattern BAD_CHARS = Pattern.compile("[\\(\\)\\[\\],]");
@@ -1917,6 +2001,11 @@ public abstract class SmartAddressParser extends MsgParser {
     if (! isType(ndx, ID_AT_MARKER)) return false;
     if (!isFlagSet(FLAG_AT_SIGN_ONLY)) return true;
     return tokens[ndx].equals("@");
+  }
+  
+  private boolean isComma(int ndx) {
+    if (ndx >= tokens.length) return false;
+    return tokens[ndx].equals(",");
   }
   
   private boolean isType(int ndx, int mask) {
@@ -2211,6 +2300,7 @@ public abstract class SmartAddressParser extends MsgParser {
     private StartType startType;
     private int status = -1;
     private String callPrefix = null;
+    private String stdPrefix = null;
     private FieldSpec startField = null;
     private FieldSpec addressField = null;
     private FieldSpec placeField = null;
@@ -2223,6 +2313,10 @@ public abstract class SmartAddressParser extends MsgParser {
     private int insertAmp = -1;
     int endAll = -1;
     private Result nearResult = null;
+    
+    private String left = null;
+    private boolean mBlankLeft = false;
+    boolean startFldNoDelim = false;
     
     public void reset() {
       if (startAddress < 0) startField.end(-1);
@@ -2274,18 +2368,13 @@ public abstract class SmartAddressParser extends MsgParser {
         if (cityCodes != null) data.strCity = convertCodes(data.strCity, cityCodes);
       }
       
-      // If prefix ends with some variation of "REPORTED AT" drop the 
-      // REPORTED (AT has already been dropped)
-      if (startField != null && startField.fldEnd > 0 && isAtSign(startField.fldEnd) &&
-          tokens[startField.fldEnd-1].equalsIgnoreCase("REPORTED")) startField.fldEnd--;
-      
       // Before we figure out with to do with the leading start field, see if some of it
       // should be stripped off and added to the address
       // If result status indicates that we did not find a street number, check the start
       // field for any trailing digits.  If we find any, strip them off and prepend them to
       // the address field
-      String startFld = buildData(startField, 0);
-      if (isFlagSet(FLAG_START_FLD_NO_DELIM) && status < 3) {
+      String startFld = stdPrefix;
+      if (startFldNoDelim && status < 3) {
         int pt = startFld.length();
         while (pt > 0 && Character.isDigit(startFld.charAt(pt-1))) pt--;
         if (pt < startFld.length()) {
@@ -2298,12 +2387,10 @@ public abstract class SmartAddressParser extends MsgParser {
       switch (startType) {
       case START_CALL:
       case START_CALL_PLACE:
-        data.strCall = append(data.strCall, " / ", startFld.replaceAll(" / ", "/"));
+        data.strCall = append(data.strCall, " / ", startFld);
         break;
       case START_PLACE:
-        if (data.strPlace.length() == 0) {
-          data.strPlace = startFld.replaceAll(" / ", "/");
-        }
+        if (data.strPlace.length() == 0) data.strPlace = startFld;
         break;
       }
       
@@ -2363,8 +2450,17 @@ public abstract class SmartAddressParser extends MsgParser {
      */
     public String getLeft() {
       if (nearResult != null) return nearResult.getLeft();
-      if (endAll < 0) return "";
-      return buildData(endAll, tokens.length, 0);
+      return left;
+    }
+    
+    /**
+     * Determine there were multiple blanks directly in front of the string
+     * returned by getLeft()
+     * @return true if there were multiple blanks before the getLeft() result
+     */
+    public boolean isMBlankLeft() {
+      if (nearResult != null) return nearResult.isMBlankLeft();
+      return mBlankLeft;
     }
     
     /**
@@ -2408,11 +2504,21 @@ public abstract class SmartAddressParser extends MsgParser {
       
       StringBuilder sb = new StringBuilder();
       for (int ndx = start; ndx < end; ndx++) {
-        if (ndx != start) sb.append(' ');
+        
+        // Comma is a special case.  Skip if first token in sequence
+        // otherwise inhibit the usual blank placed between it and the
+        // previous token
+        String token = tokens[ndx];
+        if (token.equals(",")) {
+          if (ndx == start) continue;
+        } else {
+          if (sb.length() > 0) sb.append(' ');
+        }
+        
+        // Insert & if required
         if (ndx == insertAmp) {
           sb.append(new String[]{"", "/ ", "& "}[addrCode]);
         }
-        String token = tokens[ndx];
         if (addrCode>1 && token.equals("/")) token = "&";
         sb.append(token);
       }
