@@ -5,17 +5,17 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
+import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
 
 /**
  * Hampshire County, WV
  */
-public class WVHampshireCountyParser extends DispatchB2Parser {
+public class WVHampshireCountyParser extends DispatchB3Parser {
   
   private static final Pattern COUNTY_PTN = Pattern.compile("^(HARDY|FRED|FREDERICK|MINERAL|ALLEGANY|MORGAN) ", Pattern.CASE_INSENSITIVE);
 
   public WVHampshireCountyParser() {
-    super(CITY_LIST, "HAMPSHIRE COUNTY", "WV");
+    super("HAMPSHIRE911:", CITY_LIST, "HAMPSHIRE COUNTY", "WV");
     setupCallList((CodeSet)null);
   }
   
@@ -26,10 +26,7 @@ public class WVHampshireCountyParser extends DispatchB2Parser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (subject.length() == 0) return false;
-    if (!body.startsWith("HAMPSHIRE911:")) return false;
-    body = subject + " @ " + body.substring(13).trim();
-    if (!super.parseMsg(body, data)) return false;
+    if (!super.parseMsg(subject, body, data)) return false;
     
     // SO far, so good
     // Now for some special corrective measures to take if the
@@ -156,7 +153,5 @@ public class WVHampshireCountyParser extends DispatchB2Parser {
     
     // Mineral County
     "BURLINGTON",
-    
-    
   };
 }

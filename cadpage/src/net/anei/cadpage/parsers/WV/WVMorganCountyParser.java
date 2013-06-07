@@ -1,23 +1,20 @@
 package net.anei.cadpage.parsers.WV;
 
 import java.util.Properties;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchBParser;
+import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
 
 /**
  * Hampshire County, WV
  */
-public class WVMorganCountyParser extends DispatchBParser {
+public class WVMorganCountyParser extends DispatchB3Parser {
   
   private static final Pattern MARKER = Pattern.compile("^\\d+:MORGANCO911@FRONTIER.COM:");
 
   public WVMorganCountyParser() {
-    super(CITY_CODES, "MORGAN COUNTY", "WV");
-    setupCallList((CodeSet)null);
+    super(MARKER, CITY_CODES, "MORGAN COUNTY", "WV");
   }
   
   @Override
@@ -39,12 +36,8 @@ public class WVMorganCountyParser extends DispatchBParser {
       body = body.substring(pt+1).trim();
       if (subject.length() == 0) return false;
     }
-    
-    Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    body = body.substring(match.end()).trim();
-    body = subject + " @ " + body.replace('\n', ' ');
-    return super.parseMsg(body, data);
+    body = body.replace('\n', ' ');
+    return super.parseMsg(subject, body, data);
   }
   
   @Override

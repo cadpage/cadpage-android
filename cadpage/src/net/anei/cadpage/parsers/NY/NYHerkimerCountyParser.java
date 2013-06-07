@@ -13,7 +13,7 @@ public class NYHerkimerCountyParser extends DispatchB3Parser {
   private static final Pattern CITY_SUFFIX = Pattern.compile("^VILLAGE\\b", Pattern.CASE_INSENSITIVE);
   
   public NYHerkimerCountyParser() {
-    super("", CITY_LIST, "HERKIMER COUNTY", "NY");
+    super(CITY_LIST, "HERKIMER COUNTY", "NY");
   }
   
   @Override
@@ -38,22 +38,6 @@ public class NYHerkimerCountyParser extends DispatchB3Parser {
     if (match.find()) data.strName = data.strName.substring(match.end()).trim();
     return true;
   }
-//  
-//  @Override
-//  public boolean parseAddrField(String line, Data data) {
-//    if (line.length() < 10) return false;
-//    if (line.charAt(0) == '(') {
-//      int pt = line.indexOf(')');
-//      if (pt < 0) return false;
-//      data.strCall = line.substring(1, pt);
-//      data.strCall = data.strCall.replaceAll("\\s+>", ">");
-//      line = line.substring(pt+1).trim();
-//    }
-//    
-//    // Call smart parser for rest of it
-//    parseAddress(StartType.START_ADDR, line, data);
-//    return true;
-//  }
   
   private static final String[] CITY_LIST = new String[]{  
     "DEERFIELD", 

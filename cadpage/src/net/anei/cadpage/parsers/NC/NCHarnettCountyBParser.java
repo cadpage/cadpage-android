@@ -13,7 +13,7 @@ public class NCHarnettCountyBParser extends DispatchSouthernParser {
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("\\b\\d{1,2}:\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d\\d\\b|\\bGINO\\(EN\\)");
   
   public NCHarnettCountyBParser() {
-    super(NCHarnettCountyParser.CITY_LIST, "HAYWOOD COUNTY", "NC", 
+    super(NCHarnettCountyParser.CITY_LIST, "HARNETT COUNTY", "NC", 
            DSFLAG_OPT_DISPATCH_ID | DSFLAG_LEAD_PLACE | DSFLAG_CROSS_NAME_PHONE | DSFLAG_ID_OPTIONAL);
   }
 

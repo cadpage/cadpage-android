@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -29,6 +30,10 @@ public class DispatchB2Parser extends DispatchBParser {
   public DispatchB2Parser(String[] cityList, String defCity, String defState) {
     this(null, cityList, defCity, defState);
   }
+
+  public DispatchB2Parser(Properties cityCodes, String defCity, String defState) {
+    this(null, cityCodes, defCity, defState);
+  }
   
   public DispatchB2Parser(int version, String[] cityList, String defCity, String defState) {
     super(version, cityList, defCity, defState);
@@ -40,6 +45,11 @@ public class DispatchB2Parser extends DispatchBParser {
 
   public DispatchB2Parser(String prefix, String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
+    this.prefix = prefix;
+  }
+
+  public DispatchB2Parser(String prefix, Properties cityCodes, String defCity, String defState) {
+    super(cityCodes, defCity, defState);
     this.prefix = prefix;
   }
   
