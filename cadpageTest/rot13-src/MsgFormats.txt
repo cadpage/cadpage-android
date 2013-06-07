@@ -422,7 +422,6 @@ Urexvzre Pbhagl, AL (ALUrexvzrePbhaglCnefre)
 Xrefunj Pbhagl, FP (FPXrefunjPbhaglCnefre)
 (1070  >SVER) XREFUNJPBHAGL911:CVAR XABG EQ YHTBSS OYRQFBR, PBERL 8037196921 Znc: Tevqf:00000,000 Pnq: 2013-0000035340
 (1052  >NZOHYNAPR ARRQRQ) XREFUNJPBHAGL911:416 FNAQJBBQ QE Ncg: N Oyqt YHTBSS PEVZZ, XNGUL 8033157568 Znc:308 Tevqf:00000,000 Pnq: 2013-0000034713
-(1070J >JBBQF, OEHFU,) XREFUNJPBHAGL911:334 PBBX EQ YHTBSS WRAXVAF, ZRYBAVR 8038999412 Znc: Tevqf:00000,000 Pnq: 2013-0000035603
 *******************************************************************************
 Unzcfuver Pbhagl, JI (JIUnzcfuverPbhaglCnefre)
 (RFBO  >FUBEGARFF BS OERNGU) UNZCFUVER911:422 J EVQTR YBBC EQ EBZARL CLYRF, EBA R Pnq: 2012-0000010516
@@ -2033,6 +2032,11 @@ Ybhvfivyyr, XL (XLYbhvfivyyrCnefre)
 (VCF V/Cntr Abgvsvpngvba) Ybpngvba: F 4GU FG/J BNX FG YIVY GLCR PBQR: 12Q02 FHO GLCR: qrsnhyg GVZR: 13:37:05 Pbzzragf:  FRVMHER CebDN qvfcngpu pbqr: 12Q02 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub unf unq n frvmher. Gur cngvrag vf n 49-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. PBAGVAHBHF be ZHYGVCYR frvmherf. PBAGVAHBHF be ZHYGVCYR frvmherf. 49-50 LBS TEA FUVEG, OYX WNPXRG, GNA CNAGF, NG OHF FGBC WHFG PBZVAT BHG BS FRVMHER, ABG NYREG 2081-1/PURFGAHG 
 (VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4320 GHYVC TEBIR PG YIVY GLCR PBQR: 28P04K FHO GLCR: qrsnhyg GVZR: 11:04:46 Pbzzragf:  QVMML CebDN qvfcngpu pbqr: 31P02 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub vf hapbafpvbhf (be unf snvagrq). Gur cngvrag vf n 75-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. Snvagvat rcvfbqr(f) naq nyreg => 35 (jvgu pneqvnp uvfgbel). Snvagvat rcvfbqr(f) naq nyreg => 35 (jvgu pneqvnp uvfgbel). -Pbzzragf: INYIR ERCYNPRZRAG 1 LE NTB- SRRYVAT SNVAG, QVMML, AHZOARFF VA UVF GBATHR NAQ YVCF XB NAPU 
 (VCF V/Cntr Abgvsvpngvba) Ybpngvba: WHARNH QE/FURYOLIVYYR EQ ZGJA GLCR PBQR: 31N01 FHO GLCR: qrsnhyg GVZR: 10:05:30 Pbzzragf:  SRZNYR SRYY CebDN qvfcngpu pbqr: 31N01 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub vf hapbafpvbhf (be unf snvagrq). Gur cngvrag vf n 58-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. Snvagvat rcvfbqr(f) naq nyreg => 35 (jvgubhg pneqvnp uvfgbel). Snvagvat rcvfbqr(f) naq nyreg => 35 (jvgubhg pneqvnp uvfgbel). NG ZPQBANYQF BA GUR FVQR VF FVGGVAT VA URE IRU ZREPRQRF 
+***************************************************************************
+Xabk Pbhagl, ZR (ZRXabkPbhaglCnefre)
+(XABK PBHAGL (ZR)) 449 vfynaq nir fgehpgher sver rkcybfvba va onfrzrag
+(XABK PBHAGL (ZR)) 19 onegre Uvyy Ebnq, Granagf Uneobe.  37 lb s sryy cbffvoyr oebxra xarr
+(XABK PBHAGL (ZR)) 210 xvaarl jbbqf eq 53 lb s qvss oernguvat
 ***************************************************************************
 Bksbeq Pbhagl, ZR (ZRBksbeqPbhaglCnefre)
 258:Qvfcngpu:20 fcehpr fg ehzsbeq... zrk sq 1 ratvar gb fpa fzbxr va ohvyq ercbeg
@@ -6030,22 +6034,6 @@ EP:0386-N/Eha#62086/PNYY:20:52/QVFC:20:53/RAE:20:53/NGF:20:55/VAP#:1213056157
 **********************************************************
 **********************************************************
 **********************************************************
-Xabk Pbhagl, ZR
-Pbagnpg: Evpuneq Ongrf <evpuneq.ongrf@fgtrbetr.zr>
-Fraqre: @xabkpbhaglznvar.tbi
-
-Gurl hfhnyyl sbyybj jvgu gur nqqerff
-Hfhnyyl jvgubhg gur gbja fcrpvsvrq, nygubhtu rknzcyr #2 fcrpvsvrf gur
-gbja bs Granagf Uneobe - fgevpgyl Granagf Uneobe vf cneg bs Fg. Trbetr
-- vg unf gur fnzr MVC pbqr
-
-Bppnfvbanyyl gur nqqerff pbzrf ng gur raq bs gur zrffntr - frr ynfg rknzcyr.
-
-(XABK PBHAGL (ZR)) 449 vfynaq nir fgehpgher sver rkcybfvba va onfrzrag
-(XABK PBHAGL (ZR)) 19 onegre Uvyy Ebnq, Granagf Uneobe.  37 lb s sryy cbffvoyr oebxra xarr
-(XABK PBHAGL (ZR)) 210 xvaarl jbbqf eq 53 lb s qvss oernguvat
-(XABK PBHAGL (ZR)) 86 Cbeg Pylqr Eq/ Nqirag Puevfgvna Puhepu sbe n srznyr
-(XABK PBHAGL (ZR)) nzo arrqf uryc yvsgvat cngvrag 130 ghexrl pbir eq
 **********************************************************
 Xvgxva Pbhagl, PB
 Pbagnpg: T BArvyy <babfxv@pbzpnfg.arg>

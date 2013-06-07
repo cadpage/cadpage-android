@@ -299,6 +299,7 @@ public class ParserList {
               ,"LALafourcheParish"              ,"Lafourche Parish, LA"
           ),
           new ParserCategory("Maine"
+              ,"MEKnoxCounty"                   ,"Knox County, ME"
               ,"MEOxfordCounty"                 ,"Oxford County, ME"
               ,"MEYorkCounty"                   ,"York County, ME"
           ),
