@@ -31,6 +31,7 @@ Fraqre: CJEFNA
 SEZ:CJEFNA\aZFT:06-Wha-2013/16:19:27/FVPN/ZF TNVA @ 8001 YVZRFGBAR QE ,CJP /04/R504 Z525 /7gu tenqr srznyr fghqrag srvagrq // vf pbap abja
 1 bs 2\aSEZ:CJEFNA\aZFT:06-Wha-2013/13:29:05/UNMNEQ/13655 OEVQYRJBBQ QE ,CJP /25/R525O /pnyyre nqi bar bs gurve gehpxf unq nagvserrmr fcvyy ng noi\a(Pba'g) 2 bs 2\a// nqi nccebk 3 tnyybaf // (Raq)
 1 bs 2SEZ:CJEFNAZFT:06-Wha-2013/12:46:47/SNYNEZ/10885 ZBEAVAT TYBEL PG ,CJP /11/R525O FGN11 G504 /ebfrznel evqtr ncg / ab ahzore / trareny(Pba'g) 2 bs 2mbar 11 / fnvq nqqerff jnf  7601 - 10880 zbeavat tybel  ohvqv (Raq)
+1 bs 2\aSEZ:CJEFNA\aZFT:06-Wha-2013/10:04:57/ZNYN/10809 URAEL NOOBGG EQ ,CJP /05/R505 Z525 /ERF/ UNEEVF-/ CERZVFR ABG YVFGRQ/ 703 695 0369-PRY SBE\a(Pba'g) 2 bs 2\aWHFGVA UNEEVF/ NHQ-ZRQVPNY XRL CNQ NPGVINGVBA/ JVYY NGPY(Raq)
 
 Pbagnpg: fhccbeg@npgvir911.pbz
 Fraqre: @efna.cjptbi.bet
@@ -246,7 +247,23 @@ choyvp pynff INCevaprJvyyvnzPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:11",
         "HAVG:R525O FGN11 G504",
         "VASB:ebfrznel evqtr ncg / ab ahzore / trareny(Pba'g) 2 bs 2mbar 11 / fnvq nqqerff jnf  7601 - 10880 zbeavat tybel  ohvqv (Raq)");
- 
+
+    qbGrfg("G4",
+        "1 bs 2\a" +
+        "SEZ:CJEFNA\a" +
+        "ZFT:06-Wha-2013/10:04:57/ZNYN/10809 URAEL NOOBGG EQ ,CJP /05/R505 Z525 /ERF/ UNEEVF-/ CERZVFR ABG YVFGRQ/ 703 695 0369-PRY SBE\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "WHFGVA UNEEVF/ NHQ-ZRQVPNY XRL CNQ NPGVINGVBA/ JVYY NGPY(Raq)",
+
+        "QNGR:06/06/2013",
+        "GVZR:10:04:57",
+        "PBQR:ZNYN",
+        "PNYY:Zrqvpny Nynez Fbhaqvat",
+        "NQQE:10809 URAEL NOOBGG EQ",
+        "OBK:05",
+        "HAVG:R505 Z525",
+        "VASB:ERF / UNEEVF- / CERZVFR ABG YVFGRQ / 703 695 0369-PRY SBE WHFGVA UNEEVF / NHQ-ZRQVPNY XRL CNQ NPGVINGVBA / JVYY NGPY");
+
   }
   
   @Grfg
