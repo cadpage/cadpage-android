@@ -8,21 +8,6 @@ This should be fixed in the current Cadpage release, which is available from Goo
 Have a nice day,
 -Ken
 
-******************************************************************
-** Recent PHONE_REGISTRATION_ERROR
-** Null RegistrationID
-** Cadpage version < 1.6.26
-****************************************************************** 
-
-Something has been going haywire with the Google infrastructure supporting direct paging some time ago.  It only impacts a small percentage of direct paging users, but that is small comfort to those who are impacted.  We have been complaining to Google but so far have not gotten any response.
-
-The latest version of Cadpage has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
-
-If it does not, use the Email the Developer feature to report the situation and we will see what we can do from there.
-
-Good luck,
--Ken
-
 ***************************************************************************
 
 Those are coming from CodeMessaging, and CodeMessaging has been
@@ -765,6 +750,21 @@ Good luck,
 ******************************************************************
 
 It looks like you have run into a new Google registration problem.  We are still trying to get a handle on how to deal with it.  Lacking any other great ideas at this point, can you try uninstalling and re-installing Cadpage.  That seems to have worked for at least one other user.
+
+Good luck,
+-Ken
+
+******************************************************************
+** Recent PHONE_REGISTRATION_ERROR
+** Null RegistrationID
+** Cadpage version < 1.6.26
+****************************************************************** 
+
+Something has been going haywire with the Google infrastructure supporting direct paging some time ago.  It only impacts a small percentage of direct paging users, but that is small comfort to those who are impacted.  We have been complaining to Google but so far have not gotten any response.
+
+The latest version of Cadpage has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
+
+If it does not, use the Email the Developer feature to report the situation and we will see what we can do from there.
 
 Good luck,
 -Ken

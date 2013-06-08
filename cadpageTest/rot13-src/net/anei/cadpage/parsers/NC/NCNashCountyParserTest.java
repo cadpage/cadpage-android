@@ -338,8 +338,8 @@ choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G13",
         "ANFU911:129 V95 FO RYZ PVGL BHGFVQR SV WNZRF 4SQ1",
-        "NQQE:129 V-95",
-        "ZNQQE:129 V 95 FO",
+        "NQQE:129 V95 FO",
+        "ZNQQE:129 V 95",
         "PVGL:RYZ PVGL",
         "PNYY:BHGFVQR SV",
         "ANZR:WNZRF",
