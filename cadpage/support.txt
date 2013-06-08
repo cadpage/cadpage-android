@@ -16,51 +16,9 @@ Have a nice day,
 
 Something has been going haywire with the Google infrastructure supporting direct paging some time ago.  It only impacts a small percentage of direct paging users, but that is small comfort to those who are impacted.  We have been complaining to Google but so far have not gotten any response.
 
-The latest version of Cadpage (v1.6.27) has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
+The latest version of Cadpage has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
 
 If it does not, use the Email the Developer feature to report the situation and we will see what we can do from there.
-
-Good luck,
--Ken
-
-******************************************************************
-** Recent PHONE_REGISTRATION_ERROR
-** Null RegistrationID
-** Cadpage version >= 1.6.26
-******************************************************************
- 
-It looks like you are one of the users who cannot get the Google registration you need to implement direct paging.  Usually just retrying it a few times is enough to get things working.  But sometimes more serious measures are called for.
-
-First, double check that the account associated with Google Play Store is valid.  To do that, open the Play Store App and select
-Menu > Accounts
-and verify that the selected account is the one you expect.
-
-*** For Android versions >= 4.0
-Then go back to the Android home screen and select
-Menu > Settings
-Scroll down to the Account settings and select Google
-Verify that the Google Play account is syncing properly (ie.. that the last sync date/time is fairly recent)
-
-*** For Android versions < 4.0
-Then go back to the Android home screen and select
-Menu > Settings > Accounts & Sync > Google > Sync
-and see if everything synchronizes.
-
-Next, go back to Cadpage Settings and try to register with Active911/Code Messaging again.  If this still doesn't open the registration screen after a minute or so, use the Email the Developer to send us another email and we will go on to the next steps.
-
-Good luck,
--Ken
-
-******************************************************************
-** Recent PHONE_REGISTRATION_ERROR
-** Above instructions were unsuccessful.
-******************************************************************
-
-I assume that you are trying, unsuccessfully, to register your phone with CodeMessaging, that you tried everything in the previous email and things still are not working.  So we move on to more complicated solutions.
-
-One user has reported that replacing the SIM card resolved this problem.  Since SIM cards usually cost money, I would first try removing the SIM card and trying to register Cadpage with CodeMessaging while your phone is connected to a WiFi router.  If that works, you can go ahead and get a new SIM card.
-
-Try installing and setting up the Google Chrome to Phone App.  You need to install the Chrome to Phone extension to the Chrome web browser on a PC system somewhere and then use it to send a web link to your phone.  Chrome to Phone uses the same underlying protocol that we use for Cadpage Direct Paging.  If you have the same problems with that app as we are having with Cadpage, we can make the case that this is a problem with the underlying Google protocol.
 
 Good luck,
 -Ken
@@ -318,7 +276,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-VOAQGACA or voaqgaca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+RDEYZSBA or rdeyzsba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -441,7 +399,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-VOAQGACA or voaqgaca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+RDEYZSBA or rdeyzsba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -569,7 +527,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-VOAQGACA or voaqgaca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+RDEYZSBA or rdeyzsba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -583,7 +541,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-VOAQGACA or voaqgaca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+RDEYZSBA or rdeyzsba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -593,7 +551,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-VOAQGACA or voaqgaca.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+RDEYZSBA or rdeyzsba.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -795,6 +753,60 @@ Good luck,
 ******************************************************************
 
 Whoever set up your device in Active911, and gave you the device number and activation code to use, set it up with the wrong page type.  The page type should be "Cadpage (Android)".  They should be able to fix that.
+
+Good luck,
+-Ken
+
+******************************************************************
+** Active911 registration issues
+** No recent registration errors
+** Cadpage registation ID is non null
+** Swift registration ID is null
+******************************************************************
+
+It looks like you have run into a new Google registration problem.  We are still trying to get a handle on how to deal with it.  Lacking any other great ideas at this point, can you try uninstalling and re-installing Cadpage.  That seems to have worked for at least one other user.
+
+Good luck,
+-Ken
+
+******************************************************************
+** Recent PHONE_REGISTRATION_ERROR
+** Null RegistrationID
+** Cadpage version >= 1.6.26
+******************************************************************
+ 
+It looks like you are one of the users who cannot get the Google registration you need to implement direct paging.  Usually just retrying it a few times is enough to get things working.  But sometimes more serious measures are called for.
+
+First, double check that the account associated with Google Play Store is valid.  To do that, open the Play Store App and select
+Menu > Accounts
+and verify that the selected account is the one you expect.
+
+*** For Android versions >= 4.0
+Then go back to the Android home screen and select
+Menu > Settings
+Scroll down to the Account settings and select Google
+Verify that the Google Play account is syncing properly (ie.. that the last sync date/time is fairly recent)
+
+*** For Android versions < 4.0
+Then go back to the Android home screen and select
+Menu > Settings > Accounts & Sync > Google > Sync
+and see if everything synchronizes.
+
+Next, go back to Cadpage Settings and try to register with Active911/Code Messaging again.  If this still doesn't open the registration screen after a minute or so, use the Email the Developer to send us another email and we will go on to the next steps.
+
+Good luck,
+-Ken
+
+******************************************************************
+** Recent PHONE_REGISTRATION_ERROR
+** Above instructions were unsuccessful.
+******************************************************************
+
+I assume that you are trying, unsuccessfully, to register your phone with CodeMessaging, that you tried everything in the previous email and things still are not working.  So we move on to more complicated solutions.
+
+One user has reported that replacing the SIM card resolved this problem.  Since SIM cards usually cost money, I would first try removing the SIM card and trying to register Cadpage with CodeMessaging while your phone is connected to a WiFi router.  If that works, you can go ahead and get a new SIM card.
+
+Try installing and setting up the Google Chrome to Phone App.  You need to install the Chrome to Phone extension to the Chrome web browser on a PC system somewhere and then use it to send a web link to your phone.  Chrome to Phone uses the same underlying protocol that we use for Cadpage Direct Paging.  If you have the same problems with that app as we are having with Cadpage, we can make the case that this is a problem with the underlying Google protocol.
 
 Good luck,
 -Ken
