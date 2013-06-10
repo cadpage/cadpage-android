@@ -802,11 +802,13 @@ Good luck,
 ** Above instructions were unsuccessful.
 ******************************************************************
 
-I assume that you are trying, unsuccessfully, to register your phone with CodeMessaging, that you tried everything in the previous email and things still are not working.  So we move on to more complicated solutions.
+There are a few more things to try, but we are starting to get desperate.
 
 One user has reported that replacing the SIM card resolved this problem.  Since SIM cards usually cost money, I would first try removing the SIM card and trying to register Cadpage with CodeMessaging while your phone is connected to a WiFi router.  If that works, you can go ahead and get a new SIM card.
 
-Try installing and setting up the Google Chrome to Phone App.  You need to install the Chrome to Phone extension to the Chrome web browser on a PC system somewhere and then use it to send a web link to your phone.  Chrome to Phone uses the same underlying protocol that we use for Cadpage Direct Paging.  If you have the same problems with that app as we are having with Cadpage, we can make the case that this is a problem with the underlying Google protocol.
+Another user reported that uninstalling and reinstalling Cadpage fixed things.
+
+Try installing and setting up the Google Chrome to Phone App.  You need to install the Chrome to Phone extension to the Chrome web browser on a PC system somewhere and then use it to send a web link to your phone.  Chrome to Phone uses the same underlying protocol that we use for Cadpage Direct Paging.  If you have the same problems with that app as we are having with Cadpage, we can make a pretty strong case that this is a problem with the underlying Google protocol.
 
 Good luck,
 -Ken
