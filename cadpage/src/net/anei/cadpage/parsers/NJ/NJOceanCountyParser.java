@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA9Parser;
 
 
 /**
- * Ocean City County, NJ
+ * Ocean County, NJ
  */
 public class NJOceanCountyParser extends DispatchA9Parser {
   
