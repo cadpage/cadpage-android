@@ -13,7 +13,7 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
   
   private static final Pattern UNIT_PATTERN = Pattern.compile("(?:,? +(?:EMS|ALS|BLS|APPARATUS|TRUCK|AMBULANCE|MOTORCYCLE|ATV|BICYCLE|BIKE|MISC|\\d{1,2}[A-D]))+\\b");
   private static final Pattern MAP_PATTERN = Pattern.compile("\\b\\d{1,2} [A-Z]\\d{1,2}(?:-[A-Z]\\d{1,2})?\\b");
-  private static final Pattern ID_PATTERN = Pattern.compile("\\bF\\d{9}\\b");
+  private static final Pattern ID_PATTERN = Pattern.compile("(\\b[EF]\\d{9}(?: +\\d+))\\b");
   
   @Override
   public String getFilter() {
@@ -23,7 +23,7 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
 
   public MDCharlesCountyAParser() {
     super( "CHARLES COUNTY", "MD");
-    setFieldList("CALL UNIT ADDR APT PLACE CODE MAP INFO ID");
+    setFieldList("CALL UNIT ADDR APT PLACE CODE MAP INFO ID TIME");
   }
   
   @Override
@@ -42,7 +42,8 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
     Matcher match = ID_PATTERN.matcher(body);
     if (match.find()) {
       good = true;
-      data.strCallId = body.substring(match.start(),match.end());
+      data.strCallId = match.group(1).replace(' ', '-');
+      data.strTime = body.substring(match.end()).trim();
       body = body.substring(0,match.start()).trim();
     }
     
