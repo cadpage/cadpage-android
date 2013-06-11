@@ -47,16 +47,13 @@ public class CadPageApplication extends Application {
         
         // Reset vendor status
         VendorManager.instance().newReleaseReset(this);
-
-        // If we have a GCM registration ID, we are supposed to request a new one
-        // But if we don't have any registered GCM vendors, just erase the old registration ID
         
-        // That last changed has been backed out for now.  It turns out not renewing the 
-        // ID blocks pages sent to devices for which the initial registration process was never
-        // completed.
-        if (ManagePreferences.registrationId() != null) {
-          C2DMService.register(this, true);
-        }
+        // The rules keep changing here
+        // Currently we always ask for a registration ID at every new release load
+        // regardless of whether or not the user is actually using direct paging.  It
+        // is going to mean a big increase for Google serer workload.  But it is what
+        // there regular GCM library does.  So we are going to do it.
+        C2DMService.register(this, true);
       }
       
     } catch (Exception ex) {
