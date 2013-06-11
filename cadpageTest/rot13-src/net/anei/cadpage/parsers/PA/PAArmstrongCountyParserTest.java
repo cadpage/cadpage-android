@@ -38,6 +38,10 @@ Pbagnpg: Wnxr Znegva Nppg <znegva13975@tznvy.pbz>
 Fraqre: 911Qvfcngpu@pb.nezfgebat.cn.hf
 (Qvfcngpu) 1346 FGNGR EBHGR 4007 OREANEQ EQ / FGNGR EBHGR 268 19898 11:02 7243093328 SFGE1
 
+Pbagnpg: Rnfg Senaxyva & Nccyrjbyq ISQ <rnfgsenaxyvasver@lnubb.pbz>
+Fraqre: 911Qvfcngpu@pb.nezfgebat.cn.hf
+(Qvfcngpu) 610 RNFG OENQL EQ EBYYVAT UVYYF EQ / OBYGM EQ 19932 17:03 7248598547 INRAG
+
 */
 
 choyvp pynff CNNezfgebatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -210,6 +214,20 @@ choyvp pynff CNNezfgebatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:7243093328",
         "PNYY:SFGE1");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRnfgSenaxyvaNaqNccyrjbq() {
+
+    qbGrfg("G1",
+        "(Qvfcngpu) 610 RNFG OENQL EQ EBYYVAT UVYYF EQ / OBYGM EQ 19932 17:03 7248598547 INRAG",
+        "NQQE:610 RNFG OENQL EQ",
+        "K:EBYYVAT UVYYF EQ / OBYGM EQ",
+        "VQ:19932",
+        "GVZR:17:03",
+        "CUBAR:7248598547",
+        "PNYY:INRAG");
+   
   }
   
   

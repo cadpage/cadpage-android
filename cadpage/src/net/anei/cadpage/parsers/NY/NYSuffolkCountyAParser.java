@@ -37,6 +37,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
     if (data.strCall == null) return false;
 
     data.strCross = props.getProperty("CROSS", "");
+    if (data.strCross.endsWith("/")) data.strCross = data.strCross.substring(0,data.strCross.length()-1).trim();
     
     String sAddress = props.getProperty("LOC");
     if (sAddress == null) {
@@ -69,6 +70,8 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
     }
     
     data.strCode = props.getProperty("CODE", "");
+    if (data.strCode.equals("default")) data.strCode = "";
+    
     data.strCity = convertCodes(data.strCity, CITY_TABLE);
     String sTime = props.getProperty("TIME", "");
     if (sTime.length() > 5 && sTime.length() < 8) sTime = sTime.substring(0,5);
