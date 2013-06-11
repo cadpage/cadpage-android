@@ -12,11 +12,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class PAArmstrongCountyParser extends SmartAddressParser {
 
   // Marker is time and run number at end of message
-  private static final Pattern MARKER_PATTERN = Pattern.compile(" +(\\d{1,6}) (\\d\\d:\\d\\d)(?: (\\d{10}))? *$");
+  private static final Pattern MARKER_PATTERN = Pattern.compile(" +(\\d{1,6}) (\\d\\d:\\d\\d)(?: (\\d{10}))?(?: +([A-Z0-9]+))?$");
   
   public PAArmstrongCountyParser() {
     super("ARMSTRONG COUNTY", "PA");
-    setFieldList("ADDR X PLACE CALL ID TIME PHONE");
+    setFieldList("ADDR X PLACE ID TIME PHONE CALL");
   }
 
   @Override
@@ -28,11 +28,14 @@ public class PAArmstrongCountyParser extends SmartAddressParser {
     data.strCallId = match.group(1);
     data.strTime = match.group(2);
     data.strPhone = getOptGroup(match.group(3));
+    data.strCall = getOptGroup(match.group(4));
     body = body.substring(0,match.start());
     
-    Parser p = new Parser(body);
-    data.strCall = p.getLast(' ');
-    body = p.get();
+    if (data.strCall.length() == 0) {
+      Parser p = new Parser(body);
+      data.strCall = p.getLast(' ');
+      body = p.get();
+    }
     
     
     // We need to call the smart parser twice, once for the real address
