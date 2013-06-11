@@ -901,6 +901,30 @@ public class ManagePreferences {
     prefs.putFloat(R.string.pref_last_loc_acc_key, newVal);
   }
   
+  public static boolean directPageActive() {
+    return prefs.getBoolean(R.string.pref_direct_page_active_key);
+  }
+  
+  public static void setDirectPageActive(boolean newVal) {
+    prefs.putBoolean(R.string.pref_direct_page_active_key, newVal);
+  }
+  
+  public static long lastGcmEventTime() {
+    return prefs.getLong(R.string.pref_last_gcm_event_time_key, 0L);
+  }
+  
+  public static void setLastGcmEventTime(long newVal) {
+    prefs.putLong(R.string.pref_last_gcm_event_time_key, newVal);
+  }
+  
+  public static String lastGcmEventType() {
+    return prefs.getString(R.string.pref_last_gcm_event_type_key, null);
+  }
+  
+  public static void setLastGcmEventType(String newVal) {
+    prefs.putString(R.string.pref_last_gcm_event_type_key, newVal);
+  }
+  
   public static void clearAll() {
     SharedPreferences.Editor settings = prefs.mPrefs.edit();
     settings.clear();
@@ -1031,7 +1055,11 @@ public class ManagePreferences {
         R.string.pref_reconnect_key,
         
         R.string.pref_last_loc_time_key,
-        R.string.pref_last_loc_acc_key
+        R.string.pref_last_loc_acc_key,
+        
+        R.string.pref_direct_page_active_key,
+        R.string.pref_last_gcm_event_type_key,
+        R.string.pref_last_gcm_event_time_key
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();
@@ -1043,6 +1071,16 @@ public class ManagePreferences {
       if (key == R.string.pref_registration_id_key) regId = value;
       if (key == R.string.pref_prev_registration_id_key) {
         if (value != null && value.equals(regId)) value = "< Same >";
+      }
+      if (key == R.string.pref_last_gcm_event_time_key){
+        try {
+          long time = (Long)value;
+          if (time > 0) {
+            value = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss.SSS").format(time);
+          }
+        } catch (Exception ex) {
+          value = null;
+        }
       }
       sb.append(String.format("%s: %s\n", keyName, value));
     }

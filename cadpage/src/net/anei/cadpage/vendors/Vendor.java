@@ -382,6 +382,9 @@ abstract class Vendor {
 
     // Make sure we have network connectivity
     if (!SmsPopupUtils.haveNet(context)) return;
+    
+    // Turn on direct paging error reporting
+    ManagePreferences.setDirectPageActive(true);
 
     // Set registration in progress flag
     // and save the discovery URI
@@ -390,9 +393,12 @@ abstract class Vendor {
     
     // See if we already have a registration ID, if we do, use it to send
     // registration request to vendor server
+    // But we also will refresh the registration ID, just in case it has
+    // gotten stale from long periods of unuse.
     String regId = ManagePreferences.registrationId();
     if (regId != null) {
       registerC2DMId(context, regId);
+      C2DMService.register(context, true);
     }
     
     // If we don't request one and and send the request to the server when

@@ -27,11 +27,16 @@ public class C2DMService extends IntentService {
   private static final int INIT_REREGISTER_DELAY = 3000;  // 3 seconds
   private static final int MAX_REREGISTER_DELAY = 3600000;  // 1 Hour
   
+  // Refresh ID timeout.  We will automatically request a new registration ID if
+  // nothing is received for this amount of time
+  private static final int REFRESH_ID_TIMEOUT = 24*60*60*1000; // 1 day
+  
   private static final String ACTION_C2DM_REGISTER = "com.google.android.c2dm.intent.REGISTER";
   private static final String ACTION_C2DM_UNREGISTER = "com.google.android.c2dm.intent.UNREGISTER";
   private static final String ACTION_C2DM_REGISTERED = "com.google.android.c2dm.intent.REGISTRATION";
   private static final String ACTION_C2DM_RECEIVE = "com.google.android.c2dm.intent.RECEIVE";
   private static final String ACTION_RETRY_REGISTER = "net.anei.cadpage.RETRY_REGISTER";
+  private static final String ACTION_REFRESH_ID = "net.anei.cadpage.REFRESH_ID";
   private static final String GCM_PROJECT_ID = "1027194726673";
 
   // wakelock
@@ -85,6 +90,7 @@ public class C2DMService extends IntentService {
           error = retryRegistration(error);
           if (error != null) {
             ManagePreferences.setRegistrationId(null);
+            ManagePreferences.setRegisterReqActive(false);
             VendorManager.instance().failureC2DMId(C2DMService.this, error);
           }
           EmailDeveloperActivity.logSnapshot(C2DMService.this, "GCM Registration failure report");
@@ -184,9 +190,6 @@ public class C2DMService extends IntentService {
     
     try {
       
-      // If registration has been canceled, all C2DM messages should be ignored
-      if (ManagePreferences.registrationId() == null) return;
-      
       // Likewise if Cadpage is disabled
       if (!ManagePreferences.enabled()) return;
       
@@ -206,6 +209,7 @@ public class C2DMService extends IntentService {
       if (type.equals("PING")) {
         sendAutoAck(intent, vendorCode);
         VendorManager.instance().checkVendorStatus(this, vendorCode);
+        resetRefreshIDTimer(this, "PING");
         return;
       }
       
@@ -223,6 +227,7 @@ public class C2DMService extends IntentService {
           }
         });
         sendAutoAck(intent, vendorCode);
+        resetRefreshIDTimer(this, "VENDOR_" + type);
         return;
       }
 
@@ -271,6 +276,8 @@ public class C2DMService extends IntentService {
     
   private void processContent(Intent intent, String content, long timestamp) {
     
+    resetRefreshIDTimer(this, "PAGE");
+    
     // Reconstruct message from data from intent fields
     String from = intent.getStringExtra("sender");
     if (from == null) from = "GCM";
@@ -305,6 +312,10 @@ public class C2DMService extends IntentService {
         Log.e("charset " + charset + " not supported");
       }
     }
+    
+    // If page includes a server receive time, and page has arrived within
+    // a reasonable window of that time, reset the refresh ID timer.
+    // If there is no server receive time, always reset the refresh ID timer
     
     final SmsMmsMessage message = 
       new SmsMmsMessage(from, subject, content, timestamp,
@@ -343,6 +354,22 @@ public class C2DMService extends IntentService {
    * alive.
    */
   static void runIntentInService(Context context, Intent intent) {
+
+    // The refresh action request is handled by a static method, 
+    // so there really is no need to go through the overhead of
+    // starting a service to handle it
+    if (ACTION_REFRESH_ID.equals(intent.getAction())) {
+      
+      // Do NOT perform refresh if no direct paging vendors are enabled
+      if (!VendorManager.instance().isRegistered()) return;
+      
+      Log.w("Processing C2DM registration refresh request");
+      register(context, true);
+      return;
+    }
+
+    // Otherwise, hold a power lock for the duration and
+    // start the service to handle the intent
     holdPowerLock(context);
     intent.setClass(context, C2DMService.class);
     context.startService(intent);
@@ -464,6 +491,8 @@ public class C2DMService extends IntentService {
    */
   private static boolean startRegisterRequest(Context context, int reqCode, boolean auto) {
     
+    if (reqCode == 1) resetRefreshIDTimer(context, "REGISTER");
+    
     // Don't do anything if we already have an active ongoing request for this type
     if (ManagePreferences.registerReqActive() && ManagePreferences.registerReq() == reqCode) return true;
     
@@ -500,6 +529,33 @@ public class C2DMService extends IntentService {
     ContentQuery.dumpIntent(intent);
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
     return context.startService(intent) != null;
+  }
+  
+  /**
+   * Reset the refresh registration ID timer, rescheduling the next refresh event
+   * until REFRESH_ID_TIMEOUT msecs in the future
+   * @param context current context
+   * @param eventType Event type responsible for reset request
+   */
+  private static void resetRefreshIDTimer(Context context, String eventType) {
+    
+    long curTime = System.currentTimeMillis();
+    ManagePreferences.setLastGcmEventType(eventType);
+    ManagePreferences.setLastGcmEventTime(curTime);
+    
+    Log.v("Scheduling refresh event in " + REFRESH_ID_TIMEOUT + " msecs");
+    
+    AlarmManager myAM = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+
+    Intent refreshIntent = new Intent(context, C2DMRetryReceiver.class);
+    refreshIntent.setAction(ACTION_REFRESH_ID);
+
+    PendingIntent refreshPendingIntent =
+      PendingIntent.getBroadcast(context, 0, refreshIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+
+    long triggerTime = curTime + REFRESH_ID_TIMEOUT;
+    myAM.set(AlarmManager.RTC_WAKEUP, triggerTime, refreshPendingIntent);
+   
   }
 
   /**

@@ -169,6 +169,7 @@ public class VendorManager {
    * @param context current context
    */
   void reconnect(Context context) {
+    ManagePreferences.setDirectPageActive(true);
     ManagePreferences.setReconnect(true);
     C2DMService.register(context, true);
   }
@@ -209,8 +210,13 @@ public class VendorManager {
    */
   public void unregisterC2DMId(Context context, String registrationId) {
     
-    // If any vendors are still registered, we need to request a new registration ID
-    if (isRegistered()) C2DMService.register(context, true);
+    // New rules, we always have to have a valid registration ID
+    // so we always request a new one
+    C2DMService.register(context, true);
+    
+    // But if there are no more registered vendors, we will disable
+    // registration error reporting
+    if (!isRegistered()) ManagePreferences.setDirectPageActive(false);
   }
   
   /**
@@ -219,6 +225,12 @@ public class VendorManager {
    * @param error error message
    */
   public void failureC2DMId(Context context, String error) {
+    
+    // We don't report any of the internal issues with registration unless
+    // user has done something to enable direct paging
+    if (!ManagePreferences.directPageActive()) return;
+    
+    // Display appropriate error message
     int resId;
     if (error.equals("SERVICE_NOT_AVAILABLE")) resId = R.string.vendor_service_not_available_error;
     else if (error.equals("ACCOUNT_MISSING")) resId = R.string.vendor_account_missing_error;

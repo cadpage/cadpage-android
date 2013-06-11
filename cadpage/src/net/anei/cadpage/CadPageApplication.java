@@ -52,7 +52,7 @@ public class CadPageApplication extends Application {
         // Currently we always ask for a registration ID at every new release load
         // regardless of whether or not the user is actually using direct paging.  It
         // is going to mean a big increase for Google serer workload.  But it is what
-        // there regular GCM library does.  So we are going to do it.
+        // there regular GCM library does.  So that is what we are going to do
         C2DMService.register(this, true);
       }
       

@@ -2,6 +2,8 @@ package net.anei.cadpage;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -21,7 +23,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.telephony.SmsMessage;
 import android.telephony.SmsMessage.MessageClass;
-import android.text.format.DateFormat;
 import android.text.format.DateUtils;
 
 import static net.anei.cadpage.BroadcastBindings.*;
@@ -887,9 +888,7 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\n\nMessage Contents\n");
     
     sb.append("Time:");
-    sb.append(DateFormat.getLongDateFormat(context).format(timestamp));
-    sb.append(" ");
-    sb.append(DateFormat.getTimeFormat(context).format(timestamp));
+    sb.append(DATE_TIME_FMT.format(timestamp));
 
     sb.append("\nFrom:");
     sb.append(fromAddress);
@@ -965,6 +964,7 @@ public class SmsMmsMessage implements Serializable {
     
     sb.append('\n');
   }
+  private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss.SSS");
  
   public boolean duplicate(SmsMmsMessage msg) {
     if (messageType != msg.messageType) return false;
