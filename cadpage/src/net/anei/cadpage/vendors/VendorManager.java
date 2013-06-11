@@ -209,17 +209,8 @@ public class VendorManager {
    */
   public void unregisterC2DMId(Context context, String registrationId) {
     
-    // Loop through the vendor list to see if any of them are still enabled
-    boolean reregister = false;
-    for (Vendor vendor : vendorList) {
-      if (vendor.isEnabled()) {
-        reregister = true;
-        break;
-      }
-    }
-    
-    // If any are, we need to request a new registration ID
-    if (reregister) C2DMService.register(context);
+    // If any vendors are still registered, we need to request a new registration ID
+    if (isRegistered()) C2DMService.register(context, true);
   }
   
   /**
@@ -232,6 +223,8 @@ public class VendorManager {
     if (error.equals("SERVICE_NOT_AVAILABLE")) resId = R.string.vendor_service_not_available_error;
     else if (error.equals("ACCOUNT_MISSING")) resId = R.string.vendor_account_missing_error;
     else if (error.equals("AUTHENTICATION_FAILED")) resId = R.string.vendor_authentication_failed_error;
+    else if (error.equals("PHONE_REGISTRATION_ERROR")) resId = R.string.vendor_phone_registration_error_error;
+    else if (error.equals("PHONE_REGISTRATION_ERROR_HARD")) resId = R.string.vendor_phone_registration_error_hard_error;
     else resId = R.string.vendor_registration_error;
     String errMsg = context.getString(resId, error);
     NoticeActivity.showNotice(context, errMsg);

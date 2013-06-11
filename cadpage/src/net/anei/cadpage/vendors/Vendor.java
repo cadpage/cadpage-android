@@ -398,7 +398,7 @@ abstract class Vendor {
     // If we don't request one and and send the request to the server when
     // it comes back in
     else {
-      if (!C2DMService.register(context)) showNotice(context, R.string.vendor_reg_failure_msg, null);
+      if (!C2DMService.register(context, uri != null)) showNotice(context, R.string.vendor_reg_failure_msg, null);
     }
   }
 

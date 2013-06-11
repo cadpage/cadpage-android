@@ -82,7 +82,8 @@ public class C2DMService extends IntentService {
         String error = intent.getStringExtra("error");
         if (error != null) {
           Log.w("C2DM registration failed: " + error);
-          if (!retryRegistration(error)) {
+          error = retryRegistration(error);
+          if (error != null) {
             ManagePreferences.setRegistrationId(null);
             VendorManager.instance().failureC2DMId(C2DMService.this, error);
           }
@@ -115,22 +116,23 @@ public class C2DMService extends IntentService {
   /**
    * Called after a registration error has been reported
    * @param error
-   * @return true if a server is busy and a subsequent request has been scheduled, false otherwise
+   * @return error status to be reported to user or null if request
+   * has been rescheduled and no error status should be reported
    */
-  private boolean retryRegistration(String error) {
+  private String retryRegistration(String error) {
     
     // We can only recover from the SERVICE_NOT_AVAILABLE error
     // Lately PHONE_REGISTRATION_ERROR appears to be a recoverable error
     // But we can at least check to make sure there is an identifiable user account
     if (!error.equals("SERVICE_NOT_AVAILABLE")) {
-      if (!error.equals("PHONE_REGISTRATION_ERROR")) return false;
-      if (UserAcctManager.instance().getUser() == null) return false;
+      if (!error.equals("PHONE_REGISTRATION_ERROR")) return error;
+      if (UserAcctManager.instance().getUser() == null) return "AUTHENTICATION FAILED";
     }
     
     // See if request should be rescheduled
     int req = ManagePreferences.registerReq();
     int delayMS = ManagePreferences.reregisterDelay();
-    if (req == 0 || delayMS == 0) return false;
+    if (req == 0 || delayMS == 0) return error;
 
     // Since PHONE_REGISTRATION_ERROR isn't really recoverable, 
     // we will give up on it when we hit the maximum delay time
@@ -138,7 +140,7 @@ public class C2DMService extends IntentService {
       Log.v("C2DMService terminating registration retries");
       ManagePreferences.setRegisterReq(0);
       ManagePreferences.setReregisterDelay(0);
-      return false;
+      return error + "_HARD";
     }
     
     // If it should compute how long to delay before reissuing the request.  Since we are
@@ -153,7 +155,7 @@ public class C2DMService extends IntentService {
     am.set(AlarmManager.ELAPSED_REALTIME, SystemClock.elapsedRealtime() + realDelayMS, retryPendingIntent);
     Log.v("Rescheduling request in " + realDelayMS + " / " + delayMS + " msecs");
     ContentQuery.dumpIntent(retryIntent);
-    return true;
+    return null;
   }
 
   /**
