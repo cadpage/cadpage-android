@@ -35,6 +35,9 @@ public class MDWorcesterCountyParser extends GroupBestParser {
     "SINNEPUXENT",
     "SOUTH POINT",
     "TAYLORVILLE",
-    "WHITEON"
+    "WHITEON",
+    
+    // Accomack County, VA
+    "NEW CHURCH"
   };
 }

@@ -148,6 +148,7 @@ choyvp pynff ZQJbeprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4264 SVERUBHFR FG",
         "CYNPR:ARJPUHEPU FGNGVBA 1",
         "PVGL:ARJ PUHEPU",
+        "FG:IN",
         "K:QRCBG FG & YNAXSBEQ YA",
         "QNGR:11/08/2010",
         "GVZR:20:34:48");
@@ -167,9 +168,10 @@ choyvp pynff ZQJbeprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:100",
         "PNYY:HAPBAFPVBHF SNVAGVAT",
         "NQQE:275 ARJGBJAR OYIQ",
-        "CYNPR:OYQT YBJRF",
-        "PVGL:YBJRF BS CBPBZBXR",
-        "K:CBPBZBXR & BYQ FABJ UVYY EQ",
+        "NCG:OYQT YBJRF",
+        "CYNPR:YBJRF BS CBPBZBXR",
+        "PVGL:CBPBZBXR",
+        "K:BYQ FABJ UVYY EQ",
         "QNGR:11/07/2010",
         "GVZR:11:25:06");
 

@@ -53,6 +53,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *    
  * Field Qualifiers
  *   All conditional fields
+ *     Y - Force condition approval. Reject result if field contents do not
+ *         satisfy condition checks
  *     Z - suppress condition checks.  This is useful is this fields condition
  *     check is less reliable than another field behind it
  *     
@@ -1426,6 +1428,7 @@ public class FieldProgramParser extends SmartAddressParser {
     private String qual = null;
     
     private boolean noVerify;
+    private boolean forceVerify;
 
     private char trigger = 0;
     
@@ -1452,7 +1455,10 @@ public class FieldProgramParser extends SmartAddressParser {
 
     public void setQual(String qual) {
       this.qual = qual;
-      if (qual != null) this.noVerify = qual.contains("Z");
+      if (qual != null) {
+        this.noVerify = qual.contains("Z");
+        this.forceVerify = qual.contains("Y");
+      }
     }
     
     public String getQual() {
@@ -1553,7 +1559,11 @@ public class FieldProgramParser extends SmartAddressParser {
           if (match.groupCount() == 1) field = match.group(1);
         } else if (hardPattern) abort();
       }
-      parse(field, data);
+      if (forceVerify) {
+        if (!checkParse(field, data)) abort();
+      } else {
+        parse(field, data);
+      }
     }
     
     /*
