@@ -14,6 +14,7 @@ public class MOStCharlesCountyParser extends MsgParser {
  
   public MOStCharlesCountyParser() {
     super("ST CHARLES COUNTY", "MO");
+    setFieldList("ID INFO CALL ADDR PLACE APT X MAP SRC");
   }
   
   @Override
@@ -23,6 +24,7 @@ public class MOStCharlesCountyParser extends MsgParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    if (body.startsWith("ID:")) body = body.substring(3).trim();
     data.strCallId = substring(body, 0, 12);
     if (! ID_PTN.matcher(data.strCallId).matches()) return false;
     data.strSupp = substring(body, 12, 20);
