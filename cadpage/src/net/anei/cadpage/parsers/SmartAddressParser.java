@@ -318,7 +318,8 @@ public abstract class SmartAddressParser extends MsgParser {
         "AVENUE", "AV", "AVE", 
         "STREET", "ST", 
         "PLACE", "PL",
-        "ROAD", "RD");
+        "ROAD", "RD",
+        "HWY");
     
     setupDictionary(ID_ROAD_QUALIFIER, "OLD");
         
@@ -617,6 +618,7 @@ public abstract class SmartAddressParser extends MsgParser {
     return result;
   }
   
+  private static final Pattern US_PTN = Pattern.compile("\\b(U) (S)\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern ADDR_START_PTN = Pattern.compile("^(?:@|AT |REPORTED AT )", Pattern.CASE_INSENSITIVE);
   private Result parseAddressInternal(StartType sType, int flags, String address) {
     this.flags = flags;
@@ -657,6 +659,9 @@ public abstract class SmartAddressParser extends MsgParser {
     String gpsCoords = null;
     Matcher match = MsgParser.GPS_PATTERN.matcher(address);
     if (match.find()) gpsCoords = match.group();
+    
+    // Look for and compress any US symbols
+    address = US_PTN.matcher(address).replaceAll("$1$2");
     
     // Strip leading zeros from starting numeric tokens
     if (!onlyCity) address = stripLeadingZero(address);
@@ -1935,7 +1940,6 @@ public abstract class SmartAddressParser extends MsgParser {
     // character tokens are OK
     if (!pastAddr && BAD_CHARS.matcher(token).find()) {
       tokenType[ndx] |= ID_NOT_ADDRESS;
-      if (isFlagSet(FLAG_ANCHOR_END) && !isFlagSet(FLAG_ANY_PAD_FIELD)) startNdx = ndx+1;
       return;
     }
     

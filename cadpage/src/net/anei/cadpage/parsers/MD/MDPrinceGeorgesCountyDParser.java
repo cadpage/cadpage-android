@@ -3,19 +3,17 @@ package net.anei.cadpage.parsers.MD;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * Prince Georges County, MD
  */
-public class MDPrinceGeorgesCountyDParser extends FieldProgramParser {
+public class MDPrinceGeorgesCountyDParser extends MDPrinceGeorgesCountyBaseParser {
   
   private static Pattern MARKER = Pattern.compile("^\\d+: ");
   
   public MDPrinceGeorgesCountyDParser() {
-    super("PRINCE GEORGES COUNTY", "MD",
-           "CALL! At:DATETIME! Dispatch:SKIP? Backup:SKIP? All:UNIT! To:ADDR!");
+    super("CALL! At:DATETIME! Dispatch:SKIP? Backup:SKIP? All:UNIT! To:ADDR!");
   }
   
   @Override

@@ -18,6 +18,10 @@ Pbagnpg: Qhfgva Zbber <sversvtugre.8115@tznvy.pbz>
 Fraqre: pnqcntr@wbpb911.bet
 911 Cntr / Qvfcngpu: 2/11/2012 18:06:31 SVER FGEHPGHER 18 FR 135 EQ WBUAFBA PBHAGL\a
 
+Pbagnpg: Evpx Wbuafba <evpxwbuafba435@tznvy.pbz>
+Fraqre: pnqcntr@wbpb911.bet
+911 Cntr / WPFB ZIP CEBCREGL QNZNTR AR SS UJL & AR 50 UJL WBUAFBA PBHAGL Qvfcngpu: 6/2/2013 22:33:12\a
+
 */
 
 choyvp pynff ZBWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -33,32 +37,52 @@ choyvp pynff ZBWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "[ 911 Cntr ] Qvfcngpu: 7/19/2011 17:44:07 80 - Pneoba Zbabkvqr/Unmzng 1064 AR 75 EQ, Ncg. 112 WBUAFBA PBHAGL",
+        "QNGR:7/19/2011",
+        "GVZR:17:44:07",
         "PNYY:80 - Pneoba Zbabkvqr/Unmzng",
         "NQQE:1064 AR 75 EQ",
         "NCG:112");
 
     qbGrfg("G2",
         "[ 911 Cntr ] Qvfcngpu: 7/20/2011 19:24:58 SVER IRUPVYR 793 AR 101 EQ WBUAFBA PBHAGL ZB",
+        "QNGR:7/20/2011", 
+        "GVZR:19:24:58",
         "PNYY:SVER IRUPVYR",
         "NQQE:793 AR 101 EQ");
 
     qbGrfg("G3",
         "[ 911 Cntr ] Qvfcngpu: 7/18/2011 22:25:03 SVER TENFF FR QQ UJL & FR 341 EQ WBUAFBA PBHAGL",
+        "QNGR:7/18/2011",
+        "GVZR:22:25:03",
         "PNYY:SVER TENFF",
-        "NQQE:FR QQ UJL & FR 341 EQ");
+        "NQQE:FR QQ UJL & FR 341 EQ",
+        "ZNQQE:FR UJL QQ & FR 341 EQ");
 
     qbGrfg("G4",
         "[ Fhowrpg: 911 Cntr ] 7/17/2011 21:02:06 SVER FGEHPGHER 1072 AJ 475 EQ WBUAFBA PBHAGL",
+        "QNGR:7/17/2011", 
+        "GVZR:21:02:06",
         "PNYY:SVER FGEHPGHER",
         "NQQE:1072 AJ 475 EQ");
 
     qbGrfg("G5",
         "911 Cntr / Qvfcngpu: 2/11/2012 18:06:31 SVER FGEHPGHER 18 FR 135 EQ WBUAFBA PBHAGL\a",
+        "QNGR:2/11/2012", 
+        "GVZR:18:06:31",
         "PNYY:SVER FGEHPGHER",
         "NQQE:18 FR 135 EQ");
+
+    qbGrfg("G6",
+        "911 Cntr / WPFB ZIP CEBCREGL QNZNTR AR SS UJL & AR 50 UJL WBUAFBA PBHAGL Qvfcngpu: 6/2/2013 22:33:12\a",
+        "PNYY:WPFB ZIP CEBCREGL QNZNTR",
+        "NQQE:AR SS UJL & AR 50 UJL",
+        "ZNQQE:AR UJL SS & AR UJL 50",
+        "QNGR:6/2/2013",
+        "GVZR:22:33:12");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZBWbuafbaPbhaglCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE NCG PVGL");
+    arj ZBWbuafbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

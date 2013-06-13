@@ -3,21 +3,20 @@ package net.anei.cadpage.parsers.MD;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+
 
 /**
  * Prince Georges County, MD (variant E)
  */
-public class MDPrinceGeorgesCountyEParser extends FieldProgramParser {
+public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParser {
   
   private static final Pattern ID_PTN = Pattern.compile("^(?:TR +)?(F\\d{6,}):");
   private static final Pattern TRAILER = Pattern.compile(" - From [A-Z0-9]+ (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)$");
   private static final Pattern AT_PTN = Pattern.compile("\\bAT\\b", Pattern.CASE_INSENSITIVE);
   
   public MDPrinceGeorgesCountyEParser() {
-    super("PRINCE GEORGES COUNTY", "MD",
-           "CODE? CALL ADDR PP? AT? X? PP2? ( CITY ST CH | CITY CH | CH! ) BOX MAP INFO+ Units:UNIT% UNIT+");
+    super("CODE? CALL ADDR PP? AT? X? PP2? ( CITY ST CH | CITY CH | CH! ) BOX MAP INFO+ Units:UNIT% UNIT+");
   }
   
   @Override
@@ -127,13 +126,4 @@ public class MDPrinceGeorgesCountyEParser extends FieldProgramParser {
     if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
-
-  
-  @Override
-  public String adjustMapAddress(String sAddress) {
-    // Undo various abbreviations of CAPITAL BELTWAY
-    return CAP_BELT_PTN.matcher(sAddress).replaceAll("CAPITAL BELTWAY");
-  }
-  private static final Pattern CAP_BELT_PTN = 
-      Pattern.compile("\\bCAP BELT(?:WAY)?(?: OL [A-Z]{1,2})(?: HWY)?\\b", Pattern.CASE_INSENSITIVE);
 }

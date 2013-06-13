@@ -1319,9 +1319,9 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:TBH SQ",
         "VQ:2013:7",
         "PNYY:RZF",
-        "NQQE:1751 H F UJL",
-        "PVGL:TBHIREARHE",
-        "NCG:11");
+        "NQQE:1751 HF UJL 11",
+        "ZNQQE:1751 HF 11",
+        "PVGL:TBHIREARHE");
 
     qbGrfg("G26",
         "(911 QVFCNGPU) TBH SQ:2013:6\aQvfcngpurq\aRZF\aPE 9 TBHIREARHE ARNE HF UJL 11 VAGREFRPGVBA - R FRPGBE #AL, TBHIREARHE",

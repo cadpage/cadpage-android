@@ -188,7 +188,7 @@ choyvp pynff ZBFgPuneyrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
          "VQ:060813-20476        Nffvfg - Pvgvmra (Sver)  20 Zrnqbjf Pvepyr Qe                              Zrnqbjf Ohvyqvat P2      NCG:     K FG:Qr\e",
          "VQ:060813-20476",
          "PNYY:Nffvfg - Pvgvmra (Sver)",
-         "NQQE:20 Zrnqbjf Pvepyr Qe",
+         "NQQE:20 Zrnqbjf Pvepyr Qe",   // Abg znccvat
          "CYNPR:Zrnqbjf Ohvyqvat P2",
          "NCG:K FG:Qr");
 

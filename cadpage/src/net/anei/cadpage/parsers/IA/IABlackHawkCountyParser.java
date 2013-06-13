@@ -93,19 +93,63 @@ public class IABlackHawkCountyParser extends FieldProgramParser {
   
   private boolean oldParseMsg(String body, Data data) {
     
-    // city is awkward because they sometimes use / and sometimes blank to
-    // delineate it
-    int pt = Math.max(body.lastIndexOf(' '), body.lastIndexOf('/'));
-    if (pt < 0) return false;
-    data.strCity = body.substring(pt+1).trim();
-    body = body.substring(0, pt).trim();
+    setFieldList("CALL DATE TIME ADDR X PLACE APT CITY UNIT");
     
-    // Parse description and address, anything left is a cross street
-    parseAddress(StartType.START_CALL, body, data);
-    data.strCross = getLeft();
+    Matcher match = UNIT_PTN.matcher(body);
+    if (match.find()) {
+      data.strUnit = match.group().trim();
+      body = body.substring(0,match.start());
+    }
+    
+    match = CITY_PTN.matcher(body);
+    if (match.find()) {
+      data.strCity = match.group(1);
+      body = body.substring(0,match.start());
+    }
+    
+    // Sometimes there is a Reported: date/time between call and address
+    // and sometimes there is not
+    StartType st = StartType.START_CALL;
+    int flags = FLAG_START_FLD_REQ;
+    match = DATE_TIME_PTN.matcher(body);
+    if (match.find()) {
+      st = StartType.START_ADDR;
+      flags = 0;
+      data.strCall = body.substring(0,match.start());
+      body = body.substring(match.end());
+    }
+    
+    // Parse description and address, cross street and place name
+    parseAddress(st, flags | FLAG_CROSS_FOLLOWS | FLAG_NO_IMPLIED_APT, body, data);
+    String left = getLeft();
+    
+    int pt = left.lastIndexOf('#');
+    if (pt >= 0) {
+      data.strApt = append(data.strApt, "-", left.substring(pt+1).trim());
+      left = left.substring(0,pt).trim();
+    }
+    
+    pt = left.indexOf('/');
+    String cross = "";
+    if (pt >= 0) {
+      cross = left.substring(0,pt).trim();
+      left = left.substring(pt+1).trim();
+    }
+    parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, left, data);
+    data.strCross = append(cross, " / ", data.strCross);
+    data.strPlace = getLeft();
+    if (data.strPlace.startsWith("/")) {
+      data.strCross = append(data.strCross, " ", data.strPlace);
+      data.strPlace = "";
+    }
+    
+    if (data.strPlace.equals("EN") || data.strPlace.equals("ST")) data.strPlace = "";
     
     return true;
   }
+  private static final Pattern UNIT_PTN = Pattern.compile("(?:[ /]+\\d[A-Z\\d]{2,3})+$");
+  private static final Pattern CITY_PTN = Pattern.compile("[ /]+([A-Z]+)$");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile(" +Reported: *(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d:\\d\\d) +");
   
   private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
       // Incorporated cities

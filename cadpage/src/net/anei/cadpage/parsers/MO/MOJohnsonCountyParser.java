@@ -17,10 +17,11 @@ public class MOJohnsonCountyParser extends SmartAddressParser {
     "JOHNSON COUNTY MO"
   };
   
-  private static final Pattern MARKER = Pattern.compile("^(?:Dispatch: +)?\\d{1,2}/\\d{1,2}/\\d{4} \\d\\d:\\d\\d:\\d\\d +");
+  private static final Pattern MARKER = Pattern.compile("\\b(?:Dispatch: +)?(\\d{1,2}/\\d{1,2}/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)\\b");
  
   public MOJohnsonCountyParser() {
     super(CITY_LIST, "JOHNSON COUNTY", "MO");
+    setFieldList("CALL ADDR APT CITY DATE TIME");
   }
   
   @Override
@@ -43,7 +44,14 @@ public class MOJohnsonCountyParser extends SmartAddressParser {
     } while (false);
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
-    body = body.substring(match.end()).trim().replace(',', ' ');
+    data.strDate = match.group(1);
+    data.strTime = match.group(2);
+    if (match.start() == 0) {
+      body = body.substring(match.end()).trim();
+    } else if (match.end() == body.length()) {
+      body = body.substring(0,match.start());
+    } else return false;
+    
     parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, body, data);
     if (data.strCity.startsWith("JOHNSON COUNTY")) data.strCity = "";
     return true;

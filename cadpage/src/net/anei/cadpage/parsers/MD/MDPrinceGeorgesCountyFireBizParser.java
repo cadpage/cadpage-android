@@ -4,29 +4,15 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * Prince Georges County, MD
  */
-public class MDPrinceGeorgesCountyFireBizParser extends FieldProgramParser {
-  
-  private static final Properties COUNTY_CODES = buildCodeTable(new String[]{
-      "PG", "PRINCE GEORGES COUNTY",
-      "CH", "CHARLES COUNTY",
-      "AA", "ANNE ARUNDEL COUNTY",
-      "HO", "HOWARD COUNTY",
-      "DC", "WASHINGTON"
-  });
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "PA", "PASSADENA"
-  });
+public class MDPrinceGeorgesCountyFireBizParser extends MDPrinceGeorgesCountyBaseParser {
   
   public MDPrinceGeorgesCountyFireBizParser() {
-    super("PRINCE GEORGES COUNTY", "MD",
-         "MAPCALL! UNIT! ADDR! EXTRA+? URL END");
+    super("MAPCALL! UNIT! ADDR! EXTRA+? URL END");
   }
   
   @Override
@@ -154,4 +140,16 @@ public class MDPrinceGeorgesCountyFireBizParser extends FieldProgramParser {
     if (name.equals("EXTRA")) return new MyExtraField();
     return super.getField(name);
   }
+  
+  private static final Properties COUNTY_CODES = buildCodeTable(new String[]{
+      "PG", "PRINCE GEORGES COUNTY",
+      "CH", "CHARLES COUNTY",
+      "AA", "ANNE ARUNDEL COUNTY",
+      "HO", "HOWARD COUNTY",
+      "DC", "WASHINGTON"
+  });
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "PA", "PASSADENA"
+  });
 }

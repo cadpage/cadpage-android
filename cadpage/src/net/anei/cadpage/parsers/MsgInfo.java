@@ -724,14 +724,13 @@ public class MsgInfo {
     Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY) *(ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGHWAY) +(\\d+[NSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
     Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY) +(\\d+|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY)\\b", Pattern.CASE_INSENSITIVE)
   };
-  private static final Pattern REV_HWY_PTN = Pattern.compile("(?<!-)\\b(\\d+) *(HWY|RT|RTE|ROUTE)(?=$| *&)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern REV_HWY_PTN = Pattern.compile("(?<!-)\\b(\\d+|([A-Z&&[^NSEW]])\\2?\\b) *(HWY|RT|RTE|ROUTE)(?=$| *&)", Pattern.CASE_INSENSITIVE);
   private static final Pattern I_FWY_PTN = Pattern.compile("\\b(I[- ]\\d+) +[FH]WY\\b", Pattern.CASE_INSENSITIVE);
   private String cleanDoubleRoutes(String sAddress) {
     
     String state = getStateCode();
     if (state.length() == 0) state = defState;
     String repState = getRepState(state);
-    
     for (Pattern ptn : DBL_ROUTE_PTNS) {
       Matcher match = ptn.matcher(sAddress);
       if (!match.find()) continue;
@@ -768,7 +767,7 @@ public class MsgInfo {
     // Google also doesn't like I-20 fwy contructs
     sAddress = I_FWY_PTN.matcher(sAddress).replaceAll("$1");
     
-    sAddress = REV_HWY_PTN.matcher(sAddress).replaceAll("$2 $1");
+    sAddress = REV_HWY_PTN.matcher(sAddress).replaceAll("$3 $1");
     return sAddress;
   }
 

@@ -11,11 +11,12 @@ choyvp pynff ZftVasbGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-    qbZncGrfg("EG3", "JR75 & KK 10,XRAOHET,KK", "JR75&KK10");
   }
 
   @Grfg
   choyvp ibvq grfgTrgZncNqqerff() {
+    
+    qbZncGrfg("ZBWbuafbaPbhagl", "AR UJL SS & AR UJL 50,XRAOHET,KK", "AR SS UJL & AR 50 UJL");
     
     qbZncGrfg("ALFgYnjeraprPbhagl", "5771 PBHAGL EBNQ 10,XRAOHET,KK", "5771 PB EG 10");
     

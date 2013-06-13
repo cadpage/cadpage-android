@@ -181,7 +181,7 @@ choyvp pynff ZQCevaprTrbetrfPbhaglSverOvmCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:CVN-UVTUJNL",
         "HAVG:N827 FD827",
         "NQQE:FO PNC ORYG VY N UJL & AO OENAPU NIR",
-        "ZNQQE:PNC ORYG VY N UJL & OENAPU NIR",
+        "ZNQQE:PNCVGNY ORYGJNL & OENAPU NIR",
         "QNGR:07/06",
         "GVZR:10:20",
         "HEY:uggc://sveroyvgm.pbz/27/5.fugz");

@@ -1159,7 +1159,8 @@ choyvp pynff XLYbhvfivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 9200 H F UVTUJNL 42 CEB: @CEBFCRPG CBYVPR QRCNEGZRAG GLCR PBQR: FP1021 FHO GLCR: qrsnhyg GVZR: 22:23:48 ",
-        "NQQE:9200 H F UVTUJNL 42",
+        "NQQE:9200 HF UVTUJNL 42",
+        "ZNQQE:9200 HF 42",
         "PVGL:CEBFCRPG",
         "CYNPR:CEBFCRPG CBYVPR QRCNEGZRAG",
         "PBQR:FP1021",
