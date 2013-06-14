@@ -15,7 +15,6 @@ Fraqre: 911qvfcngpu@pb.nezfgebat.cn.hf
 [Qvfcngpu]  580 A PUREEL FG UBBXF YA / FCEHPR YA SFGE2 41628 13:58 7246640045
 [Qvfcngpu]  868 FGNGR EBHGR 28/66 ZRPUYVAT EQ / FYBNA UVYY EQ INRAG 42068 15:55 7248597657
 
-Nezfgebat Pbhagl, CN
 Pbagnpg: oenaqba xvytber <sverstugre10@tznvy.pbz>
 Fraqre: 911Qvfcngpu@pb.nezfgebat.cn.hf
 (Qvfcngpu) SERRCBEG EQ, HF EBHGR 422 / CBAL SNEZ EQ, HF EBHGR 422 INRAG 3706 06:42
@@ -41,6 +40,10 @@ Fraqre: 911Qvfcngpu@pb.nezfgebat.cn.hf
 Pbagnpg: Rnfg Senaxyva & Nccyrjbyq ISQ <rnfgsenaxyvasver@lnubb.pbz>
 Fraqre: 911Qvfcngpu@pb.nezfgebat.cn.hf
 (Qvfcngpu) 610 RNFG OENQL EQ EBYYVAT UVYYF EQ / OBYGM EQ 19932 17:03 7248598547 INRAG
+
+Pbagnpg: oenaqba xvytber <o53xym@tznvy.pbz>
+Fraqre: 911Qvfcngpu@pb.nezfgebat.cn.hf
+(Qvfcngpu) GRFG NHGBZNGVP SVER NYNEZ  RNFG SENAXYVA SVER QRCNEGZRAG ZNVA 165 RNFG OENQL EQ SVERUBHFR YA / FUREJBBQ QE 19974 23:17
 
 */
 
@@ -105,14 +108,14 @@ choyvp pynff CNNezfgebatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCnefreOenaqba() {
 
-    qbGrfg("G1",
-        "(Qvfcngpu) SERRCBEG EQ, HF EBHGR 422 / CBAL SNEZ EQ, HF EBHGR 422 INRAG 3706 06:42",
-        "NQQE:SERRCBEG EQ & HF EBHGR 422",
-        "ZNQQE:SERRCBEG EQ & HF 422",
-        "K:CBAL SNEZ EQ / HF EBHGR 422",
-        "PNYY:INRAG",
-        "VQ:3706",
-        "GVZR:06:42");
+//    qbGrfg("G1",
+//        "(Qvfcngpu) SERRCBEG EQ, HF EBHGR 422 / CBAL SNEZ EQ, HF EBHGR 422 INRAG 3706 06:42",
+//        "NQQE:SERRCBEG EQ & HF EBHGR 422",
+//        "ZNQQE:SERRCBEG EQ & HF 422",
+//        "K:CBAL SNEZ EQ / HF EBHGR 422",
+//        "PNYY:INRAG",
+//        "VQ:3706",
+//        "GVZR:06:42");
 
     qbGrfg("G2",
         "(Qvfcngpu) 13 UVYYGBC CYNMN PBZZREPR QE / SENAXYVA UVYY EQ UBYVQNL VAASNSNYE 5238 15:39 8887467539",
@@ -228,6 +231,20 @@ choyvp pynff CNNezfgebatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:7248598547",
         "PNYY:INRAG");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOenaqbaXvytber2() {
+
+    qbGrfg("G1",
+        "(Qvfcngpu) GRFG NHGBZNGVP SVER NYNEZ  RNFG SENAXYVA SVER QRCNEGZRAG ZNVA 165 RNFG OENQL EQ SVERUBHFR YA / FUREJBBQ QE 19974 23:17",
+        "PNYY:GRFG NHGBZNGVP SVER NYNEZ",
+        "CYNPR:RNFG SENAXYVA SVER QRCNEGZRAG ZNVA",
+        "NQQE:165 RNFG OENQL EQ",
+        "K:SVERUBHFR YA / FUREJBBQ QE",
+        "VQ:19974",
+        "GVZR:23:17");
+
   }
   
   
