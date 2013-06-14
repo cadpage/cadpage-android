@@ -9,43 +9,39 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MOStLouisCountyAParser extends MsgParser {
   
-  private static final Pattern TIME_STAMP = Pattern.compile("\\d\\d:\\d\\d");
-  private static final Pattern CALL_PTN = Pattern.compile("(\\([A-Z ]+\\) - *.*) - ");
+  private static final Pattern MASTER_PTN = Pattern.compile("(.*?) \\(([A-Z /]+?)\\) -(.*?)\\b(\\d\\d:\\d\\d)$");
 
   public MOStLouisCountyAParser() {
     super("ST LOUIS COUNTY", "MO");
-    setFieldList("PLACE ADDR CALL UNIT");
+    setFieldList("PLACE ADDR APT CALL INFO UNIT CODE TIME");
   }
   
   @Override
   public String getFilter() {
-    return "nccfas@ncc911.org";
+    return "nccfas@ncc911.org,timparks@sbcglobal.net";
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
-    if (!body.contains(") - ")) return false;
-    
-    // Last token in message body should be a time stamp.  If it is, strip it
-    // off the message body.  If not, set the expect more data flag
-    int pt = body.lastIndexOf(' ');
+  
+    Matcher match = MASTER_PTN.matcher(body);
+    if (!match.matches()) return false;
+    String address = match.group(1);
+    data.strCall = match.group(2);
+    body = match.group(3);
+    data.strTime = match.group(4);
+
+    int pt = address.indexOf(',');
     if (pt >= 0) {
-      String token = body.substring(pt+1);
-      if (TIME_STAMP.matcher(token).matches()) {
-        body = body.substring(0,pt).trim();
-      } else {
-        data.expectMore = true;
-      }
+      data.strPlace = address.substring(0,pt).trim();
+      address = address.substring(pt+1).trim();
     }
-    
-    Matcher match = CALL_PTN.matcher(body);
-    if (!match.find()) return false;
-    data.strCall = match.group(1);
-    data.strUnit = body.substring(match.end()).trim();
-    Parser p = new Parser(body.substring(0,match.start()).trim());
-    data.strPlace = p.getOptional(',');
-    parseAddress(p.get(), data);
+    parseAddress(address, data);
+
+    Parser p = new Parser(body);
+    data.strSupp = p.get(" - ");
+    data.strUnit = p.get(" - ");
+    data.strCode = p.get();
     
     return true;
   }
