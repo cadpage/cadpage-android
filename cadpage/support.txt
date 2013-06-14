@@ -706,16 +706,20 @@ Good luck
 -Ken
 
 ***************************************************************************
-* Direct paging registered but pages missing or delayed 
-* Use is registered with Direct paging vendor
+* Active911 user not receiving pages
+* Cadpage shows it is registered with Active911 
+* Swift shows correct page type and registration ID
 ******************************************************************
 
-Go into Cadpage Settings and select
+Go into Cadpage Settings and Select
 Direct Paging Vendors > Reconnect Direct Paging
-That usually fixes problems with delayed or missing direct pages.
+
+Next, get whoever sets up your device with Active911 to use the Active911 web page to send a test message to your phone.  If that does not arrive in a timely manner, use the Cadpage Email the Developer feature to send us another email.  That will contain an event log that might show something useful.
+
+If you do get the test page, but still do not receive real dispatch alerts, then something about your Active911 settings is preventing them from sending dispatch pages to you.  If your department Active911 administrator cannot figure out what that is, try contacting Active911 support for help.
 
 Good luck,
--Ken 
+-Ken
 
 ******************************************************************
 * Text paging delays 
