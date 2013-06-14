@@ -220,6 +220,8 @@ public abstract class SmartAddressParser extends MsgParser {
   
   private static final int ID_NEAR = 0x4000000;
   
+  private static final int ID_SINGLE_WORD_ROAD = 0x8000000;
+  
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
   // List of multiple word cities
@@ -337,6 +339,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_APPT, "APT:", "APT", "APTS", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT");
     setupDictionary(ID_STREET_NAME_PREFIX, "LAKE", "MT", "MOUNT", "SUNKEN");
     setupDictionary(ID_NOT_ADDRESS, "YOM", "YOF", "YO");
+    setupDictionary(ID_SINGLE_WORD_ROAD, "TURNPIKE");
     
     // Set up special cross street names
     String[] crossRoadList = new String[]{
@@ -2024,6 +2027,9 @@ public abstract class SmartAddressParser extends MsgParser {
   // Determine if token is a single standalone road token
   // such as I-234, or US50, or RT250NB :(
   private boolean isRoadToken(int ndx) {
+    
+    // If reserved single word name, answer is yes
+    if (isType(ndx, ID_SINGLE_WORD_ROAD)) return true;
     
     // If illegal char, answer is no
     if (isType(ndx, ID_NOT_ADDRESS | ID_CONNECTOR)) return false;
