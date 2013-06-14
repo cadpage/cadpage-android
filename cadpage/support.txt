@@ -1,13 +1,6 @@
 
 support@cadpage.org
 
-******************************************************************
-
-This should be fixed in the current Cadpage release, which is available from Google Play Store.
-
-Have a nice day,
--Ken
-
 ***************************************************************************
 
 Those are coming from CodeMessaging, and CodeMessaging has been
@@ -573,6 +566,13 @@ Have a nice day,
 This problem has been fixed in the beta release that you can install from  http://www.cadpage.org/download-cadpage/
 
 Sorry for the inconvenience,
+-Ken
+
+******************************************************************
+
+This should be fixed in the current Cadpage release, which is available from Google Play Store.
+
+Have a nice day,
 -Ken
 
 ******************************************************************
