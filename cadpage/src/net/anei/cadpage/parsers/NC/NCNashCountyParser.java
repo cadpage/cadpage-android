@@ -88,7 +88,9 @@ public class NCNashCountyParser extends SmartAddressParser {
       "PSYC.SUI-H",
       "SEIZURES-H",
       "STRUCTURE",
-      "TRAUMA-H"
+      "TRAUMA-H",
+      
+      "ALL FIRE RELATED ALARMS"
   );
   
   private static final String[] CITY_LIST = new String[]{

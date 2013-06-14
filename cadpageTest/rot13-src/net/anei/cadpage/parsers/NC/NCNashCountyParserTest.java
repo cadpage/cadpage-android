@@ -40,6 +40,10 @@ Pbagnpg: Pngul Onvarf <ponvarf1966@tznvy.pbz>
 Fraqre: ANFU911@anfupbhaglap.tbi
 ANFU911:4174 SBHAGNVA OENAPU PG EBPXL ZBHAG URNEG CE-U ZBETNA, PNGUREVAR 4SE1 06/07/2013 08:52:30 : cbf16 : JGEVZZRE0219 RZQ Erpbzzraqrq Qvfcngpu Erfcbafr Grkg: UBG Qvfcngpu Yriry: 19Q04 PNQ Vapvqrag Pbqr: URNEG CE-U Xrl Dhrfgvbaf: 82 lrne
 
+Pbagnpg: Eboreg Nzrefba <ernzrefba614@tznvy.pbz>
+Fraqre: ANFU911@anfupbhaglap.tbi
+ANFU911:6833 F AP 58 RYZ PVGL PBBCREF FPUBBY EQ IBYHAGRRE EQ NYY SVER ERYNGRQ NYNEZF 14SQ1,15SQ1,4SQ1,RZF1 06/11/2013 08:24:36 : cbf1 : PJRYYF5404 RSQ 
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jrfg Zbhag ISQ
 Ybpngvba: Ebpxl Zbhag, AP, Havgrq Fgngrf
@@ -232,6 +236,23 @@ choyvp pynff APAnfuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:06/07/2013",
         "GVZR:08:52:30",
         "VASB:RZQ Erpbzzraqrq Qvfcngpu Erfcbafr Grkg: UBG Qvfcngpu Yriry: 19Q04 PNQ Vapvqrag Pbqr: URNEG CE-U Xrl Dhrfgvbaf: 82 lrne");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEboregNzrefba2() {
+
+    qbGrfg("G1",
+        "ANFU911:6833 F AP 58 RYZ PVGL PBBCREF FPUBBY EQ IBYHAGRRE EQ NYY SVER ERYNGRQ NYNEZF 14SQ1,15SQ1,4SQ1,RZF1 06/11/2013 08:24:36 : cbf1 : PJRYYF5404 RSQ ",
+        "NQQE:6833 F AP 58",
+        "ZNQQE:6833 F FGNGR 58",
+        "PVGL:RYZ PVGL",
+        "K:PBBCREF FPUBBY EQ / IBYHAGRRE EQ",
+        "PNYY:NYY SVER ERYNGRQ NYNEZF",
+        "HAVG:14SQ1,15SQ1,4SQ1,RZF1",
+        "QNGR:06/11/2013",
+        "GVZR:08:24:36",
+        "VASB:RSQ");
 
   }
   

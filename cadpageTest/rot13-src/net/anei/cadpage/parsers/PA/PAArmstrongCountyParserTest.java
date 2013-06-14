@@ -44,6 +44,7 @@ Fraqre: 911Qvfcngpu@pb.nezfgebat.cn.hf
 Pbagnpg: oenaqba xvytber <o53xym@tznvy.pbz>
 Fraqre: 911Qvfcngpu@pb.nezfgebat.cn.hf
 (Qvfcngpu) GRFG NHGBZNGVP SVER NYNEZ  RNFG SENAXYVA SVER QRCNEGZRAG ZNVA 165 RNFG OENQL EQ SVERUBHFR YA / FUREJBBQ QE 19974 23:17
+(Qvfcngpu) R1 PURFG QVFPBZSBEG  128 R  ENVYEBNQ NIR A FPUBBY FG / CRAA NIR 20067 16:35
 
 */
 
@@ -244,6 +245,19 @@ choyvp pynff CNNezfgebatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:SVERUBHFR YA / FUREJBBQ QE",
         "VQ:19974",
         "GVZR:23:17");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRinaXrrare2() {
+
+    qbGrfg("G1",
+        "(Qvfcngpu) R1 PURFG QVFPBZSBEG  128 R  ENVYEBNQ NIR A FPUBBY FG / CRAA NIR 20067 16:35",
+        "PNYY:R1 PURFG QVFPBZSBEG",
+        "NQQE:128 R ENVYEBNQ NIR",
+        "K:A FPUBBY FG / CRAA NIR",
+        "VQ:20067",
+        "GVZR:16:35");
 
   }
   
