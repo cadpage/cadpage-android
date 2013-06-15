@@ -4,6 +4,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Properties;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -16,12 +17,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class ALShelbyCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("(?:SHELBY(?: ?911)? )?ARNS ALERT");
-  private static final Pattern MARKER_PTN = Pattern.compile("^(?:SHELBY )?ARNS ALERT / ");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("(?:SHELBY(?: ?911)? |SC911-)?ARNS ALERT");
+  private static final Pattern MARKER_PTN = Pattern.compile("^(?:SHELBY |SC911-)?ARNS ALERT / ");
   
   public ALShelbyCountyParser() {
     super("SHELBY COUNTY", "AL",
-           "DATETIME ID SRC CALL PLACE ADDR! ADDR2? INFO+");
+           "( TYPE DATETIME ID SRC CALL ADDR3 ( X NAME | ) UNIT! | DATETIME ID SRC CALL PLACE ADDR! ADDR2? INFO+ )");
   }
   
   @Override
@@ -42,30 +43,66 @@ public class ALShelbyCountyParser extends FieldProgramParser {
       
       return false;
     } while (false);
+    
+    // Check for run report
+    if (body.startsWith("CadCloseEvent\n")) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body.substring(15).trim();
+      return true;
+    }
+    
     if (!parseFields(body.split("\n"), 6, data)) return false;
     if (data.strAddress.length() == 0) {
-      data.strAddress = "";
       parseAddress(data.strCross, data);
       data.strCross = "";
     }
     return true;
   }
+
+  private static final Pattern DATE_TIME_PTN1 = Pattern.compile("\\d{4}-\\d\\d-\\d\\dT\\d\\d:\\d\\d:\\d\\dZ");
+  private static final DateFormat DATE_TIME_FMT1 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
   
-  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
+  private static final Pattern DATE_TIME_PTN2 = Pattern.compile("[A-Z][a-z]{2} \\d\\d? \\d{4} +\\d\\d?:\\d\\d[AP]M");
+  private static final DateFormat DATE_TIME_FMT2 = new SimpleDateFormat("MMM dd yyyy hh:mmaa");
+  
+  private static final Pattern DATE_TIME_PTN3 = Pattern.compile("\\d\\d?/\\d\\d?/\\d{4} \\d\\d?:\\d\\d:\\d\\d [AP]M");
+  private static final DateFormat DATE_TIME_FMT3 = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa");
+  
   private class MyDateTimeField extends DateTimeField {
     @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = DATE_TIME_PTN1.matcher(field);
+      if (match.matches()) {
+        setDateTime(DATE_TIME_FMT1, field, data);
+        return true;
+      }
+      
+      match = DATE_TIME_PTN2.matcher(field);
+      if (match.matches()) {
+        setDateTime(DATE_TIME_FMT2, field, data);
+        return true;
+      }
+      
+      match = DATE_TIME_PTN3.matcher(field);
+      if (match.matches()) {
+        setDateTime(DATE_TIME_FMT3, field, data);
+        return true;
+      }
+      
+      return false;
+    }
+    
+    @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(' ');
-      if (pt < 0) abort();
-      data.strDate = field.substring(0,pt);
-      setTime(TIME_FMT, field.substring(pt+1), data);
+      if (!checkParse(field, data)) abort();
     }
   }
   
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
-      if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
+      if (field.endsWith("-default")) field = field.substring(0,field.length()-8).trim();
+      else if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
       super.parse(field, data);
     }
   }
@@ -75,6 +112,65 @@ public class ALShelbyCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (PLACE_SRC_PTN.matcher(field).matches()) return;
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern ADDR_APT_PTN = Pattern.compile("[ ,]+(?:(?:APT|RM) *([^ ]+)|(LOT *[^ ]+))$");
+  private static final Pattern ADDR_CITY_CODE_PTN = Pattern.compile(" +([A-Z]{4}) +[A-Z]{3}$");
+  private class MyAddress3Field extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // Look for trailing apt pattern
+      Matcher match = ADDR_APT_PTN.matcher(field);
+      if (match.find()) {
+        data.strApt = match.group(1);
+        if (data.strApt == null) data.strApt = match.group(2);
+        field = field.substring(0,match.start());
+      }
+      
+      // Process trailing place name
+      int pt = field.indexOf(": @");
+      if (pt >= 0) {
+        data.strPlace = field.substring(pt+3).trim();
+        field = field.substring(0,pt);
+      }
+
+      // Process city code.  We don't know what the last 3 character code is, for now ignore it
+      match = ADDR_CITY_CODE_PTN.matcher(field);
+      if (!match.find()) abort();
+      data.strCity = convertCodes(match.group(1),  CITY_CODES);
+      field = field.substring(0,match.start());
+      
+      parseAddress(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR CITY PLACE APT";
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.contains(":")) return false;
+      parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace(':', '/');
+      if (field.endsWith("/")) {
+        field = field.substring(0,field.length()-1).trim();
+      }
       super.parse(field, data);
     }
   }
@@ -165,14 +261,34 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("TYPE")) return new SkipField("Cad.*", true);
     if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR3")) return new MyAddress3Field();
+    if (name.equals("X"))  return new MyCrossField();
+    
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("ADDR2")) return new MyAddress2Field();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ALAB", "ALABASTER",
+      "ALMT", "MONTEVALLO",
+      "CALE", "CALERA",
+      "CALJ", "CALERA",
+      "COLU", "COLUMBIANA",
+      "KING", "COLUMBIANA",
+      "MONT", "MONTEVALLO",
+      "SHEL", "SHELBY",
+      "SUMH", "",
+      "WEST", "WESTOVER",
+      "WILS", "WILSONVILLE",
+      "WSHE", "MONTEVALLO"
+      
+  });
   
   private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(
     
