@@ -14,6 +14,8 @@ public class NCNashCountyParser extends SmartAddressParser {
   private static final Pattern DATE_TIME_PTN2 = Pattern.compile(" (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)\\b");
   private static final Pattern DATE_TIME_PTN3 = Pattern.compile(" \\d\\d/[\\d /:]*$");
   
+  private static final Pattern UNIT_PTN = Pattern.compile("[\\dA-Z,]*\\d[A-Z]*");
+  
   public NCNashCountyParser() {
     super(CITY_LIST, "NASH COUNTY", "NC");
     setFieldList("ADDR APT CITY X CALL NAME UNIT DATE TIME INFO");
@@ -51,6 +53,7 @@ public class NCNashCountyParser extends SmartAddressParser {
     
     body = body.replace("//", "/");
     parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, body, data);
+    if (data.strCity.equals("EDGECOMBE CO")) data.strCity = "EDGECOMBE COUNTY";
     String left = getLeft();
     if (left.length() == 0) return false;
     
@@ -61,36 +64,46 @@ public class NCNashCountyParser extends SmartAddressParser {
       left = res.getLeft();
     }
     
-    Parser p;
+    // Last token of what is left is "usually" a unit designation
+    // But only if it contains at least one digit
+    Parser p =  new Parser(left);
+    String unit = p.getLast(' ');
+    if (UNIT_PTN.matcher(unit).matches()) {
+      data.strUnit = unit;
+      left = p.get();
+    }
+    
+    // Now things get sticky.
+    // What is left is either specific call code (which may be multiple words)
+    // followed by a name.  Or is all call description :(
     String call = CALL_SET.getCode(left);
     if (call != null) {
-      p = new Parser(left.substring(call.length()).trim());
+      data.strCall = call;
+      data.strName = cleanWirelessCarrier(left.substring(call.length()).trim());
     } else {
-      p = new Parser(left);
-      call = p.get(' ');
+      data.strCall = left;
     }
-    data.strCall = call;
-    data.strUnit = p.getLast(' ');
-    data.strName = cleanWirelessCarrier(p.get());
     return true;
   }
   
   private static final CodeSet CALL_SET = new CodeSet(
+      "ABD-H",
       "ALARM-FIRE",
+      "BREATH-H",
       "CHEST-H",
       "DIABETIC-H",
+      "FALLS-H",
       "GAS LEAK",
       "HEART PR-H",
       "MEDICAL",
       "MVA PI-H",
       "MVA PIN-H",
       "OUTSIDE FI",
-      "PSYC.SUI-H",
+      "PSYC/SUI-H",
       "SEIZURES-H",
       "STRUCTURE",
       "TRAUMA-H",
-      
-      "ALL FIRE RELATED ALARMS"
+      "UNCONSC-H"
   );
   
   private static final String[] CITY_LIST = new String[]{
@@ -121,6 +134,8 @@ public class NCNashCountyParser extends SmartAddressParser {
       "ROCKY MOUNT",
       "SPRING HOPE",
       "SOUTH WHITAKERS",
-      "STONY CREEK"
+      "STONY CREEK",
+      
+      "EDGECOMBE CO"
   };
 }
