@@ -27,7 +27,7 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "arns@shelby911.org,arns@shelbyal.com";
+    return "arns@shelby911.org,arns@shelbyal.com,1410";
   }
   
   @Override
@@ -280,6 +280,7 @@ public class ALShelbyCountyParser extends FieldProgramParser {
       "CALE", "CALERA",
       "CALJ", "CALERA",
       "COLU", "COLUMBIANA",
+      "HELN", "HELENA",
       "KING", "COLUMBIANA",
       "MONT", "MONTEVALLO",
       "SHEL", "SHELBY",
