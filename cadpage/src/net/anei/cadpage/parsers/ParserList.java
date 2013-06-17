@@ -718,8 +718,9 @@ public class ParserList {
               ,"TXMontgomeryCounty"             ,"Montgomery County, TX"
               ,"TXNuecesCounty"                 ,"Nueces County, TX"
               ,"TXParkerCounty"                 ,"Parker County, TX"
-              ,"TXTarrantCounty"                ,"Tarrent County, TX"
               ,"TXRockwallCounty"               ,"Rockwall County, TX"
+              ,"TXTarrantCounty"                ,"Tarrent County, TX"
+              ,"TXTravisCounty"                 ,"Travis County, TX"
               ,"TXWebster"                      ,"Webster, TX"
               ,"TXWilliamsonCounty"             ,"Williamson County, TX"
           ),
