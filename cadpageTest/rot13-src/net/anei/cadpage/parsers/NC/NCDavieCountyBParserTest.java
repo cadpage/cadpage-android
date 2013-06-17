@@ -289,6 +289,7 @@ choyvp pynff APQnivrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:321 NIBA FG",
         "PVGL:ZBPXFIVYYR",
         "K:ENLZBAQ FG & F GBG FG",
+        "CYNPR:100 OYBPX ENLZBAQ FG GB 400 OYBPX GBG FG",
         "PBQR:SNYY");
  
   }

@@ -117,6 +117,11 @@ public class DispatchA3Parser extends FieldProgramParser {
       }
       super.parse(field, data);
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO PLACE";
+    }
   }
   
   private static final Pattern LINE_PTN = Pattern.compile("Line\\d+=");
