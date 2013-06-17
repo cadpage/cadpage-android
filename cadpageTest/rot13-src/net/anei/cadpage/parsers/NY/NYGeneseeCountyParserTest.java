@@ -14,6 +14,10 @@ Pbagnpg: Fgrir Funecr <ffunec7597@tznvy.pbz>
 Fraqre: 777393903612
 TRARFRR PBHAGL QVFCNGPU Havg:TF94 Fgnghf:Qvfcngpurq ** Grfg Pnyy ** TPFB** 165 CNEX EQ , ONGNIVN ** onpx ebbz ** VAVGVNY QVFCNGPU ** IRGRENAF ZRZBEVNY QE / EVPUZBAQ NIR ** 06/13/13 11:18 ** 2013-00013125 GKG FGBC gb bcg-bhg\e
 
+Pbagnpg: Elna <uvam_elna@lnubb.pbz>
+Fraqre: 777396077042
+TRARFRR PBHAGL QVFCNGPU Havg:NK10 Fgnghf:Qvfcngpurq ** Npp CVNN ** ** OEBNQJNL EQ , ZNVA FG NYRKNAQRE ** ** PNE QRRE Z VAW R BS 98 BA EG 20 ** ** 06/16/13 14:
+
 Trareny nyregf
 (Qvfcngpu) ENVYEBNQ PEBFFVATF PYBFRQ SEBZ JBEGRAQLXR JRFG OL PFK - JBAG OR VA FREIVPR GVYY FBZRGVZR GBZBEEBJ NG RNEYVRFG\a\a\aPBASVQRAGVNYVGL ABGVPR:  Gur vasbezngvba pbagnvarq va guvf zrffntr naq nal qbphzragf, svyrf, cerivbhf zrffntrf be bgure vasbezngvba nggnpurq gb vg, znl or cevivyrtrq, pbasvqragvny naq cebgrpgrq sebz qvfpybfher. Vs gur ernqre bs guvf zrffntr vf abg gur vagraqrq erpvcvrag(f), lbh ner urerol abgvsvrq gung nal qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf vzzrqvngryl ol ercylvat gb gur zrffntr naq qryrgvat vg sebz lbhe pbzchgre.�  
 (Qvfcngpu) Nyy PFK EE pebffvatf ner abj bcra.\a\a\aPBASVQRAGVNYVGL ABGVPR:  Gur vasbezngvba pbagnvarq va guvf zrffntr naq nal qbphzragf, svyrf, cerivbhf zrffntrf be bgure vasbezngvba nggnpurq gb vg, znl or cevivyrtrq, pbasvqragvny naq cebgrpgrq sebz qvfpybfher. Vs gur ernqre bs guvf zrffntr vf abg gur vagraqrq erpvcvrag(f), lbh ner urerol abgvsvrq gung nal qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl hf vzzrqvngryl ol ercylvat gb gur zrffntr naq qryrgvat vg sebz lbhe pbzchgre.�  
@@ -535,6 +539,20 @@ choyvp pynff ALTrarfrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:06/13/13",
         "GVZR:11:18",
         "VQ:2013-00013125");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgElna() {
+
+    qbGrfg("G1",
+        "TRARFRR PBHAGL QVFCNGPU Havg:NK10 Fgnghf:Qvfcngpurq ** Npp CVNN ** ** OEBNQJNL EQ , ZNVA FG NYRKNAQRE ** ** PNE QRRE Z VAW R BS 98 BA EG 20 ** ** 06/16/13 14:",
+        "HAVG:NK10",
+        "PNYY:Npp CVNN - PNE QRRE Z VAW R BS 98 BA EG 20",
+        "NQQE:OEBNQJNL EQ & ZNVA FG",
+        "PVGL:NYRKNAQRE",
+        "QNGR:06/16/13",
+        "GVZR:14:");
 
   }
   

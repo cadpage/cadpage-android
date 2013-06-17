@@ -153,6 +153,7 @@ public class ParserList {
               ,"CAShastaCounty"                 ,"Shasta County, CA"
               ,"CASonomaCounty"                 ,"Sonoma County, CA"
               ,"CAVenturaCounty"                ,"Ventura County, CA"
+              ,"CAYoloCounty"                   ,"Yolo County, CA"
           ),
           new ParserCategory("Colorado"
               ,"COAdamsCounty"                  ,"Adams County, CO"

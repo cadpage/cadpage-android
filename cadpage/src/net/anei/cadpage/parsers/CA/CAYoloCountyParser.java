@@ -3,17 +3,17 @@ package net.anei.cadpage.parsers.CA;
 import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 
 /**
- * Butte County, CA
+ * Yolo County, CA
  */
-public class CAOrovilleParser extends DispatchA20Parser {
+public class CAYoloCountyParser extends DispatchA20Parser {
   
-  public CAOrovilleParser() {
-    super("OROVILLE", "CA");
+  public CAYoloCountyParser() {
+    super("YOLO COUNTY", "CA");
   }
   
   @Override
   public String getFilter() {
-    return "@OROPD.ORG";
+    return "CLARK@ci.davis.ca.us";
   }
   
   @Override
