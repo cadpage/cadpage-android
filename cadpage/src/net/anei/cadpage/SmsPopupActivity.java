@@ -146,7 +146,7 @@ public class SmsPopupActivity extends Safe40Activity {
     exitingKeyguardSecurely = false;
     
     // Supposed to workaround Android 4 problem
-    setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
+    // setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
   }
 
   @Override
@@ -632,14 +632,6 @@ public class SmsPopupActivity extends Safe40Activity {
     });
   }
 
-
-  @Override
-  public void onConfigurationChanged(Configuration newConfig) {
-    super.onConfigurationChanged(newConfig);
-    if (Log.DEBUG) Log.v("SMSPopupActivity: onConfigurationChanged()");
-    resizeLayout();
-  }
-
   private void resizeLayout() {
     // This sets the minimum width of the activity to a minimum of 80% of the screen
     // size only needed because the theme of this activity is "dialog" so it looks
@@ -673,7 +665,7 @@ public class SmsPopupActivity extends Safe40Activity {
    */
   public static void launchActivity(Context context, int msgId) {
     Intent popup = new Intent(context, SmsPopupActivity.class);
-    popup.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+    popup.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
     popup.putExtra(EXTRAS_MSG_ID, msgId);
     context.startActivity(popup);
   }

@@ -54,9 +54,9 @@
       </intent-filter>
     </activity>
 
-    <activity android:name=".SmsPopupConfigActivity" android:label="@string/pref_config_title" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation"/>
-    <activity android:name=".SmsPopupActivity" android:theme="@android:style/Theme.Dialog" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" android:screenOrientation="user" android:taskAffinity="net.anei.cadpage.popup"/>
-    <activity android:name=".EmailDeveloperActivity" android:theme="@android:style/Theme.Dialog" android:launchMode="singleTask" android:screenOrientation="user"/>
+    <activity android:name=".SmsPopupConfigActivity" android:label="@string/pref_config_title" android:screenOrientation="user"/>
+    <activity android:name=".SmsPopupActivity" android:theme="@android:style/Theme.Dialog" android:screenOrientation="user"/>
+    <activity android:name=".EmailDeveloperActivity" android:theme="@android:style/Theme.Dialog" android:screenOrientation="user"/>
     <activity android:name=".TrackingPromptActivity" android:theme="@android:style/Theme.Dialog" android:screenOrientation="user"/>
     <activity android:name=".donation.DonateActivity" android:theme="@android:style/Theme.Dialog" android:screenOrientation="user"/>
     <activity android:name=".vendors.VendorActivity" android:theme="@android:style/Theme.Dialog" android:screenOrientation="user"/>
