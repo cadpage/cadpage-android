@@ -5,28 +5,28 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-New Locations:\n
-Yolo County, CA\n
-Travis County, TX\n
-\n      
-Location Parsing Fixes:\n
-Oroville, CA\n
-Shelby County, AL\n
-Middlesex County, CT\n
-Charles County, MD\n
-Prince Georges County, MD\n
-Worcester County, MD\n
-St Charles County, MO\n
-St Louis County, MO\n
-Johnson County, MO\n
-Cayuga County, NY\n
-Genesee County, NY\n
-Suffolk County, NY\n
-Nash County, NC\n
-Armstrong County, PA\n
-\n
-General Fixes:\n
-Direct paging stability improvements\n
+New Locations:
+Yolo County, CA
+Travis County, TX
+      
+Location Parsing Fixes:
+Oroville, CA
+Shelby County, AL
+Middlesex County, CT
+Charles County, MD
+Prince Georges County, MD
+Worcester County, MD
+St Charles County, MO
+St Louis County, MO
+Johnson County, MO
+Cayuga County, NY
+Genesee County, NY
+Suffolk County, NY
+Nash County, NC
+Armstrong County, PA
+
+General Fixes:
+Direct paging stability improvements
   </string>  
 </resources>
   
