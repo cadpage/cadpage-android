@@ -20,6 +20,11 @@ public class TXBellCountyParser extends FieldProgramParser {
     return "930010";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+
   private static final Pattern PLACE_MARKER = Pattern.compile(": ?[@:]");
   private class MyAddressField extends AddressField {
     @Override

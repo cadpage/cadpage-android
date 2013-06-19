@@ -15,6 +15,11 @@ public class TXLewisvilleParser extends FieldProgramParser {
     return "6245,lpd@[10.10.1.64]";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
   public boolean parseMsg(String body, Data data) {
     String[] flds = body.split("\\*+");
     if (flds.length < 4) return false;

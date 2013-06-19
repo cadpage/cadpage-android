@@ -20,6 +20,11 @@ public class TXWilliamsonCountyParser extends DispatchOSSIParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+ 
+  @Override
   public boolean parseMsg(String body, Data data) {
     body = body.replaceAll("SH 130 TOLL", "TX 130");
     return super.parseMsg(body, data);

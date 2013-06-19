@@ -21,6 +21,11 @@ public class CASantaCruzCountyParser extends DispatchPrintrakParser {
     return "SCR911_CAD@scr911.org";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+ 
   
   @Override
   protected boolean parseMsg(String body, Data data) {

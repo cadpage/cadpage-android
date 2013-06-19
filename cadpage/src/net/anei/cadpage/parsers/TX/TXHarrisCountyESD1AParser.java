@@ -30,6 +30,11 @@ public class TXHarrisCountyESD1AParser extends FieldProgramParser {
     }
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+ 
   // Code field has to fit specific pattern
   private class MyCodeField extends CodeField {
     public MyCodeField() {

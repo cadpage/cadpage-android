@@ -21,6 +21,11 @@ public class CAMendocinoCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "meucad@fire.ca.gov";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA | MAP_FLG_PREFER_GPS;
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -77,11 +82,6 @@ public class CAMendocinoCountyParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("IDGPSUNIT")) return new IdGpsUnitField();
     return super.getField(name);
-  }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_PREFER_GPS;
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{

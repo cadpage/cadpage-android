@@ -25,6 +25,11 @@ public class TXTravisCountyParser extends MsgParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+ 
+  @Override
   protected boolean parseMsg(String body, Data data) {
     Matcher match = MASTER1.matcher(body);
     if (match.matches()) {

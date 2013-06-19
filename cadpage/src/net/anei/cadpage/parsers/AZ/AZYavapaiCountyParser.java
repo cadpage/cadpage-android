@@ -21,6 +21,11 @@ public class AZYavapaiCountyParser extends FieldProgramParser {
     return "@sedonafire.org";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "AG",   "AGUILA",
       "ASHF", "ASH FORK",

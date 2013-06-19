@@ -40,6 +40,11 @@ Fraqre: NRHPNQ@sver.pn.tbi
 1 bs 2\aSEZ:NRHPNQ@sver.pn.tbi\aFHOW:PNQ Cntr\aZFT:27-Abi-2012/20:02:58; SVER, ERFVQRAGVNY; Vap# 027452; 25510 ZBHAGNVA IVRJ EQ ,YBPXJBBQ; YBPPUS\a(Pba'g) 2 bs 2\aR6180 R113 151 152 111 112 J6191 FHC6246 QHGLRPP; K: -120 33.1737 L: 38 29.6919; (Raq)
 1 bs 2\aSEZ:NRHPNQ@sver.pn.tbi\aFHOW:PNQ Cntr\aZFT:27-Abi-2012/17:07:25; ZRQVPNY; Vap# 027437; 19453 YBPXJBBQ YA ,YBPXJBBQ; YBPPUS R6180 151; K:\a(Pba'g) 2 bs 2\a-120 34.7782 L: 38 29.3546; (Raq)
 
+Pbagnpg: Znex Onegyrgg <530zeo@tznvy.pbz>
+Fraqre: NRHPNQ@sver.pn.tbi
+(PNQ Cntr) 16-Wha-2013/13:43:51; ZRQVPNY; Vap# 014048; 3190 ORAGYRL QE ,PNZREBA_CNEX; R283 R88 Z28; K: -120 59.5933 L: 38 42.0088;
+(PNQ Cntr) 15-Wha-2013/09:01:06; ZRQVPNY - URNEG CEBO; Vap# 013940; 3481 YN PVRARTN JL ,PNZREBA_CNEX; R83; K: -120 59.6049 L: 38 41.6140;
+
  */
 
 choyvp pynff PNRyQbenqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -354,6 +359,33 @@ choyvp pynff PNRyQbenqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:YBPPUS R6180 151",
         "TCF:+38.489243,-120.579637");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZnexOnegyrgg() {
+
+    qbGrfg("G1",
+        "(PNQ Cntr) 16-Wha-2013/13:43:51; ZRQVPNY; Vap# 014048; 3190 ORAGYRL QE ,PNZREBA_CNEX; R283 R88 Z28; K: -120 59.5933 L: 38 42.0088;",
+        "QNGR:06/16/2013",
+        "GVZR:13:43:51",
+        "PNYY:ZRQVPNY",
+        "VQ:014048",
+        "NQQE:3190 ORAGYRL QE",
+        "PVGL:PNZREBA CNEX",
+        "HAVG:R283 R88 Z28",
+        "TCF:+38.700147,-120.993222");
+
+    qbGrfg("G2",
+        "(PNQ Cntr) 15-Wha-2013/09:01:06; ZRQVPNY - URNEG CEBO; Vap# 013940; 3481 YN PVRARTN JL ,PNZREBA_CNEX; R83; K: -120 59.6049 L: 38 41.6140;",
+        "QNGR:06/15/2013",
+        "GVZR:09:01:06",
+        "PNYY:ZRQVPNY - URNEG CEBO",
+        "VQ:013940",
+        "NQQE:3481 YN PVRARTN JL",
+        "PVGL:PNZREBA CNEX",
+        "HAVG:R83",
+        "TCF:+38.693567,-120.993415");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

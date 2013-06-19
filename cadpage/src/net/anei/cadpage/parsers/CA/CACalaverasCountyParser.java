@@ -24,6 +24,11 @@ public class CACalaverasCountyParser extends MsgParser {
   public String getFilter() {
     return "tcucad@FIRE.CA.GOV";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA | MAP_FLG_PREFER_GPS;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -41,10 +46,5 @@ public class CACalaverasCountyParser extends MsgParser {
     data.strUnit = match.group(9).trim();
     
     return true;
-  }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_PREFER_GPS;
   }
 }

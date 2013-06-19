@@ -22,6 +22,11 @@ public class TXLongviewParser extends DispatchProQAParser {
   public String getFilter() {
     return "nettechs@championems.com";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   public boolean parseFields(String[] flds, Data data) {

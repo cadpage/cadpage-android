@@ -21,6 +21,11 @@ public class TXParkerCountyParser extends FieldProgramParser {
     return "Fire.Dispatch@parkercountytx.com";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
   protected boolean parseMsg(String body, Data data) {
     if (!parseFields(DELIM.split(body), 14, data)) return false;
     data.strCross = clean(data.strCross);

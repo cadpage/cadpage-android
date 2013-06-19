@@ -22,6 +22,11 @@ public class CASonomaCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "sclec@sonoma-county.org,bc71@srcity.org,ps-cst@Sonoma-county.org";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

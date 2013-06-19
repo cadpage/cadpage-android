@@ -19,6 +19,11 @@ public class CAButteCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "btucad@fire.ca.gov";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

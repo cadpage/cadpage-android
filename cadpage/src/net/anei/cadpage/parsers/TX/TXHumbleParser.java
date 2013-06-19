@@ -26,6 +26,11 @@ public class TXHumbleParser extends DispatchOSSIParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
     // Strip off leading single dash

@@ -9,4 +9,9 @@ public class TXTarrantCountyParser extends DispatchRedAlertParser {
   public TXTarrantCountyParser() {
     super("TARRANT COUNTY","TX");
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 }

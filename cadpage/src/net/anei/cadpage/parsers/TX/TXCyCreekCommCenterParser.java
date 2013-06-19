@@ -28,6 +28,11 @@ public class TXCyCreekCommCenterParser extends SmartAddressParser {
   public String getFilter() {
     return "CommCenter@ccems.com,93001,777,888,messaging@iamresponding.com";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   protected Data parseMsg(Message msg, int parseFlags) {

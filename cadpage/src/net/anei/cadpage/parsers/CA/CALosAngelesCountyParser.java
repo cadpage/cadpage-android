@@ -24,6 +24,11 @@ public class CALosAngelesCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "Verdugo@VerdugoFire.com";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

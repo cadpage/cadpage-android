@@ -35,6 +35,11 @@ public class AZMaricopaCountyParser extends FieldProgramParser {
     return "cad.admin@mesaaz.gov";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {

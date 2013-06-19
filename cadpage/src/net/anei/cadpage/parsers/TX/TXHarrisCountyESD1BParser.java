@@ -33,6 +33,11 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+
+  @Override
   public String getProgram() {
     return super.getProgram() + " PLACE";
   }

@@ -17,6 +17,11 @@ public class CANapaCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "Lnucad@fire.ca.gov";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA | MAP_FLG_PREFER_GPS;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -61,10 +66,5 @@ public class CANapaCountyParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("ID")) return new MyIdField();
     return super.getField(name);
-  }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_PREFER_GPS;
   }
 }

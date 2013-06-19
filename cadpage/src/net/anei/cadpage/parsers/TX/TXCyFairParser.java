@@ -30,6 +30,11 @@ public class TXCyFairParser extends FieldProgramParser {
   public String getLocName() {
     return "Cypress-Harris, TX";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

@@ -30,6 +30,11 @@ public class TXCollinCountyParser extends FieldProgramParser {
     this("COLLIN COUNTY", "TX");
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+
   protected TXCollinCountyParser(String defCity, String defState) {
     super(defCity, defState,
           "MASH UNITS:UNIT ST_RMK:INFO CFS_RMK:INFO");

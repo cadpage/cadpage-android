@@ -10,6 +10,11 @@ public class TXKellerParser extends DispatchA18Parser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+ 
+  @Override
   public String getFilter() {
     return "crimes@cityofkeller.com";
   }

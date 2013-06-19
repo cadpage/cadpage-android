@@ -20,6 +20,11 @@ public class CAShastaCountyParser extends SmartAddressParser {
   public String getFilter() {
     return "vtext.com@gmail.com,5304482408,5304109246";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

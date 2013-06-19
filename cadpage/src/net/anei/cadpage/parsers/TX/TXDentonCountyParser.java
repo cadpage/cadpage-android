@@ -23,6 +23,11 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
     return "Lake Cities Fire Department";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+
   private static final Pattern ADDR_PTN = Pattern.compile("\\d+ .*");
   private static final Pattern SERV_PTN = Pattern.compile("\\bSERV\\b");
   private class MyAddressField extends AddressField {

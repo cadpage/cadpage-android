@@ -17,6 +17,11 @@ public class TXNuecesCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+ 
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("CAD Notify")) return false;
     return super.parseMsg(body, data);

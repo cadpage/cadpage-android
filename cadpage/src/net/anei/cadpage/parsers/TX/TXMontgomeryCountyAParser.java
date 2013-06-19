@@ -19,6 +19,11 @@ public class TXMontgomeryCountyAParser extends FieldProgramParser {
   public String getFilter() {
     return "firecad@thewoodlandstownship-tx.gov";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

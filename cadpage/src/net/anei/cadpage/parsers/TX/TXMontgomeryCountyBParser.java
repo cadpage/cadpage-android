@@ -35,6 +35,11 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("CAD Message")) return false;

@@ -2274,7 +2274,6 @@ choyvp pynff GKQragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FNSQ",
         "PNYY:FVPX CREFBA",
         "NQQE:717 YN CNYBZN EQ",
-        "ZNQQE:717 YA CNYBZN EQ",
         "K:ENATRE PERRX EQ & RNFGEVQTR CNEX EQ",
         "PVGL:FNATRE");
 

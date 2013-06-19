@@ -25,7 +25,7 @@ public class CAHumboldtCountyParser extends MsgParser {
   
   @Override
   public int getMapFlags() {
-    return MAP_FLG_PREFER_GPS;
+    return MAP_FLG_SUPPR_LA | MAP_FLG_PREFER_GPS;
   }
 
   @Override

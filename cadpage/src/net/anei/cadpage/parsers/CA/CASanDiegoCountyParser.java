@@ -26,6 +26,11 @@ public class CASanDiegoCountyParser extends FieldProgramParser {
     if (!subject.equals("CAD MESSAGE")) return false;
     return parseFields(body.split("\\\\"), data);
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   private static final Pattern APT_TITLE_PTN = Pattern.compile("^(?:APT|SUITE|SPT?|RM) *", Pattern.CASE_INSENSITIVE);
 

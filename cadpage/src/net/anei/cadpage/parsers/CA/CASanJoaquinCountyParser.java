@@ -22,6 +22,11 @@ public class CASanJoaquinCountyParser extends SmartAddressParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
   public String getFilter() {
     return "LifecomCellPaging@amr.net";
   }

@@ -21,6 +21,11 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "cad@confire.org";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {

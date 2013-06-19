@@ -23,6 +23,11 @@ public class CAMontereyCountyParser extends MsgParser {
   public String getFilter() {
     return "donotreply@co.monterey.ca.us";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

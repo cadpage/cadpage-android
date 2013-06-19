@@ -21,6 +21,11 @@ public class TXHaysCountyParser extends MsgParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     Matcher match = SUBJECT_PTN.matcher(subject);
     if (!match.matches()) return false;

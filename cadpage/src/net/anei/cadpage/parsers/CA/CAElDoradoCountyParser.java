@@ -69,6 +69,6 @@ public class CAElDoradoCountyParser extends MsgParser {
   
   @Override
   public int getMapFlags() {
-    return MAP_FLG_PREFER_GPS;
+    return MAP_FLG_PREFER_GPS | MAP_FLG_SUPPR_LA;
   }
 }
