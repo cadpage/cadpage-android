@@ -14,6 +14,7 @@ public class NYMadisonCountyGLASParser extends MsgParser {
   
   public NYMadisonCountyGLASParser() {
     super("MADISON COUNTY", "NY");
+    setFieldList("CALL PLACE ADDR APT CITY X");
   }
   
   @Override

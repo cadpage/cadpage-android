@@ -75,7 +75,7 @@ public class DispatchA13Parser extends FieldProgramParser {
       // Following parts contain cross streets, city names, or plain info
       if (sPart1.startsWith("@")) {
         data.strPlace = stripApt(sPart1.substring(1).trim(), data);
-        parseAddress(sPart2, data);
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sPart2, data);
       }
       
       // Otherwise, first part is the address and city
