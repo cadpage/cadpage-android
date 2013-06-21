@@ -2018,5 +2018,17 @@ sometime, but right now we still are not sure how best to implement that.
 Have a nice day,
 -Ken
 
+*********************************************************************************
+
+Cadpage does not determine who sends you pages, that has to be arranged
+with someone else.  The Cadpage location settings merely tell Cadpage
+how to process pages that you have already arranged to have sent to your
+phone.
+
+If you are a member of a fire department or other emergency response
+organization, there is someone in your department who can usually get
+pages sent to your phone.  You just have to ask around to see who that
+is.  If you are not a member of an emergency response organization,
+Cadpage will be of little use to you.
 
 

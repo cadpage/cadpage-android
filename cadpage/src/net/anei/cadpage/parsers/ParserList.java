@@ -332,7 +332,8 @@ public class ParserList {
               ,"MDWicomicoCounty"               ,"Wicomico County, MD"
               ,"MDWorcesterCounty"              ,"Worcester County, MD"
           ),
-          new ParserCategory("Massechusetts"
+          new ParserCategory("Massachusetts"
+              ,"MANorfolkCounty"                ,"Norfolk County, MA"
               ,"MAYarmouth"                     ,"Yarmouth, MA"
           ),
           new ParserCategory("Michigan"
