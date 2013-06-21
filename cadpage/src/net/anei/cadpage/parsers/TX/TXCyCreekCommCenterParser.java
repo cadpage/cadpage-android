@@ -15,7 +15,7 @@ public class TXCyCreekCommCenterParser extends SmartAddressParser {
   
   private static final Pattern PART_MARKER = Pattern.compile("^\\d\\d:\\d\\d ");
   private static final Pattern DATE_PTN = Pattern.compile("(\\d+)/(\\d+)");
-  private static final Pattern MARKER = Pattern.compile("^(\\d\\d/\\d\\d) (?:(\\d\\d:\\d\\d) )?");
+  private static final Pattern MARKER = Pattern.compile("^(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?");
   private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");
   private static final Pattern VAL_PTN = Pattern.compile("\\bVAL\\b", Pattern.CASE_INSENSITIVE);
   
@@ -41,21 +41,25 @@ public class TXCyCreekCommCenterParser extends SmartAddressParser {
     // missinterpreted as a subject or message index :(
     String body = msg.getMessageBody();
     if  (PART_MARKER.matcher(body).find()) {
-      int month;
-      int day;
+      int month = -1;
+      int day = -1;
       String subject = msg.getSubject();
       if (subject.length() > 0) {
         Matcher match = DATE_PTN.matcher(subject);
-        if (!match.matches()) return null;
-        month = Integer.parseInt(match.group(1));
-        day = Integer.parseInt(match.group(2));
+        if (match.matches()) {
+          month = Integer.parseInt(match.group(1));
+          day = Integer.parseInt(match.group(2));
+        }
       } else {
-        if (msg.getMsgCount() < 0) return null;
-        month = msg.getMsgIndex();
-        day = msg.getMsgCount();
+        if (msg.getMsgCount() >= 0) {
+          month = msg.getMsgIndex();
+          day = msg.getMsgCount();
+        }
       }
-      subject = String.format("%02d/%02d", month, day);
-      body = subject + ' ' + body;
+      if (month >= 0) {
+        subject = String.format("%02d/%02d", month, day);
+        body = subject + ' ' + body;
+      }
       msg.setMessageBody(body);
     }
     return super.parseMsg(msg, parseFlags);
@@ -71,10 +75,11 @@ public class TXCyCreekCommCenterParser extends SmartAddressParser {
     if (body.startsWith("/ ")) body = body.substring(2).trim();
     
     Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    data.strDate = match.group(1);
+    if (!match.find()) return false;  // Never happens anymore
+    data.strDate = getOptGroup(match.group(1));
     data.strTime = getOptGroup(match.group(2));
     body = body.substring(match.end()).trim();
+    if (data.strDate.length() == 0 && data.strTime.length() == 0) return false;
     
     match = TRAILER.matcher(body);
     if (match.find()) {

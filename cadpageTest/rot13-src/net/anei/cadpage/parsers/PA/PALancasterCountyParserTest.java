@@ -45,6 +45,10 @@ Fraqre: 911@ypjp911.hf
 (FVPX CREFBA-PYNFF 1) RCUENGN OBEBHTU~522 R ZNVA FG~ZVPUNRY PG/NXEBA EQ~NZO373~18:59:43^     
 (GENHZNGVP/VAWHERQ-PYNFF 1) RCUENGN OBEBHTU~522 R ZNVA FG~ZVPUNRY PG/NXEBA EQ~NZO373~19:01:09^    
 
+Pbagnpg:Zvxr Trvo <zezrgnyzna18@tznvy.pbz> 
+Fraqre: pbas-98187925@rireoevqtr.arg
+Fhowrpg:IRUVPYR SVER-1N\aYRNPBPX GBJAFUVC~3433 BYQ CUVYNQRYCUVN CVXR~PYRNEIVRJ EQ/J ARJCBEG EQ~GNA44,RAT441~14:24:49^
+
 *** ABG CNEFVAT - AB PNYY QRFPEVCGVBA ***
 Pbagnpg:Npgvir911
 Fraqre: 7178249255@zzf.ngg.arg
@@ -209,6 +213,20 @@ choyvp pynff CNYnapnfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:F 5GU FG & A 6GU FG",
         "HAVG:RAT132,RAT131",
         "GVZR:22:16:39");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZvxrTrvo() {
+
+    qbGrfg("G1",
+        "Fhowrpg:IRUVPYR SVER-1N\aYRNPBPX GBJAFUVC~3433 BYQ CUVYNQRYCUVN CVXR~PYRNEIVRJ EQ/J ARJCBEG EQ~GNA44,RAT441~14:24:49^",
+        "PNYY:IRUVPYR SVER-1N",
+        "PVGL:YRNPBPX GBJAFUVC",
+        "NQQE:3433 BYQ CUVYNQRYCUVN CVXR",
+        "K:PYRNEIVRJ EQ/J ARJCBEG EQ",
+        "HAVG:GNA44,RAT441",
+        "GVZR:14:24:49");
 
   }
   

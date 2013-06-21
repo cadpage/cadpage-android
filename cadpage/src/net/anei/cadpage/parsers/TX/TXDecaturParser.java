@@ -13,6 +13,7 @@ public class TXDecaturParser extends MsgParser {
   
   public TXDecaturParser() {
     super("DECATUR", "TX");
+    setFieldList("SRC CALL ADDR APT X UNIT INFO");
   }
   
   public String getFilter() {
