@@ -27,7 +27,7 @@ public class CTNorthwestPublicSafetyParser extends SmartAddressParser {
 
   @Override
   public String getFilter() {
-    return "globalpaging@nowestps.org,no-reply@nowestps.org";
+    return "globalpaging@nowestps.org,no-reply@nowestps.org,NWCTPS@nowestps.org";
   }
   
   @Override

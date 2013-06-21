@@ -18,6 +18,9 @@ SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:314 CNVAGRE UVYY EQ  EBK
 SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:71 FBHGU FG  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00119\a\a\a(Raq)
 SEZ:tybonycntvat@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:OBGFSBEQ UVYY EQ & TBYQRA UNEIRFG EQ  EBKOHEL JVERF QBJA/SVER EBK ERF9 EBK SQ1 Cevznel Vapvqrag: 00109
 SEZ:ab-ercyl@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:27 SYNT FJNZC EQ  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK\aERF9 EBK SQ1\aCevznel Vapvqrag: 00061 27 SYNT FJNZC EQ
+1 bs 2\aSEZ:AJPGCF@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:85 SBERFG SNEZ QE  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1 Cevznel\a(Pba'g) 2 bs 2\aVapvqrag: 00065 85 SBERFG SNEZ QE\a(Raq)
+SEZ:AJPGCF@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:20 PUNYLORF EQ  EBKOHEL PIN/FGEBXR/GVN PUNEYVR EBK NZO EB RZFK Cevznel Vapvqrag: 028086 20 PUNYLORF EQ
+SEZ:AJPGCF@abjrfgcf.bet\aFHOW:Sebz Abegujrfg\aZFT:GNAXRE 11 BHG BS FREIVPR HAGVY SHEGURE ABGVPR
 
 Pbagnpg: OZrruna282@nby.pbz
 Fraqre: ab-ercyl@abjrfgcf.bet
@@ -198,6 +201,32 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER NYNEZ",
         "HAVG:EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1",
         "VQ:00061");
+
+    qbGrfg("G8",
+        "1 bs 2\a" +
+        "SEZ:AJPGCF@abjrfgcf.bet\a" +
+        "FHOW:Sebz Abegujrfg\a" +
+        "ZFT:85 SBERFG SNEZ QE  EBKOHEL SVER NYNEZ EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1 Cevznel\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "Vapvqrag: 00065 85 SBERFG SNEZ QE\a" +
+        "(Raq)",
+
+        "NQQE:85 SBERFG SNEZ QE",
+        "PVGL:EBKOHEL",
+        "PNYY:SVER NYNEZ",
+        "HAVG:EB RAT12 EB RAT10 EB GXE11 EBK ERF9 EBK SQ1",
+        "VQ:00065");
+
+    qbGrfg("G9",
+        "SEZ:AJPGCF@abjrfgcf.bet\a" +
+        "FHOW:Sebz Abegujrfg\a" +
+        "ZFT:20 PUNYLORF EQ  EBKOHEL PIN/FGEBXR/GVN PUNEYVR EBK NZO EB RZFK Cevznel Vapvqrag: 028086 20 PUNYLORF EQ",
+
+        "NQQE:20 PUNYLORF EQ",
+        "PVGL:EBKOHEL",
+        "PNYY:PIN/FGEBXR/GVN PUNEYVR",
+        "HAVG:EBK NZO EB RZFK",
+        "VQ:028086");
 
   }
   
@@ -992,6 +1021,6 @@ choyvp pynff PGAbegujrfgChoyvpFnsrglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PGAbegujrfgChoyvpFnsrglCnefreGrfg().trarengrGrfgf("G1");
+    arj PGAbegujrfgChoyvpFnsrglCnefreGrfg().trarengrGrfgf("G8");
   }
 }
