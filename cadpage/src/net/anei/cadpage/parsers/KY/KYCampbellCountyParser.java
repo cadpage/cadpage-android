@@ -46,12 +46,16 @@ public class KYCampbellCountyParser extends FieldProgramParser {
       String units = fields[fields.length-1];
       int colon = units.indexOf(':');
       units = units.substring(colon+1).trim();
-      data.strUnit = units.replace("\n", ", ").trim();   
+      parseUnitField(true, units, data);
       
       // Extract ID
-      if (fields.length > 1) {
-        String[] srcID = fields[1].split("-");
-        if (srcID.length > 1) data.strCallId = srcID[1].trim();
+      if (fields.length > 0) {
+        int ndx = 1;
+        if (fields.length > 1 && fields[0].trim().equals(fields[1].trim())) ndx++;
+        if (fields.length > ndx) {
+          String[] srcID = fields[ndx].split("-");
+          if (srcID.length > 1) data.strCallId = srcID[1].trim();
+        }
       }
       
       data.strPlace = body;                                               // Put remaining in Place.
@@ -114,10 +118,35 @@ public class KYCampbellCountyParser extends FieldProgramParser {
   private class MyUnitField extends UnitField {
     @Override
     public void parse(String field, Data data) {
-      field = field.replace('\n', ' ');
-      super.parse(field, data);
+      parseUnitField(false, field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "UNIT INFO";
     }
   }
+  
+  /**
+   * Parse unit field for both regular pages and run reports
+   * @param runReport true if parsing a run report
+   * @param field Unit field to be parsed
+   * @param data Data object
+   */
+  private void parseUnitField(boolean runReport, String field, Data data) {
+    boolean info = false;
+    for (String token : field.split("\n")) {
+      token = token.trim();
+      if (token.length() == 0) continue;
+      if (!info && !UNIT_PTN.matcher(token).matches()) info = true;
+      if (!info) {
+        data.strUnit = append(data.strUnit, " ", token);
+      } else if (!runReport) {
+        data.strSupp = append(data.strSupp, "\n", token);
+      }
+    }
+  }
+  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+\\d+|\\d{8}");
   
   
   @Override
