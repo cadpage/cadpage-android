@@ -10,22 +10,20 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class SDUnionCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_MARKER = Pattern.compile("^(?:\\(\\d+\\) +)?J:");
-  
   public SDUnionCountyParser() {
     super(CITY_LIST, "UNION COUNTY", "SD",
-           "CALL+? ADDR/SXP X/Z? SRC UNIT! INFO+");
+           "ID DATE TIME CALL+? ADDR/Z CITY! PLACE_X/Z+? SRC UNIT! INFO+");
   }
   
   @Override
   public String getFilter() {
-    return "WCICC3@sioux-city.org";
+    return "@sioux-city.org";
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!SUBJECT_MARKER.matcher(subject).find()) return false;
-    if (!super.parseFields(body.split("/"), 5, data)) return false;
+    if (!subject.startsWith("J:")) return false;
+    if (!super.parseFields(body.split("/"), 8, data)) return false;
     if (data.strCity.equals("SIOUX CITY")) data.strState = "IA";
     return true;
   }
@@ -35,6 +33,20 @@ public class SDUnionCountyParser extends FieldProgramParser {
     return super.getProgram().replace("CITY", "CITY ST");
   }
   
+  private static final Pattern DATE_PTN = Pattern.compile("\\d\\d-\\d\\d-\\d\\d");
+  private class MyDateField extends DateField {
+    public MyDateField() {
+      setPattern(DATE_PTN);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace('-', '/');
+      super.parse(field, data);
+    }
+    
+  }
+  
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
@@ -42,11 +54,24 @@ public class SDUnionCountyParser extends FieldProgramParser {
     }
   }
   
-  private class MyCrossField extends CrossField {
+  private class PlaceCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
+      
       if (field.endsWith("&")) field = field.substring(0,field.length()-1).trim();
-      super.parse(field, data);
+      
+      // The first field, and only the first field, is considered a place name if it
+      // is not a legitimate address
+      if (data.strPlace.length() == 0 && data.strCross.length() == 0 && checkAddress(field) == 0) {
+        data.strPlace = field;
+      } else {
+        super.parse(field, data);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE X";
     }
   }
   
@@ -76,11 +101,21 @@ public class SDUnionCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("\\d{9}");
+    if (name.equals("DATE")) return new MyDateField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d");
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("PLACE_X")) return new PlaceCrossField();
     if (name.equals("SRC")) return new MySourceField();
     return super.getField(name);
   }
+  
+  @Override
+  public String adjustMapAddress(String address) {
+    address = INTERSECT_PTN.matcher(address).replaceAll("");
+    return address;
+  }
+  private static final Pattern INTERSECT_PTN = Pattern.compile(" +INTERSECT[A-Z]*$");
   
   private static final String[] CITY_LIST = new String[]{
     "ALCESTER",
@@ -95,7 +130,7 @@ public class SDUnionCountyParser extends FieldProgramParser {
     "RICHLAND",
     "SPINK",
     
-    "SOUIX CITY"
+    "SIOUX CITY"
   };
   
   private static final Properties STATION_CODES = buildCodeTable(new String[]{
