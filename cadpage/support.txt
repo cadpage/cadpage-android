@@ -2007,6 +2007,16 @@ calls without having to open them first.
 Hope that helps,
 
 ********************************************************************************
-end
+
+Q:   Just noticed that when I look at the maps on android it doesn't show the
+> repsonders like it does on I iPhone. Is there anything I need yo do to
+> fix that?
+
+A:  No, that is something we still need to implement.  It will be done
+sometime, but right now we still are not sure how best to implement that.
+
+Have a nice day,
+-Ken
+
 
 
