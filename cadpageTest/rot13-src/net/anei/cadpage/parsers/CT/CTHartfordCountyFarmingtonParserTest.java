@@ -183,7 +183,7 @@ choyvp pynff PGUnegsbeqPbhaglSnezvatgbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:1200007471",
         "PNYY:SVER - IRUVPYR NPPVQRAG (VAWHEVRF)",
         "NQQE:60 Ybiryl FG",
-        "K:(PNGV) Cerz Znc -",
+        "CYNPR:(PNGV)",
         "HAVG:202 207 P10 SQG1",
         "QNGR:10/08/12",
         "GVZR:17:35");
