@@ -14,6 +14,7 @@ public class TXHaysCountyParser extends MsgParser {
   
   public TXHaysCountyParser() {
     super("HAYS COUNTY", "TX");
+    setFieldList("SRC UNIT ADDR APT CITY CALL CODE");
   }
   
   public String getFilter() {
