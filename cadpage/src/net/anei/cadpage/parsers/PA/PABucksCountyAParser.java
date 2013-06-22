@@ -18,7 +18,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
   private static final Pattern SRC_MARKER = Pattern.compile("^([A-Z]+[0-9]+)[, ]");
   
   public PABucksCountyAParser() {
-    super("SRC type:CALL! Box:BOX? adr:ADDR! aai:INFO box:BOX map:MAP tm:TIME% Run:UNIT");
+    super("SRC type:CALL! Box:BOX? adr:ADDR! aai:INFO box:BOX map:MAP tm:TIME% TEXT:INFO? Run:UNIT");
   }
   
   @Override
@@ -82,6 +82,11 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     }
     return true;
   }
+
+  @Override
+  public String getProgram() {
+    return "UNIT " + super.getProgram();
+  }
   
   private class MyCallField extends CallField {
     
@@ -121,6 +126,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
           break;
         }
       }
+      if (field.startsWith(",")) field = field.substring(1).trim();
       super.parse(field, data);
     }
     
