@@ -990,6 +990,23 @@ have a nice day,
 -Ken
 
 ******************************************************************
+* Alert tone cutting off after a second or two
+* Android version >= 4.0
+******************************************************************
+
+I have had the problem sporadically on my phone, but never been able to nail done what makes it happen or not happen.
+
+Searching the Internet came up with several references to the problem and a couple proposed solutions.  The one that is reported to consistently work is to open your message app, go into settings and turn "OFF" the "Delete old messages" setting.  Why this would affect Cadpage, especially when it is getting direct pages that have nothing to do with text messaging, is a complete mystery.
+
+It has also been recommended that you turn off motion setting
+To do that go bring up your System Settings and turn off the Motion menu in the System group.  That at least makes sense, though it isn't report to consistently fix the problem.
+
+Please let me know if either of these fix your problem.
+
+Good luck,
+-Ken
+
+******************************************************************
 *** Scanner setup
 
 You have to set up some things before the Start Radio button will work
