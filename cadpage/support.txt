@@ -272,7 +272,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-FEOXYDCA or feoxydca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+TKHENFDA or tkhenfda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -395,7 +395,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-FEOXYDCA or feoxydca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+TKHENFDA or tkhenfda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -528,7 +528,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-FEOXYDCA or feoxydca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+TKHENFDA or tkhenfda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -542,7 +542,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-FEOXYDCA or feoxydca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+TKHENFDA or tkhenfda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -552,7 +552,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-FEOXYDCA or feoxydca.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+TKHENFDA or tkhenfda.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -704,6 +704,19 @@ Thanks a bunch,
 ** General problems
 ******************************************************************
 
+When a call comes in as an SMS text page, and Cadpage doesn't do anything to it, it automatically appears in the messaging inbox.  So if you don't want non-CAD pages to be handled as general alerts, we just don't do anything.
+
+Direct paging is different.  If Cadpage doesn't handle them, they just disappear.  Since this seemed like an undesirable outcome, Cadpage always handles a direct page message.  If it isn't a real CAD page it will be treated as  a general alert, regardless of the process General Alert setting.   However, many people are, like yourself, unhappy with this state of affairs.  But we aren't sure what to do about it.
+
+CodeMessaging is going to try to give users more options about whether non-page calls are sent to you or not.  But this really doesn't solve the problem, does it.
+
+It would be easy enough to have Cadpage honor the process general alert setting for direct pages.  But as I explained, they will not show in you message inbox if we do this, they will completely disappear.  Is this what you would prefer?
+
+In theory, I could turn the request into something that looks like an SMS text message and pass it to the messaging app.  This is a lot harder job that reading SMS messages.  To create them I have to get a lot of things  right.  But it probably could be done, and probably is the best solution to this particular problem.
+
+Have a nice day,
+-Ken
+
 ******************************************************************
 ** text page information is truncated
 ******************************************************************
@@ -713,6 +726,22 @@ Not much we can do about that.  All network carriers have limits how long an SMS
 The only thing you can do is switch to a different message sending service.  Two in particular, CodeMessaging.net and Active911.com, can send pages through the the data networks, bypassing SMS text message limits altogether.
 
 Good luck
+-Ken
+
+***************************************************************************
+* Active911 user not receiving pages
+* Cadpage shows it is registered with Active911 
+* Swift shows correct page type and registration ID
+******************************************************************
+
+Go into Cadpage Settings and Select
+Direct Paging Vendors > Reconnect Direct Paging
+
+Next, get whoever sets up your device with Active911 to use the Active911 web page to send a test message to your phone.  If that does not arrive in a timely manner, use the Cadpage Email the Developer feature to send us another email.  That will contain an event log that might show something useful.
+
+If you do get the test page, but still do not receive real dispatch alerts, then something about your Active911 settings is preventing them from sending dispatch pages to you.  If your department Active911 administrator cannot figure out what that is, try contacting Active911 support for help.
+
+Good luck,
 -Ken
 
 ******************************************************************
@@ -726,21 +755,6 @@ According to the message timestamps, it took only 16 seconds for the carrier to 
 You can also try sending yourself text messages when these delays are observed to see if those messages are also being delayed.  But when it comes down to it, about the only thing you can really do is complain to the carrier and/or dispatch service about the delays.
 
 It might be worth considering switching to another messaging service.  CodeMessaging.net and Active911.com are reasonably priced and can push pages to your device without relying on text messaging and will probably fix your delay problem.  Unless the dispatch center is slow getting the pages out, in which case they have logs to prove that and some clout to take the issue up with dispatch IT people.  And Cadpage doesn't bug you about paying for a subscription when you are getting direct pages from them.
-
-Good luck,
--Ken
-
-***************************************************************************
-* Active911 user not receiving pages
-* Cadpage shows it is registered with Active911 
-* Swift shows correct page type and registration ID
-******************************************************************
-
-Get your department's Active911 administrator to send a test message to your device.  If the test message arrives successfully, the communication channels between Active911 and Cadpage are working, so there must be some other reason why Active911 is not sending you pages.  Check the duty status, shift status, or any group filters.  If you and your administrator cannot figure it out, contact Active911 support and ask for their help.
-
-If the test message is not received on your device, go into Cadpage settings and select 
-Direct Paging Vendors > Reconnect Direct Paging
-then try sending a test message again.  If it still does not work use the Email the Developer feature to generate another email to us.
 
 Good luck,
 -Ken
@@ -770,14 +784,14 @@ Good luck,
 ******************************************************************
 ** Recent PHONE_REGISTRATION_ERROR
 ** Null RegistrationID
-** Cadpage version < 1.6.29
+** Cadpage version < 1.6.26
 ****************************************************************** 
+
+Something has been going haywire with the Google infrastructure supporting direct paging some time ago.  It only impacts a small percentage of direct paging users, but that is small comfort to those who are impacted.  We have been complaining to Google but so far have not gotten any response.
 
 The latest version of Cadpage has some new logic to help alleviate, but not completely eliminate, the problem.  Try installing that and see if that gets things working.
 
-If it does not, try uninstalling and then reinstalling Cadpage on your phone.
-
-If that does not work, use the Email the Developer feature to report the situation and we will see what we can do from there.
+If it does not, use the Email the Developer feature to report the situation and we will see what we can do from there.
 
 Good luck,
 -Ken
@@ -785,8 +799,7 @@ Good luck,
 ******************************************************************
 ** Recent PHONE_REGISTRATION_ERROR
 ** Null RegistrationID
-** Cadpage version >= 1.6.29
-************ Pass off to Ken - we are still working on this one ***
+** Cadpage version >= 1.6.26
 ******************************************************************
  
 It looks like you are one of the users who cannot get the Google registration you need to implement direct paging.  Usually just retrying it a few times is enough to get things working.  But sometimes more serious measures are called for.
