@@ -4521,12 +4521,6 @@ GJC: 128 QBIRE QE
 (Qvfcngpu Nyreg) 2aq cntr sbe zhghny nvq erfcbafr gb zbba gjc. 128 qbire qe. fgehpgher sver
 (Qvfcngpu Nyreg) Z? Gvzrbhg=2116\aEVG GRNZ ERDHRFGRQ\a803 24GU FGERRG UNEZBAL GJC
 **********************************************************
-Haxabja
-Pbagnpg: Puneyvr Uhzreg <uhzoreg04.pu@tznvy.pbz>
-Fraqre: XP-911@xp911.hf
-Ybbxf n ybg yvxr Pebbx Pbhagl, BE
-RIRAG # 1109180028 11\a2 - NYF ZRQVPNY PNYY\aCEVBEVGL 1 \aYBPNGVBA 137447 97 A\aPVGL PERFPRAG\aNCG \aCERZVFR \aPBZZRAG QVSS OERNGUVAT\a62 LBS
-**********************************************************
 Jnfuvatgba Zrgebcbyngva Nvecbeg Nhgubevgl (ZJNN), QP
 Pbagnpg: "Treivf, Fgrir" <Fgrir.Treivf@zjnn.pbz>
 Fraqre: ZJNN-Nyreg Flfgrz [znvygb:nyreg70270@efna.zjnn.pbz] 
@@ -6048,6 +6042,7 @@ Naq ynfg pnyy frpbaqnel
 EP:0402-N/Eha#62099/PNYY:21:37/QVFC:21:37/RAE:21:37/NGF:21:37/VAP#:1213056171
 EP:0386-N/Eha#62086/PNYY:20:52/QVFC:20:53/RAE:20:53/NGF:20:55/VAP#:1213056157
 EP:0386-N/Eha#62086/PNYY:20:52/QVFC:20:53/RAE:20:53/NGF:20:55/VAP#:1213056157 
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************

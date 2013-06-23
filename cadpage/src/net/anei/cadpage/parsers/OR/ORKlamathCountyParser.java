@@ -8,7 +8,10 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
+/*
+ * Klamath County, OR
+ * Similar to, possible merge with Crook County, OR
+ */
 
 public class ORKlamathCountyParser extends FieldProgramParser {
   

@@ -181,7 +181,7 @@
   
   <string name="donate_reset_market_title">Recalculate Payment Status</string>
   
-  <string name="donate_sob_story_title">"I can't afford $10 this year"</string>   <!-- TRANSLATE -->
+  <string name="donate_sob_story_title">"I can't afford $10 this year"</string>
   <string name="donate_sob_story_text">
     "Tell us why you cannot afford a $10/year payment.  We are really easy on these."
   </string>

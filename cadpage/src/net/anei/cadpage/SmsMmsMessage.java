@@ -297,7 +297,7 @@ public class SmsMmsMessage implements Serializable {
     this.timestamp = timestamp;
     this.messageType = messageType;
     this.location = "GeneralAlert";
-    this.parseInfo = bldParseInfo(false, subject, messageBody);
+    this.parseInfo = bldParseInfo(false, subject, messageBody, false);
   }
 
   /**
@@ -383,25 +383,26 @@ public class SmsMmsMessage implements Serializable {
   }
 
   private void buildParseInfo() {
+    boolean keepLeadBreak = ManagePreferences.splitKeepLeadBreak();
     parseInfo = bldParseInfo();
     if (extraMsgBody != null) {
       String msgSubject = parseInfo.getSubject();
       String parseMsgBody = parseInfo.getMessageBody();
       String delim = (ManagePreferences.splitBlankIns() ? " " : "");
       for (String msgBody : extraMsgBody) {
-        Message pInfo = bldParseInfo(true, subject, msgBody);
+        Message pInfo = bldParseInfo(true, subject, msgBody, keepLeadBreak);
         parseMsgBody = parseMsgBody + delim + pInfo.getMessageBody();
       }
-      parseInfo = bldParseInfo(false, msgSubject, parseMsgBody);
+      parseInfo = bldParseInfo(false, msgSubject, parseMsgBody, false);
     }
   }
   
   private Message bldParseInfo() {
-    return bldParseInfo(true, subject, messageBody);
+    return bldParseInfo(true, subject, messageBody, false);
   }
   
-  private Message bldParseInfo(boolean preParse, String msgSubject, String body) {
-    return new Message(preParse, fromAddress, msgSubject, body){
+  private Message bldParseInfo(boolean preParse, String msgSubject, String body, boolean keepLeadBreak) {
+    return new Message(preParse, fromAddress, msgSubject, body, keepLeadBreak){
 
       @Override
       protected void setLocationCode(String location) {

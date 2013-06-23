@@ -15,8 +15,11 @@ public class Message {
   // Parsed message information
   private MsgInfo info = null;
 
-  
   public Message(boolean preParse, String fromAddress, String subject, String body) {
+    this(preParse, fromAddress, subject, body, false);
+  }
+  
+  public Message(boolean preParse, String fromAddress, String subject, String body, boolean keepLeadBreak) {
     if (fromAddress == null) fromAddress = "";
     if (subject == null) subject = "";
     if (body == null) body = "";
@@ -26,7 +29,7 @@ public class Message {
       this.parseSubject = subject;
       this.parseMessageBody = finish(body);
     } else {
-      preParse(fromAddress, subject, body);
+      preParse(fromAddress, subject, body, keepLeadBreak);
     }
   }
   
@@ -119,7 +122,7 @@ public class Message {
     Pattern.compile("^prvs=[0-9a-f]{8,}=[\\w .<>@]*<([\\w.\\-]+@[\\w.]+)> *\\((.*?)\\)")
   };
   
-  private void preParse(String fromAddress, String subject, String body) {
+  private void preParse(String fromAddress, String subject, String body, boolean keepLeadBreak) {
     
     // Start by decoding common HTML sequences
     body = decode(body);
@@ -139,7 +142,7 @@ public class Message {
     body = DISCLAIMER_PTN.matcher(body).replaceFirst("");
     
     // Exchange has a unique set of forwarding headers, than can be chained together :()
-    body = trimLead(body);
+    body = trimLead(body, keepLeadBreak);
     while (true) {
       Matcher match = EXCHANGE_FWD_PTN.matcher(body);
       if (!match.find()) break;
@@ -147,7 +150,7 @@ public class Message {
       if (from != null) parseAddress = from;
       String subj = match.group(2);
       if (subj != null) parseSubject = subj.trim();
-      body = trimLead(body.substring(match.end()));
+      body = trimLead(body.substring(match.end()), keepLeadBreak);
     }
     
     if (body.startsWith("Pagecopy-")) body = body.substring(9);
@@ -184,23 +187,23 @@ public class Message {
         }
         else if (match.start() == 0) {
           String origBody = body;
-          body = trimLead(body.substring(match.end()));
+          body = trimLead(body.substring(match.end()),keepLeadBreak);
           if (origBody.startsWith("((")) {
-            if (body.startsWith(")")) body = trimLead(body.substring(1));
+            if (body.startsWith(")")) body = trimLead(body.substring(1), keepLeadBreak);
             else body = "(" + body;
           }
-        } else body = trimLead(body.substring(0,match.start()));
+        } else body = trimLead(body.substring(0,match.start()),keepLeadBreak);
       } else {
-        if (body.startsWith("/ ")) body = trimLead(body.substring(2));
+        if (body.startsWith("/ ")) body = trimLead(body.substring(2), keepLeadBreak);
       }
       
       // Get rid of leading quoted blanks
       match = LEAD_BLANK.matcher(body);
-      if (match.find()) body = trimLead(body.substring(match.end()));
+      if (match.find()) body = trimLead(body.substring(match.end()), keepLeadBreak);
       
       // And trailing opt out message
       match = OPT_OUT_PTN.matcher(body);
-      if (match.find()) body = trimLead(body.substring(0,match.start()));
+      if (match.find()) body = trimLead(body.substring(0,match.start()), keepLeadBreak);
       
       /* Decode patterns that look like this.....
       1 of 3
@@ -265,7 +268,7 @@ public class Message {
               }
               trimLast(sb, "(End)");
               trimLast(sb, "\nMore?");
-              body = trimLead(sb.toString());
+              body = trimLead(sb.toString(), keepLeadBreak);
               break;
             }
           }
@@ -291,7 +294,7 @@ public class Message {
         String sAddr = body.substring(0, ipt).trim();
         if (sAddr.contains("@")) {
           parseAddress = sAddr;
-          body = trimLead(body.substring(ipt+4));
+          body = trimLead(body.substring(ipt+4), keepLeadBreak);
           break;
         }
       }
@@ -304,7 +307,7 @@ public class Message {
         String addr = body.substring(0,ipt).trim();
         if (addr.contains("@") && ! addr.contains(":")) {
           parseAddress = addr;
-          body = trimLead(body.substring(ipt+5));
+          body = trimLead(body.substring(ipt+5), keepLeadBreak);
           break;
         }
       }
@@ -315,7 +318,7 @@ public class Message {
       ipt  = body.indexOf("\nMSG:\n");
       if (ipt >= 0) {
         parseAddress = body.substring(0,ipt);
-        body = trimLead(body.substring(ipt+6));
+        body = trimLead(body.substring(ipt+6), keepLeadBreak);
         break;
       }
       
@@ -334,7 +337,7 @@ public class Message {
         if (from != null) parseAddress = from.trim();
         String sub = match.group(2);
         if (sub != null) addSubject(sub.trim());
-        body = trimLead(body.substring(match.end()));
+        body = trimLead(body.substring(match.end()), keepLeadBreak);
         break;
       }
     
@@ -350,7 +353,7 @@ public class Message {
       }
       if (found) {
         parseAddress = match.group(1);
-        body = trimLead(body.substring(match.end()));
+        body = trimLead(body.substring(match.end()), keepLeadBreak);
         break;
       }
 
@@ -374,9 +377,10 @@ public class Message {
     if (parseAddress.length() == 0) parseAddress = fromAddress;
   }
   
-  private static String trimLead(String str) {
+  private static String trimLead(String str, boolean keepLeadBreak) {
     int pt = 0;
-    while (pt < str.length() && Character.isWhitespace(str.charAt(pt))) pt++;
+    while (pt < str.length() && 
+            (keepLeadBreak ? str.charAt(pt) == ' ' : Character.isWhitespace(str.charAt(pt)))) pt++;
     return str.substring(pt);
   }
 
@@ -388,7 +392,7 @@ public class Message {
   private String decode(String body) {
     body = HTML_PTN.matcher(body).replaceAll("");
     body = BR_PTN.matcher(body).replaceAll("\n");
-    return trimLead(body.replace("&nbsp;",  " ").replace("&amp;",  "&").replace("&gt;", ">").replace("&lt;", "<"));
+    return body.replace("&nbsp;",  " ").replace("&amp;",  "&").replace("&gt;", ">").replace("&lt;", "<");
   }
   private static final Pattern HTML_PTN = Pattern.compile("^.*<HTML>|<BODY>|</BODY>|</HTML>.*$", Pattern.CASE_INSENSITIVE);
   private static final Pattern BR_PTN = Pattern.compile("< *br */?>", Pattern.CASE_INSENSITIVE);
@@ -433,14 +437,14 @@ public class Message {
       if (pt2 >= body.length()) break;
     }
     
-    body = trimLead(body.substring(pt1));
+    body = trimLead(body.substring(pt1), true);
     Matcher match = EMAIL_PFX_PATTERN.matcher(body);
     if (match.find()) {
       parseAddress = match.group(1).trim();
-      body = trimLead(body.substring(match.end()));
+      body = trimLead(body.substring(match.end()), true);
     }
     
-    if (body.startsWith("MSG:")) body = trimLead(body.substring(4));
+    if (body.startsWith("MSG:")) body = trimLead(body.substring(4), true);
     
     match = FWD_PTN.matcher(parseSubject);
     if (match.find()) parseSubject = parseSubject.substring(match.end()).trim();

@@ -253,6 +253,11 @@
   <string name="pref_split_chk_sender_summaryon">Avsändaradress kommer att kontrolleras när delade meddelanden sätts ihop</string>
   <string name="pref_split_chk_sender_summaryoff">Avsändaradress kommer inte att kontrolleras när delade meddelanden sätts ihop</string>
   <string name="pref_rev_msg_order_title">Reversera ordning i delade meddelanden</string>
+  
+  <string name="pref_split_keep_lead_break_title">Split msg keep lead breaks</string> <!-- Translate -->
+  <string name="pref_split_keep_lead_break_summaryon">Leading line breaks in split pages message will be retained</string> <!-- Translate -->
+  <string name="pref_split_keep_lead_break_summaryoff">Leading line breaks in split pages message will be removed</string> <!-- Translate -->
+  
   <string name="pref_rev_msg_order_summaryon">Delade Cadpag Delade Cadpage-meddelanden kommer att läsas i ordning sist till först</string>
   <string name="pref_rev_msg_order_summaryoff">Delade Cadpage-meddelanden kommer att läsas i ordning först till sist</string>
   <string name="pref_suppress_dup_msg_title">Ignorera dubbla larm</string>
@@ -316,7 +321,7 @@
   <!-- Direct Paging settings -->
   <string name="pref_direct_paging_title">Meddelandeservice</string>
   <string name="pref_direct_paging_summary">Ställ in meddelandeservice</string>
-  <string name="pref_reconnect_title">Återanslut direkt koppling (ej med.service)</string>
+  <string name="pref_reconnect_title">Återanslut direkt koppling (med. service)</string>
   <string name="pref_reconnect_summary">Återställ anslutning till aktiverad meddelandeservice</string>
   <!-- Scanner Radio Interface reports -->
   <string name="scanner_not_installed">Den här funktionen förutsätter att du har vissa scannerapplikationer installerade.  Vill du installera dessa nu?</string>

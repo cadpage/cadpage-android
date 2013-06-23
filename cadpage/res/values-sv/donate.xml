@@ -94,7 +94,7 @@
   <string name="donate_android_problem_title">Jag kan inte göra betalningar på android market</string>
   <string name="donate_android_problem_text">Jäklar,vi ska se vad vi kan göra åt det</string>
   <string name="donate_reset_market_title">Räkna om betalningsstatus</string>
-  <string name="donate_sob_story_title">"Jag har inte råd med $10 i år"</string>
+  <string name="donate_sob_story_title">"I can't afford $10 this year"</string>   <!-- Translate -->
   <string name="donate_sob_story_text">
     "Berätta varför du inte har råd att betala $10.  Vi är lätta  att övertala.\n\n"
     Vet du något sätt som gör Cadpage lättare att använda?  Har du något förslag på bättre sätt att finansiera de avsevärda kostnaderna att underhålla Cadpage?
