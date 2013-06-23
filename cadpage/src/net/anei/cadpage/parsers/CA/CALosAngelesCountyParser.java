@@ -13,7 +13,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class CALosAngelesCountyParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^(\\w+):(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d:\\d\\d)/");
+  private static final Pattern MARKER = Pattern.compile("^(\\w+):(?:(\\d\\d/\\d\\d/\\d\\d) )?(\\d\\d:\\d\\d(?::\\d\\d)?)/");
   
   public CALosAngelesCountyParser() {
     super(CITY_CODES, "LOS ANGELES COUNTY", "CA",
@@ -35,7 +35,7 @@ public class CALosAngelesCountyParser extends FieldProgramParser {
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     data.strSource = match.group(1);
-    data.strDate = match.group(2);
+    data.strDate = getOptGroup(match.group(2));
     data.strTime = match.group(3);
     body = body.substring(match.end()).trim();
     return parseFields(body.split("/"), data);
