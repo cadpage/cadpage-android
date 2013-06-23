@@ -19,7 +19,7 @@ public class ORLakeOswegoParser extends FieldProgramParser {
   }
   
   public ORLakeOswegoParser(String defCity, String defState) {
-    super(ORWashingtonCountyParser.CITY_CODES, defCity, defState,
+    super(ORWashingtonCountyAParser.CITY_CODES, defCity, defState,
            "UNIT CODE CALL ADDRCITY SRC! MAP:MAP! btwn:X? UNK PLACE:PLACE? INFO+");
   }
   

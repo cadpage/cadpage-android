@@ -388,6 +388,16 @@ public abstract class SmartAddressParser extends MsgParser {
   }
   
   /**
+   * Add additional road suffix terms.  It is the callers responsibility
+   * to ensure that all new suffix terms are properly handled when the
+   * map address is generated
+   * @param terms new road suffix terms
+   */
+  protected void addRoadSuffixTerms(String ... terms) {
+    setupDictionary(ID_ROAD_SFX, terms);
+  }
+  
+  /**
    * Add additional words that should not be allowed in address fields
    * @param words words to be added to list of invalid address words
    */
