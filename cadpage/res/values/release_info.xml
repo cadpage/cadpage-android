@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06182013</string>
-  <string name="release_version">v1.6.29</string>
+  <string name="release_date">06242013</string>
+  <string name="release_version">v1.6.30</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-New Locations:
-Yolo County, CA
-Travis County, TX
-      
-Location Parsing Fixes:
-Oroville, CA
-Shelby County, AL
-Middlesex County, CT
-Charles County, MD
-Prince Georges County, MD
-Worcester County, MD
-St Charles County, MO
-St Louis County, MO
-Johnson County, MO
-Cayuga County, NY
-Genesee County, NY
-Suffolk County, NY
-Nash County, NC
-Armstrong County, PA
-
-General Fixes:
-Direct paging stability improvements
+New Locations:\n
+Sedgwick County, KS\n
+St Charles Parish, LA\n
+Norfolk County, MA\n
+Suffolk County, NY (alt)\n
+Washington County, OR (alt)\n
+\n
+Location Parsing Fixes:\n
+Los Angeles County, CA\n
+Northwest Public Safety, CT\n
+Tolland County, CT\n
+Campbell County, KY\n
+AtlanticcCare EMS, NJ\n
+Madison County, NY\n
+Bucks County, PA\n
+Northumberland County, PA\n
+Union County, SD\n
+Bexar County, TX\n
+Cy Creek Comm Center, TX\n
+\n
+General Fixes:\n
+Cadpage not following system screen orientation setting.\m
   </string>  
 </resources>
   
