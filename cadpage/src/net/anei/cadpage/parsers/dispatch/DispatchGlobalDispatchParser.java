@@ -27,8 +27,16 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   private boolean leadStuff;
   private boolean trailStuff;
   
+  public DispatchGlobalDispatchParser(String defCity, String defState) {
+    this(null, defCity, defState, 0, null, null);
+  }
+  
   public DispatchGlobalDispatchParser(String[] cityList, String defCity, String defState) {
     this(cityList, defCity, defState, 0, null, null);
+  }
+  
+  public DispatchGlobalDispatchParser(String defCity, String defState, int flags) {
+    this(null, defCity, defState, flags, null, null);
   }
   
   public DispatchGlobalDispatchParser(String[] cityList, String defCity, String defState, int flags) {
@@ -39,7 +47,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
                                        int flags, Pattern stationPtn, Pattern unitPtn) {
     super(cityList, defCity, defState,
           calcAddressTerm(flags) +
-          " MapRegions:MAP Description:INFO CrossStreets:X Description:INFO Dispatch:DATETIME Dispatch:SKIP");
+          " Call_Received_Time:DATE_TIME_CITY MapRegions:MAP Description:INFO CrossStreets:X Description:INFO Dispatch:DATETIME Primary_Incident:ID Call_Number:ID Description:INFO ReferenceText:INFO Dispatch:SKIP");
     this.stationPtn = stationPtn;
     this.unitPtn = unitPtn;
     leadStuff = (flags & LEAD_SRC_UNIT_ADDR) != 0;
@@ -131,6 +139,21 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     }
   }
   
+  private class BaseDateTimeCityField extends Field {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      data.strDate = p.get(' ');
+      data.strTime = p.get(' ');
+      data.strCity = p.get();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "DATE TIME CITY";
+    }
+  }
+  
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\[(\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) \\d+\\]");
   protected class BaseInfoField extends InfoField {
     @Override
@@ -146,12 +169,20 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
       super.parse(field, data);
     }
   }
-  
+
+  private class BaseIdField extends IdField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCallId = append(data.strCallId, "/", field);
+    }
+  }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("ADDR")) return new BaseAddressField();
+    if (name.equals("DATE_TIME_CITY")) return new BaseDateTimeCityField();
+    if (name.equals("INFO")) return new BaseInfoField();
+    if (name.equals("ID")) return new BaseIdField();
     return super.getField(name);
   }
 }

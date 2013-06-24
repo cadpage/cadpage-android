@@ -294,10 +294,11 @@ public class ParserList {
               ,"KYMuhlenbergCounty"             ,"Muhlenberg County, KY"
               ,"KYOldhamCounty"                 ,"Oldham County, KY"
           ),
-          new ParserCategory("Lousiana"
+          new ParserCategory("Louisiana"
               ,"LAAcadianAmbulance"             ,"Acadian Ambulance, LA"
               ,"LAJeffersonParish"              ,"Jefferson Parish, LA"
               ,"LALafourcheParish"              ,"Lafourche Parish, LA"
+              ,"LAStCharlesParish"              ,"St Charles Parish, LA"
           ),
           new ParserCategory("Maine"
               ,"MEKnoxCounty"                   ,"Knox County, ME"
