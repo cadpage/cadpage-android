@@ -14,6 +14,7 @@ public class MORayCountyParser extends SmartAddressParser {
   
   public MORayCountyParser() {
     super(CITY_TABLE, "RAY COUNTY", "MO");
+    setFieldList("ADDR APT CITY X CALL");
   }
   
   @Override

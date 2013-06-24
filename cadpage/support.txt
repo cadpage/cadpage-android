@@ -38,33 +38,6 @@ So what can you do, there are a few choices:
 Good luck,
 -Ken
 
-****************************************************************
-new 3/2013
-
-That is a Handcent issue.  Handcent and Go SMS and some other messaging
-apps fight over the top slot in the text receive queue.  Which means
-they get to decide whether Cadpage sees the text messages rather than
-the other way around.
-
-So what can you do, there are a few choices:
-1) The latest version of Handcent has a new option to lower the input
-priority.  Presumably this will make it compatible with Cadpage, but
-this has not been conclusively confirmed.To get to it, select
-   Menu > Settings > Application Settings > Lower Priority
-2) You can uninstall Handcent and look for another messaging app,
-preferably after sending them a polite note telling them you won't put
-up with apps that don't play nicely with Cadpage.
-3) You use the Handcent settings to blacklist the email/phone number
-dispatch uses to send you pages.  Then it nicely drops those calls back
-to Cadpage.
-4) You can go to our download page at
-http://www.cadpage.org/download-cadpage/ where we keep the most recent
-version of Handcent that plays nicely with Cadpage.  Install that and
-things should work nicely.
-
-Good luck,
--Ken
-
 ******************************************************************
 
 OK, let's try this:  Go to Cadpage settings and press Payment Status, then Recalculate Payment Status, then immediately scroll to the bottom of the menu and select Email the Developer to send us an email from Cadpage.

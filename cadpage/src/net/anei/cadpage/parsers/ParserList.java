@@ -283,6 +283,7 @@ public class ParserList {
           new ParserCategory("Kansas"
               ,"KSButlerCounty"                 ,"Butler County, KS"
               ,"KSJohnsonCounty"                ,"Johnson County, KS"
+              ,"KSSedgwickCounty"               ,"Sedgwick County, KS"
           ),
           new ParserCategory("Kentucky"
               ,"KYBoydCounty"                   ,"Boyd County, KY"

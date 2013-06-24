@@ -126,6 +126,7 @@ public class Message {
     
     // Start by decoding common HTML sequences
     body = decode(body);
+    body = trimLead(body, keepLeadBreak);
     
     // Get rid of any \r characters
     body = body.replaceAll("\r+\n", "\n").replace('\r', '\n');
