@@ -55,6 +55,7 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
   // Atlantic County
     "ABSECON",    
     "ATLANTIC",
+    "ATLANTIC CITY",
     "BRIGANTINE",
     "BUENA VISTA TWP",
     "COLLINGS LAKES",
