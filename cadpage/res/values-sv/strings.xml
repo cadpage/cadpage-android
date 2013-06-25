@@ -253,11 +253,9 @@
   <string name="pref_split_chk_sender_summaryon">Avsändaradress kommer att kontrolleras när delade meddelanden sätts ihop</string>
   <string name="pref_split_chk_sender_summaryoff">Avsändaradress kommer inte att kontrolleras när delade meddelanden sätts ihop</string>
   <string name="pref_rev_msg_order_title">Reversera ordning i delade meddelanden</string>
-  
-  <string name="pref_split_keep_lead_break_title">Split msg keep lead breaks</string> <!-- Translate -->
-  <string name="pref_split_keep_lead_break_summaryon">Leading line breaks in split pages message will be retained</string> <!-- Translate -->
-  <string name="pref_split_keep_lead_break_summaryoff">Leading line breaks in split pages message will be removed</string> <!-- Translate -->
-  
+  <string name="pref_split_keep_lead_break_title">Radbrytining i delade meddelanden</string>
+  <string name="pref_split_keep_lead_break_summaryon">Inledande radbrytning i delade meddelanden kommer att bibehållas</string>
+  <string name="pref_split_keep_lead_break_summaryoff">Inledande radbrytning i delade meddelanden kommer att tas bort</string>
   <string name="pref_rev_msg_order_summaryon">Delade Cadpag Delade Cadpage-meddelanden kommer att läsas i ordning sist till först</string>
   <string name="pref_rev_msg_order_summaryoff">Delade Cadpage-meddelanden kommer att läsas i ordning först till sist</string>
   <string name="pref_suppress_dup_msg_title">Ignorera dubbla larm</string>
