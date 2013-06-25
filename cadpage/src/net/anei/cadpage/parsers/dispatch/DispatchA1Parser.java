@@ -15,7 +15,7 @@ public class DispatchA1Parser extends FieldProgramParser {
   
   public DispatchA1Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, 
-           "ALRM_LVL:PRI LOC:SKIP PLACE? ADDR! APT? CITY BTWN:X COM:INFO INFO+? CT:INFO INFO+?");
+           "ALRM_LVL:PRI LOC:SKIP PLACE? ADDR! APT? CITY BTWN:X COM:INFO INFO+? CT:INFO INFO+? UNITS:UNIT");
   }
   
   @Override
