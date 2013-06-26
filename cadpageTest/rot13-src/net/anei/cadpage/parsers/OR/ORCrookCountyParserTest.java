@@ -46,8 +46,10 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ARJ VAPVQRAG) 3/10/2011 1003\aRIRAG # 1103100020 CSQ\aZNOQ - NOQBZVANY CNVA\aCEVBEVGL 1 \aYBPNGVBA 2250 FR XLYR EQ\aPVGL CEVARIVYYR\aNCG \aCERZVFR: \aPBZZRAG: UN",
         "QNGR:3/10/2011",
         "GVZR:10:03",
-        "VQ:1103100020 CSQ",
+        "VQ:1103100020",
+        "FEP:CSQ",
         "PNYY:ZNOQ - NOQBZVANY CNVA",
+        "CEV:1",
         "NQQE:2250 FR XLYR EQ",
         "PVGL:CEVARIVYYR",
         "VASB:UN");
@@ -56,8 +58,10 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ARJ VAPVQRAG) 3/11/2011 1003\aRIRAG # 1103110010 CSQ\aOHEA - OHEA VASB BAYL\aCEVBEVGL 1 \aYBPNGVBA 6282 AJ TERRA INYYRL EQ\aPVGL CEVARIVYYR\aNCG \aCERZVFR: \aPBZ",
         "QNGR:3/11/2011",
         "GVZR:10:03",
-        "VQ:1103110010 CSQ",
+        "VQ:1103110010",
+        "FEP:CSQ",
         "PNYY:OHEA - OHEA VASB BAYL",
+        "CEV:1",
         "NQQE:6282 AJ TERRA INYYRL EQ",
         "PVGL:CEVARIVYYR");
 
@@ -65,8 +69,10 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ARJ VAPVQRAG) 3/11/2011 0903\aRIRAG # 1103110009 CSQ\aSNYNEZ - SVER NYNEZ\aCEVBEVGL 1 \aYBPNGVBA 210 AR 3EQ FG\aPVGL CEVARIVYYR\aNCG \aCERZVFR: \aPBZZRAG: ONPX E\a",
         "QNGR:3/11/2011",
         "GVZR:09:03",
-        "VQ:1103110009 CSQ",
+        "VQ:1103110009",
+        "FEP:CSQ",
         "PNYY:SNYNEZ - SVER NYNEZ",
+        "CEV:1",
         "NQQE:210 AR 3EQ FG",
         "PVGL:CEVARIVYYR",
         "VASB:ONPX E");
@@ -75,8 +81,10 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ARJ VAPVQRAG) 3/10/2011 0803\aRIRAG # 1103100051 CSQ\aZHAX - HAXABJA ZRQVPNY\aCEVBEVGL 1 \aYBPNGVBA 587 FR XAVTUG FG\aPVGL CEVARIVYYR\aNCG \aCERZVFR: \aPBZZRAG:",
         "QNGR:3/10/2011",
         "GVZR:08:03",
-        "VQ:1103100051 CSQ",
+        "VQ:1103100051",
+        "FEP:CSQ",
         "PNYY:ZHAX - HAXABJA ZRQVPNY",
+        "CEV:1",
         "NQQE:587 FR XAVTUG FG",
         "PVGL:CEVARIVYYR");
 
@@ -84,8 +92,10 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ARJ VAPVQRAG) 3/10/2011 0803\aRIRAG # 1103100050 CSQ\aNYNEZ - NYNEZ\aCEVBEVGL 1 \aYBPNGVBA 705 AJ 10GU\aPVGL CEVARIVYYR\aNCG 27\aCERZVFR: \aPBZZRAG: 90 LBS SNYYR",
         "QNGR:3/10/2011",
         "GVZR:08:03",
-        "VQ:1103100050 CSQ",
+        "VQ:1103100050",
+        "FEP:CSQ",
         "PNYY:NYNEZ - NYNEZ",
+        "CEV:1",
         "NQQE:705 AJ 10GU",
         "PVGL:CEVARIVYYR",
         "NCG:27",
@@ -95,8 +105,10 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ARJ VAPVQRAG) 3/10/2011 0703\aRIRAG # 1103100047 CSQ\aZIN - 1201: 1273 / 1225\aCEVBEVGL 1 \aYBPNGVBA UJL 27 ZC 2\aPVGL CEVARIVYYR\aNCG \aCERZVFR: \aPBZZRAG: FHI",
         "QNGR:3/10/2011",
         "GVZR:07:03",
-        "VQ:1103100047 CSQ",
+        "VQ:1103100047",
+        "FEP:CSQ",
         "PNYY:ZIN - 1201: 1273 / 1225",
+        "CEV:1",
         "NQQE:UJL 27 ZC 2",
         "PVGL:CEVARIVYYR",
         "VASB:FHI");
@@ -105,8 +117,10 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "([CEAI_911] ARJ VAPVQRAG) 5/3/2011 0805\aRIRAG # 1105030076 CSQ\aZVAW - VAWHEVRF\aCEVBEVGL 1 \aYBPNGVBA 1265 AJ YNZOREG EQ\aPVGL CEVARIVYY",
         "QNGR:5/3/2011",
         "GVZR:08:05",
-        "VQ:1105030076 CSQ",
+        "VQ:1105030076",
+        "FEP:CSQ",
         "PNYY:ZVAW - VAWHEVRF",
+        "CEV:1",
         "NQQE:1265 AJ YNZOREG EQ",
         "PVGL:CEVARIVYY");
 
@@ -114,8 +128,10 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "([CEAI_911] ARJ VAPVQRAG) 5/3/2011 0705\aRIRAG # 1105030067 CSQ\aZSNYY - SNYY\aCEVBEVGL 1 \aYBPNGVBA 210 FR 5GU FG\aPVGL CEVARIVYYR\aNCG 13",
         "QNGR:5/3/2011",
         "GVZR:07:05",
-        "VQ:1105030067 CSQ",
+        "VQ:1105030067",
+        "FEP:CSQ",
         "PNYY:ZSNYY - SNYY",
+        "CEV:1",
         "NQQE:210 FR 5GU FG",
         "PVGL:CEVARIVYYR",
         "NCG:13");
@@ -124,8 +140,10 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "([CEAI_911] ARJ VAPVQRAG) 5/3/2011 0605\aRIRAG # 1105030061 CSQ\aZSNYY - SNYY\aCEVBEVGL 1 \aYBPNGVBA 14493 FR YRR JNL\aPVGL CEVARIVYYR\aNCG",
         "QNGR:5/3/2011",
         "GVZR:06:05",
-        "VQ:1105030061 CSQ",
+        "VQ:1105030061",
+        "FEP:CSQ",
         "PNYY:ZSNYY - SNYY",
+        "CEV:1",
         "NQQE:14493 FR YRR JNL",
         "PVGL:CEVARIVYYR");
 
@@ -133,8 +151,10 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "F:ARJ VAPVQRAG Z:6/2/2011 1006\aRIRAG # 1106020016 CSQ\aNYNEZ - 1201:1225/1221/1222/...\aCEVBEVGL 1\aYBPNGVBA 1100 FR YLAA\aPVGL CEVARIVYYR\aNCG\aCERZVFR:\aPBZZRAG: FZBXR NYNEZ//",
         "QNGR:6/2/2011",
         "GVZR:10:06",
-        "VQ:1106020016 CSQ",
+        "VQ:1106020016",
+        "FEP:CSQ",
         "PNYY:NYNEZ - 1201:1225/1221/1222/...",
+        "CEV:1",
         "NQQE:1100 FR YLAA",
         "PVGL:CEVARIVYYR",
         "VASB:FZBXR NYNEZ//");
@@ -143,8 +163,10 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "([CEAI_911] ARJ VAPVQRAG) 7/21/2011 1107\aRIRAG # 1107210080 CSQ\aZHAX - HAXABJA ZRQVPNY\aCEVBEVGL 1 \aYBPNGVBA 3813 FR GVYYNZBBX YBBC\aPV",
         "QNGR:7/21/2011",
         "GVZR:11:07",
-        "VQ:1107210080 CSQ",
+        "VQ:1107210080",
+        "FEP:CSQ",
         "PNYY:ZHAX - HAXABJA ZRQVPNY",
+        "CEV:1",
         "NQQE:3813 FR GVYYNZBBX YBBC");
   }
   
@@ -155,8 +177,10 @@ choyvp pynff BEPebbxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "1/12/2013 0301<oe>RIRAG # 1301120044 CSQ<oe>ZGENAF - ZRQVPNY GENAFSRE<oe>CEVBEVGL 1 <oe>YBPNGVBA RE GB 472 AR 2AQ FG<oe>PVGL CEVARIVYYR<oe>NCG <oe>CERZVFR: <oe>PBZZRAG: OYF ONPX UBZR<oe><oe>",
         "QNGR:1/12/2013",
         "GVZR:03:01",
-        "VQ:1301120044 CSQ",
+        "VQ:1301120044",
+        "FEP:CSQ",
         "PNYY:ZGENAF - ZRQVPNY GENAFSRE",
+        "CEV:1",
         "NQQE:RE GB 472 AR 2AQ FG",
         "PVGL:CEVARIVYYR",
         "VASB:OYF ONPX UBZR");

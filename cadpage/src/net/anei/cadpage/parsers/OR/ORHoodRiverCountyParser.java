@@ -8,23 +8,18 @@ import net.anei.cadpage.parsers.dispatch.DispatchA22Parser;
  * Klamath County, OR
  */
 
-public class ORKlamathCountyParser extends DispatchA22Parser {
+public class ORHoodRiverCountyParser extends DispatchA22Parser {
   
-  public ORKlamathCountyParser() {
-    super(CITY_CODES, "KLAMATH COUNTY", "OR");
+  public ORHoodRiverCountyParser() {
+    super(CITY_CODES, "HOOD RIVER COUNTY", "OR");
   }
   
   @Override
   public String getFilter() {
-    return "kc-911@kc911.us";
-  }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_SUPPR_LA;
+    return "HoodRiverDispatch@psnet.us";
   }
 
   private static Properties CITY_CODES = buildCodeTable(new String[]{
-      "KF", "KLAMATH FALLS"
+      "HR", "HOOD RIVER"
   });
 }
