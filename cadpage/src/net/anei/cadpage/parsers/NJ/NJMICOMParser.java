@@ -13,6 +13,7 @@ public class NJMICOMParser extends MsgParser {
   
   public NJMICOMParser() {
     super("", "NJ");
+    setFieldList("UNIT ID CITY ADDR PLACE APT X CALL");
   }
   
   @Override
