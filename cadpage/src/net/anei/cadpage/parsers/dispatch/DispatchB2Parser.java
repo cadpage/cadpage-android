@@ -68,6 +68,14 @@ public class DispatchB2Parser extends DispatchBParser {
     }
     return super.parseMsg(body, data);
   }
+  
+  
+  @Override
+  protected boolean isPageMsg(String body) {
+    if (prefix != null) return true;
+    return super.isPageMsg(body);
+  }
+  
 
   
   /**
