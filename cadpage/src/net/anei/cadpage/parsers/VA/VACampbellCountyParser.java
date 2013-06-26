@@ -10,14 +10,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class VACampbellCountyParser extends SmartAddressParser {
   
-  private static Properties CITY_CODES = buildCodeTable(new String[]{
-      "ALT", "ALTAVISTA",
-      
-      "EVI", "EVINGTON",
-      "LYN", "LYNCH STATION",
-      "RUS", "RUSTBURG"
-  });
-  
   
   private static final String[] KEYWORDS = new String[]{"LOC", "CFS"};
   
@@ -27,6 +19,7 @@ public class VACampbellCountyParser extends SmartAddressParser {
   
   public VACampbellCountyParser() {
     super(CITY_CODES, "CAMPBELL COUNTY","VA");
+    setFieldList("SRC CALL CITY ADDR ID INFO");
     setup();
   }
   
@@ -195,4 +188,12 @@ public class VACampbellCountyParser extends SmartAddressParser {
         "WATER REMOVAL"
         );
   }
+  
+  private static Properties CITY_CODES = buildCodeTable(new String[]{
+      "ALT", "ALTAVISTA",
+      
+      "EVI", "EVINGTON",
+      "LYN", "LYNCH STATION",
+      "RUS", "RUSTBURG"
+  });
 }

@@ -33,6 +33,7 @@ public class VABotetourtCountyParser extends DispatchSouthernParser {
   
   private static final CodeSet CALL_SET = new CodeSet(
       "F - AIRPLANE CRASH",
+      "F - BRUSH/GRASS FIRE",
       "F - BRUSH / GRASS FIRE",
       "F - BURN ILLEGALLY",
       "F - CARBON MONOXIDE",
@@ -123,6 +124,11 @@ public class VABotetourtCountyParser extends DispatchSouthernParser {
       "BLS - POISONING",
       "BLS - SEIZURE",
       "BLS - SEVERE BLEED (NON-TRAUMATIC)",
-      "BLS - STROKE"
+      "BLS - STROKE",
+      
+      "ACCIDENT 10-50 NB",
+      "CARDIAC",
+      "MISC ILLNESS",
+      "SOTT - SEARCH AND RESCUE"
   );
 }
