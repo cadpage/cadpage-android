@@ -26,7 +26,7 @@ public class MOJohnsonCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "cadpage@joco911.org";
+    return "@joco911.org";
   }
   
   @Override
