@@ -18,7 +18,7 @@ public class VALoudounCountyParser extends FieldProgramParser {
   
   public VALoudounCountyParser() {
     super(CITY_CODES, "LOUDOUN COUNTY", "VA",
-          "CALL:CALL! ADDR/y! APT:APT! X-ST:X! UNIT BOX:BOX! ADC:MAP% FDID:ID");
+          "CALL:CALL! ADDR/y! APT:APT! X-ST:X! UNIT BOX:BOX% ADC:MAP% FDID:ID");
   }
 
   @Override

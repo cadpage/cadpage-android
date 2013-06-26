@@ -180,7 +180,7 @@ choyvp pynff INXvatTrbetrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj INXvatTrbetrPbhaglCnefreGrfg().trarengrGrfgf("G1", "FEP PNYY PVGL NQQE VQ K VASB");
+    arj INXvatTrbetrPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
   

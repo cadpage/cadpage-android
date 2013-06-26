@@ -37,6 +37,9 @@ Fraqre: Ybhqbha Rzcyblrr EFNA <zft_1M9W@znvy.rznpbbc.ybhqbha.tbi>
 PNYY:01N01-NOQBZVANY CNVA, 42073 TERRAFGBAR QE-NY NCG: K-FG:ZVARENY FCEVATF PVE & ORN Z6092 NPB9, OBK:0910 NQP:5520 P02 SQVQ:99079 6:05 CZ
 (Ybhqbha PNQ) PNYY:31Q03-HAPBAFPVBHF CR, 25025 BJY PERRX QE-NY NCG: K-FG:HENY QE TENLJNPXR QE  R609O, OBK:0948  NQP:5520 O02 SQVQ:99079 10709\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 9 Ibyhagrref (R-znvy nppbhagf,\aCntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz\aFrpher Nyreg Argjbex
 
+Pbagnpg: Gubznf Xnar <gxnar@chepryyivyyrsver.bet>
+Pnyy:US-UBHFR SVER,22 NQNZF QE AR-YO Ncg:,K-Fg:UREVGNTR JNL AR U,R620 R622O R606O R610 G620 GY606 E613 N6133 OP601 NP602 RZ601 RPB20 NP
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zbagtbzrel Pbhagl Sver  Erfphr - Znva
 Ybpngvba: Zbagtbzrel Pbhagl, ZQ, Havgrq Fgngrf
@@ -227,6 +230,20 @@ choyvp pynff INYbhqbhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:5520 O02",
         "VQ:99079 10709");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGubznfXnar() {
+
+    qbGrfg("G1",
+        "Pnyy:US-UBHFR SVER,22 NQNZF QE AR-YO Ncg:,K-Fg:UREVGNTR JNL AR U,R620 R622O R606O R610 G620 GY606 E613 N6133 OP601 NP602 RZ601 RPB20 NP",
+        "PBQR:US",
+        "PNYY:UBHFR SVER",
+        "NQQE:22 NQNZF QE AR",
+        "PVGL:Yrrfohet",
+        "K:UREVGNTR JNL AR & U",
+        "HAVG:R620 R622O R606O R610 G620 GY606 E613 N6133 OP601 NP602 RZ601 RPB20 NP");
+   
   }
   
   @Grfg
