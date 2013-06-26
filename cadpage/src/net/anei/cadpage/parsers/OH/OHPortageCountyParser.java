@@ -26,20 +26,18 @@ public class OHPortageCountyParser extends FieldProgramParser {
   public boolean parseMsg(String body, Data data) {
     
     Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    body = body.substring(match.end());
+    if (match.find()) body = body.substring(match.end());
     return parseFields(body.split(","), data);
   }
 
-  private static final Pattern CALL_CODE_PTN = Pattern.compile("^([A-Z0-9]{1,2})-");
+  private static final Pattern CALL_CODE_PTN = Pattern.compile("^([A-Z0-9]{1,5})[-_]");
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = CALL_CODE_PTN.matcher(field);
-      if (match.find()) {
-        data.strCode = match.group(1);
-        field = field.substring(match.end()).trim();
-      }
+      if (!match.find()) abort();
+      data.strCode = match.group(1);
+      field = field.substring(match.end()).trim();
       super.parse(field, data);
     }
     
