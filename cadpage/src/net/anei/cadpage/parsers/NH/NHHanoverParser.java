@@ -1,5 +1,9 @@
 package net.anei.cadpage.parsers.NH;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -14,14 +18,14 @@ public class NHHanoverParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "DISPATCH@HANOVER.PD,HDISPATCH@HOLLISNH.ORG,messaging@iamresponding.com";
+    return "DISPATCH@HANOVER.PD,HDISPATCH@HOLLISNH.ORG,messaging@iamresponding.com.hanoverpaging@hanovernh.org";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("_")) data.strSource = subject;
     if (!parseFields(body.split("\n"), 3, data)) return false;
-    if (data.strCity.equals("BRADFORD")) data.defState = "VT";
+    if (VT_CITIES.contains(data.strCity)) data.defState = "VT";
     return true;
   }
   
@@ -185,7 +189,7 @@ public class NHHanoverParser extends FieldProgramParser {
     "EAST ANDOVER",
     "BOSCAWEN",
     "BOW",
-    "BRADFORD",
+    //  "BRADFORD",  (duplicates entry in Orange County VT)
     "CANTERBURY",
     "CHICHESTER",
     "CONCORD",
@@ -216,7 +220,18 @@ public class NHHanoverParser extends FieldProgramParser {
     "SOUTH SUTTON",
     "WARNER",
     "WEBSTER",
-    "WILMOT"
+    "WILMOT",
+    
+    // Orange County (VT)
+    "BRADFORD",
+    
+    // Windsor County (VT)
+    "NORWICH"
 
   };
+  
+  private static final Set<String> VT_CITIES = new HashSet<String>(Arrays.asList(
+    "BRADFORD",
+    "NORWICH"
+  ));
 }
