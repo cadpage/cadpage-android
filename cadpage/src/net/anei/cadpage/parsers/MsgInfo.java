@@ -388,6 +388,7 @@ public class MsgInfo {
    */
   private static final Pattern UK_POST_CODE_PTN = Pattern.compile("^[A-Z]{1,2}\\d{1,2}[A-Z]? \\d[A-Z]{2} +");
   private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O |(?: JUST)? (?:[NSEW]|NORTH|SOUTH|EAST|WEST) OF ", Pattern.CASE_INSENSITIVE);
+  private static final Pattern NO_DIGIT_PTN = Pattern.compile("\\bNO *(\\d+)");
   private static final Pattern CROSS_DELIM = Pattern.compile("(?<=..)[&/,@]| - | AND ", Pattern.CASE_INSENSITIVE);
   private static final Pattern DEAD_END_PTN = Pattern.compile("END OF .*|DEAD END", Pattern.CASE_INSENSITIVE);
   public String getBaseMapAddress(int useGPSOption) {
@@ -431,6 +432,8 @@ public class MsgInfo {
     
     if ((parser.getMapFlags() & MAP_FLG_SUPPR_DIRO) == 0) {
       sAddr = DIR_OF_PTN.matcher(sAddr).replaceAll(" & ");
+    } else {
+      sAddr = NO_DIGIT_PTN.matcher(sAddr).replaceAll("$1");
     }
     sAddr = cleanParens(sAddr);
     sAddr = cleanStreetSuffix(sAddr);
