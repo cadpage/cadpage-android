@@ -14,7 +14,7 @@ public class VAPittsylvaniaCountyParser extends DispatchOSSIParser {
   private static final Pattern LEADER = Pattern.compile("^\\d+:(?!CAD:)");
   public VAPittsylvaniaCountyParser() {
     super(CITY_CODES, "PITTSYLVANIA COUNTY", "VA",
-           "ID?: CALL ADDR! CITY! ID? X? X? INFO+");
+           "ID?: EMPTY? CALL ADDR! CITY! ID? X? X? INFO+");
   }
   
   @Override
@@ -62,13 +62,19 @@ public class VAPittsylvaniaCountyParser extends DispatchOSSIParser {
       "CAL","Callands",
       "CAS","Cascade",
       "DRY","Dry Fork",
+      "FRA","FRA",
       "HUR","Hurt",
       "JAV","Java",
       "KEE","Keeling",
       "PIT","Pittsville",
       "RIN","Ringgold",
+      "RNC","RNC",
+      "RNG","Ringgold",
       "SAN","Sandy Level",
       "SUT","Sutherlin",
       "LON","Long Island",
+      
+      // Henry County
+      "AXT","Axton"
   });
 }
