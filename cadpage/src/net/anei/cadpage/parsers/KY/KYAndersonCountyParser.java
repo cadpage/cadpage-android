@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 public class KYAndersonCountyParser extends DispatchB2Parser {
   
   public KYAndersonCountyParser() {
-    super(CITY_LIST, "ANDERSON COUNTY", "KY");
+    super("911-CENTER:",CITY_LIST, "ANDERSON COUNTY", "KY");
   }
   
   @Override
