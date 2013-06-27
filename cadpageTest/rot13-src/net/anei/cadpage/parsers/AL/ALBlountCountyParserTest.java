@@ -1182,6 +1182,7 @@ choyvp pynff NYOybhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:GERR",
         "PNYY:GERR QBJA",
         "NQQE:1000 OYBPX PB UJL",
+        "ZNQQE:1000 PB UJL",
         "NCG:45",
         "VQ:2013-0000009033");
 
