@@ -85,9 +85,6 @@ choyvp pynff ZftVasbGrfg {
     qbZncGrfg("OAQ1", "HF 85 & R 77GU NIR,XRAOHET,KK", "HF UVTUJNL 85 AO & R 77GU NIR");
     qbZncGrfg("OAQ2", "HF 100,XRAOHET,KK", "HF UVTUJNL 100 FO");
     
-    qbZncCynprGrfg("CYP1", "CNEX CYNPR,HF 100,XRAOHET,KK", "HF UVTUJNL 100", "CNEX CYNPR");
-    qbZncCynprGrfg("CYP2", "850 HF 100,XRAOHET,KK", "850 HF UVTUJNL 100", "CNEX CYNPR");
-    
     qbZncGrfg("EG1", "KK 150 & UJL 12,XRAOHET,KK", "FG150 & UJL12");
     qbZncGrfg("EG2", "FNZR KK 30 & KK 15 YNFG,XRAOHET,KK", "FNZR KK30 & KK15 YNFG");
     qbZncGrfg("EG3", "JR75 & KK 10,XRAOHET,KK", "JR75&KK10");
@@ -145,19 +142,4 @@ choyvp pynff ZftVasbGrfg {
     ZftVasb vasb = arj ZftVasb(qngn);
     nffregRdhnyf(gvgyr, erfhyg, vasb.trgZncNqqerff(2, ahyy, ahyy));
   }
-  
-  cevingr ibvq qbZncCynprGrfg(Fgevat gvgyr, Fgevat erfhyg, Fgevat nqqerff, Fgevat cynpr) { 
-    ZftVasb.Qngn qngn = arj ZftVasb.Qngn(ahyy);
-    qngn.fgeNqqerff = nqqerff;
-    qngn.fgeCynpr = cynpr;
-    
-    qngn.qrsPvgl = "XRAOHET";
-    qngn.qrsFgngr = "KK";
-    
-    qngn.cnefre = arj TrarenyCnefre();
-    
-    ZftVasb vasb = arj ZftVasb(qngn);
-    nffregRdhnyf(gvgyr, erfhyg, vasb.trgZncNqqerff(2, ahyy,ahyy));
-  }
-
 }

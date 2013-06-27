@@ -143,7 +143,7 @@ choyvp pynff BXCbagbgbpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(QvfcngpuNyreg) NPPVQRAG/HAXABJA VAWHEL \aFU19 NAQ FU3J",
         "PNYY:NPPVQRAG/HAXABJA VAWHEL",
         "NQQE:FU19 NAQ FU3J",  
-        "ZNQQE:BX 19 NAQ BX 3J");
+        "ZNQQE:BX 19 & BX 3J");
 
     qbGrfg("G11",
         "(QvfcngpuNyreg) SVER/FGEHPGHER \a403 BENATR",
@@ -245,7 +245,8 @@ choyvp pynff BXCbagbgbpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G29",
         "(QvfcngpuNyreg) NPPVQRAG/ZVABE \aOEBNQJNL NAQ GBJRE",
         "PNYY:NPPVQRAG/ZVABE",
-        "NQQE:OEBNQJNL NAQ GBJRE");
+        "NQQE:OEBNQJNL NAQ GBJRE",
+        "ZNQQE:OEBNQJNL & GBJRE");
 
     qbGrfg("G30",
         "(QvfcngpuNyreg) SVER/TENFF \a15730 PE 1510",
@@ -262,7 +263,7 @@ choyvp pynff BXCbagbgbpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(QvfcngpuNyreg) NPPVQRAG/VAWHEL \aPE 3470 2 NAQ UNYS ZVYRF F BS SNEZREF ZNEXRG",
         "PNYY:NPPVQRAG/VAWHEL",
         "NQQE:PE 3470 2 NAQ UNYS ZVYRF F BS SNEZREF ZNEXRG",
-        "ZNQQE:PBHAGL EBNQ 3470 2 NAQ UNYS ZVYRF & SNEZREF ZNEXRG");
+        "ZNQQE:PBHAGL EBNQ 3470 2 & UNYS ZVYRF & SNEZREF ZNEXRG");
 
     qbGrfg("G33",
         "(QvfcngpuNyreg) HAERFCBAFVIR FHOWRPG \a931 A PBHAGEL PYHO",
@@ -346,17 +347,20 @@ choyvp pynff BXCbagbgbpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G48",
         "(QvfcngpuNyreg) SVER/ZVFP. \aOEBNQJNL NAQ XVATF",
         "PNYY:SVER/ZVFP.",
-        "NQQE:OEBNQJNL NAQ XVATF");
+        "NQQE:OEBNQJNL NAQ XVATF",
+        "ZNQQE:OEBNQJNL & XVATF");
 
     qbGrfg("G49",
         "(QvfcngpuNyreg) BQBE VAIRFGVTNGVBA \a14GU NAQ PBAFGNAG",
         "PNYY:BQBE VAIRFGVTNGVBA",
-        "NQQE:14GU NAQ PBAFGNAG");
+        "NQQE:14GU NAQ PBAFGNAG",
+        "ZNQQE:14GU & PBAFGNAG");
 
     qbGrfg("G50",
         "(QvfcngpuNyreg) NPPVQRAG/HAXABJA VAWHEL \aNEYVATGBA NAQ PBHAGEL PYHO",
         "PNYY:NPPVQRAG/HAXABJA VAWHEL",
-        "NQQE:NEYVATGBA NAQ PBHAGEL PYHO");
+        "NQQE:NEYVATGBA NAQ PBHAGEL PYHO",
+        "ZNQQE:NEYVATGBA & PBHAGEL PYHO");
 
     qbGrfg("G51",
         "(QvfcngpuNyreg) ZRQVPNY PNYY \a9837 PE 1545",

@@ -130,6 +130,7 @@ choyvp pynff CNZbagtbzrelPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:IRUVPYR NPPVQRAG VAWHEVRF",
         "NQQE:FHZARLGBJA CVXR NAQ JRFG CBVAG CVXR",
+        "ZNQQE:FHZARLGBJA CVXR & JRFG CBVAG CVXR",
         "PVGL:HCCRE TJLARQQ GJC",
         "HAVG:DK80  345-27",
         "K:FHZARLGBJA CVXR NAQ JRFG",
@@ -162,6 +163,7 @@ choyvp pynff CNZbagtbzrelPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:YNPRENGVBAF",
         "NQQE:J 8GU FG NAQ A PNAABA NIR",
+        "ZNQQE:J 8GU FG & A PNAABA NIR",
         "PVGL:YNAFQNYR",
         "HAVG:345-6",
         "K:J 8GU FG NAQ A PNAABA NIR",
@@ -368,6 +370,7 @@ choyvp pynff CNZbagtbzrelPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:IRUVPYR NPPVQRAG ERFPHR",
         "NQQE:FGHZC EQ NAQ UBEFUNZ EQ",
+        "ZNQQE:FGHZC EQ & UBEFUNZ EQ",
         "PVGL:ZBAGTBZREL GJC",
         "HAVG:E18  FQ62  E345",
         "K:FGHZC EQ NAQ UBEFUNZ EQ",
@@ -384,6 +387,7 @@ choyvp pynff CNZbagtbzrelPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:IRUVPYR NPPVQRAG VAWHEVRF",
         "NQQE:FGHZC EQ NAQ UBEFUNZ EQ",
+        "ZNQQE:FGHZC EQ & UBEFUNZ EQ",
         "PVGL:ZBAGTBZREL GJC",
         "HAVG:345-12",
         "K:FGHZC EQ NAQ UBEFUNZ EQ",

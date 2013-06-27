@@ -59,6 +59,7 @@ choyvp pynff CNZbagtbzrelPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:IRUVPYR NPPVQRAG SVER CBYVPR",
         "HAVG:SC98-1",
         "NQQE:F PUHEPU FG NAQ JNYAHG FG",
+        "ZNQQE:F PUHEPU FG & JNYAHG FG",
         "PVGL:PURFGRE PBHAGL",
         "K:F PUHEPU FG NAQ JNYAHG FG",
         "VQ:S1304079",

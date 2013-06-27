@@ -325,6 +325,7 @@ choyvp pynff CNZbagtbzrelPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SIR",
         "PNYY:IRUVPYR SVER",
         "NQQE:ZBAGTBZREL NIR NAQ UNIRESBEQ NIR",
+        "ZNQQE:ZBAGTBZREL NIR & UNIRESBEQ NIR",
         "OBK:3478X9",
         "PVGL:YBJRE ZREVBA GJC",
         "HAVG:H28 C28");
@@ -732,6 +733,7 @@ choyvp pynff CNZbagtbzrelPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SOY",
         "PNYY:OHVYQVAT SVER ABA-PBZZREPVNY",
         "NQQE:BNXUVYY EQ NAQ A UVTUYNAQ NIR",
+        "ZNQQE:BNXUVYY EQ & A UVTUYNAQ NIR",
         "OBK:3479O10",
         "PVGL:YBJRE ZREVBA GJC",
         "HAVG:C28");
@@ -799,6 +801,7 @@ choyvp pynff CNZbagtbzrelPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:IN",
         "PNYY:IRUVPYR NPPVQRAG FGNAQ-OL",
         "NQQE:R PVGL NIR NAQ ZBAHZRAG EQ",
+        "ZNQQE:R PVGL NIR & ZBAHZRAG EQ",
         "OBK:3479S9",
         "PVGL:YBJRE ZREVBA GJC",
         "HAVG:H28 C28");
@@ -1116,6 +1119,7 @@ choyvp pynff CNZbagtbzrelPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:IN",
         "PNYY:IRUVPYR NPPVQRAG FGNAQ-OL",
         "NQQE:OELA ZNJE NIR NAQ ONYN NIR",
+        "ZNQQE:OELA ZNJE NIR & ONYN NIR",
         "OBK:3479O9",
         "PVGL:YBJRE ZREVBA GJC",
         "HAVG:H28 C28");

@@ -55,7 +55,6 @@ choyvp pynff CNZbaebrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver Qvfcngpu",
         "CYNPR:TRVFVATRE SNZVYL CEN",
         "NQQE:PBZZREPR PG",
-        "ZNQQE:TRVFVATRE SNZVYL CEN,PBZZREPR PG",
         "PVGL:Pbbyonhtu",
         "VASB:TRFVATRE ZG CBPBAB / OYNPX TENAQ NZ BA SVER/ HAX VS NALBAR VF VA VG/");
 
@@ -74,7 +73,6 @@ choyvp pynff CNZbaebrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver Qvfcngpu",
         "CYNPR:WNPX JVYYVNZF GVER",
         "NQQE:EGR 940",
-        "ZNQQE:WNPX JVYYVNZF GVER,EGR 940",
         "PVGL:Zbhag Cbpbab",
         "VASB:WNPX JVYYVNZF GVER 839-8300 BSSVPR/ONGUEBBZ FZBXR QRG JVYY NGRZ");
 
@@ -134,7 +132,6 @@ choyvp pynff CNZbaebrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver Qvfcngpu",
         "CYNPR:CBPBAB ZBHAGNVA JRFG",
         "NQQE:CNAGURE YA",
-        "ZNQQE:CBPBAB ZBHAGNVA JRFG,CNAGURE YA",
         "PVGL:Gbolunaan",
         "VASB:BSSVPR RKG 81400 / TRAENY SVER NYNEZ");
    

@@ -87,7 +87,7 @@ choyvp pynff ALPuranatbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN CQ",
         "CYNPR:TENFFYNAQF",
         "NQQE:FG UJL 28",
-        "ZNQQE:TENFFYNAQF,AL 28",
+        "ZNQQE:AL 28",
         "FEP:PBHAGL",
         "GVZR:09:00",
         "VASB:1 PNE CQZIN CREFBA: (PBZCYNVANAG) (SZYF) FHR  WRAAVATF");

@@ -225,7 +225,6 @@ choyvp pynff NETneynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "PNYY:Rzretrapl-Yvsr Guerng",
         "NQQE:CRNEPL EQ",
-        "ZNQQE:FBHGU 2 ZVYR QBJA,CRNEPL EQ",
         "CYNPR:FBHGU 2 ZVYR QBJA",
         "PVGL:OBAAREQNYR",
         "VASB:Lbh ner erfcbaqvat gb n cngvrag vawherq va n genssvp vapvqrag.  Gur cngvrag vf n  20-lrne-byq srznyr / jub vf pbafpvbhf naq oernguvat. Cvaarq (genccrq)  ivpgvz.  Genssvp / Genafcbegngvba Vapvqragf.");

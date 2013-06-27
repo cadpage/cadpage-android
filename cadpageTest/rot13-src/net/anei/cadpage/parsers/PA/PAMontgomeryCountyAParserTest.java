@@ -50,7 +50,8 @@ choyvp pynff CNZbagtbzrelPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Fhowrpg:Qvfcngpu\a18:06 * IRUVPYR SVER * A GEBBCRE EQ NAQ J ZNVA FG * - *",
         "GVZR:18:06",
         "PNYY:IRUVPYR SVER",
-        "NQQE:A GEBBCRE EQ NAQ J ZNVA FG");
+        "NQQE:A GEBBCRE EQ NAQ J ZNVA FG",
+        "ZNQQE:A GEBBCRE EQ & J ZNVA FG");
 
     qbGrfg("G5",
         "Fhowrpg:Qvfcngpu\a01:49 * OHVYQVAT SVER PBZZREPVNY * 2030 ZNVA FG J * QBZVABF CVMMN- *",

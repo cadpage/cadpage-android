@@ -404,7 +404,6 @@ choyvp pynff VAInaqreohetuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ERFVQRAGVNY SVER NYNEZ",
         "CYNPR:2609 FJVATVAT JNL PG",
         "NQQE:GNP 5",
-        "ZNQQE:2609 FJVATVAT JNL PG,GNP 5",
         "PU:GNP 5",
         "VASB:PVAQL FUNSRE ERFVQARPR YVIVAT EBBZ FZBXR QRGRPGBE",
         "QNGR:11/11/12",

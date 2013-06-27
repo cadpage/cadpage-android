@@ -330,7 +330,6 @@ choyvp pynff GABnxEvqtrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:NHGB NPPVQRAG",
         "NQQE:BNX EVQTR GHEACVXR",
-        "ZNQQE:VA SEBAG BS ZZP UBFCVGNY,BNX EVQTR GHEACVXR",
         "CYNPR:VA SEBAG BS ZZP UBFCVGNY");
 
     qbGrfg("G29",

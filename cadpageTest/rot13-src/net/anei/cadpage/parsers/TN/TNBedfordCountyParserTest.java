@@ -99,7 +99,6 @@ choyvp pynff GAOrqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "ANZR-;  YBP-UVTUJNL 64 J @ GUR SVER QRCG;  RIGLCR-SVER IRUVPYR;  PBZZRAGF- ",
         "NQQE:UVTUJNL 64 J",
-        "ZNQQE:GUR SVER QRCG,UVTUJNL 64 J",
         "CYNPR:GUR SVER QRCG",
         "PNYY:SVER IRUVPYR");
 

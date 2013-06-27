@@ -321,6 +321,7 @@ choyvp pynff YNYnsbhepurCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:52S",
         "PNYY:Sver",
         "NQQE:UJL 182 NAQ ABEGU FREIVPR EQ",
+        "ZNQQE:UJL 182 & ABEGU FREIVPR EQ",
         "VASB:E CBYR BA SVER");
 
     qbGrfg("G28",

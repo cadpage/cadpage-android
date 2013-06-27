@@ -120,6 +120,7 @@ choyvp pynff CNZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:00:39",
         "PNYY:HAXABJA GLCR SVER",
         "NQQE:FHAQREYNAQ QE NAQ RNTYR FGERNZ QE",
+        "ZNQQE:FHAQREYNAQ QE & RNTYR FGERNZ QE",
         "ZNC:66-02",
         "K:FHAQREYNAQ QE N AQ RNTYR FGERNZ QE");
 
@@ -197,6 +198,7 @@ choyvp pynff CNZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:23:59",
         "PNYY:IRUVPYR NPPVQRAG ERFPHR",
         "NQQE:EVQTR CVXR NAQ A CNEX NIR",
+        "ZNQQE:EVQTR CVXR & A CNEX NIR",
         "ZNC:66-03",
         "K:EVQTR CVXR NAQ A CNEX NIR");
 
@@ -1730,6 +1732,7 @@ choyvp pynff CNZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:17:35",
         "PNYY:GENFU/QHZCFGRE SVER",
         "NQQE:INYYRL SBETR EQ NAQ ZBEEVF EQ",
+        "ZNQQE:INYYRL SBETR EQ & ZBEEVF EQ",
         "ZNC:64-02",
         "VASB:Nqqvgvbany Vasb:\a---------- ----\aRirag Pbzzragf:\a----- ---------\a17:35  ZNYR FHOW CBFF J PBAGEBYYRQ OHEA OHG VGF NG GUR RQTR BS GUR FGERRG\a17:35  BA ZBEEVF OL 363 VS TBVAT GJQF OYHR ORYY\aCevbe Riragf:\a----- -------\aS1226539    10-31-2012    SVER CBYVPR ARRQRQ\aS1224143    10-18-2012    IRUVPYR SVER",
         "QNGR:04/27/13",
@@ -1830,6 +1833,7 @@ choyvp pynff CNZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:15:05:34",
         "PNYY:IRUVPYR NPPVQRAG VAWHEVRF",
         "NQQE:RNFGBA EQ NAQ SVGMJNGREGBJA EQ",
+        "ZNQQE:RNFGBA EQ & SVGMJNGREGBJA EQ",
         "ZNC:35-44",
         "VASB:2 IRU\a1 CNEGL JVGU ARPX CNVA\aNqqvgvbany Vasb:\a---------- ----\aRirag Pbzzragf:\a----- ---------\a15:05  2 IRU\a15:05  1 CNEGL JVGU ARPX CNVA\aCevbe Riragf:\a----- -------\aR1312954    03-05-2013    IRUVPYR NPPVQRAG\aR1306959    02-02-2013    IRUVPYR NPPVQRAG",
         "QNGR:05/08/13",

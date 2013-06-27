@@ -477,11 +477,6 @@ public class MsgInfo {
           if (sCross.length() > 0) sAddr = prefix + sAddr + " & " + sCross;
         }
       }
-    
-      // If that didn't work, lets hope a place name will be enough
-      else if (strPlace.length() > 0 && (parser.getMapFlags() & MAP_FLG_SUPPR_ADD_PLACE) == 0) {
-        sAddr  = strPlace + "," + prefix + sAddr;
-      }
       
       // else just append prefix
       else {
@@ -777,6 +772,7 @@ public class MsgInfo {
   // Google map isn't found of house numbers mixed with intersections
   // If we find an intersection marker, remove any house numbers
   private static final Pattern HOUSE_RANGE = Pattern.compile("^(\\d+) *- *[A-Z0-9/\\.]+\\b");
+  private static final Pattern AND_PTN = Pattern.compile(" and ", Pattern.CASE_INSENSITIVE);
   private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +(?![NSEW]{0,2} *[&/]|(?:AV|AVE|ST|MILE)\\b)", Pattern.CASE_INSENSITIVE);
   private String cleanHouseNumbers(String sAddress) {
     
@@ -784,7 +780,7 @@ public class MsgInfo {
     sAddress = HOUSE_RANGE.matcher(sAddress).replaceAll("$1");
 
     // If this has an house number and an intersecting street.  Drop the intersecting street
-    sAddress = sAddress.replace(" and ", " & ");
+    sAddress = AND_PTN.matcher(sAddress).replaceAll(" & ");
     int ipt = sAddress.indexOf('&');
     if (ipt >= 0) {
       Matcher match = HOUSE_NUMBER.matcher(sAddress);

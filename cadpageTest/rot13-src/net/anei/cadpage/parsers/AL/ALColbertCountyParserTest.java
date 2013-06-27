@@ -143,7 +143,6 @@ choyvp pynff NYPbyoregPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[R911] GENVAVAT\a \aFCE NG 6 CZ NG FGNGVBA 1\a",
         "PNYY:GENVAVAT",
         "CYNPR:FCE NG 6 CZ",
-        "ZNQQE:FCE NG 6 CZ,FGNGVBA 1",
         "NQQE:FGNGVBA 1");
 
     qbGrfg("G4",

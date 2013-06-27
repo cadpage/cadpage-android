@@ -351,7 +351,6 @@ choyvp pynff GKZbagtbzrelPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:S18-YVIR JVERF QBJA",
         "HAVG:R111",
         "NQQE:ZZ 73",
-        "ZNQQE:FCEVAT PERRX OEVQTR Z,ZZ 73",
         "CYNPR:FCEVAT PERRX OEVQTR Z",
         "ZNC:292O");
 

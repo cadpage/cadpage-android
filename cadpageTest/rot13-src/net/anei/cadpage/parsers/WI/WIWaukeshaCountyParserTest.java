@@ -310,7 +310,7 @@ choyvp pynff JVJnhxrfunPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G15",
         ": J299A 5614 UL R ZREG_G: @FJNYYBJ RYRZRAGNEL FPUBBY : NYYRETL : JVGU QVSSVPHYGL OERNGUVAT 13:57",
         "NQQE:J299A 5614 UL R",
-        "ZNQQE:FJNYYBJ RYRZRAGNEL FPUBBY,J299A5614 UJL R",
+        "ZNQQE:J299A5614 UJL R",
         "PVGL:ZREGBA",
         "CYNPR:FJNYYBJ RYRZRAGNEL FPUBBY",
         "PNYY:NYYRETL - JVGU QVSSVPHYGL OERNGUVAT");
@@ -791,7 +791,7 @@ choyvp pynff JVJnhxrfunPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G79",
         ": A55J 29411 UL X ZREG_G: @QBGGVRF : TNF YRNX : VAFVQR GNAX CVCR BQBE BE YRNX 10:37:42",
         "NQQE:A55J 29411 UL X",
-        "ZNQQE:QBGGVRF,A55J29411 UJL X",
+        "ZNQQE:A55J29411 UJL X",
         "PVGL:ZREGBA",
         "CYNPR:QBGGVRF",
         "PNYY:TNF YRNX - VAFVQR GNAX CVCR BQBE BE YRNX",

@@ -98,7 +98,7 @@ choyvp pynff AWPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Z.I.N",
         "NQQE:EBHGR 295 FO",
-        "ZNQQE:ENZC GB 76 FO NYWB PHE EBHGR 295 FO ENZC G,EBHGR 295",
+        "ZNQQE:EBHGR 295",
         "PVGL:Oryyznje",
         "ZNC:04D",
         "CYNPR:ENZC GB 76 FO NYWB PHE EBHGR 295 FO ENZC G",
@@ -231,7 +231,6 @@ choyvp pynff AWPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Z.I.N",
         "NQQE:EBHGR 295",
-        "ZNQQE:RKVG 28 EBHGR 295 RKVG 28,EBHGR 295",
         "PVGL:Unqqba Urvtugf",
         "ZNC:03J",
         "CYNPR:RKVG 28 EBHGR 295 RKVG 28",
@@ -276,7 +275,6 @@ choyvp pynff AWPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ERFPHR",
         "NQQE:EBHGR 42",
-        "ZNQQE:RKVG 14 EBHGR 42 RKVG 14,EBHGR 42",
         "PVGL:Oryyznje",
         "ZNC:OZN",
         "CYNPR:RKVG 14 EBHGR 42 RKVG 14",

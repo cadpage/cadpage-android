@@ -271,7 +271,6 @@ choyvp pynff GAHavbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:ZVPUNRY JVGU CISQ",
         "CUBAR:8657056703",
         "NQQE:UNAXVAF UBYYBJ EQ",
-        "ZNQQE:ZVPUNRY JVGU CISQ,UNAXVAF UBYYBJ EQ",
         "PVGL:ZNLANEQIVYYR",
         "VASB:NYERNQL BAFPRAR QB ABG GBAR BHG WHFG OHVYQ P");
 

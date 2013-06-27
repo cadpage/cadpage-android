@@ -34,5 +34,15 @@ public class NCCatawbaCountyParser extends FieldProgramParser {
     return true;
   }
   
+  @Override
+  public String adjustMapAddress(String addr) {
+    return C_AND_B.matcher(addr).replaceAll("C%B");
+  }
+
+  @Override
+  public String postAdjustMapAddress(String sAddress) {
+    return sAddress.replace("C%B", "C AND B");
+  }
+  
   
 }

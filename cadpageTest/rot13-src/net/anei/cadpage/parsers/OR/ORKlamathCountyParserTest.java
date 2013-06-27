@@ -165,7 +165,6 @@ choyvp pynff BEXynznguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:3- ZIN J/VAWHEVRF",
         "CEV:1",
         "NQQE:ZC27 QRNQ VAQVNA",
-        "ZNQQE:ZC27 QRNQ VAQVNA,ZC27 QRNQ VAQVNA",
         "PVGL:XYNZNGU SNYYF",
         "CYNPR:ZC27 QRNQ VAQVNA");
 
@@ -778,7 +777,6 @@ choyvp pynff BEXynznguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:3 - ZIN J/VAWHEVRF",
         "CEV:1",
         "NQQE:ZC27 QRNQ VAQVNA ZRZBEVNY EQ",
-        "ZNQQE:ZC27 QRNQ VAQVNA ZRZBE,ZC27 QRNQ VAQVNA ZRZBEVNY EQ",
         "PVGL:XYNZNGU SNYYF",
         "CYNPR:ZC27 QRNQ VAQVNA ZRZBE");
 

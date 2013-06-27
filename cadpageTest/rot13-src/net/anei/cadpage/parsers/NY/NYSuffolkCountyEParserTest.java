@@ -94,7 +94,6 @@ choyvp pynff ALFhssbyxPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(SEBZ ERYNL) 178  CRPBAVP ONL OYIQ VA NDHROBTHR   NG GUR  ERRIR ERFVQRAPR FHOWRPG \aFRVMHERF",
         "CYNPR:178",
         "NQQE:CRPBAVP ONL OYIQ",
-        "ZNQQE:178,CRPBAVP ONL OYIQ",
         "PVGL:NDHROBTHR",
         "VASB:NG GUR - ERRIR ERFVQRAPR FHOWRPG - FRVMHERF");
 
@@ -190,7 +189,6 @@ choyvp pynff ALFhssbyxPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ERYNL GENVYRE CNEX EVIRE EQ 1FG GENVYRE BA EVTUG UNAQ FVQR CBFFVOYR URNEG",
         "CYNPR:GENVYRE CNEX",
         "NQQE:EVIRE EQ",
-        "ZNQQE:GENVYRE CNEX,EVIRE EQ",
         "NCG:1FG",
         "VASB:GENVYRE BA EVTUG UNAQ FVQR CBFFVOYR URNEG");
 

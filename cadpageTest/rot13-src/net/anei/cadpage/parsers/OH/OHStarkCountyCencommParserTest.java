@@ -510,7 +510,8 @@ choyvp pynff BUFgnexPbhaglPrapbzzCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:PSSQ",
         "VQ:2012:424",
         "PNYY:ZINVAW",
-        "NQQE:JRNIRE NAQ UVTU");   // Abg znccvat
+        "NQQE:JRNIRE NAQ UVTU",
+        "ZNQQE:JRNIRE & UVTU");   // Abg znccvat
 
     qbGrfg("G15",
         "[YGSQ] PSSQ:2012:425\aQVFCNGPURQ\aZRQNYF\a336, PUVCCRJN FG ;PNANY SHYGBA\a",

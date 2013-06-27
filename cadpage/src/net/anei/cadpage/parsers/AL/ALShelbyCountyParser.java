@@ -274,6 +274,18 @@ public class ALShelbyCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  
+  
+  @Override
+  public String adjustMapAddress(String sAddress) {
+    return sAddress.replace("EGG AND BUTTER", "EGG_AND_BUTTER");
+  }
+
+  @Override
+  public String postAdjustMapAddress(String sAddress) {
+    return sAddress.replace("EGG_AND_BUTTER", "EGG AND BUTTER");
+  }
+
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ALAB", "ALABASTER",
       "ALMT", "MONTEVALLO",

@@ -302,7 +302,6 @@ choyvp pynff GAPnzcoryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:4235624016",
         "CYNPR:WRFFR E URAFBA",
         "NQQE:CRBCYRF ONAX BS GUR INYYRL FBHGU",
-        "ZNQQE:WRFFR E URAFBA,CRBCYRF ONAX BS GUR INYYRL FBHGU",
         "VASB:2 SBEQ S150/ OEBAPB VA GUR EBNQJNL");
 
   }

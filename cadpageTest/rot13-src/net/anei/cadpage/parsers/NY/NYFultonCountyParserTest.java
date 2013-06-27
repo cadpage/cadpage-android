@@ -775,7 +775,6 @@ choyvp pynff ALShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:VPR",
         "PNYY:ERFPHR",
         "NQQE:INAQRAOHETU CBVAG EQ",
-        "ZNQQE:JNYYL'F,INAQRAOHETU CBVAG EQ",
         "PVGL:ZNLSVRYQ",
         "CYNPR:JNYYL'F",
         "QNGR:01/26/2013",

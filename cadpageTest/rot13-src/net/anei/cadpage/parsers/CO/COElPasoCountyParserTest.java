@@ -500,7 +500,6 @@ choyvp pynff PBRyCnfbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:3141,3151,JVYQT,CSF",
         "PNYY:Fzbxr Vairfgvtngvba",
         "NQQE:Vapyvar Bireybbx - Onee",  // Abg znccvat
-        "ZNQQE:Vapyvar Bireybbx  -,Vapyvar Bireybbx - Onee",
         "CYNPR:Vapyvar Bireybbx  -",
         "VQ:RCP218605");
 
@@ -553,7 +552,7 @@ choyvp pynff PBRyCnfbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:511,QJSQ,582",
         "PNYY:Iruvpyr Sver",
         "NQQE:83 Ujl",
-        "ZNQQE:ZZ25 Ujl 83,Ujl 83",
+        "ZNQQE:Ujl 83",
         "CYNPR:ZZ25 Ujl 83",
         "VQ:QJSQ218990");
 

@@ -121,7 +121,7 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZOHYNAPR",
         "CYNPR:ABEGUSVRYQ FURYY1711",
         "NQQE:A FGUL 50",
-        "ZNQQE:ABEGUSVRYQ FURYY1711,A FG 50",
+        "ZNQQE:A FG 50",
         "PVGL:Obheobaanvf",
         "VQ:2013-00000584");
 
@@ -130,7 +130,6 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZOHYNAPR",
         "CYNPR:BYVIRG ANMNERAR HAVIREFVGL1",
         "NQQE:HAVIREFVGL NIR",
-        "ZNQQE:BYVIRG ANMNERAR HAVIREFVGL1,HAVIREFVGL NIR",
         "PVGL:Obheobaanvf",
         "VQ:2013-00000583");
 
@@ -185,7 +184,6 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ARJ",
         "CYNPR:XNAXNXRR GREENPR100 ORYYR",
         "NQQE:NVER NIR",
-        "ZNQQE:XNAXNXRR GREENPR100 ORYYR,NVER NIR",
         "PVGL:Obheobaanvf",
         "VQ:2013-00000576");
 
@@ -214,7 +212,6 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZOHYNAPR",
         "CYNPR:PYNAPLF SHARENY UBZR295",
         "NQQE:ZNVA FG AJ",
-        "ZNQQE:PYNAPLF SHARENY UBZR295,ZNVA FG AJ",
         "PVGL:Obheobaanvf",
         "VQ:2013-00000572");
 
@@ -282,7 +279,7 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZOHYNAPR",
         "CYNPR:SNEZ NAQ SYRRG1811",
         "NQQE:A FGUL 50",
-        "ZNQQE:SNEZ NAQ SYRRG1811,A FG 50",
+        "ZNQQE:A FG 50",
         "PVGL:Obheobaanvf",
         "VQ:2013-00000563");
 

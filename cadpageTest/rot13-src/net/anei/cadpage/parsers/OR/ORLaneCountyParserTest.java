@@ -107,7 +107,6 @@ choyvp pynff BEYnarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:YQS",
         "PNYY:IRUVPYR IF CRQ NPP",
         "NQQE:UJL 126 ZC29",
-        "ZNQQE:UJL 126 ZC29,UJL 126 ZC29",
         "PVGL:JNYGBA",
         "ZNC:YS00002",
         "CYNPR:UJL 126 ZC29",

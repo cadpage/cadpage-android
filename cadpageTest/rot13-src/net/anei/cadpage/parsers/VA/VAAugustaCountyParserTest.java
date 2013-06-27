@@ -134,7 +134,7 @@ choyvp pynff INNhthfgnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:NHGBZBOVYR NPPVQRAG:V81AO;NERN ZZ 217.9",
         "PNYY:NHGBZBOVYR NPPVQRAG",
         "NQQE:V-81AO",
-        "ZNQQE:NERN ZZ 217.9,V 81",
+        "ZNQQE:V 81",
         "CYNPR:NERN ZZ 217.9");
 
     qbGrfg("G10",

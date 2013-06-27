@@ -2031,7 +2031,7 @@ choyvp pynff NYOybhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVERJ",
         "PNYY:JVYQ SVER",
         "NQQE:PBHAGL UJL 27 NAQ YNXR UVTUYNA",
-        "ZNQQE:PBHAGL EBNQ 27 NAQ YNXR UVTUYNA",
+        "ZNQQE:PBHAGL EBNQ 27 & YNXR UVTUYNA",
         "K:PBHAGL UJL 27",
         "PVGL:BARBAGN",
         "ANZR:ORYYRJ, GEBL",
@@ -2065,7 +2065,7 @@ choyvp pynff NYOybhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:GERR",
         "PNYY:GERR QBJA",
         "NQQE:231 NAQ PB 29",
-        "ZNQQE:231 NAQ PBHAGL EBNQ 29",
+        "ZNQQE:231 & PBHAGL EBNQ 29",
         "PVGL:BARBAGN",
         "VQ:2013-0000009065");
 
@@ -2414,6 +2414,7 @@ choyvp pynff NYOybhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVERJ",
         "PNYY:JVYQ SVER",
         "NQQE:CNTR FCEVATF NAQ TVOOF",
+        "ZNQQE:CNTR FCEVATF & TVOOF",
         "VQ:2013-0000010091");
 
     qbGrfg("G24",

@@ -411,7 +411,6 @@ choyvp pynff ALZbaebrPbhaglJrofgreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:0120",
         "CEV:4",
         "NQQE:EG 104",
-        "ZNQQE:ONL OEVQTR JO,EG 104",
         "PVGL:JROFGRE",
         "CYNPR:ONL OEVQTR JO",
         "PNYY:FGERRG",

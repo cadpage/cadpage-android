@@ -261,6 +261,7 @@ choyvp pynff BUWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Haxbja Ceboyrz/JVFPBAFVA NAQ P FG//09:28/75 lb znyr  3eq cnegl pnyy",
         "PNYY:Haxbja Ceboyrz",
         "NQQE:JVFPBAFVA NAQ P FG",
+        "ZNQQE:JVFPBAFVA & P FG",
         "GVZR:09:28",
         "VASB:75 lb znyr  3eq cnegl pnyy");
 
@@ -1160,6 +1161,7 @@ choyvp pynff BUWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Pnyy/JRFG P FGERRG NAQ ZVPUVTNA NIR//23:00/Pnyyre nqivfrq nccrnerq gb or n sver ba gur cbepu",
         "PNYY:Sver Pnyy",
         "NQQE:JRFG P FGERRG NAQ ZVPUVTNA NIR",
+        "ZNQQE:JRFG P FGERRG & ZVPUVTNA NIR",
         "GVZR:23:00",
         "VASB:Pnyyre nqivfrq nccrnerq gb or n sver ba gur cbepu");
 
@@ -1226,6 +1228,7 @@ choyvp pynff BUWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Pnyy/1FG FG NAQ BUVB NIR//00:58/Genafsbezre ba SVER",
         "PNYY:Sver Pnyy",
         "NQQE:1FG FG NAQ BUVB NIR",
+        "ZNQQE:1FG FG & BUVB NIR",
         "GVZR:00:58",
         "VASB:Genafsbezre ba SVER");
 
@@ -1233,6 +1236,7 @@ choyvp pynff BUWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Sver Pnyy/13GU NAQ QEVIVAT CNEX EQ//14:19/bvy fcvyy",
         "PNYY:Sver Pnyy",
         "NQQE:13GU NAQ QEVIVAT CNEX EQ",
+        "ZNQQE:13GU & QEVIVAT CNEX EQ",
         "GVZR:14:19",
         "VASB:bvy fcvyy");
 
@@ -1296,6 +1300,7 @@ choyvp pynff BUWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Fgebxr / PIN/JVFPBAFVA NAQ 2AQ FGERRG//00:21/Pnyyrq ol jcq. Cbffvoyr fgebxr",
         "PNYY:Fgebxr / PIN",
         "NQQE:JVFPBAFVA NAQ 2AQ FGERRG",
+        "ZNQQE:JVFPBAFVA & 2AQ FGERRG",
         "GVZR:00:21",
         "VASB:Pnyyrq ol jcq. Cbffvoyr fgebxr");
 

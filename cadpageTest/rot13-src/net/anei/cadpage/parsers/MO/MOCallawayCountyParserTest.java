@@ -1069,7 +1069,6 @@ choyvp pynff ZBPnyynjnlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Nyyretvrf/Rairabzngvbaf",
         "CYNPR:Shygba Pvgl Cbby",
         "NQQE:Ubearg Qe",
-        "ZNQQE:Shygba Pvgl Cbby,Ubearg Qe",
         "PVGL:Shygba",
         "ANZR:Xevfgra",
         "CUBAR:573-642-4346",

@@ -128,7 +128,6 @@ choyvp pynff ALRevrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Znwbe Nppvqrag",
         "CYNPR:423.9875",
         "NQQE:Egr 90 R @ Rkvg 53 enzc",
-        "ZNQQE:423.9875,Egr 90 R @ Rkvg 53 enzc",
         "VASB:Frarpn Ubfr 9 b/f GG bireghearq, jvgu cneg unatvat bire rqtr bs oevqtr. haxabja vawhevrf",
         "HAVG:ALX091",
         "GVZR:14:51");

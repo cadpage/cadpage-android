@@ -411,7 +411,7 @@ choyvp pynff ZBBfntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:Oryyr SQ OEHFU685 OEHFU680 891 CHZC650 OEHFU685 GNAX660",
         "PNYY:OEHFU SVER",
         "NQQE:PBHAGL EBNQ 738 NAQ PB EQ 737",
-        "ZNQQE:PBHAGL EBNQ 738 NAQ PBHAGL EBNQ 737",
+        "ZNQQE:PBHAGL EBNQ 738 & PBHAGL EBNQ 737",
         "VASB:TB QBJA PBHAGL EBNQ OHEAVAT ARNE N PYNL CVG UHAGVAT FUNPX ORUVAQ JURER VGF OHEAVAT");
 
     qbGrfg("G30",
@@ -572,7 +572,6 @@ choyvp pynff ZBBfntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:FQ 883",
         "PNYY:NAVZNY PNYYF",
         "NQQE:UVTUJNL 63",
-        "ZNQQE:ZVYRF FBHGU BS SERROHET,UVTUJNL 63",
         "NCG:2-3",
         "CYNPR:ZVYRF FBHGU BS SERROHET",
         "PVGL:SERROHET",

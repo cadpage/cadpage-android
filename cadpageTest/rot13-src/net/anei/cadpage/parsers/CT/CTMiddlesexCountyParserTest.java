@@ -506,6 +506,7 @@ choyvp pynff PGZvqqyrfrkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:070712-30",
         "PNYY:Choyvp Freivpr",
         "NQQE:BYQ WBUAFBA YNAR NAQ ZVYOEBBX",
+        "ZNQQE:BYQ WBUAFBA YNAR & ZVYOEBBX",
         "PVGL:ZVQQYRGBJA",
         "ANZR:ZQ",
         "QNGR:07/07/12",
@@ -523,6 +524,7 @@ choyvp pynff PGZvqqyrfrkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:070712-87",
         "PNYY:Fgehpgher Sver",
         "NQQE:EBHGR 149 NAQ EBHGR 16",
+        "ZNQQE:EBHGR 149 & EBHGR 16",
         "QNGR:07/08/12",
         "GVZR:01:23:01");
 

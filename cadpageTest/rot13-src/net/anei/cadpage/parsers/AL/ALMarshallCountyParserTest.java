@@ -129,7 +129,6 @@ choyvp pynff NYZnefunyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:NO ORU",
         "PNYY:NOABEZNY ORUNIVBE",
         "NQQE:TBYQRA YVIVAT",
-        "ZNQQE:EBLFGRE, NYOREG,TBYQRA YVIVAT",
         "NCG:108 O",
         "CYNPR:EBLFGRE, NYOREG");
 
@@ -264,7 +263,7 @@ choyvp pynff NYZnefunyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:EQ/OYX",
         "PNYY:EBNQ OYBPXNTR BS NAL GLCR",
         "NQQE:NY UJL 69",
-        "ZNQQE:RYOREG,NY 69",
+        "ZNQQE:NY 69",
         "PVGL:THAGREFIVYYR",
         "CYNPR:RYOREG");
 
@@ -334,6 +333,7 @@ choyvp pynff NYZnefunyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FRVMHE",
         "PNYY:FRMVHER\\PBAIHYFVBA",
         "NQQE:WRG CRC ZNVA FG NAQ UJL 69",
+        "ZNQQE:WRG CRC ZNVA FG & UJL 69",
         "PVGL:NENO",
         "CYNPR:ERTVAN ARRQUNZ");
 

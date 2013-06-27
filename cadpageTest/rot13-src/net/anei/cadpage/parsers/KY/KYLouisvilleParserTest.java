@@ -1200,7 +1200,6 @@ choyvp pynff XLYbhvfivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G6",
         "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: @PNY:JLGUR UVYY PVE GLCR PBQR: FP1036 FHO GLCR: IRUVPYR GVZR: 14:31:16 ",
         "NQQE:PNY",
-        "ZNQQE:JLGUR UVYY PVE,PNY",
         "CYNPR:JLGUR UVYY PVE",
         "PBQR:FP1036",
         "PNYY:IRUVPYR",

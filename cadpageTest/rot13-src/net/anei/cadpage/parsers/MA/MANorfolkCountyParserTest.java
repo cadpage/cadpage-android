@@ -158,7 +158,6 @@ choyvp pynff ZNAbesbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZIN jvgu Vawhel ng EBHGR 495 FBHGU 18-17, SENAXYVA   B: EBHGR 495 FBHGU 18-17 . . 14:50:44",
         "PNYY:ZIN jvgu Vawhel",
         "NQQE:EBHGR 495 FBHGU 18-17",
-        "ZNQQE:EBHGR 495 FBHGU 18-17,EBHGR 495 FBHGU 18-17",
         "PVGL:SENAXYVA",
         "CYNPR:EBHGR 495 FBHGU 18-17",
         "GVZR:14:50:44");
@@ -199,7 +198,6 @@ choyvp pynff ZNAbesbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Zrqvpny Rzretrapl ng EBHGR 495 ABEGU 17-18, SENAXYVA   B: EBHGR 495 ABEGU 17-18 . . 06:47:58",
         "PNYY:Zrqvpny Rzretrapl",
         "NQQE:EBHGR 495 ABEGU 17-18",
-        "ZNQQE:EBHGR 495 ABEGU 17-18,EBHGR 495 ABEGU 17-18",
         "PVGL:SENAXYVA",
         "CYNPR:EBHGR 495 ABEGU 17-18",
         "GVZR:06:47:58");
@@ -208,7 +206,6 @@ choyvp pynff ZNAbesbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZIN jvgu Vawhel ng EBHGR 495 ABEGU 17-18, SENAXYVA   B: EBHGR 495 ABEGU 17-18 . . 06:41:26",
         "PNYY:ZIN jvgu Vawhel",
         "NQQE:EBHGR 495 ABEGU 17-18",
-        "ZNQQE:EBHGR 495 ABEGU 17-18,EBHGR 495 ABEGU 17-18",
         "PVGL:SENAXYVA",
         "CYNPR:EBHGR 495 ABEGU 17-18",
         "GVZR:06:41:26");

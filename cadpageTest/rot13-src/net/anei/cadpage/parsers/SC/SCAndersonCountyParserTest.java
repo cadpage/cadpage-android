@@ -499,6 +499,7 @@ choyvp pynff FPNaqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZIN1",
         "PNYY:ZBGBE IRUVPYR NPPVQRAG",
         "NQQE:FVK NAQ GJRAGL EQ",
+        "ZNQQE:FVK NAQ GJRAGL EQ & CVPXRAF QE",
         "K:CVPXRAF QE",
         "PVGL:CRAQYRGBA",
         "VQ:2013-0000083126");

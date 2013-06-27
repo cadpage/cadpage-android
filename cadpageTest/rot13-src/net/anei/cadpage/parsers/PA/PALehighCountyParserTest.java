@@ -163,7 +163,6 @@ choyvp pynff CNYruvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FG3000",
         "PNYY:SVER FGNAQOL - NG BJA FGNGVBA",
         "NQQE:NYYRAGBJA SQ",
-        "ZNQQE:NYYRAGBJA SQ,NYYRAGBJA SQ",
         "PVGL:NYYRAGBJA",
         "CYNPR:NYYRAGBJA SQ",
         "GVZR:17:43",
@@ -372,7 +371,6 @@ choyvp pynff CNYruvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FG3000",
         "PNYY:GEHPX/OHF/ERPERNGVBANY IRUV",
         "NQQE:V476ZZ59 6AO",
-        "ZNQQE:V476ZZ59 6AO,V476ZZ59 6AO",
         "PVGL:FBHGU JUVGRUNYY GJC",
         "CYNPR:V476ZZ59 6AO",
         "ANZR:WBUA");
@@ -428,7 +426,6 @@ choyvp pynff CNYruvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FG3100",
         "PNYY:SVER FGNAQOL - NG BJA FGNGVBA",
         "NQQE:NYYRAGBJA SQ",
-        "ZNQQE:NYYRAGBJA SQ,NYYRAGBJA SQ",
         "PVGL:NYYRAGBJA",
         "CYNPR:NYYRAGBJA SQ",
         "GVZR:22:51",

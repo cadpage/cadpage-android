@@ -1114,6 +1114,7 @@ choyvp pynff BXOelnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FHVP",
         "PNYY:FHVPVQR BE NGGRZCGRQ FHVPVQR",
         "NQQE:UJL 91 NAQ F 4GU",
+        "ZNQQE:UJL 91 & F 4GU",
         "PVGL:PNEGJEVTUG",
         "ANZR:TRAGEL JRFG",
         "CUBAR:5809800076",

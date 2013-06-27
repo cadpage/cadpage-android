@@ -486,7 +486,7 @@ choyvp pynff GANaqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:ERFP",
         "PNYY:ZIN",
         "NQQE:V 75 FO ORGJRRA 129 NAQ 128",
-        "ZNQQE:V 75 ORGJRRA 129 NAQ 128",
+        "ZNQQE:V 75 ORGJRRA 129 & 128",
         "PVGL:BNX EVQTR",
         "VQ:214010");
 

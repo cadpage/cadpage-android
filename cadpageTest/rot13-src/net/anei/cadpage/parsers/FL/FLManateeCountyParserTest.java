@@ -52,7 +52,7 @@ choyvp pynff SYZnangrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "Ybpngvba: FE70 RO SE V75 AO HO Rfgvzngrq Nqqerff: nyvnf RKVG 217 HO GLCR PBQR: NPPVQRAG J/ VAWHEVRF - SVER/RZF VAFVQR YBPNGVBA: FHO GLCR: ER-UVTU ZRPUNAVFZ (EBYYBIRE) GVZR: 17:33:02 ZNC TEVQ: 1913-Q",
         "NQQE:FE70 RO SE V75 AO",
-        "ZNQQE:nyvnf RKVG 217 HO,SY 70 SEBAGNTR EQ V 75",
+        "ZNQQE:SY 70 SEBAGNTR EQ V 75",
         "PVGL:Oenqragba",
         "CYNPR:nyvnf RKVG 217 HO",
         "PNYY:NPPVQRAG J/ VAWHEVRF - SVER/RZF VAFVQR YBPNGVBA:",

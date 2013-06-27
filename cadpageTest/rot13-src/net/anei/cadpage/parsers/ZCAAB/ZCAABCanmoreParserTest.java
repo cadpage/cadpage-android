@@ -588,7 +588,6 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:21:14:00",
         "PNYY:12q02",
         "NQQE:fj 13 17 4 j5",
-        "ZNQQE:ubhfr 77,fj 13 17 4 j5",
         "CYNPR:ubhfr 77",
         "PVGL:rqra inyyrl ve 216");
 
@@ -629,7 +628,6 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:04:14:00",
         "PNYY:27q03",
         "NQQE:ar 11 17 4 j5",
-        "ZNQQE:ubhfr 62,ar 11 17 4 j5",
         "CYNPR:ubhfr 62",
         "PVGL:rqra inyyrl ve 216");
 
@@ -691,7 +689,6 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:10:51:00",
         "PNYY:26p02",
         "NQQE:yng 50.433560 yba -114.440860",
-        "ZNQQE:ufr 109,yng 50.433560 yba -114.440860",
         "CYNPR:ufr 109",
         "PVGL:sbbguvyyf zq");
 
@@ -727,7 +724,6 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:17:32:00",
         "PNYY:29q02",
         "NQQE:fj 4 17 4 j5",
-        "ZNQQE:cg vf ng choyvp jbexf,fj 4 17 4 j5",
         "CYNPR:cg vf ng choyvp jbexf",
         "PVGL:rqra inyyrl ve 216");
 
@@ -743,7 +739,6 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:16:36:00",
         "PNYY:29q02",
         "NQQE:fj 4 17 4 j5",
-        "ZNQQE:cg vf ng choyvp jbexf,fj 4 17 4 j5",
         "CYNPR:cg vf ng choyvp jbexf",
         "PVGL:rqra inyyrl ve 216");
 
@@ -752,7 +747,6 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:04:09:00",
         "PNYY:23p02",
         "NQQE:ar 14 17 4 j5",
-        "ZNQQE:ubhfr 112,ar 14 17 4 j5",
         "CYNPR:ubhfr 112",
         "PVGL:rqra inyyrl ve 216");
 
@@ -761,7 +755,6 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:15:46:00",
         "PNYY:26n11",
         "NQQE:ar 14 17 4 j5",
-        "ZNQQE:ubhfr 113,ar 14 17 4 j5",
         "CYNPR:ubhfr 113",
         "PVGL:rqra inyyrl ve 216");
 
@@ -777,7 +770,6 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:11:48:00",
         "PNYY:23o01",
         "NQQE:fr 14 17 4 j5",
-        "ZNQQE:jryyarff prager,fr 14 17 4 j5",
         "CYNPR:jryyarff prager",
         "PVGL:rqra inyyrl ve 216");
 
@@ -815,7 +807,6 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:10:21:00",
         "PNYY:09r01",
         "NQQE:fr 24 17 4 j5",
-        "ZNQQE:ubhfr 87,fr 24 17 4 j5",
         "CYNPR:ubhfr 87",
         "PVGL:rqra inyyrl ve 216");
 

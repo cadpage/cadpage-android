@@ -619,7 +619,7 @@ choyvp pynff APJnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:10-50/VAWHEVRF",
         "ZNC:026F",
         "NQQE:ZVYR ZNEXRE 9 V540 RO",
-        "ZNQQE:ZVYR ZNEXRE 9 V540 RO,ZVYR ZNEXRE 9 V 540",
+        "ZNQQE:ZVYR ZNEXRE 9 V 540",
         "CYNPR:ZVYR ZNEXRE 9 V540 RO",
         "HAVG:QUC1,OYC361",
         "PU:G14",

@@ -154,6 +154,7 @@ choyvp pynff INYrkvatgbaEbpxoevqtrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:NPPVQRAG ZIP",
         "NQQE:60 J 1/2 J QNLF VAA NAQ FURYY FGNGVBA",
+        "ZNQQE:60 J 1/2 J QNLF VAA",
         "HAVG:PB09N,YKEF1,",
         "PVGL:YRKVATGBA",
         "QNGR:1/26/2011",

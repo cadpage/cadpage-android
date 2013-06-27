@@ -278,8 +278,7 @@ choyvp pynff JIZvarenyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:22:47:42",
         "PNYY:ZIN",
         "CYNPR:FHAALFVQR PUHEPU",
-        "NQQE:EG 50",
-        "ZNQQE:FHAALFVQR PUHEPU,EG 50");
+        "NQQE:EG 50");
 
     qbGrfg("G11",
         "ï»¿<UGZY><obql>APSQ:2012:0535<oe />2012-12-21 04:03:19<oe />NYREGRQ<oe />HAPBAFP/SNVAG-31<oe />21219 OHEXR UVYY EQ ZPPBBYR</obql></UGZY>",

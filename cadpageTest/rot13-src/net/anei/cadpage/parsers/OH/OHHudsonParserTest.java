@@ -67,7 +67,6 @@ choyvp pynff BUUhqfbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G5",
         "UhqfbaPNQ:PNQ Flfgrz 0,J FGERRGFOBEB FG.,91 & 303,UHQFBARZF,RZFgrfg qb abg erfcbaq grfg bayl",
         "NQQE:J FGERRGFOBEB FG",
-        "ZNQQE:91 & 303,J FGERRGFOBEB FG",
         "CYNPR:91 & 303",
         "FEP:UHQFBARZF",
         "PNYY:RZF",

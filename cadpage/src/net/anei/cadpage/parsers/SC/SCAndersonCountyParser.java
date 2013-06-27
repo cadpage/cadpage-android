@@ -50,6 +50,16 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
     return super.parseMsg(body, data);
   }
   
+  @Override
+  public String adjustMapAddress(String sAddress) {
+    return sAddress.replace("SIX AND TWENTY", "SIX_AND_TWENTY");
+  }
+
+  @Override
+  public String postAdjustMapAddress(String sAddress) {
+    return sAddress.replace("SIX_AND_TWENTY", "SIX AND TWENTY");
+  }
+
   private static final String[] CITY_CODES = new String[]{
     "ANDERSON", 
     "BELTON", 

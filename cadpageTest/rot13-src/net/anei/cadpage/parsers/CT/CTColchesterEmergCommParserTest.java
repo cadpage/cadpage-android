@@ -52,7 +52,6 @@ choyvp pynff PGPbypurfgreRzretPbzzCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBYPURFGRE\\  EBHGR 2 JRFG \\ \\@  \\ Z/I NPPVQRAG\\ nern bs rkvg 18 \\  ** 12-6481  \\ 12:30 ** ZncVg:    EBHGR 2 JRFG , PBYPURFGRE , PG ( EBYYBIRE. )",
         "PVGL:PBYPURFGRE",
         "NQQE:EBHGR 2 JRFG",
-        "ZNQQE:nern bs rkvg 18,EBHGR 2 JRFG",
         "PNYY:Z/I NPPVQRAG",
         "CYNPR:nern bs rkvg 18",
         "VQ:12-6481",

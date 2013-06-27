@@ -503,7 +503,7 @@ choyvp pynff PBTnesvryqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Nppvqrag",
         "CYNPR:GNHTURAONHTU",
         "NQQE:FGUL 13 EBHAQNOBHG",
-        "ZNQQE:GNHTURAONHTU,PB 13 EBHAQNOBHG",
+        "ZNQQE:PB 13 EBHAQNOBHG",
         "PVGL:EVSYR",
         "VQ:2012 00009976");
 

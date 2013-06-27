@@ -211,7 +211,6 @@ choyvp pynff ZQPuneyrfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:10-50 CV",
         "HAVG:ZBGBEPLPYR, RZF, NYF, NGI, OVPLPYR, OVXR, 29O, 29Q",
         "NQQE:EVCYRL EQ",
-        "ZNQQE:2 ZVYRF SEBZ NAANCBYVF JBBQF EQ,EVCYRL EQ",
         "CYNPR:2 ZVYRF SEBZ NAANCBYVF JBBQF EQ",
         "ZNC:15 S6",
         "VASB:Ntr h");
@@ -462,7 +461,6 @@ choyvp pynff ZQPuneyrfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FVPX CREFBA",
         "HAVG:RZF, NYF, 26P, 26Q",
         "NQQE:ZNYY PVE",
-        "ZNQQE:INA TB OHF 702,ZNYY PVE",
         "CYNPR:INA TB OHF 702",
         "ZNC:10 P3",
         "VASB:Ntr haxabja, srznyr, pbafpvbhf, oernguvat.",

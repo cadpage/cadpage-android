@@ -91,7 +91,6 @@ choyvp pynff TNPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "nfghqfgvyy@pb.pnzqra.tn.hf:2011-101695* UVTUJNL 17 FGRSSNAF* * * XVATFYNAQ* * Genssvp Fgbc* GENSSVP FGBC* * * 1128,1140,1150,1152,509,514,523,532,YF3,E3* * Zrq",
         "VQ:2011-101695",
         "NQQE:UVTUJNL 17",
-        "ZNQQE:FGRSSNAF,UVTUJNL 17",
         "PVGL:XVATFYNAQ",
         "CYNPR:FGRSSNAF",
         "PNYY:GENSSVP FGBC",
@@ -153,6 +152,7 @@ choyvp pynff TNPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "nfghqfgvyy@pb.pnzqra.tn.hf:2012-037466* OBBAR NAQ FHZZREOEBBX* * * XVATFYNAQ* * VAIRFGVTNGR* VAIRFGVTNGR FHFCVPVBHF CREFBA/IRUVPYR* WHNA EBQEVTHRM* 912-8",
         "VQ:2012-037466",
         "NQQE:OBBAR NAQ FHZZREOEBBX",
+        "ZNQQE:OBBAR & FHZZREOEBBX",
         "PVGL:XVATFYNAQ",
         "PNYY:VAIRFGVTNGR FHFCVPVBHF CREFBA/IRUVPYR",
         "ANZR:WHNA EBQEVTHRM",
@@ -297,7 +297,6 @@ choyvp pynff TNPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "nfghqfgvyy@pb.pnzqra.tn.hf:2012-146148* UNQQBPX QE // PVFPB TNF FGNGVBA* * * XVATFYNAQ* * * * * NPPVQRAG* NPPVQRAG* * * 539,545,RAT4,YF3* * Zrqvpny: Ab* ",
         "VQ:2012-146148",
         "NQQE:UNQQBPX QE",
-        "ZNQQE:PVFPB TNF FGNGVBA,UNQQBPX QE",
         "PVGL:XVATFYNAQ",
         "CYNPR:PVFPB TNF FGNGVBA",
         "PNYY:NPPVQRAG",
@@ -493,7 +492,7 @@ choyvp pynff TNPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2012-150294",
         "NQQE:UJL 17 AO",
-        "ZNQQE:OYHR OEVQTR,UJL 17",
+        "ZNQQE:UJL 17",
         "PVGL:XVATFYNAQ",
         "CYNPR:OYHR OEVQTR",
         "PNYY:VAIRFGVTNGR FHFCVPVBHF CREFBA/IRUVPYR",
@@ -641,7 +640,6 @@ choyvp pynff TNPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2012-150893",
         "NQQE:UJL 40",
-        "ZNQQE:NEOLF,UJL 40",
         "PVGL:FG ZNELF",
         "CYNPR:NEOLF",
         "PNYY:NPPVQRAG",
@@ -757,7 +755,6 @@ choyvp pynff TNPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2012-151227",
         "NQQE:UJL 17",
-        "ZNQQE:PNGSVFU PERRX OEVQTR,UJL 17",
         "PVGL:XVATFYNAQ",
         "CYNPR:PNGSVFU PERRX OEVQTR",
         "PNYY:NPPVQRAG JVGU VAWHEVRF",
@@ -971,7 +968,6 @@ choyvp pynff TNPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2012-151492",
         "NQQE:SVEFG QVEG EQ",
-        "ZNQQE:OEBJAGBJA FGBER,SVEFG QVEG EQ",
         "PVGL:OEBJAGBJA",
         "CYNPR:OEBJAGBJA FGBER",
         "PNYY:NPPVQRAG JVGU VAWHEVRF",
@@ -1009,7 +1005,6 @@ choyvp pynff TNPnzqraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2012-151492",
         "NQQE:SVEFG QVEG EQ",
-        "ZNQQE:OEBJAGBJA FGBER,SVEFG QVEG EQ",
         "CYNPR:OEBJAGBJA FGBER",
         "PNYY:NPPVQRAG JVGU VAWHEVRF",
         "HAVG:1123,1126,1187,R15,YF3",

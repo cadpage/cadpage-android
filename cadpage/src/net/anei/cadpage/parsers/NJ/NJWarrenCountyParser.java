@@ -20,6 +20,7 @@ public class NJWarrenCountyParser extends SmartAddressParser {
   
   public NJWarrenCountyParser() {
     super(CITY_LIST, "WARREN COUNTY", "NJ");
+    setFieldList("UNIT CALL PLACE ADDR APT CITY DATE TIME INFO X");
   }
   
   @Override

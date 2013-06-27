@@ -64,7 +64,6 @@ choyvp pynff CNRevrPbhaglRzretlPnerCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny Gnkv",
         "CEV:4",
         "NQQE:IN Bhg bs Gbja",
-        "ZNQQE:GNATYRJBBQ NCGF,IN Bhg bs Gbja",
         "CYNPR:GNATYRJBBQ NCGF",
         "PVGL:16504",
         "VASB:101 - OHVYQVAT 819 / IN ZRQVPNY PGE HAVIREFVGL PNZCHF / AH / BJA PU / OVYY IN / ZPTHVER JVYY QB / PBPPNERYYV / NYOREG / K=HAANZRQ|JNLAR&JNLAR");

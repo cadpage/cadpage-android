@@ -6220,7 +6220,7 @@ choyvp pynff AWOheyvatgbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Pbire Nffvtazrag",
         "CEV:9",
         "NQQE:CRAAFNHXRA SVER PB 11-2",
-        "ZNQQE:PNZQRA PBHAGL,CRAAFNHXRA SVER PBHAGL EBNQ 11-2",
+        "ZNQQE:CRAAFNHXRA SVER PBHAGL EBNQ 11-2",
         "PVGL:Pnzqra Pb",
         "CYNPR:PNZQRA PBHAGL",
         "GVZR:12:20:25",

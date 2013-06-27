@@ -695,7 +695,7 @@ choyvp pynff ZQSerqrevpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PG: IRUVPYR NPPVQRAG  / qrsnhyg SER3: @EG15FO / ENZC EG15FO GB EG15-340JO ZNC: 4566N5  Qvfc: N18,N39,ER11,R12,R31,R22\e\a\e\a",
         "PNYY:IRUVPYR NPPVQRAG",
         "NQQE:EG15FO",
-        "ZNQQE:/ ENZC EG15FO GB EG15-340JO,EG 15",
+        "ZNQQE:EG 15",
         "PVGL:Serqrevpx Pvgl",
         "CYNPR:/ ENZC EG15FO GB EG15-340JO",
         "ZNC:4566N5",
@@ -783,7 +783,6 @@ choyvp pynff ZQSerqrevpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SerqPb",
         "PNYY:GEHPX GENAFSRE",
         "NQQE:OBBA JNPB",
-        "ZNQQE:JNFUVATGBA FGNGVBA 6 - 5 FNVAG CNHY FG,OBBA JNPB",
         "CYNPR:JNFUVATGBA FGNGVBA 6 - 5 FNVAG CNHY FG",
         "HAVG:GE5");
 

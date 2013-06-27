@@ -146,6 +146,7 @@ choyvp pynff FPBenatrohetPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         ":bopqvfcngpu:GERR QBJA NG VAGREFRPGVBA BS TNEQRAFTNGR EQ NAQ NYGHENF YNA/ TEVQ 54/ N5",
         "PNYY:GERR QBJA",
         "NQQE:TNEQRAFTNGR EQ NAQ NYGHENF YA",
+        "ZNQQE:TNEQRAFTNGR EQ & NYGHENF YA",
         "ZNC:54",
         "VASB:N5");
 

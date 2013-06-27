@@ -35,7 +35,6 @@ choyvp pynff APAbegunzcgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "F: Z:Abegunzcgba911:* HEVNU ZNEGVA EQ // ARNE PRZRGREL* * * PBAJNL* * SVER - OEHFU* * * * RZF3,SF20* * Zrqvpny: Ab* Unmneqf: Ab* * ",
         "NQQE:HEVNU ZNEGVA EQ",
-        "ZNQQE:ARNE PRZRGREL,HEVNU ZNEGVA EQ",
         "PVGL:PBAJNL",
         "CYNPR:ARNE PRZRGREL",
         "PNYY:SVER - OEHFU",

@@ -70,4 +70,14 @@ public class VAAlbemarleCountyParser extends FieldProgramParser {
     if (name.equals("CITY")) return new MyCityField();
     return super.getField(name);
   }
+
+  @Override
+  public String adjustMapAddress(String sAddress, boolean cross) {
+    return sAddress.replace("LEWIS AND CLARK", "LEWIS_AND_CLARK");
+  }
+
+  @Override
+  public String postAdjustMapAddress(String sAddress) {
+    return sAddress.replace("LEWIS_AND_CLARK", "LEWIS AND CLARK");
+  }
 }

@@ -1052,7 +1052,6 @@ choyvp pynff GKCnexrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:48",
         "CYNPR:Cnex",
         "NQQE:Cnex oruvaq Oebbxfuverf",
-        "ZNQQE:Cnex,Cnex oruvaq Oebbxfuverf",
         "PVGL:Fcevatgbja",
         "ZNC:22P",
         "VASB:18 Zbagu byq vafvqr, abg ehaavat, Znebba Gnubr - Oenql CPSN");

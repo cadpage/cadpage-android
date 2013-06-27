@@ -435,7 +435,6 @@ choyvp pynff ZQUbjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(uPNQ) [!] RIRAG: S12009466 ONYGVZBER PBHAGL PGAI: @OP4 GLCR: ZHGNVQ-ZNNYF @ 13:17:25 ORNG/OBK: OP04",
         "VQ:S12009466",
         "NQQE:ONYGVZBER PBHAGL PGAI",
-        "ZNQQE:OP4,ONYGVZBER PBHAGL PGAI",
         "CYNPR:OP4",
         "PNYY:ZHGNVQ-ZNNYF",
         "GVZR:13:17:25",
@@ -534,7 +533,6 @@ choyvp pynff ZQUbjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Fgngvba 1",
         "VQ:S12015266",
         "NQQE:RYX",  // RYX: @CNGNCFPB FGNGR CNEX ???
-        "ZNQQE:CNGNCFPB FGNGR CNEX,RYX",  
         "CYNPR:CNGNCFPB FGNGR CNEX",
         "PNYY:ZRQVPNY",
         "GVZR:14:31:58",
@@ -545,7 +543,6 @@ choyvp pynff ZQUbjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Fgngvba 1",
         "VQ:S12015266",
         "NQQE:RYX",
-        "ZNQQE:CNGNCFPB FGNGR CNEX,RYX",
         "CYNPR:CNGNCFPB FGNGR CNEX",
         "PNYY:ZRQVPNY-OYF-PBYQ",
         "GVZR:14:31:58",
@@ -609,8 +606,7 @@ choyvp pynff ZQUbjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Fgngvba 1) RIRAG: S12015352 ONYGVZBER PBHAGL PGAI: @OP4 GLCR: ZHGNVQ-ZNNYF @ 12:36:14 ORNG/OBK: OP04 ",
         "FEP:Fgngvba 1",
         "VQ:S12015352",
-        "NQQE:ONYGVZBER PBHAGL PGAI",
-        "ZNQQE:OP4,ONYGVZBER PBHAGL PGAI",  // Jung qbrf guvf zrna???
+        "NQQE:ONYGVZBER PBHAGL PGAI",  // Jung qbrf guvf zrna???
         "CYNPR:OP4",
         "PNYY:ZHGNVQ-ZNNYF",
         "GVZR:12:36:14",
@@ -1259,7 +1255,6 @@ choyvp pynff ZQUbjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Fgngvba 1",
         "VQ:S12015956",
         "NQQE:ONYGVZBER PBHAGL RATP", // Jung vf guvf???
-        "ZNQQE:OP37,ONYGVZBER PBHAGL RATP",
         "CYNPR:OP37",
         "PNYY:ZHGNVQ-ZNNYF",
         "GVZR:15:36:10",
@@ -1270,7 +1265,6 @@ choyvp pynff ZQUbjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Fgngvba 1",
         "VQ:S12015957",
         "NQQE:ONYGVZBER PBHAGL UNYR",  // Naq guvf
-        "ZNQQE:OP5,ONYGVZBER PBHAGL UNYR",
         "CYNPR:OP5",
         "PNYY:ZHGNVQ-ZNNYF",
         "GVZR:16:02:45",

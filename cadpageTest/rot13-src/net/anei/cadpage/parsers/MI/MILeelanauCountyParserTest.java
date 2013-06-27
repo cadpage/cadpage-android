@@ -868,7 +868,7 @@ choyvp pynff ZVYrrynanhPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2012-00010376",
         "NQQE:Z22 NAQ 641",
-        "ZNQQE:ZV 22 NAQ 641",
+        "ZNQQE:ZV 22 & 641",
         "PVGL:YRYNAQ GJC",
         "HAVG:0501",
         "PNYY:SVER - CBJRE YVARF QBJA",
@@ -2225,6 +2225,7 @@ choyvp pynff ZVYrrynanhPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2012-00010561",
         "NQQE:72 NAQ ORAMBAVN GEY",
+        "ZNQQE:72 & ORAMBAVN GEY",
         "PVGL:RZCVER GJC",
         "HAVG:0204",
         "PNYY:EBNQ UNMNEQ",
@@ -2345,6 +2346,7 @@ choyvp pynff ZVYrrynanhPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2012-00010528",
         "NQQE:UNEEVTRE EQ NAQ FBHGUCBVAGR",
+        "ZNQQE:UNEEVTRE EQ & FBHGUCBVAGR",
         "PVGL:RZCVER GJC",
         "HAVG:0202",
         "PNYY:SVER - CBJRE YVARF NEPVAT",
@@ -3004,6 +3006,7 @@ choyvp pynff ZVYrrynanhPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2012-00010494",
         "NQQE:BZRAN CBVAG EQ NAQ VATNYYF O",
+        "ZNQQE:BZRAN CBVAG EQ & VATNYYF O",
         "PVGL:YRRYNANH GJC",
         "HAVG:0601",
         "PNYY:EBNQ UNMNEQ",
@@ -3208,7 +3211,6 @@ choyvp pynff ZVYrrynanhPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2012-00010849",
         "NQQE:OHAGVATF",
-        "ZNQQE:OHAGVATF,OHAGVATF",
         "HAVG:0999",
         "CYNPR:OHAGVATF",
         "PNYY:ZRQVPNY RZRETRAPL - CEVBEVGL 2",
@@ -3830,7 +3832,7 @@ choyvp pynff ZVYrrynanhPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2012-00010739",
         "NQQE:Z22 NAQ PUREEL ORAQ EQ",
-        "ZNQQE:ZV 22 NAQ PUREEL ORAQ EQ",
+        "ZNQQE:ZV 22 & PUREEL ORAQ EQ",
         "PVGL:RYZJBBQ GJC",
         "HAVG:0105",
         "CYNPR:ng gur yvtug va tervyvpxi",

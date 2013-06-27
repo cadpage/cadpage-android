@@ -197,6 +197,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:S74",
         "PNYY:BQBE VAI ANGHENY TNF",
         "NQQE:BIREYBBX NAQ SNVEIVRJ PVEPYR",
+        "ZNQQE:BIREYBBX & SNVEIVRJ PVEPYR",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:01/06",
         "GVZR:21:53");
@@ -320,7 +321,6 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:UNMZNG",
         "CYNPR:EG 611 GB EG 46",
         "NQQE:FUNQRF BS QRNGU EQ",
-        "ZNQQE:EG 611 GB EG 46,FUNQRF BS QRNGU EQ",
         "PVGL:YVOREGL GJC",
         "QNGR:01/13",
         "GVZR:13:20",
@@ -339,6 +339,6 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
     
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj AWJneeraPbhaglCnefreGrfg().trarengrGrfgf("G1", "HAVG PNYY CYNPR NQQE NCG PVGL QNGR GVZR VASB K");
+    arj AWJneeraPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

@@ -200,7 +200,8 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:07/01/2012",
         "GVZR:02:42",
         "PNYY:ZNYR PURFG CNVA",
-        "NQQE:UBJRYY NAQ CVGG");
+        "NQQE:UBJRYY NAQ CVGG",
+        "ZNQQE:UBJRYY & CVGG");
 
     qbGrfg("G7",
         "(911 Sver Pnyy) S01|Epiq:07/01/2012 05:36|Efa:SVER NYNEZ NPGVINGVBA|Abgr:|Nqe:1055  JNGRESBEQ PBZZBAF QE\a\a" +
@@ -508,7 +509,8 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:07/01/2012",
         "GVZR:02:42",
         "PNYY:ZNYR PURFG CNVA",
-        "NQQE:UBJRYY NAQ CVGG");
+        "NQQE:UBJRYY NAQ CVGG",
+        "ZNQQE:UBJRYY & CVGG");
 
     qbGrfg("G7",
         "(911 Sver Pnyy) S01|Epiq:07/01/2012 05:36|Efa:SVER NYNEZ NPGVINGVBA|Abgr:|Nqe:1055  JNGRESBEQ PBZZBAF QE\a\a" +

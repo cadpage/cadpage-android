@@ -897,7 +897,8 @@ choyvp pynff NYOnyqjvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:FGN66",
         "VQ:322590",
         "PNYY:Nhgb Nppvqrag",
-        "NQQE:64 NAQ 181");
+        "NQQE:64 NAQ 181",
+        "ZNQQE:64 & 181");
 
     qbGrfg("G78",
         "(QN) 08-06-12 18:32: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 322610 (Fgehpgher Sver) ng 806 A TERRAB EQ",

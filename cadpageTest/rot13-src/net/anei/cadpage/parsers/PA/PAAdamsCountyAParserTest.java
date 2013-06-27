@@ -3502,7 +3502,6 @@ choyvp pynff CNNqnzfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "CYNPR:1485 CNEX GREENPR QE",
         "NQQE:OBK 17-7",
-        "ZNQQE:1485 CNEX GREENPR QE,OBK 17-7",
         "PVGL:THVYSBEQ GJC");
 
   }
