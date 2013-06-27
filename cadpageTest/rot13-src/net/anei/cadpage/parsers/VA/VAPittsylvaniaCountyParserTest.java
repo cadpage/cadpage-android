@@ -517,7 +517,7 @@ choyvp pynff INCvggflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2013030579",
         "PNYY:GENSSVP NPPVQRAG CV",
         "NQQE:16247 ZNEGVAFIVYYR UJL",
-        "PVGL:NKGBA",
+        "PVGL:Nkgba",
         "K:PNFPNQR ZVYY EQ & PRAGREIVYYR EQ",
         "VASB:Pnyyre`f pybfrfg nqqerff vf 16247 ZNEGVAFIVYYR UJL (QVFG: 71.78 sg). / 2 IRUVPYR NPPVQRAG # CNGF: 255 NTR: Haxabja Enat",
         "QNGR:06/25/13",
@@ -735,7 +735,7 @@ choyvp pynff INCvggflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2013030047",
         "PNYY:GENSSVP NPPVQRAG - CQ",
         "NQQE:2092 EVATTBYQ EQ",
-        "PVGL:EVATTBYQ",
+        "PVGL:Evattbyq",
         "K:GBZ SBEX EQ & PYNEX FG",
         "VASB:Genssvp / Genafcbegngvba Nppvqrag (Penfu). Pnyyre Fgngrzrag: GENSSVP NPPVQRAG. 1.Gur pnyyre vf ba fprar naq vf gur ivpgvz/fhfcrpg (1fg cnegl).");
 
@@ -753,7 +753,7 @@ choyvp pynff INCvggflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2013029952",
         "PNYY:GENSSVP NPPVQRAG - CQ",
         "NQQE:584 YVGGYR PERRX EQ",
-        "PVGL:EVATTBYQ",
+        "PVGL:Evattbyq",
         "K:JNGXVAF PG",
         "VASB:Genssvp / Genafcbegngvba Nppvqrag (Penfu).GENSSVP NPPVQRAG (ab vawhel) (Oybpxvat genssvp). Pnyyre Fgngrzrag: 1 iru nppvqrag. 1.Gur pnyyre vf a");
 
@@ -763,7 +763,7 @@ choyvp pynff INCvggflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GENSSVP NPPVQRAG - CQ",
         "NQQE:600-OYX YVGGYR PERRX EQ",
         "ZNQQE:600 YVGGYR PERRX EQ",
-        "PVGL:EVATTBYQ",
+        "PVGL:Evattbyq",
         "K:JNGXVAF PG",
         "VASB:Genssvp / Genafcbegngvba Nppvqrag (Penfu).GENSSVP NPPVQRAG (ab vawhel) (Oybpxvat genssvp). Pnyyre Fgngrzrag: 1 iru nppvqrag. 1.Gur pnyyre vf a");
 
@@ -773,7 +773,7 @@ choyvp pynff INCvggflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GENSSVP NPPVQRAG - CQ",
         "NQQE:1200-OYX YVGGYR PERRX EQ",
         "ZNQQE:1200 YVGGYR PERRX EQ",
-        "PVGL:EVATTBYQ",
+        "PVGL:Evattbyq",
         "K:JNGXVAF PG & XRAGHPX EQ",
         "VASB:Genssvp / Genafcbegngvba Nppvqrag (Penfu).GENSSVP NPPVQRAG (ab vawhel) (Oybpxvat genssvp). Pnyyre Fgngrzrag: 1 iru nppvqrag. 1.Gur pnyyre vf a");
 
@@ -927,7 +927,7 @@ choyvp pynff INCvggflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GENSSVP NPPVQRAG CV",
         "NQQE:7441 PNFPNQR EQ & PBOOF XABO EQ",
         "ZNQQE:7441 PNFPNQR EQ",
-        "PVGL:NKGBA",
+        "PVGL:Nkgba",
         "VASB:IRUVPYR BIRE VA JRRQF, TBYQ PBYBE PNE",
         "QNGR:06/18/13",
         "GVZR:06:31:44");
