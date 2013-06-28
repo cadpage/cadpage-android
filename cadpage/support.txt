@@ -2,22 +2,19 @@
 support@cadpage.org
 
 ***************************************************************************
+* Receiving CodeMessaing text pages
+***************************************************************************
 
-Those are coming from CodeMessaging, and CodeMessaging has been
-switching their dispatch pages to use one of our standard formats.
+Short answer, you are getting text pages from Code Messaging and probably want to switch that to getting direct pages.
 
-If you are getting these directly from CodeMessaging, meaning they come
-from a a rc.nnn@c-msg.net address, then you probably want to switch to
-using direct paging to receive them.  That will automatically select the
-correct format parser.  To do that, go into Cadpage Settings and select
-Direct Paging Vendors > CodeMessaging.net > Register
+To do that, go into Cadpage Settings and select
+Direct paging Vendors > CodeMessaging.net > Register
 and follow the directions.
 
-If you aren't getting this directly from CodeMessaging, you can just
-change the current location to select the correct message parser.  To do
-that, go into Cadpage Settings and select
-Location Settings > Select Single Location > General Location > Standard
-Cadpage Format A
+Long technical answer.  CodeMessaging has been switching to a new model where they run the Cadpage text parsers on their servers and send the page information in a standard Cadpage defined page format that is in no way related to the page format dispatch uses to send the original page information.  If you try to process their text pages using the standard Harford, MD location, it will not work.  That location code expects the pages to be formated the way Harford dispatch sends them, which is no longer the case.  It will work if you go into Location Settings and set the location to 
+Select Single Location > General Location > Standard Cadpage Format A
+
+But, life gets so much simpler for all concerned if you switch to using direct paging, which handles all of these details.
 
 Good luck,
 -Ken
