@@ -451,7 +451,8 @@ public class VendorManager {
    * @param vendorCode vendor code
    * @return matching vendor object, or null if none found.
    */
- Vendor findVendor(String vendorCode) {
+  Vendor findVendor(String vendorCode) {
+    if (vendorCode == null) return null;
     for (Vendor vendor : vendorList) {
       if (vendorCode.equals(vendor.getVendorCode())) return vendor;
     }
