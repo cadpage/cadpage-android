@@ -160,10 +160,37 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "A",    "ARCHDALE",
+      "ALAM", "ALAMANCE COUNTY",
+      "B",    "BROWN SUMMIT",
+      "BUR",  "BURLINGTON",
+      "CLI",  "CLIMAX",
+      "COL",  "COLFAX",
+      "DAVI", "DAVIDSON COUNTY",
+      "E",    "ELON",
+      "EDEN", "EDEN",
+      "FORS", "FORSYTH COUNTY",
+      "G",    "GREENSBORO",
+      "GI",   "GIBSONVILLE",
+      "GUIL", "GUILFORD COUNTY",
+      "H",    "HIGH POINT",
+      "J",    "JAMESTOWN",
+      "JU",   "JULIAN",
+      "K",    "KERNERSVILLE",
+      "L",    "LIBERTY",
+      "M",    "MCLEANSVILLE",
       "OAK",  "OAK RIDGE",
+      "P",    "PLEASANT GARDEN",
+      "RAN",  "RANDLEMAN",
+      "RAND", "RANDOLPH COUNTY",
+      "REI",  "REIDSVILLE",
       "ROCK", "ROCKINGHAM COUNTY",
+      "SE",   "SEDALIA",
       "ST",   "STOKESDALE",
       "SU",   "SUMMERFIELD",
+      "T",    "THOMASVILLE",
+      "W",    "WHITSETT",
+      "X",    "UNIDENTIFIED"
   });
   
 }
