@@ -112,7 +112,7 @@ choyvp pynff CNAbeguhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G10",
         "940 UBBXVRF TEBIR EQ * CBV * PNEOBA ZBABKVQR VAPVQRAG * Qvfcngpu: RAT 741,ERF 735,PU 742,NG 749,FD 746,ZVPH 91,FD 747,RAT 742,PU 741",
         "NQQE:940 UBBXVRF TEBIR EQ",
-        "PVGL:CBVAG",
+        "PVGL:CBVAG GJC",
         "PNYY:PNEOBA ZBABKVQR VAPVQRAG",
         "HAVG:RAT_741,ERF_735,PU_742,NG_749,FD_746,ZVPH_91,FD_747,RAT_742,PU_741");
   
@@ -130,7 +130,7 @@ choyvp pynff CNAbeguhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "\e",
 
         "NQQE:58 ARVGM EQ",
-        "PVGL:CBVAG",
+        "PVGL:CBVAG GJC",
         "PNYY:NSN - AHEFVAT UBZR",
         "HAVG:RAT_741,ERF_735,PU_742,NG_749,FD_746,ZVPH_91,FD_747,RAT_742,PU_741 ZVPH_91,ERF_735,RAT_741,RAT_742");
 

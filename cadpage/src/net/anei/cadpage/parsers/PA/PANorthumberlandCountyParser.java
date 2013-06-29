@@ -285,7 +285,7 @@ public class PANorthumberlandCountyParser extends FieldProgramParser {
       "PNE", "NEWPORT",
       "PNM", "N.E. MADISON TWP",
       "PNO", "NEW BUFFOLO",
-      "POI", "POINT",
+      "POI", "POINT TWP",
       "POL", "OLIVER TWP",
       "PPE", "PENN TWP",
       "PRY", "RYE TWP",
