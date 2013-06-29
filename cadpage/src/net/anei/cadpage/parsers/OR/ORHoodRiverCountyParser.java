@@ -5,7 +5,7 @@ import java.util.Properties;
 import net.anei.cadpage.parsers.dispatch.DispatchA22Parser;
 
 /*
- * Klamath County, OR
+Hood River County, OR
  */
 
 public class ORHoodRiverCountyParser extends DispatchA22Parser {
