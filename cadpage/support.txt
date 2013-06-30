@@ -1400,18 +1400,24 @@ Have a nice day,
 -Ken
 
 ******************************************************************************
-** MMS doesn't work with Jellybean **
+** MMS throws security exception
+******************************************************************************
 
-The code Cadpage uses to handle MMS messages relies on some undocumented back door interfaces to the messaging system.  As of Jellybean (Android 4.1) these apparently throw a security exception.
+This is a mystery....
 
-The current regular release of Cadpage release to trap the abort.  So it won't crash on you.  But it probably won't work either.  If you really aren't receiving MMS pages, you can turn processing off by going into Location Settings and changing the Message Type Processed setting to something that does not include MMS messages.  Problem solved!!
+The code Cadpage uses to handle MMS messages relies on some undocumented back door interfaces to the messaging system.  As of Jellybean (Android 4.1) we started seing this throw a security exception.  Which was unfortunate, but not completely surprising.  Of late, the situation has gotten more complicated.   Several users on JellyBean and higher versions of Android are running this with no problem.  And one user ran into this on Gingerbread (2.3) Android.
+
+I am thinking it may have something to do with how security options are set, or which messaging app is handling the MMS messages.  If you can figure out what makes this stop and start happening we would be very very grateful.
+
+The latest versions of Cadpage trap the abort.  So it won't crash on you.  But it probably won't work either.  If you really aren't receiving MMS pages, you can turn processing off by going into Location Settings and changing the Message Type Processed setting to something that does not include MMS messages.  Problem solved!!
 
 If you are getting MMS pages, there are not many options.  The code in the new release might work, especially if you the message options set to download the data content automatically.  But we just don't know.  And I won't have time to investigate further options anytime soon.
 
-You could revert back to the ICS version of Android where MMS logic apparently works.  Or you can sign up with the Active911.com message service.  They have a way of pushing long pages to Cadpage without relying on SMS or MMS messages.  Their fees are reasonable.  Cadpage gets a share of what they charge, so we don't except Cadpage users getting direct pages from Active911 to pay anything further.
+You could revert back to the ICS version of Android where MMS logic seems to work.  Or you can sign up with the Active911.com message service.  They have a way of pushing long pages to Cadpage without relying on SMS or MMS messages.  Their fees are reasonable.  Cadpage gets a share of what they charge, so we don't except Cadpage users getting direct pages from Active911 to pay anything further.
 
 Good luck,
 -Ken
+
 
 ******************************************************************************
 
