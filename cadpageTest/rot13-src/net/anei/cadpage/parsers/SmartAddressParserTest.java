@@ -50,6 +50,9 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
     
+    qbGrfg(CYNPR, SYNT_FGNEG_SYQ_AB_QRYVZ | SYNT_NAPUBE_RAQ, "12 OBJQRA YN",
+        "NQQE:12 OBJQRA YN");
+    
     qbGrfg(PNYY, SYNT_FGNEG_SYQ_ERD | SYNT_NAPUBE_RAQ, "WPFB ZIP CEBCREGL QNZNTR AR SS UJL & AR 50 UJL XRA GBJA",
         "PNYY:WPFB ZIP CEBCREGL QNZNTR", 
         "NQQE:AR SS UJL & AR 50 UJL",
