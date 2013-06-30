@@ -754,7 +754,7 @@ Good luck,
 ******************************************************************
 ** Recent PHONE_REGISTRATION_ERROR
 ** Null RegistrationID
-** Cadpage version < 1.6.26
+** Cadpage version < 1.6.29
 ****************************************************************** 
 
 Something has been going haywire with the Google infrastructure supporting direct paging some time ago.  It only impacts a small percentage of direct paging users, but that is small comfort to those who are impacted.  We have been complaining to Google but so far have not gotten any response.
@@ -769,12 +769,16 @@ Good luck,
 ******************************************************************
 ** Recent PHONE_REGISTRATION_ERROR
 ** Null RegistrationID
-** Cadpage version >= 1.6.26
+** Cadpage version >= 1.6.29
 ******************************************************************
  
 It looks like you are one of the users who cannot get the Google registration you need to implement direct paging.  Usually just retrying it a few times is enough to get things working.  But sometimes more serious measures are called for.
 
-First, double check that the account associated with Google Play Store is valid.  To do that, open the Play Store App and select
+If you have not tried it yet, try uninstalling and re-installing Cadpage.  You will have to register your device with CodeMessaging or Active911 again, hoping it succeeds this time.
+
+If that doesn't work, leave it and come back and try again in a couple hours.  It may just take some time to get Google's servers to respond to us.
+
+If that does not work, we are starting to get desperate.  But first, double check that the account associated with Google Play Store is valid.  To do that, open the Play Store App and select
 Menu > Accounts
 and verify that the selected account is the one you expect.
 
@@ -789,55 +793,12 @@ Then go back to the Android home screen and select
 Menu > Settings > Accounts & Sync > Google > Sync
 and see if everything synchronizes.
 
-Next, go back to Cadpage Settings and try to register with Active911/Code Messaging again.  If this still doesn't open the registration screen after a minute or so, use the Email the Developer to send us another email and we will go on to the next steps.
+Next, go back to Cadpage Settings and try to register with Active911/Code Messaging again.
+
+If that does not work, we are down to recommending a factory reset.  This a rather drastic solution, but it has, thus far, always resolved this particular problem.
 
 Good luck,
 -Ken
-
-******************************************************************
-** Recent PHONE_REGISTRATION_ERROR
-** Above instructions were unsuccessful.
-******************************************************************
-
-There are a few more things to try, but we are starting to get desperate.
-
-One user has reported that replacing the SIM card resolved this problem.  Since SIM cards usually cost money, I would first try removing the SIM card and trying to register Cadpage with CodeMessaging while your phone is connected to a WiFi router.  If that works, you can go ahead and get a new SIM card.
-
-Another user reported that uninstalling and reinstalling Cadpage fixed things.
-
-Try installing and setting up the Google Chrome to Phone App.  You need to install the Chrome to Phone extension to the Chrome web browser on a PC system somewhere and then use it to send a web link to your phone.  Chrome to Phone uses the same underlying protocol that we use for Cadpage Direct Paging.  If you have the same problems with that app as we are having with Cadpage, we can make a pretty strong case that this is a problem with the underlying Google protocol.
-
-Good luck,
--Ken
-
-******************************************************************
-** Active911 registration issues
-** No recent GCM registration problems
-** registration_id not null
-******************************************************************
-
-Very occasionally, people are having trouble registering with Active911.  There are a couple things you can try, usually something works.
-
-*** For Android versions >= 4.0
-Then go back to the Android home screen and select
-Menu > Settings
-Scroll down to the Account settings and select Google
-Verify that the Google Play account is syncing properly (ie.. that the last sync date/time is fairly recent)
-
-*** For Android versions < 4.0
-Then go back to the Android home screen and select
-Menu > Settings > Accounts & Sync > Google > Sync
-and see if everything synchronizes.
-
-Restart the device and try again
-
-This takes care of 95% of the reported problems.  If it does not there are some odder tricks that are occasionally required.
-
-Power down your device, remove the SD card, then power it up and register Cadpage with Active911.  I have no idea why this would make any difference, but it got one user up and running.
-
-Good luck,
--Ken
-
 
 ******************************************************************
 * Duplicate pages with Active911
