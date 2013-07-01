@@ -88,7 +88,7 @@ public class SDLincolnCountyParser extends SmartAddressParser {
     
     else {
       
-      // See if there is an comma terminating the address
+      // See if there is an comma or = terminating the address
       int pt = body.indexOf(',');
       if (pt < 0) {
         

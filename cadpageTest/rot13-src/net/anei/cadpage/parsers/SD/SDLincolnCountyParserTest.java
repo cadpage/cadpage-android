@@ -43,12 +43,21 @@ Pbagnpg: Wnzrf Qvrgm <xp0hfd@tznvy.pbz>
 Fraqre: ab-ercyl@yrqfcbegny.pbz
 (83 L/B Srznyr abg srryvat jryy Qvss oernguvat) 519 F Onegyrgg\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]
 (20 L/B Srznyr fgbznpu naq onpx cnva) 28106 472aq Nir\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]
+(NZO : Nzohynapr Pnyy ZRQVPNY) V-29 naq ujl 18, Pnagba RK 62 SBE NQHYG SRZNYR HAERFCBAFVIR [Nggnpuzrag(f) erzbirq]
+(210 A YNJYRE) 17 L/B ZNYR VA N UNYB, OYRRQVAT ARNE UNYB [Nggnpuzrag(f) erzbirq]
+(310 r ryqre) 310 r ryqre iruvpyr sver [Nggnpuzrag(f) erzbirq]
+(509 J 5gu Pnfrlf) Znyr sryy urnq naq xarr cnva\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]
+(13-08212 - NZO : Nzohynapr Pnyy) Pnfrl'f Trareny Fgber - Pnagba \aCyrnfr erfcbaq vzzrqvngryl. 50 lb. z. Snyyra pbzcynvavat bs xarr cnva.
+(UJL 18 & UJL 11) FVPX SRZNYR VA N PNE. [Nggnpuzrag(f) erzbirq]
 
 ** Cnefre snvyherf **
 Fhowrpg:qrulqengvba\a519 f onegyrgg 18 lb srznyr qrulengrq, cyrnfr erfcbaq\e
 Fhowrpg:12-11706 - NZO : Nzohynapr Pnyy\a420 F. Qnxbgn, p \e\aCyrnfr erfcbaq vzzrqvngryl. 36 lb. z cnffrq bhg.\e
 Fhowrpg:nzohynapr pnyy\apnagba va jbbq 65lb znyr arrqf genafcbeg gb Fnasbeq jvgu TV oyrrqvat\e
 Fhowrpg:ZRQVPNY @ XRLFGBAR\aZNYR VA 50'F - PURFG CNVA\e
+(GF : Genssvp Rasbeprzrag ZRQVPNY) Vagrefrpgvba bs 271 naq 469 NQHYG ZNYR VAFHYVA FUBPX [Nggnpuzrag(f) erzbirq]
+(NZO : Nzohynapr Pnyy) Nqnzf Gurezny Flfgrzf Vap va bssvpr sbe cngvrag jvgu purfg cnvaf [Nggnpuzrag(f) erzbirq]
+(HF UJL 18 NAQ UNVJNGUN) HF UVJTUJNL 18 NAQ UNVJNGUN = CBFFVOYR QEBJAVT IVPGVZ [Nggnpuzrag(f) erzbirq]
 
 */
 
@@ -243,21 +252,47 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:227 F WBUAFBA");
 
     qbGrfg("G3",
-        "(13-04979 - NZO : Nzohynapr Pnyy1 pnyy ebyybire) +43.301044, -096.643700 \a" +
-        "Cyrnfr erfcbaq vzzrqvngryl.\a" +
-        "18/jrfg bs 11\a" +
-        "2 cngvragf onpx naq arpx vawhevrf",
+        "(NZO : Nzohynapr Pnyy ZRQVPNY) V-29 naq ujl 18, Pnagba RK 62 SBE NQHYG SRZNYR HAERFCBAFVIR [Nggnpuzrag(f) erzbirq]",
+        "PNYY:NZO : Nzohynapr Pnyy ZRQVPNY",
+        "NQQE:V-29 naq ujl 18",
+        "ZNQQE:V 29 & ujl 18",
+        "PVGL:Pnagba",
+        "VASB:RK 62 SBE NQHYG SRZNYR HAERFCBAFVIR");
 
-        "VQ:13-04979",
-        "PNYY:NZO : Nzohynapr Pnyy1 pnyy ebyybire",
-        "NQQE:+43.301044, -096.643700",
-        "ZNQQE:+43.301044,-96.643700",
-        "VASB:18/jrfg bs 11\a2 cngvragf onpx naq arpx vawhevrf");
- 
+    qbGrfg("G4",
+        "(210 A YNJYRE) 17 L/B ZNYR VA N UNYB, OYRRQVAT ARNE UNYB [Nggnpuzrag(f) erzbirq]",
+        "PNYY:17 L/B ZNYR VA N UNYB, OYRRQVAT ARNE UNYB",
+        "NQQE:210 A YNJYRE");
+
+    qbGrfg("G5",
+        "(310 r ryqre) 310 r ryqre iruvpyr sver [Nggnpuzrag(f) erzbirq]",
+        "PNYY:310 r ryqre iruvpyr sver",
+        "NQQE:310 r ryqre");
+
+    qbGrfg("G6",
+        "(509 J 5gu Pnfrlf) Znyr sryy urnq naq xarr cnva\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]",
+        "PNYY:Znyr sryy urnq naq xarr cnva\aCyrnfr erfcbaq vzzrqvngryl.",
+        "NQQE:509 J 5gu Pnfrlf");
+
+    qbGrfg("G7",
+        "(13-08212 - NZO : Nzohynapr Pnyy) Pnfrl'f Trareny Fgber - Pnagba \a" +
+        "Cyrnfr erfcbaq vzzrqvngryl. 50 lb. z. Snyyra pbzcynvavat bs xarr cnva.",
+
+        "VQ:13-08212",
+        "PNYY:NZO : Nzohynapr Pnyy",
+        "NQQE:Pnfrl'f Trareny Fgber -",
+        "PVGL:Pnagba",
+        "VASB:50 lb. z. Snyyra pbzcynvavat bs xarr cnva.");
+
+    qbGrfg("G8",
+        "(UJL 18 & UJL 11) FVPX SRZNYR VA N PNE. [Nggnpuzrag(f) erzbirq]",
+        "PNYY:FVPX SRZNYR VA N PNE.",
+        "NQQE:UJL 18 & UJL 11");
+
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre3() {
+  choyvp ibvq grfgWnzrfQvrgm2() {
 
     qbGrfg("G1",
         "(83 L/B Srznyr abg srryvat jryy Qvss oernguvat) 519 F Onegyrgg\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]",
@@ -272,6 +307,6 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj FQYvapbyaPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj FQYvapbyaPbhaglCnefreGrfg().trarengrGrfgf("G3");
   }
 }

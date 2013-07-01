@@ -96,6 +96,10 @@ Pbagnpg: Crgre Mjreyrva <cwm2030@tznvy.pbz>
 Fraqre: cntvat@fpserf.pbz
 GLCR: URNEG / NVPQ YBP: 95 QRCBG YA   PEBFF:  /  PBQR: qrsnhyg GVZR: 00:47:57
 
+Pbagnpg: Eboreg Fgnqryzna <Eboreg.Fgnqryzna@rkpunatrnzohynapr.bet>
+Fraqre: cntvat@fpserf.pbz
+GLCR: CFLPUVNGEVP / NOABEZNY ORUNIVBE / FHVPVQR YBP: 36 47 FG VFYVC   PEBFF: PELFGNY OEBBX PG / PBZZNPX EQ PBQR: 25-O-3 GVZR: 04:48:26
+
 Pbagnpg: fhccbeg@npgvir911.pbz
 GLCR: ERFCVENGBEL YBP: 14 EVGN QE ZBHAGF PEBFF: JRFGPYVSS QE / WBAV QE PBQR:6-Q-1 GVZR: 23:35:41
 GLCR: OYRRQVAT / YNPRENGVBAF YBP: 103 EBR YA CBEGWR PEBFF: IVYYNTR JBBQF EQ / PBQR: 21-O-1 GVZR: 13:18:59
@@ -467,6 +471,20 @@ choyvp pynff ALFhssbyxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:URNEG / NVPQ",
         "NQQE:95 QRCBG YA",
         "GVZR:00:47:57");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEboregFgnqryzna() {
+
+    qbGrfg("G1",
+        "GLCR: CFLPUVNGEVP / NOABEZNY ORUNIVBE / FHVPVQR YBP: 36 47 FG VFYVC   PEBFF: PELFGNY OEBBX PG / PBZZNPX EQ PBQR: 25-O-3 GVZR: 04:48:26",
+        "PNYY:CFLPUVNGEVP / NOABEZNY ORUNIVBE / FHVPVQR",
+        "NQQE:36 47 FG",
+        "PVGL:VFYVC",
+        "K:PELFGNY OEBBX PG / PBZZNPX EQ",
+        "PBQR:25-O-3",
+        "GVZR:04:48:26");
 
   }
   
