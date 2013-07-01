@@ -16,6 +16,7 @@ public class GADadeCountyParser extends SmartAddressParser {
   
   public GADadeCountyParser() {
     super(CITY_LIST, "DADE COUNTY", "GA");
+    setFieldList("CALL ADDR APT X PLACE CITY INFO DATE TIME");
   }
   
   @Override
