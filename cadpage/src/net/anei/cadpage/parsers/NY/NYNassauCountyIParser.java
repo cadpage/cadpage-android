@@ -62,7 +62,7 @@ public class NYNassauCountyIParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ID " + super.getFieldNames();
+      return "ID PLACE ADDR APT";
     }
   }
   

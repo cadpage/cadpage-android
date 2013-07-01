@@ -133,7 +133,7 @@ choyvp pynff PBCvgxvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:CP",
         "PNYY:FNE",
         "NQQE:29000 SELVAT CNA EQ",
-        "PVGL:ZREVQRGU",
+        "PVGL:ZRERQVGU",
         "HAVG:52",
         "VASB:ZVQQYR SBEX BS SELVAT CNA EVIRE SVFUVAT, EC JRAG ONPX GB PURPX SBE SEVRAQ NAQ / PNA'G SVAQ UVZ. UR UNF ORRA ZVFFVAT SBE BIRE NA UB");
 
@@ -191,7 +191,7 @@ choyvp pynff PBCvgxvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:OSQ",
         "PNYY:ZHGHNY NVQ",
         "NQQE:29000 SELVAT CNA EQ",
-        "PVGL:ZREVQRGU",
+        "PVGL:ZRERQVGU",
         "HAVG:OSBPB1",
         "VASB:ZVQQYR SBEX BS SELVAT CNA EVIRE SVFUVAT, EC JRAG ONPX GB PURPX SBE SEVRAQ NAQ / PNA'G SVAQ UVZ. UR UNF ORRA ZVFFVAT SB");
 

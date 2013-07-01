@@ -203,6 +203,7 @@ choyvp pynff ALAnffnhPbhaglVCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:NZOH",
         "ZNC:MBAR 1 / 7",
         "VQ:2013-000472",
+        "CYNPR:FJNA PYHO",
         "NQQE:111 FPHQQREF YN",
         "ZNQQE:111 FPHQQREF YA",
         "K:TYRAJBBQ EQ / ENZF UVYY",
