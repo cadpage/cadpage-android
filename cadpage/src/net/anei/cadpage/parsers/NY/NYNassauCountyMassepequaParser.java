@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.NY;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -45,6 +46,12 @@ public class NYNassauCountyMassepequaParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
+  
+  @Override
+  public String adjustMapAddress(String address) {
+    return WESTFIELD_MALL_PTN.matcher(address).replaceAll("1 WESTFIELD MALL");
+  }
+  private static final Pattern WESTFIELD_MALL_PTN = Pattern.compile("\\b\\d+ +WESTFIELD MALL\\b", Pattern.CASE_INSENSITIVE);
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "E/M",  "EAST MASSAPEQUA",
