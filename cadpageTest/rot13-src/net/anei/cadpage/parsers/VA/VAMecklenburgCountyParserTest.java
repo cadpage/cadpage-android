@@ -296,6 +296,29 @@ Fraqre: fjcntr2@inzrpx911.pbz
 (ZRPX 911) 13-003121 FGBCCVAT N IRUVPYR \a Ercbegrq: 01/19/2013 23:39:49 \a 0-OYX YNAQSVYY EQ \a FE 678 / \a ZRPX PB \a 063 \a \a 
 (ZRPX 911) 13-003099 NAVZNY PBZCYNVAG \a Ercbegrq: 01/19/2013 22:10:38 \a 3744 UVTUJNL SVSGL-RVTUG \a JRFG BS PYNEXFIVYYR / \a OREEL UVYY VEEBTNGVBA & FHCCYL  ZRPX PB \a 063 \a \a 
 
+Abgrf:
+
+SvryqCebtenzCnefre fubhyq unaqyr guvf  Cebtenz fgevat bs
+PNYY! Ercbegrq:QNGRGVZR! NQQE K CYNPR PVGL HAVG!
+
+Purpx fhowrpg sbe "ZRPX 911"
+pnyy cnefrSvryqf fcyvggvat obql ol "\a"
+
+Bireevqr PNYY svryq
+Hfr cnggrea frnepu gb vqragvsl naq fnir pnyy VQ svryq.  nobeg vs ab zngpu
+
+Bireevqr QNGRGVZR svryq, whfg fhccyl erdhverq cnggrea svryq
+
+Bireevqr K svryq
+erzbir genvyvat / sebz vachg
+
+Bireevqr pvgl svryq
+Purpx sbe qbhoyr fcnpr qryvzvgre
+Vs sbhaq, ghea jung vf va sebag bs vg gb cynpr svryq
+vs jung vf yrsg rdhnyf "ZRPX PB" ghea vg gb "ZRPXYRAOHET PBHAGL"
+
+Unir sha...
+
 */
 
 choyvp pynff INZrpxyraohetPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

@@ -351,6 +351,27 @@ Fraqre: ZPFB@PB.ZNEVBA.BU.HF
 (PNQ Cntr) HAVG 200  12/15/2012 15:43:21 12-031911 SVER FGEHPGHER-ONEA 333 J BGGNJN FG HAVBA PBHAGL  
 (PNQ Cntr) HAVG 200F  12/14/2012 13:41:21 12-031820 59LE NOQBZVANY CNVA  704 CNEX FG F FRIRAGU FG F RVTUGU FG
 
+Abgrf:
+
+V ungrf gurfr :(
+Tbvat gb or n punyyratr, fubhyq cnl rkgen
+
+Purpx sbe fhowrpg zngpu "PNQ Cntr"
+Gura hfr n znfgre cnggrea zngpu gb vqragvl havg, qngr, gvzr, pnyy VQ naq rirelguvat ryfr.
+
+Gura jr trg gb jbex ba rirelguvat ryfr :(
+
+punatr nyy @ gb &  (fb jr vqragvsl gurz vf znexvat vagrefrpgvbaf)
+cnefrNqqerff(FgnegGlcr.FGNEG_PNYY, SYNT_FGNEG_SYQ_ERD | SYNT_PEBFF_SBYYBJF, obql, qngn) 
+obql = trgYrsg() trg rirelguvat cnfg gur nqqerff
+cnefrNqqerff(FgnegGlcr.FGNEG_NQQE, SYNT_BAYL_PEBFF | SYNT_VZCYVRQ_VAGREFRPGVBA, obql qngn)
+obql = trgYrsg()
+
+Tbvat arrq pvgl yvfg, vapyhqvat arvtuobevat pbhagvrf.  Gurer zvtug or fbzr pvgl pbqrf
+V unira'g orra noyr gb vqragvsl.  
+
+Ab znggre jung lbh qb, gurer ner tbvat gb or n snve ahzore bs cntrf jr pnaabg cnefr naq znc :(
+
  */
 
 choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
