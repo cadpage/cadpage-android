@@ -289,6 +289,7 @@ public class ParserList {
               ,"KSSedgwickCounty"               ,"Sedgwick County, KS"
           ),
           new ParserCategory("Kentucky"
+              ,"KYAndersonCounty"               ,"Anderson County, KY"
               ,"KYBoydCounty"                   ,"Boyd County, KY"
               ,"KYBullittCounty"                ,"Bullit County, KY"
               ,"KYCampbellCounty"               ,"Campbell County, KY"
