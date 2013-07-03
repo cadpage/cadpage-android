@@ -1042,8 +1042,9 @@ Active911 Support
 Ken Corbin
 
 ******************************************************************
-
 You can't delete unopened calls or locked calls.  Unopened calls are displayed in bold text and can be opened manually.  Locked calls have a (Locked) indicator and can be unlocked through the long press option menu.
+
+Occasionally users end up with call history filled with unopened calls.  At which point Cadpage starts deleting calls as soon as you open them.
 
 If you are having a lot of unopened calls, there is an option in the additional settings that you can check to allow you to delete unopened calls without having to open them first.
 
