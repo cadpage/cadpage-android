@@ -12,7 +12,7 @@ public class NYNassauCountyIParser extends FieldProgramParser {
   
   public NYNassauCountyIParser() {
     super("NASSAU COUNTY", "NY",
-          "TIMEDATE CALL CODE_MAP ID_ADDR CS:X? MAP? ADTNL:INFO");
+          "TIMEDATE CALL CODE_MAP ID_ADDR! CS:X? MAP? ADTNL:INFO");
           setupMultiWordStreets(
               "GLEN COVE",
               "MOTTS COVE"); 
@@ -95,7 +95,7 @@ public class NYNassauCountyIParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("DATETIME"))  return new DateTimeField("\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d\\d", true);
+    if (name.equals("TIMEDATE"))  return new TimeDateField("\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d\\d", true);
     if (name.equals("CODE_MAP")) return new CodeMapField();
     if (name.equals("ID_ADDR"))  return new IdAddressField();
     if (name.equals("MAP")) return new MyMapField();
