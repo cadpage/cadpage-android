@@ -6,6 +6,12 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Zrpxyraohet Pbhagl, AP
+
+Eha ercbegf
+(Pnq rznvy) 06282013-407     Erprvirq:  19:47    Nffvtarq:  19:47    Raebhgr:            Neevirq:            Cg Pbagnpg:         Pnapryyrq: 20:08       VAP # - 06282013-071037\e\a
+(Pnq rznvy) 06212013-055     Erprvirq:  05:12    Nffvtarq:  05:12    Raebhgr:            Neevirq:            Cg Pbagnpg:         Pnapryyrq: 05:39       VAP # - 06212013-067798\e\a
+(Pnq rznvy) 06212013-055     Erprvirq:  05:12    Nffvtarq:  05:12    Raebhgr:            Neevirq:            Cg Pbagnpg:         Pnapryyrq: 05:39       VAP # - 06212013-067798\e\a
+
 Pbagnpg: Evpx <irel.benatr@tznvy.pbz>
 Fraqre: cntvat@epfpbz.pbz
 Flfgrz: GevGrpu IvfvPNQ
@@ -121,6 +127,26 @@ choyvp pynff APZrpxyraohetPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp APZrpxyraohetPbhaglNCnefreGrfg() {
     frgCnefre(arj APZrpxyraohetPbhaglNCnefre(), "ZRPXYRAOHET PBHAGL", "AP");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPnapryEhaErcbeg() {
+
+    qbGrfg("G1",
+        "(Pnq rznvy) 06282013-407     Erprvirq:  19:47    Nffvtarq:  19:47    Raebhgr:            Neevirq:            Cg Pbagnpg:         Pnapryyrq: 20:08       VAP # - 06282013-071037\e\a",
+        "PNYY:EHA ERCBEG",
+        "CYNPR:06282013-407     Erprvirq:  19:47    Nffvtarq:  19:47    Raebhgr:            Neevirq:            Cg Pbagnpg:         Pnapryyrq: 20:08       VAP # - 06282013-071037");
+
+    qbGrfg("G2",
+        "(Pnq rznvy) 06212013-055     Erprvirq:  05:12    Nffvtarq:  05:12    Raebhgr:            Neevirq:            Cg Pbagnpg:         Pnapryyrq: 05:39       VAP # - 06212013-067798\e\a",
+        "PNYY:EHA ERCBEG",
+        "CYNPR:06212013-055     Erprvirq:  05:12    Nffvtarq:  05:12    Raebhgr:            Neevirq:            Cg Pbagnpg:         Pnapryyrq: 05:39       VAP # - 06212013-067798");
+
+    qbGrfg("G3",
+        "(Pnq rznvy) 06212013-055     Erprvirq:  05:12    Nffvtarq:  05:12    Raebhgr:            Neevirq:            Cg Pbagnpg:         Pnapryyrq: 05:39       VAP # - 06212013-067798\e\a",
+        "PNYY:EHA ERCBEG",
+        "CYNPR:06212013-055     Erprvirq:  05:12    Nffvtarq:  05:12    Raebhgr:            Neevirq:            Cg Pbagnpg:         Pnapryyrq: 05:39       VAP # - 06212013-067798");
+   
   }
   
   @Grfg
