@@ -22,7 +22,6 @@ public class KYGreenupCountyParser extends DispatchB2Parser {
   
   private static final String[] CITY_LIST = new String[]{
     "BELLEFONTE",
-    "CARTER COUNTY",
     "FLATWOODS",
     "GREENUP",
     "RACELAND",
