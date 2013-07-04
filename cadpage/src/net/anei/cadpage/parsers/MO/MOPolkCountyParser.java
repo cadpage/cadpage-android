@@ -25,7 +25,7 @@ public class MOPolkCountyParser extends DispatchGlobalDispatchParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    body = body.replace(" Disp:", " Dispatch:");
+    body = body.replace("Disp:", "Dispatch:");
     if (!super.parseMsg(body, data)) return false;
     if (data.strCity.equals("POLK COUNTY")) data.strCity = "";
     Matcher match = MAP_PTN.matcher(data.strCall);
@@ -42,7 +42,7 @@ public class MOPolkCountyParser extends DispatchGlobalDispatchParser {
   
   @Override
   public String getProgram() {
-    return super.getProgram().replace(" CALL ", " CALL CODE ");
+    return super.getProgram().replace(" CALL ", " CALL CODE ").replace(" MAP ", " MAP CITY ");
   }
   
   private static final String[] CITY_TABLE = new String[]{
