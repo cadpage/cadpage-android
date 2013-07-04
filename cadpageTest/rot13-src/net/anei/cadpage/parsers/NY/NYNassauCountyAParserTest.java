@@ -29,6 +29,13 @@ Flfgrz: Erq Nyreg Ncyvar Fbsgjner
 ***ZHGHNVQ***  ZNS FHAL 223 FGBER UVYY EBNQ A [BYQ JRFGOHEL] p/f: O TNGR EBNQ/ NQGAY: SNF GEHPX--JNAT UNYY GBN: 06:17 12/18/2010
 ***FVT 8***  NHGB  65 ZNPTERTBE NIR [EBFYLA URVTUGF] p/f: WRFFVPN CY/TNESVRYQ CY NQGAY: AB CREZVG/QNIBBQV ERF TEVQ: X-15 GBN: 13:00 01/19/2013
 
+Pbagnpg: Tnel Tebareg <byqfnetr047@tznvy.pbz>
+Fraqre: cntvat@nycvarfbsgjner.pbz
+***FVT 9N*** NZOH 14    TENATRE NIR SYBENY CNEX PF: UVGPUPBPX (J) NIR / ZNEGUN GREE - MBAR   2 NQGAY: FVPX SRZNYR/SBBQ CBVFVAVAT GBN: 21:46 7/3/2013
+***NHGBZNG*** NHGB 18    ZNCYR NIR SYBENY CNEX PF: SYBENY OYIQ / PEBPHF NIR - MBAR   3 NQGAY: TRA SVER / AB CREZVG GBN: 10:27 7/3/2013
+***TRARENY*** VAIR 46    UNJGUBEAR NIR SYBENY CNEX PF: YBJRYY NIR / OELNAG NIR - MBAR   2 NQGAY: NYNEZ FBHAQVAT GBN: 07:50 7/3/2013
+***FVT 9N*** NZOH 8    YVAQRA NIR SYBENY CNEX PF: WREVPUB GCX / UVGPUPBPX (R) NIR - MBAR   2 NQGAY: NCG 306/ZRQVP NYREG/ FVPX SRZ GBN: 10:53 7/4/2013
+
  */
 
 choyvp pynff ALAnffnhPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -197,7 +204,56 @@ choyvp pynff ALAnffnhPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
    
   }
   
+  @Grfg
+  choyvp ibvq grfgTnelTebareg() {
+
+    qbGrfg("G1",
+        "***FVT 9N*** NZOH 14    TENATRE NIR SYBENY CNEX PF: UVGPUPBPX (J) NIR / ZNEGUN GREE - MBAR   2 NQGAY: FVPX SRZNYR/SBBQ CBVFVAVAT GBN: 21:46 7/3/2013",
+        "PNYY:FVT 9N - NZOH",
+        "NQQE:14 TENATRE NIR",
+        "PVGL:SYBENY CNEX",
+        "K:UVGPUPBPX (J) NIR / ZNEGUN GREE",
+        "ZNC:MBAR 2",
+        "VASB:FVPX SRZNYR/SBBQ CBVFVAVAT",
+        "GVZR:21:46",
+        "QNGR:7/3/2013");
+
+    qbGrfg("G2",
+        "***NHGBZNG*** NHGB 18    ZNCYR NIR SYBENY CNEX PF: SYBENY OYIQ / PEBPHF NIR - MBAR   3 NQGAY: TRA SVER / AB CREZVG GBN: 10:27 7/3/2013",
+        "PNYY:NHGBZNG - NHGB",
+        "NQQE:18 ZNCYR NIR",
+        "PVGL:SYBENY CNEX",
+        "K:SYBENY OYIQ / PEBPHF NIR",
+        "ZNC:MBAR 3",
+        "VASB:TRA SVER / AB CREZVG",
+        "GVZR:10:27",
+        "QNGR:7/3/2013");
+
+    qbGrfg("G3",
+        "***TRARENY*** VAIR 46    UNJGUBEAR NIR SYBENY CNEX PF: YBJRYY NIR / OELNAG NIR - MBAR   2 NQGAY: NYNEZ FBHAQVAT GBN: 07:50 7/3/2013",
+        "PNYY:TRARENY - VAIR",
+        "NQQE:46 UNJGUBEAR NIR",
+        "PVGL:SYBENY CNEX",
+        "K:YBJRYY NIR / OELNAG NIR",
+        "ZNC:MBAR 2",
+        "VASB:NYNEZ FBHAQVAT",
+        "GVZR:07:50",
+        "QNGR:7/3/2013");
+
+    qbGrfg("G4",
+        "***FVT 9N*** NZOH 8    YVAQRA NIR SYBENY CNEX PF: WREVPUB GCX / UVGPUPBPX (R) NIR - MBAR   2 NQGAY: NCG 306/ZRQVP NYREG/ FVPX SRZ GBN: 10:53 7/4/2013",
+        "PNYY:FVT 9N - NZOH",
+        "NQQE:8 YVAQRA NIR",
+        "PVGL:SYBENY CNEX",
+        "K:WREVPUB GCX / UVGPUPBPX (R) NIR",
+        "ZNC:MBAR 2",
+        "VASB:NCG 306/ZRQVP NYREG/ FVPX SRZ",
+        "GVZR:10:53",
+        "QNGR:7/4/2013");
+
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALAnffnhPbhaglNCnefreGrfg().trarengrGrfgf("G1", "PNYY CYNPR NQQE PVGL K VASB ZNC GVZR QNGR");
+    arj ALAnffnhPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }
 }

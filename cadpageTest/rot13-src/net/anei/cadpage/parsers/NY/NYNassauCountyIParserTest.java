@@ -36,6 +36,7 @@ choyvp pynff ALAnffnhPbhaglVCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgOnqZft() {
     qbOnqGrfg("(AL-Nyreg) V-495 RO Nppvqrag orgjrra Rkvg 35 (Furygre Ebpx Eq) gb Rkvg 36 (Frnevatgbja Eq) va Anffnh Pbhagl, gur evtug naq pragre y 84886274A.");
+    qbOnqGrfg("FVT 15- Zrzoref arrqvat n Pbzcnal Culfvpny; Whyl qngrf- 7/11 @ Uhagvatgba @ 1900 naq 7/21 @ Pbyq FCevat Uneobe @ 0900");
   }
   
   @Grfg

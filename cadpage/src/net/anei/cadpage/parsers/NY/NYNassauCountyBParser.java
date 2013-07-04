@@ -17,6 +17,7 @@ public class NYNassauCountyBParser extends SmartAddressParser {
   public NYNassauCountyBParser() {
     super("NASSAU COUNTY", "NY");
     addExtendedDirections();
+    setFieldList("ADDR X PRI CALL INFO ID");
   }
   
   public String getFilter() {
