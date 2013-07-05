@@ -368,6 +368,7 @@ public class DispatchBParser extends FieldProgramParser {
         "FIRE TREE DOWN",
         "FIRE VEHICLE",
         "FIRE - VEHICLE",
+        "FIRE - VEHICLE FIRE",
         "FIRE WILD",
         "FIRE (UNKNOWN ORGIN)",
         "FIRE - ALARM",
