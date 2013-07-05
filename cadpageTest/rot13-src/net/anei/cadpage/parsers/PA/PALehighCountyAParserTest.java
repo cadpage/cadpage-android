@@ -1,7 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.CN;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.CN.CNYruvtuPbhaglCnefre;
+vzcbeg arg.narv.pnqcntr.cnefref.CN.CNYruvtuPbhaglNCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -79,10 +79,10 @@ Pbagnpg: Enaql Fpuzblre <nffgpuvrs2404@tznvy.pbz>
 
 */
 
-choyvp pynff CNYruvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff CNYruvtuPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp CNYruvtuPbhaglCnefreGrfg() {
-    frgCnefre(arj CNYruvtuPbhaglCnefre(), "YRUVTU PBHAGL", "CN");
+  choyvp CNYruvtuPbhaglNCnefreGrfg() {
+    frgCnefre(arj CNYruvtuPbhaglNCnefre(), "YRUVTU PBHAGL", "CN");
   }
   
   @Grfg
@@ -512,6 +512,6 @@ choyvp pynff CNYruvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj CNYruvtuPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj CNYruvtuPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }
 }
