@@ -33,6 +33,10 @@ Pbagnpg: Punq Xryyl <sversvtugrexryyl@tznvy.pbz>
 Fraqre: rpp4@wbpbtbi.bet
 Nqq: 7344 Pnagreohel Fg         Ncg:            Ybp:                 Angher: ZRQVPNY              Tevq: 68/1. Vapvqrag# 13-0690093 Pebff:JVAQFBE FG/J 74G
 
+Pbagnpg: Xra Curycf <xra.curycf@wbpbsq1.bet>
+Fraqre: rpp4@wbpbtbi.bet
+1 bs 2\aSEZ:rpp4@wbpbtbi.bet\aZFT:Nqq: 400 F Zbbayvtug Eq         Ncg: 15U        Ybp: Zbbayvtug Evqtr             Angher: Orunivbeny P2\a(Pba'g) 2 bs 2\aTevq: 363/1 Vapvqrag# 13-1860028 Pebff:R CHZCXVA EVQTR FG/R PBGGNTR P(Raq)
+
 */
 
 choyvp pynff XFWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -126,6 +130,21 @@ choyvp pynff XFWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:68/1",
         "VQ:13-0690093",
         "K:JVAQFBE FG/J 74G");
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:rpp4@wbpbtbi.bet\a" +
+        "ZFT:Nqq: 400 F Zbbayvtug Eq         Ncg: 15U        Ybp: Zbbayvtug Evqtr             Angher: Orunivbeny P2\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "Tevq: 363/1 Vapvqrag# 13-1860028 Pebff:R CHZCXVA EVQTR FG/R PBGGNTR P(Raq)",
+
+        "NQQE:400 F Zbbayvtug Eq",
+        "NCG:15U",
+        "CYNPR:Zbbayvtug Evqtr",
+        "PNYY:Orunivbeny P2",
+        "ZNC:363/1",
+        "VQ:13-1860028",
+        "K:R CHZCXVA EVQTR FG/R PBGGNTR P");
 
   }
   

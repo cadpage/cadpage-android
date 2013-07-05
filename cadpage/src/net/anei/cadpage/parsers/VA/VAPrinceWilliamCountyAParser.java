@@ -25,10 +25,19 @@ public class VAPrinceWilliamCountyAParser extends VAPrinceWilliamCountyBaseParse
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    String save = body;
     int pt = body.indexOf('\n');
-    if (pt >= 0) body = body.substring(0,pt).trim();
-    return parseFields(body.split("/"), 6, data);
+    if (pt >= 0) body  = body.substring(0,pt).trim();
+    if (parseFields(body.split("/"), 6, data)) return true;
+    pt = save.indexOf("\nSent by PW Alert to ");
+    if (pt < 0) return false;
+    save = save.substring(0,pt).trim();
+    if (subject.length() > 0) {
+      save = '(' + subject + ") " + save;
+    }
+    data.parseGeneralAlert(this, save);
+    return true;
   }
   
   private static final DateFormat DATE_FMT = new SimpleDateFormat("dd-MMM-yyyy");
