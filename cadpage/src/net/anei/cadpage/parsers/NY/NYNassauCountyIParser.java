@@ -28,14 +28,16 @@ public class NYNassauCountyIParser extends FieldProgramParser {
     return parseFields(DELIM_PTN.split(body), data);
   }
   
-  private static Pattern CODE_MAP_PTN = Pattern.compile("(.*) \\((.*)\\)");
-  private class CodeMapField extends Field {
+  private static Pattern CODE_MAP_PTN = Pattern.compile(" *\\((.*)\\)$");
+  private class CodeMapField extends CodeField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = CODE_MAP_PTN.matcher(field);
-      if (!match.matches()) abort();
-      data.strCode = match.group(1).trim();
-      data.strMap = match.group(2).trim();
+      if (match.find()) {
+        data.strMap = match.group(1).trim();
+        field = field.substring(0,match.start());
+      }
+      super.parse(field, data);
     }
     
     @Override
