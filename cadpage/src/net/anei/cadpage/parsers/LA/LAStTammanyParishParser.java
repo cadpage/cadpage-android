@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 /**
  * St Tammany Parish, LA
  * NOTES: There is an Apartment field that is not always present.  This means that 
- * the SRC_X field must have check logic in order for the FieldProgramParser to konw
+ * the SRC_X field must have check logic in order for the FieldProgramParser to know
  * whether the apartment field exits or not.
  */
 public class LAStTammanyParishParser extends FieldProgramParser {

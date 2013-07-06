@@ -305,6 +305,7 @@ public class ParserList {
               ,"LAJeffersonParish"              ,"Jefferson Parish, LA"
               ,"LALafourcheParish"              ,"Lafourche Parish, LA"
               ,"LAStCharlesParish"              ,"St Charles Parish, LA"
+              ,"LAStTammanyParish"              ,"St Tammany Parish, LA"
           ),
           new ParserCategory("Maine"
               ,"MEKnoxCounty"                   ,"Knox County, ME"
