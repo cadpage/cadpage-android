@@ -20,7 +20,7 @@ public class CAVenturaCountyParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "Fcc-do-not-reply@Ventura.org";
+    return "Fcc-do-not-reply@Ventura.org,Fcc@ventura.org";
   }
   
   @Override

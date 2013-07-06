@@ -24,11 +24,6 @@ Pnebyvar Pbhagl, ZQ (ZQPnebyvarPbhaglCnefre)
 (Puvrs NYG) [CZ13] 26 N-Fvpx Crefba -- 520 Xree Nir Qragba - KFgf: Qrnq Raq / Qnssva Ya
 (Puvrs NYG) [200 Sver] Jverf Qbja -- 22542 Qbire Oevqtr Eq Cerfgba - KFgf: Cbcyne Arpx Eq, Gnalneq Eq / Orguyrurz Eq
 (Puvrs NYG) [200 Sver] 17 N-Snyyf -- 21182 Znefu Perrx Eq Cerfgba - KFgf: Senmvre Arpx Eq / Orguyrurz Eq
-***************************************************************************
-Bprna Pvgl, ZQ  (ZQBprnaPvglCnefre)
-(Puvrs NYG) [700 Nhgb] - Angher:Nhgb Nynez - YBP:2500 Onygvzber Nir - Pelfgny Ornpu Ubgry - NQQ:(f) (a)obneqjnyx BPZQ - Pebff FGF:26gu Fg & 25gu Fg
-(Puvrs NYG) [FGN:700] - Angher:Iruvpyr Sver - NQQ:8878 Fgrcura Qrpnghe Ujl BPZQ - Pebff FGF:Pynex Eq & Ynaqvatf Oyiq
-[Puvrs NYG]  [FGN:700] - Angher:Zhghny Nvq Sver - NQQ:1 J Vaqvna Fg BPZQ - Pebff FGF:Onl Fg & R Vaqvna Fg
 *******************************************************************************
 *******************************************************************************
 * QvfcngpuBFFVCnefre fhopynffrf
@@ -103,6 +98,11 @@ Zhfxrtba Pbhagl, ZV (ZVZhfxrtbaPbhaglCnefre)
 PNQ:SLV: ;7610 RNFL FG;ORAFGBA EQ;JUVGRUNYY EQ;ZRQ1
 PNQ:SLV: ;322 R ZHFXRTBA NI;F YVIVATFGBA FG;F ONYQJVA FG;JVERQ
 PNQ:SLV: ;1387 J UBYGBA JUVGRUNYY EQ;NHGBZBOVYR EQ;ULQR CNEX EQ;ZRQ1
+***************************************************************************
+Bprna Pvgl, ZQ  (ZQBprnaPvglCnefre)
+PNQ:SLV: ;CHOYVP FREIVPR SVER;HAVG 104;4500 PBNFGNY UJL;NFGBEVN;07/06/2013 04:00:06;45GU FG;46GU FG
+PNQ:SLV: ;SVER NYNEZ NPGVINGVBA;(A)OBNEQJNYX;1610 ONYGVZBER NIR;DHNYVGL VAA OBNEQJNYX;07/06/2013 02:40:18;16GU FG;17GU FG
+PNQ:SLV: ;SVER NYNEZ NPGVINGVBA;(F) (A)OBNEQJNYX;1610 ONYGVZBER NIR;DHNYVGL VAA OBNEQJNYX;07/05/2013 21:51:34;16GU FG;17GU FG
 *******************************************************************************
 Jvpbzvpb Pbhagl, ZQ (ZQJvpbzvpbPbhaglNCnefre)
 1638:PNQ:2010110703;FGEHPGHER SVER;27887 CBVAGREF YA;FNYV;FCNAVRY PG;BKOEVQTR QE
