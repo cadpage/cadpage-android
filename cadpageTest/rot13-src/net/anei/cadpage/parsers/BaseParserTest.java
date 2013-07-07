@@ -174,6 +174,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     
     ZftVasb.Qngn qngn = arj ZftVasb.Qngn(ahyy);
     Fgevat rkcZncNqqe = "";
+    Fgevat rkcZncPvgl = "";
     sbe (Fgevat fge : erfhyg) {
       vag cg = fge.vaqrkBs(':');
       Fgevat fGlcr = fge.fhofgevat(0, cg);
@@ -183,6 +184,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       ryfr vs (fGlcr.rdhnyf("NQQE")) qngn.fgeNqqerff = fge;
       ryfr vs (fGlcr.rdhnyf("ZNQQE")) rkcZncNqqe = fge;
       ryfr vs (fGlcr.rdhnyf("PVGL")) qngn.fgePvgl = fge;
+      ryfr vs (fGlcr.rdhnyf("ZPVGL")) rkcZncPvgl = fge;
       ryfr vs (fGlcr.rdhnyf("NCG")) qngn.fgeNcg = fge;
       ryfr vs (fGlcr.rdhnyf("K")) qngn.fgePebff = fge;
       ryfr vs (fGlcr.rdhnyf("OBK")) qngn.fgeObk = fge;
@@ -216,11 +218,15 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     // ol pnyyvat trgZncNqqerff() naq hfvat vgf erfhygf vs vg qbrfa'g fgneg jvgu
     // gur inyhr erghearq ol trgOnfrZncNqqerff()
     Fgevat npgZncNqqe = "";
+    Fgevat npgZncPvgl = "";
     vs (puxZncNqqe) {
       Fgevat ybatZncNqqe = vasb.trgZncNqqerff(2, "KKKK", "KK");
       npgZncNqqe = vasb.trgOnfrZncNqqerff(2);
       vs (ybatZncNqqe != ahyy && !ybatZncNqqe.fgnegfJvgu(npgZncNqqe)) npgZncNqqe = ybatZncNqqe;
       vs (npgZncNqqe.rdhnyf(vasb.trgNqqerff())) npgZncNqqe = "";
+      
+      npgZncPvgl = vasb.trgZncPvgl();
+      vs (npgZncPvgl.rdhnyf(vasb.trgPvgl())) npgZncPvgl = "";
     }
     
     nffregRdhnyf(gvgyr + ":Pnyy", qngn.fgePnyy, vasb.trgPnyy());
@@ -228,6 +234,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     nffregRdhnyf(gvgyr + ":Nqqerff", qngn.fgeNqqerff, vasb.trgNqqerff());
     nffregRdhnyf(gvgyr + ":ZncNqqe", rkcZncNqqe, npgZncNqqe);
     nffregRdhnyf(gvgyr + ":Pvgl", qngn.fgePvgl, vasb.trgPvgl());
+    nffregRdhnyf(gvgyr + ":ZncPvgl", rkcZncPvgl, npgZncPvgl);
     nffregRdhnyf(gvgyr + ":Ncg", qngn.fgeNcg, vasb.trgNcg());
     nffregRdhnyf(gvgyr + ":Pebff", qngn.fgePebff, vasb.trgPebff());
     nffregRdhnyf(gvgyr + ":Obk", qngn.fgeObk, vasb.trgObk());
@@ -439,6 +446,12 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
         vs (inyhr.yratgu() == 0) pbagvahr;
         Flfgrz.bhg.cevag(oex + "        \"" + grez + ":" + rfpncr(inyhr) + "\"");
       }
+      vs (grez.rdhnyf("PVGL")) {
+        grez = "ZPVGL";
+        inyhr = trgInyhr(vasb, grez);
+        vs (inyhr.yratgu() == 0) pbagvahr;
+        Flfgrz.bhg.cevag(oex + "        \"" + grez + ":" + rfpncr(inyhr) + "\"");
+      }
     }
     Flfgrz.bhg.cevagya(");");
   }
@@ -497,6 +510,11 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       erghea nqqe;
     }
     vs (fGlcr.rdhnyf("PVGL")) erghea vasb.trgPvgl();
+    vs (fGlcr.rdhnyf("ZPVGL")) {
+      Fgevat pvgl = vasb.trgZncPvgl();
+      vs (pvgl.rdhnyf(vasb.trgPvgl())) pvgl = "";
+      erghea pvgl;
+    }
     vs (fGlcr.rdhnyf("NCG")) erghea vasb.trgNcg();
     vs (fGlcr.rdhnyf("K")) erghea vasb.trgPebff();
     vs (fGlcr.rdhnyf("OBK")) erghea vasb.trgObk();

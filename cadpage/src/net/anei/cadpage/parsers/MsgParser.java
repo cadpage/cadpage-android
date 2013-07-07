@@ -829,6 +829,16 @@ public abstract class MsgParser {
  public String postAdjustMapAddress(String sAddress) {
    return sAddress;
  }
+ 
+ /**
+  * Perform parser specific converstions to city field before it is used to 
+  * generate the map address
+  * @param city city field
+  * @return adjusted city field
+  */
+ public String adjustMapCity(String city) {
+   return city;
+ }
 
  /**
   * Parse address line into address and city fields

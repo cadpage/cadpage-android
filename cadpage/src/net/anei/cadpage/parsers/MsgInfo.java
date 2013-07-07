@@ -349,7 +349,7 @@ public class MsgInfo {
     StringBuilder sb = new StringBuilder(mapAddr);
     
     // Add city if specified, default city otherwise
-    String city = strCity;
+    String city = getMapCity();
     if (city.equals("OUT OF COUNTY")) city = "";
     else if (city.length() == 0) {
       city = (overrideCity != null ? overrideCity : defCity);
@@ -857,6 +857,13 @@ public class MsgInfo {
    */
   public String getCity() {
     return strCity;
+  }
+  
+  /**
+   * @return map adjusted city
+   */
+  public String getMapCity() {
+    return (parser != null ? parser.adjustMapCity(strCity) : strCity);
   }
 
   /**
