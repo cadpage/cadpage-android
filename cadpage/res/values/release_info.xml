@@ -1,37 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07012013</string>
-  <string name="release_version">v1.6.31</string>
+  <string name="release_date">07082013</string>
+  <string name="release_version">v1.6.32</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-La Plata County, CO\n
-Pitkin County, CO\n
-Walker County, GA\n
-Nassau County, NY (alt)\n
-Hood River County, OR\n
-Adams County, PA (alt)\n
+Anderson County, KY\n
+Greenup County, KY\n
+St Tammany Parish, LA\n
+Washington County, MN\n
+Sussex County, NJ (alt)\n
+Cumberland County, PA\n
+Lehigh County, PA (alt)\n
 \n
 Location Parsing Fixes:\n
-Johnson County, MO\n
-Hanover, NJ\n
-Mercer County, NJ\n
-Erie County, NY\n
-Guilford County, NC\n
-Portage County, OH\n
-Adams County, PA\n
-Juanita County, PA\n
-Union County, SD\n
-Augusta County, VA\n
-Botetourt County, VA\n
-Loudoun County, VA\n
-Pittsylvania County, VA\n
-Waynesboro, VA\n
-\n
-General Fixes:\n
-Improved map search algorithm\n
-Force Close handling malformed direct page\n
+Ventura County, VA\n
+New London County, CT\n
+Ocean City, MA\n
+Polk County, MO\n
+Nassau County, NY\n
+Prince William County, VA\n
   </string>  
 </resources>
   

@@ -68,11 +68,13 @@ public class PACumberlandCountyParser extends DispatchA23Parser {
     address = GD_PTN.matcher(address).replaceAll("GARDEN");
     address = ES_PTN.matcher(address).replaceAll("ESTATES");
     address = HGWY_PTN.matcher(address).replaceAll("HWY");
+    address = BY_PTN.matcher(address).replaceAll("BYPASS");
     return address;
   }
   private static final Pattern GD_PTN = Pattern.compile("\\bGD\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern ES_PTN = Pattern.compile("\\bES\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern HGWY_PTN = Pattern.compile("\\bHGWY\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern BY_PTN = Pattern.compile("\\bBY\\b", Pattern.CASE_INSENSITIVE);
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CA CU", "CARLISLE",
