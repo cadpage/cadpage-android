@@ -592,7 +592,8 @@ choyvp pynff GANaqrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G15",
         "(R911) NISQ SVEFG ERFC - 610 ORGURY EQ PYNVESVRYQ, GA -  -  FLAPBCR - 246620",
         "PNYY:NISQ SVEFG ERFC",
-        "NQQE:610 ORGURY EQ PYNVESVRYQ",  // Tbbtyr qbrf abg erpbtavmr PYNVESVRYQ
+        "NQQE:610 ORGURY EQ",  // Tbbtyr qbrf abg erpbtavmr PYNVESVRYQ
+        "PVGL:PYNVESVRYQ",
         "VQ:FLAPBCR");
 
     qbGrfg("G16",

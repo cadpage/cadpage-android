@@ -113,6 +113,8 @@ public class TNAndersonCountyParser extends FieldProgramParser {
     "OAK RIDGE",
     "OLIVER SPRINGS",
     "POWELL",
-    "ROSEDALE"
+    "ROSEDALE",
+    
+    "CLAIRFIELD"  // ???
   };
 }
