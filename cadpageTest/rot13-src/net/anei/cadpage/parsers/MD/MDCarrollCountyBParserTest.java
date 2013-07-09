@@ -38,6 +38,16 @@ Fraqre: "SNFGnyreg Flfgrz" <snfg@zq-pneebyy-09.snfgnyregvat.pbz>
 (Fgngvba 09 NYREG!! (12018758)) \aIRUVPYR PBYYVFVBA\a0906\aK99  R91\aEG 140 / EG 91, Svaxfohet, ZQ\a
 (Fgngvba 09 NYREG!! (12018757)) \aNYF ZRQVPNY PNYY\a0334\aK99  SE3\aTENAVGR UBHFR @288 R TERRA FG, Jrfgzvafgre, ZQ\a
 
+Pbagnpg: Angr Znegva <qrygn7755@tznvy.pbz>
+Fraqre: snfg@zq-serqrevpx-01.snfgnyregvat.pbz
+Fhowrpg:Fgngvba 01 NYREG!! (S13020973)\a\aFRVMHER\aN18\a105\a1202 QNAVRYYR QE, SERQREVPX, ZQ\aFRVMHER
+Fhowrpg:Fgngvba 01 NYREG!! (S13020984)\a\aIRUVPYR NPPVQRAG\aN18   N38   R12   R22   R31   ER11\a11501\a@EG15AO / J CNGEVPX
+Fhowrpg:Fgngvba 01 NYREG!! (S13020994)\a\aQRPERNFRQ YRIRY BS PBAFPVBHFARFF\aN19   Z2\a102\a@PVGVMRAF PNER &nzc @  ERUNO 19
+Fhowrpg:Fgngvba 01 NYREG!! (S13021001)\a\aGEBHOYR OERNGUVAT\aN18   Z1\a122\a7836-O RQTRJBBQ PUHEPU EQ, SERQREVPX, ZQ\aPNYY
+Fhowrpg:Fgngvba 01 NYREG!! (S13020831)\a\aNOQBZVANY CNVA (NYF)\aN18   Z1\a110\a2123 PNEEBYY PERRX IVRJ PG, SERQREVPX, ZQ
+Fhowrpg:Fgngvba 01 NYREG!! (S13021014)\a\aPURFG CNVA\aN18   Z1\a103\aNCG 1 QBJAFGNVEF 903 JNYAHG FG, SERQREVPX, ZQ\aUHFONA
+Fhowrpg:Fgngvba 01 NYREG!! (S13021015)\a\aVAWHERQ CREFBA\aN19\a102\a@FHAEVFR ERGVERZRAG EBBZ 111 990 JNGRESBEQ QE, SERQREV
+
 */
 choyvp pynff ZQPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -333,6 +343,88 @@ choyvp pynff ZQPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:288 R TERRA FG",
         "PVGL:Jrfgzvafgre");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgAngrZnegva() {
+
+    qbGrfg("G1",
+        "Fhowrpg:Fgngvba 01 NYREG!! (S13020973)\a\aFRVMHER\aN18\a105\a1202 QNAVRYYR QE, SERQREVPX, ZQ\aFRVMHER",
+        "FEP:01",
+        "VQ:S13020973",
+        "PNYY:FRVMHER",
+        "HAVG:N18",
+        "OBK:105",
+        "NQQE:1202 QNAVRYYR QE",
+        "PVGL:SERQREVPX",
+        "VASB:FRVMHER");
+
+    qbGrfg("G2",
+        "Fhowrpg:Fgngvba 01 NYREG!! (S13020984)\a\aIRUVPYR NPPVQRAG\aN18   N38   R12   R22   R31   ER11\a11501\a@EG15AO / J CNGEVPX",
+        "FEP:01",
+        "VQ:S13020984",
+        "PNYY:IRUVPYR NPPVQRAG",
+        "HAVG:N18 N38 R12 R22 R31 ER11",
+        "OBK:11501",
+        "NQQE:EG15AO & J CNGEVPX",
+        "ZNQQE:EG 15 & J CNGEVPX");
+
+    qbGrfg("G3",
+        "Fhowrpg:Fgngvba 01 NYREG!! (S13020994)\a\aQRPERNFRQ YRIRY BS PBAFPVBHFARFF\aN19   Z2\a102\a@PVGVMRAF PNER &nzc @  ERUNO 19",
+        "FEP:01",
+        "VQ:S13020994",
+        "PNYY:QRPERNFRQ YRIRY BS PBAFPVBHFARFF",
+        "HAVG:N19 Z2",
+        "OBK:102",
+        "NQQE:PVGVMRAF PNER & nzc",
+        "CYNPR:ERUNO 19");
+
+    qbGrfg("G4",
+        "Fhowrpg:Fgngvba 01 NYREG!! (S13021001)\a\aGEBHOYR OERNGUVAT\aN18   Z1\a122\a7836-O RQTRJBBQ PUHEPU EQ, SERQREVPX, ZQ\aPNYY",
+        "FEP:01",
+        "VQ:S13021001",
+        "PNYY:GEBHOYR OERNGUVAT",
+        "HAVG:N18 Z1",
+        "OBK:122",
+        "NQQE:7836-O RQTRJBBQ PUHEPU EQ",
+        "ZNQQE:7836 RQTRJBBQ PUHEPU EQ",
+        "PVGL:SERQREVPX",
+        "VASB:PNYY");
+
+    qbGrfg("G5",
+        "Fhowrpg:Fgngvba 01 NYREG!! (S13020831)\a\aNOQBZVANY CNVA (NYF)\aN18   Z1\a110\a2123 PNEEBYY PERRX IVRJ PG, SERQREVPX, ZQ",
+        "FEP:01",
+        "VQ:S13020831",
+        "PNYY:NOQBZVANY CNVA (NYF)",
+        "HAVG:N18 Z1",
+        "OBK:110",
+        "NQQE:2123 PNEEBYY PERRX IVRJ PG",
+        "PVGL:SERQREVPX");
+
+    qbGrfg("G6",
+        "Fhowrpg:Fgngvba 01 NYREG!! (S13021014)\a\aPURFG CNVA\aN18   Z1\a103\aNCG 1 QBJAFGNVEF 903 JNYAHG FG, SERQREVPX, ZQ\aUHFONA",
+        "FEP:01",
+        "VQ:S13021014",
+        "PNYY:PURFG CNVA",
+        "HAVG:N18 Z1",
+        "OBK:103",
+        "NCG:1 QBJAFGNVEF",
+        "NQQE:903 JNYAHG FG",
+        "PVGL:SERQREVPX",
+        "VASB:UHFONA");
+
+    qbGrfg("G7",
+        "Fhowrpg:Fgngvba 01 NYREG!! (S13021015)\a\aVAWHERQ CREFBA\aN19\a102\a@FHAEVFR ERGVERZRAG EBBZ 111 990 JNGRESBEQ QE, SERQREV",
+        "FEP:01",
+        "VQ:S13021015",
+        "PNYY:VAWHERQ CREFBA",
+        "HAVG:N19",
+        "OBK:102",
+        "CYNPR:FHAEVFR ERGVERZRAG",
+        "NCG:111",
+        "NQQE:990 JNGRESBEQ QE",
+        "PVGL:SERQREV");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

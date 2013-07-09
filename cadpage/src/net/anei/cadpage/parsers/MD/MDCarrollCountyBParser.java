@@ -12,16 +12,16 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class MDCarrollCountyBParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("Station (\\d\\d) ALERT!! \\((\\d+)\\)");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("Station (\\d\\d) ALERT!! \\((F?\\d+)\\)");
   
   public MDCarrollCountyBParser() {
     super("CARROLL COUNTY", "MD",
-           "CALL BOX UNIT ADDR!");
+           "CALL ( BOX UNIT | UNIT BOX ) ADDR! INFO+");
   }
   
   @Override
   public String getFilter() {
-    return "FASTalert System";
+    return "FASTalert System,.fastalerting.com";
   }
   
   @Override
@@ -42,30 +42,36 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
   
   // Box field behaves normally unless this is a mutual aid call
   // in which case it becomes a county code
-  private static final Pattern BOX_PTN = Pattern.compile("\\d{4}");
+  private static final Pattern BOX_PTN = Pattern.compile("\\d{3,}");
   private class MyBoxField extends BoxField {
     
     @Override
-    public void parse(String field, Data data) {
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
       if (data.strCall.startsWith("MUTUAL AID")) {
         String[] tmp = convertCodes(field, COUNTY_CODES).split(",");
         data.strCity = tmp[0];
         if (tmp.length > 1) data.strState = tmp[1];
       }
       else {
-        if (!BOX_PTN.matcher(field).matches()) abort();
+        if (!BOX_PTN.matcher(field).matches()) return false;
         super.parse(field, data);
       }
+      return true;
     }
-//    
-//    @Override
-//    public String getFieldNames() {
-//      return "BOX CITY ST";
-//    }
+    
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
   }
   
   private static final Pattern ADDR_BOX_PTN = Pattern.compile("\\d{2}-\\d{1,2}");
-  private static final Pattern APT_PTN = Pattern.compile("(?:\\bAPT\\b|#) *([^ ]+)$");
+  private static final Pattern APT_PTN = Pattern.compile("(?:\\bAPT\\b|\\bROOM\\b|\\bRM\\b|#) *([^ ]+)$");
+  private static final Pattern APT_PTN2 = Pattern.compile("(?:\\bAPT|\\bROOM|\\bRM|#) *([^ ]+) *");
   private static final Pattern CHANNEL_PTN = Pattern.compile(" TG *(.*)$");
   private static final Pattern SEPARATOR = Pattern.compile(";| // ");
   private class MyAddressField extends Field {
@@ -122,7 +128,7 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
         }
         data.strCity = city;
         
-        // See if we can find an appart field
+        // See if we can find an apt field
         fld = p .get();
         Matcher match = APT_PTN.matcher(fld);
         if (match.find()) {
@@ -133,10 +139,31 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
         
         // Rest of address could include a place name separated by a ; or @
         // Unfortunately, the two fields might be in either order :(
+        if (fld.startsWith("@")) fld = fld.substring(1).trim();
         int pt = fld.indexOf('@');
         if (pt < 0) pt = fld.indexOf(';');
         if (pt < 0) {
-          parseAddress(fld, data);
+          match = APT_PTN2.matcher(fld);
+          if (match.find()) {
+            data.strApt = match.group(1);
+            data.strPlace = fld.substring(0,match.start()).trim();
+            fld = fld.substring(match.end()).trim();
+          }
+          if (data.strPlace.length() > 0) {
+            parseAddress(fld, data);
+          } else {
+            parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, fld, data);
+            if (data.strAddress.length() == 0) {
+              parseAddress(data.strPlace, data);
+              data.strPlace = "";
+            }
+            else if (data.strPlace.length() > 0) {
+              if (data.strApt.length() > 0) {
+                data.strApt = data.strApt + ' ' + data.strPlace;
+                data.strPlace = "";
+              }
+            }
+          }
         }
         else {
           String fld1 = fld.substring(0,pt).trim();

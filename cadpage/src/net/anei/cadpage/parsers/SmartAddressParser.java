@@ -662,7 +662,7 @@ public abstract class SmartAddressParser extends MsgParser {
     result.startType = sType;
 
     // Check for null string
-    result.status = 0;
+    result.status = -1;
     address = address.trim();
     if (address.length() == 0) return result;
     
