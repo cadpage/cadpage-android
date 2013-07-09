@@ -13,27 +13,20 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MIRichmondParser extends SmartAddressParser {
   
-  private static String[] CITY_LIST = new String[]{
-    "CASCO",
-    "COLUMBUS",
-    "COLUMBUS TWP",
-    "PIA COLUMBUS"
-  };
-  private static Set<String> CITY_SET = new HashSet<String>(Arrays.asList(CITY_LIST));
-  
-  public String getFilter() {
-    return "richmondpaging@comcast.net";
-  }
-  
-  public MIRichmondParser() {
-    super(CITY_LIST, "", "MI");
-  }
-  
   private static final Pattern MARKER = Pattern.compile("^\\*\\*?([A-Z ]+)\\*\\*? ");
   private static final Pattern[] ADDRESS = new Pattern[]{ 
     Pattern.compile("(?:(.*) )?(\\b\\d+\\b.*)"),
     Pattern.compile("(?:(.*) )?(\\b[-A-Z]+(?: LN| RD | ST| AV)? ?&.*)")
   };
+  
+  public MIRichmondParser() {
+    super(CITY_LIST, "", "MI");
+    setFieldList("CALL ADDR CITY");
+  }
+  
+  public String getFilter() {
+    return "richmondpaging@comcast.net";
+  }
   
   @Override
   public boolean parseMsg(String body, Data data) {
@@ -92,4 +85,12 @@ public class MIRichmondParser extends SmartAddressParser {
     
     return true;
   }
+  
+  private static String[] CITY_LIST = new String[]{
+    "CASCO",
+    "COLUMBUS",
+    "COLUMBUS TWP",
+    "PIA COLUMBUS"
+  };
+  private static Set<String> CITY_SET = new HashSet<String>(Arrays.asList(CITY_LIST));
 }
