@@ -1,16 +1,13 @@
 package net.anei.cadpage.parsers.TX;
 
+import net.anei.cadpage.parsers.GroupBestParser;
+
 /**
  * Rockwall County, TX
  */
-public class TXRockwallCountyParser extends TXCollinCountyParser {
-
-  public TXRockwallCountyParser() {
-    super("ROCKWALL COUNTY", "TX");
-  }
+public class TXRockwallCountyParser extends GroupBestParser {
   
-  @Override
-  public String getFilter() {
-    return "ics.gateway@wylietexas.gov";
+  public TXRockwallCountyParser() {
+    super(new TXRockwallCountyAParser(), new TXRockwallCountyBParser());
   }
 }

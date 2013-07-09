@@ -1,6 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.GK;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
+vzcbeg arg.narv.pnqcntr.cnefref.ZftCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -103,8 +104,13 @@ Fraqre: QvfcngpuFZF@pbccryygk.tbi
 
 choyvp pynff GKPbyyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
+  
   choyvp GKPbyyvaPbhaglCnefreGrfg() {
-    frgCnefre(arj GKPbyyvaPbhaglCnefre(), "PBYYVA PBHAGL", "GK");
+    guvf(arj GKPbyyvaPbhaglCnefre(), "PBYYVA PBHAGL", "GK");
+  }
+  
+  cebgrpgrq GKPbyyvaPbhaglCnefreGrfg(ZftCnefre cnefre, Fgevat qrsPvgl, Fgevat qrsFgngr) {
+    frgCnefre(cnefre, qrsPvgl, qrsFgngr);
   }
   
   @Grfg

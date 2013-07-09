@@ -2,16 +2,16 @@
 support@cadpage.org
 
 ***************************************************************************
-* Receiving CodeMessaing text pages
+* Receiving CodeMessaging text pages
 ***************************************************************************
 
-Short answer, you are getting text pages from Code Messaging and probably want to switch that to getting direct pages.
+Short answer: you are getting text pages from CodeMessaging and probably want to switch that to getting direct pages.
 
 To do that, go into Cadpage Settings and select
 Direct paging Vendors > CodeMessaging.net > Register
 and follow the directions.
 
-Long technical answer.  CodeMessaging has been switching to a new model where they run the Cadpage text parsers on their servers and send the page information in a standard Cadpage defined page format that is in no way related to the page format dispatch uses to send the original page information.  If you try to process their text pages using the standard Harford, MD location, it will not work.  That location code expects the pages to be formated the way Harford dispatch sends them, which is no longer the case.  It will work if you go into Location Settings and set the location to 
+Long technical answer:  CodeMessaging has been switching to a new model where they run the Cadpage text parsers on their servers and send the page information in a standard Cadpage defined page format that is in no way related to the page format dispatch uses to send the original page information.  If you try to process their text pages using the standard Harford, MD location, it will not work.  That location code expects the pages to be formated the way Harford dispatch sends them, which is no longer the case.  It will work if you go into Location Settings and set the location to 
 Select Single Location > General Location > Standard Cadpage Format A
 
 But, life gets so much simpler for all concerned if you switch to using direct paging, which handles all of these details.
@@ -242,7 +242,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-GILEWTEA or gilewtea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+UNNDDCCA or unnddcca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -365,7 +365,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-GILEWTEA or gilewtea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+UNNDDCCA or unnddcca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -456,7 +456,7 @@ $10 per year is way out of line for what you normally expect to pay for a genera
 1) Cadpage is an extremely high maintenance app.  We put out weekly releases, and every week there are usually 10 or so location parsers that have to be fixed, either because Dispatch changed the text format, or because someone found a corner case that wasn't covered by the existing parser.  Most apps get by with a release every 3 months or more.
 2) The potential user base is a tiny fraction of what a general purpose app can expect.  Cadpage is a niche market app, appealing to the small number of people who work or volunteer in emergency services.  The same development costs have to be spread among fewer people.
 
-We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them other then getting staff and volunteer members to bring it up.  If you can talk them into it, they get a 30% discount or more!  Details can be found at http://www.cadpage.org/financial-support/other-support-options.
+We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them, except through staff and volunteers.  We offer departments a 30% discount or more!  Details can be found at http://www.cadpage.org/financial-support/other-support-options.
 
 In the interest of helping communities, we offer a  number of approved ways to run Cadpage without paying anything.
 
@@ -464,7 +464,7 @@ In the interest of helping communities, we offer a  number of approved ways to r
 
 2) You can simply reinstall Cadpage every 30 days.
 
-3) If you (or your department) are currently using or can switch to using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free if you are using the direct messaging option.
+3) If you (or your department) are currently using CodeMessaging.net or Active911.com as your messaging service, Cadpage is free when you use direct paging.
 
 4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version will not bug you about paying for it.
 
@@ -498,7 +498,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GILEWTEA or gilewtea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+UNNDDCCA or unnddcca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -512,7 +512,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GILEWTEA or gilewtea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+UNNDDCCA or unnddcca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -522,7 +522,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GILEWTEA or gilewtea.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+UNNDDCCA or unnddcca.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -1988,4 +1988,15 @@ Cadpage will be of little use to you.
 ** Inexplicable StackOverflowError
 *********************************************************************************
 The launcher and twlauncher get or become corrupt, causes Cadpage to crash and have the problems that were in my log. To fix the problem, you have to delete the launcher's cache, then delete and reinstall Cadpage.  One you restart your Android device, you have to select launcher.  
+
+*********************************************************************************
+Dadpage (free) v1.4.42 
+
+The free version of Cadpage you are currently running is unsupported. And lacks the basic support reporting features I need to figure out what is wrong.
+
+You need to install the regular version of Cadpage available from the Google Play Store.  Then long press the calls that are not mapping and select "Report Problem" to send them to us.  The regular version is free for the first 30 days.  If you are really lucky, you will be able to switch back to the free/unsupported version after we figure out what is wrong.  Or you can ask us for a free hardship subscription.
+
+Good luck,
+-Ken
+
 
