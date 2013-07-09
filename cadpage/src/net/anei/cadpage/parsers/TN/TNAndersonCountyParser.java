@@ -12,7 +12,7 @@ public class TNAndersonCountyParser extends FieldProgramParser {
   
   public TNAndersonCountyParser() {
     super(CITY_LIST, "ANDERSON COUNTY", "TN",
-           "CALL+? ADDR/S! +street:X? INFO ID");
+           "CALL+? ADDR/S! +Street:X? INFO ID");
   }
   
   @Override
@@ -37,6 +37,7 @@ public class TNAndersonCountyParser extends FieldProgramParser {
     // If page contains times keywords, report as general alert
     if (body.contains(" INSRV:")) return data.parseRunReport(this, body);;
     
+    body = body.replace("+street:", "+Street:");
     return parseFields(DELIM.split(body), data);
   }
   
