@@ -15,7 +15,7 @@ public class ORJacksonCountyParser extends FieldProgramParser {
   
   public ORJacksonCountyParser() {
     super(CITY_CODES, "JACKSON COUNTY", "OR",
-          "CODE CALL ADDR CITY! PRI:PRI! Unit:UNIT! UNIT+");
+          "CODE CALL ( PLACE SKIP AT | ADDR ) CITY! PRI:PRI! Unit:UNIT! UNIT+");
   }
   
   @Override
@@ -54,6 +54,20 @@ public class ORJacksonCountyParser extends FieldProgramParser {
     }
   }
   
+  private class AtField extends AddressField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("at ")) return false;
+      super.parse(field.substring(3).trim(), data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+  }
+  
   private class MyUnitField extends UnitField {
     @Override
     public void parse(String field, Data data) {
@@ -64,6 +78,7 @@ public class ORJacksonCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("AT")) return new AtField();
     if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
