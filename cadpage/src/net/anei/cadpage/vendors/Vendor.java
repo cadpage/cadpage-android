@@ -12,6 +12,7 @@ import net.anei.cadpage.R;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.donation.UserAcctManager;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -617,6 +618,10 @@ abstract class Vendor {
   private void viewPage(Context context, Uri uri) {
     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-    context.startActivity(intent);
+    try {
+      context.startActivity(intent);
+    } catch (ActivityNotFoundException ex) {
+      showNotice(context, R.string.vendor_no_web_viewer_error, null);
+    }
   }
 }
