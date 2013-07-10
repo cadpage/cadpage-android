@@ -1,27 +1,15 @@
 package net.anei.cadpage.parsers.OH;
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
+import net.anei.cadpage.parsers.GroupBestParser;
 
-/**
+/*
  * Warren County, OH
  */
-public class OHWarrenCountyParser extends DispatchPrintrakParser {
+
+public class OHWarrenCountyParser extends GroupBestParser {
   
   public OHWarrenCountyParser() {
-    super("WARREN COUNTY", "OH");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "WCPSN@wcoh.net,Notifications@wcoh.net";
-  }
-  
-  
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    if (!super.parseMsg(body, data)) return false;
-    data.strSource = "";
-    return true;
+    super(new OHWarrenCountyAParser(),
+           new OHWarrenCountyBParser());
   }
 }
