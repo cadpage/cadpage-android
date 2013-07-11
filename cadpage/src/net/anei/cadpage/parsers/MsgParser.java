@@ -280,14 +280,6 @@ public abstract class MsgParser {
     return defState;
   }
   
-  public void setDefaultCity(String defCity) {
-    this.defCity = defCity;
-  }
-  
-  public void setDefaultState(String defState) {
-    this.defState = defState;
-  }
-  
   /**
    * @return parser country code
    */
@@ -343,10 +335,19 @@ public abstract class MsgParser {
    * @return new message information object if successful, false otherwise
    */
   protected Data parseMsg(Message msg, int parseFlags) {
+    return parseMsg(msg, parseFlags, getFilter());
+  }
 
+  /**
+   * build information object from information parsed from message
+   * @param msg message to be parsed
+   * @param parseFlags
+   * @param sender filter to be used to check message sender 
+   * @return new message information object if successful, false otherwise
+   */
+  protected Data parseMsg(Message msg, int parseFlags, String filter) {
     // If parser filter is not being overridden, and the message address does not
     // match the parser filter, message should be rejected
-    String filter = getFilter();
     boolean overrideFilter = (parseFlags & PARSE_FLG_SKIP_FILTER) != 0;
     if (! overrideFilter && ! matchFilter(msg.getAddress(), filter)) return null;
     
@@ -569,6 +570,8 @@ public abstract class MsgParser {
     
     // Overridden in special cased, but general default is to build a name
     // from the default city and state
+    String defCity = getDefaultCity();
+    String defState = getDefaultState();
     if (defCity.length() == 0) return "";
 
     char[] carry = defCity.toCharArray();
@@ -977,6 +980,23 @@ public abstract class MsgParser {
     location = location.substring(0,match.start()).trim() + ' ' + location.substring(match.end()).trim();
     return location.trim();
   }
+  
+  /**
+   * Determine if this is a personal name or a place name
+   * @param field field to be checked
+   * @return true if should be place name, false if a personal name
+   */
+  protected boolean checkPlace(String field) {
+    if (field.contains(",")) return false;
+    if (field.toUpperCase().startsWith("MR")) return false;
+    int cnt = 0;
+    char last = 'X';
+    for (char chr : field.toCharArray()) {
+      if (chr == ' ' && last != ' ') cnt++;
+      last = chr;
+    }
+    return cnt >= 2;
+  }
 
  /**
   * Build a code table for use by convertCodeTable
@@ -993,30 +1013,13 @@ public abstract class MsgParser {
  }
  
  /**
-  * Determine if this is a personal name or a place name
-  * @param field field to be checked
-  * @return true if should be place name, false if a personal name
-  */
- protected boolean checkPlace(String field) {
-   if (field.contains(",")) return false;
-   if (field.toUpperCase().startsWith("MR")) return false;
-   int cnt = 0;
-   char last = 'X';
-   for (char chr : field.toCharArray()) {
-     if (chr == ' ' && last != ' ') cnt++;
-     last = chr;
-   }
-   return cnt >= 2;
- }
- 
- /**
   * Look for an abbreviated form of a full street name.  If found, expand it to the full
   * street name 
   * @param fullName Full street name
   * @param field address field containing possible abbreviated street name
   * @return address field with street name expanded to full name
   */
- protected String expandStreet(String fullName, String field) {
+ protected static String expandStreet(String fullName, String field) {
    int trigLen  = fullName.lastIndexOf(' ');
    if (trigLen < 0) return field;
    trigLen += 2;
@@ -1109,7 +1112,7 @@ public abstract class MsgParser {
   * @param input resuts of the Matcher.group() call
   * @return unnullified and trimmed result.
   */
- protected String getOptGroup(String input) {
+ protected static String getOptGroup(String input) {
    return (input == null ? "" : input.trim());
  }
 
@@ -1118,7 +1121,7 @@ public abstract class MsgParser {
   * @param line input data string
   * @return input data string purged of any extended charset characters
   */
- protected String cleanExtendedChars(String line) {
+ protected static String cleanExtendedChars(String line) {
    StringBuilder sb = null;
    for (int ndx = 0; ndx < line.length(); ndx++) {
      char ch = line.charAt(ndx);
@@ -1138,7 +1141,7 @@ public abstract class MsgParser {
   * @param st start position
   * @return substring
   */
- public String substring(String body, int st) {
+ public static String substring(String body, int st) {
    return substring(body, st, Integer.MAX_VALUE);
  }
  
@@ -1151,7 +1154,7 @@ public abstract class MsgParser {
   * @param end end position
   * @return substring
   */
- public String substring(String body, int st, int end) {
+ public static String substring(String body, int st, int end) {
    int len = body.length();
    if (st >= len) return "";
    if (end > len) end = len;
@@ -1163,7 +1166,7 @@ public abstract class MsgParser {
   * @param name name to be cleaned
   * @return return cleaned result
   */
- protected String cleanWirelessCarrier(String name) {
+ protected static String cleanWirelessCarrier(String name) {
    return cleanWirelessCarrier(name, false);
  }
 
@@ -1173,7 +1176,7 @@ public abstract class MsgParser {
   * @param partial true if partial match should be removed, false if a complete match is required
   * @return return cleaned result
   */
- protected String cleanWirelessCarrier(String name, boolean partial) {
+ protected static String cleanWirelessCarrier(String name, boolean partial) {
    Matcher match = WIRELESS_CARRIER_PTN.matcher(name);
    boolean found = (partial ? match.find() : match.matches());
    if (found) name = name.substring(0,match.start()).trim();
