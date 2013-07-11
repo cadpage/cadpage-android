@@ -698,6 +698,43 @@ Good luck
 -Ken
 
 ***************************************************************************
+* Cadpage is not registered with Active911
+* Registration ID is not null 
+* Swift shows correct page type and registration ID
+******************************************************************
+
+Very occasionally, people are having trouble registering with
+Active911.  There are a couple things you can try, usually something works.
+
+
+*** For Android versions >= 4.0
+Go back to the Android home screen and select
+Menu > Settings
+Scroll down to the Account settings and select Google
+Verify that the Google Play account is syncing properly (ie.. that the last sync date/time is fairly recent)
+
+*** For Android versions < 4.0
+Go back to the Android home screen and select
+Menu > Settings > Accounts & Sync > Google > Sync
+and see if everything synchronizes.
+
+Go into Cadpage Settings and select
+Payment Status > I have an authorization code
+and enter a code of "zapit".
+
+Restart the device and try again.
+
+This takes care of 95% of the reported problems.  If it does not there
+are some odder tricks that are occasionally required.
+
+Power down your device, remove the SD card, then power it up and
+register Cadpage with Active911.  I have no idea why this would make any
+difference, but it got one user up and running.
+
+Good luck,
+-Ken
+
+***************************************************************************
 * Active911 user not receiving pages
 * Cadpage shows it is registered with Active911 
 * Swift shows correct page type and registration ID
@@ -719,7 +756,7 @@ Good luck,
 
 This is being reported fairly often recently.  You are getting text pages, and the only reason Cadpage alerting will be delayed for text pages is because the messages are just not arriving at your device in a timely fashion.  If you want to prove this, go into Cadpage Additional Settings and check the box labeled "Pass Calls through to SMS Client".  With that set, all calls will be passed to your message inbox in addition to alerting Cadpage and you can confirm the extent to which the messages are delayed.
 
-According to the message timestamps, it took only 16 seconds for the carrier to deliver this call to you, which would imply that the delay was introduced by the dispatch messaging service.  But this should not be considered hard proof, I have some suspicions that carriers are holding messages in a system queue for some reason and that the total delay is not represented by this number.
+According to the message timestamps, it took only <*> seconds for the carrier to deliver this call to you, which would imply that the delay was introduced by the dispatch messaging service.  But this should not be considered hard proof, I have some suspicions that carriers are holding messages in a system queue for some reason and that the total delay is not represented by this number.
 
 You can also try sending yourself text messages when these delays are observed to see if those messages are also being delayed.  But when it comes down to it, about the only thing you can really do is complain to the carrier and/or dispatch service about the delays.
 
