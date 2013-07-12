@@ -39,6 +39,10 @@ Pbagnpg: OELNA XRFFYRE <ungmd17@tznvy.pbz>
 Fraqre: ungmd17+pns_=7187571701=igrkg.pbz@tznvy.pbz
 117-01 84Gu Nir - Org: 117Gu Fg & 118Gu Fg / 84Gu Nir - Ncg: 409 - 4gu sybbe - Pnyy VQ: 10021301
 
+Pbagnpg: Rina Z. Encc <rina.encc@ectal.pbz>
+Fraqre: ey_pnyyvq@ungmnynu.bet
+1390 Oebnqjnl - Ncg: 214 - 2aq sybbe - Pnyy VQ: 102-551-40\a
+
 */
 
 choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -198,6 +202,18 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:4gu sybbe",
         "VQ:10021301");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRinaZEncc() {
+
+    qbGrfg("G1",
+        "1390 Oebnqjnl - Ncg: 214 - 2aq sybbe - Pnyy VQ: 102-551-40\a",
+        "NQQE:1390 Oebnqjnl",
+        "NCG:214",
+        "CYNPR:2aq sybbe",
+        "VQ:102-551-40");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

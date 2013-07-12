@@ -9,7 +9,7 @@ public class NYNewYorkCityParser extends FieldProgramParser {
     
     public NYNewYorkCityParser() {
       super("NEW YORK CITY", "NY",
-             "ADDR! Bet:X! PLACE Apt:APT? PLACE Call_ID:ID!");
+             "ADDR! Bet:X PLACE Apt:APT? PLACE Call_ID:ID!");
     }
     
     @Override
