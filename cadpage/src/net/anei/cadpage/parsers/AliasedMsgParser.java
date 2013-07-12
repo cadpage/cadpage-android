@@ -1,8 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import java.util.Date;
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
