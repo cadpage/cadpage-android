@@ -6,10 +6,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE = 
-      Cnggrea.pbzcvyr("Sebz - ([N-M0-9]+) - 1 Nynez / (.*?) Obk - ([-N-M0-9]*) @ (.*?) KFgerrgf: *(.*?)(?:/?Ab PebffFgerrg Sbhaq Ba)? Ba - NG ([ N-M0-9]*) Gvzr: (?:(\\q\\q:\\q\\q:\\q\\q)|\\q\\q:\\q\\q [NC]Z) Vap# (\\q+) Pnfr Ahz:([-N-M0-9]*) Sbe - ([N-M0-9,]+)");
+      Cnggrea.pbzcvyr("^K=([+-]?[0-9\\.]+) L=([+-]?[0-9\\.]+) PS= \\q+% HS= \\q+ Z M= Z");
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("");
+    qbGrfg("K=-080.733118 L=+41.104274 PS= 90% HS= 121 Z M= Z85 LBS, P&O");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
