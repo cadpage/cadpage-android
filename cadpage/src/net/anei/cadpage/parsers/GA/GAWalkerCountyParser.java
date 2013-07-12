@@ -9,13 +9,14 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class GAWalkerCountyParser extends SmartAddressParser {
   
+  private static final Pattern MASTER = Pattern.compile("([A-Z]{3,4})  +\\1 +(.*?) +(\\d{4}-\\d{8})");
+  
   private static final Pattern DATE_TIME_PTN = Pattern.compile(" +(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)$");
   private static final Pattern PART_DATE_TIME_PTN = Pattern.compile(" +\\d\\d/[\\d/]*(?: [\\d:]*)?$");
   private static final Pattern DISPATCHED_PTN = Pattern.compile("^Dispatch received by unit ([A-Z0-9]+)\\b *");
   
   public GAWalkerCountyParser() {
     super(CITY_LIST, "WALKER COUNTY", "GA");
-    setFieldList("CALL ADDR APT X CITY UNIT INFO DATE TIME");
   }
   
   @Override
@@ -28,6 +29,22 @@ public class GAWalkerCountyParser extends SmartAddressParser {
     
     if (!subject.equals("!")) return false;
     
+    // There are two formats we are handling.  Check for the newer one first
+    Matcher match = MASTER.matcher(body);
+    if (match.matches()) {
+      setFieldList("SRC ADDR APT CITY CALL ID");
+      data.strSource = match.group(1);
+      String addr = match.group(2);
+      data.strCallId = match.group(3);
+      
+      parseAddress(StartType.START_ADDR, addr, data);
+      data.strCall = getLeft();
+      return true;
+    }
+    
+    // Otherwise process the old format
+    setFieldList("CALL ADDR APT X CITY UNIT INFO DATE TIME");
+
     int pt = body.indexOf("   ");
     if (pt < 0) return false;
     String addr = body.substring(0,pt);
@@ -37,7 +54,7 @@ public class GAWalkerCountyParser extends SmartAddressParser {
     data.strCross = getPadField();
     
     // Strip date/time from end of description area
-    Matcher match = DATE_TIME_PTN.matcher(desc);
+    match = DATE_TIME_PTN.matcher(desc);
     if (match.find()) {
       data.strDate = match.group(1);
       data.strTime = match.group(2);
