@@ -246,6 +246,9 @@ public class Message {
           if (lines[1].startsWith("SUBJ:")) {
             lines[1] = lines[1].substring(5).trim();
             ndx++;
+          } else if (lines[1].startsWith("SUB:")) {
+            lines[1] = lines[1].substring(4).trim();
+            ndx++;
           }
           if (lines.length > ndx) {
             String line = lines[ndx];
