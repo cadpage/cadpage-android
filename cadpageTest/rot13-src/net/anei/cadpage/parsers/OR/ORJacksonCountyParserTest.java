@@ -6,6 +6,11 @@ vzcbeg bet.whavg.Grfg;
 
 /*    
 Wnpxfba Pbhagl, BE
+
+Pbagnpg: A. U. <avuroe@tznvy.pbz>
+Fraqre: Zrffntvat@rpfb911.pbz
+(PNQ Cntr) QVFCNGPU:TENFF, Tenff Sver, AO VAGREFGNGR 5 @ 49, EE, ng AO VAGREFGNGR 5 @ 49, EE <0/0>, CEV:1, Havgf:7368, 7410, 7441, 7451, 7461, BQST - Sebz PNQ
+
 Pbagnpg Npgvir911
 Ntrapl anzr: Wnpxfba Pbhagl Sver Qvfgevpg #5 Ybpngvba: Cubravk, BE 
 Fraqre: Zrffntvat@rpfb911.pbz
@@ -75,6 +80,23 @@ choyvp pynff BEWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp BEWnpxfbaPbhaglCnefreGrfg() {
     frgCnefre(arj BEWnpxfbaPbhaglCnefre(), "WNPXFBA PBHAGL", "BE");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgAU() {
+
+    qbGrfg("G1",
+        "(PNQ Cntr) QVFCNGPU:TENFF, Tenff Sver, AO VAGREFGNGR 5 @ 49, EE, ng AO VAGREFGNGR 5 @ 49, EE <0/0>, CEV:1, Havgf:7368, 7410, 7441, 7451, 7461, BQST - Sebz PNQ",
+        "PBQR:TENFF",
+        "PNYY:Tenff Sver",
+        "CYNPR:AO VAGREFGNGR 5 @ 49",
+        "NQQE:AO VAGREFGNGR 5 @ 49",
+        "ZNQQE:VAGREFGNGR 5 @ 49",
+        "PVGL:EBTHR EVIRE",
+        "CEV:1",
+        "HAVG:7368,7410,7441,7451,7461,BQST - Sebz PNQ",
+        "FEP:PNQ");
+
   }
   
   @Grfg

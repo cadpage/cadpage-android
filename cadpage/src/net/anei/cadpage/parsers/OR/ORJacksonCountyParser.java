@@ -30,11 +30,23 @@ public class ORJacksonCountyParser extends FieldProgramParser {
     body = body.substring(9).trim();
     
     Matcher match = SRC_DATE_TIME_PTN.matcher(body);
-    if (!match.find()) return false;
-    data.strSource = match.group(1);
-    data.strDate = match.group(2);
-    data.strTime = match.group(3);
-    body = body.substring(0,match.start()).trim();
+    if (match.find()) {
+      data.strSource = match.group(1);
+      data.strDate = match.group(2);
+      data.strTime = match.group(3);
+      body = body.substring(0,match.start()).trim();
+    }
+    
+    // Look for truncated source date time
+    else {
+      int pt = body.indexOf(" - From");
+      if (pt >= 0) {
+        String src = body.substring(pt+8).trim();
+        pt = src.indexOf(' ');
+        if (pt >= 0) src = src.substring(0,pt);
+        data.strSource = src;
+      }
+    }
     
     body = body.replace("Units:", "Unit:");
     return parseFields(body.split(","), 6, data);
@@ -68,6 +80,15 @@ public class ORJacksonCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf('<');
+      if (pt >= 0) field = field.substring(0,pt).trim();
+      super.parse(field, data);
+    }
+  }
+  
   private class MyUnitField extends UnitField {
     @Override
     public void parse(String field, Data data) {
@@ -79,6 +100,7 @@ public class ORJacksonCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("AT")) return new AtField();
+    if (name.equals("CITY")) return new MyCityField();
     if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
