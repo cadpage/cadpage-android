@@ -18,6 +18,7 @@ public class NYMontgomeryCountyParser extends SmartAddressParser {
   
   public NYMontgomeryCountyParser() {
     super(CITY_LIST, "MONTGOMERY COUNTY", "NY");
+    setFieldList("SRC CALL PLACE ADDR CITY X DATE TIME INFO GPS");
   }
   
   @Override
