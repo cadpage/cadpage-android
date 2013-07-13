@@ -31,6 +31,12 @@ Fraqre: qvfcngpu@jnyxretn.bet
 Pbagnpg: Punq Cnlar <svercbyvpr210@tznvy.pbz>
 Fraqre: qvfcngpu@jnyxretn.bet
 (!) ESQ  ESQ 809 YRR NIR EBFFIVYYR Purfg Cnvaf 2013-00004536
+(!) JZ7 ESQ  800 JNYXRE NIR 8409 EBFFIVYYR Purfg Cnvaf 2013-00004490
+(!) ESQ  ESQ 1209 VAQVNA NIR R1 UNCCL INYYRL NCGF EBFFIVYYR Pbaihyfvbaf/Frvmherf 2013-00000345
+(!) ESQ  ESQ 809 YRR NIR EBFFIVYYR Purfg Cnvaf 2013-00004536
+(!) ESQ  ESQ 110 UBTNA EQ EBFFIVYYR Oernguvat Ceboyrzf 2013-00004512
+(!) ESQ  ESQ 520 PUVPXNZNHTN NIR OBFF INAEBFFIVYYR Nppvqrag - Ab
+(!) ESQ  4103 QNLGBA OYIQ Sver Zhghny Nvq 2013-00000346
 
 */
 
@@ -191,11 +197,66 @@ choyvp pynff TNJnyxrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(!) ESQ  ESQ 809 YRR NIR EBFFIVYYR Purfg Cnvaf 2013-00004536",
+        "HAVG:ESQ",
         "FEP:ESQ",
         "NQQE:809 YRR NIR",
         "PVGL:EBFFIVYYR",
         "PNYY:Purfg Cnvaf",
         "VQ:2013-00004536");
+
+    qbGrfg("G2",
+        "(!) JZ7 ESQ  800 JNYXRE NIR 8409 EBFFIVYYR Purfg Cnvaf 2013-00004490",
+        "HAVG:JZ7",
+        "FEP:ESQ",
+        "NQQE:800 JNYXRE NIR",
+        "NCG:8409",
+        "PVGL:EBFFIVYYR",
+        "PNYY:Purfg Cnvaf",
+        "VQ:2013-00004490");
+
+    qbGrfg("G3",
+        "(!) ESQ  ESQ 1209 VAQVNA NIR R1 UNCCL INYYRL NCGF EBFFIVYYR Pbaihyfvbaf/Frvmherf 2013-00000345",
+        "HAVG:ESQ",
+        "FEP:ESQ",
+        "NQQE:1209 VAQVNA NIR",
+        "CYNPR:R1 UNCCL INYYRL NCGF",
+        "PVGL:EBFFIVYYR",
+        "PNYY:Pbaihyfvbaf/Frvmherf",
+        "VQ:2013-00000345");
+
+    qbGrfg("G4",
+        "(!) ESQ  ESQ 809 YRR NIR EBFFIVYYR Purfg Cnvaf 2013-00004536",
+        "HAVG:ESQ",
+        "FEP:ESQ",
+        "NQQE:809 YRR NIR",
+        "PVGL:EBFFIVYYR",
+        "PNYY:Purfg Cnvaf",
+        "VQ:2013-00004536");
+
+    qbGrfg("G5",
+        "(!) ESQ  ESQ 110 UBTNA EQ EBFFIVYYR Oernguvat Ceboyrzf 2013-00004512",
+        "HAVG:ESQ",
+        "FEP:ESQ",
+        "NQQE:110 UBTNA EQ",
+        "PVGL:EBFFIVYYR",
+        "PNYY:Oernguvat Ceboyrzf",
+        "VQ:2013-00004512");
+
+    qbGrfg("G6",
+        "(!) ESQ  ESQ 520 PUVPXNZNHTN NIR OBFF INAEBFFIVYYR Nppvqrag - Ab",
+        "HAVG:ESQ",
+        "FEP:ESQ",
+        "NQQE:520 PUVPXNZNHTN NIR",
+        "CYNPR:OBFF INA",
+        "PVGL:EBFFIVYYR",
+        "PNYY:Nppvqrag - Ab");
+
+    qbGrfg("G7",
+        "(!) ESQ  4103 QNLGBA OYIQ Sver Zhghny Nvq 2013-00000346",
+        "FEP:4103",
+        "NQQE:4103 QNLGBA OYIQ",
+        "PNYY:Sver Zhghny Nvq",
+        "VQ:2013-00000346");
    
   }
   

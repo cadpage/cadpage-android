@@ -9,7 +9,8 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class GAWalkerCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("([A-Z]{3,4})  +\\1 +(.*?) +(\\d{4}-\\d{8})");
+  private static final Pattern TRAIL_ID_PTN = Pattern.compile(" +(\\d{4}-\\d{8})");
+  private static final Pattern SRC_PTN = Pattern.compile("[A-Z]{1,2}FD");
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile(" +(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)$");
   private static final Pattern PART_DATE_TIME_PTN = Pattern.compile(" +\\d\\d/[\\d/]*(?: [\\d:]*)?$");
@@ -29,20 +30,14 @@ public class GAWalkerCountyParser extends SmartAddressParser {
     
     if (!subject.equals("!")) return false;
     
-    // There are two formats we are handling.  Check for the newer one first
-    Matcher match = MASTER.matcher(body);
-    if (match.matches()) {
-      setFieldList("SRC ADDR APT CITY CALL ID");
-      data.strSource = match.group(1);
-      String addr = match.group(2);
-      data.strCallId = match.group(3);
-      
-      parseAddress(StartType.START_ADDR, addr, data);
-      data.strCall = getLeft();
-      return true;
-    }
-    
-    // Otherwise process the old format
+    // There are two possible page formats, try the newest one first
+    if (parseFormat2(body, data)) return true;
+    if (parseFormat1(body, data)) return true;
+    return false;
+  }
+
+  // Process older page format
+  private boolean parseFormat1(String body, Data data) {
     setFieldList("CALL ADDR APT X CITY UNIT INFO DATE TIME");
 
     int pt = body.indexOf("   ");
@@ -54,7 +49,7 @@ public class GAWalkerCountyParser extends SmartAddressParser {
     data.strCross = getPadField();
     
     // Strip date/time from end of description area
-    match = DATE_TIME_PTN.matcher(desc);
+    Matcher match = DATE_TIME_PTN.matcher(desc);
     if (match.find()) {
       data.strDate = match.group(1);
       data.strTime = match.group(2);
@@ -79,6 +74,45 @@ public class GAWalkerCountyParser extends SmartAddressParser {
     return true;
   }
   
+  // Process new page format
+  private boolean parseFormat2(String body, Data data) {
+    
+    // Pick off the first two tokens, which an optional unit
+    // and a source code.
+    int pt =  body.indexOf(' ');
+    if (pt < 0) return false;
+    String part1 = body.substring(0,pt);
+    body = body.substring(pt+1).trim();
+    pt = body.indexOf(' ');
+    if (pt < 0) return false;
+    String part2 = body.substring(0,pt);
+    if (SRC_PTN.matcher(part2).matches()) {
+      data.strUnit =  part1;
+      data.strSource = part2;
+      body = body.substring(pt+1).trim();
+    } else if (SRC_PTN.matcher(part1).matches()) {
+      data.strSource = part2;
+    } else return false;
+    
+    // Check for trailing ID field
+    Matcher match = TRAIL_ID_PTN.matcher(body);
+    if (match.find()) {
+      data.strCallId = match.group(1);
+      body = body.substring(0,match.start());
+    }
+    
+    // SOmetimes there is no blank before the city :(
+    body = MISSED_BLANK_PTN.matcher(body).replaceFirst(" ");
+
+    // Parser address and other info
+    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, body, data);
+    data.strPlace = getPadField();
+    data.strCall = getLeft();
+
+    setFieldList("UNIT SRC ADDR APT PLACE CITY CALL ID");
+    return true;
+  }
+  
   private static final String[] CITY_LIST = new String[]{
     "CHICKAMAUGA",
     "LAFAYETTE",
@@ -95,4 +129,7 @@ public class GAWalkerCountyParser extends SmartAddressParser {
     "VILLANOW",
     "HIGH POINT"
   };
+  
+  private static final Pattern MISSED_BLANK_PTN = 
+      Pattern.compile("(?<! )(?=(?:CHICKAMAUGA|LAFAYETTE|LOOKOUT MOUNTAIN|ROSSVILLE|CHATTANOOGA VALLEY|NOBLE|FAIRVIEW|FLINTSTONE|KENSINGTON|NAOMI|DRY CREEK|ROCK SPRING|VILLANOW|HIGH POINT)\\b)");
 }
