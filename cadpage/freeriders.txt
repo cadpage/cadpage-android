@@ -137,7 +137,7 @@ michael bamberg (mhbamberg@gmail.com)(tbamberg@zoominternet.net) // $100
 michael bamberg (7248164880)
 Ron Meinert (4126006392)
 Michael Bellis (bellis.michael@gmail.com)(mbellis@optonline.net)
-michael laws (hmvfd220@gmail.com)(mrlaws@embarqmail.com)
+Mike Laws <hmvfd220@gmail.com>
 Michael Maynard (capttwiggy@gmail.com)(capttwiggy@comcast.net)
 Michael Pierce (itanic1@gmail.com)
 Michael Propst (fire13.mp@gmail.com)(mpropst@catawbacountync.gov)
@@ -2214,8 +2214,8 @@ duane hooks (hooks2111989@gmail.com) <duanehooks@att.net> // market problem emai
 %%04/01/2013
 Bill Kriedler (kriedler22@gmail.com) (mkriedler@comcast.net) // PayPal
 Randy Hall (nightrh@gmail.com) <nightrh@att.net> (leetoniafd@hotmail.com) // Columbiana County, OH
-%%04/05/2013
-Kevin Paxton (kpaxton039@gmail.com) <kevpaxs914@hotmail.com> // market problem email change
+%%04/03/2013
+Kevin Paxton (kpaxton041@gmail.com) <kevpaxs914@hotmail.com> // market problem email change
 %%04/08/2013
 Blake Isbell (bwi7735@gmail.com) // PayPal
 %%04/09/2013
@@ -2282,6 +2282,8 @@ michael owen (owen.mike1016@gmail.com) (owen.mike10@yahoo.com) // PayPal
 Lynn Racz (WIN1419@aol.com) // PayPal
 %%05/25/2013
 James Vandyke (j.j.vandyke305@gmail.com) // market problem email change
+%%05/27/2013
+Chris Laub <whacker3210@gmail.com> // market problem email change
 %%05/30/2013
 Daniel Malsavage (dmalsavage@gmail.com) (Savagelures@new.rr.com) // PayPal
 Jay Masur (brubin4180@gmail.com) (jmasur@med-starambulance.com) // PayPal
@@ -5307,6 +5309,13 @@ Michael McColligan (mccolliganmike0826@gmail.com) <mccolliganmike@yahoo.com>
 Brad Pettry <bradpettry@gmail.com>
 Ben Adkins <ben.adkins98@gmail.com>
 Michelle Bell <devil2007angel@gmail.com>
+%%07/12/2013
+Joseph Wincklhofer <jcwincklhofer@gmail.com>
+Josh Blankenship (blankenship475@gmail.com) <ironman0720@yahoo.com>
+Adam DiFelice <amd918@gmail.com>
+Rich Intartaglio <stfd3s@gmail.com>
+Josh Merryman <jdogg4139@gmail.com>
+Patrick Taylor <patrick.taylor@limestonefire.net>
 
 
 
