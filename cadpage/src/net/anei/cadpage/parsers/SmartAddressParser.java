@@ -307,7 +307,8 @@ public abstract class SmartAddressParser extends MsgParser {
         "RCH", "REACH",
         "ARCH",
         "MNR",
-        "BYPASS", "BYP");
+        "BYPASS", "BYP",
+        "ALLEY", "ALY");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
     setupDictionary(ID_AMBIG_ROAD_SFX, 
