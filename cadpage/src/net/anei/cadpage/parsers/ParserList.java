@@ -301,6 +301,7 @@ public class ParserList {
               ,"KYOldhamCounty"                 ,"Oldham County, KY"
           ),
           new ParserCategory("Louisiana"
+              ,"LABeauregardParish"             ,"Beauregard Parish, LA"
               ,"LAAcadianAmbulance"             ,"Acadian Ambulance, LA"
               ,"LAJeffersonParish"              ,"Jefferson Parish, LA"
               ,"LALafourcheParish"              ,"Lafourche Parish, LA"
