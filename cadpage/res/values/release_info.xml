@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07082013</string>
-  <string name="release_version">v1.6.32</string>
+  <string name="release_date">07152013</string>
+  <string name="release_version">v1.6.33</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Anderson County, KY\n
-Greenup County, KY\n
-St Tammany Parish, LA\n
-Washington County, MN\n
-Sussex County, NJ (alt)\n
+Charlotte County, FL\n
+Warren County, OH\n
+Kenton County, KY\n
+Beugard Parish, LA\n
 Cumberland County, PA\n
-Lehigh County, PA (alt)\n
+Rockwall County, TX (alt)\n
+Boone County, WV\n
 \n
 Location Parsing Fixes:\n
-Ventura County, VA\n
-New London County, CT\n
-Ocean City, MA\n
-Polk County, MO\n
-Nassau County, NY\n
-Prince William County, VA\n
+Walker County, GA\n
+St Clair County, IL\n
+Carroll County, MD\n
+Frederick County, MD\n
+Bay County, MI\n
+Livingston County, MI\n
+New York, NY\n
+Clark County, OH\n
+Mahoning County, OH\n
+Jackson County, OR\n
+Anderson County, TN\n
+\n
+General fixes:\n
+Force Close when now app is available to handle web page view.\n
+Obscure problems with aliased locations.\n
   </string>  
 </resources>
   
