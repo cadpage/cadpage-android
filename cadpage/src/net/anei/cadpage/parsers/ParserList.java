@@ -635,6 +635,7 @@ public class ParserList {
               ,"PAClearfieldCounty"             ,"Clearfield County, PA"
               ,"PAClintonCounty"                ,"Clinton County, PA"
               ,"PACrawfordCounty"               ,"Crawford County, PA"
+              ,"PACumberlandCounty"             ,"Cumberland County, PA"
               ,"PADauphinCounty"                ,"Dauphin County, PA"
               ,"PADelawareCounty"               ,"Delaware County, PA"
               ,"PAElkCounty"                    ,"Elk County, PA"
