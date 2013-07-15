@@ -55,7 +55,7 @@ public class ILStClairCountyParser extends FieldProgramParser {
       body = body.substring(0, crossMatch.start()) + "\nCross:" + crossMatch.group(1) + body.substring(crossMatch.end());
     }
     
-    String[] fields = body.split("\n");
+    String[] fields = body.split("[\n\t]");
     if (!parseFields(fields, data)) return false;
     
     if (data.strAddress.startsWith("@") && data.strCross.length() > 0) {
