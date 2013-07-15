@@ -198,6 +198,7 @@ public class ParserList {
               ,"DEWilmington"                   ,"Wilmington, DE"
           ),
           new ParserCategory("Florida"
+              ,"FLCharlotteCounty"              ,"Charlotte County, FL"
               ,"FLCitrusCounty"                 ,"Citrus County, FL"
               ,"FLCollierCounty"                ,"Collier County, FL"
               ,"FLCrestview"                    ,"Crestview, FL"
