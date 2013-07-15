@@ -793,6 +793,7 @@ public class ParserList {
           ),
           new ParserCategory("West Virginia"
               ,"WVBerkeleyCounty"               ,"Berkeley County, WV"
+              ,"WVBooneCounty"                  ,"Boone County, WV"
               ,"WVCabellCounty"                 ,"Cabell County, WV"
               ,"WVHampshireCounty"              ,"Hampshire County, WV"
               ,"WVKanawhaCounty"                ,"Kanawha County, WV"
