@@ -339,7 +339,7 @@ choyvp pynff ALRevrPbhaglErqNyregCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALRevrPbhaglErqNyregCnefreGrfg().trarengrGrfgf("G1", "PNYY VASB PBQR NQQE NCG PVGL K CYNPR GVZR");
+    arj ALRevrPbhaglErqNyregCnefreGrfg().trarengrGrfgf("G1");
   }
 
 }

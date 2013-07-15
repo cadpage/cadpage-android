@@ -17,7 +17,7 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
   
   public NYGeneseeCountyParser() {
     super(CITY_LIST, "GENESEE COUNTY", "NY",
-           "CALL PLACE ADDR APT? CALL2! X DATETIME ID INFO+");
+           "CALL PLACE ADDR APT? CALL2! X DATETIME ID% INFO+");
   }
   
   @Override

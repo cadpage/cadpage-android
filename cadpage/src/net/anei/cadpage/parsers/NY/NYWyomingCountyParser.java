@@ -11,6 +11,7 @@ public class NYWyomingCountyParser extends SmartAddressParser {
   
   public NYWyomingCountyParser() {
     super(CITY_CODES, "WYOMING COUNTY", "NY");
+    setFieldList("CALL ADDR APT CITY X INFO");
   }
   
   @Override

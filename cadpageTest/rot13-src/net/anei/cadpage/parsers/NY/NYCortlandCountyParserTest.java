@@ -59,6 +59,6 @@ choyvp pynff ALPbegynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALPbegynaqPbhaglCnefreGrfg().trarengrGrfgf("G1", "NQQE PNYY VASB");
+    arj ALPbegynaqPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
