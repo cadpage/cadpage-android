@@ -56,7 +56,20 @@ public class ILStClairCountyParser extends FieldProgramParser {
     }
     
     String[] fields = body.split("\n");
-    return parseFields(fields, data);
+    if (!parseFields(fields, data)) return false;
+    
+    if (data.strAddress.startsWith("@") && data.strCross.length() > 0) {
+      data.strPlace = data.strAddress.substring(1).trim();
+      data.strAddress = "";
+      parseAddress(data.strCross, data);
+      data.strCross = "";
+    }
+    return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("ADDR", "PLACE ADDR");
   }
   
   
