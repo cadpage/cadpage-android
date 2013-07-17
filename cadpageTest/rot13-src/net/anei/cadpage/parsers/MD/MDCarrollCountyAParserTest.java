@@ -94,6 +94,10 @@ Pbagnpg: Xlyr Fghyy <xgfghyy@tznvy.pbz>
 Fraqre: TPZ
 PG:NYF 1429 WBYRRA YN JRFG OBK:0307 QHR:K38 [53]
 
+Pbagnpg: eilvatyvat@irevmba.arg <eilvatyvat@irevmba.arg>
+Fraqre: TPZ
+PG:IP ZNLOREEL EQ / EG 140 GNAR OBK:0520 QHR:K59 R51 [51]
+
 */
 choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -748,7 +752,20 @@ choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
  
   }
   
+  @Grfg
+  choyvp ibvq grfgEilvatyvat() {
+
+    qbGrfg("G1",
+        "PG:IP ZNLOREEL EQ / EG 140 GNAR OBK:0520 QHR:K59 R51 [51]",
+        "PNYY:IP",
+        "OBK:0520",
+        "NQQE:ZNLOREEL EQ & EG 140",
+        "PVGL:GNARLGBJA",
+        "HAVG:K59 R51");
+
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZQPneebyyPbhaglNCnefreGrfg().trarengrGrfgf("G");
+    arj ZQPneebyyPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }
 }

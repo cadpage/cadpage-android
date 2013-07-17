@@ -41,7 +41,7 @@ public class ORJacksonCountyParser extends FieldProgramParser {
     else {
       int pt = body.indexOf(" - From");
       if (pt >= 0) {
-        String src = body.substring(pt+8).trim();
+        String src = body.substring(pt+7).trim();
         pt = src.indexOf(' ');
         if (pt >= 0) src = src.substring(0,pt);
         data.strSource = src;
