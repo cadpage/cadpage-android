@@ -28,7 +28,37 @@ public class WVHardyCountyParser extends DispatchB3Parser {
   
    
   private static final String[] CITY_LIST = new String[]{  
+    "ARKANSAS",
+    "BAKER",
+    "BASORE",
+    "BASS",
+    "BAUGHMAN SETTLEMENT",
+    "BEAN SETTLEMENT",
+    "BRAKE",
+    "CUNNINGHAM",
+    "DURGON",
+    "FISHER",
+    "FLATS",
+    "FORT RUN",
+    "INKERMAN",
+    "KESSEL",
+    "LOST CITY",
+    "LOST RIVER",
+    "MATHIAS",
+    "MCCAULEY",
+    "MCNEILL",
+    "MILAM",
     "MOOREFIELD",
+    "NEEDMORE",
+    "OLD FIELDS",
+    "PERRY",
+    "PERU",
+    "RIG",
+    "ROCK OAK",
+    "ROCKLAND",
+    "TANNERY",
+    "TAYLOR",
+    "WALNUT BOTTOM",
     "WARDENSVILLE"
     
   }; 

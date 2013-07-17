@@ -797,7 +797,7 @@ public class ParserList {
               ,"WVBooneCounty"                  ,"Boone County, WV"
               ,"WVCabellCounty"                 ,"Cabell County, WV"
               ,"WVHampshireCounty"              ,"Hampshire County, WV"
-              ,"WVKanawhaCounty"                ,"Kanawha County, WV"
+              ,"WVHardyCounty"                  ,"Hardy County, WV"
               ,"WVMineralCounty"                ,"Mineral County, WV"
               ,"WVMorganCounty"                 ,"Morgan County, WV"
               ,"WVRaleighCounty"                ,"Raleigh County, WV"
