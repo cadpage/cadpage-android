@@ -8,7 +8,7 @@ public class NYSuffolkCountyGParser extends FieldProgramParser {
   
   public NYSuffolkCountyGParser() {
     super("SUFFOLK COUNTY", "NY",
-          "CALL! TOA:TIMEDATE! ADDR PLACE APT CS:X! SRC ID! INFO+? UNIT UNIT+");
+          "CALL! TOA:TIMEDATE! ADDR PLACE APT CS:X! SRC ID INFO+? UNIT UNIT+");
     setupMultiWordStreets("INDIAN HEAD");
   }
   
@@ -19,7 +19,7 @@ public class NYSuffolkCountyGParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseFields(body.split("\n"), 8, data);
+    return parseFields(body.split("\n"), 6, data);
   }
   
   private class MyTimeDateField extends TimeDateField {

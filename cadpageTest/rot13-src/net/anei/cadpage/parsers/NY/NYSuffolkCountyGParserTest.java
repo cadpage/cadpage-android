@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Fhssbyx Pbhagl, AL (Inevnag T)
 
+Pbagnpg: Revx QrCnfdhnyr <rqrcnfdhnyr@pbzznpxsq.bet>
+Fraqre: pbzznpxsq@tznvy.pbz
+13 Pbzzrepvny Nhgbzngvp Nynez \a GBN: 08:54 07-16-13 \a1815 WREVPUB GCXR, UHAGVATGBA ,AL '\a ERGEB SVGARFF \a\a PF: FGBJR NIR / RYJBBQ EQ
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pbzznpx Sver Qrcnegzrag
 Ybpngvba: Pbzznpx, AL, Havgrq Fgngrf
@@ -25,6 +29,26 @@ choyvp pynff ALFhssbyxPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ALFhssbyxPbhaglTCnefreGrfg() {
     frgCnefre(arj ALFhssbyxPbhaglTCnefre(), "FHSSBYX PBHAGL", "AL");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRevxQrCnfdhnyr() {
+
+    qbGrfg("G1",
+        "13 Pbzzrepvny Nhgbzngvp Nynez \a" +
+        " GBN: 08:54 07-16-13 \a" +
+        "1815 WREVPUB GCXR, UHAGVATGBA ,AL '\a" +
+        " ERGEB SVGARFF \a\a" +
+        " PF: FGBJR NIR / RYJBBQ EQ",
+
+        "PNYY:13 Pbzzrepvny Nhgbzngvp Nynez",
+        "GVZR:08:54",
+        "QNGR:07/16/13",
+        "NQQE:1815 WREVPUB GCXR",
+        "PVGL:UHAGVATGBA",
+        "CYNPR:ERGEB SVGARFF",
+        "K:FGBJR NIR / RYJBBQ EQ");
+
   }
   
   @Grfg
