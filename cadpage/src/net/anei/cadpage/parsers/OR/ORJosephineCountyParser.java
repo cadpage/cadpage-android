@@ -13,12 +13,13 @@ public class ORJosephineCountyParser extends FieldProgramParser {
   
   private static final Pattern LAT_LON_PTN = Pattern.compile("\\bLAT: *([-+]?[\\d\\.]+),? +LON: *([-+]?[\\d\\.]+)\\b");
   private static final Pattern LAT_LON_PTN2 = Pattern.compile("\\bLAT:([-+]?[\\d\\.]+) LON:([-+]?[\\d\\.]+)\\b");
+  private static final Pattern DELIM = Pattern.compile("\n|: |(?<=[AP]M):");
   
   private static final Pattern UNITS_PTN = Pattern.compile("Units: +");
   
   public ORJosephineCountyParser() {
     super("JOSEPHINE COUNTY", "OR",
-          "( DATE_TIME_CALL ADDR_CITY_X/SXa! Units:UNIT! | CALL ADDRCITY PLACE DATETIME ID UNIT! ) INFO+");
+          "( ID CALL ADDRCITY/SXa PLACE SRC DATETIME UNIT! | DATE_TIME_CALL ADDR_CITY_X/SXa! Units:UNIT! | CALL ADDRCITY/SXa PLACE DATETIME ID UNIT! ) INFO+");
   }
   
   @Override
@@ -31,16 +32,10 @@ public class ORJosephineCountyParser extends FieldProgramParser {
     if (! subject.equals("!")) return false;
     body = LAT_LON_PTN.matcher(body).replaceAll("LAT:$1 LON:$2");
     body = UNITS_PTN.matcher(body).replaceFirst("Units:");
-    if (!parseFields(body.split(": |\n"), data)) return false;
+    if (!parseFields(DELIM.split(body), data)) return false;
     data.strAddress = LAT_LON_PTN2.matcher(data.strAddress).replaceFirst("LAT: $1, LON: $2");
     return true;
   }
-  
-  @Override
-  public String getProgram() {
-    return "DATE TIME " + super.getProgram();
-  }
-  
   
   private static final Pattern DATE_TIME_PREFIX_PTN = Pattern.compile("^(\\d\\d?/\\d\\d?/\\d{4} +\\d\\d?:\\d\\d:\\d\\d? [AP]M) +");
   private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa");

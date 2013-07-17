@@ -1737,8 +1737,9 @@ public class FieldProgramParser extends SmartAddressParser {
           if (pt2 >= 0) {
             parseFlags &= ~FLAG_ANCHOR_END;
             if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
-            tailField = new String[]{"CALL","PLACE","SKIP","APT","UNIT","NAME","INFO", "X"}[pt2];
-            tailData = getField(tailField);
+            tailField = new String[]{"CALL","PLACE","SKIP","APT","UNIT","NAME","INFO","X"}[pt2];
+            if (tailField.equals("APT")) tailData = new SpecialAptField();
+            else tailData = getField(tailField);
             if (chr == 'I') parseFlags |= FLAG_IGNORE_AT;
           }
           
@@ -1959,6 +1960,22 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public String getFieldNames() {
       return "APT";
+    }
+  }
+  
+  /**
+   * Special apartment field procesor to handle a trailing apartment field
+   * that is part of a smart address field.  If it happens to start with
+   * a slash or ampersand, assume it should be part of an address intersection
+   */
+  private class SpecialAptField extends AptField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("/") || field.startsWith("&")) {
+        data.strAddress = data.strAddress + " & " + field.substring(1).trim();
+      } else {
+        super.parse(field, data);
+      }
     }
   }
   
