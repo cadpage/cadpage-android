@@ -1,12 +1,15 @@
 package net.anei.cadpage.parsers.OR;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 
-
-
 public class ORLaneCountyParser extends DispatchPrintrakParser {
+  
+  private static final Pattern GEN_ALERT_PTN = Pattern.compile("([A-Z]+) +TIME: *([:0-9]+) +(.*)");
   
   public ORLaneCountyParser() {
     super(CITY_CODES, "LANE COUNTY", "OR");
@@ -17,6 +20,19 @@ public class ORLaneCountyParser extends DispatchPrintrakParser {
     return "ce911@ci.eugene.or.us";
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    Matcher match = GEN_ALERT_PTN.matcher(body);
+    if (match.matches()) {
+      data.strCall = "GENERAL ALERT";
+      data.strUnit = match.group(1);
+      data.strTime = match.group(2);
+      data.strPlace = match.group(3);
+      return true;
+    }
+    return super.parseMsg(body, data);
+  }
+
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "UNC BLA", "BLACHLY",
       "UNC BLU", "BLUE RIVER",
