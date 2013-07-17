@@ -50,16 +50,36 @@ public class DispatchB3Parser extends DispatchB2Parser {
   @Override
  protected boolean parseMsg(String subject, String body, Data data) {
     if (subject.length() == 0) return false;
-    if (prefix != null) {
-      if (!body.startsWith(prefix)) return false;
-      body = body.substring(prefix.length()).trim();
-    } else if (prefixPattern != null) {
-      Matcher match = prefixPattern.matcher(body);
-      if (!match.find()) return false;
-      body = body.substring(match.end()).trim();
+    String tmp;
+    if ((tmp = checkPrefix(body)) != null) {
+      body = tmp;
+    } else if ((tmp = checkPrefix(subject)) != null) {
+      subject = tmp;
+    } else {
+      return false;
     }
+    
     body = subject + " @ " + body;
     return super.parseMsg(body, data);
+  }
+
+  /**
+   * Internal method to check body or subject against and
+   * paser required prefix strings
+   * @param body string to be checked for prefix
+   * @return null if prefix check fails.  Otherwise return
+   * original body with the matching prefix removed
+   */
+  private String checkPrefix(String body) {
+    if (prefix != null) {
+      if (!body.startsWith(prefix)) return null;
+      return body.substring(prefix.length()).trim();
+    } else if (prefixPattern != null) {
+      Matcher match = prefixPattern.matcher(body);
+      if (!match.find()) return null;
+      return body.substring(match.end()).trim();
+    }
+    return body;
   }
   
   @Override

@@ -667,8 +667,8 @@ choyvp pynff PBQbhtynfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pnyy: S ERF FGEHP Ybpngvba: 40074 ZNETNERG QE / 2 UFRF ABS RBCF1 Znc: NP44 Havgf: R273 R271 G273 G271 ZRQ271 KKK274  QRNQ RAQ / SREAF EQ Pbzzba Anzr: Gvzr: 07/04/12 22:41 Aneengvir:  Angher Bs Pnyy: RBCF1  EC GUVAXF GUR SYNZRF NER PBZVAT SEBZ GUR UFR  PNA FRR SYNZRF  EC FNJ YVTUGAV 2012-00000475",
 
         "PNYY:S ERF FGEHP",
-        "NQQE:40074 ZNETNERG QE",
-        "NCG:/ 2 UFRF ABS",
+        "NQQE:40074 ZNETNERG QE & 2 UFRF ABS",
+        "ZNQQE:40074 ZNETNERG QE",
         "PU:RBCF1",
         "ZNC:NP44",
         "HAVG:R273 R271 G273 G271 ZRQ271 KKK274",
@@ -1609,8 +1609,8 @@ choyvp pynff PBQbhtynfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pnyy: S ERF FGEHP Ybpngvba: 4378 J FNJZVYY PG / L Znc: NS27Q Havgf:  QRNQ RAQ / F EBPX PERRX QE Pbzzba Anzr: Gvzr: 07/06/12 16:58 Aneengvir:  PZQ 2 FG/AB FUBJ/AB RINP/BCF5/FNJZVYY PZQ  EC VF TBVAT GB JNVG VA UBHFR  Angher Bs Pnyy: L  FNJ N Y 2012-00002088",
 
         "PNYY:S ERF FGEHP",
-        "NQQE:4378 J FNJZVYY PG",
-        "NCG:/ L",
+        "NQQE:4378 J FNJZVYY PG & L",
+        "ZNQQE:4378 J FNJZVYY PG",
         "ZNC:NS27Q",
         "K:QRNQ RAQ / F EBPX PERRX QE",
         "QNGR:07/06/12",
@@ -1635,8 +1635,8 @@ choyvp pynff PBQbhtynfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pnyy: S ERF FGEHP Ybpngvba: 4378 J FNJZVYY PG / L Znc: NS27Q Havgf: R39 ZRQ154 ON151 QIP151 KKK154  QRNQ RAQ / F EBPX PERRX QE Pbzzba Anzr: Gvzr: 07/06/12 16:58 Aneengvir:  FNJZVYY / HCTENQR  PZQ 2 FG/AB FUBJ/AB RINP/BCF5/FNJZVYY PZQ  EC VF TBVAT GB JNVG VA UBHFR  Angher  2012-00002088",
 
         "PNYY:S ERF FGEHP",
-        "NQQE:4378 J FNJZVYY PG",
-        "NCG:/ L",
+        "NQQE:4378 J FNJZVYY PG & L",
+        "ZNQQE:4378 J FNJZVYY PG",
         "ZNC:NS27Q",
         "HAVG:R39 ZRQ154 ON151 QIP151 KKK154",
         "K:QRNQ RAQ / F EBPX PERRX QE",
@@ -2724,8 +2724,8 @@ choyvp pynff PBQbhtynfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pnyy: S ZRQ NFFVFG Ybpngvba: 20 A  JVYPBK FG / L Znc: NV30N Havgf: R151 ZRQ151 KKK151  SVEFG FG / FBHGU FG, F JVYPBK FG Pbzzba Anzr: PNFGYR EBPX YVDHBEF 20 JVYPBK FGGvzr: 07/08/12 19:49 Aneengvir:  Angher Bs Pnyy: L  NYPBUBY RINY  2012-00002128",
 
         "PNYY:S ZRQ NFFVFG",
-        "NQQE:20 A JVYPBK FG",
-        "NCG:/ L",
+        "NQQE:20 A JVYPBK FG & L",
+        "ZNQQE:20 A JVYPBK FG",
         "ZNC:NV30N",
         "HAVG:R151 ZRQ151 KKK151",
         "K:SVEFG FG / FBHGU FG, F JVYPBK FG",
