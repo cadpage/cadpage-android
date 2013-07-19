@@ -22,7 +22,7 @@ public class ALColbertCountyParser extends DispatchGeoconxParser {
   
   @Override
   public String getFilter() {
-    return "911alert@comcast.net";
+    return "911alert@comcast.net,dispatch@911email.net";
   }
   
   private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
