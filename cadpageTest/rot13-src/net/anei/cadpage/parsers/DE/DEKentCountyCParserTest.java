@@ -333,8 +333,8 @@ choyvp pynff QRXragPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Vapvqrag Nyreg)Havg:N41 Fgnghf:Qvfcngpurq 23B1N Bireqbfr/Cbvfbavat JVYYBJ TEBIR EQ  Irahr: Pnzqra Jlbzvat Qri/Fho: Kfg'f: Pnyyre: FGNPRL PELFGNY",
         "HAVG:N41",
         "PBQR:23B1N",
-        "PNYY:Bireqbfr/Cbvfbavat JVYYBJ",
-        "NQQE:TEBIR EQ",
+        "PNYY:Bireqbfr/Cbvfbavat",
+        "NQQE:JVYYBJ TEBIR EQ",
         "PVGL:Pnzqra Jlbzvat",
         "ANZR:FGNPRL PELFGNY");
 

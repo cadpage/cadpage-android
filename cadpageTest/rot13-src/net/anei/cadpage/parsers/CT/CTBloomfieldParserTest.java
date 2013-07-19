@@ -52,9 +52,8 @@ choyvp pynff PGOybbzsvryqCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G4",
         "Zbgbe Iruvpyr Nppvqrag, Zbgbe Iruvpyr Nppvqrag jvgu Vawhevrf ng PBGGNTR TEBIR EQ / CEBFCRPG FG, OYBBZSVRYQ . . 14:45:33",
         "PNYY:Zbgbe Iruvpyr Nppvqrag, Zbgbe Iruvpyr Nppvqrag jvgu Vawhevrf",
-        "NQQE:TEBIR EQ & CEBFCRPG FG",  // Abg sbhaq va Oybbzsvryq
+        "NQQE:PBGGNTR TEBIR EQ & CEBFCRPG FG",  // Abg sbhaq va Oybbzsvryq
         "PVGL:OYBBZSVRYQ",
-        "CYNPR:PBGGNTR",
         "GVZR:14:45:33");
 
   }

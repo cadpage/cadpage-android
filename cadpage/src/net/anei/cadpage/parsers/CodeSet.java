@@ -47,6 +47,17 @@ public class CodeSet {
    *          null if there is no such entry
    */
   public String getCode(String code) {
+    return getCode(code, false);
+  }
+
+    /**
+     * Look for a code that is a prefix to search string
+     * @param code search string
+     * @param reqSpace true if successful match requires a blank terminator
+     * @return longest table entry that is a prefix of search string or
+     *          null if there is no such entry
+     */
+    public String getCode(String code, boolean reqSpace) {
     
     // Search the code dictionary sorted map for the highest entry less than or
     // equal to call code.  If the code starts with this string, we have a
@@ -60,7 +71,11 @@ public class CodeSet {
     String  minCode = code.substring(0, minCodeLen);
     SortedSet<String> tail =  codeSet.tailSet(code);
     for (String key : tail) {
-      if (code.startsWith(key)) return key;
+      if (code.startsWith(key)) {
+        if (!reqSpace) return key;
+        int len = key.length();
+        if (len == code.length() || code.charAt(len) == ' ') return key;
+      }
       if (!code.startsWith(minCode)) break;
     }
     return null;

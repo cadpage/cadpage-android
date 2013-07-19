@@ -394,9 +394,8 @@ choyvp pynff NYZnefunyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G8",
         "911-PRAGRE:FGEBXR>FGEBXR(PIN) 201 ZBHAG IREABA UBZRF OBNM NG&G ZBOVYVGL Znc: Tevqf:00000,000",
         "PBQR:FGEBXR",
-        "PNYY:FGEBXR",
-        "NQQE:(PIN) 201 ZBHAG IREABA UBZRF",
-        "ZNQQE:201 ZBHAG IREABA UBZRF",
+        "PNYY:FGEBXR(PIN)",
+        "NQQE:201 ZBHAG IREABA UBZRF",
         "PVGL:OBNM");
 
     qbGrfg("G9",

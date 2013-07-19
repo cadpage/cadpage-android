@@ -45,6 +45,8 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+    qbGrfg(FXVC, SYNT_BCG_FGERRG_FSK, "FHAFUVAR PVGL WRNA TBHY & CNHY T TRGGL QHZO FGHSS",
+        "NQQE:WRNA TBHY & CNHY T TRGGL");
   }
 
   @Grfg
@@ -1047,6 +1049,22 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(CYNPR, "QRJRL,PURNGHZ, & UBJR 501 TERRA FG",
         "CYNPR:QRJRL,PURNGHZ, & UBJR",
         "NQQE:501 TERRA FG");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOlcnff() {
+    
+    qbGrfg(PNYY, "URYYB 1030 HF 20 OLCNFF NAQ BGURE FGHSS",
+        "PNYY:URYYB",
+        "NQQE:1030 HF 20 OLCNFF");
+
+    qbGrfg(PNYY, "URYYB HF 20 OLCNFF & OYNPX FG ORLBAQ GUR UBEVMBA",
+        "PNYY:URYYB",
+        "NQQE:HF 20 OLCNFF & OYNPX FG");
+    
+    qbGrfg(PNYY, "URYYB RNFGBA OLC A / FG ZVPUNRYF EQ ORLBAQ",
+        "PNYY:URYYB",
+        "NQQE:RNFGBA OLC A & FG ZVPUNRYF EQ");
   }
   
   @Grfg

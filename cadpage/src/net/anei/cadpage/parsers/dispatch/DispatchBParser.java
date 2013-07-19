@@ -511,6 +511,7 @@ public class DispatchBParser extends FieldProgramParser {
         "STROKE-ABNORMAL BREATH <2HRS",
         "STROKE-CVA",
         "STROKE-NOT ALERT",
+        "STOKE(CVA)",
         "STROKE/CVA",
         "STROKE/CVA PATIENT",
         "STROKE (CVA) BREATH NORM > 35",

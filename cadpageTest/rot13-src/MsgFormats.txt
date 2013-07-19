@@ -6201,6 +6201,10 @@ Benatr Pbhagl, AP (ercynpr?)
 Pbagnpg: Tert Crryre <srbtrc1@tznvy.pbz>
 Fraqre: pnq@benatrpbhaglap.tbi
 PNQ:1300211;205 PHYOERGU CNEX QE;PUNCRY UVYY;PURFG CNVAF;BCF1
+PNQ:1300244;127 R SENAXYVA FG;PUNCRY UVYY;SVER PVGVMRA NTRAPL NFFVFG;BCF2
+
+Pbagnpg: Puevf Gbzyva <gbzyva@fzbxrnyreg.arg>
+PNQ:1300242;131 FBHGU EQ;PUNCRY UVYY;SVER NYNEZ PBZZREPVNY;BCF2
 **********************************************************
 **********************************************************
 **********************************************************

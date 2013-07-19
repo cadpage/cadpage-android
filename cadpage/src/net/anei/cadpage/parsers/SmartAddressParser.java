@@ -222,6 +222,8 @@ public abstract class SmartAddressParser extends MsgParser {
   
   private static final int ID_SINGLE_WORD_ROAD = 0x8000000;
   
+  private static final int ID_BYPASS = 0x10000000;
+  
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
   // List of multiple word cities
@@ -311,11 +313,13 @@ public abstract class SmartAddressParser extends MsgParser {
         "ALLEY", "ALY");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
+    setupDictionary(ID_BYPASS, "BYPASS", "BYP");
+    
     setupDictionary(ID_AMBIG_ROAD_SFX, 
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", 
         "RUN", "LANE", "PARK", "POINT", "RIDGE", "CREEK", "MILL", "BRIDGE", "HILLS",
         "HILL", "TRACE", "STREET", "MILE", "BAY", "NOTCH", "END", "LOOP", "ESTATES",
-        "SQUARE", "WALK", "CIRCLE");
+        "SQUARE", "WALK", "CIRCLE", "GROVE");
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
         "AVENUE", "AV", "AVE", 
@@ -644,7 +648,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // the dictionary to see if address line starts with matching call
     if ((sType == StartType.START_CALL || sType == StartType.START_CALL_PLACE) 
          && callDictionary != null) {
-      String call = callDictionary.getCode(address.toUpperCase());
+      String call = callDictionary.getCode(address.toUpperCase(), true);
       if (call != null) {
         
         // We have a match.  Store the call (without the trailing space)
@@ -964,21 +968,35 @@ public abstract class SmartAddressParser extends MsgParser {
         }
         if (ndx-start >= 1 && isType(ndx, ID_CONNECTOR)) {
           sAddr = ndx-1;
-          int tmp = mWordCrossStreetsRev.findEndSequence(sAddr);
-          if (tmp >= 0) {
-            sAddr = tmp;
-            break;
+          
+          // If cross street search, check for special cross street name
+          if (isFlagSet(FLAG_ONLY_CROSS)) {
+            int tmp = mWordCrossStreetsRev.findEndSequence(sAddr);
+            if (tmp >= 0) {
+              sAddr = tmp;
+              break;
+            }
           }
           
-          // Check for special cross street
+          // skip over direction and bypass
           if (sAddr > start && isType(sAddr, ID_DIRECTION)) sAddr--;
+          
+          // See if this is a multi word street name without a suffix
+          if (isFlagSet(FLAG_OPT_STREET_SFX)) {
+            int save = sAddr;
+            sAddr = mWordStreetsRev.findEndSequence(sAddr);
+            if (sAddr != save) break;
+          }
+
+          // Skip over bypass
+          if (sAddr > start && isType(sAddr, ID_BYPASS)) sAddr--;
           
           if (sAddr >= start && isRoadToken(sAddr)) break;
           
           if (sAddr > start && isType(sAddr, ID_ROAD_SFX)) {
             sAddr--;
             if (isType(sAddr,ID_NOT_ADDRESS)) continue;
-            if (sAddr > start && isType(sAddr, ID_AMBIG_ROAD_SFX) && !isType(sAddr-1,ID_NOT_ADDRESS)) sAddr--;
+            sAddr = findRoadStart(start, sAddr);
             break;
           }
           
@@ -1002,6 +1020,14 @@ public abstract class SmartAddressParser extends MsgParser {
           }
           
           if (isFlagSet(FLAG_OPT_STREET_SFX) && !isType(sAddr,ID_NOT_ADDRESS)) break; 
+
+          // One last chance.  If we skipped over a "BYPASS" token to get here
+          // see if we can treat it as a suffix as well
+          if (sAddr > start && isType(sAddr+1, ID_BYPASS)) {
+            if (isType(sAddr,ID_NOT_ADDRESS)) continue;
+            sAddr = findRoadStart(start, sAddr);
+            break;
+          }
         }
       }
       
@@ -1037,6 +1063,26 @@ public abstract class SmartAddressParser extends MsgParser {
 
     return (result.endAll == tokens.length || !isFlagSet(FLAG_ANCHOR_END));
   }
+
+  /**
+   * Find beginning of street name once we have identified a legitimate street suffix
+   * @param start hard beginning of possible street name
+   * @param sAddr tentative begining of possible street name
+   * @return
+   */
+  private int findRoadStart(int start, int sAddr) {
+    
+    // Two things to check.  First is to see if we have a recognized multi word street name
+    int save = sAddr;
+    if (mWordStreetsRev != null) sAddr = mWordStreetsRev.findEndSequence(sAddr);
+    
+    // If not, see if the first word is an ambiguous street suffix, and if it is, include the
+    // previous word
+    if (sAddr == save && sAddr > start && isType(sAddr, ID_AMBIG_ROAD_SFX) && !isType(sAddr-1,ID_NOT_ADDRESS)) {
+      sAddr--;
+    }
+    return sAddr;
+  }
   
   /**
    * Try to parse first part intersection starting at specified index
@@ -1045,7 +1091,7 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   private int startIntersection(int sAddr) {
     
-    // Find eend of road at specified start point
+    // Find end of road at specified start point
     int ndx = findRoadEnd(sAddr, 2);
     if (ndx < 0) return -1;
     
@@ -1104,7 +1150,7 @@ public abstract class SmartAddressParser extends MsgParser {
         // See if there is a naked cross street name here.  Finding one doesn't
         // immediately return that result, but it defines the fallback result
         // we will use if something better doesn't come along.
-        if (failStart < 0) {
+        if (failStart < 0 && isFlagSet(FLAG_ONLY_CROSS)) {
           failEnd = mWordCrossStreetsFwd.findEndSequence(ndx);
           if (failEnd >= 0) failStart = ndx;
         }
@@ -1170,11 +1216,17 @@ public abstract class SmartAddressParser extends MsgParser {
       
       else {
         
-        // See if this is a two part route name
-        while (sAddr > start && !isType(sAddr-1, ID_NOT_ADDRESS | ID_CONNECTOR) && 
-            (isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX) ||
-             isType(sAddr, ID_AMBIG_ROAD_SFX))) {
-          sAddr--;
+        // Check for recognized multi-word name
+        int save = sAddr;
+        if (mWordStreetsRev != null) sAddr = mWordStreetsRev.findEndSequence(sAddr);
+        
+        // Otherwise, see if this is a two part route name
+        if (sAddr == save) {
+          while (sAddr > start && !isType(sAddr-1, ID_NOT_ADDRESS | ID_CONNECTOR) && 
+              (isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX) ||
+               isType(sAddr, ID_AMBIG_ROAD_SFX))) {
+            sAddr--;
+          }
         }
   
         // If the previous token is a direction, back up one more to include that.
@@ -1357,15 +1409,10 @@ public abstract class SmartAddressParser extends MsgParser {
    * it might start
    * @param start Hard limit on where address can start
    * @param sAddr index of current start of tentative road name
+   * 
    * @return index of presumed road name
    */
   private int stretchRoadPrefix(int start, int sAddr) {
-    
-    // Check our preloaded multiple word street name list
-    if (mWordStreetsRev != null) {
-      int tmp = mWordStreetsRev.findEndSequence(sAddr);
-      if (tmp >= 0 && tmp >= start) sAddr = tmp;
-    }
     
     // If road starts with a common street name prefix, back up one place
     if (sAddr > start && isType(sAddr-1, ID_STREET_NAME_PREFIX)) sAddr--;
@@ -1713,20 +1760,6 @@ public abstract class SmartAddressParser extends MsgParser {
    * @return index of token past end of road name if successful, -1 otherwise
    */
   private int findRoadEnd(int start, int option) {
-    return findRoadEnd(start, option, false);
-  }
-
-  /**
-   * See if we can identify a road name starting at a given index
-   * @param start starting index
-   * @param option - option controlling how we will deal with a suffixless street search
-   *                  0 - No suffixless street names accepted
-   *                  1 - only multiword suffixless street names accepted
-   *                  2 - any suffixless street name accepted
-   * @param cross - true if we are looking for end of cross street                  
-   * @return index of token past end of road name if successful, -1 otherwise
-   */
-  private int findRoadEnd(int start, int option, boolean cross) {
     
     // If this starts with a street direction, skip over it
     if (isType(start, ID_DIRECTION)) start++;
@@ -1756,7 +1789,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // If we are processing cross streets, check for a special cross street name and
       // set the failure index to the end of that
       int failIndex = -1;
-      if (cross || isFlagSet(FLAG_ONLY_CROSS)) {
+      if (isFlagSet(FLAG_ONLY_CROSS)) {
         failIndex = mWordCrossStreetsFwd.findEndSequence(start);
       }
       
@@ -1834,6 +1867,9 @@ public abstract class SmartAddressParser extends MsgParser {
       if (!good) return failIndex;
       
     } while (false);
+    
+    // Check for BYPASS
+    if (isType(end, ID_BYPASS)) end++;
     
     // If road is followed by a direction and that direction can not be part of
     // a following cross street, include it
