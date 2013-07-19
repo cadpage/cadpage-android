@@ -13,7 +13,7 @@ public class NYSuffolkCountyBParser extends DispatchA14Parser {
   
   @Override
   public String getFilter() {
-    return "@firerescuesystems.xohost.com,scmproducts@optonline.net,paging@bcfa.xohost.com";
+    return "@firerescuesystems.xohost.com,scmproducts@optonline.net,paging@bcfa.xohost.com,alarms@ronkonkomafd.net";
   }
   
   @Override
