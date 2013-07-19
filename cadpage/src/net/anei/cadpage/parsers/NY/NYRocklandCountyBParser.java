@@ -15,6 +15,7 @@ public class NYRocklandCountyBParser extends SmartAddressParser {
   
   public NYRocklandCountyBParser() {
     super("ROCKLAND COUNTY","NY");
+    setFieldList("UNIT CALL ID PLACE ADDR X");
   }
 
   @Override

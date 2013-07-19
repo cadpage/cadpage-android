@@ -21,6 +21,10 @@ Flfgrz: Svergenpxre
 Fhowrpg:SverCntr\a** ZNFGVP ORNPU INP ** [31-Q-2 H] FZVGU CBVAG CNEX CNIVYYVBA Fzvgu Cbvag\e\a7/29/2012 GBN:21:46 [SverGenpxre]\e
 Fhowrpg:SverCntr\a** ZNFGVP ORNPU INP ** [5-N-1 AB] 24 BYQ PUHEPU EQ Znfgvp Ornpu Nqq'g\e\aVasb: Ahzore bs cngvragf: 1 Erfcbaqre fpevcg: \e
 
+Pbagnpg: Xriva Oneergg <zosq478@bcgbayvar.arg>
+Fraqre: qvfcngpu@svergenpxre.arg
+(SverCntr) **ZNFGVP ORNPU SQ** [52-P-3F ] 97 EVIVREN QE Znfgvp Ornpu Nqq'g Vasb:\aMBAR N/N Erfcbaqre fpevcg: Nynezf. PBZZREPVNY/VAQHFGEVNY ohvyqvat (Fzbxr
+
 */
 
 choyvp pynff ALFhssbyxPbhaglSvergenpxreCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -125,6 +129,21 @@ choyvp pynff ALFhssbyxPbhaglSvergenpxreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:24 BYQ PUHEPU EQ",
         "PVGL:Znfgvp Ornpu",
         "VASB:Ahzore bs cngvragf: 1 Erfcbaqre fpevcg:");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXrivaOneergg() {
+
+    qbGrfg("G1",
+        "(SverCntr) **ZNFGVP ORNPU SQ** [52-P-3F ] 97 EVIVREN QE Znfgvp Ornpu Nqq'g Vasb:\a" +
+        "MBAR N/N Erfcbaqre fpevcg: Nynezf. PBZZREPVNY/VAQHFGEVNY ohvyqvat (Fzbxr",
+
+        "FEP:ZNFGVP ORNPU SQ",
+        "PNYY:52-P-3F",
+        "NQQE:97 EVIVREN QE",
+        "PVGL:Znfgvp Ornpu",
+        "VASB:MBAR N/N Erfcbaqre fpevcg: Nynezf. PBZZREPVNY/VAQHFGEVNY ohvyqvat (Fzbxr");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

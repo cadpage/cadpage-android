@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYSuffolkCountyFiretrackerParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^\\*\\* ([A-Z ]+) \\*\\* \\[([- A-Z0-9]+)\\] ");
+  private static final Pattern MARKER = Pattern.compile("^\\*\\* ?([A-Z ]+) ?\\*\\* \\[([- A-Z0-9]+)\\] ");
   
   public NYSuffolkCountyFiretrackerParser() {
     super(CITY_LIST, "SUFFOLK COUNTY", "NY", 
