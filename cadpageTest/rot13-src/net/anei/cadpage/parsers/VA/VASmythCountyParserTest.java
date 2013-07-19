@@ -267,7 +267,7 @@ choyvp pynff INFzlguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G27",
         "TTERRNE:262 IVRJ QE Q53 ZNEVBA 408260 11:33:28 FVP - FVPX 46 LBZ GUEBJVAT HC OYBBQ",
-        "NQQE:262 IVRJ QE Q53",
+        "NQQE:262 IVRJ QE Q53", // ncg Q53?
         "PVGL:ZNEVBA",
         "VQ:408260",
         "GVZR:11:33:28",
