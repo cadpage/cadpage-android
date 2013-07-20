@@ -13,7 +13,7 @@ public class NCUnionCountyParser extends DispatchOSSIParser {
   
   public NCUnionCountyParser() {
     super(CITY_LIST, "UNION COUNTY", "NC",
-           "( CANCEL ADDR CITY? | FYI? ADDR CITY? CALL ) SRC? CUSTOM? INFO+? DATETIME ID? PLACE");
+           "( CANCEL ADDR CITY? | FYI? ID? ADDR CITY? CALL ) SRC? CUSTOM? INFO+? DATETIME ID? PLACE");
   }
   
   @Override
