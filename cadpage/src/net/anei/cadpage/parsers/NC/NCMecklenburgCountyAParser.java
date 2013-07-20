@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NCMecklenburgCountyAParser extends MsgParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("[-0-9]+ +Received: +\\d\\d:\\d\\d +Assigned: +\\d\\d:\\d\\d +Enroute: +(?:\\d\\d:\\d\\d +|.* Cancelled: +\\d\\d:\\d\\d ).*");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("[-0-9]+ +Received: *\\d\\d:\\d\\d *Assigned: *\\d\\d:\\d\\d *Enroute: *(?:\\d\\d:\\d\\d *|.*Cancelled: *\\d\\d:\\d\\d).*");
   
   public NCMecklenburgCountyAParser() {
     super("MECKLENBURG COUNTY", "NC");
