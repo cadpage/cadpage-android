@@ -1,19 +1,13 @@
 package net.anei.cadpage.parsers.NC;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 
-public class NCOrangeCountyParser extends FieldProgramParser {
-  
-  private static final Pattern SUBJECT_PTN = Pattern.compile("CAD Page for CFS (\\d{6}-\\d{1,3})");
+public class NCOrangeCountyParser extends DispatchOSSIParser {
   
   public NCOrangeCountyParser() {
-    super("ORANGE COUNTY", "NC",
-           "( CH CALL ADDR! Apt:APT Build:APT | RECD:TIME? TG:CH INC:CALL LOC:ADDR! APT:APT BLDG:APT EMD:CODE )");
+    super(CITY_LIST, "ORANGE COUNTY", "NC",
+           "ID? ADDR CITY? CALL! CH? CODE? ID? INFO+");
   }
   
   @Override
@@ -22,29 +16,58 @@ public class NCOrangeCountyParser extends FieldProgramParser {
   }
 
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    Matcher match = SUBJECT_PTN.matcher(subject);
-    if (!match.matches()) return false;
-    data.strCallId = match.group(1);
-    return parseFields(body.split("\n"), data);
-  }
-  
-  private class MyAptField extends AptField {
-    @Override
-    public void parse(String field, Data data) {
-      data.strApt = append(field, " - ", data.strApt);
-    }
-  }
-
-  @Override
   protected Field getField(String name) {
-    if (name.equals("CH")) return new ChannelField("OPS.*");
-    if (name.equals("APT")) return new MyAptField();
+    if (name.equals("ID")) return new IdField("\\d{7,10}", true);
+    if (name.equals("CH")) return new ChannelField("OPS.*", true);
+    if (name.equals("CODE")) return new CodeField("\\d{1,2}[A-Z]\\d{1,2}[A-Z]?", true);
     return super.getField(name);
   }
   
-  @Override
-  public String getProgram() {
-    return "ID " + super.getProgram();
-  }
+  private static final String[] CITY_LIST = new String[]{
+
+      // Cities
+      "CARRBORO",
+      "CHAPEL HILL",
+      "DURHAM",
+      "HILLSBOROUGH",
+      "MEBANE",
+      
+      // Townships
+      "BINGHAM TWP",
+      "CEDAR GROVE TWP",
+      "CHAPEL HILL TWP",
+      "CHEEKS TWP",
+      "ENO TWP",
+      "HILLSBOROUGH TWP",
+      "LITTLE RIVER TWP",
+      
+      // Unincorporated Communities
+      "BLACKWOOD",
+      "BUCKHORN",
+      "CALDWELL",
+      "CALVANDER",
+      "CARR",
+      "CEDAR GROVE",
+      "DODSONS CROSSROADS",
+      "DOGWOOD ACRES",
+      "EFLAND",
+      "ENO",
+      "EUBANKS",
+      "FAIRVIEW, ",
+      "HILLSBOROUGH",
+      "HURDLE MILLS",
+      "LAWS",
+      "MCDADE",
+      "MILES",
+      "OAKS",
+      "ORANGE GROVE",
+      "PINEY GROVE",
+      "ROUGEMONT",
+      "SCHLEY",
+      "TEER",
+      "UNIVERSITY",
+      "WHITE CROSS",
+
+
+  };
 }
