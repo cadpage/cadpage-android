@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Benatr Pbhagl, AP (ercynpr)
+Benatr Pbhagl, AP
 Pbagnpg: Tert Crryre <srbtrc1@tznvy.pbz>
 Fraqre: pnq@benatrpbhaglap.tbi
 PNQ:1300211;205 PHYOERGU CNEX QE;PUNCRY UVYY;PURFG CNVAF;BCF1
