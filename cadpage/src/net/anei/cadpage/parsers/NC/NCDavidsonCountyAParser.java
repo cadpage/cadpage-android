@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.NC;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Properties;
 import java.util.Set;
 import java.util.regex.Pattern;
 
@@ -14,8 +15,8 @@ public class NCDavidsonCountyAParser extends DispatchOSSIParser {
   private static final Pattern ID_PTN = Pattern.compile("\\d{10}");
 
   public NCDavidsonCountyAParser() {
-    super("DAVIDSON COUNTY", "NC",
-           "CALL ADDR! INTLS? ( ID | PLACE ID | PLACE X | ) X+? INFO+");
+    super(CITY_CODES, "DAVIDSON COUNTY", "NC",
+           "CALL ADDR! CITY? ( ID | PLACE ID | PLACE X | ) X+? INFO+");
   }
   
   @Override
@@ -72,4 +73,22 @@ public class NCDavidsonCountyAParser extends DispatchOSSIParser {
       "WOOD"
       
   }));
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ARC",  "ARCHDALE",
+      "CL",   "CLEMMONS",
+      "DEN",  "DENTON",
+      "GREE", "GREENSBORO",
+      "HP",   "HIGH POINT",
+      "KV",   "KERNERSVILLE",
+      "LEX",  "LEXINGTON",
+      "LIN",  "LINWOOD",
+      "NL",   "NEW LONDON",
+      "RAN",  "RANDOLPH COUNTY",
+      "RWC",  "ROWAN COUNTY",
+      "THA",  "THOMASVILLE",
+      "TROY", "TROY",
+      "WELC", "WELCOME",
+      "WS",   "WINSTON SALEM"
+  });
 }
