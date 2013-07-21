@@ -26,7 +26,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
     
     @Override
     public String getFilter() {
-      return "messaging@iamresponding.com,mplus@co.broome.ny.us";
+      return "messaging@iamresponding.com,mplus@co.broome.ny.us,9300";
     }
 
 	  @Override
@@ -63,6 +63,19 @@ public class NYBroomeCountyParser extends FieldProgramParser {
       String[] flds = fldList.toArray(new String[fldList.size()]);
 	    
 	    return parseFields(flds, data);
+	  }
+	  
+	  private static final Pattern CALL_CODE_PTN = Pattern.compile(" *<([A-Z0-9]+)>$");
+	  private class MyCallField extends CallField {
+	    @Override
+	    public void parse(String field, Data data) {
+	      Matcher match = CALL_CODE_PTN.matcher(field);
+	      if (match.find()) {
+	        data.strCode = match.group(1);
+	        field = field.substring(0,match.start());
+	      }
+	      super.parse(field, data);
+	    }
 	  }
 
 	  // Cross street field needs to parse time, date, and ID data from field
@@ -103,6 +116,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
     @Override
     protected Field getField(String name) {
       if (name.equals("SRC")) return new SourceField("[0-9/]+|[A-Z]{3,4}", true);
+      if (name.equals("CALL")) return new MyCallField();
       if (name.equals("X")) return new MyCrossField();
       if (name.equals("NAME")) return new MyNameField();
       return super.getField(name);

@@ -699,6 +699,19 @@ Good luck
 -Ken
 
 ***************************************************************************
+* Reports of general direct paging deliver failures
+******************************************************************
+
+That has been in infrequent but persistent problem with direct page ever since we implemented it.  I keep adding new workarounds to avoid the issue.  While none of them can be considered a real fix, they appear to have reduced the problem substantially.
+
+One new development is that I now have a Google engineer who wants to help troubleshoot the problem.  What he needs is a hard example of a page that was picked up by Active911 but never received, or received after a long delay, by your device.  If have an incident where that  happens, look up the alert ID in the Active911 web page for your department and use the Email the Developer setting in Cadpage to send it to us.
+
+My various workarounds have reduced the problem incidence rate to such an extent that I have having a hard time getting a user to report an actual delivery failure.
+
+Thanks a bunch,
+-Ken
+
+***************************************************************************
 * Cadpage is not registered with Active911
 * Registration ID is not null 
 * Swift shows correct page type and registration ID
@@ -741,10 +754,11 @@ Good luck,
 * Swift shows correct page type and registration ID
 ******************************************************************
 
-Go into Cadpage Settings and Select
-Direct Paging Vendors > Reconnect Direct Paging
+Next, get whoever sets up your device with Active911 to use the Active911 web page to send a test message to your phone.  If that does not arrive in a timely manner, use the Active911 web page to look up the alert ID of an alert that you did not receive.  Then use the Cadpage Email the Developer feature to send that alert number in another email.  I can bundle all of that information and ship it to a Google engineer who is trying to troubleshoot this problem.
 
-Next, get whoever sets up your device with Active911 to use the Active911 web page to send a test message to your phone.  If that does not arrive in a timely manner, use the Cadpage Email the Developer feature to send us another email.  That will contain an event log that might show something useful.
+After all of that, you can go into Cadpage settings and select
+Direct Paging Vendors > Reconnect Direct Paging
+We do not know why, but doing this usually fixes your problem.
 
 If you do get the test page, but still do not receive real dispatch alerts, then something about your Active911 settings is preventing them from sending dispatch pages to you.  If your department Active911 administrator cannot figure out what that is, try contacting Active911 support for help.
 
