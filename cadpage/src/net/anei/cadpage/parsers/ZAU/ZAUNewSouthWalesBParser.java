@@ -19,6 +19,7 @@ public class ZAUNewSouthWalesBParser extends SmartAddressParser {
 
   public ZAUNewSouthWalesBParser() {
     super(ZAUNewSouthWalesParser.CITY_LIST, "", "NSW", CountryCode.AU);
+    setFieldList("DATE TIME SRC CALL ADDR APT CITY");
   }
 
   @Override
