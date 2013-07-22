@@ -18,7 +18,7 @@ public class PABerksCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@berks.alertpa.org,@rsix.roamsecure.net,14100";
+    return "@berks.alertpa.org,@rsix.roamsecure.net,14100,12101";
   }
 
   @Override
