@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.VA;
 
 import java.util.Properties;
-import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchDAPROParser;
@@ -10,8 +9,6 @@ import net.anei.cadpage.parsers.dispatch.DispatchDAPROParser;
  * Amelia County, VA
  */
 public class VAAmeliaCountyParser extends DispatchDAPROParser {
-  
-  private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+");
   
   public VAAmeliaCountyParser() {
     super(CITY_CODE_TABLE, "AMELIA COUNTY", "VA");
@@ -31,7 +28,6 @@ public class VAAmeliaCountyParser extends DispatchDAPROParser {
     if (!super.parseMsg(body,  data)) return false;
     data.strBox = data.strSource;
     data.strSource = source;
-    data.strAddress = LEAD_ZERO_PTN.matcher(data.strAddress).replaceFirst("").trim();
     return true;
   }
   

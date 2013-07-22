@@ -11,6 +11,8 @@ public class DispatchDAPROParser extends FieldProgramParser {
   
   private static final String PROGRAM_STR = "ADDR/SC! CFS:ID! Run:ID? CROSS:X";
   
+  private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+");
+
   public DispatchDAPROParser(String defCity, String defState) {
     super(defCity, defState, PROGRAM_STR);
     setup();
@@ -37,6 +39,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
     body = body.replace(" Run# ", " Run: ");
     
     if (! super.parseMsg(body, data)) return false;
+    data.strAddress = LEAD_ZERO_PTN.matcher(data.strAddress).replaceFirst("").trim();
     return true;
   }
 
