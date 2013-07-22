@@ -266,7 +266,7 @@ choyvp pynff INSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:F02 RZF-FRVMHER 000735 RNFG PBHEG FG EZG PSF# 2011-031028 PEBFF: QBANYQ NIR/CBJRE QNZ EQ",
         "FEP:F02",
         "PNYY:RZF-FRVMHER",
-        "NQQE:000735 RNFG PBHEG FG",
+        "NQQE:735 RNFG PBHEG FG",
         "PVGL:Ebpxl Zbhag",
         "VQ:2011-031028",
         "K:QBANYQ NIR/CBJRE QNZ EQ");
@@ -414,7 +414,7 @@ choyvp pynff INSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:F15 RZF-CNGVRAG VA CNVA 001635 ZBERJBBQ EQ UNE PSF# 2011-031025 PEBFF: VAQVNA CBVAGR QE/PURFGAHG CBVAGR QE",
         "FEP:F15",
         "PNYY:RZF-CNGVRAG VA CNVA",
-        "NQQE:001635 ZBERJBBQ EQ",
+        "NQQE:1635 ZBERJBBQ EQ",
         "PVGL:Uneql",
         "VQ:2011-031025",
         "K:VAQVNA CBVAGR QE/PURFGAHG CBVAGR QE");
@@ -578,7 +578,7 @@ choyvp pynff INSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:F09 911 UNAT HC 000283 XVA INYR EQ EZG PSF# 2011-033694 PEBFF: NATYR CYNAGNGVBA EQ/NYRNA EQ",
         "FEP:F09",
         "PNYY:911 UNAT HC",
-        "NQQE:000283 XVA INYR EQ",
+        "NQQE:283 XVA INYR EQ",
         "PVGL:Ebpxl Zbhag",
         "VQ:2011-033694",
         "K:NATYR CYNAGNGVBA EQ/NYRNA EQ");
