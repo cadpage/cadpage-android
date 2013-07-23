@@ -297,6 +297,7 @@ public class ParserList {
               ,"KYDaviessCounty"                ,"Daviess County, KY"
               ,"KYErlangerDispatch"             ,"Erlanger Dispatch, KY"
               ,"KYGreenupCounty"                ,"Greenup County, KY"
+              ,"KYHardinCounty"                 ,"Hardin County, KY"
               ,"KYKentonCounty"                 ,"Kenton County, KY"
               ,"KYLouisville"                   ,"Louisville, KY"
               ,"KYMuhlenbergCounty"             ,"Muhlenberg County, KY"
