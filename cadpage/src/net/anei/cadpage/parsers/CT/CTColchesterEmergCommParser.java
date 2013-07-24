@@ -10,6 +10,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTColchesterEmergCommParser extends FieldProgramParser {
   
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("Unit: ([A-Z0-9]+) (Times: )# (\\d\\d-\\d+) (.*)");
+  
   public CTColchesterEmergCommParser() {
     super("", "CT",
           "CITY ADDR APT X CALL PLACENAME ID! EXTRA");
@@ -28,6 +30,15 @@ public class CTColchesterEmergCommParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     data.strSource = subject;
+    Matcher match = RUN_REPORT_PTN.matcher(body);
+    if (match.matches()) {
+      data.strCall = "RUN REPORT";
+      data.strUnit = match.group(1);
+      data.strCallId = match.group(3);
+      data.strPlace = match.group(2) + match.group(4).trim();
+      return true;
+    }
+    
     return parseFields(body.split("\\\\"), 7, data);
   }
   

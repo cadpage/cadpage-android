@@ -517,6 +517,67 @@ choyvp pynff PGPbypurfgreRzretPbzzCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
   
+  @Grfg
+  choyvp ibvq grfgEhaErcbeg() {
+
+    qbGrfg("G1",
+        "Havg: 10124O Gvzrf: # 13-13314 Qvfc 13:25 Raeg 13:30 Neei 13:35 Qceg 13:49  Qrfg: 079X   Ufcg 14:00  Nqq: YBAT PEBFFVAT EQ-- ",
+        "PNYY:EHA ERCBEG",
+        "VQ:13-13314",
+        "HAVG:10124O",
+        "CYNPR:Gvzrf: Qvfc 13:25 Raeg 13:30 Neei 13:35 Qceg 13:49  Qrfg: 079X   Ufcg 14:00  Nqq: YBAT PEBFFVAT EQ--");
+
+    qbGrfg("G2",
+        "Havg: NZO528 Gvzrf: # 13-13311 Qvfc 12:35 Raeg 12:40 Neei 12:42 Qceg 12:53  Qrfg: 104N   Ufcg 13:10  Nqq: PENTVA PG-- ",
+        "PNYY:EHA ERCBEG",
+        "VQ:13-13311",
+        "HAVG:NZO528",
+        "CYNPR:Gvzrf: Qvfc 12:35 Raeg 12:40 Neei 12:42 Qceg 12:53  Qrfg: 104N   Ufcg 13:10  Nqq: PENTVA PG--");
+
+    qbGrfg("G3",
+        "Havg: NZO528 Gvzrf: # 13-13300 Qvfc 09:29 Raeg 09:30 Neei 09:34 Qceg 09:46  Qrfg: 104N   Ufcg 10:03  Nqq: RNFG PG-- ",
+        "PNYY:EHA ERCBEG",
+        "VQ:13-13300",
+        "HAVG:NZO528",
+        "CYNPR:Gvzrf: Qvfc 09:29 Raeg 09:30 Neei 09:34 Qceg 09:46  Qrfg: 104N   Ufcg 10:03  Nqq: RNFG PG--");
+
+    qbGrfg("G4",
+        "Havg: NZO506 Gvzrf: # 13-13290 Qvfc 07:43 Raeg 07:52 Neei 08:01 Qceg 08:03  Qrfg: 163N   Ufcg 08:11  Nqq: ORNHZBAG UJL-- ",
+        "PNYY:EHA ERCBEG",
+        "VQ:13-13290",
+        "HAVG:NZO506",
+        "CYNPR:Gvzrf: Qvfc 07:43 Raeg 07:52 Neei 08:01 Qceg 08:03  Qrfg: 163N   Ufcg 08:11  Nqq: ORNHZBAG UJL--");
+
+    qbGrfg("G5",
+        "Havg: NZO628 Gvzrf: # 13-13249 Qvfc 14:56 Raeg 14:59 Neei 15:07 Qceg 15:20  Qrfg: 079X   Ufcg 15:29  Nqq: BYQ UNEGSBEQ EQ-- ",
+        "PNYY:EHA ERCBEG",
+        "VQ:13-13249",
+        "HAVG:NZO628",
+        "CYNPR:Gvzrf: Qvfc 14:56 Raeg 14:59 Neei 15:07 Qceg 15:20  Qrfg: 079X   Ufcg 15:29  Nqq: BYQ UNEGSBEQ EQ--");
+
+    qbGrfg("G6",
+        "Havg: NZO528 Gvzrf: # 13-13242 Qvfc 13:55 Raeg 13:57 Neei 14:01 Qceg 14:09  Qrfg: 079X   Ufcg 14:21  Nqq: YRONABA NIR-- ",
+        "PNYY:EHA ERCBEG",
+        "VQ:13-13242",
+        "HAVG:NZO528",
+        "CYNPR:Gvzrf: Qvfc 13:55 Raeg 13:57 Neei 14:01 Qceg 14:09  Qrfg: 079X   Ufcg 14:21  Nqq: YRONABA NIR--");
+
+    qbGrfg("G7",
+        "Havg: NZO506 Gvzrf: # 13-13230 Qvfc 07:58 Raeg 08:10 Neei 08:22 Qceg 08:30  Qrfg: 163N   Ufcg 09:02  Nqq: YRBANEQ OEVQTR EQ-- ",
+        "PNYY:EHA ERCBEG",
+        "VQ:13-13230",
+        "HAVG:NZO506",
+        "CYNPR:Gvzrf: Qvfc 07:58 Raeg 08:10 Neei 08:22 Qceg 08:30  Qrfg: 163N   Ufcg 09:02  Nqq: YRBANEQ OEVQTR EQ--");
+
+    qbGrfg("G8",
+        "Havg: NZO528 Gvzrf: # 13-13227 Qvfc 06:07 Raeg 06:19 Neei 06:24 Qceg 06:40  Qrfg: 079X   Ufcg 06:57  Nqq: PBOOYR JNL-- ",
+        "PNYY:EHA ERCBEG",
+        "VQ:13-13227",
+        "HAVG:NZO528",
+        "CYNPR:Gvzrf: Qvfc 06:07 Raeg 06:19 Neei 06:24 Qceg 06:40  Qrfg: 079X   Ufcg 06:57  Nqq: PBOOYR JNL--");
+
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj PGPbypurfgreRzretPbzzCnefreGrfg().trarengrGrfgf("G1");
   }
