@@ -118,7 +118,7 @@ Fraqre: qbabgercyl@naancbyvf.tbi
 choyvp pynff ZQNaarNehaqryNaancbyvfCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZQNaarNehaqryNaancbyvfCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "NAANCBYVFf", "ZQ");
+    frgCnefre(arj QhzzlCnefre(), "NAANCBYVF", "ZQ");
   }
   
   @Grfg
