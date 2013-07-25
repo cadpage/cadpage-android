@@ -1529,6 +1529,8 @@ public class FieldProgramParser extends SmartAddressParser {
         Matcher match = pattern.matcher(field);
         if (!match.matches()) return false;
         if (match.groupCount() == 1) field = match.group(1);
+        parse(field, data);
+        return true;
       }
       return checkParse(field, data);
     }

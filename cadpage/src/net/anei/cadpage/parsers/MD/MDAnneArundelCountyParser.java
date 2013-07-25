@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class MDAnneArundelCountyParser extends GroupBestParser {
   
   public MDAnneArundelCountyParser() {
-    super(new MDAnneArundelCountyFireParser(), new MDAnneArundelCountyEMSParser());
+    super(new MDAnneArundelCountyFireParser(), new MDAnneArundelCountyEMSParser(), new MDAnneArundelCountyAnnapolisParser());
   }
 
 }
