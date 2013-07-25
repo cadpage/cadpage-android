@@ -92,7 +92,7 @@ Good Luck,
 Jean -- Assistant to Ken Corbin
 
 ******************************************************************
-** Already has activation code
+** Already has activation code or switch to Android with Active911
 ******************************************************************
 
 Your department has apparently paid for Active911, but you need to register your phone to enable direct paging with Cadpage.  
@@ -241,7 +241,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-GBPKDFEA or gbpkdfea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+GZVXQGFA or gzvxqgfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -364,7 +364,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-GBPKDFEA or gbpkdfea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+GZVXQGFA or gzvxqgfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -385,7 +385,7 @@ Jean, Assistant to Ken Corbin
 
 *********************************************************************
 
-I found your free subscription to Cadpage as of _____.  
+I found your free Cadpage subscription as of _____.  
 
 Go into Cadpage settings and press
 Payment Status > Recalculate Payment Status
@@ -394,6 +394,17 @@ If you are having other difficulties with Cadpage, please let us know.
 
 Good Luck,
 Jean -- Assistant to Ken Corbin
+
+***********************************************************************
+
+I found your free Cadpage subscription as of ______.  However, your Cadpage User email address has changed.  I have updated your account with your current email address.
+
+Go into Cadpage settings, press Payment Status and then Recalculate Payment Status. This reloads your payment status from the market which will usually fix things.
+
+If that fails, please contact us again. 
+
+Good Luck,
+Jean, Assistant to Ken Corbin
 
 ******************************************************************
 
@@ -489,7 +500,7 @@ You can log into to wallet.google.com and see if they list a reason why things a
 
 We also take PayPal & snail mail payments,   Details on how to do that can be found at http://www.cadpage.org/financial-support/paypal-payments
 
-Basically, you can mail a check or money order to
+Basically, you can make a check or money order payable to Cadpage and mail it to
 
 Cadpage
 35136 Kings Valley Hwy
@@ -498,7 +509,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GBPKDFEA or gbpkdfea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+GZVXQGFA or gzvxqgfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -512,7 +523,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GBPKDFEA or gbpkdfea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+GZVXQGFA or gzvxqgfa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -522,7 +533,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-GBPKDFEA or gbpkdfea.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+GZVXQGFA or gzvxqgfa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
 
@@ -2092,6 +2103,76 @@ A: Different environments.  From what I understand, the IOS environment forces d
 
 Have fun,
 -Ken
+ ***********************************************************************************
+Q:  Whenever I get a call via cadpage it says "general alert" and nothing else.
+> No map / location or call type. This seems to only be happening on the
+> Sprint network in my area. Should I be talking with Sprint or my local
+> emergency manager? 
+
+A:  Can you pick some of the calls that this is happening to, long press them and select "Report Problem" to send them to us.
+
+Good luck,
+-Ken
+************************************************************************************
+Q:  I wanted to confirm that I have this app configured correctly. I am get alerts that are not corresponding with my dept pager and think something may be wrong?
+
+A: Nothing you do with Cadpage settings does anything to determine what pages get sent to your phone.  Someone in your department sets up the department distribution list to send department alerts to your phone number.  It sounds like they might have set you up on the wrong list. You should find someone in your department to talk to about it.
+
+Good luck
+-Ken
+
+************************************************************************************
+Q:  Is there any way to make cadpage receive email pages?
+
+A: Not directly, for a variety of complicated technical reasons, Cadpage
+support for emailed alerts is just not going to happen.
+
+There are indirect ways to make this happen.  The best is to sign up
+with the Active911.com messaging service.  They can take your email
+alerts and push them to Cadpage without relying on text messages, which
+avoids a lot of problems.
+
+Alternatively, all cell network vendors maintain email address that will
+turn email into SMS or MMS text messages.  You can either forward or
+direct your email alerts to these addresses.
+
+For Verizon, the email address are
+NNNNNNNNNN@vtext.com for text messages and
+NNNNNNNNNN@vzwpix.com for MMS messages
+
+Other vendors have different gateway addresses.
+
+Have a nice day,
+-Ken
+
+************************************************************************************
+not refunding 
+
+Please allow me to explain the fee for our Cadpage app.  Because it is a high maintenance app, continually in development, our $10 fee is a per-year subscription.  You have not purchased the app, but I did find your subscription payment as of 11-12-12.  You apparently used Cadpage for over 8 months.
+
+Also, when you pay through Google Play Store, Google takes 30% of that $10. With Google, we cannot do partial refunds, so we would be losing out of most of our $7 gain. 
+
+Therefore our policy is to refund subscriptions 6 months old or less. 
+I regret to say that we will not refund your $10 payment, but if you are really in a hardship situation, please let us know.
+
+Thanks for your support, and your understanding,
+Jean, Assistant to Ken Corbin
+
+************************************************************************************
+Q:I work for two departments and would like to have two cadpage accounts. Can you develop a dual app? 
+
+
+A:Cadpage can handle multiple departments easily enough.
+
+If you other department also gets pages through Active911, it is a simple matter to have your device added to the  device lists for both departments.  If the other department only supports text pages, you have to make arrangments to have their text pages sent to your phone.  Then just select the appropriate location in Cadpage to cover your text page department.
+
+Good luck,
+-Ken
+***********************************************************************************
+> 
+
+
+
 
 
 >
