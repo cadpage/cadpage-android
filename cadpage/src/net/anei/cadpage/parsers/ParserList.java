@@ -773,6 +773,7 @@ public class ParserList {
               ,"VAOrangeCounty"                 ,"Orange County, VA"
               ,"VAPageCounty"                   ,"Page County, VA"
               ,"VAPittsylvaniaCounty"           ,"Pittsylvania County, VA"
+              ,"VAPrinceEdwardCounty"           ,"Prince Edward County, VA"
               ,"VAPrinceGeorgeCounty"           ,"Prince George County, VA"
               ,"VAPrinceWilliamCounty"          ,"Prince William County, VA"
               ,"VARoanokeCity"                  ,"Roanoke City, VA"
