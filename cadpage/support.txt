@@ -765,13 +765,15 @@ Good luck,
 * Swift shows correct page type and registration ID
 ******************************************************************
 
-Next, get whoever sets up your device with Active911 to use the Active911 web page to send a test message to your phone.  If that does not arrive in a timely manner, use the Active911 web page to look up the alert ID of an alert that you did not receive.  Then use the Cadpage Email the Developer feature to send that alert number in another email.  I can bundle all of that information and ship it to a Google engineer who is trying to troubleshoot this problem.
+First, get whoever sets up your device with Active911 to use the Active911 web page to send a test message to your phone.  
+
+If you do get the test page, but still do not receive real dispatch alerts, then something about your Active911 settings is preventing them from sending dispatch pages to you.  If your department Active911 administrator cannot figure out what that is, try contacting Active911 support for help.
+
+If the test message does not arrive in a timely manner, you have probably tripped over a problem with the underlying Google push protocol that we are trying to troubleshoot.  Use the Active911 web page to look up the alert ID of an alert that you did not receive.  Then use the Cadpage Email the Developer feature to send that alert number in another email.  I can bundle all of that information and ship it to a Google engineer who is trying to troubleshoot this problem.
 
 After all of that, you can go into Cadpage settings and select
 Direct Paging Vendors > Reconnect Direct Paging
 We do not know why, but doing this usually fixes your problem.
-
-If you do get the test page, but still do not receive real dispatch alerts, then something about your Active911 settings is preventing them from sending dispatch pages to you.  If your department Active911 administrator cannot figure out what that is, try contacting Active911 support for help.
 
 Good luck,
 -Ken
