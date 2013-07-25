@@ -46,6 +46,10 @@ Pbagnpg: evpuneq Tvyoreg <etvyoreg65@tznvy.pbz>
 Fraqre: ep.327@p-zft.arg
 Fhowrpg:PNQ\a[!] J SENAXYVA FG / A OHEUNAF OYIQ - CVP, CREF VAWHEL PBYYVFVBA - R04,F75,F754,HG3 - Genssvp / Genafcbegngvba Nppvqrag (Penfu). 12\e
 
+Pbagnpg:  senapvfpb znegvarm <senapb26_99@lnubb.pbz>
+Fraqre: ep.257@p-zft.arg
+485 NAGVRGNZ QE, NERN BS - [WRSSREFBA OYIQ - FRPHEVGL EQ @ EE GENPXF] - CVP, CREF VAWHEL PBYYVFVBA - PB27,R03,E75 - Ntr haxabja, S
+
 Pbagnpg: fhccbeg@npgvir911.pbz
 Fraqre: ep.337@p-zft.arg
 Fhowrpg: JPb\a[!] 17850 TNEYNAQ TEBU OYIQ, FHCRE JNYZNEG PRAGRE - Nppvqrag - Cebcregl Qnzntr - 9P16 - Genssvp / Genafcbegngvba Nppvqrag (Penfu). 11:57
@@ -401,6 +405,20 @@ choyvp pynff ZQJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:Genssvp / Genafcbegngvba Nppvqrag (Penfu).");
 
   }
+  
+  @Grfg
+  choyvp ibvq grfgSenapvfpbZnegvarm() {
+    
+
+    qbGrfg("G1",
+        "485 NAGVRGNZ QE, NERN BS - [WRSSREFBA OYIQ - FRPHEVGL EQ @ EE GENPXF] - CVP, CREF VAWHEL PBYYVFVBA - PB27,R03,E75 - Ntr haxabja, S",
+        "NQQE:485 NAGVRGNZ QE",
+        "CYNPR:NERN BS",
+        "K:WRSSREFBA OYIQ & FRPHEVGL EQ @ EE GENPXF",
+        "PNYY:CVP, CREF VAWHEL PBYYVFVBA",
+        "HAVG:PB27,R03,E75",
+        "VASB:Ntr haxabja, S");
+}
   
   @Grfg
   choyvp ibvq grfgNpgvir911() {

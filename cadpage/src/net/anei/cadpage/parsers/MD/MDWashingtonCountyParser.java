@@ -129,7 +129,7 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern TIME_PTN = Pattern.compile("(?<=^| )(\\d\\d:\\d\\d)\\b");
-  private static final Pattern TIME2_PTN = Pattern.compile("\\b\\d[\\d:]*$");
+  private static final Pattern TIME2_PTN = Pattern.compile("\\b[\\d:]*$");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{7}$");
   private class TrailField extends Field {
 
