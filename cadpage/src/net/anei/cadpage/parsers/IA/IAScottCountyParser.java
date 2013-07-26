@@ -15,6 +15,7 @@ public class IAScottCountyParser extends SmartAddressParser {
   
   public IAScottCountyParser() {
     super(CITY_LIST, "SCOTT COUNTY", "IA");
+    setFieldList("SRC ADDR CITY CALL INFO");
   }
   
   @Override

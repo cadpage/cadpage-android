@@ -2,6 +2,9 @@ package net.anei.cadpage.parsers.dispatch;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -77,7 +80,10 @@ public class DispatchA3Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       
       // Override previous call field
-      if (field.length() > 0) data.strCall = field;
+      // Unless this is a generic call description
+      if (field.length() == 0) return;
+      if (data.strCall.length() > 0 && GENERIC_CALL_SET.contains(field)) return;
+      data.strCall = field;
     }
   }
   
@@ -256,4 +262,11 @@ public class DispatchA3Parser extends FieldProgramParser {
     if (name.equals("UNIT")) return new UnitField("(?:[A-Z0-9]{1,4}[0-9]|RRS|CSRS)(?:[,/](?:[A-Z]{0,3}[0-9]+[A-Z]{0,3}|[A-Z]{1,4}))*");
     return super.getField(name);
   }
+  
+  private static final Set<String> GENERIC_CALL_SET = new HashSet<String>(Arrays.asList(
+      "FIRE",
+      "HAZ-MAT INCIDENT",
+      "MEDICAL EMERGENCY",
+      "TRAUMA EMERGENCY"
+  ));
 }
