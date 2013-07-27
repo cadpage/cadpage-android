@@ -94,7 +94,7 @@ public class BillingManager {
     @Override
     public void onBillingSupported(boolean supported) {
       BillingManager.this.supported = supported;
-      if (reload && supported) mService.restoreTransactions();
+      if (mService != null && reload && supported) mService.restoreTransactions();
     }
 
     @Override
