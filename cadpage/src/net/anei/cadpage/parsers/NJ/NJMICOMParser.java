@@ -18,7 +18,7 @@ public class NJMICOMParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "miccom@nnjmicu.org";
+    return "miccom@nnjmicu.org,miccom@nnjems.org";
   }
   
   @Override
