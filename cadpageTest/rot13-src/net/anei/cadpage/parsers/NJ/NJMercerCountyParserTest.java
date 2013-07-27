@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Zrepre Pbhagl, AW
 
+Pbagnpg: Eboreg Gemrcvmhe <egemrcvmhe@lnubb.pbz>
+Fraqre: abercyl_yvsrpbzz@irevmba.arg
+HAVG: 792 ; PNYY: Fvpx Crefba - NYF ; CYNPR: Cevaprgba Ubhfr ; NQQE: 905 Ureebagbja Eq ; OYQT: JVAT 3 ; NCG: ; PVGL: Cevaprgba Gbjafuvc ; KFGERRGF: Qrn
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pncvgny Urnygu
 Ybpngvba: Geragba, AW, Havgrq Fgngrf
@@ -90,6 +94,21 @@ choyvp pynff AWZreprePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp AWZreprePbhaglCnefreGrfg() {
     frgCnefre(arj AWZreprePbhaglCnefre(), "ZREPRE PBHAGL", "AW");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEboregGemrcvmhe() {
+
+    qbGrfg("G1",
+        "HAVG: 792 ; PNYY: Fvpx Crefba - NYF ; CYNPR: Cevaprgba Ubhfr ; NQQE: 905 Ureebagbja Eq ; OYQT: JVAT 3 ; NCG: ; PVGL: Cevaprgba Gbjafuvc ; KFGERRGF: Qrn",
+        "HAVG:792",
+        "PNYY:Fvpx Crefba - NYF",
+        "CYNPR:Cevaprgba Ubhfr",
+        "NQQE:905 Ureebagbja Eq",
+        "NCG:JVAT 3",
+        "PVGL:Cevaprgba Gbjafuvc",
+        "K:Qrn");
+  
   }
   
   @Grfg

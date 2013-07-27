@@ -17,6 +17,7 @@ public class NJBurlingtonCountyEParser extends SmartAddressParser {
   
   public NJBurlingtonCountyEParser() {
     super("BURLINGTON COUNTY", "NJ");
+    setFieldList("CALL ADDR CITY INFO DATE TIME");
   }
   
   @Override

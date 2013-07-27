@@ -74,6 +74,6 @@ choyvp pynff AWOheyvatgbaPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj AWOheyvatgbaPbhaglRCnefreGrfg().trarengrGrfgf("G1", "PNYY NQQE PVGL VASB QNGR GVZR");
+    arj AWOheyvatgbaPbhaglRCnefreGrfg().trarengrGrfgf("G1");
   }
 }
