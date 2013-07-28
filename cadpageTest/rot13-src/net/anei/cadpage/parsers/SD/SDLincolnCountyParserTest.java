@@ -50,6 +50,10 @@ Fraqre: ab-ercyl@yrqfcbegny.pbz
 (13-08212 - NZO : Nzohynapr Pnyy) Pnfrl'f Trareny Fgber - Pnagba \aCyrnfr erfcbaq vzzrqvngryl. 50 lb. z. Snyyra pbzcynvavat bs xarr cnva.
 (UJL 18 & UJL 11) FVPX SRZNYR VA N PNE. [Nggnpuzrag(f) erzbirq]
 
+Pbagnpg: anguna ynhonpu  <jlghegyr@ubgznvy.pbz>
+Fraqre: ab-ercyl@yrqfcbegny.pbz
+(FVT1 : Vawhel Nppvqrag FVTANY 1) 115 / 276GU FG FVTANY 1 VAWHEL NPPVQRAG HAXABJA VAWHEVRF [Nggnpuzrag(f) erzbirq]
+
 ** Cnefre snvyherf **
 Fhowrpg:qrulqengvba\a519 f onegyrgg 18 lb srznyr qrulengrq, cyrnfr erfcbaq\e
 Fhowrpg:12-11706 - NZO : Nzohynapr Pnyy\a420 F. Qnxbgn, p \e\aCyrnfr erfcbaq vzzrqvngryl. 36 lb. z cnffrq bhg.\e
@@ -306,7 +310,18 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     
   }
   
+  @Grfg
+  choyvp ibvq grfgAngunaYnhonpu() {
+
+    qbGrfg("G1",
+        "(FVT1 : Vawhel Nppvqrag FVTANY 1) 115 / 276GU FG FVTANY 1 VAWHEL NPPVQRAG HAXABJA VAWHEVRF [Nggnpuzrag(f) erzbirq]",
+        "PNYY:FVT1 : Vawhel Nppvqrag FVTANY 1",
+        "NQQE:115 & 276GU FG",
+        "VASB:FVTANY 1 VAWHEL NPPVQRAG HAXABJA VAWHEVRF");
+  
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj FQYvapbyaPbhaglCnefreGrfg().trarengrGrfgf("G3");
+    arj FQYvapbyaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
