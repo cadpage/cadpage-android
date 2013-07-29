@@ -36,6 +36,11 @@ Pbagnpg: Qnavry Svfure <qnavry27166565@tznvy.pbz>
 PbqrZrffntvat pyvrag
 Obk:27-3 KFgf:R ZVQQYR EQ ,UVYY YA Rirag Glcr:GENSSVP / GENAFCBEGNGVBA NPPVQRAG VAWHEVRF Pynff:  Qvfc: E27
 
+Pbagnpg: Ehffryy <ejnyobeawe@pbzpnfg.arg>
+Fraqre: TPZ (PbqrZrffntvat)
+Obk:26-3 Ybp:225 GEBHC EQ ZSG QNHC KFgf:FNIVQTR EQ ,ZNGGREFGBJA EQ Rirag Glcr:FGEHPGHER SVER PBZZREPVNY Pynff: 1 Qvfc: R26,O26,R21,R28,Y20,F26,E21,G26,G21,G28
+Obk:27-1 Ybp:859 R ZNEXRG FG YLG QNHC KFgf:FPUBBY UBHFR QE ,GURNGRE YA Rirag Glcr:FGEHPGHER SVER ERFVQRAGVNY Pynff: 1 Qvfc: PU27,H22,R27,R26,Y22,E27,E28,E23,RA65,R28,Y20,F26,G27,G26,RF14-10,E21,R23,R21,G28
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ybjre Fjngnen Sver Qrcnegzrag Ybpngvba: Zvqqyrgbja, CN 
 Fraqre: cjq@zrffntvat.ay
@@ -275,6 +280,31 @@ choyvp pynff CNQnhcuvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GENSSVP / GENAFCBEGNGVBA NPPVQRAG VAWHEVRF",
         "HAVG:E27");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEhffryy() {
+
+    qbGrfg("G1",
+        "Obk:26-3 Ybp:225 GEBHC EQ ZSG QNHC KFgf:FNIVQTR EQ ,ZNGGREFGBJA EQ Rirag Glcr:FGEHPGHER SVER PBZZREPVNY Pynff: 1 Qvfc: R26,O26,R21,R28,Y20,F26,E21,G26,G21,G28",
+        "OBK:26-3",
+        "NQQE:225 GEBHC EQ",
+        "PVGL:ZVSSYVA GJC",
+        "K:FNIVQTR EQ / ZNGGREFGBJA EQ",
+        "PNYY:FGEHPGHER SVER PBZZREPVNY",
+        "CEV:1",
+        "HAVG:R26,O26,R21,R28,Y20,F26,E21,G26,G21,G28");
+
+    qbGrfg("G2",
+        "Obk:27-1 Ybp:859 R ZNEXRG FG YLG QNHC KFgf:FPUBBY UBHFR QE ,GURNGRE YA Rirag Glcr:FGEHPGHER SVER ERFVQRAGVNY Pynff: 1 Qvfc: PU27,H22,R27,R26,Y22,E27,E28,E23,RA65,R28,Y20,F26,G27,G26,RF14-10,E21,R23,R21,G28",
+        "OBK:27-1",
+        "NQQE:859 R ZNEXRG FG",
+        "PVGL:YLXRAF GJC",
+        "K:FPUBBY UBHFR QE / GURNGRE YA",
+        "PNYY:FGEHPGHER SVER ERFVQRAGVNY",
+        "CEV:1",
+        "HAVG:PU27,H22,R27,R26,Y22,E27,E28,E23,RA65,R28,Y20,F26,G27,G26,RF14-10,E21,R23,R21,G28");
+
   }
   
   @Grfg
