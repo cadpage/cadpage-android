@@ -138,6 +138,10 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
         data.strSupp = append(data.strSupp, "\n", field);
         return true;
       }
+      if (field.contains(" Changed Via ProQA From:")) return true;
+      if (field.startsWith("*")) return true;
+      if (field.equals("PROQA ABORTED")) return false;
+      if (field.length() == 0) return true;
       return false;
     }
 

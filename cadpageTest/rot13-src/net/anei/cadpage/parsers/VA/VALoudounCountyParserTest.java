@@ -36,6 +36,7 @@ Pbagnpg:  Qreevpx Oraargg <Qreevpx@pnqcntr.bet>
 Fraqre: Ybhqbha Rzcyblrr EFNA <zft_1M9W@znvy.rznpbbc.ybhqbha.tbi>
 PNYY:01N01-NOQBZVANY CNVA, 42073 TERRAFGBAR QE-NY NCG: K-FG:ZVARENY FCEVATF PVE & ORN Z6092 NPB9, OBK:0910 NQP:5520 P02 SQVQ:99079 6:05 CZ
 (Ybhqbha PNQ) PNYY:31Q03-HAPBAFPVBHF CR, 25025 BJY PERRX QE-NY NCG: K-FG:HENY QE TENLJNPXR QE  R609O, OBK:0948  NQP:5520 O02 SQVQ:99079 10709\a\aFrag ol Rkpunatr Vasbezngvba gb Pbzcnal 9 Ibyhagrref (R-znvy nppbhagf,\aCntref, Pryy cubarf) guebhtu Ybhqbha Rzcyblrr EFNA - Cbjrerq ol gur Ebnz\aFrpher Nyreg Argjbex
+PNYY:VAI-VAIRFGVTNGVBA, FUERIRCBEG QE-NO/ORYZBAG EVQTR EQ-NO NCG: K-FG:ORYZBAG EVQTR EQ ORYZBAG R609O RPB9, OBK:0955 NQP:5400 R06 SQVQ:10709
 
 Pbagnpg: Gubznf Xnar <gxnar@chepryyivyyrsver.bet>
 Pnyy:US-UBHFR SVER,22 NQNZF QE AR-YO Ncg:,K-Fg:UREVGNTR JNL AR U,R620 R622O R606O R610 G620 GY606 E613 N6133 OP601 NP602 RZ601 RPB20 NP
@@ -199,7 +200,7 @@ choyvp pynff INYbhqbhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre2() {
+  choyvp ibvq grfgQreevpxOraarg() {
 
     qbGrfg("G1",
         "PNYY:01N01-NOQBZVANY CNVA, 42073 TERRAFGBAR QE-NY NCG: K-FG:ZVARENY FCEVATF PVE & ORN Z6092 NPB9, OBK:0910 NQP:5520 P02 SQVQ:99079 6:05 CZ",
@@ -229,7 +230,19 @@ choyvp pynff INYbhqbhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:0948",
         "ZNC:5520 O02",
         "VQ:99079 10709");
-  
+
+    qbGrfg("G3",
+        "PNYY:VAI-VAIRFGVTNGVBA, FUERIRCBEG QE-NO/ORYZBAG EVQTR EQ-NO NCG: K-FG:ORYZBAG EVQTR EQ ORYZBAG R609O RPB9, OBK:0955 NQP:5400 R06 SQVQ:10709",
+        "PBQR:VAI",
+        "PNYY:VAIRFGVTNGVBA",
+        "NQQE:FUERIRCBEG QE & ORYZBAG EVQTR EQ",
+        "PVGL:Nfuohea",
+        "K:ORYZBAG EVQTR EQ & ORYZBAG",
+        "HAVG:R609O RPB9",
+        "OBK:0955",
+        "ZNC:5400 R06",
+        "VQ:10709");
+ 
   }
   
   @Grfg
