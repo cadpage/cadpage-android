@@ -2172,8 +2172,30 @@ If you other department also gets pages through Active911, it is a simple matter
 Good luck,
 -Ken
 ***********************************************************************************
-> 
+Explanation of CodeMessaging and Active911 
 
+Cadpage, as a standalone app, has no addition features beyond what you
+get during the evaluation demo.  And no additional costs beyond the
+regular $10/year subscription fee.
+
+If you use CodeMessaging.net or Active911.com as your message forwarding
+service, they will provide additional features.  Both can push pages to
+Cadpage without relying on text messaging, which eliminates any text
+message fees and length limits.  CodeMessaging will keep track of and
+report responder status.  Active911 will track and report bot responder
+status and position.  These are features which are really providing by
+the forwarding service, but Cadpage supports their use.
+
+Using either agency will allow your IPhone users to run Cadpage like
+apps.  Restrictions imposed by the IOS system prevent IPhone apps from
+intercepting text pages the way Cadpage/Android does.  The only way to
+use a Cadpage like app on an IOS device is if one of those two services
+can push pages to it.
+
+And Cadpage itself is free if you are getting direct pages from either
+service.
+
+Have a nice day,
 
 
 
