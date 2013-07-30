@@ -358,6 +358,7 @@ public class ParserList {
               ,"MIEmmetCounty"                  ,"Emmet County, MI"
               ,"MIIsabellaCounty"               ,"Isabella County, MI"
               ,"MILeelanauCounty"               ,"Leelanau County, MI"
+              ,"MILenaweeCounty"                ,"Lenawee County, MI"
               ,"MILivingstonCounty"             ,"Livingston County, MI"
               ,"MIMidlandCounty"                ,"Midland County, MI"
               ,"MIMobileMedicalResponse"        ,"Mobile Medical Response, MI"
