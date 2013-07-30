@@ -10,12 +10,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
   
+  private static final Pattern MARKER = Pattern.compile("^INCIDENT (\\d+)\n\n");
   private static final Pattern DELIM = Pattern.compile("\\n{1,2}");
   
   
   public MDAnneArundelCountyAnnapolisParser() {
     super(CITY_CODES, "ANNE ARUNDEL COUNTY", "MD",
-           "ID CALL1 ADDR/y MAP SKIP! X+? Nature:CALL! Call_back:PHONE? EXTRA+? UNIT INFO+? TIMEDATE!");
+           "CALL1 ADDR/y MAP SKIP! X+? Nature:CALL! Call_back:PHONE? EXTRA+? UNIT HYDRANTS INFO+? TIMEDATE!");
   }
   
   @Override
@@ -27,7 +28,20 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("_subject_")) return false;
+    
+    // Check for duplicated page
+    Matcher match = MARKER.matcher(body);
+    if (!match.find())  return false;
+    data.strCallId = match.group(1);
+    body = body.substring(match.end()).trim();
+    int pt = body.indexOf(match.group());
+    if (pt >= 0) body = body.substring(0,pt).trim();
     return parseFields(DELIM.split(body), 7, data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "ID " + super.getProgram();
   }
   
   private static final Pattern CALL1_PTN = Pattern.compile("CODE +([A-Z0-9]+) +(.*?)( +ALARM 1)?");
@@ -97,57 +111,35 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
   
   private static final Pattern EXTRA_MARKER = Pattern.compile(" +\\([-0-9]+\\)$");
   private static final Pattern EXTRA_PHONE_PTN = Pattern.compile("\\d{10}");
+  private static final Pattern EXTRA_SKIP_PTN = Pattern.compile("^VERIFY|^TAC CHANNEL|^Added unit |^Remove unit |^VOIP CALL QUERY|^WIRELESS CALLER VERIFY LOCATION|^New Fire Incident location:|^Fire service incident | changed from[ :]| Changed Via ProQA | had changed quarters for |'on air'");
   private class MyExtraField extends Field {
-    @Override
-    public boolean canFail() {
-      return true;
-    }
     
     @Override
-    public boolean checkParse(String field, Data data) {
-      Matcher match = EXTRA_MARKER.matcher(field);
-      if (match.find()) {
-        field = field.substring(0,match.start());
-        if (field.startsWith("Community of ")) {
-          String city = field.substring(13).trim();
-          if (city.endsWith(" CITY")) city = city.substring(0,city.length()-5).trim();
-          if (city.equals("ANNAPOLIS")) {
-            if (data.strCity.length() == 0) data.strCity = city;
-          } 
-          else if (data.strPlace.length() == 0) {
-            data.strPlace = city;
-          }
-          return true;
-        }
-        
-        match = EXTRA_PHONE_PTN.matcher(field);
-        if (match.matches()) {
-          data.strPhone = field;
-          return true;
-        }
-        
-        if (field.startsWith("VERIFY ")) return true;
-        if (field.startsWith("TAC CHANNEL ")) return true;
-        if (field.startsWith("Tactical channel changed from ")) return true;
-        if (field.contains(" had changed quarters for ")) return true;
-        if (field.startsWith("Added unit ")) return true;
-        if (field.startsWith("VOIP CALL QUERY")) return true;
-        if (field.startsWith("WIRELESS CALLER VERIFY LOCATION")) return true;
-        if (field.contains("'on air'")) return true;
-        if (field.startsWith("ProQaA:")) field = field.substring(7).trim();
-        data.strSupp = append(data.strSupp, "\n", field);
-        return true;
-      }
-      if (field.contains(" Changed Via ProQA From:")) return true;
-      if (field.startsWith("*")) return true;
-      if (field.equals("PROQA ABORTED")) return false;
-      if (field.length() == 0) return true;
-      return false;
-    }
-
-    @Override
     public void parse(String field, Data data) {
-      if (!checkParse(field, data)) abort();
+      if (field.startsWith("*")) field = field.substring(1).trim();
+      Matcher match = EXTRA_MARKER.matcher(field);
+      if (match.find()) field = field.substring(0, match.start());
+      if (field.startsWith("Community of ")) {
+        String city = field.substring(13).trim();
+        if (city.endsWith(" CITY")) city = city.substring(0,city.length()-5).trim();
+        if (city.equals("ANNAPOLIS")) {
+          if (data.strCity.length() == 0) data.strCity = city;
+        } 
+        else if (data.strPlace.length() == 0) {
+          data.strPlace = city;
+        }
+        return;
+      }
+      
+      match = EXTRA_PHONE_PTN.matcher(field);
+      if (match.matches()) {
+        data.strPhone = field;
+        return;
+      }
+      
+      if (EXTRA_SKIP_PTN.matcher(field).find()) return;
+      if (field.startsWith("ProQaA:")) field = field.substring(7).trim();
+      data.strSupp = append(data.strSupp, "\n", field);
     }
 
     @Override
@@ -156,11 +148,30 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
     }
   }
   
-  private class MyInfoField extends InfoField {
+  private class HydrantsField extends MyInfoField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("HYDRANTS:")) return false;
+      parse(field, data);
+      return true;
+    }
+    
     @Override
     public void parse(String field, Data data) {
       if (field.equals("HYDRANTS:  () &  ()")) return;
       if (field.equals("HYDRANTS:  (0) &  (0)")) return;
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
       data.strSupp = append(data.strSupp, "\n", field);
     }
   }
@@ -190,13 +201,13 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
   
   @Override
   public  Field getField(String name) {
-    if (name.equals("ID")) return new IdField("INCIDENT (\\d+)", true);
     if (name.equals("CALL1")) return new MyCall1Field();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("MAP")) return new MyMapField();
     if (name.equals("X")) return new CrossField(".*? cross street - +(.*?)(?:-[A-Z]{2})?", true);
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("EXTRA")) return new MyExtraField();
+    if (name.equals("HYDRANTS")) return new HydrantsField();
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("TIMEDATE")) return new MyTimeDateField();
     return super.getField(name);
