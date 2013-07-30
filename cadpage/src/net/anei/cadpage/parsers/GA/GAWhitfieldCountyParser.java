@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class GAWhitfieldCountyParser extends SmartAddressParser {
 
-  private static final Pattern MARKER = Pattern.compile("^WHITFIELD CO\\. 911:|WHITFIELD_CO_911:|WHITFIELD_911::");
+  private static final Pattern MARKER = Pattern.compile("^WHITFIELD CO\\. 911:|WHITFIELD_CO_911:|WHITFIELD_911::?");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
   
   public GAWhitfieldCountyParser() {
@@ -44,7 +44,7 @@ public class GAWhitfieldCountyParser extends SmartAddressParser {
       if (data.strCall.length() != 0) {
         parseAddress(sAddr, data);
       } else {
-        parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, sAddr, data);
+        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, sAddr, data);
         data.strPhone = match.group();
       }
       data.strSupp = body.substring(match.end()).trim();
@@ -59,6 +59,7 @@ public class GAWhitfieldCountyParser extends SmartAddressParser {
   
   private static final String[] CALL_LIST = new String[]{
     "50I M.V. ACCIDENT W/INJURIES ",
+    "50P M.V. ACCIDENT W/PEDESTRIAN ",
     "F12 SF-COMMERCIAL/INDUSTRIAL/SCHOO ",
     "F15 FIRE ALARM ",
     "F21 VEHICLE FIRE - CMV "
