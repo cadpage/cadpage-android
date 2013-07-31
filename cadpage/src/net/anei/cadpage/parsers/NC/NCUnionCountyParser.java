@@ -13,7 +13,7 @@ public class NCUnionCountyParser extends DispatchOSSIParser {
   
   public NCUnionCountyParser() {
     super(CITY_LIST, "UNION COUNTY", "NC",
-           "( CANCEL ADDR CITY? | FYI? ID? ADDR CITY? CALL ) SRC? CUSTOM? INFO+? DATETIME ID? PLACE");
+           "( CANCEL ADDR CITY? ID? | FYI? ID? ADDR CITY? ID? CALL ) SRC? CUSTOM? INFO+? DATETIME ID? PLACE");
   }
   
   @Override
@@ -76,7 +76,7 @@ public class NCUnionCountyParser extends DispatchOSSIParser {
   
   @Override
   protected Field getField(String name) {
-    if (name.equals("CANCEL")) return new CallField("CANCEL");
+    if (name.equals("CANCEL")) return new CallField("CANCEL|UNDER CONTROL");
     if (name.equals("SRC")) return new SourceField("[A-Z0-9]{2,4}", true);
     if (name.equals("CUSTOM")) return new CustomField();
     if (name.equals("INFO")) return new MyInfoField();
