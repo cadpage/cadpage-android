@@ -38,6 +38,27 @@ CEBO:Nhgbmbar                           NQQ: 911 Zrqvpny                   NCG: 
 CEBO:911 Gnznenp Cxjl                   NQQ: Grfg Pnyy                     NCG:     YBP:Jbbqynaq Cnex CQ    Jbbqynaq Cnex CQ
 CEBO:1 Grfg Qe                          NQQ: Nffvfg Sver Qrcnegzrag        NCG:     YBP:Jbbqynaq Cnex CQ    Jbbqynaq Cnex CQ
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: AR Gryyre Pbhagl Sver
+Ybpngvba: Jbbqynaq Cnex, PB, Havgrq Fgngrf
+Fraqre: rcg@rcg911.vasb
+
+Nqq:11400 Ujl 24                       Ceboyrz:Genssvp Nppvqrag                   Ybp:
+Nqq:11400 24 UJL                                                                    Ceboyrz:Pvgvmra Nffvfg
+Nqq:450 Ubzrfgrnq Qe                                                                Ceboyrz:Noqbzvany Cnva
+Nqq:3277 Fcehpr Eq                                                                  Ceboyrz:Genssvp Nppvqrag
+Nqq:440 Pbpurgbcn Eq                                                                Ceboyrz:Sver
+Nqq:28548 Ujl 67                                                                    Ceboyrz:Snyy
+Nqq:Onpx Fvqr Zg Urezna                                                             Ceboyrz:Sver
+Nqq:107 Nfcra Ebnq                                                                  Ceboyrz:Zrqvpny
+Nqq:425 Pe 21                                                                       Ceboyrz:Zrqvpny
+Nqq:1451  Oynpxsbbg Ge                                                              Ceboyrz:Urzbeeuntr/Ynprengvbaf
+Nqq:PZR Ragenapr                                                                    Ceboyrz:Fzbxr Ercbeg
+Nqq:28564 Ujl 67                                                                    Ceboyrz:Fzbxr Ercbeg
+Nqq:1451 Oynpxsbbg Gey                                                              Ceboyrz:Oernguvat Ceboyrzf
+Nqq:Erq Ebpxf Evtug Bss Ujl 67                                                      Ceboyrz:Genssvp Nppvqrag
+Nqq:3 Zvyrf Abegu Bs Jc Ba Ujl 67                                                   Ceboyrz:Fzbxr Ercbeg
+
  */
 
 choyvp pynff PBGryyrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -198,6 +219,89 @@ choyvp pynff PBGryyrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Nffvfg Sver Qrcnegzrag",
         "CYNPR:Jbbqynaq Cnex CQ");
     
+  }
+  
+  choyvp ibvq grfgARGryyrePbhaglSver2() {
+
+    qbGrfg("G1",
+        "Nqq:11400 Ujl 24                       Ceboyrz:Genssvp Nppvqrag                   Ybp:",
+        "NQQE:11400 Ujl 24",
+        "PNYY:Genssvp Nppvqrag");
+
+    qbGrfg("G2",
+        "Nqq:11400 24 UJL                                                                    Ceboyrz:Pvgvmra Nffvfg",
+        "NQQE:11400 24 UJL",
+        "ZNQQE:11400 UJL 24",
+        "PNYY:Pvgvmra Nffvfg");
+
+    qbGrfg("G3",
+        "Nqq:450 Ubzrfgrnq Qe                                                                Ceboyrz:Noqbzvany Cnva",
+        "NQQE:450 Ubzrfgrnq Qe",
+        "PNYY:Noqbzvany Cnva");
+
+    qbGrfg("G4",
+        "Nqq:3277 Fcehpr Eq                                                                  Ceboyrz:Genssvp Nppvqrag",
+        "NQQE:3277 Fcehpr Eq",
+        "PNYY:Genssvp Nppvqrag");
+
+    qbGrfg("G5",
+        "Nqq:440 Pbpurgbcn Eq                                                                Ceboyrz:Sver",
+        "NQQE:440 Pbpurgbcn Eq",
+        "PNYY:Sver");
+
+    qbGrfg("G6",
+        "Nqq:28548 Ujl 67                                                                    Ceboyrz:Snyy",
+        "NQQE:28548 Ujl 67",
+        "PNYY:Snyy");
+
+    qbGrfg("G7",
+        "Nqq:Onpx Fvqr Zg Urezna                                                             Ceboyrz:Sver",
+        "NQQE:Onpx Fvqr Zg Urezna",
+        "PNYY:Sver");
+
+    qbGrfg("G8",
+        "Nqq:107 Nfcra Ebnq                                                                  Ceboyrz:Zrqvpny",
+        "NQQE:107 Nfcra Ebnq",
+        "PNYY:Zrqvpny");
+
+    qbGrfg("G9",
+        "Nqq:425 Pe 21                                                                       Ceboyrz:Zrqvpny",
+        "NQQE:425 Pe 21",
+        "ZNQQE:425 PBHAGL EBNQ 21",
+        "PNYY:Zrqvpny");
+
+    qbGrfg("G10",
+        "Nqq:1451  Oynpxsbbg Ge                                                              Ceboyrz:Urzbeeuntr/Ynprengvbaf",
+        "NQQE:1451  Oynpxsbbg Ge",
+        "PNYY:Urzbeeuntr/Ynprengvbaf");
+
+    qbGrfg("G11",
+        "Nqq:PZR Ragenapr                                                                    Ceboyrz:Fzbxr Ercbeg",
+        "NQQE:PZR Ragenapr",
+        "PNYY:Fzbxr Ercbeg");
+
+    qbGrfg("G12",
+        "Nqq:28564 Ujl 67                                                                    Ceboyrz:Fzbxr Ercbeg",
+        "NQQE:28564 Ujl 67",
+        "PNYY:Fzbxr Ercbeg");
+
+    qbGrfg("G13",
+        "Nqq:1451 Oynpxsbbg Gey                                                              Ceboyrz:Oernguvat Ceboyrzf",
+        "NQQE:1451 Oynpxsbbg Gey",
+        "PNYY:Oernguvat Ceboyrzf");
+
+    qbGrfg("G14",
+        "Nqq:Erq Ebpxf Evtug Bss Ujl 67                                                      Ceboyrz:Genssvp Nppvqrag",
+        "NQQE:Erq Ebpxf Evtug Bss Ujl 67",
+        "ZNQQE:Erq Ebpxf Evtug & Ujl 67",
+        "PNYY:Genssvp Nppvqrag");
+
+    qbGrfg("G15",
+        "Nqq:3 Zvyrf Abegu Bs Jc Ba Ujl 67                                                   Ceboyrz:Fzbxr Ercbeg",
+        "NQQE:3 Zvyrf Abegu Bs Jc Ba Ujl 67",
+        "ZNQQE:3 Zvyrf",
+        "PNYY:Fzbxr Ercbeg");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

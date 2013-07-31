@@ -1,14 +1,14 @@
 package net.anei.cadpage.parsers.CO;
 
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.MsgParser;
 
 
-
-public class COTellerCountyParser extends MsgParser {
+public class COTellerCountyParser extends FieldProgramParser {
   
   public COTellerCountyParser() {
-    super("TELLER COUNTY", "CO");
+    super("TELLER COUNTY", "CO",
+           "Add:ADDR! Problem:CALL! Loc:PLACE");
   }
   
   @Override
@@ -17,7 +17,7 @@ public class COTellerCountyParser extends MsgParser {
   }
 
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
     
     if (body.length() >= 87 &&
         body.substring(0,5).equals("PROB:") &&
@@ -33,6 +33,7 @@ public class COTellerCountyParser extends MsgParser {
       return true;
     }
     
-    return false;
+    // Second format is handled by field program parser
+    return super.parseMsg(body,  data);
   }
 }
