@@ -242,7 +242,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-EIESBWDA or eiesbwda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+SNGRIEBA or sngrieba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -365,7 +365,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-EIESBWDA or eiesbwda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+SNGRIEBA or sngrieba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -398,6 +398,9 @@ Jean -- Assistant to Ken Corbin
 
 ***********************************************************************
 
+Since your DEMO period is longer than the remaining time on your subscription, the DEMO status takes priority.
+
+**********************************************************************
 I found your free Cadpage subscription as of ______.  However, your Cadpage User email address has changed.  I have updated your account with your current email address.
 
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status. This reloads your payment status from the market which will usually fix things.
@@ -510,7 +513,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-EIESBWDA or eiesbwda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+SNGRIEBA or sngrieba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -524,7 +527,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-EIESBWDA or eiesbwda.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+SNGRIEBA or sngrieba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -534,11 +537,11 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-EIESBWDA or eiesbwda.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+SNGRIEBA or sngrieba.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
-Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information I need to figure out what is wrong.
+Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information needed to figure out what is wrong.
 
-If Cadpage is missing calls entirely, got into settings and press the Email the Developer settings as soon as possible.  The email that generates includes information about the most recently received text message.  Which will hopefully be enough to help me figure out what is wrong.
+If Cadpage is missing calls entirely, go into Settings and press the Email the Developer settings as soon as possible.  The email that generates includes information about the most recently received text message.  Which will hopefully be enough to help me figure out what is wrong.
 
 Have a nice day,
 -Ken
@@ -900,7 +903,9 @@ If you can long press one of the calls you get and select Report Problem to send
 ** long list
 ******************************************************************
 
-We have two different long and involved trouble shooting procedures.  This the list for user who are getting regular text pages.  If you are getting direct pages from Active911 or CodeMessaging, this is the wrong list for you.  You should contact us for the direct page troubleshooting list.
+We have two different long and involved trouble shooting procedures.  The following is a list for users who are getting regular text pages.
+
+If you are getting direct pages from Active911 or CodeMessaging, you should contact us for the direct page troubleshooting list.
 
 It is a long list. Take it one step at a time. The important steps are the last two.  They send us information about your text pages that we need to figure out what is wrong.
 
@@ -919,7 +924,9 @@ Jean -- Assistant to Ken Corbin
 
 ******************************************************************
 
-We have two different long and involved trouble shooting procedures.  This the list for user who are getting regular text pages.  If you are getting direct pages from Active911 or CodeMessaging, this is the wrong list for you.  You should contact us for the direct page troubleshooting list.
+We have two different long and involved trouble shooting procedures.  The following is a list for users who are getting regular text pages.
+
+If you are getting direct pages from Active911 or CodeMessaging, you should contact us for the direct page troubleshooting list.
 
 This is a partial list of what the problem might be.  If you need more help, please use the Cadpage app, and from Settings, select Email the Developer. We can gain lots of information from the data that comes with that message.
 
