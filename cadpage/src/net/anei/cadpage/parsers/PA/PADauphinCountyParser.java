@@ -88,23 +88,20 @@ public class PADauphinCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      
-      // Missing
-      // BERRYSBURG
-      // JEFFERSON TWP
-      // LYKENS TWP
-      // RUSH TWP
                    
+      "BEB DAUP",  "BERRYSBURG",
       "CWT DAUP",  "CONEWAGO TWP",
-//      "DAB DAUP",  "DAB DAUP",  // Unknown
+      "DAB DAUP",  "DAUPHIN",
       "DRY DAUP",  "DERRY TWP",
       "EHT DAUP",  "EAST HANOVER TWP",
       "ELZ DAUP",  "ELIZABETHVILLE",
-//      "HBG DAUP",  "HBG DAUP", // Unknown
+      "GRB DAUP",  "GRATZ",
+      "HBG DAUP",  "HARRISBURG",
       "HFT DAUP",  "HALIFAX TWP",
       "HFX DAUP",  "HALIFAX",
       "HSP DAUP",  "HIGHSPIRE",
       "HUM DAUP",  "HUMMELSTOWN",
+      "JFT DAUP",  "JEFFERSON TWP",
       "JKT DAUP",  "JACKSON TWP",
       "LDT DAUP",  "LONDONDERRY TWP",
       "LPT DAUP",  "LOWER PAXTON TWP",
@@ -117,8 +114,10 @@ public class PADauphinCountyParser extends FieldProgramParser {
       "MSB DAUP",  "MILLERSBURG",
       "PAX DAUP",  "PAXTANG",
       "PEN DAUP",  "PENBROOK",
+      "PLB DAUP",  "PILLOW",
       "RDT DAUP",  "REED TWP",
       "ROY DAUP",  "ROYALTON",
+      "RUS DAUP",  "RUSH TWP",
       "SHT DAUP",  "SOUTH HANOVER TWP",
       "STL DAUP",  "STEELTON",
       "SUS DAUP",  "SUSQUEHANNA TWP",
@@ -129,6 +128,7 @@ public class PADauphinCountyParser extends FieldProgramParser {
       "WIL DAUP",  "WILLIAMSTOWN",
       "WLT DAUP",  "WILLIAMS TWP",
       "WST DAUP",  "WASHINTON TWP",
+      "WYT DAUP",  "WAYNE TWP",
 
       // Cumberland County
       "EPEN CUMB", "EAST PENNSBORO TWP",
