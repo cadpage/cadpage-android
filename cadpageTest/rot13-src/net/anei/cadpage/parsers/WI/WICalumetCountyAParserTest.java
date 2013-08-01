@@ -129,6 +129,7 @@ choyvp pynff JVPnyhzrgPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SUN110117000011",
         "PNYY:ERFPHR NQINAPRQ YVSR",
         "NQQE:PBHAGL EQ XX & ABR EQ",
+        "ZNQQE:PBHAGL EBNQ XX & ABR EQ",
         "PVGL:UNEEVFBA",
         "ANZR:GNHF,NAARGGR",
         "VASB:44 LE BYQ SRZNYR JVGU PURFG CNVAF");
