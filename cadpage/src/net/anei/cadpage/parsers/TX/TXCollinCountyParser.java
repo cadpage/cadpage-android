@@ -21,6 +21,7 @@ public class TXCollinCountyParser extends FieldProgramParser {
     "COLLIN COUNTY",
     "BLUE RIDGE",
     "LOWRY CROSSING",
+    "LITTLE ELM",
     "ROYSE CITY",
     "ST PAUL",
     "VAN ALSTYNE",
