@@ -38,15 +38,23 @@ public class NYMonroeCountyWebsterParser extends DispatchA7BaseParser {
       data.strPriority = match.group(3);
       body = body.substring(match.end()).trim();
     }
-    return super.parseMsg(body, data);
+    if (!body.startsWith("L:") && !body.startsWith("A:") && !body.startsWith("BOX:")) body = "L:" + body;
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strSupp.startsWith(",")) data.strSupp = data.strSupp.substring(1).trim();
+    return true;
   }
   
   @Override
   public String adjustMapAddress(String addr) {
     // PK is abbreviation of PARK instead of the expected PIKE
-    return PK_PATTERN.matcher(addr).replaceAll("PARK");
+    addr = PK_PATTERN.matcher(addr).replaceAll("PARK");
+    addr = SPENCERPRT_PTN.matcher(addr).replaceAll("SPENCERPORT");
+    addr = OGDENPARMATL_PTN.matcher(addr).replaceAll("OGDEN PARMA TOWN LINE");
+    return addr;
   }
   private static final Pattern PK_PATTERN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SPENCERPRT_PTN = Pattern.compile("\\bSPENCERPRT\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern OGDENPARMATL_PTN = Pattern.compile("\\bOGDEN PARMA T ?L\\b", Pattern.CASE_INSENSITIVE);
   
   @Override
   public String getProgram() {

@@ -68,10 +68,22 @@ public class DispatchA7BaseParser extends FieldProgramParser {
     
     int pt = sAddr.indexOf(" at ");
     if (pt >= 0) {
-      data.strPlace = sAddr.substring(0,pt).trim();
+      String place = sAddr.substring(0,pt).trim();
       sAddr = sAddr.substring(pt+4).trim();
-      pt = data.strPlace.indexOf(',');
-      if (pt >= 0) data.strPlace = data.strPlace.substring(0,pt).trim();
+      pt = place.indexOf(',');
+      if (pt >= 0) place = place.substring(0,pt).trim();
+      match = APT_MARK.matcher(place);
+      if (match.find()) {
+        data.strApt = match.group(1);
+        place = place.substring(0,match.start());
+      }
+      data.strPlace = place;
+    }
+    
+    match = APT_MARK.matcher(sAddr);
+    if (match.find()) {
+      data.strApt = match.group(1);
+      sAddr = sAddr.substring(0,match.start());
     }
     
     match = PLACE_MARK.matcher(sAddr);
@@ -100,6 +112,7 @@ public class DispatchA7BaseParser extends FieldProgramParser {
   }
   private static final Pattern ADDR_TRAIL_MARK = Pattern.compile(" *\\([A-Z]{1,2}\\)$");
   private static final Pattern CROSS_MARK = Pattern.compile(" X/| s?btwn[: ]");
+  private static final Pattern APT_MARK = Pattern.compile(" *-? *\\bAPT(?!S) *#? *([^ ]+)$");
   private static final Pattern PLACE_MARK = Pattern.compile(" -+ ");
 
   /**
