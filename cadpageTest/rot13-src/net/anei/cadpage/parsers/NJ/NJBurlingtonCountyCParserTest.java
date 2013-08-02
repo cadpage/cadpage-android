@@ -219,6 +219,112 @@ Fraqre: @PB.OHEYVATGBA.AW.HF
 (Nhgbzngvp E&E Abgvsvpngvba) \a  \a** ** ** ** ** ** ** ** ** ** ** ** SVANY ERCBEG ** ** ** ** ** ** ** ** ** ** ** **  \aVapvqrag Ahzore  : 2013-00000052                    BEV: 03241         Fgngvba:  \aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1  \aVapvqrag Ybpngvba: 100 J PUNEYRF FG                                     Irahr: Cnyzlen  \aPbzzba Anzr. . . : PUNEYRF FG FPUBBY \a\aPnyy Gvzr- 17:05:14                                Qngr- 04/24/2013  \aQvfcngpu - 17:05:35     Ra-ebhgr- 17:11:58     Ba-fprar-              Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga-              Pyrnerq - 17:15:32 \a\aNern: 8093              Frpgvba :   93         Orng  . : 8093  \aTevq:   Q2              Dhnqenag: 8021         Qvfgevpg: 8002 \a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY \a\aPnyyre. . . : ORINA FRPHEVGL  \aPbzcynvagnag: BCG 3922 \a\aAngher bs Pnyy : NPGVINGRQ NHQ SVER//MBAR 1//8567862972//JVYY \a\aNqqvgvbany Vasb  \a  ABGVSL \a\aAneengvir  \a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.  \a    Havg: S2415   Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 04/24/13  17:05:35     RAE: 04/24/13  17:11:58  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 04/24/13  17:15:32  \a    Havg: S8011   Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 04/24/13  17:05:35     RAE:             :  :  \a       NEI: 04/24/13  17:11:42     QCG:             :  :  \a       DGE:             :  :       PYE: 04/24/13  17:15:32  \a    Havg: S8000   Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 04/24/13  17:06:36     RAE: 04/24/13  17:06:38  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 04/24/13  17:15:32  \a    Havg: S8001   Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 04/24/13  17:07:49     RAE: 04/24/13  17:07:53  \a       NEI: 04/24/13  17:08:51     QCG:             :  :  \a       DGE:             :  :       PYE: 04/24/13  17:15:32  \a    Havg: S8015   Enqvb:           Bspe 1:            Bspe 2:  \a       QFC: 04/24/13  17:12:05     RAE: 04/24/13  17:12:07  \a       NEI:             :  :       QCG:             :  :  \a       DGE:             :  :       PYE: 04/24/13  17:15:32  \a S8000 ERCBEGVAT ZNYS QRGRPGBE URNQ FNZR JVYY OR ERCNVERQ OL  17:15:25  \a ZNVAG. //                                                    17:15:29 \a\aGur Pnyy Gnxre vf WBUAFBA ONEONEN  \aGur Qvfcngpure vf LHEPUB TRBETR
 (Nhgbzngvp E&E Abgvsvpngvba) \a  \aVapvqrag Ahzore  : 2013-00000080                    BEV: 03801         Fgngvba:  \aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1  \aVapvqrag Ybpngvba: 100 J PUNEYRF FG                                     Irahr: Cnyzlen  \aYbpngrq Orgjrra  : JNYAHG FG/CNEX NI  \aPbzzba Anzr. . . : PUNEYRF FG FPUBBY \a\aPnyy Gvzr- 17:05:14                                Qngr- 04/24/2013  \aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-  \aNeevir 2 -              Qrcneg 2-              Va-fgnga- \a\aNern: 8093              Frpgvba :   93         Orng  . : 8093        Znc . . :  \aTevq:   Q2              Dhnqenag: 8021         Qvfgevpg: 8002 \a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY \a\aPnyyre. . . : ORINA FRPHEVGL  \aPbzcynvagnag: BCG 3922 \a\aHavgf frag  :  \a 03801       S8011 \a\aAngher bs Pnyy : NPGVINGRQ NHQ SVER//MBAR 1//8567862972//JVYY \a\aNqqvgvbany Vasb  \a  PUNEYRF FG FPUBBY  \a  ABGVSL \a\aNqqerff Purpxf \a\aOhvyqvat-TRB : Choyvp Ohvyqvat  \a  Unmneqf . . . :    Cubgbibygnvp Flfgrz - (Fbyne Cbjre)  \a  Qngr bs Ragel:     3-23-2011  \a  Pbzzba Anzr:       PUNEYRF FGERRG FPUBBY  \a  Unmneq Vasb:       SVER SVTUGVAT/RYRPGEVPNY UNMNEQ-FBYNE RARETL FLFGRZ BA FVGR \a\aNqqvgvbany Vap#f:  \a 03241       201300000052 \a\aGur Pnyy Gnxre vf WBUAFBA ONEONEN  \aGur Qvfcngpure vf LHEPUB TRBETR
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Zbhag Ynhery Sver Qrcnegzrag
+Ybpngvba: Zbhag ynhery, AW, Havgrq Fgngrf
+Fraqre: @PB.OHEYVATGBA.AW.HF
+
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ufcebjy@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 12:30:48 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002969                    BEV: R360          Fgngvba: Fgn 362\aVapvqrag Glcr  . :  129 R NppVawel             Cevbevgl: 1\aVapvqrag Ybpngvba: 1420 AVKBA QE                                        Irahr: Zg Ynhery\aYbpngrq Orgjrra  : ZBBERFGBJA GJC YVAR/YVAX EQ\aPbzzba Anzr. . . : ORFG OHL\a\aPnyy Gvzr- 12:25:16                                Qngr- 08/01/2013\aQvfcngpu - 12:26:47     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :    9         Orng  . : 3602        Znc . . :    9\aTevq:                   Dhnqenag: 3625         Qvfgevpg: 3625\a\aCubar Ahzore: (856) 222-0087                Pnyy Fbhepr:  911\a\aPnyyre. . . : ZNVB FGRIR\a\aHavgf frag  :\a R159        R1590                R159        R1593\a 03360       S362                 03360       S3632\a R360        R368                 R360        R3691\a R360        R3692\a\aAngher bs Pnyy : CRQ UVG OL IRU// PBAP\a\aNqqvgvbany Vasb\a  ORFG OHL  C/YBG\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013227             03360       201300001366\a\aGur Pnyy Gnxre vf HUYVT ONEONEN N\aGur Qvfcngpure vf ONXRE ZNEX W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zwonxre@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 12:26:48 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002969                    BEV: R360          Fgngvba: Fgn 362\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 1420 AVKBA QE                                        Irahr: Zg Ynhery\aYbpngrq Orgjrra  : ZBBERFGBJA GJC YVAR/YVAX EQ\aPbzzba Anzr. . . : ORFG OHL\a\aPnyy Gvzr- 12:25:16                                Qngr- 08/01/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :    9         Orng  . : 3602        Znc . . :    9\aTevq:                   Dhnqenag: 3625         Qvfgevpg: 3625\a\aCubar Ahzore: (856) 222-0087                Pnyy Fbhepr:  911\a\aPnyyre. . . : ZNVB FGRIR\a\aAngher bs Pnyy : CRQ UVG OL IRU// PBAP\a\aNqqvgvbany Vasb\a  ORFG OHL  C/YBG\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a 03360       201300001366\a\aGur Pnyy Gnxre vf HUYVT ONEONEN N\aGur Qvfcngpure vf ONXRE ZNEX W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zwonxre@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 12:23:56 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002968                    BEV: R360          Fgngvba: Fgn 362\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 3\aVapvqrag Ybpngvba: 1200 UBJNEQ OI                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/QRNQ RAQ\a\aPnyy Gvzr- 12:06:42                                Qngr- 08/01/2013\aQvfcngpu - 12:08:19     Ra-ebhgr- 12:10:35     Ba-fprar- 12:13:33     Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :   13         Orng  . : 3602        Znc . . :   13\aTevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\aCubar Ahzore: (609) 439-9405                Pnyy Fbhepr:  911\a\aPnyyre. . . : IREVMBA JVERYRFF\a\aHavgf frag  :\a R159        R1593                R159        R1595\a R318        R3181                03360       S3603\a 03360       S3629                03360       S3632\a R360        R3671\a\aAngher bs Pnyy : IRUVPYR VAGB N CBYR\a\aNqqvgvbany Vasb\a  JCU2:\a\aAneengvir\a S3629 ERCBEGF CBYR FANCCRQ NG ONFR, CBYR # 63303             12:16:50\a R3181 PNZR HCBA ZIN ERGHEAVAT SEBZ JWZ, NAQ FGBCCRQ          12:17:08\a Z35 & Z31 FJVGPURQ HC                                        12:17:33\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013224             R318        201300001011\a 03360       201300001365\a\aGur Pnyy Gnxre vf ZNGYNPX CNHY U\aGur Qvfcngpure vf ONXRE ZNEX W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ufcebjy@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 12:23:35 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002968                    BEV: R360          Fgngvba: Fgn 362\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 3\aVapvqrag Ybpngvba: 1200 UBJNEQ OI                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/QRNQ RAQ\a\aPnyy Gvzr- 12:06:42                                Qngr- 08/01/2013\aQvfcngpu - 12:08:19     Ra-ebhgr- 12:10:35     Ba-fprar- 12:13:33     Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :   13         Orng  . : 3602        Znc . . :   13\aTevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\aCubar Ahzore: (609) 439-9405                Pnyy Fbhepr:  911\a\aPnyyre. . . : IREVMBA JVERYRFF\a\aHavgf frag  :\a R159        R1593                R159        R1595\a R318        R3181                03360       S3629\a R360        R3671\a\aAngher bs Pnyy : IRUVPYR VAGB N CBYR\a\aNqqvgvbany Vasb\a  JCU2:\a\aAneengvir\a S3629 ERCBEGF CBYR FANCCRQ NG ONFR, CBYR # 63303             12:16:50\a R3181 PNZR HCBA ZIN ERGHEAVAT SEBZ JWZ, NAQ FGBCCRQ          12:17:08\a Z35 & Z31 FJVGPURQ HC                                        12:17:33\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013224             R318        201300001011\a 03360       201300001365\a\aGur Pnyy Gnxre vf ZNGYNPX CNHY U\aGur Qvfcngpure vf ONXRE ZNEX W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zwonxre@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 12:08:19 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002968                    BEV: R360          Fgngvba:\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: A EG73                                               Irahr: Zg Ynhery\a  Pebff Fgerrg . : PUHEPU EQ\a\aPnyy Gvzr- 12:06:42                                Qngr- 08/01/2013\aQvfcngpu - 12:08:19     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    6         Orng  . : 3601        Znc . . :    6\aTevq:                   Dhnqenag: 3623         Qvfgevpg: 3623\a\aCubar Ahzore: (609) 439-9405                Pnyy Fbhepr:  911\a\aPnyyre. . . : IREVMBA JVERYRFF\a\aHavgf frag  :\a 03360       S3629                R360        R3671\a\aAngher bs Pnyy : IRUVPYR VAGB N CBYR\a\aNqqvgvbany Vasb\a  JCU2:\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a 03360       201300001365\a\aGur Pnyy Gnxre vf ZNGYNPX CNHY U\aGur Qvfcngpure vf ONXRE ZNEX W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: onyyra@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 8:38:33 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\aPnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\aQvfcngpu - 08:34:32     Ra-ebhgr- 08:36:48     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\aTevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : BZRTN NYNEZ\aPbzcynvagnag: BCE 1025\a\aHavgf frag  :\a 03360       S3603                03360       S3614\a 03360       S3621                03360       S3632\a 03360       S3635\a\aAngher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ZVYYRE EBPURYYR L\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: onyyra@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 8:36:43 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\aPnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\aQvfcngpu - 08:34:32     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\aTevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : BZRTN NYNEZ\aPbzcynvagnag: BCE 1025\a\aHavgf frag  :\a 03360       S3614                03360       S3621\a 03360       S3632                03360       S3635\a\aAngher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ZVYYRE EBPURYYR L\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: onyyra@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 8:37:02 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\aPnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\aQvfcngpu - 08:34:32     Ra-ebhgr- 08:36:48     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\aTevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : BZRTN NYNEZ\aPbzcynvagnag: BCE 1025\a\aHavgf frag  :\a 03360       S3603                03360       S3614\a 03360       S3621                03360       S3632\a 03360       S3635\a\aAngher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ZVYYRE EBPURYYR L\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: tlhepub@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 8:36:38 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\aPnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\aQvfcngpu - 08:34:32     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\aTevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : BZRTN NYNEZ\aPbzcynvagnag: BCE 1025\a\aHavgf frag  :\a 03360       S3614                03360       S3621\a 03360       S3632                03360       S3635\a\aAngher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ZVYYRE EBPURYYR L\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: onyyra@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 8:35:00 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\aPnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\aQvfcngpu - 08:34:32     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\aTevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : BZRTN NYNEZ\aPbzcynvagnag: BCE 1025\a\aHavgf frag  :\a 03360       S3621                03360       S3632\a 03360       S3635\a\aAngher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ZVYYRE EBPURYYR L\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: tlhepub@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 8:34:32 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\aPnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\aQvfcngpu - 08:34:32     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\aTevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : BZRTN NYNEZ\aPbzcynvagnag: BCE 1025\a\aHavgf frag  :\a 03360       S3635\a\aAngher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ZVYYRE EBPURYYR L\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: tlhepub@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 8:34:32 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\aPnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\aQvfcngpu - 08:34:32     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\aTevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : BZRTN NYNEZ\aPbzcynvagnag: BCE 1025\a\aHavgf frag  :\a 03360       S3621                03360       S3635\a\aAngher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ZVYYRE EBPURYYR L\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ezvyyre@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 8:33:16 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\aPnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\aTevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : BZRTN NYNEZ\aPbzcynvagnag: BCE 1025\a\aAngher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zwonxre@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 8:30:17 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001326                    BEV: PB-04         Fgngvba:\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: 3530 EG295                                           Irahr: Pnzqra Pb\aYbpngrq Orgjrra  :  /\a\aPnyy Gvzr- 08:26:46                                Qngr- 08/01/2013\aQvfcngpu - 08:28:00     Ra-ebhgr- 08:28:38     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern:   62              Frpgvba :   62         Orng  . : 6290        Znc . . :\aTevq:                   Dhnqenag: 6200         Qvfgevpg: 6200\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : PPP\a\aHavgf frag  :\a R159        R1595                03360       S3603\a 03360       S3629                03360       S3632\a R360        R3692\a\aAngher bs Pnyy : ZIN/ R368,S363,R1595\a\aNqqvgvbany Vasb\a  F/O\a\aNqqvgvbany Vap#f:\a R159        201300013209             R360        201300002964\a 03360       201300001363\a\aGur Pnyy Gnxre vf ONXRE ZNEX W\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: onyyra@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 8:28:28 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001326                    BEV: PB-04         Fgngvba:\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 3530 EG295                                           Irahr: Pnzqra Pb\aYbpngrq Orgjrra  :  /\a\aPnyy Gvzr- 08:26:46                                Qngr- 08/01/2013\aQvfcngpu - 08:28:00     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern:   62              Frpgvba :   62         Orng  . : 6290        Znc . . :\aTevq:                   Dhnqenag: 6200         Qvfgevpg: 6200\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : PPP\a\aHavgf frag  :\a R159        R1595                03360       S3603\a 03360       S3632                R360        R3692\a\aAngher bs Pnyy : ZIN/ R368,S363,R1595\a\aNqqvgvbany Vasb\a  PP\a\aNqqvgvbany Vap#f:\a R159        201300013209             R360        201300002964\a 03360       201300001363\a\aGur Pnyy Gnxre vf ONXRE ZNEX W\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: tlhepub@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 8:28:01 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001326                    BEV: PB-04         Fgngvba:\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 3530 EG295                                           Irahr: Pnzqra Pb\aYbpngrq Orgjrra  :  /\a\aPnyy Gvzr- 08:26:46                                Qngr- 08/01/2013\aQvfcngpu - 08:28:00     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern:   62              Frpgvba :   62         Orng  . : 6290        Znc . . :\aTevq:                   Dhnqenag: 6200         Qvfgevpg: 6200\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : PPP\a\aHavgf frag  :\a 03360       S3632                R360        R3692\a\aAngher bs Pnyy : ZIN/ R368,S363,R1595\a\aNqqvgvbany Vasb\a  PP\a\aNqqvgvbany Vap#f:\a R360        201300002964             03360       201300001363\a\aGur Pnyy Gnxre vf ONXRE ZNEX W\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: onyyra@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 7:28:26 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000345                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . :  129 R NppVawel             Cevbevgl: 1\aVapvqrag Ybpngvba: 3590 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : AWGC RKVG 4/AWGC FC ONEENPXF\a\aPnyy Gvzr- 07:20:10                                Qngr- 08/01/2013\aQvfcngpu - 07:25:05     Ra-ebhgr- 07:26:59     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1502         Qvfgevpg: 1502\a\aCubar Ahzore: (321) 594-8929                Pnyy Fbhepr:  911\a\aPnyyre. . . :  FGRIRA SVGMTRENYQ\a\aHavgf frag  :\a 03360       S3603                03360       S3629\a 03360       S3632                R360        R3692\a\aAngher bs Pnyy : ZIN JVGU VAWF\a\aNqqvgvbany Vasb\a  FO FVQR\a\aAneengvir\a PYYE ERCBEGF PURPXRQ IRU, AB VAWF, FC BA YBP                  7:22:17\a AB QFCU ZNQR                                                  7:22:30\a FC PYYQ ERCBEGVAT 35.9 FO, 1 URNQ VAW                         7:25:52\a\aNqqvgvbany Vap#f:\a R360        201300002962             03360       201300001362\a\aGur Pnyy Gnxre vf LHEPUB TRBETR\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: tlhepub@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 7:25:06 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000345                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 3590 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : AWGC RKVG 4/AWGC FC ONEENPXF\a\aPnyy Gvzr- 07:20:10                                Qngr- 08/01/2013\aQvfcngpu - 07:25:05     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1502         Qvfgevpg: 1502\a\aCubar Ahzore: (321) 594-8929                Pnyy Fbhepr:  911\a\aPnyyre. . . :  FGRIRA SVGMTRENYQ\a\aHavgf frag  :\a 03360       S3629                03360       S3632\a R360        R3692\a\aAngher bs Pnyy : ZIN JVGU VAWF\a\aNqqvgvbany Vasb\a  FO FVQR\a\aAneengvir\a PYYE ERCBEGF PURPXRQ IRU, AB VAWF, FC BA YBP                  7:22:17\a AB QFCU ZNQR                                                  7:22:30\a\aNqqvgvbany Vap#f:\a R360        201300002962             03360       201300001362\a\aGur Pnyy Gnxre vf LHEPUB TRBETR\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: tlhepub@PB.OHEYVATGBA.AW.HF\aFrag: Guhefqnl, Nhthfg 01, 2013 7:25:05 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000345                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 3590 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : AWGC RKVG 4/AWGC FC ONEENPXF\a\aPnyy Gvzr- 07:20:10                                Qngr- 08/01/2013\aQvfcngpu - 07:25:05     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1502         Qvfgevpg: 1502\a\aCubar Ahzore: (321) 594-8929                Pnyy Fbhepr:  911\a\aPnyyre. . . :  FGRIRA SVGMTRENYQ\a\aHavgf frag  :\a 03360       S3632                R360        R3692\a\aAngher bs Pnyy : ZIN JVGU VAWF\a\aNqqvgvbany Vasb\a  FO FVQR\a\aAneengvir\a PYYE ERCBEGF PURPXRQ IRU, AB VAWF, FC BA YBP                  7:22:17\a AB QFCU ZNQR                                                  7:22:30\a\aNqqvgvbany Vap#f:\a R360        201300002962             03360       201300001362\a\aGur Pnyy Gnxre vf LHEPUB TRBETR\aGur Qvfcngpure vf LHEPUB TRBETR\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: wsevrqevpu@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 9:53:10 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002958                    BEV: R360          Fgngvba: Fgn 362\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 129 FPUBBYUBHFR YN                                   Irahr: Zg Ynhery\aYbpngrq Orgjrra  : NCCYR YN/FPUBBYUBHFR GR\a\aPnyy Gvzr- 21:51:03                                Qngr- 07/31/2013\aQvfcngpu - 21:53:10     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    3         Orng  . : 3601        Znc . . :    3\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (856) 235-3634                Pnyy Fbhepr:  911\a\aPnyyre. . . : EBFRZNEV GEBFB PYNEX, ,\a\aHavgf frag  :\a R318        R3182                03360       S3632\a\aAngher bs Pnyy : SZ OYRRQVAT SEBZ GUR ERPGHZ\a\aNqqvgvbany Vasb\a  IBVC:\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R318        201300001005             03360       201300001361\a\aGur Pnyy Gnxre vf ZBUE GURERFN\aGur Qvfcngpure vf SEVRQEVPU WBFUHN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: OTHREEVAV@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 9:31:58 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002956                    BEV: R360          Fgngvba: Fgn 361\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: 4250 EG295                                           Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG38 RKVGF/PERRX EQ\a\aPnyy Gvzr- 21:28:34                                Qngr- 07/31/2013\aQvfcngpu - 21:30:10     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3600              Frpgvba : 3652         Orng  . : 3690        Znc . . :\aTevq:                   Dhnqenag: 1512         Qvfgevpg: 1512\a\aCubar Ahzore: (267) 270-1743                Pnyy Fbhepr:  911\a\aPnyyre. . . : RYIVF GHERYY\a\aHavgf frag  :\a R360        R3608                03360       S3614\a 03360       S3629                R360        R3681\a\aAngher bs Pnyy : 2 PNE ZIP // 2 VAWHEVRF // Z UVG URNQ // S PB\a\aNqqvgvbany Vasb\a  JCU1:  ENQVHF 01 ZVYRF\a  ONPX NAQ ARPX NAQ 3 XVQF GB OR PURPXRQ BHG\a\aNqqvgvbany Vap#f:\a 03360       201300001360\a\aGur Pnyy Gnxre vf ZBUE GURERFN\aGur Qvfcngpure vf THREEVAV ORAWNZVA\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: wsevrqevpu@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 9:30:10 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002956                    BEV: R360          Fgngvba: Fgn 361\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 4250 EG295                                           Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG38 RKVGF/PERRX EQ\a\aPnyy Gvzr- 21:28:34                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3600              Frpgvba : 3652         Orng  . : 3690        Znc . . :\aTevq:                   Dhnqenag: 1512         Qvfgevpg: 1512\a\aCubar Ahzore: (267) 270-1743                Pnyy Fbhepr:  911\a\aPnyyre. . . : RYIVF GHERYY\a\aHavgf frag  :\a R360        R3608                R360        R3681\a\aAngher bs Pnyy : ZIN VAW\a\aNqqvgvbany Vasb\a  JCU1:  ENQVHF 01 ZVYRF\a\aNqqvgvbany Vap#f:\a 03360       201300001360\a\aGur Pnyy Gnxre vf ZBUE GURERFN\aGur Qvfcngpure vf THREEVAV ORAWNZVA\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: wsevrqevpu@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 9:30:10 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002956                    BEV: R360          Fgngvba: Fgn 361\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 4250 EG295                                           Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG38 RKVGF/PERRX EQ\a\aPnyy Gvzr- 21:28:34                                Qngr- 07/31/2013\aQvfcngpu - 21:30:10     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3600              Frpgvba : 3652         Orng  . : 3690        Znc . . :\aTevq:                   Dhnqenag: 1512         Qvfgevpg: 1512\a\aCubar Ahzore: (267) 270-1743                Pnyy Fbhepr:  911\a\aPnyyre. . . : RYIVF GHERYY\a\aHavgf frag  :\a R360        R3608                03360       S3614\a 03360       S3629                R360        R3681\a\aAngher bs Pnyy : ZIN VAW\a\aNqqvgvbany Vasb\a  JCU1:  ENQVHF 01 ZVYRF\a\aNqqvgvbany Vap#f:\a 03360       201300001360\a\aGur Pnyy Gnxre vf ZBUE GURERFN\aGur Qvfcngpure vf THREEVAV ORAWNZVA\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: fjbbqf@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 3:52:40 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002953                    BEV: R360          Fgngvba: Fgn 361\aVapvqrag Glcr  . :  129 R NppVawel             Cevbevgl: 1\aVapvqrag Ybpngvba: PBENY NI                                             Irahr: Zg Ynhery\a  Pebff Fgerrg . : ZNFBAIVYYR EQ\a\aPnyy Gvzr- 15:39:58                                Qngr- 07/31/2013\aQvfcngpu - 15:40:16     Ra-ebhgr- 15:42:38     Ba-fprar- 15:43:40     Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3605              Frpgvba :   50         Orng  . : 3608        Znc . . :   50\aTevq:                   Dhnqenag: 3615         Qvfgevpg: 3615\a\aCubar Ahzore: (609) 367-3700                Pnyy Fbhepr:  911\a\aPnyyre. . . : WBUA GRFGN\a\aHavgf frag  :\a R360        RZF36                R360        R3681\a\aAngher bs Pnyy : ZIN/URNQNPRUR\a\aAneengvir\a Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.\a    Havg: R3681   Enqvb:           Bspe 1:            Bspe 2:\a       QFC: 07/31/13  15:40:16     RAE: 07/31/13  15:42:38\a       NEI:             :  :       QCG:             :  :\a       DGE:             :  :       PYE: 07/31/13  15:48:44\a    Havg: RZF36   Enqvb:           Bspe 1:            Bspe 2:\a       QFC:             :  :       RAE:             :  :\a       NEI: 07/31/13  15:43:40     QCG:             :  :\a       DGE:             :  :       PYE: 07/31/13  15:48:44\a Nqqvgvbany R911 Pnyyre: IREVMBA JVERYRFF,,,                  15:41:26\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                      15:41:26\a   Pnyyre Cubar  . . . : (609)304-3235                        15:41:26\a CRE RZF36 AB CG                                              15:48:37\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf JBBQF FGRCURA W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zwonxre@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 11:18:40 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001359                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . :   30 S Erfphr               Cevbevgl: 1\aVapvqrag Ybpngvba: 4201 PUHEPU EQ                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/GNZ B FUNAGRE EQ\aPbzzba Anzr. . . : RYYVCFR FUBCCVAT PRAGRE\a\aPnyy Gvzr- 11:18:40                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :    8         Orng  . : 3602        Znc . . :    8\aTevq:                   Dhnqenag: 3623         Qvfgevpg: 3623\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : S362\a\aAngher bs Pnyy : FGHPX RYNINGRE\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ONXRE ZNEX W\aGur Qvfcngpure vf ONXRE ZNEX W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zwonxre@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 11:18:40 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001359                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . :   30 S Erfphr               Cevbevgl: 1\aVapvqrag Ybpngvba: 4201 PUHEPU EQ                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/GNZ B FUNAGRE EQ\aPbzzba Anzr. . . : RYYVCFR FUBCCVAT PRAGRE\a\aPnyy Gvzr- 11:18:40                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :    8         Orng  . : 3602        Znc . . :    8\aTevq:                   Dhnqenag: 3623         Qvfgevpg: 3623\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : S362\a\aAngher bs Pnyy : FGHPX RYNINGRE\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ONXRE ZNEX W\aGur Qvfcngpure vf ONXRE ZNEX W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ezvyyre@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 11:17:36 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001358                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 4201 PUHEPU EQ                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/GNZ B FUNAGRE EQ\aPbzzba Anzr. . . : RYYVCFR FUBCCVAT PRAGRE\a\aPnyy Gvzr- 11:17:35                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :    8         Orng  . : 3602        Znc . . :    8\aTevq:                   Dhnqenag: 3623         Qvfgevpg: 3623\a\aCubar Ahzore: (856) 235-6419                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : PNCG ZNAFXV\aPbzcynvagnag: 3824 PUHEPU EQ/SRYYB\a\aAngher bs Pnyy : ERPVRIRQ PNYY SEBZ OHFVARFF/FHOW GENC VA RYRI\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: tlhepub@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 7:48:20 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002948                    BEV: R360          Fgngvba: Fgn 362\aVapvqrag Glcr  . :  131 R Hapba                Cevbevgl: 1\aVapvqrag Ybpngvba: 521 SRYYBJFUVC EQ FHVGR 110                          Irahr: Zg Ynhery\aYbpngrq Orgjrra  : J CNEX QE/EG73\aPbzzba Anzr. . . : IVGNF VAABINGVIR UBFCVPR PNER\a\aPnyy Gvzr- 07:44:59                                Qngr- 07/31/2013\aQvfcngpu - 07:46:12     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :   10         Orng  . : 3602        Znc . . :\aTevq:                   Dhnqenag: 3624         Qvfgevpg: 3624\a\aCubar Ahzore: (856) 778-0222                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ZNEVFBY/FGNSS\a\aHavgf frag  :\a R159        R1595                03360       S3629\a 03360       S3632                R360        R3682\a\aAngher bs Pnyy : 30S/CNFFRQ BHG/HAXA UK/PBAF ABJ\a\aNqqvgvbany Vasb\a  FHVGR 110/SVEFG SYE\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013159             03360       201300001357\a\aGur Pnyy Gnxre vf ZVYYRE EBPURYYR L\aGur Qvfcngpure vf JBBQF FGRCURA W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: fjbbqf@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 7:46:12 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002948                    BEV: R360          Fgngvba: Fgn 362\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 521 SRYYBJFUVC EQ FHVGR 110                          Irahr: Zg Ynhery\aYbpngrq Orgjrra  : J CNEX QE/EG73\aPbzzba Anzr. . . : IVGNF VAABINGVIR UBFCVPR PNER\a\aPnyy Gvzr- 07:44:59                                Qngr- 07/31/2013\aQvfcngpu - 07:46:12     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :   10         Orng  . : 3602        Znc . . :\aTevq:                   Dhnqenag: 3624         Qvfgevpg: 3624\a\aCubar Ahzore: (856) 778-0222                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ZNEVFBY/FGNSS\a\aHavgf frag  :\a R159        R1595                03360       S3632\a R360        R3682\a\aAngher bs Pnyy : SRZNYR SNVAGRQ\a\aNqqvgvbany Vasb\a  FHVGR 110/SVEFG SYE\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013159             03360       201300001357\a\aGur Pnyy Gnxre vf ZVYYRE EBPURYYR L\aGur Qvfcngpure vf JBBQF FGRCURA W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: tlhepub@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 7:16:30 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001356                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 520 UNEGSBEQ EQ                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : PRQNE FG/RYOB YN\aPbzzba Anzr. . . : FCEVATIVYYR RYRZRAGNEL FPUBBY\a\aPnyy Gvzr- 07:13:45                                Qngr- 07/31/2013\aQvfcngpu - 07:14:33     Ra-ebhgr- 07:16:26     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   31         Orng  . : 3606        Znc . . :   31\aTevq:                   Dhnqenag: 3644         Qvfgevpg: 3644\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ORIVA FRPHEVGL BC406\a\aHavgf frag  :\a 03360       S3603                03360       S3614\a 03360       S3629                03360       S3632\a 03360       S3635\a\aAngher bs Pnyy : 856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\a\aNqqvgvbany Vasb\a  JVYY NGGRZCG GB ABGVSL\a\aTrb Aneengvir\a  Vasbezngvba\a  Ubhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\a  Fpubby.\a\a  Ubhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\a  Unegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\a  funer n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf PNEEBYY PUEVFGVNA N\aGur Qvfcngpure vf JBBQF FGRCURA W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: fjbbqf@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 7:14:33 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001356                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 520 UNEGSBEQ EQ                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : PRQNE FG/RYOB YN\aPbzzba Anzr. . . : FCEVATIVYYR RYRZRAGNEL FPUBBY\a\aPnyy Gvzr- 07:13:45                                Qngr- 07/31/2013\aQvfcngpu - 07:14:33     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   31         Orng  . : 3606        Znc . . :   31\aTevq:                   Dhnqenag: 3644         Qvfgevpg: 3644\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ORIVA FRPHEVGL BC406\a\aHavgf frag  :\a 03360       S3603                03360       S3614\a 03360       S3629\a\aAngher bs Pnyy : 856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\a\aNqqvgvbany Vasb\a  JVYY NGGRZCG GB ABGVSL\a\aTrb Aneengvir\a  Vasbezngvba\a  Ubhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\a  Fpubby.\a\a  Ubhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\a  Unegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\a  funer n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf PNEEBYY PUEVFGVNA N\aGur Qvfcngpure vf JBBQF FGRCURA W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: fjbbqf@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 7:14:45 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001356                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 520 UNEGSBEQ EQ                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : PRQNE FG/RYOB YN\aPbzzba Anzr. . . : FCEVATIVYYR RYRZRAGNEL FPUBBY\a\aPnyy Gvzr- 07:13:45                                Qngr- 07/31/2013\aQvfcngpu - 07:14:33     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   31         Orng  . : 3606        Znc . . :   31\aTevq:                   Dhnqenag: 3644         Qvfgevpg: 3644\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ORIVA FRPHEVGL BC406\a\aHavgf frag  :\a 03360       S3603                03360       S3614\a 03360       S3629                03360       S3632\a\aAngher bs Pnyy : 856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\a\aNqqvgvbany Vasb\a  JVYY NGGRZCG GB ABGVSL\a\aTrb Aneengvir\a  Vasbezngvba\a  Ubhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\a  Fpubby.\a\a  Ubhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\a  Unegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\a  funer n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf PNEEBYY PUEVFGVNA N\aGur Qvfcngpure vf JBBQF FGRCURA W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: fjbbqf@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 7:14:33 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001356                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 520 UNEGSBEQ EQ                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : PRQNE FG/RYOB YN\aPbzzba Anzr. . . : FCEVATIVYYR RYRZRAGNEL FPUBBY\a\aPnyy Gvzr- 07:13:45                                Qngr- 07/31/2013\aQvfcngpu - 07:14:33     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   31         Orng  . : 3606        Znc . . :   31\aTevq:                   Dhnqenag: 3644         Qvfgevpg: 3644\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ORIVA FRPHEVGL BC406\a\aHavgf frag  :\a 03360       S3603\a\aAngher bs Pnyy : 856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\a\aNqqvgvbany Vasb\a  JVYY NGGRZCG GB ABGVSL\a\aTrb Aneengvir\a  Vasbezngvba\a  Ubhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\a  Fpubby.\a\a  Ubhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\a  Unegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\a  funer n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf PNEEBYY PUEVFGVNA N\aGur Qvfcngpure vf JBBQF FGRCURA W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: fjbbqf@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 7:14:33 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001356                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 520 UNEGSBEQ EQ                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : PRQNE FG/RYOB YN\aPbzzba Anzr. . . : FCEVATIVYYR RYRZRAGNEL FPUBBY\a\aPnyy Gvzr- 07:13:45                                Qngr- 07/31/2013\aQvfcngpu - 07:14:33     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   31         Orng  . : 3606        Znc . . :   31\aTevq:                   Dhnqenag: 3644         Qvfgevpg: 3644\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ORIVA FRPHEVGL BC406\a\aHavgf frag  :\a 03360       S3603                03360       S3614\a 03360       S3629\a\aAngher bs Pnyy : 856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\a\aNqqvgvbany Vasb\a  JVYY NGGRZCG GB ABGVSL\a\aTrb Aneengvir\a  Vasbezngvba\a  Ubhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\a  Fpubby.\a\a  Ubhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\a  Unegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\a  funer n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf PNEEBYY PUEVFGVNA N\aGur Qvfcngpure vf JBBQF FGRCURA W\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ppneeby@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 7:13:46 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001356                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 520 UNEGSBEQ EQ                                      Irahr: Zg Ynhery\aYbpngrq Orgjrra  : PRQNE FG/RYOB YN\aPbzzba Anzr. . . : FCEVATIVYYR RYRZRAGNEL FPUBBY\a\aPnyy Gvzr- 07:13:45                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   31         Orng  . : 3606        Znc . . :   31\aTevq:                   Dhnqenag: 3644         Qvfgevpg: 3644\a\aCubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ORIVA FRPHEVGL BC406\a\aAngher bs Pnyy : 856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\a\aNqqvgvbany Vasb\a  JVYY NGGRZCG GB ABGVSL\a\aTrb Aneengvir\a  Vasbezngvba\a  Ubhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\a  Fpubby.\a\a  Ubhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\a  Unegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\a  funer n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf PNEEBYY PUEVFGVNA N\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: qzbber@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:58:28 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001355                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: HAVBA ZVYY EQ                                        Irahr: Zg Ynhery\a  Pebff Fgerrg . : JNYGBA NI\a\aPnyy Gvzr- 02:55:57                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   30         Orng  . : 3606        Znc . . :   30\aTevq:                   Dhnqenag: 3642         Qvfgevpg: 3642\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ZYCQ\a\aHavgf frag  :\a 03360       S3603                03360       S3614\a 03360       S3629                R360        R3692\a\aAngher bs Pnyy : CBYR QBJA JVGU JVERF RAGNATYRQ\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R360        201300002946\a\aGur Pnyy Gnxre vf ZBBER QNIVQ F\aGur Qvfcngpure vf ZBBER QNIVQ F\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: qzbber@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:58:24 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001355                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: HAVBA ZVYY EQ                                        Irahr: Zg Ynhery\a  Pebff Fgerrg . : JNYGBA NI\a\aPnyy Gvzr- 02:55:57                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   30         Orng  . : 3606        Znc . . :   30\aTevq:                   Dhnqenag: 3642         Qvfgevpg: 3642\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ZYCQ\a\aHavgf frag  :\a 03360       S3603                03360       S3629\a R360        R3692\a\aAngher bs Pnyy : CBYR QBJA JVGU JVERF RAGNATYRQ\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R360        201300002946\a\aGur Pnyy Gnxre vf ZBBER QNIVQ F\aGur Qvfcngpure vf ZBBER QNIVQ F\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: qzbber@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:56:02 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001355                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   44 S Jverf                Cevbevgl: 1\aVapvqrag Ybpngvba: HAVBA ZVYY EQ                                        Irahr: Zg Ynhery\a  Pebff Fgerrg . : JNYGBA NI\a\aPnyy Gvzr- 02:55:57                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   30         Orng  . : 3606        Znc . . :   30\aTevq:                   Dhnqenag: 3642         Qvfgevpg: 3642\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ZYCQ\a\aHavgf frag  :\a 03360       S3629\a\aAngher bs Pnyy : CBYR QBJA JVGU JVERF RAGNATYRQ\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ZBBER QNIVQ F\aGur Qvfcngpure vf ZBBER QNIVQ F\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: qzbber@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:55:58 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001355                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   44 S Jverf                Cevbevgl: 1\aVapvqrag Ybpngvba: HAVBA ZVYY EQ                                        Irahr: Zg Ynhery\a  Pebff Fgerrg . : JNYGBA NI\a\aPnyy Gvzr- 02:55:57                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   30         Orng  . : 3606        Znc . . :   30\aTevq:                   Dhnqenag: 3642         Qvfgevpg: 3642\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ZYCQ\a\aAngher bs Pnyy : CBYR QBJA JVGU JVERF RAGNATYRQ\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf ZBBER QNIVQ F\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zcybjzna@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:54:30 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001353                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   44 S Jverf                Cevbevgl: 1\aVapvqrag Ybpngvba: YNHERY YN                                            Irahr: Zg Ynhery\a  Pebff Fgerrg . : UBYYL YN\a\aPnyy Gvzr- 02:44:57                                Qngr- 07/31/2013\aQvfcngpu - 02:45:36     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   29         Orng  . : 3605        Znc . . :   29\aTevq:                   Dhnqenag: 3641         Qvfgevpg: 3641\a\aCubar Ahzore: (856) 906-3837                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : NAQERJ FGBJRYY\aPbzcynvagnag: 204 YNHERY YN\a\aHavgf frag  :\a 03360       S3631\a\aAngher bs Pnyy : FBHAQF YVXR GENAFSBEZRE VF NEPVAT///YBFG BS C\a\aNqqvgvbany Vasb\a  JRE VA NERN//NCCEBK 5 ZVAF NTB//QBRF ABG FRR NAL SYNZRF\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf QRAAVFBA NZL\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zcybjzna@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:54:20 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001354                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   44 S Jverf                Cevbevgl: 1\aVapvqrag Ybpngvba: 17 ZNEGRE NI                                         Irahr: Zg Ynhery\aYbpngrq Orgjrra  : HAVBA ZVYY EQ/UBYYL YN\a\aPnyy Gvzr- 02:45:46                                Qngr- 07/31/2013\aQvfcngpu - 02:50:07     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   29         Orng  . : 3605        Znc . . :   29\aTevq:                   Dhnqenag: 3641         Qvfgevpg: 3641\a\aCubar Ahzore: (609) 217-9683                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : PLAGUVN CENTRE\a\aHavgf frag  :\a 03360       S3621                03360       S3629\a\aAngher bs Pnyy : GENAFSBEZRE SVER\a\aAneengvir\a S3603 NQIVFRQ //                                              2:48:57\a S3603 ERD FGNGVBA 2 OR NFFVTARQ GB VAIRFGVTNGR //             2:49:49\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf XHEGF-OHET FHFNA R\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: yqlr@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:50:07 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001354                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 17 ZNEGRE NI                                         Irahr: Zg Ynhery\aYbpngrq Orgjrra  : HAVBA ZVYY EQ/UBYYL YN\a\aPnyy Gvzr- 02:45:46                                Qngr- 07/31/2013\aQvfcngpu - 02:50:07     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   29         Orng  . : 3605        Znc . . :   29\aTevq:                   Dhnqenag: 3641         Qvfgevpg: 3641\a\aCubar Ahzore: (609) 217-9683                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : PLAGUVN CENTRE\a\aHavgf frag  :\a 03360       S3621\a\aAngher bs Pnyy : GENAFSBEZRE SVER\a\aAneengvir\a S3603 NQIVFRQ //                                              2:48:57\a S3603 ERD FGNGVBA 2 OR NFFVTARQ GB VAIRFGVTNGR //             2:49:49\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf XHEGF-OHET FHFNA R\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: qzbber@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:48:30 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001352                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 8000 ZVQYNAGVP QE                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : QHSSL QE/JNYG JUVGZNA NI\a\aPnyy Gvzr- 02:43:07                                Qngr- 07/31/2013\aQvfcngpu - 02:43:56     Ra-ebhgr- 02:46:52     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   28         Orng  . : 3605        Znc . . :   28\aTevq:                   Dhnqenag: 3647         Qvfgevpg: 3647\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLXB BC OTS\a\aHavgf frag  :\a 03360       S3603                03360       S361\a 03360       S3614                03360       S363\a 03360       S3635\a\aAngher bs Pnyy : SVER/MBAR 4 /SVER CHZC/8567642600\a\aNqqvgvbany Vasb\a  JUVGR PRYY VAP\a\aAneengvir\a R/P RQ ZBETNA J-45 ZVAHGR RGN                                 2:47:24\a CRE NYNEZ PB                                                  2:47:33\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf SRYVPVNAB XVZOREYL\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: qzbber@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:47:08 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001352                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 8000 ZVQYNAGVP QE                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : QHSSL QE/JNYG JUVGZNA NI\a\aPnyy Gvzr- 02:43:07                                Qngr- 07/31/2013\aQvfcngpu - 02:43:56     Ra-ebhgr- 02:46:52     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   28         Orng  . : 3605        Znc . . :   28\aTevq:                   Dhnqenag: 3647         Qvfgevpg: 3647\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLXB BC OTS\a\aHavgf frag  :\a 03360       S3603                03360       S361\a 03360       S363                 03360       S3635\a\aAngher bs Pnyy : SVER/MBAR 4 /SVER CHZC/8567642600\a\aNqqvgvbany Vasb\a  JUVGR PRYY VAP\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf SRYVPVNAB XVZOREYL\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: qzbber@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:46:51 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001352                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 8000 ZVQYNAGVP QE                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : QHSSL QE/JNYG JUVGZNA NI\a\aPnyy Gvzr- 02:43:07                                Qngr- 07/31/2013\aQvfcngpu - 02:43:56     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   28         Orng  . : 3605        Znc . . :   28\aTevq:                   Dhnqenag: 3647         Qvfgevpg: 3647\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLXB BC OTS\a\aHavgf frag  :\a 03360       S361                 03360       S363\a 03360       S3635\a\aAngher bs Pnyy : SVER/MBAR 4 /SVER CHZC/8567642600\a\aNqqvgvbany Vasb\a  JUVGR PRYY VAP\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf SRYVPVNAB XVZOREYL\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: yqlr@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:45:36 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001353                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 204 YNHERY YN                                        Irahr: Zg Ynhery\aYbpngrq Orgjrra  : UBYYL YN/UBYYL YN\a\aPnyy Gvzr- 02:44:57                                Qngr- 07/31/2013\aQvfcngpu - 02:45:36     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   29         Orng  . : 3605        Znc . . :   29\aTevq:                   Dhnqenag: 3641         Qvfgevpg: 3641\a\aCubar Ahzore: (856) 906-3837                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : NAQERJ FGBJRYY\a\aHavgf frag  :\a 03360       S3631\a\aAngher bs Pnyy : FBHAQF YVXR GENAFSBEZRE VF NEPVAT///YBFG BS C\a\aNqqvgvbany Vasb\a  JRE VA NERN//NCCEBK 5 ZVAF NTB//QBRF ABG FRR NAL SYNZRF\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf QRAAVFBA NZL\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: fxhegfohet@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:45:47 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001354                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 17 ZNEGRE NI                                         Irahr: Zg Ynhery\aYbpngrq Orgjrra  : HAVBA ZVYY EQ/UBYYL YN\a\aPnyy Gvzr- 02:45:46                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   29         Orng  . : 3605        Znc . . :   29\aTevq:                   Dhnqenag: 3641         Qvfgevpg: 3641\a\aCubar Ahzore: (609) 217-9683                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : PLAGUVN CENTRE\a\aAngher bs Pnyy : GENAFSBEZRE SVER\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf XHEGF-OHET FHFNA R\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: CFQRAAVF@FLFV.PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:44:57 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001353                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 204 YNHERY YN                                        Irahr: Zg Ynhery\aYbpngrq Orgjrra  : UBYYL YN/UBYYL YN\a\aPnyy Gvzr- 02:44:57                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   29         Orng  . : 3605        Znc . . :   29\aTevq:                   Dhnqenag: 3641         Qvfgevpg: 3641\a\aCubar Ahzore: (856) 906-3837                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : NAQERJ FGBJRYY\a\aAngher bs Pnyy : FBHAQF YVXR GENAFSBEZRE VF NEPVAT///YBFG BS C\a\aNqqvgvbany Vasb\a  JRE VA NERN//NCCEBK 5 ZVAF NTB//QBRF ABG FRR NAL SYNZRF\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf QRAAVFBA NZL\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: yqlr@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:43:56 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001352                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 8000 ZVQYNAGVP QE                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : QHSSL QE/JNYG JUVGZNA NI\a\aPnyy Gvzr- 02:43:07                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   28         Orng  . : 3605        Znc . . :   28\aTevq:                   Dhnqenag: 3647         Qvfgevpg: 3647\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLXB BC OTS\a\aAngher bs Pnyy : SVER/MBAR 4 /SVER CHZC/8567642600\a\aNqqvgvbany Vasb\a  JUVGR PRYY VAP\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf SRYVPVNAB XVZOREYL\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: yqlr@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:43:56 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001352                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 8000 ZVQYNAGVP QE                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : QHSSL QE/JNYG JUVGZNA NI\a\aPnyy Gvzr- 02:43:07                                Qngr- 07/31/2013\aQvfcngpu - 02:43:56     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   28         Orng  . : 3605        Znc . . :   28\aTevq:                   Dhnqenag: 3647         Qvfgevpg: 3647\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLXB BC OTS\a\aHavgf frag  :\a 03360       S361                 03360       S363\a\aAngher bs Pnyy : SVER/MBAR 4 /SVER CHZC/8567642600\a\aNqqvgvbany Vasb\a  JUVGR PRYY VAP\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf SRYVPVNAB XVZOREYL\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: xsryvpvnab@PB.OHEYVATGBA.AW.HF\aFrag: Jrqarfqnl, Whyl 31, 2013 2:43:08 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001352                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 8000 ZVQYNAGVP QE                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : QHSSL QE/JNYG JUVGZNA NI\a\aPnyy Gvzr- 02:43:07                                Qngr- 07/31/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   28         Orng  . : 3605        Znc . . :   28\aTevq:                   Dhnqenag: 3647         Qvfgevpg: 3647\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLXB BC OTS\a\aAngher bs Pnyy : SVER/MBAR 4 /SVER CHZC/8567642600\a\aNqqvgvbany Vasb\a  JUVGR PRYY VAP\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf SRYVPVNAB XVZOREYL\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: qzbber@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 9:34:01 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001350                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 21:30:31                                Qngr- 07/30/2013\aQvfcngpu - 21:32:13     Ra-ebhgr- 21:33:35     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (856) 722-1919                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ARVY CNXRY\a\aHavgf frag  :\a 03360       S3603                03360       S362\a 03360       S3621                03360       S363\a 03360       S3635\a\aAngher bs Pnyy : SVER NYNEZ TBVAT BSS\a\aAneengvir\a NYNEZ NPGVIR QHR GB FGRNZ SEBZ FUBJRE SEBZZ EBBZ 114,        21:32:26\a Gur sbyybjvat Vapvqragf unir orra yvaxrq:                    21:32:32\a  03360 2013-00001351 AX, 03360 2013-00001350 AX              21:32:32\a NQIFVRQ GB SBYYBJ CEBGVPBY ERTNQVAT SVER NYNEZ NPGVINGVBAF   21:32:43\a BA CEBCREGL //                                               21:32:46\a\aNqqerff Purpxf\a\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\a\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\a\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\a\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\a\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\a\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf NQNZF QBHTYNF\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: qzbber@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 9:33:47 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001350                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 21:30:31                                Qngr- 07/30/2013\aQvfcngpu - 21:32:13     Ra-ebhgr- 21:33:35     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (856) 722-1919                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ARVY CNXRY\a\aHavgf frag  :\a 03360       S3603                03360       S362\a 03360       S363                 03360       S3635\a\aAngher bs Pnyy : SVER NYNEZ TBVAT BSS\a\aAneengvir\a NYNEZ NPGVIR QHR GB FGRNZ SEBZ FUBJRE SEBZZ EBBZ 114,        21:32:26\a Gur sbyybjvat Vapvqragf unir orra yvaxrq:                    21:32:32\a  03360 2013-00001351 AX, 03360 2013-00001350 AX              21:32:32\a NQIFVRQ GB SBYYBJ CEBGVPBY ERTNQVAT SVER NYNEZ NPGVINGVBAF   21:32:43\a BA CEBCREGL //                                               21:32:46\a\aNqqerff Purpxf\a\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\a\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\a\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\a\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\a\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\a\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf NQNZF QBHTYNF\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: qzbber@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 9:33:07 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001350                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 21:30:31                                Qngr- 07/30/2013\aQvfcngpu - 21:32:13     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (856) 722-1919                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ARVY CNXRY\a\aHavgf frag  :\a 03360       S3603                03360       S362\a 03360       S363\a\aAngher bs Pnyy : SVER NYNEZ TBVAT BSS\a\aAneengvir\a NYNEZ NPGVIR QHR GB FGRNZ SEBZ FUBJRE SEBZZ EBBZ 114,        21:32:26\a Gur sbyybjvat Vapvqragf unir orra yvaxrq:                    21:32:32\a  03360 2013-00001351 AX, 03360 2013-00001350 AX              21:32:32\a NQIFVRQ GB SBYYBJ CEBGVPBY ERTNQVAT SVER NYNEZ NPGVINGVBAF   21:32:43\a BA CEBCREGL //                                               21:32:46\a\aNqqerff Purpxf\a\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\a\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\a\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\a\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\a\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\a\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf NQNZF QBHTYNF\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zcybjzna@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 9:32:15 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001351                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 21:32:15                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (877) 722-7773                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLPB//BC TEVSSVA\a\aAngher bs Pnyy : ONGUEBBZ FZBXR QRGRPGBE//856221919\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf CYBJZNA ZNGGURJ\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: yqlr@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 9:32:13 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001350                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 21:30:31                                Qngr- 07/30/2013\aQvfcngpu - 21:32:13     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (856) 722-1919                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ARVY CNXRY\a\aHavgf frag  :\a 03360       S362                 03360       S363\a\aAngher bs Pnyy : SVER NYNEZ TBVAT BSS\a\aNqqerff Purpxf\a\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\a\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\a\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\a\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\a\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\a\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf NQNZF QBHTYNF\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: yqlr@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 9:32:13 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001350                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 21:30:31                                Qngr- 07/30/2013\aQvfcngpu - 21:32:13     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (856) 722-1919                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ARVY CNXRY\a\aHavgf frag  :\a 03360       S362\a\aAngher bs Pnyy : SVER NYNEZ TBVAT BSS\a\aNqqerff Purpxf\a\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\a\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\a\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\a\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\a\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\a\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf NQNZF QBHTYNF\aGur Qvfcngpure vf QLR YNHEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: qnqnzf@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 9:30:31 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001350                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 21:30:31                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (856) 722-1919                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ARVY CNXRY\a\aAngher bs Pnyy : SVER NYNEZ TBVAT BSS\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf NQNZF QBHTYNF\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 4:23:11 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000342                    BEV: PB-03         Fgngvba: Fgn 361\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: 4100 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : AWGC 4A FREIVPR NERN/AWGC RKVG 5\a\aPnyy Gvzr- 16:18:17                                Qngr- 07/30/2013\aQvfcngpu - 16:20:08     Ra-ebhgr- 16:22:46     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1504         Qvfgevpg: 1504\a\aCubar Ahzore: (410) 443-6351                Pnyy Fbhepr:  911\a\aPnyyre. . . : NAA ONEEBJ\a\aHavgf frag  :\a R159        R1591                03272       S2723\a 03300       S301                 03300       S3012\a 03360       S3603                03360       S361\a 03360       S3614                R509        R5091\a\aAngher bs Pnyy : IRU B/G FRIRENY GVZRF\a\aNqqvgvbany Vasb\a  FO\a\aAneengvir\a Nqqvgvbany R911 Pnyyre: JVYYVNZF,ERARR                       16:20:13\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                      16:20:13\a   Pnyyre Cubar  . . . : (856)905-3728                        16:20:13\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013130             R509        201300001246\a 03272       201300001727             03300       201300000470\a 03360       201300001349\a\aGur Pnyy Gnxre vf XABGG IVAPRAG Z\aGur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 4:22:44 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000342                    BEV: PB-03         Fgngvba: Fgn 361\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: 4100 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : AWGC 4A FREIVPR NERN/AWGC RKVG 5\a\aPnyy Gvzr- 16:18:17                                Qngr- 07/30/2013\aQvfcngpu - 16:20:08     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1504         Qvfgevpg: 1504\a\aCubar Ahzore: (410) 443-6351                Pnyy Fbhepr:  911\a\aPnyyre. . . : NAA ONEEBJ\a\aHavgf frag  :\a R159        R1591                03272       S2723\a 03300       S301                 03300       S3012\a 03360       S361                 03360       S3614\a R509        R5091\a\aAngher bs Pnyy : IRU B/G FRIRENY GVZRF\a\aNqqvgvbany Vasb\a  FO\a\aAneengvir\a Nqqvgvbany R911 Pnyyre: JVYYVNZF,ERARR                       16:20:13\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                      16:20:13\a   Pnyyre Cubar  . . . : (856)905-3728                        16:20:13\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013130             R509        201300001246\a 03272       201300001727             03300       201300000470\a 03360       201300001349\a\aGur Pnyy Gnxre vf XABGG IVAPRAG Z\aGur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 4:20:09 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000342                    BEV: PB-03         Fgngvba: Fgn 361\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 4100 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : AWGC 4A FREIVPR NERN/AWGC RKVG 5\a\aPnyy Gvzr- 16:18:17                                Qngr- 07/30/2013\aQvfcngpu - 16:20:08     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1504         Qvfgevpg: 1504\a\aCubar Ahzore: (410) 443-6351                Pnyy Fbhepr:  911\a\aPnyyre. . . : NAA ONEEBJ\a\aHavgf frag  :\a 03272       S2723                03300       S301\a 03360       S361                 R509        R5091\a\aAngher bs Pnyy : IRU B/G FRIRENY GVZRF\a\aNqqvgvbany Vasb\a  FO\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R509        201300001246             03272       201300001727\a 03300       201300000470             03360       201300001349\a\aGur Pnyy Gnxre vf XABGG IVAPRAG Z\aGur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: gwbuafba@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 2:02:07 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000568                    BEV: NYNEZ         Fgngvba:\aVapvqrag Glcr  . :  NBF S Nynez BBF            Cevbevgl: 9\aVapvqrag Ybpngvba: 36-3701 PUHEPU EQ                                    Irahr: Nynez Yvfg\aYbpngrq Orgjrra  :  /\a\aPnyy Gvzr- 13:59:49                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern:                   Frpgvba :              Orng  . :             Znc . . :\aTevq:                   Dhnqenag:              Qvfgevpg:\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:    F\a\aAngher bs Pnyy : SV362 //\a\aNqqvgvbany Vap#f:\a 03360       201300000322\a\aGur Pnyy Gnxre vf WBUAFBA GUBZNF\aGur Qvfcngpure vf WBUAFBA GUBZNF\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 1:31:36 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001348                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   15 S Ehoovfu              Cevbevgl: 1\aVapvqrag Ybpngvba: 21 QNLYVYL QE                                        Irahr: Zg Ynhery\aYbpngrq Orgjrra  : PNEANGVBA PG/YNIRAQRE YN\a\aPnyy Gvzr- 13:31:35                                Qngr- 07/30/2013\aQvfcngpu - 13:31:35     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   32         Orng  . : 3606        Znc . . :   32\aTevq:                   Dhnqenag: 3643         Qvfgevpg: 3643\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : S3603\a\aHavgf frag  :\a 03360       S3603\a\aAngher bs Pnyy : VAIRFGVTNGVAT FVAX UBYRF\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf TVYOREG PUEVFGVAR Z\aGur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 1:31:36 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001348                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   15 S Ehoovfu              Cevbevgl: 1\aVapvqrag Ybpngvba: 21 QNLYVYL QE                                        Irahr: Zg Ynhery\aYbpngrq Orgjrra  : PNEANGVBA PG/YNIRAQRE YN\a\aPnyy Gvzr- 13:31:35                                Qngr- 07/30/2013\aQvfcngpu - 13:31:35     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   32         Orng  . : 3606        Znc . . :   32\aTevq:                   Dhnqenag: 3643         Qvfgevpg: 3643\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : S3603\a\aHavgf frag  :\a 03360       S3603\a\aAngher bs Pnyy : VAIRFGVTNGVAT FVAX UBYRF\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf TVYOREG PUEVFGVAR Z\aGur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 10:44:20 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\aQvfcngpu - 10:42:48     Ra-ebhgr- 10:43:22     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLPB BC USS\a\aHavgf frag  :\a 03360       S362                 03360       S3629\a 03360       S363                 03360       S3631\a 03360       S3632                03360       S3635\a\aAngher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\aNqqerff Purpxf\a\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\a\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\a\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\a\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\a\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\a\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf URQEVPX XRVGU R\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 10:43:20 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\aQvfcngpu - 10:42:48     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLPB BC USS\a\aHavgf frag  :\a 03360       S362                 03360       S3629\a 03360       S363\a\aAngher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\aNqqerff Purpxf\a\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\a\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\a\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\a\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\a\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\a\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf URQEVPX XRVGU R\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 10:43:43 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\aQvfcngpu - 10:42:48     Ra-ebhgr- 10:43:22     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLPB BC USS\a\aHavgf frag  :\a 03360       S362                 03360       S3629\a 03360       S363                 03360       S3632\a 03360       S3635\a\aAngher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\aNqqerff Purpxf\a\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\a\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\a\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\a\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\a\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\a\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf URQEVPX XRVGU R\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 10:43:38 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\aQvfcngpu - 10:42:48     Ra-ebhgr- 10:43:22     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLPB BC USS\a\aHavgf frag  :\a 03360       S362                 03360       S3629\a 03360       S363                 03360       S3635\a\aAngher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\aNqqerff Purpxf\a\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\a\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\a\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\a\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\a\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\a\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf URQEVPX XRVGU R\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: jlrexrf@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 10:42:49 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\aQvfcngpu - 10:42:48     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLPB BC USS\a\aHavgf frag  :\a 03360       S362\a\aAngher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\aNqqerff Purpxf\a\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\a\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\a\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\a\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\a\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\a\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf URQEVPX XRVGU R\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: jlrexrf@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 10:42:49 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\aQvfcngpu - 10:42:48     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLPB BC USS\a\aHavgf frag  :\a 03360       S362                 03360       S363\a\aAngher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\aNqqerff Purpxf\a\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\a\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\a\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\a\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\a\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\a\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf URQEVPX XRVGU R\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: xurqevpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 10:42:01 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/PRAGHEL CL\aPbzzba Anzr. . . : RPBAB YBQTR 36\a\aPnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : GLPB BC USS\a\aAngher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf URQEVPX XRVGU R\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 10:13:49 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001344                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   57 S Pbire Fgn            Cevbevgl: 9\aVapvqrag Ybpngvba: 71 RYOB YN                                           Irahr: Zg Ynhery\aYbpngrq Orgjrra  : SVERUBHFR YN/YBAT OEVQTR QE\aPbzzba Anzr. . . : FGN 363\a\aPnyy Gvzr- 09:05:26                                Qngr- 07/30/2013\aQvfcngpu - 09:05:27     Ra-ebhgr-              Ba-fprar- 09:05:27     Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   27         Orng  . : 3603        Znc . . :   27\aTevq:                   Dhnqenag: 3631         Qvfgevpg: 3631\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : S3620\aPbzcynvagnag: FGN 363\a\aHavgf frag  :\a 03360       S3620                03360       S3631\a 03360       S3635\a\aAngher bs Pnyy : SVERUBHFR YN/YBAT OEVQTR QE\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf TVYOREG PUEVFGVAR Z\aGur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 10:07:20 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001346                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 4106 PUHEPU EQ                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : FCEVATQNYR EQ/PYBIRE EQ\aPbzzba Anzr. . . : YNHERY GERR NPNQRZL\a\aPnyy Gvzr- 10:04:47                                Qngr- 07/30/2013\aQvfcngpu - 10:07:14     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    7         Orng  . : 3601        Znc . . :    7\aTevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\aCubar Ahzore: (609) 713-2974                Pnyy Fbhepr:  911\a\aPnyyre. . . : ZNEL OBBGUR\a\aHavgf frag  :\a 03360       S3635                03391       S3912\a\aAngher bs Pnyy : FGHQRAGF VAFVQR //FZRYYF BQBE BS ANGHENY TNF\a\aNqqvgvbany Vasb\a  JCU1:\a\aNqqvgvbany Vap#f:\a 03391       201300000136\a\aGur Pnyy Gnxre vf FCEHRYY FUNXVEN\aGur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 10:07:15 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001346                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 4106 PUHEPU EQ                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : FCEVATQNYR EQ/PYBIRE EQ\aPbzzba Anzr. . . : YNHERY GERR NPNQRZL\a\aPnyy Gvzr- 10:04:47                                Qngr- 07/30/2013\aQvfcngpu - 10:07:14     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    7         Orng  . : 3601        Znc . . :    7\aTevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\aCubar Ahzore: (609) 713-2974                Pnyy Fbhepr:  911\a\aPnyyre. . . : ZNEL OBBGUR\a\aHavgf frag  :\a 03360       S3635                03391       S3912\a\aAngher bs Pnyy : FGHQRAGF VAFVQR //FZRYYF BQBE BS ANGHENY TNF\a\aNqqvgvbany Vasb\a  JCU1:\a\aNqqvgvbany Vap#f:\a 03391       201300000136\a\aGur Pnyy Gnxre vf FCEHRYY FUNXVEN\aGur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ffcehry@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 10:04:48 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001346                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 4106 PUHEPU EQ                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : FCEVATQNYR EQ/PYBIRE EQ\aPbzzba Anzr. . . : YNHERY GERR NPNQRZL\a\aPnyy Gvzr- 10:04:47                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    7         Orng  . : 3601        Znc . . :    7\aTevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\aCubar Ahzore: (609) 713-2974                Pnyy Fbhepr:  911\a\aPnyyre. . . : ZNEL OBBGUR\a\aAngher bs Pnyy : FGHQRAGF VAFVQR //FZRYYF BQBE BS ANGHENY TNF\a\aNqqvgvbany Vasb\a  JCU1:\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf FCEHRYY FUNXVEN\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 9:08:33 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000148                    BEV: 03313         Fgngvba:\aVapvqrag Glcr  . :   17 S Shzrf                Cevbevgl: 1\aVapvqrag Ybpngvba: 400 EG38 FGE 9001                                    Irahr: Zbberfgbja\aYbpngrq Orgjrra  : AVKBA QE/F YRABYN EQ\aPbzzba Anzr. . . : FRNEF NHGBZBGVIR 31\a\aPnyy Gvzr- 08:29:52                                Qngr- 07/30/2013\aQvfcngpu - 09:08:16     Ra-ebhgr- 09:08:18     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3101              Frpgvba :   01         Orng  . : 3101        Znc . . :\aTevq:   Q7              Dhnqenag: 3109         Qvfgevpg: 3109\a\aCubar Ahzore: (856) 266-4219                Pnyy Fbhepr:  911\a\aPnyyre. . . : QRYBERF JBGBLIVPU\aPbzcynvagnag: FRPHEVGL\a\aHavgf frag  :\a 03310       PC31                 03101       S1013\a 03310       S3100                03310       S311\a 03310       S3112                03310       S3128\a 03313       S313                 03313       S3130\a 03313       S3133                03313       S3138\a R318        R3182                03360       S3620\a 03360       S3631\a\aAngher bs Pnyy : TNF YVAR EHCGHERQ /CBFFVOYR SVER\a\aNqqvgvbany Vasb\a  JCU1:\a\aAneengvir\a Gur sbyybjvat Vapvqragf unir orra yvaxrq:                     8:33:04\a  03360 2013-00001340 AX, 03313 2013-00000148 AR               8:33:04\a P                                                             8:48:58\a PC31 RFGNOYVFURQ OYQTF SEBZ BYQ ANIL GB ZVPUNRYF 1100 AVKBA   8:50:10\a QE ORVAT RINPHNGRQ NF JRYY NF FRNEF NHGBZBGVIR OYQT //        8:50:23\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R318        201300000996             03101       201300000368\a 03310       201300000349             03360       201300001345\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 9:08:17 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000148                    BEV: 03313         Fgngvba:\aVapvqrag Glcr  . :   17 S Shzrf                Cevbevgl: 1\aVapvqrag Ybpngvba: 400 EG38 FGE 9001                                    Irahr: Zbberfgbja\aYbpngrq Orgjrra  : AVKBA QE/F YRABYN EQ\aPbzzba Anzr. . . : FRNEF NHGBZBGVIR 31\a\aPnyy Gvzr- 08:29:52                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3101              Frpgvba :   01         Orng  . : 3101        Znc . . :\aTevq:   Q7              Dhnqenag: 3109         Qvfgevpg: 3109\a\aCubar Ahzore: (856) 266-4219                Pnyy Fbhepr:  911\a\aPnyyre. . . : QRYBERF JBGBLIVPU\aPbzcynvagnag: FRPHEVGL\a\aHavgf frag  :\a 03310       PC31                 03101       S1013\a 03310       S3100                03310       S311\a 03310       S3112                03310       S3128\a 03313       S313                 03313       S3130\a 03313       S3133                03313       S3138\a R318        R3182\a\aAngher bs Pnyy : TNF YVAR EHCGHERQ /CBFFVOYR SVER\a\aNqqvgvbany Vasb\a  JCU1:\a\aAneengvir\a Gur sbyybjvat Vapvqragf unir orra yvaxrq:                     8:33:04\a  03360 2013-00001340 AX, 03313 2013-00000148 AR               8:33:04\a P                                                             8:48:58\a PC31 RFGNOYVFURQ OYQTF SEBZ BYQ ANIL GB ZVPUNRYF 1100 AVKBA   8:50:10\a QE ORVAT RINPHNGRQ NF JRYY NF FRNEF NHGBZBGVIR OYQT //        8:50:23\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R318        201300000996             03101       201300000368\a 03310       201300000349             03360       201300001345\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 9:05:27 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001344                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   57 S Pbire Fgn            Cevbevgl: 9\aVapvqrag Ybpngvba: 71 RYOB YN                                           Irahr: Zg Ynhery\aYbpngrq Orgjrra  : SVERUBHFR YN/YBAT OEVQTR QE\aPbzzba Anzr. . . : FGN 363\a\aPnyy Gvzr- 09:05:26                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar- 09:05:27     Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   27         Orng  . : 3603        Znc . . :   27\aTevq:                   Dhnqenag: 3631         Qvfgevpg: 3631\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : S3620\aPbzcynvagnag: FGN 363\a\aHavgf frag  :\a 03360       S3631\a\aAngher bs Pnyy : SVERUBHFR YN/YBAT OEVQTR QE\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf TVYOREG PUEVFGVAR Z\aGur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:40:34 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001343                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 1200 UBJNEQ OI                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/QRNQ RAQ\a\aPnyy Gvzr- 08:38:24                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :   13         Orng  . : 3602        Znc . . :   13\aTevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\aCubar Ahzore: (800) 639-7019                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : UBYBPBAT FRP\aPbzcynvagnag: BC/252\a\aAngher bs Pnyy : AB CERZVFR/ JNGRE SYBJ 3EQ SYBBE RNFG FGNVE\a\aNqqvgvbany Vasb\a  ZG YNHERY PBEC CNEX\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\aGur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: wqhtna@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:38:25 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001343                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 1200 UBJNEQ OI                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : EG73/QRNQ RAQ\a\aPnyy Gvzr- 08:38:24                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :   13         Orng  . : 3602        Znc . . :   13\aTevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\aCubar Ahzore: (800) 639-7019                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : UBYBPBAT FRP\aPbzcynvagnag: BC/252\a\aAngher bs Pnyy : AB CERZVFR/ JNGRE SYBJ 3EQ SYBBE RNFG FGNVE\a\aNqqvgvbany Vasb\a  ZG YNHERY PBEC CNEX\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:34:55 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001342                    BEV: 03360         Fgngvba: Fgn 361\aVapvqrag Glcr  . :   57 S Pbire Fgn            Cevbevgl: 9\aVapvqrag Ybpngvba: 105 ZNFBAIVYYR EQ                                    Irahr: Zg Ynhery\aYbpngrq Orgjrra  : ZNEAR UL/YNEPUZBAG OI\aPbzzba Anzr. . . : ZNFBAIVYYR SVER PB\a\aPnyy Gvzr- 08:34:55                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3605              Frpgvba :   50         Orng  . : 3608        Znc . . :   50\aTevq:                   Dhnqenag: 3610         Qvfgevpg: 3610\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aAngher bs Pnyy : R391\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf JRPXRAOEBPX ZVPUNRY T\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:34:38 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001341                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . :   57 S Pbire Fgn            Cevbevgl: 9\aVapvqrag Ybpngvba: 3824 PUHEPU EQ                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : TYRAOEBBX OI/BERTBA NI\aPbzzba Anzr. . . : FGN 362\a\aPnyy Gvzr- 08:34:38                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\aTevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\aCubar Ahzore: (856) 235-4393                Pnyy Fbhepr:  GRY\a\aAngher bs Pnyy : FGN 101\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf JRPXRAOEBPX ZVPUNRY T\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:32:03 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\aPnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\aQvfcngpu - 08:22:06     Ra-ebhgr- 08:24:11     Ba-fprar- 08:26:36     Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\aCubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\aPnyyre. . . : NG&G ZBOVYVGL\a\aHavgf frag  :\a 03360       PC36                 PB-04       PP1332\a R159        R1595                03360       S3600\a 03360       S3603                03360       S361\a 03360       S3614                03360       S3616\a 03360       S362                 03360       S3629\a 03360       S363                 03360       S3632\a R360        R3681                R360        R3682\a\aAngher bs Pnyy : G/G RKCYBQRQ\a\aNqqvgvbany Vasb\a  JCU1:\a\aAneengvir\a Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a R1595 BA YBP GG JRYY VAIBYIRQ GG                              8:26:12\a Nqqvgvbany R911 Pnyyre: FZVGU,ZNEGVA                          8:27:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:27:40\a   Pnyyre Cubar  . . . : (609)760-6754                         8:27:40\a PYYE NQIF "URNIL SVER" SEBZ PNO OYBPXVAT NYY YNARF            8:27:40\a S3601 EDFG SBNZ 36,S3614 GB YBP                               8:28:26\a S3603 EDFG NQQVGVBANY OYF NAQ 2 RATVARF GB FGNAQOL @RKVG 4    8:29:28\a S3603 ERCBEGF S3629 VA FREIVPR JVGU 2/1/2 VA NAQ S3603 JVYY   8:31:46\a UNIR PBZZONAQ (PC36)                                          8:32:01\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a PB-04       201300001316             R159        201300013097\a R360        201300002936             03360       201300001339\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:30:27 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\aPnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\aQvfcngpu - 08:22:06     Ra-ebhgr- 08:24:11     Ba-fprar- 08:26:36     Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\aCubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\aPnyyre. . . : NG&G ZBOVYVGL\a\aHavgf frag  :\a 03360       PC36                 R159        R1595\a 03360       S3603                03360       S361\a 03360       S3614                03360       S3616\a 03360       S362                 03360       S3629\a 03360       S363                 03360       S3632\a R360        R3681                R360        R3682\a\aAngher bs Pnyy : G/G RKCYBQRQ\a\aNqqvgvbany Vasb\a  JCU1:\a\aAneengvir\a Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a R1595 BA YBP GG JRYY VAIBYIRQ GG                              8:26:12\a Nqqvgvbany R911 Pnyyre: FZVGU,ZNEGVA                          8:27:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:27:40\a   Pnyyre Cubar  . . . : (609)760-6754                         8:27:40\a PYYE NQIF "URNIL SVER" SEBZ PNO OYBPXVAT NYY YNARF            8:27:40\a S3601 EDFG SBNZ 36,S3614 GB YBP                               8:28:26\a S3603 EDFG NQQVGVBANY OYF NAQ 2 RATVARF GB FGNAQOL @RKVG 4    8:29:28\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013097             R360        201300002936\a 03360       201300001339\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:30:18 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\aPnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\aQvfcngpu - 08:22:06     Ra-ebhgr- 08:24:11     Ba-fprar- 08:26:36     Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\aCubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\aPnyyre. . . : NG&G ZBOVYVGL\a\aHavgf frag  :\a 03360       PC36                 R159        R1595\a 03360       S3603                03360       S361\a 03360       S3614                03360       S362\a 03360       S3629                03360       S363\a 03360       S3632                R360        R3681\a R360        R3682\a\aAngher bs Pnyy : G/G RKCYBQRQ\a\aNqqvgvbany Vasb\a  JCU1:\a\aAneengvir\a Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a R1595 BA YBP GG JRYY VAIBYIRQ GG                              8:26:12\a Nqqvgvbany R911 Pnyyre: FZVGU,ZNEGVA                          8:27:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:27:40\a   Pnyyre Cubar  . . . : (609)760-6754                         8:27:40\a PYYE NQIF "URNIL SVER" SEBZ PNO OYBPXVAT NYY YNARF            8:27:40\a S3601 EDFG SBNZ 36,S3614 GB YBP                               8:28:26\a S3603 EDFG NQQVGVBANY OYF NAQ 2 RATVARF GB FGNAQOL @RKVG 4    8:29:28\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013097             R360        201300002936\a 03360       201300001339\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: gwbuafba@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:29:56 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001340                    BEV: 03360         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 523 SRYYBJFUVC EQ FHVGR 235                          Irahr: Zg Ynhery\aYbpngrq Orgjrra  : J CNEX QE/EG73\aPbzzba Anzr. . . : IVEGHN CNENZRQVPF\a\aPnyy Gvzr- 08:29:55                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :   10         Orng  . : 3602        Znc . . :\aTevq:                   Dhnqenag: 3624         Qvfgevpg: 3624\a\aCubar Ahzore: (856) 581-7200                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ZRQVP 100\a\aAngher bs Pnyy : BQBE BS TNF BHG FVQR BS OHVYQVAT /\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf WBUAFBA GUBZNF\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: jlrexrf@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:28:20 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\aPnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\aQvfcngpu - 08:22:06     Ra-ebhgr- 08:24:11     Ba-fprar- 08:26:36     Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\aCubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\aPnyyre. . . : NG&G ZBOVYVGL\a\aHavgf frag  :\a R159        R1595                03360       S3603\a 03360       S361                 03360       S362\a 03360       S3629                03360       S363\a 03360       S3632                R360        R3681\a R360        R3682\a\aAngher bs Pnyy : G/G RKCYBQRQ\a\aNqqvgvbany Vasb\a  JCU1:\a\aAneengvir\a Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a R1595 BA YBP GG JRYY VAIBYIRQ GG                              8:26:12\a Nqqvgvbany R911 Pnyyre: FZVGU,ZNEGVA                          8:27:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:27:40\a   Pnyyre Cubar  . . . : (609)760-6754                         8:27:40\a PYYE NQIF "URNIL SVER" SEBZ PNO OYBPXVAT NYY YNARF            8:27:40\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013097             R360        201300002936\a 03360       201300001339\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:24:35 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\aPnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\aQvfcngpu - 08:22:06     Ra-ebhgr- 08:24:11     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\aCubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\aPnyyre. . . : NG&G ZBOVYVGL\a\aHavgf frag  :\a R159        R1595                03360       S3603\a 03360       S362                 03360       S3629\a 03360       S363                 03360       S3632\a R360        R3681                R360        R3682\a\aAngher bs Pnyy : G/G RKCYBQRQ\a\aNqqvgvbany Vasb\a  JCU1:\a\aAneengvir\a Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013097             R360        201300002936\a 03360       201300001339\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:24:10 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\aPnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\aQvfcngpu - 08:22:06     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\aCubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\aPnyyre. . . : NG&G ZBOVYVGL\a\aHavgf frag  :\a R159        R1595                03360       S362\a 03360       S363                 R360        R3682\a\aAngher bs Pnyy : G/G RKCYBQRQ\a\aNqqvgvbany Vasb\a  JCU1:\a\aAneengvir\a Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013097             R360        201300002936\a 03360       201300001339\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:24:13 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\aVapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\aPnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\aQvfcngpu - 08:22:06     Ra-ebhgr- 08:24:11     Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\aCubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\aPnyyre. . . : NG&G ZBOVYVGL\a\aHavgf frag  :\a R159        R1595                03360       S362\a 03360       S3629                03360       S363\a R360        R3682\a\aAngher bs Pnyy : G/G RKCYBQRQ\a\aNqqvgvbany Vasb\a  JCU1:\a\aAneengvir\a Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013097             R360        201300002936\a 03360       201300001339\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: jlrexrf@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:22:06 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\aPnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\aCubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\aPnyyre. . . : NG&G ZBOVYVGL\a\aHavgf frag  :\a R360        R3682\a\aAngher bs Pnyy : G/G RKCYBQRQ\a\aNqqvgvbany Vasb\a  JCU1:\a\aAneengvir\a Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R360        201300002936             03360       201300001339\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: jlrexrf@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:22:06 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\aPnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\aQvfcngpu - 08:22:06     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\aCubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\aPnyyre. . . : NG&G ZBOVYVGL\a\aHavgf frag  :\a 03360       S362                 03360       S363\a R360        R3682\a\aAngher bs Pnyy : G/G RKCYBQRQ\a\aNqqvgvbany Vasb\a  JCU1:\a\aAneengvir\a Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R360        201300002936             03360       201300001339\a\aGur Pnyy Gnxre vf QHTNA WRAAVSRE T\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: xurqevpx@PB.OHEYVATGBA.AW.HF\aFrag: Ghrfqnl, Whyl 30, 2013 8:20:24 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000341                    BEV: PB-03         Fgngvba: Fgn 362\aVapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\aVapvqrag Ybpngvba: 3450 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\aPbzzba Anzr. . . : RKVG 4 AWGC EBNQJNL\a\aPnyy Gvzr- 08:20:23                                Qngr- 07/30/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\aCubar Ahzore: (804) 441-3807                Pnyy Fbhepr:  911\a\aPnyyre. . . : XVEXJBBQ QLYNA\a\aAngher bs Pnyy : GEPGE GEYE SVER\a\aNqqvgvbany Vasb\a  AO\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf URQEVPX XRVGU R\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: xjvyfba@PB.OHEYVATGBA.AW.HF\aFrag: Zbaqnl, Whyl 29, 2013 7:10:33 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00001338                    BEV: 03360         Fgngvba: Fgn 363\aVapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\aVapvqrag Ybpngvba: 10 J OREJVA JL                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : A YNXR QE/IVYYNTR YN\a\aPnyy Gvzr- 19:10:32                                Qngr- 07/29/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar- 19:10:32     Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\aTevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\aCubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : S3632\a\aHavgf frag  :\a 03360       S3632\a\aAngher bs Pnyy : FZBXR QRGRPGBE\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf JVYFBA XRBA P\aGur Qvfcngpure vf JVYFBA XRBA P\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: jlrexrf@PB.OHEYVATGBA.AW.HF\aFrag: Zbaqnl, Whyl 29, 2013 6:54:10 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002933                    BEV: R360          Fgngvba: Fgn 361\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 341 JNYGBA NI                                        Irahr: Zg Ynhery\aYbpngrq Orgjrra  : YRNQRAUNYY EQ/HAVBA ZVYY EQ\a\aPnyy Gvzr- 18:52:55                                Qngr- 07/29/2013\aQvfcngpu - 18:54:09     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3604              Frpgvba :   34         Orng  . : 3605        Znc . . :   34\aTevq:                   Dhnqenag: 3645         Qvfgevpg: 3645\a\aCubar Ahzore: (609) 209-1993                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ZNEX JBYIREGBA\a\aHavgf frag  :\a 03360       S3614                R360        R368\a R360        R369\a\aAngher bs Pnyy : PUVYQ SRYY VAW GB ONPX\a\aNqqvgvbany Vap#f:\a 03360       201300001337\a\aGur Pnyy Gnxre vf PNINANHTU ZNEX G\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Zbaqnl, Whyl 29, 2013 6:50:44 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002932                    BEV: R360          Fgngvba: Fgn 363\aVapvqrag Glcr  . :  132 R HaxZrqRzet           Cevbevgl: 1\aVapvqrag Ybpngvba: 12 J OREJVA JL                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : A YNXR QE/IVYYNTR YN\a\aPnyy Gvzr- 18:46:39                                Qngr- 07/29/2013\aQvfcngpu - 18:48:04     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\aTevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\aCubar Ahzore: (856) 628-1226                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : NYVPR UVGARE\a\aHavgf frag  :\a 03360       S363                 03360       S3632\a R360        R368                 R360        R3681\a R360        R369\a\aAngher bs Pnyy : HANOYR GB JNYX//ONPX CNVAF\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a 03360       201300001336\a\aGur Pnyy Gnxre vf WBORF ZNEYNAN\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: jlrexrf@PB.OHEYVATGBA.AW.HF\aFrag: Zbaqnl, Whyl 29, 2013 6:48:05 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002932                    BEV: R360          Fgngvba: Fgn 363\aVapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\aVapvqrag Ybpngvba: 12 J OREJVA JL                                       Irahr: Zg Ynhery\aYbpngrq Orgjrra  : A YNXR QE/IVYYNTR YN\a\aPnyy Gvzr- 18:46:39                                Qngr- 07/29/2013\aQvfcngpu - 18:48:04     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\aTevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\aCubar Ahzore: (856) 628-1226                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : NYVPR UVGARE\a\aHavgf frag  :\a 03360       S363                 R360        R368\a R360        R369\a\aAngher bs Pnyy : HANOYR GB JNYX//ONPX CNVAF\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a 03360       201300001336\a\aGur Pnyy Gnxre vf WBORF ZNEYNAN\aGur Qvfcngpure vf LREXRF JNLAR Q\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\aFrag: Zbaqnl, Whyl 29, 2013 6:15:13 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002929                    BEV: R360          Fgngvba: Fgn 362\aVapvqrag Glcr  . :  125 R Cflpuvng             Cevbevgl: 1\aVapvqrag Ybpngvba: 101 QVRZRE QE                                        Irahr: Zg Ynhery\aYbpngrq Orgjrra  : PENJSBEQ CY/CNPVYYV CY\aPbzzba Anzr. . . : RKGRAQRQ FGNL UBGRYF\a\aPnyy Gvzr- 18:15:13                                Qngr- 07/29/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3601              Frpgvba :    6         Orng  . : 3601        Znc . . :    6\aTevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\aCubar Ahzore: (856) 778-4100                Pnyy Fbhepr:  GRY\a\aPnyyre. . . : ZY CQ\a\aAngher bs Pnyy : FHPVQNY FHOW\a\aNqqvgvbany Vasb\a  EZ 302\a\aNqqvgvbany Vap#f:\a\aGur Pnyy Gnxre vf JRPXRAOEBPX ZVPUNRY T\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: gwbuafba@PB.OHEYVATGBA.AW.HF\aFrag: Zbaqnl, Whyl 29, 2013 2:12:26 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00002926                    BEV: R360          Fgngvba: Fgn 362\aVapvqrag Glcr  . :  131 R Hapba                Cevbevgl: 1\aVapvqrag Ybpngvba: 813 RNFGTNGR QE FHVGR N                              Irahr: Zg Ynhery\aYbpngrq Orgjrra  : SRYYBJFUVC EQ/CYRNFNAG INYYRL NI\aPbzzba Anzr. . . : NYYVRQ BEGUBGVPF & CEBFGURGVPF\a\aPnyy Gvzr- 14:09:58                                Qngr- 07/29/2013\aQvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 3602              Frpgvba :    9         Orng  . : 3602        Znc . . :    9\aTevq:                   Dhnqenag: 3624         Qvfgevpg: 3624\a\aCubar Ahzore: (609) 731-4320                Pnyy Fbhepr:  911\a\aPnyyre. . . : SRYVK YBTNEGN\a\aHavgf frag  :\a R159        R1593                R360        R3681\a\aAngher bs Pnyy : SRZNYR CNFFRQ BHG\a\aNqqvgvbany Vasb\a  JCU2:\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R159        201300013061             03360       201300001335\a\aGur Pnyy Gnxre vf QRFWNEQVAF NYSERQ R\aGur Qvfcngpure vf WBUAFBA GUBZNF\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a________________________________________\aSebz: jlrexrf@PB.OHEYVATGBA.AW.HF\aFrag: Zbaqnl, Whyl 29, 2013 12:15:31 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\aGb: zysqnccnenghf@tznvy.pbz\aFhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\aVapvqrag Ahzore  : 2013-00000336                    BEV: PB-03         Fgngvba: Fgn 361\aVapvqrag Glcr  . :  129 R NppVawel             Cevbevgl: 1\aVapvqrag Ybpngvba: 4400 AWGC                                            Irahr: AWGC\aYbpngrq Orgjrra  : AWGC 4A FREIVPR NERN/AWGC RKVG 5\aPbzzba Anzr. . . : RKVG 5 AWGC\a\aPnyy Gvzr- 12:10:38                                Qngr- 07/29/2013\aQvfcngpu - 12:14:17     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\aNeevir 2 -              Qrcneg 2-              Va-fgnga-\a\aNern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\aTevq:                   Dhnqenag: 1504         Qvfgevpg: 1504\a\aCubar Ahzore: (978) 808-1959                Pnyy Fbhepr:  911\a\aPnyyre. . . : YRBAR NZNAQN\a\aHavgf frag  :\a 03272       S2723                03300       S301\a 03360       S3603                03360       S3614\a R509        R5092\a\aAngher bs Pnyy : ZI IF ZRQVNA\a\aNqqvgvbany Vasb\a  FO\a\aAneengvir\a AB VAWF GBG FGNGR CBYVPR                                     12:11:33\a\aNqqerff Purpxf\a\aNqqvgvbany Vap#f:\a R509        201300001241             03272       201300001720\a 03300       201300000465             03360       201300001334\a\aGur Pnyy Gnxre vf WBUAFBA GUBZNF\aGur Qvfcngpure vf WBUAFBA GUBZNF\a________________________________\aGur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.
+
 */
 
 choyvp pynff AWOheyvatgbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -6221,7 +6327,7 @@ choyvp pynff AWOheyvatgbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:9",
         "NQQE:CRAAFNHXRA SVER PB 11-2",
         "ZNQQE:CRAAFNHXRA SVER PBHAGL EBNQ 11-2",
-        "PVGL:Pnzqra Pb",
+        "PVGL:Pnzqra Pbhagl",
         "CYNPR:PNZQRA PBHAGL",
         "GVZR:12:20:25",
         "QNGR:05/13/2013",
@@ -7911,6 +8017,5025 @@ choyvp pynff AWOheyvatgbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:(800) 633-2677",
         "ANZR:ORINA FRPHEVGL Pbzcynvagnag: BCG 3922",
         "VASB:NPGVINGRQ NHQ SVER//MBAR 1//8567862972//JVYY\aPUNEYRF FG FPUBBY\aABGVSL\aNqqerff Purpxf\aOhvyqvat-TRB : Choyvp Ohvyqvat\a  Unmneqf . . . :    Cubgbibygnvp Flfgrz - (Fbyne Cbjre)\a  Qngr bs Ragel:     3-23-2011\a  Pbzzba Anzr:       PUNEYRF FGERRG FPUBBY\a  Unmneq Vasb:       SVER SVTUGVAT/RYRPGEVPNY UNMNEQ-FBYNE RARETL FLFGRZ BA FVGR\aNqqvgvbany Vap#f:\a 03241       201300000052");
+  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZbhagYnherySverQrcnegzrag() {
+
+    qbGrfg("G1",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ufcebjy@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 12:30:48 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002969                    BEV: R360          Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :  129 R NppVawel             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 1420 AVKBA QE                                        Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : ZBBERFGBJA GJC YVAR/YVAX EQ\a" +
+        "Pbzzba Anzr. . . : ORFG OHL\a\a" +
+        "Pnyy Gvzr- 12:25:16                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 12:26:47     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :    9         Orng  . : 3602        Znc . . :    9\a" +
+        "Tevq:                   Dhnqenag: 3625         Qvfgevpg: 3625\a\a" +
+        "Cubar Ahzore: (856) 222-0087                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : ZNVB FGRIR\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1590                R159        R1593\a" +
+        " 03360       S362                 03360       S3632\a" +
+        " R360        R368                 R360        R3691\a" +
+        " R360        R3692\a\a" +
+        "Angher bs Pnyy : CRQ UVG OL IRU// PBAP\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  ORFG OHL  C/YBG\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013227             03360       201300001366\a\a" +
+        "Gur Pnyy Gnxre vf HUYVT ONEONEN N\a" +
+        "Gur Qvfcngpure vf ONXRE ZNEX W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002969",
+        "HAVG:R360 R159 R1590 R1593 03360 S362 S3632 R368 R3691 R3692",
+        "FEP:Fgn 362",
+        "PBQR:129",
+        "PNYY:Genssvp Vawhel Nppvqragf",
+        "CEV:1",
+        "NQQE:1420 AVKBA QE",
+        "PVGL:Zg Ynhery",
+        "K:ZBBERFGBJA GJC YVAR/YVAX EQ",
+        "CYNPR:ORFG OHL",
+        "GVZR:12:25:16",
+        "QNGR:08/01/2013",
+        "ZNC:3625/3625/9/3602",
+        "CUBAR:(856) 222-0087",
+        "ANZR:ZNVB FGRIR",
+        "VASB:CRQ UVG OL IRU// PBAP\aORFG OHL  C/YBG\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013227             03360       201300001366");
+
+    qbGrfg("G2",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zwonxre@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 12:26:48 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002969                    BEV: R360          Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 1420 AVKBA QE                                        Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : ZBBERFGBJA GJC YVAR/YVAX EQ\a" +
+        "Pbzzba Anzr. . . : ORFG OHL\a\a" +
+        "Pnyy Gvzr- 12:25:16                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :    9         Orng  . : 3602        Znc . . :    9\a" +
+        "Tevq:                   Dhnqenag: 3625         Qvfgevpg: 3625\a\a" +
+        "Cubar Ahzore: (856) 222-0087                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : ZNVB FGRIR\a\a" +
+        "Angher bs Pnyy : CRQ UVG OL IRU// PBAP\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  ORFG OHL  C/YBG\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " 03360       201300001366\a\a" +
+        "Gur Pnyy Gnxre vf HUYVT ONEONEN N\a" +
+        "Gur Qvfcngpure vf ONXRE ZNEX W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002969",
+        "HAVG:R360",
+        "FEP:Fgn 362",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:1420 AVKBA QE",
+        "PVGL:Zg Ynhery",
+        "K:ZBBERFGBJA GJC YVAR/YVAX EQ",
+        "CYNPR:ORFG OHL",
+        "GVZR:12:25:16",
+        "QNGR:08/01/2013",
+        "ZNC:3625/3625/9/3602",
+        "CUBAR:(856) 222-0087",
+        "ANZR:ZNVB FGRIR",
+        "VASB:CRQ UVG OL IRU// PBAP\aORFG OHL  C/YBG\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a 03360       201300001366");
+
+    qbGrfg("G3",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zwonxre@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 12:23:56 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002968                    BEV: R360          Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 3\a" +
+        "Vapvqrag Ybpngvba: 1200 UBJNEQ OI                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/QRNQ RAQ\a\a" +
+        "Pnyy Gvzr- 12:06:42                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 12:08:19     Ra-ebhgr- 12:10:35     Ba-fprar- 12:13:33     Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :   13         Orng  . : 3602        Znc . . :   13\a" +
+        "Tevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\a" +
+        "Cubar Ahzore: (609) 439-9405                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : IREVMBA JVERYRFF\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1593                R159        R1595\a" +
+        " R318        R3181                03360       S3603\a" +
+        " 03360       S3629                03360       S3632\a" +
+        " R360        R3671\a\a" +
+        "Angher bs Pnyy : IRUVPYR VAGB N CBYR\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU2:\a\a" +
+        "Aneengvir\a" +
+        " S3629 ERCBEGF CBYR FANCCRQ NG ONFR, CBYR # 63303             12:16:50\a" +
+        " R3181 PNZR HCBA ZIN ERGHEAVAT SEBZ JWZ, NAQ FGBCCRQ          12:17:08\a" +
+        " Z35 & Z31 FJVGPURQ HC                                        12:17:33\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013224             R318        201300001011\a" +
+        " 03360       201300001365\a\a" +
+        "Gur Pnyy Gnxre vf ZNGYNPX CNHY U\a" +
+        "Gur Qvfcngpure vf ONXRE ZNEX W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002968",
+        "HAVG:R360 R159 R1593 R1595 R318 R3181 03360 S3603 S3629 S3632 R3671",
+        "FEP:Fgn 362",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:3",
+        "NQQE:1200 UBJNEQ OI",
+        "PVGL:Zg Ynhery",
+        "K:EG73/QRNQ RAQ",
+        "GVZR:12:06:42",
+        "QNGR:08/01/2013",
+        "ZNC:3622/3622/13/3602",
+        "CUBAR:(609) 439-9405",
+        "VASB:IRUVPYR VAGB N CBYR\aJCU2:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013224             R318        201300001011\a 03360       201300001365");
+
+    qbGrfg("G4",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ufcebjy@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 12:23:35 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002968                    BEV: R360          Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 3\a" +
+        "Vapvqrag Ybpngvba: 1200 UBJNEQ OI                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/QRNQ RAQ\a\a" +
+        "Pnyy Gvzr- 12:06:42                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 12:08:19     Ra-ebhgr- 12:10:35     Ba-fprar- 12:13:33     Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :   13         Orng  . : 3602        Znc . . :   13\a" +
+        "Tevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\a" +
+        "Cubar Ahzore: (609) 439-9405                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : IREVMBA JVERYRFF\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1593                R159        R1595\a" +
+        " R318        R3181                03360       S3629\a" +
+        " R360        R3671\a\a" +
+        "Angher bs Pnyy : IRUVPYR VAGB N CBYR\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU2:\a\a" +
+        "Aneengvir\a" +
+        " S3629 ERCBEGF CBYR FANCCRQ NG ONFR, CBYR # 63303             12:16:50\a" +
+        " R3181 PNZR HCBA ZIN ERGHEAVAT SEBZ JWZ, NAQ FGBCCRQ          12:17:08\a" +
+        " Z35 & Z31 FJVGPURQ HC                                        12:17:33\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013224             R318        201300001011\a" +
+        " 03360       201300001365\a\a" +
+        "Gur Pnyy Gnxre vf ZNGYNPX CNHY U\a" +
+        "Gur Qvfcngpure vf ONXRE ZNEX W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002968",
+        "HAVG:R360 R159 R1593 R1595 R318 R3181 03360 S3629 R3671",
+        "FEP:Fgn 362",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:3",
+        "NQQE:1200 UBJNEQ OI",
+        "PVGL:Zg Ynhery",
+        "K:EG73/QRNQ RAQ",
+        "GVZR:12:06:42",
+        "QNGR:08/01/2013",
+        "ZNC:3622/3622/13/3602",
+        "CUBAR:(609) 439-9405",
+        "VASB:IRUVPYR VAGB N CBYR\aJCU2:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013224             R318        201300001011\a 03360       201300001365");
+
+    qbGrfg("G5",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zwonxre@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 12:08:19 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002968                    BEV: R360          Fgngvba:\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: A EG73                                               Irahr: Zg Ynhery\a" +
+        "  Pebff Fgerrg . : PUHEPU EQ\a\a" +
+        "Pnyy Gvzr- 12:06:42                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 12:08:19     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    6         Orng  . : 3601        Znc . . :    6\a" +
+        "Tevq:                   Dhnqenag: 3623         Qvfgevpg: 3623\a\a" +
+        "Cubar Ahzore: (609) 439-9405                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : IREVMBA JVERYRFF\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3629                R360        R3671\a\a" +
+        "Angher bs Pnyy : IRUVPYR VAGB N CBYR\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU2:\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " 03360       201300001365\a\a" +
+        "Gur Pnyy Gnxre vf ZNGYNPX CNHY U\a" +
+        "Gur Qvfcngpure vf ONXRE ZNEX W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002968",
+        "HAVG:R360 03360 S3629 R3671",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:A EG73",
+        "ZNQQE:A EG 73 & PUHEPU EQ",
+        "PVGL:Zg Ynhery",
+        "K:PUHEPU EQ",
+        "GVZR:12:06:42",
+        "QNGR:08/01/2013",
+        "ZNC:3623/3623/6/3601",
+        "CUBAR:(609) 439-9405",
+        "VASB:IRUVPYR VAGB N CBYR\aJCU2:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a 03360       201300001365");
+
+    qbGrfg("G6",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: onyyra@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 8:38:33 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\a" +
+        "Pnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 08:34:32     Ra-ebhgr- 08:36:48     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\a" +
+        "Tevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : BZRTN NYNEZ\a" +
+        "Pbzcynvagnag: BCE 1025\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S3614\a" +
+        " 03360       S3621                03360       S3632\a" +
+        " 03360       S3635\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001364",
+        "HAVG:03360 S3603 S3614 S3621 S3632 S3635",
+        "FEP:Fgn 363",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:37 UBEFRFUBR QE",
+        "PVGL:Zg Ynhery",
+        "K:OEVQYR YN/OEVQYR YN",
+        "GVZR:08:33:16",
+        "QNGR:08/01/2013",
+        "ZNC:3632/3632/22/3603",
+        "CUBAR:(800) 633-2677",
+        "ANZR:BZRTN NYNEZ Pbzcynvagnag: BCE 1025",
+        "VASB:SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795");
+
+    qbGrfg("G7",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: onyyra@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 8:36:43 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\a" +
+        "Pnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 08:34:32     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\a" +
+        "Tevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : BZRTN NYNEZ\a" +
+        "Pbzcynvagnag: BCE 1025\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3614                03360       S3621\a" +
+        " 03360       S3632                03360       S3635\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001364",
+        "HAVG:03360 S3614 S3621 S3632 S3635",
+        "FEP:Fgn 363",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:37 UBEFRFUBR QE",
+        "PVGL:Zg Ynhery",
+        "K:OEVQYR YN/OEVQYR YN",
+        "GVZR:08:33:16",
+        "QNGR:08/01/2013",
+        "ZNC:3632/3632/22/3603",
+        "CUBAR:(800) 633-2677",
+        "ANZR:BZRTN NYNEZ Pbzcynvagnag: BCE 1025",
+        "VASB:SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795");
+
+    qbGrfg("G8",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: onyyra@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 8:37:02 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\a" +
+        "Pnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 08:34:32     Ra-ebhgr- 08:36:48     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\a" +
+        "Tevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : BZRTN NYNEZ\a" +
+        "Pbzcynvagnag: BCE 1025\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S3614\a" +
+        " 03360       S3621                03360       S3632\a" +
+        " 03360       S3635\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001364",
+        "HAVG:03360 S3603 S3614 S3621 S3632 S3635",
+        "FEP:Fgn 363",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:37 UBEFRFUBR QE",
+        "PVGL:Zg Ynhery",
+        "K:OEVQYR YN/OEVQYR YN",
+        "GVZR:08:33:16",
+        "QNGR:08/01/2013",
+        "ZNC:3632/3632/22/3603",
+        "CUBAR:(800) 633-2677",
+        "ANZR:BZRTN NYNEZ Pbzcynvagnag: BCE 1025",
+        "VASB:SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795");
+
+    qbGrfg("G9",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: tlhepub@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 8:36:38 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\a" +
+        "Pnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 08:34:32     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\a" +
+        "Tevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : BZRTN NYNEZ\a" +
+        "Pbzcynvagnag: BCE 1025\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3614                03360       S3621\a" +
+        " 03360       S3632                03360       S3635\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001364",
+        "HAVG:03360 S3614 S3621 S3632 S3635",
+        "FEP:Fgn 363",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:37 UBEFRFUBR QE",
+        "PVGL:Zg Ynhery",
+        "K:OEVQYR YN/OEVQYR YN",
+        "GVZR:08:33:16",
+        "QNGR:08/01/2013",
+        "ZNC:3632/3632/22/3603",
+        "CUBAR:(800) 633-2677",
+        "ANZR:BZRTN NYNEZ Pbzcynvagnag: BCE 1025",
+        "VASB:SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795");
+
+    qbGrfg("G10",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: onyyra@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 8:35:00 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\a" +
+        "Pnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 08:34:32     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\a" +
+        "Tevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : BZRTN NYNEZ\a" +
+        "Pbzcynvagnag: BCE 1025\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3621                03360       S3632\a" +
+        " 03360       S3635\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001364",
+        "HAVG:03360 S3621 S3632 S3635",
+        "FEP:Fgn 363",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:37 UBEFRFUBR QE",
+        "PVGL:Zg Ynhery",
+        "K:OEVQYR YN/OEVQYR YN",
+        "GVZR:08:33:16",
+        "QNGR:08/01/2013",
+        "ZNC:3632/3632/22/3603",
+        "CUBAR:(800) 633-2677",
+        "ANZR:BZRTN NYNEZ Pbzcynvagnag: BCE 1025",
+        "VASB:SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795");
+
+    qbGrfg("G11",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: tlhepub@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 8:34:32 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\a" +
+        "Pnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 08:34:32     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\a" +
+        "Tevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : BZRTN NYNEZ\a" +
+        "Pbzcynvagnag: BCE 1025\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3635\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001364",
+        "HAVG:03360 S3635",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:37 UBEFRFUBR QE",
+        "PVGL:Zg Ynhery",
+        "K:OEVQYR YN/OEVQYR YN",
+        "GVZR:08:33:16",
+        "QNGR:08/01/2013",
+        "ZNC:3632/3632/22/3603",
+        "CUBAR:(800) 633-2677",
+        "ANZR:BZRTN NYNEZ Pbzcynvagnag: BCE 1025",
+        "VASB:SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795");
+
+    qbGrfg("G12",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: tlhepub@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 8:34:32 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\a" +
+        "Pnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 08:34:32     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\a" +
+        "Tevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : BZRTN NYNEZ\a" +
+        "Pbzcynvagnag: BCE 1025\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3621                03360       S3635\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001364",
+        "HAVG:03360 S3621 S3635",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:37 UBEFRFUBR QE",
+        "PVGL:Zg Ynhery",
+        "K:OEVQYR YN/OEVQYR YN",
+        "GVZR:08:33:16",
+        "QNGR:08/01/2013",
+        "ZNC:3632/3632/22/3603",
+        "CUBAR:(800) 633-2677",
+        "ANZR:BZRTN NYNEZ Pbzcynvagnag: BCE 1025",
+        "VASB:SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795");
+
+    qbGrfg("G13",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ezvyyre@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 8:33:16 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001364                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 37 UBEFRFUBR QE                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : OEVQYR YN/OEVQYR YN\a\a" +
+        "Pnyy Gvzr- 08:33:16                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\a" +
+        "Tevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : BZRTN NYNEZ\a" +
+        "Pbzcynvagnag: BCE 1025\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001364",
+        "HAVG:03360",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:37 UBEFRFUBR QE",
+        "PVGL:Zg Ynhery",
+        "K:OEVQYR YN/OEVQYR YN",
+        "GVZR:08:33:16",
+        "QNGR:08/01/2013",
+        "ZNC:3632/3632/22/3603",
+        "CUBAR:(800) 633-2677",
+        "ANZR:BZRTN NYNEZ Pbzcynvagnag: BCE 1025",
+        "VASB:SVER NYNEZ/TRARENY/ANCBYV ERFQ/8567805795");
+
+    qbGrfg("G14",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zwonxre@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 8:30:17 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001326                    BEV: PB-04         Fgngvba:\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3530 EG295                                           Irahr: Pnzqra Pb\a" +
+        "Ybpngrq Orgjrra  :  /\a\a" +
+        "Pnyy Gvzr- 08:26:46                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 08:28:00     Ra-ebhgr- 08:28:38     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern:   62              Frpgvba :   62         Orng  . : 6290        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 6200         Qvfgevpg: 6200\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : PPP\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1595                03360       S3603\a" +
+        " 03360       S3629                03360       S3632\a" +
+        " R360        R3692\a\a" +
+        "Angher bs Pnyy : ZIN/ R368,S363,R1595\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  F/O\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013209             R360        201300002964\a" +
+        " 03360       201300001363\a\a" +
+        "Gur Pnyy Gnxre vf ONXRE ZNEX W\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001326",
+        "HAVG:PB-04 R159 R1595 03360 S3603 S3629 S3632 R360 R3692",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:3530 EG295",
+        "ZNQQE:39.9157850,-74.9812780",
+        "PVGL:Pnzqra Pbhagl",
+        "GVZR:08:26:46",
+        "QNGR:08/01/2013",
+        "ZNC:6200/6200/62/62",
+        "ANZR:PPP",
+        "VASB:ZIN/ R368,S363,R1595\aF/O\aNqqvgvbany Vap#f:\aR159        201300013209             R360        201300002964\a03360       201300001363");
+
+    qbGrfg("G15",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: onyyra@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 8:28:28 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001326                    BEV: PB-04         Fgngvba:\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3530 EG295                                           Irahr: Pnzqra Pb\a" +
+        "Ybpngrq Orgjrra  :  /\a\a" +
+        "Pnyy Gvzr- 08:26:46                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 08:28:00     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern:   62              Frpgvba :   62         Orng  . : 6290        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 6200         Qvfgevpg: 6200\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : PPP\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1595                03360       S3603\a" +
+        " 03360       S3632                R360        R3692\a\a" +
+        "Angher bs Pnyy : ZIN/ R368,S363,R1595\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  PP\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013209             R360        201300002964\a" +
+        " 03360       201300001363\a\a" +
+        "Gur Pnyy Gnxre vf ONXRE ZNEX W\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001326",
+        "HAVG:PB-04 R159 R1595 03360 S3603 S3632 R360 R3692",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:3530 EG295",
+        "ZNQQE:39.9157850,-74.9812780",
+        "PVGL:Pnzqra Pbhagl",
+        "GVZR:08:26:46",
+        "QNGR:08/01/2013",
+        "ZNC:6200/6200/62/62",
+        "ANZR:PPP",
+        "VASB:ZIN/ R368,S363,R1595\aPP\aNqqvgvbany Vap#f:\aR159        201300013209             R360        201300002964\a03360       201300001363");
+
+    qbGrfg("G16",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: tlhepub@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 8:28:01 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001326                    BEV: PB-04         Fgngvba:\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3530 EG295                                           Irahr: Pnzqra Pb\a" +
+        "Ybpngrq Orgjrra  :  /\a\a" +
+        "Pnyy Gvzr- 08:26:46                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 08:28:00     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern:   62              Frpgvba :   62         Orng  . : 6290        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 6200         Qvfgevpg: 6200\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : PPP\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3632                R360        R3692\a\a" +
+        "Angher bs Pnyy : ZIN/ R368,S363,R1595\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  PP\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R360        201300002964             03360       201300001363\a\a" +
+        "Gur Pnyy Gnxre vf ONXRE ZNEX W\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001326",
+        "HAVG:PB-04 03360 S3632 R360 R3692",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:3530 EG295",
+        "ZNQQE:39.9157850,-74.9812780",
+        "PVGL:Pnzqra Pbhagl",
+        "GVZR:08:26:46",
+        "QNGR:08/01/2013",
+        "ZNC:6200/6200/62/62",
+        "ANZR:PPP",
+        "VASB:ZIN/ R368,S363,R1595\aPP\aNqqvgvbany Vap#f:\aR360        201300002964             03360       201300001363");
+
+    qbGrfg("G17",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: onyyra@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 7:28:26 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000345                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :  129 R NppVawel             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3590 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : AWGC RKVG 4/AWGC FC ONEENPXF\a\a" +
+        "Pnyy Gvzr- 07:20:10                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 07:25:05     Ra-ebhgr- 07:26:59     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1502         Qvfgevpg: 1502\a\a" +
+        "Cubar Ahzore: (321) 594-8929                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . :  FGRIRA SVGMTRENYQ\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S3629\a" +
+        " 03360       S3632                R360        R3692\a\a" +
+        "Angher bs Pnyy : ZIN JVGU VAWF\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  FO FVQR\a\a" +
+        "Aneengvir\a" +
+        " PYYE ERCBEGF PURPXRQ IRU, AB VAWF, FC BA YBP                  7:22:17\a" +
+        " AB QFCU ZNQR                                                  7:22:30\a" +
+        " FC PYYQ ERCBEGVAT 35.9 FO, 1 URNQ VAW                         7:25:52\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R360        201300002962             03360       201300001362\a\a" +
+        "Gur Pnyy Gnxre vf LHEPUB TRBETR\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000345",
+        "HAVG:PB-03 03360 S3603 S3629 S3632 R360 R3692",
+        "FEP:Fgn 362",
+        "PBQR:129",
+        "PNYY:Genssvp Vawhel Nppvqragf",
+        "CEV:1",
+        "NQQE:3590 AWGC",
+        "ZNQQE:39.9439785314,-74.9365914424",
+        "PVGL:AWGC",
+        "K:AWGC RKVG 4/AWGC FC ONEENPXF",
+        "GVZR:07:20:10",
+        "QNGR:08/01/2013",
+        "ZNC:1502/1502/1590/1590",
+        "CUBAR:(321) 594-8929",
+        "ANZR:FGRIRA SVGMTRENYQ",
+        "VASB:ZIN JVGU VAWF\aFO FVQR");
+
+    qbGrfg("G18",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: tlhepub@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 7:25:06 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000345                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3590 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : AWGC RKVG 4/AWGC FC ONEENPXF\a\a" +
+        "Pnyy Gvzr- 07:20:10                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 07:25:05     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1502         Qvfgevpg: 1502\a\a" +
+        "Cubar Ahzore: (321) 594-8929                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . :  FGRIRA SVGMTRENYQ\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3629                03360       S3632\a" +
+        " R360        R3692\a\a" +
+        "Angher bs Pnyy : ZIN JVGU VAWF\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  FO FVQR\a\a" +
+        "Aneengvir\a" +
+        " PYYE ERCBEGF PURPXRQ IRU, AB VAWF, FC BA YBP                  7:22:17\a" +
+        " AB QFCU ZNQR                                                  7:22:30\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R360        201300002962             03360       201300001362\a\a" +
+        "Gur Pnyy Gnxre vf LHEPUB TRBETR\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000345",
+        "HAVG:PB-03 03360 S3629 S3632 R360 R3692",
+        "FEP:Fgn 362",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:3590 AWGC",
+        "ZNQQE:39.9439785314,-74.9365914424",
+        "PVGL:AWGC",
+        "K:AWGC RKVG 4/AWGC FC ONEENPXF",
+        "GVZR:07:20:10",
+        "QNGR:08/01/2013",
+        "ZNC:1502/1502/1590/1590",
+        "CUBAR:(321) 594-8929",
+        "ANZR:FGRIRA SVGMTRENYQ",
+        "VASB:ZIN JVGU VAWF\aFO FVQR");
+
+    qbGrfg("G19",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: tlhepub@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Guhefqnl, Nhthfg 01, 2013 7:25:05 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000345                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3590 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : AWGC RKVG 4/AWGC FC ONEENPXF\a\a" +
+        "Pnyy Gvzr- 07:20:10                                Qngr- 08/01/2013\a" +
+        "Qvfcngpu - 07:25:05     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1502         Qvfgevpg: 1502\a\a" +
+        "Cubar Ahzore: (321) 594-8929                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . :  FGRIRA SVGMTRENYQ\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3632                R360        R3692\a\a" +
+        "Angher bs Pnyy : ZIN JVGU VAWF\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  FO FVQR\a\a" +
+        "Aneengvir\a" +
+        " PYYE ERCBEGF PURPXRQ IRU, AB VAWF, FC BA YBP                  7:22:17\a" +
+        " AB QFCU ZNQR                                                  7:22:30\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R360        201300002962             03360       201300001362\a\a" +
+        "Gur Pnyy Gnxre vf LHEPUB TRBETR\a" +
+        "Gur Qvfcngpure vf LHEPUB TRBETR\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000345",
+        "HAVG:PB-03 03360 S3632 R360 R3692",
+        "FEP:Fgn 362",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:3590 AWGC",
+        "ZNQQE:39.9439785314,-74.9365914424",
+        "PVGL:AWGC",
+        "K:AWGC RKVG 4/AWGC FC ONEENPXF",
+        "GVZR:07:20:10",
+        "QNGR:08/01/2013",
+        "ZNC:1502/1502/1590/1590",
+        "CUBAR:(321) 594-8929",
+        "ANZR:FGRIRA SVGMTRENYQ",
+        "VASB:ZIN JVGU VAWF\aFO FVQR");
+
+    qbGrfg("G20",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: wsevrqevpu@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 9:53:10 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002958                    BEV: R360          Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 129 FPUBBYUBHFR YN                                   Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : NCCYR YN/FPUBBYUBHFR GR\a\a" +
+        "Pnyy Gvzr- 21:51:03                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 21:53:10     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    3         Orng  . : 3601        Znc . . :    3\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (856) 235-3634                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : EBFRZNEV GEBFB PYNEX, ,\a\a" +
+        "Havgf frag  :\a" +
+        " R318        R3182                03360       S3632\a\a" +
+        "Angher bs Pnyy : SZ OYRRQVAT SEBZ GUR ERPGHZ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  IBVC:\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R318        201300001005             03360       201300001361\a\a" +
+        "Gur Pnyy Gnxre vf ZBUE GURERFN\a" +
+        "Gur Qvfcngpure vf SEVRQEVPU WBFUHN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002958",
+        "HAVG:R360 R318 R3182 03360 S3632",
+        "FEP:Fgn 362",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:129 FPUBBYUBHFR YN",
+        "ZNQQE:129 FPUBBYUBHFR YA",
+        "PVGL:Zg Ynhery",
+        "K:NCCYR YN/FPUBBYUBHFR GR",
+        "GVZR:21:51:03",
+        "QNGR:07/31/2013",
+        "ZNC:3621/3621/3/3601",
+        "CUBAR:(856) 235-3634",
+        "ANZR:EBFRZNEV GEBFB PYNEX, ,",
+        "VASB:SZ OYRRQVAT SEBZ GUR ERPGHZ\aIBVC:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R318        201300001005             03360       201300001361");
+
+    qbGrfg("G21",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: OTHREEVAV@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 9:31:58 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002956                    BEV: R360          Fgngvba: Fgn 361\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4250 EG295                                           Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG38 RKVGF/PERRX EQ\a\a" +
+        "Pnyy Gvzr- 21:28:34                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 21:30:10     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3600              Frpgvba : 3652         Orng  . : 3690        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1512         Qvfgevpg: 1512\a\a" +
+        "Cubar Ahzore: (267) 270-1743                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : RYIVF GHERYY\a\a" +
+        "Havgf frag  :\a" +
+        " R360        R3608                03360       S3614\a" +
+        " 03360       S3629                R360        R3681\a\a" +
+        "Angher bs Pnyy : 2 PNE ZIP // 2 VAWHEVRF // Z UVG URNQ // S PB\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:  ENQVHF 01 ZVYRF\a" +
+        "  ONPX NAQ ARPX NAQ 3 XVQF GB OR PURPXRQ BHG\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " 03360       201300001360\a\a" +
+        "Gur Pnyy Gnxre vf ZBUE GURERFN\a" +
+        "Gur Qvfcngpure vf THREEVAV ORAWNZVA\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002956",
+        "HAVG:R360 R3608 03360 S3614 S3629 R3681",
+        "FEP:Fgn 361",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:4250 EG295",
+        "ZNQQE:39.9871100,-74.8865660",
+        "PVGL:Zg Ynhery",
+        "K:EG38 RKVGF/PERRX EQ",
+        "GVZR:21:28:34",
+        "QNGR:07/31/2013",
+        "ZNC:1512/1512/3652/3600",
+        "CUBAR:(267) 270-1743",
+        "ANZR:RYIVF GHERYY",
+        "VASB:2 PNE ZIP // 2 VAWHEVRF // Z UVG URNQ // S PB\aJCU1:  ENQVHF 01 ZVYRF\aONPX NAQ ARPX NAQ 3 XVQF GB OR PURPXRQ BHG\aNqqvgvbany Vap#f:\a03360       201300001360");
+
+    qbGrfg("G22",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: wsevrqevpu@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 9:30:10 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002956                    BEV: R360          Fgngvba: Fgn 361\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4250 EG295                                           Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG38 RKVGF/PERRX EQ\a\a" +
+        "Pnyy Gvzr- 21:28:34                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3600              Frpgvba : 3652         Orng  . : 3690        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1512         Qvfgevpg: 1512\a\a" +
+        "Cubar Ahzore: (267) 270-1743                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : RYIVF GHERYY\a\a" +
+        "Havgf frag  :\a" +
+        " R360        R3608                R360        R3681\a\a" +
+        "Angher bs Pnyy : ZIN VAW\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:  ENQVHF 01 ZVYRF\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " 03360       201300001360\a\a" +
+        "Gur Pnyy Gnxre vf ZBUE GURERFN\a" +
+        "Gur Qvfcngpure vf THREEVAV ORAWNZVA\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002956",
+        "HAVG:R360 R3608 R3681",
+        "FEP:Fgn 361",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:4250 EG295",
+        "ZNQQE:39.9871100,-74.8865660",
+        "PVGL:Zg Ynhery",
+        "K:EG38 RKVGF/PERRX EQ",
+        "GVZR:21:28:34",
+        "QNGR:07/31/2013",
+        "ZNC:1512/1512/3652/3600",
+        "CUBAR:(267) 270-1743",
+        "ANZR:RYIVF GHERYY",
+        "VASB:ZIN VAW\aJCU1:  ENQVHF 01 ZVYRF\aNqqvgvbany Vap#f:\a03360       201300001360");
+
+    qbGrfg("G23",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: wsevrqevpu@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 9:30:10 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002956                    BEV: R360          Fgngvba: Fgn 361\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4250 EG295                                           Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG38 RKVGF/PERRX EQ\a\a" +
+        "Pnyy Gvzr- 21:28:34                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 21:30:10     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3600              Frpgvba : 3652         Orng  . : 3690        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1512         Qvfgevpg: 1512\a\a" +
+        "Cubar Ahzore: (267) 270-1743                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : RYIVF GHERYY\a\a" +
+        "Havgf frag  :\a" +
+        " R360        R3608                03360       S3614\a" +
+        " 03360       S3629                R360        R3681\a\a" +
+        "Angher bs Pnyy : ZIN VAW\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:  ENQVHF 01 ZVYRF\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " 03360       201300001360\a\a" +
+        "Gur Pnyy Gnxre vf ZBUE GURERFN\a" +
+        "Gur Qvfcngpure vf THREEVAV ORAWNZVA\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002956",
+        "HAVG:R360 R3608 03360 S3614 S3629 R3681",
+        "FEP:Fgn 361",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:4250 EG295",
+        "ZNQQE:39.9871100,-74.8865660",
+        "PVGL:Zg Ynhery",
+        "K:EG38 RKVGF/PERRX EQ",
+        "GVZR:21:28:34",
+        "QNGR:07/31/2013",
+        "ZNC:1512/1512/3652/3600",
+        "CUBAR:(267) 270-1743",
+        "ANZR:RYIVF GHERYY",
+        "VASB:ZIN VAW\aJCU1:  ENQVHF 01 ZVYRF\aNqqvgvbany Vap#f:\a03360       201300001360");
+
+    qbGrfg("G24",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: fjbbqf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 3:52:40 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002953                    BEV: R360          Fgngvba: Fgn 361\a" +
+        "Vapvqrag Glcr  . :  129 R NppVawel             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: PBENY NI                                             Irahr: Zg Ynhery\a" +
+        "  Pebff Fgerrg . : ZNFBAIVYYR EQ\a\a" +
+        "Pnyy Gvzr- 15:39:58                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 15:40:16     Ra-ebhgr- 15:42:38     Ba-fprar- 15:43:40     Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3605              Frpgvba :   50         Orng  . : 3608        Znc . . :   50\a" +
+        "Tevq:                   Dhnqenag: 3615         Qvfgevpg: 3615\a\a" +
+        "Cubar Ahzore: (609) 367-3700                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : WBUA GRFGN\a\a" +
+        "Havgf frag  :\a" +
+        " R360        RZF36                R360        R3681\a\a" +
+        "Angher bs Pnyy : ZIN/URNQNPRUR\a\a" +
+        "Aneengvir\a" +
+        " Vasbezngvba ba gur havgf nffvtarq gb gur pnyy sbyybjf.\a" +
+        "    Havg: R3681   Enqvb:           Bspe 1:            Bspe 2:\a" +
+        "       QFC: 07/31/13  15:40:16     RAE: 07/31/13  15:42:38\a" +
+        "       NEI:             :  :       QCG:             :  :\a" +
+        "       DGE:             :  :       PYE: 07/31/13  15:48:44\a" +
+        "    Havg: RZF36   Enqvb:           Bspe 1:            Bspe 2:\a" +
+        "       QFC:             :  :       RAE:             :  :\a" +
+        "       NEI: 07/31/13  15:43:40     QCG:             :  :\a" +
+        "       DGE:             :  :       PYE: 07/31/13  15:48:44\a" +
+        " Nqqvgvbany R911 Pnyyre: IREVMBA JVERYRFF,,,                  15:41:26\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                      15:41:26\a" +
+        "   Pnyyre Cubar  . . . : (609)304-3235                        15:41:26\a" +
+        " CRE RZF36 AB CG                                              15:48:37\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf JBBQF FGRCURA W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002953",
+        "HAVG:R360 RZF36 R3681",
+        "FEP:Fgn 361",
+        "PBQR:129",
+        "PNYY:Genssvp Vawhel Nppvqragf",
+        "CEV:1",
+        "NQQE:PBENY NI",
+        "ZNQQE:PBENY NIR & ZNFBAIVYYR EQ",
+        "PVGL:Zg Ynhery",
+        "K:ZNFBAIVYYR EQ",
+        "GVZR:15:39:58",
+        "QNGR:07/31/2013",
+        "ZNC:3615/3615/50/3605",
+        "CUBAR:(609) 367-3700",
+        "ANZR:WBUA GRFGN",
+        "VASB:ZIN/URNQNPRUR");
+
+    qbGrfg("G25",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zwonxre@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 11:18:40 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001359                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :   30 S Erfphr               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4201 PUHEPU EQ                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/GNZ B FUNAGRE EQ\a" +
+        "Pbzzba Anzr. . . : RYYVCFR FUBCCVAT PRAGRE\a\a" +
+        "Pnyy Gvzr- 11:18:40                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :    8         Orng  . : 3602        Znc . . :    8\a" +
+        "Tevq:                   Dhnqenag: 3623         Qvfgevpg: 3623\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : S362\a\a" +
+        "Angher bs Pnyy : FGHPX RYNINGRE\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ONXRE ZNEX W\a" +
+        "Gur Qvfcngpure vf ONXRE ZNEX W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001359",
+        "HAVG:03360",
+        "FEP:Fgn 362",
+        "PBQR:30",
+        "PNYY:Erfphr Nffvtazrag",
+        "CEV:1",
+        "NQQE:4201 PUHEPU EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/GNZ B FUNAGRE EQ",
+        "CYNPR:RYYVCFR FUBCCVAT PRAGRE",
+        "GVZR:11:18:40",
+        "QNGR:07/31/2013",
+        "ZNC:3623/3623/8/3602",
+        "ANZR:S362",
+        "VASB:FGHPX RYNINGRE");
+
+    qbGrfg("G26",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zwonxre@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 11:18:40 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001359                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :   30 S Erfphr               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4201 PUHEPU EQ                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/GNZ B FUNAGRE EQ\a" +
+        "Pbzzba Anzr. . . : RYYVCFR FUBCCVAT PRAGRE\a\a" +
+        "Pnyy Gvzr- 11:18:40                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :    8         Orng  . : 3602        Znc . . :    8\a" +
+        "Tevq:                   Dhnqenag: 3623         Qvfgevpg: 3623\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : S362\a\a" +
+        "Angher bs Pnyy : FGHPX RYNINGRE\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ONXRE ZNEX W\a" +
+        "Gur Qvfcngpure vf ONXRE ZNEX W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001359",
+        "HAVG:03360",
+        "FEP:Fgn 362",
+        "PBQR:30",
+        "PNYY:Erfphr Nffvtazrag",
+        "CEV:1",
+        "NQQE:4201 PUHEPU EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/GNZ B FUNAGRE EQ",
+        "CYNPR:RYYVCFR FUBCCVAT PRAGRE",
+        "GVZR:11:18:40",
+        "QNGR:07/31/2013",
+        "ZNC:3623/3623/8/3602",
+        "ANZR:S362",
+        "VASB:FGHPX RYNINGRE");
+
+    qbGrfg("G27",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ezvyyre@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 11:17:36 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001358                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4201 PUHEPU EQ                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/GNZ B FUNAGRE EQ\a" +
+        "Pbzzba Anzr. . . : RYYVCFR FUBCCVAT PRAGRE\a\a" +
+        "Pnyy Gvzr- 11:17:35                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :    8         Orng  . : 3602        Znc . . :    8\a" +
+        "Tevq:                   Dhnqenag: 3623         Qvfgevpg: 3623\a\a" +
+        "Cubar Ahzore: (856) 235-6419                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : PNCG ZNAFXV\a" +
+        "Pbzcynvagnag: 3824 PUHEPU EQ/SRYYB\a\a" +
+        "Angher bs Pnyy : ERPVRIRQ PNYY SEBZ OHFVARFF/FHOW GENC VA RYRI\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001358",
+        "HAVG:03360",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:4201 PUHEPU EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/GNZ B FUNAGRE EQ",
+        "CYNPR:RYYVCFR FUBCCVAT PRAGRE",
+        "GVZR:11:17:35",
+        "QNGR:07/31/2013",
+        "ZNC:3623/3623/8/3602",
+        "CUBAR:(856) 235-6419",
+        "ANZR:PNCG ZNAFXV Pbzcynvagnag: 3824 PUHEPU EQ/SRYYB",
+        "VASB:ERPVRIRQ PNYY SEBZ OHFVARFF/FHOW GENC VA RYRI");
+
+    qbGrfg("G28",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: tlhepub@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 7:48:20 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002948                    BEV: R360          Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :  131 R Hapba                Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 521 SRYYBJFUVC EQ FHVGR 110                          Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : J CNEX QE/EG73\a" +
+        "Pbzzba Anzr. . . : IVGNF VAABINGVIR UBFCVPR PNER\a\a" +
+        "Pnyy Gvzr- 07:44:59                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 07:46:12     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :   10         Orng  . : 3602        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 3624         Qvfgevpg: 3624\a\a" +
+        "Cubar Ahzore: (856) 778-0222                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ZNEVFBY/FGNSS\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1595                03360       S3629\a" +
+        " 03360       S3632                R360        R3682\a\a" +
+        "Angher bs Pnyy : 30S/CNFFRQ BHG/HAXA UK/PBAF ABJ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  FHVGR 110/SVEFG SYE\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013159             03360       201300001357\a\a" +
+        "Gur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a" +
+        "Gur Qvfcngpure vf JBBQF FGRCURA W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002948",
+        "HAVG:R360 R159 R1595 03360 S3629 S3632 R3682",
+        "FEP:Fgn 362",
+        "PBQR:131",
+        "PNYY:Hapbafpvbhfarff/Snvagvat",
+        "CEV:1",
+        "NQQE:521 SRYYBJFUVC EQ",
+        "NCG:110",
+        "PVGL:Zg Ynhery",
+        "K:J CNEX QE/EG73",
+        "CYNPR:IVGNF VAABINGVIR UBFCVPR PNER",
+        "GVZR:07:44:59",
+        "QNGR:07/31/2013",
+        "ZNC:3624/3624/10/3602",
+        "CUBAR:(856) 778-0222",
+        "ANZR:ZNEVFBY/FGNSS",
+        "VASB:30S/CNFFRQ BHG/HAXA UK/PBAF ABJ\aFHVGR 110/SVEFG SYE\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013159             03360       201300001357");
+
+    qbGrfg("G29",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: fjbbqf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 7:46:12 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002948                    BEV: R360          Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 521 SRYYBJFUVC EQ FHVGR 110                          Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : J CNEX QE/EG73\a" +
+        "Pbzzba Anzr. . . : IVGNF VAABINGVIR UBFCVPR PNER\a\a" +
+        "Pnyy Gvzr- 07:44:59                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 07:46:12     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :   10         Orng  . : 3602        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 3624         Qvfgevpg: 3624\a\a" +
+        "Cubar Ahzore: (856) 778-0222                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ZNEVFBY/FGNSS\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1595                03360       S3632\a" +
+        " R360        R3682\a\a" +
+        "Angher bs Pnyy : SRZNYR SNVAGRQ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  FHVGR 110/SVEFG SYE\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013159             03360       201300001357\a\a" +
+        "Gur Pnyy Gnxre vf ZVYYRE EBPURYYR L\a" +
+        "Gur Qvfcngpure vf JBBQF FGRCURA W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002948",
+        "HAVG:R360 R159 R1595 03360 S3632 R3682",
+        "FEP:Fgn 362",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:521 SRYYBJFUVC EQ",
+        "NCG:110",
+        "PVGL:Zg Ynhery",
+        "K:J CNEX QE/EG73",
+        "CYNPR:IVGNF VAABINGVIR UBFCVPR PNER",
+        "GVZR:07:44:59",
+        "QNGR:07/31/2013",
+        "ZNC:3624/3624/10/3602",
+        "CUBAR:(856) 778-0222",
+        "ANZR:ZNEVFBY/FGNSS",
+        "VASB:SRZNYR SNVAGRQ\aFHVGR 110/SVEFG SYE\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013159             03360       201300001357");
+
+    qbGrfg("G30",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: tlhepub@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 7:16:30 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001356                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 520 UNEGSBEQ EQ                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : PRQNE FG/RYOB YN\a" +
+        "Pbzzba Anzr. . . : FCEVATIVYYR RYRZRAGNEL FPUBBY\a\a" +
+        "Pnyy Gvzr- 07:13:45                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 07:14:33     Ra-ebhgr- 07:16:26     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   31         Orng  . : 3606        Znc . . :   31\a" +
+        "Tevq:                   Dhnqenag: 3644         Qvfgevpg: 3644\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ORIVA FRPHEVGL BC406\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S3614\a" +
+        " 03360       S3629                03360       S3632\a" +
+        " 03360       S3635\a\a" +
+        "Angher bs Pnyy : 856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JVYY NGGRZCG GB ABGVSL\a\a" +
+        "Trb Aneengvir\a" +
+        "  Vasbezngvba\a" +
+        "  Ubhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\a" +
+        "  Fpubby.\a\a" +
+        "  Ubhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\a" +
+        "  Unegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\a" +
+        "  funer n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf PNEEBYY PUEVFGVNA N\a" +
+        "Gur Qvfcngpure vf JBBQF FGRCURA W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001356",
+        "HAVG:03360 S3603 S3614 S3629 S3632 S3635",
+        "FEP:Fgn 363",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:520 UNEGSBEQ EQ",
+        "PVGL:Zg Ynhery",
+        "K:PRQNE FG/RYOB YN",
+        "CYNPR:FCEVATIVYYR RYRZRAGNEL FPUBBY",
+        "GVZR:07:13:45",
+        "QNGR:07/31/2013",
+        "ZNC:3644/3644/31/3604",
+        "CUBAR:(800) 633-2677",
+        "ANZR:ORIVA FRPHEVGL BC406",
+        "VASB:856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\aJVYY NGGRZCG GB ABGVSL\aTrb Aneengvir\aVasbezngvba\aUbhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\aFpubby.\aUbhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\aUnegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\afuner n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.");
+
+    qbGrfg("G31",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: fjbbqf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 7:14:33 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001356                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 520 UNEGSBEQ EQ                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : PRQNE FG/RYOB YN\a" +
+        "Pbzzba Anzr. . . : FCEVATIVYYR RYRZRAGNEL FPUBBY\a\a" +
+        "Pnyy Gvzr- 07:13:45                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 07:14:33     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   31         Orng  . : 3606        Znc . . :   31\a" +
+        "Tevq:                   Dhnqenag: 3644         Qvfgevpg: 3644\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ORIVA FRPHEVGL BC406\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S3614\a" +
+        " 03360       S3629\a\a" +
+        "Angher bs Pnyy : 856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JVYY NGGRZCG GB ABGVSL\a\a" +
+        "Trb Aneengvir\a" +
+        "  Vasbezngvba\a" +
+        "  Ubhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\a" +
+        "  Fpubby.\a\a" +
+        "  Ubhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\a" +
+        "  Unegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\a" +
+        "  funer n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf PNEEBYY PUEVFGVNA N\a" +
+        "Gur Qvfcngpure vf JBBQF FGRCURA W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001356",
+        "HAVG:03360 S3603 S3614 S3629",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:520 UNEGSBEQ EQ",
+        "PVGL:Zg Ynhery",
+        "K:PRQNE FG/RYOB YN",
+        "CYNPR:FCEVATIVYYR RYRZRAGNEL FPUBBY",
+        "GVZR:07:13:45",
+        "QNGR:07/31/2013",
+        "ZNC:3644/3644/31/3604",
+        "CUBAR:(800) 633-2677",
+        "ANZR:ORIVA FRPHEVGL BC406",
+        "VASB:856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\aJVYY NGGRZCG GB ABGVSL\aTrb Aneengvir\aVasbezngvba\aUbhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\aFpubby.\aUbhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\aUnegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\afuner n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.");
+
+    qbGrfg("G32",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: fjbbqf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 7:14:45 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001356                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 520 UNEGSBEQ EQ                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : PRQNE FG/RYOB YN\a" +
+        "Pbzzba Anzr. . . : FCEVATIVYYR RYRZRAGNEL FPUBBY\a\a" +
+        "Pnyy Gvzr- 07:13:45                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 07:14:33     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   31         Orng  . : 3606        Znc . . :   31\a" +
+        "Tevq:                   Dhnqenag: 3644         Qvfgevpg: 3644\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ORIVA FRPHEVGL BC406\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S3614\a" +
+        " 03360       S3629                03360       S3632\a\a" +
+        "Angher bs Pnyy : 856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JVYY NGGRZCG GB ABGVSL\a\a" +
+        "Trb Aneengvir\a" +
+        "  Vasbezngvba\a" +
+        "  Ubhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\a" +
+        "  Fpubby.\a\a" +
+        "  Ubhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\a" +
+        "  Unegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\a" +
+        "  funer n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf PNEEBYY PUEVFGVNA N\a" +
+        "Gur Qvfcngpure vf JBBQF FGRCURA W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001356",
+        "HAVG:03360 S3603 S3614 S3629 S3632",
+        "FEP:Fgn 363",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:520 UNEGSBEQ EQ",
+        "PVGL:Zg Ynhery",
+        "K:PRQNE FG/RYOB YN",
+        "CYNPR:FCEVATIVYYR RYRZRAGNEL FPUBBY",
+        "GVZR:07:13:45",
+        "QNGR:07/31/2013",
+        "ZNC:3644/3644/31/3604",
+        "CUBAR:(800) 633-2677",
+        "ANZR:ORIVA FRPHEVGL BC406",
+        "VASB:856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\aJVYY NGGRZCG GB ABGVSL\aTrb Aneengvir\aVasbezngvba\aUbhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\aFpubby.\aUbhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\aUnegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\afuner n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.");
+
+    qbGrfg("G33",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: fjbbqf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 7:14:33 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001356                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 520 UNEGSBEQ EQ                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : PRQNE FG/RYOB YN\a" +
+        "Pbzzba Anzr. . . : FCEVATIVYYR RYRZRAGNEL FPUBBY\a\a" +
+        "Pnyy Gvzr- 07:13:45                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 07:14:33     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   31         Orng  . : 3606        Znc . . :   31\a" +
+        "Tevq:                   Dhnqenag: 3644         Qvfgevpg: 3644\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ORIVA FRPHEVGL BC406\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603\a\a" +
+        "Angher bs Pnyy : 856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JVYY NGGRZCG GB ABGVSL\a\a" +
+        "Trb Aneengvir\a" +
+        "  Vasbezngvba\a" +
+        "  Ubhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\a" +
+        "  Fpubby.\a\a" +
+        "  Ubhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\a" +
+        "  Unegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\a" +
+        "  funer n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf PNEEBYY PUEVFGVNA N\a" +
+        "Gur Qvfcngpure vf JBBQF FGRCURA W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001356",
+        "HAVG:03360 S3603",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:520 UNEGSBEQ EQ",
+        "PVGL:Zg Ynhery",
+        "K:PRQNE FG/RYOB YN",
+        "CYNPR:FCEVATIVYYR RYRZRAGNEL FPUBBY",
+        "GVZR:07:13:45",
+        "QNGR:07/31/2013",
+        "ZNC:3644/3644/31/3604",
+        "CUBAR:(800) 633-2677",
+        "ANZR:ORIVA FRPHEVGL BC406",
+        "VASB:856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\aJVYY NGGRZCG GB ABGVSL\aTrb Aneengvir\aVasbezngvba\aUbhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\aFpubby.\aUbhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\aUnegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\afuner n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.");
+
+    qbGrfg("G34",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: fjbbqf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 7:14:33 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001356                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 520 UNEGSBEQ EQ                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : PRQNE FG/RYOB YN\a" +
+        "Pbzzba Anzr. . . : FCEVATIVYYR RYRZRAGNEL FPUBBY\a\a" +
+        "Pnyy Gvzr- 07:13:45                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 07:14:33     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   31         Orng  . : 3606        Znc . . :   31\a" +
+        "Tevq:                   Dhnqenag: 3644         Qvfgevpg: 3644\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ORIVA FRPHEVGL BC406\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S3614\a" +
+        " 03360       S3629\a\a" +
+        "Angher bs Pnyy : 856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JVYY NGGRZCG GB ABGVSL\a\a" +
+        "Trb Aneengvir\a" +
+        "  Vasbezngvba\a" +
+        "  Ubhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\a" +
+        "  Fpubby.\a\a" +
+        "  Ubhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\a" +
+        "  Unegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\a" +
+        "  funer n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf PNEEBYY PUEVFGVNA N\a" +
+        "Gur Qvfcngpure vf JBBQF FGRCURA W\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001356",
+        "HAVG:03360 S3603 S3614 S3629",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:520 UNEGSBEQ EQ",
+        "PVGL:Zg Ynhery",
+        "K:PRQNE FG/RYOB YN",
+        "CYNPR:FCEVATIVYYR RYRZRAGNEL FPUBBY",
+        "GVZR:07:13:45",
+        "QNGR:07/31/2013",
+        "ZNC:3644/3644/31/3604",
+        "CUBAR:(800) 633-2677",
+        "ANZR:ORIVA FRPHEVGL BC406",
+        "VASB:856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\aJVYY NGGRZCG GB ABGVSL\aTrb Aneengvir\aVasbezngvba\aUbhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\aFpubby.\aUbhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\aUnegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\afuner n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.");
+
+    qbGrfg("G35",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ppneeby@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 7:13:46 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001356                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 520 UNEGSBEQ EQ                                      Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : PRQNE FG/RYOB YN\a" +
+        "Pbzzba Anzr. . . : FCEVATIVYYR RYRZRAGNEL FPUBBY\a\a" +
+        "Pnyy Gvzr- 07:13:45                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   31         Orng  . : 3606        Znc . . :   31\a" +
+        "Tevq:                   Dhnqenag: 3644         Qvfgevpg: 3644\a\a" +
+        "Cubar Ahzore: (800) 633-2677                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ORIVA FRPHEVGL BC406\a\a" +
+        "Angher bs Pnyy : 856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JVYY NGGRZCG GB ABGVSL\a\a" +
+        "Trb Aneengvir\a" +
+        "  Vasbezngvba\a" +
+        "  Ubhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\a" +
+        "  Fpubby.\a\a" +
+        "  Ubhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\a" +
+        "  Unegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\a" +
+        "  funer n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf PNEEBYY PUEVFGVNA N\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001356",
+        "HAVG:03360",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:520 UNEGSBEQ EQ",
+        "PVGL:Zg Ynhery",
+        "K:PRQNE FG/RYOB YN",
+        "CYNPR:FCEVATIVYYR RYRZRAGNEL FPUBBY",
+        "GVZR:07:13:45",
+        "QNGR:07/31/2013",
+        "ZNC:3644/3644/31/3604",
+        "CUBAR:(800) 633-2677",
+        "ANZR:ORIVA FRPHEVGL BC406",
+        "VASB:856-231-4140 // NPGVINGRQ TRARENY SVER NYNEZ\aJVYY NGGRZCG GB ABGVSL\aTrb Aneengvir\aVasbezngvba\aUbhfr #512 & 514 ner bayl npprffnoyr sebz gur qevirjnl bs Fcevativyyr\aFpubby.\aUbhfr #547N & 547O ner npprffrq sebz n ybat qevirjnl bss bs\aUnegsbeq Eq.Gur ubhfrf pnaabg or frra sebz gur ebnqjnl, naq gurl\afuner n pbzzba qevirjnl gung sbexf va gjb qverpgvbaf unysjnl qbja.");
+
+    qbGrfg("G36",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: qzbber@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:58:28 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001355                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: HAVBA ZVYY EQ                                        Irahr: Zg Ynhery\a" +
+        "  Pebff Fgerrg . : JNYGBA NI\a\a" +
+        "Pnyy Gvzr- 02:55:57                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   30         Orng  . : 3606        Znc . . :   30\a" +
+        "Tevq:                   Dhnqenag: 3642         Qvfgevpg: 3642\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ZYCQ\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S3614\a" +
+        " 03360       S3629                R360        R3692\a\a" +
+        "Angher bs Pnyy : CBYR QBJA JVGU JVERF RAGNATYRQ\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R360        201300002946\a\a" +
+        "Gur Pnyy Gnxre vf ZBBER QNIVQ F\a" +
+        "Gur Qvfcngpure vf ZBBER QNIVQ F\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001355",
+        "HAVG:03360 S3603 S3614 S3629 R360 R3692",
+        "FEP:Fgn 363",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:HAVBA ZVYY EQ",
+        "ZNQQE:HAVBA ZVYY EQ & JNYGBA NIR",
+        "PVGL:Zg Ynhery",
+        "K:JNYGBA NI",
+        "GVZR:02:55:57",
+        "QNGR:07/31/2013",
+        "ZNC:3642/3642/30/3604",
+        "ANZR:ZYCQ",
+        "VASB:CBYR QBJA JVGU JVERF RAGNATYRQ\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R360        201300002946");
+
+    qbGrfg("G37",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: qzbber@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:58:24 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001355                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: HAVBA ZVYY EQ                                        Irahr: Zg Ynhery\a" +
+        "  Pebff Fgerrg . : JNYGBA NI\a\a" +
+        "Pnyy Gvzr- 02:55:57                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   30         Orng  . : 3606        Znc . . :   30\a" +
+        "Tevq:                   Dhnqenag: 3642         Qvfgevpg: 3642\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ZYCQ\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S3629\a" +
+        " R360        R3692\a\a" +
+        "Angher bs Pnyy : CBYR QBJA JVGU JVERF RAGNATYRQ\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R360        201300002946\a\a" +
+        "Gur Pnyy Gnxre vf ZBBER QNIVQ F\a" +
+        "Gur Qvfcngpure vf ZBBER QNIVQ F\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001355",
+        "HAVG:03360 S3603 S3629 R360 R3692",
+        "FEP:Fgn 363",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:HAVBA ZVYY EQ",
+        "ZNQQE:HAVBA ZVYY EQ & JNYGBA NIR",
+        "PVGL:Zg Ynhery",
+        "K:JNYGBA NI",
+        "GVZR:02:55:57",
+        "QNGR:07/31/2013",
+        "ZNC:3642/3642/30/3604",
+        "ANZR:ZYCQ",
+        "VASB:CBYR QBJA JVGU JVERF RAGNATYRQ\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R360        201300002946");
+
+    qbGrfg("G38",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: qzbber@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:56:02 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001355                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   44 S Jverf                Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: HAVBA ZVYY EQ                                        Irahr: Zg Ynhery\a" +
+        "  Pebff Fgerrg . : JNYGBA NI\a\a" +
+        "Pnyy Gvzr- 02:55:57                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   30         Orng  . : 3606        Znc . . :   30\a" +
+        "Tevq:                   Dhnqenag: 3642         Qvfgevpg: 3642\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ZYCQ\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3629\a\a" +
+        "Angher bs Pnyy : CBYR QBJA JVGU JVERF RAGNATYRQ\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ZBBER QNIVQ F\a" +
+        "Gur Qvfcngpure vf ZBBER QNIVQ F\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001355",
+        "HAVG:03360 S3629",
+        "FEP:Fgn 363",
+        "PBQR:44",
+        "PNYY:Jverf, Genafsbezref, Cbyrf",
+        "CEV:1",
+        "NQQE:HAVBA ZVYY EQ",
+        "ZNQQE:HAVBA ZVYY EQ & JNYGBA NIR",
+        "PVGL:Zg Ynhery",
+        "K:JNYGBA NI",
+        "GVZR:02:55:57",
+        "QNGR:07/31/2013",
+        "ZNC:3642/3642/30/3604",
+        "ANZR:ZYCQ",
+        "VASB:CBYR QBJA JVGU JVERF RAGNATYRQ");
+
+    qbGrfg("G39",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: qzbber@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:55:58 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001355                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   44 S Jverf                Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: HAVBA ZVYY EQ                                        Irahr: Zg Ynhery\a" +
+        "  Pebff Fgerrg . : JNYGBA NI\a\a" +
+        "Pnyy Gvzr- 02:55:57                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   30         Orng  . : 3606        Znc . . :   30\a" +
+        "Tevq:                   Dhnqenag: 3642         Qvfgevpg: 3642\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ZYCQ\a\a" +
+        "Angher bs Pnyy : CBYR QBJA JVGU JVERF RAGNATYRQ\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf ZBBER QNIVQ F\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001355",
+        "HAVG:03360",
+        "FEP:Fgn 363",
+        "PBQR:44",
+        "PNYY:Jverf, Genafsbezref, Cbyrf",
+        "CEV:1",
+        "NQQE:HAVBA ZVYY EQ",
+        "ZNQQE:HAVBA ZVYY EQ & JNYGBA NIR",
+        "PVGL:Zg Ynhery",
+        "K:JNYGBA NI",
+        "GVZR:02:55:57",
+        "QNGR:07/31/2013",
+        "ZNC:3642/3642/30/3604",
+        "ANZR:ZYCQ",
+        "VASB:CBYR QBJA JVGU JVERF RAGNATYRQ");
+
+    qbGrfg("G40",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zcybjzna@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:54:30 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001353                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   44 S Jverf                Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: YNHERY YN                                            Irahr: Zg Ynhery\a" +
+        "  Pebff Fgerrg . : UBYYL YN\a\a" +
+        "Pnyy Gvzr- 02:44:57                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 02:45:36     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   29         Orng  . : 3605        Znc . . :   29\a" +
+        "Tevq:                   Dhnqenag: 3641         Qvfgevpg: 3641\a\a" +
+        "Cubar Ahzore: (856) 906-3837                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : NAQERJ FGBJRYY\a" +
+        "Pbzcynvagnag: 204 YNHERY YN\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3631\a\a" +
+        "Angher bs Pnyy : FBHAQF YVXR GENAFSBEZRE VF NEPVAT///YBFG BS C\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JRE VA NERN//NCCEBK 5 ZVAF NTB//QBRF ABG FRR NAL SYNZRF\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf QRAAVFBA NZL\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001353",
+        "HAVG:03360 S3631",
+        "FEP:Fgn 363",
+        "PBQR:44",
+        "PNYY:Jverf, Genafsbezref, Cbyrf",
+        "CEV:1",
+        "NQQE:YNHERY YN",
+        "ZNQQE:YNHERY YA & UBYYL YA",
+        "PVGL:Zg Ynhery",
+        "K:UBYYL YN",
+        "GVZR:02:44:57",
+        "QNGR:07/31/2013",
+        "ZNC:3641/3641/29/3604",
+        "CUBAR:(856) 906-3837",
+        "ANZR:NAQERJ FGBJRYY Pbzcynvagnag: 204 YNHERY YN",
+        "VASB:FBHAQF YVXR GENAFSBEZRE VF NEPVAT///YBFG BS C\aJRE VA NERN//NCCEBK 5 ZVAF NTB//QBRF ABG FRR NAL SYNZRF");
+
+    qbGrfg("G41",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zcybjzna@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:54:20 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001354                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   44 S Jverf                Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 17 ZNEGRE NI                                         Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : HAVBA ZVYY EQ/UBYYL YN\a\a" +
+        "Pnyy Gvzr- 02:45:46                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 02:50:07     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   29         Orng  . : 3605        Znc . . :   29\a" +
+        "Tevq:                   Dhnqenag: 3641         Qvfgevpg: 3641\a\a" +
+        "Cubar Ahzore: (609) 217-9683                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : PLAGUVN CENTRE\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3621                03360       S3629\a\a" +
+        "Angher bs Pnyy : GENAFSBEZRE SVER\a\a" +
+        "Aneengvir\a" +
+        " S3603 NQIVFRQ //                                              2:48:57\a" +
+        " S3603 ERD FGNGVBA 2 OR NFFVTARQ GB VAIRFGVTNGR //             2:49:49\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf XHEGF-OHET FHFNA R\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001354",
+        "HAVG:03360 S3621 S3629",
+        "FEP:Fgn 363",
+        "PBQR:44",
+        "PNYY:Jverf, Genafsbezref, Cbyrf",
+        "CEV:1",
+        "NQQE:17 ZNEGRE NI",
+        "ZNQQE:17 ZNEGRE NIR",
+        "PVGL:Zg Ynhery",
+        "K:HAVBA ZVYY EQ/UBYYL YN",
+        "GVZR:02:45:46",
+        "QNGR:07/31/2013",
+        "ZNC:3641/3641/29/3604",
+        "CUBAR:(609) 217-9683",
+        "ANZR:PLAGUVN CENTRE",
+        "VASB:GENAFSBEZRE SVER");
+
+    qbGrfg("G42",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: yqlr@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:50:07 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001354                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 17 ZNEGRE NI                                         Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : HAVBA ZVYY EQ/UBYYL YN\a\a" +
+        "Pnyy Gvzr- 02:45:46                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 02:50:07     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   29         Orng  . : 3605        Znc . . :   29\a" +
+        "Tevq:                   Dhnqenag: 3641         Qvfgevpg: 3641\a\a" +
+        "Cubar Ahzore: (609) 217-9683                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : PLAGUVN CENTRE\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3621\a\a" +
+        "Angher bs Pnyy : GENAFSBEZRE SVER\a\a" +
+        "Aneengvir\a" +
+        " S3603 NQIVFRQ //                                              2:48:57\a" +
+        " S3603 ERD FGNGVBA 2 OR NFFVTARQ GB VAIRFGVTNGR //             2:49:49\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf XHEGF-OHET FHFNA R\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001354",
+        "HAVG:03360 S3621",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:17 ZNEGRE NI",
+        "ZNQQE:17 ZNEGRE NIR",
+        "PVGL:Zg Ynhery",
+        "K:HAVBA ZVYY EQ/UBYYL YN",
+        "GVZR:02:45:46",
+        "QNGR:07/31/2013",
+        "ZNC:3641/3641/29/3604",
+        "CUBAR:(609) 217-9683",
+        "ANZR:PLAGUVN CENTRE",
+        "VASB:GENAFSBEZRE SVER");
+
+    qbGrfg("G43",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: qzbber@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:48:30 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001352                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 8000 ZVQYNAGVP QE                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : QHSSL QE/JNYG JUVGZNA NI\a\a" +
+        "Pnyy Gvzr- 02:43:07                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 02:43:56     Ra-ebhgr- 02:46:52     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   28         Orng  . : 3605        Znc . . :   28\a" +
+        "Tevq:                   Dhnqenag: 3647         Qvfgevpg: 3647\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLXB BC OTS\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S361\a" +
+        " 03360       S3614                03360       S363\a" +
+        " 03360       S3635\a\a" +
+        "Angher bs Pnyy : SVER/MBAR 4 /SVER CHZC/8567642600\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JUVGR PRYY VAP\a\a" +
+        "Aneengvir\a" +
+        " R/P RQ ZBETNA J-45 ZVAHGR RGN                                 2:47:24\a" +
+        " CRE NYNEZ PB                                                  2:47:33\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf SRYVPVNAB XVZOREYL\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001352",
+        "HAVG:03360 S3603 S361 S3614 S363 S3635",
+        "FEP:Fgn 363",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:8000 ZVQYNAGVP QE",
+        "PVGL:Zg Ynhery",
+        "K:QHSSL QE/JNYG JUVGZNA NI",
+        "GVZR:02:43:07",
+        "QNGR:07/31/2013",
+        "ZNC:3647/3647/28/3604",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLXB BC OTS",
+        "VASB:SVER/MBAR 4 /SVER CHZC/8567642600\aJUVGR PRYY VAP");
+
+    qbGrfg("G44",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: qzbber@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:47:08 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001352                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 8000 ZVQYNAGVP QE                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : QHSSL QE/JNYG JUVGZNA NI\a\a" +
+        "Pnyy Gvzr- 02:43:07                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 02:43:56     Ra-ebhgr- 02:46:52     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   28         Orng  . : 3605        Znc . . :   28\a" +
+        "Tevq:                   Dhnqenag: 3647         Qvfgevpg: 3647\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLXB BC OTS\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S361\a" +
+        " 03360       S363                 03360       S3635\a\a" +
+        "Angher bs Pnyy : SVER/MBAR 4 /SVER CHZC/8567642600\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JUVGR PRYY VAP\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf SRYVPVNAB XVZOREYL\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001352",
+        "HAVG:03360 S3603 S361 S363 S3635",
+        "FEP:Fgn 363",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:8000 ZVQYNAGVP QE",
+        "PVGL:Zg Ynhery",
+        "K:QHSSL QE/JNYG JUVGZNA NI",
+        "GVZR:02:43:07",
+        "QNGR:07/31/2013",
+        "ZNC:3647/3647/28/3604",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLXB BC OTS",
+        "VASB:SVER/MBAR 4 /SVER CHZC/8567642600\aJUVGR PRYY VAP");
+
+    qbGrfg("G45",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: qzbber@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:46:51 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001352                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 8000 ZVQYNAGVP QE                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : QHSSL QE/JNYG JUVGZNA NI\a\a" +
+        "Pnyy Gvzr- 02:43:07                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 02:43:56     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   28         Orng  . : 3605        Znc . . :   28\a" +
+        "Tevq:                   Dhnqenag: 3647         Qvfgevpg: 3647\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLXB BC OTS\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S361                 03360       S363\a" +
+        " 03360       S3635\a\a" +
+        "Angher bs Pnyy : SVER/MBAR 4 /SVER CHZC/8567642600\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JUVGR PRYY VAP\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf SRYVPVNAB XVZOREYL\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001352",
+        "HAVG:03360 S361 S363 S3635",
+        "FEP:Fgn 363",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:8000 ZVQYNAGVP QE",
+        "PVGL:Zg Ynhery",
+        "K:QHSSL QE/JNYG JUVGZNA NI",
+        "GVZR:02:43:07",
+        "QNGR:07/31/2013",
+        "ZNC:3647/3647/28/3604",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLXB BC OTS",
+        "VASB:SVER/MBAR 4 /SVER CHZC/8567642600\aJUVGR PRYY VAP");
+
+    qbGrfg("G46",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: yqlr@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:45:36 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001353                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 204 YNHERY YN                                        Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : UBYYL YN/UBYYL YN\a\a" +
+        "Pnyy Gvzr- 02:44:57                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 02:45:36     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   29         Orng  . : 3605        Znc . . :   29\a" +
+        "Tevq:                   Dhnqenag: 3641         Qvfgevpg: 3641\a\a" +
+        "Cubar Ahzore: (856) 906-3837                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : NAQERJ FGBJRYY\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3631\a\a" +
+        "Angher bs Pnyy : FBHAQF YVXR GENAFSBEZRE VF NEPVAT///YBFG BS C\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JRE VA NERN//NCCEBK 5 ZVAF NTB//QBRF ABG FRR NAL SYNZRF\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf QRAAVFBA NZL\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001353",
+        "HAVG:03360 S3631",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:204 YNHERY YN",
+        "ZNQQE:204 YNHERY YA",
+        "PVGL:Zg Ynhery",
+        "K:UBYYL YN/UBYYL YN",
+        "GVZR:02:44:57",
+        "QNGR:07/31/2013",
+        "ZNC:3641/3641/29/3604",
+        "CUBAR:(856) 906-3837",
+        "ANZR:NAQERJ FGBJRYY",
+        "VASB:FBHAQF YVXR GENAFSBEZRE VF NEPVAT///YBFG BS C\aJRE VA NERN//NCCEBK 5 ZVAF NTB//QBRF ABG FRR NAL SYNZRF");
+
+    qbGrfg("G47",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: fxhegfohet@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:45:47 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001354                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 17 ZNEGRE NI                                         Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : HAVBA ZVYY EQ/UBYYL YN\a\a" +
+        "Pnyy Gvzr- 02:45:46                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   29         Orng  . : 3605        Znc . . :   29\a" +
+        "Tevq:                   Dhnqenag: 3641         Qvfgevpg: 3641\a\a" +
+        "Cubar Ahzore: (609) 217-9683                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : PLAGUVN CENTRE\a\a" +
+        "Angher bs Pnyy : GENAFSBEZRE SVER\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf XHEGF-OHET FHFNA R\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001354",
+        "HAVG:03360",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:17 ZNEGRE NI",
+        "ZNQQE:17 ZNEGRE NIR",
+        "PVGL:Zg Ynhery",
+        "K:HAVBA ZVYY EQ/UBYYL YN",
+        "GVZR:02:45:46",
+        "QNGR:07/31/2013",
+        "ZNC:3641/3641/29/3604",
+        "CUBAR:(609) 217-9683",
+        "ANZR:PLAGUVN CENTRE",
+        "VASB:GENAFSBEZRE SVER");
+
+    qbGrfg("G48",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: CFQRAAVF@FLFV.PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:44:57 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001353                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 204 YNHERY YN                                        Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : UBYYL YN/UBYYL YN\a\a" +
+        "Pnyy Gvzr- 02:44:57                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   29         Orng  . : 3605        Znc . . :   29\a" +
+        "Tevq:                   Dhnqenag: 3641         Qvfgevpg: 3641\a\a" +
+        "Cubar Ahzore: (856) 906-3837                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : NAQERJ FGBJRYY\a\a" +
+        "Angher bs Pnyy : FBHAQF YVXR GENAFSBEZRE VF NEPVAT///YBFG BS C\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JRE VA NERN//NCCEBK 5 ZVAF NTB//QBRF ABG FRR NAL SYNZRF\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf QRAAVFBA NZL\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001353",
+        "HAVG:03360",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:204 YNHERY YN",
+        "ZNQQE:204 YNHERY YA",
+        "PVGL:Zg Ynhery",
+        "K:UBYYL YN/UBYYL YN",
+        "GVZR:02:44:57",
+        "QNGR:07/31/2013",
+        "ZNC:3641/3641/29/3604",
+        "CUBAR:(856) 906-3837",
+        "ANZR:NAQERJ FGBJRYY",
+        "VASB:FBHAQF YVXR GENAFSBEZRE VF NEPVAT///YBFG BS C\aJRE VA NERN//NCCEBK 5 ZVAF NTB//QBRF ABG FRR NAL SYNZRF");
+
+    qbGrfg("G49",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: yqlr@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:43:56 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001352                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 8000 ZVQYNAGVP QE                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : QHSSL QE/JNYG JUVGZNA NI\a\a" +
+        "Pnyy Gvzr- 02:43:07                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   28         Orng  . : 3605        Znc . . :   28\a" +
+        "Tevq:                   Dhnqenag: 3647         Qvfgevpg: 3647\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLXB BC OTS\a\a" +
+        "Angher bs Pnyy : SVER/MBAR 4 /SVER CHZC/8567642600\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JUVGR PRYY VAP\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf SRYVPVNAB XVZOREYL\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001352",
+        "HAVG:03360",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:8000 ZVQYNAGVP QE",
+        "PVGL:Zg Ynhery",
+        "K:QHSSL QE/JNYG JUVGZNA NI",
+        "GVZR:02:43:07",
+        "QNGR:07/31/2013",
+        "ZNC:3647/3647/28/3604",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLXB BC OTS",
+        "VASB:SVER/MBAR 4 /SVER CHZC/8567642600\aJUVGR PRYY VAP");
+
+    qbGrfg("G50",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: yqlr@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:43:56 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001352                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 8000 ZVQYNAGVP QE                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : QHSSL QE/JNYG JUVGZNA NI\a\a" +
+        "Pnyy Gvzr- 02:43:07                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu - 02:43:56     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   28         Orng  . : 3605        Znc . . :   28\a" +
+        "Tevq:                   Dhnqenag: 3647         Qvfgevpg: 3647\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLXB BC OTS\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S361                 03360       S363\a\a" +
+        "Angher bs Pnyy : SVER/MBAR 4 /SVER CHZC/8567642600\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JUVGR PRYY VAP\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf SRYVPVNAB XVZOREYL\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001352",
+        "HAVG:03360 S361 S363",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:8000 ZVQYNAGVP QE",
+        "PVGL:Zg Ynhery",
+        "K:QHSSL QE/JNYG JUVGZNA NI",
+        "GVZR:02:43:07",
+        "QNGR:07/31/2013",
+        "ZNC:3647/3647/28/3604",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLXB BC OTS",
+        "VASB:SVER/MBAR 4 /SVER CHZC/8567642600\aJUVGR PRYY VAP");
+
+    qbGrfg("G51",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: xsryvpvnab@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Jrqarfqnl, Whyl 31, 2013 2:43:08 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001352                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 8000 ZVQYNAGVP QE                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : QHSSL QE/JNYG JUVGZNA NI\a\a" +
+        "Pnyy Gvzr- 02:43:07                                Qngr- 07/31/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   28         Orng  . : 3605        Znc . . :   28\a" +
+        "Tevq:                   Dhnqenag: 3647         Qvfgevpg: 3647\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLXB BC OTS\a\a" +
+        "Angher bs Pnyy : SVER/MBAR 4 /SVER CHZC/8567642600\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JUVGR PRYY VAP\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf SRYVPVNAB XVZOREYL\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001352",
+        "HAVG:03360",
+        "FEP:Fgn 363",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:8000 ZVQYNAGVP QE",
+        "PVGL:Zg Ynhery",
+        "K:QHSSL QE/JNYG JUVGZNA NI",
+        "GVZR:02:43:07",
+        "QNGR:07/31/2013",
+        "ZNC:3647/3647/28/3604",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLXB BC OTS",
+        "VASB:SVER/MBAR 4 /SVER CHZC/8567642600\aJUVGR PRYY VAP");
+
+    qbGrfg("G52",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: qzbber@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 9:34:01 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001350                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 21:30:31                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 21:32:13     Ra-ebhgr- 21:33:35     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (856) 722-1919                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ARVY CNXRY\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S362\a" +
+        " 03360       S3621                03360       S363\a" +
+        " 03360       S3635\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ TBVAT BSS\a\a" +
+        "Aneengvir\a" +
+        " NYNEZ NPGVIR QHR GB FGRNZ SEBZ FUBJRE SEBZZ EBBZ 114,        21:32:26\a" +
+        " Gur sbyybjvat Vapvqragf unir orra yvaxrq:                    21:32:32\a" +
+        "  03360 2013-00001351 AX, 03360 2013-00001350 AX              21:32:32\a" +
+        " NQIFVRQ GB SBYYBJ CEBGVPBY ERTNQVAT SVER NYNEZ NPGVINGVBAF   21:32:43\a" +
+        " BA CEBCREGL //                                               21:32:46\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Erfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\a" +
+        "Erfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a" +
+        " Fhfcrpg va Pnfr: 201000004673\a\a" +
+        "Erfvqrag Anzr - RPBABYBQTR,,,,\a" +
+        " Fhfcrpg va Pnfr: 199200000088\a" +
+        " Fhfcrpg va Pnfr: 200700021320\a\a" +
+        "Erfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a" +
+        " Fhfcrpg va Pnfr: 199400000389\a" +
+        " Fhfcrpg va Pnfr: 200000011354\a\a" +
+        "Erfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a" +
+        " Fhfcrpg va Pnfr: 200500019102\a\a" +
+        "Erfvqrag Anzr - QRSYRRPR,EBOVA,,,\a" +
+        " Fhfcrpg va Pnfr: 200600004231\a\a" +
+        "Erfvqrag Anzr - CVGGF,WBFRCU,N,,\a" +
+        " Fhfcrpg va Pnfr: 200700021322\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf NQNZF QBHTYNF\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001350",
+        "HAVG:03360 S3603 S362 S3621 S363 S3635",
+        "FEP:Fgn 362",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:21:30:31",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(856) 722-1919",
+        "ANZR:ARVY CNXRY",
+        "VASB:SVER NYNEZ TBVAT BSS\aNqqerff Purpxf\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322");
+
+    qbGrfg("G53",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: qzbber@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 9:33:47 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001350                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 21:30:31                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 21:32:13     Ra-ebhgr- 21:33:35     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (856) 722-1919                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ARVY CNXRY\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S362\a" +
+        " 03360       S363                 03360       S3635\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ TBVAT BSS\a\a" +
+        "Aneengvir\a" +
+        " NYNEZ NPGVIR QHR GB FGRNZ SEBZ FUBJRE SEBZZ EBBZ 114,        21:32:26\a" +
+        " Gur sbyybjvat Vapvqragf unir orra yvaxrq:                    21:32:32\a" +
+        "  03360 2013-00001351 AX, 03360 2013-00001350 AX              21:32:32\a" +
+        " NQIFVRQ GB SBYYBJ CEBGVPBY ERTNQVAT SVER NYNEZ NPGVINGVBAF   21:32:43\a" +
+        " BA CEBCREGL //                                               21:32:46\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Erfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\a" +
+        "Erfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a" +
+        " Fhfcrpg va Pnfr: 201000004673\a\a" +
+        "Erfvqrag Anzr - RPBABYBQTR,,,,\a" +
+        " Fhfcrpg va Pnfr: 199200000088\a" +
+        " Fhfcrpg va Pnfr: 200700021320\a\a" +
+        "Erfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a" +
+        " Fhfcrpg va Pnfr: 199400000389\a" +
+        " Fhfcrpg va Pnfr: 200000011354\a\a" +
+        "Erfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a" +
+        " Fhfcrpg va Pnfr: 200500019102\a\a" +
+        "Erfvqrag Anzr - QRSYRRPR,EBOVA,,,\a" +
+        " Fhfcrpg va Pnfr: 200600004231\a\a" +
+        "Erfvqrag Anzr - CVGGF,WBFRCU,N,,\a" +
+        " Fhfcrpg va Pnfr: 200700021322\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf NQNZF QBHTYNF\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001350",
+        "HAVG:03360 S3603 S362 S363 S3635",
+        "FEP:Fgn 362",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:21:30:31",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(856) 722-1919",
+        "ANZR:ARVY CNXRY",
+        "VASB:SVER NYNEZ TBVAT BSS\aNqqerff Purpxf\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322");
+
+    qbGrfg("G54",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: qzbber@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 9:33:07 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001350                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 21:30:31                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 21:32:13     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (856) 722-1919                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ARVY CNXRY\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603                03360       S362\a" +
+        " 03360       S363\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ TBVAT BSS\a\a" +
+        "Aneengvir\a" +
+        " NYNEZ NPGVIR QHR GB FGRNZ SEBZ FUBJRE SEBZZ EBBZ 114,        21:32:26\a" +
+        " Gur sbyybjvat Vapvqragf unir orra yvaxrq:                    21:32:32\a" +
+        "  03360 2013-00001351 AX, 03360 2013-00001350 AX              21:32:32\a" +
+        " NQIFVRQ GB SBYYBJ CEBGVPBY ERTNQVAT SVER NYNEZ NPGVINGVBAF   21:32:43\a" +
+        " BA CEBCREGL //                                               21:32:46\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Erfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\a" +
+        "Erfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a" +
+        " Fhfcrpg va Pnfr: 201000004673\a\a" +
+        "Erfvqrag Anzr - RPBABYBQTR,,,,\a" +
+        " Fhfcrpg va Pnfr: 199200000088\a" +
+        " Fhfcrpg va Pnfr: 200700021320\a\a" +
+        "Erfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a" +
+        " Fhfcrpg va Pnfr: 199400000389\a" +
+        " Fhfcrpg va Pnfr: 200000011354\a\a" +
+        "Erfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a" +
+        " Fhfcrpg va Pnfr: 200500019102\a\a" +
+        "Erfvqrag Anzr - QRSYRRPR,EBOVA,,,\a" +
+        " Fhfcrpg va Pnfr: 200600004231\a\a" +
+        "Erfvqrag Anzr - CVGGF,WBFRCU,N,,\a" +
+        " Fhfcrpg va Pnfr: 200700021322\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf NQNZF QBHTYNF\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001350",
+        "HAVG:03360 S3603 S362 S363",
+        "FEP:Fgn 362",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:21:30:31",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(856) 722-1919",
+        "ANZR:ARVY CNXRY",
+        "VASB:SVER NYNEZ TBVAT BSS\aNqqerff Purpxf\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322");
+
+    qbGrfg("G55",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zcybjzna@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 9:32:15 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001351                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 21:32:15                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (877) 722-7773                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLPB//BC TEVSSVA\a\a" +
+        "Angher bs Pnyy : ONGUEBBZ FZBXR QRGRPGBE//856221919\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf CYBJZNA ZNGGURJ\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001351",
+        "HAVG:03360",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:21:32:15",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(877) 722-7773",
+        "ANZR:GLPB//BC TEVSSVA",
+        "VASB:ONGUEBBZ FZBXR QRGRPGBE//856221919");
+
+    qbGrfg("G56",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: yqlr@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 9:32:13 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001350                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 21:30:31                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 21:32:13     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (856) 722-1919                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ARVY CNXRY\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S362                 03360       S363\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ TBVAT BSS\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Erfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\a" +
+        "Erfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a" +
+        " Fhfcrpg va Pnfr: 201000004673\a\a" +
+        "Erfvqrag Anzr - RPBABYBQTR,,,,\a" +
+        " Fhfcrpg va Pnfr: 199200000088\a" +
+        " Fhfcrpg va Pnfr: 200700021320\a\a" +
+        "Erfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a" +
+        " Fhfcrpg va Pnfr: 199400000389\a" +
+        " Fhfcrpg va Pnfr: 200000011354\a\a" +
+        "Erfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a" +
+        " Fhfcrpg va Pnfr: 200500019102\a\a" +
+        "Erfvqrag Anzr - QRSYRRPR,EBOVA,,,\a" +
+        " Fhfcrpg va Pnfr: 200600004231\a\a" +
+        "Erfvqrag Anzr - CVGGF,WBFRCU,N,,\a" +
+        " Fhfcrpg va Pnfr: 200700021322\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf NQNZF QBHTYNF\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001350",
+        "HAVG:03360 S362 S363",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:21:30:31",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(856) 722-1919",
+        "ANZR:ARVY CNXRY",
+        "VASB:SVER NYNEZ TBVAT BSS\aNqqerff Purpxf\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322");
+
+    qbGrfg("G57",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: yqlr@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 9:32:13 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001350                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 21:30:31                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 21:32:13     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (856) 722-1919                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ARVY CNXRY\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S362\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ TBVAT BSS\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Erfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\a" +
+        "Erfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a" +
+        " Fhfcrpg va Pnfr: 201000004673\a\a" +
+        "Erfvqrag Anzr - RPBABYBQTR,,,,\a" +
+        " Fhfcrpg va Pnfr: 199200000088\a" +
+        " Fhfcrpg va Pnfr: 200700021320\a\a" +
+        "Erfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a" +
+        " Fhfcrpg va Pnfr: 199400000389\a" +
+        " Fhfcrpg va Pnfr: 200000011354\a\a" +
+        "Erfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a" +
+        " Fhfcrpg va Pnfr: 200500019102\a\a" +
+        "Erfvqrag Anzr - QRSYRRPR,EBOVA,,,\a" +
+        " Fhfcrpg va Pnfr: 200600004231\a\a" +
+        "Erfvqrag Anzr - CVGGF,WBFRCU,N,,\a" +
+        " Fhfcrpg va Pnfr: 200700021322\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf NQNZF QBHTYNF\a" +
+        "Gur Qvfcngpure vf QLR YNHEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001350",
+        "HAVG:03360 S362",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:21:30:31",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(856) 722-1919",
+        "ANZR:ARVY CNXRY",
+        "VASB:SVER NYNEZ TBVAT BSS\aNqqerff Purpxf\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322");
+
+    qbGrfg("G58",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: qnqnzf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 9:30:31 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001350                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 21:30:31                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (856) 722-1919                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ARVY CNXRY\a\a" +
+        "Angher bs Pnyy : SVER NYNEZ TBVAT BSS\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf NQNZF QBHTYNF\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001350",
+        "HAVG:03360",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:21:30:31",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(856) 722-1919",
+        "ANZR:ARVY CNXRY",
+        "VASB:SVER NYNEZ TBVAT BSS");
+
+    qbGrfg("G59",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 4:23:11 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000342                    BEV: PB-03         Fgngvba: Fgn 361\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4100 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : AWGC 4A FREIVPR NERN/AWGC RKVG 5\a\a" +
+        "Pnyy Gvzr- 16:18:17                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 16:20:08     Ra-ebhgr- 16:22:46     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1504         Qvfgevpg: 1504\a\a" +
+        "Cubar Ahzore: (410) 443-6351                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : NAA ONEEBJ\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1591                03272       S2723\a" +
+        " 03300       S301                 03300       S3012\a" +
+        " 03360       S3603                03360       S361\a" +
+        " 03360       S3614                R509        R5091\a\a" +
+        "Angher bs Pnyy : IRU B/G FRIRENY GVZRF\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  FO\a\a" +
+        "Aneengvir\a" +
+        " Nqqvgvbany R911 Pnyyre: JVYYVNZF,ERARR                       16:20:13\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                      16:20:13\a" +
+        "   Pnyyre Cubar  . . . : (856)905-3728                        16:20:13\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013130             R509        201300001246\a" +
+        " 03272       201300001727             03300       201300000470\a" +
+        " 03360       201300001349\a\a" +
+        "Gur Pnyy Gnxre vf XABGG IVAPRAG Z\a" +
+        "Gur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000342",
+        "HAVG:PB-03 R159 R1591 03272 S2723 03300 S301 S3012 03360 S3603 S361 S3614 R509 R5091",
+        "FEP:Fgn 361",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:4100 AWGC",
+        "ZNQQE:39.9946015582,-74.8671651543",
+        "PVGL:AWGC",
+        "K:AWGC 4A FREIVPR NERN/AWGC RKVG 5",
+        "GVZR:16:18:17",
+        "QNGR:07/30/2013",
+        "ZNC:1504/1504/1590/1590",
+        "CUBAR:(410) 443-6351",
+        "ANZR:NAA ONEEBJ",
+        "VASB:IRU B/G FRIRENY GVZRF\aFO\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013130             R509        201300001246\a 03272       201300001727             03300       201300000470\a 03360       201300001349");
+
+    qbGrfg("G60",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 4:22:44 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000342                    BEV: PB-03         Fgngvba: Fgn 361\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4100 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : AWGC 4A FREIVPR NERN/AWGC RKVG 5\a\a" +
+        "Pnyy Gvzr- 16:18:17                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 16:20:08     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1504         Qvfgevpg: 1504\a\a" +
+        "Cubar Ahzore: (410) 443-6351                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : NAA ONEEBJ\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1591                03272       S2723\a" +
+        " 03300       S301                 03300       S3012\a" +
+        " 03360       S361                 03360       S3614\a" +
+        " R509        R5091\a\a" +
+        "Angher bs Pnyy : IRU B/G FRIRENY GVZRF\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  FO\a\a" +
+        "Aneengvir\a" +
+        " Nqqvgvbany R911 Pnyyre: JVYYVNZF,ERARR                       16:20:13\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                      16:20:13\a" +
+        "   Pnyyre Cubar  . . . : (856)905-3728                        16:20:13\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013130             R509        201300001246\a" +
+        " 03272       201300001727             03300       201300000470\a" +
+        " 03360       201300001349\a\a" +
+        "Gur Pnyy Gnxre vf XABGG IVAPRAG Z\a" +
+        "Gur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000342",
+        "HAVG:PB-03 R159 R1591 03272 S2723 03300 S301 S3012 03360 S361 S3614 R509 R5091",
+        "FEP:Fgn 361",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:4100 AWGC",
+        "ZNQQE:39.9946015582,-74.8671651543",
+        "PVGL:AWGC",
+        "K:AWGC 4A FREIVPR NERN/AWGC RKVG 5",
+        "GVZR:16:18:17",
+        "QNGR:07/30/2013",
+        "ZNC:1504/1504/1590/1590",
+        "CUBAR:(410) 443-6351",
+        "ANZR:NAA ONEEBJ",
+        "VASB:IRU B/G FRIRENY GVZRF\aFO\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013130             R509        201300001246\a 03272       201300001727             03300       201300000470\a 03360       201300001349");
+
+    qbGrfg("G61",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 4:20:09 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000342                    BEV: PB-03         Fgngvba: Fgn 361\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4100 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : AWGC 4A FREIVPR NERN/AWGC RKVG 5\a\a" +
+        "Pnyy Gvzr- 16:18:17                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 16:20:08     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1504         Qvfgevpg: 1504\a\a" +
+        "Cubar Ahzore: (410) 443-6351                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : NAA ONEEBJ\a\a" +
+        "Havgf frag  :\a" +
+        " 03272       S2723                03300       S301\a" +
+        " 03360       S361                 R509        R5091\a\a" +
+        "Angher bs Pnyy : IRU B/G FRIRENY GVZRF\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  FO\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R509        201300001246             03272       201300001727\a" +
+        " 03300       201300000470             03360       201300001349\a\a" +
+        "Gur Pnyy Gnxre vf XABGG IVAPRAG Z\a" +
+        "Gur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000342",
+        "HAVG:PB-03 03272 S2723 03300 S301 03360 S361 R509 R5091",
+        "FEP:Fgn 361",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:4100 AWGC",
+        "ZNQQE:39.9946015582,-74.8671651543",
+        "PVGL:AWGC",
+        "K:AWGC 4A FREIVPR NERN/AWGC RKVG 5",
+        "GVZR:16:18:17",
+        "QNGR:07/30/2013",
+        "ZNC:1504/1504/1590/1590",
+        "CUBAR:(410) 443-6351",
+        "ANZR:NAA ONEEBJ",
+        "VASB:IRU B/G FRIRENY GVZRF\aFO\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R509        201300001246             03272       201300001727\a 03300       201300000470             03360       201300001349");
+
+    qbGrfg("G62",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: gwbuafba@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 2:02:07 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000568                    BEV: NYNEZ         Fgngvba:\a" +
+        "Vapvqrag Glcr  . :  NBF S Nynez BBF            Cevbevgl: 9\a" +
+        "Vapvqrag Ybpngvba: 36-3701 PUHEPU EQ                                    Irahr: Nynez Yvfg\a" +
+        "Ybpngrq Orgjrra  :  /\a\a" +
+        "Pnyy Gvzr- 13:59:49                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern:                   Frpgvba :              Orng  . :             Znc . . :\a" +
+        "Tevq:                   Dhnqenag:              Qvfgevpg:\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:    F\a\a" +
+        "Angher bs Pnyy : SV362 //\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " 03360       201300000322\a\a" +
+        "Gur Pnyy Gnxre vf WBUAFBA GUBZNF\a" +
+        "Gur Qvfcngpure vf WBUAFBA GUBZNF\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000568",
+        "HAVG:NYNEZ",
+        "PBQR:NBF",
+        "PNYY:Nynez Bhg bs Freivpr",
+        "CEV:9",
+        "NQQE:36-3701 PUHEPU EQ",
+        "ZNQQE:36 PUHEPU EQ",
+        "GVZR:13:59:49",
+        "QNGR:07/30/2013",
+        "VASB:SV362 //");
+
+    qbGrfg("G63",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 1:31:36 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001348                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   15 S Ehoovfu              Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 21 QNLYVYL QE                                        Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : PNEANGVBA PG/YNIRAQRE YN\a\a" +
+        "Pnyy Gvzr- 13:31:35                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 13:31:35     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   32         Orng  . : 3606        Znc . . :   32\a" +
+        "Tevq:                   Dhnqenag: 3643         Qvfgevpg: 3643\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : S3603\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603\a\a" +
+        "Angher bs Pnyy : VAIRFGVTNGVAT FVAX UBYRF\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf TVYOREG PUEVFGVAR Z\a" +
+        "Gur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001348",
+        "HAVG:03360 S3603",
+        "FEP:Fgn 363",
+        "PBQR:15",
+        "PNYY:Aba-Sver/Vairfgvtngvbaf, Bqbef,",
+        "CEV:1",
+        "NQQE:21 QNLYVYL QE",
+        "PVGL:Zg Ynhery",
+        "K:PNEANGVBA PG/YNIRAQRE YN",
+        "GVZR:13:31:35",
+        "QNGR:07/30/2013",
+        "ZNC:3643/3643/32/3604",
+        "ANZR:S3603",
+        "VASB:VAIRFGVTNGVAT FVAX UBYRF");
+
+    qbGrfg("G64",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 1:31:36 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001348                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   15 S Ehoovfu              Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 21 QNLYVYL QE                                        Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : PNEANGVBA PG/YNIRAQRE YN\a\a" +
+        "Pnyy Gvzr- 13:31:35                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 13:31:35     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   32         Orng  . : 3606        Znc . . :   32\a" +
+        "Tevq:                   Dhnqenag: 3643         Qvfgevpg: 3643\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : S3603\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3603\a\a" +
+        "Angher bs Pnyy : VAIRFGVTNGVAT FVAX UBYRF\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf TVYOREG PUEVFGVAR Z\a" +
+        "Gur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001348",
+        "HAVG:03360 S3603",
+        "FEP:Fgn 363",
+        "PBQR:15",
+        "PNYY:Aba-Sver/Vairfgvtngvbaf, Bqbef,",
+        "CEV:1",
+        "NQQE:21 QNLYVYL QE",
+        "PVGL:Zg Ynhery",
+        "K:PNEANGVBA PG/YNIRAQRE YN",
+        "GVZR:13:31:35",
+        "QNGR:07/30/2013",
+        "ZNC:3643/3643/32/3604",
+        "ANZR:S3603",
+        "VASB:VAIRFGVTNGVAT FVAX UBYRF");
+
+    qbGrfg("G65",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 10:44:20 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 10:42:48     Ra-ebhgr- 10:43:22     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLPB BC USS\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S362                 03360       S3629\a" +
+        " 03360       S363                 03360       S3631\a" +
+        " 03360       S3632                03360       S3635\a\a" +
+        "Angher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Erfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\a" +
+        "Erfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a" +
+        " Fhfcrpg va Pnfr: 201000004673\a\a" +
+        "Erfvqrag Anzr - RPBABYBQTR,,,,\a" +
+        " Fhfcrpg va Pnfr: 199200000088\a" +
+        " Fhfcrpg va Pnfr: 200700021320\a\a" +
+        "Erfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a" +
+        " Fhfcrpg va Pnfr: 199400000389\a" +
+        " Fhfcrpg va Pnfr: 200000011354\a\a" +
+        "Erfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a" +
+        " Fhfcrpg va Pnfr: 200500019102\a\a" +
+        "Erfvqrag Anzr - QRSYRRPR,EBOVA,,,\a" +
+        " Fhfcrpg va Pnfr: 200600004231\a\a" +
+        "Erfvqrag Anzr - CVGGF,WBFRCU,N,,\a" +
+        " Fhfcrpg va Pnfr: 200700021322\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf URQEVPX XRVGU R\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001347",
+        "HAVG:03360 S362 S3629 S363 S3631 S3632 S3635",
+        "FEP:Fgn 362",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:10:42:01",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLPB BC USS",
+        "VASB:CNARY/SVER NYNEZ/8567221919\aNqqerff Purpxf\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322");
+
+    qbGrfg("G66",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 10:43:20 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 10:42:48     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLPB BC USS\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S362                 03360       S3629\a" +
+        " 03360       S363\a\a" +
+        "Angher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Erfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\a" +
+        "Erfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a" +
+        " Fhfcrpg va Pnfr: 201000004673\a\a" +
+        "Erfvqrag Anzr - RPBABYBQTR,,,,\a" +
+        " Fhfcrpg va Pnfr: 199200000088\a" +
+        " Fhfcrpg va Pnfr: 200700021320\a\a" +
+        "Erfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a" +
+        " Fhfcrpg va Pnfr: 199400000389\a" +
+        " Fhfcrpg va Pnfr: 200000011354\a\a" +
+        "Erfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a" +
+        " Fhfcrpg va Pnfr: 200500019102\a\a" +
+        "Erfvqrag Anzr - QRSYRRPR,EBOVA,,,\a" +
+        " Fhfcrpg va Pnfr: 200600004231\a\a" +
+        "Erfvqrag Anzr - CVGGF,WBFRCU,N,,\a" +
+        " Fhfcrpg va Pnfr: 200700021322\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf URQEVPX XRVGU R\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001347",
+        "HAVG:03360 S362 S3629 S363",
+        "FEP:Fgn 362",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:10:42:01",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLPB BC USS",
+        "VASB:CNARY/SVER NYNEZ/8567221919\aNqqerff Purpxf\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322");
+
+    qbGrfg("G67",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 10:43:43 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 10:42:48     Ra-ebhgr- 10:43:22     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLPB BC USS\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S362                 03360       S3629\a" +
+        " 03360       S363                 03360       S3632\a" +
+        " 03360       S3635\a\a" +
+        "Angher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Erfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\a" +
+        "Erfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a" +
+        " Fhfcrpg va Pnfr: 201000004673\a\a" +
+        "Erfvqrag Anzr - RPBABYBQTR,,,,\a" +
+        " Fhfcrpg va Pnfr: 199200000088\a" +
+        " Fhfcrpg va Pnfr: 200700021320\a\a" +
+        "Erfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a" +
+        " Fhfcrpg va Pnfr: 199400000389\a" +
+        " Fhfcrpg va Pnfr: 200000011354\a\a" +
+        "Erfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a" +
+        " Fhfcrpg va Pnfr: 200500019102\a\a" +
+        "Erfvqrag Anzr - QRSYRRPR,EBOVA,,,\a" +
+        " Fhfcrpg va Pnfr: 200600004231\a\a" +
+        "Erfvqrag Anzr - CVGGF,WBFRCU,N,,\a" +
+        " Fhfcrpg va Pnfr: 200700021322\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf URQEVPX XRVGU R\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001347",
+        "HAVG:03360 S362 S3629 S363 S3632 S3635",
+        "FEP:Fgn 362",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:10:42:01",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLPB BC USS",
+        "VASB:CNARY/SVER NYNEZ/8567221919\aNqqerff Purpxf\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322");
+
+    qbGrfg("G68",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 10:43:38 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 10:42:48     Ra-ebhgr- 10:43:22     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLPB BC USS\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S362                 03360       S3629\a" +
+        " 03360       S363                 03360       S3635\a\a" +
+        "Angher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Erfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\a" +
+        "Erfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a" +
+        " Fhfcrpg va Pnfr: 201000004673\a\a" +
+        "Erfvqrag Anzr - RPBABYBQTR,,,,\a" +
+        " Fhfcrpg va Pnfr: 199200000088\a" +
+        " Fhfcrpg va Pnfr: 200700021320\a\a" +
+        "Erfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a" +
+        " Fhfcrpg va Pnfr: 199400000389\a" +
+        " Fhfcrpg va Pnfr: 200000011354\a\a" +
+        "Erfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a" +
+        " Fhfcrpg va Pnfr: 200500019102\a\a" +
+        "Erfvqrag Anzr - QRSYRRPR,EBOVA,,,\a" +
+        " Fhfcrpg va Pnfr: 200600004231\a\a" +
+        "Erfvqrag Anzr - CVGGF,WBFRCU,N,,\a" +
+        " Fhfcrpg va Pnfr: 200700021322\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf URQEVPX XRVGU R\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001347",
+        "HAVG:03360 S362 S3629 S363 S3635",
+        "FEP:Fgn 362",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:10:42:01",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLPB BC USS",
+        "VASB:CNARY/SVER NYNEZ/8567221919\aNqqerff Purpxf\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322");
+
+    qbGrfg("G69",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: jlrexrf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 10:42:49 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 10:42:48     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLPB BC USS\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S362\a\a" +
+        "Angher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Erfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\a" +
+        "Erfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a" +
+        " Fhfcrpg va Pnfr: 201000004673\a\a" +
+        "Erfvqrag Anzr - RPBABYBQTR,,,,\a" +
+        " Fhfcrpg va Pnfr: 199200000088\a" +
+        " Fhfcrpg va Pnfr: 200700021320\a\a" +
+        "Erfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a" +
+        " Fhfcrpg va Pnfr: 199400000389\a" +
+        " Fhfcrpg va Pnfr: 200000011354\a\a" +
+        "Erfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a" +
+        " Fhfcrpg va Pnfr: 200500019102\a\a" +
+        "Erfvqrag Anzr - QRSYRRPR,EBOVA,,,\a" +
+        " Fhfcrpg va Pnfr: 200600004231\a\a" +
+        "Erfvqrag Anzr - CVGGF,WBFRCU,N,,\a" +
+        " Fhfcrpg va Pnfr: 200700021322\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf URQEVPX XRVGU R\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001347",
+        "HAVG:03360 S362",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:10:42:01",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLPB BC USS",
+        "VASB:CNARY/SVER NYNEZ/8567221919\aNqqerff Purpxf\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322");
+
+    qbGrfg("G70",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: jlrexrf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 10:42:49 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 10:42:48     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLPB BC USS\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S362                 03360       S363\a\a" +
+        "Angher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Erfvqrag Anzr - JVYFBA,OERAQN,NAA,,\a\a" +
+        "Erfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a" +
+        " Fhfcrpg va Pnfr: 201000004673\a\a" +
+        "Erfvqrag Anzr - RPBABYBQTR,,,,\a" +
+        " Fhfcrpg va Pnfr: 199200000088\a" +
+        " Fhfcrpg va Pnfr: 200700021320\a\a" +
+        "Erfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a" +
+        " Fhfcrpg va Pnfr: 199400000389\a" +
+        " Fhfcrpg va Pnfr: 200000011354\a\a" +
+        "Erfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a" +
+        " Fhfcrpg va Pnfr: 200500019102\a\a" +
+        "Erfvqrag Anzr - QRSYRRPR,EBOVA,,,\a" +
+        " Fhfcrpg va Pnfr: 200600004231\a\a" +
+        "Erfvqrag Anzr - CVGGF,WBFRCU,N,,\a" +
+        " Fhfcrpg va Pnfr: 200700021322\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf URQEVPX XRVGU R\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001347",
+        "HAVG:03360 S362 S363",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:10:42:01",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLPB BC USS",
+        "VASB:CNARY/SVER NYNEZ/8567221919\aNqqerff Purpxf\aErfvqrag Anzr - JVYFBA,OERAQN,NAA,,\aErfvqrag Anzr - ZPPHYYRL,QNAVRY,J,,\a Fhfcrpg va Pnfr: 201000004673\aErfvqrag Anzr - RPBABYBQTR,,,,\a Fhfcrpg va Pnfr: 199200000088\a Fhfcrpg va Pnfr: 200700021320\aErfvqrag Anzr - CNGRY,QUNANAWNL,Z,,\a Fhfcrpg va Pnfr: 199400000389\a Fhfcrpg va Pnfr: 200000011354\aErfvqrag Anzr - ORFG,JVYYVNZ,Q,,\a Fhfcrpg va Pnfr: 200500019102\aErfvqrag Anzr - QRSYRRPR,EBOVA,,,\a Fhfcrpg va Pnfr: 200600004231\aErfvqrag Anzr - CVGGF,WBFRCU,N,,\a Fhfcrpg va Pnfr: 200700021322");
+
+    qbGrfg("G71",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: xurqevpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 10:42:01 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001347                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 611 SRYYBJFUVC EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/PRAGHEL CL\a" +
+        "Pbzzba Anzr. . . : RPBAB YBQTR 36\a\a" +
+        "Pnyy Gvzr- 10:42:01                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (877) 238-7739                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : GLPB BC USS\a\a" +
+        "Angher bs Pnyy : CNARY/SVER NYNEZ/8567221919\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf URQEVPX XRVGU R\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001347",
+        "HAVG:03360",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:611 SRYYBJFUVC EQ",
+        "PVGL:Zg Ynhery",
+        "K:EG73/PRAGHEL CL",
+        "CYNPR:RPBAB YBQTR 36",
+        "GVZR:10:42:01",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(877) 238-7739",
+        "ANZR:GLPB BC USS",
+        "VASB:CNARY/SVER NYNEZ/8567221919");
+
+    qbGrfg("G72",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 10:13:49 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001344                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   57 S Pbire Fgn            Cevbevgl: 9\a" +
+        "Vapvqrag Ybpngvba: 71 RYOB YN                                           Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : SVERUBHFR YN/YBAT OEVQTR QE\a" +
+        "Pbzzba Anzr. . . : FGN 363\a\a" +
+        "Pnyy Gvzr- 09:05:26                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 09:05:27     Ra-ebhgr-              Ba-fprar- 09:05:27     Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   27         Orng  . : 3603        Znc . . :   27\a" +
+        "Tevq:                   Dhnqenag: 3631         Qvfgevpg: 3631\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : S3620\a" +
+        "Pbzcynvagnag: FGN 363\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3620                03360       S3631\a" +
+        " 03360       S3635\a\a" +
+        "Angher bs Pnyy : SVERUBHFR YN/YBAT OEVQTR QE\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf TVYOREG PUEVFGVAR Z\a" +
+        "Gur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001344",
+        "HAVG:03360 S3620 S3631 S3635",
+        "FEP:Fgn 363",
+        "PBQR:57",
+        "PNYY:Pbire Nffvtazrag",
+        "CEV:9",
+        "NQQE:71 RYOB YN",
+        "ZNQQE:71 RYOB YA",
+        "PVGL:Zg Ynhery",
+        "K:SVERUBHFR YN/YBAT OEVQTR QE",
+        "CYNPR:FGN 363",
+        "GVZR:09:05:26",
+        "QNGR:07/30/2013",
+        "ZNC:3631/3631/27/3603",
+        "ANZR:S3620 Pbzcynvagnag: FGN 363",
+        "VASB:SVERUBHFR YN/YBAT OEVQTR QE");
+
+    qbGrfg("G73",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 10:07:20 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001346                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4106 PUHEPU EQ                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : FCEVATQNYR EQ/PYBIRE EQ\a" +
+        "Pbzzba Anzr. . . : YNHERY GERR NPNQRZL\a\a" +
+        "Pnyy Gvzr- 10:04:47                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 10:07:14     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    7         Orng  . : 3601        Znc . . :    7\a" +
+        "Tevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\a" +
+        "Cubar Ahzore: (609) 713-2974                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : ZNEL OBBGUR\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3635                03391       S3912\a\a" +
+        "Angher bs Pnyy : FGHQRAGF VAFVQR //FZRYYF BQBE BS ANGHENY TNF\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " 03391       201300000136\a\a" +
+        "Gur Pnyy Gnxre vf FCEHRYY FUNXVEN\a" +
+        "Gur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001346",
+        "HAVG:03360 S3635 03391 S3912",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:4106 PUHEPU EQ",
+        "PVGL:Zg Ynhery",
+        "K:FCEVATQNYR EQ/PYBIRE EQ",
+        "CYNPR:YNHERY GERR NPNQRZL",
+        "GVZR:10:04:47",
+        "QNGR:07/30/2013",
+        "ZNC:3622/3622/7/3601",
+        "CUBAR:(609) 713-2974",
+        "ANZR:ZNEL OBBGUR",
+        "VASB:FGHQRAGF VAFVQR //FZRYYF BQBE BS ANGHENY TNF\aJCU1:\aNqqvgvbany Vap#f:\a03391       201300000136");
+
+    qbGrfg("G74",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 10:07:15 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001346                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4106 PUHEPU EQ                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : FCEVATQNYR EQ/PYBIRE EQ\a" +
+        "Pbzzba Anzr. . . : YNHERY GERR NPNQRZL\a\a" +
+        "Pnyy Gvzr- 10:04:47                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 10:07:14     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    7         Orng  . : 3601        Znc . . :    7\a" +
+        "Tevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\a" +
+        "Cubar Ahzore: (609) 713-2974                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : ZNEL OBBGUR\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3635                03391       S3912\a\a" +
+        "Angher bs Pnyy : FGHQRAGF VAFVQR //FZRYYF BQBE BS ANGHENY TNF\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " 03391       201300000136\a\a" +
+        "Gur Pnyy Gnxre vf FCEHRYY FUNXVEN\a" +
+        "Gur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001346",
+        "HAVG:03360 S3635 03391 S3912",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:4106 PUHEPU EQ",
+        "PVGL:Zg Ynhery",
+        "K:FCEVATQNYR EQ/PYBIRE EQ",
+        "CYNPR:YNHERY GERR NPNQRZL",
+        "GVZR:10:04:47",
+        "QNGR:07/30/2013",
+        "ZNC:3622/3622/7/3601",
+        "CUBAR:(609) 713-2974",
+        "ANZR:ZNEL OBBGUR",
+        "VASB:FGHQRAGF VAFVQR //FZRYYF BQBE BS ANGHENY TNF\aJCU1:\aNqqvgvbany Vap#f:\a03391       201300000136");
+
+    qbGrfg("G75",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ffcehry@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 10:04:48 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001346                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4106 PUHEPU EQ                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : FCEVATQNYR EQ/PYBIRE EQ\a" +
+        "Pbzzba Anzr. . . : YNHERY GERR NPNQRZL\a\a" +
+        "Pnyy Gvzr- 10:04:47                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    7         Orng  . : 3601        Znc . . :    7\a" +
+        "Tevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\a" +
+        "Cubar Ahzore: (609) 713-2974                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : ZNEL OBBGUR\a\a" +
+        "Angher bs Pnyy : FGHQRAGF VAFVQR //FZRYYF BQBE BS ANGHENY TNF\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf FCEHRYY FUNXVEN\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001346",
+        "HAVG:03360",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:4106 PUHEPU EQ",
+        "PVGL:Zg Ynhery",
+        "K:FCEVATQNYR EQ/PYBIRE EQ",
+        "CYNPR:YNHERY GERR NPNQRZL",
+        "GVZR:10:04:47",
+        "QNGR:07/30/2013",
+        "ZNC:3622/3622/7/3601",
+        "CUBAR:(609) 713-2974",
+        "ANZR:ZNEL OBBGUR",
+        "VASB:FGHQRAGF VAFVQR //FZRYYF BQBE BS ANGHENY TNF\aJCU1:");
+
+    qbGrfg("G76",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 9:08:33 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000148                    BEV: 03313         Fgngvba:\a" +
+        "Vapvqrag Glcr  . :   17 S Shzrf                Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 400 EG38 FGE 9001                                    Irahr: Zbberfgbja\a" +
+        "Ybpngrq Orgjrra  : AVKBA QE/F YRABYN EQ\a" +
+        "Pbzzba Anzr. . . : FRNEF NHGBZBGVIR 31\a\a" +
+        "Pnyy Gvzr- 08:29:52                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 09:08:16     Ra-ebhgr- 09:08:18     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3101              Frpgvba :   01         Orng  . : 3101        Znc . . :\a" +
+        "Tevq:   Q7              Dhnqenag: 3109         Qvfgevpg: 3109\a\a" +
+        "Cubar Ahzore: (856) 266-4219                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : QRYBERF JBGBLIVPU\a" +
+        "Pbzcynvagnag: FRPHEVGL\a\a" +
+        "Havgf frag  :\a" +
+        " 03310       PC31                 03101       S1013\a" +
+        " 03310       S3100                03310       S311\a" +
+        " 03310       S3112                03310       S3128\a" +
+        " 03313       S313                 03313       S3130\a" +
+        " 03313       S3133                03313       S3138\a" +
+        " R318        R3182                03360       S3620\a" +
+        " 03360       S3631\a\a" +
+        "Angher bs Pnyy : TNF YVAR EHCGHERQ /CBFFVOYR SVER\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Aneengvir\a" +
+        " Gur sbyybjvat Vapvqragf unir orra yvaxrq:                     8:33:04\a" +
+        "  03360 2013-00001340 AX, 03313 2013-00000148 AR               8:33:04\a" +
+        " P                                                             8:48:58\a" +
+        " PC31 RFGNOYVFURQ OYQTF SEBZ BYQ ANIL GB ZVPUNRYF 1100 AVKBA   8:50:10\a" +
+        " QE ORVAT RINPHNGRQ NF JRYY NF FRNEF NHGBZBGVIR OYQT //        8:50:23\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R318        201300000996             03101       201300000368\a" +
+        " 03310       201300000349             03360       201300001345\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000148",
+        "HAVG:03313 03310 PC31 03101 S1013 S3100 S311 S3112 S3128 S313 S3130 S3133 S3138 R318 R3182 03360 S3620 S3631",
+        "PBQR:17",
+        "PNYY:Angheny Tnf, Cebcnar Tnf, Shzrf,",
+        "CEV:1",
+        "NQQE:400 EG38",
+        "ZNQQE:400 EG 38",
+        "NCG:FGE 9001",
+        "PVGL:Zbberfgbja",
+        "K:AVKBA QE/F YRABYN EQ",
+        "CYNPR:FRNEF NHGBZBGVIR 31",
+        "GVZR:08:29:52",
+        "QNGR:07/30/2013",
+        "ZNC:3109/3109/01/3101",
+        "CUBAR:(856) 266-4219",
+        "ANZR:QRYBERF JBGBLIVPU Pbzcynvagnag: FRPHEVGL",
+        "VASB:TNF YVAR EHCGHERQ /CBFFVOYR SVER\aJCU1:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R318        201300000996             03101       201300000368\a 03310       201300000349             03360       201300001345");
+
+    qbGrfg("G77",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 9:08:17 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000148                    BEV: 03313         Fgngvba:\a" +
+        "Vapvqrag Glcr  . :   17 S Shzrf                Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 400 EG38 FGE 9001                                    Irahr: Zbberfgbja\a" +
+        "Ybpngrq Orgjrra  : AVKBA QE/F YRABYN EQ\a" +
+        "Pbzzba Anzr. . . : FRNEF NHGBZBGVIR 31\a\a" +
+        "Pnyy Gvzr- 08:29:52                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3101              Frpgvba :   01         Orng  . : 3101        Znc . . :\a" +
+        "Tevq:   Q7              Dhnqenag: 3109         Qvfgevpg: 3109\a\a" +
+        "Cubar Ahzore: (856) 266-4219                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : QRYBERF JBGBLIVPU\a" +
+        "Pbzcynvagnag: FRPHEVGL\a\a" +
+        "Havgf frag  :\a" +
+        " 03310       PC31                 03101       S1013\a" +
+        " 03310       S3100                03310       S311\a" +
+        " 03310       S3112                03310       S3128\a" +
+        " 03313       S313                 03313       S3130\a" +
+        " 03313       S3133                03313       S3138\a" +
+        " R318        R3182\a\a" +
+        "Angher bs Pnyy : TNF YVAR EHCGHERQ /CBFFVOYR SVER\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Aneengvir\a" +
+        " Gur sbyybjvat Vapvqragf unir orra yvaxrq:                     8:33:04\a" +
+        "  03360 2013-00001340 AX, 03313 2013-00000148 AR               8:33:04\a" +
+        " P                                                             8:48:58\a" +
+        " PC31 RFGNOYVFURQ OYQTF SEBZ BYQ ANIL GB ZVPUNRYF 1100 AVKBA   8:50:10\a" +
+        " QE ORVAT RINPHNGRQ NF JRYY NF FRNEF NHGBZBGVIR OYQT //        8:50:23\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R318        201300000996             03101       201300000368\a" +
+        " 03310       201300000349             03360       201300001345\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000148",
+        "HAVG:03313 03310 PC31 03101 S1013 S3100 S311 S3112 S3128 S313 S3130 S3133 S3138 R318 R3182",
+        "PBQR:17",
+        "PNYY:Angheny Tnf, Cebcnar Tnf, Shzrf,",
+        "CEV:1",
+        "NQQE:400 EG38",
+        "ZNQQE:400 EG 38",
+        "NCG:FGE 9001",
+        "PVGL:Zbberfgbja",
+        "K:AVKBA QE/F YRABYN EQ",
+        "CYNPR:FRNEF NHGBZBGVIR 31",
+        "GVZR:08:29:52",
+        "QNGR:07/30/2013",
+        "ZNC:3109/3109/01/3101",
+        "CUBAR:(856) 266-4219",
+        "ANZR:QRYBERF JBGBLIVPU Pbzcynvagnag: FRPHEVGL",
+        "VASB:TNF YVAR EHCGHERQ /CBFFVOYR SVER\aJCU1:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R318        201300000996             03101       201300000368\a 03310       201300000349             03360       201300001345");
+
+    qbGrfg("G78",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 9:05:27 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001344                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   57 S Pbire Fgn            Cevbevgl: 9\a" +
+        "Vapvqrag Ybpngvba: 71 RYOB YN                                           Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : SVERUBHFR YN/YBAT OEVQTR QE\a" +
+        "Pbzzba Anzr. . . : FGN 363\a\a" +
+        "Pnyy Gvzr- 09:05:26                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar- 09:05:27     Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   27         Orng  . : 3603        Znc . . :   27\a" +
+        "Tevq:                   Dhnqenag: 3631         Qvfgevpg: 3631\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : S3620\a" +
+        "Pbzcynvagnag: FGN 363\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3631\a\a" +
+        "Angher bs Pnyy : SVERUBHFR YN/YBAT OEVQTR QE\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf TVYOREG PUEVFGVAR Z\a" +
+        "Gur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001344",
+        "HAVG:03360 S3631",
+        "FEP:Fgn 363",
+        "PBQR:57",
+        "PNYY:Pbire Nffvtazrag",
+        "CEV:9",
+        "NQQE:71 RYOB YN",
+        "ZNQQE:71 RYOB YA",
+        "PVGL:Zg Ynhery",
+        "K:SVERUBHFR YN/YBAT OEVQTR QE",
+        "CYNPR:FGN 363",
+        "GVZR:09:05:26",
+        "QNGR:07/30/2013",
+        "ZNC:3631/3631/27/3603",
+        "ANZR:S3620 Pbzcynvagnag: FGN 363",
+        "VASB:SVERUBHFR YN/YBAT OEVQTR QE");
+
+    qbGrfg("G79",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:40:34 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001343                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 1200 UBJNEQ OI                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/QRNQ RAQ\a\a" +
+        "Pnyy Gvzr- 08:38:24                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :   13         Orng  . : 3602        Znc . . :   13\a" +
+        "Tevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\a" +
+        "Cubar Ahzore: (800) 639-7019                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : UBYBPBAT FRP\a" +
+        "Pbzcynvagnag: BC/252\a\a" +
+        "Angher bs Pnyy : AB CERZVFR/ JNGRE SYBJ 3EQ SYBBE RNFG FGNVE\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  ZG YNHERY PBEC CNEX\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "Gur Qvfcngpure vf TVYOREG PUEVFGVAR Z\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001343",
+        "HAVG:03360",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:1200 UBJNEQ OI",
+        "PVGL:Zg Ynhery",
+        "K:EG73/QRNQ RAQ",
+        "GVZR:08:38:24",
+        "QNGR:07/30/2013",
+        "ZNC:3622/3622/13/3602",
+        "CUBAR:(800) 639-7019",
+        "ANZR:UBYBPBAT FRP Pbzcynvagnag: BC/252",
+        "VASB:AB CERZVFR/ JNGRE SYBJ 3EQ SYBBE RNFG FGNVE\aZG YNHERY PBEC CNEX");
+
+    qbGrfg("G80",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: wqhtna@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:38:25 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001343                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 1200 UBJNEQ OI                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : EG73/QRNQ RAQ\a\a" +
+        "Pnyy Gvzr- 08:38:24                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :   13         Orng  . : 3602        Znc . . :   13\a" +
+        "Tevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\a" +
+        "Cubar Ahzore: (800) 639-7019                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : UBYBPBAT FRP\a" +
+        "Pbzcynvagnag: BC/252\a\a" +
+        "Angher bs Pnyy : AB CERZVFR/ JNGRE SYBJ 3EQ SYBBE RNFG FGNVE\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  ZG YNHERY PBEC CNEX\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001343",
+        "HAVG:03360",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:1200 UBJNEQ OI",
+        "PVGL:Zg Ynhery",
+        "K:EG73/QRNQ RAQ",
+        "GVZR:08:38:24",
+        "QNGR:07/30/2013",
+        "ZNC:3622/3622/13/3602",
+        "CUBAR:(800) 639-7019",
+        "ANZR:UBYBPBAT FRP Pbzcynvagnag: BC/252",
+        "VASB:AB CERZVFR/ JNGRE SYBJ 3EQ SYBBE RNFG FGNVE\aZG YNHERY PBEC CNEX");
+
+    qbGrfg("G81",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:34:55 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001342                    BEV: 03360         Fgngvba: Fgn 361\a" +
+        "Vapvqrag Glcr  . :   57 S Pbire Fgn            Cevbevgl: 9\a" +
+        "Vapvqrag Ybpngvba: 105 ZNFBAIVYYR EQ                                    Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : ZNEAR UL/YNEPUZBAG OI\a" +
+        "Pbzzba Anzr. . . : ZNFBAIVYYR SVER PB\a\a" +
+        "Pnyy Gvzr- 08:34:55                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3605              Frpgvba :   50         Orng  . : 3608        Znc . . :   50\a" +
+        "Tevq:                   Dhnqenag: 3610         Qvfgevpg: 3610\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Angher bs Pnyy : R391\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf JRPXRAOEBPX ZVPUNRY T\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001342",
+        "HAVG:03360",
+        "FEP:Fgn 361",
+        "PBQR:57",
+        "PNYY:Pbire Nffvtazrag",
+        "CEV:9",
+        "NQQE:105 ZNFBAIVYYR EQ",
+        "PVGL:Zg Ynhery",
+        "K:ZNEAR UL/YNEPUZBAG OI",
+        "CYNPR:ZNFBAIVYYR SVER PB",
+        "GVZR:08:34:55",
+        "QNGR:07/30/2013",
+        "ZNC:3610/3610/50/3605",
+        "VASB:R391");
+
+    qbGrfg("G82",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:34:38 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001341                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :   57 S Pbire Fgn            Cevbevgl: 9\a" +
+        "Vapvqrag Ybpngvba: 3824 PUHEPU EQ                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : TYRAOEBBX OI/BERTBA NI\a" +
+        "Pbzzba Anzr. . . : FGN 362\a\a" +
+        "Pnyy Gvzr- 08:34:38                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    4         Orng  . : 3601        Znc . . :    4\a" +
+        "Tevq:                   Dhnqenag: 3621         Qvfgevpg: 3621\a\a" +
+        "Cubar Ahzore: (856) 235-4393                Pnyy Fbhepr:  GRY\a\a" +
+        "Angher bs Pnyy : FGN 101\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf JRPXRAOEBPX ZVPUNRY T\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001341",
+        "HAVG:03360",
+        "FEP:Fgn 362",
+        "PBQR:57",
+        "PNYY:Pbire Nffvtazrag",
+        "CEV:9",
+        "NQQE:3824 PUHEPU EQ",
+        "PVGL:Zg Ynhery",
+        "K:TYRAOEBBX OI/BERTBA NI",
+        "CYNPR:FGN 362",
+        "GVZR:08:34:38",
+        "QNGR:07/30/2013",
+        "ZNC:3621/3621/4/3601",
+        "CUBAR:(856) 235-4393",
+        "VASB:FGN 101");
+
+    qbGrfg("G83",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: ptvyoreg@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:32:03 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\a" +
+        "Pnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 08:22:06     Ra-ebhgr- 08:24:11     Ba-fprar- 08:26:36     Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\a" +
+        "Cubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : NG&G ZBOVYVGL\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       PC36                 PB-04       PP1332\a" +
+        " R159        R1595                03360       S3600\a" +
+        " 03360       S3603                03360       S361\a" +
+        " 03360       S3614                03360       S3616\a" +
+        " 03360       S362                 03360       S3629\a" +
+        " 03360       S363                 03360       S3632\a" +
+        " R360        R3681                R360        R3682\a\a" +
+        "Angher bs Pnyy : G/G RKCYBQRQ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Aneengvir\a" +
+        " Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a" +
+        "   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a" +
+        " R1595 BA YBP GG JRYY VAIBYIRQ GG                              8:26:12\a" +
+        " Nqqvgvbany R911 Pnyyre: FZVGU,ZNEGVA                          8:27:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:27:40\a" +
+        "   Pnyyre Cubar  . . . : (609)760-6754                         8:27:40\a" +
+        " PYYE NQIF \"URNIL SVER\" SEBZ PNO OYBPXVAT NYY YNARF            8:27:40\a" +
+        " S3601 EDFG SBNZ 36,S3614 GB YBP                               8:28:26\a" +
+        " S3603 EDFG NQQVGVBANY OYF NAQ 2 RATVARF GB FGNAQOL @RKVG 4    8:29:28\a" +
+        " S3603 ERCBEGF S3629 VA FREIVPR JVGU 2/1/2 VA NAQ S3603 JVYY   8:31:46\a" +
+        " UNIR PBZZONAQ (PC36)                                          8:32:01\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " PB-04       201300001316             R159        201300013097\a" +
+        " R360        201300002936             03360       201300001339\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000340",
+        "HAVG:PB-03 03360 PC36 PB-04 PP1332 R159 R1595 S3600 S3603 S361 S3614 S3616 S362 S3629 S363 S3632 R360 R3681 R3682",
+        "FEP:Fgn 362",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:3400 AWGC",
+        "ZNQQE:39.9241760617,-74.9614436968",
+        "PVGL:AWGC",
+        "K:PNZQRA PB YVAR/AWGC RKVG 4",
+        "GVZR:08:20:13",
+        "QNGR:07/30/2013",
+        "ZNC:1501/1501/1590/1590",
+        "CUBAR:(352) 281-0028",
+        "VASB:G/G RKCYBQRQ\aJCU1:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a PB-04       201300001316             R159        201300013097\a R360        201300002936             03360       201300001339");
+
+    qbGrfg("G84",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:30:27 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\a" +
+        "Pnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 08:22:06     Ra-ebhgr- 08:24:11     Ba-fprar- 08:26:36     Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\a" +
+        "Cubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : NG&G ZBOVYVGL\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       PC36                 R159        R1595\a" +
+        " 03360       S3603                03360       S361\a" +
+        " 03360       S3614                03360       S3616\a" +
+        " 03360       S362                 03360       S3629\a" +
+        " 03360       S363                 03360       S3632\a" +
+        " R360        R3681                R360        R3682\a\a" +
+        "Angher bs Pnyy : G/G RKCYBQRQ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Aneengvir\a" +
+        " Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a" +
+        "   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a" +
+        " R1595 BA YBP GG JRYY VAIBYIRQ GG                              8:26:12\a" +
+        " Nqqvgvbany R911 Pnyyre: FZVGU,ZNEGVA                          8:27:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:27:40\a" +
+        "   Pnyyre Cubar  . . . : (609)760-6754                         8:27:40\a" +
+        " PYYE NQIF \"URNIL SVER\" SEBZ PNO OYBPXVAT NYY YNARF            8:27:40\a" +
+        " S3601 EDFG SBNZ 36,S3614 GB YBP                               8:28:26\a" +
+        " S3603 EDFG NQQVGVBANY OYF NAQ 2 RATVARF GB FGNAQOL @RKVG 4    8:29:28\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013097             R360        201300002936\a" +
+        " 03360       201300001339\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000340",
+        "HAVG:PB-03 03360 PC36 R159 R1595 S3603 S361 S3614 S3616 S362 S3629 S363 S3632 R360 R3681 R3682",
+        "FEP:Fgn 362",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:3400 AWGC",
+        "ZNQQE:39.9241760617,-74.9614436968",
+        "PVGL:AWGC",
+        "K:PNZQRA PB YVAR/AWGC RKVG 4",
+        "GVZR:08:20:13",
+        "QNGR:07/30/2013",
+        "ZNC:1501/1501/1590/1590",
+        "CUBAR:(352) 281-0028",
+        "VASB:G/G RKCYBQRQ\aJCU1:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013097             R360        201300002936\a 03360       201300001339");
+
+    qbGrfg("G85",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:30:18 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\a" +
+        "Pnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 08:22:06     Ra-ebhgr- 08:24:11     Ba-fprar- 08:26:36     Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\a" +
+        "Cubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : NG&G ZBOVYVGL\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       PC36                 R159        R1595\a" +
+        " 03360       S3603                03360       S361\a" +
+        " 03360       S3614                03360       S362\a" +
+        " 03360       S3629                03360       S363\a" +
+        " 03360       S3632                R360        R3681\a" +
+        " R360        R3682\a\a" +
+        "Angher bs Pnyy : G/G RKCYBQRQ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Aneengvir\a" +
+        " Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a" +
+        "   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a" +
+        " R1595 BA YBP GG JRYY VAIBYIRQ GG                              8:26:12\a" +
+        " Nqqvgvbany R911 Pnyyre: FZVGU,ZNEGVA                          8:27:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:27:40\a" +
+        "   Pnyyre Cubar  . . . : (609)760-6754                         8:27:40\a" +
+        " PYYE NQIF \"URNIL SVER\" SEBZ PNO OYBPXVAT NYY YNARF            8:27:40\a" +
+        " S3601 EDFG SBNZ 36,S3614 GB YBP                               8:28:26\a" +
+        " S3603 EDFG NQQVGVBANY OYF NAQ 2 RATVARF GB FGNAQOL @RKVG 4    8:29:28\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013097             R360        201300002936\a" +
+        " 03360       201300001339\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000340",
+        "HAVG:PB-03 03360 PC36 R159 R1595 S3603 S361 S3614 S362 S3629 S363 S3632 R360 R3681 R3682",
+        "FEP:Fgn 362",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:3400 AWGC",
+        "ZNQQE:39.9241760617,-74.9614436968",
+        "PVGL:AWGC",
+        "K:PNZQRA PB YVAR/AWGC RKVG 4",
+        "GVZR:08:20:13",
+        "QNGR:07/30/2013",
+        "ZNC:1501/1501/1590/1590",
+        "CUBAR:(352) 281-0028",
+        "VASB:G/G RKCYBQRQ\aJCU1:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013097             R360        201300002936\a 03360       201300001339");
+
+    qbGrfg("G86",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: gwbuafba@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:29:56 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001340                    BEV: 03360         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 523 SRYYBJFUVC EQ FHVGR 235                          Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : J CNEX QE/EG73\a" +
+        "Pbzzba Anzr. . . : IVEGHN CNENZRQVPF\a\a" +
+        "Pnyy Gvzr- 08:29:55                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :   10         Orng  . : 3602        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 3624         Qvfgevpg: 3624\a\a" +
+        "Cubar Ahzore: (856) 581-7200                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ZRQVP 100\a\a" +
+        "Angher bs Pnyy : BQBE BS TNF BHG FVQR BS OHVYQVAT /\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf WBUAFBA GUBZNF\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001340",
+        "HAVG:03360",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:523 SRYYBJFUVC EQ",
+        "NCG:235",
+        "PVGL:Zg Ynhery",
+        "K:J CNEX QE/EG73",
+        "CYNPR:IVEGHN CNENZRQVPF",
+        "GVZR:08:29:55",
+        "QNGR:07/30/2013",
+        "ZNC:3624/3624/10/3602",
+        "CUBAR:(856) 581-7200",
+        "ANZR:ZRQVP 100",
+        "VASB:BQBE BS TNF BHG FVQR BS OHVYQVAT /");
+
+    qbGrfg("G87",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: jlrexrf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:28:20 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\a" +
+        "Pnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 08:22:06     Ra-ebhgr- 08:24:11     Ba-fprar- 08:26:36     Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\a" +
+        "Cubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : NG&G ZBOVYVGL\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1595                03360       S3603\a" +
+        " 03360       S361                 03360       S362\a" +
+        " 03360       S3629                03360       S363\a" +
+        " 03360       S3632                R360        R3681\a" +
+        " R360        R3682\a\a" +
+        "Angher bs Pnyy : G/G RKCYBQRQ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Aneengvir\a" +
+        " Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a" +
+        "   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a" +
+        " R1595 BA YBP GG JRYY VAIBYIRQ GG                              8:26:12\a" +
+        " Nqqvgvbany R911 Pnyyre: FZVGU,ZNEGVA                          8:27:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:27:40\a" +
+        "   Pnyyre Cubar  . . . : (609)760-6754                         8:27:40\a" +
+        " PYYE NQIF \"URNIL SVER\" SEBZ PNO OYBPXVAT NYY YNARF            8:27:40\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013097             R360        201300002936\a" +
+        " 03360       201300001339\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000340",
+        "HAVG:PB-03 R159 R1595 03360 S3603 S361 S362 S3629 S363 S3632 R360 R3681 R3682",
+        "FEP:Fgn 362",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:3400 AWGC",
+        "ZNQQE:39.9241760617,-74.9614436968",
+        "PVGL:AWGC",
+        "K:PNZQRA PB YVAR/AWGC RKVG 4",
+        "GVZR:08:20:13",
+        "QNGR:07/30/2013",
+        "ZNC:1501/1501/1590/1590",
+        "CUBAR:(352) 281-0028",
+        "VASB:G/G RKCYBQRQ\aJCU1:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013097             R360        201300002936\a 03360       201300001339");
+
+    qbGrfg("G88",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:24:35 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\a" +
+        "Pnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 08:22:06     Ra-ebhgr- 08:24:11     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\a" +
+        "Cubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : NG&G ZBOVYVGL\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1595                03360       S3603\a" +
+        " 03360       S362                 03360       S3629\a" +
+        " 03360       S363                 03360       S3632\a" +
+        " R360        R3681                R360        R3682\a\a" +
+        "Angher bs Pnyy : G/G RKCYBQRQ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Aneengvir\a" +
+        " Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a" +
+        "   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013097             R360        201300002936\a" +
+        " 03360       201300001339\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000340",
+        "HAVG:PB-03 R159 R1595 03360 S3603 S362 S3629 S363 S3632 R360 R3681 R3682",
+        "FEP:Fgn 362",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:3400 AWGC",
+        "ZNQQE:39.9241760617,-74.9614436968",
+        "PVGL:AWGC",
+        "K:PNZQRA PB YVAR/AWGC RKVG 4",
+        "GVZR:08:20:13",
+        "QNGR:07/30/2013",
+        "ZNC:1501/1501/1590/1590",
+        "CUBAR:(352) 281-0028",
+        "VASB:G/G RKCYBQRQ\aJCU1:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013097             R360        201300002936\a 03360       201300001339");
+
+    qbGrfg("G89",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:24:10 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\a" +
+        "Pnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 08:22:06     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\a" +
+        "Cubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : NG&G ZBOVYVGL\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1595                03360       S362\a" +
+        " 03360       S363                 R360        R3682\a\a" +
+        "Angher bs Pnyy : G/G RKCYBQRQ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Aneengvir\a" +
+        " Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a" +
+        "   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013097             R360        201300002936\a" +
+        " 03360       201300001339\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000340",
+        "HAVG:PB-03 R159 R1595 03360 S362 S363 R360 R3682",
+        "FEP:Fgn 362",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:3400 AWGC",
+        "ZNQQE:39.9241760617,-74.9614436968",
+        "PVGL:AWGC",
+        "K:PNZQRA PB YVAR/AWGC RKVG 4",
+        "GVZR:08:20:13",
+        "QNGR:07/30/2013",
+        "ZNC:1501/1501/1590/1590",
+        "CUBAR:(352) 281-0028",
+        "VASB:G/G RKCYBQRQ\aJCU1:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013097             R360        201300002936\a 03360       201300001339");
+
+    qbGrfg("G90",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:24:13 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : 129S R Zin/Sver             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\a" +
+        "Pnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 08:22:06     Ra-ebhgr- 08:24:11     Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\a" +
+        "Cubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : NG&G ZBOVYVGL\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1595                03360       S362\a" +
+        " 03360       S3629                03360       S363\a" +
+        " R360        R3682\a\a" +
+        "Angher bs Pnyy : G/G RKCYBQRQ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Aneengvir\a" +
+        " Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a" +
+        "   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013097             R360        201300002936\a" +
+        " 03360       201300001339\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000340",
+        "HAVG:PB-03 R159 R1595 03360 S362 S3629 S363 R360 R3682",
+        "FEP:Fgn 362",
+        "PBQR:129S",
+        "PNYY:Zbgbe Iruvpyr Nppvqrag Sver Erfcbafr",
+        "CEV:1",
+        "NQQE:3400 AWGC",
+        "ZNQQE:39.9241760617,-74.9614436968",
+        "PVGL:AWGC",
+        "K:PNZQRA PB YVAR/AWGC RKVG 4",
+        "GVZR:08:20:13",
+        "QNGR:07/30/2013",
+        "ZNC:1501/1501/1590/1590",
+        "CUBAR:(352) 281-0028",
+        "VASB:G/G RKCYBQRQ\aJCU1:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013097             R360        201300002936\a 03360       201300001339");
+
+    qbGrfg("G91",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: jlrexrf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:22:06 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\a" +
+        "Pnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\a" +
+        "Cubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : NG&G ZBOVYVGL\a\a" +
+        "Havgf frag  :\a" +
+        " R360        R3682\a\a" +
+        "Angher bs Pnyy : G/G RKCYBQRQ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Aneengvir\a" +
+        " Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a" +
+        "   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R360        201300002936             03360       201300001339\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000340",
+        "HAVG:PB-03 R360 R3682",
+        "FEP:Fgn 362",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:3400 AWGC",
+        "ZNQQE:39.9241760617,-74.9614436968",
+        "PVGL:AWGC",
+        "K:PNZQRA PB YVAR/AWGC RKVG 4",
+        "GVZR:08:20:13",
+        "QNGR:07/30/2013",
+        "ZNC:1501/1501/1590/1590",
+        "CUBAR:(352) 281-0028",
+        "VASB:G/G RKCYBQRQ\aJCU1:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R360        201300002936             03360       201300001339");
+
+    qbGrfg("G92",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: jlrexrf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:22:06 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000340                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3400 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a\a" +
+        "Pnyy Gvzr- 08:20:13                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu - 08:22:06     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\a" +
+        "Cubar Ahzore: (352) 281-0028                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : NG&G ZBOVYVGL\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S362                 03360       S363\a" +
+        " R360        R3682\a\a" +
+        "Angher bs Pnyy : G/G RKCYBQRQ\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU1:\a\a" +
+        "Aneengvir\a" +
+        " Nqqvgvbany R911 Pnyyre: FGBXRF,ZE                             8:20:40\a" +
+        "   Pnyyre Nqqerff  . . : JVERYRFF PNYYRE                       8:20:40\a" +
+        "   Pnyyre Cubar  . . . : (484)350-9108                         8:20:40\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R360        201300002936             03360       201300001339\a\a" +
+        "Gur Pnyy Gnxre vf QHTNA WRAAVSRE T\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000340",
+        "HAVG:PB-03 03360 S362 S363 R360 R3682",
+        "FEP:Fgn 362",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:3400 AWGC",
+        "ZNQQE:39.9241760617,-74.9614436968",
+        "PVGL:AWGC",
+        "K:PNZQRA PB YVAR/AWGC RKVG 4",
+        "GVZR:08:20:13",
+        "QNGR:07/30/2013",
+        "ZNC:1501/1501/1590/1590",
+        "CUBAR:(352) 281-0028",
+        "VASB:G/G RKCYBQRQ\aJCU1:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R360        201300002936             03360       201300001339");
+
+    qbGrfg("G93",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: xurqevpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Ghrfqnl, Whyl 30, 2013 8:20:24 NZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000341                    BEV: PB-03         Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . : SVER S Sver Pnyy            Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 3450 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : PNZQRA PB YVAR/AWGC RKVG 4\a" +
+        "Pbzzba Anzr. . . : RKVG 4 AWGC EBNQJNL\a\a" +
+        "Pnyy Gvzr- 08:20:23                                Qngr- 07/30/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1501         Qvfgevpg: 1501\a\a" +
+        "Cubar Ahzore: (804) 441-3807                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : XVEXJBBQ QLYNA\a\a" +
+        "Angher bs Pnyy : GEPGE GEYE SVER\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  AO\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf URQEVPX XRVGU R\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000341",
+        "HAVG:PB-03",
+        "FEP:Fgn 362",
+        "PBQR:SVER",
+        "PNYY:Sver Pnyy",
+        "CEV:1",
+        "NQQE:3450 AWGC",
+        "ZNQQE:39.9294622121,-74.9550034227",
+        "PVGL:AWGC",
+        "K:PNZQRA PB YVAR/AWGC RKVG 4",
+        "CYNPR:RKVG 4 AWGC EBNQJNL",
+        "GVZR:08:20:23",
+        "QNGR:07/30/2013",
+        "ZNC:1501/1501/1590/1590",
+        "CUBAR:(804) 441-3807",
+        "ANZR:XVEXJBBQ QLYNA",
+        "VASB:GEPGE GEYE SVER\aAO");
+
+    qbGrfg("G94",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: xjvyfba@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Zbaqnl, Whyl 29, 2013 7:10:33 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00001338                    BEV: 03360         Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :   16 S Nynezf               Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 10 J OREJVA JL                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : A YNXR QE/IVYYNTR YN\a\a" +
+        "Pnyy Gvzr- 19:10:32                                Qngr- 07/29/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar- 19:10:32     Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\a" +
+        "Tevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\a" +
+        "Cubar Ahzore: (000) 000-0000                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : S3632\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3632\a\a" +
+        "Angher bs Pnyy : FZBXR QRGRPGBE\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf JVYFBA XRBA P\a" +
+        "Gur Qvfcngpure vf JVYFBA XRBA P\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00001338",
+        "HAVG:03360 S3632",
+        "FEP:Fgn 363",
+        "PBQR:16",
+        "PNYY:Nynez Flfgrzf",
+        "CEV:1",
+        "NQQE:10 J OREJVA JL",
+        "PVGL:Zg Ynhery",
+        "K:A YNXR QE/IVYYNTR YN",
+        "GVZR:19:10:32",
+        "QNGR:07/29/2013",
+        "ZNC:3632/3632/22/3603",
+        "ANZR:S3632",
+        "VASB:FZBXR QRGRPGBE");
+
+    qbGrfg("G95",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: jlrexrf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Zbaqnl, Whyl 29, 2013 6:54:10 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002933                    BEV: R360          Fgngvba: Fgn 361\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 341 JNYGBA NI                                        Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : YRNQRAUNYY EQ/HAVBA ZVYY EQ\a\a" +
+        "Pnyy Gvzr- 18:52:55                                Qngr- 07/29/2013\a" +
+        "Qvfcngpu - 18:54:09     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3604              Frpgvba :   34         Orng  . : 3605        Znc . . :   34\a" +
+        "Tevq:                   Dhnqenag: 3645         Qvfgevpg: 3645\a\a" +
+        "Cubar Ahzore: (609) 209-1993                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ZNEX JBYIREGBA\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S3614                R360        R368\a" +
+        " R360        R369\a\a" +
+        "Angher bs Pnyy : PUVYQ SRYY VAW GB ONPX\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " 03360       201300001337\a\a" +
+        "Gur Pnyy Gnxre vf PNINANHTU ZNEX G\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002933",
+        "HAVG:R360 03360 S3614 R368 R369",
+        "FEP:Fgn 361",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:341 JNYGBA NI",
+        "ZNQQE:341 JNYGBA NIR",
+        "PVGL:Zg Ynhery",
+        "K:YRNQRAUNYY EQ/HAVBA ZVYY EQ",
+        "GVZR:18:52:55",
+        "QNGR:07/29/2013",
+        "ZNC:3645/3645/34/3604",
+        "CUBAR:(609) 209-1993",
+        "ANZR:ZNEX JBYIREGBA",
+        "VASB:PUVYQ SRYY VAW GB ONPX");
+
+    qbGrfg("G96",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Zbaqnl, Whyl 29, 2013 6:50:44 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002932                    BEV: R360          Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :  132 R HaxZrqRzet           Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 12 J OREJVA JL                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : A YNXR QE/IVYYNTR YN\a\a" +
+        "Pnyy Gvzr- 18:46:39                                Qngr- 07/29/2013\a" +
+        "Qvfcngpu - 18:48:04     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\a" +
+        "Tevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\a" +
+        "Cubar Ahzore: (856) 628-1226                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : NYVPR UVGARE\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S363                 03360       S3632\a" +
+        " R360        R368                 R360        R3681\a" +
+        " R360        R369\a\a" +
+        "Angher bs Pnyy : HANOYR GB JNYX//ONPX CNVAF\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " 03360       201300001336\a\a" +
+        "Gur Pnyy Gnxre vf WBORF ZNEYNAN\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002932",
+        "HAVG:R360 03360 S363 S3632 R368 R3681 R369",
+        "FEP:Fgn 363",
+        "PBQR:132",
+        "PNYY:Zrqvpny Rzretrapl (Haxabja Ceboyrz)",
+        "CEV:1",
+        "NQQE:12 J OREJVA JL",
+        "PVGL:Zg Ynhery",
+        "K:A YNXR QE/IVYYNTR YN",
+        "GVZR:18:46:39",
+        "QNGR:07/29/2013",
+        "ZNC:3632/3632/22/3603",
+        "CUBAR:(856) 628-1226",
+        "ANZR:NYVPR UVGARE",
+        "VASB:HANOYR GB JNYX//ONPX CNVAF\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a 03360       201300001336");
+
+    qbGrfg("G97",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: jlrexrf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Zbaqnl, Whyl 29, 2013 6:48:05 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002932                    BEV: R360          Fgngvba: Fgn 363\a" +
+        "Vapvqrag Glcr  . :  RZF R RZF Pnyy             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 12 J OREJVA JL                                       Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : A YNXR QE/IVYYNTR YN\a\a" +
+        "Pnyy Gvzr- 18:46:39                                Qngr- 07/29/2013\a" +
+        "Qvfcngpu - 18:48:04     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3603              Frpgvba :   22         Orng  . : 3604        Znc . . :   22\a" +
+        "Tevq:                   Dhnqenag: 3632         Qvfgevpg: 3632\a\a" +
+        "Cubar Ahzore: (856) 628-1226                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : NYVPR UVGARE\a\a" +
+        "Havgf frag  :\a" +
+        " 03360       S363                 R360        R368\a" +
+        " R360        R369\a\a" +
+        "Angher bs Pnyy : HANOYR GB JNYX//ONPX CNVAF\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " 03360       201300001336\a\a" +
+        "Gur Pnyy Gnxre vf WBORF ZNEYNAN\a" +
+        "Gur Qvfcngpure vf LREXRF JNLAR Q\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002932",
+        "HAVG:R360 03360 S363 R368 R369",
+        "FEP:Fgn 363",
+        "PBQR:RZF",
+        "PNYY:RZF Pnyy",
+        "CEV:1",
+        "NQQE:12 J OREJVA JL",
+        "PVGL:Zg Ynhery",
+        "K:A YNXR QE/IVYYNTR YN",
+        "GVZR:18:46:39",
+        "QNGR:07/29/2013",
+        "ZNC:3632/3632/22/3603",
+        "CUBAR:(856) 628-1226",
+        "ANZR:NYVPR UVGARE",
+        "VASB:HANOYR GB JNYX//ONPX CNVAF\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a 03360       201300001336");
+
+    qbGrfg("G98",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: zjrpxraoebpx@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Zbaqnl, Whyl 29, 2013 6:15:13 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002929                    BEV: R360          Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :  125 R Cflpuvng             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 101 QVRZRE QE                                        Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : PENJSBEQ CY/CNPVYYV CY\a" +
+        "Pbzzba Anzr. . . : RKGRAQRQ FGNL UBGRYF\a\a" +
+        "Pnyy Gvzr- 18:15:13                                Qngr- 07/29/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3601              Frpgvba :    6         Orng  . : 3601        Znc . . :    6\a" +
+        "Tevq:                   Dhnqenag: 3622         Qvfgevpg: 3622\a\a" +
+        "Cubar Ahzore: (856) 778-4100                Pnyy Fbhepr:  GRY\a\a" +
+        "Pnyyre. . . : ZY CQ\a\a" +
+        "Angher bs Pnyy : FHPVQNY FHOW\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  EZ 302\a\a" +
+        "Nqqvgvbany Vap#f:\a\a" +
+        "Gur Pnyy Gnxre vf JRPXRAOEBPX ZVPUNRY T\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002929",
+        "HAVG:R360",
+        "FEP:Fgn 362",
+        "PBQR:125",
+        "PNYY:Cflpuvngevp/Orunibevny Ceboyrzf",
+        "CEV:1",
+        "NQQE:101 QVRZRE QE",
+        "PVGL:Zg Ynhery",
+        "K:PENJSBEQ CY/CNPVYYV CY",
+        "CYNPR:RKGRAQRQ FGNL UBGRYF",
+        "GVZR:18:15:13",
+        "QNGR:07/29/2013",
+        "ZNC:3622/3622/6/3601",
+        "CUBAR:(856) 778-4100",
+        "ANZR:ZY CQ",
+        "VASB:FHPVQNY FHOW\aEZ 302");
+
+    qbGrfg("G99",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: gwbuafba@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Zbaqnl, Whyl 29, 2013 2:12:26 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00002926                    BEV: R360          Fgngvba: Fgn 362\a" +
+        "Vapvqrag Glcr  . :  131 R Hapba                Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 813 RNFGTNGR QE FHVGR N                              Irahr: Zg Ynhery\a" +
+        "Ybpngrq Orgjrra  : SRYYBJFUVC EQ/CYRNFNAG INYYRL NI\a" +
+        "Pbzzba Anzr. . . : NYYVRQ BEGUBGVPF & CEBFGURGVPF\a\a" +
+        "Pnyy Gvzr- 14:09:58                                Qngr- 07/29/2013\a" +
+        "Qvfcngpu -              Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 3602              Frpgvba :    9         Orng  . : 3602        Znc . . :    9\a" +
+        "Tevq:                   Dhnqenag: 3624         Qvfgevpg: 3624\a\a" +
+        "Cubar Ahzore: (609) 731-4320                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : SRYVK YBTNEGN\a\a" +
+        "Havgf frag  :\a" +
+        " R159        R1593                R360        R3681\a\a" +
+        "Angher bs Pnyy : SRZNYR CNFFRQ BHG\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  JCU2:\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R159        201300013061             03360       201300001335\a\a" +
+        "Gur Pnyy Gnxre vf QRFWNEQVAF NYSERQ R\a" +
+        "Gur Qvfcngpure vf WBUAFBA GUBZNF\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00002926",
+        "HAVG:R360 R159 R1593 R3681",
+        "FEP:Fgn 362",
+        "PBQR:131",
+        "PNYY:Hapbafpvbhfarff/Snvagvat",
+        "CEV:1",
+        "NQQE:813 RNFGTNGR QE",
+        "NCG:N",
+        "PVGL:Zg Ynhery",
+        "K:SRYYBJFUVC EQ/CYRNFNAG INYYRL NI",
+        "CYNPR:NYYVRQ BEGUBGVPF & CEBFGURGVPF",
+        "GVZR:14:09:58",
+        "QNGR:07/29/2013",
+        "ZNC:3624/3624/9/3602",
+        "CUBAR:(609) 731-4320",
+        "ANZR:SRYVK YBTNEGN",
+        "VASB:SRZNYR CNFFRQ BHG\aJCU2:\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R159        201300013061             03360       201300001335");
+
+    qbGrfg("G100",
+        "{SJ: Nhgbzngvp E&E Abgvsvpngvba} \a\a\a" +
+        "________________________________________\a" +
+        "Sebz: jlrexrf@PB.OHEYVATGBA.AW.HF\a" +
+        "Frag: Zbaqnl, Whyl 29, 2013 12:15:31 CZ (HGP-05:00) Rnfgrea Gvzr (HF & Pnanqn)\a" +
+        "Gb: zysqnccnenghf@tznvy.pbz\a" +
+        "Fhowrpg: Nhgbzngvp E&E Abgvsvpngvba\a\a" +
+        "Vapvqrag Ahzore  : 2013-00000336                    BEV: PB-03         Fgngvba: Fgn 361\a" +
+        "Vapvqrag Glcr  . :  129 R NppVawel             Cevbevgl: 1\a" +
+        "Vapvqrag Ybpngvba: 4400 AWGC                                            Irahr: AWGC\a" +
+        "Ybpngrq Orgjrra  : AWGC 4A FREIVPR NERN/AWGC RKVG 5\a" +
+        "Pbzzba Anzr. . . : RKVG 5 AWGC\a\a" +
+        "Pnyy Gvzr- 12:10:38                                Qngr- 07/29/2013\a" +
+        "Qvfcngpu - 12:14:17     Ra-ebhgr-              Ba-fprar-              Qrcneg 1-\a" +
+        "Neevir 2 -              Qrcneg 2-              Va-fgnga-\a\a" +
+        "Nern: 1590              Frpgvba : 1590         Orng  . : AWGC        Znc . . :\a" +
+        "Tevq:                   Dhnqenag: 1504         Qvfgevpg: 1504\a\a" +
+        "Cubar Ahzore: (978) 808-1959                Pnyy Fbhepr:  911\a\a" +
+        "Pnyyre. . . : YRBAR NZNAQN\a\a" +
+        "Havgf frag  :\a" +
+        " 03272       S2723                03300       S301\a" +
+        " 03360       S3603                03360       S3614\a" +
+        " R509        R5092\a\a" +
+        "Angher bs Pnyy : ZI IF ZRQVNA\a\a" +
+        "Nqqvgvbany Vasb\a" +
+        "  FO\a\a" +
+        "Aneengvir\a" +
+        " AB VAWF GBG FGNGR CBYVPR                                     12:11:33\a\a" +
+        "Nqqerff Purpxf\a\a" +
+        "Nqqvgvbany Vap#f:\a" +
+        " R509        201300001241             03272       201300001720\a" +
+        " 03300       201300000465             03360       201300001334\a\a" +
+        "Gur Pnyy Gnxre vf WBUAFBA GUBZNF\a" +
+        "Gur Qvfcngpure vf WBUAFBA GUBZNF\a" +
+        "________________________________\a" +
+        "Gur pbagragf bs guvf r-znvy naq vgf nggnpuzragf ner vagraqrq fbyryl sbe gur nqqerffrr(f). Va nqqvgvba, gur vasbezngvba pbagnvarq va guvf r-znvy znl or pbasvqragvny naq/be yrtnyyl cevivyrtrq. Vs lbh ner abg gur anzrq nqqerffrr, be vs guvf zrffntr unf orra nqqerffrq gb lbh va reebe, lbh ner qverpgrq abg gb ernq, qvfpybfr, ercebqhpr, qvfgevohgr, qvffrzvangr be bgurejvfr hfr guvf genafzvffvba. Lbh ner nyfb urerol abgvsvrq gung nal hanhgubevmrq erivrj, hfr, qvfpybfher, qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf genafzvffvba va reebe, cyrnfr nyreg gur fraqre ol ercyl r-znvy naq qrfgebl nyy pbcvrf bs guvf zrffntr. Gunax lbh.",
+
+        "VQ:2013-00000336",
+        "HAVG:PB-03 03272 S2723 03300 S301 03360 S3603 S3614 R509 R5092",
+        "FEP:Fgn 361",
+        "PBQR:129",
+        "PNYY:Genssvp Vawhel Nppvqragf",
+        "CEV:1",
+        "NQQE:4400 AWGC",
+        "ZNQQE:40.0228334607,-74.8251740001",
+        "PVGL:AWGC",
+        "K:AWGC 4A FREIVPR NERN/AWGC RKVG 5",
+        "CYNPR:RKVG 5 AWGC",
+        "GVZR:12:10:38",
+        "QNGR:07/29/2013",
+        "ZNC:1504/1504/1590/1590",
+        "CUBAR:(978) 808-1959",
+        "ANZR:YRBAR NZNAQN",
+        "VASB:ZI IF ZRQVNA\aFO\aNqqerff Purpxf\aNqqvgvbany Vap#f:\a R509        201300001241             03272       201300001720\a 03300       201300000465             03360       201300001334");
   
   }
   

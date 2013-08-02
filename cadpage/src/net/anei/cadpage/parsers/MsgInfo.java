@@ -402,6 +402,8 @@ public class MsgInfo {
     }
     
     if (strBaseMapAddress != null) return strBaseMapAddress;
+
+    if (strAddress.length() == 0) return strAddress;
     
     // See if we can find any GPS coordinates, if we do, return those
     String mapAddr = null;
@@ -410,8 +412,15 @@ public class MsgInfo {
       strBaseMapAddress = mapAddr;
       return mapAddr;
     }
-
-    if (strAddress.length() == 0) return strAddress;
+    
+    // If we have a parser, see if we have a GPS location match
+    if (parser != null) {
+      String addr = parser.lookupGpsCoordiantes(strAddress);
+      if (addr != null) {
+        strBaseMapAddress = addr;
+        return addr;
+      }
+    }
 
     // Perform any parser specific customizations
     String sAddr = strAddress;

@@ -244,6 +244,10 @@ public abstract class MsgParser {
   // Parser country code
   private CountryCode countryCode;
   
+  // Parser specific table of GPS coordinates associated with
+  // specific addresses (typically mile markers)
+  private Properties gpsLookupTable = null;
+  
   // Save parse flags so we can check message status from methods that
   // were not passed the parse flags
   private int parseFlags;
@@ -264,6 +268,14 @@ public abstract class MsgParser {
     int ipt = clsName.lastIndexOf('.');
     parserCode = clsName.substring(ipt+1, clsName.length()-6);
 
+  }
+  
+  /**
+   * Set up GPS address lookup table
+   * @param gpsLookupTable table of GPS coordinates keyed by address string
+   */
+  protected void setupGpsLookupTable(Properties gpsLookupTable) {
+    this.gpsLookupTable = gpsLookupTable;
   }
 
   /**
@@ -842,8 +854,23 @@ public abstract class MsgParser {
  public String adjustMapCity(String city) {
    return city;
  }
+ 
+ public String lookupGpsCoordiantes(String address) {
+   if (gpsLookupTable == null) return null;
+   address = adjustGpsLookupAddress(address);
+   return gpsLookupTable.getProperty(address);
+ }
 
  /**
+  * Call to perform any adjustments on the raw address field before
+  * trying to match it to an GPS location table entry
+  * @param address raw address field
+  * @return adjusted address field
+  */
+ protected String adjustGpsLookupAddress(String address) {
+   return address;
+ }
+/**
   * Parse address line into address and city fields
   * @param addressLine address line to be parsed
   * @param data message info object to be filled
