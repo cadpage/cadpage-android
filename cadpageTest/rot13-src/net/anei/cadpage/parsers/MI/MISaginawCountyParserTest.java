@@ -47,6 +47,10 @@ Cntrpbcl-YBP:PNEGRE EQ / ZVQYNAQ EQ QRFP:WHFG A BS VAG - 31 SR URNG FGEBXR NCG: 
 Cntrpbcl-YBP:PNEGRE EQ / FNEYR EQ QRFP:HCQNGRQ VASB -CBFF NG NQZVENY NCG: GLC:*Z*FVPX CREFBA VA CEBTERFF
 Cntrpbcl-YBP:10340 ZVQYNAQ EQ QRFP:NFFVFG CQ J/RAGEL NCG: GLC:*Z*ZHGHNY NVQ
 
+Pbagnpg: Wnfba Whqq <wnfba.whqq651@tznvy.pbz>
+Fraqre: 34292
+YBP:F 27GU / R UBYYNAQ QRFP:BAR SRZNYR HAPBAFPVBHF GLC:*Z*VAWHEL
+
  */
 
 choyvp pynff ZVFntvanjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -209,6 +213,17 @@ choyvp pynff ZVFntvanjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:10340 ZVQYNAQ EQ",
         "VASB:NFFVFG CQ J/RAGEL",
         "PNYY:ZHGHNY NVQ");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWnfbaWhqq() {
+
+    qbGrfg("G1",
+        "YBP:F 27GU / R UBYYNAQ QRFP:BAR SRZNYR HAPBAFPVBHF GLC:*Z*VAWHEL",
+        "NQQE:F 27GU & R UBYYNAQ",
+        "VASB:BAR SRZNYR HAPBAFPVBHF",
+        "PNYY:VAWHEL");
 
   }
   

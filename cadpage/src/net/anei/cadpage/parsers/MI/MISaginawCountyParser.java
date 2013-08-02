@@ -11,7 +11,7 @@ public class MISaginawCountyParser extends FieldProgramParser {
   
   public MISaginawCountyParser() {
     super("SAGINAW COUNTY", "MI",
-           "LOC:ADDR! DESC:INFO! APT:APT! TYP:CALL!");
+           "LOC:ADDR! DESC:INFO! APT:APT? TYP:CALL!");
   }
   
   @Override
