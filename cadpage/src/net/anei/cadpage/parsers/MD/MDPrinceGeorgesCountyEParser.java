@@ -21,7 +21,7 @@ public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParse
   
   @Override
   public String getFilter() {
-    return "@alert.co.pg.md.us,rc.505@c-msg.net,14100";
+    return "@alert.co.pg.md.us,rc.505@c-msg.net,14100,12101";
   }
   
   @Override

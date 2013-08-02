@@ -117,6 +117,10 @@ SEZ: \aZFT:Havg:E1 Fgnghf:Qvfcngpurq IS ; 66 PRAGHEL QE ; ; QRNQ RAQ / JUVGR ORN
 SEZ:\aZFT:Havg:PB1 Fgnghf:Qvfcngpurq UNMZNG ; 35 A 23 FG ; ; QRATYRE FG / PHZOREYNAQ NIR ; ZBHAG CRAA ; ; 11/17/12 16:26:
 SEZ:\aFHOW:1/2\aZFT:Havg:FC1 Fgnghf:Qvfcngpurq IS ; 1700 ZRZBEVNY UJL OYBPX ; ; BYRL GHEACVXR EQ / BNX YA ; BYRL ; IRU VA QEVIRJNL / NG RQTR OL
 
+Pbagnpg: Ebtre N. Fcnqg <sverzrq4760@tznvy.pbz>
+Fraqre: 1210100053
+SEZ: \aFHOW:1/2\aZFT:Havg:ER7 Fgnghf:Qvfcngpurq FS ; 621 XNGUELA FG ; ; QNEVRA FG / FALQRE FG ; ERNQVAT ; TERL OYX FZBXR PBZVAT SEBZ PUVZARL ; 0;
+
 */
 
 choyvp pynff CNOrexfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1191,6 +1195,22 @@ choyvp pynff CNOrexfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
   
+  @Grfg
+  choyvp ibvq grfgEbtreNFcnqg() {
+
+    qbGrfg("G1",
+        "SEZ: \a" +
+        "FHOW:1/2\a" +
+        "ZFT:Havg:ER7 Fgnghf:Qvfcngpurq FS ; 621 XNGUELA FG ; ; QNEVRA FG / FALQRE FG ; ERNQVAT ; TERL OYX FZBXR PBZVAT SEBZ PUVZARL ; 0;",
+
+        "HAVG:ER7",
+        "PNYY:FS - Fgehpgher Sver",
+        "NQQE:621 XNGUELA FG",
+        "PVGL:ERNQVAT",
+        "K:QNEVRA FG / FALQRE FG",
+        "VASB:TERL OYX FZBXR PBZVAT SEBZ PUVZARL");
+
+  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj CNOrexfPbhaglCnefreGrfg().trarengrGrfgf("G1");

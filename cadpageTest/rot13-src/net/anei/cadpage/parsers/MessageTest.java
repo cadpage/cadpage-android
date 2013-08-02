@@ -9,6 +9,14 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("CNOrexfPBhagl",
+        "xra@pnqcntr.bet",
+        "",
+        "SEZ: \aFHOW:1/2\aZFT:Havg:ER7 Fgnghf:Qvfcngpurq FS ; 621 XNGUELA FG ; ; QNEVRA FG / FALQRE FG ; ERNQVAT ; TERL OYX FZBXR PBZVAT SEBZ PUVZARL ; 0;",
+        "xra@pnqcntr.bet",
+        "",
+        "Havg:ER7 Fgnghf:Qvfcngpurq FS ; 621 XNGUELA FG ; ; QNEVRA FG / FALQRE FG ; ERNQVAT ; TERL OYX FZBXR PBZVAT SEBZ PUVZARL ; 0;", 1, 2);
+    
     qbCnefrGrfg("AWAnffnhPbhaglErqNyreg",
         "xra@pnqcntr.bet",
         "",
