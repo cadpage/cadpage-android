@@ -645,6 +645,7 @@ public class ParserList {
               ,"PAElkCounty"                    ,"Elk County, PA"
               ,"PAErieCounty"                   ,"Erie County, PA"
               ,"PAFayetteCounty"                ,"Fayette County, PA"
+              ,"PAFranklinCounty"               ,"Franklin County, PA"
               ,"PAJeffersonCounty"              ,"Jefferson County, PA"
               ,"PAJuniataCounty"                ,"Juniata County, PA"
               ,"PALackawannaCounty"             ,"Lackawanna County, PA"

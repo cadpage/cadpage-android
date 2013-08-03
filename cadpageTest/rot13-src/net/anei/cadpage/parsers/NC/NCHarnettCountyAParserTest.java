@@ -50,6 +50,10 @@ Pbagnpg: Rguna Uneqvfba <runeqvfba870@tznvy.pbz>
 Fraqre: pnqcntr@uneargg.bet
 SEZ:pnqcntr@uneargg.bet\aZFT:1210-093840*9090 AP 210 F***OHAAYRIRY*FBHGU UNEARGG YA*NAQREFBA PERRX FPUBBY EQ***ZIN*********
 
+Pbagnpg: nyyrawn@rzonedznvy.pbz <nyyrawn@rzonedznvy.pbz>
+Fraqre: pnqcntr@uneargg.bet
+1308-071722*688 PVEPYR QE***NATVRE*NCEVY PG*OBJQRA SNZVYL YA***SVER ERF FGE*******Unmneqf: Ab**
+
 */
 
 choyvp pynff APUnearggPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -213,6 +217,19 @@ choyvp pynff APUnearggPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:OHAAYRIRY",
         "K:FBHGU UNEARGG YA & NAQREFBA PERRX FPUBBY EQ",
         "PNYY:ZIN");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNyyraWN() {
+
+    qbGrfg("G1",
+        "1308-071722*688 PVEPYR QE***NATVRE*NCEVY PG*OBJQRA SNZVYL YA***SVER ERF FGE*******Unmneqf: Ab**",
+        "VQ:1308-071722",
+        "NQQE:688 PVEPYR QE",
+        "PVGL:NATVRE",
+        "K:NCEVY PG & OBJQRA SNZVYL YA",
+        "PNYY:SVER ERF FGE");
 
   }
 
