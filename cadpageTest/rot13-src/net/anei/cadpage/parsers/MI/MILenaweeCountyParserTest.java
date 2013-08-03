@@ -14,6 +14,7 @@ Fhowrpg:!\aSver  102 GLEERYY FG GRPHZFRU FG / WBFRCU XVRF FG Pyvagba 42.06822695
 Fhowrpg:!\aSver  10990 GRPHZFRU PYVAGBA UJL IVYYNTR YA, CRAAVATGBA EQ / FGNVO EQ Pyvagba Gjc 42.048519566 -83.9598904119999 Pbzzba Anzr: 
 Fhowrpg:!\aSver  12174 ZNPBA UJL FUBEG FG / UNPX EQ, ZNPBA EQ Znpba Gjc 42.0689791780001 -83.865645211 Pbzzba Anzr:  GERRF NPEBFF GUR EBNQ
 Fhowrpg:!\aZrqvpny  8744 PYVAGBA ZNPBA EQ ZVYYF ZNPBA UJL / ZNPBA UJL Znpba Gjc 42.068935348 -83.8588074849999 Pbzzba Anzr:  NEG INA OHVYQ
+Fhowrpg:!\aPenfu - J/Vawhevrf 12861 PYVAGBA EQ NYYRA EQ / SVFX EQ Bhg bs Pbhagl 42.0955255862698 -83.9694221524138 Pbzzba Anzr:  pne if ge
 
 */
 
@@ -68,6 +69,17 @@ choyvp pynff ZVYranjrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Znpba Gjc",
         "TCF:+42.068935,-83.858807",
         "VASB:NEG INA OHVYQ");
+
+    frgQrsnhygf("", "ZV");
+    qbGrfg("G5",
+        "Fhowrpg:!\a" +
+        "Penfu - J/Vawhevrf 12861 PYVAGBA EQ NYYRA EQ / SVFX EQ Bhg bs Pbhagl 42.0955255862698 -83.9694221524138 Pbzzba Anzr:  pne if ge",
+
+        "PNYY:Penfu - J/Vawhevrf",
+        "NQQE:12861 PYVAGBA EQ",
+        "K:NYYRA EQ / SVFX EQ",
+        "TCF:+42.095526,-83.969422",
+        "VASB:pne if ge");
 
   }
   

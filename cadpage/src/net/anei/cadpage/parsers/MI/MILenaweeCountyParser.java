@@ -31,14 +31,23 @@ public class MILenaweeCountyParser extends FieldProgramParser {
   private class CallAddressField extends AddressField {
     @Override 
     public void parse(String field, Data data) {
+      StartType st = StartType.START_CALL;
+      int flags = FLAG_START_FLD_REQ;
       int pt = field.indexOf("  ");
-      if (pt < 0) abort();
-      data.strCall = field.substring(0,pt);
-      field = field.substring(pt+2).trim();
+      if (pt >= 0) {
+        st = StartType.START_ADDR;
+        flags = 0;
+        data.strCall = field.substring(0,pt);
+        field = field.substring(pt+2).trim();
+      }
       field = setGPSLoc(field, data);
       
-      parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS | FLAG_ANCHOR_END, field, data);
+      parseAddress(st, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS | FLAG_ANCHOR_END | flags, field, data);
       data.strCross = getPadField();
+      
+      if (data.strCity.equalsIgnoreCase("OUT OF COUNTY")) {
+        data.strCity = data.defCity = "";
+      }
     }
     
     @Override
@@ -106,6 +115,9 @@ public class MILenaweeCountyParser extends FieldProgramParser {
     "ROME TWP",
     "SENECA TWP",
     "TECUMSEH TWP",
-    "WOODSTOCK TWP"
+    "WOODSTOCK TWP",
+    
+    // Other
+    "OUT OF COUNTY"
   };
 }
