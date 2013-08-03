@@ -18,13 +18,24 @@ public class TXCollinCountyParser extends FieldProgramParser {
   private static final Pattern DIST_GRID_PTN = Pattern.compile("\\[([A-Z]+) .*?GRID: ([A-Z]*\\d*) *\\]");
   
   private static final String[] DOUBLE_CITY_LIST = new String[] {
-    "COLLIN COUNTY",
+    "ANNA",
+    "AUBREY",
     "BLUE RIDGE",
-    "LOWRY CROSSING",
+    "CELINA",
+    "COLLIN COUNTY",
+    "COLONY",
+    "DENTON",
+    "FRISCO",
+    "LEWISVILLE",
     "LITTLE ELM",
+    "LOWRY CROSSING",
+    "MC KINNEY",
+    "MELISSA",
+    "PILOT POINT",
+    "PRINCETON",
     "ROYSE CITY",
     "ST PAUL",
-    "VAN ALSTYNE",
+    "VAN ALSTYNE"
   };
   
   public TXCollinCountyParser() {
