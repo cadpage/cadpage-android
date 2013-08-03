@@ -1179,6 +1179,20 @@ Puneybggr Pbhagl, SY (SYPuneybggrPbhaglCnefre)
 (PPFB SVER PNYY) PNYY: SVER ERFVQRAGVNY FGEHPGHER SVER\eCYNPR: \eNQQE: 29213 GNZNLB QE\ePVGL: CHAGN TBEQN\eVQ: 1304-010957\eCEV: 1\eQNGR: 04/18/2013\eGVZR: 14:00:03\eZNC:  \eHAVG: 0314\eVASB: [04/18/2013 14:02:07 : cbf8 : YWnzrf]  [Pnyyf 1304-010957,1304-010958 ner eryngrq.]  Pebff fgerrgf: QRNQ RAQ//YNSNLRGGR FG    ZHYPU BA SVER ORUVAQ GENVYRE .... SVER UNF FCERNQ NAQ VF ABJ ZRYGVAT IVALY FVQVAT BA GUR ERFVQRAPR ..  UBHFR VF INPNAG ...
 *******************************************************************************
 *******************************************************************************
+* QvfcngpuN25Cnefre fhopynffrf
+*******************************************************************************
+*******************************************************************************
+Pneebyy Pbhagl, ZB (ZBPneebyyPbhaglCnefre)f
+(ARJBPP #BHGF  202 - NPPVQRAG - ZBGBE IRUVPYR) ARJBPP #BHGF  202 - NPPVQRAG - \aZBGBE IRUVPYR\aNqqerff: M UJL  F BS H, Pneebyygba\aErcbegvat Crefba: , Cubar
+(ARJBPP #BHGF  215 - SVER (OEHFU, ZVFP, BHGQBBEF)) ARJBPP #BHGF  215 - SVER \a(OEHFU, ZVFP, BHGQBBEF)\aNqqerff: Pneebyygba\aErcbegvat Crefba: , Cubar: \aQrg
+(ARJBPP #BHGF  224 - ZVFPRYYNARBHF) ARJBPP #BHGF  224 - ZVFPRYYNARBHF\aNqqerff: PPZU - 1502 A Wrssrefba Fgerrg, Pneebyygba\aErcbegvat Crefba: FGRCUNAVR, C
+*******************************************************************************
+Ybir Pbhagl, BX (BXYbirPbhaglCnefre)
+(ARJBPP #BHGF  NAZY - Navzny Pbzcynvag) ARJBPP #BHGF  NAZY - Navzny Pbzcynvag\aNqqerff: 602 F 4GU NIR, ZNEVRGGN\aErcbegvat Crefba: GVZR TVYYRL, Cubar: 812-2050\aQrgnvy: OYX NAQ GNA QBT EHAAVAT YBBFR VA GUVRE LNEQ GURL UNIR VG PNHTUG BA SEBAG CBEPU
+(ARJBPP #BHGF  GF - Genssvp Fgbc) ARJBPP #BHGF  GF - Genssvp Fgbc\aNqqerff: I  nyreb - ZNEVRGGN\aVAPVQRAG VA CEBTERFF\aErcbegvat Crefba: , Cubar: \aQrgnvy: GP- OS1X295
+(ARJBPP #BHGF  GF - Genssvp Fgbc) ARJBPP #BHGF  GF - Genssvp Fgbc\aNqqerff: Ujl 77/ Zvyy, ZNEVRGGN\aVAPVQRAG VA CEBTERFF\aErcbegvat Crefba: , Cubar: \aQrgnvy: 518TFQ
+*******************************************************************************
+*******************************************************************************
 * QvfcngpuTrbpbakCnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
@@ -3124,11 +3138,6 @@ Terrar Pbhagl, BU (BUTerrarPbhaglCnefreCnefre)
 ZOYF-ZRQVPNY Ybpngvba: 160 EVPUNEQ QE QNLGBA KRAVN EQ / EBOREG YA KRAVN GJC Gvzr: 17:31 Havgf: Z51  Pbzzba
 SZNYF-ZRQVP NY Ybpngvba: 378 JVAQVAT GEY YNZCYVTUGRE CY, JBBQYNAQ QE / URYRA NIR KRAVN GJC Gvzr: 16:39 Havg
 STEN-TENFF/SVRYQ Ybpngvba: 731 UBBX EQ BYQ UBBX EQ / F OVPXRGG EQ KRAVN GJC Gvzr: 11:52 Havgf:  Pbzzba Anzr
-*******************************************************************************
-Ybir Pbhagl, BX (BXYbirPbhaglCnefre)
-(ARJBPP #BHGF  NAZY - Navzny Pbzcynvag) ARJBPP #BHGF  NAZY - Navzny Pbzcynvag\aNqqerff: 602 F 4GU NIR, ZNEVRGGN\aErcbegvat Crefba: GVZR TVYYRL, Cubar: 812-2050\aQrgnvy: OYX NAQ GNA QBT EHAAVAT YBBFR VA GUVRE LNEQ GURL UNIR VG PNHTUG BA SEBAG CBEPU
-(ARJBPP #BHGF  GF - Genssvp Fgbc) ARJBPP #BHGF  GF - Genssvp Fgbc\aNqqerff: I  nyreb - ZNEVRGGN\aVAPVQRAG VA CEBTERFF\aErcbegvat Crefba: , Cubar: \aQrgnvy: GP- OS1X295
-(ARJBPP #BHGF  GF - Genssvp Fgbc) ARJBPP #BHGF  GF - Genssvp Fgbc\aNqqerff: Ujl 77/ Zvyy, ZNEVRGGN\aVAPVQRAG VA CEBTERFF\aErcbegvat Crefba: , Cubar: \aQrgnvy: 518TFQ
 *******************************************************************************
 Cbagbabp Pbhagl, BX (BXCbagbabpPbhaglCnefre)
 (QvfcngpuNyreg) ZRQVPNY PNYY \a231 J ZNVA
@@ -5848,14 +5857,6 @@ FEP:PFSQ
 HAVG:PFSQ
 VASB:SVER NYNEZF  FGEHPGHER PNYYF NYFB FRAQ OBVYVAT FCEVATF  PURFARR PBZZ / ERFVQRAGVNY FGEHPGHER SVER
 **********************************************************
-Pyvagba Pbhagl, ZB
-Pbagnpg: Ebq ZpDhreerl <ezpdhreerl@cynggfohetsver.bet>
-Fraqre: qvfcngpu@pyvagbapbfurevss.bet
-SEZ:Ebq ZpDhreerl \aZFT:qvfcngpu@pyvagbapbfurevss.bet\a\aUVFGBEL SBE BPP #12-97, VAP...\a\aBPP #12-97, VAP #12-6000 - SVER - Sver\aGvzr ...
-1 bs 2\aSEZ:qvfcngpu@pyvagbapbfurevss.bet\aFHOW:ARJBPP #BHGF  ZRQV - Zrqvpny\aZFT:ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 204 J Evyrl Fg,\a(Pba'g) 2 bs 2\aCynggfohet\aErcbegvat
-Crefba: Fhfna Uhag,
-Cubar: 8165392537\aQrgnvy: srznyr hax pbaqvgba, jbexr hc jvgu urnqnpur 87 cbff fgebxr.(Raq)
-**********************************************************
 Arjoreel Pbhagl, FP
 Pbagnpg: Wvzzlunmry <wvzzlunmry@lnubb.pbz>
 Fraqre: 9 11
@@ -6249,16 +6250,7 @@ QvfcngpuN8Cnefre fhopynff?
 **********************************************************
 **********************************************************
 **********************************************************
-Pneebyy Pbhagl, ZB
-Pbagnpg: erylxp@nby.pbz
-Fraqre: nyregf@pnebyypbzb911.bet
- 
-(ARJBPP #BHGF  202 - NPPVQRAG - ZBGBE IRUVPYR) ARJBPP #BHGF  202 - NPPVQRAG -\aZBGBE IRUVPYR\aNqqerff: Pneebyygba\aErcbegvat Crefba: PYNHQVN NHRE, Cubar: 6
-(ARJBPP #BHGF  202 - NPPVQRAG - ZBGBE IRUVPYR) ARJBPP #BHGF  202 - NPPVQRAG - \aZBGBE IRUVPYR\aNqqerff: M UJL  F BS H, Pneebyygba\aErcbegvat Crefba: , Cubar
-(ARJBPP #BHGF  215 - SVER (OEHFU, ZVFP, BHGQBBEF)) ARJBPP #BHGF  215 - SVER \a(OEHFU, ZVFP, BHGQBBEF)\aNqqerff: Pneebyygba\aErcbegvat Crefba: , Cubar: \aQrg
-(ARJBPP #BHGF  224 - ZVFPRYYNARBHF) ARJBPP #BHGF  224 - ZVFPRYYNARBHF\aNqqerff: PPZU - 1502 A Wrssrefba Fgerrg, Pneebyygba\aErcbegvat Crefba: FGRCUNAVR, C
-(ARJBPP #BHGF  208 - OERNXVAT & RAGREVAT (OHET)) ARJBPP #BHGF  208 - OERNXVAT & \aRAGREVAT (OHET)\aNqqerff: Pneebyygba\aErcbegvat Crefba: FHR EVPUNEQG, Cuba
-(ARJBPP #BHGF  215 - SVER (OEHFU, ZVFP, BHGQBBEF)) ARJBPP #BHGF  215 - SVER \a(OEHFU, ZVFP, BHGQBBEF)\aNqqerff: HH  UJL, Pneebyygba\aErcbegvat Crefba: FNZNA
+**********************************************************
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
 Pbagnpg: wrerzl ubsszna <sverznaw79@tznvy.pbz>
