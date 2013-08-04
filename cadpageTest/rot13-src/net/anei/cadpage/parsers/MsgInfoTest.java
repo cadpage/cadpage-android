@@ -16,6 +16,8 @@ choyvp pynff ZftVasbGrfg {
   @Grfg
   choyvp ibvq grfgTrgZncNqqerff() {
     
+    qbZncGrfg("VYZpUraelPbhagl", "12300 F EBHGR 47,XRAOHET,KK", "12300 F EBHGR 47 UL");
+    
     qbZncGrfg("PBXvgPnefbaPbhagl", "PBHAGL EBNQ 46 & PBHAGL EBNQ H,XRAOHET,KK", "PE 46 NAQ PE H");
     
     qbZncGrfg("PBXvgPnefbaPbhagl", "48275 PBHAGL EBNQ UU,XRAOHET,KK", "48275 PE UU");
