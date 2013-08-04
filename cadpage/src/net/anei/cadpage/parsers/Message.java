@@ -76,6 +76,7 @@ public class Message {
   }
   
   // Patterns used to perform front end descrambling
+  private static final Pattern RETURN_PTN = Pattern.compile("\r+\n|\n\r+|\r");
   private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \" +");
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\\n+DISCLA.*$| *\\[Attachment\\(s\\) removed\\]$", Pattern.CASE_INSENSITIVE);
   private static final Pattern EXCHANGE_FWD_PTN = Pattern.compile("^(?:\\[FWD?:.*\\] *\n+)?(?:--+(?:Original Message)?--+\n)?From: *(.*?)\n(?:\\[?mailto:.*\\] *\n)?(?:Date:.*\n)?(?:Sent:.*\n)?(?:To:.*\n)?(?:Subject: (.*)\n)?(?:Reply-To:.*\n)?(?:Importance:.*\n)?(?:Auto forwarded by a Rule\n)?(?!\\S*$)");
@@ -130,7 +131,7 @@ public class Message {
     body = trimLead(body, keepLeadBreak);
     
     // Get rid of any \r characters
-    body = body.replaceAll("\r+\n", "\n").replace('\r', '\n');
+    body = RETURN_PTN.matcher(body).replaceAll("\n");
     
     // Drop FWD: prefix
     if (body.startsWith("FWD:")) body = body.substring(4).trim();
