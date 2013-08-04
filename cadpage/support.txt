@@ -243,7 +243,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-EKXEOUCA or ekxeouca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+SPZDVCAA or spzdvcaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -366,7 +366,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-EKXEOUCA or ekxeouca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+SPZDVCAA or spzdvcaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -514,7 +514,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-EKXEOUCA or ekxeouca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+SPZDVCAA or spzdvcaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -528,7 +528,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-EKXEOUCA or ekxeouca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+SPZDVCAA or spzdvcaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -538,7 +538,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-EKXEOUCA or ekxeouca.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+SPZDVCAA or spzdvcaa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information needed to figure out what is wrong.
 
@@ -2171,15 +2171,18 @@ Thanks for your support, and your understanding,
 Jean, Assistant to Ken Corbin
 
 ************************************************************************************
-Q:I work for two departments and would like to have two cadpage accounts. Can you develop a dual app? 
+multiple departements or agencies
 
+Cadpage can handle multiple departments easily enough.
 
-A:Cadpage can handle multiple departments easily enough.
+If your departments support text pages, you have to make arrangements to have their text pages sent to your phone.  Then just select the appropriate location(s) in Cadpage to cover your text page department.
 
-If you other department also gets pages through Active911, it is a simple matter to have your device added to the  device lists for both departments.  If the other department only supports text pages, you have to make arrangments to have their text pages sent to your phone.  Then just select the appropriate location in Cadpage to cover your text page department.
+If your departments get pages through Active911, it is a simple matter to have your device added to the  device lists for both departments. 
 
 Good luck,
--Ken
+Jean, Asssistant to Ken Corbin
+
+
 ***********************************************************************************
 Explanation of CodeMessaging and Active911 
 
