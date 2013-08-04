@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07302013</string>
-  <string name="release_version">v1.6.35</string>
+  <string name="release_date">08042013</string>
+  <string name="release_version">v1.6.36</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Harkin County, KY\n
-Anne Arundel County, MD (alt)\n
-Lenawee County, MI\n
-Suffolk County, NY (alt)\n
-Prince Edward County, VA\n
+Kit Carson County, CO\n
+McHenry County, IL\n
+Carroll County, MO\n
+Phelps County, MO\n
+Franklin County, PA\n
 \n
 Location Parsing Fixes:\n
-Ventura County, CA\n
-Teller County, CO\n
-Colchester Emergency Comm, CT\n
-Camden County, GA\n
-Whitfield County, GA\n
-Washington Couny, MD\n
-Gloucester County, NJ\n
-Mercer County, NJ\n
-MICCOM, NJ\n
-Nassau County, NY\n
-Union County, NC\n
-Berks County, PA\n
+Madison County, AL\n
+Kosciusko County, IN\n
+Prince Georges County, MD\n
+Calhoun County, MI\n
+Lenawee County, MI\n
+Saginaw County, MI\n
+Burlington County, NJ\n
+Monroe County, NY\n
+Cumberland County, PA\n
 Dauphin County, PA\n
+Mercer County, PA\n
+York County, SC\n
+Collin County, TX\n
   </string>  
 </resources>
   

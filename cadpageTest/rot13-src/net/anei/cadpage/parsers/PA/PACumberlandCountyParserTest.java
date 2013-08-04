@@ -6,6 +6,9 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Phzoreynaq Pbhagl, CN
+
+Gebl B'Arvy <gbarvy0615@tznvy.pbz> jbexf va qvfcngpu pragre
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Unzcqra Gbjafuvc RZF
 Ybpngvba: Zrpunavpfohet, CN, Havgrq Fgngrf

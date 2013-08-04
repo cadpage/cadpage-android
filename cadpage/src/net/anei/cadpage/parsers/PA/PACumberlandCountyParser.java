@@ -86,13 +86,16 @@ public class PACumberlandCountyParser extends DispatchA23Parser {
       "LA CU", "LOWER ALLEN TWP",
       "LB CU", "LEMOYNE",
       "LF CU", "LOWER FRANKFORD TWP",
+      "MB CU", "MECHANICSBURG",
       "MH CU", "MT HOLLY SPRINGS",
       "MX CU", "MIDDLESEX TWP",
+      "NB CU", "NEWBURG",
       "NM CU", "NORTH MIDDLETON TWP",
       "SB CU", "SHIPPENSBURG",
       "SF CU", "SHIPPENSBURG",
       "SH CU", "SHIPPENSBURG",
       "SM CU", "SOUTH MIDDLETON TWP",
+      "SN CU", "SOUTH NEWTON TWP",
       "ST CU", "SHIPPENSBURG",
       "SR CU", "SHIREMANSTOWN",
       "UA CU", "UPPER ALLEN TWP",
@@ -105,7 +108,7 @@ public class PACumberlandCountyParser extends DispatchA23Parser {
       "FC FR", "FRANKLIN COUNTY",
       "PC PC", "PERRY COUNTY",
   });
-  
+
   private static final Properties CITY_CODES2 = buildCodeTable(new String[]{
       "S HAMP", "SOUTHAMPTON TWP",
       "SH TWP", "SOUTHAMPTON TWP",

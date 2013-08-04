@@ -21,7 +21,7 @@ public class DispatchA23Parser extends FieldProgramParser {
   
   public DispatchA23Parser(Properties cityCodes, String defCity, String defState) {
     super(defCity, defState,
-           "CALL ADDRCITY/SaXP! #:APT X:X! ZN:MAP? CP:PLACE UNIT MI:ID RES:UNIT");
+           "CALL ADDRCITY/SaXP! #:APT X:X! BOX:BOX? ZN:MAP? CP:PLACE UNIT MI:ID RES:UNIT");
     this.cityCodes = cityCodes;
   }
   

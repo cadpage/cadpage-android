@@ -15,6 +15,10 @@ public class MOPhelpsCountyParser extends FieldProgramParser {
            "Case#:SKIP! Julian_Incident#:ID! Priority:PRI Agency_Type:SKIP! Alarm_Level:SKIP! receive_Source:SKIP! Primary_Officer:SKIP! Agency_Code:SRC! CFS:CODE! CFS_Description:CALL! Location:ADDR! Common_Place:PLACE! Cross_Streets:X! Zone:MAP! Area_Of_Responsibility:SKIP! Juris:SKIP! Municipality:CITY! Disposition:SKIP! Incident_Recv_DateTime:DATETIME! Dispatch_DateTime:SKIP! Arrive_DateTime:SKIP! Finish/Clear_DateTime:SKIP! Contain_DateTime:SKIP Comment_DateTime:SKIP Origin_ID:SKIP Comment:INFO INFO+?");
   }
   
+  public String getFilter() {
+    return "projects@computerra.com";
+  }
+  
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     Matcher match = SUBJECT_PTN.matcher(subject);
