@@ -96,6 +96,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         X - nothing
  *         P - place name
  *         S - something we can skip
+ *         a - apartment
  *         x - cross streets
  *         
  * SPECIAL FIELD NAMES
@@ -1747,11 +1748,11 @@ public class FieldProgramParser extends SmartAddressParser {
           
           if (++pt >= qual.length()) break;
           chr = qual.charAt(pt);
-          pt2 = "PSx".indexOf(chr);
+          pt2 = "PSax".indexOf(chr);
           if (pt2 >= 0) {
             parseFlags |= (chr == 'P' || chr == 'x' ? FLAG_PAD_FIELD : FLAG_PAD_FIELD_EXCL_CITY);
             if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
-            padField = new String[]{"PLACE","SKIP", "X"}[pt2];
+            padField = new String[]{"PLACE","SKIP", "APT", "X"}[pt2];
             padData = getField(padField);
           }
           
