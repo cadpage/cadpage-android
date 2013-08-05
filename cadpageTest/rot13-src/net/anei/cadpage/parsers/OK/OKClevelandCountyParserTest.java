@@ -210,7 +210,8 @@ choyvp pynff BXPyrirynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G27",
         "(PNQ) SVER ZHGHNY NVQR ZBBFRIVYYR & 192 RFA:",
-        "PNYY:SVER ZHGHNY NVQR ZBBFRIVYYR & 192");
+        "PNYY:SVER ZHGHNY NVQR",
+        "NQQE:ZBBFRIVYYR & 192");
 
     qbGrfg("G28",
         "(PNQ) CHOYVP NFFVFG 18718 R VAQVNA UVYYF EQ RFA: 62",

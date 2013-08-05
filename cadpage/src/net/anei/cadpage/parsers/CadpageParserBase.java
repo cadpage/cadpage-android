@@ -48,6 +48,7 @@ public class CadpageParserBase  extends FieldProgramParser{
     setMap("DCITY");
     setMap("DST");
     setMap("MADDR");
+    setMap("MCITY");
     setMap("URL");
     setMap("CO");
     setMap("REC_GPS");
@@ -69,6 +70,7 @@ public class CadpageParserBase  extends FieldProgramParser{
     if (name.equals("DCITY")) return new DefCityField();
     if (name.equals("DST")) return new DefStateField();
     if (name.equals("MADDR")) return new MapAddressField();
+    if (name.equals("MCITY")) return new MapCityField();
     if (name.equals("CO")) return new CountryField();
     if (name.equals("REC_GPS")) return new PreferGPSField();
     if (name.equals("PARSER")) return new ParserField();
@@ -113,6 +115,13 @@ public class CadpageParserBase  extends FieldProgramParser{
     @Override
     public void parse(String field, Data data) {
       data.strBaseMapAddress = field;
+    }
+  }
+  
+  private class MapCityField extends SkipField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strMapCity = field;
     }
   }
   

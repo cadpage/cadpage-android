@@ -284,9 +284,8 @@ public class C2DMService extends IntentService {
     String subject = intent.getStringExtra("subject");
     if (subject == null) subject = "";
     String location = intent.getStringExtra("format");
-    if (location != null) {
-      if (location.equals("Active911")) location = "Cadpage";
-    }
+    
+    // Get vendor code
     String vendorCode = intent.getStringExtra("vendor");
     if (vendorCode == null) vendorCode = intent.getStringExtra("sponsor");
     

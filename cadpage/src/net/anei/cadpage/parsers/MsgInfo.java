@@ -69,8 +69,9 @@ public class MsgInfo {
   // and another part should be expected
   private boolean expectMore;
   
-  // Cached map address
+  // Cached map address & map city
   private String strBaseMapAddress = null;
+  private String strMapCity = null;
   
   // Parser code of parser used to create this information block
   private String parserCode;
@@ -122,6 +123,7 @@ public class MsgInfo {
     public String parserCode;
     public MsgParser parser;
     public String strBaseMapAddress;
+    public String strMapCity;
     
     public Data(MsgParser parser) {
       initialize(parser);
@@ -170,6 +172,7 @@ public class MsgInfo {
       }
       
       strBaseMapAddress = null;
+      strMapCity = null;
     }
     
     /**
@@ -270,6 +273,7 @@ public class MsgInfo {
     parserCode = info.parserCode;
     parser = info.parser;
     strBaseMapAddress = info.strBaseMapAddress;
+    strMapCity = info.strMapCity;
   }
   
   /**
@@ -872,7 +876,10 @@ public class MsgInfo {
    * @return map adjusted city
    */
   public String getMapCity() {
-    return (parser != null ? parser.adjustMapCity(strCity) : strCity);
+    if (strMapCity == null) {
+      strMapCity = (parser != null ? parser.adjustMapCity(strCity) : strCity);
+    }
+    return strMapCity;
   }
 
   /**
