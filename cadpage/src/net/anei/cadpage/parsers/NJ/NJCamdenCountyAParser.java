@@ -2,11 +2,11 @@ package net.anei.cadpage.parsers.NJ;
 
 import java.util.Properties;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA23Parser;
+import net.anei.cadpage.parsers.dispatch.DispatchArchonixParser;
 
 
 
-public class NJCamdenCountyAParser extends DispatchA23Parser {
+public class NJCamdenCountyAParser extends DispatchArchonixParser {
   
   public NJCamdenCountyAParser() {
     super(CITY_CODES, "CAMDEN COUNTY", "NJ");

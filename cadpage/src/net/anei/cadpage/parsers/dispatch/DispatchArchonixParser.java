@@ -7,9 +7,11 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
+/*
+ * Base parser for Archonix software out of Mariton, NJ
+ */
 
-
-public class DispatchA23Parser extends FieldProgramParser {
+public class DispatchArchonixParser extends FieldProgramParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("Dispatch (.*)"); 
   private static final Pattern SUBJECT2_PTN = Pattern.compile("Free (.*)");
@@ -19,7 +21,7 @@ public class DispatchA23Parser extends FieldProgramParser {
   
   private Properties cityCodes;
   
-  public DispatchA23Parser(Properties cityCodes, String defCity, String defState) {
+  public DispatchArchonixParser(Properties cityCodes, String defCity, String defState) {
     super(defCity, defState,
            "CALL ADDRCITY/SaXP! #:APT X:X! BOX:BOX? ZN:MAP? CP:PLACE UNIT MI:ID RES:UNIT");
     this.cityCodes = cityCodes;

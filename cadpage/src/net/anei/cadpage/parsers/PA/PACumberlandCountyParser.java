@@ -4,11 +4,11 @@ import java.util.Properties;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchA23Parser;
+import net.anei.cadpage.parsers.dispatch.DispatchArchonixParser;
 
 
 
-public class PACumberlandCountyParser extends DispatchA23Parser {
+public class PACumberlandCountyParser extends DispatchArchonixParser {
   
   public PACumberlandCountyParser() {
     super(CITY_CODES, "CUMBERLAND COUNTY", "PA");
@@ -78,7 +78,9 @@ public class PACumberlandCountyParser extends DispatchA23Parser {
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CA CU", "CARLISLE",
+      "CB CU", "CARLISLE BARRACKS",
       "CH CU", "CAMP HILL",
+      "CK CU", "COOKE TWP",
       "DK CU", "DICKINSON TWP",
       "EP CU", "EAST PENNSBORO TWP",
       "HM CU", "HAMPDEN TWP",
@@ -86,22 +88,45 @@ public class PACumberlandCountyParser extends DispatchA23Parser {
       "LA CU", "LOWER ALLEN TWP",
       "LB CU", "LEMOYNE",
       "LF CU", "LOWER FRANKFORD TWP",
+      "LM CU", "LOWER MIFFLIN TWP",
       "MB CU", "MECHANICSBURG",
       "MH CU", "MT HOLLY SPRINGS",
+      "MN CU", "MONROE TWP",
       "MX CU", "MIDDLESEX TWP",
       "NB CU", "NEWBURG",
+      "NC CU", "NEW CUMBERLAND",
       "NM CU", "NORTH MIDDLETON TWP",
+      "NN CU", "NORTH NEWTON TWP",
+      "NV CU", "NAVAL SUPPORT ACTIVITY",
+      "NW CU", "NEWVILLE",
+      "PN CU", "PENN TWP",
       "SB CU", "SHIPPENSBURG",
-      "SF CU", "SHIPPENSBURG",
-      "SH CU", "SHIPPENSBURG",
+      "SF CU", "SHIPPENSBURG", // in Franklin County
+      "SH CU", "SOUTHAMPTON TWP",
       "SM CU", "SOUTH MIDDLETON TWP",
       "SN CU", "SOUTH NEWTON TWP",
-      "ST CU", "SHIPPENSBURG",
+      "SS CU", "SILVER SPRING TWP",
+      "ST CU", "SHIPPENSBURG TWP",
       "SR CU", "SHIREMANSTOWN",
       "UA CU", "UPPER ALLEN TWP",
       "UF CU", "UPPER FRANKFORD TWP",
+      "UM CU", "UPPER MIFFLIN TWP",
       "WB CU", "WORMLEYSBURG",
       "WP CU", "WEST PENNSBORO TWP",
+      
+      "AR FC", "AYR TWP", 
+      "BC FC", "BRUSH CREEK TWP",
+      "BL FC", "BELFAST TWP",
+      "BT FC", "BETHEL TWP",
+      "DB FC", "DUBLIN TWP",
+      "LC FC", "LICKING CREEK TWP",
+      "MC FC", "MCCONNELLSBURG",
+      "TD FC", "TODD TWP",
+      "TH FC", "THOMPSON TWP",
+      "TY FC", "TAYLOR TWP",
+      "UN FC", "UNION TWP",
+      "VH FC", "VALLEY-HI",
+      "WL FC", "WELLS TWP",
       
       "DC DC", "DAUPHIN COUNTY",
       "FCR",   "FRANKLIN COUNTY",
