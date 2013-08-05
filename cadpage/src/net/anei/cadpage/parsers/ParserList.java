@@ -605,6 +605,7 @@ public class ParserList {
           ),
           new ParserCategory("Oklahoma"
               ,"OKBryanCounty"                  ,"Bryan County, OK"
+              ,"OKClevelandCounty"              ,"Cleveland County, OK"
               ,"OKGarfieldCounty"               ,"Garfield County, OK"
               ,"OKLoveCounty"                   ,"Love County, OK"
               ,"OKPontotocCounty"               ,"Pontotoc County, OK"
