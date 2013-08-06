@@ -12,11 +12,12 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("^INCIDENT (\\d+)\n\n");
   private static final Pattern DELIM = Pattern.compile("\\n{1,2}");
-  
+
+  private String selectValue;
   
   public MDAnneArundelCountyAnnapolisParser() {
     super(CITY_CODES, "ANNE ARUNDEL COUNTY", "MD",
-           "CALL1 ADDR/y MAP SKIP! X+? Nature:CALL! Call_back:PHONE? EXTRA+? UNIT HYDRANTS INFO+? TIMEDATE!");
+           "CALL1 ADDR/y MAP SKIP! X+? Nature:CALL! Call_back:PHONE? EXTRA+? UNIT HYDRANTS ( SELECT/TIMEDATE | INFO+? TIMEDATE! )");
   }
   
   @Override
@@ -36,6 +37,8 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
     body = body.substring(match.end()).trim();
     int pt = body.indexOf(match.group());
     if (pt >= 0) body = body.substring(0,pt).trim();
+
+    selectValue = "";
     return parseFields(DELIM.split(body), 7, data);
   }
   
@@ -73,7 +76,7 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern MAP_PTN = Pattern.compile("Grid +([^ ]+) +Map +([^ ]+) +Area ([^ ]+) +Preplan +([^ ]*) +Channel +([^ ]*) +MOA.*");
+  private static final Pattern MAP_PTN = Pattern.compile("Grid +([^ ]+) +Map +([^ ]*) +Area ([^ ]+) +Preplan +([^ ]*) +Channel +([^ ]*) +MOA.*");
   private class MyMapField extends MapField {
     @Override
     public void parse(String field, Data data) {
@@ -139,6 +142,7 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
       
       if (EXTRA_SKIP_PTN.matcher(field).find()) return;
       if (field.startsWith("ProQaA:")) field = field.substring(7).trim();
+      if (field.equals("-")) return;
       data.strSupp = append(data.strSupp, "\n", field);
     }
 
@@ -147,37 +151,24 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
       return "PHONE PLACE INFO";
     }
   }
-  
-  private class HydrantsField extends MyInfoField {
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      if (!field.startsWith("HYDRANTS:")) return false;
-      parse(field, data);
-      return true;
-    }
-    
-    @Override
-    public void parse(String field, Data data) {
-      if (field.equals("HYDRANTS:  () &  ()")) return;
-      if (field.equals("HYDRANTS:  (0) &  (0)")) return;
-      super.parse(field, data);
-    }
-  }
-  
-  private class MyInfoField extends InfoField {
-    @Override
-    public void parse(String field, Data data) {
-      data.strSupp = append(data.strSupp, "\n", field);
-    }
-  }
+
+  // This is where things get complicated
+  // There may be a Hydrant field, if there is the unit field is in front of it
+  // There is always an time/date field.  If there is  no hydrant field, the unit field
+  // is in front of the time/date field
+  // To handle all of that, the HydrantsTimeDate field was create to handle all cases
+  // in allowHydrant mode, it will process a hydrant line or date/time line
+  // otherwise it only allows a time/date tline
   
   private static final Pattern TIME_DATE_PTN = Pattern.compile("TIME (\\d\\d:\\d\\d:\\d\\d) +DATE (\\d\\d/\\d\\d/\\d\\d)");
-  private class MyTimeDateField extends TimeDateField {
+  private class HydrantsTimeDateField extends Field {
+    
+    private boolean allowHydrant;
+    
+    public HydrantsTimeDateField(boolean allowHydrant) {
+      this.allowHydrant = allowHydrant;
+    }
+    
     @Override
     public boolean canFail() {
       return true;
@@ -185,17 +176,43 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
+      if (allowHydrant && field.startsWith("HYDRANTS:")) {
+        selectValue = "HYDRANTS";
+        if (field.equals("HYDRANTS:  () &  ()")) return true;
+        if (field.equals("HYDRANTS:  (0) &  (0)")) return true;
+        data.strSupp = append(data.strSupp, "\n", field);
+        return true;
+      }
       Matcher match = TIME_DATE_PTN.matcher(field);
-      if (!match.matches()) return false;
-      data.strTime = match.group(1);
-      data.strDate = match.group(2);
-      return true;
+      if (match.matches()) {
+        selectValue = "TIMEDATE";
+        data.strTime = match.group(1);
+        data.strDate = match.group(2);
+        return true;
+      }
+      return false;
     }
     
     @Override
     public void parse(String field, Data data) {
       if (!checkParse(field, data)) abort();
-      super.parse(field, data);
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "INFO DATE TIME";
+    }
+  }
+  
+  @Override
+  protected String getSelectValue() {
+    return selectValue;
+  }
+
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strSupp = append(data.strSupp, "\n", field);
     }
   }
   
@@ -207,9 +224,9 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
     if (name.equals("X")) return new CrossField(".*? cross street - +(.*?)(?:-[A-Z]{2})?", true);
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("EXTRA")) return new MyExtraField();
-    if (name.equals("HYDRANTS")) return new HydrantsField();
+    if (name.equals("HYDRANTS")) return new HydrantsTimeDateField(true);
     if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("TIMEDATE")) return new MyTimeDateField();
+    if (name.equals("TIMEDATE")) return new HydrantsTimeDateField(false);
     return super.getField(name);
   }
   

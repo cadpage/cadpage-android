@@ -1139,7 +1139,8 @@ public class FieldProgramParser extends SmartAddressParser {
       Step lastStep = state.getLastStep();
 
       // Have we passed the end of the data stream
-      if (ndx >= flds.length) {
+      //  and are not a select field, which doesn't need data to work
+      if (ndx >= flds.length && !(field != null && field instanceof SelectField)) {
         
         // Yep, if this is an END step, take the success link
         if (field instanceof EndField) {
@@ -1162,7 +1163,7 @@ public class FieldProgramParser extends SmartAddressParser {
       // Tag processing is suppressed for Select field steps since they really
       // do no field processing
       Step procStep = this;
-      String curFld = flds[ndx].trim();
+      String curFld = ndx < flds.length ? flds[ndx].trim() : "";
       if (parseTags && !(field instanceof SelectField)) {
         Step startStep = this;
         int startNdx = ndx;
