@@ -2348,6 +2348,8 @@ Nicholas Butkus (nickbutkus@gmail.com) (nbutkus110@yahoo.com) // PayPal
 Robert Polaski (bpo1974@gmail.com) <bpo1974@me.com> // market problem
 %%07/31/2013
 Bruce Vatter (bvatter21@gmail.com) <cjvatter@juno.com> // PayPal paid by Christine
+%%08/05/2013
+Shawn O'Brien (shawn.p.obrien@thomsonreuters.com) //PayPal
 
 // *** Insert Paid Users here ***
 // List of users getting credit or paid for 2014
@@ -5454,5 +5456,7 @@ Cody Westgard (wfemsadm@gmail.com) <cwestgard@gmail.com>
 %%08/04/2013
 Breton Schuffert <breton4888@gmail.com>
 jay forbes (forbes1005@gmail.com) <forbes1005@yahoo.com>
-
+%%08/05/2013
+"S72 - Breazeale, Tommy" (tbreazeale93@gmail.com) <TBreazeale@springfd.com>
+marinecapt89 (delbayrescueswimmer@gmail.com) <marinecapt89@gmail.com>
 
