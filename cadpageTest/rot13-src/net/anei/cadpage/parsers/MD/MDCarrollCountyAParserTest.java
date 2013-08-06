@@ -621,6 +621,10 @@ PG:HP OVT ONXRE OYQT K @ ZPQNAVRY PBYYRTR JRFG OBK:0340 QHR:NGE30 [48]
 PG:ZN 25 JRFG FGERRG / 59-1 / FRNEPU QRGNVY / BCF4  OBK:LP QHR:NGE30 [47]
 PG:NGE 2143 XRLFIVYYR SERQREVPX EQ XRLZ OBK:0512 QHR:K58 K89 EF8 R51 O55 NGE30 [42]
 
+Pbagnpg: evttre8zftgyec@nby.pbz <evttre8zftgyec@nby.pbz>
+Fraqre: ep.364@p-zft.arg
+20:35 PG:NYF ZRQVPNY PNYY 400 GNARL QE OBK:0506 QHR:K59 K89
+
 */
 choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -5412,6 +5416,19 @@ choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:XRLZNE",
         "HAVG:K58 K89 EF8 R51 O55 NGE30");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgevttre8zftgyec() {
+
+    qbGrfg("G1",
+        "20:35 PG:NYF ZRQVPNY PNYY 400 GNARL QE OBK:0506 QHR:K59 K89",
+        "GVZR:20:35",
+        "PNYY:NYF ZRQVPNY PNYY",
+        "OBK:0506",
+        "NQQE:400 GNARL QE",
+        "HAVG:K59 K89");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

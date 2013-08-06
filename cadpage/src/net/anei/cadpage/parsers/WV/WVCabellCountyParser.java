@@ -18,7 +18,7 @@ public class WVCabellCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@ccerc911.org";
+    return "dispatch@ccerc911.org,7777";
   }
   
   @Override
