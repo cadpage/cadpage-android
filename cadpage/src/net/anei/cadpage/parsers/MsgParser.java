@@ -1375,6 +1375,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter
     */
    private String get(char delim, boolean optional, boolean required) {
+     if (delim == ' ') skipBlanks(); 
      return get(line.indexOf(delim, spt), 1, optional, required);
    }
    
@@ -1385,6 +1386,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter
     */
    private String get(String delim, boolean optional, boolean required) {
+     if (isAllBlanks(delim)) skipBlanks();
      return get(line.indexOf(delim, spt), delim.length(), optional, required);
    }
    
@@ -1395,6 +1397,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter
     */
    private String getLast(char delim, boolean optional, boolean required) {
+     if (delim == ' ') skipLastBlanks();
      return getLast(line.lastIndexOf(delim, ept-1), 1, optional, required);
    }
    
@@ -1405,6 +1408,7 @@ public abstract class MsgParser {
     * @return everything up to next occurrence of delimiter
     */
    private String getLast(String delim, boolean optional, boolean required) {
+     if (isAllBlanks(delim)) skipLastBlanks();
      int len = delim.length();
      return getLast(line.lastIndexOf(delim, ept-len), len, optional, required);
    }
@@ -1426,6 +1430,29 @@ public abstract class MsgParser {
      return get(ndx, len, optional, required);
    }
    
+   private boolean isAllBlanks(String delim) {
+     for (char chr : delim.toCharArray()) {
+       if (chr != ' ') return false;
+     }
+     return true;
+   }
+
+   /**
+    * Skip the start pointer over any leadning blanks
+    * this is called with the delimiter contains nothing but blanks
+    */
+   private void skipBlanks() {
+     while (spt < ept && line.charAt(spt)==' ') spt++;
+   }
+
+   /**
+    * Skip the end pointer over any trailing blanks
+    * this is called with the delimiter contains nothing but blanks
+    */
+   private void skipLastBlanks() {
+     while (ept > spt && line.charAt(ept-1)==' ') ept--;
+   }
+
    /**
     * @param npt index returned by indexof search
     * @param len length of delimiter searched for
@@ -1442,7 +1469,6 @@ public abstract class MsgParser {
      }
      String result = line.substring(spt, npt).trim();
      spt = npt + len;
-     while (spt < ept && line.charAt(spt)==' ') spt++;
      return result;
    }
    
@@ -1462,7 +1488,6 @@ public abstract class MsgParser {
      }
      String result = line.substring(npt+len, ept).trim();
      ept = npt;
-     while (ept > spt && line.charAt(ept-1)==' ') ept--;
      return result;
    }
    
