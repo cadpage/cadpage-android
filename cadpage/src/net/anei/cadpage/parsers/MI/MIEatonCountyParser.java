@@ -14,7 +14,7 @@ public class MIEatonCountyParser extends DispatchOSSIParser {
   
   public MIEatonCountyParser() {
     super(CITY_CODES, "EATON COUNTY", "MI",
-           "( FYI SRC? ID? DATETIME CALL | CANCEL )  ADDR CITY? INFO+");
+           "( FYI SRC? ID? DATETIME? CALL | CANCEL )  ADDR CITY? X+? INFO+");
   }
   
   @Override
@@ -27,12 +27,6 @@ public class MIEatonCountyParser extends DispatchOSSIParser {
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     return super.parseMsg(body, data);
-  }
-  
-  private class MyDateTimeField extends DateTimeField {
-    public MyDateTimeField() {
-      setPattern(Pattern.compile("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d"), true);
-    }
   }
   
   private static final Pattern PRIORITY_PTN = Pattern.compile("Event spawned .* PRIORITY (\\d).*");
@@ -71,7 +65,7 @@ public class MIEatonCountyParser extends DispatchOSSIParser {
   public Field getField(String name) {
     if (name.equals("SRC")) return new SourceField("[A-Z]{3,4}", true);
     if (name.equals("ID")) return new IdField("\\d{7}|\\d{11}", true);
-    if (name.equals("DATETIME")) return new MyDateTimeField();
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("CANCEL")) return new CallField("CANCEL", true);
     return super.getField(name);
