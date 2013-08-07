@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class VASmythCountyParser extends DispatchSouthernParser {
   
   public VASmythCountyParser() {
-    super(CITY_LIST, "SMYTH COUNTY", "VA", DSFLAG_DISPATCH_ID | DSFLAG_LEAD_PLACE);
+    super(CITY_LIST, "SMYTH COUNTY", "VA", DSFLAG_OPT_DISPATCH_ID | DSFLAG_LEAD_PLACE);
   }
 
   @Override
