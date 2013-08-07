@@ -171,7 +171,7 @@ choyvp pynff JIOrexryrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G8",
         "(Nyreg) Qrfpevcgvba:FGE FZ ABQ\aNqqerff: 13301 NCCYR UNEIRFG QE \aZNEGVAFOHET\e\a\e\a\e\a",
-        "PNYY:FGE FZ ABQ",
+        "PNYY:FZNYY FURQ SVER",
         "NQQE:13301 NCCYR UNEIRFG QE",
         "PVGL:ZNEGVAFOHET");
 
