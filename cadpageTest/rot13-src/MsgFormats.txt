@@ -3585,10 +3585,15 @@ Sver - Fgehpgher     - Fgbpxcbeg / Puvccvat           - 585R1 - pbzc fgngrf n ub
 Zrq - Fvpx Crefba         - 17694 Furcureq Eq              - 711S7   -  31 lb srznyr...xarr cnva pnhfr ol cnfg vawhel cg fnlf vg'f n phg[Funerq],Zhygv-Ntrapl OPYR Vapvqrag #: OPFB-2012-0107603,[OPYR] unf pybfrq gurve vapvqrag [OPFB-2012-0107603],Nhgbzngvp Pnfr Ahzore(f) vffhrq sbe Ylgyr SQ: YLGY-2012-000000122. [Funerq],Guvf vapvqrag YLGY-2012-0010282 unf orra frag gb NPNQVNA ivn gur PNQ2PNQ Vagresnpr
 Sver - Iruvpyr            Vu 10 J / Gnecba Qe            - 447N2   - ratvar fzbxvat p unf chyyrq gb gur fvqr bs gur ebnq...gna s350...jo ba 10..qbrfa'g frrz gb or yrnxvat syhvq[Funerq],N pryyhyne er-ovq unf bppheerq, purpx gur NAV/NYV Ivrjre sbe qrgnvyf[Funerq],Vainyvq nqqerff erprvirq:3511  NG&G ZBOVYVGL-FR FRPGBE-DS 446S.[Funerq],N pryyhyne er-ovq unf bppheerq, purpx gur NAV/NYV Ivrjre sbe qrgnvyf[Funerq],Vainyvq nqqerff erprvirq:3511  NG&G ZBOVYVGL-FR FRPGBE-DS
 *******************************************************************************
-Pbyyva Pbhagl, GK (GKPbyyvaPbhaglCnefre)
+Pbyyva Pbhagl, GK (GKPbyyvaPbhaglNCnefre)
 11048794  SVER CHOYVP NFFVFG  2701 NFCRA PG VA PBYYVA PBHAGL  PBHAGL EBNQ 392  [YPSQ QVFG: YPS1 TEVQ: 1322]  HAVGF: YPS1  FG EZX: 7X4  PSF EZX 22:10 ERD SQ GB PURPX OC...40 LEB SRZNYR.   {PNQ001 22:13}
 11031079 Svefg Erfcbaqref 3274 Nyzrgn YA va Pbyyva Pbhagl SZ 546 [YPSQ QVFG: YPS1 TEVQ: 1331]
 11047502 VAWHERQ CREFBA 3610 SZ 546 VA PBYYVA PBHAGL PBHAGL EBNQ 398 / PBHAGL EB;16NQ 394 [YPSQ QVFG: YPS1 TEVQ: 1322] HAVGF: NZEC YPS1 FG EZX: <ABAR> PSF EZX 19:16 ZNYR FHO OYRRQVAT SEBZ UVF GUEBNG {PNQ004 19:17} 
+*******************************************************************************
+Pbyyva Pbhagl, GK ((GKPbyyvaPbhaglOCnefre)
+(IvfvPNQ FZGC Cntvat) Genssvp Nppvqrag-S /Pbzzrag: pp unf bssvpre ba fprar arrqf sq gb erfcbaq /NQQE: Ylaa Ya / Rfgngrf Cxjl , Yhpnf , GK /KFG:  /Znc Cntr: 2733O
+(IvfvPNQ FZGC Cntvat) Zrqvpny Pnyy-Yriry 1-S /Pbzzrag: 3455 NMGRX GEY /NQQE: 165 Pbhagel Pyho Eq , Yhpnf , GK /KFG: J YHPNF EQ/YHPNF /Znc Cntr: 2733Q
+(IvfvPNQ FZGC Cntvat) Choyvp Freivpr-S /Pbzzrag: 3455 Nmgrx gey /NQQE: 165 Pbhagel Pyho Eq , Yhpnf , GK /KFG: J YHPNF EQ/YHPNF /Znc Cntr: 2733Q
 *******************************************************************************
 Pl Perrx Pbzz Pragre, GK (GKPlPerrxPbzzPragreCnefre)
 11:58 J UVYYFVQR QE/RNFGRK SEJL, ; Znc:414Q Fho: Ang:ZN-ZHGHNY NVQ / NFFVFG NTRAPL Havgf:R91 G81 G73 R-R39 K-Fg:RNFGRK
