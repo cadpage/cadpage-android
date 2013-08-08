@@ -6,6 +6,6 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class MOStLouisCountyParser extends GroupBestParser {
 
   public MOStLouisCountyParser() {
-    super(new MOStLouisCountyAParser(), new MOStLouisCountyBParser());
+    super(new MOStLouisCountyAParser(), new MOStLouisCountyBParser(), new MOStLouisCountyCParser());
   }
 }
