@@ -465,7 +465,16 @@ choyvp pynff ALAnffnhPbhaglErqNyregCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgEnlAvpubyfba() {
-    
+
+    qbGrfg("G1",
+        "yrivggbja@erqazkpnq.pbz Fvtany 9 ng 3758 JVAQFBE QE, ORGUCNTR  p/f: QVNAAR FG   B: ZNEFVRYYB . . 19:47:27\a",
+        "PNYY:Fvtany 9",
+        "NQQE:3758 JVAQFBE QE",
+        "PVGL:ORGUCNTR",
+        "K:QVNAAR FG",
+        "CYNPR:ZNEFVRYYB",
+        "GVZR:19:47:27");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
