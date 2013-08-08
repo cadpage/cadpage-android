@@ -29,10 +29,11 @@ public class MICalhounCountyParser extends DispatchPrintrakParser {
     if (body.startsWith("CCCDA:")) {
       body = body.substring(6).trim();
       int pt1 = body.indexOf(" *: ");
-      if (pt1 < 0) return false;
-      int pt2 = body.indexOf(" *: ", pt1+4);
-      if (pt2 < 0) return false;
-      body = body.substring(0,pt1) + " TYP: " + body.substring(pt1+4,pt2) + " AD: " + body.substring(pt2+4);
+      if (pt1 >= 0) {
+        int pt2 = body.indexOf(" *: ", pt1+4);
+        if (pt2 < 0) return false;
+        body = body.substring(0,pt1) + " TYP: " + body.substring(pt1+4,pt2) + " AD: " + body.substring(pt2+4);
+      }
     }
     if (!super.parseMsg(body, data)) return false;
     
