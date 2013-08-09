@@ -22,6 +22,10 @@ PNQ:285 CNEX PRAGRE QE;YNEPRAL TRARENY;SVER NYNEZ MBAR 7 CYNAG CHYY FGNGVBA [06/
 Pbagnpg: Cnhy Cbfgba <xt4jub@tznvy.pbz>
 PNQ:2029 JNEQRAFIVYYR TE;FGEHPGHER SVER - ERFVQRAGVNY;HAX BHGFVQR SVER, CBFF GENVYRE, PNYYRQ PNAG FRR SEBZ UVF ERFQ [01/14/12 06:03:36 YOENAABA] ;ZVYUBA YA;FNZN 
 
+Pbagnpg: Puevfgbcure Znhpx <pznhpx@tznvy.pbz>
+Fraqre: pnq@spin.hf
+PNQ:123 OBAAVATF QE;URZBE/YNP - FREVBHF OYRRQ;FZVGU QE;FZVGU QE
+
  */
 
 choyvp pynff INSerqrevpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -89,6 +93,17 @@ choyvp pynff INSerqrevpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:HAX BHGFVQR SVER, CBFF GENVYRE, PNYYRQ PNAG FRR SEBZ UVF ERFQ / ZVYUBA YA / FNZN",
         "QNGR:01/14/12",
         "GVZR:06:03:36");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPuevfgbcureZnhpx() {
+
+    qbGrfg("G1",
+        "PNQ:123 OBAAVATF QE;URZBE/YNP - FREVBHF OYRRQ;FZVGU QE;FZVGU QE",
+        "NQQE:123 OBAAVATF QE",
+        "PNYY:URZBE/YNP - FREVBHF OYRRQ",
+        "K:FZVGU QE & FZVGU QE");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

@@ -12,6 +12,6 @@ public class VAFrederickCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "CAD@co.frederick.va.us,CAD@psb.net";
+    return "CAD@co.frederick.va.us,CAD@psb.net,cad@fcva.us";
   }
 }
