@@ -10,7 +10,10 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
  */
 public class NCLincolnCountyParser extends DispatchOSSIParser {
   
-  private static Pattern CODE_PTN = Pattern.compile("\\b\\d{1,2}-[A-Z]-\\d\\b");
+  private static Pattern CODE_PTN = Pattern.compile("\\b\\d{1,2}-[A-Z]-\\d{1,2}\\b *");
+  private static Pattern CODE_PTN2 = Pattern.compile("\\b(\\d{1,2}[A-Z]\\d{1,2}-) *");
+  private static Pattern SQBRACE_DASH_PTN = Pattern.compile("\\] *-");
+  private static Pattern DASH_PTN = Pattern.compile("(?<! )-(?! )");
   
   public NCLincolnCountyParser() {
     super("LINCOLN COUNTY", "NC",
@@ -37,8 +40,19 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
     // Easy solution is to just get rid of it.
     body = CODE_PTN.matcher(body).replaceFirst("");
     
+    // Sometimes the code isn't duplicated, but is followed by a dash blank for
+    // which we must eliminate the blank.
+    body = CODE_PTN2.matcher(body).replaceFirst("$1");
+    
+    // More fixes
+    body = body.replace("FYI: -", "FYI:-").replace("Update: -", "Update:-");
+    body = SQBRACE_DASH_PTN.matcher(body).replaceAll("]");
+    
     // Change dashes to regular semicolon field separators
-    body = body.replace('-', ';');
+    // Make that dashes with non-blanks on both sides to try to miss regular
+    // dashes inside data fields :(
+    body = DASH_PTN.matcher(body).replaceAll(";");
+    while (body.endsWith("-")) body = body.substring(0,body.length()-1).trim();
     if (! super.parseMsg(body, data)) return false;
     return true;
   }
@@ -84,6 +98,23 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
   }
   
   
+  private class MyPlaceAddress extends PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() > 40) {
+        data.strSupp = append(data.strSupp, " / ", field);
+      } else {
+        data.strPlace = field;
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE INFO";
+    }
+  }
+  
+  
   @Override
   protected Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
@@ -91,6 +122,7 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
     if (name.equals("PHONE")) return new PhoneField("\\d{7,}", true);
     if (name.equals("PARTADDR")) return new MyPartAddressField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("PLACE")) return new MyPlaceAddress();
     return super.getField(name);
   }
 }
