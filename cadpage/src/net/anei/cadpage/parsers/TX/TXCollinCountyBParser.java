@@ -14,7 +14,7 @@ public class TXCollinCountyBParser extends FieldProgramParser {
   private static final Pattern SPECIAL_COMMENT_PTN = Pattern.compile("^Comment:(.*?),  +");
   private static final Pattern DELIM = Pattern.compile(" +/(?! )");
 
-  protected TXCollinCountyBParser() {
+  public TXCollinCountyBParser() {
     super("COLLIN COUNTY", "TX", 
           "CALL! Comment:INFO! ADDR:ADDR! ADDR+ XST:X! X+ Map_Page:MAP!");
   }

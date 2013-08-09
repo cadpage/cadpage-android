@@ -62,7 +62,7 @@ public class ManageParsers {
         try {
           parser = (MsgParser)Class.forName(className).newInstance();
         } catch (Exception ex) {
-          throw new RuntimeException(ex.getMessage(), ex);
+          throw new RuntimeException("Failed to instantiate " + className + '\n' + ex.getMessage(), ex);
         }
       }
       
