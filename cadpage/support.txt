@@ -1,6 +1,19 @@
 support@cadpage.org
 
 ***************************************************************************
+* bad token abort
+***************************************************************************
+
+This used to be an annoying but uncommon problem that pops up when
+Cadpage tries to display a dialog box about the same time that you close
+the parent window.  I thought I had found and fixed all of the code
+where this could potentially happen, but I must have missed something.
+Do you recall just what it was you were doing when this crash happened?
+
+Thanks for reporting it,
+-Ken
+
+***************************************************************************
 * Receiving CodeMessaging text pages
 ***************************************************************************
 

@@ -14,6 +14,9 @@ Fraqre: r911@fhzarefurevss.pbz
 * 2470 PNTRF ORAQ EQ* * * TNYYNGVA* * NPP VW* * * * * * * * *
 * 101 YNXRFVQR PVE* * * URAQREFBAIVYYR* * ABAFCRPVSVP* * * * * * * * *
 * 153 GNANFV FUBERF* * * URAQREFBAIVYYR* * ERFCVENGBEL* * * * * * * * *
+ 
+Pbagnpg: ebool.xybgm@tznvy.pbz <ebool.xybgm@tznvy.pbz>
+* 3571 GLERR FCEVATF EQ* * * URAQREFBAIVYYR* UNEEVATGBA CIG UBYYB* ORA NYOREG EQ* FHZARE* * BIREQBFR* * * * * * Yvar16=* Yvar17=* Yvar18=*
 
 */
 
@@ -62,6 +65,19 @@ choyvp pynff GAFhzarePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:URAQREFBAIVYYR",
         "PNYY:ERFCVENGBEL");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEbolXybgm() {
+
+    qbGrfg("G1",
+        "* 3571 GLERR FCEVATF EQ* * * URAQREFBAIVYYR* UNEEVATGBA CIG UBYYB* ORA NYOREG EQ* FHZARE* * BIREQBFR* * * * * * Yvar16=* Yvar17=* Yvar18=*",
+        "NQQE:3571 GLERR FCEVATF EQ",
+        "PVGL:URAQREFBAIVYYR",
+        "CYNPR:UNEEVATGBA CIG UBYYB",
+        "PNYY:ORA NYOREG EQ",
+        "VASB:FHZARE / BIREQBFR");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

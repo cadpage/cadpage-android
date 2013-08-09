@@ -106,6 +106,10 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Fcraprecbeg Sver) FCRS  O:0152 3  Y:46 FNENU PV ,BTQ - CBUYRIRA ERFQ - 349.0139 G:SHZFO  K:PNEOBA ZBAVKVQR NYEZ SEBZ ONFRZRAG -PP \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
 (Fcraprecbeg Sver) FCRS  O:0252 1  Y:485 GEVZZRE EQ ,CNE G:SVERN  K:,ERD SVERERFCBAQ SBE NYYRETVP ERNPGVBA GB N ORR FGVAT - ZBAR PBIREVAT \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
 
+Pbagnpg: "Qnzba, Puevf" <pqnzba@fcraprecbegsver.bet>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Fcraprecbeg Sver) OEBS  O:4513 3   19 ZREPRE FG ,OEB G:EOPFG  K:,ARRQ N QEVIRE SBE S2914 \a\a-- Pbasvqragvnyvgl
+
 */
 choyvp pynff ALZbaebrPbhaglJrofgreCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -1058,6 +1062,21 @@ choyvp pynff ALZbaebrPbhaglJrofgreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVERN",
         "VASB:ERD SVERERFCBAQ SBE NYYRETVP ERNPGVBA GB N ORR FGVAT - ZBAR PBIREVAT");
  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPuevfQnzba() {
+
+    qbGrfg("G1",
+        "(Fcraprecbeg Sver) OEBS  O:4513 3   19 ZREPRE FG ,OEB G:EOPFG  K:,ARRQ N QEVIRE SBE S2914 \a\a-- Pbasvqragvnyvgl",
+        "FEP:OEBS",
+        "OBK:4513",
+        "CEV:3",
+        "NQQE:19 ZREPRE FG",
+        "PVGL:OEBPXCBEG",
+        "PNYY:EOPFG",
+        "VASB:ARRQ N QEVIRE SBE S2914");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
