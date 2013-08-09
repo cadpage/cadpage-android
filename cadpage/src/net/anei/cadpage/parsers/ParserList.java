@@ -441,6 +441,9 @@ public class ParserList {
               ,"NJWayneTownship"                ,"Wayne Township, NJ"
               ,"NJWarrenCounty"                 ,"Warren County, NJ"
           ),
+          new ParserCategory("New Mexico"
+              ,"NMDonaAnaCounty"                ,"Dona Ana County, NM"
+          ),
           new ParserCategory("New York"
               ,"NYAlbanyCounty"                 ,"Albany County, NY"
               ,"NYBroomeCounty"                 ,"Broome County, NY"
