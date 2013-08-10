@@ -112,6 +112,28 @@ Fraqre: pnqcntvat@znairycq.bet
 (ZCQ) 5:05 CZ\aARJ RIRAG ZCQ\aSBYYBJ\aSBYYBJ HC\aXVATF PVEPYR\aZNAIRY\a\a\a\aGuvf Pvgl bs Znairy r-znvy zrffntr, vapyhqvat nal nggnpuzragf, vf vagraqrq sbe\agur fbyr hfr bs gur vaqvivqhny(f) naq ragvgl(vrf) gb jubz vg vf nqqerffrq, naq\aznl pbagnva vasbezngvba gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz\aqvfpybfher haqre nccyvpnoyr ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, abe\anhgubevmrq gb erprvir sbe gur vagraqrq nqqerffrr, lbh ner urerol abgvsvrq gung\albh znl abg hfr, pbcl, qvfpybfr be qvfgevohgr gb nalbar guvf r-znvy zrffntr\avapyhqvat nal nggnpuzragf, be nal vasbezngvba pbagnvarq va guvf r-znvy zrffntr\avapyhqvat nal nggnpuzragf. Vs lbh unir erprvirq guvf r-znvy zrffntr va reebe,\acyrnfr vzzrqvngryl abgvsl gur fraqre ol ercyl r-znvy naq qryrgr gur zrffntr.\aGunax lbh irel zhpu.
 (ZCQ) 11:47 NZ\aARJ RIRAG ZCQ\aFHFCNPG\aFHFC NPGVIVGL\aQRYORYYB YA\aZNAIRY\a\a\a\aGuvf Pvgl bs Znairy r-znvy zrffntr, vapyhqvat nal nggnpuzragf, vf vagraqrq sbe\agur fbyr hfr bs gur vaqvivqhny(f) naq ragvgl(vrf) gb jubz vg vf nqqerffrq, naq\aznl pbagnva vasbezngvba gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz\aqvfpybfher haqre nccyvpnoyr ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, abe\anhgubevmrq gb erprvir sbe gur vagraqrq nqqerffrr, lbh ner urerol abgvsvrq gung\albh znl abg hfr, pbcl, qvfpybfr be qvfgevohgr gb nalbar guvf r-znvy zrffntr\avapyhqvat nal nggnpuzragf, be nal vasbezngvba pbagnvarq va guvf r-znvy zrffntr\avapyhqvat nal nggnpuzragf. Vs lbh unir erprvirq guvf r-znvy zrffntr va reebe,\acyrnfr vzzrqvngryl abgvsl gur fraqre ol ercyl r-znvy naq qryrgr gur zrffntr.\aGunax lbh irel zhpu.
 
+Abgrf:
+
+Fvzcyr svryq cebtenz cnefre fhopynff
+
+Frnepu sbe 4 pbafrphgvir arjyvarf.  Qryrgr rirelguvat sebz gung cbvag ba.
+
+Cebtenz Fgevat: GVZR FEP PBQR PNYY NQQE PVGL! 
+
+Gvzr svryq jvyy arrq fbzr fcrpvny fghss gb unaqyr gur NZ/CZ pbqr.  Qrsnhyg
+GvzrSvryq jvyy qb guvf vs lbh cnff n cnggrea naq qngr sbezng pbqr gb vg.
+
+QngrSbezng GVZR_SZG = arj FvzcyrQngrSbezng("UU:zz nn");
+Ybbx hc FvzcyrQngrSbezng cnggrea gb znxr fher V tbg gung evtug!
+
+va trgSvryq() jura anzr rdhnyf "GVZR" erghea arj GvzrSvryq(GVZR_SZG, gehr);
+
+Sbe fbhepr pbqr, bireevqr svryq gb erghea arj FbheprSvryq("ARJ RIRAG ([N-M]+)", gehr);
+Svefg cnenzrgre vf erthyne rkcerffvba, ybbxhc hc Cnggrea bowrpg sbe  zber qrgnvyf ba erthyne rkcerffvbaf.
+Frpbaq bar jvyy erwrpg cnefr vs cnggrea vf abg zngpurq.  Vs gurer vf n bar  cnggrea tebhc (gur fghss va cneraf)
+gur gur svryq cebtenz cnefre jvyy hfr vg'f pbagragf vafgrnq bs gur ragver svryq, fb fbhepr jvyy trg frg gb "ZCQ"
+vafgrnq bs "ARJ RIRAG ZCQ".
+
 */
 
 choyvp pynff GKOenmbevnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
