@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class WIKenoshaCountyBParser extends FieldProgramParser {
   
   private static final Pattern MASTER = 
-    Pattern.compile("\\d+[: ] CAD¡plprairiewi.com Subject:Phoenix Notification (\\d+) ä(\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)ñ (.*)ä(\\d)ñ (.*)");
+    Pattern.compile("\\d+[: ] CAD@plprairiewi.com Subject:Phoenix Notification (\\d+) ä(\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)ñ (.*)ä(\\d)ñ (.*)");
   
   public WIKenoshaCountyBParser() {
     super("KENOSHA COUNTY", "WI",
