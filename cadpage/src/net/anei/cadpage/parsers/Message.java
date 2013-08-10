@@ -87,7 +87,7 @@ public class Message {
     Pattern.compile("^\\(?\\((\\d)/(\\d)\\)"),
     Pattern.compile("^ *(\\d)/(\\d) / "),
     Pattern.compile("^\\( *(\\d) +of +(\\d) *\\)"),
-    Pattern.compile("^([\\w\\.]+@[\\w\\.]+) /(\\d)/(\\d) /"),
+    Pattern.compile("^([\\w\\.]+[@¡][\\w\\.]+) /(\\d)/(\\d) /"),
     Pattern.compile("^(\\d)/(\\d)\n+"),
     Pattern.compile("^(\\d)/(\\d)(?![/\\d])"),
     Pattern.compile("^(\\d)/(\\d)(?=\\d{3,}:)"),  // This one is scarry !!!
@@ -104,24 +104,24 @@ public class Message {
   private static final Pattern CONT_PTN = Pattern.compile("\\(C.* \\d\\d? of \\d\\d?");
   
   private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
-    Pattern.compile("^(?:\\*.*\\*)?([\\w\\.]+@[\\w\\.]+)( +/ +/ +)"),
-    Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n"),
-    Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?((?:[\\w.!\\-]+|\\\"[\\w.!\\- ]+\\\")@[\\w.]+)[\\s:]"),
-    Pattern.compile("^\\*\\d+: \\*([\\w\\w]+@[\\w\\.]+) +"),
+    Pattern.compile("^(?:\\*.*\\*)?([\\w\\.]+[@¡][\\w\\.]+)( +/ +/ +)"),
+    Pattern.compile(" - Sender: *([\\w\\.]+[@¡][\\w\\.]+) *\n"),
+    Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?((?:[\\w.!\\-]+|\\\"[\\w.!\\- ]+\\\")[@¡][\\w.]+)[\\s:]"),
+    Pattern.compile("^\\*\\d+: \\*([\\w\\w]+[@¡][\\w\\.]+) +"),
     Pattern.compile("^[^\n]*\\bFr: *(\\S+@\\S+)\\s+"),
-    Pattern.compile("^From: *(\\S+@\\S+) +"),
-    Pattern.compile("sentto-[-\\d]+ *= *([-\\.\\w]+@[-\\.\\w]+) +"),
-    Pattern.compile("^[\\d\\.]+=([-_a-z0-9\\.]+@[-_a-z0-9\\.]+) +")
+    Pattern.compile("^From: *(\\S+[@¡]\\S+) +"),
+    Pattern.compile("sentto-[-\\d]+ *= *([-\\.\\w]+[@¡][-\\.\\w]+) +"),
+    Pattern.compile("^[\\d\\.]+=([-_a-z0-9\\.]+[@¡][-_a-z0-9\\.]+) +")
   };
-  private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)(?:\\n|: )");
+  private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+[@¡][\\w\\.]+)(?:\\n|: )");
   private static final Pattern FRM_TAG_PATTERN = Pattern.compile("\n *FRM:");
   private static final Pattern MULTI_MSG_MASTER_PATTERN = Pattern.compile("1 of \\d FRM:(.*?) SUBJ:(.*?) MSG:(.*)\\(End\\)");
   private static final Pattern MULTI_MSG_BREAK_PATTERN = Pattern.compile(" \\(Con't\\) \\d of \\d ");
   private static final Pattern[] E_S_M_PATTERNS = new Pattern[]{
-    Pattern.compile("^(?:([\\w\\.]+@[\\w\\.]+) +)?Subject: *(.*)\n"),
+    Pattern.compile("^(?:([\\w\\.]+[@¡][\\w\\.]+) +)?Subject: *(.*)\n"),
     Pattern.compile("^(?:([^ ,;/]+) +)?S:(.*?)(?: +M:|\n)"), 
     Pattern.compile("^Fr:<(.*?)>?\nSu:(.*?)\nTxt: "),
-    Pattern.compile("^prvs=[0-9a-f]{8,}=[\\w .<>@]*<([\\w.\\-]+@[\\w.]+)> *\\((.*?)\\)")
+    Pattern.compile("^prvs=[0-9a-f]{8,}=[\\w .<>[@¡]]*<([\\w.\\-]+[@¡][\\w.]+)> *\\((.*?)\\)")
   };
   
   private void preParse(String fromAddress, String subject, String body, boolean keepLeadBreak) {
@@ -298,7 +298,7 @@ public class Message {
       int ipt = body.indexOf(" [] ");
       if (ipt >= 0) {
         String sAddr = body.substring(0, ipt).trim();
-        if (sAddr.contains("@")) {
+        if (sAddr.contains("@") || sAddr.contains("¡")) {
           parseAddress = sAddr;
           body = trimLead(body.substring(ipt+4), keepLeadBreak);
           break;
@@ -311,7 +311,7 @@ public class Message {
       ipt = body.indexOf(" Msg:");
       if (ipt >= 0) {
         String addr = body.substring(0,ipt).trim();
-        if (addr.contains("@") && ! addr.contains(":")) {
+        if ((addr.contains("@") || addr.contains("¡")) && ! addr.contains(":")) {
           parseAddress = addr;
           body = trimLead(body.substring(ipt+5), keepLeadBreak);
           break;
