@@ -29,14 +29,14 @@ public class WAPierceCountyBParser extends FieldProgramParser {
     return parseFields(body.split("\n"), 5, data);
   }
   
-  private static final Pattern CODE_TIME_PTN = Pattern.compile("([A-Z0-9]+) @ (\\d\\d:\\d\\d:\\d\\d)");
+  private static final Pattern CODE_TIME_PTN = Pattern.compile("([A-Z0-9]+) @(?: (\\d\\d:\\d\\d:\\d\\d))?");
   private class CodeTimeField extends Field {
     @Override
     public void parse(String field, Data data) {
       Matcher match = CODE_TIME_PTN.matcher(field);
       if (!match.matches()) abort();
       data.strCode = match.group(1);
-      data.strTime = match.group(2);
+      data.strTime = getOptGroup(match.group(2));
     }
     
     @Override
