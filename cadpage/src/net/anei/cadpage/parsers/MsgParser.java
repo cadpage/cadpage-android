@@ -372,10 +372,10 @@ public abstract class MsgParser {
     
     // Decode the call page and place the data in the database
     String strSubject = msg.getSubject();
-    String strMessage = htmlFilter(msg.getMessageBody()).trim();
+    String strMessage = htmlFilter(msg.getMessageBody());
     Data data = new Data(this);
     if (strMessage == null) return data;
-    if (parseMsg(strSubject, strMessage, data)) {
+    if (parseUntrimmedMsg(strSubject, strMessage, data)) {
       
       // Generally, if the parse was happy with the call, we are happy.  One exception
       // is when individual parser determine a message should be a general alert because
@@ -399,7 +399,7 @@ public abstract class MsgParser {
     // Otherwise return null
     return null;
   }
-  
+
   /**
    * Determine if this message has been identified as coming from the dispatch
    * center we are parsing messages for
@@ -416,6 +416,18 @@ public abstract class MsgParser {
     if (getFilter().length() <= 1) return false;
     
     return true;
+  }
+  
+
+  /**
+   * Parse information object from message
+   * @param strSubject message subject to be parsed
+   * @param strMessage message text to be parsed
+   * @param data data object to be constructed
+   * @return true if successful, false otherwise
+   */
+  protected boolean parseUntrimmedMsg(String strSubject, String strMessage, Data data) {
+    return parseMsg(strSubject, strMessage.trim(), data);
   }
 
   /**
@@ -446,6 +458,7 @@ public abstract class MsgParser {
    * @return adjusted message body
    */
   private String htmlFilter(String body) {
+    if (body == null) return null;
     Pattern ptn = getHtmlFilter();
     if (ptn == null) return body;
     if (!body.startsWith("<html>") && !body.startsWith("<HTML>")) return body;
