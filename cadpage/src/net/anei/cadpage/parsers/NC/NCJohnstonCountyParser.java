@@ -20,7 +20,7 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
     super(CITY_CODES, "JOHNSTON COUNTY", "NC",
            "( CALL ADDR/Z CITY! APT? X_PLACE_INFO+ | " +
              "CALL CITY ADDR! APT? X_PLACE_INFO+ | " + 
-             "CH? SRC SRC? CODE? CALL ADDR APT? X_PLACE_INFO+? DATETIME! UNIT CITY% )");
+             "CH? SRC+? CODE? CALL ADDR APT? X_PLACE_INFO+? DATETIME! UNIT CITY% )");
   }
 
   @Override
@@ -142,12 +142,23 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
   Pattern US70BUSHWY_PTN = Pattern.compile("\\b70 BUS HWY\\b", Pattern.CASE_INSENSITIVE);
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ANGI", "ANGIER",
+      "ARCL", "ARCHER LODGE",
       "BENS", "BENSON",
       "CLAY", "CLAYTON",
+      "DUNN", "DUNN",
+      "ERWN", "ERWIN",
       "FOUR", "FOUR OAKS",
       "GARN", "GARNER",
+      "KENL", "KENLY",
+      "MICR", "MICRO",
+      "PINE", "PINE LEVEL",
+      "PRIN", "PRINCETON",
+      "RALE", "RALEIGH",
       "SELM", "SELMA",
       "SMIT", "SMITHFIELD",
-      "WAKE", "WAKE COUNTY"
+      "WISM", "WILSON'S MILLS",
+      "WILL", "WILLOW SPRING"
+
   });
 }
