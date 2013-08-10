@@ -139,9 +139,11 @@ public class DonationManager {
       
       // If we have both a subscription and sponsor expiration date, choose the
       // latest one
-      if (expireDate == null || tDate.after(expireDate)) {
-        if (!vendorSponsored) sponsor = ManagePreferences.sponsor();
-        expireDate = tDate;
+      if (!vendorSponsored) {
+        if (expireDate == null || tDate.after(expireDate)) {
+          sponsor = ManagePreferences.sponsor();
+          expireDate = tDate;
+        }
       }
     }
     
