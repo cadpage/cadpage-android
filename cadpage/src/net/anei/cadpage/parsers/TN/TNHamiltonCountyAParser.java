@@ -4,9 +4,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA15Parser;
 
 
-public class TNHamiltonCountyParser extends DispatchA15Parser {
+public class TNHamiltonCountyAParser extends DispatchA15Parser {
   
-  public TNHamiltonCountyParser() {
+  public TNHamiltonCountyAParser() {
     super("HAMILTON COUNTY", "TN");
   }
   
