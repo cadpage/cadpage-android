@@ -107,6 +107,10 @@ Pbagnpg:  Eboreg Gevcr <ezgevcr@tznvy.pbz>
 Fraqre: 12101
 S132130393: Ncnegzrag Sver, 6156 FCEVATUVYY GRE #102, TC, ogja FCEVATUVYY QE naq RAQ, GTN3, 1409, Havgf:N813, OB884, OB886, R807, R811O, R812, R835, GX809, GX814, GX831=
 
+Pbagnpg: Qbebgul Ohexrg <qbggvrohexrg@tznvy.pbz>
+Fraqre: nyeg_BN62@nyreg.pb.ct.zq.hf
+S132230042: Npp j/Vaw, QBJRE UBHFR EQ/RO CRAAFLYINAVN NIR, CC,  <5050/ 9099>, GTN2, 2305, Havgf:N823, R823O, ER827\a
+
 */
 
 
@@ -1007,6 +1011,21 @@ choyvp pynff ZQCevaprTrbetrfPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:GTN3",
         "OBK:1409",
         "HAVG:N813,OB884,OB886,R807,R811O,R812,R835,GX809,GX814,GX831=");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQbegulQhexrg() {
+
+    qbGrfg("G1",
+        "S132230042: Npp j/Vaw, QBJRE UBHFR EQ/RO CRAAFLYINAVN NIR, CC,  <5050/ 9099>, GTN2, 2305, Havgf:N823, R823O, ER827\a",
+        "VQ:S132230042",
+        "PNYY:Npp j/Vaw",
+        "NQQE:QBJRE UBHFR EQ & RO CRAAFLYINAVN NIR",
+        "ZNQQE:QBJRE UBHFR EQ & CRAAFLYINAVN NIR",
+        "PU:GTN2",
+        "OBK:2305",
+        "HAVG:N823,R823O,ER827");
 
   }
  
