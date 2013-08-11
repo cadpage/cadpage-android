@@ -1251,6 +1251,11 @@ FVTANY 9 ng 17 OEVQYR YA, UVPXFIVYYR p/f: OYHROREEL YA B: XRAQNYY, NAAN..14:48:4
 TRARENY NYNEZ, CBFFVOYR UBHFR SVER: FZBXR VA GUR UBHFR ng 62 GBJA CNGU EQ, TYRA PBIR  p/f: JNYAHG EQ   B: PNCBOVNAPB . . 12:34:31
 FVT 8, PNEOBA ZBABKVQR NPGVINGVBA ng 238 JNYAHG EQ RKG, TYRA PBIR  p/f: FRNZNA EQ   B: VNAABAR . . 11:32:25
 *******************************************************************************
+Babaqntn Pbhagl, AL (ALBabaqntnPbhaglQCnefre)
+PNEQ - PURFG CNVA-CBFF URNEG, yg ng 100 FHZZRESVRYQ IVYYNTR YA  p/f:  IRYNFXB EQ NAQ QRNQ RAQ,  O: NYGREEN IVYYNF
+NYEZ - NYNEZ, Sver ng 100 TBYSIVRJ QE  p/f:  XNFFBA EQ NAQ QRNQ RAQ,  O: JRFGINYR TBYS PBHEFR
+PNEQ - PURFG CNVA-CBFF URNEG, yg ng 112 PUVPBCRR ZRJF  p/f:  JRNGUREVQTR QE NAQ QRNQ RAQ,
+*******************************************************************************
 Ebpxynaq Pbhagl, AL (ALEbpxynaqPbhaglNCnefre)
 NHGBZNGVP NYNEZ ng 254 F ZNVA FG, Arj Pvgl p/f:RYVABE CY FPUEVRIRE YA . . 18:59:20
 ANGHENY TNF - BHGFVQR ng 108 OVEPU YA, Arj Pvgl p/f: BYQ OEVPX EQ / ERQ UVYYEQ . . 22:15:43
@@ -6294,17 +6299,6 @@ Fraqre: abercyl@ubcngpbatcq.bet
 **********************************************************
 **********************************************************
 **********************************************************
-Babaqntn Pbhagl, AL (Nygreangr)
-Pbagnpg: Znex Sbjyre <znex.sbjyre@tznvy.pbz>
-Fraqre: babaqntnuvyysq@erqazkpnq.pbz
-PNEQ - PURFG CNVA-CBFF URNEG, yg ng 100 FHZZRESVRYQ IVYYNTR YA  p/f:  IRYNFXB EQ NAQ QRNQ RAQ,  O: NYGREEN IVYYNF
-NYEZ - NYNEZ, Sver ng 3380 ZVYGBA NIR  p/f:  FNJLRE FG NAQ A BABAQNTN EQ,  O: PBCCREGBC GNIREA
-NYEZ - NYNEZ, Sver ng 100 TBYSIVRJ QE  p/f:  XNFFBA EQ NAQ QRNQ RAQ,  O: JRFGINYR TBYS PBHEFR
-PNEQ - PURFG CNVA-CBFF URNEG, yg ng 112 PUVPBCRR ZRJF  p/f:  JRNGUREVQTR QE NAQ QRNQ RAQ,
-HAPC - HAPBAFPVBHF CREFBA, yg ng 129 ENAFBZ ZNPXRAMVR QE R  p/f:  BPP PVE NAQ ENAFBZ ZNPXRAMVR 
-TVYY - TRARENY VYYARFF, yg ng 5080 ERVAZNA EQ  p/f:  ZPQBANYQ EQ NAQ QRNQ RAQ,  O: ALF PBZ ERFVQRAPR
-HAPC - HAPBAFPVBHF CREFBA, yg ng 4168 TEVSSVA EQ  p/f:  ZNYBAR EQ NAQ ZNXLRF EQ,
-PIN - CBFFVOYR FGEBXR, yg ng 4849 TYRASVRYQ QE  p/f:  QRNQ RAQ NAQ EBFRZNEL YA,
 **********************************************************
 Unzvygba Pbhagl, GA (nygreangr)
 Pbagnpg: Qneera Enaqnyy <wrefrlsversvtugre@tznvy.pbz>
