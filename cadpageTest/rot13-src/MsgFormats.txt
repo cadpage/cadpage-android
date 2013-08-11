@@ -6174,10 +6174,6 @@ SJQ: (- cneg 1 bs 1) EP:Wbo# 0230-N (Eha# 77276) ng 11:03 jnf hanffvtarq.
 SJQ: (- cneg 1 bs 1) EP:Wbo# 0230-N/ Eha# 77276/ jnf Pnapryrq: BHG BS FREIVPR/PNYY:11:03/QVFC:11:08/RAE:11:08/PKY:11:49
 SJQ: (- cneg 1 bs 1) EP:Eha# 77217/NAQBIRE FHONPHGR & ERUNOVYVGNGVBA VV//EBBZ RNFG 316/NAQBIRE//SNYYF/SNYY/ HAFCRPVSVRQ/OYF-911/<Haxabja>/09:40/NEZ VAWHEL
 **********************************************************
-Fhffrk Pbhagl, AW (UBCNGPBAT)
-Pbagnpg:Crgre Pnyob <crgrepnyob@tznvy.pbz>
-[Sver Cntr]  RZF PNQ#: 13-00428\aGvzr bs Pnyy: 4:40:58 CZ\a2 Zhfpbargpbat Nirahr\aGlcr bs RZF Pnyy: Qvss Oernguvat / NYF\aAbgrf: 59 LBZ Qvssvphygl oernguvat.
-**********************************************************
 Anffnh Pbhagl, AL
 Pbagnpg: Ovyy Oerfyva <ooerfyva@jnagntusq.pbz>
 Fraqre: jnagntucntvat@tznvy.pbz
@@ -6282,7 +6278,10 @@ Pbagnpg: Enl Jnyynpr <fragelzrpunavp@tznvy.pbz>
 Fraqre: 4052615639 
 1/1: GRFG CNTR FGNEG GB 2831 A. URAARL - Sebz: BPFB Qvfcngpu 
 **********************************************************
-**********************************************************
+Fhffrk Pbhagl, AW (Ubcngpbat)
+Pbagnpg: Crgre Pnyob <jsnf340@lnubb.pbz>
+Fraqre: abercyl@ubcngpbatcq.bet
+(Sver Cntr) RZF PNQ#: 13-00549\aGvzr bs Pnyy: 7:14:27 CZ\a232 Puvapbcrr Nirahr\aGlcr bs RZF Pnyy: \aAbgrf: Yngvghqr: +040.968899 Ybatvghqr: -074.652168\a7:1
 **********************************************************
 **********************************************************
 **********************************************************
@@ -6315,6 +6314,17 @@ Fraqre: 7774
 .... (GPSQ) 1100 VAGREFGNGR 75 AO, PUNGGNABBTN (IBYXFJNTRA QE/YRR UJL) Gev-Pbzz SQ 23-4 \a: SEBNQ EBNQ IRUVPYR BA SVER (PNE/GEHPX SVER)
 .... (GPSQ) 5900 ZNVA FG, PBYYRTRQNYR (BBYGRJNU VAQHFGEVNY QE/YHZORE YA) Gev-Pbzz SQ 4 \a: SGENFU-BHGFVQR GENFU SVER
 .... (GPSQ) 8236 ZVGPURYY ZVYY EQ, UNZVYGBA PBHAGL (UHAGRE EQ/JNGRE JURRY YA) Gev-Pbzz SQ 4 \a: FVPX-CREFBA FVPX
+.... (GPSQ) 9515 ONYNGN QE, UNZVYGBA PBHAGL (QRNQ RAQ/NANFGNFVN NIR) Gev-Pbzz SQ 4 \a: NSN ERFVQRAGVNY
+.... (GPSQ) 6918 FABJ IVRJ YA, UNZVYGBA PBHAGL (FABJ EVQTR QE/QRNQ RAQ) Gev-Pbzz SQ 4 \a: STENFF-TENFF/OEHFU SVER
+.... (GPSQ) 900 VAGREFGNGR 75 FO, PUNGGNABBTN (YRR UJL/IBYXFJNTRA QE) Gev-Pbzz SQ 23-4 \a: NPP1UJ-UJL NPPVQRAG JVGU VAWHEVRF
+**********************************************************
+Xnar Pbhagl, VY
+Pbagnpg:  Nagubal C. <nccbzcn255@tznvy.pbz>
+Fraqre: Dhnq Pbz
+FGVY - Fgvyy Nynez 01:16 08/10/13 455 R ZNVA FG EG 72 / YVAQRA NIR Rnfg Qhaqrr G-10 DP-3738 FRIRA UVYYF URNGU PNER
+FGVY - Fgvyy Nynez 08:31 08/10/13 OBAAVR QHAQRR EQ JVYZRGGR Rnfg Qhaqrr G-10 FZRYY BS GUR ANGHENY TNF VA GUR NERN / JURA PNYYRE JNF QEVIVAT BA OBGU FGERRGF
+NZOH - Nzohynapr Erdhrfg 17:55 08/10/13 642 QRRECNGU EQ NOREQRRA QE / XVZOREYL EQ Rnfg Qhaqrr G-10 OERNGU BX 81LBS URYC SBE ZBGURE GELVAT GB TRG N GK SBE UVF QNHTUGRE GB TRG URE URYC RYQREYL ZNYR FNLVAT JVSR VF BHG BS VG
+TRAE - Trareny Nynez 10:28 08/10/13 102 F 2AQ FG A 2AQ FG, J ZNVA FG / BERTBA NIR Jrfg Qhaqrr F-10 JQ IVYYNTR UNYY
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
 Pbagnpg: wrerzl ubsszna <sverznaw79@tznvy.pbz>
