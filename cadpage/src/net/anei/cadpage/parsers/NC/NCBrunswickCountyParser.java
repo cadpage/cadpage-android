@@ -1,11 +1,16 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
 /**
  * Brunswick County, NC
  */
 public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
   
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("\\d+:(\\d\\d-\\d{6}), +(.*)");
   
   public NCBrunswickCountyParser() {
     super(CITY_LIST, "BRUNSWICK COUNTY", "NC", 
@@ -15,6 +20,30 @@ public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
   @Override
   public String getFilter() {
     return "pagegate@brunswickes.com,vtext.com@returns.groups.yahoo.com";
+  }
+  
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    subject = subject.trim();
+    if (subject.startsWith("[") && subject.endsWith("]")) {
+      data.strSource = subject.substring(1,subject.length()-1).trim();
+      subject = "";
+    }
+    
+    Matcher match = RUN_REPORT_PTN.matcher(body);
+    if (match.matches()) {
+      data.strCall = "RUN REPORT";
+      data.strCallId = match.group(1);
+      data.strPlace = match.group(2);
+      return true;
+    }
+    
+    return super.parseMsg(subject, body,  data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
   
   private static final String[] CITY_LIST = new String[]{
@@ -41,7 +70,7 @@ public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
     "SANDY CREEK",
     "SHALLOTTE",
     "SOUTHPORT",
-    "ST. JAMES",
+    "ST JAMES",
     "SUNSET BEACH",
     "VARNAMTOWN",
 
