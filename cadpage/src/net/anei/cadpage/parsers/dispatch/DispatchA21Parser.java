@@ -11,14 +11,20 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 abstract public class DispatchA21Parser extends MsgParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("(\\d\\d:\\d\\d:\\d\\d) (\\d\\d-\\d\\d-\\d{4})");
-  private static final Pattern MASTER_PTN = Pattern.compile("\\*[DEU] (\\d{3,5} [A-Z0-9]+)/([^,]+) ,([A-Z]+)(?: <[ ,\\d]*>)?(?: \\((.*)\\))? ?(.*)");
+  private static final Pattern MASTER_PTN = Pattern.compile("\\*[DEU] (\\d{3,5}) ([A-Z0-9]+)/([^,]+) ,([A-Z]+)(?: <[ ,\\d]*>)?(?: \\((.*)\\))? ?(.*)");
   
   private Properties cityCodes;
+  private Properties callCodes;
   
   public DispatchA21Parser(Properties cityCodes, String defCity, String defState) {
+    this(cityCodes, null, defCity, defState);
+  }
+  
+  public DispatchA21Parser(Properties cityCodes, Properties callCodes, String defCity, String defState) {
     super(defCity, defState);
-    setFieldList("TIME DATE CALL ADDR APT CITY PLACE UNIT");
+    setFieldList("TIME DATE ID CODE CALL ADDR APT CITY PLACE UNIT");
     this.cityCodes = cityCodes;
+    this.callCodes = callCodes;
   }
   
   @Override
@@ -30,19 +36,26 @@ abstract public class DispatchA21Parser extends MsgParser {
     
     match = MASTER_PTN.matcher(body);
     if (!match.matches()) return false;
-    data.strCall = match.group(1);
-    String addr = match.group(2).trim();
+    data.strCallId = match.group(1);
+    String code = match.group(2);
+    if (callCodes == null) {
+      data.strCall = code;
+    } else {
+      data.strCode = code;
+      data.strCall = convertCodes(code, callCodes);
+    }
+    String addr = match.group(3).trim();
     int pt = addr.indexOf('@');
     if (pt >= 0) {
       data.strPlace = addr.substring(0,pt).trim();
       addr = addr.substring(pt+1).trim();
     }
     parseAddress(addr, data);
-    String city = match.group(3);
+    String city = match.group(4);
     if (cityCodes != null) city = convertCodes(city, cityCodes);
     data.strCity = city;
-    data.strPlace = append(data.strPlace, " - ", getOptGroup(match.group(4)));
-    data.strUnit = match.group(5).trim();
+    data.strPlace = append(data.strPlace, " - ", getOptGroup(match.group(5)));
+    data.strUnit = match.group(6).trim();
     
     return true;
   }

@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA21Parser;
 public class KSSedgwickCountyParser extends DispatchA21Parser {
   
   public KSSedgwickCountyParser() {
-    super(CITY_CODES, "SEDGWICK COUNTY", "KS");
+    super(CITY_CODES, CALL_CODES, "SEDGWICK COUNTY", "KS");
   }
   
   @Override
