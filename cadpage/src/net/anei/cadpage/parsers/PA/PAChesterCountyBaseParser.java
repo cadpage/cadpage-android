@@ -86,6 +86,16 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     }
   }
   
+  protected class CityField extends DispatchA7BaseParser.CityField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // DOn't overwrite previous contents if this field is empty
+      if (field.length() > 0) super.parse(field, data);
+    }
+    
+  }
+  
   // X2: must contain &
   protected class Cross2Field extends CrossField {
     
@@ -202,6 +212,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     if (name.equals("ADDRPL")) return new AddressPlaceField();
     if (name.equals("ADDRCITY")) return new AddressCityField();
     if (name.equals("ADDRCITY2")) return new AddressCity2Field();
+    if (name.equals("CITY")) return new CityField();
     if (name.equals("X2")) return new Cross2Field();
     if (name.equals("APT")) return new BaseAptField();
     if (name.equals("PLACE")) return new BasePlaceField();
@@ -267,7 +278,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     /* 32 */ "UPPER UWCHLAN TWP",
     /* 33 */ "UWCHLAN TWP",
     /* 34 */ "WEST PIKELAND TWP",
-    /* 35 */ "",
+    /* 35 */ "CHARLESTOWN TWP",
     /* 36 */ "WEST SADSBURY TWP",
     /* 37 */ "SADSBURY TWP",
     /* 38 */ "VALLEY TWP",
@@ -327,6 +338,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
       "AVNDAL", "AVONDALE",
       "DNGTWN", "DOWNINGTOWN",
       "CALN",   "CALN TWP",
+      "CHARLS", "CHARLESTOWN TWP",
       "COATVL", "COATESVILLE",
       "EGOSHN", "EAST GOSHEN TWP",
       "EMARLB", "EAST MARLBOROUGH TWP",
@@ -350,6 +362,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
       "POCOPS", "POCOPSON TWP",
       "PNSBRY", "PENNSBURY TWP",
       "TREDYF", "TREDYFFRIN TWP",
+      "UWCHLN", "UWCHLAN TWP",
       "WESTWN", "WESTTOWN TWP",
       "WFALLO", "WEST FALLOWFIELD TWP",
       "WGOSHN", "WEST GOSHEN TWP",
@@ -358,5 +371,6 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
       "WILLIS", "WILLISTOWN TWP",
       "WMARLB", "WEST MARLBOROUGH TWP",
       "WNOTT",  "WEST NOTTINGHAM TWP",
+      "WPIKEL", "WEST PIKELAND TWP"
   });
 } 

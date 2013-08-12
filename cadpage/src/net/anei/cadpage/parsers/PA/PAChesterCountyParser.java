@@ -19,6 +19,7 @@ public class PAChesterCountyParser extends GroupBestParser {
           new PAChesterCountyD5Parser(), 
           new PAChesterCountyEParser(),
           new PAChesterCountyFParser(),
-          new PAChesterCountyGParser());
+          new PAChesterCountyGParser(),
+          new PAChesterCountyIParser());
   }
 } 
