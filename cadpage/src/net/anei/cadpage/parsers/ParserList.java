@@ -245,6 +245,7 @@ public class ParserList {
               ,"ILChampaignUrbana"              ,"Champaign-Urbana, IL"
               ,"ILCookCounty"                   ,"Cook County, IL"
               ,"ILDuPageCounty"                 ,"DuPage County, IL"
+              ,"ILKaneCounty"                   ,"Kane County, IL"
               ,"ILKankakeeCounty"               ,"Kankakee County, IL"
               ,"ILMcHenryCounty"                ,"McHenry County, IL"
               ,"ILMedstar"                      ,"Medstar, SW IL"
