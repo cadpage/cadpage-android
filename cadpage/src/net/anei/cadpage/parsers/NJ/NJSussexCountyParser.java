@@ -11,7 +11,10 @@ Sussex County, NJ
 public class NJSussexCountyParser extends GroupBestParser {
   
   public NJSussexCountyParser() {
-    super(new NJSussexCountyAParser(), new NJSussexCountyBParser(), new NJSussexCountyCParser());
+    super(new NJSussexCountyAParser(), 
+        new NJSussexCountyBParser(), 
+        new NJSussexCountyCParser(), 
+        new NJSussexCountyDParser());
   }
 }
 
