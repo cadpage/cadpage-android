@@ -12,7 +12,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   
   public NCRowanCountyParser() {
     super(CITY_CODES, "ROWAN COUNTY", "NC",
-           "FYI? CALL ADDR ( OPTPLACE INFO+ | X/Z+? CITY XPLACE+? MAP? CH? UNIT )");
+           "FYI? CALL ADDR! ( OPTPLACE INFO+ | X/Z+? CITY XPLACE+? MAP? CH? UNIT )");
   }
   
   @Override
@@ -153,6 +153,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   
   @Override
   protected Field getField(String name) {
+    if (name.equals("CALL")) return new CallField("[^/]+", true);
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("OPTPLACE")) return new OptionalPlaceField();
     if (name.equals("CITY")) return new MyCityField();
