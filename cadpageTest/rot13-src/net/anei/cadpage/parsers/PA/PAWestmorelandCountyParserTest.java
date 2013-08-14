@@ -35,7 +35,7 @@ Fraqre: nyreg@rpz2.hf
 Pbagnpg: Tnel Tnhxre <gnmm49.tt@tznvy.pbz>
 Fraqre: nyreg@rpz2.hf
 (FG49 - 911 Pnyy) Ybp: 4206 EBHGR 66 JNFU_G: @TYNFFZNEG K-fgf: EBHGR 380 & ORNIRE EHA EQ  Vap#:S12020572 ANGHER: FZBXR FZBXR VAIRFGVTNGVBA  PNYYRE: TYNFF ZNEG SBBQ FG
-
+Ybp: 5630 TERRAFOHET EQ JNFU_G K-fgf: JNFUVATGBA EQ & FCEVAT UVYY EQ  Vap#:S13013216 ANGHER: 22O02 VANPP VAP/CREVCURENY RAGENC  PNYYRE: QBA TEVPR GBP: 09:42:32 Sver GNP:  RZF Gnp: Pbzzragf: ZNYR CVAARQ ORGJRRA GERR NAQ ZNPUVAR Erfcbafr grkg: Oenib Erfcbaqre fpevcg: 47 lrne byq, Znyr, Pbafpvbhf, Oernguvat. Vanpprffvoyr Vapvqrag / Bgure Ragenczragf (Aba-Iruvpyr). 1.Guvf vapvqrag qbrf abg vaibyir gur eryrnfr bs unmneqbhf zngrevnyf. 2.Ur vf genccrq va znpuvarel. 3.Gur nppvqrag vf ercbegrq gb or ng tebhaq yriry. 4.Ur vf fgvyy genccrq. 5.Guvf vf n CREVCURENY RAGENCZRAG bayl. 6.Gur pnyyre xabjf jurer ur vf: BA GUR FVQR BS GUR EQJL 7.Gur vzzrqvngr nern vf abg qnatrebhf be unmneqbhf. 8.Ur vf rnfvyl npprffvoyr. -079..604917 +040.49229 CVAARQ OL GUR ONPXUBR WHFG YRT VF CVAARQ YRT VF TBVAT AHZO TB HC QEVIRJNL .. NYBAT GUR QEVIR JNL SVER GNP4 ORRA CVAARQ N PBHCYR ZVAHGRF  Qvfc: FGNG0049,FGNG0064,FGNG0078,FGNG0102
 
 */
 
@@ -241,7 +241,18 @@ choyvp pynff CNJrfgzberynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:S12020572",
         "PNYY:FZBXR FZBXR VAIRFGVTNGVBA",
         "ANZR:TYNFF ZNEG SBBQ FG");
-      
+
+    qbGrfg("G18",
+        "Ybp: 5630 TERRAFOHET EQ JNFU_G K-fgf: JNFUVATGBA EQ & FCEVAT UVYY EQ  Vap#:S13013216 ANGHER: 22O02 VANPP VAP/CREVCURENY RAGENC  PNYYRE: QBA TEVPR GBP: 09:42:32 Sver GNP:  RZF Gnp: Pbzzragf: ZNYR CVAARQ ORGJRRA GERR NAQ ZNPUVAR Erfcbafr grkg: Oenib Erfcbaqre fpevcg: 47 lrne byq, Znyr, Pbafpvbhf, Oernguvat. Vanpprffvoyr Vapvqrag / Bgure Ragenczragf (Aba-Iruvpyr). 1.Guvf vapvqrag qbrf abg vaibyir gur eryrnfr bs unmneqbhf zngrevnyf. 2.Ur vf genccrq va znpuvarel. 3.Gur nppvqrag vf ercbegrq gb or ng tebhaq yriry. 4.Ur vf fgvyy genccrq. 5.Guvf vf n CREVCURENY RAGENCZRAG bayl. 6.Gur pnyyre xabjf jurer ur vf: BA GUR FVQR BS GUR EQJL 7.Gur vzzrqvngr nern vf abg qnatrebhf be unmneqbhf. 8.Ur vf rnfvyl npprffvoyr. -079..604917 +040.49229 CVAARQ OL GUR ONPXUBR WHFG YRT VF CVAARQ YRT VF TBVAT AHZO TB HC QEVIRJNL .. NYBAT GUR QEVIR JNL SVER GNP4 ORRA CVAARQ N PBHCYR ZVAHGRF  Qvfc: FGNG0049,FGNG0064,FGNG0078,FGNG0102",
+        "NQQE:5630 TERRAFOHET EQ",
+        "PVGL:JNFUVATGBA GJC",
+        "K:JNFUVATGBA EQ & FCEVAT UVYY EQ",
+        "VQ:S13013216",
+        "PNYY:22O02 VANPP VAP/CREVCURENY RAGENC",
+        "ANZR:QBA TEVPR",
+        "VASB:ZNYR CVAARQ ORGJRRA GERR NAQ ZNPUVAR",
+        "HAVG:FGNG0049,FGNG0064,FGNG0078,FGNG0102");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

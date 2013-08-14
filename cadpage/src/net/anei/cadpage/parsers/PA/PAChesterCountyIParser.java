@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class PAChesterCountyIParser extends PAChesterCountyBaseParser {
   
   public PAChesterCountyIParser() {
-    super("CALL ADDRCITY X CITY UNIT NAME PHONE CODE! INFO+");
+    super("CALL ADDRCITY X CITY BOX NAME PHONE CODE! INFO+");
   }
   
   @Override
@@ -32,7 +32,7 @@ public class PAChesterCountyIParser extends PAChesterCountyBaseParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("UNIT")) return new UnitField("\\d+", true);
+    if (name.equals("BOX")) return new BoxField("\\d+", true);
     if (name.equals("CODE")) return new CodeField("[A-Z]+", true);
     return super.getField(name);
   }
