@@ -43,7 +43,7 @@ public class MainDonateEvent extends DonateScreenEvent {
    * Recalculate and redisplay donation status
    */
   public void refreshStatus() {
-    if (activity != null) {
+    if (activity != null && !activity.isFinishing()) {
       setPreference(activity, pref);
       setButton(activity, button);
     }

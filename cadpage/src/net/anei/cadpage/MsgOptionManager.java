@@ -489,6 +489,9 @@ public class MsgOptionManager {
   
   public boolean menuItemSelected(int itemId, boolean display, String respCode) {
     
+    // If parent activity is no longer valid, disreguard
+    if (activity.isFinishing()) return false;
+    
     // Any button clears the notice
     ManageNotification.clear(activity);
     
