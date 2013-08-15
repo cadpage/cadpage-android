@@ -1728,6 +1728,11 @@ Ancn Pbhagl, PN (PNAncnPbhaglCnefre)
 (PNQ Cntr) SVER, PBZZREPVNY NYNEZ; PNYVFGBTN TNEQRA @ 1715 JNFUVATGBA FG ,PNYVFGBTN_PVGL ; Vap# 000412; TRARENY SVER NYNEZ; EN: PNY; K: -122 35.0390  L: 38 34.86 PO#: 7073226460
 (PNQ Cntr) ZRQVPNY; QHSSL'F @ 3076 ZLEGYRQNYR EQ ,PNYVFGBTN ; Vap# 000459; PURFG CNVA; EN: Y55; K: -122 35.9647  L: 38 35.7255; R26 R19; Pzq: ANCN PB SVER; Gnp: PO#: 7073226460
 ***************************************************************************
+Cynpre Pbhagl, PN (PNCynprePbhaglCnefre) 
+(PNQ Cntr) : E/N W26: CN, CREFBA: 250 CVAR FG ,NHOHEA1 : NPQVN RYQRE PNER: Vap# 018206: Erznexf YVSG NFFG
+(PNQ Cntr) : E/N W26: ZRQVPNY: 1202 TENAVGR YA ,NHOHEA1 : : Vap# 018201: Erznexf Qvfcngpu  18P04  \aLbh ner erfcbaqvat gb 
+(PNQ Cntr) : E/N W26: SVER, PBZZREPVNY NYNEZ: 1125 YVAPBYA JL ,NHOHEA1 : NGG: Vap# 018172: Erznexf TRARENY SVER NYNEZ
+***************************************************************************
 Evirefvqr Pbhagl, PN (PNEvirefvqrPbhaglCnefre)
 ZRQ, GENSSVP PBYYVFVBA; 24630 HCCRE EVZ EBPX EQ ,VQLY ; VSB NQQL FBYB IRU EBYYBIRE; 24899 OYX NMNYRN EQ; 814_S_4/155__98; Vap# 118228; Pzq: EEH FHC 8; Gnp: EIP GNP 0; Z626; vpl ebnqf npprff sebz ybjre jnl
 ZRQ, CREFBA QBJA; FGA621 @ 54160 ZNENANGUN QE ,VQLY ; ; 25778 OYX WBUAFBA EQ; 814_P_6/154__131; Vap# 119114; Pzq: EEH FHC 11; Gnp: EIP GNP 0; Z625; AB GRKG

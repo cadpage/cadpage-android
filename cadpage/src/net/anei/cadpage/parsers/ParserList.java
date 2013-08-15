@@ -143,6 +143,7 @@ public class ParserList {
               ,"CAMontereyCounty"               ,"Monterey County, CA"
               ,"CANapaCounty"                   ,"Napa County, CA"
               ,"CAOroville"                     ,"Oroville, CA"
+              ,"CAPlacerCounty"                 ,"Placer County, CA"
               ,"CARiversideCounty"              ,"Riverside County, CA"
               ,"CASanBernardinoCounty"          ,"San Bernardino County, CA"
               ,"CASanDiegoCounty"               ,"San Diego County, CA"
