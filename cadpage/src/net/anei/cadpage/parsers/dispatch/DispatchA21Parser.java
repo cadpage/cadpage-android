@@ -42,7 +42,12 @@ abstract public class DispatchA21Parser extends MsgParser {
       data.strCall = code;
     } else {
       data.strCode = code;
-      data.strCall = convertCodes(code, callCodes);
+      String call = callCodes.getProperty(code);
+      if (call == null && code.startsWith("E") || code.startsWith("F")) {
+        call = callCodes.getProperty(code.substring(1));
+      }
+      if (call  == null) call = code;
+      data.strCall = call;
     }
     String addr = match.group(3).trim();
     int pt = addr.indexOf('@');
