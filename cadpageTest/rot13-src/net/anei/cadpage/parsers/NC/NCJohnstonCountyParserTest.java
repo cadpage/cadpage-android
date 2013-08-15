@@ -16,8 +16,6 @@ Pbagnpg: Qrna PBE <qrna.xbruzfgrqg@enyrvtuap.tbi>
 Pbagnpg: "Qna_oret" <qna_oret@ubgznvy.pbz>
 Pbagnpg: Byr Qrna X. <xbruzfgrqg@tznvy.pbz>
 
-**** Arj fghss *****
-
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jvyfbaf Zvyyf Sver Qrcnegzrag
 Ybpngvba: Pynlgba, AP, Havgrq Fgngrf
