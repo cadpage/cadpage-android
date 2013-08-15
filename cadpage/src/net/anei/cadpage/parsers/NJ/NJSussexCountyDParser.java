@@ -31,13 +31,13 @@ public class NJSussexCountyDParser extends FieldProgramParser {
     return parseFields(body.split("\n"), 4, data);
   }
   
-  private static final Pattern INFO_GPS_PTN = Pattern.compile("Latitude: *([-+]\\d{3}\\.\\d{6}) +Longitude: *([-+]\\d{3}\\.\\d{6})");
+  private static final Pattern INFO_GPS_PTN = Pattern.compile("Latitude: *([-+]\\d{3}\\.\\d{6}|) +Longitude: *([-+]\\d{3}\\.\\d{6}|)(?: +\\d\\d?:\\d\\d:\\d\\d [AP]M)?");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = INFO_GPS_PTN.matcher(field);
       if (match.matches()) {
-        setGPSLoc(match.group(1)+','+match.group(2), data);
+        setGPSLoc(getOptGroup(match.group(1))+','+getOptGroup(match.group(2)), data);
         return;
       }
       super.parse(field, data);
