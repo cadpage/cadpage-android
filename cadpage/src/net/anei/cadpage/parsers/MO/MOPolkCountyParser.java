@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.MO;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -34,7 +35,9 @@ public class MOPolkCountyParser extends DispatchGlobalDispatchParser {
       data.strCall = data.strCall.substring(0,match.start()).trim();
     }
     if (CITY_PTN.matcher(data.strMap).matches()) {
-      data.strCity = data.strMap;
+      if (data.strCity.length() == 0) {
+        data.strCity = convertCodes(data.strMap, CITY_ABBRV_TABLE);
+      }
       data.strMap = "";
     }
     return true;
@@ -43,6 +46,29 @@ public class MOPolkCountyParser extends DispatchGlobalDispatchParser {
   @Override
   public String getProgram() {
     return super.getProgram().replace(" CALL ", " CALL CODE ").replace(" MAP ", " MAP CITY ");
+  }
+  
+  private class MyCityField extends CityField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return super.checkParse(cleanCity(field), data);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      super.checkParse(cleanCity(field), data);
+    }
+    
+    private String cleanCity(String city) {
+      if (city.endsWith(" MO")) city = city.substring(0,city.length()-3).trim();
+      return city;
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CITY")) return new MyCityField();
+    return super.getField(name);
   }
   
   private static final String[] CITY_TABLE = new String[]{
@@ -64,4 +90,10 @@ public class MOPolkCountyParser extends DispatchGlobalDispatchParser {
     
     "POLK COUNTY"
   };
+  
+  private static final Properties CITY_ABBRV_TABLE = buildCodeTable(new String[]{
+      "Pleasant H", "Pleasant Hope",
+      "Humansvill", "Humansville",
+      "Morrisvill", "Morrisville"
+  });
 }
