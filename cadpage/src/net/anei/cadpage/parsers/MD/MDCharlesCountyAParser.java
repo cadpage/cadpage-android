@@ -23,7 +23,7 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
 
   public MDCharlesCountyAParser() {
     super( "CHARLES COUNTY", "MD");
-    setFieldList("CALL UNIT ADDR APT PLACE CODE MAP INFO ID TIME");
+    setFieldList("CALL UNIT CITY ADDR APT PLACE CODE MAP INFO ID TIME");
   }
   
   @Override
@@ -96,7 +96,12 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
     do {
       if (mapSt >= 0 && unitSt >= 0) {
         Parser p = new Parser(body);
-        parseAddress(p.get(','), data);
+        String addr = p.get(',');
+        if (addr.equals("PG COUNTY")) {
+          data.strCity = "PRINCE GEORGES COUNTY";
+          addr = p.get(',');
+        }
+        parseAddress(addr, data);
         data.strPlace = p.get();
         good = true;
         break;
