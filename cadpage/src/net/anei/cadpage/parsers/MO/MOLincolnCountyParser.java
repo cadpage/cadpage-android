@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.MO;
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA25Parser;
 
 

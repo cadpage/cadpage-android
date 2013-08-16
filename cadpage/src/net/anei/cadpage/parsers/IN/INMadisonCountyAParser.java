@@ -2,37 +2,21 @@ package net.anei.cadpage.parsers.IN;
 
 import java.util.Properties;
 
+import net.anei.cadpage.parsers.dispatch.DispatchA26Parser;
+
 /**
  * Madison County (Alexandria), IN
  */
-import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class INMadisonCountyAParser extends FieldProgramParser {
+public class INMadisonCountyAParser extends DispatchA26Parser {
   
   public INMadisonCountyAParser() {
-    super(CITY_CODES, "MADISON COUNTY", "IN",
-          "Unit:UNIT UnitSts:SKIP Loc:ADDR! Venue:CITY! Inc:CALL! Date:DATE! Time:TIME Addtl:INFO");
+    super(CITY_CODES, "MADISON COUNTY", "IN");
   }
   
   @Override
   public String getFilter() {
     return "Mplus@madisoncty.com";
-  }
-  
-  private class MyTimeField extends TimeField {
-    @Override
-    public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      super.parse(p.get(' '), data);
-      data.strSupp = p.get();
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("TIME")) return new MyTimeField();
-    return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
