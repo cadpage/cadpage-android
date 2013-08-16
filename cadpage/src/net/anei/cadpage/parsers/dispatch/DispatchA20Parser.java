@@ -15,7 +15,7 @@ public class DispatchA20Parser extends FieldProgramParser {
 
   public DispatchA20Parser(String defCity, String defState) {
     super(defCity, defState,
-           "ADDRCITYST PLACE X APT CODE! MAP INFO");
+           "ADDRCITYST PLACE X APT CODE! MAP ID? INFO");
   }
   
   @Override
@@ -94,6 +94,7 @@ public class DispatchA20Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDRCITYST")) return new MyAddressCityStField();
+    if (name.equals("ID")) return new IdField("#(\\d+)", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }

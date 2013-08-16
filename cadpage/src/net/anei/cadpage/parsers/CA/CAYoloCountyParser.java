@@ -13,7 +13,7 @@ public class CAYoloCountyParser extends DispatchA20Parser {
   
   @Override
   public String getFilter() {
-    return "CLARK@ci.davis.ca.us";
+    return "@ci.davis.ca.us";
   }
   
   @Override
