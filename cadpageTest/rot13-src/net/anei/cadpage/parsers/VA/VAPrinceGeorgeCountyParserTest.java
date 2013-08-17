@@ -29,6 +29,10 @@ Pbagnpg: Cngevpx Uneg <wbrpynel27@tznvy.pbz>
 Fraqre: pnq@cevaprtrbetrin.bet
 1199:PNQ:SVER FGEHPGHER;13586 CHZCUBHFR EQ;TBYS PBHEFR QE;GUJRNGG QE;QVFC
 
+Pbagnpg: Oelna Uneyrff <qisq206@tznvy.pbz>
+Fraqre: pnq@cevaprtrbetrpbhaglin.tbi
+1613:PNQ:SVER IRUVPYR;12223 PRAGRAAVNY EQ;DHNVY EHA YA;BYQ GBJA EQ;CET
+
 ***/
 
 choyvp pynff INCevaprTrbetrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -143,6 +147,19 @@ choyvp pynff INCevaprTrbetrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:13586 CHZCUBHFR EQ",
         "K:TBYS PBHEFR QE & GUJRNGG QE & QVFC");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOelbaUneyrff() {
+
+    qbGrfg("G1",
+        "1613:PNQ:SVER IRUVPYR;12223 PRAGRAAVNY EQ;DHNVY EHA YA;BYQ GBJA EQ;CET",
+        "VQ:1613",
+        "PNYY:SVER IRUVPYR",
+        "NQQE:12223 PRAGRAAVNY EQ",
+        "K:DHNVY EHA YA & BYQ GBJA EQ",
+        "PVGL:CEVAPR TRBETR");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

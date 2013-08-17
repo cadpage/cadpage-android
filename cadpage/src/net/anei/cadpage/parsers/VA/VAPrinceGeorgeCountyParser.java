@@ -17,7 +17,7 @@ public class VAPrinceGeorgeCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "cad@messages.princegeorgeva.org,cad@princegeorgeva.org";
+    return "cad@messages.princegeorgeva.org,cad@princegeorgeva.org,cad@princegeorgecountyva.gov";
   }
 
   private static final String AUTO_AID_PFX = "FIRE AUTOMATIC AID - ";
@@ -40,6 +40,7 @@ public class VAPrinceGeorgeCountyParser extends DispatchOSSIParser {
 
   private static final Properties CITY_CODES= buildCodeTable(new String[]{
       "CARS", "CARSON",
-      "PETE", "PETERSBURG"
+      "PETE", "PETERSBURG",
+      "PRG",  "PRINCE GEORGE"
   });
 }
