@@ -503,7 +503,7 @@ choyvp pynff XFFrqtjvpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:04/01/2013",
         "VQ:22008",
         "PBQR:ZFTS",
-        "PNYY:Zrffntr sbe Sver Freivpr",
+        "PNYY:Zrffntr sbe Sver Qrcnegzrag",
         "NQQE:116 A 3EQ FG",
         "PVGL:PBYJVPU",
         "CYNPR:PBYJVPU SVER-RZF",
