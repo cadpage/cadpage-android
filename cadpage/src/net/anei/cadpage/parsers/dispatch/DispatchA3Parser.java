@@ -87,8 +87,8 @@ public class DispatchA3Parser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern COMMENT_LABEL = Pattern.compile("^(?:Landmark|Geo) Comment:");
-  private static final Pattern COMMENT_LABEL2 = Pattern.compile("(?:Landmark|Geo) Comment:");
+  private static final Pattern COMMENT_LABEL = Pattern.compile("^(?:Landmark|Geo|Place) Comment:");
+  private static final Pattern COMMENT_LABEL2 = Pattern.compile("(?:Landmark|Geo|Place) Comment:");
   private class BaseInfo1Field extends InfoField {
     @Override
     public boolean canFail() {
@@ -120,6 +120,15 @@ public class DispatchA3Parser extends FieldProgramParser {
       if (match.find()) {
         field = field.substring(match.end()).trim();
         if (field.startsWith("UPDATE")) return;
+        match = COMMENT_LABEL2.matcher(field);
+        if (match.find()) {
+          pt = match.start();
+          if (pt == 0) {
+            field = field.substring(match.end()).trim();
+          } else {
+            field = field.substring(0,pt).trim();
+          }
+        }
       }
       super.parse(field, data);
     }

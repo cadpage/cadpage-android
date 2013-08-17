@@ -706,6 +706,7 @@ public class ParserList {
               ,"TNAndersonCounty"               ,"Anderson County, TN"
               ,"TNBedfordCounty"                ,"Bedford County, TN"
               ,"TNBlountCounty"                 ,"Blount County, TN"
+              ,"TNBradleyCounty"                ,"Bradley County, TN"
               ,"TNCampbellCounty"               ,"Campbell County, TN"
               ,"TNCumberlandCounty"             ,"Cumberland County, TN"
               ,"TNHamiltonCounty"               ,"Hamilton County, TN"
