@@ -43,7 +43,7 @@ abstract public class DispatchA21Parser extends MsgParser {
     } else {
       data.strCode = code;
       String call = callCodes.getProperty(code);
-      if (call == null && code.startsWith("E") || code.startsWith("F")) {
+      if (call == null && (code.startsWith("E") || code.startsWith("F"))) {
         call = callCodes.getProperty(code.substring(1));
       }
       if (call  == null) call = code;
