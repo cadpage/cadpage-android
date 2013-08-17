@@ -97,7 +97,7 @@ public class KSSedgwickCountyParser extends DispatchA21Parser {
       "LOSTJ",   "Lost Juvenile",
       "MA",       "Medical Alarm",
       "MISCF",    "Miscellaneous Service",
-      "MSGF",     "Message for Fire Service",
+      "MSGF",     "Message for Fire Department",
       "MSGP",     "Message for Law Enforcement",
       "NOTBR",    "Patient not breathing",
       "OB",       "Obstetrical Emergency",
