@@ -40,6 +40,7 @@ public class VAPrinceGeorgeCountyParser extends DispatchOSSIParser {
 
   private static final Properties CITY_CODES= buildCodeTable(new String[]{
       "CARS", "CARSON",
+      "DISP", "DISPUTANTA",
       "PETE", "PETERSBURG",
       "PRG",  "PRINCE GEORGE"
   });

@@ -20,6 +20,7 @@ Fraqre: pnq@zrffntrf.cevaprtrbetrin.bet
 369:PNQ:SVER NYNEZ;2643 YNAFVAT EQ;VAQVNA EQ;GRZCYRGBA EQ;CRGR
 368:PNQ:SVER PNEOBA ZBABKVQR/FZBXR QRG;714 WBUAF EQ;F PENGRE EQ;BNX UVYY PG;PNEF
 366:PNQ:NPPVQRAG - PBZZREVPNY IRUVPYR;16699 F PENGRE EQ/CEVAPR TRBETR QE;CRGR
+1614:PNQ:SVER OEHFU/JBBQF;6242 BNX FUNQRF CNEX QE;YNZBER QE;QVFC
 
 Pbagnpg: "wbrpynel@lnubb.pbz" <wbrpynel@lnubb.pbz>
 Fraqre: PNQ@zrffntrf.cevaprtrbetrin.bet
@@ -159,6 +160,14 @@ choyvp pynff INCevaprTrbetrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:12223 PRAGRAAVNY EQ",
         "K:DHNVY EHA YA & BYQ GBJA EQ",
         "PVGL:CEVAPR TRBETR");
+
+    qbGrfg("G1",
+        "1614:PNQ:SVER OEHFU/JBBQF;6242 BNX FUNQRF CNEX QE;YNZBER QE;QVFC",
+        "VQ:1614",
+        "PNYY:SVER OEHFU/JBBQF",
+        "NQQE:6242 BNX FUNQRF CNEX QE",
+        "K:YNZBER QE",
+        "PVGL:QVFCHGNAGN");
    
   }
   
