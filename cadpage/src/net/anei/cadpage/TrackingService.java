@@ -77,8 +77,8 @@ public class TrackingService extends Service implements LocationListener {
     
     void report(Context context, Location loc) {
       Uri.Builder bld = Uri.parse(URL).buildUpon().appendQueryParameter("type", "LOCATION");
-      bld.appendQueryParameter("lat", Location.convert(loc.getLatitude(), Location.FORMAT_DEGREES));
-      bld.appendQueryParameter("long", Location.convert(loc.getLongitude(), Location.FORMAT_DEGREES));
+      bld.appendQueryParameter("lat", Double.toString(loc.getLatitude()));
+      bld.appendQueryParameter("long", Double.toString(loc.getLongitude()));
       if (loc.hasAccuracy()) bld.appendQueryParameter("acc", Float.toString(loc.getAccuracy()));
       if (loc.hasAltitude()) bld.appendQueryParameter("alt", Double.toString(loc.getAltitude()));
       if (loc.hasBearing()) bld.appendQueryParameter("bearing", Float.toString(loc.getBearing()));
