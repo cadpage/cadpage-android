@@ -9,11 +9,11 @@ import net.anei.cadpage.parsers.MsgParser;
 
 public class TNHamiltonCountyBParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("([^,]+), ([ A-Z]+) \\(([^\\)]+)\\) (.*?) ([^ ]+) \n: (.*)");
+  private static final Pattern MASTER = Pattern.compile("([^\\(]+) \\(([^\\)]+)\\) (.*?) ([^ ]+) \n : (.*)");
   
   public TNHamiltonCountyBParser() {
     super("HAMILTON COUNTY", "TN");
-    setFieldList("ADDR APT CITY X SRC UNIT CALL");
+    setFieldList("PLACE ADDR APT CITY X SRC UNIT CALL");
   }
   
   public String getFilter() {
@@ -25,12 +25,21 @@ public class TNHamiltonCountyBParser extends MsgParser {
     
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
-    parseAddress(match.group(1).trim(), data);
-    data.strCity = match.group(2).trim();
-    data.strCross = match.group(3).trim();
-    data.strSource = match.group(4).trim();
-    data.strUnit = match.group(5);
-    data.strCall = match.group(6).trim();
+    String addr =  match.group(1).trim();
+    String cross =  match.group(2).trim();
+    if (addr.startsWith("@")) {
+      data.strPlace = addr.substring(1).trim();
+      addr = cross;
+      cross = "";
+    }
+    int pt = addr.lastIndexOf(',');
+    if (pt < 0) return false;
+    parseAddress(addr.substring(0,pt).trim(), data);
+    data.strCity = addr.substring(pt+1).trim();
+    data.strCross = cross;
+    data.strSource = match.group(3).trim();
+    data.strUnit = match.group(4);
+    data.strCall = match.group(5).trim();
     return true;
   }
 }
