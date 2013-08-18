@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchProphoenixParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^(?:(\\d+)|(?:[ A-Z0-9]+ +\\(#(\\d+)\\) +)?([- A-Z0-9]+):) +");
+  private static final Pattern MARKER = Pattern.compile("^(?:(\\d+)|(?:[ A-Z0-9]+ +\\(#([A-Z0-9]+)\\) +)?([- A-Z0-9]+):) +");
   private static final Pattern TRAILER_PTN = Pattern.compile(" *;[A-Z0-9]+ +STOP$"); 
   
   private Properties cityCodes;

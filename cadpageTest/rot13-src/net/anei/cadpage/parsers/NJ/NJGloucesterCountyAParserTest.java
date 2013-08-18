@@ -142,6 +142,10 @@ Fraqre: tppnq@pb.tybhprfgre.aw.hf
 (Cubravk Abgvsvpngvba) 2013000101 {07/20/2013 21:18:44}\aJVER     - Jverf qbja be Nepvat{3}\a748 Frpbaq FG;J\aHavgf:\a    \aPbzzragf:\a Gbare Nyreg Vafgnagvngrq \a{151} Fgngvba Qvfcngpurq : {151} Havgf Erpbzzraqrq: ;\aQvfcngpurq: {151} Gbare Nyreg Vafgnagvngrq, Sbyybjvat gbarf frag gb qrivpr - S1   \a0211 - 15-1 Jbbqohel Urvtugf SQ        \a 
 (Cubravk Abgvsvpngvba) 2013000239 {07/20/2013 13:53:49}\aPR       - Pneqvnp Rzretrapl{2}\a106 Naqnybeb JNL;O\aHavgf:\a    R1519   \aPbzzragf:\a Gbare Nyreg Vafgnagvngrq \a{159}[R1519] Havgf Erpbzzraqrq: R992,ZRQVP;\aQvfcngpurq: R992, R1519 90S PC FBO CNVA VA E NEZ PNEQ UK 
 
+Pbagnpg: Evpx <eju037@irevmba.arg>
+Fraqre: 7774
+TP NYREG (#O0JG) SQ 6-3: {08/18/2013 02:19:18}\aEHO      - Ehoovfu Sver{3}\a701 Erq Onax NIR,PBZCYRK;G FGBC
+
 */
 
 
@@ -2267,6 +2271,23 @@ choyvp pynff AWTybhprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:QRCGSBEQ",
         "HAVG:R1519 159",
         "VASB:Qvfcngpurq: R992, R1519 90S PC FBO CNVA VA E NEZ PNEQ UK");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEvpx() {
+
+    qbGrfg("G1",
+        "TP NYREG (#O0JG) SQ 6-3: {08/18/2013 02:19:18}\aEHO      - Ehoovfu Sver{3}\a701 Erq Onax NIR,PBZCYRK;G FGBC",
+        "VQ:O0JG",
+        "FEP:SQ 6-3",
+        "QNGR:08/18/2013",
+        "GVZR:02:19:18",
+        "PBQR:EHO",
+        "PNYY:Ehoovfu Sver",
+        "CEV:3",
+        "NQQE:701 Erq Onax NIR",
+        "NCG:PBZCYRK");
 
   }
   
