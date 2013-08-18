@@ -1207,6 +1207,15 @@ Havg:NZ45 HavgFgf: Ybp:6197 A FE 9 Irahr:EVPUYN GJC Vap:RZF Pnyy Qngr:10/17/2010
 Havg:FG40 HavgFgf: Ybp:R 400A/100R Irahr:EVPUYN GJC Vap:Oehfu Sver Qngr:10/15/2010 Gvzr:14:33 BCRA OHEA ORGJRRRA 100R NAQ NYRK CVXR/ F FVQR Nqqgy: BS EBNQ
 *******************************************************************************
 *******************************************************************************
+* QvfcngpuN27Cnefre fhopynffrf
+*******************************************************************************
+***************************************************************************
+Pnzcoryy Pbhagl, XL (XLPnzcoryyPbhaglCnefre)
+(Oernguvat ceboyrzf ng 12 Uryra Qe, Nyrknaqevn, 41001) Abgvsvpngvba sebz PVF Npgvir 911:\a\aOernguvat ceboyrzf ng 12 Uryra Qe, Nyrknaqevn, 41001\a\aNyrknaqevn sq - 201300000861\a\aGvzr ercbegrq: 04/19/2013 5:58:23 CZ\aGvzr pbzcyrgrq: 04/19/2013 6:50:26 CZ\a\aHavg(f) erfcbaqrq: \aN171\aZ192
+(Fcrp qvnt-Fvpx crefba ng 3160 Qnavryf Eq, Syntt Fcevat, 41007) Abgvsvpngvba sebz PVF Npgvir 911:\a\aFcrp qvnt-Fvpx crefba ng 3160 Qnavryf Eq, Syntt Fcevat, 41007\a\aNyrknaqevn sq - 201300000860\a\aGvzr ercbegrq: 04/19/2013 5:38:40 CZ\a\a\aHavg(f) erfcbaqrq: \aZ191
+(Oernguvat ceboyrzf ng 300 Pbzzrepvny Pe, Nyrknaqevn, 41001) Abgvsvpngvba sebz PVF Npgvir 911:\a\aOernguvat ceboyrzf ng 300 Pbzzrepvny Pe, Nyrknaqevn, 41001\a\aNyrknaqevn sq - 201300000859\a\aGvzr ercbegrq: 04/19/2013 4:16:11 CZ\aGvzr pbzcyrgrq: 04/19/2013 5:11:16 CZ\a\aHavg(f) erfcbaqrq: \aZ191\aZ192
+*******************************************************************************
+*******************************************************************************
 * QvfcngpuTrbpbakCnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
@@ -2209,11 +2218,6 @@ Oblq Pbhagl, XL (XLOblqPbhaglCnefre)
 OP911:65F SVER-FGEHPGHER 1016 GHEYRL NIR TERRAHC,PBHAGL R911
 OP911:20K QBZRFGVP-VACEBTERFF* 1500OYX UBBQF PERRX CVXR HF EBHGR 23 ZBGBEVFG
 OP911:20K QBZRFGVP-VACEBTERFF* 3274 PBHEG FG
-***************************************************************************
-Pnzcoryy Pbhagl, XL (XLPnzcoryyPbhaglCnefre)
-(Oernguvat ceboyrzf ng 12 Uryra Qe, Nyrknaqevn, 41001) Abgvsvpngvba sebz PVF Npgvir 911:\a\aOernguvat ceboyrzf ng 12 Uryra Qe, Nyrknaqevn, 41001\a\aNyrknaqevn sq - 201300000861\a\aGvzr ercbegrq: 04/19/2013 5:58:23 CZ\aGvzr pbzcyrgrq: 04/19/2013 6:50:26 CZ\a\aHavg(f) erfcbaqrq: \aN171\aZ192
-(Fcrp qvnt-Fvpx crefba ng 3160 Qnavryf Eq, Syntt Fcevat, 41007) Abgvsvpngvba sebz PVF Npgvir 911:\a\aFcrp qvnt-Fvpx crefba ng 3160 Qnavryf Eq, Syntt Fcevat, 41007\a\aNyrknaqevn sq - 201300000860\a\aGvzr ercbegrq: 04/19/2013 5:38:40 CZ\a\a\aHavg(f) erfcbaqrq: \aZ191
-(Oernguvat ceboyrzf ng 300 Pbzzrepvny Pe, Nyrknaqevn, 41001) Abgvsvpngvba sebz PVF Npgvir 911:\a\aOernguvat ceboyrzf ng 300 Pbzzrepvny Pe, Nyrknaqevn, 41001\a\aNyrknaqevn sq - 201300000859\a\aGvzr ercbegrq: 04/19/2013 4:16:11 CZ\aGvzr pbzcyrgrq: 04/19/2013 5:11:16 CZ\a\aHavg(f) erfcbaqrq: \aZ191\aZ192
 ***************************************************************************
 Uneqva Pbhagl, XL (XLUneqvaPbhaglCnefre)
 (Vapvqrag: 2013027421) \aAngher: VAWHEL IRUVPYR NPPVQRAG\aNqqerff: 1022 UHGPUREFBA YA\aPebff: JBYSR EHA EQ & F JVYFBA EQ\aGvzrbhg: Jrq Znl 08 15:18:00 HGP 2013\aVasb: fbzrbar  [05/08/13 15:17:15 URAFYRLZ]\ava sebag bs 1022  77 le byq srznyr univat purfg cnva  nqi gung gurl erne  \araqrq\aPF=239 PFF=2 (F)YBEVRA (A)
