@@ -308,6 +308,7 @@ public class ParserList {
               ,"KYOldhamCounty"                 ,"Oldham County, KY"
           ),
           new ParserCategory("Louisiana"
+              ,"LAAscensionParish"              ,"Ascension Parish, LA"
               ,"LABeauregardParish"             ,"Beauregard Parish, LA"
               ,"LAAcadianAmbulance"             ,"Acadian Ambulance, LA"
               ,"LAJeffersonParish"              ,"Jefferson Parish, LA"
@@ -399,6 +400,7 @@ public class ParserList {
               ,"MOJeffersonCity"                ,"Jefferson City, MO"
               ,"MOJeffersonCounty"              ,"Jefferson County, MO"
               ,"MOJohnsonCounty"                ,"Johnson County, MO"
+              ,"MOLincolnCounty"                ,"Lincoln County, MO"
               ,"MONewtonCounty"                 ,"Newton County, MO"
               ,"MOOsageCounty"                  ,"Osage County, MO"
               ,"MOPhelpsCounty"                 ,"Phelps County, MO"
@@ -422,6 +424,7 @@ public class ParserList {
           new ParserCategory("New Hampshire"
               ,"NHHanover"                      ,"Hanover, NH"
               ,"NHKeeneMutualAid"               ,"Keene Mutual Aid, NH"
+              ,"NHMerrimackCounty"              ,"Merrimack County, NH"
           ),
           new ParserCategory("New Jersey"
               ,"NJAtlanticareEMS"               ,"Atlanticare EMS, NJ"
