@@ -1,44 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08122013</string>
-  <string name="release_version">v1.6.37</string>
+  <string name="release_date">08192013</string>
+  <string name="release_version">v1.6.38</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Kane County, IL\n
-St Louis County, MO (alt)\n
-Donna Ana County, NM\n
-Sussex County, NJ (alt)\n
-Onondaga County, NY (alt)\n
-Cleveland County, OK\n
-Garfield County, OK\n
-Chester County, PA\n
-Hamilton County, TN (alt)\n
-Collin County, TX (alt)\n
+Fresno County, CA\n
+Placer County, CA\n
+Ascension Parish, LA\n
+Dakota County, MN\n
+Lincoln County, MO\n
+Merrimack County, NH\n
+Bradley County, TN\n
+Colonial Heights, VA\n
+Mecklenburg County, VA\n
 \n
 Location Parsing Fixes:\n
-Marion County, IN\n
-Sedgwick County, KS\n
-Anne Arundel County, MD\n
-Calhoun County, MI\n
-Eaton County, MI\n
+Yolo County, CA\n
+Sedgewick County, KS\n
+Campbell County, KY\n
+Charles County, MD\n
+Polk County, MO\n
+St Louis County, MO\n
+Gloucester County, NJ\n
+Sussex County, NJ\n
 Cayuga County, NY\n
-Greene County, NY\n
-Johnston County, NC\n
-Lincoln County, NC\n
-New Brunswick County, NC\n
-Cass County, ND\n
-Cumberland County, PA\n
-Sumner County, TN\n
-Frederick County, VA\n
-Smythe County, VA\n
-Pierce County, WA\n
-Cabell County, WV\n
+Jonston County, NC\n
+Stanley County, NC\n
+Wilson County, NC\n
+Campbell County, TN\n
+Hamilton County, TN\n
+Collin County, TX\n
 \n
 General Fixes:\n
-Display problems with Active911 page information\n
-Erroneous expiration date reported for CodeMessaging and Active911 users\n
+More attempts to fix sporadic crashes.\n
+Fixed crash when GPS returns bad coordinates.\n
   </string>  
 </resources>
   
