@@ -1152,7 +1152,7 @@ The reason for this is the IOS environment does not allow normal apps to
 intercept text messages like we do on Android phones, so we have to use
 a messaging service that has some other way to push pages to the phone app.
 
-But there are 2 options I see for iPhone Users:
+There are 2 options I see for iPhone Users:
 
 1.  Cadpage For IOS is on the market.  You can contact Jesse at  support@apprhythmia.com
 However, you will still need a messaging service like Active911 or CodeMessaging for his app to work.
