@@ -12,9 +12,14 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class ORLinnCountyParser extends FieldProgramParser {
   
+  private static final String[] MARKERS = new String[]{
+    "ICOM/400 notification,",
+    "LINN 911 (!) " 
+  };
+  
   public ORLinnCountyParser() {
     super(CITY_LIST, "LINN COUNTY", "OR",
-           "CALL CALL!+? ADDR/SXP! ( DATE TIME! | X/Z? MAP! ) UNIT? INFO");
+           "CALL CALL!+? ADDR/SXP! ( DATE TIME! | X/Z? MAP! ) UNIT? INFO EMPTY? UNIT");
   }
   
   @Override
@@ -24,7 +29,12 @@ public class ORLinnCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (body.startsWith("ICOM/400 notification,")) body = body.substring(22).trim();
+    for (String marker : MARKERS) {
+      if (body.startsWith(marker)) {
+        body = body.substring(marker.length()).trim();
+        break;
+      }
+    }
     String[] flds = body.split("/");
     if (flds.length < 3) return false;
     if (!parseFields(flds, data)) return false;
