@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 
 /**
- * Dakota County, MD
+ * Dakota County, MN
  */
 public class MNDakotaCountyParser extends DispatchA27Parser {
   

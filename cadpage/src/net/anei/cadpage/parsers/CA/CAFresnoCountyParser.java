@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Butte County, CA
+ * Fresno County, CA
  */
 public class CAFresnoCountyParser extends FieldProgramParser {
   
