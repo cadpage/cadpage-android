@@ -23,7 +23,6 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
   
   private static final Pattern TERMINATOR_PTN = Pattern.compile("\n+--");
   private static final Pattern SOFT_BREAK_PTN = Pattern.compile("\n(?=[^/ ])");
-  private static final Pattern GEN_ALERT_PTN = Pattern.compile("^(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d:\\d\\d) ~TO~ INT1 FROM FS01:\n");
   
   private static final Pattern SRC_PTN = Pattern.compile("TO INT1 FROM [A-Z0-9]+ +: +(?:\n(?=/))?(.*?)(?=\n)");
   private static final Pattern ID_PTN = Pattern.compile("\n *Inc History for: #([A-Z]{2}\\d+)\\b");
@@ -42,18 +41,6 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
     
     Matcher match = TERMINATOR_PTN.matcher(body);
     if (match.find()) body = body.substring(0,match.start()).trim();
-    // Check for the general alert pattern
-    match = GEN_ALERT_PTN.matcher(body);
-    if (match.find()) {
-      data.strCall = "GENERAL ALERT";
-      data.strDate = match.group(1);
-      data.strTime = match.group(2);
-      body = body.substring(0,match.end()).trim();
-      for (String line : body.split("\n")) {
-        data.strPlace = append(data.strPlace, "\n", line.trim());
-      }
-      return true;
-    }
     
     body = SOFT_BREAK_PTN.matcher(body).replaceAll(" ");
     Parser p = new Parser(body);

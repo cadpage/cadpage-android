@@ -223,6 +223,8 @@ Ybpngvba: Dhnxregbja, CN, Havgrq Fgngrf
  (Vzcbegnag zrffntr sebz Ohpxf Pbhagl EFNA) FGN19,NAL NINVY FGNGVBA 19 PUVRS BSSVPRE CUBAR SVER PBZZHAVPNGVBAF Frag ol zff911 Ohpxf gb FGN19, zff911 Ohpxf (Ibvpr/Snk Qvnyre, R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu Ohpxf Pbhagl EFNA
  [911 Qngn]  05/29/12  10:17:27 ~GB~ VAG1 SEBZ SF01:\aFGN19,NAL NINVY FGN 19 BE 79 PUVRS BSP PNYY SVER PBZZ/#764\a
  (911 Qngn) 06/03/12  10:43:56 ~GB~ VAG1 SEBZ SF01: FGN19,NAL NINVYNOYR FGN 19 PUVRS BSSVPRE CUBAR PBZZHAVPNGVBAF
+[911 Qngn] 08/19/13  10:18:34 ~GB~ VAG1 SEBZ SF01:\aFGN19,NAL NINVY PUVRS BSP CUBAR SVER PBZZ/639     \a                                                         \a\a\a
+ 
 
  */
 
@@ -1796,6 +1798,18 @@ choyvp pynff CNOhpxfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FGN19", "PNYY:TRARENY NYREG",
         "CYNPR:NAL NINVYNOYR FGN 19 PUVRS BSSVPRE CUBAR PBZZHAVPNGVBAF",
         "QNGR:06/03/12", "GVZR:10:43:56");
+
+    qbGrfg("G6",
+        "[911 Qngn] 08/19/13  10:18:34 ~GB~ VAG1 SEBZ SF01:\a" +
+        "FGN19,NAL NINVY PUVRS BSP CUBAR SVER PBZZ/639     \a" +
+        "                                                         \a\a\a",
+
+        "PNYY:TRARENY NYREG",
+        "FEP:FGN19",
+        "CYNPR:NAL NINVY PUVRS BSP CUBAR SVER PBZZ/639",
+        "QNGR:08/19/13",
+        "GVZR:10:18:34");
+
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
