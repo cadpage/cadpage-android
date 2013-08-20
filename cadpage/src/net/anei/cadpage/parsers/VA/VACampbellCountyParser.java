@@ -4,6 +4,7 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -20,7 +21,7 @@ public class VACampbellCountyParser extends SmartAddressParser {
   public VACampbellCountyParser() {
     super(CITY_CODES, "CAMPBELL COUNTY","VA");
     setFieldList("SRC CALL CITY ADDR ID INFO");
-    setup();
+    setupCallList(CALL_SET);
   }
   
   @Override
@@ -75,8 +76,7 @@ public class VACampbellCountyParser extends SmartAddressParser {
     return true;
   }
 
-  private void setup() {
-    setupCallList(
+  private static final CodeSet CALL_SET = new CodeSet(
         "EMS-OTHER",
         "EMS-OTHER/DEFINE",
         "EMS-ABDOMINAL PAIN",
@@ -186,8 +186,7 @@ public class VACampbellCountyParser extends SmartAddressParser {
         "VEHICLE FIRE THREATENING A STRUCTURE",
         "WATER EVENT",
         "WATER REMOVAL"
-        );
-  }
+     );
   
   private static Properties CITY_CODES = buildCodeTable(new String[]{
       "ALT", "ALTAVISTA",

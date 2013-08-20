@@ -15,17 +15,14 @@ public class DispatchDAPROParser extends FieldProgramParser {
 
   public DispatchDAPROParser(String defCity, String defState) {
     super(defCity, defState, PROGRAM_STR);
-    setup();
   }
   
   public DispatchDAPROParser(Properties cityCodeTable, String defCity, String defState) {
     super(cityCodeTable, defCity, defState, PROGRAM_STR);
-    setup();
   }
   
   public DispatchDAPROParser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState, PROGRAM_STR);
-    setup();
   }
   
   @Override
@@ -75,121 +72,5 @@ public class DispatchDAPROParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
-  }
-  
-  private void setup() {
-    setupCallList(
-        "EMS-OTHER",
-        "EMS-OTHER/DEFINE",
-        "EMS-ABDOMINAL PAIN",
-        "EMS-ALLERGIC REACTION",
-        "EMS-ALS ASSIST",
-        "EMS-ALTERED LOC",
-        "EMS-AMPUTATION",
-        "EMS-ASSAULT; INJURIES FROM",
-        "EMS-AVULSION",
-        "EMS-BACK PAIN",
-        "EMS-ANIMAL BITE",
-        "EMS-BURNS",
-        "EMS-CARDIAC",
-        "EMS-CARDIAC CONDITION",
-        "EMS-CHEST PAIN",
-        "EMS-CHOKING",
-        "EMS-CO INHALATION",
-        "EMS-CODE BLUE",
-        "EMS-DIABETIC EMERGENCY",
-        "EMS-DIFFICULTY BREATHING",
-        "EMS-PERSON DOWN",
-        "EMS-ELECTROCUTION",
-        "EMS-EYE PROBLEM",
-        "EMS-FALLS",
-        "EMS-GUNSHOT",
-        "EMS-HEADACHE",
-        "EMS-HEAT/COLD EXPOSURE",
-        "EMS-HEMORRHAGING",
-        "EMS-HIGH BLOOD PRESSURE",
-        "EMS-ILLNESS",
-        "EMS-LACERATION",
-        "EMS-MENTAL PROBLEM",
-        "EMS-OB RELATED EVENT",
-        "EMS-OVERDOSE/POISONING",
-        "EMS-PATIENT FALLEN",
-        "EMS-SEIZURES",
-        "EMS-STAB WOUND",
-        "EMS-STROKE",
-        "EMS-TRAUMA INJURIES",
-        "EMS-UNCONSCIOUS",
-        "EMS-UNKNOWN MADICAL",
-        "911 HANG UP",
-        "911 OPEN LINE",
-        "ACCIDENT-INJURY",
-        "AUTOMATIC FIRE ALARM",
-        "AIRCRAFT INCIDENT",
-        "MEDICAL ALARM",
-        "ALARM SOUNDING",
-        "ATTEMPTED SUICIDE",
-        "BOMB THREAT",
-        "BRUSH FIRE",
-        "BRUSH FIRE THREATENING A STRUC",
-        "CHIMNEY FIRE",
-        "CO DETECTOR ACTIVATION",
-        "POSSIBLE CO EVENT",
-        "STRUCTURE COLLAPSE",
-        "CONSTRUCTION ACCIDENT",
-        "CONTROLLED BURN",
-        "TRAFFIC CRASH",
-        "TRAFFIC CRASH INVOLVING A BUS",
-        "TRAFFIC CRASH W/PEDESTRIAN",
-        "TRAFFIC CRASH INVOLVING A STRU",
-        "DUMPSTER FIRE",
-        "ELEVATOR ENTRAPMENT",
-        "EXPLOSION",
-        "FARM ACCIDENT",
-        "FILL QUARTERS",
-        "FIRE-DUMPSTER",
-        "FORREST FIRE",
-        "GRASS FIRE",
-        "GRASS FIRE THREATENING A STRUC",
-        "HAZMAT INCIDENT",
-        "HAZMAT LEVEL 3 INCIDENT",
-        "HOSTAGE/BARRICADE",
-        "INDUSTRIAL ACCIDENT",
-        "LANDING ZONE",
-        "LINES DOWN",
-        "LOCK OUT SERVICE",
-        "MENTAL CASE",
-        "MULCH FIRE",
-        "MULCH FIRE THREATENING A STRUC",
-        "ODOR INVESTIGATION",
-        "ODOR INVESTIGATION IN STRUCTUR",
-        "OFFICER INVOLVED SHOOTING",
-        "SUSPICIOUS PACKAGE",
-        "PUBLIC SERVICE CALL",
-        "RAPE",
-        "REKINDLE",
-        "GROUND RESCUE",
-        "GROUND SEARCH",
-        "SMOKE INVESTIGATION",
-        "LARGE SPILL",
-        "SMALL SPILL",
-        "STAND-BY",
-        "POSSIBLE STRUCTURE FIRE",
-        "STRUCTURE FIRE",
-        "SUICIDE",
-        "TECHNICAL RESCUE",
-        "TRAIN CRASH",
-        "TRAIN FIRE",
-        "TRANSFORMER FIRE",
-        "TRASH FIRE",
-        "TREE FIRE",
-        "TREE FIRE THREATENING A STRUCTUR",
-        "UNAUTHORIZED BURN",
-        "UNKNOWN SITUATION",
-        "UNKNOWN FIRE",
-        "VEHICLE FIRE",
-        "VEHICLE FIRE THREATENING A STRUCTURE",
-        "WATER EVENT",
-        "WATER REMOVAL"
-    );
   }
 }

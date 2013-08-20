@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.VA;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchDAPROParser;
 
@@ -11,7 +12,7 @@ public class VANewKentCountyParser extends DispatchDAPROParser {
   
   public VANewKentCountyParser() {
     super("NEW KENT COUNTY", "VA");
-    setup();
+    setupCallList(CALL_SET);
   }
   
   @Override
@@ -33,16 +34,14 @@ public class VANewKentCountyParser extends DispatchDAPROParser {
   }
   private static final Pattern LEAD_ZEROS_PTN = Pattern.compile("^0+ +");
   
-  private void setup() {
-    setupCallList(
-        "BREATHING DIFFICULTY",
-        "CARDIAC (WITH HISTORY)",
-        "DEBRIS/TREE IN ROAD",
-        "MOTOR VEHICLE ACCIDENT",
-        "RESIDENTIAL FIRE ALARM",
-        "SUSPICIOUS SITUATION",
-        "SEIZURE/CONVUSIONS",
-        "VEHICLE FIRE"
-        );
-  }
+  private static final CodeSet CALL_SET = new CodeSet(
+      "BREATHING DIFFICULTY",
+      "CARDIAC (WITH HISTORY)",
+      "DEBRIS/TREE IN ROAD",
+      "MOTOR VEHICLE ACCIDENT",
+      "RESIDENTIAL FIRE ALARM",
+      "SUSPICIOUS SITUATION",
+      "SEIZURE/CONVUSIONS",
+      "VEHICLE FIRE"
+  );
 }

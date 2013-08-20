@@ -776,6 +776,7 @@ public class ParserList {
               ,"VAFairfaxCity"                  ,"Fairfax City, VA"
               ,"VAFairfaxCounty"                ,"Fairfax County, VA"
               ,"VAFauquierCounty"               ,"Fauquier County, VA"
+              ,"VAFluvannaCounty"               ,"Fluvanna County, VA"
               ,"VAFranklin"                     ,"Franklin, VA"
               ,"VAFranklinCounty"               ,"Franklin County, VA"
               ,"VAFrederickCounty"              ,"Frederick County, VA"
