@@ -15,7 +15,7 @@ public class OHMahoningCountyParser extends DispatchEmergitechParser {
   private static final Pattern GPS_TERM_PTN = Pattern.compile("Z ?=[0-9 \\.]*M");
   private static final Pattern[] CITY_SPACE_PTNS = {
     Pattern.compile("([NESW]) (.*)"),
-    Pattern.compile("(.*) [NESW]"),
+    Pattern.compile("(.*) ([NESW])"),
     Pattern.compile("(.*) ([NESW] TWP)"),
     Pattern.compile("(LAK) (E .*)"),
     Pattern.compile("(NEW [NSEW]) (.*)")
