@@ -33,6 +33,7 @@ Fraqre: pnq@cevaprtrbetrin.bet
 Pbagnpg: Oelna Uneyrff <qisq206@tznvy.pbz>
 Fraqre: pnq@cevaprtrbetrpbhaglin.tbi
 1613:PNQ:SVER IRUVPYR;12223 PRAGRAAVNY EQ;DHNVY EHA YA;BYQ GBJA EQ;CET
+1616:PNQ:NPPVQRAG HAXABJA VAWHEL;13000-OYX CEVAPR TRBETR QE;EBFRZNEVRF JNL;GNIREA EQ;QVFC
 
 ***/
 
@@ -162,12 +163,21 @@ choyvp pynff INCevaprTrbetrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:DHNVY EHA YA & BYQ GBJA EQ",
         "PVGL:CEVAPR TRBETR");
 
-    qbGrfg("G1",
+    qbGrfg("G2",
         "1614:PNQ:SVER OEHFU/JBBQF;6242 BNX FUNQRF CNEX QE;YNZBER QE;QVFC",
         "VQ:1614",
         "PNYY:SVER OEHFU/JBBQF",
         "NQQE:6242 BNX FUNQRF CNEX QE",
         "K:YNZBER QE",
+        "PVGL:QVFCHGNAGN");
+
+    qbGrfg("G3",
+        "1616:PNQ:NPPVQRAG HAXABJA VAWHEL;13000-OYX CEVAPR TRBETR QE;EBFRZNEVRF JNL;GNIREA EQ;QVFC",
+        "VQ:1616",
+        "PNYY:NPPVQRAG HAXABJA VAWHEL",
+        "NQQE:13000-OYX CEVAPR TRBETR QE",
+        "ZNQQE:13000 CEVAPR TRBETR QE",
+        "K:EBFRZNEVRF JNL & GNIREA EQ",
         "PVGL:QVFCHGNAGN");
    
   }
