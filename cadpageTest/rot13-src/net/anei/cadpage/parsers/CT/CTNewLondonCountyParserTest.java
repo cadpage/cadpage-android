@@ -231,7 +231,9 @@ choyvp pynff PGArjYbaqbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SQ - ZRQVPNY RZRETRAPL",
         "ANZR:XVZONYY ERFQ",
         "NQQE:2 FRN OERRMR NIR",
-        "VASB:85 l/b znyr, treareny jrnxarff hanoyr gb nzohyngr. / 10/5/2012 09:50");
+        "VASB:85 l/b znyr, treareny jrnxarff hanoyr gb nzohyngr.",
+        "QNGR:10/5/2012",
+        "GVZR:09:50");
 
     qbGrfg("G9",
         "[Vzp Fbyhgvbaf Cntr]  SQ - SVER, NHGB\a231 ZNVA FG\aRnfg Ylzr\aSver Qvfgevpg: AUD\a10/4/2012 22:01",

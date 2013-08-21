@@ -44,6 +44,9 @@ public class MECumberlandCountyParser extends DispatchA16Parser {
     "STANDISH",
     "WESTBROOK",
     "WINDHAM",
-    "YARMOUTH"
+    "YARMOUTH",
+    
+    // York County
+    "OLD ORCHARD BEACH"
   };
 }

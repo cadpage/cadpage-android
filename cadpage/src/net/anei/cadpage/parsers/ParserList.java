@@ -318,6 +318,7 @@ public class ParserList {
               ,"LAStTammanyParish"              ,"St Tammany Parish, LA"
           ),
           new ParserCategory("Maine"
+              ,"MECumberlandCounty"             ,"Cumberland County, ME"
               ,"MEKnoxCounty"                   ,"Knox County, ME"
               ,"MEOxfordCounty"                 ,"Oxford County, ME"
               ,"MEYorkCounty"                   ,"York County, ME"
