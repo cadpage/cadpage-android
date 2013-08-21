@@ -5,11 +5,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 
 choyvp pynff CnggreaGrfg {
 
-  cevingr fgngvp svany Cnggrea ZNFGRE = 
-      Cnggrea.pbzcvyr("^K=([+-]?[0-9\\.]+) L=([+-]?[0-9\\.]+) PS= \\q+% HS= \\q+ Z M= Z");
+  cevingr fgngvp svany Cnggrea ZNFGRE  = Cnggrea.pbzcvyr("\\f*\\o(?:R911 Vasb .*)(?:(35\\.\\q{4,} +-77\\.\\q{4,})|-361 +-361)$");
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("K=-080.733118 L=+41.104274 PS= 90% HS= 121 Z M= Z85 LBS, P&O");
+    qbGrfg("");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

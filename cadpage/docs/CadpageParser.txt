@@ -4,7 +4,7 @@ The Cadpage Parser is distributed as the CadpageParser.jar file available from
 http://www.cadpage.org/download-cadpage.  It is distributred under a GPL3 license, 
 the source code is available from http://code.google.com/p/cadpage
 
-It can be called directy from a Java program, but will most commonly be 
+It can be called directly from a Java program, but will most commonly be 
 executed as a standalone process   You do have to have Java 1.5 or better
 installed on your system.
 
