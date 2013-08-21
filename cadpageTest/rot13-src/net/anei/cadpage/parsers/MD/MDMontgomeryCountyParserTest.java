@@ -116,6 +116,22 @@ Fraqre: tranyeg_PWQ5@zpra.zbagtbzrelpbhaglzq.tbi
 (Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 2815 * VAWHERQ CREFBA * 8201 RZBEL TEBIR EQ ,ZPT (HCCRE PBHAGL PBZZ PA) * N708 RPP4\a\aFrag ol Zbagtbzrel PNQ gb N708, SF28, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \a\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\a----\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
 (Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 2301 * HAPBAFPVBHF CREFBA- NYF2 * 121 PBATERFFVBANY YN ,EB  * Z723 CR723 RPP2\a\aFrag ol Zbagtbzrel PNQ gb SF23, CR723, Z723, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \a\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\a----\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Tyra Rpub Sver Qrcnegzrag
+Ybpngvba: Orgurfqn, ZQ, Havgrq Fgngrf
+Fraqre: "Trareny Nyreg" <tranyeg_T40I@zpra.zbagtbzrelpbhaglzq.tbi>
+
+(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 2605 * FAS -QRP/YBP (QAE-O)-OYF * 6530 QRZBPENPL OYI ,ZPT (ZNABE PNER ORGURFQN (FAS)) * N711 RPP13\a\aFrag ol Zbagtbzrel PNQ gb SF26, N711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a\e\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
+(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1102 * FVPX-JRNXARFF * 5700 TYBFGRE EQ ,ZPT  * N711 RPP9\a\aFrag ol Zbagtbzrel PNQ gb SF11, N711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a\e\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
+(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1102 * SHRY/YX * 5202 ANUNAG FG ,ZPT  * R710 RPP23\a\aFrag ol Zbagtbzrel PNQ gb R710, SF11, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a\e\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
+(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1102 * JVERF QBJA * 5300OYX  JNARGN EQ ,ZPT  * CR706 RPP10\a\aFrag ol Zbagtbzrel PNQ gb cr706, SF11, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a\e\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
+(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 2605 * GENAFSRE * FGNGVBA 26 @ 6700 QRZBPENPL OYI ,ZPT  * RPP9 R711\a\aFrag ol Zbagtbzrel PNQ gb SF26, R711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a\e\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
+(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1101 * CBY - OYF * 5225 SNEEVATGBA EQ ,ZPT  * N711 RPP8\a\aFrag ol Zbagtbzrel PNQ gb SF11, N711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a\e\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
+(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1101 * FVPX j/ NYGRERQ YBP- NYF1 * 5314 SNYZBHGU EQ ,ZPT  * R711 Z741 RPP11\a\aFrag ol Zbagtbzrel PNQ gb SF11, R711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a\e\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
+(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1102 * NZN * 5603 UNEJVPX EQ ,ZPT  * N711 R711 RPP9\a\aFrag ol Zbagtbzrel PNQ gb SF11, N711, R711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a\e\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
+(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1102 * PC j/ GO- NYF1 * 4600 FNATNZBER EQ ,ZPT (REFXVAR UNYY) * Z711 R711 RPP9\a\aFrag ol Zbagtbzrel PNQ gb SF11, R711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a\e\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
+(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1102 * URNEG CEBOYRZF- NYF1 * 4952 FRAGVARY QE ,ZPT  * N711 CR706 RPP14\a\aFrag ol Zbagtbzrel PNQ gb cr706, SF11, N711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a\e\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
+
 */
 choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
@@ -972,6 +988,158 @@ choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:Z703 PJSHYY");
  
   }
+  
+  @Grfg
+  choyvp ibvq grfgTyraRpubSverQrcnegzrag() {
+
+    qbGrfg("G1",
+        "(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 2605 * FAS -QRP/YBP (QAE-O)-OYF * 6530 QRZBPENPL OYI ,ZPT (ZNABE PNER ORGURFQN (FAS)) * N711 RPP13\a\a" +
+        "Frag ol Zbagtbzrel PNQ gb SF26, N711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a" +
+        "\e\a" +
+        "...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
+        "----\e\a" +
+        "- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi",
+
+        "OBK:2605",
+        "PNYY:FAS -QRP/YBP (QAE-O)-OYF",
+        "NQQE:6530 QRZBPENPL OYI",
+        "ZNQQE:6530 QRZBPENPL OYIQ",
+        "CYNPR:ZNABE PNER ORGURFQN (FAS",
+        "HAVG:N711 RPP13",
+        "FEP:SF26");
+
+    qbGrfg("G2",
+        "(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1102 * FVPX-JRNXARFF * 5700 TYBFGRE EQ ,ZPT  * N711 RPP9\a\a" +
+        "Frag ol Zbagtbzrel PNQ gb SF11, N711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a" +
+        "\e\a" +
+        "...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
+        "----\e\a" +
+        "- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi",
+
+        "OBK:1102",
+        "PNYY:FVPX-JRNXARFF",
+        "NQQE:5700 TYBFGRE EQ",
+        "HAVG:N711 RPP9",
+        "FEP:SF11");
+
+    qbGrfg("G3",
+        "(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1102 * SHRY/YX * 5202 ANUNAG FG ,ZPT  * R710 RPP23\a\a" +
+        "Frag ol Zbagtbzrel PNQ gb R710, SF11, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a" +
+        "\e\a" +
+        "...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
+        "----\e\a" +
+        "- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi",
+
+        "OBK:1102",
+        "PNYY:SHRY/YX",
+        "NQQE:5202 ANUNAG FG",
+        "HAVG:R710 RPP23",
+        "FEP:SF11");
+
+    qbGrfg("G4",
+        "(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1102 * JVERF QBJA * 5300OYX  JNARGN EQ ,ZPT  * CR706 RPP10\a\a" +
+        "Frag ol Zbagtbzrel PNQ gb cr706, SF11, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a" +
+        "\e\a" +
+        "...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
+        "----\e\a" +
+        "- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi",
+
+        "OBK:1102",
+        "PNYY:JVERF QBJA",
+        "NQQE:5300OYX  JNARGN EQ",
+        "ZNQQE:5300  JNARGN EQ",
+        "HAVG:CR706 RPP10",
+        "FEP:SF11");
+
+    qbGrfg("G5",
+        "(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 2605 * GENAFSRE * FGNGVBA 26 @ 6700 QRZBPENPL OYI ,ZPT  * RPP9 R711\a\a" +
+        "Frag ol Zbagtbzrel PNQ gb SF26, R711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a" +
+        "\e\a" +
+        "...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
+        "----\e\a" +
+        "- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi",
+
+        "OBK:2605",
+        "PNYY:GENAFSRE",
+        "NQQE:6700 QRZBPENPL OYI",
+        "ZNQQE:6700 QRZBPENPL OYIQ",
+        "CYNPR:FGNGVBA 26",
+        "HAVG:RPP9 R711",
+        "FEP:SF26");
+
+    qbGrfg("G6",
+        "(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1101 * CBY - OYF * 5225 SNEEVATGBA EQ ,ZPT  * N711 RPP8\a\a" +
+        "Frag ol Zbagtbzrel PNQ gb SF11, N711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a" +
+        "\e\a" +
+        "...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
+        "----\e\a" +
+        "- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi",
+
+        "OBK:1101",
+        "PNYY:CBY - OYF",
+        "NQQE:5225 SNEEVATGBA EQ",
+        "HAVG:N711 RPP8",
+        "FEP:SF11");
+
+    qbGrfg("G7",
+        "(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1101 * FVPX j/ NYGRERQ YBP- NYF1 * 5314 SNYZBHGU EQ ,ZPT  * R711 Z741 RPP11\a\a" +
+        "Frag ol Zbagtbzrel PNQ gb SF11, R711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a" +
+        "\e\a" +
+        "...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
+        "----\e\a" +
+        "- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi",
+
+        "OBK:1101",
+        "PNYY:FVPX j/ NYGRERQ YBP- NYF1",
+        "NQQE:5314 SNYZBHGU EQ",
+        "HAVG:R711 Z741 RPP11",
+        "FEP:SF11");
+
+    qbGrfg("G8",
+        "(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1102 * NZN * 5603 UNEJVPX EQ ,ZPT  * N711 R711 RPP9\a\a" +
+        "Frag ol Zbagtbzrel PNQ gb SF11, N711, R711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a" +
+        "\e\a" +
+        "...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
+        "----\e\a" +
+        "- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi",
+
+        "OBK:1102",
+        "PNYY:NZN",
+        "NQQE:5603 UNEJVPX EQ",
+        "HAVG:N711 R711 RPP9",
+        "FEP:SF11");
+
+    qbGrfg("G9",
+        "(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1102 * PC j/ GO- NYF1 * 4600 FNATNZBER EQ ,ZPT (REFXVAR UNYY) * Z711 R711 RPP9\a\a" +
+        "Frag ol Zbagtbzrel PNQ gb SF11, R711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a" +
+        "\e\a" +
+        "...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
+        "----\e\a" +
+        "- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi",
+
+        "OBK:1102",
+        "PNYY:PC j/ GO- NYF1",
+        "NQQE:4600 FNATNZBER EQ",
+        "CYNPR:REFXVAR UNYY",
+        "HAVG:Z711 R711 RPP9",
+        "FEP:SF11");
+
+    qbGrfg("G10",
+        "(Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 1102 * URNEG CEBOYRZF- NYF1 * 4952 FRAGVARY QE ,ZPT  * N711 CR706 RPP14\a\a" +
+        "Frag ol Zbagtbzrel PNQ gb cr706, SF11, N711, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a" +
+        "\e\a" +
+        "...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a" +
+        "----\e\a" +
+        "- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi",
+
+        "OBK:1102",
+        "PNYY:URNEG CEBOYRZF- NYF1",
+        "NQQE:4952 FRAGVARY QE",
+        "HAVG:N711 CR706 RPP14",
+        "FEP:SF11");
+
+  }
+  
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj ZQZbagtbzrelPbhaglCnefreGrfg().trarengrGrfgf("G1");

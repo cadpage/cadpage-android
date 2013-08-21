@@ -97,6 +97,8 @@ Ybpngvba: Bebivyyr, PN, Havgrq Fgngrf
 (Qvfcngpurq Pnyy (114)) 1980 ZBHAGNVA IVFGN QE, Bebivyyr, PN *  * PERFG QE *  * SQZRQ *  * NYGRERQ YBP
 (Qvfcngpurq Pnyy (121)) 18 PBIRAGEL QE, Bebivyyr, PN *  * CNEXJBBQ QE/YVAQN QE *  * SQNFFVFG *  * Freivpr Pynff: ERFQ\aYVSG NFFVFG
 
+(Qvfcngpurq Pnyy (114)) 974 ZBAGTBZREL FG, Bebivyyr, PN *  * 4GU NI/3EQ NI * 2 * SQZRQ *  * #130819101 * \a\aNOQBZVANY CNVA\a\a
+
  */
 
 
@@ -1040,6 +1042,22 @@ choyvp pynff PNBebivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SQNFFVFG",
         "PNYY:YVSG NFFVFG");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRyZrqvbSverQvfgevpg() {
+
+    qbGrfg("G1",
+        "(Qvfcngpurq Pnyy (114)) 974 ZBAGTBZREL FG, Bebivyyr, PN *  * 4GU NI/3EQ NI * 2 * SQZRQ *  * #130819101 * \a\aNOQBZVANY CNVA\a\a",
+        "HAVG:114",
+        "NQQE:974 ZBAGTBZREL FG",
+        "PVGL:Bebivyyr",
+        "K:4GU NI/3EQ NI",
+        "NCG:2",
+        "PBQR:SQZRQ",
+        "VQ:130819101",
+        "PNYY:NOQBZVANY CNVA");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
