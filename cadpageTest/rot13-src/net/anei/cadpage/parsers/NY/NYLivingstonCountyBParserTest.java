@@ -58,7 +58,7 @@ Fraqre: urzybpxsq@ebpurfgre.ee.pbz, urzybpxsver@ebpurfgre.gjpop.pbz
 choyvp pynff ALYvivatfgbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ALYvivatfgbaPbhaglOCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "YVIVATFGBA PBHAGL", "AL");
+    frgCnefre(arj ALYvivatfgbaPbhaglOCnefre(), "YVIVATFGBA PBHAGL", "AL");
   }
   
   @Grfg
