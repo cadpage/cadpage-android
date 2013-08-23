@@ -377,9 +377,10 @@ public class ParserList {
           ),
           new ParserCategory("Minnesota"
               ,"MNAnokaCounty"                  ,"Anoka County, MN"
+              ,"MNCarverCounty"                 ,"Carver County, MN"
               ,"MNDakotaCounty"                 ,"Dakota County, MN"
-              ,"MNMinneapolisStPaul"            ,"Minneapolis/St Paul, MN"
               ,"MNHennepinCounty"               ,"Hennepin County, MN"
+              ,"MNMinneapolisStPaul"            ,"Minneapolis/St Paul, MN"
               ,"MNOlmstedCounty"                ,"Olmsted County, MN"
               ,"MNSherburneCounty"              ,"Sherburne County, MN"
               ,"MNWashingtonCounty"             ,"Washington County, MN"
