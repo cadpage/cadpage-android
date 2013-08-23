@@ -17,6 +17,9 @@ Fraqre: RSE PNQ <pnyy-nyreg@rireterrasvererfphr.pbz>
 (RSE Pnyy: ZRQVPNY ERFCBAFR #PSF:020613-10) \aPNYY: ZRQVPNY ERFCBAFR\aCYNPR: \aNQQE: 2170 GBEERL CVAR QE, Rireterra, PB 80439\aPVGL: RIRETERRA\aVQ: PSF:020613-10\aCEV: 1\aQNGR: 02/06/2013\aGVZR: 17:00:27\aZNC: uggc://zncf.tbbtyr.pbz/zncf?d=+39.67513%20-105.36189\aHAVG: \aVASB: PSF: 020613-10\aUlqenag: 169  \aUlqenag: 170  \aFQ UVJNA\aFQ UVJNA\aCntr 70\aSVER QVFGEVPG\aFGNGVBA 2 NZO\aFGNGVBA 2 ERFCBAFR MBAR\a\a\a         \a         \a         \a         \a         \a         \a         \a         \a         \a         \aPebff Fgerrgf : GBEERL CVAR PVE YVSG NFFVFG GB TRG CG SEBZ PNE GB UBHFR\aVap Ybpngvba punatrq gb 2170 GBEERL CVAR QE ng 17:00\aFQ UVJNA\a  
 (RSE Pnyy: ZRQVPNY ERFCBAFR #PSF:020613-7) \aPNYY: ZRQVPNY ERFCBAFR\aCYNPR: \aNQQE: 31299 ZNAVGBON QE, Rireterra, PB 80439\aPVGL: RIRETERRA\aVQ: PSF:020613-7\aCEV: 1\aQNGR: 02/06/2013\aGVZR: 13:44:48\aZNC: uggc://zncf.tbbtyr.pbz/zncf?d=+39.59878%20-105.35666\aHAVG: \aVASB: PSF: 020613-7\aUlqenag: 85  \aUlqenag: 95  \aFQ RIRETERRA INYYRL RFGNGRF\aCntr 26\aSVER QVFGEVPG\aFGNGVBA 8 ERFCBAFR MBAR\aFGNGVBA 4 NZO\aPebff Fgerrgf : FABJFUBR EQ Vap Ybpngvba punatrq gb 31299 ZNAVGBON QE ng 13:44\aVap Ybpngvba punatrq gb [AB INYHR] ng 13:44\aCntr 26\a  
 
+Pbagnpg: PbqrZrffntvat
+VQ: 21996\aHAVG: 211,\aPNYY: Fhfcvpvbhf Crefba\aPBQR: 81\aFEP: 102\aCEV: 1\aCYNPR: ARJZNA'F PNEELBHG\aNQQE: 1421  FG EG 15\18\aNCG: O\aOBK: 15 15\aK: HF 24 naq PUEVFGL EQ\aPVGL: ABOYR GJC\aFGNGR: BU\aZNC:\aPU:\aVASB: JUVGR ZNYR JUB VF RYQREYL YRNAVAT NTNVAFG N FRZV-GEHPX JVGU\aPNZBSYBHTR FUBEGF\aANZR: YBERGGN\aCUBAR:\aTCF:\aGVZR: 12:10:37\aQNGR: 08/09/2013\aGvzr_Qvfcngpurq: 2013-08-09 12:10:37\aGuvf_Havg: 211\aIrefvba: BUQrsvnaprPbhagl.20130701
+
  */
 choyvp pynff Pnqcntr2CnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -39,6 +42,25 @@ choyvp pynff Pnqcntr2CnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:15:05:03",
         "QNGR:07/10/2013");
 
+    qbGrfg("OnpxFynfu",
+        "VQ: 21996\aHAVG: 211,\aPNYY: Fhfcvpvbhf Crefba\aPBQR: 81\aFEP: 102\aCEV: 1\aCYNPR: ARJZNA'F PNEELBHG\aNQQE: 1421  FG EG 15\\18\aNCG: O\aOBK: 15 15\aK: HF 24 naq PUEVFGL EQ\aPVGL: ABOYR GJC\aFGNGR: BU\aZNC:\aPU:\aVASB: JUVGR ZNYR JUB VF RYQREYL YRNAVAT NTNVAFG N FRZV-GEHPX JVGU\aPNZBSYBHTR FUBEGF\aANZR: YBERGGN\aCUBAR:\aTCF:\aGVZR: 12:10:37\aQNGR: 08/09/2013\aGvzr_Qvfcngpurq: 2013-08-09 12:10:37\aGuvf_Havg: 211\aIrefvba: BUQrsvnaprPbhagl.20130701",
+        "VQ:21996",
+        "HAVG:211,",
+        "PNYY:Fhfcvpvbhf Crefba",
+        "PBQR:81",
+        "FEP:102",
+        "CEV:1",
+        "CYNPR:ARJZNA'F PNEELBHG",
+        "NQQE:1421  FG EG 15\\18",
+        "ZNQQE:1421  FGNGR 15\\18",
+        "NCG:O",
+        "OBK:15 15",
+        "K:HF 24 naq PUEVFGL EQ",
+        "PVGL:ABOYR GJC",
+        "VASB:JUVGR ZNYR JUB VF RYQREYL YRNAVAT NTNVAFG N FRZV-GEHPX JVGU\aPNZBSYBHTR FUBEGF",
+        "ANZR:YBERGGN",
+        "GVZR:12:10:37",
+        "QNGR:08/09/2013");
   }
 
   @Grfg

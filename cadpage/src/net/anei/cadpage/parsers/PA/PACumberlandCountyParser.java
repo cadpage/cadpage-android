@@ -25,6 +25,13 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
     if (subject.startsWith("[DISPATCH]")) subject = subject.substring(10).trim();
     if (!super.parseMsg(subject,  body, data)) return false;
     
+    // The Map (Zone) field contains the CAD zone (which users are not interested in
+    // and  a box number
+    Parser p = new Parser(data.strMap);
+    p.get(' ');
+    data.strBox = p.get();
+    data.strMap = "";
+    
     // Lots of special handling goes into mutual aid calls
     if (data.strCall.startsWith("MUTUAL AID") && data.strAddress.length() <= 3) {
       String addr = data.strPlace;
@@ -61,6 +68,11 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
       }
     }
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("MAP", "BOX");
   }
   
   @Override
