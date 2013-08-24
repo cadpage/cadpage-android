@@ -1,0 +1,217 @@
+package net.anei.cadpage.parsers.MN;
+
+import net.anei.cadpage.parsers.BaseParserTest;
+import net.anei.cadpage.parsers.MN.MNAnokaCountyParser;
+
+import org.junit.Test;
+
+/*
+North Memorial Ambulance Service, MN and parts of WI
+Contact: Brad Winger <Brad.Winger@NorthMemorial.com>
+
+P1 AL313648 CONVULSION 2024 Washington Ave N COMT: UPSTAIRS #4 City: Minneapolis MAP: 106-C1ZC:55411 X: West Broadway <Hanna>
+COMPLETED AL 313648 REC 23:57 ALR 23:57 ENR 23:57 ARR 00:02 DEP 00:12  COM 00:17
+
+Transfers:
+P4 AC31216 STROKE/CVA  PT: 1304134, 130413 RENVILLE COUNTY HOSPITAL 611 E FAIRVIEW CITY; OLIVIA RM: WC N MAP ZC:56277 X LZ/AIRPORT DESTINATION AND PT INFO 800 28TH ST E CITY MINNEAPOLIS  SPEC R-07/M-32/L-32/P-33/B-47/BJ-72 < WAMPLER>
+
+Priority
+Run Number
+Problem Type
+Patient name first and last. If unknown patient record number
+pick up location name
+pick up location address
+room
+map
+cross street- for facilities will include landing zone information
+destination name
+destination address
+city
+special ETA's
+Dispatcher name
+
+
+It comes through CAD to page gate and then is sent out with either a rolling number, Position name or a dispatcher name.
+ 
+Rolling code
+193001023
+ 
+Position Number
+(Frm: POSITION4)
+ 
+Dispatcher Name
+(Frm: KEELER)
+ 
+Test #1
+193001024 8 TR368 PU 1620 BURNS/EXPLOS PT:STILL, STAN 336 LORENZ ST CITY:LORETTO RM: WC N MAP:89-B1ZC:55357 X:SAINT PETER ST <CONTINUE>
+DEST & PT INFO <OPS SUP>
+ 
+193001026 COMPLETED TR368 REC 12:51 ALR 15:41 ENR ARR DEP DES COM 15:42 <OPS SUP>
+ 
+Test #2
+193001027  P5 TR369 PU 1516 TRANSFER PT:ELLIS, MARV FAIRVIEW NORTHLAND 911 NORTHLAND DR CITY:PRINCETON RM:ER-4 WC N MAP:NO MATCHZC:55371 <CONTINUE>
+ 
+193001028 DEST & PT INFO NORTH MEMORIAL MEDI 3300 OAKDALE AVE N CITY:ROBBINSDALE RM:ICU SPEC:SEPSIS Pt Inf:MONITOR / VE NT / IV PROPOFOL / <OPS SUP>
+ 
+Test #3
+193001029 P8 TR370 PU 1400 TRAUMATIC IN PT:KINN, MANNY 6831 401ST AVE NW CITY:DALBO TWP RM: WC N MAP:No MatchZC:55017 X:XENON ST NW <CONTINUE> DEST & PT INFO Pt Inf:SLED ACCIDEN T <OPS SUP>
+ 
+193001030 OMPLETED TR369 REC 12:37 ALR 15:42 ENR 15:42 ARR DEP DES COM 15:42 <OPS SUP>
+ 
+Test #4
+193001031 P8 TR371 PU 1417 Industrial A PT:PIPE, DUANE 8434 34TH AVE N CITY:NEW HOPE RM: WC N MAP:91-C4ZC:55427 X:XYLON AVE N <CONTINUE>
+ 
+193001031 DEST & PT INFO Pt Inf:TRAPPED UNDE R LARGE SEWER PIPE <OPS SUP>
+193001032 COMPLETED TR370 REC 12:33 ALR 15:42 ENR ARR DEP DES COM 15:42 <OPS SUP>
+ 
+Test #5
+ 
+193001036 P8 TR372 PU 1350 Breathing Pr PT:AUSTED, FELIX 677 6TH ST SW CITY:BRAINERD RM: WC N MAP:No MatchZC:56401 X:MAY ST <CONTINUE> DEST & PT INFO <OPS SUP>
+ 
+193001038 COMPLETED TR372 REC 12:35 ALR 15:48 ENR ARR DEP DES COM 15:48 <OPS SUP>
+
+*/
+
+public class MNNorthMemorialAmbulanceServiceParserTest extends BaseParserTest {
+  
+  public MNNorthMemorialAmbulanceServiceParserTest() {
+    setParser(new MNAnokaCountyParser(), "ANOKA COUNTY", "MN");
+  }
+  
+  @Test
+  public void testParser() {
+
+    doTest("T1",
+        "CAD MSG: *D A3   57       HANSON BLVD NW / ANDOVER BLVD NW  NE CORNER..SMOKE/CHARRED GRASS...SM FLAMES INC:10019729   [42]",
+        "SRC:A3",
+        "CALL:57 - Fire (Misc)",
+        "ADDR:HANSON BLVD NW & ANDOVER BLVD NW",
+        "INFO:NE CORNER..SMOKE/CHARRED GRASS...SM FLAMES",
+        "ID:10019729");
+    
+    doTest("T2",
+        "CAD MSG: *D A3   39F      17844 XEON ST NW  FIRE ALARM... SMOKE OR HEAT UPSTAIRS OR IN GARAGE... SMALL DOG ONSITE INC:10019638",
+        "SRC:A3",
+        "CALL:39F - Alarm (Fire)",
+        "ADDR:17844 XEON ST NW",
+        "INFO:FIRE ALARM... SMOKE OR HEAT UPSTAIRS OR IN GARAGE... SMALL DOG ONSITE",
+        "ID:10019638");
+    
+    doTest("T3",
+        "CAD MSG: *D A3   45F      14950 HANSON BLVD NW @ANDOVER ELEMENTARY  PLANNED FIRE DRILL AT 1330 ... WILL CALL BACK WHEN COMPLETE INC:10019627",
+        "SRC:A3",
+        "CALL:45F - Fire Drill",
+        "ADDR:14950 HANSON BLVD NW",
+        "PLACE:ANDOVER ELEMENTARY",
+        "INFO:PLANNED FIRE DRILL AT 1330 ... WILL CALL BACK WHEN COMPLETE",
+        "ID:10019627");
+    
+    doTest("T4",
+        "CAD MSG: *D A3   57       A FIRE DEPT 3 @15929 CROSSTOWN BLVD NW  ** ILLEGAL BURN * IN MILLER WOODS THE NEW DEVELOPMENT INC:10019583",
+        "SRC:A3",
+        "CALL:57 - Fire (Misc)",
+        "PLACE:A FIRE DEPT 3",
+        "ADDR:15929 CROSSTOWN BLVD NW",
+        "INFO:** ILLEGAL BURN * IN MILLER WOODS THE NEW DEVELOPMENT",
+        "ID:10019583");
+    
+    doTest("T5",
+        "CAD MSG: *D A3   32R      YMCA @15200 HANSON BLVD NW  ** SKATEBOARD PARK * 7 YO FE * FELL FRM A ACTIVITY BARS * DID LOOSE CONC IS CONC NOW * DIFF BREATHING AMB",
+        "SRC:A3",
+        "CALL:32R - Rescue",
+        "PLACE:YMCA",
+        "ADDR:15200 HANSON BLVD NW",
+        "INFO:** SKATEBOARD PARK * 7 YO FE * FELL FRM A ACTIVITY BARS * DID LOOSE CONC IS CONC NOW * DIFF BREATHING AMB");
+    
+    doTest("T6",
+        "CAD MSG: *D A1   59       RR TRACKS / BUNKER LAKE BLVD NW  PD ACCIDENT/BLOCKING/NEED SGT TO RESPOND ALSO / FIRE RTN FOR WASH DOWN INC:10019310",
+        "SRC:A1",
+        "CALL:59 - Police Assist",
+        "ADDR:RR TRACKS & BUNKER LAKE BLVD NW",
+        "INFO:PD ACCIDENT/BLOCKING/NEED SGT TO RESPOND ALSO / FIRE RTN FOR WASH DOWN",
+        "ID:10019310");
+    
+    doTest("T7",
+        "CAD MSG: *D A2   56       CO7 NW / CO58 NW  STRONG GAS ODOR IN THE AREA INC:10019278",
+        "SRC:A2",
+        "CALL:56 - Smoke/Gas Odor",
+        "ADDR:CO-7 NW & CO-58 NW",
+        "MADDR:COUNTY ROAD 7 NW & COUNTY ROAD 58 NW",
+        "INFO:STRONG GAS ODOR IN THE AREA",
+        "ID:10019278");
+    
+    doTest("T8",
+        "CAD MSG: *D A1   51       14015 DRAKE ST NW  POSS FIRE IN THE WALL...LOTS OF SMOKE FROM THE BASEMENT...EVERYONE ISOUT INC:10019127",
+        "SRC:A1",
+        "CALL:51 - Fire (Building)",
+        "ADDR:14015 DRAKE ST NW",
+        "INFO:POSS FIRE IN THE WALL...LOTS OF SMOKE FROM THE BASEMENT...EVERYONE ISOUT",
+        "ID:10019127");
+
+    doTest("T9",
+        "CAD MSG: *D D4   32M      3254 90 LN NE  LIFT ASSIST ONLY...LARGE MALE (300+) INC:11007548\n",
+        "SRC:D4",
+        "CALL:32M - Medical",
+        "ADDR:3254 90 LN NE",
+        "INFO:LIFT ASSIST ONLY...LARGE MALE (300+)",
+        "ID:11007548");
+
+    doTest("T10",
+        "CAD MSG: *D A1   51       844 140 LN NW  OVEN ON FIRE.. FLAME IS OUT AND STILL LOTS OF SMOKE SMOKE.. EVERYONE IS OUT OF THE HOMEINC:11017847",
+        "SRC:A1",
+        "CALL:51 - Fire (Building)",
+        "ADDR:844 140 LN NW",
+        "INFO:OVEN ON FIRE.. FLAME IS OUT AND STILL LOTS OF SMOKE SMOKE.. EVERYONE IS OUT OF THE HOMEINC:11017847");
+         
+  }
+  
+  @Test
+  public void testKristoferMiller() {
+
+    doTest("T1",
+        "CAD MSG: *D B2   39F      11841 KENTUCKY AV N  FA...ZONE 12...NO ANSWER...TRANSFERRED TO HENN FOR PD INC:12014995",
+        "SRC:B2",
+        "CALL:39F - Alarm (Fire)",
+        "ADDR:11841 KENTUCKY AV N",
+        "MADDR:11841 KENTUCKY AVE N",
+        "INFO:FA...ZONE 12...NO ANSWER...TRANSFERRED TO HENN FOR PD",
+        "ID:12014995");
+
+    doTest("T2",
+        "CAD MSG: *D B1   45F      900 BOB EHLEN DR @FEDERAL PREMIUM AMMUNITION  BURN AT 1130 INC:12015105",
+        "SRC:B1",
+        "CALL:45F - Fire Drill",
+        "ADDR:900 BOB EHLEN DR",
+        "PLACE:FEDERAL PREMIUM AMMUNITION",
+        "INFO:BURN AT 1130",
+        "ID:12015105");
+
+    doTest("T3",
+        "CAD MSG: *D B1   32R      E MAIN ST / BRIDGE  SEEING A MALE SITTING ON THE BRIDGE/ ABT READY TO JUMP/ WHT MALE WEARING A WHT TSHIRT AND",
+        "SRC:B1",
+        "CALL:32R - Rescue",
+        "ADDR:E MAIN ST",
+        "INFO:SEEING A MALE SITTING ON THE BRIDGE/ ABT READY TO JUMP/ WHT MALE WEARING A WHT TSHIRT AND");
+
+    doTest("T4",
+        "CAD MSG: *D B1   51       1708 5 AV S  FIRE IN THE GARAGE...ATTACHED TO THE HOUSE... INC:12015275",
+        "SRC:B1",
+        "CALL:51 - Fire (Building)",
+        "ADDR:1708 5 AV S",
+        "MADDR:1708 5 AVE S",
+        "INFO:FIRE IN THE GARAGE...ATTACHED TO THE HOUSE...",
+        "ID:12015275");
+
+    doTest("T5",
+        "CAD MSG: *D B1   57       833 FREMONT ST  ON PARK STREET BEHIND LOCATION..VERY LARGE RECREATIONAL FIRE..UNK IF ATTENDED OR NOTINC:120152",
+        "SRC:B1",
+        "CALL:57 - Fire (Misc)",
+        "ADDR:833 FREMONT ST",
+        "INFO:ON PARK STREET BEHIND LOCATION..VERY LARGE RECREATIONAL FIRE..UNK IF ATTENDED OR NOTINC:120152");
+   
+  }
+  
+  public static void main(String[] args) {
+    new MNNorthMemorialAmbulanceServiceParserTest().generateTests("T1");
+  }
+}
