@@ -2158,6 +2158,7 @@ Jason Knapp (scbaofficer4@gmail.com) // PayPal on 2-15-13
 evan hornyak <evanhornyak@gmail.com> // PayPal on 2-4-13 refunded due to poor management
 "Mc Kinney III, John D 645" (jdmck3rd@gmail.com) <John.McKinney@Cigna.com> // paid by check 307
 Lyn Medinger <ljmedinger@gmail.com> // market problem email change
+Jennifer Batchelor (jennifer.batchelor25@gmail.com) <jennifer.batchelor@hotmail.com> // market problem email change
 %%02/17/2013
 Richard Jenkinson <rjenkinson204@gmail.com> // market problem email change
 %%02/18/2013
@@ -2335,6 +2336,7 @@ bob van thiel (bob.vanthiel@gmail.com) (vanthiels@sbcglobal.net) // PayPal
 tyler gladden <lugofffd945@gmail.com> // Kershaw County, SC
 %%06/29/2013
 Mark Beckenbach (bachbach001@gmail.com) <bachbach001@yahoo.com> // market problem email change
+Wilson Lewis (wrl22xray@gmail.com) <wrl4220@gmail.com> // market problem email change
 %%07/01/2013
 Chad Payne <firepolice210@gmail.com> // Walker County, GA
 %%07/02/2013
@@ -2373,10 +2375,9 @@ Penny Pukall (pennope21@gmail.com) (pennope21@yahoo.com) // PayPal
 %%08/19/2013
 Garrett Parten (v38fsa@msn.com) // PayPal
 %%08/20/2013
-Corey Vandeville <cvandevi@gbp.com> // pay by check 3812 Blaine, MN
 RANDY L SCOTT (rlsfoot1276@gmail.com) (rlsfoot12@aol.com) // PayPal
 %%08/22/2013
- Lisa Harte (l.harte@yahoo.com) // PayPal
+Lisa Harte (l.harte@yahoo.com) // PayPal
 
 // *** Insert Paid Users here ***
 // List of users getting credit or paid for 2014
@@ -2400,6 +2401,11 @@ NORWOOD BOONE (buddyboone49@gmail.com) (bboone@townofwallace.com) // PayPal for 
 Richard Bates <richard.bates@stgeorge.me> // Knox County, ME
 %%06/29/2013
 bernie meehan jr (berniemeehanjr@gmail.com) (bmeehan282@aol.com) // PayPal $20
+
+// List of users getting credit or paid for 2015
+%2015
+%%08/20/2013
+Corey Vandeville <cvandevi@gbp.com> // pay by check 3812 Blaine, MN $25
 
 
 // List of users getting FREE subscription for 2012
@@ -5557,6 +5563,15 @@ Chris Oliver <coliver1020@gmail.com>
 April Manyon <fire001.am@gmail.com>
 Kenneth Hope (kennethhope1980@gmail.com) <khope80@hotmail.com>
 Jordan Villaire <jdvillaire@gmail.com>
+%%08/22/2013
+Carl Burriss <pyro1546@gmail.com>
+Tim Wright <wrightclan7@gmail.com>
+Dempsey Vick <dempsey.vick@gmail.com>
+Andrew Strawderman <andrewstrawderman@gmail.com>
+Kyle Long (kylelong.firefighter@gmail.com) <kdog9595@outlook.com>
+%%08/23/2013
+Jake (jvneves1@gmail.com) <alliancecf@gmail.com>
+Jake Hooper (ssghooper@gmail.com) <ssghooper@gmail.com>
 
 
 
