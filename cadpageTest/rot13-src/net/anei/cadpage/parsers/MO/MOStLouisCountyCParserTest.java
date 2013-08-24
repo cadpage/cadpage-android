@@ -5,111 +5,89 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
+Fg Ybhvf Pbhagl, ZB (irefvba P)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zrgeb Jrfg Sver Cebgrpgvba Qvfgevpg
 Ybpngvba: Jvyqjbbq, ZB, Havgrq Fgngrf
-Fraqre: qvfcngpu@ppr911.bet
 
-(Pnq Cntr) 29 ZIN  DQ                    NG:0 V 44 Jo                                    KFG:ZZ260/ZZ259                                  Rherxn         24QA2,8517,6115,6114,2414,3337
-(Pnq Cntr) 29 ZIN Crqrfgevna   DQ        NG:15601 Znapurfgre Eq                          KFG:R ZRNQBJ YA/ZNE RY PG                        Zrgeb Jrfg     3347,3312,33QA138592743  90572226
-(Pnq Cntr) 29 ZIN Crqrfgevna   DQ        NG:15601 Znapurfgre Eq                          KFG:R ZRNQBJ YA/ZNE RY PG                        Zrgeb Jrfg     3347,3312,33QA138592743  90572226
-(Pnq Cntr) 17 Snyy DQ                    NG:15 Zrnqbjoebbx Pbhagel Pyho Rfgf             KFG:PYNLGBA EQ/Qrnq Raq                          Zrgeb Jrfg     3347,33QA138611694  90564835
-(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:3671 Jnyahg Inyyrl Qe                        KFG:ZRYEBFR EQ/Qrnq Raq                          Zrgeb Jrfg     33QA,3337,333238559255  90702185
-(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:3671 Jnyahg Inyyrl Qe                        KFG:ZRYEBFR EQ/Qrnq Raq                          Zrgeb Jrfg     33QA,3337,333238559255  90702185
-(Pnq Cntr) Nynez Zrqvpny                 NG:863 Jbbqfvqr Genvyf Qe                       KFG:CVAR EVQTR GENVYF PG/Qrnq Raq                Zrgeb Jrfg     3312,3347,33QA38563846  90557018
-(Pnq Cntr) Zbir Hc Nzohynapr             NG:13790 Znapurfgre Eq                          KFG:ZNFBA EQ F/ZNAPURFGRE ZRNQBJF                Jrfg Pbhagl    35QA,3317
-(Pnq Cntr) 31 Snvagvat DQ                NG:14181 Znapurfgre Eq                          KFG:XABYYUNIRA QE/RAPUNAGRQ CXJL                 Jrfg Pbhagl    35QA,3525,3317
-(Pnq Cntr) Zbir Hc Nzohynapr             NG:15700 Onkgre Eq                              KFG:BYQ ONKGRE EQ/PYNEXFBA CBVAGR QE             Zbanepu        3347
-(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:640 Pnfgyrjbbq Qe                            KFG:PRQNE EVQTR QE/PNFGYRPYVSS                   Zrgeb Jrfg     1927,3312,33QA38549512  90552074
-(Pnq Cntr) Nynez Pbzzrepvny              NG:15450 F Bhgre 40 Eq                          KFG:Qrnq Raq/FPUBRGGYRE INYYRL QE                Zbanepu        2210,2242,22QA1,3312
-(Pnq Cntr) Nynez Erfvqragvny             NG:16731 Uvpxbel Zrnqbjf Pg                     KFG:FNAQNYJBBQ PERRX QE/Qrnq Raq                 Zrgeb Jrfg     33QA1,3344,222038587804  90632850
-(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:15197 Pynlgba Eq                             KFG:CEVAPRGBA TNGR QE/YBAQBAQNEL QE              Zrgeb Jrfg     3317,3312,33QA138610669  90556748
-(Pnq Cntr) Nynez Vafgvghgvba             NG:13995 Pynlgba Eq                             KFG:WB PNEE QE/FURSSVRYQ ZNABE QE                Jrfg Pbhagl    3312,35QA1,3502,3525
-(Pnq Cntr) 01 Noqbzvany Cnva DQ          NG:355 Fhqohel Ya                               KFG:PYNLZBAG QE/JRFGJBBQ QE                      Zrgeb Jrfg     3347,33QA138607961  90560571
-(Pnq Cntr) Nynez Pbzzrepvny              NG:13850 Znapurfgre Eq                          KFG:F ZNFBA EQ/ZNAPURFGRE ZRNQBJF                Jrfg Pbhagl    3525,35QA,3502,3312
-(Pnq Cntr) 23 Bireqbfr DQ                NG:18021 Ebyyvatfgbar Pg                        KFG:VAQVNA GERR EHA/Qrnq Raq                     Zrgeb Jrfg     33QA,3337,333238608215  90628878
-(Pnq Cntr) 17 Snyy DQ                    NG:15826 Pynlgba Eq                             KFG:GEVGBA JNL QE/SBHAGNVA CYNMN QE              Zrgeb Jrfg     3347,33QA38604859  90582181
-(Pnq Cntr) Nynez Pbzzrepvny              NG:500 Zrenzrp Oyiq                             KFG:PUNGGREOVEQ YA/FUNJ QE                       Rherxn         24QA2,2402,2414,3332,1902
-(Pnq Cntr) 04 Nffnhyg *Abg Frpher* DQ    NG:14898 Pynlgba Eq                             KFG:JVYQJBBQ CXJL/ONKGRE EQ                      Zrgeb Jrfg     3317,33QA38615144  90539954
-(Pnq Cntr) 17 Snyy DQ                    NG:640 Pnfgyrjbbq Qe                            KFG:PRQNE EVQTR QE/PNFGYRPYVSS                   Zrgeb Jrfg     3327,33QA138549512  90552074
-(Pnq Cntr) Nynez Pbzzrepvny              NG:15009 Pynlzbbe Pg                            KFG:Qrnq Raq/PYNLZBBE QE                         Zrgeb Jrfg     3302,2210,3312,3344,3515,33QA,38619672  90538913
-(Pnq Cntr) Nynez Pbzzrepvny              NG:15009 Pynlzbbe Pg                            KFG:Qrnq Raq/PYNLZBBE QE                         Zrgeb Jrfg     2210,3312,3344,3515,33QA,33QA138619672  90538913
-(Pnq Cntr) Nynez Pbzzrepvny              NG:15009 Pynlzbbe Pg                            KFG:Qrnq Raq/PYNLZBBE QE                         Zrgeb Jrfg     2210,3312,33QA138619672  90538913
-(Pnq Cntr) Nynez Erfvqragvny             NG:19115 Fnjzvyy Pg                             KFG:QRUNEG SNEZ EQ/Qrnq Raq                      Zrgeb Jrfg     3354,33QA,54438586366  90716954
-(Pnq Cntr) 17 Snyy DQ                    NG:16838 Onoyre Ivrj Qe                         KFG:JVARTNEQRA PG/CNENQVFR CRNX PVE              Zrgeb Jrfg     33QA,333738593923  90636147
-(Pnq Cntr) 17O3 Snyy Haxabja Fgnghf      NG:15826 Pynlgba Eq                             KFG:GEVGBA JNL QE/SBHAGNVA CYNMN QE              Zrgeb Jrfg     3344,3332,3317,EPQA6,33QA38604859  90582181
-(Pnq Cntr) 17O3 Snyy Haxabja Fgnghf      NG:15826 Pynlgba Eq                             KFG:GEVGBA JNL QE/SBHAGNVA CYNMN QE              Zrgeb Jrfg     3332,3317,EPQA6,33QA38604859  90582181
-(Pnq Cntr) Yrnx Tnf Vafvqr Erf 1fg Nynez NG:446 Cnhyn Inyr Pg                            KFG:Qrnq Raq/ZRYNAVR ZRNQBJF YA                  Zrgeb Jrfg     3502,3332,3515,3517,3534,3525,38581164  90546818
-(Pnq Cntr) Yrnx Tnf Vafvqr Erf 1fg Nynez NG:446 Cnhyn Inyr Pg                            KFG:Qrnq Raq/ZRYNAVR ZRNQBJF YA                  Zrgeb Jrfg     3515,3517,3534,3525,3312,3317,38581164  90546818
-(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:260 Fxlyvar Qe R                             KFG:PERFGYNAQ QE/YVAQRYY QE                      Zrgeb Jrfg     3324,3347,33QA38600705  90559996
-(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:187 Ornpba Cbvag Ya                          KFG:Qrnq Raq/FRN OERRMR PG                       Zrgeb Jrfg     33QA,333738581797  90600669
-(Pnq Cntr) Zvfpryynarbhf Fgvyy           NG:84 Fgerpxre Eq                               KFG:FHAALEVQTR EQ/VQYR EBPX SNEZ EQ              Zrgeb Jrfg     3302,3344,33QA138594610  90601779
-(Pnq Cntr) Zvfpryynarbhf Fgvyy           NG:84 Fgerpxre Eq                               KFG:FHAALEVQTR EQ/VQYR EBPX SNEZ EQ              Zrgeb Jrfg     3344,33QA138594610  90601779
-(Pnq Cntr) Pneoba Zbabkvqr Qrg           NG:1365 Cnexivrj Rfgngrf Qe                     KFG:CEVINGR EQ/Qrnq Raq                          Zrgeb Jrfg     3344,33QA138589096  90588073
-(Pnq Cntr) 01 Noqbzvany Cnva DQ          NG:113 Pnlorgu Qe                               KFG:GVZXN QE/GVZXN QE                            Zrgeb Jrfg     3317,33QA38595995  90535300
-(Pnq Cntr) 01 Noqbzvany Cnva DQ          NG:17086 Fnaqnyjbbq Perrx Qe                    KFG:FNAQNYJBBQ PERRX PG/RNGUREGBA EQ             Zrgeb Jrfg     33QA,333738586823  90639949
-(Pnq Cntr) 01 Noqbzvany Cnva DQ          NG:16181 Pbccre Ynagrea Qe                      KFG:PBCCRE YNXRF OYIQ/PBCCRE YNXRF OYIQ          Zrgeb Jrfg     33QA1,333738576678  90603434
-(Pnq Cntr) 29 ZIN (Cre CQ)               NG:Gjvtjbbq Qe / Evrf Eq                        KFG:                                             Zrgeb Jrfg     3317,3324,EPQA4,33QA138571862  90543720
-(Pnq Cntr) 30 Nppvqragny Vawhel DQ       NG:1 Onyycnex Qe                                KFG:WRSSREFBA NIR/ZNAPURFGRE EQ                  Zrgeb Jrfg     3317,33QA38591102  90544015
-(Pnq Cntr) Pneoba Zbabkvqr Qrg           NG:16415 Terra Cvarf Qe                         KFG:Qrnq Raq/TERRA ARRQYR PG                     Zrgeb Jrfg     33QA1,333238592201  90623265
-(Pnq Cntr) 17O01T Snyy                   NG:896 Ancbyv Qe                                KFG:ZRFFVAN/FBEERAGB                             Zrgeb Jrfg     3324,3327,EPQA3,33QA1,33QA138577620  90534025
-(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     333738604875  90593025
-(Pnq Cntr) 28 Fgebxr DQ                  NG:101 Nccyrtngr Ya                             KFG:OVEPUJBBQ QE/UVTUYNAQ QE                     Zrgeb Jrfg     3317,3312,33QA38593660  90554700
-(Pnq Cntr) 17 Snyy DQ                    NG:896 Ancbyv Qe                                KFG:ZRFFVAN/FBEERAGB                             Zrgeb Jrfg     3327,33QA138577620  90534025
-(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:1 Fgerpxre Eq                                KFG:TNZOEVYY  TNEQRAF/TNZOEVYY  TNEQRAF          Zrgeb Jrfg     3347,33QA138589840  90599554
-(Pnq Cntr) Bqbe Haxabja                  NG:304 Uvyy Gey                                 KFG:JVYQOEVRE QE/PRQNE GENVY QE                  Zrgeb Jrfg     3312,33QA138608366  90535120
-(Pnq Cntr) 17 Yvsg Nffvfg DQ             NG:1411 Jvyyf Ubyybj Eq                         KFG:Qrnq Raq/ONYQ RNTYR EQ                       Zrgeb Jrfg     33QA,3327,333238548297  90615717
-(Pnq Cntr) Nynez Pbzzrepvny              NG:1795 Pynexfba Eq                             KFG:PYNEXFBA FDHNER/PYNEXFBA FDHNER              Zbanepu        2212,3344,22QA
-(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:18032 Qrrepyvss Pg                           KFG:VAQVNA GERR PVE/Qrnq Raq                     Zrgeb Jrfg     33QA1,3337,333238616194  90622576
-(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:18032 Qrrepyvss Pg                           KFG:VAQVNA GERR PVE/Qrnq Raq                     Zrgeb Jrfg     33QA1,3337,333238616194  90622576
-(Pnq Cntr) 18 Urnqnpur DQ                NG:597 Zbaebr Zvyy Qe                           KFG:OHEYVATGBA ZVYY QE/JVAQFBE ZVYY QE           Zrgeb Jrfg     3317,33QA38601556  90547332
-(Pnq Cntr) 29 ZIN  DQ                    NG:Pynexfba Eq / Znapurfgre Eq                  KFG:                                             Zrgeb Jrfg     3344,3317,33QA38592639  90585907
-(Pnq Cntr) 29 ZIN  DQ                    NG:Pynexfba Eq / Znapurfgre Eq                  KFG:                                             Zrgeb Jrfg     3344,3317,33QA38592639  90585907
-(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:233 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3347,33QA138599588  90585666
-(Pnq Cntr) 17 Snyy DQ                    NG:15197 Pynlgba Eq                             KFG:CEVAPRGBA TNGR QE/YBAQBAQNEL QE              Zrgeb Jrfg     3344,3517,33QA138610669  90556748
-(Pnq Cntr) 17 Snyy DQ                    NG:2243 Juvgol Eq                               KFG:GEBJOEVQTR EQ/XRGGVATGBA EQ                  Zrgeb Jrfg     3347,33QA138612228  90581838
-(Pnq Cntr) 23P7V Bireqbfr                NG:837 Yvylohq Pg                               KFG:Qrnq Raq/ZVZBFN YA                           Zrgeb Jrfg     3312,3317,3312,33QA138594695  90565674
-(Pnq Cntr) 25 Cflpu/BOF *Abg Frpher* DQ  NG:837 Yvylohq Pg                               KFG:Qrnq Raq/ZVZBFN YA                           Zrgeb Jrfg     3317,3312,33QA138594695  90565674
-(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:233 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3337,33QA138599588  90585666
-(Pnq Cntr) 25O6 Cflpu Pnfr Hax Fgnghf    NG:328 Pnezry Jbbqf Qe                          KFG:XVRSRE PERRX EQ/XVRSRE PERRX EQ              Zrgeb Jrfg     3344,3317,33QA138587828  90585648
-(Pnq Cntr) 25 Cflpu/BOF *Frpher* DQ      NG:328 Pnezry Jbbqf Qe                          KFG:XVRSRE PERRX EQ/XVRSRE PERRX EQ              Zrgeb Jrfg     3317,33QA138587828  90585648
-(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     331738604875  90593025
-(Pnq Cntr) 25O6I Cflpu Pnfr Hax Ivbyrag  NG:328 Pnezry Jbbqf Qe                          KFG:XVRSRE PERRX EQ/XVRSRE PERRX EQ              Zrgeb Jrfg     EPQA4,3344,3327,33QA1,33QA138587828  90585648
-(Pnq Cntr) 25 Cflpu/BOF *Ivbyrag* DQ     NG:328 Pnezry Jbbqf Qe                          KFG:XVRSRE PERRX EQ/XVRSRE PERRX EQ              Zrgeb Jrfg     3327,33QA138587828  90585648
-(Pnq Cntr) Fvpx Pnfr                     NG:17065 Znapurfgre Eq                          KFG:JRFG NIR/IVBYN TVYY YA                       Zrgeb Jrfg     333738578056  90643611
-(Pnq Cntr) 10 Purfg Cnva DQ              NG:627 Qraavfba Qe                              KFG:ANAPL CY/ARJ ONYYJVA EQ                      Zrgeb Jrfg     3312,3347,33QA38583554  90556040
-(Pnq Cntr) 26P1 Fvpx Pnfr Nygrerq YBP    NG:263 Jvaql Nperf Rfgngrf Qe                   KFG:FGBARL PERRX YA/Qrnq Raq                     Zrgeb Jrfg     3317,3312,EPQA4,33QA1,33QA138584318  90560936
-(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:263 Jvaql Nperf Rfgngrf Qe                   KFG:FGBARL PERRX YA/Qrnq Raq                     Zrgeb Jrfg     3317,33QA138584318  90560936
-(Pnq Cntr) Nynez Pbzzrepvny              NG:15869 Sbhagnva Cynmn Qe                      KFG:PYNEXFBA EQ/PYNLGBA EQ                       Zrgeb Jrfg     3344,3354,33QA138605803  90583452
-(Pnq Cntr) 17 Yvsg Nffvfg DQ             NG:871 Jbbqfvqr Genvyf Qe                       KFG:CVAR EVQTR GENVYF PG/Qrnq Raq                Zrgeb Jrfg     3324,3317,33QA138563730  90556688
-(Pnq Cntr) Pbzzrepvny Fgvyy              NG:716 Jbbqfvqr Genvyf Qe                       KFG:ARJ ONYYJVA EQ/BNX EVQTR GENVYF PG           Zrgeb Jrfg     3324,3312,33QA38567702  90557545
 (Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     332738604875  90593025
-(Pnq Cntr) 28 Fgebxr DQ                  NG:1535 Curnfnag Evqtr Qe                       KFG:PYNLGBA BNXF QE/PYNLGBA BNXF QE              Zrgeb Jrfg     3347,33QA1,333238601746  90597770
-(Pnq Cntr) 17 Snyy DQ                    NG:1441 Punevp Qe                               KFG:QEVIRJNL/PUNEVP                              Zrgeb Jrfg     3344,33QA1,333738553624  90588614
-(Pnq Cntr) 20 Urng Rkcbfher DQ           NG:513 Oynmrqjbbq Qe                            KFG:TBYSJBBQ QE/OYNMRQJBBQ PG                    Zrgeb Jrfg     3324,3327,33QA138579953  90550822
-(Pnq Cntr) 20 Urng Rkcbfher DQ           NG:513 Oynmrqjbbq Qe                            KFG:TBYSJBBQ QE/OYNMRQJBBQ PG                    Zrgeb Jrfg     3324,3327,33QA138579953  90550822
-(Pnq Cntr) 10 Purfg Cnva DQ              NG:15727 Znapurfgre Eq                          KFG:PUNEABPX QE/Qrnq Raq                         Zrgeb Jrfg     3344,3317,33QA138594196  90579573
-(Pnq Cntr) Nynez Pbzzrepvny              NG:15869 Sbhagnva Cynmn Qe                      KFG:PYNEXFBA EQ/PYNLGBA EQ                       Zrgeb Jrfg     3344,2212,33QA138605803  90583452
-(Pnq Cntr) Sver Bgure                    NG:589 Yrzbajbbq Qe                             KFG:TBYSJBBQ QE/FGNGRJBBQ QE                     Zrgeb Jrfg     3312,33QA138577733  90551780
-(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:1 Fgerpxre Eq                                KFG:TNZOEVYY  TNEQRAF/TNZOEVYY  TNEQRAF          Zrgeb Jrfg     3344,3347,33QA38589840  90599554
-(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:1 Fgerpxre Eq                                KFG:TNZOEVYY  TNEQRAF/TNZOEVYY  TNEQRAF          Zrgeb Jrfg     3347,33QA38589840  90599554
-(Pnq Cntr) 10 Purfg Cnva DQ              NG:322 Byq Fgngr Eq                             KFG:JRFGJBBQF OHFVARFF CNEX/PNAGREOHEL RFGNGRF QEZrgeb Jrfg     3347,3344,33QA138582518  90595685
-(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:1109 Fntroehfu Gey                           KFG:ENAPUZBBE GEY/PBEENY GEY                     Zrgeb Jrfg     3317,33QA138594673  90576989
-(Pnq Cntr) 10 Purfg Cnva DQ              NG:14646 Znapurfgre Eq                          KFG:CYRNFNAG IVRJ QE/ZNCYR YA                    Zrgeb Jrfg     3317,3312,33QA38593000  90529609
-(Pnq Cntr) 04 Nffnhyg *Fprar Frpher* DQ  NG:16343 Ynxrsvryq Cynpr Qe                     KFG:PRAGRESVRYQ QE/JNGREFVQR QE                  Zrgeb Jrfg     33QA1,333738583941  90612530
+(Pnq Cntr) 10 Purfg Cnva DQ              NG:233 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3347,33QA38599588  90585666
+(Pnq Cntr) 30 Nppvqragny Vawhel DQ       NG:17050 Pynlgba Eq                             KFG:QNEGZBHGU PEBFFVAT QE/UVTUJNL 109            Zrgeb Jrfg     33QA1,3332,334738597057  90637471
+(Pnq Cntr) 30 Nppvqragny Vawhel DQ       NG:Obhdhrg Eq / Guhaqreobyg Ya                  KFG:                                             Zrgeb Jrfg     8537,33QA1,335438545097  90726384
+(Pnq Cntr) 26N1 Fvpx Pnfr                NG:17050 Pynlgba Eq                             KFG:QNEGZBHGU PEBFFVAT QE/UVTUJNL 109            Zrgeb Jrfg     3337,3354,EPQA2,EPQA638597057  90637471
+(Pnq Cntr) 32O1 Haxabja RZF              NG:17050 Pynlgba Eq                             KFG:QNEGZBHGU PEBFFVAT QE/UVTUJNL 109            Zrgeb Jrfg     3337,EPQA238597057  90637471
+(Pnq Cntr) 17 Snyy DQ                    NG:504 Zrepre Znabe Qe                          KFG:DHVAAZBER QE/PYNLGBA EQ                      Zrgeb Jrfg     3317,33QA38613204  90542774
+(Pnq Cntr) 17O3T Snyy Haxabja Fgnghf     NG:15826 Pynlgba Eq                             KFG:GEVGBA JNL QE/SBHAGNVA CYNMN QE              Zrgeb Jrfg     3347,EPQA538604859  90582181
+(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:945 Jnejvpx Ya                               KFG:CEBIVQRAPR EQ/ANAGHPXRG QE                   Zrgeb Jrfg     3347,33QA38604246  90569507
+(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:2444 Fuvin Pg                                KFG:CEVINGR QE/SHYYREGBA ZRNQBJF QE              Zrgeb Jrfg     33QA1,333738585556  90621141
+(Pnq Cntr) 31 Snvagvat DQ                NG:1725 Cbaq Eq                                 KFG:CBEGYNAQ PBIR YA/UBUZNA EQ                   Zrgeb Jrfg     33QA,333738597251  90653915
+(Pnq Cntr) 13 Qvnorgvp Ceboyrzf DQ       NG:16329 Shyyregba Zrnqbjf Qe                   KFG:Qrnq Raq/ERTNY CVAR PG                       Zrgeb Jrfg     33QA,3337,333238585820  90615471
+(Pnq Cntr) 10 Purfg Cnva DQ              NG:885 Cnezn Qe                                 KFG:FBEERAGB/CNYREZB                             Zrgeb Jrfg     3327,3324,33QA38578457  90538305
+(Pnq Cntr) 17 Yvsg Nffvfg DQ             NG:1328 Xrafvatgba Jnl Qe                       KFG:PYNEXFBA CVARF YA/PYNEXFBA PYNLGBA PGE       Zrgeb Jrfg     3347,33QA138601628  90588450
+(Pnq Cntr) 12 Pbaihyfvbaf/Frvmherf DQ    NG:14700 Znapurfgre Eq                          KFG:YBPX QE/CEVINGR EQ                           Zrgeb Jrfg     3317,3312,33QA138592988  90531088
+(Pnq Cntr) 17 Snyy DQ                    NG:106 Ubyybjnl Eq                              KFG:BEPUNEQ NIR J/XRUEF ZVYY EQ                  Zrgeb Jrfg     3317,33QA138594194  90545524
+(Pnq Cntr) 25 Cflpu/BOF *Abg Frpher* DQ  NG:225 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3347,33QA38599242  90585678
+(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     333738604875  90593025
+(Pnq Cntr) 12 Pbaihyfvbaf/Frvmherf DQ    NG:328 Pnezry Jbbqf Qe                          KFG:XVRSRE PERRX EQ/XVRSRE PERRX EQ              Zrgeb Jrfg     3312,3327,33QA138587828  90585648
+(Pnq Cntr) 26N5 Fvpx Pnfr                NG:233 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3332,3312,33QA1,333738599588  90585666
+(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     332738604875  90593025
+(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:233 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3312,33QA1,333738599588  90585666
+(Pnq Cntr) Sver Oehfu                    NG:303 Uhgpuvafba Eq                            KFG:                                             Zrgeb Jrfg     3344,33QA138601237  90595094
+(Pnq Cntr) 28 Fgebxr DQ                  NG:16186 Pynlgba Ubyybj Ya                      KFG:PYNLGBA UBYYBJ QE/Qrnq Raq                   Zrgeb Jrfg     3332,3347,33QA138606224  90597757
+(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:213 Uvtuivrj Qe                              KFG:XRAG PG/QNYR PG                              Zrgeb Jrfg     3312,3317,33QA138598340  90570455
+(Pnq Cntr) 17 Snyy DQ                    NG:1322 PYNEXFBA PYNLGBA PGE                    KFG:BERTBA GENVY QE/XRAFVATGBA JNL QE            Zrgeb Jrfg     3324,3337,33QA138603233  90586891
+(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:1623 Nfusbeq Bnxf Pg                         KFG:Qrnq Raq/NFUSBEQ BNXF QE                     Zrgeb Jrfg     33QA1,333738601246  90647409
+(Pnq Cntr) 17O3 Snyy Haxabja Fgnghf      NG:514 Erq Oevqtr Pg                            KFG:GERRGBC IVYYNTR QE/FURCNEQF PEBFFVAT         Jrfg Pbhagl    3324,35QA,3517,EPQA4
+(Pnq Cntr) 17 Snyy DQ                    NG:27 Ervaxr Eq                                 KFG:ZNAPURFGRE EQ/FNYRZ JNL                      Zrgeb Jrfg     3312,3347,33QA38590872  90567114
+(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:718 Sbk Oevne Ya                             KFG:ERVAXR EQ/SBK UBYYBJ JBBQF EQ                Zrgeb Jrfg     3317,33QA138580834  90559387
+(Pnq Cntr) 31 Hapbafpvbhf DQ             NG:2420 Crnprshy Pg                             KFG:Qrnq Raq/SHYYREGBA ZRNQBJF QE                Zrgeb Jrfg     33QA,3337,333238586562  90619405
+(Pnq Cntr) 29 ZIN Erfphr   DQ            NG:Uvtujnl 109 / Crefvzzba Ya                   KFG:                                             Rherxn         24QA2,2414,3337,2424,2402
+(Pnq Cntr) 10 Purfg Cnva DQ              NG:302 Uhgpuvafba Eq                            KFG:JERA OVXR NAQ JNYXVAT CNGU/J SVRYQ NIR       Zrgeb Jrfg     3347,3344,33QA138601180  90595095
+(Pnq Cntr) 17 Snyy DQ                    NG:3 Jvaqwnzzre Ya                              KFG:Qrnq Raq/PRAGRECBVAGR QE                     Zrgeb Jrfg     33QA,333738579108  90618066
+(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     2217,33QA,331738604875  90593025
+(Pnq Cntr) 17 Snyy DQ                    NG:1 Fgerpxre Eq                                KFG:TNZOEVYY  TNEQRAF/TNZOEVYY  TNEQRAF          Zrgeb Jrfg     3317,33QA38589840  90599554
+(Pnq Cntr) 31 Hapbafpvbhf DQ             NG:849 Juvfcrevat Ivyyntr Pve                   KFG:JUVFCREVAT SBERFG QE/JUVFCREVAT SBERFG QE    Zrgeb Jrfg     3327,3324,33QA38568036  90559350
+(Pnq Cntr) 31 Snvagvat DQ                NG:14965 Pynlgba Eq                             KFG:ONKGRE EQ/UNGGRENF QE                        Zrgeb Jrfg     3347,33QA138614631  90541997
+(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:2514 Arj Cbvag Qe                            KFG:SHYYREGBA ZRNQBJF QE/ARJ CBVAG PG            Zrgeb Jrfg     3337,33QA138584270  90619404
+(Pnq Cntr) 29 ZIN (Cre CQ)               NG:Uvtujnl 141 Fo / Pynlgba Eq                  KFG:                                             Jrfg Pbhagl    3327,3534,35QA,3517,EPQA6
+(Pnq Cntr) 17 Snyy DQ                    NG:211 Pbby Zrnqbjf Qe                          KFG:PYRNE ZRNQBJF QE/SNJA ZRNQBJF QE             Zrgeb Jrfg     3317,33QA138604273  90537367
+(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     333738604875  90593025
+(Pnq Cntr) 17 Snyy DQ                    NG:253 Terralneq Qe                             KFG:TERRALNEQ PG/FRIRA GENVYF QE                 Zrgeb Jrfg     3312,3347,33QA138598725  90541027
+(Pnq Cntr) 25 Cflpu/BOF *Frpher* DQ      NG:235 Arj Onyyjva Eq                           KFG:ERQFGNEG QE/QRAAVFBA QE                      Zrgeb Jrfg     3312,3327,33QA138586415  90557687
+(Pnq Cntr) 17 Snyy DQ                    NG:301 Oevtug Zrnqbjf Qe                        KFG:Qrnq Raq/QRRE ZRNQBJF PG                     Zrgeb Jrfg     3317,33QA138600917  90532601
+(Pnq Cntr) 17 Snyy DQ                    NG:170 Onyyjva Znabe Qe                         KFG:ZNAPURFGRE EQ/Qrnq Raq                       Zrgeb Jrfg     3347,33QA38590804  90537331
+(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     333738604875  90593025
+(Pnq Cntr) 19 Urneg Ceboyrzf DQ          NG:211 Pyrne Zrnqbjf Qe                         KFG:PBBY ZRNQBJF QE/FJRRG ZRNQBJF YA             Zrgeb Jrfg     3327,3332,33QA38603414  90536342
+(Pnq Cntr) 17 Snyy DQ                    NG:15021 Pynlzbbe Pg                            KFG:PYNLZBBE QE/PYNLZBBE QE                      Zrgeb Jrfg     3317,33QA38619600  90539036
+(Pnq Cntr) 19 Urneg Ceboyrzf DQ          NG:233 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3347,33QA38599588  90585666
 (Pnq Cntr) Zbir Hc Nzohynapr             NG:13790 Znapurfgre Eq                          KFG:ZNFBA EQ F/ZNAPURFGRE ZRNQBJF                Jrfg Pbhagl    35QA,3317
-(Pnq Cntr) Zvfpryynarbhf Fgvyy           NG:834 Neobe Punfr Qe                           KFG:URFRZNAA EVQTR PG/Qrnq Raq                   Zrgeb Jrfg     3324,33QA38567023  90585577
-(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:640 Pnfgyrjbbq Qe                            KFG:PRQNE EVQTR QE/PNFGYRPYVSS                   Zrgeb Jrfg     3327,3324,33QA138549512  90552074
-(Pnq Cntr) 05 Onpx Cnva DQ               NG:322 Pynlurngu Pg                             KFG:Qrnq Raq/PYNLORAQ QE                         Zrgeb Jrfg     3347,33QA138605004  90566782
-(Pnq Cntr) 17 Snyy DQ                    NG:14855 Pynlgba Eq                             KFG:JVYQJBBQ CXJL/ONKGRE EQ                      Zrgeb Jrfg     3317,33QA138616265  90538643
-(Pnq Cntr) Nynez Vafgvghgvba             NG:15826 Pynlgba Eq                             KFG:GEVGBA JNL QE/SBHAGNVA CYNMN QE              Zrgeb Jrfg     3302,3344,2212,33QA138604859  90582181
-(Pnq Cntr) Nynez Vafgvghgvba             NG:15826 Pynlgba Eq                             KFG:GEVGBA JNL QE/SBHAGNVA CYNMN QE              Zrgeb Jrfg     3344,2212,33QA138604859  90582181
-(Pnq Cntr) 29 ZIN  DQ                    NG:14653 Pynlgba Eq                             KFG:UVTUYNAQ EVQTR QE/CNEXJNL JRFG UVTU FPUBBY   Zrgeb Jrfg     3317,3312,33QA38620578  90534136
-(Pnq Cntr) 17 Snyy DQ                    NG:18324 Jbbqynaq Zrnqbjf Qe                    KFG:JBBQYNAQF QE/UVTUJNL 100                     Zrgeb Jrfg     3354,33QA,333738563101  90680396
-(Pnq Cntr) 12 Pbaihyfvbaf/Frvmherf DQ    NG:15945 Pynlgba Eq                             KFG:PYNEXFBA EQ/PYNEXFBA PYNLGBA PGE             Zrgeb Jrfg     3347,3344,33QA138604857  90587247
-(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:15197 Pynlgba Eq                             KFG:CEVAPRGBA TNGR QE/YBAQBAQNEL QE              Zrgeb Jrfg     3327,33QA138610669  90556748
-(Pnq Cntr) 17 Yvsg Nffvfg DQ             NG:16838 Onoyre Ivrj Qe                         KFG:JVARTNEQRA PG/CNENQVFR CRNX PVE              Zrgeb Jrfg     33QA,3332,333738593923  90636147
+(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:2505 Arj Cbvag Qe                            KFG:SHYYREGBA ZRNQBJF QE/ARJ CBVAG PG            Zrgeb Jrfg     33QA,333738584812  90619377
+(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:345 Pynexfba Eq                              KFG:BERTBA GENVY QE/PYNLGBA EQ                   Zrgeb Jrfg     3347,33QA38603891  90585680
+(Pnq Cntr) 25 Cflpu/BOF *Frpher* DQ      NG:Uvtujnl 109 / Pynlgba Eq                     KFG:                                             Zrgeb Jrfg     33QA1,333738596658  90639994
+(Pnq Cntr) 28 Fgebxr DQ                  NG:184 Xruef Zvyy Oraq Qe                       KFG:XRUEF ZVYY ORAQ PG/XRUEF ZVYY GEY            Zrgeb Jrfg     3324,3317,33QA38596408  90543022
+(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:16518 Jvyybj Tyra Qe                         KFG:PYBIRE YRNS UVYY PG/JVYYBJ TYRA PG           Zrgeb Jrfg     33QA1,3332,334738568922  90628649
+(Pnq Cntr) 29 ZIN  DQ                    NG:Uvtujnl 100 Ro / Gnlybe Eq                   KFG:                                             Zrgeb Jrfg     33QA1,3337,333238582593  90627427
+(Pnq Cntr) 29 ZIN Erfphr (Cre CQ)        NG:Znapurfgre Eq / Zne Ry Pg                    KFG:                                             Zrgeb Jrfg     EPQA2,3317,3312,3344,3515,330238592738  90573818
+(Pnq Cntr) Nynez Zrqvpny                 NG:863 Jbbqfvqr Genvyf Qe                       KFG:CVAR EVQTR GENVYF PG/Qrnq Raq                Zrgeb Jrfg     3327,3324,33QA38563726  90556640
+(Pnq Cntr) Ryrpgevpny Ceboyrz Vafvqr Erf NG:209 Ynex Uvyy Ya                             KFG:ZBPXVATOVEQ YA/OEBBXFVQR YA                  Zrgeb Jrfg     3312,33QA138588244  90536491
+(Pnq Cntr) Nynez Pbzzrepvny              NG:15425 Znapurfgre Eq                          KFG:IYNFVF QE/ZVZBFN YA                          Zrgeb Jrfg     3312,3344,33QA38592770  90563481
+(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     332738604875  90593025
+(Pnq Cntr) 19 Urneg Ceboyrzf DQ          NG:233 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3344,33QA,333738599588  90585666
+(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:32 Irfcre Qe                                 KFG:ZNAPURFGRE EQ/IRFCRE PG                      Zrgeb Jrfg     3317,3312,33QA138594242  90581115
+(Pnq Cntr) 25 Cflpu/BOF *Abg Frpher* DQ  NG:1421 Evqtrgerr Genvyf Qe                     KFG:EVQTRGERR GENVYF PG/EVQTR EQ                 Zrgeb Jrfg     3347,33QA138560275  90588918
+(Pnq Cntr) Nynez Zrqvpny                 NG:863 Jbbqfvqr Genvyf Qe                       KFG:CVAR EVQTR GENVYF PG/Qrnq Raq                Zrgeb Jrfg     3327,3312,33QA138563846  90557018
+(Pnq Cntr) Ybpxbhg Bpphcvrq              NG:322 Gjvfgrqbnx Pg                            KFG:Qrnq Raq/JVAQLBNX QE                         Zrgeb Jrfg     3312,33QA38568292  90534797
+(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:1 Fgerpxre Eq                                KFG:TNZOEVYY  TNEQRAF/TNZOEVYY  TNEQRAF          Zrgeb Jrfg     3347,33QA38589840  90599554
+(Pnq Cntr) Bqbe Tnf Bhgfvqr              NG:408 Greevatgba Qe                            KFG:JRFGEHA QE/Qrnq Raq                          Zrgeb Jrfg     3312,33QA38575242  90567479
+(Pnq Cntr) Sver Erfvqragvny              NG:820 Zrenzrp Ivrj Pg                          KFG:ZRENZRP IVRJ QE/Qrnq Raq                     Rherxn         2402,24QA2,2414,2434,8517,6112
+(Pnq Cntr) 31 Snvagvat DQ                NG:222 Frnjvaq Qe                               KFG:QEVIRJNL/FJRRGPERRX QE                       Zrgeb Jrfg     3317,33QA38589765  90551694
+(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     333738604875  90593025
+(Pnq Cntr) 25 Cflpu/BOF *Abg Frpher* DQ  NG:2319 Jrfgcne Qe                              KFG:RNTYR PUNFR PG/PLCERFF GENPR QE              Zrgeb Jrfg     3344,3317,33QA138618502  90580673
+(Pnq Cntr) 10 Purfg Cnva DQ              NG:645 Fubjcynpr Pg                             KFG:IBFFUVYY QE/JLAA CY                          Zrgeb Jrfg     3327,3324,33QA38568383  90555479
+(Pnq Cntr) 10 Purfg Cnva DQ              NG:1 Fgerpxre Eq                                KFG:TNZOEVYY  TNEQRAF/TNZOEVYY  TNEQRAF          Zrgeb Jrfg     3347,3344,33QA138589840  90599554
+(Pnq Cntr) Nynez Zrqvpny                 NG:1411 Jvyyf Ubyybj Eq                         KFG:Qrnq Raq/ONYQ RNTYR EQ                       Zrgeb Jrfg     33QA,3337,333238548297  90615717
+(Pnq Cntr) Nynez Pbzzrepvny              NG:2460 Gnlybe Eq                               KFG:ZNVA FG/Qrnq Raq                             Zrgeb Jrfg     3302,33QA1,3332,334438580576  90625954
 
 */
 
@@ -1001,6 +979,694 @@ choyvp pynff ZBFgYbhvfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:33QA,3332,3337",
         "TCF:+38.593923,-90.636147");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZrgebJrfgSverCebgrpgvbaQvfgevpg2() {
+
+    qbGrfg("G1",
+        "(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     332738604875  90593025",
+        "PNYY:Zbir Hc Nzohynapr",
+        "NQQE:16060 Pynlgba Eq",
+        "K:JBYSS YA/UHGPUVAFBA EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3327",
+        "TCF:+38.604875,-90.593025");
+
+    qbGrfg("G2",
+        "(Pnq Cntr) 10 Purfg Cnva DQ              NG:233 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3347,33QA38599588  90585666",
+        "PNYY:10 Purfg Cnva DQ",
+        "NQQE:233 Pynexfba Eq",
+        "K:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,33QA",
+        "TCF:+38.599588,-90.585666");
+
+    qbGrfg("G3",
+        "(Pnq Cntr) 30 Nppvqragny Vawhel DQ       NG:17050 Pynlgba Eq                             KFG:QNEGZBHGU PEBFFVAT QE/UVTUJNL 109            Zrgeb Jrfg     33QA1,3332,334738597057  90637471",
+        "PNYY:30 Nppvqragny Vawhel DQ",
+        "NQQE:17050 Pynlgba Eq",
+        "K:QNEGZBHGU PEBFFVAT QE/UVTUJNL 109",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:33QA1,3332,3347",
+        "TCF:+38.597057,-90.637471");
+
+    qbGrfg("G4",
+        "(Pnq Cntr) 30 Nppvqragny Vawhel DQ       NG:Obhdhrg Eq / Guhaqreobyg Ya                  KFG:                                             Zrgeb Jrfg     8537,33QA1,335438545097  90726384",
+        "PNYY:30 Nppvqragny Vawhel DQ",
+        "NQQE:Obhdhrg Eq & Guhaqreobyg Ya",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:8537,33QA1,3354",
+        "TCF:+38.545097,-90.726384");
+
+    qbGrfg("G5",
+        "(Pnq Cntr) 26N1 Fvpx Pnfr                NG:17050 Pynlgba Eq                             KFG:QNEGZBHGU PEBFFVAT QE/UVTUJNL 109            Zrgeb Jrfg     3337,3354,EPQA2,EPQA638597057  90637471",
+        "PNYY:26N1 Fvpx Pnfr",
+        "NQQE:17050 Pynlgba Eq",
+        "K:QNEGZBHGU PEBFFVAT QE/UVTUJNL 109",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3337,3354,EPQA2,EPQA6",
+        "TCF:+38.597057,-90.637471");
+
+    qbGrfg("G6",
+        "(Pnq Cntr) 32O1 Haxabja RZF              NG:17050 Pynlgba Eq                             KFG:QNEGZBHGU PEBFFVAT QE/UVTUJNL 109            Zrgeb Jrfg     3337,EPQA238597057  90637471",
+        "PNYY:32O1 Haxabja RZF",
+        "NQQE:17050 Pynlgba Eq",
+        "K:QNEGZBHGU PEBFFVAT QE/UVTUJNL 109",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3337,EPQA2",
+        "TCF:+38.597057,-90.637471");
+
+    qbGrfg("G7",
+        "(Pnq Cntr) 17 Snyy DQ                    NG:504 Zrepre Znabe Qe                          KFG:DHVAAZBER QE/PYNLGBA EQ                      Zrgeb Jrfg     3317,33QA38613204  90542774",
+        "PNYY:17 Snyy DQ",
+        "NQQE:504 Zrepre Znabe Qe",
+        "K:DHVAAZBER QE/PYNLGBA EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3317,33QA",
+        "TCF:+38.613204,-90.542774");
+
+    qbGrfg("G8",
+        "(Pnq Cntr) 17O3T Snyy Haxabja Fgnghf     NG:15826 Pynlgba Eq                             KFG:GEVGBA JNL QE/SBHAGNVA CYNMN QE              Zrgeb Jrfg     3347,EPQA538604859  90582181",
+        "PNYY:17O3T Snyy Haxabja Fgnghf",
+        "NQQE:15826 Pynlgba Eq",
+        "K:GEVGBA JNL QE/SBHAGNVA CYNMN QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,EPQA5",
+        "TCF:+38.604859,-90.582181");
+
+    qbGrfg("G9",
+        "(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:945 Jnejvpx Ya                               KFG:CEBIVQRAPR EQ/ANAGHPXRG QE                   Zrgeb Jrfg     3347,33QA38604246  90569507",
+        "PNYY:26 Fvpx Pnfr DQ",
+        "NQQE:945 Jnejvpx Ya",
+        "K:CEBIVQRAPR EQ/ANAGHPXRG QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,33QA",
+        "TCF:+38.604246,-90.569507");
+
+    qbGrfg("G10",
+        "(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:2444 Fuvin Pg                                KFG:CEVINGR QE/SHYYREGBA ZRNQBJF QE              Zrgeb Jrfg     33QA1,333738585556  90621141",
+        "PNYY:26 Fvpx Pnfr DQ",
+        "NQQE:2444 Fuvin Pg",
+        "K:CEVINGR QE/SHYYREGBA ZRNQBJF QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:33QA1,3337",
+        "TCF:+38.585556,-90.621141");
+
+    qbGrfg("G11",
+        "(Pnq Cntr) 31 Snvagvat DQ                NG:1725 Cbaq Eq                                 KFG:CBEGYNAQ PBIR YA/UBUZNA EQ                   Zrgeb Jrfg     33QA,333738597251  90653915",
+        "PNYY:31 Snvagvat DQ",
+        "NQQE:1725 Cbaq Eq",
+        "K:CBEGYNAQ PBIR YA/UBUZNA EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:33QA,3337",
+        "TCF:+38.597251,-90.653915");
+
+    qbGrfg("G12",
+        "(Pnq Cntr) 13 Qvnorgvp Ceboyrzf DQ       NG:16329 Shyyregba Zrnqbjf Qe                   KFG:Qrnq Raq/ERTNY CVAR PG                       Zrgeb Jrfg     33QA,3337,333238585820  90615471",
+        "PNYY:13 Qvnorgvp Ceboyrzf DQ",
+        "NQQE:16329 Shyyregba Zrnqbjf Qe",
+        "K:Qrnq Raq/ERTNY CVAR PG",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:33QA,3337,3332",
+        "TCF:+38.585820,-90.615471");
+
+    qbGrfg("G13",
+        "(Pnq Cntr) 10 Purfg Cnva DQ              NG:885 Cnezn Qe                                 KFG:FBEERAGB/CNYREZB                             Zrgeb Jrfg     3327,3324,33QA38578457  90538305",
+        "PNYY:10 Purfg Cnva DQ",
+        "NQQE:885 Cnezn Qe",
+        "K:FBEERAGB/CNYREZB",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3327,3324,33QA",
+        "TCF:+38.578457,-90.538305");
+
+    qbGrfg("G14",
+        "(Pnq Cntr) 17 Yvsg Nffvfg DQ             NG:1328 Xrafvatgba Jnl Qe                       KFG:PYNEXFBA CVARF YA/PYNEXFBA PYNLGBA PGE       Zrgeb Jrfg     3347,33QA138601628  90588450",
+        "PNYY:17 Yvsg Nffvfg DQ",
+        "NQQE:1328 Xrafvatgba Jnl Qe",
+        "K:PYNEXFBA CVARF YA/PYNEXFBA PYNLGBA PGE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,33QA1",
+        "TCF:+38.601628,-90.588450");
+
+    qbGrfg("G15",
+        "(Pnq Cntr) 12 Pbaihyfvbaf/Frvmherf DQ    NG:14700 Znapurfgre Eq                          KFG:YBPX QE/CEVINGR EQ                           Zrgeb Jrfg     3317,3312,33QA138592988  90531088",
+        "PNYY:12 Pbaihyfvbaf/Frvmherf DQ",
+        "NQQE:14700 Znapurfgre Eq",
+        "K:YBPX QE/CEVINGR EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3317,3312,33QA1",
+        "TCF:+38.592988,-90.531088");
+
+    qbGrfg("G16",
+        "(Pnq Cntr) 17 Snyy DQ                    NG:106 Ubyybjnl Eq                              KFG:BEPUNEQ NIR J/XRUEF ZVYY EQ                  Zrgeb Jrfg     3317,33QA138594194  90545524",
+        "PNYY:17 Snyy DQ",
+        "NQQE:106 Ubyybjnl Eq",
+        "K:BEPUNEQ NIR J/XRUEF ZVYY EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3317,33QA1",
+        "TCF:+38.594194,-90.545524");
+
+    qbGrfg("G17",
+        "(Pnq Cntr) 25 Cflpu/BOF *Abg Frpher* DQ  NG:225 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3347,33QA38599242  90585678",
+        "PNYY:25 Cflpu/BOF *Abg Frpher* DQ",
+        "NQQE:225 Pynexfba Eq",
+        "K:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,33QA",
+        "TCF:+38.599242,-90.585678");
+
+    qbGrfg("G18",
+        "(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     333738604875  90593025",
+        "PNYY:Zbir Hc Nzohynapr",
+        "NQQE:16060 Pynlgba Eq",
+        "K:JBYSS YA/UHGPUVAFBA EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3337",
+        "TCF:+38.604875,-90.593025");
+
+    qbGrfg("G19",
+        "(Pnq Cntr) 12 Pbaihyfvbaf/Frvmherf DQ    NG:328 Pnezry Jbbqf Qe                          KFG:XVRSRE PERRX EQ/XVRSRE PERRX EQ              Zrgeb Jrfg     3312,3327,33QA138587828  90585648",
+        "PNYY:12 Pbaihyfvbaf/Frvmherf DQ",
+        "NQQE:328 Pnezry Jbbqf Qe",
+        "K:XVRSRE PERRX EQ/XVRSRE PERRX EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3312,3327,33QA1",
+        "TCF:+38.587828,-90.585648");
+
+    qbGrfg("G20",
+        "(Pnq Cntr) 26N5 Fvpx Pnfr                NG:233 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3332,3312,33QA1,333738599588  90585666",
+        "PNYY:26N5 Fvpx Pnfr",
+        "NQQE:233 Pynexfba Eq",
+        "K:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3332,3312,33QA1,3337",
+        "TCF:+38.599588,-90.585666");
+
+    qbGrfg("G21",
+        "(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     332738604875  90593025",
+        "PNYY:Zbir Hc Nzohynapr",
+        "NQQE:16060 Pynlgba Eq",
+        "K:JBYSS YA/UHGPUVAFBA EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3327",
+        "TCF:+38.604875,-90.593025");
+
+    qbGrfg("G22",
+        "(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:233 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3312,33QA1,333738599588  90585666",
+        "PNYY:26 Fvpx Pnfr DQ",
+        "NQQE:233 Pynexfba Eq",
+        "K:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3312,33QA1,3337",
+        "TCF:+38.599588,-90.585666");
+
+    qbGrfg("G23",
+        "(Pnq Cntr) Sver Oehfu                    NG:303 Uhgpuvafba Eq                            KFG:                                             Zrgeb Jrfg     3344,33QA138601237  90595094",
+        "PNYY:Sver Oehfu",
+        "NQQE:303 Uhgpuvafba Eq",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3344,33QA1",
+        "TCF:+38.601237,-90.595094");
+
+    qbGrfg("G24",
+        "(Pnq Cntr) 28 Fgebxr DQ                  NG:16186 Pynlgba Ubyybj Ya                      KFG:PYNLGBA UBYYBJ QE/Qrnq Raq                   Zrgeb Jrfg     3332,3347,33QA138606224  90597757",
+        "PNYY:28 Fgebxr DQ",
+        "NQQE:16186 Pynlgba Ubyybj Ya",
+        "K:PYNLGBA UBYYBJ QE/Qrnq Raq",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3332,3347,33QA1",
+        "TCF:+38.606224,-90.597757");
+
+    qbGrfg("G25",
+        "(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:213 Uvtuivrj Qe                              KFG:XRAG PG/QNYR PG                              Zrgeb Jrfg     3312,3317,33QA138598340  90570455",
+        "PNYY:06 Oernguvat Ceboyrzf DQ",
+        "NQQE:213 Uvtuivrj Qe",
+        "K:XRAG PG/QNYR PG",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3312,3317,33QA1",
+        "TCF:+38.598340,-90.570455");
+
+    qbGrfg("G26",
+        "(Pnq Cntr) 17 Snyy DQ                    NG:1322 PYNEXFBA PYNLGBA PGE                    KFG:BERTBA GENVY QE/XRAFVATGBA JNL QE            Zrgeb Jrfg     3324,3337,33QA138603233  90586891",
+        "PNYY:17 Snyy DQ",
+        "NQQE:1322 PYNEXFBA PYNLGBA PGE",
+        "K:BERTBA GENVY QE/XRAFVATGBA JNL QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3324,3337,33QA1",
+        "TCF:+38.603233,-90.586891");
+
+    qbGrfg("G27",
+        "(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:1623 Nfusbeq Bnxf Pg                         KFG:Qrnq Raq/NFUSBEQ BNXF QE                     Zrgeb Jrfg     33QA1,333738601246  90647409",
+        "PNYY:26 Fvpx Pnfr DQ",
+        "NQQE:1623 Nfusbeq Bnxf Pg",
+        "K:Qrnq Raq/NFUSBEQ BNXF QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:33QA1,3337",
+        "TCF:+38.601246,-90.647409");
+
+    qbGrfg("G28",
+        "(Pnq Cntr) 17O3 Snyy Haxabja Fgnghf      NG:514 Erq Oevqtr Pg                            KFG:GERRGBC IVYYNTR QE/FURCNEQF PEBFFVAT         Jrfg Pbhagl    3324,35QA,3517,EPQA4",
+        "PNYY:17O3 Snyy Haxabja Fgnghf",
+        "NQQE:514 Erq Oevqtr Pg",
+        "K:GERRGBC IVYYNTR QE/FURCNEQF PEBFFVAT",
+        "FEP:Jrfg Pbhagl",
+        "HAVG:3324,35QA,3517,EPQA4");
+
+    qbGrfg("G29",
+        "(Pnq Cntr) 17 Snyy DQ                    NG:27 Ervaxr Eq                                 KFG:ZNAPURFGRE EQ/FNYRZ JNL                      Zrgeb Jrfg     3312,3347,33QA38590872  90567114",
+        "PNYY:17 Snyy DQ",
+        "NQQE:27 Ervaxr Eq",
+        "K:ZNAPURFGRE EQ/FNYRZ JNL",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3312,3347,33QA",
+        "TCF:+38.590872,-90.567114");
+
+    qbGrfg("G30",
+        "(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:718 Sbk Oevne Ya                             KFG:ERVAXR EQ/SBK UBYYBJ JBBQF EQ                Zrgeb Jrfg     3317,33QA138580834  90559387",
+        "PNYY:26 Fvpx Pnfr DQ",
+        "NQQE:718 Sbk Oevne Ya",
+        "K:ERVAXR EQ/SBK UBYYBJ JBBQF EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3317,33QA1",
+        "TCF:+38.580834,-90.559387");
+
+    qbGrfg("G31",
+        "(Pnq Cntr) 31 Hapbafpvbhf DQ             NG:2420 Crnprshy Pg                             KFG:Qrnq Raq/SHYYREGBA ZRNQBJF QE                Zrgeb Jrfg     33QA,3337,333238586562  90619405",
+        "PNYY:31 Hapbafpvbhf DQ",
+        "NQQE:2420 Crnprshy Pg",
+        "K:Qrnq Raq/SHYYREGBA ZRNQBJF QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:33QA,3337,3332",
+        "TCF:+38.586562,-90.619405");
+
+    qbGrfg("G32",
+        "(Pnq Cntr) 29 ZIN Erfphr   DQ            NG:Uvtujnl 109 / Crefvzzba Ya                   KFG:                                             Rherxn         24QA2,2414,3337,2424,2402",
+        "PNYY:29 ZIN Erfphr   DQ",
+        "NQQE:Uvtujnl 109 & Crefvzzba Ya",
+        "FEP:Rherxn",
+        "HAVG:24QA2,2414,3337,2424,2402");
+
+    qbGrfg("G33",
+        "(Pnq Cntr) 10 Purfg Cnva DQ              NG:302 Uhgpuvafba Eq                            KFG:JERA OVXR NAQ JNYXVAT CNGU/J SVRYQ NIR       Zrgeb Jrfg     3347,3344,33QA138601180  90595095",
+        "PNYY:10 Purfg Cnva DQ",
+        "NQQE:302 Uhgpuvafba Eq",
+        "K:JERA OVXR NAQ JNYXVAT CNGU/J SVRYQ NIR",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,3344,33QA1",
+        "TCF:+38.601180,-90.595095");
+
+    qbGrfg("G34",
+        "(Pnq Cntr) 17 Snyy DQ                    NG:3 Jvaqwnzzre Ya                              KFG:Qrnq Raq/PRAGRECBVAGR QE                     Zrgeb Jrfg     33QA,333738579108  90618066",
+        "PNYY:17 Snyy DQ",
+        "NQQE:3 Jvaqwnzzre Ya",
+        "K:Qrnq Raq/PRAGRECBVAGR QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:33QA,3337",
+        "TCF:+38.579108,-90.618066");
+
+    qbGrfg("G35",
+        "(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     2217,33QA,331738604875  90593025",
+        "PNYY:Zbir Hc Nzohynapr",
+        "NQQE:16060 Pynlgba Eq",
+        "K:JBYSS YA/UHGPUVAFBA EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:2217,33QA,3317",
+        "TCF:+38.604875,-90.593025");
+
+    qbGrfg("G36",
+        "(Pnq Cntr) 17 Snyy DQ                    NG:1 Fgerpxre Eq                                KFG:TNZOEVYY  TNEQRAF/TNZOEVYY  TNEQRAF          Zrgeb Jrfg     3317,33QA38589840  90599554",
+        "PNYY:17 Snyy DQ",
+        "NQQE:1 Fgerpxre Eq",
+        "K:TNZOEVYY  TNEQRAF/TNZOEVYY  TNEQRAF",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3317,33QA",
+        "TCF:+38.589840,-90.599554");
+
+    qbGrfg("G37",
+        "(Pnq Cntr) 31 Hapbafpvbhf DQ             NG:849 Juvfcrevat Ivyyntr Pve                   KFG:JUVFCREVAT SBERFG QE/JUVFCREVAT SBERFG QE    Zrgeb Jrfg     3327,3324,33QA38568036  90559350",
+        "PNYY:31 Hapbafpvbhf DQ",
+        "NQQE:849 Juvfcrevat Ivyyntr Pve",
+        "K:JUVFCREVAT SBERFG QE/JUVFCREVAT SBERFG QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3327,3324,33QA",
+        "TCF:+38.568036,-90.559350");
+
+    qbGrfg("G38",
+        "(Pnq Cntr) 31 Snvagvat DQ                NG:14965 Pynlgba Eq                             KFG:ONKGRE EQ/UNGGRENF QE                        Zrgeb Jrfg     3347,33QA138614631  90541997",
+        "PNYY:31 Snvagvat DQ",
+        "NQQE:14965 Pynlgba Eq",
+        "K:ONKGRE EQ/UNGGRENF QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,33QA1",
+        "TCF:+38.614631,-90.541997");
+
+    qbGrfg("G39",
+        "(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:2514 Arj Cbvag Qe                            KFG:SHYYREGBA ZRNQBJF QE/ARJ CBVAG PG            Zrgeb Jrfg     3337,33QA138584270  90619404",
+        "PNYY:26 Fvpx Pnfr DQ",
+        "NQQE:2514 Arj Cbvag Qe",
+        "K:SHYYREGBA ZRNQBJF QE/ARJ CBVAG PG",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3337,33QA1",
+        "TCF:+38.584270,-90.619404");
+
+    qbGrfg("G40",
+        "(Pnq Cntr) 29 ZIN (Cre CQ)               NG:Uvtujnl 141 Fo / Pynlgba Eq                  KFG:                                             Jrfg Pbhagl    3327,3534,35QA,3517,EPQA6",
+        "PNYY:29 ZIN (Cre CQ)",
+        "NQQE:Uvtujnl 141 Fo & Pynlgba Eq",
+        "ZNQQE:Uvtujnl 141 & Pynlgba Eq",
+        "FEP:Jrfg Pbhagl",
+        "HAVG:3327,3534,35QA,3517,EPQA6");
+
+    qbGrfg("G41",
+        "(Pnq Cntr) 17 Snyy DQ                    NG:211 Pbby Zrnqbjf Qe                          KFG:PYRNE ZRNQBJF QE/SNJA ZRNQBJF QE             Zrgeb Jrfg     3317,33QA138604273  90537367",
+        "PNYY:17 Snyy DQ",
+        "NQQE:211 Pbby Zrnqbjf Qe",
+        "K:PYRNE ZRNQBJF QE/SNJA ZRNQBJF QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3317,33QA1",
+        "TCF:+38.604273,-90.537367");
+
+    qbGrfg("G42",
+        "(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     333738604875  90593025",
+        "PNYY:Zbir Hc Nzohynapr",
+        "NQQE:16060 Pynlgba Eq",
+        "K:JBYSS YA/UHGPUVAFBA EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3337",
+        "TCF:+38.604875,-90.593025");
+
+    qbGrfg("G43",
+        "(Pnq Cntr) 17 Snyy DQ                    NG:253 Terralneq Qe                             KFG:TERRALNEQ PG/FRIRA GENVYF QE                 Zrgeb Jrfg     3312,3347,33QA138598725  90541027",
+        "PNYY:17 Snyy DQ",
+        "NQQE:253 Terralneq Qe",
+        "K:TERRALNEQ PG/FRIRA GENVYF QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3312,3347,33QA1",
+        "TCF:+38.598725,-90.541027");
+
+    qbGrfg("G44",
+        "(Pnq Cntr) 25 Cflpu/BOF *Frpher* DQ      NG:235 Arj Onyyjva Eq                           KFG:ERQFGNEG QE/QRAAVFBA QE                      Zrgeb Jrfg     3312,3327,33QA138586415  90557687",
+        "PNYY:25 Cflpu/BOF *Frpher* DQ",
+        "NQQE:235 Arj Onyyjva Eq",
+        "K:ERQFGNEG QE/QRAAVFBA QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3312,3327,33QA1",
+        "TCF:+38.586415,-90.557687");
+
+    qbGrfg("G45",
+        "(Pnq Cntr) 17 Snyy DQ                    NG:301 Oevtug Zrnqbjf Qe                        KFG:Qrnq Raq/QRRE ZRNQBJF PG                     Zrgeb Jrfg     3317,33QA138600917  90532601",
+        "PNYY:17 Snyy DQ",
+        "NQQE:301 Oevtug Zrnqbjf Qe",
+        "K:Qrnq Raq/QRRE ZRNQBJF PG",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3317,33QA1",
+        "TCF:+38.600917,-90.532601");
+
+    qbGrfg("G46",
+        "(Pnq Cntr) 17 Snyy DQ                    NG:170 Onyyjva Znabe Qe                         KFG:ZNAPURFGRE EQ/Qrnq Raq                       Zrgeb Jrfg     3347,33QA38590804  90537331",
+        "PNYY:17 Snyy DQ",
+        "NQQE:170 Onyyjva Znabe Qe",
+        "K:ZNAPURFGRE EQ/Qrnq Raq",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,33QA",
+        "TCF:+38.590804,-90.537331");
+
+    qbGrfg("G47",
+        "(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     333738604875  90593025",
+        "PNYY:Zbir Hc Nzohynapr",
+        "NQQE:16060 Pynlgba Eq",
+        "K:JBYSS YA/UHGPUVAFBA EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3337",
+        "TCF:+38.604875,-90.593025");
+
+    qbGrfg("G48",
+        "(Pnq Cntr) 19 Urneg Ceboyrzf DQ          NG:211 Pyrne Zrnqbjf Qe                         KFG:PBBY ZRNQBJF QE/FJRRG ZRNQBJF YA             Zrgeb Jrfg     3327,3332,33QA38603414  90536342",
+        "PNYY:19 Urneg Ceboyrzf DQ",
+        "NQQE:211 Pyrne Zrnqbjf Qe",
+        "K:PBBY ZRNQBJF QE/FJRRG ZRNQBJF YA",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3327,3332,33QA",
+        "TCF:+38.603414,-90.536342");
+
+    qbGrfg("G49",
+        "(Pnq Cntr) 17 Snyy DQ                    NG:15021 Pynlzbbe Pg                            KFG:PYNLZBBE QE/PYNLZBBE QE                      Zrgeb Jrfg     3317,33QA38619600  90539036",
+        "PNYY:17 Snyy DQ",
+        "NQQE:15021 Pynlzbbe Pg",
+        "K:PYNLZBBE QE/PYNLZBBE QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3317,33QA",
+        "TCF:+38.619600,-90.539036");
+
+    qbGrfg("G50",
+        "(Pnq Cntr) 19 Urneg Ceboyrzf DQ          NG:233 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3347,33QA38599588  90585666",
+        "PNYY:19 Urneg Ceboyrzf DQ",
+        "NQQE:233 Pynexfba Eq",
+        "K:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,33QA",
+        "TCF:+38.599588,-90.585666");
+
+    qbGrfg("G51",
+        "(Pnq Cntr) Zbir Hc Nzohynapr             NG:13790 Znapurfgre Eq                          KFG:ZNFBA EQ F/ZNAPURFGRE ZRNQBJF                Jrfg Pbhagl    35QA,3317",
+        "PNYY:Zbir Hc Nzohynapr",
+        "NQQE:13790 Znapurfgre Eq",
+        "K:ZNFBA EQ F/ZNAPURFGRE ZRNQBJF",
+        "FEP:Jrfg Pbhagl",
+        "HAVG:35QA,3317");
+
+    qbGrfg("G52",
+        "(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:2505 Arj Cbvag Qe                            KFG:SHYYREGBA ZRNQBJF QE/ARJ CBVAG PG            Zrgeb Jrfg     33QA,333738584812  90619377",
+        "PNYY:26 Fvpx Pnfr DQ",
+        "NQQE:2505 Arj Cbvag Qe",
+        "K:SHYYREGBA ZRNQBJF QE/ARJ CBVAG PG",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:33QA,3337",
+        "TCF:+38.584812,-90.619377");
+
+    qbGrfg("G53",
+        "(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:345 Pynexfba Eq                              KFG:BERTBA GENVY QE/PYNLGBA EQ                   Zrgeb Jrfg     3347,33QA38603891  90585680",
+        "PNYY:26 Fvpx Pnfr DQ",
+        "NQQE:345 Pynexfba Eq",
+        "K:BERTBA GENVY QE/PYNLGBA EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,33QA",
+        "TCF:+38.603891,-90.585680");
+
+    qbGrfg("G54",
+        "(Pnq Cntr) 25 Cflpu/BOF *Frpher* DQ      NG:Uvtujnl 109 / Pynlgba Eq                     KFG:                                             Zrgeb Jrfg     33QA1,333738596658  90639994",
+        "PNYY:25 Cflpu/BOF *Frpher* DQ",
+        "NQQE:Uvtujnl 109 & Pynlgba Eq",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:33QA1,3337",
+        "TCF:+38.596658,-90.639994");
+
+    qbGrfg("G55",
+        "(Pnq Cntr) 28 Fgebxr DQ                  NG:184 Xruef Zvyy Oraq Qe                       KFG:XRUEF ZVYY ORAQ PG/XRUEF ZVYY GEY            Zrgeb Jrfg     3324,3317,33QA38596408  90543022",
+        "PNYY:28 Fgebxr DQ",
+        "NQQE:184 Xruef Zvyy Oraq Qe",
+        "K:XRUEF ZVYY ORAQ PG/XRUEF ZVYY GEY",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3324,3317,33QA",
+        "TCF:+38.596408,-90.543022");
+
+    qbGrfg("G56",
+        "(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:16518 Jvyybj Tyra Qe                         KFG:PYBIRE YRNS UVYY PG/JVYYBJ TYRA PG           Zrgeb Jrfg     33QA1,3332,334738568922  90628649",
+        "PNYY:06 Oernguvat Ceboyrzf DQ",
+        "NQQE:16518 Jvyybj Tyra Qe",
+        "K:PYBIRE YRNS UVYY PG/JVYYBJ TYRA PG",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:33QA1,3332,3347",
+        "TCF:+38.568922,-90.628649");
+
+    qbGrfg("G57",
+        "(Pnq Cntr) 29 ZIN  DQ                    NG:Uvtujnl 100 Ro / Gnlybe Eq                   KFG:                                             Zrgeb Jrfg     33QA1,3337,333238582593  90627427",
+        "PNYY:29 ZIN  DQ",
+        "NQQE:Uvtujnl 100 Ro & Gnlybe Eq",
+        "ZNQQE:Uvtujnl 100 & Gnlybe Eq",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:33QA1,3337,3332",
+        "TCF:+38.582593,-90.627427");
+
+    qbGrfg("G58",
+        "(Pnq Cntr) 29 ZIN Erfphr (Cre CQ)        NG:Znapurfgre Eq / Zne Ry Pg                    KFG:                                             Zrgeb Jrfg     EPQA2,3317,3312,3344,3515,330238592738  90573818",
+        "PNYY:29 ZIN Erfphr (Cre CQ)",
+        "NQQE:Znapurfgre Eq & Zne Ry Pg",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:EPQA2,3317,3312,3344,3515,3302",
+        "TCF:+38.592738,-90.573818");
+
+    qbGrfg("G59",
+        "(Pnq Cntr) Nynez Zrqvpny                 NG:863 Jbbqfvqr Genvyf Qe                       KFG:CVAR EVQTR GENVYF PG/Qrnq Raq                Zrgeb Jrfg     3327,3324,33QA38563726  90556640",
+        "PNYY:Nynez Zrqvpny",
+        "NQQE:863 Jbbqfvqr Genvyf Qe",
+        "K:CVAR EVQTR GENVYF PG/Qrnq Raq",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3327,3324,33QA",
+        "TCF:+38.563726,-90.556640");
+
+    qbGrfg("G60",
+        "(Pnq Cntr) Ryrpgevpny Ceboyrz Vafvqr Erf NG:209 Ynex Uvyy Ya                             KFG:ZBPXVATOVEQ YA/OEBBXFVQR YA                  Zrgeb Jrfg     3312,33QA138588244  90536491",
+        "PNYY:Ryrpgevpny Ceboyrz Vafvqr Erf",
+        "NQQE:209 Ynex Uvyy Ya",
+        "K:ZBPXVATOVEQ YA/OEBBXFVQR YA",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3312,33QA1",
+        "TCF:+38.588244,-90.536491");
+
+    qbGrfg("G61",
+        "(Pnq Cntr) Nynez Pbzzrepvny              NG:15425 Znapurfgre Eq                          KFG:IYNFVF QE/ZVZBFN YA                          Zrgeb Jrfg     3312,3344,33QA38592770  90563481",
+        "PNYY:Nynez Pbzzrepvny",
+        "NQQE:15425 Znapurfgre Eq",
+        "K:IYNFVF QE/ZVZBFN YA",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3312,3344,33QA",
+        "TCF:+38.592770,-90.563481");
+
+    qbGrfg("G62",
+        "(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     332738604875  90593025",
+        "PNYY:Zbir Hc Nzohynapr",
+        "NQQE:16060 Pynlgba Eq",
+        "K:JBYSS YA/UHGPUVAFBA EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3327",
+        "TCF:+38.604875,-90.593025");
+
+    qbGrfg("G63",
+        "(Pnq Cntr) 19 Urneg Ceboyrzf DQ          NG:233 Pynexfba Eq                              KFG:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX          Zrgeb Jrfg     3344,33QA,333738599588  90585666",
+        "PNYY:19 Urneg Ceboyrzf DQ",
+        "NQQE:233 Pynexfba Eq",
+        "K:IVETVAVN QE/PYNEXFBA RKRPHGVIR CNEX",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3344,33QA,3337",
+        "TCF:+38.599588,-90.585666");
+
+    qbGrfg("G64",
+        "(Pnq Cntr) 06 Oernguvat Ceboyrzf DQ      NG:32 Irfcre Qe                                 KFG:ZNAPURFGRE EQ/IRFCRE PG                      Zrgeb Jrfg     3317,3312,33QA138594242  90581115",
+        "PNYY:06 Oernguvat Ceboyrzf DQ",
+        "NQQE:32 Irfcre Qe",
+        "K:ZNAPURFGRE EQ/IRFCRE PG",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3317,3312,33QA1",
+        "TCF:+38.594242,-90.581115");
+
+    qbGrfg("G65",
+        "(Pnq Cntr) 25 Cflpu/BOF *Abg Frpher* DQ  NG:1421 Evqtrgerr Genvyf Qe                     KFG:EVQTRGERR GENVYF PG/EVQTR EQ                 Zrgeb Jrfg     3347,33QA138560275  90588918",
+        "PNYY:25 Cflpu/BOF *Abg Frpher* DQ",
+        "NQQE:1421 Evqtrgerr Genvyf Qe",
+        "K:EVQTRGERR GENVYF PG/EVQTR EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,33QA1",
+        "TCF:+38.560275,-90.588918");
+
+    qbGrfg("G66",
+        "(Pnq Cntr) Nynez Zrqvpny                 NG:863 Jbbqfvqr Genvyf Qe                       KFG:CVAR EVQTR GENVYF PG/Qrnq Raq                Zrgeb Jrfg     3327,3312,33QA138563846  90557018",
+        "PNYY:Nynez Zrqvpny",
+        "NQQE:863 Jbbqfvqr Genvyf Qe",
+        "K:CVAR EVQTR GENVYF PG/Qrnq Raq",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3327,3312,33QA1",
+        "TCF:+38.563846,-90.557018");
+
+    qbGrfg("G67",
+        "(Pnq Cntr) Ybpxbhg Bpphcvrq              NG:322 Gjvfgrqbnx Pg                            KFG:Qrnq Raq/JVAQLBNX QE                         Zrgeb Jrfg     3312,33QA38568292  90534797",
+        "PNYY:Ybpxbhg Bpphcvrq",
+        "NQQE:322 Gjvfgrqbnx Pg",
+        "K:Qrnq Raq/JVAQLBNX QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3312,33QA",
+        "TCF:+38.568292,-90.534797");
+
+    qbGrfg("G68",
+        "(Pnq Cntr) 26 Fvpx Pnfr DQ               NG:1 Fgerpxre Eq                                KFG:TNZOEVYY  TNEQRAF/TNZOEVYY  TNEQRAF          Zrgeb Jrfg     3347,33QA38589840  90599554",
+        "PNYY:26 Fvpx Pnfr DQ",
+        "NQQE:1 Fgerpxre Eq",
+        "K:TNZOEVYY  TNEQRAF/TNZOEVYY  TNEQRAF",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,33QA",
+        "TCF:+38.589840,-90.599554");
+
+    qbGrfg("G69",
+        "(Pnq Cntr) Bqbe Tnf Bhgfvqr              NG:408 Greevatgba Qe                            KFG:JRFGEHA QE/Qrnq Raq                          Zrgeb Jrfg     3312,33QA38575242  90567479",
+        "PNYY:Bqbe Tnf Bhgfvqr",
+        "NQQE:408 Greevatgba Qe",
+        "K:JRFGEHA QE/Qrnq Raq",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3312,33QA",
+        "TCF:+38.575242,-90.567479");
+
+    qbGrfg("G70",
+        "(Pnq Cntr) Sver Erfvqragvny              NG:820 Zrenzrp Ivrj Pg                          KFG:ZRENZRP IVRJ QE/Qrnq Raq                     Rherxn         2402,24QA2,2414,2434,8517,6112",
+        "PNYY:Sver Erfvqragvny",
+        "NQQE:820 Zrenzrp Ivrj Pg",
+        "K:ZRENZRP IVRJ QE/Qrnq Raq",
+        "FEP:Rherxn",
+        "HAVG:2402,24QA2,2414,2434,8517,6112");
+
+    qbGrfg("G71",
+        "(Pnq Cntr) 31 Snvagvat DQ                NG:222 Frnjvaq Qe                               KFG:QEVIRJNL/FJRRGPERRX QE                       Zrgeb Jrfg     3317,33QA38589765  90551694",
+        "PNYY:31 Snvagvat DQ",
+        "NQQE:222 Frnjvaq Qe",
+        "K:QEVIRJNL/FJRRGPERRX QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3317,33QA",
+        "TCF:+38.589765,-90.551694");
+
+    qbGrfg("G72",
+        "(Pnq Cntr) Zbir Hc Nzohynapr             NG:16060 Pynlgba Eq                             KFG:JBYSS YA/UHGPUVAFBA EQ                       Zrgeb Jrfg     333738604875  90593025",
+        "PNYY:Zbir Hc Nzohynapr",
+        "NQQE:16060 Pynlgba Eq",
+        "K:JBYSS YA/UHGPUVAFBA EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3337",
+        "TCF:+38.604875,-90.593025");
+
+    qbGrfg("G73",
+        "(Pnq Cntr) 25 Cflpu/BOF *Abg Frpher* DQ  NG:2319 Jrfgcne Qe                              KFG:RNTYR PUNFR PG/PLCERFF GENPR QE              Zrgeb Jrfg     3344,3317,33QA138618502  90580673",
+        "PNYY:25 Cflpu/BOF *Abg Frpher* DQ",
+        "NQQE:2319 Jrfgcne Qe",
+        "K:RNTYR PUNFR PG/PLCERFF GENPR QE",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3344,3317,33QA1",
+        "TCF:+38.618502,-90.580673");
+
+    qbGrfg("G74",
+        "(Pnq Cntr) 10 Purfg Cnva DQ              NG:645 Fubjcynpr Pg                             KFG:IBFFUVYY QE/JLAA CY                          Zrgeb Jrfg     3327,3324,33QA38568383  90555479",
+        "PNYY:10 Purfg Cnva DQ",
+        "NQQE:645 Fubjcynpr Pg",
+        "K:IBFFUVYY QE/JLAA CY",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3327,3324,33QA",
+        "TCF:+38.568383,-90.555479");
+
+    qbGrfg("G75",
+        "(Pnq Cntr) 10 Purfg Cnva DQ              NG:1 Fgerpxre Eq                                KFG:TNZOEVYY  TNEQRAF/TNZOEVYY  TNEQRAF          Zrgeb Jrfg     3347,3344,33QA138589840  90599554",
+        "PNYY:10 Purfg Cnva DQ",
+        "NQQE:1 Fgerpxre Eq",
+        "K:TNZOEVYY  TNEQRAF/TNZOEVYY  TNEQRAF",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3347,3344,33QA1",
+        "TCF:+38.589840,-90.599554");
+
+    qbGrfg("G76",
+        "(Pnq Cntr) Nynez Zrqvpny                 NG:1411 Jvyyf Ubyybj Eq                         KFG:Qrnq Raq/ONYQ RNTYR EQ                       Zrgeb Jrfg     33QA,3337,333238548297  90615717",
+        "PNYY:Nynez Zrqvpny",
+        "NQQE:1411 Jvyyf Ubyybj Eq",
+        "K:Qrnq Raq/ONYQ RNTYR EQ",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:33QA,3337,3332",
+        "TCF:+38.548297,-90.615717");
+
+    qbGrfg("G77",
+        "(Pnq Cntr) Nynez Pbzzrepvny              NG:2460 Gnlybe Eq                               KFG:ZNVA FG/Qrnq Raq                             Zrgeb Jrfg     3302,33QA1,3332,334438580576  90625954",
+        "PNYY:Nynez Pbzzrepvny",
+        "NQQE:2460 Gnlybe Eq",
+        "K:ZNVA FG/Qrnq Raq",
+        "FEP:Zrgeb Jrfg",
+        "HAVG:3302,33QA1,3332,3344",
+        "TCF:+38.580576,-90.625954");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
