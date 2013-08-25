@@ -173,6 +173,11 @@ PNQ:100 INAPR YA/EVTTF EQ;QVFG: 158.12 SG;GENSSVP GENAFCBEGNGVBA NPPVQG;JBSQ;20P
 PNQ:141 FUNQL FG;FGEHPGHER SVER;CTSQ;11O
 PNQ:417 YVGGYR PERRX PG;RYRPGEVPNY UNMNEQ;JBSQ;20Q
 ***************************************************************************
+Benatr Pbhagl, AP (APBenatrPbhaglNCnefre)
+PNQ:1300211;205 PHYOERGU CNEX QE;PUNCRY UVYY;PURFG CNVAF;BCF1
+PNQ:1300244;127 R SENAXYVA FG;PUNCRY UVYY;SVER PVGVMRA NTRAPL NFFVFG;BCF2
+PNQ:1300271;131 FBHGU EQ;PUNCRY UVYY;SVER NYNEZ PBZZREPVNY;BCF
+***************************************************************************
 Ebjna Pbhagl, AP (APEbjnaPbhaglCnefre)
 PNQ:10P4 PURFG CNVA;201 A SENAXYVA FG;FJVAX FG;CNEX FG;PUTI;4301;EST1
 PNQ:SVER QRCG FREIVPR NFFVTAZRAG;213 JNFUVATGBA FG;XYBAQNYR FG;PUTI;4301
@@ -3075,10 +3080,10 @@ ANFU911:* 7400 YNAPNFGRE FGBER EQ* * * FCEVAT UBCR* * NYNEZ-SVER* * FRP PRAGENY*
 ANFU911:* 6658 ERQ BNX EQ* * * ONGGYROBEB* * NYNEZ-SVER* * NQG FRPHEVGL* * * * * * *
 ANFU911:* 2311 QHXR EQ* * * ANFUIVYYR* * URZBEEUN-U* * RINAF* * * * * * *
 ***************************************************************************
-Benatr Pbhagl, AP (APBenatrPbhaglCnefre)
-(PNQ Cntr sbe PSF 060911-335) BCF \aGEAT/JEX FRFFVBA\aGEAT NG 1900 UEF\aNcg: \aOhvyq:
-(PNQ Cntr sbe PSF 060511-228) BCF 2\aNhgb Sver Nynez\a6514 QBP PBEORGG EQ\aNcg: \aOhvyq:
-(PNQ Cntr sbe PSF 060411-348) BCF 1\aOERNGUVAT\a8100 AP 86 A\aNcg: \aOhvyq:
+Benatr Pbhagl, AP (APBenatrPbhaglOCnefre)
+Fhowrpg:1301648 (RZF)\auggc://cntrgenpx.arg/vapvqrag.cuc?c=435N923P96785N3QR1\aBCF 1\a2228 CNGUJNL QE\a17N1T Snyy, Abg qnatrebhf obql n
+Fhowrpg:1306284 (RZF)\auggc://cntrgenpx.arg/vapvqrag.cuc?c=425N923P96785N3QR2\a BCF 1\a 8100 XVG YA\a 27Q4L Fgno/Thafubg/Crargengvat Genhzn\a Zhygvcyr jbhaqf\a Frys-vasyvpgrq fgno
+Fhowrpg:1306284 (RZF)\auggc://cntrgenpx.arg/vapvqrag.cuc?c=O65N913P96695NN565\a BCF 1\a 5901 PENVT EQ\a OYQT: G, NCG: 19\a 31Q1 Hapbafpvbhf/Snvagvat (arne)\a Hapbafpvbhf ntbany/varssrpgvir oernguvat\a BPCP: Erf-ZU-FJ\a FHOQ: Zncyr Evqtr Zuc
 ***************************************************************************
 Cvgg Pbhagl, AP (APCvggPbhaglCnefre)
 F:911 Sver Pnyy Z:S24|Epiq:05/31/2012 03:34|Efa:SVER NYNEZ NPG|Abgr:FNZR|Nqe:1550  DHNYVGL YA
@@ -6406,27 +6411,6 @@ Fraqre: qbabgercyl@wrsspb.hf
 *********************************************************
 **********************************************************
 **********************************************************
-Benatr Pbhagl, AP (nygreangr)
-Pbagnpg: Zngg Xhuy <znggxhuy2@tznvy.pbz>
-Fraqre: cgQvfcngpu@cntrgenpx.arg
-Fhowrpg:1301648 (RZF)\auggc://cntrgenpx.arg/vapvqrag.cuc?c=435N923P96785N3QR1\aBCF 1\a2228 CNGUJNL QE\a17N1T Snyy, Abg qnatrebhf obql n
-
-Fhowrpg:1306284 (RZF)\auggc://cntrgenpx.arg/vapvqrag.cuc?c=425N923P96785N3QR2\a BCF 1\a 8100 XVG YA\a 27Q4L Fgno/Thafubg/Crargengvat Genhzn\a Zhygvcyr jbhaqf\a Frys-vasyvpgrq fgno
-Fhowrpg:1306284 (RZF)\uggc://cntrgenpx.arg/vapvqrag.cuc?c=O65N913P96695NN565\a BCF 1\a 5901 PENVT EQ\a OYQT: G, NCG: 19\a 31Q1 Hapbafpvbhf/Snvagvat (arne)\a Hapbafpvbhf ntbany/varssrpgvir oernguvat\a BPCP: Erf-ZU-FJ\a FHOQ: Zncyr Evqtr Zuc
-Fhowrpg:1306284 (RZF)\uggc://cntrgenpx.arg/vapvqrag.cuc?c=O75N913P96695NN564\a BCF 1\a 9705 YRFYVR QE\a 17N1 Snyy, Abg qnatrebhf obql nern
-Fhowrpg:1306284 (RZF)\uggc://cntrgenpx.arg/vapvqrag.cuc?c=O55N913P96695NN562\a BCF ?\a 86 NAQ UNZCGBA CBVAG\a RZF ZBIR HC
-Fhowrpg:1306284 (RZF)\uggc://cntrgenpx.arg/vapvqrag.cuc?c=NO5N913P96695NN560\a BCF 1\a 107 SNVESVRYQ PG\a 17O1 Snyy, Cbffvoyl qnatrebhf obql nern\a FHOQ: Snvebnxf
-
-
-Fhowrpg: 130287 (RZF) -- Eha ahzore & Ntrapl
-Yvar 1: (Cntrgenpx HEY) -- Guvf vf haarprffnel naq fubhyq or qebccrq
-Yvar 2: BCF 1 -- Guvf vf gur qrfvtangrq enqvb BCF punaary
-Yvar 3: (nqqerff) -- Jura na vagrefrpgvba vg vf ___ NAQ ____.
-Yvar 4: (RZQ Qrgrezvanag) (Pnyy Anzr) -- Guvf jbhyq or avpr gb org gur
-bssvpvny anzr ba gur ybt
-Yvar 5+: (Shegure pnyy qngn)
-(Bcgvbany) BPCP:____ -- Glcr bs fgehpgher
-(Bcgvbany) FHOQ: ____ -- Fhoqvivfvba Anzr
 **********************************************************
 Nynznapr Pbhagl, AP
 Pbagnpg: Jnlyba Pbbx <xpbbx34o@tznvy.pbz>
