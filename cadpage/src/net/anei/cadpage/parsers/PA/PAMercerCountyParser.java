@@ -145,6 +145,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "COM",  "Commercial Fire",
       "ELI",  "Electric Fire",
       "ELO",  "Electric Lines down",
+      "EXP",  "Explosion",
       "FALM", "Fire alarm",
       "GARC", "Comercial Garage Fire",
       "GARF", "Garbage Fire",
