@@ -28,11 +28,7 @@ public class INVigoCountyParser extends DispatchCiscoParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!body.startsWith("Ct:")) {
-      if (subject.length() == 0) return false;
-      body = "Ct:" + subject + " " + body;
-    }
-    if (!super.parseMsg(body, data)) return false;
+    if (!super.parseMsg(subject, body, data)) return false;
     
     // Turn HLF -> 1/2
     data.strAddress = HLF_PATTERN.matcher(data.strAddress).replaceAll("1/2");

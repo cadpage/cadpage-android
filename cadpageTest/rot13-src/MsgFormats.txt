@@ -601,6 +601,11 @@ Pg:NOQBZVANY CNVA Ybp:11593 FGNGR UVTUJNL B Ncg: KFg:PNVA EQ CNEXJBBQ QE Tevq:35
 Pg:JNGRE ERFPHR Ybp:11109 FHAARA YNXR EQ Ncg: KFg:FGNGR UVTUJNL 8 Tevq:3508 Havgf:R3560 R3562 J3599 O3580 Ezx:FHOWRPG VA N GEHPX NAQ CHYYVAT N GENVYRE
 Pg:FVPX CREFBA Ybp:FHAARA YNXR EQ/FGNGR UVTUJNL Ncg: KFg: Tevq:3508 Havgf:N6917 Ezx:BA FHAARA YNXR EQ NG GUR FNZR YBPNGVBA,
 *******************************************************************************
+Zhfxvathz Pbhagl, Buvb (BUZhfxvathzPbhaglCnefre)
+(F-VYY CREFBA) Ybp:10000 FCRAPRE EQ KFg:ENVQREF EQ PNANY EQ Tevq:0050 Havgf:SENM Ezx:ERD FDHNQ ERS GB VYY SRZNYR,YBJ OYBBQ CERFFHER
+(F-VAW. CREFBA) Ybp:6280 OERAGPERFG QE KFg:ZNP QE GNATYRJBBQ QE Tevq:0054 Havgf:YVPX Ezx:ERD N FD GB GUR YBPNGVBA ERS. N CNGVRAG VAWHERQ SEBZ N S
+(F-FHVPVQR) Ybp:91 5 FG SENMRLFOHET Ncg:2 KFg:3 FG SENMRLFOHE QRNQ RAQ Tevq:0415 Havgf:SENM Ezx:ERD QRC ERS GB UVF SRRYVAT BS JNAGVAT GB UNEZ UVZ
+*******************************************************************************
 Bksbeq, BU (BUBksbeqCnefre)
 Pg:ZRQ:RAGENCZRAG  Ybp:11 F CBCYNE FG               Ncg:      KFg:UVTU FG JNYAHG FG               Tevq:1604 Havgf:AB19                                      Ezx:
 Pg:SQ: SVER NYNEZ  Ybp:5201 PBYYRTR PBEARE CXr      Ncg:219   KFg:                                Tevq:4300 Havgf:Z11                                       Ezx:
@@ -6400,16 +6405,6 @@ Fraqre: qbabgercyl@wrsspb.hf
 **********************************************************
 *********************************************************
 **********************************************************
-Zhfxvathz Pbhagl, Buvb
-Pbagnpg: Naqerj Ongfgen <naqerj.ongfgen@tznvy.pbz>
-Fraqre: pvfpbgrkg@buvbzhfxvathzfurevss.bet
-(F-VYY CREFBA) Ybp:10000 FCRAPRE EQ KFg:ENVQREF EQ PNANY EQ Tevq:0050 Havgf:SENM Ezx:ERD FDHNQ ERS GB VYY SRZNYR,YBJ OYBBQ CERFFHER
-(F-VAW. CREFBA) Ybp:6280 OERAGPERFG QE KFg:ZNP QE GNATYRJBBQ QE Tevq:0054 Havgf:YVPX Ezx:ERD N FD GB GUR YBPNGVBA ERS. N CNGVRAG VAWHERQ SEBZ N S
-(F-FHVPVQR) Ybp:91 5 FG SENMRLFOHET Ncg:2 KFg:3 FG SENMRLFOHE QRNQ RAQ Tevq:0415 Havgf:SENM Ezx:ERD QRC ERS GB UVF SRRYVAT BS JNAGVAT GB UNEZ UVZ
-(S-ZVFP) Ybp:4969 QVYYBA QNZ EQ KFg:ARJNEX EQ QVYYBA QNZ EQ Tevq:058A Havgf: Ezx:ERCBEGF N OBNG FGNAQRQ BA GUR SNYYF, GJB BPPHCNAGF.
-(S-FGEHPGHER) Ybp:14331 PB EQ 3 PBFUBPGBA PGL Tevq:9999 Havgf: Ezx:ERD SENM SVER SBE CBFF FGEHPGHER SVER, GBAVAT JNEFNJ
-(S-VAWHEL NPP) Ybp:OERAGPERFG QE/ARJNEX EQ KFg:ORTVAF FJVAT-N-YBAT YA Tevq:0054 Havgf:YVPX Ezx:CBFF VAW NPPVQRAG ARNE YBP
-(S-SVER NYNEZ) Ybp:13260 FPBHG EQ KFg:ZG MVBA EQ PBFUBPGBA PB YV Tevq:0050 Havgf:SENM Ezx:ERCBEGF N SVER NYNEZ NG GUR ZBEVA ERF.
 **********************************************************
 Benatr Pbhagl, AP (nygreangr)
 Pbagnpg: Zngg Xhuy <znggxhuy2@tznvy.pbz>

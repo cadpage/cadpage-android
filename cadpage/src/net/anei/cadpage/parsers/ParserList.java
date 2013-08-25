@@ -603,6 +603,7 @@ public class ParserList {
               ,"OHMiamiCounty"                  ,"Miami County, OH"
               ,"OHMontgomeryCounty"             ,"Montgomery County, OH"
               ,"OHMorrowCounty"                 ,"Morrow County, OH"
+              ,"OHMuskingumCounty"              ,"Muskingum County, OH"
               ,"OHNECC"                         ,"NECC, OH"
               ,"OHOxford"                       ,"Oxford, OH"
               ,"OHPortageCounty"                ,"Portage County, OH"

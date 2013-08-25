@@ -17,7 +17,7 @@ public class MOStFrancoisCountyParser extends DispatchCiscoParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
-    return super.parseMsg(body.replace('\n', ' ').replace("!",""), data);
+  public boolean parseMsg(String subject, String body, Data data) {
+    return super.parseMsg(subject, body.replace('\n', ' ').replace("!",""), data);
   }
 }
