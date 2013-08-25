@@ -11,19 +11,6 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 public class NCStanlyCountyParser extends DispatchOSSIParser {
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "ALB", "ALBEMARLE",
-      "BAD", "BADIN",
-      "GLH", "GOLD HILL",
-      "LOC", "LOCUST",
-      "MTP", "MT PLEASANT",
-      "NEW", "NEW LONDON",
-      "NOR", "NORWOOD",
-      "OAK", "OAKBORO",
-      "RFD", "RICHFIELD",
-      "SFD", "STANFIELD"
-  });
-  
   private List<String> addressList = new ArrayList<String>();
   
   public NCStanlyCountyParser() {
@@ -39,9 +26,9 @@ public class NCStanlyCountyParser extends DispatchOSSIParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    boolean result = super.parseMsg(subject, body, data);
+    if (!body.startsWith("CAD:")) body = "CAD:" + body;
     addressList.clear();
-    return result;
+    return super.parseMsg(subject, body, data);
   }
   
   // Things get complicated here, the address field just accumulates fields
@@ -86,4 +73,17 @@ public class NCStanlyCountyParser extends DispatchOSSIParser {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ALB", "ALBEMARLE",
+      "BAD", "BADIN",
+      "GLH", "GOLD HILL",
+      "LOC", "LOCUST",
+      "MTP", "MT PLEASANT",
+      "NEW", "NEW LONDON",
+      "NOR", "NORWOOD",
+      "OAK", "OAKBORO",
+      "RFD", "RICHFIELD",
+      "SFD", "STANFIELD"
+  });
 }
