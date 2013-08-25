@@ -216,6 +216,7 @@ public class ParserList {
               ,"GABrantleyCounty"               ,"Brantley County, GA"
               ,"GACamdenCounty"                 ,"Camden County, GA"
               ,"GACandlerCounty"                ,"Candler County, GA"
+              ,"GACoffeeCounty"                 ,"Coffee County, GA"
               ,"GADadeCounty"                   ,"Dade County, GA"
               ,"GADoolyCounty"                  ,"Dooly County, GA"
               ,"GADoughertyCounty"              ,"Dougherty County, GA"

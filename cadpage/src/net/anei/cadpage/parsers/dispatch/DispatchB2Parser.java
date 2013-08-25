@@ -24,6 +24,7 @@ public class DispatchB2Parser extends DispatchBParser {
   private static final Pattern PHONE2_PTN = Pattern.compile("^((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}) *");
   private static final Pattern APT_PTN = Pattern.compile("[A-Z]?\\d+[A-Z]?");
   private static final Pattern NAME_PTN = Pattern.compile(" +([A-Z]+, ?[A-Z]+(?: [A-Z]\\.?)?)$");
+  private static final Pattern TRAIL_DIR_PTN = Pattern.compile(" +([NSEW]B?)$");
   
   private String prefix;
 
@@ -125,6 +126,7 @@ public class DispatchB2Parser extends DispatchBParser {
     }
     parseAddress(st, flags | FLAG_NEAR_TO_END, field, data);
     String name = getLeft();
+    boolean noCross = (data.strCross.length() == 0);
     if (name.length() > 0) {
       if (name.startsWith("&")) {
         data.strAddress = append(data.strAddress, " ", name);
@@ -132,7 +134,7 @@ public class DispatchB2Parser extends DispatchBParser {
       else if (data.strPhone.length() == 0 && (match = PHONE2_PTN.matcher(name)).find()) {
         data.strPhone = match.group(1);
         field = name.substring(match.end());
-        if (checkAddress(field) > 0) {
+        if (noCross && checkAddress(field) > 0) {
           data.strCross = field;
         } else {
           data.strName = append(field, " ", data.strName);
@@ -144,7 +146,22 @@ public class DispatchB2Parser extends DispatchBParser {
       }
       
       else {
-        data.strName = append(name, " ", data.strName);
+        if (noCross && checkAddress(name) > 0) {
+          data.strCross = name;
+        } else {
+          data.strName = append(name, " ", data.strName);
+        }
+      }
+      
+      // We can't turn on the FLAG_CROSS_FOLLOWS option or it will mess up followin names
+      // but if we have identified a cross street, see if the address has a trailing direction
+      // symbol that should be attached to the cross street.
+      if (noCross && data.strCross.length() > 0) {
+        match = TRAIL_DIR_PTN.matcher(data.strAddress);
+        if (match.find()) {
+          data.strCross = match.group(1) + ' ' + data.strCross;
+          data.strAddress = data.strAddress.substring(0,match.start());
+        }
       }
     }
     
