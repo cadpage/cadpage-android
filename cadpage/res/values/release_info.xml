@@ -1,41 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08192013</string>
-  <string name="release_version">v1.6.38</string>
+  <string name="release_date">08252013</string>
+  <string name="release_version">v1.6.39</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Fresno County, CA\n
-Placer County, CA\n
-Ascension Parish, LA\n
-Dakota County, MN\n
-Lincoln County, MO\n
-Merrimack County, NH\n
-Bradley County, TN\n
-Colonial Heights, VA\n
-Mecklenburg County, VA\n
+Coffee County, GA\n
+Cumberland County, ME\n
+Livingston County, NY (alt)\n
+Alamance County, NC\n
+Orange County, NC (alt)\n
+Muskingum County, OH\n
+Fluvanna County, VA\n
 \n
 Location Parsing Fixes:\n
-Yolo County, CA\n
-Sedgewick County, KS\n
-Campbell County, KY\n
-Charles County, MD\n
-Polk County, MO\n
-St Louis County, MO\n
-Gloucester County, NJ\n
-Sussex County, NJ\n
-Cayuga County, NY\n
-Jonston County, NC\n
+Kanawha County, WV\n
 Stanley County, NC\n
-Wilson County, NC\n
-Campbell County, TN\n
-Hamilton County, TN\n
-Collin County, TX\n
-\n
-General Fixes:\n
-More attempts to fix sporadic crashes.\n
-Fixed crash when GPS returns bad coordinates.\n
+Mahoning County, OH\n
+Linn County, OR\n
+Cumberland County, PA\n
+Mercer County, PA\n
   </string>  
 </resources>
   
