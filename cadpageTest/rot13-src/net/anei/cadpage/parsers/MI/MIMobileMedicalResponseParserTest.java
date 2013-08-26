@@ -75,6 +75,10 @@ Fraqre: znvytubfg@zbovyrzrqvpny.bet
 (<PNQ> - cneg 1 bs 1) EP:Eha# 83543/121 CREEL FG/C-2 Rzretrapl Ab Yvtugf/shyregba gbby/Purfg Cnva (Aba-Genhzngvp)/40s //QVO ///NYF/FNTVANJ///<Haxabja>/09:14\e\a\e\a
 (<PNQ> - cneg 1 bs 1) Eha# 83480/ 2225 GVGGNONJNFFRR EQ/ C-1 Yvsr Guerngravat Rzretrapl/ Cflpuvngevp/ Noabezny Orunivbe/Fhvpvqr Nggrzcg/ ng gur vubc gvggnonjfrr /erq t6 va gur onpx cnexvat ybg/ NYF/ FNTVANJ/ 700 PBBCRE NIR/ <Haxabja>/ 00:22\e\a\e\a
 
+Pbagnpg: avpxfvccy@lnubb.pbz <avpxfvccy@lnubb.pbz>
+Fraqre: znvytubfg@zbovyrzrqvpny.bet
+SEZ:znvytubfg@zbovyrzrqvpny.bet\aFHOW:<PNQ> - cneg 1 bs 1\aZFT:EP:Eha# 68819/2590 TEBIR EQ//qrrc evire gjc.   k jlngg eq//<Haxabja>
+
  */
 
 choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -420,6 +424,18 @@ choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2225 GVGGNONJNFFRR EQ",
         "PNYY:C-1 Yvsr Guerngravat Rzretrapl",
         "VASB:Cflpuvngevp / Noabezny Orunivbe / Fhvpvqr Nggrzcg / ng gur vubc gvggnonjfrr / erq t6 va gur onpx cnexvat ybg / NYF / FNTVANJ / 700 PBBCRE NIR / <Haxabja> / 00:22");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgAvpxFvccy() {
+
+    qbGrfg("G1",
+        "SEZ:znvytubfg@zbovyrzrqvpny.bet\aFHOW:<PNQ> - cneg 1 bs 1\aZFT:EP:Eha# 68819/2590 TEBIR EQ//qrrc evire gjc.   k jlngg eq//<Haxabja>",
+        "VQ:68819",
+        "NQQE:2590 TEBIR EQ",
+        "PNYY:qrrc evire gjc.   k jlngg eq",
+        "VASB:<Haxabja>");
 
   }
   
