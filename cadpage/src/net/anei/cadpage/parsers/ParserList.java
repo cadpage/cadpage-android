@@ -502,6 +502,7 @@ public class ParserList {
               ,"NYWyomingCounty"                ,"Wyoming County, NY"
           ),
           new ParserCategory("North Carolina"
+              ,"NCAlamanceCounty"               ,"Alamance County, NC"
               ,"NCAlexanderCounty"              ,"Alexander County, NC"
               ,"NCAnsonCounty"                  ,"Anson County, NC"
               ,"NCBrunswickCounty"              ,"Brunswick County, NC"
