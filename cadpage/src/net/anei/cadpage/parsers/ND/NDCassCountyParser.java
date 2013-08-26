@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NDCassCountyParser extends SmartAddressParser {
   
-  private static final Pattern DATE_TIME_CFS_PTN = Pattern.compile("(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d) CFS #: (\\d+) ");
+  private static final Pattern DATE_TIME_CFS_PTN = Pattern.compile("(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d) CFS #:? (\\d+) ");
   private static final Pattern UNIT_PTN = Pattern.compile("(?: \\d{3}| \\d{4}-[A-Z]+)+$");
  
   public NDCassCountyParser() {
