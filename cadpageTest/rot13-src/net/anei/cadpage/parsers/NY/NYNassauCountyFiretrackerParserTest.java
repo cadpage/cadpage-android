@@ -129,6 +129,10 @@ Fraqre: qvfcngpu@svergenpxre.arg
 (SverCntr) *RJSQ* [PNEO 1] PNEO AB VYYARFF 36 QBJAVAT FG P/F:YNGUNZ YN / PBATERFF\e\aNIR 11/29/2012 GBN:21:41 [SverGenpxre]\e\a
 (SverCntr) *RJSQ* [9N 911] NZOH Z/IBZVGVAT 212 QREOL FG P/F:EBFYLA EBNQ / UVTU FG\e\aULQ:197/ 12/2/2012 GBN:03:58 [SverGenpxre]\e\a
 
+Pbagnpg: SERQ QNIVF <serq.qnivf337@tznvy.pbz>
+Fraqre: qvfcngpu@svergenpxre.arg
+(SverCntr) **JCSQ** [TRARENY] (NHGB) [80N932 / EHQQ ERFVQRAPR] 34 PNZCORYY CXJL\aNYOREGFBA P/F:UVYYQNYR EBNQ / NZUREFG EBNQ - MBAR F/R GBN:21:32\a8/26/2013
+ 
 */
 
 choyvp pynff ALAnffnhPbhaglSvergenpxreCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1205,10 +1209,28 @@ choyvp pynff ALAnffnhPbhaglSvergenpxreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:12/2/2012",
         "GVZR:03:58");
    
-  }    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgSerqQnivf() {
+
+    qbGrfg("G1",
+        "(SverCntr) **JCSQ** [TRARENY] (NHGB) [80N932 / EHQQ ERFVQRAPR] 34 PNZCORYY CXJL\a" +
+        "NYOREGFBA P/F:UVYYQNYR EBNQ / NZUREFG EBNQ - MBAR F/R GBN:21:32\a" +
+        "8/26/2013",
+
+        "FEP:JCSQ",
+        "PNYY:TRARENY (NHGB) 80N932 / EHQQ ERFVQRAPR - MBAR F/R",
+        "NQQE:34 PNZCORYY CXJL",
+        "CYNPR:NYOREGFBA",
+        "K:UVYYQNYR EBNQ / NZUREFG EBNQ",
+        "GVZR:21:32",
+        "qngr:8/26/2013");
+   
+  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALAnffnhPbhaglSvergenpxreCnefreGrfg().trarengrGrfgf("G21");
+    arj ALAnffnhPbhaglSvergenpxreCnefreGrfg().trarengrGrfgf("G1");
     //arj ALAnffnhPbhaglSvergenpxreCnefreGrfg().trarengrGrfgf("G21", "FEP PNYY NQQE K VASB");
   }
 }
