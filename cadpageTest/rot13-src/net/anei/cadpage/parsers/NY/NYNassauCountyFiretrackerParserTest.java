@@ -1225,7 +1225,7 @@ choyvp pynff ALAnffnhPbhaglSvergenpxreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:NYOREGFBA",
         "K:UVYYQNYR EBNQ / NZUREFG EBNQ",
         "GVZR:21:32",
-        "qngr:8/26/2013");
+        "QNGR:8/26/2013");
    
   }
   
