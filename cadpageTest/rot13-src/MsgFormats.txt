@@ -3361,9 +3361,9 @@ Havg:Z590O Fgnghf:Qvfcngpurq ZINHAX ; J ZNVA FG ABEZNY NIR ; ; ; Zhav: XHGMGBJA 
 Havg:Z535N Fgnghf:Qvfcngpurq NYF ZRQVPNY ; 281 ZBFRYRZ PUHEPU EQ ; ; FPUJBLRE EQ / ZVFGL YA ; Zhav: EVPUZBAQ ; 79 LBS/IBZVGVAT/PBHTUVAT/CNVA VA FVQR ; 07/11/12 10:04 Frag ol Orexf Pbhagl EFNA gb Syrrgjbbq RZF Nyy PNYY -- Lbh erprvirq guvf zrffntr orpnhfr lbh ertvfgrerq ba Nyreg Orexf.  Gb punatr lbhe nyregvat cersreraprf tb gb uggc://orexf.nyregcn.bet
 ***************************************************************************
 Oynve pbhagl, CN (CNOynvePbhaglCnefre)
-Vap: Iruvpyr Nppvqrag j/vawhevrf  Nqq: ZPZNUBA EQ naq 17GU FG  Pvgl: YBTNA GJC  Havgf: 1102 430 519 512 518 433 15N 16N  15N  Yng/Yba: @40.49756 @78.38746  9/7/2011 4:04:59 CZ  QE #: 11-0150208 
-Vap: Sybbqvat  Nqq: 219 A 16GU NIR  Pvgl: YBTNA GJC  Havgf: 18N 1101 16N  16N  Yng/Yba: @40.53965 @78.39608  9/7/2011 8:20:01 NZ  QE #: 11-0160247
-Vap: Vafvqr/Bhgfvqr Vairfg  Nqq: 3545 WHAVNGN TNC EQ  Pvgl: YBTNA GJC  Havgf: 18N  18N  Yng/Yba: @40.54878 @78.42869  9/7/2011 10:26:17 NZ  QE #: 11-0180238
+1 bs 3\aSEZ:Oynve Nyregf\aFHOW:>Pubbfr Pnyy Glcr<\aZFT:430, 434, 18N, 517, 518, 505\aTJVA EQ / PNZCHF IVRJ QE\a\a8/24/2013 12:24:23 NZ\aHAVGF BHG\a(Pba'g) 2 bs 3\aNG GUR 800 OHVYQVAT AVGGNAL CBVAGR, NG 2357\a518, BAR VA QRGRAGVBA NG 0001\a517, BAR IREL UVTU ONP BA OBNEQ, RAEBHGR GB HCZP, ORTVAAVAT\a(Pba'g) 3 bs 3\a35465.7\a517 NAQ 518 BHG NG HCZP, RA..\a(Raq)
+1 bs 3\aSEZ:Oynve Nyregf\aFHOW:Pbzz Sver Nynez\aZFT:15N\a3329 CYRNFNAG INYYRL OYIQ, YBTNA GJC\aHAVBA NIR / F 27GU FG, QHSS QE\a8/23/2013 6:18:50\a(Pba'g) 2 bs 3\aCZ\aMBAR 34 XVGPURA URNG QRGRPGBE FRG BSS\a814-942-6288\aCNTRQ SBE FGNGVBA 15 BSSVPRE\aPNYYRQ ERQ YBOFGRE NAQ RIRELGUVAT VF SVAR// AB\a(Pba'g) 3 bs 3\aARRQ SBE SVER(Raq)
+1 bs 2\aSEZ:Oynve Nyregf\aFHOW:Vafvqr/Bhgfvqr Vairfg\aZFT:15N, 1412\a350 YNXRZBAG CNEX OYIQ, YBTNA GJC\aAb Pebff Fgerrgf Sbhaq\a8/21/2013 5:54:42\a(Pba'g) 2 bs 2\aNZ\aPNYYRE PNZR VAGB JBEX NAQ SBHAQ SVER NYNEZ TBVAT BSS(Raq)
 ***************************************************************************
 Ohpxf Pbhagl, CN (CNOhpxfPbhaglNCnefre)
 911:FD134  glcr:OGNV    nqe:F YVZRXVYA CX/HCCRE FGNGR EQ ,48  nnv:  obk:74064  znc:3033S7  gz:21:05:23  RQ1042264
@@ -3640,6 +3640,7 @@ Craavatgba pbhagl, FQ (FQCraavatgbaPbhaglCnefre)
 (cntr ) Havg:29U1 Fgnghf:qvfcngpurq qvnorgvp 12823 byq uvyy pvgl eq craapb Ceboyrz: oybbq fhtne vffhrf. Cngvrag vasb: 1 cngvrag(f) 58 lrnef byq; srznyr
 (cntr ) Havg:29U1 Fgnghf:qvfcngpurq frvmher 209 Znva Fg Uvyy Pvgl Pnsr CebDN Zrqvpny Qvfcngpu Zrffntr Frag; Qvfcngpu pbqr: 12-Q-02 Ceboyrz :FR
 (cntr ) Havg:UP Fgnghf:Qvfcngpurq SNYNEZ 23835 Uvtujnl 385 Zvfgyrgbr Enapu craapb sver nynez fubjvat qbjafgnvef fzbxr qrgrpgbe QRCG56. CERZ CUBAR 605-574-2512
+*******************************************************************************
 Naqrefba Pbhagl, GA (GANaqrefbaPbhaglCnefre)
 (R911) Sver Nynez-Erfvqragvny - 1534 ZBHAGNVA EQ NAQREFBAIVYYR, GA 
 (R911) ZIN - Unmneqf - ORGURY EQ PYVAGBA, GA

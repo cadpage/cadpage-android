@@ -21,7 +21,7 @@ public class INMarionCountyParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "CAD@pager.mecagov.org,777,888";
+    return "CAD@pager.mecagov.org,CAD@page.indy.gov,777,888";
   }
   
   @Override
