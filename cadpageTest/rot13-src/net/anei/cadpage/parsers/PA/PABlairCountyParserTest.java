@@ -5,30 +5,16 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Oynve pbhagl, CN
+Oynve Pbhagl, CN (ercynpr)
+Pbagnpg: Genivf Yhatyubsre <gny114@hpf.cfh.rqh>
 Pbagnpg: Genivf Yhatyubsre <gyhatyubsre@tznvy.pbz>
-Fraqre: 28403
+Fraqre: Oynve Nyregf
 
-Vap: Iruvpyr Nppvqrag j/vawhevrf  Nqq: ZPZNUBA EQ naq 17GU FG  Pvgl: YBTNA GJC  Havgf: 1102 430 519 512 518 433 15N 16N  15N  Yng/Yba: @40.49756 @78.38746  9/7/2011 4:04:59 CZ  QE #: 11-0150208 
-Vap: Sybbqvat  Nqq: 219 A 16GU NIR  Pvgl: YBTNA GJC  Havgf: 18N 1101 16N  16N  Yng/Yba: @40.53965 @78.39608  9/7/2011 8:20:01 NZ  QE #: 11-0160247
-Vap: Vafvqr/Bhgfvqr Vairfg  Nqq: 3545 WHAVNGN TNC EQ  Pvgl: YBTNA GJC  Havgf: 18N  18N  Yng/Yba: @40.54878 @78.42869  9/7/2011 10:26:17 NZ  QE #: 11-0180238
-Vap: JVERF QBJA/GERR QBJA  Nqq: 1100 BYQ ZVYY EHA EQ  Pvgl: YBTNA GJC  Havgf: 12N 14N  12N  Yng/Yba: @40.51172 @78.46085  9/4/2011 10:50:24 NZ  QE #: 11-0120148
-Vap: Fgehpgher Sver  Nqq: 1632 PNZCHF IVRJ QE  Pvgl: YBTNA GJC  Havgf: 18N 1621 1632 512 1811 1851 1211 1221  12N  Yng/Yba: @40.54572 @78.41391  8/25/2011 6:20:44 CZ  QE #: 11-0120145
-Vap: SVER NFFVFG  Nqq: 531 R JBCFBABABPX NIR  Pvgl: NYGBBAN  Havgf: 18N  18N  Yng/Yba: @40.53712 @78.40229  8/19/2011 3:03:56 CZ  QE #: 11-0180225
-Vap: JVERF QBJA/GERR QBJA  Nqq: R CYRNFNAG INYYRL OYIQ naq OHPXARYY YA  Pvgl: YBTNA GJC  Havgf: 16N  16N  Yng/Yba: @40.53196 @78.36087  8/15/2011 1:49:26 NZ  QE #: 11-0160229
-Vap: Iruvpyr Nppvqrag j/vawhevrf  Nqq: 17GU FG naq INYYRL IVRJ OYIQ  Pvgl: YBTNA GJC  Havgf: 15N 16N 1211  15N  Yng/Yba: @40.49939 @78.39013  8/22/2011 3:52:39 CZ  QE #: 11-0150194
-Vap: Fgehpgher Sver  Nqq: 1105 3EQ NIR  Pvgl: QHAPNAFIV  Havgf: 10N 20N 420 626 421 2001 2021 604 5011 816 5001 2031 1011 5031 1551  15N  Yng/Yba: @40.42410 @78.43086  8/24/2011 6:56:20 CZ  QE #: 11-0150196
-
-Pbagnpg: Qnir Jvfre <lme305@lnubb.pbz>
-Fraqre: nyregf@oynvenyregf.pbz
-(Vap: JVERF QBJA/GERR QBJA) Vap: JVERF QBJA/GERR QBJA \aNqq: 605 5GU FG \aPvgl: GLEBAR OB \aHavgf: 400 31N\a31N\aYng/Yba: @40.66879 @78.25321\a9/27/2011 11:05:05 C
-(Vap: Pbzzrepvny Sver Nynez) Vap: Pbzzrepvny Sver Nynez \aNqq: 505 3EQ FG \aPvgl: GLEBAR OB \aHavgf: 400 31N\a31N\aYng/Yba: @40.66619 @78.25446\a10/1/2011 2:43:28
-(Vap: SVER NFFVFG) Vap: SVER NFFVFG \aNqq: FGNGVBA 1 \aPvgl:  \aHavgf: 9011 31N\a31N\aYng/Yba: @-1.00000 @-1.00000\a10/5/2011 2:27:41 NZ \aQE #: 311100256
-(Vap: Iruvpyr Sver) Vap: Iruvpyr Sver \aNqq: 110 FHAFRG UVYYF RKG \aPvgl: FALQRE GJ \aHavgf: 31N\a31N\aYng/Yba: @40.67871 @78.25442\a10/1/2011 9:35:19 CZ \aQE #: 31
-
-Naqerj Zlref <nwz5389@tznvy.pbz>
-Fraqre: nyregf@oynvenyregf.pbz
-Vap: Vafvqr/Bhgfvqr Vairfg \aNqq: 8162 JBBQOHEL CVXR \aPvgl: GNLYBE GJ \aHavgf: 400 60N 40N\aNtrapl: 40N\aZnc: uggc://zncf.tbbtyr.pbz/zncf?d=+40.34854%20-78.40453
+1 bs 3\aSEZ:Oynve Nyregf\aFHOW:>Pubbfr Pnyy Glcr<\aZFT:430, 434, 18N, 517, 518, 505\aTJVA EQ / PNZCHF IVRJ QE\a\a8/24/2013 12:24:23 NZ\aHAVGF BHG\a(Pba'g) 2 bs 3\aNG GUR 800 OHVYQVAT AVGGNAL CBVAGR, NG 2357\a518, BAR VA QRGRAGVBA NG 0001\a517, BAR IREL UVTU ONP BA OBNEQ, RAEBHGR GB HCZP, ORTVAAVAT\a(Pba'g) 3 bs 3\a35465.7\a517 NAQ 518 BHG NG HCZP, RA..\a(Raq)
+1 bs 3\aSEZ:Oynve Nyregf\aFHOW:Pbzz Sver Nynez\aZFT:15N\a3329 CYRNFNAG INYYRL OYIQ, YBTNA GJC\aHAVBA NIR / F 27GU FG, QHSS QE\a8/23/2013 6:18:50\a(Pba'g) 2 bs 3\aCZ\aMBAR 34 XVGPURA URNG QRGRPGBE FRG BSS\a814-942-6288\aCNTRQ SBE FGNGVBA 15 BSSVPRE\aPNYYRQ ERQ YBOFGRE NAQ RIRELGUVAT VF SVAR// AB\a(Pba'g) 3 bs 3\aARRQ SBE SVER(Raq)
+1 bs 2\aSEZ:Oynve Nyregf\aFHOW:Vafvqr/Bhgfvqr Vairfg\aZFT:15N, 1412\a350 YNXRZBAG CNEX OYIQ, YBTNA GJC\aAb Pebff Fgerrgf Sbhaq\a8/21/2013 5:54:42\a(Pba'g) 2 bs 2\aNZ\aPNYYRE PNZR VAGB JBEX NAQ SBHAQ SVER NYNEZ TBVAT BSS(Raq)
+1 bs 2\aSEZ:Oynve Nyregf\aFHOW:Pbzz Sver Nynez\aZFT:15N, 1632\a3240 CYRNFNAG INYYRL OYIQ, YBTNA GJC\aHAVBA NIR / PNLHTN NIR\a8/23/2013 1:44:43\a(Pba'g) 2 bs 2\aCZ\aSVER NYNEZ\aCYNARG SVGARFF\aQHFG NYNEZ\a(Raq)
+1 bs 2\aSEZ:Oynve Nyregf\aFHOW:RZF NFFVFG\aZFT:482, 1211, 15N, 1412\a5580 TBBQF YA, YBTNA GJC\aEHFFRYY QE / BEPUNEQ NIR\a8/23/2013 9:36:51 NZ\aPNE\a(Pba'g) 2 bs 2\aFZBXVAT ONQYL\aOL NCCYRORF NAQ WPCRAARL VA GUR CNEXVAT YBG\aTERRA INA\a(Raq)
 
 */
 
@@ -42,143 +28,109 @@ choyvp pynff CNOynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgCnefre() {
 
     qbGrfg("G1",
-        "Vap: Iruvpyr Nppvqrag j/vawhevrf  Nqq: ZPZNUBA EQ naq 17GU FG  Pvgl: YBTNA GJC  Havgf: 1102 430 519 512 518 433 15N 16N  15N  Yng/Yba: @40.49756 @78.38746  9/7/2011 4:04:59 CZ  QE #: 11-0150208 ",
-        "PNYY:Iruvpyr Nppvqrag j/vawhevrf",
-        "NQQE:ZPZNUBA EQ naq 17GU FG",
-        "ZNQQE:ZPZNUBA EQ & 17GU FG",
-        "PVGL:YBTNA GJC",
-        "HAVG:1102 430 519 512 518 433 15N 16N  15N",
-        "TCF:+40.497560,-78.387460",
-        "VQ:11-0150208");
+        "1 bs 3\a" +
+        "SEZ:Oynve Nyregf\a" +
+        "FHOW:>Pubbfr Pnyy Glcr<\a" +
+        "ZFT:430, 434, 18N, 517, 518, 505\a" +
+        "TJVA EQ / PNZCHF IVRJ QE\a\a" +
+        "8/24/2013 12:24:23 NZ\a" +
+        "HAVGF BHG\a" +
+        "(Pba'g) 2 bs 3\a" +
+        "NG GUR 800 OHVYQVAT AVGGNAL CBVAGR, NG 2357\a" +
+        "518, BAR VA QRGRAGVBA NG 0001\a" +
+        "517, BAR IREL UVTU ONP BA OBNEQ, RAEBHGR GB HCZP, ORTVAAVAT\a" +
+        "(Pba'g) 3 bs 3\a" +
+        "35465.7\a" +
+        "517 NAQ 518 BHG NG HCZP, RA..\a" +
+        "(Raq)",
+
+        "PNYY:>Pubbfr Pnyy Glcr<",
+        "HAVG:430, 434, 18N, 517, 518, 505",
+        "NQQE:TJVA EQ & PNZCHF IVRJ QE",
+        "VASB:8/24/2013 12:24:23 NZ");
 
     qbGrfg("G2",
-        "Vap: Sybbqvat  Nqq: 219 A 16GU NIR  Pvgl: YBTNA GJC  Havgf: 18N 1101 16N  16N  Yng/Yba: @40.53965 @78.39608  9/7/2011 8:20:01 NZ  QE #: 11-0160247",
-        "PNYY:Sybbqvat",
-        "NQQE:219 A 16GU NIR",
+        "1 bs 3\a" +
+        "SEZ:Oynve Nyregf\a" +
+        "FHOW:Pbzz Sver Nynez\a" +
+        "ZFT:15N\a" +
+        "3329 CYRNFNAG INYYRL OYIQ, YBTNA GJC\a" +
+        "HAVBA NIR / F 27GU FG, QHSS QE\a" +
+        "8/23/2013 6:18:50\a" +
+        "(Pba'g) 2 bs 3\a" +
+        "CZ\a" +
+        "MBAR 34 XVGPURA URNG QRGRPGBE FRG BSS\a" +
+        "814-942-6288\a" +
+        "CNTRQ SBE FGNGVBA 15 BSSVPRE\a" +
+        "PNYYRQ ERQ YBOFGRE NAQ RIRELGUVAT VF SVAR// AB\a" +
+        "(Pba'g) 3 bs 3\a" +
+        "ARRQ SBE SVER(Raq)",
+
+        "PNYY:Pbzz Sver Nynez",
+        "HAVG:15N",
+        "NQQE:3329 CYRNFNAG INYYRL OYIQ",
         "PVGL:YBTNA GJC",
-        "HAVG:18N 1101 16N  16N",
-        "TCF:+40.539650,-78.396080",
-        "VQ:11-0160247");
+        "VASB:8/23/2013 6:18:50 CZ");
 
     qbGrfg("G3",
-        "Vap: Vafvqr/Bhgfvqr Vairfg  Nqq: 3545 WHAVNGN TNC EQ  Pvgl: YBTNA GJC  Havgf: 18N  18N  Yng/Yba: @40.54878 @78.42869  9/7/2011 10:26:17 NZ  QE #: 11-0180238",
+        "1 bs 2\a" +
+        "SEZ:Oynve Nyregf\a" +
+        "FHOW:Vafvqr/Bhgfvqr Vairfg\a" +
+        "ZFT:15N, 1412\a" +
+        "350 YNXRZBAG CNEX OYIQ, YBTNA GJC\a" +
+        "Ab Pebff Fgerrgf Sbhaq\a" +
+        "8/21/2013 5:54:42\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "NZ\a" +
+        "PNYYRE PNZR VAGB JBEX NAQ SBHAQ SVER NYNEZ TBVAT BSS(Raq)",
+
         "PNYY:Vafvqr/Bhgfvqr Vairfg",
-        "NQQE:3545 WHAVNGN TNC EQ",
+        "HAVG:15N, 1412",
+        "NQQE:350 YNXRZBAG CNEX OYIQ",
         "PVGL:YBTNA GJC",
-        "HAVG:18N  18N",
-        "TCF:+40.548780,-78.428690",
-        "VQ:11-0180238");
+        "VASB:8/21/2013 5:54:42 NZ");
 
     qbGrfg("G4",
-        "Vap: JVERF QBJA/GERR QBJA  Nqq: 1100 BYQ ZVYY EHA EQ  Pvgl: YBTNA GJC  Havgf: 12N 14N  12N  Yng/Yba: @40.51172 @78.46085  9/4/2011 10:50:24 NZ  QE #: 11-0120148",
-        "PNYY:JVERF QBJA/GERR QBJA",
-        "NQQE:1100 BYQ ZVYY EHA EQ",
+        "1 bs 2\a" +
+        "SEZ:Oynve Nyregf\a" +
+        "FHOW:Pbzz Sver Nynez\a" +
+        "ZFT:15N, 1632\a" +
+        "3240 CYRNFNAG INYYRL OYIQ, YBTNA GJC\a" +
+        "HAVBA NIR / PNLHTN NIR\a" +
+        "8/23/2013 1:44:43\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "CZ\a" +
+        "SVER NYNEZ\a" +
+        "CYNARG SVGARFF\a" +
+        "QHFG NYNEZ\a" +
+        "(Raq)",
+
+        "PNYY:Pbzz Sver Nynez",
+        "HAVG:15N, 1632",
+        "NQQE:3240 CYRNFNAG INYYRL OYIQ",
         "PVGL:YBTNA GJC",
-        "HAVG:12N 14N  12N",
-        "TCF:+40.511720,-78.460850",
-        "VQ:11-0120148");
+        "VASB:8/23/2013 1:44:43 CZ");
 
     qbGrfg("G5",
-        "Vap: Fgehpgher Sver  Nqq: 1632 PNZCHF IVRJ QE  Pvgl: YBTNA GJC  Havgf: 18N 1621 1632 512 1811 1851 1211 1221  12N  Yng/Yba: @40.54572 @78.41391  8/25/2011 6:20:44 CZ  QE #: 11-0120145",
-        "PNYY:Fgehpgher Sver",
-        "NQQE:1632 PNZCHF IVRJ QE",
+        "1 bs 2\a" +
+        "SEZ:Oynve Nyregf\a" +
+        "FHOW:RZF NFFVFG\a" +
+        "ZFT:482, 1211, 15N, 1412\a" +
+        "5580 TBBQF YA, YBTNA GJC\a" +
+        "EHFFRYY QE / BEPUNEQ NIR\a" +
+        "8/23/2013 9:36:51 NZ\a" +
+        "PNE\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "FZBXVAT ONQYL\a" +
+        "OL NCCYRORF NAQ WPCRAARL VA GUR CNEXVAT YBG\a" +
+        "TERRA INA\a" +
+        "(Raq)",
+
+        "PNYY:RZF NFFVFG",
+        "HAVG:482, 1211, 15N, 1412",
+        "NQQE:5580 TBBQF YA",
         "PVGL:YBTNA GJC",
-        "HAVG:18N 1621 1632 512 1811 1851 1211 1221  12N",
-        "TCF:+40.545720,-78.413910",
-        "VQ:11-0120145");
-
-    qbGrfg("G6",
-        "Vap: SVER NFFVFG  Nqq: 531 R JBCFBABABPX NIR  Pvgl: NYGBBAN  Havgf: 18N  18N  Yng/Yba: @40.53712 @78.40229  8/19/2011 3:03:56 CZ  QE #: 11-0180225",
-        "PNYY:SVER NFFVFG",
-        "NQQE:531 R JBCFBABABPX NIR",
-        "PVGL:NYGBBAN",
-        "HAVG:18N  18N",
-        "TCF:+40.537120,-78.402290",
-        "VQ:11-0180225");
-
-    qbGrfg("G7",
-        "Vap: JVERF QBJA/GERR QBJA  Nqq: R CYRNFNAG INYYRL OYIQ naq OHPXARYY YA  Pvgl: YBTNA GJC  Havgf: 16N  16N  Yng/Yba: @40.53196 @78.36087  8/15/2011 1:49:26 NZ  QE #: 11-0160229",
-        "PNYY:JVERF QBJA/GERR QBJA",
-        "NQQE:R CYRNFNAG INYYRL OYIQ naq OHPXARYY YA",
-        "ZNQQE:R CYRNFNAG INYYRL OYIQ & OHPXARYY YA",
-        "PVGL:YBTNA GJC",
-        "HAVG:16N  16N",
-        "TCF:+40.531960,-78.360870",
-        "VQ:11-0160229");
-
-    qbGrfg("G8",
-        "Vap: Iruvpyr Nppvqrag j/vawhevrf  Nqq: 17GU FG naq INYYRL IVRJ OYIQ  Pvgl: YBTNA GJC  Havgf: 15N 16N 1211  15N  Yng/Yba: @40.49939 @78.39013  8/22/2011 3:52:39 CZ  QE #: 11-0150194",
-        "PNYY:Iruvpyr Nppvqrag j/vawhevrf",
-        "NQQE:17GU FG naq INYYRL IVRJ OYIQ",
-        "ZNQQE:17GU FG & INYYRL IVRJ OYIQ",
-        "PVGL:YBTNA GJC",
-        "HAVG:15N 16N 1211  15N",
-        "TCF:+40.499390,-78.390130",
-        "VQ:11-0150194");
-
-    qbGrfg("G9",
-        "Vap: Fgehpgher Sver  Nqq: 1105 3EQ NIR  Pvgl: QHAPNAFIV  Havgf: 10N 20N 420 626 421 2001 2021 604 5011 816 5001 2031 1011 5031 1551  15N  Yng/Yba: @40.42410 @78.43086  8/24/2011 6:56:20 CZ  QE #: 11-0150196",
-        "PNYY:Fgehpgher Sver",
-        "NQQE:1105 3EQ NIR",
-        "PVGL:QHAPNAFIVYYR",
-        "HAVG:10N 20N 420 626 421 2001 2021 604 5011 816 5001 2031 1011 5031 1551  15N",
-        "TCF:+40.424100,-78.430860",
-        "VQ:11-0150196");
-  }
-  
-  @Grfg
-  choyvp ibvq grfgCnefre2() {
-
-    qbGrfg("G1",
-        "(Vap: JVERF QBJA/GERR QBJA) Vap: JVERF QBJA/GERR QBJA \aNqq: 605 5GU FG \aPvgl: GLEBAR OB \aHavgf: 400 31N\a31N\aYng/Yba: @40.66879 @78.25321\a9/27/2011 11:05:05 C",
-        "PNYY:JVERF QBJA/GERR QBJA",
-        "NQQE:605 5GU FG",
-        "PVGL:GLEBAR",
-        "HAVG:400 31N 31N",
-        "TCF:+40.668790,-78.253210");
-
-    qbGrfg("G2",
-        "(Vap: Pbzzrepvny Sver Nynez) Vap: Pbzzrepvny Sver Nynez \aNqq: 505 3EQ FG \aPvgl: GLEBAR OB \aHavgf: 400 31N\a31N\aYng/Yba: @40.66619 @78.25446\a10/1/2011 2:43:28",
-        "PNYY:Pbzzrepvny Sver Nynez",
-        "NQQE:505 3EQ FG",
-        "PVGL:GLEBAR",
-        "HAVG:400 31N 31N",
-        "TCF:+40.666190,-78.254460");
-
-    qbGrfg("G3",
-        "(Vap: SVER NFFVFG) Vap: SVER NFFVFG \aNqq: FGNGVBA 1 \aPvgl:  \aHavgf: 9011 31N\a31N\aYng/Yba: @-1.00000 @-1.00000\a10/5/2011 2:27:41 NZ \aQE #: 311100256",
-        "PNYY:SVER NFFVFG",
-        "NQQE:FGNGVBA 1",
-        "HAVG:9011 31N 31N",
-        "VQ:311100256");
-
-    qbGrfg("G4",
-        "(Vap: Iruvpyr Sver) Vap: Iruvpyr Sver \aNqq: 110 FHAFRG UVYYF RKG \aPvgl: FALQRE GJ \aHavgf: 31N\a31N\aYng/Yba: @40.67871 @78.25442\a10/1/2011 9:35:19 CZ \aQE #: 31",
-        "PNYY:Iruvpyr Sver",
-        "NQQE:110 FHAFRG UVYYF RKG",
-        "ZNQQE:110 FHAFRG UVYYF",
-        "PVGL:FALQRE GJC",
-        "HAVG:31N 31N",
-        "TCF:+40.678710,-78.254420",
-        "VQ:31");
-  }
-  
-  @Grfg
-  choyvp ibvq grfgNaqerjZrlref() {
-    qbGrfg("G1",
-        "Vap: Vafvqr/Bhgfvqr Vairfg \a" +
-        "Nqq: 8162 JBBQOHEL CVXR \a" +
-        "Pvgl: GNLYBE GJ \a" +
-        "Havgf: 400 60N 40N\a" +
-        "Ntrapl: 40N\a" +
-        "Znc: uggc://zncf.tbbtyr.pbz/zncf?d=+40.34854%20-78.40453",
-
-        "PNYY:Vafvqr/Bhgfvqr Vairfg",
-        "NQQE:8162 JBBQOHEL CVXR",
-        "PVGL:GNLYBE GJC",
-        "HAVG:400 60N 40N",
-        "FEP:40N",
-        "TCF:+40.348540,-78.404530");
+        "VASB:8/23/2013 9:36:51 NZ");
 
   }
   
