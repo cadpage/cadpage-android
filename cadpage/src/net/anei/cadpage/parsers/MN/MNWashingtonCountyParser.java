@@ -8,27 +8,41 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class MNWashingtonCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*?)  ICR #(\\d+)  (DISPATCH)");
+  private static final Pattern MASTER = Pattern.compile("(?:(CG\\d+) +)?(.*?)  ICR #(\\d+)  (DISPATCH)(?: (\\d\\d:\\d\\d:\\d\\d))?");
   private static final Pattern HWY_I_PTN = Pattern.compile("\\bHWY +I(\\d+)\\b");
   
   public MNWashingtonCountyParser() {
     super("WASHINGTON COUNTY", "MN");
-    setFieldList("ADDR APT ID CALL");
+    setFieldList("UNIT ADDR APT ID CALL TIME");
   }
   
   @Override
   public String getFilter() {
-    return "sheriff@co.washington.mn.us";
+    return "sheriff@co.washington.mn.us,40404";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+
+    do {
+      if (subject.equals("ICOM/400 notification")) break;
+      
+      if (body.startsWith("@CGFDDispatch: ")) {
+        body = body.substring(15);
+        int pt = body.indexOf('\n');
+        if (pt >= 0) body = body.substring(0,pt);
+        body = body.trim();
+        break;
+      }
+      
+      return false;
+    } while (false);
     
-    if (!subject.equals("ICOM/400 notification")) return false;
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
-    
-    String addr = match.group(1).replace('.', ' ').trim();
+
+    data.strUnit = getOptGroup(match.group(1));
+    String addr = match.group(2).replace('.', ' ').trim();
     addr = HWY_I_PTN.matcher(addr).replaceAll("I-$1");
     parseAddress(StartType.START_ADDR, addr, data);
     String apt = getLeft();
@@ -40,8 +54,9 @@ public class MNWashingtonCountyParser extends SmartAddressParser {
     }  else {
       data.strApt = append(data.strApt, " ", apt);
     }
-    data.strCallId = match.group(2);
-    data.strCall = match.group(3);
+    data.strCallId = match.group(3);
+    data.strCall = match.group(4);
+    data.strTime = getOptGroup(match.group(5));
     return true;
   }
 }
