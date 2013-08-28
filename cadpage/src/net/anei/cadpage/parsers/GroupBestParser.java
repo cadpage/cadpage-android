@@ -106,27 +106,18 @@ public class GroupBestParser extends GroupBaseParser {
   @Override
   protected Data parseMsg(Message msg, int parserFlags) {
     
-    // OK, this gets complicated
-    // if PARSE_FLG_GEN_ALERT is set, we can't
-    // pass them directly to the subparsers.  If we do, they will all return
-    // a general alert status, possibly masking a real positive parser hit from
-    // one of the other parsers.  In this case, and this case only, we turn off
-    // the general alert flag passed to subparsers and handle it ourselves
-    int tFlags = parserFlags;
-    boolean genAlert = (parserFlags & PARSE_FLG_FORCE) == PARSE_FLG_FORCE;
-    if (genAlert) {
-      tFlags |= PARSE_FLG_RUN_REPORT;
-      tFlags &= ~PARSE_FLG_GEN_ALERT;
-    }
-    
-    int bestScore = -1;
+    int bestScore = Integer.MIN_VALUE;
     Data bestData = null;
     
     for (MsgParser parser : parsers) {
-      Data tmp = parser.parseMsg(msg, tFlags);
+      Data tmp = parser.parseMsg(msg, parserFlags);
       if (tmp != null) {
+        // Score the result.
+        // We want to seriously ding any result produced by any of the "General" parsers
+        // including General Alert.  GENERAL ALERT type messages produced by location
+        // parsers do not suffer this penalty
         int newScore = tmp.score();
-        if (!parser.getParserCode().startsWith("General")) newScore +=25;
+        if (!parser.getParserCode().startsWith("General")) newScore += 100000;
         if (newScore > bestScore) {
           bestData = tmp;
           bestScore = newScore;
@@ -134,15 +125,7 @@ public class GroupBestParser extends GroupBaseParser {
       }
     }
     
-    if (bestData != null) return bestData;
-    
-    // If non of our subparsers found this to be valid page, and the original
-    // flags forced a general alert, handle that now
-    if (genAlert) {
-      return ManageParsers.getInstance().getAlertParser().parseMsg(msg, parserFlags);
-    }
-    
-    return null;
+    return bestData;
   }
 
   // We have to override this to satisfy abstract requirements, but it will

@@ -233,6 +233,22 @@ choyvp pynff CNOhpxfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp CNOhpxfPbhaglNCnefreGrfg() {
     frgCnefre(arj CNOhpxfPbhaglNCnefre(), "OHPXF PBHAGL", "CN");
   }
+  
+  @Grfg
+  choyvp ibvq grfgCeboyrz() {
+
+    qbGrfg("G6",
+        "[911 Qngn] 08/19/13  10:18:34 ~GB~ VAG1 SEBZ SF01:\a" +
+        "FGN19,NAL NINVY PUVRS BSP CUBAR SVER PBZZ/639     \a" +
+        "                                                         \a\a\a",
+
+        "PNYY:TRARENY NYREG",
+        "FEP:FGN19",
+        "CYNPR:NAL NINVY PUVRS BSP CUBAR SVER PBZZ/639",
+        "QNGR:08/19/13",
+        "GVZR:10:18:34");
+
+  }
 
   @Grfg
   choyvp ibvq grfgCnefreByq() {

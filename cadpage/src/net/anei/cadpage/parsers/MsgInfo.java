@@ -210,8 +210,11 @@ public class MsgInfo {
      */
     public int score() {
       int result = 0;
+      if (strCall.equals("GENERAL ALERT")) result += 0;
+      else if (strCall.equals("RUN REPORT")) result += 20000;
+      else if (strCall.length() == 0 || strCall.equals("ALERT")) result += 40000;
+      else result += 42000;
       if (strAddress.length() > 0) result += 10000;
-      if (strCall.length() > 0 && !strCall.equals("ALERT") && !strCall.equals("GENERAL ALERT")) result += 1000;
       if (strCity.length() > 0) result += 100;
       if (strCross.length() > 0) result += 100;
       if (strApt.length() > 0) result += 100;
