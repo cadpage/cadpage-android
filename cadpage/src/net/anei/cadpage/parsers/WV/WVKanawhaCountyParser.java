@@ -39,4 +39,10 @@ public class WVKanawhaCountyParser extends SmartAddressParser {
     data.strCallId = getOptGroup(match.group(8));
     return true;
   }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    if (city.equalsIgnoreCase("LITTLE TYLER")) return "3";
+    return city;
+  }
 }
