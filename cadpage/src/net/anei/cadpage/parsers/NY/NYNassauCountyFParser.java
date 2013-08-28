@@ -25,6 +25,9 @@ public class NYNassauCountyFParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
+    // Eliminate several other Nassau County formats
+    if (body.startsWith("***")) return false;
+    
     if (body.endsWith(" support@2sig.com")) {
       body = body.substring(0,body.length()-17).trim();
     }
