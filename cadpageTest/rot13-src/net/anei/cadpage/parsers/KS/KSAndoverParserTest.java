@@ -303,7 +303,7 @@ choyvp pynff XFNaqbireCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:13-0000652/117385",
         "PNYY:SVER - ANGHENY TNF BQBE",
-        "NQQE:943 A NAQBIRE EQ",
+        "NQQE:943 A NAQBIRE EQ",// A Naqbire Eq orpbzrf F 160gu Fg
         "PVGL:NAQBIRE",
         "QNGR:6/18/2013",
         "GVZR:11:56:34",
@@ -339,7 +339,7 @@ choyvp pynff XFNaqbireCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13-0000650/117380",
         "PNYY:SVER - ZRQVPNY ERFCBAFR",
         "NQQE:3022 FJ UJL 54",
-        "PVGL:OHGYRE PBHAGL",
+        "PVGL:OHGYRE PBHAGL", // znccrq zber fcrpvsvpnyyl jvgu Naqbire nf pvgl
         "QNGR:6/18/2013",
         "GVZR:10:28:19",
         "K:FJ OBLRE EQ 0.16 zv R FJ CHEVGL FCEVATF EQ 0.85 zv J");
@@ -900,8 +900,8 @@ choyvp pynff XFNaqbireCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13-0000617/116914",
         "PNYY:SVER - ERFPHR ERFCBAFR",
         "NQQE:FJ 70GU FG & FJ FNAGN SR YNXR EQ",
-        "PVGL:OHGYRE PBHAGL",
-        "QNGR:6/10/2013",
+        "PVGL:OHGYRE PBHAGL", 
+        "QNGR:6/10/2013",// zncf nf Nhthfgn, XF
         "GVZR:11:56:21",
         "ZNC:FGBAREVQTR NQQ");
 
@@ -938,7 +938,7 @@ choyvp pynff XFNaqbireCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13-0000616/116907",
         "PNYY:SVER - ZRQVPNY ERFCBAFR",
         "NQQE:12345 FJ FHAEVFR GENVY",
-        "PVGL:OHGYRE PBHAGL",
+        "PVGL:OHGYRE PBHAGL", // zncf nf Naqbire, XF
         "QNGR:6/10/2013",
         "GVZR:09:24:54",
         "ZNC:JNTBA JURRY ENAPU",
@@ -1090,7 +1090,7 @@ choyvp pynff XFNaqbireCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13-0000604/116595",
         "PNYY:SVER - ERFPHR ERFCBAFR",
         "NQQE:FJ FNAGN SR YNXR EQ & FJ UJL 54",
-        "PVGL:OHGYRE PBHAGL",
+        "PVGL:OHGYRE PBHAGL", // zncf nf Nhthfgn, XF
         "QNGR:6/5/2013",
         "GVZR:04:37:27",
         "VASB:*** FBC Ortva *** 1. ANGHER BS ERFPHR: 10-48 BAR IRUVPYR 2. JUNG PNHFRQ ARRQ SBE ERFPHR?: 10-48 3. Ahzore bs ivpgvzf?: 1 4. Orfg npprff sbe rzretrapl erfcbaqref?: 54/FNAGN SR YNXR EQ 5. Anzr bs pbagnpg crefba sbe Vapvqrag Pbzznaq.: H");
@@ -1330,7 +1330,7 @@ choyvp pynff XFNaqbireCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:TERRA INYYRL 1FG NQQ",
         "K:A YNXRFVQR QE 0.03 zv FR A BNXZBAG PG 0.05 zv AJ",
         "VASB:*** FBC Ortva *** 1. Angher bs pnyy?: PURFG CNVAF 2 RZF raebhgr?: L 3. Nal erfphr/zrqvpny nvq va cebterff?: H");
-    
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

@@ -292,6 +292,7 @@ public class ParserList {
               ,"IAWoodburyCounty"               ,"Woodbury County, IA"
           ),
           new ParserCategory("Kansas"
+              ,"KSAndover"                      ,"Andover, KS"
               ,"KSButlerCounty"                 ,"Butler County, KS"
               ,"KSJohnsonCounty"                ,"Johnson County, KS"
               ,"KSSedgwickCounty"               ,"Sedgwick County, KS"
