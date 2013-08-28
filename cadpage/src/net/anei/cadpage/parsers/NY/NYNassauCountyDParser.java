@@ -9,13 +9,18 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYNassauCountyDParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^([^\\*]*?)\\*\\*\\*([^\\*]+?)\\* \\* ?");
+  private static final Pattern MARKER = Pattern.compile("^([^\\*]*?)\\*\\*\\*([^\\*]+?)\\*[\\* ]\\* ?");
   private static final Pattern MISSING_DELIM = Pattern.compile("(?<=[^\\*])(?=TOA:)");
-  private static final Pattern DELIM = Pattern.compile(" \\*");
+  private static final Pattern DELIM = Pattern.compile("(?<![\\*\n])\\*");
   
   public NYNassauCountyDParser() {
     super("NASSAU COUNTY", "NY",
-           "PLACE? ADDR/Z! CS:X? TOA:TIMEDATE? UNITID? INFO+");
+           "PLACE? ADDR/ZSXa! CS:X? TOA:TIMEDATE? UNITID? INFO+");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "eastmeadowfd@eastmeadowfd.net,paging1@firerescuesystems.xohost.com";
   }
   
   @Override
@@ -25,6 +30,8 @@ public class NYNassauCountyDParser extends FieldProgramParser {
     data.strCall = append(match.group(2).trim(), " - ", match.group(1).trim());
     body = body.substring(match.end());
     body = MISSING_DELIM.matcher(body).replaceFirst(" *");
+    
+    if (body.contains(" c/s:") || body.contains(" ADTNL:")) return false;
     return parseFields(DELIM.split(body), 2, data);
   }
   
@@ -80,15 +87,16 @@ public class NYNassauCountyDParser extends FieldProgramParser {
     
   }
   
+  private static final Pattern INFO_UNIT_PTN = Pattern.compile(" +UNITS +([0-9, /]+)$");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(" UNITS ");
-      if (pt >= 0) {
-        String unit = field.substring(pt+7).trim();
+      Matcher match = INFO_UNIT_PTN.matcher(field);
+      if (match.find()) {
+        String unit = match.group(1).trim();
         if (unit.endsWith(",")) unit = unit.substring(0,unit.length()-1).trim();
         data.strUnit = append(data.strUnit, ", ", unit);
-        field = field.substring(0,pt).trim();
+        field = field.substring(0,match.start());
       }
       super.parse(field, data);
     }
@@ -109,13 +117,11 @@ public class NYNassauCountyDParser extends FieldProgramParser {
   
   @Override
   public String adjustMapAddress(String addr) {
+    if (addr.startsWith("Pre-Plan ")) addr = addr.substring(9).trim();
     addr = BLVE_PTN.matcher(addr).replaceAll(" BLVD");
-    addr = SWIM_PTN.matcher(addr).replaceAll(" ");
     return addr;
   }
   private static final Pattern BLVE_PTN = Pattern.compile(" +BLVE\\b");
-  private static final Pattern SWIM_PTN = Pattern.compile(" +SWIM\\b");
-  
 }
 
 
