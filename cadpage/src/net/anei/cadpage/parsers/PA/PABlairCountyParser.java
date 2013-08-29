@@ -11,7 +11,7 @@ public class PABlairCountyParser extends FieldProgramParser {
   
   public PABlairCountyParser() {
     super("BLAIR COUNTY", "PA",
-           "UNIT ADDRCITY DATETIME INFO");
+           "UNIT ADDRCITY X/Z+? DATETIME! INFO+");
   }
   
   @Override
@@ -31,9 +31,18 @@ public class PABlairCountyParser extends FieldProgramParser {
     return "CALL " + super.getProgram();
   }
   
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("No Cross Streets Found")) return;
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
-    if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa"));
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa"), true);
     return super.getField(name);
   }
 }
