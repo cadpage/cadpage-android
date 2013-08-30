@@ -17,7 +17,8 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
     "ems1:",
     "esadmin:",
     "childcnty:",
-    "afdtrt:"
+    "afdtrt:",
+    "sq8:"
   };
  
   public SCAndersonCountyParser() {
