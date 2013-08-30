@@ -79,12 +79,19 @@ public class PALancasterCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  @Override
+  public String adjustMapAddress(String address) {
+    return ROUTE_30_PTN.matcher(address).replaceAll("US 30");
+  }
+  private static final Pattern ROUTE_30_PTN = Pattern.compile("\\b(?:RT|ROUTE) *30\\b");
+  
   private static final String[] CITY_LIST = new String[]{
 
     // Cities
     "LANC",
     "LANC CITY",
     "LANCASTER",
+    "LANCASTER CITY",
     
     // Boroughs
     "ADAMSTOWN BORO",
@@ -225,6 +232,9 @@ public class PALancasterCountyParser extends FieldProgramParser {
     "SILVER SPRING",
     "TALMAGE",
     "WHITE HORSE",
+    
+    // Other counties
+    "CHESTER COUNTY",
 
   };
 }
