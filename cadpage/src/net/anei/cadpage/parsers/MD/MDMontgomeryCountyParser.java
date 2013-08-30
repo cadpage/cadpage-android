@@ -68,31 +68,30 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
 	  }
 	}
 	
-//  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+\\d{3}[A-Z]?");
-//	private class MyUnitField extends UnitField {
-//	  @Override
-//	  public void parse(String field, Data data) {
-//      for (String unit : field.split(" +")) {
-//        if (UNIT_PTN.matcher(unit).matches()) {
-//          data.strUnit = append(data.strUnit, " ", unit);
-//        }
-//      }
-//	  }
-//  }
-	
 	@Override
 	public Field getField(String name) {
 	  if (name.equals("ADDR")) return new MyAddressField();
-//	  if (name.equals("UNIT")) return new MyUnitField();
 	  return super.getField(name);
+	}
+	
+	@Override
+	public String adjustMapAddress(String address) {
+	  return address.replace("BIT AND SPUR", "BIT_AND_SPUR");
+	}
+	
+	@Override
+	public String postAdjustMapAddress(String address) {
+    return address.replace("BIT_AND_SPUR", "BIT AND SPUR");
 	}
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "C4",  "CHEVY CHASE",
       "CV",  "CHEVY CHASE",
       "DC",  "DC",
+      "FH",  "FRIENDSHIP HEIGHTS",
       "GA",  "GAITHERSBURG",
       "MCG", "",
+      "NC",  "NORTH CHEVY CHASE",
       "PG",  "PRINCE GEORGES COUNTY",
       "PO",  "POOLESVILLE",
       "RO",  "ROCKVILLE",
