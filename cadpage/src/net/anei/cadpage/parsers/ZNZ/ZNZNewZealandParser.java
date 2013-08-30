@@ -11,7 +11,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
 
   private static final Pattern END_PAGE_BREAK = Pattern.compile("#F\\d+(?=\n)");
   private static final Pattern MASTER =
-      Pattern.compile("\\(([A-Z0-9, ]+)\\) *([A-Z0-9]+-[A-Z]+) (?:\\((Alarm Type [-A-Z0-9/ ]+)\\) *)?(?:\\(Box ([-A-Z0-9 &]+)\\) *)?(?:(AK\\d+ .*? > [A-Z]+\\)) +(?:AK\\d+ +)?)?([-A-Za-z0-9\\(\\)\\?\\\\ ]+?) *\\. +(?:([- A-Z0-9]+)\\. +)?(?:((?:NEAR|OFF) [- A-Z0-9\\?]+)\\. *)?(?:\\(XStr +([-A-Z0-9/ ]*)\\) *)?(?:\\.([-A-Z0-9@,\\? /\\.:]+)\\. *)?(?:\\(x-(\\d+) y-(\\d+)\\) *)?#(F\\d+)");
+      Pattern.compile("\\(([A-Z0-9, ]+)\\) *([A-Z0-9]+-[A-Z]+) (?:\\((Alarm Type [-A-Z0-9/ ]+)\\) *)?(?:\\(Box ([-A-Z0-9 &]+)\\) *)?(?:(AK\\d+ .*? > [A-Z]+\\)) +(?:AK\\d+ +)?)?([-A-Za-z0-9\\(\\)\\?\\\\ ]+?) *\\. +(?:([- A-Z0-9:]+)\\. +)?(?:((?:NEAR|OFF) [- A-Z0-9\\?]+)\\. *)?(?:\\(XStr +([-A-Z0-9/ ]*)\\) *)?(?:\\.([-A-Z0-9@,\\? /\\.:]+)\\. *)?(?:\\(x-(\\d+) y-(\\d+)\\) *)?#(F\\d+)");
   private static final Pattern UNKNNNNN = Pattern.compile("\\bUNKN\\d{4}\\b");
   private static final Pattern DOUBLED_ADDRESS = Pattern.compile("(\\d+) .* (\\1\\b.*)");
 
@@ -54,7 +54,11 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     parseAddress(st, FLAG_ANCHOR_END, sAddr, data);
     String tmp = match.group(ndx++);
     if (tmp != null && !tmp.startsWith("CNR ")) {
-      data.strPlace = append(data.strPlace, " ", tmp.trim());
+      if (tmp.startsWith("RP:")) {
+        data.strApt = append(data.strApt, "-", tmp.substring(3).trim());
+      } else {
+        data.strPlace = append(data.strPlace, " ", tmp.trim());
+      }
     }
     data.strPlace = append(data.strPlace, " ", getOptGroup(match.group(ndx++)));
     String cross = getOptGroup(match.group(ndx++));

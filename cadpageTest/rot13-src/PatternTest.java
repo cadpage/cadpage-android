@@ -5,10 +5,12 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 
 choyvp pynff CnggreaGrfg {
 
-  cevingr fgngvp svany Cnggrea ZNFGRE  = Cnggrea.pbzcvyr(" +([N-M][n-m]+(?: +[N-M]{3})?) \\[ ([N-M0-9,]+)$");
+  cevingr fgngvp svany Cnggrea ZNFGRE  =       
+      Cnggrea.pbzcvyr("\\(([N-M0-9, ]+)\\) *([N-M0-9]+-[N-M]+) (?:\\((Nynez Glcr [-N-M0-9/ ]+)\\) *)?(?:\\(Obk ([-N-M0-9 &]+)\\) *)?(?:(NX\\q+ .*? > [N-M]+\\)) +(?:NX\\q+ +)?)?([-N-Mn-m0-9\\(\\)\\?\\\\ ]+?) *\\. +(?:([- N-M0-9:]+)\\. +)?(?:((?:ARNE|BSS) [- N-M0-9\\?]+)\\. *)?(?:\\(KFge +([-N-M0-9/ ]*)\\) *)?(?:\\.([-N-M0-9@,\\? /\\.:]+)\\. *)?(?:\\(k-(\\q+) l-(\\q+)\\) *)?#(S\\q+)");
+
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("26 Fvpx Pnfr DQ NG 4005 Evcn Nir OHF: NYRKVNA OEBGUREF FUREOEBBXR IVYYNTR KFG: Qrnq Raq/ZRERQVGU QE FBHGU ZNVA Yrznl SQ [ 16QA2,1717,1602,16QA");
+    qbGrfg("(ZGJR237) CBYVPR-ERFP 9O SNORE NI ZBHAG JRYYVATGBA. (KFge SREAQNYR EQ/) .PUVYQ YBPXRQ VA ONGUEBBZ. (k-384591853 l-232592410) #S1450165");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
