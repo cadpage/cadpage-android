@@ -53,6 +53,7 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
     return "SRC TIME " + super.getProgram();
   }
   
+  private static final Pattern ADDR_ZIP_PTN = Pattern.compile(" +(13\\d{3})$");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -63,8 +64,17 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
         field = field.substring(0,pt).trim();
         if (sPlace.startsWith("@")) sPlace = sPlace.substring(1).trim();
       }
-      super.parse(field, data);
+      if (field.startsWith("/")) {
+        data.strAddress = field;
+      } else {
+        super.parse(field, data);
+      }
       data.strPlace = append(data.strPlace, " / ", sPlace);
+      Matcher match = ADDR_ZIP_PTN.matcher(data.strAddress);
+      if (match.find()) {
+        if (data.strCity.length() == 0) data.strCity = match.group(1);
+        data.strAddress = data.strAddress.substring(0,match.start());
+      }
     }
   }
   
@@ -72,7 +82,16 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
-      super.parse(p.get(','), data);
+      String cross = p.get(',');
+      if (data.strAddress.startsWith("/")) {
+        if (data.strCity.length() == 0) {
+          data.strCity = convertCodes(data.strAddress.substring(1).trim(), CITY_CODES);
+        }
+        data.strAddress = "";
+        parseAddress(cross, data);
+      } else {
+        super.parse(cross, data);
+      }
       String place = p.get(',');
       if (place.startsWith("APT ")) {
         data.strApt = place.substring(4).trim();
@@ -113,16 +132,33 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  @Override
+  public String adjustMapAddress(String address) {
+    address = ROUTE_11_PTN.matcher(address).replaceAll("NEW YORK STATE BICYCLE ROUTE 11");
+    address = ROUTE_20_PTN.matcher(address).replaceAll("US 20");
+    return address;
+  }
+  private static final Pattern ROUTE_11_PTN = Pattern.compile("\\b(?:RT|ROUTE) *11\\b");
+  private static final Pattern ROUTE_20_PTN = Pattern.compile("\\b(?:RT|ROUTE) *20\\b");
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "NAT",   "NAT",     // ????
       "OTOW",  "OWASCO",
       "TCI",   "CICERO",
       "TCL",   "CLAY",
+      "TFB",   "FABIUS",
+      "TLF",   "LAFAYETTE",
       "TMA",   "MANLIUS",
       "TMR",   "MARCELLUS",
+      "TON",   "ONONDAGA",
+      "TOT",   "OTISCO",
       "TPO",   "POMPEY",
       "TSL",   "SALINA",
       "TSK",   "SKANEATELES",
+      "TTU",   "TULLY",
       "VFY",   "FAYETTEVILLE",
+      "VTU",   "TULLY",
+      "VMA",   "MARCELLUS",
       "VNS",   "NORTH SYRACUSE",
       "VSK",   "SKANEATELES",
       
