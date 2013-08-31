@@ -239,7 +239,9 @@ public class NYCayugaCountyParser extends SmartAddressParser {
     
     "ONONDAGA COUNTY",
     "SKANEATELES",
-    "SKANEATELES ONONDAGA COUNTY"
+    "SKANEATELES ONONDAGA COUNTY",
+    
+    "WAYNE COUNTY"
   };
 }
 	
