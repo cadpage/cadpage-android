@@ -21,6 +21,7 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+
   }
   
   @Grfg
@@ -336,7 +337,7 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgpbaqvgvbanyOenapu() {
+  choyvp ibvq grfgPbaqvgvbanyOenapu() {
     
     qbSvryqGrfg("Rzcgl",
         "PNYY ( ) VQ",
@@ -435,6 +436,70 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:KKK",
         "PVGL:XRA GBJA");
        
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPbaqvgvbanyOenapu2() {
+    
+    qbSvryqGrfg("G1", "VASB+? ( VQ | NCG ) PNYY",
+        "OVT;ERQ;BAR;999;NYREG",
+        "VASB:OVT / ERQ / BAR",
+        "VQ:999",
+        "PNYY:NYREG");
+
+    qbSvryqGrfg("G2", "VASB+? ( VQ | NCG ) PNYY",
+        "OVT;ERQ;BAR;Ncg: KK;NYREG",
+        "VASB:OVT / ERQ / BAR",
+        "NCG:KK",
+        "PNYY:NYREG");
+
+    qbSvryqGrfg("G3", "VASB+? ( VQ | NCG ) PNYY",
+        "OVT;ERQ;BAR;ZVFFRQ;NYREG",
+        "VASB:OVT / ERQ / BAR / ZVFFRQ / NYREG");
+
+    qbSvryqGrfg("G4", "VASB+? ( VQ FG | NCG ) PNYY",
+        "OVT;ERQ;BAR;999;XL;NYREG",
+        "VASB:OVT / ERQ / BAR",
+        "VQ:999",
+        "FG:XL",
+        "PNYY:NYREG");
+    
+    qbSvryqGrfg("G5", "VASB+? NQQE/M ( PVGL FG VQ | VQ ) PNYY",
+        "OVT;ERQ;CVAR FG;XRAFOHET;BE;999;NYREG",
+        "VASB:OVT / ERQ",
+        "NQQE:CVAR FG",
+        "PVGL:XRAFOHET",
+        "FG:BE",
+        "VQ:999",
+        "PNYY:NYREG");
+    
+    qbSvryqGrfg("G6", "CYNPR? NQQE/M ( PVGL FG | VQ ) PNYY",
+        "WBRF ONE;200 CVAR FG;XRAFOHET;BE;NYREG",
+        "CYNPR:WBRF ONE",
+        "NQQE:200 CVAR FG",
+        "PVGL:XRAFOHET",
+        "FG:BE",
+        "PNYY:NYREG");
+    
+    qbSvryqGrfg("G7", "CYNPR? NQQE/M ( PVGL FG | VQ ) PNYY",
+        "WBRF ONE;200 CVAR FG;888;NYREG",
+        "CYNPR:WBRF ONE",
+        "NQQE:200 CVAR FG",
+        "VQ:888",
+        "PNYY:NYREG");
+    
+    qbSvryqGrfg("G8", "CYNPR? NQQE/M ( PVGL FG | VQ ) PNYY",
+        "200 CVAR FG;XRAFOHET;BE;NYREG",
+        "NQQE:200 CVAR FG",
+        "PVGL:XRAFOHET",
+        "FG:BE",
+        "PNYY:NYREG");
+    
+    qbSvryqGrfg("G9", "CYNPR? NQQE/M ( PVGL FG | VQ ) PNYY",
+        "200 CVAR FG;888;NYREG",
+        "NQQE:200 CVAR FG",
+        "VQ:888",
+        "PNYY:NYREG");
   }
   
   @Grfg
@@ -644,7 +709,7 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   cevingr ibvq qbSvryqGrfg(Fgevat gvgyr, Fgevat cebtenz, vag syntf, Fgevat obql, Fgevat ... erfhyg) {
     cnefre.frgCebtenz(cebtenz, syntf);
-    cnefre.purpxSbeFxvcf();
+    vs (gvgyr.fgnegfJvgu("C-")) Flfgrz.bhg.cevagya("\a" + gvgyr + " qhzc\a" + cnefre.gbFgevat());
     qbGrfg(gvgyr, obql, erfhyg);
   }
   
@@ -654,7 +719,6 @@ choyvp pynff SvryqCebtenzCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   cevingr ibvq qbSvryqSnvy(Fgevat gvgyr, Fgevat cebtenz, vag syntf, Fgevat obql) {
     cnefre.frgCebtenz(cebtenz, syntf);
-    cnefre.purpxSbeFxvcf();
     nffregSnyfr(cnefre.cnefrZft(obql, arj Qngn(cnefre)));
   }
   

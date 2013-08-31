@@ -160,6 +160,42 @@ choyvp pynff ZQNaarNehaqryPbhaglNaancbyvfCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgCeboyrz() {
+
+    qbGrfg("G3",
+        "(_fhowrpg_) VAPVQRAG 201332246\a\a" +
+        "PBQR Y     YBPNY NYNEZ     NYNEZ 1\a\a" +
+        "EVIN EQ-NA/EG665-NA          \a\a" +
+        "Tevq 20     Znc O09     Nern 4028     Cercyna      Punaary O    ZBN \a\a" +
+        "Prafhf Genpg      Mvc 21401\a\a" +
+        "Svefg pebff fgerrg - 2398 SBERFG QE-NA\a\a" +
+        "Frpbaq pebff fgerrg - 1900 GBJAR PRAGER OYIQ-NA\a\a" +
+        "Angher: S25-RYRPGEVP JVERF BHGFVQR (PBYQ)\a\a" +
+        "Pbzzhavgl bs SRFGVINY CYNMN NG EVIN (009624-42)\a" +
+        "GNP PUNAARY O NFFVTARQ (001252-)\a" +
+        "Havgf 'ba nve': R351 (001252-)\a\a" +
+        "R351  \a\a" +
+        "ULQENAGF: 2509 EVIN EQ-NA (0) & 2510 EVIN EQ (FVQR N/Q) (0)\a\a" +
+        "GVZR 16:52:51          QNGR 06/10/13",
+
+        "VQ:201332246",
+        "PNYY:YBPNY NYNEZ - RYRPGEVP JVERF BHGFVQR (PBYQ)",
+        "NQQE:EVIN EQ & EG665",
+        "ZNQQE:EVIN EQ & EG 665",
+        "PVGL:NAANCBYVF",
+        "CYNPR:SRFGVINY CYNMN NG EVIN",
+        "ZNC:20-O09-4028",
+        "PU:O",
+        "K:2398 SBERFG QE & 1900 GBJAR PRAGER OYIQ",
+        "PBQR:S25",
+        "VASB:ULQENAGF: 2509 EVIN EQ-NA (0) & 2510 EVIN EQ (FVQR N/Q) (0)",
+        "HAVG:R351",
+        "GVZR:16:52:51",
+        "QNGR:06/10/13");
+    
+  }
+  
+  @Grfg
   choyvp ibvq grfgNaancbyvfSver() {
 
     qbGrfg("G1",

@@ -84,7 +84,7 @@ Fraqre: abercyl@upxlfne.nccfcbgznvy.pbz
 choyvp pynff XLUneqvaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp XLUneqvaPbhaglNCnefreGrfg() {
-    frgCnefre(arj XLUneqvaPbhaglCnefre(), "UNEQVA PBHAGL", "XL");
+    frgCnefre(arj XLUneqvaPbhaglNCnefre(), "UNEQVA PBHAGL", "XL");
   }
   
   @Grfg
