@@ -66,11 +66,17 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ATH", "ATHOL",
       "CDA", "COEUR D'ALENE",
+      "DG",  "DALTON GARDENS",
+      "FL",  "FERNAN LAKE",
       "HA",  "HAYDEN",
+      "HAR", "HARRISON",
+      "HAU", "HAUSER LAKE",
+      "HL",  "HAYDEN LAKE",
       "KEL", "KELLOGG", 
-      "MOS", "MOS",   // ?????
+      "MOS", "MOSCOW",
       "PF",  "POST FALLS",
       "RA",  "RATHDRUM",
+      "RL",  "ROSE LAKE",
       "SL",  "SPIRIT LAKE"
   });
 }
