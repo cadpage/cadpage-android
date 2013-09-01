@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.ID;
 
+import java.util.Properties;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -9,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class IDKootenaiCountyParser extends FieldProgramParser {
   
   public IDKootenaiCountyParser() {
-    super("KOOTENAI COUNTY", "ID",
+    super(CITY_CODES, "KOOTENAI COUNTY", "ID",
           "SRC CALL ADDR UNIT+? CH! INFO+");
   }
   
@@ -21,15 +22,26 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
     int pt = body.indexOf("\nSent by CLI");
     if (pt >= 0) body = body.substring(0,pt).trim();
     
-    String[] flds = body.split("\n");
-    if (flds.length < 5) return false;
-    return parseFields(flds, data);
+    return parseFields(body.split("\n"), 5, data);
   }
   
-  // Radio channel must start with OPS
-  private class MyChannelField extends ChannelField {
-    public MyChannelField() {
-      setPattern(Pattern.compile("OPS.*"));
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      data.strCity = convertCodes(p.getLastOptional(','), CITY_CODES);
+      parseAddress(p.get(';'), data);
+      String place = p.get();
+      if (place.startsWith("#")) {
+        data.strApt = append(data.strApt, "-", place.substring(1).trim());
+      } else {
+        data.strPlace = place;
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT PLACE CITY";
     }
   }
   
@@ -45,8 +57,20 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CH")) return new MyChannelField();
+    if (name.equals("ADDR")) return new  MyAddressField();
+    if (name.equals("CH")) return new ChannelField("|OPS.*");
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ATH", "ATHOL",
+      "CDA", "COEUR D'ALENE",
+      "HA",  "HAYDEN",
+      "KEL", "KELLOGG", 
+      "MOS", "MOS",   // ?????
+      "PF",  "POST FALLS",
+      "RA",  "RATHDRUM",
+      "SL",  "SPIRIT LAKE"
+  });
 }
