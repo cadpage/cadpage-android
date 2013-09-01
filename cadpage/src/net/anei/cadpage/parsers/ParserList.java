@@ -299,8 +299,10 @@ public class ParserList {
           ),
           new ParserCategory("Kentucky"
               ,"KYAndersonCounty"               ,"Anderson County, KY"
+              ,"KYBooneCounty"                  ,"Boone County, KY"
               ,"KYBoydCounty"                   ,"Boyd County, KY"
               ,"KYBullittCounty"                ,"Bullit County, KY"
+              ,"KYCallowayCounty"               ,"Calloway County, KY"
               ,"KYCampbellCounty"               ,"Campbell County, KY"
               ,"KYDaviessCounty"                ,"Daviess County, KY"
               ,"KYErlangerDispatch"             ,"Erlanger Dispatch, KY"
