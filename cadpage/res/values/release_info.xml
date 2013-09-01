@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08252013</string>
-  <string name="release_version">v1.6.39</string>
+  <string name="release_date">09012013</string>
+  <string name="release_version">v1.6.40</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Coffee County, GA\n
-Cumberland County, ME\n
-Livingston County, NY (alt)\n
-Alamance County, NC\n
-Orange County, NC (alt)\n
-Muskingum County, OH\n
-Fluvanna County, VA\n
+Andover County, KS\n
+Boone County, KY\n
+Calloway County, KY\n
+Hardin County, KY (alt)\n
+Craven County, NC\n
 \n
 Location Parsing Fixes:\n
-Kanawha County, WV\n
-Stanley County, NC\n
-Mahoning County, OH\n
-Linn County, OR\n
-Cumberland County, PA\n
-Mercer County, PA\n
+Kootenai County, ID\n
+Marion County, IN\n
+Montgomery County, MD\n
+Washington County, MD\n
+Worcester County, MD\n
+Cayuga County, NY\n
+Nassau County, NY\n
+Onondaga County, NY\n
+Cass County, ND\n
+Blair COunty, PA\n
+Bucks County, PA\n
+Lancaster County, PA\n
+Anderson County, SC\n
+Roanoke City, VA\n
+Kanwaha County, WV\n
+New Zealand\n
   </string>  
 </resources>
   

@@ -280,7 +280,7 @@ choyvp pynff VQXbbgranvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:AYSQ",
         "PNYY:Genafcbeg PPG",
         "NQQE:700 F ZNVA FG",
-        "PVGL:ZBF",
+        "PVGL:ZBFPBJ",
         "HAVG:Z51",
         "PU:BCF3",
         "VASB:NAVGN TVYOREG EZ 232 TBVAT GB XZP ERNQL ABJ   N-SVO   UVTU CBGNFFVHZ    BA QEVCF / NAQ ZBAVGBEF / AHEFR CNTRQ");
