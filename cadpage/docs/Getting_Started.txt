@@ -5,6 +5,12 @@ Things you will need to install
 2) Eclipse may or may not come bundled with a Java SDK.  If it does not, you will have to install one from somewhere
 3) Apache Ant, which you can get from http://ant.apache.org
 4) The Android SDK, which you can get from http://developer.android.com/sdk/index.html.
+5) You also need a subversion client to check out the source code.  The regular command line client can be found at
+   http://subversion.apache.org/
+   Windows user can use Tortoise, available at http://tortoisesvn.tigris.org/
+6) And some kind of Eclipse plugin to interface with Subversion projects.  
+   There are two of these, Subversive and Subclipse.  We have been using Subversive, but Subclipse seems to be easier
+   to install.
 
 If you are just doing parsers, you won't be running much of the Android SDK, but you need the libraries to get project to compile.
 
@@ -12,11 +18,27 @@ The Cadpage project is hosted at http://code.google.com/p/cadpage/.
 The Source link will show you how to check out the source tree.  
 The Issues link tracks all non-parser issues.  Parser issues are tracked separately.
 
-Check out the main trunk source to a new local directory.
+Check out the main trunk source to a new local directory.  If you are running on Windows, it may help to specify linux
+style EOL markers, as in
+svn co --native-eol LF http://cadpage.googlecode.com/svn/trunk/ cadpage
+Eclipse should be able to handle these files even if other Windows tools can not.
 Open a command shell, switch to the local directory and enter
 ant import
 to import the test code
 Import two new Eclipse projects, one for the cadpage directory and one for the cadpageTest directory.
+
+Eclipse configuration settings
+Open the main Eclipse settings and create a Cadpage format template
+Window > Preferences > Java > Code Style > Formatter
+Create a new format profile named Cadpage and edit this profile
+Indentation
+  Set Tab policy to Spaces Only
+  Check use spaces to indent lines
+  Set the indentation size and tab size to 2
+
+Right click both Cadpage Project and select
+Properties > Java Code Style > Formatter
+Enable project specific settings and select the new Cadpage profile 
 
 You should now be able to compile and run the Cadpage app from the cadpage project.  And run the entire
 Junit test suite in the cadpageTest project
