@@ -63,13 +63,24 @@ So what is this import/export business all about.  The test project source lives
 but this source contains thousands of sample 911 emergency pages of real calls to real emergencies at real 
 addresses.  To keep those from showing up in standard Google searches, we do not commit this directory to 
 the archive.  Instead we run it all through a rot13 cypher to a rot13-src directory which is committed to the
-archive.  There are some Ant build files with targets to update these directories from the other.
+archive.  There are some Ant build files with targets to update these directories from the other.  These
+have to be run from the command line in the root folder that contains both the Cadpage and CadpageTest projects.
 
 import - copy any rot13-src changes to src
 export - copy any src changes to rot13
 stat   - perform an export followed by an svn stat.
 update - perform an svn update followed by an import.
 
+For people who don't like working from the command line, most functions are replicated in the Cadpage 
+project build.xml file where they can be run from the Eclipse Ant window.  The targets you can
+execute from here are
+
+initialize - perform the initial  import task to construct the cadpageTest src folder
+update     - brings your workspace up  to date with the latest repostitory changes
+stat       - list the change you have made in the works space that need to be reported
+commit     - commits your changes to repostory (only if you have commit priviledges) 
+gen_patch  - create a cadpage.patch patch file in the root directory that should be
+             emailed to the repository administrator.
 
 Work is needed in two general areas, one is the Android app UI and features, the other is the general text parsing library.  Since you expressed an interest in compilers and parsing, I'll go a bit further down the parsing library trail.
 
