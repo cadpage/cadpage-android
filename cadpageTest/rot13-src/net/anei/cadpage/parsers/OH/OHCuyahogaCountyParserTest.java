@@ -196,6 +196,13 @@ Fraqre: qvfcngpu@puntevasnyyfcq.pbz
 (Qvfcngpu Zrffntr) FDHNQ PNYY-TRARENY \e3883  YNAQRE EQ  1 \eSRZNYR ARRQF VAINYVQ NFFVFG JUB UNF SNYYRA BHG BS ORQ\aPURFGAHG PBHEG 
 (Qvfcngpu Zrffntr) FDHNQ PNYY-TRARENY \e3795  BENATR CYNPR  \eZNYR GBBX ZRQVPVAR , HAERFCBAFIVR OHG OERNGUVAT 
 
+** ABGR **
+Irel onfvp SvryqCebtenzCnefre fhopynff
+cebtenz fgevat: PNYY NQQE! VASB+
+
+Bireevqr cnefrZft()
+Purpx fhowrpg rdhnyf "Qvfcngpu Zrffntr"
+fcyvg obql ol \a naq pnyy cnefrSvryqf jvgu zvavzhz svryq pbhag bs 2
 */
 
 choyvp pynff BUPhlnubtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

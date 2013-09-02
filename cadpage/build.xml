@@ -18,7 +18,11 @@
   <target name="commit" description="Commit changes to repository">
     <ant dir=".." target="commit"/>
   </target>
-		
+  
+  <target name="initialize" description="Initialize new workspace">
+    <ant dir=".." target="import"/>
+  </target>
+  		
 	<property name="src2" value="src"/>
 	<property name="bin" value="bin/classes"/>
 	<property name="dist" value="dist"/>

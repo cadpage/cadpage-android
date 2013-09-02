@@ -3,7 +3,7 @@ Quick getting started instructions for new developers.
 Things you will need to install
 1) Eclipse can be found at http://eclipse.org.  You want the Eclipse IDE for Java developers
 2) Eclipse may or may not come bundled with a Java SDK.  If it does not, you will have to install one from somewhere
-3) Apache Ant, which you can get from http://ant.apache.org
+3) Apache Ant, which you can get from http://ant.apache.org  (optional, only if you want to run stuff from the command line)
 4) The Android SDK, which you can get from http://developer.android.com/sdk/index.html.
 5) You also need a subversion client to check out the source code.  The regular command line client can be found at
    http://subversion.apache.org/
@@ -38,10 +38,26 @@ Indentation
 
 Right click both Cadpage Project and select
 Properties > Java Code Style > Formatter
-Enable project specific settings and select the new Cadpage profile 
+Enable project specific settings and select the new Cadpage profile
+For Windows users:  Open the Resource tab and set the text encoding to UTF-8
+
+Hopefully the Cadpage project will now compile successfully  Some more work is needed to 
+get the CadpageTest project functional
+
+Open the Eclipse Ant view (Window > Show View > Ant)
+Click the Add Add Buildfiles Icon and navigate to and select build.xml in the Cadpage project.
+Toggle the Hide Internal Projects icon to hide internal targets
+Double Click the initialize target.  This will recreate the cadpageTest source folder
+Refresh the CadpageTest project.
+There were usually be a build path error because CadpageTest needs a reference to the 
+Android SDK android.jar file, which almost never be where the project expects it.  To
+fix this, open cadpageTest properties and select
+Build Path > Libraries > Android.jar > Edit
+and find the Android Jar file located wherever you installed the Android SDK platforms.
 
 You should now be able to compile and run the Cadpage app from the cadpage project.  And run the entire
-Junit test suite in the cadpageTest project
+JUnit test suite in the cadpageTest project.  The first time you try this, Eclipse will ask whether you 
+want to turn the Android test runner or the Junit test runner.  You want the JUnit test runner.
 
 So what is this import/export business all about.  The test project source lives in a standard src directory.
 but this source contains thousands of sample 911 emergency pages of real calls to real emergencies at real 
