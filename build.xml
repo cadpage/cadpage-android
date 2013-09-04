@@ -26,7 +26,7 @@
 
   <target name="gen_patch" description="Generate Cadpage patch file" depends="export">
     <exec executable="svn" output="cadpage.patch">
-      <arg line="diff --native-eol LF"/>
+      <arg line="diff"/>
     </exec>
     <echo message="Patch file cadpage.patch generated"/>
   </target>
