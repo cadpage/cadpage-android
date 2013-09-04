@@ -113,7 +113,6 @@ public class CTNewHavenCountyAParser extends SmartAddressParser {
     "MIX DISTRICT",
     "MOUNT CARMEL",
     "SPRING GLEN",
-    "STATE STREET",
     "WEST WOODS",
     "HAMDEN HILLS",
     "WHITNEYVILLE",

@@ -777,7 +777,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // some kind of reasonableness check on this
     if (isFlagSet(FLAG_CHECK_STATUS|FLAG_IMPLIED_INTERSECT|FLAG_ANY_PAD_FIELD)) return false;
     
-    // OK, we have to have at least 2 items before the city
+    // OK, we have to have at least 1 items before the city
     // Unless we are parsing a cross street instead of a real address, in which
     // case we allow it to be empty
     if (startAddress < 0) return false;
