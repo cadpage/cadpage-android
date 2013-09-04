@@ -31,7 +31,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   cevingr fgngvp svany vag SYNT_ARNE_GB_RAQ = FznegNqqerffCnefre.SYNT_ARNE_GB_RAQ;
   cevingr fgngvp svany vag SYNT_CNQ_SVRYQ_RKPY_PVGL = FznegNqqerffCnefre.SYNT_CNQ_SVRYQ_RKPY_PVGL;
   
-  cevingr fgngvp svany Fgevat[] PVGL_YVFG = arj Fgevat[]{"XRAFOHET", "XRA GBJA", "9999", "A OEBBXSVRYQ"};
+  cevingr fgngvp svany Fgevat[] PVGL_YVFG = arj Fgevat[]{"XRAFOHET", "XRA GBJA", "9999", "A OEBBXSVRYQ", "OEBBXSVRYQ"};
   cevingr fgngvp svany Fgevat QRS_PVGL = "FGNGR BS ZVAQ";
   cevingr fgngvp svany Fgevat QRS_FGNGR = "KK";
 
@@ -45,12 +45,19 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-    qbGrfg(FXVC, SYNT_BCG_FGERRG_FSK, "FHAFUVAR PVGL WRNA TBHY & CNHY T TRGGL QHZO FGHSS",
-        "NQQE:WRNA TBHY & CNHY T TRGGL");
   }
 
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(NQQE, SYNT_CNQ_SVRYQ_RKPY_PVGL | SYNT_NAPUBE_RAQ, "123  SNVEIVRJ QE  666  A OEBBXSVRYQ",
+        "NQQE:123 SNVEIVRJ QE",
+        "NCG:666",
+        "PVGL:A OEBBXSVRYQ");
+    
+    qbGrfg(NQQE, SYNT_NAPUBE_RAQ, "123  SNVEIVRJ QE    A OEBBXSVRYQ",
+        "NQQE:123 SNVEIVRJ QE",
+        "PVGL:A OEBBXSVRYQ");
     
     qbGrfg(CYNPR, SYNT_FGNEG_SYQ_AB_QRYVZ | SYNT_NAPUBE_RAQ, "12 OBJQRA YN",
         "NQQE:12 OBJQRA YN");
