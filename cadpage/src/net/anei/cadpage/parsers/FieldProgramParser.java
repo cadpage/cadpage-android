@@ -41,7 +41,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *    rest of the CAD page
  *    
  * 4) An optional plus sign [+] which indicates that this field should repeat
- *    Indefinitely.  Typically this only be used for INFO fields
+ *    Indefinitely.  Typically this will only be used for INFO fields
  *    
  * 5) An option question mark [?] which indicates that this field may not be
  *    present.  The question mark may or may not be followed by a trigger 
@@ -72,6 +72,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         2 - Only @ will be treated as start maker.  Ignore "AT"
  *         3 - Address followed by cross street or something similar
  *         4 - Empty address should be accepted
+ *         5 - Turn on the FLAG_CROSS_FOLLOWS even if we don't have a following
+ *             cross street.  Useful to work around city names that start with N or S
  *         First field character determines what can come ahead of the address
  *         X - nothing
  *         C - call description (req)
@@ -2037,6 +2039,10 @@ public class FieldProgramParser extends SmartAddressParser {
           }
           if (chr == '4') {
             parseFlags |= FLAG_EMPTY_ADDR_OK;
+            if (++pt >= qual.length()) break;
+          }
+          if (chr == '5') {
+            parseFlags |= FLAG_CROSS_FOLLOWS;
             if (++pt >= qual.length()) break;
           }
           chr = qual.charAt(pt);
