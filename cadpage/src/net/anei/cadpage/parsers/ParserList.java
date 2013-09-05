@@ -422,6 +422,7 @@ public class ParserList {
               ,"MOStoneCounty"                  ,"Stone County, MO"
               ,"MOWarrenCounty"                 ,"Warren County, MO"
               ,"MOWashingtonCounty"             ,"Washington County, MO"
+              ,"MOWebsterCounty"                ,"Webster County, MO"
           ),
           new ParserCategory("Montana"
               ,"MTFlatheadCounty"               ,"Flathead County, MT"
