@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.GA;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
@@ -21,5 +23,10 @@ public class GACoffeeCountyParser extends DispatchB2Parser {
     return super.parseMsg(body, data);
   }
   
+  @Override
+  public String adjustMapAddress(String address) {
+    return MLK_PTN.matcher(address).replaceAll("MARTIN LUTHER KING");
+  }
+  private static final Pattern MLK_PTN = Pattern.compile("\\bM *L *K\\b");
   
 }
