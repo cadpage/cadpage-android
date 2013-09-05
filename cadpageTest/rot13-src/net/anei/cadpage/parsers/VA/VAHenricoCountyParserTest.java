@@ -20,8 +20,6 @@ Fraqre: pnq_freivpr@pb.uraevpb.in.hf
 (Cntr) P0288 0940uef 6900 J OEBNQ FG  ((804)211-0126) sq:10 er:URNEG NGGNPX//Vf gur cngvrag pbafpvbhf?: Lrf //Vf gur cngvrag oernguvat abeznyyl?: Ab //Qbrf gur cngvrag unir n uvfgbel bs urneg ceboyrzf? :  //Vf gur cngvrag yrff guna 20 lrnef byq?:  // NYF: L fraqSver: L//(PNQ)
 (Cntr) P0274 0916uef 9305 CNIVYVBA QE  NCG Q sq:09 er:FHVPVQR/NGGRZCG//+pnyyre nqi ivpxvr urysre pnyyrq nqi ure naq nqi fur gbbx n ohapu bs mnagnk naq unf orravat qevaxvat rkprffviyrl // //Vf gur cngvrag pbafpvbhf?:  //Vf gur cngvrag oernguvat abeznyyl?:  //Vf gur cngvrag ivbyrag (232)?:  //Ner nal jrncbaf vaibyirq?:  //Qbrf vg nccrne gurer znl or qehtf be nypbuby vaibyirq?:  //Vf gur vapvqrag eryngrq gb n fhvpvqr nggrzcg?:  // NYF: L fraqSver: L//(PNQ)
 (Cntr) P0251 0822uef 4905 FHYXL QE  (NCG 103 P) sq:10 er:URZBEEUNTR//Vf gur cngvrag pbafpvbhf?: Lrf //Vf gur cngvrag oernguvat abeznyyl?: Lrf //Qbrf gur cngvrag unir n uvfgbel bs n oyrrqvat qvfbeqre? (Urzbcuvyvn): Ab //Qbrf gur cngvrag srry qvmml be yvtugurnqrq?: Ab //Ner lbh noyr gb pbageby gur oyrrqvat?: Lrf // OYF: L fraqSver: A//(PNQ)
-(Cntr) Jbexvat Sver-1111 Abeznaql Qe, Fgngvba 8 svefg qhr.  GNP 10(XYV001)
-(Cntr) Jngre Erfphr pnyy ba Inevan Raba Oevqtr P0229.  Fgngvba 4 svefg qhr.(XYV001)
 (Cntr) P0091 2139uef 1002 OBEQRA EQ  sq:08 er:VAWHEL//Vf gur cngvrag pbafpvbhf?: //Vf gur cngvrag oernguvat abeznyyl?: //Ner gurer nal crargengvat be vzcnyrq bowrpgf gb gur urnq, purfg, noqbzra be onpx?: //Qbrf gur cngvrag unir nal vawhevrf gb gurve urnq, arpx, onpx, be nal bcra senpgherf?: ////Pybarq sebz P0051.  Cbfvgvba# 24//thvf,puevfgvar / qevivat nebhaq gbja va  2007 terl ubaqn bqlfrr / guerngravat gb xvyy urefrys naq unf phg ure jevfgf, vf fraqvat cvpf gb sevraqf / fnvq fur jbhyq qvr jurer fur sryg zbfg pbzsbegnoyr cbffvoyl ng gevavgl havgrq zrgubqvfg puhepu ba sberfg be gur envagerr fhoqvivfvba / pryy cubar 307-0517 // pbqr 2 ers hanoyr gb qrgrezvar fhow ybpngvba//cbffvoyl eryngrq gb P9620 / pbzc vf sngure nqi qrgrpgvir gubhtug jbhaqf pbhyq or frys vasyvpgrq sebz gur ubzr vainfvba//cbff cyngr sebz qnejva ksj8103//nabgure cbff ybpngvba: jvzoyrl fjvz naq enpxrg pyho ba tnxfvaf eq////bcra qbbe / jrfg uryq//382 purpxvat jvzoyl graavf pbheg bss tnfxvaf//jrfg pyrne //endhrg pyho naq puhepu ner pyrne//pnyyre (ynhen byvatre 677-1957) erpvrirq n gkg sebz puevfgvr jvgu n cvpgher bs ure jevfg phg naq oyrrqvat // nqi fur jnf fbeel // srznyr pnyyre fur znl or ng guvf ybpngvba ////bss gze//nabgure ybpngvba va envagerr fhoqvivfba oruvaq gur abegu jrfg pbeare bs jvyybj ya naq tbqjva uvtufpubby//****ZE TNEEVFBA PNYYRQ// ORYVRIR FHOW VF ORUVAQ TBQJVA UVTUFPUBBY RVGURE VA GUR CNEXVAT YBG BE VA GUR JBBQ*** / /cvatrq fubjrq ynfg hfr ng 2113 yng/ybat fubjvat nern bs 10704-10708 Byq Cerfpbgg Eq//Tbqjva Uvtu 2101 chzc eq - 83 FN//havgf rae gb tbqjva uvtu cre 190//190 NQI JVYY UNIR HAVG TBVAT GB TBQJVA NAQ UR JVYY OR RAEG GURER NF JRYY//gubznf jevtug - 318-0883 / oblsevraq bs fhow nqi fur vf fnlvat fur vf va gur jbbqf naq fgvyy fraqvat cvpgherf//.. //390 nqi iru ng onpx bs fpubby rzcgl//512 unf fhow / erd erfd pbqr 3//(PNQ)
 (Cntr) P0012 1949uef 9523 CVAR FUNQBJ QE  sq:09 er:ABFR OYRRQ//Vf gur cngvrag pbafpvbhf?: Lrf //Vf gur cngvrag oernguvat abeznyyl?: Lrf //Qbrf gur cngvrag unir n uvfgbel bs n oyrrqvat qvfbeqre? (Urzbcuvyvn): Ab //Qbrf gur cngvrag srry qvmml be yvtugurnqrq?: Ab //Ner lbh noyr gb pbageby gur oyrrqvat?: Lrf // OYF: L fraqSver: A//(PNQ)
 (Cntr) P9882 1633uef 1693 UREVGNTR UVYY QE  sq:09 er:FRVMHERF//Vf gur cngvrag pbafpvbhf?: Lrf //Vf gur cngvrag oernguvat abeznyyl?: Ab //Unf gur frvmher fgbccrq?:  //Qvq gur cngvrag unir n urnq vawhel cevbe gb frvmher?:  //Vf gur cngvrag certanag?:  //Vf gur cngvrag pbashfrq be pbzongvir?:  // NYF: L fraqSver: L//(PNQ)
@@ -89,6 +87,37 @@ Fraqre: pnq_freivpr@pb.uraevpb.in.hf
 (Cntr) P6882 0056uef 8802 GUERR PUBCG EQ  NCG 306 sq:08 er:TRARENY VYYARFF//Vf gur cngvrag pbafpvbhf?: Lrf //Vf gur cngvrag oernguvat abeznyyl?: Lrf //Qbrf gur cngvrag nyfb unir purfg cnva?:  //Qbrf gur cngvrag srry jrnx be qvmml?:  // NYF: L fraqSver: L//(PNQ)
 (Cntr) P6867 2359uef 18 OEVQTRJNL EQ  sq:08 er:YVSG NFFVFG//Vf gur cngvrag pbafpvbhf?: Lrf //Vf gur cngvrag oernguvat abeznyyl?: Lrf //Vf gur cngvrag ynetre guna 300 cbhaqf?: Ab // OYF: L fraqSver: L//(PNQ)
 (Cntr) P6823 2202uef 5001 J OEBNQ FG  (FHVG 1002/PIF CUNEZNPL) sq:10 er:UVTU OYBBQ CERFFHER//Vf gur cngvrag pbafpvbhf?: Lrf //Vf gur cngvrag oernguvat abeznyyl?: Lrf //Qbrf gur cngvrag nyfb unir purfg cnva?: Ab //Qbrf gur cngvrag srry jrnx be qvmml?: Lrf // NYF: L fraqSver: A//(PNQ)
+
+**ABGR**
+Guvf ybbxf yvxr vg vf tbvat gb or n cnggrea zngpu cnefre.  V ungr gurfr, gur ner ernyyl punyyratvat gb trg jbexvat
+ohg fbzrgvzrf vg vf gur orfg gbby jr unir.  Gel frnepuvat gur cnefre fbhepr sbe gur jbeq "ZNFGRE" juvpu vf gur 
+erfreirq jbeq jr hfr sbe zngre cnggreaf.
+
+Lbh arrq gb qrpyner gur znfgre cnggrea, juvpu arire jbexf gru svefg gvzr, ohg gel
+cevingr fgngvp svany Cnggrea ZNFGRE = Cnggrea.pbzcvyr("([PZ]\\q{4}) +(\\q\\q)(\\q\\q)uef (.*?)(?:\\((.*?)\\))? +sq:(\q+) er:(.*)");
+
+Fvapr jr nera'g hfvat SvryqCebtenzCnefre jr unir gb qrsvar gur svryq yvfg hfrq gb trarengr grfgf
+juvpu jr qb ol nqqvat n yvar va gur pbafgehpgbe
+frgSvryqYvfg("ZNC GVZR NQQE NCG CYNPR HAVG PNYY VASB");
+
+Bireevqr cnefrZft()
+  Purpx gung fhowpg vf "Cntr"
+  Zngpure zngpu = ZNFGRE.zngpure(obql);
+  vs (!zngpu.zngpurf()) erghea snyfr;
+  qngn.fgeZnc = zngpu.tebhc(1);
+  qngn.fgeGvzr = zngpu.tebhc(2) + ':' + zngpu.tebhc(3);
+  cnefrNqqerff(zngpu.tebhc(3).gevz(), qngn);
+  qngn.fgeCynpr = trgBcgTebhc(zngpu.tebhc(4));
+  qngn.fgeHavg = zngpu.tebhc(5);
+  Cnefre c = arj Cnefre(zngpu.tebhc(6).gevz();
+  qngn.fgePnyy = c.trg("//");
+  qngn.fgeFhcc = c.trg().ercynpr("//", "/");
+  erghea gehr;
+
+Ernyyl cerggl fvzcyr, jura vg jbexf.  Ohg vg arire jbexf gur svefg gvzr lbh gel vg.  Naq qrohttvat
+cnggrea ceboyrzf pna or qvssvphyg.  GUrer vf n CnggreaGrfg pynff va gur qrsnhyg cnpxntr bs gur
+grfg cebwrpg fep sbyqre juvpu urycf.  Pbcl gur cnggrea naq fgevat lbh ner zngpuvat vagb vg naq
+gura cynl nebhaq jvgu punatvat guvatf hagvy lbh pna trg vg gb zngpu.
 
  */
 
