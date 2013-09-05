@@ -12,7 +12,6 @@ Ybpngvba: Evireqnyr, TN, Havgrq Fgngrf
 Fraqre: PNQ@pb.pynlgba.tn.hf
 
 PNQ:UBHFR SVER;05/06/2013 19:47:00;6877 ORYYF YNAQVAT PI
-PNQ:Hcqngr: ;FVTANY 50 VAI CREFBA FUBG;05/06/2013 02:50:05;8 YNXRIVRJ QE
 PNQ:Hcqngr: ;FVTANY 50 VAI CREFBA FUBG;05/06/2013 02:51:02;8 YNXRIVRJ QE
 PNQ:Hcqngr: ;FVTANY 50 VAI CREFBA FUBG;05/06/2013 02:51:02;8000-Y8 UVTUJNL 85
 PNQ:SLV: ;FVTANY 50 VAI CREFBA FUBG;05/06/2013 02:51:02;8000 UVTUJNL 85
@@ -29,7 +28,6 @@ PNQ:NCNEGZRAG SVER;05/03/2013 13:48:16;415-OCN8 FLYIVN QE
 PNQ:UBHFR SVER;05/02/2013 21:53:06;1376 VFYRJBEGU PVE
 PNQ:UBHFR SVER;05/02/2013 05:57:41;4 YNXR PEBFFVAT PG
 PNQ:Hcqngr: ;VQPNYY;05/02/2013 02:34:22;924 ZBAGRERL PVE
-PNQ:SLV: ;FVTANY 50 VAI CREFBA FUBG;05/02/2013 01:44:18;924 ZBAGRERL PVE
 PNQ:SLV: ;FVTANY 50 VAI CREFBA FUBG;05/02/2013 00:58:05;7882 J FUBER PG
 PNQ:NCNEGZRAG SVER;05/01/2013 09:12:22;1365-OPN7 PBAYRL EQ
 PNQ:UBHFR SVER;04/30/2013 16:35:18;5213 ABEZNA OYIQ
@@ -93,7 +91,6 @@ PNQ:NCNEGZRAG SVER;04/15/2013 14:30:35;1507-ORN1 CVAR QE
 PNQ:{RAT10} SVER BHG;12153 RQTRJNGRE QE; UNZC;TENFF SVER
 PNQ:PNAPRY;2980 WBARFOBEB EQ; WBAR
 PNQ:Hcqngr: ;FVTANY 50 VAI CREFBA FUBG;04/13/2013 05:45:52;2980 WBARFOBEB EQ
-PNQ:SLV: ;FVTANY 50 VAI CREFBA FUBG;04/13/2013 05:45:52;4071 OEBJAR PG
 PNQ:SLV: ;FVTANY 50 VAI CREFBA FUBG;04/13/2013 05:39:38;4071 OEBJAR PG
 PNQ:UBHFR SVER;04/12/2013 21:34:58;1573 SYVPXRE EQ
 PNQ:{PNE02} JBEXVAT SVER CNTR;OHSSRG GE/JNEERA QE; EVIR;UBHFR SVER
@@ -110,6 +107,39 @@ PNQ:Hcqngr: ;FVTANY 50 VAI CREFBA FUBG;04/08/2013 23:38:34;6028 ZG MVBA EQ
 PNQ:Hcqngr: ;FVTANY 50 VAI CREFBA FUBG;04/08/2013 23:37:48;6028 ZG MVBA OYIQ
 PNQ:Hcqngr: ;FVTANY 50 VAI CREFBA FUBG;04/08/2013 23:37:48;6028 ZG MVBA EQ
 PNQ:SLV: ;FVTANY 50 VAI CREFBA FUBG;04/08/2013 23:37:48;628 ZG MVBA EQ
+
+*** ABGRF ***
+Fhopynff QvfcngpuBFFVCnefre
+Fgvyy gnxrf n cebtenz fgevat, juvpu vf tbvat gb or pbzcyvpngrq orpnhfr jr
+unir gjb frcnengr sbezngf gb unaqyr.  Gb unaqyr gung, jr unir gb hfr fbzr
+snapl pbaqvgvbany oenapu ybtvp.  Fbzrguvat yvxr
+SLV? ( HAVG_PNYY NQQE PVGL | PNYY QNGRGVZR NQQERFF! ) VASB+
+
+Gur SLV svryq vf qrsvarq ol QvfcngpuBFFVCnefre.
+HAVG_PNYY jvyy unir gb or qrsvarq va lbhe pynff.
+  Perngr n arj rzorqrq pynff HavgPnyySvryq rkgraqvat PnyySvryq
+    Bireevqr pnaSnvy() naq erghea gehr.  Guvf vf jung gryyf gur cnefvat ratvar gung 
+    guvf svryq pna znxr lrf/ab inyvqvgl qrpvfvbaf nobhg vg'f qngn svryq
+  Bireevqr purpxCnefr().
+    Vs svefg vs svryq qbrf abg fgneg jvgu { erghea snyfr
+    Ybbx sbe n zngpuvat }.  Vs abg sbhaq, erghea snyfr
+    Chg jungrire vf orgjrra gur oenprf va qngn.fgeHavg
+    Chg nalguvat orlbaq gur pybfvat oenpr va qngn.fgePnyy
+    erghea gehr
+  Bireevqr cnefr()
+    pnyy purpxCnefr()  vs guvf qbrf abg erghea n gehr fgnghf pnyy nobeg()
+  Bireevqr trgSvryqAnzrf()
+    erghea "HAVG PNYY"
+    
+Bireevqr trgSvryq()
+  Purpx sbe HAVG_PNYY anzr naq erghea n arj HavgPnyySvryq bowrpg
+  Purpx sbe QNGRGVZR anzr erghea n arj QngrGvzrSvryq cnffvat n erthyne
+  rkcerffvba cnggrea inyvqngvat gur rkcrpgrq vachg.  Fbzrguvat yvxr
+      arj QngrGvzrSvryq("\\q\\q/\\q\\q/\\q{4} +\\q\\q?:\\q\\q:\\q\\q", gehr); 
+      
+Nyfb arrq gb frg hc n PVGL_PBQRF cebcregl gnoyr znccvat 4 punenpgre pvgl pbqrf
+gb npghny pvgl anzrf.  V jvyy gel gb trg pbzcyrgr yvfg sebz hfref.  Vs jr qb
+abg unir gung, ohg gur gnoyr sebz gur pvgl pbqrf lbh svaq va gur cntr grkg         
 
 */
 

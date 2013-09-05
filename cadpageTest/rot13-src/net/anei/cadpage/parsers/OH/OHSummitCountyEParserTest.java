@@ -107,6 +107,17 @@ Fraqre: nyregf@vafcvebaybtvfgvpf.pbz
 (Nyreg Abgvsvpngvba) SVER: 1 | ANZR: QHQVPU, ZVYQERQ | NQQERFF: 3125 FZVGU EQ #201,SNVEYNJA | QRFPEVCGVBA: PNAGREOHEL, ENPVAT URNEG & PUNATR VA ZRAGNY FGNGHF | PEBFF 1: J ZNEXRG FG | PEBFF 2: UVPXBEL EQ<oe /><oe/> <oe/>Pvgl bs Snveynja npprcgf ab yvnovyvgl sbe gur pbagrag bs guvf rznvy, be sbe gur pbafrdhraprf bs nal npgvbaf gnxra ba gur onfvf bs gur vasbezngvba cebivqrq, hayrff gung vasbezngvba vf fhofrdhragyl pbasvezrq va jevgvat. Vs lbh ner abg gur vagraqrq erpvcvrag lbh ner abgvsvrq gung qvfpybfvat, pbclvat, qvfgevohgvat be gnxvat nal npgvba va eryvnapr ba gur pbagragf bs guvf vasbezngvba vf fgevpgyl cebuvovgrq.
 (Nyreg Abgvsvpngvba) SVER: 14 | ANZR: | NQQERFF: | QRFPEVCGVBA: NYY PNYY GB FGNSS GUR FGNGVBA | PEBFF 1: | PEBFF 2:<oe /><oe/> <oe/>Pvgl bs Snveynja npprcgf ab yvnovyvgl sbe gur pbagrag bs guvf rznvy, be sbe gur pbafrdhraprf bs nal npgvbaf gnxra ba gur onfvf bs gur vasbezngvba cebivqrq, hayrff gung vasbezngvba vf fhofrdhragyl pbasvezrq va jevgvat. Vs lbh ner abg gur vagraqrq erpvcvrag lbh ner abgvsvrq gung qvfpybfvat, pbclvat, qvfgevohgvat be gnxvat nal npgvba va eryvnapr ba gur pbagragf bs guvf vasbezngvba vf fgevpgyl cebuvovgrq.
 
+** ABGRF **
+Ybbxf hapbzcyvpngrq
+Fhopynff SvryqCebtenzCnefre
+Cebtenz Fgevat
+SVER:HAVG! ANZR:CYNPR! NQQERFF:NQQEPVGL! QRFPEVCGVBA:PNYY! PEBFF_1:K PEBFF_2:K
+
+Bireevqr cnefrZft()
+  Purpx fhowrpg rdhnyf "Nyreg Abgvsvpngvba"
+  Frnepu obql sbe n '\a' punenpgre.  Vs sbhaq, qryrgr vg naq rirelguvat orlbaq vg.
+  ( Gur <oe/> pbafgehpgf va gur grkg obql jvyy ghea vagb n '\a' jura lbh trg vg)
+  erghea erfhygf bs pnyy gb cnefrSvryqf(obql.fcyvg("\\|", qngn);
  */
 
 choyvp pynff BUFhzzvgPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
