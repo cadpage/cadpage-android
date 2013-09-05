@@ -6947,21 +6947,7 @@ EhaGvzrf:\aHavg        Fgnghf    Gvzr\a-----------------------------------------
 **********************************************************
 ************  SNEZRQ BHG *********************************
 **********************************************************
-**********************************************************
-**********************************************************
 * Genvavat
-**********************************************************
-Phlnubtn Pbhagl, BU
-Pbagnpg: Npgvir911
-Ntrapl anzr: Punteva Snyyf Sver Qrcg.
-Ybpngvba: Punteva Snyyf, BU, Havgrq Fgngrf
-Fraqre: qvfcngpu@puntevasnyyfcq.pbz
-
-(Qvfcngpu Zrffntr) FDHNQ PNYY-TRARENY  \e308  SBK JNL     \ePHG JEVFG 
-(Qvfcngpu Zrffntr) ZIN \a123  SNVEIVRJ QE    F EHFFRYY \aRYQREYL SRZNYR VAIBYIRQ VA YBJ FCRRQ ZIN
-(Qvfcngpu Zrffntr) FDHNQ PNYY-TRARENY  \e35952  FBYBA EQ    ORAGYRLIVYYR \eZNYR CVAARQ ORGJRRA GERR NAQ EVQVAT ZBJRE, NQVIFRQ ABG VAWHERQ 
-(Qvfcngpu Zrffntr) ZIN \a ERDHRFGRQ FDHNQ NVE ONT QRCYBLZRAG, \a 
-(Qvfcngpu Zrffntr) ZIN \e  PUVYYVPBGUR EQ    F EHFFRYY \eTPFB NQIVFRQ IRUVPYR ( TEL INA) VA GUR QVGPU, AB VAWHEVRF 
 **********************************************************
 Jnhxrfun Pbhagl, JV
 Pbagnpg: Npgvir911
@@ -6974,6 +6960,9 @@ Fraqre: qvfcngpu@zhxjbantbsver.bet
 (Cubravk Abgvsvpngvba) 2013001172 {08/10/2013 21:02:00}\aNZOB     - Nzohynapr Erdhrfg{1}\a206 Wnpbof Qe\aHavgf:\a    PNE1    3400N   3400    \aPbzzragf:\a Sbe cnegvrf jvgu vawhevrf gb snpr naq arpx sebz cbffvoyr culfvpny nygrepngvba. Bssvpref ba fprar. 
 (Cubravk Abgvsvpngvba) 2013001171 {08/10/2013 18:37:47}\aNZOB     - Nzohynapr Erdhrfg{1}\a331 Jrfgfvqr Nir,3\aHavgf:\a    PNE1    3400N   3400    \aPbzzragf:\a  
 (Cubravk Abgvsvpngvba) 2013001170 {08/10/2013 17:04:52}\aSVER     - Ercbeg bs Sver/Sver Nynez Npgvingrq{1}\aPGU AA/A Ebpurfgre Fg\aHavgf:\a    PNE1    3400N   3400    \aPbzzragf:\a Ynqqre va frjre qenva ba sver ba PGU AA whfg rnfg bs FGU 83; unf orra rkgvathvfurq ohg bssvpre jbhyq yvxr sver qvfcngpurq qhr gb qenva fgvyy fzbxvat. 
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
