@@ -6,6 +6,11 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Wrssrefba Pbhagl, CN
+
+Pbagnpg: Puevf Fzvgu <ssfzvgu20@tznvy.pbz>
+Fraqre: qvfcngpu@wrssrefbapbhaglcn.pbz
+(Vapvqrag) Sver - Nynez P20  105 A TVYCVA FG Chakfhgnjarl TENPR CYNPR NCNEGZRAGFCVAR FG / PENAOREEL NYL 20-N Falqre Uvyy
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Prageny Sver Qrcg.
 Ybpngvba: Chakfhgnjarl, CN, Havgrq Fgngrf
