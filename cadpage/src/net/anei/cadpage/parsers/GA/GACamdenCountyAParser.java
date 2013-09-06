@@ -17,7 +17,7 @@ public class GACamdenCountyAParser extends DispatchA3Parser {
   
   @Override
   public String getFilter() {
-    return "astudstill@co.camden.ga.us,messaging@iamresponding.com";
+    return "messaging@iamresponding.com,911paging@co.camden.ga.us ";
   }
   
   private static final Pattern UNIT_PTN = Pattern.compile("^[^ ]*,[^ ]* ");
