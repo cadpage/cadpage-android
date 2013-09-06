@@ -110,7 +110,17 @@ public class DispatchA25Parser extends FieldProgramParser {
       data.strCity = p.getLastOptional(',');
       if (data.strCity.length() == 0) data.strCity = p.getLastOptional(" - ");
       data.strPlace = p.getOptional(" - ");
-      parseAddress(p.get(), data);
+      String addr = p.get();
+      String apt = "";
+      if (addr.endsWith(")")) {
+        int pt = addr.indexOf('(');
+        if (pt >= 0) {
+          apt = addr.substring(pt+1, addr.length()-1).trim();
+          addr = addr.substring(0,pt).trim();
+        }
+      }
+      parseAddress(addr, data);
+      data.strApt = append(data.strApt, "-", apt);
     }
     
     @Override
