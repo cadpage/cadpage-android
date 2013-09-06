@@ -6,11 +6,11 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE  =       
-      Cnggrea.pbzcvyr("([-N-M0-9]+) (2AQ QVFCNGPU|RE(?: JVGU \\q)?) (.*)");
+      Cnggrea.pbzcvyr("^(\\q{7}) +(\\q\\q:\\q\\q:\\q\\q) +(\\q\\q-\\q\\q-\\q\\q) +[-N-M0-9]+ +NYCUN +\\q+ +");
 
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("R36-3  RE JVGU 2 7041 FGREYVAT EQ JUG QNHC");
+    qbGrfg("0001002 07:25:36 28-08-13 CBPFNT-1  NYCUN  1200 Abegu Naaivyyr Gbjafuvc 241 PYRNE FCEVAT EQ ZI - Nppvqrag j/Vawhevrf Iruvpyr if Gryrcubar Cbyr St-3 Ercynprzrag R7 R1-1  Sver-Obk 6-02 RZF-Obk 190-15 -");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

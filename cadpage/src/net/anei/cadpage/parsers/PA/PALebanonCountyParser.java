@@ -11,6 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class PALebanonCountyParser extends SmartAddressParser {
   
+  private static final Pattern DATE_TIME_PREFIX_PTN = Pattern.compile("^(\\d{7}) +(\\d\\d:\\d\\d:\\d\\d) +(\\d\\d-\\d\\d-\\d\\d) +[-A-Z0-9]+ +ALPHA +\\d+ +");
   private static final Pattern COUNTY_PREFIX_PTN = Pattern.compile("^(DAUPHIN|LANCASTER)(?: CO(?:UNTY)?)?[ /]", Pattern.CASE_INSENSITIVE);
   private static final Pattern[] CITY_PTNS = new Pattern[]{
     Pattern.compile("^(.* Township)[ =]", Pattern.CASE_INSENSITIVE),
@@ -21,7 +22,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
   };
   private static final Pattern SPECIAL_CITY_PTN = Pattern.compile("^((?:(?:NORTH|SOUTH|EAST|WEST) )?[A-Z]+)[ =]", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_PREFIX_PTN =
-      Pattern.compile(" (?:Med Class(\\d) |([A-Z]{2,6} ?- ?))");
+      Pattern.compile("(?<=[ a-z])(?:Med Class(\\d) |([A-Z]{2,6} ?- ?))");
   private static final Pattern BOX_PTN = 
       Pattern.compile(" (?:(?:Box|BOX) ?([0-9\\-]+)|Fire-Box ([0-9\\-]+) EMS-Box ([0-9\\-]+)|Fire-Box EMS-Box)");
   private static final Pattern TAIL_CLASS_PTN = Pattern.compile("^Class (\\d) for EMS ");
@@ -29,7 +30,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
 
   public PALebanonCountyParser() {
     super("LEBANON COUNTY", "PA");
-    setFieldList("CITY ADDR APT PLACE PRI CALL BOX UNIT");
+    setFieldList("SRC TIME DATE CITY ADDR APT PLACE PRI CALL BOX UNIT");
   }
   
   @Override
@@ -43,9 +44,18 @@ public class PALebanonCountyParser extends SmartAddressParser {
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     
+    // Remove date/time prefix
+    Matcher match = DATE_TIME_PREFIX_PTN.matcher(body);
+    if (match.find()) {
+      data.strSource = match.group(1);
+      data.strTime = match.group(2);
+      data.strDate = match.group(3).replace('-', '/');
+      body = body.substring(match.end());
+    }
+    
     // See if a county has been specified
     String county = null;
-    Matcher match = COUNTY_PREFIX_PTN.matcher(body);
+    match = COUNTY_PREFIX_PTN.matcher(body);
     if (match.find()) {
       county = match.group(1);
       body = body.substring(match.end());
@@ -117,6 +127,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
       }
       data.strBox = sBox;
       sTail = sTail.substring(match.end()).trim();
+      if (sTail.startsWith("-")) sTail = sTail.substring(1).trim();
     }
     data.strCall = (sCallPfx == null ? "" : sCallPfx) + sCall;
     

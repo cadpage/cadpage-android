@@ -251,6 +251,7 @@ public class PADauphinCountyParser extends FieldProgramParser {
       
       // Perry County
       "DUNC PERR", "DUNCANNON",
+      "MARY PERR", "MARYSVILLE",
       "RYET PERR", "RYE TWP",
       "WTFD PERR", "WHEATFIELD TWP"
 
