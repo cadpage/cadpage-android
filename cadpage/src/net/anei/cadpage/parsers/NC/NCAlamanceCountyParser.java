@@ -20,7 +20,15 @@ public class NCAlamanceCountyParser extends DispatchOSSIParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "BURL", "BURLINGTON",
-      "ELON", "ELON"
+      "GRAH",  "GRAHAM",
+      "GREE",  "GREEN LEVEL",
+      "HAW",   "HAW RIVER",
+      "MEB",   "MEBANE",
+      "BURL",  "BURLINGTON",
+      "GIB",   "GIBSONVILLE",
+      "ELON",  "ELON",
+      "LIB",   "LIBERTY",
+      "SWEP",  "SWEPSONVILLE",
+      "SNOW",  "SNOW CAMP"
   });
 }
