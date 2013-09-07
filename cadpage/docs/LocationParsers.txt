@@ -12,11 +12,10 @@ Next finish the parser test class.  This part is semi-automated.
 1) The skeleton test class will contain a call to DummyParser in its constructor.  This needs
    to be replaced with your new constructor name.
 2) The last method in the skeleton test class should be a main() method that invokes
-   generateTests().  If your parser class is a subclass of FieldProgramParser, the only
-   parameter is a test title, usually "T1", that will be incremented for each generated
-   test.  If the parser class is not a FieldProgramParser subclass, you will have to list
-   the fields that your parser parses, in roughly the order they appear in the text message,
-   in a second parameter to the generateTests() method.
+   generateTests().  The only parameter is a test title, usually "T1", that will be incremented 
+   for each generated test.  If the parser class is not a FieldProgramParser subclass, you will 
+   have to list the fields that your parser parses, in roughly the order they appear in the text 
+   message, in a second parameter to the generateTests() method.
 3) Now scroll up to the top of the skeleton test class, then select and copy a block of
    test messages including a final blank line.
 4) Run the test class as a Java application.  When prompted, past the block of test messages
@@ -26,7 +25,7 @@ Next finish the parser test class.  This part is semi-automated.
    
 Run the test class as a JUnit test.  Usually this succeeds because the generated code is basically
 checking for the result that were actually be returned.  When it fails, it is usually because
-a parsed field name was left out of the second parameter passed to generateTests().  Or because a
+a parsed field name was left out the field list passed to setFieldList().  Or because a
 FieldProgramParser based parser did not correctly calculate its list of parsed field names.  If
 something needs to be fixed, you can regenerated the test class code as above.
 
@@ -57,7 +56,7 @@ won't do them (sob).  For things like Interstate mile marker, don't even bother
 doing a map check or commenting the fact that it doesn't map.  These things are
 just understood.
 2) If there is a CITY field, try replacing it with the default city/county.  It
-is possible the city field is invalid, or somethings dispatch just has it wrong.
+is possible the city field is invalid, or something dispatch just has it wrong.
 3) if there is a house number, try searching for the street without the house
 number.
 4) If this is an intersection, try searching for each street individually.
@@ -105,7 +104,7 @@ Otherwise, if the text pages contain an address whose beginning and end cannot
 be identified without having to understand what an address looks like, subclass
 SmartAddressParser.
 
-Otherwise, subclass SmsMsgParser
+Otherwise, subclass MsgParser
 
 I usually look for another parser based on the same base parser class in the same 
 state and make a copy of it.  If there aren't any you can copy one from another
@@ -369,6 +368,24 @@ not reject non-matching data if not asked about it.  if you pass an additional
 boolean value of true, this becomes a hard validation check, and the field will
 also abort parsing if the parse method is called with data that does not match
 the pattern.
+
+
+Tricks to debugging FieldProgramParser based parsers....
+1) I  usually step into the parseFields() method just to make sure the fields
+   were split up the way I think they should be.  This usually involves stepping 
+   into String.split() first, then using the step out key, the step into a second 
+   time to get to parseFields.
+2) There are only 3 places where FieldProgramParser returns a failure status.  
+   Put breakpoints on all 3 and you can pretty much nail down why a particular 
+   parse is failing.  These are...
+   a) the abort() method is called by any field parser that want the parse to fail.  
+      Search the source for abort() then hit F3 to find the method where you want 
+      to put a breakpoint.
+   b) When a required tagged field is skipped.  Search for the skipReq variable 
+      and put a breakpoint on the call to state.setResult(false) that is called 
+      when it is true.
+   c) Required field not found before end of text is reached.  Search for the 
+      checkFailure() method and put a breakpoint on the return false statement.
 
 **************************************************************************
 * Admin functions are performed by someone with a very good knowledge of
