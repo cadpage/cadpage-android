@@ -10,8 +10,18 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class ZNZNewZealandParser extends SmartAddressParser {
 
   private static final Pattern END_PAGE_BREAK = Pattern.compile("#F\\d+(?=\n)");
-  private static final Pattern MASTER =
-      Pattern.compile("\\(([A-Z0-9, ]+)\\) *([A-Z0-9]+-[A-Z]+) (?:\\((Alarm Type [-A-Z0-9/ ]+)\\) *)?(?:\\(Box ([-A-Z0-9 &]+)\\) *)?(?:(AK\\d+[A-Z]? .*? > [A-Z]+\\)) +(?:AK\\d+[A-Z]? +)?)?([-A-Za-z0-9\\(\\)\\?\\\\ ]+?) *\\. +(?:([- A-Z0-9:]+)\\.\\.? +)?(?:((?:NEAR|OFF) [- A-Z0-9\\?]+)\\. *)?(?:\\(XStr +([-A-Z0-9/ ]*)\\) *)?(?:\\.([-A-Z0-9@,\\? /\\.:]+)\\. *)?(?:\\(x-(\\d+) ?y-(\\d+)\\) *)?#(F\\d+)");
+  
+  private static final Pattern UNIT_CODE_PTN = Pattern.compile("^\\(([A-Z0-9, ]+)\\) *([ A-Z0-9]+-[A-Z]+) +");
+  private static final Pattern ALARM_TYPE_PTN = Pattern.compile("^\\((Alarm Type [-A-Z0-9/ ]+)\\) *");
+  private static final Pattern BOX_PTN = Pattern.compile("^\\(Box ([-A-Z0-9 &]+)\\) *");
+  private static final Pattern AK_PTN = Pattern.compile("^(AK\\d+[A-Z]? .*? > [A-Z]+\\)) +(?:AK\\d+[A-Z]? +)? *");
+  private static final Pattern EXTRA_PTN = Pattern.compile("^([- A-Z0-9:&]+)\\.\\.? +");
+  private static final Pattern NEAR_OFF_PTN = Pattern.compile("^((?:NEAR|OFF) [- A-Z0-9\\?]+)\\. *");
+  private static final Pattern XSTR_PTN = Pattern.compile("^\\(XStr +([-A-Z0-9/ ]*)\\) *");
+  private static final Pattern DOT_DOT_PTN = Pattern.compile("^\\.([-A-Z0-9@,\\? /\\.:\\|]+)\\. *");
+  private static final Pattern GPS_PTN = Pattern.compile("^\\(x-(\\d+) ?y-(\\d+)\\) *|\\(x0 y0\\) *");
+  private static final Pattern ID_PTN = Pattern.compile("#(F\\d+)");
+  
   private static final Pattern UNKNNNNN = Pattern.compile("\\bUNKN\\d{4}\\b");
   private static final Pattern DOUBLED_ADDRESS = Pattern.compile("(\\d+) .* (\\1\\b.*)");
 
@@ -20,7 +30,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     setupMultiWordStreets(
         "GREAT NORTH"
     );
-    setFieldList("UNIT CODE BOX PLACE ADDR APT CITY X CALL GPS ID");
+    setFieldList("UNIT CODE BOX PLACE ADDR APT CITY INFO X CALL GPS ID");
   }
   
   @Override
@@ -39,36 +49,90 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     Matcher match = END_PAGE_BREAK.matcher(body);
     if (match.find()) body = body.substring(0,match.end());
     body = body.replace('\n', ' ');
-    match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-
-    int ndx = 1;
-    data.strUnit = match.group(ndx++).trim();
-    data.strCode = match.group(ndx++).trim();
-    data.strCall = getOptGroup(match.group(ndx++));
-    data.strBox = getOptGroup(match.group(ndx++));
-    data.strPlace = getOptGroup(match.group(ndx++));
-    String sAddr = match.group(ndx++).trim();
+    
+    match = UNIT_CODE_PTN.matcher(body);
+    if (!match.find()) return false;
+    data.strUnit = match.group(1).trim();
+    data.strCode = match.group(2).trim();
+    body = body.substring(match.end());
+    
+    match = ALARM_TYPE_PTN.matcher(body);
+    if (match.find()) {
+      data.strCall = match.group(1).trim();
+      body = body.substring(match.end());
+    }
+    
+    match = BOX_PTN.matcher(body);
+    if (match.find()) {
+      data.strBox = match.group(1).trim();
+      body = body.substring(match.end());
+    }
+    
+    match = AK_PTN.matcher(body);
+    if (match.find()) {
+      data.strPlace = match.group(1).trim();
+      body = body.substring(match.end());
+    }
+    
+    int pt = body.indexOf('.');
+    if (pt < 0) return false;
+    String sAddr = body.substring(0,pt).trim();
+    body = body.substring(pt+1).trim();
     sAddr = UNKNNNNN.matcher(sAddr).replaceAll("@");
     StartType st = (data.strPlace.length() > 0 ? StartType.START_ADDR : StartType.START_PLACE);
     parseAddress(st, FLAG_ANCHOR_END, sAddr, data);
-    String tmp = match.group(ndx++);
-    if (tmp != null && !tmp.startsWith("CNR ")) {
-      if (tmp.startsWith("RP:")) {
-        data.strApt = append(data.strApt, "-", tmp.substring(3).trim());
-      } else {
-        data.strPlace = append(data.strPlace, " ", tmp.trim());
+    
+    match = EXTRA_PTN.matcher(body);
+    if (match.find()) {
+      String tmp = match.group(1).trim();
+      body = body.substring(match.end());
+      
+      if (tmp != null && !tmp.startsWith("CNR ")) {
+        if (tmp.startsWith("RP:")) {
+          data.strApt = append(data.strApt, "-", tmp.substring(3).trim());
+        } else {
+          data.strPlace = append(data.strPlace, " ", tmp.trim());
+        }
+      }
+      
+      match = EXTRA_PTN.matcher(body);
+      if (match.find()) {
+        data.strSupp = match.group(1).trim();
+        body = body.substring(match.end());
       }
     }
-    data.strPlace = append(data.strPlace, " ", getOptGroup(match.group(ndx++)));
-    String cross = getOptGroup(match.group(ndx++));
-    if (cross.endsWith("/")) cross = cross.substring(0,cross.length()-1).trim();
-    data.strCross = cross;
-    data.strCall = append(data.strCall, " / ", getOptGroup(match.group(ndx++)));
-    String x = match.group(ndx++);
-    String y = match.group(ndx++);
-    if (x != null) data.strGPSLoc = INT2WGS84(Double.parseDouble(x), Double.parseDouble(y));
-    data.strCallId = match.group(ndx++);
+    
+    match = NEAR_OFF_PTN.matcher(body);
+    if (match.find()) {
+      data.strPlace = append(data.strPlace, " ", match.group(1).trim());
+      body = body.substring(match.end());
+    }
+    
+    match = XSTR_PTN.matcher(body);
+    if (match.find()) {
+      String cross = match.group(1).trim();
+      body = body.substring(match.end());
+      if (cross.endsWith("/")) cross = cross.substring(0,cross.length()-1).trim();
+      data.strCross = cross;
+    }
+    
+    match = DOT_DOT_PTN.matcher(body);
+    if (match.find()) {
+      data.strCall = append(data.strCall, " / ", match.group(1).trim());
+      body = body.substring(match.end());
+    }
+    
+    match = GPS_PTN.matcher(body);
+    if (match.find()) {
+      String x = match.group(1);
+      String y = match.group(2);
+      if (x != null) data.strGPSLoc = INT2WGS84(Double.parseDouble(x), Double.parseDouble(y));
+      body = body.substring(match.end());
+    }
+    
+    match = ID_PTN.matcher(body);
+    if (!match.matches()) return false;
+    data.strCallId = match.group(1);
     
     // Sometimes an intersection is reported as a cross street. 
     if (data.strAddress.length() == 0) {

@@ -6,11 +6,12 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE  =       
-      Cnggrea.pbzcvyr("^(\\q{7}) +(\\q\\q:\\q\\q:\\q\\q) +(\\q\\q-\\q\\q-\\q\\q) +[-N-M0-9]+ +NYCUN +\\q+ +");
+      Cnggrea.pbzcvyr("([ N-M0-9]+-[N-M]+) (?:\\((Nynez Glcr [-N-M0-9/ ]+)\\) *)?(?:\\(Obk ([-N-M0-9 &]+)\\) *)?(?:(NX\\q+[N-M]? .*? > [N-M]+\\)) +(?:NX\\q+[N-M]? +)?)?([-N-Mn-m0-9&\\(\\)\\?\\\\ ]+?) *\\. +(?:([- N-M0-9:]+)\\.\\.? +)?(?:((?:ARNE|BSS) [- N-M0-9\\?]+)\\. *)?(?:\\(KFge +([-N-M0-9/ ]*)\\) *)?(?:\\.([-N-M0-9@,\\? /\\.:]+)\\. *)?(?:\\(k-(\\q+) ?l-(\\q+)\\) *|\\(k0 l0\\))? *#");
+
 
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("0001002 07:25:36 28-08-13 CBPFNT-1  NYCUN  1200 Abegu Naaivyyr Gbjafuvc 241 PYRNE FCEVAT EQ ZI - Nppvqrag j/Vawhevrf Iruvpyr if Gryrcubar Cbyr St-3 Ercynprzrag R7 R1-1  Sver-Obk 6-02 RZF-Obk 190-15 -");
+    qbGrfg("(CNEA251, RYYR274) CSN-FCEAXYE (Nynez Glcr FCEVAXYRE ) (Obk -20-174) UVTU PBHEG NHPXYNAQ 24 JNGREYBB DHNQ NHPXYNAQ PRAGENY. PAE JNGREYBB DHNQENAG. HC GB 3 FGNSS & 9 VAZNGRF VA PRYYNERN. (KFge FLZBAQF FG/CNEYVNZRAG FG) (k-389462858 l-227142437) #S99999");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
