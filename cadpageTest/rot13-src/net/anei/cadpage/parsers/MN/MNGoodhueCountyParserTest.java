@@ -125,7 +125,7 @@ choyvp pynff ZATbbquhrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Nppvqrag J/Vawhevrf",
         "NQQE:Pbhagl 9 Oyiq R & Uvtujnl 58",
-        "ZNQQE:PBHAGL EBNQ 9 Oyiq R & Uvtujnl 58", //abg znccvat; znqr pbeerpgvba jvgu Tbbtyr zncf; Pbhagl 9 Oyiq vf jevggra ba znc
+        "ZNQQE:PBHAGL EBNQ 9 Oyiq R & Uvtujnl 58", //abg znccvat; nggrzcgrq pbeerpgvba jvgu Tbbtyr zncf; Pbhagl 9 Oyiq vf jevggra ba znc
         "PVGL:Tbbquhr",
         "FEP:Tbbquhr Sver Qrcg",
         "VQ:201300000034",
