@@ -384,10 +384,12 @@ public class ParserList {
               ,"MNAnokaCounty"                  ,"Anoka County, MN"
               ,"MNCarverCounty"                 ,"Carver County, MN"
               ,"MNDakotaCounty"                 ,"Dakota County, MN"
+              ,"MNGoodhueCounty"                ,"Goodhue County, MN"
               ,"MNHennepinCounty"               ,"Hennepin County, MN"
               ,"MNMinneapolisStPaul"            ,"Minneapolis/St Paul, MN"
               ,"MNOlmstedCounty"                ,"Olmsted County, MN"
               ,"MNSherburneCounty"              ,"Sherburne County, MN"
+              ,"MNWadenaCounty"                 ,"Wadena County, MN"
               ,"MNWashingtonCounty"             ,"Washington County, MN"
           ),
           new ParserCategory("Mississippi"
