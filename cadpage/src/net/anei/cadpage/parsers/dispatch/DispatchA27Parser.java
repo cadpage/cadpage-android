@@ -60,7 +60,7 @@ public class DispatchA27Parser extends FieldProgramParser {
   }
   
   private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*, .*), \\d{5}");
-  private class MyAddressField extends AddressCityField {
+  protected class BaseAddressField extends AddressCityField {
     
     @Override 
     public void parse(String field, Data data) {
@@ -91,7 +91,7 @@ public class DispatchA27Parser extends FieldProgramParser {
     }
   }
   
-  private class MySrcField extends SourceField {
+  private class BaseSrcField extends SourceField {
     
     @Override 
     public void parse(String field, Data data) {
@@ -110,7 +110,7 @@ public class DispatchA27Parser extends FieldProgramParser {
     }
   }
   
-  private class MyUnitField extends UnitField {
+  private class BaseUnitField extends UnitField {
     @Override
     public void parse(String field, Data data) {
       parseUnitField(false, field, data);
@@ -146,11 +146,11 @@ public class DispatchA27Parser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-      if (name.equals("ADDRCITY")) return new MyAddressField();
+      if (name.equals("ADDRCITY")) return new BaseAddressField();
       if (name.equals("DUP")) return new DuplField();
-      if (name.equals("SRC")) return new MySrcField();
+      if (name.equals("SRC")) return new BaseSrcField();
       if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa"));
-      if (name.equals("UNIT")) return new MyUnitField();
+      if (name.equals("UNIT")) return new BaseUnitField();
     return super.getField(name);
   }
 
