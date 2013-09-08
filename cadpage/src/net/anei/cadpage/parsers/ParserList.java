@@ -784,6 +784,7 @@ public class ParserList {
               ,"VAAlbemarleCounty"              ,"Albemarle County, VA"
               ,"VAAmeliaCounty"                 ,"Amelia County, VA"
               ,"VAAugustaCounty"                ,"Augusta County, VA"
+              ,"VABedfordCounty"                ,"Bedford County, VA"
               ,"VABotetourtCounty"              ,"Botetourt County, VA"
               ,"VABrunswickCounty"              ,"Brunswick County, VA"
               ,"VACampbellCounty"               ,"Campbell County, VA"
