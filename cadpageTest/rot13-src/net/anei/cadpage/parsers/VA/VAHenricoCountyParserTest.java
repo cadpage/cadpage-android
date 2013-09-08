@@ -88,37 +88,6 @@ vzcbeg bet.whavg.Grfg;
  (Cntr) P6867 2359uef 18 OEVQTRJNL EQ  sq:08 er:YVSG NFFVFG//Vf gur cngvrag pbafpvbhf?: Lrf //Vf gur cngvrag oernguvat abeznyyl?: Lrf //Vf gur cngvrag ynetre guna 300 cbhaqf?: Ab // OYF: L fraqSver: L//(PNQ)
  (Cntr) P6823 2202uef 5001 J OEBNQ FG  (FHVG 1002/PIF CUNEZNPL) sq:10 er:UVTU OYBBQ CERFFHER//Vf gur cngvrag pbafpvbhf?: Lrf //Vf gur cngvrag oernguvat abeznyyl?: Lrf //Qbrf gur cngvrag nyfb unir purfg cnva?: Ab //Qbrf gur cngvrag srry jrnx be qvmml?: Lrf // NYF: L fraqSver: A//(PNQ)
 
- **ABGR**
- Guvf ybbxf yvxr vg vf tbvat gb or n cnggrea zngpu cnefre.  V ungr gurfr, gur ner ernyyl punyyratvat gb trg jbexvat
- ohg fbzrgvzrf vg vf gur orfg gbby jr unir.  Gel frnepuvat gur cnefre fbhepr sbe gur jbeq "ZNFGRE" juvpu vf gur 
- erfreirq jbeq jr hfr sbe zngre cnggreaf.
-
- Lbh arrq gb qrpyner gur znfgre cnggrea, juvpu arire jbexf gru svefg gvzr, ohg gel
- cevingr fgngvp svany Cnggrea ZNFGRE = Cnggrea.pbzcvyr("([PZ]\\q{4}) +(\\q\\q)(\\q\\q)uef (.*?)(?:\\((.*?)\\))? +sq:(\q+) er:(.*)");
-
- Fvapr jr nera'g hfvat SvryqCebtenzCnefre jr unir gb qrsvar gur svryq yvfg hfrq gb trarengr grfgf
- juvpu jr qb ol nqqvat n yvar va gur pbafgehpgbe
- frgSvryqYvfg("ZNC GVZR NQQE NCG CYNPR HAVG PNYY VASB");
-
- Bireevqr cnefrZft()
- // Purpx gung fhowpg vf "Cntr"
- Zngpure zngpu = ZNFGRE.zngpure(obql);
- vs (!zngpu.zngpurf()) erghea snyfr;
- qngn.fgeZnc = zngpu.tebhc(1);
- qngn.fgeGvzr = zngpu.tebhc(2) + ':' + zngpu.tebhc(3);
- cnefrNqqerff(zngpu.tebhc(3).gevz(), qngn);
- qngn.fgeCynpr = trgBcgTebhc(zngpu.tebhc(4));
- qngn.fgeHavg = zngpu.tebhc(5);
- Cnefre c = arj Cnefre(zngpu.tebhc(6).gevz();
- qngn.fgePnyy = c.trg("//");
- qngn.fgeFhcc = c.trg().ercynpr("//", "/");
- erghea gehr;
-
- Ernyyl cerggl fvzcyr, jura vg jbexf.  Ohg vg arire jbexf gur svefg gvzr lbh gel vg.  Naq qrohttvat
- cnggrea ceboyrzf pna or qvssvphyg.  GUrer vf n CnggreaGrfg pynff va gur qrsnhyg cnpxntr bs gur
- grfg cebwrpg fep sbyqre juvpu urycf.  Pbcl gur cnggrea naq fgevat lbh ner zngpuvat vagb vg naq
- gura cynl nebhaq jvgu punatvat guvatf hagvy lbh pna trg vg gb zngpu.
-
  */
 
 choyvp pynff INUraevpbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -628,8 +597,13 @@ choyvp pynff INUraevpbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(
         "G47",
         "(Cntr) Z3403 1552uef 1101 UBEFRCRA EQ  (GIE) sq:08 er:Ghpxnubr Erfphr Fdhnq-Ubefrcra//(PNQ)",
-        "ZNC:Z3403", "GVZR:15:52", "NQQE:1101 UBEFRCRA EQ", "CYNPR:GIE",
-        "HAVG:08", "PNYY:Ghpxnubr Erfphr Fdhnq-Ubefrcr", "VASB:(PNQ)");
+        "ZNC:Z3403", 
+        "GVZR:15:52", 
+        "NQQE:1101 UBEFRCRA EQ", 
+        "CYNPR:GIE",
+        "HAVG:08", 
+        "PNYY:Ghpxnubr Erfphr Fdhnq-Ubefrcr", 
+        "VASB:(PNQ)");
 
     qbGrfg(
         "G48",
