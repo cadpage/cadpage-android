@@ -32,7 +32,7 @@ public class VAHenricoCountyParser extends MsgParser {
     String blah = p1.get().replace("//", "/");
     int bi = blah.indexOf("/");
     if (bi >= 0) {
-      data.strCall = blah.substring(0, bi - 1).trim();
+      data.strCall = blah.substring(0, bi).trim();
       data.strSupp = blah.substring(bi + 1).trim();
     }
     return true;
