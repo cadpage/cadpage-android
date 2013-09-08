@@ -37,6 +37,10 @@ public class MsgInfo {
   
   // convert CR -> CRES instead of CIR
   public static final int MAP_FLG_CR_CRES = 0x80;
+  
+  // Suppress conversion of various forms of CR XX to COUNTY ROAD XX
+  public static final int MAP_FLG_SUPPR_CR = 0x100;
+  
 
   private String strCall;
   private String strPlace;
@@ -571,7 +575,9 @@ public class MsgInfo {
     // convert CR nn to COUNTY ROAD nn
     // we need to do this before we do the abbreviations converstions that will
     // change CR to CIR.
-    sAddr = CRNN_PTN.matcher(sAddr).replaceAll("COUNTY ROAD $1");
+    if ((parser.getMapFlags() & MAP_FLG_SUPPR_CR) == 0) {
+      sAddr = CRNN_PTN.matcher(sAddr).replaceAll("COUNTY ROAD $1");
+    }
     
     sAddr = replace(sAddr, AV_PTN, "AVE");
     sAddr = replace(sAddr, HW_PTN, "HWY");

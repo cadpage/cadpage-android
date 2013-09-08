@@ -553,6 +553,7 @@ public abstract class MsgParser {
   public static final int MAP_FLG_PREFER_GPS = MsgInfo.MAP_FLG_PREFER_GPS;
   public static final int MAP_FLG_SUPPR_SR = MsgInfo.MAP_FLG_SUPPR_SR;
   public static final int MAP_FLG_CR_CRES = MsgInfo.MAP_FLG_CR_CRES;
+  public static final int MAP_FLG_SUPPR_CR = MsgInfo.MAP_FLG_SUPPR_CR;
 
 
   /**

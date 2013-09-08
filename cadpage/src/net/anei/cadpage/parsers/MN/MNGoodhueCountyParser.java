@@ -16,4 +16,9 @@ public class MNGoodhueCountyParser extends DispatchA27Parser {
   public String getFilter() {
     return "noreply@cisusa.org";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_CR;
+  }
 }
