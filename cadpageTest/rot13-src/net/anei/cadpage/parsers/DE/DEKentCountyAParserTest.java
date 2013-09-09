@@ -38,6 +38,9 @@ Pbagnpg: Obo Cnefba <cnfgpuvrscnefba@tznvy.pbz>
 RZF Fgnaq-ol 15 J EBOREG S EVQRE EQ UNEEVATGBA ENPRJNL Uneevatgba : FGNGR SNVE TEBHAQF Kfg'f: S TNEL FVZCFBA EQ / ORAWNZVA V FUNJ FG Pnyyre:\e\a
 10Q4 Purfg Cnvaf - Pynzzl 210 R PRAGRE FG Uneevatgba : Kfg'f: QRYNJNER NIR / 2AQ NIR Pnyyre: WNEERYY ABEEVF\e\a
 
+*** ERWRPGF **
+(*)[QvPevfgbsneb,Gubznf]   Nalbar urnqvat gb pbasrerapr gbzbeebj zbeavat, RW unf nfxrq gung jr zrrg nebhaq 07:45 fb jr pna or ba ebnq ol 08:00.  Unir gjb fgbcf gb znxr ba jnl qbja.
+
 *** ARJ SBEZNG ***
 *
 Pbagnpg: Obo Cnefba <cnfgpuvrscnefba@tznvy.pbz>
@@ -56,6 +59,11 @@ choyvp pynff QRXragPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp QRXragPbhaglNCnefreGrfg() {
     frgCnefre(arj QRXragPbhaglNCnefre(), "XRAG PBHAGL", "QR");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOnqZft() {
+    qbOnqGrfg("(*)[QvPevfgbsneb,Gubznf]   Nalbar urnqvat gb pbasrerapr gbzbeebj zbeavat, RW unf nfxrq gung jr zrrg nebhaq 07:45 fb jr pna or ba ebnq ol 08:00.  Unir gjb fgbcf gb znxr ba jnl qbja.");
   }
   
   @Grfg
