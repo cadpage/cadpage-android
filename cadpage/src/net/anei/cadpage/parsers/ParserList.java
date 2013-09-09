@@ -542,6 +542,7 @@ public class ParserList {
               ,"NCHarnettCounty"                ,"Harnett County, NC"
               ,"NCHaywoodCounty"                ,"Haywood County, NC"
               ,"NCHendersonCounty"              ,"Henderson County, NC"
+              ,"NCHertfordCounty"               ,"Hertford County, NC"
               ,"NCHokeCounty"                   ,"Hoke County, NC"
               ,"NCIredellCounty"                ,"Iredell County, NC"
               ,"NCJacksonCounty"                ,"Jackson County, NC"
