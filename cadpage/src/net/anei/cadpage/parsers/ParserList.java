@@ -419,6 +419,7 @@ public class ParserList {
               ,"MOPolkCounty"                   ,"Polk County, MO"
               ,"MOPulaskiCounty"                ,"Pulaski County, MO"
               ,"MORayCounty"                    ,"Ray County, MO"
+              ,"MOSikeston"                     ,"Sikeston, MO"
               ,"MOStCharlesCounty"              ,"St Charles County, MO"
               ,"MOStFrancoisCounty"             ,"St Francois County, MO"
               ,"MOStLouisCounty"                ,"St Louis County, MO"
