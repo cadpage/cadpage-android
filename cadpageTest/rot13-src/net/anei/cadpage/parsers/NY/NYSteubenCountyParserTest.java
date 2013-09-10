@@ -100,6 +100,10 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Ongu SQ) PBHAGL EBHGR 25 (URYZRE PERRX EQ), PNZREBA GBJA\PBHAGL EBHGR 24 (PNZREBA ZVYYF EVFVATIVYYR EQ), PNZREBA GBJASQ JVERFPNZRESQ:2012:00059\e\a\e\a\e\a
 (Ongu SQ) 105 TRARIN FG, ONGU IVYYNTR (FGNGR EBHGR 54, FGNGR EBHGR 54/TENGGBA QE; Arne:YNXRIVRJ NCNEGZRAGF)SQ NHGBZNGVP NYNEZOGSQ:2012:00462\e\a\e\a\e\a
 
+Pbagnpg: Fnzhry Ubyyvfgre <fubyyvfgre61@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Nqqvfba Sver/Nzo) 104 FGRHORA FG, NQQVFBA IVYYNTR BS (CEBFCRPG FG/ONYQJVA NI)6Q2 - Oernguvat Ceboyrzf - Qvssvphygl fcrnxvat orgjrra oerngufNQQVFSQNZO:2
+
 */
 
 choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -787,6 +791,21 @@ choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:YNXRIVRJ NCNEGZRAGF",
         "PNYY:SQ NHGBZNGVP NYNEZ");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFnzhryUbyyvfgre() {
+
+    qbGrfg("G1",
+        "(Nqqvfba Sver/Nzo) 104 FGRHORA FG, NQQVFBA IVYYNTR BS (CEBFCRPG FG/ONYQJVA NI)6Q2 - Oernguvat Ceboyrzf - Qvssvphygl fcrnxvat orgjrra oerngufNQQVFSQNZO:2",
+        "FEP:NQQVFSQNZO",
+        "NQQE:104 FGRHORA FG",
+        "PVGL:NQQVFBA",
+        "K:CEBFCRPG FG/ONYQJVA NI",
+        "PBQR:6Q2",
+        "PNYY:NYREG",
+        "VASB:- Oernguvat Ceboyrzf - Qvssvphygl fcrnxvat orgjrra oernguf");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
