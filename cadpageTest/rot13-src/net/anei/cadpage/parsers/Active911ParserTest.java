@@ -33,6 +33,16 @@ choyvp pynff Npgvir911CnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:SQ/FG66 SQ/N6681, FG6600",
         "VASB:58 LBZ / PURFG CNVAF - CNVA VA ZVQQYR BS PURFG ENQ VAGB GUR ONPX - ANHFHR\aNyreg + 03:58 Hcqngr: \a   Arj havgf: SQ/N6683, FG6600",
         "ANZR:UNEQVAT WNZRF T");
+    
+    frgQrsnhygf("", "PB");
+    frgRkcZncPbqr("TrarenyNyreg");
+    qbGrfg("G2",
+        "PNYY:TRARENY NYREG\aCYNPR:77777711*21O1 R19,QJR1\a12205 THAFGBPX QE #P13\a\aYVOREGL URVTUGF NG ABEGUTNGR\a\aZnc X17 06:10:40\a\aOYRRQVAT CBFFVOYR QNATREBHF NERN\a\aErcbeg P1339460\a\aNQQE:\aQNGR: 09/08/2013\aGVZR: 06:10:41\aPVGL:Pbybenqb Fcevatf\aQFG:PB\aVASB:\aCNEFRE: TrarenyNyreg\a",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:77777711*21O1 R19,QJR1\a12205 THAFGBPX QE #P13\aYVOREGL URVTUGF NG ABEGUTNGR\aZnc X17 06:10:40\aOYRRQVAT CBFFVOYR QNATREBHF NERN\aErcbeg P1339460",
+        "QNGR:09/08/2013",
+        "GVZR:06:10:41",
+        "PVGL:Pbybenqb Fcevatf");
 
   }
   

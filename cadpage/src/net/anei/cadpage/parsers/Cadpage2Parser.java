@@ -37,6 +37,7 @@ public class Cadpage2Parser extends CadpageParserBase {
     // anything that doesn't start with a valid keyword
     // Except for lines following an INFO: keyword, which we
     // assume result from a long INFO string that contains line breaks
+    boolean place = false;
     boolean info = false;
     for (String line : body.split(delim)) {
       int pt = line.indexOf(':');
@@ -55,15 +56,17 @@ public class Cadpage2Parser extends CadpageParserBase {
           } else {
             info = key.equals("INFO");
           }
+          place = key.equals("PLACE");
           field.parse(value, data);
           continue;
         }
       }
-      if (info) {
+      if (place) {
+        data.strPlace = append(data.strPlace, "\n", line);
+      } else if (info) {
         data.strSupp = append(data.strSupp, "\n", line);
       }
     }
     return true;
   }
-
 }
