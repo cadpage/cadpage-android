@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">09012013</string>
-  <string name="release_version">v1.6.40</string>
+  <string name="release_date">09092013</string>
+  <string name="release_version">v1.6.41</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Andover County, KS\n
-Boone County, KY\n
-Calloway County, KY\n
-Hardin County, KY (alt)\n
-Craven County, NC\n
+Goodhue County, MN\n
+Wadena County, MN\n
+Sikeston, MO\n
+Webster County, MO\n
+Hertford County, NC\n
+Cuyahoga County, OH\n
+Bedford County, VA\n
+Waukesha County, WI (alt)\n
 \n
 Location Parsing Fixes:\n
-Kootenai County, ID\n
-Marion County, IN\n
-Montgomery County, MD\n
-Washington County, MD\n
-Worcester County, MD\n
-Cayuga County, NY\n
-Nassau County, NY\n
-Onondaga County, NY\n
-Cass County, ND\n
-Blair COunty, PA\n
-Bucks County, PA\n
-Lancaster County, PA\n
-Anderson County, SC\n
-Roanoke City, VA\n
-Kanwaha County, WV\n
+Groton, CT\n
+Camden County, GA\n
+Coffee County, GA\n
+Dade County, GA\n
+St Francois County, MO\n
+St Louis County, MO\n
+Alamance County, NC\n
+Dauphin County, PA\n
+Lebannon County, PA\n
+Chester County, SC\n
 New Zealand\n
+\n
+General Fixes:\n
+Problem truncating Active911 general alerts and run reports\n
   </string>  
 </resources>
   
