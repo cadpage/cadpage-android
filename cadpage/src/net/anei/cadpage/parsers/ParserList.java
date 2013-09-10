@@ -801,6 +801,7 @@ public class ParserList {
               ,"VAFrederickCounty"              ,"Frederick County, VA"
               ,"VAHalifaxCounty"                ,"Halifax County, VA"
               ,"VAHanoverCounty"                ,"Hanover County, VA"
+              ,"VAHenricoCounty"                ,"Henrico County, VA"
               ,"VAHenryCounty"                  ,"Henry County, VA"
               ,"VAIsleOfWightCounty"            ,"Isle of Wight County, VA"
               ,"VAKingGeorgeCounty"             ,"King George County, VA"
