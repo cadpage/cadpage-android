@@ -8,16 +8,28 @@ public class Cadpage2Parser extends CadpageParserBase {
   private boolean active911;
   
   public Cadpage2Parser() {
-    this("\n", "", "", false);
+    this(CountryCode.US);
   }
   
-  Cadpage2Parser(String delim, String defCity, String defState) {
-    this(delim, defCity, defState, false);
+  public Cadpage2Parser(CountryCode country) {
+    this("", "", country);
+  }
+  
+  public Cadpage2Parser(String defState, String defCity) {
+    this(defState, defCity, CountryCode.US);
+  }
+  
+  Cadpage2Parser(String defCity, String defState, CountryCode country) {
+    this("\n", defCity, defState, country);
+  }
+  
+  Cadpage2Parser(String delim, String defCity, String defState,  CountryCode country) {
+    this(delim, defCity, defState, country, false);
   }
 
   
-  Cadpage2Parser(String delim, String defCity, String defState, boolean active911) {
-    super(defCity, defState);
+  Cadpage2Parser(String delim, String defCity, String defState, CountryCode country, boolean active911) {
+    super(defCity, defState, country);
     this.delim = delim;
     this.active911 = active911;
   }

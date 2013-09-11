@@ -877,9 +877,13 @@ public class ParserList {
               ,"ZAUGeneral"                     ,"Generic Location"
               ,"ZAUGeneralSlash"                ,"Generic (slash field separator)"
               ,"ZAUGeneralDash"                 ,"Generic (dash field separator)"
+              ,"ZAUCadpage2"                    ,"Standard Cadpage Format B"
+              ,"ZAUCadpage3"                    ,"Standard Cadpage Format C"
           ),
           new ParserCategory("New Zealand"
               ,"ZNZNewZealand"                  ,"New Zealand"
+              ,"ZNZCadpage2"                    ,"Standard Cadpage Format B"
+              ,"ZNZCadpage3"                    ,"Standard Cadpage Format C"
           ),
           new ParserCategory("Sweden"
               ,"ZSESweden"                      ,"Sweden"
@@ -889,6 +893,8 @@ public class ParserList {
               ,"ZUKGeneral"                     ,"Generic Location"
               ,"ZUKGeneralSlash"                ,"Generic (slash field separator)"
               ,"ZUKGeneralDash"                 ,"Generic (dash field separator)"
+              ,"ZUKCadpage2"                    ,"Standard Cadpage Format B"
+              ,"ZUKCadpage3"                    ,"Standard Cadpage Format C"
           )
       );
 }

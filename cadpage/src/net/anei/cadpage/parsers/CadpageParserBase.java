@@ -13,13 +13,13 @@ public class CadpageParserBase  extends FieldProgramParser{
   private Map<String,Field> fieldMap = new HashMap<String,Field>();
   
   public CadpageParserBase() {
-    this("", "");
+    this("", "", CountryCode.US);
   }
   
-  public CadpageParserBase(String defCity, String defState) {
+  public CadpageParserBase(String defCity, String defState, CountryCode country) {
     // Pass empty strings to subclass constructor, we never really try to run a 
     // field program or use the default city/state values
-    super(defCity, defState, "");
+    super(defCity, defState, country, "");
     initMap();
   }
   
