@@ -22,6 +22,10 @@ PNQ ZFT: *Q R45W      EGR 196 / ELNAF EQ 203 2 PNE ZIN JVGU VAWHEL NAQ RAGENCZRA
 PNQ ZFT: *Q S1      JVAQVAT JNL / FUNQL FVQR QE 203 UBHFR SVER SYNZRF FUBJVAT  PNE VA QJ HAX VS NALBAR UBZR    ARNE FUNLF
 PNQ ZFT: *Q S2       CBPBAB ZBHAGNVA JRFG 215 CNAGURE YA          BSSVPR RKG 81400  // TRAENY SVER NYNEZ\e\a\e
 
+Pbagnpg: Ebo Xenzre <exenzre204460@tznvy.pbz>
+Fraqre: 1210100281
+SEZ: \aZFT:PNQ ZFT: *Q S1       3157 GHEXRL UVYY EQ 205 GURER JRER CRBCYR GUNG JRER PHGGVAT HC N UFR GENVYRE GB GNXR NJNL SBES
+
 */
 
 choyvp pynff CNZbaebrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -135,6 +139,19 @@ choyvp pynff CNZbaebrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Gbolunaan",
         "VASB:BSSVPR RKG 81400 / TRAENY SVER NYNEZ");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEboXenzre() {
+
+    qbGrfg("G1",
+        "SEZ: \aZFT:PNQ ZFT: *Q S1       3157 GHEXRL UVYY EQ 205 GURER JRER CRBCYR GUNG JRER PHGGVAT HC N UFR GENVYRE GB GNXR NJNL SBES",
+        "PBQR:S1",
+        "PNYY:Sver & RZF Qvfcngpu",
+        "NQQE:3157 GHEXRL UVYY EQ",
+        "PVGL:Unzvygba",
+        "VASB:GURER JRER CRBCYR GUNG JRER PHGGVAT HC N UFR GENVYRE GB GNXR NJNL SBES");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

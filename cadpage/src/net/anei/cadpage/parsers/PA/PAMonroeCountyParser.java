@@ -20,7 +20,7 @@ public class PAMonroeCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "emergin@monroeco911.com";
+    return "emergin@monroeco911.com,12101";
   }
 
   @Override
