@@ -53,11 +53,12 @@ public class DispatchBParser extends FieldProgramParser {
     case 0: return null;
     case 1: return "ADDR/SC XS:X NAME Return_Phone:PHONE Cad:ID!";
     case 2: return "CALL ADDR Apt:APT? CITY? PLACE Map:MAP Cad:ID";
+    case 3: return "CALL ADDR Apt:APT? CITY? NAME Map:MAP Cad:ID";
     default:return null;
     }
   }
   
-  private static final int MIN_FIELD_COUNTS[] = new int[]{ 4, 2};
+  private static final int MIN_FIELD_COUNTS[] = new int[]{ 4, 2, 2};
 
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -173,7 +174,7 @@ public class DispatchBParser extends FieldProgramParser {
       int pt = field.indexOf("Grids:");
       if (pt >= 0) {
         String grid = field.substring(pt+6).trim();
-        if (grid.equals("00000,000")) grid = "";
+        if (grid.equals("00000,000") || grid.equals(",")) grid = "";
         field = field.substring(0,pt).trim();
         field = append(field, "-", grid);
       }
@@ -454,6 +455,7 @@ public class DispatchBParser extends FieldProgramParser {
         "MV ACCIDENT W/INJURY",
         "MVA",
         "MVA LEAVING THE SCENE",
+        "MVA NO INJURIES",
         "MVA NONE INJURY",
         "MVA W/ RESCUE",
         "MVA WITH INJURIES",

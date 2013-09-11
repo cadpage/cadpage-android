@@ -6,13 +6,13 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 public class NYGreeneCountyParser extends DispatchB2Parser {
   
-  private static final String[] CITY_CODES = new String[]{
+  private static final String[] CITY_LIST = new String[]{
     "ASHLAND", "ATHENS", "CAIRO", "CATSKILL", "COXSACKIE", "DURHAM", "GREENVILLE",
     "HALCOTT", "HUNTER", "JEFFERSON HEIGHTS", "JEWETT", "LEEDS", "LEXINGTON", "NEW BALITMORE",
     "PALENVILLE", "PRATTSVILLE", "TANNERSVILLE", "WINDHAM"};
  
   public NYGreeneCountyParser() {
-    super("GREENE911:", CITY_CODES, "GREENE COUNTY", "NY");
+    super("GREENE911:", 3, CITY_LIST, "GREENE COUNTY", "NY");
   }
   
   @Override

@@ -49,6 +49,11 @@ public class DispatchB2Parser extends DispatchBParser {
     this.prefix = prefix;
   }
 
+  public DispatchB2Parser(String prefix, int version, String[] cityList, String defCity, String defState) {
+    super(version, cityList, defCity, defState);
+    this.prefix = prefix;
+  }
+
   public DispatchB2Parser(String prefix, Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState);
     this.prefix = prefix;

@@ -22,6 +22,7 @@ SEZ:TERRAR911@guvaxterrar.hf\aZFT:TERRAR911:FGEHPG>FGEHPGHER SVER FYRRCL UBYYBJ 
 Pbagnpg: Arvy Xryyrture <xryyrture@lnubb.pbz>
 Fraqre: TERRAR911@guvaxterrar.hf
 SEZ:TERRAR911@guvaxterrar.hf\aZFT:TERRAR911:IRUVPY>IRUVPYR SVER\aEBHGR 23\aQHEUNZ\aWNRTRE, WRNA\aZnc: Tevqf:,\aPnq: 2013-0000005477
+SEZ:TERRAR911@guvaxterrar.hf\aZFT:TERRAR911:CQNN  >ZIN AB VAWHEVRF\a9502 EBHGR 32\aTERRAIVYYR\aYNONEG,OEBBXR\aZnc: Tevqf:,\aPnq: 2013-0000020807
 
 Pbagnpg: acx2017@tznvy.pbz <acx2017@tznvy.pbz>
 Fraqre: TERRAR911@guvaxterrar.hf
@@ -117,6 +118,22 @@ choyvp pynff ALTerrarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:WNRTRE, WRNA",
         "VQ:2013-0000005477");
 
+    qbGrfg("G1",
+        "SEZ:TERRAR911@guvaxterrar.hf\a" +
+        "ZFT:TERRAR911:CQNN  >ZIN AB VAWHEVRF\a" +
+        "9502 EBHGR 32\a" +
+        "TERRAIVYYR\a" +
+        "YNONEG,OEBBXR\a" +
+        "Znc: Tevqf:,\a" +
+        "Pnq: 2013-0000020807",
+
+        "PBQR:CQNN",
+        "PNYY:ZIN AB VAWHEVRF",
+        "NQQE:9502 EBHGR 32",
+        "PVGL:TERRAIVYYR",
+        "ANZR:YNONEG,OEBBXR",
+        "VQ:2013-0000020807");
+
   }
   
   @Grfg
@@ -132,8 +149,8 @@ choyvp pynff ALTerrarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pnq: 2013-0000020603",
 
         "PBQR:CVNN",
-        "PNYY:ZIN",
-        "NQQE:JVGU VAWHEVRF 12 FHAFVQR EQ",
+        "PNYY:ZIN JVGU VAWHEVRF",
+        "NQQE:12 FHAFVQR EQ",
         "PVGL:QHEUNZ",
         "ANZR:GVREARL,PRPVYVN",
         "VQ:2013-0000020603");
