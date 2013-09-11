@@ -15,8 +15,8 @@ public class Cadpage2Parser extends CadpageParserBase {
     this("", "", country);
   }
   
-  public Cadpage2Parser(String defState, String defCity) {
-    this(defState, defCity, CountryCode.US);
+  public Cadpage2Parser(String defCity, String defState) {
+    this(defCity, defState, CountryCode.US);
   }
   
   Cadpage2Parser(String defCity, String defState, CountryCode country) {
