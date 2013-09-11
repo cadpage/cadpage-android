@@ -74,8 +74,8 @@ choyvp pynff ZBFgYbhvfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PPR911 Cntr)  17 Snyy DQ NG:27 Ervaxr Eq KFG:ZNAPURFGRE EQ/FNYRZ JNL Zrgeb Jrfg 3317,33QA38590872 90567114 14:14 ",
         "PNYY:17 Snyy DQ",
         "NQQE:27 Ervaxr Eq",
-        "K:ZNAPURFGRE EQ/FNYRZ JNL Zrgeb",
-        "FEP:Jrfg",
+        "K:ZNAPURFGRE EQ/FNYRZ JNL",
+        "FEP:Zrgeb Jrfg",
         "HAVG:3317,33QA",
         "TCF:+38.590872,-90.567114",
         "GVZR:14:14");
@@ -93,8 +93,8 @@ choyvp pynff ZBFgYbhvfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PPR911 Cntr)  06 Oernguvat Ceboyrzf DQ NG:16016 Fnaqnyjbbq Perrx Qe KFG:UHAGREF PERFG QE/UHAGREF PERFG QE Zrgeb Jrfg 33QA,3337,333238586586 90632707 13:04 ",
         "PNYY:06 Oernguvat Ceboyrzf DQ",
         "NQQE:16016 Fnaqnyjbbq Perrx Qe",
-        "K:UHAGREF PERFG QE/UHAGREF PERFG QE Zrgeb",
-        "FEP:Jrfg",
+        "K:UHAGREF PERFG QE/UHAGREF PERFG QE",
+        "FEP:Zrgeb Jrfg",
         "HAVG:33QA,3337,3332",
         "TCF:+38.586586,-90.632707",
         "GVZR:13:04");

@@ -11,7 +11,7 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
   
   private static final Pattern TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)$");
   private static final Pattern LAT_LONG_PTN = Pattern.compile("(38)(\\d{6}) +(\\d{2})(\\d{6})$");
-  private static final Pattern SRC_UNIT_PTN = Pattern.compile("(?: +(SOUTH MAIN))? +([A-Z][a-z]+(?: +[A-Z]{2,3})?) (?:\\[ )?([A-Z0-9,]+)$");
+  private static final Pattern SRC_UNIT_PTN = Pattern.compile("(?: +(SOUTH MAIN))? +(Metro West|[A-Z][a-z]+(?: +[A-Z]{2,3})?) (?:\\[ )?([A-Z0-9,]+)$");
 
   public MOStLouisCountyCParser() {
     super("ST LOUIS COUNTY", "MO", 
