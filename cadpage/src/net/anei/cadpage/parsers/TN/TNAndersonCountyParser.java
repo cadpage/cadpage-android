@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.TN;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -12,7 +13,7 @@ public class TNAndersonCountyParser extends FieldProgramParser {
   
   public TNAndersonCountyParser() {
     super(CITY_LIST, "ANDERSON COUNTY", "TN",
-           "CALL+? ADDR/S! +Street:X? INFO ID");
+           "( SRC ADDR_X_CALL ID! | CALL+? ADDR/S! +Street:X? INFO ID )");
   }
   
   @Override
@@ -23,19 +24,10 @@ public class TNAndersonCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
 
-    // Dummy loop
-    do {
-      if (subject.equals("E911")) break;
-      if (subject.equals("Fwd: E911")) break;
-      if (body.startsWith("E911 / ")) {
-        body = body.substring(6).trim();
-        break;
-      }
-      return false;
-    } while (false);
+    if (body.startsWith("E911 / ")) body = body.substring(6).trim();
     
     // If page contains times keywords, report as general alert
-    if (body.contains(" INSRV:")) return data.parseRunReport(this, body);;
+    if (body.contains(" INSRV:") || body.contains(" INSV:")) return data.parseRunReport(this, body);;
     
     body = body.replace("+street:", "+Street:");
     return parseFields(DELIM.split(body), data);
@@ -44,6 +36,48 @@ public class TNAndersonCountyParser extends FieldProgramParser {
   @Override
   public String getProgram() {
     return "SRC " + super.getProgram() + " PLACE";
+  }
+
+  private static final Pattern SPECIAL_X_PTN = Pattern.compile("^(MM\\d+) +");
+  private class MyAddressCrossCallField extends Field {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      int pt = field.indexOf(", TN ");
+      if (pt < 0) return false;
+      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field.substring(0,pt).trim(), data);
+      field = field.substring(pt+5).trim();
+      if (field.startsWith("+St:")) {
+        field = field.substring(4).trim();
+        Matcher match = SPECIAL_X_PTN.matcher(field);
+        if (match.find()) {
+          data.strCross = match.group(1);
+          field  = field.substring(match.end());
+        } else {
+          parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field, data);
+          field = getLeft();
+        }
+      }
+      if (field.length() == 0) abort();
+      data.strCall = field;
+      return true;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT CITY X CALL";
+    }
+    
   }
   
   // Call field appends to previous call field with - separator
@@ -55,7 +89,7 @@ public class TNAndersonCountyParser extends FieldProgramParser {
   }
 
   // Address field is identified by trailing , TN
-  // ANd needs to replace @ with &
+  // And needs to replace @ with &
   private class MyAddressField extends AddressField {
     @Override
     public boolean checkParse(String field, Data data) {
@@ -92,6 +126,7 @@ public class TNAndersonCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ADDR_X_CALL")) return new MyAddressCrossCallField();
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("INFO")) return new MyInfoField();
