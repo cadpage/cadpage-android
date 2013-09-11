@@ -23,6 +23,11 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
   public boolean parseMsg(String body, Data data) {
     
     Matcher match = MASTER.matcher(body);
@@ -54,6 +59,14 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
     // New format just has one field with a call description, address, and additional information
     else {
       parseAddress(StartType.START_CALL, addr, data);
+      
+      // occastionaly they put the APT: in front of the address
+      if (data.strCall.endsWith(" APT:")) {
+        data.strCall = data.strCall.substring(0,data.strCall.length()-5).trim();
+        Parser p = new Parser(data.strAddress);
+        data.strApt = p.get(' ');
+        data.strAddress = p.get();
+      }
       info = getLeft();
       if (info.startsWith("LOC:")) {
         info = info.substring(4).trim();
@@ -61,6 +74,14 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
         if (pt >= 0) info = info.substring(0,pt).trim();
         data.strPlace = info;
       } else {
+        int pt = info.indexOf(" Original Location :");
+        if (pt >= 0) {
+          String place = info.substring(pt+20).trim();
+          if (!data.strAddress.contains(place)) {
+            data.strPlace = place;
+          }
+          info = info.substring(0,pt).trim();
+        }
         data.strSupp = info;
       }
     }
