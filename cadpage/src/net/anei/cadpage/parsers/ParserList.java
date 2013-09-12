@@ -213,10 +213,11 @@ public class ParserList {
               ,"FLSarasotaCounty"               ,"Sarasota County, FL"
           ),
           new ParserCategory("Georgia"
-              ,"GABullochCounty"                ,"Bulloch County, GA"
               ,"GABrantleyCounty"               ,"Brantley County, GA"
+              ,"GABullochCounty"                ,"Bulloch County, GA"
               ,"GACamdenCounty"                 ,"Camden County, GA"
               ,"GACandlerCounty"                ,"Candler County, GA"
+              ,"GAClaytonCounty"                ,"Clayton County, GA"
               ,"GACoffeeCounty"                 ,"Coffee County, GA"
               ,"GADadeCounty"                   ,"Dade County, GA"
               ,"GADoolyCounty"                  ,"Dooly County, GA"

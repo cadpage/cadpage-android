@@ -27,6 +27,10 @@ Pnebyvar Pbhagl, ZQ (ZQPnebyvarPbhaglCnefre)
 *******************************************************************************
 * QvfcngpuBFFVCnefre fhopynffrf
 *******************************************************************************
+Pynlgba Pbhagl, TN (TNPynlgbaPbhaglCnefre)
+PNQ:UBHFR SVER;05/06/2013 19:47:00;6877 ORYYF YNAQVAT PI
+PNQ:Hcqngr: ;FVTANY 50 VAI CREFBA FUBG;05/06/2013 02:51:02;8 YNXRIVRJ QE
+PNQ:SLV: ;FVTANY 50 VAI CREFBA FUBG;05/06/2013 02:51:02;8000 UVTUJNL 85
 *******************************************************************************
 Fzlean, TN (TNFzleanCnefre)
 PNQ:SLV: ;FGEHPGHER SVER;2501 JBBQYNAQF QE FR;SYNZRF VAFVQR SHFR OBK VAFVQR PNYYREF NCNEGZRAG. FZRYYF JVERF OHEAVAT. [08/08/10 22:53:28 QGUNPXRE];103157
