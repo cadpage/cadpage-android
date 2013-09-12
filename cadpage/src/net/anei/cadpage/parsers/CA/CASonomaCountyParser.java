@@ -71,7 +71,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ADDR CITY SRC PLACE";
+      return "ADDR APT CITY SRC PLACE";
     }
   }
   
@@ -92,24 +92,37 @@ public class CASonomaCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final String JUNK_MARKER = " ** Case number";
-  private static final Pattern END_JUNK_PTN = Pattern.compile(" on terminal: \\w+ +| case number [A-Z]{3}[0-9]{8} +");
+  private static final Pattern JUNK_PTN = Pattern.compile(" *(?:Unit ([A-Z0-9]+) (?:requested case number [A-Z0-9]+|.*)|\\*\\* Case number (?:[A-Z0-9]+ has been assigned for [:A-Z0-9]+|.*)|\\*\\* >>>> (?:by: [A-Z ]+ on terminal: [a-z0-9]+|.*)) *");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(" **");
+      Matcher match = JUNK_PTN.matcher(field);
+      if (match.find()) {
+        int  last = 0;
+        String result = "";
+        do {
+          result = append(result, " - ", field.substring(last,match.start()));
+          last = match.end();
+          String unit = match.group(1);
+          if (unit !=  null) data.strUnit = append(data.strUnit, " ", unit);
+        } while (match.find());
+        result = append(result, " - ", field.substring(last));
+        field = result;
+      }
+      
+      int pt = field.indexOf("**");
       if (pt >= 0) {
         String tail = field.substring(pt);
-        if (tail.startsWith(JUNK_MARKER) || JUNK_MARKER.startsWith(tail)) {
+        if ("** Case number ".startsWith(tail) || "** >>>> ".startsWith(tail)) {
           field = field.substring(0,pt).trim();
-          Matcher match = END_JUNK_PTN.matcher(tail);
-          pt = tail.length();
-          while (match.find()) pt = match.end();
-          field = append(field, " - ", tail.substring(pt).trim());
-            
         }
-      } else if (field.equals("**")) field = "";
+      }
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO UNIT";
     }
   }
   
