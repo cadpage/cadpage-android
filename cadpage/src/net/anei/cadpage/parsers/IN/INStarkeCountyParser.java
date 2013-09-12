@@ -11,18 +11,18 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class INStarkeCountyParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^DISPATCH:([A-Z]{3}:[A-Z]{3,4}) - (?:(\\d\\d?/\\d\\d?) (\\d\\d?:\\d\\d?) - )?");
+  private static final Pattern MARKER = Pattern.compile("^DISPATCH:([:A-Z]+(?: FD)?) - (?:(\\d\\d?/\\d\\d?) (\\d\\d?:\\d\\d?) - )?");
   private static final Pattern DELIM = Pattern.compile("/+");
   private static final Pattern DIR_OF_PTN = Pattern.compile(" (?:NO|SO|EA|WE|NORTH|SOUTH|EAST|WEST) OF ");
   
   public INStarkeCountyParser() {
     super("STARKE COUNTY", "IN",
-    		   "CALLADDR1+? CALLADDR2! SRC INFO+");
+    		   "CALLADDR1+? CALLADDR2! PLACE? SRC INFO+");
   }
   
   @Override
   public String getFilter() {
-    return "DISPATCH@co.starke.in.us";
+    return "DISPATCH@co.starke.in.us,messaging@iamresponding.com";
   }
   
   @Override
@@ -34,6 +34,7 @@ public class INStarkeCountyParser extends FieldProgramParser {
     data.strDate = getOptGroup(match.group(2));
     data.strTime = getOptGroup(match.group(3));
     body = body.substring(match.end()).trim();
+    body = body.replace("Apt/Unit", "Apt");
     return parseFields(DELIM.split(body, -1), data);
   }
   
@@ -169,16 +170,48 @@ public class INStarkeCountyParser extends FieldProgramParser {
   private static final Pattern HOUSE_NUMBER_PTN2 = Pattern.compile("^(\\d+) *([NSEW]?)\\b");
   private static final Pattern CALL_EXTEND_PTN = Pattern.compile("^(AMBULANCE|MEDICAL|RESCUE)\\b *");
   
-  private class MySourceField extends SourceField {
+  
+  private class MyPlaceField extends PlaceField {
     @Override
     public void parse(String field, Data data) {
+      if (field.startsWith("CALLBK=")) {
+        data.strPhone = field.substring(7).trim();
+      } else {
+        data.strPlace = field;
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE PHONE";
+    }
+  }
+  
+  private class MySourceField extends SourceField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      String unit = "";
       int pt = field.lastIndexOf(',');
       if (pt >= 0) {
-        data.strUnit = field.substring(0,pt);
+        unit = field.substring(0,pt);
         field = field.substring(pt+1).trim();
       }
-      if (!UNIT_PTN.matcher(field).matches()) abort();
-      super.parse(field, data);
+      Matcher match = UNIT_PTN.matcher(field);
+      if (!match.matches()) return false;
+      
+      data.strUnit = unit;
+      super.parse(match.group(1), data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
     
     @Override
@@ -186,12 +219,13 @@ public class INStarkeCountyParser extends FieldProgramParser {
       return "UNIT SRC";
     }
   }
-  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]{3}:[A-Z]{3,4}");
+  private static final Pattern UNIT_PTN = Pattern.compile("([A-Z]+:[A-Z]+(?: FD)?)");
   
   @Override
   public Field getField(String name) {
     if (name.equals("CALLADDR1")) return new MyCallAddressField(false);
     if (name.equals("CALLADDR2")) return new MyCallAddressField(true);
+    if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("SRC")) return new MySourceField();
     return super.getField(name);
   }
