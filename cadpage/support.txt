@@ -26,8 +26,7 @@ and follow the directions.
 Long technical answer:  CodeMessaging has been switching to a new model where they run the Cadpage text parsers on their servers and send the page information in a standard Cadpage defined page format that is in no way related to the page format dispatch uses to send the original page information.  If you try to process their text pages using the standard Harford, MD location, it will not work.  That location code expects the pages to be formated the way Harford dispatch sends them, which is no longer the case.  It will work if you go into Location Settings and set the location to 
 Select Single Location > General Location > Standard Cadpage Format A
 
-But, life gets so much simpler for all concerned if y
-ou switch to using direct paging, which handles all of these details.
+But, life gets so much simpler for all concerned if you switch to using direct paging, which handles all of these details.
 
 Good luck,
 -Ken
@@ -258,7 +257,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-RGOSTKEA or rgostkea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+FOJENRAA or fojenraa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -381,7 +380,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-RGOSTKEA or rgostkea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+FOJENRAA or fojenraa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -502,6 +501,10 @@ $10 per year is way out of line for what you normally expect to pay for a genera
 1) Cadpage is an extremely high maintenance app.  We put out weekly releases, and every week there are usually 10 or so location parsers that have to be fixed, either because Dispatch changed the text format, or because someone found a corner case that wasn't covered by the existing parser.  Most apps get by with a release every 3 months or more.
 2) The potential user base is a tiny fraction of what a general purpose app can expect.  Cadpage is a niche market app, appealing to the small number of people who work or volunteer in emergency services.  The same development costs have to be spread among fewer people.
 
+It is unfortunate that we have to ask people already volunteering so much time and energy to pay us for a cool app.  The reality is that maintaining and continually developing Cadpage is more than a full time job. We have to pay our bills somehow, and Google takes their share.
+
+Most of our Users are volunteer firefighters or EMS workers, so our policy for free subscriptions is based on hardship, not on being a volunteer.
+
 We would really love to have departments sponsor Cadpage for their members.  But we have no way of contacting them, except through staff and volunteers.  We offer departments a 30% discount or more!  Details can be found at http://www.cadpage.org/financial-support/other-support-options.
 
 In the interest of helping communities, we offer a  number of approved ways to run Cadpage without paying anything.
@@ -544,7 +547,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-RGOSTKEA or rgostkea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+FOJENRAA or fojenraa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -558,7 +561,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-RGOSTKEA or rgostkea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+FOJENRAA or fojenraa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -568,7 +571,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-RGOSTKEA or rgostkea.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+FOJENRAA or fojenraa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information needed to figure out what is wrong.
 
@@ -2417,3 +2420,38 @@ calls without having to open them first.
 Hope that helps,
 -Ken
 
+*********************************************************************
+Q: one department used Active911, another does not
+
+A:It looks like you have an Active911 subscription sponsored by
+Mooresville Rescue Squad Inc.  If you register Cadpage with the device
+number and and activation code that they can provide, two things will happen
+1) You will start getting direct pages for Mooresville Rescue
+2) Cadpage will stop asking you to purchase a subscription
+
+If you do not want to get pages from Mooresville Rescue, you can log in
+to the Active911.com web site and set your duty status to off.  Cadpage
+will remain free for use as long as it is registered with the Active911
+agency.  It looks like that is a fringe benefit of working for
+Mooorseville Rescue.
+
+While you are at it, you could set up Active911 agencies for the two
+volunteer departments.  If they have the capability of sending text
+pages to you, they can just as easily send them through Active911.  That
+would require two separate subscriptions with Active911 that might cost
+more $$$.  Active911 has a free subscription status for low volume
+volunteer departments, you would have to contact them for the details.
+
+Hope that all makes sense,
+-Ken
+
+***********************************************************************
+Messages coming in as General alerts
+
+The means that the location parser you have selected is not recognizing
+the message as a dispatch page.  If you long press some of the general
+alerts you are getting and select "Report Problem" to send them to us,
+we will see what we have to do to fix things.
+
+Good luck,
+-Ken
