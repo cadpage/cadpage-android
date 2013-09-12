@@ -75,7 +75,7 @@ public class VALoudounCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern CROSS_UNIT_PTN = Pattern.compile("(?:(?: +|^)(?:[A-Z]+\\d+[A-Z]?|CODE|EC|AC))+,?$");
+  private static final Pattern CROSS_UNIT_PTN = Pattern.compile("(?:(?: +|^)(?:[A-Z]+\\d+[A-Z]?|CODE|EC|AC))+(?: A)?,?$");
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
