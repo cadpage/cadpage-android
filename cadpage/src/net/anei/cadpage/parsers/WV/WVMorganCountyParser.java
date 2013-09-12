@@ -7,11 +7,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
 
 /**
- * Hampshire County, WV
+ * Morgan County, WV
  */
 public class WVMorganCountyParser extends DispatchB3Parser {
   
-  private static final Pattern MARKER = Pattern.compile("^\\d+:MORGANCO911@FRONTIER.COM:");
+  private static final Pattern MARKER = Pattern.compile("^\\d+:911MORGANCOUNTYWV@GMAIL.COM:");
 
   public WVMorganCountyParser() {
     super(MARKER, CITY_CODES, "MORGAN COUNTY", "WV");
@@ -19,7 +19,7 @@ public class WVMorganCountyParser extends DispatchB3Parser {
   
   @Override
   public String getFilter() {
-    return "MORGANCO911@FRONTIER.COM";
+    return "911MORGANCOUNTYWV@GMAIL.COM";
   }
   
   @Override
@@ -37,7 +37,11 @@ public class WVMorganCountyParser extends DispatchB3Parser {
       if (subject.length() == 0) return false;
     }
     body = body.replace('\n', ' ');
-    return super.parseMsg(subject, body, data);
+    if (!super.parseMsg(subject, body, data)) return false;
+    if (data.strCity.length() == 0 && data.strCall.startsWith("MUTUAL AID TO ")) {
+      data.strCity = data.strCall.substring(14);
+    }
+    return true;
   }
   
   @Override
