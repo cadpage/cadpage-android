@@ -818,7 +818,7 @@ Good luck,
 * Text paging delays 
 ******************************************************************
 
-This is being reported fairly often recently.  You are getting text pages, and the only reason Cadpage alerting will be delayed for text pages is because the messages are just not arriving at your device in a timely fashion.  If you want to prove this, go into Cadpage Additional Settings and check the box labeled "Pass Calls through to SMS Client".  With that set, all calls will be passed to your message inbox in addition to alerting Cadpage and you can confirm the extent to which the messages are delayed.
+You are getting text pages, and the only reason Cadpage alerting will be delayed for text pages is because the messages are just not arriving at your device in a timely fashion.  If you want to prove this, go into Cadpage Additional Settings and check the box labeled "Pass Calls through to SMS Client".  With that set, all calls will be passed to your message inbox in addition to alerting Cadpage and you can confirm the extent to which the messages are delayed.
 
 According to the message timestamps, it took only <*> seconds for the carrier to deliver this call to you, which would imply that the delay was introduced by the dispatch messaging service.  But this should not be considered hard proof, I have some suspicions that carriers are holding messages in a system queue for some reason and that the total delay is not represented by this number.
 

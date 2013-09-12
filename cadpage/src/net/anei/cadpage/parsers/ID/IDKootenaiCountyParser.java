@@ -65,6 +65,7 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ATH", "ATHOL",
+      "BA",  "BAYVIEW",
       "CDA", "COEUR D'ALENE",
       "DG",  "DALTON GARDENS",
       "FL",  "FERNAN LAKE",
