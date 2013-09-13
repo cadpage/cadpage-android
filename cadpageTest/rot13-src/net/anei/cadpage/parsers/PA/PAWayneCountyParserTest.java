@@ -140,7 +140,43 @@ Fraqre: jnlar911@pb.jnlar.cn.hf
 (Gvzrf - 13RAT3) CHOYVP FREIVPR PB13 () Ybp:420 JNLAR FG Epiq: 10:0:39 Havgf: 13RAT3 JP2013004957 Pbzzragf: 3/19/2013 10:00:24 GENPGBE GENVYRE FGHPX VA GUR ABEGU OBHAQ YNAR, PNYYRE FGNGRQ PNE'F XRRC CNFFVAT GUR IRUVPYR NAQ FUR ORYVRIRF GENSSVP PBAGEBY VF ARRQRQ\a3/19/2013 10:01:36 13RAT3 : QFCGPU & cevznel havg.\a3/19/2013 10:01:46 13SC : QFCGPU\a3/19/2013 10:01:56 NGGRZCGRQ GB GENAFSRE GB UCFC NAQ YBFG GUR PNYYRE\a3/19/2013 10:02:00 TNIR VASB GB UCFC\a3/19/2013 10:05:18 FRPBAQ ERDHRFG\a3/19/2013 10:07:03 CRE OEVNA QHYNL AB RATVAR SC BAYL\a3/19/2013 10:08:54 GUVEQ ERDHRFG\a3/19/2013 10:10:03 13SC : RAEBHGR\a3/19/2013 10:10:08 13RAT3 : NINVY 
 (Nynez - PB13 - CHOYVP FREIVPR) (6) CHOYVP FREIVPR �PB13 () Ybp:420 JNLAR FG Epiq: 10:0:39 Havgf: H55_3 JP2013004957 Pbzzragf: 3/19/2013 10:00:24 GENPGBE GENVYRE FGHPX VA GUR ABEGU OBHAQ YNAR, PNYYRE FGNGRQ PNE'F XRRC CNFFVAT GUR IRUVPYR NAQ FUR ORYVRIRF GENSSVP PBAGEBY VF ARRQRQ 
 (Nynez - PB13 - PBAGEBY OHEA) (6) PBAGEBY OHEA �PB13 () Ybp:2862 YNXR NEVRY UJL [@PNEPNER PBYYVFVBA/RAGRECEVFR Epiq: 08:11:34 Havgf: JNL2 JP2013004950 Pbzzragf:  
- 
+
+** ABGRF **
+
+Fhopynff SvryqCebtenzCnefre.  Cebtenz fgevat...
+PNYY! Ybp:NQQE! Epiq:GVZR! Havgf:HAVG! Pbzzragf:VASB
+
+Bireevqr CnefrZft
+  Purpx vs fhowrpg fgnegf jvgu "Gvzrf -".  Vs vg qbrf, gerng guvf nf n eha ercbeg
+    pnyy = EHA ERCBEG
+    cynpr = obql
+    erghea gehr
+  Bgurejvfr pnyy fhcrepynff cnefreZft() zrgubq 
+
+Bireevqr PNYY svryq
+  Svefg erzbir gur fgenatr aba-nfpvv punenpgre.  Hfr n cnggrea gb vqragvsl nalguva gung vfa'g NFPVV
+  Arkg qb nabgure cnggrea zngpu gb vqragvsl cevbevgl, pnyy, naq fep sbyybjrq ol na rzcgl cnve bs cneraf.
+  Fbzrguvat yvxr
+    "(?:\\((\\q)\\))? +(.*?) +([N-M0-9]+) \\(\\)"
+    Vs cnggrea zngpu snvyf, pnyy nobeg()
+    Svefg tebhc vf bcgvbany fb hfr gur unaql trgBcgTebhc() zrgubq gb nffvta inyhr qb qngn.fgeCevbevgl
+
+Bireevqr NQQE svryq
+  Purpx vs svryq pbagnvaf n "[@".  Vs vg qbrf, rirelguvat
+  orlbaq gung frdhrapr fubhyq tb va CYNPR svryq
+
+Bireevqr GVZR svryq gb nqq cnggrea erdhverzrag
+
+Bireevqr HAVG svryq
+  Hfre cnggrea gb vqragvsl genvyvat VQ inyhr.  Vs sbhaq fgevc vg bss naq nffvta gb qngn.fgePnyyVq
+  
+Bireevqr VASB svryq
+  Hfr cnggrea zngpu gb vqragvsl yrnqvat qngr naq gvzr.  Vs sbhaq
+     Vtaber qngr,
+     Nffvta gvzr gb qngn.fgeGvzr bayl vs rkvfgvat inyhr vf rzcgl fgevat  (purpx yratgu() == 0)
+     fgevc sebz erfg bs svryq
+  Pnyy fhcrepynff cnefr() zrgubq
+       
 */
 
 choyvp pynff CNJnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -161,6 +197,6 @@ choyvp pynff CNJnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj CNJnlarPbhaglCnefreGrfg().trarengrGrfgf("G7");
+    arj CNJnlarPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
