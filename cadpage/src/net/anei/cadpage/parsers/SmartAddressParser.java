@@ -2182,6 +2182,12 @@ public abstract class SmartAddressParser extends MsgParser {
   private boolean isAptToken(String token, boolean numberOK) {
     int pt = getAptBreak(token);
     if (pt < 0) return false;
+    
+    // Check for reserved things that look like street names
+    if (isFlagSet(FLAG_CROSS_FOLLOWS) && token.length() >= 3) {
+      String tail = token.substring(token.length()-3).toUpperCase();
+      if (tail.equals("1ST") || tail.equals("2ND") || tail.equals("3RD") || tail.substring(1).equals("TH")) return false;
+    }
     if (pt == 0) return numberOK & token.length()-pt <= 4;
     String prefix = token.substring(0,pt).toUpperCase();
     Integer flags = dictionary.get(prefix);
