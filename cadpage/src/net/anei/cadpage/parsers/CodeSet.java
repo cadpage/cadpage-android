@@ -50,14 +50,14 @@ public class CodeSet {
     return getCode(code, false);
   }
 
-    /**
-     * Look for a code that is a prefix to search string
-     * @param code search string
-     * @param reqSpace true if successful match requires a blank terminator
-     * @return longest table entry that is a prefix of search string or
-     *          null if there is no such entry
-     */
-    public String getCode(String code, boolean reqSpace) {
+  /**
+   * Look for a code that is a prefix to search string
+   * @param code search string
+   * @param reqSpace true if successful match requires a blank terminator
+   * @return longest table entry that is a prefix of search string or
+   *          null if there is no such entry
+   */
+  public String getCode(String code, boolean reqSpace) {
     
     // Search the code dictionary sorted map for the highest entry less than or
     // equal to call code.  If the code starts with this string, we have a

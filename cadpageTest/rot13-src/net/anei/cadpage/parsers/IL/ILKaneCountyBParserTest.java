@@ -17,7 +17,6 @@ RS NFFVFG 0A367 CBHYRL EQ, RYOHEA 9/6/2013 22:04:54
 FS GENHZNGVP VAWHEL FG PUNEYRF ABEGU UVT / 255 ERQ TNGR EQ, FG PUNF 9/6/2013 21:48:04
 OS FGVYY NYNEZ FG PUNEYRF ABEGU UVT / 255 ERQ TNGR EQ, FG PUNF 9/6/2013 20:17:17
 OS SNYYF UREVGNTR JBBQF BS ON / 1079 R JVYFBA # 245, ONGNIV 9/6/2013 18:52:55
-OS ZHGHNY NVQ RYOHEA SVER QRCNEGZR / 39J950 UHTURF EQ, TRARIN 9/6/2013 17:54:52
 OS ZHGHNY NVQ RYOHEA SVER QRCNEGZR / 39J950 UHTURF EQ, TRARIN 9/6/2013 17:22:56
 OS FGVYY NYNEZ ONGNIVN UVTU FPUBBY / 1201 ZNVA, ONGNIVN 9/6/2013 16:59:12
 FS HAPBAFPVBHF/SNVAGVAT PNEEBYY GBJREF / 200 A 2AQ # 112, FG PUNF 9/6/2013 16:45:26
@@ -98,7 +97,6 @@ FS FRVMHER 153 A 15GU # N, FG PUNF 9/3/2013 20:51:09
 OS NFFVFG 565 PNEEVNTR QE, ONGNIVN 9/3/2013 19:29:40
 FS GENHZNGVP VAWHEL ARJ LBEX NAQ PBZCNAL / 410 PBZZBAF QE, TRARIN 9/3/2013 18:34:44
 OS BHGFVQR SVER OBAQ QE / F EVIRE, ONGNIVN 9/3/2013 18:01:28
-TS SVER NYNEZ SS PZ/ZS PUHEPU BS YNGGRE QNL / 0A429 BYQ XVEX EQ, JRTB 9/3/2013 17:45:18
 TS SVER NYNEZ SS PZ/ZS PUHEPU BS YNGGRE QNL / 0A429 BYQ XVEX EQ, JRTB 9/3/2013 17:33:50
 TS SVER NYNEZ SS PZ/ZS TRARIN CYNPR / 27 A ORAARGG, TRARIN 9/3/2013 17:19:09
 OS FVPX CREFBA 508 EVGGRE QE, ONGNIVN 9/3/2013 17:01:19
@@ -123,7 +121,6 @@ FH TRARENY NYNEZ TRARENY NYNEZ SVER EG 47/ YRRF EQ, YVYL YNXR 9/6/2013 12:14:06
 FH SHYY FGVYY NYNEZ NPPVQRAG J/VAWHEVRF TNYRAN OY/A EG 47, FHTNE TEI 9/6/2013 11:42:46
 FH FGVYY NYNEZ JNFUQBJA NHEBEN NVECBEG NQZVA / 43J636 EG 30, FHTNE TEI 9/6/2013 06:54:38
 FH FGVYY NYNEZ PURFG CNVA 83 WBL, FHTNE TEI 9/6/2013 06:00:25
-FH FGVYY NYNEZ PURFG CNVA 83 WBL, FHTNE TEI 9/6/2013 06:00:25
 FH FGVYY NYNEZ FVPX CREFBA 5 JVAGUEBC ARJ EQ, FHTNE TEI 9/6/2013 01:34:17
 AS FGVYY NYNEZ SVER NYNEZ SS FS 464 ORYYNE PG, A NHEBEN 9/5/2013 15:52:06
 FH SHYY FGVYY NYNEZSVER NYNEZ SS PZ/ZS PQ FRJRE / 1451 YNGURZ, ONGNIVN 9/5/2013 15:34:51
@@ -133,7 +130,6 @@ FH FGVYY NYNEZ HAXABJA CEBOYRZ NZO 123 ZBAAN, FHTNE TEI 9/4/2013 07:19:40
 AS FGVYY NYNEZ SVER NYNEZ SS FS 1110 PERFGIVRJ QE, ONGNIVN 9/4/2013 03:23:31
 FH FGVYY NYNEZ GENHZNGVP VAWHEL RFXRE ZVQQYR FPUBBY / 1601 RFXRE QE, FHTNE TEI 9/3/2013 17:55:21
 FH FGVYY NYNEZ CFLPUVNGEVP/FHVPVQR 2956 NOREQRRA QE, ZBAGTBZREL 9/3/2013 08:31:16
-FH FGVYY NYNEZ PURFG CNVA 102 PBOOYRE YA, FHTNE TEI 9/3/2013 02:51:49
 FH FGVYY NYNEZ PURFG CNVA 102 PBOOYRE YA, FHTNE TEI 9/3/2013 02:51:49
 FH FGVYY NYNEZ OERNGUVAT CEBOYRZF 176 FABJ, FHTNE TEI 9/2/2013 09:08:15
 FH FGVYY NYNEZ GENHZNGVP VAWHEL 9 JNYAHG PVE, FHTNE TEI 9/1/2013 08:24:10
@@ -217,6 +213,63 @@ AS FGVYY NYNEZ SVER NYNEZ SS FS 1536 FGRIRAF PG, A NHEBEN 7/27/2013 10:37:37
 FH FGVYY NYNEZ HAPBAFPVBHF/SNVAGVAT 28 OHPXVATUNZ QE, FHTNE TEI 7/27/2013 02:21:08
 FH FGVYY NYNEZ OEHFU/TENFF/GERR OYVFF NAQ V88 / 4F481 OYVFF EQ, FHTNE TEI 7/26/2013 08:14:17
 FH FGVYY NYNEZ OERNGUVAT CEBOYRZF 15 UVYYPERFG QE, FHTNE TEI 7/25/2013 23:57:01
+
+** ABGRF **
+Guvf vf tbvat gb or vagrerfgvat....
+
+Rkgraq FznegNqqerffCnefre sbe guvf bar.  Qbrfa'g unir gur svryqf qryvzvgref be ynoryf gung znxr SvryqCebtenzCnefre fb hfrshy.
+
+Tbvat gb unir gb hfr n PbqrFrg bowrpg gb qrsvar gur yvfg bs xabja pnyy pbqrf.  Glcvpnyyl pnyy guvf PNYY_FRG.
+
+Nyfb arrq gnoyr bs pvgl pbqrf/nooerivngvbaf.  Gur PVGL_PBQRF bowrpg vf cnffrq gb gur fhcrepynff pbafgehpgbe.  
+Lbhe pbafgehpgbe pnyy frghcPnyyFrg() jvgu gur PNYY_FRG bowrpg.
+Pbafgehpgbe nyfb unf gb pnyy frgSvryqYvfg jvgu gur svryq anzrf lbhe cnefre frgf.  Gur trarengr grfg pbqr ybtvp
+hfrf guvf yvfg gb qrpvqr jung svryqf jvyy nccrne vg gur grfg pnfr naq va jung beqre.
+
+Hfr n cnggrea frnepu gb cvpx bss gur gjb punenpgre fbhepr pbqr ng gur fgneg bs gur cntr naq gur qngr naq gvzr
+sebz gur raq.  Vs cnggrea qbrf abg  zngpu, erghea snyfr.  Yrg'f teno gur pvgl pbqr juvyr jr ner ng vg, vg ybbxf 
+gur pbzzn naq pvgl pbqr ner nyjnlf cerfrag.
+
+Gurer vf n pbairegPbqr zrgubq lbh pna hfr gb pbaireg gur pvgl pbqrf gb n erny pvgl nf va
+qngn.fgePvgl = pbairegPbqrf(pvgl, PVGL_PBQRF);
+
+Frnepu sbe n " / " frdhrapr.  Vg ybbxf yvxr guvf nyjnlf vaqvpngrf n cynpr anzr rkvfgf.  
+Jr gnxr gjb frcnengr cnguf qrcraqvat ba jurgure guvf rkvfgf be abg.
+
+Vs vg qbrf rkvfg...
+  Frcnengr grkg vagb gb cvrprf frcnengrq ol gur " / " frdhrapr.
+  Gur svefg bar pbagnvaf gur pnyy qrfpevcgvba naq cynpr anzr, jr hfr gur
+  PNYY_FRG yvfg gb fcyvg gurz ncneg.  Fbzrguvat yvxr
+     Fgevat pnyy = PNYY_FRG.trgPbqr(grkg, gehr)
+     vs (pnyy != ahyy) {
+       qngn.fgePnyy = pnyy;
+       qngn.fgeCynpr  = grkg.fhofgevat(pnyy.yratgu()).gevz();
+     } ryfr {
+       qngn.fgePnyy = grkg;
+     }
+   
+   Gur frpbaq cvrpr pbagnvaf gur nqqerff, whfg fnir vg va obql
+   Nyfb frg n FgnegGlcr fg inevnoyr gb FgnegGlcr.FGNEG_NQQERFF
+   naq frg n vag syntf inevnoyr gb mreb
+   jr jvyy hfr gurz yngre
+     
+Vs gurer vf ab " / " frdhrapr, whfg frg gur fg inevnoyr gb FgnegGlcr.FGNEG_PNYY
+naq frg syntf gb SYNT_FGNEG_SYQ_ERD
+
+Va nal pnfr, jr abj vaibxr gur fzneg nqqerff cnefre gb (cbffvoyl) fcyvg bss n pnyy
+qrfpevcgvba sebz gur ortvaavat naq (cbffvoyl) fcyvg na ncg ahzore sebz gur raq.  Gb
+qb guvf zntvp
+
+  cnefrNqqerff(fg, syntf, obql, qngn)
+  qngn.fgeNcg = trgYrsg()
+  
+  Gur fg inevnoyr gryyf vg jurgure be abg vg fubhyq ybbx sbe n yrnqvat pnyy be abg.  Vs
+  jr ner rkcrpgvat n yrnqva pnyy, gur SYNT_FGNEG_SYQ_ERD synt gryyf vg gurer zhfg or
+  aba-rzcgl pnyy qrfevcgvba va sebag bs gur nqqerff.  cnefrNqqerff jvyy cnefr jungrire
+  vg na erpbtavmr nf na nqqerff, nalguvat orlbaq gung erpbtavmrq nqqerff tbrf va 
+  qngn.fgeNcg
+      
+Yrg'f frr ubj gung jbexf....
 
 */
 
