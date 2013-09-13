@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class NYNassauCountyDParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("^([^\\*]*?)\\*\\*\\*([^\\*]+?)\\*[\\* ]\\* ?");
-  private static final Pattern MISSING_DELIM = Pattern.compile("(?<=[^\\*])(?=TOA:)");
+  private static final Pattern MISSING_DELIM = Pattern.compile("(?<=[^\\*])(?=TOA:|CS:)|(?<= \\d\\d-\\d\\d-\\d\\d)(?! ?\\*)");
   private static final Pattern DELIM = Pattern.compile("(?<![\\*\n])\\*");
   
   public NYNassauCountyDParser() {
@@ -20,7 +20,7 @@ public class NYNassauCountyDParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "eastmeadowfd@eastmeadowfd.net,paging1@firerescuesystems.xohost.com";
+    return "eastmeadowfd@eastmeadowfd.net,paging1@firerescuesystems.xohost.com,wantaghpaging@gmail.com";
   }
   
   @Override
@@ -29,7 +29,7 @@ public class NYNassauCountyDParser extends FieldProgramParser {
     if (!match.find()) return false;
     data.strCall = append(match.group(2).trim(), " - ", match.group(1).trim());
     body = body.substring(match.end());
-    body = MISSING_DELIM.matcher(body).replaceFirst(" *");
+    body = MISSING_DELIM.matcher(body).replaceAll(" *");
     
     if (body.contains(" c/s:") || body.contains(" ADTNL:")) return false;
     return parseFields(DELIM.split(body), 2, data);
@@ -54,6 +54,14 @@ public class NYNassauCountyDParser extends FieldProgramParser {
       if (nextFld.contains(":")) return false;
       super.parse(field, data);
       return true;
+    }
+  }
+  
+  private class MyDateTimeField extends DateTimeField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace('-', '/');
+      super.parse(field, data);
     }
   }
   
@@ -111,6 +119,7 @@ public class NYNassauCountyDParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("UNITID")) return new MyUnitIdField();
     return super.getField(name);
   }

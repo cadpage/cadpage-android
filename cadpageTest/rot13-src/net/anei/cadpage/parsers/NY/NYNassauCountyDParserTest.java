@@ -136,6 +136,10 @@ Fraqre: cntvat1@svererfphrflfgrzf.kbubfg.pbz
 ***Q.A.N. / Havagragvbany*** QVNAN QRIVGB*1952 SERRZNA NIR *PF: TYNQZBER FG / YNAPNFGRE FG*GBN: 12:03 08/22/13*2013-000833*
 ***P/B Qrgrpgbe*** GUR FRNFBAF - ERFVQRAPR*214 FCEVAT QE OYQ 7*PF: SEBAG FG / NHGHZA QE*GBN: 00:27 08/22/13*2013-000832*** OHVYQVAT #7\a\a** PBYYNCFR UNMNEQ - YVTUGJRVTUG JBBQ GEHFF EBBS & SYBBEF.*
 
+Pbagnpg: Cnhy Ybpuare <cnhyfsq@irevmba.arg>
+Fraqre: jnagntucntvat@tznvy.pbz
+*** 670 PB QRGRPGBE NPGVINGVBA ***2665 F FRNZNAF ARPX EQPF: ZNEVAN CNEX QE - UNEINEQ YAGBN: 14:19 09-12-132013-000412
+
 */
 
 choyvp pynff ALAnffnhPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1155,6 +1159,20 @@ choyvp pynff ALAnffnhPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:08/22/13",
         "VQ:2013-000832",
         "VASB:** OHVYQVAT #7\a\a** PBYYNCFR UNMNEQ - YVTUGJRVTUG JBBQ GEHFF EBBS & SYBBEF.");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCnhyYbpuare() {
+
+    qbGrfg("G1",
+        "*** 670 PB QRGRPGBE NPGVINGVBA ***2665 F FRNZNAF ARPX EQPF: ZNEVAN CNEX QE - UNEINEQ YAGBN: 14:19 09-12-132013-000412",
+        "PNYY:670 PB QRGRPGBE NPGVINGVBA",
+        "NQQE:2665 F FRNZNAF ARPX EQ",
+        "K:ZNEVAN CNEX QE - UNEINEQ YA",
+        "GVZR:14:19",
+        "QNGR:09-12-13",
+        "VQ:2013-000412");
 
   }
   
