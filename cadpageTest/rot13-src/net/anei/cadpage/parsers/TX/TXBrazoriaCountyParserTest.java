@@ -123,7 +123,7 @@ Cebtenz Fgevat: GVZR FEP PBQR PNYY NQQE PVGL!
 Gvzr svryq jvyy arrq fbzr fcrpvny fghss gb unaqyr gur NZ/CZ pbqr.  Qrsnhyg
 GvzrSvryq jvyy qb guvf vs lbh cnff n cnggrea naq qngr sbezng pbqr gb vg.
 
-QngrSbezng GVZR_SZG = arj FvzcyrQngrSbezng("UU:zz nn");
+QngrSbezng GVZR_SZG = arj FvzcyrQngrSbezng("uu:zz nn");
 Ybbx hc FvzcyrQngrSbezng cnggrea gb znxr fher V tbg gung evtug!
 
 va trgSvryq() jura anzr rdhnyf "GVZR" erghea arj GvzrSvryq(GVZR_SZG, gehr);
