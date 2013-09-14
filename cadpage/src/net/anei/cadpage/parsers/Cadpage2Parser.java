@@ -49,6 +49,7 @@ public class Cadpage2Parser extends CadpageParserBase {
     // anything that doesn't start with a valid keyword
     // Except for lines following an INFO: keyword, which we
     // assume result from a long INFO string that contains line breaks
+    boolean good = false;
     boolean place = false;
     boolean info = false;
     for (String line : body.split(delim)) {
@@ -63,6 +64,7 @@ public class Cadpage2Parser extends CadpageParserBase {
         // keywords found after an INFO field.  So once the info flag is set
         // it stays set forever
         if (field != null) {
+          good = true;
           if (active911) {
             if (key.equals("INFO")) info = true;
           } else {
@@ -79,6 +81,6 @@ public class Cadpage2Parser extends CadpageParserBase {
         data.strSupp = append(data.strSupp, "\n", line);
       }
     }
-    return true;
+    return good;
   }
 }

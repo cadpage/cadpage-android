@@ -1150,7 +1150,7 @@ Ken Corbin
 
 ******************************************************************
 
-You can't delete unopened calls or locked calls.  Unopened calls are displayed in bold text and can be opened manually.  Locked calls have a (Locked) indicator and can be unlocked through the long press option menu.
+You can't delete unopened calls or locked calls.  Unopened calls are displayed as yellow text and can be opened manually.  Locked calls have a (Locked) indicator and can be unlocked through the long press option menu.
 
 Occasionally users end up with call history filled with unopened calls.  At which point Cadpage starts deleting calls as soon as you open them.
 
