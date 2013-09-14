@@ -28,7 +28,7 @@ public class GAClaytonCountyParser extends DispatchOSSIParser {
       int i = field.indexOf("{");
       int j = field.indexOf("}");
       if (i == 0){
-        if (i >= 0){
+        if (j >= 0){
           String Call = field.substring(j + 1).trim();
           Call.trim();
           String Unit = field.substring(i + 1, j).trim();
