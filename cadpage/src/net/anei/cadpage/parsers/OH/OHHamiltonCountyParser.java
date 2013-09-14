@@ -43,7 +43,7 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
     // call description in front of the address that duplicates the
     // asterisk delimited field so we just skip it
     if (call != null) {
-      parseAddress(StartType.START_SKIP, addr, data);
+      parseAddress(StartType.START_OTHER, addr, data);
       String sPlace = getLeft();
       if (sPlace.startsWith("APT ")) {
         Parser p = new Parser(sPlace.substring(4).trim());

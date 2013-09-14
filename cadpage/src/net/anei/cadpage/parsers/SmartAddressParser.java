@@ -21,7 +21,7 @@ public abstract class SmartAddressParser extends MsgParser {
    * Type code indicating what kind of information might preceed the address
    * portion of this message
    */
-  public  enum StartType {START_ADDR, START_CALL, START_CALL_PLACE, START_PLACE, START_SKIP};
+  public  enum StartType {START_ADDR, START_CALL, START_CALL_PLACE, START_PLACE, START_OTHER};
   
   /**
    * Flag indicating that the start field (either CALL, PLACE, or SKIP) must
@@ -740,6 +740,14 @@ public abstract class SmartAddressParser extends MsgParser {
   }
 
   /**
+   * Called after address has been parsed
+   * @return the part of the line in front of the address
+   */
+  public String getStart() {
+    return lastResult.getStart();
+  }
+
+  /**
    * Called after address has been parsed with FLAG_PAD_FIELD or
    * FLAG_PAD_FIELD_EXCL_CITY flag
    * @return pad field between address and city
@@ -1362,11 +1370,9 @@ public abstract class SmartAddressParser extends MsgParser {
     // If we still don't have an address, see if this is an address or
     // skip start type.  If so, assign all of the remaining line as an address
     if (result.addressField == null) {
-      int sAddr = startAddress;
-      if (sAddr < 0 && sType == StartType.START_SKIP) sAddr = 0;
-      if (sAddr >= 0) {
-        result.addressField =  new FieldSpec(sAddr, endAddr);
-        endAddr = sAddr;
+      if (startAddress >= 0) {
+        result.addressField =  new FieldSpec(startAddress, endAddr);
+        endAddr = startAddress;
       }
     }
 
@@ -2377,7 +2383,8 @@ public abstract class SmartAddressParser extends MsgParser {
     private int insertAmp = -1;
     int endAll = -1;
     private Result nearResult = null;
-    
+
+    private String startFld = null;
     private String left = null;
     private boolean mBlankLeft = false;
     boolean startFldNoDelim = false;
@@ -2437,7 +2444,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // If result status indicates that we did not find a street number, check the start
       // field for any trailing digits.  If we find any, strip them off and prepend them to
       // the address field
-      String startFld = stdPrefix;
+      startFld = stdPrefix;
       if (startFldNoDelim && status < 3) {
         int pt = startFld.length();
         while (pt > 0 && Character.isDigit(startFld.charAt(pt-1))) pt--;
@@ -2498,6 +2505,16 @@ public abstract class SmartAddressParser extends MsgParser {
         }
         if (nearPlace) data.strPlace = append(data.strPlace, " ", field); 
       }
+    }
+    
+    /**
+     * return the start field the is fond in front of the address
+     */
+    public String getStart() {
+      if (startFld == null) {
+        throw new RuntimeException("Invalid call to getStart()");
+      }
+      return startFld;
     }
     
     /**

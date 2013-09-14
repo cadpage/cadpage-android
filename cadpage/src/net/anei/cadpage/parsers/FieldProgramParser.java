@@ -2053,7 +2053,7 @@ public class FieldProgramParser extends SmartAddressParser {
               parseFlags |= FLAG_START_FLD_REQ;
             }
             startField = new String[]{"CALL","PLACE",null,"CALL PLACE"}[pt2];
-            startType = new StartType[]{StartType.START_CALL,StartType.START_PLACE,StartType.START_SKIP,StartType.START_CALL_PLACE}[pt2];
+            startType = new StartType[]{StartType.START_CALL,StartType.START_PLACE,StartType.START_OTHER,StartType.START_CALL_PLACE}[pt2];
           }
           
           if (++pt >= qual.length()) break;

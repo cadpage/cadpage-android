@@ -258,7 +258,7 @@ public class GeneralParser extends SmartAddressParser {
           // use it as a call description
           foundAddr = true;
           StartType st = (data.strCall.length() == 0 ? StartType.START_CALL :
-                          data.strPlace.length() == 0 ? StartType.START_PLACE : StartType.START_SKIP);
+                          data.strPlace.length() == 0 ? StartType.START_PLACE : StartType.START_OTHER);
           Result res = parseAddress(st, getParseAddressFlags(), fld);
           if (bestRes == null || res.getStatus() > bestRes.getStatus()) {
             if (secondAddr == null) secondAddr = bestAddr;
@@ -333,7 +333,7 @@ public class GeneralParser extends SmartAddressParser {
         // If we haven't found an address yet, see if this is it
         if (!foundAddr) {
           StartType st = (data.strCall.length() == 0 ? StartType.START_CALL :
-                          data.strPlace.length() == 0 ? StartType.START_PLACE : StartType.START_SKIP);
+                          data.strPlace.length() == 0 ? StartType.START_PLACE : StartType.START_OTHER);
           Result res = parseAddress(st, getParseAddressFlags(), fld);
           if (res.getStatus() > 0) {
             // Bingo!  Anything past the address goes into info
