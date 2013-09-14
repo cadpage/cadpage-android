@@ -165,7 +165,11 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
     "YOUNG",
     
     // Unincoroporated community
-    "SPRANKLE MILLS"
+    "SPRANKLE MILLS",
+    "CANOE",
+    
+    // Indiana County
+    "BRUSH VALLEY"
 
   };
 }
