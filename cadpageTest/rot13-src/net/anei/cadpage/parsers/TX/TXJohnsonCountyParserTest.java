@@ -112,6 +112,17 @@ PNQ:SLV: ;OSQ;FG2;ZRQVPNY RZRETRAPVRF;101 FR QVNA YA;FJ WBUAFBA NIR;VERAR FG;43l
 PNQ:SLV: ;OSQ;FG1;ZRQVPNY RZRETRAPVRF;201 AJ WNLRYYRA NIR;FJ FHAALOEBBX QE;FJ UVYYFVQR QE;75lbn srznyr cbff qrprnfrq sbhaq va sybbe [09/04/13 11:49:29 XERLABYQF]
 PNQ:SLV: ;OSQ;FG2;ZRQVPNY RZRETRAPVRF;321 FR EBOREG FG;FJ YRAN YA;FJ TERTBEL FG;70lbn srznyr purfg cnvaf [09/04/13 11:35:14 XERLABYQF]
 
+** ABGRF **
+Cerggl fvzcyr QvfcngpuBFFVCnefre fhopynff
+Cebtenz fgevat
+( PNAPRY NQQE | SLV FEP FEP? PNYY NQQE K+? VASB+ )
+
+Arrq gb qrsvar PNAPRY svryq nf n pnyy svryq gung zhfg pbafvfgf bs gur jbeq "PNAPRY"
+
+FEP svryq arrqf gb bayl npprcg svryqf gung ner 3 punenpgref be yrff va yratgu
+
+Pna vzcyrzrag obgu hfvat cnggrea zngpurf jvgubhg univat gb qrsvar lbhe bja svryq pynff.
+
 */
 
 choyvp pynff GKWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
