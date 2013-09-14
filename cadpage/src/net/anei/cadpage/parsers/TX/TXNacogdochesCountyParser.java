@@ -5,12 +5,12 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA19Parser;
 /**
- * Hood County, TX
+ * Nacogdoches County, TX
  */
-public class TXHoodCountyParser extends DispatchA19Parser {
+public class TXNacogdochesCountyParser extends DispatchA19Parser {
   
-  public TXHoodCountyParser() {
-    super("HOOD COUNTY", "TX");
+  public TXNacogdochesCountyParser() {
+    super("NACOGDOCHES COUNTY", "TX");
   }
   
   @Override

@@ -2136,6 +2136,7 @@ Chad Parlier <cparlier41@gmail.com> // market problem email change
 %%02/01/2013
 David Liske <david.liskeusmc@gmail.com> // Scott County, IA
 Joe Broderick <pickupjoeb412@gmail.com> // market problem email change
+David Weale <dave919468@gmail.com> // market problem email change
 %%02/03/2013
 george bennett (georgerb2@yahoo.com) // Paypal on 2-1-13
 Ian Nagle (i.nagle53@gmail.com) (Ian754@aol.com) // Paypal on 2-2-13
@@ -2410,7 +2411,7 @@ DREW JUDEN (drewj306@gmail.com) // PayPal
 %%09/04/2013
 Anthony Hayner (hayner@live.com) // PayPal on 9/3/13
 %%09/05/2013
-kathy appleby (nightnurse475@aol.com) // PayPal
+kathy appleby (kathleenappleby01@gmail.com) (nightnurse475@aol.com) // PayPal
 Alan Stolp (wasnixmi@charter.net) // PayPal
 %%09/06/2013
 Dale Merritt <dmerrittjr309@gmail.com> // Coffee County, GA
@@ -2422,6 +2423,9 @@ James Broglin (jbroglin900@gmail.com) <emt_1900@yahoo.com> // Hertford County, N
 William Conway (conway.william71@gmail.com) (conway.william@yahoo.com) // PayPal
 %%09/11/2013
 Chris Smith <chrisesmith1973@gmail.com> // Hertford County, NC
+
+%%09/29/2013
+Ron Anderson (randerson@wi-10fd.org) (rona9739@yahoo.com) // paid by check 9-13-13
 
 // *** Insert Paid Users here ***
 // List of users getting credit or paid for 2014
@@ -5700,7 +5704,8 @@ jackmvfd43 (jblegacy52@gmail.com) <jackmvfd43@aol.com>
 Rob Gore <whatroadtj@gmail.com>
 Kris Harrison <bdtharrison@gmail.com>
 bpenick12146 (bpenick1009@gmail.com)<bpenick12146@aol.com>
-
+%%09/13/2013
+norman fisher <normanjfisher08@gmail.com>
 
 
 
