@@ -11,13 +11,17 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA29Parser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^DISPATCH:([:A-Z]+(?: FD)?) - (?:(\\d\\d?/\\d\\d?) (\\d\\d?:\\d\\d?) - )?");
+  private static final Pattern MARKER = Pattern.compile("^DISPATCH:([:A-Z\\d]+(?: FD)?) - (?:(\\d\\d?/\\d\\d?) (\\d\\d?:\\d\\d?) - )?");
   private static final Pattern DELIM = Pattern.compile("/+");
   private static final Pattern DIR_OF_PTN = Pattern.compile(" (?:NO|SO|EA|WE|NORTH|SOUTH|EAST|WEST) OF ");
-  
+
   public DispatchA29Parser(String defCity, String defState) {
-    super(defCity, defState,
-    		   "CALLADDR1+? CALLADDR2! PLACE? SRC INFO+");
+    this(null, defCity, defState);
+  }
+
+  public DispatchA29Parser(String[] cityList, String defCity, String defState) {
+    super(cityList, defCity, defState,
+    		  "CALLADDR1+? CALLADDR2! PLACE? SRC INFO+");
   }
   
   @Override
@@ -78,6 +82,13 @@ public class DispatchA29Parser extends FieldProgramParser {
       int fldCnt =  parts.length;
       if (lastField) {
         data.strCity = parts[--fldCnt].trim();
+        if (fldCnt > 1 && data.strCity.length() == 0) {
+          String city = parts[fldCnt-1].trim();
+          if (isCity(city)) {
+            data.strCity = city;
+            fldCnt--;
+          }
+        }
       }
 
       // Now step through the remaining parts
@@ -104,7 +115,9 @@ public class DispatchA29Parser extends FieldProgramParser {
                 connector = match.group();
                 part = part.substring(0,match.start()) + " & " + part.substring(match.end());
               }
-              parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, part, data);
+              int flags = FLAG_START_FLD_REQ | FLAG_ANCHOR_END;
+              if (data.strCity.length() > 0) flags |= FLAG_NO_CITY; 
+              parseAddress(StartType.START_CALL, flags, part, data);
               if (connector != null) data.strAddress = data.strAddress.replaceFirst(" & ", connector);
               return;
             }
@@ -214,7 +227,7 @@ public class DispatchA29Parser extends FieldProgramParser {
       return "UNIT SRC";
     }
   }
-  private static final Pattern UNIT_PTN = Pattern.compile("([A-Z]+:[A-Z]+(?: FD)?)");
+  private static final Pattern UNIT_PTN = Pattern.compile("([A-Z\\d]+:[A-Z\\d]+(?: FD)?)");
   
   @Override
   public Field getField(String name) {
