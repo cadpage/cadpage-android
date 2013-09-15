@@ -535,8 +535,6 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgCnefrSnyyonpx() {
     qbGrfg(NQQE, "FBZRGVZRF GUVATF WHFG QBAG JBEX",
         "NQQE:FBZRGVZRF GUVATF WHFG QBAG JBEX");
-    qbGrfg(BGURE, "FBZRGVZRF GUVATF WHFG QBAG JBEX",
-        "NQQE:FBZRGVZRF GUVATF WHFG QBAG JBEX");
     qbGrfg(PNYY, "FBZRGVZRF GUVATF WHFG QBAG JBEX",
         "PNYY:FBZRGVZRF GUVATF WHFG QBAG JBEX");
     qbGrfg(PNYY, SYNT_NG_OBGU, "FBZRGVZRF GUVATF WHFG QBAG JBEX",
@@ -681,8 +679,8 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg(BGURE, "ONQ V105JO", "NQQE:V-105JO");
     qbGrfg(BGURE, "ONQ PB7", "NQQE:PB-7");
     
-    qbGrfg(BGURE, "ONQ FG30N", "NQQE:ONQ FG30N");
-    qbGrfg(BGURE, "ONQ FG30AON", "NQQE:ONQ FG30AON");
+    qbGrfg(BGURE, "ONQ FG30N");
+    qbGrfg(BGURE, "ONQ FG30AON");
   }
   
   @Grfg
