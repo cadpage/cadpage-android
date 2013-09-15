@@ -10,15 +10,15 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class PAJeffersonCountyParser extends SmartAddressParser {
   
-  private static final Pattern BOX_CH_PTN = Pattern.compile("(?: +BOX|-)? +(\\d{1,2}-[A-Z])(?: +([A-Za-z]+(?: +[A-Za-z]+)?))?$");
+  private static final Pattern BOX_CH_PTN = Pattern.compile("(?: +BOX|-)? +(\\d{1,2}-[A-Z](?:-[A-Z])?)(?: +([A-Za-z]+(?: +[A-Za-z]+)?))?$");
   private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:[A-Z]+\\d+|HH))+  +");
   private static final Pattern GPS_PIPE_PTN1 = Pattern.compile("^([-+]?\\d+\\.\\d+)\\|([-+]?\\d+\\.\\d+)\\b");
   private static final Pattern GPS_PIPE_PTN2 = Pattern.compile("\\b([-+]?\\d+\\.\\d+)\\|([-+]?\\d+\\.\\d+)\\b");
   
   public PAJeffersonCountyParser() {
     super(CITY_LIST, "JEFFERSON COUNTY", "PA");
-    setupMultiWordStreets("SWARTZ ACRES");
-    setFieldList("CALL UNIT ADDR APT X CITY PLACE INFO BOX CH");
+    setupMultiWordStreets(MULTI_WORD_STREETS);
+    setFieldList("CALL UNIT ADDR APT CITY PLACE X INFO BOX CH");
   }
   
   @Override
@@ -66,7 +66,7 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
       extra = body.substring(match.end()).trim();
     }
     
-    // If no GPS coordiantes found, use the smart address parser to split things
+    // If no GPS coordinates found, use the smart address parser to split things
     else {
   
       // SNYDER HILL in info section confuses the smart address parer
@@ -82,47 +82,116 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
       extra = getLeft().replace(" ,", ",");
     }
     
-    if (data.strCross.length() == 0 && extra.contains(" / ")) {
-      boolean cross = true;
-      boolean foundSlash = false;
+    boolean incComma = false;
+    if (data.strCross.length() > 0) {
+      data.strPlace = extra;
+    } else {
       for (String part : extra.split(",")) {
         part = part.trim();
-        boolean slash = part.contains("/");
-        if (!slash && !foundSlash) {
+        if (data.strCross.length() > 0) {
           data.strCross = append(data.strCross, ", ", part);
-        }
-        else if (cross) {
-          Result res = parseAddress(StartType.START_PLACE, FLAG_ONLY_CROSS, part);
+        } else {
+          Result res = parseAddress(StartType.START_PLACE, FLAG_ONLY_CROSS | FLAG_ANCHOR_END, part);
           if (res.getStatus() > 0) {
             String savePlace = data.strPlace;
-            String saveCross = data.strCross;
-            data.strPlace = data.strCross = "";
+            data.strPlace = "";
             res.getData(data);
-            data.strPlace = append(savePlace, " - ", data.strPlace);
-            data.strCross = append(saveCross, ", ", data.strCross);
-            part = res.getLeft();
-            if (part.length() > 0) {
-              data.strPlace = append(data.strPlace, " - ", part);
-              cross = false;
-            }
-          } else if (slash) {
-            data.strCross = append(data.strCross, ", ", part);
-            cross = false;
+            incComma = savePlace.length() > 0 && data.strPlace.length() == 0;
+            data.strPlace = append(savePlace, ", ", data.strPlace);
           } else {
-            data.strPlace = part;
-            cross = false;
+            data.strPlace = append(data.strPlace, ", ", part);
           }
-        } else {
-          data.strPlace = append(data.strPlace, ", ", part);
         }
-        if (slash) foundSlash = true;
       }
-    } else {
-      data.strPlace = extra;
+    }
+    
+    // The worst part is when they do not include a space separator between
+    // the place name and the cross street.  We will go through a lot of
+    // work to straighten that one out
+    if (data.strPlace.length() > 0 && data.strCross.length() > 0) {
+      fixPlaceCrossFields(data, incComma);
     }
     
     return true;
   }
+  
+  private void fixPlaceCrossFields(Data data, boolean incComma) {
+    
+    // First see if the cross street starts with something that looks
+    // like it belongs in the place field
+    for (String tmp : PLACE_END_NAMES) {
+      if (data.strCross.startsWith(tmp)) {
+        data.strPlace = data.strPlace + (incComma ? ", " : " ") + tmp;
+        data.strCross = data.strCross.substring(tmp.length()).trim();
+        return;
+      }
+    }
+    
+    // No luck there.  See if the last word of the place field starts with
+    // one of the end place words
+    int pt = data.strPlace.lastIndexOf(' ');
+    if (pt >= 0) {
+      String word = data.strPlace.substring(pt+1).trim();
+      for (String placeWord : PLACE_END_NAMES) {
+        if (word.startsWith(placeWord)) {
+          
+          // Looking good, but there are some other conditions that need
+          // to be satisfied.  Like maing sure there is some more to this
+          // work that we can transfer to the cross street
+          String extra = word.substring(placeWord.length()).trim();
+          if (extra.length() == 0) return;
+          String tmpPlace = data.strPlace.substring(0,pt+placeWord.length()+1).trim();
+          String tmpCross = extra + ' ' + data.strCross;
+          
+          // If the extra stuff is a single character direction, go for it
+          if (extra.length() == 1 && "NSEW".indexOf(extra.charAt(0)) >= 0) {
+            data.strPlace = tmpPlace;
+            data.strCross = tmpCross;
+            return;
+          }
+          
+          // Likewise if the resulting cross street starts with a multi-word
+          // street name
+          for (String mStreet : MULTI_WORD_STREETS) {
+            if (tmpCross.startsWith(mStreet)) {
+              data.strPlace = tmpPlace;
+              data.strCross = tmpCross;
+              return;
+            }
+          }
+          
+          // Otherwise, leave things alone
+          return;
+        }
+      }
+    }
+  }
+  
+  private static final String[] PLACE_END_NAMES = new String[]{
+    "#2",
+    "APARTMENTS",
+    "CATERING",
+    "COMPANY",
+    "FEZELL",
+    "INN",
+    "KNOB",
+    "LIVING",
+    "PUNXSUTAWNEY",
+    "RESTAURANT",
+    "SCHOOL",
+    "SONS",
+    "TOWERS",
+    "WARDEN"
+  };
+  
+  private static final String[] MULTI_WORD_STREETS = new String[] {
+    "HEMLOCK LAKE",
+    "KNOX DALE",
+    "PANIC WISHAW", 
+    "RUSTY COAT", 
+    "SWARTZ ACRES", 
+    "WALTER LONG"
+  };
   
   private static final String[] CITY_LIST = new String[]{
     
@@ -165,11 +234,13 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
     "YOUNG",
     
     // Unincoroporated community
+    "BANKS",
     "SPRANKLE MILLS",
     "CANOE",
     
     // Indiana County
-    "BRUSH VALLEY"
+    "BRUSH VALLEY",
+    "NORTH MAHONING"
 
   };
 }

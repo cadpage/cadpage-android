@@ -50,6 +50,10 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
     
+    qbGrfg(NQQE, SYNT_PEBFF_SBYYBJF, "206 YNAR NIR XRAFOHET YNAR NIR NFFVFGRQ YVIVATREARFG FG / RYX FG 20-N Falqre Uvyy",
+           "NQQE:206 YNAR NIR",
+           "PVGL:XRAFOHET");
+    
     qbGrfg(NQQE, SYNT_CNQ_SVRYQ_RKPY_PVGL | SYNT_NAPUBE_RAQ, "123  SNVEIVRJ QE  666  A OEBBXSVRYQ",
         "NQQE:123 SNVEIVRJ QE",
         "NCG:666",

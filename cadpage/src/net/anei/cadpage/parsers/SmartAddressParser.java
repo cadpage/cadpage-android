@@ -1646,8 +1646,9 @@ public abstract class SmartAddressParser extends MsgParser {
     if (endNdx < 0) return -1;
     
     // We did find a city, but if it is followed by a road suffix, disqualify it
-    // Unless we are only parsing a city, in which case it is OK
-    if (isType(endNdx, ID_ROAD_SFX) && !isFlagSet(FLAG_ONLY_CITY)) return -1;
+    // Unles the road suffix is followed by a road suffix or
+    // unless we are only parsing a city, in which case it is OK
+    if (isType(endNdx, ID_ROAD_SFX) && !isType(endNdx+1, ID_ROAD_SFX) && !isFlagSet(FLAG_ONLY_CITY)) return -1;
     
     // A road suffix one or two tokens past the end of the city also disqualifies it
     // Except some times there really is cross street information following
