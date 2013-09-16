@@ -5,13 +5,13 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 
 choyvp pynff CnggreaGrfg {
 
-  cevingr fgngvp svany Cnggrea ZNFGRE  =       
-      Cnggrea.pbzcvyr("([ N-M0-9]+-[N-M]+) (?:\\((Nynez Glcr [-N-M0-9/ ]+)\\) *)?(?:\\(Obk ([-N-M0-9 &]+)\\) *)?(?:(NX\\q+[N-M]? .*? > [N-M]+\\)) +(?:NX\\q+[N-M]? +)?)?([-N-Mn-m0-9&\\(\\)\\?\\\\ ]+?) *\\. +(?:([- N-M0-9:]+)\\.\\.? +)?(?:((?:ARNE|BSS) [- N-M0-9\\?]+)\\. *)?(?:\\(KFge +([-N-M0-9/ ]*)\\) *)?(?:\\.([-N-M0-9@,\\? /\\.:]+)\\. *)?(?:\\(k-(\\q+) ?l-(\\q+)\\) *|\\(k0 l0\\))? *#");
+  cevingr fgngvp svany Cnggrea ZNFGRE  =  
+      Cnggrea.pbzcvyr("([N-M0-9]{1,5}) *(\\q{3}) Hgy# (\\q{3} [N-M]) ([- N-M0-9]+) / (.*?)[ /]+([N-M]+\\q+(?: ?, ?[N-M]+\\q+)*)");
 
 
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("(CNEA251, RYYR274) CSN-FCEAXYE (Nynez Glcr FCEVAXYRE ) (Obk -20-174) UVTU PBHEG NHPXYNAQ 24 JNGREYBB DHNQ NHPXYNAQ PRAGENY. PAE JNGREYBB DHNQENAG. HC GB 3 FGNSS & 9 VAZNGRF VA PRYYNERN. (KFge FLZBAQF FG/CNEYVNZRAG FG) (k-389462858 l-227142437) #S99999");
+    qbGrfg("ZRQ3 005 Hgy# 338 Q 08/27/13 7940 R YBBF QE CI / A GBAGB JL LF//70S TYS QRPERNFRQ YBP//UK OBAR PNAPRE// R53 ,YY1");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
