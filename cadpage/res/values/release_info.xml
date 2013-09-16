@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">09092013</string>
-  <string name="release_version">v1.6.41</string>
+  <string name="release_date">09162013</string>
+  <string name="release_version">v1.6.42</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Goodhue County, MN\n
-Wadena County, MN\n
-Sikeston, MO\n
-Webster County, MO\n
-Hertford County, NC\n
-Cuyahoga County, OH\n
-Bedford County, VA\n
-Waukesha County, WI (alt)\n
+Yavapai County, AZ (alt)\n
+Santa Clara County, CA (alt)\n
+Clayton County, GA\n
+Stark County, IL\n
+Jasper County, IN\n
+Gallatin County, KY\n
+Logan County, OH\n
+Summit County, OH (alt)\n
+Nacogdoches County, TX\n
+Henrico County, VA\n
 \n
 Location Parsing Fixes:\n
-Groton, CT\n
-Camden County, GA\n
-Coffee County, GA\n
-Dade County, GA\n
-St Francois County, MO\n
+Sanoma County, CA\n
+Jefferson County, CO\n
+Kootenai County, ID\n
+Kaane County, IL\n
+Starke County, IN\n
+Hamilton County, OH\n
 St Louis County, MO\n
-Alamance County, NC\n
-Dauphin County, PA\n
-Lebannon County, PA\n
-Chester County, SC\n
-New Zealand\n
+Greene County, NY\n
+Nassau County, NY\n
+Jefferson County, PA\n
+Monroe County, PA\n
+Anderson County, TN\n
+Loudoun County, VA\n
+Morgan County, WV\n
 \n
 General Fixes:\n
-Problem truncating Active911 general alerts and run reports\n
+Use Yellow color instead of bold text to mark unopened calls.\n
   </string>  
 </resources>
   
