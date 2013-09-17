@@ -6,7 +6,6 @@
    <string name="pref_dimscreen_default">false</string>
    <string name="pref_privacy_default">false</string>
    <string name="pref_show_personal_default">false</string>
-   <string name="pref_onlyShowOnKeyguard_default">false</string>
    <string name="pref_noShowInCall_default">false</string>
    <string name="pref_vibrate_default">true</string>
    <string name="pref_vibrate_pattern_default">0,1200</string>

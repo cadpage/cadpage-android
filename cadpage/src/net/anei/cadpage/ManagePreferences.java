@@ -428,10 +428,6 @@ public class ManagePreferences {
     prefs.putBoolean(R.string.pref_popup_enabled_key, newVal);
   }
   
-  public static boolean onlyShowOnKeyguard() {
-    return prefs.getBoolean(R.string.pref_onlyShowOnKeyguard_key);
-  }
-  
   public static boolean noShowInCall() {
     return prefs.getBoolean(R.string.pref_noShowInCall_key);
   }
@@ -1000,7 +996,6 @@ public class ManagePreferences {
         R.string.pref_report_position_key,
         
         R.string.pref_popup_enabled_key,
-        R.string.pref_onlyShowOnKeyguard_key,
         R.string.pref_noShowInCall_key,
         R.string.pref_passthrusms_key,
         

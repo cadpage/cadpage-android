@@ -7,6 +7,7 @@ import android.os.PowerManager;
 public class ManageWakeLock {
   private static PowerManager.WakeLock mWakeLock = null;
 
+  @SuppressWarnings("deprecation")
   public static synchronized void acquireFull(Context mContext) {
     if (mWakeLock != null) {
       if (Log.DEBUG) Log.v("**Wakelock already held");

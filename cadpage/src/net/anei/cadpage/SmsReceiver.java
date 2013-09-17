@@ -207,12 +207,6 @@ public class SmsReceiver extends BroadcastReceiver {
     // If popup isn't enabled, this is as afar as we go
     if (! ManagePreferences.popupEnabled()) return false;
 
-    // Should popup should only show when keyguard is on
-    if (ManagePreferences.onlyShowOnKeyguard()) {
-      ManageKeyguard.initialize(context);
-      if (! ManageKeyguard.inKeyguardRestrictedInputMode()) return false;
-    }
-
     // Fetch call state, if the user is in a call or the phone is ringing we don't want to show the popup
     if (ManagePreferences.noShowInCall()) {
       TelephonyManager mTM = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);

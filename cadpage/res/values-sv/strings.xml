@@ -76,9 +76,6 @@
   <string name="pref_popup_enabled_title">Visa Popup</string>
   <string name="pref_popup_enabled_summaryon">Larm visar popup-fönster</string>
   <string name="pref_popup_enabled_summaryoff">Larm visar inte popup-fönster</string>
-  <string name="pref_onlyShowOnKeyguard_title">Knapplås popup begränsningar</string>
-  <string name="pref_onlyShowOnKeyguard_summaryon">Popup-fönstret kommer endast visas när knapplås är aktivt.</string>
-  <string name="pref_onlyShowOnKeyguard_summaryoff">Popup-fönstret kommer alltid att visas.</string>
   <string name="pref_noShowInCall_title">Begränsa i Larm-popup</string>
   <string name="pref_noShowInCall_summaryon">Larm-popup kommer inte att visas under pågående samtal.</string>
   <string name="pref_noShowInCall_summaryoff">Larm-popup kommer att visas under pågående samtal</string>

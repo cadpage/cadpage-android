@@ -179,13 +179,6 @@
           android:summaryOff="@string/pref_popup_enabled_summaryoff"
           android:defaultValue="true" />
         <CheckBoxPreference
-          android:key="@string/pref_onlyShowOnKeyguard_key"
-          android:title="@string/pref_onlyShowOnKeyguard_title"
-          android:summaryOn="@string/pref_onlyShowOnKeyguard_summaryon"
-          android:summaryOff="@string/pref_onlyShowOnKeyguard_summaryoff"
-          android:defaultValue="@string/pref_onlyShowOnKeyguard_default" 
-          android:dependency="@string/pref_popup_enabled_key"/>
-        <CheckBoxPreference
           android:key="@string/pref_noShowInCall_key"
           android:title="@string/pref_noShowInCall_title"
           android:summaryOn="@string/pref_noShowInCall_summaryon"
