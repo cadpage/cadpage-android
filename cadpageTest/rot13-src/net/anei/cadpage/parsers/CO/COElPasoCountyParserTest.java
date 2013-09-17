@@ -122,6 +122,42 @@ Fraqre: rcg@rcg911.vasb
 [UNA SQ:UNA Q1] UNA~Sver Cntr                ~17550 F Crlgba Ujl                  #     ~GRFG CNTR           ~UNA301776
 [PFSQ:220-6 ] UNA,UNA,UNA,UNA~Sver Cntr                     ~2739 R Ynf Irtnf Fg                 #     ~PWP                 ~PFSQ301775
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Snypba Sver Cebgrpgvba Qvfgevpg
+Ybpngvba: Crlgba, PB, Havgrq Fgngrf
+Fraqre: rcg@rcg911.vasb
+
+[SNY SQ:SNY Q1      ]SNY1,NZE,381,PFC~Genss Npp Hax Vawhevrf   ~R UJL 24 / WHQTR BEE EQ            #     ~                    ~k:                              ~SNY316694
+[SNY SQ:SNY Q3     ]313,SNY1,NZE,381~Pneoba Zba / Vaunyngvba / Unmz~11050 Fcbgfjbbq Gre                #     ~                    ~k: AHYNGB PVE/JNTBA GENPX JNL                                                       SNY13-1490
+[OSSQ:OSSQ Q3  ]OSSQ,SNY~Nynez, Sver                   ~11465 Zvynz Eq                     #     ~                    ~k: INYR EQ/OHETRFF EQ                                                               SNY13-1489
+[SNY SQ:SNY Q5     ]SNY1,381,NZE1~Fhvpvqny Purpx gur Jrysner    ~20315 CUBROR TEI                   #     ~                    ~k: PBBCRE TEI/FGBPXUBYZ TEI                                                         SNY13-1488
+[SNY SQ:SNY Q1     ]SNY1,381,NZE~Purfg Cnva                    ~11310 Perffzna Qe                  #     ~                    ~k: NFORR FG/PENAFGBA QE                                                             SNY13-1487
+[SNY SQ:SNY Q3     ]SNY1,NZE,381,PFC1~Genss Npp J/Vawhevrf          ~R JBBQZRA EQ / A ZREVQVNA EQ       #     ~                    ~k:                                                                                  SNY13-1486
+[SNY SQ:SNY Q1     ]SNY1,OSSQ~Nynez, Sver                   ~11322 Cnyzref Terra Qe             #     ~                    ~k: NFORR FG/YBAQBAQREEL QE                                                          SNY13-1485
+[PFSQ:220-6 ]SNY~Nynez, Pneoba Zbabkvqr        ~7679 Fgrjneq Ya                    #     ~                    ~PFSQ316621
+[SNY SQ:SNY Q4n    ]SNY1~Nynez, Sver                   ~2131 Cvalba Wnl Qe                 #     ~                    ~k: ZRNQBJOEBBX CXJL/URNQTNGR YA                                                     SNY13-1483
+[SNY SQ:SNY Q1     ]SNY1,381,NZE~Navzny Ovgr / Nggnpx          ~7953 Sbeg Fzvgu Eq                 #     ~                    ~k: FPNZCRE EQ/QHUBA EQ                                                              SNY13-1482
+[SNY SQ:SNY Q3     ]SNY1,ERUNO,JVYQP~Fzbxr Vairfgvtngvba           ~11600 R 24 Ujl                     #     ~zz320               ~k: SNYPBA UJL/BYQ ZREVQVNA EQ                                                       JVYQ-13-686
+[SNY SQ:SNY Q3     ]SNY1,NZE,381~Zrqvpny                       ~7133 Zvgpuryyivyyr Jnl             #     ~                    ~k: FRRYL PVE/DHVAPL ZNEE QE                                                         SNY13-1480
+[SNY SQ:SNY Q3     ]SNY1,NZE,381~Zrqvpny                       ~7133 Zvgpuryyivyyr Jnl             #     ~                    ~k: FRRYL PVE/DHVAPL ZNEE QE                                                         SNY13-1479
+[SNY SQ:SNY Q2     ]SNY1~Bqbe                          ~15830 Fbsgjbbq Eq                  #     ~                    ~k: A ZREVQVNA EQ/ABEGUPYVSS EQ                                                      SNY13-1478
+[SNY SQ:SNY Q3     ]SNY1,NZE,381~Hapbafpvbhf / Snvagvat        ~13635 Qvyy Pg                      #     ~                    ~k: OHPXOBNEQ QE/Qrnq Raq                                                            SNY13-1477
+[SNY SQ:SNY Q1     ]SNY1,RFQP~Sybbq                         ~Whqtr Bee Eq / Rnfgbaivyyr Eq      #     ~                    ~k:                                                                                  SNY13-1476
+[SNY SQ:SNY Q3     ]SNY1,ERUNO,JVYQP~Fgehpgher Sver                ~Zppnaqyvfu Eq / Tneergg Eq         #     ~                    ~k:                                                                                  JVYQ-13-683
+[SNY SQ:SNY Q6     ] SNY1,381,NZE1~Bireqbfr / Cbvfbavat          ~16775 Pngulf Ybbc                   #     ~                    ~SNY13-1473
+[SNY SQ:SNY Q3     ] SNY1,381,NZE1,PFC~Genss Npp J/Vawhevrf          ~Snypba Ujl / Evb Eq                 #     ~                    ~SNY13-1472
+[SNY SQ:SNY Q4n    ] SNY1,NEFBA,ERUNO~Fgehpgher Sver                ~8054 Oevggvatre Jnl                 #     ~                    ~EFA13-213
+[SNY SQ:SNY Q3     ] SNY1,381,NZE1~Zrqvpny                       ~10850 R Jbbqzra Eq                  #     ~Ohf Onea Snypba Fpub~SNY13-1470
+[SNY SQ:SNY Q3     ] SNY1,RFQP~Sybbq                         ~Tneergg Eq / R Oynarl Eq            #     ~                    ~SNY13-1469
+[SNY SQ:SNY Q3     ] SNY1,RFQP~Sybbq                         ~Snypba Ujl / Zrevqvna Eq            #     ~                    ~SNY13-1468
+[SNY SQ:SNY Q6     ] SNY1,381,NZE~Oernguvat Ceboyrz             ~14920 Wbarf Eq                      #     ~                    ~SNY13-1467
+[SNY SQ:SNY Q1     ] SNY1,381,NZE~Fhvpvqr Nggrzcg               ~8205 Sbeg Fzvgu Eq                  #     ~                    ~SNY13-1466
+[SNY SQ:SNY Q4n    ] 381,NZE,SNY1~Qvnorgvp Ceboyrz              ~1834 Fntr Tebhfr Ya                 #     ~                    ~SNY13-1465
+[SNY SQ:SNY Q6     ] SNY1,ERUNO,JVYQP~Bhgfvqr Sver                  ~6425 Crreyrff Snezf Eq              #     ~                    ~JVYQ-13-676
+[SNY SQ:SNY Q1     ] SNY1,381,NZE1,PFC~Genss Npp J/Vawhevrf          ~10255 Ynzoreg Eq                    #     ~Snypba Uvtu Fpubby (~SNY13-1463
+[SNY SQ:SNY Q3     ] SNY1,381,NZE1~Purfg Cnva                    ~7030 Byq Zrevqvna Eq                #     ~SNY3                ~SNY13-1462
+[SNY SQ:SNY Q3     ] SNY1,NZE,381~Nynez, Zrqvpny                ~6020 Tbbq Sbeghar Eq                #     ~                    ~SNY13-1461
+
  */
 
 choyvp pynff PBRyCnfbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -756,6 +792,299 @@ choyvp pynff PBRyCnfbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2739 R Ynf Irtnf Fg",
         "CYNPR:PWP",
         "VQ:PFSQ301775");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgSnypbaSverCebgrpgvbaQvfgevpg() {
+
+    qbGrfg("G1",
+        "[SNY SQ:SNY Q1      ]SNY1,NZE,381,PFC~Genss Npp Hax Vawhevrf   ~R UJL 24 / WHQTR BEE EQ            #     ~                    ~k:                              ~SNY316694",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q1",
+        "HAVG:SNY1,NZE,381,PFC",
+        "PNYY:Genss Npp Hax Vawhevrf",
+        "NQQE:R UJL 24 & WHQTR BEE EQ",
+        "K:~",
+        "VQ:SNY316694");
+
+    qbGrfg("G2",
+        "[SNY SQ:SNY Q3     ]313,SNY1,NZE,381~Pneoba Zba / Vaunyngvba / Unmz~11050 Fcbgfjbbq Gre                #     ~                    ~k: AHYNGB PVE/JNTBA GENPX JNL                                                       SNY13-1490",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:313,SNY1,NZE,381",
+        "PNYY:Pneoba Zba / Vaunyngvba / Unmz",
+        "NQQE:11050 Fcbgfjbbq Gre",
+        "K:AHYNGB PVE/JNTBA GENPX JNL",
+        "VQ:SNY13-1490");
+
+    qbGrfg("G3",
+        "[OSSQ:OSSQ Q3  ]OSSQ,SNY~Nynez, Sver                   ~11465 Zvynz Eq                     #     ~                    ~k: INYR EQ/OHETRFF EQ                                                               SNY13-1489",
+        "FEP:OSSQ",
+        "ZNC:OSSQ Q3",
+        "HAVG:OSSQ,SNY",
+        "PNYY:Nynez, Sver",
+        "NQQE:11465 Zvynz Eq",
+        "K:INYR EQ/OHETRFF EQ",
+        "VQ:SNY13-1489");
+
+    qbGrfg("G4",
+        "[SNY SQ:SNY Q5     ]SNY1,381,NZE1~Fhvpvqny Purpx gur Jrysner    ~20315 CUBROR TEI                   #     ~                    ~k: PBBCRE TEI/FGBPXUBYZ TEI                                                         SNY13-1488",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q5",
+        "HAVG:SNY1,381,NZE1",
+        "PNYY:Fhvpvqny Purpx gur Jrysner",
+        "NQQE:20315 CUBROR TEI",
+        "K:PBBCRE TEI/FGBPXUBYZ TEI",
+        "VQ:SNY13-1488");
+
+    qbGrfg("G5",
+        "[SNY SQ:SNY Q1     ]SNY1,381,NZE~Purfg Cnva                    ~11310 Perffzna Qe                  #     ~                    ~k: NFORR FG/PENAFGBA QE                                                             SNY13-1487",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q1",
+        "HAVG:SNY1,381,NZE",
+        "PNYY:Purfg Cnva",
+        "NQQE:11310 Perffzna Qe",
+        "K:NFORR FG/PENAFGBA QE",
+        "VQ:SNY13-1487");
+
+    qbGrfg("G6",
+        "[SNY SQ:SNY Q3     ]SNY1,NZE,381,PFC1~Genss Npp J/Vawhevrf          ~R JBBQZRA EQ / A ZREVQVNA EQ       #     ~                    ~k:                                                                                  SNY13-1486",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:SNY1,NZE,381,PFC1",
+        "PNYY:Genss Npp J/Vawhevrf",
+        "NQQE:R JBBQZRA EQ & A ZREVQVNA EQ",
+        "VQ:SNY13-1486");
+
+    qbGrfg("G7",
+        "[SNY SQ:SNY Q1     ]SNY1,OSSQ~Nynez, Sver                   ~11322 Cnyzref Terra Qe             #     ~                    ~k: NFORR FG/YBAQBAQREEL QE                                                          SNY13-1485",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q1",
+        "HAVG:SNY1,OSSQ",
+        "PNYY:Nynez, Sver",
+        "NQQE:11322 Cnyzref Terra Qe",
+        "K:NFORR FG/YBAQBAQREEL QE",
+        "VQ:SNY13-1485");
+
+    qbGrfg("G8",
+        "[PFSQ:220-6 ]SNY~Nynez, Pneoba Zbabkvqr        ~7679 Fgrjneq Ya                    #     ~                    ~PFSQ316621",
+        "FEP:PFSQ",
+        "ZNC:220-6",
+        "HAVG:SNY",
+        "PNYY:Nynez, Pneoba Zbabkvqr",
+        "NQQE:7679 Fgrjneq Ya",
+        "VQ:PFSQ316621");
+
+    qbGrfg("G9",
+        "[SNY SQ:SNY Q4n    ]SNY1~Nynez, Sver                   ~2131 Cvalba Wnl Qe                 #     ~                    ~k: ZRNQBJOEBBX CXJL/URNQTNGR YA                                                     SNY13-1483",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q4n",
+        "HAVG:SNY1",
+        "PNYY:Nynez, Sver",
+        "NQQE:2131 Cvalba Wnl Qe",
+        "K:ZRNQBJOEBBX CXJL/URNQTNGR YA",
+        "VQ:SNY13-1483");
+
+    qbGrfg("G10",
+        "[SNY SQ:SNY Q1     ]SNY1,381,NZE~Navzny Ovgr / Nggnpx          ~7953 Sbeg Fzvgu Eq                 #     ~                    ~k: FPNZCRE EQ/QHUBA EQ                                                              SNY13-1482",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q1",
+        "HAVG:SNY1,381,NZE",
+        "PNYY:Navzny Ovgr / Nggnpx",
+        "NQQE:7953 Sbeg Fzvgu Eq",
+        "K:FPNZCRE EQ/QHUBA EQ",
+        "VQ:SNY13-1482");
+
+    qbGrfg("G11",
+        "[SNY SQ:SNY Q3     ]SNY1,ERUNO,JVYQP~Fzbxr Vairfgvtngvba           ~11600 R 24 Ujl                     #     ~zz320               ~k: SNYPBA UJL/BYQ ZREVQVNA EQ                                                       JVYQ-13-686",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:SNY1,ERUNO,JVYQP",
+        "PNYY:Fzbxr Vairfgvtngvba",
+        "NQQE:11600 R 24 Ujl",
+        "ZNQQE:11600 R Ujl 24",
+        "CYNPR:zz320",
+        "K:SNYPBA UJL/BYQ ZREVQVNA EQ",
+        "VQ:JVYQ-13-686");
+
+    qbGrfg("G12",
+        "[SNY SQ:SNY Q3     ]SNY1,NZE,381~Zrqvpny                       ~7133 Zvgpuryyivyyr Jnl             #     ~                    ~k: FRRYL PVE/DHVAPL ZNEE QE                                                         SNY13-1480",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:SNY1,NZE,381",
+        "PNYY:Zrqvpny",
+        "NQQE:7133 Zvgpuryyivyyr Jnl",
+        "K:FRRYL PVE/DHVAPL ZNEE QE",
+        "VQ:SNY13-1480");
+
+    qbGrfg("G13",
+        "[SNY SQ:SNY Q3     ]SNY1,NZE,381~Zrqvpny                       ~7133 Zvgpuryyivyyr Jnl             #     ~                    ~k: FRRYL PVE/DHVAPL ZNEE QE                                                         SNY13-1479",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:SNY1,NZE,381",
+        "PNYY:Zrqvpny",
+        "NQQE:7133 Zvgpuryyivyyr Jnl",
+        "K:FRRYL PVE/DHVAPL ZNEE QE",
+        "VQ:SNY13-1479");
+
+    qbGrfg("G14",
+        "[SNY SQ:SNY Q2     ]SNY1~Bqbe                          ~15830 Fbsgjbbq Eq                  #     ~                    ~k: A ZREVQVNA EQ/ABEGUPYVSS EQ                                                      SNY13-1478",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q2",
+        "HAVG:SNY1",
+        "PNYY:Bqbe",
+        "NQQE:15830 Fbsgjbbq Eq",
+        "K:A ZREVQVNA EQ/ABEGUPYVSS EQ",
+        "VQ:SNY13-1478");
+
+    qbGrfg("G15",
+        "[SNY SQ:SNY Q3     ]SNY1,NZE,381~Hapbafpvbhf / Snvagvat        ~13635 Qvyy Pg                      #     ~                    ~k: OHPXOBNEQ QE/Qrnq Raq                                                            SNY13-1477",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:SNY1,NZE,381",
+        "PNYY:Hapbafpvbhf / Snvagvat",
+        "NQQE:13635 Qvyy Pg",
+        "K:OHPXOBNEQ QE/Qrnq Raq",
+        "VQ:SNY13-1477");
+
+    qbGrfg("G16",
+        "[SNY SQ:SNY Q1     ]SNY1,RFQP~Sybbq                         ~Whqtr Bee Eq / Rnfgbaivyyr Eq      #     ~                    ~k:                                                                                  SNY13-1476",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q1",
+        "HAVG:SNY1,RFQP",
+        "PNYY:Sybbq",
+        "NQQE:Whqtr Bee Eq & Rnfgbaivyyr Eq",
+        "VQ:SNY13-1476");
+
+    qbGrfg("G17",
+        "[SNY SQ:SNY Q3     ]SNY1,ERUNO,JVYQP~Fgehpgher Sver                ~Zppnaqyvfu Eq / Tneergg Eq         #     ~                    ~k:                                                                                  JVYQ-13-683",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:SNY1,ERUNO,JVYQP",
+        "PNYY:Fgehpgher Sver",
+        "NQQE:Zppnaqyvfu Eq & Tneergg Eq",
+        "VQ:JVYQ-13-683");
+
+    qbGrfg("G18",
+        "[SNY SQ:SNY Q6     ] SNY1,381,NZE1~Bireqbfr / Cbvfbavat          ~16775 Pngulf Ybbc                   #     ~                    ~SNY13-1473",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q6",
+        "HAVG:SNY1,381,NZE1",
+        "PNYY:Bireqbfr / Cbvfbavat",
+        "NQQE:16775 Pngulf Ybbc",
+        "VQ:SNY13-1473");
+
+    qbGrfg("G19",
+        "[SNY SQ:SNY Q3     ] SNY1,381,NZE1,PFC~Genss Npp J/Vawhevrf          ~Snypba Ujl / Evb Eq                 #     ~                    ~SNY13-1472",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:SNY1,381,NZE1,PFC",
+        "PNYY:Genss Npp J/Vawhevrf",
+        "NQQE:Snypba Ujl & Evb Eq",
+        "VQ:SNY13-1472");
+
+    qbGrfg("G20",
+        "[SNY SQ:SNY Q4n    ] SNY1,NEFBA,ERUNO~Fgehpgher Sver                ~8054 Oevggvatre Jnl                 #     ~                    ~EFA13-213",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q4n",
+        "HAVG:SNY1,NEFBA,ERUNO",
+        "PNYY:Fgehpgher Sver",
+        "NQQE:8054 Oevggvatre Jnl",
+        "VQ:EFA13-213");
+
+    qbGrfg("G21",
+        "[SNY SQ:SNY Q3     ] SNY1,381,NZE1~Zrqvpny                       ~10850 R Jbbqzra Eq                  #     ~Ohf Onea Snypba Fpub~SNY13-1470",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:SNY1,381,NZE1",
+        "PNYY:Zrqvpny",
+        "NQQE:10850 R Jbbqzra Eq",
+        "CYNPR:Ohf Onea Snypba Fpub",
+        "VQ:SNY13-1470");
+
+    qbGrfg("G22",
+        "[SNY SQ:SNY Q3     ] SNY1,RFQP~Sybbq                         ~Tneergg Eq / R Oynarl Eq            #     ~                    ~SNY13-1469",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:SNY1,RFQP",
+        "PNYY:Sybbq",
+        "NQQE:Tneergg Eq & R Oynarl Eq",
+        "VQ:SNY13-1469");
+
+    qbGrfg("G23",
+        "[SNY SQ:SNY Q3     ] SNY1,RFQP~Sybbq                         ~Snypba Ujl / Zrevqvna Eq            #     ~                    ~SNY13-1468",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:SNY1,RFQP",
+        "PNYY:Sybbq",
+        "NQQE:Snypba Ujl & Zrevqvna Eq",
+        "VQ:SNY13-1468");
+
+    qbGrfg("G24",
+        "[SNY SQ:SNY Q6     ] SNY1,381,NZE~Oernguvat Ceboyrz             ~14920 Wbarf Eq                      #     ~                    ~SNY13-1467",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q6",
+        "HAVG:SNY1,381,NZE",
+        "PNYY:Oernguvat Ceboyrz",
+        "NQQE:14920 Wbarf Eq",
+        "VQ:SNY13-1467");
+
+    qbGrfg("G25",
+        "[SNY SQ:SNY Q1     ] SNY1,381,NZE~Fhvpvqr Nggrzcg               ~8205 Sbeg Fzvgu Eq                  #     ~                    ~SNY13-1466",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q1",
+        "HAVG:SNY1,381,NZE",
+        "PNYY:Fhvpvqr Nggrzcg",
+        "NQQE:8205 Sbeg Fzvgu Eq",
+        "VQ:SNY13-1466");
+
+    qbGrfg("G26",
+        "[SNY SQ:SNY Q4n    ] 381,NZE,SNY1~Qvnorgvp Ceboyrz              ~1834 Fntr Tebhfr Ya                 #     ~                    ~SNY13-1465",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q4n",
+        "HAVG:381,NZE,SNY1",
+        "PNYY:Qvnorgvp Ceboyrz",
+        "NQQE:1834 Fntr Tebhfr Ya",
+        "VQ:SNY13-1465");
+
+    qbGrfg("G27",
+        "[SNY SQ:SNY Q6     ] SNY1,ERUNO,JVYQP~Bhgfvqr Sver                  ~6425 Crreyrff Snezf Eq              #     ~                    ~JVYQ-13-676",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q6",
+        "HAVG:SNY1,ERUNO,JVYQP",
+        "PNYY:Bhgfvqr Sver",
+        "NQQE:6425 Crreyrff Snezf Eq",
+        "VQ:JVYQ-13-676");
+
+    qbGrfg("G28",
+        "[SNY SQ:SNY Q1     ] SNY1,381,NZE1,PFC~Genss Npp J/Vawhevrf          ~10255 Ynzoreg Eq                    #     ~Snypba Uvtu Fpubby (~SNY13-1463",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q1",
+        "HAVG:SNY1,381,NZE1,PFC",
+        "PNYY:Genss Npp J/Vawhevrf",
+        "NQQE:10255 Ynzoreg Eq",
+        "CYNPR:Snypba Uvtu Fpubby (",
+        "VQ:SNY13-1463");
+
+    qbGrfg("G29",
+        "[SNY SQ:SNY Q3     ] SNY1,381,NZE1~Purfg Cnva                    ~7030 Byq Zrevqvna Eq                #     ~SNY3                ~SNY13-1462",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:SNY1,381,NZE1",
+        "PNYY:Purfg Cnva",
+        "NQQE:7030 Byq Zrevqvna Eq",
+        "CYNPR:SNY3",
+        "VQ:SNY13-1462");
+
+    qbGrfg("G30",
+        "[SNY SQ:SNY Q3     ] SNY1,NZE,381~Nynez, Zrqvpny                ~6020 Tbbq Sbeghar Eq                #     ~                    ~SNY13-1461",
+        "FEP:SNY SQ",
+        "ZNC:SNY Q3",
+        "HAVG:SNY1,NZE,381",
+        "PNYY:Nynez, Zrqvpny",
+        "NQQE:6020 Tbbq Sbeghar Eq",
+        "VQ:SNY13-1461");
 
   }
   
