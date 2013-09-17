@@ -367,7 +367,7 @@ choyvp pynff APNynznaprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:8",
         "PNYY:TENFF SVER",
         "NQQE:AP 54 UJL & NCCYR BEPUNEQ QE",
-        "ZNQQE:FGNGR 54 & NCCYR BEPUNEQ QE",
+        "ZNQQE:FGNGR 54 & NCCYR BEPUNEQ QE",  // Abg znccvat
         "PVGL:ZRONAR");
 
     qbGrfg("G30",
