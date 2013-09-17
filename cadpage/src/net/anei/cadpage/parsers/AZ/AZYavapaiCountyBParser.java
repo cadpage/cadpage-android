@@ -11,12 +11,13 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class AZYavapaiCountyBParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]{1,5}) *(\\d{3})? Utl# (\\d{3}(?: ?[A-Z]\\d?)?(?: +\\d{3}[- ]?[A-Z]\\d?)?) +(\\d\\d/\\d\\d/\\d\\d) +([-, A-Z0-9]+?)(?: *#([-,A-Z0-9]+))? / (.*?)[ /]+([A-Z]+\\d+(?: ?, ?[A-Z]+\\d+)*)");
+  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]{1,5}) *(?:\\d{3})? Utl# (\\d{3}(?: ?[A-Z]\\d?)?(?: +\\d{3}[- ]?[A-Z]\\d?)?) +(\\d\\d/\\d\\d/\\d\\d) +([-, A-Z0-9]+?)(?: *#([-,A-Z0-9]+))? / (.*?)[ /]+([A-Z]+\\d+(?: ?, ?[A-Z]+\\d+)*)");
   private static final Pattern DELIM_PTN = Pattern.compile(" +[A-Z]{2,3}(?:-|/+|\\.{2,}) *(?:(?:APT|UNIT|#) *([A-Z0-9]+)[ /]+)?");
+  private static final Pattern NT_PTN = Pattern.compile(" *\\bNT\\b *");
 
   public AZYavapaiCountyBParser() {
     super(CITY_CODES, "YAVAPAI COUNTY", "AZ");
-    setFieldList("CODE SRC MAP DATE ADDR APT CITY X INFO UNIT");
+    setFieldList("CODE MAP DATE ADDR APT CITY X INFO UNIT");
   }
   
   @Override
@@ -41,14 +42,14 @@ public class AZYavapaiCountyBParser extends SmartAddressParser {
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strCode = match.group(1);
-    data.strSource = getOptGroup(match.group(2));
-    data.strMap = match.group(3);
-    data.strDate = match.group(4);
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, match.group(5).trim(), data);
-    String apt = match.group(6);
+    data.strMap = match.group(2);
+    data.strDate = match.group(3);
+    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, match.group(4).trim(), data);
+    data.strAddress = NT_PTN.matcher(data.strAddress).replaceAll(" ").trim();
+    String apt = match.group(5);
     if (apt != null) data.strApt = append(data.strApt, "-", apt);
-    String extra = match.group(7).trim();
-    data.strUnit = match.group(8).replace(" ", "");
+    String extra = match.group(6).trim();
+    data.strUnit = match.group(7).replace(" ", "");
     
     // What is left is the address and cross street and there may or
     // may not be a recognizable separator
@@ -70,10 +71,12 @@ public class AZYavapaiCountyBParser extends SmartAddressParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "CY", "CHINO VALLEY",    
+      "CY", "",   // YAVAPAI COUNTY
+      "CV", "CHINO VALLEY",
+      "PR", "PRESCOTT",
       "PV", "PRESCOTT VALLEY",
-      
-      "NT CY", "CHINO VALLEY",
-      "NT PV", "PRESCOTT VALLEY"
+      "GC", "GROOM CREEK",
+      "WV", "WILLIAMSON VALLEY"
+
   });
 }
