@@ -937,11 +937,11 @@ If you can long press one of the calls you get and select Report Problem to send
 ** long list
 ******************************************************************
 
-We have two different long and involved trouble shooting procedures.  The following is a list for users who are getting regular text pages.
+We have two different troubleshooting procedures.  The following is a list for users who are getting regular text pages.
 
 If you are getting direct pages from Active911 or CodeMessaging, you should contact us for the direct page troubleshooting list.
 
-It is a long list. Take it one step at a time. The important steps are the last two.  They send us information about your text pages that we need to figure out what is wrong.
+This is a long list. Take it one step at a time. The important steps are the last two.  They send us information about your text pages so we can figure out what is wrong.
 
 Do you have Go SMS Pro or Handcent or AT&T Messenger installed?  They have proven to be incompatible with Cadpage. We keep the most recent version of Handcent that works with Cadpage on our Download page at http://www.cadpage.org/download-cadpage/
 
