@@ -535,6 +535,33 @@ Fraqre: jippfhcqrfx@pvglbsfnyrz.arg
 \aOHEAPB\aQOS\a07/16/13 18:48:08\a35 PBBXR FG\aR2301\aQOS201307160002
 \aOERNGU1\aQOS\a07/16/13 01:43:27\a7075 ARCGHAR NI, TYRARQRA ORNPU 0  (FVWBGN FG/)\aZ501\aQOS201307160001
 
+** ABGRF **
+SvryqCebtenzCnefre fhopynff  Cebtenz fgevat ybbxf yvxr
+PNYY FEP QNGRGVZR NQQE HAVG VQ!
+
+Bireevqr cnefrZft
+  Fcyvg obql ol "\a" naq cnff erfhyg gb cnefrSvryqf()
+  
+Jbex hc n inyvqngvba cnggrea sbe QNGRGVZR naq VQ
+
+Jvyy unir gb bireevqr NQQE svryq jvgu lbhe bja cebprffvat svryq naq fcyvg
+gur svryq vagb nqqerff, znc, pvgl, cynpr,  naq pebff fgerrg vasbezngvba.
+Mvc pbqr pna or qvfpneqrq.  Abg fher gur orfg jnl gb qb guvf.  Pbhyq cebonoyl
+jbex bhg n pbzcyvpngrq cnggrea jvgu n ybg bs bcgvbany grezf.  
+Yrgf hf n cnggrea gb svaq naq erzbir gur ZncObbx grez, naq nffvta gur 4 qvtvg 
+ahzore gur znc svryq. gura jr pna cebonoyl hfr gur Cnefr pynff gb unaqyr rirelguvat 
+ryfr.
+Bapr gur zncobbx cuenfr vf erzbirq.
+Cnfre c = arj Cnefre(svryq)
+vs (svryq.raqfJvgu(')') gura
+  c.trgYnfg(')');
+  qngn.fgePebff = c.trgYnfg('(');
+qngn.fgePvgl = c.trgYnfg(',')
+Hfr cnggrea gb erzzbir mvc pbqr
+qngn.fgeCynpr = c.trgYnfgBcgvbany(", @");
+qngn.fgeNqqerff = c.trg();
+vs (qngn.fgeNqqerff.yratgu() == 0) nobeg()
+
 */
 
 choyvp pynff BEZnevbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -545,7 +572,6 @@ choyvp pynff BEZnevbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgFnyrzSver() {
-
    
   }
   
