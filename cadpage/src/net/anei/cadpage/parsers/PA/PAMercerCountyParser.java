@@ -158,6 +158,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "MVI",  "Motor Vehicle Crash w/ injuries",
       "MVU",  "Motor Vehicle Crash w/ unknown injuries",
       "RES",  "Rescue Call",
+      "ROAD", "Notification of Road Conditions",
       "QRS",  "EMS Call",
       "SDET", "Smoke Detector Activation",
       "SERV", "Service Call",
