@@ -139,42 +139,6 @@ Fraqre: jnlar911@pb.jnlar.cn.hf
 (Nynez - PB13 - CHOYVP FREIVPR) (6) CHOYVP FREIVPR �PB13 () Ybp:420 JNLAR FG Epiq: 10:0:39 Havgf: H55_3 JP2013004957 Pbzzragf: 3/19/2013 10:00:24 GENPGBE GENVYRE FGHPX VA GUR ABEGU OBHAQ YNAR, PNYYRE FGNGRQ PNE'F XRRC CNFFVAT GUR IRUVPYR NAQ FUR ORYVRIRF GENSSVP PBAGEBY VF ARRQRQ 
 (Nynez - PB13 - PBAGEBY OHEA) (6) PBAGEBY OHEA �PB13 () Ybp:2862 YNXR NEVRY UJL [@PNEPNER PBYYVFVBA/RAGRECEVFR Epiq: 08:11:34 Havgf: JNL2 JP2013004950 Pbzzragf:  
 
- ** ABGRF **
-
-Fhopynff SvryqCebtenzCnefre.  Cebtenz fgevat...
-PNYY! Ybp:NQQE! Epiq:GVZR! Havgf:HAVG! Pbzzragf:VASB
-
-Bireevqr CnefrZft
-  Purpx vs fhowrpg fgnegf jvgu "Gvzrf -".  Vs vg qbrf, gerng guvf nf n eha ercbeg
-    pnyy = EHA ERCBEG
-    cynpr = obql
-    erghea gehr
-  Bgurejvfr pnyy fhcrepynff cnefreZft() zrgubq 
-
-Bireevqr PNYY svryq
-  Svefg erzbir gur fgenatr aba-nfpvv punenpgre.  Hfr n cnggrea gb vqragvsl nalguva gung vfa'g NFPVV
-  Arkg qb nabgure cnggrea zngpu gb vqragvsl cevbevgl, pnyy, naq fep sbyybjrq ol na rzcgl cnve bs cneraf.
-  Fbzrguvat yvxr
-    "(?:\\((\\q)\\))? +(.*?) +([N-M0-9]+) \\(\\)"
-    Vs cnggrea zngpu snvyf, pnyy nobeg()
-    Svefg tebhc vf bcgvbany fb hfr gur unaql trgBcgTebhc() zrgubq gb nffvta inyhr qb qngn.fgeCevbevgl
-
-Bireevqr NQQE svryq
-  Purpx vs svryq pbagnvaf n "[@".  Vs vg qbrf, rirelguvat
-  orlbaq gung frdhrapr fubhyq tb va CYNPR svryq
-
-Bireevqr GVZR svryq gb nqq cnggrea erdhverzrag
-
-Bireevqr HAVG svryq
-  Hfre cnggrea gb vqragvsl genvyvat VQ inyhr.  Vs sbhaq fgevc vg bss naq nffvta gb qngn.fgePnyyVq
-
-Bireevqr VASB svryq
-  Hfr cnggrea zngpu gb vqragvsl yrnqvat qngr naq gvzr.  Vs sbhaq
-     Vtaber qngr,
-     Nffvta gvzr gb qngn.fgeGvzr bayl vs rkvfgvat inyhr vf rzcgl fgevat  (purpx yratgu() == 0)
-     fgevc sebz erfg bs svryq
-  Pnyy fhcrepynff cnefr() zrgubq
-
  */
 
 choyvp pynff CNJnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
