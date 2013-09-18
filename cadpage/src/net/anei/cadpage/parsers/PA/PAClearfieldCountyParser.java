@@ -26,6 +26,7 @@ public class PAClearfieldCountyParser extends FieldProgramParser {
     if (!subject.equals("Clearfield Alert")) return false;
     if (!parseFields(body.split("\n"), 3, data)) return false;
     if (data.strCity.equals("FALLS_JEF")) data.strCity = "FALLS CREEK";
+    if (data.strCity.equals("WASH_JEFF")) data.strCity = "WASHINGTON TWP";
     return true;
   }
   
