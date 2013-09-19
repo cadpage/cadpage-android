@@ -288,7 +288,7 @@ choyvp pynff BUZnubavatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:S31",
         "PNYY:Zrqvpny Pnyy Jvgu NSQ Erfcbafr",
         "NQQE:1031 PBZCNFF JRFG",
-        "NCG:: 9",
+        "NCG:9",
         "PVGL:NHFGVAGBJA GJC",
         "K:OHEXRL EQ / JRFGTNGR OY",
         "TCF:+41.090423,-80.721595");
@@ -538,7 +538,7 @@ choyvp pynff BUZnubavatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny Pnyy Jvgu NSQ Erfcbafr",
         "NQQE:131 A XVZOREYL NI",
         "ZNQQE:131 A XVZOREYL NIR",
-        "NCG:: 95",
+        "NCG:95",
         "PVGL:NHFGVAGBJA GJC",
         "K:NETBAAR QE / ABEDHRFG OY");
 

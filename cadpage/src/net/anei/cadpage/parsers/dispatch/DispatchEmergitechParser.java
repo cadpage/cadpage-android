@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -13,6 +16,15 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   private Pattern markerPattern;
   int[] extraSpacePosList;
+  private Set<String> specialWordSet = new HashSet<String>(Arrays.asList(new String[]{
+      "APPLE",
+      "EAST",
+      "MAIN",
+      "MARKET",
+      "NORTH",
+      "SOUTH",
+      "WEST"
+  }));
   
   
   /** 
@@ -97,6 +109,19 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     this.extraSpacePosList = extraSpacePosList;
   }
   
+  /**
+   * Add words and names to special list of words that we do not always recognize
+   * when they are split by an extraneous blank.  This happens one one of the terms
+   * on either side of the split happens to be a recognizable word.  Usually one
+   * of the ordinal directions
+   * @param words list of words to be added
+   */
+  protected void addSpecialWords(String ... words) {
+    for (String word : words) {
+      specialWordSet.add(word);
+    }
+  }
+  
   @Override
   protected boolean parseMsg(String body, Data data) {
     Matcher match = markerPattern.matcher(body);
@@ -160,28 +185,43 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     // If field doesn't extend position, or character in that position is
     // not a blank, we don't have to do anything.
     if (field.length() <= pos || field.charAt(pos) != ' ') return field;
-   
-    // Get the word in front of this blank, if it is a recognized dictionary
-    // word, don't mess with it
+    
+    // Get the words in front of and behind the blank
     int pt = field.lastIndexOf(' ', pos-1);
     if (pt < 0) pt = -1;
-    String word = field.substring(pt+1,pos);
-    if (isDictionaryWord(word)) return field;
-    boolean numeric = NUMERIC.matcher(word).matches();
-   
-    // Ditto for word in back of this blank
+    String word1 = field.substring(pt+1,pos);
+    
     pt = field.indexOf(' ', pos+1);
     if (pt < 0) pt = field.length();
-    word = field.substring(pos+1,pt);
-    if (isDictionaryWord(word)) return field;
-    
-    // if one, but not both, of the words contain only numeric digits
-    // don't change anything
-    if (NUMERIC.matcher(word).matches()) numeric = !numeric;
-    if (numeric) return field;
+    String word2 = field.substring(pos+1,pt);
+
+    // Next we are going to make a number of tests to confirm that the space
+    // should or should not be removed
+    // But first see if the combined workd is in our special word set.  if it
+    // is, we are going to change it and can skip the other checking
+    if (!isWord(word1+word2)) {
+        
+      // If we did not find it there, see with either the  least or trail word
+      // is a recognized dictionary word.  If it is, don't change anything
+      if (isWord(word1) || isWord(word2)) return field;
+      
+      // if one, but not both, of the words contain only numeric digits
+      // don't change anything
+      if (NUMERIC.matcher(word1).matches() ^ NUMERIC.matcher(word2).matches()) return field;
+    }
    
     // Otherwise, assume this is an extraneous blank and remove it
     field = field.substring(0,pos) + field.substring(pos+1);
     return field;
+  }
+  
+  /**
+   * Determine if word is a recognized word, meaning it in either our special word list
+   * or the smart address dictionary.
+   * @param word word to be checked
+   * @return true if word is a recognized word
+   */
+  private boolean isWord(String word) {
+    return specialWordSet.contains(word) || isDictionaryWord(word);
   }
 }

@@ -91,7 +91,7 @@ choyvp pynff XLZhuyraoretPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:0244",
         "PNYY:TNF FZRYY",
         "NQQE:540 EBTREF NIR",
-        "ANZR:TERRAIVYY R",
+        "PVGL:TERRAIVYYR",
         "K:U P ZNGUVF QE / A OBTTRFF NIR",
         "VASB:PNYYRE NQ IVFRQ GURER JNF N FGBAT TNF FZRYY PBZVAT SEBZ GUR UBHFR VA S EBAG BS URE");
 
