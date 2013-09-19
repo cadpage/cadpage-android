@@ -4,7 +4,7 @@
   package="net.anei.cadpage" android:versionName="1.6.42B" android:versionCode="16422" >
   
   <uses-sdk
-    android:targetSdkVersion="8" android:minSdkVersion="5"/>
+    android:targetSdkVersion="10" android:minSdkVersion="5"/>
       
   <permission android:name="net.anei.cadpage.RECEIVE_CADPAGE"
           android:label="@string/cadperm_title"

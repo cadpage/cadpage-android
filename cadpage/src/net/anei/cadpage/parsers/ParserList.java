@@ -637,6 +637,7 @@ public class ParserList {
           ),
           new ParserCategory("Oklahoma"
               ,"OKBryanCounty"                  ,"Bryan County, OK"
+              ,"OKCarterCounty"                 ,"Carter County, OK"
               ,"OKClevelandCounty"              ,"Cleveland County, OK"
               ,"OKGarfieldCounty"               ,"Garfield County, OK"
               ,"OKLoveCounty"                   ,"Love County, OK"
@@ -704,6 +705,7 @@ public class ParserList {
               ,"PATiogaCounty"                  ,"Tioga County, PA"
               ,"PAVenangoCounty"                ,"Venango County, PA"
               ,"PAWashingtonCounty"             ,"Washington County, PA"
+              ,"PAWayneCounty"                  ,"Wayne County, PA"
               ,"PAWestmorelandCounty"           ,"Westmoreland County, PA"
               ,"PAYorkCounty"                   ,"York County, PA"
           ),
