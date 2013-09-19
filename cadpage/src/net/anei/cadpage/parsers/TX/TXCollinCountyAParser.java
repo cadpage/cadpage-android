@@ -13,31 +13,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class TXCollinCountyAParser extends FieldProgramParser {
 
-  private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("(?:\\[[^\\[\\]]*)?\\{[^\\{]*\\}?$");
+  private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("(?:\\[[^\\[\\]]*)?\\{[^\\{\\}]*?\\}?$");
   private static final Pattern CFS_ID_PTN = Pattern.compile(" CFS (\\d{8})\\b");
   private static final Pattern LEAD_DASH_PTN = Pattern.compile("^[ -]+");
   private static final Pattern DIST_GRID_PTN = Pattern.compile("\\[([A-Z]+) .*?GRID: ([A-Z]*\\d*[A-Z]?) *\\]");
-  
-  private static final String[] DOUBLE_CITY_LIST = new String[] {
-    "ANNA",
-    "AUBREY",
-    "BLUE RIDGE",
-    "CELINA",
-    "COLLIN COUNTY",
-    "COLONY",
-    "DENTON",
-    "FRISCO",
-    "LEWISVILLE",
-    "LITTLE ELM",
-    "LOWRY CROSSING",
-    "MC KINNEY",
-    "MELISSA",
-    "PILOT POINT",
-    "PRINCETON",
-    "ROYSE CITY",
-    "ST PAUL",
-    "VAN ALSTYNE"
-  };
   
   public TXCollinCountyAParser() {
     this("COLLIN COUNTY", "TX");
@@ -967,4 +946,25 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "VEHICLE FIRE",
       "WELFARE CHECK"
   );
+  
+  private static final String[] DOUBLE_CITY_LIST = new String[] {
+    "ANNA",
+    "AUBREY",
+    "BLUE RIDGE",
+    "CELINA",
+    "COLLIN COUNTY",
+    "COLONY",
+    "DENTON",
+    "FRISCO",
+    "LEWISVILLE",
+    "LITTLE ELM",
+    "LOWRY CROSSING",
+    "MC KINNEY",
+    "MELISSA",
+    "PILOT POINT",
+    "PRINCETON",
+    "ROYSE CITY",
+    "ST PAUL",
+    "VAN ALSTYNE"
+  };
 }
