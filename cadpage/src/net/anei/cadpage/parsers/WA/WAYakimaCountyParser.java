@@ -11,7 +11,8 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class WAYakimaCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER = 
-    Pattern.compile("(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d) (.*?) ([A-Z]{2}FD|AMR|ALS)((?: +[A-Z]+\\d+)+)( +.*)?");
+    Pattern.compile("(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d) (.*?) ([A-Z]{2}FD|AMR|ALS)((?: +(?:[A-Z]+\\d+[A-Z]?|AOA))+)(?: +(.*))?");
+  private static final Pattern APT_MARK_PTN = Pattern.compile(" +(?:APT|ROOM) +", Pattern.CASE_INSENSITIVE);
   
   public WAYakimaCountyParser() {
     super("YAKIMA COUNTY", "WA");
@@ -36,13 +37,21 @@ public class WAYakimaCountyParser extends SmartAddressParser {
     data.strUnit = match.group(5).trim();
     data.strSupp = getOptGroup(match.group(6));
     
-    // Address section consists of a call, address, and possible semicolon separated place
-    int pt = sAddr.lastIndexOf(';');
-    if (pt >= 0) {
-      data.strPlace = sAddr.substring(pt+1).trim();
-      sAddr = sAddr.substring(0,pt).trim();
+    // Address section consists of a call, address, and possible semicolon separated place and/or apt
+    Parser p = new Parser(sAddr);
+    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, p.get(';'), data);
+    String place = p.get(';');
+    match = APT_MARK_PTN.matcher(place);
+    if (match.find()) {
+      data.strApt = append(data.strApt, "-", place.substring(match.end()));
+      data.strPlace = place.substring(0,match.start());
     }
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, sAddr, data);
+    else if (data.strApt.length() == 0 && place.length() <= 4) {
+      data.strApt = append(data.strApt, "-", place);
+    } else {
+      data.strPlace = place;
+    }
+    data.strApt = append(data.strApt, "-", p.get());
     return true;
   }
 
