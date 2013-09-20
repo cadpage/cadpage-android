@@ -145,7 +145,7 @@ public class CallHistoryActivity extends ListActivity {
         
         // Before we open the call display window, see if notifications were requested
         // And if they were, see if we should launch the Scanner channel open.
-        // We can't do this in the Broadcast Recevier because this window obscurs it
+        // We can't do this in the Broadcast Receiver because this window obscures it
         // completely, so their Activity won't launch.
         
         if (intent.getBooleanExtra(EXTRA_NOTIFY, false)) {

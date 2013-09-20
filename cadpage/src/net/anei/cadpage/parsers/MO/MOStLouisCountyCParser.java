@@ -11,7 +11,7 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
   
   private static final Pattern TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)$");
   private static final Pattern LAT_LONG_PTN = Pattern.compile("(38)(\\d{6}) +(\\d{2})(\\d{6})$");
-  private static final Pattern SRC_UNIT_PTN = Pattern.compile("(?: +(SOUTH MAIN))? +(Metro West|West County|[A-Z][a-z]+(?: +[A-Z]{2,3})?) (?:\\[ )?([A-Z0-9,]+)$");
+  private static final Pattern SRC_UNIT_PTN = Pattern.compile("(?: +(SOUTH MAIN))? +(Metro West|West County|[A-Z]{1,2}[a-z]+(?: +[A-Z]{2,3})?)(?: (?:\\[ )?([A-Z0-9,]+))?$");
 
   public MOStLouisCountyCParser() {
     super("ST LOUIS COUNTY", "MO", 
@@ -24,10 +24,8 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
   }
   
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
 
-    if (!subject.equals("Cad Page") && !subject.equals("CCE911 Page")) return false;
-    
     Matcher match =  TIME_PTN.matcher(body);
     if (match.find()) {
       data.strTime = match.group(1);
@@ -48,7 +46,7 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
     if (match.find()) {
       data.strChannel = getOptGroup(match.group(1));
       data.strSource = match.group(2).trim();
-      data.strUnit = match.group(3).trim();
+      data.strUnit = getOptGroup(match.group(3));
       body = body.substring(0,match.start());
       
       // Also, the compressed version drops the : from the AT: keyword :(
