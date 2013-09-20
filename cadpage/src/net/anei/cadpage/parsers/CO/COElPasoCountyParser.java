@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgParser;
 public class COElPasoCountyParser extends MsgParser {
   
   private static final Pattern MASTER = 
-      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] *([^~]+?)~([^~]+?)~([^#\\.]+?)\\.?#([^~]*?)~([^~]*?)~(?:x:([^~]*?   +~?))?([-A-Z0-9]+) *~*");
+      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] *([^~]+?)~([^~]+?)~([^#\\.]+?)\\.?#([^~]*?)~([^~]*?)~(?:x:([^~]*?(?:   +~?|~)))?([-A-Z0-9]+) *~*");
   
   public COElPasoCountyParser() {
     super("EL PASO COUNTY", "CO");
