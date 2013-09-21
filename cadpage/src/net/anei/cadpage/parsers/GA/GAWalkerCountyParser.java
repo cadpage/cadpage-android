@@ -9,8 +9,8 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class GAWalkerCountyParser extends SmartAddressParser {
   
+  private static final Pattern UNIT_SRC_PTN = Pattern.compile("^((?:(?:[A-Z]+\\d+|[A-Z]{1,2}FD) +)*)([A-Z]{1,2}FD) +");
   private static final Pattern TRAIL_ID_PTN = Pattern.compile(" +(\\d{4}-\\d{8})");
-  private static final Pattern SRC_PTN = Pattern.compile("[A-Z]{1,2}FD");
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile(" +(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)$");
   private static final Pattern PART_DATE_TIME_PTN = Pattern.compile(" +\\d\\d/[\\d/]*(?: [\\d:]*)?$");
@@ -77,25 +77,15 @@ public class GAWalkerCountyParser extends SmartAddressParser {
   // Process new page format
   private boolean parseFormat2(String body, Data data) {
     
-    // Pick off the first two tokens, which an optional unit
-    // and a source code.
-    int pt =  body.indexOf(' ');
-    if (pt < 0) return false;
-    String part1 = body.substring(0,pt);
-    body = body.substring(pt+1).trim();
-    pt = body.indexOf(' ');
-    if (pt < 0) return false;
-    String part2 = body.substring(0,pt);
-    if (SRC_PTN.matcher(part2).matches()) {
-      data.strUnit =  part1;
-      data.strSource = part2;
-      body = body.substring(pt+1).trim();
-    } else if (SRC_PTN.matcher(part1).matches()) {
-      data.strSource = part2;
-    } else return false;
+    // Strip off units and department codes from beginning of body
+    Matcher match = UNIT_SRC_PTN.matcher(body);
+    if (!match.find()) return false;
+    data.strUnit = match.group(1).trim();
+    data.strSource = match.group(2);
+    body = body.substring(match.end());
     
     // Check for trailing ID field
-    Matcher match = TRAIL_ID_PTN.matcher(body);
+    match = TRAIL_ID_PTN.matcher(body);
     if (match.find()) {
       data.strCallId = match.group(1);
       body = body.substring(0,match.start());
@@ -112,6 +102,7 @@ public class GAWalkerCountyParser extends SmartAddressParser {
     setFieldList("UNIT SRC ADDR APT PLACE CITY CALL ID");
     return true;
   }
+
   
   private static final String[] CITY_LIST = new String[]{
     "CHICKAMAUGA",

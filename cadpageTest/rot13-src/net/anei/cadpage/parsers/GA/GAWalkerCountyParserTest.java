@@ -37,6 +37,7 @@ Fraqre: qvfcngpu@jnyxretn.bet
 (!) ESQ  ESQ 110 UBTNA EQ EBFFIVYYR Oernguvat Ceboyrzf 2013-00004512
 (!) ESQ  ESQ 520 PUVPXNZNHTN NIR OBFF INAEBFFIVYYR Nppvqrag - Ab
 (!) ESQ  4103 QNLGBA OYIQ Sver Zhghny Nvq 2013-00000346
+(!) JZ2 ESQ  ESQ 1591 CNEX PVGL EQ N15 JBBQYNAQ NCGF EBFFIVYYR Purfg
 
 */
 
@@ -253,12 +254,21 @@ choyvp pynff TNJnyxrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G7",
         "(!) ESQ  4103 QNLGBA OYIQ Sver Zhghny Nvq 2013-00000346",
-        "FEP:4103",
+        "FEP:ESQ",
         "NQQE:4103 QNLGBA OYIQ",
         "PNYY:Sver Zhghny Nvq",
         "VQ:2013-00000346");
-   
-  }
+
+    qbGrfg("G8",
+        "(!) JZ2 ESQ  ESQ 1591 CNEX PVGL EQ N15 JBBQYNAQ NCGF EBFFIVYYR Purfg",
+        "HAVG:JZ2 ESQ",
+        "FEP:ESQ",
+        "NQQE:1591 CNEX PVGL EQ",
+        "CYNPR:N15 JBBQYNAQ NCGF",
+        "PVGL:EBFFIVYYR",
+        "PNYY:Purfg");
+    
+ }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj TNJnyxrePbhaglCnefreGrfg().trarengrGrfgf("G1");
