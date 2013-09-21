@@ -12,7 +12,12 @@ public class OKCarterCountyAParser extends FieldProgramParser {
   private static final Pattern SRC_PLACE_PATTERN = Pattern.compile("(?:SERVICE +)?(\\d+)\\b.* Business\\b *(.*)");
 
   public OKCarterCountyAParser() {
-    super("ARDMORE", "OK", "Event_No:ID! Status:SKIP! Disposition:SKIP! Category:CALL! Address:ADDR! Precinct:SKIP! Sector:MAP! GEO:SKIP! Ward:SKIP! Intersection:X? Date_/_Time_Open:DATETIME! Dispatch:DATETIME! Law_Enf.:SKIP! Enroute:SKIP! Fire:SKIP! Arrival:SKIP! EMS:SKIP! Closed:SKIP! Source:SRC_PLACE! Incident_Notes:INFO!");
+    super("CARTER COUNTY", "OK", "Event_No:ID! Status:SKIP! Disposition:SKIP! Category:CALL! Address:ADDR! Precinct:SKIP! Sector:MAP! GEO:SKIP! Ward:SKIP! Intersection:X? Date_/_Time_Open:DATETIME! Dispatch:DATETIME! Law_Enf.:SKIP! Enroute:SKIP! Fire:SKIP! Arrival:SKIP! EMS:SKIP! Closed:SKIP! Source:SRC_PLACE! Incident_Notes:INFO!");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "DISPATCH@ARDMORECITY.ORG";
   }
 
   @Override
