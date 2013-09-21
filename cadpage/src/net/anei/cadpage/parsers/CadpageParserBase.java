@@ -53,6 +53,8 @@ public class CadpageParserBase  extends FieldProgramParser{
     setMap("CO");
     setMap("REC_GPS");
     setMap("PARSER");
+    setMap("DATETIME");
+    setMap("TIMEDATE");
   }
 
   /**
