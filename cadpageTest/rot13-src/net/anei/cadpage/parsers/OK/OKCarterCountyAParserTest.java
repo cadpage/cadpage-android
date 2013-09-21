@@ -117,7 +117,7 @@ Fraqre:  QVFCNGPU@NEQZBERPVGL.BET
 choyvp pynff BXPnegrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp BXPnegrePbhaglNCnefreGrfg() {
-    frgCnefre(arj BXPnegrePbhaglNCnefre(), "NEQZBER", "BX");
+    frgCnefre(arj BXPnegrePbhaglNCnefre(), "PNEGRE PBHAGL", "BX");
   }
   
   @Grfg

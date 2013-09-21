@@ -78,7 +78,7 @@ public class Message {
   // Patterns used to perform front end descrambling
   private static final Pattern RETURN_PTN = Pattern.compile("\r+\n|\n\r+|\r");
   private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \" +");
-  private static final Pattern DISCLAIMER_PTN = Pattern.compile("\\n+DISCLA.*$| *\\[Attachment\\(s\\) removed\\]$", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DISCLAIMER_PTN = Pattern.compile("\n+DISCLA| *\\[Attachment\\(s\\) removed\\]$|\n+To unsubscribe ", Pattern.CASE_INSENSITIVE);
   private static final Pattern EXCHANGE_FWD_PTN = Pattern.compile("^(?:\\[FWD?:.*\\] *\n+)?(?:--+(?:Original Message)?--+\n)?From: *(.*?)\n(?:\\[?mailto:.*\\] *\n)?(?:Date:.*\n)?(?:Sent:.*\n)?(?:To:.*\n)?(?:Subject: (.*)\n)?(?:Reply-To:.*\n)?(?:Importance:.*\n)?(?:Auto forwarded by a Rule\n)?(?!\\S*$)");
   private static final Pattern FWD_PTN = Pattern.compile("^FWD?:");
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
@@ -145,12 +145,13 @@ public class Message {
     parseSubject = decode(subject);
     
     // Remove trailing disclaimer(s)
-    body = DISCLAIMER_PTN.matcher(body).replaceFirst("");
+    Matcher match = DISCLAIMER_PTN.matcher(body);
+    if (match.find()) body = body.substring(0,match.start()).trim();
     
     // Exchange has a unique set of forwarding headers, than can be chained together :()
     body = trimLead(body, keepLeadBreak);
     while (true) {
-      Matcher match = EXCHANGE_FWD_PTN.matcher(body);
+      match = EXCHANGE_FWD_PTN.matcher(body);
       if (!match.find()) break;
       String from = match.group(1).trim();
       if (from != null) parseAddress = from;
@@ -167,7 +168,7 @@ public class Message {
       // Check the message header pattern,these contain a msg number and total
       // counts.  If the values don't match, set the flag indicating more data
       // is expected
-      Matcher match = null;
+      match = null;
       boolean found = false;
       for (Pattern ptn : MSG_HEADER_PTNS) {
         match = ptn.matcher(body);
@@ -372,7 +373,7 @@ public class Message {
     // Make one last check for a message index that might have been masked
     // by parenthesized subjects
     if (msgIndex < 0 && parseSubject.length() > 0) {
-      Matcher match = MSG_HEADER_FINAL_PTN.matcher(body);
+      match = MSG_HEADER_FINAL_PTN.matcher(body);
       if (match.find()) {
         msgIndex = Integer.parseInt(match.group(1));
         msgCount = Integer.parseInt(match.group(2));

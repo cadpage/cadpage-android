@@ -10,7 +10,9 @@ the parent window.  I thought I had found and fixed all of the code
 where this could potentially happen, but I must have missed something.
 Do you recall just what it was you were doing when this crash happened?
 
-Thanks for reporting it,
+So far, this seems to be limited to the 4.1.2 version of Android.  It might help to see if there is a system update available for your device.
+
+Thanks for reporting this,
 -Ken
 
 ***************************************************************************

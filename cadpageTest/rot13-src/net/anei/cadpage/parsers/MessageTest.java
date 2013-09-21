@@ -9,6 +9,14 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("GRFG ZRFFNTR",
+        "xra@pnqcntr.bet",
+        "",
+        "GRFG NYREG\a\a\a\a\a\a\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb grfgcntr+hafhofpevor@punysbagrzf.bet.\a\a\a\a--\a\a\a\a\a\a",
+        "xra@pnqcntr.bet",
+        "",
+        "GRFG NYREG");
+    
     qbCnefrGrfg("CNOrexfPBhagl",
         "xra@pnqcntr.bet",
         "",
@@ -362,7 +370,7 @@ choyvp pynff ZrffntrGrfg {
         "1 bs 10\aSEZ:PNQ@bgfrtbpbhagl.pbz\aFHOW:911 RIRAG\aZFT:UNMNEQ NYY|JVYORE ANGVBANY ONAX - PBBCREF|5378 FG UJL 28   FGN PBBC3 KF PB UJL 26\a(Pba'g) 2 bs 10\a/JNYAHG|09:04|ANEE FBHGU BS ONAX ZIN CQNN ARRQ SVE CBYVPR  CREFBA: (PBZCYNVANAG) (SZYF) GVZ  QBAYNA\aQvfpynvzre:\a\aGuvf pbzzhavpngvba,\a(Pba'g 3 bs 10\avapyhqvat nal nggnpuzragf, znl pbagnva pbasvqragvny vasbezngvba naq vf vagraqrq bayl sbe \agur vaqvivqhny be ragvgl gb jubz vg vf\a(Pba'g) 4 bs 10\anqqerffrq. Nal erivrj, qvffrzvangvba, be pbclvat bs guvf pbzzhavpngvba \aol nalbar bgure guna gur vagraqrq erpvcvrag vf fgevpgyl\a(Pba'g) 5 bs 10\acebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr \apbagnpg gur fraqre ol ercyl r-znvy, qryrgr naq qrfgebl nyy pbcvrf bs gur bevtv\aZber?",
         "PNQ@bgfrtbpbhagl.pbz",
         "911 RIRAG",
-        "UNMNEQ NYY|JVYORE ANGVBANY ONAX - PBBCREF|5378 FG UJL 28   FGN PBBC3 KF PB UJL 26 /JNYAHG|09:04|ANEE FBHGU BS ONAX ZIN CQNN ARRQ SVE CBYVPR  CREFBA: (PBZCYNVANAG) (SZYF) GVZ  QBAYNA\aQvfpynvzre:\a\aGuvf pbzzhavpngvba, vapyhqvat nal nggnpuzragf, znl pbagnva pbasvqragvny vasbezngvba naq vf vagraqrq bayl sbe \agur vaqvivqhny be ragvgl gb jubz vg vf nqqerffrq. Nal erivrj, qvffrzvangvba, be pbclvat bs guvf pbzzhavpngvba \aol nalbar bgure guna gur vagraqrq erpvcvrag vf fgevpgyl cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr \apbagnpg gur fraqre ol ercyl r-znvy, qryrgr naq qrfgebl nyy pbcvrf bs gur bevtv");
+        "UNMNEQ NYY|JVYORE ANGVBANY ONAX - PBBCREF|5378 FG UJL 28   FGN PBBC3 KF PB UJL 26 /JNYAHG|09:04|ANEE FBHGU BS ONAX ZIN CQNN ARRQ SVE CBYVPR  CREFBA: (PBZCYNVANAG) (SZYF) GVZ  QBAYNA");
     
     qbCnefrGrfg("APOhapbzorPbhagl1",
         "F: Z:PNQ:25 ERLABYQF ZBHAGNVA OYIQ;O20;EZ 126-N;RZRENYQ EVQTR;RZRENYQ EVQTR ERUNO NAQ PNER P;NYYRETVRF / ERNPGVBAF;JRNIREIVYYR EQ",
