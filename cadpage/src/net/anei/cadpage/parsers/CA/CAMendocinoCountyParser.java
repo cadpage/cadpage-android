@@ -19,7 +19,7 @@ public class CAMendocinoCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "meucad@fire.ca.gov";
+    return "meucad@fire.ca.gov,@albionfire.com";
   }
   
   @Override
