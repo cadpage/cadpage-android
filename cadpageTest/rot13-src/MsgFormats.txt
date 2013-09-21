@@ -6545,6 +6545,11 @@ Ybenva Pbhagl, BU
 Pbagnpg: Jnlar Ynpxb <jynpxb@ebffvapvarengvba.pbz>
 Fraqre: pnq@ybenvapb911.pbz
 PNQ:SLV: ;RZF SVEFG ERFCBAQREF;11401 ZNEGUN QE;PNE
+PNQ:SLV: ;RZF SVEFG ERFCBAQREF;11406 VAQVNA UBYYBJ EQ;PNE
+PNQ:SLV: ;RZF NZOHYNAPR;1935 TENSGBA EQ;PNE
+PNQ:Hcqngr: ;PNE SVER;HF EG 20;ZZ 11
+PNQ:PNAPRY;11401 ZNEGUN QE; PNE
+PNQ:SLV: ;RZF SVEFG ERFCBAQREF;11401 ZNEGUN QE;PNE
 **********************************************************
 **********************************************************
 **********************************************************
@@ -7043,23 +7048,6 @@ EhaGvzrf:\aHavg        Fgnghf    Gvzr\a-----------------------------------------
 **********************************************************
 ************  SNEZRQ BHG *********************************
 **********************************************************
-**********************************************************
-**********************************************************
-Xnar Pbhagl, VY (O)
-Pbagnpg: Npgvir911
-Ntrapl anzr: Gev-Pbz Prageny Qvfcngpu
-Ybpngvba: Fg. Puneyrf, VY, Havgrq Fgngrf
-Fraqre: <RZRETVA@[172.21.10.21]>
-
-FS CFLPUVNGEVP/FHVPVQR KFCBEG SVGARFF / 238 A ENAQNYY EQ, FG PUNF 9/7/2013 01:21:32
-RS URZBEEUNTR/YNPRENGVBA TERRASVRYQ BS TRARIN / 0A801 SEVRAQFUVC JL # 118,  9/6/2013 23:51:19
-RS NFFVFG 0A367 CBHYRL EQ, RYOHEA 9/6/2013 22:04:54
-FS GENHZNGVP VAWHEL FG PUNEYRF ABEGU UVT / 255 ERQ TNGR EQ, FG PUNF 9/6/2013 21:48:04
-OS FGVYY NYNEZ FG PUNEYRF ABEGU UVT / 255 ERQ TNGR EQ, FG PUNF 9/6/2013 20:17:17
-OS SNYYF UREVGNTR JBBQF BS ON / 1079 R JVYFBA # 245, ONGNIV 9/6/2013 18:52:55
-OS ZHGHNY NVQ RYOHEA SVER QRCNEGZR / 39J950 UHTURF EQ, TRARIN 9/6/2013 17:22:56
-OS FGVYY NYNEZ ONGNIVN UVTU FPUBBY / 1201 ZNVA, ONGNIVN 9/6/2013 16:59:12
-**********************************************************
 Znevba Pbhagl, BE (O)
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fnyrz Sver Qrcnegzrag
@@ -7071,6 +7059,19 @@ Fraqre: jippfhcqrfx@pvglbsfnyrz.arg
 \aNPP4\aFZS\a09/10/13 00:32:12\aPBGGNTR FG AR, FNYRZ/PBHEG FG AR, FNYRZ(ZncObbx:3518)\aR1\aFZS201309100001
 \aHAXZRQ1\aFZS\a09/09/13 23:32:38\a533 GELBA NI AR (ZncObbx:3319), FNYRZ 97301  (ZNCYR NI AR/OEBNQJNL FG AR)\aZ8, R2\aFZS201309090069
 \aHAXZRQ3\aFZS\a09/09/13 21:49:34\a1165 PURZRXRGN FG AR (ZncObbx:3519), @PNCVGBY CYNMN NCGF, FNYRZ 97301  (12GU FG AR/PNCVGBY FG AR)\aZ3\aFZS201309090068
+**********************************************************
+**********************************************************
+Fnyg Ynxr Pbhagl, HG
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fnyg Ynxr Pvgl Sver Qrcnegzrag
+Ybpngvba: Fnyg Ynxr Pvgl, HG, Havgrq Fgngrf
+Fraqre: HFQQ T2 Pbzzhavpngvbaf Tngrjnl
+(NYREG - Z1) PS13000026513\a09/19/2013 02:31:22\aABGVSVRE NYNEZ\aFHASYBJRE ZNEXRG\a216 F 700 R\a200 F\aPS\a\a
+(NYREG - Z7) PS13000026512\a09/19/2013 01:27:07\aHAPBAFPVBHF CREFBA\a900 J ABEGU GRZCYR FG\a100 A\aPS\a\a
+(NYREG - YG2, R4) PS13000026509\a09/19/2013 00:19:17\aABGVSVRE NYNEZ\aP FG / 8GU NIR\a300 R - 400 A\aPS\a\a
+(NYREG - Z7, RD6) PS13000026508\a09/18/2013 22:31:33\aSNYY\a23 F 1000 J\a1000 J\aPS\a\a
+(NYREG - Z3) PS13000026506\a09/18/2013 22:26:59\aBIREQBFR IVBYRAG\a649 R JVYFBA NIR\a1750 F\aPS\a\a
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************

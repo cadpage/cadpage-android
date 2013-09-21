@@ -20,6 +20,15 @@ Fraqre: pnqnyregf@rsbeprfbsgjner.pbz
 (Qvfcngpu Nyreg) SVER\a\a540 R PBZZREPR\aNcg \aOHSSNYB
 (Qvfcngpu Nyreg) SVER\a\a123 RNFL FG\aNcg \aPRAGREIVYYR
 
+** ABGRF **
+Nabgure rnfl bar....
+Tbvat gb thrff gung frpbaq svryq vf n cynpr anzr
+
+Purpx fhowrpg
+Cebtenz fgevat PNYY CYNPR NQQQE NCG PVGL! Abgr:VASB+
+
+Sbe gur  NCG svryq, frg hc n inyvqngvba cnggrea bs "Ncg *(.*)", gehr
+
  */
 
 

@@ -112,6 +112,17 @@ Fraqre: HFQQ T2 Pbzzhavpngvbaf Tngrjnl
 (NYREG - Z1) PS13000026349\a09/17/2013 07:18:04\aZNA QBJA\aBQLFFRL UBHFR QEHT GERNGZRAG\a68 F 600 R\a600 R\aPS\a\a
 (NYREG - Z1, R4) PS13000026347\a09/17/2013 06:24:16\aBIREQBFR\a152 R 3EQ NIR\a150 A\aPS\a\a
 
+** ABGRF **
+Cerggl onfvp SvryqCebtenzCnefre fhopynff
+Cebtenz Fgevat VQ! QNGRGVZR! PNYY! NQQE! K! FEP!
+
+purpx gur fhowrpg, pbasvez gung vg fgnegf jvgu "NYREG -" naq hfr gur erfg bs gur fhowrpg nf n havg svryq
+
+Bireevqr trgCebtenz() naq erghea "HAVG " + fhcre.trgCebtenz().
+
+Nqq fbzr inyvqngvba cnggreaf sbe svryqf jurer vg znxrf frafr.
+znxr fbhepr svryq erdhverq 2-3 nycun punenpgref.  Jr ernyyl qba'g xabj jung gung svryq vf, vg nyjnlf unir gur PS inyhr.
+
 */
 
 choyvp pynff HGFnygYnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
