@@ -177,6 +177,7 @@ public class ParserList {
           ),
           new ParserCategory("Connecticut"
               ,"CTBloomfield"                   ,"Bloomfield, CT"
+              ,"CTBrookfield"                   ,"Brookfield, CT"
               ,"CTColchesterEmergComm"          ,"Colchester Emergency Communications, CT"
               ,"CTGroton"                       ,"Groton, CT"
               ,"CTHartfordCounty"               ,"Hartford County, CT"
