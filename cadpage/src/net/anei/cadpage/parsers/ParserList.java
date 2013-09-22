@@ -614,6 +614,7 @@ public class ParserList {
               ,"OHLawrenceCounty"               ,"Lawrence County, OH"
               ,"OHLickingCounty"                ,"Licking County, OH"
               ,"OHLoganCounty"                  ,"Logan County, OH"
+              ,"OHLorainCounty"                 ,"Lorain County, OH"
               ,"OHLoveland"                     ,"Loveland, OH"
               ,"OHMadisonCounty"                ,"Madison County, OH"
               ,"OHMahoningCounty"               ,"Mahoning County, OH"

@@ -207,6 +207,11 @@ PNQ:11000831;06Q02;OERNGUVAT CEBOYRZF;5036 HF 264N R;2P;ENAPU SNEZ PG;UBYQRAF PE
 PNQ:BHGFVQR SVER - FZNYY;5047 FNJQHFG EQ;4P;YNFFVGRE ZVYY EQ;GNEGGF ZVYY EQ
 PNQ:11000827;69Q10;FGEHPGHER SVER 1;4659 RINAFQNYR EQ;5O;BYQ FGNAGBAFOHET EQ;PNFGYRJBBQ YA;403 raebhgr [05/19/11 13:53:19 QCVGGZNA] [Sver Cevbevgl Vasb] Xrl Dhr
 ***************************************************************************
+Ybenva Pbhagl, BU (BUYbenvaPbhaglCnefre)
+PNQ:SLV: ;RZF SVEFG ERFCBAQREF;11401 ZNEGUN QE;PNE
+PNQ:SLV: ;RZF SVEFG ERFCBAQREF;11406 VAQVNA UBYYBJ EQ;PNE
+PNQ:SLV: ;RZF NZOHYNAPR;1935 TENSGBA EQ;PNE
+***************************************************************************
 Terraivyyr Pbhagl, FP (FPTerraivyyrPbhaglCnefre)
 PNQ:NPXABJYRQTR PNYY;105 PEVZFBA TYBEL JNL; GENI;(F) (A)19I
 PNQ:SNYYF;105 PEVZFBA TYBEL JNL;GENI;ZVENAQL PG;GVARXR JNL;(F) (A)19I;AT1
@@ -6557,15 +6562,6 @@ Pbagnpg: wnpxfgre2024 <wnpxfgre2024@ubgznvy.pbz>
 **********************************************************
 **********************************************************
 **********************************************************
-Ybenva Pbhagl, BU
-Pbagnpg: Jnlar Ynpxb <jynpxb@ebffvapvarengvba.pbz>
-Fraqre: pnq@ybenvapb911.pbz
-PNQ:SLV: ;RZF SVEFG ERFCBAQREF;11401 ZNEGUN QE;PNE
-PNQ:SLV: ;RZF SVEFG ERFCBAQREF;11406 VAQVNA UBYYBJ EQ;PNE
-PNQ:SLV: ;RZF NZOHYNAPR;1935 TENSGBA EQ;PNE
-PNQ:Hcqngr: ;PNE SVER;HF EG 20;ZZ 11
-PNQ:PNAPRY;11401 ZNEGUN QE; PNE
-PNQ:SLV: ;RZF SVEFG ERFCBAQREF;11401 ZNEGUN QE;PNE
 **********************************************************
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
