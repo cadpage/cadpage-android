@@ -6,11 +6,11 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE  =  
-      Cnggrea.pbzcvyr("\a+Gb hafhofpevor .*$", Cnggrea.PNFR_VAFRAFVGVIR);
+      Cnggrea.pbzcvyr("(?<!\\q)\\q+\\o");
 
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("GRFG NYREG\a\a\a\a\a\a\aGb hafhofpevor sebz guvf tebhc naq fgbc erprvivat rznvyf sebz vg, fraq na rznvy gb grfgcntr+hafhofpevor@punysbagrzf.bet.\a\a\a\a--\a\a\a\a\a\a");
+    qbGrfg("Yvsr Pner Pragre bs Arj Znexrg315 YRR");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

@@ -2366,6 +2366,8 @@ public abstract class SmartAddressParser extends MsgParser {
     }
   }
   
+  private static final Pattern NO_DELIM_ADDR_PTN1 = Pattern.compile("(?<!\\d)\\d+\\b");  
+  private static final Pattern NO_DELIM_ADDR_PTN2 = Pattern.compile("(?<!\\d)\\d+$");  
   public class Result {
     private String[] tokens;
     private StartType startType;
@@ -2442,16 +2444,26 @@ public abstract class SmartAddressParser extends MsgParser {
       
       // Before we figure out with to do with the leading start field, see if some of it
       // should be stripped off and added to the address
-      // If result status indicates that we did not find a street number, check the start
-      // field for any trailing digits.  If we find any, strip them off and prepend them to
-      // the address field
+      // We use two pattern searches to do this.  If no address has been found, look for
+      // any word ending in 1 or more digits.  If we found an address but the result 
+      // status indicates it did not find a street number, restrict the previos search
+      // to the last word of the start field.  if we find a match for either pattern
+      // move the digits and everything following them to the address field
       startFld = stdPrefix;
-      if (startFldNoDelim && status < 3) {
-        int pt = startFld.length();
-        while (pt > 0 && Character.isDigit(startFld.charAt(pt-1))) pt--;
-        if (pt < startFld.length()) {
-          data.strAddress = append(startFld.substring(pt), " ", data.strAddress);
-          startFld = startFld.substring(0,pt).trim();
+      if (startFldNoDelim) {
+        Pattern searchPtn = null;
+        if (data.strAddress.length() == 0) {
+          searchPtn = NO_DELIM_ADDR_PTN1;
+        } else if (status < 3) {
+          searchPtn = NO_DELIM_ADDR_PTN2;
+        }
+        if (searchPtn != null) {
+          Matcher match = searchPtn.matcher(startFld);
+          if (match.find()) {
+            int pt = match.start();
+            data.strAddress = append(startFld.substring(pt), " ", data.strAddress);
+            startFld = startFld.substring(0,pt);
+          }
         }
       }
       
