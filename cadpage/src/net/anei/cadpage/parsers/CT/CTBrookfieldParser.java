@@ -28,7 +28,10 @@ public class CTBrookfieldParser extends FieldProgramParser {
   }
   
   private static final String[] CITY_LIST = new String[]{
+    "BRIDGEWATER",
     "BROOKFIELD",
-    "DANBURY"
+    "DANBURY",
+    "MILFORD",
+    "ROXBURY"
   };
 }
