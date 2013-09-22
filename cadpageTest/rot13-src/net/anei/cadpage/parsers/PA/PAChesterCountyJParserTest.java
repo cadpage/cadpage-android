@@ -109,6 +109,23 @@ Fraqre: nsp23@sqpzf.vasb
 (Qvfcngpu) NIAS13000924\aFRVMHERF - NYF *\a125 YRBCBYQ PG ,72\aULNGG YN & QRNQ RAQ\aJUVGR PYNL XABYY\a-\aSEAXYA\a49/Z--NPSVIRYL FRVMVAT\aQRGNVYF GB SBYYBJ\a\a21:46:\a08/27/13
 (Qvfcngpu) NIAS13000922\aPIN/FGEBXR - NYF *\a2 R UHAGRE PERRX YN ,59\aPUNGUNZ PUNFR OY & QRNQ RAQ\a\a-\aYTEBIR\a63/Z - CBFF FGEBXR\aQRGNVYF GB SBYYBJ\a\a07:24:\a08/27/13
 
+** ABGRF **
+Purfgre Pbhagl, CN vf bar bs bhe puebavp cnggreaf.  Gur frrz gb unir n fvatyr qvfcngpu pragre, nyy qrcnegzrag cntrf unir fbzr pbzzba srngherf, ohg cntr bhgchg vf fb 
+phfgbzvmnoyr gung rirel qrcnegzrag arrqf gb unir gurve bja cnefre.  Juvpu vf jul jr ner hc gb gur W irefvba :(
+
+Fhopynff CNPurfgrePbhaglOnfr.  Guvf rkgraqf SvryqCebtenzCnefre ohg nqqf n ybg bs ybtvp gb unaqyr gur pbzzba srngherf.
+Cebtenz Fgevat VQ PNYY NQQEPVGL K NCG CYNPR PVGL! VASB+? GVZR QNGR
+Gur onfr pynff unir svryq bireevqrf sbe NQQEPVGL, GVZR, naq QNGR.  Lbh jvyy unir gb bireevqr GVZR orpnhfr vg unf na
+bqq sbezng, ohg gur bgure gjb fubhyq jbex BX
+
+Bireevqr cnefrZft()
+  Purpx fhowrpg, fcyvg obql ol "\a"
+  
+Bireevqr CYNPR svryq, erzbir yrnqvat be genvyvat qnfu
+
+NCG svryq vf n thrff.   Frr vs nalguvat fubjf hc va vg.  Be punatr vg gb RZCGL naq frr vs nal cntrf qb abg cnefr
+orpnhfr gung svryq vf aba-rzcgl.
+
  */
 
 choyvp pynff CNPurfgrePbhaglWCnefreGrfg rkgraqf OnfrCnefreGrfg {
