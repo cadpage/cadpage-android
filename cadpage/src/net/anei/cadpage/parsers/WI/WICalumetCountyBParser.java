@@ -16,7 +16,7 @@ public class WICalumetCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "zoll@goldcross.org";
+    return "zoll@goldcross.org,donotreply@goldcross.org";
   }
   
   @Override
