@@ -14,6 +14,7 @@ Fraqre: mbyy@tbyqpebff.bet
 (Tbyq Pebff Nyreg - cneg 1 bs 1) EP:220 NPUVRIRZRAG QE//OEVYYVBA/Aba Rzretrapl/Snyy Ivpgvz//<Abar>/Eha# 10637/04:21/911 Pnyy (Pbhagl)//
 (Tbyq Pebff Nyreg - cneg 1 bs 1) EP:130 PNYHZRG FG//OEVYYVBA/Aba Rzretrapl/Nyyretvrf/jnyx va j/ orr fgvat/ qbrf abg jnag gb or genafcbegrq ol nzohynapr/<Abar>/Eh
 (Tbyq Pebff Nyreg - cneg 1 bs 1) EP:306 A ZNVA FG//OEVYYVBA/Aba Rzretrapl/Fvpx Crefba//<Abar>/Eha# 11405/02:22/911 Pnyy (Pbhagl)//
+[Tbyq Pebff Nyreg - cneg 1 bs 1]  EP:Eha#14945/PNYY:20:31/QVFC:20:31/RAE:20:32/NGF:20:32/GEN:20:50/NGQ:21:30/BQBZ NGF:0.1/BQBZ NGQ:22.7/ZVYRF:      22.6
 (Tbyq Pebff Nyreg - cneg 1 bs 1) EP:210 F CNEXJNL QE//OEVYYVBA/Aba Rzretrapl/Fvpx Crefba/ABA-RZRETRAPL/SRZNYR QVSSVPHYGL OERNGUVAT 81LBN/<Abar>/Eha# 16362/16:28/
 
 ** Abg Cnefvat **
