@@ -11,15 +11,15 @@ public class ZNZNewZealandParser extends SmartAddressParser {
 
   private static final Pattern END_PAGE_BREAK = Pattern.compile("#F\\d+(?=\n)");
   
-  private static final Pattern UNIT_CODE_PTN = Pattern.compile("^\\(([A-Z0-9, ]+)\\) *([ A-Z0-9]+-[A-Z]+) +");
+  private static final Pattern UNIT_CODE_PTN = Pattern.compile("^\\(([A-Z0-9, ]+)\\) *([ A-Z0-9]+-[A-Z\\d]+) +");
   private static final Pattern ALARM_TYPE_PTN = Pattern.compile("^\\((Alarm Type [-A-Z0-9/ ]+)\\) *");
   private static final Pattern BOX_PTN = Pattern.compile("^\\(Box ([-A-Z0-9 &]+)\\) *");
   private static final Pattern AK_PTN = Pattern.compile("^(AK\\d+[A-Z]? .*? > [A-Z]+\\)) +(?:AK\\d+[A-Z]? +)? *");
   private static final Pattern EXTRA_PTN = Pattern.compile("^([- A-Z0-9:&]+)\\.\\.? +");
   private static final Pattern NEAR_OFF_PTN = Pattern.compile("^((?:NEAR|OFF) [- A-Z0-9\\?]+)\\. *");
   private static final Pattern XSTR_PTN = Pattern.compile("^\\(XStr +([-A-Z0-9/ ]*)\\) *");
-  private static final Pattern DOT_DOT_PTN = Pattern.compile("^\\.([-A-Z0-9@,\\? /\\.:\\|]+)\\. *");
-  private static final Pattern GPS_PTN = Pattern.compile("^\\(x-(\\d+) ?y-(\\d+)\\) *|\\(x0 y0\\) *");
+  private static final Pattern DOT_DOT_PTN = Pattern.compile("^\\.([-A-Z0-9#@,\\? /\\.:\\|]+)\\. *");
+  private static final Pattern GPS_PTN = Pattern.compile("^\\(x-?(\\d+) ?y-?(\\d+)\\) *");
   private static final Pattern ID_PTN = Pattern.compile("#(F\\d+)");
   
   private static final Pattern UNKNNNNN = Pattern.compile("\\bUNKN\\d{4}\\b");
@@ -126,7 +126,9 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     if (match.find()) {
       String x = match.group(1);
       String y = match.group(2);
-      if (x != null) data.strGPSLoc = INT2WGS84(Double.parseDouble(x), Double.parseDouble(y));
+      if (!x.equals("0") || !y.equals("0")) {
+        data.strGPSLoc = INT2WGS84(Double.parseDouble(x), Double.parseDouble(y));
+      }
       body = body.substring(match.end());
     }
     
