@@ -292,7 +292,7 @@ choyvp pynff INFuranaqbnuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G20",
         "(Qvfcngpu Vasbezngvba) Trareny Vyyarff FVTANY XABO 38.9999615080001 -78.3469279029999 Fgenfohet PB25 ",
         "PNYY:Trareny Vyyarff",
-        "CYNPR:FVTANY XABO",
+        "NQQE:FVTANY XABO",
         "TCF:+38.999962,-78.346928",
         "PVGL:Fgenfohet",
         "HAVG:PB25");
@@ -397,7 +397,7 @@ choyvp pynff INFuranaqbnuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G31",
         "(Qvfcngpu Vasbezngvba) Vawherq Crefba RQVAOHET TNC 38.803647643 -78.5236678759999 Pbhagl PB15 PB14 PB21 PB5 ",
         "PNYY:Vawherq Crefba",
-        "CYNPR:RQVAOHET TNC",
+        "NQQE:RQVAOHET TNC",
         "TCF:+38.803648,-78.523668",
         "HAVG:PB15 PB14 PB21 PB5");
 
@@ -884,7 +884,7 @@ choyvp pynff INFuranaqbnuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G87",
         "(Qvfcngpu Vasbezngvba) Vawherq Crefba PNIR EVQTR 38.834328962 -78.6405727869999 Pbhagl PB13 PB21 ",
         "PNYY:Vawherq Crefba",
-        "CYNPR:PNIR EVQTR",
+        "NQQE:PNIR EVQTR",
         "TCF:+38.834329,-78.640573",
         "HAVG:PB13 PB21");
 

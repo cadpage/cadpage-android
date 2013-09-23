@@ -74,7 +74,7 @@ public class ZAUNewSouthWalesBParser extends SmartAddressParser {
     }
     
     else {
-      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, p.get(), data);
+      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, p.get(), data);
     }
     
     if (city != null) data.strCity = city;

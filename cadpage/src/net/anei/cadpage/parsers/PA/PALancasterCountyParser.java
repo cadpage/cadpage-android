@@ -53,7 +53,7 @@ public class PALancasterCountyParser extends FieldProgramParser {
       } else {
         String call = data.strCall;
         data.strCall = "";
-        parseAddress(StartType.START_CALL, FLAG_ONLY_CITY | FLAG_ANCHOR_END, field, data);
+        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ONLY_CITY | FLAG_ANCHOR_END, field, data);
         data.strCall = append(call, " / ", data.strCall);
         if (data.strCall.length() == 0 || data.strCity.length() == 0) abort();
       }

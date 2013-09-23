@@ -57,7 +57,7 @@ public class NCMecklenburgCountyBParser extends SmartAddressParser {
     if (!match.find()) return false;
     data.strUnit = part2.substring(match.start()).trim();
     part2 = part2.substring(0,match.start()).trim();
-    parseAddress(StartType.START_CALL, FLAG_ONLY_CROSS | FLAG_ANCHOR_END, part2, data);
+    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ONLY_CROSS | FLAG_ANCHOR_END, part2, data);
     
     int pt = part1.lastIndexOf(' ');
     if (pt >= 0) {

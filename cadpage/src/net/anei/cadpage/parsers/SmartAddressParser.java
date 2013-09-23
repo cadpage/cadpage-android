@@ -138,6 +138,12 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_EMPTY_ADDR_OK = 0x40000;
   
+  /**
+   * Flag indicating that entire line should be assigned to address in 
+   * the event of a full parser failure
+   */
+  public static final int FLAG_FALLBACK_ADDR = 0x80000;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -596,6 +602,7 @@ public abstract class SmartAddressParser extends MsgParser {
     address = address.trim();
     Result result = parseAddressInternal(sType, flags, address);
     
+    result.fallbackAddr = isFlagSet(FLAG_FALLBACK_ADDR);
     result.startFldNoDelim = isFlagSet(FLAG_START_FLD_NO_DELIM);
     
     // Now is where we use the result to compute the true prefix and leftover segments
@@ -2390,6 +2397,7 @@ public abstract class SmartAddressParser extends MsgParser {
     private String startFld = null;
     private String left = null;
     private boolean mBlankLeft = false;
+    boolean fallbackAddr = false;
     boolean startFldNoDelim = false;
     
     public void reset() {
@@ -2468,16 +2476,27 @@ public abstract class SmartAddressParser extends MsgParser {
       }
       
       if (callPrefix != null) data.strCall = callPrefix;
-      switch (startType) {
-      case START_CALL:
-      case START_CALL_PLACE:
-        data.strCall = append(data.strCall, " / ", startFld);
-        break;
-      case START_PLACE:
-        if (data.strPlace.length() == 0) data.strPlace = startFld;
-        break;
+      
+      // If no address field has been found, but we have a start field and caller
+      // has requested fallback to put everything in the address field, make it so
+      if (data.strAddress.length() == 0 && startFld.length() > 0 && fallbackAddr) {
+        parseAddress(startFld, data);
+        startFld = "";
       }
       
+      // Otherwise, assign the start field to where it seems appropriate
+      else {
+        switch (startType) {
+          case START_CALL:
+          case START_CALL_PLACE:
+            data.strCall = append(data.strCall, " / ", startFld);
+            break;
+          case START_PLACE:
+            if (data.strPlace.length() == 0) data.strPlace = startFld;
+            break;
+        }
+      }
+    
       // We do the NEAR field last, because it requires a lot of special treatment
       if (nearField != null) {
         

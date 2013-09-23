@@ -38,7 +38,7 @@ public class VAShenandoahCountyParser extends SmartAddressParser {
     String extra = body.substring(match.end());
     
     if (gps != null) setGPSLoc(gps, data);
-    parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_NO_DELIM | FLAG_NO_CITY | FLAG_ANCHOR_END, addr, data);
+    parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_START_FLD_NO_DELIM | FLAG_FALLBACK_ADDR | FLAG_NO_CITY | FLAG_ANCHOR_END, addr, data);
     
     // Unit names like CO47 look like county roads, so we will tell the address parser that 
     // the city may be followed by cross streets
