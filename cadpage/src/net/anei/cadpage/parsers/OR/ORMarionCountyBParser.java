@@ -26,7 +26,7 @@ public class ORMarionCountyBParser extends FieldProgramParser {
     return super.getField(name);
   }
 
-  public static Pattern FIELD_CLEANUP_PATTERN = Pattern.compile(".*\\(([^/]*,[^/]*)\\)");
+  public static Pattern FIELD_CLEANUP_PATTERN = Pattern.compile(".*?\\(([^/]*,[^/]*)\\)");
   public static Pattern REMOVE_MAPBOOK_PATTERN = Pattern.compile("(.*?)(?:\\(MapBook:(\\d{4})\\))(.*?)");
   public static Pattern REMOVE_ZIP_PATTERN = Pattern.compile("(.+?)(?:[, ]+\\d{5}|,? 0)$");
   public static Pattern INTERSECTION_CLEANUP_PATTERN = Pattern.compile("(.*),.*(&.*)");
@@ -52,14 +52,17 @@ public class ORMarionCountyBParser extends FieldProgramParser {
       Parser p = new Parser(field);
       if (field.endsWith(")")) {
         p.getLast(")");
-        data.strCross = p.getLast("(");
+        field = p.getOptional("(");
+        data.strCross = p.get();
         //remove preceding and trailing slashes
         int si = data.strCross.indexOf("/");
         if (si == 0) data.strCross = data.strCross.substring(1);
         else if (si == data.strCross.length() - 1) data.strCross = data.strCross.substring(0, data.strCross.length() - 1);
+        p = new Parser(field);
       }
 
       data.strCity = p.getLastOptional(",");
+      if (NUMERIC.matcher(data.strCity).matches()) data.strCity = p.getLastOptional(","); 
       data.strPlace = p.getLastOptional(", @");
       super.parse(p.get(), data);
       if (data.strAddress.length() == 0) abort();
@@ -73,6 +76,10 @@ public class ORMarionCountyBParser extends FieldProgramParser {
       if (intMat.matches()) {
         data.strAddress = intMat.group(1).trim() + " " + intMat.group(2);
       }
+      
+      //  Remove anything following a comma that is left in the address
+      int pt = data.strAddress.indexOf(',');
+      if (pt >= 0) data.strAddress = data.strAddress.substring(0,pt).trim();
     }
 
     @Override
