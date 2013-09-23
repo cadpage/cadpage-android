@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.TX;
 
+import java.util.Properties;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -11,13 +12,13 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
   private static final Pattern SUBJECT_PTN = Pattern.compile(".* FIRE", Pattern.CASE_INSENSITIVE);
   
   public TXGalvestonCountyParser() {
-    super("GALVESTON COUNTY", "TX",
-          "ADDR/aSCI INFO+");
+    super(CITY_CODES, "GALVESTON COUNTY", "TX",
+          "ID?: ( FYI SRC CALL ADDR CITY UNIT DATETIME! | ADDR/aSCI! ) INFO+");
   }
   
   @Override
   public String getFilter() {
-    return "iammessaging.com,777,888,410,CAD@ci.dickinson.tx.us";
+    return "iammessaging.com,777,888,410,CAD@ci.dickinson.tx.us,cad@ossicadpaging.com";
   }
   
   @Override
@@ -38,13 +39,19 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
       return false;
     } while (false);
     
-    if (!body.startsWith("CAD:")) body = "CAD:" + body;
+    if (!body.startsWith("CAD:") && !body.contains(":CAD:")) body = "CAD:" + body;
     return super.parseMsg(body, data);
   }
   
   @Override
   public String getProgram() {
     return "SRC " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
   }
   
   private static final Pattern AVE_X_ST_PTN = Pattern.compile("\\bAVE ([A-Z]) ST\\b");
@@ -56,6 +63,7 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
       field = AVE_X_ST_PTN.matcher(field).replaceAll("AVE_$1 ST");
       super.parse(field, data);
       data.strAddress = AVE_X_ST_PTN2.matcher(data.strAddress).replaceAll("AVE $1");
+      if (data.strAddress.length() == 0) abort();
     }
     
     @Override
@@ -64,9 +72,8 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    return super.getField(name);
-  }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "FW", "FRIENDSWOOD"
+  });
 }
