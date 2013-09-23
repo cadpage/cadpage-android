@@ -56,7 +56,7 @@
   
   <string name="donate_paid_title">Your Cadpage subscription is current</string>
   <string name="donate_paid_text">
-    You have a current Cadpage subscription that is good until %s
+    You have a current Cadpage subscription that is good until\n%s
   </string>
   
   <string name="donate_sponsor_title">Sponsored by %s</string>

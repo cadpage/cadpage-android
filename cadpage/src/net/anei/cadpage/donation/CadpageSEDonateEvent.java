@@ -1,6 +1,7 @@
 package net.anei.cadpage.donation;
 
 import net.anei.cadpage.R;
+import net.anei.cadpage.donation.DonationManager.DonationStatus;
 
 /**
   Sweden location
@@ -24,7 +25,8 @@ public class CadpageSEDonateEvent extends DonateScreenEvent {
   
   @Override
   public boolean isEnabled() {
-    return ("SE".equals(DonationManager.instance().sponsor()));
+    return (DonationManager.instance().status() == DonationStatus.SPONSOR &&
+            "SE".equals(DonationManager.instance().sponsor()));
   }
 
   private static final CadpageSEDonateEvent instance = new CadpageSEDonateEvent();

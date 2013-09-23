@@ -1,5 +1,8 @@
 package net.anei.cadpage.donation;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
@@ -71,12 +74,13 @@ public class DeveloperToolsManager {
     "Content Query",
     "Recent Tasks",
     "Stat: Roll Last Date",
-    "Build Test Message"
+    "Build Test Message",
+    "Status test"
     
   };
   
   private static final String[] valueList = new String[]{
-    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"
+    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"
   };
   
   private class DeveloperListPreference extends ListPreference {
@@ -225,6 +229,20 @@ public class DeveloperToolsManager {
         SmsReceiver.processCadPage(context, message);
         break;
         
+      case 15:    // Situation specific status test
+        ManagePreferences.setPaidYear(2013);
+        ManagePreferences.setInstallDate(buildDate("09162013"));
+        ManagePreferences.setPurchaseDate(buildDate("09162013"));
+        ManagePreferences.setFreeRider(false);
+        ManagePreferences.setSponsor(null);
+        ManagePreferences.setFreeSub(false);
+        ManagePreferences.setAuthLocation(null);
+        ManagePreferences.setAuthExemptDate(null);
+        ManagePreferences.setAuthExemptDate(null);
+        ManagePreferences.setAuthRunDays(0);
+        ManagePreferences.setAuthLastCheckTime(1379942474422L);
+        break;
+        
       case 31:    // C2DM Register
         C2DMService.register(context);
         break;
@@ -284,6 +302,14 @@ public class DeveloperToolsManager {
     
   }
   
+  private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
+  private Date buildDate(String dateStr) {
+    try {
+      return DATE_FORMAT.parse(dateStr);
+    } catch (ParseException ex) {
+      throw new RuntimeException(ex);
+    }
+  }
   
   
   
