@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">09162013</string>
-  <string name="release_version">v1.6.42</string>
+  <string name="release_date">09232013</string>
+  <string name="release_version">v1.6.43</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Yavapai County, AZ (alt)\n
-Santa Clara County, CA (alt)\n
-Clayton County, GA\n
-Stark County, IL\n
-Jasper County, IN\n
-Gallatin County, KY\n
-Logan County, OH\n
-Summit County, OH (alt)\n
-Nacogdoches County, TX\n
-Henrico County, VA\n
+Brookfield, CT\n
+Kane County, IL (alt)\n
+Lorain County, OH\n
+Carter County, OK\n
+Marion County, OR (alt)\n
+Wayne County, PA\n
+Leon County, TX\n
+Shenandoah County, VA\n
 \n
 Location Parsing Fixes:\n
-Sanoma County, CA\n
-Jefferson County, CO\n
-Kootenai County, ID\n
-Kaane County, IL\n
-Starke County, IN\n
-Hamilton County, OH\n
+Yavapai County, AZ\n
+Garland County, AR\n
+Mendocino County, CA\n
+Adams County, CO\n
+El Paso County, CO\n
+Walker County, GA\n
 St Louis County, MO\n
-Greene County, NY\n
-Nassau County, NY\n
-Jefferson County, PA\n
-Monroe County, PA\n
-Anderson County, TN\n
-Loudoun County, VA\n
-Morgan County, WV\n
+Almance County, NC\n
+Wayne County, OH\n
+Clearfield County, PA\n
+Mercer County, PA\n
+Yakima County, PA\n
+Collin County, TX\n
+Harris County ESD#1, TX\n
+Calumet County, WI\n
+New Zealand\n
 \n
 General Fixes:\n
-Use Yellow color instead of bold text to mark unopened calls.\n
+Fixed problems with lock screen handling in Android 4.0 and up\n
+Remove Google Group unsubscribe notice from all pages\n
   </string>  
 </resources>
   
