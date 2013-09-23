@@ -25,9 +25,20 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("ARNS ALERT")) return false;
-    if (!body.startsWith("NEW - ")) return false;
-    body = body.substring(6).trim();
+    do {
+      if (subject.equals("ARNS ALERT") &&  body.startsWith("NEW - ")) {
+        body = body.substring(6).trim();
+        break;
+      }
+      
+      if (body.startsWith("Arns Alert\n")) {
+        body = body.substring(11).trim();
+        break;
+      }
+
+      return false;
+    
+    } while (false);
     return parseFields(body.split("\n"), data);
   }
 

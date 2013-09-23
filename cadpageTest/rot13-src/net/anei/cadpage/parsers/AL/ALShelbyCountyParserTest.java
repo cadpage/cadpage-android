@@ -440,6 +440,10 @@ Fraqre: NEAF Nyreg <neaf@furyol911.bet>
 (NEAF NYREG) ARJ - SVER1311453\a2013-06-30 16:31:22\aNYNONFGRE - FGN1\aPURFGCNVA\a8254 17 UJL NYNO ZNL: @PBZZHAVGL ONCGVFG\a\aZNCYR FG::PUVANOREEL YA\aNG&G ZBOVYVGL
 (NEAF NYREG) ARJ - SVER1311435\a2013-06-30 05:23:06\aNYNONFGRE - FGN2\aTRARENY\a108 ZBEAVAT ZVFG GE NYNO NYN\a\aFVYIREFGBAR YA::\aG-ZBOVYR HFN
 
+Pbagnpg: tenql tragel <tenqltragel1@tznvy.pbz>
+Fraqre: neaf@furyol911.bet
+(SVER1317122) Neaf Nyreg\aSVER1317122\a2013-09-23 08:54:43\aFR_FURYOL - FGN3\aPNEQVNP-NQYG\a5015 UJL 47 FURY FUR\a\aUREVGNTR EQ::UJL 99\anzl inafnag
+
 */
 
 choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -7444,6 +7448,32 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:108 ZBEAVAT ZVFG GE",
         "PVGL:NYNONFGRE",
         "K:FVYIREFGBAR YA");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgTenqlTragel() {
+
+    qbGrfg("G1",
+        "(SVER1317122) Neaf Nyreg\a" +
+        "SVER1317122\a" +
+        "2013-09-23 08:54:43\a" +
+        "FR_FURYOL - FGN3\a" +
+        "PNEQVNP-NQYG\a" +
+        "5015 UJL 47 FURY FUR\a\a" +
+        "UREVGNTR EQ::UJL 99\a" +
+        "nzl inafnag",
+
+        "VQ:SVER1317122",
+        "QNGR:09/23/2013",
+        "GVZR:08:54:43",
+        "FEP:FR_FURYOL",
+        "HAVG:FGN3",
+        "PNYY:PNEQVNP-NQYG",
+        "NQQE:5015 UJL 47",
+        "PVGL:FURYOL",
+        "K:UREVGNTR EQ/UJL 99",
+        "ANZR:nzl inafnag");
 
   }
   
