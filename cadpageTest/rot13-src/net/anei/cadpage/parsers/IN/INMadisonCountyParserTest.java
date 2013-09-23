@@ -4,7 +4,7 @@ vzcbeg bet.whavg.rkcrevzragny.ehaaref.Rapybfrq;
 vzcbeg bet.whavg.ehaare.EhaJvgu;
 
 /*
-Unzvygba Pbhagl, VA
+Znqvfba Pbhagl, VA
 
 */
 
@@ -12,15 +12,15 @@ Unzvygba Pbhagl, VA
 @EhaJvgu(Rapybfrq.pynff)
 choyvp pynff VAZnqvfbaPbhaglCnefreGrfg {
   
-  choyvp fgngvp pynff GrfgN rkgraqf VAUnzvygbaPbhaglNCnefreGrfg {
+  choyvp fgngvp pynff GrfgN rkgraqf VAZnqvfbaPbhaglNCnefreGrfg {
     choyvp GrfgN() {
-      frgCnefre(arj VAUnzvygbaPbhaglCnefre());
+      frgCnefre(arj VAZnqvfbaPbhaglCnefre());
     }
   }
   
-  choyvp fgngvp pynff GrfgO rkgraqf VAUnzvygbaPbhaglOCnefreGrfg {
+  choyvp fgngvp pynff GrfgO rkgraqf VAZnqvfbaPbhaglOCnefreGrfg {
     choyvp GrfgO() {
-      frgCnefre(arj VAUnzvygbaPbhaglCnefre());
+      frgCnefre(arj VAZnqvfbaPbhaglCnefre());
     }
   }
   
