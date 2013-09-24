@@ -1,7 +1,6 @@
 cnpxntr arg.narv.pnqcntr.cnefref.IN;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.IN.INSerqrevpxPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 

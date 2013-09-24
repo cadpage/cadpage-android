@@ -120,7 +120,7 @@ vzcbeg bet.whavg.Grfg;
  Pbagnpg: Npgvir911
  Ntrapl anzr: Zbagtbzrel Pbhagl Sver  Erfphr - Znva
  Ybpngvba: Zbagtbzrel Pbhagl, ZQ, Havgrq Fgngrf
- * Sebz: "Trareny Nyreg" <tranyeg_T8CG@zpra.zbagtbzrelpbhaglzq.tbi>
+ Sebz: "Trareny Nyreg" <tranyeg_T8CG@zpra.zbagtbzrelpbhaglzq.tbi>
 
  (Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 2012 * CVP - HAX FGNGHF * A270N 495-EBPXYRQTR OYIQ @ 501 A270 495 GB K1 UJL ,ZPT  * Z741Q PJRZF PJSHYY RPP20\a\aFrag ol Zbagtbzrel PNQ gb PJRZF, PJSHYY, QSEF, SF20, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a\e\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
  (Vzcbegnag zrffntr sebz ZPRA) PNQ ZFT: * Q * 2821 * FVPX j/ NYGRERQ YBP- NYF1 * 7600 JNEOYRE YN ,ZPT  * N728 CR728 RPP11\a\aFrag ol Zbagtbzrel PNQ gb N728, CR728, SF28, Zbagtbzrel PNQ (R-znvy nppbhagf, Cntref, Pryy cubarf) guebhtu gur Zbagtbzrel Pbhagl Rzretrapl Argjbex \e\a\e\a...Cbjrerq ol gur Ebnz Frpher Nyreg Argjbex\e\a----\e\a- Hcqngr lbhe ZPRA nppbhag ng uggcf://zpra.zbagtbzrelpbhaglzq.tbi
