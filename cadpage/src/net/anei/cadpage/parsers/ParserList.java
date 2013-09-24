@@ -660,6 +660,7 @@ public class ParserList {
               ,"ORLakeOswego"                   ,"Lake Oswego, OR"
               ,"ORLaneCounty"                   ,"Lane County, OR"
               ,"ORLincolnCity"                  ,"Lincoln City, OR"
+              ,"ORLincolnCounty"                ,"Lincoln County, OR"
               ,"ORLinnCounty"                   ,"Linn County, OR"
               ,"ORMarionCounty"                 ,"Marion County, OR"
               ,"ORWashingtonCounty"             ,"Washington County, OR"

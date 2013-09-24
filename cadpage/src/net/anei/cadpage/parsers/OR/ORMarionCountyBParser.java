@@ -9,7 +9,16 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ORMarionCountyBParser extends FieldProgramParser {
 
   public ORMarionCountyBParser() {
-    super("MARION COUNTY", "OR", "CALL SRC DATETIME ADDR/iS UNIT ID!");
+    this("MARION COUNTY", "OR");
+  }
+  
+  protected ORMarionCountyBParser(String defCity, String defState) {
+    super(defCity, defState, "CALL SRC DATETIME ADDR/iS UNIT ID!");
+  }
+
+  @Override
+  public String getAliasCode() {
+    return "ORMarionCountyB";
   }
 
   @Override
