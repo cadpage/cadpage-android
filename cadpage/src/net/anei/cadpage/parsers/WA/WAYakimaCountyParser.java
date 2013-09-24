@@ -11,13 +11,13 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class WAYakimaCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER = 
-    Pattern.compile("(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d) (.*?) ([A-Z]{2}FD|AMR|ALS)((?: +(?:[A-Z]+\\d+[A-Z]?|AOA))+)(?: +(.*))?");
+    Pattern.compile("(?:(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d)|\\*\\*\\.\\*\\*\\.\\*\\* \\*\\*/\\*\\*/\\*\\*) (.*?) ([A-Z]{2}FD|AMR|ALS|SCOM)((?: +(?:[A-Z]+\\d+[A-Z]?|AOA))+)(?: +(.*))?");
   private static final Pattern APT_MARK_PTN = Pattern.compile(" +(?:APT|ROOM) +", Pattern.CASE_INSENSITIVE);
   
   public WAYakimaCountyParser() {
     super("YAKIMA COUNTY", "WA");
     setup();
-    setFieldList("TIME DATE CALL ADDR PLACE SRC UNIT INFO");
+    setFieldList("TIME DATE CALL ADDR APT PLACE SRC UNIT INFO");
   }
   
   @Override
@@ -30,8 +30,8 @@ public class WAYakimaCountyParser extends SmartAddressParser {
     
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
-    data.strTime = match.group(1).replace('.', ':');
-    data.strDate = match.group(2);
+    data.strTime = getOptGroup(match.group(1)).replace('.', ':');
+    data.strDate = getOptGroup(match.group(2));
     String sAddr = match.group(3).trim();
     data.strSource = match.group(4);
     data.strUnit = match.group(5).trim();
