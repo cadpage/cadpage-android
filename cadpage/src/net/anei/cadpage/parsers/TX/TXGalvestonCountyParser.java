@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.TX;
 
-import java.util.Properties;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -12,13 +11,13 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
   private static final Pattern SUBJECT_PTN = Pattern.compile(".* FIRE", Pattern.CASE_INSENSITIVE);
   
   public TXGalvestonCountyParser() {
-    super(CITY_CODES, "GALVESTON COUNTY", "TX",
-          "ID?: ( FYI SRC CALL ADDR CITY UNIT DATETIME! | ADDR/aSCI! ) INFO+");
+    super("GALVESTON COUNTY", "TX",
+          "ADDR/aSCI! INFO+");
   }
   
   @Override
   public String getFilter() {
-    return "iammessaging.com,777,888,410,CAD@ci.dickinson.tx.us,cad@ossicadpaging.com";
+    return "iammessaging.com,777,888,410,CAD@ci.dickinson.tx.us";
   }
   
   @Override
@@ -39,7 +38,7 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
       return false;
     } while (false);
     
-    if (!body.startsWith("CAD:") && !body.contains(":CAD:")) body = "CAD:" + body;
+    if (!body.startsWith("CAD:")) body = "CAD:" + body;
     return super.parseMsg(body, data);
   }
   
@@ -71,9 +70,4 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
       return super.getFieldNames() + " X";
     }
   }
-  
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "FW", "FRIENDSWOOD"
-  });
 }
