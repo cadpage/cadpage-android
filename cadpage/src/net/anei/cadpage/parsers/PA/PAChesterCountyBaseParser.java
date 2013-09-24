@@ -18,6 +18,11 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     return true;
   }
   
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("CITY", "CITY ST");
+  }
+  
   // ADDRPL: address - place
   protected class AddressPlaceField extends AddressField {
     
