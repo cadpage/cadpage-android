@@ -7109,6 +7109,21 @@ VatunzPB:13-0218150* 552 VFORYY FG* HC* * YNAFVAT* Yvar6=ENL FG* Yvar7=YVAINY FG
 VatunzPB:13-0218135* 1710 ENL FG* * * YNAFVAT* Yvar6=VFORYY FG* Yvar7=ABEZNA FG* Yvar8=* Yvar9=* Yvar10=SZVABE* Yvar11=PNE SVERF, QHZCFGRE, VYYRTNY OHEAF, PB NYNEZF, JVERF QBJA* Yvar12=wraavsre* Yvar13=517-574-6413* Yvar14=OP41,RAT49* Yvar15=226* Yvar16=Zrqvpny: Ab* Yvar17=Unmneqf: Ab* Yvar18=09/04/2013 19:53:53 : cbf8 : izrevyyng Pnyyf 13-0218130,13-0218135 ner eryngrq. 09/04/2013 19:51:52 : cbf3 : gjryg Pebff fgerrgf: VFORYY FG//ABEZNA FG bar ubhfr abegu .. 14 lb jz oybaqr unbe oyx/juv fuveg frg gur ubhf rba sver... anoe chg vg bhg ... xvq yrsg ha xqverpgvba... ur yvirf gurer*
 VatunzPB:13-0218150* 552 VFORYY FG* HC* * YNAFVAT* Yvar6=ENL FG* Yvar7=YVAINY FG* Yvar8=* Yvar9=* Yvar10=ZRQVP* Yvar11=ZRQVPNY ERFCBAFR* Yvar12=QNIVQ* Yvar13=517-331-7141* Yvar14=ZRQ46* Yvar15=226* Yvar16=Zrqvpny: Ab* Yvar17=Unmneqf: Ab* Yvar18=09/04/2013 20:02:51 : cbf5 : gtebff VF ABG JVYYVAT GB CHG GUR XAVSR QBJA....VF FNLVAT UR`F TBVAT GB OR QRNQ ORSBER NZOHYNAPR TRGF URER 09/04/2013 20:02:06 : cbf5 : gtebff CNGVRAG VF OEVNA...FGVYY UNF N FGRNX XAVSR...VF OYRRQVAT 09/04/2013 20:01:14 : cbf5 : gtebff Pnyyf 13-0218149,13-0218150 ner eryngrq. Pebff fgerrgf: ENL FG//YVAINY FG EC`F EBBZZNGR WHFG PHG UVF JEVFGF...FGVYY UNF GUR XAVSR*
 **********************************************************
+Lnqxva Pbhagl, AP
+Pbagnpg: Npgvir911
+Ntrapl anzr: Obbaivyyr Ibyhagrre Sver Qrcg
+Ybpngvba: Obbaivyyr, AP, Havgrq Fgngrf
+Fraqre: PNQ@lnqxvapbhaglap.tbi 
+
+(3345 EBPXSBEQ EQ OBBAIVYYR;OYHRTENFF UVYY QE K AROB EQ;ZQY 17O01-T;17 SNYYF;trb) 36.214293, -80.654732;VA GUR XVGPURA BPN: 1309029
+(Grkg Zrffntr) 5149 AP 67 UJL OBBAIVYYR;FGVAFBA EQ K ORR QRR QE;ZQY 19P07;19 URNEG CEBOYRZF/N.V.P.Q;trb:36.227856, -80.667114;202/106 BPN: 1309028
+(4700 ap 67 ujl r OBBAIVYYR;ZQY 19Q02;19 URNEG CEBOYRZF/N.V.P.Q;trb) 36.22985, -80.68833; BPN: 1309025
+(Grkg Zrffntr) 10-100 210 R URZYBPX FG LNQXVAIVYYR;A WNPXFBA FG K A INA OHERA FG;S Sver Bgure;trb:36.135847, -80.657903;Unir nyy SQf naq Erfphr Fdhnq erfcbaq gb gurve fgngvbaf naq fgnaq-ol hagvy shegure abgvpr BPN: 1309024
+(Grkg Zrffntr) RZRETRAPL FREIVPRF NQZVA 108 TRBETR FG LNQXVAIVYYR;J ZNVA FG K TRBETR FG;S Sver Bgure;trb:36.135045, -80.672713; BPN: 1309022
+(3926 oynxr ebnq WBARFIVYYR;ZQY 10Q02;10 PURFG CNVA; BPN) 1309021
+(229 R ZNVA FG OBBAIVYYR;ZVYY FG K GENAFBH NIR;ZQY 32O01;32 HAXABJA CEBOYRZ;trb) 36.232706, -80.703536;ORGGL FCVPRE BPN: 1309020
+(Grkg Zrffntr) 518 J ZNVA FG OBBARIVYYR;*JNFUVATGBA FG (Irevsl) K *RNFL JNL QE (Irevsl);ZQY 02P01;02 NYYRETVRF/RAIRABZNGVBAF;NCG 2 N BPN: 1309019
+(1 ZBKYRL EQ OBBAIVYYR;ZQY 29Q02-y;29 GENSSVP/GENAFCBEGNGVBA VAPVQRAGF;trb) 36.214024, -80.730916;VA N PHEIR CNFG NVE CBEG PBZVAT SEBZ OBBAIVYYR N OYHROREEL SVRYQ BPN: 1309018
 **********************************************************
 **********************************************************
 **********************************************************

@@ -58,7 +58,6 @@ Fraqre: PNQ@lnqxvapbhaglap.tbi
 (Grkg Zrffntr) 4253 TNQOREEL EQ OBBAIVYYR;TNQOREEL EQ K EBPXSBEQ EQ;ZQY 10P04;26 FVPX CREFBA;trb:36.252228, -80.650896;
 (Grkg Zrffntr) 4700 AP 67 UJL OBBARIVYYR;*EVQTR FG (Irevsl) K *TBYS PBHEFR EQ (Irevsl);ZQY 10P02;10 PURFG CNVA;
 (3837 FBAARG QE OBBAIVYYR;EVIRE EQ K FBAARG QE;ZQY 32Q01;32 HAXABJA CEBOYRZ;trb) 36.236147, -80.69705;
-Grfgvat Npgvir 911 sbe Fg13..Avpx Jlyvr pbasvez ol nqivfvat 195 ivn enqvb ba Sver S1
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Sbeohfu Sver Qrcnegzrag 
@@ -76,11 +75,7 @@ Fraqre: PNQ@lnqxvapbhaglap.tbi, sbeflgupbhaglsve@oryyfbhgu.arg
 (Grkg Zrffntr) 1725 QVAXVAF OBGGBZ EQ LNQXVAIVYYR;BYQ HF 421 UJL R K CNEEVFU QE;ZQY 21O01;21 URZBEEUNTR/YNPRENGVBAF;trb:+036.119785, -080.533733;NEZ OYRRQVAT BPN: 1309006
 (Grkg Zrffntr) 1032 HAVSV VAQHFGEVNY EQ LNQXVAIVYYR;R ZNVA FG K HF 421 UJL;SQY 52P03-T;52 Sver Nynez Pb;trb:36.133339, -80.638491;havsv BPN: 1309004
 (Grkg Zrffntr) 1032 HAVSV VAQHFGEVNY EQ LNQXVAIVYYR;R ZNVA FG K HF 421 UJL;SQY 52P03-T;52 Sver Nynez Pb;trb:36.133339, -80.638491;HAVSV FCVAAVAT QRCG..TRARENY SVER NYNEZ BPN: 1309003
-Ybpngvba: 8680 FUNYYBJSBEQ EQ SP Angher: Nynezf - Sver be Fzbxr C:1  - qrsnhyg QVFGEVPG: S13 K Fge: FYNGRE SNEZ EQ/FGEHCR EQ PNYYRE ANZR: ZBAGEBAVPF/FUNEV 
-SVER NYNEZ 136 YBJRF SBBQ QE
-Ybpngvba: 136 YBJRF SBBQ QE SP: @ERFBHPR CYNAAVAT, VAP. Angher: Nynezf - Sver be Fzbxr C:1  - qrsnhyg QVFGEVPG: S11 K Fge: WRAAVATF EQ/FUNYYBJSBEQ EQ PNYYRE ANZR: FVZCYRK 
 (1 HF 421 UJL LNQXVAIVYYR;ZQY 29O01;29 GENSSVP/GENAFCBEGNGVBA VAPVQRAGF;trb) 36.118749, -80.651303;421 arne onygvzber rkvg - ao BPN: 1309001
-Ybpngvba: 115 FCEVAXYR ZVYY PVE YR Angher: Nynezf - Sver be Fzbxr C:1  - qrsnhyg QVFGEVPG: S11 K Fge: FUNYYBJSBEQ EQ/ PNYYRE ANZR: FNEUN 
 (Grkg Zrffntr) PHGGREF 1420 FCRRE OEVQTR EQ LNQXVAIVYYR;BYQ HF 421 UJL R K HF 421 UJL;ZQY 26P02;26 FVPX CREFBA;trb:36.119557, -80.5457;pnyyre va n tbyq znmqn BPN: 1308025
 (Grkg Zrffntr) 1 421 A OBHAQ LNQXVAIVYYR;ZQY 29Q01-n;29 GENSSVP/GENAFCBEGNGVBA VAPVQRAGF;BA GUR LNQXVA PBHAGL FVQR....QVAXVAF OBGGBZF NERN BPN: 1308024
 (Grkg Zrffntr) 5316 WBARF EQ RNFG ORAQ;YBARFBZR CVAR QE K UNECRE EQ;ZQY 21O03;21 URZBEEUNTR/YNPRENGVBAF;trb:36.126164, -80.471569; BPN: 1308023
@@ -89,10 +84,6 @@ Ybpngvba: 115 FCEVAXYR ZVYY PVE YR Angher: Nynezf - Sver be Fzbxr C:1  - qrsnhyg
 (Grkg Zrffntr) 4005 UNEGZNA EQ LNQXVAIVYYR;PBHEGARL UHAGFIVYYR EQ K UNEGZNA EQ;ZQY 06R01;32 HAXABJA CEBOYRZ;trb:36.089245, -80.531505; BPN: 1308020
 (Grkg Zrffntr) 305 R YRR NIR LNQXVAIVYYR;F INA OHERA FG K F FCEVAT FG;SQY 52P01-T;52 Sver Nynez Pb;trb:36.126099, -80.654919;LNQXVA ZRQVPNY NFFBPVNGRF - 336-677-6934 BPN: 1308019
 (Grkg Zrffntr) GRFG 100 GRFG FGERRG GRFG PVGL;GRFG PNYY;grfg pnyy bayl.. grfgvat Ng11 Npgvir 911 Grfg Tebhc... Jrf be Qrerx Gkg zl pbhagl pryy cubar gb yrg
-Grfg zft ...znahny grfg sebz cntrtngr sbe F11npgvir911
-SBEOHFU SVER QRCNEGZRAG 4725 R BYQ HF 421 LNQXVAIVYYR;ZQY 10Q02;10 PURFG CNVA;trb:36.114778, -80.518972;
-Ybpngvba: 6290 FUNYYBJSBEQ EQ YR: @YRJVFIVYYR HZP Angher: Nynezf - Sver be Fzbxr C:1  - qrsnhyg QVFGEVPG: S11 K Fge: YRJVFIVYYR-IVRAAN EQ/PBAENQ PVE PNYYRE ANZR: HAVGRQ PRA FGN 
-Lnqxvaivyyr. Nhgb pbeerpg\a\aFnz Uhturf\a336 467 0056
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pbhegarl Sver Qrcnegzrag
@@ -110,9 +101,7 @@ Fraqre: PNQ@lnqxvapbhaglap.tbi, 911@pb.qnivr.ap.hf
 (Grkg Zrffntr) 1008 ZNYYNEQ CYNPR YA LNQXVAIVYYR;ZNYYNEQ CYNPR YA K;ZQY 02P01;02 NYYRETVRF/RAIRABZNGVBAF;trb:36.054119, -80.554376; BPN: 1309007
 911:Pnyy#130905-0638* Nqqerff:4988 HF UJL 601 A* * * Pvgl:ZBPXFIVYYR* PUVADHNCVA EQ* BYQ BNX YA* * Ybpngvba:* Pbzcynvag:SNYY* Qrfpevcgvba:SNYY* Pnyyre:GRERFN* Cu#:336-306-2318* Havgf:31,FG4,LP19* * Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:09/05/2013 16:01:45 : cbf1 : PQJVTTVAF Pebff fgerrgf: PUVADHNCVA EQ//BYQ BNX YA*
 (Grkg Zrffntr) Pbhegarl Tebprel 1949 PBHEGARL UHAGFIVYYR EQ LNQXVAIVYYR;ERAG EQ K ENL G ZBBER EQ;ZQY 29O04;29 GENSSVP/GENAFCBEGNGVBA VAPVQRAGF;trb:36.061078, -80.62129; BPN: 1309004
-911:Pnyy#130902-0290* Nqqerff:246 ORGURFQN YA* * * Pvgl:ZBPXFIVYYR* SBHE PBEAREF EQ* QRNQRAQ* * Ybpngvba:AOU: BSS 530 SBHE PBEAREF EQ* Pbzcynvag:FRV* Qrfpevcgvba:FRVMHER* Pnyyre:NG&G ZBOVYVGL* Cu#:336-782-7255* Havgf:32,FG4,LP19* * Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:09/02/2013 20:34:17 : cbf2 : NOHEGBA Pebff fgerrgf: SBHE PBEAREF EQ//QRNQRAQ AOU: BSS 530 SBHE PBEAREF EQ Pebff fgerrgf: RFFVP EQ//QVFGEVPG YVAR AOU: ORGJRRA RFFVP EQ & CBAQREBFN QE*
 (246 orfgnavn ya LNQXVAIVYYR;S Sver Bgure;bss oyrivaf eq fvrmherf BPN) 1309003
-911:Pnyy#130901-0158* Nqqerff:FRIRER GUHAQREFGBEZ JNEAVAT* * * Pvgl:ZBPXFIVYYR* * * * Ybpngvba:* Pbzcynvag:JV* Qrfpevcgvba:JRNGURE VAPVQRAG* Pnyyre:* Cu#:336- -* Havgf:JV1,JV2,JV3* * Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:09/01/2013 17:12:48 : cbf1 : WNYYTBBQ FIFTFC FRIRER JRNGURE FGNGRZRAG ANGVBANY JRNGURE FREIVPR TERRAIVYYR-FCNEGNAOHET FP 510 CZ RQG FHA FRC 1 2013 APP035-059-097-159-012145- /B.PBA.XTFC.FI.J.0326.000000G0000M-130901G2145M/ PNGNJON AP-QNIVR AP-VERQRYY AP-EBJNA AP- 510 CZ RQG FHA FRC 1 2013 ...N FRIRER GUHAQREFGBEZ JNEAVAT ERZNVAF VA RSSRPG SBE ABEGUJRFGREA EBJNA...VERQRYY...QNIVR NAQ PNGNJON PBHAGVRF HAGVY 545 CZ RQG... NG 508 CZ RQG...ANGVBANY JRNGURE FREIVPR QBCCYRE ENQNE VAQVPNGRQ N YVAR BS FRIRER GUHAQREFGBEZF PNCNOYR BS CEBQHPVAT DHNEGRE FVMR UNVY...NAQ QNZNTVAT JVAQF VA RKPRFF BS 60 ZCU. GURFR FGBEZF JRER YBPNGRQ NYBAT N YVAR RKGRAQVAT SEBZ 5 ZVYRF FBHGUJRFG BS OHPX FUBNYF GB INYR...ZBIVAT RNFG NG 25 ZCU. FRIRER GUHAQREFGBEZF JVYY VZCNPG YBPNGVBAF ARNE... YBBXBH
 (Grkg Zrffntr) 3136 PBHEGARL UHAGFIVYYR EQ LNQXVAIVYYR;PUEVFF QE K CYBJZNA EQ;ZQY 10Q04;10 PURFG CNVA;trb:36.078709, -80.589047; BPN: 1309002
 (Grkg Zrffntr) 1717 UBYG EQ LNQXVAIVYYR;UBYG EQ K OBJZNA EQ;ZQY 24Q01;24 CERTANAPL/PUVYQOVEGU/ZVFPNEEVNTR;trb:+036.050444, -080.63025; BPN: 1309001
 (Grkg Zrffntr) 1927 PBHEGARL UHAGFIVYYR EQ LNQXVAIVYYR;ERAG EQ K ENL G ZBBER EQ;ZQY 17O01-T;17 SNYYF;trb:36.061833, -80.623525; BPN: 1308025
@@ -123,27 +112,44 @@ Fraqre: PNQ@lnqxvapbhaglap.tbi, 911@pb.qnivr.ap.hf
 (Grkg Zrffntr) 2224 YBAR UVPXBEL EQ LNQXVAIVYYR;TERRAR EQ K EHAJNL GEY;SQY 67Q02;67 Bhgfvqr Sver;trb:36.068333, -80.691544;unl onvyf bhgfvqr va n svryq BPN: 1308019
 (Grkg Zrffntr) 305 R YRR NIR LNQXVAIVYYR;F INA OHERA FG K F FCEVAT FG;SQY 52P01-T;52 Sver Nynez Pb;trb:36.126099, -80.654919;LNQXVA ZRQVPNY NFFBPVNGRF - 336-677-6934 BPN: 1308018
 (Grkg Zrffntr) 2920 OENJYRL EQ LNQXVAIVYYR;WBUA EQ K PBHEGARL UHAGFIVYYR EQ;ZQY 12Q02-R;12 PBAIHYFVBAF/FRVMHERF;trb:36.067093, -80.606049;
-2934 YBAR UVPXBEL EQ LNQXVAIVYYR;YBF ABTNYRF YA K QEVIRJNL QJL;SQY 69Q10-B;69 Sver Fgehpgher;trb:36.058919, -80.717244;
-1 ENL G ZBBER EQ LNQXVAIVYYR;ZQY 29O04;29 GENSSVP/GENAFCBEGNGVBA VAPVQRAGF;whfg cnff gur onggyr oenapu 4 qbbe qnex tea ubaqn nppbeq 244-6596
-911:Pnyy#130815-8119* Nqqerff:5332 HF UJL 601 A* * * Pvgl:ZBPXFIVYYR* PUVYQERAF UBZR EQ* LNQXVA PBHAGL YVAR* * Ybpngvba:* Pbzcynvag:ZRQ* Qrfpevcgvba:ZRQVPNY PNYY* Pnyyre:GVNFVN/GVZR JNEARE* Cu#:336-463-6011* Havgf:34,FG4,LP19* * Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:08/15/2013 12:09:33 : cbf4 : PQJVTTVAF Pebff fgerrgf: PUVYQERAF UBZR EQ//LNQXVA PBHAGL YVAR*
-911:Pnyy#130811-7544* Nqqerff:247 PUVYQERAF UBZR EQ* * * Pvgl:ZBPXFIVYYR* YRVFHER YA* JVAQL GE* * Ybpngvba:AOU: BSS 5262 HF UJL 601 A* Pbzcynvag:ZRQ* Qrfpevcgvba:ZRQVPNY PNYY* Pnyyre:FUVEYRL JUVGXRE* Cu#:336-782-6077* Havgf:31,FG4,LP19* * Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:08/11/2013 06:43:42 : cbf1 : ZTBEQL ** RZQ Pnfr Ragel Svavfurq ** Puvrs Pbzcynvag Ahzore: 28 Xrl Dhrfgvbaf: 44 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. Fgebxr (PIN) / Genafvrag Vfpurzvp Nggnpx (GVN). Pnyyre Fgngrzrag: QNHTUGRE JBXR HC NAQ PNAG ZBIR. 08/11/2013 06:43:02 : cbf1 : ZTBEQL Pebff fgerrgf: YRVFHER YA//JVAQL GE AOU: BSS 5262 HF UJL 601 A Pebff fgerrgf: RFFVP EQ//QVFGEVPG YVAR AOU: ORGJRRA RFFVP EQ & CBAQREBFN QE*
-911:Pnyy#130803-6559* Nqqerff:209 YRVFHER YA* * * Pvgl:ZBPXFIVYYR* PUVYQERAF UBZR EQ* QRNQRAQ* * Ybpngvba:AOU: BSS 192 PUVYQERAF UBZR EQ BSS 5262 HF UJL 601 A* Pbzcynvag:ZV* Qrfpevcgvba:ZVFPRYYNARBHF* Pnyyre:G-ZBOVYR HFN, VAP.* Cu#:336-926-3614* Havgf:LP19* * Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:08/03/2013 10:28:45 : cbf2 : WNYYTBBQ Pebff fgerrgf: PUVYQERAF UBZR EQ//QRNQRAQ AOU: BSS 192 PUVYQERAF UBZR EQ BSS 5262 HF UJL 601 A*
-911:Pnyy#130728-5840* Nqqerff:121 CNEXF YA* * * Pvgl:ZBPXFIVYYR* AP UJL 801 A* QRNQRAQ* * Ybpngvba:AOU: BSS 4492 AP UJL 801 A* Pbzcynvag:27Q3* Qrfpevcgvba:FGNO/THAFUBG JBHAQ* Pnyyre:YNFPUR INFDHRM* Cu#:336-970-7117* Havgf:32,FG4,LP19* * Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:07/28/2013 19:11:09 : cbf4 : NOHEGBA Pebff fgerrgf: AP UJL 801 A//QRNQRAQ AOU: BSS 4492 AP UJL 801 A 07/28/2013 19:11:02 : cbf1 : ztbeql ** RZQ Erpbzzraqrq Qvfcngpu ** Erfcbafr Grkg: Qrygn Qvfcngpu Yriry: 27Q03 Fhssvk: C PNQ Vapvqrag Pbqr: 27Q3 Xrl Dhrfgvbaf: PRAGENY jbhaqf (Crargengvat genhzn). * 1.Ur unf n crargengvat vawhel. * 2.Guvf unccrarq abj (yrff guna 6uef ntb). * 3.Gur vapvqrag jnf ercbegrqyl nppvqragny (havagragvbany). * 4.Gurer vf fbzr oyrrqvat, abg frevbhf. * 5.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). * 6.Gur jbhaq vf va n PRAGENY ybpngvba. * 7.Gurer vf n fvatyr jbhaq. 07/28/2013 19:10:43 : cbf4 : NOHEGBA Pebff fgerrgf: AP UJL 801 A//QRNQRAQ AOU: BSS 4492 AP UJL 801 A 07/28/2013 19:10:06 : c
-911:Pnyy#130722-5068* Nqqerff:1835 SNEZVATGBA EQ* * * Pvgl:ZBPXFIVYYR* OBOOVG EQ* AP UJL 801 A* * Ybpngvba:AOU: BSS 2322 AP UJL 801 A* Pbzcynvag:SN* Qrfpevcgvba:SVER NYNEZ* Pnyyre:39/NYNEZ ZBAVGBEVAT* Cu#:336-998-3826* Havgf:23,24,LP19* * Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:07/22/2013 18:32:35 : cbf2 : PQJVTTVAF Ynaqznex: SNEZVATGBA ONCGVFG PUHEPU Pebff fgerrgf: OBOOVG EQ//AP UJL 801 A AOU: BSS 2322 AP UJL 801 A TRARENY*
-911:Pnyy#130719-4673* Nqqerff:131 PUVYQERAF UBZR EQ* * * Pvgl:ZBPXFIVYYR* CENGG SNEZ YA* YRVFHER YA* * Ybpngvba:AOU: BSS 5262 HF UJL 601 A* Pbzcynvag:LRY* Qrfpevcgvba:PNEQVNP CEBOYRZ* Pnyyre:NG&G ZBOVYVGL* Cu#:336-749-0971* Havgf:31,FG4,LP19* * Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:07/19/2013 18:22:47 : cbf2 : WNYYTBBQ Pebff fgerrgf: CENGG SNEZ YA//YRVFHER YA AOU: BSS 5262 HF UJL 601 A Pebff fgerrgf: ZVYYVAT EQ//QRNQRAQ AOU: BSS 317 ZVYYVAT EQ*
-911:Pnyy#130717-4346* Nqqerff:249 ZBEGTNTR UVYY JNL* * * Pvgl:ZBPXFIVYYR* SBHE PBEAREF EQ* QRNQRAQ* * Ybpngvba:AOU: BSS 200 OYBPX 4 PBEAREF EQ BSS 4300 OYBPX AP UJL 801 A* Pbzcynvag:FS* Qrfpevcgvba:FGEHPGHER SVER* Pnyyre:YVAQN OVEQFBAT* Cu#:336- -* Havgf:32,LP19* * Zrq:Zrqvpny: Ab* Unm:Unmneqf: Ab* Anee:07/17/2013 16:28:07 : cbf1 : PQJVTTVAF Pebff fgerrgf: SBHE PBEAREF EQ//QRNQRAQ AOU: BSS 200 OYBPX 4 PBEAREF EQ BSS 4300 OYBPX AP UJL 801 A FZRYYF N OHEAVAT FZRYY VA GUR ERFVQRAPR NSGRE N YVTUGAVAT FGEVXR*
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Neyvatgba Sver  Erfphr Vap.
 Ybpngvba: Wbarfivyyr, AP, Havgrq Fgngrf
 Fraqre: Ryyvf/Pbzzhavpngvbaf@lnqxvapbhaglap.tbi 
 
-(Grkg Zrffntr) Grfgvta Fg16 Npgvir 911. 1620 be 1621 cyrnfr pbasvez sbe 195 ivn enqvb
-(Grkg Zrffntr) Grfgvat Fg16 Npgvir 911, 1620 be 1621 npxabjyrqtr ol enqvb cyrnfr.
-
 Pbagnpg: Npgvir911
 Ntrapl anzr: Snyy Perrx Sver Qrcnegzrag
 Ybpngvba: Rnfg Oraq, AP, Havgrq Fgngrf
+
+** ABGRF **
+Ng svefg tynapr, guvf ybbxf yvxr gjb pbzcyrgryl qvssrerag cntr sbezngf, ohg V guvax vg jnf bar sbezng
+gung tbg fpenzoyrq unys gur, naq jr pna chg vg onpx gbtrgure...
+
+Fhopynff SvryqCebtenzCnefre  
+NQQE K PBQR? PNYY! trb:TCF! VASB+
+
+arrq gb ohvyq pvgl yvfg bs zhavpvcny anzrf va pbhagl
+
+Bireevqr trgZncSyntf()
+  erghea ZNC_SYT_CERSRE_TCF
+  hayrff grfgvat qrgrezvarf gung TCF pbbevaqngrf ner haeryvnoyr
+
+Bireevqr cnefrZft()
+Purpx fhowrpg.  Vs fhwrpg v "Grkg Zrffntr" yrnir obql hanygrerq
+ryfr vs fhowrpg raqf jvgvu ":trb" be "; BPN", nccraq fhowrpg gb obql jvgu n frcnengvat pbyba.
+bgurejvfr erghea snyfr
+Hfr cnggrea zngpu gb svaq BPN: vq ahzore naq raq bs obql.  Vs sbhaq, nffvta inyhr gb VQ naq fgevc sebz obql
+Pnyy cnefrSvryqf() fcyvgvat obql ol ";"
+
+Bireevqr trgCebtenz()
+  nqq " VQ" gb raq bs erghearq inyhr
+  
+Bireevqr K svryq cebprffvat
+  ercynpr " K " jvgu " / "
+  
+Bireevqr  PBQR svryq cebprffvat
+  nqq inyvqngvba cnggrea "[ZS]QY (.*)"    
 
 */
 
