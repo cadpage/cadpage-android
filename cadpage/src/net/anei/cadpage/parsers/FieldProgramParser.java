@@ -160,6 +160,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * much terminates field processing.  The the tagged field is declared optional
  * with a ? qualifier and no matching data field is found, the tagged field is
  * simply ignored and processing picks up with the next field.
+ * 
+ * Debugging
+ * 
+ * There are only three points where this class determines that a page fails to parse.
+ * All are marked with a // BREAKPOINT comment.  Put a breakpoint on all 3 of them
+ * and you can probably tell why the parse is failing in short order.
  */
 
 public class FieldProgramParser extends SmartAddressParser {
@@ -1458,7 +1464,7 @@ public class FieldProgramParser extends SmartAddressParser {
               
               // If we had to skip over a required field, return failure
               if (skipReq) {
-                state.setResult(false);
+                state.setResult(false);      // << BREAKPOINT
                 return true;
               }
               
@@ -1589,7 +1595,7 @@ public class FieldProgramParser extends SmartAddressParser {
 
       // If this is a required step, return failure
       if (required == EReqStatus.REQUIRED) {
-        return false;
+        return false;      // << BREAKPOINT
       }
       if (required == EReqStatus.EXPECTED) data.expectMore = true; 
       return true;
@@ -1916,7 +1922,7 @@ public class FieldProgramParser extends SmartAddressParser {
      * Abort field program processing and return parse failure
      */
     protected void abort() {
-      throw new FieldProgramException();
+      throw new FieldProgramException();                // << BREAKPOINT
     }
     
     /**
