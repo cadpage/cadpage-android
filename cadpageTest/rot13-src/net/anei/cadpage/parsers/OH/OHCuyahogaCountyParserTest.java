@@ -414,8 +414,7 @@ choyvp pynff BUPhlnubtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G30",
         "(Qvfcngpu Zrffntr) FDHNQ PNYY-TRARENY  \eR JNFUVATGBA FG & EVQTRJBBQ    PUNTEVA SNYY \eZNYR SRYY BSS OVXR NAQ ABG ZBIVAT ",
         "PNYY:FDHNQ PNYY-TRARENY",
-        "NQQE:R JNFUVATGBA FG",
-        "NCG:& EVQTRJBBQ",
+        "NQQE:R JNFUVATGBA FG & EVQTRJBBQ",
         "PVGL:PUNTEVA SNYYF GJC",
         "VASB:ZNYR SRYY BSS OVXR NAQ ABG ZBIVAT");
 

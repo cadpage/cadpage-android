@@ -2063,8 +2063,7 @@ public class FieldProgramParser extends SmartAddressParser {
             parseFlags &= ~FLAG_ANCHOR_END;
             if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
             tailField = new String[]{"CALL","PLACE","SKIP","APT","UNIT","NAME","INFO","X"}[pt2];
-            if (tailField.equals("APT")) tailData = new SpecialAptField();
-            else tailData = getField(tailField);
+            tailData = getAddressField(tailField);
             if (chr == 'I') parseFlags |= FLAG_IGNORE_AT;
           }
           
@@ -2075,7 +2074,7 @@ public class FieldProgramParser extends SmartAddressParser {
             parseFlags |= (chr == 'P' || chr == 'x' ? FLAG_PAD_FIELD : FLAG_PAD_FIELD_EXCL_CITY);
             if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
             padField = new String[]{"PLACE","SKIP", "APT", "X"}[pt2];
-            padData = getField(padField);
+            padData = getAddressField(padField);
           }
           
         } while (false);
@@ -2095,6 +2094,11 @@ public class FieldProgramParser extends SmartAddressParser {
         parseFlags |= FLAG_IMPLIED_INTERSECT;
       }
       if (qual.contains("a") && startType != null) parseFlags |= FLAG_NO_IMPLIED_APT;
+    }
+    
+    private Field getAddressField(String name) {
+      if (name.equals("APT")) return new SpecialAptField();
+      return getField(name);
     }
 
     @Override

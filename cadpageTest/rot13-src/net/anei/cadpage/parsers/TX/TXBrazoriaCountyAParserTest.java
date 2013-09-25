@@ -136,9 +136,9 @@ vafgrnq bs "ARJ RIRAG ZCQ".
 
 */
 
-choyvp pynff GKOenmbevnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff GKOenmbevnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp GKOenmbevnPbhaglCnefreGrfg() {
+  choyvp GKOenmbevnPbhaglNCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "OENMBEVN PBHAGL", "GK");
   }
   
@@ -149,6 +149,6 @@ choyvp pynff GKOenmbevnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj GKOenmbevnPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj GKOenmbevnPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }
 }
