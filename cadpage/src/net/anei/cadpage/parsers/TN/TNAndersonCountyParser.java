@@ -10,10 +10,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class TNAndersonCountyParser extends FieldProgramParser {
   
   private static final Pattern DELIM = Pattern.compile(" - ?|- ");
+  private static final Pattern STREET_PTN = Pattern.compile("\\+[Ss]treet:");
+  private static final Pattern MISSING_DELIM = Pattern.compile("(, TN)([A-Z])");
   
   public TNAndersonCountyParser() {
     super(CITY_LIST, "ANDERSON COUNTY", "TN",
-           "( SRC ADDR_X_CALL ID! | CALL+? ADDR/S! +Street:X? INFO ID )");
+           "( SRC ADDR_X_CALL ID! | CALL CALL+? ADDR/S! +St:X? EMPTY+? CALL2 CALL+? ID )");
   }
   
   @Override
@@ -29,7 +31,8 @@ public class TNAndersonCountyParser extends FieldProgramParser {
     // If page contains times keywords, report as general alert
     if (body.contains(" INSRV:") || body.contains(" INSV:")) return data.parseRunReport(this, body);;
     
-    body = body.replace("+street:", "+Street:");
+    body = STREET_PTN.matcher(body).replaceFirst("+St:");
+    body = MISSING_DELIM.matcher(body).replaceFirst("$1 - $2");
     return parseFields(DELIM.split(body), data);
   }
   
@@ -93,34 +96,53 @@ public class TNAndersonCountyParser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public boolean checkParse(String field, Data data) {
-      if (!field.endsWith(" TN")) return false;
-      field = field.substring(0, field.length()-3).trim();
-      if (field.endsWith(",")) field = field.substring(0, field.length()-1).trim();
+      boolean good = false;
+      if (field.endsWith(" TN")) {
+        good = true;
+        field = field.substring(0, field.length()-3).trim();
+        if (field.endsWith(",")) field = field.substring(0, field.length()-1).trim();
+      }
       String city = null;
+      int flags = FLAG_ANCHOR_END;
       int pt = field.lastIndexOf(',');
       if (pt >= 0) {
+        good = true;
+        flags |= FLAG_NO_CITY;
         city = field.substring(pt+1).trim();
         field = field.substring(0,pt).trim();
       }
+      if (!good) return false;
+      
       field = field.replace('@', '&');
-      super.parse(field, data);
-      if (city != null) data.strCity = city;
+      parseAddress(StartType.START_ADDR, flags, field, data);
+      if (city != null) {
+        if (city.startsWith("+St:")) {
+          city = city.substring(4).trim();
+          parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY | FLAG_ANCHOR_END, city, data);
+          data.strCross = getStart();
+        } else {
+          data.strCity = city;
+        }
+      }
       return true;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT CITY X";
     }
   }
   
   // The info field has to do all kinds of strange things
-  private class MyInfoField extends InfoField {
+  private class MyCall2Field extends CallField {
     
     @Override
     public void parse(String field, Data data) {
       
       // This is really the call description
       // and what we thought was the call description is really the department
-      if (field.length() != 0) {
-        data.strSource = data.strCall;
-        data.strCall = field;
-      }
+      data.strSource = data.strCall;
+      data.strCall = field;
     }
   }
   
@@ -129,7 +151,8 @@ public class TNAndersonCountyParser extends FieldProgramParser {
     if (name.equals("ADDR_X_CALL")) return new MyAddressCrossCallField();
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("CALL2")) return new MyCall2Field();
+    if (name.equals("ID")) return new IdField("\\d+", true);
     return super.getField(name);
   }
   
