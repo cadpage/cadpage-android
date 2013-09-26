@@ -1,41 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">09232013</string>
-  <string name="release_version">v1.6.43</string>
+  <string name="release_date">09252013</string>
+  <string name="release_version">v1.6.44</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+This is a special release intended to force a fresh version install in the hope 
+that that will fix a problem one unlucky user in Josephine County, OR is 
+having with Cadpage continusously aborting.  If this does not work, use the 
+Email the Developer feature to contact us.\n
+\n      
 New Locations:\n
-Brookfield, CT\n
-Kane County, IL (alt)\n
-Lorain County, OH\n
-Carter County, OK\n
-Marion County, OR (alt)\n
-Wayne County, PA\n
-Leon County, TX\n
-Shenandoah County, VA\n
+Lincoln County, OR\n
 \n
 Location Parsing Fixes:\n
-Yavapai County, AZ\n
-Garland County, AR\n
-Mendocino County, CA\n
-Adams County, CO\n
-El Paso County, CO\n
-Walker County, GA\n
-St Louis County, MO\n
-Almance County, NC\n
-Wayne County, OH\n
-Clearfield County, PA\n
-Mercer County, PA\n
-Yakima County, PA\n
-Collin County, TX\n
-Harris County ESD#1, TX\n
-Calumet County, WI\n
-New Zealand\n
-\n
-General Fixes:\n
-Fixed problems with lock screen handling in Android 4.0 and up\n
-Remove Google Group unsubscribe notice from all pages\n
+Shelby County, AL\n
+Lehigh County, PA\n
+Anderson County, TN\n
+Loudoun County, VA\n
+Yakima County, WA\n
   </string>  
 </resources>
   
