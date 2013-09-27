@@ -565,6 +565,7 @@ public class MsgInfo {
   private static final Pattern TE_PTN = Pattern.compile("\\bTE\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern WK_PTN = Pattern.compile("\\bWK\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern RCH_PTN = Pattern.compile("\\bRCH\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern HT_PTN = Pattern.compile("\\bHT\\b", Pattern.CASE_INSENSITIVE);
   private String cleanStreetSuffix(String sAddr) {
     
     // CR is a very versatile abbreviation.  In New Zealand, it is an abbreviation for Crescent
@@ -600,6 +601,7 @@ public class MsgInfo {
     sAddr = replace(sAddr, PLAZ_PTN, "PLAZA");
     sAddr = replace(sAddr, WK_PTN, "WALK");
     sAddr = replace(sAddr, RCH_PTN, "REACH");
+    sAddr = replace(sAddr, HT_PTN, "HTS");
     if (countryCode != CountryCode.NZ) sAddr = replace(sAddr, TE_PTN, "TER");
     
     // Some alterations are suppressed by different parsers to meet local

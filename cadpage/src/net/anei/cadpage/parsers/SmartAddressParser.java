@@ -317,7 +317,8 @@ public abstract class SmartAddressParser extends MsgParser {
         "MNR",
         "BYPASS", "BYP",
         "ALLEY", "ALY",
-        "FREEWAY");
+        "FREEWAY",
+        "HT", "HTS", "HEIGHTS");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
     setupDictionary(ID_BYPASS, "BYPASS", "BYP");
@@ -326,7 +327,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", 
         "RUN", "LANE", "PARK", "POINT", "RIDGE", "CREEK", "MILL", "BRIDGE", "HILLS",
         "HILL", "TRACE", "STREET", "MILE", "BAY", "NOTCH", "END", "LOOP", "ESTATES",
-        "SQUARE", "WALK", "CIRCLE", "GROVE");
+        "SQUARE", "WALK", "CIRCLE", "GROVE", "HT", "HTS", "HEIGHTS");
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
         "AVENUE", "AV", "AVE", 

@@ -638,8 +638,8 @@ choyvp pynff JIPnoryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN Vaw.",
         "NQQE:4745 FCEVAT EQ",
         "PVGL:UHAGVATGBA",
-        "K:QNEARYY EQ",
-        "VASB:SBERFG UGF / 1 IRU VAGB GERR");
+        "K:QNEARYY EQ & SBERFG UGF",
+        "VASB:1 IRU VAGB GERR");
 
     qbGrfg("G17",
         "130250121/01-25-13/11:22:02/ZIN Vaw./800 29GU FG VAGREFRPGA/UHAGVATGBA/8GU NIR/",

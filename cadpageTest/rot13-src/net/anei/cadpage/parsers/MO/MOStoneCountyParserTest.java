@@ -251,7 +251,7 @@ choyvp pynff ZBFgbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RS SNYYF/ONPX VAWHEL (GENHZNGVP)",
         "NQQE:40 UBYVQNL QE",
         "CUBAR:4177394466",
-        "VASB:GNOYR EBPX UGF");
+        "K:GNOYR EBPX UGF");
 
     qbGrfg("G21",
         "911-PRAGRE:RPIN FGEBXR 1465 YVGGYR NHAGF PERRX EQ 4177391720 BIREGBA QE",
