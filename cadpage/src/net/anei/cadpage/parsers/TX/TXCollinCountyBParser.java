@@ -12,11 +12,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class TXCollinCountyBParser extends FieldProgramParser {
   
   private static final Pattern SPECIAL_COMMENT_PTN = Pattern.compile("^Comment:(.*?),  +");
-  private static final Pattern DELIM = Pattern.compile(" +/(?! )");
+  private static final Pattern DELIM = Pattern.compile(" */ *(?=ADDR:|Comment:|XST:|City:|Map Page:|All Response Comments:)");
 
   public TXCollinCountyBParser() {
     super("COLLIN COUNTY", "TX", 
-          "CALL! Comment:INFO! ADDR:ADDR! ADDR+ XST:X! X+ Map_Page:MAP!");
+          "CALL! ( ADDR:ADDR! ADDR+ Comment:INFO! | Comment:INFO! ADDR:ADDR! ) XST:X? City:CITY? Map_Page:MAP? All_Response_Comments:INFO");
   }
   
   @Override
@@ -42,18 +42,7 @@ public class TXCollinCountyBParser extends FieldProgramParser {
       body = body.substring(match.end());
     }
     
-    if (!parseFields(DELIM.split(body), data)) return false;
-    
-    // Do the real address field parsing here.  We couldn't do it
-    // in the address field processor because it didn't know when
-    // the address was complete
-    Parser p = new Parser(data.strAddress);
-    data.strAddress = "";
-    String city = p.getLastOptional(',');
-    if (city.equals("TX")) city = p.getLastOptional(',');
-    data.strCity = city;
-    parseAddress(p.get(), data);
-    return true;
+    return parseFields(DELIM.split(body), data);
   }
   
   @Override
@@ -61,12 +50,14 @@ public class TXCollinCountyBParser extends FieldProgramParser {
     return "PLACE " + super.getProgram();
   }
   
-  // Since we use a naked slash as a field delimiter, we have to
-  // consider what happens if there is slash in the address field 
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      data.strAddress = append(data.strAddress, " / ", field);
+      Parser p = new Parser(field);
+      String city = p.getLastOptional(',');
+      if (city.equals("TX")) city = p.getLastOptional(',');
+      data.strCity = city;
+      parseAddress(p.get(), data);
     }
     
     @Override
@@ -75,18 +66,30 @@ public class TXCollinCountyBParser extends FieldProgramParser {
     }
   }
   
-  // Ditto for the cross field
-  private class MyCrossField extends CrossField {
+  private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      data.strCross = append(data.strCross, " / ", field);
+      // A lot of times dispatch puts the station address as the response address
+      // and the real incident address in in the first comment :(
+      if (data.strAddress.equals("165 Country Club Rd") && checkAddress(field) > 0) {
+        data.strAddress = "";
+        parseAddress(field, data);
+      } else {
+        data.strSupp = append(data.strSupp, "\n", field);
+      }
     }
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    return COUNTY_PTN.matcher(addr).replaceAll("COUNTY");
+  }
+  private static Pattern COUNTY_PTN = Pattern.compile("\\bCOUNTY[NSEW]\\b", Pattern.CASE_INSENSITIVE);
 }

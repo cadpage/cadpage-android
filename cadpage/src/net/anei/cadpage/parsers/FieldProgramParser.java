@@ -3196,7 +3196,6 @@ public class FieldProgramParser extends SmartAddressParser {
     int ndx = 1;
     for (Step step : stepList) stepMap.put(step, (ndx++));
     
-    
     StringBuilder sb = new StringBuilder("Start:" + startLink.toString(stepMap));
     sb.append('\n');
     ndx = 1;
