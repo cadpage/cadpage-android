@@ -45,6 +45,8 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
     Matcher match = CAD_MSG_PTN.matcher(body);
     if (!match.matches()) return false;
     
@@ -61,7 +63,7 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
     sAddrFld = MM_PTN.matcher(sAddrFld).replaceFirst("$1 $2");
     
     // Whose bright idea was it to use DR as a city code?
-    int pt = -1;
+    pt = -1;
     String pad;
     if (sCityCode.equals("DR")) pt = sAddrFld.lastIndexOf(" DR ");
     if (pt >= 0) {
