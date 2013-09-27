@@ -8,15 +8,16 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MOPhelpsCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("Incident# : ([A-Z0-9]+) For Activity (Dispatch|Finish) Resource");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("Incident# : ([A-Z0-9]+) (?:Resource# : \\d+ )?For Activity (Dispatch|Finish) Resource");
+  private static final Pattern DELIM_PTN = Pattern.compile("\n\n?|\\|");
  
   public MOPhelpsCountyParser() {
     super("PHELPS COUNTY", "MO",
-           "Case#:SKIP! Julian_Incident#:ID! Priority:PRI Agency_Type:SKIP! Alarm_Level:SKIP! receive_Source:SKIP! Primary_Officer:SKIP! Agency_Code:SRC! CFS:CODE! CFS_Description:CALL! Location:ADDR! Common_Place:PLACE! Cross_Streets:X! Zone:MAP! Area_Of_Responsibility:SKIP! Juris:SKIP! Municipality:CITY! Disposition:SKIP! Incident_Recv_DateTime:DATETIME! Dispatch_DateTime:SKIP! Arrive_DateTime:SKIP! Finish/Clear_DateTime:SKIP! Contain_DateTime:SKIP Comment_DateTime:SKIP Origin_ID:SKIP Comment:INFO INFO+?");
+           "Case#:SKIP! Julian_Incident#:ID! Priority:PRI? Agency_Type:SKIP! Agency_Code:SRC? Alarm_Level:SKIP! receive_Source:SKIP! Primary_Officer:SKIP! Agency_Code:SRC? CFS:CODE! CFS_Description:CALL! Location:ADDR! Common_Place:PLACE! Cross_Streets:X! Zone:MAP! Grid:MAP? Area_Of_Responsibility:SKIP! Juris:SKIP! Municipality:CITY! Disposition:SKIP! Incident_Recv_DateTime:DATETIME! Dispatch_DateTime:SKIP? Arrive_DateTime:SKIP? Finish/Clear_DateTime:SKIP? Contain_DateTime:SKIP Comment_DateTime:SKIP Origin_ID:SKIP Comment:INFO INFO+?");
   }
   
   public String getFilter() {
-    return "projects@computerra.com";
+    return "dispatch@rollacity.org";
   }
   
   @Override
@@ -31,7 +32,7 @@ public class MOPhelpsCountyParser extends FieldProgramParser {
     }
     
     body = body.replace(":-", ":");
-    return parseFields(body.split("\n"), data);
+    return parseFields(DELIM_PTN.split(body), data);
   }
   
   private class MyCrossField extends CrossField {
