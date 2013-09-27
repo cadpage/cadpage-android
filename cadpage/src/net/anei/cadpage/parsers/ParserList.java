@@ -758,6 +758,7 @@ public class ParserList {
               ,"TXAcadianAmbulance"             ,"Acadian Ambulance, TX"
               ,"TXBellCounty"                   ,"Bell County, TX"
               ,"TXBexarCounty"                  ,"Bexar County, TX"
+              ,"TXBrazoriaCounty"               ,"Brazoria County, TX"
               ,"TXCollinCounty"                 ,"Collin County, TX"
               ,"TXCyCreekCommCenter"            ,"Cy Creek Comm Center, TX"
               ,"TXCyFair"                       ,"Cypress-Harris, TX"
