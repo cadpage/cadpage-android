@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MIMidlandCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_MASTER = Pattern.compile("CAD Page for CFS ([-A-Z0-9]+)(?: .*)?");
+  private static final Pattern MARKER = Pattern.compile("CAD Page for CFS ([-A-Z0-9]+)(?:[ ,]+(.*))?", Pattern.DOTALL);
   
   public MIMidlandCountyParser() {
     super("MIDLAND COUNTY", "MI",
@@ -23,9 +23,16 @@ public class MIMidlandCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    Matcher match = SUBJECT_MASTER.matcher(subject);
-    if (!match.matches()) return false;
-    data.strCallId = match.group(1);
+    Matcher match = MARKER.matcher(subject);
+    if (match.matches()) {
+      data.strCallId = match.group(1);
+    } else {
+      match = MARKER.matcher(body);
+      if (!match.matches()) return false;
+      data.strCallId = match.group(1);
+      body = match.group(2);
+      if (body == null) return false;
+    }
     
     body = body.replace(" APT:", "\nAPT:");
     return parseFields(body.split("\n"), data);

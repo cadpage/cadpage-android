@@ -21,6 +21,10 @@ Pbagnpg: Whfgva Urff <whfgvazurff@tznvy.pbz>
 Fraqre: pbyrznacntre+oapOPP5CVKGHHWOOLUJ72SDXTDRGRNWCPL@zvqynaq911.bet
 (PNQ Cntr sbe PSF Z043013-43) OHF : \aNQQK: 9180 r onggyr NCG: \aPBQR: SVER BGURE\auggc://zncf.tbbtyr.pbz/zncf?d=+-1.
 
+Pbagnpg: Rq Truevatre <whaxlneqqbt4852@tznvy.pbz>
+Fraqre: 93001035
+PNQ Cntr sbe PSF Z092613-40,OHF : \aNQQK: 2060 F GRA ZVYR EQ NCG: \aPBQR: OERNGUVAT CEBOYRZF\auggc://zncf.tbbtyr.pbz/zncf?d=+43.55178%20-84.44997
+
 */
 
 choyvp pynff ZVZvqynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -106,6 +110,22 @@ choyvp pynff ZVZvqynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:Z043013-43",
         "NQQE:9180 r onggyr",
         "PNYY:SVER BGURE");
+   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRqTruevatre() {
+
+    qbGrfg("G1",
+        "PNQ Cntr sbe PSF Z092613-40,OHF : \a" +
+        "NQQK: 2060 F GRA ZVYR EQ NCG: \a" +
+        "PBQR: OERNGUVAT CEBOYRZF\a" +
+        "uggc://zncf.tbbtyr.pbz/zncf?d=+43.55178%20-84.44997",
+
+        "VQ:Z092613-40",
+        "NQQE:2060 F GRA ZVYR EQ",
+        "PNYY:OERNGUVAT CEBOYRZF",
+        "TCF:+43.551780,-84.449970");
    
   }
   
