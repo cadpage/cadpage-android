@@ -100,7 +100,9 @@ J 10GU FG/QE ZNEGVA YHGURE XVA F,VAQ A01000 J00500 HAPBAFPVBHF CREF ZQ101 V02863
 
 Pbagnpg: unebyq.ivafba <unebyq.ivafba@tznvy.pbz>
 Fraqre: PNQ@cntr.vaql.tbi
+Fraqre: fef1=obhapr.frpherfreire.arg=dhry=gu=cntr.vaql.tbi=pnq@obhapr.frpherfreire.arg
 SEZ:PNQ@cntr.vaql.tbi\aFHOW:-CFP-\aZFT:3212 JRYPU QE,JNL A03300 J04900 ERFVQRAPR/JBEXVA YQ14 GF18 FS04 P1103 P1822 VA02 ZRQVN BC1 V11941
+8905 ENJYRF NI,JNE F00500 R08900 VAWHERQ/RKGEVPNG ZQ41 OP04 P1822 BC1 RT42 RT43 QFG4 RKGS GP43 RT25 VSFCBC V11850
 
 */
 choyvp pynff VAZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -840,7 +842,17 @@ choyvp pynff VAZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ERFVQRAPR/JBEXVA",
         "HAVG:YQ14 GF18 FS04 P1103 P1822 VA02 ZRQVN BC1",
         "VQ:V11941");
-  
+
+    qbGrfg("G2",
+        "8905 ENJYRF NI,JNE F00500 R08900 VAWHERQ/RKGEVPNG ZQ41 OP04 P1822 BC1 RT42 RT43 QFG4 RKGS GP43 RT25 VSFCBC V11850",
+        "NQQE:8905 ENJYRF NI",
+        "ZNQQE:8905 ENJYRF NIR",
+        "PVGL:Jneera GJC",
+        "ZNC:F00500 R08900",
+        "PNYY:VAWHERQ/RKGEVPNG",
+        "HAVG:ZQ41 OP04 P1822 BC1 RT42 RT43 QFG4 RKGS GP43 RT25 VSFCBC",
+        "VQ:V11850");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
