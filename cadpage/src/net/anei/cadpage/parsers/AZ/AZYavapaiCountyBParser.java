@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class AZYavapaiCountyBParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]{1,5}) *(?:\\d{3})? Utl# (\\d{3}(?: ?[A-Z]\\d?)?(?: +\\d{3}[- ]?[A-Z]\\d?)?) +(\\d\\d/\\d\\d/\\d\\d) +([-, A-Z0-9]+?)(?: *#([-,A-Z0-9]+))? / (.*?)[ /]+([A-Z]+\\d+(?: ?, ?[A-Z]+\\d+)*)");
+  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]{1,5}) *(?:\\d{3})? Utl# (\\d{3}(?: ?[A-Z]\\d?)?(?: +\\d{3}[- ]?[A-Z]\\d?)?) +(\\d\\d/\\d\\d/\\d\\d) +([-, A-Z0-9]+?)(?: *#([-,A-Z0-9]+))? / (.*?)[ /]+((?:[A-Z]+\\d+|\\d+FD)(?: ?, ?(?:[A-Z]+\\d+|\\d+FD))*)");
   private static final Pattern DELIM_PTN = Pattern.compile(" +[A-Z]{2,3}(?:-|/+|\\.{2,}) *(?:(?:APT|UNIT|#) *([A-Z0-9]+)[ /]+)?");
   private static final Pattern NT_PTN = Pattern.compile(" *\\bNT\\b *");
 
@@ -63,7 +63,7 @@ public class AZYavapaiCountyBParser extends SmartAddressParser {
     
     // If not, then we just have to hope the smart address parser can sort it out
     else {
-      parseAddress(StartType.START_ADDR, extra, data);
+      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_NO_CITY, extra, data);
       data.strSupp = getLeft();
     }
     
