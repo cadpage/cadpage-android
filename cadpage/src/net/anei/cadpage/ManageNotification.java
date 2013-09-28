@@ -59,6 +59,13 @@ public class ManageNotification {
       myNM.notify(notif, notification);
     }
   }
+  
+  /**
+   * @return true if some kind of notification should be launched when page is received
+   */
+  public static boolean isNotificationEnabled() {
+    return ManagePreferences.notifyEnabled() || ManagePreferences.notifyOverride();
+  }
 
   /*
    * The main notify method
@@ -94,7 +101,7 @@ public class ManageNotification {
     }
 
     // The default intent when the notification is clicked (Inbox)
-    Intent smsIntent = CallHistoryActivity.getLaunchIntent(context);
+    Intent smsIntent = CallHistoryActivity.getLaunchIntent(context, true);
 
     contentTitle = "Alert";
     contentText = call;

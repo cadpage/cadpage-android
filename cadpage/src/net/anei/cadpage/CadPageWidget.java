@@ -51,7 +51,7 @@ public class CadPageWidget extends AppWidgetProvider {
     views.setOnClickPendingIntent(R.id.widget_button_popup, popupPendingIntent);
     
    //Fourth Button (Show Unread Calls. Click to go into History)
-    Intent dEnabledIntent = CallHistoryActivity.getLaunchIntent(context);
+    Intent dEnabledIntent = CallHistoryActivity.getLaunchIntent(context, true);
     PendingIntent callsPendingIntent = PendingIntent.getActivity(context, 0, dEnabledIntent, PendingIntent.FLAG_UPDATE_CURRENT);
     views.setOnClickPendingIntent(R.id.widget_text_newcalls, callsPendingIntent);
 

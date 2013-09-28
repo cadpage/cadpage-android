@@ -164,9 +164,8 @@ public class SmsReceiver extends BroadcastReceiver {
     // Publish message contents if so requested
     if (ManagePreferences.publishPages()) message.broadcastIntent(context, false);
   
-    // Notify user if so configured
-    boolean notify = ManageNotification.show(context, message);
-    if (notify) launchScanner(context);
+    // See if any notifications are enabled
+    boolean notify = ManageNotification.isNotificationEnabled();
     
     // Determine if application should pop up right now
     boolean process = startApp(context);
@@ -179,11 +178,15 @@ public class SmsReceiver extends BroadcastReceiver {
 
     // And finally, launch the main application screen
     if (process) {
-      CallHistoryActivity.launchActivity(context);
+      CallHistoryActivity.launchActivity(context, notify);
     }
     
-    // If we did any notifications, and a activate scanner channel is configured, 
-    // Launch Scanner Radio app for that channel
+    // If we did not launch the application screen, do the notification stuff
+    // that is not going to be performed by the main app activity
+    else if (notify) {
+      ManageNotification.show(context, message);
+      launchScanner(context);
+    }
   }
 
   public static void launchScanner(Context context) {

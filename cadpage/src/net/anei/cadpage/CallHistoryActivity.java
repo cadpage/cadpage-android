@@ -26,6 +26,7 @@ public class CallHistoryActivity extends ListActivity {
   
   private static String EXTRA_NOTIFY = "net.anei.cadpage.CallHistoryActivity.NOTIFY";
   private static String EXTRA_SHUTDOWN = "net.anei.cadpage.CallHistoryActivity.SHUTDOWN";
+  private static String EXTRA_POPUP = "net.anei.cadpage.CallHistoryAcivity.POPUP";
   
   private static final int RELEASE_DIALOG = 1;
   
@@ -140,7 +141,8 @@ public class CallHistoryActivity extends ListActivity {
     
     // Otherwise, if we should automatically display a call, do it now
     else {
-      SmsMmsMessage msg = SmsMessageQueue.getInstance().getDisplayMessage();
+      boolean force = intent.getBooleanExtra(EXTRA_POPUP, false);
+      SmsMmsMessage msg = SmsMessageQueue.getInstance().getDisplayMessage(force);
       if (msg != null)  {
         
         // Before we open the call display window, see if notifications were requested
@@ -149,6 +151,7 @@ public class CallHistoryActivity extends ListActivity {
         // completely, so their Activity won't launch.
         
         if (intent.getBooleanExtra(EXTRA_NOTIFY, false)) {
+          ManageNotification.show(this, msg);
           SmsReceiver.launchScanner(this);
         }
      
@@ -283,13 +286,6 @@ public class CallHistoryActivity extends ListActivity {
   /**
    * Launch activity
    */
-  public static void launchActivity(Context context) {
-    launchActivity(context, false);
-  }
-  
-  /**
-   * Launch activity
-   */
   public static void launchActivity(Context context, boolean notify) {
     Intent intent = getLaunchIntent(context);
     if (notify) intent.putExtra(EXTRA_NOTIFY, true);
@@ -300,17 +296,27 @@ public class CallHistoryActivity extends ListActivity {
   
   /**
    * Build intent to launch this activity
-   * @param context
-   * @param message
-   * @return
+   * @param context current context
+   * @return Intent that will launch Cadpage
    */
   public static Intent getLaunchIntent(Context context) {
+    return getLaunchIntent(context, false);
+  }
+  
+  /**
+   * Build intent to launch this activity
+   * @param context current context
+   * @param force force detail popup window
+   * @return Intent that will launch Cadpage
+   */
+  public static Intent getLaunchIntent(Context context, boolean force) {
     Intent intent = new Intent(context, CallHistoryActivity.class);
     int flags =
       Intent.FLAG_ACTIVITY_NEW_TASK |
       Intent.FLAG_ACTIVITY_SINGLE_TOP |
       Intent.FLAG_ACTIVITY_CLEAR_TOP;
     intent.setFlags(flags);
+    if (force) intent.putExtra(EXTRA_POPUP, true);
     return intent;
   }
 

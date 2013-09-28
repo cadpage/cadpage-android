@@ -260,15 +260,16 @@ public class SmsMessageQueue implements Serializable {
   }
 
   /**
+   * @param force force popup even when not configured
    * @return message to be displayed when Cadpage starts up, or null if no
    * message should be displayed
    */
-  public SmsMmsMessage getDisplayMessage() {
+  public SmsMmsMessage getDisplayMessage(boolean force) {
     
     // We don't display a message if there are no queued messge, or if the
     // automatic popup is not enabled
     if (queue.size() == 0) return null;
-    if (!ManagePreferences.popupEnabled()) return null;
+    if (!force && !ManagePreferences.popupEnabled()) return null;
     
     // First message in queue will be displayed if it has not yet been opened
     SmsMmsMessage msg = queue.get(0);
