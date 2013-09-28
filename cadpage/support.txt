@@ -2486,3 +2486,50 @@ If you got into Cadpage Settings and click the "Write a Cadpage Review"
 button, it will take to the Play Store page for Cadpage, where you can
 install any available updates as well as write a Cadpage review.
 
+***************************************************************************
+BASIC INFO
+
+In it's basic form, Cadpage intercepts SMS text messages sent to an
+Android phone, determines if they look like pages from a CAD dispatch
+system, and if so, parses the information from the text and displays it
+in a standard form.  When requested, we use the incident address to
+display the incident location on a  map, and from their users can
+request navigation guidance to the incident.
+
+Dispatch centers have been sending SMS text pages to emergency
+responders for years.  They do so without any awareness that Cadpage is
+out there trying to process their pages.  The short story is, if you can
+configure your CAD system to send text messages to subscribers, or more
+commonly to send an SMTP (email) message to a messaging service who will
+forward the page information to subscribers, than your system will work
+with Cadpage.
+
+There are two messaging services (CodeMessaging.net and Active911.com)
+that can push your page information to Cadpage without using relying on
+text messages.  This is often more reliable, and avoids problems with
+long pages getting truncated because they are over the maximum limit for
+text messages.  Using one of these services also your users to run
+Cadpage on Android tablets that cannot receive SMS text messages, or on
+IOS devices where the environment does not permit apps to intercept text
+messages.
+
+Cadpage was designed to server Fire, EMS, and Police responders, but it
+can also be used for public service and utility crews.  Any operation
+that sends text messages that contain some kind of response or service
+address will probably find it useful.
+
+Hope that is useful, and feel free to contact us if you have any more
+questions.
+
+Have a nice day,
+-Ken
+*************************************************************************
+Q: Can you do a test page some time today?
+
+A: You, or your deparments Active911 administrator, and send yourself a
+text page from the Active911 web.  Go to the member information area and
+select the device tab.  Beside each configured device there is a row of
+three icons.  The middle one is used to send that device a text message.
+
+Good luck,
+-Ken
