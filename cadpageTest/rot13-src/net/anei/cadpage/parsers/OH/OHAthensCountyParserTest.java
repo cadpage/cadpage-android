@@ -109,7 +109,7 @@ Fraqre: 911_Qvfcngpu@ngurafbu.bet
 choyvp pynff BUNgurafPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp BUNgurafPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "NGURAF PBHAGL", "BU");
+    frgCnefre(arj BUNgurafPbhaglCnefre(), "NGURAF PBHAGL", "BU");
   }
   
   @Grfg
