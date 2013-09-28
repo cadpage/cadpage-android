@@ -19,7 +19,7 @@ choyvp pynff PBRyCnfbPbhaglCnefreGrfg {
   
   choyvp fgngvp pynff GrfgO rkgraqf PBRyCnfbPbhaglOCnefreGrfg {
     choyvp GrfgO() {
-      frgCnefre(arj PBRyCnfbPbhaglNCnefre());
+      frgCnefre(arj PBRyCnfbPbhaglOCnefre());
     }
   }
   
