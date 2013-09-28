@@ -118,7 +118,7 @@ ZRQVPNY NFFVFG SVER SVER (P4_0132) Ybp:814 F RYYVF FG ;@Fzvgu, Greenapr Epiq: 23
 choyvp pynff ZBPncrTveneqrnhPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZBPncrTveneqrnhPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "PNCR TVENEQRNH PBHAGL", "ZB");
+    frgCnefre(arj ZBPncrTveneqrnhPbhaglCnefre(), "PNCR TVENEQRNH PBHAGL", "ZB");
   }
 
  
