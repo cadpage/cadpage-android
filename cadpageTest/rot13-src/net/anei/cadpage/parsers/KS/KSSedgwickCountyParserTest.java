@@ -459,7 +459,7 @@ choyvp pynff XFFrqtjvpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:04/10/2013",
         "VQ:23000",
         "PBQR:S48",
-        "PNYY:S48",
+        "PNYY:Vawhel Nppvqrag",
         "NQQE:J X96 UL & A 151FG FG J",
         "ZNQQE:J FGNGR 96 & A 151FG FG J",
         "HAVG:PBSVER FD7 R33");
@@ -481,7 +481,7 @@ choyvp pynff XFFrqtjvpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:04/08/2013",
         "VQ:21430",
         "PBQR:S48",
-        "PNYY:S48",
+        "PNYY:Vawhel Nppvqrag",
         "NQQE:A 151FG FG J & J X96 UL",
         "ZNQQE:A 151FG FG J & J FGNGR 96",
         "HAVG:PBSVER");
