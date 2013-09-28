@@ -329,10 +329,6 @@ public class ManageNotification {
 
   // Clear a single notification
   public static void clear(Context context) {
-    
-    // Something is clearing the notifications for 4.1.2+ systems when we don't want it to
-    // We are putting this log statement in to try to figure out why?
-    Log.e(new Exception("Clearing Notification**"));
 
     // Clear any pending reminders
     ReminderReceiver.cancelReminder(context);
