@@ -791,6 +791,7 @@ public class ParserList {
           ),
           new ParserCategory("Utah"
               ,"UTDavisCounty"                  ,"Davis County, UT"
+              ,"UTSaltLakeCounty"               ,"Salt Lake County, UT"
               ,"UTSummitCounty"                 ,"Summit County, UT"
           ),
           new ParserCategory("Virginia"
