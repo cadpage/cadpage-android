@@ -184,6 +184,25 @@ PYNEX PBHAGL FUREVSSF BSSVPR PBZZHAVPNGVBAF PURPXVAT ENQVBF NAQ CNTREF SBE 1800 
 2150 ZBAGRTB QE ZBBERSVRYQ GJC ORGJRRA ZVQQYR HEONAN PBZZR AGF: 3EQ RAGENAPR ZRZBEL PNER,87 ZNYR FRIRE FGBZNPU CNVA -1864 
 4224 ARINQN EQ 20 LB Z BA N SNYY, FRVMHER -1814 
 
+** ABGRF **
+Nabgure ceboyrzngvp cnefre.  Fubhyq or rnfl rabhtu gb jevgr, ohg cnefvat erfhygf jvyy cebonoyl abg or nyy gung eryvnoyr :(
+
+Erzbir yrnqvat qnfu, naq genvyvat -aaaa frdhrapr.  Gur 4 qvtvg ahzore vf abg n gvzr, fnir va gur VQ svryq.
+Gura, hfr gur fzneg nqqerff cnefre gb rkgenpg na nqqerff sebzgur fgneg bs gur grkg, naq nffvta rirelguvat ryfr gb gur PNYY.
+Onfvpnyyl
+  cnefrNqqerff(FgnegGlcr.FGNEG_NQQE, obql, qngn)
+  qngn.fgePnyy  = trgYrsg()
+  
+jvyy qb vg.  Vs fgePnyy pbzrf onpx rzcgl, ghea guvf vagb n trareny nyreg.
+Be cbffvoyl snyy onpx gb ybbxvat sbe n / be - frcnengbe naq hfvat gung gb fcyvg gur nqqerff naq pnyy.
+
+Lbh pna nyfb rkcrevzrag jvgu cnffvat qvssrerag syntf gb gur fzneg cnefre
+SYNT_VTABER_NG vf cebonoyl n tbbq vqrn be 'NG' jbeqf va gur pnyy qrfpevcgvba jvyy zrff guvatf hc
+SYNT_AB_VZCYVRQ_NCG jvyy fhccerff ybtvp gung gerngf n ahzore sbyybjvat gur nqqerff nf na ncg.  Guvf urycf vf Cngvrag ntr vf orvat cvpxrq hc nf na ncg.
+SYNT_BCG_FGERRG_FSK jvyy npprcg fgerrg anzrf jvgubhg n erfreirq fgerrg fhssvk (FG, NIR, rgp)  Irel qnatrebhf, jura lbh hfr guvf, cerggl zhpu rirelguvat jvyy or npprcgrq.
+
+Nal gvzr lbh pnyy cnefrNqqerff() naq qrpvqr gung lbh qb abg yvxr gur erfhygf naq jnag gb fgneg bire, frg gur Nqqerff naq Ncg svryqf gb rzcgl fgevat.
+  
 */
 
 choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
