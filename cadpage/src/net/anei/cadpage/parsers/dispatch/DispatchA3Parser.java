@@ -18,10 +18,21 @@ public class DispatchA3Parser extends FieldProgramParser {
   
   private static final Pattern DELIM = Pattern.compile("(?<!\\*)\\*[\n ]+");
   
-  private String prefix;
+  private String prefix = null;
+  private Pattern prefixPtn = null;
+  
+  public DispatchA3Parser(int version, Pattern prefixPtn, String defCity, String defState) {
+    this(version, defCity, defState);
+    this.prefixPtn = prefixPtn;
+  }
   
   public DispatchA3Parser(int version, String prefix, String defCity, String defState) {
-    this(prefix, defCity, defState,
+    this(version, defCity, defState);
+    this.prefix = prefix;
+  }
+  
+  public DispatchA3Parser(int version, String defCity, String defState) {
+    super(defCity, defState,
           version == 0 ?
             "ID? ADDR/SXP APT CH CITY! X X MAP INFO1 CALL CALL ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
           : version == 1 ?
@@ -31,6 +42,11 @@ public class DispatchA3Parser extends FieldProgramParser {
           : null);
   }
   
+  public DispatchA3Parser(Pattern prefixPtn, String defCity, String defState, String program) {
+    super(defCity, defState, program);
+    this.prefixPtn = prefixPtn;
+  }
+  
   public DispatchA3Parser(String prefix, String defCity, String defState, String program) {
     super(defCity, defState, program);
     this.prefix = prefix;
@@ -38,8 +54,14 @@ public class DispatchA3Parser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith(prefix)) return false;
-    body = body.substring(prefix.length()).trim();
+    if (prefix != null) {
+      if (!body.startsWith(prefix)) return false;
+      body = body.substring(prefix.length()).trim();
+    } else if (prefixPtn != null) {
+      Matcher match = prefixPtn.matcher(body);
+      if (!match.find()) return false;
+      body  = body.substring(match.end()).trim();
+    }
     if (body.endsWith("*")) body = body + " ";
     return parseFields(DELIM.split(body), data);
   }
