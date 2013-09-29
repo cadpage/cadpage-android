@@ -124,6 +124,23 @@ Fraqre: egeboregf@obkryqrepbhagl.bet
 (grfg) 09/20/13 12:55:56\aGenssvp Fgbc\a850 F 200 R\aOEV\a\a13:10:38 09/20/2013 - W Unaqyrl      \a\aFgngr Erfcbafr:\a\aYvprafr Cyngr: IJEA, HG\aIVA: 1T4UE54P9YU442805\aRkcverf: 07-31-2014\aPbybe: \aLrne: 1990\aZnxr: OHVPX\aZbqry: YRFNOER YVZVGRQ\aFglyr: FRQNA 4 QBBE\aCyngr Glcr: CRE CNFF\aBjare: JVYYQRA, IVETVAVN \aBjare Nqqerff:\a161 PUEVFGBCURE CY\aGERZBAGBA, HG 84337 2305\aFvghf Nqqerff:\a161 PUEVFGBCURE CY\aGERZBAGBA, HG 84337 2305\aVafhenapr: Fgngr Snez Zhghny Nhgbzbovyr Vafhenapr Pbzcnal: NF BS/ 09/15/2013.\a\a\a[522425]
 (grfg) 09/20/13 12:55:56\aGenssvp Fgbc\a850 F 200 R\aOEV\a\a13:10:38 09/20/2013 - W Unaqyrl      \a\aFgngr Erfcbafr:\a\aYvprafr Cyngr: IJEA, HG\aIVA: 1T4UE54P9YU442805\aRkcverf: 07-31-2014\aPbybe: \aLrne: 1990\aZnxr: OHVPX\aZbqry: YRFNOER YVZVGRQ\aFglyr: FRQNA 4 QBBE\aCyngr Glcr: CRE CNFF\aBjare: JVYYQRA, IVETVAVN \aBjare Nqqerff:\a161 PUEVFGBCURE CY\aGERZBAGBA, HG 84337 2305\aFvghf Nqqerff:\a161 PUEVFGBCURE CY\aGERZBAGBA, HG 84337 2305\aVafhenapr: Fgngr Snez Zhghny Nhgbzbovyr Vafhenapr Pbzcnal: NF BS/ 09/15/2013.\a\a\a[522425]
 
+** ABGRF **
+
+N guveq qrcnegzrag (Tneynaq Sver) vf va gur jbexf, jnvg sbe vg...
+
+Tbvat gb arrq n yvfg bs pvgl pbqrf. V jvyy gel gb trg gung sebz hfre.
+
+SvryqCebtenzCnefre fhopynff, gel
+QNGRGVZR PNYY NQQE PVGL VASB+
+
+Fnir fhowrpg va HAVG svryq, hayrff vg fgnegf jvgu "grfg"
+
+Fgevat bss genvyvat [aaaa] pbafgehpg, fnir va VQ svryq
+
+Nqqerff svryq purpx sbe frzvpbyba, fcyvg bss genvyvat cynpr svryq
+
+Bireevqr VASB svryq.  Pnyy nccraq gb nqq gb rkvfgvat vasb svryq frcnengvat ol "\a" vafgrnq bs /
+
 */
 
 choyvp pynff HGObkRyqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
