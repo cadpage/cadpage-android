@@ -13,6 +13,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   private static final String UNIT_PTN = "\\[([-A-Z0-9]+)\\]- ";
   private static final Pattern COMMENTS_PTN = Pattern.compile("/?C ?O ?M ?M ?E ?N ?T ?S ?:");
+  private static final Pattern BETWEEN_PTN = Pattern.compile("\\bB ?E ?T ?W ?E ?E ?N\\b");
   
   private Pattern markerPattern;
   int[] extraSpacePosList;
@@ -22,6 +23,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       "MAIN",
       "MARKET",
       "NORTH",
+      "SECOND",
       "SOUTH",
       "WEST"
   }));
@@ -99,7 +101,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   public DispatchEmergitechParser(String prefix, boolean optUnit, int[] extraSpacePosList,
                           String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-           "NATURE:CALL? LOCATION:ADDR/SPN! BETWEEN:X? COMMENTS:INFO");
+           "NATURE:CALL? LOCATION:ADDR/S2PN! BETWEEN:X? COMMENTS:INFO");
     
     if (!optUnit) {
       markerPattern = Pattern.compile("^" + prefix + UNIT_PTN);
@@ -135,6 +137,10 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     // blank isn't that critical.  We will, however, try to rebuild a COMMENTS:
     // keyword that has been split
     body = COMMENTS_PTN.matcher(body).replaceFirst("COMMENTS:");
+    
+    // Ditto for BETWEEN
+    body = BETWEEN_PTN.matcher(body).replaceFirst("BETWEEN");
+    
     body = body.replace(" /LOCATION:", " LOCATION:");
     
     // If extraSpacePos is positive, the extraneous blank is found in a fixed
@@ -223,5 +229,19 @@ public class DispatchEmergitechParser extends FieldProgramParser {
    */
   private boolean isWord(String word) {
     return specialWordSet.contains(word) || isDictionaryWord(word);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("*")) field = field.substring(1).trim();
+      super.parse(field, data);
+    }
   }
 }

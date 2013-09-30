@@ -8,25 +8,28 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHAthensCountyParser extends DispatchEmergitechParser {
   
   public OHAthensCountyParser() {
-    super("911_Dispatch", 73, CITY_LIST, "ATHENS COUNTY", "OH");
+    super("911_Dispatch:", 73, CITY_LIST, "ATHENS COUNTY", "OH");
+    addSpecialWords("COLUMBUS");
   }
   
   @Override
   public String getFilter() {
     return "911_Dispatch@athensoh.org";
   }
-  
-  
-  
+
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    
-    // If preparser removed the dispatch unit, put it back
-    if (subject.length() > 0) body = '[' + subject + "]" + body; 
-    return super.parseMsg(body, data);
+  protected boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strApt.startsWith("CALLBK=")) {
+      data.strPhone = data.strApt.substring(7).trim();
+      data.strApt = "";
+    }
+    if (data.strSupp.length() == 0) {
+      data.strSupp = data.strName;
+      data.strName = "";
+    }
+    return true;
   }
-
-
 
   private static final String[] CITY_LIST = new String[]{
     

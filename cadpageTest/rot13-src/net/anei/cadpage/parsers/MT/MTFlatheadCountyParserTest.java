@@ -14,10 +14,6 @@ Fraqre: qvfcngpu@pbzzhavpngvbapragre.pbz
 1 bs 3\aSEZ:qvfcngpu@pbzzhavpngvbapragre.pbz\aFHOW:Qvfcngpu Vasbezngvba\aZFT:Havg:ZPSQ Fgnghf:Qvfcngpurq Ybpngvba: UVTUJNL 2 R Uhatel Ubefr Pnyy\a(Pba'g) 2 bs 3\aGlcr: S Fzbxr Vairfgvtngvba - Bhgfvqr Pnyy Gvzr: 20:00 Vasb:  EC YVIRF NG844 JBBQYNAQ NIR  PNA FRR JUNG NCCRNEF GB OR N FZBXR PYBHQ\a(Pba'g) 3 bs 3\aPBZVAT SBEZ GUR NERN BS UHATEL UBEFR. \a(Raq)
 1 bs 3\aSEZ:qvfcngpu@pbzzhavpngvbapragre.pbz\aFHOW:Qvfcngpu Vasbezngvba\aZFT:Havg:ZPSQ Fgnghf:Qvfcngpurq Ybpngvba: Pnyy Glcr: ZIN Vawhel Pnyy Gvzr:\a(Pba'g) 2 bs 3\a17:03 Vasb:  EC FGNGRQ GURL QVQ ABG ARRQ NYREG  XVQP FNLF GERZF PNA ZNXRVG HC GURER...YBJRE YRSG YRT CNVA, AB YBP & FBZR URNQ NOENFVBAF \a(Pba'g) 3 bs 3\a4 ZVYRF HC EQ #497//GBJNEQ QRFREG ZGA EQ  YRT NAQ ONPX\a(Raq)
 
-Pbagnpg: Qnir Qrqzna <qqrqzna@xnyvfcryy.pbz>
-Fraqre: 911@syngurnqbrf.zg.tbi<znvygb:911@syngurnqbrf.zg.tbi>
-*ONPXHC HAVG QVFCNGPU*\aHavg: 734\aYbp: 310 FHAAL IVRJ  YA - XNYVFCRYY \aGlcr: Pbebare\aQvfcngpu erprvirq ol havg 734 AHEFVAT FHCREIVFBE ERD'Q PBEBARE PNYY Q
-
 Pbagnpg: Npgvir911
 Ntrapl anzr: Juvgrsvfu Sver
 Ybpngvba: Juvgrsvfu, ZG, Havgrq Fgngrf
