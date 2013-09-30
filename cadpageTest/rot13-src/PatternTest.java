@@ -6,11 +6,11 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE  =  
-      Cnggrea.pbzcvyr("([N-M0-9]{1,5}) *(?:\\q{3})? Hgy# (\\q{3}(?: ?[N-M]\\q?)?(?: +\\q{3}[- ]?[N-M]\\q?)?) +(\\q\\q/\\q\\q/\\q\\q) +([-, N-M0-9]+?)(?: *#([-,N-M0-9]+))? / (.*?)[ /]+([N-M]+\\q+(?: ?, ?[N-M]+\\q+)*)");
+      Cnggrea.pbzcvyr(" +-(\\q{7})\\((\\q\\q?/\\q\\q?/\\q{4}) +(\\q\\q?:\\q\\q?:\\q\\q? [NC]Z)\\)$");
 
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("FANXR053 Hgy# 362 P 09/26/13 3152 A XVATF UVTUJNL JRFG AG PL / A XVATF UVTUJNL ABEGU AG WO-EC UNF N ENGGYR FANXR PBAGNVARQ GB N TNEONTR PNA R53 <- Sver Havg rKgenpgrq sebz Vapvqrag. 1638 QC004 R59 ,302SQ");
+    qbGrfg("[0205064]- ANGHER: S-RYRPGEVPNY SVER YBPNGVBA: 509 F ZNVA FG SENAXYVA ORGJRRA R 5GU FG / R 6GU FG -0205064(9/30/2013 9:50:32 NZ)");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
