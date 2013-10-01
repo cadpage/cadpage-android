@@ -93,6 +93,7 @@ public class Message {
     Pattern.compile("^(\\d)/(\\d)(?=\\d{3,}:)"),  // This one is scarry !!!
     Pattern.compile("\\[(\\d) of (\\d)\\]$"),
     Pattern.compile(":(\\d)of(\\d)$"),
+    Pattern.compile("_(\\d) of (\\d)$"),
     Pattern.compile("^[A-Z]+ +\\((\\d)/(\\d)\\) +(.*?) +STOP$"),
     Pattern.compile("^\\( *([^\\)]*?) +(\\d) *of *(\\d)\\)(.*)$", Pattern.DOTALL)
   };
