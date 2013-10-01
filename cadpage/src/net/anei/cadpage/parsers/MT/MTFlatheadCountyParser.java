@@ -35,7 +35,7 @@ public class MTFlatheadCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Dispatch Information") && subject.length() > 0) return false;
+    if (!subject.equals("Dispatch Information")) return false;
     
     // Several different formats :(
     // Newest formats have to use master pattern matches
