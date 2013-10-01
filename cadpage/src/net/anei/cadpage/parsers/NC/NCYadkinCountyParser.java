@@ -68,12 +68,44 @@ public class NCYadkinCountyParser extends FieldProgramParser {
   }
   
   public static String[] CITY_LIST = new String[]{
+   // cities and towns
     "BOONEVILLE",
     "BOONVILLE",
     "EAST BEND",
     "JONESVILLE",
     "SURRY",
-    "YADKINVILLE"
+    "YADKINVILLE",
+    
+   //towns of the past 
+    "ARLINGTON",
+    "HAMPTONVILLE",
+    "HUNTSVILLE",
+    "SHORE",
+    "SMITHTOWN",
+  
+   // Unincorporated communities
+    "BARNEY HILL",
+    "BRANON",
+    "BUCK SHOALS",
+    "CENTER",
+    "BROOKS' CROSSROADS",
+    "COURTNEY",
+    "ENON",
+    "FLINT HILL",
+    "FOOTVILLE",
+    "FORBUSH",
+    "HAMPTONVILLE",
+    "HARMONY HEIGHTS",
+    "HUNTSVILLE",
+    "LONE HICKORY",
+    "LONGTOWN",
+    "MARLER",
+    "RICHMOND HILL",
+    "SWAN CREEK",
+    "UNION HILL",
+    "WINDSOR'S CROSSROADS",
+    "WYO"
+    
   };
 
 }

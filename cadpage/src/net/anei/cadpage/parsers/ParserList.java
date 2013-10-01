@@ -582,6 +582,7 @@ public class ParserList {
               ,"NCWayneCounty"                  ,"Wayne County, NC"
               ,"NCWilkesCounty"                 ,"Wilkes County, NC"
               ,"NCWilsonCounty"                 ,"Wilson County, NC"
+              ,"NCYadkinCounty"                 ,"Yadkin County, NC"
           ),
           new ParserCategory("North Dakota"
               ,"NDCassCounty"                   ,"Cass County, ND"

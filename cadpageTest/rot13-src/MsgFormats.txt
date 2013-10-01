@@ -3268,6 +3268,11 @@ Jnxr Pbhagl, AP (APJnxrPbhaglCnefre)
 [JPCF] Vap: SOQ : \aZnc: 002K \aNqq: 3229 BYVIR TEBIR PUHEPU EQ \aYbp:  \aNcg:  \aPF:  BYQ JRNIRE GEY   /   \aHag: FUO399,\aGT: G15\aPgl: JPPE
 [JPCF] Vap: SJS : \aZnc: 039J \aNqq: 6160 WBUAFQNYR EQ \aYbp:  \aNcg:  \aHag: ESP20,ESNVE1,ESP10,\aGT: \aPgl: EN
 ***************************************************************************
+Lnqxva Pbhagl, AP (APLnqxvaPbhaglCnefre)
+(3345 EBPXSBEQ EQ OBBAIVYYR;OYHRTENFF UVYY QE K AROB EQ;ZQY 17O01-T;17 SNYYF;trb) 36.214293, -80.654732;VA GUR XVGPURA BPN: 1309029
+(Grkg Zrffntr) 5149 AP 67 UJL OBBAIVYYR;FGVAFBA EQ K ORR QRR QE;ZQY 19P07;19 URNEG CEBOYRZF/N.V.P.Q;trb:36.227856, -80.667114;202/106 BPN: 1309028
+(4700 ap 67 ujl r OBBAIVYYR;ZQY 19Q02;19 URNEG CEBOYRZF/N.V.P.Q;trb) 36.22985, -80.68833; BPN: 1309025
+***************************************************************************
 Pnff Pbhagl, AQ (AQPnffPbhaglCnefre)
 Nppvqrag - Vawhel 15605 29 FG FR PNFG 02/10/12 16:21 PSF #: 430 10-50 EBYYBIRE V  Angher Bs Pnyy: 10-50 EBYYBIRE V  Angher Bs Pnyy: 10-50 EBYYBIRE  9500-PNFGSVE 6611-PNFGNZO 608 8800-PNFFERF
 Nppvqrag - Vawhel 102 YNATRE NIR F PNFG PRARK CRGEB FREIR - 102 YNATRE NIR F - PNFG04/03/12 12:15 PSF #: 967 ZRQVPNY  Qvfcngpu erprvirq ol havg 3523 Qvfcngpu erprvirq ol havg 3518  Z JNF UVG OL UVF BJA IRU  Angher Bs Pnyy: ZRQVPNY  9500-PNFGSVE 6611-PNFGNZO 609 8800-PNFFERF
