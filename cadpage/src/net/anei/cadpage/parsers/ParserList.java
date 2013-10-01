@@ -589,6 +589,7 @@ public class ParserList {
           ),
           new ParserCategory("Ohio"
               ,"OHAshtabulaCounty"              ,"Ashtabula County, OH"
+              ,"OHAthensCounty"                 ,"Athens County, OH"
               ,"OHBrownCounty"                  ,"Brown County, OH"
               ,"OHButlerCounty"                 ,"Butler County, OH"
               ,"OHCarrollCounty"                ,"Carroll County, OH"
