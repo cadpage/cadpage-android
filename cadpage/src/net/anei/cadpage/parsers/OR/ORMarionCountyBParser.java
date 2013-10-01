@@ -1,3 +1,4 @@
+
 package net.anei.cadpage.parsers.OR;
 
 import java.util.Properties;
@@ -98,7 +99,6 @@ public class ORMarionCountyBParser extends FieldProgramParser {
       if (NUMERIC.matcher(data.strCity).matches()) data.strCity = p.getLastOptional(","); 
       data.strPlace = p.getLastOptional(", @");
       super.parse(p.get(), data);
-      if (data.strAddress.length() == 0) abort();
       
       // remove zipcode from city
       Matcher zipMat = REMOVE_ZIP_PATTERN.matcher(data.strCity);
