@@ -11,7 +11,7 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
   
   public NYWestchesterCountyParser() {
     super(CITY_CODES, "WESTCHESTER COUNTY", "NY",
-           "ADDR Cross:X! Type:CALL! CALL Time_out:TIME Area:CITY lev:PRI Comments:INFO");
+           "ADDR Cross:X! Type:CALL! CALL Time_out:TIME Area:CITY lev:PRI Comments:INFO+");
   }
   
   @Override
@@ -77,10 +77,18 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
       return "ADDR CITY ST PLACE APT";
     }
   }
+  
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strSupp = append(data.strSupp, ", ", field);
+    }
+  }
 
   @Override
   protected Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
