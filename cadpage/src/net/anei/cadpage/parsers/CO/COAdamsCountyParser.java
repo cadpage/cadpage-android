@@ -124,6 +124,7 @@ public class COAdamsCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "ADAM ADAM", "",
+      "ADAM ARV",  "ARVADA",
       "ADAM AUR",  "AURORA",
       "ADAM BPD",  "BRIGHTON",
       "ADAM CCPD", "COMMERCE CITY",
