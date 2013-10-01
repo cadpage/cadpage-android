@@ -1,6 +1,13 @@
 support@cadpage.org
 
 ***************************************************************************
+
+Active911 is a different app published by a different company.  We can not offer any support for it, you will need to contact Active911 for that.
+
+Good luck,
+-Ken
+
+***************************************************************************
 * bad token abort
 ***************************************************************************
 
