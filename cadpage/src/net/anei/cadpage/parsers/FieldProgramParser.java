@@ -2303,11 +2303,13 @@ public class FieldProgramParser extends SmartAddressParser {
    * that is part of a smart address field.  If it happens to start with
    * a slash or ampersand, assume it should be part of an address intersection
    */
+  private static final Pattern SPEC_APT_INTERSECT_PTN = Pattern.compile("(?:/|&|AND\\b) *(.*)", Pattern.CASE_INSENSITIVE);
   private class SpecialAptField extends AptField {
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("/") || field.startsWith("&")) {
-        data.strAddress = data.strAddress + " & " + field.substring(1).trim();
+      Matcher match = SPEC_APT_INTERSECT_PTN.matcher(field);
+      if (match.matches()) {
+        data.strAddress = data.strAddress + " & " + match.group(1);
       } else {
         super.parse(field, data);
       }

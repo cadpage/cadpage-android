@@ -7,7 +7,6 @@ import net.anei.cadpage.parsers.dispatch.DispatchA30Parser;
 
 public class OKGarfieldCountyParser extends DispatchA30Parser {
   
-  
   public OKGarfieldCountyParser() {
     super(CITY_LIST, "F", "GARFIELD COUNTY", "OK");
   }
