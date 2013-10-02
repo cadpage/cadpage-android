@@ -31,7 +31,7 @@ public class NYNassauCountyDParser extends FieldProgramParser {
     body = body.substring(match.end());
     body = MISSING_DELIM.matcher(body).replaceAll(" *");
     
-    if (body.contains(" c/s:") || body.contains(" ADTNL:")) return false;
+    if (body.contains(" c/s:") || body.contains(" ADTNL:") || body.contains(" ADTML:")) return false;
     return parseFields(DELIM.split(body), 2, data);
   }
   

@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchA14Parser extends FieldProgramParser {
   
   private static final Pattern[] MISSING_BLANK_PTNS = new Pattern[]{
-    Pattern.compile("([^ ])(CS:|ADTML:|CODE:|TOA:|TYPE:|LOC:)"),
+    Pattern.compile("([^ \\*])(CS:|ADTML:|CODE:|TOA:|TYPE:|LOC:)"),
     Pattern.compile("\\b(\\d\\d-\\d\\d-\\d\\d)([^ ])"),
     Pattern.compile("([^ ])(\\d{4}-\\d{6})\\b")
   };
@@ -49,7 +49,7 @@ public class DispatchA14Parser extends FieldProgramParser {
       body = ptn.matcher(body).replaceAll("$1 $2");
     }
     if (! super.parseMsg(body, data)) return false;
-    return (pt1 == 0 || data.strCross.length() > 0 || data.strTime.length() > 0);
+    return (data.strCross.length() > 0 || data.strTime.length() > 0);
   }
 
   private static final Pattern TIME_DATE = Pattern.compile("^(\\d\\d:\\d\\d)(?: (\\d\\d[-/]\\d\\d[-/]\\d\\d))?\\b");
@@ -61,7 +61,7 @@ public class DispatchA14Parser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       Matcher match = TIME_DATE.matcher(field);
-      if (!match.find()) abort();
+      if (!match.find()) return;
       data.strTime = match.group(1);
       data.strDate = getOptGroup(match.group(2)).replaceAll("-", "/");
       field = field.substring(match.end()).trim();
