@@ -5,20 +5,32 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-This is a special release intended to force a fresh version install in the hope 
-that that will fix a problem one unlucky user in Josephine County, OR is 
-having with Cadpage continusously aborting.  If this does not work, use the 
-Email the Developer feature to contact us.\n
-\n      
 New Locations:\n
-Lincoln County, OR\n
+El Paso County, CO (alt)\n
+Nassau County, NY (alt)\n
+Yadkin County, NC\n
+Athens County, OH\n
+Brazoria County, TX\n
+Salt Lake County, UT\n
 \n
 Location Parsing Fixes:\n
-Shelby County, AL\n
-Lehigh County, PA\n
-Anderson County, TN\n
-Loudoun County, VA\n
-Yakima County, WA\n
+Yavapai County, AZ\n
+Adams County, CO\n
+Sedgewick County, KS\n
+Midland County, MI\n
+Phelps County, MO\n
+Flathead County, MT\n
+Davie County, NC\n
+Franklin, OH\n
+Marion County, OR\n
+PennStar, PA\n
+Westchester County, PA\n
+Minnehaha County, SD\n
+Collin County, TX\n
+\n
+General Fixes:\n
+Cadpage auto clearing notifications after a few seconds.\n
+Selecting Notification does not always pop up call detail window.\n
   </string>  
 </resources>
   

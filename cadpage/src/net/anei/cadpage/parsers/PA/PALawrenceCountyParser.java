@@ -15,23 +15,8 @@ public class PALawrenceCountyParser extends DispatchB2Parser {
   
   @Override
   public String getFilter() {
-    return "911-CENTER@leoc.net, test@leoc.net";
+    return "911-CENTER@leoc.net,test@leoc.net";
   }
-  
-  @Override
-  protected boolean isPageMsg(String body) {
-    return true;
-  }
-  
-  
-  @Override
-  protected boolean parseAddrField(String field, Data data) {
-    field = field.replace('@', '&').replace(" AT ", " & ");
-    return super.parseAddrField(field, data);
-  }
-  
- 
-  private static final Pattern BYPASS_PTN = Pattern.compile("\\bBYPASS\\b", Pattern.CASE_INSENSITIVE);
   
   private static final String[] CITY_LIST = new String[]{
     // Cities
