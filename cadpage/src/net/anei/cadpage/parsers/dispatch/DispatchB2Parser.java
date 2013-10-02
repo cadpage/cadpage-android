@@ -95,6 +95,7 @@ public class DispatchB2Parser extends DispatchBParser {
     
     String address = null;
     if (field.length() == 0) return false;
+    
     if (field.charAt(0) == '(') {
       int pt = field.indexOf(')');
       if (pt < 0) return false;
@@ -108,15 +109,27 @@ public class DispatchB2Parser extends DispatchBParser {
       field = field.substring(match.end());
     }
     
-    StartType st = StartType.START_CALL;
-    int flags = FLAG_START_FLD_REQ;
     if (address != null) {
       data.strCall = field;
       field = address;
+    } else { 
+      Pattern ptn = getCallPattern();
+      if (ptn != null) {
+        match =  ptn.matcher(field);
+        if (match.matches()) {
+          data.strCall = match.group(1).trim();
+          field = match.group(2).trim();
+        }
+      }
+    }
+
+    StartType st = StartType.START_CALL;
+    int flags = FLAG_START_FLD_REQ;
+    if (data.strCall.length() > 0) {
       st = StartType.START_ADDR;
       flags = 0;
     }
-    
+
     match = PHONE_PTN.matcher(field);
     if (match.find()) {
       data.strPhone = match.group(1);
@@ -171,5 +184,12 @@ public class DispatchB2Parser extends DispatchBParser {
     }
     
     return true;
+  }
+  
+  /***
+   * @return Pattern that can be used to separate call description from rest of address line.
+   */
+  protected Pattern getCallPattern() {
+    return null;
   }
 }

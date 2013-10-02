@@ -9,6 +9,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 public class PALawrenceCountyParser extends DispatchB2Parser {
   
+  private static final Pattern CALL_ADDR_PTN = Pattern.compile("(.* (?:ALPHA|BRAVO|CHARLIE?|DELTA)) +(.*)", Pattern.CASE_INSENSITIVE);
+  
   public PALawrenceCountyParser() {
     super("911-CENTER:",CITY_LIST, "LAWRENCE COUNTY", "PA");
   }
@@ -18,38 +20,51 @@ public class PALawrenceCountyParser extends DispatchB2Parser {
     return "911-CENTER@leoc.net,test@leoc.net";
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.endsWith(" BOR")) data.strCity = data.strCity.substring(0,data.strCity.length()-4).trim();
+    return true;
+  }
+
+  @Override
+  protected Pattern getCallPattern() {
+    return CALL_ADDR_PTN;
+  }
+  
   private static final String[] CITY_LIST = new String[]{
+    
     // Cities
         "NEW CASTLE",
+        
     //  Boroughs
-        "BESSEMER",
-        "ELLPORT",
-        "ELLWOOD CITY // partly in Beaver County",
-        "ENON VALLEY",
-        "NEW BEAVER",
-        "NEW WILMINGTON",
-        "S.N.P.J.",
-        "SOUTH NEW CASTLE",
-        "VOLANT",
-        "WAMPUM",
+        "BESSEMER BOR",
+        "ELLPORT BOR",
+        "ELLWOOD CITY BOR",
+        "ENON VALLEY BOR",
+        "NEW BEAVER BOR",
+        "NEW WILMINGTON BOR",
+        "SNPJ BOR",
+        "SOUTH NEW CASTLE BOR",
+        "VOLANT BOR",
+        "WAMPUM BOR",
+        
      //  Townships
-        "HICKORY TOWNSHIP",
-        "LITTLE BEAVER TOWNSHIP",
-        "MAHONING TOWNSHIP",
-        "NESHANNOCK TOWNSHIP",
-        "NORTH BEAVER TOWNSHIP",
-        "PERRY TOWNSHIP",
-        "PLAIN GROVE TOWNSHIP",
-        "PULASKI TOWNSHIP",
-        "SCOTT TOWNSHIP",
-        "SHENANGO TOWNSHIP",
-        "SLIPPERY ROCK TOWNSHIP",
-        "TAYLOR TOWNSHIP",
-        "UNION TOWNSHIP",
-        "WASHINGTON TOWNSHIP",
-        "WAYNE TOWNSHIP",
-        "WILMINGTON TOWNSHIP"};
-
-
-
+        "HICKORY TWP",
+        "LITTLE BEAVER TWP",
+        "MAHONING TWP",
+        "NESHANNOCK TWP",
+        "NORTH BEAVER TWP",
+        "PERRY TWP",
+        "PLAIN GROVE TWP",
+        "PULASKI TWP",
+        "SCOTT TWP",
+        "SHENANGO TWP",
+        "SLIPPERY ROCK TWP",
+        "TAYLOR TWP",
+        "UNION TWP",
+        "WASHINGTON TWP",
+        "WAYNE TWP",
+        "WILMINGTON TWP"
+   };
 }
