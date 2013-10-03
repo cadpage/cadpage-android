@@ -9,8 +9,12 @@ choyvp pynff BXPnegrePbhaglCnefreGrfg {
   
   choyvp fgngvp pynff GrfgN rkgraqf BXPnegrePbhaglNCnefreGrfg {
     choyvp GrfgN() {
-      frgCnefre(arj BXPnegrePbhaglNCnefre());
+      frgCnefre(arj BXPnegrePbhaglCnefre());
     }
   }
-  
+  choyvp fgngvp pynff GrfgO rkgraqf BXPnegrePbhaglOCnefreGrfg {
+    choyvp GrfgO() {
+      frgCnefre(arj BXPnegrePbhaglCnefre());
+    }
+  } 
 }
