@@ -10,42 +10,86 @@ public class DispatchShieldwareParser extends FieldProgramParser {
   
   public static final int FLG_NO_UNIT = 1;
   
-  private static final Pattern CALL_PTN = Pattern.compile("^(\\d\\d-\\d{6}) +");
-  
   protected DispatchShieldwareParser(String defCity, String defState) {
-    this(defCity, defState, 0);
+    this(null, defCity, defState, 0);
   }
   
   protected DispatchShieldwareParser(String defCity, String defState, int flags) {
-    super(defCity, defState,
-           (flags & FLG_NO_UNIT) == 0 ? "CALL DATETIME? ADDR X/Z? PLCITY! UNIT END"
-                                      : "CALL DATETIME? ADDR X/Z? PLCITY! END");
+    this(null, defCity, defState, flags);
+  }
+  
+  protected DispatchShieldwareParser(String[] cityList, String defCity, String defState) {
+    this(cityList, defCity, defState, 0);
+  }
+  
+  protected DispatchShieldwareParser(String[] cityList, String defCity, String defState, int flags) {
+    super(cityList, defCity, defState,
+          "( Reported:DATETIME CALL! Loc:ADDRCITY! X/Z? SRC UNIT END | " +
+          "CALL Reported:DATETIME? ADDR! X/Z? PLCITY! " +
+          ((flags & FLG_NO_UNIT) == 0 ? "UNIT " : "") +
+          "END )");
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    Matcher match = CALL_PTN.matcher(body);
-    if (!match.find()) return false;
-    data.strCallId = match.group(1);
-    body = body.substring(match.end());
     return parseFields(body.split("(?: *\n)+"), data);
   }
   
   @Override
-  public String getProgram() {
-    return "ID " + super.getProgram();
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("PLCITY")) return new PlaceCityField();
+    return super.getField(name);
   }
   
-  private class MyDateTimeField extends DateTimeField {
+  private static final Pattern CALL_PTN = Pattern.compile("^(\\d\\d-\\d{6}) +");
+  private class MyCallField extends CallField {
     @Override
     public boolean canFail() {
       return true;
     }
-    
+  
     @Override
     public boolean checkParse(String field, Data data) {
-      if (!field.startsWith("Reported: ")) return false;
-      return super.checkParse(field.substring(10).trim(), data);
+      Matcher match = CALL_PTN.matcher(field);
+      if (!match.find()) return false;
+      data.strCallId = match.group(1);
+      field = field.substring(match.end()).trim();
+      super.parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ID CALL";
+    }
+  }
+  
+  private class MyAddressCityField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(',');
+      if (pt >= 0) {
+        data.strCity = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+      }
+      
+      if (data.strCity.length() > 0) {
+        parseAddress(field, data);
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT CITY";
     }
   }
   
@@ -62,13 +106,5 @@ public class DispatchShieldwareParser extends FieldProgramParser {
     public String getFieldNames() {
       return "PLACE CITY";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("PLCITY")) return new PlaceCityField();
-    return super.getField(name);
-    
   }
 }

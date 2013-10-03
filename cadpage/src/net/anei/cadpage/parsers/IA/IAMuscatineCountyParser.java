@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchShieldwareParser;
 public class IAMuscatineCountyParser extends DispatchShieldwareParser {
   
   public IAMuscatineCountyParser() {
-    super("MUSCATINE COUNTY", "IA");
+    super(CITY_LIST, "MUSCATINE COUNTY", "IA");
   }
   
   @Override
@@ -26,4 +26,28 @@ public class IAMuscatineCountyParser extends DispatchShieldwareParser {
   public String getProgram() {
     return "SRC " + super.getProgram();
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+
+    // Cities    
+    "ATALISSA",
+    "BLUE GRASS",
+    "DURANT",
+    "CONESVILLE",
+    "FRUITLAND",
+    "MUSCATINE",
+    "NICHOLS",
+    "STOCKTON",
+    "WALCOTT",
+    "WEST LIBERTY",
+    "WILTON",
+
+    // Unincorporated communities
+    "CRANSTON",
+    "FAIRPORT",
+    "MIDWAY BEACH",
+    "MONTPELIER",
+    "MOSCOW",
+    "PETERSBURG"
+  };
 }
