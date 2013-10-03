@@ -113,6 +113,7 @@ public class ParserList {
               ,"ALColbertCounty"                ,"Colbert County, AL"
               ,"ALDothan"                       ,"Dothan, AL"
               ,"ALHenryCounty"                  ,"Henry County, AL"
+              ,"ALJeffersonCounty"              ,"Jefferson County, AL"
               ,"ALLauderdaleCounty"             ,"Lauderdale County, AL"
               ,"ALMadisonCounty"                ,"Madison County, AL"
               ,"ALMarshallCounty"               ,"Marshall County, AL"
