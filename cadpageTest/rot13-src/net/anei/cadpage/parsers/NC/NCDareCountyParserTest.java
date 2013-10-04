@@ -379,6 +379,14 @@ PNQ:QVNORGVP;138 FPNEOBEBHTU YA;QPX;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Nycun ERFC
 PNQ:JNGRE ERFPHR (14-O-2);SBHE FRNFBAF YA/QHPX EQ;SBHE FRNFBAF YA ORNPU NPPRFF;QPX;CNQQYR OBNEQRE BHG GBB SNE [08/13/2013 11:49:26 FGVRU]
 PNQ:JNGRE ERFPHR (14-O-2);100-OYX QHAR EQ;QPX;3 FHOWF BA CNQQYR OBNEQF ERNY SNE BHG CBFF VBA QVFGERFF HANOYR GB TRG ONPX VA [08/13/13 09:22:52 WONYYNAPR]
 
+** ABGRF **
+Fhopynff QvfcngpuBFFVCnefre
+gel
+PNYY NQQE CYNPR? PVGL VASB+
+
+Arrq gb ohvyq gnoyr bs pvgl pbqrf.  V'yy frr vs V pna trg bar sebz raq hfre.
+Vs abg lbh jvyy unir gb ohvyq vg sebz jung lbh unir
+
 */
 
 choyvp pynff APQnerPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
