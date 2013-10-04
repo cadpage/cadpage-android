@@ -24,7 +24,7 @@ public class DispatchShieldwareParser extends FieldProgramParser {
   
   protected DispatchShieldwareParser(String[] cityList, String defCity, String defState, int flags) {
     super(cityList, defCity, defState,
-          "( Reported:DATETIME CALL! Loc:ADDRCITY! X/Z? SRC UNIT END | " +
+          "( Reported:DATETIME CALL! Loc:ADDRCITY! X/Z PLACE? UNIT INFO+ | " +
           "CALL Reported:DATETIME? ADDR! X/Z? PLCITY! " +
           ((flags & FLG_NO_UNIT) == 0 ? "UNIT " : "") +
           "END )");
@@ -39,6 +39,7 @@ public class DispatchShieldwareParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("PLCITY")) return new PlaceCityField();
     return super.getField(name);
   }
@@ -71,25 +72,52 @@ public class DispatchShieldwareParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern ADDR_ST_ZIP_PTN = Pattern.compile("([A-Z]{2})( +(\\d{5}))?");
   private class MyAddressCityField extends AddressField {
     @Override
     public void parse(String field, Data data) {
+      String city = null;
       int pt = field.indexOf(',');
       if (pt >= 0) {
-        data.strCity = field.substring(pt+1).trim();
+        city = field.substring(pt+1).trim();
         field = field.substring(0,pt).trim();
+        Matcher match = ADDR_ST_ZIP_PTN.matcher(city);
+        if (match.matches()) {
+          data.strState = match.group(1);
+          if (data.strState.equals(data.defState)) data.strState = "";
+          city = match.group(2);
+        } else {
+          data.strCity = city;
+        }
       }
       
       if (data.strCity.length() > 0) {
         parseAddress(field, data);
       } else {
         parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
+        if (data.strCity.length() == 0 && city != null) data.strCity = city;
       }
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR APT CITY";
+      return "ADDR APT CITY ST";
+    }
+  }
+  
+  private static final Pattern PLACE_UNIT_PTN =  Pattern.compile("[A-Z0-9]{1,4}(?: [A-Z0-9]{1,4})+");
+  private class MyPlaceField extends PlaceField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override 
+    public boolean checkParse(String field, Data data) {
+      // If it looks like a unit field, it shouldn't be a place field
+      if (PLACE_UNIT_PTN.matcher(field).matches()) return false;
+      parse(field, data);
+      return true;
     }
   }
   

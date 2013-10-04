@@ -19,6 +19,13 @@ Fraqre: 7771
 Pbagnpg: Oergg Orpxre <penfu.orpxre@tznvy.pbz>
 Fraqre: 777
 .... (JYSQ, JYNZO) Ercbegrq: 10/02/2013 19:59:41\a13-040989 ZRQVPNY \aYbp: 332 ZNVA FG AVPUBYF,  \aAVPUBYF NIR /  VWRZ NIR \aAVPUBYF SVER QRCNEGZRAG \aASE JYNO
+.... (JYSQ, JYNZO) Ercbegrq: 10/03/2013 17:00:49\a13-041107 SVER-FGEHPGHER \aYbp: 1039 VERL NIR NGNYVFFN,VN 52720 \a100GU FG / 110GU FG \aNSQ JYSQ
+.... (JYSQ, JYNZO) Ercbegrq: 10/01/2013 04:24:08\a13-040767 ZRQVPNY \aYbp: 231 J ZNKFBA NIR JRFG YVOREGL,VN 52776 \aA QVIVFVBA FG / A RYZ FG \a737 JYNO
+.... (JYSQ, JYNZO) Ercbegrq: 10/01/2013 22:24:53\a13-040862 ZRQVPNY \aYbp: 1000 A ZVYYRE FG JRFG YVOREGL,VN 52776 \aR 10GU FG /  R ZNKFBA NIR \aFVZCFBA ZRZBEVNY
+
+** abg cnefvat **
+UBHFVAT #1 \a735 JYNO
+UVTU FPUBBY \aJYNO
 
  */
 
@@ -101,9 +108,60 @@ choyvp pynff VNZhfpngvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:332 ZNVA FG",
         "PVGL:AVPUBYF",
         "K:AVPUBYF NIR /  VWRZ NIR",
-        "FEP:AVPUBYF SVER QRCNEGZRAG",
+        "CYNPR:AVPUBYF SVER QRCNEGZRAG",
         "HAVG:ASE JYNO");
-   
+
+    qbGrfg("G2",
+        ".... (JYSQ, JYNZO) Ercbegrq: 10/03/2013 17:00:49\a" +
+        "13-041107 SVER-FGEHPGHER \a" +
+        "Ybp: 1039 VERL NIR NGNYVFFN,VN 52720 \a" +
+        "100GU FG / 110GU FG \a" +
+        "NSQ JYSQ",
+
+        "FEP:JYSQ, JYNZO",
+        "QNGR:10/03/2013",
+        "GVZR:17:00:49",
+        "VQ:13-041107",
+        "PNYY:SVER-FGEHPGHER",
+        "NQQE:1039 VERL NIR",
+        "PVGL:NGNYVFFN",
+        "K:100GU FG / 110GU FG",
+        "HAVG:NSQ JYSQ");
+
+    qbGrfg("G3",
+        ".... (JYSQ, JYNZO) Ercbegrq: 10/01/2013 04:24:08\a" +
+        "13-040767 ZRQVPNY \a" +
+        "Ybp: 231 J ZNKFBA NIR JRFG YVOREGL,VN 52776 \a" +
+        "A QVIVFVBA FG / A RYZ FG \a" +
+        "737 JYNO",
+
+        "FEP:JYSQ, JYNZO",
+        "QNGR:10/01/2013",
+        "GVZR:04:24:08",
+        "VQ:13-040767",
+        "PNYY:ZRQVPNY",
+        "NQQE:231 J ZNKFBA NIR",
+        "PVGL:JRFG YVOREGL",
+        "K:A QVIVFVBA FG / A RYZ FG",
+        "HAVG:737 JYNO");
+
+    qbGrfg("G4",
+        ".... (JYSQ, JYNZO) Ercbegrq: 10/01/2013 22:24:53\a" +
+        "13-040862 ZRQVPNY \a" +
+        "Ybp: 1000 A ZVYYRE FG JRFG YVOREGL,VN 52776 \a" +
+        "R 10GU FG /  R ZNKFBA NIR \a" +
+        "FVZCFBA ZRZBEVNY",
+
+        "FEP:JYSQ, JYNZO",
+        "QNGR:10/01/2013",
+        "GVZR:22:24:53",
+        "VQ:13-040862",
+        "PNYY:ZRQVPNY",
+        "NQQE:1000 A ZVYYRE FG",
+        "PVGL:JRFG YVOREGL",
+        "K:R 10GU FG /  R ZNKFBA NIR",
+        "CYNPR:FVZCFBA ZRZBEVNY");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
