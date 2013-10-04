@@ -694,6 +694,7 @@ public class ParserList {
               ,"PAJuniataCounty"                ,"Juniata County, PA"
               ,"PALackawannaCounty"             ,"Lackawanna County, PA"
               ,"PALancasterCounty"              ,"Lancaster County, PA"
+              ,"PALawrenceCounty"               ,"Lawrence County, PA"
               ,"PALebanonCounty"                ,"Lebanon County, PA"
               ,"PALehighCounty"                 ,"Lehigh County, PA"
               ,"PAMercerCounty"                 ,"Mercer County, PA"
