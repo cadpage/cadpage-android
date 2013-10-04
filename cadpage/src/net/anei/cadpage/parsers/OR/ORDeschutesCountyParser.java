@@ -27,7 +27,7 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
     // needs to be projected from our parsing breaks
     body = body.replace(" - ", " %% ");
     body = body.replace("NON-EMERGENCY", "NON%%EMERGENCY");
-    return parseFields(body.split("-"), 5, data);
+    return parseFields(body.split("-"), 4, data);
   }
   
   // Call field, replace double underscores with dash
@@ -72,7 +72,7 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      if (field.length() == 0) return true;
+      if (field.length() == 0 || field.equals("M")) return true;
       if (!field.startsWith("Map ")) return false;
       super.parse(field.substring(4).trim(), data);
       return true;
@@ -87,7 +87,7 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("PRI")) return new PriorityField("[A-Z][A-Z0-9]{0,2}", true);
+    if (name.equals("PRI")) return new PriorityField("[A-Z][A-Z0-9]{0,3}", true);
     if (name.equals("UNITSRC")) return new UnitSourceField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("MAP")) return new MyMapField();
