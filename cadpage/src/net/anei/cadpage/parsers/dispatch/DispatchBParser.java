@@ -447,6 +447,7 @@ public class DispatchBParser extends FieldProgramParser {
         "MISSING PERSON/UNDER 18YOA/JUV",
         "MOTOR VEH ACC UNKNOWN INJ",
         "MOTOR VEHICLE ACCIDENT",
+        "MOTOR VEHICLE ACCIDENT INJ",
         "MOTOR VEHICLE ACCIDENT INJURY",
         "MOTOR VEHICLE COLLISION",
         "MUT AID",
