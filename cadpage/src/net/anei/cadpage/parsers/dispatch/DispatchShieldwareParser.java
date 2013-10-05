@@ -24,7 +24,7 @@ public class DispatchShieldwareParser extends FieldProgramParser {
   
   protected DispatchShieldwareParser(String[] cityList, String defCity, String defState, int flags) {
     super(cityList, defCity, defState,
-          "( Reported:DATETIME CALL! Loc:ADDRCITY! X/Z PLACE? UNIT INFO+ | " +
+          "( Reported:DATETIME CALL! Loc:ADDRCITY! X/Z PLACE? UNIT% INFO+ | " +
           "CALL Reported:DATETIME? ADDR! X/Z? PLCITY! " +
           ((flags & FLG_NO_UNIT) == 0 ? "UNIT " : "") +
           "END )");
