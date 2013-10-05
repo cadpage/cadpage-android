@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MOPhelpsCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("Incident# : ([A-Z0-9]+) (?:Resource# : \\d+ )?For Activity (Dispatch|Finish) Resource");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("Incident# : ([A-Z0-9]+) (?:Resource# : [A-Z0-9]+ )?For Activity (Dispatch|Finish|Arrive)(?: Resource)?");
   private static final Pattern DELIM_PTN = Pattern.compile("\n\n?|\\|");
  
   public MOPhelpsCountyParser() {
@@ -24,7 +24,7 @@ public class MOPhelpsCountyParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     Matcher match = SUBJECT_PTN.matcher(subject);
     if (!match.matches()) return false;
-    if (match.group(2).equals("Finish")) {
+    if (!match.group(2).equals("Dispatch")) {
       data.strCall = "RUN REPORT";
       data.strCallId = match.group(1);
       data.strPlace = body;
