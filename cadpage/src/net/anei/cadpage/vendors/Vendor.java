@@ -302,10 +302,8 @@ abstract class Vendor {
     sb.append("\nenabled:" + enabled);
     sb.append("\ntextPage:" + textPage);
     sb.append("\ndisableTextPageCheck:" + disableTextPageCheck);
-    if (enabled) {
-      sb.append("\naccount:" + account);
-      sb.append("\ntoken:" + token);
-    }
+    sb.append("\naccount:" + account);
+    sb.append("\ntoken:" + token);
   }
 
   /**
@@ -426,7 +424,7 @@ abstract class Vendor {
     
     // Send an unregister request to the vendor server
     // we really don't care how it responds
-    Uri uri = buildRequestUri("unregister", ManagePreferences.registrationId());
+    Uri uri = buildRequestUri("unregister", ManagePreferences.registrationId(), true);
     HttpService.addHttpRequest(context, new HttpRequest(uri){});
     
     // Finally unregister from Google C2DM service.  If there are other vendor
@@ -515,6 +513,13 @@ abstract class Vendor {
         // and we should request another one.
         if (status == 299) C2DMService.register(context, true);
         
+        // A 400 request indicates that the device we have tried to register is no longer valid
+        if (status == 400) {
+          enabled = false;
+          saveStatus();
+          reportStatusChange();
+        }
+        
         // That is all we have to do.  The GCM protocol, it has it's own way of 
         // getting the new registration ID to our servers.  So we don't have to do anything 
         // drastic if the reregister request fails
@@ -581,11 +586,24 @@ abstract class Vendor {
    * @return request URI
    */
   private Uri buildRequestUri(String req, String registrationId) {
+    return buildRequestUri(req, registrationId, false);
+  }
+
+  /**
+   * Build a request URI
+   * @param req request type
+   * @param registrationId registration ID
+   * @param force force account and token information to be included even when
+   * vendor is not currently registered
+   * @return request URI
+   */
+  private Uri buildRequestUri(String req, String registrationId, boolean force) {
+
     String phone = UserAcctManager.instance().getPhoneNumber();
     Uri.Builder builder = getBaseURI(req).buildUpon();
     builder = builder.appendQueryParameter("req", req);
     builder = builder.appendQueryParameter("vendor", getVendorCode());
-    if (enabled) {
+    if (force || enabled) {
       if (account != null) builder = builder.appendQueryParameter("account", account);
       if (token != null) builder = builder.appendQueryParameter("token", token);
     }
