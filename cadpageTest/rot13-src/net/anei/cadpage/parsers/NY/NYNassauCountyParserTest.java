@@ -85,5 +85,9 @@ choyvp pynff ALAnffnhPbhaglCnefreGrfg {
       frgCnefre(arj ALAnffnhPbhaglCnefre());
     }
   }
-  
+  choyvp fgngvp pynff GrfgOrgucntr rkgraqf ALAnffnhPbhaglOrgucntrCnefreGrfg {
+    choyvp GrfgOrgucntr() {
+      frgCnefre(arj ALAnffnhPbhaglCnefre());
+    }
+  }
 }
