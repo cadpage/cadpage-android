@@ -130,6 +130,7 @@ public class COAdamsCountyParser extends FieldProgramParser {
       "ADAM CCPD", "COMMERCE CITY",
       "ADAM FHPD", "FEDERAL HEIGHTS",
       "ADAM TPD",  "THORNTON",
+      "ADAM WES",  "WESTMINSTER",
       "ARAP ARAP", "ARAPAHOE COUNTY"
   });
 }
