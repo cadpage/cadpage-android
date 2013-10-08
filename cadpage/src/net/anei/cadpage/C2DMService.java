@@ -130,9 +130,14 @@ public class C2DMService extends IntentService {
     // We can only recover from the SERVICE_NOT_AVAILABLE error
     // Lately PHONE_REGISTRATION_ERROR appears to be a recoverable error
     // But we can at least check to make sure there is an identifiable user account
+    // Google is having problems with some systems returning AUTHENTICATION_FAILED status for unknown
+    // reasons, so we will try to generate a bug report to help them out
     if (!error.equals("SERVICE_NOT_AVAILABLE")) {
-      if (!error.equals("PHONE_REGISTRATION_ERROR")) return error;
-      if (UserAcctManager.instance().getUser() == null) return "AUTHENTICATION FAILED";
+      if (!error.equals("PHONE_REGISTRATION_ERROR")) {
+        if (error.equals("AUTHENTICATION_FAILED")) BugReportGenerator.generate();
+        return error;
+      }
+      if (UserAcctManager.instance().getUser() == null) return "AUTHENTICATION_FAILED";
     }
     
     // See if request should be rescheduled

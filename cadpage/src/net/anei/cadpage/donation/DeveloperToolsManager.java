@@ -9,6 +9,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 //import net.anei.cadpage.ContentQuery;
+import net.anei.cadpage.BugReportGenerator;
 import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.ManagePreferences;
@@ -75,12 +76,13 @@ public class DeveloperToolsManager {
     "Recent Tasks",
     "Stat: Roll Last Date",
     "Build Test Message",
-    "Status test"
+    "Status test",
+    "Generate Bug Report"
     
   };
   
   private static final String[] valueList = new String[]{
-    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"
+    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"
   };
   
   private class DeveloperListPreference extends ListPreference {
@@ -241,6 +243,10 @@ public class DeveloperToolsManager {
         ManagePreferences.setAuthExemptDate(null);
         ManagePreferences.setAuthRunDays(0);
         ManagePreferences.setAuthLastCheckTime(1379942474422L);
+        break;
+        
+      case 16:    // generate bug report
+        BugReportGenerator.generate();
         break;
         
       case 31:    // C2DM Register

@@ -49,24 +49,6 @@ public class SmsPopupUtils {
   }
 
   /**
-   * Fetch the current device Android OS platform number.
-   * 
-   * TODO: once Cupcake support is no longer needed the system var
-   * android.os.Build.VERSION.SDK_INT can be used instead.
-   * 
-   * @return SDK version number
-   */
-  public static int getSDKVersionNumber() {
-    int version_sdk;
-    try {
-      version_sdk = Integer.valueOf(android.os.Build.VERSION.SDK);
-    } catch (NumberFormatException e){
-      version_sdk = 0;
-    }
-    return version_sdk;
-  }
-
-  /**
    * Determine if we have Internet connectivity
    * @param context current context
    * @return true if Internet connectivity is established

@@ -35,8 +35,8 @@ public abstract class LogCollector {
 
     if (filterSpecs != null){
       list.addAll(Arrays.asList(filterSpecs.split(";")));
+      list.add("*:S");
     }
-    list.add("*:S");
     
     new CollectLogTask().execute(list.toArray(new String[list.size()]));
   }

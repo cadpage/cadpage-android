@@ -8,6 +8,25 @@ Good luck,
 -Ken
 
 ***************************************************************************
+* AUTHENTICATION_FAILURE
+***************************************************************************
+
+Bad news...
+
+You have run in to a Google problem that they do not have a solution for yet.  Something about recent releases of the Google Play Services is breaking GCM registration for a very small number of users running Gingerbread phones.  It looks like happen to be one of those unlucky few.
+
+We found that a factory reset solves the problem, but only temporarily.  What it does is roll back your phone to a previous version of Google Play Services that did not have this issue.  But it will only be a few days before that app is automatically updated, they do not give you the option to not have it updated :(
+
+I would check to see if a system update is available.  Open Android Settings and select 
+About Device > Software Update > Check Updates
+If there is a system update available for your phone, it will get you beyond the version of Android where this problem occurs.
+
+If there is no update available, and you happen to have a Verizon phone, you can try calling tech support and complaining that your phone has no upgrade path to Android 4.0 and critical software apps cannot run on the old version you have.  Sounds like a long shot, but the first user I had run into this got Verizon to replace his phone by doing that.
+
+Good luck
+-Ken
+
+***************************************************************************
 * bad token abort
 ***************************************************************************
 
@@ -1199,7 +1218,7 @@ Jean, Assistant to Ken Corbin
 Mapping from wrong system
 ******************************************************************
 
-You have to uninstall (or just clear the defaults) for the mapping program that you accidentally set as the default mapping app.
+You have to uninstall (or just clear the defaults) for the mapping program that has been set as the default mapping app.
 
 How you do this depends on the version of Android you have.  For ICS and above use
 Main > Menu > Application Manager > (Wrong mapping app) > Clear Defaults
