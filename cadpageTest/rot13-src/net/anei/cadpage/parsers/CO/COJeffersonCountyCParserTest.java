@@ -49,17 +49,6 @@ Fraqre: pnqcntr@jrfgzrgebsver.bet, <___@pb.wrssrefba.pb.hf>
 (PNQ Vasbezngvba) Nqq:14500 J Pbysnk Nir            Ncg:          Glcr:  SN    Znc CtW-14    Havgf:R6,CIG41,R3,R5Nynez#            0807201305909-019461
 (PNQ Vasbezngvba) Nqq:14500 J Pbysnk Nir            Ncg:356       Glcr:  SN    Znc CtW-14    Havgf:CIS41,R6,R5Nynez#            0803201305909-019124
 
-** ABGRF **
-Ybbxf yvxr na rnfl bar.
-Purpx fhowrpg
-Gur cntrf fgnegvat jvgu Nynez # ner eha ercbegf.  Hfr n cnggrea gb qrgrpg gurz naq rkgenpg naq erzbir gur VQ ahzore
-
-Punatr "Nynez#" gb " Nynez:" jvyy znxr guvatf rnfvre, 
-Fb jbhyq punatvata "  Znc " gb " Znc:"
-gura cebtenz fgevat bs
-Nqq:NQQE! Ncg:NCG! Glcr:PNYY! Znc:ZNC! Havgf:HAVG! Nynez:VQ!
-fubhyq qb gur gevpx.  Pna nqq inyvqngvba cnggreaf jurer nccebcevngr
-
 */
 
 choyvp pynff PBWrssrefbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
