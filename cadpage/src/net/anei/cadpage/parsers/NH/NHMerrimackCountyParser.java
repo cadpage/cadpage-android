@@ -11,7 +11,8 @@ public class NHMerrimackCountyParser extends FieldProgramParser {
     super("MERRIMACK COUNTY","NH",
            "( EVENT:SKIP TIME:DATETIME! TYPE:CALL! LOC:ADDR! TXT:INFO+ | " +
              "TYPE:CALL TIME:DATETIME! LOC:ADDR! CITY:CITY! INFO+ | " +
-             "TIME:DATETIME! CITY:CITY! LOC:ADDR! TYPE:CALL! TXT:INFO+ )");
+             "TIME:DATETIME! CITY:CITY! LOC:ADDR! TYPE:CALL! TXT:INFO+ | " +
+             "CALL DATETIME ADDR CITY! INFO+ )");
   }
   
   @Override
@@ -22,6 +23,13 @@ public class NHMerrimackCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("CAD")) data.strSource = subject;
+    body = body.replace("\nLOCATION:", "\nLOC:");
     return parseFields(body.split("\n"), 4, data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d", true);
+    return super.getField(name);
   }
 }
