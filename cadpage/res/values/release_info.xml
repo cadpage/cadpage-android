@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10022013</string>
-  <string name="release_version">v1.6.45</string>
+  <string name="release_date">10082013</string>
+  <string name="release_version">v1.6.46</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-El Paso County, CO (alt)\n
+Jefferson County, AL\n
 Nassau County, NY (alt)\n
-Yadkin County, NC\n
-Athens County, OH\n
-Brazoria County, TX\n
-Salt Lake County, UT\n
+Clark County, OH (alt)\n
+Carter County, OK (alt)\n
+Lawerence County, PA\n
 \n
 Location Parsing Fixes:\n
-Yavapai County, AZ\n
-Adams County, CO\n
-Sedgewick County, KS\n
-Midland County, MI\n
+Muscatine County, IA\n
 Phelps County, MO\n
-Flathead County, MT\n
-Davie County, NC\n
-Franklin, OH\n
-Marion County, OR\n
-PennStar, PA\n
-Westchester County, PA\n
-Minnehaha County, SD\n
-Collin County, TX\n
+St Francois County, MO\n
+Currituck County, NC\n
+Deschutes County, OR\n
+Rockingham County, VA\n
 \n
 General Fixes:\n
-Cadpage auto clearing notifications after a few seconds.\n
-Selecting Notification does not always pop up call detail window.\n
+Additional logging to assist Google in tracking down problem with Gingerbread phones
+not being able to register for direct paging.
   </string>  
 </resources>
   
