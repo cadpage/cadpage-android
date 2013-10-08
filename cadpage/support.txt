@@ -27,6 +27,23 @@ Good luck
 -Ken
 
 ***************************************************************************
+
+I just released a new v1.6.46 version of Cadpage which should be available on Google Play Store shortly.  It has some additional logging logic to record a whole bunch of information that I hope will be helpful to the Google people working on this.  I need you to trigger that log logic and send us the resulting file.  More specifically,
+
+Make sure that you have v1.6.46 or later of Cadpage installed.
+
+You will need to install some kind of file manager.  Astro file manager is highly recomended and has a useful free version.
+
+Try, again, to register with Active911 direct paging again.  Since I haven't done anythin that might possibly fix things, this will, presumably, fail again.  This will trigger creation of a bugreport file, but the process takes a long time, give it a good 5  min before proceeding to the next step.
+
+Use the Email the Developer setting to generate another email to us.  While this message is open, find a way to attach a file to it.  With Gmail, you would do this by pressing the menu button, attach a picture or video, then select the previously installed file manager to select the file.
+
+In the file manager, navigate to the Download folder on your SD card.  Exactly where this is differs from phone to phone.  The SD card might be  mounted as /sdcard or /sdcard0 or /storage/sdcard0.  Where ever it is, it should have a Download folder, which hopefully will contain a file named bugreport.cadpage.gz.  Long press that file and select it, confirm that that file has been attached to your email and send it.
+
+Good luck,
+-Ken
+
+***************************************************************************
 * bad token abort
 ***************************************************************************
 
