@@ -18,7 +18,7 @@ public class MIMidlandCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@midland911.org";
+    return "@midland911.org,9300";
   }
   
   @Override
