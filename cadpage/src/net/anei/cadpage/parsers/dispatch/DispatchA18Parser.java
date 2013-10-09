@@ -1,6 +1,9 @@
 package net.anei.cadpage.parsers.dispatch;
 
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,14 +13,19 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchA18Parser extends FieldProgramParser {
   
-  public DispatchA18Parser(String defCity, String defState) {
+  private Set<String> citySet;
+  
+  public DispatchA18Parser(String[] cityList, String defCity, String defState) {
     super(defCity, defState,
-          "CALL ADDR X BOX!");
+          "CALL ADDR X BOX! EMPTY+? ( DASHES DATETIME SRC SRC | ) INFO+");
+    citySet = new HashSet<String>(Arrays.asList(cityList));
   }
   
   @Override
-  protected boolean parseMsg(String field, Data data) {
-    return parseFields(field.split("\n"), 4, data);
+  protected boolean parseMsg(String body, Data data) {
+    int pt = body.indexOf("\nDisclaimer");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    return parseFields(body.split("\n"), 4, data);
   }
   
   @Override
@@ -26,8 +34,11 @@ public class DispatchA18Parser extends FieldProgramParser {
     if (pt >= 0) sAddress = sAddress.substring(0,pt).trim();
     return sAddress;
   }
-  
-  private static final Pattern BOX_PTN = Pattern.compile("BOX *(\\d+)", Pattern.CASE_INSENSITIVE);
+
+  private static final Pattern DELIM_PTN = Pattern.compile("[-/,]");
+  private static final Pattern BOX_PTN = Pattern.compile("^BOX *(\\d+)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern APT_PTN = Pattern.compile("^(?:APT|LOT|#) *([-A-Z0-9]+)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern APT2_PTN = Pattern.compile("^(\\d{1,4}[A-D]?)\\b", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -40,32 +51,62 @@ public class DispatchA18Parser extends FieldProgramParser {
         field = field.substring(pt+1).trim();
       } else abort();
       
-      int pt = field.lastIndexOf(',');
-      if (pt < 0) abort();
-      String city = field.substring(pt+1).trim();
-      field = field.substring(0,pt).trim();
-      
-      String box = "";
-      Matcher match = BOX_PTN.matcher(city);
-      if (match.find()) {
-        box = ", Box " + match.group(1);
-        city = city.substring(match.end()).trim();
+      boolean first = true;
+      for (String part : DELIM_PTN.split(field)) {
+        part = part.trim();
+        if (part.length() == 0) continue;
+        
+        if (first) {
+          first = false;
+          parseAddress(part, data);
+        } 
+        
+        else {
+          
+          Matcher match = BOX_PTN.matcher(part);
+          if (match.find()) {
+            data.strAddress = data.strAddress + ", Box " + match.group(1);
+            part = part.substring(match.end()).trim();
+          }
+          
+          match = APT_PTN.matcher(part);
+          if (match.find()) {
+            data.strApt = append(data.strApt, "-", match.group(1));
+            part = part.substring(match.end()).trim();
+          }
+          
+          match = APT2_PTN.matcher(part);
+          if (match.find()) {
+            data.strApt = append(data.strApt, "-", match.group(1));
+            part = part.substring(match.end()).trim();
+          }
+          
+          if (citySet.contains(part.toUpperCase())) {
+            if (data.strCity.length() == 0) data.strCity = part;
+          }
+          
+          else if (checkAddress(part) > 0) {
+            if (Character.isDigit(data.strAddress.charAt(0))) {
+              data.strCross = append(data.strCross, "/", part);
+            } else {
+              data.strAddress = append(data.strAddress, " & ", part);
+            }
+          }
+          
+          else if (APT2_PTN.matcher(part).matches()) {
+            data.strApt = append(data.strApt, "-", part);
+          }
+          
+          else {
+            data.strPlace = append(data.strPlace, " - ", part);
+          }
+        }
       }
-      
-      pt = field.lastIndexOf('-');
-      if (pt >= 0) {
-        city = field.substring(pt+1).trim();
-        field = field.substring(0,pt).trim();
-      }
-      
-      parseAddress(field, data);
-      data.strAddress = data.strAddress + box;
-      data.strCity = city;
     }
     
     @Override
     public String getFieldNames() {
-      return "PLACE ADDR APT CITY";
+      return "ADDR APT PLACE CITY";
     }
   }
   
@@ -75,7 +116,7 @@ public class DispatchA18Parser extends FieldProgramParser {
       field = field.replace("//", "/");
       if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
       if (field.endsWith("/NULL")) field = field.substring(0,field.length()-5).trim();
-      super.parse(field, data);
+      data.strCross = append(data.strCross, "/", field);
     }
   }
   
@@ -88,11 +129,41 @@ public class DispatchA18Parser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern INFO_PTN = Pattern.compile("[a-z]+: *(.*?) +\\[(\\d\\d:\\d\\d:\\d\\d)\\]");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = INFO_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1);
+        if (data.strTime.length() == 0) data.strTime = match.group(2);
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO TIME";
+    }
+  }
+  
+  private class MySourceField extends SourceField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("VERIFY")) return;
+      data.strSource = append(data.strSource, " ", field.replace(' ', '_'));
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("BOX")) return new MyBoxField();
+    if (name.equals("DASHES")) return new SkipField("-{5,}", true);
+    if (name.equals("DATETIME")) return new DateTimeField("(\\d\\d.\\d\\d.\\d{4} \\d\\d:\\d\\d:\\d\\d) :.*", true);
+    if (name.equals("SRC")) return new MySourceField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
