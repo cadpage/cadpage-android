@@ -24,7 +24,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "linn911@le.linn.or.us";
+    return "linn911@le.linn.or.us,777";
   }
 
   @Override
