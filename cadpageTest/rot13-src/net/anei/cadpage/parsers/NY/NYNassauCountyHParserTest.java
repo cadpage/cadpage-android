@@ -8,7 +8,7 @@ vzcbeg bet.whavg.Grfg;
 Anffnh Pbhagl, AL
 
 Pbagnpg: Orfavx Twbayrxnw <gvtresqal@tznvy.pbz>
-Fraqre: fpzonpxhc@irevmba.arg,pct.cntr@tznvy.pbz
+Fraqre: fpzonpxhc@irevmba.arg,pct.cntr@tznvy.pbz,jocntvat@bcgbayvar.arg
 ** 1- FGEHPGHER SVER \a\a** IBTG, JVYYVNZ W.\a** 153 PLCERFF YNAR JRFG\a** PF: PBGGBAJBBQ YNAR / PNEQVANY YNAR\a** GBN: 08:04 04-24-13
 ** 2- IRUVPYR SVER \a\a** ABEGUOBHAQ ZRNQBJOEBBX FGNGR CNEXJNL \a** A/O ZRNQBJOEBBX FGNGR CNEXJNL** GBN: 06:40 04-24-13
 ** 4- FVTANY 9 \a\a** EVPUNEQ VTARYMV\a** 2331 FNYVFOHEL EBNQ\a** PF: SNVESVRYQ NIRAHR / JNFUVATGBA NIRAHR\a** GBN: 13:40 04-23-13
@@ -16,7 +16,8 @@ Fraqre: fpzonpxhc@irevmba.arg,pct.cntr@tznvy.pbz
 ** 3- NHGB NPPVQRAG J/NVQRQ \a\a** ZREPUNAGF PBAPBHEFR & FGRJNEG NIRAHR \a** ZREPUNAGF PBAPBHEFR\a** PF: FGRJNEG NIRAHR ** GBN: 21:21 04-24-13
 ** 4- FVTANY 9  \a\a** PYNEXR UVTU FPUBBY \a** 740 RQTRJBBQ QEVIR\a** PF: OREANEQ QEVIR / ARYFBA CYNPR \a** GBN: 11:07 04-25-13
 ** 16- NSN \a\a** INPNAG (2012) \a** 1195 PBECBENGR QEVIR\a** PF: ZREPUNAGF PBAPBHEFR / MRPXRAQBES OBHYRINEQ \a** GBN: 11:13 05-22-13
- 
+** 16- NSN \e\a\e\a** 1103 FGRJNEG NIR/ZVFP BSSVPRF \e\a** 1103 FGRJNEG NIRAHR\e\a** PF: ZREPUNAGF PBAPBHEFR / FBHGU FGERRG \e\a** GBN: 10:08 10-08-13
+
  */
 
 choyvp pynff ALAnffnhPbhaglUCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -104,6 +105,21 @@ choyvp pynff ALAnffnhPbhaglUCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:ZREPUNAGF PBAPBHEFR / MRPXRAQBES OBHYRINEQ",
         "GVZR:11:13",
         "QNGR:05/22/13");
+
+    qbGrfg("G8",
+        "** 16- NSN \e\a" +
+        "\e\a" +
+        "** 1103 FGRJNEG NIR/ZVFP BSSVPRF \e\a" +
+        "** 1103 FGRJNEG NIRAHR\e\a" +
+        "** PF: ZREPUNAGF PBAPBHEFR / FBHGU FGERRG \e\a" +
+        "** GBN: 10:08 10-08-13",
+
+        "PNYY:16- NSN",
+        "CYNPR:1103 FGRJNEG NIR/ZVFP BSSVPRF",
+        "NQQE:1103 FGRJNEG NIRAHR",
+        "K:ZREPUNAGF PBAPBHEFR / FBHGU FGERRG",
+        "GVZR:10:08",
+        "QNGR:10/08/13");
 
   }
   

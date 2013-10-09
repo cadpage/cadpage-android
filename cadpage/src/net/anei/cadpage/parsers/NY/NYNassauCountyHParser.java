@@ -9,6 +9,6 @@ public class NYNassauCountyHParser extends NYSuffolkCountyXBaseParser {
   
   @Override
   public String getFilter() {
-    return "scmbackup@verizon.net,cpg.page@gmail.com";
+    return "scmbackup@verizon.net,cpg.page@gmail.com,wbpaging@optonline.net";
   }
 }
