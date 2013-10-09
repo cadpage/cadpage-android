@@ -21,6 +21,11 @@ public class NCCravenCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("CC911")) return false;
     if (!super.parseMsg(body, data)) return false;
@@ -31,7 +36,7 @@ public class NCCravenCountyParser extends FieldProgramParser {
     return true;
   }
   
-  private static final Pattern INFO_GPS_PTN = Pattern.compile("\\s*(?:E911 Info .*)?(?:(35\\.\\d{4,} +-77\\.\\d{4,})|-361 +-361)$");
+  private static final Pattern INFO_GPS_PTN = Pattern.compile("\\s*(?:E911 Info .*)?(?:(3[45]\\.\\d{4,} +-7[67]\\.\\d{4,})|-361 +-361)$");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
