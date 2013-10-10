@@ -374,6 +374,7 @@ public class ParserList {
               ,"MICheboyganCounty"              ,"Cheboygan County, MI"
               ,"MIEatonCounty"                  ,"Eaton County, MI"
               ,"MIEmmetCounty"                  ,"Emmet County, MI"
+              ,"MIInghamCounty"                 ,"Ingham County, MI"
               ,"MIIsabellaCounty"               ,"Isabella County, MI"
               ,"MILeelanauCounty"               ,"Leelanau County, MI"
               ,"MILenaweeCounty"                ,"Lenawee County, MI"
@@ -532,6 +533,7 @@ public class ParserList {
               ,"NCCravenCounty"                 ,"Craven County, NC"
               ,"NCCumberlandCounty"             ,"Cumberland County, NC"
               ,"NCCurrituckCounty"              ,"Currituck County, NC"
+              ,"NCDareCounty"                   ,"Dare County, NC"
               ,"NCDavidsonCounty"               ,"Davidson County, NC"
               ,"NCDavieCounty"                  ,"Davie County, NC"
               ,"NCDuplinCounty"                 ,"Duplin County, NC"
@@ -794,6 +796,7 @@ public class ParserList {
               ,"TXWilliamsonCounty"             ,"Williamson County, TX"
           ),
           new ParserCategory("Utah"
+              ,"UTBoxElderCounty"               ,"Box Elder County, UT"
               ,"UTDavisCounty"                  ,"Davis County, UT"
               ,"UTSaltLakeCounty"               ,"Salt Lake County, UT"
               ,"UTSummitCounty"                 ,"Summit County, UT"
