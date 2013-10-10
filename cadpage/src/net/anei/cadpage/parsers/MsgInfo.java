@@ -862,7 +862,7 @@ public class MsgInfo {
    * @return state code replacement value
    */
   private String getRepState(String state) {
-    return state.equals("NC") ? "STATE" : state;
+    return state.equals("NC") || state.equals("MI") ? "STATE" : state;
   }
   
   /**
