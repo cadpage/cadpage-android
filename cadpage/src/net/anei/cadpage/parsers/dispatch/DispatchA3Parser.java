@@ -54,6 +54,18 @@ public class DispatchA3Parser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    return parseMsg(body, data, true);
+  }
+  
+  /**
+   * New variant of standard parseMsg() call
+   * @param body text body
+   * @param data parsed data object to be filled with information
+   * @param splitField true if textline should be broken up by the standard A3 delimiter seqeuence.
+   * false if these delimiters are  not going to be found in the text body
+   * @return true if parse was successful
+   */
+  protected boolean parseMsg(String body, Data data, boolean splitField) {
     if (prefix != null) {
       if (!body.startsWith(prefix)) return false;
       body = body.substring(prefix.length()).trim();
@@ -62,8 +74,12 @@ public class DispatchA3Parser extends FieldProgramParser {
       if (!match.find()) return false;
       body  = body.substring(match.end()).trim();
     }
-    if (body.endsWith("*")) body = body + " ";
-    return parseFields(DELIM.split(body), data);
+    if (splitField) {
+      if (body.endsWith("*")) body = body + " ";
+      return parseFields(DELIM.split(body), data);
+    } else {
+      return super.parseMsg(body, data);
+    }
   }
   
   private class BaseAddressField extends AddressField {
