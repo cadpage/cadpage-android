@@ -232,6 +232,9 @@ Fraqre: 40404
 @PTSQQvfcngpu: PT831 6975.VQFRA NI.F.  VPE #113111965  QVFCNGPU 11:50:54\a\az.gjvggre.pbz/PTSQQvfcngpu
 @PTSQQvfcngpu: PT831 8611.JRFG CBVAG QBHTYNF  VPE #113111972  QVFCNGPU 13:11:31\a\az.gjvggre.pbz/PTSQQvfcngpu
 @PTSQQvfcngpu: PT3100 8611.JRFG CBVAG QBHTYNF  VPE #113111972  QVFCNGPU 13:11:20\a\az.gjvggre.pbz/PTSQQvfcngpu
+@PTSQQvfcngpu: PT831 8224.XVZOEB NI.F  VPE #113114278  GLCR:ZRQVPNY  QVFCNGPU 07:39:41\a\az.gjvggre.pbz/PTSQQvfcngpu
+@PTSQQvfcngpu: PT831 9496.WNEEBQ NI.F  VPE #113114271  GLCR:SVER  QVFCNGPU 23:17:56\a\az.gjvggre.pbz/PTSQQvfcngpu
+@PTSQQvfcngpu: PT831 1048.UNFGVATF NI  VPE #113114334  GLCR:CREFBANY VAWHEL NPPVQRAG  QVFCNGPU 13:02:31\a\az.gjvggre.pbz/PTSQQvfcngpu
 
 */
 
@@ -1554,6 +1557,35 @@ choyvp pynff ZAJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:113111972",
         "PNYY:QVFCNGPU",
         "GVZR:13:11:20");
+
+    qbGrfg("G12",
+        "@PTSQQvfcngpu: PT831 8224.XVZOEB NI.F  VPE #113114278  GLCR:ZRQVPNY  QVFCNGPU 07:39:41\a\az.gjvggre.pbz/PTSQQvfcngpu",
+        "HAVG:PT831",
+        "NQQE:8224 XVZOEB NI F",
+        "ZNQQE:8224 XVZOEB NIR F",
+        "VQ:113114278",
+        "PNYY:ZRQVPNY",
+        "GVZR:07:39:41");
+
+    qbGrfg("G13",
+        "@PTSQQvfcngpu: PT831 9496.WNEEBQ NI.F  VPE #113114271  GLCR:SVER  QVFCNGPU 23:17:56\a\az.gjvggre.pbz/PTSQQvfcngpu",
+        "HAVG:PT831",
+        "NQQE:9496 WNEEBQ NI F",
+        "ZNQQE:9496 WNEEBQ NIR F",
+        "VQ:113114271",
+        "PNYY:SVER",
+        "GVZR:23:17:56");
+
+    qbGrfg("G14",
+        "@PTSQQvfcngpu: PT831 1048.UNFGVATF NI  VPE #113114334  GLCR:CREFBANY VAWHEL NPPVQRAG  QVFCNGPU 13:02:31\a\a" +
+        "z.gjvggre.pbz/PTSQQvfcngpu",
+
+        "HAVG:PT831",
+        "NQQE:1048 UNFGVATF NI",
+        "ZNQQE:1048 UNFGVATF NIR",
+        "VQ:113114334",
+        "PNYY:CREFBANY VAWHEL NPPVQRAG",
+        "GVZR:13:02:31");
 
   }
   

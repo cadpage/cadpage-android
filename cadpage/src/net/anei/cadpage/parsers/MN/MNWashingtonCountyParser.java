@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class MNWashingtonCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(?:(CG\\d+) +)?(.*?)  ICR #(\\d+)  (DISPATCH)(?: (\\d\\d:\\d\\d:\\d\\d))?");
+  private static final Pattern MASTER = Pattern.compile("(?:(CG\\d+) +)?(.*?)  ICR #(\\d+)  (?:TYPE:(.*?)  )?(DISPATCH)(?: (\\d\\d:\\d\\d:\\d\\d))?");
   private static final Pattern HWY_I_PTN = Pattern.compile("\\bHWY +I(\\d+)\\b");
   
   public MNWashingtonCountyParser() {
@@ -55,8 +55,9 @@ public class MNWashingtonCountyParser extends SmartAddressParser {
       data.strApt = append(data.strApt, " ", apt);
     }
     data.strCallId = match.group(3);
-    data.strCall = match.group(4);
-    data.strTime = getOptGroup(match.group(5));
+    data.strCall = getOptGroup(match.group(4));
+    if (data.strCall.length() == 0) data.strCall = match.group(5);
+    data.strTime = getOptGroup(match.group(6));
     return true;
   }
 }
