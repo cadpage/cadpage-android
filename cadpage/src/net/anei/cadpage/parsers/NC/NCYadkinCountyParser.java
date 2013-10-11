@@ -50,20 +50,26 @@ public class NCYadkinCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  public static Pattern CROSS_CLEANUP = Pattern.compile("\\*(.*?) \\(Verify\\)(.*?)\\*(.*?) \\(Verify\\)");
+  public static Pattern CROSS_PTN = Pattern.compile("(.*?)(?: +\\(Verify\\))? *\\bX\\b *(.*?)(?: +\\(Verify\\))?");
   private class MyCrossField extends CrossField {
-    public MyCrossField() {
-      super("(?:.* X .*)?(?:^X .*)?", true);
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = CROSS_PTN.matcher(field);
+      if (!match.matches()) return false;
+      field = append(match.group(1), " / ", match.group(2)).replace("*", "");
+      super.parse(field, data);
+      return true;
     }
     
     @Override
     public void parse(String field, Data data) {
-      int pi = field.indexOf("X ");
-      if (pi == 0) field = field.substring(2);
-      //get rid of *....... (Verify) formatting
-      Matcher mat = CROSS_CLEANUP.matcher(field);
-      if (mat.matches()) field = mat.group(1) + mat.group(2) + mat.group(3);
-      super.parse(field.replace(" X ", " / "), data);
+      if (!checkParse(field, data)) abort();
     }
   }
   
