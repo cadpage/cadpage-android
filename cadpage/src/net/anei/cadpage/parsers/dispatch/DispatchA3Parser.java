@@ -52,6 +52,11 @@ public class DispatchA3Parser extends FieldProgramParser {
     this.prefix = prefix;
   }
   
+  public DispatchA3Parser(String prefix, String[] cityList, String defCity, String defState, String program) {
+    super(cityList, defCity, defState, program);
+    this.prefix = prefix;
+  }
+  
   @Override
   protected boolean parseMsg(String body, Data data) {
     return parseMsg(body, data, true);
