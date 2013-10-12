@@ -14,7 +14,7 @@ public class MOJeffersonCityParser extends MsgParser {
   private static final Pattern LEAD_TIME_PTN = Pattern.compile("^(\\d\\d:\\d\\d) +");
   private static final Pattern TRAIL_TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)$");
   private static final Pattern TRAIL_NAME_PTN = Pattern.compile("(?:(?: +-)?(?: +|^)[A-Z][a-z]+,?)? +[A-Z][a-z]+$");
-  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:\\d{3,4}|[A-Z]{2}Pager))+$");
+  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:\\d{3,4}|[A-Z]{2}Pager|[A-Z]\\d+|Batt\\d+))+$");
   private static final Pattern CROSS_ST_MARK_PTN = Pattern.compile("(?: -?Cross Streets-?| -)(?= |$)");
   
   public MOJeffersonCityParser() {
