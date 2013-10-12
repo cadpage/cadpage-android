@@ -55,6 +55,7 @@ public class BugReportGenerator {
       try {
         
         File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), BUG_REPORT_FILENAME);
+        publishProgress("Bugreport file:" + file.getAbsolutePath());
         osFile = new BufferedOutputStream(new FileOutputStream(file));
         
         // Start async process running the gzip program to compress all output
