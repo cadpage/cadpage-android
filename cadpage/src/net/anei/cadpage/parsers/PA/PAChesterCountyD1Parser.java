@@ -4,9 +4,6 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
-
-
 public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
   
   private static final Pattern DELIM = Pattern.compile("\\*\\*");
@@ -71,6 +68,7 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDRPLX")) return new MyAddressPlaceCrossField();
     return super.getField(name);

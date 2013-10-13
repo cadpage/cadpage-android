@@ -9,8 +9,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class PAChesterCountyAParser extends PAChesterCountyBaseParser {
   
+  private static final Pattern IAR_PTN = Pattern.compile("^[A-Z]+ +Final Type:");
+  
   public PAChesterCountyAParser() {
-    super("Final_Type:CALL! Loc:ADDRCITY! btwn:X? AKA:INFO");
+    super("EMPTY Initial_Type:SKIP! Final_Type:CALL! Loc:ADDRCITY! btwn:X? AKA:INFO");
   }
   
   @Override
@@ -25,6 +27,9 @@ public class PAChesterCountyAParser extends PAChesterCountyBaseParser {
     if (isVariantGMsg(body)) return false;
     
     data.strSource = subject;
+    
+    // Fix up IAmResponding modifications :(
+    if (IAR_PTN.matcher(body).find()) body = "Initial Type:" + body;
 
     // Replace key chars for easier parsing
     body = body.replace("\n"," ");

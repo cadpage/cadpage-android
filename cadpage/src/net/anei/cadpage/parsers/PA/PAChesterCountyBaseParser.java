@@ -278,7 +278,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     /* 27 */ "SCHUYLKILL TWP",
     /* 28 */ "WEST CALN TWP",
     /* 29 */ "WEST BRANDYWINE TWP",
-    /* 30 */ "",                // BRANDYWINE REGIONAL POLICE
+    /* 30 */ "EAST BRANDYWINE TWP",   // or BRANDYWINE REGIONAL POLICE??
     /* 31 */ "",
     /* 32 */ "UPPER UWCHLAN TWP",
     /* 33 */ "UWCHLAN TWP",
@@ -345,6 +345,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
       "CALN",   "CALN TWP",
       "CHARLS", "CHARLESTOWN TWP",
       "COATVL", "COATESVILLE",
+      "EBRAND", "EAST BRANDYWINE TWP",
       "EGOSHN", "EAST GOSHEN TWP",
       "EMARLB", "EAST MARLBOROUGH TWP",
       "ENOTT",  "EAST NOTTINGHAM TWP",
