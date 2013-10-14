@@ -13,7 +13,7 @@ public class NJAtlanticareEMSParser extends DispatchProQAParser {
   
   @Override
   public String getFilter() {
-    return "medcom@medcom.com";
+    return "medcom@medcom.com,medcom@atlanticare.org";
   }
   
   @Override

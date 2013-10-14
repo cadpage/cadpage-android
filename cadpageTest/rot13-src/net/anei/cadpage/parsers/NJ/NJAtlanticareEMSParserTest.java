@@ -19,6 +19,10 @@ Pbagnpg: Eboreg Gemrcvmhe <egemrcvmhe@lnubb.pbz>
 Fraqre: zrqpbz@zrqpbz.pbz
 (ABCUV ZRQPBZ - cneg 1 bs 1) EP:/Eha# 30586/ZVPH/801 OBNEQJNYX//NGYNAGVP PVGL/06:36///////ZNELYNAQ & CNPVSVP NIR/
 
+Pbagnpg: Tertbel Oebja <toebja221@tznvy.pbz>
+Fraqre: zrqpbz@ngynagvpner.bet
+Fhowrpg:ABCUV ZRQPBZ - cneg 1 bs 1\aEP:Wbo# 0048-N/ Eha# 52641/ jnf Pnapryrq: ZRQVP NFFRFFZRAG/PNYY:07:20/QVFC:07:20/RAE:07:21/NGF:07:29/\a
+
  */
 
 choyvp pynff AWNgynagvpnerRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -87,6 +91,20 @@ choyvp pynff AWNgynagvpnerRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:801 OBNEQJNYX",
         "PVGL:NGYNAGVP PVGL");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgTertOebja() {
+
+    qbGrfg("G1",
+        "Fhowrpg:ABCUV ZRQPBZ - cneg 1 bs 1\a" +
+        "EP:Wbo# 0048-N/ Eha# 52641/ jnf Pnapryrq: ZRQVP NFFRFFZRAG/PNYY:07:20/QVFC:07:20/RAE:07:21/NGF:07:29/\a",
+
+        "PNYY:EHA ERCBEG",
+        "FEP:ABCUV ZRQPBZ",
+        "VQ:52641",
+        "CYNPR:jnf Pnapryrq: ZRQVP NFFRFFZRAG/PNYY:07:20/QVFC:07:20/RAE:07:21/NGF:07:29/");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
