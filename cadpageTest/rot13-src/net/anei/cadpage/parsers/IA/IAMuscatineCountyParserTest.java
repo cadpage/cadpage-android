@@ -23,6 +23,10 @@ Fraqre: 777
 .... (JYSQ, JYNZO) Ercbegrq: 10/01/2013 04:24:08\a13-040767 ZRQVPNY \aYbp: 231 J ZNKFBA NIR JRFG YVOREGL,VN 52776 \aA QVIVFVBA FG / A RYZ FG \a737 JYNO
 .... (JYSQ, JYNZO) Ercbegrq: 10/01/2013 22:24:53\a13-040862 ZRQVPNY \aYbp: 1000 A ZVYYRE FG JRFG YVOREGL,VN 52776 \aR 10GU FG /  R ZNKFBA NIR \aFVZCFBA ZRZBEVNY
 
+.... (JYSQ, JYNZO) Ercbegrq: 10/12/2013 13:02:38\a13-042356 ABA-FGEHPGHER SVER \aYbp: 2216 VAQVNA NIR, PRQNE PBHAGL ,  \aJYSQ
+.... (JYSQ, JYNZO) Ercbegrq: 10/11/2013 15:23:52\a13-042227 NPPVQRAG-CV \aYbp: 126 EBPURFGRE NIR/PRQNE PB ,  \aNSQ JYNO
+.... (JYSQ, JYNZO) Ercbegrq: 10/11/2013 08:18:43\a13-042165 ZRQVPNY \aYbp: 207 R 2AQ FG JRFG YVOREGL,VN 52776 \aA FCRAPRE FG / A PBYHZOHF FG \aJYNO
+
 ** abg cnefvat **
 UBHFVAT #1 \a735 JYNO
 UVTU FPUBBY \aJYNO
@@ -161,6 +165,45 @@ choyvp pynff VNZhfpngvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:JRFG YVOREGL",
         "K:R 10GU FG /  R ZNKFBA NIR",
         "CYNPR:FVZCFBA ZRZBEVNY");
+
+    qbGrfg("G5",
+        ".... (JYSQ, JYNZO) Ercbegrq: 10/12/2013 13:02:38\a13-042356 ABA-FGEHPGHER SVER \aYbp: 2216 VAQVNA NIR, PRQNE PBHAGL ,  \aJYSQ",
+        "FEP:JYSQ, JYNZO",
+        "QNGR:10/12/2013",
+        "GVZR:13:02:38",
+        "VQ:13-042356",
+        "PNYY:ABA-FGEHPGHER SVER",
+        "NQQE:2216 VAQVNA NIR",
+        "PVGL:PRQNE PBHAGL",
+        "K:JYSQ");
+
+    qbGrfg("G6",
+        ".... (JYSQ, JYNZO) Ercbegrq: 10/11/2013 15:23:52\a13-042227 NPPVQRAG-CV \aYbp: 126 EBPURFGRE NIR/PRQNE PB ,  \aNSQ JYNO",
+        "FEP:JYSQ, JYNZO",
+        "QNGR:10/11/2013",
+        "GVZR:15:23:52",
+        "VQ:13-042227",
+        "PNYY:NPPVQRAG-CV",
+        "NQQE:126 EBPURFGRE NIR",
+        "PVGL:PRQNE PBHAGL",
+        "K:NSQ JYNO");
+
+    qbGrfg("G7",
+        ".... (JYSQ, JYNZO) Ercbegrq: 10/11/2013 08:18:43\a" +
+        "13-042165 ZRQVPNY \a" +
+        "Ybp: 207 R 2AQ FG JRFG YVOREGL,VN 52776 \a" +
+        "A FCRAPRE FG / A PBYHZOHF FG \a" +
+        "JYNO",
+
+        "FEP:JYSQ, JYNZO",
+        "QNGR:10/11/2013",
+        "GVZR:08:18:43",
+        "VQ:13-042165",
+        "PNYY:ZRQVPNY",
+        "NQQE:207 R 2AQ FG",
+        "PVGL:JRFG YVOREGL",
+        "K:A FCRAPRE FG / A PBYHZOHF FG",
+        "CYNPR:JYNO");
  
   }
   

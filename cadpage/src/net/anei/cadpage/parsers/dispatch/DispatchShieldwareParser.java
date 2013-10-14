@@ -77,6 +77,7 @@ public class DispatchShieldwareParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       String city = null;
+      if (field.endsWith(",")) field = field.substring(0,field.length()-1).trim();
       int pt = field.indexOf(',');
       if (pt >= 0) {
         city = field.substring(pt+1).trim();
@@ -88,6 +89,18 @@ public class DispatchShieldwareParser extends FieldProgramParser {
           city = match.group(2);
         } else {
           data.strCity = city;
+        }
+      }
+      
+      // If we did not find a city, see if there is a slash delimited city
+      if (data.strCity.length() == 0) {
+        pt = field.lastIndexOf('/');
+        if (pt >= 0) {
+          city = field.substring(pt+1).trim();
+          if (isCity(city)) {
+            data.strCity = city;
+            field = field.substring(0,pt).trim();
+          }
         }
       }
       

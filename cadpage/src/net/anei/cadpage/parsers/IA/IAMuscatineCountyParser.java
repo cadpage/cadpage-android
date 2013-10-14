@@ -19,7 +19,9 @@ public class IAMuscatineCountyParser extends DispatchShieldwareParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     data.strSource = subject;
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.endsWith(" CO")) data.strCity = data.strCity + "UNTY";
+    return true;
   }
   
   @Override
@@ -48,6 +50,9 @@ public class IAMuscatineCountyParser extends DispatchShieldwareParser {
     "MIDWAY BEACH",
     "MONTPELIER",
     "MOSCOW",
-    "PETERSBURG"
+    "PETERSBURG",
+    
+    // Counties
+    "CEDAR CO"
   };
 }
