@@ -1395,6 +1395,20 @@ Oenmbevn Pbhagl, GK (GKOenmbevnPbhaglCnefre)
 (ZCQ) 5:21 CZ\aARJ RIRAG ZCQ\aNYERF\aNYNEZ/ERFVQRAPR\a21 CNYZ QRFREG\aZNAIRY\a\a\a\aGuvf Pvgl bs Znairy r-znvy zrffntr, vapyhqvat nal nggnpuzragf, vf vagraqrq sbe\agur fbyr hfr bs gur vaqvivqhny(f) naq ragvgl(vrf) gb jubz vg vf nqqerffrq, naq\aznl pbagnva vasbezngvba gung vf cevivyrtrq, pbasvqragvny naq rkrzcg sebz\aqvfpybfher haqre nccyvpnoyr ynj. Vs lbh ner abg gur vagraqrq nqqerffrr, abe\anhgubevmrq gb erprvir sbe gur vagraqrq nqqerffrr, lbh ner urerol abgvsvrq gung\albh znl abg hfr, pbcl, qvfpybfr be qvfgevohgr gb nalbar guvf r-znvy zrffntr\avapyhqvat nal nggnpuzragf, be nal vasbezngvba pbagnvarq va guvf r-znvy zrffntr\avapyhqvat nal nggnpuzragf. Vs lbh unir erprvirq guvf r-znvy zrffntr va reebe,\acyrnfr vzzrqvngryl abgvsl gur fraqre ol ercyl r-znvy naq qryrgr gur zrffntr.\aGunax lbh irel zhpu.
 *******************************************************************************
 *******************************************************************************
+* QvfcngpuN32Cnefre fhopynffrf
+*******************************************************************************
+***************************************************************************
+Oebbxsvryq, PG (PGOebbxsvryqCnefre)
+(Cresbez Cntr) Nzohynapr - N Y F Erfcbafr\aOEBBXSVRYQ UVTU FPUBBY\a45 YBAT ZRNQBJ UVYY EQ \aOebbxsvryq\aQvfgevpg: GJ\a9/17/2013 19:53
+(Cresbez Cntr) Nzohynapr - N Y F Erfcbafr 2aq\a108 FVYIREFZVGU QE \aQnaohel\a9/18/2013 04:37
+(Cresbez Cntr) Nzohynapr - N Y F Erfcbafr\a111 YBAT ZRNQBJ UVYY EQ \aOebbxsvryq\aQvfgevpg: GJ\a9/18/2013 12:47
+***************************************************************************
+Naqebfpbttva Pbhagl, ZR (ZRNqaebfpbttvaPbhaglCnefre)
+(Cresbez Cntr) ZRQVPNY RZRETRAPL\a1714 EBLNYFOBEBHTU EQ \aQHEUNZ\aQvfgevpg: QHE\a10/4/2013 07:22\a49 l/b srznyr oyvaq/jurrypunve obhaq\asnyyra sebz orq..dhrfgvba bs uvc senpgher
+(Cresbez Cntr) ZRQVPNY RZRETRAPL\a651 CVAXUNZ OEBBX EQ \aQHEUNZ\aQvfgevpg: Q5CNE3\a10/7/2013 16:34\aQrchgl ba fprar sbe jrysner purpx, erdhrfgvat genafcbeg
+(Cresbez Cntr) ZBGBE IRUVPYR  NPPVQRAG\a679 UNYYBJRYY EQ \aQHEUNZ\aQvfgevpg: Q5CNE2\a10/8/2013 11:23\a2 pne 10-55 AB CV ..J/SYHVQF
+*******************************************************************************
+*******************************************************************************
 * QvfcngpuTrbpbakCnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
@@ -2113,11 +2127,6 @@ Jryq Pbhagl, PB (PBJryqPbhaglCnefre)
 " " 24\aFVCS\aQ\a3211 YHCGBA NIR\aRI\a24\aZBZ VF ABG JNXVAT HC 0000 Pbasvez 0001 Ershfr GKG FGBC gb bcg-bhg
 " " 24\aNYNEZSE\aQ\a2936 CNEX IVRJ QE   ; PNEEVPU ERFVQRAPR\aRI\a24Q\aNHQVOYR SEBZ MBAR 4.  AB NAFJRE BF.  CERZ CU 970 339 7664.  JVYY OR NGP\aXRLUBYQRE. 0000 Pbasvez 0001 Ershfr GKG FGBC gb bcg-bhg
 " " 36\aGNH\aQ\aJPE 21\aCY\a36\a4QE FQ QBJA VA QVGPU\aCebDN Zrqvpny Erpbzzraqrq Qvfcngpu Yriry = 29O04H\aLbh ner erfcbaqvat gb cngvragf vaibyirq va n genssvp vapvqrag.  (Vs xabja -- erynl  cregvarag cngvrag-fcrpvsvp vasbezngvba.) Haxabja fgnghf/Bgure pbqrf a GKG FGBC gb bcg-bhg
-***************************************************************************
-Oebbxsvryq, PG (PGOebbxsvryqCnefre)
-(Cresbez Cntr) Nzohynapr - N Y F Erfcbafr\aOEBBXSVRYQ UVTU FPUBBY\a45 YBAT ZRNQBJ UVYY EQ \aOebbxsvryq\aQvfgevpg: GJ\a9/17/2013 19:53
-(Cresbez Cntr) Nzohynapr - N Y F Erfcbafr 2aq\a108 FVYIREFZVGU QE \aQnaohel\a9/18/2013 04:37
-(Cresbez Cntr) Nzohynapr - N Y F Erfcbafr\a111 YBAT ZRNQBJ UVYY EQ \aOebbxsvryq\aQvfgevpg: GJ\a9/18/2013 12:47
 ***************************************************************************
 Tebgba, PG (PGTebgbaCnefre)
 (PNQ CNTR) HAXABJA ZRQVPNY|NZGENX FGNGVBA| 2 EBBFRIRYG NIR,FGBA |FGN ZTUBKVR KF OEBNQJNL  NIR/YVAPBYA NIR|11:08|ANEE FBHGUOBHAQ GENVA ZRQVPNY RZRETRAPL
@@ -6678,14 +6687,6 @@ Fraqre: 911@syngurnqbrf.zg.tbi<znvygb:911@syngurnqbrf.zg.tbi>
 **********************************************************
 **********************************************************
 **********************************************************
-Naqebfpbttva Pbhagl, ZR
-Pbagnpg: Yneel Serapu <yserapu@yvfobarzretrapl.pbz>
-Fraqre: yvfobaqvfcngpu@yvfobacq.pbz
-(Cresbez Cntr) ZRQVPNY RZRETRAPL\a1714 EBLNYFOBEBHTU EQ \aQHEUNZ\aQvfgevpg: QHE\a10/4/2013 07:22\a49 l/b srznyr oyvaq/jurrypunve obhaq\asnyyra sebz orq..dhrfgvba bs uvc senpgher
-(Cresbez Cntr) ZRQVPNY RZRETRAPL\a651 CVAXUNZ OEBBX EQ \aQHEUNZ\aQvfgevpg: Q5CNE3\a10/7/2013 16:34\aQrchgl ba fprar sbe jrysner purpx, erdhrfgvat genafcbeg
-(Cresbez Cntr) ZBGBE IRUVPYR  NPPVQRAG\a679 UNYYBJRYY EQ \aQHEUNZ\aQvfgevpg: Q5CNE2\a10/8/2013 11:23\a2 pne 10-55 AB CV ..J/SYHVQF
-(Cresbez Cntr) ZRQVPNY RZRETRAPL\a1447 EBLNYFOBEBHTU EQ \a88LB S SRYY NG 3CZ P/B UVC CNVA \aQvfgevpg: Q6CNE6\a10/12/2013 17:46
-(Cresbez Cntr) ZBGBE IRUVPYR  NPPVQRAG\aQHNEUNZ YVFOBA OEVQTR\aCVAXUNZ OEBBX EQ NAQ ARJRYY OEBBX EQ \aQHEUNZ\a10/14/2013 08:35\aPNE PENFU..AB CV..SYHVQF
 *********************************************************
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
