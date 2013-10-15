@@ -1,28 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10082013</string>
-  <string name="release_version">v1.6.46</string>
+  <string name="release_date">10152013</string>
+  <string name="release_version">v1.6.47</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Jefferson County, AL\n
-Nassau County, NY (alt)\n
-Clark County, OH (alt)\n
-Carter County, OK (alt)\n
-Lawerence County, PA\n
+Jefferson County, CO (alt)\n
+Androdscoggin County, ME\n
+Ingham County, MI\n
+Dare County, NC\n
+Box Elder County, UT\n
 \n
 Location Parsing Fixes:\n
+Yavapai County, AZ\n
+Adams County, CO\n
 Muscatine County, IA\n
-Phelps County, MO\n
+Sedgwick County, KS\n
+Calhoun County, MI\n
+Midland County, MI\n
+Washington County, MN\n
+Jefferson City, MO\n
 St Francois County, MO\n
-Currituck County, NC\n
-Deschutes County, OR\n
-Rockingham County, VA\n
-\n
-General Fixes:\n
-Additional logging to assist Google in tracking down problem with Gingerbread phones
-not being able to register for direct paging.
+Flathead County, MT\n
+Merrimack County, NH\n
+Atlanticare, NJ\n
+Nassau County, NY\n
+Craven County, NC\n
+Orange County, NC\n
+Yadkin County, NC\n
+Linn County, OR\n
+Chester County, PA\n
+Anderson County, SC\n
+Lufkin, TX\n
   </string>  
 </resources>
   
