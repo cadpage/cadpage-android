@@ -23,7 +23,7 @@ public class MTFlatheadCountyParser extends FieldProgramParser {
   private static final Pattern CITY_SPACE_PTN = Pattern.compile("(.+)" + CITY_PTN_LIST + " +(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern CITY_END_PTN = Pattern.compile(CITY_PTN_LIST + "$", Pattern.CASE_INSENSITIVE);
   
-  private static final String  CALL_PTN_STR = "((?:F [A-Z][a-z]|F CO|Medical |MVA).*|Inter Facility Transfer)";
+  private static final String  CALL_PTN_STR = "((?:F [A-Z][a-z]|F CO|Medical |MVA).*|Inter Facility Transfer|< New Call >)";
   private static final Pattern CALL_PTN = Pattern.compile(CALL_PTN_STR);
   private static final Pattern ADDR_CALL_PTN = Pattern.compile("(.+)" + CALL_PTN_STR);
 
