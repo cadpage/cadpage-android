@@ -23,10 +23,10 @@ public class PAChesterCountyGParser extends PAChesterCountyBaseParser {
   private static final Pattern TERMINATOR_PTN = Pattern.compile("\nPRIOR PREMISE HISTORY");
   private static final Pattern SOFT_BREAK_PTN = Pattern.compile("\n(?=[^/ ])");
   
-  private static final Pattern ID_PTN = Pattern.compile("Inc History #([A-Z]+\\d+) ");
+  private static final Pattern ID_PTN = Pattern.compile("Inc History #([A-Z]+\\d+)\\b");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\n *Dispatched  +(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d:\\d\\d) +");
   private static final Pattern CALL_PTN = Pattern.compile(" Final Type: (.*?)\n");
-  private static final Pattern BOX_PTN = Pattern.compile("\n *Police BOX: [A-Z0-9]*  Fire BOX: (\\d*)  EMS BOX: (\\d*) *(?=\r?\n)");
+  private static final Pattern BOX_PTN = Pattern.compile("\n *Police BOX: [A-Z0-9]*  Fire BOX: (\\d*)  EMS BOX: *(\\d*) *(?=\r?\n)");
   private static final Pattern MAP_PTN = Pattern.compile(" Map: ([A-Z0-9]*) +X:");
   private static final Pattern ADDR_PTN = Pattern.compile("\n *Loc: *(.*?) *(?=\r?\n)");
   private static final Pattern PLACE_CITY_PTN = Pattern.compile("\n *AKA: +(.*?) +Municipality: *(.*?) +Dev:");
@@ -43,7 +43,12 @@ public class PAChesterCountyGParser extends PAChesterCountyBaseParser {
     
     Matcher match = TERMINATOR_PTN.matcher(body);
     if (match.find()) body = body.substring(0,match.start()).trim();
-    body = SOFT_BREAK_PTN.matcher(body).replaceAll(" ");
+    
+    // Sometimes long lines are broken into  multiple lines that need to be corrected
+    // And sometimes all lines lack the leading blank that we use to identify broken lines
+    if (!body.contains("\nDispatched ")) {
+      body = SOFT_BREAK_PTN.matcher(body).replaceAll(" ");
+    }
     
     Parser p = new Parser(body);
     

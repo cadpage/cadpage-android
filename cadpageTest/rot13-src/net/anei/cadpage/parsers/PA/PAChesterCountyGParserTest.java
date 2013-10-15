@@ -49,6 +49,10 @@ Fraqre: csqsver65@pbzpnfg.arg
 {59 A ZNVA FG ,15} Vap Uvfgbel #CUKS13000489  Kers: #15CW13003685   \a                      \a Ragrerq      04/09/13  06:53:40  OL PG05     468    \a Qvfcngpurq   04/09/13  06:53:58  OL SQ18     483    \a\a Vavgvny Glcr: ERFQERF    Svany Glcr: ERFQERF (ERFVQRAGVNY ERFPHR *)\a Vavgvny Cevbevgl: 2      Svany Cevbevgl: 2 \a Vavgvny Nynez Yriry: 1   Svany Nynez Yriry: 1\a Qvfcbfvgvba:        Fbhepr: G    Cevznel Havg: YNQ65       Efc: 0056  \a Cbyvpr OBK: 1501  Sver OBK: 6501  RZF OBK: 6501 \a Tebhc: 65SQ          Frpgvba: 65     Znc: 15S5     K: 7551575  L: 4013722\a\a Ybp: 59 A ZNVA FG ,15  ogja INAQREFYVPR FG & J UVTU FG (I) \a NXN:   Zhavpvcnyvgl: CUAKIY Qri: \a Ybp Vasb: NCG 2\a Anzr:                         Nqqe:                         CU: 484-682-4538   \a\a/0653  (468   )  RAGEL            EC YBPXRQ BHG BS NCG---6 ZBF BYQ YBPXRQ VAFVQR\a/0653            RAGEL            QRGNVYF GB SBYYBJ\a/0653  (483   )  QVFC    YNQ65     #YNQ65  YNQ65 ZQG \a/0653            NFFG    ZVP672    #ZVP672 ZVP672 ZQG \aCEVBE CERZVFR UVFGBEL SBE: 59 A ZNVA FG ,15                                  \a\aAb Cevbe Cerzvfr Uvfgbel sbhaq sbe gur Ybpngvba\a\a Vap #CUKS13000489 Glcr: ERFQERF Ybp: 59 A ZNVA FG ,15\a VQ   FGNG  TCZ   YBPNGVBA \a\a15-032      0     J UVTU FG/A ZNVA FG ,15\a               \a15-073      0     FO A ZNVA FG FB INAQREFYVPR FG ,15\a               \a15-072      0      307 INAQREFYVPR FG, 15\a               NPEBFF\a15-030      0      180 CRAA FG, 15\a               NPEBFF\a\a+++\a{\a ** 
 {640 AHGG EQ ,15} Vap Uvfgbel #CUKS13000479  Kers: #15CW13003613   \a                      \a Ragrerq      04/07/13  07:55:04  OL PG03     465    \a Qvfcngpurq   04/07/13  07:55:24  OL SQ18     159    \a\a Vavgvny Glcr: NCG        Svany Glcr: NCG     (NCNEGZRAG OHVYQVAT SVER *)\a Vavgvny Cevbevgl: R      Svany Cevbevgl: R \a Vavgvny Nynez Yriry: 1   Svany Nynez Yriry: 1\a Qvfcbfvgvba:        Fbhepr: G    Cevznel Havg: YNQ65       Efc: 0033  \a Cbyvpr OBK: 1504  Sver OBK: 6551  RZF OBK: 6551 \a Tebhc: 65SQ          Frpgvba: 65     Znc:          K: 7553326  L: 4013118\a\a Ybp: 640 AHGG EQ ,15 -- UBYYL PBHEG NCGF ,15 ogja CNENQVFR FG & XVZOREGBA EQ (I) \a NXN:   Zhavpvcnyvgl: CUAKIY Qri: \a Ybp Vasb: NCG N301\a Anzr: EVPXREG,ZVPUNRY         Nqqe:                         CU: 610-306-8658   \a\a/0755  (465   )  RAGEL            YRSG CRG YNZC BA PBHPU NAQ EBBZ VF SHYY BS FZB\a                                  XR OHG AB SVER FRRA--NYNEZ QVQ TB BSS--FNLF VG\a                                   VF TRGGVAT JBEFR NAQ GURL NER RINP\a/0755  (159   )  QVFC    YNQ65     #YNQ65  YNQ65 ZQG \a/0755            NFFG    RAT651    #RAT651 RAT651 ZQG \a/0755            NFFG    RAT652    #RAT652 RAT652 ZQG \a/0755            NFFG    ZVP672    #ZVP672 ZVP672 ZQG \a/0755            NFFG    RAT681    #RAT681 RAT681 ZQG \a/0755            NFFG    GJE61     #GJE61  GJE61 ZQG \a/0755            NFFG    ZRAT99   \aCEVBE CERZVFR UVFGBEL SBE: 640 AHGG EQ ,15                                   \a\aQngr/Gvzr          Glcr          Vapvqrag #   \a\a04/01/13 12:54:02     ABVFR        15CW13003400\a04/01/13 20:10:24     CUBAR        15CW13003418\a\a\a Vap #CUKS13000479 Glcr: NCG     Ybp: 640 AHGG EQ ,15\a VQ   FGNG  TCZ   YBPNGVBA \a\a15-202      0      637 AHGG EQ, 15\a               \a15-092      0     CNENQVFR FG/CRAAFLYINAVN NI ,15\a               \a15-302      0      700 AHGG EQ, 15\a               \a15-380      0      154 CRAAFLYINAVN NI, 15\a               NPEBFF\a\a+++\a{\a ** 
 
+Pbagnpg: Gevcc Oebja <gevccoebja55@tznvy.pbz>
+Fraqre: gevccoebja481+pns_=6108048519=zzf.ngg.arg@tznvy.pbz
+{301 WNPBOF EQ , FNYVFOHE} Vap Uvfgbel #YNAS13000378\a\aRagrerq      10/14/13  21:30:06  OL SQ17     528\aQvfcngpurq   10/14/13  21:30:10  OL SQ17     528\a\aVavgvny Glcr: NSNYY      Svany Glcr: NSNYY   (SNYYF - NYF *)\aVavgvny Cevbevgl: 1      Svany Cevbevgl: 1\aVavgvny Nynez Yriry: 1   Svany Nynez Yriry: 1\aQvfcbfvgvba:        Fbhepr: G    Cevznel Havg: NZO331      Efc: 0045\aCbyvpr OBK:   Sver OBK:   RZF OBK:\aTebhc: P89S          Frpgvba:   Znc:          K: 0000000  L: 0000000\a\aYbp: 301 WNPBOF EQ , FNYVFOHEL GJC   (AI)\aNXN:   Zhavpvcnyvgl:        Qri:\aYbp Vasb: JNAARE EQ NAQ FCBGGF EQ\aAnzr: YNAPNFGRE               Nqqe:                         CU:\a\a/2130  (528   )  RAGEL            PBIRE -YNZO49 - 26LB ZNYR 10SG SNYY, HAERFC J/\a                                  YZRQ09\a/2130            QVFC    NZO331    #NZO331 NZO331 ZQG\aCEVBE CERZVFR UVFGBEL SBE: 301 WNPBOF EQ , FNYVFOHEL GJC\a\aAb Cevbe Cerzvfr Uvfgbel sbhaq sbe gur Ybpngvba\a\a\s+++NGR0D1\a\a{\a**
+
  */
 
 choyvp pynff CNPurfgrePbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1808,6 +1812,43 @@ choyvp pynff CNPurfgrePbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:YRSG CRG YNZC BA PBHPU NAQ EBBZ VF SHYY BS FZB XR OHG AB SVER FRRA--NYNEZ QVQ TB BSS--FNLF VG VF TRGGVAT JBEFR NAQ GURL NER RINP",
         "HAVG:YNQ65 RAT651 RAT652 ZVP672 RAT681 GJE61 ZRAT99");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGevcOebja() {
+
+    qbGrfg("G1",
+        "{301 WNPBOF EQ , FNYVFOHE} Vap Uvfgbel #YNAS13000378\a\a" +
+        "Ragrerq      10/14/13  21:30:06  OL SQ17     528\a" +
+        "Qvfcngpurq   10/14/13  21:30:10  OL SQ17     528\a\a" +
+        "Vavgvny Glcr: NSNYY      Svany Glcr: NSNYY   (SNYYF - NYF *)\a" +
+        "Vavgvny Cevbevgl: 1      Svany Cevbevgl: 1\a" +
+        "Vavgvny Nynez Yriry: 1   Svany Nynez Yriry: 1\a" +
+        "Qvfcbfvgvba:        Fbhepr: G    Cevznel Havg: NZO331      Efc: 0045\a" +
+        "Cbyvpr OBK:   Sver OBK:   RZF OBK:\a" +
+        "Tebhc: P89S          Frpgvba:   Znc:          K: 0000000  L: 0000000\a\a" +
+        "Ybp: 301 WNPBOF EQ , FNYVFOHEL GJC   (AI)\a" +
+        "NXN:   Zhavpvcnyvgl:        Qri:\a" +
+        "Ybp Vasb: JNAARE EQ NAQ FCBGGF EQ\a" +
+        "Anzr: YNAPNFGRE               Nqqe:                         CU:\a\a" +
+        "/2130  (528   )  RAGEL            PBIRE -YNZO49 - 26LB ZNYR 10SG SNYY, HAERFC J/\a" +
+        "                                  YZRQ09\a" +
+        "/2130            QVFC    NZO331    #NZO331 NZO331 ZQG\a" +
+        "CEVBE CERZVFR UVFGBEL SBE: 301 WNPBOF EQ , FNYVFOHEL GJC\a\a" +
+        "Ab Cevbe Cerzvfr Uvfgbel sbhaq sbe gur Ybpngvba\a\a" +
+        "\\s+++NGR0D1\a\a" +
+        "{\a" +
+        "**",
+
+        "VQ:YNAS13000378",
+        "QNGR:10/14/13",
+        "GVZR:21:30:10",
+        "PNYY:NSNYY   (SNYYF - NYF *)",
+        "NQQE:301 WNPBOF EQ",
+        "ANZR:YNAPNFGRE",
+        "VASB:PBIRE -YNZO49 - 26LB ZNYR 10SG SNYY, HAERFC J/ YZRQ09",
+        "HAVG:NZO331");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
