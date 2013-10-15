@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NCOrangeCountyBParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("(\\d+) *\\((.*)\\)");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("([-0-9]+) *\\((.*)\\)");
   
   public NCOrangeCountyBParser() {
     super("ORANGE COUNTY", "NC",
