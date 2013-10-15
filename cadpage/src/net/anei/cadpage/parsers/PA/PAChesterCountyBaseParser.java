@@ -377,6 +377,10 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
       "WILLIS", "WILLISTOWN TWP",
       "WMARLB", "WEST MARLBOROUGH TWP",
       "WNOTT",  "WEST NOTTINGHAM TWP",
-      "WPIKEL", "WEST PIKELAND TWP"
+      "WPIKEL", "WEST PIKELAND TWP",
+
+      // Mongtomery county
+      "UPPER PROV", "UPPER PROVIDENCE TWP",
+
   });
 } 

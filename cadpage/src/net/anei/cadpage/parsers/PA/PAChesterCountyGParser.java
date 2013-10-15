@@ -84,7 +84,8 @@ public class PAChesterCountyGParser extends PAChesterCountyBaseParser {
     match = p.getMatcher(PLACE_CITY_PTN);
     if (match == null) return false;
     data.strPlace = append(data.strPlace, " - ", match.group(1).trim());
-    data.strCity = convertCityCode(match.group(2).trim());
+    String city = match.group(2).trim();
+    if (city.length() > 0) data.strCity = convertCityCode(city);
     
     match = p.getMatcher(NAME_PHONE_PTN);
     if (match == null) return false;

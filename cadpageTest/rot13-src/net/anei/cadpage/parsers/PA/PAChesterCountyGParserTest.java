@@ -850,6 +850,7 @@ choyvp pynff CNPurfgrePbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:OHVYQAT (OHVYQVAT SVER *)",
         "NQQE:700 FPURYY YN",
         "ZNQQE:700 FPURYY YA",
+        "PVGL:HCCRE CEBIVQRAPR GJC",
         "ANZR:ZBAGPB",
         "VASB:YNQ65 J/Z99",
         "HAVG:YNQ65");
@@ -1845,6 +1846,7 @@ choyvp pynff CNPurfgrePbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:21:30:10",
         "PNYY:NSNYY   (SNYYF - NYF *)",
         "NQQE:301 WNPBOF EQ",
+        "PVGL:FNYVFOHEL GJC",
         "ANZR:YNAPNFGRE",
         "VASB:PBIRE -YNZO49 - 26LB ZNYR 10SG SNYY, HAERFC J/ YZRQ09",
         "HAVG:NZO331");
