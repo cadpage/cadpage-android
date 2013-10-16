@@ -3,9 +3,9 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="/home/jean/android-sdks/platforms/android-17/android.jar"/>
 	<classpathentry kind="lib" path="lib/CParser.jar"/>
 	<classpathentry kind="lib" path="lib/ant.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/cadpage"/>
+	<classpathentry kind="var" path="ANDROID_JAR"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
