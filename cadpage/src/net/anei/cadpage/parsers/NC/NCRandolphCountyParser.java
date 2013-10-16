@@ -75,9 +75,15 @@ public class NCRandolphCountyParser extends FieldProgramParser {
     if (name.equals("SRC")) return new SourceField("[A-Z]{4}");
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("UNIT")) return new UnitField("[A-Z]+[0-9]+", true);
+    if (name.equals("UNIT")) return new UnitField("[A-Z]+[0-9]+|\\d+-\\d+", true);
     if (name.equals("ID")) return new IdField("\\d{9}");
     if (name.equals("PLACE")) return new MyPlaceField();
     return super.getField(name);
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    return CTRY_PTN.matcher(addr).replaceAll("COUNTRY");
+  }
+  private static final Pattern CTRY_PTN = Pattern.compile("CTRY\\b", Pattern.CASE_INSENSITIVE);
 }
