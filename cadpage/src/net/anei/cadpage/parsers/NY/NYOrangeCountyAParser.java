@@ -15,8 +15,8 @@ public class NYOrangeCountyAParser extends FieldProgramParser {
   private static final Pattern KEYWORD_PTN = Pattern.compile("(?<! ) [A-Z]+[0-9]*:");
   
   public NYOrangeCountyAParser() {
-    super(CITY_LIST, "ORANGE COUNTY", "NY",
-           "ID? CALL ADDR CITY? INFO+ LOCATION:PLACE? TIME:TIME% XST:X XST2:X");
+    super("ORANGE COUNTY", "NY",
+           "ID? CALL ADDR CITY! INFO+ LOCATION:PLACE? TIME:TIME% XST:X XST2:X");
   }
   
   @Override
@@ -34,13 +34,20 @@ public class NYOrangeCountyAParser extends FieldProgramParser {
     
     body = KEYWORD_PTN.matcher(body).replaceAll(" $0");
     String[] flds = body.split("  +");
-    if (!parseFields(flds, 3, data)) return false;
-    return data.strCity.length() > 0 || data.strTime.length() > 0;
+    return parseFields(flds, 3, data);
   }
   
   @Override
   public String getProgram() {
     return "SRC " + super.getProgram();
+  }
+  
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      if (!CITY_SET.contains(field.toUpperCase())) abort();
+      super.parse(field, data);
+    }
   }
   
   private class MyInfoField extends InfoField {
@@ -55,11 +62,12 @@ public class NYOrangeCountyAParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new IdField("F\\d{9,}|\\d{5,}");
+    if (name.equals("CITY")) return new MyCityField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
-  private static final String[] CITY_LIST = new String[]{
+  private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
       "MIDDLETOWN",
       "NEWBURGH",
       "PORT JERVIS",
@@ -104,5 +112,5 @@ public class NYOrangeCountyAParser extends FieldProgramParser {
       "WARWICK",
       "WAWAYANDA",
       "WOODBURY",
-  };
+  }));
 }
