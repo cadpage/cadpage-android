@@ -27,6 +27,10 @@ Fraqre:zrffntvat@vnzerfcbaqvat.pbz
 (Invyf Tngr) 01779  ZHGHNY NVQ PNYY  175 DHNFFNVPX NIR  ARJ JVAQFBE  24  RATVAR & GEHPX G/F  VAPVQRAG PYBARQ SEBZ CNERAG: S33121226000497 GVZR: 08:53 KF
 (Invyf Tngr) 01778  ZBGBE IRUVPYR NPPVQG  YVGGYR OEVGNVA EQ&GBYRZNA EQ  ARJ JVAQFBE  NG&G ZBOVYVGL  PNE VAGB CBAQ FBZRBAR VF VA VG  PNYYRE ERCBEGVAT BPP
 
+Pbagnpg: Xraargu Jryyvire <xraargujryyvire@tznvy.pbz>
+Fraqre: 777462162625
+.... (Invyf Tngr) 01467  FGEHPGHER SVER  11 ERQ ZNCYR JNL  ARJ FZBYQ  REVAT GVZR: 20:34 KFG: 1 BYQ URZYBPX QE KFG2: 37 BYQ URZYBPX QE
+
  */
 
 choyvp pynff ALBenatrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -141,6 +145,21 @@ choyvp pynff ALBenatrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ARJ JVAQFBE",
         "VASB:NG&G ZBOVYVGL / PNE VAGB CBAQ FBZRBAR VF VA VG / PNYYRE ERCBEGVAT BPP");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXraarguJryyvire() {
+
+    qbGrfg("G1",
+        ".... (Invyf Tngr) 01467  FGEHPGHER SVER  11 ERQ ZNCYR JNL  ARJ FZBYQ  REVAT GVZR: 20:34 KFG: 1 BYQ URZYBPX QE KFG2: 37 BYQ URZYBPX QE",
+        "FEP:Invyf Tngr",
+        "VQ:01467",
+        "PNYY:FGEHPGHER SVER",
+        "NQQE:11 ERQ ZNCYR JNL",
+        "VASB:ARJ FZBYQ / REVAT",
+        "GVZR:20:34",
+        "K:1 BYQ URZYBPX QE & 37 BYQ URZYBPX QE");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
