@@ -1007,7 +1007,8 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2012:2358",
         "PNYY:RZF",
         "NQQE:202 JNFUVATGBA FG",
-        "CYNPR:BTQRAFOHET PRAGRAAVNY GREENPR NCG 303"); 
+        "PVGL:BTQRAFOHET",
+        "CYNPR:PRAGRAAVNY GREENPR NCG 303"); 
 
     qbGrfg("G19",
         "(911 QVFCNGPU) BTQ ERF:2012:2357\aQvfcngpurq\aRZF\a80 YNTENFFR #ALNCG 113, JNQQVATGBA IVYYNTR-UNZVYGBA T",
