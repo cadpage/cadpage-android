@@ -669,6 +669,7 @@ public class ParserList {
               ,"ORLincolnCounty"                ,"Lincoln County, OR"
               ,"ORLinnCounty"                   ,"Linn County, OR"
               ,"ORMarionCounty"                 ,"Marion County, OR"
+              ,"ORMultnomahCounty"              ,"Multnomah County, OR"
               ,"ORWashingtonCounty"             ,"Washington County, OR"
           ),
           new ParserCategory("Pennsylvania"
