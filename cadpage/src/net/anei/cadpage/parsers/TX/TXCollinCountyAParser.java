@@ -244,6 +244,10 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
+      if (field.startsWith("MAP PAGE")) {
+        data.strMap = field.substring(8).trim();
+        return;
+      }
       Matcher match = INFO_TIME_PTN.matcher(field);
       if (match.find()) {
         data.strTime = match.group(1);
@@ -255,7 +259,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "TIME INFO";
+      return "MAP TIME INFO";
     }
   }
   
