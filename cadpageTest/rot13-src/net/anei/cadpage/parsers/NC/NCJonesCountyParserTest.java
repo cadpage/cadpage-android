@@ -65,33 +65,6 @@ Pbzzhavpngvba:436 UJL 58 A GERAGBA R-SNYYF 17 - SNYYF Yvar16= Yvar17= Yvar18=
 Pbzzhavpngvba:436 UJL 58 A GERAGBA R-SNYYF 17 - SNYYF WPRZFNYF1,GERZF1 Yvar16= Yvar17= Yvar18=08/29/2013 00:21:54 : cbf4 : XTENL JVSR VF SNYYRA//AB VAWHEVRF//ARRQF URYC TRGGVAT URE HC
 Pbzzhavpngvba:101 F ZNEXRG FG GERAGBA R-BGURER BGURER - BGURE RZF PNYYF ABG FCRPVSVRQ Yvar16= Yvar17= Yvar18=
 Pbzzhavpngvba:1490 UJL 58 F GERAGBA GENSSVP FGBC IRU FGBC - BSSVPRE VAVGVNGRQ IRUVPYR FGBC Yvar16= Yvar17= Yvar18=
-
-** ABGRF **
-Fhopynff QvfcngpuN3Cnefre fhopynff.  Guvf qbrfa'g ybbx yvxr QvfcngpuN3Cnefre cntrf, ohg jr arrq gur VASB
-svryq cebprffvat gung guvf pynff unf.  Guvf vf gur svefg gvzr jr unir unq gb cebprff QvfcngpuN3Cnefre cntrf jvgubhg gur
-fgnaqneq '* ' svryq frcnengbe frdhrapr.  V nqqrq n cnenzrgre gb cnefreZft() fb jr pna hfr gung.
-
-Cnff cersvk bs "Pbzzhavpngvba:" gb pbafgehpgbe.
-Nyfb ohvyq naq cnff pvgl yvfg
-Cebtenz fgevat: ZNFU! Yvar16:VASB! Yvar17:VASB! yvar18:VASB!
-pnyy frgOernxPune('=');
-
-Bireevqr cnefrZft(obql, qngn)
-  pnyy fhcre.cnefrZft(obql, qngn, snyfr)
-
-Gur onfr cnefre pynff jvyy gnxr pner bs gur Yvar:VASB svryqf.  Ohg jr unir gb bireevqr gur ZNFU svryq gb cnefr rirelguvat ryfr.
-Juvpu vf tbvat gb or punyyratvat.  Jr pna gel hfvat n cnggrea zngpu gb vqragvsl gur pnyy pbqr, pnyy qrfpevcgvba naq (bcgvbany) havg.
-Ybbxf yvxr pnyy pbqr hfhnyyl fgnegf jvgu R-, S-, be Y-, jvgu ng yrnfg bar rkprcgvba "GENSSVP FGBC" naq nyjnlf raqf ng gur svefg qnfu.
-Gung vf sbyybjrq ol gur pnyy qrfpevcgvba, cbffvoyl sbyybjrq ol n havg.  Gur tbbq arjf vf gur havg svryq arire pbagnvaf nal fcnprf, fb
-vg vf rnfl gb cvpx vg bhg.  Gur uneq cneg vf qrgrezvavat jurgure vg vf cerfrag be abg.  Vg ybbxf yvxr jr pna whfg hfr gur cerfrapr bs
-n qvtvg va gur ynfg jbeq gb qrgrezvar vs vg vf n havg be abg.  Juvpu yrnirf hf jvgu fbzrguvat yvxr...
-
-(.*?) +((?:[RSY]-|GENSSVP FGBC).*?)-(.*?)(?: +([^ ]*\\q[^ ]*))?
-
-Arkg jr unir gb oernx hc gur nqqerff cneg bs gur svryq, juvpu ybbxf yvxr vg unf na nqqerff, pvgl (hfhnyyl), naq pebff fgerrgf jvgu ab
-frcnengbe.  Juvpu jr fubhyq or noyr gb unaqyr jvgu gur fzneg nqqerff cnefre.  Fbzrguvat yvxr
-cnefrNqqerff(FgnegGlcr.FGNEG_NQQE, nqqerff, qngn);
-cnefrNqqerff(FgnegGlcr.FGNEG_NQQE, SYNT_BAYL_PEBFF | SYNT_VZCYVRQ_VAGREFRPG, trgYrsg(), qngn);
  
 */
 

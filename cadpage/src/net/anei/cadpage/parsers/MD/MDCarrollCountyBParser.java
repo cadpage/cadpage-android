@@ -16,7 +16,7 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
   
   public MDCarrollCountyBParser() {
     super("CARROLL COUNTY", "MD",
-           "CALL ( BOX UNIT | UNIT BOX ) ADDR! INFO+");
+           "CALL ( BOX UNIT? | UNIT BOX ) ADDR! INFO+");
   }
   
   @Override
@@ -32,7 +32,7 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
     data.strSource = match.group(1);
     data.strCallId = match.group(2);
     body = body.replaceAll("  +", " ");
-    return parseFields(body.split("\n"), 4, data);
+    return parseFields(body.split("\n"), 3, data);
   }
   
   @Override
