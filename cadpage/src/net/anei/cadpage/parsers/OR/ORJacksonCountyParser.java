@@ -25,7 +25,7 @@ public class ORJacksonCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (! subject.equals("CAD Page")) return false;
+    if (! subject.equals("CAD Page") && !subject.equals("Cell Phone Paging system")) return false;
     if (!body.startsWith("DISPATCH:")) return false;
     body = body.substring(9).trim();
     
