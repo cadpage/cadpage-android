@@ -436,7 +436,70 @@ choyvp pynff ZQPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgXrvguZvyyre() {
-    
+
+    qbGrfg("G1",
+        "(Fgngvba 01 NYREG!! (S13031356)) NFFVFG  CNGVRAG - ABA-RZRETRAPL ERFCBAFR\a" +
+        "111\a" +
+        "@RPUB TYRA VV PBAQBF HAVG 1N 2501 PNGBPGVA PG, SERQREVPX, ZQ ",
+
+        "FEP:01",
+        "VQ:S13031356",
+        "PNYY:NFFVFG CNGVRAG - ABA-RZRETRAPL ERFCBAFR",
+        "OBK:111",
+        "CYNPR:RPUB TYRA VV PBAQBF",
+        "NQQE:2501 PNGBPGVA PG",
+        "NCG:1N",
+        "PVGL:SERQREVPX");
+
+    qbGrfg("G2",
+        "(Fgngvba 01 NYREG!! (S13031535)) URZBEEUNTR OYF\a" +
+        "111\a" +
+        "2407 YBATSRYYBJ PG, SERQREVPX, ZQ\a" +
+        "N18\a" +
+        "FUNIRQ YRTF NAQ XAVPXRQ Ceboyrz: AVPXRQ YRT Cngv",
+
+        "FEP:01",
+        "VQ:S13031535",
+        "PNYY:URZBEEUNTR OYF",
+        "OBK:111",
+        "NQQE:2407 YBATSRYYBJ PG",
+        "PVGL:SERQREVPX",
+        "HAVG:N18",
+        "VASB:FUNIRQ YRTF NAQ XAVPXRQ Ceboyrz: AVPXRQ YRT Cngv");
+
+    qbGrfg("G3",
+        "(Fgngvba 01 NYREG!! (S13031526)) PBZZREPVNY SVER NYNEZ\a" +
+        "321\a" +
+        "@QHGPUF QNHTUGRE ERFGNHENAG 581 UVZRF NIR, SERQREVPX, ZQ\a" +
+        "R31 GJE1\a" +
+        "Ceboyrz: TR",
+
+        "FEP:01",
+        "VQ:S13031526",
+        "PNYY:PBZZREPVNY SVER NYNEZ",
+        "OBK:321",
+        "CYNPR:QHGPUF QNHTUGRE ERFGNHENAG",
+        "NQQE:581 UVZRF NIR",
+        "PVGL:SERQREVPX",
+        "HAVG:R31 GJE1",
+        "VASB:Ceboyrz: TR");
+
+    qbGrfg("G4",
+        "(Fgngvba 01 NYREG!! (S13031511)) VAWHERQ CREFBA\a" +
+        "106\a" +
+        "1367 UVGPUVATCBFG YA, SERQREVPX, ZQ\a" +
+        "N19\a" +
+        "QNHTUGRE JUB VF CERTANAG SRYY YNLVAT VA QEVIRJ",
+
+        "FEP:01",
+        "VQ:S13031511",
+        "PNYY:VAWHERQ CREFBA",
+        "OBK:106",
+        "NQQE:1367 UVGPUVATCBFG YA",
+        "PVGL:SERQREVPX",
+        "HAVG:N19",
+        "VASB:QNHTUGRE JUB VF CERTANAG SRYY YNLVAT VA QEVIRJ");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
