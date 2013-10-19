@@ -35,26 +35,21 @@ Ntrapl anzr: Rnfgfvqr Sver  Erfphr
 Ybpngvba: Vffndhnu, JN, Havgrq Fgngrf
 Fraqre: PNQ@oryyrihrjn.tbi
 
-2436 34gu Nir Ar                                  #          VFFNDHNU                           Pneqvnp Neerfg                SGNP2     Z14,73FG,O71,R71,N83,ZFB5
-22975 Fr Oynpx Ahttrg Eq                          #456       VFFNDHNU                           Nvq - Rzretrapl               SGNP1     N73
-33700 Jo90 Jrfg Bs Fe18                           #          XVAT PBHAGL                        ZIN - Nvq Rzretrapl           SGNP2     R281,N87,71FG,O71,Y73,N74
-100 Gvzore Evqtr Jnl Aj                           #2103      VFFNDHNU                           NSN - Zhygv-Snzvyl            SGNP2     R72,O71,R71,Y73,R8
-22975 Fr Oynpx Ahttrg Eq                          #140       VFFNDHNU                           Nvq - Rzretrapl               SGNP1     N73
-1615 Oraqvtb Oyiq A                               #          ABEGU ORAQ                         NSN - Pbzzrepvny              SGNP1     Y87,Y73
-705 Envavre Oyiq A                                #          VFFNDHNU                           Pneqvnp Neerfg                SGNP1     O71,R71,N72,Z14,ZFB5
-2548 Ybatzver Pg Ar                               #          VFFNDHNU                           Freivpr Pnyy - Sver           SGNP1     Y73
-24014 Fr 46gu Cy                                  #          XVAT PBHAGL                        Nvq - Rzretrapl               SGNP1     83FG,N73
-34400 JO90                                        #          XVAT PBHAGL                        Iruvpyr - Sver                SGNP2     O71,Y87
-317 Aj Tvyzna Oyiq                                #37        VFFNDHNU                           NSN - Pbzzrepvny              SGNP2     R71,Y73
-5504 231fg Nir Fr                                 #          VFFNDHNU                           Nvq - Rzretrapl               SGNP1     N73
-30816 Fr 86gu Fg                                  #          XVAT PBHAGL                        Fgehpgher Sver - Erfvqragvny  SGNP2     74FG,O71,R71,R271,R72,Y73,NH81,N75
-30816 Fr 86gu Fg                                  #          XVAT PBHAGL                        Fgehpgher Sver - Erfvqragvny  SGNP2     74FG,O71,R71,R271,R72,Y73,NH81,N75
-22975 Fr Oynpx Ahttrg Eq                          #207       VFFNDHNU                           Nvq - Rzretrapl               SGNP1     N73
-650 1fg Nir Ar                                    #99        VFFNDHNU                           Pneqvnp Neerfg                SGNP3     N71,O71,R72,Z14,ZFB5
-14238 442aq Nir FR                                #          XVAT PBHAGL                        Nvq - Rzretrapl               SGNP1     Y87,O71
-8300 304gu Nir Fr                                 #          XVAT PBHAGL                        NSN - Pbzzrepvny              SGNP1     R71,Y73,R74
-1907 Ar Cnex Qe                                   #          VFFNDHNU                           Nvq - Rzretrapl               SGNP1     N73
-22975 Fr Oynpx Ahttrg Eq                          #228       VFFNDHNU                           Nvq - Rzretrapl               SGNP1     N73
+Pbagnpg: Npgvir911
+Ntrapl anzr: Rnfgfvqr Sver  Erfphr
+Ybpngvba: Vffndhnu, JN, Havgrq Fgngrf
+Fraqre: IvfvPNQ@abepbz.bet
+
+17734 2aq Cy Ar                                   #          Zrqvp                         SGNP1     N63,ZFB6G,Z47#YNG:47757683  #YBA:122326800
+2596 22aq Pg Ar                                   #          VFFNDHNU                           Zrqvp                         SGNP1     Z14,N73#YNG:47552851  #YBA:122000650
+2811 252aq Nir Fr                                 #          FNZZNZVFU                          Nvq - Rzretrapl               SGNP1     N83#YNG:47583998  #YBA:122003420
+12310 345gu Cy Ar                                 #          XVAT PBHAGL                        Nvq - Rzretrapl               SGNP1     N85#YNG:47710064  #YBA:121880242
+25723 Fr 31fg Cy                                  #          FNZZNZVFU                          Nvq - Rzretrapl               SGNP1     N83#YNG:47580952  #YBA:121995629
+23320 Fr 14gu Pg                                  #          FNZZNZVFU                          Unm                           SGNP1     83FG,R81#YNG:47597426  #YBA:122029088
+20408 Juvgzna Nir A                               #          Zrqvp                         SGNP1     N64,ZFB6G,FPZ17,Z63#YNG:47777314  #YBA:122347765
+2923 257gu Cy Fr                                  #          FNZZNZVFU                          Nvq - Rzretrapl               SGNP1     R83#YNG:47583041  #YBA:121995772
+19700 Fr 21fg Fg                                  #          FNZZNZVFU                          Nvq - Rzretrapl               SGNP1     81FG,N82#YNG:47591286  #YBA:122077049
+19531 Qnlgba Nir A                                #          NSN - Pbzzrepvny              SGNP1     O61,R64,R63#YNG:47770531  #YBA:122353506
 
 */
 
@@ -182,153 +177,82 @@ choyvp pynff JNXvatPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgRnfgfvqrSverErfphr() {
 
     qbGrfg("G1",
-        "2436 34gu Nir Ar                                  #          VFFNDHNU                           Pneqvnp Neerfg                SGNP2     Z14,73FG,O71,R71,N83,ZFB5",
-        "NQQE:2436 34gu Nir Ar",
-        "PVGL:VFFNDHNU",
-        "PNYY:Pneqvnp Neerfg",
-        "HAVG:Z14,73FG,O71,R71,N83,ZFB5");
+        "17734 2aq Cy Ar                                   #          Zrqvp                         SGNP1     N63,ZFB6G,Z47#YNG:47757683  #YBA:122326800",
+        "NQQE:17734 2aq Cy Ar",
+        "PNYY:Zrqvp",
+        "HAVG:N63,ZFB6G,Z47",
+        "TCF:+47.757683,-122.326800");
 
     qbGrfg("G2",
-        "22975 Fr Oynpx Ahttrg Eq                          #456       VFFNDHNU                           Nvq - Rzretrapl               SGNP1     N73",
-        "NQQE:22975 Fr Oynpx Ahttrg Eq",
-        "NCG:456",
+        "2596 22aq Pg Ar                                   #          VFFNDHNU                           Zrqvp                         SGNP1     Z14,N73#YNG:47552851  #YBA:122000650",
+        "NQQE:2596 22aq Pg Ar",
         "PVGL:VFFNDHNU",
-        "PNYY:Nvq - Rzretrapl",
-        "HAVG:N73");
+        "PNYY:Zrqvp",
+        "HAVG:Z14,N73",
+        "TCF:+47.552851,-122.000650");
 
     qbGrfg("G3",
-        "33700 Jo90 Jrfg Bs Fe18                           #          XVAT PBHAGL                        ZIN - Nvq Rzretrapl           SGNP2     R281,N87,71FG,O71,Y73,N74",
-        "NQQE:33700 Jo90 Jrfg Bs Fe18",
-        "ZNQQE:33700 Jo90",
-        "PVGL:XVAT PBHAGL",
-        "PNYY:ZIN - Nvq Rzretrapl",
-        "HAVG:R281,N87,71FG,O71,Y73,N74");
+        "2811 252aq Nir Fr                                 #          FNZZNZVFU                          Nvq - Rzretrapl               SGNP1     N83#YNG:47583998  #YBA:122003420",
+        "NQQE:2811 252aq Nir Fr",
+        "PVGL:FNZZNZVFU",
+        "PNYY:Nvq - Rzretrapl",
+        "HAVG:N83",
+        "TCF:+47.583998,-122.003420");
 
     qbGrfg("G4",
-        "100 Gvzore Evqtr Jnl Aj                           #2103      VFFNDHNU                           NSN - Zhygv-Snzvyl            SGNP2     R72,O71,R71,Y73,R8",
-        "NQQE:100 Gvzore Evqtr Jnl Aj",
-        "NCG:2103",
-        "PVGL:VFFNDHNU",
-        "PNYY:NSN - Zhygv-Snzvyl",
-        "HAVG:R72,O71,R71,Y73,R8");
+        "12310 345gu Cy Ar                                 #          XVAT PBHAGL                        Nvq - Rzretrapl               SGNP1     N85#YNG:47710064  #YBA:121880242",
+        "NQQE:12310 345gu Cy Ar",
+        "PVGL:XVAT PBHAGL",
+        "PNYY:Nvq - Rzretrapl",
+        "HAVG:N85",
+        "TCF:+47.710064,-121.880242");  // TCF pbbeqvangr zvfzngpu !!!
 
     qbGrfg("G5",
-        "22975 Fr Oynpx Ahttrg Eq                          #140       VFFNDHNU                           Nvq - Rzretrapl               SGNP1     N73",
-        "NQQE:22975 Fr Oynpx Ahttrg Eq",
-        "NCG:140",
-        "PVGL:VFFNDHNU",
+        "25723 Fr 31fg Cy                                  #          FNZZNZVFU                          Nvq - Rzretrapl               SGNP1     N83#YNG:47580952  #YBA:121995629",
+        "NQQE:25723 Fr 31fg Cy",
+        "PVGL:FNZZNZVFU",
         "PNYY:Nvq - Rzretrapl",
-        "HAVG:N73");
+        "HAVG:N83",
+        "TCF:+47.580952,-121.995629");
 
     qbGrfg("G6",
-        "1615 Oraqvtb Oyiq A                               #          ABEGU ORAQ                         NSN - Pbzzrepvny              SGNP1     Y87,Y73",
-        "NQQE:1615 Oraqvtb Oyiq A",
-        "PVGL:ABEGU ORAQ",
-        "PNYY:NSN - Pbzzrepvny",
-        "HAVG:Y87,Y73");
+        "23320 Fr 14gu Pg                                  #          FNZZNZVFU                          Unm                           SGNP1     83FG,R81#YNG:47597426  #YBA:122029088",
+        "NQQE:23320 Fr 14gu Pg",
+        "PVGL:FNZZNZVFU",
+        "PNYY:Unm",
+        "HAVG:83FG,R81",
+        "TCF:+47.597426,-122.029088");
 
     qbGrfg("G7",
-        "705 Envavre Oyiq A                                #          VFFNDHNU                           Pneqvnp Neerfg                SGNP1     O71,R71,N72,Z14,ZFB5",
-        "NQQE:705 Envavre Oyiq A",
-        "PVGL:VFFNDHNU",
-        "PNYY:Pneqvnp Neerfg",
-        "HAVG:O71,R71,N72,Z14,ZFB5");
+        "20408 Juvgzna Nir A                               #          Zrqvp                         SGNP1     N64,ZFB6G,FPZ17,Z63#YNG:47777314  #YBA:122347765",
+        "NQQE:20408 Juvgzna Nir A",
+        "PNYY:Zrqvp",
+        "HAVG:N64,ZFB6G,FPZ17,Z63",
+        "TCF:+47.777314,-122.347765");
 
     qbGrfg("G8",
-        "2548 Ybatzver Pg Ar                               #          VFFNDHNU                           Freivpr Pnyy - Sver           SGNP1     Y73",
-        "NQQE:2548 Ybatzver Pg Ar",
-        "PVGL:VFFNDHNU",
-        "PNYY:Freivpr Pnyy - Sver",
-        "HAVG:Y73");
+        "2923 257gu Cy Fr                                  #          FNZZNZVFU                          Nvq - Rzretrapl               SGNP1     R83#YNG:47583041  #YBA:121995772",
+        "NQQE:2923 257gu Cy Fr",
+        "PVGL:FNZZNZVFU",
+        "PNYY:Nvq - Rzretrapl",
+        "HAVG:R83",
+        "TCF:+47.583041,-121.995772");
 
     qbGrfg("G9",
-        "24014 Fr 46gu Cy                                  #          XVAT PBHAGL                        Nvq - Rzretrapl               SGNP1     83FG,N73",
-        "NQQE:24014 Fr 46gu Cy",
-        "PVGL:XVAT PBHAGL",
+        "19700 Fr 21fg Fg                                  #          FNZZNZVFU                          Nvq - Rzretrapl               SGNP1     81FG,N82#YNG:47591286  #YBA:122077049",
+        "NQQE:19700 Fr 21fg Fg",
+        "PVGL:FNZZNZVFU",
         "PNYY:Nvq - Rzretrapl",
-        "HAVG:83FG,N73");
+        "HAVG:81FG,N82",
+        "TCF:+47.591286,-122.077049");
 
     qbGrfg("G10",
-        "34400 JO90                                        #          XVAT PBHAGL                        Iruvpyr - Sver                SGNP2     O71,Y87",
-        "NQQE:34400 JO90",
-        "PVGL:XVAT PBHAGL",
-        "PNYY:Iruvpyr - Sver",
-        "HAVG:O71,Y87");
-
-    qbGrfg("G11",
-        "317 Aj Tvyzna Oyiq                                #37        VFFNDHNU                           NSN - Pbzzrepvny              SGNP2     R71,Y73",
-        "NQQE:317 Aj Tvyzna Oyiq",
-        "NCG:37",
-        "PVGL:VFFNDHNU",
+        "19531 Qnlgba Nir A                                #          NSN - Pbzzrepvny              SGNP1     O61,R64,R63#YNG:47770531  #YBA:122353506",
+        "NQQE:19531 Qnlgba Nir A",
         "PNYY:NSN - Pbzzrepvny",
-        "HAVG:R71,Y73");
-
-    qbGrfg("G12",
-        "5504 231fg Nir Fr                                 #          VFFNDHNU                           Nvq - Rzretrapl               SGNP1     N73",
-        "NQQE:5504 231fg Nir Fr",
-        "PVGL:VFFNDHNU",
-        "PNYY:Nvq - Rzretrapl",
-        "HAVG:N73");
-
-    qbGrfg("G13",
-        "30816 Fr 86gu Fg                                  #          XVAT PBHAGL                        Fgehpgher Sver - Erfvqragvny  SGNP2     74FG,O71,R71,R271,R72,Y73,NH81,N75",
-        "NQQE:30816 Fr 86gu Fg",
-        "PVGL:XVAT PBHAGL",
-        "PNYY:Fgehpgher Sver - Erfvqragvny",
-        "HAVG:74FG,O71,R71,R271,R72,Y73,NH81,N75");
-
-    qbGrfg("G14",
-        "30816 Fr 86gu Fg                                  #          XVAT PBHAGL                        Fgehpgher Sver - Erfvqragvny  SGNP2     74FG,O71,R71,R271,R72,Y73,NH81,N75",
-        "NQQE:30816 Fr 86gu Fg",
-        "PVGL:XVAT PBHAGL",
-        "PNYY:Fgehpgher Sver - Erfvqragvny",
-        "HAVG:74FG,O71,R71,R271,R72,Y73,NH81,N75");
-
-    qbGrfg("G15",
-        "22975 Fr Oynpx Ahttrg Eq                          #207       VFFNDHNU                           Nvq - Rzretrapl               SGNP1     N73",
-        "NQQE:22975 Fr Oynpx Ahttrg Eq",
-        "NCG:207",
-        "PVGL:VFFNDHNU",
-        "PNYY:Nvq - Rzretrapl",
-        "HAVG:N73");
-
-    qbGrfg("G16",
-        "650 1fg Nir Ar                                    #99        VFFNDHNU                           Pneqvnp Neerfg                SGNP3     N71,O71,R72,Z14,ZFB5",
-        "NQQE:650 1fg Nir Ar",
-        "NCG:99",
-        "PVGL:VFFNDHNU",
-        "PNYY:Pneqvnp Neerfg",
-        "HAVG:N71,O71,R72,Z14,ZFB5");
-
-    qbGrfg("G17",
-        "14238 442aq Nir FR                                #          XVAT PBHAGL                        Nvq - Rzretrapl               SGNP1     Y87,O71",
-        "NQQE:14238 442aq Nir FR",
-        "PVGL:XVAT PBHAGL",
-        "PNYY:Nvq - Rzretrapl",
-        "HAVG:Y87,O71");
-
-    qbGrfg("G18",
-        "8300 304gu Nir Fr                                 #          XVAT PBHAGL                        NSN - Pbzzrepvny              SGNP1     R71,Y73,R74",
-        "NQQE:8300 304gu Nir Fr",
-        "PVGL:XVAT PBHAGL",
-        "PNYY:NSN - Pbzzrepvny",
-        "HAVG:R71,Y73,R74");
-
-    qbGrfg("G19",
-        "1907 Ar Cnex Qe                                   #          VFFNDHNU                           Nvq - Rzretrapl               SGNP1     N73",
-        "NQQE:1907 Ar Cnex Qe",
-        "PVGL:VFFNDHNU",
-        "PNYY:Nvq - Rzretrapl",
-        "HAVG:N73");
-
-    qbGrfg("G20",
-        "22975 Fr Oynpx Ahttrg Eq                          #228       VFFNDHNU                           Nvq - Rzretrapl               SGNP1     N73",
-        "NQQE:22975 Fr Oynpx Ahttrg Eq",
-        "NCG:228",
-        "PVGL:VFFNDHNU",
-        "PNYY:Nvq - Rzretrapl",
-        "HAVG:N73");
-  
+        "HAVG:O61,R64,R63",
+        "TCF:+47.770531,-122.353506");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
