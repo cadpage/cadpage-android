@@ -2662,3 +2662,22 @@ late calls
 
 Can you long press some of the calls that are coming in late and select
 "Report Problem" to send them to us?
+
+***************************************************************************
+switch to Active911 Android app
+
+It looks like the ________________ device was switched to use the new
+Active911 Android app.  Once you do that, pages will no longer be sent
+to the Cadpage app.  If you want to switch back to using Cadpage instead
+of the Active911 app, you need to re-register Cadpage with Active911.
+To do that, go into Cadpage Settings and select
+Direct Paging Vendors > Active911.com > Unregister > Register
+then enter the 18238-FSJH device code.
+
+If things still do not work, or if generated test messages do not make
+it to your device, use the Email the Developer feature to send us
+another email.
+
+Good luck,
+-Ken
+********************************************************************************
