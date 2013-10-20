@@ -379,7 +379,8 @@ choyvp pynff GKYhsxvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Z Snyy",
         "NQQE:1305 YNEX FG",
-        "CYNPR:n Yhsxva",
+        "NCG:n",
+        "PVGL:Yhsxva",
         "K:ANGUNA FG/YBGHF YA",
         "OBK:105",
         "VASB:63 lb s sryy va ongugho / uvg urnq / / pnyyre / nqivfrq ur qvq abg jnag nal cbyvpr gung gurer unq orra ab ivbyrapr. pnyyre fbhaqrq fgenatrpurpx jrysner",
@@ -1712,7 +1713,9 @@ choyvp pynff GKYhsxvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Z Purfg Cnva",
         "NQQE:501 F Gvzoreynaq Qe",
-        "CYNPR:JBZRAF FURYGRE GUEVSG FGBER F GVZOREYNAQ - R Yhsxva",
+        "CYNPR:JBZRAF FURYGRE GUEVSG FGBER F GVZOREYNAQ",
+        "NCG:R",
+        "PVGL:Yhsxva",
         "K:ZBBQL FG/ZBAGEBFR FG",
         "OBK:103",
         "QNGR:10/04/2013",
