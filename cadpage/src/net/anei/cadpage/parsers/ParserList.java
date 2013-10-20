@@ -793,6 +793,8 @@ public class ParserList {
               ,"TXNuecesCounty"                 ,"Nueces County, TX"
               ,"TXParkerCounty"                 ,"Parker County, TX"
               ,"TXRockwallCounty"               ,"Rockwall County, TX"
+              ,"TXSeabroook"                    ,"Seabrook, TX"
+              ,"TXSeguin"                       ,"Seguin, TX"
               ,"TXTarrantCounty"                ,"Tarrent County, TX"
               ,"TXTravisCounty"                 ,"Travis County, TX"
               ,"TXWebster"                      ,"Webster, TX"
