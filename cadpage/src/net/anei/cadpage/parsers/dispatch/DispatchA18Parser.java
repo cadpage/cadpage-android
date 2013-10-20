@@ -39,6 +39,7 @@ public class DispatchA18Parser extends FieldProgramParser {
   private static final Pattern BOX_PTN = Pattern.compile("^BOX *(\\d+)", Pattern.CASE_INSENSITIVE);
   private static final Pattern APT_PTN = Pattern.compile("^(?:APT|LOT|#) *([-A-Z0-9]+)\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern APT2_PTN = Pattern.compile("^(\\d{1,4}[A-D]?)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern APT3_PTN = Pattern.compile("^([A-Z]) +(.*)", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -83,23 +84,36 @@ public class DispatchA18Parser extends FieldProgramParser {
           
           if (citySet.contains(part.toUpperCase())) {
             if (data.strCity.length() == 0) data.strCity = part;
+            continue;
           }
           
-          else if (checkAddress(part) > 0) {
+          if (checkAddress(part) > 0) {
             if (Character.isDigit(data.strAddress.charAt(0))) {
               data.strCross = append(data.strCross, "/", part);
             } else {
               data.strAddress = append(data.strAddress, " & ", part);
             }
+            continue;
           }
           
-          else if (APT2_PTN.matcher(part).matches()) {
+          if (APT2_PTN.matcher(part).matches()) {
             data.strApt = append(data.strApt, "-", part);
+            continue;
           }
           
-          else {
-            data.strPlace = append(data.strPlace, " - ", part);
+          if (data.strCity.length() == 0) {
+            match = APT3_PTN.matcher(part);
+            if (match.matches()) {
+              String city = match.group(2);
+              if (citySet.contains(city.toUpperCase())) {
+                data.strApt = append(data.strApt, "-", match.group(1));
+                data.strCity = city;
+                continue;
+              }
+            }
           }
+          
+          data.strPlace = append(data.strPlace, " - ", part);
         }
       }
     }
@@ -165,6 +179,4 @@ public class DispatchA18Parser extends FieldProgramParser {
     if (name.equals("SRC")) return new MySourceField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
-  }
-  
-}
+  }}

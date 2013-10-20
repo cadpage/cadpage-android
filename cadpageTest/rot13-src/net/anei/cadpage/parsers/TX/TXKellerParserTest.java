@@ -396,7 +396,7 @@ choyvp pynff GKXryyreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Fbhguynxr",
         "K:ZVENPYR CBVAGR QE/OEBBXFUVER QE",
         "OBK:41200516");
-  
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
