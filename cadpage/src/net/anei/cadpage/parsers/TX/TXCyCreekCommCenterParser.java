@@ -97,15 +97,20 @@ public class TXCyCreekCommCenterParser extends SmartAddressParser {
     sAddr = p.get(',');
     sAddr = VAL_PTN.matcher(sAddr).replaceAll("VALLEY");
     parseAddressCity(sAddr, data);
+    int pt = data.strCity.indexOf(' ');
+    if (pt >= 0) {
+      data.strPlace = data.strCity.substring(pt+1).trim();
+      data.strCity = data.strCity.substring(0,pt);
+    }
     if (data.strCity.equals("HC")) data.strCity = "";
     if (data.strCity.equals("MC")) data.strCity = "MONTGOMERY COUNTY";
-    if (data.strCity.equals("H")) data.strCity = "HOUSTON";
-    data.strPlace = p.get(';');
+    if (data.strCity.equals("H") || data.strCity.equals("HO")) data.strCity = "HOUSTON";
+    data.strPlace = append(data.strPlace, " - ", p.get(';'));
     data.strApt = p.get();
     
     data.strMap = props.getProperty("Map", "");
     String sPlace = props.getProperty("Sub", "");
-    if (sPlace.length() > 0) data.strPlace = sPlace;
+    if (sPlace.length() > 0) data.strPlace = append(data.strPlace, " - ", sPlace);
     data.strCall = props.getProperty("Nat", "");
     data.strUnit = props.getProperty("Units", "");
     String cross = props.getProperty("X-St", "");
