@@ -14,6 +14,10 @@ PVGL BS SENAXYVA zugheare:16 PERFPRAG QE SENAXYVA A UVTU FG K ZPPHGPURBA FG 14:4
 PVGL BS SENAXYVA nwhfghf:1401 A UVTU FG Ez 1007 SENAXYVA BNXJBBQ QE K PVGL YVZVGF 05:40:29 ERFPHR RZF- NC ryqreyl srznyr frirer abfr oyrrq
 PVGL BS SENAXYVA zugheare:117 ORRPUJBBQ QE SENAXYVA BNXJBBQ QE K A UVTU FG 18:02:51 ERFPHR RZF- NC 74 LB SRZNYR - CBFFVOYR FGEBXR
 
+Pbagnpg: Pney Gvyyznaa <pney.gvyyznaa@vfyrbsjvtughf.arg>
+Fraqre: 777
+PVGL BS SENAXYVA qyrqorggre:205 ABEGU QE SENAXYVA PERFPRAG QE K PVEPYR QE 07:24:27 ERFPHR RZF- NC 79 LBN SRZNYR QVSSVPHYG OERNGUVAT
+
 */
 
 choyvp pynff INSenaxyvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -59,6 +63,20 @@ choyvp pynff INSenaxyvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:18:02:51",
         "PNYY:ERFPHR RZF- NC",
         "VASB:74 LB SRZNYR - CBFFVOYR FGEBXR");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPneyGvyyznaa() {
+
+    qbGrfg("G1",
+        "PVGL BS SENAXYVA qyrqorggre:205 ABEGU QE SENAXYVA PERFPRAG QE K PVEPYR QE 07:24:27 ERFPHR RZF- NC 79 LBN SRZNYR QVSSVPHYG OERNGUVAT",
+        "NQQE:205 ABEGU QE",
+        "PVGL:SENAXYVA",
+        "K:PERFPRAG QE / PVEPYR QE",
+        "GVZR:07:24:27",
+        "PNYY:ERFPHR RZF- NC",
+        "VASB:79 LBN SRZNYR QVSSVPHYG OERNGUVAT");
 
   }
   
