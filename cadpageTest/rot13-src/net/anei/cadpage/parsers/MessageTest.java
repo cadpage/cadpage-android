@@ -9,6 +9,15 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("GKUneevfPbhagl",
+        "xra@pnqcntr.bet",
+        "SJ: Onpx Cnva",
+        "\a\a\a________________________________________\aSebz: wisver@pv.wrefrl-ivyyntr.gk.hf\aFrag: Fhaqnl, Bpgbore 20, 2013 11:52:58 CZ (HGP-06:00) Prageny Gvzr (HF & Pnanqn)\aGb: wisver\aFhowrpg: Onpx Cnva\a\aOnpx Cnva\a-- 6 Rcreanl Cynpr, Wrefrl Ivyyntr\aFrangr //Qrnq Raq\a Sver Obk = 3501",
+        "wisver@pv.wrefrl-ivyyntr.gk.hf",
+        "Onpx Cnva",
+        "Onpx Cnva\a-- 6 Rcreanl Cynpr, Wrefrl Ivyyntr\aFrangr //Qrnq Raq\a Sver Obk = 3501");
+        
+    
     qbCnefrGrfg("GRFG ZRFFNTR",
         "xra@pnqcntr.bet",
         "",
