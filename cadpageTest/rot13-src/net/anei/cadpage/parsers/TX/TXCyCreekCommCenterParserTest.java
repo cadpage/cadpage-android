@@ -245,6 +245,7 @@ Fraqre: 777
 Pbagnpg: Wbfr Tnemn <wtnemn9358@tznvy.pbz>
 Fraqre: PbzzPragre@pprzf.pbz
 SEZ:PbzzPragre@pprzf.pbz\aZFT:10/19 19:31 18555 FU 249 FO-UB PURIEBA TNF FGNGVBA Znc:369U Whevf:UBHFGBA SQ Ang:NEF4-SZB SBYYBJ HC /\a(Pba'g) 2 bs 2\aFHCCYRZRAG Havgf:95S24 K-Fg:TENAG EQ ZVYYFIVRJ E(Raq)
+1 bs 2\aSEZ:PbzzPragre@pprzf.pbz\aZFT:10/22 12:54 R FNZ UBHFGBA CXJL A AO-UP/WNPVAGB Znc:490A Whevf:PUNAARYIVRJ ISQ Ang:61Q01H-UNMZNG -\a(Pba'g) 2 bs 2\aHAPBAGNVARQ Havgf:UZ1 K-Fg:WNPVAGB CBEG OYIQ(Raq)
 
 */
 
@@ -2317,6 +2318,22 @@ choyvp pynff GKPlPerrxPbzzPragreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NEF4-SZB SBYYBJ HC / FHCCYRZRAG",
         "HAVG:95S24",
         "K:TENAG EQ / ZVYYFIVRJ E");
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:PbzzPragre@pprzf.pbz\a" +
+        "ZFT:10/22 12:54 R FNZ UBHFGBA CXJL A AO-UP/WNPVAGB Znc:490A Whevf:PUNAARYIVRJ ISQ Ang:61Q01H-UNMZNG -\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "HAPBAGNVARQ Havgf:UZ1 K-Fg:WNPVAGB CBEG OYIQ(Raq)",
+
+        "QNGR:10/22",
+        "GVZR:12:54",
+        "NQQE:R FNZ UBHFGBA CXJL A AO & WNPVAGB",
+        "ZNQQE:R FNZ UBHFGBA CXJL A & WNPVAGB",
+        "ZNC:490A Whevf:PUNAARYIVRJ ISQ",
+        "PNYY:61Q01H-UNMZNG - HAPBAGNVARQ",
+        "HAVG:UZ1",
+        "K:WNPVAGB CBEG OYIQ");
 
   }
   
