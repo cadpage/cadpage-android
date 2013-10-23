@@ -78,10 +78,12 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
   }
   
   private static final Pattern UNIT_MULT_SPC_PTN = Pattern.compile("  +");
+  private static final String SINGLE_UNIT_PTN_SPC = "(?:[A-Z]+\\d+|\\d[A-Z]+)";
+  private static final String MULTI_UNIT_PTN_SPC = SINGLE_UNIT_PTN_SPC + "(?: +" + SINGLE_UNIT_PTN_SPC + ")*";
   private class MyUnitField extends UnitField {
     
     public MyUnitField() {
-      super("[A-Z]+\\d+(?: +[A-Z]+\\d+)*", true);
+      super(MULTI_UNIT_PTN_SPC, true);
     }
     
     @Override
@@ -94,7 +96,7 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
   
   private static final Pattern ADDR_BOX_PTN = Pattern.compile("\\d{2}-\\d{1,2}");
   private static final Pattern APT_PTN = Pattern.compile("(?:\\bAPT\\b|\\bROOM\\b|\\bRM\\b|\\bUNIT\\b|#) *([^ ]+)$");
-  private static final Pattern APT_PTN2 = Pattern.compile("(?:\\bAPT|\\bROOM|\\bRM|\\bUNIT\\b|#) *([^ ]+) *");
+  private static final Pattern APT_PTN2 = Pattern.compile("(?:\\bAPT(?![A-Z])|\\bROOM|\\bRM|\\bUNIT\\b|#) *([^ ]+) *");
   private static final Pattern CHANNEL_PTN = Pattern.compile(" TG *(.*)$");
   private static final Pattern SEPARATOR = Pattern.compile(";| // ");
   private class MyAddressField extends Field {

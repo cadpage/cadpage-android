@@ -54,6 +54,8 @@ Fraqre: snfg@zq-serqrevpx-01.snfgnyregvat.pbz
 (Fgngvba 01 NYREG!! (S13031535)) URZBEEUNTR OYF\a111\a2407 YBATSRYYBJ PG, SERQREVPX, ZQ\aN18\aFUNIRQ YRTF NAQ XAVPXRQ Ceboyrz: AVPXRQ YRT Cngv
 (Fgngvba 01 NYREG!! (S13031526)) PBZZREPVNY SVER NYNEZ\a321\a@QHGPUF QNHTUGRE ERFGNHENAG 581 UVZRF NIR, SERQREVPX, ZQ\aR31 GJE1\aCeboyrz: TR
 (Fgngvba 01 NYREG!! (S13031511)) VAWHERQ CREFBA\a106\a1367 UVGPUVATCBFG YA, SERQREVPX, ZQ\aN19\aQNHTUGRE JUB VF CERTANAG SRYY YNLVAT VA QEVIRJ
+(Fgngvba 01 NYREG!! (S13031920)) FVPX CREFBA\a109\a@JVYYBJQNYR PEBFFVAT NCGF  NCG T301 160 JVYYBJQNYR QE, SERQREVPX, ZQ\aN18\aCeboyrz: FVPX Cn
+(Fgngvba 01 NYREG!! (S13031903)) HAPBAFPVBHF CREFBA\a103\a@PBZSBEG VAA ERQ UBEFR 998 CNGEVPX FG J, SERQREVPX, ZQ\aN18   Z2   1SE   RZF900\aCeb
 
 */
 choyvp pynff ZQPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -499,6 +501,41 @@ choyvp pynff ZQPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:SERQREVPX",
         "HAVG:N19",
         "VASB:QNHTUGRE JUB VF CERTANAG SRYY YNLVAT VA QEVIRJ");
+
+    qbGrfg("G5",
+        "(Fgngvba 01 NYREG!! (S13031920)) FVPX CREFBA\a" +
+        "109\a" +
+        "@JVYYBJQNYR PEBFFVAT NCGF  NCG T301 160 JVYYBJQNYR QE, SERQREVPX, ZQ\a" +
+        "N18\a" +
+        "Ceboyrz: FVPX Cn",
+
+        "FEP:01",
+        "VQ:S13031920",
+        "PNYY:FVPX CREFBA",
+        "OBK:109",
+        "CYNPR:JVYYBJQNYR PEBFFVAT NCGF",
+        "NQQE:160 JVYYBJQNYR QE",
+        "NCG:T301",
+        "PVGL:SERQREVPX",
+        "HAVG:N18",
+        "VASB:Ceboyrz: FVPX Cn");
+
+    qbGrfg("G6",
+        "(Fgngvba 01 NYREG!! (S13031903)) HAPBAFPVBHF CREFBA\a" +
+        "103\a" +
+        "@PBZSBEG VAA ERQ UBEFR 998 CNGEVPX FG J, SERQREVPX, ZQ\a" +
+        "N18   Z2   1SE   RZF900\a" +
+        "Ceb",
+
+        "FEP:01",
+        "VQ:S13031903",
+        "PNYY:HAPBAFPVBHF CREFBA",
+        "OBK:103",
+        "CYNPR:PBZSBEG VAA ERQ UBEFR",
+        "NQQE:998 CNGEVPX FG J",
+        "PVGL:SERQREVPX",
+        "HAVG:N18 Z2 1SE RZF900",
+        "VASB:Ceb");
 
   }
   
