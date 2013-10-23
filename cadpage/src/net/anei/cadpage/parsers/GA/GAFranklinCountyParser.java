@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.GA;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
@@ -23,17 +25,28 @@ public class GAFranklinCountyParser extends DispatchSouthernParser {
     if (!body.startsWith("FC911:")) return false;
     return super.parseMsg(body, data);
   }
-  
+
+  @Override
+  protected boolean isNotExtraApt(String apt) {
+    if (NOT_APT_PTN.matcher(apt).matches()) return true;
+    return super.isNotExtraApt(apt);
+  }
+  private static final Pattern NOT_APT_PTN = Pattern.compile("I[- ].*", Pattern.CASE_INSENSITIVE);
+
+
+
 
   private static final String[] CITY_LIST = new String[]{
-    
     "CANON",
     "CARNESVILLE",
     "FRANKLIN SPRINGS",
     "GUMLOG",
     "LAVONIA",
     "MARTIN",
-    "ROYSTON"
+    "ROYSTON",
+    
+    // Jackson County
+    "COMMERCE"
   };
 
 }

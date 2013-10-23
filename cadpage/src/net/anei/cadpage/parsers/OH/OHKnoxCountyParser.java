@@ -9,8 +9,10 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
   
   public OHKnoxCountyParser() {
     super(null, new int[]{59,60}, CITY_LIST, "KNOX COUNTY", "OH");
+    addSpecialWords("HYATT");
+    
   }
-  
+
   @Override
   public String getFilter() {
     return "Dispatch@smtp-server.Columbus.rr.com";

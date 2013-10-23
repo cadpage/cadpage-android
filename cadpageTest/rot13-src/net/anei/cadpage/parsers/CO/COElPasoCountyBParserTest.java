@@ -239,8 +239,9 @@ choyvp pynff PBRyCnfbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:GNG",
         "HAVG:R19,G19",
         "VQ:QJR1",
-        "NQQE:11195 UL-83 ENZCNEG ENATR PNZCHF",
-        "ZNQQE:11195 UJL 83 ENZCNEG ENATR PNZCHF",
+        "NQQE:11195 UL-83",
+        "ZNQQE:11195 UJL 83",
+        "CYNPR:ENZCNEG ENATR PNZCHF",
         "ZNC:X20",
         "GVZR:15:55:35",
         "PNYY:GENSSVP NPPVQRAG/GENCCRQ");

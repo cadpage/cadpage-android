@@ -127,7 +127,8 @@ choyvp pynff INArjXragPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:S2 FHFCVPVBHF FVGHNGVBA 8157 A URACRPX EQ T PSF# 2012-017902",
         "FEP:S2",
         "PNYY:FHFCVPVBHF FVGHNGVBA",
-        "NQQE:8157 A URACRPX EQ T",
+        "NQQE:8157 A URACRPX EQ",
+        "NCG:T",
         "VQ:2012-017902");
 
     qbGrfg("G12",

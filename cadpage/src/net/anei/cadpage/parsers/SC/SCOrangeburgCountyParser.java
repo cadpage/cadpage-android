@@ -64,6 +64,10 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
     }
     flds[0] = getLeft();
     
+    if (data.strAddress.endsWith(" IN")) {
+      data.strAddress = data.strAddress.substring(0,data.strAddress.length()-3).trim();
+    }
+    
     // Now process the rest of the split fields
     for (String fld : flds) {
       fld = fld.trim();

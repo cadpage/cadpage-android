@@ -183,25 +183,6 @@ PYNEX PBHAGL FUREVSSF BSSVPR PBZZHAVPNGVBAF PURPXVAT ENQVBF NAQ CNTREF SBE 1800 
 4726 FRPHEVGL QE / 82 ZNYR VA NAVZNY CRA / HANOYR GB ZBIR -1315 
 2150 ZBAGRTB QE ZBBERSVRYQ GJC ORGJRRA ZVQQYR HEONAN PBZZR AGF: 3EQ RAGENAPR ZRZBEL PNER,87 ZNYR FRIRE FGBZNPU CNVA -1864 
 4224 ARINQN EQ 20 LB Z BA N SNYY, FRVMHER -1814 
-
-** ABGRF **
-Nabgure ceboyrzngvp cnefre.  Fubhyq or rnfl rabhtu gb jevgr, ohg cnefvat erfhygf jvyy cebonoyl abg or nyy gung eryvnoyr :(
-
-Erzbir yrnqvat qnfu, naq genvyvat -aaaa frdhrapr.  Gur 4 qvtvg ahzore vf abg n gvzr, fnir va gur VQ svryq.
-Gura, hfr gur fzneg nqqerff cnefre gb rkgenpg na nqqerff sebzgur fgneg bs gur grkg, naq nffvta rirelguvat ryfr gb gur PNYY.
-Onfvpnyyl
-  cnefrNqqerff(FgnegGlcr.FGNEG_NQQE, obql, qngn)
-  qngn.fgePnyy  = trgYrsg()
-  
-jvyy qb vg.  Vs fgePnyy pbzrf onpx rzcgl, ghea guvf vagb n trareny nyreg.
-Be cbffvoyl snyy onpx gb ybbxvat sbe n / be - frcnengbe naq hfvat gung gb fcyvg gur nqqerff naq pnyy.
-
-Lbh pna nyfb rkcrevzrag jvgu cnffvat qvssrerag syntf gb gur fzneg cnefre
-SYNT_VTABER_NG vf cebonoyl n tbbq vqrn be 'NG' jbeqf va gur pnyy qrfpevcgvba jvyy zrff guvatf hc
-SYNT_AB_VZCYVRQ_NCG jvyy fhccerff ybtvp gung gerngf n ahzore sbyybjvat gur nqqerff nf na ncg.  Guvf urycf vf Cngvrag ntr vf orvat cvpxrq hc nf na ncg.
-SYNT_BCG_FGERRG_FSK jvyy npprcg fgerrg anzrf jvgubhg n erfreirq fgerrg fhssvk (FG, NIR, rgp)  Irel qnatrebhf, jura lbh hfr guvf, cerggl zhpu rirelguvat jvyy or npprcgrq.
-
-Nal gvzr lbh pnyy cnefrNqqerff() naq qrpvqr gung lbh qb abg yvxr gur erfhygf naq jnag gb fgneg bire, frg gur Nqqerff naq Ncg svryqf gb rzcgl fgevat.
   
 */
 
@@ -242,7 +223,7 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "130 OERAG J NCG N / 50 ZNYR SBBG CNVA -1315 ",
         "NQQE:130 OERAG J",
         "NCG:N",
-        "PNYY:50 ZNYR SBBG CNVA ",
+        "PNYY:50 ZNYR SBBG CNVA",
         "VQ:1315");
 
     qbGrfg("G6",
@@ -260,12 +241,14 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G8",
         "PYNEX PBHAGL FUREVSSF BSSVPR PBZZHAVPNGVBAF PURPXVAT ENQVBF NAQ CNTREF SBE 1800 UEF -1814 ",
-        "PNYY:(TRARENY NYREG) PYNEX PBHAGL FUREVSSF BSSVPR PBZZHAVPNGVBAF PURPXVAT ENQVBF NAQ CNTREF SBE 1800 UEF ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:PYNEX PBHAGL FUREVSSF BSSVPR PBZZHAVPNGVBAF PURPXVAT ENQVBF NAQ CNTREF SBE 1800 UEF",
         "VQ:1814");
 
     qbGrfg("G9",
         "[1252]-XEBTRE 2728 R ZNVA ARNE QRYV SRZNYR BA N SNYY -1252 ",
-        "PNYY:(TRARENY NYREG) XEBTRE 2728 R ZNVA ARNE QRYV SRZNYR BA N SNYY ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:XEBTRE 2728 R ZNVA ARNE QRYV SRZNYR BA N SNYY",
         "VQ:1252");
 
     qbGrfg("G10",
@@ -587,7 +570,7 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G60",
         "HIC NG 40 / ZP NPPVQRAG / FCQ ZRQVP BFP -1315 ",
         "NQQE:HIC NG 40",
-        "PNYY:ZP NPPVQRAG / FCQ ZRQVP BFP ",
+        "PNYY:ZP NPPVQRAG / FCQ ZRQVP BFP",
         "VQ:1315");
 
     qbGrfg("G61",
@@ -605,7 +588,8 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G63",
         "[2280]-funjarr uvtu fpubby 16 lbn s cnffrq bhg va pynffebbz -2280 ",
-        "PNYY:(TRARENY NYREG) funjarr uvtu fpubby 16 lbn s cnffrq bhg va pynffebbz ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:funjarr uvtu fpubby 16 lbn s cnffrq bhg va pynffebbz",
         "VQ:2280");
 
     qbGrfg("G64",
@@ -622,7 +606,8 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G66",
         "[1810]-PYNEX PBHAGL FUREVSS GRFGVAT CNTREF -1810 ",
-        "PNYY:(TRARENY NYREG) PYNEX PBHAGL FUREVSS GRFGVAT CNTREF ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:PYNEX PBHAGL FUREVSS GRFGVAT CNTREF",
         "VQ:1810");
 
     qbGrfg("G67",
@@ -652,7 +637,8 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G71",
         "zhghny nvqr ratvar arrqrq jvgu znq evire gjc gb byq zvyy naq jraqbire ersrerapr na ngi vawhel penfu -1626 ",
-        "PNYY:(TRARENY NYREG) zhghny nvqr ratvar arrqrq jvgu znq evire gjc gb byq zvyy naq jraqbire ersrerapr na ngi vawhel penfu ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:zhghny nvqr ratvar arrqrq jvgu znq evire gjc gb byq zvyy naq jraqbire ersrerapr na ngi vawhel penfu",
         "VQ:1626");
 
     qbGrfg("G72",
@@ -694,7 +680,8 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G78",
         "[1093]-PPFB purpxvat cntref ng 1800 ubhef -1093 ",
-        "PNYY:(TRARENY NYREG) PPFB purpxvat cntref ng 1800 ubhef ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:PPFB purpxvat cntref ng 1800 ubhef",
         "VQ:1093");
 
     qbGrfg("G79",
@@ -795,7 +782,8 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G11",
         "PYNEX PBHAGL FUREVSSF BSSVPR PBZZHAVPNGVBAF PURPXVAT ENQVBF NAQ CNTREF SBE 1800 UEF -1814 ",
-        "PNYY:(TRARENY NYREG) PYNEX PBHAGL FUREVSSF BSSVPR PBZZHAVPNGVBAF PURPXVAT ENQVBF NAQ CNTREF SBE 1800 UEF ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:PYNEX PBHAGL FUREVSSF BSSVPR PBZZHAVPNGVBAF PURPXVAT ENQVBF NAQ CNTREF SBE 1800 UEF",
         "VQ:1814");
 
     qbGrfg("G12",
@@ -806,7 +794,8 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G13",
         "[1252]-PX SBE NA BCRA ZVP JR NER PBCLVAT N BCRA ZVP VA QVFC NGPU YBPXVAT HC GUR PUNAARY1250 -1252 ",
-        "PNYY:(TRARENY NYREG) PX SBE NA BCRA ZVP JR NER PBCLVAT N BCRA ZVP VA QVFC NGPU YBPXVAT HC GUR PUNAARY1250 ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:PX SBE NA BCRA ZVP JR NER PBCLVAT N BCRA ZVP VA QVFC NGPU YBPXVAT HC GUR PUNAARY1250",
         "VQ:1252");
 
     qbGrfg("G14",
@@ -920,7 +909,8 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G32",
         "[1810]-PYNEX PBHAGL PBZZHAVPNGVBAF GRFGVAT CNTREF -1810 ",
-        "PNYY:(TRARENY NYREG) PYNEX PBHAGL PBZZHAVPNGVBAF GRFGVAT CNTREF ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:PYNEX PBHAGL PBZZHAVPNGVBAF GRFGVAT CNTREF",
         "VQ:1810");
 
     qbGrfg("G33",
@@ -943,7 +933,8 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G36",
         "[1864]-havgf arrq gb erfcbaq n havag ers ynaqvat mbar sbe pn ersyvtug ng 4655 heonan eq -1864 ",
-        "PNYY:(TRARENY NYREG) havgf arrq gb erfcbaq n havag ers ynaqvat mbar sbe pn ersyvtug ng 4655 heonan eq ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:havgf arrq gb erfcbaq n havag ers ynaqvat mbar sbe pn ersyvtug ng 4655 heonan eq",
         "VQ:1864");
 
     qbGrfg("G37",
@@ -1045,12 +1036,14 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G52",
         "[1810]-PYNEX PBHAGL FUREVSS GRFGVAT CNTREF -1810 ",
-        "PNYY:(TRARENY NYREG) PYNEX PBHAGL FUREVSS GRFGVAT CNTREF ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:PYNEX PBHAGL FUREVSS GRFGVAT CNTREF",
         "VQ:1810");
 
     qbGrfg("G53",
         "[1810]-YRTNPL BS SBERFG TYRAA 2165 ZBAGRTB QERYQREYL SRZNY R YBJ O/C JVGU VYYARFF -1810 ",
-        "PNYY:(TRARENY NYREG) YRTNPL BS SBERFG TYRAA 2165 ZBAGRTB QERYQREYL SRZNY R YBJ O/C JVGU VYYARFF ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:YRTNPL BS SBERFG TYRAA 2165 ZBAGRTB QERYQREYL SRZNY R YBJ O/C JVGU VYYARFF",
         "VQ:1810");
 
     qbGrfg("G54",
@@ -1081,7 +1074,7 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "1339 JRFGZBAG NCG 7O SBE N 94 LBN SRZNYR FUBEG BS OERNGU NAQ YBJ OYBBQ CERFFHER -1626 ",
         "NQQE:1339 JRFGZBAG",
         "NCG:7O",
-        "PNYY:SBE N 94 LBN SRZNYR FUBEG BS OERNGU NAQ YBJ OYBBQ CERFFHER ",
+        "PNYY:SBE N 94 LBN SRZNYR FUBEG BS OERNGU NAQ YBJ OYBBQ CERFFHER",
         "VQ:1626");
 
     qbGrfg("G59",
@@ -1099,12 +1092,13 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G61",
         "[1826]-1429 ZBBERSVRYQ / ZNYR CNFFRQ BHG VA JUVGR FHI VA GUR CNEXVAT YBG -1826 ",
         "NQQE:1429 ZBBERSVRYQ",
-        "PNYY:ZNYR CNFFRQ BHG VA JUVGR FHI VA GUR CNEXVAT YBG ",
+        "PNYY:ZNYR CNFFRQ BHG VA JUVGR FHI VA GUR CNEXVAT YBG",
         "VQ:1826");
 
     qbGrfg("G62",
         "[1093]-PPFB purpxvat cntref ng 1800 ubhef -1093 ",
-        "PNYY:(TRARENY NYREG) PPFB purpxvat cntref ng 1800 ubhef ",
+        "PNYY:TRARENY NYREG",
+        "CYNPR:PPFB purpxvat cntref ng 1800 ubhef",
         "VQ:1093");
 
     qbGrfg("G63",

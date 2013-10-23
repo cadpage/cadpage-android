@@ -140,7 +140,8 @@ choyvp pynff INPnzcoryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FD01",
         "PNYY:PURFG CNVA (AB PNEQVNP UVFGBEL",
         "PVGL:NYGNIVFGN",
-        "NQQE:1280 ZNVA FG N",
+        "NQQE:1280 ZNVA FG",
+        "NCG:N",
         "VQ:2012-018645");
   }
   

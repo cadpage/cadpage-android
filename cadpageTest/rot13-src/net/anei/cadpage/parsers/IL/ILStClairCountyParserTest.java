@@ -1374,6 +1374,7 @@ choyvp pynff VYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:SVER",
         "NQQE:238 SERRQBZ QE",
+        "NCG:O",
         "PVGL:ORYYRIVYYR",
         "QNGR:07/13/2013",
         "GVZR:21:02:59",

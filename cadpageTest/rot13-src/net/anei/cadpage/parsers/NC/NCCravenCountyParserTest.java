@@ -330,7 +330,8 @@ choyvp pynff APPeniraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "(PP911) Ybpngvba: 3907 BYQ PUREEL CBVAG EQ 1 Arj Orea Pvgvmra Nffvfg Pnyy Gvzr: 07/20/13 16:40 Aneengvir:  PNYYRE NQI GUNG FUR QBRFAG GUVAX GUNG FUR VF VAWHERQ  HANOYR GB TRG HC  UNF SNYYRA  53 LBS  R911 Vasb - Pynff bs Freivpr: ERFQ  35.0438854930001 -77.002648235",
-        "NQQE:3907 BYQ PUREEL CBVAG EQ 1",
+        "NQQE:3907 BYQ PUREEL CBVAG EQ",
+        "NCG:1",
         "PVGL:Arj Orea",
         "PNYY:Pvgvmra Nffvfg",
         "QNGR:07/20/13",
@@ -656,8 +657,9 @@ choyvp pynff APPeniraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G37",
         "(PP911) Ybpngvba: 1604 HF 70 UJL R 1 Arj Orea Zrqvpny Pnyy Gvzr: 06/28/13 11:50 Aneengvir:  60 l/b z  sryy va gur sebag lneq naq uvf uvc uvf uhegvat erny onq  R911 Vasb - Pynff bs Freivpr: JEYF  35.073692039 -77.026358143",
-        "NQQE:1604 HF 70 UJL R 1",
-        "ZNQQE:1604 HF 70 R 1",
+        "NQQE:1604 HF 70 UJL R",
+        "ZNQQE:1604 HF 70 R",
+        "NCG:1",
         "PVGL:Arj Orea",
         "PNYY:Zrqvpny",
         "QNGR:06/28/13",
@@ -948,7 +950,8 @@ choyvp pynff APPeniraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G66",
         "(PP911) Ybpngvba: 3919 BYQ PUREEL CBVAG EQ N Arj Orea Sver Fgehpgher Pnyy Gvzr: 06/14/13 19:37 Aneengvir:  oheare ba fgbir jnf ba sver..abj bhg  R911 Vasb - Pynff bs Freivpr: ERFQ  35.0422642837816 -77.0012206940276",
-        "NQQE:3919 BYQ PUREEL CBVAG EQ N",
+        "NQQE:3919 BYQ PUREEL CBVAG EQ",
+        "NCG:N",
         "PVGL:Arj Orea",
         "PNYY:Sver Fgehpgher",
         "QNGR:06/14/13",
@@ -968,7 +971,9 @@ choyvp pynff APPeniraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G68",
         "(PP911) Ybpngvba: 417 ZZ UJL o Arj Orea Iru Penfu-Cebcregl Pnyy Gvzr: 06/14/13 11:23 Aneengvir:  haxabja vawhevrf  iru va ebnqjnl  gjb pne zip  R911 Vasb - Pynff bs Freivpr: JCU2 ",
-        "NQQE:417 ZZ UJL o",
+        "NQQE:417 ZZ UJL",
+        "ZNQQE:417 UJL ZZ",
+        "NCG:o",
         "PVGL:Arj Orea",
         "PNYY:Iru Penfu-Cebcregl",
         "QNGR:06/14/13",

@@ -18,7 +18,7 @@ public class DispatchCiscoParser extends FieldProgramParser {
   public DispatchCiscoParser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState, PROGRAM_STR);
   }
-  private static final String PROGRAM_STR = "Ct:CALL! Loc:ADDR/S! Apt:APT XSt:X? Grid:MAP Units:UNIT Rmk:INFO";
+  private static final String PROGRAM_STR = "Ct:CALL! Loc:ADDR/S6! Apt:APT XSt:X? Grid:MAP Units:UNIT Rmk:INFO";
 
   
   @Override

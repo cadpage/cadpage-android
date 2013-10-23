@@ -12,7 +12,7 @@ public class NCCravenCountyParser extends FieldProgramParser {
   
   public NCCravenCountyParser() {
     super(CITY_LIST, "CRAVEN COUNTY", "NC", 
-          "Location:ADDR/SXC! Call_Time:DATETIME! Narrative:INFO!");
+          "Location:ADDR/S6XC! Call_Time:DATETIME! Narrative:INFO!");
   }
   
   @Override

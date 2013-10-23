@@ -15,6 +15,7 @@ public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
   public NCBrunswickCountyParser() {
     super(CITY_LIST, "BRUNSWICK COUNTY", "NC", 
           DSFLAG_OPT_DISPATCH_ID | DSFLAG_LEAD_PLACE | DSFLAG_NO_NAME_PHONE);
+    setupMultiWordStreets("GEORGE II");
   }
   
   @Override
@@ -46,6 +47,51 @@ public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
     return "SRC " + super.getProgram();
   }
   
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_AT_PLACE;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = fixParenField(field, true);
+      super.parse(field, data);
+      data.strPlace = fixParenField(data.strPlace, false);
+      data.strAddress = fixParenField(data.strAddress, false);
+      String apt = fixParenField(data.strApt, false);
+      if (apt.startsWith("(")) {
+        data.strAddress = append(data.strAddress, " ", apt);
+        data.strApt = "";
+      }
+    }
+  }
+  
+  private static String fixParenField(String field, boolean encode) {
+    Matcher match = (encode ? PAREN_FLD1 : PAREN_FLD2).matcher(field);
+    if (!match.find()) return field;
+    StringBuffer sb = new StringBuffer();
+    do {
+      String term = match.group();
+      if (encode) {
+        term = term.replace("(", "_<_").replace(")", "_>_").replace(' ', '_');
+      } else {
+        term = term.replace("_<_", "(").replace("_>_", ")").replace('_', ' ');
+      }
+      match.appendReplacement(sb, term);
+    } while (match.find());
+    match.appendTail(sb);
+    return sb.toString();
+  }
+  private static final Pattern PAREN_FLD1 = Pattern.compile("(\\([^\\(\\)]*\\))");
+  private static final Pattern PAREN_FLD2 = Pattern.compile("(_<_[^<>]*_>_)");
+
   private static final String[] CITY_LIST = new String[]{
     "LOCKWOODS FOLLY",
     "NORTHWEST",

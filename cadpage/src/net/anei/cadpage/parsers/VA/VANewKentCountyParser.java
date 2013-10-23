@@ -23,6 +23,7 @@ public class VANewKentCountyParser extends DispatchDAPROParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     if (!super.parseMsg(body, data)) return false;
+    if (data.strApt.equals("0")) data.strApt = "";
     if (data.strAddress.endsWith(" 0")) {
       data.strAddress = data.strAddress.substring(0,data.strAddress.length()-2).trim();
     }
@@ -33,6 +34,17 @@ public class VANewKentCountyParser extends DispatchDAPROParser {
     return true;
   }
   private static final Pattern LEAD_ZEROS_PTN = Pattern.compile("^0+ +");
+  
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_RECHECK_APT;
+  }
+  
+  @Override
+  protected boolean isNotExtraApt(String apt) {
+    if (apt.equals("0")) return true;
+    return super.isNotExtraApt(apt);
+  }
   
   private static final CodeSet CALL_SET = new CodeSet(
       "BREATHING DIFFICULTY",

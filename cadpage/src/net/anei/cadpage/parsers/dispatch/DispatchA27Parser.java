@@ -16,8 +16,12 @@ public class DispatchA27Parser extends FieldProgramParser {
   private static final Pattern DELIM_PTN = Pattern.compile("\n{2}");
   
   public DispatchA27Parser(String defCity, String defState) {
-    super(defCity, defState,
-           "ADDRCITY/SC DUP? SRC! Time_reported:DATETIME! Unit(s)_responded:UNIT+");
+    this(null, defCity, defState);
+  }
+  
+  public DispatchA27Parser(String[] cityList, String defCity, String defState) {
+    super(cityList, defCity, defState,
+          "ADDRCITY/SC DUP? SRC! Time_reported:DATETIME! Unit(s)_responded:UNIT+");
   }
   
   @Override 
@@ -59,7 +63,7 @@ public class DispatchA27Parser extends FieldProgramParser {
     
   }
   
-  private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*, .*), \\d{5}");
+  private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*, .*),(?: \\d{5})?");
   protected class BaseAddressField extends AddressCityField {
     
     @Override 

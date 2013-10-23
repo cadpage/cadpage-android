@@ -47,7 +47,7 @@ choyvp pynff APZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "F: Z:GRERFN:1 ZNABE EQ ZNEF UVYY 2011046591 14:24:27 GRFG grfg cntr",
-        "NQQE:1 ZNABE EQ",
+        "NQQE:ZNABE EQ",
         "PVGL:ZNEF UVYY",
         "VQ:2011046591",
         "GVZR:14:24:27",

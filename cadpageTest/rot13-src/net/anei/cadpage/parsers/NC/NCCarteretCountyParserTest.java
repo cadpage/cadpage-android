@@ -344,7 +344,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G12",
         "PRP:11-082100 08:48:00 FVPX CREFBA JRFG JBBQ FDHNER NCGF 403 OEBBX FG R32 ZBERURNQ PVGL",
-        "NQQE:403 OEBBX FG R32",
+        "NQQE:403 OEBBX FG",
+        "NCG:R32",
         "PVGL:ZBERURNQ PVGL",
         "VQ:11-082100",
         "GVZR:08:48:00",
@@ -352,8 +353,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G13",
         "PRP:11-082157 11:29:34 ZIP CV BE EBYYBIRE JVYPB URFF ZUP 4GU FG 400 NERAQRYY FG ZBERURNQ PVGL",
-        "NQQE:FG 400 NERAQRYY FG",
-        "ZNQQE:FGNGR 400 NERAQRYY FG",
+        "NQQE:FG 400 & NERAQRYY FG",
+        "ZNQQE:FGNGR 400 & NERAQRYY FG",
         "PVGL:ZBERURNQ PVGL",
         "VQ:11-082157",
         "GVZR:11:29:34",
@@ -370,7 +371,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G15",
         "PRP:114 PYHO PBYBAL QE o NGYNAGVP ORNPU SQY 52O01-T 11-084908 18:06:28 NYNEZ SVER",
-        "NQQE:114 PYHO PBYBAL QE o",
+        "NQQE:114 PYHO PBYBAL QE",
+        "NCG:o",
         "PVGL:NGYNAGVP ORNPU",
         "PBQR:52O01-T",
         "VQ:11-084908",
@@ -669,7 +671,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G6",
         "F:3204 OEVQTRF FG 21 ZBERURNQ PVGL 12-136677 15 Z:PRP:02:38 BIREQBFR - CBVFBAVAT BPN: 24-12-2488 ",
-        "NQQE:3204 OEVQTRF FG 21",
+        "NQQE:3204 OEVQTRF FG",
+        "NCG:21",
         "PVGL:ZBERURNQ PVGL",
         "VQ:12-136677",
         "GVZR:15:02:38",
@@ -701,7 +704,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G10",
         "Fhowrpg:812 FURCNEQ FG 220 ZBERURNQ PVGL, ZQY, S\aPRP:01:59, SNYY BPN: 24-13-0021\a",
-        "NQQE:812 FURCNEQ FG 220",
+        "NQQE:812 FURCNEQ FG",
+        "NCG:220",
         "PVGL:ZBERURNQ PVGL",
         "VQ:24-13-0021",
         "PNYY:SNYY");
@@ -752,7 +756,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G3",
         "(194 ISJ EQ 13 PNCR PNEGRERG SQY 69Q06-B 12-136098 22) PRP:11:34 FGEHPGHER SVER\e\a",
-        "NQQE:194 ISJ EQ 13",
+        "NQQE:194 ISJ EQ",
+        "NCG:13",
         "PVGL:PNCR PNEGRERG",
         "PBQR:69Q06-B",
         "VQ:12-136098",
@@ -770,7 +775,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "(400 JRGUREVATGBA YNAQVAT EQ N24 FGRYYN 12-136005 17) PRP:49:31 GENHZNGVP VAWHEVRF BPN: 12-12-0981\e\a",
-        "NQQE:400 JRGUREVATGBA YNAQVAT EQ N24",
+        "NQQE:400 JRGUREVATGBA YNAQVAT EQ",
+        "NCG:N24",
         "PVGL:FGRYYN",
         "VQ:12-136005",
         "GVZR:17:49:31",
@@ -882,7 +888,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G8",
         "(8104 RZRENYQ QE 17 RZRENYQ VFYR 12-147178 12) PRP:37:06 FVPX CREFBA",
-        "NQQE:8104 RZRENYQ QE 17",
+        "NQQE:8104 RZRENYQ QE",
+        "NCG:17",
         "PVGL:RZRENYQ VFYR",
         "VQ:12-147178",
         "GVZR:12:37:06",
@@ -963,7 +970,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G7",
         "(400 JRGUREVATGBA YNAQVAT EQ N24 FGRYYN ZQY 17N01-T 12-136005 17) PRP:50:57 SNYYF BPN: 67-12-0688",
-        "NQQE:400 JRGUREVATGBA YNAQVAT EQ N24",
+        "NQQE:400 JRGUREVATGBA YNAQVAT EQ",
+        "NCG:N24",
         "PVGL:FGRYYN",
         "PBQR:17N01-T",
         "VQ:12-136005",
@@ -988,7 +996,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G10",
         "(9100 ERRQ QE 4303 RZRENYQ VFYR 12-135323 08) PRP:57:28 ERD SBE FREI - RZF BPN: 67-12-0685",
-        "NQQE:9100 ERRQ QE 4303",
+        "NQQE:9100 ERRQ QE",
+        "NCG:4303",
         "PVGL:RZRENYQ VFYR",
         "VQ:12-135323",
         "GVZR:08:57:28",
@@ -1063,7 +1072,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G19",
         "(100 RNFGIVRJ QE r20 RZRENYQ VFYR, ZQY, SQY, YQY, 12-162564, 07) PRP:32:45, URZBEEUNTR - YNPRENGVBAF BPN: 67-12-0771",
-        "NQQE:100 RNFGIVRJ QE r20",
+        "NQQE:100 RNFGIVRJ QE",
+        "NCG:r20",
         "PVGL:RZRENYQ VFYR",
         "VQ:12-162564",
         "GVZR:07:32:45",
@@ -1071,7 +1081,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G20",
         "(8632 FBHAQ QE O1 RZRENYQ VFYR, ZQY 17O01-T, SQY, YQY, 12-162213, 10) PRP:02:19, SNYY BPN: 67-12-0770",
-        "NQQE:8632 FBHAQ QE O1",
+        "NQQE:8632 FBHAQ QE",
+        "NCG:O1",
         "PVGL:RZRENYQ VFYR",
         "PBQR:17O01-T",
         "VQ:12-162213",
@@ -1085,7 +1096,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(537 IVYYNTR TERRA QE N ZBERURNQ PVGL, ZQY 06P01, 12-150852, 14) PRP:40:32, OERNGUVAT CEBOYRZF BPN: 24-12-2780",
-        "NQQE:537 IVYYNTR TERRA QE N",
+        "NQQE:537 IVYYNTR TERRA QE",
+        "NCG:N",
         "PVGL:ZBERURNQ PVGL",
         "PBQR:06P01",
         "VQ:12-150852",
@@ -1197,7 +1209,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "(501 OEVQTRF FG N ZBERURNQ PVGL, ZQY, SQY, YQY, 13-013933, 01) PRP:17:54, FVPX CREFBA BPN: 34-13-0050\e",
-        "NQQE:501 OEVQTRF FG N",
+        "NQQE:501 OEVQTRF FG",
+        "NCG:N",
         "PVGL:ZBERURNQ PVGL",
         "VQ:13-013933",
         "GVZR:01:17:54",
@@ -1285,7 +1298,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "(415 J SBEG ZNPBA EQ 13 NGYNAGVP ORNPU, ZQY, SQY, YQY, 13-044423, 10) PRP:19:19, NYNEZ SVER",
-        "NQQE:415 J SBEG ZNPBA EQ 13",
+        "NQQE:415 J SBEG ZNPBA EQ",
+        "NCG:13",
         "PVGL:NGYNAGVP ORNPU",
         "VQ:13-044423",
         "GVZR:10:19:19",
@@ -1394,7 +1408,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G17",
         "(2008 R SBEG ZNPBA EQ q5 NGYNAGVP ORNPU, ZQY, SQY 69Q01, YQY, 13-040666, 00) PRP:40:16, FGEHPGHER SVER",
-        "NQQE:2008 R SBEG ZNPBA EQ q5",
+        "NQQE:2008 R SBEG ZNPBA EQ",
+        "NCG:q5",
         "PVGL:NGYNAGVP ORNPU",
         "PBQR:69Q01",
         "VQ:13-040666",
@@ -1428,7 +1443,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G21",
         "(121 ZBOVYR QE Q NGYNAGVP ORNPU, ZQY, SQY 69Q10, YQY, 13-035412, 15) PRP:03:08, FGEHPGHER SVER",
-        "NQQE:121 ZBOVYR QE Q",
+        "NQQE:121 ZBOVYR QE",
+        "NCG:Q",
         "PVGL:NGYNAGVP ORNPU",
         "PBQR:69Q10",
         "VQ:13-035412",
@@ -1437,7 +1453,7 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G22",
         "(1 EBBFRIRYG OYIQ CVAR XABYY FUBERF, ZQY, SQY, YQY, 13-035398, 14) PRP:35:43, HAPBAFPVBHF - SNVAGVAT BPN: 64-13-0067",
-        "NQQE:1 EBBFRIRYG OYIQ",
+        "NQQE:EBBFRIRYG OYIQ",
         "PVGL:CVAR XABYY FUBERF",
         "VQ:13-035398",
         "GVZR:14:35:43",

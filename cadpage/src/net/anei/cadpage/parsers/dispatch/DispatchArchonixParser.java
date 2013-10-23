@@ -23,7 +23,7 @@ public class DispatchArchonixParser extends FieldProgramParser {
   
   public DispatchArchonixParser(Properties cityCodes, String defCity, String defState) {
     super(defCity, defState,
-           "CALL ADDRCITY/SaXP! #:APT X:X! BOX:BOX? ZN:MAP? CP:PLACE UNIT MI:ID RES:UNIT");
+           "CALL ADDRCITY/aSXP! #:APT X:X! BOX:BOX? ZN:MAP? CP:PLACE UNIT MI:ID RES:UNIT");
     this.cityCodes = cityCodes;
   }
   
@@ -77,6 +77,7 @@ public class DispatchArchonixParser extends FieldProgramParser {
       data.strCity = convertCodes(field.substring(pt+1).trim(), cityCodes);
       field = field.substring(0,pt).trim();
       super.parse(field, data);
+      if (data.strPlace.startsWith("/")) data.strPlace = data.strPlace.substring(1).trim();
       data.strPlace = append(data.strPlace, " - ", place);
     }
     

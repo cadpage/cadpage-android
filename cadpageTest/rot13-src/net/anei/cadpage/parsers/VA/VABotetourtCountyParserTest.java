@@ -87,7 +87,8 @@ choyvp pynff INObgrgbhegPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FZ:1 EBNABXR EQ/PNGNJON EQ 12002013 20:11:16 PNEQVNP JNAG GB ZRRG NG CNCN WBUAF UNIVAT PURFG CNVAF QVSS OERNGUVAT 70 LBZ UNF SYHVQ BA PURFG/JVYY OR VA N\a\a\a" +
         "Gur vas",
 
-        "NQQE:1 EBNABXR EQ",
+        "NQQE:EBNABXR EQ",
+        "ZNQQE:EBNABXR EQ & PNGNJON EQ",
         "K:PNGNJON EQ",
         "VQ:12002013",
         "GVZR:20:11:16",

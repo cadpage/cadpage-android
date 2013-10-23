@@ -19,8 +19,7 @@ public class NCHaywoodCountyParser extends DispatchSouthernParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("CAD:")) return false;
-    body = body.substring(4).trim();
+    if (body.startsWith("CAD:")) body = body.substring(4).trim();
     return super.parseMsg(body, data);
   }
   

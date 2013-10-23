@@ -14,16 +14,16 @@ public class OHClarkCountyBParser extends SmartAddressParser {
   
   public OHClarkCountyBParser() {
     super("CLARK COUNTY", "OH");
+    setFieldList("PLACE ADDR APT CALL ID");
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {    
-    setFieldList("PLACE ADDR APT CALL ID");
         
     //remove leading dash and trailing -nnnn
     Matcher mat = MASTER.matcher(body);
     if (mat.matches()) {
-      body = mat.group(1);
+      body = mat.group(1).trim();
       data.strCallId = mat.group(2);
     }
     
@@ -59,7 +59,8 @@ public class OHClarkCountyBParser extends SmartAddressParser {
     //if call is still empty, make it a general report
     if(data.strCall.equals("")) {
       data.strAddress = data.strApt = data.strPlace = "";
-      data.strCall = "(GENERAL ALERT) " + body;
+      data.strCall = "GENERAL ALERT";
+      data.strPlace = body;
     } else {
       //remove leading " / " or " - " from call (which only occurs as a result of parseaddress, so luckily it only needs to be here.)
       Matcher callMat = CALL_CLEANER.matcher(data.strCall);

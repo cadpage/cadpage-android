@@ -58,7 +58,7 @@ choyvp pynff APGenaflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G3",
         "911PRAGRE:1 JUVGZVER FG OERINEQ PVGL 2011-019863 13:34:30 FGEHPGHER SVER BHGOHVYQVAT BA SVER",
-        "NQQE:1 JUVGZVER FG",
+        "NQQE:JUVGZVER FG",
         "PVGL:OERINEQ PVGL",
         "VQ:2011-019863",
         "GVZR:13:34:30",
@@ -66,7 +66,7 @@ choyvp pynff APGenaflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "911PRAGRE:1 A OEBNQ FG OERINEQ PVGL 2011-019978 10:22:32 UNMNEQBHF ZNGREVNY VAPVQRAG TERRA ENATR EBIRE YRNXVAT TNF NG CHZC #7",
-        "NQQE:1 A OEBNQ FG",
+        "NQQE:A OEBNQ FG",
         "PVGL:OERINEQ PVGL",
         "VQ:2011-019978",
         "GVZR:10:22:32",
@@ -82,7 +82,7 @@ choyvp pynff APGenaflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G6",
         "911PRAGRE:1 VFYNAQ PBIR EQ YVGGYR EVIRE 2011-020447 21:09:42 FGEHPGHER SVER OYNPX FZBXR BA VFYNAQ PBIR EQ",
-        "NQQE:1 VFYNAQ PBIR EQ",
+        "NQQE:VFYNAQ PBIR EQ",
         "PVGL:YVGGYR EVIRE",
         "VQ:2011-020447",
         "GVZR:21:09:42",
@@ -120,7 +120,7 @@ choyvp pynff APGenaflyinavnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "1 PBAARFGRR EQ PBAARFGRR 2011-027031 14:04:11 URNQ VAWHEL ERS 9 LB UNQ OVPLPYR NPPVQRAG VA SEBAG BS GUR PUHEPU, CBFFVOYR URNQ NAQ NEZ VAWHEL",
-        "NQQE:1 PBAARFGRR EQ",
+        "NQQE:PBAARFGRR EQ",
         "CYNPR:PBAARFGRR",
         "VQ:2011-027031",
         "GVZR:14:04:11",

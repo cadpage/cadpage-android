@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.MN;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 
 /**
@@ -9,11 +10,54 @@ import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 public class MNWadenaCountyParser extends DispatchA27Parser {
   
   public MNWadenaCountyParser() {
-    super("WADENA COUNTY", "MN");
+    super(CITY_LIST, "WADENA COUNTY", "MN");
   }
   
   @Override
   public String getFilter() {
     return "dispatch@co.wadena.mn.us";
   }
+
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (!super.parseMsg(subject, body, data)) return false;
+    if (data.strCity.equalsIgnoreCase("County")) data.strCity = "";
+    return true;
+  }
+  
+  private static final String[] CITY_LIST = new String[]{
+
+    // City    
+    "ALDRICH",
+    "MENAHGA",
+    "NIMROD",
+    "SEBEKA",
+    "STAPLES",
+    "VERNDALE",
+    "WADENA",
+
+    // Townshipse    
+    "ALDRICH TWP",
+    "BLUEBERRY TWP",
+    "BULLARD TWP",
+    "HUNTERSVILLE TWP",
+    "LEAF RIVER TWP",
+    "LYONS TWP",
+    "MEADOW TWP",
+    "NORTH GERMANY TWP",
+    "ORTON TWP",
+    "RED EYE TWP",
+    "ROCKWOOD TWP",
+    "SHELL RIVER TWP",
+    "THOMASTOWN TWP",
+    "WADENA TWP",
+    "WING RIVER TWP",
+
+    // Unincorporated    
+    "BLUEGRASS",
+    "HUNTERSVILLE",
+    "LEAF RIVER",
+    "SHELL CITY"
+  };
+  
 }

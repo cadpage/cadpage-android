@@ -262,7 +262,8 @@ choyvp pynff INFzlguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G23",
         "GSELR:1 IVRJ QE 60R ZNEVBA 408541 11:57:12 FVP - FVPX 43 LBS ARRQF GB TB GB UBFCVGNY, SRRG NER FJBYYRA ONQYL NAQ HANOYR GB ZBIR YRSG NEZ",
-        "NQQE:1 IVRJ QE 60R", // vf guvf F Ivrj Qe? ncg 60R?
+        "NQQE:IVRJ QE",
+        "NCG:60R", // vf guvf F Ivrj Qe? ncg 60R?
         "PVGL:ZNEVBA",
         "VQ:408541",
         "GVZR:11:57:12",
@@ -278,7 +279,7 @@ choyvp pynff INFzlguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G25",
         "NHQERL:1 JUVGRGBC EQ ZNEVBA 408375 14:26:00 NP - GENSSVP NPPVQRAG VAGREFRPGVBA JVGU GUR NVECBEG EQ WHFG CNFG GUR PNHGVBA YVTUG, 2 IRU,CBFF VAWHEVRF,",
-        "NQQE:1 JUVGRGBC EQ", // pnaabg svaq juvgrgbc eq va Znevba
+        "NQQE:JUVGRGBC EQ", // pnaabg svaq juvgrgbc eq va Znevba
         "PVGL:ZNEVBA",
         "VQ:408375",
         "GVZR:14:26:00",
@@ -294,7 +295,8 @@ choyvp pynff INFzlguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G27",
         "TTERRNE:262 IVRJ QE Q53 ZNEVBA 408260 11:33:28 FVP - FVPX 46 LBZ GUEBJVAT HC OYBBQ",
-        "NQQE:262 IVRJ QE Q53", // ncg Q53?
+        "NQQE:262 IVRJ QE",
+        "NCG:Q53",
         "PVGL:ZNEVBA",
         "VQ:408260",
         "GVZR:11:33:28",
@@ -318,7 +320,7 @@ choyvp pynff INFzlguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G30",
         "GTERRE:1 3850 A VAGREFGNGR 81 PUVYUBJVR 408240 03:43:23 NP - GENSSVP NPPVQRAG PNYYRE NQIVFRQ N 1 IRU ZIN VA GUR ZRQVNA",
-        "NQQE:1 3850 A VAGREFGNGR 81",
+        "NQQE:3850 A VAGREFGNGR 81",
         "PVGL:PUVYUBJVR",
         "VQ:408240",
         "GVZR:03:43:23",
@@ -428,7 +430,8 @@ choyvp pynff INFzlguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G12",
         "940 RNFG YRR UJL 1FG PUVYUBJVR 410910 13:56:22 HAE - HAERFCBAFVIR 93 LBZ HAERFCBAF NAQ YNLVAT VA GUR SYBBE-",
-        "NQQE:940 RNFG YRR UJL 1FG",
+        "NQQE:940 RNFG YRR UJL",
+        "NCG:1FG",
         "PVGL:PUVYUBJVR",
         "VQ:410910",
         "GVZR:13:56:22",

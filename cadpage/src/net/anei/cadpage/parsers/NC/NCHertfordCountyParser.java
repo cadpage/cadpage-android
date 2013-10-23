@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
 public class NCHertfordCountyParser extends DispatchSouthernPlusParser {
   
   public NCHertfordCountyParser() {
-    super(CITY_LIST, "HERTFORD COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_LEAD_PLACE);
+    super(CITY_LIST, "HERTFORD COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_LEAD_PLACE | DSFLAG_NO_IMPLIED_APT);
   }
   
   @Override

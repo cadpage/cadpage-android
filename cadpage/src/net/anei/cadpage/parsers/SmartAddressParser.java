@@ -144,6 +144,12 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_FALLBACK_ADDR = 0x80000;
   
+  /**
+   * Flag indicating that extra effort should be expended to identify
+   * implied apt fields at the end of the address field
+   */
+  public static final int FLAG_RECHECK_APT = 0x100000;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -338,7 +344,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     setupDictionary(ID_ROAD_QUALIFIER, "OLD");
         
-    setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "ROUTE", "HW", "HWY", "HIGHWAY", "ROAD", "RD");
+    setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "ROUTE", "HW", "HY", "HWY", "HIGHWAY", "ROAD", "RD");
     setupDictionary(ID_ROUTE_PFX_PFX, "STATE", "ST", "SR", "SRT", "US", "FS", "INTERSTATE", "I", "STHWY", "STHY", "SH", "USHWY", "USHY", "CO", "CR", "CORD", "COUNTY", "CTY", "FM");
     setupDictionary(ID_ROUTE_PFX_PFX, new String[]{defState});
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB", "EXT", 
@@ -605,6 +611,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     result.fallbackAddr = isFlagSet(FLAG_FALLBACK_ADDR);
     result.startFldNoDelim = isFlagSet(FLAG_START_FLD_NO_DELIM);
+    result.recheckApt = isFlagSet(FLAG_RECHECK_APT);
     
     // Now is where we use the result to compute the true prefix and leftover segments
     result.stdPrefix = "";
@@ -2025,7 +2032,7 @@ public abstract class SmartAddressParser extends MsgParser {
       mask = ID_INCL_AT_MARKER;
     }
     
-    // If token ends with a numeric comparision character, set the relation flag
+    // If token ends with a numeric comparison character, set the relation flag
     char chr = token.charAt(token.length()-1);
     if ("=><".indexOf(chr) >= 0) mask |= ID_RELATION;
     
@@ -2408,6 +2415,7 @@ public abstract class SmartAddressParser extends MsgParser {
     private boolean mBlankLeft = false;
     boolean fallbackAddr = false;
     boolean startFldNoDelim = false;
+    boolean recheckApt = false;
     
     public void reset() {
       if (startAddress < 0) startField.end(-1);
@@ -2546,6 +2554,30 @@ public abstract class SmartAddressParser extends MsgParser {
         }
         if (nearPlace) data.strPlace = append(data.strPlace, " ", field); 
       }
+
+      // See if we should check for non-numerice apartment fields following the address
+      if (recheckApt && data.strApt.length() == 0) {
+        String addr = data.strAddress;
+        String cross = data.strCross;
+        data.strAddress = "";
+        
+        Result result = parseAddress(StartType.START_ADDR, FLAG_NO_CITY, addr);
+        result.getData(data);
+        String apt1 = result.getLeft();
+        String apt2 = append(data.strApt, " ", apt1);
+        if (apt2.length() == 0 || isNotExtraApt(apt1)) {
+          data.strAddress = addr;
+          data.strCross = cross;
+          data.strApt = "";
+        } else {
+          Matcher match = ADDR_PLACE_MARK.matcher(apt1);
+          if (match.matches()) {
+            data.strPlace = append(data.strPlace, " - ", match.group(1));
+          } else {
+            data.strApt = apt2;
+          }
+        }
+      }
     }
     
     /**
@@ -2647,4 +2679,16 @@ public abstract class SmartAddressParser extends MsgParser {
       return sb.toString();
     }
   }
+  private static final Pattern ADDR_PLACE_MARK = Pattern.compile("^(?:AT |@) *(.*)", Pattern.CASE_INSENSITIVE);
+  
+  /**
+   * Check a potential extra apartment field for constructs that do 
+   * not look like apartment fields
+   * @param apt prospective extra apartment field
+   * @return true if this does not look like a possible apartment field
+   */
+  protected boolean isNotExtraApt(String apt) {
+    return NOT_APT_PTN.matcher(apt).matches();
+  }
+  private static final Pattern NOT_APT_PTN = Pattern.compile("(?:MM|EX|&|NORTH|SOUTH|EAST|WEST|PRIOR|BLK|MILE|BEFORE|AFTER|RUNAWAY|OFF|FROM|NEAR ).*", Pattern.CASE_INSENSITIVE);
 }

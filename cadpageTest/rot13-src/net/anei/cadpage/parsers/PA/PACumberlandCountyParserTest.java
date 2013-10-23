@@ -1178,7 +1178,7 @@ choyvp pynff CNPhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:29O04 G/N HAX VAW",
         "NQQE:F 32AQ FG",
-        "CYNPR:/ PNZC UVYY ZY",
+        "CYNPR:PNZC UVYY ZY",
         "PVGL:PNZC UVYY",
         "QNGR:05/22/2013",
         "GVZR:17:01:09",
@@ -3186,7 +3186,7 @@ choyvp pynff CNPhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:29O04 G/N HAX VAW",
         "NQQE:V 81 F",
-        "CYNPR:BAENZC P RKVG 59 / V 81 F",
+        "CYNPR:BAENZC P RKVG 59/V 81 F",
         "PVGL:UNZCQRA GJC",
         "OBK:30-99 UNZCQRA",
         "HAVG:R20",

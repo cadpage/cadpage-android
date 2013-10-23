@@ -14,7 +14,7 @@ public class ZCAABCalgaryParser extends FieldProgramParser {
   
   protected ZCAABCalgaryParser() {
     super(CITY_TABLE, "CALGARY", "AB",
-           "Add:ADDR/S Map:MAP Det:CALL! FireTAC:CH Evt:ID!");
+           "Add:ADDR/S4 Map:MAP Det:CALL! FireTAC:CH Evt:ID!");
   }
 
   @Override
@@ -56,23 +56,45 @@ public class ZCAABCalgaryParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern ALIAS_PTN = Pattern.compile("(.*): alias (.*)");
+  private static final Pattern ADDR_PLACE_MRK_PTN = Pattern.compile(":(?: @)?");
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String field, Data data) {
-      Matcher m = ALIAS_PTN.matcher(field);
-      if(m.matches()) {
-        field = m.group(1);
+      int pt = field.indexOf(": alias");
+      if (pt >= 0) field = field.substring(0,pt).trim();
+      Matcher match = ADDR_PLACE_MRK_PTN.matcher(field);
+      if (match.find()) {
+        String place = field.substring(match.end()).trim();
+        field = field.substring(0,match.start()).trim();
+        pt = place.indexOf(':');
+        if (pt >= 0) {
+          data.strSupp = place.substring(pt+1).trim();
+          place = place.substring(0,pt).trim();
+        }
+        data.strPlace = place;
       }
       super.parse(field, data);
     }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " PLACE INFO";
+    }
   }
   
+  private class MyMapField extends MapField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("#")) field = field.substring(1).trim();
+      super.parse(field, data);
+    }
+  }
  
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("MAP")) return new MyMapField();
     if (name.equals("CALL")) return new MyCallField();
     return super.getField(name);
   }
@@ -201,6 +223,7 @@ public class ZCAABCalgaryParser extends FieldProgramParser {
       "PRGR",  "Priddis Greens",
       "PRID",  "Priddis",
       "REDM",  "Redwood Meadows",
+      "REDW",  "Redwood Meadows",
       "ROCK",  "Rocky View County",   // Was given to us as "Rockyview County"
       "SHEP",  "Shepard",
       "STAV",  "Stavely",

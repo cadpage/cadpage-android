@@ -63,17 +63,18 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *     y - parse -xx city convention
  *     i - implied intersection convention
  *     s - accept sloppy addresses
- *     a - no implied address (only with smart parser logic)
+ *     a - no implied appartment (only with smart parser logic)
  *     S - Invoke smart parser logic, this is followed by some optional flag
  *         characters, followed by up two 3 field designation characters
  *         Flag characters
- *         0 - @ or AT can mark begining of address or place
+ *         0 - @ or AT can mark beginning of address or place
  *         1 - @ or AT marks beginning of place
  *         2 - Only @ will be treated as start maker.  Ignore "AT"
  *         3 - Address followed by cross street or something similar
  *         4 - Empty address should be accepted
  *         5 - Turn on the FLAG_CROSS_FOLLOWS even if we don't have a following
  *             cross street.  Useful to work around city names that start with N or S
+ *         6 - additional checks to detect non-numeric implied apartment fields
  *         First field character determines what can come ahead of the address
  *         X - nothing
  *         C - call description (req)
@@ -1908,7 +1909,7 @@ public class FieldProgramParser extends SmartAddressParser {
     protected String getRelativeField(int ndx) {
       ndx += index;
       if (ndx < 0 || ndx >= fieldList.length) return "";
-      return fieldList[ndx];
+      return fieldList[ndx].trim();
     }
     
     /**
@@ -2017,89 +2018,103 @@ public class FieldProgramParser extends SmartAddressParser {
       super.setQual(qual);
       if (qual == null) return;
       
+      String smartQual = null;
       int pt = qual.indexOf('S');
       if (pt >= 0) {
-        startType = StartType.START_ADDR;
-        parseFlags = FLAG_ANCHOR_END;
-        boolean addPlace = false;
-        do {
-          if (++pt >= qual.length()) break;
-          char chr = qual.charAt(pt);
-          if (chr == '0') {
-            parseFlags |= FLAG_AT_BOTH;
-            addPlace = true;
-            if (++pt >= qual.length()) break;
-          }
-          if (chr == '1') {
-            parseFlags |= FLAG_AT_PLACE;
-            addPlace = true;
-            if (++pt >= qual.length()) break;
-          }
-          if (chr == '2') {
-            parseFlags |= FLAG_AT_SIGN_ONLY;
-            if (++pt >= qual.length()) break;
-          }
-          if (chr == '3') {
-            parseFlags |= FLAG_CROSS_FOLLOWS;
-            if (++pt >= qual.length()) break;
-          }
-          if (chr == '4') {
-            parseFlags |= FLAG_EMPTY_ADDR_OK;
-            if (++pt >= qual.length()) break;
-          }
-          if (chr == '5') {
-            parseFlags |= FLAG_CROSS_FOLLOWS;
-            if (++pt >= qual.length()) break;
-          }
-          chr = qual.charAt(pt);
-          int pt2 = "cPslCpSL".indexOf(chr);
-          if (pt2 >= 0) {
-            if (pt2 >= 4) {
-              pt2 -= 4;
-              parseFlags |= FLAG_START_FLD_REQ;
-            }
-            startField = new String[]{"CALL","PLACE",null,"CALL PLACE"}[pt2];
-            startType = new StartType[]{StartType.START_CALL,StartType.START_PLACE,StartType.START_OTHER,StartType.START_CALL_PLACE}[pt2];
-          }
-          
-          if (++pt >= qual.length()) break;
-          chr = qual.charAt(pt);
-          pt2 = "CPSaUNIx".indexOf(chr);
-          if (pt2 >= 0) {
-            parseFlags &= ~FLAG_ANCHOR_END;
-            if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
-            tailField = new String[]{"CALL","PLACE","SKIP","APT","UNIT","NAME","INFO","X"}[pt2];
-            tailData = getAddressField(tailField);
-            if (chr == 'I') parseFlags |= FLAG_IGNORE_AT;
-          }
-          
-          if (++pt >= qual.length()) break;
-          chr = qual.charAt(pt);
-          pt2 = "PSax".indexOf(chr);
-          if (pt2 >= 0) {
-            parseFlags |= (chr == 'P' || chr == 'x' ? FLAG_PAD_FIELD : FLAG_PAD_FIELD_EXCL_CITY);
-            if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
-            padField = new String[]{"PLACE","SKIP", "APT", "X"}[pt2];
-            padData = getAddressField(padField);
-          }
-          
-        } while (false);
-        if (addPlace) {
-          if (tailField == null) tailField = "PLACE";
-          else tailField = "PLACE " + tailField;
-        }
-        qual = qual.substring(0,pt);
+        smartQual = qual.substring(pt+1);
+        qual = qual.substring(0,pt).trim();
       }
+      
       incCity = qual.contains("y");
       sloppy  = qual.contains("s");
       if (qual.contains("i")) {
-        if (startType == null) {
-          startType = StartType.START_ADDR;
-          parseFlags = FLAG_ANCHOR_END;
-        }
-        parseFlags |= FLAG_IMPLIED_INTERSECT;
+        startType = StartType.START_ADDR;
+        parseFlags = FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT;
       }
-      if (qual.contains("a") && startType != null) parseFlags |= FLAG_NO_IMPLIED_APT;
+      if (qual.contains("a")) parseFlags |= FLAG_NO_IMPLIED_APT;
+      
+      if (smartQual == null) return;
+      startType = StartType.START_ADDR;
+      parseFlags |= FLAG_ANCHOR_END;
+      parseFlags |= getExtraParseAddressFlags();
+      boolean addPlace = false;
+      pt = 0;
+      while (true) {
+        if (pt >= smartQual.length()) break;
+        char chr = smartQual.charAt(pt);
+        if (!Character.isDigit(chr)) break;
+        switch (chr-'0') {
+        case 0:
+          parseFlags |= FLAG_AT_BOTH;
+          addPlace = true;
+          break;
+        
+        case 1:
+          parseFlags |= FLAG_AT_PLACE;
+          break;
+          
+        case 2:  
+          parseFlags |= FLAG_AT_SIGN_ONLY;
+          break;
+      
+        case 3:
+          parseFlags |= FLAG_CROSS_FOLLOWS;
+          break;
+
+        case 4:
+          parseFlags |= FLAG_EMPTY_ADDR_OK;
+          break;
+          
+        case 5:
+          parseFlags |= FLAG_CROSS_FOLLOWS;
+          break;
+        
+       case 6:
+          parseFlags |= FLAG_RECHECK_APT;
+          break;
+        }
+        pt++;
+      }
+
+      do {
+        if (pt >= smartQual.length()) break;
+        char chr = smartQual.charAt(pt);
+        int pt2 = "cPslCpSL".indexOf(chr);
+        if (pt2 >= 0) {
+          if (pt2 >= 4) {
+            pt2 -= 4;
+            parseFlags |= FLAG_START_FLD_REQ;
+          }
+          startField = new String[]{"CALL","PLACE",null,"CALL PLACE"}[pt2];
+          startType = new StartType[]{StartType.START_CALL,StartType.START_PLACE,StartType.START_OTHER,StartType.START_CALL_PLACE}[pt2];
+        }
+        
+        if (++pt >= smartQual.length()) break;
+        chr = smartQual.charAt(pt);
+        pt2 = "CPSaUNIx".indexOf(chr);
+        if (pt2 >= 0) {
+          parseFlags &= ~FLAG_ANCHOR_END;
+          if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
+          tailField = new String[]{"CALL","PLACE","SKIP","APT","UNIT","NAME","INFO","X"}[pt2];
+          tailData = getAddressField(tailField);
+          if (chr == 'I') parseFlags |= FLAG_IGNORE_AT;
+        }
+        
+        if (++pt >= smartQual.length()) break;
+        chr = smartQual.charAt(pt);
+        pt2 = "PSax".indexOf(chr);
+        if (pt2 >= 0) {
+          parseFlags |= (chr == 'P' || chr == 'x' ? FLAG_PAD_FIELD : FLAG_PAD_FIELD_EXCL_CITY);
+          if (chr == 'x') parseFlags |= FLAG_CROSS_FOLLOWS;
+          padField = new String[]{"PLACE","SKIP", "APT", "X"}[pt2];
+          padData = getAddressField(padField);
+        }
+      } while (false);
+        
+      if (addPlace) {
+        if (tailField == null) tailField = "PLACE";
+        else tailField = "PLACE " + tailField;
+      }
     }
     
     private Field getAddressField(String name) {
@@ -2149,7 +2164,9 @@ public class FieldProgramParser extends SmartAddressParser {
           parseAddress(field, data);
         }
       } else {
-        parseAddress(startType, parseFlags, field, data);
+        int flags = parseFlags;
+        if (data.strCity.length() > 0) flags |= FLAG_NO_CITY;
+        parseAddress(startType, flags, field, data);
         if (padData != null) padData.parse(getPadField(), data);
         if (tailData != null) tailData.parse(getLeft(), data);
       }
@@ -2177,6 +2194,15 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       return sb.toString().trim();
     }
+  }
+  
+  /**
+   * Get any extra smart address parser flags that could not be passed as address field
+   * qualifiers for some reason
+   * @return extra smart address paser flags
+   */
+  protected int getExtraParseAddressFlags() {
+    return 0;
   }
 
   /**
@@ -2311,7 +2337,7 @@ public class FieldProgramParser extends SmartAddressParser {
       if (match.matches()) {
         data.strAddress = data.strAddress + " & " + match.group(1);
       } else {
-        super.parse(field, data);
+        data.strApt = append(data.strApt, " ", field);
       }
     }
   }

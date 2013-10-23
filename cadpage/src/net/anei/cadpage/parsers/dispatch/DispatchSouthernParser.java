@@ -36,6 +36,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
   // Flag indicating there is no name and phone following the address
   public static final int DSFLAG_NO_NAME_PHONE = 0x80;
   
+  // Flag indicating we should not check for implied non-numeric apartments
+  public static final int DSFLAG_NO_IMPLIED_APT = 0x100;
+  
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
   private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-0-9]+)$");
@@ -52,6 +55,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean inclCross;
   private boolean inclCrossNamePhone;
   private boolean noNamePhone;
+  private boolean impliedApt;
   private CodeSet callSet;
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {
@@ -72,11 +76,13 @@ public class DispatchSouthernParser extends FieldProgramParser {
     this.inclPlace = (flags &  DSFLAG_LEAD_PLACE) != 0;
     this.inclCross = (flags & DSFLAG_FOLLOW_CROSS) != 0;
     this.inclCrossNamePhone = (flags & DSFLAG_CROSS_NAME_PHONE) != 0;
+    this.impliedApt = (flags & DSFLAG_NO_IMPLIED_APT) == 0;
     this.noNamePhone = (flags & DSFLAG_NO_NAME_PHONE) != 0;
     
     // Program string needs to be built at run time
     StringBuilder sb = new StringBuilder();
     sb.append("ADDR/S");
+    if (impliedApt) sb.append('6');
     if (inclPlace) sb.append('P');
     if (inclCross || inclCrossNamePhone) sb.append(" X?");
     if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE?");
@@ -108,39 +114,52 @@ public class DispatchSouthernParser extends FieldProgramParser {
     String delim = match.group(1);
     if (delim.charAt(0) != ' ') {
       body = body.replace(" OCA:", delim + "OCA:");
-      return parseFields(body.split(delim), data);
+      if (!parseFields(body.split(delim), data)) return false;
     }
     
     // Blank delimited fields get complicated
     // We already found a time field.  Use that to split the message 
     // into and address and extra versions 
-    
-    data.strTime = match.group(2);
-    String sAddr = body.substring(0,match.start()).trim();
-    String sExtra = body.substring(match.end()).trim();
-    
-    // See if there is an ID field immediate in front of the time field
-    match = ID_PTN.matcher(sAddr);
-    if (match.find()) {
-      data.strCallId = match.group();
-      sAddr = sAddr.substring(0,match.start()).trim();
-    } else if (!idOptional) return false;
-    
-    // See if there is a labeled OCA field at the end of the extra block
-    match = OCA_TRAIL_PTN.matcher(sExtra);
-    if (match.find()) {
-      data.strCallId = match.group(1).trim();
-      sExtra = sExtra.substring(0,match.start()).trim();
+    else {
+      data.strTime = match.group(2);
+      String sAddr = body.substring(0,match.start()).trim();
+      String sExtra = body.substring(match.end()).trim();
+      
+      // See if there is an ID field immediate in front of the time field
+      match = ID_PTN.matcher(sAddr);
+      if (match.find()) {
+        data.strCallId = match.group();
+        sAddr = sAddr.substring(0,match.start()).trim();
+      } else if (!idOptional) return false;
+      
+      // See if there is a labeled OCA field at the end of the extra block
+      match = OCA_TRAIL_PTN.matcher(sExtra);
+      if (match.find()) {
+        data.strCallId = match.group(1).trim();
+        sExtra = sExtra.substring(0,match.start()).trim();
+      }
+      
+      if (sAddr.length() > 0) {
+        parseMain(sAddr, data);
+        parseExtra(sExtra, data);
+      } else {
+        parseExtra2(sExtra, data);
+      }
     }
     
-    if (sAddr.length() > 0) {
-      parseMain(sAddr, data);
-      parseExtra(sExtra, data);
-    } else {
-      parseExtra2(sExtra, data);
-    }
-    
+    // set an call description if we do not have one
     if (data.strCall.length() == 0 && data.strSupp.length() == 0) data.strCall= "ALERT";
+    
+    // Apparently there is no way to not enter a street number.  We already suppress zero
+    // but usually the extra number is 1
+    if (data.strAddress.startsWith("1 ")) data.strAddress = data.strAddress.substring(2).trim();
+    
+    //  Occasional implied intersections end up in the apt field
+    if (data.strApt.length() > 0 && checkAddress(data.strApt) > 0) {
+      data.strAddress = append(data.strAddress, " & ", data.strApt);
+      data.strApt = "";
+    }
+    
     return true;
   }
 
@@ -153,6 +172,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     sAddr = p.get();
     StartType st = (inclPlace ? StartType.START_PLACE : StartType.START_ADDR);
     int flags = 0;
+    if (impliedApt) flags |= FLAG_RECHECK_APT;
     if (inclCross || inclCrossNamePhone) flags |= FLAG_CROSS_FOLLOWS;
     if (noNamePhone && inclPlace) flags |= FLAG_ANCHOR_END;
     parseAddress(st, flags, sAddr, data);
@@ -262,7 +282,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     data.strCode = p.getLastOptional(" MDL ");
     if (data.strCode.length() == 0) data.strCode =p.getLastOptional(" FDL ");
     sExtra = p.get();
-    parseAddress(StartType.START_CALL, sExtra, data);
+    parseAddress(StartType.START_CALL, FLAG_RECHECK_APT, sExtra, data);
     data.strSupp = getLeft();
   }
   

@@ -46,7 +46,7 @@ public class NYSuffolkCountyEParser extends SmartAddressParser {
     if (flds.length == 1) {
       
       // Feed everything to smart parser
-      parseAddress(StartType.START_PLACE, FLAG_IGNORE_AT, body, data);
+      parseAddress(StartType.START_PLACE, FLAG_IGNORE_AT | FLAG_NO_IMPLIED_APT, body, data);
       data.strSupp = getLeft();
       
       // Clean up loose ends
@@ -61,9 +61,9 @@ public class NYSuffolkCountyEParser extends SmartAddressParser {
     
     else {
       int pt = 0;
-      Result res = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END | FLAG_CHECK_STATUS, flds[0]);
+      Result res = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END | FLAG_CHECK_STATUS | FLAG_NO_IMPLIED_APT, flds[0]);
       if (flds.length > 2) {
-        Result res2 = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END | FLAG_CHECK_STATUS, flds[1]);
+        Result res2 = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END | FLAG_CHECK_STATUS | FLAG_NO_IMPLIED_APT, flds[1]);
         if (res2.getStatus() > res.getStatus()) {
           data.strPlace = flds[0];
           res = res2;

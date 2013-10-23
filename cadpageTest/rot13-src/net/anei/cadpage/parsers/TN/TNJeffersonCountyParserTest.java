@@ -57,7 +57,8 @@ choyvp pynff GAWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "QVFCNGPU:283 J OEBNQJNL OYIQ 513 WRSSREFBA PVGL 08:00:21 PNEQVNP NEERFG PCE VA HFR",
-        "NQQE:283 J OEBNQJNL OYIQ 513",
+        "NQQE:283 J OEBNQJNL OYIQ",
+        "NCG:513",
         "PVGL:WRSSREFBA PVGL",
         "GVZR:08:00:21",
         "PNYY:PNEQVNP NEERFG PCE VA HFR");

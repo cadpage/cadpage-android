@@ -69,7 +69,7 @@ choyvp pynff APZbberPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "[[911 ABGVSVPNGVBA] ]  1 F. IVARYNAQ FBHGU PRYY GBJRE 2011025029 09:31:20 Z25 CFLPUVNGEVP/FHVPVQR NGGRZCG",
-        "NQQE:1 F IVARYNAQ FBHGU PRYY GBJRE",
+        "NQQE:F IVARYNAQ FBHGU PRYY GBJRE",
         "VQ:2011025029",
         "GVZR:09:31:20",
         "HAVG:Z25",

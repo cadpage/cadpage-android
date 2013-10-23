@@ -68,7 +68,7 @@ choyvp pynff APUregsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G3",
         "F:1 UBHFR #1 FE 1411 - F FRPGBE NUBFXVR 130904862 20 Z:GGRAURG:26:11",
-        "NQQE:1 UBHFR",
+        "NQQE:UBHFR",
         "NCG:1 FE 1411",  // Jung be jurer vf guvf???
         "ZNC:F FRPGBE",
         "PVGL:NUBFXVR",
@@ -130,7 +130,7 @@ choyvp pynff APUregsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G11",
         "F:1 ZBEEVF SBEQ EQ PBYRENVA 130904880 15 Z:FJVYYVNZF:05:56 RZF (HAXABJA)",
-        "NQQE:1 ZBEEVF SBEQ EQ",
+        "NQQE:ZBEEVF SBEQ EQ",
         "PVGL:PBYRENVA",
         "VQ:130904880",
         "GVZR:15:05:56",
@@ -163,7 +163,7 @@ choyvp pynff APUregsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G15",
         "F:PUBJNA HAVIREFVGL UNJXF ARFG 1 HAVIREFVGL CYNPR ZHESERRFOBEB 130904886 18 Z:FJVYYVNZF:01:46 RZF (ZRQVPNY)",
         "CYNPR:PUBJNA HAVIREFVGL UNJXF ARFG",
-        "NQQE:1 HAVIREFVGL CYNPR",
+        "NQQE:HAVIREFVGL CYNPR",
         "PVGL:ZHESERRFOBEB",
         "VQ:130904886",
         "GVZR:18:01:46",
@@ -180,8 +180,8 @@ choyvp pynff APUregsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G17",
         "F:1 AP 42 J 130904890 20 Z:EPNQR:07:45",
-        "NQQE:1 AP 42 J",
-        "ZNQQE:1 FGNGR 42 J",  // Abg znccvat
+        "NQQE:AP 42 J",
+        "ZNQQE:FGNGR 42 J",  // Abg znccvat
         "VQ:130904890",
         "GVZR:20:07:45",
         "PNYY:NYREG");

@@ -53,6 +53,7 @@ public class DispatchSouthernPlusParser extends DispatchSouthernParser {
     }
     
     if (!super.parseMsg(body, data)) return false;
+    
     if (badTime) data.strTime = "";
     
     if (data.strCallId.length() == 0) data.strCallId = callId;

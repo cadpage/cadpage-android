@@ -73,17 +73,19 @@ public class ILStClairCountyParser extends FieldProgramParser {
   }
   
   
-  private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*, .*), *\\d{5}");
+  private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*, .*), *\\d{5}(?: +#(.*))?");
   private class MyAddressField extends AddressCityField {
     
     @Override 
     public void parse(String field, Data data) {
+      String apt = "";
       Matcher m = PTN_FULL_ADDR.matcher(field);   // This will match address, city, and zip
-      if(m.matches()) {                           // If we have a match
-        field = m.group(1);                       // Remove the zipcode
+      if (m.matches()) {
+        field = m.group(1).trim();                       // Remove the zipcode
+        apt = getOptGroup(m.group(2));
       }
-      
       super.parse(field, data);
+      data.strApt = append(data.strApt, "-", apt);
     }
    
   }

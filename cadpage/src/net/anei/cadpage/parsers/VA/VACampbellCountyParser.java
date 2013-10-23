@@ -70,7 +70,7 @@ public class VACampbellCountyParser extends SmartAddressParser {
       sAddress = sAddress.substring(match.end());
       st = StartType.START_ADDR;
     }
-    parseAddress(st, FLAG_ANCHOR_END, sAddress, data);
+    parseAddress(st, FLAG_RECHECK_APT | FLAG_ANCHOR_END, sAddress, data);
     if (sCity != null) data.strCity = sCity;
     
     return true;
