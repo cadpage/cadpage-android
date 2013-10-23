@@ -58,6 +58,7 @@ public class DispatchA7BaseParser extends FieldProgramParser {
     // Strip the odd parren trailer
     Matcher match = ADDR_TRAIL_MARK.matcher(sAddr);
     if (match.find()) sAddr = sAddr.substring(0,match.start());
+    if (sAddr.endsWith(",")) sAddr = sAddr.substring(0,sAddr.length()-1).trim();
     
     // There are several unrelated markers identifying a cross street
     match = CROSS_MARK.matcher(sAddr);
