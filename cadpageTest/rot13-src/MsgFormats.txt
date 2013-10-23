@@ -6347,7 +6347,7 @@ Pbagnpg: Abnu Cvyavpx <acvyavpx@pbzznpxnzohynapr.bet>
 Fraqre: arjf@1eja.pbz
 1 bs 2\aSEZ:arjf@1eja.pbz\aZFT:ABEGU ONOLYBA, AL (FHSSBYX) *CHEFHVG* FHAEVFR UJL FIF EQ & QRRE CNEX NIR (1 CPG). FPCQ 102 ECGF CHEFHVG BS N OEBJA\a(Pba'g) 2 bs 2\aSBEQ S350 J/ PNC BA GUR ONPX. URYB HC NOBIR GB PNAINF.  AL340\a(Raq)
 Obql: 1 bs 2\aSEZ:arjf@1eja.pbz\aZFT:FUBERUNZ, AL (FHSSBYX) *JBEXVAT SVER* 45 ENAQNYY EQ P/F NYOREG FG (EBPXL CBVAG SQ). ECSQ B/F ECG SVER VA N C/Q. ERD\a(Pba'g) 2 bs 2\aERGBAR "13/35". Z/N NFFVTARQ. AL517\a(Raq)
-Obql: 1 bs 2\aSEZ:arjf@1eja.pbz\aZFT:PRAGENY VFYVC, AL (FHSSBYX) *ANG TNF YRNX* 54 GNZNENPX FG. PUVRS 3-7-32 ECGF ANG TNF YRNX. ERD TNF PB. RAT 3-7-3\a(Pba'g) 2 bs 2\aSVEFG QHR RAT, 3-7-5 SVEFG QHR GEHPX.\2fAL340\a(Raq)
+Obql: 1 bs 2\aSEZ:arjf@1eja.pbz\aZFT:PRAGENY VFYVC, AL (FHSSBYX) *ANG TNF YRNX* 54 GNZNENPX FG. PUVRS 3-7-32 ECGF ANG TNF YRNX. ERD TNF PB. RAT 3-7-3\a(Pba'g) 2 bs 2\aSVEFG QHR RAT, 3-7-5 SVEFG QHR GEHPX.  AL340\a(Raq)
 Obql:SEZ:arjf@1eja.pbz\aZFT:ABEGU ONOLYBA, AL (FHSSBYX) *B/G NHGB J/ RWRPGVBA* QRRE CNEX NIR/CBCYNE FG. CQ B/F J/ B/G NHGB 1 FHOW. RWRPGRQ NIA BA F/O. AL200
 **********************************************************
 Haxabja
@@ -6525,7 +6525,7 @@ Revr Pbhagl, CN (Rzretlpner) Svk
 Pbagnpg: wbua q <wqsver54@tznvy.pbz>
 Fraqre: rp-pbzz@rzretlpner.bet
 (- cneg 1 bs 1) EP:Eha# 26950/0203-N/<Haxabja>/23:20/ 1234 A CNEX EBJ/9/Erznexf:  OYF 1 / NYF 1; 55 lrne byq/ Znyr/ Pbafpvbhf/ Oernguvat. Fge bxr (PIN) / Gena
-(- cneg 1 bs 1) EP:Eha# 28145/0087-N/<Haxabja>/17:29/406 JNYAHG FG/QBJAFGNVEF/ NCG O/Erznexf:\2fOYF C1; 50 lrne byq/ Znyr/ Pbafpvbhf/ Oernguvat. Urzbeeuntr \e\a
+(- cneg 1 bs 1) EP:Eha# 28145/0087-N/<Haxabja>/17:29/406 JNYAHG FG/QBJAFGNVEF/ NCG O/Erznexf:  OYF C1; 50 lrne byq/ Znyr/ Pbafpvbhf/ Oernguvat. Urzbeeuntr \e\a
 **********************************************************
 Ynshepur Cnevfu, YN (nygreangr?)
 Pbagnpg: Xryyl Bhoer <xryyl.bhoer74@tznvy.pbz>
@@ -6663,7 +6663,7 @@ Pbagnpg: wnpxfgre2024 <wnpxfgre2024@ubgznvy.pbz>
 Rngba Pbhagl, ZV (nygreangr be ercynpr?)
 Pbagnpg: Puevf xvaanf <pxvaanf@tznvy.pbz>
 Fraqre: 888777
-VATUNZ 911: V96RO ng Bxrzbf Eq vf qbja gb bar ynar qhr gb na nppvqrag jjj.avkyr.hf/89YWU\2fErcyl jvgu n sevraqf # gb sbejneq
+VATUNZ 911: V96RO ng Bxrzbf Eq vf qbja gb bar ynar qhr gb na nppvqrag jjj.avkyr.hf/89YWU  Ercyl jvgu n sevraqf # gb sbejneq
 **********************************************************
 Syngurnq Pbhagl, ZG
 Pbagnpg: Qnir Qrqzna <qqrqzna@xnyvfcryy.pbz>
@@ -7496,4 +7496,3 @@ Fraqre: pmh.rpp@sver.pn.tbi
 **********************************************************
 **********************************************************
 **********************************************************
-PVGL BS SENAXYVA qyrqorggre:205 ABEGU QE SENAXYVA PERFPRAG QE K PVEPYR QE 07:24:27 ERFPHR RZF- NC 79 LBN SRZNYR QVSSVPHYG OERNGUVAT

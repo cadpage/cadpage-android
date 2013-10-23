@@ -20,6 +20,7 @@ Fraqre: qvfcngpu@gbjabsunzohetal.pbz
  
 Pbagnpg: Znggurj Juvgvat <sversvtugre015@tznvy.pbz>
 Fraqre: qvfcngpu@gbjabsunzohetal.pbz
+Fraqre: qvfcngpu@gbjabsunzohet.pbz
 *2Nynez Npgvingvba: Trareny sver nynez ng 7207 JNEQ EQ, Obfgba  p/f: PBYR EQ . . 17:41:51
 *2RZF: 15 ZBAGU PUVYQ - FRVMHERF - OYF UBG ng OBFGBA FGNGR EQ / JVYQJBBQ QE, Obfgba . . 14:57:05
 *2Zvfp Ehoovfu/Oehfu, EHOOVFU CEBOYRZ: YRNIRF NAQ HAQREOEHFU BA SVER VA JBBQF JRYY NJNL SEBZ UBHFR ng 6754 BZCUNYVHF EQ, Obfgba  p/f: RQQL EQ . . 13:47
@@ -29,6 +30,8 @@ Fraqre: qvfcngpu@gbjabsunzohetal.pbz
 *2RZF: 69 Lrnef Znyr Purfg cnva- zrqvp erfcbafr ng 7898 OBFGBA FGNGR EQ #40, Obfgba  p/f: JVYQJBBQ QE   B: OBFGBA UVYYF ZBOVYR UBZR CNEX . . 19:09:24
 *2RZF: Z/purfg cnvaf ng 8112 PBYR EQ, Obfgba  p/f: BZCUNYVHF EQ . . 20:05:16
 Iruvpyr Sver: iruvpyr sver va ebnqjnl ng 8799 SRQQVPX EQ, Obfgba  p/f: CN/OB YVAR . . 07:33:02
+RZF: 30/S VYY - ARPX & NOQBZVANY CNVA - PBYQ ERFCBAFR \aSHYY PERJ ARRQRQ  26N01  ng 8229 OBFGBA FGNGR EQ #31, Obfgba  p/f: SVFURE QE   B: FCENTHR ZBOVY
+RZF: z90-vyy znyr-qlfcarn-hnaoyr gb nzohyngr-zrqvp erfcbfar 26P02  ng 6319 ZNL QE, Obfgba  p/f: RAQ BS FGERRG . . 11:00:45
 
 Pbagnpg: revp qnuytera <repqnuy@tznvy.pbz>
 Fraqre: qvfcngpu@gbjabsunzohetal.pbz
@@ -196,7 +199,30 @@ choyvp pynff ALRevrPbhaglErqNyregCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Obfgba",
         "K:CN/OB YVAR",
         "GVZR:07:33:02");
-  }
+
+    qbGrfg("G16",
+        "RZF: 30/S VYY - ARPX & NOQBZVANY CNVA - PBYQ ERFCBAFR \a" +
+        "SHYY PERJ ARRQRQ  26N01  ng 8229 OBFGBA FGNGR EQ #31, Obfgba  p/f: SVFURE QE   B: FCENTHR ZBOVY",
+
+        "PNYY:RZF",
+        "PBQR:26N01",
+        "VASB:30/S VYY - ARPX & NOQBZVANY CNVA - PBYQ ERFCBAFR SHYY PERJ ARRQRQ",
+        "NQQE:8229 OBFGBA FGNGR EQ",
+        "NCG:31",
+        "PVGL:Obfgba",
+        "K:SVFURE QE",
+        "CYNPR:FCENTHR ZBOVY");
+
+    qbGrfg("G17",
+        "RZF: z90-vyy znyr-qlfcarn-hnaoyr gb nzohyngr-zrqvp erfcbfar 26P02  ng 6319 ZNL QE, Obfgba  p/f: RAQ BS FGERRG . . 11:00:45",
+        "PNYY:RZF",
+        "PBQR:26P02",
+        "VASB:z90-vyy znyr-qlfcarn-hnaoyr gb nzohyngr-zrqvp erfcbfar",
+        "NQQE:6319 ZNL QE",
+        "PVGL:Obfgba",
+        "K:RAQ BS FGERRG",
+        "GVZR:11:00:45");
+ }
   
   @Grfg
   choyvp ibvq grfgRevpQnytura() {
