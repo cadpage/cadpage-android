@@ -123,7 +123,7 @@ choyvp pynff ALAnffnhPbhaglZnffrcrdhnCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ZSQ Qvfcngpurq Pnyy (ab fhowrpg)) Erfphr: 2413 FU, Gbja: , Pebff: , Znc: , Oybpx#: , Gvzr: 19:45:51\a\aZNFFNCRDHN SQ PNYY QVFCNGPU",
         "PNYY:Erfphr",
         "NQQE:2413 FU",
-        "ZNQQE:2413 FG");
+        "ZNQQE:2413 AL");
 
     qbGrfg("G3",
         "(ZSQ Qvfcngpurq Pnyy (ab fhowrpg)) Pneoba Zbabkvqr Nynez: 2413 FURN OYIQ, Gbja: ZNFF, Pebff: OHPXARYY QE, Znc: U-4, Oybpx#: 438, Gvzr: 19:45:15\a\a" +

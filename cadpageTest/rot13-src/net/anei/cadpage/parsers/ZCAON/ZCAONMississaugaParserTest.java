@@ -151,7 +151,7 @@ choyvp pynff MPNBAZvffvffnhtnCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:30-PNE SVER BA",
         "NQQE:403RO R BS RNFGTNGR GB RTYVAGBA",
-        "ZNQQE:403RO & RNFGTNGR GB RTYVAGBA",
+        "ZNQQE:403 & RNFGTNGR GB RTYVAGBA",
         "PU:3",
         "HAVG:C101 N101",
         "K:RNFGTNGR CL & RTYVAGBA NI",
@@ -392,7 +392,7 @@ choyvp pynff MPNBAZvffvffnhtnCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:51-CV NPPVQRAG/",
         "NQQE:403RO A BS QHAQNF GB JPO",
-        "ZNQQE:403RO & QHAQNF GB JPO",
+        "ZNQQE:403 & QHAQNF GB JPO",
         "PU:3",
         "HAVG:N107 F107 OLY1",
         "K:QHAQNF FG & JPO",
@@ -410,7 +410,7 @@ choyvp pynff MPNBAZvffvffnhtnCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:51-CV NPPVQRAG/",
         "NQQE:401RO PBYY SEBZ QVKVR EQ GB ERASBEGU",
-        "ZNQQE:401RO PBYY SEBZ QVKVR EQ GB ERASBEGU & QVKVR EQ",
+        "ZNQQE:401 PBYY SEBZ QVKVR EQ GB ERASBEGU",
         "PU:3",
         "HAVG:C109 F114 OLY1",
         "K:QVKVR EQ & ERASBEGU QE",
@@ -826,7 +826,7 @@ choyvp pynff MPNBAZvffvffnhtnCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:52-ZHYGV/ZNWBE/",
         "NQQE:401JO PBYY SEBZ ERASBEGU GB QVKVR EQ",
-        "ZNQQE:401JO PBYY SEBZ ERASBEGU GB QVKVR EQ & ERASBEGU QE",
+        "ZNQQE:401 PBYY SEBZ ERASBEGU GB QVKVR EQ",
         "PU:3",
         "HAVG:C119 N105 F105 OLY",
         "K:ERASBEGU QE & QVKVR EQ",
@@ -1006,7 +1006,7 @@ choyvp pynff MPNBAZvffvffnhtnCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:51-CV NPPVQRAG/",
         "NQQE:410AO A BS JVYYVNZF CL GB OBINVEQ QE",
-        "ZNQQE:410AO & JVYYVNZF CXJL GB OBINVEQ QE",
+        "ZNQQE:410 & JVYYVNZF CXJL GB OBINVEQ QE",
         "PU:7",
         "HAVG:C201 F201",
         "K:JVYYVNZF CL & OBINVEQ OI",

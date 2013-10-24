@@ -269,7 +269,7 @@ choyvp pynff CNYruvtuPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FG3000",
         "PNYY:QRYGN ZIN JVGU EBYYBIRE",
         "NQQE:V476ZZ57 4AO",
-        "ZNQQE:V476ZZ57 4AO & GVYTUZNA FG",
+        "ZNQQE:V476ZZ57 4 & GVYTUZNA FG",
         "PVGL:FBHGU JUVGRUNYY GJC",
         "CYNPR:V476ZZ57 4AO",
         "VASB:BAR IRUVPYR BA GUR GHEACVXR NABGURE CBFFVOYL SYVCCRQ BIRE GUR THNEQENVY",
@@ -371,6 +371,7 @@ choyvp pynff CNYruvtuPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FG3000",
         "PNYY:GEHPX/OHF/ERPERNGVBANY IRUV",
         "NQQE:V476ZZ59 6AO",
+        "ZNQQE:V476ZZ59 6",
         "PVGL:FBHGU JUVGRUNYY GJC",
         "CYNPR:V476ZZ59 6AO",
         "ANZR:WBUA");

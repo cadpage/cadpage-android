@@ -600,7 +600,7 @@ choyvp pynff JIPnoryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:14:04:25",
         "PNYY:ZIN Vaw.",
         "NQQE:15 V64 .5RO",
-        "ZNQQE:15 V 64 .5RO",
+        "ZNQQE:15 V 64 .5",
         "PVGL:ONEOBHEFIVYYR",
         "CYNPR:V64 15ZZ RO",
         "K:29GU FG",
@@ -794,7 +794,7 @@ choyvp pynff JIPnoryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:03:37:55",
         "PNYY:ZIN Yrnxntr",
         "NQQE:16 V64 .5RO",
-        "ZNQQE:16 V 64 .5RO",
+        "ZNQQE:16 V 64 .5",
         "PVGL:ONEOBHEFIVYYR",
         "CYNPR:V64 16ZZ RO",
         "K:OCQ BF JVGU ZIN YRNXNTR NQI BVY FCVYY");
@@ -876,7 +876,7 @@ choyvp pynff JIPnoryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:09:18:11",
         "PNYY:Iruvpyr Sver",
         "NQQE:16 V64 .5RO",
-        "ZNQQE:16 V 64 .5RO",
+        "ZNQQE:16 V 64 .5",
         "PVGL:ONEOBHEFIVYYR",
         "CYNPR:V64 16ZZ RO",
         "K:GENPGBE GENVYRE FZBXVAT");

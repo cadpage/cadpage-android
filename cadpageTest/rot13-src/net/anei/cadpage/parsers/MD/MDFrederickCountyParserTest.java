@@ -1011,6 +1011,7 @@ choyvp pynff ZQSerqrevpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SerqPb",
         "PNYY:Zhghny Nvq: IRUVPYR NPPVQRAG / qrsnhyg JNPB:",
         "NQQE:340RO & XRRC GELFG EQ",
+        "ZNQQE:340 & XRRC GELFG EQ",
         "PVGL:Jnfuvatgba Pbhagl",
         "FG:ZQ",
         "ZNC:4331O3",

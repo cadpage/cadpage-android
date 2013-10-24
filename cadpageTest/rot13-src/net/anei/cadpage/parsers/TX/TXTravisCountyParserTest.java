@@ -208,7 +208,7 @@ choyvp pynff GKGenivfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:12-ZA04",
         "PU:SPBZ R",
         "NQQE:A Fu 130 Fo & Sz 973 Eq Gb A Fu 130 Fo Enzc",
-        "ZNQQE:A Fg 130 & SZ 973 Gb A Fg 130 Enzc",
+        "ZNQQE:A GK 130 & SZ 973 Gb A GK 130 Enzc",
         "VQ:RFQ04-2013-0000678/13045823",
         "HAVG:RAT401");
 

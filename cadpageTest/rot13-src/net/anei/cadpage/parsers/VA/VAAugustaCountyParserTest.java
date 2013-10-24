@@ -408,6 +408,7 @@ choyvp pynff INNhthfgnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:IRUVPYR SVER:64JO - ZRQVNA 92-91",
         "PNYY:IRUVPYR SVER",
         "NQQE:64JO",
+        "ZNQQE:64",
         "CYNPR:ZRQVNA 92-91");
 
     qbGrfg("G16",

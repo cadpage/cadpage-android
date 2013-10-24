@@ -1359,6 +1359,8 @@ Have a nice day,
 -Ken
 
 ***************************************************************************
+* Emai support request
+***************************************************************************
 
 Not directly, for a variety of complicated technical reasons, Cadpage support for emailed alerts is just not going to happen.
 

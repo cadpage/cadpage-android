@@ -121,7 +121,7 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZOHYNAPR",
         "CYNPR:ABEGUSVRYQ FURYY1711",
         "NQQE:A FGUL 50",
-        "ZNQQE:A FG 50",
+        "ZNQQE:A VY 50",
         "PVGL:Obheobaanvf",
         "VQ:2013-00000584");
 
@@ -279,7 +279,7 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZOHYNAPR",
         "CYNPR:SNEZ NAQ SYRRG1811",
         "NQQE:A FGUL 50",
-        "ZNQQE:A FG 50",
+        "ZNQQE:A VY 50",
         "PVGL:Obheobaanvf",
         "VQ:2013-00000563");
 

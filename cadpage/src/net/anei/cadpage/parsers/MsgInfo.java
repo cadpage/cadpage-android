@@ -544,7 +544,6 @@ public class MsgInfo {
   private static final Pattern CRNN_PTN = Pattern.compile("\\b(?:CR|COUNTY|(?:CO|CTY|CNTY|COUNTY)(?: *(?:RD|RT|RTE|ROAD|HWY|ROUTE))?)[- ]*(\\d+[A-Z]?|(?<= )[A-Z&&[^NESW]]|(?<= )([A-Z])\\2)(?: HWY)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern HW_PTN = Pattern.compile("\\bH[WY]\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern STH_PTN = Pattern.compile("\\bST?HY?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern PK_PTN = Pattern.compile("\\b(?:PI|PI?K|PKE)\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern PW_PTN = Pattern.compile("\\bPK?[WY]\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CI_PTN = Pattern.compile("\\bC[IR]\\b", Pattern.CASE_INSENSITIVE);
@@ -582,7 +581,6 @@ public class MsgInfo {
     
     sAddr = replace(sAddr, AV_PTN, "AVE");
     sAddr = replace(sAddr, HW_PTN, "HWY");
-    sAddr = replace(sAddr, STH_PTN, "ST");
     sAddr = replace(sAddr, PK_PTN, "PIKE");
     sAddr = replace(sAddr, PW_PTN, "PKWY");
     sAddr = replace(sAddr, CI_PTN, "CIR");
@@ -683,18 +681,18 @@ public class MsgInfo {
   
   // Clean up and NB, SB, EB, or WB words
 
-  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s*\\b(?:NB|SB|EB|WB)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s*(?<![A-Z])(?:NB|SB|EB|WB)\\b", Pattern.CASE_INSENSITIVE);
   private String cleanBounds(String sAddr) {
     Matcher match = DIRBOUND_PAT.matcher(sAddr);
     return match.replaceAll("").trim();
   }
-  
+
   // Google doesn't always handle single word route names like US30 or HWY10.
   // This method breaks those up into two separate tokens, also dropping any
   // direction qualifiers
   private static final Pattern ROUTE_PTN =
-    Pattern.compile("\\b(?:(RT|RTE|HW|HWY|US|ST|SH|FM|I|CO|CR|CORD|SRT?|I)|([A-Z]{2}))-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern SRT_PTN = Pattern.compile("\\bS(?:RT?| ?H)\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b(?:(RT|RTE|HW|HWY|US|STH?Y?|SHY?|FM|I|CO|CR|CORD|SRT?|I)|([A-Z]{2}))-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SRT_PTN = Pattern.compile("\\bS(?:RT?| ?H|TH)\\b", Pattern.CASE_INSENSITIVE);
   
   private String cleanRoutes(String sAddress) {
     
@@ -710,7 +708,7 @@ public class MsgInfo {
           g1 = match.group(2);
           if (!g1.equals(state)) continue;
         }
-        if (g1.equals("ST") || g1.equals(state)) g1 = repState;
+        if (g1.startsWith("ST") || g1.startsWith("SH") || g1.equals(state)) g1 = repState;
         String replace = g1 + ' ' + match.group(3);
         match.appendReplacement(sb, replace);
       } while (match.find());
