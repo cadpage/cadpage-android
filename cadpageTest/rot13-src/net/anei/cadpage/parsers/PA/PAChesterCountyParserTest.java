@@ -75,6 +75,12 @@ choyvp pynff CNPurfgrePbhaglCnefreGrfg {
     }
   }
   
+  choyvp fgngvp pynff GrfgU rkgraqf CNPurfgrePbhaglUCnefreGrfg {
+    choyvp GrfgU() {
+      frgCnefre(arj CNPurfgrePbhaglCnefre());
+    }
+  }
+  
   choyvp fgngvp pynff GrfgV rkgraqf CNPurfgrePbhaglVCnefreGrfg {
     choyvp GrfgV() {
       frgCnefre(arj CNPurfgrePbhaglCnefre());
