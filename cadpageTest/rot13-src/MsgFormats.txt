@@ -3816,6 +3816,11 @@ F/O NG URYVPBCGRE YNAQVAT ~ R98 ~ 1600 OYNPX EBPX EQ ~ HCEB ~ F GENCCR EQ NAQ QE
 IRUVPYR NPPVQRAG SVER CBYVPR ~ SC98-1 ~ F PUHEPU FG NAQ JNYAHG FG ~ PUPB ~ F PUHEPU FG NAQ JNYAHG FG ~ S1304079 ~ Qvfcngpu ~ 01:40 ~ - ~  ~  ~  ~  ~ FCEVAT PVGL OBEB\a325N/FGN98 SVER CBYVPR
 OHVYQVAT SVER PBZZREPVNY ~ R98 Y98 ~ 1305 CNEX FCEVAT OYIQ ~ PUPB ~ CNEX EQ ~ S1303970 ~ Qvfcngpu ~ 08:11 ~ - ~  ~  ~  ~  ~ RNFG IVAPRAG @ CNEX FCVAT NCNEGZRAG\aR98,DG98,DG51 JVGU 3FGN63\a~
 ***************************************************************************
+Zbagtbzrel pbhagl, CN (CNZbagbzrelPbhaglTCnefre)
+(Qvfcngpu-JQF) VAP#:S1323008  IN-IRUVPYR NPPVQRAG ERFPHR  Nqqe:ZREVBA EQ NAQ FLPNZBER NIR Obk:  NQP:3479N10  ZHA:YZRE  Havgf:H28, SKYZRE, YZRE-5, E22, C28, E21
+(Qvfcngpu-JQF) VAP#:R1356237  ZPR-PNEQVNP RZRETRAPL  Nqqe:1200 1FG NIR  Obk:56-75 NQP:3366Q5  ZHA:HZRE  Havgf:317-1
+(Qvfcngpu-JQF) VAP#:S1323012  SNY-SVER NYNEZ  Nqqe:51 SNVEIVRJ EQ  Obk:  NQP:3478U6 ZHA:YZRE  Havgf:R26-1, R26
+***************************************************************************
 Abeguhzoreynaq Pbhagl, CN (CNAbeguhzoreynaqPbhaglCnefre)
 YVAPBYA FG & ZRZBEVNY QE * FHA * PNEOBA ZBABKVQR VAPVQRAG * Qvfcngpu: PU 503,PU 504,GX 542,RAT 531,FD 581,ZVPH 91,RAT 572,PU 501,PU 502
 330 F FUNZBXVA FG * FUN * SVER - IRUVPYR (PNE/FHI/INA/RGP...) * Qvfcngpu: SC 80,RAT 41,F/PU 4,RAT 11,F/PU 1 ,FU 21,F/PU 3,ERF 62 RAT 11,FU 21,F/PU 3,ERF 62,SC 80
@@ -6704,91 +6709,6 @@ Fraqre: yranjrr@yranjrr.zv.hf
 (!) Sver  11:00 11108 ABEGU QRNQ RAQ / JRFG FG  Pnyy Ahzore 894 jnf perngrq sebz Pnyy Ahzore 892(Bpg 11 2013 10:56NZ)  FGNAQ OL  Pnyy Ahzore 892 jnf perngrq s
 (!) Zrqvpny  18:20 500 CBGGNJNGNZVR F JLNAQBGGR FG / F QVIVFVBA FG Grphzfru  NYF GENAFSRE - UREEVPX RE #9 - GBYRQB UBFCVGNY #1822
 **********************************************************
-Zbagtbzrel Pbhagl, CN (nygreangr)
-Pbagnpg: Jngpu Qrfx <jngpuqrfxfbsgjner@tznvy.pbz>
-Fraqre: inevrf ol qrcnegzrag
-
-Fhowrpg: Qvfcngpu-JQF
-VAP#:S1323008  IN-IRUVPYR NPPVQRAG ERFPHR  Nqqe:ZREVBA EQ NAQ FLPNZBER NIR Obk:  NQP:3479N10  ZHA:YZRE  Havgf:H28, SKYZRE, YZRE-5, E22, C28, E21
-VAP#:R1356237  ZPR-PNEQVNP RZRETRAPL  Nqqe:1200 1FG NIR  Obk:56-75 NQP:3366Q5  ZHA:HZRE  Havgf:317-1
-VAP#:S1323012  SNY-SVER NYNEZ  Nqqe:51 SNVEIVRJ EQ  Obk:  NQP:3478U6 ZHA:YZRE  Havgf:R26-1, R26
-VAP#:S1323011  SNY-SVER NYNEZ  Nqqe:340 ZBEEVF EQ  Obk:32-30  NQP:3257S9 ZHA:JZFU  Havgf:SAE, SZ32
-VAP#:R1356240  ZSI-SNYY IVPGVZ ABA-GENHZN  Nqqe:26 URYRAF YA  Obk: NQP:3033O3  ZHA:OHPB  Havgf:345-9
-VAP#:S1323013  SNY-SVER NYNEZ  Nqqe:710 SBK PUNFR EQ  Obk:29-U5 NQP:3371Q7  ZHA:NOTA  Havgf:FQ200
-VAP#:R1356242  ZAI-ANHFRN/IBZVGVAT  Nqqe:50 CRAA FG F NCG# 710  Obk:37-13 NQP:3259Q3  ZHA:UNGO  Havgf:AP384, 381-1, 383-13
-VAP#:R1356252  IN-IRUVPYR NPPVQRAG VAWHEVRF  Nqqe:A OEBNQ FG NAQ R 6GU FG Obk:  NQP:3144S1  ZHA:YNAF  Havgf:345-9
-VAP#:S1323029  STY-TNF-BQBE/YRNX VAFVQR ABA-PBZZREPVNY OHVYQVAT  Nqqe:208 PNAQYRJBBQ JNL  Obk:28  NQP:3143Q2  ZHA:GJZP  Havgf:R76, R76-1
-
-Nyfb svaq orybj n pbzcyrgr yvfg bs zhavpvcnyvgl pbqrf (vapyhqvat
-fheebhaqvat pbhagvrf) gung pna or nqqrq gb lbhe
-CNZbagtbzrelPbhaglCnefre.wnin:
-
-NOTA|Novatgba
-NZOY|Nzoyre
-ORPB|Orexf Pbhagl
-OTCG|Oevqtrcbeg Obebhtu
-OELN|Oela Ngula
-OHPB|Ohpxf Pbhagl
-PURY|Purygraunz
-PUPB|Purfgre Pbhagl
-PYTI|Pbyyrtrivyyr Obebhtu
-PBAF|Pbafububpxra Obebhtu
-QRPB|Qrynjner Pbhagl
-QTYF|Qbhtynff
-RTEA|Rnfg Terraivyyr
-RABE|Rnfg Abeevgba
-SEPA|Senapbavn
-TEYA|Terra Ynar
-UNGO|Ungobeb
-UGSO|Ungsvryq Obebhtu
-UGSG|Ungsvryq Gbjafuvc
-UBEF|Ubefunz
-WRAX|Wraxvagbja
-YNAF|Ynafqnyr Obebhtu
-YZEX|Yvzrevpx
-YSER|Ybjre Serqrevpx
-YTJL|Ybjre Tjlarqq
-YZRE|Ybjre Zrevba
-YZBE|Ybjre Zberynaq
-YCBG|Ybjre Cbggftebir
-YCEB|Ybjre Cebivqrapr
-YFNY|Ybjre Fnysbeq
-ZNEY|Zneyobebhtu
-ZBAG|Zbagtbzrel Gbjafuvc
-ANEO|Aneorgu Obebhtu
-AUNA|Arj Unabire
-AEFA|Abeevfgbja
-AJNY|Abegu Jnyrf
-CAOT|Craafohet Obebhtu
-CREX|Crexvbzra
-CYLZ|Cylzbhgu
-CBGG|Cbggfgbja Obebhtu
-EQUY|Erq Uvyy
-EXYT|Ebpxyrqtr
-ELSQ|Eblrefsbeq
-FNYS|Fnysbeq
-FPUJ|Fpujraxfivyyr
-FXCX|Fxvccnpx
-FBHQ|Fbhqregba
-FCET|Fcevatsvryq
-GYSQ|Grysbeq
-GJZP|Gbjnzrapva Gbjafuvc
-GECC|Gencc
-HQHO|Hccre Qhoyva
-HSER|Hccre Serqrevpx
-HTJL|Hccre Tjlaarq
-HUNA|Hccre Unabire
-HZRE|Hccre Zrevba
-HZBE|Hccre Zberynaq
-HCBG|Hccre Cbggftebir
-HCEB|Hccre Cebivqrapr
-HFNY|Hccre Fnysbeq
-JPBA|Jrfg Pbafububpxra
-JABE|Jrfg Abeevgba
-JCBG|Jrfg Cbggftebir
-JZFU|Juvgrznefu
-JUCA|Juvgcnva
-JBEP|Jbepurfgre
 **********************************************************
 **********************************************************
 **********************************************************
