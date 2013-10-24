@@ -3,21 +3,22 @@ package net.anei.cadpage.parsers.SD;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser;
 
 /**
  * Pennington County, SD
  */
-public class SDPenningtonCountyParser extends FieldProgramParser {
- 
-  private static final Pattern TIME_PTN = Pattern.compile(" (\\d\\d:\\d\\d)$"); 
+public class SDPenningtonCountyParser extends SmartAddressParser {
+  
+  private static final Pattern UNIT_PTN = Pattern.compile("^([A-Z0-9]+) +\\(Primary\\);? *");
+  private static final Pattern CITY_PTN = Pattern.compile("(.*?) *, *([A-Z ]+?) *, SD +\\d{5} *(.*?)");
   
   public SDPenningtonCountyParser() {
-    super(CITY_LIST, "PENNINGTON COUNTY", "SD",
-           "Unit:UNIT! Status:STATUS! Problem:INFO Patient_info:INFO");
+    super(CITY_LIST, "PENNINGTON COUNTY", "SD");
+    setFieldList("UNIT CALL ADDR APT CITY INFO");
   }
-  
+
   @Override
   public String getFilter() {
     return "dispatch@co.pennington.sd.us";
@@ -25,73 +26,40 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equalsIgnoreCase("page")) return false;
+    if (!subject.equalsIgnoreCase("Dispatch")) return false;
     
-    Matcher match = TIME_PTN.matcher(body);
-    if (match.find()) {
-      data.strTime = match.group(1);
-      body = body.substring(0,match.start()).trim();
+    // Parser unit information
+    while (true) {
+      Matcher match = UNIT_PTN.matcher(body);
+      if (!match.find()) break;
+      data.strUnit = append(data.strUnit, " ", match.group(1));
+      body = body.substring(match.end());
     }
-    return super.parseMsg(body, data);
-  }
-  
-  @Override
-  public String getProgram() {
-    return super.getProgram() + " TIME";
-  }
-  
-  private static final Pattern CALLBACK_PTN = Pattern.compile("\\bCALLBK=([-0-9\\(\\)]+)\\b");
-  private static final Pattern CODE_PTN = Pattern.compile("\\b\\d{1,2}-?[A-Za-z]-?\\d{1,2}[A-Za-z]?\\b");
-  private class StatusField extends AddressField {
+    if (data.strUnit.length() == 0) return false;
     
-    @Override
-    public void parse(String field, Data data) {
-      int pt = field.indexOf(" ProQA ");
-      if (pt > 0) {
-        Matcher match = CODE_PTN.matcher(field);
-        if (match.find(pt+7)) {
-          data.strCode = match.group();
-        }
-        field = field.substring(0,pt).trim();
-      }
-      
-      StartType st = StartType.START_CALL;
-      int flags = FLAG_PAD_FIELD | FLAG_IGNORE_AT | FLAG_IMPLIED_INTERSECT;
-      
-      Matcher match = CALLBACK_PTN.matcher(field);
-      if (match.find()) {
-        data.strPhone = match.group(1);
-        data.strCall = field.substring(0,match.start()).trim();
-        field = field.substring(match.end()).trim();
-        st = StartType.START_ADDR;
-      }
-      
-      match = CODE_PTN.matcher(field);
-      if (match.find()) {
-        data.strCode = match.group();
-        data.strSupp = field.substring(match.end()).trim();
-        field = field.substring(0,match.start()).trim();
-        flags |= FLAG_ANCHOR_END;
-      }
-      parseAddress(st, flags, field, data);
-      data.strPlace = getPadField();
-      if ((flags & FLAG_ANCHOR_END) == 0) data.strSupp = getLeft();
-      if (data.strCity.equalsIgnoreCase("PENNCO")) data.strCity = "";
+    String callAddr;
+    Matcher  match = CITY_PTN.matcher(body);
+    if (match.matches()) {
+      callAddr = match.group(1);
+      data.strCity = match.group(2);
+      data.strSupp = match.group(3);
+    } else {
+      int pt = body.indexOf(',');
+      if (pt < 0) return false;
+      callAddr =  body.substring(0,pt).trim();
+      body = body.substring(pt+1).trim();
+      parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, body, data);
+      if (data.strCity.length() == 0) return false;
+      data.strSupp = getLeft();
     }
-    
-    @Override
-    public String getFieldNames() {
-      return "CALL PHONE ADDR APT PLACE CITY INFO CODE";
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("STATUS")) return new StatusField();
-    return super.getField(name);
+    if (data.strCity.equals("PENNCO")) data.strCity = "";
+    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, callAddr, data);
+    return true;
   }
   
   private static final String[] CITY_LIST = new String[]{
+    "PENNCO",
+    
     "ASHLAND HEIGHTS",
     "COLONIAL PINE HILLS",
     "CREIGHTON",
