@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10152013</string>
-  <string name="release_version">v1.6.47</string>
+  <string name="release_date">10242013</string>
+  <string name="release_version">v1.6.48</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Jefferson County, CO (alt)\n
-Androdscoggin County, ME\n
-Ingham County, MI\n
-Dare County, NC\n
-Box Elder County, UT\n
+Jones County, NC\n
+Multnomah County, OR\n
+Chester County, PA (alt)\n
+Montgomery County, PA\n
+Seabroook, TX\n
+Seguin, TX\n
 \n
 Location Parsing Fixes:\n
-Yavapai County, AZ\n
-Adams County, CO\n
-Muscatine County, IA\n
-Sedgwick County, KS\n
-Calhoun County, MI\n
-Midland County, MI\n
-Washington County, MN\n
-Jefferson City, MO\n
-St Francois County, MO\n
-Flathead County, MT\n
-Merrimack County, NH\n
-Atlanticare, NJ\n
-Nassau County, NY\n
-Craven County, NC\n
-Orange County, NC\n
-Yadkin County, NC\n
+Shelby County, AL\n
+Carroll County, MD\n
+Lenawee County, MI\n
+Carver County, MN\n
+Erie County, NY\n
+Orange County, NY\n
+Haywood County, NC\n
+Randolph County, NC\n
+Jackson County, OR\n
 Linn County, OR\n
-Chester County, PA\n
-Anderson County, SC\n
-Lufkin, TX\n
+Pennington County, SD\n
+Collin County, TX\n
+Cy Creek Comm Center, TX\n
+King County, WA\n
+Calgary, AB, CA\n
+Canmore, BC, CA\n
+\n
+General improvments to apartment parsing\n
   </string>  
 </resources>
   
