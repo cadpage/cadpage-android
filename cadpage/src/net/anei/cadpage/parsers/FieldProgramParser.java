@@ -367,6 +367,9 @@ public class FieldProgramParser extends SmartAddressParser {
         }
       }, keywordMap);
     }
+    
+//    System.out.println(program);
+//    System.out.println(toString());
   }
   
   /**

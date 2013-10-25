@@ -11,8 +11,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchGlobalDispatchParser;
 
 public class MOPolkCountyParser extends DispatchGlobalDispatchParser {
   
-  private static final Pattern UNIT_PTN = Pattern.compile("M\\d+|MSHP\\d|\\d{3}");
-  private static final Pattern MAP_PTN = Pattern.compile("/ *(\\d{1,2}-[A-Z]-\\d{1,2})$");
+  private static final Pattern UNIT_PTN = Pattern.compile("[MRC]\\d+|MSHP\\d|\\d{2,3}(?:-\\d)?|SJDC|SJLL|[A-Z]{1,2}FD");
+  private static final Pattern CALL_CODE_PTN = Pattern.compile("/ *(\\d{1,2}-[A-Z]-\\d{1,2})$");
   private static final Pattern CITY_PTN = Pattern.compile("[A-Z ]+", Pattern.CASE_INSENSITIVE);
   
   public MOPolkCountyParser() {
@@ -29,7 +29,7 @@ public class MOPolkCountyParser extends DispatchGlobalDispatchParser {
     body = body.replace("Disp:", "Dispatch:");
     if (!super.parseMsg(body, data)) return false;
     if (data.strCity.equals("POLK COUNTY")) data.strCity = "";
-    Matcher match = MAP_PTN.matcher(data.strCall);
+    Matcher match = CALL_CODE_PTN.matcher(data.strCall);
     if (match.find()) {
       data.strCode = match.group(1);
       data.strCall = data.strCall.substring(0,match.start()).trim();

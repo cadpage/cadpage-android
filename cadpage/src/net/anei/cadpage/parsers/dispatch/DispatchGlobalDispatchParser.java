@@ -64,7 +64,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     if ((flags & CALL_FOLLOWS_ADDR) == 0) sb.append("CALL! ");
     sb.append("ADDR! ");
     if (inclCity) sb.append("CITY? ");
-    if ((flags & CALL_FOLLOWS_ADDR) != 0) sb.append("PLACE CALL! ");
+    if ((flags & CALL_FOLLOWS_ADDR) != 0) sb.append("( CALL! Primary_Incident:ID! | PLACE CALL! ) ");
     if ((flags & TRAIL_SRC_UNIT_ADDR) != 0) sb.append("UNIT ");
     sb.append(" | ADDR2/S");
     sb.append((flags & CALL_FOLLOWS_ADDR) != 0 ? "XC" : "CX");
@@ -89,9 +89,22 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     if (body.substring(0,pt).contains("\n")) {
       select = "NEW";
       if (!parseFields(DELIM_PTN.split(body), data)) return false;
-      return data.strMap.length() > 0 || data.strSupp.length() > 0 || 
-              data.strSupp.length() > 0 || data.strCross.length() > 0 ||
-              data.strTime.length() > 0; 
+      if (data.strMap.length() > 0 || data.strSupp.length() > 0 || 
+          data.strCross.length() > 0 || data.strTime.length() > 0) return true;
+      
+      // Still questionable.  If there is a unit field and pattern, see if
+      // they match
+      if (data.strUnit.length() > 0 && unitPtn != null) {
+        boolean good = true;
+        for (String unit : data.strUnit.split(" +")) {
+          if (!unitPtn.matcher(unit).matches()) {
+            good = false;
+            break;
+          }
+        }
+        if (good) return true;
+      }
+      return false;
     }
     
     // Otherwise use the standard line break format
