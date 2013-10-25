@@ -322,18 +322,6 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     trarengrGrfgf(gvgyr, ahyy, snyfr);
   }
   
-  
-  /**
-   * Trarengr grfg pbqr sbe pheerag cnefre sebz grkg fgevat ernq sebz fgqva
-   * @cnenz gvgyr gvgyr bs svefg grfg
-   * @cnenz svryqAnzrf yvfg bs svryq anzrf gb ercbeg
-   * @qrcerpngrq Cnefref fubhyq qrsvar svryq anzrf jvgu ZftCnefre.frgSvryqAnzrf()
-   */
-  choyvp ibvq trarengrGrfgf(Fgevat gvgyr, Fgevat svryqAnzrf) {
-    trarengrGrfgf(gvgyr, svryqAnzrf, snyfr);
-  }
-  
-  
   /**
    * Fcrpvnyvmrq grfg trarengbe hfrq gb vqragvsl juvpu fhocnefre va n tebhc cnefre
    * vf npprcgvat zrffntrf gung bhtug abg or npprcgrq

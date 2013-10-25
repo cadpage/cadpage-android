@@ -30,6 +30,8 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   cevingr fgngvp svany vag SYNT_BCG_FGERRG_FSK = FznegNqqerffCnefre.SYNT_BCG_FGERRG_FSK;
   cevingr fgngvp svany vag SYNT_ARNE_GB_RAQ = FznegNqqerffCnefre.SYNT_ARNE_GB_RAQ;
   cevingr fgngvp svany vag SYNT_CNQ_SVRYQ_RKPY_PVGL = FznegNqqerffCnefre.SYNT_CNQ_SVRYQ_RKPY_PVGL;
+  cevingr fgngvp svany vag SYNT_AB_FGERRG_FSK = FznegNqqerffCnefre.SYNT_AB_FGERRG_FSK;
+  cevingr fgngvp svany vag SYNT_AB_PVGL = FznegNqqerffCnefre.SYNT_AB_PVGL;
   
   cevingr fgngvp svany Fgevat[] PVGL_YVFG = arj Fgevat[]{"XRAFOHET", "XRA GBJA", "9999", "A OEBBXSVRYQ", "OEBBXSVRYQ"};
   cevingr fgngvp svany Fgevat QRS_PVGL = "FGNGR BS ZVAQ";
@@ -49,6 +51,9 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(NQQE, SYNT_AB_FGERRG_FSK | SYNT_PEBFF_SBYYBJF | SYNT_AB_PVGL, "15035 PB EQ W SHYGBA PBHAGL SNVETEBHAQF / QBIRE QE  EVG GRNZ NFFVFG SBE FGEHPGHER SVER  Xrafohet",
+        "NQQE:15035 PB EQ W");
     
     qbGrfg(NQQE, SYNT_PEBFF_SBYYBJF, "206 YNAR NIR XRAFOHET YNAR NIR NFFVFGRQ YVIVATREARFG FG / RYX FG 20-N Falqre Uvyy",
            "NQQE:206 YNAR NIR",
