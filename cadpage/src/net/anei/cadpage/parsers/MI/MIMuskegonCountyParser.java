@@ -28,6 +28,11 @@ public class MIMuskegonCountyParser extends DispatchOSSIParser {
   public String getFilter() {
     return "cad@mcd911.net,9300";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_CR;
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {

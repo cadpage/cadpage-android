@@ -22,6 +22,11 @@ public class ORMarionCountyBParser extends FieldProgramParser {
   public String getAliasCode() {
     return "ORMarionCountyB";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_CR;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

@@ -150,6 +150,13 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_RECHECK_APT = 0x100000;
   
+  /**
+   * Flag indication that there is absolutely, positively, no street suffix
+   * in this address.  Used only in the incredibly wierd case where search for
+   * a street suffix will mistakenly pick up a following cross street. 
+   */
+  public static final int FLAG_NO_STREET_SFX = 0x200000;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -361,16 +368,14 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_SINGLE_WORD_ROAD, "TURNPIKE");
     
     // Set up special cross street names
-    String[] crossRoadList = new String[]{
+    addCrossStreetNames(
         "DEADEND",
         "DEAD END",
         "RR",
         "RR TRACKS",
         "TRAILER PARK",
         "UNNAMED STREET"
-    };
-    mWordCrossStreetsRev = new MultiWordList(-1, ID_SPEC_CROSS_FWD, ID_MULTIWORD, ID_COMPLETE, crossRoadList);
-    mWordCrossStreetsFwd = new MultiWordList(+1, ID_SPEC_CROSS_REV, ID_MULTIWORD, ID_COMPLETE, crossRoadList);
+    );
     
     // Add any country specific words
     switch (getCountryCode()) {
@@ -484,6 +489,19 @@ public abstract class SmartAddressParser extends MsgParser {
     mWordStreetsRev = new MultiWordList(-1, 0, ID_MULTIWORD, 0, names);
   }
 
+  /**
+   * Add additional names to the list of special cross street names
+   * @param names cross street names to be added
+   */
+  protected void addCrossStreetNames(String ... names) {
+    if (mWordCrossStreetsFwd == null) {
+      mWordCrossStreetsRev = new MultiWordList(-1, ID_SPEC_CROSS_FWD, ID_MULTIWORD, ID_COMPLETE, names);
+      mWordCrossStreetsFwd = new MultiWordList(+1, ID_SPEC_CROSS_REV, ID_MULTIWORD, ID_COMPLETE, names);
+    } else {
+      mWordCrossStreetsRev.addNames(-1, names);
+      mWordCrossStreetsFwd.addNames(+1, names);
+    }
+  }
   
   
   // Parser working variables
@@ -519,6 +537,28 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   protected int checkAddress(String address, int extra) {
     return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_NO_CITY, address).getStatus(extra);
+  }
+  
+  /**
+   * Determine if a string looks like a cross street
+   * @param address Address string to be checked
+   * @return zero if string is not recognized as valid address, otherwise a
+   * numeric value in which higher values indicate better cross streets
+   */
+  protected int checkCrossStreet(String address) {
+    return checkCrossStreet(address, 0);
+  }
+  
+  /**
+   * Determine if a string looks like a valid address
+   * @param address Address string to be checked
+   * @param extra number of extra tokens (presumably city names) that can
+   * be ignored at the end of the line
+   * @return zero if string is not recognized as valid address, otherwise a
+   * numeric value in which higher values indicate better addresses
+   */
+  protected int checkCrossStreet(String address, int extra) {
+    return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ONLY_CROSS | FLAG_NO_CITY, address).getStatus(extra);
   }
   
   /**
@@ -617,6 +657,7 @@ public abstract class SmartAddressParser extends MsgParser {
     result.stdPrefix = "";
     result.left = "";
     result.mBlankLeft = false;
+    result.commaLeft = false;
     
     if (result.startField != null) {
       
@@ -636,7 +677,10 @@ public abstract class SmartAddressParser extends MsgParser {
     
     if (result.endAll >= 0 && result.endAll < tokenPos.length) {
       int tmp = result.endAll;
-      while (tmp < tokens.length && tokens[tmp].equals(",")) tmp++;
+      while (tmp < tokens.length && tokens[tmp].equals(",")) {
+        tmp++;
+        result.commaLeft = true;
+      }
       if (tmp < tokenPos.length){ 
         int pt = tokenPos[tmp];
         result.mBlankLeft = (pt >= 2 && saveAddress.substring(pt-2, pt).equals("  "));
@@ -781,10 +825,18 @@ public abstract class SmartAddressParser extends MsgParser {
 
   /**
    * Called after address has been parsed
-   * @return the part of the line after the address
+   * @return true if multple blanks occurred before the getLeft() result
    */
   public boolean isMBlankLeft() {
     return lastResult.isMBlankLeft();
+  }
+
+  /**
+   * Called after address has been parsed
+   * @return true if there was a comma before the getLeft() result
+   */
+  public boolean isCommaLeft() {
+    return lastResult.isCommaLeft();
   }
   
   /**
@@ -1810,9 +1862,15 @@ public abstract class SmartAddressParser extends MsgParser {
       int mWordIndex = -1;
       if (mWordStreetsFwd != null) {
         mWordIndex = mWordStreetsFwd.findEndSequence(origStart);
-        if (mWordIndex > origStart+1 && isType(mWordIndex, ID_ROAD_SFX)) {
-          end = mWordIndex+1;
-          break;
+        if (mWordIndex > origStart+1) {
+          if (isType(mWordIndex, ID_ROAD_SFX)) {
+            end = mWordIndex+1;
+            break;
+          }
+          if (isFlagSet(FLAG_NO_STREET_SFX)) {
+            end = mWordIndex;
+            break;
+          }
         }
       }
       
@@ -1827,7 +1885,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // if we are accepting roads without a street suffix, we will compute the
       // default value assuming this is a suffixless street name.  If not, the failure return
       // is always -1;
-      if (failIndex < 0 && option > 1 && isFlagSet(FLAG_OPT_STREET_SFX)) {
+      if (failIndex < 0 && option > 1 && isFlagSet(FLAG_OPT_STREET_SFX|FLAG_NO_STREET_SFX)) {
         if (isType(start, ID_NOT_ADDRESS | ID_CONNECTOR)) return -1;
         if (mWordIndex >= 0) {
           failIndex = mWordIndex;
@@ -1869,6 +1927,13 @@ public abstract class SmartAddressParser extends MsgParser {
       if (isType(start, ID_NUMBER) && isType(start+1, ID_CONNECTOR)) return start+1;
       
       // Still no luck,
+      // If we are deliberately ignoring street suffixes, take what we have so far
+      // Possibly incrementing the result over a road suffix that is right here.
+      if (isFlagSet(FLAG_NO_STREET_SFX)) {
+        if (isType(failIndex, ID_ROAD_SFX)) failIndex++;
+        return failIndex;
+      }
+
       // start looking for a street suffix (or cross street indicator
       // If we have to pass more than two tokens before finding, give up
       end = origStart;
@@ -2277,10 +2342,14 @@ public abstract class SmartAddressParser extends MsgParser {
       this.idFlag = idFlag;
       this.incompFlag = incompFlag;
       this.completeFlag = completeFlag;
+
+      addNames(dir, nameList);
+    }
+
+    public void addNames(int dir, String[] nameList) {
       
       int flags1 = idFlag | incompFlag;
       int flags2 = idFlag | completeFlag;
-
       // Run thorough the city list
       for (String name : nameList) {
         
@@ -2413,6 +2482,7 @@ public abstract class SmartAddressParser extends MsgParser {
     private String startFld = null;
     private String left = null;
     private boolean mBlankLeft = false;
+    private boolean commaLeft = false;
     boolean fallbackAddr = false;
     boolean startFldNoDelim = false;
     boolean recheckApt = false;
@@ -2581,7 +2651,7 @@ public abstract class SmartAddressParser extends MsgParser {
     }
     
     /**
-     * return the start field the is fond in front of the address
+     * return the start field that is fond in front of the address
      */
     public String getStart() {
       if (startFld == null) {
@@ -2615,6 +2685,15 @@ public abstract class SmartAddressParser extends MsgParser {
     public boolean isMBlankLeft() {
       if (nearResult != null) return nearResult.isMBlankLeft();
       return mBlankLeft;
+    }
+    
+    /**
+     * Determine there was a comma in front of the string returned by getLeft()
+     * @return true if there was a comma before the getLeft() result
+     */
+    public boolean isCommaLeft() {
+      if (nearResult != null) return nearResult.isCommaLeft();
+      return commaLeft;
     }
     
     /**
