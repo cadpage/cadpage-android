@@ -19,6 +19,11 @@ public class NCCarteretCountyParser extends DispatchSouthernPlusParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
 
     if (!super.parseMsg(subject, body, data)) return false;

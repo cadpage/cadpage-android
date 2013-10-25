@@ -350,6 +350,10 @@ public class DispatchSouthernParser extends FieldProgramParser {
         field = p.get();
       }
       
+      if (field.startsWith("geo:")) {
+        field = setGPSLoc(field.substring(4).trim(), data);
+      }
+      
       if (data.strCall.length() == 0) {
         data.strCall = field;
         return;
@@ -360,7 +364,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "UNIT CALL INFO";
+      return "UNIT CALL GPS INFO";
     }
   }
   
