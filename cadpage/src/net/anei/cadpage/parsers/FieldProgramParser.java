@@ -1411,12 +1411,16 @@ public class FieldProgramParser extends SmartAddressParser {
         return true;
       }
       
+      // Check for special doNotTrim processing
+      boolean doNotTrim = (field != null && field.doNotTrim());
+      
       // Now we have to deal with any tag complications
       // Default is to process this step with this data field
       // Tag processing is suppressed for Select field steps since they really
       // do no field processing
       Step procStep = this;
-      String curFld = ndx < flds.length ? flds[ndx].trim() : "";
+      String curFld = ndx < flds.length ? flds[ndx] : "";
+      if (!doNotTrim) curFld = curFld.trim();
       if (parseTags && !(field instanceof SelectField)) {
         Step startStep = this;
         int startNdx = ndx;
@@ -1431,7 +1435,8 @@ public class FieldProgramParser extends SmartAddressParser {
           if (pt >= 0) {
             curTag = curFld.substring(0, pt).trim();
             if (ignoreCase) curTag = curTag.toUpperCase();
-            curVal = curFld.substring(pt+1).trim();
+            curVal = curFld.substring(pt+1);
+            if (!doNotTrim) curVal = curVal.trim();
           }
           
           // If this is an option tagged step, take failure branch
@@ -1933,6 +1938,13 @@ public class FieldProgramParser extends SmartAddressParser {
      * @return blank separated names of the base info fields that might be set by this field
      */
     abstract public String getFieldNames();
+    
+    /**
+     * @return true if data fields should not be trimmed before being processed.
+     */
+    public boolean doNotTrim() {
+      return false;
+    }
   }
 
   /**
