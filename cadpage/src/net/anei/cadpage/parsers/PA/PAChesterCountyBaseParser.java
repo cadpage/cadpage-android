@@ -48,7 +48,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
   }
   
   // ADDRCITY: address, citycode
-  protected class AddressCityField extends AddressField {
+  protected class BaseAddressCityField extends AddressField {
     
     @Override
     public boolean checkParse(String field, Data data) {
@@ -215,7 +215,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDRPL")) return new AddressPlaceField();
-    if (name.equals("ADDRCITY")) return new AddressCityField();
+    if (name.equals("ADDRCITY")) return new BaseAddressCityField();
     if (name.equals("ADDRCITY2")) return new AddressCity2Field();
     if (name.equals("CITY")) return new CityField();
     if (name.equals("X2")) return new Cross2Field();
