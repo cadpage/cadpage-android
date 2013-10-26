@@ -16,7 +16,7 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
   private static final Pattern COMMA_DELIM = Pattern.compile(",(?=BOX:|TIME:|NOTES:)");
   
   public PAMontgomeryCountyCParser() {
-    super(PAMontgomeryCountyParser.CITY_CODES, "Montgomery County", "PA",
+    super(PAMontgomeryCountyParser.CITY_CODES, "MONTGOMERY COUNTY", "PA",
         "ADDR/S TRUCKS:UNITADDR? Place:PLACE? XST:X! MUN:CITY? NAT:CALL! BOX:BOX ADC:ID TIME:TIME NOTES:INFO TRUCKS:UNIT");
    }
 
