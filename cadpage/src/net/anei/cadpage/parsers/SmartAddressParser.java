@@ -331,7 +331,8 @@ public abstract class SmartAddressParser extends MsgParser {
         "BYPASS", "BYP",
         "ALLEY", "ALY",
         "FREEWAY",
-        "HT", "HTS", "HEIGHTS");
+        "HT", "HTS", "HEIGHTS",
+        "BND", "BEND");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
     setupDictionary(ID_BYPASS, "BYPASS", "BYP");
@@ -340,7 +341,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", 
         "RUN", "LANE", "PARK", "POINT", "RIDGE", "CREEK", "MILL", "BRIDGE", "HILLS",
         "HILL", "TRACE", "STREET", "MILE", "BAY", "NOTCH", "END", "LOOP", "ESTATES",
-        "SQUARE", "WALK", "CIRCLE", "GROVE", "HT", "HTS", "HEIGHTS");
+        "SQUARE", "WALK", "CIRCLE", "GROVE", "HT", "HTS", "HEIGHTS", "BEND");
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
         "AVENUE", "AV", "AVE", 
@@ -1171,11 +1172,6 @@ public abstract class SmartAddressParser extends MsgParser {
     int ndx = findRoadEnd(sAddr, 2);
     if (ndx < 0) return -1;
     
-    // If there was a following direction token, the findRoadEnd() method
-    // won't pick it up if it might belong to a following cross street.
-    // So we have to check for that here
-    if (isFlagSet(FLAG_CROSS_FOLLOWS) && isType(ndx, ID_DIRECTION)) ndx++;
-    
     //  Is this followed by a connector?
     if (! isType(ndx, ID_CONNECTOR)) return -1;
     return ndx;
@@ -1969,7 +1965,9 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // If road is followed by a direction and that direction can not be part of
     // a following cross street, include it
-    if ((!isFlagSet(FLAG_CROSS_FOLLOWS) || end+1 == tokens.length) && isType(end, ID_DIRECTION)) end++;
+    if (isType(end, ID_DIRECTION)) {
+      if (!isFlagSet(FLAG_CROSS_FOLLOWS) || end+1 == tokens.length || isComma(end+1) || isType(end+1, ID_CONNECTOR)) end++;
+    }
     return end;
   }
 

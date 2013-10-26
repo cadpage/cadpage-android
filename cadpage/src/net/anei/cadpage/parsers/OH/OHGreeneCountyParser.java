@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -13,7 +14,7 @@ public class OHGreeneCountyParser extends FieldProgramParser {
   
   public OHGreeneCountyParser() {
     super(CITY_LIST, "GREENE COUNTY", "OH",
-           "CALL Location:ADDR! Time:TIME Units:UNIT Common_Name:NAME Info:INFO");
+           "CALL Location:ADDR/SXXx! Time:TIME Units:UNIT Common_Name:PLACE Info:INFO ( Problem:CALL Patient_Info:INFO | Nature_Of_Call:CALL ) Incident_#:ID");
   }
   
   @Override
@@ -27,29 +28,22 @@ public class OHGreeneCountyParser extends FieldProgramParser {
     return super.parseMsg(body, data);
   }
   
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.endsWith(".")) field = field.substring(0,field.length()-1).trim();
+      super.parse(field, data);
+    }
+  }
+  
   private class MyAddressField extends AddressField {
 
     @Override
     public void parse(String field, Data data) {
-      
-      // Make one pass to parser the city from the end of the field
-      parseAddress(StartType.START_PLACE, FLAG_ONLY_CITY | FLAG_ANCHOR_END, field, data);
-      String city = data.strCity;
-      String addr = data.strPlace;
-      data.strPlace = "";
-      
-      // Now that city has been taken care of, we can look for a regular address
-      // This call should ignore the defined city list
-      parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS | FLAG_NO_CITY, addr, data);
-      
-      // Followed by place name and cross street
-      Parser p = new Parser(getLeft());
-      data.strPlace = p.getOptional(',');
-      data.strCross = p.get();
+
+      super.parse(field, data);
       if (data.strCross.equalsIgnoreCase("No Cross Streets Found")) data.strCross = "";
-      
-      if (city.equals("CAESARCREEK TWP")) city = "CAESARSCREEK TWP";
-      data.strCity = city;
+      if (data.strCity.equals("CAESARCREEK TWP")) data.strCity = "CAESARSCREEK TWP";
     }
 
     @Override
@@ -58,9 +52,38 @@ public class OHGreeneCountyParser extends FieldProgramParser {
     }
   }
 
+  private static final Pattern INFO_CODE_PTN = Pattern.compile(" *\\bDispatch (?:Code|Level): +([-A-Z0-9]+);?");
+  private static final Pattern INFO_JUNK_PTN = Pattern.compile(" *(?:ProQA Dispatch Message Sent;|New ProQA Case Number has been assigned: +-?\\d+)");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = INFO_CODE_PTN.matcher(field);
+      if (match.find()) {
+        data.strCode = match.group(1);
+        field = field.substring(0,match.start()) + field.substring(match.end());
+      }
+      
+      int pt = field.indexOf(" E911 Info ");
+      if (pt >= 0) {
+        field = field.substring(0,pt).trim();
+      }
+      
+      field = INFO_JUNK_PTN.matcher(field).replaceAll("").trim();
+      
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO CODE";
+    }
+  }
+
   @Override
   protected Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
