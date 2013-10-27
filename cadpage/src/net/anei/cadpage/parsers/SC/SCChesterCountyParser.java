@@ -32,8 +32,8 @@ public class SCChesterCountyParser extends DispatchBParser {
     data.strCode = body.substring(0,pt).trim();
     
     // Call superclass parser
+    body = body.replace('@', '&');
     if (!super.parseMsg(body, data)) return false;
-    data.strAddress = data.strAddress.replaceAll(" *@ *", " & ");
     return true;
   }
   

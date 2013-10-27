@@ -39,6 +39,11 @@ public class PASomersetCountyParser extends DispatchBParser {
         body = subject + " " + body.substring(10);
         break;
       }
+      
+      if (subject.contains(">")) {
+        body = subject + " @ " + body;
+        break;
+      }
       return false;
     } while (false);
     

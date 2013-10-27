@@ -706,8 +706,11 @@ public abstract class SmartAddressParser extends MsgParser {
     boolean onlyCity = isFlagSet(FLAG_ONLY_CITY);
 
     // If we have a call dictionary, and address starts with a call, search
-    // the dictionary to see if address line starts with matching call
-    if ((sType == StartType.START_CALL || sType == StartType.START_CALL_PLACE) 
+    // the dictionary to see if address line starts with matching call.  This logic
+    // should be suppressed if we are starting with a call description and the address
+    // contains an @
+    if ((sType == StartType.START_CALL && (isFlagSet(FLAG_AT_PLACE|FLAG_AT_BOTH|FLAG_IGNORE_AT) || !address.contains("@")) ||
+         sType == StartType.START_CALL_PLACE) 
          && callDictionary != null) {
       String call = callDictionary.getCode(address.toUpperCase(), true);
       if (call != null) {
