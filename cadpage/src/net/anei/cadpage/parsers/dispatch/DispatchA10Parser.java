@@ -15,7 +15,7 @@ public class DispatchA10Parser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     crossField.reset();
-    return parseFields(body.split(","), data);
+    return parseFields(body.split(",", -1), data);
   }
   
   // Complicated cross field processing results from the unfortunate fact that

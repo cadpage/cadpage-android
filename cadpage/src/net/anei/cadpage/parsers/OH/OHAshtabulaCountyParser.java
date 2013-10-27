@@ -8,7 +8,7 @@ public class OHAshtabulaCountyParser extends DispatchA10Parser {
 
   public OHAshtabulaCountyParser() {
     super(CITY_LIST, "ASHTABULA COUNTY", "OH",
-           "CALL ADDR/S X!+? INFO+");
+           "( UNIT ADDR CITY ST X+? CALL! | CALL ADDR/S X!+? INFO+ )");
   }
   
   @Override
@@ -26,9 +26,22 @@ public class OHAshtabulaCountyParser extends DispatchA10Parser {
     }
     return true;
   }
-
-
-
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("UNIT")) return new UnitField("\\d{2}", true);
+    if (name.equals("ST")) return new StateField("([A-Z]{2})(?: +\\d{5})?", true);
+    if (name.equals("CALL")) return new MyCallField();
+    return super.getField(name);
+  }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() == 0) field = "ALERT";
+      super.parse(field, data);
+    }
+  }
 
   private static final String[] CITY_LIST = new String[]{
 
@@ -74,6 +87,35 @@ public class OHAshtabulaCountyParser extends DispatchA10Parser {
     "WAYNE TWP",
     "WILLIAMSFIELD TWP",
     "WINDSOR TWP",
+
+    // Townships with suffix
+    "ANDOVER",
+    "ASHTABULA",
+    "AUSTINBURG",
+    "CHERRY VALLEY",
+    "COLEBROOK",
+    "DENMARK",
+    "DORSET",
+    "GENEVA",
+    "HARPERSFIELD",
+    "HARTSGROVE",
+    "JEFFERSON",
+    "KINGSVILLE",
+    "LENOX",
+    "MONROE",
+    "MORGAN",
+    "NEW LYME",
+    "ORWELL",
+    "PIERPONT",
+    "PLYMOUTH",
+    "RICHMOND",
+    "ROME",
+    "SAYBROOK",
+    "SHEFFIELD",
+    "TRUMBULL",
+    "WAYNE",
+    "WILLIAMSFIELD",
+    "WINDSOR",
     
     // Census designated places
     "EDGEWOOD",
