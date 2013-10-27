@@ -55,7 +55,7 @@ choyvp pynff CNZbagtbzrelPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1428 RYZ FG",
         "OBK:99-01",
         "ZNC:9999Q1",
-        "PVGL:ZLGJA",
+        "PVGL:ZL QRZB GBJA",
         "HAVG:Y19, R19-1, R19-2, R19, Y19, FQ19");
   }
   

@@ -99,7 +99,7 @@ Fraqre: sverpnyy@purygraunzsverpbzcnal.bet
 choyvp pynff CNZbagtbzrelPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp CNZbagtbzrelPbhaglPCnefreGrfg() {
-    frgCnefre(arj CNZbagtbzrelPbhaglPCnefre(), "Zbagtbzrel Pbhagl", "CN");
+    frgCnefre(arj CNZbagtbzrelPbhaglPCnefre(), "ZBAGTBZREL PBHAGL", "CN");
   }
   
   @Grfg

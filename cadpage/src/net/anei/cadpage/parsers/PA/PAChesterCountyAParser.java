@@ -44,7 +44,7 @@ public class PAChesterCountyAParser extends PAChesterCountyBaseParser {
     return "SRC " + super.getProgram();
   }
   
-  private class MyAddressCityField extends AddressCityField {
+  private class MyAddressCityField extends BaseAddressCityField {
     @Override
     public void parse(String field, Data data) {
       int pt = field.indexOf(" -- ");
