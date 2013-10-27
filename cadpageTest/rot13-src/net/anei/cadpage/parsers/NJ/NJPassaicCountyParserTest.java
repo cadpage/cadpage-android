@@ -35,7 +35,6 @@ Fraqre: @cbzcgbaynxrfcbyvpr.bet
 12-13044\a10/14/2012 8:38:25 CZ\aNynez Pbaqvgvba - Bgure\a605 Unzohet Gheacvxr\a \aNpgvingrq Pneoba Zbabkvqr nynez
 (Npgvingrq Sver Nynez ) 12-12917\a10/12/2012 11:58:58 NZ\aSver\a260 Jnandhr Nirahr\a \aNpgvingrq Sver Nynez ohvyqvat N gueh Q
 (Npgvingrq Sver Nynez) 12-12917\a10/12/2012 11:58:58 NZ\aSver\a260 Jnandhr Nirahr\a \aNpgvingrq Sver Nynez ohvyqvat N gueh Q
-(grfg) Guvf vf n grfg      gurer vf ab nynez\aGunax lbh sbe lbhe xvaq pbafvqrengvba va guvf znggre\a 
 12-12783\a10/9/2012 12:16:18 CZ\aNynez Pbaqvgvba - Fzbxr / Sver\a25 Pnee Fgerrg\a \anpgvingrq sver nynez.   pnyyrq onpx gb pnapry nynez
 (pneoba zbabkvqr nynez) 12-12726\a10/8/2012 12:42:36 NZ\aSver\a736 Enzncb Nirahr\a \aE/B pneoba zbabkvqr nynez tbvat bss va gur ubhfr
 (CYSQ Zrffntr - "Oryyf Npebff Nzrevpn") 12-12700\a10/7/2012 9:59:02 NZ\aSver Qrcnegzrag Znggre ( Aba-Vapvqrag)\a Jnandhr Nirahr\a \aNyy Sversvtugref ner erdhrfgrq gb ercbeg gb sver urnqdhnegref guvf\azbeavat ng 1130 ubhef gb cnegvpvcngr va "Oryyf npebff Nzrevpn", juvpu vf\an prerzbal gb ubabe nyy sversvtugref jub unir tvira gurve yvsr va gur\ayvar bs qhgl.  \aJr jvyy or evatvat gur oryy ng bhe Sverzra'f Zbahzrag naq fbhaqvat bhe\afveraf va ubabe bs Sversvtugre Enlzbaq Pnuvyy rknpgyl ng 12 abba.  \a Qerff vf Pynff P nf va Puneyvr.  Nyy sversvtugref naq snzvyvrf ner\avaivgrq gb nggraq.
@@ -52,6 +51,17 @@ Fraqre: @cbzcgbaynxrfcbyvpr.bet
 (Fgebat bqbe bs angheny tnf bhgfvqr) 12-12259\a9/27/2012 10:46:10 NZ\aSver\a91 Ynxrivrj Pbheg\a 
 12-12237\a9/26/2012 6:10:07 CZ\aSver Qrcnegzrag Znggre ( Aba-Vapvqrag)\a \a \aNggragvba nyy bssvpref, gbavtug lbh ner erdhrfgrq gb or ng lbhe sver\aubhfr ng 19:30 gb vagreivrj n arj nccyvpnag  
 (Npgvingrq PB Nynez) 12-12217\a9/26/2012 6:05:30 NZ\aSver\a4 Zngurf Nirahr\a \aNpgvingrq PB nynez.
+
+** ABGRF **
+Ybbxf cerggl onfvp ng svefg tynapr, ohg gurer znl or pbzcyvpngvbaf.
+VQ QNGRGVZR PNYY NQQE! VASB+
+Arrq n inyvqngvba pbqr sbe VQ naq n QngrSbezng sbezng sbe QNGRGVZR..
+
+cnefrZft() fubhyq fubhyq fcyvg obql ol \a nq cnff gb trgSvryqf()
+Vs gurer vf n fhowrpg, chg vg va cneraf naq nccraq vg gb fgePnyy nsgre
+n fhpprfshy erghea sebz cnefrZft
+
+V guvax gung jvyy whfg nobhg qb vg.
 
 */
 
