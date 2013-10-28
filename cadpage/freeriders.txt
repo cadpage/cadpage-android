@@ -2132,6 +2132,7 @@ Thomas Mason (twm5003@gmail.com) // paid by check NJ
 Blake Young <blakeffemt08@gmail.com> // market problem
 %%01/27/2013
 Trevor Nelson (robstrevor@gmail.com) <robs_trevor@yahoo.com> // Clark County, NV
+Mike Rose <station8rose@yahoo.com> // market problem email change
 %%01/28/2013
 Jeff Torgerson <torgie17@gmail.com> // Snohomish County, WA
 %%01/29/2013
@@ -2486,6 +2487,11 @@ Scott Hooper (evfd1326@gmail.com) // PayPal on 10-13
 Joshua Tapia <corezero911@gmail.com> // market problem paid on 10/18/11 and 6/30/13
 %%10/21/2013
 Hurshel Shank (hshank571@gmail.com) <hshank571@comcast.net> // check 2428 PA
+%%10/26/2013
+Gerett Chuey <levi.chuey@yahoo.com> //PayPal
+
+%%11/07/2013
+Steve Taylor (staylor8500@gmail.com) <s.taylor@curtiscontracting.net> // check from Wells Fargo 10-25-13
 
 // *** Insert Paid Users here ***
 
@@ -2514,6 +2520,9 @@ bernie meehan jr (berniemeehanjr@gmail.com) (bmeehan282@aol.com) // PayPal $20
 crystal davis <crystaldavis1977@gmail.com> // $20 PayPal by Shane Gattis(cfpd1400@gmail.com)
 %%10/01/2013
 Rick Johnson <rickjohnson435@gmail.com> // check for $20 #7717
+
+%%01/27/2014
+Mike Rose <station8rose@yahoo.com> //  market problem email change
 
 // List of users getting credit or paid for 2015
 %2015
@@ -5961,7 +5970,8 @@ Taryn Flaskamp <911tarynf@gmail.com>
 Mike Snyder (tcdisp14@gmail.com) <msnyder@tristatetrucking.me>
 %%10/26/2013
 James Foster <jamief1122@gmail.com>
-
+%%10/27/2013
+Ricky Poole <handgunhunting@gmail.com>
 
 
 
