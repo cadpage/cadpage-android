@@ -29,6 +29,7 @@ public class NCCumberlandCountyParser extends FieldProgramParser {
     }
     if (subject.equals("S")) body = "(S)" + body;
     
+    if (body.startsWith("CAD:")) body = body.substring(4).trim();
     Matcher match = MARKER.matcher(body);
     if (match.find()) {
       data.strPlace = match.group(1).trim();

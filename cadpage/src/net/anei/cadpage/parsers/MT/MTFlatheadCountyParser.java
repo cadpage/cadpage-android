@@ -33,7 +33,7 @@ public class MTFlatheadCountyParser extends FieldProgramParser {
 
   public MTFlatheadCountyParser() {
     super("FLATHEAD COUNTY", "MT",
-          "Unit:UNIT Status:SKIP Location:ADDR/SXP! Gen:PLACE Call_Type:CALL! Call_Time:TIME! Info:INFO");
+          "Unit:UNIT Status:SKIP Location:ADDR/SXa! Gen:PLACE Call_Type:CALL! Call_Time:TIME! Info:INFO");
   }
   
   @Override
