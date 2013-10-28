@@ -111,6 +111,18 @@ PragenyQvfcngpu:13-100451 3772 YNCRRE EQ 5 Zrqvpny Yvar16= Yvar17= Yvar18=10/18/
 PragenyQvfcngpu:13-100393 3403 YNCRRE EQ Zrqvpny Yvar16= Yvar17= Yvar18=10/18/2013 12:58:06 : cbf3 : ysenagm ARNE SRAAREF 10/18/2013 12:57:57 : cbf3 : ysenagm RZQ Pnfr Pbzcyrgr Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 35-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Purfg Cnva (Aba-Genhzngvp) Ceboyrz Fgngrzrag: PURFG CERFFHER Xrl Dhrfgvbaf: 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur unf qvssvphygl fcrnxvat orgjrra
 PragenyQvfcngpu:13-100390 2603 ONEGU EQ Zrqvpny Yvar16= Yvar17= Yvar18=10/18/2013 12:45:11 : cbf3 : ysenagm BHGFVQR 10/18/2013 12:45:06 : cbf3 : ysenagm RZQ Pnfr Pbzcyrgr Qrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF 4 Pbzznaqzragf: 48-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Purfg Cnva (Aba-Genhzngvp) Ceboyrz Fgngrzrag: PURFG CNVA Xrl Dhrfgvbaf: 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur unf qvssvphygl fcrnxvat orgjrra oernguf. 
 
+** ABGRF **
+Guvf vf pybfr gb APWbarfPbhagl, abg pybfr rabhtu gb funer n onfr pynff, ohg pybfr rabhtu gb pybar n pbcl gb trg fgnegrq
+ZNFU svryq cebprffvat
+Hfr n Cnggrea zngpu gb fgevc bhg gur VQ sebz fgneg bs svryq.
+Jr pbhyq hfr gur fzneg nqqerff cnefre gb fcyvg nqqerff naq pnyy qrfpevcgvba, ohg gung jvyy  unir n uvtu snvyher engr,
+naq gurer frrz gb or n irel yvzvgrq ahzore bs pnyy qrfpevcgvbaf.  NAq na rira zber yvzvgrq ahzore bs gjb jbeq pnyy
+qrfpevcgvbaf, fb yrgf ohvyq n  gnoyr bs gubfr gjb jbeq pnyy qrfpevcgvbaf.  (chggvat gurz va n hcfuvsgrq UnfuFrg<Fgevat>
+jbhyq or zl erpbzraqngvba.  Gura rkgenpg gur ynfg gjb jbeqf bs sebz gur znfu svryq, hcfuvsg gurz naq frr vs gur erfhyg
+vf va lbhe gnoyr.  Vs abg, hfr gur ynfg jbeq nf gur pnyy qrfpevcgvba.
+
+Hfr gur fzneg nqqerff cnefre gb rkgenpg na nqqerff sebz jung vf yrsg, nal erznvaqre fubhyq or fnirq va fgeNcg
+
  */
 
 choyvp pynff ZVFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
