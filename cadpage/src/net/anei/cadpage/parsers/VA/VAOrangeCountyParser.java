@@ -11,7 +11,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class VAOrangeCountyParser extends FieldProgramParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("(\\d{1,2}/\\d{1,2}/\\d{4}) (\\d\\d:\\d\\d)");
-  private static final Pattern VILLAGE_OF_PTN = Pattern.compile("\\bVillage of\\b", Pattern.CASE_INSENSITIVE);
   
   public VAOrangeCountyParser() {
     super(CITY_LIST, "ORANGE COUNTY", "VA",
