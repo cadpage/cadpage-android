@@ -23,6 +23,7 @@ Fraqre: Qvfcngpu- JQF
 1 bs 2\aSEZ:Qvfcngpu- JQF\aFHOW:Qvfcngpu- JQF\aZFT:\aVAP#:S2222222\aSOY-OHVYQVAT SVER PBZZREPVNY\aNqqe:1428 RYZ FG\aObk:99-01\aNQP:9999Q1\aZHA:ZLGJA\a(Pba'g) 2 bs 2\a\aHavgf:Y19, R19-1, R19-2, R19, Y19, FQ19\a(Raq)
 SEZ:Qvfcngpu- JQF\aFHOW:Qvfcngpu- JQF\aZFT:\aVAP#:S1324120\aSIR-IRUVPYR SVER\aNqqe:263 OEBNQ FG J\aObk:65-23\aNQP:3031U2\aZHA:FBHQ\aHavgf:R74-1
 SEZ:Qvfcngpu- JQF\aFHOW:Qvfcngpu- JQF\aZFT:\aVAP#:R1358443\aZBQ-BIREQBFR\aNqqe:653 GEHZNA PG\aObk:61-09\aNQP:3030S9\aZHA:YFNY\aHavgf:344-2 
+SEZ:Qvfcngpu- JQF\aFHOW:Qvfcngpu- JQF\aZFT:\aVAP#:S1324119\aSNY-SVER NYNEZ\aNqqe:100 ZLEGYR FG  NCG# A7\aObk:94-01\aNQP:3026P10\aZHA:CBGG\aHavgf:DG69, Y69\a
 
 */
 
@@ -101,6 +102,28 @@ choyvp pynff CNZbagtbzrelPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:3030S9",
         "PVGL:YBJRE FNYSBEQ GJC",
         "HAVG:344-2");
+
+    qbGrfg("G4",
+        "SEZ:Qvfcngpu- JQF\a" +
+        "FHOW:Qvfcngpu- JQF\a" +
+        "ZFT:\a" +
+        "VAP#:S1324119\a" +
+        "SNY-SVER NYNEZ\a" +
+        "Nqqe:100 ZLEGYR FG  NCG# A7\a" +
+        "Obk:94-01\a" +
+        "NQP:3026P10\a" +
+        "ZHA:CBGG\a" +
+        "Havgf:DG69, Y69\a",
+
+        "FEP:JQF",
+        "VQ:S1324119",
+        "PNYY:SNY-SVER NYNEZ",
+        "NQQE:100 ZLEGYR FG",
+        "NCG:A7",
+        "OBK:94-01",
+        "ZNC:3026P10",
+        "PVGL:CBGGFGBJA",
+        "HAVG:DG69, Y69");
 
   }
   

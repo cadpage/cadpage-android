@@ -34,6 +34,42 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (TISP)  YNZF QE   Bhgfvqr Sver   [VAPVQRAG#]: 2011-00005083 19:09 Ybhvfn Pbhagl\a\a
 (TISP)  8627 WNZRF ZNQVFBA UJL   NN- Nhgb Nppvqrag  [VAPVQRAG#]: 2011-00005159 05:43 Ybhvfn Pbhagl  qevire vf bhg  bar iruvpyr  znc
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Benatr Pbhagl Sver naq RZF
+Ybpngvba: Benatr, IN, Havgrq Fgngrf
+Fraqre: benatr911@bbenatr.bet
+
+{Benatr911} [YBPNGVBA]: 32291 QRRC ZRNQBJ YA [ANGHER]: Fgehpgher Sver ERF  ynja genpgbe ba sver, nobhg 10 srrg sebz gur ubhfr  R911 Vasb - Pynff bs Freivpr: ERF Fcrpvny Erfcbafr Vasb: FUREVSS                         ZVAR EHA PB.21                  ONGGYRSVRYQ PB.21  OBK 2108 Znc Cntr 27 2013-00004609 15:31
+{Benatr911} [YBPNGVBA]: 25555 ZNTABYVN EVQTR QE [ANGHER]: QO  60 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.  Noabezny oernguvat.  Pnyyre Fgngrzrag: cbff urneg nggnpx, fbo, cnva va nez.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur qbrf abg unir nal qvssvphygl fcrnxvat orgjrra oernguf.  3.Fur vf abg pynzzl.  4.Fur qbrf abg unir nfguzn.  5.A/N  Ceboyrz: cbff urneg nggnpx, fbo, cnva va nez.  Cngvrag Vasb: 1 cngvrag(f); 60 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: OBK 2102 Znc Cntr 49 2013-00004608 14:31
+{Benatr911} [YBPNGVBA]: 6284 OEBJAVAT EQ [ANGHER]: Vyyarff  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 26; Qvfcngpu Yriry: 26N10; Erfcbafr Grkg: ERFPHR  Ceboyrz: xvqarl vasrpgvba.  Cngvrag Vasb: 1 cngvrag(f); 24 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  24 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Ceboyrz: xvqarl vasrpgvba.  Cngvrag Vasb: 1 cngvrag(f); 24 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  24 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Hajryy/vyy.  Pnyyre Fgngrzrag: xvqarl vasrpgvba.  OBK 2105 Znc Cntr 17 2013-00004607 14:09
+{Benatr911} [YBPNGVBA]: 31396 EHFFRY EQ [ANGHER]: QO  24 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.  QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF.  Pnyyre Fgngrzrag: tenaqqnhtugre vf fvpx.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur unf qvssvphygl fcrnxvat orgjrra oernguf.  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 6; Qvfcngpu Yriry: 06Q02; Erfcbafr Grkg: ZRQVP  Ceboyrz: tenaqqnhtugre vf fvpx.  Cngvrag Vasb: 1 cngvrag(f); 24 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  R911 Vasb - Pynff bs Freivpr: ERF  OBK 2907 Znc Cntr 10 2013-00004606 13:22
+{Benatr911} [YBPNGVBA]: 3909 YNXRIVRJ CXJL [ANGHER]: Onpx Cnva  Ceboyrz: onq onpx, hanoyr gb jnyx.  Cngvrag Vasb: 1 cngvrag(f); 86 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 5; Qvfcngpu Yriry: 05N01; Erfcbafr Grkg: Nycun  86 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  86 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Onpx Cnva (Aba-Genhzngvp be Aba-Erprag Genhzn).  ABA-GENHZNGVP onpx cnva.  Pnyyre Fgngrzrag: onq onpx, hanoyr gb jnyx.  1.Guvf fgnegrq (unccrarq) zber guna 6uef ntb.  2.Ure onpx cnva jnf pn OBK 2900 Znc Cntr 312 2013-00004605 06:53
+{Benatr911} [YBPNGVBA]: 19495 PBAFGVGHGVBA UJL [ANGHER]: Vawhel  OBK 2314 Znc Cntr 47 2013-00004604 06:07
+{Benatr911} [YBPNGVBA]: 102 YNXRIVRJ CXJL YBJ Ubypbzor Oyqt[ANGHER]: NN- Nhgb Nppvqrag  pnyyre vf nggrzcgvat gb pbagnpg frphevgl bssvpref ba nppvqrag fprar gb nafjre dhrfgvbaf nobhg gur nppvqrag  bireghearq va qvgpu  ebyyrq bire va qvgpu  pne fcha bhg ng vagrefrpgvba bs eg 3  2020  Sebag Tngr  sebag tngr bs YBJ  R911 Vasb - Pynff bs Freivpr: IBV Fcrpvny Erfcbafr Vasb: IBVC PNYYRE                     IREVSL                          IREVSL  OBK 2900 Znc Cntr 304 2013-00004603 01:44
+{Benatr911} [YBPNGVBA]: 4437 TREZNAAN UJL Ornpu Pbafgehpgvba[ANGHER]: NN- Nhgb Nppvqrag  fznyy gehpx oebxra tynff  oebxra tynff  fznyy gehpx  jrfgobhaq snpvat rnfg  jrfgobhaq fvqr snpvat Serqrevpxfohet  erovq gb nern arne 4437 Treznaan Ujl  gehpx ba rqtr bs eq  R911 Vasb - Pynff bs Freivpr: JCU Fcrpvny Erfcbafr Vasb: IREVSL CQ                       IREVSL SQ                       IREVSL RZF  OBK 2901 Znc Cntr 307 2013-00004601 20:48
+{Benatr911} [YBPNGVBA]: 7032 UBG EBQ YA [ANGHER]: Frirer Oyrrqvat  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 21; Qvfcngpu Yriry: 21O01; Erfcbafr Grkg: GENHZN  75 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Ceboyrz: oyrrqvat sebz tebva.  Cngvrag Vasb: 1 cngvrag(f); 75 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  75 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Urzbeeuntr / Ynprengvbaf.  CBFFVOYL QNATREBHF urzbeeuntr.  Pnyyre Fgngrzrag: oyrrqvat sebz tebva.  1.Gur pnhfr bs gur oyrrqvat vf aba-genhzngvp.  2.Fur unf intvany oyrrqvat.  3.Fur vf pbzcyrgr OBK 2907 Znc Cntr 18 2013-00004600 15:57
+{Benatr911} [YBPNGVBA]: 24020 FVTANY UVYY YA [ANGHER]: Vyyarff  78 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Hajryy/vyy.  Pnyyre Fgngrzrag: HGV.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur vf oernguvat abeznyyl.  3.Fur unf bgure cnva: oynqqre  4.Fur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Fur vf hajryy/vyy.  -Pbzzragf: oynqqre-  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 26; Qvfcngpu Yriry: 26N10; Erfcbafr Grkg: ERFPHR  Ceboyrz: HGV.  Cngvrag Vasb: 1 cngvrag(f); 78 Lrnef byq; Srznyr; Pbafpvbhf: L OBK 2311 Znc Cntr 25 2013-00004599 12:28
+{Benatr911} [YBPNGVBA]: 501 A  ZNVA FG IVYYNTR NG TBEQBA UBHFR, GUR[ANGHER]: Vyyarff  ybpngrq va ebbz 1  97 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Ceboyrz: sbnz pbzvat sebz zbhgu.  Cngvrag Vasb: 1 cngvrag(f); 97 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 26; Qvfcngpu Yriry: 26P02; Erfcbafr Grkg: ERFPHR  Ceboyrz: sbnz pbzvat sebz zbhgu.  Cngvrag Vasb: 1 cngvrag(f); 97 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  5.Fur vf hajryy/vyy.  CebDN Xrl Dhrfgvbaf unir orra pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 26; Qvfcng OBK 2400 Znc Cntr 200 2013-00004598 12:14
+{Benatr911} [YBPNGVBA]: 428 OVEPUFVQR PVE [ANGHER]: Vawhel  84 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Genhzngvp Vawhevrf (Fcrpvsvp).  CBFFVOYL QNATREBHF obql nern.  Pnyyre Fgngrzrag: pnag chg jnvg ba yrsg yrt uvc.  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Gurer vf ab oyrrqvat abj.  3.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Gur vawhel vf gb n CBFFVOYL QNATREBHF nern.  Ceboyrz: pnag chg jnvg ba yrsg yrt uvc.  Cngvrag Vasb: 1 cngvrag(f); 84 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag OBK 2900 Znc Cntr 312 2013-00004597 02:38
+{Benatr911} [YBPNGVBA]: 13365 NYONAB EQ [ANGHER]: Vawhel/Snyy  fgvyy ba tebhaq  70 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  CBFFVOYL QNATREBHF obql nern  (Ba gur tebhaq be sybbe).  Pnyyre Fgngrzrag: zbgure sryy .  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Vg'f ercbegrq gung fur sryy ng tebhaq yriry.  3.Gur snyy jnf nppvqragny.  4.Gurer vf ab oyrrqvat abj.  5.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  6.Gur vawhel vf gb n CBFFVOYL QNATREBHF nern.  7.Fur vf fgvyy ba gur sybbe (tebhaq).  Ceboyrz: zbgure sryy .  Cngvrag Vasb: 1 cngvrag(f); OBK 2505 Znc Cntr 53 2013-00004596 22:53
+{Benatr911} [YBPNGVBA]: 501 A  ZNVA FG TBEQBA UBHFR[ANGHER]: Vyyarff  93 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Ab cevbevgl flzcgbzf (pbzcynvag pbaqvgvbaf 2-11 abg vqragvsvrq).  Pnyyre Fgngrzrag: uvc cnva.  1.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Ur vf oernguvat abeznyyl.  3.Ur unf bgure cnva: uvc  4.Ur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Ab cevbevgl flzcgbzf (NYCUN pbaqvgvbaf 2-11 abg vqragvsvrq).  6.Ab cevbevgl flzcgbzf (BZRTN pbaqvgvbaf 2-28 abg vqragvsvrq).  -Pbzzragf: uvc-  Ceboyrz: uvc cnva.  Cngvrag Va OBK 2400 Znc Cntr 200 2013-00004595 18:14
+{Benatr911} [YBPNGVBA]: 11434 QHYVA YA [ANGHER]: QO  Jvyyvr cnlar, 66 l/b znyr Qvss Oernguvat  OBK 2108 Znc Cntr 51 2013-00004593 17:08
+{Benatr911} [YBPNGVBA]: 661 HAVIREFVGL YA Q [ANGHER]: Frirer Oyrrqvat  vafvqr havg  80 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 33; Qvfcngpu Yriry: 33P03; Qvfcngpu Yriry Fhssvk: G; Erfcbafr Grkg: GENHZN  Ceboyrz: neg npprff oyrrqvat.  Cngvrag Vasb: 1 cngvrag(f); 80 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  Ceboyrz: neg npprff oyrrqvat.  Cngvrag Vasb: 1 cngvrag(f); 80 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  9.CebDN jvyy tngure ZQ/EA anzrf naq snpvyvgl ahzoref (nf nccyvpnoyr) orybj.  10.Ab  OBK 2300 Znc Cntr 33 2013-00004592 17:07
+{Benatr911} [YBPNGVBA]: 661 HAVIREFVGL YA O [ANGHER]: Vyyarff  58 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Genafsre / Vagresnpvyvgl / Cnyyvngvir Pner.  Rzretrapl erfcbafr erdhrfgrq  (Cnyyvngvir Pner).  Pnyyre Fgngrzrag: urneg snvyver.  1.Guvf pnyy vf n erfhyg bs na rinyhngvba ol n ahefr be qbpgbe.  2.Guvf vf n cnyyvngvir pner pnfr.  3.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Ur vf oernguvat abeznyyl.  5.Ur qbrf abg unir fvtavsvpnag oyrrqvat be flzcgbzf bs fubpx.  6.Ur vf abg va frirer cnva.  7.Fcrpvny rdhvczrag vf abg arprffnel.  8.Nqqvgvbany cr OBK 2300 Znc Cntr 33 2013-00004591 16:25
+{Benatr911} [YBPNGVBA]: 120 QBTJBBQ YA A Qbtjbbq Ivyyntr bs Benatr[ANGHER]: Vyyarff  R Tebhaq ebbz 3, yrsg fvqr  82 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Genafsre / Vagresnpvyvgl / Cnyyvngvir Pner.  NPHVGL V (ab cevbevgl flzcgbzf)  (Genafsre).  Pnyyre Fgngrzrag: vyyarff.  1.Guvf pnyy vf n erfhyg bs na rinyhngvba ol n ahefr be qbpgbe.  2.Guvf vf n genafsre/vagresnpvyvgl pnfr.  3.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Fur vf oernguvat abeznyyl.  5.Fur qbrf abg unir fvtavsvpnag oyrrqvat be flzcgbzf bs fubpx.  6.Fur vf abg va frirer cnva.  7.Fcrpvny rdhvczrag vf  OBK 2300 Znc Cntr 101 2013-00004590 16:21
+{Benatr911} [YBPNGVBA]: 110 J  TBEQBA NIR UNEQRR'F TBEQBAFIVYYR[ANGHER]: Vawhel/Snyy  Ceboyrz: sryy fgnaqvat cbfvgvba.  Cngvrag Vasb: 1 cngvrag(f); 79 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 17; Qvfcngpu Yriry: 17O01; Erfcbafr Grkg: Oenib  79 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Vafvqr gur erfghnenag  79 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  CBFFVOYL QNATREBHF obql nern.  Pnyyre Fgngrzrag: sryy fgnaqvat cbfvgvba.  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Vg'f ercbegrq gung fur sryy ng tebhaq yr OBK 2400 Znc Cntr 200 2013-00004589 14:46
+{Benatr911} [YBPNGVBA]: R XVAT FG [ANGHER]: NN- J/ RAG  540-832-7659 Wreel, 2 be 3 iruvpyrf, ab vawhevrf, qrovf, ab fzbxr be synzr  qroev  1 crefba ragenccrq, hax vs vawhevrq  ab vawhevrf  3 pne nppvqrag  R911 Vasb - Pynff bs Freivpr: OHF Fcrpvny Erfcbafr Vasb: TBEQBAFIVYYR                    TBEQBAFIVYYR PB. 24             ONEOBHEFIVYYR PB. 25  OBK 2400 Znc Cntr 202 2013-00004588 13:38
+{Benatr911} [YBPNGVBA]: 6399 FCBGFJBBQ GEY [ANGHER]: Crqrfgevna Fgehpx  crqrfgeva fgehpx jvgu ragencrzrag k 2 cgf  jbzna jvgu urnq vawhel genccrq haqre gur irpuvpyr  cbffoyr nhgb nppvqrag // Tvan cu # 540-832-7440  R911 Vasb - Pynff bs Freivpr: OHF Fcrpvny Erfcbafr Vasb: FUREVSS                         ONEOBHEFIVYYR PB. 25            ONEOBHEFIVYYR PB. 25  OBK 2500 Znc Cntr 75 2013-00004587 12:48
+{Benatr911} [YBPNGVBA]: 110 J  TBEQBA NIR Uneqrr'f TBEQBAFIVYYR[ANGHER]: Hapbafpvbhf  30 lrne byq, Srznyr, Hapbafpvbhf, Oernguvat.  Hapbafpvbhf / Snvagvat (Arne).  Hapbafpvbhf -- Rssrpgvir oernguvat.  Pnyyre Fgngrzrag: snvagrq ynql vf certanag.  1.Ure oernguvat vf pbzcyrgryl abezny.  2.Fur vf fgvyy hapbafpvbhf.  Ceboyrz: snvagrq ynql vf certanag.  Cngvrag Vasb: 1 cngvrag(f); 30 Lrnef byq; Srznyr; Pbafpvbhf: Ab; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 31; Qvfcngpu Yriry: 31Q02; Erfcbafr Grkg: ZRQVP  R911 Vasb - Pynff bs Freivpr: OHF Fcrpvny Erfcbafr  OBK 2400 Znc Cntr 200 2013-00004586 12:23
+{Benatr911} [YBPNGVBA]: 11339 OYBBZFOHEL EQ [ANGHER]: Vawhel  Jvyyvnz- 5407179995  30 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Genhzngvp Vawhevrf (Fcrpvsvp).  ABG QNATREBHF obql nern.  Pnyyre Fgngrzrag: uneq ynaqvat.  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Gurer vf ab oyrrqvat abj.  3.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Gur vawhel vf gb n ABG QNATREBHF nern.  Ceboyrz: uneq ynaqvat.  Cngvrag Vasb: 1 cngvrag(f); 30 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 30; Qvfcngpu Yriry: OBK 2314 Znc Cntr 47 2013-00004585 12:14
+{Benatr911} [YBPNGVBA]: 11407 PBAFGVGHGVBA UJL [ANGHER]: Vyyarff  Ceboyrz: ahzo ba ure evtug fvqr.  Cngvrag Vasb: 1 cngvrag(f); 59 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  59 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Trareny jrnxarff.  Pnyyre Fgngrzrag: ahzo ba ure evtug fvqr.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur vf oernguvat abeznyyl.  3.Vg'f abg xabja vs fur unf nal cnva.  4.Fur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Ure cevznel ceboyrz vf trareny jrnxarff.  CebDN Qvfcngpu Zrffntr Frag;  OBK 2303 Znc Cntr 44 2013-00004584 10:51
+{Benatr911} [YBPNGVBA]: 8180 RIREBAN EQ [ANGHER]: Frvmher  zrqvp yriry  19 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Ceboyrz: cbff frvmher.  Cngvrag Vasb: 1 cngvrag(f); 19 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 12; Qvfcngpu Yriry: 12N04; Erfcbafr Grkg: Nycun  Ceboyrz: cbff frvmher.  Cngvrag Vasb: 1 cngvrag(f); 19 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  19 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Pbaihyfvbaf / Frvmherf.  SBPNY frvmher (nyreg).  Pnyyre Fgngrzrag: cbff frvmher. OBK 2311 Znc Cntr 24 2013-00004583 10:43
+{Benatr911} [YBPNGVBA]: 34118 RAPUNAGRQ JNL [ANGHER]: PneqvnpRzretrapl/ZV  pneqvnp eryngrq rzretrpl  63 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Hajryy/vyy.  Pnyyre Fgngrzrag: uhfonaq ybj urneg engr.  1.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Ur vf oernguvat abeznyyl.  3.Ur qbrf abg unir nal cnva.  4.Ur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Ur vf hajryy/vyy.  Ceboyrz: uhfonaq ybj urneg engr.  Cngvrag Vasb: 1 cngvrag(f); 63 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahz OBK 2903 Znc Cntr 5 2013-00004581 08:46
+{Benatr911} [YBPNGVBA]: 36312 PBAFGVGHGVBA UJL [ANGHER]: NN- J/ RAG  erprvirq 2aq Wraavsre Ebqr- 5409030710  ragenczrag pbeerpgvba  ab vawhevrf va guvf iruvpyr, haxabja rag va bgure iruvpyr  R911 Vasb - Pynff bs Freivpr: JCU Fcrpvny Erfcbafr Vasb: IREVSL CQ                       IREVSL SQ                       IREVSL RZF  OBK 2902 Znc Cntr 316 2013-00004580 08:05
+{Benatr911} [YBPNGVBA]: 120 QBTJBBQ YA A Qbtjbbq Ivyyntr bs Benatr[ANGHER]: Vyyarff  61 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Genafsre / Vagresnpvyvgl / Cnyyvngvir Pner.  Nphgr frirer cnva  (Genafsre).  Pnyyre Fgngrzrag: ybj tenqr srire.  1.Guvf pnyy vf n erfhyg bs na rinyhngvba ol n ahefr be qbpgbe.  2.Guvf vf n genafsre/vagresnpvyvgl pnfr.  3.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Fur vf oernguvat abeznyyl.  5.Fur qbrf abg unir fvtavsvpnag oyrrqvat be flzcgbzf bs fubpx.  6.Fur vf va frirer cnva.  7.Fcrpvny rdhvczrag vf abg arprffnel.  8.Nqqvgvbany crefbaary OBK 2300 Znc Cntr 101 2013-00004579 06:42
+{Benatr911} [YBPNGVBA]: 108 ZBAEBR FG [ANGHER]: Qvnorgvp Rzretrapl  64 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Qvnorgvp Ceboyrzf.  Abg nyreg.  Pnyyre Fgngrzrag: uhfonaq.  1.Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur vf abg orunivat abeznyyl abj.  3.Ur vf oernguvat abeznyyl.  Ceboyrz: uhfonaq.  Cngvrag Vasb: 1 cngvrag(f); 64 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 13; Qvfcngpu Yriry: 13P01; Erfcbafr Grkg: Puneyvr  64lbz qvnorgvp rzretrapl  R911 Vasb - Pynff bs Freivpr: IBV Fcrpvn OBK 2900 Znc Cntr 314 2013-00004578 02:58
+{Benatr911} [YBPNGVBA]: 10222 BYQ ENCVQNA EQ [ANGHER]: QO  22 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.  Noabezny oernguvat  (Nfguzn).  Pnyyre Fgngrzrag: qo.  1.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Ur qbrf abg unir nal qvssvphygl fcrnxvat orgjrra oernguf.  3.Ur vf abg punatvat pbybe.  4.Ur vf abg pynzzl.  5.Ur unf nfguzn.  6.Ur unf n cerfpevorq vaunyre.  7.Ur unf abg hfrq n cerfpevorq vaunyre.  8.A/N  Ceboyrz: qo.  Cngvrag Vasb: 1 cngvrag(f); 22 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr F OBK 2301 Znc Cntr 34 2013-00004576 22:11
+
  */
 
 choyvp pynff INBenatrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -266,7 +302,326 @@ choyvp pynff INBenatrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:8627 WNZRF ZNQVFBA UJL",
         "PNYY:NN- Nhgb Nppvqrag",
         "VQ:2011-00005159",
-        "PVGL:Ybhvfn Pbhagl");
+        "PVGL:Ybhvfn Pbhagl",
+        "VASB:qevire vf bhg  bar iruvpyr  znc");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgBenatrPbhaglSverNaqRZF() {
+
+    qbGrfg("G1",
+        "{Benatr911} [YBPNGVBA]: 32291 QRRC ZRNQBJ YA [ANGHER]: Fgehpgher Sver ERF  ynja genpgbe ba sver, nobhg 10 srrg sebz gur ubhfr  R911 Vasb - Pynff bs Freivpr: ERF Fcrpvny Erfcbafr Vasb: FUREVSS                         ZVAR EHA PB.21                  ONGGYRSVRYQ PB.21  OBK 2108 Znc Cntr 27 2013-00004609 15:31",
+        "GVZR:15:31",
+        "NQQE:32291 QRRC ZRNQBJ YA",
+        "PNYY:Fgehpgher Sver ERF",
+        "VASB:ynja genpgbe ba sver, nobhg 10 srrg sebz gur ubhfr",
+        "OBK:2108",
+        "ZNC:27",
+        "VQ:2013-00004609");
+
+    qbGrfg("G2",
+        "{Benatr911} [YBPNGVBA]: 25555 ZNTABYVN EVQTR QE [ANGHER]: QO  60 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.  Noabezny oernguvat.  Pnyyre Fgngrzrag: cbff urneg nggnpx, fbo, cnva va nez.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur qbrf abg unir nal qvssvphygl fcrnxvat orgjrra oernguf.  3.Fur vf abg pynzzl.  4.Fur qbrf abg unir nfguzn.  5.A/N  Ceboyrz: cbff urneg nggnpx, fbo, cnva va nez.  Cngvrag Vasb: 1 cngvrag(f); 60 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: OBK 2102 Znc Cntr 49 2013-00004608 14:31",
+        "GVZR:14:31",
+        "NQQE:25555 ZNTABYVN EVQTR QE",
+        "PNYY:QO",
+        "VASB:60 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.  Noabezny oernguvat.  Pnyyre Fgngrzrag: cbff urneg nggnpx, fbo, cnva va nez.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur qbrf abg unir nal qvssvphygl fcrnxvat orgjrra oernguf.  3.Fur vf abg pynzzl.  4.Fur qbrf abg unir nfguzn.  5.A/N  Ceboyrz: cbff urneg nggnpx, fbo, cnva va nez.  Cngvrag Vasb: 1 cngvrag(f); 60 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore:",
+        "OBK:2102",
+        "ZNC:49",
+        "VQ:2013-00004608");
+
+    qbGrfg("G3",
+        "{Benatr911} [YBPNGVBA]: 6284 OEBJAVAT EQ [ANGHER]: Vyyarff  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 26; Qvfcngpu Yriry: 26N10; Erfcbafr Grkg: ERFPHR  Ceboyrz: xvqarl vasrpgvba.  Cngvrag Vasb: 1 cngvrag(f); 24 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  24 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Ceboyrz: xvqarl vasrpgvba.  Cngvrag Vasb: 1 cngvrag(f); 24 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  24 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Hajryy/vyy.  Pnyyre Fgngrzrag: xvqarl vasrpgvba.  OBK 2105 Znc Cntr 17 2013-00004607 14:09",
+        "GVZR:14:09",
+        "NQQE:6284 OEBJAVAT EQ",
+        "PNYY:Vyyarff",
+        "VASB:CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 26; Qvfcngpu Yriry: 26N10; Erfcbafr Grkg: ERFPHR  Ceboyrz: xvqarl vasrpgvba.  Cngvrag Vasb: 1 cngvrag(f); 24 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  24 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Ceboyrz: xvqarl vasrpgvba.  Cngvrag Vasb: 1 cngvrag(f); 24 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  24 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Hajryy/vyy.  Pnyyre Fgngrzrag: xvqarl vasrpgvba.",
+        "OBK:2105",
+        "ZNC:17",
+        "VQ:2013-00004607");
+
+    qbGrfg("G4",
+        "{Benatr911} [YBPNGVBA]: 31396 EHFFRY EQ [ANGHER]: QO  24 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.  QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF.  Pnyyre Fgngrzrag: tenaqqnhtugre vf fvpx.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur unf qvssvphygl fcrnxvat orgjrra oernguf.  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 6; Qvfcngpu Yriry: 06Q02; Erfcbafr Grkg: ZRQVP  Ceboyrz: tenaqqnhtugre vf fvpx.  Cngvrag Vasb: 1 cngvrag(f); 24 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  R911 Vasb - Pynff bs Freivpr: ERF  OBK 2907 Znc Cntr 10 2013-00004606 13:22",
+        "GVZR:13:22",
+        "NQQE:31396 EHFFRY EQ",
+        "PNYY:QO",
+        "VASB:24 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.  QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF.  Pnyyre Fgngrzrag: tenaqqnhtugre vf fvpx.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur unf qvssvphygl fcrnxvat orgjrra oernguf.  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 6; Qvfcngpu Yriry: 06Q02; Erfcbafr Grkg: ZRQVP  Ceboyrz: tenaqqnhtugre vf fvpx.  Cngvrag Vasb: 1 cngvrag(f); 24 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;",
+        "OBK:2907",
+        "ZNC:10",
+        "VQ:2013-00004606");
+
+    qbGrfg("G5",
+        "{Benatr911} [YBPNGVBA]: 3909 YNXRIVRJ CXJL [ANGHER]: Onpx Cnva  Ceboyrz: onq onpx, hanoyr gb jnyx.  Cngvrag Vasb: 1 cngvrag(f); 86 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 5; Qvfcngpu Yriry: 05N01; Erfcbafr Grkg: Nycun  86 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  86 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Onpx Cnva (Aba-Genhzngvp be Aba-Erprag Genhzn).  ABA-GENHZNGVP onpx cnva.  Pnyyre Fgngrzrag: onq onpx, hanoyr gb jnyx.  1.Guvf fgnegrq (unccrarq) zber guna 6uef ntb.  2.Ure onpx cnva jnf pn OBK 2900 Znc Cntr 312 2013-00004605 06:53",
+        "GVZR:06:53",
+        "NQQE:3909 YNXRIVRJ CXJL",
+        "PNYY:Onpx Cnva",
+        "VASB:Ceboyrz: onq onpx, hanoyr gb jnyx.  Cngvrag Vasb: 1 cngvrag(f); 86 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 5; Qvfcngpu Yriry: 05N01; Erfcbafr Grkg: Nycun  86 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  86 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Onpx Cnva (Aba-Genhzngvp be Aba-Erprag Genhzn).  ABA-GENHZNGVP onpx cnva.  Pnyyre Fgngrzrag: onq onpx, hanoyr gb jnyx.  1.Guvf fgnegrq (unccrarq) zber guna 6uef ntb.  2.Ure onpx cnva jnf pn",
+        "OBK:2900",
+        "ZNC:312",
+        "VQ:2013-00004605");
+
+    qbGrfg("G6",
+        "{Benatr911} [YBPNGVBA]: 19495 PBAFGVGHGVBA UJL [ANGHER]: Vawhel  OBK 2314 Znc Cntr 47 2013-00004604 06:07",
+        "GVZR:06:07",
+        "NQQE:19495 PBAFGVGHGVBA UJL",
+        "PNYY:Vawhel",
+        "OBK:2314",
+        "ZNC:47",
+        "VQ:2013-00004604");
+
+    qbGrfg("G7",
+        "{Benatr911} [YBPNGVBA]: 102 YNXRIVRJ CXJL YBJ Ubypbzor Oyqt[ANGHER]: NN- Nhgb Nppvqrag  pnyyre vf nggrzcgvat gb pbagnpg frphevgl bssvpref ba nppvqrag fprar gb nafjre dhrfgvbaf nobhg gur nppvqrag  bireghearq va qvgpu  ebyyrq bire va qvgpu  pne fcha bhg ng vagrefrpgvba bs eg 3  2020  Sebag Tngr  sebag tngr bs YBJ  R911 Vasb - Pynff bs Freivpr: IBV Fcrpvny Erfcbafr Vasb: IBVC PNYYRE                     IREVSL                          IREVSL  OBK 2900 Znc Cntr 304 2013-00004603 01:44",
+        "GVZR:01:44",
+        "NQQE:102 YNXRIVRJ CXJL",
+        "CYNPR:YBJ Ubypbzor Oyqt",
+        "PNYY:NN- Nhgb Nppvqrag",
+        "VASB:pnyyre vf nggrzcgvat gb pbagnpg frphevgl bssvpref ba nppvqrag fprar gb nafjre dhrfgvbaf nobhg gur nppvqrag  bireghearq va qvgpu  ebyyrq bire va qvgpu  pne fcha bhg ng vagrefrpgvba bs eg 3  2020  Sebag Tngr  sebag tngr bs YBJ",
+        "OBK:2900",
+        "ZNC:304",
+        "VQ:2013-00004603");
+
+    qbGrfg("G8",
+        "{Benatr911} [YBPNGVBA]: 4437 TREZNAAN UJL Ornpu Pbafgehpgvba[ANGHER]: NN- Nhgb Nppvqrag  fznyy gehpx oebxra tynff  oebxra tynff  fznyy gehpx  jrfgobhaq snpvat rnfg  jrfgobhaq fvqr snpvat Serqrevpxfohet  erovq gb nern arne 4437 Treznaan Ujl  gehpx ba rqtr bs eq  R911 Vasb - Pynff bs Freivpr: JCU Fcrpvny Erfcbafr Vasb: IREVSL CQ                       IREVSL SQ                       IREVSL RZF  OBK 2901 Znc Cntr 307 2013-00004601 20:48",
+        "GVZR:20:48",
+        "NQQE:4437 TREZNAAN UJL",
+        "CYNPR:Ornpu Pbafgehpgvba",
+        "PNYY:NN- Nhgb Nppvqrag",
+        "VASB:fznyy gehpx oebxra tynff  oebxra tynff  fznyy gehpx  jrfgobhaq snpvat rnfg  jrfgobhaq fvqr snpvat Serqrevpxfohet  erovq gb nern arne 4437 Treznaan Ujl  gehpx ba rqtr bs eq",
+        "OBK:2901",
+        "ZNC:307",
+        "VQ:2013-00004601");
+
+    qbGrfg("G9",
+        "{Benatr911} [YBPNGVBA]: 7032 UBG EBQ YA [ANGHER]: Frirer Oyrrqvat  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 21; Qvfcngpu Yriry: 21O01; Erfcbafr Grkg: GENHZN  75 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Ceboyrz: oyrrqvat sebz tebva.  Cngvrag Vasb: 1 cngvrag(f); 75 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  75 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Urzbeeuntr / Ynprengvbaf.  CBFFVOYL QNATREBHF urzbeeuntr.  Pnyyre Fgngrzrag: oyrrqvat sebz tebva.  1.Gur pnhfr bs gur oyrrqvat vf aba-genhzngvp.  2.Fur unf intvany oyrrqvat.  3.Fur vf pbzcyrgr OBK 2907 Znc Cntr 18 2013-00004600 15:57",
+        "GVZR:15:57",
+        "NQQE:7032 UBG EBQ YA",
+        "PNYY:Frirer Oyrrqvat",
+        "VASB:CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 21; Qvfcngpu Yriry: 21O01; Erfcbafr Grkg: GENHZN  75 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Ceboyrz: oyrrqvat sebz tebva.  Cngvrag Vasb: 1 cngvrag(f); 75 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  75 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Urzbeeuntr / Ynprengvbaf.  CBFFVOYL QNATREBHF urzbeeuntr.  Pnyyre Fgngrzrag: oyrrqvat sebz tebva.  1.Gur pnhfr bs gur oyrrqvat vf aba-genhzngvp.  2.Fur unf intvany oyrrqvat.  3.Fur vf pbzcyrgr",
+        "OBK:2907",
+        "ZNC:18",
+        "VQ:2013-00004600");
+
+    qbGrfg("G10",
+        "{Benatr911} [YBPNGVBA]: 24020 FVTANY UVYY YA [ANGHER]: Vyyarff  78 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Hajryy/vyy.  Pnyyre Fgngrzrag: HGV.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur vf oernguvat abeznyyl.  3.Fur unf bgure cnva: oynqqre  4.Fur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Fur vf hajryy/vyy.  -Pbzzragf: oynqqre-  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 26; Qvfcngpu Yriry: 26N10; Erfcbafr Grkg: ERFPHR  Ceboyrz: HGV.  Cngvrag Vasb: 1 cngvrag(f); 78 Lrnef byq; Srznyr; Pbafpvbhf: L OBK 2311 Znc Cntr 25 2013-00004599 12:28",
+        "GVZR:12:28",
+        "NQQE:24020 FVTANY UVYY YA",
+        "PNYY:Vyyarff",
+        "VASB:78 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Hajryy/vyy.  Pnyyre Fgngrzrag: HGV.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur vf oernguvat abeznyyl.  3.Fur unf bgure cnva: oynqqre  4.Fur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Fur vf hajryy/vyy.  -Pbzzragf: oynqqre-  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 26; Qvfcngpu Yriry: 26N10; Erfcbafr Grkg: ERFPHR  Ceboyrz: HGV.  Cngvrag Vasb: 1 cngvrag(f); 78 Lrnef byq; Srznyr; Pbafpvbhf: L",
+        "OBK:2311",
+        "ZNC:25",
+        "VQ:2013-00004599");
+
+    qbGrfg("G11",
+        "{Benatr911} [YBPNGVBA]: 501 A  ZNVA FG IVYYNTR NG TBEQBA UBHFR, GUR[ANGHER]: Vyyarff  ybpngrq va ebbz 1  97 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Ceboyrz: sbnz pbzvat sebz zbhgu.  Cngvrag Vasb: 1 cngvrag(f); 97 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 26; Qvfcngpu Yriry: 26P02; Erfcbafr Grkg: ERFPHR  Ceboyrz: sbnz pbzvat sebz zbhgu.  Cngvrag Vasb: 1 cngvrag(f); 97 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  5.Fur vf hajryy/vyy.  CebDN Xrl Dhrfgvbaf unir orra pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 26; Qvfcng OBK 2400 Znc Cntr 200 2013-00004598 12:14",
+        "GVZR:12:14",
+        "NQQE:501 A ZNVA FG",
+        "CYNPR:IVYYNTR NG TBEQBA UBHFR, GUR",
+        "PNYY:Vyyarff",
+        "VASB:ybpngrq va ebbz 1  97 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Ceboyrz: sbnz pbzvat sebz zbhgu.  Cngvrag Vasb: 1 cngvrag(f); 97 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 26; Qvfcngpu Yriry: 26P02; Erfcbafr Grkg: ERFPHR  Ceboyrz: sbnz pbzvat sebz zbhgu.  Cngvrag Vasb: 1 cngvrag(f); 97 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  5.Fur vf hajryy/vyy.  CebDN Xrl Dhrfgvbaf unir orra pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 26; Qvfcng",
+        "OBK:2400",
+        "ZNC:200",
+        "VQ:2013-00004598");
+
+    qbGrfg("G12",
+        "{Benatr911} [YBPNGVBA]: 428 OVEPUFVQR PVE [ANGHER]: Vawhel  84 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Genhzngvp Vawhevrf (Fcrpvsvp).  CBFFVOYL QNATREBHF obql nern.  Pnyyre Fgngrzrag: pnag chg jnvg ba yrsg yrt uvc.  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Gurer vf ab oyrrqvat abj.  3.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Gur vawhel vf gb n CBFFVOYL QNATREBHF nern.  Ceboyrz: pnag chg jnvg ba yrsg yrt uvc.  Cngvrag Vasb: 1 cngvrag(f); 84 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag OBK 2900 Znc Cntr 312 2013-00004597 02:38",
+        "GVZR:02:38",
+        "NQQE:428 OVEPUFVQR PVE",
+        "PNYY:Vawhel",
+        "VASB:84 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Genhzngvp Vawhevrf (Fcrpvsvp).  CBFFVOYL QNATREBHF obql nern.  Pnyyre Fgngrzrag: pnag chg jnvg ba yrsg yrt uvc.  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Gurer vf ab oyrrqvat abj.  3.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Gur vawhel vf gb n CBFFVOYL QNATREBHF nern.  Ceboyrz: pnag chg jnvg ba yrsg yrt uvc.  Cngvrag Vasb: 1 cngvrag(f); 84 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag",
+        "OBK:2900",
+        "ZNC:312",
+        "VQ:2013-00004597");
+
+    qbGrfg("G13",
+        "{Benatr911} [YBPNGVBA]: 13365 NYONAB EQ [ANGHER]: Vawhel/Snyy  fgvyy ba tebhaq  70 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  CBFFVOYL QNATREBHF obql nern  (Ba gur tebhaq be sybbe).  Pnyyre Fgngrzrag: zbgure sryy .  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Vg'f ercbegrq gung fur sryy ng tebhaq yriry.  3.Gur snyy jnf nppvqragny.  4.Gurer vf ab oyrrqvat abj.  5.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  6.Gur vawhel vf gb n CBFFVOYL QNATREBHF nern.  7.Fur vf fgvyy ba gur sybbe (tebhaq).  Ceboyrz: zbgure sryy .  Cngvrag Vasb: 1 cngvrag(f); OBK 2505 Znc Cntr 53 2013-00004596 22:53",
+        "GVZR:22:53",
+        "NQQE:13365 NYONAB EQ",
+        "PNYY:Vawhel/Snyy",
+        "VASB:fgvyy ba tebhaq  70 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  CBFFVOYL QNATREBHF obql nern  (Ba gur tebhaq be sybbe).  Pnyyre Fgngrzrag: zbgure sryy .  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Vg'f ercbegrq gung fur sryy ng tebhaq yriry.  3.Gur snyy jnf nppvqragny.  4.Gurer vf ab oyrrqvat abj.  5.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  6.Gur vawhel vf gb n CBFFVOYL QNATREBHF nern.  7.Fur vf fgvyy ba gur sybbe (tebhaq).  Ceboyrz: zbgure sryy .  Cngvrag Vasb: 1 cngvrag(f);",
+        "OBK:2505",
+        "ZNC:53",
+        "VQ:2013-00004596");
+
+    qbGrfg("G14",
+        "{Benatr911} [YBPNGVBA]: 501 A  ZNVA FG TBEQBA UBHFR[ANGHER]: Vyyarff  93 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Ab cevbevgl flzcgbzf (pbzcynvag pbaqvgvbaf 2-11 abg vqragvsvrq).  Pnyyre Fgngrzrag: uvc cnva.  1.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Ur vf oernguvat abeznyyl.  3.Ur unf bgure cnva: uvc  4.Ur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Ab cevbevgl flzcgbzf (NYCUN pbaqvgvbaf 2-11 abg vqragvsvrq).  6.Ab cevbevgl flzcgbzf (BZRTN pbaqvgvbaf 2-28 abg vqragvsvrq).  -Pbzzragf: uvc-  Ceboyrz: uvc cnva.  Cngvrag Va OBK 2400 Znc Cntr 200 2013-00004595 18:14",
+        "GVZR:18:14",
+        "NQQE:501 A ZNVA FG",
+        "CYNPR:TBEQBA UBHFR",
+        "PNYY:Vyyarff",
+        "VASB:93 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Ab cevbevgl flzcgbzf (pbzcynvag pbaqvgvbaf 2-11 abg vqragvsvrq).  Pnyyre Fgngrzrag: uvc cnva.  1.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Ur vf oernguvat abeznyyl.  3.Ur unf bgure cnva: uvc  4.Ur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Ab cevbevgl flzcgbzf (NYCUN pbaqvgvbaf 2-11 abg vqragvsvrq).  6.Ab cevbevgl flzcgbzf (BZRTN pbaqvgvbaf 2-28 abg vqragvsvrq).  -Pbzzragf: uvc-  Ceboyrz: uvc cnva.  Cngvrag Va",
+        "OBK:2400",
+        "ZNC:200",
+        "VQ:2013-00004595");
+
+    qbGrfg("G15",
+        "{Benatr911} [YBPNGVBA]: 11434 QHYVA YA [ANGHER]: QO  Jvyyvr cnlar, 66 l/b znyr Qvss Oernguvat  OBK 2108 Znc Cntr 51 2013-00004593 17:08",
+        "GVZR:17:08",
+        "NQQE:11434 QHYVA YA",
+        "PNYY:QO",
+        "VASB:Jvyyvr cnlar, 66 l/b znyr Qvss Oernguvat",
+        "OBK:2108",
+        "ZNC:51",
+        "VQ:2013-00004593");
+
+    qbGrfg("G16",
+        "{Benatr911} [YBPNGVBA]: 661 HAVIREFVGL YA Q [ANGHER]: Frirer Oyrrqvat  vafvqr havg  80 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 33; Qvfcngpu Yriry: 33P03; Qvfcngpu Yriry Fhssvk: G; Erfcbafr Grkg: GENHZN  Ceboyrz: neg npprff oyrrqvat.  Cngvrag Vasb: 1 cngvrag(f); 80 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  Ceboyrz: neg npprff oyrrqvat.  Cngvrag Vasb: 1 cngvrag(f); 80 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  9.CebDN jvyy tngure ZQ/EA anzrf naq snpvyvgl ahzoref (nf nccyvpnoyr) orybj.  10.Ab  OBK 2300 Znc Cntr 33 2013-00004592 17:07",
+        "GVZR:17:07",
+        "NQQE:661 HAVIREFVGL YA",
+        "CYNPR:Q",
+        "PNYY:Frirer Oyrrqvat",
+        "VASB:vafvqr havg  80 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 33; Qvfcngpu Yriry: 33P03; Qvfcngpu Yriry Fhssvk: G; Erfcbafr Grkg: GENHZN  Ceboyrz: neg npprff oyrrqvat.  Cngvrag Vasb: 1 cngvrag(f); 80 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  Ceboyrz: neg npprff oyrrqvat.  Cngvrag Vasb: 1 cngvrag(f); 80 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  9.CebDN jvyy tngure ZQ/EA anzrf naq snpvyvgl ahzoref (nf nccyvpnoyr) orybj.  10.Ab",
+        "OBK:2300",
+        "ZNC:33",
+        "VQ:2013-00004592");
+
+    qbGrfg("G17",
+        "{Benatr911} [YBPNGVBA]: 661 HAVIREFVGL YA O [ANGHER]: Vyyarff  58 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Genafsre / Vagresnpvyvgl / Cnyyvngvir Pner.  Rzretrapl erfcbafr erdhrfgrq  (Cnyyvngvir Pner).  Pnyyre Fgngrzrag: urneg snvyver.  1.Guvf pnyy vf n erfhyg bs na rinyhngvba ol n ahefr be qbpgbe.  2.Guvf vf n cnyyvngvir pner pnfr.  3.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Ur vf oernguvat abeznyyl.  5.Ur qbrf abg unir fvtavsvpnag oyrrqvat be flzcgbzf bs fubpx.  6.Ur vf abg va frirer cnva.  7.Fcrpvny rdhvczrag vf abg arprffnel.  8.Nqqvgvbany cr OBK 2300 Znc Cntr 33 2013-00004591 16:25",
+        "GVZR:16:25",
+        "NQQE:661 HAVIREFVGL YA",
+        "CYNPR:O",
+        "PNYY:Vyyarff",
+        "VASB:58 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Genafsre / Vagresnpvyvgl / Cnyyvngvir Pner.  Rzretrapl erfcbafr erdhrfgrq  (Cnyyvngvir Pner).  Pnyyre Fgngrzrag: urneg snvyver.  1.Guvf pnyy vf n erfhyg bs na rinyhngvba ol n ahefr be qbpgbe.  2.Guvf vf n cnyyvngvir pner pnfr.  3.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Ur vf oernguvat abeznyyl.  5.Ur qbrf abg unir fvtavsvpnag oyrrqvat be flzcgbzf bs fubpx.  6.Ur vf abg va frirer cnva.  7.Fcrpvny rdhvczrag vf abg arprffnel.  8.Nqqvgvbany cr",
+        "OBK:2300",
+        "ZNC:33",
+        "VQ:2013-00004591");
+
+    qbGrfg("G18",
+        "{Benatr911} [YBPNGVBA]: 120 QBTJBBQ YA A Qbtjbbq Ivyyntr bs Benatr[ANGHER]: Vyyarff  R Tebhaq ebbz 3, yrsg fvqr  82 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Genafsre / Vagresnpvyvgl / Cnyyvngvir Pner.  NPHVGL V (ab cevbevgl flzcgbzf)  (Genafsre).  Pnyyre Fgngrzrag: vyyarff.  1.Guvf pnyy vf n erfhyg bs na rinyhngvba ol n ahefr be qbpgbe.  2.Guvf vf n genafsre/vagresnpvyvgl pnfr.  3.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Fur vf oernguvat abeznyyl.  5.Fur qbrf abg unir fvtavsvpnag oyrrqvat be flzcgbzf bs fubpx.  6.Fur vf abg va frirer cnva.  7.Fcrpvny rdhvczrag vf  OBK 2300 Znc Cntr 101 2013-00004590 16:21",
+        "GVZR:16:21",
+        "NQQE:120 QBTJBBQ YA",
+        "CYNPR:A Qbtjbbq",
+        "PVGL:Benatr",
+        "PNYY:Vyyarff",
+        "VASB:R Tebhaq ebbz 3, yrsg fvqr  82 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Genafsre / Vagresnpvyvgl / Cnyyvngvir Pner.  NPHVGL V (ab cevbevgl flzcgbzf)  (Genafsre).  Pnyyre Fgngrzrag: vyyarff.  1.Guvf pnyy vf n erfhyg bs na rinyhngvba ol n ahefr be qbpgbe.  2.Guvf vf n genafsre/vagresnpvyvgl pnfr.  3.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Fur vf oernguvat abeznyyl.  5.Fur qbrf abg unir fvtavsvpnag oyrrqvat be flzcgbzf bs fubpx.  6.Fur vf abg va frirer cnva.  7.Fcrpvny rdhvczrag vf",
+        "OBK:2300",
+        "ZNC:101",
+        "VQ:2013-00004590");
+
+    qbGrfg("G19",
+        "{Benatr911} [YBPNGVBA]: 110 J  TBEQBA NIR UNEQRR'F TBEQBAFIVYYR[ANGHER]: Vawhel/Snyy  Ceboyrz: sryy fgnaqvat cbfvgvba.  Cngvrag Vasb: 1 cngvrag(f); 79 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 17; Qvfcngpu Yriry: 17O01; Erfcbafr Grkg: Oenib  79 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Vafvqr gur erfghnenag  79 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  CBFFVOYL QNATREBHF obql nern.  Pnyyre Fgngrzrag: sryy fgnaqvat cbfvgvba.  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Vg'f ercbegrq gung fur sryy ng tebhaq yr OBK 2400 Znc Cntr 200 2013-00004589 14:46",
+        "GVZR:14:46",
+        "NQQE:110 J TBEQBA NIR",
+        "CYNPR:UNEQRR'F",
+        "PVGL:TBEQBAFIVYYR",
+        "PNYY:Vawhel/Snyy",
+        "VASB:Ceboyrz: sryy fgnaqvat cbfvgvba.  Cngvrag Vasb: 1 cngvrag(f); 79 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 17; Qvfcngpu Yriry: 17O01; Erfcbafr Grkg: Oenib  79 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Vafvqr gur erfghnenag  79 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  CBFFVOYL QNATREBHF obql nern.  Pnyyre Fgngrzrag: sryy fgnaqvat cbfvgvba.  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Vg'f ercbegrq gung fur sryy ng tebhaq yr",
+        "OBK:2400",
+        "ZNC:200",
+        "VQ:2013-00004589");
+
+    qbGrfg("G20",
+        "{Benatr911} [YBPNGVBA]: R XVAT FG [ANGHER]: NN- J/ RAG  540-832-7659 Wreel, 2 be 3 iruvpyrf, ab vawhevrf, qrovf, ab fzbxr be synzr  qroev  1 crefba ragenccrq, hax vs vawhevrq  ab vawhevrf  3 pne nppvqrag  R911 Vasb - Pynff bs Freivpr: OHF Fcrpvny Erfcbafr Vasb: TBEQBAFIVYYR                    TBEQBAFIVYYR PB. 24             ONEOBHEFIVYYR PB. 25  OBK 2400 Znc Cntr 202 2013-00004588 13:38",
+        "GVZR:13:38",
+        "NQQE:R XVAT FG",
+        "PNYY:NN- J/ RAG",
+        "VASB:540-832-7659 Wreel, 2 be 3 iruvpyrf, ab vawhevrf, qrovf, ab fzbxr be synzr  qroev  1 crefba ragenccrq, hax vs vawhevrq  ab vawhevrf  3 pne nppvqrag",
+        "OBK:2400",
+        "ZNC:202",
+        "VQ:2013-00004588");
+
+    qbGrfg("G21",
+        "{Benatr911} [YBPNGVBA]: 6399 FCBGFJBBQ GEY [ANGHER]: Crqrfgevna Fgehpx  crqrfgeva fgehpx jvgu ragencrzrag k 2 cgf  jbzna jvgu urnq vawhel genccrq haqre gur irpuvpyr  cbffoyr nhgb nppvqrag // Tvan cu # 540-832-7440  R911 Vasb - Pynff bs Freivpr: OHF Fcrpvny Erfcbafr Vasb: FUREVSS                         ONEOBHEFIVYYR PB. 25            ONEOBHEFIVYYR PB. 25  OBK 2500 Znc Cntr 75 2013-00004587 12:48",
+        "GVZR:12:48",
+        "NQQE:6399 FCBGFJBBQ GEY",
+        "PNYY:Crqrfgevna Fgehpx",
+        "VASB:crqrfgeva fgehpx jvgu ragencrzrag k 2 cgf  jbzna jvgu urnq vawhel genccrq haqre gur irpuvpyr  cbffoyr nhgb nppvqrag // Tvan cu # 540-832-7440",
+        "OBK:2500",
+        "ZNC:75",
+        "VQ:2013-00004587");
+
+    qbGrfg("G22",
+        "{Benatr911} [YBPNGVBA]: 110 J  TBEQBA NIR Uneqrr'f TBEQBAFIVYYR[ANGHER]: Hapbafpvbhf  30 lrne byq, Srznyr, Hapbafpvbhf, Oernguvat.  Hapbafpvbhf / Snvagvat (Arne).  Hapbafpvbhf -- Rssrpgvir oernguvat.  Pnyyre Fgngrzrag: snvagrq ynql vf certanag.  1.Ure oernguvat vf pbzcyrgryl abezny.  2.Fur vf fgvyy hapbafpvbhf.  Ceboyrz: snvagrq ynql vf certanag.  Cngvrag Vasb: 1 cngvrag(f); 30 Lrnef byq; Srznyr; Pbafpvbhf: Ab; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 31; Qvfcngpu Yriry: 31Q02; Erfcbafr Grkg: ZRQVP  R911 Vasb - Pynff bs Freivpr: OHF Fcrpvny Erfcbafr  OBK 2400 Znc Cntr 200 2013-00004586 12:23",
+        "GVZR:12:23",
+        "NQQE:110 J TBEQBA NIR",
+        "CYNPR:Uneqrr'f",
+        "PVGL:TBEQBAFIVYYR",
+        "PNYY:Hapbafpvbhf",
+        "VASB:30 lrne byq, Srznyr, Hapbafpvbhf, Oernguvat.  Hapbafpvbhf / Snvagvat (Arne).  Hapbafpvbhf -- Rssrpgvir oernguvat.  Pnyyre Fgngrzrag: snvagrq ynql vf certanag.  1.Ure oernguvat vf pbzcyrgryl abezny.  2.Fur vf fgvyy hapbafpvbhf.  Ceboyrz: snvagrq ynql vf certanag.  Cngvrag Vasb: 1 cngvrag(f); 30 Lrnef byq; Srznyr; Pbafpvbhf: Ab; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 31; Qvfcngpu Yriry: 31Q02; Erfcbafr Grkg: ZRQVP",
+        "OBK:2400",
+        "ZNC:200",
+        "VQ:2013-00004586");
+
+    qbGrfg("G23",
+        "{Benatr911} [YBPNGVBA]: 11339 OYBBZFOHEL EQ [ANGHER]: Vawhel  Jvyyvnz- 5407179995  30 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Genhzngvp Vawhevrf (Fcrpvsvp).  ABG QNATREBHF obql nern.  Pnyyre Fgngrzrag: uneq ynaqvat.  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Gurer vf ab oyrrqvat abj.  3.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Gur vawhel vf gb n ABG QNATREBHF nern.  Ceboyrz: uneq ynaqvat.  Cngvrag Vasb: 1 cngvrag(f); 30 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 30; Qvfcngpu Yriry: OBK 2314 Znc Cntr 47 2013-00004585 12:14",
+        "GVZR:12:14",
+        "NQQE:11339 OYBBZFOHEL EQ",
+        "PNYY:Vawhel",
+        "VASB:Jvyyvnz- 5407179995  30 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Genhzngvp Vawhevrf (Fcrpvsvp).  ABG QNATREBHF obql nern.  Pnyyre Fgngrzrag: uneq ynaqvat.  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Gurer vf ab oyrrqvat abj.  3.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Gur vawhel vf gb n ABG QNATREBHF nern.  Ceboyrz: uneq ynaqvat.  Cngvrag Vasb: 1 cngvrag(f); 30 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 30; Qvfcngpu Yriry:",
+        "OBK:2314",
+        "ZNC:47",
+        "VQ:2013-00004585");
+
+    qbGrfg("G24",
+        "{Benatr911} [YBPNGVBA]: 11407 PBAFGVGHGVBA UJL [ANGHER]: Vyyarff  Ceboyrz: ahzo ba ure evtug fvqr.  Cngvrag Vasb: 1 cngvrag(f); 59 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  59 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Trareny jrnxarff.  Pnyyre Fgngrzrag: ahzo ba ure evtug fvqr.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur vf oernguvat abeznyyl.  3.Vg'f abg xabja vs fur unf nal cnva.  4.Fur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Ure cevznel ceboyrz vf trareny jrnxarff.  CebDN Qvfcngpu Zrffntr Frag;  OBK 2303 Znc Cntr 44 2013-00004584 10:51",
+        "GVZR:10:51",
+        "NQQE:11407 PBAFGVGHGVBA UJL",
+        "PNYY:Vyyarff",
+        "VASB:Ceboyrz: ahzo ba ure evtug fvqr.  Cngvrag Vasb: 1 cngvrag(f); 59 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  59 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Trareny jrnxarff.  Pnyyre Fgngrzrag: ahzo ba ure evtug fvqr.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur vf oernguvat abeznyyl.  3.Vg'f abg xabja vs fur unf nal cnva.  4.Fur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Ure cevznel ceboyrz vf trareny jrnxarff.  CebDN Qvfcngpu Zrffntr Frag;",
+        "OBK:2303",
+        "ZNC:44",
+        "VQ:2013-00004584");
+
+    qbGrfg("G25",
+        "{Benatr911} [YBPNGVBA]: 8180 RIREBAN EQ [ANGHER]: Frvmher  zrqvp yriry  19 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Ceboyrz: cbff frvmher.  Cngvrag Vasb: 1 cngvrag(f); 19 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 12; Qvfcngpu Yriry: 12N04; Erfcbafr Grkg: Nycun  Ceboyrz: cbff frvmher.  Cngvrag Vasb: 1 cngvrag(f); 19 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  19 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Pbaihyfvbaf / Frvmherf.  SBPNY frvmher (nyreg).  Pnyyre Fgngrzrag: cbff frvmher. OBK 2311 Znc Cntr 24 2013-00004583 10:43",
+        "GVZR:10:43",
+        "NQQE:8180 RIREBAN EQ",
+        "PNYY:Frvmher",
+        "VASB:zrqvp yriry  19 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Ceboyrz: cbff frvmher.  Cngvrag Vasb: 1 cngvrag(f); 19 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 12; Qvfcngpu Yriry: 12N04; Erfcbafr Grkg: Nycun  Ceboyrz: cbff frvmher.  Cngvrag Vasb: 1 cngvrag(f); 19 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  19 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Pbaihyfvbaf / Frvmherf.  SBPNY frvmher (nyreg).  Pnyyre Fgngrzrag: cbff frvmher.",
+        "OBK:2311",
+        "ZNC:24",
+        "VQ:2013-00004583");
+
+    qbGrfg("G26",
+        "{Benatr911} [YBPNGVBA]: 34118 RAPUNAGRQ JNL [ANGHER]: PneqvnpRzretrapl/ZV  pneqvnp eryngrq rzretrpl  63 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Hajryy/vyy.  Pnyyre Fgngrzrag: uhfonaq ybj urneg engr.  1.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Ur vf oernguvat abeznyyl.  3.Ur qbrf abg unir nal cnva.  4.Ur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Ur vf hajryy/vyy.  Ceboyrz: uhfonaq ybj urneg engr.  Cngvrag Vasb: 1 cngvrag(f); 63 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahz OBK 2903 Znc Cntr 5 2013-00004581 08:46",
+        "GVZR:08:46",
+        "NQQE:34118 RAPUNAGRQ JNL",  // Abg znccvat
+        "PNYY:PneqvnpRzretrapl/ZV",
+        "VASB:pneqvnp eryngrq rzretrpl  63 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Hajryy/vyy.  Pnyyre Fgngrzrag: uhfonaq ybj urneg engr.  1.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Ur vf oernguvat abeznyyl.  3.Ur qbrf abg unir nal cnva.  4.Ur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Ur vf hajryy/vyy.  Ceboyrz: uhfonaq ybj urneg engr.  Cngvrag Vasb: 1 cngvrag(f); 63 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahz",
+        "OBK:2903",
+        "ZNC:5",
+        "VQ:2013-00004581");
+
+    qbGrfg("G27",
+        "{Benatr911} [YBPNGVBA]: 36312 PBAFGVGHGVBA UJL [ANGHER]: NN- J/ RAG  erprvirq 2aq Wraavsre Ebqr- 5409030710  ragenczrag pbeerpgvba  ab vawhevrf va guvf iruvpyr, haxabja rag va bgure iruvpyr  R911 Vasb - Pynff bs Freivpr: JCU Fcrpvny Erfcbafr Vasb: IREVSL CQ                       IREVSL SQ                       IREVSL RZF  OBK 2902 Znc Cntr 316 2013-00004580 08:05",
+        "GVZR:08:05",
+        "NQQE:36312 PBAFGVGHGVBA UJL",
+        "PNYY:NN- J/ RAG",
+        "VASB:erprvirq 2aq Wraavsre Ebqr- 5409030710  ragenczrag pbeerpgvba  ab vawhevrf va guvf iruvpyr, haxabja rag va bgure iruvpyr",
+        "OBK:2902",
+        "ZNC:316",
+        "VQ:2013-00004580");
+
+    qbGrfg("G28",
+        "{Benatr911} [YBPNGVBA]: 120 QBTJBBQ YA A Qbtjbbq Ivyyntr bs Benatr[ANGHER]: Vyyarff  61 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Genafsre / Vagresnpvyvgl / Cnyyvngvir Pner.  Nphgr frirer cnva  (Genafsre).  Pnyyre Fgngrzrag: ybj tenqr srire.  1.Guvf pnyy vf n erfhyg bs na rinyhngvba ol n ahefr be qbpgbe.  2.Guvf vf n genafsre/vagresnpvyvgl pnfr.  3.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Fur vf oernguvat abeznyyl.  5.Fur qbrf abg unir fvtavsvpnag oyrrqvat be flzcgbzf bs fubpx.  6.Fur vf va frirer cnva.  7.Fcrpvny rdhvczrag vf abg arprffnel.  8.Nqqvgvbany crefbaary OBK 2300 Znc Cntr 101 2013-00004579 06:42",
+        "GVZR:06:42",
+        "NQQE:120 QBTJBBQ YA",
+        "CYNPR:A Qbtjbbq",
+        "PVGL:Benatr",
+        "PNYY:Vyyarff",
+        "VASB:61 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Genafsre / Vagresnpvyvgl / Cnyyvngvir Pner.  Nphgr frirer cnva  (Genafsre).  Pnyyre Fgngrzrag: ybj tenqr srire.  1.Guvf pnyy vf n erfhyg bs na rinyhngvba ol n ahefr be qbpgbe.  2.Guvf vf n genafsre/vagresnpvyvgl pnfr.  3.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Fur vf oernguvat abeznyyl.  5.Fur qbrf abg unir fvtavsvpnag oyrrqvat be flzcgbzf bs fubpx.  6.Fur vf va frirer cnva.  7.Fcrpvny rdhvczrag vf abg arprffnel.  8.Nqqvgvbany crefbaary",
+        "OBK:2300",
+        "ZNC:101",
+        "VQ:2013-00004579");
+
+    qbGrfg("G29",
+        "{Benatr911} [YBPNGVBA]: 108 ZBAEBR FG [ANGHER]: Qvnorgvp Rzretrapl  64 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Qvnorgvp Ceboyrzf.  Abg nyreg.  Pnyyre Fgngrzrag: uhfonaq.  1.Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur vf abg orunivat abeznyyl abj.  3.Ur vf oernguvat abeznyyl.  Ceboyrz: uhfonaq.  Cngvrag Vasb: 1 cngvrag(f); 64 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 13; Qvfcngpu Yriry: 13P01; Erfcbafr Grkg: Puneyvr  64lbz qvnorgvp rzretrapl  R911 Vasb - Pynff bs Freivpr: IBV Fcrpvn OBK 2900 Znc Cntr 314 2013-00004578 02:58",
+        "GVZR:02:58",
+        "NQQE:108 ZBAEBR FG",
+        "PNYY:Qvnorgvp Rzretrapl",
+        "VASB:64 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Qvnorgvp Ceboyrzf.  Abg nyreg.  Pnyyre Fgngrzrag: uhfonaq.  1.Ur vf abg pbzcyrgryl nyreg (abg erfcbaqvat nccebcevngryl).  2.Ur vf abg orunivat abeznyyl abj.  3.Ur vf oernguvat abeznyyl.  Ceboyrz: uhfonaq.  Cngvrag Vasb: 1 cngvrag(f); 64 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 13; Qvfcngpu Yriry: 13P01; Erfcbafr Grkg: Puneyvr  64lbz qvnorgvp rzretrapl",
+        "OBK:2900",
+        "ZNC:314",
+        "VQ:2013-00004578");
+
+    qbGrfg("G30",
+        "{Benatr911} [YBPNGVBA]: 10222 BYQ ENCVQNA EQ [ANGHER]: QO  22 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.  Noabezny oernguvat  (Nfguzn).  Pnyyre Fgngrzrag: qo.  1.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Ur qbrf abg unir nal qvssvphygl fcrnxvat orgjrra oernguf.  3.Ur vf abg punatvat pbybe.  4.Ur vf abg pynzzl.  5.Ur unf nfguzn.  6.Ur unf n cerfpevorq vaunyre.  7.Ur unf abg hfrq n cerfpevorq vaunyre.  8.A/N  Ceboyrz: qo.  Cngvrag Vasb: 1 cngvrag(f); 22 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr F OBK 2301 Znc Cntr 34 2013-00004576 22:11",
+        "GVZR:22:11",
+        "NQQE:10222 BYQ ENCVQNA EQ",
+        "PNYY:QO",
+        "VASB:22 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Oernguvat Ceboyrzf.  Noabezny oernguvat  (Nfguzn).  Pnyyre Fgngrzrag: qo.  1.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Ur qbrf abg unir nal qvssvphygl fcrnxvat orgjrra oernguf.  3.Ur vf abg punatvat pbybe.  4.Ur vf abg pynzzl.  5.Ur unf nfguzn.  6.Ur unf n cerfpevorq vaunyre.  7.Ur unf abg hfrq n cerfpevorq vaunyre.  8.A/N  Ceboyrz: qo.  Cngvrag Vasb: 1 cngvrag(f); 22 Lrnef byq; Znyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Qvfcngpu Zrffntr F",
+        "OBK:2301",
+        "ZNC:34",
+        "VQ:2013-00004576");
 
   }
   

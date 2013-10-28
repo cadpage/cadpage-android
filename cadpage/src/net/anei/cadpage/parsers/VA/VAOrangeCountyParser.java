@@ -11,12 +11,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class VAOrangeCountyParser extends FieldProgramParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("(\\d{1,2}/\\d{1,2}/\\d{4}) (\\d\\d:\\d\\d)");
-  private static final Pattern DELIM = Pattern.compile(" {2,}");
-    
+  private static final Pattern VILLAGE_OF_PTN = Pattern.compile("\\bVillage of\\b", Pattern.CASE_INSENSITIVE);
   
   public VAOrangeCountyParser() {
     super(CITY_LIST, "ORANGE COUNTY", "VA",
-           "ADDR! CALL! [INCIDENT#]:ID! BOX:BOX Map:MAP");
+           "[LOCATION]:ADDR/S5XPP! [NATURE]:CALL! [INCIDENT#]:ID BOX:BOX Map:MAP");
   }
   
   @Override
@@ -28,34 +27,61 @@ public class VAOrangeCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (subject.length() == 0) return false;
-    if (!body.contains("[INCIDENT#]:")) {
-      int pt = body.indexOf("[Orange911]  ");
-      if (pt >= 0) return data.parseGeneralAlert(this, body.substring(pt+13).trim());
-      return false;
-    }
-
-    do {
-      Matcher match = SUBJECT_PTN.matcher(subject);
-      if (match.matches()) {
-        data.strDate = match.group(1);
-        data.strTime = match.group(2);
-        break;
-      }
     
-      else if (!subject.contains(" ")) {
-        data.strSource = subject;
-        break;
+    // Sometimes leading square bracket terms do not make it into the subject line
+    // So we will try to fix that here.
+    while (body.startsWith("[")) {
+      int pt = body.indexOf(']');
+      if (pt < 0) return false;
+      subject = subject + '|' + body.substring(1,pt).trim();
+      body = body.substring(pt+1).trim();
+    }
+    
+    // Now that we have built it up, split up the subject line
+    String[] subParts = subject.split("\\|");
+    
+    // Detect and try to fix IAR alterations
+    if (subParts.length == 1 && !subject.contains(" ")) {
+      data.strSource = subject;
+      int pt = body.indexOf("  ");
+      if (pt < 0) return false;
+      body = "[LOCATION]:" + body.substring(0,pt+2) + "[NATURE]:" + body.substring(pt+2);
+    }
+    
+    // Otherwise process the different subject parts
+    else {
+      boolean good = false;
+      String lastTerm = null;
+      for (String part : subParts) {
+        part = part.trim();
+        if (part.equals("Orange911")) {
+          good = true;
+          continue;
+        }
+        Matcher match = SUBJECT_PTN.matcher(part);
+        if (match.matches()) {
+          data.strDate = match.group(1);
+          data.strTime = match.group(2);
+          continue;
+        }
+        lastTerm = part;
       }
+      if (!good) return false;
+      if (body.startsWith(":")) {
+        body = '[' + lastTerm + ']' + body;
+      }
+    }
+    
+    // See if this should be a general alert
+    if (!body.contains("[INCIDENT#]:") && !body.contains("[NATURE]:")) {
+      return data.parseGeneralAlert(this, body);
+    }
       
-      return false;
-    } while (false);
-      
-    int pt = body.indexOf("[LOCATION]:");
-    if (pt > 0) body = body.substring(pt);
-    body = body.replace("[NATURE]:", "").replace("[LOCATION]:", "");
-    body = body.replace(" BOX ", "  BOX: ").replace(" Map ", "  Map: ");
-    body =body.trim();
-    return parseFields(DELIM.split(body), data);
+    body = body.replace(" BOX ", "  BOX: ").replace(" Map ", "  Map: ").replace("[", " [");
+    body = body.trim();
+    if (!super.parseMsg(body, data)) return false;
+    data.strPlace = data.strPlace.replace(" Village of", "");
+    return true;
   }
   
   @Override
@@ -76,15 +102,28 @@ public class VAOrangeCountyParser extends FieldProgramParser {
       if (data.strTime.length() == 0) data.strTime = sTime;
       
       field = p.get();
-      parseAddress(StartType.START_PLACE, FLAG_ONLY_CITY, field, data);
-      data.strCross = data.strPlace;
-      data.strPlace = "";
-      data.strSupp = getLeft();
+      parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY, field, data);
+      data.strCross = getStart();
+      parseInfo(getLeft(), data);
     }
     
     @Override
     public String getFieldNames() {
       return "ID X CITY INFO";
+    }
+  }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      super.parse(p.get("  "), data);
+      parseInfo(p.get(), data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL INFO";
     }
   }
   
@@ -96,7 +135,7 @@ public class VAOrangeCountyParser extends FieldProgramParser {
       super.parse(field, data);
     }
   }
-  
+
   private class MyMapField extends MapField {
     @Override
     public void parse(String field, Data data) {
@@ -105,12 +144,29 @@ public class VAOrangeCountyParser extends FieldProgramParser {
       } else {
         if ("Page ".startsWith(field)) return;
       }
-      super.parse(field, data);
+      Parser p = new Parser(field);
+      super.parse(p.get(' '), data);
+      String id = p.get(' ');
+      if (data.strCallId.length() == 0) data.strCallId = id;
+      String time = p.get();
+      if (data.strTime.length() == 0) data.strTime = time;
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "MAP ID TIME";
+    }
+  }
+  
+  private static void parseInfo(String info, Data data) {
+    int pt = info.indexOf(" E911 Info ");
+    if (pt >= 0) info = info.substring(0,pt).trim();
+    data.strSupp = append(data.strSupp, "  ", info);
   }
   
   @Override
   public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("BOX")) return new MyBoxField();
     if (name.equals("MAP")) return new MyMapField();

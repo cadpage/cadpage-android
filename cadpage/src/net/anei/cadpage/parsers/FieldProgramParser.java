@@ -1986,7 +1986,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void parse(String field, Data data) {
-      data.strPlace = cleanWirelessCarrier(field);
+      data.strPlace = append(data.strPlace, " - ", cleanWirelessCarrier(field));
     }
     
     @Override
