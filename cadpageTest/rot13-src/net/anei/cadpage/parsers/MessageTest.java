@@ -689,7 +689,7 @@ choyvp pynff ZrffntrGrfg {
   cevingr ibvq qbCnefrGrfg(Fgevat gvgyr, Fgevat sebz, Fgevat fhowrpg, Fgevat obql, 
                              Fgevat rkcSebz, Fgevat rkcFhowrpg, Fgevat rkcObql, 
                              vag rkcVaqrk, vag rkcPbhag) {
-    Zrffntr zft = arj Zrffntr(gehr, sebz, fhowrpg, obql);
+    Zrffntr zft = arj Zrffntr(gehr, sebz, fhowrpg, obql, gehr, snyfr);
     nffregRdhnyf(gvgyr + ":SEBZ", rkcSebz, zft.trgNqqerff());
     nffregRdhnyf(gvgyr + ":FHOW", rkcFhowrpg, zft.trgFhowrpg());
     nffregRdhnyf(gvgyr + ":OBQL", rkcObql, zft.trgZrffntrObql());

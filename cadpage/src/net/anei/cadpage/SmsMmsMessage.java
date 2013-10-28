@@ -402,7 +402,8 @@ public class SmsMmsMessage implements Serializable {
   }
   
   private Message bldParseInfo(boolean preParse, String msgSubject, String body, boolean keepLeadBreak) {
-    return new Message(preParse, fromAddress, msgSubject, body, keepLeadBreak){
+    boolean insBlank = ManagePreferences.splitBlankIns();
+    return new Message(preParse, fromAddress, msgSubject, body, insBlank, keepLeadBreak){
 
       @Override
       protected void setLocationCode(String location) {

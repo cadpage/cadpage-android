@@ -939,6 +939,7 @@ choyvp pynff ZGSyngurnqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Vasbezngvba) Havg:2621 Fgnghf:Qvfcngpurq Ybpngvba: 110 FNAQL YA O Tra: Ovtsbex Pnyy Glcr: Zrqvpny OYF ERQ Pnyy Gvzr: 20:01 Vasb:  302 GB GUR RPUB YNXR UNYY  361 ERD ARKG OYF NZO  ANHFRBHF  CNVA VF ORYBJ ORYYL OHGGBA  Angher Bs Pnyy: 1E2  QVEG EQ BSS BS FNAQL YA//EC VF VA GUR UBEFR ONEA JVGU NA NCG NOBIR VG  YBJRE YRSG NOQBZVA CNVA  AB CERIVBHF ZRQVPNY PBAQVGVBAF  UNF IBZVGGRQ  56LBZ FRIRER NOQBZVANY CNVA SBE YNFG 1 1/2UBHEF  R911 Vasb - Pynff bs Freivpr: JEYF ",
         "HAVG:2621",
         "NQQE:110 FNAQL YA",
+        "NCG:O",
         "PVGL:Ovtsbex",
         "PNYY:Zrqvpny OYF ERQ",
         "GVZR:20:01",
@@ -2467,6 +2468,7 @@ choyvp pynff ZGSyngurnqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:3889 OVT ZBHAGNVA EQ",
         "PVGL:Juvgrsvfu",
         "CYNPR:XVAGYN YBQTR",
+        "NCG:JU",
         "PNYY:Zrqvpny OYF ERQ",
         "GVZR:17:42",
         "VASB:2021 ERPRVIRQ PNYY GB ERFCBAQ GB GUR RIRAGF OYQT BA OVT ZGA SBE N 12LB JVGU N CBFFVOYR URNQ VAW");

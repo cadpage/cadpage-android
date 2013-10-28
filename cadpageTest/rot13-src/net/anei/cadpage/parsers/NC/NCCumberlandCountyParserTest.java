@@ -64,7 +64,7 @@ choyvp pynff APPhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "[F] FCEVAT YNXR (CYNG OBBX 11, CNTR 3)+/- (A)P4;01/27/2011 22:09:28;PYNZZL OERNGUVAT CEBOYRZF;FG22;115-401 YNXR NIR;F SVEFG FG;TNGRJNL VA",
-        "CYNPR:TNGRJNL VA",
+        "CYNPR:FCEVAT YNXR (CYNG OBBX 11, CNTR 3)+/- - TNGRJNL VA",
         "HAVG:P4",
         "QNGR:01/27/2011",
         "GVZR:22:09:28",
@@ -209,7 +209,7 @@ choyvp pynff APPhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZFT:PNQ:QVFG: 1.02 SG;03/28/2012 06:10:51;67Q1 JVYQYNAQ SVER;PPSQ22;2240 A OENTT OYIQ;YHPNF EQ;FURYY FGNGVBA\e\a",
 
         "HAVG:PPSQ22",
-        "CYNPR:FURYY FGNGVBA",
+        "CYNPR:QVFG: 1.02 SG - FURYY FGNGVBA",
         "QNGR:03/28/2012",
         "GVZR:06:10:51",
         "PNYY:67Q1 JVYQYNAQ SVER",

@@ -30,6 +30,10 @@ choyvp pynff GrfgZnantrCersreraprf rkgraqf ZnantrCersreraprf {
   choyvp ibvq frgGrfgTraNyreg(obbyrna arjIny) {
     cersZnc.chg(E.fgevat.cers_tra_nyreg_xrl, arjIny);
   }
+  
+  choyvp ibvq frgGrfgFcyvgVafOynax(obbyrna arjIny) {
+    cersZnc.chg(E.fgevat.cers_fcyvg_oynax_vaf_xrl, arjIny);
+  }
 
   choyvp ibvq chgObbyrna(vag erfCersVq, obbyrna arjIny) {
     cersZnc.chg(erfCersVq, arjIny);

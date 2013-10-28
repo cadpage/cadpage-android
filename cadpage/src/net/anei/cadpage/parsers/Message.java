@@ -14,12 +14,8 @@ public class Message {
 
   // Parsed message information
   private MsgInfo info = null;
-
-  public Message(boolean preParse, String fromAddress, String subject, String body) {
-    this(preParse, fromAddress, subject, body, false);
-  }
   
-  public Message(boolean preParse, String fromAddress, String subject, String body, boolean keepLeadBreak) {
+  public Message(boolean preParse, String fromAddress, String subject, String body, boolean insBlank, boolean keepLeadBreak) {
     if (fromAddress == null) fromAddress = "";
     if (subject == null) subject = "";
     if (body == null) body = "";
@@ -29,7 +25,7 @@ public class Message {
       this.parseSubject = subject;
       this.parseMessageBody = finish(body);
     } else {
-      preParse(fromAddress, subject, body, keepLeadBreak);
+      preParse(fromAddress, subject, body, insBlank, keepLeadBreak);
     }
   }
   
@@ -125,7 +121,7 @@ public class Message {
     Pattern.compile("^prvs=[0-9a-f]{8,}=[\\w .<>@]*<([\\w.\\-]+@[\\w.]+)> *\\((.*?)\\)")
   };
   
-  private void preParse(String fromAddress, String subject, String body, boolean keepLeadBreak) {
+  private void preParse(String fromAddress, String subject, String body, boolean insBlank, boolean keepLeadBreak) {
     
     // Start by decoding common HTML sequences
     body = decode(body);
@@ -263,7 +259,7 @@ public class Message {
             if (line.startsWith("MSG:")) {
               parseAddress = lines[0];
               if (ndx > 1) addSubject(lines[1]);
-              StringBuilder sb = new StringBuilder(line.substring(4).trim());
+              StringBuilder sb = new StringBuilder(trimLead(line.substring(4), keepLeadBreak));
               boolean skipBreak = false;
               for ( ndx++; ndx < lines.length; ndx++) {
                 line = lines[ndx];
@@ -271,7 +267,8 @@ public class Message {
                   skipBreak = true;
                 } else {
                   if (sb.length() > 0) {
-                    sb.append(skipBreak ? ' ' : '\n');
+                    if (!skipBreak) sb.append('\n');
+                    else if (insBlank) sb.append(' ');
                   }
                   sb.append(line);
                   skipBreak = false;

@@ -114,7 +114,7 @@ choyvp pynff PnqcntrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   cevingr ibvq qbNyyGrfg(Fgevat obql) {
-    Zrffntr zft = arj Zrffntr(snyfr, "xra@pnqcntr.bet", "", obql);
+    Zrffntr zft = arj Zrffntr(snyfr, "xra@pnqcntr.bet", "", obql, gehr, snyfr);
     ZftCnefre cnefre = arj PnqcntrCnefre();
     nffregGehr(cnefre.vfCntrZft(zft, 0));
     nffregRdhnyf(obql, PnqcntrCnefre.sbezngVasb(zft.trgVasb(), "\a", snyfr));

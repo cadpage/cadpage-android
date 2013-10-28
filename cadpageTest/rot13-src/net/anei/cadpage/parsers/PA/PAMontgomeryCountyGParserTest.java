@@ -24,6 +24,8 @@ Fraqre: Qvfcngpu- JQF
 SEZ:Qvfcngpu- JQF\aFHOW:Qvfcngpu- JQF\aZFT:\aVAP#:S1324120\aSIR-IRUVPYR SVER\aNqqe:263 OEBNQ FG J\aObk:65-23\aNQP:3031U2\aZHA:FBHQ\aHavgf:R74-1
 SEZ:Qvfcngpu- JQF\aFHOW:Qvfcngpu- JQF\aZFT:\aVAP#:R1358443\aZBQ-BIREQBFR\aNqqe:653 GEHZNA PG\aObk:61-09\aNQP:3030S9\aZHA:YFNY\aHavgf:344-2 
 SEZ:Qvfcngpu- JQF\aFHOW:Qvfcngpu- JQF\aZFT:\aVAP#:S1324119\aSNY-SVER NYNEZ\aNqqe:100 ZLEGYR FG  NCG# A7\aObk:94-01\aNQP:3026P10\aZHA:CBGG\aHavgf:DG69, Y69\a
+1 bs 2\aSEZ:Qvfcngpu- JQF\aFHOW:Qvfcngpu- JQF\aZFT:\aVAP#:R1358554\aZHA-HAXABJA ZRQVPNY RZRETRAPL\aNqqe:3855 OYNVE ZVYY EQ  NCG# 243A\aObk:35-52\aNQ\a(Pba'g) 2 bs 2\aP:3259N2\aZHA:HZBE\aHavgf:DK10, 384-4\a(Raq)
+1 bs 2\aSEZ:Qvfcngpu- JQF\aFHOW:Qvfcngpu- JQF\aZFT:\aVAP#:R1358565\aZSI-SNYY IVPGVZ ABA-GENHZN\aNqqe:22318 FUNAABAQRYY QE\aObk:66-07\aNQP:3254R9\aZH\a(Pba'g) 2 bs 2\aA:YCEB\aHavgf:AP322N, 324-2\a(Raq)
 
 */
 
@@ -33,6 +35,11 @@ choyvp pynff CNZbagtbzrelPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
     frgCnefre(arj CNZbagtbzrelPbhaglTCnefre(), "ZBAGTBZREL PBHAGL", "CN");
   }
   
+  @Bireevqr
+  cebgrpgrq obbyrna vfFcyvgVafOynax() {
+    erghea snyfr;
+  }
+
   @Grfg
   choyvp ibvq grfgCnefre() {
 
@@ -124,6 +131,57 @@ choyvp pynff CNZbagtbzrelPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:3026P10",
         "PVGL:CBGGFGBJA",
         "HAVG:DG69, Y69");
+
+    qbGrfg("G5",
+        "1 bs 2\a" +
+        "SEZ:Qvfcngpu- JQF\a" +
+        "FHOW:Qvfcngpu- JQF\a" +
+        "ZFT:\a" +
+        "VAP#:R1358554\a" +
+        "ZHA-HAXABJA ZRQVPNY RZRETRAPL\a" +
+        "Nqqe:3855 OYNVE ZVYY EQ  NCG# 243A\a" +
+        "Obk:35-52\a" +
+        "NQ\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "P:3259N2\a" +
+        "ZHA:HZBE\a" +
+        "Havgf:DK10, 384-4\a" +
+        "(Raq)",
+
+        "FEP:JQF",
+        "VQ:R1358554",
+        "PNYY:ZHA-HAXABJA ZRQVPNY RZRETRAPL",
+        "NQQE:3855 OYNVE ZVYY EQ",
+        "NCG:243A",
+        "OBK:35-52",
+        "ZNC:3259N2",
+        "PVGL:HCCRE ZBERYNAQ GJC",
+        "HAVG:DK10, 384-4");
+
+    qbGrfg("G6",
+        "1 bs 2\a" +
+        "SEZ:Qvfcngpu- JQF\a" +
+        "FHOW:Qvfcngpu- JQF\a" +
+        "ZFT:\a" +
+        "VAP#:R1358565\a" +
+        "ZSI-SNYY IVPGVZ ABA-GENHZN\a" +
+        "Nqqe:22318 FUNAABAQRYY QE\a" +
+        "Obk:66-07\a" +
+        "NQP:3254R9\a" +
+        "ZH\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "A:YCEB\a" +
+        "Havgf:AP322N, 324-2\a" +
+        "(Raq)",
+
+        "FEP:JQF",
+        "VQ:R1358565",
+        "PNYY:ZSI-SNYY IVPGVZ ABA-GENHZN",
+        "NQQE:22318 FUNAABAQRYY QE",
+        "OBK:66-07",
+        "ZNC:3254R9",
+        "PVGL:YBJRE CEBIVQRAPR GJC",
+        "HAVG:AP322N, 324-2");
 
   }
   

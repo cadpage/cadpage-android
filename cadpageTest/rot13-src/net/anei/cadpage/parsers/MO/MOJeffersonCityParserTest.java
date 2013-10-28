@@ -1016,8 +1016,8 @@ choyvp pynff ZBWrssrefbaPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver Nynez",
         "HAVG:Ongg13 R4 Y1",
         "NQQE:1106 RYYVF OYIQ",
-        "K:ZVFFVFFVCCV FG / ABGER QNZR FG - FZBXR QRGRPGBEF",
-        "VASB:UBJRYY ERFVQRAPR  Fg");
+        "K:ZVFFVFFVCCV FG / ABGER QNZR FG",
+        "VASB:FZBXR QRGRPGBEF  UBJRYY ERFVQRAPR  Fg");
   
   }
   
