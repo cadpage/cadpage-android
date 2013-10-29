@@ -16,12 +16,7 @@ public class DispatchA8Parser extends FieldProgramParser {
 
   protected DispatchA8Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
-           "DISPATCH? TIME CALL ADDR PLACE ( MAP X! | NAME PHONE! MAP ) ( DATE SPECIAL CITY X UNIT | INFO DATE SPECIAL CITY X UNIT | UNK INFO DATE CODE ID SRC SPECIAL CITY UNK SRC UNK X UNK UNIT )");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "cazfd@fdcms.com,cazfire1@windstream.net,lfdfire@verizon.net";
+           "DISPATCH? TIME CALL ADDR PLACE ( MAP X! | NAME PHONE! MAP ) ( DATE SPECIAL CITY X UNIT | INFO DATE SPECIAL CITY X UNIT | EMPTY/Z INFO DATE CODE ID SRC SPECIAL ( MAP EMPTY EMPTY | CITY EMPTY SRC ) EMPTY X EMPTY UNIT | EMPTY SPECIAL EMPTY CODE ID EMPTY )");
   }
 
   @Override
@@ -47,6 +42,18 @@ public class DispatchA8Parser extends FieldProgramParser {
       
       if (field.equals(data.strPlace)) return;
       data.strPlace = append(data.strPlace, " - ", field);
+    }
+  }
+  
+  private class BaseMapField extends MapField {
+    public BaseMapField() {
+      super("\\d\\d-[A-Z0-9]\\d|\\d+[A-Z] [A-Z]|\\d-\\d [A-Z]", false);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals(data.strMap)) return;
+      super.parse(field, data);
     }
   }
   
@@ -102,7 +109,7 @@ public class DispatchA8Parser extends FieldProgramParser {
     if (name.equals("DISPATCH")) return new SkipField("Dispatch", true);
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d(?::\\d\\d)?|", true);
     if (name.equals("PLACE")) return new BasePlaceField();
-    if (name.equals("MAP")) return new MapField("\\d\\d-[A-Z0-9]\\d|\\d+[A-Z] [A-Z]|\\d-\\d [A-Z]", false);
+    if (name.equals("MAP")) return new BaseMapField();
     if (name.equals("DATE")) return new DateField("\\d\\d/\\d\\d/\\d\\d", true);
     if (name.equals("SRC")) return new BaseSourceField();
     if (name.equals("X")) return new BaseCrossField();
