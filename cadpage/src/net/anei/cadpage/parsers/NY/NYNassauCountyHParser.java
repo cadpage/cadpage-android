@@ -4,11 +4,11 @@ public class NYNassauCountyHParser extends NYSuffolkCountyXBaseParser {
   
   public NYNassauCountyHParser() {
     super("NASSAU COUNTY", "NY",
-           "CALL PLACENAME ADDR! CS:X? TOA:TOA!");
+           "CALL PLACENAME ADDR/SXa! CS:X? TOA:TOA!");
   }
   
   @Override
   public String getFilter() {
-    return "scmbackup@verizon.net,cpg.page@gmail.com,wbpaging@optonline.net";
+    return "scmbackup@verizon.net,cpg.page@gmail.com,wbpaging@optonline.net,paging2@firerescuesystems.xohost.com";
   }
 }
