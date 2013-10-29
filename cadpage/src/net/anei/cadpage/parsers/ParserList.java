@@ -461,11 +461,12 @@ public class ParserList {
               ,"NJMorrisCounty"                 ,"Morris County, NJ"
               ,"NJNeptune"                      ,"Neptune, NJ"
               ,"NJOceanCounty"                  ,"Ocean County, NJ"
+              ,"NJPassaicCounty"                ,"Passaic County, NJ"
               ,"NJSalemCounty"                  ,"Salem County, NJ"
               ,"NJSomersetCounty"               ,"Somerset County, NJ"
               ,"NJSussexCounty"                 ,"Sussex County, NJ"
-              ,"NJWayneTownship"                ,"Wayne Township, NJ"
               ,"NJWarrenCounty"                 ,"Warren County, NJ"
+              ,"NJWayneTownship"                ,"Wayne Township, NJ"
           ),
           new ParserCategory("New Mexico"
               ,"NMDonaAnaCounty"                ,"Dona Ana County, NM"
