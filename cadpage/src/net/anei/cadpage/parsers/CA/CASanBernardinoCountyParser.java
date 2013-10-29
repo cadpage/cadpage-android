@@ -72,11 +72,11 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       if (data.strCity.equals("-")) data.strCity = "";
       data.strApt = p.getLastOptional(" -");
       parseAddress(p.get(), data);
-      
-      String city = CITY_PLACE_TABLE.getProperty(data.strCity);
-      if (city != null) {
-        data.strPlace = data.strCity;
-        data.strCity = city;
+
+      int pt = data.strCity.indexOf('/');
+      if (pt >= 0) {
+        data.strPlace = data.strCity.substring(0,pt);
+        data.strCity = data.strCity.substring(pt+1);
       }
     }
     
@@ -264,8 +264,8 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       "SIL", "SILVERWOOD",
       "SKY", "SKY FOREST",
       "SUG", "SUGARLOAF",
-      "SVL", "SPRING VALLEY LAKE",
-      "SVY", "SPRING VALLEY LAKE",
+      "SVL", "SPRING VALLEY LAKE/VICTORVILLE",
+      "SVY", "SEARLES VALLEY/TRONA",
       "TMD", "MARINE CORP AIR GROUND COMBAT CENTER",
       "TNP", "29 PALMS",
       "TNPC", "29 PALMS",
@@ -284,10 +284,6 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       "YUCC", "YUCAIPA",
       "YVY", "YUCCA VALLEY",
       "YVYC", "YUCCA VALLEY"
-  });
-  
-  private static final Properties CITY_PLACE_TABLE = buildCodeTable(new String[]{
-      "SPRING VALLEY LAKE",     "VICTORVILLE"
   });
   
   
