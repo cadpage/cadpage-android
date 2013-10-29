@@ -230,6 +230,9 @@ public class ALShelbyCountyParser extends FieldProgramParser {
       "SAGN COL", "COLUMBIANA",
       "SUMH COL", "COLUMBIANA",
       
+      "BMH",      "BIRMINGHAM",
+      "CVAL BMH", "BIRMINGHAM",
+      
       "HRP",      "HARPERSVILLE",
       "HARP HRP", "HARPERSVILLE",
       "WESJ HRP", "WESTOVER",
