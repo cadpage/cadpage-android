@@ -11,7 +11,7 @@ public class DESussexCountyAParser extends SmartAddressParser {
   
   public DESussexCountyAParser() {
     super(CITY_LIST, "SUSSEX COUNTY", "DE");
-    setFieldList("SRC CALL ADDR CITY PLACE");
+    setFieldList("SRC CALL ADDR CITY PLACE X");
   }
 
   @Override
@@ -38,31 +38,45 @@ public class DESussexCountyAParser extends SmartAddressParser {
     // See how many fields we have
     int fldCnt = strBody.length;
 
-    // If more than 2 and the last fields starts with "INC ", ignore it
-    if (fldCnt > 2 && strBody[fldCnt-1].trim().startsWith("INC ")) fldCnt--;
+    // if the last fields starts with "INC ", ignore it
+    if (strBody[fldCnt-1].trim().startsWith("INC ")) {
+      if (--fldCnt == 0) return false;
+    }
+    
+    // If last field is a  cross street field, process it
+    String line = strBody[fldCnt-1].trim();
+    if (line.startsWith("XST:")) {
+      data.strCross = line.substring(4).trim();
+      if (--fldCnt == 0) return false;
+    }
+    
+    if (fldCnt < 2 || fldCnt > 3) return false;
 
     // If we are down to 2 fields, the last one is the address line and
     // nothing needs to be worried about
     Result result;
     if (fldCnt == 2) {
-      result = parseAddress(strBody[1]);
+      result = parseAddress(strBody[1].trim());
     }
 
     // Otherwise we have big problems, one of lines 3 and 4 is the address
     // line and one is a place name.  But we don't know which is which.
     else {
-      Result res2 = parseAddress(strBody[1]);
-      Result res3 = parseAddress(strBody[2]);
+      String line2 = strBody[1].trim();
+      if (line2.endsWith("-")) line2 = line2.substring(0,line2.length()-1).trim();
+      String line3 = strBody[2].trim();
+      if (line3.endsWith("-")) line3 = line3.substring(0,line3.length()-1).trim();
+      Result res2 = parseAddress(line2);
+      Result res3 = parseAddress(line3);
       if (res2.getStatus() >= res3.getStatus()) {
         result = res2;
-        data.strPlace = strBody[2];
+        data.strPlace = line3;
       } else {
         result = res3;
-        data.strPlace = strBody[1];
+        data.strPlace = line2;
       }
     }
 
-    if (result.getStatus() == 0) return false;
     result.getData(data);
     
     // Hopefully it found a city, if not we will have to parse one out
