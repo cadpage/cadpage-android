@@ -216,6 +216,9 @@ public class ALShelbyCountyParser extends FieldProgramParser {
       "BFD",      "BRIERFIELD",
       "BFLD BFD", "BRIERFIELD",
       "BRIR BFD", "BRIERFIELD",
+      
+      "BHM",       "BIRMINGHAM",
+      "CVAL BHM",  "BIRMINGHAM",
 
       "CAL",      "CALERA",
       "CALE CAL", "CALERA",

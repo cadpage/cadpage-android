@@ -1,37 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10242013</string>
-  <string name="release_version">v1.6.48</string>
+  <string name="release_date">10292013</string>
+  <string name="release_version">v1.6.49</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Jones County, NC\n
-Multnomah County, OR\n
+Passaic County, NJ\n
 Chester County, PA (alt)\n
-Montgomery County, PA\n
-Seabroook, TX\n
-Seguin, TX\n
 \n
 Location Parsing Fixes:\n
 Shelby County, AL\n
-Carroll County, MD\n
-Lenawee County, MI\n
-Carver County, MN\n
-Erie County, NY\n
-Orange County, NY\n
-Haywood County, NC\n
-Randolph County, NC\n
-Jackson County, OR\n
-Linn County, OR\n
-Pennington County, SD\n
-Collin County, TX\n
-Cy Creek Comm Center, TX\n
-King County, WA\n
-Calgary, AB, CA\n
-Canmore, BC, CA\n
-\n
-General improvments to apartment parsing\n
+San Bernadino County, CA\n
+Sussex County, DE\n
+Polk County, MO\n
+Montgomery County, NY\n
+Nassau County, NY\n
+Carteret County, NC\n
+Ashtabula County, OH\n
+Greene County, OH\n
+Montgomery County, PA\n
+Somerset County, PA\n
+Fauquier County, VA\n
+Orange County, VA\n
   </string>  
 </resources>
   
