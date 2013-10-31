@@ -387,6 +387,7 @@ public class ParserList {
               ,"MIOaklandCounty"                ,"Oakland County, MI"
               ,"MIRichmond"                     ,"Richmond, MI"
               ,"MISaginawCounty"                ,"Saginaw County, MI"
+              ,"MIStClairCounty"                ,"St Clair County, MI"
           ),
           new ParserCategory("Minnesota"
               ,"MNAnokaCounty"                  ,"Anoka County, MN"
