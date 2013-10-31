@@ -17,6 +17,7 @@ Fraqre: qvfcngpu@pb.craavatgba.fq.hf
 (Qvfcngpu) ZRQ6 (Cevznel); EX (Cevznel); 29X1 (Cevznel) PURFG 13517 RNEY PG, CRAAPB, FQ 57702 81-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Pbqr: 10-P-4:
 (Qvfcngpu) UJ (Cevznel); 29X1 (Cevznel) PNEQVNP-R 13662 YBFG PNIR EQ, CRAAPB, FQ 57751 51-lrne-byq, Znyr, Abg Pbafpvbhf, Abg Oernguvat. Pbqr: 9-O-1-r:
 (Qvfcngpu) 29X1 (Cevznel) FVPX 13790 OBETYHZ EQ, CRAAPB, FQ 57751 71-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Pbqr: 26-N-3: Qvmmvarff/iregvtb  1. Ur vf pb
+(Qvfcngpu) ZRQ4 (Cevznel); XF (Cevznel); 29X1 (Cevznel) OERNGU 300 SVEFG FG, XRLFGBAR 41-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. 3. Ur vf abg pynzzl.  4.
 
 */
 choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -68,6 +69,14 @@ choyvp pynff FQCraavatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FVPX",
         "NQQE:13790 OBETYHZ EQ",
         "VASB:71-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Pbqr: 26-N-3: Qvmmvarff/iregvtb  1. Ur vf pb");
+
+    qbGrfg("G1",
+        "(Qvfcngpu) ZRQ4 (Cevznel); XF (Cevznel); 29X1 (Cevznel) OERNGU 300 SVEFG FG, XRLFGBAR 41-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. 3. Ur vf abg pynzzl.  4.",
+        "HAVG:ZRQ4 XF 29X1",
+        "PNYY:OERNGU",
+        "NQQE:300 SVEFG FG",
+        "PVGL:XRLFGBAR",
+        "VASB:41-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. 3. Ur vf abg pynzzl.  4.");
 
   }
   

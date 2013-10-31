@@ -346,26 +346,89 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
    */
   choyvp ibvq trarengrGrfgf(Fgevat gvgyr, Fgevat svryqAnzrf, obbyrna fxvcSnvyherf) {
     
-    // Ernq yvfg bs grfg fgevatf
-    Fgevat[] grfgZftf = trgGrfgZftf();
+    OhssrerqErnqre ve = arj OhssrerqErnqre(arj VachgFgernzErnqre(Flfgrz.va));
     
-    // Naq trarengr n grfg sbe rnpu grfg fgevat
-    sbe (Fgevat grfgZft : grfgZftf) {
-      trarengrGrfg(gvgyr, grfgZft, svryqAnzrf, fxvcSnvyherf);
-      gvgyr = vapGvgyr(gvgyr);
+    // Ernq yvfg bs grfg fgevatf
+    Flfgrz.bhg.cevagya("Ragre grfg zrffntrf, grezvangrq ol na rzcgl yvar");
+    Fgevat[] grfgZftf = trgGrfgZftf(ve);
+    
+    // Vs jr tbg nalguvat, trarengr gur grfg obql naq erghea
+    vs (grfgZftf.yratgu != 0) { 
+      trarengrGrfgObql(gvgyr, svryqAnzrf, fxvcSnvyherf, grfgZftf);
     }
+    
+    // Vs gur svefg yvar jnf oynax, jr ner ehaavat va Npgvir911 zbqr jurer jr trarengrq
+    // arj grfg zrgubqf sbe rnpu ntrapl sbhaq
+    ryfr {
+      Yvfg<Fgevat> grfgAnzrf = arj NeenlYvfg<Fgevat>();
+      Yvfg<Fgevat[]> grfgZftYvfg = arj NeenlYvfg<Fgevat[]>();
+      
+      juvyr (gehr) {
+        Fgevat grfgAnzr = trgGrfgAnzr(ve);
+        vs (grfgAnzr == ahyy) oernx;
+        grfgZftf = trgGrfgZftf(ve);
+        grfgAnzrf.nqq(grfgAnzr);
+        grfgZftYvfg.nqq(grfgZftf);
+      }
+      
+      sbe (vag aqk = 0; aqk < grfgAnzrf.fvmr(); aqk++) {
+        trarengrGrfgZrgubq(grfgAnzrf.trg(aqk));
+        trarengrGrfgObql(gvgyr, svryqAnzrf, fxvcSnvyherf, grfgZftYvfg.trg(aqk));
+        Flfgrz.bhg.cevagya();
+        Flfgrz.bhg.cevagya("  }");
+      }
+    }
+  }
+
+  /** 
+   * Ernqf Npgvir911 ntrapl urnqvat oybpx naq ergheaf n grfg zrgubq anzr
+   * onfrq ba gur Ntrapl anzr
+   * @erghea grfg zrgubq anzr
+   */
+  cevingr Fgevat trgGrfgAnzr(OhssrerqErnqre ve) {
+    Fgevat erfhyg = ahyy;
+    juvyr (gehr) {
+      Fgevat yvar = ahyy;
+      gel { yvar = ve.ernqYvar(); } pngpu (VBRkprcgvba rk) {};
+      vs (yvar == ahyy) oernx;
+      vs (yvar.gevz().yratgu() == 0) oernx;
+      vs (yvar.fgnegfJvgu("Ntrapl anzr:")) {
+        erfhyg = pnypGrfgAnzr(yvar.fhofgevat(12).gevz());
+      }
+    }
+    erghea erfhyg;
+  }
+  
+  /**
+   * Ghea ntrapl anzr vagb grfg zrgubq anzr
+   * @cnenz anzr ntrapl anzr
+   * @erghea grfg zrgubq anzr
+   */
+  cevingr Fgevat pnypGrfgAnzr(Fgevat anzr) {
+    FgevatOhvyqre fo = arj FgevatOhvyqre("grfg");
+    obbyrna hcfuvsg = gehr;
+    sbe (pune pue : anzr.gbPuneNeenl()) {
+      vs (pue == ' ') {
+        hcfuvsg = gehr;
+      } 
+      ryfr vs (Punenpgre.vfWninVqragvsvreCneg(pue)){
+        vs (hcfuvsg) {
+          pue = Punenpgre.gbHccrePnfr(pue);
+          hcfuvsg = snyfr;
+        }
+        fo.nccraq(pue);
+      }
+    }
+    erghea fo.gbFgevat();
   }
 
   /**
    * Trg n yvfg bs grfg zrffntrf. grezvangrq ol n oynax yvar be RBS
    * @erghea neenl bs grfg zrffntrf
    */
-  cevingr Fgevat[] trgGrfgZftf() {
-    
-    OhssrerqErnqre ve = arj OhssrerqErnqre(arj VachgFgernzErnqre(Flfgrz.va));
+  cevingr Fgevat[] trgGrfgZftf(OhssrerqErnqre ve) {
     
     Yvfg<Fgevat> zftYvfg = arj NeenlYvfg<Fgevat>();
-    Flfgrz.bhg.cevagya("Ragre grfg zrffntrf, grezvangrq ol na rzcgl yvar");
     juvyr (gehr) {
       Fgevat yvar = ahyy;
       gel { yvar = ve.ernqYvar(); } pngpu (VBRkprcgvba rk) {};
@@ -376,6 +439,30 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       zftYvfg.nqq(yvar);
     }
     erghea zftYvfg.gbNeenl(arj Fgevat[zftYvfg.fvmr()]);
+  }
+
+  /**
+   * Trarengr grfg zrgubq urnqvat
+   * @cnenz grfgAnzr anzr bs grfg zrgubq
+   */
+  cevingr ibvq trarengrGrfgZrgubq(Fgevat grfgAnzr) {
+    Flfgrz.bhg.cevagya();
+    Flfgrz.bhg.cevagya("  @Grfg");
+    Flfgrz.bhg.cevagya("  choyvp ibvq " + grfgAnzr + "() {");
+  }
+
+  /**
+   * Trarengr grfg pbqr obql
+   * @cnenz gvgyr gvgyr gb hfr sbe svefg grfg
+   * @cnenz svryqAnzrf grfg svryq anzrf gb trarengr
+   * @cnenz fxvcSnvyherf gehr gb fxvc ercbegvat bs grfg snvyherf
+   * @cnenz grfgZftf grfg zrffntrf gb or hfrq gb trarengr grfgf
+   */
+  cevingr ibvq trarengrGrfgObql(Fgevat gvgyr, Fgevat svryqAnzrf, obbyrna fxvcSnvyherf, Fgevat[] grfgZftf) {
+    sbe (Fgevat grfgZft : grfgZftf) {
+      trarengrGrfg(gvgyr, grfgZft, svryqAnzrf, fxvcSnvyherf);
+      gvgyr = vapGvgyr(gvgyr);
+    }
   }
 
   /**
