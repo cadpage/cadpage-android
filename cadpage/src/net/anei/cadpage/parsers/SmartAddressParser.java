@@ -341,7 +341,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", 
         "RUN", "LANE", "PARK", "POINT", "RIDGE", "CREEK", "MILL", "BRIDGE", "HILLS",
         "HILL", "TRACE", "STREET", "MILE", "BAY", "NOTCH", "END", "LOOP", "ESTATES",
-        "SQUARE", "WALK", "CIRCLE", "GROVE", "HT", "HTS", "HEIGHTS", "BEND");
+        "SQUARE", "WALK", "CIRCLE", "GROVE", "HT", "HTS", "HEIGHTS", "BEND", "VALLEY");
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
         "AVENUE", "AV", "AVE", 
@@ -370,6 +370,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // Set up special cross street names
     addCrossStreetNames(
+        "ALLEY",
         "DEADEND",
         "DEAD END",
         "RR",
@@ -1157,10 +1158,8 @@ public abstract class SmartAddressParser extends MsgParser {
     if (mWordStreetsRev != null) sAddr = mWordStreetsRev.findEndSequence(sAddr);
     
     // If not, see if the first word is an ambiguous street suffix, and if it is, include the
-    // previous word
-    if (sAddr == save && sAddr > start && isType(sAddr, ID_AMBIG_ROAD_SFX) && !isType(sAddr-1,ID_NOT_ADDRESS)) {
-      sAddr--;
-    }
+    // previous word,
+    if (sAddr == save && isAmbigRoadSuffix(sAddr)) sAddr--;
     return sAddr;
   }
   
@@ -1299,7 +1298,7 @@ public abstract class SmartAddressParser extends MsgParser {
         if (sAddr == save) {
           while (sAddr > start && !isType(sAddr-1, ID_NOT_ADDRESS | ID_CONNECTOR) && 
               (isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX) ||
-               isType(sAddr, ID_AMBIG_ROAD_SFX))) {
+               isAmbigRoadSuffix(sAddr))) {
             sAddr--;
           }
         }
@@ -1739,6 +1738,33 @@ public abstract class SmartAddressParser extends MsgParser {
   private boolean isRealRoadSuffix(int ndx) {
     return isType(ndx, ID_ROAD_SFX) && !isType(ndx, ID_AMBIG_ROAD_SFX);
   }
+  
+  /**
+   * Determine if token is a potential ambiguous road suffix, which means
+   * road names should generally include the word in front of this
+   * @param ndx token index
+   * @return true if previous word should be included in road name
+   */
+  private boolean isAmbigRoadSuffix(int ndx) {
+    
+    // If this is the first token, obviusly we cannot include a previous word
+    if (ndx == 0) return false;
+    
+    // Is this a potential ambiguous road suffix
+    if (!isType(ndx, ID_AMBIG_ROAD_SFX)) return false;
+    
+    // If the previous word cannot be an address, answer is no
+    if (isType(ndx-1,ID_NOT_ADDRESS)) return false;
+    
+    // One more special case, if there might not be a delimiter
+    // between the start field and address, and the previous word
+    // looks like it might consist of a merged word and house number
+    if (isFlagSet(FLAG_START_FLD_NO_DELIM) && MIXED_WORD_PTN.matcher(tokens[ndx-1]).matches()) return false;
+    
+    // Otherwse we are good to go
+    return true;
+  }
+  private static final Pattern MIXED_WORD_PTN = Pattern.compile("[A-Z]+\\d+", Pattern.CASE_INSENSITIVE);
 
   /**
    * See if we can find some additional cross street information after

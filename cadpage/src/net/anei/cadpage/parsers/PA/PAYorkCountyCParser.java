@@ -70,7 +70,7 @@ public class PAYorkCountyCParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern MAP_PHONE_PTN = Pattern.compile("(?:District: *)?(\\d\\d-?\\d\\d?)|Phone *(.*)");
+  private static final Pattern MAP_PHONE_PTN = Pattern.compile("(?:District: *)?(\\d{2,3}-?\\d{1,3})|Phone *(.*)");
   private class MyMapPhoneField extends Field {
     @Override
     public boolean canFail() {
