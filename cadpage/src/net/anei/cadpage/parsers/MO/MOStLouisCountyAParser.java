@@ -18,7 +18,7 @@ public class MOStLouisCountyAParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "nccfas@ncc911.org,timparks@sbcglobal.net";
+    return "nccfas@ncc911.org,timparks@sbcglobal.net,ncfapaging@cce911.org";
   }
   
   @Override
@@ -26,8 +26,8 @@ public class MOStLouisCountyAParser extends MsgParser {
   
     Matcher match = MASTER_PTN.matcher(body);
     if (!match.matches()) return false;
-    String address = match.group(1);
-    data.strCall = match.group(2);
+    String address = match.group(1).trim();
+    data.strCall = match.group(2).trim();
     body = match.group(3);
     data.strTime = match.group(4);
 
@@ -36,8 +36,13 @@ public class MOStLouisCountyAParser extends MsgParser {
       data.strPlace = address.substring(0,pt).trim();
       address = address.substring(pt+1).trim();
     }
+    pt = address.indexOf(" BLDG ");
+    if (pt >= 0) {
+      data.strPlace = append(data.strPlace, " - ", address.substring(pt+6).trim());
+      address = address.substring(0,pt).trim();
+    }
     parseAddress(address, data);
-
+    
     Parser p = new Parser(body);
     data.strSupp = p.get(" - ");
     data.strUnit = p.get(" - ");

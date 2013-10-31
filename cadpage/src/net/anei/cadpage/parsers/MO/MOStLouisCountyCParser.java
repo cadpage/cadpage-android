@@ -9,9 +9,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MOStLouisCountyCParser extends FieldProgramParser {
   
+  private static final Pattern ID_PTN = Pattern.compile(" +(\\d{2}-\\d+)$");
   private static final Pattern TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)$");
   private static final Pattern LAT_LONG_PTN = Pattern.compile("(38)(\\d{6}) +(\\d{2})(\\d{6})$");
-  private static final Pattern SRC_UNIT_PTN = Pattern.compile("(?: +(SOUTH MAIN))? +(Metro West|West County|[A-Z]{1,2}[a-z]+(?: +[A-Z]{2,3})?)(?: (?:\\[ )?([A-Z0-9,]+))?$");
+  private static final Pattern SRC_UNIT_PTN = Pattern.compile(" +([A-Z0-9]{2,4}|[A-Z][a-z]+(?: [A-Z]{2,3})?) (?:\\[ )?([A-Za-z0-9,]+)$");
 
   public MOStLouisCountyCParser() {
     super("ST LOUIS COUNTY", "MO", 
@@ -20,13 +21,26 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@cce911.org";
+    return "dispatch@cce911.org,paging@cce911.org";
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (!subject.equals("CAD Paging") && !subject.equals("CCE911 Page")) return false;
 
-    Matcher match =  TIME_PTN.matcher(body);
+    Matcher match =  ID_PTN.matcher(body);
+    if (match.find()) {
+      data.strCallId = match.group(1);
+      body = body.substring(0,match.start());
+    }
+
+    match =  TIME_PTN.matcher(body);
     if (match.find()) {
       data.strTime = match.group(1);
       body = body.substring(0,match.start());
@@ -37,54 +51,55 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
       setGPSLoc(match.group(1)+'.'+match.group(2)+','+match.group(3)+'.'+match.group(4), data);
       body = body.substring(0,match.start()).trim();
     }
-    
-    // Pages come in two forms, a fixed field position version and a version apparently
-    // derived from the fixed position version with all extra blanks removed.  We will try
-    // the compressed version first, looking for a Camel case source name separted from
-    // the units with a '[' separator
+
+    /// Parse out source and unit from end of body
     match = SRC_UNIT_PTN.matcher(body);
-    if (match.find()) {
-      data.strChannel = getOptGroup(match.group(1));
-      data.strSource = match.group(2).trim();
-      data.strUnit = getOptGroup(match.group(3));
-      body = body.substring(0,match.start());
-      
-      // Also, the compressed version drops the : from the AT: keyword :(
-      int pt = body.indexOf(" AT ");
-      if (pt >= 0) {
-        body = body.substring(0,pt+3) + ":" + body.substring(pt+3);
-      }
-      
-      // They used to do that.  Now the retain the colon, but sometimes we need to enforce
-      // the space in front of the keyword
-      else {
-        pt = body.indexOf("AT:");
-        if (pt >= 0) body = body.substring(0,pt) + ' ' + body.substring(pt);
-      }
+    if (!match.find()) return false;
+    data.strSource = match.group(1).trim();
+    data.strUnit = match.group(2);
+    body = body.substring(0,match.start());
+    
+    // Make sure there is a blank in front of the AT keyword
+    // And a colon behind it
+    int pt = body.indexOf("AT:");
+    if (pt >= 0) {
+      body = body.substring(0,pt) + ' ' + body.substring(pt);
+    } else {
+      pt = body.indexOf(" AT");
+      if (pt < 0) return false;
+      body = body.substring(0,pt+3) + ':' + body.substring(pt+3);
     }
 
-    // For the fixed position version, we can grab the source and unit field
-    // from fixed character positions in the text body
-    // For the compressed version, the logic moves to the cross street field
-    else if (body.length() >= 143 && body.charAt(127) != ' ' & body.charAt(142) != ' ') {
-      data.strSource = substring(body,127,142);
-      data.strUnit = substring(body,142);
-      body = body.substring(0,127).trim();
-      
-      // Also, sometimes field run all the way up to the next label
-      if (body.charAt(29) != ' ') body = body.substring(0,30) + ' ' + body.substring(30);
-    }
-    
-    // If neither pattern matches, we have a problem
-    else return false;
-    
-    // Now we can call the superclass parseMsg method to handle everything else
     return super.parseMsg(body, data);
   }
   
   @Override
   public String getProgram() {
-    return super.getProgram() + " CH SRC UNIT GPS TIME";
+    return super.getProgram() + " SRC UNIT GPS TIME ID";
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern CALL_CODE_PTN = Pattern.compile("(\\d{2}(?:[A-Z]\\d)?) +(.*)");
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = CALL_CODE_PTN.matcher(field);
+      if (match.matches()) {
+        data.strCode = match.group(1);
+        field = match.group(2);
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE CALL";
+    }
   }
   
   @Override
