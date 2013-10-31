@@ -14,7 +14,11 @@ public class Message {
 
   // Parsed message information
   private MsgInfo info = null;
-  
+
+  public Message(boolean preParse, String fromAddress, String subject, String body) {
+    this(preParse, fromAddress, subject, body, true, false);
+  }
+
   public Message(boolean preParse, String fromAddress, String subject, String body, boolean insBlank, boolean keepLeadBreak) {
     if (fromAddress == null) fromAddress = "";
     if (subject == null) subject = "";
