@@ -12,6 +12,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class CASanBernardinoCountyParser extends FieldProgramParser {
   
+  private static final Pattern GEN_ALT_UNIT_PTN = Pattern.compile("^([A-Z]+\\d+)\\b");
+  
   public CASanBernardinoCountyParser() {
     super(CITY_CODES, "SAN BERNARDINO COUNTY", "CA",
            "CALL! ADDR! ( XST:X LOC_INFO:PLACE! CITY! AGN_MAP:MAP! INFO UNIT CALL_INFO:INFO | LOC_INFO:PLACE AGN_MAP:MAP! X_ST:X! UNIT COMMENTS:INFO )");
@@ -30,7 +32,24 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (body.startsWith("|")) body = body.substring(1).trim();
-    return parseFields(body.split(">"), data);
+    if (parseFields(body.split(">"), data)) return true;
+    
+    // No go for regular dispatch page
+    // If positive confirmation, this might be a general alert 
+    if (!isPositiveId()) return false;
+    
+    // If body starts with something that looks like a unit
+    // parse the unit field and report result as general alert
+    Matcher match = GEN_ALT_UNIT_PTN.matcher(body);
+    if (!match.find()) return false;
+    data.initialize(this);
+    data.strCall = "GENERAL ALERT";
+    data.strUnit = match.group(1);
+    data.strPlace = body;
+    return true;
+        
+    
+    
   }
   
   private class MyCallField extends CallField {

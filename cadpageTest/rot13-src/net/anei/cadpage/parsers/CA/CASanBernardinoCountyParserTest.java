@@ -229,6 +229,17 @@ choyvp pynff PNFnaOreaneqvabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgTraNyreg() {
+
+    qbGrfg("G1",
+        "ZN301 PNAPRY",
+        "PNYY:TRARENY NYREG",
+        "HAVG:ZN301",
+        "CYNPR:ZN301 PNAPRY");
+ 
+  }
+  
+  @Grfg
   choyvp ibvq grfgFnaOreneqvabPbhagl1() {
   
 
