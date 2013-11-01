@@ -14,6 +14,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 public class TXLaPorteParser extends DispatchOSSIParser {
   
   private static final Pattern PREFIX = Pattern.compile("^\\d*:");
+  private static final Pattern LINE_BRK_PTN = Pattern.compile(" *\n *");
   
   public TXLaPorteParser() {
     this("LA PORTE", "TX");
@@ -21,7 +22,7 @@ public class TXLaPorteParser extends DispatchOSSIParser {
   
   protected TXLaPorteParser(String defCity, String defState) {
     super(CITY_CODES, defCity, defState,
-          "( FYI SRC? CALL! ADDR! UNIT? CITY? CODE? DATETIME! | CANCEL ADDR! CITY? ) INFO+");
+          "( FYI ( DATETIME ADDR CITY CALL SRC+? | SRC? CALL! ADDR! UNIT? CITY? CODE? INFO+? DATETIME ) | CANCEL ADDR! CITY? ) INFO+");
   }
   
   @Override
@@ -44,9 +45,8 @@ public class TXLaPorteParser extends DispatchOSSIParser {
     
     // Strip off option number prefix
     Matcher match = PREFIX.matcher(body);
-    if (match.find()) {
-      body = body.substring(match.end()).trim();
-    }
+    if (match.find()) body = body.substring(match.end()).trim();
+    body = LINE_BRK_PTN.matcher(body).replaceAll(" ");
     return super.parseMsg(body, data);
   }
   
