@@ -43,13 +43,16 @@ public class ZCAABRedDeerCountyParser extends FieldProgramParser {
   
   @Override
   public String adjustMapAddress(String sAddress) {
-    sAddress = RNG_PATTERN.matcher(sAddress).replaceAll("Range");
-    sAddress = HWY_PATTERN.matcher(sAddress).replaceAll("RT");
-    return sAddress;
+    return RNG_PATTERN.matcher(sAddress).replaceAll("Range");
   }
   private static final Pattern RNG_PATTERN = Pattern.compile("\\bRng\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern HWY_PATTERN = Pattern.compile("\\bHwy\\b", Pattern.CASE_INSENSITIVE);
   
+  @Override
+  public String postAdjustMapAddress(String sAddress) {
+    return HWY_NN_PTN.matcher(sAddress).replaceAll("ALBERTA $1");  
+  }
+  private static final Pattern HWY_NN_PTN = Pattern.compile("\\bHWY +(\\d+)\\b", Pattern.CASE_INSENSITIVE);
+
   private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
   private class MyDateTimeField extends DateTimeField {
     @Override
@@ -61,6 +64,11 @@ public class ZCAABRedDeerCountyParser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
+      if (field.endsWith(")")) {
+        int pt = field.indexOf('(');
+        data.strPlace = field.substring(pt+1,field.length()-1).trim();
+        field = field.substring(0,pt).trim();
+      }
       Parser p = new Parser(field);
       data.strCity = p.getLastOptional(',');
       super.parse(p.get(',').replace('\\', '/'), data);
@@ -68,7 +76,7 @@ public class ZCAABRedDeerCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " CITY";
+      return super.getFieldNames() + " CITY PLACE";
     }
   }
   

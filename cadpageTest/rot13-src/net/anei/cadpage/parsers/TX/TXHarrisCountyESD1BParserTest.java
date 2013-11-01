@@ -181,6 +181,9 @@ VQ#:13-08-34743 - HAVG:Z29 - QVFC:08:10:25 - RE:08:12:33 - BHG:08:17:55 - GB:08:
 VQ#:13-08-34743 - HAVG:Z29 - Pnyy Epiq: 08:09:59 - QVFC: 08:10:25 - RE: 08:12:33 - BHG: 08:17:55 - GB: 08:38:04 - NG: 08:57:35 - NVE: 09:29:01
 28p1 Pin - 12511 Pncr Fnoyr Pg - FD39 - XZ:377O - Kfg'f: Qrnq Raq/rapunagrq Ebpx Gey
 
+Pbagnpg: Revp Zbagrybatb <revpzbagrybatb@ubgznvy.pbz>
+Fraqre: pnqabercyl@cebkl.uprp.pbz
+/ Z97 - -ZBGBE IRUVPYR NPPVQR-Irgrenaf Zrzbevny Qe / J Terraf Eq - Ncg: - Oyqt: - Xrl Znc:371D - Pebff Fgerrgf: - Obk #:4801
 
 *** Abg cnefvat 
 []  - - 32O1 HAXABJA CEBOYRZ - 123 Grfg Fgerrg - Ncg: - Oyqt: GRFGVAT NC - Xrl Znc:496X - Pebff Fgerrgf:Qrnq Raq/Qrnq Raq - Obk #:4104\a
@@ -1363,6 +1366,19 @@ choyvp pynff GKUneevfPbhaglRFQ1OCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:377O",
         "K:Qrnq Raq/rapunagrq Ebpx Gey");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRevpZbagrybatb() {
+
+    qbGrfg("G1",
+        "/ Z97 - -ZBGBE IRUVPYR NPPVQR-Irgrenaf Zrzbevny Qe / J Terraf Eq - Ncg: - Oyqt: - Xrl Znc:371D - Pebff Fgerrgf: - Obk #:4801",
+        "HAVG:Z97",
+        "PNYY:ZBGBE IRUVPYR NPPVQR",
+        "NQQE:Irgrenaf Zrzbevny Qe & J Terraf Eq",
+        "ZNC:371D",
+        "OBK:4801");
+    
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
