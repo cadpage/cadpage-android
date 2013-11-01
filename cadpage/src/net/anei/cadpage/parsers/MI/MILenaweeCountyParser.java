@@ -16,7 +16,10 @@ public class MILenaweeCountyParser extends FieldProgramParser {
   public MILenaweeCountyParser() {
     super(CITY_LIST, "LENAWEE COUNTY", "MI",
           "CALL_ADDR! Common_Name:INFO");
-    setupMultiWordStreets("POSEY LAKE");
+    setupMultiWordStreets(
+        "CLINTON MACON",
+        "POSEY LAKE"
+    );
     addCrossStreetNames("FULTON COUNTY FAIRGROUNDS");
   }
   
