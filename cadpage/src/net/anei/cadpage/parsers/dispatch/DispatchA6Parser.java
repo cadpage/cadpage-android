@@ -14,7 +14,7 @@ public class DispatchA6Parser extends SmartAddressParser {
     setFieldList("CALL ID MAP DATE ADDR APT CITY PLACE ID X INFO TIME UNIT");
   }
   
-  private static final Pattern LEAD_DATE_PAT = Pattern.compile("^(?:([- A-Z0-9]+) )?(?:(?:Ic# +(.*?) +Ds# ([^ ]*?) (?:Al# ([^ ]*?))? Utl# (?:([^ ]*?) +)?)?(\\d\\d/\\d\\d/\\d\\d)|\\^ )");
+  private static final Pattern LEAD_DATE_PAT = Pattern.compile("^(?:([- A-Z0-9]+) )?(?:(?:Ic# +(.*?) +Ds# ([^ ]*?) (?:Al# ([^ ]*?))? Utl# (?:([- A-Z0-9]*?) +)?)?(\\d\\d/\\d\\d/\\d\\d)|\\^ )-?");
   private static final Pattern CROSS_MARK2_PAT = Pattern.compile(" :\\\\?\\( *(\\d*) *\\) | <> ");
   private static final Pattern CROSS_MARK1_PAT = Pattern.compile("^\\{ *\\d+ *\\} *");
   private static final Pattern TIME_UNIT_PAT = Pattern.compile("(?<!\\d)(\\d{4}),(\\d{3})");

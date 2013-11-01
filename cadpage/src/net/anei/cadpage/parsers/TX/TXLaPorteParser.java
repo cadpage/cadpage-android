@@ -63,11 +63,22 @@ public class TXLaPorteParser extends DispatchOSSIParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CANCEL")) return new CallField("CANCEL", true);
-    if (name.equals("SRC")) return new SourceField("[A-Z]{4}", true);
+    if (name.equals("SRC")) return new MySourceField();
     if (name.equals("UNIT")) return new UnitField("(?:[A-Z]+\\d+|[A-Z]{2}FD|\\d{2,4})(?:,.*)?|SENS", true);
     if (name.equals("CODE")) return new CodeField("[A-Z]{1,2}[A-Z0-9]{1,2}", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
+  }
+  
+  private class MySourceField extends SourceField {
+    public MySourceField() {
+      super("[A-Z]{4}", true);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      data.strSource = append(data.strSource, " ", field);
+    }
   }
   
   @Override
