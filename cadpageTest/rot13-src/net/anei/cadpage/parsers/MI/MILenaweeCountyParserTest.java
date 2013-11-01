@@ -41,6 +41,7 @@ Fraqre: yranjrr@yranjrr.zv.hf
 (!) 841  Fgngvba 84 13805 ZHAFBA UJL Zrqvan Gjc Sver - Fgehpgheny  2013-00000484
 (!) cv penfu ebyybire  R911 Vasb - Pynff bs Freivpr: JCU2 Hapregnvagl:  Pbasvqrapr:  Penfu - J/Vawhevrf 10/12/13 10:20 10:22 YVZR PERRX Zrqvan Gjc
 (!) CV  Penfu - J/Vawhevrf 10/17/13 13:02 13:02 VATNYY Zrqvan Gjc
+(!) Sver  07:34 EVQTRIVYYR  GERR NPEBFF GUR EBNQ JNL BA EVQTRIVYYR J BS 156 VA GUR PHEIRF  Frarpn Gjc
 
 */
 
@@ -257,11 +258,6 @@ choyvp pynff ZVYranjrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:15035 PBHAGL EBNQ W",
         "K:SHYGBA PBHAGL SNVETEBHAQF / QBIRE QE",
         "VASB:EVG GRNZ NFFVFG SBE FGEHPGHER SVER");
-
-  }
-  
-  @Grfg
-  choyvp ibvq grfgQrerxObqr2() {
 
   }
   

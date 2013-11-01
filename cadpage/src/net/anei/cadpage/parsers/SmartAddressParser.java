@@ -1955,7 +1955,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // If we are deliberately ignoring street suffixes, take what we have so far
       // Possibly incrementing the result over a road suffix that is right here.
       if (isFlagSet(FLAG_NO_STREET_SFX)) {
-        if (isType(failIndex, ID_ROAD_SFX)) failIndex++;
+        if (failIndex >= 0 && isType(failIndex, ID_ROAD_SFX)) failIndex++;
         return failIndex;
       }
 
