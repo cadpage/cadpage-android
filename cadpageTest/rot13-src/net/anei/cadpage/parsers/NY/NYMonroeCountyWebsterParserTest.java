@@ -110,6 +110,32 @@ Pbagnpg: "Qnzba, Puevf" <pqnzba@fcraprecbegsver.bet>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Fcraprecbeg Sver) OEBS  O:4513 3   19 ZREPRE FG ,OEB G:EOPFG  K:,ARRQ N QEVIRE SBE S2914 \a\a-- Pbasvqragvnyvgl
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fg. Cnhy Oyiq. Sver Qvfgevpg
+Ybpngvba: Ebpurfgre, AL, Havgrq Fgngrf
+Fraqre: "FCNEXTNC Npprff Tngrjnl" <cntrepunatrf@zbaebrpbhagl.tbi>
+
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:208  1  Y:174 FVZCFBA EQ ,VEB G:JVERN  K:YVIR JVERF QBJA VA GUR ONPXLNEQ \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:207N 1C Y:2026 UHQFBA NI ,VEB -- VAQRCRAQRAG YVIVA - NCG 8 G:21Q3   K:64 LB SRZ/ ERPGNY OYRRQVAT/ FREVBHF/ CG VF IREL URNIL FRG/ ERD FCRPVNY RD HVCZRAG \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:304  1C Y:682 RNGBA EQ ,VEB G:31Q3   K:64 LB S .. CNFFRQ BHG .. VF NJNXR ABJ .. ABG NYREG \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:210O 2C Y:51 UVYY PBHEG PV ,VEB G:SVERO  K:ZRQVPNY NYNEZ - NZO TRGGVAT AB NAFJRE - ERD SVER/CQ SBE SBEPRQ RAGEL - AB A RZRETRAPL VF BX \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:210  1C Y:744 R EVQTR EQ ,VEB -- QHAA GVE G:6Q2    K:YY HFRQ SBE FCNAVFU BC #9178- 28 LB Z GEOY OERNGUVAT -QVSS FCRNXVAT OGJA OERNGUF \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:201  2  Y:99 QENXR QE ,VEB - YVAQN JUVGARL ERF -CU# 338-7544 G:NZGPN  K:NHGBZNGVP SVER NYNEZ - TRA - PP \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:301  2  Y:5011 FG CNHY OY ,VEB G:JVERO  K:GERR OENAPU SRYY BA PNOYR YVAR- AB NEPUVAT/FCNEXVAT \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:301  1  Y:27 CNEXIVRJ GR ,VEB - NERN BS G:JVERN  K:CBJRE YVAR QBJA , GERR BA PNOYR YVAR \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:307  1  Y:365 CVARPERFG QE ,VEB - ORUVAQ YBP G:JVERN  K:JVER BA GBC BS CBYR VF FCNEXVAT NAQ FZBXVAT \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:205  1  Y:149 NZREVTR CX ,VEB G:JVERN  K:GERR SRYY BA UBHFR - JVERF QBJA \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:203  1  Y:600 GVGHF NI ,VEB - 1 UBHFR RB YBP BA A FVQR BS EQ G:JVERN  K:YNETR GERR PNZR QBJA-UVG CBYR-JVERF NER FCNEXVAT-VA ONPX BS YBP \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:203  2C Y:605 GVGHF NI ,VEB -- EVGR NVQ G:SVERO  K:2 PNE ZIN - AB VAWF - SYHVQ VA GUR EBNQJNL - IRUF CHYYRQ VAGB CNEXVAT YBG \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:303  2C Y:PBYROEBBX QE/BNXEVQTR QE ,VEB G:SVERO  K:GERR QBJA - S152 GB UNAQYR \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:107  1  Y:199 JLAQNYR EQ ,VEB G:JVERN  K:GERR SRYY BAGB CBJRE YVARF \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:109  2C Y:95 YRYNAQ EQ ,VEB G:SVERO  K:GERR SRYY BA TNENTR / AB VAWF / CBJRE YVARF QBJA, ABG NEPVAT BE FCNEXVAT \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:210O 1  Y:UVYY PBHEG PV/R EVQTR EQ ,VEB G:JVERN  K:JVER UNATVAT YBJ BIRE R EVQTR EQ, UVG GUR GBC BS N GEHPX, GEHPX XRCG TBVA T, GENSSVP PBAGVAHRF GUEH, PBASRERAPRQ VA GUEH BAFGNE, BAFGNE PNFR # 379534399, PO # 866-866-5006\a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:305  2  Y:274 RNGBA EQ ,VEB G:31P1   K:46 LB SRZNYR - SRRYF SNVAG - YBJ OC - GEBHOYR OERNGUVAT ERPRAG SBBG FHETHEL - URNEG ZHEZBE UK \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:210  1  Y:74 ZRLREUVYY PV J ,VEB - ORUVAQ G:JVERN  K:FNJ FCNEXVAT NAQ NEPUVAT SEBZ YVTUG CBYR ARNE GERRF GURA NYY URE CBJRE JRAG BHG \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:304  2  Y:168 SEBAGRANP UG ,VEB G:26P1   K:76 LB Z YRGUNETVP \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:102  3  Y:204 GBGRZ GE ,VEB G:SHZFO  K:PNEOBA ZBABKVRQ QRG TBVAT BSS AB VYYARFF ECG - NQI RIRELBAR GB JNVG BHGFVQR \a\a-- Pbasvqragvnyvgl Abgvpr --\aGuvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\avapyhqvat nggnpuzragf.
+
 */
 choyvp pynff ALZbaebrPbhaglJrofgreCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -1076,6 +1102,315 @@ choyvp pynff ALZbaebrPbhaglJrofgreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:OEBPXCBEG",
         "PNYY:EOPFG",
         "VASB:ARRQ N QEVIRE SBE S2914");
+
+  }
+  
+
+  @Grfg
+  choyvp ibvq grfgFgCnhyOyiqSverQvfgevpg() {
+
+    qbGrfg("G1",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:208  1  Y:174 FVZCFBA EQ ,VEB G:JVERN  K:YVIR JVERF QBJA VA GUR ONPXLNEQ \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:208",
+        "CEV:1",
+        "NQQE:174 FVZCFBA EQ",
+        "PVGL:VEBAQRDHBVG",
+        "PNYY:JVERN",
+        "VASB:YVIR JVERF QBJA VA GUR ONPXLNEQ");
+
+    qbGrfg("G2",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:207N 1C Y:2026 UHQFBA NI ,VEB -- VAQRCRAQRAG YVIVA - NCG 8 G:21Q3   K:64 LB SRZ/ ERPGNY OYRRQVAT/ FREVBHF/ CG VF IREL URNIL FRG/ ERD FCRPVNY RD HVCZRAG \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:207N",
+        "CEV:1C",
+        "NQQE:2026 UHQFBA NI",
+        "ZNQQE:2026 UHQFBA NIR",
+        "NCG:8",
+        "PVGL:VEBAQRDHBVG",
+        "CYNPR:VAQRCRAQRAG YVIVA",
+        "PBQR:21Q3",
+        "PNYY:Urzbeeuntr - Qnatrebhf Urzbeeuntr",
+        "VASB:64 LB SRZ/ ERPGNY OYRRQVAT/ FREVBHF/ CG VF IREL URNIL FRG/ ERD FCRPVNY RD HVCZRAG");
+
+    qbGrfg("G3",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:304  1C Y:682 RNGBA EQ ,VEB G:31Q3   K:64 LB S .. CNFFRQ BHG .. VF NJNXR ABJ .. ABG NYREG \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:304",
+        "CEV:1C",
+        "NQQE:682 RNGBA EQ",
+        "PVGL:VEBAQRDHBVG",
+        "PBQR:31Q3",
+        "PNYY:Hapbafpvbhf - Abg nyreg",
+        "VASB:64 LB S .. CNFFRQ BHG .. VF NJNXR ABJ .. ABG NYREG");
+
+    qbGrfg("G4",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:210O 2C Y:51 UVYY PBHEG PV ,VEB G:SVERO  K:ZRQVPNY NYNEZ - NZO TRGGVAT AB NAFJRE - ERD SVER/CQ SBE SBEPRQ RAGEL - AB A RZRETRAPL VF BX \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:210O",
+        "CEV:2C",
+        "NQQE:51 UVYY PBHEG PV",
+        "ZNQQE:51 UVYY PBHEG PVE",
+        "PVGL:VEBAQRDHBVG",
+        "PNYY:SVERO",
+        "VASB:ZRQVPNY NYNEZ - NZO TRGGVAT AB NAFJRE - ERD SVER/CQ SBE SBEPRQ RAGEL - AB A RZRETRAPL VF BX");
+
+    qbGrfg("G5",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:210  1C Y:744 R EVQTR EQ ,VEB -- QHAA GVE G:6Q2    K:YY HFRQ SBE FCNAVFU BC #9178- 28 LB Z GEOY OERNGUVAT -QVSS FCRNXVAT OGJA OERNGUF \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:210",
+        "CEV:1C",
+        "NQQE:744 R EVQTR EQ",
+        "PVGL:VEBAQRDHBVG",
+        "CYNPR:QHAA GVE",
+        "PBQR:6Q2",
+        "PNYY:Oernguvat Ceboyrzf - Hapbapvbhf be neerfg",
+        "VASB:YY HFRQ SBE FCNAVFU BC #9178- 28 LB Z GEOY OERNGUVAT -QVSS FCRNXVAT OGJA OERNGUF");
+
+    qbGrfg("G6",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:201  2  Y:99 QENXR QE ,VEB - YVAQN JUVGARL ERF -CU# 338-7544 G:NZGPN  K:NHGBZNGVP SVER NYNEZ - TRA - PP \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:201",
+        "CEV:2",
+        "NQQE:99 QENXR QE",
+        "PVGL:VEBAQRDHBVG",
+        "CYNPR:YVAQN JUVGARL ERF -CU# 338-7544",
+        "PNYY:NZGPN",
+        "VASB:NHGBZNGVP SVER NYNEZ - TRA - PP");
+
+    qbGrfg("G7",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:301  2  Y:5011 FG CNHY OY ,VEB G:JVERO  K:GERR OENAPU SRYY BA PNOYR YVAR- AB NEPUVAT/FCNEXVAT \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:301",
+        "CEV:2",
+        "NQQE:5011 FG CNHY OY",
+        "PVGL:VEBAQRDHBVG",
+        "PNYY:JVERO",
+        "VASB:GERR OENAPU SRYY BA PNOYR YVAR- AB NEPUVAT/FCNEXVAT");
+
+    qbGrfg("G8",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:301  1  Y:27 CNEXIVRJ GR ,VEB - NERN BS G:JVERN  K:CBJRE YVAR QBJA , GERR BA PNOYR YVAR \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:301",
+        "CEV:1",
+        "NQQE:27 CNEXIVRJ GR",
+        "ZNQQE:27 CNEXIVRJ GRE",
+        "PVGL:VEBAQRDHBVG",
+        "CYNPR:NERN BS",
+        "PNYY:JVERN",
+        "VASB:CBJRE YVAR QBJA , GERR BA PNOYR YVAR");
+
+    qbGrfg("G9",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:307  1  Y:365 CVARPERFG QE ,VEB - ORUVAQ YBP G:JVERN  K:JVER BA GBC BS CBYR VF FCNEXVAT NAQ FZBXVAT \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:307",
+        "CEV:1",
+        "NQQE:365 CVARPERFG QE",
+        "PVGL:VEBAQRDHBVG",
+        "CYNPR:ORUVAQ YBP",
+        "PNYY:JVERN",
+        "VASB:JVER BA GBC BS CBYR VF FCNEXVAT NAQ FZBXVAT");
+
+    qbGrfg("G10",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:205  1  Y:149 NZREVTR CX ,VEB G:JVERN  K:GERR SRYY BA UBHFR - JVERF QBJA \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:205",
+        "CEV:1",
+        "NQQE:149 NZREVTR CX",
+        "ZNQQE:149 NZREVTR CNEX",
+        "PVGL:VEBAQRDHBVG",
+        "PNYY:JVERN",
+        "VASB:GERR SRYY BA UBHFR - JVERF QBJA");
+
+    qbGrfg("G11",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:203  1  Y:600 GVGHF NI ,VEB - 1 UBHFR RB YBP BA A FVQR BS EQ G:JVERN  K:YNETR GERR PNZR QBJA-UVG CBYR-JVERF NER FCNEXVAT-VA ONPX BS YBP \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:203",
+        "CEV:1",
+        "NQQE:600 GVGHF NI",
+        "ZNQQE:600 GVGHF NIR",
+        "PVGL:VEBAQRDHBVG",
+        "CYNPR:1 UBHFR RB YBP BA A FVQR BS EQ",
+        "PNYY:JVERN",
+        "VASB:YNETR GERR PNZR QBJA-UVG CBYR-JVERF NER FCNEXVAT-VA ONPX BS YBP");
+
+    qbGrfg("G12",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:203  2C Y:605 GVGHF NI ,VEB -- EVGR NVQ G:SVERO  K:2 PNE ZIN - AB VAWF - SYHVQ VA GUR EBNQJNL - IRUF CHYYRQ VAGB CNEXVAT YBG \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:203",
+        "CEV:2C",
+        "NQQE:605 GVGHF NI",
+        "ZNQQE:605 GVGHF NIR",
+        "PVGL:VEBAQRDHBVG",
+        "CYNPR:EVGR NVQ",
+        "PNYY:SVERO",
+        "VASB:2 PNE ZIN - AB VAWF - SYHVQ VA GUR EBNQJNL - IRUF CHYYRQ VAGB CNEXVAT YBG");
+
+    qbGrfg("G13",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:303  2C Y:PBYROEBBX QE/BNXEVQTR QE ,VEB G:SVERO  K:GERR QBJA - S152 GB UNAQYR \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:303",
+        "CEV:2C",
+        "NQQE:PBYROEBBX QE & BNXEVQTR QE",
+        "PVGL:VEBAQRDHBVG",
+        "PNYY:SVERO",
+        "VASB:GERR QBJA - S152 GB UNAQYR");
+
+    qbGrfg("G14",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:107  1  Y:199 JLAQNYR EQ ,VEB G:JVERN  K:GERR SRYY BAGB CBJRE YVARF \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:107",
+        "CEV:1",
+        "NQQE:199 JLAQNYR EQ",
+        "PVGL:VEBAQRDHBVG",
+        "PNYY:JVERN",
+        "VASB:GERR SRYY BAGB CBJRE YVARF");
+
+    qbGrfg("G15",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:109  2C Y:95 YRYNAQ EQ ,VEB G:SVERO  K:GERR SRYY BA TNENTR / AB VAWF / CBJRE YVARF QBJA, ABG NEPVAT BE FCNEXVAT \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:109",
+        "CEV:2C",
+        "NQQE:95 YRYNAQ EQ",
+        "PVGL:VEBAQRDHBVG",
+        "PNYY:SVERO",
+        "VASB:GERR SRYY BA TNENTR / AB VAWF / CBJRE YVARF QBJA, ABG NEPVAT BE FCNEXVAT");
+
+    qbGrfg("G16",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:210O 1  Y:UVYY PBHEG PV/R EVQTR EQ ,VEB G:JVERN  K:JVER UNATVAT YBJ BIRE R EVQTR EQ, UVG GUR GBC BS N GEHPX, GEHPX XRCG TBVA T, GENSSVP PBAGVAHRF GUEH, PBASRERAPRQ VA GUEH BAFGNE, BAFGNE PNFR # 379534399, PO # 866-866-5006\a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:210O",
+        "CEV:1",
+        "NQQE:UVYY PBHEG PV & R EVQTR EQ",
+        "ZNQQE:UVYY PBHEG PVE & R EVQTR EQ",
+        "PVGL:VEBAQRDHBVG",
+        "PNYY:JVERN",
+        "VASB:JVER UNATVAT YBJ BIRE R EVQTR EQ, UVG GUR GBC BS N GEHPX, GEHPX XRCG TBVA T, GENSSVP PBAGVAHRF GUEH, PBASRERAPRQ VA GUEH BAFGNE, BAFGNE PNFR # 379534399, PO # 866-866-5006");
+
+    qbGrfg("G17",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:305  2  Y:274 RNGBA EQ ,VEB G:31P1   K:46 LB SRZNYR - SRRYF SNVAG - YBJ OC - GEBHOYR OERNGUVAT ERPRAG SBBG FHETHEL - URNEG ZHEZBE UK \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:305",
+        "CEV:2",
+        "NQQE:274 RNGBA EQ",
+        "PVGL:VEBAQRDHBVG",
+        "PBQR:31P1",
+        "PNYY:Hapbafpvbhf - Nyreg jvgu noabezny oernguvat",
+        "VASB:46 LB SRZNYR - SRRYF SNVAG - YBJ OC - GEBHOYR OERNGUVAT ERPRAG SBBG FHETHEL - URNEG ZHEZBE UK");
+
+    qbGrfg("G18",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:210  1  Y:74 ZRLREUVYY PV J ,VEB - ORUVAQ G:JVERN  K:FNJ FCNEXVAT NAQ NEPUVAT SEBZ YVTUG CBYR ARNE GERRF GURA NYY URE CBJRE JRAG BHG \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:210",
+        "CEV:1",
+        "NQQE:74 ZRLREUVYY PV J",
+        "ZNQQE:74 ZRLREUVYY PVE J",
+        "PVGL:VEBAQRDHBVG",
+        "CYNPR:ORUVAQ",
+        "PNYY:JVERN",
+        "VASB:FNJ FCNEXVAT NAQ NEPUVAT SEBZ YVTUG CBYR ARNE GERRF GURA NYY URE CBJRE JRAG BHG");
+
+    qbGrfg("G19",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:304  2  Y:168 SEBAGRANP UG ,VEB G:26P1   K:76 LB Z YRGUNETVP \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:304",
+        "CEV:2",
+        "NQQE:168 SEBAGRANP UG",
+        "ZNQQE:168 SEBAGRANP UGF",
+        "PVGL:VEBAQRDHBVG",
+        "PBQR:26P1",
+        "PNYY:Fvpx - Nygrerq yriry bs pbapvbhfarff",
+        "VASB:76 LB Z YRGUNETVP");
+
+    qbGrfg("G20",
+        "{[FNT3] Fcnextnc ErfcbafrIvrj Zrffntr} FCNS  O:102  3  Y:204 GBGRZ GE ,VEB G:SHZFO  K:PNEOBA ZBABKVRQ QRG TBVAT BSS AB VYYARFF ECG - NQI RIRELBAR GB JNVG BHGFVQR \a\a" +
+        "-- Pbasvqragvnyvgl Abgvpr --\a" +
+        "Guvf rznvy zrffntr, vapyhqvat nyy gur nggnpuzragf, vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq pbagnvaf pbasvqragvny vasbezngvba. Hanhgubevmrq hfr be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, lbh znl abg hfr, qvfpybfr, pbcl be qvffrzvangr guvf vasbezngvba. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre vzzrqvngryl ol ercyl rznvy naq qrfgebl nyy pbcvrf bs gur bevtvany zrffntr,\a" +
+        "vapyhqvat nggnpuzragf.",
+
+        "FEP:FCNS",
+        "OBK:102",
+        "CEV:3",
+        "NQQE:204 GBGRZ GE",
+        "PVGL:VEBAQRDHBVG",
+        "PNYY:SHZFO",
+        "VASB:PNEOBA ZBABKVRQ QRG TBVAT BSS AB VYYARFF ECG - NQI RIRELBAR GB JNVG BHGFVQR");
 
   }
   
