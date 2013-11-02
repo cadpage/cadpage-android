@@ -92,6 +92,26 @@ Fraqre: "Rzretraplabgvsvpngvba@ypq911.pbz" <pbas-1964642073@rireoevqtr.arg>
 (YPQ Zrffntr) CYRNFNAG INYYRL SVER ERFCBAQ GB  CYRNFNAG INYYRL EQ (EG 318) CYRNFNAGINYYRL TRA FGBER EVIRE EQ (EG 181) ONEXUNZFGRQ, , Zhghny Nvq / Nffvfg Bhgfvqr Ntrapl 65-N-2--19:09     
 (YPQ Zrffntr) CYRNFNAG INYYRL SVER ERFCBAQ GB 17 PRAGRE UVYY EQ (EG 181)   ONEXUNZFGRQ, , Sver Nynez Erfvqragvny (Fvatyr Snzvyl) 52-O-1--19:01     
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Cvar Zrnqbj Sver Pb.
+Ybpngvba: Arj Unegsbeq, PG, Havgrq Fgngrf
+Fraqre: "Rzretraplabgvsvpngvba@ypq911.pbz" <pbas-561494575@rireoevqtr.arg>
+
+(YPQ Zrffntr) CVAR ZRNQBJ SVER ERFCBAQ GB 8 JVPXRGG FG QNZVEB YYP  ARJ UNEGSBEQ, , Jngresybj/Fcevaxyre Haxabja Fvghngvba (Vairfgvtngvba/Pnyy Obk) 52-O-4-J--12:14     
+F: YPQ Zrffntr\aCVAR ZRNQBJ SVER ERFCBAQ GB 366 ZNVA FG ARJ UNEGSBEQ, , NPGVIR911 GRFG 85-G-1 -17:57
+(YPQ Zrffntr) CVAR ZRNQBJ SVER ERFCBAQ GB 20 R PBGGBA UVYY EQ PFV TEBHC UBZR  ARJ UNEGSBEQ, , Trareny/Sver Erfvqragvny (Zhygvcyr) 52-P-4-T--17:57     
+F: YPQ Zrffntr\a-SE- ARJ UNEGSBEQ NZO ERFCBAQ GB 5 YNHERY YA   ONEXUNZFGRQ, , 10 Z CFLPUVNGEVP / NOABEZN ORUNIVBE / FHVPVQR NGGRZCG, 25-N-1 :18:16
+F: YPQ Zrffntr\aARJ UNEGSBEQ NZO ERFCBAQ GB 86 QHGGBA EQ   ARJ UNEGSBEQ, , 84L S QVSS OERNGU, 6-Q-2 :23:17
+F: YPQ Zrffntr\aCVAR ZRNQBJ SVER ERFCBAQ GB 40 JVPXRGG FG   ARJ UNEGSBEQ, ARJ UNEGSBEQ RYRZRAGNEL FPUBBY, Fgehpgher Sver 69-Q-1--10:32
+F: YPQ Zrffntr\aGBEEVATGBA SVER ERFCBAQ GB 1795 R ZNVA FG (EG 202)   GBEEVATGBA, , Fgehpgher Sver 69-Q-3--11:47
+F: YPQ Zrffntr\aARCNHT SVER ERFCBAQ GB  YVGPUSVRYQ GCXR (EG 202)  PRQNE YA ARJ UNEGSBEQ, , Bhgfvqr Sver (Haxabja Fvghngvba) (Vairfgvtngvba) 67-O-3--20:07
+F: YPQ Zrffntr\aCVAR ZRNQBJ SVER ERFCBAQ GB 8 JVPXRGG FG ARJ UNEGSBEQ, , PBYYVAFIVYYR ONXREL. Sver Nynez (Uvtu Yvsr Unmneq) 52-P-3 :15:26
+F: YPQ Zrffntr\aCVAR ZRNQBJ SVER ERFCBAQ GB 8 JVPXRGG FG ARJ UNEGSBEQ, , PBYYVAFIVYYR ONXREL. Sver Nynez (Uvtu Yvsr Unmneq) 52-P-3 :22:46
+F: YPQ Zrffntr\aCVAR ZRNQBJ SVER ERFCBAQ GB 303 TVYYRGGR EQ   ARJ UNEGSBEQ, , Puvzarl Sver 69-Q-7--17:36
+F: YPQ Zrffntr\aCVAR ZRNQBJ SVER ERFCBAQ GB 40 JVPXRGG FG   ARJ UNEGSBEQ, ARJ UNEGSBEQ RYRZRAGNEL FPUBBY, Sver Nynez (Pbzzrepvny) 52-P-3--15:39
+F: YPQ Zrffntr\aCVAR ZRNQBJ SVER ERFCBAQ GB 83 FUNQL OEBBX EQ GEVIRYYN ERFQ  ARJ UNEGSBEQ, , Sver Nynez Erfvqragvny (Fvatyr Snzvyl) 52-O-1--09:41
+F: YPQ Zrffntr\aCVAR ZRNQBJ SVER ERFCBAQ GB 198 TVYYRGGR EQ XRAAREFBA ERFQ  ARJ UNEGSBEQ, , Fgehpgher Sver (Fzbxr be Sver va Ohvyqvat) 69-Q-6--20:04
+
 */
 
 
@@ -715,6 +735,162 @@ choyvp pynff PGYvgpusvryqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver Nynez Erfvqragvny (Fvatyr Snzvyl)",
         "PBQR:52-O-1",
         "GVZR:19:01");
+  }
+
+  @Grfg
+  choyvp ibvq grfgCvarZrnqbjSverPb() {
+
+    qbGrfg("G1",
+        "(YPQ Zrffntr) CVAR ZRNQBJ SVER ERFCBAQ GB 8 JVPXRGG FG QNZVEB YYP  ARJ UNEGSBEQ, , Jngresybj/Fcevaxyre Haxabja Fvghngvba (Vairfgvtngvba/Pnyy Obk) 52-O-4-J--12:14     ",
+        "FEP:CVAR ZRNQBJ SVER",
+        "NQQE:8 JVPXRGG FG",
+        "CYNPR:QNZVEB YYP",
+        "PVGL:ARJ UNEGSBEQ",
+        "PNYY:Jngresybj/Fcevaxyre Haxabja Fvghngvba (Vairfgvtngvba/Pnyy Obk)",
+        "PBQR:52-O-4-J",
+        "GVZR:12:14");
+
+    qbGrfg("G2",
+        "F: YPQ Zrffntr\aCVAR ZRNQBJ SVER ERFCBAQ GB 366 ZNVA FG ARJ UNEGSBEQ, , NPGVIR911 GRFG 85-G-1 -17:57",
+        "FEP:CVAR ZRNQBJ SVER",
+        "NQQE:366 ZNVA FG",
+        "PVGL:ARJ UNEGSBEQ",
+        "PNYY:NPGVIR911 GRFG",
+        "PBQR:85-G-1",
+        "GVZR:17:57");
+
+    qbGrfg("G3",
+        "(YPQ Zrffntr) CVAR ZRNQBJ SVER ERFCBAQ GB 20 R PBGGBA UVYY EQ PFV TEBHC UBZR  ARJ UNEGSBEQ, , Trareny/Sver Erfvqragvny (Zhygvcyr) 52-P-4-T--17:57     ",
+        "FEP:CVAR ZRNQBJ SVER",
+        "NQQE:20 R PBGGBA UVYY EQ",
+        "CYNPR:PFV TEBHC UBZR",
+        "PVGL:ARJ UNEGSBEQ",
+        "PNYY:Trareny/Sver Erfvqragvny (Zhygvcyr)",
+        "PBQR:52-P-4-T",
+        "GVZR:17:57");
+
+    qbGrfg("G4",
+        "F: YPQ Zrffntr\a" +
+        "-SE- ARJ UNEGSBEQ NZO ERFCBAQ GB 5 YNHERY YA   ONEXUNZFGRQ, , 10 Z CFLPUVNGEVP / NOABEZN ORUNIVBE / FHVPVQR NGGRZCG, 25-N-1 :18:16",
+
+        "FEP:-SE- ARJ UNEGSBEQ NZO",
+        "NQQE:5 YNHERY YA",
+        "PVGL:ONEXUNZFGRQ",
+        "PNYY:10 Z CFLPUVNGEVP / NOABEZN ORUNIVBE / FHVPVQR NGGRZCG",
+        "PBQR:25-N-1",
+        "GVZR:18:16");
+
+    qbGrfg("G5",
+        "F: YPQ Zrffntr\aARJ UNEGSBEQ NZO ERFCBAQ GB 86 QHGGBA EQ   ARJ UNEGSBEQ, , 84L S QVSS OERNGU, 6-Q-2 :23:17",
+        "FEP:ARJ UNEGSBEQ NZO",
+        "NQQE:86 QHGGBA EQ",
+        "PVGL:ARJ UNEGSBEQ",
+        "PNYY:84L S QVSS OERNGU",
+        "PBQR:6-Q-2",
+        "GVZR:23:17");
+
+    qbGrfg("G6",
+        "F: YPQ Zrffntr\a" +
+        "CVAR ZRNQBJ SVER ERFCBAQ GB 40 JVPXRGG FG   ARJ UNEGSBEQ, ARJ UNEGSBEQ RYRZRAGNEL FPUBBY, Fgehpgher Sver 69-Q-1--10:32",
+
+        "FEP:CVAR ZRNQBJ SVER",
+        "NQQE:40 JVPXRGG FG",
+        "CYNPR:ARJ UNEGSBEQ RYRZRAGNEL FPUBBY",
+        "PVGL:ARJ UNEGSBEQ",
+        "PNYY:Fgehpgher Sver",
+        "PBQR:69-Q-1",
+        "GVZR:10:32");
+
+    qbGrfg("G7",
+        "F: YPQ Zrffntr\aGBEEVATGBA SVER ERFCBAQ GB 1795 R ZNVA FG (EG 202)   GBEEVATGBA, , Fgehpgher Sver 69-Q-3--11:47",
+        "FEP:GBEEVATGBA SVER",
+        "NQQE:1795 R ZNVA FG (EG 202)",
+        "ZNQQE:1795 R ZNVA FG",
+        "PVGL:GBEEVATGBA",
+        "PNYY:Fgehpgher Sver",
+        "PBQR:69-Q-3",
+        "GVZR:11:47");
+
+    qbGrfg("G8",
+        "F: YPQ Zrffntr\a" +
+        "ARCNHT SVER ERFCBAQ GB  YVGPUSVRYQ GCXR (EG 202)  PRQNE YA ARJ UNEGSBEQ, , Bhgfvqr Sver (Haxabja Fvghngvba) (Vairfgvtngvba) 67-O-3--20:07",
+
+        "FEP:ARCNHT SVER",
+        "NQQE:YVGPUSVRYQ GCXR (EG 202)",
+        "ZNQQE:YVGPUSVRYQ GCXR & PRQNE YA",
+        "K:PRQNE YA",
+        "PVGL:ARJ UNEGSBEQ",
+        "PNYY:Bhgfvqr Sver (Haxabja Fvghngvba) (Vairfgvtngvba)",
+        "PBQR:67-O-3",
+        "GVZR:20:07");
+
+    qbGrfg("G9",
+        "F: YPQ Zrffntr\a" +
+        "CVAR ZRNQBJ SVER ERFCBAQ GB 8 JVPXRGG FG ARJ UNEGSBEQ, , PBYYVAFIVYYR ONXREL. Sver Nynez (Uvtu Yvsr Unmneq) 52-P-3 :15:26",
+
+        "FEP:CVAR ZRNQBJ SVER",
+        "NQQE:8 JVPXRGG FG",
+        "PVGL:ARJ UNEGSBEQ",
+        "PNYY:PBYYVAFIVYYR ONXREL. Sver Nynez (Uvtu Yvsr Unmneq)",
+        "PBQR:52-P-3",
+        "GVZR:15:26");
+
+    qbGrfg("G10",
+        "F: YPQ Zrffntr\a" +
+        "CVAR ZRNQBJ SVER ERFCBAQ GB 8 JVPXRGG FG ARJ UNEGSBEQ, , PBYYVAFIVYYR ONXREL. Sver Nynez (Uvtu Yvsr Unmneq) 52-P-3 :22:46",
+
+        "FEP:CVAR ZRNQBJ SVER",
+        "NQQE:8 JVPXRGG FG",
+        "PVGL:ARJ UNEGSBEQ",
+        "PNYY:PBYYVAFIVYYR ONXREL. Sver Nynez (Uvtu Yvsr Unmneq)",
+        "PBQR:52-P-3",
+        "GVZR:22:46");
+
+    qbGrfg("G11",
+        "F: YPQ Zrffntr\aCVAR ZRNQBJ SVER ERFCBAQ GB 303 TVYYRGGR EQ   ARJ UNEGSBEQ, , Puvzarl Sver 69-Q-7--17:36",
+        "FEP:CVAR ZRNQBJ SVER",
+        "NQQE:303 TVYYRGGR EQ",
+        "PVGL:ARJ UNEGSBEQ",
+        "PNYY:Puvzarl Sver",
+        "PBQR:69-Q-7",
+        "GVZR:17:36");
+
+    qbGrfg("G12",
+        "F: YPQ Zrffntr\a" +
+        "CVAR ZRNQBJ SVER ERFCBAQ GB 40 JVPXRGG FG   ARJ UNEGSBEQ, ARJ UNEGSBEQ RYRZRAGNEL FPUBBY, Sver Nynez (Pbzzrepvny) 52-P-3--15:39",
+
+        "FEP:CVAR ZRNQBJ SVER",
+        "NQQE:40 JVPXRGG FG",
+        "CYNPR:ARJ UNEGSBEQ RYRZRAGNEL FPUBBY",
+        "PVGL:ARJ UNEGSBEQ",
+        "PNYY:Sver Nynez (Pbzzrepvny)",
+        "PBQR:52-P-3",
+        "GVZR:15:39");
+
+    qbGrfg("G13",
+        "F: YPQ Zrffntr\a" +
+        "CVAR ZRNQBJ SVER ERFCBAQ GB 83 FUNQL OEBBX EQ GEVIRYYN ERFQ  ARJ UNEGSBEQ, , Sver Nynez Erfvqragvny (Fvatyr Snzvyl) 52-O-1--09:41",
+
+        "FEP:CVAR ZRNQBJ SVER",
+        "NQQE:83 FUNQL OEBBX EQ",
+        "CYNPR:GEVIRYYN ERFQ",
+        "PVGL:ARJ UNEGSBEQ",
+        "PNYY:Sver Nynez Erfvqragvny (Fvatyr Snzvyl)",
+        "PBQR:52-O-1",
+        "GVZR:09:41");
+
+    qbGrfg("G14",
+        "F: YPQ Zrffntr\a" +
+        "CVAR ZRNQBJ SVER ERFCBAQ GB 198 TVYYRGGR EQ XRAAREFBA ERFQ  ARJ UNEGSBEQ, , Fgehpgher Sver (Fzbxr be Sver va Ohvyqvat) 69-Q-6--20:04",
+
+        "FEP:CVAR ZRNQBJ SVER",
+        "NQQE:198 TVYYRGGR EQ",
+        "CYNPR:XRAAREFBA ERFQ",
+        "PVGL:ARJ UNEGSBEQ",
+        "PNYY:Fgehpgher Sver (Fzbxr be Sver va Ohvyqvat)",
+        "PBQR:69-Q-6",
+        "GVZR:20:04");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

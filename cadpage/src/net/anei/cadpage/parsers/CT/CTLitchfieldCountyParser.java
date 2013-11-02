@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTLitchfieldCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*) RESPOND TO (.*?)(?:,|,? +(\\d{1,2}-[A-Z]-\\d{1,2}|HOT|ALPHA)) *(?::|--)(\\d\\d:\\d\\d)");
+  private static final Pattern MASTER = Pattern.compile("(.*) RESPOND TO (.*?)(?:,|,? +(\\d{1,2}-[A-Z]-\\d{1,2}(?:-[A-Z])?|HOT|ALPHA)) *(?::|--| -)(\\d\\d:\\d\\d)");
   private static final Pattern MAU_HILL = Pattern.compile("^(.*) MAUWEEHOO H(?:IL)?L (.*)$");
   private static final Pattern START_PAREN_PTN = Pattern.compile("^\\(.*?\\)");
   
