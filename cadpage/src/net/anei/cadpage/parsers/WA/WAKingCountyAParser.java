@@ -14,7 +14,7 @@ public class WAKingCountyAParser extends MsgParser {
   
   public WAKingCountyAParser() {
     super("KING COUNTY", "WA");
-    setFieldList("ADDR APT CITY CALL UNIT GPS");
+    setFieldList("ADDR APT CITY CALL CH UNIT GPS");
   }
   
   @Override
@@ -48,6 +48,8 @@ public class WAKingCountyAParser extends MsgParser {
     data.strApt = substring(body, 51, 60);
     data.strCity = substring(body, 61, endCity);
     data.strCall = substring(body, endCity, endCity+29);
+    String channel = substring(body, endCity+30, endCity+39);
+    if (channel.startsWith("FT")) data.strChannel = channel;
     data.strUnit = substring(body, endCity+40);
     return true;
   }
