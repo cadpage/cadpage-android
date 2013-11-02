@@ -9,7 +9,7 @@ public class PALackawannaCountyAParser extends FieldProgramParser {
   
   public PALackawannaCountyAParser() {
     super("LACKAWANNA COUNTY", "PA",
-           "Location:ADDR/SXx! Common_Name:PLACE? Call_Type:CALL! Call_Time:DATETIME Nature_of_Call:INFO CFS_Number:ID");
+           "UNIT! Location:ADDR/SXx! Common_Name:PLACE? Call_Type:CALL! Call_Time:DATETIME Nature_of_Call:INFO CFS_Number:ID");
   }
   
   @Override
@@ -35,6 +35,7 @@ public class PALackawannaCountyAParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("UNIT")) return new UnitField("Unit\\b *(.*)", true);
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     return super.getField(name);
   }
