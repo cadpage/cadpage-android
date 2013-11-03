@@ -146,6 +146,10 @@ Pbagnpg: Evpx <eju037@irevmba.arg>
 Fraqre: 7774
 TP NYREG (#O0JG) SQ 6-3: {08/18/2013 02:19:18}\aEHO      - Ehoovfu Sver{3}\a701 Erq Onax NIR,PBZCYRK;G FGBC
 
+Pbagnpg: Rqjneq Ratfryy <rratfryy2@pbzpnfg.arg>
+Fraqre: 12101
+SEZ: \aZFT:SQ 25-1: {11/03/2013 04:10:01}\aNYEZ     - Sver Nynez Flfgrz{3}\a300 Cebterff PG;V=
+
 */
 
 
@@ -290,7 +294,7 @@ choyvp pynff AWTybhprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgWnlUnhff() {
 
     qbGrfg("G1",
-        "SEZ:TP EFNA #426585\aZFT:SQ 22-1: {01/04/2013 14:52:09}\aFREI     - Freivpr nffvtazrag (Sver){3}\a389 Oernxarpx EQ;W=",
+        "SEZ:TP EFNA #426585\aZFT:SQ 22-1: {01/04/2013 14:52:09}\aFREI     - Freivpr nffvtazrag (Sver){3}\a389 Oernxarpx EQ;W",
         "VQ:426585",
         "FEP:SQ 22-1",
         "QNGR:01/04/2013",
@@ -298,7 +302,8 @@ choyvp pynff AWTybhprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FREI",
         "PNYY:Freivpr nffvtazrag (Sver)",
         "CEV:3",
-        "NQQE:389 Oernxarpx EQ");
+        "NQQE:389 Oernxarpx EQ",
+        "PVGL:ZNAGHN GJC");
     
   }
   
@@ -2289,6 +2294,22 @@ choyvp pynff AWTybhprfgrePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:701 Erq Onax NIR",
         "NCG:PBZCYRK");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRqjneqRatfryy() {
+
+    qbGrfg("G1",
+        "SEZ: \aZFT:SQ 25-1: {11/03/2013 04:10:01}\aNYEZ     - Sver Nynez Flfgrz{3}\a300 Cebterff PG;V=",
+        "FEP:SQ 25-1",
+        "QNGR:11/03/2013",
+        "GVZR:04:10:01",
+        "PBQR:NYEZ",
+        "PNYY:Sver Nynez Flfgrz",
+        "CEV:3",
+        "NQQE:300 Cebterff PG",
+        "PVGL:YBTNA GJC");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

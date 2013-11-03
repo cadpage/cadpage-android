@@ -95,10 +95,6 @@ ObrearQvfcngpu:Pnyy# 1335923 -NZOHYNAPR PNYY- 10/25/2013 09:49:34 Ybpngvba: 16 F
 ObrearQvfcngpu:Pnyy# 1335894 -NZOHYNAPR PNYY- 10/24/2013 23:42:57 Ybpngvba: 214 UVYYIVRJ-FNAPURM / 830-995-5324 / PBZSBEG CYNPR
 ObrearQvfcngpu:Pnyy# 1335881 -NZOHYNAPR PNYY- 10/24/2013 20:19:45 Ybpngvba: 1693 EVIRE-INYREB NG URESS / 830-249-7869
 ObrearQvfcngpu:Pnyy# 1335865 -NZOHYNAPR PNYY- 10/24/2013 16:17:10 Ybpngvba: 1600 OYX EVIRE-PUNETRE OYIQ
-ObrearQvfcngpu:Pnyy # 133582610/24/2013 14:07:41 Zrffntr: Grfg Cntr 3 sebz Pvgl bs Obrear VG Qrcg. GLYRE Cyrnfr grkg ERPVRIRQ gb 210-954-0293 Gunax lbh
-ObrearQvfcngpu:Pnyy # 133558910/22/2013 14:00:10 Zrffntr: GRFG CNTR
-ObrearQvfcngpu:Pnyy # 133558910/22/2013 13:57:57 Zrffntr: GRFG CNTR
-ObrearQvfcngpu:Pnyy# 1335621 -NZOHYNAPR PNYY- 10/22/2013 13:37:56 Ybpngvba: 200 ELNA-PNER PUBVPR BS OBREAR / 830-249-2594
 
 */
 choyvp pynff GKXraqnyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

@@ -38,6 +38,7 @@ public class NJGloucesterCountyAParser extends DispatchProphoenixParser {
     
     // THere are some weird text options presumably introduced by forwarding services
     if (body.startsWith("Fwd:")) body = body.substring(4).trim();
+    if (body.endsWith("=")) body = body.substring(0,body.length()-1).trim();
     
     Matcher match = FROM_ADDR_PTN.matcher(fromAddress);
     if (match.matches()) {
