@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA1Parser;
  */
 public class PAAdamsCountyAParser extends DispatchA1Parser {
   
-  private static final Pattern IAMR_PREFIX = Pattern.compile("^Alert: .*\n");
+  private static final Pattern IAMR_PREFIX = Pattern.compile("^Alert: .*?[ \n](?=ALRM LVL:)");
   
   public PAAdamsCountyAParser() {
     super("ADAMS COUNTY", "PA");
@@ -32,7 +32,6 @@ public class PAAdamsCountyAParser extends DispatchA1Parser {
       subject = match.group().trim();
       body = body.substring(match.end()).trim();
     }
-    
     
     if (!super.parseMsg(subject, body, data)) return false;
     String city = data.strCity;

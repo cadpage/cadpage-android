@@ -15,7 +15,7 @@ public class DispatchA1Parser extends FieldProgramParser {
   
   public DispatchA1Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, 
-           "ALRM_LVL:PRI LOC:SKIP PLACE? ADDR! APT? CITY BTWN:X COM:INFO INFO+? CT:INFO INFO+? UNITS:UNIT");
+           "ALRM_LVL:PRI RUN_CARD:BOX? LOC:SKIP PLACE? ADDR! APT? CITY BTWN:X COM:INFO INFO+? CT:INFO INFO+? UNITS:UNIT");
   }
   
   @Override
@@ -24,7 +24,16 @@ public class DispatchA1Parser extends FieldProgramParser {
     if (! subject.startsWith("Alert:")) return false;
     data.strCall = subject.substring(6).trim();
     if (data.strCall.length() == 0) data.strCall = "ALERT";
+    body = body.replace(", RUN CARD:", "\nRUN CARD:");
     return parseFields(body.split("\\n"), data);
+  }
+  
+  private class MyBoxField extends BoxField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("BOX")) field = field.substring(3).trim();
+      super.parse(field, data);
+    }
   }
   
   private class MyPlaceField extends PlaceField {
@@ -68,6 +77,11 @@ public class DispatchA1Parser extends FieldProgramParser {
         }
       }
       super.parse(field, data);
+      
+      if (data.strPlace.startsWith("BOX ")) {
+        data.strBox = append(data.strBox, " / ", data.strPlace.substring(4).trim());
+        data.strPlace = "";
+      }
     }
   }
   
@@ -127,6 +141,7 @@ public class DispatchA1Parser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("BOX")) return new MyBoxField();
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("APT")) return new MyAptField();
