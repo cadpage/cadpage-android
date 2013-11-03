@@ -24,7 +24,7 @@ public class NJGloucesterCountyAParser extends DispatchProphoenixParser {
  
   @Override
   public String getFilter() {
-    return "gccad@co.gloucester.nj.us,777,@private.gloucesteralert.com";
+    return "gccad@co.gloucester.nj.us,777,@private.gloucesteralert.com,12101";
   }
   
   @Override

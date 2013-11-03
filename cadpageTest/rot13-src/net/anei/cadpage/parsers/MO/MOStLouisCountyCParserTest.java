@@ -214,6 +214,9 @@ Fraqre: qvfcngpu@ppr911.bet
 {PNQ Cntvat} Nynez Pbzzrepvny NG:1650 Qrf Crerf Eq KFG:ORQEBPX EQ/SYHFUVAT ZRNQBJF QE Jrfg Pbhagl 2814,3525,35QA,3502
 {PNQ Cntvat} 06 Oernguvat Ceboyrzf DQ NG:13230 Znapurfgre Eq KFG:CBVAGR QE/QEVIR GB 13205 Qrf Crerf 28QA1,2817,2814
 
+Pbagnpg: Xriva Uraqrefba <fvmmrhc1@tznvy.pbz>
+Fraqre: 9300
+Nynez Zrqvpny NG:1576 Ehfgvp Genvy Qe KFG:FPRAVP YNXR QE/FCNEXYVAT YNXR QE 51 5110,51QA,5117
 
 
 ************************ CNEFR SNVYHER *****************************
@@ -1539,6 +1542,19 @@ choyvp pynff ZBFgYbhvfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Crerf",
         "HAVG:28QA1,2817,2814");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXrivaNaqrefba() {
+
+    qbGrfg("G1",
+        "Nynez Zrqvpny NG:1576 Ehfgvp Genvy Qe KFG:FPRAVP YNXR QE/FCNEXYVAT YNXR QE 51 5110,51QA,5117",
+        "PNYY:Nynez Zrqvpny",
+        "NQQE:1576 Ehfgvp Genvy Qe",
+        "K:FPRAVP YNXR QE/FCNEXYVAT YNXR QE",
+        "FEP:51",
+        "HAVG:5110,51QA,5117");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
