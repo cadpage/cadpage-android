@@ -105,7 +105,7 @@ choyvp pynff ZBTerrarPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "TEA_Nyreg@fcevatsvryqzb.tbi:YBP:10712 J SE116 NQ: QRFP: NCG: PEFGE: / 2400 A SE63 GLC:*Z*UBHFR S PZG:GRFG PNYY SBE NYREGVAT VAP:00000002 GVZR:Jrqarfqnl, Bpgbore 30, 2013 6:",
         "NQQE:10712 J SE116",
         "ZNQQE:10712 J SNEZ EBNQ 116",
-        "K:/ 2400 A SE63",
+        "K:2400 A SE63",
         "PBQR:*Z*UBHFR S",
         "VASB:GRFG PNYY SBE NYREGVAT VAP:00000002");
 
@@ -150,7 +150,7 @@ choyvp pynff ZBTerrarPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "TEA_Nyreg@fcevatsvryqzb.tbi:YBP:504 F UNZCGBA NIR NQ:NQINAPRQ CYNGVAT QRFP: NCG: PEFGE: / 300 R EVGGRE FG GLC:*Z*OHVYQVA PZG:GRFG PNYY SBE NYREGVAT VAP:00000002 GVZR:Jrqarfqnl, Bpgbore 30, 2013 6:",
         "NQQE:504 F UNZCGBA NIR",
         "CYNPR:NQINAPRQ CYNGVAT",
-        "K:/ 300 R EVGGRE FG",
+        "K:300 R EVGGRE FG",
         "PBQR:*Z*OHVYQVA",
         "VASB:GRFG PNYY SBE NYREGVAT VAP:00000002");
 
