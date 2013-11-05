@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Ybenva Pbhagl, BU
+Ybenva Pbhagl, BU (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Abegu Evqtrivyyr Sver
