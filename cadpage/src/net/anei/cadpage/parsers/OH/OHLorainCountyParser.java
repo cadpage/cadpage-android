@@ -1,23 +1,14 @@
 package net.anei.cadpage.parsers.OH;
 
-import java.util.Properties;
+import net.anei.cadpage.parsers.GroupBestParser;
 
-import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
+/*
+ * Lorain County, OH
+ */
 
-
-public class OHLorainCountyParser extends DispatchOSSIParser {
-
+public class OHLorainCountyParser extends GroupBestParser {
+  
   public OHLorainCountyParser() {
-    super(CITY_CODES, "LORAIN COUNTY", "OH",
-           "( CANCEL | FYI CALL ) ADDR! PLACE? CITY");
+    super(new OHLorainCountyAParser(), new OHLorainCountyBParser());
   }
-  
-  @Override
-  public String getFilter() {
-    return "cad@lorainco911.com";
-  }
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-     "CAR", "CARLISLE TWP" 
-  });
 }
