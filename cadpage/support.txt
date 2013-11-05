@@ -123,15 +123,6 @@ Active911 explanation
 
 Active911 is a messaging service that can push pages from dispatch to cell phones.  If you use a plain cell phone, Active911 uses text messaging.  If you use Cadpage or an iphone, Active911 can push pages without using text messages.
 
-*******************************************************************
-Will Active911 be available on Android?
-
-Active911 is a separate Organization from Cadpage, though we do work very closely together.  Which means that any answer I give should be considered advisory.  You really should ask them if you want definitive answers.
-
-Cadpage and Active911 have a symbiotic relationship.  Cadpage takes the role of the Active911 client for Android phones.  Active911 depends on the message text parsers developed by Cadpage to drive their IPhone and cell phone traffic.  
-
-The problem with this arrangement is that Cadpage lacks the ability to display responder status information that is integrated into the Active911/Iphone app.  We are aware of the deficiency, but thus far have not decided how to resolve it.  Cadpage will let you display the Active911 incident web page, but that page lacks the real time responder location display that makes the Active911/IPhone app so cool.  There are serious technical challenges to adding that functionality directly to Cadpage.  On top of that, Cadpage is an open source product.  Active911 is not, and they are understandably reluctant to put a lot of their map and communication code into an open source app where their competitors can access it.
-
 ******************************************************************
 
 You or your department have apparently paid for Active911, but you need to re-register your phone with Active911 to enable direct paging. 
