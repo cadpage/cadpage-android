@@ -97,6 +97,91 @@ PNQ:14720 AR GNATRA EQ ARJORET GENHZN1 ASQC1 08/30/2013 13:41:01 : cbf2 : ZVYYRE
 PNQ:R ZBHAGNVAIVRJ QE // IVYYN EQ ARJORET SVER JVERF ASQC1 08/29/2013 17:27:11 : cbf2 : MJRVTNEGN 1500 R ZBHAGNVAIVRJ QE AOU: 6880N RNFG BS IVYYN BA GUR ABEGU FVQR BS ZBHGNVAIVRJ JVER VA GUR ZVQQYR BS GUR EQ // HAXA JUNG XVAQ
 PNQ:730 SBBGUVYYF QE 119 ARJORET HAPBA1 ASQC1 08/29/2013 16:13:13 : cbf1 : OEBJAA Ynaqznex Pbzzrag: PNER UBZR Ynaqznex: NINZRER Pebff fgerrgf: PBYYRTR FG//OHEYVATGBA QE AOU: 6779Q 74 LBS,
 
+*ABGRF*
+Guvf vf n
+
+Pnyy Pbqrf:
+SVER NVEPESG - Nvepensg Penfu
+SVER NYNEZ - Sver Nynez
+SVER NY-PB - PB Nynez
+SVER NY-RYRI - Ryringbe Nynez
+SVER NY-ZRQ - Zrqvpny Nynez
+SVER NFFVFG - Choyvp Nffvfg
+SVER ONEX - Onexqhfg Sver
+SVER ONEA - Onea Sver
+SVER OBNG - Obng Sver
+SVER PNE - Iruvpyr Sver
+SVER PUVZARL - Puvzarl Sver
+SVER PBYNCFR - Ohvyqvat Pbyyncfr
+SVER PBZZ - Pbzzrepvny Sver
+SVER RYRP - Ryrpgevpny Sver
+SVER RKCYBF - Rkcybfvba
+SVER TNF - Tnf Sver
+SVER TNFYRNX - Angheny Tnf/YCT Yrnx
+SVER TENFF - Tenff Sver
+SVER UNMZNG UNMZNG - Fcvyy
+SVER VYYRTNY - Ohea Pbzcynvag
+SVER VAIRFG - Sver Vairfgvtngvba
+SVER YET GX - Ynetr Gehpx Sver
+SVER ZBIRHC - Sver Zbir-HC
+SVER ZHGHNY - Sver Zhghny Nvq
+SVER BGURE - ZVFP/Haxabja Sver
+SVER CBYR - Cbyr Sver
+SVER ERF - Erfvqragvny Sver
+SVER FZYOYQT - Fznyy Ohvyqvat Sver
+SVER FZBXR - Fzbxr/Bqbe Vairfgvtngvba
+SVER FCVYY - Fznyy UnmZng Fcvyy
+SVER FGNAQOL - ASQ Crefbaary Fgngvba Fgnaqol
+SVER GENFU - Qhzcfgre/Genfu Sver
+SVER GERR - Gerr Qbja
+SVER JNGRE - Jngre Ceboyrz
+SVER JVYQYNAQ - Jvyqynaq Sver
+SVER JVERF - Jverf Qbja
+ZIP OBNG - Obng Penfu
+ZIP GENVA - Genva Penfu
+ZIPV - Zbgbe Iruvpyr Penfu
+ERF RYRI - Ryringbe Ragenczrag
+ERF BGURE ZVFP - Erfphr
+ERF EBCR - Ebcr Erfphr
+ERF FRNEPU - Frnepu naq Erfphr
+ERF GERAPU - Pbasvarq Fcnpr/Gerapu Erfphr
+ERF JNGRE ZN - Jngre Erfphr Zhghny Nvq
+
+NOQBZ - Noqbzvany Cnva
+NYERNP - Nyretvp Ernpgvba
+NAVZNY - Navzny Ovgr
+NFFNHYG - Nffnhyg
+ONPX - Onpx Cnva
+OYRRQ - Oyrrqvat Ceboyrz
+OERNGU - Oernguvat Ceboyrz
+OHEA - Ohea Cngvrag
+PURFG - Purfg Cnva
+PUBXR - Pubxvat
+QVNO - Qvnorgvp Ceboyrz
+QEBJA - Qebjavat
+RKCBFR - Raivebazragny Rkcbfher
+SNYY - SNYY
+TFJ - Tha Fubg Jbhaq C1 (C2,C3,C4)
+UN - Urnqnpur
+VAQHFGNPP - Vaqhfgevny Nppvqrag
+ZRAGNY - Zragny Ceboyrz
+BO - BO Rzretrapl
+BQ - Bireqbfr
+FRVMHER - Frvmher
+FVPXCREF - Fvpx Crefba
+FGEBXR - Fgebxr
+GBKVP - Gbkvp
+GENHZN - Genhzngvp Vawhel
+HAPBA - Bapbafpvbhf
+HAXZRQ - Haxabja Zrqvpny
+JNGRE ERFPH - Jngre Erfphr
+ZRQ ZN - Zrqvpny Zhghny Nvq
+GENAFSRE - Vagresnpvyvgl Ubfcvgny Genafsre
+ZBIR HC - Zrqvpny Zbir Hc
+YBPX BHG - Ybpx bhg
+
+Vs pnyy pbqr raqf jvgu n qvtvg, fgevc bss qvtvg naq fnir gur qvtvg nf gur pnyy cevbevgl.
+
 */
 
 choyvp pynff BELnzuvyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
