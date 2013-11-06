@@ -14,7 +14,7 @@ public class NYNassauCountyFParser extends FieldProgramParser {
 
   public NYNassauCountyFParser() {
     super("NASSAU COUNTY", "NY",
-           "CALL CALL CALL CALL ADDR CITY PHONE!");
+           "CALL1 CALL2 CALL3 CALL4 ADDR CITY PHONE!");
   }
   
   @Override
@@ -25,9 +25,6 @@ public class NYNassauCountyFParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    // Eliminate several other Nassau County formats
-    if (body.startsWith("***")) return false;
-    
     if (body.endsWith(" support@2sig.com")) {
       body = body.substring(0,body.length()-17).trim();
     }
@@ -35,6 +32,11 @@ public class NYNassauCountyFParser extends FieldProgramParser {
   }
   
   private class MyCallField extends CallField {
+    
+    public MyCallField(String pattern) {
+      super(pattern, true);
+    }
+    
     @Override 
     public void parse(String field, Data data) {
       // Odd duplicated call fields
@@ -50,7 +52,20 @@ public class NYNassauCountyFParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
+    if (name.startsWith("CALL")) {
+      String ptn;
+      switch (name.charAt(4)) {
+      case '1':
+        ptn = "[A-Z]+";
+        break;
+      case '2':
+        ptn = "[A-Z]{0,4}";
+        break;
+      default:
+        ptn = "[-/ A-Z0-9]*";
+      }
+      return new MyCallField(ptn);
+    }
     if (name.equals("TIME")) return new TimeField(TIME_FMT);
     return super.getField(name);
   }

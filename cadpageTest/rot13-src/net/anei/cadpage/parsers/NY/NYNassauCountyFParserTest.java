@@ -95,8 +95,9 @@ choyvp pynff ALAnffnhPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   @Grfg
-  choyvp ibvq grfgAnffnhPbhaglQ() {
+  choyvp ibvq grfgOnqZft() {
     qbOnqGrfg("***N/N Ohvyqvat Sver*** PNEYGBA BA GU @ RVFRAUBJRE CNEX*Cer-Cyna CNEX OYIR *PF: ZREEVPX NIR / URZCFGRNQ GCXR*GBN: 16:31 08/26/13*RATVAR 1RATVAR 2YNQQRE 12013-000848*** YBPX OBK RKC.#1 EVTUG FVQR RAGENAPR - PBQR: '1035'\a** URNIL EBBS UINP HAVGF NG P/B RKC.#1/2. \a** FGRRY EBYY QBJA QBBE FRCRENGRF UNYYJNL SEBZ ERFGNHENAG NERN GB TNGFOL EBBZ (ABEGU FVQR).\a** CNEGVNY FCEVAXYRE FLFGRZ CEBGRPGF GUR 1FG SYBBE RKC.#2 FVQR BS OHVYQVAT BAYL (TNGFOL EBBZ NAQ PYHO UBHFR)   \a** FGRRY JVER CNARYF NG ONFRZRAG JVAQBJF NG RKC.#1 NAQ #3. \a** 2 QHZOJNVGRE FUNSGF YBPNGRQ NG XVGPURA NERN - ONFRZRAG GB 2AQ SYBBE. \a** QNATREBHF PBAQVGVBA - FYNGR EBBS FUVATYRF NG CVGPURQ EBBS NERNF.*");
+    qbOnqGrfg("<?kzy irefvba=\"1.0\"?>\a<fzvy>\a <urnq>\a  <ynlbhg>\a\3f<ebbg-ynlbhg jvqgu=\"600\" urvtug=\"1024\"/>\a\3f<ertvba vq=\"Grkg\" jvqgu=\"100%\" urvtug=\"30%\" svg=\"fpebyy\"/>\a\3f<ertvba vq=\"Vzntr\" jvqgu=\"100%\" urvtug=\"70%\" gbc=\"30%\" svg=\"zrrg\"/>\a  </ynlbhg>\a </urnq>\a <obql>\a<cne>\a<grkg qhe=\"5f\" fep=\"pvq:obql.gkg\" ertvba=\"Grkg\" glcr=\"grkg/cynva\"/>\a</cne>\a </obql>\a</fzvy>");
   }
   
   @Grfg
