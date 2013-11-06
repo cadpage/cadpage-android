@@ -12,6 +12,6 @@ public class TNBradleyCountyParser extends DispatchA3Parser {
   
   @Override
   public String getFilter() {
-    return "7774";
+    return "777";
   }
 }
