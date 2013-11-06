@@ -9,13 +9,13 @@ choyvp pynff BUYbenvaPbhaglCnefreGrfg {
   
   choyvp fgngvp pynff GrfgN rkgraqf BUYbenvaPbhaglNCnefreGrfg {
     choyvp GrfgN() {
-      frgCnefre(arj BUYbenvaPbhaglNCnefre());
+      frgCnefre(arj BUYbenvaPbhaglCnefre());
     }
   }
   
   choyvp fgngvp pynff GrfgO rkgraqf BUYbenvaPbhaglOCnefreGrfg {
     choyvp GrfgO() {
-      frgCnefre(arj BUYbenvaPbhaglNCnefre());
+      frgCnefre(arj BUYbenvaPbhaglCnefre());
     }
   }
   
