@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 public class MIInghamCountyParser extends DispatchA3Parser{
 
   public MIInghamCountyParser() {
-    super("InghamCO:", "INGHAM COUNTY", "MI", "ID ADDR APT APT CITY! Line6:X! Line7:X! Line8:MAP! Line9:INFO1! Line10:CODE! Line11:CALL! Line12:NAME Line13:PHONE Line14:UNIT Line15:MAP Line16:INFO Line17:INFO Line18:INFO");
+    super("InghamCO:", "INGHAM COUNTY", "MI", "ID ADDR APT APT CITY! Line6:X! Line7:X! Line8:MAP! Line9:INFO1! Line10:CALL! Line11:CALL! Line12:NAME Line13:PHONE Line14:UNIT Line15:MAP Line16:INFO Line17:INFO Line18:INFO");
 
   }
   
@@ -19,6 +19,14 @@ public class MIInghamCountyParser extends DispatchA3Parser{
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new IdField("\\d\\d\\-\\d{7}", true);
+    if (name.equals("CALL")) return new MyCallField();
     return super.getField(name);
+  }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCall = append(data.strCall, " - ", field);
+    }
   }
 }
