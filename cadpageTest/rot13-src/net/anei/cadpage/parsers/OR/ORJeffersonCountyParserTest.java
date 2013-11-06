@@ -157,7 +157,7 @@ choyvp pynff BEWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:1301",
         "PNYY:GEN - GENHZN",
         "CEV:3",
-        "NQQE:FJ PBLBGR QE", // abg sbhaq
+        "NQQE:FJ PBLBGR QE", // sbaq va Phyire.  Abg va Guerr Eviref ????
         "PVGL:GUERR EVIREF", // guvf pvgl vf va Qrfpuhgrf pbhagl
         "VASB:TENAQSNGURE SRYY BHG BA CBEPU/UVG UVF URNQ");
 
