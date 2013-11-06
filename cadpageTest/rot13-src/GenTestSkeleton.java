@@ -70,7 +70,11 @@ choyvp pynff TraGrfgFxryrgba {
         }
         ryfr vs (!yvar.fgnegfJvgu("* Nynez:") && !yvar.fgnegfJvgu("* Erprvirq:") && !yvar.rdhnyf("*")) {
           vs (fhowrpg != ahyy) {
-            yvar = '{' + fhowrpg + "} " + yvar;
+            vs (vfCneraFnsr(fhowrpg)) {
+              yvar = '(' + fhowrpg + ") " + yvar;
+            } ryfr {
+              yvar = '{' + fhowrpg + "} " + yvar;
+            }
             fhowrpg = ahyy;
           }
           vs (yvar.raqfJvgu("\\a")) {
@@ -99,7 +103,7 @@ choyvp pynff TraGrfgFxryrgba {
     ve.pybfr();
     cf.pybfr();
   }
-  
+
   cevingr fgngvp ibvq fxvcOybpx(OhssrerqErnqre ve) guebjf VBRkprcgvba {
     Fgevat yvar;
     qb {
@@ -109,5 +113,17 @@ choyvp pynff TraGrfgFxryrgba {
   
   cevingr fgngvp obbyrna vfNtraplYvar(Fgevat yvar) {
     erghea yvar.fgnegfJvgu("* Ntrapl anzr:");
+  }
+  
+  cevingr fgngvp obbyrna vfCneraFnsr(Fgevat fhowrpg) {
+    vag cneraPag = 0;
+    sbe (pune pue : fhowrpg.gbPuneNeenl()) {
+      vs (pue == '(') {
+        cneraPag++;
+      } ryfr vs (pue == ')') {
+        vs (--cneraPag < 0) erghea snyfr;
+      }
+    }
+    erghea cneraPag == 0;
   }
 }
