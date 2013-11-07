@@ -129,19 +129,22 @@ public class PAYorkCountyAParser extends SmartAddressParser {
         parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, sAddr, data);
       }
       
-      // SO far, it is pretty simple.  There is always a multiblank delimiter
+      // SO far, it is pretty simple.  There is usually a multiblank delimiter
       // Separating the cross streets from the call description
       // Except sometimes the cross street is an apt
       match = MULTI_BLANK_PTN.matcher(body);
-      if (!match.find()) return false;
-      String cross = body.substring(0,match.start());
-      if (cross.startsWith("APT")) {
-        cross = cross.substring(3).trim();
-        if (!cross.equals(data.strApt)) data.strApt = append(data.strApt, " ", cross);
-      } else {
-        if (!cross.equalsIgnoreCase("NO CROSS STREETS FOUND")) data.strCross = cross;
+      if (match.find()) {
+        String cross = body.substring(0,match.start());
+        if (cross.startsWith("APT")) {
+          cross = cross.substring(3).trim();
+          if (!cross.equals(data.strApt)) data.strApt = append(data.strApt, " ", cross);
+        } else {
+          if (!cross.equalsIgnoreCase("NO CROSS STREETS FOUND")) data.strCross = cross;
+        }
+        body = body.substring(match.end());
       }
-      data.strCall = body.substring(match.end());
+      
+      data.strCall = body;
     }
     
     // Older logic can get complicated
