@@ -98,8 +98,32 @@ PNQ:R ZBHAGNVAIVRJ QE // IVYYN EQ ARJORET SVER JVERF ASQC1 08/29/2013 17:27:11 :
 PNQ:730 SBBGUVYYF QE 119 ARJORET HAPBA1 ASQC1 08/29/2013 16:13:13 : cbf1 : OEBJAA Ynaqznex Pbzzrag: PNER UBZR Ynaqznex: NINZRER Pebff fgerrgf: PBYYRTR FG//OHEYVATGBA QE AOU: 6779Q 74 LBS,
 
 *ABGRF*
-Guvf vf n
+Guvf vf tbvat gb or vagrerfgvat.  Jr arrq gb fhopynff QvfcngpuN3Cnefre, vg unf gur pbqr jr arrq gb cebprff 
+rirelguvat sebz gur qngr/gvzr ba.  Ohg bapr ntnva jr ner tbvat gb unir gb trg perngvir nobhg ubj gb znxr
+vg qb jung jr jnag.
 
+Cnff n svryq cebtenz gung pbafvfgf bs gur fvatyr jbeq "VASB" gb gur pbafgehpgbe.
+
+Arkg Cnggrea zngpu gb purpx sbe naq frcnengr gur yvar vagb gjb cvrprf.
+Gur svefg sebz fgnegf sebz gur PNQ: cersvk naq raqf whfg orsber gur Qngr/gvzr : cbf\q : frdhrapr.  Jr jvyy cebprff
+gung bhefryirf.  Gur frpbaq fgnegf jvgu gur qngr/gvzr frdhrapr naq pbagvahrf gb gur raq bs gur grkg.  Guvf bar
+jr jvyy ghea vagb n fvatyr ryrzrag neenl naq cnff vg gb cnefrSvryqf(), juvpu yrgf gur QvfcngpuN3Cnefre unaqyr vg.
+
+ Gur cneg jr ner tbvat gb unaqyr pbafvfgf bs na nqqerff, bcgvbany ncg, pvgl, pnyy pbqr, naq havg(f).  Jr jvyy pbhag
+ ba n pvgl nyjnlf orvat cerfrag.
+ pnyy cnefrNqqerff cnffvat FgnegGlcr.FGNEG_NQQE naq SYNT_ERPURPX_NCG.
+ vs vg qbrf abg cnefr n pvgl, erghea snvyher.
+ Bgurjvfr pnyy trgYrsg() gb trg jung vf yrsg.
+ 
+ Pnyy pbqr cebprffvat trgf gevpxl orpnhfr znal bs gur pnyyf pna raq jvgu n 1-4 cevbevgl.  Naq V ernyyl qba'g
+ jnag gb pbqr nyy bs gur cbffvoyr pbqr/cevbevgl svryqf vagb gur pnyy pbqr yvfg.  Fb.
+ 
+ Gurer ner n pbhcyr jnlf gb qb guvf.  V'z guvaxvat chggvat gur pbqrf naq qrfpevcgvbaf va n PbqrZnc bowrpg vf
+ gur jnl gb tb.  Guvf vf fvzvyne gb gur PbqrFrg bowrpg rkprcg gung vg pna znc gb n erny qrfpevcgvba.
+ Lbh pna ybbx sbe n pbqr ng gur ortvaavat bs gur fgevat jvgubhg erdhvevat n oynax.  Vs lbh svaq bar bar, chg gur erfhygvat pbqr va gur pbqr svryq 
+ naq gur zngpuvat qrfpevcgvba va gur pnyy svryq.  Gura hfr fhofgevat gb fgevc bss gur pbqr sebz gur yvar naq frr jung vf yrsg.
+ vs bar vf yrsg vf n  fvatyr qvtvg sbyybjrq ol n oynax, chg vg va gur cevbevgl svryq.  Jung vf yrsg tbrf va gur havg svryq.
+ 
 Pnyy Pbqrf:
 SVER NVEPESG - Nvepensg Penfu
 SVER NYNEZ - Sver Nynez
@@ -192,7 +216,6 @@ choyvp pynff BELnzuvyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCnefre() {
-    
    
   }
   
