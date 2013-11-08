@@ -4,7 +4,7 @@ vzcbeg bet.whavg.rkcrevzragny.ehaaref.Rapybfrq;
 vzcbeg bet.whavg.ehaare.EhaJvgu;
 
 /*
-Arj Unira Pbhagl, PG
+Unegsbeq Pbhagl, PG
 */
 @EhaJvgu(Rapybfrq.pynff)
 choyvp pynff PGUnegsbeqPbhaglCnefreGrfg {
