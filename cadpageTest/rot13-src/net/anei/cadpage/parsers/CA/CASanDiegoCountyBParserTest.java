@@ -118,7 +118,7 @@ Fraqre: <pnq@wcncntr.arg>
 choyvp pynff PNFnaQvrtbPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp PNFnaQvrtbPbhaglOCnefreGrfg() {
-    frgCnefre(arj PNFnaQvrtbPbhaglCnefre(), "FNA QVRTB PBHAGL", "PN");
+    frgCnefre(arj QhzzlCnefre(), "FNA QVRTB PBHAGL", "PN");
   }
   
   @Grfg
