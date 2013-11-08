@@ -16,15 +16,13 @@ This is a Google problem that they do not have a solution for yet.  Something ab
 
 The latest version of Cadpage does have some extra logic to help Google identify the source of this problem.  That logic has been tripped on your phone and created a file on your SD card that needs to be emailed to us so I can forward it to the Google engineer working on this problem.  The simplest way to do that is probably to connect your phone to a PC as a disk and copy the file Download/bugreport.cadpage.gz from your phone SD card to the PC and then include in an email to ken@cadpage.org.
 
-Actual fixes or workarounds are still elusive. We found that a factory reset solves the problem, but only temporarily.  What it does is roll back your phone to a previous version of Google Play Services that did not have this issue.  But it will only be a few days before that app is automatically updated, they do not give you the option to not have it updated 
+Actual fixes or workarounds are still elusive.  Google recommends a factory reset.  But they say going in to the Application Manager, finding the "Google Services Framework" app and clearing both the cache and data *MAY* help.  They prefer the factory reset, but I won't tell if you try the clear data first.  In any case, let me know how things work out.
 
 I would check to see if a system update is available.  Open Android Settings and select
 About Device > Software Update > Check Updates
 If there is a system update available for your phone, it will get you beyond the version of Android where this problem occurs.
 
 If there is no update available, and you happen to have a Verizon phone, you can try calling tech support and complaining that your phone has no upgrade path to Android 4.0 and critical software apps cannot run on the old version you have.  Sounds like a long shot, but the first user I had run into this got Verizon to replace his phone by doing that.
-
-The one thing you could do that might fix things, or might make them much worse, would be to go into the application manager and clear the cache and data for Google Play Store and Google Play Service and maybe Google Framework Services.  The Google Engineer working on this most definitely does not recommend this.  He recommends that you sit tight and wait for a real fix to be released.  But weeks are going by and no fix seems to be in sight.
 
 Good luck
 -Ken
