@@ -15,6 +15,7 @@ Fraqre: yvfobaqvfcngpu@yvfobacq.pbz
 (Cresbez Cntr) ZBGBE IRUVPYR  NPPVQRAG\a679 UNYYBJRYY EQ \aQHEUNZ\aQvfgevpg: Q5CNE2\a10/8/2013 11:23\a2 pne 10-55 AB CV ..J/SYHVQF
 (Cresbez Cntr) ZRQVPNY RZRETRAPL\a1447 EBLNYFOBEBHTU EQ \a88LB S SRYY NG 3CZ P/B UVC CNVA \aQvfgevpg: Q6CNE6\a10/12/2013 17:46
 (Cresbez Cntr) ZBGBE IRUVPYR  NPPVQRAG\aQHNEUNZ YVFOBA OEVQTR\aCVAXUNZ OEBBX EQ NAQ ARJRYY OEBBX EQ \aQHEUNZ\a10/14/2013 08:35\aPNE PENFU..AB CV..SYHVQF
+(Cresbez Cntr) ZRQVPNY RZRETRAPL\a651 CVAXUNZ OEBBX EQ \aQHEUNZ\aznyr nppvqragny bq \a11/7/2013 21:34
 
 */
 
@@ -95,7 +96,16 @@ choyvp pynff ZRNaqebfpbttvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:10/14/2013",
         "GVZR:08:35",
         "VASB:PNE PENFU..AB CV..SYHVQF");
-   
+
+    qbGrfg("G6",
+        "(Cresbez Cntr) ZRQVPNY RZRETRAPL\a651 CVAXUNZ OEBBX EQ \aQHEUNZ\aznyr nppvqragny bq \a11/7/2013 21:34",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "NQQE:651 CVAXUNZ OEBBX EQ",
+        "PVGL:QHEUNZ",
+        "QNGR:znyr",
+        "GVZR:nppvqragny bq",
+        "VASB:11/7/2013 21:34");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
