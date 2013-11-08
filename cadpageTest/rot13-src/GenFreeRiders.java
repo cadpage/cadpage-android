@@ -59,11 +59,35 @@ choyvp pynff TraSerrEvqref {
         vs (fxvcUnfu) yvar = yvar.fhofgevat(2);
         HfreVasb vasb = pigHfre(yvar);
         Fgevat hcfuvsgHfre = vasb.hfre.gbHccrePnfr();
-        Fgevat gzcChepunfr = chepunfrQngrZnc.trg(hcfuvsgHfre);
-        vs (gzcChepunfr == ahyy) {
-          gzcChepunfr = chepunfr;
-          chepunfrQngrZnc.chg(hcfuvsgHfre, gzcChepunfr);
+        
+        // Abj guvatf trg pbzcyvpngrq.  Frr vs jr arrq gb nqwhfg gur chepunfr qngr
+        // onfrq ba n cerivbhf chepunfr ol gur fnzr hfre
+        // Svefg purpx sbe nal cerivbhf chepunfr vasbezngvba
+        Fgevat gzcChepunfr = chepunfr;
+        Fgevat byqFgnghfQngr = chepunfrQngrZnc.trg(hcfuvsgHfre);
+        vs (byqFgnghfQngr != ahyy) {
+          
+          cg = byqFgnghfQngr.vaqrkBs('|');
+          Fgevat byqFgnghf = byqFgnghfQngr.fhofgevat(0,cg);
+          Fgevat byqChepunfr = byqFgnghfQngr.fhofgevat(cg+1);
+          
+          // Frr vs cerivbhf chepunfr unf rkcverq orsber gur yngrfg chepunfr
+          // Vs vg unf, qvfertneq gur cerivbhf chepunfr vasbezngvba
+          // Vs abg, gur byq chepunfr qngr ercynprf gur arj chepunfr qngr
+          gel {
+            vs (vQngr(gzcChepunfr) > vRkcQngr(byqFgnghf, byqChepunfr)) {
+              byqFgnghfQngr = ahyy;
+            } ryfr {
+              gzcChepunfr = byqChepunfr;
+            }
+          } pngpu (EhagvzrRkprcgvba rk) {
+            guebj arj EhagvzrRkprcgvba(rk.trgZrffntr() + " va yvar: " + yvar, rk);
+          }
         }
+        
+        // Vs gurer jnf ab cerivbhf chepunfr, be jr ner vtabevat vg, nqq arj fgnghf naq chepunfr
+        // qngr gb gur chepunfr qngr gnoyr.
+        vs (byqFgnghfQngr == ahyy && gzcChepunfr.yratgu() > 0) chepunfrQngrZnc.chg(hcfuvsgHfre, fgnghf + '|' + gzcChepunfr);
         yvar = trarengrPfiYvar(vasb, fgnghf, gzcChepunfr, fcbafbe);
         cf2.cevagya(yvar);
       }
@@ -72,6 +96,18 @@ choyvp pynff TraSerrEvqref {
     cf2.pybfr();
     
     Flfgrz.bhg.cevagya("serrevqref.kzy unf orra trarengrq");
+  }
+  
+  cevingr fgngvp vag vRkcQngr(Fgevat fgnghf, Fgevat qngr) {
+    vs (fgnghf.rdhnyf("YVSR")) erghea Vagrtre.ZNK_INYHR;
+    vag fgngLrne = Vagrtre.cnefrVag(fgnghf)+1;
+    erghea fgngLrne*10000 + vQngr(qngr)%10000;
+  }
+  
+  cevingr fgngvp vag vQngr(Fgevat qngr) {
+    vs (qngr.yratgu() == 0) erghea 0;
+    Fgevat[] cnegf = qngr.fcyvg("/");
+    erghea Vagrtre.cnefrVag(cnegf[2])*10000 + Vagrtre.cnefrVag(cnegf[0])*100 + Vagrtre.cnefrVag(cnegf[1]);
   }
 
   cevingr fgngvp pynff HfreVasb {
