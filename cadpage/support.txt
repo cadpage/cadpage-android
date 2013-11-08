@@ -2643,3 +2643,34 @@ Good luck,
 Jean, Assistant to Ken Corbin
 
 ********************************************************************************
+Other agency uses for Cadpage
+
+Q:  Curious to know if Cadpage would work for my Police Department. I work for
+> the NYC Department of Environmental Protection Police and we have call out
+> procedures for chlorine emergencies and the list of people to call is very
+> long. So this takes a lot of time to do and we usually only have two
+> officers working dispatch. We do not recieve 911 calls. Usually via
+> landline from the facilities. A cadpage system where our dispatchers can
+> page on a massive scale from the chiefs down to the lieutenants and the
+> civilian engineers could be notified via this system would be beneficial.
+> Any info you can provide would be greatly appreciated.
+>
+A: Cadpage will be useful for any organization or agency that can send text
+messages containing some kind of incident address to its members
+notifying them when some event happens.
+
+Cadpage takes care of what happens when those text messages are received
+on your phone.  You have to set up the messaging system that creates
+those text messages.  This is not that hard to do.  There are a lot of
+services that allow you to send one email to a specific address and have
+it be relayed as text messages to a list of group subscribers.
+
+In particular, there are two such services, Codemessaging.net and
+Active911.com, that can push pages to Cadpage without relying on text
+messages.  Which has some advantages such as allowing Cadpage to work on
+Android tablets that can not process text messages.
+
+Good luck,
+-Ken
+
+>
