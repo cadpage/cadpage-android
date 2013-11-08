@@ -44,6 +44,11 @@ public abstract class UserAcctManager {
   public abstract String getPhoneNumber();
   
   /**
+   * @return hardware device ID
+   */
+  public abstract String getMEID();
+  
+  /**
    * Append account information to support message under construction
    * @param sb String builder holding message being constructed
    */
@@ -53,6 +58,8 @@ public abstract class UserAcctManager {
     sb.append('\n');
     sb.append("Phone:");
     sb.append(getPhoneNumber());
+    sb.append("\nMEID:");
+    sb.append(getMEID());
     int overpaidDays = DonationManager.instance().getOverpaidDays();
     if (overpaidDays > 0) {
       sb.append("\nOverpaid:");
@@ -70,6 +77,7 @@ public abstract class UserAcctManager {
     Context context;
     private String userEmail = null;
     private String phoneNumber = null;
+    private String meid = null;
     
     @Override
     public void setContext(Context context) {
@@ -80,6 +88,7 @@ public abstract class UserAcctManager {
       phoneNumber = cleanName(phoneNumber);
       if (phoneNumber.startsWith("+")) phoneNumber = phoneNumber.substring(1);
       if (phoneNumber.startsWith("1")) phoneNumber = phoneNumber.substring(1);
+      meid = tMgr.getDeviceId();
       
       Account[] accounts = AccountManager.get(context).getAccountsByType("com.google");
       if (accounts.length > 0) userEmail = cleanName(accounts[0].name);
@@ -238,6 +247,11 @@ public abstract class UserAcctManager {
     public String getPhoneNumber() {
       return phoneNumber;
     }
+
+    @Override
+    public String getMEID() {
+      return meid;
+    }
   }
 
   private static class DummyUserAcctManager extends UserAcctManager {
@@ -266,6 +280,11 @@ public abstract class UserAcctManager {
 
     @Override
     public String getPhoneNumber() {
+      return null;
+    }
+
+    @Override
+    public String getMEID() {
       return null;
     }
   }
