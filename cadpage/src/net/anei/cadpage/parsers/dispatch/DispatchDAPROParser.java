@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchDAPROParser extends FieldProgramParser {
   
-  private static final String PROGRAM_STR = "ADDR/SC! CFS:ID! Run:ID? CROSS:X";
+  private static final String PROGRAM_STR = "ADDR/SCa! CFS:ID! Run:ID? CROSS:X";
   
   private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+");
 
@@ -75,7 +75,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern ID_PTN = Pattern.compile("(\\d{4}-\\d{6})\\b *(.*)");
+  private static final Pattern ID_PTN = Pattern.compile("((?:\\d{4}-)?\\d{6}),? *(.*)");
   private class MyIdField extends IdField {
     @Override
     public void parse(String field, Data data) {

@@ -402,7 +402,8 @@ choyvp pynff INYharaohetPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "IEF-G ERFPHR 519 ZNVA FG 106 PSF# 2012-006034",
         "FEP:IEF-G",
         "PNYY:ERFPHR",
-        "NQQE:519 ZNVA FG 106",
+        "NQQE:519 ZNVA FG",
+        "NCG:106",
         "VQ:2012-006034");
 
     qbGrfg("G47",

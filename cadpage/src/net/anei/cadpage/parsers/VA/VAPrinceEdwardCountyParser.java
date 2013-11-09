@@ -51,6 +51,7 @@ public class VAPrinceEdwardCountyParser extends DispatchDAPROParser {
       "STROKE",
       "STRUCTURE FIRE",
       "TRASH FIRE",
+      "TRASH FIRE (RUBBISH)",
       "TREE DOWN",
       "UNCONSCIOUS",
       "VEHICLE/EQUIPMENT FIRE"
