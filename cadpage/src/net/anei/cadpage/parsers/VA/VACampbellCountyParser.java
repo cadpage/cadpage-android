@@ -5,22 +5,16 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
-import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchDAPROParser;
 
 
-public class VACampbellCountyParser extends SmartAddressParser {
+public class VACampbellCountyParser extends DispatchDAPROParser {
   
-  
-  private static final String[] KEYWORDS = new String[]{"LOC", "CFS"};
-  
-  private static final Pattern MARKER = Pattern.compile("^MAILBOX:([A-Z]{2}\\d{2}) ");
-  private static final Pattern ZERO_FILL_NUMBER = Pattern.compile("\\b0+(\\d+)\\b");
-  private static final Pattern OUTSIDE_COUNTY = Pattern.compile("(?<=OUTSIDE OF COUNTY) +(?=\\d)");
+  private static final Pattern LEAD_COUNTY_PTN = Pattern.compile("^COUNTY +0*");
   
   public VACampbellCountyParser() {
     super(CITY_CODES, "CAMPBELL COUNTY","VA");
-    setFieldList("SRC CALL CITY ADDR ID INFO");
     setupCallList(CALL_SET);
   }
   
@@ -31,48 +25,24 @@ public class VACampbellCountyParser extends SmartAddressParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    data.defState="VA";
-    data.defCity = "CAMPBELL COUNTY";
     
-    // Locate the marker to determine where our part of the message starts
-    Matcher match = MARKER.matcher(body);
-    if (! match.find()) return false;
-    data.strSource = match.group(1);
-    body = body.substring(match.end()).trim();
+    if (!super.parseMsg(body, data)) return false;
     
-    // Adjust it a bit and parse out the main fields
-    body = "LOC:" + body.replaceAll(" CFS#", " CFS:");
-    Properties props = parseMessage(body, KEYWORDS);
-    
-    // Lets do the easy ones first
-    // Need to handle Supp being after the CFS
-    Parser p = new Parser( props.getProperty("CFS", ""));
-    data.strCallId = p.get(' ');
-    data.strSupp = p.get();
-    
-    data.strCross = props.getProperty("CROSS", "");
-    
-    
-    // OK, now to work out the address field
-    String sAddress = props.getProperty("LOC", "");
-    String sCity = null;
-    int pt = sAddress.lastIndexOf('-');
-    if (pt >= 0) {
-      sCity = sAddress.substring(pt+1).trim();
-      sAddress = sAddress.substring(0,pt).trim();
+    if (data.strCall.endsWith("OUTSIDE OF")) {
+      Matcher match = LEAD_COUNTY_PTN.matcher(data.strAddress);
+      if (match.find()) {
+        data.strCall += " COUNTY";
+        data.strAddress = data.strAddress.substring(match.end()).trim();
+      }
     }
-    sAddress = ZERO_FILL_NUMBER.matcher(sAddress).replaceAll("$1");
     
-    StartType st = StartType.START_CALL;
-    match = OUTSIDE_COUNTY.matcher(sAddress);
-    if (match.find()) {
-      data.strCall = sAddress.substring(0,match.start());
-      sAddress = sAddress.substring(match.end());
-      st = StartType.START_ADDR;
+    if (data.strCity.length() == 0) {
+      int pt = data.strAddress.lastIndexOf("- ");
+      if (pt >= 0) {
+        data.strCity = data.strAddress.substring(pt+2).trim();
+        data.strAddress = data.strAddress.substring(0,pt).trim();
+      }
     }
-    parseAddress(st, FLAG_RECHECK_APT | FLAG_ANCHOR_END, sAddress, data);
-    if (sCity != null) data.strCity = sCity;
-    
     return true;
   }
 

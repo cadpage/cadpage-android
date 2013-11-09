@@ -39,6 +39,13 @@ public class DispatchDAPROParser extends FieldProgramParser {
     data.strAddress = LEAD_ZERO_PTN.matcher(data.strAddress).replaceFirst("").trim();
     return true;
   }
+  
+  @Override 
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ID")) return new MyIdField();
+    return super.getField(name);
+  }
 
   private static final Pattern TIME_PTN = Pattern.compile("^(\\d\\d:\\d\\d) ");
   private class MyAddressField extends AddressField {
@@ -68,9 +75,14 @@ public class DispatchDAPROParser extends FieldProgramParser {
     }
   }
   
-  @Override 
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    return super.getField(name);
+  private static final Pattern ID_PTN = Pattern.compile("(\\d{4}-\\d{6})\\b *(.*)");
+  private class MyIdField extends IdField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ID_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strCallId = match.group(1);
+      data.strSupp = match.group(2);
+    }
   }
 }
