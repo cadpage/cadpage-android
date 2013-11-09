@@ -144,6 +144,7 @@ public class ParserList {
               ,"CAMendocinoCounty"              ,"Mendocino County, CA"
               ,"CAMontereyCounty"               ,"Monterey County, CA"
               ,"CANapaCounty"                   ,"Napa County, CA"
+              ,"CANevadaCounty"                 ,"Nevada County, CA"
               ,"CAOroville"                     ,"Oroville, CA"
               ,"CAPlacerCounty"                 ,"Placer County, CA"
               ,"CARiversideCounty"              ,"Riverside County, CA"

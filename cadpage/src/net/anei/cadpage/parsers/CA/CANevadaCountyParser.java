@@ -6,6 +6,6 @@ package net.anei.cadpage.parsers.CA;
 public class CANevadaCountyParser extends CAPlacerCountyParser {
   
   public CANevadaCountyParser() {
-    super("PLACER COUNTY", "CA");
+    super("NEVADA COUNTY", "CA");
   }
 }
