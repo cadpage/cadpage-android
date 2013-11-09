@@ -12,8 +12,17 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class CAPlacerCountyParser extends FieldProgramParser {
   
   public CAPlacerCountyParser() {
-    super("PLACER COUNTY", "CA",
-           "UNIT CALL ADDR PLACE ID! INFO");
+    this("PLACER COUNTY", "CA");
+  }
+  
+  public CAPlacerCountyParser(String defCity, String defState) {
+    super(defCity, defState,
+          "UNIT CALL ADDR PLACE ID! INFO");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "CAPlacerCounty";
   }
   
   @Override
@@ -108,7 +117,7 @@ public class CAPlacerCountyParser extends FieldProgramParser {
     if (name.equals("UNIT")) return new UnitField("R/A +(.*)");
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("PLACE")) return new MyPlaceField();
-    if (name.equals("ID")) return new IdField("Inc# +(\\d+)", true);
+    if (name.equals("ID")) return new IdField("Inc# *(\\d*)", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
