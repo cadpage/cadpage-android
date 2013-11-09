@@ -207,6 +207,19 @@ Fraqre: <PNQ@jvypb.bet>
 (Zrffntr Sbejneqrq ol CntrTngr) SLV: ;TN YNETR BHGFVQR SVER;16799 FU 195/PE 227;SY;(F) (A)3U
 (Zrffntr Sbejneqrq ol CntrTngr) SLV: ;FVPX CREFBA FCRP QVNTABFVF;200 J GBZYVAFBA FG;SY;(F) (A)100X
 
+** ABGRF **
+Cerggl fvzcyr.  V jbhyq ABG purpx gur fhowrpg.  V abj vg jnf abg trarengrq ol gur Qvfcngpu fbsgjner naq
+qba'g gehfg vg qb nyjnlf or gurer.
+
+Lbh pbhyq qb guvf nf n SvryqCebtenzCnefre naq jevgr lbhe bja SLV/Hcqngr naq PNAPRY svryqf.  Be lbh pbhyq
+onfr guvf bs QvfcngpuBFFVCnefre juvpu nyernql qrsvarf gubfr svryq sbe lbh.  Vs lbh qb gung, lbh jvyy unir
+gb nqq n PNQ: gb gur fgneg bs gur grkg gb xrrc gur onfr cnefre unccl.
+
+Cebtenz fgevat
+( PNAPRY! | SLV! PNYY! ) NQQE PVGL CYNPR_HAVG! FEP
+jvyy qb sbe fgnegref.  Unir gb jevgr lbhe bja CYNPR_HAVG svryq gb cnefr
+bhg gung vasbezngvba.
+
 */
 
 choyvp pynff GKJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
