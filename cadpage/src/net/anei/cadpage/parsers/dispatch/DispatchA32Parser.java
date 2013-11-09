@@ -8,7 +8,7 @@ public class DispatchA32Parser extends FieldProgramParser {
   
   public DispatchA32Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-          "CALL ( PLACE ADDR/Z CITY! | ADDR/Z CITY! | PLACE ADDR! INFO | ADDR! INFO ) District:MAP? DATETIME! INFO+");
+          "CALL ( PLACE ADDR/Z CITY! | ADDR/Z CITY! | PLACE ADDR! INFO | ADDR! INFO ) District:MAP? INFO+? DATETIME! INFO+");
   }
   
   @Override

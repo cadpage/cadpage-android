@@ -102,9 +102,9 @@ choyvp pynff ZRNaqebfpbttvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:651 CVAXUNZ OEBBX EQ",
         "PVGL:QHEUNZ",
-        "QNGR:znyr",
-        "GVZR:nppvqragny bq",
-        "VASB:11/7/2013 21:34");
+        "VASB:znyr nppvqragny bq",
+        "QNGR:11/7/2013",
+        "GVZR:21:34");
   
   }
   
