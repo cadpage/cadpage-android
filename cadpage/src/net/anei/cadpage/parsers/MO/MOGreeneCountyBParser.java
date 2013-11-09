@@ -18,6 +18,16 @@ public class MOGreeneCountyBParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCall.length() == 0) {
+      data.strCall = data.strCode;
+      data.strCode = "";
+    }
+    return true;
+  }
+
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
