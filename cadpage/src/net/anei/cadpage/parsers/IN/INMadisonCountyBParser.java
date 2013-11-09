@@ -23,17 +23,14 @@ public class INMadisonCountyBParser extends FieldProgramParser {
   }
   
   @Override
-  public String adjustMapAddress(String address) {
-    return CORD_PTN.matcher(address).replaceAll("");
-  }
-  private static final Pattern CORD_PTN = Pattern.compile("\\bCORD\\b");
-  
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("CFS")) return false;
-    body = body.replace("Call Type:", " Call Type:");
-    body = body.replace('\n', ' ').trim();
-    return super.parseMsg(body, data);
+  public Field getField(String name) {
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM:dd:yyyy hh:mm:ss aa"));
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("MAP1")) return new MyMap1Field();
+    if (name.equals("MAP2")) return new MyMap2Field();
+    return super.getField(name);
   }
   
   private class MyAddressCityField extends AddressCityField {
@@ -62,6 +59,14 @@ public class INMadisonCountyBParser extends FieldProgramParser {
     }
   }
   
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("No Cross Streets Found")) return;
+      super.parse(field, data);
+    }
+  }
+  
   private class MyMap1Field extends MyMapField {
     @Override
     public void parse(String field, Data data) {
@@ -84,12 +89,16 @@ public class INMadisonCountyBParser extends FieldProgramParser {
   }
   
   @Override
-  public Field getField(String name) {
-    if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("DATETIME")) return new DateTimeField(new SimpleDateFormat("MM:dd:yyyy hh:mm:ss aa"));
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("MAP1")) return new MyMap1Field();
-    if (name.equals("MAP2")) return new MyMap2Field();
-    return super.getField(name);
+  public String adjustMapAddress(String address) {
+    return CORD_PTN.matcher(address).replaceAll("");
+  }
+  private static final Pattern CORD_PTN = Pattern.compile("\\bCORD\\b");
+  
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("CFS")) return false;
+    body = body.replace("Call Type:", " Call Type:");
+    body = body.replace('\n', ' ').trim();
+    return super.parseMsg(body, data);
   }
 }
