@@ -583,6 +583,7 @@ public class ManagePreferences {
       if (year > curYear) {
         prefs.putInt(R.string.pref_prev_year_key, curYear);
         prefs.putInt(R.string.pref_paid_year_key, year);
+        prefs.putString(R.string.pref_prev_purchase_date_key, purchaseDateString());
         DonationManager.instance().reset();
         MainDonateEvent.instance().refreshStatus();
       }
@@ -591,6 +592,8 @@ public class ManagePreferences {
         int prevYear = prefs.getInt(R.string.pref_prev_year_key, 0);
         prefs.putInt(R.string.pref_paid_year_key, prevYear);
         prefs.putInt(R.string.pref_prev_year_key, 0);
+        setPurchaseDateString(prefs.getString(R.string.pref_prev_purchase_date_key, ""));
+        prefs.putString(R.string.pref_prev_purchase_date_key, "");
         DonationManager.instance().reset();
         MainDonateEvent.instance().refreshStatus();
       }
@@ -1045,6 +1048,8 @@ public class ManagePreferences {
         R.string.pref_auth_last_date_key,
         R.string.pref_auth_run_days_key,
         R.string.pref_auth_last_check_time_key,
+        R.string.pref_prev_year_key,
+        R.string.pref_prev_purchase_date_key,
         
         R.string.pref_registration_id_key,
         R.string.pref_prev_registration_id_key,

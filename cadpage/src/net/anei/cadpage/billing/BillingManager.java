@@ -73,13 +73,26 @@ public class BillingManager {
   public void startPurchase(Activity activity) {
     if (mService == null) return;
     int curYear = ManagePreferences.paidYear();
-    String year;
-    String purchaseDate;
+    String year = null;
+    String purchaseDate = null;
+    String curDate = ManagePreferences.currentDateString();
+    
+    // If subscription has already purchased, use the previous
+    // purchase date.  Unless user subscription has expired, in 
+    // which case we will give them a break and ignore the 
+    // previous expired subscription
     if (curYear > 0) {
       year = Integer.toString(curYear + 1);
       purchaseDate = ManagePreferences.purchaseDateString();
-    } else {
-      purchaseDate = ManagePreferences.currentDateString();
+      String expDateYMD = year + purchaseDate.substring(0,4);
+      String curDateYMD = curDate.substring(4) + curDate.substring(0,4);
+      if (curDateYMD.compareTo(expDateYMD) > 0) purchaseDate = null;
+    } 
+    
+    // If there was no previous subscription, or we are ignoring it
+    // because it has expired, use current date to compute things
+    if (purchaseDate ==  null) {
+      purchaseDate = curDate;
       year = purchaseDate.substring(4);
     }
     

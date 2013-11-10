@@ -9,6 +9,7 @@
    <string name="pref_paid_year_key">paid_year</string>
    <string name="pref_prev_year_key">prev_paid_year</string>
    <string name="pref_purchase_date_key">purchase_date</string>
+   <string name="pref_prev_purchase_date_key">prev_purchase_date</string>
    <string name="pref_free_rider_key">free_rider</string>
    <string name="pref_free_sub_key">free_sub</string>
    <string name="pref_sponsor_key">sponsor</string>
