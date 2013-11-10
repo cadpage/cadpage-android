@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11032013</string>
-  <string name="release_version">v1.6.50</string>
+  <string name="release_date">11102013</string>
+  <string name="release_version">v1.6.51</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Greene County, MO\n
+Geneva County, AL\n
+St Louis County, MO (alt)\n
+Lorain County, OH (alt)\n
+Jefferson County, OR\n
 \n
 Location Parsing Fixes:\n
-San Bernadino County, CA\n
-Litchford County, CT\n
-St Joseph County, IN\n
-Lenawee County, MI\n
-St Louis County, MO\n
-Gloucester County, NJ\n
-Monroe County, NY\n
+El Paso County, CO\n
+Citrus County, FL\n
+Androscoggin County, ME\n
 Nassau County, NY\n
-Adams County, PA\n
-Franklin County, PA\n
-Lackawana County, PA\n
+Garfield County, OK\n
+Montgomery County, PA\n
 York County, PA\n
-La Porte, TX\n
-Jefferson County, WA\n
-King County, WA\n
+\n
+General Fixes:\n
+Attempted fix for occasional widget sizing problem.\n
+Fixed problem with user not always getting a full year
+when the purchase a subscription.\n
   </string>  
 </resources>
   
