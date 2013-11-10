@@ -4,6 +4,7 @@ import java.util.Calendar;
 
 import android.app.Activity;
 import android.content.Context;
+import net.anei.cadpage.Log;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.billing.BillingService.RequestPurchase;
 import net.anei.cadpage.billing.BillingService.RestoreTransactions;
@@ -114,10 +115,12 @@ public class BillingManager {
     public void onPurchaseStateChange(PurchaseState purchaseState,
                                        String itemId, long purchaseTime, 
                                        String payload) {
+      Log.v("PurchaseState:" + purchaseState + "  Item:" + itemId + "Payload:" + payload);
       if (itemId.startsWith("cadpage_")) {
         int year = Integer.parseInt(itemId.substring(8));
-        ManagePreferences.setPaidYear(year, purchaseState == PurchaseState.PURCHASED);
-        if (payload != null) ManagePreferences.setPurchaseDateString(payload);
+        boolean purchase = purchaseState == PurchaseState.PURCHASED;
+        ManagePreferences.setPaidYear(year, purchase);
+        if (purchase && payload != null) ManagePreferences.setPurchaseDateString(payload);
         ManagePreferences.setFreeSub(false);
         ManagePreferences.setSponsor(null);
       }
