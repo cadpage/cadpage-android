@@ -112,6 +112,7 @@ public class ParserList {
               ,"ALChiltonCounty"                ,"Chilton County, AL"
               ,"ALColbertCounty"                ,"Colbert County, AL"
               ,"ALDothan"                       ,"Dothan, AL"
+              ,"ALGenevaCounty"                 ,"Geneva County, AL"
               ,"ALHenryCounty"                  ,"Henry County, AL"
               ,"ALJeffersonCounty"              ,"Jefferson County, AL"
               ,"ALLauderdaleCounty"             ,"Lauderdale County, AL"
