@@ -8,7 +8,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 
 public class VAAlbemarleCountyParser extends FieldProgramParser {
-    
   
   public VAAlbemarleCountyParser() {
     super("ALBEMARLE COUNTY", "VA",
@@ -27,6 +26,17 @@ public class VAAlbemarleCountyParser extends FieldProgramParser {
     
     data.strUnit = body.substring(0,10).trim();
     body = body.substring(10).trim();
+    
+    // Check for fixed field version of page
+    if (body.startsWith("FAF") && body.length() > 27 && 
+        body.charAt(16) == ' ' && body.charAt(27) == ' ') {
+      setFieldList("ID CALL ADDR APT INFO");
+      data.strCallId =  body.substring(0,16).trim();
+      data.strCall = body.substring(17, 27).trim();
+      body = body.substring(28).trim();
+      parseAddress(StartType.START_ADDR, body, data);
+      
+    }
     return super.parseMsg(body, data);
   }
   
