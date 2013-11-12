@@ -932,7 +932,7 @@ public abstract class MsgParser {
   protected static String stripLeadingZero(String addressLine) {
     return LEAD_ZERO_PTN.matcher(addressLine).replaceFirst("");
   }
-  private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^[-0 ]+( |$)");
+  private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^[-0 ]+( |$)|^0+(?=[1-9])");
 
   /**
    * Set formated date/time field

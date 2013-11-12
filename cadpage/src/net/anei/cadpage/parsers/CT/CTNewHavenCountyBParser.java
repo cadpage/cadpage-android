@@ -17,7 +17,6 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?:Prem )?Map -");
   private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: *[A-Z]{2} *\\d{1,3})?\\b");
   private static final Pattern MAP_EXTRA_PTN = Pattern.compile("\\(Prem Map (.*?)\\)");
-  private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+(?=\\d)");
   
   private static final String FIELD_LIST = "ID CALL ADDR APT PLACE CITY MAP X UNIT DATE TIME";
   
@@ -164,11 +163,6 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     
     // Whatever is left becomes the city
     data.strUnit = sExtra.replaceAll("  +", " ");
-    
-    match = LEAD_ZERO_PTN.matcher(data.strAddress);
-    if (match.find()) {
-      data.strAddress = data.strAddress.substring(match.end()).trim();
-    }
     
     if (cityCodes != null) data.strCity = convertCodes(data.strCity, cityCodes);
     return true;

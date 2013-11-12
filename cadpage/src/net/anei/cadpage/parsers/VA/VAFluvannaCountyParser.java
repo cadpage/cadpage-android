@@ -15,7 +15,7 @@ public class VAFluvannaCountyParser extends DispatchDAPROParser {
   
   @Override
   public String getFilter() {
-    return "@c-msg.net";
+    return "@c-msg.net,MAILBOX@fluvannasheriff.com";
   }
   
   private static final CodeSet CALL_SET = new CodeSet(

@@ -1,8 +1,5 @@
 package net.anei.cadpage.parsers.VA;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchDAPROParser;
@@ -27,13 +24,8 @@ public class VANewKentCountyParser extends DispatchDAPROParser {
     if (data.strAddress.endsWith(" 0")) {
       data.strAddress = data.strAddress.substring(0,data.strAddress.length()-2).trim();
     }
-    
-    // Strip off leading zero house number
-    Matcher match = LEAD_ZEROS_PTN.matcher(data.strAddress);
-    if (match.find()) data.strAddress = data.strAddress.substring(match.end());
     return true;
   }
-  private static final Pattern LEAD_ZEROS_PTN = Pattern.compile("^0+ +");
   
   @Override
   protected int getExtraParseAddressFlags() {

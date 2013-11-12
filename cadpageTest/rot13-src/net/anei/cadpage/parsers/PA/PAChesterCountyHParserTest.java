@@ -1088,7 +1088,7 @@ choyvp pynff CNPurfgrePbhaglUCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "GVZR:11:33",
         "PNYY:NYYRETP/ZRQ ERNPGVBA - NYF",
-        "NQQE:01 CNEX EQ",
+        "NQQE:1 CNEX EQ",
         "PVGL:JRFG PNYA GJC",
         "CYNPR:UVOREAVN CNEX BSSVPR",
         "ANZR:FNAGVARYYB, AVP",

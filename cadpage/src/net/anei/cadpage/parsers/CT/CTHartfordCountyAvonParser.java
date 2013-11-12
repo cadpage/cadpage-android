@@ -14,7 +14,6 @@ public class CTHartfordCountyAvonParser extends SmartAddressParser {
   private static final Pattern SRC_PTN = Pattern.compile("^([A-Z]{4}) / ");
   private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:[A-Z]{0,3} ?\\d+))+$");
   private static final Pattern CROSS_DELIM_PTN = Pattern.compile(" Cross: | NA\\b");
-  private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+(?=\\d)");
   
   public CTHartfordCountyAvonParser() {
     super("AVON", "CT");
@@ -55,9 +54,6 @@ public class CTHartfordCountyAvonParser extends SmartAddressParser {
     parseAddress(StartType.START_CALL, flags, body, data);
     if (data.strAddress.length() == 0) return false;
     if (flags == FLAG_CROSS_FOLLOWS) data.strCross = getLeft();
-    
-    match = LEAD_ZERO_PTN.matcher(data.strAddress);
-    if (match.find()) data.strAddress = data.strAddress.substring(match.end());
     
     return true;
   }

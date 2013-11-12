@@ -225,7 +225,7 @@ choyvp pynff GKUhzoyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Puvrs NYG) [RZF] - Purfg Cnva - Pynzzl - 0218 Cbjrefpbheg - Znc: 337H- - Havgf: R-Z39 R-R39 R-Q59 - 201141272",
         "FEP:RZF",
         "PNYY:Purfg Cnva - Pynzzl",
-        "NQQE:0218 Cbjrefpbheg",
+        "NQQE:218 Cbjrefpbheg",
         "ZNC:337H-",
         "HAVG:R-Z39 R-R39 R-Q59",
         "VQ:201141272");

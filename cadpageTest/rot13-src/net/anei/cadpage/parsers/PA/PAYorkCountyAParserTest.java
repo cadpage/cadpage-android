@@ -549,7 +549,7 @@ choyvp pynff CNLbexPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Fgngvba 68) SNVEIVRJ GJC    02 SBKSVER YA BYQ SBETR EQ / JURNGYNAQ EQ SVER FGEHPG ERFVQ sver ba onpx cbepu 68-04 SVERFGN68 R68-2 PPR24 R69-1 G68 PPG24",
         "FEP:SVERFGN68",
         "PVGL:SNVEIVRJ GJC",
-        "NQQE:02 SBKSVER YA",
+        "NQQE:2 SBKSVER YA",
         "K:BYQ SBETR EQ / JURNGYNAQ EQ",
         "PNYY:SVER FGEHPG ERFVQ sver ba onpx cbepu",
         "ZNC:68-04",
