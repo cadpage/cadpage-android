@@ -353,6 +353,7 @@ public class DispatchBParser extends FieldProgramParser {
         "FALL - ANY",
         "FALL-NOT DANGEROUS BODY AREA",
         "FALLS",
+        "FALLS (GRND/FLOOR) UNK STATUS",
         "FALLS BRAVO",
         "FALLS DELTA",
         "FALLS/ACCIDENTS BLS",
