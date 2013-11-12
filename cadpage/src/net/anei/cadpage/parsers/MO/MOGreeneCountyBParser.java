@@ -13,6 +13,11 @@ public class MOGreeneCountyBParser extends FieldProgramParser {
   }
   
   @Override
+  public String getFilter() {
+    return "grn_alret@springfieldmo.gov";
+  }
+  
+  @Override
   public Field getField(String name) {
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);

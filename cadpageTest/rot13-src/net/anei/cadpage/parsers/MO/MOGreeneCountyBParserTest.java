@@ -33,18 +33,6 @@ TEA_Nyreg@fcevatsvryqzb.tbi:YBP:3211 J FHAFRG FG NQ: QRFP: NCG: PEFGE: GLC:*Z*UB
 TEA_Nyreg@fcevatsvryqzb.tbi:YBP:4897 A SE61 NQ:OBVF Q NEP PBAF NERN QRFP: NCG: PEFGE:10900 J SE84 / 10900 J SE94 GLC:*Z*NZOHNYN PZG: VAP:00000001 GVZR:Zbaqnl, Bpgbore 28, 2013 2:47:
 TEA_Nyreg@fcevatsvryqzb.tbi:YBP:2210 J ERCHOYVP FG NQ:EVQTRPERFG ONCGVFG QRFP:URER VF N QRFPEVCGVBA NCG: PEFGE:4100 F YVCFPBZO NIR / 4200 F PBK NIR GLC:*Z*OHVYQVA PZG:URER NER PBZZRAGF VAP:00000001 GVZR:Jrqarfqnl, Bpgbore 23, 2013 11
 
-** ABGRF **
-Ubg erdhrfg.  Unf gb or vafgnyyrq ol 11/4. 
-
-Bgurejvfr ybbxf cerggl onfvp
-Gur yrnqvat rznvy nqqerff naq pbyba fubhyq or fgevccrq bss orsber vg trgf gb gur cnefre
-YBP:NQQE! NQ:CYNPR! QRFP:PNYY! NCG:NCG! PEFGE:K! GLCR:PBQR PZG:VASB! GVZR:FXVC!
-
-Gurl ner whfg frggvat guvf hc naq guvatf znl punatr.  V'yy nfx nobhg n pnyy qrfpevcgvba naq cbffvoyr 
-pnyy pbqr ybbxhc.
-
-Sbe abj, GVZR: vf vapbzcyrgr naq hfryrff, ohg gung nyfb znl punatr.
-
  */
 
 choyvp pynff ZBTerrarPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
