@@ -1,27 +1,26 @@
 package net.anei.cadpage.parsers.TX;
 
-import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.Message;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
 
 /**
  * Cy Creek Comm Center
  */
-public class TXCyCreekCommCenterParser extends SmartAddressParser {
+public class TXCyCreekCommCenterParser extends FieldProgramParser {
   
   private static final Pattern PART_MARKER = Pattern.compile("^\\d\\d:\\d\\d ");
   private static final Pattern DATE_PTN = Pattern.compile("(\\d+)/(\\d+)");
   private static final Pattern MARKER = Pattern.compile("^(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?");
+  private static final Pattern MISSED_COLON_PTN = Pattern.compile("(?<=Map)(?=\\d)");
   private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");
-  private static final Pattern VAL_PTN = Pattern.compile("\\bVAL\\b", Pattern.CASE_INSENSITIVE);
   
   public TXCyCreekCommCenterParser() {
-    super("HARRIS COUNTY", "TX");
-    setFieldList("SRC DATE TIME PHONE ADDR APT CITY MAP PLACE CALL UNIT X ID");
+    super("HARRIS COUNTY", "TX",
+          "ADDR! Map:MAP! Sub:PLACE? Juris:SRC? Nat:CALL! Units:UNIT! X-St:X");
   }
   
   @Override
@@ -38,7 +37,7 @@ public class TXCyCreekCommCenterParser extends SmartAddressParser {
   protected Data parseMsg(Message msg, int parseFlags) {
     
     // Sometimes the date is include in parenthesis, where it will be
-    // missinterpreted as a subject or message index :(
+    // misinterpreted as a subject or message index :(
     String body = msg.getMessageBody();
     if  (PART_MARKER.matcher(body).find()) {
       int month = -1;
@@ -89,44 +88,65 @@ public class TXCyCreekCommCenterParser extends SmartAddressParser {
     
     if (body.startsWith("Repage:")) body = body.substring(7).trim();
     
-    body = "Loc:" + body;
-    
-    Properties props = parseMessage(body, new String[]{"Loc", "Map", "Sub", "Nat", "Units", "X-St"});
-    String sAddr = props.getProperty("Loc", "");
-    Parser p = new Parser(sAddr);
-    sAddr = p.get(',');
-    sAddr = VAL_PTN.matcher(sAddr).replaceAll("VALLEY");
-    parseAddressCity(sAddr, data);
-    int pt = data.strCity.indexOf(' ');
-    if (pt >= 0) {
-      data.strPlace = data.strCity.substring(pt+1).trim();
-      data.strCity = data.strCity.substring(0,pt);
-    }
-    if (data.strCity.equals("HC")) data.strCity = "";
-    if (data.strCity.equals("MC")) data.strCity = "MONTGOMERY COUNTY";
-    if (data.strCity.equals("H") || data.strCity.equals("HO")) data.strCity = "HOUSTON";
-    data.strPlace = append(data.strPlace, " - ", p.get(';'));
-    data.strApt = p.get();
-    
-    data.strMap = props.getProperty("Map", "");
-    String sPlace = props.getProperty("Sub", "");
-    if (sPlace.length() > 0) data.strPlace = append(data.strPlace, " - ", sPlace);
-    data.strCall = props.getProperty("Nat", "");
-    data.strUnit = props.getProperty("Units", "");
-    String cross = props.getProperty("X-St", "");
-    if (cross.contains("/") || cross.contains("&")) {
-      data.strCross = cross;
-    } else {
-      Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ONLY_CROSS | FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT, cross);
-      if (res.getStatus() > 0) {
-        res.getData(data);
-      } else {
-        parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_CROSS_FOLLOWS, cross, data);
-        data.strCross = append(data.strCross, " / ", getLeft());
-      }
-    }
+    body = MISSED_COLON_PTN.matcher(body).replaceAll(":");
+    if (!super.parseMsg(body, data)) return false;
     
     if (data.strCity.length() == 0 && data.strCall.contains("MA-MUTUAL AID")) data.strCity = "HOUSTON";
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "DATE TIME " + super.getProgram() + " ID";
+  }
+    
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
+  }
+
+  private static final Pattern VAL_PTN = Pattern.compile("\\bVAL\\b", Pattern.CASE_INSENSITIVE);
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      field = p.get(',');
+      field = VAL_PTN.matcher(field).replaceAll("VALLEY");
+      parseAddressCity(field, data);
+      int pt = data.strCity.indexOf(' ');
+      if (pt >= 0) {
+        data.strPlace = data.strCity.substring(pt+1).trim();
+        data.strCity = data.strCity.substring(0,pt);
+      }
+      if (data.strCity.equals("HC")) data.strCity = "";
+      if (data.strCity.equals("MC")) data.strCity = "MONTGOMERY COUNTY";
+      if (data.strCity.equals("H") || data.strCity.equals("HO")) data.strCity = "HOUSTON";
+      data.strPlace = append(data.strPlace, " - ", p.get(';'));
+      data.strApt = p.get();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR CITY PLACE APT";
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.contains("/") || field.contains("&")) {
+        data.strCross = field;
+      } else {
+        Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ONLY_CROSS | FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT, field);
+        if (res.getStatus() > 0) {
+          res.getData(data);
+        } else {
+          parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_CROSS_FOLLOWS, field, data);
+          data.strCross = append(data.strCross, " / ", getLeft());
+        }
+      }
+    }
   }
 }
