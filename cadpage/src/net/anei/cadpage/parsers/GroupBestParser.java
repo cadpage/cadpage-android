@@ -110,17 +110,30 @@ public class GroupBestParser extends GroupBaseParser {
     Data bestData = null;
     
     for (MsgParser parser : parsers) {
-      Data tmp = parser.parseMsg(msg, parserFlags);
-      if (tmp != null) {
-        // Score the result.
-        // We want to seriously ding any result produced by any of the "General" parsers
-        // including General Alert.  GENERAL ALERT type messages produced by location
-        // parsers do not suffer this penalty
-        int newScore = tmp.score();
-        if (!parser.getParserCode().startsWith("General")) newScore += 100000;
-        if (newScore > bestScore) {
-          bestData = tmp;
-          bestScore = newScore;
+      
+      // If we encounter a GroupBlockParser in the list, see if 
+      // we have found anything so far, excepting anything with
+      // a general alert or run report status.  If we have, return it
+      if (parser instanceof GroupBlockParser) {
+        if (bestData != null && 
+            !bestData.strCall.equals("GENERAL ALERT") && 
+            !bestData.strCall.equals("RUN REPORT")) return bestData;
+      }
+      
+      // Otherwise invoke this parser and see what kind of result it returns.
+      else {
+        Data tmp = parser.parseMsg(msg, parserFlags);
+        if (tmp != null) {
+          // Score the result.
+          // We want to seriously ding any result produced by any of the "General" parsers
+          // including General Alert.  GENERAL ALERT type messages produced by location
+          // parsers do not suffer this penalty
+          int newScore = tmp.score();
+          if (!parser.getParserCode().startsWith("General")) newScore += 100000;
+          if (newScore > bestScore) {
+            bestData = tmp;
+            bestScore = newScore;
+          }
         }
       }
     }
