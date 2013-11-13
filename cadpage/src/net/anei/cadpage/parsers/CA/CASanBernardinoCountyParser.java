@@ -32,7 +32,14 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (body.startsWith("|")) body = body.substring(1).trim();
-    if (parseFields(body.split(">"), data)) return true;
+    if (parseFields(body.split(">"), data)) {
+      int pt = data.strCity.indexOf('/');
+      if (pt >= 0) {
+        data.strPlace = append(data.strPlace, " - ", data.strCity.substring(0,pt));
+        data.strCity = data.strCity.substring(pt+1);
+      }
+      return true;
+    }
     
     // No go for regular dispatch page
     // If positive confirmation, this might be a general alert 
@@ -187,15 +194,15 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       "BBC", "BIG BEAR",
       "BBL", "BIG BEAR LAKE",
       "BBLC", "BIG BEAR LAKE",
-      "BCR", "BEAR CREEK",
+      "BCR", "BEAR CREEK/BIG BEAR",
       "BDM", "BALDY MESA",
       "BFL", "BARTON FLATS",
       "BGR", "BIG RIVER",
-      "BLD", "BALDY   ",
+      "BLD", "MT BALDY",
       "BLK", "BLACK MEADOW LANDING",
       "BLO", "BLOOMINGTON",
       "BLU", "BLUE JAY",
-      "CAJ", "CAJON",
+      "CAJ", "CAJON PASS",
       "CDZ", "CADIZ",
       "CED", "CEDAR GLEN",
       "CHHC", "CHINO HILLS",
@@ -220,7 +227,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       "FFL", "FOREST FALLS",
       "FON", "FONTANA",
       "FONC", "FONTANA",
-      "FRE", "FREDALBA",
+      "FRE", "FREDALBA/RUNNING SPRINGS",
       "FTI", "FORT IRWIN",
       "GRTC", "GRAND TERRACE",
       "GVL", "GREEN VALLEY LAKE",
@@ -233,7 +240,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       "HNK", "HINKLEY",
       "HOL", "HOLCOMB VALLEY",
       "HRV", "HARVARD",
-      "IRN", "IRON MOUNTAIN",
+      "IRN", "IRON MOUNTAIN/RICE",
       "IVP", "IVANPAH",
       "JNV", "JOHNSON VALLEY",
       "JOT", "JOSHUA TREE",
@@ -249,13 +256,13 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       "LUD", "LUDLOW",
       "LYC", "LYTLE CREEK",
       "MEN", "MENTONE",
-      "MOR", "MORONGO",
+      "MOR", "MORONGO/YUCCA VALLEY",
       "MTCC", "MONTCLAIR",
       "MTCC", "MONTCLAIR",
       "MTH", "MOUNTAIN HOME VILLAGE",
       "MTP", "MOUNTAIN PASS",
       "MUS", "MUSCOY",
-      "NBD", "NEBO",
+      "NBD", "NEWBERRY SPRINGS",
       "NED", "NEEDLES",
       "NEDC", "NEEDLES",
       "OKG", "OAK GLEN",
@@ -263,7 +270,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       "ORO", "ORO GRANDE",
       "PHL", "PHELAN",
       "PIN", "PINON HILLS",
-      "PIO", "PIONEER TOWN",
+      "PIO", "PIONEERTOWN",
       "PKD", "PARKER DAM",
       "RCC", "RANCHO CUCAMONGA",
       "RCCC", "RANCHO CUCAMONGA",
@@ -280,12 +287,12 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       "SAH", "SAN ANTONIO HEIGHTS",
       "SBO", "SAN BERNARDINO",
       "SBOC", "SAN BERNARDINO",
-      "SIL", "SILVERWOOD",
+      "SIL", "SILVERWOOD/HESPERIA",
       "SKY", "SKY FOREST",
       "SUG", "SUGARLOAF",
       "SVL", "SPRING VALLEY LAKE/VICTORVILLE",
       "SVY", "SEARLES VALLEY/TRONA",
-      "TMD", "MARINE CORP AIR GROUND COMBAT CENTER",
+      "TMD", "MARINE CORP AIR GROUND COMBAT CENTER/29 PALMS",
       "TNP", "29 PALMS",
       "TNPC", "29 PALMS",
       "TPK", "TWIN PEAKS",
@@ -296,8 +303,9 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       "VOE", "VALLEY OF ENCHANTMENT",
       "VVC", "VICTORVILLE ",
       "VVCC", "VICTORVILLE",
-      "WON", "WONDER VALLEY",
+      "WON", "WONDER VALLEY/29 PALMS",
       "WWD", "WRIGHTWOOD",
+      "VOE", "VALLEY OF ENCHANTMENT/CRESTLINE",
       "YER", "YERMO",
       "YUC", "YUCAIPA",
       "YUCC", "YUCAIPA",
