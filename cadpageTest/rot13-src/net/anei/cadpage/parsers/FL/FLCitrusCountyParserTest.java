@@ -38,6 +38,7 @@ Fhowrpg:Zrffntr sebz UvcYvax\aHavg:R001 Fgnghf:Qvfcngpurq 25Z - ZVFP SVER 20O 25
 Fhowrpg:Zrffntr sebz UvcYvax\aHavg:R001 Fgnghf:Qvfcngpurq 25I - IRUVPYR SVER 21N 7160 J  TNGBE YA A QNFURE CG / A BNXYNAQ GRE Pelfgny E  
 Fhowrpg:Zrffntr sebz UvcYvax\aHavg:R001 Fgnghf:Qvfcngpurq 132P01 - Unmneq Uvtu-Genssvp(UE) 20Q 937 FJ XVATF ONL QE FR 10GU FG / FJ 1FG   
 Fhowrpg:Zrffntr sebz UvcYvax\aHavg:R001 Fgnghf:Qvfcngpurq 25F - FGEHPGHER SVER 21S 5399 J  THYS GB YNXR UJL A INA ABEGJVPX EQ / A PBZZR  
+Fhowrpg:Zrffntr sebz UvcYvax\aHavg:R001 Fgnghf:Qvfcngpurq Z9R - PNEQVNP/ERFC/QRNGU (RPUB) 20P 1 FJ 1FG CY QRNQ RAQ / FJ 3EQ FG Pelfgny
 
  */
 
@@ -336,6 +337,18 @@ choyvp pynff SYPvgehfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5399 J THYS GB YNXR UJL",
         "ZNQQE:5399 J THYS-GB-YNXR UJL",
         "VASB:A INA ABEGJVPX EQ / A PBZZR");
+
+    qbGrfg("G22",
+        "Fhowrpg:Zrffntr sebz UvcYvax\a" +
+        "Havg:R001 Fgnghf:Qvfcngpurq Z9R - PNEQVNP/ERFC/QRNGU (RPUB) 20P 1 FJ 1FG CY QRNQ RAQ / FJ 3EQ FG Pelfgny",
+
+        "HAVG:R001",
+        "PBQR:Z9R",
+        "PNYY:PNEQVNP/ERFC/QRNGU (RPUB)",
+        "ZNC:20P",
+        "NQQE:1 FJ 1FG CY",
+        "K:QRNQ RAQ / FJ 3EQ FG",
+        "PVGL:Pelfgny Evire");
 
   }
   
