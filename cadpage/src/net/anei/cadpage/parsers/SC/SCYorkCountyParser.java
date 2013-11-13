@@ -12,6 +12,20 @@ public class SCYorkCountyParser extends FieldProgramParser {
           "UNIT P:PRI! LOC:ADDR! X:X! NAR:INFO INC#:ID");
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    if (super.parseMsg(body, data)) return true;
+    
+    // If positively identified as dispatch message, return general alert status
+    // so they don't have to deal with that long confidentiality notice
+    if (isPositiveId()) {
+      return data.parseGeneralAlert(this, body);
+    }
+    return false;
+  }
+  
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
