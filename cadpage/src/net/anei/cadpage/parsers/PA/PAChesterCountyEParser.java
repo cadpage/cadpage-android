@@ -23,8 +23,6 @@ public class PAChesterCountyEParser extends PAChesterCountyBaseParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (isVariantGMsg(body)) return false;
-    
     if (!subject.equals("Dispatch")) return false;
 
     // Split and parse by asterisk delimiters

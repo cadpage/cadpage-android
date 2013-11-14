@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.PA;
 import java.util.Properties;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchA7BaseParser;
+import net.anei.cadpage.parsers.dispatch.DispatchA7Parser;
 
 /*
 Bucks County, PA
@@ -12,7 +12,11 @@ Base parser with methods needed by all Bucks COunty Parsers
  */
 
 
-public class PABucksCountyBaseParser extends DispatchA7BaseParser {
+public class PABucksCountyBaseParser extends DispatchA7Parser {
+  
+  public PABucksCountyBaseParser() {
+    this(null);
+  }
   
   public PABucksCountyBaseParser(String program) {
     super(INIT_TOWN_CODE, TOWN_CODES, CITY_CODES, "BUCKS COUNTY", "PA", program);

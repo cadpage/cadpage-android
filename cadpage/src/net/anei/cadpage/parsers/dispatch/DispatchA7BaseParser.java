@@ -22,14 +22,14 @@ public class DispatchA7BaseParser extends FieldProgramParser {
   private Properties cityCodes = null;
   
   public DispatchA7BaseParser(int initCityIndex, String[] cityIndex, 
-                                  String defCity, String defState, String program) {
+                              String defCity, String defState, String program) {
     super(defCity, defState, program);
     this.initCityIndex = initCityIndex;
     this.cityIndex = cityIndex;
   }
   
   public DispatchA7BaseParser(int initCityIndex, String[] cityIndex, String[] cityList, 
-                                  String defCity, String defState, String program) {
+                              String defCity, String defState, String program) {
     super(cityList, defCity, defState, program);
     this.initCityIndex = initCityIndex;
     this.cityIndex = cityIndex;
@@ -46,6 +46,10 @@ public class DispatchA7BaseParser extends FieldProgramParser {
   public DispatchA7BaseParser(Properties cityCodes, String defCity, String defState, String program) {
     super(cityCodes, defCity, defState, program);
     this.cityCodes = cityCodes;
+  }
+  
+  public DispatchA7BaseParser(String defCity, String defState, String program) {
+    super(defCity, defState, program);
   }
   
   /**

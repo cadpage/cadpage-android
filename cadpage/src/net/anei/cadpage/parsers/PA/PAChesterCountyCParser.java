@@ -17,8 +17,6 @@ public class PAChesterCountyCParser extends PAChesterCountyBaseParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
-    if (isVariantGMsg(body)) return false;
 
     String fields[] = STAR_DELIM.split(body);
     if (fields.length < 4) return false;

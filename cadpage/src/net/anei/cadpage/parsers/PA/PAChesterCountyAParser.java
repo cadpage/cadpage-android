@@ -24,8 +24,6 @@ public class PAChesterCountyAParser extends PAChesterCountyBaseParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (isVariantGMsg(body)) return false;
-    
     data.strSource = subject;
     
     // Fix up IAmResponding modifications :(

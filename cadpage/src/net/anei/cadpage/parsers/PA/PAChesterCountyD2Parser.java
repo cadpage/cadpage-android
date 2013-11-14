@@ -19,8 +19,6 @@ public class PAChesterCountyD2Parser extends PAChesterCountyBaseParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (isVariantGMsg(body)) return false;
-    
     // Address is passed in subject
     if (!subject.contains(",")) return false;
     parseChesterAddress(subject, data);

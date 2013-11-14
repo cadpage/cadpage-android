@@ -4,8 +4,9 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA7BaseParser;
+import net.anei.cadpage.parsers.dispatch.DispatchA7Parser;
 
-public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
+public class PAChesterCountyBaseParser extends DispatchA7Parser {
   
   public PAChesterCountyBaseParser(String programStr) {
     super(0, CITY_LIST, CITY_CODES, "CHESTER COUNTY", "PA", programStr);
@@ -236,17 +237,6 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     return convertCodes(city, CITY_CODES);
   }
   
-  /**
-   * Check if this is variant G message.  These are long complicated, and often
-   * pass for another variant, so we check here to eliminate them early
-   * @param body message body
-   * @return true if this is a variant G message
-   */
-  public boolean isVariantGMsg(String body) {
-    return VARIANT_G_MARKER.matcher(body).find();
-  }
-  private static final Pattern VARIANT_G_MARKER = Pattern.compile("^(?:\\([A-Z]\\) *)?Inc History");
-  
   private static final String[] CITY_LIST = new String[]{
     /* 00 */ "",
     /* 01 */ "WEST CHESTER",
@@ -270,16 +260,16 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     /* 19 */ "",
     /* 20 */ "POTTSTOWN",
     /* 21 */ "EAST VINCENT TWP",
-    /* 22 */ "",
+    /* 22 */ "HONEY BROOK TWP",
     /* 23 */ "",
-    /* 24 */ "",
+    /* 24 */ "WEST NANTMEAL TWP",
     /* 25 */ "WEST VINCENT TWP",
     /* 26 */ "EAST PIKELAND TWP",
     /* 27 */ "SCHUYLKILL TWP",
     /* 28 */ "WEST CALN TWP",
     /* 29 */ "WEST BRANDYWINE TWP",
     /* 30 */ "EAST BRANDYWINE TWP",   // or BRANDYWINE REGIONAL POLICE??
-    /* 31 */ "",
+    /* 31 */ "WALLACE TWP",
     /* 32 */ "UPPER UWCHLAN TWP",
     /* 33 */ "UWCHLAN TWP",
     /* 34 */ "WEST PIKELAND TWP",
@@ -288,7 +278,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
     /* 37 */ "SADSBURY TWP",
     /* 38 */ "VALLEY TWP",
     /* 39 */ "CALN TWP",
-    /* 40 */ "",
+    /* 40 */ "EAST CALN TWP",
     /* 41 */ "WEST WHITELAND TWP",
     /* 42 */ "EAST WHITELAND TWP",
     /* 43 */ "TREDYFFRIN TWP",
@@ -345,7 +335,9 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
       "CALN",   "CALN TWP",
       "CHARLS", "CHARLESTOWN TWP",
       "COATVL", "COATESVILLE",
+      "EASTWN", "EASTTOWN TWP",
       "EBRAND", "EAST BRANDYWINE TWP",
+      "ECALN",  "EAST CALN TWP",
       "EFALLO", "EAST FALLOWFIELD TWP",
       "EGOSHN", "EAST GOSHEN TWP",
       "EMARLB", "EAST MARLBOROUGH TWP",
@@ -353,6 +345,7 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
       "EPIKEL", "EAST PIKELAND TWP",
       "EWHITE", "EAST WHITELAND TWP",
       "FRNKLN", "FRANKLIN TWP",
+      "HBTWP",  "HONEY BROOK TWP",
       "HGHLND", "HIGHLAND TWP",
       "KNTSQR", "KENNETT SQUARE",
       "KNTTWP", "KENNETT TWP",
@@ -370,17 +363,24 @@ public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
       "POCOPS", "POCOPSON TWP",
       "PNSBRY", "PENNSBURY TWP",
       "PRKSBG", "PARKESBURG",
-      "SADS", "SADSBURY TWP",
+      "SADS",   "SADSBURY TWP",
+      "SCHYKL", "SCHUYLKILL TWP",
       "SCOATV", "SOUTH COATESVILLE",
+      "SPRCTY", "SPRING CITY",
       "TREDYF", "TREDYFFRIN TWP",
+      "UPUWCH", "UPPER UWCHLAN TWP",
       "UWCHLN", "UWCHLAN TWP",
       "VALLEY", "VALLEY TWP",
+      "WALLAC", "WALLACE TWP",
+      "WVINCT", "WEST VINCENT TWP",
       "WBRAND", "WEST BRANDYWINE TWP",
-      "WCALN", "WEST CALN TWP",
+      "WCALN",  "WEST CALN TWP",
+      "WCHEST", "WEST CHESTER", 
       "WESTWN", "WESTTOWN TWP",
       "WFALLO", "WEST FALLOWFIELD TWP",
       "WGOSHN", "WEST GOSHEN TWP",
       "WGROVE", "WEST GROVE",
+      "WNANT",  "WEST NANTMEAL TWP",
       "WWHITE", "WEST WHITELAND TWP",
       "WILLIS", "WILLISTOWN TWP",
       "WMARLB", "WEST MARLBOROUGH TWP",

@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.PA;
 import net.anei.cadpage.parsers.GroupBestParser;
+import net.anei.cadpage.parsers.GroupBlockParser;
 
 /* 
  * Chester Country, PA
@@ -9,7 +10,10 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class PAChesterCountyParser extends GroupBestParser {
   
   public PAChesterCountyParser() {
-    super(new PAChesterCountyAParser(), 
+    super(new PAChesterCountyGParser(),  // PAChesterCountyG is the gold standard
+          new GroupBlockParser(),        // If it works, don't bother with anything else  
+          
+          new PAChesterCountyAParser(), 
           new PAChesterCountyBParser(), 
           new PAChesterCountyCParser(), 
           new PAChesterCountyD1Parser(),
@@ -19,7 +23,6 @@ public class PAChesterCountyParser extends GroupBestParser {
           new PAChesterCountyD5Parser(), 
           new PAChesterCountyEParser(),
           new PAChesterCountyFParser(),
-          new PAChesterCountyGParser(),
           new PAChesterCountyHParser(),
           new PAChesterCountyIParser(),
           new PAChesterCountyJParser());

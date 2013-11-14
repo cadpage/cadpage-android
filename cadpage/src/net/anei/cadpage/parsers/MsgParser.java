@@ -1255,6 +1255,30 @@ public abstract class MsgParser {
    }
    
    /**
+    * @return true if parser contains no more information
+    */
+   public boolean isEmpty() {
+     return spt == ept;
+   }
+   
+   /**
+    * Retrieve the next complete line from the parser buffer
+    * @return null if buffer is empty, otherwise returns next line
+    */
+   public String getLine() {
+     if (isEmpty()) return null;
+     return get('\n');
+   }
+   
+   public String getUntrimmedLine() {
+     if (isEmpty()) return null;
+     Matcher match = getMatcher(NEXT_LINE_PTN);
+     if (match == null) return null;
+     return match.group(1);
+   }
+   private static final Pattern NEXT_LINE_PTN = Pattern.compile("(.*?)(?:\n|$)");
+   
+   /**
     * @param delim delimiter
     * @return everything up to next occurrence of delimiter
     */

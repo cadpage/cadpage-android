@@ -19,8 +19,6 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (isVariantGMsg(body)) return false;
 
     // subject is truncated version of address that we don't care about
     // but it has to be non-empty
