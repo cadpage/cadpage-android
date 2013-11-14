@@ -137,6 +137,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
       "AF",   "Fire-Admin Activity",
       "ANML", "Animal Rescue",
+      "BACK", "Back Pains",
       "BARN", "Barn Fire",
       "BRU",  "Brush Fire",
       "CHIM", "Chimney Fire",
@@ -149,8 +150,10 @@ public class PAMercerCountyParser extends FieldProgramParser {
       "FALM", "Fire alarm",
       "GARC", "Comercial Garage Fire",
       "GARF", "Garbage Fire",
+      "GAS",  "Inside Gas Leak",
       "HAZ",  "Hazmat",
       "HF",   "House fire",
+      "KITF", "Kitchen Fire",
       "MHF",  "Mobile Home Fire",
       "MUT",  "Mutual Aid",
       "MVA",  "Motor Vehicle Crash w. no injuries",
