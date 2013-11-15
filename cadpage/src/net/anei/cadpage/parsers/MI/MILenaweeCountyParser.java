@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MILenaweeCountyParser extends FieldProgramParser {
 
-  private static final Pattern MASTER_PTN1 = Pattern.compile("([-A-Z0-9 ]+)  (\\d\\d:\\d\\d) +(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern MASTER_PTN1 = Pattern.compile("([-/A-Z0-9 ]+) (\\d\\d:\\d\\d) +(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern CROSS_DELIM_PTN = Pattern.compile(" *[,/ ] |$ *");
   private static final Pattern MBLANK_PTN = Pattern.compile("  +");
   
