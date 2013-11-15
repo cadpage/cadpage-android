@@ -37,6 +37,14 @@ Pbagnpg: Xra Curycf <xra.curycf@wbpbsq1.bet>
 Fraqre: rpp4@wbpbtbi.bet
 1 bs 2\aSEZ:rpp4@wbpbtbi.bet\aZFT:Nqq: 400 F Zbbayvtug Eq         Ncg: 15U        Ybp: Zbbayvtug Evqtr             Angher: Orunivbeny P2\a(Pba'g) 2 bs 2\aTevq: 363/1 Vapvqrag# 13-1860028 Pebff:R CHZCXVA EVQTR FG/R PBGGNTR P(Raq)
 
+Pbagnpg: "Juryna, Znex, RZP" <ZJuryna@wbpbtbi.bet>
+
+Fraqre: rpp4@wbpbtbi.bet
+Nqq: 13750 F Oynpx Obo Eq       Ncg:            Ybp: Ybjr'f   13750  Angher: Nhgb Nynez - Jngre Sybj        Tevq: 251/1 Vapvqrag# 13-3190065 Pebff:F NYQRA FG/J 138
+
+Fraqre: 2183500185
+WBPB RZP Nqq: 13750 F Oynpx Obo Eq       Ncg:            Ybp: Ybjr'f   13750  Angher: Nhgb Nynez - Jngre Sybj        Tevq: 251/1 Vapvqrag# 13-3190065 Pebff:F NYQRA FG/J 138GU FG
+
 */
 
 choyvp pynff XFWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -145,6 +153,30 @@ choyvp pynff XFWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:363/1",
         "VQ:13-1860028",
         "K:R CHZCXVA EVQTR FG/R PBGGNTR P");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZnexJuryna() {
+
+    qbGrfg("G1",
+        "Nqq: 13750 F Oynpx Obo Eq       Ncg:            Ybp: Ybjr'f   13750  Angher: Nhgb Nynez - Jngre Sybj        Tevq: 251/1 Vapvqrag# 13-3190065 Pebff:F NYQRA FG/J 138",
+        "NQQE:13750 F Oynpx Obo Eq",
+        "CYNPR:Ybjr'f   13750",
+        "PNYY:Nhgb Nynez - Jngre Sybj",
+        "ZNC:251/1",
+        "VQ:13-3190065",
+        "K:F NYQRA FG/J 138");
+
+    qbGrfg("G1",
+        "WBPB RZP Nqq: 13750 F Oynpx Obo Eq       Ncg:            Ybp: Ybjr'f   13750  Angher: Nhgb Nynez - Jngre Sybj        Tevq: 251/1 Vapvqrag# 13-3190065 Pebff:F NYQRA FG/J 138GU FG",
+        "FEP:WBPB RZP",
+        "NQQE:13750 F Oynpx Obo Eq",
+        "CYNPR:Ybjr'f   13750",
+        "PNYY:Nhgb Nynez - Jngre Sybj",
+        "ZNC:251/1",
+        "VQ:13-3190065",
+        "K:F NYQRA FG/J 138GU FG");
 
   }
   

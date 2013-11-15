@@ -9,12 +9,12 @@ public class KSJohnsonCountyParser extends FieldProgramParser {
 
   public KSJohnsonCountyParser() {
     super("JOHNSON COUNTY", "KS",
-           "Add:ADDR! Apt:APT Loc:PLACE Nature:CALL! Grid:MAP! Incident:ID Cross:X");
+           "SRC Add:ADDR! Apt:APT Loc:PLACE Nature:CALL! Grid:MAP! Incident:ID Cross:X");
   }
   
   @Override
   public String getFilter() {
-    return "93001,ecc1@jocogov.org,ecc2@jocogov.org,ecc3@jocogov.org,ecc4@jocogov.org,@jocofd1.org,@jocoems.org";
+    return "93001,ecc1@jocogov.org,ecc2@jocogov.org,ecc3@jocogov.org,ecc4@jocogov.org,@jocofd1.org,@jocoems.org,2183500185";
   }
   
   @Override
