@@ -25,7 +25,7 @@ public class MILenaweeCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "Lenawee@Lenawee.mi";
+    return "Lenawee@Lenawee.mi.us";
   }
   
   @Override

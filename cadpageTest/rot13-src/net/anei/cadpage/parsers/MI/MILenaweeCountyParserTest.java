@@ -8,17 +8,21 @@ vzcbeg bet.whavg.Grfg;
 /*
 Yranjrr Pbhagl, ZV
 Pbagnpg: Pnfvql Ervfre <pnfvqlervfre@tznvy.pbz>
-Fraqre: Yranjrr@Yranjrr.zv
+Fraqre: Yranjrr@Yranjrr.zv.hf
 
 Fhowrpg:!\aSver  102 GLEERYY FG GRPHZFRU FG / WBFRCU XVRF FG Pyvagba 42.0682269550001 -83.969574607 Pbzzba Anzr:  AB NEPVAT  YNETR YVZO Qe
 Fhowrpg:!\aSver  10990 GRPHZFRU PYVAGBA UJL IVYYNTR YA, CRAAVATGBA EQ / FGNVO EQ Pyvagba Gjc 42.048519566 -83.9598904119999 Pbzzba Anzr: 
 Fhowrpg:!\aSver  12174 ZNPBA UJL FUBEG FG / UNPX EQ, ZNPBA EQ Znpba Gjc 42.0689791780001 -83.865645211 Pbzzba Anzr:  GERRF NPEBFF GUR EBNQ
 Fhowrpg:!\aZrqvpny  8744 PYVAGBA ZNPBA EQ ZVYYF ZNPBA UJL / ZNPBA UJL Znpba Gjc 42.068935348 -83.8588074849999 Pbzzba Anzr:  NEG INA OHVYQ
-Fhowrpg:!\aPenfu - J/Vawhevrf 12861 PYVAGBA EQ NYYRA EQ / SVFX EQ Bhg bs Pbhagl 42.0955255862698 -83.9694221524138 Pbzzba Anzr:  pne if ge
 Fhowrpg:!\aSver  22:46 6825 PYVAGBA ZNPBA B'EVYRL UJL / SBEQ UJL  UBHFR RNFG BS ERFQ, FRRF SYNZRF  Pyvagba Gjc
 Fhowrpg:!\aZrqvpny  15:08 108 OHEGBA OEBJA FG / J ZVPUVTNA NIR Pyvagba  FHOWRPG CNFFRQ BHG VA GUR ONGUEBBZ / SRYY VA QBJA  R911 Vasb - Pyn
 Fhowrpg:!\aSver  00:24 8510 PYVAGBA ZNPBA ZNPBA UJL / ZVYYF ZNPBA UJL  PNYYRQ VA OL CNFFRE OL  YNETR NZBHAG BS FZBXR VA NERN  FZBXR VAIRFG
 Fhowrpg:!\aZrqvpny  10:42 204 FHAFRG XRUBR EQ / R PUHEPU FG Pyvagba  R911 Vasb - Pynff bs Freivpr: JEYF Hapregnvagl:  Pbasvqrapr:
+Fhowrpg:!\aSver  10:06 300 GRPHZFRU J SENAXYVA FG, R SENAXYVA FG / PYNEX FG  R911 Vasb - Pynff bs Freivpr: JEYF Hapregnvagl:  Pbasvqrapr: 
+Fhowrpg:!\aSver  20:29 11381 OENHA YVZN PRAGRE EQ / ZPPBYYHZ EQ  FGEHPGHER SVER, ZHGHNY NVQ, 2 GNAXREF VAGREBC 4  Bhg bs Pbhagl
+Fhowrpg:!\aZrqvpny  10:23 1801 ZVPUVTNA CP VAIRFGZRAG QE / CP VAIRFGZRAG QE Pyvagba Gjc  R911 Vasb - Pynff bs Freivpr: ERF Hapregnvagl:  P
+
+Fhowrpg:!\aPenfu - J/Vawhevrf 12861 PYVAGBA EQ NYYRA EQ / SVFX EQ Bhg bs Pbhagl 42.0955255862698 -83.9694221524138 Pbzzba Anzr:  pne if ge
 
 Pbagnpg: Qrerx Obqr <qrerx.obqr@tznvy.pbz>
 Fraqre: yranjrr@yranjrr.zv.hf
@@ -131,8 +135,44 @@ choyvp pynff ZVYranjrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:ZNPBA UJL / ZVYYF ZNPBA UJL",
         "VASB:PNYYRQ VA OL CNFFRE OL  YNETR NZBHAG BS FZBXR VA NERN  FZBXR VAIRFG");
 
-    frgQrsnhygf("", "ZV");
     qbGrfg("G8",
+        "Fhowrpg:!\aZrqvpny  10:42 204 FHAFRG XRUBR EQ / R PUHEPU FG Pyvagba  R911 Vasb - Pynff bs Freivpr: JEYF Hapregnvagl:  Pbasvqrapr:",
+        "PNYY:Zrqvpny",
+        "GVZR:10:42",
+        "NQQE:204 FHAFRG",
+        "K:XRUBR EQ / R PUHEPU FG",
+        "PVGL:Pyvagba");
+   
+    
+    qbGrfg("G9",
+        "Fhowrpg:!\a" +
+        "Sver  10:06 300 GRPHZFRU J SENAXYVA FG, R SENAXYVA FG / PYNEX FG  R911 Vasb - Pynff bs Freivpr: JEYF Hapregnvagl:  Pbasvqrapr: ",
+
+        "PNYY:Sver",
+        "GVZR:10:06",
+        "NQQE:300 GRPHZFRU",
+        "K:J SENAXYVA FG, R SENAXYVA FG / PYNEX FG");
+
+    qbGrfg("G10",
+        "Fhowrpg:!\aSver  20:29 11381 OENHA YVZN PRAGRE EQ / ZPPBYYHZ EQ  FGEHPGHER SVER, ZHGHNY NVQ, 2 GNAXREF VAGREBC 4  Bhg bs Pbhagl",
+        "PNYY:Sver",
+        "GVZR:20:29",
+        "NQQE:11381 OENHA",
+        "K:YVZN PRAGRE EQ / ZPPBYYHZ EQ",
+        "VASB:FGEHPGHER SVER, ZHGHNY NVQ, 2 GNAXREF VAGREBC 4");
+
+    qbGrfg("G11",
+        "Fhowrpg:!\a" +
+        "Zrqvpny  10:23 1801 ZVPUVTNA CP VAIRFGZRAG QE / CP VAIRFGZRAG QE Pyvagba Gjc  R911 Vasb - Pynff bs Freivpr: ERF Hapregnvagl:  P",
+
+        "PNYY:Zrqvpny",
+        "GVZR:10:23",
+        "NQQE:1801 ZVPUVTNA",
+        "K:CP VAIRFGZRAG QE / CP VAIRFGZRAG QE",
+        "PVGL:Pyvagba Gjc");
+
+    frgQrsnhygf("", "ZV");
+    qbGrfg("G12",
         "Fhowrpg:!\a" +
         "Penfu - J/Vawhevrf 12861 PYVAGBA EQ NYYRA EQ / SVFX EQ Bhg bs Pbhagl 42.0955255862698 -83.9694221524138 Pbzzba Anzr:  pne if ge",
 
