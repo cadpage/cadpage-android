@@ -1,5 +1,12 @@
 Quick getting started instructions for new developers.
 
+Quick overview.  Cadpage is an Android app used by emergency responders.  Dispatch centers can usually send a text message notifying 
+users when a call is dispatched.  Cadpage intercepts these messages, display a popup message sounds an alert.  Then, when the 
+user asks for it,  display a map showing the incident location that they can use to navigate to the event.  It is really really
+popular amount emergency responders who tend to think it is the best thing since sliced bread.  The actual app UI code is pretty
+simple, and rather small.  The problem is that there is no standard text page format.  Every dispatch center has their own.  90% of 
+Cadpage code consists of 800+ message text parsers that have been written to parse different dispatch text messages.   
+
 Things you will need to install
 1) Eclipse can be found at http://eclipse.org.  You want the Eclipse IDE for Java developers
 2) Eclipse may or may not come bundled with a Java SDK.  If it does not, you will have to install one from somewhere
