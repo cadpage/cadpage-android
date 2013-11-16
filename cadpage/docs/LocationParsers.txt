@@ -78,7 +78,8 @@ comment telling us how far you went with manual checking.  We will probably dele
 all of the unchecked tests eventually, but I want to be able to review them first.  It can
 be handy to run some regexp searches looking for things like unresolved city codes.
 
-Commit changes and let us know you have finished this location parser
+Add the new parser source(s) to version control and use the gen_patch Ant target to create a 
+cadpage.patch file that you email home. 
   
 ******************************************************************************************
 

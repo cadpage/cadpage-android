@@ -9,8 +9,9 @@ Things you will need to install
    http://subversion.apache.org/
    Windows user can use Tortoise, available at http://tortoisesvn.tigris.org/
 6) And some kind of Eclipse plugin to interface with Subversion projects.  
-   There are two of these, Subversive and Subclipse.  We have been using Subversive, but Subclipse seems to be easier
-   to install.
+   There are two of these, Subversive and Subclipse.  We have been using Subversive.  Subclipse seems to be easier
+   to install.  But it appear to lack the recursive add function, which is pretty serious.  Other users seem to having no 
+   trouble with it, but I've gone back to Subversive.
 
 If you are just doing parsers, you won't be running much of the Android SDK, but you need the libraries to get project to compile.
 
@@ -18,10 +19,7 @@ The Cadpage project is hosted at http://code.google.com/p/cadpage/.
 The Source link will show you how to check out the source tree.  
 The Issues link tracks all non-parser issues.  Parser issues are tracked separately.
 
-Check out the main trunk source to a new local directory.  If you are running on Windows, it may help to specify linux
-style EOL markers, as in
-svn co --native-eol LF http://cadpage.googlecode.com/svn/trunk/ cadpage
-Eclipse should be able to handle these files even if other Windows tools can not.
+Check out the main trunk source to a new local directory.
 Open a command shell, switch to the local directory and enter
 ant import
 to import the test code
@@ -49,11 +47,12 @@ Click the Add Add Buildfiles Icon and navigate to and select build.xml in the Ca
 Toggle the Hide Internal Projects icon to hide internal targets
 Double Click the initialize target.  This will recreate the cadpageTest source folder
 Refresh the CadpageTest project.
-There were usually be a build path error because CadpageTest needs a reference to the 
-Android SDK android.jar file, which almost never be where the project expects it.  To
-fix this, open cadpageTest properties and select
-Build Path > Libraries > Android.jar > Edit
-and find the Android Jar file located wherever you installed the Android SDK platforms.
+There will be a build path error because CadpageTest needs a reference to the 
+Android SDK android.jar file, which is never in the same place.  The project class path uses 
+an ANDROID_JAR classpath variable that you will have to set.  To do that, open Ecliopse preferences and select
+Java > Build Path > Classpath Variables.
+Create a new Classpath variable named ANDROID_JAR of type file and point it to one of the android.jar files
+files in your Android SDK folder.
 
 You should now be able to compile and run the Cadpage app from the cadpage project.  And run the entire
 JUnit test suite in the cadpageTest project.  The first time you try this, Eclipse will ask whether you 
@@ -101,6 +100,4 @@ FieldProgramParser - This is the crown jewel, designed to be a base class handli
 Infrastructure improvements wish list.  Like I said, this is pretty stable and satisfactory, but there are a couple items that would be nice to add.
 
 Cached the compiled results.  FieldProgramParser pushes much of the work of interpreting and compiling the program string to a one time startup task.  In any normal computer environment, this would be sufficient.  But the Android system is a bit strange in that it arbitrarily decides when to kill your app to recover needed resources and starts it up again whenever it happens to be needed.  Add the fact that the secondary storage is really semiconductor memory that isn't that much slower than your primary memory and it makes a lot of sense to be able to cache the compiled program steps to secondary memory rather than compile them every time the class is loaded.
-
-Assembler level programing.  Every now and then, I run across an odd text parsing arrangement that could be easily handled I could set up the processing steps exactly the way I wanted.  But there is no way to the compiler will produce exactly the steps I want in the specified order.  There is some need for some kind of assembly level coding convention that would allow the programmer to specify exactly what step is executed and what should happen if that step succeeds or fails.  This is not critical.  In every case where this would have been useful, I have been able to implement it using the conditional branch feature.  The results are more complicated than they needed to be, but they do get the job done.
  
