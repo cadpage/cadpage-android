@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class WAYakimaCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER = 
-    Pattern.compile("(?:(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d)|\\*\\*\\.\\*\\*\\.\\*\\* \\*\\*/\\*\\*/\\*\\*) (.*?) ([A-Z]{2}FD|AMR|ALS|SCOM)((?: +(?:[A-Z]+\\d+[A-Z]?|AOA))+)(?: +(.*))?");
+    Pattern.compile("(?:(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d)|\\*\\*\\.\\*\\*\\.\\*\\* \\*\\*/\\*\\*/\\*\\*) (.*?) ([A-Z]{2}FD|AMR|ALS|SCOM)((?: +(?:[A-Z]+\\d+[A-Z]?|AOA|[A-Z]{1,2}DC))+)(?: +(.*))?");
   private static final Pattern APT_MARK_PTN = Pattern.compile(" +(?:APT|ROOM) +", Pattern.CASE_INSENSITIVE);
   
   public WAYakimaCountyParser() {
