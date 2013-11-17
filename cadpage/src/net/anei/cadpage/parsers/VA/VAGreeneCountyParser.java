@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.dispatch.DispatchDAPROParser;
 
 /**
- * Franklin County, VA
+ * Greene County, VA
  */
 public class VAGreeneCountyParser extends DispatchDAPROParser {
   
