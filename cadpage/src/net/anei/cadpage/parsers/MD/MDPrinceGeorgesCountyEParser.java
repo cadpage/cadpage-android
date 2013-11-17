@@ -50,6 +50,13 @@ public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParse
     
     if (data.strState.equals("MD")) data.strState = "";
     
+    // If they did not specify a city, see if we can deduce it from a mutual aid code
+    if (data.strCity.length() == 0 && data.strCode.startsWith("MA")) {
+      if (data.strCode.equals("MAAA")) data.strCity = "ANNE ARUNDEL COUNTY";
+      else if (data.strCode.equals("MACH")) data.strCity = "CHARLES COUNTY";
+      else if (data.strCode.equals("MACC")) data.strCity = "CALVERT COUNTY";
+    }
+    
     return true;
   }
   
