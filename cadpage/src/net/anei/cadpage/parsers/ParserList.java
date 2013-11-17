@@ -418,6 +418,7 @@ public class ParserList {
               ,"MOFestus"                       ,"Festus, MO"
               ,"MOGasconadeCounty"              ,"Gasconade County, MO"
               ,"MOGreeneCounty"                 ,"Greene County, MO"
+              ,"MOIronCounty"                   ,"Iron County, MO"
               ,"MOJasperCounty"                 ,"Jasper County, MO"
               ,"MOJeffersonCity"                ,"Jefferson City, MO"
               ,"MOJeffersonCounty"              ,"Jefferson County, MO"

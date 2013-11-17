@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Znqvfba Pbhagl, VA
+Znqvfba Pbhagl, VA (O) 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Naqrefba Sver Qrcnegzrag
@@ -953,7 +953,7 @@ choyvp pynff VAZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PSF) Pnyy Glcr: Zrqvpny Pnyy - NYF Nqqerff: 9721 PRAGRE FG, Crexvafivyyr Havgf: SEN1  Vasb: 77 le byq sr/cbff fgebxr / pnag sbez jbeqf /vf oernguvat",
         "PNYY:Zrqvpny Pnyy - NYF",
         "NQQE:9721 PRAGRE FG",
-        "PVGL:Crexvafivyyr",
+        "PVGL:Crexvafivyyr", // zncf nf Naqrefba
         "HAVG:SEN1",
         "VASB:77 le byq sr/cbff fgebxr / pnag sbez jbeqf /vf oernguvat");
 
