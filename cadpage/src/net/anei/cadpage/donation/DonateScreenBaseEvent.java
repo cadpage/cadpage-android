@@ -28,6 +28,15 @@ public abstract class DonateScreenBaseEvent extends DonateEvent {
    * @param activity new activity being created
    */
   public void create(final Activity activity) {
+    
+    // Double check that event is still enabled.
+    // It isn't that we really worry about showing an inappropriate display
+    // as we are making sure that isEnabled has been called for this activity
+    // as it sometimes has some required side effects.
+    if (!isEnabled()) {
+      closeEvents(activity);
+      return;
+    }
 
     activity.requestWindowFeature(Window.FEATURE_NO_TITLE);
     activity.setContentView(layout);
