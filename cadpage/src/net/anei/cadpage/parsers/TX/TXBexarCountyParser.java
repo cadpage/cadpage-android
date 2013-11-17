@@ -33,13 +33,13 @@ public class TXBexarCountyParser extends FieldProgramParser {
           "DATETIME? CALL CALL? ADDR X_APT+? MAP_ID_UNIT! MAP_ID_UNIT+? INFO+");
   }
   
+  public String getFilter() {
+    return "visinet.command@sanantonio.gov,commcenteraustin@Acadian.com";
+  }
+  
   @Override
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
-  }
- 
-  public String getFilter() {
-    return "visinet.command@sanantonio.gov";
   }
   
   @Override
