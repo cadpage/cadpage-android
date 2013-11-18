@@ -328,7 +328,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "RCH", "REACH",
         "ARCH",
         "MNR",
-        "BYPASS", "BYP", "BUSINESS", "BUS",
+        "BYPASS", "BYP",
         "ALLEY", "ALY",
         "FREEWAY",
         "HT", "HTS", "HEIGHTS",

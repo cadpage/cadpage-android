@@ -312,7 +312,7 @@ choyvp pynff BEWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER - SVER",
         "CEV:1",
         "NQQE:2055 EQ SVER BSS TENUNZ EQ",
-        "ZNQQE:2055 EQ SVER",
+        "ZNQQE:2055 EQ SVER & TENUNZ EQ",
         "VASB:1345 NZQ 1331 NAQ 1343");
 
     qbGrfg("G12",

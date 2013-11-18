@@ -10,7 +10,7 @@ public class OHWayneCountyCParser extends DispatchEmergitechParser {
   
   public OHWayneCountyCParser() {
     super("Dispatch:", new int[]{62, 65, 66, 69}, CITY_LIST, "WAYNE COUNTY", "OH");
-    addSpecialWords("HARRISON");
+    addSpecialWords("COLUMBUS", "HARRISON");
   }
 
   @Override
