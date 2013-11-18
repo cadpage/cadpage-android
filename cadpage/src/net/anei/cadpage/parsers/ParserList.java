@@ -678,6 +678,7 @@ public class ParserList {
               ,"ORMarionCounty"                 ,"Marion County, OR"
               ,"ORMultnomahCounty"              ,"Multnomah County, OR"
               ,"ORWashingtonCounty"             ,"Washington County, OR"
+              ,"ORYamhillCounty"                ,"Yamhill County, OR"
           ),
           new ParserCategory("Pennsylvania"
               ,"PAAdamsCounty"                  ,"Adams County, PA"
