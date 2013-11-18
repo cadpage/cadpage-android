@@ -11,7 +11,7 @@ public class TXWilliamsonCountyBParser extends DispatchOSSIParser {
 
   public TXWilliamsonCountyBParser() {
     super(CITY_CODES, "WILLIAMSON COUNTY", "TX", 
-          "( CANCEL! | FYI? CALL! ) ADDR/S CITY/Y! PLACE_UNIT? SRC");
+          "( CANCEL! | FYI? CALL! ) ADDR/S CITY/Y! PLACE_MAP? UNIT");
   }
   
   @Override protected boolean parseMsg(String body, Data data) {
@@ -21,12 +21,12 @@ public class TXWilliamsonCountyBParser extends DispatchOSSIParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("PLACE_UNIT")) return new MyPlaceUnitField();
+    if (name.equals("PLACE_MAP")) return new MyPlaceMapField();
     return super.getField(name);
   }
   
-  private static Pattern PLACE_UNIT_PAT = Pattern.compile("(?:\\(S\\)(.*?) )?\\(N\\)(.*?)");
-  private class MyPlaceUnitField extends Field {
+  private static Pattern PLACE_MAP_PAT = Pattern.compile("(?:\\(S\\)(.*?) )?\\(N\\)(.*?)");
+  private class MyPlaceMapField extends Field {
     @Override
     public boolean canFail() {
       return true;
@@ -34,10 +34,10 @@ public class TXWilliamsonCountyBParser extends DispatchOSSIParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      Matcher mat = PLACE_UNIT_PAT.matcher(field);
+      Matcher mat = PLACE_MAP_PAT.matcher(field);
       if (!mat.matches()) return false;
       data.strPlace = getOptGroup(mat.group(1));
-      data.strUnit = mat.group(2).trim();
+      data.strMap = mat.group(2).trim();
       return true;
     }
     
@@ -48,7 +48,7 @@ public class TXWilliamsonCountyBParser extends DispatchOSSIParser {
 
     @Override
     public String getFieldNames() {
-      return "PLACE UNIT";
+      return "PLACE MAP";
     }
   }
 
