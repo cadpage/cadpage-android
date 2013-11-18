@@ -10,7 +10,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NCVanceCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("VanceCounty911:(?:(\\d{4}-\\d{6}) +)?([^,]*) +([A-Z0-9,]+.*)");
+  private static final Pattern MASTER = Pattern.compile("VanceCounty911:(?:LineCount=\\d+ +)?(?:(\\d{4}-\\d{6}) +)?(.*?)(?: +Line\\d+=)*");
+  private static final Pattern MASTER2 = Pattern.compile("([^,]+) +([,A-Z0-9]+.*)");
   
   public NCVanceCountyParser() {
     super(CITY_LIST, "VANCE COUNTY", "NC");
@@ -28,10 +29,14 @@ public class NCVanceCountyParser extends SmartAddressParser {
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strCallId = getOptGroup(match.group(1));
-    body = match.group(2).replace("//", "/");
-    data.strUnit = match.group(3);
+    body = match.group(2).trim();
     
-    parseAddress(StartType.START_ADDR, body, data);
+    match = MASTER2.matcher(body);
+    if (!match.matches()) return false;
+    body = match.group(1).replace("//", "/");
+    data.strUnit = match.group(2);
+    
+    parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT, body, data);
     body = getLeft();
     if (body.length() == 0) return false;
     

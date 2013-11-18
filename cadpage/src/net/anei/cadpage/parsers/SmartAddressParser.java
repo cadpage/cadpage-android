@@ -328,14 +328,14 @@ public abstract class SmartAddressParser extends MsgParser {
         "RCH", "REACH",
         "ARCH",
         "MNR",
-        "BYPASS", "BYP",
+        "BYPASS", "BYP", "BUSINESS", "BUS",
         "ALLEY", "ALY",
         "FREEWAY",
         "HT", "HTS", "HEIGHTS",
         "BND", "BEND");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
-    setupDictionary(ID_BYPASS, "BYPASS", "BYP");
+    setupDictionary(ID_BYPASS, "BYPASS", "BYP", "BUSINESS", "BUS");
     
     setupDictionary(ID_AMBIG_ROAD_SFX, 
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", 
