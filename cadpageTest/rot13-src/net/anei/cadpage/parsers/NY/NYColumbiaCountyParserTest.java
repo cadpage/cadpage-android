@@ -6,11 +6,14 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Pbyhzovn Pbhagl, AL
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cuvyzbag Ibyhagrre Sver Pbzcnal Ab 1
 Ybpngvba: Cuvyzbag, AL, Havgrq Fgngrf
 Fraqre: pbyhzovnal911@tznvy.pbz
 
+(911) 47:2013:146\aQvfcngpurq\aSQ-Nynez Npg\a155, ZNVA FG;I-CU (NEX FG / ENVYEBNQ NI)
+(911) 47:2013:139\aQvfcngpurq\aSQ-Oehfu Sver\a689, UNEYRZIVYYR EQ;UVYY (CUHQQ UVYY EQ / OVEPU UVYY EQ)
 (911) 47:2013:133\aQvfcngpurq\aSQ-Nynez Npg\a370, FGRIREF PEBFFVAT EQ;PYNI (FHZZVG FG / EBHGR 11)
 (911) 47:2013:132\aQvfcngpurq\aSQ-Zvfpryynarbhf Sver\a26, RYZJBBQ NI;I-CU (TNEQRA FG / UNZ FG)
 (911) 47:2013:130\aQvfcngpurq\a29-Genssvp/Genafcbegngvba Nppvqrag 29O04\aUNEYRZIVYYR EQ / EBHGR 21 ;UVYY
@@ -47,10 +50,56 @@ Fraqre: pbyhzovnal911@tznvy.pbz
 (911) 47:2013:37\aQvfcngpurq\aSQ-Fgehpgher Sver\a124, EBKOHEL EQ;PYNI (EBHGR 217 / GUVRYZNA EQ)
 
 Pbagnpg: Npgvir911
+Ntrapl anzr: Pnanna Cebgrpgvir Sver Pbzcnal
+Ybpngvba: Pnanna, AL, Havgrq Fgngrf
+Fraqre: pbyhzovnal911@tznvy.pbz
+
+(911 Vapvqrag Nyreg) 34:2013:92\aQvfcngpurq\aSQ-Nynez Npg\a216, PBYNAR EQ;PNAN (EBHGR 295 / ZNUNE EQ)
+(911 Vapvqrag Nyreg) 34:2013:91\aQvfcngpurq\aSQ-Nynez Npg\a13640, EBHGR 22 ;PNAN (GERZCRE NFFBPVNGVBA EQ / DHRRPUL YNXR QE)
+(911 Vapvqrag Nyreg) 34:2013:90\aQvfcngpurq\aSQ-Zvfpryynarbhf Sver\aPNANNA GBJA CNEX ;PNAN ( 1646 EBHGR 5 )
+(911 Vapvqrag Nyreg) 34:2013:89\aQvfcngpurq\a06-Oernguvat Ceboyrz 06P01\aGUEHJNL 19.00 GB 20.5 ;PNAN ( ALF GUEHJNL )
+(911 Vapvqrag Nyreg) 34:2013:88\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
+(911 Vapvqrag Nyreg) 34:2013:87\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
+(911 Vapvqrag Nyreg) 34:2013:86\aQvfcngpurq\a10-Purfg Cnva 10P01\a13640, EBHGR 22 ;PNAN (GERZCRE NFFBPVNGVBA EQ / DHRRPUL YNXR QE)
+(911 Vapvqrag Nyreg) 34:2013:85\aQvfcngpurq\a29-Genssvp/Genafcbegngvba Nppvqrag 29O04\a1159, EBHGR 5 ;PNAN (CRNPRSHY INYYRL EQ / JNEARE PEBFFVAT EQ)
+(911 Vapvqrag Nyreg) 34:2013:84\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
+(911 Vapvqrag Nyreg) 34:2013:83\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
+(911 Vapvqrag Nyreg) 34:2013:82\aQvfcngpurq\a30-Genhzngvp Vawhevrf 30O02\a13640, EBHGR 22 ;PNAN (GERZCRE NFFBPVNGVBA EQ / DHRRPUL YNXR QE)
+(911 Vapvqrag Nyreg) 34:2013:80\aQvfcngpurq\a32-Haxabja Ceboyrz (Crefba Qbja) 32Q01\a211, BYQ DHRRPUL EQ;PNAN (BYQ UHQFBA GACX / EBHGR 295)
+(911 Vapvqrag Nyreg) 34:2013:79\aQvfcngpurq\aSQ-Fzbxr Vairfgvtngvba - VAQBBE\a610, EBHGR 5 ;PNAN (ZNPRQBAVN EQ / EBHGR 24)
+(911 Vapvqrag Nyreg) 34:2013:78\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
+(911 Vapvqrag Nyreg) 34:2013:77\aQvfcngpurq\a10-Purfg Cnva 10P04\a8, HCCRE DHRRPUL EQ #NCG 1;PNAN (EBHGR 295 / FGBAL XVYY EQ)
+(911 Vapvqrag Nyreg) 34:2013:76\aQvfcngpurq\a06-Oernguvat Ceboyrz 06Q02\a13056, EBHGR 22 ;PNAN (RQJNEQF CNEX A / GHAARY UVYY EQ)
+(911 Vapvqrag Nyreg) 34:2013:75\aQvfcngpurq\a12-Pbaihyfvba/Frvmher 12O01\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
+(911 Vapvqrag Nyreg) 34:2013:74\aQvfcngpurq\aSQ-Fzbxr Vairfgvtngvba - VAQBBE\a204, FGBAL XVYY EQ;PNAN (HCCRE DHRRPUL EQ / ABEGU INYYRL EQ)
+(911 Vapvqrag Nyreg) 34:2013:73\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
+(911 Vapvqrag Nyreg) 34:2013:72\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
+(911 Vapvqrag Nyreg) 34:2013:71\aQvfcngpurq\a12-Pbaihyfvba/Frvmher 12Q02\a13640, EBHGR 22 ;PNAN (GERZCRE NFFBPVNGVBA EQ / DHRRPUL YNXR QE)
+(911 Vapvqrag Nyreg) 34:2013:70\aQvfcngpurq\aSQ-Nynez Npg\a13640, EBHGR 22 ;PNAN (GERZCRE NFFBPVNGVBA EQ / DHRRPUL YNXR QE)
+(911 Vapvqrag Nyreg) 34:2013:69\aQvfcngpurq\a31-Hapbafpvbhf/Snvagvat (Arne) 31N01\a13418, EBHGR 22 ;PNAN (EBHGR 295 / GERZCRE NFFBPVNGVBA EQ)
+(911 Vapvqrag Nyreg) 34:2013:68\aQvfcngpurq\a01-Noqb Cnva 01N01\a565, SEVFORR FG;PNAN (OREIL QE / ZNCYR QE)
+(911 Vapvqrag Nyreg) 34:2013:67\aQvfcngpurq\a31-Hapbafpvbhf/Snvagvat (Arne) 31Q02\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
+(911 Vapvqrag Nyreg) 34:2013:66\aQvfcngpurq\a26-Fvpx Crefba 26B21\a13640, EBHGR 22 ;PNAN (GERZCRE NFFBPVNGVBA EQ / DHRRPUL YNXR QE)
+(911 Vapvqrag Nyreg) 34:2013:65\aQvfcngpurq\aSQ-Oehfu Sver\a202, FUNXRE EVQTR QE;PNAN (EBHGR 295 / EBHGR 295)
+(911 Vapvqrag Nyreg) 34:2013:64\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
+81:2013:25\aGrezvangrq\a29-Genssvp/Genafcbegngvba Nppvqrag 29O01\aEBHGR 20 / FUNXRE EQ ;AYRO
+
+Pbagnpg: Npgvir911
 Ntrapl anzr: N O Funj Sver Pbzcnal
 Ybpngvba: Pynirenpx, AL, Havgrq Fgngrf
-Fraqre: pbyhzovnal911@tznvy.pbz 
+Fraqre: pbyhzovnal911@tznvy.pbz
 
+(Pynirenpx Sver) 12:2013:173\aQvfcngpurq\aSQ-Zvfpryynarbhf Sver\aGRFG BAYL - QVFERTNEQ
+(Pynirenpx Sver) 12:2013:172\aQvfcngpurq\a17-Snyyf 17O03\a57, EBHGR 9U ;PYNI (ZNCYR NI / BYQ YA)
+(Pynirenpx Sver) 12:2013:171\aQvfcngpurq\aSQ-Pneoba Zbabkvqr\a471, EBHGR 23O ;PYNI (JVYYZBA EQ / JROO EQ)
+(Pynirenpx Sver) 12:2013:170\aQvfcngpurq\a17-Snyyf 17O01\a243, EBHGR 23 ;PYNI (ERHGRE YA / CNGEBBA FG)
+(Pynirenpx Sver) 12:2013:169\aQvfcngpurq\aSQ-Fgehpgher Sver\a46, NCCYRGBA YA #CIG EQ NG 206 ZG ZREVAB;TERR (ZG ZREVAB EQ / QRNQ RAQ)
+(Pynirenpx Sver) 12:2013:168\aQvfcngpurq\aSQ-Nynez Npg\a361, EBHGR 23 ;PYNI (JVYYBJQNYR SNEZ / EBHGR 16)
+(Pynirenpx Sver) 12:2013:167\aQvfcngpurq\a12-Pbaihyfvba/Frvmher 12Q04\a420, FCBBX EBPX EQ;PYNI (INA QRHFRA EQ / FGBAR ZVYY EQ)
+(Pynirenpx Sver) 12:2013:165\aQvfcngpurq\a29-Genssvp/Genafcbegngvba Nppvqrag 29O01\a6124, EBHGR 9U 23 ;PYNI (NCCYR YA / CNEX FG)
+(Pynirenpx Sver) 12:2013:164\aQvfcngpurq\a06-Oernguvat Ceboyrz 06Q02\a317, FGBAR ZVYY EQ;PYNI (INA QRHFRA EQ / FCBBX EBPX EQ)
+(Pynirenpx Sver) 12:2013:162\aQvfcngpurq\aSQ-Pneoba Zbabkvqr\a76, PNGFXVYY IVRJ EQ;PYNI (EBHGR 27O / FALQREGBJA EQ)
+(Pynirenpx Sver) 12:2013:161\aQvfcngpurq\a06-Oernguvat Ceboyrz 06Q01\a146, FGBAR ZVYY EQ;PYNI (EBHGR 23O / INA QRHFRA EQ)
 (Pynirenpx Sver) 12:2013:160\aQvfcngpurq\aSQ-Nynez Npg\a15, PNYVPB YA;PYNI (CNGEBBA FG / QRNQ RAQ)
 (Pynirenpx Sver) 12:2013:159\aQvfcngpurq\aSQ-Fzbxr Vairfgvtngvba - BHGQBBE\aXRRYRE INHYG PBZCNAL ;PYNI ( 5818 EBHGR 9U 23 )
 (Pynirenpx Sver) 12:2013:158\aQvfcngpurq\a19-Urneg Ceboyrzf/NVPQ 19P02\a549, EBHGR 23O #SYE 2 NCG 3;PYNI (JROO EQ / BYQ YA)
@@ -136,51 +185,30 @@ Fraqre: pbyhzovnal911@tznvy.pbz
 (Pynirenpx Sver) 12:2013:62\aQvfcngpurq\a29-Genssvp/Genafcbegngvba Nppvqrag 29O01\aPBYHZOVN TBYS NAQ PBHAGEL PYHO ;PYNI ( 295 EBHGR 217 )
 (Pynirenpx Sver) 12:2013:60\aQvfcngpurq\aSQ-Oehfu Sver\a327, EBHGR 21P ;UVYY (ZNL UVYY EQ / UNEYRZIVYYR EQ)
 
-Pbagnpg: Npgvir911
-Ntrapl anzr: Pnanna Cebgrpgvir Sver Pbzcnal
-Ybpngvba: Pnanna, AL, Havgrq Fgngrf
-Fraqre: pbyhzovnal911@tznvy.pbz
-
-(911 Vapvqrag Nyreg) 34:2013:92\aQvfcngpurq\aSQ-Nynez Npg\a216, PBYNAR EQ;PNAN (EBHGR 295 / ZNUNE EQ)
-(911 Vapvqrag Nyreg) 34:2013:91\aQvfcngpurq\aSQ-Nynez Npg\a13640, EBHGR 22 ;PNAN (GERZCRE NFFBPVNGVBA EQ / DHRRPUL YNXR QE)
-(911 Vapvqrag Nyreg) 34:2013:90\aQvfcngpurq\aSQ-Zvfpryynarbhf Sver\aPNANNA GBJA CNEX ;PNAN ( 1646 EBHGR 5 )
-(911 Vapvqrag Nyreg) 34:2013:89\aQvfcngpurq\a06-Oernguvat Ceboyrz 06P01\aGUEHJNL 19.00 GB 20.5 ;PNAN ( ALF GUEHJNL )
-(911 Vapvqrag Nyreg) 34:2013:88\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
-(911 Vapvqrag Nyreg) 34:2013:87\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
-(911 Vapvqrag Nyreg) 34:2013:86\aQvfcngpurq\a10-Purfg Cnva 10P01\a13640, EBHGR 22 ;PNAN (GERZCRE NFFBPVNGVBA EQ / DHRRPUL YNXR QE)
-(911 Vapvqrag Nyreg) 34:2013:85\aQvfcngpurq\a29-Genssvp/Genafcbegngvba Nppvqrag 29O04\a1159, EBHGR 5 ;PNAN (CRNPRSHY INYYRL EQ / JNEARE PEBFFVAT EQ)
-(911 Vapvqrag Nyreg) 34:2013:84\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
-(911 Vapvqrag Nyreg) 34:2013:83\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
-(911 Vapvqrag Nyreg) 34:2013:82\aQvfcngpurq\a30-Genhzngvp Vawhevrf 30O02\a13640, EBHGR 22 ;PNAN (GERZCRE NFFBPVNGVBA EQ / DHRRPUL YNXR QE)
-(911 Vapvqrag Nyreg) 34:2013:80\aQvfcngpurq\a32-Haxabja Ceboyrz (Crefba Qbja) 32Q01\a211, BYQ DHRRPUL EQ;PNAN (BYQ UHQFBA GACX / EBHGR 295)
-(911 Vapvqrag Nyreg) 34:2013:79\aQvfcngpurq\aSQ-Fzbxr Vairfgvtngvba - VAQBBE\a610, EBHGR 5 ;PNAN (ZNPRQBAVN EQ / EBHGR 24)
-(911 Vapvqrag Nyreg) 34:2013:78\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
-(911 Vapvqrag Nyreg) 34:2013:77\aQvfcngpurq\a10-Purfg Cnva 10P04\a8, HCCRE DHRRPUL EQ #NCG 1;PNAN (EBHGR 295 / FGBAL XVYY EQ)
-(911 Vapvqrag Nyreg) 34:2013:76\aQvfcngpurq\a06-Oernguvat Ceboyrz 06Q02\a13056, EBHGR 22 ;PNAN (RQJNEQF CNEX A / GHAARY UVYY EQ)
-(911 Vapvqrag Nyreg) 34:2013:75\aQvfcngpurq\a12-Pbaihyfvba/Frvmher 12O01\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
-(911 Vapvqrag Nyreg) 34:2013:74\aQvfcngpurq\aSQ-Fzbxr Vairfgvtngvba - VAQBBE\a204, FGBAL XVYY EQ;PNAN (HCCRE DHRRPUL EQ / ABEGU INYYRL EQ)
-(911 Vapvqrag Nyreg) 34:2013:73\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
-(911 Vapvqrag Nyreg) 34:2013:72\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
-(911 Vapvqrag Nyreg) 34:2013:71\aQvfcngpurq\a12-Pbaihyfvba/Frvmher 12Q02\a13640, EBHGR 22 ;PNAN (GERZCRE NFFBPVNGVBA EQ / DHRRPUL YNXR QE)
-(911 Vapvqrag Nyreg) 34:2013:70\aQvfcngpurq\aSQ-Nynez Npg\a13640, EBHGR 22 ;PNAN (GERZCRE NFFBPVNGVBA EQ / DHRRPUL YNXR QE)
-(911 Vapvqrag Nyreg) 34:2013:69\aQvfcngpurq\a31-Hapbafpvbhf/Snvagvat (Arne) 31N01\a13418, EBHGR 22 ;PNAN (EBHGR 295 / GERZCRE NFFBPVNGVBA EQ)
-(911 Vapvqrag Nyreg) 34:2013:68\aQvfcngpurq\a01-Noqb Cnva 01N01\a565, SEVFORR FG;PNAN (OREIL QE / ZNCYR QE)
-(911 Vapvqrag Nyreg) 34:2013:67\aQvfcngpurq\a31-Hapbafpvbhf/Snvagvat (Arne) 31Q02\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
-(911 Vapvqrag Nyreg) 34:2013:66\aQvfcngpurq\a26-Fvpx Crefba 26B21\a13640, EBHGR 22 ;PNAN (GERZCRE NFFBPVNGVBA EQ / DHRRPUL YNXR QE)
-(911 Vapvqrag Nyreg) 34:2013:65\aQvfcngpurq\aSQ-Oehfu Sver\a202, FUNXRE EVQTR QE;PNAN (EBHGR 295 / EBHGR 295)
-(911 Vapvqrag Nyreg) 34:2013:64\aQvfcngpurq\aSQ-Nynez Npg\aOREXFUVER SNEZ ;PNAN ( 13640 EBHGR 22 )
-81:2013:25\aGrezvangrq\a29-Genssvp/Genafcbegngvba Nppvqrag 29O01\aEBHGR 20 / FUNXRE EQ ;AYRO
-
 */
 
 choyvp pynff ALPbyhzovnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ALPbyhzovnPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "PBYHZOVN PBHAGL", "AL");
+    frgCnefre(arj ALPbyhzovnPbhaglCnefre(), "PBYHZOVN PBHAGL", "AL");
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre() {
+  choyvp ibvq grfgCuvyzbag() {
+
+    
+  }
+  
+
+  @Grfg
+  choyvp ibvq grfgPnanna() {
+
+    
+  }
+  
+
+  @Grfg
+  choyvp ibvq grfgNOFunj() {
 
     
   }
