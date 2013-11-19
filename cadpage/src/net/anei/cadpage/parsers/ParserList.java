@@ -300,6 +300,7 @@ public class ParserList {
           ),
           new ParserCategory("Kansas"
               ,"KSAndover"                      ,"Andover, KS"
+              ,"KSBrownCounty"                  ,"Brown County, KS"
               ,"KSButlerCounty"                 ,"Butler County, KS"
               ,"KSJohnsonCounty"                ,"Johnson County, KS"
               ,"KSSedgwickCounty"               ,"Sedgwick County, KS"
