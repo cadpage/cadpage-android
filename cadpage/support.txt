@@ -2698,3 +2698,13 @@ and select
 Direct Paging Vendors > Active911.net > Register
 That takes you to a web page where you have to enter the Active911
 activation code, which in your case is ___________
+
+************************************************************************
+General Location
+
+The general
+location doesn't really know anything about how your text messages are
+structured and can only pull a limited amount of information from them.
+ To really get the full benefit of Cadpage you need to specify a
+location setting that will know more about your specific message format
+and can get a lot more information from it.
