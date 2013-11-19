@@ -100,6 +100,10 @@ Pbagnpg: Puneyrf Erartng <paerartne@tznvy.pbz>
 Fraqre: pnq.cntr@znqpb911.pbz
 (VCF V/Cntr Abgvsvpngvba) Ybp: 114 FUNQL BNX YA ZQPB RIG#: P1305871 GLCR: SE GVZR: 13:21:05 TEVQ VQ: 617
 
+Pbagnpg: Xnl Znayrl <txznayrl82@tznvy.pbz>
+Fraqre: pnq.cntr@znqpb9-1-1.bet
+(VCF V/Cntr Abgvsvpngvba) Ybp: 225 BNX TEBIR EQ ARJU RIG#: P1308913 GLCR: Z GVZR: 06:53:18 TEVQ VQ: 2555
+
  */
 
 choyvp pynff NYZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -649,6 +653,20 @@ choyvp pynff NYZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:13:21:05",
         "ZNC:617");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXnlZnayrl() {
+
+    qbGrfg("G1",
+        "(VCF V/Cntr Abgvsvpngvba) Ybp: 225 BNX TEBIR EQ ARJU RIG#: P1308913 GLCR: Z GVZR: 06:53:18 TEVQ VQ: 2555",
+        "NQQE:225 BNX TEBIR EQ",
+        "PVGL:ARJ UBCR",
+        "VQ:P1308913",
+        "PNYY:ZRQVPNY",
+        "GVZR:06:53:18",
+        "ZNC:2555");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
