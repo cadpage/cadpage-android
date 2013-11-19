@@ -26,6 +26,11 @@ public class NCVanceCountyParser extends SmartAddressParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
+    // Check for truncated Line=nn
+    int pt = body.lastIndexOf(' ');
+    if (pt >= 0) {
+      if ("Line=".startsWith(body.substring(pt+1))) body = body.substring(0,pt).trim();
+    }
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strCallId = getOptGroup(match.group(1));
