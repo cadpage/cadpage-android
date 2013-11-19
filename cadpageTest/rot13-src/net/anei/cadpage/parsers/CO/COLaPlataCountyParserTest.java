@@ -441,7 +441,8 @@ choyvp pynff PBYnCyngnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13QS-1860",
         "QNGR:06/19/2013",
         "GVZR:18:35",
-        "VASB:58LBZ PBAP/OERN UVC BHG BS FBPXRG / R 31FG FG, J 31FG FG & R 32AQ FG, J 32AQ FG");
+        "K:R 31FG FG, J 31FG FG & R 32AQ FG, J 32AQ FG",
+        "VASB:58LBZ PBAP/OERN UVC BHG BS FBPXRG");
 
     qbGrfg("G18",
         "(Zrffntr sebz UvcYvax) QSEN\a" +
@@ -483,7 +484,8 @@ choyvp pynff PBYnCyngnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13QS-1858",
         "QNGR:06/19/2013",
         "GVZR:17:49",
-        "VASB:RYQREYL ZNYR FHOW BA OVXR; FYHZCRQ BIRE GUR PBAPERGR ONEEVRE; HAX SHEGURE / Vagrefrpgvba bs: FNAGN EVGN QE & F PNZVAB QRY EVB");
+        "K:FNAGN EVGN QE & F PNZVAB QRY EVB",
+        "VASB:RYQREYL ZNYR FHOW BA OVXR; FYHZCRQ BIRE GUR PBAPERGR ONEEVRE; HAX SHEGURE");
 
     qbGrfg("G20",
         "(Zrffntr sebz UvcYvax) QSEN\aQ1   \aS-ZHGHNY NVQ   \aNVQ XVEGYNAQ AZ\aQS1\a\a13QS-1857\a06/19/2013 16:52",
@@ -657,7 +659,8 @@ choyvp pynff PBYnCyngnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:13QS-1846",
         "QNGR:06/18/2013",
         "GVZR:23:55",
-        "VASB:35LBZ; HAPBA/OER SRYY, VAGBK / J PBYYRTR QE, R PBYYRTR QE & R 7GU FG, J 7GU FG");
+        "K:J PBYYRTR QE, R PBYYRTR QE & R 7GU FG, J 7GU FG",
+        "VASB:35LBZ; HAPBA/OER SRYY, VAGBK");
 
     qbGrfg("G29",
         "(Zrffntr sebz UvcYvax) QSEN\a" +

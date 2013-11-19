@@ -92,7 +92,11 @@ public class COLaPlataCountyParser extends FieldProgramParser {
       }
       
       // Check for cross street
-      if (checkAddress(field) > 0) {
+      if (field.startsWith("Intersection of:")) {
+        data.strCross = append(data.strCross, " / ", field.substring(16).trim());
+        return;
+      } 
+      if (field.contains(" & ") || checkAddress(field) > 0) {
         data.strCross = append(data.strCross, " / ", field);
         return;
       }

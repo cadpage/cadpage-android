@@ -644,6 +644,7 @@ choyvp pynff ALShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:ZNL",
         "PNYY:SVER NYNEZ  PB",
         "NQQE:515 FGNGR UJL 29N",
+        "ZNQQE:515 FGNGR 29N",
         "PVGL:ZNLSVRYQ",
         "QNGR:01/29/2013",
         "GVZR:04:46",

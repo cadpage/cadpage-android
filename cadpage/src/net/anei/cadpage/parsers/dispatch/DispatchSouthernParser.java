@@ -57,6 +57,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean noNamePhone;
   private boolean impliedApt;
   private CodeSet callSet;
+  private Pattern unitPtn;
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {
     this(null, cityList, defCity, defState, DSFLAG_DISPATCH_ID);
@@ -67,6 +68,10 @@ public class DispatchSouthernParser extends FieldProgramParser {
   }
   
   public DispatchSouthernParser(CodeSet callSet, String[] cityList, String defCity, String defState, int flags) {
+    this(callSet, cityList, defCity, defState, flags, null);
+  }
+  
+  public DispatchSouthernParser(CodeSet callSet, String[] cityList, String defCity, String defState, int flags, String unitPtnStr) {
     super(cityList, defCity, defState, "");
     this.callSet = callSet;
     this.leadDispatch = (flags & DSFLAG_DISPATCH_ID) != 0;
@@ -78,6 +83,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
     this.inclCrossNamePhone = (flags & DSFLAG_CROSS_NAME_PHONE) != 0;
     this.impliedApt = (flags & DSFLAG_NO_IMPLIED_APT) == 0;
     this.noNamePhone = (flags & DSFLAG_NO_NAME_PHONE) != 0;
+    this.unitPtn = (unitPtnStr == null ? null : Pattern.compile(unitPtnStr));
+    
     
     // Program string needs to be built at run time
     StringBuilder sb = new StringBuilder();
@@ -94,7 +101,26 @@ public class DispatchSouthernParser extends FieldProgramParser {
     String program = sb.toString();
     setProgram(program, 0);
     
-    setFieldList("ADDR APT CITY PLACE X NAME PHONE CODE ID TIME CALL INFO");
+    sb = new StringBuilder();
+    if (inclPlace) sb.append("PLACE ");
+    sb.append("ADDR APT");
+    sb.append(inclCross || inclCrossNamePhone ? " CITY X" : " X CITY");
+    
+    if (!inclCross && !noNamePhone) sb.append(" NAME PHONE");
+    sb.append(" CODE ID TIME");
+    if (unitId) sb.append(" UNIT");
+    sb.append(" CALL INFO");
+    setFieldList(sb.toString());
+  }
+
+  @Override
+  protected void setupCallList(CodeSet callSet) {
+    this.callSet = callSet;
+  }
+
+  @Override
+  public CodeSet getCallList() {
+    return callSet;
   }
 
   @Override
@@ -152,7 +178,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
     
     // Apparently there is no way to not enter a street number.  We already suppress zero
     // but usually the extra number is 1
-    if (data.strAddress.startsWith("1 ")) data.strAddress = data.strAddress.substring(2).trim();
+    if (data.strAddress.startsWith("1 ")) {
+      data.strAddress = data.strAddress.substring(2).trim();
+      data.strAddress = append(data.strAddress, " & ", data.strCross);
+      data.strCross = "";
+    }
     
     //  Occasional implied intersections end up in the apt field
     if (data.strApt.length() > 0 && checkAddress(data.strApt) > 0) {
@@ -227,12 +257,15 @@ public class DispatchSouthernParser extends FieldProgramParser {
     Matcher match;
     if (unitId) {
       Parser p = new Parser(sExtra);
-      data.strUnit = p.get(' ');
-      sExtra = p.get();
+      String unit = p.get(' ');
+      if (unitPtn == null || unitPtn.matcher(unit).matches()) {
+        data.strUnit = unit;
+        sExtra = p.get();
+      }
     }
     
     if (callSet != null) {
-      String call = callSet.getCode(sExtra);
+      String call = callSet.getCode(sExtra, true);
       if (call != null) {
         data.strCall = call;
         data.strSupp = sExtra.substring(call.length()).trim();
@@ -346,8 +379,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
       
       if (unitId && data.strUnit.length() == 0) {
         Parser p = new Parser(field);
-        data.strUnit = p.get(' ');
-        field = p.get();
+        String unit = p.get(' ');
+        if (unitPtn == null || unitPtn.matcher(unit).matches()) {
+          data.strUnit = unit;
+          field = p.get();
+        }
       }
       
       if (field.startsWith("geo:")) {

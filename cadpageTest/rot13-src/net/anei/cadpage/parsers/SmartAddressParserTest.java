@@ -47,10 +47,18 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
+    qbGrfg(NQQE, "0 BYQ UJL 68 N GUR BYQ EBNQFVQR CNEX",
+        "NQQE:BYQ UJL 68");
   }
 
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(NQQE, "137 HF 50A FBZRJURER",
+        "NQQE:137 HF 50A");
+    
+    qbGrfg(NQQE, "137 HF 50N FBZRJURER",
+        "NQQE:137 HF 50N");
     
     qbGrfg(NQQE, SYNT_AB_FGERRG_FSK | SYNT_PEBFF_SBYYBJF | SYNT_AB_PVGL, "15035 PB EQ W SHYGBA PBHAGL SNVETEBHAQF / QBIRE QE  EVG GRNZ NFFVFG SBE FGEHPGHER SVER  Xrafohet",
         "NQQE:15035 PB EQ W");

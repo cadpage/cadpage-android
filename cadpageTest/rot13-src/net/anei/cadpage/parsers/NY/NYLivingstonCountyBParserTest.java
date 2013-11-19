@@ -178,6 +178,7 @@ choyvp pynff ALYvivatfgbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(5880 FGUJL 15N) Qvfcngpu **  ** Jverf ** 5880 FGUJL 15N ** CHEPRYY UVYY EQ/YNJERAPR UVYY ** BAGNEVB PB FURE ** ",
         "PNYY:Jverf",
         "NQQE:5880 FGUJL 15N", // sbhaq va Bagnevb Pbhagl
+        "ZNQQE:5880 AL 15N",
         "K:CHEPRYY UVYY EQ/YNJERAPR UVYY",
         "ANZR:BAGNEVB PB FURE");
 
@@ -288,12 +289,14 @@ choyvp pynff ALYvivatfgbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(FGUJL 15N) Qvfcngpu **  ** ZIN 3 ** FGUJL 15N/CHEPRYY UVYY EQ ** - ** OVYY ZNEGVA ** ",
         "PNYY:ZIN 3",
         "NQQE:FGUJL 15N & CHEPRYY UVYY EQ", // sbhaq va Bagnevb Pbhagl
+        "ZNQQE:AL 15N & CHEPRYY UVYY EQ",
         "ANZR:OVYY ZNEGVA");
 
     qbGrfg("G32",
         "(5927 FGUJL 15N) Qvfcngpu **  ** ZIN 3 ** 5927 FGUJL 15N ** CHEPRYY UVYY EQ/YNJERAPR UVYY ** BAGNEVB PB ** ",
         "PNYY:ZIN 3",
         "NQQE:5927 FGUJL 15N", // sbhaq va Bagnevb Pbhagl
+        "ZNQQE:5927 AL 15N",
         "K:CHEPRYY UVYY EQ/YNJERAPR UVYY",
         "ANZR:BAGNEVB PB");
 
@@ -329,6 +332,7 @@ choyvp pynff ALYvivatfgbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(FGUJL 15N) Qvfcngpu **  ** Fzbxr Vairfg. ** FGUJL 15N/CHEPRYY UVYY EQ ** - ** BAGNEVB PB ** ",
         "PNYY:Fzbxr Vairfg.",
         "NQQE:FGUJL 15N & CHEPRYY UVYY EQ",
+        "ZNQQE:AL 15N & CHEPRYY UVYY EQ",
         "ANZR:BAGNEVB PB");
 
     qbGrfg("G38",

@@ -335,7 +335,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "BND", "BEND");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
-    setupDictionary(ID_BYPASS, "BYPASS", "BYP", "BUSINESS", "BUS");
+    setupDictionary(ID_BYPASS, "BYPASS", "BYP", "BUSINESS", "BUS", "ALT");
     
     setupDictionary(ID_AMBIG_ROAD_SFX, 
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", 
@@ -480,6 +480,10 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   protected void setupCallList(CodeSet callDictionary) {
     this.callDictionary = callDictionary;
+  }
+  
+  public CodeSet getCallList() {
+    return callDictionary;
   }
   
   /**
@@ -923,8 +927,8 @@ public abstract class SmartAddressParser extends MsgParser {
                 !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
             if (isType(sAddr+1, ID_NUMBERED_ROAD_SFX)) {
               if (isType(sAddr+1, ID_ROUTE_PFX)) {
-                if (isType(sAddr+2, ID_NUMBER|ID_ALPHA_ROUTE)) break;
-                if (isType(sAddr+2, ID_ROUTE_PFX_EXT) && isType(sAddr+3, ID_NUMBER|ID_ALPHA_ROUTE)) break;
+                if (isType(sAddr+2, ID_ALPHA_ROUTE)) break;
+                if (isType(sAddr+2, ID_ROUTE_PFX_EXT) && isType(sAddr+3, ID_ALPHA_ROUTE)) break;
                 
                 // Well, this certainly looks like it is a numbered street or route
                 // rather than a house number.  But there are districts with streets
@@ -1087,7 +1091,7 @@ public abstract class SmartAddressParser extends MsgParser {
           // Good old St Louis County, MO. Thank your for creating a HWY W :(
           int stt = -1;
           for (int t = sAddr-1; t <= sAddr; t++) {
-            if (t >= start && isType(t, ID_ROUTE_PFX) & isType(t+1, ID_NUMBER | ID_ALPHA_ROUTE)) {
+            if (t >= start && isType(t, ID_ROUTE_PFX) & isType(t+1, ID_ALPHA_ROUTE)) {
               stt = t;
               break;
             }
@@ -1268,7 +1272,7 @@ public abstract class SmartAddressParser extends MsgParser {
             break; 
           }
         }
-        if (ndx > start && isType(ndx, ID_NUMBER | ID_ALPHA_ROUTE) && isType(ndx-1, ID_ROUTE_PFX)) {
+        if (ndx > start && isType(ndx, ID_ALPHA_ROUTE) && isType(ndx-1, ID_ROUTE_PFX)) {
           found = true;
           break;
         }
@@ -1934,7 +1938,7 @@ public abstract class SmartAddressParser extends MsgParser {
         end = start + 1;
         if (isType(start, ID_ROUTE_PFX_PFX) && isType(start+1, ID_ROUTE_PFX_EXT)) 
              if (!tokens[start].equalsIgnoreCase("STATE") || !tokens[start+1].equals("RD")) end++;
-        if (isType(end, ID_NUMBER | ID_ALPHA_ROUTE)) {
+        if (isType(end, ID_ALPHA_ROUTE)) {
           
           // Yet another special case Texas FM number highways can be terminated
           // with a street suffix :(
@@ -2149,7 +2153,7 @@ public abstract class SmartAddressParser extends MsgParser {
         if (isFlagSet(FLAG_ANCHOR_END) && !isFlagSet(FLAG_ANY_PAD_FIELD)) startNdx = ndx+1;
         return;
       }
-      else mask |= ID_NUMBER;
+      else mask |= ID_NUMBER | ID_ALPHA_ROUTE;
     }
     
     // Some states use alpha route numbers.  This token is a candidate if
@@ -2159,20 +2163,16 @@ public abstract class SmartAddressParser extends MsgParser {
     // it is not a common 2 letter word
     // The ordinal directions (NSEW) are legitimate alpha routes (grumble)
     if (mask == 0) {
-      if (Character.isLetter(token.charAt(0))) {
-        if (token.length() == 1 ||
-           token.length() == 2 && Character.isLetter(token.charAt(1)) &&
-           !token.equals("IN") && !token.equals("OF")) {
-          mask |= ID_ALPHA_ROUTE;
-        }
-      }
+      if (ROUTE_NUMBER_PTN.matcher(token).matches()) mask |= ID_ALPHA_ROUTE;
     } else {
       if (token.length() == 1 && "NSEW".contains(token)) {
         mask |= ID_ALPHA_ROUTE;
       }
     }
+    
     tokenType[ndx] =  mask;
   }
+  private static final Pattern ROUTE_NUMBER_PTN = Pattern.compile("(?!IN|OF)[A-Z]{1,2}|\\d+[ABNSEW]?");
   
   private boolean isAtSign(int ndx) {
     if (! isType(ndx, ID_AT_MARKER)) return false;

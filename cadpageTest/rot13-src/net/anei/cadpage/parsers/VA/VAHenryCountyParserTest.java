@@ -1036,9 +1036,7 @@ choyvp pynff INUraelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G81",
         "1 TERRAFOBEB EQ/SBAGNVA QE 2012095455 08:31:02 -ZBGBE IRUVPYR PENFU J/VAWHEL",
-        "NQQE:TERRAFOBEB EQ",
-        "ZNQQE:TERRAFOBEB EQ & SBAGNVA QE",
-        "K:SBAGNVA QE",
+        "NQQE:TERRAFOBEB EQ & SBAGNVA QE",
         "VQ:2012095455",
         "GVZR:08:31:02",
         "PNYY:ZBGBE IRUVPYR PENFU J/VAWHEL");
