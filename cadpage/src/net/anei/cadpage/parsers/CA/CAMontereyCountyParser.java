@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.CA;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,11 +13,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class CAMontereyCountyParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("(?:(.*?) - )?([A-Z]{2,3}:.*?) - (.*?)(?:(?:Units?:(.*?))| - ([A-Z]{3}))");
+  private static final Pattern MASTER = Pattern.compile("(?:(.*?) - )?([A-Z]{2,5}):(.*?) - (.*?)(?: - ([A-Z]{3}))? *(?:Units?:(.*?))?");
   
   public CAMontereyCountyParser() {
     super("MONTEREY COUNTY", "CA");
-    setFieldList("MAP CALL ADDR UNIT INFO");
+    setFieldList("MAP CODE CALL ADDR CITY UNIT INFO");
   }
   
   @Override
@@ -45,11 +46,12 @@ public class CAMontereyCountyParser extends MsgParser {
     if (!match.matches()) return false;
     
     data.strMap = getOptGroup(match.group(1));
-    data.strCall = match.group(2).trim();
-    parseAddress(match.group(3).trim(), data);
-    String sUnit = match.group(4);
-    if (sUnit == null) sUnit = match.group(5);
-    data.strUnit = sUnit.trim();
+    data.strCode = match.group(2);
+    data.strCall = match.group(3).trim();
+    parseAddress(match.group(4).trim(), data);
+    String city = match.group(5);
+    if (city != null) data.strCity = convertCodes(city, CITY_CODES);
+    data.strUnit = getOptGroup(match.group(6));
     
     if (extra != null) {
       if (extra.startsWith("Message:")) extra = extra.substring(8).trim();
@@ -58,4 +60,15 @@ public class CAMontereyCountyParser extends MsgParser {
     
     return true;
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CHU", "CHUALAR",
+      "GON", "GONZALES",
+      "GRN", "GRNFIELD",
+      "MCO", "",          // Monterey County
+      "MTY", "MONTEREY",
+      "PRU", "PRUNDALE",
+      "SCO", "GONZALES",   // ??????? 
+      "SOL", "SOLEDAD"
+  });
 }
