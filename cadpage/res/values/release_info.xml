@@ -1,29 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11102013</string>
-  <string name="release_version">v1.6.51</string>
+  <string name="release_date">11202013</string>
+  <string name="release_version">v1.6.52</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Geneva County, AL\n
-St Louis County, MO (alt)\n
-Lorain County, OH (alt)\n
-Jefferson County, OR\n
+Madison County, IN (alt)\n
+Brown County, KS\n
+St Clair County, MI\n
+Iron County, MO\n
+Hudson County, NJ\n
+Greene County, NC\n
+Yamhill County, OR\n
+Chester County, PA\n
+Williamson County, TX (alt)\n
+Greene County, VA\n
 \n
 Location Parsing Fixes:\n
-El Paso County, CO\n
-Citrus County, FL\n
-Androscoggin County, ME\n
-Nassau County, NY\n
-Garfield County, OK\n
-Montgomery County, PA\n
-York County, PA\n
+Montery County, CA\n
+San Bernardino County, CA\n
+Newcastle County, DE\n
+Johnson County, KS\n
+Lenawee County, MI\n
+Prince Georges County, MD\n
+Greene County, MO\n
+Westchester County, NY\n
+Durham County, NC\n
+Chester County, PA\n
+Bucks County, PA\n
+Erie County, PA\n
+Lancaster County, PA\n
+Mercer County, PA\n
+York County, SC\n
+Lincoln County, SD\n
+CyCreek Comm Center, TX\n
+Albemarle County, VA\n
+Fluvanna County, VA\n
+Yakima County, WA\n
 \n
 General Fixes:\n
-Attempted fix for occasional widget sizing problem.\n
-Fixed problem with user not always getting a full year
-when the purchase a subscription.\n
+Rare crash in payment status logic\n
   </string>  
 </resources>
   
