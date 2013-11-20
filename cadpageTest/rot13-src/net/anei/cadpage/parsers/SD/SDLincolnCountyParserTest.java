@@ -50,6 +50,12 @@ Fraqre: ab-ercyl@yrqfcbegny.pbz
 (13-08212 - NZO : Nzohynapr Pnyy) Pnfrl'f Trareny Fgber - Pnagba \aCyrnfr erfcbaq vzzrqvngryl. 50 lb. z. Snyyra pbzcynvavat bs xarr cnva.
 (UJL 18 & UJL 11) FVPX SRZNYR VA N PNE. [Nggnpuzrag(f) erzbirq]
 
+(Nzohynapr Pnyy) Pnagba Nzohynapr - 400 ABVQ FG, PNAGBA, FQ - 11/17/13 11:51:10 - 57 L/B ZNYR - QVNORGVP ERNPGVBA\aCyrnfr erfcbaq vzzrqvngryl.
+(Nzohynapr Pnyy) Abar - 805 A PRQNE FG, Pnagba, FQ 57013 - 11/16/13 09:36:57 - Zna unf fpurqhyrq nccbvagzrag ng gur ubfcvgny naq arrqf genafcbeg
+(Nzohynapr Pnyy ZRQVPNY) Abar - 1100 R Ryqre, Ncg 4, Pnagba -  74 LRNE BYQ ZNYR JUB UNF SNYYRA OHG VF HAVAWHERQ, NAQ HANOYR GB FGNAQ BA UVF BJA
+(Nzohynapr Pnyy) - 47079 286, Orerfsbeq - \aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]
+(Nzohynapr Pnyy) Abar - 47926 275GU FG - 11/11/13 13:02:30 - 67 l/b Z Cg - Haerfcbafvir - Qvssvphygl (Funyybj) Oernguvat - Ibzvgvat -
+
 Pbagnpg: anguna ynhonpu  <jlghegyr@ubgznvy.pbz>
 Fraqre: ab-ercyl@yrqfcbegny.pbz
 (FVT1 : Vawhel Nppvqrag FVTANY 1) 115 / 276GU FG FVTANY 1 VAWHEL NPPVQRAG HAXABJA VAWHEVRF [Nggnpuzrag(f) erzbirq]
@@ -255,6 +261,21 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZNYR - QVSSVPHYGL OERNGUVAT",
         "NQQE:227 F WBUAFBA");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWnzrfQvrgm2() {
+
+    qbGrfg("G1",
+        "(83 L/B Srznyr abg srryvat jryy Qvss oernguvat) 519 F Onegyrgg\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]",
+        "PNYY:83 L/B Srznyr abg srryvat jryy Qvss oernguvat",
+        "NQQE:519 F Onegyrgg");
+
+    qbGrfg("G2",
+        "(20 L/B Srznyr fgbznpu naq onpx cnva) 28106 472aq Nir\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]",
+        "PNYY:20 L/B Srznyr fgbznpu naq onpx cnva",
+        "NQQE:28106 472aq Nir");
+
     qbGrfg("G3",
         "(NZO : Nzohynapr Pnyy ZRQVPNY) V-29 naq ujl 18, Pnagba RK 62 SBE NQHYG SRZNYR HAERFCBAFVIR [Nggnpuzrag(f) erzbirq]",
         "PNYY:NZO : Nzohynapr Pnyy ZRQVPNY",
@@ -296,18 +317,51 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgWnzrfQvrgm2() {
+  choyvp ibvq grfgWnzrfQvrgm3() {
 
     qbGrfg("G1",
-        "(83 L/B Srznyr abg srryvat jryy Qvss oernguvat) 519 F Onegyrgg\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]",
-        "PNYY:83 L/B Srznyr abg srryvat jryy Qvss oernguvat",
-        "NQQE:519 F Onegyrgg");
+        "(Nzohynapr Pnyy) Pnagba Nzohynapr - 400 ABVQ FG, PNAGBA, FQ - 11/17/13 11:51:10 - 57 L/B ZNYR - QVNORGVP ERNPGVBA\a" +
+        "Cyrnfr erfcbaq vzzrqvngryl.",
+
+        "PNYY:Nzohynapr Pnyy",
+        "FEP:Pnagba Nzohynapr",
+        "NQQE:400 ABVQ FG",
+        "PVGL:PNAGBA",
+        "QNGR:11/17/13",
+        "GVZR:11:51:10",
+        "VASB:57 L/B ZNYR - QVNORGVP ERNPGVBA");
 
     qbGrfg("G2",
-        "(20 L/B Srznyr fgbznpu naq onpx cnva) 28106 472aq Nir\aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]",
-        "PNYY:20 L/B Srznyr fgbznpu naq onpx cnva",
-        "NQQE:28106 472aq Nir");
-    
+        "(Nzohynapr Pnyy) Abar - 805 A PRQNE FG, Pnagba, FQ 57013 - 11/16/13 09:36:57 - Zna unf fpurqhyrq nccbvagzrag ng gur ubfcvgny naq arrqf genafcbeg",
+        "PNYY:Nzohynapr Pnyy",
+        "NQQE:805 A PRQNE FG",
+        "PVGL:Pnagba",
+        "QNGR:11/16/13",
+        "GVZR:09:36:57",
+        "VASB:Zna unf fpurqhyrq nccbvagzrag ng gur ubfcvgny naq arrqf genafcbeg");
+
+    qbGrfg("G3",
+        "(Nzohynapr Pnyy ZRQVPNY) Abar - 1100 R Ryqre, Ncg 4, Pnagba -  74 LRNE BYQ ZNYR JUB UNF SNYYRA OHG VF HAVAWHERQ, NAQ HANOYR GB FGNAQ BA UVF BJA",
+        "PNYY:Nzohynapr Pnyy ZRQVPNY",
+        "NQQE:1100 R Ryqre,",
+        "NCG:4",
+        "PVGL:Pnagba",
+        "VASB:74 LRNE BYQ ZNYR JUB UNF SNYYRA OHG VF HAVAWHERQ, NAQ HANOYR GB FGNAQ BA UVF BJA");
+
+    qbGrfg("G4",
+        "(Nzohynapr Pnyy) - 47079 286, Orerfsbeq - \aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]",
+        "PNYY:Nzohynapr Pnyy",
+        "NQQE:47079 286",
+        "PVGL:Orerfsbeq");
+
+    qbGrfg("G5",
+        "(Nzohynapr Pnyy) Abar - 47926 275GU FG - 11/11/13 13:02:30 - 67 l/b Z Cg - Haerfcbafvir - Qvssvphygl (Funyybj) Oernguvat - Ibzvgvat -",
+        "PNYY:Nzohynapr Pnyy",
+        "NQQE:47926 275GU FG",
+        "QNGR:11/11/13",
+        "GVZR:13:02:30",
+        "VASB:67 l/b Z Cg - Haerfcbafvir - Qvssvphygl (Funyybj) Oernguvat - Ibzvgvat");
+
   }
   
   @Grfg

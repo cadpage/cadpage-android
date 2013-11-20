@@ -6,13 +6,13 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * Lincoln County, SD
  */
-public class SDLincolnCountyParser extends SmartAddressParser {
+public class SDLincolnCountyParser extends FieldProgramParser {
   
   private static final Pattern LEAD_NUMBER = Pattern.compile("^\\d+ +(?!Y/O |YO ).*");
   private static final Pattern CALL_ID_PTN = Pattern.compile("^\\{?(\\d\\d-\\d+)\\b\\}?");
@@ -23,8 +23,8 @@ public class SDLincolnCountyParser extends SmartAddressParser {
   private static final Pattern INFO_JUNK_PTN = Pattern.compile(" *Please respond immediately\\.? *", Pattern.CASE_INSENSITIVE);
  
   public SDLincolnCountyParser() {
-    super(CITY_LIST, "LINCOLN COUNTY", "SD");
-    setFieldList("ID CALL ADDR APT CITY ST INFO");
+    super(CITY_LIST, "LINCOLN COUNTY", "SD",
+          "SRC ADDR! DATETIME? INFO+");
   }
   
   @Override
@@ -36,6 +36,19 @@ public class SDLincolnCountyParser extends SmartAddressParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (subject.length() == 0) return false;
+    
+    // Too many different formats. :(
+    if (subject.equals("Ambulance Call") || subject.equals("Ambulance Call MEDICAL")) {
+      data.strCall = subject;
+      
+      int pt = body.indexOf('\n');
+      if (pt >= 0) body = body.substring(0,pt).trim();
+      
+      if (body.startsWith("-")) body = ' ' + body;
+      if (body.endsWith("-")) body = body + ' ';
+      return parseFields(body.split(" - "), 2, data);
+    }
+    setFieldList("ID CALL ADDR APT CITY ST INFO");
     
     // See if subject contains the address
     // with possible city and state qualifier
@@ -144,6 +157,54 @@ public class SDLincolnCountyParser extends SmartAddressParser {
     if (data.strCity.equalsIgnoreCase("CA")) data.strCity = "CANTON";
     if (data.strCity.equalsIgnoreCase("INWOOD")) data.strState = "IA";
     return true;
+  }
+  
+  // New format uses a FieldProgramParser program
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("SRC")) return new MySourceField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d\\d +\\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("INFO")) return new MyInfoField();
+    
+    return super.getField(name);
+  }
+  
+  private class MySourceField extends SourceField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("None")) return;
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL SRC";
+    }
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      String city = p.getLastOptional(',');
+      if (city.startsWith("SD")) city = p.getLastOptional(',');
+      parseAddress(p.get(), data);
+      data.strCity = city;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " CITY";
+    }
+  }
+  
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strSupp = append(data.strSupp, " - ", field);
+    }
   }
   
   private static final String[] CITY_LIST = new String[] {
