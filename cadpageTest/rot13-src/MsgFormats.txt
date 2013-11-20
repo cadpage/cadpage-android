@@ -3011,6 +3011,11 @@ TP NYREG (#423679) SQ 9-2: {12/26/2012 10:42:45}\aFRVM     - Frvmherf{3}\a135 Ib
 TP NYREG (#426211) SQ 9-2: {01/03/2013 09:54:56}\aPIN      - Fgebxr{2}\a441 Gebjoevqtr NIR;O FGBC
 TP NYREG (#425595) SQ 9-2: {01/01/2013 10:48:28}\aER       - Erfcvengbel Rzretrapl{2}\a796 Gnpbzn OYIQ;O FGBC
 ***************************************************************************
+Uhqfba Pbhagl, AW (AWUhqfbaPbhaglCnefre)
+Havg:320 Wrefrl Pvgl Erfc:0 Onyqjva Nir Ncg. /Fvpx Ab Cevbe FPebff:Fgngr
+Havg:320 Wrefrl Pvgl Erfc:Pbzzhavcnj Nir / Wbua S Xraarq Ncg.B/F /Fvpx Ab Cevbe FPebff:
+Havg:320 Wrefrl Pvgl Erfc:1637 Xraarql Oyiq Ncg.3 ERNE / Pebff:16gu
+***************************************************************************
 Uhagreqba Pbhagl, AW (Syrzvatgba)
 49SQ:NYEZ NPG: (49)FUBCCRF NG SYRZVATGBA / 100 ERNIVYYR NIR ARNE: E202-31 ENZC GB ENEVGNA GJC YV 12003820: RZ ANVYF::MBAR 4 & 9 / TRARENY SVER FVTANY / JNGA
 49SQ:FZBXR Y3: (49)15 OBAARYY FG ARNE: CNEX NIR GB NPNQRZL FG 12002996 CBFFVOYR RYRPGEVPNY::FZBXR QVFNCNGVAT 
@@ -6763,27 +6768,6 @@ Obql:(Qvfc: 6600) 1070F Qngr Erpi 11/18/2013 11:29:32 401 FCRVTUGF YA  SYNZRF & 
 **********************************************************
 **********************************************************
 *********************************************************
-Uhqfba Pbhagl, AW
-Pbagnpg: Evpuneq Svyrf <esvyrf661@tznvy.pbz>
-Fraqre: uhqpra@yvoreglupf.bet
-Flfgrz: Gevgrpu
-
-Havg:320 Wrefrl Pvgl Erfc:0 Onyqjva Nir Ncg. /Fvpx Ab Cevbe FPebff:Fgngr
-Pnyy Pnapryyrq: Nffvtarq:19:58 Ba Fprar: Pnapryyrq: #13-077168
-Havg:320 Wrefrl Pvgl Erfc:Pbzzhavcnj Nir / Wbua S Xraarq Ncg.B/F /Fvpx Ab Cevbe FPebff:
-Gvzrf: Nffvtarq:23:01 Ng Fprar:23:04 Qrcneg:23:14 Qrfg:23:23 Erfcbafr Ahzore:13-077193
-Havg:320 Wrefrl Pvgl Erfc:1637 Xraarql Oyiq Ncg.3 ERNE / Pebff:16gu
-Cevbevgl Punatr:
-Nqqerff Punatr:1637 Xraarql Oyiq Ncg.3 ERNE Oyqt. Wrefrl Pvgl
-Pnyy Pnapryyrq: Nffvtarq:00:01 Ba Fprar: Pnapryyrq: #13-077203
-Havg:320 Wrefrl Pvgl Erfc:52 Cngrefba Fg Ncg.1FG SYE / Pebff:Fhzzv
-Cevbevgl Punatr:
-Gvzrf: Nffvtarq:00:05 Ng Fprar:00:09 Qrcneg:00:52 Qrfg:00:59 Erfcbafr Ahzore:13-077207
-Havg:320 Wrefrl Pvgl Erfc:221 Crnefnyy Nir Ncg.B/F /Haxabja Pebff:Byq O
-Cevbevgl Punatr:
-Gvzrf: Nffvtarq:02:24 Ng Fprar:02:33 Qrcneg:02:54 Qrfg:03:02 Erfcbafr Ahzore:13-077230
-Havg:320 Wrefrl Pvgl Erfc:56 Cngrefba Fg Ncg.B/F / Pebff:Cnffn
-Pnyy Pnapryyrq: Nffvtarq:04:54 Ba Fprar: Pnapryyrq: #13-077247
 **********************************************************
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
