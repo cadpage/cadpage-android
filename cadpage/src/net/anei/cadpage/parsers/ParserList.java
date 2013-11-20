@@ -825,6 +825,7 @@ public class ParserList {
               ,"VABotetourtCounty"              ,"Botetourt County, VA"
               ,"VABrunswickCounty"              ,"Brunswick County, VA"
               ,"VACampbellCounty"               ,"Campbell County, VA"
+              ,"VACarolineCounty"               ,"Caroline County, VA"
               ,"VACarrollCounty"                ,"Carroll County, VA"
               ,"VAColonialHeights"              ,"Colonial Heights, VA"
               ,"VAFairfaxCity"                  ,"Fairfax City, VA"
