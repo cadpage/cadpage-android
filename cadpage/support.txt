@@ -1,5 +1,18 @@
 support@cadpage.org
 
+
+***************************************************************************
+* Initialization error crash with PAChesterCounty, PABucksCounty, or DENewCastleCounty
+***************************************************************************
+
+Sorry about that....
+
+A new version that fixes this was published at 10:47 EST this morning.  It may take a few hours before it is available everywhere.
+
+Thanks for reporting it,
+-Ken
+
+
 ***************************************************************************
 
 Active911 is a different app published by a different company.  We can not offer any support for it, you will need to contact Active911.com for that.

@@ -36,7 +36,7 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
   private static final Pattern SOFT_BREAK_PTN = Pattern.compile("\n(?=[^/ ])");
   
   private static final Pattern ID_PTN = Pattern.compile("\\bInc(?:ident)? History(?: for)?:? #([A-Z]+\\d+)\\b.*\n");
-  private static final Pattern STATE_DATE_TIME_PTN = Pattern.compile("([A-Z][a-z]+)(?:  +(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d:\\d\\d)\\b+.*)?");
+  private static final Pattern STATE_DATE_TIME_PTN = Pattern.compile("([A-Z][a-z]+)(?:  +(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d:\\d\\d)\\b.*)?");
   
   private static final Pattern CALL_PTN1 = Pattern.compile("Initial Type: [^ ]+ +Final Type: ([^ ]+) +\\((.*)\\)");
   private static final Pattern PRI_PTN1 = Pattern.compile("Initial Priority: [A-Z0-9] +Final Priority: ([A-Z0-9])"); 

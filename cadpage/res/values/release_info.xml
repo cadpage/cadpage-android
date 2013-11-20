@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11202013</string>
-  <string name="release_version">v1.6.52</string>
+  <string name="release_date">11212013</string>
+  <string name="release_version">v1.6.53</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+Fixed force close introduced the v1.6.52 release.\n
+\n
 New Locations:\n
 Madison County, IN (alt)\n
 Brown County, KS\n
