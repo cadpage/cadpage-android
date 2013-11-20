@@ -106,6 +106,7 @@ public class DispatchA7BaseParser extends FieldProgramParser {
     
     // Look for city code
     // If no city, use smart parser to identify out of county locations
+    sAddr = sAddr.replace(" AT ", " & ");
     if (city.length() == 0) {
       parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
     }
@@ -138,7 +139,7 @@ public class DispatchA7BaseParser extends FieldProgramParser {
     if (cityCodes != null) return convertCodes(cityCode, cityCodes);
     return cityCode;
   }
-  private static final Pattern CITY_CODE_PTN = Pattern.compile("(\\d{2})\\b.*");
+  private static final Pattern CITY_CODE_PTN = Pattern.compile("(\\d{1,2})\\b.*");
   
   private class A7AddressField extends AddressField {
     @Override

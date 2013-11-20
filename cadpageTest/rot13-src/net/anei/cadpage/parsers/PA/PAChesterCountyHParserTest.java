@@ -535,8 +535,8 @@ choyvp pynff CNPurfgrePbhaglUCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "GVZR:16:13",
         "PNYY:NPPVQRAG - HAXABJA VAWHEVRF",
-        "NQQE:JO EG 30 OC NG EG 82",
-        "ZNQQE:EG 30 OLCNFF NG EG 82",
+        "NQQE:JO EG 30 OC & EG 82",
+        "ZNQQE:EG 30 OLCNFF & EG 82",
         "PVGL:PBNGRFIVYYR",
         "ANZR:SERQREVPX, YBH",
         "CUBAR:484-354-775",
@@ -1041,8 +1041,8 @@ choyvp pynff CNPurfgrePbhaglUCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "GVZR:08:29",
         "PNYY:NPPVQRAG - HAXABJA VAWHEVRF",
-        "NQQE:AO EG 82 NG EG 30 OC",
-        "ZNQQE:EG 82 NG EG 30 OLCNFF",
+        "NQQE:AO EG 82 & EG 30 OC",
+        "ZNQQE:EG 82 & EG 30 OLCNFF",
         "PVGL:INYYRL GJC",
         "ANZR:FURZBAFXV, ZVXR",
         "CUBAR:484-947-480",

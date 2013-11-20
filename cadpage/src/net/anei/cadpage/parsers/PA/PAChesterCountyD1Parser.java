@@ -31,15 +31,6 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
     return parseFields(DELIM.split(body), data);
   }
   
-  // Call field strips trailing asterisk marker
-  private class MyCallField extends CallField {
-    @Override
-    public void parse(String field, Data data) {
-      if (field.endsWith(" *")) field = field.substring(0,field.length()-2);
-      super.parse(field, data);
-    }
-  }
-  
   // Address has to expand on the base class MyAddressField
   // adding cross street and place names
   private static final Pattern INTERSECT = Pattern.compile("\\b[NSEW]O\\b");
@@ -67,7 +58,6 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
   @Override
   public Field getField(String name) {
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
-    if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDRPLX")) return new MyAddressPlaceCrossField();
     return super.getField(name);
   }

@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.PA;
 import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -22,6 +23,31 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
   @Override
   public String getProgram() {
     return super.getProgram().replace("CITY", "CITY ST");
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new BaseCallField();
+    if (name.equals("ADDRPL")) return new AddressPlaceField();
+    if (name.equals("ADDRCITY")) return new BaseAddressCityField();
+    if (name.equals("ADDRCITY2")) return new AddressCity2Field();
+    if (name.equals("CITY")) return new CityField();
+    if (name.equals("X2")) return new Cross2Field();
+    if (name.equals("APT")) return new BaseAptField();
+    if (name.equals("PLACE")) return new BasePlaceField();
+    if (name.equals("DATE")) return new BaseDateField();
+    if (name.equals("TIME")) return new BaseTimeField();
+    if (name.equals("DATETIME")) return new BaseDateTimeField();
+    if (name.equals("PLACE_PHONE")) return new BasePlacePhoneField();
+    return super.getField(name);
+  }
+
+  protected class BaseCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.endsWith("*")) field = field.substring(0,field.length()-1).trim();
+      super.parse(field, data);
+    }
   }
   
   // ADDRPL: address - place
@@ -172,12 +198,13 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
   }
   
   private static final Pattern TIME_PATTERN = Pattern.compile("\\d\\d:\\d\\d(?::\\d\\d)?");
-  private class BaseTimeField extends TimeField {
+  protected class BaseTimeField extends TimeField {
     public BaseTimeField() {
       setPattern(TIME_PATTERN, true);
     }
   }
   
+
   protected class BaseDateTimeField extends DateTimeField {
     
     @Override
@@ -213,21 +240,42 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
   }
   
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDRPL")) return new AddressPlaceField();
-    if (name.equals("ADDRCITY")) return new BaseAddressCityField();
-    if (name.equals("ADDRCITY2")) return new AddressCity2Field();
-    if (name.equals("CITY")) return new CityField();
-    if (name.equals("X2")) return new Cross2Field();
-    if (name.equals("APT")) return new BaseAptField();
-    if (name.equals("PLACE")) return new BasePlaceField();
-    if (name.equals("DATE")) return new BaseDateField();
-    if (name.equals("TIME")) return new BaseTimeField();
-    if (name.equals("DATETIME")) return new BaseDateTimeField();
-    if (name.equals("EMPTY")) return new EmptyField();
-    return super.getField(name);
+  private static final Pattern NOT_PLACE_PHONE_PTN = Pattern.compile("\\d{4}");
+  private static final Pattern APT_PTN = Pattern.compile("^(?:APT|RM) *([^ \\-]*)[- ]*");
+  private static final Pattern PHONE_PTN = Pattern.compile("(.*?)[-#/ ]*\\b((?:CP)?\\d{3}[-\\.]?\\d{3}[-\\.]?\\d{4})\\b[-#/ ]*(.*?)");
+  
+  protected class BasePlacePhoneField extends PlaceField {
+
+    @Override
+    public void parse(String field, Data data) {
+      
+      // First check to make sure this isn't something else
+      // in particular a 4 digit box number
+      if (NOT_PLACE_PHONE_PTN.matcher(field).matches()) abort();
+      
+      Matcher match = APT_PTN.matcher(field);
+      if (match.find()){
+        data.strApt = getOptGroup(match.group(1));
+        field = match.replaceFirst("");
+      }
+      
+      match = PHONE_PTN.matcher(field);
+      if (match.matches()){
+        data.strPhone = match.group(2);
+        field = append(match.group(1), " ", match.group(3));
+      }
+      
+      if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
+      if (field.startsWith("-")) field = field.substring(1,field.length()).trim();
+      data.strPlace = append(data.strPlace, " - ", field).trim();
+    }
+    
+    @Override
+    public String getFieldNames(){
+      return "APT PLACE PHONE";
+    }
   }
+
 
   public void parseChesterAddress(String field, Data data) {
     parseAddressA7(field, data);
@@ -388,6 +436,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "WPIKEL", "WEST PIKELAND TWP",
 
       // Mongtomery county
+      "UPPER POTTS", "UPPER POTTSGROVE TWP",
       "UPPER PROV", "UPPER PROVIDENCE TWP",
 
   });

@@ -369,8 +369,8 @@ choyvp pynff CNPurfgrePbhaglVCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OYHR FHI VAGB THNEQENVY--OYBPXVAT",
 
         "PNYY:NPPVQRAG - HAXABJA VAWHEVRF",
-        "NQQE:JO EG 30 OC NG EG 100",
-        "ZNQQE:EG 30 OLCNFF NG EG 100",  // Abg znccvat
+        "NQQE:JO EG 30 OC & EG 100",
+        "ZNQQE:EG 30 OLCNFF & EG 100",  // Abg znccvat
         "PVGL:JRFG JUVGRYNAQ GJC",
         "OBK:0622",
         "ANZR:CNFFREOL",
@@ -409,8 +409,8 @@ choyvp pynff CNPurfgrePbhaglVCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QRGNVYF GB SBYYBJ",
 
         "PNYY:NPPVQRAG - HAXABJA VAWHEVRF",
-        "NQQE:RO EG 401 NG EG 202",
-        "ZNQQE:EG 401 NG EG 202",
+        "NQQE:RO EG 401 & EG 202",
+        "ZNQQE:EG 401 & EG 202",
         "PVGL:RNFG JUVGRYNAQ GJC",
         "OBK:0505",
         "CUBAR:610-551-3199",
