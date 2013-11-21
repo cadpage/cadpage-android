@@ -202,7 +202,7 @@ choyvp pynff VNZhfpngvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:207 R 2AQ FG",
         "PVGL:JRFG YVOREGL",
         "K:A FCRAPRE FG / A PBYHZOHF FG",
-        "CYNPR:JYNO");
+        "HAVG:JYNO");
  
   }
   

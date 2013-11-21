@@ -39,6 +39,7 @@ public class DispatchShieldwareParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("PLCITY")) return new PlaceCityField();
     return super.getField(name);
@@ -72,7 +73,7 @@ public class DispatchShieldwareParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern ADDR_ST_ZIP_PTN = Pattern.compile("([A-Z]{2})( +(\\d{5}))?");
+  private static final Pattern ADDR_ST_ZIP_PTN = Pattern.compile("([A-Z]{2})(?: +(\\d{5}))?");
   private class MyAddressCityField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -118,7 +119,16 @@ public class DispatchShieldwareParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern PLACE_UNIT_PTN =  Pattern.compile("[A-Z0-9]{1,4}(?: [A-Z0-9]{1,4})+");
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("/")) field = field.substring(1).trim();
+      if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern PLACE_UNIT_PTN =  Pattern.compile("(?:(?:^| )(?:[A-Z]{1,4}[0-9]{0,3}|[0-9]{2,3}))+");
   private class MyPlaceField extends PlaceField {
     @Override
     public boolean canFail() {

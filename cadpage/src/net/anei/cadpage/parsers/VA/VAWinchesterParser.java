@@ -9,7 +9,7 @@ public class VAWinchesterParser extends DispatchShieldwareParser {
     
   
   public VAWinchesterParser() {
-    super("WINCHESTER", "VA");
+    super(CITY_LIST, "WINCHESTER", "VA");
   }
   
   @Override
@@ -21,6 +21,22 @@ public class VAWinchesterParser extends DispatchShieldwareParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (! subject.equals("Winchester ECC info")) return false;
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strPlace.endsWith(" RESIDENCE")) {
+      data.strName = data.strPlace.substring(0,data.strPlace.length()-10).trim();
+      data.strPlace = "";
+    }
+    if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
+    return true;
   }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("PLACE", "NAME PLACE");
+  }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "FREDERICK CO",
+    "WINCHESTER"
+  };
 }
