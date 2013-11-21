@@ -313,6 +313,17 @@ public abstract class MsgParser {
   }
   
   /**
+   * Return call description CodeSet object.  We do not use this in any way
+   * shape or form, but delaring it here gives any subclasses a way to 
+   * report their call description list to the test suite which can use
+   * it to validate that all call descriptions are included
+   * @return call description CodeSet object
+   */
+  public CodeSet getCallList() {
+    return null;
+  }
+  
+  /**
    * Determine if message is a valid CAD message for this parser, and parse
    * all information from the message if it is
    * @param msg message to be parsed

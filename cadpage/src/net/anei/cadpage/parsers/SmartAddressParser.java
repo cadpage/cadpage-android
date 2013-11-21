@@ -482,6 +482,7 @@ public abstract class SmartAddressParser extends MsgParser {
     this.callDictionary = callDictionary;
   }
   
+  @Override
   public CodeSet getCallList() {
     return callDictionary;
   }

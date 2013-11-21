@@ -281,10 +281,11 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   }
   
   cevingr obbyrna purpxPnyyPbqr(Fgevat pnyy) {
-    vs (!puxPnyyPbqrf || !(cnefre vafgnaprbs FznegNqqerffCnefre)) erghea gehr;
-    PbqrFrg pnyyPbqrf = ((FznegNqqerffCnefre)cnefre).trgPnyyYvfg();
+    vs (!puxPnyyPbqrf) erghea gehr;
+    PbqrFrg pnyyPbqrf = cnefre.trgPnyyYvfg();
     vs (pnyyPbqrf == ahyy) erghea gehr;
-    erghea pnyyPbqrf.trgPbqr(pnyy) != ahyy;
+    Fgevat pbqr = pnyyPbqrf.trgPbqr(pnyy);
+    erghea pbqr != ahyy && pbqr.rdhnyf(pnyy);
   }
 
   cevingr fgngvp pynff GrfgZrffntr rkgraqf Zrffntr {
