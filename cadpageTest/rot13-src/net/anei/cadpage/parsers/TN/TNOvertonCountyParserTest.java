@@ -109,7 +109,7 @@ Fraqre: <911@BCRPQ.PBZ>
 choyvp pynff GABiregbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp GABiregbaPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "BIREGBA PBHAGL", "GA");
+    frgCnefre(arj GABiregbaPbhaglCnefre(), "BIREGBA PBHAGL", "GA");
   }
   
   @Grfg
