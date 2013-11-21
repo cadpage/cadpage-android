@@ -76,7 +76,7 @@ choyvp pynff VNZhfpngvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:12-001933",
         "PNYY:ZRQVPNY",
         "NQQE:1649 UBYYL NIR",
-        "K:160GU FG / 170GU FG/",
+        "K:160GU FG / 170GU FG",
         "PVGL:JRFG YVOREGL",
         "HAVG:ASE JYNO");
 

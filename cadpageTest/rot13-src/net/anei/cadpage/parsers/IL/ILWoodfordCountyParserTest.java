@@ -36,7 +36,7 @@ choyvp pynff VYJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:11-022625",
         "PNYY:BQBE BS ANGHENY TNF",
         "NQQE:411 J SEBAG FG",
-        "K:A A CY /  A TERRA FG/",
+        "K:A A CY /  A TERRA FG",
         "CYNPR:PNFRLF BS EBNABXR",
         "PVGL:EBNABXR",
         "HAVG:1I14 EBSQ JS27");
@@ -46,7 +46,7 @@ choyvp pynff VYJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:11-015377",
         "PNYY:SVER",
         "NQQE:1936 1400A",
-        "K:1900R / 2000R/",
+        "K:1900R / 2000R",
         "PVGL:EBNABXR",
         "HAVG:1I24 EBSQ");
 
@@ -72,7 +72,7 @@ choyvp pynff VYJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:10-035758",
         "PNYY:SVER NYNEZ",
         "NQQE:1797 1700R",
-        "K:1700A / 1800A/",
+        "K:1700A / 1800A",
         "CYNPR:FCNSNF VAP  JNFUOHEA SNEZ",
         "PVGL:EBNABXR",
         "HAVG:1I23 1I24 ZRSQ EBSQ");
@@ -103,7 +103,7 @@ choyvp pynff VYJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NPPVQRAG VAWHEL HAXABJA",
         "NQQE:1386 FGNGR EBHGR 117",
         "ZNQQE:1386 FGNGR 117",
-        "K:1300A /  116/",
+        "K:1300A /  116",
         "CYNPR:CNEFBAF PBZCNAL",
         "PVGL:EBNABXR",
         "HAVG:1I24 EBSQ JS8");
@@ -113,7 +113,7 @@ choyvp pynff VYJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:12-002663",
         "PNYY:SVER",
         "NQQE:1248 1700R",
-        "K:1200A / 1300A/",
+        "K:1200A / 1300A",
         "PVGL:EBNABXR",
         "HAVG:1I24 EBSQ");
    
