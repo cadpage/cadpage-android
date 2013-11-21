@@ -27,7 +27,10 @@ Pbagnpg: wbry zraqbmn <sswbryzraqbmn@tznvy.pbz>
 Pbagnpg: Qbht ZpPbha <sverenpre34@tznvy.pbz>
 Fraqre: qbabgercyl@pb.zbagrerl.pn.hf
 (PNQ Cntr) 52253N - ZRB:ZRQVPNY RZRETAPL - 17659 IVREEN PNALBA EQ - CEH Havgf:R5212, 52N
-
+(PNQ Cntr) 524451N - ZRB:ZRQVPNY RZRETAPL - CBEGRE QE/FNA WHNA EQ - CNW Havgf:R5213, 52N
+(PNQ Cntr) 52253N - HVN:HAX VAW NPP - 18295 CRFNAGR EQ - CEH Havgf:R5212, R5211, 52I
+(PNQ Cntr) 52344NO - ZRB:ABG KSEQ - 174 UHQFBA YNAQVAT EQ - ZPB Havgf:R5213, 52N
+   
 Pbagnpg: Npgvir911
 Ntrapl anzr: Tbamnyrf Sver Qrcnegzrag
 Ybpngvba: Tbamnyrf, PN, Havgrq Fgngrf
@@ -164,8 +167,34 @@ choyvp pynff PNZbagrerlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZRB",
         "PNYY:ZRQVPNY RZRETAPL",
         "NQQE:17659 IVREEN PNALBA EQ",
-        "PVGL:CEHAQNYR",
+        "PVGL:CEHARQNYR",
         "HAVG:R5212, 52N");
+
+    qbGrfg("G2",
+        "(PNQ Cntr) 524451N - ZRB:ZRQVPNY RZRETAPL - CBEGRE QE/FNA WHNA EQ - CNW Havgf:R5213, 52N",
+        "ZNC:524451N",
+        "PBQR:ZRB",
+        "PNYY:ZRQVPNY RZRETAPL",
+        "NQQE:CBEGRE QE & FNA WHNA EQ",
+        "PVGL:CNWNEB",
+        "HAVG:R5213, 52N");
+
+    qbGrfg("G3",
+        "(PNQ Cntr) 52253N - HVN:HAX VAW NPP - 18295 CRFNAGR EQ - CEH Havgf:R5212, R5211, 52I",
+        "ZNC:52253N",
+        "PBQR:HVN",
+        "PNYY:HAX VAW NPP",
+        "NQQE:18295 CRFNAGR EQ",
+        "PVGL:CEHARQNYR",
+        "HAVG:R5212, R5211, 52I");
+
+    qbGrfg("G4",
+        "(PNQ Cntr) 52344NO - ZRB:ABG KSEQ - 174 UHQFBA YNAQVAT EQ - ZPB Havgf:R5213, 52N",
+        "ZNC:52344NO",
+        "PBQR:ZRB",
+        "PNYY:ABG KSEQ",
+        "NQQE:174 UHQFBA YNAQVAT EQ",
+        "HAVG:R5213, 52N");
   
   }
 
@@ -178,7 +207,6 @@ choyvp pynff PNZbagrerlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZRB",
         "PNYY:ZRQVPNY RZRETAPL",
         "NQQE:FUBEG EQ & TBAMNYRF EVIRE EQ",
-        "PVGL:TBAMNYRF",
         "HAVG:PU8101");
 
     qbGrfg("G2",
@@ -256,7 +284,6 @@ choyvp pynff PNZbagrerlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:UMP",
         "PNYY:UNM PBAQVGVBA",
         "NQQE:NYGN FG & SBYRGGN EQ",
-        "PVGL:TBAMNYRF",
         "HAVG:TAM, 81S1");
 
     qbGrfg("G11",
@@ -309,7 +336,6 @@ choyvp pynff PNZbagrerlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:HVN",
         "PNYY:HAX VAW NPP",
         "NQQE:A NYGN FG & SBYRGGN EQ",
-        "PVGL:TBAMNYRF",
         "HAVG:TAM, R5512, 81I, 55I");
 
     qbGrfg("G17",
