@@ -27,14 +27,20 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
     
     boolean cadSubj = subject.startsWith("CAD:");
     boolean cadBody = body.startsWith("CAD:");
-    if (!cadSubj && !cadBody) return false;
-    if (cadSubj || subject.contains(";")) {
-      if (cadSubj) subject = subject.substring(4);
-      if (cadBody) body = body.substring(4);
-      String join = (subject.length() > 0 && JOIN_PTN.matcher(subject).find() ? ":" : "");
-      body = "CAD:" + subject + join + body;
+    boolean suspect = !cadSubj && !cadBody;
+    if (suspect) {
+      body = "CAD:" + body;
+    }
+    else {
+      if (cadSubj || subject.contains(";")) {
+        if (cadSubj) subject = subject.substring(4);
+        if (cadBody) body = body.substring(4);
+        String join = (subject.length() > 0 && JOIN_PTN.matcher(subject).find() ? ":" : "");
+        body = "CAD:" + subject + join + body;
+      }
     }
     if (!super.parseMsg(body, data)) return false;
+    if (suspect && !isPositiveId() && data.strTime.length() == 0 && data.strCross.length() == 0) return false;
     Matcher match = UNIT_PTN.matcher(data.strSupp);
     if (match.find()) {
       data.strUnit = match.group(1);
@@ -45,7 +51,7 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CH")) return new ChannelField("\\**(OP.*)", true);
+    if (name.equals("CH")) return new ChannelField("\\**(OP.*?)\\**", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
