@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="release_date">11212013</string>
-  <string name="release_version">v1.6.53</string>
+  <string name="release_version">v1.6.54</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -17,10 +17,11 @@ Greene County, NC\n
 Yamhill County, OR\n
 Chester County, PA\n
 Williamson County, TX (alt)\n
+Caroline County, VA\n
 Greene County, VA\n
 \n
 Location Parsing Fixes:\n
-Montery County, CA\n
+Monterey County, CA\n
 San Bernardino County, CA\n
 Newcastle County, DE\n
 Johnson County, KS\n
@@ -31,6 +32,7 @@ Westchester County, NY\n
 Durham County, NC\n
 Chester County, PA\n
 Bucks County, PA\n
+Crawford County, PA\n
 Erie County, PA\n
 Lancaster County, PA\n
 Mercer County, PA\n

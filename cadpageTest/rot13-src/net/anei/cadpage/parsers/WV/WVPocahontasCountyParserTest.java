@@ -10,15 +10,7 @@ Cbpnubagnf Pbhagl, JI
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cbpnubagnf Pb 911
 Ybpngvba: Zneyvagba, JI, Havgrq Fgngrf
-Fraqre: <P039@cbpnubagnfrzretrapl.pbz>
-Fraqre: <P030@cbpnubagnfrzretrapl.pbz>
-Fraqre: <P031@cbpnubagnfrzretrapl.pbz>
-Fraqre: <P022@cbpnubagnfrzretrapl.pbz>
-Fraqre: <P024@cbpnubagnfrzretrapl.pbz>
-Fraqre: <P046@cbpnubagnfrzretrapl.pbz>
-Fraqre: <P025@cbpnubagnfrzretrapl.pbz>
-Fraqre: <PB43@cbpnubagnfrzretrapl.pbz>
-Fraqre: <P045@cbpnubagnfrzretrapl.pbz>
+Fraqre: @cbpnubagnfrzretrapl.pbz
 
 P039:[P039]--EG 219 ABEGU GB NVECBEG EBNQ NAQ GHEA EVTUG TB GB FRROREG JVYSBAT EBNQ NAQ GHEA EVTUG. TB NCCEBK 3 GRAGF BS N ZVYR QEVIRJNL VF BA GUR YRSG. UBHFR FVGF HC BA GUR UVYY. 89 LRNE BYQ ZNYR. SNYYRA OEHVFRQ, OYBBQL NAQ NYFB CBFFVOYL OEBXRA UVF YRT. UR VF PBAFPVBHF OHG PBASHFRQ.
 P030:[P030]-- - Angher: RZF-Oheaf--Gurezny/Ryrpgevpny/Purzv - Ybpngvba: - Pbzzragf: SEBZ GUR VAGREFRPGVBA BS EG 66 & 219 TB FBHGU BA EG 219 SBE 1 NAQ 1 GRAGU BS N ZVYR NAQ GHEA EVTUG TB YRFFGUNA 1 GRAGUF BS N ZVYR GB GUR VAGREFRPGVBA, GUR EBNQ SBEXF 3 JNLF GNXR GUR ZVQQYR SBEX (BYQ SNEZ EBNQ) TB NCCEBK 7 GRAGUF ZVYRF GUR EBNQ ANZR JVYY PUNATR GB HCCRE BEPUNEQ EBNQ TB NCCEBK 2 GRAGUF BS N ZVYR GB GUR ARKG VAGREFRPGVBA NAQ TB YRSG HC GUR UVYY SBE NCCEBK 1 GRAGUF BS N ZVYR GB ARKG VAGREFRPGVBA NAQ GHE
