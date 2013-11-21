@@ -1,31 +1,13 @@
 package net.anei.cadpage.parsers.VA;
 
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 
 
 public class VACarolineCountyParser extends DispatchB2Parser {
   
-  private static final Pattern CALL_ADDR_PTN = Pattern.compile("(.* (?:ALPHA|BRAVO|CHARLIE?|DELTA)) +(.*)", Pattern.CASE_INSENSITIVE);
-  
   public VACarolineCountyParser() {
     super("911-CENTER:",CITY_LIST, "CAROLINE COUNTY", "VA");
-  }
-  
- 
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    if (!super.parseMsg(body, data)) return false;
-    if (data.strCity.endsWith(" BOR")) data.strCity = data.strCity.substring(0,data.strCity.length()-4).trim();
-    return true;
-  }
-
-  @Override
-  protected Pattern getCallPattern() {
-    return CALL_ADDR_PTN;
   }
   
   private static final String[] CITY_LIST = new String[]{
@@ -34,7 +16,7 @@ public class VACarolineCountyParser extends DispatchB2Parser {
     "BOWLING GREEN",
     "PORT ROYAL",
 
-// Unincorporated communities 
+    // Unincorporated communities 
     "ACORS CORNER",
     "ANN WRIGHTS CORNER",
     "ANTIOCH FORK",

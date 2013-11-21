@@ -37,7 +37,7 @@ Ybpngvba: Objyvat Terra, IN, Havgrq Fgngrf
 choyvp pynff INPnebyvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp INPnebyvarPbhaglCnefreGrfg() {
-    frgCnefre(arj INPnebyvarPbhaglCnefre(), "PNEBYVAR PBHAGL", "IN");
+    frgCnefre(arj INPnebyvarPbhaglCnefre(), "PNEBYVAR PBHAGL", "IN", gehr);
   }
   
   @Grfg
@@ -74,9 +74,9 @@ choyvp pynff INPnebyvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G4",
         "911-PRAGRE:10-50 >GENSSVP NPPVQRAG EBTREF PYNEX OYIQ KF: QEL OEVQTR EQ EHGURE TYRA Pnq: 2013-0000023016",
         "PBQR:10-50",
-        "PNYY:GENSSVP NPPVQRAG EBTREF",
-        "NQQE:PYNEX OYIQ",
-        "ZNQQE:PYNEX OYIQ & QEL OEVQTR EQ", // guvf vf Ebtref Pynex Oyiq
+        "PNYY:GENSSVP NPPVQRAG",
+        "NQQE:EBTREF PYNEX OYIQ",
+        "ZNQQE:EBTREF PYNEX OYIQ & QEL OEVQTR EQ", // guvf vf Ebtref Pynex Oyiq
         "K:QEL OEVQTR EQ",
         "PVGL:EHGURE TYRA",
         "VQ:2013-0000023016");
