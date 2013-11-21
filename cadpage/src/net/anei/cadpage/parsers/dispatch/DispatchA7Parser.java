@@ -92,6 +92,9 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
     // Process the state/date/time block
     // Extract dispatch date and time for Received, Entered, and Dispatched lines
     // If any other line is found with a date and time, turn this into a run report
+    // On further reflection, we will let lines witih enroute and onscene times be
+    // reported as dispatch alerts.  It doesn't make sense, but these do seem to
+    // be the first and only alerts that go out for most calls ?????
     boolean runReport = false;
     match = getNextMatchLine(p, STATE_DATE_TIME_PTN);
     if (match == null) return false;
@@ -106,7 +109,7 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
           data.strTime = time;
         }
       } else {
-        if (date != null) runReport = true;
+//        if (date != null) runReport = true;
       }
       line = p.getLine();
       if (line == null) return false;
