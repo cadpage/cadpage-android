@@ -13,20 +13,6 @@ Thanks for reporting it,
 -Ken
 
 ***************************************************************************
-* Android 4.4 (Kit Kat) does not permit Cadpage to keep text pages out of 
-* the default message inbox
-***************************************************************************
-
-I did a bit of research.  And it looks like Kit Kat has decisively and deliberately removed the ability for one messaging app to block mesages from being received by other messaging apps.  For now at least, that Cadpage will no longer be able prevent your text pages from showing up in the message inbox.
-
-While that is unfortunate for my users, I can understand why something like this was necessary.  The ability to block specific tailored messages directed at one app from going the the default messaging app is useful only for a very small number of specialized apps.  And a number of popular third party messaging apps were misusing this capability to block all messages from getting to competing messaging apps.  Under Kit Kat, the user decides which of several competing messaging apps will be the default messaging, and only that app gets to receive, update and send messages.
-
-About the only thing you can do is route your page messages through a service that supports direct paging.  These services can push pages to Cadpage without using SMS messaging.  The only two services supporting this feature at this time are Codemessaging.net and Active911.com.
-
-Good luck,
--Ken
-
-***************************************************************************
 
 Active911 is a different app published by a different company.  We can not offer any support for it, you will need to contact Active911.com for that.
 
@@ -312,7 +298,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-LRKOMHCA or lrkomhca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+BZANHNCA or bzanhnca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -445,7 +431,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-LRKOMHCA or lrkomhca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+BZANHNCA or bzanhnca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -611,7 +597,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-LRKOMHCA or lrkomhca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+BZANHNCA or bzanhnca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -625,7 +611,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-LRKOMHCA or lrkomhca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+BZANHNCA or bzanhnca.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -635,7 +621,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-LRKOMHCA or lrkomhca.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+BZANHNCA or bzanhnca.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information needed to figure out what is wrong.
 
@@ -2391,7 +2377,7 @@ when members leave the department or change phone numbers.
 General Help Message
 
 I try really hard to avoid getting into phone support.  There are only
-two of us working on Cadpage and it would too much of my time.
+two of us working on Cadpage and it would take too much of my time.
 
 Everything about your phone setup and the Active911 phone setup looks
 fine.  If you are receiving Cadpage pages that are not right somehow,
@@ -2586,12 +2572,12 @@ Cadpage on Android tablets that cannot receive SMS text messages, or on
 IOS devices where the environment does not permit apps to intercept text
 messages.
 
-Cadpage was designed to server Fire, EMS, and Police responders, but it
+Cadpage was designed to serve Fire, EMS, and Police responders, but it
 can also be used for public service and utility crews.  Any operation
 that sends text messages that contain some kind of response or service
 address will probably find it useful.
 
-Hope that is useful, and feel free to contact us if you have any more
+Hope that is useful!  Feel free to contact us if you have any more
 questions.
 
 Have a nice day,
