@@ -180,7 +180,8 @@ public class ManageParsers {
         "OHXenia",            "OHGreeneCounty",         // 03/18/2013
         "NCGreensboro",       "NCGuilfordCounty",       // 03/22/2013
         "NCDavieCountyA",     "NCDavieCounty",          // 09/30/2013
-        "NCDavieCountyB",     "NCDavieCounty"           // 09/30/2013
+        "NCDavieCountyB",     "NCDavieCounty",          // 09/30/2013
+        "NJHudsonCounty",     "NJJCMCEMSHudCEN"         // 11/22/2013
         
   });
 

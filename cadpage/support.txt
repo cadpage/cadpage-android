@@ -1,5 +1,13 @@
 support@cadpage.org
 
+***************************************************************************
+* Cannot make Android market purchase Cadpage version 1.6.53
+***************************************************************************
+
+That was my mistake.  I put a rushed Cadpage release in response to a serious crash problem that had a beta version number.  A new release with the correct version number was early yesterday.  As soon as that gets installed you should be able to make normal android market place purchases.
+
+Thank you very much for your support,
+-Ken
 
 ***************************************************************************
 * Initialization error crash with PAChesterCounty, PABucksCounty, or DENewCastleCounty

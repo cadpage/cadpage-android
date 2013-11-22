@@ -25,10 +25,10 @@ Pnyy Pnapryyrq: Nffvtarq:04:54 Ba Fprar: Pnapryyrq: #13-077247
 
 */
 
-choyvp pynff AWUhqfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff AWWPZPRZFUhqPRACnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp AWUhqfbaPbhaglCnefreGrfg() {
-    frgCnefre(arj AWUhqfbaPbhaglCnefre(), "UHQFBA PBHAGL", "AW");
+  choyvp AWWPZPRZFUhqPRACnefreGrfg() {
+    frgCnefre(arj AWWPZPRZFUhqPRACnefre(), "UHQFBA PBHAGL", "AW");
   }
   
   @Grfg
@@ -126,6 +126,6 @@ choyvp pynff AWUhqfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj AWUhqfbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj AWWPZPRZFUhqPRACnefreGrfg().trarengrGrfgf("G1");
   }
 }

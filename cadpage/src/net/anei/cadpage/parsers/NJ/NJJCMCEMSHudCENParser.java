@@ -8,15 +8,15 @@ import net.anei.cadpage.parsers.MsgParser;
 
 
 /**
- * Mercer County, NJ
+ * JCMC EMS HudCEN, NJ
  */
-public class NJHudsonCountyParser extends MsgParser {
+public class NJJCMCEMSHudCENParser extends MsgParser {
   
   private static final Pattern CANCEL_PTN = Pattern.compile("Call Cancelled: (.*) Cancelled: #([-0-9]+)");
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("Times: (.*?) +Response Number:([-0-9]+)");
   private static final Pattern MASTER_PTN = Pattern.compile("Unit:(\\d+) +(.*?) Resp:(.*?) Apt\\.(.*)/(.*?)S?Cross:(.*)");
   
-  public NJHudsonCountyParser() {
+  public NJJCMCEMSHudCENParser() {
     super("HUDSON COUNTY", "NJ");
   }
   
@@ -25,6 +25,11 @@ public class NJHudsonCountyParser extends MsgParser {
     return "hudcen@libertyhcs.org";
   }
   
+  @Override
+  public String getLocName() {
+    return "JCMC EMS HudCEN, NJ";
+  }
+
   @Override
   public boolean parseMsg(String body, Data data) {
     Matcher match = CANCEL_PTN.matcher(body);
