@@ -2728,3 +2728,11 @@ structured and can only pull a limited amount of information from them.
  To really get the full benefit of Cadpage you need to specify a
 location setting that will know more about your specific message format
 and can get a lot more information from it.
+
+*****************************************************************************
+Installing updates
+
+Most likely it was automatically installed already.  If not, you install
+the update with Google Play Store.  Or go into Cadpage settings and
+select "Write a Cadpage Review" which takes you directly to the Play
+Store page where you can update Cadpage.

@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
 
 /**
- * Overton, TN
+ * Overton County, TN
  */
 public class TNOvertonCountyParser extends DispatchB3Parser {
   

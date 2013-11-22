@@ -279,14 +279,14 @@ choyvp pynff GABiregbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PBAIBY>PBAINYRFPRAG GENAFSRE) 911@BCRPQ.PBZ:PEZP QNYYNF FZVGU Pnq: 2013-0000025218",
         "PBQR:PBAIBY",
         "PNYY:PBAINYRFPRAG GENAFSRE",
-        "NQQE:PEZP QNYYNF FZVGU",
+        "NQQE:PEZP QNYYNF FZVGU", // abg n erny nqqerff
         "VQ:2013-0000025218");
 
     qbGrfg("G18",
         "(PBAIBY>PBAINYRFPRAG GENAFSRE) 911@BCRPQ.PBZ:PEZP QRYYN OBFJRYY Pnq: 2013-0000025214",
         "PBQR:PBAIBY",
         "PNYY:PBAINYRFPRAG GENAFSRE",
-        "NQQE:PEZP QRYYN OBFJRYY",
+        "NQQE:PEZP QRYYN OBFJRYY", // abg n erny nqqerff
         "VQ:2013-0000025214");
 
     qbGrfg("G19",
@@ -367,7 +367,7 @@ choyvp pynff GABiregbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(10-57 >NYNEZ) 911@BCRPQ.PBZ:21021 FCHEVBA YBBC JVYYVNZ QRNFBA 7275451688 Pnq: 2013-0000025198",
         "PBQR:10-57",
         "PNYY:NYNEZ",
-        "NQQE:21021 FCHEVBA YBBC",
+        "NQQE:21021 FCHEVBA YBBC", // nqqerff abg sbhaq
         "ANZR:JVYYVNZ QRNFBA",
         "CUBAR:7275451688",
         "VQ:2013-0000025198");
@@ -396,7 +396,7 @@ choyvp pynff GABiregbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FHFCVP",
         "PNYY:FHFCVPVBHF CREFBA",
         "NQQE:GBZZL QBQFBA UJL",
-        "ZNQQE:GBZZL QBQFBA UJL & PBBXRIVYYR UJL",
+        "ZNQQE:GBZZL QBQFBA UJL & PBBXRIVYYR UJL", // ercbegrq Tbbtyr znc ceboyrz
         "K:PBBXRIVYYR UJL",
         "PVGL:PBBXRIVYYR",
         "VQ:2013-0000025189");
