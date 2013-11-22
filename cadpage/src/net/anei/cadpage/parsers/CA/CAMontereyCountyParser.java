@@ -83,14 +83,14 @@ public class CAMontereyCountyParser extends MsgParser {
       "CMP",   "CARMEL POINT",
       "CMV",   "CARMEL VALLEY",
       "CMW",   "CARMEL WOODS",
-      "CST",   "COAST",                         // ???
+      "CST",   "COAST/CARMEL",
       "CSU",   "CAL STATE UNIVERSITY/SEASIDE",
       "CVR",   "CARMEL VALLEY RANCH/CARMEL",
       "CVW",   "CARMEL VIEWS/CARMEL",
       "DLI",   "DEFENSE LANGUAGE INSTITUTE/MONTEREY",
       "DMF",   "DEL MONTE FOREST",
       "DRO",   "DEL REY OAKS",
-      "FTO",   "FORT ORD/SALINAS",
+      "FTO",   "FORT ORD/SEASIDE",
       "GON",   "GONZALES",
       "GRN",   "GREENFIELD",
       "HHS",   "HIDDEN HILLS/SALINAS",
@@ -99,11 +99,11 @@ public class CAMontereyCountyParser extends MsgParser {
       "IND",   "INDIAN SPRINGS/SALINAS",
       "JOL",   "JOLON",
       "KCY",   "KING CITY",
-      "LAM",   "LAMESA VILLAGE",              // ???
-      "LLG",   "LOS LAURELES GRADE",          // ???
+      "LAM",   "LAMESA VILLAGE/MONTEREY", 
+      "LLG",   "LOS LAURELES GRADE/SALINAS",
       "LLS",   "LAS LOMAS",
       "LOC",   "LOCKWOOD/MONTEREY",
-      "LPR",   "LAS PALMAS RANCH",            // ???
+      "LPR",   "LAS PALMAS RANCH/SALINAS",
       "LSE",   "LAGUNA SECA ESTATES/SALINAS",
       "MAR",   "MARINA",
       "MCO",   "",                            // MONTEREY COUNTY
@@ -116,7 +116,7 @@ public class CAMontereyCountyParser extends MsgParser {
       "NAF",   "NAVY ANNEX FACILITY/MONTEREY",
       "NPS",   "NAVY POSTGRADUATE SCHOOL/MONTEREY",
       "OHS",   "OAK HILLS",
-      "ORD",   "FT ORD/SALINAS",
+      "ORD",   "FT ORD/SEASIDE",
       "PAC",   "PACIFIC GROVE",
       "PAJ",   "PAJARO",
       "PGS",   "POSTGRADUATE SCHOOL/MONTEREY",
@@ -133,9 +133,9 @@ public class CAMontereyCountyParser extends MsgParser {
       "SNS",   "SALINAS",
       "SOL",   "SOLEDAD",
       "SPK",   "SPRECKELS",
-      "SRV",   "SERRA VILLAGE",           // ???
-      "TPE",   "TORO PARK ESTATES",       // ???
-      "VGR",   "VALLEY GREENS",           // ???
+      "SRV",   "SERRA VILLAGE/SALINAS",
+      "TPE",   "TORO PARK ESTATES/SALINAS",
+      "VGR",   "VALLEY GREENS/CARMEL",
       "WAT",   "WATSONVILLE",
       "YKP",   "YANKEE POINT",
 

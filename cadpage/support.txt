@@ -13,6 +13,20 @@ Thanks for reporting it,
 -Ken
 
 ***************************************************************************
+* Android 4.4 (Kit Kat) does not permit Cadpage to keep text pages out of 
+* the default message inbox
+***************************************************************************
+
+I did a bit of research.  And it looks like Kit Kat has decisively and deliberately removed the ability for one messaging app to block mesages from being received by other messaging apps.  For now at least, that Cadpage will no longer be able prevent your text pages from showing up in the message inbox.
+
+While that is unfortunate for my users, I can understand why something like this was necessary.  The ability to block specific tailored messages directed at one app from going the the default messaging app is useful only for a very small number of specialized apps.  And a number of popular third party messaging apps were misusing this capability to block all messages from getting to competing messaging apps.  Under Kit Kat, the user decides which of several competing messaging apps will be the default messaging, and only that app gets to receive, update and send messages.
+
+About the only thing you can do is route your page messages through a service that supports direct paging.  These services can push pages to Cadpage without using SMS messaging.  The only two services supporting this feature at this time are Codemessaging.net and Active911.com.
+
+Good luck,
+-Ken
+
+***************************************************************************
 
 Active911 is a different app published by a different company.  We can not offer any support for it, you will need to contact Active911.com for that.
 
