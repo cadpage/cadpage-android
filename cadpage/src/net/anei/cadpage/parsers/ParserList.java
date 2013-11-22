@@ -550,6 +550,7 @@ public class ParserList {
               ,"NCForsythCounty"                ,"Forsyth County, NC"
               ,"NCFranklinCounty"               ,"Franklin County, NC"
               ,"NCGastonCounty"                 ,"Gaston County, NC"
+              ,"NCGatesCounty"                  ,"Gates County, NC"
               ,"NCGrahamCounty"                 ,"Graham County, NC"
               ,"NCGranvilleCounty"              ,"Granville County, NC"
               ,"NCGreeneCounty"                 ,"Greene County, NC"

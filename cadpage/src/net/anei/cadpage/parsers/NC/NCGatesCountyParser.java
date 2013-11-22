@@ -33,7 +33,26 @@ public class NCGatesCountyParser extends DispatchSouthernParser {
     "EURE",
     "GATES",
     "SUNBURY",
-    "HOBBSVILE"
+    "HOBBSVILLE",
+    
+    // Unincorporated  
+    "CORAPEAKE",
+    "EASON CROSSROADS",
+    "EURE",
+    "HOFLERS FORK",
+    "GATES",
+    "MINTONSVILLE",
+    "SELWIN",
+    "TARHEEL",
+    
+    // Perquimans County
+    "BELVIDERE",
+    "HERTFORD",
+    "WINFALL",
+    
+    // Chowan County
+    "EDENTON"
+    
   };
   
   private static final CodeSet CALL_LIST = new CodeSet(
