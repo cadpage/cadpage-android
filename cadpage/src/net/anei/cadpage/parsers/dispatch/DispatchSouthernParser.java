@@ -42,7 +42,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
   private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-0-9]+)$");
-  private static final Pattern ID_PTN = Pattern.compile("\\b\\d{2,4}-(?:\\d\\d-)?\\d{4,8}$");
+  private static final Pattern ID_PTN = Pattern.compile("\\b\\d{2,4}-?(?:\\d\\d-)?\\d{4,8}$");
   private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /]+)\\b[ \\.,-]*");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
   private static final Pattern CALL_BRK_PTN = Pattern.compile(" +/+ *");
