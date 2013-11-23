@@ -503,7 +503,114 @@ choyvp pynff XFOebjaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:Urnegynaq",
         "PVGL:Uvnjngun",
         "VASB:Ryvmnorgu Unezba - erany snvyher urnegynaq");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEbovafba() {
 
+    qbGrfg("G1",
+        "(ARJBPP #13-47  Z26 - Zrqvpny Rzretrapl) ARJBPP #13-47  Z26 - Zrqvpny Rzretrapl\a" +
+        "Nqqerff: 504 TBYQRA TNGR FG, Ebovafba\a" +
+        "Ercbegvat Crefba: JVYYNEQ RAXR, Cubar: 785-544-5115\a" +
+        "Qrgnvy:",
+
+        "VQ:13-47",
+        "PBQR:Z26",
+        "PNYY:Zrqvpny Rzretrapl",
+        "NQQE:504 TBYQRA TNGR FG",
+        "PVGL:Ebovafba",
+        "ANZR:JVYYNEQ RAXR",
+        "CUBAR:785-544-5115");
+
+    qbGrfg("G2",
+        "(ARJBPP #13-46  1048 - Vawhel Nppqvrag) ARJBPP #13-46  1048 - Vawhel Nppqvrag\a" +
+        "Nqqerff: 73 Ujl naq Guenfure Eq - Pbhagl\a" +
+        "Ercbegvat Crefba: , Cubar: \a" +
+        "Qrgnvy: ec nqivfrq iruvpyr jrag guebhtu vagrefrpgvba naq ebyyrq bire",
+
+        "VQ:13-46",
+        "PBQR:1048",
+        "PNYY:Vawhel Nppqvrag",
+        "NQQE:73 Ujl naq Guenfure Eq",
+        "ZNQQE:Ujl 73 & Guenfure Eq", // abg sbhaq; vg qbrf abg ybbx yvxr gurl vagrefrpg.
+        "VASB:ec nqivfrq iruvpyr jrag guebhtu vagrefrpgvba naq ebyyrq bire");
+
+    qbGrfg("G3",
+        "(ARJBPP #13-45  Z26 - Zrqvpny Rzretrapl) ARJBPP #13-45  Z26 - Zrqvpny Rzretrapl\a" +
+        "Nqqerff: 1962 200GU Fg, Ebovafba\a" +
+        "Ercbegvat Crefba: FUNJ ZNEIVA, Cubar: 785-544-6858\a" +
+        "Qrgnvy: ec fnlf ur pnaabg urne zr cbffvoyl univat n urneg nggnpx",
+
+        "VQ:13-45",
+        "PBQR:Z26",
+        "PNYY:Zrqvpny Rzretrapl",
+        "NQQE:1962 200GU Fg",
+        "PVGL:Ebovafba",
+        "ANZR:FUNJ ZNEIVA",
+        "CUBAR:785-544-6858",
+        "VASB:ec fnlf ur pnaabg urne zr cbffvoyl univat n urneg nggnpx");
+
+    qbGrfg("G4",
+        "(ARJBPP #13-44  SverB - Sver Erfcbafr) ARJBPP #13-44  SverB - Sver Erfcbafr\a" +
+        "Nqqerff: 1674 XRFGENY EQ, Ebovafba\a" +
+        "Ercbegvat Crefba: Jvaqryy Tnafgebz, Cubar: 785-741-2829\a" +
+        "Qrgnvy: pbea svryq ba sver rnfg bs Ebovafba pbea svryq fgnegvat ba sver ec fnvq svefg abegu naq fbhgu ebnq bhg bs Ebovafba",
+
+        "VQ:13-44",
+        "PBQR:SverB",
+        "PNYY:Sver Erfcbafr",
+        "NQQE:1674 XRFGENY EQ",
+        "PVGL:Ebovafba",
+        "ANZR:Jvaqryy Tnafgebz",
+        "CUBAR:785-741-2829",
+        "VASB:pbea svryq ba sver rnfg bs Ebovafba pbea svryq fgnegvat ba sver ec fnvq svefg abegu naq fbhgu ebnq bhg bs Ebovafba");
+
+    qbGrfg("G5",
+        "(ARJBPP #13-43  SverB - Sver Erfcbafr) ARJBPP #13-43  SverB - Sver Erfcbafr\a" +
+        "Nqqerff: Svefg Havgrq Zrgubqvfg Puhepu - 410 Uvnjngun Nir, Uvnjngun\a" +
+        "Ercbegvat Crefba: HAVGRQ ZRGUBQVFG PUHEPU-Z SVEFG, Cubar: 785-742-7434\a" +
+        "Qrgnvy: Puhepu vf ba Sver",
+
+        "VQ:13-43",
+        "PBQR:SverB",
+        "PNYY:Sver Erfcbafr",
+        "CYNPR:Svefg Havgrq Zrgubqvfg Puhepu",
+        "NQQE:410 Uvnjngun Nir",
+        "PVGL:Uvnjngun",
+        "ANZR:HAVGRQ ZRGUBQVFG PUHEPU-Z SVEFG",
+        "CUBAR:785-742-7434",
+        "VASB:Puhepu vf ba Sver");
+
+    qbGrfg("G6",
+        "(ARJBPP #13-42  Z26 - Zrqvpny Rzretrapl) ARJBPP #13-42  Z26 - Zrqvpny Rzretrapl\a" +
+        "Nqqerff: Juvgr Pybhq pnfvab - Uvnjngun\a" +
+        "Ercbegvat Crefba: yneel xbrymre, Cubar: 877-652-6115\a" +
+        "Qrgnvy: cbffvoyr urneg nggnpx va pnfvab juvgr pybhq abegurnfg pbeare bs cnexvat ybg",
+
+        "VQ:13-42",
+        "PBQR:Z26",
+        "PNYY:Zrqvpny Rzretrapl",
+        "NQQE:Juvgr Pybhq pnfvab", // Pnfvab Juvgr Pybhq
+        "PVGL:Uvnjngun",
+        "ANZR:yneel xbrymre",
+        "CUBAR:877-652-6115",
+        "VASB:cbffvoyr urneg nggnpx va pnfvab juvgr pybhq abegurnfg pbeare bs cnexvat ybg");
+
+    qbGrfg("G7",
+        "(ARJBPP #13-41  1085 - Sver Nynez) ARJBPP #13-41  1085 - Sver Nynez\a" +
+        "Nqqerff: Crqrefba Frrq - 900 F 1FG Fg, Uvnjngun\a" +
+        "Ercbegvat Crefba: , Cubar: 785-742-3241\a" +
+        "Qrgnvy: Nynez pbzcnal pnyyrq naq ercbegrq n erfvqragvny sver. Gbarq rirelbar bhg naq pbzcnal pnyyrq onpx naq fnvq vg jnf n snyfr nynez",
+
+        "VQ:13-41",
+        "PBQR:1085",
+        "PNYY:Sver Nynez",
+        "CYNPR:Crqrefba Frrq",
+        "NQQE:900 F 1FG Fg",
+        "PVGL:Uvnjngun",
+        "CUBAR:785-742-3241",
+        "VASB:Nynez pbzcnal pnyyrq naq ercbegrq n erfvqragvny sver. Gbarq rirelbar bhg naq pbzcnal pnyyrq onpx naq fnvq vg jnf n snyfr nynez");
+ 
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
