@@ -282,6 +282,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   
   cevingr obbyrna purpxPnyyPbqr(Fgevat pnyy) {
     vs (!puxPnyyPbqrf) erghea gehr;
+    vs (pnyy.rdhnyf("EHA ERCBEG") ||  pnyy.rdhnyf("TRARENY NYREG")) erghea gehr;
     PbqrFrg pnyyPbqrf = cnefre.trgPnyyYvfg();
     vs (pnyyPbqrf == ahyy) erghea gehr;
     Fgevat pbqr = pnyyPbqrf.trgPbqr(pnyy);
