@@ -30,6 +30,8 @@ Fraqre: qbabgercyl@pb.zbagrerl.pn.hf
 (PNQ Cntr) 524451N - ZRB:ZRQVPNY RZRETAPL - CBEGRE QE/FNA WHNA EQ - CNW Havgf:R5213, 52N
 (PNQ Cntr) 52253N - HVN:HAX VAW NPP - 18295 CRFNAGR EQ - CEH Havgf:R5212, R5211, 52I
 (PNQ Cntr) 52344NO - ZRB:ABG KSEQ - 174 UHQFBA YNAQVAT EQ - ZPB Havgf:R5213, 52N
+(PNQ Cntr) 52161N - ZRB:ZRQVPNY RZRETAPL - 43 FCEVAT CBVAG EQ - ZPB Havgf:R5211, 52N
+(PNQ Cntr) 52251N - HVN:HAX VAW NPP - UJL 101/PENML UBEFR PNALBA EQ - CEH Havgf:R5212, ORH, 52I
    
 Pbagnpg: Npgvir911
 Ntrapl anzr: Tbamnyrf Sver Qrcnegzrag
@@ -195,7 +197,24 @@ choyvp pynff PNZbagrerlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ABG KSEQ",
         "NQQE:174 UHQFBA YNAQVAT EQ",
         "HAVG:R5213, 52N");
-  
+
+    qbGrfg("G5",
+        "(PNQ Cntr) 52161N - ZRB:ZRQVPNY RZRETAPL - 43 FCEVAT CBVAG EQ - ZPB Havgf:R5211, 52N",
+        "ZNC:52161N",
+        "PBQR:ZRB",
+        "PNYY:ZRQVPNY RZRETAPL",
+        "NQQE:43 FCEVAT CBVAG EQ",
+        "HAVG:R5211, 52N");
+
+    qbGrfg("G6",
+        "(PNQ Cntr) 52251N - HVN:HAX VAW NPP - UJL 101/PENML UBEFR PNALBA EQ - CEH Havgf:R5212, ORH, 52I",
+        "ZNC:52251N",
+        "PBQR:HVN",
+        "PNYY:HAX VAW NPP",
+        "NQQE:UJL 101 & PENML UBEFR PNALBA EQ",
+        "PVGL:CEHARQNYR",
+        "HAVG:R5212, ORH, 52I");
+
   }
 
   @Grfg
