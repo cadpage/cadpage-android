@@ -49,6 +49,44 @@ Good luck
 
 ***************************************************************************
 * AUTHENTICATION_FAILURE
+* bugreport filed - what now???
+***************************************************************************
+
+Big disclaimer, the following instructions are NOT recommended by the Google engineers.  There recommendation is to do a factory reset.  The following procedures might clear up the problem without doing a factory reset.  But they also might disable your phone to the point where you will have to do a factory reset to recover it.  To my mind, it isn't much of a risk, especially since Google seems to be in no hurry come up with a better fix.
+
+I haven't run a Gingerbread phone for a while.  If I remember correctly, you go into the main Android settinsg menu and select
+Applications > Manage Applications
+and display the "All" tab.
+
+Scroll down this list until you find Google Service Frameworks.  Select it and press the force stop, clear data, and clear cache buttons.  Then open Cadpage and try to register it with CodeMessaging again.  If it works, terrific.
+
+If it doesn't, try restarting the phone.
+
+If it still doesn't work, go back into the All Applications list and do the the Force Close, Clear Data, Clear Cache thing on
+Google Service Frameworks
+Google Play Service
+Google Play Store
+Power down your phone and then restart it
+Open the Google Play Store and use it to browse a few things to see if it is working.  Open it's account setting and make sure you have an account selected.
+
+Then try to register Cadpage with CodeMessaging again.
+
+If it still doesn't work, you are down to doing a factory reset :(
+
+So far, the factory reset has only failed to fix the problem one time.  And that user resolved the problem by getting Verizon to ship him a new phone.  If your problem persists after a factory reset, Google very much wants to talk to you.
+
+Alternate solution I should have mentioned before, but in case I haven't
+
+See if a system update is available for you phone.  From what I remember you get there by going back to Android Settings and selecting
+About Phone > Software Update > Check for Updates.
+
+If there is no system update available, and you got the phone from Verizon, you can try calling Verizon support and complaining that the phone can not be upgraded and the current software can not run critically needed software.  That is how my first user got Verizon to ship them a new phone.
+
+Good luck,
+-Ken
+
+***************************************************************************
+* AUTHENTICATION_FAILURE
 * No triggered bugreport dump
 ***************************************************************************
 
