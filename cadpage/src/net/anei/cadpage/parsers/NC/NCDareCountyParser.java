@@ -85,6 +85,7 @@ public class NCDareCountyParser extends DispatchOSSIParser {
       "DCK",     "DUCK",
       "FRI",     "FRISCO",
       "HAT",     "HATTERAS",
+      "KDH",     "KILL DEVIL HILLS",
       "KHP",     "KITTY HAWK",
       "MPT",     "MARTINS POINT",
       "NGH",     "NAGS HEAD",
