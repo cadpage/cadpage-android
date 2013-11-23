@@ -49,6 +49,13 @@ Ybpngvba: Oregubhq, Pb, Havgrq Fgngrf
 (OSCQ) (PSF) ZIN Hax Vawhel                 // 249999 Vagrefgngr 25 Fo        // Ncg/Ybg            // Enqvb:GNYX TC3                       // ZZ 250 FO V25 OREGUBHQ RKVG    // 49C1       // C331,OSQ,OR1
 (OSCQ) (PSF) Fvpx Crefba (Fcrp Qvnt) (N)    // 4gu Fg & Znffnpuhfrggf Nir     // Ncg/Ybg            // Enqvb:GNYX TC3                       //                                // 48X4       // OSQ,OR1,C331
 
+Pbagnpg: Whfgva Xvat <whfgva@agv-yyp.arg>
+Fraqre: 777485953527
+
+PVGLBSYBIRYNAQ (PSF) ZIN Rkgevpngvba                // J 43eq Fg & A Gnsg Nir         // Ncg/Ybg            // Enqvb:GNYX TC2                       // PVGLBSYBIRYNAQ // 41E1       // R266,GX6,11FG,G1,ONG1 GKG FGBC gb bcg-bhg
+PVGLBSYBIRYNAQ (PSF) Tenff Sver - Arne Fgehpgherf   // 4004 J Rvfraubjre Oyiq         // Ncg/Ybg            // Enqvb:GNYX TC2                       // PVGLBSYBIRYNAQ // 41V3       // R226,R3,R1,G1,ONG1,1FG GKG FGBC gb bcg-bhg
+PVGLBSYBIRYNAQ (PSF) Fgehpgher Sver/ Erfvqragvny    // 4069 A Pbhagl Ebnq 27          // Ncg/Ybg            // Enqvb:GNYX TC3                       // PVGLBSYBIRYNAQ // 40R1       // G1,F2,R5,GX6,ONG1,1FG,C311,G5 GKG FGBC gb bcg-bhg
+
  */
 
 choyvp pynff PBYnevzrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -317,6 +324,36 @@ choyvp pynff PBYnevzrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:48X4",
         "HAVG:OSQ,OR1,C331");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWhfgvaXvat() {
+
+    qbGrfg("G1",
+        "PVGLBSYBIRYNAQ (PSF) ZIN Rkgevpngvba                // J 43eq Fg & A Gnsg Nir         // Ncg/Ybg            // Enqvb:GNYX TC2                       // PVGLBSYBIRYNAQ // 41E1       // R266,GX6,11FG,G1,ONG1 GKG FGBC gb bcg-bhg",
+        "PNYY:ZIN Rkgevpngvba",
+        "NQQE:J 43eq Fg & A Gnsg Nir",
+        "PU:GNYX TC2",
+        "ZNC:41E1",
+        "HAVG:R266,GX6,11FG,G1,ONG1");
+
+    qbGrfg("G2",
+        "PVGLBSYBIRYNAQ (PSF) Tenff Sver - Arne Fgehpgherf   // 4004 J Rvfraubjre Oyiq         // Ncg/Ybg            // Enqvb:GNYX TC2                       // PVGLBSYBIRYNAQ // 41V3       // R226,R3,R1,G1,ONG1,1FG GKG FGBC gb bcg-bhg",
+        "PNYY:Tenff Sver - Arne Fgehpgherf",
+        "NQQE:4004 J Rvfraubjre Oyiq",
+        "PU:GNYX TC2",
+        "ZNC:41V3",
+        "HAVG:R226,R3,R1,G1,ONG1,1FG");
+
+    qbGrfg("G3",
+        "PVGLBSYBIRYNAQ (PSF) Fgehpgher Sver/ Erfvqragvny    // 4069 A Pbhagl Ebnq 27          // Ncg/Ybg            // Enqvb:GNYX TC3                       // PVGLBSYBIRYNAQ // 40R1       // G1,F2,R5,GX6,ONG1,1FG,C311,G5 GKG FGBC gb bcg-bhg",
+        "PNYY:Fgehpgher Sver/ Erfvqragvny",
+        "NQQE:4069 A Pbhagl Ebnq 27",
+        "ZNQQE:4069 A PBHAGL EBNQ 27",
+        "PU:GNYX TC3",
+        "ZNC:40R1",
+        "HAVG:G1,F2,R5,GX6,ONG1,1FG,C311,G5");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
