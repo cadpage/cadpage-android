@@ -232,9 +232,9 @@ choyvp pynff INPnebyvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G20",
         "911-PRAGRE:OEFU >OEHFU SVER ABEZNY EBTREF PYNEX OYIQ KF: NAGVDHR YA EHGURE TYRA Pnq: 2013-0000022878",
         "PBQR:OEFU",
-        "PNYY:OEHFU SVER",
-        "NQQE:ABEZNY EBTREF PYNEX OYIQ",
-        "ZNQQE:ABEZNY EBTREF PYNEX OYIQ & NAGVDHR YA", //zncf vs jbeq ABEZNY vf bzvggrq
+        "PNYY:OEHFU SVER ABEZNY",
+        "NQQE:EBTREF PYNEX OYIQ",
+        "ZNQQE:EBTREF PYNEX OYIQ & NAGVDHR YA",
         "K:NAGVDHR YA",
         "PVGL:EHGURE TYRA",
         "VQ:2013-0000022878");

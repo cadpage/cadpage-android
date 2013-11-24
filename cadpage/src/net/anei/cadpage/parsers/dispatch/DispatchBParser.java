@@ -252,6 +252,7 @@ public class DispatchBParser extends FieldProgramParser {
         "BREATHING PROBLEMS DELTA",
         "BREATHING PROBLEMS/DIFFICULTY",
         "BRUSH FIRE",
+        "BRUSH FIRE NORMAL",
         "BRUSH/GRASS/MULCH/WOODS",
         "BRUSH/RUBBISH FIRE",
         "BUILDING FIRE",
