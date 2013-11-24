@@ -31,8 +31,9 @@ choyvp pynff ALRffrkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:WISQ",
         "VQ:2013:12",
         "PNYY:RZF",
-        "NQQE:1",
-        "PVGL:zvyr FJ vag. bs NhFnoyr Qe. & FE 86 - AJ ;Wnl A");
+        "NQQE:1 zvyr FJ vag bs NhFnoyr Qe & FE 86 - AJ",
+        "ZNQQE:1 zvyr FJ vag bs NhFnoyr Qe & AL 86 - AJ",
+        "PVGL:Wnl A");
 
     qbGrfg("G2",
         "[Wnl]  WISQ:2013:10\aQVFCNGPURQ\aNynez-Sver",

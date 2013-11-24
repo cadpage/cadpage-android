@@ -252,8 +252,9 @@ choyvp pynff ALPbyhzovnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:34",
         "VQ:2013:89",
         "PNYY:06-Oernguvat Ceboyrz 06P01",
-        "CYNPR:GUEHJNL 19.00 GB 20.5",
-        "NQQE:ALF GUEHJNL",
+        "NQQE:GUEHJNL 19.00 GB 20.5",
+        "ZNQQE:GUEHJNL 19.00 GB 20.5 & ALF GUEHJNL",
+        "K:ALF GUEHJNL",
         "PVGL:PNANNA");
 
     qbGrfg("G5",
@@ -378,7 +379,7 @@ choyvp pynff ALPbyhzovnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:12",
         "VQ:2013:173",
         "PNYY:SQ-Zvfpryynarbhf Sver",
-        "CYNPR:GRFG BAYL",
+        "NQQE:GRFG BAYL",
         "PVGL:QVFERTNEQ");
 
     qbGrfg("G2",

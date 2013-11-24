@@ -110,13 +110,16 @@ public class DispatchA13Parser extends FieldProgramParser {
         data.strCross = cross;
         
         sPart1 = p.get();
-        match = CITY_PTN.matcher(sPart1);
-        if (match.matches()) {
-          String city = match.group(2).trim();
-          if (cityCodes != null) city = convertCodes(city, cityCodes);
-          data.strCity =  city;
-          sPart1 = match.group(1).trim();
+        if (data.strCity.length() == 0) {
+          match = CITY_PTN.matcher(sPart1);
+          if (match.matches()) {
+            String city = match.group(2).trim();
+            if (cityCodes != null) city = convertCodes(city, cityCodes);
+            data.strCity =  city;
+            sPart1 = match.group(1).trim();
+          }
         }
+        
         sPart1 = stripApt(sPart1, data);
         if (data.strCity.length() > 0) {
           parseAddress(sPart1, data);
@@ -127,16 +130,19 @@ public class DispatchA13Parser extends FieldProgramParser {
         // Second part is generally the cross street
         // But if it does not contain a slash or semicolon, and the
         // address isn't a recognizable address, swap this for the address
-        if (!sPart2.contains("/") && !sPart2.contains(";") &&
-            data.strPlace.length() == 0 && checkAddress(data.strAddress) == 0) {
-          data.strPlace = data.strAddress;
-          data.strAddress = "";
-          parseAddress(sPart2, data);
-        } else {
-          if (sPart2.startsWith("/")) sPart2 = sPart2.substring(1).trim();
-          if (sPart2.endsWith(";")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
-          if (sPart2.endsWith("/")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
-          data.strCross = append(data.strCross, " & ", sPart2);
+        if (sPart2.length() > 0) {
+          if (!sPart2.contains("/") && !sPart2.contains(";") &&
+              data.strPlace.length() == 0 && checkAddress(data.strAddress) == 0 &&
+              checkAddress(sPart2) >= 3) {
+            data.strPlace = data.strAddress;
+            data.strAddress = "";
+            parseAddress(sPart2, data);
+          } else {
+            if (sPart2.startsWith("/")) sPart2 = sPart2.substring(1).trim();
+            if (sPart2.endsWith(";")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
+            if (sPart2.endsWith("/")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
+            data.strCross = append(data.strCross, " & ", sPart2);
+          }
         }
       }
 

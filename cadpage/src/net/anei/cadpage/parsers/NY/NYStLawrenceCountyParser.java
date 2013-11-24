@@ -30,6 +30,12 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
     if (!subject.endsWith("911 DISPATCH")) return false;
     if (! super.parseMsg(body, data)) return false;
     
+    // Sectors should be moved to the MAP field
+    if (data.strPlace.endsWith(" SECTOR")) {
+      data.strMap = data.strPlace;
+      data.strPlace = "";
+    }
+    
     // If call contains a response code expand it to full description
     // The last part of the code may contain a leading zero which
     // will need to be removed.
@@ -66,16 +72,19 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
     
     // Dispatch sprinkles a lot of #NY terms after addresses for no apparent reason
     if (data.strApt.startsWith("NY")) data.strApt = data.strApt.substring(2).trim();
-    
-    // Check for house number separated from street address by a comma
-    if (NUMERIC.matcher(data.strAddress).matches() && data.strCity.contains(" ")) {
-      data.strAddress = data.strAddress + " " + data.strCity;
-      data.strCity = "";
+    if (data.strCity.endsWith("#NY")) {
+      data.strCity = data.strCity.substring(0,data.strCity.length()-3).trim();
     }
     
     // Redundant processing, but extra information is sometimes appended to address
     
     String addr = data.strAddress;
+    pt = addr.indexOf(" - ");
+    if (pt >= 0) {
+      data.strMap = append(data.strPlace, " - ", addr.substring(pt+3).trim());
+      addr = addr.substring(0,pt).trim();
+    } 
+      
     String saveCity = data.strCity;
     data.strAddress = "";
     parseAddress(StartType.START_ADDR, addr, data);
@@ -124,7 +133,7 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
   
   @Override
   public String getProgram() {
-    return super.getProgram().replace("CALL", "CODE CALL") + " PLACE";
+    return super.getProgram().replace("CALL", "CODE CALL").replace("CITY", "MAP CITY") + " PLACE";
   }
   
   @Override
