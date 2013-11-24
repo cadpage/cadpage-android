@@ -7,6 +7,7 @@ public class MOStLouisCountyParser extends GroupBestParser {
 
   public MOStLouisCountyParser() {
     super(new MOStLouisCountyAParser(), new MOStLouisCountyBParser(),
-        new MOStLouisCountyCParser(), new MOStLouisCountyEParser());
+        new MOStLouisCountyCParser(), new MOStLouisCountyDParser(),
+        new MOStLouisCountyEParser());
   }
 }
