@@ -16,7 +16,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
   
   public CASanBernardinoCountyParser() {
     super(CITY_CODES, "SAN BERNARDINO COUNTY", "CA",
-           "CALL! ADDR! ( XST:X LOC_INFO:PLACE! CITY! AGN_MAP:MAP! INFO UNIT CALL_INFO:INFO | LOC_INFO:PLACE AGN_MAP:MAP! X_ST:X! UNIT COMMENTS:INFO )");
+           "CALL! ADDR! ( XST:X LOC_INFO:PLACE! CITY! AGN_MAP:MAP! INFO UNIT CALL_INFO:INFO | CITY_EXT LOC_INFO:PLACE AGN_MAP:MAP! X_ST:X! UNIT COMMENTS:INFO LAT/LON:GPS )");
   }
   
   @Override
@@ -26,7 +26,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
   
   @Override
   public int getMapFlags() {
-    return MAP_FLG_SUPPR_LA;
+    return MAP_FLG_PREFER_GPS | MAP_FLG_SUPPR_LA;
   }
 
   @Override
@@ -54,9 +54,17 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
     data.strUnit = match.group(1);
     data.strPlace = body;
     return true;
-        
-    
-    
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CITY_EXT")) return new MyCityExtField();
+    if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("GPS")) return new MyGPSField();
+    return super.getField(name);
   }
   
   private class MyCallField extends CallField {
@@ -93,13 +101,25 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      data.strCity = convertCodes(p.getLast(' '), CITY_CODES);
-      if (data.strCity.equals("-")) data.strCity = "";
-      data.strApt = p.getLastOptional(" -");
-      parseAddress(p.get(), data);
+      int pt = field.lastIndexOf(' ');
+      if (pt >= 0) {
+        String city = CITY_CODES.getProperty(field.substring(pt+1).trim());
+        if (city != null) {
+          data.strCity = city;
+          field = field.substring(0,pt).trim();
+        }
+      }
+      
+      if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
+      pt = field.lastIndexOf(" -");
+      if (pt >= 0) {
+        data.strApt = field.substring(pt+2).trim();
+        field = field.substring(0,pt).trim();
+      }
 
-      int pt = data.strCity.indexOf('/');
+      parseAddress(field, data);
+
+      pt = data.strCity.indexOf('/');
       if (pt >= 0) {
         data.strPlace = data.strCity.substring(0,pt);
         data.strCity = data.strCity.substring(pt+1);
@@ -112,6 +132,27 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyCityExtField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strCity.length() == 0) {
+        int pt = field.lastIndexOf(" - ");
+        if (pt >= 0) {
+          data.strCity = convertCodes(field.substring(pt+3).trim(), CITY_CODES);
+          field = field.substring(0,pt).trim();
+        }
+      }
+      data.strPlace = append(data.strPlace, " - ", field);
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "PLACE CITY";
+    }
+    
+  }
+  
   private class MyMapField extends MapField {
     @Override
     public void parse(String field, Data data) {
@@ -122,7 +163,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
   
   private static final Pattern PRO_QA_PTN = Pattern.compile(" *\\[ProQA .*?\\] *");
   private static final Pattern CODE_PTN = Pattern.compile("\\bDispatch code: *(\\w+)\\b");
-  private static final Pattern GPS_PTN = Pattern.compile("W(?:PH2|911) LAT:([-+]?[\\d\\.]+) LON:([-+]?[\\d\\.]+) .*");
+  private static final Pattern INFO_GPS_PTN = Pattern.compile("W(?:PH2|911) LAT:([-+]?[\\d\\.]+) LON:([-+]?[\\d\\.]+) .*");
   private static final String[] SKIP_MARKERS = new String[]{
     "External",
     "Automatic Case Number(s)",
@@ -145,7 +186,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
       }
 
       for (String fld : field.split(",")) {
-        match = GPS_PTN.matcher(fld);
+        match = INFO_GPS_PTN.matcher(fld);
         if (match.matches()) {
           data.strGPSLoc = match.group(1) + ',' + match.group(2);
           continue;
@@ -170,13 +211,15 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("MAP")) return new MyMapField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
+  private static final Pattern GPS_FIELD_PTN = Pattern.compile("(\\d+)(\\d{6}) */ *(\\d+)(\\d{6})");
+  private class MyGPSField extends GPSField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = GPS_FIELD_PTN.matcher(field);
+      if (!match.matches()) return;
+      field = match.group(1) + '.' + match.group(2) + ',' + match.group(3) + '.' + match.group(4);
+      setGPSLoc(field, data);
+    }
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
