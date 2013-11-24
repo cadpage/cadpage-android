@@ -395,7 +395,6 @@ Jean -- Assistant to Ken Corbin
 Thanks for your email.  You are now fully registered on our paid subscriber list for a one-year Cadpage subscription.  
 
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
-
 You no longer need the authorization code I gave you previously.
 
 Thanks so much for your support,
