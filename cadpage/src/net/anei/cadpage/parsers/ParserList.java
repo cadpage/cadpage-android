@@ -417,6 +417,7 @@ public class ParserList {
               ,"MOCarrollCounty"                ,"Carroll County, MO"
               ,"MOChristianCounty"              ,"Christian County, MO"
               ,"MOCrawfordCounty"               ,"Crawford County, MO"
+              ,"MODallasCounty"                 ,"Dallas County, MO"
               ,"MOFestus"                       ,"Festus, MO"
               ,"MOGasconadeCounty"              ,"Gasconade County, MO"
               ,"MOGreeneCounty"                 ,"Greene County, MO"
