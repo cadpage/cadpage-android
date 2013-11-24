@@ -122,7 +122,7 @@ choyvp pynff APTngrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "359 HF 13 A RHER 2013-11-6696 10:33:37 Zrqvpny 80SRZNYR BPN: 2013-11-6696",
-        "NQQE:359 HF 13 A", // sbhaq gur uvtujnl, abg gur ahzore hayrff lbh gnxr bhg gur A
+        "NQQE:359 HF 13 A",
         "PVGL:RHER",
         "VQ:2013-11-6696",
         "GVZR:10:33:37",
@@ -398,7 +398,8 @@ choyvp pynff APTngrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G31",
         "50 GVCF FGBER GEYE CNEX TNGRF 2013-11-6456 19:13:59 Zrqvpny FRIRER URNQNPUR OYHR WRGGN VA SEBAG BPN: 2013-11-6456",
-        "NQQE:50 GVCF FGBER GEYE CNEX", //  zncf rnfvyl vs GEYE orpbzrf GE
+        "NQQE:50 GVCF FGBER GEYE CNEX",
+        "ZNQQE:50 GVCF FGBER GE CNEX",
         "PVGL:TNGRF",
         "VQ:2013-11-6456",
         "GVZR:19:13:59",
@@ -492,7 +493,7 @@ choyvp pynff APTngrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G41",
         "3443 EBPXL UBPX EBNQ - AJ FRPGBE RQRAGBA 2013-11-6309 15:40:24 Zrqvpny GEHPX JVGU GJB CRBCYR VAFVQR ABG ERFCBAQVAT, IBZVG VAFVQR GUR IRUVPYR BPN: 2013-11-6309",
         "NQQE:3443 EBPXL UBPX EBNQ",
-        "PVGL:RQRAGBA", // Rqragba vf va Pubjna Pbhagl, AP
+        "PVGL:RQRAGBA",
         "VQ:2013-11-6309",
         "GVZR:15:40:24",
         "PNYY:Zrqvpny",
@@ -772,9 +773,7 @@ choyvp pynff APTngrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G72",
         "0 ZVQQYR FJNZC EQ NAQ OYNPX ZVATYR 2013-10-6010 08:48:28 ZIP jvgu Vawhel FVATYR IRUVPYR NPPVQRAG CBFFVOYR OEBXRA YRT, PNE VF FZBXVAT BPN: 2013-10-6010",
-        "NQQE:ZVQQYR FJNZC EQ",
-        "ZNQQE:ZVQQYR FJNZC EQ & NAQ OYNPX ZVATYR",
-        "K:NAQ OYNPX ZVATYR", // zncf ng Pbencrnxr, AP
+        "NQQE:ZVQQYR FJNZC EQ & OYNPX ZVATYR",
         "VQ:2013-10-6010",
         "GVZR:08:48:28",
         "PNYY:ZIP jvgu Vawhel",

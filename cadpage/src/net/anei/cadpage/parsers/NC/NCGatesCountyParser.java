@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.NC;
 
 
 import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /**
@@ -12,6 +13,17 @@ public class NCGatesCountyParser extends DispatchSouthernParser {
   
   public NCGatesCountyParser() {
     super(CALL_LIST, CITY_LIST, "GATES COUNTY", "NC", DSFLAG_CROSS_NAME_PHONE | DSFLAG_FOLLOW_CROSS);
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (body.startsWith("0 ")) body = body.substring(2).trim();
+    return super.parseMsg(body, data);
+  }
+
+  @Override
+  public String adjustMapAddress(String addr) {
+    return addr.replace(" TRLR PARK", " TR PARK");
   }
 
 
