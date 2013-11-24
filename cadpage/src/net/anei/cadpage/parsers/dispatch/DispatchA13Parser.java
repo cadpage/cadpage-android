@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,13 +12,21 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchA13Parser extends FieldProgramParser {
   
+  private static final String PROGRAM = "SRCID? DISPATCHED CALL! ADDR";
+  
+  private Properties cityCodes = null;
+  
   public DispatchA13Parser(String defCity, String defState) {
-    this(null, defCity, defState);
+    super(defCity, defState, PROGRAM);
+  }
+  
+  public DispatchA13Parser(Properties cityCodes, String defCity, String defState) {
+    super(cityCodes, defCity, defState, PROGRAM);
+    this.cityCodes = cityCodes;
   }
   
   public DispatchA13Parser(String[] cityList, String defCity, String defState) {
-    super(cityList, defCity, defState,
-           "SRCID? DISPATCHED CALL! ADDR");
+    super(cityList, defCity, defState, PROGRAM);
   }
 
   @Override
@@ -52,8 +61,10 @@ public class DispatchA13Parser extends FieldProgramParser {
   
   // Address field contains address, city, and possibly cross streets
   private static final Pattern MISMATCH_PAREN_PTN = Pattern.compile("(\\([^\\)]*)(?=\\()");
+  private static final Pattern NUMBER_COMMA_PTN = Pattern.compile("([-\\d]+), *(.*)");
   private static final Pattern STATE_PTN = Pattern.compile(", *([A-Z]{2})$");
   private static final Pattern APT_PREFIX_PTN = Pattern.compile("^(?:APT|RM) *");
+  private static final Pattern CITY_PTN = Pattern.compile("(.*)(?:;| - )(.*)");
   private class BaseAddressField extends AddressField {
     
     @Override
@@ -61,6 +72,10 @@ public class DispatchA13Parser extends FieldProgramParser {
       
       // Missed right parens cause a problem.  If we find any add a closing right paren.
       field = MISMATCH_PAREN_PTN.matcher(field).replaceAll("$1)");
+      
+      // And some agencies have a comma following the initial street number
+      Matcher match = NUMBER_COMMA_PTN.matcher(field);
+      if (match.matches()) field = match.group(1) + ' ' + match.group(2);
       
       // Break address field into stuff before, inside, and after two sets of parenthesis
       Parser p = new Parser(field);
@@ -80,7 +95,7 @@ public class DispatchA13Parser extends FieldProgramParser {
       
       // Otherwise, first part is the address and city
       else {
-        Matcher match = STATE_PTN.matcher(sPart1);
+        match = STATE_PTN.matcher(sPart1);
         if (match.find()) {
           data.strState = match.group(1);
           sPart1 = sPart1.substring(0, match.start()).trim();
@@ -94,12 +109,15 @@ public class DispatchA13Parser extends FieldProgramParser {
         if (cross.startsWith("X ")) cross = cross.substring(2).trim();
         data.strCross = cross;
         
-        sPart1 = stripApt(p.get(), data);
-        int pt = sPart1.lastIndexOf(" - ");
-        if (pt >= 0) {
-          data.strPlace = sPart1.substring(pt+3).trim();
-          sPart1 = sPart1.substring(0,pt).trim();
+        sPart1 = p.get();
+        match = CITY_PTN.matcher(sPart1);
+        if (match.matches()) {
+          String city = match.group(2).trim();
+          if (cityCodes != null) city = convertCodes(city, cityCodes);
+          data.strCity =  city;
+          sPart1 = match.group(1).trim();
         }
+        sPart1 = stripApt(sPart1, data);
         if (data.strCity.length() > 0) {
           parseAddress(sPart1, data);
         } else {
@@ -107,10 +125,19 @@ public class DispatchA13Parser extends FieldProgramParser {
         }
         
         // Second part is generally the cross street
-        if (sPart2.startsWith("/")) sPart2 = sPart2.substring(1).trim();
-        if (sPart2.endsWith(";")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
-        if (sPart2.endsWith("/")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
-        data.strCross = append(data.strCross, " & ", sPart2);
+        // But if it does not contain a slash or semicolon, and the
+        // address isn't a recognizable address, swap this for the address
+        if (!sPart2.contains("/") && !sPart2.contains(";") &&
+            data.strPlace.length() == 0 && checkAddress(data.strAddress) == 0) {
+          data.strPlace = data.strAddress;
+          data.strAddress = "";
+          parseAddress(sPart2, data);
+        } else {
+          if (sPart2.startsWith("/")) sPart2 = sPart2.substring(1).trim();
+          if (sPart2.endsWith(";")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
+          if (sPart2.endsWith("/")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
+          data.strCross = append(data.strCross, " & ", sPart2);
+        }
       }
 
       // The rest contains city names, cross streets and/or supp info
@@ -160,8 +187,13 @@ public class DispatchA13Parser extends FieldProgramParser {
     private String stripApt(String part, Data data) {
       int pt = part.indexOf('#');
       if (pt >= 0) {
-        String apt = APT_PREFIX_PTN.matcher(part.substring(pt+1).trim()).replaceAll("");
-        data.strApt = append(data.strApt, " - ", apt);
+        String apt = part.substring(pt+1).trim();
+        if (apt.startsWith("PVT")) {
+          data.strPlace = append(data.strPlace, " - ", apt);
+        } else { 
+          apt = APT_PREFIX_PTN.matcher(part.substring(pt+1).trim()).replaceAll("");
+          data.strApt = append(data.strApt, " - ", apt);
+        }
         part = part.substring(0,pt).trim();
       }
       return part;
@@ -176,7 +208,7 @@ public class DispatchA13Parser extends FieldProgramParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("SRCID")) return  new SourceIdField();
-    if (name.equals("DISPATCHED")) return new SkipField("Dispatched", true);
+    if (name.equals("DISPATCHED")) return new SkipField("Dispatched|Terminated", true);
     if (name.equals("ADDR")) return new BaseAddressField();
     return super.getField(name);
   }
