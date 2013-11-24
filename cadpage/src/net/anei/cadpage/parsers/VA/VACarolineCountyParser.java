@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 public class VACarolineCountyParser extends DispatchB2Parser {
   
   public VACarolineCountyParser() {
-    super("911-CENTER:",CITY_LIST, "CAROLINE COUNTY", "VA");
+    super("911-CENTER:", CITY_LIST, "CAROLINE COUNTY", "VA");
   }
   
   private static final String[] CITY_LIST = new String[]{
