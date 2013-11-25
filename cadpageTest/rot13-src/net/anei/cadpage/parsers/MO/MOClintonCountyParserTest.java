@@ -11,7 +11,41 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Cynggfohet Sver Cebgrpgvba Qvfgevpg
 Ybpngvba: Cynggfohet, ZB, Havgrq Fgngrf
 Fraqre: <qvfcngpu@pyvagbapbfurevss.bet>
+Fraqre: Ebq ZpDhreerl <ezpdhreerl@cynggfohetsver.bet>
+Fraqre: JTevssva@pyvagbapbfurevss.bet
 
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 8069, URZCYR\aErcbegvat Crefba: URNGURE URAQREFBA, Cubar: 816-473-2309\aQrgnvy: 73 ZNYR- UNF ORRA GUEBJVAT HC FYHEERQ FCRRPU
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: Gbja naq pbhagel pbapbeq - Cynggfohet\aErcbegvat Crefba: , Cubar: 816-244-1900\aQrgnvy: pne ba sver
+(ARJBPP #BHGF  GENSS - Genssvp) ARJBPP #BHGF  GENSS - Genssvp\aNqqerff: Yneel'f Bar Fgbc - 1202 J Pynl Nir, Cynggfohet\aVAPVQRAG VA CEBTERFF\aErcbegvat Crefba: , Cubar: \aQrgnvy: BJARE ANZR        PVGL       YVP    YVL  ILE   IZN  XBI       IVA\aSBK ERZVATGBA P &  CYNGGFOH*N LP0M8N   13   09   YVAP  C  3YAUZ26G79E617926\aSBK PUNEYRF & ERZ  CYNGGFOHET LP0M8N   15   11   FHON  C  WS1TI8W60OY509420
+Genvavat! Genvavat! Fgehg naq Nveont genvavat Ubyg yrnivat fgngvba ng 0830\a\a\aFrag ivn gur Fnzfhat TNYNKL F®4, na NG&G 4T YGR fznegcubar
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 307 A 3Eq, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: 8165390610
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 232 F  169 Ujl, Tbjre\aErcbegvat Crefba: , Cubar: \aQrgnvy: 80 SRZNYR FXA GRNE JBA'G FGBC OYRRQVAT- URNEGYNAQ
+(ARJBPP #BHGF  JRNGU - Frirer Jrngure) ARJBPP #BHGF  JRNGU - Frirer Jrngure\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: ZBQBG VF TBVAT BHG NG 1900 UBHEF- HFR PNHGVBA- FABJ NAQ FYRRG NPPHZHYNGVBAF BS NA VAPU BE YRFF NYBAT JVGU N YVTUG TYNMVAT BS VPR.
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 103 F Znva Fg, Cynggfohet\aErcbegvat Crefba: , Cubar: 8162710222\aQrgnvy:
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 711 F Ovepu Nir, Cynggfohet\aErcbegvat Crefba: , Cubar: 816-536-3375\aQrgnvy:
+(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: JR PHEERAGYL QB ABG UNIR  YBAT QVFGNAPR CUBAR YVARF BE 911- PNYYREF GUNG NER PNYYVAT SEBZ N 424 BE 539 AHZORE PNA FGVYY PBAGNPG HF. RZRETRAPL ZNAT. VF CHGGVAT HC N ZFT BA SNPROBBX YRGGVAT GUR CHOYVP XABJ- NYY PBAGNPG JVYY OR BA GUR ENQVB- JRAQVR
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Ncg 2 - 306 A L Ujl, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: 65 srznyr sryy- va cnva
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 702 J Ybpghf, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: 46 lbs uvfgbel bs frvmherf, fubegarff bs oerngu
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: FZVGUIVYYR YNXR- UHAGVAT- JVAQ OYBJVAT QBJA GERR NAQ SRYY QBJA BA GUR 15 LRNE BYQF YRT- FCEVATGBJA EQ 5 BE 6 ZVYRF JURER YNXR ZRRGF GUR EBNQ
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 1371 FJ Gbja & Pbhagel Eq, Pyvagba Pbhagl\aErcbegvat Crefba: QVARF, Cubar: 816-592-1032\aQrgnvy: SVRYQ BA SVER-
+(ARJBPP #BHGF  VAIFG - Vairfgvtngvba) ARJBPP #BHGF  VAIFG - Vairfgvtngvba\aNqqerff: 214 J Jnyahg Fg, Cynggfohet\aErcbegvat Crefba: ZVPURYYR, Cubar: 816-592-0083\aQrgnvy: TNF YVAR OHFGRQ BCRA
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 702 J Ybphfg Fg, Ebfraqnyr\aErcbegvat Crefba: Wbua Uhsszna, Cubar: \aQrgnvy: arvtuobe npgvir frvmher
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: Wnzvr Ybirny, Cubar: 816-695-0721\aQrgnvy: xhex ebnq bss X ujl, vg vf whfg va gur svryq naq na nonaqbarq ubhfr, gur jvaq vf gnxvat vs bss, vg vf va n pbea svryq abj  A ba X sebz 116 cnfg gur whapgvba bs H & X tb jrfg ba Xvex eq
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 402 A OYHSS, Cynggfohet\aErcbegvat Crefba: ZNELNAZVPX816-592-0418, Cubar: \aQrgnvy: PURFG CNVA, 67LBS, FUR VF ABG NOYR GB FGNAQ HC P&O
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Pyvagba Pner & Eruno Pragre - 253 R Uvtujnl 116 (Oyqt), Pyvagba Pbhagl\aErcbegvat Crefba: zryvffn, Cubar: \aQrgnvy: 35 lb cflpu ivbyrag arrqf gb or genafsrerq gb fzvguivyyr
+Eruno Grfg Cntr 105 Ohfu Fgerrg\a\a\aEbq ZpDhreerl\a\aPncgnva bs Bcrengvbaf\a\aCynggfohet Sver Cebgrpgvba Qvfgevpg\a\a(816) 592-0159\a\aezpdhreerl@cynggfohetsver.bet
+(ARJBPP #BHGF  EQPYBF - EBNQ PYBFVAT) ARJBPP #BHGF  EQPYBF - EBNQ PYBFVAT\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: II UJL- AA GB AJ 316GU JVYY PYBFR GBAVTUG 11-12-13 JVYY ERBCRA 11-13-13 1500 UBHEF BE YNGRE
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 35 - 703 Pragre Fg, Ynguebc\aErcbegvat Crefba: wj pbk, Cubar: \aQrgnvy: purfg cnva- 72 znyr-
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 305 Zncyr Fg, Ynguebc\aErcbegvat Crefba: , Cubar: \aQrgnvy: 2 lrne byq srznyr
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: Ebtre Xrarql, Cubar: 592-0039\aQrgnvy: Sver bhgfvqr bs cynggfohet fbhgu funire eq rnfg fvqr gnyy synzrf nobhg 15-20 srrg gnyy
+Eruno arrqrq ng 105 ohfu fgerrg\a\a\aFrag ivn gur Fnzfhat TNYNKL F®4, na NG&G 4T YGR fznegcubar
+(Sjq: ARJBPP #BHGF  ZRQV - Zrqvpny) \a\a\aFrag ivn gur Fnzfhat TNYNKL F�4, na NG&G 4T YGR fznegcubar\a\a\a\a-------- Bevtvany zrffntr --------\aSebz: qvfcngpu@pyvagbapbfurevss.bet\aQngr: 11/10/2013 1:21 CZ (TZG-06:00)\aGb: Oenq Ynjerapr <oynjerapr@cynggfohetsver.bet>,Ebq ZpDhreerl <ezpdhreerl@cynggfohetsver.bet>,8329-AiKNJAqJpCUCWCqa@nyreg.npgvir911.pbz,zrfbrkgerzr@tznvy.pbz,oynve.fubpx@pyvagbapbzb.bet\aFhowrpg: ARJBPP #BHGF ZRQV - Zrqvpny\a\a\aARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 606 J Oebnqjnl, Cynggfohet\aErcbegvat Crefba: , Cubar: 816-724-6625\aQrgnvy: Rcryrfcl CG, fuhag va urnq, guebjvat hc aba erfcbafvir
+(Sjq: ARJBPP #BHGF  NYNEZ - Nynez) \a\a\aFrag ivn gur Fnzfhat TNYNKL F�4, na NG&G 4T YGR fznegcubar\a\a\a\a-------- Bevtvany zrffntr --------\aSebz: qvfcngpu@pyvagbapbfurevss.bet\aQngr: 11/11/2013 9:17 NZ (TZG-06:00)\aGb: Oenq Ynjerapr <oynjerapr@cynggfohetsver.bet>,Ebq ZpDhreerl <ezpdhreerl@cynggfohetsver.bet>,8329-AiKNJAqJpCUCWCqa@nyreg.npgvir911.pbz,zrfbrkgerzr@tznvy.pbz,oynve.fubpx@pyvagbapbzb.bet\aFhowrpg: ARJBPP #BHGF NYNEZ - Nynez\a\a\aARJBPP #BHGF  NYNEZ - Nynez\aNqqerff: Fpubby - Cynggfohet\aErcbegvat Crefba: , Cubar:\aQrgnvy:
+(ARJBPP #BHGF  NYNEZ - Nynez) ARJBPP #BHGF  NYNEZ - Nynez\aNqqerff: Fpubby - Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy:
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 606 J Oebnqjnl, Cynggfohet\aErcbegvat Crefba: , Cubar: 816-724-6625\aQrgnvy: Rcryrfcl CG, fuhag va urnq, guebjvat hc aba erfcbafvir
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: Pyvagba Pner & Eruno Pragre - 253 R Uvtujnl 116 (Oyqt), Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: 8006870668\aQrgnvy: pbzrepvny sver nynez
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 1402 F Bnx Fg, Cynggfohet\aErcbegvat Crefba: elna thlrgg, Cubar: 8167393642\aQrgnvy: 48 lb s, ynlvat ba sybbe pbapvbhf oneryl gnyxvat
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: TENFF SVER, P UJL 1/2 ZVYR A BS 208GU FG, RNFG FVQR BS GUR EQ
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 405 A L Ujl (Ncg 3), Cynggfohet\aErcbegvat Crefba: znex, Cubar: 8165920580\aQrgnvy: 50 lb srznyr unirvat gebhoyr oernguvat
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Bnxevqtr Ahefvat Ubzr - 205 R Pynl Nir, Cynggfohet\aErcbegvat Crefba: QBEGUL, Cubar: 816-539-2128\aQrgnvy: 212 EZ OL GUR JVAQBJ, 89LBS, SNYY VAWHEL FUR VF OYRRQVAT BA URE SBERURNQ, P&O
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Pyvagba Pner & Eruno Pragre - 253 R Uvtujnl 116 (Oyqt), Pyvagba Pbhagl\aErcbegvat Crefba: WNZVR, Cubar: 816-539-2376\aQrgnvy: BHG BS PBAGEBY ERFVQRAG, EZ 209, 35 LBS, FUR VF N CULP CG, FUR VF OV CBYNE NAQ FUR VF BHG BS PBAGBY
@@ -73,51 +107,37 @@ Fraqre: <qvfcngpu@pyvagbapbfurevss.bet>
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 1407 J Pbapbeq Qe, Cynggfohet\aErcbegvat Crefba: travr vatenunz, Cubar: 5390470\aQrgnvy:
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 507 A 5Gu Fg, Cynggfohet\aErcbegvat Crefba: Xraal Xryyl, Cubar: 816-539-2869\aQrgnvy: arrqf nzohynapr
 (ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: grfg
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 1804 Ohaxre Uvyy Qe, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: fvrmher
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Nccyr Cynmn Ncnegzragf - 716 A Znva Fg, Cynggfohet\aErcbegvat Crefba: rinyva, Cubar: 5390134\aQrgnvy: 80
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Nccyr Cynmn Ncnegzragf - 716 A Znva Fg, Cynggfohet\aErcbegvat Crefba: rinyva, Cubar: 5390134\aQrgnvy: 80
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Bnxevqtr Ahefvat Ubzr - 205 R Pynl Nir, Cynggfohet\aErcbegvat Crefba: Znefun, Cubar: 816-539-2128\aQrgnvy: EZ 110, noabezny ynof, vagreany oyrrqvat fbzrjurer, 73 lbs
-(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: Cynggfohet Sver Cebgrpgvba Qvfgevpg - 105 Ohfu Fg (Qrcg), Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: GRFG NYREG - GENVAVAT QVFCNGPU - CYRNFR FRYRPG LBHE ERFCBAFR
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 414 J Bfntr Fg, Cynggfohet\aErcbegvat Crefba: Angnfun Fgbar, Cubar: 816-930-1938\aQrgnvy: pnzr ubzr sbe yhapu naq qnhtugre 27 lbs, hax ba qehtf, fur znl abg or oernguvat, fur vf fvggvt va gur punve,
-(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: HF Onax - 104 F Znva Fg (Oyqt), Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy:
-(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: TB GB GUR HF ONAX CNEXVAT YBG GB URYC FRG HC SBE FHCCRE GBAVTUG
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 406, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy:
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 607 A 6Gu Fg, Cynggfohet\aErcbegvat Crefba: Orggl Wnzrf, Cubar: 816-539-3868\aQrgnvy: 76 lrne byq sryy bhg bs orq naq ur pnag trg hc, nez vf oyrrqvat. Unf orra fvpx gur ynfg srj qnlf
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Pyvagba Pner & Eruno Pragre - 253 R Uvtujnl 116 (Oyqt), Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: arpx cnva- srznyr purfg cnva
-(ARJBPP #BHGF  EQPYBF - EBNQ PYBFVAT) ARJBPP #BHGF  EQPYBF - EBNQ PYBFVAT\aNqqerff: Znva fg, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: PYBFRQ SEBZ GBAVTUG-GHRFQNL- GUEBHTU FHAQNL NZ
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 253 Ujl 116, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy:
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Bnxevqtr Ahefvat Ubzr - 205 R Pynl Nir, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: Erfvqrag arrqf genafcbegrq gb Pnzreba Ubfcvgny yrtf ner fjbyyra jvgu oyvfgref jnez gb gur gbhpu naq qnex.
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 253 R 116 Ujl, Ynguebc\aErcbegvat Crefba: WNZVR, Cubar: 816-539-2376\aQrgnvy: EZ 115, NYGRERQ ZRAGNY FGNGHF FUR VF HAERFCBAFVIR, 92LBS
-(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 505 Pynl fg, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: ubhfr sver synzrf ba yrsg fvqr
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Bnxevqtr Ahefvat Ubzr - 205 R Pynl Nir, Cynggfohet\aErcbegvat Crefba: Wvzzl, Cubar: 816-539-2128\aQrgnvy: 97 lbs, fbo, ez 110 jvaqbj fvqr
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Cynggfohet Snzvyl Zrqvpvar - 214 A Znva Fg (Oyqt), Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: srznyr purfg cnvaf
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 546 AR 280Gu Fg, Pyvagba Pbhagl\aErcbegvat Crefba: fhr qrfuba, Cubar: 816-277-4268\aQrgnvy: uhfonaq uheg uvf onpx, 55 lbz, jvgu n onpx vawhel p & o
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 406 A 4Gu Fg, Cynggfohet\aErcbegvat Crefba: qravfr fzvgu, Cubar: 930-2405\aQrgnvy: snyy, haxabja ntr, ncg 406
-(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: Pyvagba Pbhagl Pbheg Ubhfr - 207 A Znva Fg (Oyqt), Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: Erpbeqvatvat Genvavat ivqrb sbe Npgvir911. Nyy havgf cyrnfr erfcbaq ninvynoyr be haninvynoyr
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 406 A L Ujl, Cynggfohet\aErcbegvat Crefba: Znevr Obgure, Cubar: 816-592-0643\aQrgnvy: snyyra va gur lneq, fur vf evtug orfvqr ure qbbe, ncg 18, uvg n fubiry be fbzrguvat va ure onpx naq uvg ure urnq, fur vf abg noyr gb gryy vs fur vf oyrrqvat, 71lbs
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Fvk Zvyr Ynar Ncnegzragf - 405 A L Ujl, Cynggfohet\aErcbegvat Crefba: ZNEX QRZVG, Cubar: 816-592-9563\aQrgnvy: 50LBS, FUR VF GUEBJVAT HC, FUR VF ABG NOYR GB UBYQ NALGUVAT QBJA,  NCNEGZRAGF 6 ZVYR YNAR NCNEGZRAGF, NCG 3
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Fvk Zvyr Ynar Ncnegzragf - 405 A L Ujl, Cynggfohet\aErcbegvat Crefba: ZNEX QRZVG, Cubar: 816-592-9563\aQrgnvy: 50LBS, FUR VF GUEBJVAT HC, FUR VF ABG NOYR GB UBYQ NALGUVAT QBJA,  NCNEGZRAGF 6 ZVYR YNAR NCNEGZRAGF, NCG 3
-(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: Pyvagba Pner & Eruno Pragre - 253 R Uvtujnl 116 (Oyqt), Pyvagba Pbhagl\aErcbegvat Crefba: Zryyvfn, Cubar: 816-539-2376\aQrgnvy: Culf cngvrag jnf
-(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: 303 Cngevpvn  Fg, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: grfg cntr bayl
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 613 J Pynl Nir, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy:
-(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: 3488 FJ Ubyvqnl Uneobe Pve, Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: grfg cntr
-(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: GRFG CNTR
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 253 R 116 Ujl, Ynguebc\aErcbegvat Crefba: Wnzvr, Cubar: 816-539-2376\aQrgnvy: 25 lbs, fur ovg bar bs gur nvqf, arrqf gb tb gb fzvguivyyr, pyvagba pner naq eruno
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 104 Flpnzber Pve, Cynggfohet\aErcbegvat Crefba: , Cubar: 816-582-4254\aQrgnvy: srznyr sryy va gur xvgpura- sebag cbepu va gur sebt-
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 709 Dhnvy Cy, Cynggfohet\aErcbegvat Crefba: , Cubar: 800-634-3915\aQrgnvy: Zrqvpny sebz onfr havg qrivpr jvgu ab erfcbafr.  Xabja gb unir uvtu oybbq cerffher naq whfg unq yrsg uvc uvfgbel ers 8294932  Fvgr npprff tnentr qbbe pbqr 1000 tb guebhtu vafvqr qbbe gb ubzr.
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 1501 Yrkvatgba Ya, Cynggfohet\aErcbegvat Crefba: wnarg Zbeel, Cubar: 816-390-4361\aQrgnvy: sryy rneyvre gbqnl naq fur pna abg trg hc naq vf ba gur sybbe 76 lbs, fur vf abg oyrrqvat fur vf abg vawherq gung gurl ner noyr gb frr, uvcf ner fber
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Ncneg #2 - 306 A Ujl L\aErcbegvat Crefba: Yrfyvr Pnegre, Cubar: 816-489-0395\aQrgnvy: 65 lrne byq srznyr univat cnva va obgu yrtf, fjbyyra naq erq univat gebhoyrf jnyxvat. Znegun
-(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: Uvtu Fpubby - 800 Sebfg Fg (Oyqt), Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: Sbbgonyy
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 498 AJ 272Aq, Pyvagba Pbhagl\aErcbegvat Crefba: Ovyy Uneevfba, Cubar: 816-\aQrgnvy: 71 le byq srznyr fubeg bs oerngu. Vf ba B2
-(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: Uvtu Fpubby - 800 Sebfg Fg (Oyqt), Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: SBBGONYY
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Onvyrl & Pbk Shareny Ubzr - 408 Rnfg Fg (Oyqt), Ynguebc\aErcbegvat Crefba: xRIVA ABEEVF, Cubar: 816-539-2162\aQrgnvy: NG GUR FREIVPR TNENTR QBBEF, AB FHER JUNG VF TBVAT BA.
-(ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: Ghearl\aErcbegvat Crefba: Oevna qhpgba, Cubar: 816-449-8296\aQrgnvy: ar uhtrf eq va ghearl zb pne nppvqrag n yvggyr tvey naq n thl vf genccrq va gur pne, nmgrp jrag guebhtu n srapr, pebff fg vf bss bs G ujl, vg vf ba gur jurryf
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ynguebc Sver naq Erfphr
 Ybpngvba: Ynguebc, ZB, Havgrq Fgngrf
 Fraqre: <qvfcngpu@pyvagbapbfurevss.bet>
 
+(ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: 116 nsgre 35 - Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy:
+(ARJBPP #BHGF  JRNGU - Frirer Jrngure) ARJBPP #BHGF  JRNGU - Frirer Jrngure\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: ZBQBG VF TBVAT BHG NG 1900 UBHEF- HFR PNHGVBA- FABJ NAQ FYRRG NPPHZHYNGVBAF BS NA VAPU BE YRFF NYBAT JVGU N YVTUG TYNMVAT BS VPR.
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 2394 FR Craaflyinavn Ya, Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: 60 srznyr- univat gebhoyr oernguvat
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 303 Pragre Fg, Ynguebc\aErcbegvat Crefba: , Cubar: \aQrgnvy: jvsr funxvat puvyyf ibzvgvat
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 2394 FR Craaflyinavn Ya, Pyvagba Pbhagl\aErcbegvat Crefba: nzore, Cubar: 8167404407\aQrgnvy: 60 lb srznyr yvsg nffvfg, zf
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 106 Cnex Fg, Ynguebc\aErcbegvat Crefba: Fgrir ZpTertbe, Cubar: 816-740-4562\aQrgnvy: 80 lbz univat ceboyrzf jnyxvat, vf jrrx
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: r7 - 117 Fbhgu Fg, Ynguebc\aErcbegvat Crefba: Cngevpvn Uvym, Cubar: 8165283364\aQrgnvy: 62 lbs unq n fvrmher n srj ubhef ntb, hafher ubj ybat fur jnf bhg bs vg. jbxr hc ba gur sybbe unq uvg urnq ba gur pbhagre naq sryy onpx bagb gur gnoyr jbxr hc ba gur sybbe, freire urnq npur fvpx gb ure fgbznpu unq ibzvgrq fhssref sebz cgfq
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 2238 FR Ujl 69, Ynguebc\aErcbegvat Crefba: eboreg qnaare, Cubar: 816-777-8861\aQrgnvy: frpbaq evtug ba 116 cnfg nqqerff- onea ba sver 75 sg sebz ubhfr
+(ARJBPP #BHGF  NYNEZ - Nynez) ARJBPP #BHGF  NYNEZ - Nynez\aNqqerff: 102 A FPUBBY QE, Ynguebc\aErcbegvat Crefba: , Cubar: 888-746-7539\aQrgnvy: SVER NYNEZ- YNGUEBC UVTU FPUBBY
+(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: 403 Furevqna Fg, Ghearl\aErcbegvat Crefba: PYVSS NKGRYY, Cubar: 816-664-2800\aQrgnvy: SBHAQ N OBK BS BS OYNFGVAT PNCF-
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 309 Cvar Fg, Xvqqre\aErcbegvat Crefba: zvxr, Cubar: 8166544005\aQrgnvy: 37 lb srznyr ivbyragyl vyy
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 603 Jnyahg Fg, Ynguebc\aErcbegvat Crefba: obo, Cubar: 4178255621\aQrgnvy: 76 lb znyr snyyra va orqebbz
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 410 Cnex Fg, Ynguebc\aErcbegvat Crefba: , Cubar: 5283696\aQrgnvy: 66 lb znyr,
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 105 Cnex Fg, Ynguebc\aErcbegvat Crefba: , Cubar: \aQrgnvy: yvsg nffvfg
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 501 Zncyr fg, Ynguebc\aErcbegvat Crefba: enycu ehcr, Cubar: 816-528-3456\aQrgnvy: Pbzr gb onpx qbbe- jvsr sryy lrfgreqnl, hanoyr gb jnyx srznyr 93- yvoregl
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 3299 AR 280Gu Fg, Pyvagba Pbhagl\aErcbegvat Crefba: wbrl unhtf, Cubar: 4054106765\aQrgnvy: 63 pnapre cngvrag ba bkltra pnag oerngu\aynaq yvar 8165283384 ynetr juvgr snez ubhfr yrsg unaq fvqr guebhtu gur lvryq fvta
+(ARJBPP #BHGF  QVFGEO - Qvfgheonapr) ARJBPP #BHGF  QVFGEO - Qvfgheonapr\aNqqerff: 109 Pbapun Fg, Ynguebc\aErcbegvat Crefba: , Cubar: \aQrgnvy: juvgr iruvpyr rnfg obhaq svtug va gur cnexvat ybg nyy yrsg gur nern
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 2409 AR 288Gu Fg, Pyvagba Pbhagl\aErcbegvat Crefba: qnyr qvpxfba, Cubar: 816-592-1137\aQrgnvy: 72 znyr fvtaf bs n fgebxr-ghearl
+(ARJBPP #BHGF  EQPYBF - EBNQ PYBFVAT) ARJBPP #BHGF  EQPYBF - EBNQ PYBFVAT\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: II UJL- AA GB AJ 316GU JVYY PYBFR GBAVTUG 11-12-13 JVYY ERBCRA 11-13-13 1500 UBHEF BE YNGRE
+(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: 615 Inyyrl Qe, Ynguebc\aErcbegvat Crefba: , Cubar: \aQrgnvy:
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 35 - 703 Pragre Fg, Ynguebc\aErcbegvat Crefba: wj pbk, Cubar: \aQrgnvy: purfg cnva- 72 znyr-
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 305 Zncyr Fg, Ynguebc\aErcbegvat Crefba: , Cubar: \aQrgnvy: 2 lrne byq srznyr
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 410 Cnex Fg, Ynguebc\aErcbegvat Crefba: wnarg, Cubar: 5283696\aQrgnvy: 66 lb znyr qvmml pbyq fjrng
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: N UJL Jrfg fvqr 1/2 Zvyr Fbhgu bs Ghearl - Ghearl\aErcbegvat Crefba: Pbaabe, Cubar: 816-284-5177\aQrgnvy: Pnyyre nqivfvat n 66 lb znyr cnffvat va naq bhg, qvnorgvp naq uvfgbe\l bs haxabja pneqvp vffhrf
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 622 Zncyr Fg, Ynguebc\aErcbegvat Crefba: YVAQN FGRIRAF, Cubar: 816-528-3558\aQrgnvy: 55 LBZ, SRYY NAQ VF ABG NORY GB TRG HC, UR VF ABG UHEG,
 (ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: Avpx, Cubar: 816-351-7691\aQrgnvy: syvccrq n pne bss gur ebnq bss 116 bhg fvqr bs ynguebc gbjneqf ubyg, ba 33 cnfg gur fubj tebhaqf, ol gur jngre gbjre ba gur yrsg,  gur qevire vf funxra hc ohg ur vf jnyxvat nebhaq, wrrc 88, fbhgu ba 33 ujl cnfg ynguebc
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Gur uhatel zrny - 300 Abegu Fg, Ynguebc\aErcbegvat Crefba: xnl punayre, Cubar: 5286294\aQrgnvy: 82 lb znyr, nobhg gb cnff bhg oybbq va hevar
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 622 Zncyr Fg, Ynguebc\aErcbegvat Crefba: yvaqn, Cubar: 5283558\aQrgnvy: 55 lb znyr yvsg nffvfg,
@@ -188,6 +208,28 @@ Ybpngvba: Ubyg, ZB, Havgrq Fgngrf
 Fraqre: <qvfcngpu@pyvagbapbfurevss.bet>
 Fraqre: oelna.jnypbgg@npgvir911.pbz
 
+(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: Ubyg\aErcbegvat Crefba: , Cubar: \aQrgnvy: RKGENPNGVBA GENVAVAT NG 1300 UEF NG GUR UBYG FGNGVBA
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 7102 FR Fubfubar Qe, Pyvagba Pbhagl\aErcbegvat Crefba: Qneyrrar Svfure, Cubar: 816-560-3075\aQrgnvy: 55 lbs unf snyyra bhg bs orq naq pna abg trg hc
+(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: Ubyg\aErcbegvat Crefba: , Cubar: \aQrgnvy: RKGENPNGVBA GENVAVAT NG GUR FGNGVBA NG 0900
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 1805 CNQBK QE, XRNEARL\aErcbegvat Crefba: , Cubar: \aQrgnvy: ZHGHNY NVQ SBE XRNEARL
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 5595 FR Pnalba Qe, Pyvagba Pbhagl\aErcbegvat Crefba: oevggnal nyyra, Cubar: 8163516626\aQrgnvy: zna jnyxvat qbja teniry ebnq, oybbq ba unaqf pbyq fyheerq fcrnpu, pheeragyl pbirerq hc jvgu oynaxrg
+(ARJBPP #BHGF  JRNGU - Frirer Jrngure) ARJBPP #BHGF  JRNGU - Frirer Jrngure\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: ZBQBG VF TBVAT BHG NG 1900 UBHEF- HFR PNHGVBA- FABJ NAQ FYRRG NPPHZHYNGVBAF BS NA VAPU BE YRFF NYBAT JVGU N YVTUG TYNMVAT BS VPR.
+(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: JR PHEERAGYL QB ABG UNIR  YBAT QVFGNAPR CUBAR YVARF BE 911- PNYYREF GUNG NER PNYYVAT SEBZ N 424 BE 539 AHZORE PNA FGVYY PBAGNPG HF. RZRETRAPL ZNAT. VF CHGGVAT HC N ZFT BA SNPROBBX YRGGVAT GUR CHOYVP XABJ- NYY PBAGNPG JVYY OR BA GUR ENQVB- JRAQVR
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 18005 33 UJL, Ubyg\aErcbegvat Crefba: , Cubar: \aQrgnvy: YNETR UNL BA SVER- PYBFR GB UBHFR-
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Ynxr neebjurnq - 6009 Zbunjx qe, Ynguebc\aErcbegvat Crefba: , Cubar: \aQrgnvy: 78 univat gebhoyr oernguvat
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: RyVVATGBA NAQ PYNL - Ubyg\aErcbegvat Crefba: , Cubar: \aQrgnvy: FZNYY SVER
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 2238 FR Ujl 69, Ynguebc\aErcbegvat Crefba: eboreg qnaare, Cubar: 816-777-8861\aQrgnvy: frpbaq evtug ba 116 cnfg nqqerff- onea ba sver 75 sg sebz ubhfr
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 200 BYQ PNAABA ONYY EQ, Ubyg\aErcbegvat Crefba: WNPXVR BQRYY, Cubar: 816-721-1753\aQrgnvy: wNPXVR bQRYY, PURFG CNVA, 62LBS NCG 12 FRAVBE PVGVMRAF UBZR
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 7220 FR 206Gu Fg, Pyvagba Pbhagl\aErcbegvat Crefba: FUNAABA RTTBAUNEG, Cubar: 816-442-4722\aQrgnvy: ZBGURE VAYNJ NAQ FUR VF ABG NJNXR, FUR TBG PNHTUG HC VA URE ORQ ENVYVAT 87LBS
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 5746 FR Cvar Ynar, Ubyg\aErcbegvat Crefba: cuvyyvf znunz, Cubar: 816-825-6051\aQrgnvy: ur vf abg jnxvat hc fur vf abg noyr gb jnxr uvz hc, 54lbz, knanvk naq zbecuvar
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 7211 FR Creera Eq, Pyvagba Pbhagl\aErcbegvat Crefba: YVQVN EBORFBA, Cubar: 816-320-3845\aQrgnvy: UVTU OC, FUR VF ABG SRRYVAT JRYY 78LBS, FUR VF ABG VA CNVA FUR VF WHFG FVPX GB URE FGBZNP
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: PUEVF, Cubar: 818-535-7720\aQrgnvy: CC & ZBBER EQ, GURER VF N GEHPX BA SVER BA GUR EVTUG UNAQ FVQR BS GUR EBNQ JVGU TNF PNAF VA GUR ONPX, SYNZRF NER IVFVOYR, GEHPX VF N SBEQ 350 SYNG ORQ JUVGR
+(ARJBPP #BHGF  VAIFG - Vairfgvtngvba) ARJBPP #BHGF  VAIFG - Vairfgvtngvba\aNqqerff: 7876 Evpxre, Ubyg\aErcbegvat Crefba: xrcyvatre, Cubar: 816-824-0744\aQrgnvy:
+(ARJBPP #BHGF  EQPYBF - EBNQ PYBFVAT) ARJBPP #BHGF  EQPYBF - EBNQ PYBFVAT\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: II UJL- AA GB AJ 316GU JVYY PYBFR GBAVTUG 11-12-13 JVYY ERBCRA 11-13-13 1500 UBHEF BE YNGRE
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 1700 Qrboenu Qevir, Xrnearl\aErcbegvat Crefba: , Cubar: \aQrgnvy: Zhg Nvq gb gur fprar bs n fgehpgher sver sbe Xrnearl.
+(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: 180 ZvfGL YNAR, Ubyg\aErcbegvat Crefba: EBOREG, Cubar: 816-320-3730\aQrgnvy: 65LBS, FUR VF UNIVAT PURFG CNVA, FUR VF HZO NYY BIRE,  FUR VF YNLVAT QBJA P&O
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: CC & 33 UJL - Ubyg\aErcbegvat Crefba: , Cubar: \aQrgnvy: FZNYY SVER
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 4001 FR 209Gu Fg, Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy:
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 7710 FR Zbber Eq, Pyvagba Pbhagl\aErcbegvat Crefba: gbal cheyre, Cubar: 8163040313\aQrgnvy: 10 lb qvfybpngrq uvf yrsg ryobj
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Angvba ebnq abegu 176gu - Pynl pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: bar iruvpyr ebyy bire
 (ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: V35 fbhgu 26ZZ - Pynl Pb\aErcbegvat Crefba: , Cubar: \aQrgnvy:
@@ -212,11 +254,7 @@ Fraqre: oelna.jnypbgg@npgvir911.pbz
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\a\aNqqerff: 350 Qlxrf ynar, Ubyg\a\aErcbegvat Crefba: , Cubar: \a\aQrgnvy:
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\a\aNqqerff: 2000 Funaxf Ebnq, Ubyg\a\aErcbegvat Crefba: , Cubar: \a\aQrgnvy: Nqivfvat gung ure tenaqqnhtugre jnf sbhaq va gur cbaq  \achyfryrff naq aba oernguva
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 19803 Funaxf Ebnq, Ubyg\aErcbegvat Crefba: , Cubar:\aQrgnvy: Nqivfvat gung ure tenaqqnhtugre jnf sbhaq va gur cbaq  \achyfryrff naq aba oernguva
-(Grfg 2) ARJBPP #BHGF  ZRQV - Zrqvpny\a\aNqqerff: 190 Qlxrf ynar, Ubyg\a\aErcbegvat Crefba: , Cubar: \a\aQrgnvy:
-(grfg) Grfg sebz N911
-(Grfg) ARJBPP #BHGF  ZRQV - Zrqvpny\a\aNqqerff: 190 Qlxrf ynar, Ubyg\a\aErcbegvat Crefba: , Cubar: \a\aQrgnvy:
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 190 Qlxrf ynar, Ubyg\aErcbegvat Crefba: , Cubar:\aQrgnvy:
-(grfg) Grfg sebz Npgvir911
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 190 Qlxrf ynar, Ubyg\aErcbegvat Crefba: , Cubar: \aQrgnvy:
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 5100 FR Pnalba Qe, Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: 816-740-4214\aQrgnvy: 53 qvorgvp guebjvat hc jrag hapbfpvbhf abj pbafpvbhf naq guebjvat hc
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 6740 FR VFYRL QEVIR, Ubyg\aErcbegvat Crefba: OVYYL UNEEVF, Cubar: 816-264-0187\aQrgnvy: 45 LBZ, OERNGUVAT NAQ GHEAVAT CHECRY
@@ -230,6 +268,54 @@ Ntrapl anzr: Gev-Pbhagl Nzohynapr Qvfgevpg
 Ybpngvba: Cynggfohet, ZB, Havgrq Fgngrf
 Fraqre: <qvfcngpu@pyvagbapbfurevss.bet>
 
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 8069, URZCYR\aErcbegvat Crefba: , Cubar: \aQrgnvy: 73 ZNYR- UNF ORRA GUEBJVAT HC FYHEERQ FCRRPU
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Bnxevqtr Ahefvat Ubzr - 205 R Pynl Nir, Cynggfohet\aErcbegvat Crefba: Ybevr, Cubar: 816-539-2128\aQrgnvy: 95 lbs nakvrgl nobhg 45 zvahgrf yngre oernguvat bx b2 fgng vf bx, abg erfcbaqvat gb ireonyf naq npgvat jrveq
+(ARJBPP #BHGF  GENSS - Genssvp) ARJBPP #BHGF  GENSS - Genssvp\aNqqerff: Yneel'f Bar Fgbc - 1202 J Pynl Nir, Cynggfohet\aVAPVQRAG VA CEBTERFF\aErcbegvat Crefba: , Cubar: \aQrgnvy: BJARE ANZR        PVGL       YVP    YVL  ILE   IZN  XBI       IVA\aSBK ERZVATGBA P &  CYNGGFOH*N LP0M8N   13   09   YVAP  C  3YAUZ26G79E617926\aSBK PUNEYRF & ERZ  CYNGGFOHET LP0M8N   15   11   FHON  C  WS1TI8W60OY509420
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 307 A 3Eq, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: 8165390610
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 5211 FR 140 EBNQ\aErcbegvat Crefba: , Cubar: \aQrgnvy: ZNYR CNEGL GUERNGF BS FHVQ. GNXRA 90 CYHF CVYYF
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 232 F  169 Ujl, Tbjre\aErcbegvat Crefba: , Cubar: \aQrgnvy: 80 SRZNYR FXA GRNE JBA'G FGBC OYRRQVAT- URNEGYNAQ
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 323 F 169 Ujl, Tbjre\aErcbegvat Crefba: fnaqen, Cubar: 8164246483\aQrgnvy: genafsre gb fg. yhxrf abegu
+(ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: 116 nsgre 35 - Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy:
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 2394 FR Craaflyinavn Ya, Pyvagba Pbhagl\aErcbegvat Crefba: nzore fhzzref, Cubar: 816-740-4407\aQrgnvy: 60 srznyr- univat gebhoyr oernguvat
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Ncg O - 627 Cbeg Neguhe Eq, Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: srznyr jvgu pebarf-
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 303 Pragre Fg, Ynguebc\aErcbegvat Crefba: , Cubar: \aQrgnvy: jvsr funxvat puvyyf ibzvgvat
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: rqtregba\aErcbegvat Crefba: Puevfgl, Cubar: 816-739-1578\aQrgnvy: 1 oybpx jrfg bs 801 ularf gna sebag cbepu frpbaq cebcregl gb gur abegu, 55 lbz unf snyyra bss gur cbhepu naq oebxra yrt
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 106 Cnex Fg, Ynguebc\aErcbegvat Crefba: Fgrir ZpTertbe, Cubar: 816-740-4562\aQrgnvy: 80 lbz univat ceboyrzf jnyxvat, vf jrrx
+(ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: 169 abegu bhgfvqr bs gevzoyr - Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: 868-5414\aQrgnvy: fbhgu cnfgher,  ebyy bire fvatyr pne
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 711 F Ovepu Nir, Cynggfohet\aErcbegvat Crefba: , Cubar: 816-536-3375\aQrgnvy:
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Ncg 2 - 306 A L Ujl, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: 65 srznyr sryy- va cnva
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 702 J Ybpghf, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: 46 lbs uvfgbel bs frvmherf, fubegarff bs oerngu
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: r7 - 117 Fbhgu Fg, Ynguebc\aErcbegvat Crefba: Cngevpvn Uvym, Cubar: 8165283364\aQrgnvy: 62 lbs unq n fvrmher n srj ubhef ntb, hafher ubj ybat fur jnf bhg bs vg. jbxr hc ba gur sybbe unq uvg urnq ba gur pbhagre naq sryy onpx bagb gur gnoyr jbxr hc ba gur sybbe, freire urnq npur fvpx gb ure fgbznpu unq ibzvgrq fhssref sebz cgfq
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 2238 FR Ujl 69, Ynguebc\aErcbegvat Crefba: eboreg qnaare, Cubar: 816-777-8861\aQrgnvy: frpbaq evtug ba 116 cnfg nqqerff- onea ba sver 75 sg sebz ubhfr
+(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: 403 Furevqna Fg, Ghearl\aErcbegvat Crefba: PYVSS NKGRYY, Cubar: 816-664-2800\aQrgnvy: SBHAQ N OBK BS BS OYNFGVAT PNCF-
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 309 Cvar Fg, Xvqqre\aErcbegvat Crefba: zvxr, Cubar: 8166544005\aQrgnvy: 37 lb srznyr ivbyragyl vyy
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 410 Cnex Fg, Ynguebc\aErcbegvat Crefba: wnarg, Cubar: 5283696\aQrgnvy: 66 lb znyr, oybbq cerffher ybj ec erdhrfgrq bayl svefg erfcbaqref ng guvf gvzr
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: FZVGUIVYYR YNXR- UHAGVAT- JVAQ OYBJVAT QBJA GERR NAQ SRYY QBJA BA GUR 15 LRNE BYQF YRT- FCEVATGBJA EQ 5 BE 6 ZVYRF JURER YNXR ZRRGF GUR EBNQ
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 1371 FJ Gbja & Pbhagel Eq, Pyvagba Pbhagl\aErcbegvat Crefba: QVARF, Cubar: 816-592-1032\aQrgnvy: SVRYQ BA SVER-
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 501 Zncyr fg, Ynguebc\aErcbegvat Crefba: enycu ehcr, Cubar: 816-528-3456\aQrgnvy: Pbzr gb onpx qbbe- jvsr sryy lrfgreqnl, hanoyr gb jnyx srznyr 93- yvoregl
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 702 J Ybphfg Fg, Ebfraqnyr\aErcbegvat Crefba: Wbua Uhsszna, Cubar: \aQrgnvy: arvtuobe npgvir frvmher
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: Wnzvr Ybirny, Cubar: 816-695-0721\aQrgnvy: xhex ebnq bss X ujl, vg vf whfg va gur svryq naq na nonaqbarq ubhfr, gur jvaq vf gnxvat vs bss, vg vf va n pbea svryq abj  A ba X sebz 116 cnfg gur whapgvba bs H & X tb jrfg ba Xvex eq
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 3299 AR 280Gu Fg, Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: 63 pnapre cngvrag ba bkltra pnag oerngu
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 402 A OYHSS, Cynggfohet\aErcbegvat Crefba: ZNELNAZVPX816-592-0418, Cubar: \aQrgnvy: PURFG CNVA, 67LBS, FUR VF ABG NOYR GB FGNAQ HC P&O
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Pyvagba Pner & Eruno Pragre - 253 R Uvtujnl 116 (Oyqt), Pyvagba Pbhagl\aErcbegvat Crefba: zryvffn, Cubar: \aQrgnvy: 35 lb cflpu ivbyrag arrqf gb or genafsrerq gb fzvguivyyr
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Pyvagba Pner & Eruno Pragre - 253 R Uvtujnl 116 (Oyqt), Pyvagba Pbhagl\aErcbegvat Crefba: zryvffn, Cubar: \aQrgnvy: 35 lb cflpu ivbyrag arrqf gb or genafsrerq gb fzvguivyyr
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 203 Pyvagba Fg, Ynguebc\aErcbegvat Crefba: URNGURE YRIRY, Cubar: 816-344-0544\aQrgnvy: NCG 3, 36LBS, SRYY NAQ UHEG URE ONPX NAQ UVC, FUR VF ABG OYRRQVAT SEBZ NALJURER QBBE VF HAYBPXRQ
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 2409 AR 288Gu Fg, Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: 72 znyr fvtaf bs n fgebxr-ghearl
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 8102 AJ Byq 169 Ujl, Tbjre\aErcbegvat Crefba: Trenyq Qhatl, Cubar: 816-385-3396\aQrgnvy: Znyr pevgvpny urneg CG abg npgvat evtug ur vf pelvat frrzf gb or hafgnoyr.  Jnf frra ng gur XP IN  ubfcvgny gbqnl sbe haxabja urneg pbaqvgvba
+(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 619 Cbeg Neguhe Ebnq Ncg 7, Gevzoyr\aErcbegvat Crefba: , Cubar: 816-500-8314\aQrgnvy: Pnyyre vf nqivfvat gung ure sheanapr vf ba sver, fzbxr pbzvat sebz sheanapr, crbcyr ner bhg ohg crg vf vafvqr.
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 212 A Jbbqjneq, Rnfgba\aErcbegvat Crefba: , Cubar: 816-473-4441\aQrgnvy: Oernguvat ceboyrz 76le byq znyr pbyba pnapre fhetrel n srj jrrxf ntb pbhtuvat hc oybbq 86% b2 ab nve ng erfvqrapr cnyr naq puvyyvat sebz urnegynaq nohynapr
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 212 A Jbbqjneq, Rnfgba\aErcbegvat Crefba: , Cubar: 816-473-4441\aQrgnvy: Oernguvat ceboyrz 76le byq znyr pbyba pnapre fhetrel n srj jrrxf ntb pbhtuvat hc oybbq 86% b2 ab nve ng erfvqrapr cnyr naq puvyyvat sebz urnegynaq nohynapr
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 308 A Pbhagl Yvar Eq, Tbjre\aErcbegvat Crefba: , Cubar: \aQrgnvy: purfg cnva, 91lbs, p&o unf tvira 3 avgebf
+(ARJBPP #BHGF  EQPYBF - EBNQ PYBFVAT) ARJBPP #BHGF  EQPYBF - EBNQ PYBFVAT\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: II UJL- AA GB AJ 316GU JVYY PYBFR GBAVTUG 11-12-13 JVYY ERBCRA 11-13-13 1500 UBHEF BE YNGRE
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 7361 FJ 223Eq Fg, Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: 86 srznyr univat n uneq gvzr oernguvat
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 35 - 703 Pragre Fg, Ynguebc\aErcbegvat Crefba: wj pbk, Cubar: \aQrgnvy: purfg cnva- 72 znyr-
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 305 Zncyr Fg, Ynguebc\aErcbegvat Crefba: , Cubar: \aQrgnvy: 2 lrne byq srznyr
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: ncg 2 - 204 Fbhgu Fubeg evqtr, rnfgba\aErcbegvat Crefba: , Cubar: \aQrgnvy: evtug oruvaq gur cbfg bssvpr- qvmml naq fjrngvat znyr 60
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 606 J Oebnqjnl, Cynggfohet\aErcbegvat Crefba: , Cubar: 816-724-6625\aQrgnvy: Rcryrfcl CG, fuhag va urnq, guebjvat hc aba erfcbafvir
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Tbjre Pbai Pragre - 323 F 169 Uvtujnl, Tbjre\aErcbegvat Crefba: Ynhen, Cubar: 816-424-6483\aQrgnvy: Znyr erfvqrag unf ha pbagebyynoyr abfr oyrrq.
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: N UJL Jrfg fvqr 1/2 Zvyr Fbhgu bs Ghearl - Ghearl\aErcbegvat Crefba: Pbaabe, Cubar: 816-284-5177\aQrgnvy: Pnyyre nqivfvat n 66 lb znyr cnffvat va naq bhg, qvnorgvp naq uvfgbe\l bs haxabja pneqvp vffhrf
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 1402 F Bnx Fg, Cynggfohet\aErcbegvat Crefba: elna thlrgg, Cubar: 8167393642\aQrgnvy: 48 lb s, ynlvat ba sybbe pbapvbhf oneryl gnyxvat
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Ncg Q - 323 F 169 Ujl, Tbjre\aErcbegvat Crefba: WNZVR, Cubar: 816-273-9929\aQrgnvy: SNGURE VF UNIVAT OYBBQ VA UVF HEVAR, 82LBZ, P&O,
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 405 A L Ujl (Ncg 3), Cynggfohet\aErcbegvat Crefba: znex, Cubar: 8165920580\aQrgnvy: 50 lb srznyr unirvat gebhoyr oernguvat
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Pnzreba Ertvbany Zrqvpny Pragre - 1600 R Rireterra Fg, Pnzreba\aErcbegvat Crefba: , Cubar: \aQrgnvy:
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Bnxevqtr Ahefvat Ubzr - 205 R Pynl Nir, Cynggfohet\aErcbegvat Crefba: QBEGUL, Cubar: 816-539-2128\aQrgnvy: 212 EZ OL GUR JVAQBJ, 89LBS, SNYY VAWHEL FUR VF OYRRQVAT BA URE SBERURNQ, P&O
@@ -282,60 +368,16 @@ Fraqre: <qvfcngpu@pyvagbapbfurevss.bet>
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 252aq - Pyvagba Pbhagl\aErcbegvat Crefba: Znegun Svayrl, Cubar: 816-390-2928\aQrgnvy: Obo Zvpx W4 ab chyfr ab oernguvat ibzvg ba uvf snpr, svefg ebnq fbhgu qravf Arrqf Sbeq qrnyre svefg qevirjnl gb gur yrsg yvtugf ba gur cbfg ba gur srapr
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 8751 AR 272Aq Fg, Pyvagba Pbhagl\aErcbegvat Crefba: Wrffvr Xrry, Cubar: 816-588-2980\aQrgnvy: 10 le byq znyr fgbznpu cnvaf rdhny chcvyf
 (ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 808 JbYS QE, Ynguebc\aErcbegvat Crefba: GUBZNF JBBFYRL, Cubar: 816-592-9790\aQrgnvy: ZNYR CNEGL HAX NTR, SRRYF YVXR FBZGUVAT VF YBQTRQ VA GUEBNG, RIREL GVZR UR PNHTUF SRRYF YVXR N FUNEC CNVA.
-(ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: V-35 f 36.2 - Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: nppvqrag erfhygrq sebz p naq v pnyy rneyvre, iruvpyr jnf geniryvat ng rfgvzngrq 2-5 zvyrf cre ubhe ba gur vagrefgngr, terra ubaqn nppbeq 768mdp VN
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Pyvagba Pner & Eruno Pragre - 253 R Uvtujnl 116 (Oyqt), Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: pnyyrq nzohynapr qverpg
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 253 R UJL 116, Cynggfohet\aErcbegvat Crefba: ZRYVFFN, Cubar: 816-539-2376\aQrgnvy: PYVAGBA PNER NAQ ERUNO, SNYY URNQ VAWHEL AB OYRRQVAT, XABG NAQ N QEBCVAT EVTUG RLR, 81 LBS
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Cynggr naq Creel - 206 F Cynggr Nir, Rqtregba\aErcbegvat Crefba: , Cubar: \aQrgnvy: Ybj 02 yriryf fhowrpg vf ba irag
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 1403 F Bnx Fg, Cynggfohet\aErcbegvat Crefba: SERQ GENLYBE, Cubar: 816-288-4937\aQrgnvy: ZNYR CNEGL SRYY NAQ OEBXR UVF NAXYR- GBC BS FGNVEF QBBE VF HAYBPXRQ
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 676 R Uvtujnl 116, Cynggfohet\aErcbegvat Crefba: Oevna, Cubar: 816-539-2310\aQrgnvy: 70 lb srznyr zf cg jvgu cbffvoyr fgebxr, uvtu oc, oyheerq ivfvba
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 5704 FJ 225Gu Fg, Pyvagba Pbhagl\aErcbegvat Crefba: Xnevffn Xraarql, Cubar: 816-682-6148\aQrgnvy: 27 lbs, 2aq certanapl 9zbguf certarag, fur unf orra guebjvat hc nyy qnl, fur unf orra qevaxvat jngre, zbguref anzr vf Pbaavr
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 781 FR 222Aq Fg, Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: 82 ZNYR OERNGUVAT OHG EC PNAG TRG UVZ NJNXR
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Zrqvpny Pyvavp - 400 J Pynl Nir, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: purfg cnva ybj o/c znyr 64
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Bnxevqtr Ahefvat Ubzr - 205 R Pynl Nir, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy: SRZNYR- 95 SHYY PBQR- PCE FGNEGRQ
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 7361 FJ 223Eq Fg, Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: 86 srznyr bkltra pnag trg yriryf nobir 92
-(ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: 310 Cvar, Ynguebc\aErcbegvat Crefba: Ybhvf Unzvygba, Cubar: 816-528-3183\aQrgnvy: NGI uvg cbjre cbyr,
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 5890 FR Pnaaba Onyy Eq, Ubyg\aErcbegvat Crefba: , Cubar: \aQrgnvy: 70 leb znyr
-(ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: oyhr pne 33 ujl i ujl
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Tbjre Pbainyrfrag - 323 F 169 Ujl, Tbjre\aErcbegvat Crefba: , Cubar: 816-424-6483\aQrgnvy: Ybj oybbq cerffher ybj urneg engr znyr 91 lrnef unf ynfgrq nobhg 15 zvahgrf
-(ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: V 35 36 zz abegu obhaq - Pyvagba Pbhagl\aErcbegvat Crefba: anapl, Cubar: 816-617-5755\aQrgnvy: erne raq qbqtr nqiratre erq, puril fhi
-(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 6881 R 116 Ujl, Ynguebc\aErcbegvat Crefba: TJE, Cubar: 8772387730\aQrgnvy: SVER NYNEZ, XRL UBYQREF NER ABG GURER,  ZNVA UNYJNL GNZZL NAQ ENAQL OEBJA
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Pyvagba Pner Naq Eruno - 253 R 116 Ujl, Cynggfohet\aErcbegvat Crefba: Wnzvr, Cubar: 816-539-2376\aQrgnvy: 52 lbz, ur vf orvat vengr naq ur vf abg sbyybjvat pbznaqf be nalguvat, ur vf abg n unez gb uvz frys be bguref ng guvf gvzr,
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 324 Envyebnq Nir, Tbjre\aErcbegvat Crefba: , Cubar: \aQrgnvy:
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Cynggfohet Ncnegzragf - 101 A Prqne Fg, Cynggfohet\aErcbegvat Crefba: Znetrerg Fubrznxre, Cubar: 913-530-5633\aQrgnvy: 92 lbs snyyra naq pnaabg trg hc, bhgfvqr va gur cnexvat ybg arne ure pne, erqvfu va pbybe
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Fnggyr pyho tebhaqf - Cynggfohet\aErcbegvat Crefba: Yvfn, Cubar: 816-592-0116\aQrgnvy: enapu ebqrb, znyr jnf vacnvyrq ol fgrre ubea. zvq 40'f oyrrqvat sebz noqbzvar. oruvaq gur sbbgonyy svryqf
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 724 Xnl Qe, Ynguebc\aErcbegvat Crefba: Wvz Gbjafraq, Cubar: 816-528-3256\aQrgnvy: oybbq hevar, jnf ng gur ubfcvgny n srj qnlf ntb sbe n HGV
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Ynguebc snve tebhaqf - Ynguebc\aErcbegvat Crefba: Ebtre Furezna, Cubar: 660-334-0939\aQrgnvy: sryy bss bs gur enzc, lbhat srznyr, ab oyrrqvat snve tebhaqf ol gur trareny fgber
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 1006 Zbber Qe, Cynggfohet\aErcbegvat Crefba: nzl furcrenq, Cubar: 8164893026\aQrgnvy:
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Tbjre Pbainyrfprag Pragre - 323 F Uvtujnl 169, Tbjre\aErcbegvat Crefba: , Cubar: \aQrgnvy: Znyr 60 LB ybj b2, fbo cbffvoyr CR uvfgbel bs fgebxrf
-(ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: EBNQ U naq ujl 33- cvpx hc naq frzv- gurl ner oybpxvat gur ebnq GUERR BE SBHE ABEGU BS 116
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 4875 FR Ujl j, Ynguebc\aErcbegvat Crefba: , Cubar: 816-215-7375\aQrgnvy: cnva va onpx naq qbja ure fvqr-
-(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 253 R Ujl 116, Cynggfohet\aErcbegvat Crefba: Oenqyrl, Cubar: 800-687-0668\aQrgnvy: ahefvat ubzr pyvagba pbhagl pner naq eruno, ngrzcg gb trg nubyq bs xrl ubyqref
-(ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: Tnzovab'f Cvmmn - 505 Bnx Fg (Oyqt), Ynguebc\aErcbegvat Crefba: nagubal crbcyrf, Cubar: 5929049\aQrgnvy:
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: GERK - Ynguebc\aErcbegvat Crefba: , Cubar: \aQrgnvy: JBZRA SRYY VA QVAARE-
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 305 Zncyr Fg, Ynguebc\aErcbegvat Crefba: , Cubar: \aQrgnvy: 2 lrne srznyr univat n frvmher- uneq gvzr oernguvat
-(ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: 169 ujl fbhgu bs 116 - Uvtujnl 169\aErcbegvat Crefba: xheeva furygba, Cubar: 816-699-0250\aQrgnvy: 1 zvyr fbhgu bs 116 ba 169ujl 2007 juvgr tenaq cer 4 qbbe
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 3959 FJ 253eq, Pyvagba Pbhagl\aErcbegvat Crefba: whql xraarql, Cubar: 816-539-0483\aQrgnvy: 57 lbz purfg cnvaf 45 zvahgrf ntb
-(ARJBPP #BHGF  ZVFP - Zvfpryynarbhf) ARJBPP #BHGF  ZVFP - Zvfpryynarbhf\aNqqerff: 302 A. Znva, Gevzoyr\aErcbegvat Crefba: Ebqarl Naqrefba, Cubar: 816-665-3408\aQrgnvy: Abg va n tbbq cynpr, qrcerffrq. gubhtugf bs uhegvat uvzfrys. Sver nezf va gur ubhfr, abguvat bhg va gur bcra.
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 4100 AJ 308gu Fgerrg, Cynggfohet\aErcbegvat Crefba: Funjan, Cubar: 592-0393\aQrgnvy: Ohpxrq bss n ubefr vf nyreg naq pbafpvbhf whfg va n ybg bs cnva
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 9733 FJ Uvtujnl M, Gevzoyr\aErcbegvat Crefba: , Cubar: 816-547-8011\aQrgnvy: Uhfonaq sryy bss ynggre sebz tnentr, oebxra nez ba gur sybbe.  12 sg ynqqre
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: Bnxevqtr Ahefvat Ubzr - 205 R Pynl Nir, Cynggfohet\aErcbegvat Crefba: Wvzzl, Cubar: 816-539-2128\aQrgnvy: ahefrf fgngvba, 84lbS, snyy naq uvg ure urnq, ab oyrrqvat funec cnva va gur urnq
-(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 197 FR 216Gu Fg, Pyvagba Pbhagl\aErcbegvat Crefba: Natryn, Cubar: \aQrgnvy: tbvat gb or va cynggfohet, sver nynez havg N
-(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: Znegva Ohveaf, Cubar: 816-482-7739\aQrgnvy: ujl 35 42.0, fbhgu obhaq, erne raq bs gur gehpx vf ba sver,
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 26 Jrfg bnx, Gevzoyr\aErcbegvat Crefba: , Cubar: \aQrgnvy: 7 lrne byq srznyr gebhoyr oernguvat
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 2161 AR N Ujl, Ynguebc\aErcbegvat Crefba: Znel WB Oebja, Cubar: 528-3124\aQrgnvy: uhfonaq sryy bss gur orq pna abg trg hc
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 2998 FR 69 ujl, Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: 816-405-2072\aQrgnvy:
-(ARJBPP #BHGF  EQPYBF - EBNQ PYBFVAT) ARJBPP #BHGF  EQPYBF - EBNQ PYBFVAT\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: , Cubar: \aQrgnvy: 280gu naq 1 zvyr rnfg bs V35 - bar zvyr jrfg rfgrc- gur oevqtr vf bhg gvy gbzbeebj
-(ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag) ARJBPP #BHGF  IRU - Iruvpyr Nppvqrag\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: Nyvfun sbegarl, Cubar: 816-377-4057\aQrgnvy: 116 rnfg obhaq 169 & 116, fur vf fcrnxvat abg fher vs fur vf vawherq fur vf genccrq va gur pne ng guvf gvzr, fur vf va pnzreb M28
-(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 407 Abegu Fg. \g, Ynguebc\aErcbegvat Crefba: tyraa zbagrtbzrel, Cubar: \aQrgnvy:
-(ARJBPP #BHGF  SVER - Sver) ARJBPP #BHGF  SVER - Sver\aNqqerff: 407 Abegu Fg. \g, Ynguebc\aErcbegvat Crefba: tyraa zbagrtbzrel, Cubar: \aQrgnvy:
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 1407 J Pbapbeq Qe, Cynggfohet\aErcbegvat Crefba: , Cubar: \aQrgnvy:
-(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 507 A 5Gu Fg, Cynggfohet\aErcbegvat Crefba: Xraal Xryyl, Cubar: 816-539-2869\aQrgnvy: arrqf nzohynapr
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pyvagba Pbhagl Rzretrapl Znantrzrag
 Ybpngvba: Cynggfohet, ZB, Havgrq Fgngrf
 Fraqre: <qvfcngpu@pyvagbapbfurevss.bet>
 
+(ARJBPP #BHGF  ZRQV - Zrqvpny) ARJBPP #BHGF  ZRQV - Zrqvpny\aNqqerff: 8069, URZCYR\aErcbegvat Crefba: URNGURE URAQREFBA Cubar: 816-473-2309\aQrgnvy: 73 ZNYR- UNF ORRA GUEBJVAT HC FYHEERQ FCRRPU
+(NYREG - SVER - SverBPP #BHGF  SVER - Sver) NYREG - BPP #BHGF  SVER - Sver\aNqqerff: Pyvagba Pbhagl\aErcbegvat Crefba: Wnzvr Ybirny Cubar: 816-695-0721\aQrgnvy: xhex ebnq bss X ujl, vg vf whfg va gur svryq naq na nonaqbarq ubhfr, gur jvaq vf gnxvat vs bss, vg vf va n pbea svryq abj  A ba X sebz 116 cnfg gur whapgvba bs H & X tb jrfg ba Xvex eq
+(NYREG - SVER - SverBPP #BHGF  SVER - Sver) NYREG - BPP #BHGF  SVER - Sver\aNqqerff: 619 Cbeg Neguhe Ebnq Ncg 7, Gevzoyr\aErcbegvat Crefba:   Cubar: 816-500-8314\aQrgnvy: Pnyyre vf nqivfvat gung ure sheanapr vf ba sver, fzbxr pbzvat sebz sheanapr, crbcyr ner bhg ohg crg vf vafvqr.
+(NYREG - SVER - SverBPP #BHGF  SVER - Sver) NYREG - BPP #BHGF  SVER - Sver\aNqqerff: J TENAQ NAQ PRQNE - Pyvagba Pbhagl\aErcbegvat Crefba:   Cubar: \aQrgnvy: UVG TNF YVAR
 (NYREG - SVER - SverBPP #BHGF  SVER - Sver) NYREG - BPP #BHGF  SVER - Sver\aNqqerff: R bs 36 naq xvqqre - Pnyqjryy Pbhagl\aErcbegvat Crefba: ryvmnorgu  Cubar: 816-419-6647\aQrgnvy: pnyqjryy pbhagl
 (NYREG - SVER - SverBPP #BHGF  SVER - Sver) NYREG - BPP #BHGF  SVER - Sver\aNqqerff: Bnxevqtr Ahefvat Ubzr - 205 R Pynl Nir, Cynggfohet\aErcbegvat Crefba: 71  Cubar: 816-861-1500\aQrgnvy: BNXEVQTR BS CYNGFOHET, PBZVAT SEBZ TRARENY SVER NYNEZ
 (NYREG - SVER - SverBPP #BHGF  SVER - Sver) NYREG - BPP #BHGF  SVER - Sver\aNqqerff: 53.6 - Pyvagba Pbhagl\aErcbegvat Crefba:   Cubar: 715-703-3877\aQrgnvy: f obhaq 1-35 sver cnffrq gur bire cnff
