@@ -416,6 +416,7 @@ public class ParserList {
               ,"MOCallawayCounty"               ,"Callaway County, MO"
               ,"MOCarrollCounty"                ,"Carroll County, MO"
               ,"MOChristianCounty"              ,"Christian County, MO"
+              ,"MOClintonCounty"                ,"Clinton County, MO"
               ,"MOCrawfordCounty"               ,"Crawford County, MO"
               ,"MODallasCounty"                 ,"Dallas County, MO"
               ,"MOFestus"                       ,"Festus, MO"
