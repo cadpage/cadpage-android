@@ -1031,11 +1031,11 @@ If you can long press one of the calls you get and select Report Problem to send
 ** long list
 ******************************************************************
 
-We have two different troubleshooting procedures.  The following is a list for users who are getting regular text pages.
+We have two different troubleshooting procedures. 
 
 If you are getting direct pages from Active911 or CodeMessaging, you should contact us for the direct page troubleshooting list.
 
-This is a long list. Take it one step at a time. The important steps are the last two.  They send us information about your text pages so we can figure out what is wrong.
+The following is a list for users who are getting regular text pages. This is a long list. Take it one step at a time. The important steps are the last two.  They send us information about your text pages so we can figure out what is wrong.
 
 Are you getting text pages from your dispatch center?  CadPage works by processing those text messages, if you have not arranged to have them sent to your device, CadPage will not do anything for you.
 
@@ -2774,3 +2774,26 @@ Most likely it was automatically installed already.  If not, you install
 the update with Google Play Store.  Or go into Cadpage settings and
 select "Write a Cadpage Review" which takes you directly to the Play
 Store page where you can update Cadpage.
+
+******************************************************************************
+
+As of Android 4.4, Cadpage no longer has the ability to prevent text
+pages from showing up in your default message app inbox.  That "feature"
+was eliminated because it was being grossly abused by other third party
+messaging apps.
+
+Cadpage can still process incoming text pages and and show an alert when
+they are recognized as dispatch pages.  If it is not doing that, then
+something else has probably changed.  See if you can use this email the
+developer feature to send us an email right after Cadpage fails to pick
+up a page.
+
+The above comments apply to dispatch alerts that are received as SMS
+text messages.  The  most recent alert reported here was a direct page
+from Active911 for Jackson County.  Direct pages are not SMS messages,
+they are not affected by anything done in Android 4.4, and they can not
+possibly appear in your SMS message inbox.  I'm not sure quite what your
+situation is, are you receiving direct pages from one agency and text
+pages from a different agency?
+
+Good luck,
