@@ -488,6 +488,7 @@ public class ParserList {
               ,"NYChautauquaCounty"             ,"Chautauqua County, NY"
               ,"NYChenangoCounty"               ,"Chenango County, NY"
               ,"NYClintonCounty"                ,"Clinton County, NY"
+              ,"NYColumbiaCounty"               ,"Columbia County, NY"
               ,"NYCortlandCounty"               ,"Cortland County, NY"
               ,"NYDelawareCounty"               ,"Delaware County, NY"
               ,"NYDixHills"                     ,"Dix Hills, NY"
