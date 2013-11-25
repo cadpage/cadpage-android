@@ -45,6 +45,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{2,4}-?(?:\\d\\d-)?\\d{4,8}$");
   private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /]+)\\b[ \\.,-]*");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
+  private static final Pattern EXTRA_CROSS_PTN = Pattern.compile("(?:AND +|& *)(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_BRK_PTN = Pattern.compile(" +/+ *");
 
   private boolean leadDispatch;
@@ -217,9 +218,14 @@ public class DispatchSouthernParser extends FieldProgramParser {
     
     // if cross street information follows the address, process that
     if (inclCross) {
-      sLeft = sLeft.replace(" X ", " / ");
-      if (sLeft.endsWith(" X")) sLeft = sLeft.substring(0,sLeft.length()-2).trim();
-      data.strCross = append(data.strCross, " & ", sLeft);
+      match = EXTRA_CROSS_PTN.matcher(sLeft);
+      if (match.matches()) {
+        parseAddress(match.group(1), data);
+      } else {
+        sLeft = sLeft.replace(" X ", " / ");
+        if (sLeft.endsWith(" X")) sLeft = sLeft.substring(0,sLeft.length()-2).trim();
+        data.strCross = append(data.strCross, " & ", sLeft);
+      }
     } 
     
     else {

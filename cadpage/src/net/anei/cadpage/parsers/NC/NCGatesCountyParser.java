@@ -14,18 +14,27 @@ public class NCGatesCountyParser extends DispatchSouthernParser {
   public NCGatesCountyParser() {
     super(CALL_LIST, CITY_LIST, "GATES COUNTY", "NC", DSFLAG_CROSS_NAME_PHONE | DSFLAG_FOLLOW_CROSS);
   }
-  
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    if (body.startsWith("0 ")) body = body.substring(2).trim();
-    return super.parseMsg(body, data);
-  }
 
   @Override
   public String adjustMapAddress(String addr) {
     return addr.replace(" TRLR PARK", " TR PARK");
   }
-
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (body.startsWith("0 ")) body = body.substring(2).trim();
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strApt.startsWith("- ")) {
+      data.strMap = data.strApt.substring(2);
+      data.strApt = "";
+    }
+    return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("APT", "APT MAP");
+  }
 
   private static final String[] CITY_LIST = new String[] {
     //City

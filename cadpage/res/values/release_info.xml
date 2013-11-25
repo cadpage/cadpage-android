@@ -1,50 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11212013</string>
-  <string name="release_version">v1.6.54</string>
+  <string name="release_date">11242013</string>
+  <string name="release_version">v1.6.55</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-Fixed force close introduced the v1.6.52 release.\n
-\n
 New Locations:\n
-Madison County, IN (alt)\n
-Brown County, KS\n
-St Clair County, MI\n
-Iron County, MO\n
-Hudson County, NJ\n
-Greene County, NC\n
-Yamhill County, OR\n
-Chester County, PA\n
-Williamson County, TX (alt)\n
-Caroline County, VA\n
-Greene County, VA\n
+San Diego County, CA (alt)\n
+Atchison County, KS\n
+St Louis County, MO\n
+Columbia County, NY\n
+Gates County, NC\n
+Overton County, TN\n
 \n
 Location Parsing Fixes:\n
-Monterey County, CA\n
+Montery County, CA\n
 San Bernardino County, CA\n
-Newcastle County, DE\n
-Johnson County, KS\n
-Lenawee County, MI\n
-Prince Georges County, MD\n
-Greene County, MO\n
-Westchester County, NY\n
-Durham County, NC\n
-Chester County, PA\n
-Bucks County, PA\n
-Crawford County, PA\n
-Erie County, PA\n
+Larimer County, CO\n
+Anne Arundel County, MD\n
+Garrett County, MD\n
+Dare County, NC\n
 Lancaster County, PA\n
-Mercer County, PA\n
-York County, SC\n
-Lincoln County, SD\n
-CyCreek Comm Center, TX\n
-Albemarle County, VA\n
-Fluvanna County, VA\n
-Yakima County, WA\n
+Albemarle County, VA\b
+Winchester, VA\n
 \n
-General Fixes:\n
-Rare crash in payment status logic\n
+JCMC EMS HudCEN, NJ renamed from Hudson County,NJ\n
   </string>  
 </resources>
   
