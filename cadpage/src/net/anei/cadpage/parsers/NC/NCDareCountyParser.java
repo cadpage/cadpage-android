@@ -83,14 +83,21 @@ public class NCDareCountyParser extends DispatchOSSIParser {
       "BUX",     "BUXTON",
       "COL",     "COLINGTON",
       "DCK",     "DUCK",
+      "ELK",     "EAST LAKE",
       "FRI",     "FRISCO",
       "HAT",     "HATTERAS",
       "KDH",     "KILL DEVIL HILLS",
       "KHP",     "KITTY HAWK",
+      "MAN",     "MANTEO",
+      "MHN",     "MANNS HARBOR",
       "MPT",     "MARTINS POINT",
       "NGH",     "NAGS HEAD",
+      "RI",      "ROANOKE ISLAND",
       "ROD",     "RODANTHE",
+      "SAL",     "SALVO",
       "SSH",     "SOUTHERN SHORES",
-      "WAN",     "WANCHESE"
+      "STP",     "STUMPY POINT",
+      "WAN",     "WANCHESE",
+      "WAV",     "WAVES"
   });
 }
