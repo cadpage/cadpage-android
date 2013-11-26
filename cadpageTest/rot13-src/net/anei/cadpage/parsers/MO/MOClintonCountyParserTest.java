@@ -419,8 +419,7 @@ choyvp pynff ZBPyvagbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PBQR:SVER",
         "PNYY:Sver",
-        "NQQE:Gbja naq pbhagel pbapbeq",
-        "ZNQQE:Gbja & pbhagel pbapbeq", // zncf ng vagrefrpgvba bs gbja naq pbhagel ya naq Rnfg Pbapbeq
+        "NQQE:Gbja naq pbhagel pbapbeq",  // zncf ng vagrefrpgvba bs gbja naq pbhagel ya naq Rnfg Pbapbeq
         "PVGL:Cynggfohet",
         "CUBAR:816-244-1900",
         "VASB:pne ba sver");
@@ -534,7 +533,7 @@ choyvp pynff ZBPyvagbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PBQR:ZRQV",
         "PNYY:Zrqvpny",
-        "NQQE:702 J Ybpghf", // fubhyq or Ybphfg Fg?
+        "NQQE:702 J Ybpghf", 
         "PVGL:Cynggfohet",
         "VASB:46 lbs uvfgbel bs frvmherf, fubegarff bs oerngu");
 
@@ -557,8 +556,7 @@ choyvp pynff ZBPyvagbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PBQR:SVER",
         "PNYY:Sver",
-        "NQQE:1371 FJ Gbja & Pbhagel Eq",
-        "ZNQQE:1371 FJ Gbja",
+        "NQQE:1371 FJ Gbja naq Pbhagel Eq",
         "PVGL:Pyvagba Pbhagl",
         "ANZR:QVARF",
         "CUBAR:816-592-1032",
@@ -628,7 +626,7 @@ choyvp pynff ZBPyvagbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:Pyvagba Pner & Eruno Pragre",
         "NQQE:253 R Uvtujnl 116",
         "NCG:Oyqt",
-        "PVGL:Pyvagba Pbhagl", // zncf ng Cynggfohet
+        "PVGL:Pyvagba Pbhagl", 
         "ANZR:zryvffn",
         "VASB:35 lb cflpu ivbyrag arrqf gb or genafsrerq gb fzvguivyyr");
 
@@ -3725,8 +3723,7 @@ choyvp pynff ZBPyvagbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PBQR:SVER",
         "PNYY:Sver",
-        "NQQE:1371 FJ Gbja & Pbhagel Eq",
-        "ZNQQE:1371 FJ Gbja",
+        "NQQE:1371 FJ Gbja naq Pbhagel Eq",
         "PVGL:Pyvagba Pbhagl",
         "ANZR:QVARF",
         "CUBAR:816-592-1032",
