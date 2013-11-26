@@ -89,6 +89,7 @@ public class MDGarrettCountyParser extends SmartAddressParser {
       "OVERDOSE",
       "SEIZURES",
       "STROKE / CVA",
+      "STRUCTURE FIRE",
       "TRANSPORT",
       "TRAUMA / INJURIES",
       "TREE DOWN",
