@@ -361,7 +361,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-XLIPFZEA or xlipfzea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+XQAPNWBA or xqapnwba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -493,7 +493,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-XLIPFZEA or xlipfzea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+XQAPNWBA or xqapnwba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -660,7 +660,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XLIPFZEA or xlipfzea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+XQAPNWBA or xqapnwba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -674,7 +674,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XLIPFZEA or xlipfzea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+XQAPNWBA or xqapnwba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -684,7 +684,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XLIPFZEA or xlipfzea.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+XQAPNWBA or xqapnwba.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information needed to figure out what is wrong.
 
@@ -2814,3 +2814,94 @@ situation is, are you receiving direct pages from one agency and text
 pages from a different agency?
 
 Good luck,
+
+*******************************************************************************
+Hi folks,
+
+I just found out about your service from someone in Dare County, NC.
+And I believe we can offer a service that you will find extremely useful.
+
+From what I can tell, you receive dispatch pages from a variety of
+dispatch centers running all kinds of different CAD software.  Your
+technical people must already run into the unpleasant reality which is
+that there is no standard message protocol among dispatch centers.
+Pretty much every dispatch center has their own text page format, and
+requires a dedicated message parser to extract the information you need
+to report and map the incident location.
+
+Cadpage is a fairly simple Android app that is designed to check
+incoming text messages, identify dispatch page alerts, and parse the
+call and address information from those alerts and use it to alert the
+user, who can then request a map and directions to the incident
+location.  We ran into the lack of dispatch notice standardization
+problem 3 years ago.  We responded by constructing a library of over 800
+dispatch page parsers to handle messages from dispatch centers all over
+the country.  While that library is directly integrated with the Cadpage
+app running on Android devices, it can also be run as a standalone Java
+library on your servers.  And in that mode, it can be used to parse
+pages from all of our currently supported dispatch centers.
+
+The Cadpage parsing library is an open source project distributed under
+a GPLv3 license.  We do not charge users for using the library.  We do
+charge for ongoing maintenance.  And between keeping up with changes to
+existing page formats and implementing new parsers as needed, there is a
+awful lot of maintenance required.  But if you do you own maintenance,
+using your own developers to keep up with the parser changes and new
+parsers required for your customers, then you do not have to pay us
+anything.  The "price" is that you are paying your developers to work on
+a parsing library that can, and will, be shared with some of your
+competitors.  But those competitors are in the same boat.
+
+If your technical people are interested, the entire Cadpage project w/
+source code is hosted at https://code.google.com/p/cadpage.
+
+The GPLv3 license is a holdover from the days when we base the initial
+Cadpage app on code from another GPLv3 licensed project.  It really
+isn't appropriate for library running on a server, and there are plans
+to change the project license to an LGPLv3 license, with the additional
+restriction that users of the library are prohibited from pursuing any
+kind of patent enforcement action against other library users.
+
+If you are interested or have questions, you can contact me at this
+email address.  Or call me at 541-231-2776.
+
+Have fun,
+
+*****************************************************************************
+
+
+Prior Android 4.4, apps have the ability to register for SMS messages at
+a higher than normal priority.  This lets them get a first look at SMS
+pages and, if it turns out to be something they need to process, block
+those messages from appearing in the default messaging app.  Cadpage has
+made use of this capability, as have a number of security and theft
+prevention apps.
+
+Unfortunately, a number of third party messaging apps, Handcent and Go
+SMS in particular, have misused this feature to grab the highest
+possibly priority slot, intercept all text messages, and block them from
+being received by competing messaging apps.  This has been a major
+problem for Cadpage, and other messaging app developers which have been
+pretty much forced to adopt the same practice in self defense.  The most
+recent version of Google Hangouts has started doing this as well.
+
+In Android 4.4, the rules all change to eliminate this nonsense.  The
+user gets to specify one default messaging app, that app always gets the
+text pages, and only that app has access to the message database and
+only that app can send SMS messages.  Other apps, such as Cadpage, can
+continue to receive SMS messages, but will no longer be able to block
+them from going to any other apps.
+
+The good news is that Cadpage will continue to function under Android
+4.4.  The bad news is that we will no longer be able to block dispatch
+pages from appearing in your default message inbox.  The best you can do
+is use a blacklisting feature in the default message app to prevent
+dispatch pages from appearing there.
+
+And, of course, if Cadpage is getting direct pages from
+Codemessaging.net or Active911.com, nothing will change.
+
+Have a nice day,
+-Ken
+
+
