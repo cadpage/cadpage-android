@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class MOGreeneCountyBParser extends FieldProgramParser {
 
   public MOGreeneCountyBParser() {
-    super("GREENE COUNTY", "MO", "LOC:ADDR! AD:PLACE! DESC:CALL! APT:APT! CRSTR:X! TYP:CODE CMT:INFO! TIME:SKIP!");
+    super("GREENE COUNTY", "MO", "LOC:ADDR! AD:PLACE! DESC:CALL! APT:APT? CRSTR:X! TYP:CODE CMT:INFO! TIME:SKIP!");
   }
   
   @Override
