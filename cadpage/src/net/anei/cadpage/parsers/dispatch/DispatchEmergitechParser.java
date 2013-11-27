@@ -9,9 +9,12 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
+// See if we can pull in OHLickingCounty & WVBooneCounty
+
 public class DispatchEmergitechParser extends FieldProgramParser {
   
-  private static final String UNIT_PTN = "\\[([-A-Z0-9]+)\\]- ";
+  private static final String UNIT_PTN = "\\[([-A-Z0-9]+)\\]-+ ";
+  private static final Pattern HOUSE_DECIMAL_PTN = Pattern.compile("\\b(\\d+)\\.0{1,2}(?= )");
   private static final Pattern COMMENTS_PTN = Pattern.compile("/?C ?O ?M ?M ?E ?N ?T ?S ?:");
   private static final Pattern BETWEEN_PTN = Pattern.compile("\\bB ?E ?T ?W ?E ?E ?N\\b");
   
@@ -101,7 +104,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   public DispatchEmergitechParser(String prefix, boolean optUnit, int[] extraSpacePosList,
                           String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-           "NATURE:CALL? LOCATION:ADDR/S2PN! BETWEEN:X? COMMENTS:INFO");
+           "( Nature:CALL Location:ADDR/S2! Comments:INFO | NATURE:CALL? LOCATION:ADDR/S2PN! BETWEEN:X? COMMENTS:INFO )");
     
     if (!optUnit) {
       markerPattern = Pattern.compile("^" + prefix + UNIT_PTN);
@@ -130,6 +133,15 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     if (!match.find()) return false;
     String unit = match.group(1);
     if (unit != null) data.strUnit = unit;
+    
+    // See if this is the new fangled dash delimited format.  Makes things so much easier
+    String tmp = body.substring(match.end());
+    if (tmp.startsWith("- ")) { 
+      tmp = tmp.substring(2).trim();
+      if (tmp.endsWith(" -")) tmp = tmp + ' ';
+      tmp = HOUSE_DECIMAL_PTN.matcher(tmp).replaceFirst("$1");
+      return parseFields(tmp.split(" - "), 3, data);
+    }
     
     // There are usually 2 extraneous blanks.  The first one tends to fall in the
     // address field and we will spend a lot of time trying to excise it.  The
