@@ -15,7 +15,7 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
   
   public MDAnneArundelCountyAnnapolisParser() {
     super(CITY_CODES, "ANNE ARUNDEL COUNTY", "MD",
-           "CALL1 ADDR/y MAP SKIP! X+? Nature:CALL! Call_back:PHONE? EXTRA+? UNIT UNIT+? ( HYDRANTS INFO+? TIMEDATE! | TIMEDATE! )");
+           "CALL1 ADDR/y MAP SKIP! X+? Nature:CALL! Call_back:PHONE? EXTRA+? UNIT UNIT+? INFO+? ( HYDRANTS INFO+? TIMEDATE! | TIMEDATE! )");
   }
   
   @Override
