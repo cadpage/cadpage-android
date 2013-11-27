@@ -890,6 +890,7 @@ public class ParserList {
               ,"WVHardyCounty"                  ,"Hardy County, WV"
               ,"WVMineralCounty"                ,"Mineral County, WV"
               ,"WVMorganCounty"                 ,"Morgan County, WV"
+              ,"WVPocahontasCounty"             ,"Pocahontas County, WV"
               ,"WVRaleighCounty"                ,"Raleigh County, WV"
           ),
           new ParserCategory("Wisconsin"
