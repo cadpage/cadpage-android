@@ -14,13 +14,13 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
   
   private static final Pattern PART_MARKER = Pattern.compile("^\\d\\d:\\d\\d ");
   private static final Pattern DATE_PTN = Pattern.compile("(\\d+)/(\\d+)");
-  private static final Pattern MARKER = Pattern.compile("^(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?");
+  private static final Pattern MARKER = Pattern.compile("^(?:(\\d\\d/\\d\\d) )?(?:(\\d\\d:\\d\\d) )?(?:Inc: *(\\d*);)?");
   private static final Pattern MISSED_COLON_PTN = Pattern.compile("(?<=Map)(?=\\d)");
   private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");
   
   public TXCyCreekCommCenterParser() {
     super("HARRIS COUNTY", "TX",
-          "ADDR! Map:MAP! Sub:PLACE? Juris:SRC? Nat:CALL! Units:UNIT! X-St:X");
+          "Inc:ID? ADDR! Map:MAP! Sub:PLACE? Juris:SRC? Nat:CALL! Units:UNIT! X-St:X");
   }
   
   @Override
@@ -77,6 +77,7 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
     if (!match.find()) return false;  // Never happens anymore
     data.strDate = getOptGroup(match.group(1));
     data.strTime = getOptGroup(match.group(2));
+    data.strCallId = getOptGroup(match.group(3));
     body = body.substring(match.end()).trim();
     if (data.strDate.length() == 0 && data.strTime.length() == 0) return false;
     
