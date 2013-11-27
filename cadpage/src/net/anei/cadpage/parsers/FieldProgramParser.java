@@ -2344,8 +2344,8 @@ public class FieldProgramParser extends SmartAddressParser {
    * that is part of a smart address field.  If it happens to start with
    * a slash or ampersand, assume it should be part of an address intersection
    */
-  private static final Pattern SPEC_APT_INTERSECT_PTN = Pattern.compile("(?:([A-Z0-9]{1,3}) *)?(?:&|AND\\b|OFF\\b) *(.*)", Pattern.CASE_INSENSITIVE);
-  private static final Pattern SPC_APT_NOT_APT_PTN = Pattern.compile("NORTH|SOUTH|EAST|WEST",Pattern.CASE_INSENSITIVE);
+  private static final Pattern SPEC_APT_INTERSECT_PTN = Pattern.compile("(?:([A-Z0-9]{1,3}) *)?(?:[&/]|AND\\b|OFF\\b) *(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SPC_APT_NOT_APT_PTN = Pattern.compile("NORTH|SOUTH|EAST|WEST|BLK",Pattern.CASE_INSENSITIVE);
   private class SpecialAptField extends AptField {
     @Override
     public void parse(String field, Data data) {

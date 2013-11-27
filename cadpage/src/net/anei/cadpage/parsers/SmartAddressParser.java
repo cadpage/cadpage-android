@@ -2797,5 +2797,5 @@ public abstract class SmartAddressParser extends MsgParser {
   protected boolean isNotExtraApt(String apt) {
     return NOT_APT_PTN.matcher(apt).matches();
   }
-  private static final Pattern NOT_APT_PTN = Pattern.compile("(?:MM|EX|&|NORTH|SOUTH|EAST|WEST|PRIOR|BLK|MILE|BEFORE|AFTER|RUNAWAY|OFF|FROM|NEAR ).*", Pattern.CASE_INSENSITIVE);
+  private static final Pattern NOT_APT_PTN = Pattern.compile("(?:[&/]|(?:MM|EX|NORTH|SOUTH|EAST|WEST|PRIOR|BLK|MILE|BEFORE|AFTER|RUNAWAY|OFF|FROM|NEAR|OFF)\\b).*", Pattern.CASE_INSENSITIVE);
 }

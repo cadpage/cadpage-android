@@ -369,9 +369,8 @@ choyvp pynff NYQbgunaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "00:30:09/ZNVQ-Zhghny Nvq Erdhrfg/17230 R FGNGR UJL 52 OYX/PBYHZOVN/PBSQN/S-PBSQ/",
         "GVZR:00:30:09",
         "PNYY:ZNVQ-Zhghny Nvq Erdhrfg",
-        "NQQE:17230 R FGNGR UJL 52",
+        "NQQE:17230 R FGNGR UJL 52 OYX",
         "ZNQQE:17230 R FGNGR 52",
-        "NCG:OYX",
         "PVGL:PBYHZOVN",
         "CYNPR:PBSQN/S-PBSQ");
 
