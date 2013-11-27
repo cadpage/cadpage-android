@@ -91,6 +91,7 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
         data.strCode = match.group(1);
         field = match.group(2);
       }
+      if (field.endsWith(" QD")) field = field.substring(0,field.length()-3).trim();
       super.parse(field, data);
     }
     
