@@ -16,7 +16,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("(?:\\[[^\\[\\]]*)?\\{[^\\{\\}]*?\\}?$");
   private static final Pattern CFS_ID_PTN = Pattern.compile(" CFS (\\d{8})\\b");
   private static final Pattern LEAD_DASH_PTN = Pattern.compile("^[ -]+");
-  private static final Pattern DIST_GRID_PTN = Pattern.compile("\\[([A-Z]+) .*?GRID: ([A-Z]*\\d*[A-Z]?) *\\]");
+  private static final Pattern DIST_GRID_PTN = Pattern.compile("(?:\\[([A-Z]+) .*?GRID: ([A-Z]*\\d*[A-Z]?) *\\])+");
   
   public TXCollinCountyAParser() {
     this("COLLIN COUNTY", "TX");
@@ -239,20 +239,24 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern INFO_MAP_PTN = Pattern.compile("^MAP(?: PAGE)?[ _]?((?:[A-Z]{3} )?[-A-Z0-9]+)(?:\\.PDF)? *");
   private static final Pattern INFO_TIME_PTN = Pattern.compile("^(\\d\\d:\\d\\d)\\b");
   private static final Pattern INFO_NONE_PTN = Pattern.compile(" *<NO(?:NE|.* COMMENTS|.* REMARKS)> *");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("MAP PAGE")) {
-        data.strMap = field.substring(8).trim();
-        return;
+      Matcher  match = INFO_MAP_PTN.matcher(field);
+      if (match.find()) {
+        data.strMap = match.group(1);
+        field = field.substring(match.end());
       }
-      Matcher match = INFO_TIME_PTN.matcher(field);
+      
+      match = INFO_TIME_PTN.matcher(field);
       if (match.find()) {
         data.strTime = match.group(1);
         field = field.substring(match.end()).trim();
       }
+      
       field = INFO_NONE_PTN.matcher(field).replaceAll(" ").trim();
       super.parse(field, data);
     }
