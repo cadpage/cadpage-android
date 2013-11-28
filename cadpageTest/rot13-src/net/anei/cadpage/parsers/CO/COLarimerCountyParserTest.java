@@ -55,6 +55,7 @@ Fraqre: 777485953527
 PVGLBSYBIRYNAQ (PSF) ZIN Rkgevpngvba                // J 43eq Fg & A Gnsg Nir         // Ncg/Ybg            // Enqvb:GNYX TC2                       // PVGLBSYBIRYNAQ // 41E1       // R266,GX6,11FG,G1,ONG1 GKG FGBC gb bcg-bhg
 PVGLBSYBIRYNAQ (PSF) Tenff Sver - Arne Fgehpgherf   // 4004 J Rvfraubjre Oyiq         // Ncg/Ybg            // Enqvb:GNYX TC2                       // PVGLBSYBIRYNAQ // 41V3       // R226,R3,R1,G1,ONG1,1FG GKG FGBC gb bcg-bhg
 PVGLBSYBIRYNAQ (PSF) Fgehpgher Sver/ Erfvqragvny    // 4069 A Pbhagl Ebnq 27          // Ncg/Ybg            // Enqvb:GNYX TC3                       // PVGLBSYBIRYNAQ // 40R1       // G1,F2,R5,GX6,ONG1,1FG,C311,G5 GKG FGBC gb bcg-bhg
+PVGLBSYBIRYNAQ (PSF) Sver - Fvatyr Snzvyl Erf       // 2553 15gu Fg Fj                // Ncg/Ybg            // Enqvb:GNYX TC2                       // PVGLBSYBIRYNAQ // 44W2       // R3,ONG1,R1,1FG,F2,C341,R5,OSQ, 
 
  */
 
@@ -353,7 +354,15 @@ choyvp pynff PBYnevzrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:GNYX TC3",
         "ZNC:40R1",
         "HAVG:G1,F2,R5,GX6,ONG1,1FG,C311,G5");
-   
+
+    qbGrfg("G4",
+        "PVGLBSYBIRYNAQ (PSF) Sver - Fvatyr Snzvyl Erf       // 2553 15gu Fg Fj                // Ncg/Ybg            // Enqvb:GNYX TC2                       // PVGLBSYBIRYNAQ // 44W2       // R3,ONG1,R1,1FG,F2,C341,R5,OSQ, ",
+        "PNYY:Sver - Fvatyr Snzvyl Erf",
+        "NQQE:2553 15gu Fg Fj",
+        "PU:GNYX TC2",
+        "ZNC:44W2",
+        "HAVG:R3,ONG1,R1,1FG,F2,C341,R5,OSQ,");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

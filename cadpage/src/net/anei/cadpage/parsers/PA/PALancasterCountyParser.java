@@ -59,6 +59,7 @@ public class PALancasterCountyParser extends FieldProgramParser {
       }
       if (data.strCity.endsWith(" BORO")) data.strCity = data.strCity.substring(0, data.strCity.length()-5).trim();
       if (data.strCity.startsWith("LANC")) data.strCity = "LANCASTER";
+      if (data.strCity.startsWith("DAUPHIN ")) data.strCity = data.strCity.substring(8).trim();
     }
   }
   
@@ -235,6 +236,8 @@ public class PALancasterCountyParser extends FieldProgramParser {
     
     // Other counties
     "CHESTER COUNTY",
+    
+    "DAUPHIN LONDONDERRY TWP"
 
   };
 }
