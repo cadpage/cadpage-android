@@ -108,6 +108,10 @@ Fraqre: PNQ@PB.HYFGRE.AL.HF
 ((36855) WNQF ) Havg:CT23 HavgFgf: Ybp:930 OREZR EQ KFgf:YNSREN YA/FGBAR QBPX EQ Irahr:Zneoyrgbja Vap:Nhgbnynez Qngr:10/08/2012 Gvzr:07:52 TRARENY SVER NYNEZ Nqqgy:AB XRL UBYQRE NF BS LRG
 ((20561) NCNF ) Havg:CT23 HavgFgf: Ybp:168 PBGGRXVYY EQ KFgf:FNJQHFG NI/ZVPUNRY QE Irahr:Ebfraqnyr Vap:Pevg/345 Qngr:10/01/2012 Gvzr:23:04 HAXABJA ZRQVPNY Nqqgy:Y2 PBZOF,CUVYYVC
 
+Pbagnpg: PNQ-JISP <jisp.pnq@tznvy.pbz>
+Fraqre: PNQ@PB.HYFGRE.AL.HF
+ 1 bs 2\aSEZ:PNQ@PB.HYFGRE.AL.HF\aFHOW:(46716) ICUV/\aZFT:Havg:CT63 Vap:Zhghny Nvq Angher:PB 63 RATVAR SBE N QENSG Ybp:1148 OEHLA GECX KFgf:\a(Pba'g) 2 bs 2\aPbzzba:  Irahr:Bhg bs Pgl Nqqgy:ZN GB CVAR OHFU - ERCBEGRQ FGEHPGHER SV ER 11/27/2013 20:39\a(Raq)
+
 */
 
 
@@ -966,6 +970,26 @@ choyvp pynff ALHyfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:23:04",
         "VASB:HAXABJA ZRQVPNY / Y2 PBZOF,CUVYYVC");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPNQJISP() {
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:PNQ@PB.HYFGRE.AL.HF\a" +
+        "FHOW:(46716) ICUV/\a" +
+        "ZFT:Havg:CT63 Vap:Zhghny Nvq Angher:PB 63 RATVAR SBE N QENSG Ybp:1148 OEHLA GECX KFgf:\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "Pbzzba:  Irahr:Bhg bs Pgl Nqqgy:ZN GB CVAR OHFU - ERCBEGRQ FGEHPGHER SV ER 11/27/2013 20:39\a" +
+        "(Raq)",
+
+        "HAVG:CT63",
+        "PNYY:Zhghny Nvq",
+        "VASB:PB 63 RATVAR SBE N QENSG / ZN GB CVAR OHFU - ERCBEGRQ FGEHPGHER SV ER 11/27/2013 20:39",
+        "NQQE:1148 OEHLA GECX",
+        "ZNQQE:1148 OEHLA GCX");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

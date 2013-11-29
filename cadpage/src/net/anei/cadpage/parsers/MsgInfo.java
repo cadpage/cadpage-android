@@ -557,7 +557,7 @@ public class MsgInfo {
   private static final Pattern LA_PTN = Pattern.compile("\\bLA\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern EXT_PTN = Pattern.compile(" EXT?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SR_PTN = Pattern.compile("\\bSR\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern TP_PTN = Pattern.compile("\\bTP\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern TP_PTN = Pattern.compile("\\b(?:TP|TRPK)\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern PA_PTN = Pattern.compile("\\bPA\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern PLAZ_PTN = Pattern.compile("\\bPLAZ\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern NEAR_PTN = Pattern.compile("\\b(?:NEAR|OFF)\\b", Pattern.CASE_INSENSITIVE);

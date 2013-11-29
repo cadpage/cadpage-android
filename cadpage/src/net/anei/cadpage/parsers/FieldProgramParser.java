@@ -164,8 +164,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * 
  * Debugging
  * 
- * There are only three points where this class determines that a page fails to parse.
- * All are marked with a // BREAKPOINT comment.  Put a breakpoint on all 3 of them
+ * There are only four points where this class determines that a page fails to parse.
+ * All are marked with a // BREAKPOINT comment.  Put a breakpoint on all 4 of them
  * and you can probably tell why the parse is failing in short order.
  */
 
@@ -966,7 +966,9 @@ public class FieldProgramParser extends SmartAddressParser {
       // Make another pass checking that all required fields have been entered
       for (Step step : keywordMap.values()) {
         if (!step.isChecked() && step.required != EReqStatus.NORMAL) {
-          if (step.required == EReqStatus.REQUIRED) return false; 
+          if (step.required == EReqStatus.REQUIRED) {
+            return false;     // BREAKPOINT
+          }
           data.expectMore = true;
         }
       }
