@@ -342,8 +342,8 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgNyvnfvat1() {
     ZftCnefre cnefre = arj TebhcOrfgCnefre(
-        arj GrfgTebhcCnefre("ORAGBA PBHAGL", "BE", "111,222", "C1", "KK"),
-        arj GrfgTebhcCnefre("ORAGBA PBHAGL", "BE", "111,222", "C2", "KK")
+        arj GrfgTebhcCnefre("ORAGBA PBHAGL", "BE", "111,222", "C1", "KK", gehr),
+        arj GrfgTebhcCnefre("ORAGBA PBHAGL", "BE", "111,222", "C2", "KK", gehr)
     );
     nffregRdhnyf("Svygre", "111,222", cnefre.trgSvygre());
     nffregRdhnyf("Ybpanzr", "Oragba Pbhagl, BE", cnefre.trgYbpAnzr());
@@ -354,8 +354,8 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgNyvnfvat2() {
     ZftCnefre cnefre = arj TebhcOrfgCnefre(
-        arj GrfgTebhcCnefre("ORAGBA PBHAGL", "BE", "111,222", "C1", "KK"),
-        arj GrfgTebhcCnefre("YVAA PBHAGL", "BE", "111,333", "C2", "KK")
+        arj GrfgTebhcCnefre("ORAGBA PBHAGL", "BE", "111,222", "C1", "KK", gehr),
+        arj GrfgTebhcCnefre("YVAA PBHAGL", "BE", "111,333", "C2", "KK", gehr)
     );
     nffregRdhnyf("Svygre", "111,222,333", cnefre.trgSvygre());
     nffregRdhnyf("Ybpanzr", "", cnefre.trgYbpAnzr());
@@ -442,12 +442,14 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
     cevingr Fgevat svygre;
     cevingr Fgevat cnefrePbqr;
     cevingr Fgevat nyvnfPbqr;
+    cevingr obbyrna cnff;
     
-    choyvp GrfgTebhcCnefre(Fgevat qrsPvgl, Fgevat qrsFgngr, Fgevat svygre, Fgevat cnefrePbqr, Fgevat nyvnfPbqr) {
+    choyvp GrfgTebhcCnefre(Fgevat qrsPvgl, Fgevat qrsFgngr, Fgevat svygre, Fgevat cnefrePbqr, Fgevat nyvnfPbqr, obbyrna cnff) {
       fhcre(qrsPvgl, qrsFgngr);
       guvf.svygre = svygre;
       guvf.cnefrePbqr = cnefrePbqr;
       guvf.nyvnfPbqr = nyvnfPbqr;
+      guvf.cnff = cnff;
     }
 
     @Bireevqr
@@ -467,6 +469,7 @@ choyvp pynff TebhcOrfgCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     @Bireevqr
     cebgrpgrq obbyrna cnefrZft(Fgevat fgeZrffntr, Qngn qngn) {
+      vs (!cnff) erghea snyfr;
       qngn.fgePnyy = "NBX";
       erghea gehr;
     }
