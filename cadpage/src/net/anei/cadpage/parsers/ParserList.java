@@ -182,6 +182,7 @@ public class ParserList {
               ,"CTBloomfield"                   ,"Bloomfield, CT"
               ,"CTBrookfield"                   ,"Brookfield, CT"
               ,"CTColchesterEmergComm"          ,"Colchester Emergency Communications, CT"
+              ,"CTFairfieldCounty"              ,"Fairfield County,CT"
               ,"CTGroton"                       ,"Groton, CT"
               ,"CTHartfordCounty"               ,"Hartford County, CT"
               ,"CTLitchfieldCounty"             ,"Litchfield County, CT"
