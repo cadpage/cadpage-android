@@ -80,6 +80,7 @@ public class VAOrangeCountyParser extends FieldProgramParser {
     body = body.trim();
     if (!super.parseMsg(body, data)) return false;
     data.strPlace = data.strPlace.replace(" Village of", "");
+    data.strAddress = data.strAddress.replace("DAILY DR", "DAILEY DR");  // Dispatch typo
     return true;
   }
   
