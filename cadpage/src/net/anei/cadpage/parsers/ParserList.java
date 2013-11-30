@@ -415,6 +415,7 @@ public class ParserList {
           new ParserCategory("Missouri"
               ,"MOBarryCounty"                  ,"Barry County, MO"
               ,"MOCallawayCounty"               ,"Callaway County, MO"
+              ,"MOCapeGirardeauCounty"          ,"Cape Girardeau County, MO"
               ,"MOCarrollCounty"                ,"Carroll County, MO"
               ,"MOChristianCounty"              ,"Christian County, MO"
               ,"MOClintonCounty"                ,"Clinton County, MO"
