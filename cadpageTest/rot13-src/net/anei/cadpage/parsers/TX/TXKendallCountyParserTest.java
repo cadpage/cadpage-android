@@ -103,6 +103,11 @@ choyvp pynff GKXraqnyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     frgCnefre(arj QhzzlCnefre(), "XRAQNYY PBHAGL", "GK");
   }
   
+  @Grfg
+  choyvp ibvq grfgCnefre() {
+    
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj GKXraqnyyPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
