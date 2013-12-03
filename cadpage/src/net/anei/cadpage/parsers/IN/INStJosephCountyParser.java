@@ -37,7 +37,7 @@ public class INStJosephCountyParser extends DispatchA6Parser {
     // This is going to be interesting.  Different departments get radically differnt page formats, 
     // but they all share the same sender space, and all have some features in common.  All of which
     // makes me thing they are originating from the  same dispatch center with some interesting post
-    // genreation changes.  We will try to handle them all in one text parser
+    // generation changes.  We will try to handle them all in one text parser
     
     
     // Check for a run report pattern

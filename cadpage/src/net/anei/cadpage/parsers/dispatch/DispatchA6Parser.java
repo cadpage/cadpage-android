@@ -14,7 +14,7 @@ public class DispatchA6Parser extends SmartAddressParser {
     setFieldList("CALL ID MAP DATE ADDR APT CITY PLACE ID X INFO TIME UNIT");
   }
   
-  private static final Pattern LEAD_DATE_PAT = Pattern.compile("^(?:([- A-Z0-9]+) )?(?:(?:Ic# +(.*?) +Ds# ([^ ]*?) (?:Al# ([^ ]*?))? Utl# (?:([- A-Z0-9]*?) +)?)?(\\d\\d/\\d\\d/\\d\\d)|\\^ )-?");
+  private static final Pattern LEAD_DATE_PAT = Pattern.compile("^(?:([- A-Z0-9]+) )?(?:(?:Ic# +(.*?) +Ds# ([^ ]*?) (?:Al# ([^ ]*?)|Cntrl)? Utl# (?:([- A-Z0-9]*?) +)?)?(\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)?)|\\^ ) *-? *");
   private static final Pattern CROSS_MARK2_PAT = Pattern.compile(" :\\\\?\\( *(\\d*) *\\) | <> ");
   private static final Pattern CROSS_MARK1_PAT = Pattern.compile("^\\{ *\\d+ *\\} *");
   private static final Pattern TIME_UNIT_PAT = Pattern.compile("(?<!\\d)(\\d{4}),(\\d{3})");
@@ -24,7 +24,7 @@ public class DispatchA6Parser extends SmartAddressParser {
     
     Matcher match = LEAD_DATE_PAT.matcher(body);
     if (!match.find()) return false;
-    body = body.substring(match.end()).trim();
+    body = body.substring(match.end());
     data.strCall = getOptGroup(match.group(1));
     String call = match.group(2);
     if (call != null) {
