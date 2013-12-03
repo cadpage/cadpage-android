@@ -13,7 +13,7 @@ public class WVPocahontasCountyParser extends DispatchEmergitechParser {
   private static final Pattern GEN_ALERT_PTN = Pattern.compile("([A-Z0-9]+):\\[\\1\\][ -]*(.*)");
   
   public WVPocahontasCountyParser() {
-    super(null, 60, CITY_LIST, "POCAHONTAS COUNTY", "WV");
+    super(60, CITY_LIST, "POCAHONTAS COUNTY", "WV");
     addSpecialWords("JERICO", "MOUNTAIN");
   }
 

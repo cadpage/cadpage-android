@@ -13,11 +13,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchEmergitechParser extends FieldProgramParser {
   
-  private static final String UNIT_PTN = "\\[([-A-Z0-9]+)\\]-+ ";
+  private static final String UNIT_PTN = "\\[([-A-Z0-9]+)\\]-+ ?";
   private static final Pattern HOUSE_DECIMAL_PTN = Pattern.compile("\\b(\\d+)\\.0{1,2}(?= )");
   private static final Pattern COMMENTS_PTN = Pattern.compile("/?C ?O ?M ?M ?E ?N ?T ?S ?:");
   private static final Pattern BETWEEN_PTN = Pattern.compile("\\bB ?E ?T ?W ?E ?E ?N\\b");
   
+  private String[] prefixList = null;
   private Pattern markerPattern;
   int[] extraSpacePosList;
   private Set<String> specialWordSet = new HashSet<String>(Arrays.asList(new String[]{
@@ -27,10 +28,40 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       "MARKET",
       "NORTH",
       "SECOND",
+      "SHORE",
       "SOUTH",
       "WEST"
   }));
   
+  
+  /** 
+   * @param extraSpacePos Single extra blank column<br/>
+   * Positive values of offsets from beginning of message<br/>
+   * Negative values are offsets from beginning of address field 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   */
+  public DispatchEmergitechParser(int extraSpacePos, String[] cityList, String defCity, String defState) {
+    this((String)null, new int[]{extraSpacePos}, cityList, defCity, defState);
+  }
+  
+  /** 
+   * @param prefixList List of possible prefix values that must be found at start of text.  The
+   * first is the primary value index offsets will be calculated with.  Any others are considered
+   * earlier version that will be replaced with the primary value before the space adjustment is made
+   * @param extraSpacePos Single extra blank column<br/>
+   * Positive values of offsets from beginning of message<br/>
+   * Negative values are offsets from beginning of address field 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   */
+  public DispatchEmergitechParser(String[] prefixList, int extraSpacePos, 
+                                  String[] cityList, String defCity, String defState) {
+    this(prefixList, false, new int[]{extraSpacePos}, cityList, defCity, defState);
+  }
+
   
   /** 
    * Constructor
@@ -92,6 +123,25 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   /** 
    * Primary constructor
+   * @param prefixList List of possible prefix values that must be found at start of text.  The
+   * first is the primary value index offsets will be calculated with.  Any others are considered
+   * earlier version that will be replaced with the primary value before the space adjustment is made
+   * @param optUnit True if unit field following prefix is optional
+   * @param extraSpacePosList Array of extra blank columns<br/>
+   * Positive values of offsets from beginning of message<br/>
+   * Negative values are offsets from beginning of address field 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   */
+  public DispatchEmergitechParser(String[] prefixList, boolean optUnit, int[] extraSpacePosList,
+                          String[] cityList, String defCity, String defState) {
+    this(prefixList[0], optUnit, extraSpacePosList, cityList, defCity, defState);
+    if (prefixList.length > 1) this.prefixList = prefixList;
+  }
+  
+  /** 
+   * Primary constructor
    * @param prefix Prefix that must be found at beginning of text page
    * @param optUnit True if unit field following prefix is optional
    * @param extraSpacePosList Array of extra blank columns<br/>
@@ -104,7 +154,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   public DispatchEmergitechParser(String prefix, boolean optUnit, int[] extraSpacePosList,
                           String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-           "( Nature:CALL Location:ADDR/S2! Comments:INFO | NATURE:CALL? LOCATION:ADDR/S2PN! BETWEEN:X? COMMENTS:INFO )");
+           "( Nature:CALL Location:ADDR/S2! Comments:INFO | CALL NATURE:CALL? LOCATION:ADDR/S2PN! BETWEEN:X? COMMENTS:INFO )");
     
     if (!optUnit) {
       markerPattern = Pattern.compile("^" + prefix + UNIT_PTN);
@@ -129,6 +179,18 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    // If we have a list of old prefix strings, convert them to the new value
+    if (prefixList != null) {
+      for (int ndx = 0; ndx < prefixList.length; ndx++) {
+        String prefix = prefixList[ndx];
+        if (body.startsWith(prefix)) {
+          if (ndx > 0) body = prefixList[0] + body.substring(prefix.length());
+          break;
+        }
+      }
+    }
+    
     Matcher match = markerPattern.matcher(body);
     if (!match.find()) return false;
     String unit = match.group(1);
@@ -181,14 +243,14 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     if (data.strCall.length() == 0) {
       data.strCall = data.strSupp;
       data.strSupp = "";
-      if (data.strCall.length() == 0) return false;
+      if (data.strCall.length() == 0) data.strCall = "ALERT";
     }
     return true;
   }
   
   @Override
   public String getProgram() {
-    return "UNIT " + super.getProgram();
+    return "UNIT " + super.getProgram() + " CALL";
   }
 
   /**
