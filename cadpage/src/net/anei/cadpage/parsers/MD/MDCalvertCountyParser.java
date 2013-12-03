@@ -78,6 +78,12 @@ public class MDCalvertCountyParser extends SmartAddressParser {
       data.strCallId = idMatch.group();
       data.strSupp = append(data.strSupp, " / ", body.substring(idMatch.end()).trim());
     }
+    
+    // Special case
+    if (data.strPlace.equals("MARYS") && data.strAddress.endsWith(" ST")) {
+      data.strPlace = "ST MARYS";
+      data.strAddress = data.strAddress.substring(0, data.strAddress.length()-3).trim();
+    }
     return true;
   }
 }

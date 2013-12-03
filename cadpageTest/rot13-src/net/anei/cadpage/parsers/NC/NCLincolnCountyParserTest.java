@@ -702,7 +702,8 @@ choyvp pynff APYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:13P03",
         "PNYY:QVNORGVP CEBOYRZF",
         "NQQE:8176 ZNEVBAF PG",
-        "VASB:YRRF JNL YA / 72 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. Qvnorgvp Ceboyrzf. Noabezny oernguvat. Pnyyre Fgngrzrag: QVNOGVP CEBOYRZF . 1.Fur vf pbz");
+        "K:YRRF JNL YA",
+        "VASB:72 lrne byq, Srznyr, Pbafpvbhf, Oernguvat. Qvnorgvp Ceboyrzf. Noabezny oernguvat. Pnyyre Fgngrzrag: QVNOGVP CEBOYRZF . 1.Fur vf pbz");
 
     qbGrfg("G17",
         "488:PNQ:RYS2-25O06-25-O-6 FHVPVQR-7674 CVAX QBTJBBQ GE-UVPXBEL PERRX QE-[RZF] PNYYRE NQI GUNG FHOW GBBX FBZR GLCR BS CVYYF HAX SHEGURE [03/01/13 00:30:07 PTENAGYNAQ] [Zrqvpny Cevbevgl Vasb] ERFCBAFR: Oenib ERFCBAQRE FPEVCG: 50 lrne byq, Znyr, Pbafpvbhfarff haxabja,\a\a\a" +

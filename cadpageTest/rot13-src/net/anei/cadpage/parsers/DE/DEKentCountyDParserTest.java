@@ -240,7 +240,7 @@ choyvp pynff QRXragPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Aneengvir Gvzr~Aneengvir\e\a" +
         "\e\a",
 
-        "NQQE:54 A  QRYNJNER ONL",
+        "NQQE:54 A QRYNJNER ONL",
         "CYNPR:ONL- 54 ABEGU QVFGEVPG",
         "PVGL:Qbire",
         "FEP:Fgngvba 54",
@@ -316,7 +316,7 @@ choyvp pynff QRXragPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "11/03/12 04:17:44~54R\e\a" +
         "\e\a",
 
-        "NQQE:126 A  FNAQCVCRE QE",
+        "NQQE:126 A FNAQCVCRE QE",
         "PVGL:Qbire",
         "K:QRNQ RAQ / F FNAQCVCRE QE",
         "FEP:Fgngvba 54",
@@ -590,7 +590,7 @@ choyvp pynff QRXragPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "04/08/13 12:02:04~10.ZQ/EA anzrf naq snpvyvgl ahzoref (nf nccyvpnoyr) unir orra bognvarq bhgfvqr bs CebDN.\a" +
         "04/08/13 12:02:04~Ceboyrz: YBJ FNG .  Cngvrag Vasb: 1 cngvrag(f); 66 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;\a\a\a",
 
-        "NQQE:3034 F  QHCBAG OYIQ",
+        "NQQE:3034 F QHCBAG OYIQ",
         "NCG:SYE TEQ",
         "CYNPR:CVAANPYR URNYGU NAQ ERUNO PGE",
         "PVGL:Fzlean",

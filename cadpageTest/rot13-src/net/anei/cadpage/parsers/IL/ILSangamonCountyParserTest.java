@@ -183,8 +183,8 @@ choyvp pynff VYFnatnzbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "01/23/13 09:24:23~EBC11 VF 10-8\a" +
         "01/23/13 09:24:30~EB10 VF 10-8\a",
 
-        "NQQE:FGNGR FG & R  FGNGR EG 29",
-        "ZNQQE:FGNGR FG & R  FGNGR 29",
+        "NQQE:FGNGR FG & R FGNGR EG 29",
+        "ZNQQE:FGNGR FG & R FGNGR 29",
         "PVGL:EBPURFGRE",
         "VQ:119",
         "PNYY:Nppvqrag j/Vawhevrf",

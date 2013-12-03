@@ -341,7 +341,8 @@ public abstract class SmartAddressParser extends MsgParser {
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", 
         "RUN", "LANE", "PARK", "POINT", "RIDGE", "CREEK", "MILL", "BRIDGE", "HILLS",
         "HILL", "TRACE", "STREET", "MILE", "BAY", "NOTCH", "END", "LOOP", "ESTATES",
-        "SQUARE", "WALK", "CIRCLE", "GROVE", "HT", "HTS", "HEIGHTS", "BEND", "VALLEY");
+        "SQUARE", "WALK", "CIRCLE", "GROVE", "HT", "HTS", "HEIGHTS", "BEND", "VALLEY",
+        "WAY");
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
         "AVENUE", "AV", "AVE", 

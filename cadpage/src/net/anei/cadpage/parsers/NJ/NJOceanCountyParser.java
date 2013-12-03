@@ -27,7 +27,9 @@ public class NJOceanCountyParser extends DispatchA9Parser {
   protected boolean parseMsg(String body, Data data) {
     
     // Correct double spacing by iamresponding
-    if (body.startsWith("Rip and Run Report\n\n\n\n~")) body = body.replace("\n\n", "\n"); 
+    if (body.startsWith("Rip and Run Report\n\n\n\n~")) body = body.replace("\n\n", "\n");
+    
+    body = body.replace("JACOBSTOWN - NEW EGYPT", "JACOBSTOWN-NEW EGYPT");
     
     if (!super.parseMsg(body, data)) return false;
     
