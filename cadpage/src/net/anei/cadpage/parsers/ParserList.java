@@ -380,6 +380,7 @@ public class ParserList {
               ,"MICheboyganCounty"              ,"Cheboygan County, MI"
               ,"MIEatonCounty"                  ,"Eaton County, MI"
               ,"MIEmmetCounty"                  ,"Emmet County, MI"
+              ,"MIGrandTraverseCounty"          ,"Grand Traverse County, MI"
               ,"MIInghamCounty"                 ,"Ingham County, MI"
               ,"MIIsabellaCounty"               ,"Isabella County, MI"
               ,"MILeelanauCounty"               ,"Leelanau County, MI"
