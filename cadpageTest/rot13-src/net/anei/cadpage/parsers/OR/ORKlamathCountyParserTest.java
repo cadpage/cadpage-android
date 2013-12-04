@@ -92,6 +92,10 @@ Fraqre: XP-911@xp911.hf
 (HAVG QVFCNGPU) 1/4/2013 0401\aHAVGF 3174 \aRIRAG # 1301040011 31\a2 - NYF ZRQVPNY PNYY\aCEVBEVGL 1 \aYBPNGVBA 609 NQQVFBA FG\aPVGL XS\aNCG \aCERZVFR \aPBZZRAG 31 LBZ FRIRER FGBZNPU CNVA NAQ IBZVGVAT\aOBX\aPBA\aNYREG
 (HAVG QVFCNGPU) 1/4/2013 0101\aHAVGF 3173 3113 \aRIRAG # 1301040006 31\a2 - NYF ZRQVPNY PNYY\aCEVBEVGL 1 \aYBPNGVBA 615 JNFUOHEA JNL\aPVGL XS\aNCG 121\aCERZVFR CRYVPNA CBVAGR\aPBZZRAG 90 LBS PBZCYNVAVAT BS PURFG CNVA\aOBX\aPBAF \aNYREG
 
+Pbagnpg: Fnz Frlobyq <frlobyqfnz@tznvy.pbz>
+Fraqre: XP-911@xp911.hf
+(HAVG QVFCNGPU) 12/1/2013 0712\aHAVGF 672 PUNZ \aRIRAG # 1312010036 22\a2 - NYF ZRQVPNY PNYY\aCEVBEVGL 1 \aYBPNGVBA 38400 97 A\aPVGL PUVYBDHVA\aNCG \aCERZVFR \aPBZZ
+
 */
 
 choyvp pynff BEXynznguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1700,7 +1704,34 @@ choyvp pynff BEXynznguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
   
+  @Grfg
+  choyvp ibvq grfg() {
+
+    qbGrfg("G1",
+        "(HAVG QVFCNGPU) 12/1/2013 0712\a" +
+        "HAVGF 672 PUNZ \a" +
+        "RIRAG # 1312010036 22\a" +
+        "2 - NYF ZRQVPNY PNYY\a" +
+        "CEVBEVGL 1 \a" +
+        "YBPNGVBA 38400 97 A\a" +
+        "PVGL PUVYBDHVA\a" +
+        "NCG \a" +
+        "CERZVFR \a" +
+        "PBZZ",
+
+        "QNGR:12/1/2013",
+        "GVZR:07:12",
+        "HAVG:672 PUNZ",
+        "VQ:1312010036",
+        "FEP:22",
+        "PNYY:2 - NYF ZRQVPNY PNYY",
+        "CEV:1",
+        "NQQE:38400 97 A",
+        "PVGL:PUVYBDHVA");
+
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat netf[]) {
-    arj BEXynznguPbhaglCnefreGrfg().trarengrGrfgf("G2");
+    arj BEXynznguPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

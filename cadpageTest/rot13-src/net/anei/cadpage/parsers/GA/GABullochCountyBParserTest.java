@@ -12,8 +12,6 @@ Ntrapl anzr: Ohyybpu Pbhagl Sver Qrcnegzrag
 Ybpngvba: Fgngrfobeb, TN, Havgrq Fgngrf
 Fraqre:  "Ohyybpu 911" <ohyybputn@rm911znvy.pbz>
 
-(Pnfr # 2013013379) \eSebz : ogncyrl Hfre Vq: 22
-(Pnfr # 2013013347) \eSebz : ogncyrl Hfre Vq: 22
 (Qvfc FSQ Pnfr # 2013013532 Pnyy # 3530) 1/22/2013 7:38:13 NZ /1070O /OHEXUNYGRE EQ /OHEXUNYGRE EQ /YRSG BSS BS UJL 80, 1 ZVYR QBJA BA EVTUG uggc://zncf.tbbtyr.pbz/zncf?d=32.36275136,+-81.78721680\eSebz : esnvy Hfre Vq: 8
 (Qvfc TS-O Pnfr # 2013013513 Pnyy # 3511) 1/21/2013 21:56:21 /1070J /UVTUJNL 46 /UVTUJNL 46 /JBBQF BA SVER/EVTUG UNAQ FVQR BS EBNQ ORSBER OHYYBPU SREGVYVMRE\eSebz : gobygba Hfre Vq: 10
 (Qvfc 4400 Pnfr # 2013013513 Pnyy # 3511) 1/21/2013 21:56:21 / /UVTUJNL 46 /UVTUJNL 46 /JBBQF BA SVER/EVTUG UNAQ FVQR BS EBNQ ORSBER OHYYBPU SREGVYVMRE\eSebz : gobygba Hfre Vq: 10

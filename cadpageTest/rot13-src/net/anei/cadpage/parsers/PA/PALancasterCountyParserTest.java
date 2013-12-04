@@ -119,6 +119,10 @@ Fraqre: pbas-81615974@qra.rireoevqtr.arg
 (ONPX CNVA/FVPX-PYNFF 3) QNHCUVA YBAQBAQREEL GJC~2306 EVIRE EQ ~~ZRQ861~18:28:51^ [Nggnpuzrag(f) erzbirq]
 (NYYRETVP ERNPGVBA-PYNFF 3) QNHCUVA YBAQBAQREEL GJC~1147 UVYYQNYR EQ~~ZRQ861~18:22:05^ [Nggnpuzrag(f) erzbirq]
 
+Pbagnpg: Qraavf Nccry <qraavfnccry43@tznvy.pbz>
+Fraqre: @rireoevqtr.arg
+(PB NYNEZ) CRAA GBJAFUVC~655 JUVGR BNX EQ~UVPXBEL YA/R UREAYRL EQ~RAT281~20:28:58^ [Nggnpuzrag(f) erzbirq]
+
  */
 
 choyvp pynff CNYnapnfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -654,8 +658,22 @@ choyvp pynff CNYnapnfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:18:22:05");
     
   }
+  
+  @Grfg
+  choyvp ibvq grfgQraavfNccry() {
+
+    qbGrfg("G1",
+        "(PB NYNEZ) CRAA GBJAFUVC~655 JUVGR BNX EQ~UVPXBEL YA/R UREAYRL EQ~RAT281~20:28:58^ [Nggnpuzrag(f) erzbirq]",
+        "PNYY:PB NYNEZ",
+        "PVGL:CRAA GJC",
+        "NQQE:655 JUVGR BNX EQ",
+        "K:UVPXBEL YA/R UREAYRL EQ",
+        "HAVG:RAT281",
+        "GVZR:20:28:58");
+
+  }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj CNYnapnfgrePbhaglCnefreGrfg().trarengrGrfgf("G6");
+    arj CNYnapnfgrePbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

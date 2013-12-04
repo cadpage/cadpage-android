@@ -31,6 +31,8 @@ Good luck,
 * Android 4.4 (Kit Kat) long explanation
 ***************************************************************************
 
+Unfortunately, for us, that is not a bug.  That is a new permanent feature.
+
 Prior Android 4.4, apps have the ability to register for SMS messages at a higher than normal priority.  This lets them get a first look at SMS pages and, if it turns out to be something they need to process, block those messages from appearing in the default messaging app.  Cadpage has made use of this capability, as have a number of security and theft prevention apps.
 
 Unfortunately, a number of third party messaging apps, Handcent and Go SMS in particular, have misused this feature to grab the highest possibly priority slot, intercept all text messages, and block them from being received by competing messaging apps.  This has been a major problem for Cadpage, and other messaging app developers which have been pretty much forced to adopt the same practice in self defense.  The most recent version of Google Hangouts has started doing this as well.
@@ -39,7 +41,7 @@ In Android 4.4, the rules all change to eliminate this nonsense.  The user gets 
 
 The good news is that Cadpage will continue to function under Android 4.4.  The bad news is that we will no longer be able to block dispatch pages from appearing in your default message inbox.  The best you can do is use a blacklisting feature in the default message app to prevent dispatch pages from appearing there.
 
-And, of course, if Cadpage is getting direct pages from Codemessaging.net or Active911.com, nothing will change.
+The only other alternative is to switch to a message service like CodeMessaging.net or Active911.com that can push direct pages to Cadpage.  Since these do not rely on text messages, they are unaffected by the changes at Android 4.4.
 
 Have a nice day,
 -Ken
