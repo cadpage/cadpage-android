@@ -62,6 +62,7 @@ Fraqre: ZOnyy@puneyrfgbapbhagl.bet
 
 Pbagnpg: Ebtre Jnyfu <ejnyfu2432@tznvy.pbz>
 Zrqvpny Nffvfg Nycun Erfcbafr 1121 Fnzcfba Eq K Fgerrg: A UVTUJNL 17/Qrnq Raq Pzaq Punaary: 1_Vapvqrag 16 Havgf Nffvtarq: R902 Gvzr: 06:42
+Snyyf O  605 Fbhgu Fnagrr Eq K Fgerrg: HAANZRQ_193 FG/WNPX EQ Pzaq Punaary: _Vapvqrag 06 Havgf Nffvtarq: R906
 
 Ntrapl anzr: PQP
 Ybpngvba: Abegu Puneyrfgba, FP, Havgrq Fgngrf
@@ -415,7 +416,15 @@ choyvp pynff FPPuneyrfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:A UVTUJNL 17/Qrnq Raq",
         "PU:1_Vapvqrag 16",
         "GVZR:06:42");
- 
+
+    qbGrfg("G2",
+        "Snyyf O  605 Fbhgu Fnagrr Eq K Fgerrg: HAANZRQ_193 FG/WNPX EQ Pzaq Punaary: _Vapvqrag 06 Havgf Nffvtarq: R906",
+        "PNYY:Snyyf O",
+        "NQQE:605 Fbhgu Fnagrr Eq",
+        "K:HAANZRQ_193 FG/WNPX EQ",
+        "PU:_Vapvqrag 06",
+        "HAVG:R906");
+
   }
   
   @Grfg
