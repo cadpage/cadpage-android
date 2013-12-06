@@ -2387,6 +2387,8 @@ William Kriedler (bkriedler@gmail.com) <bkriedler2012@comcast.net> // market pro
 Rick Stegmeier (rick.stegmeier@gsa.gov) (a1spirit@bellatlantic.net) // PayPal
 %%06/15/2013
 Ernie Ashe <bigern642@gmail.com> // market problem email change; under Jamie Fort
+%%06/24/2013
+Chris Hughes <chughes037@gmail.com> // market problem email change
 %%06/25/2013
 Michael C Alligood (calealligood92@gmail.com) <cale@alligoodautomotive.com> // market problem email change
 %%06/26/2013
@@ -2471,7 +2473,7 @@ Rose Merritt (rose.f.merritt@gmail.com) (rosmrrtt@velocity.net) // PayPal
 %%09/17/2013
 Friends of Ron Molnar (ronaldmolnar513@gmail.com) (ronaldmolnar@hotmail.com) // PayPal
 %%09/19/2013
-steve hawkins (srh8015@aol.com) // PayPal
+steve hawkins (srh8015@gmail.com) (srh8015@aol.com) // PayPal
 %%09/20/2013
 Jason Hines (jh67186@gmail.com) (jasonandtamara@yahoo.com) // PayPal
 Robert Haggerty (emt.firefighter44@gmail.com) <emt_firefighter44@yahoo.com> // check 3719
@@ -2547,6 +2549,8 @@ Tyler McDonald (fireman18.tm@gmail.com) (zr9002002@yahoo.com) // PayPal
 james rugnetta (rug2645@gmail.com) (brroomboy@aol.com) // PayPal
 %%12/03/2013
 R John Lye (r.john.lye@gmail.com) (rjl@gt-classics.com) // PayPal paid $15
+%%12/5/2013
+Mark Secrist (marksecrist50@gmail.com) <dews98@yahoo.com> // check from mid-November, 2013
 
 
 // *** Insert Paid Users here ***
@@ -6197,10 +6201,16 @@ Todd Cosgrove <firefightercos67@gmail.com>
 Brian Summers <summersbrian014@gmail.com>
 Joe Brittingham (jbrittungham3@gmail.com) <jbrittingham3@yahoo.com>
 Michael Napolillo (napman971.mn@gmail.com) <napman971@yahoo.com>
-Jay Meisch  (lpfas829@gmail.com)
 Ian hickman (ianhickman00@gmail.com) <Ianhickman00@yahoo.com>
+%%12/05/2013
+Justin Newsom <jnewsom3365@gmail.com>
+Ryan Buchberger (ryantay77@gmail.com) <vbuchberger@gmail.com>
 
 
 
-
+// List of users getting FREE subscription for 2014
+%2014/FREE
+%%01/02/2014
+Jay Meisch (lpfas829@gmail.com)
+Clinton M (clintonmast@gmail.com) <mastclinton@aim.com>
 

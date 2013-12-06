@@ -33,7 +33,7 @@ Good luck,
 
 Unfortunately, for us, that is not a bug.  That is a new permanent feature.
 
-Prior Android 4.4, apps have the ability to register for SMS messages at a higher than normal priority.  This lets them get a first look at SMS pages and, if it turns out to be something they need to process, block those messages from appearing in the default messaging app.  Cadpage has made use of this capability, as have a number of security and theft prevention apps.
+Prior to Android 4.4, apps have the ability to register for SMS messages at a higher than normal priority.  This lets them get a first look at SMS pages and, if it turns out to be something they need to process, block those messages from appearing in the default messaging app.  Cadpage has made use of this capability, as have a number of security and theft prevention apps.
 
 Unfortunately, a number of third party messaging apps, Handcent and Go SMS in particular, have misused this feature to grab the highest possibly priority slot, intercept all text messages, and block them from being received by competing messaging apps.  This has been a major problem for Cadpage, and other messaging app developers which have been pretty much forced to adopt the same practice in self defense.  The most recent version of Google Hangouts has started doing this as well.
 
@@ -363,7 +363,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-DFNLNGAA or dfnlngaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+BSPANRGA or bspanrga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -495,7 +495,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-DFNLNGAA or dfnlngaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+BSPANRGA or bspanrga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -662,7 +662,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-DFNLNGAA or dfnlngaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+BSPANRGA or bspanrga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -676,7 +676,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-DFNLNGAA or dfnlngaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+BSPANRGA or bspanrga.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -686,7 +686,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-DFNLNGAA or dfnlngaa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+BSPANRGA or bspanrga.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information needed to figure out what is wrong.
 
