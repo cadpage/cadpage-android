@@ -1,36 +1,50 @@
 Quick getting started instructions for new developers.
 
-Quick overview.  Cadpage is an Android app used by emergency responders.  Dispatch centers can usually send a text message notifying 
-users when a call is dispatched.  Cadpage intercepts these messages, display a popup message sounds an alert.  Then, when the 
+Quick overview.  Cadpage is an Android app used by emergency responders.  Dispatch centers can usually send a text message notifying
+users when a call is dispatched.  Cadpage intercepts these messages, display a popup message sounds an alert.  Then, when the
 user asks for it,  display a map showing the incident location that they can use to navigate to the event.  It is really really
 popular amount emergency responders who tend to think it is the best thing since sliced bread.  The actual app UI code is pretty
-simple, and rather small.  The problem is that there is no standard text page format.  Every dispatch center has their own.  90% of 
+simple, and rather small.  The problem is that there is no standard text page format.  Every dispatch center has their own.  90% of
 Cadpage code consists of 800+ message text parsers that have been written to parse different dispatch text messages.   
 
-Things you will need to install
-1) Eclipse can be found at http://eclipse.org.  You want the Eclipse IDE for Java developers
-2) Eclipse may or may not come bundled with a Java SDK.  If it does not, you will have to install one from somewhere
-3) Apache Ant, which you can get from http://ant.apache.org  (optional, only if you want to run stuff from the command line)
-4) The Android SDK, which you can get from http://developer.android.com/sdk/index.html.
-5) You also need a subversion client to check out the source code.  The regular command line client can be found at
-   http://subversion.apache.org/
-   Windows user can use Tortoise, available at http://tortoisesvn.tigris.org/
-6) And some kind of Eclipse plugin to interface with Subversion projects.  
-   There are two of these, Subversive and Subclipse.  We have been using Subversive.  Subclipse seems to be easier
-   to install.  But it appear to lack the recursive add function, which is pretty serious.  Other users seem to having no 
-   trouble with it, but I've gone back to Subversive.
+Things you will need to install:
+
+1)Android SDK and Eclipse Bundle http://developer.android.com/sdk/index.html. Simply extract it and it is ready to go.
+
+2)Java JDK, Apache Ant, and Subversion from the Download Manager for Linux systems.  For Windows they are available from
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+http://ant.apache.org/bindownload.cgi
+http://subversion.apache.org/packages.html
+
+3) Subversive is a little more tricky.
+First you want to find the version of Subversive you want to download.  
+To do this, go to http://www.eclipse.org/subversive/latest-releases.php and scroll down until you see "the Latest Stable Build". 
+Somewhere below is a link with the update site.
+
+Subversive is downloaded through Eclipse itself using the Following steps:  In the menu bar, go to Help-> Install New Software. 
+A box will pop up, and in the line that says 'Work with:' Click 'Add..'.
+The name should be Subversive.  The location is that update site detailed on subversive's website.
+
+4) Now you need to install a plugin for Subversion in Eclipse.  First thing you want to check is the version of Subversion you 
+downloaded from the program manager.  The easiest way to do this is from the terminal.  Type "svn --version".  The version will 
+be on the first line of text it spits at you, and should look something like: 1.7.9
+
+Next, go back to Eclipse, and go Window -> Preferences.  Expand the Team menu, and click on SVN.  You want to click on the version of 
+subversion that matches the first two numbers on the version from the terminal. For example, if you have version 1.7.9 downloaded 
+from the Program Manager, downloading the 1.7.11 plugin is fine.
+
+5) Now to finish installing Android SDK.  From Eclipse, Window-> SDK Manager.  Let the window load up, and then select API 18, and download.
+
+6) Next, install the Cadpage source tree
+The Cadpage project is hosted at http://code.google.com/p/cadpage/. 
+The Source link will show you how to check out the source tree.
+Make sure you are downloading it into your Eclipse workspace.
+
+7)  Go back to eclipse and import the two Cadpage projects.
+File-> Import-> General -> Existing Projects into Workspace.
+Browse-> Workspace -> cadpage -> cadpage. click okay, and then finish.  Now do the same for cadpageTest.
 
 If you are just doing parsers, you won't be running much of the Android SDK, but you need the libraries to get project to compile.
-
-The Cadpage project is hosted at http://code.google.com/p/cadpage/.  
-The Source link will show you how to check out the source tree.  
-The Issues link tracks all non-parser issues.  Parser issues are tracked separately.
-
-Check out the main trunk source to a new local directory.
-Open a command shell, switch to the local directory and enter
-ant import
-to import the test code
-Import two new Eclipse projects, one for the cadpage directory and one for the cadpageTest directory.
 
 Eclipse configuration settings
 Open the main Eclipse settings and create a Cadpage format template
