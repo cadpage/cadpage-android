@@ -918,7 +918,9 @@ Good luck,
 * Swift shows correct page type and registration ID
 ******************************************************************
 
-First, get whoever sets up your device with Active911 to use the Active911 web page to send a test message to your phone.  
+Everything looks like it is set up properly..
+
+Get whoever sets up your device with Active911 to use the Active911 web page to send a test message to your phone.  
 
 If you do get the test page, but still do not receive real dispatch alerts, then something about your Active911 settings is preventing them from sending dispatch pages to you.  If your department Active911 administrator cannot figure out what that is, try contacting Active911 support for help.
 
@@ -930,7 +932,6 @@ We do not know why, but doing this usually fixes the problem.
 
 Good luck,
 -Ken
-
 
 ******************************************************************
 * Text paging delays 
