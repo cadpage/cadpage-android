@@ -305,6 +305,7 @@ public class ParserList {
               ,"KSBrownCounty"                  ,"Brown County, KS"
               ,"KSButlerCounty"                 ,"Butler County, KS"
               ,"KSJohnsonCounty"                ,"Johnson County, KS"
+              ,"KSMontgomeryCounty"             ,"Montgonery County, KS"
               ,"KSSedgwickCounty"               ,"Sedgwick County, KS"
           ),
           new ParserCategory("Kentucky"
@@ -705,6 +706,7 @@ public class ParserList {
               ,"PAClarionCounty"                ,"Clarion County, PA"
               ,"PAClearfieldCounty"             ,"Clearfield County, PA"
               ,"PAClintonCounty"                ,"Clinton County, PA"
+              ,"PAColumbiaCounty"               ,"Columbia County, PA"
               ,"PACrawfordCounty"               ,"Crawford County, PA"
               ,"PACumberlandCounty"             ,"Cumberland County, PA"
               ,"PADauphinCounty"                ,"Dauphin County, PA"
