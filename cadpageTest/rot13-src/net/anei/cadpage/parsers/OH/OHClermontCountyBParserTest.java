@@ -260,7 +260,8 @@ choyvp pynff BUPyrezbagPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:OERNGUVAT CEBOYRZF",
         "CEV:1",
-        "NQQE:3356 Uhagfzna GE", //jvyy abg znc jvgubhg GE fcryyrq bhg nf "genpr"
+        "NQQE:3356 Uhagfzna GE", 
+        "ZNQQE:3356 Uhagfzna GREENPR", 
         "PVGL:Nzryvn",
         "K:UHAGREF PG & R ZNVA FG",
         "VASB:CEBDN Nobeg Grkg: 3. Qhcyvpngr vapvqrag / 76556 ng CBF 1");
