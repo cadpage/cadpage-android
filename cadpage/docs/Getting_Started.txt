@@ -21,7 +21,7 @@ First you want to find the version of Subversive you want to download.
 To do this, go to http://www.eclipse.org/subversive/latest-releases.php and scroll down until you see "the Latest Stable Build". 
 Somewhere below is a link with the update site.
 
-Subversive is downloaded through Eclipse itself using the Following steps:  In the menu bar, go to Help-> Install New Software. 
+Subversive is downloaded through Eclipse itself using the following steps:  In the menu bar, go to Help-> Install New Software. 
 A box will pop up, and in the line that says 'Work with:' Click 'Add..'.
 The name should be Subversive.  The location is that update site detailed on subversive's website.
 
@@ -57,20 +57,20 @@ Indentation
 
 Right click both Cadpage Project and select
 Properties > Java Code Style > Formatter
-Enable project specific settings and select the new Cadpage profile
+ Enable project specific settings and select the new Cadpage profile
 For Windows users:  Open the Resource tab and set the text encoding to UTF-8
 
 Hopefully the Cadpage project will now compile successfully  Some more work is needed to 
 get the CadpageTest project functional
 
 Open the Eclipse Ant view (Window > Show View > Ant)
-Click the Add Add Buildfiles Icon and navigate to and select build.xml in the Cadpage project.
+Click the Add Buildfiles Icon and navigate to and select build.xml in the Cadpage project.
 Toggle the Hide Internal Projects icon to hide internal targets
 Double Click the initialize target.  This will recreate the cadpageTest source folder
 Refresh the CadpageTest project.
 There will be a build path error because CadpageTest needs a reference to the 
 Android SDK android.jar file, which is never in the same place.  The project class path uses 
-an ANDROID_JAR classpath variable that you will have to set.  To do that, open Ecliopse preferences and select
+an ANDROID_JAR classpath variable that you will have to set.  To do that, open Eclipse preferences and select
 Java > Build Path > Classpath Variables.
 Create a new Classpath variable named ANDROID_JAR of type file and point it to one of the android.jar files
 files in your Android SDK folder.
