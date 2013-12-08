@@ -60,6 +60,26 @@ Properties > Java Code Style > Formatter
  Enable project specific settings and select the new Cadpage profile
 For Windows users:  Open the Resource tab and set the text encoding to UTF-8
 
+Back to main Eclipse settings
+Window > Preferencs > Run/Debug > Console
+uncheck "Limit Console Output"
+Window > Preferences > Run/Debug > Launching > Launch Operation
+Check "Always Launch the Previous Application"
+
+Subversion settings
+This only needs to be done if you have commit rights to the repository
+Open $HOME/.subversion/config with any convenient editor.  (This is on Linux systems,
+it may be somewhere else on Windows systems) If it does not exist, run svn once to create it.
+
+Uncomment the line
+enable-auto-props = yes
+
+Add or update the lines
+*.txt = svn:eol-style=native
+*.java = svn:eol-style=native
+*.xml = svn:eol-style=native
+
+
 Hopefully the Cadpage project will now compile successfully  Some more work is needed to 
 get the CadpageTest project functional
 
