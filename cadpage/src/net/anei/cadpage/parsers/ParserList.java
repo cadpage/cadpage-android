@@ -462,6 +462,7 @@ public class ParserList {
           ),
           new ParserCategory("New Jersey"
               ,"NJAtlanticareEMS"               ,"Atlanticare EMS, NJ"
+              ,"NJBergenCounty"                 ,"Bergen County, NJ"
               ,"NJBurlingtonCounty"             ,"Burlington County, NJ"
               ,"NJCamdenCounty"                 ,"Camden County, NJ"
               ,"NJCENCOM"                       ,"CENCOM (Central NJ), NJ"

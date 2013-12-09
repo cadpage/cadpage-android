@@ -15,6 +15,12 @@ choyvp pynff PGUnegsbeqPbhaglCnefreGrfg {
     }
   }
   
+  choyvp fgngvp pynff GrfgRnfgTenaol rkgraqf PGUnegsbeqPbhaglRnfgTenaolCnefreGrfg {
+    choyvp GrfgRnfgTenaol() {
+      frgCnefre(arj PGUnegsbeqPbhaglCnefre());
+    }
+  }
+  
   choyvp fgngvp pynff GrfgSnezvatgba rkgraqf PGUnegsbeqPbhaglSnezvatgbaCnefreGrfg {
     choyvp GrfgSnezvatgba() {
       frgCnefre(arj PGUnegsbeqPbhaglCnefre());

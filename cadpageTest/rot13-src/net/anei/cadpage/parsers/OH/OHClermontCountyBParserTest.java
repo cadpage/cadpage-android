@@ -4,7 +4,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 /*
-Pyrezbag Pbhagl, BU
+Pyrezbag Pbhagl, BU (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Havba Gbjafuvc
