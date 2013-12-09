@@ -4,7 +4,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NJBergenCountyParser extends FieldProgramParser {

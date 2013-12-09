@@ -87,13 +87,6 @@ Fraqre: VasbZnc911 <jpy_awsq@vasbznc911.pbz>
 (VasbZnc911 Qvfcngpu: 13-10622-1996 --RGN Va Zvahgrf:) \aQVFCNGPU VQ: 13-10622-1996\a\aPNYY GLCR: SONEO (OOD/TEVYY sver)\a\aNQQERFF: 51 ZVYY EBNQ RKGRAFVBA, JBBQPYVSS YNXR, AW\a\aERFCBAFR BEQRE: 72, 75, 71, 76\a\aQRFPEVCGVBA: PYBFR GB UBHFR\a\a--------------------------\a\aQVERPGVBAF:\a\aGb: Jbbqpyvss Ynxr, AW, HFN\a\aSebz: 180 Cnfpnpx Ebnq, Jbbqpyvss Ynxr, AW 07677, HFN\a\a\a1. Urnq fbhgu ba Cnfpnpx Eq gbjneq Jbbqpyvss Nir -- 420 sg\a\a2. Gnxr gur 1fg evtug bagb Jbbqpyvss Nir -- 0.9 zv\a\a3. Ghea evtug bagb Jrevzhf EqQrfgvangvba jvyy or ba gur evtug -- 0.1 zv\a\a\aGbgny Gvzr: 2 zvaf\a\aGbgny Qvfgnapr: 1.1 zv\a\a--------------------------\a\aVS LBH NER ERFCBAQVAT GB GUVF PNYY, FVZCYL ERCYL GB GUVF RZNVY JVGUBHG PUNATVAT GUR FHOWRPG, NAQ BCGVBANYYL NQQ GUR AHZORE BS ZVAHGRF LBH NER SEBZ GUR SVERUBHFR VA GUR FHOWRPG NSGRE 'RGN Va Zvahgrf:'
 (VasbZnc911 Qvfcngpu: 13-10621-1995 --RGN Va Zvahgrf:) \aQVFCNGPU VQ: 13-10621-1995\a\aPNYY GLCR: SQHZC (ABG SBHAQ)\a\aNQQERFF: 435 PURFGAHG EVQTR EBNQ, JBBQPYVSS YNXR, AW\a\aERFCBAFR BEQRE: ABG SBHAQ\a\aQRFPEVCGVBA: TNEONTR BA SVER VA GENFU PNA\a\a--------------------------\a\aQVERPGVBAF:\a\aGb: 435 Purfgahg Evqtr Ebnq, Jbbqpyvss Ynxr, AW 07677, HFN\a\aSebz: 180 Cnfpnpx Ebnq, Jbbqpyvss Ynxr, AW 07677, HFN\a\a\a1. Urnq abegu ba Cnfpnpx Eq gbjneq Ynxrivrj Greenpr -- 0.6 zv\a\a2. Ghea yrsg bagb Serzbag Nir -- 0.8 zv\a\a3. Pbagvahr fgenvtug bagb Fcevat Inyyrl Eq -- 0.4 zv\a\a4. Pbagvahr fgenvtug bagb Tyra Eq -- 0.5 zv\a\a5. Ghea evtug bagb Purfgahg Evqtr Eq -- 0.6 zv\a\a\aGbgny Gvzr: 6 zvaf\a\aGbgny Qvfgnapr: 2.9 zv\a\a--------------------------\a\aVS LBH NER ERFCBAQVAT GB GUVF PNYY, FVZCYL ERCYL GB GUVF RZNVY JVGUBHG PUNATVAT GUR FHOWRPG, NAQ BCGVBANYYL NQQ GUR AHZORE BS ZVAHGRF LBH NER SEBZ GUR SVERUBHFR VA GUR FHOWRPG NSGRE 'RGN Va Zvahgrf:'
 
-** ABGRF **
-Cerggl fvzcyr
-Pbasvez fhowrpg
-QVFCNGPU_VQ:VQ! PNYY_GLCR:PNYY! NQQERFF:NQQE! ERFCBAFR_BEQRE:HAVG! QRFPEVCGVBA:VASB+
-Fcyvg ol "\\a+"
-Fcyvg nqqerff vagb nqqerff,pvgl,fgngr.  Vtaber fgngr vs vg vf AW
-
 */
 
 choyvp pynff AWOretraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
