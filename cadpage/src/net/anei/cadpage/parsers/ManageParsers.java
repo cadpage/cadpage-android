@@ -153,16 +153,6 @@ public class ManageParsers {
   
   // fixed map mapping old to new location codes
   private static final Properties OLD_CODE_TABLE = MsgParser.buildCodeTable(new String[]{
-        "NCChattamCounty",    "NCChathamCounty",
-        "MDCentreville",      "MDQueenAnnesCounty",
-        "PADelewareCounty",   "PADelawareCounty",
-        "OHDelewareCounty",   "OHDelawareCounty",
-        "NJBergenCounty",     "NJMICOM",
-        "COPuebloRFD",        "COPuebloCounty",
-        "VAWightCounty",      "VAIsleOfWightCounty",
-        "COGreeley",          "COWeldCounty",
-        "CTNorthBranford",    "CTNewHavenCounty",       // 11/20/2011 
-        "ILRoscoe",           "ILWinnebagoCounty",      // 11/21/2011 
         "PADelawareCountyE",  "PADelawareCountyD",      // 12/30/2011 
         "CTRoxbury",          "CTNorthwestPublicSafety",// 03/21/2012 
         "PAErieCountyEnergyCare", "PAErieCountyEmergyCare", //04/07/2012

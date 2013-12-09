@@ -11,6 +11,11 @@ public class NJBergenCountyParser extends FieldProgramParser {
   public NJBergenCountyParser() {
     super("BERGEN COUNTY", "NJ", "DISPATCH_ID:ID! CALL_TYPE:CALL! ADDRESS:ADDR! RESPONSE_ORDER:UNIT! DESCRIPTION:INFO+");
   }
+  
+  @Override
+  public String getFilter() {
+    return "wcl_njfd@infomap911.com";
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -69,16 +74,14 @@ public class NJBergenCountyParser extends FieldProgramParser {
     }
   }
   
-  private static Pattern DASHES = Pattern.compile("-*");
+  private static Pattern DASHES = Pattern.compile("-*|IF YOU ARE RESPONDING TO THIS CALL,.*");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       Matcher mat = DASHES.matcher(field);
       if (!mat.matches()) {
-        data.strSupp = append(data.strSupp, " / ", field);
+        data.strSupp = append(data.strSupp, "\n", field);
       }
     }
-
   }
-
 }
