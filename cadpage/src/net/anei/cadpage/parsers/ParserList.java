@@ -411,6 +411,7 @@ public class ParserList {
           new ParserCategory("Mississippi"
               ,"MSAcadianAmbulance"             ,"Acadian Ambulance, MS"
               ,"MSCalhounCounty"                ,"Calhoun County, MS"
+              ,"MSLafayetteCounty"			      	,"Lafayette County, MS"
               ,"MSMarionCounty"                 ,"Marion County, MS"
               ,"MSNewtonCounty"                 ,"Newton County, MS"
           ),
