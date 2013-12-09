@@ -32,6 +32,8 @@ InaprPbhagl911:YvarPbhag=18 OEVTTF EQ URAQREFBA NPPVQRAG CREFBANY VAWHEL WP RQJN
 InaprPbhagl911:YvarPbhag=18 145 GRPUABYBTL YA O URAQREFBA TNF YRNX NAARGGR WRSSREFBA JISQ Yvar16= Yvar17= Yvar18=
 InaprPbhagl911:YvarPbhag=18 AP 39 UJL F // PNEZRY EVQTR EQ URAQREFBA NPPVQRAG CREFBANY VAWHEL XRYIN FGBXRF RZF,IPEF Yvar16= Yvar
 
+InaprPbhagl911:38 A PVAARONE PG URAQREFBA SVER NYNEZ ZNPXYVA OISQ,IPSQ,IPEF,JISQ
+
 Pbagnpg: Wnfba Rqjneqf <wor12173@tznvy.pbz>
 Fraqre: InaprPbhagl911@inaprpbhagl.bet
 InaprPbhagl911:2726 ENYRVTU EQ URAQREFBA NPPVQRAG CREFBANY VAWHEL FCEVAG ARKGRY - PQZN ORNEC,RZF,F47
@@ -157,10 +159,18 @@ choyvp pynff APInaprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:YBAT",
         "HAVG:RZF,JNGXV");
 
+    qbGrfg("G14",
+        "InaprPbhagl911:38 A PVAARONE PG URAQREFBA SVER NYNEZ ZNPXYVA OISQ,IPSQ,IPEF,JISQ",
+        "NQQE:38 A PVAARONE PG",
+        "PVGL:URAQREFBA",
+        "PNYY:SVER NYNEZ",
+        "ANZR:ZNPXYVA",
+        "HAVG:OISQ,IPSQ,IPEF,JISQ");
+
   }
   
   @Grfg
-  choyvp ibvq grfgOblqRqjneqf() {
+  choyvp ibvq grfgOblqRqjneqf2() {
 
     qbGrfg("G1",
         "InaprPbhagl911:YvarPbhag=18 400 EVPR EQ URAQREFBA FGEHPGHER SVER OP-1,RATA2,UISQ,Z1,GISQ,IPEF Yvar16= Yvar17= Yvar18=",
