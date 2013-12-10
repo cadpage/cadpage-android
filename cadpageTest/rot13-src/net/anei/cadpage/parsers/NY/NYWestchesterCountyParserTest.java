@@ -17,7 +17,7 @@ Fraqre: _VCNTR@jrfgpurfgretbi.pbz
 
 // Guvf bar fubhyq tb gb trareny nyreg
 Fhowrpg:VCntr\a-073.684659 +040.978189   Qhcyvpngr Rirag:Ybpngvba = UNYFGRNQ CY/BEZBAQ CY, Pebff Fgerrg 1 = UNYFGRNQ CY   TNENTR SVER   BEZBAQ CY, Pebff Fgerrg 2 = BEZBAQ CY,
-Fhowrpg:VCntr\a,Pbzzragf:   HAXBJA VS FLZCEBZF   CERZVFR 914-834-7319\3fJVYY AGSL XRLUBYQRE   Qhcyvpngr Rirag:Ybpngvba = 833 SRAVZBER EQ, Pebff Fgerrg 1 = ZBURTNA EQ NIBA EQ,
+Fhowrpg:VCntr\a,Pbzzragf:   HAXBJA VS FLZCEBZF   CERZVFR 914-834-7319   JVYY AGSL XRLUBYQRE   Qhcyvpngr Rirag:Ybpngvba = 833 SRAVZBER EQ, Pebff Fgerrg 1 = ZBURTNA EQ NIBA EQ,
 
 Fhowrpg:VCntr\a50 RYXNA EQ ZNZNEBARPX_G: @RYXNA NCNEGZRAGF, Pebff: CNYZRE NIR, Glcr:NYF, , Gvzr bhg: 12:12:51 Nern: YNEPU,Nynez yri: 0 ,Pbzzragf:   QVSS OERNGUVAT
 Fhowrpg:VCntr\aZNZNEBARPX_G: @V95 AO 07.1 RKVG 17 (PUNGFJBEGU NIR), Pebff: , Glcr:ZIN, VAWHEVRF, Gvzr bhg: 11:03:47 Nern: YNEPU,Nynez
@@ -75,6 +75,9 @@ Fraqre: _VCNTR@jrfgpurfgretbi.pbz
 Pbagnpg: Cnhy Gbegberyyn <cgbegberyyn@gzsq.bet>
 Fraqre: _VCNTR@jrfgpurfgretbi.pbz
 SEZ:_VCNTR@jrfgpurfgretbi.pbz\aFHOW:VCntr\aZFT:1329 OBFGBA CBFG EQ ZNZNEBARPX_G: @CVRE 1 VZCBEGF, Pebff: UBZZBPXF EQ, Glcr:ZIN, VAWHEVRF, Gvzr bhg: 16:38:24 Nern: YNEPU,Nynez yri: 0 ,Pbzzragf:   CRQ FGEHPX
+ 1 bs 2\aSEZ:_VCNTR@jrfgpurfgretbi.pbz\aFHOW:VCntr\aZFT:4 XNGVR YA ZNZNEBARPX_G, Pebff: ZNEOBHEAR QE, Glcr:NYNEZ, ERFQ, Gvzr bhg: 11:17:08 Nern:\a(Pba'g) 2 bs 2\aZNZGJ,Nynez yri: 0 ,Pbzzragf:(Raq)
+
+SEZ:_VCNTR@jrfgpurfgretbi.pbz\aFHOW:VCntr\aZFT:4 XNGVR YA ZNZNEBARPX_G, Pebff: ZNEOBHEAR QE, Glcr:NYNEZ, ERFQ, Gvzr bhg: 11:17:08 Nern: NZGJ,Nynez yri: 0 ,Pbzzragf:   PBK ERFVQRAPR 630-2415   FZBXR QRGRPGBEF NPGVINGVBA
 
 */
 
@@ -495,6 +498,18 @@ choyvp pynff ALJrfgpurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN / VAWHEVRF",
         "GVZR:16:38:24",
         "VASB:CRQ FGEHPX");
+
+    qbGrfg("G2",
+        "SEZ:_VCNTR@jrfgpurfgretbi.pbz\a" +
+        "FHOW:VCntr\a" +
+        "ZFT:4 XNGVR YA ZNZNEBARPX_G, Pebff: ZNEOBHEAR QE, Glcr:NYNEZ, ERFQ, Gvzr bhg: 11:17:08 Nern: NZGJ,Nynez yri: 0 ,Pbzzragf:   PBK ERFVQRAPR 630-2415   FZBXR QRGRPGBEF NPGVINGVBA",
+
+        "NQQE:4 XNGVR YA",
+        "PVGL:NZGJ",
+        "K:ZNEOBHEAR QE",
+        "PNYY:NYNEZ / ERFQ",
+        "GVZR:11:17:08",
+        "VASB:PBK ERFVQRAPR 630-2415   FZBXR QRGRPGBEF NPGVINGVBA");
 
   }
   

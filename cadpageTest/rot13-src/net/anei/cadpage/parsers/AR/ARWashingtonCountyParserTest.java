@@ -42,91 +42,828 @@ Fraqre: QBABGERCYL@FCEVATQNYRNE.TBI
 (PNQ pnyy 133420059) Pnyy#: 133420059*                                                               \aGvzr: 09:45:42*                                                                 \aGlcr bs pnyy: PBZZREPVNY SVER NYNEZ*                                            \aYbpngvba: 2175 BEPUNEQ FG, FCEVATQNYR*                                          \aPebff fgerrgf: R EBOVAFBA NIR/ YNXRFVQR NIR*                                    \aZnc ersrerapr: S0002*                                                           \aOrng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \aZnc cntr: HFR P 33*                                                             \aHavgf: R5 Y1*                                                                   \aAneengvir: PBZZREPVNY SVER NYNEZ                                                \aFUBJVAT P JVAT SVER NYNEZ                                                       \aVAFVQR 479.750.1511*
 (PNQ pnyy 133420055) Pnyy#: 133420055*                                                               \aGvzr: 09:15:26*                                                                 \aGlcr bs pnyy: QVNORGVP CEBOYRZF*                                                \aYbpngvba: 3050 NQEVNA NIR N, FCEVATQNYR*                                        \aPebff fgerrgf: OHGGRESVRYQ PBNPU EQ/ ZNEX FG*                                   \aZnc ersrerapr: S0103*                                                           \aOrng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \aHavgf: R5 Z5*                                                                   \aAneengvir: **QRYNLRQ RAEGL QHR GB PNQ FUHGQBJA**                                \aVAFHYVA ERNPGVBA                                                                \a38 LBN ZNYR                                                                     \aABG NJNXR                                                                       \aVF OERNGUVAT                                                                    \aABG NYREG                                                                       \aABG ORUNIVAT ABEZNY                                                             \aOERNGUVAT ABEZNY                                                                \a13 Q 1                                                                          \aR5 AB GENAFCBEG*
 (PNQ pnyy 133420052) Pnyy#: 133420052*                                                               \aGvzr: 09:10:45*                                                                 \aGlcr bs pnyy: GENSSVP NPPVQRAGF*                                                \aYbpngvba: TERNGUBHFR FCEVATF EQ/ OLCNFF, WBUAFBA*                               \aZnc ersrerapr: 61/FSQ RZF*                                                      \aOrng/Mbar: 021  NZOHYNAPR ZNANTRZRAG NERN 1*                                    \aHavgf: 61 Y6 Z6 R61*                                                            \aAneengvir: **QRYNLRQ RAEGL QHR GB PNQ FUHGQBJA**                                \aZIN VA A/O YNARF BS V 540 ORGJRRA WBUAFBA RKVG NAQ FHAFRG                       \aRKVG                                                                            \a44 LBN                                                                          \aNJNXR NAQ OERNGUVAT                                                             \aAB PURZVPNYF                                                                    \aAB BAR CVAARQ                                                                   \aAB BAR GUEBJA                                                                   \aNJNXR                                                                           \aOYBBQ BA SNPR                                                                   \aABG FREVBHF                                                                     \a29 O 1                                                                          \a654 2AQ PYE JVYYVNZ 5879233 9114                                                \aJUV FHI EBYYRQ BIRE A/O WHFG ABEGU BS WBUAFBA RKVG AB                           \aVAWHEVRF                                                                        \aZ6..Y6 LBH PNA PNAPRY*
-(PNQ pnyy 133420049) Pnyy#: 133420049*                                                               \aGvzr: 09:07:28*                                                                 \aGlcr bs pnyy: OERNGUVAT CEBOYRZF*                                               \aYbpngvba: 1210 GHEARE FG, FCEVATQNYR*                                           \aPebff fgerrgf: TNGRF NIR/ ENRQRYF NIR*                                          \aZnc ersrerapr: S088*                                                            \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aHavgf: R1 Z1*                                                                   \aAneengvir: **QRYNLRQ RAGEL QHR GB PNQ FUHGQBJA**                                \a67 LBN ZNYR OERNGUVAT CEBOYRZF NAQ CBFFVOYL URNEG                               \aVF NJNXR NAQ OERNGUVAT                                                          \aVF NYREG                                                                        \aAB QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF                                          \aAB PUNATR VA PBYBE                                                              \aVF PYNZZL                                                                       \aAB NFGUZN                                                                       \a6 Q 4                                                                           \aZ1 GC BAR CG GB AJZP OZ 306.0                                                   \aZ1 HCTENQVAT GB PBQR 3                                                          \aZ1 RZ 307.4*
-(PNQ pnyy 133420043) Pnyy#: 133420043*                                                               \aGvzr: 08:57:13*                                                                 \aGlcr bs pnyy: PURFG CNVA*                                                       \aYbpngvba: 1201 ZVYYF YA N, YBJRYY*                                              \aPebff fgerrgf: A TBNQ FCEVATF FG/ BNXJBBQ NIR*                                  \aZnc ersrerapr: 41/FSQ FD4*                                                      \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: 41 Z1*                                                                   \aAneengvir: **QRYNLRQ RAGEL QHR GB PNQ FUHGQBJA/ONPXHC**                         \a46 LBN ZNYR UNVIVAT PURFG CNVA NAQ OERNGUVAT CEBOYRZF                           \aVF NYREG                                                                        \aOERNGUVAT ABG ABEZNY                                                            \aHAX PBYBE PUNATR                                                                \aPYNZZL                                                                          \aUVFG BS URNEG NGGNPX                                                            \aOC ZRQF NG 9CZ YNFG AVTUG                                                       \a10 Q 4                                                                          \aZ1 GC BAR CG GB ZREPL OZ 285.2                                                  \aZ1 RZ 291.5*
-(PNQ pnyy 133420035) Pnyy#: 133420035*                                                               \aGvzr: 05:25:49*                                                                 \aGlcr bs pnyy: HAXABJA CEBOYRZ*                                                  \aYbpngvba: 701 UBARLFHPXYR FG*                                                   \aPebff fgerrgf:/*                                                                \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: 41 Z4*                                                                   \aAneengvir: 89 LBN SRZNYR                                                        \aPYE VF 3EQ CNEGL NAQ NQI GUNG GUR ZBGURE PNYYRQ NAQ FNVQ                        \aFUR UNQ N ONQ AVTUG. FUR VF BA ARJ URNEG ZRQVPNGVBA                             \aFBHAQRQ TEBTTL                                                                  \aPYE NQI FUR VF YVXRYL VA GUR YVIVAT EBBZ.                                       \aGUR ONPX QBBE BA GUR FPERRARQ VA CBEPU JVYY OR HAYBPXRQ.                        \aJVYY OR N ERQ OEVPX UBHFR.                                                      \a7706057 - TYRAAN*
-(PNQ pnyy 133420034) Pnyy#: 133420034*                                                               \aGvzr: 05:24:21*                                                                 \aGlcr bs pnyy: PNEOBA ZBABKVQR NYNEZ*                                            \aYbpngvba: 35 NCCYRTNGR QE P, FCEVATQNYR*                                        \aPebff fgerrgf: PNHQYR NIR/*                                                     \aZnc ersrerapr: S990040*                                                         \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aHavgf: R1*                                                                      \aAneengvir: PB NYNEZ TBVAT BSS*
-(PNQ pnyy 133420023) Pnyy#: 133420023*                                                               \aGvzr: 03:37:50*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 303 EBOVAFBA NIR NCG214, YBJRYY*                                      \aPebff fgerrgf: A OYBBZVATGBA FG/A BNXJBBQ FG*                                   \aZnc ersrerapr: 41/FSQ FD4*                                                      \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: 41 Z4*                                                                   \aAneengvir: 86 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  Pnyyre           \aFgngrzrag: snyy.                                                                \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: snyy                                             \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 86                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Snyyf/Onpx Vawhevrf (Genhzngv*
-(PNQ pnyy 133420005) Pnyy#: 133420005*                                                               \aGvzr: 01:05:40*                                                                 \aGlcr bs pnyy: CFLPUVNGEVP/FHVPVQR NGGRZCG*                                      \aYbpngvba: 2966 CHYYZNA QE NCG105, FCEVATQNYR*                                   \aPebff fgerrgf: GJVA PVGL NIR/ PHYQRFNP*                                         \aZnc ersrerapr: S970020*                                                         \aOrng/Mbar: 002  SVER ZNANTRZRAG NERN 2*                                         \aHavgf: R2 Z1*                                                                   \aAneengvir: Pnyy punatr sebz ZRQ gb CFLP OL QCSVER3 C 01 0000112276              \a18 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Cflpuvngevp /                         \aNoabezny Orunivbe / Fhvpvqr Nggrzcg.  Pnyyre Fgngrzrag:                         \afhvpvqny.                                                                       \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: fhvpvqny                                         \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 18                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Znyr                                             \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Cflpuvngevp/Fhvpvqr Nggrzcg*
-(PNQ pnyy 133410180) Pnyy#: 133410180*                                                               \aGvzr: 20:22:32*                                                                 \aGlcr bs pnyy: GENSSVP NPPVQRAGF*                                                \aYbpngvba: JNTBA JURRY EQ/ V-540, FCEVATQNYR*                                    \aZnc ersrerapr: S022*                                                            \aOrng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \aHavgf: R42 S43 Z4*
-(PNQ pnyy 133410178) Pnyy#: 133410178*                                                               \aGvzr: 20:18:58*                                                                 \aGlcr bs pnyy: QVNORGVP CEBOYRZF*                                                \aYbpngvba: 20339 ONYYREVAN EQ, JNFUVATGBA PBHAGL*                                \aPebff fgerrgf: SNJA EQ/R UJL 412*                                               \aZnc ersrerapr: 71/FSQ FD5*                                                      \aOrng/Mbar: 071  SVER ZNANTRZRAG NERN 71*                                        \aHavgf: 71 Z5*
-(PNQ pnyy 133410154) Pnyy#: 133410154*                                                               \aGvzr: 17:01:27*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 1303 URZOERR NIR, FCEVATQNYR*                                         \aPebff fgerrgf: F GUBZCFBA FG/ PHYQRFNP*                                         \aZnc ersrerapr: S970020*                                                         \aOrng/Mbar: 002  SVER ZNANTRZRAG NERN 2*                                         \aHavgf: R2 Z1*                                                                   \aAneengvir: 88 LBN SRZNYR UHEG ONPX PNAABG OERNGUR                               \a88 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Oernguvat                           \aCeboyrzf.  Pnyyre Fgngrzrag: jvsr uheg ure onpx .                               \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: jvsr uheg ure onpx                               \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 88                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Oernguvat Ceboyrzf*
-(PNQ pnyy 133410144) Pnyy#: 133410144*                                                               \aGvzr: 16:34:51*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 21430 WP VIL EQ, JNFUVATGBA PBHAGL*                                   \aPebff fgerrgf: BYQ UJL 68/ BFNTR PERRX EQ*                                      \aZnc ersrerapr: 51/FSQ RZF*                                                      \aOrng/Mbar: 021  NZOHYNAPR ZNANTRZRAG NERN 1*                                    \aHavgf: 51 Z6*                                                                   \aAneengvir: Pnyy punatr sebz CFLPU gb ZRQ OL QCSVER4 C 01 0000138168             \aLbh ner erfcbaqvat gb n cngvrag jub unf noabezny be                             \afhvpvqny orunivbe.  Gur cngvrag vf n 33-lrne-byq srznyr,                        \ajub vf pbafpvbhf naq oernguvat.  Cflpuvngevp / Noabezny                         \aOrunivbe / Fhvpvqr Nggrzcg.                                                     \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: fhvpvqr nggrzcg                                  \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 33                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Cflpuvngevp/Fhvpvqr Nggrzcg*
-(PNQ pnyy 133410139) Pnyy#: 133410139*                                                               \aGvzr: 16:17:22*                                                                 \aGlcr bs pnyy: TNF ZRGRE YRNX*                                                   \aYbpngvba: 2792 NQEVNA NIR O, FCEVATQNYR*                                        \aPebff fgerrgf: ZNEX FG/ JVYFBA FG*                                              \aZnc ersrerapr: S0103*                                                           \aOrng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \aHavgf: R5*
-(PNQ pnyy 133410114) Pnyy#: 133410114*                                                               \aGvzr: 14:27:05*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 672 WBARF EQ, FCEVATQNYR*                                             \aPebff fgerrgf: OEBBXYLA NIR/ PBLBGR PEBFFVAT NIR*                               \aZnc ersrerapr: S9104*                                                           \aOrng/Mbar: 006  SVER ZNANTRZRAG NERN 6*                                         \aHavgf: Y6 Z4*                                                                   \aAneengvir: Pnyy punatr sebz FVPX gb ZRQ OL QCSVER4 C 01 0000138168              \aHfvat CebDN Zrqvpny*
-(PNQ pnyy 133410105) Pnyy#: 133410105*                                                               \aGvzr: 13:43:58*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 548 R URAEV QR GBAGV OYIQ, GBAGVGBJA*                                 \aPebff fgerrgf: IVN QR GBAGV YA/ NTARF QE*                                       \aZnc ersrerapr: 51/FSQ FD6*                                                      \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: 51 Z6*                                                                   \aAneengvir: Pnyy punatr sebz ZIN gb ZRQ OL QCSVER3 C 01 0000122677               \aHfvat CebDN Zrqvpny*
-(PNQ pnyy 133410095) Pnyy#: 133410095*                                                               \aGvzr: 13:01:47*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 1314 EBTREF NIR, FCEVATQNYR*                                          \aPebff fgerrgf: ZVPUNRY FG/F JRFG RAQ FG*                                        \aZnc ersrerapr: S9604*                                                           \aOrng/Mbar: 002  SVER ZNANTRZRAG NERN 2*                                         \aHavgf: R2 Z1*                                                                   \aAneengvir: 86 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba              \a(Fcrpvsvp Qvntabfvf).  Pnyyre Fgngrzrag: fjnyybjvat                             \agebhoyr.                                                                        \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: fjnyybjvat  gebhoyr                              \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 86                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Fvpx Crefba*
-(PNQ pnyy 133410090) Pnyy#: 133410090*                                                               \aGvzr: 12:47:03*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 14388 CYRNFHER URVTUGF EQ, ORAGBA PBHAGL*                             \aPebff fgerrgf: NOORLGBJA/ PBJ SNPR EQ*                                          \aZnc ersrerapr: 81/FSQ FD5*                                                      \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: 81 Z5*                                                                   \aAneengvir: ABEUG BA CYRNFHER URVTUGF SEBZ PBJ SNPR                              \aLbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy.  Gur                        \acngvrag vf n 55-lrne-byq  znyr, jub vf pbafpvbhf naq                            \aoernguvat.  Snyyf.                                                              \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: snyy, urnq vawhel                                \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 55                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Znyr                                             \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Snyyf/Onpx Vawhevrf (Genhzngv*
-(PNQ pnyy 133410083) Pnyy#: 133410083*                                                               \aGvzr: 11:59:19*                                                                 \aGlcr bs pnyy: FVPX CREFBA*                                                      \aYbpngvba: 2619 J ZBAEBR NIR, YBJRYY*                                            \aPebff fgerrgf: ZG UROEBA EQ/ MVBA PUHEPU FG*                                    \aZnc ersrerapr: 41/FSQ FD4*                                                      \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: 41 Z4*                                                                   \aAneengvir: Pnyy punatr sebz ZRQ gb FVPX OL QCSVER3 C 01 0000122677              \aPnyy punatr sebz FVPX gb FVPX OL QCSVER3 C 01 0000122677                        \a77 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba                           \a(Fcrpvsvp Qvntabfvf).  Pnyyre Fgngrzrag: sngure unf pnapre                      \a.                                                                               \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: sngure unf pnapre                                \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 77                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Znyr                                             \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Fvpx Crefba*
-(PNQ pnyy 133410077) Pnyy#: 133410077*                                                               \aGvzr: 11:34:40*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 126 EUBQRF NIR NCG60, FCEVATQNYR*                                     \aPebff fgerrgf: FCEVAT FG/ ZVYY FG*                                              \aZnc ersrerapr: S980050*                                                         \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aHavgf: R1 Z1*                                                                   \aAneengvir: Lbh ner erfcbaqvat gb n cngvrag jvgu na haxabja ceboyrz              \a(zna qbja).  Gur  cngvrag vf n 88-lrne-byq srznyr, jub vf                       \apbafpvbhf naq oernguvat.                                                        \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: snyy                                             \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 88                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Haxabja Ceboyrz (zna qbja)*
-(PNQ pnyy 133410067) Pnyy#: 133410067*                                                               \aGvzr: 10:45:12*                                                                 \aGlcr bs pnyy: URZBEEUNTR/YNPRENGVBA*                                            \aYbpngvba: 391 FPBGG FG, RYZ FCEVATF*                                            \aPebff fgerrgf: UVYY YC/F RYZ FG*                                                \aZnc ersrerapr: PNIR/FD4*                                                        \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: Z4*                                                                      \aAneengvir: Pnyy punatr sebz ZRQ gb URZ OL QCSVER3 C 01 0000122677               \a395 FPBGG                                                                       \a26 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Urzbeeuntr /                          \aYnprengvbaf.  Pnyyre Fgngrzrag: oyrrqvat.                                       \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: oyrrqvat                                         \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 26                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Znyr                                             \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Urzbeeuntr/Ynprengvbaf*
-(PNQ pnyy 133410063) Pnyy#: 133410063*                                                               \aGvzr: 10:25:23*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 3065 FVATYRGERR NIR, FCEVATQNYR*                                      \aPebff fgerrgf: QBHOYRGERR FG/ OHGGRESVRYQ PBNPU EQ*                             \aZnc ersrerapr: S0104*                                                           \aOrng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \aHavgf: R5 Z5*                                                                   \aAneengvir: 27 lrne byq, Znyr, Pbafpvbhfarff haxabja, Oernguvat fgnghf           \ahapregnva.  Pneqvnp be Erfcvengbel Neerfg / Qrngu.  Pnyyre                      \aFgngrzrag: ynql pnaabg oerngur .                                                \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: ynql pnaabg oerngur                              \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 27                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Znyr                                             \aVf gur cngvrag pbafpvbhf.....? Haxabja                                          \aVf gur cngvrag oernguvat.....? Hapregnva                                        \aPuvrs pbzcynvag..............: Pneqvnp/Erfcvengbel Neerfg*
-(PNQ pnyy 133410049) Pnyy#: 133410049*                                                               \aGvzr: 08:56:08*                                                                 \aGlcr bs pnyy: PBZZREPVNY SVER NYNEZ*                                            \aYbpngvba: 4446 J FHAFRG NIR, FCEVATQNYR*                                        \aPebff fgerrgf: EVRSS FG/F 48GU FG*                                              \aZnc ersrerapr: S080*                                                            \aOrng/Mbar: 006  SVER ZNANTRZRAG NERN 6*                                         \aHavgf: Y6 R4*                                                                   \aAneengvir: PBZZREPVNY SVER NYNEZ NG ZRRXF YHZORE                                \aFUBJVAT TRA SVER NYNEZ                                                          \aVAFVQR 7562550*
-(PNQ pnyy 133410038) Pnyy#: 133410038*                                                               \aGvzr: 05:59:08*                                                                 \aGlcr bs pnyy: VA FREIVPR BA GUR NVE*                                            \aYbpngvba: FCEVATQNYR SVER QRCG UD, 417 UBYPBZO FG, FCEVATQNYR*                  \aPebff fgerrgf: J NYYRA NIR/J ZNCYR NIR*                                         \aZnc ersrerapr: S9804*                                                           \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aHavgf: R62 E1*
-(PNQ pnyy 133410039) Pnyy#: 133410039*                                                               \aGvzr: 06:02:23*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 203 SBK EHA CY N, YBJRYY*                                             \aPebff fgerrgf: J ZBAEBR NIR/A OYBBZVATGBA FG*                                   \aZnc ersrerapr: 41/FSQ FD4*                                                      \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: 41 Z4*                                                                   \aAneengvir: Lbh ner erfcbaqvat gb n cngvrag jvgu na haxabja ceboyrz              \a(zna qbja).  Gur  cngvrag vf n 69-lrne-byq srznyr, jub vf                       \apbafpvbhf naq oernguvat.  Fgnaqvat, fvggvat, zbivat, be                         \agnyxvat.  1.Guvf vf n Zrqvpny Nynez (Nyreg) abgvsvpngvba.                       \a2.Fur nccrnef gb or pbzcyrgryl njnxr (nyreg).  3.Fur jnf                        \aurneq gnyxvat.  4.Fur vf ylvat qbja abj.  5.Vg f abg xabja                      \avs fur vf zbivat ng nyy.  6.Gur pnyyre qbrfa g xabj jurer                       \afur vf.                                                                         \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: Qvfcngpu                                         \aCeboyrz......................: SNYY                                             \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 69                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Haxabja Ceboyrz (zna qbja)                       \aQvfcngpu yriry...............: 32O01                                            \aErfcbafr GrkG........: Oenib*
-(PNQ pnyy 133410033) Pnyy#: 133410033*                                                               \aGvzr: 05:30:40*                                                                 \aGlcr bs pnyy: PNEQVNP/ERFCVENGBEL NEERFG*                                       \aYbpngvba: 102 A THGRAFBUA EQ, FCEVATQNYR*                                       \aPebff fgerrgf: J RZZN NIR/ ZPZVYYNA QE*                                         \aZnc ersrerapr: S9505*                                                           \aOrng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \aZnc cntr: HFR P 33*                                                             \aHavgf: R4 Z4*                                                                   \aAneengvir: 89 LBN SRZNYR ABG OERNGUVAT                                          \aPNYY OL AHEFR BE QBP                                                            \aABG NJNXR BE OERNGUVAT                                                          \a67 N                                                                            \aTB QBJA GUR UNYY SVEFG UNYY GB GUR EVTUG NG GUR AHEFRF                          \aFGNGVBA*
-(PNQ pnyy 133410027) Pnyy#: 133410027*                                                               \aGvzr: 03:47:11*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 313 YNHEN FG, FCEVATQNYR*                                             \aPebff fgerrgf: R UHAGFIVYYR NIR/R PRAGRE NIR*                                   \aZnc ersrerapr: S9905*                                                           \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aHavgf: R1 Z1*                                                                   \aAneengvir: 64 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Oernguvat                \aCeboyrzf.  Noabezny oernguvat  (Nfguzn).  Pnyyre Fgngrzrag:                     \aoernguvat ceboyrzf.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat                      \anccebcevngryl).  2.Fur qbrf abg unir nal qvssvphygl                             \afcrnxvat orgjrra oernguf.  3.Fur vf abg pynzzl.  4.Fur unf                      \anfguzn.  5.Fur unf n cerfpevorq vaunyre.  6.Fur unf abg                         \ahfrq n cerfpevorq vaunyre.  7.Fur qbrf abg unir nal fcrpvny                     \ardhvczrag be vafgehpgvbaf gb gerng guvf.                                        \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: Qvfcngpu                                         \aCeboyrz......................: oernguvat ceboyrzf                               \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 64                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Oernguvat Ceboyrzf                               \aQvfcngpu yriry...............: 06P01N - Nfguzn                                  \aErfcbafr GrkG........: Puneyvr*
-(PNQ pnyy 133410007) Pnyy#: 133410007*                                                               \aGvzr: 00:38:12*                                                                 \aGlcr bs pnyy: OERNGUVAT CEBOYRZF*                                               \aYbpngvba: 2711 ZPZVYYNA QE O, FCEVATQNYR*                                       \aPebff fgerrgf: A THGRAFBUA EQ/*                                                 \aZnc ersrerapr: S9505*                                                           \aOrng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \aHavgf: R4 Z4*                                                                   \aAneengvir: 74 LBN SRZNYR UNIVAT GEBHOYR OERNGUVAT                               \aQVSSVPHYGL FCRNXVAT OGJA OERNGUF*
-(PNQ pnyy 133410003) Pnyy#: 133410003*                                                               \aGvzr: 00:08:09*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 202 DHNAQG NIR, FCEVATQNYR*                                           \aPebff fgerrgf: UBYPBZO FG/ PEBHPU FG*                                           \aZnc ersrerapr: S9804*                                                           \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aHavgf: R1 Z1*                                                                   \aAneengvir: 78 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba                \a(Fcrpvsvp Qvntabfvf).  Pnyyre Fgngrzrag: fvpx.                                  \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: fvpx                                             \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 78                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Znyr                                             \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Fvpx Crefba*
-(PNQ pnyy 133400259) Pnyy#: 133400259*                                                               \aGvzr: 23:50:00*                                                                 \aGlcr bs pnyy: FVPX CREFBA*                                                      \aYbpngvba: 6105 NYYVR SENAPRF GE, FCEVATQNYR*                                    \aPebff fgerrgf: QNAPVAT ENOOVG QE/*                                              \aZnc ersrerapr: S9204*                                                           \aOrng/Mbar: 006  SVER ZNANTRZRAG NERN 6*                                         \aHavgf: Y6 Z21*                                                                  \aAneengvir: 47 LBN SRZNYR UNIVAT NA NAKVRGL NGGNPX*
-(PNQ pnyy 133400250) Pnyy#: 133400250*                                                               \aGvzr: 22:56:51*                                                                 \aGlcr bs pnyy: FGNAQOL SBE SSQ/PRZF*                                             \aYbpngvba: AJN ZNYY, 4201 A FUVYBU QE, SNLRGGRIVYYR*                             \aPebff fgerrgf:/*                                                                \aZnc ersrerapr: PRZF*                                                            \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: Z6*                                                                      \aAneengvir: FGNTR SBE PRZF*
-(PNQ pnyy 133400223) Pnyy#: 133400223*                                                               \aGvzr: 20:04:55*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 126 EUBQRF NIR NCG127, FCEVATQNYR*                                    \aPebff fgerrgf: FCEVAT FG/ ZVYY FG*                                              \aZnc ersrerapr: S980050*                                                         \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aHavgf: R5 Z5*                                                                   \aAneengvir: 88 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Purfg Cnva                 \a(Aba-Genhzngvp).  Pnyyre Fgngrzrag: cbffvoyr purfg cnva.                        \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: cbffvoyr purfg cnva                              \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 88                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Znyr                                             \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Purfg Cnva*
-(PNQ pnyy 133400222) Pnyy#: 133400222*                                                               \aGvzr: 20:01:43*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 1328 ND PVE X23, FCEVATQNYR*                                          \aPebff fgerrgf: FNAQREF NIR/A FUVYBU FG*                                         \aZnc ersrerapr: S9806*                                                           \aOrng/Mbar: 003  SVER ZNANTRZRAG NERN 3*                                         \aHavgf: Y1 Z1*                                                                   \aAneengvir: Hfvat CebDN Zrqvpny*
-(PNQ pnyy 133400219) Pnyy#: 133400219*                                                               \aGvzr: 19:52:12*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 2104 PNEYRL EQ, FCEVATQNYR*                                           \aPebff fgerrgf: YHIRAR NIR/ PUNCZNA NIR*                                         \aZnc ersrerapr: S950030*                                                         \aOrng/Mbar: 006  SVER ZNANTRZRAG NERN 6*                                         \aHavgf: Y6 Z6*                                                                   \aAneengvir: 46 LBN SRZNYR GUNG VF UNIVAT OERNGUVAT CEBOYRZF                      \aVF NJNXR                                                                        \aVF OERNGUVTA                                                                    \aVF NYREG                                                                        \aNtr haxabja, Traqre haxabja, Pbafpvbhfarff haxabja,                             \aOernguvat fgnghf haxabja.  Haxabja Ceboyrz (Zna Qbja).                          \aZrqvpny Nynez (Nyreg) abgvsvpngvbaf (ab cngvrag                                 \avasbezngvba).  Pnyyre Fgngrzrag: zrqvpny nynez .  1.Guvf vf                     \an Zrqvpny Nynez (Nyreg) abgvsvpngvba.  2.Vg f abg xabja vs                      \agurl nccrne gb or pbzcyrgryl njnxr (nyreg).  3.Gur pnyyre                       \ajnf gbb sne njnl gb urne vs gur cngvragf jrer gnyxvat.                          \a4.Vg f abg xabja jung gurl ner qbvat abj.  5.Vg f abg xabja                     \avs gurl ner zbivat ng nyy.  6.Gur pnyyre qbrfa g xabj jurer                     \agurl ner.                                                                       \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: Qvfcngpu                                         \aCeboyrz......................: zrqvpny nynez                                    \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: Haxabja                                          \aNtr Havgf....................: Enatr                                            \aFrk..........................: Haxabja                                          \aVf gur cngvrag pbafpvbhf.....? Haxabja                                          \aVf gur cngvrag oernguvat.....? Haxabja                                          \aPuvrs pbzcynvag..............: Haxabja Ceboyrz (zna qbja)                       \aQvfcngpu yriry...............: 32O02                                            \aErfcbafr GrkG........: Oenib*
-(PNQ pnyy 133400217) Pnyy#: 133400217*                                                               \aGvzr: 19:50:21*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 1705 YBJRYY EQ P204, FCEVATQNYR*                                      \aPebff fgerrgf: J ONVYRL NIR/J ENAQNYY JBOOR YA*                                 \aZnc ersrerapr: S9806*                                                           \aOrng/Mbar: 003  SVER ZNANTRZRAG NERN 3*                                         \aHavgf: R3 Z21*                                                                  \aAneengvir: Hfvat CebDN Zrqvpny*
-(PNQ pnyy 133400212) Pnyy#: 133400212*                                                               \aGvzr: 19:34:17*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 223 YVAXF QE NCG202, YBJRYY*                                          \aPebff fgerrgf: CNE YA/ OBTRL QE*                                                \aZnc ersrerapr: 41/FSQ FD4*                                                      \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: 41 Z4*                                                                   \aAneengvir: Lbh ner erfcbaqvat gb n cngvrag jub vf fvpx (be unf n                \apheerag zrqvpny pbaqvgvba).  Gur cngvrag vf n 54-lrne-byq                       \aznyr, jub vf pbafpvbhf naq oernguvat.  Noabezny oernguvat.                      \aFvpx Crefba (Fcrpvsvp Qvntabfvf).  1.Ur vf pbzcyrgryl nyreg                     \a(erfcbaqvat nccebcevngryl).  2.Ur vf abg oernguvat                              \aabeznyyl.  3.Ur unf bgure cnva: unf onpx cnva  4.Ur vf abg                      \aoyrrqvat (be ibzvgvat oybbq).  -Pbzzragf: unf onpx cnva-                        \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: Qvfcngpu                                         \aCeboyrz......................: xvqarl fgbar                                     \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 54                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Znyr                                             \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Fvpx Crefba                                      \aQvfcngpu yriry...............: 26P02                                            \aErfcbafr GrkG........: Puneyvr*
-(PNQ pnyy 133400210) Pnyy#: 133400210*                                                               \aGvzr: 19:30:21*                                                                 \aGlcr bs pnyy: PBZZREPVNY SVER NYNEZ*                                            \aYbpngvba: 614 R RZZN NIR, FCEVATQNYR*                                           \aPebff fgerrgf: WBARF GEHPX YVAR EQ/ ONTTRGG FG*                                 \aZnc ersrerapr: S980050*                                                         \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aZnc cntr: HFR P 33*                                                             \aHavgf: R1 Y1*                                                                   \aAneengvir: SVER NAQ FRPHEVGL                                                    \aERPVRIRQ N WBARF PYVAVP SVER NYNEZ                                              \aTRARENY SVER NYNEZ                                                              \aJVYY OR GUR PBZZHAVGL PYVAVP                                                    \aPBZZREVPNY OYQT                                                                 \a479 751 7417*
-(PNQ pnyy 133400205) Pnyy#: 133400205*                                                               \aGvzr: 19:06:35*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 5325 A BNX FG Z206, FCEVATQNYR*                                       \aPebff fgerrgf: UNGUBEA QE/ UNGPURE EQ*                                          \aZnc ersrerapr: S9809*                                                           \aOrng/Mbar: 003  SVER ZNANTRZRAG NERN 3*                                         \aHavgf: R1 Z1*                                                                   \aAneengvir: Hfvat CebDN Zrqvpny*
-(PNQ pnyy 133400202) Pnyy#: 133400202*                                                               \aGvzr: 18:51:50*                                                                 \aGlcr bs pnyy: SVER - BGURE BE HAX GLCR*                                         \aYbpngvba: 1718 EVQTRIVRJ QE, FCEVATQNYR*                                        \aPebff fgerrgf: PURLRAAR GE/*                                                    \aZnc ersrerapr: S966060*                                                         \aOrng/Mbar: 003  SVER ZNANTRZRAG NERN 3*                                         \aHavgf: R3*                                                                      \aAneengvir: SYNZR NAQ FZBXR NAQ FCNEX VA GUR BIRA                                \a1 FGBERL UBHFR                                                                  \aAB BAR VAWHERQ                                                                  \aGUR SVER VF BHG NAQ JNF PBAGNVARQ VA GUR FGBIR*
-(PNQ pnyy 133400196) Pnyy#: 133400196*                                                               \aGvzr: 18:27:28*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 6456 YLAPU'F CENVEVR PI, FCEVATQNYR*                                  \aPebff fgerrgf: SBHAQREF CNEX QE/ PHYQRFNP*                                      \aZnc ersrerapr: S9104*                                                           \aOrng/Mbar: 006  SVER ZNANTRZRAG NERN 6*                                         \aZnc cntr: HFR P 33*                                                             \aHavgf: Y6 Z6*                                                                   \aAneengvir: Hfvat CebDN Zrqvpny*
-(PNQ pnyy 133400189) Pnyy#: 133400189*                                                               \aGvzr: 17:37:59*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: UVPXBEL PERRX SVER FGNGVBA,*                                          \aPebff fgerrgf:/*                                                                \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: 71 Z5*                                                                   \aAneengvir: 4 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Genhzngvp Vawhevrf          \a(Fcrpvsvp).  CBFFVOYL QNATREBHF obql nern.  Pnyyre                              \aFgngrzrag: uvg urnq ba gehpx .  1.Guvf unccrarq abj (yrff                       \aguna 6uef ntb).  2.Gurer vf fbzr oyrrqvat, abg frevbhf.                         \a3.Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  4.Gur                     \avawhel vf gb n CBFFVOYL QNATREBHF nern.                                         \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: Qvfcngpu                                         \aCeboyrz......................: uvg urnq ba gehpx                                \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 4                                                \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Znyr                                             \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Genhzngvp Vawhevrf, fcrpvsvp                     \aQvfcngpu yriry...............: 30O01                                            \aErfcbafr GrkG........: Oenib*
-(PNQ pnyy 133400184) Pnyy#: 133400184*                                                               \aGvzr: 17:07:36*                                                                 \aGlcr bs pnyy: OERNGUVAT CEBOYRZF*                                               \aYbpngvba: 1761 CVAR JBBQF EQ, FCEVATQNYR*                                       \aPebff fgerrgf: ENIRAJBBQ YA/ SNYPBA EQ*                                         \aZnc ersrerapr: S9406*                                                           \aOrng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \aHavgf: R4 Z4*                                                                   \aAneengvir: Pnyy punatr sebz SNYY gb FBO OL QCSVER6 C 01 0000001012*
-(PNQ pnyy 133400140) Pnyy#: 133400140*                                                               \aGvzr: 14:41:47*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 5000 NEXNAFUVER PVE NCG114, FCEVATQNYR*                               \aPebff fgerrgf: PUHEPUVYY NIR/ QNEOL FG*                                         \aZnc ersrerapr: S9600*                                                           \aOrng/Mbar: 002  SVER ZNANTRZRAG NERN 2*                                         \aHavgf: R2 Z1*                                                                   \aAneengvir: Hfvat CebDN Zrqvpny*
-(PNQ pnyy 133400132) Pnyy#: 133400132*                                                               \aGvzr: 14:05:22*                                                                 \aGlcr bs pnyy: GENSSVP NPPVQRAGF*                                                \aYbpngvba: FPUBBY NIR/A OYBBZVATGBA FG, YBJRYY*                                  \aZnc ersrerapr: 41/FSQ FD4*                                                      \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: 41 Z4*                                                                   \aAneengvir: Pnyy punatr sebz ZIN gb ZRQ OL QCSVER4 C 01 0000122677               \aPnyy punatr sebz ZRQ gb ZIN OL QCSVER4 C 01 0000122677                          \aLbh ner erfcbaqvat gb zhygvcyr cngvragf vaibyirq va n                           \agenssvp vapvqrag.  (Vs xabja  -- erynl cregvarag                                \acngvrag-fcrpvsvp vasbezngvba.)  Zhygvcyr cngvragf vaibyirq:                     \a3.  Genssvp / Genafcbegngvba Vapvqragf.                                         \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: zin niivqrag                                     \aAhzore bs Cngvragf...........: 3                                                \aNtr..........................: Haxabja                                          \aNtr Havgf....................: Enatr                                            \aFrk..........................: Haxabja                                          \aVf gur cngvrag pbafpvbhf.....? Haxabja                                          \aVf gur cngvrag oernguvat.....? Haxabja                                          \aPuvrs pbzcynvag..............: Genssvp Nppvqragf*
-(PNQ pnyy 133400129) Pnyy#: 133400129*                                                               \aGvzr: 13:38:53*                                                                 \aGlcr bs pnyy: PBZZREPVNY SVER NYNEZ*                                            \aYbpngvba: 3446 JNTBA JURRY EQ, FCEVATQNYR*                                      \aPebff fgerrgf: NPHSS QE/ GJVA BNXF QE*                                          \aZnc ersrerapr: S022*                                                            \aOrng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \aHavgf: R4 Y6*                                                                   \aAneengvir: PBZZREPVNY SVER NYNEZ NG QHAX SVER FRPHEVGL                          \aFUBJVAT MBAR 1 TRARENY SVER NYNEZ                                               \aVAFVQR 479 750 1833*
-(PNQ pnyy 133400114) Pnyy#: 133400114*                                                               \aGvzr: 12:56:24*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 1298 RYRPGEVP NIR N105, FCEVATQNYR*                                   \aPebff fgerrgf: F BYQ ZVFFBHEV EQ/ BEPUNEQ FG*                                   \aZnc ersrerapr: S9901*                                                           \aOrng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \aHavgf: R5 Z21*                                                                  \aAneengvir: 78 LBN SRZNYR                                                        \aVAFVQR 479 751 3371                                                             \aZRQVPNY UVFGBEL: NGUEVGVF, TBHG                                                 \a78 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Haxabja Ceboyrz                     \a(Zna Qbja).  Fgnaqvat, fvggvat, zbivat, be gnyxvat.  Pnyyre                     \aFgngrzrag: oernguvat cebo, purfg cnva.  1.Guvf vf n Zrqvpny                     \aNynez (Nyreg) abgvsvpngvba.  2.Fur nccrnef gb or pbzcyrgryl                     \anjnxr (nyreg).  3.Fur jnf urneq gnyxvat.  4.Fur vf fvggvat                      \aabj.  5.Vg f abg xabja vs fur vf zbivat ng nyy.  6.Gur                          \apnyyre qbrfa g xabj jurer fur vf.                                               \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: Qvfcngpu                                         \aCeboyrz......................: oernguvat cebo, purfg cnva                       \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 78                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Haxabja Ceboyrz (zna qbja)                       \aQvfcngpu yriry...............: 32O01                                            \aErfcbafr GrkG........: Oenib*
-(PNQ pnyy 133400109) Pnyy#: 133400109*                                                               \aGvzr: 12:44:03*                                                                 \aGlcr bs pnyy: RZF NFFVFG*                                                       \aYbpngvba: 126 PRQNE OYHSS NCG7*                                                 \aPebff fgerrgf:/*                                                                \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: Z5*                                                                      \aAneengvir: BA 23A WHFG ABEGU BHG BS PVGL YVZVGF                                 \a73LBN ZNYR, PNYYRQ VA NF N SNYY JVGU AB VAWHEVRF                                \aOHG ABJ ARRQ N FDHNQ                                                            \aNYGRERQ YBP*
-(PNQ pnyy 133400106) Pnyy#: 133400106*                                                               \aGvzr: 12:30:14*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 102 A THGRAFBUA EQ, FCEVATQNYR*                                       \aPebff fgerrgf: J RZZN NIR/ ZPZVYYNA QE*                                         \aZnc ersrerapr: S9505*                                                           \aOrng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \aZnc cntr: HFR P 33*                                                             \aHavgf: R4 Z4*                                                                   \aAneengvir: Lbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy.  Gur             \acngvrag vf n 80-lrne-byq  srznyr, jub vf pbafpvbhf naq                          \aoernguvat.  Snyyf.                                                              \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: snyy vawhel                                      \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 80                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Snyyf/Onpx Vawhevrf (Genhzngv*
-(PNQ pnyy 133400100) Pnyy#: 133400100*                                                               \aGvzr: 12:01:48*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 664 QBR QE, RYZ FCEVATF*                                              \aPebff fgerrgf: PNEVOBH YA/ SNJA*                                                \aZnc ersrerapr: PNIR/FD4*                                                        \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: Z4*                                                                      \aAneengvir: 3435 RAGRE, XRL VF BA TENL RYRPGEVP OBK                              \a78 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  ABG                         \aQNATREBHF obql nern  (Ba gur tebhaq be sybbe).  Pnyyre                          \aFgngrzrag: pye sryy, qvmml, phg rlr.  1.Guvf unccrarq abj                       \a(yrff guna 6uef ntb).  2.Vg f ercbegrq gung fur sryy ng                         \atebhaq yriry.  3.Gur snyy jnf nppvqragny.  4.Gurer vf fbzr                      \aoyrrqvat, abg frevbhf.  5.Fur vf pbzcyrgryl nyreg                               \a(erfcbaqvat nccebcevngryl).  6.Gur vawhel vf gb n ABG                           \aQNATREBHF nern.  7.Fur vf fgvyy ba gur sybbe (tebhaq).                          \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: Qvfcngpu                                         \aCeboyrz......................: pye sryy, qvmml, phg rlr                         \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 78                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Snyyf/Onpx Vawhevrf (Genhzngv                    \aQvfcngpu yriry...............: 17N01T                                           \aErfcbafr GrkG........: Nycun*
-(PNQ pnyy 133400099) Pnyy#: 133400099*                                                               \aGvzr: 11:59:57*                                                                 \aGlcr bs pnyy: GENSSVP NPPVQRAGF*                                                \aYbpngvba: WBUAFBA EQ/ ZNTABYVN QE, FCEVATQNYR*                                  \aZnc ersrerapr: S950000*                                                         \aOrng/Mbar: 002  SVER ZNANTRZRAG NERN 2*                                         \aHavgf: R2 Z1*                                                                   \aAneengvir: 57 LBN ZNYR                                                          \aSEBZ NPPVQRAG P/B ONPX CNVA*
-(PNQ pnyy 133400095) Pnyy#: 133400095*                                                               \aGvzr: 11:45:44*                                                                 \aGlcr bs pnyy: PURFG CNVA*                                                       \aYbpngvba: JNYZNEG UHAGFIVYYR,*                                                  \aPebff fgerrgf:/*                                                                \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: Z1*                                                                      \aAneengvir: 85 LBN ZNYR PBHTUVAT HC OYBBQ                                        \aP/B PURFG CNVA NAQ YBJ TENQR SRIRE                                              \aVA N ERQ 1997 PURI FVYIRENQB RKGRAQRQ PNO*
-(PNQ pnyy 133400082) Pnyy#: 133400082*                                                               \aGvzr: 11:17:34*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 3304 UVYYIVRJ PG, FCEVATQNYR*                                         \aPebff fgerrgf: PNEYRL EQ/*                                                      \aZnc ersrerapr: S950030*                                                         \aOrng/Mbar: 006  SVER ZNANTRZRAG NERN 6*                                         \aHavgf: Y6 Z6*                                                                   \aAneengvir: Lbh ner erfcbaqvat gb n cngvrag jub vf fvpx (be unf n                \apheerag zrqvpny pbaqvgvba).  Gur cngvrag vf n 81-lrne-byq                       \asrznyr, jub vf pbafpvbhf naq oernguvat.  Fvpx Crefba                            \a(Fcrpvsvp Qvntabfvf).                                                           \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: qvfybpngrq uvc                                   \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 81                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Fvpx Crefba*
-(PNQ pnyy 133400076) Pnyy#: 133400076*                                                               \aGvzr: 10:58:37*                                                                 \aGlcr bs pnyy: FVPX CREFBA*                                                      \aYbpngvba: 106 ZNQVFBA 7795*                                                     \aPebff fgerrgf:/*                                                                \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: Z5*                                                                      \aAneengvir: Pnyy punatr sebz ZRQ gb FVPX OL QCSVER3 C 01 0000115774              \a40 LBN SRZNYR IBZVGGVAT OYBBQ                                                   \aHfvat CebDN Zrqvpny*
-(PNQ pnyy 133400060) Pnyy#: 133400060*                                                               \aGvzr: 10:00:10*                                                                 \aGlcr bs pnyy: FVPX CREFBA*                                                      \aYbpngvba: 2107 PNZVAB ERNY, FCEVATQNYR*                                         \aPebff fgerrgf: OHRAN IVFGN PVE/ OHRAN IVFGN PVE*                                \aZnc ersrerapr: S960060*                                                         \aOrng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \aHavgf: R4 Z4*                                                                   \aAneengvir: Pnyy punatr sebz ZRQ gb FVPX OL QCSVER4 C 01 0000005298              \aLbh ner erfcbaqvat gb n cngvrag jub vf fvpx (be unf n                           \apheerag zrqvpny pbaqvgvba).  Gur cngvrag vf n 73-lrne-byq                       \asrznyr, jub vf pbafpvbhf naq oernguvat.  Fvpx Crefba                            \a(Fcrpvsvp Qvntabfvf).                                                           \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: zbgure unf carhzbavn                             \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 73                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Fvpx Crefba*
-(PNQ pnyy 133400023) Pnyy#: 133400023*                                                               \aGvzr: 05:33:58*                                                                 \aGlcr bs pnyy: GENSSVP NPPVQRAGF*                                                \aYbpngvba: XHZ NAQ TB GUBZCFBA, 1010 A GUBZCFBA FG, FCEVATQNYR*                  \aPebff fgerrgf: ONPXHF NIR/ PUEVFGVNA NIR*                                       \aZnc ersrerapr: S052*                                                            \aOrng/Mbar: 003  SVER ZNANTRZRAG NERN 3*                                         \aHavgf: R3 Z1*                                                                   \aAneengvir: 29 LBN ZNYR                                                          \aUVG UVF URNQ                                                                    \aVAFVQR GUR XHZ NAQ TB                                                           \aPYE QVFPBAARPGRQ*
-(PNQ pnyy 133400016) Pnyy#: 133400016*                                                               \aGvzr: 03:03:32*                                                                 \aGlcr bs pnyy: PBZZREPVNY SVER NYNEZ*                                            \aYbpngvba: 614 R RZZN NIR FGR300, FCEVATQNYR*                                    \aPebff fgerrgf: WBARF GEHPX YVAR EQ/ ONTTRGG FG*                                 \aZnc ersrerapr: S980050*                                                         \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aZnc cntr: HFR P 33*                                                             \aHavgf: R1 Y1*                                                                   \aAneengvir: PBZZ SVER NYNEZ QRSNHYG SVER NYNEZ                                   \aVAFVQR AHZORE 479 751 7417                                                      \aNYFB CNAVP NYNEZ NF QRSNHYG NYNEZ NF JRYY*
-(PNQ pnyy 133400008) Pnyy#: 133400008*                                                               \aGvzr: 01:39:39*                                                                 \aGlcr bs pnyy: PBZZREPVNY SVER NYNEZ*                                            \aYbpngvba: 614 R RZZN NIR N, FCEVATQNYR*                                         \aPebff fgerrgf: WBARF GEHPX YVAR EQ/ ONTTRGG FG*                                 \aZnc ersrerapr: S980050*                                                         \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aZnc cntr: HFR P 33*                                                             \aHavgf: R1 Y1*                                                                   \aAneengvir: SVER NYNEZ NG WBARF SNZVYL ERFBHEPR PRAGRE, 614 R RZZN               \aFUBJVAT... TRARENY NYNEZ.*
-(PNQ pnyy 133400003) Pnyy#: 133400003*                                                               \aGvzr: 00:06:14*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 1808 GNLYBE NIR, FCEVATQNYR*                                          \aPebff fgerrgf: UVAFUNJ QE/ RYZQNYR QE*                                          \aZnc ersrerapr: S966056*                                                         \aOrng/Mbar: 003  SVER ZNANTRZRAG NERN 3*                                         \aHavgf: R3 Z1*                                                                   \aAneengvir: Lbh ner erfcbaqvat gb n cngvrag jub vf fvpx (be unf n                \apheerag zrqvpny pbaqvgvba).  Gur cngvrag vf n 79-lrne-byq                       \aznyr, jub vf pbafpvbhf naq oernguvat.  Fvpx Crefba                              \a(Fcrpvsvp Qvntabfvf).                                                           \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: fvpx                                             \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 79                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Znyr                                             \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Fvpx Crefba*
-(PNQ pnyy 133390194) Pnyy#: 133390194*                                                               \aGvzr: 22:55:22*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 2106 OYHROVEQ QE, FCEVATQNYR*                                         \aPebff fgerrgf: BEVBYR FG/ GUEHFU FG*                                            \aZnc ersrerapr: S0003*                                                           \aOrng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \aHavgf: R5 Z5*                                                                   \aAneengvir: 92 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Oernguvat                \aCeboyrzf.  QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF.  Pnyyre                         \aFgngrzrag: srznyr univat gebhoyr oernguvat.  1.Fur vf                           \apbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur unf                         \aqvssvphygl fcrnxvat orgjrra oernguf.                                            \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: Qvfcngpu                                         \aCeboyrz......................: srznyr univat gebhoyr oernguv                    \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 92                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Oernguvat Ceboyrzf                               \aQvfcngpu yriry...............: 06Q02                                            \aErfcbafr GrkG........: Qrygn*
-(PNQ pnyy 133390189) Pnyy#: 133390189*                                                               \aGvzr: 21:24:12*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 5000 NEXNAFUVER PVE NCG114, FCEVATQNYR*                               \aPebff fgerrgf: PUHEPUVYY NIR/ QNEOL FG*                                         \aZnc ersrerapr: S9600*                                                           \aOrng/Mbar: 002  SVER ZNANTRZRAG NERN 2*                                         \aHavgf: R2 Z1*                                                                   \aAneengvir: Hfvat CebDN Zrqvpny*
-(PNQ pnyy 133390185) Pnyy#: 133390185*                                                               \aGvzr: 20:50:26*                                                                 \aGlcr bs pnyy: GENSSVP NPPVQRAGF*                                                \aYbpngvba: 422 F YNXR EQ, RYZ FCEVATF*                                           \aPebff fgerrgf: R YNXR EQ/ EBFF NIR*                                             \aZnc ersrerapr: PNIR/FD4*                                                        \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: Z4*                                                                      \aAneengvir: 6 ZBAGU BYQ PUVYQ JVGU CBFFVOYR VAWHEVRF SEBZ NA NPPVQRAG*
-(PNQ pnyy 133390179) Pnyy#: 133390179*                                                               \aGvzr: 18:26:36*                                                                 \aGlcr bs pnyy: FREIVPR PNYY*                                                     \aYbpngvba: 2727 NZUHEFG YC, FCEVATQNYR*                                          \aPebff fgerrgf: FGNTRPBNPU NIR/ GHYYRL YA*                                       \aZnc ersrerapr: S0104*                                                           \aOrng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \aHavgf: R5*                                                                      \aAneengvir: 48 LBN ZNYR UNF SNYYRA SEBZ UVF JURRYPUNVE GB GUR                    \aSYBBE NAQ ARRQF NFFVFGNAPR TRGGVAT HC.*
-(PNQ pnyy 133390177) Pnyy#: 133390177*                                                               \aGvzr: 18:14:16*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 2434 ZPENL NIR, FCEVATQNYR*                                           \aPebff fgerrgf: PERFGJBBQ FG/F PNZCORYY QE*                                      \aZnc ersrerapr: S952040*                                                         \aOrng/Mbar: 002  SVER ZNANTRZRAG NERN 2*                                         \aHavgf: R2 Z4*                                                                   \aAneengvir: 84 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Fvpx Crefba              \a(Fcrpvsvp Qvntabfvf).  Pnyyre Fgngrzrag: zbgure funxvat                         \aarpx uhegf.                                                                     \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: zbgure funxvat arpx uhegf                        \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 84                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Fvpx Crefba*
-(PNQ pnyy 133390167) Pnyy#: 133390167*                                                               \aGvzr: 17:02:46*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 487 XRGPU PG, FCEVATQNYR*                                             \aPebff fgerrgf: UNEORE NIR/ PHGGRE PG*                                           \aZnc ersrerapr: S9105*                                                           \aOrng/Mbar: 006  SVER ZNANTRZRAG NERN 6*                                         \aHavgf: Y6 Z6*                                                                   \aAneengvir: Hfvat CebDN Zrqvpny*
-(PNQ pnyy 133390155) Pnyy#: 133390155*                                                               \aGvzr: 16:15:18*                                                                 \aGlcr bs pnyy: GENSSVP NPPVQRAGF*                                                \aYbpngvba: GHEARE FG/R EBOVAFBA NIR, FCEVATQNYR*                                 \aZnc ersrerapr: S108*                                                            \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aHavgf: R3 Z6*                                                                   \aAneengvir: ABG JVGU CG                                                          \aHAX UBJ ZNAL NER VAWHERQ                                                        \aHAX PURZVPNYF                                                                   \aAB BAR GENCCRQ*
-(PNQ pnyy 133390154) Pnyy#: 133390154*                                                               \aGvzr: 16:12:25*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 4397 QVKVR VAQHFGEVNY NIR EZ215, FCEVATQNYR*                          \aPebff fgerrgf: A 45GU FG/A 40GU FG*                                             \aZnc ersrerapr: S9405*                                                           \aOrng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \aHavgf: R4 Z4*                                                                   \aAneengvir: 64 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Cflpuvngevp /              \aNoabezny Orunivbe / Fhvpvqr Nggrzcg.  Pnyyre Fgngrzrag:                         \aznyr gung vf qvfbevragrq jvgu nymurzlref.                                       \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: znyr gung vf qvfbevragrq jvgu                    \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 64                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Znyr                                             \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Cflpuvngevp/Fhvpvqr Nggrzcg*
-(PNQ pnyy 133390144) Pnyy#: 133390144*                                                               \aGvzr: 15:29:15*                                                                 \aGlcr bs pnyy: PBZZREPVNY FGEHPGHER SVER*                                        \aYbpngvba: FVE FCRRQL, 1900 F CYRNFNAG FG, FCEVATQNYR*                           \aPebff fgerrgf: FPUZVRQVAT NIR/J EBOVAFBA NIR*                                   \aZnc ersrerapr: S970030*                                                         \aOrng/Mbar: 002  SVER ZNANTRZRAG NERN 2*                                         \aHavgf: R1 Y1 E1 R5 Y6 Z1 Z5*                                                    \aAneengvir: Pnyy punatr sebz FZBXR gb PSVER OL QCSVER4 C 01 0000089511           \aPURPX SBE FZBXR PBZVAT SEBZ NPEBFF                                              \aJVYY OR OYH GBC OHVQYVAT ARKG GB FVE FCRRQL*
-(PNQ pnyy 133390142) Pnyy#: 133390142*                                                               \aGvzr: 15:21:27*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: WBUAFBA EQ/J FHAFRG NIR, FCEVATQNYR*                                  \aZnc ersrerapr: S952030*                                                         \aOrng/Mbar: 002  SVER ZNANTRZRAG NERN 2*                                         \aHavgf: R2 Z6*                                                                   \aAneengvir: Lbh ner erfcbaqvat gb n cngvrag vawherq va n genssvp                 \avapvqrag.  Gur cngvrag vf n  23-lrne-byq srznyr, jub vf                         \apbafpvbhf naq oernguvat.  Genssvp / Genafcbegngvba                              \aVapvqragf.                                                                      \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: iru if. gerr                                     \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 23                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Srznyr                                           \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Genssvp Nppvqragf*
-(PNQ pnyy 133390137) Pnyy#: 133390137*                                                               \aGvzr: 14:49:40*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 1617 NZL PVE, FCEVATQNYR*                                             \aPebff fgerrgf: ONPXHF NIR/ JUVGR EQ*                                            \aZnc ersrerapr: S9506*                                                           \aOrng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \aHavgf: R4 Z4*                                                                   \aAneengvir: Lbh ner erfcbaqvat gb n cngvrag jvgu purfg cnva.  Gur                \acngvrag vf n 85-lrne-byq  znyr, jub vf pbafpvbhf naq                            \aoernguvat.  Purfg Cnva (Aba-Genhzngvp).                                         \aHfvat CebDN Zrqvpny                                                             \aFgnghf.......................: PR Svavfu                                        \aCeboyrz......................: znyr univat pcnva                                \aAhzore bs Cngvragf...........: 1                                                \aNtr..........................: 85                                               \aNtr Havgf....................: Lrnef                                            \aFrk..........................: Znyr                                             \aVf gur cngvrag pbafpvbhf.....? Lrf                                              \aVf gur cngvrag oernguvat.....? Lrf                                              \aPuvrs pbzcynvag..............: Purfg Cnva*
-(PNQ pnyy 133390127) Pnyy#: 133390127*                                                               \aGvzr: 14:22:27*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 714 ZNCYR QE, FCEVATQNYR*                                             \aPebff fgerrgf: JNLYNAQ QE/ DHNAQG NIR*                                          \aZnc ersrerapr: S971040*                                                         \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aHavgf: R1 Z1*                                                                   \aAneengvir: Hfvat CebDN Zrqvpny*
-(PNQ pnyy 133390121) Pnyy#: 133390121*                                                               \aGvzr: 13:48:36*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 392 UHAGRE NYYRA QE, ORGURY URVTUGF*                                  \aPebff fgerrgf: A BNX FG/R ZBEEVF NIR*                                           \aZnc ersrerapr: 41/FSQ FD1*                                                      \aOrng/Mbar: 000  SVER MBAR......:|/*                                             \aHavgf: 41 Z21*                                                                  \aAneengvir: Hfvat CebDN Zrqvpny*
-(PNQ pnyy 133390120) Pnyy#: 133390120*                                                               \aGvzr: 13:40:26*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 408 SVAX FG O, FCEVATQNYR*                                            \aPebff fgerrgf: CBJRYY FG/ PEHGPURE FG*                                          \aZnc ersrerapr: S980030*                                                         \aOrng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \aHavgf: R1 Z1*                                                                   \aAneengvir: Hfvat CebDN Zrqvpny*
-(PNQ pnyy 133390117) Pnyy#: 133390117*                                                               \aGvzr: 13:18:35*                                                                 \aGlcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \aYbpngvba: 2740 A CHZC FGNGVBA EQ, FCEVATQNYR*                                   \aPebff fgerrgf: FUHZNGR YA/A FGHYGM EQ*                                          \aZnc ersrerapr: S963070*                                                         \aOrng/Mbar: 003  SVER ZNANTRZRAG NERN 3*                                         \aHavgf: R3 Z4*                                                                   \aAneengvir: Hfvat CebDN Zrqvpny*
 
 */
 
 choyvp pynff NEJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp NEJnfuvatgbaPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "JNFUVATGBA PBHAGL", "NE");
+    frgCnefre(arj NEJnfuvatgbaPbhaglCnefre(), "JNFUVATGBA PBHAGL", "NE");
   }
-  
-  @Grfg
-  choyvp ibvq grfgEhaErcbeg() {
 
-    
+  @Grfg
+  choyvp ibvq grfgFcevatqnyrSverQrcnegzrag() {
+
+    qbGrfg("G1",
+        "(PNQ pnyy 133430012) Pnyy#: 133430012*                                                               \a" +
+        "Gvzr: 01:34:27*                                                                 \a" +
+        "Glcr bs pnyy: SNYY*                                                             \a" +
+        "Ybpngvba: 3844 FVYRAG TEBIR EQ, FCEVATQNYR*                                     \a" +
+        "Pebff fgerrgf: WRPU YA/ RDHRFGEVNA NIR*                                         \a" +
+        "Znc ersrerapr: S9508*                                                           \a" +
+        "Orng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \a" +
+        "Havgf: R4 Z4*                                                                   \a" +
+        "Aneengvir: Pnyy punatr sebz ZRQ gb SNYY OL QCSVER3 C 01 0000118462              \a" +
+        "94 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.                              \a" +
+        "CBFFVOYL QNATREBHF obql nern  (Ba gur tebhaq be sybbe).                         \a" +
+        "Pnyyre Fgngrzrag: snyy .  1.Guvf unccrarq abj (yrff guna                        \a" +
+        "6uef ntb).  2.Vg f ercbegrq gung fur sryy ng tebhaq yriry.                      \a" +
+        "3.Gur snyy jnf nppvqragny.  4.Gurer vf ab oyrrqvat abj.                         \a" +
+        "5.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).                           \a" +
+        "6.Gur vawhel vf gb n CBFFVOYL QNATREBHF nern.  7.Fur vf                         \a" +
+        "fgvyy ba gur sybbe (tebhaq).                                                    \a" +
+        "Hfvat CebDN Zrqvpny                                                             \a" +
+        "Fgnghf.......................: Qvfcngpu                                         \a" +
+        "Ceboyrz......................: snyy                                             \a" +
+        "Ahzore bs Cngvragf...........: 1                                                \a" +
+        "Ntr..........................: 94                                               \a" +
+        "Ntr Havgf....................: Lrnef                                            \a" +
+        "Frk..........................: Srznyr                                           \a" +
+        "Vf gur cngvrag pbafpvbhf.....? Lrf                                              \a" +
+        "Vf gur cngvrag oernguvat.....? Lrf                                              \a" +
+        "Puvrs pbzcynvag..............: Snyyf/Onpx Vawhevrf (Genhzngv                    \a" +
+        "Qvfcngpu yriry...............: 17O01T                                           \a" +
+        "Erfcbafr GrkG........: Oenib*",
+
+        "VQ:133430012",
+        "GVZR:01:34:27",
+        "PNYY:SNYY",
+        "NQQE:3844 FVYRAG TEBIR EQ",
+        "PVGL:FCEVATQNYR",
+        "K:WRPU YA/ RDHRFGEVNA NIR",
+        "HAVG:R4 Z4",
+        "VASB:Pnyy punatr sebz ZRQ gb SNYY OL QCSVER3 C 01 0000118462\a94 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.\aCBFFVOYL QNATREBHF obql nern  (Ba gur tebhaq be sybbe).\aPnyyre Fgngrzrag: snyy .  1.Guvf unccrarq abj (yrff guna\a6uef ntb).  2.Vg f ercbegrq gung fur sryy ng tebhaq yriry.\a3.Gur snyy jnf nppvqragny.  4.Gurer vf ab oyrrqvat abj.\a5.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\a6.Gur vawhel vf gb n CBFFVOYL QNATREBHF nern.  7.Fur vf\afgvyy ba gur sybbe (tebhaq).\aHfvat CebDN Zrqvpny\aFgnghf.......................: Qvfcngpu\aCeboyrz......................: snyy\aAhzore bs Cngvragf...........: 1\aNtr..........................: 94\aNtr Havgf....................: Lrnef\aFrk..........................: Srznyr\aVf gur cngvrag pbafpvbhf.....? Lrf\aVf gur cngvrag oernguvat.....? Lrf\aPuvrs pbzcynvag..............: Snyyf/Onpx Vawhevrf (Genhzngv\aQvfcngpu yriry...............: 17O01T\aErfcbafr GrkG........: Oenib*");
+
+    qbGrfg("G2",
+        "(PNQ pnyy 133430006) Pnyy#: 133430006*                                                               \a" +
+        "Gvzr: 01:00:29*                                                                 \a" +
+        "Glcr bs pnyy: QVNORGVP CEBOYRZF*                                                \a" +
+        "Ybpngvba: 4050 UNOOREGBA EQ, JNFUVATGBA PBHAGL*                                 \a" +
+        "Pebff fgerrgf: R EBOVAFBA NIR/ ULYGBA EQ*                                       \a" +
+        "Znc ersrerapr: 71/FSQ FD5*                                                      \a" +
+        "Orng/Mbar: 071  SVER ZNANTRZRAG NERN 71*                                        \a" +
+        "Havgf: 71 Z5*                                                                   \a" +
+        "Aneengvir: 41  LBN ZNYR JVGU YBJ OYBBQ FHTNE                                    \a" +
+        "UR VF ABG NJNXR                                                                 \a" +
+        "UR VF OERNGUVAT*",
+
+        "VQ:133430006",
+        "GVZR:01:00:29",
+        "PNYY:QVNORGVP CEBOYRZF",
+        "NQQE:4050 UNOOREGBA EQ",
+        "PVGL:JNFUVATGBA PBHAGL",
+        "K:R EBOVAFBA NIR/ ULYGBA EQ",
+        "HAVG:71 Z5",
+        "VASB:41  LBN ZNYR JVGU YBJ OYBBQ FHTNE\aUR VF ABG NJNXR\aUR VF OERNGUVAT*");
+
+    qbGrfg("G3",
+        "(PNQ pnyy 133420169) Pnyy#: 133420169*                                                               \a" +
+        "Gvzr: 22:15:35*                                                                 \a" +
+        "Glcr bs pnyy: FVPX CREFBA*                                                      \a" +
+        "Ybpngvba: 1800 PNEYRL EQ NCG82, FCEVATQNYR*                                     \a" +
+        "Pebff fgerrgf: UVYYIVRJ PG/ FCEVATQNYR NIR*                                     \a" +
+        "Znc ersrerapr: S950030*                                                         \a" +
+        "Orng/Mbar: 006  SVER ZNANTRZRAG NERN 6*                                         \a" +
+        "Havgf: Y6 Z6*                                                                   \a" +
+        "Aneengvir: 87 LBN SRZNYR JVGU UVTU OYBBQ CERFFHER                               \a" +
+        "FUR VF NJNXR                                                                    \a" +
+        "FUR VF OERNGUVAT                                                                \a" +
+        "FUR VF NYREG                                                                    \a" +
+        "URE OERNGUVAT VF ABEZNY                                                         \a" +
+        "AB CNVA BGURE GUNA NGUEVGVF                                                     \a" +
+        "AB OYRRQVAT BE IBZVGVAT OYBBQ*",
+
+        "VQ:133420169",
+        "GVZR:22:15:35",
+        "PNYY:FVPX CREFBA",
+        "NQQE:1800 PNEYRL EQ",
+        "NCG:82",
+        "PVGL:FCEVATQNYR",
+        "K:UVYYIVRJ PG/ FCEVATQNYR NIR",
+        "HAVG:Y6 Z6",
+        "VASB:87 LBN SRZNYR JVGU UVTU OYBBQ CERFFHER\aFUR VF NJNXR\aFUR VF OERNGUVAT\aFUR VF NYREG\aURE OERNGUVAT VF ABEZNY\aAB CNVA BGURE GUNA NGUEVGVF\aAB OYRRQVAT BE IBZVGVAT OYBBQ*");
+
+    qbGrfg("G4",
+        "(PNQ pnyy 133420168) Pnyy#: 133420168*                                                               \a" +
+        "Gvzr: 22:14:28*                                                                 \a" +
+        "Glcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \a" +
+        "Ybpngvba: 1714 UBEFRFUBR QE, FCEVATQNYR*                                        \a" +
+        "Pebff fgerrgf: A JRFGJBBQ YA/ FGRCURAF FG*                                      \a" +
+        "Znc ersrerapr: S960051*                                                         \a" +
+        "Orng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \a" +
+        "Havgf: R4 Z4*                                                                   \a" +
+        "Aneengvir: 60 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  ABG              \a" +
+        "QNATREBHF obql nern.  Pnyyre Fgngrzrag: snyy.  1.Guvf                           \a" +
+        "unccrarq abj (yrff guna 6uef ntb).  2.Vg f ercbegrq gung                        \a" +
+        "fur sryy ng tebhaq yriry.  3.Gur snyy jnf nppvqragny.                           \a" +
+        "4.Gurer vf ab oyrrqvat abj.  5.Fur vf pbzcyrgryl nyreg                          \a" +
+        "(erfcbaqvat nccebcevngryl).  6.Gur vawhel vf gb n ABG                           \a" +
+        "QNATREBHF nern.  7.Fur vf ab ybatre ba gur sybbe (tebhaq).                      \a" +
+        "Hfvat CebDN Zrqvpny                                                             \a" +
+        "Fgnghf.......................: Qvfcngpu                                         \a" +
+        "Ceboyrz......................: snyy                                             \a" +
+        "Ahzore bs Cngvragf...........: 1                                                \a" +
+        "Ntr..........................: 60                                               \a" +
+        "Ntr Havgf....................: Lrnef                                            \a" +
+        "Frk..........................: Srznyr                                           \a" +
+        "Vf gur cngvrag pbafpvbhf.....? Lrf                                              \a" +
+        "Vf gur cngvrag oernguvat.....? Lrf                                              \a" +
+        "Puvrs pbzcynvag..............: Snyyf/Onpx Vawhevrf (Genhzngv                    \a" +
+        "Qvfcngpu yriry...............: 17N01                                            \a" +
+        "Erfcbafr GrkG........: Nycun*",
+
+        "VQ:133420168",
+        "GVZR:22:14:28",
+        "PNYY:CEBDN ZRQVPNY PNYY",
+        "NQQE:1714 UBEFRFUBR QE",
+        "PVGL:FCEVATQNYR",
+        "K:A JRFGJBBQ YA/ FGRCURAF FG",
+        "HAVG:R4 Z4",
+        "VASB:60 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  ABG\aQNATREBHF obql nern.  Pnyyre Fgngrzrag: snyy.  1.Guvf\aunccrarq abj (yrff guna 6uef ntb).  2.Vg f ercbegrq gung\afur sryy ng tebhaq yriry.  3.Gur snyy jnf nppvqragny.\a4.Gurer vf ab oyrrqvat abj.  5.Fur vf pbzcyrgryl nyreg\a(erfcbaqvat nccebcevngryl).  6.Gur vawhel vf gb n ABG\aQNATREBHF nern.  7.Fur vf ab ybatre ba gur sybbe (tebhaq).\aHfvat CebDN Zrqvpny\aFgnghf.......................: Qvfcngpu\aCeboyrz......................: snyy\aAhzore bs Cngvragf...........: 1\aNtr..........................: 60\aNtr Havgf....................: Lrnef\aFrk..........................: Srznyr\aVf gur cngvrag pbafpvbhf.....? Lrf\aVf gur cngvrag oernguvat.....? Lrf\aPuvrs pbzcynvag..............: Snyyf/Onpx Vawhevrf (Genhzngv\aQvfcngpu yriry...............: 17N01\aErfcbafr GrkG........: Nycun*");
+
+    qbGrfg("G5",
+        "(PNQ pnyy 133420166) Pnyy#: 133420166*                                                               \a" +
+        "Gvzr: 21:43:29*                                                                 \a" +
+        "Glcr bs pnyy: NFFNHYG/ENCR IVPGVZ*                                              \a" +
+        "Ybpngvba: FCEVATQNYR CBYVPR QRCNEGZRAG, 201 FCEVAT FG, FCEVATQNYR*              \a" +
+        "Pebff fgerrgf: R WBUAFBA NIR/R CEVPR NIR*                                       \a" +
+        "Znc ersrerapr: S980050*                                                         \a" +
+        "Orng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \a" +
+        "Znc cntr: 001C*                                                                 \a" +
+        "Havgf: R1 Z1*                                                                   \a" +
+        "Aneengvir: 17LBN ZNYR NJNXR OERNGUVAT                                           \a" +
+        "YNPRENGVBAF GB GUR SNPR*",
+
+        "VQ:133420166",
+        "GVZR:21:43:29",
+        "PNYY:NFFNHYG/ENCR IVPGVZ",
+        "CYNPR:FCEVATQNYR CBYVPR QRCNEGZRAG",
+        "NQQE:201 FCEVAT FG",
+        "PVGL:FCEVATQNYR",
+        "K:R WBUAFBA NIR/R CEVPR NIR",
+        "ZNC:001C",
+        "HAVG:R1 Z1",
+        "VASB:17LBN ZNYR NJNXR OERNGUVAT\aYNPRENGVBAF GB GUR SNPR*");
+
+    qbGrfg("G6",
+        "(PNQ pnyy 133420161) Pnyy#: 133420161*                                                               \a" +
+        "Gvzr: 21:08:53*                                                                 \a" +
+        "Glcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \a" +
+        "Ybpngvba: 1602 FGRRYR NIR, FCEVATQNYR*                                          \a" +
+        "Pebff fgerrgf: A JRFG RAQ FG/ FUREEL FG*                                        \a" +
+        "Znc ersrerapr: S966060*                                                         \a" +
+        "Orng/Mbar: 003  SVER ZNANTRZRAG NERN 3*                                         \a" +
+        "Havgf: R3 Z4*                                                                   \a" +
+        "Aneengvir: 72 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Oernguvat                \a" +
+        "Ceboyrzf.  Pnyyre Fgngrzrag: fbo.                                               \a" +
+        "Hfvat CebDN Zrqvpny                                                             \a" +
+        "Fgnghf.......................: PR Svavfu                                        \a" +
+        "Ceboyrz......................: fbo                                              \a" +
+        "Ahzore bs Cngvragf...........: 1                                                \a" +
+        "Ntr..........................: 72                                               \a" +
+        "Ntr Havgf....................: Lrnef                                            \a" +
+        "Frk..........................: Srznyr                                           \a" +
+        "Vf gur cngvrag pbafpvbhf.....? Lrf                                              \a" +
+        "Vf gur cngvrag oernguvat.....? Lrf                                              \a" +
+        "Puvrs pbzcynvag..............: Oernguvat Ceboyrzf*",
+
+        "VQ:133420161",
+        "GVZR:21:08:53",
+        "PNYY:CEBDN ZRQVPNY PNYY",
+        "NQQE:1602 FGRRYR NIR",
+        "PVGL:FCEVATQNYR",
+        "K:A JRFG RAQ FG/ FUREEL FG",
+        "HAVG:R3 Z4",
+        "VASB:72 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Oernguvat\aCeboyrzf.  Pnyyre Fgngrzrag: fbo.\aHfvat CebDN Zrqvpny\aFgnghf.......................: PR Svavfu\aCeboyrz......................: fbo\aAhzore bs Cngvragf...........: 1\aNtr..........................: 72\aNtr Havgf....................: Lrnef\aFrk..........................: Srznyr\aVf gur cngvrag pbafpvbhf.....? Lrf\aVf gur cngvrag oernguvat.....? Lrf\aPuvrs pbzcynvag..............: Oernguvat Ceboyrzf*");
+
+    qbGrfg("G7",
+        "(PNQ pnyy 133420155) Pnyy#: 133420155*                                                               \a" +
+        "Gvzr: 20:12:37*                                                                 \a" +
+        "Glcr bs pnyy: GENHZNGVP VAWHEVRF*                                               \a" +
+        "Ybpngvba: WNVY, 201 FCEVAT FG D111, FCEVATQNYR*                                 \a" +
+        "Pebff fgerrgf: R WBUAFBA NIR/R CEVPR NIR*                                       \a" +
+        "Znc ersrerapr: S980050*                                                         \a" +
+        "Orng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \a" +
+        "Znc cntr: 001C*                                                                 \a" +
+        "Havgf: R1 Z1*                                                                   \a" +
+        "Aneengvir: 30 LBN SRZNYR                                                        \a" +
+        "P/B OEBXRA JEVFG                                                                \a" +
+        "NJNXR NAQ OERNGUVAT                                                             \a" +
+        "CRE 125*",
+
+        "VQ:133420155",
+        "GVZR:20:12:37",
+        "PNYY:GENHZNGVP VAWHEVRF",
+        "CYNPR:WNVY",
+        "NQQE:201 FCEVAT FG",
+        "NCG:D111",
+        "PVGL:FCEVATQNYR",
+        "K:R WBUAFBA NIR/R CEVPR NIR",
+        "ZNC:001C",
+        "HAVG:R1 Z1",
+        "VASB:30 LBN SRZNYR\aP/B OEBXRA JEVFG\aNJNXR NAQ OERNGUVAT\aCRE 125*");
+
+    qbGrfg("G8",
+        "(PNQ pnyy 133420151) Pnyy#: 133420151*                                                               \a" +
+        "Gvzr: 20:00:42*                                                                 \a" +
+        "Glcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \a" +
+        "Ybpngvba: 2470 CVAR YNXR NIR, FCEVATQNYR*                                       \a" +
+        "Pebff fgerrgf: ZRNQBJ YNXR FG/ YBFG FCEVATF FG*                                 \a" +
+        "Znc ersrerapr: S0002*                                                           \a" +
+        "Orng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \a" +
+        "Havgf: R5 Z5*                                                                   \a" +
+        "Aneengvir: Hfvat CebDN Zrqvpny*",
+
+        "VQ:133420151",
+        "GVZR:20:00:42",
+        "PNYY:CEBDN ZRQVPNY PNYY",
+        "NQQE:2470 CVAR YNXR NIR",
+        "PVGL:FCEVATQNYR",
+        "K:ZRNQBJ YNXR FG/ YBFG FCEVATF FG",
+        "HAVG:R5 Z5",
+        "VASB:Hfvat CebDN Zrqvpny*");
+
+    qbGrfg("G9",
+        "(PNQ pnyy 133420149) Pnyy#: 133420149*                                                               \a" +
+        "Gvzr: 19:17:42*                                                                 \a" +
+        "Glcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \a" +
+        "Ybpngvba: 3064 OENAQL YA, FCEVATQNYR*                                           \a" +
+        "Pebff fgerrgf: NZL QE/ UJL 112*                                                 \a" +
+        "Znc ersrerapr: S8908*                                                           \a" +
+        "Orng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \a" +
+        "Havgf: R4 Z4*                                                                   \a" +
+        "Aneengvir: Lbh ner erfcbaqvat gb n cngvrag jvgu noqbzvany cnva.  Gur            \a" +
+        "cngvrag vf n  35-lrne-byq znyr, jub vf pbafpvbhf naq                            \a" +
+        "oernguvat. Znyrf jvgu cnva nobir  aniry => 35.  Noqbzvany                       \a" +
+        "Cnva / Ceboyrzf.  Znyrf jvgu cnva nobir aniry => 35.  1.Ur                      \a" +
+        "vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Gurer                        \a" +
+        "jnf ab zragvba bs rkvfgvat nbegvp narhelfz.  3.Ur unf cnva                      \a" +
+        "nobir gur oryyl ohggba (aniry).                                                 \a" +
+        "Hfvat CebDN Zrqvpny                                                             \a" +
+        "Fgnghf.......................: Qvfcngpu                                         \a" +
+        "Ceboyrz......................: NOQ CNVA                                         \a" +
+        "Ahzore bs Cngvragf...........: 1                                                \a" +
+        "Ntr..........................: 35                                               \a" +
+        "Ntr Havgf....................: Lrnef                                            \a" +
+        "Frk..........................: Znyr                                             \a" +
+        "Vf gur cngvrag pbafpvbhf.....? Lrf                                              \a" +
+        "Vf gur cngvrag oernguvat.....? Lrf                                              \a" +
+        "Puvrs pbzcynvag..............: Noqbzvany Cnva/Ceboyrzf                          \a" +
+        "Qvfcngpu yriry...............: 01P05                                            \a" +
+        "Erfcbafr GrkG........: Puneyvr                                                  \a" +
+        "133420149 Erfcbafr punatrq gb*",
+
+        "VQ:133420149",
+        "GVZR:19:17:42",
+        "PNYY:CEBDN ZRQVPNY PNYY",
+        "NQQE:3064 OENAQL YA",
+        "PVGL:FCEVATQNYR",
+        "K:NZL QE/ UJL 112",
+        "HAVG:R4 Z4",
+        "VASB:Lbh ner erfcbaqvat gb n cngvrag jvgu noqbzvany cnva.  Gur\acngvrag vf n  35-lrne-byq znyr, jub vf pbafpvbhf naq\aoernguvat. Znyrf jvgu cnva nobir  aniry => 35.  Noqbzvany\aCnva / Ceboyrzf.  Znyrf jvgu cnva nobir aniry => 35.  1.Ur\avf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Gurer\ajnf ab zragvba bs rkvfgvat nbegvp narhelfz.  3.Ur unf cnva\anobir gur oryyl ohggba (aniry).\aHfvat CebDN Zrqvpny\aFgnghf.......................: Qvfcngpu\aCeboyrz......................: NOQ CNVA\aAhzore bs Cngvragf...........: 1\aNtr..........................: 35\aNtr Havgf....................: Lrnef\aFrk..........................: Znyr\aVf gur cngvrag pbafpvbhf.....? Lrf\aVf gur cngvrag oernguvat.....? Lrf\aPuvrs pbzcynvag..............: Noqbzvany Cnva/Ceboyrzf\aQvfcngpu yriry...............: 01P05\aErfcbafr GrkG........: Puneyvr\a133420149 Erfcbafr punatrq gb*");
+
+    qbGrfg("G10",
+        "(PNQ pnyy 133420148) Pnyy#: 133420148*                                                               \a" +
+        "Gvzr: 19:13:57*                                                                 \a" +
+        "Glcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \a" +
+        "Ybpngvba: GUR ZNCYRF NG UNEORE ZRNQBJ, 6456 YLAPU'F CENVEVR PI, FCEVATQNYR*     \a" +
+        "Pebff fgerrgf: SBHAQREF CNEX QE/ PHYQRFNP*                                      \a" +
+        "Znc ersrerapr: S9104*                                                           \a" +
+        "Orng/Mbar: 006  SVER ZNANTRZRAG NERN 6*                                         \a" +
+        "Znc cntr: HFR P 33*                                                             \a" +
+        "Havgf: Y6 Z6*                                                                   \a" +
+        "Aneengvir: 82 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Genafsre /                 \a" +
+        "Vagresnpvyvgl / Cnyyvngvir Pner.  Pnyyre Fgngrzrag:                             \a" +
+        "erfcvgbel neerfg.                                                               \a" +
+        "Hfvat CebDN Zrqvpny                                                             \a" +
+        "Fgnghf.......................: PR Svavfu                                        \a" +
+        "Ceboyrz......................: erfcvgbel neerfg                                 \a" +
+        "Ahzore bs Cngvragf...........: 1                                                \a" +
+        "Ntr..........................: 82                                               \a" +
+        "Ntr Havgf....................: Lrnef                                            \a" +
+        "Frk..........................: Znyr                                             \a" +
+        "Vf gur cngvrag pbafpvbhf.....? Lrf                                              \a" +
+        "Vf gur cngvrag oernguvat.....? Lrf                                              \a" +
+        "Puvrs pbzcynvag..............: Vagresnpvyvgl/Cnyyvngvir Pner*",
+
+        "VQ:133420148",
+        "GVZR:19:13:57",
+        "PNYY:CEBDN ZRQVPNY PNYY",
+        "CYNPR:GUR ZNCYRF NG UNEORE ZRNQBJ",
+        "NQQE:6456 YLAPU'F CENVEVR PI",   // Tbbtyr pnyyf guvf YLAPU'f CENVEVR PG
+        "PVGL:FCEVATQNYR",
+        "K:SBHAQREF CNEX QE/ PHYQRFNP",
+        "ZNC:HFR P 33",
+        "HAVG:Y6 Z6",
+        "VASB:82 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Genafsre /\aVagresnpvyvgl / Cnyyvngvir Pner.  Pnyyre Fgngrzrag:\aerfcvgbel neerfg.\aHfvat CebDN Zrqvpny\aFgnghf.......................: PR Svavfu\aCeboyrz......................: erfcvgbel neerfg\aAhzore bs Cngvragf...........: 1\aNtr..........................: 82\aNtr Havgf....................: Lrnef\aFrk..........................: Znyr\aVf gur cngvrag pbafpvbhf.....? Lrf\aVf gur cngvrag oernguvat.....? Lrf\aPuvrs pbzcynvag..............: Vagresnpvyvgl/Cnyyvngvir Pner*");
+
+    qbGrfg("G11",
+        "(PNQ pnyy 133420125) Pnyy#: 133420125*                                                               \a" +
+        "Gvzr: 16:41:42*                                                                 \a" +
+        "Glcr bs pnyy: TNF ZRGRE YRNX*                                                   \a" +
+        "Ybpngvba: ZV GVRAQN RKCERFF, 2270 R EBOVAFBA NIR, FCEVATQNYR*                   \a" +
+        "Pebff fgerrgf: BEPUNEQ FG/ QVPX FZVGU FG*                                       \a" +
+        "Znc ersrerapr: S111*                                                            \a" +
+        "Orng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \a" +
+        "Havgf: R5*                                                                      \a" +
+        "Aneengvir: NG YBPNGVBA*",
+
+        "VQ:133420125",
+        "GVZR:16:41:42",
+        "PNYY:TNF ZRGRE YRNX",
+        "CYNPR:ZV GVRAQN RKCERFF",
+        "NQQE:2270 R EBOVAFBA NIR",
+        "PVGL:FCEVATQNYR",
+        "K:BEPUNEQ FG/ QVPX FZVGU FG",
+        "HAVG:R5",
+        "VASB:NG YBPNGVBA*");
+
+    qbGrfg("G12",
+        "(PNQ pnyy 133420118) Pnyy#: 133420118*                                                               \a" +
+        "Gvzr: 15:42:14*                                                                 \a" +
+        "Glcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \a" +
+        "Ybpngvba: 18603 ZVAABJ, JNFUVATGBA PBHAGL*                                      \a" +
+        "Pebff fgerrgf: INHTUNA EQ/R UJL 412*                                            \a" +
+        "Znc ersrerapr: 71/FSQ FD5*                                                      \a" +
+        "Orng/Mbar: 071  SVER ZNANTRZRAG NERN 71*                                        \a" +
+        "Havgf: 71 Z4*                                                                   \a" +
+        "Aneengvir: 89 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  Pnyyre           \a" +
+        "Fgngrzrag: snyy.                                                                \a" +
+        "Hfvat CebDN Zrqvpny                                                             \a" +
+        "Fgnghf.......................: PR Svavfu                                        \a" +
+        "Ceboyrz......................: snyy                                             \a" +
+        "Ahzore bs Cngvragf...........: 1                                                \a" +
+        "Ntr..........................: 89                                               \a" +
+        "Ntr Havgf....................: Lrnef                                            \a" +
+        "Frk..........................: Srznyr                                           \a" +
+        "Vf gur cngvrag pbafpvbhf.....? Lrf                                              \a" +
+        "Vf gur cngvrag oernguvat.....? Lrf                                              \a" +
+        "Puvrs pbzcynvag..............: Snyyf/Onpx Vawhevrf (Genhzngv*",
+
+        "VQ:133420118",
+        "GVZR:15:42:14",
+        "PNYY:CEBDN ZRQVPNY PNYY",
+        "NQQE:18603 ZVAABJ",
+        "PVGL:JNFUVATGBA PBHAGL",
+        "K:INHTUNA EQ/R UJL 412",
+        "HAVG:71 Z4",
+        "VASB:89 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  Pnyyre\aFgngrzrag: snyy.\aHfvat CebDN Zrqvpny\aFgnghf.......................: PR Svavfu\aCeboyrz......................: snyy\aAhzore bs Cngvragf...........: 1\aNtr..........................: 89\aNtr Havgf....................: Lrnef\aFrk..........................: Srznyr\aVf gur cngvrag pbafpvbhf.....? Lrf\aVf gur cngvrag oernguvat.....? Lrf\aPuvrs pbzcynvag..............: Snyyf/Onpx Vawhevrf (Genhzngv*");
+
+    qbGrfg("G13",
+        "(PNQ pnyy 133420116) Pnyy#: 133420116*                                                               \a" +
+        "Gvzr: 15:35:40*                                                                 \a" +
+        "Glcr bs pnyy: NFFNHYG/ENCR IVPGVZ*                                              \a" +
+        "Ybpngvba: 2663 PEBBXRQ PERRX PVE NCG202, FCEVATQNYR*                            \a" +
+        "Pebff fgerrgf: OEBBXUNIRA PG/*                                                  \a" +
+        "Znc ersrerapr: S983010*                                                         \a" +
+        "Orng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \a" +
+        "Havgf: R5 Z5*                                                                   \a" +
+        "Aneengvir: CQ ERD N FDHNQ SBE N 20 LBN U/Z ABFR VF OYRRQVAT                     \a" +
+        "CBFF OEBXRA ABFR.*",
+
+        "VQ:133420116",
+        "GVZR:15:35:40",
+        "PNYY:NFFNHYG/ENCR IVPGVZ",
+        "NQQE:2663 PEBBXRQ PERRX PVE",
+        "NCG:202",
+        "PVGL:FCEVATQNYR",
+        "K:OEBBXUNIRA PG/",
+        "HAVG:R5 Z5",
+        "VASB:CQ ERD N FDHNQ SBE N 20 LBN U/Z ABFR VF OYRRQVAT\aCBFF OEBXRA ABFR.*");
+
+    qbGrfg("G14",
+        "(PNQ pnyy 133420115) Pnyy#: 133420115*                                                               \a" +
+        "Gvzr: 15:33:17*                                                                 \a" +
+        "Glcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \a" +
+        "Ybpngvba: 2928 CHYYZNA QE NCG101, FCEVATQNYR*                                   \a" +
+        "Pebff fgerrgf: GJVA PVGL NIR/*                                                  \a" +
+        "Znc ersrerapr: S970020*                                                         \a" +
+        "Orng/Mbar: 002  SVER ZNANTRZRAG NERN 2*                                         \a" +
+        "Havgf: R2 Z1*                                                                   \a" +
+        "Aneengvir: Hfvat CebDN Zrqvpny*",
+
+        "VQ:133420115",
+        "GVZR:15:33:17",
+        "PNYY:CEBDN ZRQVPNY PNYY",
+        "NQQE:2928 CHYYZNA QE",
+        "NCG:101",
+        "PVGL:FCEVATQNYR",
+        "K:GJVA PVGL NIR/",
+        "HAVG:R2 Z1",
+        "VASB:Hfvat CebDN Zrqvpny*");
+
+    qbGrfg("G15",
+        "(PNQ pnyy 133420113) Pnyy#: 133420113*                                                               \a" +
+        "Gvzr: 15:29:21*                                                                 \a" +
+        "Glcr bs pnyy: FGNAQOL SBE SSQ/PRZF*                                             \a" +
+        "Ybpngvba: AJN ZNYY, 4201 A FUVYBU QE, SNLRGGRIVYYR*                             \a" +
+        "Pebff fgerrgf:/*                                                                \a" +
+        "Znc ersrerapr: PRZF*                                                            \a" +
+        "Orng/Mbar: 000  SVER MBAR......:|/*                                             \a" +
+        "Havgf: Z6*",
+
+        "VQ:133420113",
+        "GVZR:15:29:21",
+        "PNYY:FGNAQOL SBE SSQ/PRZF",
+        "CYNPR:AJN ZNYY",
+        "NQQE:4201 A FUVYBU QE",
+        "PVGL:SNLRGGRIVYYR",
+        "HAVG:Z6*");
+
+    qbGrfg("G16",
+        "(PNQ pnyy 133420108) Pnyy#: 133420108*                                                               \a" +
+        "Gvzr: 15:11:09*                                                                 \a" +
+        "Glcr bs pnyy: FREIVPR PNYY*                                                     \a" +
+        "Ybpngvba: 3436 RNTYR PERFG PVE, FCEVATQNYR*                                     \a" +
+        "Pebff fgerrgf: BFCERL FG/ FVYRAG TEBIR EQ*                                      \a" +
+        "Znc ersrerapr: S9509*                                                           \a" +
+        "Orng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \a" +
+        "Havgf: R4*",
+
+        "VQ:133420108",
+        "GVZR:15:11:09",
+        "PNYY:FREIVPR PNYY",
+        "NQQE:3436 RNTYR PERFG PVE",
+        "PVGL:FCEVATQNYR",
+        "K:BFCERL FG/ FVYRAG TEBIR EQ",
+        "HAVG:R4*");
+
+    qbGrfg("G17",
+        "(PNQ pnyy 133420103) Pnyy#: 133420103*                                                               \a" +
+        "Gvzr: 14:39:02*                                                                 \a" +
+        "Glcr bs pnyy: PURFG CNVA*                                                       \a" +
+        "Ybpngvba: 720 UBYPBZO FG V, FCEVATQNYR*                                         \a" +
+        "Pebff fgerrgf: WBFVR CY/ CVREPR NIR*                                            \a" +
+        "Znc ersrerapr: S9804*                                                           \a" +
+        "Orng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \a" +
+        "Havgf: Y1 Z1*                                                                   \a" +
+        "Aneengvir: CQ ERD N FDHNQ SBE N 48 LBN ZNYR PB PCNVA                            \a" +
+        "NJNXR NAQ OERNGUVAT*",
+
+        "VQ:133420103",
+        "GVZR:14:39:02",
+        "PNYY:PURFG CNVA",
+        "NQQE:720 UBYPBZO FG",
+        "NCG:V",
+        "PVGL:FCEVATQNYR",
+        "K:WBFVR CY/ CVREPR NIR",
+        "HAVG:Y1 Z1",
+        "VASB:CQ ERD N FDHNQ SBE N 48 LBN ZNYR PB PCNVA\aNJNXR NAQ OERNGUVAT*");
+
+    qbGrfg("G18",
+        "(PNQ pnyy 133420091) Pnyy#: 133420091*                                                               \a" +
+        "Gvzr: 13:26:42*                                                                 \a" +
+        "Glcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \a" +
+        "Ybpngvba: 102 A THGRAFBUA EQ, FCEVATQNYR*                                       \a" +
+        "Pebff fgerrgf: J RZZN NIR/ ZPZVYYNA QE*                                         \a" +
+        "Znc ersrerapr: S9505*                                                           \a" +
+        "Orng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \a" +
+        "Znc cntr: HFR P 33*                                                             \a" +
+        "Havgf: R4 Z4*                                                                   \a" +
+        "Aneengvir: 61 lrne byq, Srznyr, Hapbafpvbhf, Oernguvat.  Genafsre /             \a" +
+        "Vagresnpvyvgl / Cnyyvngvir Pner.  Pnyyre Fgngrzrag: ynoberq                     \a" +
+        "oernguvat.                                                                      \a" +
+        "Hfvat CebDN Zrqvpny                                                             \a" +
+        "Fgnghf.......................: PR Svavfu                                        \a" +
+        "Ceboyrz......................: ynoberq oernguvat                                \a" +
+        "Ahzore bs Cngvragf...........: 1                                                \a" +
+        "Ntr..........................: 61                                               \a" +
+        "Ntr Havgf....................: Lrnef                                            \a" +
+        "Frk..........................: Srznyr                                           \a" +
+        "Vf gur cngvrag pbafpvbhf.....? Ab                                               \a" +
+        "Vf gur cngvrag oernguvat.....? Lrf                                              \a" +
+        "Puvrs pbzcynvag..............: Vagresnpvyvgl/Cnyyvngvir Pner*",
+
+        "VQ:133420091",
+        "GVZR:13:26:42",
+        "PNYY:CEBDN ZRQVPNY PNYY",
+        "NQQE:102 A THGRAFBUA EQ",
+        "PVGL:FCEVATQNYR",
+        "K:J RZZN NIR/ ZPZVYYNA QE",
+        "ZNC:HFR P 33",
+        "HAVG:R4 Z4",
+        "VASB:61 lrne byq, Srznyr, Hapbafpvbhf, Oernguvat.  Genafsre /\aVagresnpvyvgl / Cnyyvngvir Pner.  Pnyyre Fgngrzrag: ynoberq\aoernguvat.\aHfvat CebDN Zrqvpny\aFgnghf.......................: PR Svavfu\aCeboyrz......................: ynoberq oernguvat\aAhzore bs Cngvragf...........: 1\aNtr..........................: 61\aNtr Havgf....................: Lrnef\aFrk..........................: Srznyr\aVf gur cngvrag pbafpvbhf.....? Ab\aVf gur cngvrag oernguvat.....? Lrf\aPuvrs pbzcynvag..............: Vagresnpvyvgl/Cnyyvngvir Pner*");
+
+    qbGrfg("G19",
+        "(PNQ pnyy 133420087) Pnyy#: 133420087*                                                               \a" +
+        "Gvzr: 12:29:56*                                                                 \a" +
+        "Glcr bs pnyy: BQBE QRGRPGRQ*                                                    \a" +
+        "Ybpngvba: 702 HAVBA QE T, FCEVATQNYR*                                           \a" +
+        "Pebff fgerrgf: PUEVFGVNA NIR/ PHYQRFNP*                                         \a" +
+        "Znc ersrerapr: S970056*                                                         \a" +
+        "Orng/Mbar: 003  SVER ZNANTRZRAG NERN 3*                                         \a" +
+        "Havgf: R3*                                                                      \a" +
+        "Aneengvir: PYE NQI GUNG GURER VF N BQBE BS XREBFRAR. FUR NQI                    \a" +
+        "GUNG GURL UNIR TNF.                                                             \a" +
+        "PYE FGNGRF GUNG VG VF OHEAVAT GURVE                                             \a" +
+        "RLRF NAQ GUEBNG.                                                                \a" +
+        "PYE NQI GUNG GURL UNIR ORRA FZRYYVAT VG SBE GUR CNFFRQ                          \a" +
+        "UBHE.*",
+
+        "VQ:133420087",
+        "GVZR:12:29:56",
+        "PNYY:BQBE QRGRPGRQ",
+        "NQQE:702 HAVBA QE",
+        "NCG:T",
+        "PVGL:FCEVATQNYR",
+        "K:PUEVFGVNA NIR/ PHYQRFNP",
+        "HAVG:R3",
+        "VASB:PYE NQI GUNG GURER VF N BQBE BS XREBFRAR. FUR NQI\aGUNG GURL UNIR TNF.\aPYE FGNGRF GUNG VG VF OHEAVAT GURVE\aRLRF NAQ GUEBNG.\aPYE NQI GUNG GURL UNIR ORRA FZRYYVAT VG SBE GUR CNFFRQ\aUBHE.*");
+
+    qbGrfg("G20",
+        "(PNQ pnyy 133420081) Pnyy#: 133420081*                                                               \a" +
+        "Gvzr: 12:09:30*                                                                 \a" +
+        "Glcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \a" +
+        "Ybpngvba: 105 CBCYNE FG, FCEVATQNYR*                                            \a" +
+        "Pebff fgerrgf: J RZZN NIR/J WBUAFBA NIR*                                        \a" +
+        "Znc ersrerapr: S971050*                                                         \a" +
+        "Orng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \a" +
+        "Havgf: Y1 Z4*                                                                   \a" +
+        "Aneengvir: Pnyy punatr sebz ZRQ gb NEERFG OL QCSVER3 C 01 0000115774            \a" +
+        "60 lrne byq, Srznyr, Hapbafpvbhf, Abg oernguvat.  Pneqvnp                       \a" +
+        "be Erfcvengbel Neerfg / Qrngu.  BOIVBHF QRNGU                                   \a" +
+        "hadhrfgvbanoyr (n guebhtu v)  (Pbyq naq fgvss va n jnez                         \a" +
+        "raivebazrag).  Pnyyre Fgngrzrag: sbhaq zbgure va ynj                            \a" +
+        "cnffrq.  1.Vg nccrnef gung gur cngvrag vf BOIVBHFYL qrnq.                       \a" +
+        "2.Gur cngvrag vf pbyq naq fgvss va n jnez raivebazrag.                          \a" +
+        "3.Gur cngvrag vf hadhrfgvbanoyl qrnq.                                           \a" +
+        "Hfvat CebDN Zrqvpny                                                             \a" +
+        "Fgnghf.......................: Pybfrq                                           \a" +
+        "Ceboyrz......................: sbhaq zbgure va ynj cnffrq                       \a" +
+        "Ahzore bs Cngvragf...........: 1                                                \a" +
+        "Ntr..........................: 60                                               \a" +
+        "Ntr Havgf....................: Lrnef                                            \a" +
+        "Frk..........................: Srznyr                                           \a" +
+        "Vf gur cngvrag pbafpvbhf.....? Ab                                               \a" +
+        "Vf gur cngvrag oernguvat.....? Ab                                               \a" +
+        "Puvrs pbzcynvag..............: Pneqvnp/Erfcvengbel Neerfg                       \a" +
+        "Qvfcngpu yriry...............: 09R01n                                           \a" +
+        "Erpbasvtherq qvfcngpurq yriry: 09O01                                            \a" +
+        "Erfcbafr GrkG........: Oenib*",
+
+        "VQ:133420081",
+        "GVZR:12:09:30",
+        "PNYY:CEBDN ZRQVPNY PNYY",
+        "NQQE:105 CBCYNE FG",
+        "PVGL:FCEVATQNYR",
+        "K:J RZZN NIR/J WBUAFBA NIR",
+        "HAVG:Y1 Z4",
+        "VASB:Pnyy punatr sebz ZRQ gb NEERFG OL QCSVER3 C 01 0000115774\a60 lrne byq, Srznyr, Hapbafpvbhf, Abg oernguvat.  Pneqvnp\abe Erfcvengbel Neerfg / Qrngu.  BOIVBHF QRNGU\ahadhrfgvbanoyr (n guebhtu v)  (Pbyq naq fgvss va n jnez\araivebazrag).  Pnyyre Fgngrzrag: sbhaq zbgure va ynj\acnffrq.  1.Vg nccrnef gung gur cngvrag vf BOIVBHFYL qrnq.\a2.Gur cngvrag vf pbyq naq fgvss va n jnez raivebazrag.\a3.Gur cngvrag vf hadhrfgvbanoyl qrnq.\aHfvat CebDN Zrqvpny\aFgnghf.......................: Pybfrq\aCeboyrz......................: sbhaq zbgure va ynj cnffrq\aAhzore bs Cngvragf...........: 1\aNtr..........................: 60\aNtr Havgf....................: Lrnef\aFrk..........................: Srznyr\aVf gur cngvrag pbafpvbhf.....? Ab\aVf gur cngvrag oernguvat.....? Ab\aPuvrs pbzcynvag..............: Pneqvnp/Erfcvengbel Neerfg\aQvfcngpu yriry...............: 09R01n\aErpbasvtherq qvfcngpurq yriry: 09O01\aErfcbafr GrkG........: Oenib*");
+
+    qbGrfg("G21",
+        "(PNQ pnyy 133420077) Pnyy#: 133420077*                                                               \a" +
+        "Gvzr: 11:53:54*                                                                 \a" +
+        "Glcr bs pnyy: CEBDN ZRQVPNY PNYY*                                               \a" +
+        "Ybpngvba: 2406 A WVYY PVE, FCEVATQNYR*                                          \a" +
+        "Pebff fgerrgf: GUBZNF OYIQ/J WVYY PVE*                                          \a" +
+        "Znc ersrerapr: S9505*                                                           \a" +
+        "Orng/Mbar: 004  SVER ZNANTRZRAG NERN 4*                                         \a" +
+        "Havgf: R4 Z21*                                                                  \a" +
+        "Aneengvir: Lbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy.  Gur             \a" +
+        "cngvrag vf n 59-lrne-byq  srznyr, jub vf pbafpvbhf naq                          \a" +
+        "oernguvat.  Snyyf.                                                              \a" +
+        "Hfvat CebDN Zrqvpny                                                             \a" +
+        "Fgnghf.......................: PR Svavfu                                        \a" +
+        "Ceboyrz......................: snyy                                             \a" +
+        "Ahzore bs Cngvragf...........: 1                                                \a" +
+        "Ntr..........................: 59                                               \a" +
+        "Ntr Havgf....................: Lrnef                                            \a" +
+        "Frk..........................: Srznyr                                           \a" +
+        "Vf gur cngvrag pbafpvbhf.....? Lrf                                              \a" +
+        "Vf gur cngvrag oernguvat.....? Lrf                                              \a" +
+        "Puvrs pbzcynvag..............: Snyyf/Onpx Vawhevrf (Genhzngv*",
+
+        "VQ:133420077",
+        "GVZR:11:53:54",
+        "PNYY:CEBDN ZRQVPNY PNYY",
+        "NQQE:2406 A WVYY PVE",
+        "PVGL:FCEVATQNYR",
+        "K:GUBZNF OYIQ/J WVYY PVE",
+        "HAVG:R4 Z21",
+        "VASB:Lbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy.  Gur\acngvrag vf n 59-lrne-byq  srznyr, jub vf pbafpvbhf naq\aoernguvat.  Snyyf.\aHfvat CebDN Zrqvpny\aFgnghf.......................: PR Svavfu\aCeboyrz......................: snyy\aAhzore bs Cngvragf...........: 1\aNtr..........................: 59\aNtr Havgf....................: Lrnef\aFrk..........................: Srznyr\aVf gur cngvrag pbafpvbhf.....? Lrf\aVf gur cngvrag oernguvat.....? Lrf\aPuvrs pbzcynvag..............: Snyyf/Onpx Vawhevrf (Genhzngv*");
+
+    qbGrfg("G22",
+        "(PNQ pnyy 133420075) Pnyy#: 133420075*                                                               \a" +
+        "Gvzr: 11:36:05*                                                                 \a" +
+        "Glcr bs pnyy: NFFNHYG/ENCR IVPGVZ*                                              \a" +
+        "Ybpngvba: 451 IVYYNTR YA O, FCEVATQNYR*                                         \a" +
+        "Pebff fgerrgf: CBJRYY FG/*                                                      \a" +
+        "Znc ersrerapr: S983010*                                                         \a" +
+        "Orng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \a" +
+        "Havgf: R1 Z4*                                                                   \a" +
+        "Aneengvir: FGNTR N FDHNQ SBE N SRZNYR GUNG CBFFVOYL UNF N OEBXRA NEZ            \a" +
+        "NSGRE N QVFG JVGU URE UHFONAQ                                                   \a" +
+        "GUVF VF CQ ERDHRFG*",
+
+        "VQ:133420075",
+        "GVZR:11:36:05",
+        "PNYY:NFFNHYG/ENCR IVPGVZ",
+        "NQQE:451 IVYYNTR YA",
+        "NCG:O",
+        "PVGL:FCEVATQNYR",
+        "K:CBJRYY FG/",
+        "HAVG:R1 Z4",
+        "VASB:FGNTR N FDHNQ SBE N SRZNYR GUNG CBFFVOYL UNF N OEBXRA NEZ\aNSGRE N QVFG JVGU URE UHFONAQ\aGUVF VF CQ ERDHRFG*");
+
+    qbGrfg("G23",
+        "(PNQ pnyy 133420074) Pnyy#: 133420074*                                                               \a" +
+        "Gvzr: 11:33:31*                                                                 \a" +
+        "Glcr bs pnyy: SNYY*                                                             \a" +
+        "Ybpngvba: 1101 OEBBXUNIRA PG NCG103, FCEVATQNYR*                                \a" +
+        "Pebff fgerrgf: FGBAREVQTR PVE/ PUNAARY CY*                                      \a" +
+        "Znc ersrerapr: S983010*                                                         \a" +
+        "Orng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \a" +
+        "Havgf: R5 Z4*                                                                   \a" +
+        "Aneengvir: 30 LBN ZNYR GUNG SRYY NAQ UVG UVF URNQ                               \a" +
+        "NJNXR NAQ OERNGUVAT                                                             \a" +
+        "HAX UBJ SNE UR SRYY                                                             \a" +
+        "HAX JUNG PNHFRQ UVZ SNYY                                                        \a" +
+        "FREVBHF OYRRQVAT*",
+
+        "VQ:133420074",
+        "GVZR:11:33:31",
+        "PNYY:SNYY",
+        "NQQE:1101 OEBBXUNIRA PG",
+        "NCG:103",
+        "PVGL:FCEVATQNYR",
+        "K:FGBAREVQTR PVE/ PUNAARY CY",
+        "HAVG:R5 Z4",
+        "VASB:30 LBN ZNYR GUNG SRYY NAQ UVG UVF URNQ\aNJNXR NAQ OERNGUVAT\aHAX UBJ SNE UR SRYY\aHAX JUNG PNHFRQ UVZ SNYY\aFREVBHF OYRRQVAT*");
+
+    qbGrfg("G24",
+        "(PNQ pnyy 133420072) Pnyy#: 133420072*                                                               \a" +
+        "Gvzr: 11:28:10*                                                                 \a" +
+        "Glcr bs pnyy: RZF NFFVFG*                                                       \a" +
+        "Ybpngvba: 1285 R ZVYYFNC EQ*                                                    \a" +
+        "Pebff fgerrgf:/*                                                                \a" +
+        "Orng/Mbar: 000  SVER MBAR......:|/*                                             \a" +
+        "Havgf: Z5*                                                                      \a" +
+        "Aneengvir: PUEVFGVNA YVSR PNGURQENY, 1285 R ZVYYFNC                             \a" +
+        "NFFVFG PRAGENY JVGU N 45 LBN SRZNYR P/B ONPXCNVA                                \a" +
+        "NJNXR NAQ OERNGUVAT                                                             \a" +
+        "30 O 1*",
+
+        "VQ:133420072",
+        "GVZR:11:28:10",
+        "PNYY:RZF NFFVFG",
+        "NQQE:1285 R ZVYYFNC EQ",
+        "HAVG:Z5",
+        "VASB:PUEVFGVNA YVSR PNGURQENY, 1285 R ZVYYFNC\aNFFVFG PRAGENY JVGU N 45 LBN SRZNYR P/B ONPXCNVA\aNJNXR NAQ OERNGUVAT\a30 O 1*");
+
+    qbGrfg("G25",
+        "(PNQ pnyy 133420071) Pnyy#: 133420071*                                                               \a" +
+        "Gvzr: 11:18:59*                                                                 \a" +
+        "Glcr bs pnyy: RZF NFFVFG*                                                       \a" +
+        "Ybpngvba: 155 ZPVYEBL*                                                          \a" +
+        "Pebff fgerrgf:/*                                                                \a" +
+        "Orng/Mbar: 000  SVER MBAR......:|/*                                             \a" +
+        "Havgf: Z5*                                                                      \a" +
+        "Aneengvir: PRAGENY ERDHRFGF N FDHNQ GB LBXHZ UNYY NG 155 A ZPVYEBL              \a" +
+        "SBE N 19 LBN SRZNYR JVGU NEZ CNVA, 26 N*",
+
+        "VQ:133420071",
+        "GVZR:11:18:59",
+        "PNYY:RZF NFFVFG",
+        "NQQE:155 ZPVYEBL",
+        "HAVG:Z5",
+        "VASB:PRAGENY ERDHRFGF N FDHNQ GB LBXHZ UNYY NG 155 A ZPVYEBL\aSBE N 19 LBN SRZNYR JVGU NEZ CNVA, 26 N*");
+
+    qbGrfg("G26",
+        "(PNQ pnyy 133420068) Pnyy#: 133420068*                                                               \a" +
+        "Gvzr: 10:52:19*                                                                 \a" +
+        "Glcr bs pnyy: SNYY*                                                             \a" +
+        "Ybpngvba: 200 R RQZBAQFBA NIR, FCEVATQNYR*                                      \a" +
+        "Pebff fgerrgf: GHEARE FG/ OENQ FG*                                              \a" +
+        "Znc ersrerapr: S980010*                                                         \a" +
+        "Orng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \a" +
+        "Havgf: R1 Z1*                                                                   \a" +
+        "Aneengvir: NJNXR OERNGUVAT                                                      \a" +
+        "SRYY 6 SRRG                                                                     \a" +
+        "NPPVQRAGNY, VPR                                                                 \a" +
+        "AB FREVBHF OYRRQVAT                                                             \a" +
+        "NYREG                                                                           \a" +
+        "UVG UVF URNQ                                                                    \a" +
+        "WHFG UNCCRARQ                                                                   \a" +
+        "FGVYY BA GUR SYBBE*",
+
+        "VQ:133420068",
+        "GVZR:10:52:19",
+        "PNYY:SNYY",
+        "NQQE:200 R RQZBAQFBA NIR",
+        "PVGL:FCEVATQNYR",
+        "K:GHEARE FG/ OENQ FG",
+        "HAVG:R1 Z1",
+        "VASB:NJNXR OERNGUVAT\aSRYY 6 SRRG\aNPPVQRAGNY, VPR\aAB FREVBHF OYRRQVAT\aNYREG\aUVG UVF URNQ\aWHFG UNCCRARQ\aFGVYY BA GUR SYBBE*");
+
+    qbGrfg("G27",
+        "(PNQ pnyy 133420069) Pnyy#: 133420069*                                                               \a" +
+        "Gvzr: 10:52:57*                                                                 \a" +
+        "Glcr bs pnyy: FREIVPR PNYY*                                                     \a" +
+        "Ybpngvba: 511 PNHQYR NIR, FCEVATQNYR*                                           \a" +
+        "Pebff fgerrgf: UVYY FG/ CBJRYY FG*                                              \a" +
+        "Znc ersrerapr: S9804*                                                           \a" +
+        "Orng/Mbar: 001  SVER ZNANTRZRAG NERN 1*                                         \a" +
+        "Havgf: Y1*                                                                      \a" +
+        "Aneengvir: YVSG NFFG SBE 80 LBN SRZNYR. VF ABG VAWHERQ*",
+
+        "VQ:133420069",
+        "GVZR:10:52:57",
+        "PNYY:FREIVPR PNYY",
+        "NQQE:511 PNHQYR NIR",
+        "PVGL:FCEVATQNYR",
+        "K:UVYY FG/ CBJRYY FG",
+        "HAVG:Y1",
+        "VASB:YVSG NFFG SBE 80 LBN SRZNYR. VF ABG VAWHERQ*");
+
+    qbGrfg("G28",
+        "(PNQ pnyy 133420059) Pnyy#: 133420059*                                                               \a" +
+        "Gvzr: 09:45:42*                                                                 \a" +
+        "Glcr bs pnyy: PBZZREPVNY SVER NYNEZ*                                            \a" +
+        "Ybpngvba: 2175 BEPUNEQ FG, FCEVATQNYR*                                          \a" +
+        "Pebff fgerrgf: R EBOVAFBA NIR/ YNXRFVQR NIR*                                    \a" +
+        "Znc ersrerapr: S0002*                                                           \a" +
+        "Orng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \a" +
+        "Znc cntr: HFR P 33*                                                             \a" +
+        "Havgf: R5 Y1*                                                                   \a" +
+        "Aneengvir: PBZZREPVNY SVER NYNEZ                                                \a" +
+        "FUBJVAT P JVAT SVER NYNEZ                                                       \a" +
+        "VAFVQR 479.750.1511*",
+
+        "VQ:133420059",
+        "GVZR:09:45:42",
+        "PNYY:PBZZREPVNY SVER NYNEZ",
+        "NQQE:2175 BEPUNEQ FG",
+        "PVGL:FCEVATQNYR",
+        "K:R EBOVAFBA NIR/ YNXRFVQR NIR",
+        "ZNC:HFR P 33",
+        "HAVG:R5 Y1",
+        "VASB:PBZZREPVNY SVER NYNEZ\aFUBJVAT P JVAT SVER NYNEZ\aVAFVQR 479.750.1511*");
+
+    qbGrfg("G29",
+        "(PNQ pnyy 133420055) Pnyy#: 133420055*                                                               \a" +
+        "Gvzr: 09:15:26*                                                                 \a" +
+        "Glcr bs pnyy: QVNORGVP CEBOYRZF*                                                \a" +
+        "Ybpngvba: 3050 NQEVNA NIR N, FCEVATQNYR*                                        \a" +
+        "Pebff fgerrgf: OHGGRESVRYQ PBNPU EQ/ ZNEX FG*                                   \a" +
+        "Znc ersrerapr: S0103*                                                           \a" +
+        "Orng/Mbar: 005  SVER ZNANTRZRAG NERN 5*                                         \a" +
+        "Havgf: R5 Z5*                                                                   \a" +
+        "Aneengvir: **QRYNLRQ RAEGL QHR GB PNQ FUHGQBJA**                                \a" +
+        "VAFHYVA ERNPGVBA                                                                \a" +
+        "38 LBN ZNYR                                                                     \a" +
+        "ABG NJNXR                                                                       \a" +
+        "VF OERNGUVAT                                                                    \a" +
+        "ABG NYREG                                                                       \a" +
+        "ABG ORUNIVAT ABEZNY                                                             \a" +
+        "OERNGUVAT ABEZNY                                                                \a" +
+        "13 Q 1                                                                          \a" +
+        "R5 AB GENAFCBEG*",
+
+        "VQ:133420055",
+        "GVZR:09:15:26",
+        "PNYY:QVNORGVP CEBOYRZF",
+        "NQQE:3050 NQEVNA NIR",
+        "NCG:N",
+        "PVGL:FCEVATQNYR",
+        "K:OHGGRESVRYQ PBNPU EQ/ ZNEX FG",
+        "HAVG:R5 Z5",
+        "VASB:**QRYNLRQ RAEGL QHR GB PNQ FUHGQBJA*");
+
+    qbGrfg("G30",
+        "(PNQ pnyy 133420052) Pnyy#: 133420052*                                                               \a" +
+        "Gvzr: 09:10:45*                                                                 \a" +
+        "Glcr bs pnyy: GENSSVP NPPVQRAGF*                                                \a" +
+        "Ybpngvba: TERNGUBHFR FCEVATF EQ/ OLCNFF, WBUAFBA*                               \a" +
+        "Znc ersrerapr: 61/FSQ RZF*                                                      \a" +
+        "Orng/Mbar: 021  NZOHYNAPR ZNANTRZRAG NERN 1*                                    \a" +
+        "Havgf: 61 Y6 Z6 R61*                                                            \a" +
+        "Aneengvir: **QRYNLRQ RAEGL QHR GB PNQ FUHGQBJA**                                \a" +
+        "ZIN VA A/O YNARF BS V 540 ORGJRRA WBUAFBA RKVG NAQ FHAFRG                       \a" +
+        "RKVG                                                                            \a" +
+        "44 LBN                                                                          \a" +
+        "NJNXR NAQ OERNGUVAT                                                             \a" +
+        "AB PURZVPNYF                                                                    \a" +
+        "AB BAR CVAARQ                                                                   \a" +
+        "AB BAR GUEBJA                                                                   \a" +
+        "NJNXR                                                                           \a" +
+        "OYBBQ BA SNPR                                                                   \a" +
+        "ABG FREVBHF                                                                     \a" +
+        "29 O 1                                                                          \a" +
+        "654 2AQ PYE JVYYVNZ 5879233 9114                                                \a" +
+        "JUV FHI EBYYRQ BIRE A/O WHFG ABEGU BS WBUAFBA RKVG AB                           \a" +
+        "VAWHEVRF                                                                        \a" +
+        "Z6..Y6 LBH PNA PNAPRY*",
+
+        "VQ:133420052",
+        "GVZR:09:10:45",
+        "PNYY:GENSSVP NPPVQRAGF",
+        "NQQE:TERNGUBHFR FCEVATF EQ & OLCNFF",  // Abg znccvat
+        "PVGL:WBUAFBA",
+        "HAVG:61 Y6 Z6 R61",
+        "VASB:**QRYNLRQ RAEGL QHR GB PNQ FUHGQBJA*");
+
   }
-  
+ 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj NEJnfuvatgbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
