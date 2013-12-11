@@ -133,6 +133,7 @@ public class ParserList {
           new ParserCategory("Arkansas"
               ,"ARBentonCounty"                 ,"Benton County, AR"
               ,"ARGarlandCounty"                ,"Garland County, AR"
+              ,"ARWashingtonCounty"             ,"Washington County, AR"
           ),
           new ParserCategory("California"
               ,"CAButteCounty"                  ,"Butte County, CA"
