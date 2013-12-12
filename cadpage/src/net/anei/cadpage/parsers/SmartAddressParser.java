@@ -393,6 +393,10 @@ public abstract class SmartAddressParser extends MsgParser {
       setupDictionary(ID_ROAD_SFX,
           "CRES", "CRESCENT",
           "TCE", "TERRACE");
+      break;
+      
+    default:
+      break;
     }
   }
   
@@ -2610,6 +2614,10 @@ public abstract class SmartAddressParser extends MsgParser {
           case START_PLACE:
             if (data.strPlace.length() == 0) data.strPlace = startFld;
             break;
+        case START_ADDR:
+          break;
+        case START_OTHER:
+          break;
         }
       }
     

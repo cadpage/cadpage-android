@@ -1409,6 +1409,15 @@ public class FieldProgramParser extends SmartAddressParser {
           return state.link(failLink);
         } 
         
+        // Otherwise, there is no field processing associated with this step
+        // and there is a success link that moves us backward through the
+        // field list, then take the success link.  This is very rare, but it
+        // happens when a decision making conditional branch leaves a tail
+        // link node that happens to fall past the end of data
+        if (field == null && succLink != null && succLink.getInc() < 0) {
+          return state.link(succLink);
+        }
+        
         // Otherwise we are finished
         return true;
       }

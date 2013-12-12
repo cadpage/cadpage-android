@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE  = 
-      Cnggrea.pbzcvyr("([N-M0-9]+):\\[[N-M0-9]+\\]");
+      Cnggrea.pbzcvyr(" +uggc://zncf\\.tbbtyr\\.pbz/zncf\\?d=([-+\\q\\.,]+)$");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("P039:[P039]-- 3 FGERRGF BA GUR UVYY ORUVAQ GUR SVER UBHFR VA QHEOVA WHQL PNYYRQ NAQ FNVQ UR UHFONAQ UNQ ERPGNY OYRRQVAT RNEYLRE GBQNL NAQ ABJ VF OYRRQVAT SEBZ GUNG NERN");
+    qbGrfg(" uggc://zncf.tbbtyr.pbz/zncf?d=32.36275136,+-81.78721680");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
