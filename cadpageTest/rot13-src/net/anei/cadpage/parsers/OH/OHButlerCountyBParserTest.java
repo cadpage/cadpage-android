@@ -46,7 +46,24 @@ Fraqre: Jrfg Purfgre 7PBZZ <VCNTR@VCFPNQ>
 SvryqCebtenzCnere cebtenz fgevat
 Ybp:NQQE/F! GLCR_PBQR:PNYY! GVZR:GVZR! Pbzz:VASB!
 Arrq gb ohvyq gjb jbeq pvgl pbqr yvfg.
-Nqq inyvqngvba cnggrea seb GVZR: 
+Nqq inyvqngvba cnggrea sbe GVZR: 
+
+Gur NQQE/F vaibxrf gur fzneg nqqerff cnefre.  Jvgu ab bgure cnenzrgref nyy vg
+qbrf vf fgevc bss n pvgl pbqr be anzr sebz gur raq bs gur nqqerff svryq.
+N pvgl pbqr gnoyr vf n cebcregvrf bowrpg hfrq gb ybbx hc pvgl anzrf.  Jr hfr
+ohvyqPbqrGnoyrf() gb ohvyq n pbafgnag PVGL_PBQRF Cebcregvrf bowrpg juvpu vf 
+cnffrq gb gur fhcrepynff pbafgehpgbe.  ohvyqPbqrGnoyrf vf cnffrq n frevrf bs
+fgevat, juvpu ner cnverq nf pbqr - inyhr cnvef.  Jr qvq trg n pvgl pbqr yvfg 
+sebz gur raq hfref juvpu V jvyy nccraq gb raq bs guvf fbhepr.  Hfr gur
+Rpyvbcfr Pgy-Fuvsg-K frdhrapr gb hcfuvsg vg nyy.  Gura lbh pna hfhnyyl svaq
+fbzr snapl ertrk frnepu/ercynpr shapgvbaf gung jvyy ghea vg vagb gur fgevat
+cnvef gung lbh arrq gb cnff gb ohvyqPbqrGnoyrf.
+
+Gurl ner nyfb cebivqvat hf jvgu n yvfg bs pnyy pbqrf naq qrfpevcgvbaf, nyfb
+sbyybjvat fbhepr pbqr.  Hfr guvf gb ohvyq n PNYY_PBQRF Cebcregvrf bowrpg.  Gura
+bireevqr gur PNYY svryq.  Fgber gur svryq inyhr va fgePbqr.  Gura pnyy pbairegPbqrf
+jvgu PNYY_PBQRF gnoyr gb trg gur fgePnyy inyhr.  Lbh jvyy unir gb bireevqr
+trgSvryqAnzrf() gb fcrpvsl gung obgu PBQR naq PNYY ner orvat frg.
 
 */
 
@@ -66,3 +83,123 @@ choyvp pynff BUOhgyrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     arj BUOhgyrePbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
 }
+/*
+** Pvgl Pbqrf ***
+PBYP  Pbyyrtr Pbeare  Ohgyre Pbhagl
+SSPL  Snvesvryq Pvgl  Ohgyre Pbhagl
+SSGJ  Snvesvryq Gbjafuvc  Ohgyre Pbhagl
+UNZV  Unzvygba Pvgl Ohgyre Pbhagl
+UNAG  Unabire Gbjafuvc  Ohgyre Pbhagl
+WNPO  Wnpxfbaohet Ohgyre Pbhagl
+YRZG  Yrzba Gbjafuvc  Ohgyre Pbhagl
+YVOG  Yvoregl Gbjafuvc  Ohgyre Pbhagl
+ZNQG  Znqvfba Gbjafuvc  Ohgyre Pbhagl
+ZVQG  Zvqqyrgbja  Ohgyre Pbhagl
+ZVYG  Zvysbeq Gbjafuvc  Ohgyre Pbhagl
+ZVYI  Zvyyivyyr Ohgyre Pbhagl
+ZBAE  Zbaebr  Ohgyre Pbhagl
+ZBEG  Zbetna Gbjafuvc Ohgyre Pbhagl
+AZVN  Arj Zvnzv Ohgyre Pbhagl
+BKSP  Bksbeq Pvgl Ohgyre Pbhagl
+BKSG  Bksbeq Gbjafuvc Ohgyre Pbhagl
+ERVG  Ervyl Gbjafuvc  Ohgyre Pbhagl
+EBFG  Ebff Gbjafuvc Ohgyre Pbhagl
+FPYG  Fg. Pynve Gbjafuvc  Ohgyre Pbhagl
+FRIZ  Frira Zvyr  Ohgyre Pbhagl
+FBZI  Fbzreivyyr  Ohgyre Pbhagl
+GERA  Geragba Ohgyre Pbhagl
+JNLG  Jnlar Gbjafuvc  Ohgyre Pbhagl
+JPUG  Jrfg Purfgre Gbjafuvc Ohgyre Pbhagl
+NZOI  Nzoreyl Ivyyntr Unzvygba Pbhagl
+NAQG  Naqrefba Gbjafuvc Unzvygba Pbhagl
+NEYU  Neyvatgba Urvtugf Unzvygba Pbhagl
+OYHN  Oyhr Nfu  Unzvygba Pbhagl
+OEA Oebja Pbhagl  
+PNEY  Pneyvfyr  Jneera Pbhagl
+PURI  Purivbg Unzvygba Pbhagl
+PVAA  Pvapvaangv  Unzvygba Pbhagl
+PYRI  Pyrirf  Unzvygba Pbhagl
+PYBI  Pybirqnyr Unzvygba Pbhagl
+PYEG  Pyrezbag  
+PBYG  Pbyenva Gbjafuvc  Unzvygba Pbhagl
+PEOG  Pebfol Gbjafuvc Jneera Pbhagl
+QRRC  Qrre Cnex Unzvygba Pbhagl
+QRYG  Qryuv Gbjafuvc  Unzvygba Pbhagl
+QRAG  Qrag  Unzvygba Pbhagl
+QREG  Qrresvryq Gbjafuvc  Jneera Pbhagl
+QVYI  Qvyyrainyr  Unzvygba Pbhagl
+RYZC  Ryzjbbq Cynpr Unzvygba Pbhagl
+RIRQ  Riraqnyr  Unzvygba Pbhagl
+SNVK  Snvesnk Unzvygba Pbhagl
+SVAG  Svaalgbja Unzvygba Pbhagl
+SBEC  Sberfg Cnex Unzvygba Pbhagl
+SEXP  Senaxyva Pvgl Jneera Pbhagl
+SEXG  Senaxyva Gbjafuvc Jneera Pbhagl
+TYRQ  Tyraqnyr  Unzvygba Pbhagl
+TBZ Tbys Znabe  Unzvygba Pbhagl
+TERU  Terra Uvyyf Unzvygba Pbhagl
+TEBO  Tebforpx  Unzvygba Pbhagl
+UNEE  Uneevfba  Unzvygba Pbhagl
+UNEG  Uneevfba Gbjafuvc Unzvygba Pbhagl
+UNEI  Uneilrfohet 
+UNFG    
+VAQU  Vaqvna Uvyy Unzvygba Pbhagl
+XRAJ  Xrajbbq Unzvygba Pbhagl
+XVAV    
+YNAQ  Ynaqra  Unzvygba Pbhagl
+YROA  Yronaba Jneera Pbhagl
+YVAU  Yvapbya Urvtugf Unzvygba Pbhagl
+YBPY  Ybpxynaq  Unzvygba Pbhagl
+YBIU  Ybirynaq  Unzvygba Pbhagl
+YBIC    
+YBIJ    
+ZNPA    
+ZNPF    
+ZNQR  Znqrven Unzvygba Pbhagl
+ZNVI  Znvaivyyr Unzvygba Pbhagl
+ZNEV  Znevrzbag Unzvygba Pbhagl
+ZNFB  Znfba Jneera Pbhagl
+ZNFG    
+ZURN  Zbhag Urnygul Unzvygba Pbhagl
+ZVNG  Zvnzv Gbjafuvc  Unzvygba Pbhagl
+ZVYS  Zvysbeq Unzvygba Pbhagl
+ZBUG  Zbasbeq Urvtugf Unzvygba Pbhagl
+ZBAG  Zbagtbzrel  Unzvygba Pbhagl
+ZBAJ    
+ZBEE  Zbeebj  Jneera Pbhagl
+AORA  Abegu Oraq  Unzvygba Pbhagl
+APU Abegu Pbyyrtr Uvyy  Unzvygba Pbhagl
+ARJG  Arjgbja Unzvygba Pbhagl
+ABEO  Abeguoebbx  Unzvygba Pbhagl
+ABEJ  Abejbbq Unzvygba Pbhagl
+CYRS    
+CYRE    
+ERNQ  Ernqvat Unzvygba Pbhagl
+FNYG  Fnyrz Gbjafuvc  Jneera Pbhagl
+FORE  Fg. Oreaneq Unzvygba Pbhagl
+FUNI  Funebaivyyr Unzvygba Pbhagl
+FVYI  Fvyiregba Unzvygba Pbhagl
+FYRO    
+FCSG  Fcevatsvryq Gbjafuvc  Unzvygba Pbhagl
+FCEO  Fcevatobeb  Jneera Pbhagl
+FCEQ  Fcevatqnyr  Unzvygba Pbhagl
+FLPN  Flpnzber  Unzvygba Pbhagl
+FLZZ  Flzzf Gbjafuvc  Unzvygba Pbhagl
+GREC  Greenpr Cnex  Unzvygba Pbhagl
+GHEG  Ghegyr Perrx Gbjafuvc Jneera Pbhagl
+HF    
+HAVG  Havba Gbjafuvc  
+JNFG  Jnfuvatgba Gbjafuvc 
+JNLI  Jnlarfivyyr Jneera Pbhagl
+JNLJ    
+JUGR    
+JUGB  Juvgr Bnx Unzvygba Pbhagl
+JUGG    
+JUGJ  Juvgrjngre Gbjafuvc Unzvygba Pbhagl
+JBQY  Jbbqynja  Unzvygba Pbhagl
+JLBZ  Jlbzvat Unzvygba Pbhagl
+JPCF 
+
+** Pnyy Pbqrf ***
+
+*/
