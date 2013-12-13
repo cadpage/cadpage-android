@@ -414,6 +414,7 @@ public class ParserList {
               ,"MSCalhounCounty"                ,"Calhoun County, MS"
               ,"MSLafayetteCounty"			      	,"Lafayette County, MS"
               ,"MSMarionCounty"                 ,"Marion County, MS"
+              ,"MSNeshobaCounty"                ,"Neshoba County, MS"
               ,"MSNewtonCounty"                 ,"Newton County, MS"
           ),
           new ParserCategory("Missouri"
