@@ -125,6 +125,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    
     // Message must always start with dispatcher ID, which we promptly discard
     if (leadDispatch || optDispatch) {
       Matcher match = LEAD_PTN.matcher(body);

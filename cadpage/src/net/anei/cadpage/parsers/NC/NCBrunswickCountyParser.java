@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
  */
 public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("\\d+:(\\d\\d-\\d{6}), +(.*)");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("\\d+:(\\d\\d-\\d{6})[,;] *(.*)");
   
   public NCBrunswickCountyParser() {
     super(CITY_LIST, "BRUNSWICK COUNTY", "NC", 
@@ -21,6 +21,11 @@ public class NCBrunswickCountyParser extends DispatchSouthernPlusParser {
   @Override
   public String getFilter() {
     return "pagegate@brunswickes.com,vtext.com@returns.groups.yahoo.com";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
   
   @Override
