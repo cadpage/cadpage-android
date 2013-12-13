@@ -36,10 +36,12 @@ public class GABullochCountyAParser extends SmartAddressParser {
     // There has to be a subject, which will turn out to be either the address
     // or the call description
     if (subject.length() == 0) return false;
+
+    // exclude valid GABullochCountyB pages
+    if (subject.startsWith("Disp ")) return false;
     
     // String is broken up by newlines
     String flds[] = body.split("\n");
-    //if (flds.length < 3) return false;
     
     // Now things get tricky.  See if we can find a line that looks like an 
     // address.  We will make two passes, one expecting the address to fill the

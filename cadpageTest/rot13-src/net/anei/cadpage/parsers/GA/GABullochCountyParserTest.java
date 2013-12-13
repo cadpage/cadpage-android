@@ -13,13 +13,13 @@ choyvp pynff TNOhyybpuPbhaglCnefreGrfg {
   
   choyvp fgngvp pynff GrfgN rkgraqf TNOhyybpuPbhaglNCnefreGrfg {
     choyvp GrfgN() {
-      frgCnefre(arj TNOhyybpuPbhaglNCnefre());
+      frgCnefre(arj TNOhyybpuPbhaglCnefre());
     }
   }
   
   choyvp fgngvp pynff GrfgO rkgraqf TNOhyybpuPbhaglOCnefreGrfg {
     choyvp GrfgO() {
-      frgCnefre(arj TNOhyybpuPbhaglNCnefre());
+      frgCnefre(arj TNOhyybpuPbhaglCnefre());
     }
   }
   
