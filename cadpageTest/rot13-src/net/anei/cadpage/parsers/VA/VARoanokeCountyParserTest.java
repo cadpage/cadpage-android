@@ -62,6 +62,10 @@ Z21  Erfvqragvny Fgehpgher Sver 646 R  NHTHFGN NIR KFG  GVZOREVQTR EQ   FCEHPR F
 Z22  OYF 120 J  WNPXFBA NIR KFG  FGNGVBA
 PB2 R2 PB6 PR6 ERF2 Z22 Y2 RZF2  Erfvqragvny Fgehpgher Sver 646 R  NHTHFGN NIR KFG  GVZOREVQTR EQ   FCEHPR FG
 
+Pbagnpg: Elna Onlfr <eonlfr09@tznvy.pbz>
+Fraqre: 5403144404
+PB9 J9 ERF9 Z92  0915 132 V 81 A Ebnabxr Pbhagl IRUVPYR 2013 00113252
+
  */
 
 choyvp pynff INEbnabxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -385,6 +389,18 @@ choyvp pynff INEbnabxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:646 R NHTHFGN NIR",
         "K:GVZOREVQTR EQ & FCEHPR FG");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgElnaOnlf() {
+
+    qbGrfg("G1",
+        "PB9 J9 ERF9 Z92  0915 132 V 81 A Ebnabxr Pbhagl IRUVPYR 2013 00113252",
+        "HAVG:PB9 J9 ERF9 Z92",
+        "PNYY:915",
+        "NQQE:132 V 81 A",
+        "NCG:Ebnabxr Pbhagl IRUVPYR 2013 00113252");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
