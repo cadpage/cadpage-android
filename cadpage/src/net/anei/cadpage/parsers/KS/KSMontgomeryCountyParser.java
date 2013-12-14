@@ -11,6 +11,6 @@ public class KSMontgomeryCountyParser extends DispatchA25Parser {
   
   @Override
   public String getFilter() {
-    return "EnterpolAlerts@atchisonlec.org";
+    return "EnterpolAlerts@coffeyvillepd.org";
   }
 }
