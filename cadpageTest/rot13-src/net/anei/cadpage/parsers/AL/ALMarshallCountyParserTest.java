@@ -60,6 +60,10 @@ Fraqre: 911-PRAGRE@znefunyy911.pbz
 911-PRAGRE:NOCNVA>NOQBZVANY CNVA TBYQRA YVIVAT 55-N OBNM XHLXRAQNYY, SENAPRF
 911-PRAGRE:SNYYF >SNYYF 606 PBYYRTR NIR OBNM ZVUXRY, ZNTEVUAN Znc: Tevqf:00000,000
 
+Pbagnpg: Punfr Xree <zpxree123@tznvy.pbz>
+Fraqre: 2002000004
+2562937336911-PRAGRE:OGUCEO>OERNGUVAT CEBOYRZ 1361 TERRA OEVNE PBIR EQ HAVBA TEBIR PNIRAQRE, OVYYL E Znc: Tevqf:00000,000
+
 */
 
 choyvp pynff NYZnefunyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -414,6 +418,20 @@ choyvp pynff NYZnefunyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:OBNM",
         "ANZR:ZVUXRY, ZNTEVUAN");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPunfrXree() {
+
+    qbGrfg("G1",
+        "2562937336911-PRAGRE:OGUCEO>OERNGUVAT CEBOYRZ 1361 TERRA OEVNE PBIR EQ HAVBA TEBIR PNIRAQRE, OVYYL E Znc: Tevqf:00000,000",
+        "VQ:2562937336",
+        "PBQR:OGUCEO",
+        "PNYY:OERNGUVAT CEBOYRZ",
+        "NQQE:1361 TERRA OEVNE PBIR EQ",
+        "PVGL:HAVBA TEBIR",
+        "ANZR:PNIRAQRE, OVYYL E");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

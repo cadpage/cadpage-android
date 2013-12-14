@@ -12,6 +12,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 public class ALMarshallCountyParser extends DispatchB2Parser {
   
   private static final Pattern ID_PTN = Pattern.compile("^(\\d+):");
+  private static final Pattern MARKER_PTN = Pattern.compile("^(\\d{10})?911-CENTER:");
 
 
   public ALMarshallCountyParser() {
@@ -20,7 +21,7 @@ public class ALMarshallCountyParser extends DispatchB2Parser {
   
   @Override
   public String getFilter() {
-    return "911-CENTER@marshall911.com";
+    return "911-CENTER@marshall911.com,2002";
   }
   
   @Override
@@ -34,8 +35,10 @@ public class ALMarshallCountyParser extends DispatchB2Parser {
         break;
       }
       
-      if (body.startsWith("911-CENTER:")) {
-        body = body.substring(11).trim();
+      match = MARKER_PTN.matcher(body);
+      if (match.find()) {
+        data.strCallId = match.group(1);
+        body = body.substring(match.end()).trim();
         break;
       }
       
