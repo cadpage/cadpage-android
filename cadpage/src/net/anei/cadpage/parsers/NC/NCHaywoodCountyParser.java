@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.NC;
 
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
@@ -22,6 +24,12 @@ public class NCHaywoodCountyParser extends DispatchSouthernParser {
     if (body.startsWith("CAD:")) body = body.substring(4).trim();
     return super.parseMsg(body, data);
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    return STONEY_PK_PTN.matcher(addr).replaceAll("STONEY PARK");
+  }
+  private static final Pattern STONEY_PK_PTN = Pattern.compile("\\bSTONEY +PK\\b", Pattern.CASE_INSENSITIVE);
   
   private static String[] CITY_LIST = new String[]{
     "CANTON",

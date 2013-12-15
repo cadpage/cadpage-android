@@ -57,6 +57,10 @@ PNEVAT CYNPR YBBC / BYQ PYLQR EQ PYLQR ZQY 10P04 01:56:28 RZRETRAPL PURFG CNVA o
 PNQ:127 ONVYRL QE PYLQR THQEVF YA K ONVYRL QE ZQY 17N01-T 13:05:15 EBHGVAR SNYY
 PNQ:530 FURYGBA EQ PYLQR NYOREG EUBQRF QE K FURYGBA EQ SQY 53N02 05:03:42 PVGVMRA NFFVFG
 
+Pbagnpg: Qneyrar Fzvgu <qneyrarfzvgu1225@tznvy.pbz>
+Fraqre: PNQ@unljbbqap.arg
+PNQ:29 FGBARL CX PNAGBA PEHFB EQ K FGBARL CX ZQY 06Q01 00:37:32 RZRETRAPL OERNGUVAT CEBOYRZF
+
 */
 
 choyvp pynff APUnljbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -309,6 +313,21 @@ choyvp pynff APUnljbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:05:03:42",
         "PNYY:PVGVMRA NFFVFG");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQneyrarFzvgu() {
+
+    qbGrfg("G1",
+        "PNQ:29 FGBARL CX PNAGBA PEHFB EQ K FGBARL CX ZQY 06Q01 00:37:32 RZRETRAPL OERNGUVAT CEBOYRZF",
+        "NQQE:29 FGBARL CX",
+        "ZNQQE:29 FGBARL CNEX",
+        "PVGL:PNAGBA",
+        "K:PEHFB EQ / FGBARL CX",
+        "PBQR:06Q01",
+        "GVZR:00:37:32",
+        "PNYY:RZRETRAPL OERNGUVAT CEBOYRZF");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
