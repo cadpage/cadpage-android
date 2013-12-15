@@ -11,8 +11,6 @@ import net.anei.cadpage.parsers.dispatch.DispatchDAPROParser;
 
 public class VACampbellCountyParser extends DispatchDAPROParser {
   
-  private static final Pattern LEAD_COUNTY_PTN = Pattern.compile("^COUNTY +0*");
-  
   public VACampbellCountyParser() {
     super(CITY_CODES, "CAMPBELL COUNTY","VA");
     setupCallList(CALL_SET);
