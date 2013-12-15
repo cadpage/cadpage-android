@@ -36,6 +36,11 @@ public class CTTollandCountyAParser extends SmartAddressParser {
         break;
       }
       
+      if (body.startsWith("TN Alert / ")) {
+        body = body.substring(11);
+        break;
+      }
+      
       return false;
     } while (false);
     
