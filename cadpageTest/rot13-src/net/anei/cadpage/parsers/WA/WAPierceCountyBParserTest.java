@@ -169,6 +169,7 @@ choyvp pynff JNCvreprPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:13:50:38",
         "PNYY:PIN",
         "NQQE:15519 62AQ FGPG R",
+        "ZNQQE:15519 62AQ FG PG R",
         "NCG:215",
         "ZNC:Znc=290,EQ=22- 133",
         "HAVG:S22");

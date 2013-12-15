@@ -37,7 +37,7 @@ public class ALMarshallCountyParser extends DispatchB2Parser {
       
       match = MARKER_PTN.matcher(body);
       if (match.find()) {
-        data.strCallId = match.group(1);
+        data.strCallId = getOptGroup(match.group(1));
         body = body.substring(match.end()).trim();
         break;
       }
