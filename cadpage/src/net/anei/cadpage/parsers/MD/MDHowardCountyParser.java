@@ -48,10 +48,18 @@ public class MDHowardCountyParser extends FieldProgramParser {
 
     @Override
     public void parse(String field, Data data) {
-      boolean id = field.startsWith("EVENT: ");
-      if (id) field = field.substring(7).trim();
+      if (field.startsWith("EVENT: ")) {
+        field = field.substring(7).trim();
+        int pt = field.indexOf(' ');
+        if (pt < 0) {
+          data.strCallId = field;
+          return;
+        }
+        data.strCallId = field.substring(0,pt);
+        field = field.substring(pt+1).trim();
+      }
+      if (field.startsWith("Location:")) field = field.substring(9).trim();
       Parser p = new Parser(field);
-      if (id) data.strCallId = p.get(' ');
       String sAddr = p.get(": @");
       data.strPlace = p.get().replace(": @", " - ");
       p = new Parser(sAddr);
