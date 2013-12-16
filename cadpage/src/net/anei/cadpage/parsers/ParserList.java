@@ -306,6 +306,7 @@ public class ParserList {
               ,"KSBrownCounty"                  ,"Brown County, KS"
               ,"KSButlerCounty"                 ,"Butler County, KS"
               ,"KSJohnsonCounty"                ,"Johnson County, KS"
+              ,"KSMiamiCounty"                  ,"Miami County, KS"
               ,"KSMontgomeryCounty"             ,"Montgonery County, KS"
               ,"KSSedgwickCounty"               ,"Sedgwick County, KS"
           ),
@@ -804,6 +805,7 @@ public class ParserList {
               ,"TXHaysCounty"                   ,"Hays County, TX"
               ,"TXHoodCounty"                   ,"Hood County, TX"
               ,"TXHumble"                       ,"Humble, TX"
+              ,"TXJohnsonCounty"                ,"Johnson County, TX"
               ,"TXKeller"                       ,"Keller, TX"
               ,"TXLaPorte"                      ,"La Porte, TX"
               ,"TXLeagueCity"                   ,"League City, TX"
@@ -824,6 +826,7 @@ public class ParserList {
               ,"TXTravisCounty"                 ,"Travis County, TX"
               ,"TXWebster"                      ,"Webster, TX"
               ,"TXWilliamsonCounty"             ,"Williamson County, TX"
+              ,"TXWylie"                        ,"Wylie, TX"
           ),
           new ParserCategory("Utah"
               ,"UTBoxElderCounty"               ,"Box Elder County, UT"
