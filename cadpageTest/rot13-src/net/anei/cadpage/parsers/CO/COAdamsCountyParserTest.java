@@ -13,6 +13,7 @@ Pbagnpg: WP Ynatyrl <nfunzna01@tznvy.pbz>
 Pbagnpg: "Fpuhccr, Zvpunry" <zfpuhccr@oevtugbasver.bet>
 Pbagnpg: Qraavf Ubxr <qraavfubxr34@tznvy.pbz>
 Pbagnpg: Znex Oenfry <sverovxre189@tznvy.pbz>
+Pbagnpg: Elna <qbu_312@ubgznvy.pbz>
 Fraqre: vcfcntr@nqpbz911.bet
 
 Fhowrpg:VCF V/Cntr Abgvsvpngvba R 64GU NIR/ZBANPB FG NQNZ PPCQ 09:51:48 GLCR PBQR: NPPV PNYYRE ANZR: GVZR: 09:51:48 Pbzzragf: -104.90947
@@ -28,6 +29,7 @@ Fhowrpg:VCF V/Cntr Abgvsvpngvba\a40200 R DHVAPL NIR 18:40:46 GLCR PBQR: ABAFGE P
 (VCF V/Cntr Abgvsvpngvba) jbexvat sver @ 5254 fabj tbbfr fg     gunaxf - nqpbz
 Fhowrpg:VCF V/Cntr Abgvsvpngvba\a258 F 12GU NIR NQNZ OCQ 17:29:04 GLCR PBQR: FGEHPG PNYYRE ANZR: OREANQVAR GVZR: 17:29:04 Pbzzragf:  EC OHE
 Fhowrpg:VCF V/Cntr Abgvsvpngvba\a3060 R OEVQTR FG NQNZ OCQ,166: @RNFGTNGR ZBOVYR UBZR CNEX 08:22:03 GLCR PBQR: FGEHPG PNYYRE ANZR: WBLPR PB\e
+Fhowrpg:VCF V/Cntr Abgvsvpn...\a6060 CNEXJNL QE NQNZ PPCQ: @PBZZREPR PVGL ERP PRAGRE 17:35:37 GLCR PBQR: BQBE PNYYRE ANZR:  GVZR: 17:35:37 Pbzzragf:  EC FGNGRQ GUNG GURER VF N FGEBAT BQBE GUNG OHEAF GUEBNGF CBFFVOYL CRCCRE FCENL RIRELBAR VF VAFVQR OL GUR FBHGU QBBEF  Qvfc: 200S
 
 Pbagnpg: fhccbeg@npgvir911.pbz
 (VCF V/Cntr Abgvsvpngvba) 8055 JNFUVATGBA FG NQNZ NQNZ: @FGNGVBA 31 13:45:48 GLCR PBQR: RZF PNYYRE ANZR: SVY ZNEGVARM GVZR: 13:45:48 Pbzzragf:  GRFG PNEQ
@@ -190,7 +192,18 @@ choyvp pynff PBNqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:08:22:03",
         "PNYY:FGEHPG",
         "ANZR:WBLPR PB");
-  
+
+    qbGrfg("G14",
+        "Fhowrpg:VCF V/Cntr Abgvsvpn...\a" +
+        "6060 CNEXJNL QE NQNZ PPCQ: @PBZZREPR PVGL ERP PRAGRE 17:35:37 GLCR PBQR: BQBE PNYYRE ANZR:  GVZR: 17:35:37 Pbzzragf:  EC FGNGRQ GUNG GURER VF N FGEBAT BQBE GUNG OHEAF GUEBNGF CBFFVOYL CRCCRE FCENL RIRELBAR VF VAFVQR OL GUR FBHGU QBBEF  Qvfc: 200S",
+
+        "NQQE:6060 CNEXJNL QE",
+        "PVGL:PBZZREPR PVGL",
+        "CYNPR:PBZZREPR PVGL ERP PRAGRE",
+        "PNYY:BQBE",
+        "GVZR:17:35:37",
+        "VASB:EC FGNGRQ GUNG GURER VF N FGEBAT BQBE GUNG OHEAF GUEBNGF CBFFVOYL CRCCRE FCENL RIRELBAR VF VAFVQR OL GUR FBHGU QBBEF  Qvfc: 200S");
+ 
   }
   
   @Grfg

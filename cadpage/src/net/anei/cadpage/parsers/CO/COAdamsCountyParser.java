@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class COAdamsCountyParser extends FieldProgramParser {
   
   private static final Pattern CAD_MARKER = 
-        Pattern.compile("^(?:Subject:)?IPS I/Page Notification (?:/ )?");
+        Pattern.compile("^(?:Subject:)?IPS I/Page Notifica(?:tion|\\.\\.\\.) (?:/ )?");
   
   public COAdamsCountyParser() {
     super(CITY_TABLE, "ADAMS COUNTY", "CO",
