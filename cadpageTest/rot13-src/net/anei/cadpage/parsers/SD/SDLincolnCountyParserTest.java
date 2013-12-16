@@ -56,6 +56,8 @@ Fraqre: ab-ercyl@yrqfcbegny.pbz
 (Nzohynapr Pnyy) - 47079 286, Orerfsbeq - \aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]
 (Nzohynapr Pnyy) Abar - 47926 275GU FG - 11/11/13 13:02:30 - 67 l/b Z Cg - Haerfcbafvir - Qvssvphygl (Funyybj) Oernguvat - Ibzvgvat -
 
+(526 A XVZONYY) 526 A XVZONYY - 51 L/B SRZNYR - FRVMHER [Nggnpuzrag(f) erzbirq]
+
 Pbagnpg: anguna ynhonpu  <jlghegyr@ubgznvy.pbz>
 Fraqre: ab-ercyl@yrqfcbegny.pbz
 (FVT1 : Vawhel Nppvqrag FVTANY 1) 115 / 276GU FG FVTANY 1 VAWHEL NPPVQRAG HAXABJA VAWHEVRF [Nggnpuzrag(f) erzbirq]
@@ -361,6 +363,17 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:11/11/13",
         "GVZR:13:02:30",
         "VASB:67 l/b Z Cg - Haerfcbafvir - Qvssvphygl (Funyybj) Oernguvat - Ibzvgvat");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWnzrfQvrgm4() {
+
+    qbGrfg("G1",
+        "(526 A XVZONYY) 526 A XVZONYY - 51 L/B SRZNYR - FRVMHER [Nggnpuzrag(f) erzbirq]",
+        "NQQE:526 A XVZONYY",
+        "VASB:51 L/B SRZNYR",
+        "PNYY:FRVMHER");
 
   }
   

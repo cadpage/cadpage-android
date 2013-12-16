@@ -21,10 +21,12 @@ public class SDLincolnCountyParser extends FieldProgramParser {
   private static final Pattern APT_PTN = Pattern.compile("^# *([^,]+?) *,");
   private static final Pattern CITY_ST_PTN = Pattern.compile("^([A-Z ]+)\\b *, *([A-Z]{2})(?: +\\d{5})?", Pattern.CASE_INSENSITIVE);
   private static final Pattern INFO_JUNK_PTN = Pattern.compile(" *Please respond immediately\\.? *", Pattern.CASE_INSENSITIVE);
+  
+  private String version;
  
   public SDLincolnCountyParser() {
     super(CITY_LIST, "LINCOLN COUNTY", "SD",
-          "SRC ADDR! DATETIME? INFO+");
+          "( SELECT/2 ADDR INFO CALL! | SRC ADDR! ) DATETIME? INFO+ ");
   }
   
   @Override
@@ -38,16 +40,24 @@ public class SDLincolnCountyParser extends FieldProgramParser {
     if (subject.length() == 0) return false;
     
     // Too many different formats. :(
-    if (subject.equals("Ambulance Call") || subject.equals("Ambulance Call MEDICAL")) {
-      data.strCall = subject;
-      
-      int pt = body.indexOf('\n');
-      if (pt >= 0) body = body.substring(0,pt).trim();
-      
-      if (body.startsWith("-")) body = ' ' + body;
-      if (body.endsWith("-")) body = body + ' ';
-      return parseFields(body.split(" - "), 2, data);
+    
+    String tmp = body;
+    int pt = tmp.indexOf('\n');
+    if (pt >= 0) tmp = tmp.substring(0,pt).trim();
+    if (tmp.startsWith("-")) tmp = ' ' + tmp;
+    if (tmp.endsWith("-")) tmp = tmp + ' ';
+    String[] flds = tmp.split(" - ", -1);
+    if (subject.equals(flds[0])) {
+      version = "2";
+      return super.parseFields(flds, data);
     }
+
+    if (subject.equals("Ambulance Call") || subject.equals("Ambulance Call MEDICAL")) {
+      version = "1";
+      data.strCall = subject;
+      return parseFields(flds, data);
+    }
+    
     setFieldList("ID CALL ADDR APT CITY ST INFO");
     
     // See if subject contains the address
@@ -102,7 +112,7 @@ public class SDLincolnCountyParser extends FieldProgramParser {
     else {
       
       // See if there is an comma or = terminating the address
-      int pt = body.indexOf(',');
+      pt = body.indexOf(',');
       if (pt < 0) {
         
         // Use the smart address parser to try and find and address
@@ -159,8 +169,19 @@ public class SDLincolnCountyParser extends FieldProgramParser {
     return true;
   }
   
-  // New format uses a FieldProgramParser program
+  // New format(s) uses a FieldProgramParser program
   
+  @Override
+  protected String getSelectValue() {
+    return version;
+  }
+  
+  @Override
+  public String getProgram() {
+    if (version.equals("1")) return "CALL " + super.getProgram();
+    return super.getProgram();
+  }
+
   @Override
   public Field getField(String name) {
     if (name.equals("SRC")) return new MySourceField();
