@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class CASanBernardinoCountyParser extends FieldProgramParser {
   
-  private static final Pattern GEN_ALT_UNIT_PTN = Pattern.compile("^([A-Z]+\\d+)\\b");
+  private static final Pattern GEN_ALT_UNIT_PTN = Pattern.compile("^([A-Z]+\\d+)[A-Z]?\\b");
   
   public CASanBernardinoCountyParser() {
     super(CITY_CODES, "SAN BERNARDINO COUNTY", "CA",

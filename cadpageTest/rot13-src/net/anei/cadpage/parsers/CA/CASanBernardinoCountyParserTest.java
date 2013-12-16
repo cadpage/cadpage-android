@@ -272,7 +272,13 @@ choyvp pynff PNFnaOreaneqvabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:TRARENY NYREG",
         "HAVG:ZN301",
         "CYNPR:ZN301 PNAPRY");
- 
+
+    qbGrfg("G2",
+        "ZN302N CYRNFR NQIVFR PBZZ PRAGRE BS LBHE FGNGHF QVQ LBH NEEVIR QIU PU/PPP\e\a",
+        "PNYY:TRARENY NYREG",
+        "HAVG:ZN302",
+        "CYNPR:ZN302N CYRNFR NQIVFR PBZZ PRAGRE BS LBHE FGNGHF QVQ LBH NEEVIR QIU PU/PPP");
+
   }
   
   @Grfg
