@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12092013</string>
-  <string name="release_version">v1.6.57</string>
+  <string name="release_date">12152013</string>
+  <string name="release_version">v1.6.58</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Hartford County, CT (alt)\n
-Montgomery County, KS\n
-Grand Traverse County, MI\n
-Lafayette County, MS\n
-Bergen County, NJ\n
-Clermont County, OH\n
-Columbia County, PA\n
+Washington County, AR\n
+Bulloch County, GA (alt)\n
+Maimi County, KS\n
+Nesoba County, MS\n
+NICOM, NJ (alt)\n
+Johnson County, TX\n
+Pierce County, WA (alt)\n
+Wylie, TX\n
 \n
 Location Parsing Fixes:\n
-St Joseph County, IN\n
-Warren County, NJ\n
-Highland County, OH\n
+Marshall County, AL\n
+Adams County, CO\n
+Tolland County, CT\n
+Calvert County, MD\n
+Howard County, MD\n
+Haywood County, NC\n
+New Brunswick County, NC\n
+Pennington County, SD\n
+Roanoke County, VA\n
   </string>  
 </resources>
   
