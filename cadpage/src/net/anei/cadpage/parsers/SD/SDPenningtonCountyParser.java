@@ -21,7 +21,7 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
 
   @Override
   public String getFilter() {
-    return "dispatch@co.pennington.sd.us";
+    return "dispatch@co.pennington.sd.us,dispatch@pennco.org";
   }
   
   @Override
