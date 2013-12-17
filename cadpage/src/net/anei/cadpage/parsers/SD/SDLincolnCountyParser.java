@@ -21,6 +21,7 @@ public class SDLincolnCountyParser extends FieldProgramParser {
   private static final Pattern APT_PTN = Pattern.compile("^# *([^,]+?) *,");
   private static final Pattern CITY_ST_PTN = Pattern.compile("^([A-Z ]+)\\b *, *([A-Z]{2})(?: +\\d{5})?", Pattern.CASE_INSENSITIVE);
   private static final Pattern INFO_JUNK_PTN = Pattern.compile(" *Please respond immediately\\.? *", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SUB_SRC_PTN = Pattern.compile("[A-Z ]+ AMB");
   
   private String version;
  
@@ -52,13 +53,13 @@ public class SDLincolnCountyParser extends FieldProgramParser {
       return super.parseFields(flds, data);
     }
 
-    if (subject.equals("Ambulance Call") || subject.equals("Ambulance Call MEDICAL")) {
+    if (subject.startsWith("Ambulance Call") || subject.equals("Injury Accident")) {
       version = "1";
       data.strCall = subject;
       return parseFields(flds, data);
     }
     
-    setFieldList("ID CALL ADDR APT CITY ST INFO");
+    version = "0";
     
     // See if subject contains the address
     // with possible city and state qualifier
@@ -66,6 +67,7 @@ public class SDLincolnCountyParser extends FieldProgramParser {
     String addr = p.get(',');
     Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, addr);
     if (res.getStatus() > 1 || LEAD_NUMBER.matcher(addr).matches()) {
+      setFieldList("ADDR CITY STATE CALL");
       res.getData(data);
       if (data.strCity.length() == 0) data.strCity = p.get(',');
       data.strState = p.get(',');
@@ -73,6 +75,20 @@ public class SDLincolnCountyParser extends FieldProgramParser {
       return true;
     }
     
+    if (SUB_SRC_PTN.matcher(subject).matches()) {
+      if (body.startsWith(subject+',')) {
+        res = parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_NO_IMPLIED_APT, body.substring(subject.length()+1).trim());
+        if (res.getStatus() > 0) {
+          setFieldList("SRC CALL ADDR APT INFO");
+          data.strSource = subject;
+          res.getData(data);
+          data.strSupp = res.getLeft();
+          return true;
+        }
+      }
+    }
+    
+    setFieldList("ID CALL ADDR APT CITY ST INFO");
     boolean good = false;
     Matcher match = CALL_ID_PTN.matcher(subject);
     if (match.find()) {

@@ -57,6 +57,9 @@ Fraqre: ab-ercyl@yrqfcbegny.pbz
 (Nzohynapr Pnyy) Abar - 47926 275GU FG - 11/11/13 13:02:30 - 67 l/b Z Cg - Haerfcbafvir - Qvssvphygl (Funyybj) Oernguvat - Ibzvgvat -
 
 (526 A XVZONYY) 526 A XVZONYY - 51 L/B SRZNYR - FRVMHER [Nggnpuzrag(f) erzbirq]
+(PNAGBA NZO) PNAGBA NZO, VAWHEL NPPVQRAG 480GU NIR 1/4 ZVYR FBHGU BS 281FG [Nggnpuzrag(f) erzbirq]
+(Nzohynapr Pnyyqvnorgvp ek) Abar - 2051 Purfgahg FG, Vajbbq - \aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]
+(Vawhel Nppvqrag) Pnagba Nzohynapr; Jbeguvat Sver - 60.5 ZZ V-29 AO - ZIN - Haxabja Vawhevrf [Nggnpuzrag(f) erzbirq]
 
 Pbagnpg: anguna ynhonpu  <jlghegyr@ubgznvy.pbz>
 Fraqre: ab-ercyl@yrqfcbegny.pbz
@@ -374,6 +377,27 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:526 A XVZONYY",
         "VASB:51 L/B SRZNYR",
         "PNYY:FRVMHER");
+
+    qbGrfg("G2",
+        "(PNAGBA NZO) PNAGBA NZO, VAWHEL NPPVQRAG 480GU NIR 1/4 ZVYR FBHGU BS 281FG [Nggnpuzrag(f) erzbirq]",
+        "FEP:PNAGBA NZO",
+        "PNYY:VAWHEL NPPVQRAG",
+        "NQQE:480GU NIR",
+        "VASB:1/4 ZVYR FBHGU BS 281FG");
+
+    qbGrfg("G3",
+        "(Nzohynapr Pnyyqvnorgvp ek) Abar - 2051 Purfgahg FG, Vajbbq - \aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]",
+        "PNYY:Nzohynapr Pnyyqvnorgvp ek",
+        "NQQE:2051 Purfgahg FG",
+        "PVGL:Vajbbq");
+
+    qbGrfg("G4",
+        "(Vawhel Nppvqrag) Pnagba Nzohynapr; Jbeguvat Sver - 60.5 ZZ V-29 AO - ZIN - Haxabja Vawhevrf [Nggnpuzrag(f) erzbirq]",
+        "PNYY:Vawhel Nppvqrag",
+        "FEP:Pnagba Nzohynapr; Jbeguvat Sver",
+        "NQQE:60.5 ZZ V-29 AO",
+        "ZNQQE:60.5 ZZ V 29",
+        "VASB:ZIN - Haxabja Vawhevrf");
 
   }
   
