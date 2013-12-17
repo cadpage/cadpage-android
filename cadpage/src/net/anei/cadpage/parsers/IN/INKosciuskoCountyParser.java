@@ -16,13 +16,22 @@ public class INKosciuskoCountyParser extends DispatchOSSIParser {
   }
   
   @Override
+  public String getFilter() {
+    return "CAD@co.marshall.in.us,CAD@kcgov.local";
+  }
+  
+  @Override
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA | MAP_FLG_SUPPR_SR;
   }
   
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
+    
+    if (subject.length() > 0 && body.startsWith("CAD:;")) {
+      body = "CAD:" + subject + body.substring(3);
+    }
     if (!super.parseMsg(body, data)) return false;
     
     // A city starting with a digit probably means this is a Marshall County page
