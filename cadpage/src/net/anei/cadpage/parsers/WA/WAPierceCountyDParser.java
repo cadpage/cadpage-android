@@ -15,7 +15,7 @@ public class WAPierceCountyDParser extends FieldProgramParser {
   
   public WAPierceCountyDParser() {
     super( "PIERCE COUNTY", "WA", 
-           "CODE CALL ( NAME SRC/Z AT | ADDR ) SRC APT? X PLACE? SRC2 BOX MAP INFO+? ID! Units:UNIT! UNIT+");
+           "CODE CALL ( NAME SRC/Z AT | ADDR ) SRC APT? X ( PLACE APT SRC2 | PLACE? SRC2 ) BOX MAP INFO+? ID! Units:UNIT! UNIT+");
   }
   
   @Override
@@ -46,7 +46,7 @@ public class WAPierceCountyDParser extends FieldProgramParser {
     if (name.equals("AT")) return new AddressField("at +(.*)", true);
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("SRC2")) return new SkipField("F\\d\\d", true);
-    if (name.equals("BOX")) return new BoxField("\\d\\d-\\d{3}", true);
+    if (name.equals("BOX")) return new BoxField("\\d\\d-\\d{3,4}", true);
     if (name.equals("MAP")) return new MapField("\\d+", true);
     if (name.equals("ID")) return new IdField("\\d{10}", true);
     if (name.equals("INFO")) return new MyInfoField();
