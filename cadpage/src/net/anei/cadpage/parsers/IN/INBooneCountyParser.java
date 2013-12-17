@@ -7,12 +7,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchCiscoParser;
 
 /**
- * Boone County, OH
+ * Boone County, IN
  */
 public class INBooneCountyParser extends DispatchCiscoParser {
 
   public INBooneCountyParser() {
-    super("BOONE COUNTY", "OH");
+    super("BOONE COUNTY", "IN");
   }
 
   @Override

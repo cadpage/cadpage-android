@@ -43,7 +43,7 @@ Fraqre: <pvfpbcntvat@pb.obbar.va.hf>
 choyvp pynff VAObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VAObbarPbhaglCnefreGrfg() {
-    frgCnefre(arj VAObbarPbhaglCnefre(), "OBBAR PBHAGL", "BU");
+    frgCnefre(arj VAObbarPbhaglCnefre(), "OBBAR PBHAGL", "VA");
   }
   
   @Grfg
