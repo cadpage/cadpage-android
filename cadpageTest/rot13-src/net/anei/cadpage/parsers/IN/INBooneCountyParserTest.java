@@ -103,7 +103,7 @@ choyvp pynff VAObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G7",
         "(SVER NYNEZ - FPUBBY) Ybp:!4028 RYQBE SYBJRE QEVIR Tevq:4991 Havgf:R91 Ezx:ERD R91 NFFVFG BA SVER NYNEZ - UP ST ",
         "PNYY:SVER NYNEZ - FPUBBY",
-        "NQQE:!4028 RYQBE SYBJRE QEVIR", // ! jnagf pvgl (mvbafivyyr) be unzvygba pbhagl gb znc
+        "NQQE:4028 RYQBE SYBJRE QEVIR", // ! jnagf pvgl (mvbafivyyr) be unzvygba pbhagl gb znc
         "ZNC:4991",
         "HAVG:R91",
         "VASB:ERD R91 NFFVFG BA SVER NYNEZ - UP ST");
@@ -153,7 +153,7 @@ choyvp pynff VAObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(CV GNPGVPNY) Ybp:10800 R FE 32 Tevq:9207 Havgf:R92 Z92 Ezx:IRUVPYR SYVCCRQ NAQ YNAQRQ HCEVTUG...HAFHER BS VAWHEVRF",
         "PNYY:CV GNPGVPNY",
         "NQQE:10800 R FE 32",
-        "ZNQQE:10800 R BU 32", //jnagf FE= Fgngr ebnq gb znc
+        "ZNQQE:10800 R VA 32",
         "ZNC:9207",
         "HAVG:R92 Z92",
         "VASB:IRUVPYR SYVCCRQ NAQ YNAQRQ HCEVTUG...HAFHER BS VAWHEVRF");
@@ -162,7 +162,7 @@ choyvp pynff VAObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(10-50 CV) Ybp:10800 R FE 32 Tevq:9207 Havgf:C613 Ezx:IRUVPYR SYVCCRQ NAQ YNAQRQ HCEVTUG...HAFHER BS VAWHEVRF",
         "PNYY:10-50 CV",
         "NQQE:10800 R FE 32",
-        "ZNQQE:10800 R BU 32", //jnagf FE = Fgngr Ebnq gb znc
+        "ZNQQE:10800 R VA 32", 
         "ZNC:9207",
         "HAVG:C613",
         "VASB:IRUVPYR SYVCCRQ NAQ YNAQRQ HCEVTUG...HAFHER BS VAWHEVRF");
@@ -171,7 +171,7 @@ choyvp pynff VAObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(IRUVPYR PBYYVFVBA J/ VAWHEL) Ybp:FE 32/1200 R Tevq:9210 Havgf:R92 Z92 Ezx:PNYYRE FGNGRQ GUNG N TBYQ OYNVMRE JNF NYY BIRE GUR EBNQ / 2 ZVYRF RNFG BS GUR NVECBEG VA",
         "PNYY:IRUVPYR PBYYVFVBA J/ VAWHEL",
         "NQQE:FE 32 & 1200 R",
-        "ZNQQE:BU 32 & 1200 R",
+        "ZNQQE:VA 32 & 1200 R",
         "ZNC:9210",
         "HAVG:R92 Z92",
         "VASB:PNYYRE FGNGRQ GUNG N TBYQ OYNVMRE JNF NYY BIRE GUR EBNQ / 2 ZVYRF RNFG BS GUR NVECBEG VA");
@@ -180,7 +180,7 @@ choyvp pynff VAObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(10-50 HAXABJA) Ybp:FE 32/1200 R Tevq:9210 Havgf:C622 Ezx:PNYYRE FGNGRQ GUNG N TBYQ OYNVMRE JNF NYY BIRE GUR EBNQ / 2 ZVYRF RNFG BS GUR NVECBEG VA",
         "PNYY:10-50 HAXABJA",
         "NQQE:FE 32 & 1200 R",
-        "ZNQQE:BU 32 & 1200 R",
+        "ZNQQE:VA 32 & 1200 R",
         "ZNC:9210",
         "HAVG:C622",
         "VASB:PNYYRE FGNGRQ GUNG N TBYQ OYNVMRE JNF NYY BIRE GUR EBNQ / 2 ZVYRF RNFG BS GUR NVECBEG VA");
@@ -197,8 +197,8 @@ choyvp pynff VAObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G18",
         "(UBHFR SVER) Ybp:!J FE 32/ZHYR ONEA EQ Tevq:2991 Havgf:R92 Ezx:NFFVFG JSQ JVGU ERFVQRAPR SVER",
         "PNYY:UBHFR SVER",
-        "NQQE:!J FE 32 & ZHYR ONEA EQ",
-        "ZNQQE:!J FG 32 & ZHYR ONEA EQ", //! Fgngr ebbbnnq
+        "NQQE:J FE 32 & ZHYR ONEA EQ",
+        "ZNQQE:J FG 32 & ZHYR ONEA EQ", 
         "ZNC:2991",
         "HAVG:R92",
         "VASB:NFFVFG JSQ JVGU ERFVQRAPR SVER");
@@ -207,7 +207,7 @@ choyvp pynff VAObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(10-50 CV) Ybp:V 65 AO/FE 47 Tevq:0603 Havgf:C620 Ezx:WHFG JRFG BS 65 - 2 PNE CV JVGU 2 VAWHEVRF",
         "PNYY:10-50 CV",
         "NQQE:V 65 AO & FE 47",
-        "ZNQQE:V 65 & BU 47", //lrf
+        "ZNQQE:V 65 & VA 47", //lrf
         "ZNC:0603",
         "HAVG:C620",
         "VASB:WHFG JRFG BS 65 - 2 PNE CV JVGU 2 VAWHEVRF");
@@ -216,7 +216,7 @@ choyvp pynff VAObbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(ERFPHR) Ybp:V 65 AO/FE 47 Tevq:0603 Havgf:R61 E66 Ezx:WHFG JRFG BS 65 - 2 PNE CV JVGU 2 VAWHEVRF",
         "PNYY:ERFPHR",
         "NQQE:V 65 AO & FE 47",
-        "ZNQQE:V 65 & BU 47", //qbrf abg znc, nyfb jul vf nyy gur FE'f gheavat gb BU?
+        "ZNQQE:V 65 & VA 47",
         "ZNC:0603",
         "HAVG:R61 E66",
         "VASB:WHFG JRFG BS 65 - 2 PNE CV JVGU 2 VAWHEVRF");
