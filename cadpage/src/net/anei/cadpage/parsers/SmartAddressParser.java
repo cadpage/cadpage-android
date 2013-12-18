@@ -2662,7 +2662,7 @@ public abstract class SmartAddressParser extends MsgParser {
         if (nearPlace) data.strPlace = append(data.strPlace, " ", field); 
       }
 
-      // See if we should check for non-numerice apartment fields following the address
+      // See if we should check for non-numeric apartment fields following the address
       if (recheckApt && data.strApt.length() == 0) {
         String addr = data.strAddress;
         String cross = data.strCross;

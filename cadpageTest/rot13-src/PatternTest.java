@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE  = 
-      Cnggrea.pbzcvyr("\\oCebDN (?:Zrqvpny|Sver) (?:Dhrfgvbaanver Pbzcyrgrq;|Xrl Dhrfgvbaf unir orra pbzcyrgrq;|Qvfcngpu Zrffntr Frag;)");
+      Cnggrea.pbzcvyr("((?:ZRQVP )?[N-M0-9]+) +((?:CYRNFR|VAFREIVPR) CBFG|(?:RKPRCGVBA |SEBZ [N-M0-9]+ )?GB) +(.*)");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("CebDN Zrqvpny Xrl Dhrfgvbaf unir orra pbzcyrgrq; Qvfc Qvfcngpu Pbqr:");
+    qbGrfg("ZRQVP 723 CYRNFR CBFG  OYNPXFGBPX NIR/URVAF FG");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
