@@ -165,7 +165,6 @@ choyvp pynff GKEbnabxrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:RZF Pnyy",
         "NQQE:8299 Fznyy Oybpx Eq",
-        "ZNQQE:8299 Fznyy Eq",   //purpx guvf bhg QRSRGR VFFHR
         "NCG:517",
         "VASB:6 zbaguf / ohearq urefrys ba ubg jngre",
         "GVZR:18:08:08");
@@ -311,7 +310,6 @@ choyvp pynff GKEbnabxrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Sver - Sver Nynez",
         "NQQE:8299 FZNYY OYBPX EQ",
-        "ZNQQE:8299 FZNYY EQ", // fznyy oybpx eq VFFHR
         "VASB:PERRXFVQR NG ABEGUYNXR / FHCI FVTAYR  - SVER NYNEZ MBAR 27",
         "GVZR:15:09:31");
 
