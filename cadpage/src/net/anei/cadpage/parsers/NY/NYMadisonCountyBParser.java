@@ -9,6 +9,11 @@ public class NYMadisonCountyBParser extends DispatchA13Parser {
   public NYMadisonCountyBParser() {
     super(CITY_LIST, "MADISON COUNTY", "NY");
   }
+  
+  @Override
+  public String getFilter() {
+    return "e-911@co.madison.ny.us,e911@madisoncounty.ny.go,messaging@iamresponding.com";
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

@@ -29,6 +29,10 @@ Pbagnpg: "Xlyr Z. Pnfury" <xpnfury@tznvy.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 1 bs 2\aSEZ:zrffntvat@vnzerfcbaqvat.pbz\aFHOW:Terngre Yrabk\aZFT:TYNF:2013:542\aQvfcngpurq\aZIN - Haxabja\a@INYRAGV PBHAGEL RFGNGRF (387 TRARFRR\a(Pba'g) 2 bs 2\aFGERRG BARVQN PVGL (VA )\a\a(Raq)
 
+Pbagnpg: "Pnfury, Xlyr" <xlyrpnfury@terngreyrabknzohynapr.pbz>
+Fraqre: r911@znqvfbapbhagl.al.tbi
+SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2013:522\aQvfcngpurq\aNffvfg\a@FGBAL CBAQ
+
 */
 
 choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -180,7 +184,7 @@ choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgXlyrZPnfury() {
+  choyvp ibvq grfgXlyrZPnfury1() {
 
     qbGrfg("G1",
         "1 bs 2\a" +
@@ -201,6 +205,17 @@ choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:387 TRARFRR FGERRG",
         "PVGL:BARVQN PVGL",
         "VASB:VA");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXlyrZPnfury2() {
+
+    qbGrfg("G1",
+        "SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2013:522\aQvfcngpurq\aNffvfg\a@FGBAL CBAQ",
+        "FEP:FRINP",
+        "VQ:2013:522",
+        "PNYY:Nffvfg",
+        "CYNPR:FGBAL CBAQ");
 
   }
   
