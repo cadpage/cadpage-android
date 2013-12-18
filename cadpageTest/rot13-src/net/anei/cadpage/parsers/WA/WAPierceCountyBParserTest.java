@@ -24,6 +24,7 @@ FVPX2 @ 13:06:02\e\aHaxabja Zrqvpny\e\a26408 112GU FG R, 22\e\aZnc=452,EQ=22- 16
 67Q3 @ 12:35:32\e\aYET BHGFVQR SVER\e\a2017 217GU NIPG R, 22\e\aZnc=226,EQ=22- 151\e\agb: S22
 PIN ¡ 12:30:27\aCBFF PIN\a5625 159GU NIPG R, 22\aZnc=291,EQ=22- 133\agb: S22
 FME1 ¡         \aFrvmher\a\aZnc=,EQ=22- 181\agb: S22
+ERF ¡ 20:13:24\aXVGPURA SVER\a22041 127GU FG R, 22\aZnc=503,EQ=22- 121\agb: S22
 
 Pbagnpg: ezolyva@lnubb.pbz <ezolyva@lnubb.pbz>
 Fraqre: 41411
@@ -156,6 +157,15 @@ choyvp pynff JNCvreprPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FME1",
         "PNYY:Frvmher",
         "ZNC:Znc=,EQ=22- 181",
+        "HAVG:S22");
+
+    qbGrfg("G8",
+        "ERF ¡ 20:13:24\aXVGPURA SVER\a22041 127GU FG R, 22\aZnc=503,EQ=22- 121\agb: S22",
+        "PBQR:ERF",
+        "GVZR:20:13:24",
+        "PNYY:XVGPURA SVER",
+        "NQQE:22041 127GU FG R",
+        "ZNC:Znc=503,EQ=22- 121",
         "HAVG:S22");
  
   }
