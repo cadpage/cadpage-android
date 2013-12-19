@@ -171,7 +171,7 @@ choyvp pynff VYFgnexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:08/23",
         "GVZR:09:24",
         "PNYY:6803 SVER - FGEHPGHER GRFG",
-        "PVGL:GRFG",
+        "NQQE:GRFG",
         "FEP:UPFB:OU SQ",
         "VASB:V NZ ERFCBAQVAT GRFG");
 

@@ -16,10 +16,6 @@ public class DispatchA29Parser extends FieldProgramParser {
   private static final Pattern LABEL_PTN = Pattern.compile("[, ]*\\b([A-Z]+:.*)$");
   private static final Pattern DIR_OF_PTN = Pattern.compile(" (?:NO|SO|EA|WE|NORTH|SOUTH|EAST|WEST) OF ");
 
-  public DispatchA29Parser(String defCity, String defState) {
-    this(null, defCity, defState);
-  }
-
   public DispatchA29Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
     		  "CALLADDR1+? CALLADDR2! PLACE? SRC INFO+");
@@ -35,15 +31,8 @@ public class DispatchA29Parser extends FieldProgramParser {
     data.strTime = getOptGroup(match.group(3));
     body = body.substring(match.end()).trim();
     
-    // Strip off some new labeled information
-    match = LABEL_PTN.matcher(body);
-    if (match.find()) {
-      data.strSupp = match.group(1);
-      body = body.substring(0,match.start());
-    }
-
-    
     body = body.replace("Apt/Unit", "Apt");
+    body = body.replace(" Y/O ", " Y%O ");
     return parseFields(DELIM.split(body, -1), data);
   }
   
@@ -82,6 +71,15 @@ public class DispatchA29Parser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
+      
+      field = field.replace(" Y%O ", " Y/O ");
+      
+      // Strip off some new labeled information
+      Matcher match = LABEL_PTN.matcher(field);
+      if (match.find()) {
+        data.strSupp = match.group(1);
+        field = field.substring(0,match.start());
+      }
 
       // Split file up by commas
       String[] parts = field.split(",");
@@ -118,7 +116,7 @@ public class DispatchA29Parser extends FieldProgramParser {
             // simple, we assume no more than one such construct per address
             String connector = null;
             if (!part.contains("&") && !part.contains("/")) {
-             Matcher match = DIR_OF_PTN.matcher(part);
+             match = DIR_OF_PTN.matcher(part);
               if (match.find()) {
                 connector = match.group();
                 part = part.substring(0,match.start()) + " & " + part.substring(match.end());
@@ -134,7 +132,7 @@ public class DispatchA29Parser extends FieldProgramParser {
           // Otherwise, call descriptions generally do not end with numbers
           // So if we find one, assume it should be part of the address
           else {
-            Matcher match = HOUSE_NUMBER_PTN1.matcher(part);
+            match = HOUSE_NUMBER_PTN1.matcher(part);
             if (match.find()) {
               data.strAddress = append(match.group(1), " ", getOptGroup(match.group(2)));
               part = part.substring(0,match.start()).trim();
@@ -147,7 +145,7 @@ public class DispatchA29Parser extends FieldProgramParser {
         // If this is the first bit of address information
         // See if it starts with a sequence that looks like it should be appended 
         // to the call description
-        Matcher match = CALL_EXTEND_PTN.matcher(part);
+        match = CALL_EXTEND_PTN.matcher(part);
         if (match.find()) {
           char connect = (ndx == 0 ? '/' : ',');
           data.strCall = data.strCall + connect + match.group(1);
@@ -237,12 +235,21 @@ public class DispatchA29Parser extends FieldProgramParser {
   }
   private static final Pattern UNIT_PTN = Pattern.compile("([A-Z\\d]+:[A-Z\\d]+(?: FD)?)");
   
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("Y%O", "Y/O");
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("CALLADDR1")) return new MyCallAddressField(false);
     if (name.equals("CALLADDR2")) return new MyCallAddressField(true);
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("SRC")) return new MySourceField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   

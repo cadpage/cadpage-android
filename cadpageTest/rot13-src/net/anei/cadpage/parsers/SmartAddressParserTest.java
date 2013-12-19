@@ -47,12 +47,16 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-    qbGrfg(NQQE, "0 BYQ UJL 68 N GUR BYQ EBNQFVQR CNEX",
-        "NQQE:BYQ UJL 68");
+    
+    qbGrfg(NQQE, SYNT_PURPX_FGNGHF | SYNT_VZCYVRQ_VAGREFRPG | SYNT_NAPUBE_RAQ, "HF 150 UJL 234",
+        "NQQE:HF 150 & UJL 234");
   }
 
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(NQQE, SYNT_PURPX_FGNGHF | SYNT_VZCYVRQ_VAGREFRPG | SYNT_NAPUBE_RAQ, "HF 150 UJL 234",
+        "NQQE:HF 150 & UJL 234");
     
     qbGrfg(NQQE, "137 HF 50A FBZRJURER",
         "NQQE:137 HF 50A");
