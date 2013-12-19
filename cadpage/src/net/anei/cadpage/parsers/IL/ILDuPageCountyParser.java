@@ -25,7 +25,7 @@ public class ILDuPageCountyParser extends MsgParser {
     String addr = substring(body, 40, 70);
     int pt = addr.indexOf("...");
     if (pt >= 0) addr = addr.substring(0,pt).trim();
-    if (addr.startsWith("0N025 ")) addr = "25 N " + addr.substring(6);
+    if (addr.startsWith("0N025 ")) addr = addr.substring(1).trim();
     parseAddress(addr, data);
     data.strSource = substring(body,70,72);
     data.strUnit = substring(body, 72, 76);
@@ -39,6 +39,15 @@ public class ILDuPageCountyParser extends MsgParser {
     }
     data.strCity = convertCodes(city, CITY_CODES);
     return true;
+  }
+  
+  @Override
+  public String postAdjustMapAddress(String addr) {
+    if (addr.startsWith("N025 ")) {
+      int pt = addr.indexOf('&');
+      if (pt >= 0) addr = addr.substring(0,pt).trim();
+    }
+    return addr;
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{

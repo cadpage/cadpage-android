@@ -177,6 +177,7 @@ VAP01 1.0 RI-KKK 0       STF130507000757780 R ABEGU NI                  A594NYNE
 VAP01 1.0 RI-KKK 0       SIS130507000894742 F VYYVABVF NI               U1N OERNGUVAT CEBOYRZF                                                                                                                   6Z    ZO                                                                                        2                  6305687 SIS130507000873IC2013-05-07 19:29:00.
 VAP01 1.0 RI-KKK 0       SOE130507001285409 YRYN YA                     N014NHGBZNGVP SVER NYNEZNUZRQ/6303730704                                                                                                 S500N 5N                                                                                        4                  6305670 SOE130507001276ON2013-05-07 19:14:35.
 VAP01 1.0 RI-KKK 0       SRS130507001849681 J ABEGU NI                  P50OBHGFVQR SVER        QVCYBZNG JRFG ONADHRG UNYYF                                                                                      S102  FG                                                                                        3                  6305657 SRS130507001841RY2013-05-07 19:08:10.
+VAP01 1.0 RI-KKK 0       SJA1312180015720A025 JVASVRYQ EQ               W319RYRINGBE ERFPHR     PQU UBFCVGNY                                                                                                     S803  83                                                                                        8                  6720537 SJA131218001404JV\e\a
 
 */
 
@@ -1275,7 +1276,16 @@ choyvp pynff VYQhCntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:BHGFVQR SVER",
         "CYNPR:QVCYBZNG JRFG ONADHRG UNYYF",
         "PVGL:RYZUHEFG");
-  
+
+    qbGrfg("G11",
+        "VAP01 1.0 RI-KKK 0       SJA1312180015720A025 JVASVRYQ EQ               W319RYRINGBE ERFPHR     PQU UBFCVGNY                                                                                                     S803  83                                                                                        8                  6720537 SJA131218001404JV\e\a",
+        "VQ:SJA131218001572",
+        "NQQE:A025 JVASVRYQ EQ",
+        "HAVG:W319",
+        "PNYY:RYRINGBE ERFPHR",
+        "CYNPR:PQU UBFCVGNY",
+        "PVGL:JVASVRYQ");
+ 
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
