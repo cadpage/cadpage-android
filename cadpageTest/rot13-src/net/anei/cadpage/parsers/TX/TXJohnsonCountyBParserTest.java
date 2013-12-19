@@ -214,12 +214,10 @@ Ntrapl anzr: Yvyyvna SQ
 Ybpngvba: Yvyyvna, GK, Havgrq Fgngrf
 Fraqre: "WPRFQ" < nyregf@wprfqqvfcngpu.bet >
 
-(WPRFQ ) [Gvzr: 04-12:36:40] FGN29- ZRQ: 540 A ZNVA FG   , KFge: CNHYN QE, Obk: 7700, Zncfpb:1016C [Havgf--R290-FGN77] [Fgngvbaf--290-77]
 (WPRFQ ) [Gvzr: 03-13:34:05] FGN29- ZRQ: 540 A ZNVA FG   , KFge: CNHYN QE, Obk: 7700, Zncfpb:1016C [Havgf--R290-FGN77] [Fgngvbaf--290-77]
 (WPRFQ ) [Gvzr: 03-12:01:21] FGN90- ZRQ: 3401 A SZ 157   , KFge: PE 507, Obk: 7204, Zncfpb:1023H [Havgf--R90-FGN72] [Fgngvbaf--72-90]
 (WPRFQ ) [Gvzr: 03-11:13:43] FGN90- ZRQ: 101 J UJL 67   , KFge: SZ 157, Obk: 7201, Zncfpb:1074R [Havgf--R90-FGN72] [Fgngvbaf--72-90]
 (WPRFQ ) [Gvzr: 03-10:23:05] FGN29- ZRQ: 805  NYNA QE   , KFge: PE 803, Obk: 7702, Zncfpb:1017Y [Havgf--R290-FGN77] [Fgngvbaf--290-77]
-(WPRFQ ) [Gvzr: 03-08:56:00] FGN90- ERFPHR: 3041  PBAIRLBE QE   , KFge: , Obk: 7303, Zncfpb:1017I [Havgf--OHEY-R290-R90-FGN73] [Fgngvbaf--290-71-73-90]
 (WPRFQ ) [Gvzr: 03-08:53:29] FGN29- ERFPHR: 3041  PBAIRLBE QE   , KFge: , Obk: 7303, Zncfpb:1017I [Havgf--R290-FGN73] [Fgngvbaf--290-73]
 (WPRFQ ) [Gvzr: 02-15:20:41] FGN90- ZRQ: 9423  GUBZCFBA EQ   , KFge: YHVFN YA, Obk: 7201, Zncfpb:1022H [Havgf--R90-FGN72] [Fgngvbaf--72-90]
 (WPRFQ ) [Gvzr: 02-14:12:20] FGN29- SNYY: 211  12GU FG   , KFge: UJL 174, Obk: 7700, Zncfpb:1016H [Havgf--R290-FGN77] [Fgngvbaf--290-77]
@@ -333,10 +331,8 @@ Fraqre: <nyregf@wprfqqvfcngpu.bet>
 (WPRFQ ) [Gvzr: 13-18:38:15] FGN82- ZIN1: 0  SZ 917/WRFFVPN QE   , KFge: , Obk: 8202, Zncfpb:973A [Havgf--FGN82] [Fgngvbaf--82]
 (WPRFQ ) [Gvzr: 13-00:36:59] FGN82- FGE1: 10308  PE 606   , KFge: PE 529, Obk: 2602, Zncfpb:970Y [Havgf--FG273-FGN26-FGN82] [Fgngvbaf--26-273-82]
 (WPRFQ ) [Gvzr: 12-07:52:36] FGN82- VO: 11316``  ORAWNZVAF PG   , KFge: NQEVRYF PG, Obk: 7201, Zncfpb:1023Y [Havgf--FGN72-FGN82] [Fgngvbaf--72-82]
-(WPRFQ ) [Gvzr: 11-18:36:41] FGN82- ZIN1: 3181  ZRFDHVGR QE   , KFge: SZ 917, Obk: 8203, Zncfpb:973C [Havgf--FGN82] [Fgngvbaf--82]
 (WPRFQ ) [Gvzr: 11-18:29:20] FGN82- ZIN1: 3181  ZRFDHVGR QE   , KFge: SZ 917, Obk: 8203, Zncfpb:973C [Havgf--FGN82] [Fgngvbaf--82]
 (WPRFQ ) [Gvzr: 11-15:58:57] FGN82- UNMPBA: 4504  ZNKRL EQ   , KFge: SZ 917, Obk: 8202, Zncfpb:972H [Havgf--R90-FGN82] [Fgngvbaf--82-90]
-(WPRFQ ) [Gvzr: 09-07:30:10] FGN82- OERNGUR: 12200  ZVGPURYY QE   , KFge: PE 616, Obk: 8202, Zncfpb:972C [Havgf--P82] [Fgngvbaf--82]
 (WPRFQ ) [Gvzr: 09-07:23:00] FGN82- OERNGUR: 12200  ZVGPURYY QE   , KFge: PE 616, Obk: 8202, Zncfpb:972C [Havgf-] [Fgngvbaf-]
 (WPRFQ ) [Gvzr: 09-06:38:39] FGN82- ZRQ: 8840  PE 513   , KFge: YHVFN YA, Obk: 8203, Zncfpb:1022R [Havgf--FGN82] [Fgngvbaf--82]
 (WPRFQ ) [Gvzr: 09-00:13:44] FGN82- ZRQ: 10101  PE 519   , KFge: SZ 2738, Obk: 8201, Zncfpb:971H [Havgf--FGN82] [Fgngvbaf--82]
@@ -348,7 +344,6 @@ Fraqre: <nyregf@wprfqqvfcngpu.bet>
 (WPRFQ ) [Gvzr: 30-16:24:36] FGN82- ZRQ: 7817 J CNEX YA   , KFge: PE 525, Obk: 8202, Zncfpb:972S [Havgf--R90-FGN82] [Fgngvbaf--82-90]
 (WPRFQ ) [Gvzr: 26-19:00:02] FGN82- VO: 6609  CRPNAJBBQ EQ   , KFge: PE 528, Obk: 8202, Zncfpb:971Y [Havgf--FGN82] [Fgngvbaf--82]
 (WPRFQ ) [Gvzr: 26-17:44:23] FGN82- ZIN1: 0  PE 616/SZ 917   , KFge: , Obk: 8203, Zncfpb:972H [Havgf--FD82] [Fgngvbaf--82]
-Fgebxr pnyy: 8504 Zvyy Perrx Pg/ K-fg Ivfgn Abegu/ 12:40
 (WPRFQ ) [Gvzr: 22-22:18:51] FGN82- VO: 8110  ZBEAVAT SBT PG   , KFge: ZVFGL ZRNQBJF, Obk: 7902, Zncfpb:1021D [Havgf--FGN79-FGN82] [Fgngvbaf--79-82]
 (WPRFQ ) [Gvzr: 22-11:19:36] FGN82- OERNGUR: 11317 A FGHNEG CXJL   , KFge: ORPXL QE, Obk: 8202, Zncfpb:972F [Havgf--P82-R90] [Fgngvbaf--82-90]
 (WPRFQ ) [Gvzr: 21-09:22:25] FGN82- ZIN1: 0  SZ 917/PE 608   , KFge: , Obk: 8203, Zncfpb:1021T [Havgf--FGN82] [Fgngvbaf--82]
@@ -417,12 +412,10 @@ Ntrapl anzr: (PNYY  GB PBEERPG NPPBHAG ANZR) Ratvar 290
 Ybpngvba: WBFUHN, GK, Havgrq Fgngrf
 Fraqre: "WPRFQ" < nyregf@wprfqqvfcngpu.bet >
 
-(WPRFQ ) [Gvzr: 04-12:36:40] FGN29- ZRQ: 540 A ZNVA FG   , KFge: CNHYN QE, Obk: 7700, Zncfpb:1016C [Havgf--R290-FGN77] [Fgngvbaf--290-77]
 (WPRFQ ) [Gvzr: 03-13:34:05] FGN29- ZRQ: 540 A ZNVA FG   , KFge: CNHYN QE, Obk: 7700, Zncfpb:1016C [Havgf--R290-FGN77] [Fgngvbaf--290-77]
 (WPRFQ ) [Gvzr: 03-12:01:21] FGN90- ZRQ: 3401 A SZ 157   , KFge: PE 507, Obk: 7204, Zncfpb:1023H [Havgf--R90-FGN72] [Fgngvbaf--72-90]
 (WPRFQ ) [Gvzr: 03-11:13:43] FGN90- ZRQ: 101 J UJL 67   , KFge: SZ 157, Obk: 7201, Zncfpb:1074R [Havgf--R90-FGN72] [Fgngvbaf--72-90]
 (WPRFQ ) [Gvzr: 03-10:23:05] FGN29- ZRQ: 805  NYNA QE   , KFge: PE 803, Obk: 7702, Zncfpb:1017Y [Havgf--R290-FGN77] [Fgngvbaf--290-77]
-(WPRFQ ) [Gvzr: 03-08:56:00] FGN90- ERFPHR: 3041  PBAIRLBE QE   , KFge: , Obk: 7303, Zncfpb:1017I [Havgf--OHEY-R290-R90-FGN73] [Fgngvbaf--290-71-73-90]
 (WPRFQ ) [Gvzr: 03-08:53:29] FGN29- ERFPHR: 3041  PBAIRLBE QE   , KFge: , Obk: 7303, Zncfpb:1017I [Havgf--R290-FGN73] [Fgngvbaf--290-73]
 (WPRFQ ) [Gvzr: 02-15:20:41] FGN90- ZRQ: 9423  GUBZCFBA EQ   , KFge: YHVFN YA, Obk: 7201, Zncfpb:1022H [Havgf--R90-FGN72] [Fgngvbaf--72-90]
 (WPRFQ ) [Gvzr: 02-14:12:20] FGN29- SNYY: 211  12GU FG   , KFge: UJL 174, Obk: 7700, Zncfpb:1016H [Havgf--R290-FGN77] [Fgngvbaf--290-77]
@@ -725,7 +718,6 @@ Fraqre: "WPRFQ" < nyregf@wprfqqvfcngpu.bet >
 
 (WPRFQ ) [Gvzr: 12-17:15:14] FGNRF- FGE1: 700 F YBPHFG FG   , KFge: 4GU FG, Obk: 7201, Zncfpb:1074W [Havgf--R273-R279-R72-EU88] [Fgngvbaf--273-72-79-RFF]
 (WPRFQ ) [Gvzr: 12-07:11:52] FGNRF- FGE1: 11713  PERRXIVRJ EQ   , KFge: PE 920, Obk: 7411, Zncfpb:964P [Havgf--O73-P177-R177-R39-R74-Y371-EU88-JG30] [Fgngvbaf--30-71-73-74-77-RFF]
-Fgehpgher Sver - Obk 7411 - 11713 Perrxivrj Eq - Kfg PE 920 - Zncfpb 964P
 (WPRFQ ) [Gvzr: 11-14:29:40] FGNRF- FGE1: 6024  PE 316   , KFge: , Obk: 8401, Zncfpb:1119X [Havgf--P79-R175-R279-R290-R84-R90-ZNE78-EU88-FGN75-FGN78-FGN80-FGN84-JG180-JG78] [Fgngvbaf--290-75-78-79-80-84-90-RFF]
 (WPRFQ ) [Gvzr: 05-18:44:02] FGNRF- TENFF1: 7817  PE 1014   , KFge: PE 913, Obk: 7411, Zncfpb:1014U [Havgf--O177-O274-O277-O374-O574-O74-R171-R177-EU88] [Fgngvbaf--274-71-74-77-RFF]
 (WPRFQ ) [Gvzr: 04-14:40:34] FGNRF- FGE1: 8113  FCEVAT FUBJRE PG   , KFge: ZVFGL ZRNQBJF QE, Obk: 7902, Zncfpb:1021D [Havgf--OHEY-R271-R279-R290-R90-EU88-FG273-FGN72-FGN79-FGN82-JG79] [Fgngvbaf--273-290-71-72-79-82-90-RFF]
@@ -743,6 +735,30 @@ Fgehpgher Sver - Obk 7411 - 11713 Perrxivrj Eq - Kfg PE 920 - Zncfpb 964P
 (WPRFQ ) [Gvzr: 03-14:21:43] FGNRF- FGE1: 7901  F CENVEVR UVYY   , KFge: PE 607, Obk: 7902, Zncfpb:1071Q [Havgf--O175-O177-O26-O271-O277-O79-P79-R171-R279-R290-R78-ZNE 1-EU288-HG90-JG78-JG79] [Fgngvbaf--26-290-71-75-77-78-79-90-RFF]
 (WPRFQ ) [Gvzr: 03-12:16:38] FGNRF- FGE1: 13508  PE 511   , KFge: ONEYRL EQ / ERRFR EQ, Obk: 7204, Zncfpb:1023U [Havgf--O72-ONG1-R1-R279-R290-R82-R90-ZNAF-EU88-FGN72-FGN82-JG72-JG79] [Fgngvbaf--290-72-79-82-90-RFF-ZNAF]
 (WPRFQ ) [Gvzr: 29-13:52:44] FGNRF- TENFF1:   PE 403   , KFge: SZ 4 , Obk: 7500, Zncfpb:1221Z [Havgf--O175-O180-O275-O280-O79-R175-EU88-FGN75-FGN80-JG79] [Fgngvbaf--75-79-80-RFF]
+
+** ABGRF **
+Abg zhpu va gur jnl bs rnfl gevpxf gb hfr urer.
+Gur yrnqvat grezf va cneraf naq fdhner oenpxrgf jvyy or erzbirq va gur 
+cercnefre naq cnffrq gb lbhe cnefre nf n fhowrpg.  Jura gurer ner gjb bs
+gurzgur jvyy or frcnengrq ol iregvpny onef, fb jung lbh trg nf n fhowrpg
+jvyy or fbzrguvat yvxr 
+WPRFQ|Gvzr: 29-13:52:44
+
+Cnefr gvzr sebz fhowrpg.  Gur yrnqvat ahzore vf gur qnl bs gur zbagu, ohg jvgu
+n zbagu gb tb jvgu vg vg vf hfryrff fb whfg vtaber vg.
+
+N cnggrea zngpu pna or hfrq gb erzbir gur yrnqvat <havg>- <pnyy>: frdhrapr
+nf jryy nf gur genvyvat havg naq fgngvba vasbezngvba.
+
+gur fgngvba vasbezngvba tbrf va qngn.fgeFbhepr.  Obgu gur genvyvat havg naq fbhepr 
+oybpx fubhyq unir qnfurf ercynprf jvgu oynaxf orsber orvat fnirq.  Gur yrnqvat
+havg grez fubhyq or purpx gb frr vs vg vf nyernql cerfrag va gur genvyvat havg
+vasbezngvba.  Vs vg vf abg vf fubhyq or cercraqrq gb gur genvyvat havg vasbezngvba 
+jvgu n oynax frcnengbe.
+
+Univat qbar nyy bs gung, jung vf yrsg pna or unaqyrq jvgu n SvryqCebtenzCnefre
+cebtenz fgevat bs
+NQQE! KFge:K! Obk:OBK! Zncfpb:ZNC!
 
 */
 
