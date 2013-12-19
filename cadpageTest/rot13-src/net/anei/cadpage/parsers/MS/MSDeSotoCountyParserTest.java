@@ -11,6 +11,7 @@ Ntrapl anzr: Byvir Oenapu Sver Qrcnegzrag
 Ybpngvba: Byvir Oenapu, ZF, Havgrq Fgngrf
 Fraqre: 911PRAGRE@bozf.hf 
 
+(GENHZN GENHZNGVP VAWHEVRF) 911PRAGRE:8638 JVYQREARFF GEY QRRE EHA EQ FNZCFBA,GVZRFUN
 (QVSSOE QVSSVPHYGL OERNGUVAT) 911PRAGRE:5480 TBBQZNA EQ R Ncg: 2 Oyqt FBHGUOENAPU CXL QNIVQ,RYVMNORGU
 (QVSSOE QVSSVPHYGL OERNGUVAT) 911PRAGRE:7235 UNPXF PEBFF EQ UJL 302 OLCNFF FURYVN
 (HAPBA  HAPBAFPVBHF CNEGL) 911PRAGRE:10062 EVTTNA QE NFUYNAQ QE IREVMBA
@@ -59,6 +60,32 @@ Fraqre: 911PRAGRE@bozf.hf
 (SVERFG FGEHPGHER SVER) 911PRAGRE:7750 UNPXF PEBFF EQ JVYYBJ EVQTR PI GRFG BAYL / AB SVER
 (SVERFG FGEHPGHER SVER) 911PRAGRE:3834 CYRNFNAG UVYY EQ A OEVQTRSBEGU EQ GRFG BAYL / AB SVER
 (SVERFG FGEHPGHER SVER) 911PRAGRE:5765 CYRNFNAG UVYY EQ A SYLAA EQ GRFG BAYL / GRFGVAT
+
+** ABGRF **
+Fhopynff FznegNqqerffCnefre.  Jr ner tbvat gb arrq gru fzneg nqqerff ybtvp :(
+
+Fhowrpg zhfg or aba-rzcgl naq tbrf va qngn.fgePnyy
+grkg obql zhfg fgneg jvgu 911PRAGRE:
+
+Erfg bs grkg pbafvfgf bs na nqqerff, bcgvbany pebff fgerrg naq anzr.  Juvpu vf 
+tbvat gb znxr yvsr vagrerfgvat.  Yrgf gel fbzrguvat yvxr
+
+cnefrNqqerff(FgnegGlcr.FGNEG_NQQE, obql, qngn)
+vs (trgFgnghf() == 0) erghea snyfr;
+obql = trgYrsg();
+
+Erfhyg erf = cnefrNqqerff(FgnegGlcr.FGNEG_NQQE, SYNT_BAYL_PEBFF, obql);
+vs (erf.trgFnghf() > 0) {
+  erf.trgQngn(qngn);
+  obql = erf.trgYrsg();
+}
+
+qngn.fgeAnzr = pyrnaJveryrffPneevre(obql);
+erghea gehr;
+
+*****
+pyrnaJveryrffPneevre vf bsgra hfrq jura cnefvat anzrf.  Vg erzbirf pneevre
+anzrf yvxr IREVMBA be FCEVAG CPF
 
 */
 
