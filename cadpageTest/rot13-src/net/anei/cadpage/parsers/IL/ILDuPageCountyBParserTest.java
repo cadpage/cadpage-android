@@ -65,6 +65,38 @@ Vqragvslvat havgf vf tbvat gb or vagrerfgvat.  Zl svefg chfu jbhyq or
 2) purpx sbe cnggrea zngpu jvgu "(?: (?:\\q{4}|QPUVRS|[N-M]{3}\\q|trareny sver))+"
 vs zngpu, fgevat gur yrnqvat oynax naq nccraq gb rkvfgvat havg svryq jvgu oynax
 
+Guvf vf tbvat gb or na vagebqhpgvba gb obgu pbaqvgvbany svryqf yvxr CYNPR? naq 
+pbaqvgvbany oenapurf yvxr gur (  ... | ... ) pbafgehpgf.  N pbaqvgvbany oenapu
+purpxf gur svefg oenapu svefg, vs gung qbrf abg jbex vg purpxf gur frpbaq oenapu, 
+naq fb ba hagvy vg trgf gb gur ynfg oenapu juvpu vf nyjnlf gnxra.  
+
+Obgu pnfrf erdhver gur hfr bs "fzneg" svryqf.  Gurfr ner svryq cebprffbef gung
+pna abg bayl cnefr n svryq pbagrag, ohg pna znxr n lrf/ab qrpvfvba nf gb jurgure
+gur grkg svryq cnffrq gb gurz vf inyvq sbe guvf svryq be abg.  Fzneg svryqf
+ner vqragvsvrq ol univat n pnaSnvy() zrgubq gung ergheaf gehr.  N fzneg svryq
+vf nfxrq gb znxr n qrpvfvba ol pnyyvat purpxCnefr(svryq, qngn) juvpu ergheaf snyfr
+vs abg n inyvq svryq, bgurejvfr cnefrf gur qngn svryq naq ergheaf gehr.
+
+Fbzr svryqf ner vaureragyl fzneg.  Gubhtu gehfgvat svryqf yvxr NQQE naq K gb
+znxr qrpvfvbaf vf gb or nibvqrq.  Gbb znal gvzrf gurl ner cnffrq guvatf gung 
+qba'g zrrg gur qrsvavgvba bs na nqqerff, ohg ernyyl ner.  Naq bs pbhefr, nqqvat
+n inyvqngvba cnggrea gb nal svryq nhgbzngvpnyyl znxrf vg n fzneg svryq.
+
+Jura n qrpvfvba unf gb or znqr nobhg n aba-fzneg svryq, gur cnefre ratvar ybbxf
+qbja gur yvar gb svaq n fzneg svryq gung jvyy or hfrq gb znxr qrpvfvbaf.
+
+Fb, jung unccraf urer vf...
+Cebprff VQ QNGR GVZR PNYY naq PVGL svryqf va beqre.
+Purpx gur svefg oenapu.  CYNPR vf abg n fzneg svryq, ohg OBK vf, fb vs gur
+svryq bar orlbaq gur pheerag bar vf n inyvq OBK svryq, gnxr gur svefg oenapu.
+Bgurejvfr jr gnxr gur frpbaq oenapu.  CYNPR vf abg n fzneg svryq.  K vf, ohg 
+jr cersre abg gb gehfg vg, fb jr tvir vg gur /M synt juvpu gryyf gur cnefre
+ratvar gb abg gerng vg yvxr n fzneg svryq.  3 svryqf nurnq jr svaq n ZNC svryq
+juvpu vf gur fzneg svryq gung jvyy or hfrq gb qrpvqr vs gur CYNPR? svryq vf
+cerfrag be abg.
+
+Gur VASB+ svryq whfg ercrngf VASB sbe nf ybat nf gurer ner qngn svryqf.
+
 */
 
 choyvp pynff VYQhCntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {

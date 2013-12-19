@@ -133,8 +133,7 @@ choyvp pynff BUJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "(PNQ Cntr) FDHNQ - 78 LBN SRZNYR UNF ORRA VYY, VF ABJ CNFFVAT BHG\a   \a395 JLAAPERFG QE \a   \a12/3/2013    \a16:12:00\a\aJESQ",
         "PNYY:FDHNQ - 78 LBN SRZNYR UNF ORRA VYY, VF ABJ CNFFVAT BHG",
-        "NQQE:395 JLAAPERFG QE",
-        // ab pvgl tvira - tbbtyr pnaabg svaq
+        "NQQE:395 JLAAPERFG QE",  // Erbvegrq nf Tbbtyr zncvat ceboyrz
         "QNGR:12/3/2013",
         "GVZR:16:12:00",
         "FEP:JESQ");
@@ -206,8 +205,7 @@ choyvp pynff BUJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G10",
         "(PNQ Cntr) SVER- QNIVQ ERCBEGVAT NA BVY GNAX BA SVER\a   \aTERRAUVYY EQ@IRGB EQ \a   \a11/25/2013    \a17:18:30\a\aJESQ",
         "PNYY:SVER- QNIVQ ERCBEGVAT NA BVY GNAX BA SVER",
-        "NQQE:TERRAUVYY EQ@IRGB EQ",
-        // tbbtyr pna'g svaq
+        "NQQE:TERRAUVYY EQ & IRGB EQ", // Ercbegrq nf Tbbtyr znccvat ceboyrzf
         "QNGR:11/25/2013",
         "GVZR:17:18:30",
         "FEP:JESQ");
@@ -444,8 +442,8 @@ choyvp pynff BUJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "JESQ",
 
         "PNYY:FDHNQ- CBFG 84 ERDHRFGVAT FDHNQ SBE BAR IRUVPYR NPPVQRAG ZVABE VAWHEVRF",
-        "NQQE:OYHR XABO EQ@FGNGR EGR 7",
-        "ZNQQE:OYHR XABO EQ@FGNGR 7",
+        "NQQE:OYHR XABO EQ & FGNGR EGR 7",
+        "ZNQQE:OYHR XABO EQ & FGNGR 7",
         "QNGR:10/21/2013",
         "GVZR:22:41:16",
         "FEP:JESQ");
@@ -526,8 +524,8 @@ choyvp pynff BUJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G40",
         "(PNQ Cntr) FDHNQ- 23 LBN SRZNYR QVSS OERNGUVAT\a   \aOYHR XABO EQ@FGNGR EGR 7 \a   \a10/12/2013    \a20:57:08\a\aJESQ",
         "PNYY:FDHNQ- 23 LBN SRZNYR QVSS OERNGUVAT",
-        "NQQE:OYHR XABO EQ@FGNGR EGR 7",
-        "ZNQQE:OYHR XABO EQ@FGNGR 7",
+        "NQQE:OYHR XABO EQ & FGNGR EGR 7",
+        "ZNQQE:OYHR XABO EQ & FGNGR 7",
         "QNGR:10/12/2013",
         "GVZR:20:57:08",
         "FEP:JESQ");
@@ -670,8 +668,8 @@ choyvp pynff BUJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G54",
         "(PNQ Cntr) FDHNQ - 2 IRUVPYR NPPVQRAG HAXABJA VAWHEVRF\a   \aTEBIRF NI@YNAPNFGRE FG \a   \a9/24/2013    \a14:45:11\a\aJESQ",
         "PNYY:FDHNQ - 2 IRUVPYR NPPVQRAG HAXABJA VAWHEVRF",
-        "NQQE:TEBIRF NI@YNAPNFGRE FG",
-        "ZNQQE:TEBIRF NIR@YNAPNFGRE FG",
+        "NQQE:TEBIRF NI & YNAPNFGRE FG",
+        "ZNQQE:TEBIRF NIR & YNAPNFGRE FG",
         "QNGR:9/24/2013",
         "GVZR:14:45:11",
         "FEP:JESQ");
@@ -821,8 +819,8 @@ choyvp pynff BUJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "JESQ",
 
         "PNYY:SVER- CBFG 84 ERDHRFGVAT SVER QRCG OR GBARQ ERS SHRY YRNX NG NA NPPVQRAG URER",
-        "NQQE:OYHR XABO EQ@FGNGR EGR 7",
-        "ZNQQE:OYHR XABO EQ@FGNGR 7",
+        "NQQE:OYHR XABO EQ & FGNGR EGR 7",
+        "ZNQQE:OYHR XABO EQ & FGNGR 7",
         "QNGR:9/12/2013",
         "GVZR:17:24:04",
         "FEP:JESQ");
@@ -855,7 +853,7 @@ choyvp pynff BUJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G69",
         "(PNQ Cntr) BFC ERCBEGVAT N PNE BA SVER NG GUVF VAGREFRPGVBA\a   \aPUEVFGL EQ@JNEERA PUNCRY EQ \a   \a9/9/2013    \a11:50:50\a\aJESQ",
         "PNYY:BFC ERCBEGVAT N PNE BA SVER NG GUVF VAGREFRPGVBA",
-        "NQQE:PUEVFGL EQ@JNEERA PUNCRY EQ",
+        "NQQE:PUEVFGL EQ & JNEERA PUNCRY EQ",
         "QNGR:9/9/2013",
         "GVZR:11:50:50",
         "FEP:JESQ");
