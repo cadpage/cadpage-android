@@ -25,10 +25,16 @@ public class KYGallatinCountyParser extends DispatchA29Parser {
   }
 
   private static final String[] CITY_LIST = new String[]{
+    "GALLATIN COUNTY",
     "GLENCOE",
     "SPARTA",
     "WARSAW",
     
-    "GALLATIN COUNTY"
+    "BOONE COUNTY",
+    "NE VERONA",
+    "VERONA",
+    
+    "CARROLL COUNTY",
+    "SANDERS"
   };
 }

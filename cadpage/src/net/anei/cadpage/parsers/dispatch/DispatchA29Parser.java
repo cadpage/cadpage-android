@@ -13,6 +13,7 @@ public class DispatchA29Parser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("^DISPATCH:([:A-Z\\d]+(?: FD)?) - (?:(\\d\\d?/\\d\\d?) (\\d\\d?:\\d\\d?) - )?");
   private static final Pattern DELIM = Pattern.compile("/+");
+  private static final Pattern LABEL_PTN = Pattern.compile("[, ]*\\b([A-Z]+:.*)$");
   private static final Pattern DIR_OF_PTN = Pattern.compile(" (?:NO|SO|EA|WE|NORTH|SOUTH|EAST|WEST) OF ");
 
   public DispatchA29Parser(String defCity, String defState) {
@@ -33,13 +34,22 @@ public class DispatchA29Parser extends FieldProgramParser {
     data.strDate = getOptGroup(match.group(2));
     data.strTime = getOptGroup(match.group(3));
     body = body.substring(match.end()).trim();
+    
+    // Strip off some new labeled information
+    match = LABEL_PTN.matcher(body);
+    if (match.find()) {
+      data.strSupp = match.group(1);
+      body = body.substring(0,match.start());
+    }
+
+    
     body = body.replace("Apt/Unit", "Apt");
     return parseFields(DELIM.split(body, -1), data);
   }
   
   @Override
   public String getProgram() {
-    return "DATE TIME " + super.getProgram();
+    return "SRC DATE TIME " + super.getProgram() + " INFO";
   }
   
   // The address city class is complicated.  It comes in two flavors, the
@@ -74,15 +84,13 @@ public class DispatchA29Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
 
       // Split file up by commas
-      String[] parts = field.split(",", -1);
-      
+      String[] parts = field.split(",");
 
       // If this is the last field, it must contain a comma
       // hence at least two parts.  The last part is always the city
       int fldCnt =  parts.length;
       if (lastField) {
-        data.strCity = parts[--fldCnt].trim();
-        if (fldCnt > 1 && data.strCity.length() == 0) {
+        if (fldCnt > 1) {
           String city = parts[fldCnt-1].trim();
           if (isCity(city)) {
             data.strCity = city;
@@ -110,7 +118,7 @@ public class DispatchA29Parser extends FieldProgramParser {
             // simple, we assume no more than one such construct per address
             String connector = null;
             if (!part.contains("&") && !part.contains("/")) {
-              Matcher match = DIR_OF_PTN.matcher(part);
+             Matcher match = DIR_OF_PTN.matcher(part);
               if (match.find()) {
                 connector = match.group();
                 part = part.substring(0,match.start()) + " & " + part.substring(match.end());
