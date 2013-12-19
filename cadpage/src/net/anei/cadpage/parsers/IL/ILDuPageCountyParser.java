@@ -1,12 +1,16 @@
 package net.anei.cadpage.parsers.IL;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class ILDuPageCountyParser extends MsgParser {
+  
+  private static final Pattern ZERO_ADDR_PTN1 = Pattern.compile("^0[NSEW]\\d+ ");
+  private static final Pattern ZERO_ADDR_PTN2 = Pattern.compile("[NSEW]\\d+");
   
   public ILDuPageCountyParser() {
     super("DUPAGE COUNTY", "IL");
@@ -25,7 +29,7 @@ public class ILDuPageCountyParser extends MsgParser {
     String addr = substring(body, 40, 70);
     int pt = addr.indexOf("...");
     if (pt >= 0) addr = addr.substring(0,pt).trim();
-    if (addr.startsWith("0N025 ")) addr = addr.substring(1).trim();
+    if (ZERO_ADDR_PTN1.matcher(addr).find()) addr = addr.substring(1).trim();
     parseAddress(addr, data);
     data.strSource = substring(body,70,72);
     data.strUnit = substring(body, 72, 76);
@@ -43,7 +47,7 @@ public class ILDuPageCountyParser extends MsgParser {
   
   @Override
   public String postAdjustMapAddress(String addr) {
-    if (addr.startsWith("N025 ")) {
+    if (ZERO_ADDR_PTN2.matcher(addr).find()) {
       int pt = addr.indexOf('&');
       if (pt >= 0) addr = addr.substring(0,pt).trim();
     }

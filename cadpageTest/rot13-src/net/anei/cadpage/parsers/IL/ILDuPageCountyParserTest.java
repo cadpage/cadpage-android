@@ -178,6 +178,8 @@ VAP01 1.0 RI-KKK 0       SIS130507000894742 F VYYVABVF NI               U1N OERN
 VAP01 1.0 RI-KKK 0       SOE130507001285409 YRYN YA                     N014NHGBZNGVP SVER NYNEZNUZRQ/6303730704                                                                                                 S500N 5N                                                                                        4                  6305670 SOE130507001276ON2013-05-07 19:14:35.
 VAP01 1.0 RI-KKK 0       SRS130507001849681 J ABEGU NI                  P50OBHGFVQR SVER        QVCYBZNG JRFG ONADHRG UNYYF                                                                                      S102  FG                                                                                        3                  6305657 SRS130507001841RY2013-05-07 19:08:10.
 VAP01 1.0 RI-KKK 0       SJA1312180015720A025 JVASVRYQ EQ               W319RYRINGBE ERFPHR     PQU UBFCVGNY                                                                                                     S803  83                                                                                        8                  6720537 SJA131218001404JV\e\a
+VAP01 1.0 RI-KKK 0       SJA1311290014710A351 JVASVRYQ EQ               W313SVERF (UVTU CEVBEVGL                                                                                                                 S100  10                                                                                        3                  6687099 SJA131129001318JV\e\a
+VAP01 1.0 RI-KKK 0       YJS1311300007430F329 SBERFG FG               JSJS02FUBBGVAT/FUBGF SVERQ                                             FHAALFVQR NI        JNFUVATGBA NI       ON_23          271WN11302013FUBG    Vapvqrag Vavgvngrq Ol: QP/TNEPVN,CNOYB                                          2J1     111/30/201323:22:326690467\e\a
 
 */
 
@@ -1285,6 +1287,23 @@ choyvp pynff VYQhCntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RYRINGBE ERFPHR",
         "CYNPR:PQU UBFCVGNY",
         "PVGL:JVASVRYQ");
+
+    qbGrfg("G12",
+        "VAP01 1.0 RI-KKK 0       SJA1311290014710A351 JVASVRYQ EQ               W313SVERF (UVTU CEVBEVGL                                                                                                                 S100  10                                                                                        3                  6687099 SJA131129001318JV\e\a",
+        "VQ:SJA131129001471",
+        "NQQE:A351 JVASVRYQ EQ",
+        "HAVG:W313",
+        "PNYY:SVERF (UVTU CEVBEVGL",
+        "PVGL:JVASVRYQ");
+
+    qbGrfg("G13",
+        "VAP01 1.0 RI-KKK 0       YJS1311300007430F329 SBERFG FG               JSJS02FUBBGVAT/FUBGF SVERQ                                             FHAALFVQR NI        JNFUVATGBA NI       ON_23          271WN11302013FUBG    Vapvqrag Vavgvngrq Ol: QP/TNEPVN,CNOYB                                          2J1     111/30/201323:22:326690467\e\a",
+        "VQ:YJS131130000743",
+        "NQQE:F329 SBERFG FG",
+        "FEP:JS",
+        "HAVG:JS02",
+        "PNYY:FUBBGVAT/FUBGF SVERQ",
+        "K:FHAALFVQR NI & JNFUVATGBA NI");
  
   }
 
