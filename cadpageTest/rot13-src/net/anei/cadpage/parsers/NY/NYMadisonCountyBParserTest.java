@@ -32,6 +32,7 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 Pbagnpg: "Pnfury, Xlyr" <xlyrpnfury@terngreyrabknzohynapr.pbz>
 Fraqre: r911@znqvfbapbhagl.al.tbi
 SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2013:522\aQvfcngpurq\aNffvfg\a@FGBAL CBAQ
+SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2013:523\aQvfcngpurq\aZIN - Haxabja\aEBPXF EQ \\ SRNEBA EQ (, RNGBA)
 
 */
 
@@ -216,6 +217,14 @@ choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2013:522",
         "PNYY:Nffvfg",
         "CYNPR:FGBAL CBAQ");
+
+    qbGrfg("G2",
+        "SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2013:523\aQvfcngpurq\aZIN - Haxabja\aEBPXF EQ \\\\ SRNEBA EQ (, RNGBA)",
+        "FEP:FRINP",
+        "VQ:2013:523",
+        "PNYY:ZIN - Haxabja",
+        "NQQE:EBPXF EQ & SRNEBA EQ",
+        "PVGL:RNGBA");
 
   }
   
