@@ -72,5 +72,11 @@ public class NCMecklenburgCountyBParser extends SmartAddressParser {
     
     return true;
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    return PK_PTN.matcher(addr).replaceAll("PKWY");
+  }
+  private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
 
 }
