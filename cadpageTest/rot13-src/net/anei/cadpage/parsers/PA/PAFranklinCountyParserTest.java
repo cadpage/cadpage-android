@@ -341,6 +341,22 @@ Fraqre: <CntrTngr@senaxyvaqrf.hf>
 (*) 1227 PYNLUVYY EBNQ* * * NAGEVZ GJC* * * * * ONEA SVER* * * * NVE10,NZO 3-7,NZO 8-8,RAT 1-4,RAT 17-1,RAT 3-1,RAT 3-2,RAT GAX-2,RAT GAX-3,RAT GAX-8,FDHNQ 41,GNAXRE 18,GNAXRE 5,GEHPX 1,JGNAXRE 13,JGNAXRE 9* * * * *
 (*) 835 EHFGVP UVYY QEVIR* * * PUNZOREFOHET OBEB* * * * * UBHFR SVER* * * * NVE10,NZO 106,RAT 1-2,RAT 1-4,RAT 13-2,RAT 17-2,RAT 45,FDHNQ 41,FDHNQ 8,GEHPX 1,GEHPX 17,GEHPX 42* * * * *
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fnvag Gubznf Sver Naq Erfphr
+Ybpngvba: Fg Gubznf, CN, Havgrq Fgngrf
+Fraqre: <CntrTngr@senaxyvaqrf.hf>
+
+(*) 232 R ZNVA FGERRG* * * JNLARFOBEB OBEB* * * * * PURFG CNVA* * * * NZO 18-9* * * * *
+(*) 7681 PHZOREYNAQ PVEPYR* * * FG GUBZNF GJC* * * * * FVPX CREFBA* * * * NZO 18-9,S18* * * * *
+(*) 7681 PHZOREYNAQ PVEPYR* * * FG GUBZNF GJC* * * * * FVPX CREFBA* * * * NZO 18-9* * * * *
+(*) 119 NNEBA PBHEG* * * FG GUBZNF GJC* * * * * CNG. NFFVFG* * * * NZO 18-9* * * * *
+(*) 3580 XRYYRE EBNQ* * * FG GUBZNF GJC* * * * * BIREQBFR* * * * NZO 18-9* * * * *
+(*) 130 A FRPBAQ FGERRG* * * PUNZOREFOHET OBEB* * * * * GENAFSRE* * * * NZO 11-9,PGEHPX 53,RAT 18-1,RAT 18-2* * * * *
+(*) 130 A FRPBAQ FGERRG* * * PUNZOREFOHET OBEB* * * * * GENAFSRE* * * * RAT 18-2* * * * *
+(*) 659 A SENAXYVA FGERRG* * YBG20* UNZVYGBA GJC* * * * * HAP/HAERFC* * * * NZO 18-9* * * * *
+(*) 1087 FBYYRAORETRE EBNQ* * * UNZVYGBA GJC* * * * * FGEBXR/PIN* * * * NZO 18-9* * * * *
+(*) 1521 CNYZ FCEVAT QEVIR* * * UNZVYGBA GJC* * * * * OERNGU CEBO* * * * NZO 18-9,NZO 8-9,ZRQVP 118* * * * *
+
 */
 
 choyvp pynff CNSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1951,6 +1967,82 @@ choyvp pynff CNSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PUNZOREFOHET",
         "PNYY:UBHFR SVER",
         "HAVG:NVE10,NZO 106,RAT 1-2,RAT 1-4,RAT 13-2,RAT 17-2,RAT 45,FDHNQ 41,FDHNQ 8,GEHPX 1,GEHPX 17,GEHPX 42");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgFnvagGubznfSverNaqErfphr() {
+
+    qbGrfg("G1",
+        "(*) 232 R ZNVA FGERRG* * * JNLARFOBEB OBEB* * * * * PURFG CNVA* * * * NZO 18-9* * * * *",
+        "NQQE:232 R ZNVA FGERRG",
+        "PVGL:JNLARFOBEB",
+        "PNYY:PURFG CNVA",
+        "HAVG:NZO 18-9");
+
+    qbGrfg("G2",
+        "(*) 7681 PHZOREYNAQ PVEPYR* * * FG GUBZNF GJC* * * * * FVPX CREFBA* * * * NZO 18-9,S18* * * * *",
+        "NQQE:7681 PHZOREYNAQ PVEPYR",
+        "PVGL:FG GUBZNF GJC",
+        "PNYY:FVPX CREFBA",
+        "HAVG:NZO 18-9,S18");
+
+    qbGrfg("G3",
+        "(*) 7681 PHZOREYNAQ PVEPYR* * * FG GUBZNF GJC* * * * * FVPX CREFBA* * * * NZO 18-9* * * * *",
+        "NQQE:7681 PHZOREYNAQ PVEPYR",
+        "PVGL:FG GUBZNF GJC",
+        "PNYY:FVPX CREFBA",
+        "HAVG:NZO 18-9");
+
+    qbGrfg("G4",
+        "(*) 119 NNEBA PBHEG* * * FG GUBZNF GJC* * * * * CNG. NFFVFG* * * * NZO 18-9* * * * *",
+        "NQQE:119 NNEBA PBHEG",  // Abg znccvat
+        "PVGL:FG GUBZNF GJC",
+        "PNYY:CNG. NFFVFG",
+        "HAVG:NZO 18-9");
+
+    qbGrfg("G5",
+        "(*) 3580 XRYYRE EBNQ* * * FG GUBZNF GJC* * * * * BIREQBFR* * * * NZO 18-9* * * * *",
+        "NQQE:3580 XRYYRE EBNQ",
+        "PVGL:FG GUBZNF GJC",
+        "PNYY:BIREQBFR",
+        "HAVG:NZO 18-9");
+
+    qbGrfg("G6",
+        "(*) 130 A FRPBAQ FGERRG* * * PUNZOREFOHET OBEB* * * * * GENAFSRE* * * * NZO 11-9,PGEHPX 53,RAT 18-1,RAT 18-2* * * * *",
+        "NQQE:130 A FRPBAQ FGERRG",
+        "PVGL:PUNZOREFOHET",
+        "PNYY:GENAFSRE",
+        "HAVG:NZO 11-9,PGEHPX 53,RAT 18-1,RAT 18-2");
+
+    qbGrfg("G7",
+        "(*) 130 A FRPBAQ FGERRG* * * PUNZOREFOHET OBEB* * * * * GENAFSRE* * * * RAT 18-2* * * * *",
+        "NQQE:130 A FRPBAQ FGERRG",
+        "PVGL:PUNZOREFOHET",
+        "PNYY:GENAFSRE",
+        "HAVG:RAT 18-2");
+
+    qbGrfg("G8",
+        "(*) 659 A SENAXYVA FGERRG* * YBG20* UNZVYGBA GJC* * * * * HAP/HAERFC* * * * NZO 18-9* * * * *",
+        "NQQE:659 A SENAXYVA FGERRG",
+        "NCG:YBG20",
+        "PVGL:UNZVYGBA GJC",
+        "PNYY:HAP/HAERFC",
+        "HAVG:NZO 18-9");
+
+    qbGrfg("G9",
+        "(*) 1087 FBYYRAORETRE EBNQ* * * UNZVYGBA GJC* * * * * FGEBXR/PIN* * * * NZO 18-9* * * * *",
+        "NQQE:1087 FBYYRAORETRE EBNQ",
+        "PVGL:UNZVYGBA GJC",
+        "PNYY:FGEBXR/PIN",
+        "HAVG:NZO 18-9");
+
+    qbGrfg("G10",
+        "(*) 1521 CNYZ FCEVAT QEVIR* * * UNZVYGBA GJC* * * * * OERNGU CEBO* * * * NZO 18-9,NZO 8-9,ZRQVP 118* * * * *",
+        "NQQE:1521 CNYZ FCEVAT QEVIR",
+        "PVGL:UNZVYGBA GJC",
+        "PNYY:OERNGU CEBO",
+        "HAVG:NZO 18-9,NZO 8-9,ZRQVP 118");
 
   }
 
