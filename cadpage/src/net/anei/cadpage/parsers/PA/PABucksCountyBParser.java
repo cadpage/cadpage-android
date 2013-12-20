@@ -20,7 +20,7 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
     return "8276,@bnn.us,iamresponding.com,Bucks RSAN,@alert.bucksema.org";
   }
   
-  private static final Pattern SRC_PTN = Pattern.compile("TO INT1 FROM [A-Z0-9]+ +: *\n?(.*?)(?=\n)");
+  private static final Pattern SRC_PTN = Pattern.compile("TO INT1 FROM [A-Z0-9]+ *: *\n?(.*?)(?=\n)");
   
   @Override
   protected boolean parseMsg(String body, Data data) {
