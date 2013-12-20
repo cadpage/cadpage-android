@@ -5,7 +5,8 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Ohgyre Pbhagl, BU
+Ohgyre Pbhagl, BU (O)
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ohgyre Pbhagl Grpuavpny Erfphr Grnz
 Ybpngvba: Jrfg Purfgre Gbjafuvc, BU, Havgrq Fgngrf

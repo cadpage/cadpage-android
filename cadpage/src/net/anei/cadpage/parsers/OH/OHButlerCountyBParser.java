@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class OHButlerCountyBParser extends FieldProgramParser {
 
   /**
-   * Butler County - B, OH
+   * Butler County, OH (B)
    */
 
   public OHButlerCountyBParser () {

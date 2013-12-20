@@ -272,6 +272,7 @@ public class ParserList {
           ),
           new ParserCategory("Indiana"
               ,"INBartholomewCounty"            ,"Bartholomew County, IN"
+              ,"INBooneCounty"                  ,"Boone County, IN"
               ,"INHamiltonCounty"               ,"Hamilton County, IN"
               ,"INHancockCounty"                ,"Hancock County, IN"
               ,"INHowardCounty"                 ,"Howard County, IN"
@@ -664,6 +665,7 @@ public class ParserList {
               ,"OHUnionCounty"                  ,"Union County, OH"
               ,"OHWadsworth"                    ,"Wadsworth, OH"
               ,"OHWarrenCounty"                 ,"Warren County, OH"
+              ,"OHWashingtonCounty"             ,"Washington County, OH"
               ,"OHWayneCounty"                  ,"Wayne County, OH"
           ),
           new ParserCategory("Oklahoma"
@@ -819,6 +821,7 @@ public class ParserList {
               ,"TXNacogdochesCounty"            ,"Nacogdoches County, TX"
               ,"TXNuecesCounty"                 ,"Nueces County, TX"
               ,"TXParkerCounty"                 ,"Parker County, TX"
+              ,"TXRoanoke"                      ,"Roanoke, TX"
               ,"TXRockwallCounty"               ,"Rockwall County, TX"
               ,"TXSeabrook"                     ,"Seabrook, TX"
               ,"TXSeguin"                       ,"Seguin, TX"
