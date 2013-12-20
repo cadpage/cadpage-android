@@ -105,10 +105,10 @@ public class Message {
   private static final Pattern CONT_PTN = Pattern.compile("\\(C.* \\d\\d? of \\d\\d?");
   
   private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
-    Pattern.compile("^(?:\\*.*\\*)?([\\w\\.]+@[\\w\\.]+)( +/ +/ +)"),
-    Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n"),
-    Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?((?:[\\w.!\\-]+|\\\"[\\w.!\\- ]+\\\")@[\\w.]+)[\\s:]"),
-    Pattern.compile("^\\*\\d+: \\*([\\w\\w]+@[\\w\\.]+) +"),
+    Pattern.compile("^(?:\\*.*\\*)?([-\\w\\.]+@[-\\w\\.]+)(?: +/ +/ +)"),
+    Pattern.compile(" - Sender: *([-\\w\\.]+@[-\\w\\.]+) *\n"),
+    Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?((?:[\\w.!\\-]+|\\\"[\\w\\.!\\- ]+\\\")@[-\\w\\.]+)[\\s:]"),
+    Pattern.compile("^\\*\\d+: \\*([-\\w]+@[-\\w\\.]+) +"),
     Pattern.compile("^[^\n]*\\bFr: *(\\S+@\\S+)\\s+"),
     Pattern.compile("^From: *(\\S+@\\S+) +"),
     Pattern.compile("sentto-[-\\d]+ *= *([-\\.\\w]+@[-\\.\\w]+) +"),

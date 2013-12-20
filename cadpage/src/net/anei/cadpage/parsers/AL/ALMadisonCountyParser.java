@@ -34,6 +34,10 @@ public class ALMadisonCountyParser extends FieldProgramParser {
         body = body.substring(CAD_MARKER.length()+3);
         break;
       }
+      
+      if (body.startsWith("Loc:")) break;
+      
+      return false;
     } while (false);
    
     return super.parseMsg(body, data);
