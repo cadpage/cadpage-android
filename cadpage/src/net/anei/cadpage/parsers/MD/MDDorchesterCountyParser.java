@@ -20,16 +20,27 @@ public class MDDorchesterCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (body.startsWith("DOR911:")) body = body.substring(7).trim();
+    if (body.startsWith("DOR911:")) {
+      body = body.substring(7).trim();
+      if (!body.startsWith("CT:")) body = "CT:" + body;
+    }
     if (body.endsWith(":DC")) body = body.substring(0,body.length()-3).trim();
     return super.parseMsg(body, data);
+  }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    return addr.replace("DORCHESTER SQUARE MALL", "DORCHESTER SQUARE");
   }
   
   private static final Properties CITY_CODE_TABLE = 
     buildCodeTable(new String[]{
         "CAMB", "CAMBRIDGE",
         "CHUR", "CHURCH CREEK",
+        "FEDE", "FEDERALSBURG",
         "HURL", "HURLOCK",
-        "SECR", "SECRETARY"
+        "LINK", "LINKWOOD",
+        "SECR", "SECRETARY",
+        "VIEN", "VIENNA"
     });
 }
