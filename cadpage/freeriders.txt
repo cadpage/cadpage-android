@@ -1972,7 +1972,7 @@ Matt Wiggins        (2529034393) // added 8/19/13
 Daniel Jones        (2524690416) // added 9-30-13
 Trevor Penney (9105154818) // added 10-15-13
 
-%2013/West Valley VFD // Jerry F.Shepherd,Fire Chief Paid $84 by 1-24-13;$77 paid 3-4-13
+%2013/West Valley VFD // Jerry F.Shepherd,Fire Chief Paid $84 by 1-24-13;$77 paid 3-4-13 Jerry Shepherd <westvalley631@gmail.com>
 %%01/12/2013
 Bryan Backeberg  (4064598617)
 Michelle Clark (4064619608)
@@ -2058,6 +2058,30 @@ Shane Gattis <cfpd1400@gmail.com>
 Natasha Greenwood (natashagreenwood2014@gmail.com)
 Ashleigh Wright (ashbuggy.aw@gmail.com)
 
+%2014/Battleboro Community Volunteer Fire Department // James E. Hardee III, Asst Chief Battleboro Community VFD PAYMENT PENDING 23 members $161
+%%01/05/2014
+Dontamius Alston     (2529071304)
+Chris Barus               (2528837605)
+Bob Bartosz               (8564981701)
+Dereck Carpenter      (2528852855)
+Ashley Hardee           (2529556616)
+Faye Hardee               (2529038205)
+Jim Hardee                 (2529031802)
+Eddie Hardee             (2529034376)
+Josh Peele                  (2529084653)
+Rick Poling                 (2529037148)
+Jamie Pridgen            (2525675390)
+Kevin Rose                 (2529032013)
+Clay Skinner               (2525442747)
+Kelly Skinner              (2529044601)
+Cory Strange              (2528839651)
+Andy Tess                   (2529087075)
+Bubba Webb              (2528833603)
+Janalee Miller            (2523821873)
+Catherine Pridgen    (2528137527)
+James Pridgen           (2528137528)
+Matt Wiggins            (2529034393)
+Daniel Jones            (2524690416)
 
 
 // Sponsored Districts
@@ -6267,6 +6291,19 @@ Cassandra Barber <firegirl2291@gmail.com>
 %%12/16/2013
 Tim Stafford (timhstafford@gmail.com) <lakehickoryscuba@gmail.com>
 hockeysmith14@gmail.com <hockeysmith14@gmail.com>
+%%12/17/2013
+Christian Geer (cgeer7412@gmail.com) <cgeer@spencerportfire.org>
+Matt Mckeown (mattymix8@gmail.com) <mmckeown@ccprosecutor.org>
+Aaron Benney (bull621@gmail.com) <a_benney@hotmail.com>
+csvff11@yahoo.com (csvff11@gmail.com) <csvff11@yahoo.com>
+Penny (genung1130@gmail.com) <firegrandmapapa@frontier.com>
+%%12/18/2013
+anthony russo <amrusso96@gmail.com>
+%%12/19/2013
+daniel (daniel31884@gmail.com) <daniel31884@yahoo.com>
+Jeff Lambeth (jeffscot1976@gmail.com) <jscot1976@hotmail.com>
+dave bradford (firefighterdavebradford@gmail.com) <dzeggert@gmail.com>
+
 
 // List of users getting FREE subscription for 2014
 %2014/FREE
@@ -6274,6 +6311,8 @@ hockeysmith14@gmail.com <hockeysmith14@gmail.com>
 Charles Fuss (ovfc23@gmail.com) <crozetfire5@yahoo.com>
 %%12/13/2013
 John W. Hupp III <jhuppiii@gmail.com>
+%%12/19/2013
+Justin Kirby <fire16519@gmail.com>
 %%01/02/2014
 Jay Meisch (lpfas829@gmail.com)
 Clinton M (clintonmast@gmail.com) <mastclinton@aim.com>
