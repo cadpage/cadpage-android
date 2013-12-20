@@ -1,9 +1,6 @@
 package net.anei.cadpage.parsers.TN;
 
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.Properties;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -104,9 +101,10 @@ public class TNKnoxCountyParser extends FieldProgramParser {
     }
     
     // Some city names are really Knoxville subdivisions that Google does not recognize
-    if (KNOXVILLE_SUBDIVISIONS.contains(data.strCity)) {
-      data.strPlace = append(data.strCity, " - ", data.strPlace);
-      data.strCity = "KNOXVILLE";
+    int pt = data.strCity.indexOf('/');
+    if (pt >= 0) {
+      data.strPlace = append(data.strCity.substring(0,pt), " - ", data.strPlace);
+      data.strCity = data.strCity.substring(pt+1);
     }
     return true;
   }
@@ -231,34 +229,41 @@ public class TNKnoxCountyParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "BAKE", "BAKE",
+      "BAKE", "BAKE/KNOXVILLE",
+      "BALL", "BALL CAMP/KNOXVILLE",
+      "BC" ,  "BLOUNT COUNTY",
+      "BLUE", "BLUEGRASS/KNOXVILLE",
+      "CAMP", "CAMP/KNOXVILLE",
+      "CEDA", "CEDAR BLUFF/KNOXVILLE",
+      "CHOT", "CHOT/KNOXVILLE",
+      "CORY", "CORRYTON/KNOXVILLE",
+      "EBEN", "EBEN/KNOXVILLE",
       "FARR", "FARRAGUT",
-      "GAL",  "GAL",
-      "GALL", "GALL",
-      "GIBB", "GIBBS",
-      "HALL", "HALLS CROSSROADS",
-      "KARN", "KARNS",
+      "FORK", "FORK/KNOXVILLE",
+      "GAL",  "GALL/KNOXVILLE",
+      "GALL", "GALL/KNOXVILLE",
+      "GIBB", "GIBBS/KNOXVILLE",
+      "HALL", "HALLS CROSSROADS/KNOXVILLE",
+      "HEIS", "HEISKELL/KNOXVILLE",
+      "KARN", "KARNS/KNOXVILLE",
       "KNOX", "KNOXVILLE",
-      "KVFD", "KVFD",
-      "MART", "MART",
-      "PELL", "PELL",
-      "POWL", "POWELL",
-      "SVFD", "SVFD",
-      "THOR", "THORN GROVE"
+      "KVFD", "KVFD/KNOXVILLE",
+      "LYON", "LYON/KNOXVILLE",
+      "MALY", "MALY/KNOXVILLE",
+      "MART", "MART/KNOXVILLE",
+      "MASC", "MASCOT/KNOXVILLE",
+      "MIDD", "MIDD/KNOXVILLE",
+      "MIDW", "MIDW/KNOXVILLE",
+      "MILL", "MILL/KNOXVILLE",
+      "MORR", "MORR/KNOXVILLE",
+      "PELL", "PELL/KNOXVILLE",
+      "POWL", "POWELL/KNOXVILLE",
+      "STRA", "STRAWBERRY PLAINS/KNOXVILLE",
+      "SVFD", "SEYMOUR/KNOXVILLE",
+      "TEDF", "TEDF/KNOXVILLE",
+      "THOR", "THORN GROVE/KNOXVILLE",
+      "TOPS", "TOPS/KNOXVILLE",
+      "WATT", "WATT/KNOXVILLE",
+      "WEST", "WEST/KNOXVILLE"
   });
-  
-  private static final Set<String> KNOXVILLE_SUBDIVISIONS = new HashSet<String>(Arrays.asList(new String[]{
-      "BAKE",
-      "GAL",
-      "HALLS CROSSROADS",
-      "KARNS",
-      "KVFD",
-      "MART", 
-      "GALL", 
-      "GIBBS", 
-      "PELL",
-      "POWELL",
-      "SVFD",
-      "THORN GROVE"
-  }));
 }

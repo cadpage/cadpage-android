@@ -168,7 +168,7 @@ choyvp pynff GAXabkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:ZRQVP 723",
         "VQ:2499595",
         "NQQE:408 R TBI WBUA FRIVRE UJL",
-        "CYNPR:FISQ",
+        "CYNPR:FRLZBHE",
         "PVGL:XABKIVYYR",
         "CEV:3N",
         "VASB:CNG.PBAQ R26 / UBHFR",
@@ -533,7 +533,7 @@ choyvp pynff GAXabkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PNAPRY",
         "HAVG:ZRQVP  723",
         "NQQE:8400 BYQR PBYBAL GEY",
-        "CYNPR:TNY",
+        "CYNPR:TNYY",
         "PVGL:XABKIVYYR");
 
     qbGrfg("G49",
