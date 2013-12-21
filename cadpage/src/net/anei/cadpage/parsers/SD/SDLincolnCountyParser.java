@@ -21,7 +21,7 @@ public class SDLincolnCountyParser extends FieldProgramParser {
   private static final Pattern APT_PTN = Pattern.compile("^# *([^,]+?) *,");
   private static final Pattern CITY_ST_PTN = Pattern.compile("^([A-Z ]+)\\b *, *([A-Z]{2})(?: +\\d{5})?", Pattern.CASE_INSENSITIVE);
   private static final Pattern INFO_JUNK_PTN = Pattern.compile(" *Please respond immediately\\.? *", Pattern.CASE_INSENSITIVE);
-  private static final Pattern SUB_SRC_PTN = Pattern.compile("[A-Z ]+ AMB");
+  private static final Pattern SUB_SRC_PTN = Pattern.compile("[A-Z ]+ AMB(?:ULANCE)?", Pattern.CASE_INSENSITIVE);
   
   private String version;
  
@@ -72,6 +72,7 @@ public class SDLincolnCountyParser extends FieldProgramParser {
       if (data.strCity.length() == 0) data.strCity = p.get(',');
       data.strState = p.get(',');
       data.strCall = body;
+      cleanup(data);
       return true;
     }
     
@@ -79,10 +80,11 @@ public class SDLincolnCountyParser extends FieldProgramParser {
       if (body.startsWith(subject+',')) {
         res = parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_NO_IMPLIED_APT, body.substring(subject.length()+1).trim());
         if (res.getStatus() > 0) {
-          setFieldList("SRC CALL ADDR APT INFO");
+          setFieldList("SRC CALL ADDR APT CITY ST INFO");
           data.strSource = subject;
           res.getData(data);
           data.strSupp = res.getLeft();
+          cleanup(data);
           return true;
         }
       }
@@ -180,9 +182,13 @@ public class SDLincolnCountyParser extends FieldProgramParser {
     if (info.endsWith("/")) info = info.substring(0,info.length()-1).trim();
     data.strSupp = info;
     
+    cleanup(data);
+    return true;
+  }
+
+  private void cleanup(Data data) {
     if (data.strCity.equalsIgnoreCase("CA")) data.strCity = "CANTON";
     if (data.strCity.equalsIgnoreCase("INWOOD")) data.strState = "IA";
-    return true;
   }
   
   // New format(s) uses a FieldProgramParser program
@@ -258,7 +264,8 @@ public class SDLincolnCountyParser extends FieldProgramParser {
     "SIOUX FALLS",
     "TEA",
     "WORTHING",
-    
+
+    // Iowa
     "INWOOD"
   };
   

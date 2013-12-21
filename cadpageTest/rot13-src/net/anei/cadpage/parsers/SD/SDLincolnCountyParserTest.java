@@ -61,10 +61,12 @@ Fraqre: ab-ercyl@yrqfcbegny.pbz
 (Nzohynapr Pnyyqvnorgvp ek) Abar - 2051 Purfgahg FG, Vajbbq - \aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]
 (Vawhel Nppvqrag) Pnagba Nzohynapr; Jbeguvat Sver - 60.5 ZZ V-29 AO - ZIN - Haxabja Vawhevrf [Nggnpuzrag(f) erzbirq]
 (Nzohynapr Pnyysrznyr cbffvoyr bireqbfr) Abar - 1047 F Bnx, Vajbbq - \aCyrnfr erfcbaq vzzrqvngryl. [Nggnpuzrag(f) erzbirq]
+(PNAGBA NZOHYNAPR) PNAGBA NZOHYNAPR, 1823 260GU FG VAJBBQ VN, SBE 6 LB FRIRER FGBZNPU CNVA [Nggnpuzrag(f) erzbirq]
 
 Pbagnpg: anguna ynhonpu  <jlghegyr@ubgznvy.pbz>
 Fraqre: ab-ercyl@yrqfcbegny.pbz
 (FVT1 : Vawhel Nppvqrag FVTANY 1) 115 / 276GU FG FVTANY 1 VAWHEL NPPVQRAG HAXABJA VAWHEVRF [Nggnpuzrag(f) erzbirq]
+
 
 ** Cnefre snvyherf **
 Fhowrpg:qrulqengvba\a519 f onegyrgg 18 lb srznyr qrulengrq, cyrnfr erfcbaq\e
@@ -74,6 +76,7 @@ Fhowrpg:ZRQVPNY @ XRLFGBAR\aZNYR VA 50'F - PURFG CNVA\e
 (GF : Genssvp Rasbeprzrag ZRQVPNY) Vagrefrpgvba bs 271 naq 469 NQHYG ZNYR VAFHYVA FUBPX [Nggnpuzrag(f) erzbirq]
 (NZO : Nzohynapr Pnyy) Nqnzf Gurezny Flfgrzf Vap va bssvpr sbe cngvrag jvgu purfg cnvaf [Nggnpuzrag(f) erzbirq]
 (HF UJL 18 NAQ UNVJNGUN) HF UVJTUJNL 18 NAQ UNVJNGUN = CBFFVOYR QEBJAVT IVPGVZ [Nggnpuzrag(f) erzbirq]
+(pnagba nzohynapr) pnagba nzohynapr = yvsg uryc erdverq sbe ryqreyl znyr fhowrpg 425 f oebnqjnl. [Nggnpuzrag(f) erzbirq]
 
 */
 
@@ -416,6 +419,15 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FVT1 : Vawhel Nppvqrag FVTANY 1",
         "NQQE:115 & 276GU FG",
         "VASB:FVTANY 1 VAWHEL NPPVQRAG HAXABJA VAWHEVRF");
+
+    qbGrfg("G2",
+        "(PNAGBA NZOHYNAPR) PNAGBA NZOHYNAPR, 1823 260GU FG VAJBBQ VN, SBE 6 LB FRIRER FGBZNPU CNVA [Nggnpuzrag(f) erzbirq]",
+        "FEP:PNAGBA NZOHYNAPR",
+        "PNYY:1823",
+        "NQQE:260GU FG",
+        "PVGL:VAJBBQ",
+        "FG:VN",
+        "VASB:VN, SBE 6 LB FRIRER FGBZNPU CNVA");
   
   }
   
