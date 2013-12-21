@@ -102,6 +102,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         S - something we can skip
  *         a - apartment
  *         x - cross streets
+ *   
+ *   Date and Date/Time fields
+ *         d - replace dashes with slashes
  *         
  * SPECIAL FIELD NAMES
  * 
@@ -392,7 +395,7 @@ public class FieldProgramParser extends SmartAddressParser {
     }
     
     // Split program string into field terms
-    String[] fieldTerms = tokenize(program);;
+    String[] fieldTerms = tokenize(program);
     
     // Build arrays of term info and of field steps for each field term
     FieldTermInfo[] infoList = new FieldTermInfo[fieldTerms.length];
@@ -2862,7 +2865,8 @@ public class FieldProgramParser extends SmartAddressParser {
   public class DateField extends Field {
     
     private DateFormat fmt = null;
-    boolean hardPattern = false;
+    private boolean hardPattern = false;
+    private boolean convertDashes = false;
     
     public DateField() {};
     public DateField(String pattern) {
@@ -2880,6 +2884,12 @@ public class FieldProgramParser extends SmartAddressParser {
     }
     
     @Override
+    public void setQual(String qual) {
+      convertDashes = qual.contains("d");
+      super.setQual(qual);
+    }
+    
+    @Override
     public boolean canFail() {
       return hardPattern || super.canFail();
     }
@@ -2889,6 +2899,7 @@ public class FieldProgramParser extends SmartAddressParser {
       if (fmt != null) {
         if (!checkParse(field, data) && hardPattern) abort();
       } else {
+        if (convertDashes) field = field.replace('-', '/');
         data.strDate = field;
       }
     }
@@ -2898,6 +2909,7 @@ public class FieldProgramParser extends SmartAddressParser {
       if (fmt != null) {
         return setDate(fmt, field, data);
       } else {
+        if (convertDashes) field = field.replace('-', '/');
         parse(field, data);
         return true;
       }
@@ -2969,6 +2981,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     DateFormat fmt = null;
     boolean hardPattern = false;
+    private boolean convertDashes = false;
     
     public DateTimeField () {};
     public DateTimeField (String pattern) {
@@ -2994,6 +3007,12 @@ public class FieldProgramParser extends SmartAddressParser {
     }
     
     @Override
+    public void setQual(String qual) {
+      convertDashes = qual.contains("d");
+      super.setQual(qual);
+    }
+    
+    @Override
     public boolean canFail() {
       return hardPattern || super.canFail();
     }
@@ -3006,6 +3025,7 @@ public class FieldProgramParser extends SmartAddressParser {
         int pt = field.indexOf(' ');
         if (pt >= 0) {
           data.strDate = field.substring(0,pt).trim();
+          if (convertDashes) data.strDate = data.strDate.replace('-', '/');
           data.strTime = field.substring(pt+1).trim();
         }
       }
@@ -3019,6 +3039,7 @@ public class FieldProgramParser extends SmartAddressParser {
         int pt = field.indexOf(' ');
         if (pt < 0) return false;
         data.strDate = field.substring(0,pt).trim();
+        if (convertDashes) data.strDate = data.strDate.replace('-', '/');
         data.strTime = field.substring(pt+1).trim();
         return true;
       }
