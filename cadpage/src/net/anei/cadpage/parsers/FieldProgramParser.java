@@ -2885,7 +2885,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void setQual(String qual) {
-      convertDashes = qual.contains("d");
+      convertDashes = qual != null && qual.contains("d");
       super.setQual(qual);
     }
     
@@ -3008,7 +3008,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void setQual(String qual) {
-      convertDashes = qual.contains("d");
+      convertDashes = qual != null && qual.contains("d");
       super.setQual(qual);
     }
     
