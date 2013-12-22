@@ -9,6 +9,36 @@ import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 
 
 public class WICalumetCountyAParser extends DispatchPrintrakParser {  
+  
+  private static final Pattern HOUSE_NBR_PTN = Pattern.compile("^([NWSE])(\\d+)\\b");
+  
+  public WICalumetCountyAParser() {
+    super(CITY_TABLE, "CALUMET COUNTY", "WI");
+  }
+  
+  public WICalumetCountyAParser(String county) {
+    super(CITY_TABLE, county, "WI");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "Admin.Foxcomm@co.calumet.wi.us,finstad_rr@co.brown.wi.us";
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (!super.parseMsg(body, data)) return false;
+    
+    // There are two address adjustments that need to be made.
+    // First need to insert a space into a N3345 type address
+    data.strAddress = HOUSE_NBR_PTN.matcher(data.strAddress).replaceFirst("$1 $2");
+    
+    // Next we have to replace "CTY TK" with "COUNTY RD"
+    data.strAddress = data.strAddress.replaceFirst("CTY TK", "COUNTY RD");
+    
+    return true;
+  }
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       // Brown County
       "ASHW", "ASHWAUBENON",
@@ -106,34 +136,4 @@ public class WICalumetCountyAParser extends DispatchPrintrakParser {
       "WWNE", "WINNECONNE",
       "WWOL", "WOLF RIVER"
   });
-  
-  private static final Pattern HOUSE_NBR_PTN = Pattern.compile("^([NWSE])(\\d+)\\b");
-  
-  public WICalumetCountyAParser() {
-    super(CITY_TABLE, "CALUMET COUNTY", "WI");
-  }
-  
-  public WICalumetCountyAParser(String county) {
-    super(CITY_TABLE, county, "WI");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "Admin.Foxcomm@co.calumet.wi.us,finstad_rr@co.brown.wi.us";
-  }
-  
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    if (!super.parseMsg(body, data)) return false;
-    
-    // There are two address adjustments that need to be made.
-    // First need to insert a space into a N3345 type address
-    data.strAddress = HOUSE_NBR_PTN.matcher(data.strAddress).replaceFirst("$1 $2");
-    
-    // Next we have to replace "CTY TK" with "COUNTY RD"
-    data.strAddress = data.strAddress.replaceFirst("CTY TK", "COUNTY RD");
-    
-    return true;
-  }
 }
