@@ -25,7 +25,7 @@
   
   <target name="compile">
     <javac srcdir="${src}" includes="${select}" destdir="${bin}" 
-      	   source="1.5" target="1.5" debug="yes"/>
+      	   source="1.5" target="1.5" debug="yes" includeAntRuntime="false"/>
   </target>
 	
 	<target name="jarfile" depends="compile">
