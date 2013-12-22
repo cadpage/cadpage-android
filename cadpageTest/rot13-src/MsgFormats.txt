@@ -398,6 +398,11 @@ EG:NSN AHEFVAT UBZR  Ybp:4586 SBEFLGUVN JNL, PBYYRTRQNYR  (VYRAR PG/YRLYNAQ QE) 
 * QvfcngpuN16Cnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
+Yvgpusvryq Pbhagl, PG (PGYvgpusvryqPbhaglOCnefre)
+(Vzp Fbyhgvbaf Cntr) NZOHYNAPR PNYY\a***29-O-4***\a47 PUREAVFXR EQ \aARJ ZVYSBEQ\aQvfgevpg: AIY\a12/16/2013 01:25
+(Vzp Fbyhgvbaf Cntr) NZOHYNAPR PNYY\aFUREJBBQ PBZZBAF  **1-N-1**\a125 SBEG UVYY EQ NCG 5N\aARJ ZVYSBEQ\aQvfgevpg: JJU\a12/15/2013 15:01
+(Vzp Fbyhgvbaf Cntr) NZOHYNAPR PNYY\a***19-P-4***\a86 INYYRL IVRJ YA \aARJ ZVYSBEQ\aQvfgevpg: JJU\a12/15/2013 05:15
+*******************************************************************************
 Arj Ybaqba Pbhagl, PG (PGArjYbaqbaPbhaglCnefre)
 (Vzp Fbyhgvbaf Cntr) ZBGBE IRUVPYR NPPVQRAG\aPHZOREYNAQ SNEZF\a863 ABEJVPU ARJ YBAQBA GCXR \aZBAGIVYYR\aSver Qvfgevpg: ZSQ1\a5/24/2012 18:17
 (Vzp Fbyhgvbaf Cntr) FGEHPGHER SVER\aIVYYNTR NCNEGZRAGF, YYP\a82 WREBZR EQ \aZBAGIVYYR\aSver Qvfgevpg: ZSQ1\a6/2/2012 16:36
@@ -2409,7 +2414,7 @@ Unegsbeq Pbhagl, PG (PGUnegsbeqPbhaglRnfgTenaolCnefre)
 (Qvfcngpu Nyreg) Fvtany 24\aGi vafgnyy\a7 zrzbevny qe\aRnfg Tenaol\aPG\a11-17-2012 21:49\a219016166841849471\aYvfgra gb yvir srrq ng \auggc://nhqvb2.enqvbersrerapr.pbz/703804654
 (Qvfcngpu Nyreg) Fvtany 24\agrfg 2\a400 ghexrl uvyyf eq\aRnfg Tenaol\aPG\a11-10-2012 23:41\a218418111571957200\aYvfgra gb yvir srrq ng \auggc://nhqvb2.enqvbersrerapr.pbz/703804654
 ***************************************************************************
-Yvgpusvryq Pbhagl, PG (PGYvgpusvryqPbhaglCnefre)
+Yvgpusvryq Pbhagl, PG (PGYvgpusvryqPbhaglNCnefre)
 (YPQ) ZRQVP 4 ERFCBAQ GB 30 CNEX YNAR RNFG   ARJ ZVYSBEQ, ,   HAPBAFPVBHF, 31-Q-3 :09:22
 (YPQ) ZRQVP 4 ERFCBAQ GB 70 PUNCRY UVYY EQ   FUREZNA, , 92L Z QVSS OERNGU, 6-Q-2 :12:36
 (YPQ) ZRQVP 4 ERFCBAQ GB  JRYYREF OEVQTR EQ   URZYBPX EBKOHEL, ,   GENSSVP NPPVQRAG,  :10:44
@@ -6978,20 +6983,6 @@ Flfgrz: Cheivf
 ************  ERNQL GB EBYY ******************************
 **********************************************************
 **********************************************************
-Arj Zvysbeq, PG
-Pbagnpg: Tyraa Fpuvrgvatre <ygtyraa13@nby.pbz>
-Fraqre: nqzva@arjzvysbeqcbyvpr.bet
-QvfcngpuN16Cnefre fhopynff
-(Vzp Fbyhgvbaf Cntr) NZOHYNAPR PNYY\a***29-O-4***\a47 PUREAVFXR EQ \aARJ ZVYSBEQ\aQvfgevpg: AIY\a12/16/2013 01:25
-(Vzp Fbyhgvbaf Cntr) NZOHYNAPR PNYY\aFUREJBBQ PBZZBAF  **1-N-1**\a125 SBEG UVYY EQ NCG 5N\aARJ ZVYSBEQ\aQvfgevpg: JJU\a12/15/2013 15:01
-(Vzp Fbyhgvbaf Cntr) NZOHYNAPR PNYY\a***19-P-4***\a86 INYYRL IVRJ YA \aARJ ZVYSBEQ\aQvfgevpg: JJU\a12/15/2013 05:15
-(Vzp Fbyhgvbaf Cntr) NZOHYNAPR PNYY\aYNAQTEROR 17-O-1\a35 ZRRGVATUBHFR GRE \aARJ ZVYSBEQ\aQvfgevpg: JJU\a12/14/2013 08:57
-(Vzp Fbyhgvbaf Cntr) NYNEZ - ZRQVPNY\aOBAAN, NYZN **32-O-2**\a19 GERNQJRYY NIR \aARJ ZVYSBEQ\aQvfgevpg: JJU\a12/14/2013 08:31
-(Vzp Fbyhgvbaf Cntr) NZOHYNAPR PNYY\a***28-P-3***\a28 EVIREIVRJ PG \aARJ ZVYSBEQ\aQvfgevpg: JJU\a12/14/2013 00:03
-(Vzp Fbyhgvbaf Cntr) ZI NPPVQRAG JVGU VAWHEVRF\a29-O-1\a147 FRPBAQ UVYY EQ \aARJ ZVYSBEQ\aQvfgevpg: JJU\a12/15/2013 09:51
-(Vzp Fbyhgvbaf Cntr) PURPX BA CREFBA'F JRYSNER\aJNYZNEG\a164 QNAOHEL EQ \aARJ ZVYSBEQ\aQvfgevpg: JJU 31-Q-3\a12/14/2013 12:02
-(Vzp Fbyhgvbaf Cntr) ZI NPPVQRAG JVGU VAWHEVRF\aOVT L SBBQF VAP ***29-O-1***\a3 XRAG EQ \aARJ ZVYSBEQ\aQvfgevpg: JJU\a12/18/2013 08:08
-(Vzp Fbyhgvbaf Cntr) ZI NPPVQRAG **29-O-1**\a280 QNAOHEL EQ NAQ 1 FGVYY EVIRE QE\aARJ ZVYSBEQ\aQvfgevpg: JJU\a12/19/2013 08:55
 **********************************************************
 Znfba Pbhagl, JI
 Pbagnpg: Mnpu Nqxvaf <mnbarfvkgrra@tznvy.pbz>
