@@ -1210,9 +1210,7 @@ Jean, Assistant to Ken Corbin
 
 ******************************************************************
 
-The intended purpose of Cadpage is to support emergency responders who get text pages from a central dispatch center when they are asked to respond to an emergency.  Cadpage takes those pages, displays the information from them, and gives the user the option to bring up a Google map showing the location of the incident.Then they can ask for directions to that location.
-
-
+The intended purpose of Cadpage is to support emergency responders who get text pages from a central dispatch center when they are asked to respond to an emergency.  Cadpage takes those pages, displays the information from them, and gives the user the option to bring up a Google map showing the location of the incident.  Then they can ask for directions to that location.
 
 ******************************************************************
 
