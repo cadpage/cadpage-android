@@ -2060,29 +2060,29 @@ Ashleigh Wright (ashbuggy.aw@gmail.com)
 
 %2014/Battleboro Community Volunteer Fire Department // James E. Hardee III, Asst Chief Battleboro Community VFD PAYMENT PENDING 23 members $161
 %%01/05/2014
-Dontamius Alston     (2529071304)
-Chris Barus               (2528837605)
-Bob Bartosz               (8564981701)
-Dereck Carpenter      (2528852855)
-Ashley Hardee           (2529556616)
-Faye Hardee               (2529038205)
-Jim Hardee                 (2529031802)
-Eddie Hardee             (2529034376)
-Josh Peele                  (2529084653)
-Rick Poling                 (2529037148)
-Jamie Pridgen            (2525675390)
-Kevin Rose                 (2529032013)
-Clay Skinner               (2525442747)
-Kelly Skinner              (2529044601)
-Cory Strange              (2528839651)
-Andy Tess                   (2529087075)
-Bubba Webb              (2528833603)
-Janalee Miller            (2523821873)
-Catherine Pridgen    (2528137527)
-James Pridgen           (2528137528)
-Matt Wiggins            (2529034393)
-Daniel Jones            (2524690416)
-
+Dontamius Alston	(2529071304)  
+Chris Barus 		(2528837605)
+Bob Bartosz		(8564981701)
+Dereck Carpenter	(2528852855)
+Ashley Hardee 	(2529556616)
+Faye Hardee		(2529038205)
+Jim Hardee		(2529031802)
+Eddie Hardee		(2529034376)
+Daniel Jones		(2524690416)
+Scott Marks		(2528015835)
+JanaLee Miller	(2523821873)
+Josh Peele		(2529084653)
+Rick Poling		(2529037148)
+Catherine Pridgen	(2528137527)
+James Pridgen	(2528137528)
+Jamie Pridgen	(2525675390)
+Kevin Rose		(2529032013)
+Clay Skinner		(2525442747)
+Kelly Skinner		(2529044601)
+Cory Strange		(2528839651)
+Andy Tess		(2529087075)
+Bubba Webb		(2528833603)
+Matt Wiggins		(2529034393)
 
 // Sponsored Districts
 // TXManvel - John Aucoin <johnaucoin@sbcglobal.net> - 09/10/2012
@@ -2278,6 +2278,7 @@ Fred Bridgehouse (bridgehousefred@gmail.com) // PayPal
 Jason Snipes (snipesmedic181@gmail.com) <ncfd1814@yahoo.com> // market payment during year of free subscription
 %%03/17/2013
 Josh Miraglia <miragliajj@gmail.com> // Humboldt County, CA
+italino.pietrantonio <italino.pietrantonio@gmail.com> // market problem
 %%03/18/2013
 Matt Murphy (matt@pocomopoint.com) <matt@redenginedigital.com> (sales@pocomopoint.com) // PayPal by Pocomo Point LLC
 Jared Horbach <jlhorbach13@gmail.com> // market problem email change
@@ -6014,7 +6015,7 @@ Cheryl Records <dusty188@gmail.com>
 Ryan (farmboy6180@gmail.com) <ryfi9@aol.com>
 %%10/13/2013
 Travis Mcgougan (treefire2@gmail.com) <crestlinefd@gmail.com>
-Brielle Disque <smokeeater12016@gmail.com>
+Brielle Disque (colemanbriellea@gmail.com) <smokeeater12016@gmail.com>
 dave scott <wvff614@gmail.com>
 Andre Dent <andre.dent@yahoo.com>
 %%10/14/2013
@@ -6303,6 +6304,12 @@ anthony russo <amrusso96@gmail.com>
 daniel (daniel31884@gmail.com) <daniel31884@yahoo.com>
 Jeff Lambeth (jeffscot1976@gmail.com) <jscot1976@hotmail.com>
 dave bradford (firefighterdavebradford@gmail.com) <dzeggert@gmail.com>
+%%12/20/2013
+hoferjr (jrhofer77@gmail.com) <hoferjr@yahoo.com>
+Aleksander Wojciechowicz (wojciechowicza611@gmail.com) <wojciechowicza@yahoo.com>
+Daniel Gordon <gordon4019@gmail.com>
+%%12/21/2013
+jason fannin <captain7821@gmail.com>
 
 
 // List of users getting FREE subscription for 2014
