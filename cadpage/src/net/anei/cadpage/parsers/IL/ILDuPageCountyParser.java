@@ -100,7 +100,7 @@ public class ILDuPageCountyParser extends MsgParser {
       "EL",     "ELMHURST",
       // "EL",     "ELGIN",       // Conflict
       "EOL",    "EOLA",
-      "ET",     "ELK GROVE TOWNSHIP",
+      "ET",     "ELK GROVE TWP",
       "FML",    "BATAVIA",
       "FP",     "FRANKLIN PARK",
       "FR",     "FERMI LAB",
