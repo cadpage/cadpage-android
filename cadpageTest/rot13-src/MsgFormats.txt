@@ -977,6 +977,11 @@ Pnebyvar Pbhagl, IN (INPnebyvarPbhaglCnefre)
 911-PRAGRE:PURFGC>PURFG CNVAF 2520 GRNY PVE KF: RQTRJBBQ QE EHGURE TYRA Znc:61 Tevqf:0,0 Pnq: 2013-0000023036
 911-PRAGRE:NYYRET>NYYRETVP ERNPGVBA 20098 ORIREYL UVYYF YA KF: FCNEGN EQ ZVYSBEQ Znc: Tevqf:0,0 Pnq: 2013-0000023021
 *******************************************************************************
+Znfba Pbhagl, JI (JIZnfbaPbhaglCnefre)
+ZNFBAPNQ:SVEFGA>FGNAQ OL SBE SVER PBIRENTR PNORYY PBHAGL FG600 PNORYY PBHAGL Pnq: 2013-0000104009
+ZNFBAPNQ:NGIZIP>NGI PENFU EBOREG YA KF: RINAF EQ RINAF OHGPU OYNPX Znc: Tevqf:, Pnq: 2013-0000104016
+ZNFBAPNQ:ZIPHAX>ZIP HAXABJA VAWHEVRF 40000 UHAGVATGBA EQ KF: UNAANA GENPR EQ TYRAJBBQ WRAAN 3045932951 Znc: Tevqf:, Pnq: 2013-0000103864
+ZNFBAPNQ:ZRQHAX>ZRQVPNY PNYY - HAXABJA 4851 JUVGGRA EVQTR EQ KF: GVZOREJBBQ YA ZVYGBA FUREEV GUBZCFBA 3046689405 Znc: Tevqf:, Pnq: 2013-0000103720
 *******************************************************************************
 * QvfcngpuO3Cnefre fhopynffrf
 *******************************************************************************
@@ -6986,13 +6991,6 @@ Flfgrz: Cheivf
 **********************************************************
 **********************************************************
 **********************************************************
-Znfba Pbhagl, JI
-Pbagnpg: Mnpu Nqxvaf <mnbarfvkgrra@tznvy.pbz>
-Fraqre: znfbapnq@znfbapbhaglbrf.pbz 
-ZNFBAPNQ:SVEFGA>FGNAQ OL SBE SVER PBIRENTR PNORYY PBHAGL FG600 PNORYY PBHAGL Pnq: 2013-0000104009
-ZNFBAPNQ:NGIZIP>NGI PENFU EBOREG YA KF: RINAF EQ RINAF OHGPU OYNPX Znc: Tevqf:, Pnq: 2013-0000104016
-ZNFBAPNQ:ZIPHAX>ZIP HAXABJA VAWHEVRF 40000 UHAGVATGBA EQ KF: UNAANA GENPR EQ TYRAJBBQ WRAAN 3045932951 Znc: Tevqf:, Pnq: 2013-0000103864
-ZNFBAPNQ:ZRQHAX>ZRQVPNY PNYY - HAXABJA 4851 JUVGGRA EVQTR EQ KF: GVZOREJBBQ YA ZVYGBA FUREEV GUBZCFBA 3046689405 Znc: Tevqf:, Pnq: 2013-0000103720
 **********************************************************
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
