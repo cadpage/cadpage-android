@@ -783,6 +783,7 @@ public class ParserList {
               ,"TNJohnsonCounty"                ,"Johnson County, TN"
               ,"TNKnoxCounty"                   ,"Knox County, TN"
               ,"TNLoudonCounty"                 ,"Loudon County, TN"
+              ,"TNMooreCounty"                  ,"Moore County, TN"
               ,"TNOakRidge"                     ,"Oak Ridge, TN"
               ,"TNOliverSprings"                ,"Oliver Springs, TN"
               ,"TNOvertonCounty"                ,"Overton County, TN"
