@@ -1,30 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12152013</string>
-  <string name="release_version">v1.6.58</string>
+  <string name="release_date">12232013</string>
+  <string name="release_version">v1.6.59</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Washington County, AR\n
-Bulloch County, GA (alt)\n
-Maimi County, KS\n
-Nesoba County, MS\n
-NICOM, NJ (alt)\n
-Johnson County, TX\n
-Pierce County, WA (alt)\n
-Wylie, TX\n
+Litchfield County, CT (alt)\n
+Boone County, IN\n
+Washington County, OH\n
+Moore County, TN\n
+Roanoke, TX\n
+Mason County, WV\n
 \n
 Location Parsing Fixes:\n
-Marshall County, AL\n
-Adams County, CO\n
-Tolland County, CT\n
-Calvert County, MD\n
-Howard County, MD\n
-Haywood County, NC\n
-New Brunswick County, NC\n
-Pennington County, SD\n
-Roanoke County, VA\n
+Madison County, AL\n
+San Bernardino County, CA\n
+New Haven County, CT\n
+Kosciusko County, IN\n
+DuPage County, IL\n
+Gallatin County, KY\n
+Dorchester County, MD\n
+Calhoun County, MI\n
+New York, NY\n
+Mecklenburg County, NC\n
+Butler County, OH\n
+Lawrence County, OH\n
+Bucks County, PA\n
+Lincoln County, SD\n
+Knox County, TN\n
+Henrico County, VA\n
+Pierce County, WA\n
   </string>  
 </resources>
   
