@@ -21,8 +21,7 @@ public class VAHenricoCountyParser extends MsgParser {
   protected boolean parseMsg(String body, Data data) {
     String b1 = body.replace("\n", "//");
     Matcher match = MASTER.matcher(b1);
-    if (!match.matches())
-      return false;
+    if (!match.matches()) return false;
     data.strMap = match.group(1);
     data.strTime = match.group(2) + ':' + match.group(3);
     parseAddress(match.group(4).trim(), data);
@@ -37,5 +36,13 @@ public class VAHenricoCountyParser extends MsgParser {
     }
     return true;
   }
-
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    Matcher match = INN_INTERSECTION_PTN.matcher(addr);
+    if (match.matches()) addr = match.replaceAll("$1 $2");
+    return addr;
+  }
+  private static final Pattern INN_INTERSECTION_PTN = 
+      Pattern.compile("(I[- ]*\\d+).*( & .*)", Pattern.CASE_INSENSITIVE);
 }
