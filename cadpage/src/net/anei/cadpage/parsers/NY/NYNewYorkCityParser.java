@@ -19,6 +19,7 @@ public class NYNewYorkCityParser extends FieldProgramParser {
 
 	  @Override
 	  protected boolean parseMsg(String body, Data data) {
+	    body = body.replace(" Bet ", " Bet: ");
 	    return parseFields(body.split(" - "), 3, data);
 	  }
 	}

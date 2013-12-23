@@ -43,6 +43,10 @@ Pbagnpg: Rina Z. Encc <rina.encc@ectal.pbz>
 Fraqre: ey_pnyyvq@ungmnynu.bet
 1390 Oebnqjnl - Ncg: 214 - 2aq sybbe - Pnyy VQ: 102-551-40\a
 
+Pbagnpg: Fnzzl Urpug <fnzzlurpug@tznvy.pbz>
+Fraqre: fnzzls245+pns_=3474512227=igrkg.pbz@tznvy.pbz
+1068 R 15Gu Fg - Org Nirahr W & Nirahr X - Pnyy VQ: 108-493-10
+
 */
 
 choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -213,6 +217,17 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:214",
         "CYNPR:2aq sybbe",
         "VQ:102-551-40");
+   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFnzzlUrpug() {
+
+    qbGrfg("G1",
+        "1068 R 15Gu Fg - Org Nirahr W & Nirahr X - Pnyy VQ: 108-493-10",
+        "NQQE:1068 R 15Gu Fg",
+        "K:Nirahr W & Nirahr X",
+        "VQ:108-493-10");
    
   }
   
