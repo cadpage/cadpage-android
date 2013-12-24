@@ -7,7 +7,7 @@ public class TNJeffersonCountyParser extends DispatchSouthernParser {
   
   
   public TNJeffersonCountyParser() {
-    super(CITY_LIST, "JEFFERSON COUNTY", "TN", DSFLAG_DISPATCH_ID | DSFLAG_ID_OPTIONAL);
+    super(CITY_LIST, "JEFFERSON COUNTY", "TN", DSFLAG_OPT_DISPATCH_ID | DSFLAG_ID_OPTIONAL);
   }
   
   @Override

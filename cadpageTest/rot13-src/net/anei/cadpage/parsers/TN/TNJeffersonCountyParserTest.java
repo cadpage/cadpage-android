@@ -20,6 +20,10 @@ SEZ:QVFCNGPU@wrssrefbapbhaglga.tbi\e\aZFT:QVFCNGPU:542 PBHAGL YVAR EQ QNAQEVQTR 
 SEZ:QVFCNGPU@wrssrefbapbhaglga.tbi\e\aZFT:QVFCNGPU:4800 GVZORE JNL FRIVREIVYYR 20:28:20 PURFG CNVA URNEG CEBOYRZF\e\a
 SEZ:QVFCNGPU@wrssrefbapbhaglga.tbi\e\aZFT:QVFCNGPU:542 PBHAGL YVAR EQ QNAQEVQTR 10:01:21 FGEBXR (PIN)\e\a
 
+Pbagnpg: Wbanguna Zbetna <wbangunazbetna535@tznvy.pbz>
+Fraqre: QVFCNGPU@wrssrefbapbhaglga911.bet
+1030 J UVTUJNL 11R ARJ ZNEXRG 12:23:48 PBAINYRFPRAG GENAFCBEG
+
 */
 
 choyvp pynff GAWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -91,6 +95,18 @@ choyvp pynff GAWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FGEBXR",
         "VASB:(PIN)");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbangunaZbetna() {
+
+    qbGrfg("G1",
+        "1030 J UVTUJNL 11R ARJ ZNEXRG 12:23:48 PBAINYRFPRAG GENAFCBEG",
+        "NQQE:1030 J UVTUJNL 11R",
+        "PVGL:ARJ ZNEXRG",
+        "GVZR:12:23:48",
+        "PNYY:PBAINYRFPRAG GENAFCBEG");
+    
   }
   
 
