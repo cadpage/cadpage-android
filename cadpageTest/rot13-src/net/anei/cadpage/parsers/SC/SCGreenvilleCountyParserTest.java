@@ -44,6 +44,10 @@ Pbagnpg: fhccbeg@npgvir911.pbz
 [] PNQ:SVER HAQRE PBAGEBY;2 OYHRTENFF PG; GNLY;QVFG: 60.52 SG (F) (A)14I\aPBASVQRAGVNYVGL ABGVPR: Guvf r-znvy naq nal svyrf genafzvggrq jvgu vg ner pbasvqragvny naq znl pbagnva vasbezngvba juvpu vf yrtnyyl cevivyrtrq be bgurejvfr rkrzcg sebz qvfpybfher. Gurl ner vagraqrq fbyryl sbe gur hfr bs gur vaqvivqhny be ragvgl gb jubz guvf r-znvy vf nqqerffrq. Vs lbh ner abg bar bs gur anzrq erpvcvragf be bgurejvfr unir ernfba gb oryvrir gung lbh unir erprvirq guvf zrffntr va reebe, cyrnfr vzzrqvngryl abgvsl gur fraqre naq qryrgr guvf zrffntr vzzrqvngryl sebz lbhe pbzchgre. Nal bgure hfr, ergragvba, qvffrzvangvba, sbejneqvat, cevagvat, be pbclvat bs guvf r-znvy vf fgevpgyl cebuvovgrq.\a
 [] PNQ:FREIVPR PNYY;1798 A 25 UJL/FXLIVRJ QE;GENI;(F) (A)12V;ab arrq sbe gbarf [08/28/12 10:21:26 NUVAGBA] ;GI1\e\a\e\a\e\a\e\a\e\aPBASVQRAGVNYVGL ABGVPR: Guvf r-znvy naq nal svyrf genafzvggrq jvgu vg ner pbasvqragvny naq znl pbagnva vasbezngvba juvpu vf yrtnyyl cevivyrtrq be bgurejvfr rkrzcg sebz qvfpybfher. Gurl ner vagraqrq fbyryl sbe gur hfr bs gur vaqvivqhny be ragvgl gb jubz guvf r-znvy vf nqqerffrq. Vs lbh ner abg bar bs gur anzrq erpvcvragf be bgurejvfr unir ernfba gb oryvrir gung lbh unir erprvirq guvf zrffntr va reebe, cyrnfr vzzrqvngryl abgvsl gur fraqre naq qryrgr guvf zrffntr vzzrqvngryl sebz lbhe pbzchgre. Nal bgure hfr, ergragvba, qvffrzvangvba, sbejneqvat, cevagvat, be pbclvat bs guvf r-znvy vf fgevpgyl cebuvovgrq.\e\a\e\a\a
 
+Pbagnpg: Jnlar Ebff <jnlarebff44@lnubb.pbz>
+Fraqre: 8643850725
+PNQ:FREIVPR PNYY;1635 NAQREFBA EVQTR EQ;FVZC;ERQ BEPUNEQ EQ;SVRYQZBAG PVE;(F) (A)54I;PF1
+
  */
 
 
@@ -339,6 +343,20 @@ choyvp pynff FPTerraivyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:12V",
         "QNGR:08/28/12",
         "GVZR:10:21:26");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgJnlarEbff() {
+
+    qbGrfg("G1",
+        "PNQ:FREIVPR PNYY;1635 NAQREFBA EVQTR EQ;FVZC;ERQ BEPUNEQ EQ;SVRYQZBAG PVE;(F) (A)54I;PF1",
+        "PNYY:FREIVPR PNYY",
+        "NQQE:1635 NAQREFBA EVQTR EQ",
+        "PVGL:FVZCFBAIVYYR",
+        "K:ERQ BEPUNEQ EQ & SVRYQZBAG PVE",
+        "VASB:PF1",
+        "ZNC:54I");
 
   }
   
