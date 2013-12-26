@@ -24,7 +24,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
   
   @Override
   public String getFilter() {
-    return "@CO.BURLINGTON.NJ.US";
+    return "@CO.BURLINGTON.NJ.US,messaging@iamresponding.com";
   }
   
   @Override
@@ -42,6 +42,11 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
       source = subject.substring(pt1,pt2+1);
       subject = SUBJECT_SIGNATURE;
     }
+    
+    // On top of that, IAR can be configured to drop some vital pieces that
+    // we will try to replace
+    body = body.replace("\nDispatchNature of Call :", "\n\nArea:  Section :   Beat :   Map :\nGrid:  Quadrant:  District:\nPhone Number:  Call Source:\nNature of Call :");
+    
     
     if (!super.parseMsg(subject, body, data)) return false;
     
