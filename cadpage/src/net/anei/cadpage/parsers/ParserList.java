@@ -472,7 +472,7 @@ public class ParserList {
               ,"NJCENCOM"                       ,"CENCOM (Central NJ), NJ"
               ,"NJCumberlandCounty"             ,"Cumberland County, NJ"
               ,"NJGloucesterCounty"             ,"Gloucester County, NJ"
-              ,"NJJCMCEMSHudCEN"                ,"JCMC EMS HudCEN, NJ"
+              ,"NJJCMCEMSJerseyCity"            ,"JCMC EMS Jersey City, NJ"
               ,"NJHunterdonCounty"              ,"Hunterdon County, NJ"
               ,"NJMercerCounty"                 ,"Mercer County, NJ"
               ,"NJMICOM"                        ,"MICCOM (Northern NJ), NJ"

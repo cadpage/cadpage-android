@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.NJ;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,31 +12,40 @@ import net.anei.cadpage.parsers.MsgParser;
 /**
  * JCMC EMS HudCEN, NJ
  */
-public class NJJCMCEMSHudCENParser extends MsgParser {
+public class NJJCMCEMSJerseyCityParser extends MsgParser {
   
-  private static final Pattern CANCEL_PTN = Pattern.compile("Call Cancelled: (.*) Cancelled: #([-0-9]+)");
+  private static final Pattern TIME_PTN = Pattern.compile("(.*?) +(\\d\\d?:\\d\\d [AP]M)");
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm aa");
+  
+  private static final Pattern CANCEL_PTN = Pattern.compile("Call Cancelled: (.* Cancelled:[\\d:]*) #([-0-9]+)");
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("Times: (.*?) +Response Number:([-0-9]+)");
   private static final Pattern MASTER_PTN = Pattern.compile("Unit:(\\d+) +(.*?) Resp:(.*?) Apt\\.(.*)/(.*?)S?Cross:(.*)");
   
-  public NJJCMCEMSHudCENParser() {
+  
+  public NJJCMCEMSJerseyCityParser() {
     super("HUDSON COUNTY", "NJ");
   }
   
   @Override
   public String getFilter() {
-    return "hudcen@libertyhcs.org";
+    return "hudcen@libertyhcs.org,";
   }
   
   @Override
   public String getLocName() {
-    return "JCMC EMS HudCEN, NJ";
+    return "JCMC EMS Jersey City, NJ";
   }
 
   @Override
   public boolean parseMsg(String body, Data data) {
-    Matcher match = CANCEL_PTN.matcher(body);
+    Matcher match = TIME_PTN.matcher(body);
     if (match.matches()) {
-      setFieldList("CALL PLACE ID");
+      body = match.group(1);
+      setTime(TIME_FMT, match.group(2), data);
+    }
+    match = CANCEL_PTN.matcher(body);
+    if (match.matches()) {
+      setFieldList("CALL PLACE ID TIME");
       data.strCall = "Call Cancelled";
       data.strPlace = match.group(1).trim();
       data.strCallId = match.group(2);
@@ -51,7 +62,7 @@ public class NJJCMCEMSHudCENParser extends MsgParser {
     
     match = MASTER_PTN.matcher(body);
     if (match.matches()) {
-      setFieldList("UNIT CITY ADDR APT CALL X");
+      setFieldList("UNIT CITY ADDR APT CALL X TIME");
       data.strUnit = match.group(1);
       data.strCity = match.group(2).trim();
       parseAddress(match.group(3).trim(), data);

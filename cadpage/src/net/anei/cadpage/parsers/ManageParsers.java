@@ -171,7 +171,8 @@ public class ManageParsers {
         "NCGreensboro",       "NCGuilfordCounty",       // 03/22/2013
         "NCDavieCountyA",     "NCDavieCounty",          // 09/30/2013
         "NCDavieCountyB",     "NCDavieCounty",          // 09/30/2013
-        "NJHudsonCounty",     "NJJCMCEMSHudCEN"         // 11/22/2013
+        "NJHudsonCounty",     "NJJCMCEMSHudCEN",        // 11/22/2013
+        "NJJCMCEMSHudCEN",     "NJJCMCEMSJerseyCity"    // 12/27/2013
         
   });
 
