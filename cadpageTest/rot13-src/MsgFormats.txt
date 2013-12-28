@@ -7445,7 +7445,7 @@ Fraqre: QRP <911nqzva@evpuzbaqtbi.pbz>
 ,2414 E FG EVPU: @RNFG RAQ OENAPU YVOENEL ,Glcr: NPPVQRAG, UNMNEQ-PBAGEBY,Kfgerrg1: A 24GU FG,Kfgerrg2: A 25GU FG
 ,Glcr: NPPVQRAG, UNMNEQ-PBAGEBY,Kfgerrg1: A 25GU FG,Kfgerrg2: E FG
 **********************************************************
-2013030410000524 (Cngevpx)
+2013030410000524 (Cngevpx)  ($300)
 QhCntr Pbhagl, VY (O)
 
 Pbagnpg: Npgvir911
