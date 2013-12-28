@@ -8,12 +8,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 import net.anei.cadpage.parsers.dispatch.DispatchA16Parser;
 /**
- * Litchfield County, CT (B) New Milford Twp
+ * New Milford Twp, CT
  */
-public class CTLitchfieldCountyBParser extends DispatchA16Parser {
+public class CTNewMilfordParser extends DispatchA16Parser {
   
-  public CTLitchfieldCountyBParser() {
-    super(CTLitchfieldCountyParser.CITY_LIST, "LITCHFIELD COUNTY", "CT");
+  public CTNewMilfordParser() {
+    super(CTLitchfieldCountyParser.CITY_LIST, "NEW MILFORD", "CT");
   }
 
   @Override
@@ -61,5 +61,5 @@ public class CTLitchfieldCountyBParser extends DispatchA16Parser {
     }
     return field;
   }
-  private static final Pattern CODE_PTN = Pattern.compile("(.*?)\\**(\\d{1,2}-[A-Z]-\\d{1,2}[A-Z]?)\\**");
+  private static final Pattern CODE_PTN = Pattern.compile("(.*?)\\**(\\d{1,2}-?[A-Z]-?\\d{1,2}[A-Z]?)\\**");
 }

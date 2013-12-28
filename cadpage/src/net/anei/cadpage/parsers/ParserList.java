@@ -191,6 +191,7 @@ public class ParserList {
               ,"CTMiddlesexCounty"              ,"Middlesex County, CT"
               ,"CTNewHavenCounty"               ,"New Haven County, CT"
               ,"CTNewLondonCounty"              ,"New London County, CT"
+              ,"CTNewMilford"                   ,"New Milford County, CT"
               ,"CTNorthwestPublicSafety"        ,"Northwest Public Safety, CT"
               ,"CTSimsbury"                     ,"Simsbury, CT"
               ,"CTStamford"                     ,"Stamford, CT"

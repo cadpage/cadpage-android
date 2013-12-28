@@ -18,8 +18,8 @@ choyvp pynff PGYvgpusvryqPbhaglCnefreGrfg {
     }
   }
   
-  choyvp fgngvp pynff GrfgO rkgraqf PGYvgpusvryqPbhaglOCnefreGrfg {
-    choyvp GrfgO() {
+  choyvp fgngvp pynff GrfgArjZvyysbeq rkgraqf PGArjZvysbeqCnefreGrfg {
+    choyvp GrfgArjZvyysbeq() {
       frgCnefre(arj PGYvgpusvryqPbhaglCnefre());
     }
   }

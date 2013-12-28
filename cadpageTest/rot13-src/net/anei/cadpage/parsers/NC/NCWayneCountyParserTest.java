@@ -88,6 +88,10 @@ Pbagnpg: fgbez406 <fgbez406@lnubb.pbz>
 Fraqre: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg
 EG:Pneoba Zbabkvqr Nynez  Ybp:403 QRAZNEX FG, TBYQFOBEB (UVAFBA FG/)
 
+Pbagnpg: Pagel21gueza <pagel21gueza@nby.pbz>
+Fraqre: Tebhc_Cntr_Abgvsvpngvba@hfnzbovyvgl.arg
+EG:Sver Nynez  Ybp:1600 GNZCN FG, TBYQFOBEB (AVAGU FG/)
+
 */
 
 choyvp pynff APJnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -610,6 +614,18 @@ choyvp pynff APJnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:TBYQFOBEB",
         "K:UVAFBA FG");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPagel21gueza() {
+
+    qbGrfg("G1",
+        "EG:Sver Nynez  Ybp:1600 GNZCN FG, TBYQFOBEB (AVAGU FG/)",
+        "PNYY:Sver Nynez",
+        "NQQE:1600 GNZCN FG",
+        "PVGL:TBYQFOBEB",
+        "K:AVAGU FG");
+   
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
