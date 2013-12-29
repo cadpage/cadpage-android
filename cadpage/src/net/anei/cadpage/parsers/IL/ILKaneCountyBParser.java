@@ -80,7 +80,7 @@ public class ILKaneCountyBParser extends SmartAddressParser{
     "FALLS",
     "FIRE ALARM FF CM/MF",
     "FIRE ALARM FF SF",
-    "Full Still FIRE DEPARTMENT RECALL BATAVIA FIRE DEPT 2",
+    "Full Still FIRE DEPARTMENT RECALL",
     "GAS LEAK IN",
     "GAS LEAK OUT",
     "General Alarm",

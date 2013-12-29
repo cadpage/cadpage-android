@@ -405,9 +405,9 @@ choyvp pynff NYZnefunyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G9",
         "911-PRAGRE:NOCNVA>NOQBZVANY CNVA TBYQRA YVIVAT 55-N OBNM XHLXRAQNYY, SENAPRF",
         "PBQR:NOCNVA",
-        "PNYY:NOQBZVANY CNVA TBYQRA YVIVAT",
-        "NQQE:55-N OBNM",
-        "ZNQQE:55 OBNM",
+        "PNYY:NOQBZVANY CNVA",
+        "NQQE:TBYQRA YVIVAT 55-N",
+        "PVGL:OBNM",
         "ANZR:XHLXRAQNYY, SENAPRF");
 
     qbGrfg("G10",

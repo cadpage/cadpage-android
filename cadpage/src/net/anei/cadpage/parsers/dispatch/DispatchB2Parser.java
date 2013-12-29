@@ -19,7 +19,7 @@ Go Figure
 
 public class DispatchB2Parser extends DispatchBParser {
   
-  private static final Pattern CODE_PATTERN = Pattern.compile("^([-/A-Z0-9]*) *> *"); 
+  private static final Pattern CODE_PATTERN = Pattern.compile("^([-/A-Z0-9]*|\\?) *> *"); 
   private static final Pattern PHONE_PTN = Pattern.compile(" *((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4})$");
   private static final Pattern PHONE2_PTN = Pattern.compile("^((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}) *");
   private static final Pattern APT_PTN = Pattern.compile("[A-Z]?\\d+[A-Z]?");

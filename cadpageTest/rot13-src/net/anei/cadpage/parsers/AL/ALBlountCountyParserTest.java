@@ -1465,7 +1465,8 @@ choyvp pynff NYOybhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G12",
         "(?     >HAXABJA) 4000 OYX YRUVTU Pnq: 2013-0000010859",
-        "PNYY:?     >HAXABJA",
+        "PBQR:?",
+        "PNYY:HAXABJA",
         "NQQE:4000 OYX YRUVTU",
         "ZNQQE:4000  YRUVTU",
         "VQ:2013-0000010859");

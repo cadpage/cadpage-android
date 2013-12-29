@@ -925,7 +925,6 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   
   private static final CodeSet CALL_LIST = new CodeSet(
       "ASSIST PD",
-      "ASSIST PD",
       "CARBON MONOXIDE INVESTIGATION",
       "COMERCIAL FIRE ALARM",
       "COMMERCIAL FIRE ALARM",
@@ -941,9 +940,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "INJURED PERSON",
       "INVESTIGATION-UNKNOWN SIT.",
       "LIFT ASSIST ONLY",
-      "LIFT ASSIST ONLY",
       "LOCKED VEHICLE/RESIDENCE",
-      "MAJOR ACCIDENT",
       "MAJOR ACCIDENT",
       "MAJOR ACCIDENT 10/50",
       "MAJOR HIT AND RUN ACCIDENT",

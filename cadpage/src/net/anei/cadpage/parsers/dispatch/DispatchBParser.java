@@ -193,7 +193,6 @@ public class DispatchBParser extends FieldProgramParser {
   private void setup() {
     setFieldList("CODE CALL ADDR APT X PLACE CITY NAME PHONE BOX MAP ID");
     setupCallList(
-        "?     >UNKNOWN",
         "911 HANG UP",
         "911 HANGUP/OPEN LINE",
         "911 TRANSFER TO ANOTHER COUNTY",
@@ -201,7 +200,6 @@ public class DispatchBParser extends FieldProgramParser {
         "ABDOM PAIN - FEM 12-50 W/FAINT",
         "ABDOM PAIN FAINT/NEAR > 50",
         "ABDOMINAL PAIN",
-        "ABDOMINAL PAIN GOLDEN LIVING",
         "ABDOMINAL PAINS",
         "ABDOMINAL PAINS CHARLIE",
         "ABDOMINAL/BACK PAIN",
@@ -234,7 +232,7 @@ public class DispatchBParser extends FieldProgramParser {
         "AMBULANCE ALS",
         "ANIMAL BITE",
         "ANIMAL COMPLAINT",
-        "ARMED ROBBERY IN PROG. BM BLUE SHIRT BJ WHITE SUV SMALL PISTOL TOOK CASH AND ITEMS FROM COUNTRY CORNER EXXON",
+        "ARMED ROBBERY IN PROG.",
         "ARSON FIRE",
         "ASSAULT",
         "ASSAULT/SEXUAL ASSAULT",
@@ -497,7 +495,6 @@ public class DispatchBParser extends FieldProgramParser {
         "LINES DOWN",
         "LINES DOWN POWER/PHONE/CABLE",
         "LIVESTOCK",
-        "LZ TRAINING TOMORROW NIGHT 1830",
         "MVA-ALS PRI1",
         "M.V.A. - POSSIBLE INJURIES",
         "MED PRE-ALERT",
@@ -667,7 +664,6 @@ public class DispatchBParser extends FieldProgramParser {
         "SYNCOPE",
         "TEST",
         "THEFT COMPLAINT",
-        "TRAFAC",
         "TRAFAC",
         "TRAFFIC ACCIDENT",
         "TRAMATIC INJURY",

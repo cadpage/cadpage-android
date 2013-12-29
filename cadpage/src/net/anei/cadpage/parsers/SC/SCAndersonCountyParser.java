@@ -29,8 +29,21 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
     data.strUnit = getOptGroup(match.group(1));
     body = body.substring(match.end()).trim();
     
+    if (!body.contains(" Cad:")) {
+      data.strCall = "GENERAL ALERT";
+      if (subject.length() > 0) body = '(' + subject + ") " + body;
+      data.strPlace = body;
+      return true;
+    }
+    
     if (subject.equals("EVENT")) subject = "EVENT:";
     body = append(subject, " ", body);
+    
+    if (!body.contains(" Cad:")) {
+      data.strCall = "GENERAL ALERT";
+      data.strPlace = body;
+      return true;
+    }
     
     // Call superclass parser
     body = body.replace('@', '&').replace("//", "/");
