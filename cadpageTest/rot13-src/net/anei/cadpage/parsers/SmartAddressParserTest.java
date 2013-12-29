@@ -42,7 +42,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp FznegNqqerffCnefreGrfg() {
     cnefre = arj GrfgCnefre(PVGL_YVFG, QRS_PVGL, QRS_FGNGR);
     cnefre.frghcZhygvJbeqFgerrgf("WRNA TBHY", "CNHY T TRGGL", "PNCR FG PYNVER");
-    frgCnefre(cnefre, QRS_PVGL, QRS_FGNGR);
+    frgCnefre(cnefre, QRS_PVGL, QRS_FGNGR, snyfr);
   }
   
   @Grfg

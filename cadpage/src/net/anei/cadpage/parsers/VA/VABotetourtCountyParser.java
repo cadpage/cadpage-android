@@ -128,6 +128,7 @@ public class VABotetourtCountyParser extends DispatchSouthernParser {
       
       "ACCIDENT 10-50 NB",
       "CARDIAC",
+      "FLUE FIRE",
       "MISC ILLNESS",
       "SOTT - SEARCH AND RESCUE"
   );

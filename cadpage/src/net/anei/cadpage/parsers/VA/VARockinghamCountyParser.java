@@ -20,6 +20,11 @@ public class VARockinghamCountyParser extends DispatchDAPROParser {
 	  }
 	  
 	  private static final CodeSet CALL_SET = new CodeSet(
+	      "ABDOMINAL PAIN",
+	      "ALLERGIC REACTION",
+	      "CARDIAC ARREST",
+	      "CHEST PAINS",
+	      "DIFFICULTY BREATHING",
         "EMS-ABDOMINAL PAIN",
         "EMS-CARDIAC CONDITION",
         "EMS-CHEST PAIN",
@@ -28,7 +33,15 @@ public class VARockinghamCountyParser extends DispatchDAPROParser {
         "EMS-MENTAL PROBLEM",
         "EMS-STROKE",
         "EMS-TRAUMA INJURIES",
-        "TRAFFIC CRASH"
+        "FRACTURE",
+        "GENERAL ILLNESS",
+        "INJURIES FROM A FALL",
+        "INJURY - LEG, ARM, ETC.",
+        "PSYCHIATRIC EMERGENCY",
+        "SEIZURES",
+        "SMOKE IN THE AREA",
+        "TRAFFIC CRASH",
+        "VEHICLE FIRE"
 	  );
 	  
 	  private static final Properties CITY_CODES = buildCodeTable(new String[]{

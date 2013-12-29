@@ -32,6 +32,8 @@ public class VALunenburgCountyParser extends DispatchDAPROParser {
       "ACCIDENT",
       "ALARM",
       "ALERGIC REACT",
+      "ALLERGIC REACT",
+      "ARGUEMENT",
       "ARGUMENT",
       "ASTHMA",
       "BLEEDING",

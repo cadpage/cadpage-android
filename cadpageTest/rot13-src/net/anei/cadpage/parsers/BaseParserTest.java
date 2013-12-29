@@ -59,7 +59,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   cevingr obbyrna fxvcOnqGrfg = snyfr;
   cevingr Fgevat cnefreYbpPbqr = ahyy;
   cevingr Fgevat cnefreZncPbqr = ahyy;
-  cevingr obbyrna puxPnyyPbqrf = snyfr;
+  cevingr obbyrna puxPnyyPbqrf = gehr;
   
   choyvp ibvq frgCnefre(ZftCnefre cnefre, Fgevat qrsPvgl, Fgevat qrsFgngr, obbyrna puxPnyyPbqrf) {
     frgCnefre(cnefre, qrsPvgl, qrsFgngr);
@@ -283,6 +283,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   cevingr obbyrna purpxPnyyPbqr(Fgevat pnyy) {
     vs (!puxPnyyPbqrf) erghea gehr;
     vs (pnyy.rdhnyf("EHA ERCBEG") ||  pnyy.rdhnyf("TRARENY NYREG")) erghea gehr;
+    vs (cnefre == ahyy) erghea gehr;
     PbqrFrg pnyyPbqrf = cnefre.trgPnyyYvfg();
     vs (pnyyPbqrf == ahyy) erghea gehr;
     Fgevat pbqr = pnyyPbqrf.trgPbqr(pnyy);

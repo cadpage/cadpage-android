@@ -39,13 +39,17 @@ public class VANewKentCountyParser extends DispatchDAPROParser {
   }
   
   private static final CodeSet CALL_SET = new CodeSet(
+      "ASSIST ANOTHER AGENCY",
       "BREATHING DIFFICULTY",
       "CARDIAC (WITH HISTORY)",
       "DEBRIS/TREE IN ROAD",
       "MOTOR VEHICLE ACCIDENT",
       "RESIDENTIAL FIRE ALARM",
-      "SUSPICIOUS SITUATION",
+      "SEIZURE/CONVULSIONS",
       "SEIZURE/CONVUSIONS",
+      "SICK (UNKNOWN MEDICAL)",
+      "SUSPICIOUS SITUATION",
+      "TEST ONLY",
       "VEHICLE FIRE"
   );
 }

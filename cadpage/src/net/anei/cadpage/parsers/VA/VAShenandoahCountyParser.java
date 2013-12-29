@@ -56,18 +56,31 @@ public class VAShenandoahCountyParser extends SmartAddressParser {
   }
   
   private static final CodeSet CALL_LIST = new CodeSet(
+      "Altered Mental Status",
       "ALTERED MENTAL STATUS",
+      "Cardiac Arrest",
+      "Cardiac Emergency",
       "CARDIAC EMERGENCY",
+      "Choking",
       "CHOKING",
+      "Diabetic Emergency",
       "DIABETIC EMERGENCY",
+      "Difficulty Breathing",
       "DIFFICULTY BREATHING",
+      "Fire Alarm",
       "FIRE ALARM",
+      "General Illness",
       "GENERAL ILLNESS",
+      "Injured Person",
       "INJURED PERSON",
+      "Medical Alarm",
       "MEDICAL ALARM",
       "MVC",
+      "Public Service",
       "PUBLIC SERVICE",
+      "Suicide Attempt/Completed",
       "SUICIDE ATTEMPT/COMPLETED",
+      "Vehicle Fire",
       "VEHICLE FIRE"
 );
   

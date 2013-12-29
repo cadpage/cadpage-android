@@ -141,6 +141,7 @@ public class MOStLouisCountyBParser extends FieldProgramParser {
       "CHEST PAIN",
       "COMALM",
       "COMERCIAL FIRE",
+      "COMMERCIAL FIRE",
       "DIABETIC",
       "DIFFICULTY BREATHING",
       "FAINTING (NEAR FAINTING)",

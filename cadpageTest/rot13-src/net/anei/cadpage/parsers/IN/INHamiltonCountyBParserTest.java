@@ -117,7 +117,7 @@ PNQ:N75,R75 QVNORGVP 104 DHRRAF YA ABO (F)ABOYR ZNABE NCNEGZRAGF (A) 75 [Zrqvpny
 choyvp pynff VAUnzvygbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VAUnzvygbaPbhaglOCnefreGrfg() {
-    frgCnefre(arj VAUnzvygbaPbhaglOCnefre(), "UNZVYGBA PBHAGL", "VA");
+    frgCnefre(arj VAUnzvygbaPbhaglOCnefre(), "UNZVYGBA PBHAGL", "VA", snyfr);
   }
   
   @Grfg

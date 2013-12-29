@@ -20,6 +20,7 @@ public class VAFluvannaCountyParser extends DispatchDAPROParser {
   
   private static final CodeSet CALL_SET = new CodeSet(
       "BREATHING DIFFICULTY",
+      "BRUSH FIRE",
       "CHEST PAIN (NO CARDIAC HISTORY",
       "DIZZINESS/VERTIGO/WEAKNESS",
       "FIRE ALARM ACTIVATION",
@@ -29,6 +30,7 @@ public class VAFluvannaCountyParser extends DispatchDAPROParser {
       "OTHER - EXPLAIN IN REMARKS",
       "SMOKE/ODOR INV INSIDE STRUCTUR",
       "STROKE",
+      "RUNAWAY",
       "TREE ON LINE/ROAD"
   );
 }
