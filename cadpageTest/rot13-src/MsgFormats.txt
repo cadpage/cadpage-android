@@ -327,7 +327,7 @@ Fhffrk Pbhagl, AW (AWFhffrkPbhaglOCnefre)
 * QvfcngpuN12Cnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
-Pncr Tveneqrnh Pbhagl, ZB (ZBPncrTveneqrnhPbhaglCnefre) 
+Pncr Tveneqrnh Pbhagl, ZB (ZBPncrTveneqrnhPbhaglNCnefre) 
 ZRQVPNY NFFVFG SVER SVER (P4_0132) Ybp:224 F CNPVSVP FG Epiq: 22:39:11 Havgf: R1 PNCR2013039343 Pbzzragf:9/4/2013 10:37:50 CZ YVIRE SNVYHER\a9/4/2013 10:39:09 CZ CG VA N UHAGRE TERRA UBAQN NPPBEQ 
 ZRQVPNY NFFVFG SVER SVER (P1_0314) Ybp:1510 FPBGG FG Epiq: 21:41:59 Havgf: R3 PNCR2013039339 Pbzzragf:9/4/2013 9:42:13 CZ 51 LE BYQ SRZNYR CNFFRQ BHG\a9/4/2013 9:42:16 CZ OERNGUVAT 
 GENSSVP VAWHEL ZIP SVER (P3_0123) Ybp:1601 VAQRCRAQRAPR FG ;@SNEZREF FNYRF NAQ FREIVPR Epiq: 19:58:39 Havgf: R1 PNCR2013039328 Pbzzragf:9/4/2013 7:58:54 CZ TENL UBAQN CP IF CRQRFGEVNA\a9/4/2013 7:59:20 CZ VAORGJRRA PNE YBG NAQ ERPBIREL EBZ 
@@ -3042,6 +3042,12 @@ Arjgba Pbhagl, ZF (ZFArjgbaPbhaglCnefre)
 NYNEZ-SVER HSQ () Ybp:3391 UJL 494 [@EBOVAFBA WBFU & PNFRL Epiq: 10:29:10 13004716
 ZRQVPNY PNYY HSE () Ybp:103 ZNFBA FG Epiq: 09:7:16 13004713
 ZRQVPNY PNYY HSE () Ybp:107 PNEIRE FG Epiq: 08:43:6 13004710
+****************************************************************************
+Pncr Tveneqrnh Pbhagl, ZB (ZBPncrTveneqrnhPbhaglOCnefre)
+SQGLCR:SVER ZRQVPNY NFFVFG, YBPNGVBA:1032 YRVTU NAA PG [@Sevrqevpx, Ovyy,
+SQGLCR:SVER ZRQVPNY NFFVFG, YBPNGVBA:318 TERRAFSREEL EQ,\a
+SQGLCR:SVER ZRQVPNY NFFVFG, YBPNGVBA:406 RNFG YA [3,\a
+SQGLCR:SVER ZRQVPNY NFFVFG, YBPNGVBA:5500 BYQ PNCR EQ,\a
 ****************************************************************************
 Penjsbeq Pbhagl, ZB (ZBPenjsbeqPbhagl)
 (Obheoba Sver) FGVYY NYNEZ ZIP /  / 222.3 V44 JO OBHEOBA /  /  /  / C,3627 R61 FD60 816 BAR IRUVPYR VAGB THNEQ ENVY. HAXABJA VAWHEVRF. HAXABJA RAGENCZRAG.\a(Obheoba Sver) ZRQ RZRE /  / 216 V44 RO OBHEOBA /  /  /  / Pnyy Erprvirq ba 06/09/2012 @ 20:07 C,3627 2LBS FRVMHER NPGVIVGL. ABG OERNGUVAT. VA N TERL FROEVAT BA FVQR BS EBNQJNL. QBRF UNIR UVFGBEL BS FRVMHER.
@@ -7002,13 +7008,6 @@ Flfgrz: Cheivf
 **********************************************************
 **********************************************************
 **********************************************************
-Pncr Tveneqrnh Pbhagl, ZB (nygreangr)
-Pbagnpg: Frna Zvgpuryy <frnazvgpuryy3541@lnubb.pbz>
-Fraqre: wcq@pvglbspncrtveneqrnh.bet
-SQGLCR:SVER ZRQVPNY NFFVFG, YBPNGVBA:1032 YRVTU NAA PG [@Sevrqevpx, Ovyy,
-SQGLCR:SVER ZRQVPNY NFFVFG, YBPNGVBA:318 TERRAFSREEL EQ,\a
-SQGLCR:SVER ZRQVPNY NFFVFG, YBPNGVBA:406 RNFG YA [3,\a
-SQGLCR:SVER ZRQVPNY NFFVFG, YBPNGVBA:5500 BYQ PNCR EQ,\a
 **********************************************************
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
