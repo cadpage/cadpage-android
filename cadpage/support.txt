@@ -51,7 +51,7 @@ Have a nice day,
 * Cadpage triggered bugreport dump
 ***************************************************************************
 
-This is a Google problem that they do not have a solution for yet.  Something about recent releases of the Google Play Services is breaking GCM registration for a very small number of users running Gingerbread phones.  It looks like happen to be one of those unlucky few.
+This is a Google problem that they do not have a solution for yet.  Something about the October release of the Google Play Services is breaking GCM registration for a very small number of users running Gingerbread phones.  It looks like happen to be one of those unlucky few.
 
 The latest version of Cadpage does have some extra logic to help Google identify the source of this problem.  That logic has been tripped on your phone and created a file on your SD card that needs to be emailed to us so I can forward it to the Google engineer working on this problem.  The simplest way to do that is probably to connect your phone to a PC as a disk and copy the file Download/bugreport.cadpage.gz from your phone SD card to the PC and then include in an email to ken@cadpage.org.
 
