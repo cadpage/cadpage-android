@@ -1,36 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12232013</string>
-  <string name="release_version">v1.6.59</string>
+  <string name="release_date">12312013</string>
+  <string name="release_version">v1.6.60</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Litchfield County, CT (alt)\n
-Boone County, IN\n
-Washington County, OH\n
-Moore County, TN\n
-Roanoke, TX\n
-Mason County, WV\n
+Cape Giradeau County, MO (alt)\n
 \n
 Location Parsing Fixes:\n
-Madison County, AL\n
-San Bernardino County, CA\n
-New Haven County, CT\n
-Kosciusko County, IN\n
-DuPage County, IL\n
-Gallatin County, KY\n
-Dorchester County, MD\n
-Calhoun County, MI\n
-New York, NY\n
-Mecklenburg County, NC\n
-Butler County, OH\n
-Lawrence County, OH\n
-Bucks County, PA\n
-Lincoln County, SD\n
-Knox County, TN\n
-Henrico County, VA\n
-Pierce County, WA\n
+New Milford, CT\n
+Burlington County, NJ\n
+JCMC EMS Jersey Sity, NJ\n
+York COunty, PA\n
+Jefferson County, TN\n
+Montgomery County, TX\n
   </string>  
 </resources>
   
