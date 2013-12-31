@@ -135,6 +135,17 @@ ner frireny qvssreag cnggrea gung arrq gb or purpxrq sbe.  Vs nyy ryfr snvyf
 hfr fzneg nqqerff cnefre gb vqragvsl nqqerff naq chg rirelguvat ryfr va
 qngn.fgeFhcc.  Vs ab nqqerff pna or vqragvsvrq, ercbeg nf TRARENY NYREG.
 
+Yngrfg hcqngr, GKXraqnyyPbhagl nyfb arrqf n cnefre gung unf na nyzbfg vqragvpny 
+cntr sbezng jvgu Uneevfba Pbhagl, fb lbh trg gb qb obgu bs gurz.  Jung jr qb va
+pnfrf yvxr guvf vf perngr n arj QvfcngpuNaaCnefre va gur Qvfcngpu cnpxntr gung 
+unf nyy bs gur pbqr gung arrqf gb or pbzzba jvgu gur gjb cnefref.  Gura fhopynff
+vg sbe rnpu bs gur gjb arj cnefref, chggvat nal ybpngvba fcrpvsvp pbqr va gur
+fhopynff.  Va guvf cnegvphyne pnfr, vg ybbxf yvxr nyy bs gur pbqr jvyy tb va gur
+pbzzba qvfcngpu pynff.  Jr pna cnff gur vavgvny OvybkvQvfcngpu: cersvk nf n 
+cnenzrgre gb gur pbafgehpgbe orpnhfr vg vf qvssrerag.  Vs jr arrq pvgl yvfgf
+gubfr jbhyq nyfb or qrpynerq va gur frcnengr cnefre pynffrf naq cnffrq nf n 
+pbafgehpgbe cnenzrgre gb gur pbzzzba qvfcngpu pynff. 
+
 */
 
 choyvp pynff ZFUneevfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
