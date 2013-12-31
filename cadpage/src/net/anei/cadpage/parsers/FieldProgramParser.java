@@ -2522,7 +2522,7 @@ public class FieldProgramParser extends SmartAddressParser {
 
     @Override
     public void parse(String field, Data data) {
-      data.strUnit = field;
+      data.strUnit = append(data.strUnit, " ", field);
     }
     
     @Override

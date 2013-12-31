@@ -15,7 +15,7 @@ public class PAYorkCountyDParser extends FieldProgramParser {
   
   public PAYorkCountyDParser() {
     super("YORK COUNTY", "PA",
-          "DATE_TIME BOX:BOX_CALL! ADDR! CITY! APT_PLACE CROSS_STREETS:X_INFO! UNITS:UNIT!", FLDPROG_IGNORE_CASE);
+          "DATE_TIME BOX:BOX_CALL! ADDR! CITY! APT_PLACE CROSS_STREETS:X_INFO! UNITS:UNIT! UNIT+", FLDPROG_IGNORE_CASE);
   }
   
   @Override
@@ -134,7 +134,7 @@ public class PAYorkCountyDParser extends FieldProgramParser {
   private class MyCrossInfoField extends Field {
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("NO CROSS STREETS FOUND")) {
+      if (field.toUpperCase().startsWith("NO CROSS STREETS FOUND")) {
         data.strSupp = field.substring(22).trim();
       } else {
         parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_NO_IMPLIED_APT, field, data);
