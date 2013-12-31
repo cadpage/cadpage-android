@@ -42,6 +42,7 @@ public class PAYorkCountyDParser extends FieldProgramParser {
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("APT_PLACE")) return new MyAptPlaceField();
     if (name.equals("X_INFO")) return new MyCrossInfoField();
+    if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
   
@@ -145,6 +146,13 @@ public class PAYorkCountyDParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "X INFO";
+    }
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, " ", field);
     }
   }
 }

@@ -60,11 +60,19 @@ public class CANapaCountyParser extends FieldProgramParser {
       super.parse(field, data);
     }
   }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, " ", field);
+    }
+  }
 
   @Override
   protected Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("ID")) return new MyIdField();
+    if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
 }

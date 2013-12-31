@@ -25,6 +25,15 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
     return parseFields(body.split("\n"), 5, data);
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new  MyAddressField();
+    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("CH")) return new ChannelField("|OPS.*");
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -45,6 +54,13 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, " ", field);
+    }
+  }
+  
   // INFO field skips anything starting with a date/time
   private static Pattern DATE_TIME_PTN = Pattern.compile("^\\d\\d:\\d\\d:\\d\\d: \\d\\d/\\d\\d/\\d\\d\\d\\d\\b");
   private class MyInfoField extends InfoField {
@@ -53,14 +69,6 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
       if (DATE_TIME_PTN.matcher(field).matches()) return;
       super.parse(field, data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new  MyAddressField();
-    if (name.equals("CH")) return new ChannelField("|OPS.*");
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{

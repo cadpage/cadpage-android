@@ -755,7 +755,7 @@ public class SmsMmsMessage implements Serializable {
     
     // A response code of anything other than 'N' will be taken as an 
     // active response which can start the location tracking logic
-    if (!respCode.equals("N") && !respCode.equals("NO")) triggerTracking(context);
+    if (!respCode.startsWith("N")) triggerTracking(context);
   }
   
   /**

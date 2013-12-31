@@ -73,7 +73,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     String program = 
         (version == FLG_VERSION_1 ?
             "SRC PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE CN:NAME CMT1:" + cmt1Fld +  
-            " Original_Location:PLACE2? CMT2:INFO Original_Location:PLACE2? CE:INFO? CMT2:INFO CALLER_STATEMENT:INFO? STATEMENT:INFO? TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT"
+            " Original_Location:PLACE2? CMT2:INFO Original_Location:PLACE2? CE:INFO? CMT2:INFO CALLER_STATEMENT:INFO? STATEMENT:INFO? TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT XST:X XST2:X"
         : version == FLG_VERSION_2 ?
             "TYP:CALL! LOC:PLACE! AD:ADDR/S! XST:X! CMT1:INFO! UNTS:UNIT!"
         : null);    
@@ -180,6 +180,18 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     }
   }
   
+  private class BaseUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strUnit.contains("field")) return;
+      if (data.strUnit.length() > 0 && field.contains(data.strUnit)) {
+        data.strUnit = field;
+      } else {
+        data.strUnit = append(data.strUnit, " ", field);
+      }
+    }
+  }
+  
   private class BaseCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
@@ -197,6 +209,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     if (name.equals("CALL2")) return new BaseCall2Field();
     if (name.equals("PLACE2")) return new BasePlace2Field();
     if (name.equals("INFO")) return new BaseInfoField();
+    if (name.equals("UNIT")) return new BaseUnitField();
     if (name.equals("X")) return new BaseCrossField();
     return super.getField(name);
   }

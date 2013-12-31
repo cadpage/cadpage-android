@@ -34,7 +34,7 @@ choyvp pynff PNAncnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PNYVFGBTN",
         "VQ:000483",
         "VASB:70LBZ TY SNYY ABA VAW",
-        "HAVG:R19 NZE19",
+        "HAVG:PNY R19 NZE19",
         "TCF:+38.579553,-122.570425",
         "FEP:ANCN PB SVER");
 
@@ -57,7 +57,7 @@ choyvp pynff PNAncnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PNYVFGBTN",
         "VQ:000459",
         "VASB:PURFG CNVA",
-        "HAVG:R26 R19",
+        "HAVG:Y55 R26 R19",
         "TCF:+38.595425,-122.599412",
         "FEP:ANCN PB SVER");
 
@@ -68,7 +68,7 @@ choyvp pynff PNAncnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PNYVFGBTN",
         "VQ:000277",
         "VASB:YBJRE YRIRY FZBXR QRGRPGBE",
-        "HAVG:O1412",
+        "HAVG:F33 O1412",
         "TCF:+38.562240,-122.579425");
 
     qbGrfg("G5",
@@ -79,7 +79,7 @@ choyvp pynff PNAncnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PNYVFGBTN",
         "VQ:000406",
         "VASB:CBFF PGEY - JUVGR",
-        "HAVG:R26 R19",
+        "HAVG:F37 R26 R19",
         "TCF:+38.640482,-122.596562");
 
     qbGrfg("G6",
@@ -89,7 +89,7 @@ choyvp pynff PNAncnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:PNYVFGBTN",
         "VQ:000185",
         "VASB:PBZCBFG SVER",
-        "HAVG:R26 R19 O1414",
+        "HAVG:Y54 R26 R19 O1414",
         "TCF:+38.578858,-122.555400",
         "FEP:ANCN PB SVER");
 
