@@ -23,7 +23,7 @@ public class CODouglasCountyAParser extends FieldProgramParser {
     super(CITY_LIST, defCity, defState,
            "( Call:CALL! Location:ADDRCH/SXa! Map:MAP Units:UNITX! Common_Name:PLACE Time:DATETIME Narrative:INFO? Nature_Of_Call:INFO | " +
              "Call_Type:CALLID! Common_Name:PLACE! Location:ADDR/SXXx! Call_Time:DATETIME! Narrative:INFO Nature_Of_Call:INFO | " +
-             "CALL! LOC:ADDRCITY/Sxa! Map:MAP! Closest_X:X! Units:UNIT! Nar:INFO LOC_Name:PLACE ADDL:INFO CR:ID3 Time:DATETIME3 )");
+             "CALL! LOC:ADDRCITY/Sxa! ( Closest_X:X Map:MAP! | Map:MAP! Closest_X:X? ) Units:UNIT! Nar:INFO LOC_Name:PLACE ADDL:INFO CR:ID3 Time:DATETIME3 )");
   }
   
   @Override
