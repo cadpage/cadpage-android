@@ -740,7 +740,7 @@ Fraqre: "WPRFQ" < nyregf@wprfqqvfcngpu.bet >
 Abg zhpu va gur jnl bs rnfl gevpxf gb hfr urer.
 Gur yrnqvat grezf va cneraf naq fdhner oenpxrgf jvyy or erzbirq va gur 
 cercnefre naq cnffrq gb lbhe cnefre nf n fhowrpg.  Jura gurer ner gjb bs
-gurzgur jvyy or frcnengrq ol iregvpny onef, fb jung lbh trg nf n fhowrpg
+gurz gurl jvyy or frcnengrq ol iregvpny onef, fb jung lbh trg nf n fhowrpg
 jvyy or fbzrguvat yvxr 
 WPRFQ|Gvzr: 29-13:52:44
 

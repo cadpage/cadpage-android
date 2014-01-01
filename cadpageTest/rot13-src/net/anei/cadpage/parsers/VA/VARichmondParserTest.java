@@ -110,22 +110,6 @@ JBEXVAT SVER 401 R OEBBXYNAQ CNEX OYIQ. . . BCF BA GNP 4
 ,Glcr: FGEHPGHER-SVER, UBHFR,Kfgerrg1: A FGNSSBEQ NIR,Kfgerrg2: TEBIR NIR
 ,707 J PNEL FG EVPU ,Glcr: RZF-1FGERFC, ZRQVPNY-NYNEZ,Kfgerrg1: F YNHERY FG,Kfgerrg2: F CVAR FG
 
-** ABGR **
-SvryqCebtenzCnefre fhopynff
-NQQE Glcr:PNYY! PNYY+ KFgerrg1:K KFgerrg2:K Qvfc:HAVG
-
-Znxr n fcrpvny purpx sbe gur JBEXVAT SVER glcr bs pnyy.  Gurer vf bayl bar, pbqr vg nf frrzf pbairavrag
-Bgurejvfr
-Purpx sbe yrnqvat pbzzn, vs abg cerfrag snvy, bgurejvfr fgevc vg bss 
-fcyvg grkg jvgu n ",(?! )" cnggrea
-Gung vf n pbzzn gung vf abg sbyybjrq ol n oynax.  Wnin cnggreaf unir fbzr rkgen pbby srngherf
-
-Vs fhpprffshy, purpx sbe rzcgl nqqerff svryq.  Vs rzcgl, zbir pebff fgerrg svryq gb nqqerff.
-(Guvf vf ubj gurl vzcyrzrag pnyyf gb vagrefrpgvbaf)
-
-Bireevqr Nqqerff svryq cebprffvat
-Purpx sbe ": @" naq hfr vg gb fcyvg bss cynpr svryq
-
 */
 
 choyvp pynff INEvpuzbaqCnefreGrfg rkgraqf OnfrCnefreGrfg {
