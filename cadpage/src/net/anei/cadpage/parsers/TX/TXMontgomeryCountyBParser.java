@@ -85,12 +85,13 @@ public class TXMontgomeryCountyBParser extends DispatchProQAParser {
     // Foo.  Now we have to do this the hard way
     match = MASTER3.matcher(body);
     if (match.matches()) {
-      setFieldList("CALL MAP ADDR APT SRC UNIT");
+      setFieldList("CALL BOX ADDR APT SRC MAP UNIT");
       data.strCall = match.group(1).trim();
-      data.strMap = match.group(2).trim();
+      data.strBox = match.group(2).trim();
       parseAddress(match.group(3).trim(), data);
       data.strSource = getOptGroup(match.group(4));
-      data.strUnit = match.group(5);
+      data.strMap = match.group(5);
+      data.strUnit = match.group(6);
       return true;
     }
     
