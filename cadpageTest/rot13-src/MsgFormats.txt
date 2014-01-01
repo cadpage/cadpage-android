@@ -18,6 +18,7 @@ Npgvir911 gvpxrgf
 2012102310000254  BUOhgyrePbhaglO qbar
 2013051010000303  GAZbberPbhagl qbar
 2013072210000966  XLZrnqrPbhagl qbar
+2013010910000181  INEvpuzbaq qbar
 *******************************************************************************
 Revr Pbhagl (O), AL
 OAA Nyregf
@@ -7414,25 +7415,6 @@ EhaGvzrf:\aHavg        Fgnghf    Gvzr\a-----------------------------------------
 **********************************************************
 **********************************************************
 **********************************************************
-2013010910000181 (Wnpxfba)
-Evpuzbaq, IN
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Evpuzbaq Sver naq Rzretrapl Freivprf
-Ybpngvba: Evpuzbaq, IN, Havgrq Fgngrf
-Fraqre: QRP <911nqzva@evpuzbaqtbi.pbz>
-
-,Glcr: NPPVQRAG, UNMNEQ-PBAGEBY,Kfgerrg1: A 5GU FG,Kfgerrg2: R WNPXFBA FG
-,2700 TRARIN QE EVPU: @NVE2CNVAG ,Glcr: HGVYVGL-VAPVQRAG, JNGRE-ERYNGRQ,Kfgerrg1: FHFGRA YA,Kfgerrg2: MHEVPU QE
-,1201 J PYNL FG EVPU: @PBEAVFU UBZR OERJREL ,Glcr: RZF-1FGERFC, HAX-CRE-QBJA,Kfgerrg1: ABEGBA FG,Kfgerrg2: A UNEEVFBA FG Qvfc: R5
-,201 J PYNL FG EVPU ,Glcr: RZF-1FGERFC, HAX-CRE-QBJA,Kfgerrg1: CERAGVF FG,Kfgerrg2: A NQNZF FG
-,710 J SENAXYVA FG EVPU,EBBZ 204: @EUBNQF UNYY - IPH PNZCHF ,Glcr: RZF-1FGERFC, NYYRETVP,Kfgerrg1: A YNHERY FG,Kfgerrg2: A CVAR FG
-,2302 PBAPBEQ NIR EVPU ,Glcr: RZF-1FGERFC, OERNGUVAT,Kfgerrg1: OREJLA FG,Kfgerrg2: YLAUNIRA NIR
-,523 A 33EQ FG EVPU ,Glcr: BGURE, FVATYR,Kfgerrg1: R PYNL FG,Kfgerrg2: R YRVTU FG
-,Glcr: IRUVPYR-SVER, PNE-BE-CVPXHC,Kfgerrg1: A 9GU FG,Kfgerrg2: R PYNL FG
-,Glcr: IRUVPYR-SVER, PNE-BE-CVPXHC,Kfgerrg1: A 9GU FG,Kfgerrg2: R ZNEFUNYY FG
-,2414 E FG EVPU: @RNFG RAQ OENAPU YVOENEL ,Glcr: NPPVQRAG, UNMNEQ-PBAGEBY,Kfgerrg1: A 24GU FG,Kfgerrg2: A 25GU FG
-,Glcr: NPPVQRAG, UNMNEQ-PBAGEBY,Kfgerrg1: A 25GU FG,Kfgerrg2: E FG
 **********************************************************
 2013030410000524 (Cngevpx)  ($300)
 QhCntr Pbhagl, VY (O)
