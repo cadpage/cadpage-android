@@ -133,10 +133,42 @@ ohvyq yvfg sebz gur pbqrf jr unir va gurfr pnyyf.
 
 Pvgl pbqr vasbezngvba gb qngr....
 
-PFGRYN vf Pnfgryyn
-QAFZE vf Qhafzhve
-ZF vf Zg. Funfgn
-JRRQ vf Jrrq
+OVT_FCTF – Ovt Fcevatf/Zbagnthr 
+OENL – Oenl/Znpqbry
+PNYYNUNA – Pnyynuna
+PFGRYN – Pnfgryyn
+QAFZE – Qhafzhve
+QBEEVF – Qbeevf
+RGAN – Rgan
+SBEXF_FNYZBA - Sbexf Fnyzba/Rgan
+SBEG_WBARF – Sbeg Wbarf
+TERANQN – Teranqn
+TMRY – Tnmryyr
+UNZOHET – Unzohet/Xynzngu Evire
+UNCCL_PNZC – Unccl Pnzc
+UEAOEX – Ubeaoebbx
+YX_FUNFGVAN – Ynxr Funfgvan/Jrrq 
+ZNPQBRY – Znpqbry
+ZP_PYBHQ – Zp Pybhq
+ZF – Zg Funfgn
+ZGTHR – Zbagnthr
+ARJY – ARJY/Ghyrynxr
+CYRNFNAG_IYL – Cyrnfrag Inyyrl/Qbeevf
+ERQ­_EBPX – Erq Ebpx/Znpqbry
+FNZF_ARPX – Fnzf Arpx/Qbeevf
+FPBGG_ONE – Fpbgg One
+FRVNQ – Frvnq Inyyrl
+GRAANAG – Graanag/Znpqbry
+GHYRYNXR – Ghyrynxr
+JRRQ – Jrrq
+LERXN – Lerxn
+
+Pvgl inyhrf jvgu n fynfu ner pnfrf jurer gur erpbtavmrq arvtuobeubbq be pbzzhavgl
+anzr nffbpvngrq jvgu gur pvgl pbqr vf abg erpbtavmrq ol Tbbtyr.  Jung jr qb
+va pnfrf yvxr guvf vf pbqr gur pvgl anzr gnoyr nf nobir.  Gura nsgre rirelguvat
+unf orra cnefrq, purpx gb frr vs gur cnefrq pvgl anzr pbagnvaf n fynfu.  vs vg
+qbrf, rirelguvat hc gb gur fynfu vf nccraqrq gb gur fgeCynpr jvgun " - " frcnenngbe.
+Rirelguvat nsgre gur fynfu vf fnirq va fgePvgl.
 
  */
 
