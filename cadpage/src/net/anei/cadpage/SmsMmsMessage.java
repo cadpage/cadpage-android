@@ -171,7 +171,9 @@ public class SmsMmsMessage implements Serializable {
      */
     fromAddress = sms.getDisplayOriginatingAddress();
     if (fromAddress == null) fromAddress = "";
-    messageClass = sms.getMessageClass();
+    try {
+      messageClass = sms.getMessageClass();
+    } catch (NullPointerException ex) {}
     sentTime = sms.getTimestampMillis();
 
     String body;
