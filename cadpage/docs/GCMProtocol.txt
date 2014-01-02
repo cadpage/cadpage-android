@@ -143,7 +143,8 @@ vendor - Your vendor code.  Not required, but it does help us tag the message di
 call_id - optional identification code to identify this call on vendor system         
 unix_time - date/time you received page from dispatch, as a unix timestamp 
             (seconds since midnight Jan 1, 1970)
-info_url - URL of web page containing additional information about call.            
+info_url - URL of web page containing additional information about call.
+agency_code - code for agency being dispatched            
 
 For everything
 ack_url:  URL Cadpage will connect with to acknowledge message status (optional)
