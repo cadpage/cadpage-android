@@ -456,7 +456,7 @@ Go to Cadpage settings and press Payment Status, then press "Recalculate Payment
 
 Nice reviews from free Cadpage subscribers are much appreciated. There is an item toward the bottom of the settings menu that gets you started on writing a Cadpage review.
 
-Thanks and Happy Holidays to You & Your Family,
+Thanks and Happy New Year to You & Your Family,
 Jean, Assistant to Ken Corbin
 
 ******************************************************************
@@ -467,7 +467,7 @@ Your free subscription has been extended for another year.
 
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
-Happy Holidays to You & Your Family,
+Happy New Year to You & Your Family,
 Jean, Assistant to Ken Corbin
 
 ******************************************************************
@@ -2941,3 +2941,19 @@ Thanks so much for your support,
 Happy and Safe Holidays to ALL!
 Jean, Assistant to Ken Corbin
 
+***********************************************************************
+deleting call history
+
+You can't delete unopened calls or locked calls.  Unopened calls are
+displayed as yellow text and can be opened manually.  Locked calls have
+a (Locked) indicator and can be unlocked through the long press option menu.
+
+Occasionally users end up with call history filled with unopened calls.
+ At which point Cadpage starts deleting calls as soon as you open them.
+ This kind of sounds like what happened to you.
+
+If you are having a lot of unopened calls, there is an option in the
+additional settings that you can check to allow you to delete unopened
+calls without having to open them first.
+
+Hope that helps,
