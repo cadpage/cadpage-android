@@ -326,6 +326,7 @@ public class ParserList {
               ,"KYHardinCounty"                 ,"Hardin County, KY"
               ,"KYKentonCounty"                 ,"Kenton County, KY"
               ,"KYLouisville"                   ,"Louisville, KY"
+              ,"KYMeadeCounty"                  ,"Meade County, KY"
               ,"KYMuhlenbergCounty"             ,"Muhlenberg County, KY"
               ,"KYOldhamCounty"                 ,"Oldham County, KY"
           ),
@@ -878,6 +879,7 @@ public class ParserList {
               ,"VAPrinceEdwardCounty"           ,"Prince Edward County, VA"
               ,"VAPrinceGeorgeCounty"           ,"Prince George County, VA"
               ,"VAPrinceWilliamCounty"          ,"Prince William County, VA"
+              ,"VARichmond"                     ,"Richmond, VA"
               ,"VARoanokeCity"                  ,"Roanoke City, VA"
               ,"VARoanokeCounty"                ,"Roanoke County, VA"
               ,"VARockinghamCounty"             ,"Rockingham County, VA"
