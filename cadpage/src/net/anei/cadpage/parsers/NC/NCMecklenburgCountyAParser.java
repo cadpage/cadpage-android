@@ -16,7 +16,7 @@ public class NCMecklenburgCountyAParser extends MsgParser {
   
   public NCMecklenburgCountyAParser() {
     super("MECKLENBURG COUNTY", "NC");
-    setFieldList("ADDR APT PLACE INFO CALL X CH MAP ID");
+    setFieldList("ADDR APT PLACE INFO CODE CALL X CH MAP ID");
   }
   
   @Override
@@ -69,11 +69,18 @@ public class NCMecklenburgCountyAParser extends MsgParser {
     return true;
   }
   
+  @Override
+  public String adjustMapAddress(String addr) {
+    return PK_PTN.matcher(addr).replaceAll("PKWY");
+  }
+  private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
+  
   private static final Set<String> PRI_VALUES = new HashSet<String>(Arrays.asList(new String[]{
       "Alpha", 
       "Bravo", 
       "Charlie", 
       "Delta", 
+      "ECHO",
       "Fire", 
       "unkFire"
   }));
