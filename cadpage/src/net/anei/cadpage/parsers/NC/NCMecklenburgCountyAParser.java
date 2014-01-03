@@ -34,8 +34,6 @@ public class NCMecklenburgCountyAParser extends MsgParser {
     }
     if(body.length() < 74) return false;
     
-    boolean good = subject.equals("Text Page") || subject.equals("Incoming Message");
-    
     parseAddress(substring(body,0,30), data);
     data.strApt = substring(body,30,40);
     data.strPlace = substring(body,40,70);
@@ -46,14 +44,12 @@ public class NCMecklenburgCountyAParser extends MsgParser {
     data.strMap = substring(body,206,216);
     data.strCallId = substring(body,216);
 
-    if (!good) {
-      String check = data.strSupp;
-      int pt = check.indexOf('-');
-      if (pt >= 0) check = check.substring(0,pt).trim();
-      if (!PRI_VALUES.contains(check)) return false;
-    }
+    String check = data.strSupp;
+    int pt = check.indexOf('-');
+    if (pt >= 0) check = check.substring(0,pt).trim();
+    if (!PRI_VALUES.contains(check)) return false;
     
-    int pt = data.strCall.indexOf('-');
+    pt = data.strCall.indexOf('-');
     if (pt < 0) pt = data.strCall.length();
     if (pt >=2 && pt<=5) {
       data.strCode = data.strCall.substring(0,pt).trim();

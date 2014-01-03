@@ -1,8 +1,5 @@
 package net.anei.cadpage.parsers.NC;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -14,7 +11,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class NCMecklenburgCountyBParser extends SmartAddressParser {
   
-  private static final Set<String> PRI_VALUES = new HashSet<String>(Arrays.asList(new String[]{"Charlie", "Delta", "Fire - Emergency"}));
   private static final Pattern CODE_PTN = Pattern.compile(" (\\d{2}[A-Z]{0,2})-");
   private static final Pattern UNIT_PTN = Pattern.compile("\\b[A-Z][A-Za-z]{1,4}\\d{1,3}\\b");
   
@@ -34,12 +30,6 @@ public class NCMecklenburgCountyBParser extends SmartAddressParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    
-    // Rule out A variant message
-    if (body.length() >= 100) {
-      String sPriCode = substring(body,70,100);
-      if (PRI_VALUES.contains(sPriCode)) return false;
-    }
 
     Matcher match = CODE_PTN.matcher(body);
     if (!match.find()) return false;

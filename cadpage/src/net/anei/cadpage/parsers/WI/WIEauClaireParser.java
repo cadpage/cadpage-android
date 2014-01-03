@@ -50,7 +50,7 @@ public class WIEauClaireParser extends FieldProgramParser {
   private class MyTimeField extends TimeField {
     
     public MyTimeField() {
-      setPattern("\\d\\d:\\d\\d:\\d\\d(?: [AP]M)?", true);
+      setPattern("\\d\\d?:\\d\\d:\\d\\d(?: [AP]M)?", true);
     }
     
     @Override

@@ -61,11 +61,6 @@ choyvp pynff APZrpxyraohetPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre0() {
-    qbOnqGrfg("12463 Fgengsvryq Cynpr Pe               PNEBYVAN PEBFFVAT FHOQ        Qrygn                         31- Hapbafpvbhfarff/Snvagvat  Fgvarjnl Pg/Fnz Zrrxf Eq                                    CVAE3     Znc - 405405/W9 07302011-086");
-  }
-  
-  @Grfg
   choyvp ibvq grfgCnefre1() {
 
     qbGrfg("G1",
