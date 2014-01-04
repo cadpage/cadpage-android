@@ -112,6 +112,12 @@ Fraqre: <PNQ@ebtrefnex.bet>
 
 ** ABGRF **
 
+Gurer ner n pbhcyr jnlf gb unaqyr guvf.  V guvax V jbhyq jevgr n cnggrea gb ercynpr nal fgevat bs 2 be zber haqrefpberf jvgu n oynax, gura hfr n fgnaqneq SvryqCebtenzCnefre pnyyvat cnefrZft()
+
+Fgevc , NE fhssvk sebz nqqerff svryq
+Fgevc Znc cersvk sebz znc svryq
+Fcyvg pnyy glcr vagb pnyy qrfpevcgvba naq cevbevgl svryqf
+qba'g sbetrg gur pnyy gvzr, vapvqrag ahzore naq havgf svryqf ng raq bs cntr
 
 */
 
