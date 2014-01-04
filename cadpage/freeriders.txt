@@ -2600,7 +2600,7 @@ Eric Mowbray (emowbray193@gmail.com) // PayPal
 
 
 
-// *** Insert Paid Users here ***
+
 
 // List of users getting credit or paid for 2014
 %2014
@@ -2630,12 +2630,16 @@ crystal davis <crystaldavis1977@gmail.com> // $20 PayPal by Shane Gattis(cfpd140
 Rick Johnson <rickjohnson435@gmail.com> // check for $20 #7717
 %%11/10/2013
 Peggie Drost <pdrost@cox.net> // paid $20 by check for 2 years ck 4776
+%%01/03/2014
+Stephen Matisz (Ehcexplorer83@aol.com) // PayPal
 
 %%01/09/2014
 Wayne Crider (wcrider15@gmail.com) // check ~~ 12/23/2013
 
 %%01/27/2014
 Mike Rose <station8rose@yahoo.com> //  market problem email change
+
+// *** Insert Paid Users here ***
 
 // List of users getting credit or paid for 2015
 %2015
@@ -6387,7 +6391,9 @@ spdwy1_2000 (spdwy1@gmail.com) <spdwy1_2000@yahoo.com>
 Michael Andrews (strive.daily80@gmail.com) <strive.daily@yahoo.com>
 Joshua Hutcherson <joshhutch93@gmail.com>
 Nathan Burgett <nburgett44@gmail.com>
-
+%%01/03/2014
+Alan Holliman (jettwh68@gmail.com) <jettwh@yahoo.com>
+jessica clark (jessicaclark20102012@gmail.com) <jessicaclark2010@hotmail.com>
 
 
 
