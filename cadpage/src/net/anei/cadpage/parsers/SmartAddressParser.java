@@ -333,6 +333,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "FREEWAY",
         "HT", "HTS", "HEIGHTS",
         "BND", "BEND",
+        "CV",
         "THOROUGHFARE");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     

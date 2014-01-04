@@ -260,8 +260,7 @@ choyvp pynff APHavbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SNYYF RZQ",
         "FEP:F32",
         "PU:OENIB",
-        "K:PUREEL UBYYBJ YA",
-        "CYNPR:EVIRE OVEPU PI",
+        "K:EVIRE OVEPU PI & PUREEL UBYYBJ YA",
         "QNGR:12/25/2012",
         "GVZR:12:45:58");
     
