@@ -36,13 +36,6 @@ public class NCWilsonCountyParser extends DispatchOSSIParser {
     }
   }
   
-  // CODE field also has to validate its existence
-  private class MyCodeField extends CodeField {
-    public MyCodeField() {
-      setPattern(Pattern.compile("\\d\\d[A-Z]\\d\\d[A-Z]?"));
-    }
-  }
-  
   private class MyCrossField extends CrossField {
     @Override
     public boolean checkParse(String field, Data data) {
@@ -57,7 +50,7 @@ public class NCWilsonCountyParser extends DispatchOSSIParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
-    if (name.equals("CODE")) return new MyCodeField();
+    if (name.equals("CODE")) return new CodeField("\\d\\d[A-Za-z]\\d\\d[A-Za-z]?");
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
