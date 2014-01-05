@@ -363,7 +363,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-UIVDVEFA or uivdvefa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+IQQPOLBA or iqqpolba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support,
 Jean -- Assistant to Ken Corbin
@@ -495,7 +495,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-UIVDVEFA or uivdvefa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+IQQPOLBA or iqqpolba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support,
 Jean, Assistant to Ken Corbin
@@ -516,7 +516,7 @@ Jean, Assistant to Ken Corbin
 
 *********************************************************************
 
-I found your free Cadpage subscription as of _____.  
+I found your free Cadpage subscription of _____.  
 
 Go into Cadpage settings and press
 Payment Status > Recalculate Payment Status
@@ -532,7 +532,7 @@ Since your DEMO period is longer than the remaining time on your subscription, t
 
 **********************************************************************
 
-I found your free Cadpage subscription as of ______.  However, your Cadpage User email address has changed.  I have updated your account with your current email address.
+I found your free Cadpage subscription of ______.  However, your Cadpage User email address has changed.  I have updated your account with your current email address.
 
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status.
 
@@ -567,7 +567,7 @@ Have a nice day,
 ** Play Store / Android payment issues
 ******************************************************************
 
-I found your Google Play Store payment record as of ______.  However, your Cadpage User email address has changed.  I have updated your account with your current email address.
+I found your Google Play Store payment record of ______.  However, your Cadpage User email address has changed.  I have updated your account with your current email address.
 
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status. This reloads your payment status from the market which will usually fix things.
 
@@ -579,7 +579,7 @@ Jean, Assistant to Ken Corbin
 ********************************************************************
 DEMO is longer than remaining subscription
 
-I found your Google Play Store payment record as of _____________.  I see that you have completed the Recalculate Payment Status.
+I found your Google Play Store payment record of _____________.  I see that you have completed the Recalculate Payment Status.
 
 The most likely reason that your Status is now back to DEMO, is that the 30-day trial is longer than the time remaining on your subscription, which is due to expire on ________.
 
@@ -662,7 +662,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-UIVDVEFA or uivdvefa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+IQQPOLBA or iqqpolba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean, Assistant to Ken Corbin
@@ -676,7 +676,7 @@ And make sure the account listed is the one you set up in wallet.google.com
 Hopefully that will let you make Play Store purchases.  If it doesn't let us know and we will try to work something else out.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-UIVDVEFA or uivdvefa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+IQQPOLBA or iqqpolba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 -Ken
@@ -686,7 +686,7 @@ Thanks for your support,
 If you can't map calls, Cadpage isn't really working and you shouldn't  have to pay for it.
 
 So we need to fix things.  I can give you a 30-day extension to give us time to work on it.  To get this, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-UIVDVEFA or uivdvefa.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
+IQQPOLBA or iqqpolba.   It is a time-sensitive code and will expire by midnight on ___.  Once you use it, it will be good for about 30 days.
  
 Next, you need to send me the information on the calls that are not mapping.  You do this by long pressing the call and selecting Report Problem from the menu list.  That generates an email to us with lots of cool technical information needed to figure out what is wrong.
 
@@ -2325,7 +2325,7 @@ Have a nice day,
 ************************************************************************************
 not refunding 
 
-Please allow me to explain the fee for our Cadpage app.  Because it is a high maintenance app, continually in development, our $10 fee is a per-year subscription.  You have not purchased the app, but I did find your subscription payment as of 11-12-12.  You apparently used Cadpage for over 8 months.
+Please allow me to explain the fee for our Cadpage app.  Because it is a high maintenance app, continually in development, our $10 fee is a per-year subscription.  You have not purchased the app, but I did find your subscription payment of ____________.  You apparently used Cadpage for over 8 months.
 
 Also, when you pay through Google Play Store, Google takes 30% of that $10. With Google, we cannot do partial refunds, so we would be losing out of most of our $7 gain. 
 
@@ -2957,3 +2957,43 @@ additional settings that you can check to allow you to delete unopened
 calls without having to open them first.
 
 Hope that helps,
+
+**************************************************************************
+Android 4.3
+
+We know this is going to happen with Android 4.4.  But you are the
+second person reporting it happening with Android 4.3.  Which makes me
+wonder if Google was trying to port some of their new logic back into 4.3.
+
+At 4.3 and below this happens for one of two reasons.  First, Dispatch
+may have suddenly decided to start sending you MMS pages instead of SMS
+text pages.  Not likely, but something that should be checked on.  You
+can long press any of the dispatch pages you have in your message inbox
+and select message details or something similar that will should you the
+actual message type.
+
+The more common reason is that a message app is grabbing the top slot in
+the message receive queue so no other app can block messages coming to
+them.  There have been a number of 3rd party message apps that started
+doing this a couple years ago.  More and more publishers of other
+message apps have found it necessary to adopt the same practice in self
+defense.  The situation is getting intolerable, which is what led Google
+to change the rules in 4.4.
+
+The other guy reporting this said it happened when he got an update to
+the stock Samsung message app.  I am running a Samsung message app and
+have not observed that behavior, at least not yet.  What message app is
+not letting Cadpage block messages to it?
+
+For now, it is still possible to get Cadpage to work as intended by
+installing a different message app.  But in the long run, the ability
+for one app to block messages from getting to the user designated
+default message app is just going to go away.  Options are going to be
+1) learn to live with it
+2) use the message app blacklist feature to block pages from appearing there
+3) switch to using a direct paging vendor (currently CodeMessaging.net
+or Active911.com) to deliver pages to Cadpage.
+
+Good luck,
+
+************************************************************************
