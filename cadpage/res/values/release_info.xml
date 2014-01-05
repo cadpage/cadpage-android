@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12312013</string>
-  <string name="release_version">v1.6.60</string>
+  <string name="release_date">01052013</string>
+  <string name="release_version">v1.7.01</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Cape Giradeau County, MO (alt)\n
+DuPage County, IL (alt)\n
+Meade County, KY\n
+Richmond, VA\n
 \n
 Location Parsing Fixes:\n
-New Milford, CT\n
-Burlington County, NJ\n
-JCMC EMS Jersey Sity, NJ\n
-York COunty, PA\n
-Jefferson County, TN\n
+Douglas County, CO\n
 Montgomery County, TX\n
+Travis County, TX\n
+Eau Claire, WI\n
+\n
+General fixes:\n
+Attempt workaround for bug in Android message processing logic.\n
   </string>  
 </resources>
   
