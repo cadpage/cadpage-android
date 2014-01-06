@@ -14,6 +14,7 @@ Npgvir911 gvpxrgf
 2013010910000181  INEvpuzbaq qbar
 2013030410000524  VYQhCntrPbhaglO qbar
 2013081910000158  ZFQrfbgbPbhagl qbar
+2013121010000344  GKWbuafbaPbhaglO qbar
 *******************************************************************************
 Revr Pbhagl (O), AL
 OAA Nyregf
@@ -7447,30 +7448,6 @@ Fraqre: fxhpnq@SVER.PN.TBI
 (PNQ Cntr) Vap# 009206; ZRQ, GENSSVP PBYYVFVBA; V 5 /   FBQN PERRX EQ ,QAFZE ; FBHGU OBHAQ V 5;  ; K: -122 16.3568 L: 41 12.5906; <n uers="uggc://zncf.tbbtyr.pbz/?d=41.209844,-122.272614">Znc</n>PNF-QCG QHA-QCG ZFN-NZO; BIREGHEARQ FRQNA;
 (PNQ Cntr) Vap# 009200; ZRQVPNY; 5702 FUNFGN NI ,QAFZE ; ; 4367 OYX CVAR FG; K: -122 16.3314 L: 41 12.7328; <n uers="uggc://zncf.tbbtyr.pbz/?d=41.212214,-122.272190">Znc</n>QHA-QCG ZFN-NZO FD840; NFFFNHYG IVP, F.B. NG FPRAR;
 **********************************************************
-**********************************************************
-2013121010000344 (Wnpxfba)
-Wbuafba Pbhagl, GK (O)
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Nyinenqb Sver Qrcnegzrag
-Ybpngvba: Nyinenqb, GK, Havgrq Fgngrf
-Fraqre: "WPRFQ" < nyregf@wprfqqvfcngpu.bet >
-Fraqre: <nyregf@wprfqqvfcngpu.bet>
-
-(WPRFQ ) [Gvzr: 14-05:26:32] FGN79- ZRQ: 101 A CNEXJNL   , KFge: PBYYRTR FG, Obk: 7900, Zncfpb:1070E [Havgf--FGN79] [Fgngvbaf--79]
-(WPRFQ ) [Gvzr: 13-21:54:09] FGN79- ZRQ: 501 A FCNEXF FG   , KFge: J. PBYYRTR, Obk: 7900, Zncfpb:1071G [Havgf--FGN79] [Fgngvbaf--79]
-(WPRFQ ) [Gvzr: 13-19:30:34] FGN79- FGE1: 2601  PE 211   , KFge: PE 109, Obk: 7203, Zncfpb:1073G [Havgf--FGN72-FGN75-FGN79] [Fgngvbaf--72-75-79]
-(WPRFQ ) [Gvzr: 13-14:52:44] FGN79- NOQBZ: 142  DHNVY UNIRA   , KFge: V 35, Obk: 7900, Zncfpb:1121S [Havgf--FD79-FGN79] [Fgngvbaf--79]
-(WPRFQ ) [Gvzr: 13-13:50:53] FGN79- ZRQ: 1115 J UJL 67   , KFge: A PHZZVATF, Obk: 7900, Zncfpb:1071A [Havgf--FGN79] [Fgngvbaf--79]
-(WPRFQ ) [Gvzr: 13-11:34:19] FGN79- FRVMHER: 706 F FCRNEF FG   , KFge: J PBYYRTR, Obk: 7900, Zncfpb:1071F [Havgf--FGN79] [Fgngvbaf--79]
-(WPRFQ ) [Gvzr: 13-11:15:36] FGN79- ZRQ: 103  SBFFVY JNL   , KFge: FGBARTNGR OYIQ, Obk: 7900, Zncfpb:1071W [Havgf--FGN79] [Fgngvbaf--79]
-(WPRFQ ) [Gvzr: 13-07:09:17] FGN79- ZRQ: 9317  SZ 1807   , KFge: PE 109 GB PE 208, Obk: 7900, Zncfpb:6SN [Havgf--FGN79] [Fgngvbaf--79]
-(WPRFQ ) [Gvzr: 13-06:38:42] FGN79- ZRQ: 101 A CNEXJNL   , KFge: PBYYRTR FG, Obk: 7900, Zncfpb:1070E [Havgf--FGN79] [Fgngvbaf--79]
-(WPRFQ ) [Gvzr: 13-01:11:06] FGN79- FGE1: 10308  PE 606   , KFge: PE 529, Obk: 2602, Zncfpb:970Y [Havgf--ONG1-PZ226-R1-R26-R73-R82-FD82-JG79] [Fgngvbaf--26-73-79-82-ZNAF]
-(WPRFQ ) [Gvzr: 12-22:20:18] FGN79- NFGCQ: 608 F FCRNEF FG   , KFge: J PBYYRTR, Obk: 7900, Zncfpb:1071F [Havgf--FGN79] [Fgngvbaf--79]
-(WPRFQ ) [Gvzr: 11-22:22:54] FGN79- PC: 3801  PE 401O   , KFge: SZ 2415, Obk: 7903, Zncfpb:1120M [Havgf--FGN79] [Fgngvbaf--79]
-(WPRFQ ) [Gvzr: 11-19:21:47] FGN79- ZRQ: 3639  PE 401O   , KFge: SZ 2415, Obk: 7903, Zncfpb:1120M [Havgf--FGN79] [Fgngvbaf--79]
-**********************************************************
 2013093010000652 (Cngevpx)
 Uneevfba Pbhagl, ZF
 
@@ -7561,7 +7538,7 @@ Fraqre: <PNQ@ebtrefnex.bet>
 (PNQ Qvfcngpu) Ybpngvba: 1900 F  16GU FG EBTREF , NE   Znc: Znc 2007  _______  Pebff Fgerrgf: J ARJ UBCR EQ / J YNML Y FG     ___________________   Pnyy Glcr: S Zrq Rzre Cev 1    Aneengvir:  1.Gur pneqvnp neerfg jnf jvgarffrq.  2.N qrsvoevyyngbe (NRQ) vf abg ninvynoyr.  Ceboyrz: pbqr.  Cngvrag Vasb: 1 cngvrag(f); Haxabja Enatr byq; Haxabja; Pbafpvbhf: Ab; Oernguvat: Ab;  CebDN Dhrfgvbaanver Pbzcyrgrq; Puvrs Pbzcynvag Ahzore: 9; Qvfcngpu Yriry: 09R01; Erfcbafr Grkg: Rpub  pnyyre jnf abg noyr gb trg gb gur cngvrag, fur jnf npebff gur fgerrg ba n ynaqyvar cubar.  ybfg ibvpr pbagnpg jvgu cngvrag  Qvfcngpu erprvirq ol havg G5  1409 j arj ubcr eq  Qvfcngpu erprvirq ol havg R2  Qvfcngpu erprvirq ol havg ZRQ7  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 9; Qvfcngpu Yriry: 09R01; Erfcbafr Grkg: Rpub  Ceboyrz: pbqr.  Cngvrag Vasb: 1 cngvrag(f); Haxabja Enatr byq; Haxabja; Pbafpvbhf: Ab; Oernguvat: Ab;  Ntr haxabja, Traqre haxabja, Hapbafpvbhf, Abg oernguvat.  Pneqvnp be Erfcvengbel Neerfg / Qrngu.  Abg oernguvat ng nyy.  Pnyyre Fgngrzrag: pbqr.    ______  Pnyy Gvzr: 01/02/14 06:16           Vapvqrag Ahzore: 2014-00000020  _________   Havgf:
 (PNQ Qvfcngpu) Ybpngvba: 1409 J  ARJ UBCR EQ EBTREF , NE   Znc: Znc 2005  _______  Pebff Fgerrgf: F 16GU FG / F 17GU FG, F 14GU CY     ___________________   Pnyy Glcr: S Zrq Rzre Cev 1    Aneengvir:  Qvfcngpu erprvirq ol havg G5  1409 j arj ubcr eq  Qvfcngpu erprvirq ol havg R2  Qvfcngpu erprvirq ol havg ZRQ7  CebDN Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 9; Qvfcngpu Yriry: 09R01; Erfcbafr Grkg: Rpub  Ceboyrz: pbqr.  Cngvrag Vasb: 1 cngvrag(f); Haxabja Enatr byq; Haxabja; Pbafpvbhf: Ab; Oernguvat: Ab;  Ntr haxabja, Traqre haxabja, Hapbafpvbhf, Abg oernguvat.  Pneqvnp be Erfcvengbel Neerfg / Qrngu.  Abg oernguvat ng nyy.  Pnyyre Fgngrzrag: pbqr.    ______  Pnyy Gvzr: 01/02/14 06:16           Vapvqrag Ahzore: 2014-00000020  _________   Havgf:
 **********************************************************
-2012120310000271
+2012120310000271 (Wnpxfba)
 Sbeg Vejva, PN
 
 Pbagnpg: Npgvir911
@@ -7582,6 +7559,8 @@ Fraqre: @povsrqrenyfreivprf.pbz
 (SJ: ZRQVPNY NVQ) Cngvrag jnf genafcbegrq gb JNPU RE sbe rinyhngvba naq/be gerngzrag.\a\a\aIvpgbevn Onxre\aSver/Cbyvpr Qvfcngpu\a760)380-3496\a________________________________\aSebz: Onxre, Ivpgbevn E\aFrag: Ghrfqnl, Qrprzore 31, 2013 1:52 CZ\aGb: Zvpuan, Wbua; 7607920282@igrkg.pbz; 4644-osWNs5gkPWcXuPhG@nyreg.npgvir911.pbz; zvpunry.i.ohgbycu.pvi@znvy.zvy; wbfr.p.anchgv.zvy@znvy.zvy; 7604994241@igrkg.pbz; Qbff, Oleba; Onxre, Ivpgbevn E; Fzvgu, Xraargu (Cebwrpg Znantre); 7606288448@igrkg.pbz; qnavry.w.crexvaf.pvi@znvy.zvy; zvpunry.s.xnaqbyy.pvi@znvy.zvy; hfnezl.vejva.sbefpbz.zok.agp-pzq-qhgl-frpgvba@znvy.zvy; hfnezl.vejva.vzpbz.zok.vejva-vbp@znvy.zvy\aPp: Onxre, Ivpgbevn E\aFhowrpg: ZRQVPNY NVQ\a\aZR411 NAQ HG411 erfcbaqvat gb 4439 Euvarynaq Qe. ba n Zrqvpny Nvq, 31lrne byq srznyr univat n fvrmher.\a\a\aIvpgbevn Onxre\aSver/Cbyvpr Qvfcngpu\a760)380-3496\a\a\aGuvf r-znvy naq nal nggnpurq svyrf znl pbagnva PO&V Srqreny Freivprf YYP (be vgf nssvyvngrf) pbasvqragvny naq cevivyrtrq vasbezngvba. Guvf vasbezngvba vf cebgrpgrq ol ynj naq/be nterrzragf orgjrra PO&V Srqreny Freivprf YYP (be vgf nssvyvngrf) naq rvgure lbh, lbhe rzcyblre be nal pbagenpg cebivqre jvgu juvpu lbh be lbhe rzcyblre ner nffbpvngrq. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre ol ercyl r-znvy naq qryrgr nyy pbcvrf bs guvf r-znvy; shegure, lbh ner abgvsvrq gung qvfpybfvat, pbclvat, qvfgevohgvat be gnxvat nal npgvba va eryvnapr ba gur pbagragf bs guvf vasbezngvba vf fgevpgyl cebuvovgrq.
 (ZRQVPNY NVQ) ZR411 NAQ HG411 erfcbaqvat gb 4439 Euvarynaq Qe. ba n Zrqvpny Nvq, 31lrne byq srznyr univat n fvrmher.\a\a\aIvpgbevn Onxre\aSver/Cbyvpr Qvfcngpu\a760)380-3496\a\a\aGuvf r-znvy naq nal nggnpurq svyrf znl pbagnva PO&V Srqreny Freivprf YYP (be vgf nssvyvngrf) pbasvqragvny naq cevivyrtrq vasbezngvba. Guvf vasbezngvba vf cebgrpgrq ol ynj naq/be nterrzragf orgjrra PO&V Srqreny Freivprf YYP (be vgf nssvyvngrf) naq rvgure lbh, lbhe rzcyblre be nal pbagenpg cebivqre jvgu juvpu lbh be lbhe rzcyblre ner nffbpvngrq. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre ol ercyl r-znvy naq qryrgr nyy pbcvrf bs guvf r-znvy; shegure, lbh ner abgvsvrq gung qvfpybfvat, pbclvat, qvfgevohgvat be gnxvat nal npgvba va eryvnapr ba gur pbagragf bs guvf vasbezngvba vf fgevpgyl cebuvovgrq.
 (Fhfcvpvbhf Qrivpr...) Gehpx 411 erfcbaqvat gb Ohvyqvat 306 Ynatsbeq Ynxr Ebnq gb nffvfg gur cbyvpr naq RBQ sbe n fhfcvpvbhf qrivpr.\a\a\aGuvf r-znvy naq nal nggnpurq svyrf znl pbagnva PO&V Srqreny Freivprf YYP (be vgf nssvyvngrf) pbasvqragvny naq cevivyrtrq vasbezngvba. Guvf vasbezngvba vf cebgrpgrq ol ynj naq/be nterrzragf orgjrra PO&V Srqreny Freivprf YYP (be vgf nssvyvngrf) naq rvgure lbh, lbhe rzcyblre be nal pbagenpg cebivqre jvgu juvpu lbh be lbhe rzcyblre ner nffbpvngrq. Vs lbh ner abg na vagraqrq erpvcvrag, cyrnfr pbagnpg gur fraqre ol ercyl r-znvy naq qryrgr nyy pbcvrf bs guvf r-znvy; shegure, lbh ner abgvsvrq gung qvfpybfvat, pbclvat, qvfgevohgvat be gnxvat nal npgvba va eryvnapr ba gur pbagragf bs guvf vasbezngvba vf fgevpgyl cebuvovgrq.
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
