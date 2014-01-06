@@ -152,6 +152,22 @@ public class SmsMmsMessage implements Serializable {
     reportDataChange();
   }
   
+
+  /**
+   * @return true if message was parsed with Active911 parser
+   */
+  public boolean isActive911ParsedMsg() {
+    
+    // All we do is check the parsed message parser code is Active911.
+    // Active911 always sends us this parser code, but if the original message
+    // was parsed with a Cadpage parser, the message will contain its own
+    // parser code override, which will override the "Active911" value.
+    MsgInfo info = getInfo();
+    if (info == null) return false;
+    String parserCode = info.getParserCode();
+    return parserCode != null && parserCode.equals("Active911");
+  }
+  
   private void reportDataChange() {
     if (msgId > 0) SmsMessageQueue.getInstance().notifyDataChange();
   }

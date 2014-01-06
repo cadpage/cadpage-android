@@ -53,6 +53,8 @@ public class SmsPopupActivity extends Safe40Activity {
   private ViewStub privacyViewStub;
   private View privacyView = null;
   private LinearLayout mainLL = null;
+  
+  private Button donateStatusBtn = null;
 
   private boolean wasVisible = false;
 
@@ -106,9 +108,9 @@ public class SmsPopupActivity extends Safe40Activity {
     mainLL = (LinearLayout)findViewById(R.id.MainLinearLayout);
     registerForContextMenu(mainLL);
     
-    // Hook donate status button to current donation status
-    Button btn = (Button)findViewById(R.id.donate_status_button);
-    MainDonateEvent.instance().setButton(this, btn);
+    // We can't hook the current donations status here because it may change
+    // from msg to message.
+    donateStatusBtn = (Button)findViewById(R.id.donate_status_button);
     
     // Populate display fields
     populateViews(getIntent());
@@ -190,7 +192,7 @@ public class SmsPopupActivity extends Safe40Activity {
 
   @Override
   protected void onDestroy() {
-    MainDonateEvent.instance().setButton(null, null);
+    MainDonateEvent.instance().setButton(null, null, null);
     super.onDestroy();
   }
 
@@ -279,6 +281,9 @@ public class SmsPopupActivity extends Safe40Activity {
     optManager.prepareButtons();
     
     info = message.getInfo();
+
+    // Hook the donate status button with the current donation status
+    MainDonateEvent.instance().setButton(this, donateStatusBtn, newMessage);
     
     // Update Icon to indicate direct paging source
     int resIcon = VendorManager.instance().getVendorIconId(message.getVendorCode());

@@ -1,5 +1,6 @@
 package net.anei.cadpage.donation;
 
+import net.anei.cadpage.SmsMmsMessage;
 import android.app.Activity;
 import android.preference.Preference;
 import android.widget.Button;
@@ -13,6 +14,7 @@ public class MainDonateEvent extends DonateScreenEvent {
   private Activity activity;
   private Preference pref;
   private Button button;
+  private SmsMmsMessage msg;
   
   public MainDonateEvent() {
     super(null, 0, 0,
@@ -36,7 +38,8 @@ public class MainDonateEvent extends DonateScreenEvent {
         SponsorExpireDonateEvent.instance(),
         PaidExpireDonateEvent.instance(),
         DemoDonateEvent.instance(),
-        DemoExpireDonateEvent.instance());
+        DemoExpireDonateEvent.instance(),
+        Active911ParseWarnDonateEvent.instance());
   }
 
   /**
@@ -45,7 +48,7 @@ public class MainDonateEvent extends DonateScreenEvent {
   public void refreshStatus() {
     if (activity != null && !activity.isFinishing()) {
       setPreference(activity, pref);
-      setButton(activity, button);
+      setButton(activity, button, msg);
     }
   }
 
@@ -54,7 +57,8 @@ public class MainDonateEvent extends DonateScreenEvent {
     this.activity = activity;
     this.pref = pref;
     if (pref != null) {
-      for (DonateEvent event : getEvents()) {
+      DonateEvent event = findEvent(false, null);
+      if (event != null) {
         if (event.setPreference(activity, pref)) return true;
       }
     }
@@ -62,26 +66,44 @@ public class MainDonateEvent extends DonateScreenEvent {
   }
 
   @Override
-  public boolean setButton(Activity activity, Button button) {
+  public boolean setButton(Activity activity, Button button, SmsMmsMessage msg) {
     this.activity = activity;
     this.button = button;
-    if (button != null) {
-      for (DonateEvent event : getEvents()) {
-        if (event.setButton(activity, button)) return true;
-      }
-      button.setVisibility(Button.GONE);
+    this.msg = msg;
+    if (button == null) return false;
+    DonateEvent event = findEvent(true, msg);
+    if (event != null) {
+      if (event.setButton(activity, button, msg)) return true;
     }
+    button.setVisibility(Button.GONE);
     return false;
   }
 
   @Override
   public void doEvent(Activity activity) {
+    DonateEvent event = findEvent(false, null);
+    if (event != null) event.doEvent(activity);
+  }
+  
+  /**
+   * Find the current active alert with the highest warning level
+   * @param warn true if only events with at least a yellow alert level
+   * should be reported
+   * @return the donate event if found, null otherwise
+   */
+  private DonateEvent findEvent(boolean warn, SmsMmsMessage msg) {
+    DonateEvent result = null;
+    int resultRank = (warn ? AlertStatus.GREEN.ordinal() : Integer.MIN_VALUE);
     for (DonateEvent event : getEvents()) {
-      if (event.isEnabled()) {
-        event.doEvent(activity);
-        break;
+      int rank = event.getAlertStatus().ordinal();
+      if (rank > resultRank) {
+        if (event.isEnabled(msg)) {
+          result = event;
+          resultRank = rank;
+        }
       }
     }
+    return result;
   }
 
   private static final MainDonateEvent instance = new MainDonateEvent();

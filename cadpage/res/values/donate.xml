@@ -252,6 +252,13 @@
     you your text pages
   </string>
   
+  <string name="donate_active911_parse_warn_title">Active911 parsed alert</string>
+  <string name="donate_active911_parse_warn_text">
+    This alert was processed with a new parsing system that Active911 is setting
+    up to replace the Cadpage parsing system.  We are working with Active911 to
+    restore normal Cadpage parsing services for these alerts.  
+  </string>
+  
   <string name="vendor_title">Register with %s</string>
   <string name="vendor_text">
     You appear to be getting text pages from %s.  You can register to get direct pages from

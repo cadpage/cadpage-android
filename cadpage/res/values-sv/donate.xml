@@ -121,7 +121,15 @@
   <string name="donate_new_user_title">Ny användare</string>
   <string name="donate_new_user_text">
     Cadpage kommer inte att göra någonting med dessa inställningar. Du måste gå in på Ortinställningar och antingen välja en ort som motsvarar din plats eller välja Från: (filter) och skriva in den e-postadress eller  det telefonnummer som dina larm-meddelanden kommer ifrån.
-    </string>
+  </string>
+    
+  <string name="donate_active911_parse_warn_title">Active911 parsed alert</string>         <!-- Translate -->
+  <string name="donate_active911_parse_warn_text">
+    This alert was processed with a new parsing system that Active911 is setting
+    up to replace the Cadpage parsing system.  We are working with Active911 to
+    restore normal Cadpage parsing services for these alerts.  
+  </string>
+  
   <string name="vendor_title">Registrera med %s</string>
   <string name="vendor_text">
     Du verkar få textmeddelanden från %s. Du kan regista dig på deras meddelandetjänst så får du dina larm från dem. På så sätt slipper du en del problem förknippade med textmeddelanden.  
