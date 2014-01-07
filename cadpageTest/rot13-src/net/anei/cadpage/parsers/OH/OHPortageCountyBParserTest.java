@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Cbegntr Pbhagl, BU
+Cbegntr Pbhagl, BU (O)
 Pbagnpg: Npgvir911
 Ntrapl anzr: Tneerggfivyyr Serrqbz Aryfba Wbvag Sver Qvfgevpg
 Ybpngvba: Tneerggfivyyr, BU, Havgrq Fgngrf
@@ -58,15 +58,12 @@ Fraqre: tneerggfivyyrqvfcngpu@tznvy.pbz
 (Qvfcngpu Zrffntr) FDHNQ ERDHRFG \a10860  ABEGU FG  29 \ayvsg nffvfg-znacbjre arrqrq
 (Qvfcngpu Zrffntr) ZIN - vawhel \a9764 avpubyf ebnq - fbhgu bs fgerrgre
 (Qvfcngpu Zrffntr) GENSSVP PENFU:VAWHEL \aNFOHEL EQ  FGERRGRE EQ   \a1 IRUVPYR VA GUR QVGPU HAXABJA VAWHEVRF :-\
-(Qvfcngpu Zrffntr) 1613 vf OVD
 (Qvfcngpu Zrffntr) cre SS Gubzcfba...1613 jvyy or ng gur Serrqbz Gbjaunyy sbe Serrqbz Qnlf..jvyy nqivfr jura onpx
-(Qvfcngpu Zrffntr) nhgb cntr abg jbexvat..guvf vf lbhe Fngheqnl cntre grfg..
 (Qvfcngpu Zrffntr) SVER \e8191  PRAGRE FG   \e1613 vf ba gur fprar purpxvat na ryrpgevpny cnary ceboyrz 
 (Qvfcngpu Zrffntr) SVER \a8293  JVAQUNZ FG  \a PYBGURF BA SVER VA QELRE :-\
 (Qvfcngpu Zrffntr) jver qbja va ebnq jnl - va sebag bs objyvat nyyrl/qe yh'f \a 
 (Qvfcngpu Zrffntr) FDHNQ ERDHRFG \e     \earyfba yrqtrf - sryy bss pyvss -   \agbarf - nycun cntr bhg 2014 
 (Qvfcngpu Zrffntr) SVER \a12048  OEBFVHF EQ   \a PB zbavgbe
-(Qvfcngpu Zrffntr) PRZFQ vf erdhrfgvat znacbjre ng 9156 Fyntyr eq\apnapre cngvrag..
 (Qvfcngpu Zrffntr) PRZFQ vf erdhrfgvat znacbjre ng 9156 Fyntyr eq\apnapre cngvrag..
 (Qvfcngpu Zrffntr) NYNEZF \a10520  ERLABYQF EQ   \aSVER NYNEZ ERFVQRAGVNY \a\a 
 (Qvfcngpu Zrffntr) GENSSVP PENFU:VAWHEL \aYVZREVQTR EQ  FGNGR EG 303   \a2 PNE ZIN EBYYBIRE
@@ -88,7 +85,6 @@ Fraqre: tneerggfivyyrqvfcngpu@tznvy.pbz
 (Qvfcngpu Zrffntr) NYNEZF: PNEOBA ZBABKVQR \a8008  UNEEVF QE -  PYBFR \aPB QRGRPGBE TBVAT BSS 
 (Qvfcngpu Zrffntr)  SVER \a10804  SBERFG FG  \aSRYY BA TNF ZRGRE O-)
 (Qvfcngpu Zrffntr) SVER \e8916  AVPUBYF EQ   \eGERR QBJA JVGU JVERF 
-(Qvfcngpu Zrffntr) SVER \a8311  JVAQUNZ FG  \aGENAFSBEZRE BA SVER
 (Qvfcngpu Zrffntr) SVER \a8311  JVAQUNZ FG  \aGENAFSBEZRE BA SVER
 (Qvfcngpu Zrffntr) GENSSVP PENFU:VAWHEL \a10301  YVOREGL FG  \aJVERF QBJA, \a\a 
 (Qvfcngpu Zrffntr) NALBAR NINVYNOYR GB JBEX BA FLNGVBA GBQNG CYRNFR PBZR QBJA SBE GUR PYRNA-HC QRGNVY.
