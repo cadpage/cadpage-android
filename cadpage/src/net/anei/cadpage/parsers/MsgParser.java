@@ -560,7 +560,6 @@ public abstract class MsgParser {
   public static final int MAP_FLG_SUPPR_EXT = MsgInfo.MAP_FLG_SUPPR_EXT;
   public static final int MAP_FLG_ADD_DEFAULT_CNTY = MsgInfo.MAP_FLG_ADD_DEFAULT_CNTY;
   public static final int MAP_FLG_SUPPR_DIRO = MsgInfo.MAP_FLG_SUPPR_DIRO;
-  public static final int MAP_FLG_SUPPR_ADD_PLACE = MsgInfo.MAP_FLG_SUPPR_ADD_PLACE;
   public static final int MAP_FLG_PREFER_GPS = MsgInfo.MAP_FLG_PREFER_GPS;
   public static final int MAP_FLG_SUPPR_SR = MsgInfo.MAP_FLG_SUPPR_SR;
   public static final int MAP_FLG_CR_CRES = MsgInfo.MAP_FLG_CR_CRES;

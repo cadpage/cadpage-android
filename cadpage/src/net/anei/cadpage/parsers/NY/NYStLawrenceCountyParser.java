@@ -137,11 +137,6 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
   }
   
   @Override
-  public int getMapFlags() {
-    return MAP_FLG_SUPPR_ADD_PLACE;
-  }
-  
-  @Override
   public String adjustMapAddress(String addr) {
     addr = MAP_CLEAN_PTN.matcher(addr).replaceAll("");
     return addr.trim();

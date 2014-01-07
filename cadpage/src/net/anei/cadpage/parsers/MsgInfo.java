@@ -27,7 +27,7 @@ public class MsgInfo {
   public static final int MAP_FLG_SUPPR_DIRO = 8;
   
   // Suppress inclusion of place name in front of naked street names
-  public static final int MAP_FLG_SUPPR_ADD_PLACE = 0x10;
+  public static final int MAP_FLG_SUPPR_AND_ADJ = 0x10;
   
   // Recommend use of GPS coordinates for mapping
   public static final int MAP_FLG_PREFER_GPS = 0x20;
@@ -788,7 +788,9 @@ public class MsgInfo {
     // Google also doesn't like I-20 fwy contructs
     sAddress = I_FWY_PTN.matcher(sAddress).replaceAll("$1");
     
-    sAddress = AND_PTN.matcher(sAddress).replaceAll(" & ");
+    if (parser == null || (parser.getMapFlags() & MAP_FLG_SUPPR_AND_ADJ) == 0) {
+      sAddress = AND_PTN.matcher(sAddress).replaceAll(" & ");
+    }
     sAddress = REV_HWY_PTN.matcher(sAddress).replaceAll("$3 $1");
     return sAddress;
   }
