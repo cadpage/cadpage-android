@@ -295,6 +295,7 @@ public class ParserList {
               ,"IABlackHawkCounty"              ,"Black Hawk County, IA"
               ,"IADickinsonCounty"              ,"Dickinson County, IA"
               ,"IAJacksonCounty"                ,"Jackson County, IA"
+              ,"IAJasperCounty"                 ,"Jasper County, IA"
               ,"IAMuscatineCounty"              ,"Muscatine County, IA"
               ,"IAPolkCounty"                   ,"Polk County, IA"
               ,"IAPottawattamieCounty"          ,"Pottawattamie County, IA"
