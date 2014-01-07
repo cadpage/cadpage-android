@@ -13,7 +13,7 @@ import net.anei.cadpage.parsers.MsgParser;
 public class CACalaverasCountyParser extends MsgParser {
   
   private static final Pattern MASTER = 
-      Pattern.compile("Inc# (\\d+):([^:]+):(?:([^@]+)@)?(.+?) , *([A-Z_]+) *:Map +([^:]*):(?: :)? LAT/LONG (X: [-+]?\\d+ \\d+\\.\\d+ +Y: [-+]?\\d+ \\d+\\.\\d+): ([^:]*):([^:]*)(?::.*)?");
+      Pattern.compile("Inc# (\\d+):([^:]+):(?:([^@]+)@)?(.+?) , *([A-Z_]+) *:Map +([^:]*):(?: :)? LAT/LONG (X: [-+]?\\d+ \\d+\\.\\d+ +Y: [-+]?\\d+ \\d+\\.\\d+): ([^:]*)(?::([^:]*))?(?::.*)?");
   
   public CACalaverasCountyParser() {
     super("CALAVERAS COUNTY", "CA");
@@ -43,7 +43,7 @@ public class CACalaverasCountyParser extends MsgParser {
     data.strMap = match.group(6).trim();
     setGPSLoc(match.group(7), data);
     data.strSupp = match.group(8).trim();
-    data.strUnit = match.group(9).trim();
+    data.strUnit = getOptGroup(match.group(9));
     
     return true;
   }
