@@ -1558,7 +1558,7 @@ Tnyirfgba Pbhagl, GK (GKTnyirfgbaPbhaglCnefre)
 .... (Fnagn Sr Sver) PNQ:TNF YRNX 11929 15GU FG FZRYY BS TNF [10/27/11 13:40:00 WUVYYZNA]
 .... (Fnagn Sr Sver) PNQ:TENFF SVER 5021 NIR B FG YNETR TENFF SVER [10/28/11 09:48:02 RNGBAE]
 ***************************************************************************
-Wbuafba Pbhagl, GK (GKWbuafbaPbhaglCnefre)
+Wbuafba Pbhagl, GK (GKWbuafbaPbhaglNCnefre)
 PNQ:SLV: ;OSQ;FG2;UNMNEQBHF ZNGREVNY;3100-OYX F VAGREFGNGR 35J FO;RAGENAPR 32 ENZC FO;RKVG 30 ENZC FO;Rirag fcnjarq sebz ZVABE PENFU. [09/11/2013 18:16:45 GXRRGBA] {383} YRG GKQBG XABJ GURER VF TNHEQ ENVY QNZNTR [09/11/13 18:16:01 JYNAQEHZ]
 PNQ:SLV: ;OSQ;FG3;UNMNEQBHF PBAQVGVBAF;7200-OYX SZ 1902;PNQQB CRNX EQ;PBHAGL EBNQ 913;yvar ynlvat npebff ebnqjnl [09/11/13 12:35:03 XERLABYQF]
 PNQ:SLV: ;OSQ;FG2;SVER NYNEZ;301 F QBOFBA FG;R ZVYYRE FG;R UVQQRA PERRX CXJL;sver nynez mbar 10 fzbxr qrgrpgbe nynez fcrpvnyvgl 8664894105 (znex) jrngure pyrne (snyfr nynez ohg ab cnffjbeq) [09/11/13 11:44:05 FEVIREN]
@@ -3076,6 +3076,11 @@ Qvfcngpu Nyreg) Pnyy Glcr: ONAARE RZE\aPvgl: INEQNZNA\aNqqerff: 10 PE 117
 (Qvfcngpu Nyreg) Pnyy Glcr: ONAARE RZE\aPvgl: INEQNZNA\aNqqerff: 123 A ZNVA FG
 (Qvfcngpu Nyreg) Pnyy Glcr: ONAARE RZE\aPvgl: CVGGFOBEB\aNqqerff: 45 PE 104
 ****************************************************************************
+QrFbgb Pbhagl, ZF (ZFQrFbgbPbhaglCnefre) 
+(GENHZN GENHZNGVP VAWHEVRF) 911PRAGRE:8638 JVYQREARFF GEY QRRE EHA EQ FNZCFBA,GVZRFUN
+(QVSSOE QVSSVPHYGL OERNGUVAT) 911PRAGRE:5480 TBBQZNA EQ R Ncg: 2 Oyqt FBHGUOENAPU CXL QNIVQ,RYVMNORGU
+(QVSSOE QVSSVPHYGL OERNGUVAT) 911PRAGRE:7235 UNPXF PEBFF EQ UJL 302 OLCNFF FURYVN
+****************************************************************************
 Arjgba Pbhagl, ZF (ZFArjgbaPbhaglCnefre)
 NYNEZ-SVER HSQ () Ybp:3391 UJL 494 [@EBOVAFBA WBFU & PNFRL Epiq: 10:29:10 13004716
 ZRQVPNY PNYY HSE () Ybp:103 ZNFBA FG Epiq: 09:7:16 13004713
@@ -4372,6 +4377,11 @@ Uhzoyr GK (GKUhzoyrCnefre)
 [NISQ RZF] - Pneqvnp -- 17111 Qnja Funqbjf Qe, Uhzoyr -- Znc: 376U- -- Kfg'f: Sberfg Enva Ya Byq Neobe -- Havgf: R-Z29 -- 201105590
 [NISQ RZF] - Qvnorgvp Rzretrapl -- 5310 Zbbafunqbjf Qe, Uhzoyr -- Znc: 337F- -- Kfg'f: Cbpvgb Pg Jryyfjbbq Pg -- Havgf: R-Z29 -- 201105542
 [NISQ RZF] - Zrqvpny Pnyy -- 6810 Nzore Nfu Pg, Uhzoyr -- Znc: 337D- -- Kfg'f: Pevzfba Bnx Gey -- Havgf: R-Z19 -- 201105487
+*******************************************************************************
+Wbuafba Pbhagl, GK (O) (GKWbuafbaPbhaglOCnefre) 
+(WPRFQ ) [Gvzr: 14-05:26:32] FGN79- ZRQ: 101 A CNEXJNL   , KFge: PBYYRTR FG, Obk: 7900, Zncfpb:1070E [Havgf--FGN79] [Fgngvbaf--79]
+(WPRFQ ) [Gvzr: 13-21:54:09] FGN79- ZRQ: 501 A FCNEXF FG   , KFge: J. PBYYRTR, Obk: 7900, Zncfpb:1071G [Havgf--FGN79] [Fgngvbaf--79]
+(WPRFQ ) [Gvzr: 13-19:30:34] FGN79- FGE1: 2601  PE 211   , KFge: PE 109, Obk: 7203, Zncfpb:1073G [Havgf--FGN72-FGN75-FGN79] [Fgngvbaf--72-75-79]
 *******************************************************************************
 Yrba Pbhagl, GK (GKYrbaPbhaglCnefre)
 (Qvfcngpu Nyreg) TENFF SVER\a\aZZ 177 FO\aNcg \aOHSSNYB\aAbgr: FO FVQR TENFF SVER
