@@ -37,7 +37,7 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
     }
     if (data.strUnit.length() == 0) return false;
     
-    String callAddr;
+    String callAddr = null;
     Matcher  match = CITY_PTN.matcher(body);
     if (match.matches()) {
       callAddr = match.group(1);
@@ -45,15 +45,23 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
       data.strSupp = match.group(3);
     } else {
       int pt = body.indexOf(',');
-      if (pt < 0) return false;
-      callAddr =  body.substring(0,pt).trim();
-      body = body.substring(pt+1).trim();
-      parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, body, data);
-      if (data.strCity.length() == 0) return false;
+      if (pt >= 0) {
+        String extra = body.substring(pt+1).trim();
+        parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, extra, data);
+        if (data.strCity.length() > 0) {
+          callAddr =  body.substring(0,pt).trim();
+          data.strSupp = getLeft();
+        }
+      }
+    }
+    if (callAddr != null) {
+      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_NO_CITY | FLAG_ANCHOR_END, callAddr, data);
+    } else {
+      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
+      if (data.strAddress.length() == 0) return false;
       data.strSupp = getLeft();
     }
     if (data.strCity.equals("PENNCO")) data.strCity = "";
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, callAddr, data);
     return true;
   }
   
