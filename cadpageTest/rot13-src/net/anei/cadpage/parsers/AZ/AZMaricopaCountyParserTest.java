@@ -622,8 +622,8 @@ choyvp pynff NMZnevpbcnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G13",
         "(V/Cntr Abgvsvpngvba) Ybpngvba: 10798 R OEBJA EQ ZNEV,VAG: @FVTANY OHGGR / OEBJA RIRAG: S2014001554 GLCR PBQR: 2A1Z GVZR: 11:15:17 PNYYRE ANZR:  PNYYRE NQQE:  Pbzzragf:  FCRPVNY NQQERFF PBZZRAG: Tevq: NQ37 Cyng: 131 Oybpx: A/N ZNVQ EBYYBIRE NAQ RWRPGVBAF",
-        "NQQE:10798 R OEBJA EQ," +
-        "PVGL:ZNEV",
+        "NQQE:10798 R OEBJA EQ",
+        "PVGL:ZNEVPBCN",
         "K:FVTANY OHGGR",
         "VQ:S2014001554",
         "PNYY:2A1Z",
