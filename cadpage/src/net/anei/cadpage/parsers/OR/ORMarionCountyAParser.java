@@ -15,7 +15,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class ORMarionCountyAParser extends FieldProgramParser {
   
-  private static final Pattern MAP_PTN = Pattern.compile(":MAP::(\\d+[A-Z]):");
+  private static final Pattern MAP_PTN = Pattern.compile(":MAP::(\\d+[A-Z]?):");
   
   public ORMarionCountyAParser() {
     super("MARION COUNTY", "OR",
@@ -67,8 +67,7 @@ public class ORMarionCountyAParser extends FieldProgramParser {
       if (field.contains("I5") || field.contains(" MP ")) {
         parseAddress(field, data);
       } else {
-        parseAddress(StartType.START_ADDR, field, data);
-        data.strApt = append(data.strApt, "-", getLeft());
+        parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT | FLAG_ANCHOR_END, field, data);
       }
     }
     
