@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
 
 
@@ -83,16 +84,7 @@ public class MDCalvertCountyParser extends SmartAddressParser {
     data.strPlace = left.substring(0,brk).trim();
     left = left.substring(brk);
     
-    if (left.length() > 0) {
-      int start = left.length();
-      start = stripPattern(left, start, INFO_CODE_PTN, INFO_CODE_PROC, data);
-      start = stripPattern(left, start, INFO_CALL_PTN2, INFO_CALL_PROC, data);
-      start = stripPattern(left, start, INFO_CALL_PTN1, INFO_CALL_PROC, data);
-      start = stripPattern(left, start, INFO_SKIP_PTN);
-      left = left.substring(0,start).trim();
-    }
-
-    data.strSupp = left;
+    DispatchProQAParser.parseProQAData(true, left, data);
     
     // Special case
     if (data.strPlace.equals("MARYS") && data.strAddress.endsWith(" ST")) {
@@ -100,40 +92,6 @@ public class MDCalvertCountyParser extends SmartAddressParser {
       data.strAddress = data.strAddress.substring(0, data.strAddress.length()-3).trim();
     }
     return true;
-  }
-  
-  private static final Pattern INFO_CODE_PTN = Pattern.compile("\\bDispatch Code: +([^ ]+)");
-  private static Processor INFO_CODE_PROC = new Processor(){
-    public void process(Matcher match, Data data) {
-      String code = match.group(1);
-      if (!code.equals("--:")) data.strCode = match.group(1);
-    }
-  };
-  
-  private static final Pattern INFO_CALL_PTN1 = Pattern.compile("\\bProblem: (.*?)\\.  Patient Info:"); 
-  private static final Pattern INFO_CALL_PTN2 = Pattern.compile("\\bCaller Statement: (.*?)\\."); 
-  private static Processor INFO_CALL_PROC = new Processor(){
-    public void process(Matcher match, Data data) {
-      data.strCall = match.group(1);
-    }
-  };
-  
-  private static final Pattern INFO_SKIP_PTN = 
-      Pattern.compile("\\bProQA (?:Medical|Fire|Police) |\\bE911 Info - |\\bYou are responding to ");
-  
-  private int stripPattern(String info, int start, Pattern ptn) {
-    return stripPattern(info, start, ptn, null, null);
-  }
-  
-  private int stripPattern(String info, int start, Pattern ptn, Processor proc, Data data) {
-    Matcher match = ptn.matcher(info);
-    if (!match.find()) return start;
-    if (proc != null) proc.process(match,  data);
-    return Math.min(start, match.start());
-  }
-  
-  private static interface Processor {
-    public void process(Matcher match, Data data);
   }
   
   private static final String[] CITY_LIST = new String[] {

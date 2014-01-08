@@ -1,12 +1,12 @@
 package net.anei.cadpage.parsers.KY;
 
 import java.util.Properties;
-import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.StandardCodeTable;
+import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
 /**
  * Louisville, KY
@@ -72,14 +72,15 @@ public class KYLouisvilleParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern INFO_SKIP_PTN = Pattern.compile(" *ProQA dispatch code: [0-9A-Za-z]+ Responder script: *| *\\*\\* Case number .*");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      field = INFO_SKIP_PTN.matcher(field).replaceAll(" / ").trim();
-      if (field.startsWith("/")) field = field.substring(1).trim();
-      if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
-      super.parse(field, data);
+      DispatchProQAParser.parseProQAData(false, field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE INFO";
     }
   }
   

@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ARBentonCountyBParser extends FieldProgramParser {
 
   public ARBentonCountyBParser() {
-    super(CITY_LIST, "BENTON COUNTY", "AR", "Location:ADDR/Sx Map:MAP Cross_Streets:X Call_Type:CALL Narrative:INFO+ Call_Time:DATETIME Incident_Number:ID Units:UNIT");
+    super(CITY_LIST, "BENTON COUNTY", "AR", "Location:ADDR/Sx! Map:MAP Cross_Streets:X! Call_Type:CALL! Narrative:INFO! INFO+ Call_Time:DATETIME! Incident_Number:ID! Units:UNIT!");
   }
   
   @Override

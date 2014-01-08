@@ -16731,7 +16731,76 @@ Ybpngvba: Fcyraqben , GK, Havgrq Fgngrf
   
   @Grfg
   choyvp ibvq grfgJQFlxrf() {
-    
+
+    qbGrfg("G1",
+        "(PNQ Zrffntr) 14-000892 5 Tebtnaf Cnex Qe Fzbxr - Va n Oyqt Pb10OU 2251I SQ5 ST13 GX108",
+        "VQ:14-000892",
+        "HAVG:GX108",
+        "NQQE:5 Tebtnaf Cnex Qe",
+        "PNYY:Fzbxr - Va n Oyqt Pb",
+        "OBK:10OU",
+        "ZNC:2251I",
+        "FEP:SQ5 ST13");
+
+    qbGrfg("G2",
+        "(PNQ Zrffntr) 14-000821 71 Ebpxevqtr Qe Nynez - Sver 10OU 2250U SQ2 GX108",
+        "VQ:14-000821",
+        "HAVG:GX108",
+        "NQQE:71 Ebpxevqtr Qe",
+        "PNYY:Nynez - Sver",
+        "OBK:10OU",
+        "ZNC:2250U",
+        "FEP:SQ2");
+
+    qbGrfg("G3",
+        "(PNQ Zrffntr) 14-000806 11 Tyra Reva Qe Fzbxr - Va n Erfvqra10OU 2216X SQ5 GX108",
+        "VQ:14-000806",
+        "HAVG:GX108",
+        "NQQE:11 Tyra Reva Qe",
+        "PNYY:Fzbxr - Va n Erfvqra",
+        "OBK:10OU",
+        "ZNC:2216X",
+        "FEP:SQ5");
+
+    qbGrfg("G4",
+        "(PNQ Zrffntr) 14-000791 17943 V 45 F Fgehpgher - Pbzzrepv10OU 2218F SQ5 ST14 GX108",
+        "VQ:14-000791",
+        "HAVG:GX108",
+        "NQQE:17943 V 45 F",
+        "PNYY:Fgehpgher - Pbzzrepv",
+        "OBK:10OU",
+        "ZNC:2218F",
+        "FEP:SQ5 ST14");
+
+    qbGrfg("G5",
+        "(PNQ Zrffntr) 14-000760 1660 Ynxr Jbbqynaqf Qe Fzbxr - Va n Oyqt Pb10OU 2251U SQ5 GX108",
+        "VQ:14-000760",
+        "HAVG:GX108",
+        "NQQE:1660 Ynxr Jbbqynaqf Qe",
+        "PNYY:Fzbxr - Va n Oyqt Pb",
+        "OBK:10OU",
+        "ZNC:2251U",
+        "FEP:SQ5");
+
+    qbGrfg("G6",
+        "(PNQ Zrffntr) 14-000744 66 A Ebpxl Cbvag Pve Zrqvpny Cevbevgl 1 JBBQYN250D SQ2 GX108",
+        "VQ:14-000744",
+        "HAVG:GX108",
+        "NQQE:66 A Ebpxl Cbvag Pve",
+        "PNYY:Zrqvpny Cevbevgl 1",
+        "ZNC:JBBQYN250D",
+        "FEP:SQ2");
+
+    qbGrfg("G7",
+        "(PNQ Zrffntr) 14-000715 4407 F Cnagure Perrx Qe Snyy 10OU 2250U SQ3 GX108",
+        "VQ:14-000715",
+        "HAVG:GX108",
+        "NQQE:4407 F Cnagure Perrx Qe",
+        "PNYY:Snyy",
+        "OBK:10OU",
+        "ZNC:2250U",
+        "FEP:SQ3");
+
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

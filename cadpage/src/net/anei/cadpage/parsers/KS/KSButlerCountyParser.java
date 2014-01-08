@@ -4,6 +4,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
 /**
  * Butler County, KS
@@ -36,19 +37,15 @@ public class KSButlerCountyParser extends FieldProgramParser {
     return true;
   }
   
-  private static final String[] PROQA_TERMS = new String[]{
-    "ProQA Medical Dispatch Message Sent; ",
-    "ProQA Dispatch Message Sent; ",
-    "ProQA Medical Key Questions have been completed; "
-  };
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      for (String term : PROQA_TERMS) {
-        field = field.replace(term, "");
-        if (term.startsWith(field)) return;
-      }
-      super.parse(field, data);
+      DispatchProQAParser.parseProQAData(false, field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE INFO";
     }
   }
   
@@ -61,10 +58,35 @@ public class KSButlerCountyParser extends FieldProgramParser {
   private static final String[] CITY_LIST = new String[]{
     "COUNTY",
     
-    "EL DORADO", "ANDOVER", "AUGUSTA", "ROSE HILL", "DOUGLASS", "TOWANDA", 
-    "BENTON", "LEON", "WHITEWATER", "POTWIN", "ELBING", "LATHAM", "CASSODAY",
-    "BEAUMONT", "BOIS D'ARC", "BRAINERD", "CHELSEA", "DEGRAFF","GORDON", 
-    "HAVERFILL", "HOPKINS", "KEIGHLEY", "LORENA", "PONTIAC", "PROSPECT", 
-    "PROVIDENCE", "ROSALIA", "SALTER", "SMILEYBERG", "VANORA"
+    "ANDOVER", 
+    "AUGUSTA", 
+    "BEAUMONT", 
+    "BENTON", 
+    "BOIS D'ARC", 
+    "BRAINERD", 
+    "CASSODAY",
+    "CHELSEA", 
+    "DEGRAFF",
+    "DOUGLASS", 
+    "EL DORADO", 
+    "ELBING", 
+    "GORDON", 
+    "HAVERFILL", 
+    "HOPKINS", 
+    "KEIGHLEY", 
+    "LATHAM", 
+    "LEON", 
+    "LORENA", 
+    "PONTIAC", 
+    "POTWIN", 
+    "PROSPECT", 
+    "PROVIDENCE", 
+    "ROSALIA", 
+    "ROSE HILL", 
+    "SALTER", 
+    "SMILEYBERG", 
+    "TOWANDA", 
+    "VANORA",
+    "WHITEWATER" 
   };
 }

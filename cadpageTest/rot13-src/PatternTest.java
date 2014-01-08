@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE  = 
-      Cnggrea.pbzcvyr("Sebz - ([N-M0-9]+) - 1 Nynez / (.*?) (?:Obk|OBK|\\| ENC) - ([-N-M0-9]*) @ (.*?) (?:\\| )?KFgerrgf: *(.*?)(?:/?Ab PebffFgerrg Sbhaq)? (?:\\| )?Ba - ([ N-M0-9]*)");
+      Cnggrea.pbzcvyr("\\oCeboyrz: (.*?)\\.  Cngvrag Vasb:|\\oPnyyre Fgngrzrag: (.*?)\\.|\\oQvfcngpu (?:Pbqr|Yriry): +(\\q[^ ;]+);?|\\oCebDN (?:(?:Zrqvpny|Sver|Cbyvpr) )?(?:Qvfcngpu Zrffntr Frag|Xrl Dhrfgvbaf unir orra pbzcyrgrq|Dhrfgvbaanver Pbzcyrgrq);| Arj CebDN (?:Zrqvpny|Sver|Cbyvpr) Pnfr Ahzore unf orra nffvtarq;|Qvfcngpu (?:Pbqr|Yriry): --: -\\q+|\\oR911 Vasb -.*|Puvrs Pbzcynvag Ahzore: \\q+;| \\*\\* Pnfr ahzore \\q+ unf orra nffvtarq sbe \\q+:PAGL \\*\\* >+|>+ ol: [ N-M]+ ba grezvany: [^ ]+");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("Sebz - RFQ02 - 1 Nynez / OBK -Fgehpgher Sver Obk - 02-0214O @ 821 Bngzrny Qe KFgerrgf: ANEHAN JNL/SNVEYNAQ QE Ba - SGNP 201 Gvzr: 06:21:03 Vap# 13122652 Pnfr Ahz: Sbe - DAG40,RAT28,RAT221,ONG201");
+    qbGrfg(" >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

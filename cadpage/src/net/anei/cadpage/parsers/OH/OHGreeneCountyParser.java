@@ -1,10 +1,10 @@
 package net.anei.cadpage.parsers.OH;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
 
 
@@ -52,25 +52,10 @@ public class OHGreeneCountyParser extends FieldProgramParser {
     }
   }
 
-  private static final Pattern INFO_CODE_PTN = Pattern.compile(" *\\bDispatch (?:Code|Level): +([-A-Z0-9]+);?");
-  private static final Pattern INFO_JUNK_PTN = Pattern.compile(" *(?:ProQA Dispatch Message Sent;|New ProQA Case Number has been assigned: +-?\\d+)");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      Matcher match = INFO_CODE_PTN.matcher(field);
-      if (match.find()) {
-        data.strCode = match.group(1);
-        field = field.substring(0,match.start()) + field.substring(match.end());
-      }
-      
-      int pt = field.indexOf(" E911 Info ");
-      if (pt >= 0) {
-        field = field.substring(0,pt).trim();
-      }
-      
-      field = INFO_JUNK_PTN.matcher(field).replaceAll("").trim();
-      
-      super.parse(field, data);
+      DispatchProQAParser.parseProQAData(false, field, data);
     }
     
     @Override
