@@ -543,20 +543,23 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     sbe (vag ww = 0; ww<grezf.yratgu; ww++) {
       Fgevat grez = grezf[ww];
       Fgevat inyhr = trgInyhr(vasb, grez);
-      vs (inyhr.yratgu() == 0) pbagvahr;
-      Flfgrz.bhg.cevag(oex + "        \"" + grez + ":" + rfpncr(inyhr) + "\"");
-      oex = ",\a";
+      vs (inyhr.yratgu() > 0) {
+        Flfgrz.bhg.cevag(oex + "        \"" + grez + ":" + rfpncr(inyhr) + "\"");
+        oex = ",\a";
+      }
       vs (grez.rdhnyf("NQQE")) {
         grez = "ZNQQE";
          inyhr = trgInyhr(vasb, grez);
         vs (inyhr.yratgu() == 0) pbagvahr;
         Flfgrz.bhg.cevag(oex + "        \"" + grez + ":" + rfpncr(inyhr) + "\"");
+        oex = ",\a";
       }
       vs (grez.rdhnyf("PVGL")) {
         grez = "ZPVGL";
         inyhr = trgInyhr(vasb, grez);
         vs (inyhr.yratgu() == 0) pbagvahr;
         Flfgrz.bhg.cevag(oex + "        \"" + grez + ":" + rfpncr(inyhr) + "\"");
+        oex = ",\a";
       }
     }
     Flfgrz.bhg.cevagya(");");

@@ -84,7 +84,7 @@ public class ZSESwedenParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern GPS_PTN = Pattern.compile("La = (\\d+)(?:º| grader) ([\\d\\.,]+)'([NS]) +Lo = (\\d+)(?:º| grader) ([\\d\\.,]+)'([EW])");
+  private static final Pattern GPS_PTN = Pattern.compile("La = (\\d+)(?:[^\\p{ASCII}]+| grader) ([\\d\\.,]+)'([NS]) +Lo = (\\d+)(?:[^\\p{ASCII}]+| grader) ([\\d\\.,]+)'([EW])");
   private class MyGPSField extends GPSField {
     
     @Override
