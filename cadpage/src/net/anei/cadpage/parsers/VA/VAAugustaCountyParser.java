@@ -146,7 +146,7 @@ public class VAAugustaCountyParser extends DispatchOSSIParser {
           // If this is better than a naked road, see if
           // we previously misidentified a place name as an
           // address
-          if (addrStat > 1 && data.strPlace.length() == 0 && checkAddress(data.strAddress) == 1) {
+          if (addrStat > 1 && data.strPlace.length() == 0 && checkAddress(data.strAddress) == STATUS_STREET_NAME) {
             data.strPlace = data.strAddress;
             data.strAddress = "";
             parseAddress(fld, data);

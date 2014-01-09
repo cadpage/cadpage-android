@@ -53,7 +53,7 @@ public class NCStanlyCountyParser extends DispatchOSSIParser {
       int addrNdx = addressList.size()-1;
       if (addrNdx < 0) abort();
       String sAddr = addressList.get(addrNdx);
-      if (addrNdx > 0 && checkAddress(sAddr) == 1) {
+      if (addrNdx > 0 && checkAddress(sAddr) == STATUS_STREET_NAME) {
         sAddr = addressList.get(--addrNdx) + " & " + sAddr;
       }
       parseAddress(sAddr, data);

@@ -46,6 +46,7 @@ Npgvir911 gvpxrgf
 2013121010000344  GKWbuafbaPbhaglO qbar
 2013031410000345  VNWnfcrePbhagl qbar
 2012110110000123  NEOragbaPbhaglO qbar
+2013011810000271  PNFlfxvlbhPbhagl qbar
 
 HF/BU/UbyzrfPbhaglFure  BUUbyzrfPbhagl
 HF/ZG/EninyyvPbhagl
@@ -7478,24 +7479,6 @@ EhaGvzrf:\aHavg        Fgnghf    Gvzr\a-----------------------------------------
 **********************************************************
 **********************************************************
 **********************************************************
-2013011810000271 (Cngevpx)
-Fvfxvlbh Pbhagl, PN
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: PnfgryynQhafzhve Sver Qrcnegzrag
-Ybpngvba: Qhafzhve, PN, Havgrq Fgngrf
-Fraqre: fxhpnq@SVER.PN.TBI
-
-(PNQ Cntr) Vap# 009371; ZRQVPNY; 5938 PNFGYR NI ,QAFZE ; ; 4480 OYX QNYL FG; K: -122 16.4770 L: 41 12.5572; <n uers="uggc://zncf.tbbtyr.pbz/?d=41.209287,-122.274618">Znc</n>QHA-QCG ZFN-NZO FD840; NFFNHYG;
-(PNQ Cntr) Vap# 009370; SVER, ERFVQRAGVNY NYNEZ; 316 PURFGAHG FG ,ZF (ZG FUNFGN URENYQ); ; 200 OYX R PNFGYR FG; K: -122 18.7012 L: 41 18.8393; <n uers="uggc://zncf.tbbtyr.pbz/?d=41.313989,-122.311688">Znc</n>O2611 PUSTEC QHA-QCG ZFN-NZO ZFU-QCG ZGF-QCG JRQ-PQS; SVER NYNEZ;
-(PNQ Cntr) Vap# 009304; ZRQ, GENSSVP PBYYVFVBA; V 5 RKVG 718 FVZF EQ @ =Y(41.071787,-122.358088) ,PFGRYN ; AO 5 WFB FVZF;  ; K: -122 21.4852 L: 41 4.30722; <n uers="uggc://zncf.tbbtyr.pbz/?d=41.071787,-122.358088">Znc</n>PNF-QCG QHA-QCG; 3 - 4 IRUVPYR BS EBNQJNL;
-(PNQ Cntr) Vap# 009301; SVER, FZBXR PURPX; 30929 WRFFR WNZRF EQ ,QAFZE ; ; 955 OYX F 1FG FG; K: -122 17.0745 L: 41 11.0409; <n uers="uggc://zncf.tbbtyr.pbz/?d=41.184016,-122.284576">Znc</n>QHA-QCG; SVER ZNL OR GUERNGRA URE CEBCREGL;
-(PNQ Cntr) Vap# 009257; SVER, PBZZREPVNY NYNEZ; 625 ZNEWBEVR FG #BSP ,ZF (NYGN IVFGN ZNABE); ; 100 OYX ZNETVR PG; K: -122 18.8483 L: 41 19.3081; <n uers="uggc://zncf.tbbtyr.pbz/?d=41.321803,-122.314139">Znc</n>O2614 PUSTEC QHA-QCG ZFN-NZO ZFU-QCG ZGF-QCG JRQ-PQS; PQS YBP/ISVER 26; sver nynez fbhaqvat;
-(PNQ Cntr) Vap# 009232; ZRQVPNY; 4131 QHAFZHVE NI #9 ,QAFZE ; PNOVA VA ONPX BS CEBCREGL; 4299 OYX CNGEVPVN JL; K: -122 16.2601 L: 41 14.1522; <n uers="uggc://zncf.tbbtyr.pbz/?d=41.235870,-122.271003">Znc</n>QHA-QCG ZFN-NZO FD840; 57 LBZ IBZVGVAT OYBBQ;
-(PNQ Cntr) Vap# 009222; ZRQVPNY; 5005 SYBERAPR YC ,QAFZE ; ;  NPPRFF ENZC; K: -122 16.4790 L: 41 13.1551; <n uers="uggc://zncf.tbbtyr.pbz/?d=41.219252,-122.274651">Znc</n>QHA-QCG ZFN-NZO FD840; 78 LBS TRARENY VYYARFF\a;
-(PNQ Cntr) Vap# 009217; SVER, PBZZREPVNY NYNEZ; 4100 CVAR FG / 5828 FNPENZRAGB NI ,QAFZE ; PNSR ZNQQRYNAN; ; K: -122 16.2588 L: 41 12.6482; <n uers="uggc://zncf.tbbtyr.pbz/?d=41.210804,-122.270980">Znc</n>P800 QHA-QCG ZFU-QCG; AB GRKG;
-(PNQ Cntr) Vap# 009206; ZRQ, GENSSVP PBYYVFVBA; V 5 /   FBQN PERRX EQ ,QAFZE ; FBHGU OBHAQ V 5;  ; K: -122 16.3568 L: 41 12.5906; <n uers="uggc://zncf.tbbtyr.pbz/?d=41.209844,-122.272614">Znc</n>PNF-QCG QHA-QCG ZFN-NZO; BIREGHEARQ FRQNA;
-(PNQ Cntr) Vap# 009200; ZRQVPNY; 5702 FUNFGN NI ,QAFZE ; ; 4367 OYX CVAR FG; K: -122 16.3314 L: 41 12.7328; <n uers="uggc://zncf.tbbtyr.pbz/?d=41.212214,-122.272190">Znc</n>QHA-QCG ZFN-NZO FD840; NFFFNHYG IVP, F.B. NG FPRAR;
 **********************************************************
 2013093010000652 (Cngevpx)
 Uneevfba Pbhagl, ZF

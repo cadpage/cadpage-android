@@ -135,7 +135,7 @@ public class MDCharlesCountyAParser extends SmartAddressParser {
       // Otherwise we have to use the smart parser to separate out what we didn't get
       int flags = (mapSt >= 0 ? FLAG_ANCHOR_END : 0);
       parseAddress(start, flags, body, data);
-      good = (getStatus() > 1);
+      good = (getStatus() > STATUS_STREET_NAME);
 
       if (data.strCall.endsWith(",")) data.strCall = data.strCall.substring(0, data.strCall.length()-1).trim();
       

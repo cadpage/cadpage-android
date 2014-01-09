@@ -135,7 +135,7 @@ public class DispatchA13Parser extends FieldProgramParser {
         if (sPart2.length() > 0) {
           if (!sPart2.contains("/") && !sPart2.contains(";") &&
               data.strPlace.length() == 0 && checkAddress(data.strAddress) == 0 &&
-              checkAddress(sPart2) >= 3) {
+              checkAddress(sPart2) >= STATUS_FULL_ADDRESS) {
             data.strPlace = data.strAddress;
             data.strAddress = "";
             parseAddress(sPart2, data);

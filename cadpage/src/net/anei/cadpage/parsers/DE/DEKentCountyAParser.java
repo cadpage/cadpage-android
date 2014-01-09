@@ -36,7 +36,7 @@ public class DEKentCountyAParser extends FieldProgramParser {
     body = body.replace("Xst's:", "Xsts:");
     if (!parseFields(splitMsg(body), data)) return false;
     if (good) return true;
-    if (getStatus() <= 1) return false;
+    if (getStatus() <= STATUS_STREET_NAME) return false;
     return good || data.strAddress.length() > 0 || data.strCross.length() > 0 || data.strName.length() > 0;
   }
   

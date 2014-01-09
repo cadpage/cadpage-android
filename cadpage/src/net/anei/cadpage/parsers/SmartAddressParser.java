@@ -157,6 +157,13 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_NO_STREET_SFX = 0x200000;
   
+  public static final int STATUS_TRIVIAL = 4;
+  public static final int STATUS_FULL_ADDRESS = 3;
+  public static final int STATUS_INTERSECTION = 2;
+  public static final int STATUS_STREET_NAME = 1;
+  public static final int STATUS_NOTHING = 0;
+      
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -792,16 +799,16 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // We have a number of basic patters that we will recognize
     // Try each one until we find one that works
-    result.status = 4;
+    result.status = STATUS_TRIVIAL;
     if (parseTrivialAddress(result)) return result;
     if (!isFlagSet(FLAG_ONLY_CROSS)) {
       if (parseGPSCoords(result, gpsCoords)) return result;
-      result.status = 3;
+      result.status = STATUS_FULL_ADDRESS;
       if (parseSimpleAddress(result)) return result;
     }
-    result.status = 2;
+    result.status = STATUS_INTERSECTION;
     if (parseIntersection(result)) return result;
-    result.status = 1;
+    result.status = STATUS_STREET_NAME;
     if (parseNakedRoad(result)) {
       // If the naked road pattern detected an implied intersection symbol
       // promote the result status to intersection

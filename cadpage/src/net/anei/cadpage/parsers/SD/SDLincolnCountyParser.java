@@ -66,7 +66,7 @@ public class SDLincolnCountyParser extends FieldProgramParser {
     Parser p = new Parser(subject);
     String addr = p.get(',');
     Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, addr);
-    if (res.getStatus() > 1 || LEAD_NUMBER.matcher(addr).matches()) {
+    if (res.getStatus() >= STATUS_INTERSECTION || LEAD_NUMBER.matcher(addr).matches()) {
       setFieldList("ADDR CITY STATE CALL");
       res.getData(data);
       if (data.strCity.length() == 0) data.strCity = p.get(',');

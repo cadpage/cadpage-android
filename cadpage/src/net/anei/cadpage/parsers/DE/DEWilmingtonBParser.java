@@ -49,7 +49,7 @@ public class DEWilmingtonBParser extends SmartAddressParser {
     else {
       parseAddress(StartType.START_ADDR, match.group(7).trim(), data);
       data.strCall = getLeft();
-      return (getStatus() > 1);
+      return (getStatus() > STATUS_STREET_NAME);
     }
   }
   
