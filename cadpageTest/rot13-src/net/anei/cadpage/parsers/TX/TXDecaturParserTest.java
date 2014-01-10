@@ -69,7 +69,7 @@ choyvp pynff GKQrpngheCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Qrpnghe SQ",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:2150 SZ 51 UJL F",
-        "ZNQQE:2150 SZ 51 F",
+        "ZNQQE:2150 SNEZ-GB-ZNEXRG 51 UJL F",
         "HAVG:QCQ 207",
         "VASB:10:36:45 ---- ZNYR UVTU OYBBQ CERFFHER");
 

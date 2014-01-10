@@ -922,6 +922,7 @@ choyvp pynff GKUneevfPbhaglRFQ1OCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:29O04H",
         "PNYY:29O4 ZBGBE IRUVPYR N",
         "NQQE:8300 R Sz 1960",
+        "ZNQQE:8300 R Snez-gb-znexrg 1960",
         "ZNC:338F",
         "K:SNVEJNL VFYNAQ QE/CVAR RPUB QE",
         "OBK:N1901");
@@ -931,6 +932,7 @@ choyvp pynff GKUneevfPbhaglRFQ1OCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:R29",
         "PNYY:29N1 ZBGBE IRUVPYR N",
         "NQQE:8300 R Sz 1960",
+        "ZNQQE:8300 R Snez-gb-znexrg 1960",
         "ZNC:338F",
         "K:SNVEJNL VFYNAQ QE/CVAR RPUB QE",
         "OBK:N1901");
@@ -1228,6 +1230,7 @@ choyvp pynff GKUneevfPbhaglRFQ1OCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:29O01N",
         "PNYY:29O1 ZBGBE IRUVPYR N",
         "NQQE:R Sz 1960 & Jbbqynaq Uvyyf Qe",
+        "ZNQQE:R Snez-gb-znexrg 1960 & Jbbqynaq Uvyyf Qe",
         "ZNC:336I",
         "OBK:N2901");
 
@@ -1236,6 +1239,7 @@ choyvp pynff GKUneevfPbhaglRFQ1OCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:Z29",
         "PNYY:29N1 ZBGBE IRUVPYR N",
         "NQQE:R Sz 1960 & Jbbqynaq Uvyyf Qe",
+        "ZNQQE:R Snez-gb-znexrg 1960 & Jbbqynaq Uvyyf Qe",
         "ZNC:336I",
         "OBK:N2901");
 

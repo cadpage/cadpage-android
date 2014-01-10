@@ -209,7 +209,7 @@ choyvp pynff GKJlyvrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PBZZREPVNY SVER NYNEZ",
         "OBK:210",
         "NQQE:2550 -400 J SZ 544",
-        "ZNQQE:2550 J SZ 544",
+        "ZNQQE:2550 J SNEZ-GB-ZNEXRG 544",
         "K:ZRQVPNY CYNMN QE / PBHAGEL PYHO QE",
         "PU:BCF 3",
         "PVGL:JLYVR");
@@ -1362,7 +1362,7 @@ choyvp pynff GKJlyvrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZF-ABA RZRETRAPL GENAFSRE",
         "OBK:126",
         "NQQE:2300 -100 J SZ 544",
-        "ZNQQE:2300 J SZ 544",
+        "ZNQQE:2300 J SNEZ-GB-ZNEXRG 544",
         "K:F FNAQRA OYIQ / ZRQVPNY CYNMN QE",
         "PU:R Z F",
         "PVGL:JLYVR");

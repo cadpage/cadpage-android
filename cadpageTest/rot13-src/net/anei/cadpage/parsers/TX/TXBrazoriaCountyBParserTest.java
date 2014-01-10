@@ -426,6 +426,7 @@ choyvp pynff GKOenmbevnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201300021968",
         "PNYY:NZOHYNAPR PNYY / BLFGRE PERRX",
         "NQQE:3210 SZ 523",
+        "ZNQQE:3210 SNEZ-GB-ZNEXRG 523",
         "PVGL:SERRCBEG",
         "QNGR:09/20/2013",
         "GVZR:20:43:22",

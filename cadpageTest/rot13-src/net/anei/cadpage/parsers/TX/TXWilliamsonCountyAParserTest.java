@@ -111,6 +111,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:SLV: ;NBN;1509 SZ 973;GN",
         "PNYY:NBN",
         "NQQE:1509 SZ 973",
+        "ZNQQE:1509 SNEZ-GB-ZNEXRG 973",
         "HAVG:GN");
 
     qbGrfg("G11",

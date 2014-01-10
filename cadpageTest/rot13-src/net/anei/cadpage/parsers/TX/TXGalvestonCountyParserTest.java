@@ -97,7 +97,7 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Fnagn Sr Sver",
         "PNYY:YVAR QBJA",
         "NQQE:1946 A SZ 646 EQ",
-        "ZNQQE:1946 A SZ 646",
+        "ZNQQE:1946 A SNEZ-GB-ZNEXRG 646 EQ",
         "K:UNEEVRGG YA",
         "VASB:YVAR QBJA BA GUR TEBHAQ",
         "QNGR:11/03/11",

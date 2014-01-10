@@ -667,6 +667,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "07/05/13 18:14:16~unyy &nzc; yvivat ebbz fzbxr qrgrpgbe",
 
         "NQQE:2548 SZ 549",
+        "ZNQQE:2548 SNEZ-GB-ZNEXRG 549",
         "PVGL:Ebpxjnyy",
         "CUBAR:(972) 722-0441",
         "ZNC:486-4",
@@ -719,6 +720,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "07/05/13 01:11:09~A FVQR BS 552 R BS 549",
 
         "NQQE:SZ 552 & A FZVGU EQ",
+        "ZNQQE:SNEZ-GB-ZNEXRG 552 & A FZVGU EQ",
         "PVGL:Ebpxjnyy Pbhagl",
         "ZNC:S20N",
         "VQ:563",
@@ -769,6 +771,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "07/05/13 01:11:09~A FVQR BS 552 R BS 549",
 
         "NQQE:SZ 552 & A FZVGU EQ",
+        "ZNQQE:SNEZ-GB-ZNEXRG 552 & A FZVGU EQ",
         "PVGL:Ebpxjnyy Pbhagl",
         "ZNC:S20N",
         "VQ:563",
@@ -819,6 +822,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "07/05/13 01:11:09~A FVQR BS 552 R BS 549",
 
         "NQQE:SZ 552 & A FZVGU EQ",
+        "ZNQQE:SNEZ-GB-ZNEXRG 552 & A FZVGU EQ",
         "PVGL:Ebpxjnyy Pbhagl",
         "ZNC:S20N",
         "VQ:563",
@@ -869,6 +873,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "07/05/13 01:11:09~A FVQR BS 552 R BS 549",
 
         "NQQE:SZ 552 & A FZVGU EQ",
+        "ZNQQE:SNEZ-GB-ZNEXRG 552 & A FZVGU EQ",
         "PVGL:Ebpxjnyy Pbhagl",
         "ZNC:S20N",
         "VQ:563",
@@ -918,6 +923,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "07/04/13 23:09:03~ol fgbc fvta",
 
         "NQQE:A FZVGU EQ & SZ 552",
+        "ZNQQE:A FZVGU EQ & SNEZ-GB-ZNEXRG 552",
         "PVGL:Ebpxjnyy Pbhagl",
         "ZNC:S20N",
         "VQ:522",
@@ -967,6 +973,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "07/04/13 23:09:03~ol fgbc fvta",
 
         "NQQE:A FZVGU EQ & SZ 552",
+        "ZNQQE:A FZVGU EQ & SNEZ-GB-ZNEXRG 552",
         "PVGL:Ebpxjnyy Pbhagl",
         "ZNC:S20N",
         "VQ:522",
@@ -1391,6 +1398,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "07/03/13 16:24:00~fzbxr va gur nern",
 
         "NQQE:GNAAREFBA QE & SZ 1141",
+        "ZNQQE:GNAAREFBA QE & SNEZ-GB-ZNEXRG 1141",
         "PVGL:Ebpxjnyy",
         "ZNC:636-6",
         "VQ:306",
@@ -1441,6 +1449,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "07/03/13 16:24:00~fzbxr va gur nern",
 
         "NQQE:GNAAREFBA QE & SZ 1141",
+        "ZNQQE:GNAAREFBA QE & SNEZ-GB-ZNEXRG 1141",
         "PVGL:Ebpxjnyy",
         "ZNC:636-6",
         "VQ:306",
@@ -1984,6 +1993,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "06/29/13 18:25:42~hax vs cbjre yvarf be pnoyr yvarf",
 
         "NQQE:5830 F SZ 549",
+        "ZNQQE:5830 F SNEZ-GB-ZNEXRG 549",
         "PVGL:Ebpxjnyy",
         "K:R PHYYVAF EQ",
         "CUBAR:(972) 771-0858",
@@ -2041,6 +2051,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "06/29/13 18:25:42~hax vs cbjre yvarf be pnoyr yvarf",
 
         "NQQE:5830 F SZ 549",
+        "ZNQQE:5830 F SNEZ-GB-ZNEXRG 549",
         "PVGL:Ebpxjnyy",
         "K:R PHYYVAF EQ",
         "CUBAR:(972) 771-0858",
@@ -6657,6 +6668,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "06/19/13 20:24:44~bafprar erdhrfgvat nqqvgvbany",
 
         "NQQE:SZ 740 & YNXR ENL UHOONEQ", // znccvat gbbx guvf gb Sbearl, GK
+        "ZNQQE:SNEZ-GB-ZNEXRG 740 & YNXR ENL UHOONEQ",
         "PVGL:Ebpxjnyy",
         "VQ:2394",
         "PNYY:SQ - Tenff Sver",
@@ -8152,6 +8164,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Aneengvir Gvzr~Aneengvir",
 
         "NQQE:XVATFCNFF & SZ 549",
+        "ZNQQE:XVATFCNFF & SNEZ-GB-ZNEXRG 549",
         "PVGL:Urngu",
         "VQ:3780",
         "PNYY:Nppvqrag - Zvabe",
@@ -8265,6 +8278,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "05/30/13 17:33:44~frpbaq cnegl chyyrq bire vasebag bs pnva zvqqyr fpubby  OEBPX PNEGRE 214 478 5788 FGNGRF UR UNF N URNQ VAWHEL",
 
         "NQQE:7229 F SZ 549",
+        "ZNQQE:7229 F SNEZ-GB-ZNEXRG 549",
         "PVGL:Urngu",
         "K:HAXABJA / J CE 1075",
         "ZNC:U21-USQ",
@@ -8929,6 +8943,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "05/22/13 19:26:39~PNYYRE QEVIVAT 740 QHZCFGRE BA SVER NG GUVF ERFVQRAPR",
 
         "NQQE:1839 F SZ 740",
+        "ZNQQE:1839 F SNEZ-GB-ZNEXRG 740",
         "PVGL:Urngu",
         "K:HAXABJA / HAXABJA",
         "CUBAR:(316) 737-4112",
@@ -9641,6 +9656,7 @@ choyvp pynff GKEbpxjnyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "05/12/13 12:12:54~Qvfcngpu erprvirq ol havg 321",
 
         "NQQE:2300 F SZ 740",
+        "ZNQQE:2300 F SNEZ-GB-ZNEXRG 740",
         "PVGL:Urngu",
         "VQ:1322",
         "PNYY:SQ - Zrqvpny Rzretrapl",

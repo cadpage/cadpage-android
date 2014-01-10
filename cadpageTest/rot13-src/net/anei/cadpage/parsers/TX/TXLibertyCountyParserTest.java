@@ -43,7 +43,7 @@ choyvp pynff GKYvoreglPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[SVER PNYY]  SZ834 ARNE ONFRONYY SVRYQF CBFF BHG BS PBAGEBY TENFF SVER",
         "PNYY:SVER PNYY",
         "NQQE:SZ-834",
-        "ZNQQE:SZ 834",
+        "ZNQQE:SNEZ-GB-ZNEXRG-834",
         "VASB:ARNE ONFRONYY SVRYQF CBFF BHG BS PBAGEBY TENFF SVER");
 
     qbGrfg("G2",
@@ -62,7 +62,7 @@ choyvp pynff GKYvoreglPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[ZIN]  2 iruvpyr znwbe SZ 834 @ PE 2003 ol whavbe uvtu",
         "PNYY:ZIN",
         "NQQE:SZ 834 & PE 2003",
-        "ZNQQE:SZ 834 & PBHAGL EBNQ 2003",
+        "ZNQQE:SNEZ-GB-ZNEXRG 834 & PBHAGL EBNQ 2003",
         "VASB:2 iruvpyr znwbe / ol whavbe uvtu");
 
     qbGrfg("G5",
@@ -111,6 +111,7 @@ choyvp pynff GKYvoreglPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[SVER PNYY]SZ1011 GB BVY GNAXF YVTUGRAVAT FGEHPX GURZ GURL NER BA SVER",
         "PNYY:SVER PNYY",
         "NQQE:SZ-1011",
+        "ZNQQE:SNEZ-GB-ZNEXRG-1011",
         "VASB:GB BVY GNAXF YVTUGRAVAT FGEHPX GURZ GURL NER BA SVER");
 
     qbGrfg("G12",

@@ -152,7 +152,8 @@ choyvp pynff GKFrnoebbxCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(FISQ) \aSver Zhghny Nvq\a-- 330 Sz 2094, \a//\a Sver Obk =",
         "FEP:FISQ",
         "PNYY:Sver Zhghny Nvq",
-        "NQQE:330 Sz 2094");
+        "NQQE:330 Sz 2094",
+        "ZNQQE:330 Snez-gb-znexrg 2094");
 
     qbGrfg("G10",
         "(FISQ) \aNzohynapr / Rzretrapl\a-Wb Naar Pbggntrf- 2000 Onunzn,16 Frnoebbx\aSybevqn Qe//Ry Zne\a Sver Obk =",

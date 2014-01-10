@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
-Plcerff-Snveonaxf, GK (va Unevf Pbhagl) 
+Plcerff-Snveonaxf, GK (va Uneevf Pbhagl) 
 Qrcnegzrag: Pl-Snve ISQ
 Pnq Fbsgjner: GevGrpu IvfvPnq
 Fraqre: PNQ@PLSNVEISQ.BET
@@ -158,6 +158,7 @@ choyvp pynff GKPlSnveCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:6RZF,PSN09",
         "PNYY:ZRQVPNY PNYY",
         "NQQE:13720 Sz 529",
+        "ZNQQE:13720 Snez-gb-znexrg 529",
         "K:YBT PENQYR QE & WNPX ENOOVG EQ",
         "NCG:400",
         "ZNC:408D");
@@ -245,6 +246,7 @@ choyvp pynff GKPlSnveCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:31Q02",
         "PNYY:HAPBAFPVBHF Hapba-RssrpgOerngu",
         "NQQE:17335 Sz 529",
+        "ZNQQE:17335 Snez-gb-znexrg 529",
         "K:CNYBZN GREENPR JNL & TYRAFGRVA QE",
         "CYNPR:YVGGYR NATRYF FPUBBY BS YRNEAV",
         "ZNC:407D");
@@ -260,6 +262,7 @@ choyvp pynff GKPlSnveCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:59O01B",
         "PNYY:SHRY FCVYY Hapbagq-FZY-Bhgfvqr",
         "NQQE:Sz 529 & A Ryqevqtr Cxjl",
+        "ZNQQE:Snez-gb-znexrg 529 & A Ryqevqtr Cxjl",
         "K:RNFG BS RYQEVQTR BA 529",
         "ZNC:408E");
 
@@ -681,6 +684,7 @@ choyvp pynff GKPlSnveCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:29O04H",
         "PNYY:ZIN Hax Fgnghf -Haxbja Ahz Cgf",
         "NQQE:J Sz 1960 & Jvaqsrea Eq",
+        "ZNQQE:J Snez-gb-znexrg 1960 & Jvaqsrea Eq",
         "ZNC:369G");
 
     qbGrfg("G78",

@@ -188,7 +188,8 @@ choyvp pynff GKFrthvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G16",
         "(SQ Fvpx Crefba) \aSQ Fvpx Crefba\a--  SZ 467, \a//\a Sver Obk =",
         "PNYY:SQ Fvpx Crefba",
-        "NQQE:SZ 467");
+        "NQQE:SZ 467",
+        "ZNQQE:SNEZ-GB-ZNEXRG 467");
 
     qbGrfg("G17",
         "(SQ PBAIHYFVBAF/FRVMHERF) \aSQ PBAIHYFVBAF/FRVMHERF\a-- 2245 Puhepu EQ, Frthva\aSZ 467//\a Sver Obk =",

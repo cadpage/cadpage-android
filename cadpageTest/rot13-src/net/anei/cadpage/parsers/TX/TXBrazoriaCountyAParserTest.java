@@ -1144,6 +1144,7 @@ choyvp pynff GKOenmbevnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:ZISQ",
         "PNYY:SVER",
         "NQQE:SZ 1128 & UJL 6",
+        "ZNQQE:SNEZ-GB-ZNEXRG 1128 & UJL 6",
         "PVGL:ZNAIRY");
 
     qbGrfg("G15",

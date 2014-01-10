@@ -75,7 +75,7 @@ choyvp pynff GKNpnqvnaNzohynaprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:9881442",
         "PNYY:Yvsr Guerngravat Rzretrapl Urneg Ceboyrzf",
         "NQQE:24212 Sz 2100 Eq",
-        "ZNQQE:24212 SZ 2100",
+        "ZNQQE:24212 Snez-gb-znexrg 2100 Eq",
         "K:Haanzrq Fgerrg/3eq Fg",
         "PVGL:Uhsszna, Uneevf");
 
@@ -138,6 +138,7 @@ choyvp pynff GKNpnqvnaNzohynaprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:9909614",
         "PNYY:Yvsr Guerngravat Rzretrapl Genssvp Nppvqragf",
         "NQQE:Sz 2100 & Uhsszna Eq",
+        "ZNQQE:Snez-gb-znexrg 2100 & Uhsszna Eq",
         "K:SZ 2100/Uhsszna Pyrirynaq EQ",
         "PVGL:Uhsszna");
   }
