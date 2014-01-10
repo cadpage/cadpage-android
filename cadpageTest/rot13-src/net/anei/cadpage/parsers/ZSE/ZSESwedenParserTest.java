@@ -18,6 +18,10 @@ FZF grkg sbezng
 Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aPneyniätra 45n\a\aYn = 59 tenqre 22,267'A    Yb = 016 tenqre 31,964'R
 Oenaq v olttanq\aSyresnzvywfuhf\aGenccuhf\aEnqrznpuretngna 21, iåa 5\a\aYn = 59 tenqre 22,308'A    Yb = 016 tenqre 30,783'R
 
+Pbagnpg: Eäqqavatfgwäafgra Raxöcvat-Uåob <egwraxbcvat@tznvy.pbz>
+Fraqre: 3315
+Öievtg\aCnffavat\a\aCnffn Raxöcvat\a-
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Arevxrf Oenaqxåe
 Ybpngvba: Öeroeb, Aäexr, Fjrqra
@@ -319,6 +323,11 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:iåa 5",
         "TCF:+59.371800,+16.513050");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEäqqavatfgwäafgraRaxöcvatUåob() {
+    
   }
 
   @Grfg
