@@ -22,7 +22,7 @@ public class TNWashingtonCountyAParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "JCFDTEXT@johnsoncitytn.org,CAD@wc911.org";
+    return "@johnsoncitytn.org,CAD@wc911.org";
   }
 
   @Override

@@ -58,8 +58,13 @@ Purfg Cnva(Aba-Genhzngvp)-QRYGN Z1,E1,R3\a805 XRAGHPXL FG\aK-FGE= PBYBENQB FG\aB
 Fhowrpg:<Ab Fhowrpg>\aVAIRFGVTNGVBA \e\a402 R YBPHFG FG\e\a20:37:04\e\a\e\a\e\a\e\aGuvax terra: Bayl cevag guvf r-znvy naq nal nggnpuzrag vs arprffnel.\e\a\e
 
 Pbagnpg: Qrevpx Uhturf <fzbxrrngre1@tznvy.pbz>
+Pbagnpg: "Uhturf, Qrevpx" <quhturf@wbuafbapvglga.bet>
 Fraqre: psqgrkg@wbuafbapvglga.bet
+Fraqre: enatre@wbuafbapvglga.bet
 ceif=425025q88=wpsqgrkg@wbuafbapvglga.bet (<Ab Fhowrpg>) Pbaihyfvbaf/Frvmherf-PUNEYVR Z2,R7,E2\a3211 ZNLSVRYQ QE #28\aGVZOREEVQTR GENVYRE CNEX\aK-FGE= AHAYRL YA\aJ JNYAHG FG\aZnc 53P 1
+
+ceif=07941o844=enatre@wbuafbapvglga.bet Ubgry Sver Nynez R6\a3118 OEBJAF ZVYY EQ\a PBZSBEG FHVGRF\aK-FGE= A FGNGR BS SENAXYVA EQ\aJ ZBHAGNVAIVRJ EQ\aZnc 37O 00:17:38 14003770
+ceif=07941o844=enatre@wbuafbapvglga.bet Snyyf-NYCUN R5\a1905 A EBNA FG\a FZBXRL OBARF\aK-FGE= PNANEL FG\aZBPXVATOVEQ YA\aZnc 46N 00:05:15 14003761
 
 
 */
@@ -550,11 +555,41 @@ choyvp pynff GAJnfuvatgbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:GVZOREEVQTR GENVYRE CNEX",
         "K:AHAYRL YA & J JNYAHG FG",
         "ZNC:53P 1");
-    
-  }
-  
-  @Grfg
-  choyvp ibvq grfgAngunaJneq() {
+
+    qbGrfg("G2",
+        "ceif=07941o844=enatre@wbuafbapvglga.bet Ubgry Sver Nynez R6\a" +
+        "3118 OEBJAF ZVYY EQ\a" +
+        " PBZSBEG FHVGRF\a" +
+        "K-FGE= A FGNGR BS SENAXYVA EQ\a" +
+        "J ZBHAGNVAIVRJ EQ\a" +
+        "Znc 37O 00:17:38 14003770",
+
+        "PNYY:Ubgry Sver Nynez",
+        "HAVG:R6",
+        "NQQE:3118 OEBJAF ZVYY EQ",
+        "CYNPR:PBZSBEG FHVGRF",
+        "K:A FGNGR BS SENAXYVA EQ & J ZBHAGNVAIVRJ EQ",
+        "ZNC:37O",
+        "GVZR:00:17:38",
+        "VQ:14003770");
+
+    qbGrfg("G3",
+        "ceif=07941o844=enatre@wbuafbapvglga.bet Snyyf-NYCUN R5\a" +
+        "1905 A EBNA FG\a" +
+        " FZBXRL OBARF\a" +
+        "K-FGE= PNANEL FG\a" +
+        "ZBPXVATOVEQ YA\a" +
+        "Znc 46N 00:05:15 14003761",
+
+        "PNYY:Snyyf",
+        "CEV:N",
+        "HAVG:R5",
+        "NQQE:1905 A EBNA FG",
+        "CYNPR:FZBXRL OBARF",
+        "K:PNANEL FG & ZBPXVATOVEQ YA",
+        "ZNC:46N",
+        "GVZR:00:05:15",
+        "VQ:14003761");
     
   }
   
