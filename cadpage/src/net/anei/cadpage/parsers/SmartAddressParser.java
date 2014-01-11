@@ -381,8 +381,11 @@ public abstract class SmartAddressParser extends MsgParser {
     // Set up special cross street names
     addCrossStreetNames(
         "ALLEY",
+        "CITY LIMIT",
+        "CITY LIMITS",
         "DEADEND",
         "DEAD END",
+        "RAILROAD CROSSI",
         "RR",
         "RR TRACKS",
         "TRAILER PARK",
@@ -1361,8 +1364,13 @@ public abstract class SmartAddressParser extends MsgParser {
         // If we find that the first road ends with a direction, but the second
         // road does not, then reassign the direction token from the end of the
         // first road to the beginning of the second
+        // This logic should also be suppressed if we are parsing cross streets
+        // and the following address is a special cross street name
         if (isType(result.insertAmp-1, ID_DIRECTION) &&
-            !isType(result.endAll-1, ID_DIRECTION)) result.insertAmp--;
+            !isType(result.endAll-1, ID_DIRECTION) &&
+            (!isFlagSet(FLAG_ONLY_CROSS) ||  mWordCrossStreetsFwd.findEndSequence(result.insertAmp) < 0)) {
+            result.insertAmp--;
+        }
       }
     }
     
@@ -1731,7 +1739,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // There are some special checks we need to make if we are terminating an address with this
     // city name, all of which can be skipped if we are only parsing the city name
-    if (!isFlagSet(FLAG_ONLY_CITY)) {
+    if (!isFlagSet(FLAG_ONLY_CITY) || isFlagSet(FLAG_ONLY_CROSS)) {
         
       // We did find a city, but if it is followed by a road suffix, disqualify it
       // Unless the road suffix is followed by a road suffix

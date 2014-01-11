@@ -11,7 +11,7 @@ public class MOStFrancoisCountyParser extends DispatchCiscoParser {
   
   public MOStFrancoisCountyParser() {
     super("ST FRANCOIS COUNTY", "MO");
-    setupMultiWordStreets("RAIL ROAD");
+    setupMultiWordStreets("RAIL ROAD", "RIDGE TOP");
   }
   
   @Override
@@ -23,13 +23,6 @@ public class MOStFrancoisCountyParser extends DispatchCiscoParser {
   public boolean parseMsg(String subject, String body, Data data) {
     
     if (!super.parseMsg(subject, body.replace('\n', ' ').replace("!",""), data)) return false;
-    
-    // Cross streets need implied ampersands :(
-    if (data.strCross.length() > 0) {
-      String cross = data.strCross;
-      data.strCross = "";
-      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, cross, data);
-    }
     
     // Calculate zip code from grid
     if (data.strCity.length() == 0 && data.strMap.length() > 0) {

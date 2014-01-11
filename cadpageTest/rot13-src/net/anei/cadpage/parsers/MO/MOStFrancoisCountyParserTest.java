@@ -276,7 +276,7 @@ choyvp pynff ZBFgSenapbvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PB NYNEZ",
         "NQQE:910 IRGRENAF QE",
         "PVGL:63624",
-        "K:PRQNE FG ZNVA",
+        "K:PRQNE FG / ZNVA",
         "ZNC:3101",
         "HAVG:R3160 E3175 3100",
         "VASB:GRFG GRFG GRFG");
@@ -286,7 +286,7 @@ choyvp pynff ZBFgSenapbvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:BQBE BS TNF",
         "NQQE:910 IRGRENAF QE",
         "PVGL:63624",
-        "K:PRQNE FG ZNVA",
+        "K:PRQNE FG / ZNVA",
         "ZNC:3101",
         "HAVG:R3160 E3175 3100",
         "VASB:GRFG GRFG GRFG GRFG");
@@ -296,7 +296,7 @@ choyvp pynff ZBFgSenapbvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER ZVFP",
         "NQQE:910 IRGRENAF QE",
         "PVGL:63624",
-        "K:PRQNE FG ZNVA",
+        "K:PRQNE FG / ZNVA",
         "ZNC:3101",
         "HAVG:O3180",
         "VASB:GRFG GRFG GRFG GRFG");
@@ -371,7 +371,7 @@ choyvp pynff ZBFgSenapbvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZBIR HC",
         "NQQE:910 IRGRENAF QE",
         "PVGL:63624",
-        "K:PRQNE FG ZNVA",
+        "K:PRQNE FG / ZNVA",
         "ZNC:3101",
         "VASB:3871 GB ZBIR");
 

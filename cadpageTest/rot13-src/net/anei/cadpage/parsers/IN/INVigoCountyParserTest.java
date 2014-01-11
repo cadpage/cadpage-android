@@ -57,7 +57,7 @@ choyvp pynff VAIvtbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pg:SNYY Ybp:3301 FG ZNEL'F EQ Ncg: KFg:OYBBZGBJA EQ HF UJL 150 Tevq:112Q Havgf:R-42 GP-1 Ezx:92 LBYQ SZY; SRYY; SNPR QBJA BA SYBBE -",
         "PNYY:SNYY",
         "NQQE:3301 FG ZNEL'F EQ",
-        "K:OYBBZGBJA EQ HF UJL 150",
+        "K:OYBBZGBJA EQ / HF UJL 150",
         "ZNC:112Q",
         "HAVG:R-42 GP-1",
         "VASB:92 LBYQ SZY; SRYY; SNPR QBJA BA SYBBE -");
@@ -70,13 +70,14 @@ choyvp pynff VAIvtbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:0JGU",
         "HAVG:R-41 GP-2",
         "VASB:65 Lrnef S ;snyy");
-    
+   
     qbGrfg("G3",
         "Pg:PURFG CNVA Ybp:500 J CNEVF NI Ncg: KFg:6GU FG JGU 4GU FG JGU Tevq:0JGU Havgf:R-41 GP-1 Ezx:",
         "PNYY:PURFG CNVA",
         "NQQE:500 J CNEVF NI",
         "ZNQQE:500 J CNEVF NIR",
-        "K:6GU FG JGU 4GU FG JGU",
+        "K:6GU FG / 4GU FG",
+        "PVGL:JRFG GREER UNHGR",
         "ZNC:0JGU",
         "HAVG:R-41 GP-1");
     
@@ -111,7 +112,8 @@ choyvp pynff VAIvtbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[GENFU BE EHOOVFU-SVER]  Ybp:428 J CBCYNE FG KFg:5GU FG JGU 4GU FG JGU Tevq:0JGU Havgf:R-41 Ezx:EC NQI ZNYR FHOWRPG GURER GUNG VF PNHFVAT CEBOYRZF NAQ",
         "PNYY:GENFU BE EHOOVFU-SVER",
         "NQQE:428 J CBCYNE FG",
-        "K:5GU FG JGU 4GU FG JGU",
+        "K:5GU FG / 4GU FG",
+        "PVGL:JRFG GREER UNHGR",
         "ZNC:0JGU",
         "HAVG:R-41",
         "VASB:EC NQI ZNYR FHOWRPG GURER GUNG VF PNHFVAT CEBOYRZF NAQ");
@@ -120,7 +122,7 @@ choyvp pynff VAIvtbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(OEHFU-SVER-AB-RKCBFHER) Ybp:447 A GUBECR CY KFg:FNENU ZLREF QE BYQ CNEVF EQ Tevq:0148 Havgf:O-41 G-42 Ezx:SVER ARKG GB JBBQF JVGU NYY GUR TENIR CEBC",
         "PNYY:OEHFU-SVER-AB-RKCBFHER",
         "NQQE:447 A GUBECR CY",
-        "K:FNENU ZLREF QE BYQ CNEVF EQ",
+        "K:FNENU ZLREF QE / BYQ CNEVF EQ",
         "ZNC:0148",
         "HAVG:O-41 G-42",
         "VASB:SVER ARKG GB JBBQF JVGU NYY GUR TENIR CEBC");
@@ -134,7 +136,7 @@ choyvp pynff VAIvtbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER-RAGENCZRAG",
         "NQQE:101 A 7GU FG",
         "PVGL:JRFG GREER UNHGR",
-        "K:WBUAFBA NI ZVYYRE NI",
+        "K:WBUAFBA NI / ZVYYRE NI",
         "ZNC:0JGU",
         "HAVG:R-41 R-42 Y-41 E-41",
         "VASB:UBHFR BA SVER CRBCYR FGVYY VAFVQR");
@@ -147,7 +149,7 @@ choyvp pynff VAIvtbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(SVER-ERFVQRAGVNY-FGEHPGHER) Ybp:1670 J RQTRZBAG QE KFg:ENIVAR CY RQTRJBBQ NI Tevq:0126 Havgf:91EVG PI912 Ezx:NQI URE ARVTUOBEF UBHFR VF BA SVER/BCRA",
         "PNYY:SVER-ERFVQRAGVNY-FGEHPGHER",
         "NQQE:1670 J RQTRZBAG QE",
-        "K:ENIVAR CY RQTRJBBQ NI",
+        "K:ENIVAR CY / RQTRJBBQ NI",
         "ZNC:0126",
         "HAVG:91EVG PI912",
         "VASB:NQI URE ARVTUOBEF UBHFR VF BA SVER/BCRA");
@@ -156,7 +158,7 @@ choyvp pynff VAIvtbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(SVER-ERFVQRAGVNY-FGEHPGHER) Ybp:1670 J RQTRZBAG QE KFg:ENIVAR CY RQTRJBBQ NI Tevq:0126 Havgf:R-42 R-41 G-42 G-41 E-41 Ezx:NQI URE ARVTUOBEF UBHFR VF",
         "PNYY:SVER-ERFVQRAGVNY-FGEHPGHER",
         "NQQE:1670 J RQTRZBAG QE",
-        "K:ENIVAR CY RQTRJBBQ NI",
+        "K:ENIVAR CY / RQTRJBBQ NI",
         "ZNC:0126",
         "HAVG:R-42 R-41 G-42 G-41 E-41",
         "VASB:NQI URE ARVTUOBEF UBHFR VF");
@@ -165,7 +167,7 @@ choyvp pynff VAIvtbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(VAWHERQ CREFBA) Ybp:7201 R TEBFF QE KFg:YNZN FG FG EQ 159 Tevq:237N Havgf:E-53 Ezx:",
         "PNYY:VAWHERQ CREFBA",
         "NQQE:7201 R TEBFF QE",
-        "K:YNZN FG FG EQ 159",
+        "K:YNZN FG / FG EQ 159",
         "ZNC:237N",
         "HAVG:E-53");
    
@@ -178,7 +180,7 @@ choyvp pynff VAIvtbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(SVER-ERFVQRAGVNY-FGEHPGHER) Ybp:1318 F 11GU UYS FG KFg:PBYYRTR NI JNFUVATGBA FG Tevq:0741 Havgf:RP-2 RP-6 RP-9 Y-5 Z-9 Ezx:ONPX BS GUR UBHFR VF BA S",
         "PNYY:SVER-ERFVQRAGVNY-FGEHPGHER",
         "NQQE:1318 F 11GU 1/2 FG",
-        "K:PBYYRTR NI JNFUVATGBA FG",
+        "K:PBYYRTR NI / JNFUVATGBA FG",
         "ZNC:0741",
         "HAVG:RP-2 RP-6 RP-9 Y-5 Z-9",
         "VASB:ONPX BS GUR UBHFR VF BA S");

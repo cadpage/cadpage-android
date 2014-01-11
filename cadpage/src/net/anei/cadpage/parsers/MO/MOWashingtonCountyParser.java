@@ -13,6 +13,7 @@ public class MOWashingtonCountyParser extends DispatchCiscoParser {
     
   public MOWashingtonCountyParser() {
     super(CITY_CODES, "WASHINGTON COUNTY", "MO");
+    setupMultiWordStreets("GREEN ACRES");
   }
   
   @Override
