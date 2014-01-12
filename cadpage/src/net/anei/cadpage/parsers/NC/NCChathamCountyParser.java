@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class NCChathamCountyParser extends DispatchSouthernParser {
 
   public NCChathamCountyParser() {
-    super(CITY_LIST, "CHATHAM COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_NO_NAME_PHONE);
+    super(CITY_LIST, "CHATHAM COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID | DSFLAG_NO_NAME_PHONE);
     
     
   }
@@ -38,6 +38,9 @@ public class NCChathamCountyParser extends DispatchSouthernParser {
     "HAYWOOD",
     "MONCURE",
     "SILK HOPE",
-    "WILSONVILLE"
+    "WILSONVILLE",
+    
+    // Lee County
+    "SANFORD"
   };
 }
