@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Syskiyou County, CA
+ * Siskiyou County, CA
  */
 public class CASiskiyouCountyParser extends FieldProgramParser {
   public CASiskiyouCountyParser() {

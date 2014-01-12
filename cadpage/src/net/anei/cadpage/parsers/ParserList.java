@@ -157,6 +157,7 @@ public class ParserList {
               ,"CASantaClaraCounty"             ,"Santa Clara County, CA"
               ,"CASantaCruzCounty"              ,"Santa Cruz County, CA"
               ,"CAShastaCounty"                 ,"Shasta County, CA"
+              ,"CASiskiyouCounty"               ,"Siskiyou County, CA"
               ,"CASonomaCounty"                 ,"Sonoma County, CA"
               ,"CAVenturaCounty"                ,"Ventura County, CA"
               ,"CAYoloCounty"                   ,"Yolo County, CA"
