@@ -43,6 +43,21 @@ choyvp pynff Npgvir911CnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:09/08/2013",
         "GVZR:06:10:41",
         "PVGL:Pbybenqb Fcevatf");
+    
+    frgQrsnhygf("", "BE");
+    frgRkcZncPbqr("BEOragbaPbhagl");
+    qbGrfg("G3",
+        "PNYY:ZHGHNY NVQ\aCYNPR:\aNQQE:UVTUJNL 20 naq ZC 46\aQNGR: 08/23/2013\aGVZR: 01:50:55\aPVGL:CUVYBZNGU\aVQ:082313-15\aQFG:BE\aZNC:570-420\aK:UVTUJNL 20\aHAVG:BQS CEBGRPGRQ YNAQ\aVASB:\aCNEFRE: BEOragbaPbhagl\a",
+        "PNYY:ZHGHNY NVQ",
+        "NQQE:UVTUJNL 20 naq ZC 46",
+        "ZNQQE:UVTUJNL 20 & ZC 46",
+        "QNGR:08/23/2013",
+        "GVZR:01:50:55",
+        "PVGL:CUVYBZNGU",
+        "VQ:082313-15",
+        "ZNC:570-420",
+        "K:UVTUJNL 20",
+        "HAVG:BQS CEBGRPGRQ YNAQ");
 
   }
   

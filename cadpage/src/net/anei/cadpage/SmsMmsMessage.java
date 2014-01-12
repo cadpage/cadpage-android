@@ -164,7 +164,9 @@ public class SmsMmsMessage implements Serializable {
     // parser code override, which will override the "Active911" value.
     MsgInfo info = getInfo();
     if (info == null) return false;
-    String parserCode = info.getParserCode();
+    MsgParser parser = info.getParser();
+    if (parser == null) return false;
+    String parserCode = parser.getParserCode();
     return parserCode != null && parserCode.equals("Active911");
   }
   
