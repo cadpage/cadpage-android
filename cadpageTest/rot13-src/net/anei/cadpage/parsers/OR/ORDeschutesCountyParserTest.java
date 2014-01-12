@@ -141,6 +141,10 @@ ONPX CNVA-N-471- 1747 FJ 17GU FG -Znc 151321-08:26:54
 HAXABJA ZRQVPNY CEBOYRZ-N-471- 650 FJ 14GU FG -Znc 151316-01:33:06
 (Rznvy Pbcl sebz Rzretva Vagrtengvba Fhvgr) HAXABJA ZRQVPNY CEBOYRZ-N-471- 650 FJ 14GU FG -Znc 151316-01:33:06
 
+Pbagnpg: Oergg Uhyfgebz <ouhyfgebz@tznvy.pbz>
+Fraqre: 911@qrfpuhgrf.bet
+HAPBAFPVBHF/HAXABJA-N-171- 15924 SVE EQ -Znc 221016-10:53:12\e
+
 */
 
 choyvp pynff BEQrfpuhgrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1198,6 +1202,20 @@ choyvp pynff BEQrfpuhgrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:151316",
         "GVZR:01:33:06");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOergUbyfgebz() {
+
+    qbGrfg("G1",
+        "HAPBAFPVBHF/HAXABJA-N-171- 15924 SVE EQ -Znc 221016-10:53:12\e",
+        "PNYY:HAPBAFPVBHF/HAXABJA",
+        "CEV:N",
+        "HAVG:171",
+        "NQQE:15924 SVE EQ",
+        "ZNC:221016",
+        "GVZR:10:53:12");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat netf[]) {
