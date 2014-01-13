@@ -86,9 +86,21 @@ public class NCNashCountyParser extends SmartAddressParser {
     return true;
   }
   
+  
+  
+  @Override
+  public CodeSet getCallList() {
+    return CALL_SET;
+  }
+
+
+
   private static final CodeSet CALL_SET = new CodeSet(
       "ABD-H",
       "ALARM-FIRE",
+      "ALL FIRE RELATED ALARMS",
+      "ALL SMALL VEHICLE RELATED FIRES",
+      "ANY OUTSIDE FIRE,GRASS,BRUSH, GRILL, DOG HOUSE, PUMP HOUSE",
       "BREATH-H",
       "CHEST-H",
       "DIABETIC-H",
@@ -96,10 +108,12 @@ public class NCNashCountyParser extends SmartAddressParser {
       "GAS LEAK",
       "HEART PR-H",
       "MEDICAL",
+      "MOTOR VEHICLE ACC WITH INJURIES-UNK/PIN IN-HOT",
       "MVA PI-H",
       "MVA PIN-H",
       "OUTSIDE FI",
       "PSYC/SUI-H",
+      "SEIZURES-C",
       "SEIZURES-H",
       "STRUCTURE",
       "TRAUMA-H",
