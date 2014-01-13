@@ -139,6 +139,7 @@ public class ParserList {
               ,"CAButteCounty"                  ,"Butte County, CA"
               ,"CACalaverasCounty"              ,"Calaveras County, CA"
               ,"CAElDoradoCounty"               ,"El Dorado County, CA"
+              ,"CAFortIrwin"                    ,"Fort Irwin, CA"
               ,"CAFresnoCounty"                 ,"Fresno County, CA"
               ,"CAHumboldtCounty"               ,"Humboldt County, CA"
               ,"CALakeCounty"                   ,"Lake County, CA"
