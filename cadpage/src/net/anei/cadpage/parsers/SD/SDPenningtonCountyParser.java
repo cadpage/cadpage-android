@@ -13,10 +13,12 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
   
   private static final Pattern UNIT_PTN = Pattern.compile("^([A-Z0-9]+) +\\(Primary\\);? *");
   private static final Pattern CITY_PTN = Pattern.compile("(.*?) *, *([A-Z ]+?) *, SD +\\d{5} *(.*?)");
+  private static final Pattern CODE_PTN1 = Pattern.compile(" +Code: *([-A-Z0-9]+): *");
+  private static final Pattern CODE_PTN2 = Pattern.compile("^Code: *([-A-Z0-9]+): *");
   
   public SDPenningtonCountyParser() {
     super(CITY_LIST, "PENNINGTON COUNTY", "SD");
-    setFieldList("UNIT CALL ADDR APT CITY INFO");
+    setFieldList("UNIT CALL ADDR APT CITY CODE INFO");
   }
 
   @Override
@@ -42,7 +44,7 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
     if (match.matches()) {
       callAddr = match.group(1);
       data.strCity = match.group(2);
-      data.strSupp = match.group(3);
+      body = match.group(3);
     } else {
       int pt = body.indexOf(',');
       if (pt >= 0) {
@@ -50,12 +52,28 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
         parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, extra, data);
         if (data.strCity.length() > 0) {
           callAddr =  body.substring(0,pt).trim();
-          data.strSupp = getLeft();
+          body = getLeft();
         }
+      }
+    }
+    if (callAddr == null) {
+      match = CODE_PTN1.matcher(body);
+      if (match.find()) {
+        data.strCode = match.group(1);
+        callAddr = body.substring(0,match.start());
+        body = body.substring(match.end());
       }
     }
     if (callAddr != null) {
       parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_NO_CITY | FLAG_ANCHOR_END, callAddr, data);
+      if (data.strCode.length() == 0) {
+        match = CODE_PTN2.matcher(body);
+        if (match.find()) {
+          data.strCode = match.group(1);
+          body = body.substring(match.end());
+        }
+      }
+      data.strSupp = body;
     } else {
       parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
       if (data.strAddress.length() == 0) return false;
