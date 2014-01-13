@@ -174,7 +174,8 @@ choyvp pynff INCevaprRqjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:26 HAPBAFPVBHF 414 FCEVAT FG O SNE PSF# 2013-007402",
         "FEP:26",
         "PNYY:HAPBAFPVBHF",
-        "NQQE:414 FCEVAT FG O",
+        "NQQE:414 FCEVAT FG",
+        "NCG:O",
         "PVGL:SNEZIVYYR",
         "VQ:2013-007402");
 
@@ -327,7 +328,8 @@ choyvp pynff INCevaprRqjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:00 UNMZNG/FCVYY 2102 F ZNVA FG N SNE PSF# 2013-005700",
         "FEP:00",
         "PNYY:UNMZNG/FCVYY",
-        "NQQE:2102 F ZNVA FG N",
+        "NQQE:2102 F ZNVA FG",
+        "NCG:N",
         "PVGL:SNEZIVYYR",
         "VQ:2013-005700");
 
@@ -384,7 +386,8 @@ choyvp pynff INCevaprRqjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:47 UNMZNG/FCVYY 502 YNAQBA FG 26 SNE PSF# 2013-005047",
         "FEP:47",
         "PNYY:UNMZNG/FCVYY",
-        "NQQE:502 YNAQBA FG 26",
+        "NQQE:502 YNAQBA FG",
+        "NCG:26",
         "PVGL:SNEZIVYYR",
         "VQ:2013-005047");
 
@@ -392,7 +395,8 @@ choyvp pynff INCevaprRqjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:17 FGEHPGHER SVER 1506 F ZNVA FG N SNE PSF# 2013-004851",
         "FEP:17",
         "PNYY:FGEHPGHER SVER",
-        "NQQE:1506 F ZNVA FG N",
+        "NQQE:1506 F ZNVA FG",
+        "NCG:N",
         "PVGL:SNEZIVYYR",
         "VQ:2013-004851");
 
@@ -829,7 +833,8 @@ choyvp pynff INCevaprRqjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:35 SVER NYNEZ 406 QBFJRYY FG 2 SNE PSF# 2013-001963",
         "FEP:35",
         "PNYY:SVER NYNEZ",
-        "NQQE:406 QBFJRYY FG 2",
+        "NQQE:406 QBFJRYY FG",
+        "NCG:2",
         "PVGL:SNEZIVYYR",
         "VQ:2013-001963");
 

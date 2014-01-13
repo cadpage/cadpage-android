@@ -24,11 +24,23 @@ public class VACampbellCountyParser extends DispatchDAPROParser {
     
     if (!super.parseMsg(body, data)) return false;
     
+    // If no city was found, see if we can get it from the address line
     if (data.strCity.length() == 0) {
-      int pt = data.strAddress.lastIndexOf("- ");
-      if (pt >= 0) {
-        data.strCity = data.strAddress.substring(pt+2).trim();
-        data.strAddress = data.strAddress.substring(0,pt).trim();
+      
+      // ALT may not be picked off end of address line because it looks like
+      // part of the street name :(
+      if (data.strAddress.endsWith(" ALT")) {
+        data.strCity = "ALTAVISTA";
+        data.strAddress = data.strAddress.substring(0,data.strAddress.length()-4).trim();
+      }
+      
+      // Otherwise look for a dash separator
+      else {
+        int pt = data.strAddress.lastIndexOf("- ");
+        if (pt >= 0) {
+          data.strCity = data.strAddress.substring(pt+2).trim();
+          data.strAddress = data.strAddress.substring(0,pt).trim();
+        }
       }
     }
     

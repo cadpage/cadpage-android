@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchDAPROParser extends FieldProgramParser {
   
-  private static final String PROGRAM_STR = "ADDR/SCa! CFS:ID? INFO:INFO? Run:ID? CROSS:X";
+  private static final String PROGRAM_STR = "ADDR/SCXa! CFS:ID? INFO:INFO? Run:ID? CROSS:X";
   
   private static final Pattern MARKER = Pattern.compile("^([-A-Z0-9]+) +(?:(\\d\\d:\\d\\d) +)?");
 

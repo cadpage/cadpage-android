@@ -30,7 +30,8 @@ choyvp pynff INJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:FG1P",
         "GVZR:12:22",
         "PNYY:SNYY/SENPGHER",
-        "NQQE:61 EBLNY YA 1",
+        "NQQE:61 EBLNY YA",
+        "NCG:1",
         "PVGL:SEBAG EBLNY",
         "VQ:2013-071404");
 

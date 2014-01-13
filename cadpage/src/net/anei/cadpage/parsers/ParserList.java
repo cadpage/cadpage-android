@@ -885,6 +885,7 @@ public class ParserList {
               ,"VARichmond"                     ,"Richmond, VA"
               ,"VARoanokeCity"                  ,"Roanoke City, VA"
               ,"VARoanokeCounty"                ,"Roanoke County, VA"
+              ,"VARockbridgeCounty"             ,"Rockbridge County, VA"
               ,"VARockinghamCounty"             ,"Rockingham County, VA"
               ,"VAShenandoahCounty"             ,"Shenandoah County, VA"
               ,"VASmythCounty"                  ,"Smyth County, VA"

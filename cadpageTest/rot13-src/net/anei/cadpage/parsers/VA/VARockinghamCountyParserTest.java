@@ -108,7 +108,8 @@ choyvp pynff INEbpxvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "E40 RZF-ZRAGNY CEBOYRZ 445 A ZNVA FG 44 UNE PSF# 2010-082451 PEBFF: JBYSR FG/EBPX FG",
         "FEP:E40",
         "PNYY:RZF-ZRAGNY CEBOYRZ",
-        "NQQE:445 A ZNVA FG 44",
+        "NQQE:445 A ZNVA FG",
+        "NCG:44",
         "PVGL:UNEEVFBAOHET",
         "VQ:2010-082451",
         "K:JBYSR FG/EBPX FG");
@@ -126,7 +127,8 @@ choyvp pynff INEbpxvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "E40 RZF-PURFG CNVA 235 YNLZNA FG 101 UNE PSF# 2010-083046 PEBFF: A ZNVA FG/YBATIVRJ QE",
         "FEP:E40",
         "PNYY:RZF-PURFG CNVA",
-        "NQQE:235 YNLZNA FG 101",
+        "NQQE:235 YNLZNA FG",
+        "NCG:101",
         "PVGL:UNEEVFBAOHET",
         "VQ:2010-083046",
         "K:A ZNVA FG/YBATIVRJ QE");
@@ -199,7 +201,8 @@ choyvp pynff INEbpxvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:E50",
         "GVZR:22:29",
         "PNYY:RZF-QVSSVPHYGL OERNGUVAT",
-        "NQQE:400 YBAR CVAR QE UU4",
+        "NQQE:400 YBAR CVAR QE",
+        "NCG:UU4",
         "PVGL:GVZOREIVYYR",
         "VQ:2012-032012",
         "K:YBAT ZRNQBJ QE/NZREVPNA YRTVBA QE");

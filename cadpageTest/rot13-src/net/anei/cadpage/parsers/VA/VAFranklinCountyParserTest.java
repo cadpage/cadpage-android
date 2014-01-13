@@ -177,7 +177,8 @@ choyvp pynff INSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:F03 NFFNHYG 80 ZHYYVAF PBHEG YA 16 SRE PSF# 2011-031404 PEBFF: JNVQFOBEB EQ/QRNQ RAQ",
         "FEP:F03",
         "PNYY:NFFNHYG",
-        "NQQE:80 ZHYYVAF PBHEG YA 16",
+        "NQQE:80 ZHYYVAF PBHEG YA",
+        "NCG:16",
         "PVGL:Sreehz",
         "VQ:2011-031404",
         "K:JNVQFOBEB EQ/QRNQ RAQ");
@@ -489,7 +490,8 @@ choyvp pynff INSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNVYOBK:F07 RZF-BGURE/QRSVAR 18360 IVETVY U TBBQR UJL 124 EZG PSF# 2010-030542 PEBFF: FUNQL YA/OYNPXJNGRE EVIRE",
         "FEP:F07",
         "PNYY:RZF-BGURE/QRSVAR",
-        "NQQE:18360 IVETVY U TBBQR UJL 124",
+        "NQQE:18360 IVETVY U TBBQR UJL",
+        "NCG:124",
         "PVGL:Ebpxl Zbhag",
         "VQ:2010-030542",
         "K:FUNQL YA/OYNPXJNGRE EVIRE");
