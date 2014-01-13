@@ -1,23 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01052013</string>
-  <string name="release_version">v1.7.01</string>
+  <string name="release_date">01132013</string>
+  <string name="release_version">v1.7.02</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-DuPage County, IL (alt)\n
-Meade County, KY\n
-Richmond, VA\n
+Benton County, AR (alt)\n
+Fort Irwin, CA\n
+Sisykiyou County, OR\n
+Jasper County, IA\n
+DeSoto County, MS\n
+Ste Genevieve County, MO\n
+Johnson County, TX (alt)\n
+Rickbridge County, VA\n
 \n
 Location Parsing Fixes:\n
-Douglas County, CO\n
-Montgomery County, TX\n
-Travis County, TX\n
-Eau Claire, WI\n
+Marcopa County, AZ\n
+Garland County, AR\n
+Calaveras County, CA\n
+Boone County, IN\n
+Howard County, IN\n
+Vigo County, IN\n
+Butler County, KS\n
+Louisville County, KY\n
+Calvert County, MD\n
+St Francois County, MO\n
+Washington County, MO\n
+MICOM, NJ\n
+Chatham County, NC\n
+Jones County, NC\n
+Nash County, NC\n
+Perrson County, NC\n
+Greene County, OH\n
+Logan County, OH\n
+Muskingum County, OH\n
+Oxford, OH\n
+Sugar Creek, OH\n
+Warren County, OH\n
+Pennington County, SD\n
+Washington County, TN\n
+Sweden\n
 \n
 General fixes:\n
-Attempt workaround for bug in Android message processing logic.\n
+Added warning when Active911 alerts have been parsed with Active911 parsers instead of Cadpage parsers.\n
   </string>  
 </resources>
   

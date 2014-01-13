@@ -453,6 +453,7 @@ public class ParserList {
               ,"MOStCharlesCounty"              ,"St Charles County, MO"
               ,"MOStFrancoisCounty"             ,"St Francois County, MO"
               ,"MOStLouisCounty"                ,"St Louis County, MO"
+              ,"MOSteGenevieveCounty"           ,"Ste Genevieve County, MO"
               ,"MOStoneCounty"                  ,"Stone County, MO"
               ,"MOWarrenCounty"                 ,"Warren County, MO"
               ,"MOWashingtonCounty"             ,"Washington County, MO"
