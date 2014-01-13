@@ -182,7 +182,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
     // but usually the extra number is 1
     if (data.strAddress.startsWith("1 ")) {
       data.strAddress = data.strAddress.substring(2).trim();
-      data.strAddress = append(data.strAddress, " & ", data.strCross);
+      String cross = data.strCross.replace('/', '&').replace("&", " & ").replaceAll("  +", " ").trim();
+      data.strAddress = append(data.strAddress, " & ", cross);
       data.strCross = "";
     }
     
@@ -336,7 +337,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      if (!field.contains(" X ")) return false;
+      if (!field.contains(" X ") && !field.startsWith("X ") && !field.endsWith(" X")) return false;
       parse(field, data);
       return true;
     }
@@ -344,6 +345,8 @@ public class DispatchSouthernParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       field = field.replace(" X ", " / ");
+      if (field.startsWith("X ")) field = field.substring(2).trim();
+      if (field.endsWith(" X")) field = field.substring(0,field.length()-2).trim();
       super.parse(field, data);
     }
   }
