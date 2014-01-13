@@ -1,9 +1,11 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
@@ -76,48 +78,105 @@ public class NCNashCountyParser extends SmartAddressParser {
     // Now things get sticky.
     // What is left is either specific call code (which may be multiple words)
     // followed by a name.  Or is all call description :(
-    String call = CALL_SET.getCode(left);
-    if (call != null) {
-      data.strCall = call;
-      data.strName = cleanWirelessCarrier(left.substring(call.length()).trim());
+    CodeTable.Result cRes = CODE_TABLE.getResult(left);
+    if (cRes != null) {
+      data.strCode = cRes.getCode();
+      data.strCall  = cRes.getDescription();
+      data.strName = cleanWirelessCarrier(cRes.getRemainder());
     } else {
       data.strCall = left;
     }
     return true;
   }
   
-  
-  
-  @Override
-  public CodeSet getCallList() {
-    return CALL_SET;
-  }
+  private static final CodeTable CODE_TABLE = new CodeTable(
+      
+        // Fire:
+        "SERV CALL",  "SERVICE CALL",
+        "MVA PI-H",   "MVA PERSON INJURED",
+        "OUTSIDE FI", "OUTSIDE FIRE",
+        "MVA PIN-H",  "MVA PERSON PINNED",
+        "MVA PIN-C",  "MVA PERSON PINNED",
+        "STRUCTURE",  "STRUCTURE FIRE",
+        "ALARM-FIRE", "FIRE ALARM",
+        "MVA PI-C",   "MVA PERSON INJURED",
+        "PUBL SER-C", "SERVICE CALL",
+        "PUBL SER-H", "SERVICE CALL",
+        "VEH FIRE S", "SMALL VEHICLE FIRE",
+        "GAS LEAK",   "GAS LEAK",
+        "MVA PD",     "MVA PROPERTY DAMAGE",
+        "ADMIN-C",    "SERVICE CALL",
+        "ADMIN-H",    "SERVICE CALL",
+        "FUEL SPILL", "FUEL SPILL",
+        "MISS PER-H", "MISSING PERSON",
+        "MISS PER-C", "MISSING PERSON",
+        "MVA PD/OT",  "MVA OTHER",
+        "TRAF/V/H-H", "MVA UNKNOWN",
+        "TRAF/V/H-C", "MVA UNKNOWN",
+        "WATER RESC", "WATER RESCUE",
+        "ALARMS-H",   "UNKNOWN ALARM",
+        "ALARMS-C",   "UNKNOWN ALARM",
+        "VEH FIRE-L", "LARGE VEHICLE FIRE",
+        "SMOKE INVE", "SMOKE INVESTIGATION",
 
+        // Medical:
+        "UNK PROB-H", "UNKNOWN MEDICAL",
+        "UNK PROB-C", "UNKNOWN MEDICAL",
+        "BREATH-H",   "BREATHING DIFFICULTY",
+        "BREATH-C",   "BREATHING DIFFICULTY",
+        "UNCONSC-H",  "UNRESPONSIVE PERSON",
+        "UNCONSC-C",  "UNRESPONSIVE PERSON",
+        "CHEST-H",    "CHEST PAIN",
+        "CHEST-C",    "CHEST PAIN",
+        "HEMORRHA-H", "SUBJECT HEMORRHAGING",
+        "HEMORRHA-C", "SUBJECT HEMORRHAGING",
+        "DIABETIC-H", "DIABETIC EMERGENCY",
+        "DIABETIC-C", "DIABETIC EMERGENCY",
+        "SICK-H",     "SICK CALL",
+        "SICK-C",     "SICK CALL",
+        "FALLS-H",    "SUBJECT FALLEN",
+        "FALLS-C",    "SUBJECT FALLEN",
+        "OVERDOSE-H", "OVERDOSE",
+        "OVERDOSE-C", "OVERDOSE",
+        "STROKE-H",   "STROKE/ CVA",
+        "STROKE-C",   "STROKE/ CVA",
+        "HEADACHE-H", "HEADACHE",
+        "HEADACHE-C", "HEADACHE",
+        "ABD-H",      "ABDOMINAL PAIN",
+        "ABD-C",      "ABDOMINAL PAIN",
+        "TRAUMA-H",   "INJURED PERSON",
+        "TRAUMA-C",   "INJURED PERSON",
+        "CARDIAC-H",  "CODE BLUE",
+        "CARDIAC-C",  "CODE BLUE",
+        "HEART PR-H", "HEART PROBLEMS",
+        "HEART PR-C", "HEART PROBLEMS",
+        "ALLERGY-H",  "ALLERGIC REACTION",
+        "ALLERGY-C",  "ALLERGIC REACTION",
+        "ANIMAL-M-L", "ANIMAL BITE",
+        "BK PAIN-H",  "BACK PAIN",
+        "BK PAIN-C",  "BACK PAIN",
+        "SEIZURES-H", "SEIZURES",
+        "SEIZURES-C", "SEIZURES",
+        "SUSPWANT-H", "ASSIST LAW",
+        "SUSPWANT-C", "ASSIST LAW",
+        "ASSALT-M-H", "INJURED PERSON",
+        "ASSALT-M-C", "INJURED PERSON",
+        "PSYC/SUI-H", "PSYCHIATRIC PROBLEM",
+        "PSYC/SUI-C", "PSYCHIATRIC PROBLEM",
+        "SHOTSTAB-H", "SHOOTING/ STABBING",
+        "SHOTSTAB-C", "SHOOTING/ STABBING",
+        "BURNS-H",    "SUBJECT BURNED",
+        "BURNS-C",    "SUBJECT BURNED",
+        "CARD/ARR-H", "CODE BLUE",
+        "CARD/ARR-C", "CODE BLUE",
+        "HEAT/CLD-H", "HEAT EMERGENCY",
+        "HEAT/CLD-C", "HEAT EMERGENCY",
+        "TRANSFER-H", "TRANSFER ASST",
+        "TRANSFER-C", "TRANSFER ASST",
+        "CARBON-H",   "CO INHALATION",
+        "CARBON-C",   "CO INHALATION",
+        "MEDICAL",    "MEDICAL"
 
-
-  private static final CodeSet CALL_SET = new CodeSet(
-      "ABD-H",
-      "ALARM-FIRE",
-      "ALL FIRE RELATED ALARMS",
-      "ALL SMALL VEHICLE RELATED FIRES",
-      "ANY OUTSIDE FIRE,GRASS,BRUSH, GRILL, DOG HOUSE, PUMP HOUSE",
-      "BREATH-H",
-      "CHEST-H",
-      "DIABETIC-H",
-      "FALLS-H",
-      "GAS LEAK",
-      "HEART PR-H",
-      "MEDICAL",
-      "MOTOR VEHICLE ACC WITH INJURIES-UNK/PIN IN-HOT",
-      "MVA PI-H",
-      "MVA PIN-H",
-      "OUTSIDE FI",
-      "PSYC/SUI-H",
-      "SEIZURES-C",
-      "SEIZURES-H",
-      "STRUCTURE",
-      "TRAUMA-H",
-      "UNCONSC-H"
   );
   
   private static final String[] CITY_LIST = new String[]{
