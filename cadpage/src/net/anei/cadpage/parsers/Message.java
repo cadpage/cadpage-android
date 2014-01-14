@@ -112,7 +112,8 @@ public class Message {
     Pattern.compile("^[^\n]*\\bFr: *(\\S+@\\S+)\\s+"),
     Pattern.compile("^From: *(\\S+@\\S+) +"),
     Pattern.compile("sentto-[-\\d]+ *= *([-\\.\\w]+@[-\\.\\w]+) +"),
-    Pattern.compile("^[\\d\\.]+=([-_a-z0-9\\.]+@[-_a-z0-9\\.]+) +")
+    Pattern.compile("^[\\d\\.]+=([-_a-z0-9\\.]+@[-_a-z0-9\\.]+) +"),
+    Pattern.compile("SRS1=[A-Za-z0-9\\.]+=AIDz=WT=[A-Za-z0-9\\.]+= ([A-Za-z0-9\\.]+@[A-Za-z0-9\\.]+)")
   };
   private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)(?:\\n|: )");
   private static final Pattern FRM_TAG_PATTERN = Pattern.compile("\n *FRM:");

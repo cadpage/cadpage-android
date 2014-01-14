@@ -12,7 +12,7 @@ public class NYMadisonCountyBParser extends DispatchA13Parser {
   
   @Override
   public String getFilter() {
-    return "e-911@co.madison.ny.us,e911@madisoncounty.ny.go,messaging@iamresponding.com";
+    return "e-911@co.madison.ny.us,e911@madisoncounty.ny.go,messaging@iamresponding.com,e911@bounce.secureserver.net";
   }
 
   @Override

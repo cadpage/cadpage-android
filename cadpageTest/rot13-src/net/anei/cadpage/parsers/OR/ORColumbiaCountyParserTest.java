@@ -110,6 +110,20 @@ C3 Haxa Zrqvpny - Fcrpvsl Z431,4380\a33800 FR SERQREVPX FG\a EBFR INYYRL NFFVFGR
 C1 Hapba Snvagvat/Hapba Haxabja Z433,4380\a51230 ONAXFGBA EQ\aZnc 5129/30/34 21:11:10\aK:FSQ OBHAQNEL,QHGPU PNALBA EQ
 C1 Qvssvphygl Oernguvat Z432,4380\a33760 FR FCEVATYNXR QE\aZnc 5133Q/31 20:13:45\aK:FR BNX TEBIR QE,FR 6GU FG
 
+*** ABGRF ***
+SvryqCebtenzCnefre fhopynff oernx ol arjyvar
+PNYY! NQQE! ZNC_GVZR! K:K!
+
+Bireevqr PNYY.  Ynfg jbeq fcyvg bss naq fnir va HAVG
+Bireevqr NQQE. purpx sbe pvgl pbqr frcnengrq sebz nqqerff jvgu frzvpbyba
+bireevqr ZNC_GVZR zngpu cnggrea naq fcyvg vagb ZNC naq GVZR svryqf
+bireevqr K ercynpr pbzzn jvgu fynfu
+
+Zhghny nvq pnyyf unir qvssrerag sbezng, cebonoyl orfg cvpxrq hc jvgu znfgre cnggrea frnepu.
+<havg> zhghny nvq gb kkkkk ng nqqerff
+zhghny nvq gb kkkk jvyy or gur pnyy qrfpevcgvba
+hfr fzneg nqqerff cnefre gb fcyvg erfg bs yvar vagb nqqerff naq fgeFhcc vasbezngvba
+
 */
 
 choyvp pynff BEPbyhzovnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

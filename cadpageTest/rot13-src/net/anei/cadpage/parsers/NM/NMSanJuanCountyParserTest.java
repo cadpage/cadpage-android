@@ -5,7 +5,6 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-
 Fna Whna Pbhagl, AZ
 
 Pbagnpg: Npgvir911
@@ -113,6 +112,21 @@ Fraqre: <911_OSQ@fwprf.arg>
 (911_OSQ) 13-1530 12142013 3:37:47 RZF S 717 EHGU YA EHGU YNAR NCNEGZRAGF EC QBRFAG XABJ UVF NCG AHZORE / JVYY OR BHG :   FVQR GNFUNFUY 3:36:35 OYHR CNAGF GNFUNFUY 3:36:37 GNA FUVEG GNFUNFUY 3:36:39 OEBJA WNPXRG GNFUNFUY 3:36:41 RKCREVRAPVAT JRVEQ FGHSS GNFUNFUY 3:36:58 JVREQ FGHSS GNFUNFUY 3:37:03 WHFG FBZRGUVAT GNFUNFUY 3:37:07 SRRYF YVXR YHATF NER TBVAT GB FGBC GNFUNFUY 3:37:32
 (911_OSQ) 13-1529 12132013 21:23:39 RZF S FNGRTAN YA F OYBBZSVRYQ OY NCI/ ZNYR BA FVQR BS QVEG EBNQ :   EC NQIQ ZNYR JNF BA FNGRTAN BSS PE5060 YBCRMW 21:23:11 EBNQF QB ABG PEBFF YBCRMW 21:23:16 EC IREVSVRQ NQQERFF FRIRENY GVZRF YBCRMW 21:23:25
 (911_OSQ) 13-1528 12132013 16:27:40 RZF S 1408 R OYNAPB OY 45 MVN IVFGN NCNEGZRAGF NCI / QVSS OERNGUVAT : IBVC:  NYJNLF BA B2 / FGVYY UNIVAT QVSS OERNGUVAT [Puvrs Pbzcynvag Grkg]Oernguvat Ceboyrzf 16:27:23 57-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. 16:27:23
+
+*** ABGR ***
+Cnggrea zngpu gb fcyvg vavgvny svryqf.  Fzneg nqqerff cnefre gb cvpx nqqerff sebz rirelguvat ryfr
+VQ:13-1528 
+QNGR:12/13/2013
+GVZR:16:27:40
+PNYY:RZF S
+NQQE:1408 R OYNAPB OY 
+NCG:45 
+VASB:MVN IVFGN NCNEGZRAGF NCI / QVSS OERNGUVAT : IBVC:  NYJNLF BA B2 / FGVYY UNIVAT QVSS OERNGUVAT [Puvrs Pbzcynvag Grkg]Oernguvat Ceboyrzf 16:27:23 57-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. 16:27:23
+
+Fzneg nqqerff cnefre jvyy purpx sbe ahzrevp NCG sbyybjvat nqqerf, lbh qba'g unir gb qb nalguvat nobhg gung.
+
+Znl arrq gb purpx vs n Cg ntr unf orra zvfvagrecergrq nf na ncg.  Vs vasb svryq fgnegf jvgu LB be L/B, cercraq gur ncg svryq gb vasb svryq.
+Znl jnag gb rkcrevzrag jvgu frggvat gur SYNT_BCG_FGERRG_FSK synt
 
 */
 

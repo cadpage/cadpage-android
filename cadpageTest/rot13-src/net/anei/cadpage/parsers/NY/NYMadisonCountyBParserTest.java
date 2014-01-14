@@ -34,6 +34,10 @@ Fraqre: r911@znqvfbapbhagl.al.tbi
 SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2013:522\aQvfcngpurq\aNffvfg\a@FGBAL CBAQ
 SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2013:523\aQvfcngpurq\aZIN - Haxabja\aEBPXF EQ \\ SRNEBA EQ (, RNGBA)
 
+Pbagnpg: zngg terra <z.terra8111@tznvy.pbz>
+Fraqre: r911@obhapr.frpherfreire.arg
+FEF1=obhapr.frpherfreire.arg=NVQm=JG=znqvfbapbhagl.al.tbi= r911@obhapr.frpherfreire.arg (911 Qvfcngpu) ZBESQ:2014:11\aQvfcngpurq\aFgehpgher Sver\a5224 EBHGR 20 , RNGBA ( PYNEX EQ /
+
 */
 
 choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -226,6 +230,24 @@ choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:EBPXF EQ & SRNEBA EQ",
         "PVGL:RNGBA");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZnggTerra() {
+
+    qbGrfg("G1",
+        "FEF1=obhapr.frpherfreire.arg=NVQm=JG=znqvfbapbhagl.al.tbi= r911@obhapr.frpherfreire.arg (911 Qvfcngpu) ZBESQ:2014:11\a" +
+        "Qvfcngpurq\a" +
+        "Fgehpgher Sver\a" +
+        "5224 EBHGR 20 , RNGBA ( PYNEX EQ /",
+
+        "FEP:ZBESQ",
+        "VQ:2014:11",
+        "PNYY:Fgehpgher Sver",
+        "NQQE:5224 EBHGR 20",
+        "PVGL:RNGBA",
+        "K:PYNEX EQ");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
