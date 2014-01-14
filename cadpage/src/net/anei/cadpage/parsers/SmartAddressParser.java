@@ -2699,6 +2699,11 @@ public abstract class SmartAddressParser extends MsgParser {
           data.strAddress = addr;
           data.strCross = cross;
           data.strApt = "";
+          Matcher match = ADDR_TRAIL_FL.matcher(addr);
+          if (match.find()) {
+            data.strAddress = addr.substring(0,match.start());
+            data.strApt = match.group(1);
+          }
         } else {
           Matcher match = ADDR_PLACE_MARK.matcher(apt1);
           if (match.matches()) {
@@ -2819,6 +2824,7 @@ public abstract class SmartAddressParser extends MsgParser {
     }
   }
   private static final Pattern ADDR_PLACE_MARK = Pattern.compile("^(?:AT |@) *(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern ADDR_TRAIL_FL = Pattern.compile(" +(\\d+ *FL)$", Pattern.CASE_INSENSITIVE);
   
   /**
    * Check a potential extra apartment field for constructs that do 

@@ -2039,34 +2039,16 @@ Fhssbyx Pbhagl, AL (ALFhssbyxPbhaglNCnefre)
 GLCR: TNF YRNXF / TNF BQBE (ANGHENY / Y.C.T.) YBP: 11 OERAGJBBQ CXJL OERAGJ UBZRYRFF FURYGRE PEBFF: CRAAFLYINAVN NI / FHSSBYX NI PBQR: 60-O-2 GVZR: 12:54:16
 GLCR: FGEHPGHER SVER YBP: 81 ARJ UNZCFUVER NI AONLFU  PEBFF: R SBEXF EQ / R 3 NI PBQR: 69-Q-10 GVZR: 16:36:48
 GLCR: BCRA OHEAVAT YBP: 65 TENAG NIR OERAGJ PEBFF: FHSSBYX NIR 18:39:20 PBQR: 54-P-6
-****************************************************************************
-Fhssbyx Pbhagl, AL (ALFhssbyxPbhaglSCnefre)
-** 16 Erfphr \a** GBN: 12:04 05-07-13 \a** 26-N-10 \a** 3 RNTYR EQ\a** PF: SNVEJNL QE ** 2013-000367 \a** NS\a** YBV frnepu pbzcyrgrq ng 05/07/
-** NN Nhgbzngvp Nynez \a** GBN: 17:22 05-07-13 \a** 52-O-1 \a** 81 UVTU UVYY EQ\a** PF: ERZFRA EQ / R JBBQYNAQ QE \a** 2013-000368 \a** XVGPURA
-** ZI Zbgbe Iruvpyr Nppvqrag \a** GBN: 18:25 05-07-13 \a** 29-Q-2Y \a** ZNVQFGBAR YA\a** PF: PNAGREOHEL QE ** 2013-000369 \a** ** YBV frnepu pb
-****************************************************************************
-Qvk Uvyyf, AL (ALQvkUvyyfCnefre)
-2010-001784 23:36 *** 16- Erfphr *** 17 OELPRJBBQ QE FCVRTRY, YBEV N Qvk Uvyyf UD NEVFGN QE 31-N-1 HAPBAFPVBHF / SNVAGVAT (ARNE) PRJBBQ QE QVKUVY
-GLCR:
-2010-001779 10:34 *** 24/16- Zhghny Nvq *** 51 ONYQJVA CNGU  Qvk Uvyyf UD
-2010-001777 15:54 *** 16- Erfphr ***  QRRE CNEX NI QRRE CNEX NI & ZNELYNAQ FG Qvk Uvyyf UD ZNELYNAQ FG
-2010-001778 15:54 *** 23- Zvfp Sver ***  QRRE CNEX NI QRRE CNEX NI & ZNELYNAQ FG Qvk Uvyyf UD ZNELYNAQ FG
-*******************************************************************************
-Fhssbyx Pbhagl, AL (Cbeg Wrssrefba Ibyhagrre Nzohynapr) (ALFhssbyxPbhaglQCnefre)
-HAXABJA CEBOYRZ - FGNAQVAT, FVGGVAT HC, ZBIVAT BE GNYXVAT pbqr: 32-O-1 ng: 3 FGNAQVFU QE p/f: PUVCCRAQNYR QE q/g: 06/30 00:01:30
-CFLPUVNGEVP / NOABEZNY ORUNIVBE / FHVPVQR - ABA FHVPVQNY NAQ NYREG pbqr: 25-N-1 ng: 60 A PBHAGEL EQ p/f: CVAR UVYY EQ q/g: 06/30 19:53:51
-FVPX - AB CEVBEVGL FLZCGBZF (PBZCYNVAG PBAQVGVBAF 2-11 ABG VQRAGVSVRQ) pbqr: 26-N-1 ng: 11 OHEARGG PG p/f: YBHQRA YC q/g: 06/30 11:27:10
-OHEAF (FPNYQF) / RKCYBFVBA - SVER NYNEZ (HAXABJA FVGHNGVBA) pbqr: 7-N-2 ng: 11 OENQQBPX PG p/f: FGENGUZBER PG q/g: 06/28 19:37:00
 *******************************************************************************
 Fhssbyx Pbhagl, AL (ALFhssbyxPbhaglRCnefre)
 /ERYNL /201 GEBG OEBBX YNAR SRZNYR SNPVNY VAWHEL
 /SEBZ ERYNL /1035 CNEXJNL\aSRZNYR JVGU PURFG CNVAF
 /SEBZ ERYNL /641 ABEGUIVYYR GCXR & SVFURY\aSRZNYR VF FVPX
-*******************************************************************************
-Fhssbyx Pbhagl, AL (ALFhssbyxPbhaglSvergenpxreCnefre)
-(SverCntr) ** ZNFGVP ORNPU INP ** [7-N-2 SV] 340 J QBTJBBQ EQ Znfgvp Ornpu P/F:YLAOEBBX QE NAQ JBBQFVQR QE Nqq'g Vasb: Erfcbaqr
-(SverCntr) ** ZNFGVP ORNPU INP ** [6-P-1 NO] 154 ONLIVRJ QE Znfgvp Ornpu P/F:ZNCYR EQ J NAQ ANEPVFFHF EQ J Nqq'g Vasb: ........
-(SverCntr) ** ZNFGVP ORNPU INP ** [29-Q-2Z ] BEPUVQ QE Znfgvp Ornpu P/F:BEPUVQ QE NAQ PRQNE EQ R Nqq'g Vasb: ZIN Ahzore bs cngv
+****************************************************************************
+Fhssbyx Pbhagl, AL (ALFhssbyxPbhaglSCnefre)
+** 16 Erfphr \a** GBN: 12:04 05-07-13 \a** 26-N-10 \a** 3 RNTYR EQ\a** PF: SNVEJNL QE ** 2013-000367 \a** NS\a** YBV frnepu pbzcyrgrq ng 05/07/
+** NN Nhgbzngvp Nynez \a** GBN: 17:22 05-07-13 \a** 52-O-1 \a** 81 UVTU UVYY EQ\a** PF: ERZFRA EQ / R JBBQYNAQ QE \a** 2013-000368 \a** XVGPURA
+** ZI Zbgbe Iruvpyr Nppvqrag \a** GBN: 18:25 05-07-13 \a** 29-Q-2Y \a** ZNVQFGBAR YA\a** PF: PNAGREOHEL QE ** 2013-000369 \a** ** YBV frnepu pb
 ******************************************************************************
 Fhssbyx Pbhagl, AL (ALFhssbyxPbhaglTCnefre)
 23 Jverf \a GBN: 20:00 06-22-13 \a16 ONEER CY, UHAGVATGBA ,AL '\a  \a\a PF: FGBJR NIR / JNER NIR \a Pbzznpx Sver Qvfgevpg \a 2013-000559 \aU1: ULQENAGF\aV/S/B #2\aV/S/B #2\aV/S/B #2 \a Puvyq/Ryqre \a FGN2 \a FGN3 \a N-5
@@ -2077,6 +2059,29 @@ Fhssbyx Pbhagl, AL (ALFhssbyxPbhaglUCnefre)
 (PNYY) 07/26/2013 23:16 NHGBZNGVP NYNEZ (PUVRSF) RU 9 PRAGENY NI RNFG UNZCGBA FGBHGG ERFVQRAPR SVER NYNEZ
 (PNYY) 07/19/2013 13:28 PUVRS VAIRFGVTNGVBA RU 8 R UNZCGBA QE J RNFG UNZCGBA GENAFSBEZRE NEPVAT
 (PNYY) 07/17/2013 14:52 PUVRS VAIRFGVTNGVBA RU 124 BNXIVRJ UJL RNFG UNZCGBA YVIR JVER NEPVAT VA GUR EBNQJNL V/S/B GUR NOBIR YBPNGVBA
+*******************************************************************************
+Fhssbyx Pbhagl, AL (ALFhssbyxPbhaglVCnefre)
+** 24/16 - Z/N ERFPHR \a**  \a** 249 NYONAL NIR** a. nzvglivyyr** GBN: 02:00 01-14-14 \a** NZVGLIVYYR SQ \a** 2014-000077 \a** abegu nzvglivyyr
+** 16 - ERFPHR \a**  \a** 148 ZREEVPX EQ** NZVGLIVYYR** GBN: 17:23 01-13-14 \a** NZVGLIVYYR SQ \a** 2014-000076
+** 24/16 - Z/N ERFPHR \a**  \a** 130 qel thypu cngu** NZVGLIVYYR** GBN: 07:47 01-13-14 \a** NZVGLIVYYR SQ \a** 2014-000075
+****************************************************************************
+Qvk Uvyyf, AL (ALQvkUvyyfCnefre)
+2010-001784 23:36 *** 16- Erfphr *** 17 OELPRJBBQ QE FCVRTRY, YBEV N Qvk Uvyyf UD NEVFGN QE 31-N-1 HAPBAFPVBHF / SNVAGVAT (ARNE) PRJBBQ QE QVKUVY
+GLCR:
+2010-001779 10:34 *** 24/16- Zhghny Nvq *** 51 ONYQJVA CNGU  Qvk Uvyyf UD
+2010-001777 15:54 *** 16- Erfphr ***  QRRE CNEX NI QRRE CNEX NI & ZNELYNAQ FG Qvk Uvyyf UD ZNELYNAQ FG
+2010-001778 15:54 *** 23- Zvfp Sver ***  QRRE CNEX NI QRRE CNEX NI & ZNELYNAQ FG Qvk Uvyyf UD ZNELYNAQ FG
+*******************************************************************************
+Fhssbyx Pbhagl, AL (ALFhssbyxPbhaglSvergenpxreCnefre)
+(SverCntr) ** ZNFGVP ORNPU INP ** [7-N-2 SV] 340 J QBTJBBQ EQ Znfgvp Ornpu P/F:YLAOEBBX QE NAQ JBBQFVQR QE Nqq'g Vasb: Erfcbaqr
+(SverCntr) ** ZNFGVP ORNPU INP ** [6-P-1 NO] 154 ONLIVRJ QE Znfgvp Ornpu P/F:ZNCYR EQ J NAQ ANEPVFFHF EQ J Nqq'g Vasb: ........
+(SverCntr) ** ZNFGVP ORNPU INP ** [29-Q-2Z ] BEPUVQ QE Znfgvp Ornpu P/F:BEPUVQ QE NAQ PRQNE EQ R Nqq'g Vasb: ZIN Ahzore bs cngv
+*******************************************************************************
+Fhssbyx Pbhagl, AL (Cbeg Wrssrefba Ibyhagrre Nzohynapr) (ALFhssbyxPbhaglQCnefre)
+HAXABJA CEBOYRZ - FGNAQVAT, FVGGVAT HC, ZBIVAT BE GNYXVAT pbqr: 32-O-1 ng: 3 FGNAQVFU QE p/f: PUVCCRAQNYR QE q/g: 06/30 00:01:30
+CFLPUVNGEVP / NOABEZNY ORUNIVBE / FHVPVQR - ABA FHVPVQNY NAQ NYREG pbqr: 25-N-1 ng: 60 A PBHAGEL EQ p/f: CVAR UVYY EQ q/g: 06/30 19:53:51
+FVPX - AB CEVBEVGL FLZCGBZF (PBZCYNVAG PBAQVGVBAF 2-11 ABG VQRAGVSVRQ) pbqr: 26-N-1 ng: 11 OHEARGG PG p/f: YBHQRA YC q/g: 06/30 11:27:10
+OHEAF (FPNYQF) / RKCYBFVBA - SVER NYNEZ (HAXABJA FVGHNGVBA) pbqr: 7-N-2 ng: 11 OENQQBPX PG p/f: FGENGUZBER PG q/g: 06/28 19:37:00
 *******************************************************************************
 *******************************************************************************
 * Anffnh Pbhagl AL Pbyyrpgvba

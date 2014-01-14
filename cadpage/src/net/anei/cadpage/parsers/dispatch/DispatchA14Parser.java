@@ -22,7 +22,7 @@ public class DispatchA14Parser extends FieldProgramParser {
   
   public DispatchA14Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-           "ADDR/SP! CS:X? ADTML:CODE? TOA:TIMEDATE TYPE:INFO LOC:SKIP");
+           "ADDR/S7P! CS:X? ADTML:CODE? TOA:TIMEDATE TYPE:INFO LOC:SKIP");
   }
 
   @Override

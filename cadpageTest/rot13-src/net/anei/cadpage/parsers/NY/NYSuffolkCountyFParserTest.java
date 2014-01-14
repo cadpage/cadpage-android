@@ -15,11 +15,12 @@ Fraqre: Cntvat1@svererfphrflfgrzf.kbubfg.pbz
 ** NN Nhgbzngvp Nynez \a** GBN: 10:47 05-08-13 \a** 52-P-1 \a** 283 EBHGR 25N\a** PF: QRRESVRYQ QE / TNGRJNL QE \a** 2013-000370 \a** TRARENY S
 ** 16 Erfphr \a** GBN: 15:45 05-08-13 \a** 3-N-1 \a** 1503 A PBHAGEL EQ\a** PF: A JNQVAT EVIRE EQ / WNPBOF YA \a** 2013-000371 \a** 50 LBS PNG
 ** NN Nhgbzngvp Nynez \a** GBN: 12:48 05-09-13 \a** 52-P-3T \a** 2450 A JNQVAT EVIRE EQ\a** PF: ABEGUFVQR EQ / PNEEVR PG \a** 2013-000373
-** NN Nhgbzngvp Nynez \a** GBN: 15:43 05-10-13 \a** 52-P-3P \a** 5720 EBHGR 25N\a** PF: FBHAQ NIR / R JVAQ QE \a** 2013-000377 \a** NYNEZ\aObql:** 16 Erfphr \a** GBN: 20:28 05-10-13 \a** 26-N-8 \a** 364 ERZFRA EQ\a** PF: EBPXYRVA EQ / UVTU UVYY EQ \a** 2013-000378 \a** NS CNVA\aAhzore b
+** NN Nhgbzngvp Nynez \a** GBN: 15:43 05-10-13 \a** 52-P-3P \a** 5720 EBHGR 25N\a** PF: FBHAQ NIR / R JVAQ QE \a** 2013-000377 \a** NYNEZ
 ** 16 Erfphr \e\a** GBN: 11:23 05-12-13 \e\a** 21-O-1 \e\a** 53 UBJNEQ FG\e\a** PF: FLYINA QE / BNXJBBQ QE \e\a** 2013-000382 \e\a** ECQ 203\e\aABFR OYRRQ\e\aA
 ** 16 Erfphr \e\a** GBN: 10:43 05-12-13 \e\a** 30-O-1 \e\a** 703 SERFU CBAQ NI\e\a** PF: 1FG FG / 8GU FG \e\a** 2013-000381 \e\a** UVC VAWHEL\e\aAhzore bs cn
 ** ZI Zbgbe Iruvpyr Nppvqrag \a** GBN: 06:21 05-17-13 \a** 29-Q-4 \a** JNQVAT EVIRE ZNABE EQ\a** PF: EG 25N / JNQVAT EVIRE ZNABE EQ \a** 2013-0
 ** 16 Erfphr \a** GBN: 11:58 05-17-13 \a** 31-P-2 \a** AO JVYYVNZ SYBLQ CXJL** 2013-000395 \a** N/Z\a** YBV frnepu pbzcyrgrq ng 05/17/13 11:50:
+** 16 Erfphr \a** GBN: 20:28 05-10-13 \a** 26-N-8 \a** 364 ERZFRA EQ\a** PF: EBPXYRVA EQ / UVTU UVYY EQ \a** 2013-000378 \a** NS CNVA\aAhzore b
  
 Pbagnpg: U U <fghczna97@tznvy.pbz>
 Fraqre: znfgvpnzopb@bcgbayvar.arg
@@ -165,15 +166,7 @@ choyvp pynff ALFhssbyxPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "** 5720 EBHGR 25N\a" +
         "** PF: FBHAQ NIR / R JVAQ QE \a" +
         "** 2013-000377 \a" +
-        "** NYNEZ\a" +
-        "Obql:** 16 Erfphr \a" +
-        "** GBN: 20:28 05-10-13 \a" +
-        "** 26-N-8 \a" +
-        "** 364 ERZFRA EQ\a" +
-        "** PF: EBPXYRVA EQ / UVTU UVYY EQ \a" +
-        "** 2013-000378 \a" +
-        "** NS CNVA\a" +
-        "Ahzore b",
+        "** NYNEZ",
 
         "PNYY:NN Nhgbzngvp Nynez",
         "GVZR:15:43",
@@ -182,7 +175,7 @@ choyvp pynff ALFhssbyxPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5720 EBHGR 25N",
         "K:FBHAQ NIR / R JVAQ QE",
         "VQ:2013-000377",
-        "VASB:NYNEZ\aObql: / 16 Erfphr / GBN: 20:28 05-10-13 / 26-N-8 / 364 ERZFRA EQ / PF: EBPXYRVA EQ / UVTU UVYY EQ / 2013-000378 / NS CNVA\aAhzore b");
+        "VASB:NYNEZ");
 
     qbGrfg("G9",
         "** 16 Erfphr \e\a" +
@@ -202,7 +195,7 @@ choyvp pynff ALFhssbyxPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:53 UBJNEQ FG",
         "K:FLYINA QE / BNXJBBQ QE",
         "VQ:2013-000382",
-        "VASB:ECQ 203\aABFR OYRRQ\aA");
+        "VASB:ECQ 203 / ABFR OYRRQ / A");
 
     qbGrfg("G10",
         "** 16 Erfphr \e\a" +
@@ -222,7 +215,7 @@ choyvp pynff ALFhssbyxPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:703 SERFU CBAQ NIR",
         "K:1FG FG / 8GU FG",
         "VQ:2013-000381",
-        "VASB:UVC VAWHEL\aAhzore bs cn");
+        "VASB:UVC VAWHEL / Ahzore bs cn");
 
     qbGrfg("G11",
         "** ZI Zbgbe Iruvpyr Nppvqrag \a" +
@@ -256,6 +249,25 @@ choyvp pynff ALFhssbyxPbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:JVYYVNZ SYBLQ CXJL",
         "VQ:2013-000395",
         "VASB:N/Z / YBV frnepu pbzcyrgrq ng 05/17/13 11:50:");
+
+    qbGrfg("G13",
+        "** 16 Erfphr \a" +
+        "** GBN: 20:28 05-10-13 \a" +
+        "** 26-N-8 \a" +
+        "** 364 ERZFRA EQ\a" +
+        "** PF: EBPXYRVA EQ / UVTU UVYY EQ \a" +
+        "** 2013-000378 \a" +
+        "** NS CNVA\a" +
+        "Ahzore b",
+
+        "PNYY:16 Erfphr",
+        "GVZR:20:28",
+        "QNGR:05/10/13",
+        "PBQR:26-N-8",
+        "NQQE:364 ERZFRA EQ",
+        "K:EBPXYRVA EQ / UVTU UVYY EQ",
+        "VQ:2013-000378",
+        "VASB:NS CNVA / Ahzore b");
 
   }
   
