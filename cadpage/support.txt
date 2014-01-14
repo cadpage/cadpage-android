@@ -335,8 +335,18 @@ Jean Goul
 
 ******************************************************************
 Subsequent $10 payments are set up as maintenance fees. 
- You can continue to use Cadpage after the first expiration date as long as you do not install a release published after that date.
+ You can continue to use Cadpage after the expiration date as long as you do not install a release published after that date.
  
+******************************************************************
+update department subscriptions
+
+Your one-year anniversary for Cadpage for your department was _________.  You and your department members may certainly continue using the app, free of charge for as long as you like.  That is, you can continue to use Cadpage after the expiration date as long as you do not install a release published after that date, change phones, or change email addresses.
+
+Please let me know if you need any updates on your department subscription.
+
+Thanks so much for your support,
+Jean, Assistant to Ken Corbin
+
 ******************************************************************
 expired
 
@@ -2704,7 +2714,7 @@ You can switch the device code back and forth between the Active911 and
 Cadpage apps at will.  To switch back to Cadpage, just register the
 Cadpage with Active911 the way you originally did
 Direct Paging Vendors > Active911.com > Register
-and enter the device code which is 40882-QZRI.  To switch from Cadpage
+and enter the device code which is __________________.  To switch from Cadpage
 back to Active911, open the Active911 app settings, and change the
 device code to something invalid.  Then change it back to 40882-QZRI.
 
@@ -2741,8 +2751,7 @@ Jean, Assistant to Ken Corbin
 
 You have to register the Active911 app with their servers.  To do that,
 open settings and select Device code, and enter the device code for your
-device, which in your case is
-69455-DUSB
+device, which in your case is _______________
 
 If you want to switch back to using Cadpage at some future time, open
 Cadpage settings and select
