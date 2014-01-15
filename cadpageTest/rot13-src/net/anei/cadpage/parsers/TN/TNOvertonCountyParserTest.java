@@ -154,7 +154,8 @@ choyvp pynff GABiregbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "(QE IVF>KSRE GB QE BSSVPR) 911@BCRPQ.PBZ:318 OVYOERL FG KF: J ZNVA FG YVIVATFGBA INAHF QRAFBA Znc: Tevqf:0,0 Pnq: 2013-0000025724",
-        "PNYY:QE IVF>KSRE GB QE BSSVPR",
+        "PBQR:QE IVF",
+        "PNYY:KSRE GB QE BSSVPR",
         "NQQE:318 OVYOERL FG",
         "K:J ZNVA FG",
         "PVGL:YVIVATFGBA",
