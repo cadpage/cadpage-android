@@ -15,6 +15,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA13Parser;
 
 public class NYOneidaCountyParser extends DispatchA13Parser {
   
+  private static final Pattern IAR_PTN = Pattern.compile(">[- A-Z0-9]+>.*", Pattern.CASE_INSENSITIVE);
   private static final Pattern MARKER = Pattern.compile("(?:(.*?)([^A-Z0-9]{1,3}))?\\bDispatched([^A-Z0-9]{1,3})(?=[A-Z0-9])");
   private static final Pattern CODE_PTN = Pattern.compile("^(\\d\\d[A-Z]\\d\\d) ?- ?");
   private static final Pattern OUTSIDE = Pattern.compile("\\bOUTSIDE\\b");
@@ -34,12 +35,16 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     data.strSource = subject;
+    
+    // As if things weren't bad enough, we also have to deal with IAR alterations :(
+    Matcher match = IAR_PTN.matcher(body);
+    if (match.matches()) body = "Dispatched" + body;
 
     // Format always has some field delimiters, but they
     // seem to change with the phase of the moon. There is always a "Dispatched"
     // field followed by a delimiter, followed (hopefully) by a alphnumeric character.
     // so we use this pattern to find and identify the delimiter
-    Matcher match = MARKER.matcher(body);
+    match = MARKER.matcher(body);
     if (!match.find()) return false;
     
     // The delimiter preceding and following the Dispatched term should be the same
