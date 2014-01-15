@@ -19,7 +19,7 @@ Go Figure
 
 public class DispatchB2Parser extends DispatchBParser {
   
-  private static final Pattern CODE_PATTERN = Pattern.compile("^([-/A-Z0-9]*|\\?) *> *"); 
+  private static final Pattern CODE_PATTERN = Pattern.compile("^([- /A-Z0-9]*?|\\?) *> *"); 
   private static final Pattern PHONE_PTN = Pattern.compile(" *((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4})$");
   private static final Pattern PHONE2_PTN = Pattern.compile("^((?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}) *");
   private static final Pattern APT_PTN = Pattern.compile("[A-Z]?\\d+[A-Z]?");
@@ -97,10 +97,17 @@ public class DispatchB2Parser extends DispatchBParser {
     if (field.length() == 0) return false;
     
     if (field.charAt(0) == '(') {
-      int pt = field.indexOf(')');
-      if (pt < 0) return false;
-      address = field.substring(pt+1).trim();
-      field = field.substring(1, pt);
+      int pt = 0;
+      int pCnt = 0;
+      do {
+        if (pt >= field.length()) return false;
+        char chr = field.charAt(pt);
+        if (chr == '(') pCnt++;
+        else if (chr == ')') pCnt--;
+        pt++;
+      } while (pCnt > 0);
+      address = field.substring(pt).trim();
+      field = field.substring(1, pt-1);
     }
 
     Matcher match = CODE_PATTERN.matcher(field);

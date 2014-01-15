@@ -6,9 +6,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   cevingr fgngvp svany Cnggrea ZNFGRE  = 
-      Cnggrea.pbzcvyr("\\oCeboyrz: (.*?)\\.  Cngvrag Vasb:|\\oPnyyre Fgngrzrag: (.*?)\\.|\\oQvfcngpu (?:Pbqr|Yriry): +(\\q[^ ;]+);?|\\oCebDN (?:(?:Zrqvpny|Sver|Cbyvpr) )?(?:Qvfcngpu Zrffntr Frag|Xrl Dhrfgvbaf unir orra pbzcyrgrq|Dhrfgvbaanver Pbzcyrgrq);| Arj CebDN (?:Zrqvpny|Sver|Cbyvpr) Pnfr Ahzore unf orra nffvtarq;|Qvfcngpu (?:Pbqr|Yriry): --: -\\q+|\\oR911 Vasb -.*|Puvrs Pbzcynvag Ahzore: \\q+;| \\*\\* Pnfr ahzore \\q+ unf orra nffvtarq sbe \\q+:PAGL \\*\\* >+|>+ ol: [ N-M]+ ba grezvany: [^ ]+");
+      Cnggrea.pbzcvyr("[-_N-M]+: *(\\q{10}) +([-N-M]+) +(.*)");
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg(" >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21");
+    qbGrfg("NPGVIR911_SVE-FG: 8642604444 SVE-FG FGEHPGHER SVER 102 Q NAQ Z QE ZHECUL EQ FNZNAGUN OEBJA 634-0006");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

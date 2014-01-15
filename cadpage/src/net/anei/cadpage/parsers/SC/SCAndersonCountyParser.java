@@ -9,6 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 public class SCAndersonCountyParser extends DispatchB2Parser {
   
+  private static final Pattern POLICE_MASTER = Pattern.compile("([-_A-Z0-9]+): *(\\d{10}) +([-A-Z]+) +(.*)");
   private static final Pattern UNIT_PTN = Pattern.compile("^(?:ANDERSON CO 911|AND 911|active911|([-a-z0-9]+)):");
  
   public SCAndersonCountyParser() {
@@ -23,31 +24,59 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    // See if this is one of our pages
-    Matcher match = UNIT_PTN.matcher(body);
-    if (!match.find()) return false;
-    data.strUnit = getOptGroup(match.group(1));
-    body = body.substring(match.end()).trim();
+    body = encode(body);
     
-    if (!body.contains(" Cad:")) {
-      data.strCall = "GENERAL ALERT";
-      if (subject.length() > 0) body = '(' + subject + ") " + body;
-      data.strPlace = body;
-      return true;
+    // Check for a police dispatched alert.  These have a different page format
+    if (subject.equals("Return Phone")) {
+      setFieldList("UNIT PHONE CODE CALL ADDR APT X INFO");
+      body = body.toUpperCase();
+      Matcher match = POLICE_MASTER.matcher(body);
+      if (!match.matches()) return false;
+      data.strUnit = match.group(1);
+      if (data.strUnit.startsWith("ACTIVE911_")) data.strUnit = data.strUnit.substring(10);
+      data.strPhone = match.group(2);
+      data.strCode = match.group(3);
+      body = match.group(4);
+      
+      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_CROSS_FOLLOWS, body, data);
+      body = getLeft();
+      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body, data);
+      data.strSupp = getLeft();
     }
     
-    if (subject.equals("EVENT")) subject = "EVENT:";
-    body = append(subject, " ", body);
-    
-    if (!body.contains(" Cad:")) {
-      data.strCall = "GENERAL ALERT";
-      data.strPlace = body;
-      return true;
+    else {
+      // See if this is one of our pages
+      Matcher match = UNIT_PTN.matcher(body);
+      if (!match.find()) return false;
+      data.strUnit = getOptGroup(match.group(1));
+      body = body.substring(match.end()).trim();
+      
+      if (!body.contains(" Cad:")) {
+        data.strCall = "GENERAL ALERT";
+        if (subject.length() > 0) body = '(' + subject + ") " + body;
+        data.strPlace = decode(body);
+        return true;
+      }
+      
+      if (subject.equals("EVENT")) {
+        body = "EVENT: " + body;
+      } else if (subject.length() > 0) {
+        body = '(' + subject + ')' + body;
+      }
+      
+      if (!body.contains(" Cad:")) {
+        data.strCall = "GENERAL ALERT";
+        data.strPlace = decode(body);
+        return true;
+      }
+      
+      // Call superclass parser
+      body = body.replace('@', '&').replace("//", "/");
+      if (!super.parseMsg(body, data)) return false;
     }
-    
-    // Call superclass parser
-    body = body.replace('@', '&').replace("//", "/");
-    return super.parseMsg(body, data);
+    data.strAddress = decode(data.strAddress);
+    data.strCross = decode(data.strCross);
+    return true;
   }
   
   @Override
@@ -57,12 +86,20 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
   
   @Override
   public String adjustMapAddress(String sAddress) {
-    return sAddress.replace("SIX AND TWENTY", "SIX_AND_TWENTY");
+    return encode(sAddress);
   }
 
   @Override
   public String postAdjustMapAddress(String sAddress) {
-    return sAddress.replace("SIX_AND_TWENTY", "SIX AND TWENTY");
+    return decode(sAddress);
+  }
+  
+  private String encode(String sAddress) {
+    return sAddress.replace("SIX AND TWENTY", "SIX_AND_TWENTY").replace("D AND M", "D_AND_M");
+  }
+  
+  private String decode(String sAddress) {
+    return sAddress.replace("SIX_AND_TWENTY", "SIX AND TWENTY").replace("D_AND_M", "D AND M");
   }
 
   private static final String[] CITY_CODES = new String[]{
@@ -85,6 +122,9 @@ public class SCAndersonCountyParser extends DispatchB2Parser {
     "SANDY SPRINGS",
     "TOWNVILLE",
     
-    "PENDLETON"
+    "PENDLETON",
+    
+    // Greenville County
+    "GREENVILLE"
   };
 }
