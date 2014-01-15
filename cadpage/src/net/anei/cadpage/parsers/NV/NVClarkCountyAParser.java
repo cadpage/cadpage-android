@@ -24,6 +24,7 @@ public class NVClarkCountyAParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("SMS")) return false;
     body = body.replace(" U:", ", U:").replace(" L:", ", L:").replace(" PC:", ", PC:").replace(" N:", ", N:");
+    if (body.startsWith("RE:")) body = "I:" + body.substring(3);
     return parseFields(body.split(","), 9, data);
   }
   
