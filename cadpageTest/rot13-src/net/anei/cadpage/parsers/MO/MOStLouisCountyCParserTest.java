@@ -228,6 +228,23 @@ Nynez Zrqvpny NG:1576 Ehfgvp Genvy Qe KFG:FPRAVP YNXR QE/FCNEXYVAT YNXR QE 51 51
 {PNQ Cntvat} ) Zbir Hc Chzcre ; 2600 Ynfnyyr Fg - PebffFgerrg:F WRSSREFBA NIR/BUVB NIR [Bhgfvqr Nern ]
 {PNQ Cntvat} ) Sver Erfvqragvny ; 589 Naqerjf Nir - PebffFgerrg:J JBBQOVAR NIR/J EBFR UVYY NIR [Bhgfvqr Nern ]
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Cnggbaivyyr Sver Cebgrpgvba Qvfgevpg
+Ybpngvba: Oevqtrgba, ZB, Havgrq Fgngrf
+Fraqre: <qvfcngpu@ppr911.bet>
+Fraqre: "Abegu Prageny" <apsncntvat@ppr911.bet>
+
+(PNQ Cntvat) 26 Fvpx Pnfr DQ NG:11325 Fg Puneyrf Ebpx Eq 48 4817,48QA1
+(PNQ Cntvat) 06 Oernguvat Ceboyrzf DQ NG:12106 Angheny Oevqtr Eq 48 4824,4817,48QA1
+(PNQ Cntvat) 10 Purfg Cnva DQ NG:3420 F Evqre Gey 48 4837,48QA,4835
+(PNQ Cntvat) Nynez Pbzzrepvny NG:11228 Ybar Rntyr Qe 48 4815,4824,4802,48QA
+(PNQ Cntvat) 30 Nppvqragny Vawhel DQ NG:11900 Fg Puneyrf Ebpx Eq 48 4817,48QA1
+(PNQ Cntvat) 17 Yvsg Nffvfg DQ NG:11311 Jvaqnyr Qe 48 4815,5217,48QA
+(PNQ Cntvat) 31 Hapbafpvbhf DQ NG:11988 Znex Gjnva Ya 48 4824,4817,48QA1
+(PNQ Cntvat) 21Q3 Qnatrebhf Urzbeeuntr NG:3233 Cnexjbbq Ya KFG:CNEXJBBQ PG/BYQ FG PUNEYRF EQ 44 4824,44QA1,44QA1,4417
+(PNQ Cntvat) 06 Oernguvat Ceboyrzf DQ NG:12145 Oevqtrgba Fdhner Qe 48 4824,4817,48QA
+(PNQ Cntvat) 17 Snyy DQ NG:11048 Znetngrunyy Qe 48 4817,48QA
+
  */
 
 choyvp pynff ZBFgYbhvfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -1555,7 +1572,92 @@ choyvp pynff ZBFgYbhvfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:5110,51QA,5117");
   
   }
-  
+
+  @Grfg
+  choyvp ibvq grfgCnggbaivyyrSverCebgrpgvbaQvfgevpg() {
+
+    qbGrfg("G1",
+        "(PNQ Cntvat) 26 Fvpx Pnfr DQ NG:11325 Fg Puneyrf Ebpx Eq 48 4817,48QA1",
+        "PBQR:26",
+        "PNYY:Fvpx Pnfr",
+        "NQQE:11325 Fg Puneyrf Ebpx Eq",
+        "FEP:48",
+        "HAVG:4817,48QA1");
+
+    qbGrfg("G2",
+        "(PNQ Cntvat) 06 Oernguvat Ceboyrzf DQ NG:12106 Angheny Oevqtr Eq 48 4824,4817,48QA1",
+        "PBQR:06",
+        "PNYY:Oernguvat Ceboyrzf",
+        "NQQE:12106 Angheny Oevqtr Eq",
+        "FEP:48",
+        "HAVG:4824,4817,48QA1");
+
+    qbGrfg("G3",
+        "(PNQ Cntvat) 10 Purfg Cnva DQ NG:3420 F Evqre Gey 48 4837,48QA,4835",
+        "PBQR:10",
+        "PNYY:Purfg Cnva",
+        "NQQE:3420 F Evqre Gey",
+        "FEP:48",
+        "HAVG:4837,48QA,4835");
+
+    qbGrfg("G4",
+        "(PNQ Cntvat) Nynez Pbzzrepvny NG:11228 Ybar Rntyr Qe 48 4815,4824,4802,48QA",
+        "PNYY:Nynez Pbzzrepvny",
+        "NQQE:11228 Ybar Rntyr Qe",
+        "FEP:48",
+        "HAVG:4815,4824,4802,48QA");
+
+    qbGrfg("G5",
+        "(PNQ Cntvat) 30 Nppvqragny Vawhel DQ NG:11900 Fg Puneyrf Ebpx Eq 48 4817,48QA1",
+        "PBQR:30",
+        "PNYY:Nppvqragny Vawhel",
+        "NQQE:11900 Fg Puneyrf Ebpx Eq",
+        "FEP:48",
+        "HAVG:4817,48QA1");
+
+    qbGrfg("G6",
+        "(PNQ Cntvat) 17 Yvsg Nffvfg DQ NG:11311 Jvaqnyr Qe 48 4815,5217,48QA",
+        "PBQR:17",
+        "PNYY:Yvsg Nffvfg",
+        "NQQE:11311 Jvaqnyr Qe",
+        "FEP:48",
+        "HAVG:4815,5217,48QA");
+
+    qbGrfg("G7",
+        "(PNQ Cntvat) 31 Hapbafpvbhf DQ NG:11988 Znex Gjnva Ya 48 4824,4817,48QA1",
+        "PBQR:31",
+        "PNYY:Hapbafpvbhf",
+        "NQQE:11988 Znex Gjnva Ya",
+        "FEP:48",
+        "HAVG:4824,4817,48QA1");
+
+    qbGrfg("G8",
+        "(PNQ Cntvat) 21Q3 Qnatrebhf Urzbeeuntr NG:3233 Cnexjbbq Ya KFG:CNEXJBBQ PG/BYQ FG PUNEYRF EQ 44 4824,44QA1,44QA1,4417",
+        "PBQR:21Q3",
+        "PNYY:Qnatrebhf Urzbeeuntr",
+        "NQQE:3233 Cnexjbbq Ya",
+        "K:CNEXJBBQ PG/BYQ FG PUNEYRF EQ",
+        "FEP:44",
+        "HAVG:4824,44QA1,44QA1,4417");
+
+    qbGrfg("G9",
+        "(PNQ Cntvat) 06 Oernguvat Ceboyrzf DQ NG:12145 Oevqtrgba Fdhner Qe 48 4824,4817,48QA",
+        "PBQR:06",
+        "PNYY:Oernguvat Ceboyrzf",
+        "NQQE:12145 Oevqtrgba Fdhner Qe",  // Abg  znccvat
+        "FEP:48",
+        "HAVG:4824,4817,48QA");
+
+    qbGrfg("G10",
+        "(PNQ Cntvat) 17 Snyy DQ NG:11048 Znetngrunyy Qe 48 4817,48QA",
+        "PBQR:17",
+        "PNYY:Snyy",
+        "NQQE:11048 Znetngrunyy Qe",
+        "FEP:48",
+        "HAVG:4817,48QA");
+
+  }
+ 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj ZBFgYbhvfPbhaglPCnefreGrfg().trarengrGrfgf("G1");
   }

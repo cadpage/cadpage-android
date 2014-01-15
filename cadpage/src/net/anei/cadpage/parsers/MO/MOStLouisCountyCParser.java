@@ -16,7 +16,7 @@ public class MOStLouisCountyCParser extends FieldProgramParser {
 
   public MOStLouisCountyCParser() {
     super("ST LOUIS COUNTY", "MO", 
-        "CALL! AT:ADDR! BUS:PLACE? XST:X!");
+        "CALL! AT:ADDR! BUS:PLACE? XST:X");
   }
   
   @Override
