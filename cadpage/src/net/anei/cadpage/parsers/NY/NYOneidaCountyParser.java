@@ -135,71 +135,8 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
   
   @Override
   public String getProgram() {
-    return "CODE " + super.getProgram() + " INFO";
+    return "SRC CODE " + super.getProgram() + " INFO";
   }
-    
-  /*
-    // Break address field into stuff before, inside, and after two sets of parenthesis
-    Parser p = new Parser(sAddr);
-    String sPart1 = p.get('(');
-    String sPart2 = p.get(')');
-    String sPart3 = p.get('(');
-    String sPart4 = p.get(')');
-    String sPart5 = p.get();
-    
-    // If first part starts with @, it contains a place name
-    // and the second part is the address
-    if (sPart1.startsWith("@")) {
-      data.strPlace = sPart1.substring(1).trim();
-      parseAddress(sPart2, data);
-    }
-    
-    // Otherwise, first part is the address and city
-    else {
-      match = NY_PTN.matcher(sPart1);
-      if (match.find()) sPart1 = sPart1.substring(0, match.start()).trim();
-      int pt = sPart1.indexOf(',');
-      if (pt >= 0) {
-        data.strCity = sPart1.substring(pt+1).trim();
-        sPart1 = sPart1.substring(0,pt).trim();
-        pt = data.strCity.indexOf('/');
-        if (pt >= 0) {
-          data.strCross = data.strCity.substring(pt+1).trim();
-          data.strCity = data.strCity.substring(0,pt).trim();
-        }
-        parseAddress(sPart1, data);
-      } else {
-        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sPart1, data);
-      }
-      
-      // Second part is generally the cross street
-      // It may have a New: place name and may have leading or trailing slash
-      // or semicolon characters that need to be removed
-      pt = sPart2.indexOf("Near:");
-      if (pt >= 0) {
-        data.strSupp = sPart2.substring(pt);
-        sPart2 = sPart2.substring(0,pt).trim();
-      }
-      if (sPart2.startsWith("/")) sPart2 = sPart2.substring(1).trim();
-      if (sPart2.endsWith(";")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
-      if (sPart2.endsWith("/")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
-      data.strCross = append(data.strCross, " & ", sPart2);
-    }
-    
-    // If we get this far, part 3 contains a city if it starts with a comma
-    // otherwise it contains additional information, as does part 4
-    // With some safeguards against a truncated city name
-    if (sPart3.startsWith(",")) {
-      sPart3 = sPart3.substring(1).trim();
-      if (data.strCity.length() == 0) data.strCity = sPart3;
-      else data.strSupp = append(data.strSupp, " / ", sPart3);
-    }
-    data.strSupp = append(data.strSupp, " / ", sPart4);
-    data.strSupp = append(data.strSupp, " / ", sPart5);
-    
-    data.strCross = data.strCross.replace(",", " /").trim();
-    return true;
-  */
   
   /**
    * Expand a possibly abbreviated city

@@ -29,7 +29,7 @@ public class ALChiltonCountyParser extends DispatchSouthernParser {
   }
   @Override
   public String getFilter() {
-    return "dispatch@chiltoncounty.org";
+    return "dispatch@chiltoncounty.org,dispatch@dispatch.ccso911.net";
   }
   
   @Override
