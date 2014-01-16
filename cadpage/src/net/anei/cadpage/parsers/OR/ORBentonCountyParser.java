@@ -8,7 +8,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
   
   public ORBentonCountyParser() {
     super("BENTON COUNTY", "OR",
-          "INC:CALL! ADD:ADDR! APT:APT CITY:CITY! X:X MAP:MAP CFS:ID DIS:UNIT");
+          "INC:CALL! ADD:ADDR! APT:APT CITY:CITY! X:X MAP:MAP CFS:ID DIS:UNIT+");
   }
   
   @Override
@@ -46,9 +46,17 @@ public class ORBentonCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, ",", field);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
   
