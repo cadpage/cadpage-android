@@ -13,7 +13,7 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
   
   private static final Pattern UNIT_PTN = Pattern.compile("^([A-Z0-9]+) +\\(Primary\\);? *");
   private static final Pattern CITY_PTN = Pattern.compile("(.*?) *, *([A-Z ]+?) *, SD +\\d{5} *(.*?)");
-  private static final Pattern CODE_PTN1 = Pattern.compile(" +Code: *([-A-Z0-9]+): *");
+  private static final Pattern CODE_PTN1 = Pattern.compile(" *\\bCode: *([-A-Z0-9]+): *");
   private static final Pattern CODE_PTN2 = Pattern.compile("^Code: *([-A-Z0-9]+): *");
   
   public SDPenningtonCountyParser() {
@@ -56,14 +56,6 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
         }
       }
     }
-    if (callAddr == null) {
-      match = CODE_PTN1.matcher(body);
-      if (match.find()) {
-        data.strCode = match.group(1);
-        callAddr = body.substring(0,match.start());
-        body = body.substring(match.end());
-      }
-    }
     if (callAddr != null) {
       parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_NO_CITY | FLAG_ANCHOR_END, callAddr, data);
       if (data.strCode.length() == 0) {
@@ -77,7 +69,13 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
     } else {
       parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
       if (data.strAddress.length() == 0) return false;
-      data.strSupp = getLeft();
+      String info = getLeft();
+      match = CODE_PTN1.matcher(info);
+      if (match.find()) {
+        data.strCode = match.group(1);
+        info = append(info.substring(0,match.start()), " / ", info.substring(match.end()));
+      }
+      data.strSupp = info;
     }
     if (data.strCity.equals("PENNCO")) data.strCity = "";
     return true;
