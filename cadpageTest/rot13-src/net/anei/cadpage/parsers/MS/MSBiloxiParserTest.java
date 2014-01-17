@@ -614,7 +614,7 @@ choyvp pynff ZFOvybkvCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:F-2S",
         "QNGR:12/15/2013",
         "GVZR:12:27:08",
-        "NQQE:7285 jbbynzexrg eq",
+        "NQQE:7285 jbbynzexrg eq",  // JBBYZNEXRG EQ
         "HAVG:r7 naq r8");
 
     qbGrfg("G49",
@@ -653,7 +653,7 @@ choyvp pynff ZFOvybkvCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:F-72",
         "QNGR:12/14/2013",
         "GVZR:21:31:49",
-        "NQQE:270 PBIRARAG FDHNER",
+        "NQQE:270 PBIRARAG FDHNER",  // PBIRANAG FDHNER
         "NCG:21",
         "VASB:PBAIRARAG FDHNER NCNEGZRAGF 39 LBN SRZNYR UNIVAT FGBZNPUR CNVAF NAQ QVSSVPHYGL OERNGUVAT",
         "HAVG:R-5");

@@ -1,35 +1,11 @@
 package net.anei.cadpage.parsers.MS;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser.Result;
-import net.anei.cadpage.parsers.SmartAddressParser.StartType;
 import net.anei.cadpage.parsers.dispatch.DispatchA37Parser;
 
-import java.lang.reflect.Array;
 import java.util.regex.*;
 
 public class MSBiloxiParser extends DispatchA37Parser {
-  /*
-   * Ideally, these patterns should all be mutex and ordered from most to fewest matches.
-   * As it is, there is a competing heuristic with the more specific patterns going to the top
-   * to avoid having msgs subsumed in a more general pattern.
-   */
-  private static final Pattern[] MESSAGE_ADDRESS_PATTERN_LIST = {
-    Pattern.compile("^\\d{4} +(.*)\\/.*$"),
-    // 5
-    Pattern.compile("^.*RESP(?:ON(?:D(?:ING)?|SE))? +(?:TO +)?(.*?)(?: +FOR|\\s*\\/).*$"),
-    // 26
-    Pattern.compile("^(?:INC )?\\d{4} +(?:MEDICAL +EMER(?:GENCY)?|ILLEGAL +BURN) +(.*) +(?:[A-Z]+ +)?[A-Z]\\-?\\d{1,2} +(?:RESPONDING|ENROUTE) *$"),
-    // 7
-    Pattern.compile("\\d{2}\\-\\d{4} +(?:\\/|[A-Z]\\-?\\d{1,3} +RESP(?:ONDING)?(?: +TO)?) +(.*)$"),
-    // 7
-    Pattern.compile("^\\d{2}\\-\\d{6,7}\\s*(.*) +FOR.*$"),
-    // 5
-    Pattern.compile("^(?:INC +)?\\d{4} +(.*)"),
-    // 5
-    Pattern.compile("^.*STATION +(.*)\\-{4}.*$")
-    // 1
-  };
 
   public MSBiloxiParser() {
     super("BiloxiDispatch", "BILOXI", "MS");
