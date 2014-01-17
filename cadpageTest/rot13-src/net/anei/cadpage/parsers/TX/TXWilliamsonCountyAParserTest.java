@@ -133,7 +133,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:SLV: ;FN PVGVMRA NFFVFG;13100-2 A VU 35;WN",
         "PNYY:FN PVGVMRA NFFVFG",
         "NQQE:13100-2 A VU 35",
-        "ZNQQE:13100 A  35",
+        "ZNQQE:13100 A V 35",
         "HAVG:WN");
    
   }

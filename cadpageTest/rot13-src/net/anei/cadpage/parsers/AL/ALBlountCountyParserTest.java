@@ -1181,9 +1181,8 @@ choyvp pynff NYOybhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(GERR  >GERR QBJA) 1000 OYBPX PB UJL 45 Pnq: 2013-0000009033",
         "PBQR:GERR",
         "PNYY:GERR QBJA",
-        "NQQE:1000 OYBPX PB UJL",
-        "ZNQQE:1000 PB UJL",
-        "NCG:45",
+        "NQQE:1000 OYBPX PB UJL 45",
+        "ZNQQE:1000 PBHAGL EBNQ 45",
         "VQ:2013-0000009033");
 
     qbGrfg("G43",

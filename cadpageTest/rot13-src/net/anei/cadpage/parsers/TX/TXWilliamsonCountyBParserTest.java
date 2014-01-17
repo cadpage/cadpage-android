@@ -164,7 +164,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) PNAPRY;6932 A VU 35; TG  ;(F) (A)197T",
         "PNYY:PNAPRY",
         "NQQE:6932 A VU 35",
-        "ZNQQE:6932 A  35",
+        "ZNQQE:6932 A V 35",
         "PVGL:TRBETRGBJA",
         "ZNC:197T");
 
@@ -172,7 +172,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) SLV: ;FVPX CREFBA FCRP QVNTABFVF;6932 A VU 35;TG;(F) (A)197T;WNSQ1",
         "PNYY:FVPX CREFBA FCRP QVNTABFVF",
         "NQQE:6932 A VU 35",
-        "ZNQQE:6932 A  35",
+        "ZNQQE:6932 A V 35",
         "PVGL:TRBETRGBJA",
         "ZNC:197T",
         "HAVG:WNSQ1");
@@ -181,7 +181,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) FVPX CREFBA FCRP QVNTABFVF;6932 A VU 35;TG;(F) (A)197T",
         "PNYY:FVPX CREFBA FCRP QVNTABFVF",
         "NQQE:6932 A VU 35",
-        "ZNQQE:6932 A  35",
+        "ZNQQE:6932 A V 35",
         "PVGL:TRBETRGBJA",
         "ZNC:197T");
 
@@ -231,7 +231,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) SLV: ;PURFG CNVAF ABA GENHZNGVP;9111 A VU 35;WN;(F) (A)3W",
         "PNYY:PURFG CNVAF ABA GENHZNGVP",
         "NQQE:9111 A VU 35",
-        "ZNQQE:9111 A  35",
+        "ZNQQE:9111 A V 35",
         "PVGL:WNEERYY",
         "ZNC:3W");
 
@@ -239,7 +239,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) SLV: ;GENSSVP NPPVQRAG JVGU VAWHEL;11060 A VU 35 SJL;WN;(F) (A)3W",
         "PNYY:GENSSVP NPPVQRAG JVGU VAWHEL",
         "NQQE:11060 A VU 35 SJL",
-        "ZNQQE:11060 A  35 SJL",
+        "ZNQQE:11060 A V 35 SJL",
         "PVGL:WNEERYY",
         "ZNC:3W");
 
@@ -262,7 +262,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) SLV: ;GENSSVP NPPVQRAG JVGU VAWHEL;11404 A VU 35 SJL;WN;(F) (A)3W",
         "PNYY:GENSSVP NPPVQRAG JVGU VAWHEL",
         "NQQE:11404 A VU 35 SJL",
-        "ZNQQE:11404 A  35 SJL",
+        "ZNQQE:11404 A V 35 SJL",
         "PVGL:WNEERYY",
         "ZNC:3W");
 
@@ -270,7 +270,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) SLV: ;GENSSVP NPPVQRAG JVGU VAWHEL;12294 A VU 35 SJL;WN;(F) (A)105G",
         "PNYY:GENSSVP NPPVQRAG JVGU VAWHEL",
         "NQQE:12294 A VU 35 SJL",
-        "ZNQQE:12294 A  35 SJL",
+        "ZNQQE:12294 A V 35 SJL",
         "PVGL:WNEERYY",
         "ZNC:105G");
 
@@ -278,7 +278,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) SLV: ;GENSSVP NPPVQRAG JVGU VAWHEL;9108 A VU 35;WN;(F) (A)3W",
         "PNYY:GENSSVP NPPVQRAG JVGU VAWHEL",
         "NQQE:9108 A VU 35",
-        "ZNQQE:9108 A  35",
+        "ZNQQE:9108 A V 35",
         "PVGL:WNEERYY",
         "ZNC:3W");
 
@@ -286,7 +286,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) SLV: ;TN ZHGHNY NVQ;12399 A VU 35/J SZ 487;WN;(F) (A)105G;WNOG1",
         "PNYY:TN ZHGHNY NVQ",
         "NQQE:12399 A VU 35 & J SZ 487",
-        "ZNQQE:12399 A  35", //guvf vf pyrnevat cnffvat guebhtu pyrne
+        "ZNQQE:12399 A V 35", //guvf vf pyrnevat cnffvat guebhtu pyrne
         "PVGL:WNEERYY",
         "ZNC:105G",
         "HAVG:WNOG1");
@@ -326,7 +326,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) PNAPRY;11710 A VU 35; WN  ;(F)FBAGREEN (A)105K",
         "PNYY:PNAPRY",
         "NQQE:11710 A VU 35",
-        "ZNQQE:11710 A  35",
+        "ZNQQE:11710 A V 35",
         "PVGL:WNEERYY",
         "CYNPR:FBAGREEN",
         "ZNC:105K");
@@ -335,7 +335,7 @@ choyvp pynff GKJvyyvnzfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Zrffntr Sbejneqrq ol CntrTngr) SLV: ;GENSSVP NPPVQRAG JVGU VAWHEL;11710 A VU 35;WN;(F)FBAGREEN (A)105K",
         "PNYY:GENSSVP NPPVQRAG JVGU VAWHEL",
         "NQQE:11710 A VU 35",
-        "ZNQQE:11710 A  35",
+        "ZNQQE:11710 A V 35",
         "PVGL:WNEERYY",
         "CYNPR:FBAGREEN",
         "ZNC:105K");

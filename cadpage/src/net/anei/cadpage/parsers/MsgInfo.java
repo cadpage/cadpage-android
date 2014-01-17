@@ -667,15 +667,11 @@ public class MsgInfo {
   }
   
   // Clean up some Interstate conventions
-  private static final Pattern INA_PATTERN = Pattern.compile("\\bIH?-?(\\d+)[NSEW]?\\b");
+  private static final Pattern INA_PATTERN = Pattern.compile("\\bIH?[- ]?(\\d+)[NSEW]?\\b");
   private static final Pattern FRONTAGE_PTN = Pattern.compile("\\b(?:[NSEW]B)?FR\\b");
   private static final Pattern IH_PTN = Pattern.compile("\\bIH\\b");
   private String cleanInterstate(String sAddr) {
     sAddr = INA_PATTERN.matcher(sAddr).replaceAll("I $1");
-    Matcher match = INA_PATTERN.matcher(sAddr);
-    if (match.find()) {
-      sAddr = sAddr.substring(0,match.start(1)) + sAddr.substring(match.end());
-    }
     sAddr = FRONTAGE_PTN.matcher(sAddr).replaceAll("FRONTAGE RD");
     sAddr = IH_PTN.matcher(sAddr).replaceAll("");
     return sAddr;

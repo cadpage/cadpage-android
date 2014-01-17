@@ -52,6 +52,8 @@ Npgvir911 gvpxrgf
 2013041810000489  BUFhzzvgPbhaglP jbexf
 2013062410001687  BUPhlnubtnPbhaglO qbar
 2013072510000513  BUPhlnubtnPbhaglP qbar
+2013093010000652  ZFOvybykv qbar
+2012101110000339  GKXraqnyyPbhagl qbar
 *******************************************************************************
 Revr Pbhagl (O), AL
 OAA Nyregf
@@ -7518,54 +7520,6 @@ EhaGvzrf:\aHavg        Fgnghf    Gvzr\a-----------------------------------------
 ************  BHGFBHEPRQ *********************************
 **********************************************************
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-2013093010000652 (Cngevpx)
-Uneevfba Pbhagl, ZF
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Ovybkv Sver Qrcnegzrag
-Ybpngvba: Ovybkv, ZF, Havgrq Fgngrf
-Fraqre: <OvybkvQvfcngpu@ovybkv.zf.hf>
-
-OvybkvQvfcngpu:Pnyy# 13-0135074 -SVER F-36- 12/19/2013 00:32:41 Ybpngvba: 13154 WVZ OLEQ EQ
-OvybkvQvfcngpu:Pnyy # 13-0135028 -ZRQVPNY RZRETRAPL F-72- 12/18/2013 23:01:13 Zrffntr: 13-0007159 ONLIVRJ NI @ V-110 SBE FHOWRPG UNIVAT PURFG CNVA
-OvybkvQvfcngpu:Pnyy # 13-013497612/18/2013 20:02:00 Zrffntr: VAP 7158 ZRQVPNY RZRE 301 URVQRAURVZ FRVMHERF R-3 ERFCBAQVAT
-OvybkvQvfcngpu:Pnyy # 13-013490912/18/2013 17:48:37 Zrffntr: VAP 7156 ZRQVPNY RZRE 274 OYRHRE QE CBFF URNEG NGGNPX R-4 ERFCBAQVAT
-OvybkvQvfcngpu:Pnyy# 13-0134906 -NYNEZ SVER F-2S- 12/18/2013 17:28:24 Ybpngvba: 777 ORNPU OY-UNEQ EBPX PNFVAB 276-7061
-OvybkvQvfcngpu:Pnyy # 13-013489412/18/2013 16:09:58 Zrffntr: VAP 7154 ZRQVPNY RZRE 280 EBQRAORET CBFF FRVMHERF R-4 ERFCBAQVAT
-OvybkvQvfcngpu:Pnyy# 13-0134865 -SVER F-36- 12/18/2013 13:54:14 Ybpngvba: 200 OYBPX BS RYZVEN QE
-OvybkvQvfcngpu:Pnyy# 13-0134865 -SVER F-36- 12/18/2013 13:54:14 Ybpngvba: 200 OYBPX BS RYZZVEN
-OvybkvQvfcngpu:Pnyy # 13-0134861 -ZRQVPNY RZRETRAPL F-72- 12/18/2013 13:38:45 Zrffntr: R-5 ERFCBAQVAT GB 2387 PNEGRE EQ SBE N ZRQVPNY VAPVQRAG 7152
-OvybkvQvfcngpu:Pnyy # 13-0134853 -ZRQVPNY RZRETRAPL F-72- 12/18/2013 12:37:17 Zrffntr: R-7 ERFCBAQVAT GB ORYZBAG TNEQRAF 871 ZBGFVR EQ NCG 150 SBE N ZRQVPNY VAPVQRAG 7151
-OvybkvQvfcngpu:Pnyy # 13-0134848 -ZRQVPNY RZRETRAPL F-72- 12/18/2013 12:16:12 Zrffntr: FGNGVBA 2 UNF N ZRQVPNY NG GURVE FGNGVBA 247 UBJNEQ NI----SRZNYR JVGU PURFG CNVAF----VAPVQRAG 7150
-OvybkvQvfcngpu:Pnyy # 13-0134847 -ZRQVPNY RZRETRAPL F-72- 12/18/2013 11:56:44 Zrffntr: R-1 ERFCBAQVAT GB GUR OBBXVAT EBBZ 170 CBEGRE NI SBE N ZRQVPNY VAPVQRAG 7149
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-2012101110000339 (Cngevpx)
-Xraqnyy Pbhagl, GK
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Jnevat ISQ
-Ybpngvba: Jnevat, GK, Havgrq Fgngrf
-Fraqre: Wbr Cnbyvyyv <wbrc@tigp.pbz>
-
-ObrearQvfcngpu:-SVER- 12/17/2013 13:32:11 Zrffntr: 124 BYQ FNA NAGBAVB EBNQ GRFG CNTR BAYL. QRCNEGZRAG URNQ CYRNFR PNYY QVFCNGPU NAQ YRG ZR XABJ LBH ERPRVIRQ GUVF.
-ObrearQvfcngpu:Pnyy # 1341111 -NZOHYNAPR PNYY- 12/10/2013 17:29:33 Zrffntr: 134 EVIRE ORAQ EBNQ JNEVAT GK 78074 CRE ZRQVP 2 *** PNAPRY***
-ObrearQvfcngpu:Pnyy # 1341111 -NZOHYNAPR PNYY- 12/10/2013 17:18:18 Zrffntr: 134 EVIRE ORAQ EQ. JNEVAT GK 78074 PBZSBEG RZF: 61 LB SRZNYR CBFF UNIVAT N FGEBXR YRSG FVQRQ AHZOARFF NAQ N UK BS FGEBXR. NYREG OERNGUVAT NAQ PBAFPVBHF
-ObrearQvfcngpu:Pnyy # 1341092 -SVER- 12/10/2013 14:52:11 Zrffntr: 105 EVQTR IVRJ E. OBREAR GK 78006 OBREAR SVER ERD NFFVFGNAPR SBE N FGEHPGHER SVER. OBREAR ERD GRAQREF
-ObrearQvfcngpu:Pnyy # 1339606 -SVER- 11/26/2013 21:44:00 Zrffntr: 32 BNX GENVY JNEVAT GK 78074 SVER NYNEZ JNF PNAPRYRQ
-ObrearQvfcngpu:Pnyy # 1339606 -NYNEZ (SVER)- 11/26/2013 21:41:18 Zrffntr: 32 BNX GENVY JNEVAT GRKNF 78074 SVER NYNEZ HAX YBPNGVBA
-ObrearQvfcngpu:Pnyy # 1339590 -SVER- 11/26/2013 18:01:37 Zrffntr: 834 JNEVAT-JRYSNER EQ 74 LBZ SRYY BHGFVQR NAQ ARRQF NFFVFGNAPR TRGGVAT HC VF ERSHFVAT RZF
-ObrearQvfcngpu:Pnyy # 1338912 -NZOHYNAPR PNYY- 11/19/2013 18:24:46 Zrffntr: 149 JNEVAT EBNQ JNEVAT GRKNF 78074 2 LBZ CBFFVOYL UNIVAT N FRVMHER
-ObrearQvfcngpu:-SVER- 11/18/2013 17:57:11 Zrffntr: 3 JNEVAT EBNQ JNEVAT GK 78006 ******GENVAVAT******* ERZVAQRE BS GENVAVAT GBAVTUG 1830UE
-ObrearQvfcngpu:Pnyy # 1338541 -NZOHYNAPR PNYY- 11/16/2013 11:42:36 Zrffntr: 100 OYBPX PENIRL EBNQ JNEVAT GK 25-30 LB ZNYR CNFFRQ BHG VA IRU. OERNGUVAT ABG ERFCBAQVAT.
-ObrearQvfcngpu:Pnyy # 1337381 -NZOHYNAPR PNYY- 11/7/2013 02:26:45 Zrffntr: 213 O JNEVAT-JRYSNER EBNQ JNEVAT GRKNF 78074 62 LBZ QVSSVPHYGL OERNGUVAT
-ObrearQvfcngpu:Pnyy # 1337321 -SVER- 11/6/2013 14:56:26 Zrffntr: 300 OYX JNEVAT-JRYSNER EQ PNAPRY CRE PUVRS 80 PBAGEBY OHEA SBHAQ NG 319 JNEVAT-JRYSNER EQ
-ObrearQvfcngpu:Pnyy # 1337321 -SVER- 11/6/2013 14:47:00 Zrffntr: 301 JNEVAT-JNEVAT EBNQ JNEVAT GK N YBG BS FZBXR VA GUR NERN CBFFVOYL PBZVAT SEBZ JNEVAT-JRYSNER EQ BE FBHGUREA BNXF
-ObrearQvfcngpu:Pnyy # 1336743 -SVER- 11/1/2013 17:39:36 Zrffntr: 100 OYX URVA EQ QRCHGVRF ERDHRFG JNGRE BE TNGBENQR GB YBP SBE QRCHGVRF GUNG UNIR ORRA BHG YBBXVAT SBE N FHOWRPG
-**********************************************************
 2012120510000169 (Yrvtu)
 Zbargg, ZB
 
@@ -7600,8 +7554,6 @@ PNQ:SLV: ;FGEHPGHER SVER;9825 ZPZNUBA PG/ZPZNUBA YA;ZVFF;PBZC NQI GUNG FUR FNJ F
 PNQ:PNAPRY;1501 NQNZF FG; ZVFF
 PNQ:Hcqngr: ;FGEHPGHER SVER;1501 NQNZF FG;ZVFF;PBZCY NQI VF BA SVER [01/11/14 19:50
 PNQ:Hcqngr: ;FGEHPGHER SVER;1599 NQNZF FG/GRKNF CXJL;ZVFF;SVER [01/11/14 19:48:36 E
-**********************************************************
-**********************************************************
 **********************************************************
 2013102310000681 (Cngevpx)
 Cnex Pbhagl, ZG
@@ -7657,6 +7609,13 @@ Fraqre: <911_OSQ@fwprf.arg>
 (911_OSQ) 14-18 01042014 23:29:07 RZF S 309 A 3EQ FG OYBBZSVRYQ GENVYRE C FC 7// ZBGURE GBBX CVYYF :   NCI PNVEAFW 23:25:33 ZBGURE VF VA GUR ONGUEBBZ PNVEAFW 23:25:42 [Puvrs Pbzcynvag Grkg]Cflpuvngevp / Noabezny Orunivbe / Fhvpv23:25:52c vqr Nggrzcg 23:25:52 39-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. 23:25:52 CBFF GBBX N CNVA ERYVRIRE PNVEAFW 23:27:08 Abg ivbyrag. 23:27:58 Ab jca. 23:27:58 Cg vafvqr fnzr fgehpgher. 23:27:58 Nggrzcg fhvpvqr ol BQ. 23:27:58 Vagragvbany. 23:27:58 Abg ivbyrag. 23:27:58 Abg punatvat pbybe. 23:27:58 Abg pbzcyrgryl nyreg. 23:27:58 Oernguvat ayyl. 23:27:58 Hax fhofgnapr gnxra. 23:27:58 Gnxra abj (< 30 zva ntb). 23:27:58 [CebDN Pnfr#]201400000018OS 23:27:58 [Puvrs Pbzcynvag Grkg]Bireqbfr / Cbvfbavat (Vatrfgvba) 23:27:58 [Erfcbafr Grkg]Qrygn 23:27:58 [Qvfcngpu Yriry]23P01 23:27:58 [Qrgrezvanag Grkg]Abg nyreg 23:27:58 [Fhssvk Pbqr]V 23:27:58 [Fhssvk Grkg]Vagragvbany 23:27:58
 (911_OSQ) 14-17 01042014 21:51:17 RZF S 2100 R OYNAPB OY 34 RAPUNAGZRAG IVYYNTR NCI//EC VF PNYYVAT SEBZ 2500 FNAQBINY YA// : ERFQ:  ECF QNHTUGRE PNYYRQ GUR EC NAQ FNVQ GUNG QBHTYNFP 21:50:31 FBZRGUVAT UNCCRARQ NG GUR ERFQ 55 NAQ CQ JNF QBHTYNFP 21:50:39 ARRQRQ GURER JNF OYBBQ HAX BA FVGHNGVBA QBHTYNFP 21:50:44 QNHTUGRE VF WBEQNA QBHTYNFP 21:51:07 JVYY OR VA N OYX IVOR BHGFVQR BS GUR ERFQ QBHTYNFP 21:51:15
 (911_OSQ) 14-16 01042014 21:35:41 RZF S 803 UNPVRAQN YA OYBBZSVRYQ AHEFVAT ZNYR / UVTU GRZC  CBFF UNF N HEVANEL GENPG VASRPGVBA QHEUNZX 21:34:23 ABG J/ CG QHEUNZX 21:34:34 VF NJNXR / VF OERNGUVAT QHEUNZX 21:34:39 67 LBZ QHEUNZX 21:34:41 PBZC NYREG QHEUNZX 21:34:48 OERNGUVAT ABEZNY QHEUNZX 21:34:55 AB CNVA QHEUNZX 21:34:57 AB OYRRQVAT/IBZVGGVAT OYBBQ QHEUNZX 21:35:06 EBBZ 207 QHEUNZX 21:35:14 GHEA EVTUG NG ZNVA QBBEF QHEUNZX 21:35:18
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************

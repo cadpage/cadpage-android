@@ -157,6 +157,12 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_NO_STREET_SFX = 0x200000;
   
+  /**
+   * Flag indicating that the word "AND" should not be considered as
+   * connecting two street names at an intersection
+   */
+  public static final int FLAG_AND_NOT_CONNECTOR = 0x400000;
+  
   public static final int STATUS_TRIVIAL = 4;
   public static final int STATUS_FULL_ADDRESS = 3;
   public static final int STATUS_INTERSECTION = 2;
@@ -250,6 +256,10 @@ public abstract class SmartAddressParser extends MsgParser {
   
   private static final int ID_BYPASS = 0x10000000;
   
+  private static final int ID_BLOCK = 0x20000000;
+  
+  private static final int ID_AND_CONNECTOR = 0x40000000;
+  
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
   // List of multiple word cities
@@ -341,7 +351,8 @@ public abstract class SmartAddressParser extends MsgParser {
         "HT", "HTS", "HEIGHTS",
         "BND", "BEND",
         "CV",
-        "THOROUGHFARE");
+        "THOROUGHFARE",
+        "KNOLL");
     if ((getMapFlags() & MAP_FLG_SUPPR_LA) == 0)  setupDictionary(ID_ROAD_SFX, "LA");
     
     setupDictionary(ID_BYPASS, "BYPASS", "BYP", "BUSINESS", "BUS", "ALT");
@@ -351,7 +362,8 @@ public abstract class SmartAddressParser extends MsgParser {
         "RUN", "LANE", "PARK", "POINT", "RIDGE", "CREEK", "MILL", "BRIDGE", "HILLS",
         "HILL", "TRACE", "STREET", "MILE", "BAY", "NOTCH", "END", "LOOP", "ESTATES",
         "SQUARE", "WALK", "CIRCLE", "GROVE", "HT", "HTS", "HEIGHTS", "BEND", "VALLEY",
-        "WAY", "GATEWAY");
+        "WAY", "GATEWAY", "KNOLL");
+    
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
         "AVENUE", "AV", "AVE", 
@@ -363,12 +375,13 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_ROAD_QUALIFIER, "OLD");
         
     setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "ROUTE", "HW", "HY", "HWY", "HIGHWAY", "ROAD", "RD");
-    setupDictionary(ID_ROUTE_PFX_PFX, "STATE", "ST", "SR", "SRT", "US", "FS", "INTERSTATE", "I", "STHWY", "STHY", "SH", "USHWY", "USHY", "CO", "CR", "CORD", "COUNTY", "CTY", "FM");
+    setupDictionary(ID_ROUTE_PFX_PFX, "STATE", "ST", "SR", "SRT", "US", "FS", "INTERSTATE", "I", "IH", "STHWY", "STHY", "SH", "USHWY", "USHY", "CO", "CR", "CORD", "COUNTY", "CTY", "FM");
     setupDictionary(ID_ROUTE_PFX_PFX, new String[]{defState});
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB", "EXT", 
                                   "NORTHBOUND", "EASTBOUND", "SOUTHBOUND", "WESTBOUND");
     setupDictionary(ID_OPT_ROAD_PFX, "OLD", "NEW", "UPPER", "LOWER");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
+    setupDictionary(ID_AND_CONNECTOR, "AND");
     setupDictionary(ID_AT_MARKER, "@", "AT");
     
     setupDictionary(ID_CROSS_STREET, "XS:", "X:", "C/S:", "C/S");
@@ -377,6 +390,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_STREET_NAME_PREFIX, "LAKE", "MT", "MOUNT", "SUNKEN");
     setupDictionary(ID_NOT_ADDRESS, "YOM", "YOF", "YO");
     setupDictionary(ID_SINGLE_WORD_ROAD, "TURNPIKE");
+    setupDictionary(ID_BLOCK, "BLK","BLOCK");
     
     // Set up special cross street names
     addCrossStreetNames(
@@ -939,7 +953,7 @@ public abstract class SmartAddressParser extends MsgParser {
         
         if (sAddr >= tokens.length) return false;
         if (isType(sAddr, ID_CROSS_STREET)) return false;
-        if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_CONNECTOR | ID_AT_MARKER | ID_INCL_AT_MARKER)) {
+        if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_AT_MARKER | ID_INCL_AT_MARKER) && !isConnector(sAddr+1)) {
           if (sAddr == 0 || ! isType(sAddr-1, ID_RELATION)) {
             if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX) && 
                 !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
@@ -1014,7 +1028,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // Special case - simple address can have intersection marker followed by
     // cross stream info
-    if (isType(sEnd, ID_CONNECTOR)) {
+    if (isConnector(sEnd)) {
       findCrossStreetEnd(sEnd + 1, result);
     }
     
@@ -1069,7 +1083,7 @@ public abstract class SmartAddressParser extends MsgParser {
           if (ndx < 0) return false;
           break;
         }
-        if (ndx-start >= 1 && isType(ndx, ID_CONNECTOR)) {
+        if (ndx-start >= 1 && isConnector(ndx)) {
           sAddr = ndx-1;
           
           // If cross street search, check for special cross street name
@@ -1197,7 +1211,7 @@ public abstract class SmartAddressParser extends MsgParser {
     if (ndx < 0) return -1;
     
     //  Is this followed by a connector?
-    if (! isType(ndx, ID_CONNECTOR)) return -1;
+    if (! isConnector(ndx)) return -1;
     return ndx;
   }
 
@@ -1265,7 +1279,7 @@ public abstract class SmartAddressParser extends MsgParser {
           break;
         }
         
-        if (isType(ndx, ID_ROAD_SFX) && !isType(sAddr, ID_NOT_ADDRESS | ID_CONNECTOR)) {
+        if (isType(ndx, ID_ROAD_SFX) && !isType(sAddr, ID_NOT_ADDRESS) && !isConnector(sAddr)) {
           boolean startHwy = 
               (isType(ndx, ID_ROUTE_PFX) && isType(ndx+1, ID_NUMBER)) ||
               (isType(ndx, ID_ROUTE_PFX_PFX) && isType(ndx+1, ID_ROUTE_PFX_EXT) && isType(ndx+2, ID_NUMBER)) ||
@@ -1318,7 +1332,7 @@ public abstract class SmartAddressParser extends MsgParser {
         
         // Otherwise, see if this is a two part route name
         if (sAddr == save) {
-          while (sAddr > start && !isType(sAddr-1, ID_NOT_ADDRESS | ID_CONNECTOR) && 
+          while (sAddr > start && !isType(sAddr-1, ID_NOT_ADDRESS) && !isConnector(sAddr-1) && 
               (isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX) ||
                isAmbigRoadSuffix(sAddr))) {
             sAddr--;
@@ -1523,7 +1537,8 @@ public abstract class SmartAddressParser extends MsgParser {
       int ndx = sAddr - j;
       if (ndx < start) break;
       if (tokens[ndx].equals("/")) break;
-      if (isType(ndx, ID_NOT_ADDRESS | ID_CONNECTOR)) break;
+      if (isType(ndx, ID_NOT_ADDRESS)) break;
+      if (isConnector(ndx)) break;
       if (isType(ndx, ID_DIRECTION)) return sAddr-j; 
     }
     
@@ -1870,7 +1885,7 @@ public abstract class SmartAddressParser extends MsgParser {
       
       // If this road was terminated by a connector
       // Loop back and see if we can find another cross street
-      if (!isType(sEnd, ID_CONNECTOR)) break;
+      if (!isConnector(sEnd)) break;
       ndx++;
     }
     
@@ -1891,6 +1906,9 @@ public abstract class SmartAddressParser extends MsgParser {
    * @return index of token past end of road name if successful, -1 otherwise
    */
   private int findRoadEnd(int start, int option) {
+    
+    // Skip over BLOCK indicator
+    if (isType(start, ID_BLOCK)) start++;
     
     // If this starts with a street direction, skip over it
     if (isType(start, ID_DIRECTION)) start++;
@@ -1916,6 +1934,7 @@ public abstract class SmartAddressParser extends MsgParser {
         mWordIndex = mWordStreetsFwd.findEndSequence(origStart);
         if (mWordIndex > origStart+1) {
           if (isType(mWordIndex, ID_ROAD_SFX)) {
+            if (isType(mWordIndex, ID_AMBIG_ROAD_SFX) && isType(mWordIndex+1, ID_ROAD_SFX)) mWordIndex++;
             end = mWordIndex+1;
             break;
           }
@@ -1938,7 +1957,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // default value assuming this is a suffixless street name.  If not, the failure return
       // is always -1;
       if (failIndex < 0 && option > 1 && isFlagSet(FLAG_OPT_STREET_SFX|FLAG_NO_STREET_SFX)) {
-        if (isType(start, ID_NOT_ADDRESS | ID_CONNECTOR)) return -1;
+        if (isType(start, ID_NOT_ADDRESS) || isConnector(start)) return -1;
         if (mWordIndex >= 0) {
           failIndex = mWordIndex;
         } else {
@@ -1947,7 +1966,7 @@ public abstract class SmartAddressParser extends MsgParser {
         if (option < 2 && failIndex - start < 2) failIndex = -1;
       }
       
-      if (isType(start, ID_NOT_ADDRESS | ID_CONNECTOR)) return failIndex;
+      if (isType(start, ID_NOT_ADDRESS) || isConnector(start)) return failIndex;
       
       // A stand alone road token can terminate the road search, but it must
       // be the first thing in the search sequence
@@ -1982,7 +2001,7 @@ public abstract class SmartAddressParser extends MsgParser {
       
       // OK, OK, if we find a number followed by a connector, we will consider
       // it a numbered highway (sheesh)
-      if (isType(start, ID_NUMBER) && isType(start+1, ID_CONNECTOR)) return start+1;
+      if (isType(start, ID_NUMBER) && isConnector(start+1)) return start+1;
       
       // Still no luck,
       // If we are deliberately ignoring street suffixes, take what we have so far
@@ -2000,7 +2019,7 @@ public abstract class SmartAddressParser extends MsgParser {
       while (++end - start <= 3) {
         
         // An intersection marker marks the end of things
-        if (isType(end, ID_CONNECTOR)) return failIndex;
+        if (isConnector(end)) return failIndex;
 
         // See if this is a normal road suffix
         // Skip if it an ambiguous road suffix and a real road suffix follows it
@@ -2028,7 +2047,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // If road is followed by a direction and that direction can not be part of
     // a following cross street, include it
     if (isType(end, ID_DIRECTION)) {
-      if (!isFlagSet(FLAG_CROSS_FOLLOWS) || end+1 == tokens.length || isComma(end+1) || isType(end+1, ID_CONNECTOR)) end++;
+      if (!isFlagSet(FLAG_CROSS_FOLLOWS) || end+1 == tokens.length || isComma(end+1) || isConnector(end+1)) end++;
     }
     return end;
   }
@@ -2212,6 +2231,12 @@ public abstract class SmartAddressParser extends MsgParser {
   private boolean isComma(int ndx) {
     if (ndx >= tokens.length) return false;
     return tokens[ndx].equals(",");
+  }
+  
+  private boolean isConnector(int ndx) {
+    if (!isType(ndx, ID_CONNECTOR)) return false;
+    if (isFlagSet(FLAG_AND_NOT_CONNECTOR) && isType(ndx, ID_AND_CONNECTOR)) return false;
+    return true;
   }
   
   private boolean isType(int ndx, int mask) {

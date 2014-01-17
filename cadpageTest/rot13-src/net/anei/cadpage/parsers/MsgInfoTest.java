@@ -61,7 +61,7 @@ choyvp pynff ZftVasbGrfg {
     
     qbZncGrfg("GKAnffnhOnl", "KK 3 & ZNTABYVN NIR,XRAOHET,KK", "FU 3 UJL & ZNTABYVN NIR");
     
-    qbZncGrfg("GKAnffnhOnl", "20233  45 SJL,XRAOHET,KK", "20233 VU 45 SJL");
+    qbZncGrfg("GKAnffnhOnl", "20233 V 45 SJL,XRAOHET,KK", "20233 VU 45 SJL");
     
     qbZncGrfg("ZBWrssrefbaPbhagl", "BYQ ZBEFR ZVYY EQ & FGNGR RR,XRAOHET,KK", 
                                    "BYQ ZBEFR ZVYY EQ & FGNGR EQ RR");

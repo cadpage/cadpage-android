@@ -664,7 +664,7 @@ choyvp pynff GKPbyyvaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "1 bs 3 SEZ:vpf.tngrjnl@jlyvrgrknf.tbi FHOW:Zrffntr Sebz Jlyvr ZFT:12030462 VAIRFGVTNGVBA-HAXABJA FVG. 2203 VU30 VA SNGR 71 RNFGOBHAQ (Pba'g) 2 bs 3 VU30} SZ 549 / INHTUA QE [SNSQ TEVQ: S125] HAVGF: SNGRSQ FG EZX: <ABAR> PSF EZX 20:05 FZBXR VA GUR NERN BA RO FVQR {JLCPPBZ05 (Pba'g) 3 bs 3 20:05}(Raq)",
         "VQ:12030462",
         "PNYY:VAIRFGVTNGVBA-HAXABJA FVG.",
-        "NQQE:2203 VU30",
+        "NQQE:2203 VU-30",
         "ZNQQE:2203 V 30",
         "PVGL:SNGR",
         "K:71 RNFGOBHAQ VU30} SZ 549 / INHTUA QE",
