@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class OHCuyahogaCountyParser extends GroupBestParser {
   
   public OHCuyahogaCountyParser() {
-    super(new OHCuyahogaCountyAParser(), new OHCuyahogaCountyBParser());
+    super(new OHCuyahogaCountyAParser(), new OHCuyahogaCountyBParser(), new OHCuyahogaCountyCParser());
   }
   
   static final Properties CITY_CODES = buildCodeTable(new String[]{

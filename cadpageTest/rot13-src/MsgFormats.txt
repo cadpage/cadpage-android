@@ -3783,6 +3783,11 @@ Phlnubtn Pbhagl, BU (O) (BUPhlnubtnPbhaglOCnefre)
 (Qvfcngpu Nyreg: PQ-14-000817) PQ-14-000817\aS11 SVER VA OHVYQVAT\a4521  SEHVGYNAQ QE\a\aCNEZN BU \aNtrapvrf nffvtarq:
 (Qvfcngpu Nyreg: PQ-14-000815) PQ-14-000815\aS32 ZRQVPNY RZRETRAPL\a7231  YNAPRYBG QE\a\aCNEZN BU \aNtrapvrf nffvtarq:
 ***************************************************************************
+Phlnubtn Pbhagl, BU (P) (BUPhlnubtnPbhaglPCnefre) 
+(Sebz: VaqrcraqraprQZF) 700-SVER NYNEZ QEBC,7100 R CYRNFNAG INYYRL EQ 0,VAQ PBECBENGR PRAGRE,VAQRCRAQRAPR,FHVGR YY4,
+(Sebz: VaqrcraqraprQZF) 300-RZF,6929 ABEGU ERAJBBQ EQ,VAQRCRAQRAPR,68 L/Z QRGBKVAT NYPBUBY, ARRQF GB OR GENAFCBEGRQ GB YHGURENA,
+(Sebz: VaqrcraqraprQZF) 700-SVER NYNEZ QEBC,6200 DHNEEL YA 0,QBHOYR GERR UBGRY,VAQRCRAQRAPR,PBZVAT SEBZ GUR CHZC EBBZ,
+***************************************************************************
 Ratyrjbbq, BU (BURatyrjbbqCnefre)
 PNQ@ratyrjbbq.bu.hf\aFHOW:<Ab Fhowrpg>\aZFT:\a622 RR98 RZ98 BC72:12:31:00-53O:R53:2 IRU NPP HAX VAW:@9200 A ZNVA FG,QNLGBA:SQP FBHGU JNYY\a\aPNQ@ratyrjbbq.bu.hf\aFHOW:<Ab Fhowrpg>\aZFT:\a630 632 RZ98:16:10:00-45:R45:ZRQVP/FHVPVQNY FHOWRPG:@9000 A ZNVA FG HAVG 300,QNLGBA: 
 PNQ@ratyrjbbq.bu.hf\aFHOW:<Ab Fhowrpg>\aZFT:\a622 RR98 RZ98 BC72:12:31:00-53O:R53:2 IRU NPP HAX VAW:@9200 A ZNVA FG,QNLGBA:SQP FBHGU JNYY 
