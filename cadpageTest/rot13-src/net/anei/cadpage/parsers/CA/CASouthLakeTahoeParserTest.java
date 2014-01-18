@@ -42,7 +42,6 @@ Fraqre: Fbhgu Ynxr Gnubr CQ <qvfcngpure@pvglbsfyg.hf>
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng PNEFBA CNFF/Ybpngvba abg zngpurq va trb svyr/ol YJNGFBA
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng  XVEXJBBQ XVEXJBBQ/ol YJNGFBA
 (Nyyvnapr Zrffntr) Rirag Abgvpr: GENAFSRE ng 2170 Fbhgu Ni F Ynxr Gnubr /3eq Fg & 4gu Fg/ol ZQHOR
-(Nyyvnapr Zrffntr) Rirag Abgvpr: GENAFSRE ng 2170 Fbhgu Ni F Ynxr Gnubr /3eq Fg & 4gu Fg/ol ZQHOR
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng Gnyynp Ni,  Ynxr Gnubr Oy F Ynxr Gnubr/Ybpngvba abg zngpurq va trb svyr/ol ZQHOR
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng ERQ YNXRF TENQR/Ybpngvba abg zngpurq va trb svyr/ol WNPXRE
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 1111 Fvreen Ng Gnubr Eq F Ynxr Gnubr/SQ: 7653/Uvtujnl 50 & Uvtujnl 50/ol WNPXRE
@@ -54,7 +53,6 @@ Fraqre: Fbhgu Ynxr Gnubr CQ <qvfcngpure@pvglbsfyg.hf>
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng FE 89,  Fbhgu Hccre Gehpxrr Eq F Ynxr Gnubr/Ybpngvba abg zngpurq va trb svyr/ol FXRNFG
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 21200 HF 50 F Ynxr Gnubr/SQ: 763/Uvtujnl 50 & Uvtujnl 50/ol ZQHOR
 (Nyyvnapr Zrffntr) Rirag Abgvpr: GENAFSRE ng 2170 Fbhgu Ni F Ynxr Gnubr /3eq Fg & 4gu Fg/ol ZQHOR
-(Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 1111 Fvreen Ng Gnubr Eq F Ynxr Gnubr/SQ: 7653/Uvtujnl 50 & Uvtujnl 50/ol ZQHOR
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 1111 Fvreen Ng Gnubr Eq F Ynxr Gnubr/SQ: 7653/Uvtujnl 50 & Uvtujnl 50/ol NOVAQRY
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 1360 Fxlyvar Qe F Ynxr Gnubr /SQ: 7635/Ryxf Pyho Qe & Ryxf Pyho Qe/ol WOEBNQSBBG
 (Nyyvnapr Zrffntr) Rirag Abgvpr: SVER ng 1280 Gngn Ya F Ynxr Gnubr /SQ: 327/S Fg & Q Fg/ol NOVAQRY
@@ -86,15 +84,12 @@ Fraqre: Fbhgu Ynxr Gnubr CQ <qvfcngpure@pvglbsfyg.hf>
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 2214 Onegba Ni 19 F Ynxr Gnubr /SQ: (Abar)/3eq Fg & 2aq Fg/ol XRKGEHZ
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 2436 Cbaqrebfn Ni N F Ynxr Gnubr /SQ: 231/Fhafrg Qe & Ybqv Ni/ol WOEBNQSBBG
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 1051 Ny Gnubr Obhyrineq F Ynxr Gnubr/SQ: 213/Wbuafba Obhyrineq & Ynxr Gnubr Oy/ol WOEBNQSBBG
-(Nyyvnapr Zrffntr) Rirag Abgvpr: GENAFSRE ng 2170 Fbhgu Ni F Ynxr Gnubr /3eq Fg & 4gu Fg/ol WNPXRE
-(Nyyvnapr Zrffntr) Rirag Abgvpr: GENAFSRE ng 2170 Fbhgu Ni F Ynxr Gnubr/3eq Fg & 4gu Fg/ol YJNGFBA
 (Nyyvnapr Zrffntr) Rirag Abgvpr: GENAFSRE ng 2170 Fbhgu Ni F Ynxr Gnubr/3eq Fg & 4gu Fg/ol YJNGFBA
 (Nyyvnapr Zrffntr) Rirag Abgvpr: SVER ng  Jvaarzhppn Ni F Ynxr Gnubr /Ybpngvba abg zngpurq va trb svyr/ol XRKGEHZ
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng (Ybpngvba Abg Ragrerq)/Ybpngvba abg zngpurq va trb svyr/ol XRKGEHZ
 (Nyyvnapr Zrffntr) Rirag Abgvpr: SVER ng  Jvaarzhppn Ni F Ynxr Gnubr /Ybpngvba abg zngpurq va trb svyr/ol WOEBNQSBBG
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 900 Cngevpvn Ya F Ynxr Gnubr /SQ: 327/Fbhgu Fuber Qe & Cngevpvn Pe/ol WOEBNQSBBG
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 3777 Ynepu Ni 5O F Ynxr Gnubr /SQ: 126/Jvyqjbbq Ni & Cvbarre Ge/ol WOEBNQSBBG
-(Nyyvnapr Zrffntr) Rirag Abgvpr: GENAFSRE ng 2170 Fbhgu Ni F Ynxr Gnubr /3eq Fg & 4gu Fg/ol WNPXRE
 (Nyyvnapr Zrffntr) Rirag Abgvpr: GENAFSRE ng 2170 Fbhgu Ni F Ynxr Gnubr /3eq Fg & 4gu Fg/ol WNPXRE
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 21200 HF 50 F Ynxr Gnubr/SQ: 763/Uvtujnl 50 & Uvtujnl 50/ol ZQHOR
 (Nyyvnapr Zrffntr) Rirag Abgvpr: SVER ng 3672 Nfcra Ni F Ynxr Gnubr /SQ: 126/Fxv Eha Oyiq & Fbaben Ni/ol XRKGEHZ
@@ -112,6 +107,14 @@ Fraqre: Fbhgu Ynxr Gnubr CQ <qvfcngpure@pvglbsfyg.hf>
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 1035 Rzrenyq Onl Eq F Ynxr Gnubr/SQ: 327/Ynxr Gnubr Oy & O Fg/ol WNPXRE
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 3860 Fnqqyr Eq F Ynxr Gnubr/SQ: 162/Jvyqjbbq Ni & Xryyre Eq/ol WNPXRE
 (Nyyvnapr Zrffntr) Rirag Abgvpr: ZRQVPNY ng 1141 Ncnpur Ni F Ynxr Gnubr /SQ: N76/Gbznunjx Ya & Chroyb Fg/ol WNPXRE
+
+** ABGRF **
+Pbhyq hfr SvryqCebtenzCnefre fcyvggvat svryqf jvgu n /.  Ohg znfgre cnggrea
+zngpu vf cebonoyl whfg nf rnfl, naq jba'g oybj hc vs n fchevbhf fynfu fubjf hc
+nal va gur zrffntr.
+
+Gur SQ: grez vf n havg.  Olg /ol WNPXRE genvyre vf gur qvfcngpure juvpu jr ner
+abg vagrerfgrq va naq pna gbff.
 
  */
 
