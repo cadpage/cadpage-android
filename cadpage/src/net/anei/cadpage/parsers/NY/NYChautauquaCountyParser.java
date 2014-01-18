@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYChautauquaCountyParser extends FieldProgramParser {
   
-  private static final Pattern MARKER1 = Pattern.compile("^CHAUTAUQUA_COUNTY_SHERIFF \\(([A-Z ]+)\\) (\\d\\d:\\d\\d) \\*");
+  private static final Pattern MARKER1 = Pattern.compile("^CHAUTAUQUA_COUNTY_SHERIFF \\(([A-Z ]+)\\) (?:(\\d\\d:\\d\\d) )?\\*");
   private static final Pattern MARKER2 = Pattern.compile("^(\\d\\d:\\d\\d) \\*");
   private static final Pattern DELIM = Pattern.compile(" *(?<= ); ");
   private static final Pattern UNITS = Pattern.compile("(?: *\\b(?:[A-Z]{4}|[A-Z]\\d{2,3})\\b)+");
@@ -32,7 +32,7 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
       Matcher match = MARKER1.matcher(body);
       if (match.find()) {
         data.strSource = match.group(1);
-        data.strTime = match.group(2);
+        data.strTime = getOptGroup(match.group(2));
         body = body.substring(match.end()).trim();
         break;
       }
