@@ -6,13 +6,43 @@ vzcbeg arg.narv.pnqcntr.cnefref.NY.NYYvzrfgbarPbhaglCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Onyqjva Pbhagl, NY
+Yvzrfgbar Pbhagl, NY
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cvarl Puncry ISQ
 Ybpngvba: Nguraf, NY, Havgrq Fgngrf
 Fraqre: Qvfcngpu@nyp911.bet
+Fraqre: Tznvy Grnz <znvy-abercyl@tbbtyr.pbz>
 
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01448\a PnyyGlcr: R-Purfg Cnva (abar Genhzngvp)\a Nqqerff: 21063 ZLEGYRJBBQ QE, 333, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01203\a PnyyGlcr: R-Purfg Cnva (abar Genhzngvp)\a Nqqerff: 19797 RYXGBA EQ, 333, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01179\a PnyyGlcr: R-Noqbzvany Cnva / Ceboyrzf\a Nqqerff: 21063 ZLEGYRJBBQ QE, 333, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01158\a PnyyGlcr: R-Hapbafpvbhf / Snvagvat Arne\a Nqqerff: 17835 BNXQNYR EQ, 324, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01150\a PnyyGlcr: Y-Genssvp / Genafcbegngvba Nppvqragf\a Nqqerff: 25576 R ARJ TNEQRA EQ, Nguraf, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01146\a PnyyGlcr: R-Oernguvat Ceboyrzf\a Nqqerff: 20425 RYXGBA EQ, 333, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01135\a PnyyGlcr: Y-Genssvp / Genafcbegngvba Nppvqragf\a Nqqerff: OYNPX EQ & LNEOEBHTU EQ, NGURAF, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01081\a PnyyGlcr: R-NYNEZ\a Nqqerff: 23096 WRERZL EQ, 326, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01058\a PnyyGlcr: R-Oernguvat Ceboyrzf\a Nqqerff: 21801 CVARL PUNCRY EQ, 333, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-01032\a PnyyGlcr: R-Oernguvat Ceboyrzf\a Nqqerff: 22010 ENVYEBNQ YA, 334, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00867\a PnyyGlcr: R-Fvpx Crefba (fcrpvsvp qvntabfvf)\a Nqqerff: 21311 BNXYNAQ ZRNQBJF, 328, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00836\a PnyyGlcr: 911 Unat Hc\a Nqqerff: 20425 RYXGBA EQ, 333, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00795\a PnyyGlcr: R-Oernguvat Ceboyrzf\a Nqqerff: 24379 SENAX TBFFRGG EQ, Nguraf, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00790\a PnyyGlcr: S-Fgehpgher Sver\a Nqqerff: 16805 NY UJL 251, 326, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00777\a PnyyGlcr: Y-Bireqbfr/Cbvfbavat(Vatrfgvba)\a Nqqerff: 21191 LNEOEBHTU EQ, 327, NY
+(Tznvy hcqngr: Ernpu zber crbcyr lbh xabj) Rire jnagrq gb rznvy fbzrbar lbh xabj, ohg unira'g lrg rkpunatrq rznvy  \anqqerffrf? Fgnegvat guvf jrrx, jura lbh'er pbzcbfvat n arj rznvy, Tznvy  \ajvyy fhttrfg lbhe Tbbtyr+ pbaarpgvbaf nf erpvcvragf, rira vs lbh unira'g  \arkpunatrq rznvy nqqerffrf lrg.\a\aUbj vg jbexf jvgu rznvy nqqerffrf\aRznvyvat Tbbtyr+ pbaarpgvbaf jbexf n ovg qvssreragyl gb cebgrpg gur cevinpl  \abs rznvy nqqerffrf. Lbhe rznvy nqqerff vfa'g ivfvoyr gb lbhe Tbbtyr+  \apbaarpgvbaf hagvy lbh fraq gurz na rznvy, naq gurve rznvy nqqerffrf ner abg  \aivfvoyr gb lbh hagvy gurl erfcbaq.\a\aErprvivat rznvy sebz crbcyr bhgfvqr lbhe pvepyrf [yvax:  \auggcf://fhccbeg.tbbtyr.pbz/cyhf/nafjre/1047805?uy=ra_HF]\aVs lbh erprvir na rznvy sebz fbzrbar bhgfvqr lbhe pvepyrf, vg jvyy or  \asvygrerq vagb gur Fbpvny pngrtbel bs gur vaobk [yvax:  \auggcf://fhccbeg.tbbtyr.pbz/znvy/nafjre/3094596?uy=ra_HF](vs ranoyrq) naq  \abayl nsgre lbh erfcbaq be nqq gurz gb lbhe pvepyrf, pna gurl fgneg nabgure  \apbairefngvba jvgu lbh.\a\aUbj gb pbageby jub pna pbagnpg lbh\aLbh'er va pbageby bs jurgure crbcyr pna ernpu lbh jvgu n arj frggvat va  \aTznvy [yvax: uggcf://znvy.tbbtyr.pbz/znvy/#frggvatf/trareny] ba gur  \aqrfxgbc. Gb yrnea zber, purpx bhg gur Uryc Pragre [yvax:  \auggcf://fhccbeg.tbbtyr.pbz/znvy/?c=cebsvyrf&uy=ra_HF].\a\aGur Tznvy Grnz\a\a� 2013 Tbbtyr Vap. 1600 Nzcuvgurnger Cnexjnl, Zbhagnva Ivrj, PN 94043\a\aLbh unir erprvirq guvf znaqngbel rznvy freivpr naabhaprzrag gb hcqngr lbh  \anobhg vzcbegnag punatrf gb lbhe Tznvy cebqhpg be nppbhag.
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00759\a PnyyGlcr: Y-Choyvp Freivpr (ybpx bhg/Ybpx va, Crnpr be Jrysner)\a Nqqerff: 20425 RYXGBA EQ, 333, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00737\a PnyyGlcr: S-Bhgfvqr Sver\a Nqqerff: 25979 VAGREFGNGR 65 F, 337, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00728\a PnyyGlcr: R-Snyy\a Nqqerff: 20425 RYXGBA EQ, 333, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00715\a PnyyGlcr: Y-Genssvp / Genafcbegngvba Nppvqragf\a Nqqerff: NYUL 251 & UBYG EQ, NGURAF, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00713\a PnyyGlcr: R-Snyy\a Nqqerff: 20752 NY UJL 99, 338, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00701\a PnyyGlcr: R-Snyy\a Nqqerff: 20425 RYXGBA EQ, 333, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00672\a PnyyGlcr: R-Snyy\a Nqqerff: 20752 NY UJL 99, Nguraf, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00646\a PnyyGlcr: S-Fgehpgher Sver\a Nqqerff: PNERL EQ & RYXGBA EQ, NGURAF, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00633\a PnyyGlcr: Y-Genssvp / Genafcbegngvba Nppvqragf\a Nqqerff: NY UJL 251 & UBYG EQ, Nguraf, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00583\a PnyyGlcr: R-Fvpx Crefba (fcrpvsvp qvntabfvf)\a Nqqerff: 21062 ZLEGYRJBBQ QE, NGURAF, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00545\a PnyyGlcr: S-Fgehpgher Sver\a Nqqerff: 21118 ZLEGYRJBBQ QE, 333, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00539\a PnyyGlcr: R-Fvpx Crefba (fcrpvsvp qvntabfvf)\a Nqqerff: 21063 ZLEGYRJBBQ QE, 333, NY
+(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00520\a PnyyGlcr: R-Noqbzvany Cnva / Ceboyrzf\a Nqqerff: 21381 BNXYNAQ ZRNQBJF, 328, NY
 (=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00424\a PnyyGlcr: R-Fvpx Crefba (fcrpvsvp qvntabfvf)\a Nqqerff: 20555 RYXGBA EQ, 333, NY
 (=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00421\a PnyyGlcr: R-Purfg Cnva (abar Genhzngvp)\a Nqqerff: 24278 ONVA EQ, 328, NY
 (=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2014-00249\a PnyyGlcr: R-Snyy\a Nqqerff: 17105 ARJOL PUNCRY EQ, 324, NY
@@ -84,35 +114,6 @@ Fraqre: Qvfcngpu@nyp911.bet
 (=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34549\a PnyyGlcr: Y-Genssvp / Genafcbegngvba Nppvqragf\a Nqqerff: RQTRJBBQ EQ & FRJRYY EQ, Nguraf, NY
 (=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34496\a PnyyGlcr: R-Fvpx Crefba (fcrpvsvp qvntabfvf)\a Nqqerff: 22169 UNLF ZVYY EQ, 334, NY
 (=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34470\a PnyyGlcr: S-Fgehpgher Sver\a Nqqerff: 19199 RNFGRE SREEL EQ, Nguraf, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34458\a PnyyGlcr: R-Pbaihyfvbaf/Frvfherf\a Nqqerff: 16330 JVGGL ZVYY EQ, 338, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34424\a PnyyGlcr: R-Noqbzvany Cnva / Ceboyrzf\a Nqqerff: 18414 NY UJL 99, 338, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34349\a PnyyGlcr: S-Bhgfvqr Sver\a Nqqerff: YBBARL EQ & WBUAFBA FG, Nguraf, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34323\a PnyyGlcr: S-Bhgfvqr Sver\a Nqqerff: 21070 OEBNQJNGRE CIG QE, 310, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34232\a PnyyGlcr: R-Noqbzvany Cnva / Ceboyrzf\a Nqqerff: 19261 NVESVRYQ FG Ncg:27, 338, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34179\a PnyyGlcr: R-Snyy\a Nqqerff: 22319 TBBQVA EQ, 338, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34154\a PnyyGlcr: Y-Genssvp / Genafcbegngvba Nppvqragf\a Nqqerff: 21526 NY UJL 127, 334, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34143\a PnyyGlcr: R-Pbaihyfvbaf/Frvfherf\a Nqqerff: 21079 ZLEGYRJBBQ QE, 333, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34120\a PnyyGlcr: S-Fgehpgher Sver\a Nqqerff: QRYNARL EQ & CVARL PUNCRY EQ, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34077\a PnyyGlcr: R-Oernguvat Ceboyrzf\a Nqqerff: 19863 PNERL EQ, 334, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34074\a PnyyGlcr: R-Snyy\a Nqqerff: 16933 ARJOL PUNCRY EQ, 324, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34032\a PnyyGlcr: Y-Genssvp / Genafcbegngvba Nppvqragf\a Nqqerff: 65 A  & JNYRF FG, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-34018\a PnyyGlcr: Y-Genssvp / Genafcbegngvba Nppvqragf\a Nqqerff: ZBBERFIVYYR EQ & OYNPX EQ, Nguraf, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33920\a PnyyGlcr: R-NYNEZ\a Nqqerff: 24169 AVPX QNIVF EQ, 324, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33914\a PnyyGlcr: R-Fgebxr (PIN)\a Nqqerff: 20493 LNEOEBHTU EQ, 327, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33859\a PnyyGlcr: R-Fvpx Crefba (fcrpvsvp qvntabfvf)\a Nqqerff: 19261 NVESVRYQ FG Ncg:YBG27, 338, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33797\a PnyyGlcr: R-Fvpx Crefba (fcrpvsvp qvntabfvf)\a Nqqerff: 21931 UVPXBEL UVYY YA, 328, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33747\a PnyyGlcr: R-Fvpx Crefba (fcrpvsvp qvntabfvf)\a Nqqerff: 19213 FRJRYY EQ, 338, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33716\a PnyyGlcr: R-Snyy\a Nqqerff: 15738 ZNLOREEL QE, 324, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33706\a PnyyGlcr: R-Purfg Cnva (abar Genhzngvp)\a Nqqerff: 22326 UBYG EQ, 328, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33620\a PnyyGlcr: R-Fvpx Crefba (fcrpvsvp qvntabfvf)\a Nqqerff: 19863 PNERL EQ, 334, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33575\a PnyyGlcr: R-NYNEZ\a Nqqerff: 23096 WRERZL EQ, 326, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33564\a PnyyGlcr: R-Snyy\a Nqqerff: 16174 NY UJL 251, 324, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33540\a PnyyGlcr: R-Fgebxr (PIN)\a Nqqerff: 17105 ARJOL PUNCRY EQ, 324, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33446\a PnyyGlcr: R-Purfg Cnva (abar Genhzngvp)\a Nqqerff: 21953 BNXYNAQ ZRNQBJF, 328, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33385\a PnyyGlcr: S-Bhgfvqr Sver\a Nqqerff: UBYG EQ & OYNPX EQ, NGURAF, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33373\a PnyyGlcr: R-Fvpx Crefba (fcrpvsvp qvntabfvf)\a Nqqerff: 19650 PEBFF XRL EQ, 338, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33275\a PnyyGlcr: S-Bhgfvqr Sver\a Nqqerff: 20290 YBBARL EQ, 327, NY
-(=?hgs-8?O?ETympTS0L2t=?=) PSF#: 2013-33119\a PnyyGlcr: R-Fgebxr (PIN)\a Nqqerff: 24477 PBCRYNAQ EQ, Nguraf, NY
 
 Qhcyvpngr VNJneeraPbhagl
 
