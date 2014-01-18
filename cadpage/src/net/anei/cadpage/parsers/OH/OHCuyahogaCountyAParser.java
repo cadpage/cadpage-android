@@ -1,27 +1,18 @@
 package net.anei.cadpage.parsers.OH;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA39Parser;
 
 /**
  * Cuyahoga County, OH
  */
-public class OHCuyahogaCountyAParser extends FieldProgramParser {
+public class OHCuyahogaCountyAParser extends DispatchA39Parser {
 
   public OHCuyahogaCountyAParser() {
-    super(OHCuyahogaCountyParser.CITY_CODES, "CUYAHOGA COUNTY", "OH",
-        "CALL ADDR/S5XXa! INFO+");
+    super(OHCuyahogaCountyParser.CITY_CODES, "CUYAHOGA COUNTY", "OH");
   }
 
   @Override
   public String getFilter() {
     return "dispatch@chagrinfallspd.com";
-  }
-
-  @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Dispatch Message")) return false;
-    return parseFields(body.split("\n"), 2, data);
-
   }
 }
