@@ -28,10 +28,10 @@ Good luck,
 -Ken
 
 ***************************************************************************
-* Android 4.4 (Kit Kat) long explanation
+* Android 4.4 (Kit Kat) dispatch pages showing up in message app inbox
 ***************************************************************************
 
-Unfortunately, for us, that is not a bug.  That is a new permanent feature.
+Unfortunately, that is the way things are going to be under Android 4.4.
 
 Prior to Android 4.4, apps have the ability to register for SMS messages at a higher than normal priority.  This lets them get a first look at SMS pages and, if it turns out to be something they need to process, block those messages from appearing in the default messaging app.  Cadpage has made use of this capability, as have a number of security and theft prevention apps.
 
