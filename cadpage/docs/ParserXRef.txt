@@ -1,2 +1,12 @@
-US/OH/HolmesCountySher  OHHolmesCounty
+US/AL/Colbert            ALColbertCounty
+US/AL/Shelby             ALShelbyCounty
+US/CA/Monterey           CAMontereyCounty
+US/CO/WeldCounty         COWeldCounty
+US/CT/Groton             CTGrotonParser
+US/CT/NewLondonCounty    CTNewLondonCounty
 US/MT/RavalliCounty
+US/OH/HolmesCountySher   OHHolmesCounty
+
+
+
+
