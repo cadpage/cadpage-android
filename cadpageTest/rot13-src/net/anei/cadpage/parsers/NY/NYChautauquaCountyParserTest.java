@@ -281,6 +281,16 @@ choyvp pynff ALPunhgnhdhnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgWravsreXbuyre() {
+
+    qbGrfg("G1",
+        "PUNHGNHDHN_PBHAGL_FUREVSS (ZFC PNQ) *RZF PNYY ; 11431 UNABIRE EQ ; P/G/I Unabire ; UP3 ; SRZNYR QBJA VAPBURERAG  ; Z511 N131",
+        "FEP:ZFC PNQ",
+        "PNYY:RZF PNYY",
+        "NQQE:11431 UNABIRE EQ",
+        "PVGL:Unabire",
+        "ANZR:UP3",
+        "VASB:SRZNYR QBJA VAPBURERAG",
+        "HAVG:Z511 N131");
     
   }
   
