@@ -656,8 +656,7 @@ choyvp pynff BUPhlnubtnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G68",
         "(Qvfcngpu Zrffntr) OBK 100 \eFBZ PRAGRE EQ  UVENZ GEY   \eBISQ ERDHRFGRQ OBK 100 ZNONF NYNEZ ",
         "PNYY:OBK 100",
-        "NQQE:FBZ PRAGRE EQ",
-        "NCG:UVENZ GEY",
+        "NQQE:FBZ PRAGRE EQ & UVENZ GEY",
         "VASB:BISQ ERDHRFGRQ OBK 100 ZNONF NYNEZ");
 
     qbGrfg("G69",
@@ -749,8 +748,7 @@ choyvp pynff BUPhlnubtnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G83",
         "(Qvfcngpu Zrffntr) PBZCYNVAGF-TRARENY \aORYY FG  ZNVA FG   \aZNYR HAPBA FDHNQ ERDHRFG ",
         "PNYY:PBZCYNVAGF-TRARENY",
-        "NQQE:ORYY FG",
-        "NCG:ZNVA FG",
+        "NQQE:ORYY FG & ZNVA FG",
         "VASB:ZNYR HAPBA FDHNQ ERDHRFG");
 
     qbGrfg("G84",
