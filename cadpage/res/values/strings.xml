@@ -74,6 +74,10 @@
    <string name="pref_review_title">Write a Cadpage Review</string>
    <string name="pref_review_summary">Press \"Your Review\"</string>
    <string name="pref_review_url">market://details?id=net.anei.cadpage</string>
+
+   <string name="pref_active911_parsers_title">What about the Active911 app?</string>
+   <string name="pref_active911_parsers_summary">Active911 has an Android app now</string>
+   <string name="pref_active911_parsers_url">http://www.cadpage.org/faq/cadpage-and-active911-issue</string>
    
 <!-- Additional Preferences -->
    <string name="pref_popup_control">Alarm Popup Control</string>

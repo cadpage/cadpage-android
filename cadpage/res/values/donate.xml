@@ -149,6 +149,7 @@
   <string name="donate_android_title">Purchase through Android Market</string>
   <string name="donate_paypal_title">Purchase through PayPal</string>
   <string name="donate_whats_up_title">What\'s this all about??</string>
+  <string name="donate_active911_parse_info_title">Tell me more</string>
   <string name="donate_email_title">Send Email</string>
   
   <string name="donate_android_unsupported_text">
@@ -252,8 +253,9 @@
     you your text pages
   </string>
   
-  <string name="donate_active911_parse_warn_title">Active911 parsed alert</string>
+  <string name="donate_active911_parse_warn_title">Active911 parser alert</string>
   <string name="donate_active911_parse_warn_text">
+    The information in this alert was not provided Cadpage.  
     This alert was processed with a new parsing system that Active911 is setting
     up to replace the Cadpage parsing system.  We are working with Active911 to
     restore normal Cadpage parsing services for these alerts.  

@@ -629,6 +629,13 @@
       android:dialogTitle="@string/pref_releasenotes_diagtitle"
       android:dialogMessage="@string/release_text"/>
     <PreferenceScreen
+      android:title="@string/pref_active911_parsers_title"
+      android:summary="@string/pref_active911_parsers_summary">
+      <intent
+        android:action="android.intent.action.VIEW"
+        android:data="@string/pref_active911_parsers_url" />
+    </PreferenceScreen>
+    <PreferenceScreen
       android:title="@string/pref_review_title"
       android:summary="@string/pref_review_summary">
       <intent

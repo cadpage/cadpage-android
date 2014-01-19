@@ -15,7 +15,8 @@ restore normal Cadpage parsing services for these alerts.
 public class Active911ParseWarnDonateEvent extends DonateScreenEvent {
   
   public Active911ParseWarnDonateEvent() {
-    super(AlertStatus.YELLOW, R.string.donate_active911_parse_warn_title, R.string.donate_active911_parse_warn_text);
+    super(AlertStatus.YELLOW, R.string.donate_active911_parse_warn_title, R.string.donate_active911_parse_warn_text,
+          Active911ParseInfoDonateEvent.instance());
   }
 
   @Override
@@ -28,5 +29,4 @@ public class Active911ParseWarnDonateEvent extends DonateScreenEvent {
   public static Active911ParseWarnDonateEvent instance() {
     return instance;
   }
-
 }
