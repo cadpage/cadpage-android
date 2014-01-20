@@ -255,10 +255,10 @@
   
   <string name="donate_active911_parse_warn_title">Active911 parser alert</string>
   <string name="donate_active911_parse_warn_text">
-    The information in this alert was not provided Cadpage.  
+    The information in this alert was not provided by Cadpage.  
     This alert was processed with a new parsing system that Active911 is setting
     up to replace the Cadpage parsing system.  We are working with Active911 to
-    restore normal Cadpage parsing services for these alerts.  
+    restore Cadpage parsing services.  
   </string>
   
   <string name="vendor_title">Register with %s</string>

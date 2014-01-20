@@ -88,7 +88,6 @@ Fraqre: pnqnyregf@rsbeprfbsgjner.pbz
 (Qvfcngpu Nyreg) Pnyy Glcr: YVSG NFFVFG Pvgl: UVYYGBC YNXRF Nqqerff: 143 UVYYGBC QEVIR
 (Qvfcngpu Nyreg) Pnyy Glcr: YVSG NFFVFG Pvgl: UVYYGBC YNXRF Nqqerff: 16 CNGVB QE
 
-Qhcyvpngr ZFPnyubhaPbhagl
  */
 
 
