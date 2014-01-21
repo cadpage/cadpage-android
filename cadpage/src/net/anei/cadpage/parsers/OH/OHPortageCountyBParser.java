@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA39Parser;
 
 /**
- * Cuyahoga County, OH
+ * Portage County, OH
  */
 public class OHPortageCountyBParser extends DispatchA39Parser {
 
