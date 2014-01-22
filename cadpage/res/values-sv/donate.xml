@@ -78,6 +78,7 @@
   <string name="donate_android_title">Köpt genom Android market</string>
   <string name="donate_paypal_title">Köpt genom PayPal</string>
   <string name="donate_whats_up_title">Vad handlar det här om?</string>
+  <string name="donate_active911_parse_info_title">Tell me more</string>   <!-- Translate -->
   <string name="donate_email_title">Skicka email</string>
   <string name="donate_android_unsupported_text">
  Android Market appen rapporterar att app-i-app köp inte understödjs. Du kan behöva uppgradera Market-appen till den senaste versionen eller också måste du logga in med ett giltigt Google-konto (Välj meny &gt; Konton i Marketappen) 
@@ -122,7 +123,15 @@
   <string name="donate_new_user_text">
     Cadpage kommer inte att göra någonting med dessa inställningar. Du måste gå in på Ortinställningar och antingen välja en ort som motsvarar din plats eller välja Från: (filter) och skriva in den e-postadress eller  det telefonnummer som dina larm-meddelanden kommer ifrån.
   </string>
-    
+  
+  <string name="donate_active911_parse_warn_title">Active911 parser alert</string>  <!-- Translate -->
+  <string name="donate_active911_parse_warn_text">                                   <!--  Translate -->
+    The information in this alert was not provided by Cadpage.  
+    This alert was processed with a new parsing system that Active911 is setting
+    up to replace the Cadpage parsing system.  We are working with Active911 to
+    restore Cadpage parsing services.  
+  </string>
+  
   <string name="donate_active911_parse_warn_title">Active911 parsed alert</string>         <!-- Translate -->
   <string name="donate_active911_parse_warn_text">
     This alert was processed with a new parsing system that Active911 is setting
