@@ -1,49 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01132013</string>
-  <string name="release_version">v1.7.02</string>
+  <string name="release_date">01222013</string>
+  <string name="release_version">v1.7.03</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+New Features:\n
+Included instructions on running Cadpage with the Active911 app.  Added button to launch Active911 app from Cadpage.\n
+\n
 New Locations:\n
-Benton County, AR (alt)\n
-Fort Irwin, CA\n
-Sisykiyou County, OR\n
-Jasper County, IA\n
-DeSoto County, MS\n
-Ste Genevieve County, MO\n
-Johnson County, TX (alt)\n
-Rickbridge County, VA\n
+Limestone County, AL\n
+Biloxi, MS\n
+Cuyahoga County, NY (alt)\n
+Suffolk County, NY (alt)\n
+Portage County, OH\n
+Columbia County, OR\n
+Kendall County, TX\n
 \n
 Location Parsing Fixes:\n
-Marcopa County, AZ\n
-Garland County, AR\n
-Calaveras County, CA\n
-Boone County, IN\n
-Howard County, IN\n
-Vigo County, IN\n
-Butler County, KS\n
-Louisville County, KY\n
-Calvert County, MD\n
-St Francois County, MO\n
-Washington County, MO\n
-MICOM, NJ\n
-Chatham County, NC\n
-Jones County, NC\n
+Chilton County, AL\n
+Greene County, MO\n
+Iron County, MO\n
+St Louis County, MO\n
+Clark County, NV\n
+Chautauqua County, NY\n
+Madison County, NY\n
+Oneida County, NY\n
+Forsyth County, NC\n
 Nash County, NC\n
-Perrson County, NC\n
-Greene County, OH\n
-Logan County, OH\n
-Muskingum County, OH\n
-Oxford, OH\n
-Sugar Creek, OH\n
-Warren County, OH\n
 Pennington County, SD\n
-Washington County, TN\n
-Sweden\n
-\n
-General fixes:\n
-Added warning when Active911 alerts have been parsed with Active911 parsers instead of Cadpage parsers.\n
-  </string>  
+  </string>
 </resources>
   
