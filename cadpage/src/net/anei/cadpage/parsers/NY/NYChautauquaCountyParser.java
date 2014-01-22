@@ -11,14 +11,15 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYChautauquaCountyParser extends FieldProgramParser {
   
-  private static final Pattern MARKER1 = Pattern.compile("^CHAUTAUQUA_COUNTY_SHERIFF \\(([A-Z ]+)\\) (?:(\\d\\d:\\d\\d) )?\\*");
-  private static final Pattern MARKER2 = Pattern.compile("^(\\d\\d:\\d\\d) \\*");
+  private static final Pattern MARKER1 = Pattern.compile("^CHAUTAUQUA_COUNTY_SHERIFF \\(([A-Z ]+)\\) +");
+  private static final Pattern MARKER2 = Pattern.compile("^(\\d\\d:\\d\\d) +");
+  private static final Pattern MASTER1 = Pattern.compile("([ A-Z0-9]+?)  +([A-Z]+\\d+) +(.*) +\\*([ A-Z0-9]+) (\\d{4}-\\d{8})");
   private static final Pattern DELIM = Pattern.compile(" *(?<= ); ");
-  private static final Pattern UNITS = Pattern.compile("(?: *\\b(?:[A-Z]{4}|[A-Z]\\d{2,3})\\b)+");
+  private static final Pattern NOT_APT_PTN = Pattern.compile("CSX.*");
   
   public NYChautauquaCountyParser() {
-    super("CHAUTAUQUA COUNTY", "NY",
-           "CALL! ADDR/iS! CTV:CITY! NAME INFO UNIT");
+    super(CITY_LIST, "CHAUTAUQUA COUNTY", "NY",
+          "CALL! ADDR/iSXa! C/T/V:CITY! UNIT1? INFO+? UNIT2 END");
   }
   
   @Override
@@ -28,68 +29,149 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    do {
-      Matcher match = MARKER1.matcher(body);
-      if (match.find()) {
-        data.strSource = match.group(1);
-        data.strTime = getOptGroup(match.group(2));
-        body = body.substring(match.end()).trim();
-        break;
-      }
-      
-      match = MARKER2.matcher(body);
-      if (match.find() && subject.length() > 0) {
-        data.strSource = subject;
-        data.strTime = match.group(1);
-        body = body.substring(match.end()).trim();
-        break;
-      }
-      
-      return false;
-    } while (false);
+    Matcher match = MARKER1.matcher(body);
+    if (match.find()) {
+      data.strSource = match.group(1);
+      body = body.substring(match.end());
+    }
     
-    body = body.replace(" C/T/V ", " CTV: ");
-    if (body.endsWith(";")) body = body.substring(0,body.length()-1);
-    return parseFields(DELIM.split(body),data);
-  }
+    else {
+      if (subject.length() == 0) return false;
+      data.strSource = subject;
+    }
+    
+    match = MARKER2.matcher(body);
+    if (match.find()) {
+      data.strTime = match.group(1);
+      body = body.substring(match.end()).trim();
+    }
+    
+    if (body.startsWith("*")) {
+      body = body.substring(1).trim().replace(" C/T/V ", " C/T/V:");
+      if (body.endsWith(";")) body = body.substring(0,body.length()-1);
+      if (!parseFields(DELIM.split(body),data)) return false;
+      if (data.strApt.length() > 0 && NOT_APT_PTN.matcher(data.strApt).matches()) {
+        data.strAddress = append(data.strAddress, " & ", data.strApt);
+        data.strApt = "";
+      }
+      return true;
+    }
+    
+    match = MASTER1.matcher(body);
+    if (!match.matches()) return false;
+    setFieldList("UNIT ADDR APT PLACE CITY CALL ID");
+    data.strUnit = match.group(1) + " " + match.group(2);
+    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_ANCHOR_END, match.group(3).trim(), data);
+    data.strPlace = getPadField();
+    data.strCall = match.group(4).trim();
+    data.strCallId = match.group(5);
+    return true;
+ }
   
   @Override
   public String getProgram() {
     return "SRC TIME " + super.getProgram();
   }
-  
-  // City field must remove trailing _T
-  private class MyCityField extends CityField {
-    @Override
-    public void parse(String field, Data data) {
-      if (field.endsWith("_T")) field = field.substring(0,field.length()-2).trim();
-      super.parse(field, data);
-    }
-  }
-  
-  // Name field needs to remove trailing commas
-  private class MyUnitField extends UnitField {
-
-    @Override
-    public void parse(String field, Data data) {
-      Matcher match = UNITS.matcher(field);
-      String info;
-      if (match.find()) {
-        data.strUnit = match.group();
-        info = append(field.substring(0,match.start()).trim(), " / ", field.substring(match.end()).trim());;
-      } else {
-        info = field;
-      }
-      data.strSupp = append(data.strSupp, " / ", info);
-    }
-  }
 
   @Override
   protected Field getField(String name) {
     if (name.equals("CITY")) return new MyCityField();
-    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("UNIT1")) return new MyUnitField(1);
+    if (name.equals("UNIT2")) return new MyUnitField(2);
     return super.getField(name);
   }
   
+  // City field must remove trailing _T/V/C
+  private static final Pattern CITY_SFX_PTN = Pattern.compile("(.*)_[TVC]");
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = CITY_SFX_PTN.matcher(field);
+      if (match.matches()) field = match.group(1).trim();
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern[] UNIT_PTN_LIST = new Pattern[]{
+    Pattern.compile("[A-Z]+\\d+"),
+    Pattern.compile("(?: *\\b(?:[A-Z]{1,4}|[A-Z]\\d{2,3})\\b)+")
+  };
+
+  private class MyUnitField extends UnitField {
+    
+    public MyUnitField(int type) {
+      setPattern(UNIT_PTN_LIST[type-1], true);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, " ", field);
+    }
+  }
+  
+  private static final String[] CITY_LIST = new String[]{
+
+    // Cities",
+    "DUNKIRK",
+    "JAMESTOWN",
+
+    // Towns
+    "ARKWRIGHT",
+    "BUSTI",
+    "CARROLL",
+    "CHARLOTTE",
+    "CHAUTAUQUA",
+    "CHERRY CREEK",
+    "CLYMER",
+    "DUNKIRK",
+    "ELLERY",
+    "ELLICOTT",
+    "ELLINGTON",
+    "FRENCH CREEK",
+    "GERRY",
+    "HANOVER",
+    "HARMONY",
+    "KIANTONE",
+    "MINA",
+    "NORTH HARMONY",
+    "POLAND",
+    "POMFRET",
+    "PORTLAND",
+    "RIPLEY",
+    "SHERIDAN",
+    "SHERMAN",
+    "STOCKTON",
+    "VILLENOVA",
+    "WESTFIELD",
+
+    // Villages
+    "BEMUS POINT",
+    "BROCTON",
+    "CASSADAGA",
+    "CELORON",
+    "CHERRY CREEK",
+    "FALCONER",
+    "FORESTVILLE",
+    "FREDONIA",
+    "LAKEWOOD",
+    "MAYVILLE",
+    "PANAMA",
+    "SHERMAN",
+    "SILVER CREEK",
+    "SINCLAIRVILLE",
+    "WESTFIELD",
+
+    // Hamlets",
+    "ASHVILLE",
+    "BUSTI",
+    "FINDLEY LAKE",
+    "FREWSBURG",
+    "HAMLET",
+    "IRVING",
+    "KENNEDY",
+    "LAONA",
+    "LILY DALE",
+    "MAPLE SPRINGS"
+  };
 }
 	
