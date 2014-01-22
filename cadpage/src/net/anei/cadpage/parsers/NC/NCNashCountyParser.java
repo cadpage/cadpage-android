@@ -18,7 +18,7 @@ public class NCNashCountyParser extends SmartAddressParser {
   
   public NCNashCountyParser() {
     super(CITY_LIST, "NASH COUNTY", "NC");
-    setFieldList("ADDR APT CITY X CALL NAME UNIT DATE TIME INFO");
+    setFieldList("ADDR APT CITY X CODE CALL NAME UNIT DATE TIME INFO");
   }
   
   @Override
@@ -52,7 +52,7 @@ public class NCNashCountyParser extends SmartAddressParser {
     } 
     
     body = body.replace("//", "/");
-    parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, body, data);
+    parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT | FLAG_CROSS_FOLLOWS, body, data);
     if (data.strCity.equals("EDGECOMBE CO")) data.strCity = "EDGECOMBE COUNTY";
     String left = getLeft();
     if (left.length() == 0) return false;
