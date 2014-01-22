@@ -58,6 +58,10 @@
   <string name="pref_review_title">Skriv en recension om Cadpage</string>
   <string name="pref_review_summary">Tryck \"Recensera\"</string>
   <string name="pref_review_url">market://details?id=net.anei.cadpage</string>
+  
+  <string name="pref_cadpage_active911_title">Cadpage and Active911 apps</string>                                 <!--  Translate -->
+  <string name="pref_cadpage_active911_summary">How to run Cadpage and Active911 on the same device</string>      <!--  Translate -->
+  
   <!-- Additional Preferences -->
   <string name="pref_popup_control">Alarm Popup kontroll</string>
   <string name="pref_additional_title">Ytterligare inställningar</string>

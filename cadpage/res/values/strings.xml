@@ -75,8 +75,9 @@
    <string name="pref_review_summary">Press \"Your Review\"</string>
    <string name="pref_review_url">market://details?id=net.anei.cadpage</string>
 
-   <string name="pref_active911_parsers_title">What about the Active911 app?</string>
-   <string name="pref_active911_parsers_summary">Active911 has an Android app now</string>
+   <string name="pref_cadpage_active911_title">Cadpage and Active911 apps</string>
+   <string name="pref_cadpage_active911_summary">How to run Cadpage and Active911 on the same device</string>
+   <string name="pref_cadpage_active911_url">http://www.cadpage.org/faq/cadpage-and-active911</string>
    <string name="pref_active911_parsers_url">http://www.cadpage.org/faq/cadpage-and-active911-issue</string>
    
 <!-- Additional Preferences -->
