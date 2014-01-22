@@ -9,13 +9,13 @@ choyvp pynff BUCbegntrPbhaglCnefreGrfg {
   
   choyvp fgngvp pynff GrfgN rkgraqf BUCbegntrPbhaglNCnefreGrfg {
     choyvp GrfgN() {
-      frgCnefre(arj BUCbegntrPbhaglNCnefre());
+      frgCnefre(arj BUCbegntrPbhaglCnefre());
     }
   }
   
   choyvp fgngvp pynff GrfgO rkgraqf BUCbegntrPbhaglOCnefreGrfg {
     choyvp GrfgO() {
-      frgCnefre(arj BUCbegntrPbhaglNCnefre());
+      frgCnefre(arj BUCbegntrPbhaglCnefre());
     }
   }
   

@@ -132,13 +132,6 @@
     restore Cadpage parsing services.  
   </string>
   
-  <string name="donate_active911_parse_warn_title">Active911 parsed alert</string>         <!-- Translate -->
-  <string name="donate_active911_parse_warn_text">
-    This alert was processed with a new parsing system that Active911 is setting
-    up to replace the Cadpage parsing system.  We are working with Active911 to
-    restore normal Cadpage parsing services for these alerts.  
-  </string>
-  
   <string name="vendor_title">Registrera med %s</string>
   <string name="vendor_text">
     Du verkar få textmeddelanden från %s. Du kan regista dig på deras meddelandetjänst så får du dina larm från dem. På så sätt slipper du en del problem förknippade med textmeddelanden.  
