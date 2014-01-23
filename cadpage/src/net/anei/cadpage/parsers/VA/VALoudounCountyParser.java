@@ -15,7 +15,6 @@ public class VALoudounCountyParser extends FieldProgramParser {
   private static final Pattern MISSING_COMMA_PTN = Pattern.compile("(?<!,) (?=APT:|X-ST:|BOX:|ADC:|FDID:)");
   private static final Pattern TRAILER_PTN = Pattern.compile(" +(?:(\\d\\d?:\\d\\d? +[AP]M)|\\[\\d*\\]?)$");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm aa");
-  
   public VALoudounCountyParser() {
     super(CITY_CODES, "LOUDOUN COUNTY", "VA",
           "CALL:CALL! ADDR/y! APT:APT! X-ST:X! UNIT BOX:BOX% ADC:MAP% FDID:ID");
@@ -50,11 +49,29 @@ public class VALoudounCountyParser extends FieldProgramParser {
 
     // Invoke the main parser
     if (! super.parseFields(body.split(","), data)) return false;
+    if (data.strCity.length() == 0 && data.strBox.length() >= 2) {
+      String city = convertCodes(data.strBox.substring(0,2), BOX_CODES);
+      if (city != null) {
+        pt = city.indexOf('/');
+        if (pt >= 0) {
+          data.strState = city.substring(pt+1);
+          city = city.substring(0,pt);
+        }
+        data.strCity = city;
+      }
+    }
     return true;
   }
   
   public String getProgram() {
-    return super.getProgram().replace(" X ", " X UNIT ") + " TIME";
+    return super.getProgram().replace("X", "X UNIT").replace("CITY", "CITY ST") + " TIME";
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
   }
   
   private static final Pattern CALL_CODE_PTN = Pattern.compile("^([A-Z0-9]+)-");
@@ -103,14 +120,18 @@ public class VALoudounCountyParser extends FieldProgramParser {
       return "X UNIT";
     }
   }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("X")) return new MyCrossField();
-    return super.getField(name);
-  }
 
+  private static final Properties BOX_CODES = buildCodeTable(new String[]{
+      "DU", "DULLES AIRPORT",
+      "FQ", "FAUQUIER COUNTY",
+      "FR", "FREDERICK COUNTY/MD",
+      "FX", "FAIRFAX COUNTY",
+      "JE", "JEFFERSON COUNTY/WV",
+      "PW", "PRINCE WILLIAM COUNTY",
+      "WA", "WASHINGTON COUNTY/MD"
+    
+  });
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
         "CH", "Chantilly",
         "LB", "Leesburg",

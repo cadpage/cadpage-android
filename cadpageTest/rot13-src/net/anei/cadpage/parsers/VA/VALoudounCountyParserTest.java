@@ -274,7 +274,8 @@ choyvp pynff INYbhqbhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1200 OYBPX BS QHAIRTNA QEVIR",
         "ZNQQE:1200 QHAIRTNA QEVIR",
         "HAVG:X604",
-        "OBK:SD");
+        "OBK:SD",
+        "PVGL:SNHDHVRE PBHAGL");
 
     qbGrfg("G11",
         " 1 bs 2\a" +
@@ -369,6 +370,7 @@ choyvp pynff INYbhqbhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:680 FCEVAT FGERRG",
         "HAVG:R611O RPB11",
         "OBK:SK11",
+        "PVGL:SNVESNK PBHAGL",
         "VQ:10711");
 
     qbGrfg("G2",
@@ -402,6 +404,7 @@ choyvp pynff INYbhqbhaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5527 FHYYVINAF ZVYY EBNQ",
         "HAVG:Z6032 NPB3",
         "OBK:SD",
+        "PVGL:SNHDHVRE PBHAGL",
         "VQ:99453");
 
     qbGrfg("G4",
