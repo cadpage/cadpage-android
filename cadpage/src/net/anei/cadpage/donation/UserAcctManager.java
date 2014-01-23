@@ -37,9 +37,11 @@ public class UserAcctManager {
     TelephonyManager tMgr =(TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
     phoneNumber = tMgr.getLine1Number();
     if (phoneNumber == null) phoneNumber = tMgr.getVoiceMailNumber();
-    phoneNumber = cleanName(phoneNumber);
-    if (phoneNumber.startsWith("+")) phoneNumber = phoneNumber.substring(1);
-    if (phoneNumber.startsWith("1")) phoneNumber = phoneNumber.substring(1);
+    if (phoneNumber != null) {
+      phoneNumber = cleanName(phoneNumber);
+      if (phoneNumber.startsWith("+")) phoneNumber = phoneNumber.substring(1);
+      if (phoneNumber.startsWith("1")) phoneNumber = phoneNumber.substring(1);
+    }
     meid = tMgr.getDeviceId();
     
     List<String> emailList = new ArrayList<String>();
