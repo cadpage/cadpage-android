@@ -83,6 +83,7 @@ Fraqre: nyregf@vafcvebaybtvfgvpf.pbz
 Pbagnpg: Fpbgg W. Inyynag Sversvtugre/Cnenzrqvp/GRZF <zpsz18962@lnubb.pbz>
 Fraqre: vasb@fhaqnapr-flf.pbz
 (Sebz: JnqfGrkgFraqre) SNYY-SNYY ,268 CNEX CYNPR QE,JNQFJBEGU,87 LBS SRYY ERD YVSG NFFVFG, 
+(Sebz: JnqfGrkgFraqre) CNVA-CNVA,143 J CEBFCRPG FG,JNQFJBEGU,ZNYR JVGU FRIRER ONPX CNVA,
 
  */
 
@@ -554,6 +555,13 @@ choyvp pynff BUFhzzvgPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:268 CNEX CYNPR QE",
         "PVGL:JNQFJBEGU",
         "VASB:87 LBS SRYY ERD YVSG NFFVFG");
+
+    qbGrfg("G2",
+        "(Sebz: JnqfGrkgFraqre) CNVA-CNVA,143 J CEBFCRPG FG,JNQFJBEGU,ZNYR JVGU FRIRER ONPX CNVA,",
+        "PNYY:CNVA-CNVA",
+        "NQQE:143 J CEBFCRPG FG",
+        "PVGL:JNQFJBEGU",
+        "VASB:ZNYR JVGU FRIRER ONPX CNVA");
 
   }
   

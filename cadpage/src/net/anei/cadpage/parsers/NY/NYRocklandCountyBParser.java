@@ -20,7 +20,7 @@ public class NYRocklandCountyBParser extends SmartAddressParser {
 
   @Override
   public String getFilter() {
-    return "44_Control@verizon.net,9300";
+    return "44_Control@verizon.net,paging@44-control.net,9300";
   }
   
   @Override

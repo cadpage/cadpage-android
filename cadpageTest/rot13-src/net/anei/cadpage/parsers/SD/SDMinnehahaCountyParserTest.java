@@ -1199,7 +1199,7 @@ choyvp pynff FQZvaarununPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G4",
         "(Qvfcngpu Cntr)  Fcyvgebpx 4 UJL 42 481FG NIR OE Vawhel Nppvqrag P4 2014-00000009",
         "ZNC:Fcyvgebpx 4",
-        "NQQE:UJL 42 & 481FG NIR",
+        "NQQE:UJL 42 & 481FG NIR",  // Sbhaq va Fcyvg Ebpx
         "PVGL:OENAQBA",
         "PNYY:Vawhel Nppvqrag",
         "PBQR:P4",
@@ -1217,7 +1217,7 @@ choyvp pynff FQZvaarununPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Cntr) 930  Fcyvgebpx 4 UJL 42 483EQ NIR EB Vawhel Nppvqrag P1 2014-00000009",
         "FEP:930",
         "ZNC:Fcyvgebpx 4",
-        "NQQE:UJL 42 & 483EQ NIR",
+        "NQQE:UJL 42 & 483EQ NIR", // abg znccvat
         "PNYY:EB Vawhel Nppvqrag",
         "PBQR:P1",
         "VQ:2014-00000009");
