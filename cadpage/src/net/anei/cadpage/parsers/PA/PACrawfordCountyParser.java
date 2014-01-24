@@ -1,10 +1,15 @@
 package net.anei.cadpage.parsers.PA;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
 
 public class PACrawfordCountyParser extends DispatchBParser {
+  
+  private static final Pattern MARKER = Pattern.compile("^OESCAD(?:@WINDSTREAM.NET)?:");
 
   public PACrawfordCountyParser() {
     super(CITY_LIST, "CRAWFORD COUNTY", "PA");
@@ -23,8 +28,9 @@ public class PACrawfordCountyParser extends DispatchBParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.contains(">")) return false;
-    if (!body.startsWith("OESCAD:")) return false;
-    body = subject + " " + body.substring(7).trim();
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    body = subject + " " + body.substring(match.end()).trim();
     if (!super.parseMsg(body, data)) return false;
     if (data.strCity.toUpperCase().endsWith(" BORO")) {
       data.strCity = data.strCity.substring(0,data.strCity.length()-5).trim();
