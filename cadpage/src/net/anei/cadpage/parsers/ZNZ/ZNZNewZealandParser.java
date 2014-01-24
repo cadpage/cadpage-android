@@ -18,7 +18,7 @@ public class ZNZNewZealandParser extends SmartAddressParser {
   private static final Pattern EXTRA_PTN = Pattern.compile("^([- A-Z0-9:&]+)\\.\\.? +");
   private static final Pattern NEAR_OFF_PTN = Pattern.compile("^((?:NEAR|OFF) [- A-Z0-9\\?]+)\\. *");
   private static final Pattern XSTR_PTN = Pattern.compile("^\\(XStr +([-A-Z0-9/ ]*)\\) *");
-  private static final Pattern DOT_DOT_PTN = Pattern.compile("^\\.([-A-Z0-9#@,\\? /\\.:\\|]+)\\. *");
+  private static final Pattern DOT_DOT_PTN = Pattern.compile("^\\.(.*)\\. *");
   private static final Pattern GPS_PTN = Pattern.compile("^\\(x-?(\\d+) ?y-?(\\d+)\\) *");
   private static final Pattern ID_PTN = Pattern.compile("#(F\\d+)");
   
