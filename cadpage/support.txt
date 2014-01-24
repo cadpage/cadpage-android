@@ -4,12 +4,20 @@ support@cadpage.org
 * init failure in cleanName() v1.7.03
 ***************************************************************************
 
-
 This happens at Cadpage startup if you device has nothing in the way of a configured phone number.  It is a bit surprising that this hasn't come up before.  More surprising, you are the third person reporting it in the last hour.  Something must have changed somewhere.
 
 I just released new Cadpage update that should fix this.  It should be available now.
 
 Have a nice day,
+-Ken
+
+***************************************************************************
+* does not have android.permission.UPDATE_APP_OPS_STATS
+***************************************************************************
+
+This has been reported, it appears to be a recent bug in the copy/paste clipboard infrastructure introduced in Android 4.3 and fixed in Android 4.4.  The ConvertIt app and possibly other clipboard monitoring apps have been implicated.  If you have any of those installed, I would try uninstalling them.
+
+Thanks for reporting it,
 -Ken
 
 ***************************************************************************

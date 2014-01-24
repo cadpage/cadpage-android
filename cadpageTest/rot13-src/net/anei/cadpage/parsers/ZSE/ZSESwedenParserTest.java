@@ -56,6 +56,7 @@ Fraqre: <NIZBNCC08@mravg.fbfnynez.fr>
 4239432\aNhgbzngynez\aOenaq\a\aFxwhyfgntngna 10\aRfxvyfghan\aCbfvgvbaJTF84 : Yn = 59º 20,505'A    Yb = 016º 28,572'R\aUäaqryfrorfxeviavat :
 3038680\aOenaq v olttanq\aIvyyn\a\aOwöexuntra Yåatoeb 2\aÅxre\aCbfvgvbaJTF84 : Yn = 59º 16,688'A    Yb = 017º 05,435'R\aUäaqryfrorfxeviavat : Fxåcovy fbz oevaare aäen uhf. Gntvg fvt v uhfrg.
 3038680\aOenaq hgr - sbeqba\aCrefbaovy\aÖievtg\aFxättrfgn, Åxre\a\aCbfvgvbaJTF84 : Yn = 59º 16,702'A    Yb = 017º 05,409'R\aUäaqryfrorfxeviavat :
+3051401\a\a\a\aOwöexgbecftngna ?, 2\aRfxvyfghan\aCbfvgvbaJTF84 : Yn = 59º 21,982'A    Yb = 016º 30,091'R\aUäaqryfrorfxeviavat : Yvttre cå onyxbatra. Ri enzyng.
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Iäfgen Föezynaqf Eäqqavatfgwäafg
@@ -551,6 +552,20 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:Fxättrfgn",
         "CYNPR:Åxre",
         "TCF:+59.278367,+17.090150");
+
+    qbGrfg("G11",
+        "3051401\a\a\a\a" +
+        "Owöexgbecftngna ?, 2\a" +
+        "Rfxvyfghan\a" +
+        "CbfvgvbaJTF84 : Yn = 59º 21,982'A    Yb = 016º 30,091'R\a" +
+        "Uäaqryfrorfxeviavat : Yvttre cå onyxbatra. Ri enzyng.",
+
+        "VQ:3051401",
+        "NQQE:Owöexgbecftngna ?",
+        "NCG:2",
+        "VASB:Yvttre cå onyxbatra. Ri enzyng.",
+        "PVGL:Rfxvyfghan",
+        "TCF:+59.366367,+16.501517");
 
   }
 

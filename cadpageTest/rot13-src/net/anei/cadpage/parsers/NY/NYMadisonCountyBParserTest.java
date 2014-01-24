@@ -33,6 +33,7 @@ Pbagnpg: "Pnfury, Xlyr" <xlyrpnfury@terngreyrabknzohynapr.pbz>
 Fraqre: r911@znqvfbapbhagl.al.tbi
 SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2013:522\aQvfcngpurq\aNffvfg\a@FGBAL CBAQ
 SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2013:523\aQvfcngpurq\aZIN - Haxabja\aEBPXF EQ \\ SRNEBA EQ (, RNGBA)
+SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2014:32\aQvfcngpurq\aZIN - Haxabja\aF OHGYRE EQ \\ SRNEBA EQ (, FZVGUSVRYQ)
 
 Pbagnpg: zngg terra <z.terra8111@tznvy.pbz>
 Fraqre: r911@obhapr.frpherfreire.arg
@@ -229,6 +230,20 @@ choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN - Haxabja",
         "NQQE:EBPXF EQ & SRNEBA EQ",
         "PVGL:RNGBA");
+
+    qbGrfg("G3",
+        "SEZ:r911@znqvfbapbhagl.al.tbi\a" +
+        "FHOW:911 Qvfcngpu\a" +
+        "ZFT:FRINP:2014:32\a" +
+        "Qvfcngpurq\a" +
+        "ZIN - Haxabja\a" +
+        "F OHGYRE EQ \\\\ SRNEBA EQ (, FZVGUSVRYQ)",
+
+        "FEP:FRINP",
+        "VQ:2014:32",
+        "PNYY:ZIN - Haxabja",
+        "NQQE:F OHGYRE EQ & SRNEBA EQ",
+        "PVGL:FZVGUSVRYQ");
 
   }
   
