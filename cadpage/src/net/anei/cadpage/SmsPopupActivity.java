@@ -12,8 +12,6 @@ import android.annotation.TargetApi;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
-import android.content.res.Configuration;
 import android.text.util.Linkify;
 import android.view.ContextMenu;
 import android.view.Display;
@@ -25,7 +23,6 @@ import android.view.ViewStub;
 import android.view.Window;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.View.OnClickListener;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -40,8 +37,6 @@ public class SmsPopupActivity extends Safe40Activity {
   private MsgOptionManager optManager;
 
   private boolean exitingKeyguardSecurely = false;
-  private InputMethodManager inputManager = null;
-  private View inputView = null;
   private ImageView fromImage;
   private TextView fromTV;
   private TextView messageReceivedTV;
