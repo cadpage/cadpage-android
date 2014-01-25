@@ -107,7 +107,7 @@ public class MsgOptionManager {
           item.setVisible(visible);
         }
         
-      });
+      }, false);
     }
   }
 
@@ -332,8 +332,9 @@ public class MsgOptionManager {
    * @param buttonList list of buttons to be prepared
    */
   public void prepareButtons(List<ButtonHandler> buttonList) {
+    boolean suppressMoreInfo = false;
     for (ButtonHandler btnHandler : buttonList) {
-      btnHandler.prepareButton();
+      if (btnHandler.prepareButton(suppressMoreInfo)) suppressMoreInfo = true;
     }
   }
   
@@ -396,8 +397,8 @@ public class MsgOptionManager {
       this.respCode = respCode;
     }
     
-    public void prepareButton() {
-      prepareItem(new ItemObject(){
+    public boolean prepareButton(boolean suppressMoreInfo) {
+      return prepareItem(new ItemObject(){
         
         @Override
         public int getId() {
@@ -418,7 +419,7 @@ public class MsgOptionManager {
         public void setVisible(boolean visible) {
           button.setVisibility(visible ? View.VISIBLE : View.GONE);
         }
-      });
+      }, suppressMoreInfo);
     }
 
     public void onClick(View v) {
@@ -438,7 +439,7 @@ public class MsgOptionManager {
     public void setVisible(boolean visible);
   }
   
-  private void prepareItem(ItemObject item) {
+  private boolean prepareItem(ItemObject item, boolean suppressMoreInfo) {
     
     switch (item.getId()) {
     
@@ -469,8 +470,10 @@ public class MsgOptionManager {
       break;
       
       // More info disappears if there is no info to display
+      // Or if the Active911 info button has been previously enabled, since
+      // both buttons accomplish pretty much the same thing
     case R.id.more_info_item:
-      item.setVisible(message.getInfoURL() != null);
+      item.setVisible(message.getInfoURL() != null && !suppressMoreInfo);
       item.setTitle(message.getInfoTitle());
       break;
 
@@ -481,9 +484,11 @@ public class MsgOptionManager {
       
     case R.id.active911_item:
       String vendor = message.getVendorCode();
-      item.setEnabled(vendor != null && vendor.equals("Active911") && launchActive911(activity, false));
-      break;
+      boolean enabled = vendor != null && vendor.equals("Active911") && launchActive911(activity, false);
+      item.setEnabled(enabled);
+      return enabled;
     }
+    return false;
   }
 
   /**
