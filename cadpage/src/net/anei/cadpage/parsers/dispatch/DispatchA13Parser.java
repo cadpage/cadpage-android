@@ -70,7 +70,7 @@ public class DispatchA13Parser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       
-      field = field.replace("\\\\", "&");
+      field = field.replace("\\\\", "&").replace('\\', '&');
       
       // Missed right parens cause a problem.  If we find any add a closing right paren.
       field = MISMATCH_PAREN_PTN.matcher(field).replaceAll("$1)");
