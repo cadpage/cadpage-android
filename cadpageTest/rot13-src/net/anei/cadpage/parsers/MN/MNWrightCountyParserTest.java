@@ -201,6 +201,77 @@ Fraqre: <jevtugabercyl@pb.jevtug.za.hf>
 (Naanaqnyr Sver Rznvy) NSQ2:2013:222\aQvfcngpurq\aZrqvpny - Haerfcbafvir ~ 9730\a10601 30GU FG AJ , NYOVBA GJC ( XABK NIR AJ / PBHAGL EBNQ 5 AJ)
 (Naanaqnyr Sver Rznvy) NSQ2:2013:220\aQvfcngpurq\aSver - Bgure ~ 9600\a@Naanaqnyr Sver NSQ2, NAANAQNYR (350 CBCYNE NIR A )
 
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fg. Zvpunry Sver
+Ybpngvba: Fnvag Zvpunry, Za, Havgrq Fgngrf
+Fraqre: <jevtugabercyl@pb.jevtug.za.hf>
+
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:28\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a@Cbfg Bssvpr, FG ZVPUNRY (405 PRAGENY NIR R )
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:26\aQvfcngpurq\aZrqvpny - Fgebxr ~ 9730\a1830 UNAFNPX NIR AR , FG ZVPUNRY ( 20GU FG AR /)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:24\aQvfcngpurq\aSver - Bgure ~ 9600\a11447 GBJA PRAGRE QE AR , FG ZVPUNRY
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:23\aQvfcngpurq\aNynez - Sver ~ 9600\a4862 ANORE NIR AR , FG ZVPUNRY ( 50GU FG AR \ 47GU FG AR; Arne: FGZN Zvqqyr Fpubby Rnfg)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:22\aQvfcngpurq\aZrqvpny - Purfg Cnva ~ 9730\a100 NFU NIR AR , FG ZVPUNRY ( 2AQ FG AR \ 1FG FG AR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:21\aQvfcngpurq\aZrqvpny - Qvssvphygl Oernguvat ~ 9730\a5255 WNAFRA NIR AR , FG ZVPUNRY ( 53EQ FG AR \ 52AQ FG AR; Arne: Svryqfgbar Ryrzragnel Fpubby)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:20\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a@ZZ 206 JO (V94 )
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:19\aQvfcngpurq\aSver - Bgure ~ 9600\a9813 44GU FG AR , FG ZVPUNRY ( WNAFRA NIR AR / 43EQ FG AR; Arne: Thgmjvyyre Cnex)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:18\aQvfcngpurq\aSver - Iruvpyr ~ 9600\a@Qnyrf Ercnve & Ze Gver, FG ZVPUNRY (13100 43EQ FG AR )
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:16\aQvfcngpurq\aNynez - Sver ~ 9600\a5800 WNZVFBA NIR AR , FG ZVPUNRY ( 60GU FG AR \ 45GU FG AR; Arne: FGZN Uvtu Fpubby)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:14\aQvfcngpurq\aNynez - Sver ~ 9600\a@FGZN Uvtu Fpubby, FG ZVPUNRY (5800 WNZVFBA NIR AR )
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:13\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a50GU FG AR \ ZNLRYVA NIR AR (, FG ZVPUNRY)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:12\aQvfcngpurq\aZrqvpny - Purfg Cnva ~ 9730\a4400 YNATR NIR AR , FG ZVPUNRY ( SENAXSBEG CXJL AR /; Arne: Yrtnpl bs Fg Zvpunry)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:10\aQvfcngpurq\aSver - Bgure ~ 9600\a38 ONYFNZ NIR FJ , FG ZVPUNRY (; Arne: Onyfnz Ncgf)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:9\aQvfcngpurq\aSver - Bgure ~ 9600\a@Fg Zvpunry Ryrzragnel Fpubby, FG ZVPUNRY (101 PRAGENY NIR J )
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:8\aQvfcngpurq\aSver - Fgehpgher ~ 9600\a4343 ZNLSVRYQ NIR AR , FG ZVPUNRY ( ZNLEBFR NIR AR / SENAXSBEG CXJL AR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:7\aQvfcngpurq\aPB Qrgrpgbe - RZF Arrqrq ~ 9600\a10208 46GU FG AR , FG ZVPUNRY ( XNRQVAT PG AR \ XNRYVA NIR AR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:6\aQvfcngpurq\aNynez - Sver ~ 9600\a101 PRAGENY NIR J , FG ZVPUNRY ( PRAGENY NIR R \ 1FG FG FJ; Arne: Fg Zvpunry Ryrzragnel Fpubby)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:5\aQvfcngpurq\aZrqvpny - Purfg Cnva ~ 9730\a4145 ZNPXRAMVR PG AR , FG ZVPUNRY
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:3\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\aPRAGENY NIR R \ 2AQ FG AR (, FG ZVPUNRY)
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:2\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a22398 131 ni a- Ebtref
+(Fg Zvpunry Sver Rznvy) FZSQ:2014:1\aQvfcngpurq\aSver - Fgehpgher ~ 9600\a2561 QVIVFVBA FG R , EBPXSBEQ GJC ( QNTHR NIR FR \ PNEYVAT NIR FR; Arne: Tbysznfgref Qevivat Enatr)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:297\aQvfcngpurq\aZrqvpny - Qvssvphygl Oernguvat ~ 9730\a2421 YNZOREG NIR AR , FG ZVPUNRY ( YNPUZNA NIR AR \ 22AQ FG AR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:296\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a6645 uvqqra ya uraar
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:294\aQvfcngpurq\aSver - Fgehpgher ~ 9600\a@Xjvx Gevc, FG ZVPUNRY (4400 B QNL NIR AR )
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:293\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a42AQ FG AR \ B QNL NIR AR (, FG ZVPUNRY)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:291\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a3870 TNOYRE NIR AR , FG ZVPUNRY
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:290\aQvfcngpurq\aNynez - Sver ~ 9600\a13200 43EQ FG AR , FG ZVPUNRY ( / ANORE NIR AR; Arne: W&O Jubyrfnyr)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:288\aQvfcbfrq\aNppvqrag - Iru - Vawhevrf ~ 9400\aZNVA FG A \ SENAXSBEG CXJL AR (, FG ZVPUNRY)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:289\aQvfcngpurq\aZrqvpny - Fcrpvny Erfphr ~ 9730\a8221 30GU FG AR , FG ZVPUNRY ( VSSREG NIR AR \ UNZYVA NIR AR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:288\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\aZNVA FG A \ SENAXSBEG CXJL AR (, FG ZVPUNRY)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:287\aQvfcngpurq\aZrqvpny - Purfg Cnva ~ 9730\a14681 54GU FG AR , FG ZVPUNRY
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:286\aQvfcngpurq\aSver - Bgure ~ 9600\a9632 43EQ FG AR , FG ZVPUNRY
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:285\aQvfcngpurq\aZrqvpny - 3eq Cnegl Pnyyre ~ 9730\a102 RQTRJBBQ QE FR , FG ZVPUNRY ( EVQTR QE FR / PVEPYR YA FR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:284\aQvfcngpurq\aSver - Fgehpgher ~ 9600\a333 UVYYPERFG QE FR , FG ZVPUNRY ( ZRNQBJYNEX EQ FR / 4GU FG FR; Arne: Pbhagelfvqr Pbggntrf)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:283\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a11164 16GU FG AR , FG ZVPUNRY ( CEVINGR QE /)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:282\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\aBTERA NIR AR \ 45GU FG AR (, FG ZVPUNRY)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:280\aQvfcngpurq\aSver - Bgure ~ 9600\a5068 VONEEN NIR AR #AG ZNVA, FG ZVPUNRY ( 56GU FG AR \ 45GU FG AR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:279\aQvfcngpurq\aNynez - Sver ~ 9600\a9764 40GU CY AR , FG ZVPUNRY ( WNAFRA NIR AR / WNAQRY NIR AR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:278\aQvfcngpurq\aZrqvpny - Qvssvphygl Oernguvat ~ 9730\a104 OVEPU NIR AR , FG ZVPUNRY ( 2AQ FG AR \ 1FG FG AR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:276\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a2184 YNATFGBA YA AR , FG ZVPUNRY ( YNATFGBA PG AR \ 22AQ PVE AR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:275\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a120 1FG FG FR , FG ZVPUNRY ( FGNGR UVTUJNL 241 AR \ PURFGAHG NIR FR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:274\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a@ZZ 205 RO (V94 )
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:272\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a11165 18GU CY AR , FG ZVPUNRY
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:271\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a5370 ANORE NIR AR , FG ZVPUNRY
+(Fg Zvpunry Sver Rznvy) \aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a4400 YNATR NIR AR , FG ZVPUNRY ( SENAXSBEG CXJL AR /; Arne: Yrtnpl bs Fg Zvpunry)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:269\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\aZNVA FG A \ OVEPU NIR AJ (, FG ZVPUNRY)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:268\aQvfcngpurq\aZrqvpny - Fgebxr ~ 9730\a11476 GBJA PRAGRE QE AR , FG ZVPUNRY ( BEYRNAF QE AR / CEVINGR QE)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:267\aQvfcngpurq\aZrqvpny - Fgebxr ~ 9730\a11893 45GU PVE AR , FG ZVPUNRY
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:266\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a2750 SRAAVAT NIR AR , FG ZVPUNRY
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:265\aQvfcngpurq\aSver - Tenff ~ 9600\a30GU FG AR \ WNZVFBA NIR AR (, FG ZVPUNRY)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:264\aQvfcngpurq\aSver - Fgehpgher ~ 9600\a13467 45GU FG AR , FG ZVPUNRY
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:263\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a4888 YNAFVAT NIR AR , FG ZVPUNRY ( 49GU FG AR \ 48GU FG AR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:262\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a1333 WNARGG NIR AR , FG ZVPUNRY ( XNQYRE NIR AR / 10GU FG AR; Arne: Jvyuryz)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:261\aQvfcngpurq\aNynez - Sver ~ 9600\a4545 ZNLSVRYQ NIR AR , FG ZVPUNRY ( ZNLRYVA NIR AR / ZNLEBFR NIR AR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:260\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a46 3EQ FG AJ , FG ZVPUNRY ( CEVINGR QE / PRAGENY NIR J)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:258\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a13356 44GU PG AR , FG ZVPUNRY ( ANCVRE CXJL AR /)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:257\aQvfcngpurq\aZrqvpny - Fgebxr ~ 9730\a13864 46GU YA AR , FG ZVPUNRY ( BNXJBBQ CXJL AR /)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:256\aQvfcngpurq\aSver - Fgehpgher ~ 9600\a24523 Ghpxre eq Ebtref
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:255\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a@Pebj Evire Zbgry, FG ZVPUNRY (14510 45GU FG AR )
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:254\aQvfcngpurq\aNynez - Sver ~ 9600\a14 2AQ FG AR , FG ZVPUNRY ( NFU NIR AR / PRAGENY NIR R)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:253\aQvfcngpurq\aSver - Fgehpgher ~ 9600\a8260 10GU FG FR , EBPXSBEQ GJC ( VQRFBA NIR FR \ VONEEN NIR FR)
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:251\aQvfcngpurq\aZrqvpny - Purfg Cnva ~ 9730\a@Yrtnpl bs Fg Zvpunry, FG ZVPUNRY (4400 YNATR NIR AR )
+(Fg Zvpunry Sver Rznvy) FZSQ:2013:250\aQvfcngpurq\aSver - Bgure ~ 9600\a@Fg Zvpunry Senaxsbeg Sver FZSQ, FG ZVPUNRY (12239 42AQ FG AR )
+
 */
 
 choyvp pynff ZAJevtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -218,3 +289,4 @@ choyvp pynff ZAJevtugPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     arj ZAJevtugPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
+
