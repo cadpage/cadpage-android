@@ -1,38 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01222013</string>
-  <string name="release_version">v1.7.04</string>
+  <string name="release_date">01262013</string>
+  <string name="release_version">v1.7.05</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-New Features:\n
-Included instructions on running Cadpage with the Active911 app.  Added button to launch Active911 app from Cadpage.\n
-\n
 New Locations:\n
-Limestone County, AL\n
-Biloxi, MS\n
-Cuyahoga County, NY (alt)\n
-Suffolk County, NY (alt)\n
-Portage County, OH\n
-Columbia County, OR\n
-Kendall County, TX\n
+Hoover, AL\n
+Okaloosa County, FL\n
+San Juan County, NM\n
+Alleghany County, NC\n
 \n
 Location Parsing Fixes:\n
-Chilton County, AL\n
-Greene County, MO\n
-Iron County, MO\n
-St Louis County, MO\n
-Clark County, NV\n
-Chautauqua County, NY\n
+Richland County, IL\n
+Johnson County, MO\n
 Madison County, NY\n
-Oneida County, NY\n
-Forsyth County, NC\n
-Nash County, NC\n
-Pennington County, SD\n
-Salt Lake County, UT\n
+Onslow County, NC\n
+Crawford County, PA\n
+Minnehaha County, SD\n
+Loudoun County, VA\n
+New Zealand\n
 \n
 General Fixes:\n
-Fixed startup crash on a device that has no configured phone number.\n
+Updated Swedish language text\n
 
   </string>
 </resources>
