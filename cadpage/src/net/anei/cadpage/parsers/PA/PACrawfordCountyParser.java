@@ -8,8 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
 
 public class PACrawfordCountyParser extends DispatchBParser {
-  
-  private static final Pattern MARKER = Pattern.compile("^OESCAD(?:@WINDSTREAM.NET)?:");
+  private static final Pattern MARKER = Pattern.compile("^(?:CRAWFORD COUNTY +911 +)?OESCAD(?:@WINDSTREAM.NET)?:");
 
   public PACrawfordCountyParser() {
     super(CITY_LIST, "CRAWFORD COUNTY", "PA");
@@ -27,7 +26,6 @@ public class PACrawfordCountyParser extends DispatchBParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.contains(">")) return false;
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     body = subject + " " + body.substring(match.end()).trim();
