@@ -114,6 +114,7 @@ public class ParserList {
               ,"ALDothan"                       ,"Dothan, AL"
               ,"ALGenevaCounty"                 ,"Geneva County, AL"
               ,"ALHenryCounty"                  ,"Henry County, AL"
+              ,"ALHoover"                       ,"Hoover, AL"
               ,"ALJeffersonCounty"              ,"Jefferson County, AL"
               ,"ALLauderdaleCounty"             ,"Lauderdale County, AL"
               ,"ALLimestoneCounty"              ,"Limestone County, AL"
@@ -499,6 +500,7 @@ public class ParserList {
           ),
           new ParserCategory("New Mexico"
               ,"NMDonaAnaCounty"                ,"Dona Ana County, NM"
+              ,"NMSanJuanCounty"                ,"San Juan County, NM"
           ),
           new ParserCategory("New York"
               ,"NYAlbanyCounty"                 ,"Albany County, NY"
@@ -551,6 +553,7 @@ public class ParserList {
           new ParserCategory("North Carolina"
               ,"NCAlamanceCounty"               ,"Alamance County, NC"
               ,"NCAlexanderCounty"              ,"Alexander County, NC"
+              ,"NCAlleghanyCounty"              ,"Alleghany County, NC"
               ,"NCAnsonCounty"                  ,"Anson County, NC"
               ,"NCBrunswickCounty"              ,"Brunswick County, NC"
               ,"NCBuncombeCounty"               ,"Buncombe County, NC"

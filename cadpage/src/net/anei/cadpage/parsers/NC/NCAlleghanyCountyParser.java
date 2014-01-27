@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * fAlamance county, NC
+ * Alleghany County, NC
  */
 public class NCAlleghanyCountyParser extends FieldProgramParser {
   
