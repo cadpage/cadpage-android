@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.MI;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
@@ -18,13 +20,22 @@ public class MILivingstonCountyParser extends DispatchOSSIParser {
   
   public MILivingstonCountyParser() {
     super(CITY_CODES, "LIVINGSTON COUNTY", "MI",
-           "( CANCEL ADDR CITY | SRC ADDR CITY? CALL | FYI? CALL PLACE? ADDR/s! X? X? ) INFO+");
+          "( CANCEL ADDR CITY! | UNIT_SRC ADDR CITY_PLACE? CALL! | FYI? CALL PLACE? ADDR/s! X? X? ) INFO+");
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (body.startsWith("FYI: ;") || body.startsWith("Update: ;")) body = "CAD:" + body;
+    if (!body.startsWith("CAD:")) body = "CAD:" + body;
     return super.parseMsg(body, data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CANCEL")) return new CancelField();
+    if (name.equals("UNIT_SRC")) return new MyUnitSourceField();
+    if (name.equals("CITY_PLACE")) return new MyCityPlaceField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private class CancelField extends CallField {
@@ -35,6 +46,68 @@ public class MILivingstonCountyParser extends DispatchOSSIParser {
     @Override
     public String getFieldNames() {
       return "CALL";
+    }
+  }
+  
+  private static final Pattern UNIT_SRC_PTN = Pattern.compile("(?:\\{(.*)\\} *)?([A-Z]{4})");
+  private class MyUnitSourceField extends Field {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = UNIT_SRC_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strUnit = getOptGroup(match.group(1));
+      data.strSource = match.group(2);
+      return true;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "UNIT SRC";
+    }
+  }
+  
+  private class MyCityPlaceField extends CityField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      String code;
+      if (field.length() > 4) {
+        code = field.substring(0,4).trim();
+        field = field.substring(4).trim();
+      } else {
+        code = field;
+        field = "";
+      }
+      String city = CITY_CODES.getProperty(code);
+      if (city == null) return false;
+      data.strCity = city;
+      data.strPlace = field;
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CITY PLACE";
     }
   }
   
@@ -49,14 +122,11 @@ public class MILivingstonCountyParser extends DispatchOSSIParser {
         super.parse(field, data);
       }
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CANCEL")) return new CancelField();
-    if (name.equals("SRC")) return new SourceField("[A-Z]{4}", true);
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO CITY";
+    }
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
