@@ -219,6 +219,7 @@ public class ParserList {
               ,"FLLakeCounty"                   ,"Lake County, FL"
               ,"FLLeeCounty"                    ,"Lee County, FL"
               ,"FLManateeCounty"                ,"Manatee County, FL"
+              ,"FLOkaloosaCounty"               ,"Okaloosa County, FL"
               ,"FLPensacola"                    ,"Pensacola, FL"
               ,"FLSarasotaCounty"               ,"Sarasota County, FL"
           ),

@@ -38,7 +38,7 @@ public class DispatchA3Parser extends FieldProgramParser {
           : version == 1 ?
               "ID? ADDR/SXP APT CH CITY! EMPTY+? CALL CALL ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+"
           : version == 2 ?
-              "ID ADDR APT CH CITY X X MAP INFO1 SKIP CALL! PLACENAME PHONE UNIT INFO+"
+              "ID? ADDR APT CH CITY X X MAP INFO1 SKIP CALL! PLACENAME PHONE UNIT INFO+"
           : null);
   }
   
