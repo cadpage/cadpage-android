@@ -25,6 +25,10 @@ Fraqre: pnqcntr@wbpb911.bet
 911 Cntr / WPFB ZIP CEBCREGL QNZNTR FR QQ UJL & FR 23 UJL WBUAFBA PBHAGL Qvfcngpu: 5/25/2013 03:00:22\a
 911 Cntr / WPS SVER FGEHPGHER 944 AR 23 UJL WBUAFBA PBHAGL Qvfcngpu: 6/10/2013 12:50:45\a
 
+Pbagnpg: Pnegvar Tyraa <pnegvar88@tznvy.pbz>
+Fraqre: pnqcntr@wbpb911.bet
+911 Cntr / WPS SVER TENFF AR 600 EQ & AR 13 UJL WBUAFBA PBHAGL Qvfcngpu: 1/26/2014 18:41:08 Qvfcngpu: 1/26/2014 18:41:08
+
 */
 
 choyvp pynff ZBWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -107,6 +111,19 @@ choyvp pynff ZBWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:6/10/2013",
         "GVZR:12:50:45");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPnegvarTyraa() {
+
+    qbGrfg("G1",
+        "911 Cntr / WPS SVER TENFF AR 600 EQ & AR 13 UJL WBUAFBA PBHAGL Qvfcngpu: 1/26/2014 18:41:08 Qvfcngpu: 1/26/2014 18:41:08",
+        "PNYY:WPS SVER TENFF",
+        "NQQE:AR 600 EQ & AR 13 UJL",
+        "ZNQQE:AR 600 EQ & AR UJL 13",
+        "QNGR:1/26/2014",
+        "GVZR:18:41:08");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

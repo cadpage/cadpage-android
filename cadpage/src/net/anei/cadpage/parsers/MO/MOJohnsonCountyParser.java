@@ -48,7 +48,8 @@ public class MOJohnsonCountyParser extends SmartAddressParser {
     data.strTime = match.group(2);
     if (match.start() == 0) {
       body = body.substring(match.end()).trim();
-    } else if (match.end() == body.length()) {
+    } else if (match.end() == body.length() ||
+               body.substring(match.end()).trim().equals(match.group())) {
       body = body.substring(0,match.start());
     } else return false;
     
