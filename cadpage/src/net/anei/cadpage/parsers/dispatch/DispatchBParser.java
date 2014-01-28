@@ -272,6 +272,7 @@ public class DispatchBParser extends FieldProgramParser {
         "BTHPRB",
         "BUILDING FIRE",
         "CAD SYSTEM TEST",
+        "CARBON MONOXIDE INVESTIGATION",
         "CARDIAC ARREST",
         "CARDIAC ARREST/DEATH ECHO",
         "CARDIAC OR RESP ARREST/DEATH",

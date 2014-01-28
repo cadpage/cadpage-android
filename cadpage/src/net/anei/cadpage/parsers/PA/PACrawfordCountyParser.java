@@ -26,9 +26,14 @@ public class PACrawfordCountyParser extends DispatchBParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    boolean good = subject.contains(">");
     Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    body = subject + " " + body.substring(match.end()).trim();
+    if (match.find()) {
+      good = true;
+      body = body.substring(match.end()).trim();
+    }
+    if (!good) return false;
+    body = subject + " " + body;
     if (!super.parseMsg(body, data)) return false;
     if (data.strCity.toUpperCase().endsWith(" BORO")) {
       data.strCity = data.strCity.substring(0,data.strCity.length()-5).trim();
