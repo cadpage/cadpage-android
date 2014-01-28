@@ -185,7 +185,7 @@ gur pnyy vsabezngvba
 Cebtenz fgevat
 FEP PNYY NQQEPVGL HAVG HAVG VASB
 
-Unir gb bireevqr HAVG naq nccraq gur gjb svryqf gbtrugre, gur qrsnhyg HavgSvryq
+Unir gb bireevqr HAVG naq nccraq gur gjb svryqf gbtrgure, gur qrsnhyg HavgSvryq
 ercynprf gur rkvfgvat inyhr.  V fubhyq perngr dhny pbqr be nabgure anzrq havg
 svryq gb qb gung, vg pbzrf hc n ybg.
 

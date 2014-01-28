@@ -1233,7 +1233,7 @@ public abstract class MsgParser {
    if (found) name = name.substring(0,match.start()).trim();
    return name;
  }
- private static final Pattern WIRELESS_CARRIER_PTN = Pattern.compile("\\b(?:VERIZON(?: WIRELESS)?|(?:ATT? ?& ?T|ATT)(?: MOBILITY)?|ATTMO|T-MOBILE|SPRINT(?:PCS)?|US CELLULAR|METRO ?PCS|CORR WIRELESS)\\b.*", Pattern.CASE_INSENSITIVE);
+ private static final Pattern WIRELESS_CARRIER_PTN = Pattern.compile("\\b(?:VERIZON(?: WIRELESS)?(?: INTRADO \\(PSAP\\))?|(?:ATT? ?& ?T|ATT)(?: MOBILITY)?(?: \\(TCS\\))?|ATTMO|CONNEXON|T-MOBILE|SPRINT(?:PCS)?(?: NEXTEL- CDMA)?|US CELLULAR|METRO ?PCS|CORR WIRELESS)\\b.*", Pattern.CASE_INSENSITIVE);
 
  
  /**
