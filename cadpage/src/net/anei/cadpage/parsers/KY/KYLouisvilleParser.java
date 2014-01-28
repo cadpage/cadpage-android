@@ -64,6 +64,11 @@ public class KYLouisvilleParser extends FieldProgramParser {
       field = p.get();
       if (field.startsWith("@")) field = field.substring(1).trim();
       super.parse(field, data);
+      pt = data.strCity.indexOf('/');
+      if (pt >= 0) {
+        data.strPlace = append(data.strPlace, " - ", data.strCity.substring(0,pt));
+        data.strCity = data.strCity.substring(pt+1);
+      }
     }
     
     @Override
@@ -97,6 +102,7 @@ public class KYLouisvilleParser extends FieldProgramParser {
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ANC",  "ANCHORAGE",
+      "AUD",  "AUD/LOUISVILLE",
       "BAR",  "BARBOURMEADE",
       "BELM", "BELLEMEADE",
       "BRM",  "BLUE RIDGE MANOR",
@@ -115,6 +121,7 @@ public class KYLouisvilleParser extends FieldProgramParser {
       "JTN",  "JEFFERSONTOWN",
       "LVIL", "LOUISVILLE",
       "LYND", "LYNDON",
+      "LYNN", "LYNN/LOUISVILLE",
       "MCRE", "MANOR CREEK",
       "MEDE", "MEADOWVIEW ESTATES",
       "MEDV", "MEADOWVALE",
@@ -123,6 +130,7 @@ public class KYLouisvilleParser extends FieldProgramParser {
       "MTWN", "MIDDLETOWN",
       "NORT", "NORTHFIELD",
       "NOWD", "NORWOOD",
+      "PHIL", "PHIL/LOUISVILLE",
       "PLAN", "PLANTATION",
       "RFIE", "ROLLING FIELDS",
       "RHIL", "ROLLING HILLS",
@@ -133,6 +141,7 @@ public class KYLouisvilleParser extends FieldProgramParser {
       "WDHI", "WOODLAND HILLS",
       "WDPK", "WOODLAWN PARK",
       "WHIL", "WINDY HILLS",
+      "WTPK", "WTPK/LOUISVILLE",
       "WTWD", "WESTWOOD"
 
   });

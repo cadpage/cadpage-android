@@ -187,6 +187,112 @@ Fraqre: ZrgebFnsrGrpu <ZrgebFnsrGrpu@ybhvfivyyrxl.tbi>
 (VCF V/Cntr Abgvsvpngvba) Ybpngvba: 12609 GNLYBEFIVYYR EQ YIVY:CAP ONAX GLCR PBQR: FP1034 FHO GLCR: NYNEZ GVZR: 21:43:05 Pbzzragf:  QHERFF FVYRAG BA BCRA AGSL CRE# - 53262 C4 CQ3 GPVF / EBOOREL 941 BX 
 (VCF V/Cntr Abgvsvpngvba) Ybpngvba: 7508 JRFGQNYR EQ TZBE GLCR PBQR: FP1054 FHO GLCR: qrsnhyg GVZR: 21:33:16 Pbzzragf:  PBZC NQI FBZRBAR FUBG OO THA NG ONPX JVAQBJ PBZC QBRF ABG JNAG 10-42 PBZC QBRF ABG JNAG 10-21 AB IVFVOYR CEBCREGL QNZNTR PBZC NQI WHFG JNAGF NA BSP GB FRNEPU GUR NERN 
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Pnzc Gnlybe Sver Qvfgevpg
+Ybpngvba: Ybhvfivyyr, XL, Havgrq Fgngrf
+Fraqre: ZrgebFnsrGrpu <ZrgebFnsrGrpu@ybhvfivyyrxl.tbi>
+
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3531 OYHRTENFF CNEX QE JGCX GLCR PBQR: NFFVFG FHO GLCR: RZF GVZR: 02:42:39 Pbzzragf:  SNYY CebDN qvfcngpu pbqr: 17N03 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy. Gur cngvrag vf n 55-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. CHOYVP NFFVFG (ab vawhevrf naq ab cevbevgl flzcgbzf) (Ba gur tebhaq be sybbe). CHOYVP NFFVFG (ab vawhevrf naq ab cevbevgl flzcgbzf) (Ba gur tebhaq be sybbe). 55 L/B SRZNRY, SNYY, ARRQF YVSG NFFVFG 300YO R261N SYBLQ/OENAQ RZF ERD SVER PBQR BAR/YVSG NFFVFG ABJ ERD PBQR 3 ERFCBAFR ** Pnfr ahzore 5014000081 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: GNEV OEBBXF ba grezvany: 911zf21 ** Pnfr ahzore 3714000105 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: GNEV OEBBXF ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1304 URYPX NIR YIVY GLCR PBQR: SVER FHO GLCR: PBAGEBYYRQ_OHEA GVZR: 14:13:50 Pbzzragf:  ** Pnfr ahzore 5014000080 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5020 HAFRYQ OYIQ YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 23:48:23 Pbzzragf:  ORQEBBZ BA SVER RINPHNGVAT NQI RIRELBAR BHG - ERS RZF ** Pnfr ahzore 8014000219 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: GNEV OEBBXF ba grezvany: 911zf21 ** Pnfr ahzore 5014000079 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: GNEV OEBBXF ba grezvany: 911zf21 ** Pnfr ahzore 3714000099 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: GNEV OEBBXF ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3318 EBOVA EQ NHQ GLCR PBQR: TNF_YRNX FHO GLCR: BHGFVQR GVZR: 16:53:16 Pbzzragf:  TNF YRNX SEBZ TNF YVAR ORUVAQ YBPNGVBA ARNE EE GENPXF FGEBAT FZRYY BS TNF PBZVAT SEBZ YBP YT/R ERPQ PNYY SEBZ N PVGVMRA PVGVMRA YVIRF NG 3318 EBOVA EQ, 2 YT/R VA EBHGR NF JRYY ** Pnfr ahzore 5014000077 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27 ** Pnfr ahzore 8014000216 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4314 OVFUBC YA JGCX: @OVFUBC YNAR CYNMN GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 16:34:53 Pbzzragf:  FVZCYRK CNARY 569-6626/AGSL ** Pnfr ahzore 5014000076 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27 ** Pnfr ahzore 8014000215 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27 ** Pnfr ahzore 3714000097 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4820 WRAAVATF YA JGCX: QFV QFVGEVOHGBEF GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 15:26:36 Pbzzragf:  EVFRE 2 SYBJ FJVGPU ERS 433585475 ** Pnfr ahzore 3714000096 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27 ** Pnfr ahzore 8014000213 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27 ** Pnfr ahzore 5514000101 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27 SVER 5 ** Pnfr ahzore 5014000075 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3208 PUVADHNCVA YA YIVY GLCR PBQR: SVER FHO GLCR: NHGBZBOVYR GVZR: 13:59:49 Pbzzragf:  GEHPX ORUVAQ YBP BA SVER ** Pnfr ahzore 5014000074 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1239 TVYZBER YA YLAA:YLAAIVRJ YVDHBEF NAQ GNIREA GLCR PBQR: SVER FHO GLCR: PBZZREPVNY GVZR: 16:20:42 Pbzzragf:  ERNE JNYY BS OYQT BA SVER ** Pnfr ahzore 5014000073 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf27 ** Pnfr ahzore 8014000205 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf27 ** Pnfr ahzore 3714000092 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf27
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4614 NFGBE EQ YIVY: UBHFGBA RDHVCZRAG FREIVPR GLCR PBQR: SVER FHO GLCR: PBZZREPVNY GVZR: 04:40:40 Pbzzragf:  ** Pnfr ahzore 5014000072 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 8014000200 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 3714000089 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 YET NZG BS FZBXR SEBZ EBBS PYYE JBEXF VA OHFA NPEBFF FGERRG JBEXVAT SVER YTR ABGVSVRQ - TNF & RYRPGEVP 5003 PBZZNAQ 3703 FNSRGL EDFG GNEP 8033 Y1 EVG GNEP BX
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4614 NFGBE EQ YIVY: UBHFGBA RDHVCZRAG FREIVPR GLCR PBQR: SVER FHO GLCR: PBZZREPVNY GVZR: 04:40:40 Pbzzragf:  ** Pnfr ahzore 5014000072 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 8014000200 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 3714000089 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4407 PBFOL PG YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 21:08:37 Pbzzragf:  FZBXR PBZVAT SEBZ ONFRZRAG ** Pnfr ahzore 8014000198 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WRAAVSRE GUBZCFBA ba grezvany: 911zf26 ** Pnfr ahzore 5014000071 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE GUBZCFBA ba grezvany: 911zf26 ** Pnfr ahzore 3714000088 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WRAAVSRE GUBZCFBA ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1367 TNEQVARE YA JGCX: @PNAQYRJBBQ FHVGRF - TNEQVARE & FPUZVGG GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 13:49:45 Pbzzragf:  357-3577, TRARENY, JVYY AGSL, CREZVG/ ** Pnfr ahzore 5014000070 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21 ** Pnfr ahzore 3714000087 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21 ** Pnfr ahzore 8014000195 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4925 URYYRE FG YIVY: UREVGNTR RAIVEBAZRAGNY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 12:13:58 Pbzzragf:  CERZ CUA 502-473-7942 CREZVG# 27654 JNGRE SYBJ AGLSVAT ** Pnfr ahzore 8014000194 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 3714000086 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 5014000069 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 5514000095 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1360 QHEERGG YA YIVY:AVYPB PBZCNAL GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 10:10:16 Pbzzragf:  FUBJVAT JNGRE SYBJ BA EVFRE #4 ** Pnfr ahzore 8014000191 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21 ** Pnfr ahzore 3714000084 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21 ** Pnfr ahzore 5014000068 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4915 OYHROVEQ PVE YLAA GLCR PBQR: TNF_YRNX FHO GLCR: BHGFVQR GVZR: 21:57:46 Pbzzragf:  BYQRE ZNYR ONPX CBEPU YVTUG VF TBVAT BA NAQ BSS YVIRF OL UVZFRYS PNYYREF QBTF UNIR ORRA ONEXVAT NG GUR UBHFR SBE N PBHCYR BS QNLF AB 10-21 AB YLAAIVRJ BA QHGL ** Pnfr ahzore 5014000067 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PBYYRRA XNGF ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1360 QHEERGG YA YIVY: AVYPB GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 14:47:28 Pbzzragf:  CERZ CUA 502-368-3331 CREZVG# ABAR JNGRE SYBJ SEBZ EVFRE 4 AGSLVAT ** Pnfr ahzore 5014000066 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28 ** Pnfr ahzore 8014000180 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28 ** Pnfr ahzore 3714000079 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1360 QHEERGG YA YIVY:@AVYPB GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 14:32:55 Pbzzragf:  JNGRE SYBJ EVFRE 4 MBAR 8 CERZ CU 368-3331 ** Pnfr ahzore 5014000065 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28 ** Pnfr ahzore 8014000179 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28 ** Pnfr ahzore 3714000078 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1240 CVTRBA CNFF EQ YLAA GLCR PBQR: NYNEZ FHO GLCR: ERFVQRAGVNY GVZR: 06:36:50 Pbzzragf:  UNYYJNL FZBXR QRGRPGBE ** Pnfr ahzore 5014000064 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YBEV ONXRE ba grezvany: 911zf21 ** Pnfr ahzore 8014000174 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YBEV ONXRE ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1405 OHAGBA EQ JGCX GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 02:12:59 Pbzzragf:  FRZV GEHPX BIRE GHEARQ, ERFPHR ** Pnfr ahzore 5014000063 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4912 YNTBBAN QE YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 23:05:58 Pbzzragf:  NYNEZ TBVAT BSS, FZRYYF FZBXR ABGUVAT FRRA ** Pnfr ahzore 8014000172 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf21 ** Pnfr ahzore 5014000062 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf21 ** Pnfr ahzore 3714000076 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 2020 ONFUSBEQ ZNABE YA JO: @JNYZNEG - ONFUSBEQ ZNABE GLCR PBQR: TNF_YRNX FHO GLCR: VAFVQR GVZR: 18:03:32 Pbzzragf:  SVER ERFCBAQ GB TZ QBBE ** Pnfr ahzore 3714000074 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WBFU ARRYL ba grezvany: 911zf28 ** Pnfr ahzore 5014000061 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WBFU ARRYL ba grezvany: 911zf28 ** Pnfr ahzore 8014000170 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WBFU ARRYL ba grezvany: 911zf28 ** Pnfr ahzore 3314000183 unf orra nffvtarq sbe 33:PAGL ** >>>> ol: WBFU ARRYL ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: @V65F GB BHGRE YBBC GLCR PBQR: NPPVQRAG FHO GLCR: ERFPHR GVZR: 09:38:44 Pbzzragf:  FCRPVNY NQQERFF PBZZRAG: V65F GB BHGRE YBBC AB GENSSVP UBAQN YVP 7307SN IF FRZV FHOW VF TBVAT GB UNIR GB OR PHG BHG BS IRU 1163 RAE SEBZ FURYOLIVYYR NAQ V264 ** Pnfr ahzore 5014000060 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ONEEL FNZCFBA ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4604 FURCUREQFIVYYR EQ YIVY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 00:51:08 Pbzzragf:  CVAR UHEFG CEBCREGVRF PBZC IREVSVRQ NOBI NQQERFF FUBJVAT JNGRE SYBJ AGSL - ERDF QVFCNGPU CREZ# HAX CERZVF CU# 502-452-6104 ** Pnfr ahzore 8014000163 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: GERAGBA NYQEVQTR ba grezvany: 911zf20 ** Pnfr ahzore 3714000072 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: GERAGBA NYQEVQTR ba grezvany: 911zf20 ** Pnfr ahzore 5014000059 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: GERAGBA NYQEVQTR ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 2723 ZNFRZHER PG YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 18:42:04 Pbzzragf:  FGBIR BA SVER VAFVQR UBHFR ...SVER NYNEZ FBHAQVT ** Pnfr ahzore 3714000071 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: URNGURE JNGFBA ba grezvany: 911zf26 ** Pnfr ahzore 5514000082 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: URNGURE JNGFBA ba grezvany: 911zf26 ** Pnfr ahzore 5014000058 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: URNGURE JNGFBA ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3709 R VAQVNA GEY YIVY: @FPUBBY - VAQVNA GENVY RYRZRAGNEL FPUBBY GLCR PBQR: SVER FHO GLCR: GENFU GVZR: 17:23:30 Pbzzragf:  GENFU BA SVER ARNE ONFXRGONYY PBHEGF ** Pnfr ahzore 5014000057 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: URNGURE JNGFBA ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4154 ONEQFGBJA EQ YIVY: @GUBEAGBAF - ONEQFGBJA & OHRPURY OLC: GUBEAGBAF 54 GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 08:04:30 Pbzzragf:  CREZ # 28553, PBZVAT SEBZ ERT 2 ** Pnfr ahzore 3714000070 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WBUA JRVOYR ba grezvany: 911zf20 ** Pnfr ahzore 7114000082 unf orra nffvtarq sbe 71:PAGL ** >>>> ol: WBUA JRVOYR ba grezvany: 911zf20 ** Pnfr ahzore 8014000160 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WBUA JRVOYR ba grezvany: 911zf20 ** Pnfr ahzore 5014000056 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WBUA JRVOYR ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: CBCYNE YRIRY EQ/OVFUBC YA YIVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 20:14:13 Pbzzragf:  RZF PNYYRQ BHG, HAX VS ERYNGRQ GB 1048, RZF EBYYRQ HC BA NAQ QVQ ABG RZAGVBA CQ BA FPRAR IRU #2 UNF NYZBFG ORRA UVG FRIRENY GVZRF ARRQ SVER SBE JNFUBSS ** Pnfr ahzore 5014000055 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5317 QNUY EQ YIVY GLCR PBQR: NFFVFG FHO GLCR: RZF GVZR: 17:16:42 Pbzzragf:  CebDN qvfcngpu pbqr: 26P01 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub vf fvpx (be unf n pheerag zrqvpny pbaqvgvba). Gur cngvrag vf n 78-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. NYGRERQ YRIRY BS PBAFPVBHFARFF. 161 G9 ERD SVER YVSG NFFVFG PBQR 1, CG VA GUR ONFRZRAG ** Pnfr ahzore 5014000054 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 102 FCEVAT PERRX PG JGCX,3 GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 02:27:23 Pbzzragf:  FZBXR SEBZ URNGRE ** Pnfr ahzore 5014000053 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NAGUBAL ZPTNEEL ba grezvany: 911zf20 ** Pnfr ahzore 3714000066 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: NAGUBAL ZPTNEEL ba grezvany: 911zf20 ** Pnfr ahzore 8014000155 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NAGUBAL ZPTNEEL ba grezvany: 911zf20 FZRYY BS OHEAVAT
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: ARJOHET EQ/OVFUBC YA YIVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 22:35:02 Pbzzragf:  CebDN qvfcngpu pbqr: 29O03 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb zhygvcyr cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Bgure unmneqf (Zhygvcyr cngvragf naq Nqqvgvbany erfcbafr erdhverq). Zhygvcyr cngvragf vaibyirq: 4. Bgure unmneqf (Zhygvcyr cngvragf naq Nqqvgvbany erfcbafr erdhverq). 3.Bgure unmneqf fcrpvsvrq va pbzzragf ner cerfrag: YRNXVAT SYHVQF -Pbzzragf: YRNXVAT SYHVQF- VA SEBAG BS OC OYX PNE IF LYJ PNO NQI 4 FHOW'F VA OYX PNE VAWHERQ 27LB SRZNYR ARPX NAQ PURFG CNVA 28LB ZNYR ARPX NAQ ONPX CNVA 2 30LB ZNYRF JVGU ARPX NAQ ONPX CNVA 126N OERPX 277N QBHTYNFF/ONEQFGBJA CQ NQI GBGNY BS 6 CGF 211N 60/FNTR BVY ** Pnfr ahzore 5014000052 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4001 CEBQHPR EQ YIVY GLCR PBQR: TNF_YRNX FHO GLCR: BHGFVQR GVZR: 18:39:23 Pbzzragf:  ERD SVER SBE OEBXRA YVAR NG YBP, YT&R RE YT&R RE ABJ ** Pnfr ahzore 5014000051 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf26 ** Pnfr ahzore 8014000142 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4903 QR CEVRFG PG YIVY:BJRAF ERFVQRAPR GLCR PBQR: NYNEZ FHO GLCR: ERFVQRAGVNY GVZR: 20:37:18 Pbzzragf:  FUBJVAT GUR XRLCNQ SVER NYNEZ ** Pnfr ahzore 8014000134 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26 ** Pnfr ahzore 5014000050 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4314 OVFUBC YA JGCX: @JVYY R FRNL CYNMN GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 19:08:06 Pbzzragf:  HXA NYNEZ NPSF SEBZ NYNEZ PB ** Pnfr ahzore 5014000049 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf27 ** Pnfr ahzore 3714000055 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf27 ** Pnfr ahzore 8014000133 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf27
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1331 TVYZBER YA YIVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 13:16:26 Pbzzragf:  NYG# 502-599-0491 -085.684133 +38.174733 HCF QRYVIREL GEX NAQ SBEQ RKCRQVGVBA NPSF, NAGVSERRMR NYY BIRE EBNQJNL ZIN CebDN qvfcngpu pbqr: 29O03 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Bgure unmneqf (Haxabja ahzore bs cngvragf). Haxabja ahzore bs cngvragf vaibyirq. Bgure unmneqf (Haxabja ahzore bs cngvragf). 3.Bgure unmneqf fcrpvsvrq va pbzzragf ner cerfrag: NAGVSERRMR NYY BIRE EBNQJNL -Pbzzragf: NAGVSERRMR NYY BIRE EBNQJNL- R255 NEGUHE SEBZ 65 ** Pnfr ahzore 5014000048 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WNAVPR REQZNA ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4314 OVFUBC YA JGCX: @JVYY R FRNL CYNMN GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 16:45:46 Pbzzragf:  ** Pnfr ahzore 5014000047 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf26 ** Pnfr ahzore 3714000052 unf orra nffvtarq sbe 37:PAGL FVZCYRK CNARY ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf26 ** Pnfr ahzore 8014000129 unf orra nffvtarq sbe 80:PAGL AGSL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3410 EBONEQF PG JGCX GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 17:13:15 Pbzzragf:  ORETRE YBHVFIVYYR OHFA JNGRE SYBJ ABGVSLVAT ** Pnfr ahzore 5014000046 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: CUVYYVC EBGURAOHETRE ba grezvany: 911zf26 ** Pnfr ahzore 8014000121 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: CUVYYVC EBGURAOHETRE ba grezvany: 911zf26 ** Pnfr ahzore 3714000050 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: CUVYYVC EBGURAOHETRE ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5302 SNVEL ORYYR PG YIVY GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 10:05:54 Pbzzragf:  SNYYF CebDN qvfcngpu pbqr: 17O01 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy. Gur cngvrag vf n 82-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. CBFFVOYL QNATREBHF obql nern (Ba gur tebhaq be sybbe). CBFFVOYL QNATREBHF obql nern (Ba gur tebhaq be sybbe). ERD SVER P1 SBE YVSG NFFVFG ** Pnfr ahzore 5014000045 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: CNGEVPVN CHRAGR ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5029 CBCYNE YRIRY EQ YIVY: NATRYB ORNHGL NAQ FHCCYL GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 20:47:50 Pbzzragf:  ZHYGVCYR UBYQ HC NYNEZF NYFB ERPRVIVAT ZRQVPNY NYNEZF NYFB ERPRVIVAT SVER NYNEZF FBZRBAR VF CERFFVAT NYY OHGGBAF ZHYGVCYR GVZRF AGSL / CERZVFR 502-408-3938 ** Pnfr ahzore 8014000117 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVAQFRL PNEQVA ba grezvany: 911zf26 ** Pnfr ahzore 5014000044 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVAQFRL PNEQVA ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1710 YVAPBYA NIR YIVY GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 12:08:25 Pbzzragf:  5051 PNYYRQ BHG,32 ZNYR RZCYBLRR,QBJA FGNEGVAT GB PBZR NEBHAQ ABJ ** Pnfr ahzore 5014000043 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ONEEL FNZCFBA ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: TNEQVARE YA/CBCYNE YRIRY EQ YIVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 21:23:02 Pbzzragf:  NYG# 502-905-8388 -085.706298 +38.193026 GNA NPPBEQ IF ERQ PNE NPSF ERD SVER SBE ZVGVTNGVBA ** Pnfr ahzore 5014000042 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 311 CYNMN NIR YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 14:22:41 Pbzzragf:  SVER, FZXR VA ONFRZRAG ** Pnfr ahzore 3714000046 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 5014000041 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 5514000053 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 7114000057 unf orra nffvtarq sbe 71:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 RINPHNGVAT SVER 5 2F ERFQ AF 3737 PXVAT UNMR VA GUR ONFRZRAG FYBJ HAVGF ERFCBAQVAT OHG PBAGVAHR S3737 PNA GNXR PBAGEBY
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 311 CYNMN NIR YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 14:22:41 Pbzzragf:  SVER, FZXR VA ONFRZRAG ** Pnfr ahzore 3714000046 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 5014000041 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 5514000053 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 7114000057 unf orra nffvtarq sbe 71:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3408 ARJOHET EQ JGCX GLCR PBQR: SVER FHO GLCR: GENFU GVZR: 08:05:25 Pbzzragf:  PBZC NQI ZNYR VA ERNE CNEXVAT YBG YVTUG SVER ** Pnfr ahzore 5014000040 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YBEV ONXRE ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 7110 TENQR YA YIVY:VFN NYB VAP GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 00:06:16 Pbzzragf:  PBZC NQI JNGRE SYBJ FLFGRZ 5 NYNEZ YVP 114, 415-7820, JVYY AGSL ** Pnfr ahzore 5014000039 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZVPUNRY EBBXF ba grezvany: 911zf21 ** Pnfr ahzore 8014000105 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZVPUNRY EBBXF ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4820 WRAAVATF YA JGCX:OSV QVFGEVOHGBE GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 14:09:40 Pbzzragf:  FUBJVAT EVFRE SYBJ, FZBXR QRGRPGBE CERZ CU 614-402-2777 JVYY AGSL ** Pnfr ahzore 5014000038 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf26 ** Pnfr ahzore 8014000101 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf26 ** Pnfr ahzore 3714000043 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: CEBQHPR EQ/WRAAVATF YA YIVY GLCR PBQR: NPPVQRAG FHO GLCR: ERFPHR GVZR: 06:39:41 Pbzzragf:  CebDN qvfcngpu pbqr: 29Q04 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag vawherq va n genssvp vapvqrag. Gur cngvrag vf bs haxabja ntr naq traqre, jubfr pbafpvbhfarff naq oernguvat vf haxabja. Cvaarq (genccrq) ivpgvz. 2.Bgure unmneqf fcrpvsvrq va pbzzragf ner cerfrag: IF CBYR -Pbzzragf: IF CBYR- FHI IF CBYR ARNE GENVA GENPXF, ABG BA GENPXF SRZNYR GENCCRQ VAFVQR ** Pnfr ahzore 5014000037 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: CNGEVPVN CHRAGR ba grezvany: 911zf20 ** Pnfr ahzore 8014000091 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: CNGEVPVN CHRAGR ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 6535 CNENZBHAG CNEX QE YIVY:PBZSBEG FHVGRF GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 16:22:49 Pbzzragf:  TRARENY SVER NYNEZ ** Pnfr ahzore 8014000086 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27 ** Pnfr ahzore 5014000036 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4420 OVFUBC YA JGCX:QRNAF SBBQF GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 15:48:29 Pbzzragf:  JNGRE SYBJ EVFRE GJB ** Pnfr ahzore 5014000035 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27 ** Pnfr ahzore 8014000084 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27 ** Pnfr ahzore 3714000038 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4420 OVFUBC YA JGCX:QRNAF SBBQF GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 15:48:29 Pbzzragf:  JNGRE SYBJ EVFRE GJB ** Pnfr ahzore 5014000035 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27 ** Pnfr ahzore 8014000084 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27 ** Pnfr ahzore 3714000038 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5617 PENONCCYR PG YIVY GLCR PBQR: JNGRE_YRNX FHO GLCR: VAFVQR GVZR: 14:55:05 Pbzzragf:  JNGRE YRNX VA NGGNPURQ TNENTR ZVYQ YNAT ONEEVRE ** Pnfr ahzore 5014000034 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5612 WRNAVAR QE YIVY GLCR PBQR: JNGRE_YRNX FHO GLCR: VAFVQR GVZR: 14:05:29 Pbzzragf:  JNGRE PBZVAT SEBZ JNYYF VA ONFRZRAG N SRJ VAPURF BS JNGRE PBIREVAT SYBBE ** Pnfr ahzore 5014000033 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4700 F UHEFGOBHEAR CXL YIVY: ZRVWRE TNF FGNGVBA GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 13:36:31 Pbzzragf:  FZBXR QRGRPGBE AGSL / CERZVFR # 502-493-4909 ** Pnfr ahzore 7114000045 unf orra nffvtarq sbe 71:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20 ** Pnfr ahzore 5014000032 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5205 EHFFRGG OYIQ YIVY,4 GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 10:16:20 Pbzzragf:  CVCRF OHFGRQ NAQ JNGRE JNF YRNXVAT NAQ ABJ VF FZRYYVAT FBZRGUVAT OHEAVAT ** Pnfr ahzore 8014000077 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20 ** Pnfr ahzore 5014000031 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20 ** Pnfr ahzore 3714000035 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1501 TNEQVARE YA JGCX:PEBFF ZBGBEF GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 09:30:44 Pbzzragf:  JNGRE SYBJ JVYY AGSL CERZVFR # 459-9900 ** Pnfr ahzore 5014000030 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf28 ** Pnfr ahzore 8014000075 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf28 ** Pnfr ahzore 5514000035 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1501 ENATRYNAQ EQ YIVY: @FPUBBY - GUBZNF WRSSREFBA ZVQQYR FPUBBY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 05:33:53 Pbzzragf:  FZBXR NYNEZ TBVAT BSS NG SVER CNARY WPCF RAEBHGR ** Pnfr ahzore 8014000073 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: PBYYRRA XNGF ba grezvany: 911zf21 ** Pnfr ahzore 5014000029 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PBYYRRA XNGF ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4515 OVFUBC YA JGCX:XRAGHPXL NFFBP RYRPGEVP GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 04:16:48 Pbzzragf:  OHFVARFF CUBAR#451-2430 PBZVAT SEBZ JNGRE SYBJ EVFRE 1 ** Pnfr ahzore 5014000028 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21 ** Pnfr ahzore 8014000071 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21 ** Pnfr ahzore 3714000032 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21 ABGVSLVAT VAPBEERPG BA FPRAR GVZR 5051 AF 1 FGBEL PBZZ 0424 BA FPRAR GVZR 3737 FGNAQVAT OL FVNZRFR
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4515 OVFUBC YA JGCX:XRAGHPXL NFFBP RYRPGEVP GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 04:16:48 Pbzzragf:  OHFVARFF CUBAR#451-2430 PBZVAT SEBZ JNGRE SYBJ EVFRE 1 ** Pnfr ahzore 5014000028 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21 ** Pnfr ahzore 8014000071 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21 ** Pnfr ahzore 3714000032 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: BHGRE YBBC/ZVABE YA YIVY GLCR PBQR: SVER FHO GLCR: PBZZREPVNY GVZR: 19:12:06 Pbzzragf:  PBZC NQI TERRAUBHFR BA SVER ** Pnfr ahzore 8014000065 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26 ** Pnfr ahzore 5014000027 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: CBCYNE YRIRY EQ/R VAQVNA GEY YIVY GLCR PBQR: NPPVQRAG FHO GLCR: ERFPHR GVZR: 18:08:14 Pbzzragf:  ZIN CebDN qvfcngpu pbqr: 29Q04 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb zhygvcyr cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Cvaarq (genccrq) ivpgvz (Zhygvcyr cngvragf). Zhygvcyr cngvragf vaibyirq: 2. Cvaarq (genccrq) ivpgvz (Zhygvcyr cngvragf). 3.Vg'f abg xabja vs purzvpnyf be bgure unmneqf ner vaibyirq. ** Pnfr ahzore 5014000026 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26 ** Pnfr ahzore 8014000062 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4235 BHGRE YBBC YIVY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 16:38:42 Pbzzragf:  JNGRE SYBJ NYNEZ ** Pnfr ahzore 5014000025 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26 ** Pnfr ahzore 8014000060 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 9405 EVIRE GENVY QE YIVY GLCR PBQR: NYNEZ FHO GLCR: ERFVQRAGVNY GVZR: 16:27:40 Pbzzragf:  PBZC VF ARVTUOBE, FZBXR NYNEZ FBHAQVAT NG YBP ** Pnfr ahzore 8014000059 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26 ** Pnfr ahzore 5014000024 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 6551 CNENZBHAG CNEX QE YIVY: @UBYVQNL VAA - BSS SREA INYYRL EQ GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 15:15:20 Pbzzragf:  WNDHMMV EBBZ JNGRE SYBJVAT VAGB ERFGHENAG AGSL ** Pnfr ahzore 8014000055 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26 ** Pnfr ahzore 5014000023 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26 NPSF, SEBZ YBP
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4580 CBCYNE YRIRY EQ YIVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 14:58:36 Pbzzragf:  QVRFRY FCVYY ** Pnfr ahzore 5014000022 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WBFU ARRYL ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1367 TNEQVARE YA JGCX: @PNAQYRJBBQ FHVGRF - TNEQVARE & FPUZVGG GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 13:50:12 Pbzzragf:  TRA SVER ** Pnfr ahzore 5014000021 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 3714000029 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 5514000024 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5116 EBRQRERE QE YIVY GLCR PBQR: JNGRE_YRNX FHO GLCR: RYRPGEVPNY GVZR: 12:23:48 Pbzzragf:  JNGRE YRNX TBVAT VAGB BHGYRGF GELVAT GB YBPNGR FUHG BSS NG GUVF GVZR ** Pnfr ahzore 5014000020 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 8014000047 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1367 TNEQVARE YA JGCX: @PNAQYRJBBQ FHVGRF - TNEQVARE & FPUZVGG GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 09:36:55 Pbzzragf:  PNAQYRJBBQ FHVGRF TRARENY SVER ** Pnfr ahzore 5014000019 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 8014000045 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 3714000028 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5013 DHNVY PG YIVY GLCR PBQR: NYNEZ FHO GLCR: ERFVQRAGVNY GVZR: 07:40:18 Pbzzragf:  PNYYRE NQI SVER NYNEZ FBHAQVAT NG GUVF ERFVQRAPR SBE 15 ZVAF PNYYRE NQI FUR XABPXRQ BA QBBE OHG AB BAR NAFJRERQ ** Pnfr ahzore 5014000018 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 8014000043 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3625 SREA INYYRL EQ YIVY:@SENAFVPNA URNYGU PNER GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 05:01:19 Pbzzragf:  TRARENY SVER CERZ# 964-3381 ABGV ** Pnfr ahzore 8014000040 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZNEPV ZPXRAMVR ba grezvany: 911zf21 ** Pnfr ahzore 5014000017 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZNEPV ZPXRAMVR ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1367 TNEQVARE YA JGCX: @PNAQYRJBBQ FHVGRF - TNEQVARE & FPUZVGG GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 01:15:35 Pbzzragf:  TRARENY NYNEZ CERZ# 357-3577 ABGV ** Pnfr ahzore 5014000016 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZNEPV ZPXRAMVR ba grezvany: 911zf21 ** Pnfr ahzore 3714000026 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: ZNEPV ZPXRAMVR ba grezvany: 911zf21 ** Pnfr ahzore 8014000036 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZNEPV ZPXRAMVR ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5708 ERIRER CY YIVY,201 GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 20:27:22 Pbzzragf:  FGBIR BA SVER, ABG SBBQ RINPHNGVAT ** Pnfr ahzore 8014000030 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 ** Pnfr ahzore 5014000015 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 ** Pnfr ahzore 3714000024 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4500 XREEVPX YA YIVY: @CEC1 GLCR PBQR: NFFVFG FHO GLCR: YNC_VA GVZR: 19:13:06 Pbzzragf:  PNZC GNLYBE YNC VAGB CEC FG 1 ** Pnfr ahzore 5014000013 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 5038
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 6105 THNEQVNA PG YIVY GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 17:57:28 Pbzzragf:  FUBBGVAT CebDN qvfcngpu pbqr: 27O04 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub unf orra fubg/fgnoorq. Gur cngvrag vf n znyr bs haxabja ntr, jubfr pbafpvbhfarff naq oernguvat vf haxabja. Haxabja fgnghf/Bgure pbqrf abg nccyvpnoyr (Thafubg). 3.Gur ybpngvba bs gur nffnvynag vf abg xabja. SRZ PYYRE NQI GUG ZNYR UNF ORRA FUBG CQ2 126 841/ 64 PYYE BAYL NOYR GB NQI FUR URNEQ FBZRBAR LRYYVAT' FHOW GEVRQ GB RAGRE ERF PNYYRE VA #3 NQI URE 17LB FBA FUBG FBZRBAR FUR GUVAXF, HAX JURER FBA VF ABJ "GUBZNF OVTTREF" NAQ U/B FUBG ZNYR Qhcyvpngr Rirag:Ybpngvba = 6105 THNEQVNA PG YIVY, 3 :UNYYJNL, Pebff Fgerrg 1 = YNPYRQR YA, Pebff Fgerrg 2 = QRNQ RAQ, Glcr = 1032 GEBHOYR, Fhoglcr = TRARENY TRARENY, Pnyyre Cu Ahzore = (502) 714-4200, Pnyy Fbhepr = 2-Cubar, Nynez Yriry = 1 FBZRBAR CBFF FUBBGVAT NG URE FBA, FGNGRQ FBZRBAR UVG UVZ JONFRONYY ONG Raq bs Qhcyvpngr Rirag qngn PNYYRE HAX JURER URE 17LB FBA VF ABJ NPSF SEBZ NCG #6 ** PBEE # 7 6/ J/Z, YFJ OYX WXG, WRNAF FHOW YNLVAT NG GUR OBGGBZ BS GRU FGNVEF AS C3 GPVF/971 BX PNYYRE LRYYRQ BHG GUNG FBZRBAR UVG URE FBA J/OONYY ONG GURA FBA FUBG GUR CREFBA 971 BA PUNAARY IVP VF HCFGNVEF VA UNYYJNL NPSF 991-3132 PNYYRE URNEQ 1 FUBG, FUR VF UVQVAT VA #3 PYBFRG ***PNYYRE FGNGRQ GUNG FBZRBAR GEVRQ GB EBO URE FBA J/OONYY ONG TRGGVAT QRFP BS CREC BS NGGRZCGRQ EBOOREL CRE PBHFVA CREC=J/Z, HAX PYBGUVAT YNETR NYGREPNGVBA (NPSF SEBZ NCG #7 - 303-8595) PNYYRE UNF AS FUBG VA GUR ONPX CRE PNYYRE CRE 4CP FGVYY PBAFP/OERNGU Puvrs pbzcynvag pbqr bs ynfg erpbasvther: 27 Erpbasvtherq qvfcngpu pbqr: 27Q03 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub unf orra fubg/fgnoorq. Gur cngvrag vf n 0-zbagu-byq znyr, jubfr pbafpvbhfarff naq oernguvat vf haxabja. PRAGENY jbhaqf (Thafubg). 3.Gur ybpngvba bs gur nffnvynag vf abg xabja. PNYYRE UVQVAT VA PYBFRG PNYYRE VA NCG # 7 - NQI FHOW WHFGVA JNF J/ N JZ, NAQ VG JNF WHFG GUR GJB BS GURZ VA GUR UNYYJNL // PBZC ORYVRIRF FHOW WHFGVA, JZ, 19LB, GNYY, NYY OYH PYBGUVAT, VF JUB FUBG GUR JZ VA GUR UNYYJNL PNYYRE NQI FUR URNEQ URE FBA VF EHAAVAT OHG HAX JURER UR VF 633Q- 30LBOZ HAPBA UBJ ZNAL CGF? FUBG GB YRSG FVQR 1 CG FB SNE 10-42 GNOVGUN VA #3 VF ZBGURE BS "GUBZNF" JUB NYYRTRQYL FUBG GUR NGGRZCGRQ EBOORE BX BA 1 CG FB SNE HAX VS OERNGUVAT 1086 SBE RZF 123 SVI 2 QVI 2 633P/2R CBFF FHFC VA NCG 3 PXVAT NCG PYRNE 2 QRGNVARQ FHOW- GUBZNF IVTBEF 2-13-96 JZ 6' 160# YFJ OYX WNPXRG OW CG VF HAPBA ABG OERNGUVAT CBFF 1080, GHEAVAT OYHR FGNEGRQ SVER ** Pnfr ahzore 5014000012 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 756 UHAGVATGBA CNEX QE CUVY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 17:32:36 Pbzzragf:  PBZC PNA URNE NYNEZ FBHAQVAT QBRF ABG FRR BE FZRYY NAL FZBXR ** Pnfr ahzore 5014000011 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 ** Pnfr ahzore 8014000027 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 ** Pnfr ahzore 3714000021 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4857 WRAAVATF YA JGCX:CERZVRE CNPXNTVAT GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 16:41:49 Pbzzragf:  JNGRE SYBJ NYNEZ BA MBAR #05 ** Pnfr ahzore 5014000010 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 ** Pnfr ahzore 8014000026 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 ** Pnfr ahzore 3714000020 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4005 BNXYNJA QE YIVY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 06:31:48 Pbzzragf:  JNGRE SYBJ NYNEZ PNEQVANY NYHZVAHZ AB XU LRG ** Pnfr ahzore 8014000022 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: TREEV TEVQRE ba grezvany: 911zf20 ** Pnfr ahzore 5014000009 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: TREEV TEVQRE ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1360 QHEERGG YA YIVY:AVYPB GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 02:21:03 Pbzzragf:  MBAR 5 JNGRE SYBJ EVFRE #1 502-368-3331, JVYY AGSL ** Pnfr ahzore 5014000008 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 8014000020 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 3714000016 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4408 OENQFUNJ CY YIVY GLCR PBQR: PURZVPNY FHO GLCR: BQBE_VA_NERN GVZR: 23:14:35 Pbzzragf:  PBZC NQI FGEBAT BQBE, CBFF XREBFRAR ** Pnfr ahzore 5014000007 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 8014000019 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4913 FUHZNXR PG YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 21:54:07 Pbzzragf:  RINPHNGVAT NQI "FBZRGUVAT HAQRE GUR UBHFR" VF BA SVER ** Pnfr ahzore 5014000006 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: CNGEVPX EVBEQNA ba grezvany: 911zf21 ** Pnfr ahzore 3714000009 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: CNGEVPX EVBEQNA ba grezvany: 911zf21 ** Pnfr ahzore 1114000024 unf orra nffvtarq sbe 11:PAGL ** >>>> ol: CNGEVPX EVBEQNA ba grezvany: 911zf21 ** Pnfr ahzore 5514000012 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: CNGEVPX EVBEQNA ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: SBERFG QE/SBERFG CNEX QE YIVY GLCR PBQR: SVER FHO GLCR: GENAFSBEZRE GVZR: 17:35:12 Pbzzragf:  GENAFSBEZRE BA SVER, GRYRCUBAR CBYR YRNAVAT ** Pnfr ahzore 5014000005 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: CBCYNE YRIRY EQ/R VAQVNA GEY YIVY GLCR PBQR: SVER FHO GLCR: GENAFSBEZRE GVZR: 07:54:58 Pbzzragf:  ** Pnfr ahzore 5014000004 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3506 ARYYVR OYL QE YIVY GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 21:55:12 Pbzzragf:  CebDN qvfcngpu pbqr: 13P02 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jvgu qvnorgvp ceboyrzf. Gur cngvrag vf n 50-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. Noabezny orunivbe. NQI CG UNF QVORGRF, UNF UNQ FVAHF VASRPGVBA, ABG ORRA RNGVAT CEBCREYL 221N BX ERD SVER PBQR 3 YVSG NFFVFG NAQ CNGVRAG PNER ** Pnfr ahzore 5014000003 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: CNGEVPX EVBEQNA ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4656 CBCYNE YRIRY EQ CUVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 14:06:41 Pbzzragf:  BXBYBAN SVER EBYYRQ HC BA VG 2AQ IRU WHFG SYRQ WPFB QRCHGL CBFF GELVAT GB PNGPU HC JVGU VG 2AQ IRU UNF PBZR ONPX YZCQ BX PBEERPGVBA 8001 EBYYRQ HC BA VG ** Pnfr ahzore 5014000002 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZRYVFFN UNEYRL ba grezvany: 911zf27
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: TBYQFZVGU YA/ARJOHET EQ YIVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 04:19:45 Pbzzragf:  VAGREFRPGVBA 2 IRU CBFF. 1 1055 OHET I OYX 198ZFI/XL CebDN qvfcngpu pbqr: 29O01 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb zhygvcyr cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Vawhevrf (Zhygvcyr cngvragf). Zhygvcyr cngvragf vaibyirq: 2. 3.Purzvpnyf be bgure unmneqf ner abg vaibyirq. ** Rirag R14000064 ivrjrq ng: 1/1/2014 4:10:02 NZ   ** >>>>  ol: 27572 ba grezvany : 27572 227N ONEQ.ZRNQBJ ZNYR JVGU YNPF GB URNQ 2AQ CNGVRAG 22 LBZ FWCH;QRE [NVA FUBHYQRE CNVA RZF PNA FYBJ P1 611N ERD SQ SBE ZVGVTNGVBA BS IRUVPYR SYHVQF ** Pnfr ahzore 5014000001 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: GBALN RVQRA ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 9503 GUBE NIR YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 17:33:54 Pbzzragf:  XVQF UNIR OHVYG SVER VAFVQR TNENTR NQI ABG VA N JBBQ OHEAVAT FGBIR PNYYRE VF ARVTUOBE, PNAABG SHEGURE, TNENTR QBBE PYBFRQ ** Pnfr ahzore 8013002277 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZNEX WRMVBEFXV ba grezvany: 911zf26 ** Pnfr ahzore 9013001091 unf orra nffvtarq sbe 90:PAGL ** >>>> ol: ZNEX WRMVBEFXV ba grezvany: 911zf26 ** Pnfr ahzore 1113000960 unf orra nffvtarq sbe 11:PAGL ** >>>> ol: ZNEX WRMVBEFXV ba grezvany: 911zf26 ** Pnfr ahzore 5013000787 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZNEX WRMVBEFXV ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5505 EBFNEL PG YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 13:30:22 Pbzzragf:  ** Pnfr ahzore 8013002273 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WVZ FUVCC ba grezvany: 911zf20 ** Pnfr ahzore 5013000786 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WVZ FUVCC ba grezvany: 911zf20 ** Pnfr ahzore 3713001030 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WVZ FUVCC ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: CBCYNE YRIRY EQ/R VAQVNA GEY YIVY GLCR PBQR: NPPVQRAG FHO GLCR: ERFPHR GVZR: 10:00:25 Pbzzragf:  ZIN CebDN qvfcngpu pbqr: 29Q04 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Cvaarq (genccrq) ivpgvz (Haxabja ahzore bs cngvragf). Haxabja ahzore bs cngvragf vaibyirq. Cvaarq (genccrq) ivpgvz (Haxabja ahzore bs cngvragf). 3.Vg'f abg xabja vs purzvpnyf be bgure unmneqf ner vaibyirq. NQIVFRQ FHOW VA INA VF GENCCRQ ** Pnfr ahzore 5013000785 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WVZ FUVCC ba grezvany: 911zf20 ** Pnfr ahzore 8013002270 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WVZ FUVCC ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5615 NVYNAGUHF GEY YIVY GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 17:40:30 Pbzzragf:  SNYY CebDN qvfcngpu pbqr: 17O01 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy. Gur cngvrag vf n 57-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. CBFFVOYL QNATREBHF obql nern (Ba gur tebhaq be sybbe). CBFFVOYL QNATREBHF obql nern (Ba gur tebhaq be sybbe). 57LB SRZ SNYYRA VAW GB YRT NAQ PURFG 126 SP1 PBQR-1 YVSG NFFVFG ** Pnfr ahzore 5013000784 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5012 PENSGL QE YIVY GLCR PBQR: NPPVQRAG FHO GLCR: IF_FGEHPGHER GVZR: 21:44:41 Pbzzragf:  5 PHONA FHOWF VA N QEX PBYBERQ GEHPX WHFG UVG OYQT NAQ YRSG FPRAR CRE PBZC, NQI QBRF ABG NCCRNE NALBAR VAWHERQ, IRU SYRQ GBJ DHRFG QE, HAX NSGRE GUNG PBCVRQ SVER AS QRFPEVCF BE VASB ** Pnfr ahzore 5013000783 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZNEL OEBJA ba grezvany: 911zf20 ** Pnfr ahzore 8013002261 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZNEL OEBJA ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5505 EVCCYR YA YIVY GLCR PBQR: TNF_YRNX FHO GLCR: VAFVQR GVZR: 17:13:14 Pbzzragf:  ** Pnfr ahzore 8013002260 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf27 ** Pnfr ahzore 5013000782 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf27 FZRYYF TNF VAFVQR YBP - CBFF PBZVAT SEBZ CVYBG YVTUG NERN ERS RZF RINP ABJ
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5505 EVCCYR YA YIVY GLCR PBQR: TNF_YRNX FHO GLCR: VAFVQR GVZR: 17:13:14 Pbzzragf:  ** Pnfr ahzore 8013002260 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf27 ** Pnfr ahzore 5013000782 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf27
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4914 CBVGVRE PG YIVY GLCR PBQR: PURZVPNY FHO GLCR: FCVYY GVZR: 17:20:38 Pbzzragf:  PYYRE NQI GUG UR FCVYYRQ ZREPHEL VAFVQR YBP ** Pnfr ahzore 5013000781 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZRYVFFN UNEYRL ba grezvany: 911zf26
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 6805 CERFGBA UJL YIVY:GUR PNE FGBER GLCR PBQR: SVER FHO GLCR: RYRP_BQBE_VAFVQR GVZR: 13:02:57 Pbzzragf:  RYRPGEVPNY BQBE VAFVQR FREIVPR NERN BS OYQT ** Pnfr ahzore 5013000780 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: IVBYN FHZRENYY ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3625 SREA INYYRL EQ YIVY: SENAPVFPNA URNYGUPNER GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 02:49:07 Pbzzragf:  TRARENY SVER NYNEZ 502-964-3381, AGSL ** Pnfr ahzore 8013002257 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21 ** Pnfr ahzore 5013000779 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 7702 CERFGBA UJL YIVY:U NAQ E OYBPX GLCR PBQR: SVER FHO GLCR: PBZZREPVNY GVZR: 18:51:03 Pbzzragf:  ARBA FGEVC NEBHAQ GUR OYQT VF NEPVAT ABJ FZNYY SYNZR ** Pnfr ahzore 8013002253 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 5013000778 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4903 QR CEVRFG PG YIVY GLCR PBQR: NYNEZ FHO GLCR: ERFVQRAGVNY GVZR: 10:49:50 Pbzzragf:  CERZ ANZR- RQJNEQ BJRAF CERZ CUA 502-819-8461 CREZVG# ABAR XRLCNQ SVER NYNEZ AGSLVAT ** Pnfr ahzore 8013002250 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20 ** Pnfr ahzore 5013000777 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5509 ERIRER QE YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 07:59:08 Pbzzragf:  PBZCY ABG NG YBP, FNLF UBHFR VF BA SVER. NAQ ERFQ HANOYR GB TRG BHG 1 SRZNYR VAFVQR UBHFR CRE PBZCY ** Pnfr ahzore 8013002248 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20 ** Pnfr ahzore 5013000776 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20 ** Pnfr ahzore 3713001019 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20 ** Pnfr ahzore 1113000949 unf orra nffvtarq sbe 11:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5401 YNTBBAN QE YIVY GLCR PBQR: NYNEZ FHO GLCR: ERFVQRAGVNY GVZR: 13:24:49 Pbzzragf:  ORGURY ERFV SVER NYNEZ UNYYJNL FZBXR ** Pnfr ahzore 8013002243 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: PVPRYL QBHTYNF ba grezvany: 911zf20 ** Pnfr ahzore 5013000775 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PVPRYL QBHTYNF ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3320 ONEQFGBJA EQ YIVY: @OEBJA FHOHEONA UBGRY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 16:22:43 Pbzzragf:  8GU SYBBE CHYY FGNGVBA AGSL CREZVG 64315 ** Pnfr ahzore 3713001014 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: PUEVFGBCURE ERRIRF ba grezvany: 911zf20 ** Pnfr ahzore 5013000774 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PUEVFGBCURE ERRIRF ba grezvany: 911zf20 ** Pnfr ahzore 5513001172 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: PUEVFGBCURE ERRIRF ba grezvany: 911zf20 ** Pnfr ahzore 2613001301 unf orra nffvtarq sbe 26:PAGL ** >>>> ol: PUEVFGBCURE ERRIRF ba grezvany: 911zf20 ** Pnfr ahzore 1113000946 unf orra nffvtarq sbe 11:PAGL ** >>>> ol: PUEVFGBCURE ERRIRF ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5419 LR BYQ CBFG EQ YIVY,2 GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 00:18:15 Pbzzragf:  YNETR NZBHAG BS FZBXR VA PUVZARL FZRYYVAT TNF ** Pnfr ahzore 8013002234 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf20 ** Pnfr ahzore 1113000944 unf orra nffvtarq sbe 11:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf20 ** Pnfr ahzore 5013000773 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf20
+(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4420 OVFUBC YA JGCX: QRNAF SBBQ GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 22:04:49 Pbzzragf:  3EQ SYBBE RYRINGBE FZBXR 502-451-9111, AGSL ** Pnfr ahzore 5013000772 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf20 ** Pnfr ahzore 8013002232 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf20 ** Pnfr ahzore 3713001009 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf20
+
  */
 
 
@@ -1328,6 +1434,958 @@ choyvp pynff XLYbhvfivyyrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FP1054",
         "GVZR:21:33:16",
         "VASB:PBZC NQI FBZRBAR FUBG OO THA NG ONPX JVAQBJ PBZC QBRF ABG JNAG 10-42 PBZC QBRF ABG JNAG 10-21 AB IVFVOYR CEBCREGL QNZNTR PBZC NQI WHFG JNAGF NA BSP GB FRNEPU GUR NERN");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgPnzcGnlybeSverQvfgevpg() {
+
+    qbGrfg("G1",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3531 OYHRTENFF CNEX QE JGCX GLCR PBQR: NFFVFG FHO GLCR: RZF GVZR: 02:42:39 Pbzzragf:  SNYY CebDN qvfcngpu pbqr: 17N03 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy. Gur cngvrag vf n 55-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. CHOYVP NFFVFG (ab vawhevrf naq ab cevbevgl flzcgbzf) (Ba gur tebhaq be sybbe). CHOYVP NFFVFG (ab vawhevrf naq ab cevbevgl flzcgbzf) (Ba gur tebhaq be sybbe). 55 L/B SRZNRY, SNYY, ARRQF YVSG NFFVFG 300YO R261N SYBLQ/OENAQ RZF ERD SVER PBQR BAR/YVSG NFFVFG ABJ ERD PBQR 3 ERFCBAFR ** Pnfr ahzore 5014000081 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: GNEV OEBBXF ba grezvany: 911zf21 ** Pnfr ahzore 3714000105 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: GNEV OEBBXF ba grezvany: 911zf21",
+        "NQQE:3531 OYHRTENFF CNEX QE",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:JGCX",
+        "PBQR:NFFVFG",
+        "PNYY:RZF",
+        "GVZR:02:42:39",
+        "VASB:SNYY\aLbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy. Gur cngvrag vf n 55-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. CHOYVP NFFVFG (ab vawhevrf naq ab cevbevgl flzcgbzf) (Ba gur tebhaq be sybbe). CHOYVP NFFVFG (ab vawhevrf naq ab cevbevgl flzcgbzf) (Ba gur tebhaq be sybbe). 55 L/B SRZNRY, SNYY, ARRQF YVSG NFFVFG 300YO R261N SYBLQ/OENAQ RZF ERD SVER PBQR BAR/YVSG NFFVFG ABJ ERD PBQR 3 ERFCBAFR");
+
+    qbGrfg("G2",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1304 URYPX NIR YIVY GLCR PBQR: SVER FHO GLCR: PBAGEBYYRQ_OHEA GVZR: 14:13:50 Pbzzragf:  ** Pnfr ahzore 5014000080 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28",
+        "NQQE:1304 URYPX NIR",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:PBAGEBYYRQ_OHEA",
+        "GVZR:14:13:50");
+
+    qbGrfg("G3",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5020 HAFRYQ OYIQ YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 23:48:23 Pbzzragf:  ORQEBBZ BA SVER RINPHNGVAT NQI RIRELBAR BHG - ERS RZF ** Pnfr ahzore 8014000219 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: GNEV OEBBXF ba grezvany: 911zf21 ** Pnfr ahzore 5014000079 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: GNEV OEBBXF ba grezvany: 911zf21 ** Pnfr ahzore 3714000099 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: GNEV OEBBXF ba grezvany: 911zf21",
+        "NQQE:5020 HAFRYQ OYIQ",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:23:48:23",
+        "VASB:ORQEBBZ BA SVER RINPHNGVAT NQI RIRELBAR BHG - ERS RZF");
+
+    qbGrfg("G4",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3318 EBOVA EQ NHQ GLCR PBQR: TNF_YRNX FHO GLCR: BHGFVQR GVZR: 16:53:16 Pbzzragf:  TNF YRNX SEBZ TNF YVAR ORUVAQ YBPNGVBA ARNE EE GENPXF FGEBAT FZRYY BS TNF PBZVAT SEBZ YBP YT/R ERPQ PNYY SEBZ N PVGVMRA PVGVMRA YVIRF NG 3318 EBOVA EQ, 2 YT/R VA EBHGR NF JRYY ** Pnfr ahzore 5014000077 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27 ** Pnfr ahzore 8014000216 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27",
+        "NQQE:3318 EBOVA EQ",
+        "CYNPR:NHQ",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:TNF_YRNX",
+        "PNYY:BHGFVQR",
+        "GVZR:16:53:16",
+        "VASB:TNF YRNX SEBZ TNF YVAR ORUVAQ YBPNGVBA ARNE EE GENPXF FGEBAT FZRYY BS TNF PBZVAT SEBZ YBP YT/R ERPQ PNYY SEBZ N PVGVMRA PVGVMRA YVIRF NG 3318 EBOVA EQ, 2 YT/R VA EBHGR NF JRYY");
+
+    qbGrfg("G5",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4314 OVFUBC YA JGCX: @OVFUBC YNAR CYNMN GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 16:34:53 Pbzzragf:  FVZCYRK CNARY 569-6626/AGSL ** Pnfr ahzore 5014000076 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27 ** Pnfr ahzore 8014000215 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27 ** Pnfr ahzore 3714000097 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27",
+        "NQQE:4314 OVFUBC YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:OVFUBC YNAR CYNMN - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:16:34:53",
+        "VASB:FVZCYRK CNARY 569-6626/AGSL");
+
+    qbGrfg("G6",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4820 WRAAVATF YA JGCX: QFV QFVGEVOHGBEF GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 15:26:36 Pbzzragf:  EVFRE 2 SYBJ FJVGPU ERS 433585475 ** Pnfr ahzore 3714000096 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27 ** Pnfr ahzore 8014000213 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27 ** Pnfr ahzore 5514000101 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27 SVER 5 ** Pnfr ahzore 5014000075 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27",
+        "NQQE:4820 WRAAVATF YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:QFV QFVGEVOHGBEF - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:15:26:36",
+        "VASB:EVFRE 2 SYBJ FJVGPU ERS 433585475");
+
+    qbGrfg("G7",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3208 PUVADHNCVA YA YIVY GLCR PBQR: SVER FHO GLCR: NHGBZBOVYR GVZR: 13:59:49 Pbzzragf:  GEHPX ORUVAQ YBP BA SVER ** Pnfr ahzore 5014000074 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf27",
+        "NQQE:3208 PUVADHNCVA YA",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:NHGBZBOVYR",
+        "GVZR:13:59:49",
+        "VASB:GEHPX ORUVAQ YBP BA SVER");
+
+    qbGrfg("G8",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1239 TVYZBER YA YLAA:YLAAIVRJ YVDHBEF NAQ GNIREA GLCR PBQR: SVER FHO GLCR: PBZZREPVNY GVZR: 16:20:42 Pbzzragf:  ERNE JNYY BS OYQT BA SVER ** Pnfr ahzore 5014000073 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf27 ** Pnfr ahzore 8014000205 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf27 ** Pnfr ahzore 3714000092 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf27",
+        "NQQE:1239 TVYZBER YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:YLAAIVRJ YVDHBEF NAQ GNIREA - YLAA",
+        "PBQR:SVER",
+        "PNYY:PBZZREPVNY",
+        "GVZR:16:20:42",
+        "VASB:ERNE JNYY BS OYQT BA SVER");
+
+    qbGrfg("G9",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4614 NFGBE EQ YIVY: UBHFGBA RDHVCZRAG FREIVPR GLCR PBQR: SVER FHO GLCR: PBZZREPVNY GVZR: 04:40:40 Pbzzragf:  ** Pnfr ahzore 5014000072 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 8014000200 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 3714000089 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 YET NZG BS FZBXR SEBZ EBBS PYYE JBEXF VA OHFA NPEBFF FGERRG JBEXVAT SVER YTR ABGVSVRQ - TNF & RYRPGEVP 5003 PBZZNAQ 3703 FNSRGL EDFG GNEP 8033 Y1 EVG GNEP BX",
+        "NQQE:4614 NFGBE EQ",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:UBHFGBA RDHVCZRAG FREIVPR",
+        "PBQR:SVER",
+        "PNYY:PBZZREPVNY",
+        "GVZR:04:40:40");
+
+    qbGrfg("G10",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4614 NFGBE EQ YIVY: UBHFGBA RDHVCZRAG FREIVPR GLCR PBQR: SVER FHO GLCR: PBZZREPVNY GVZR: 04:40:40 Pbzzragf:  ** Pnfr ahzore 5014000072 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 8014000200 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 3714000089 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21",
+        "NQQE:4614 NFGBE EQ",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:UBHFGBA RDHVCZRAG FREIVPR",
+        "PBQR:SVER",
+        "PNYY:PBZZREPVNY",
+        "GVZR:04:40:40");
+
+    qbGrfg("G11",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4407 PBFOL PG YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 21:08:37 Pbzzragf:  FZBXR PBZVAT SEBZ ONFRZRAG ** Pnfr ahzore 8014000198 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WRAAVSRE GUBZCFBA ba grezvany: 911zf26 ** Pnfr ahzore 5014000071 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE GUBZCFBA ba grezvany: 911zf26 ** Pnfr ahzore 3714000088 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WRAAVSRE GUBZCFBA ba grezvany: 911zf26",
+        "NQQE:4407 PBFOL PG",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:21:08:37",
+        "VASB:FZBXR PBZVAT SEBZ ONFRZRAG");
+
+    qbGrfg("G12",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1367 TNEQVARE YA JGCX: @PNAQYRJBBQ FHVGRF - TNEQVARE & FPUZVGG GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 13:49:45 Pbzzragf:  357-3577, TRARENY, JVYY AGSL, CREZVG/ ** Pnfr ahzore 5014000070 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21 ** Pnfr ahzore 3714000087 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21 ** Pnfr ahzore 8014000195 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21",
+        "NQQE:1367 TNEQVARE YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:PNAQYRJBBQ FHVGRF - TNEQVARE & FPUZVGG - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:13:49:45",
+        "VASB:357-3577, TRARENY, JVYY AGSL, CREZVG/");
+
+    qbGrfg("G13",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4925 URYYRE FG YIVY: UREVGNTR RAIVEBAZRAGNY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 12:13:58 Pbzzragf:  CERZ CUA 502-473-7942 CREZVG# 27654 JNGRE SYBJ AGLSVAT ** Pnfr ahzore 8014000194 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 3714000086 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 5014000069 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 5514000095 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20",
+        "NQQE:4925 URYYRE FG",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:UREVGNTR RAIVEBAZRAGNY",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:12:13:58",
+        "VASB:CERZ CUA 502-473-7942 CREZVG# 27654 JNGRE SYBJ AGLSVAT");
+
+    qbGrfg("G14",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1360 QHEERGG YA YIVY:AVYPB PBZCNAL GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 10:10:16 Pbzzragf:  FUBJVAT JNGRE SYBJ BA EVFRE #4 ** Pnfr ahzore 8014000191 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21 ** Pnfr ahzore 3714000084 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21 ** Pnfr ahzore 5014000068 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN FRNOBYG ba grezvany: 911zf21",
+        "NQQE:1360 QHEERGG YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:AVYPB PBZCNAL",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:10:10:16",
+        "VASB:FUBJVAT JNGRE SYBJ BA EVFRE #4");
+
+    qbGrfg("G15",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4915 OYHROVEQ PVE YLAA GLCR PBQR: TNF_YRNX FHO GLCR: BHGFVQR GVZR: 21:57:46 Pbzzragf:  BYQRE ZNYR ONPX CBEPU YVTUG VF TBVAT BA NAQ BSS YVIRF OL UVZFRYS PNYYREF QBTF UNIR ORRA ONEXVAT NG GUR UBHFR SBE N PBHCYR BS QNLF AB 10-21 AB YLAAIVRJ BA QHGL ** Pnfr ahzore 5014000067 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PBYYRRA XNGF ba grezvany: 911zf21",
+        "NQQE:4915 OYHROVEQ PVE",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:YLAA",
+        "PBQR:TNF_YRNX",
+        "PNYY:BHGFVQR",
+        "GVZR:21:57:46",
+        "VASB:BYQRE ZNYR ONPX CBEPU YVTUG VF TBVAT BA NAQ BSS YVIRF OL UVZFRYS PNYYREF QBTF UNIR ORRA ONEXVAT NG GUR UBHFR SBE N PBHCYR BS QNLF AB 10-21 AB YLAAIVRJ BA QHGL");
+
+    qbGrfg("G16",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1360 QHEERGG YA YIVY: AVYPB GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 14:47:28 Pbzzragf:  CERZ CUA 502-368-3331 CREZVG# ABAR JNGRE SYBJ SEBZ EVFRE 4 AGSLVAT ** Pnfr ahzore 5014000066 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28 ** Pnfr ahzore 8014000180 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28 ** Pnfr ahzore 3714000079 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28",
+        "NQQE:1360 QHEERGG YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:AVYPB",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:14:47:28",
+        "VASB:CERZ CUA 502-368-3331 CREZVG# ABAR JNGRE SYBJ SEBZ EVFRE 4 AGSLVAT");
+
+    qbGrfg("G17",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1360 QHEERGG YA YIVY:@AVYPB GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 14:32:55 Pbzzragf:  JNGRE SYBJ EVFRE 4 MBAR 8 CERZ CU 368-3331 ** Pnfr ahzore 5014000065 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28 ** Pnfr ahzore 8014000179 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28 ** Pnfr ahzore 3714000078 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WRAAVSRE ZVYOHEA ba grezvany: 911zf28",
+        "NQQE:1360 QHEERGG YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:AVYPB",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:14:32:55",
+        "VASB:JNGRE SYBJ EVFRE 4 MBAR 8 CERZ CU 368-3331");
+
+    qbGrfg("G18",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1240 CVTRBA CNFF EQ YLAA GLCR PBQR: NYNEZ FHO GLCR: ERFVQRAGVNY GVZR: 06:36:50 Pbzzragf:  UNYYJNL FZBXR QRGRPGBE ** Pnfr ahzore 5014000064 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YBEV ONXRE ba grezvany: 911zf21 ** Pnfr ahzore 8014000174 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YBEV ONXRE ba grezvany: 911zf21",
+        "NQQE:1240 CVTRBA CNFF EQ",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:YLAA",
+        "PBQR:NYNEZ",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:06:36:50",
+        "VASB:UNYYJNL FZBXR QRGRPGBE");
+
+    qbGrfg("G19",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1405 OHAGBA EQ JGCX GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 02:12:59 Pbzzragf:  FRZV GEHPX BIRE GHEARQ, ERFPHR ** Pnfr ahzore 5014000063 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf21",
+        "NQQE:1405 OHAGBA EQ",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:JGCX",
+        "PBQR:ZRQVPNY",
+        "PNYY:ZRQ_PNYY",
+        "GVZR:02:12:59",
+        "VASB:FRZV GEHPX BIRE GHEARQ, ERFPHR");
+
+    qbGrfg("G20",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4912 YNTBBAN QE YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 23:05:58 Pbzzragf:  NYNEZ TBVAT BSS, FZRYYF FZBXR ABGUVAT FRRA ** Pnfr ahzore 8014000172 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf21 ** Pnfr ahzore 5014000062 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf21 ** Pnfr ahzore 3714000076 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf21",
+        "NQQE:4912 YNTBBAN QE",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:23:05:58",
+        "VASB:NYNEZ TBVAT BSS, FZRYYF FZBXR ABGUVAT FRRA");
+
+    qbGrfg("G21",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 2020 ONFUSBEQ ZNABE YA JO: @JNYZNEG - ONFUSBEQ ZNABE GLCR PBQR: TNF_YRNX FHO GLCR: VAFVQR GVZR: 18:03:32 Pbzzragf:  SVER ERFCBAQ GB TZ QBBE ** Pnfr ahzore 3714000074 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WBFU ARRYL ba grezvany: 911zf28 ** Pnfr ahzore 5014000061 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WBFU ARRYL ba grezvany: 911zf28 ** Pnfr ahzore 8014000170 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WBFU ARRYL ba grezvany: 911zf28 ** Pnfr ahzore 3314000183 unf orra nffvtarq sbe 33:PAGL ** >>>> ol: WBFU ARRYL ba grezvany: 911zf28",
+        "NQQE:2020 ONFUSBEQ ZNABE YA JO",
+        "ZNQQE:2020 ONFUSBEQ ZNABE YA",
+        "CYNPR:JNYZNEG - ONFUSBEQ ZNABE",
+        "PBQR:TNF_YRNX",
+        "PNYY:VAFVQR",
+        "GVZR:18:03:32",
+        "VASB:SVER ERFCBAQ GB TZ QBBE");
+
+    qbGrfg("G22",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: @V65F GB BHGRE YBBC GLCR PBQR: NPPVQRAG FHO GLCR: ERFPHR GVZR: 09:38:44 Pbzzragf:  FCRPVNY NQQERFF PBZZRAG: V65F GB BHGRE YBBC AB GENSSVP UBAQN YVP 7307SN IF FRZV FHOW VF TBVAT GB UNIR GB OR PHG BHG BS IRU 1163 RAE SEBZ FURYOLIVYYR NAQ V264 ** Pnfr ahzore 5014000060 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ONEEL FNZCFBA ba grezvany: 911zf20",
+        "NQQE:V65F GB BHGRE YBBC",
+        "ZNQQE:V 65 GB BHGRE YBBC",
+        "PBQR:NPPVQRAG",
+        "PNYY:ERFPHR",
+        "GVZR:09:38:44",
+        "VASB:FCRPVNY NQQERFF PBZZRAG: V65F GB BHGRE YBBC AB GENSSVP UBAQN YVP 7307SN IF FRZV FHOW VF TBVAT GB UNIR GB OR PHG BHG BS IRU 1163 RAE SEBZ FURYOLIVYYR NAQ V264");
+
+    qbGrfg("G23",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4604 FURCUREQFIVYYR EQ YIVY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 00:51:08 Pbzzragf:  CVAR UHEFG CEBCREGVRF PBZC IREVSVRQ NOBI NQQERFF FUBJVAT JNGRE SYBJ AGSL - ERDF QVFCNGPU CREZ# HAX CERZVF CU# 502-452-6104 ** Pnfr ahzore 8014000163 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: GERAGBA NYQEVQTR ba grezvany: 911zf20 ** Pnfr ahzore 3714000072 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: GERAGBA NYQEVQTR ba grezvany: 911zf20 ** Pnfr ahzore 5014000059 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: GERAGBA NYQEVQTR ba grezvany: 911zf20",
+        "NQQE:4604 FURCUREQFIVYYR EQ",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:00:51:08",
+        "VASB:CVAR UHEFG CEBCREGVRF PBZC IREVSVRQ NOBI NQQERFF FUBJVAT JNGRE SYBJ AGSL - ERDF QVFCNGPU CREZ# HAX CERZVF CU# 502-452-6104");
+
+    qbGrfg("G24",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 2723 ZNFRZHER PG YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 18:42:04 Pbzzragf:  FGBIR BA SVER VAFVQR UBHFR ...SVER NYNEZ FBHAQVT ** Pnfr ahzore 3714000071 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: URNGURE JNGFBA ba grezvany: 911zf26 ** Pnfr ahzore 5514000082 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: URNGURE JNGFBA ba grezvany: 911zf26 ** Pnfr ahzore 5014000058 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: URNGURE JNGFBA ba grezvany: 911zf26",
+        "NQQE:2723 ZNFRZHER PG",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:18:42:04",
+        "VASB:FGBIR BA SVER VAFVQR UBHFR ...SVER NYNEZ FBHAQVT");
+
+    qbGrfg("G25",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3709 R VAQVNA GEY YIVY: @FPUBBY - VAQVNA GENVY RYRZRAGNEL FPUBBY GLCR PBQR: SVER FHO GLCR: GENFU GVZR: 17:23:30 Pbzzragf:  GENFU BA SVER ARNE ONFXRGONYY PBHEGF ** Pnfr ahzore 5014000057 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: URNGURE JNGFBA ba grezvany: 911zf26",
+        "NQQE:3709 R VAQVNA GEY",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:FPUBBY - VAQVNA GENVY RYRZRAGNEL FPUBBY",
+        "PBQR:SVER",
+        "PNYY:GENFU",
+        "GVZR:17:23:30",
+        "VASB:GENFU BA SVER ARNE ONFXRGONYY PBHEGF");
+
+    qbGrfg("G26",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4154 ONEQFGBJA EQ YIVY: @GUBEAGBAF - ONEQFGBJA & OHRPURY OLC: GUBEAGBAF 54 GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 08:04:30 Pbzzragf:  CREZ # 28553, PBZVAT SEBZ ERT 2 ** Pnfr ahzore 3714000070 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WBUA JRVOYR ba grezvany: 911zf20 ** Pnfr ahzore 7114000082 unf orra nffvtarq sbe 71:PAGL ** >>>> ol: WBUA JRVOYR ba grezvany: 911zf20 ** Pnfr ahzore 8014000160 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WBUA JRVOYR ba grezvany: 911zf20 ** Pnfr ahzore 5014000056 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WBUA JRVOYR ba grezvany: 911zf20",
+        "NQQE:4154 ONEQFGBJA EQ",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:GUBEAGBAF - ONEQFGBJA & OHRPURY OLC: GUBEAGBAF 54",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:08:04:30",
+        "VASB:CREZ # 28553, PBZVAT SEBZ ERT 2");
+
+    qbGrfg("G27",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: CBCYNE YRIRY EQ/OVFUBC YA YIVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 20:14:13 Pbzzragf:  RZF PNYYRQ BHG, HAX VS ERYNGRQ GB 1048, RZF EBYYRQ HC BA NAQ QVQ ABG RZAGVBA CQ BA FPRAR IRU #2 UNF NYZBFG ORRA UVG FRIRENY GVZRF ARRQ SVER SBE JNFUBSS ** Pnfr ahzore 5014000055 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26",
+        "NQQE:CBCYNE YRIRY EQ & OVFUBC YA",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:PURZVPNY",
+        "PNYY:ZVGVTNGVBA",
+        "GVZR:20:14:13",
+        "VASB:RZF PNYYRQ BHG, HAX VS ERYNGRQ GB 1048, RZF EBYYRQ HC BA NAQ QVQ ABG RZAGVBA CQ BA FPRAR IRU #2 UNF NYZBFG ORRA UVG FRIRENY GVZRF ARRQ SVER SBE JNFUBSS");
+
+    qbGrfg("G28",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5317 QNUY EQ YIVY GLCR PBQR: NFFVFG FHO GLCR: RZF GVZR: 17:16:42 Pbzzragf:  CebDN qvfcngpu pbqr: 26P01 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub vf fvpx (be unf n pheerag zrqvpny pbaqvgvba). Gur cngvrag vf n 78-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. NYGRERQ YRIRY BS PBAFPVBHFARFF. 161 G9 ERD SVER YVSG NFFVFG PBQR 1, CG VA GUR ONFRZRAG ** Pnfr ahzore 5014000054 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26",
+        "NQQE:5317 QNUY EQ",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:NFFVFG",
+        "PNYY:RZF",
+        "GVZR:17:16:42",
+        "VASB:Lbh ner erfcbaqvat gb n cngvrag jub vf fvpx (be unf n pheerag zrqvpny pbaqvgvba). Gur cngvrag vf n 78-lrne-byq znyr, jub vf pbafpvbhf naq oernguvat. NYGRERQ YRIRY BS PBAFPVBHFARFF. 161 G9 ERD SVER YVSG NFFVFG PBQR 1, CG VA GUR ONFRZRAG");
+
+    qbGrfg("G29",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 102 FCEVAT PERRX PG JGCX,3 GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 02:27:23 Pbzzragf:  FZBXR SEBZ URNGRE ** Pnfr ahzore 5014000053 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NAGUBAL ZPTNEEL ba grezvany: 911zf20 ** Pnfr ahzore 3714000066 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: NAGUBAL ZPTNEEL ba grezvany: 911zf20 ** Pnfr ahzore 8014000155 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NAGUBAL ZPTNEEL ba grezvany: 911zf20 FZRYY BS OHEAVAT",
+        "NQQE:102 FCEVAT PERRX PG",
+        "NCG:3",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:JGCX",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:02:27:23",
+        "VASB:FZBXR SEBZ URNGRE");
+
+    qbGrfg("G30",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: ARJOHET EQ/OVFUBC YA YIVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 22:35:02 Pbzzragf:  CebDN qvfcngpu pbqr: 29O03 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb zhygvcyr cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Bgure unmneqf (Zhygvcyr cngvragf naq Nqqvgvbany erfcbafr erdhverq). Zhygvcyr cngvragf vaibyirq: 4. Bgure unmneqf (Zhygvcyr cngvragf naq Nqqvgvbany erfcbafr erdhverq). 3.Bgure unmneqf fcrpvsvrq va pbzzragf ner cerfrag: YRNXVAT SYHVQF -Pbzzragf: YRNXVAT SYHVQF- VA SEBAG BS OC OYX PNE IF LYJ PNO NQI 4 FHOW'F VA OYX PNE VAWHERQ 27LB SRZNYR ARPX NAQ PURFG CNVA 28LB ZNYR ARPX NAQ ONPX CNVA 2 30LB ZNYRF JVGU ARPX NAQ ONPX CNVA 126N OERPX 277N QBHTYNFF/ONEQFGBJA CQ NQI GBGNY BS 6 CGF 211N 60/FNTR BVY ** Pnfr ahzore 5014000052 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21",
+        "NQQE:ARJOHET EQ & OVFUBC YA",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:PURZVPNY",
+        "PNYY:ZVGVTNGVBA",
+        "GVZR:22:35:02",
+        "VASB:Lbh ner erfcbaqvat gb zhygvcyr cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Bgure unmneqf (Zhygvcyr cngvragf naq Nqqvgvbany erfcbafr erdhverq). Zhygvcyr cngvragf vaibyirq: 4. Bgure unmneqf (Zhygvcyr cngvragf naq Nqqvgvbany erfcbafr erdhverq). 3.Bgure unmneqf fcrpvsvrq va pbzzragf ner cerfrag: YRNXVAT SYHVQF -Pbzzragf: YRNXVAT SYHVQF- VA SEBAG BS OC OYX PNE IF LYJ PNO NQI 4 FHOW'F VA OYX PNE VAWHERQ 27LB SRZNYR ARPX NAQ PURFG CNVA 28LB ZNYR ARPX NAQ ONPX CNVA 2 30LB ZNYRF JVGU ARPX NAQ ONPX CNVA 126N OERPX 277N QBHTYNFF/ONEQFGBJA CQ NQI GBGNY BS 6 CGF 211N 60/FNTR BVY");
+
+    qbGrfg("G31",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4001 CEBQHPR EQ YIVY GLCR PBQR: TNF_YRNX FHO GLCR: BHGFVQR GVZR: 18:39:23 Pbzzragf:  ERD SVER SBE OEBXRA YVAR NG YBP, YT&R RE YT&R RE ABJ ** Pnfr ahzore 5014000051 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf26 ** Pnfr ahzore 8014000142 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf26",
+        "NQQE:4001 CEBQHPR EQ",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:TNF_YRNX",
+        "PNYY:BHGFVQR",
+        "GVZR:18:39:23",
+        "VASB:ERD SVER SBE OEBXRA YVAR NG YBP, YT&R RE YT&R RE ABJ");
+
+    qbGrfg("G32",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4903 QR CEVRFG PG YIVY:BJRAF ERFVQRAPR GLCR PBQR: NYNEZ FHO GLCR: ERFVQRAGVNY GVZR: 20:37:18 Pbzzragf:  FUBJVAT GUR XRLCNQ SVER NYNEZ ** Pnfr ahzore 8014000134 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26 ** Pnfr ahzore 5014000050 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26",
+        "NQQE:4903 QR CEVRFG PG",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:BJRAF ERFVQRAPR",
+        "PBQR:NYNEZ",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:20:37:18",
+        "VASB:FUBJVAT GUR XRLCNQ SVER NYNEZ");
+
+    qbGrfg("G33",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4314 OVFUBC YA JGCX: @JVYY R FRNL CYNMN GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 19:08:06 Pbzzragf:  HXA NYNEZ NPSF SEBZ NYNEZ PB ** Pnfr ahzore 5014000049 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf27 ** Pnfr ahzore 3714000055 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf27 ** Pnfr ahzore 8014000133 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf27",
+        "NQQE:4314 OVFUBC YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:JVYY R FRNL CYNMN - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:19:08:06",
+        "VASB:HXA NYNEZ NPSF SEBZ NYNEZ PB");
+
+    qbGrfg("G34",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1331 TVYZBER YA YIVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 13:16:26 Pbzzragf:  NYG# 502-599-0491 -085.684133 +38.174733 HCF QRYVIREL GEX NAQ SBEQ RKCRQVGVBA NPSF, NAGVSERRMR NYY BIRE EBNQJNL ZIN CebDN qvfcngpu pbqr: 29O03 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Bgure unmneqf (Haxabja ahzore bs cngvragf). Haxabja ahzore bs cngvragf vaibyirq. Bgure unmneqf (Haxabja ahzore bs cngvragf). 3.Bgure unmneqf fcrpvsvrq va pbzzragf ner cerfrag: NAGVSERRMR NYY BIRE EBNQJNL -Pbzzragf: NAGVSERRMR NYY BIRE EBNQJNL- R255 NEGUHE SEBZ 65 ** Pnfr ahzore 5014000048 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WNAVPR REQZNA ba grezvany: 911zf20",
+        "NQQE:1331 TVYZBER YA",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:PURZVPNY",
+        "PNYY:ZVGVTNGVBA",
+        "GVZR:13:16:26",
+        "VASB:NYG# 502-599-0491 -085.684133 +38.174733 HCF QRYVIREL GEX NAQ SBEQ RKCRQVGVBA NPSF, NAGVSERRMR NYY BIRE EBNQJNL ZIN\aLbh ner erfcbaqvat gb cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Bgure unmneqf (Haxabja ahzore bs cngvragf). Haxabja ahzore bs cngvragf vaibyirq. Bgure unmneqf (Haxabja ahzore bs cngvragf). 3.Bgure unmneqf fcrpvsvrq va pbzzragf ner cerfrag: NAGVSERRMR NYY BIRE EBNQJNL -Pbzzragf: NAGVSERRMR NYY BIRE EBNQJNL- R255 NEGUHE SEBZ 65");
+
+    qbGrfg("G35",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4314 OVFUBC YA JGCX: @JVYY R FRNL CYNMN GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 16:45:46 Pbzzragf:  ** Pnfr ahzore 5014000047 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf26 ** Pnfr ahzore 3714000052 unf orra nffvtarq sbe 37:PAGL FVZCYRK CNARY ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf26 ** Pnfr ahzore 8014000129 unf orra nffvtarq sbe 80:PAGL AGSL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf26",
+        "NQQE:4314 OVFUBC YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:JVYY R FRNL CYNMN - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:16:45:46");
+
+    qbGrfg("G36",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3410 EBONEQF PG JGCX GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 17:13:15 Pbzzragf:  ORETRE YBHVFIVYYR OHFA JNGRE SYBJ ABGVSLVAT ** Pnfr ahzore 5014000046 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: CUVYYVC EBGURAOHETRE ba grezvany: 911zf26 ** Pnfr ahzore 8014000121 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: CUVYYVC EBGURAOHETRE ba grezvany: 911zf26 ** Pnfr ahzore 3714000050 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: CUVYYVC EBGURAOHETRE ba grezvany: 911zf26",
+        "NQQE:3410 EBONEQF PG",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:17:13:15",
+        "VASB:ORETRE YBHVFIVYYR OHFA JNGRE SYBJ ABGVSLVAT");
+
+    qbGrfg("G37",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5302 SNVEL ORYYR PG YIVY GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 10:05:54 Pbzzragf:  SNYYF CebDN qvfcngpu pbqr: 17O01 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy. Gur cngvrag vf n 82-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. CBFFVOYL QNATREBHF obql nern (Ba gur tebhaq be sybbe). CBFFVOYL QNATREBHF obql nern (Ba gur tebhaq be sybbe). ERD SVER P1 SBE YVSG NFFVFG ** Pnfr ahzore 5014000045 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: CNGEVPVN CHRAGR ba grezvany: 911zf21",
+        "NQQE:5302 SNVEL ORYYR PG",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:ZRQVPNY",
+        "PNYY:ZRQ_PNYY",
+        "GVZR:10:05:54",
+        "VASB:SNYYF\aLbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy. Gur cngvrag vf n 82-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. CBFFVOYL QNATREBHF obql nern (Ba gur tebhaq be sybbe). CBFFVOYL QNATREBHF obql nern (Ba gur tebhaq be sybbe). ERD SVER P1 SBE YVSG NFFVFG");
+
+    qbGrfg("G38",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5029 CBCYNE YRIRY EQ YIVY: NATRYB ORNHGL NAQ FHCCYL GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 20:47:50 Pbzzragf:  ZHYGVCYR UBYQ HC NYNEZF NYFB ERPRVIVAT ZRQVPNY NYNEZF NYFB ERPRVIVAT SVER NYNEZF FBZRBAR VF CERFFVAT NYY OHGGBAF ZHYGVCYR GVZRF AGSL / CERZVFR 502-408-3938 ** Pnfr ahzore 8014000117 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVAQFRL PNEQVA ba grezvany: 911zf26 ** Pnfr ahzore 5014000044 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVAQFRL PNEQVA ba grezvany: 911zf26",
+        "NQQE:5029 CBCYNE YRIRY EQ",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:NATRYB ORNHGL NAQ FHCCYL",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:20:47:50",
+        "VASB:ZHYGVCYR UBYQ HC NYNEZF NYFB ERPRVIVAT ZRQVPNY NYNEZF NYFB ERPRVIVAT SVER NYNEZF FBZRBAR VF CERFFVAT NYY OHGGBAF ZHYGVCYR GVZRF AGSL / CERZVFR 502-408-3938");
+
+    qbGrfg("G39",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1710 YVAPBYA NIR YIVY GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 12:08:25 Pbzzragf:  5051 PNYYRQ BHG,32 ZNYR RZCYBLRR,QBJA FGNEGVAT GB PBZR NEBHAQ ABJ ** Pnfr ahzore 5014000043 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ONEEL FNZCFBA ba grezvany: 911zf21",
+        "NQQE:1710 YVAPBYA NIR",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:ZRQVPNY",
+        "PNYY:ZRQ_PNYY",
+        "GVZR:12:08:25",
+        "VASB:5051 PNYYRQ BHG,32 ZNYR RZCYBLRR,QBJA FGNEGVAT GB PBZR NEBHAQ ABJ");
+
+    qbGrfg("G40",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: TNEQVARE YA/CBCYNE YRIRY EQ YIVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 21:23:02 Pbzzragf:  NYG# 502-905-8388 -085.706298 +38.193026 GNA NPPBEQ IF ERQ PNE NPSF ERD SVER SBE ZVGVTNGVBA ** Pnfr ahzore 5014000042 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28",
+        "NQQE:TNEQVARE YA & CBCYNE YRIRY EQ",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:PURZVPNY",
+        "PNYY:ZVGVTNGVBA",
+        "GVZR:21:23:02",
+        "VASB:NYG# 502-905-8388 -085.706298 +38.193026 GNA NPPBEQ IF ERQ PNE NPSF ERD SVER SBE ZVGVTNGVBA");
+
+    qbGrfg("G41",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 311 CYNMN NIR YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 14:22:41 Pbzzragf:  SVER, FZXR VA ONFRZRAG ** Pnfr ahzore 3714000046 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 5014000041 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 5514000053 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 7114000057 unf orra nffvtarq sbe 71:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 RINPHNGVAT SVER 5 2F ERFQ AF 3737 PXVAT UNMR VA GUR ONFRZRAG FYBJ HAVGF ERFCBAQVAT OHG PBAGVAHR S3737 PNA GNXR PBAGEBY",
+        "NQQE:311 CYNMN NIR",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:14:22:41",
+        "VASB:SVER, FZXR VA ONFRZRAG");
+
+    qbGrfg("G42",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 311 CYNMN NIR YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 14:22:41 Pbzzragf:  SVER, FZXR VA ONFRZRAG ** Pnfr ahzore 3714000046 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 5014000041 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 5514000053 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 7114000057 unf orra nffvtarq sbe 71:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28",
+        "NQQE:311 CYNMN NIR",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:14:22:41",
+        "VASB:SVER, FZXR VA ONFRZRAG");
+
+    qbGrfg("G43",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3408 ARJOHET EQ JGCX GLCR PBQR: SVER FHO GLCR: GENFU GVZR: 08:05:25 Pbzzragf:  PBZC NQI ZNYR VA ERNE CNEXVAT YBG YVTUG SVER ** Pnfr ahzore 5014000040 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YBEV ONXRE ba grezvany: 911zf20",
+        "NQQE:3408 ARJOHET EQ",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:JGCX",
+        "PBQR:SVER",
+        "PNYY:GENFU",
+        "GVZR:08:05:25",
+        "VASB:PBZC NQI ZNYR VA ERNE CNEXVAT YBG YVTUG SVER");
+
+    qbGrfg("G44",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 7110 TENQR YA YIVY:VFN NYB VAP GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 00:06:16 Pbzzragf:  PBZC NQI JNGRE SYBJ FLFGRZ 5 NYNEZ YVP 114, 415-7820, JVYY AGSL ** Pnfr ahzore 5014000039 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZVPUNRY EBBXF ba grezvany: 911zf21 ** Pnfr ahzore 8014000105 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZVPUNRY EBBXF ba grezvany: 911zf21",
+        "NQQE:7110 TENQR YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:VFN NYB VAP",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:00:06:16",
+        "VASB:PBZC NQI JNGRE SYBJ FLFGRZ 5 NYNEZ YVP 114, 415-7820, JVYY AGSL");
+
+    qbGrfg("G45",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4820 WRAAVATF YA JGCX:OSV QVFGEVOHGBE GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 14:09:40 Pbzzragf:  FUBJVAT EVFRE SYBJ, FZBXR QRGRPGBE CERZ CU 614-402-2777 JVYY AGSL ** Pnfr ahzore 5014000038 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf26 ** Pnfr ahzore 8014000101 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf26 ** Pnfr ahzore 3714000043 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf26",
+        "NQQE:4820 WRAAVATF YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:OSV QVFGEVOHGBE - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:14:09:40",
+        "VASB:FUBJVAT EVFRE SYBJ, FZBXR QRGRPGBE CERZ CU 614-402-2777 JVYY AGSL");
+
+    qbGrfg("G46",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: CEBQHPR EQ/WRAAVATF YA YIVY GLCR PBQR: NPPVQRAG FHO GLCR: ERFPHR GVZR: 06:39:41 Pbzzragf:  CebDN qvfcngpu pbqr: 29Q04 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag vawherq va n genssvp vapvqrag. Gur cngvrag vf bs haxabja ntr naq traqre, jubfr pbafpvbhfarff naq oernguvat vf haxabja. Cvaarq (genccrq) ivpgvz. 2.Bgure unmneqf fcrpvsvrq va pbzzragf ner cerfrag: IF CBYR -Pbzzragf: IF CBYR- FHI IF CBYR ARNE GENVA GENPXF, ABG BA GENPXF SRZNYR GENCCRQ VAFVQR ** Pnfr ahzore 5014000037 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: CNGEVPVN CHRAGR ba grezvany: 911zf20 ** Pnfr ahzore 8014000091 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: CNGEVPVN CHRAGR ba grezvany: 911zf20",
+        "NQQE:CEBQHPR EQ & WRAAVATF YA",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:NPPVQRAG",
+        "PNYY:ERFPHR",
+        "GVZR:06:39:41",
+        "VASB:Lbh ner erfcbaqvat gb n cngvrag vawherq va n genssvp vapvqrag. Gur cngvrag vf bs haxabja ntr naq traqre, jubfr pbafpvbhfarff naq oernguvat vf haxabja. Cvaarq (genccrq) ivpgvz. 2.Bgure unmneqf fcrpvsvrq va pbzzragf ner cerfrag: IF CBYR -Pbzzragf: IF CBYR- FHI IF CBYR ARNE GENVA GENPXF, ABG BA GENPXF SRZNYR GENCCRQ VAFVQR");
+
+    qbGrfg("G47",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 6535 CNENZBHAG CNEX QE YIVY:PBZSBEG FHVGRF GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 16:22:49 Pbzzragf:  TRARENY SVER NYNEZ ** Pnfr ahzore 8014000086 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27 ** Pnfr ahzore 5014000036 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27",
+        "NQQE:6535 CNENZBHAG CNEX QE",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:PBZSBEG FHVGRF",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:16:22:49",
+        "VASB:TRARENY SVER NYNEZ");
+
+    qbGrfg("G48",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4420 OVFUBC YA JGCX:QRNAF SBBQF GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 15:48:29 Pbzzragf:  JNGRE SYBJ EVFRE GJB ** Pnfr ahzore 5014000035 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27 ** Pnfr ahzore 8014000084 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27 ** Pnfr ahzore 3714000038 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27",
+        "NQQE:4420 OVFUBC YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:QRNAF SBBQF - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:15:48:29",
+        "VASB:JNGRE SYBJ EVFRE GJB");
+
+    qbGrfg("G49",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4420 OVFUBC YA JGCX:QRNAF SBBQF GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 15:48:29 Pbzzragf:  JNGRE SYBJ EVFRE GJB ** Pnfr ahzore 5014000035 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27 ** Pnfr ahzore 8014000084 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27 ** Pnfr ahzore 3714000038 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: ZVPURYR ORAMVAT ba grezvany: 911zf27",
+        "NQQE:4420 OVFUBC YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:QRNAF SBBQF - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:15:48:29",
+        "VASB:JNGRE SYBJ EVFRE GJB");
+
+    qbGrfg("G50",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5617 PENONCCYR PG YIVY GLCR PBQR: JNGRE_YRNX FHO GLCR: VAFVQR GVZR: 14:55:05 Pbzzragf:  JNGRE YRNX VA NGGNPURQ TNENTR ZVYQ YNAT ONEEVRE ** Pnfr ahzore 5014000034 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26",
+        "NQQE:5617 PENONCCYR PG",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:JNGRE_YRNX",
+        "PNYY:VAFVQR",
+        "GVZR:14:55:05",
+        "VASB:JNGRE YRNX VA NGGNPURQ TNENTR ZVYQ YNAT ONEEVRE");
+
+    qbGrfg("G51",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5612 WRNAVAR QE YIVY GLCR PBQR: JNGRE_YRNX FHO GLCR: VAFVQR GVZR: 14:05:29 Pbzzragf:  JNGRE PBZVAT SEBZ JNYYF VA ONFRZRAG N SRJ VAPURF BS JNGRE PBIREVAT SYBBE ** Pnfr ahzore 5014000033 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26",
+        "NQQE:5612 WRNAVAR QE",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:JNGRE_YRNX",
+        "PNYY:VAFVQR",
+        "GVZR:14:05:29",
+        "VASB:JNGRE PBZVAT SEBZ JNYYF VA ONFRZRAG N SRJ VAPURF BS JNGRE PBIREVAT SYBBE");
+
+    qbGrfg("G52",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4700 F UHEFGOBHEAR CXL YIVY: ZRVWRE TNF FGNGVBA GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 13:36:31 Pbzzragf:  FZBXR QRGRPGBE AGSL / CERZVFR # 502-493-4909 ** Pnfr ahzore 7114000045 unf orra nffvtarq sbe 71:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20 ** Pnfr ahzore 5014000032 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20",
+        "NQQE:4700 F UHEFGOBHEAR CXL",
+        "ZNQQE:4700 F UHEFGOBHEAR CXJL",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:ZRVWRE TNF FGNGVBA",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:13:36:31",
+        "VASB:FZBXR QRGRPGBE AGSL / CERZVFR # 502-493-4909\a>>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20\a>>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20");
+
+    qbGrfg("G53",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5205 EHFFRGG OYIQ YIVY,4 GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 10:16:20 Pbzzragf:  CVCRF OHFGRQ NAQ JNGRE JNF YRNXVAT NAQ ABJ VF FZRYYVAT FBZRGUVAT OHEAVAT ** Pnfr ahzore 8014000077 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20 ** Pnfr ahzore 5014000031 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20 ** Pnfr ahzore 3714000035 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20",
+        "NQQE:5205 EHFFRGG OYIQ",
+        "NCG:4",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:10:16:20",
+        "VASB:CVCRF OHFGRQ NAQ JNGRE JNF YRNXVAT NAQ ABJ VF FZRYYVAT FBZRGUVAT OHEAVAT\a>>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20\a>>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20\a>>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf20");
+
+    qbGrfg("G54",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1501 TNEQVARE YA JGCX:PEBFF ZBGBEF GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 09:30:44 Pbzzragf:  JNGRE SYBJ JVYY AGSL CERZVFR # 459-9900 ** Pnfr ahzore 5014000030 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf28 ** Pnfr ahzore 8014000075 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf28 ** Pnfr ahzore 5514000035 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf28",
+        "NQQE:1501 TNEQVARE YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:PEBFF ZBGBEF - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:09:30:44",
+        "VASB:JNGRE SYBJ JVYY AGSL CERZVFR # 459-9900\a>>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf28\a>>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf28\a>>>> ol: XVZ OEBBXF-XNEERE ba grezvany: 911zf28");
+
+    qbGrfg("G55",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1501 ENATRYNAQ EQ YIVY: @FPUBBY - GUBZNF WRSSREFBA ZVQQYR FPUBBY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 05:33:53 Pbzzragf:  FZBXR NYNEZ TBVAT BSS NG SVER CNARY WPCF RAEBHGR ** Pnfr ahzore 8014000073 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: PBYYRRA XNGF ba grezvany: 911zf21 ** Pnfr ahzore 5014000029 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PBYYRRA XNGF ba grezvany: 911zf21",
+        "NQQE:1501 ENATRYNAQ EQ",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:FPUBBY - GUBZNF WRSSREFBA ZVQQYR FPUBBY",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:05:33:53",
+        "VASB:FZBXR NYNEZ TBVAT BSS NG SVER CNARY WPCF RAEBHGR");
+
+    qbGrfg("G56",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4515 OVFUBC YA JGCX:XRAGHPXL NFFBP RYRPGEVP GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 04:16:48 Pbzzragf:  OHFVARFF CUBAR#451-2430 PBZVAT SEBZ JNGRE SYBJ EVFRE 1 ** Pnfr ahzore 5014000028 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21 ** Pnfr ahzore 8014000071 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21 ** Pnfr ahzore 3714000032 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21 ABGVSLVAT VAPBEERPG BA FPRAR GVZR 5051 AF 1 FGBEL PBZZ 0424 BA FPRAR GVZR 3737 FGNAQVAT OL FVNZRFR",
+        "NQQE:4515 OVFUBC YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:XRAGHPXL NFFBP RYRPGEVP - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:04:16:48",
+        "VASB:OHFVARFF CUBAR#451-2430 PBZVAT SEBZ JNGRE SYBJ EVFRE 1");
+
+    qbGrfg("G57",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4515 OVFUBC YA JGCX:XRAGHPXL NFFBP RYRPGEVP GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 04:16:48 Pbzzragf:  OHFVARFF CUBAR#451-2430 PBZVAT SEBZ JNGRE SYBJ EVFRE 1 ** Pnfr ahzore 5014000028 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21 ** Pnfr ahzore 8014000071 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21 ** Pnfr ahzore 3714000032 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21",
+        "NQQE:4515 OVFUBC YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:XRAGHPXL NFFBP RYRPGEVP - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:04:16:48",
+        "VASB:OHFVARFF CUBAR#451-2430 PBZVAT SEBZ JNGRE SYBJ EVFRE 1");
+
+    qbGrfg("G58",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: BHGRE YBBC/ZVABE YA YIVY GLCR PBQR: SVER FHO GLCR: PBZZREPVNY GVZR: 19:12:06 Pbzzragf:  PBZC NQI TERRAUBHFR BA SVER ** Pnfr ahzore 8014000065 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26 ** Pnfr ahzore 5014000027 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26",
+        "NQQE:BHGRE YBBC & ZVABE YA",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:PBZZREPVNY",
+        "GVZR:19:12:06",
+        "VASB:PBZC NQI TERRAUBHFR BA SVER");
+
+    qbGrfg("G59",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: CBCYNE YRIRY EQ/R VAQVNA GEY YIVY GLCR PBQR: NPPVQRAG FHO GLCR: ERFPHR GVZR: 18:08:14 Pbzzragf:  ZIN CebDN qvfcngpu pbqr: 29Q04 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb zhygvcyr cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Cvaarq (genccrq) ivpgvz (Zhygvcyr cngvragf). Zhygvcyr cngvragf vaibyirq: 2. Cvaarq (genccrq) ivpgvz (Zhygvcyr cngvragf). 3.Vg'f abg xabja vs purzvpnyf be bgure unmneqf ner vaibyirq. ** Pnfr ahzore 5014000026 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26 ** Pnfr ahzore 8014000062 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26",
+        "NQQE:CBCYNE YRIRY EQ & R VAQVNA GEY",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:NPPVQRAG",
+        "PNYY:ERFPHR",
+        "GVZR:18:08:14",
+        "VASB:ZIN\aLbh ner erfcbaqvat gb zhygvcyr cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Cvaarq (genccrq) ivpgvz (Zhygvcyr cngvragf). Zhygvcyr cngvragf vaibyirq: 2. Cvaarq (genccrq) ivpgvz (Zhygvcyr cngvragf). 3.Vg'f abg xabja vs purzvpnyf be bgure unmneqf ner vaibyirq.");
+
+    qbGrfg("G60",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4235 BHGRE YBBC YIVY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 16:38:42 Pbzzragf:  JNGRE SYBJ NYNEZ ** Pnfr ahzore 5014000025 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26 ** Pnfr ahzore 8014000060 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26",
+        "NQQE:4235 BHGRE YBBC",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:16:38:42",
+        "VASB:JNGRE SYBJ NYNEZ");
+
+    qbGrfg("G61",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 9405 EVIRE GENVY QE YIVY GLCR PBQR: NYNEZ FHO GLCR: ERFVQRAGVNY GVZR: 16:27:40 Pbzzragf:  PBZC VF ARVTUOBE, FZBXR NYNEZ FBHAQVAT NG YBP ** Pnfr ahzore 8014000059 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26 ** Pnfr ahzore 5014000024 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26",
+        "NQQE:9405 EVIRE GENVY QE",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:NYNEZ",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:16:27:40",
+        "VASB:PBZC VF ARVTUOBE, FZBXR NYNEZ FBHAQVAT NG YBP");
+
+    qbGrfg("G62",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 6551 CNENZBHAG CNEX QE YIVY: @UBYVQNL VAA - BSS SREA INYYRL EQ GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 15:15:20 Pbzzragf:  WNDHMMV EBBZ JNGRE SYBJVAT VAGB ERFGHENAG AGSL ** Pnfr ahzore 8014000055 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26 ** Pnfr ahzore 5014000023 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FNENU JNYYNPR ba grezvany: 911zf26 NPSF, SEBZ YBP",
+        "NQQE:6551 CNENZBHAG CNEX QE",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:UBYVQNL VAA - BSS SREA INYYRL EQ",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:15:15:20",
+        "VASB:WNDHMMV EBBZ JNGRE SYBJVAT VAGB ERFGHENAG AGSL");
+
+    qbGrfg("G63",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4580 CBCYNE YRIRY EQ YIVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 14:58:36 Pbzzragf:  QVRFRY FCVYY ** Pnfr ahzore 5014000022 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WBFU ARRYL ba grezvany: 911zf28",
+        "NQQE:4580 CBCYNE YRIRY EQ",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:PURZVPNY",
+        "PNYY:ZVGVTNGVBA",
+        "GVZR:14:58:36",
+        "VASB:QVRFRY FCVYY");
+
+    qbGrfg("G64",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1367 TNEQVARE YA JGCX: @PNAQYRJBBQ FHVGRF - TNEQVARE & FPUZVGG GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 13:50:12 Pbzzragf:  TRA SVER ** Pnfr ahzore 5014000021 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 3714000029 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 5514000024 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20",
+        "NQQE:1367 TNEQVARE YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:PNAQYRJBBQ FHVGRF - TNEQVARE & FPUZVGG - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:13:50:12",
+        "VASB:TRA SVER");
+
+    qbGrfg("G65",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5116 EBRQRERE QE YIVY GLCR PBQR: JNGRE_YRNX FHO GLCR: RYRPGEVPNY GVZR: 12:23:48 Pbzzragf:  JNGRE YRNX TBVAT VAGB BHGYRGF GELVAT GB YBPNGR FUHG BSS NG GUVF GVZR ** Pnfr ahzore 5014000020 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 8014000047 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20",
+        "NQQE:5116 EBRQRERE QE",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:JNGRE_YRNX",
+        "PNYY:RYRPGEVPNY",
+        "GVZR:12:23:48",
+        "VASB:JNGRE YRNX TBVAT VAGB BHGYRGF GELVAT GB YBPNGR FUHG BSS NG GUVF GVZR");
+
+    qbGrfg("G66",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1367 TNEQVARE YA JGCX: @PNAQYRJBBQ FHVGRF - TNEQVARE & FPUZVGG GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 09:36:55 Pbzzragf:  PNAQYRJBBQ FHVGRF TRARENY SVER ** Pnfr ahzore 5014000019 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 8014000045 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 3714000028 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20",
+        "NQQE:1367 TNEQVARE YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:PNAQYRJBBQ FHVGRF - TNEQVARE & FPUZVGG - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:09:36:55",
+        "VASB:PNAQYRJBBQ FHVGRF TRARENY SVER");
+
+    qbGrfg("G67",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5013 DHNVY PG YIVY GLCR PBQR: NYNEZ FHO GLCR: ERFVQRAGVNY GVZR: 07:40:18 Pbzzragf:  PNYYRE NQI SVER NYNEZ FBHAQVAT NG GUVF ERFVQRAPR SBE 15 ZVAF PNYYRE NQI FUR XABPXRQ BA QBBE OHG AB BAR NAFJRERQ ** Pnfr ahzore 5014000018 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20 ** Pnfr ahzore 8014000043 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVOOL TERABHTU ba grezvany: 911zf20",
+        "NQQE:5013 DHNVY PG",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:NYNEZ",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:07:40:18",
+        "VASB:PNYYRE NQI SVER NYNEZ FBHAQVAT NG GUVF ERFVQRAPR SBE 15 ZVAF PNYYRE NQI FUR XABPXRQ BA QBBE OHG AB BAR NAFJRERQ");
+
+    qbGrfg("G68",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3625 SREA INYYRL EQ YIVY:@SENAFVPNA URNYGU PNER GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 05:01:19 Pbzzragf:  TRARENY SVER CERZ# 964-3381 ABGV ** Pnfr ahzore 8014000040 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZNEPV ZPXRAMVR ba grezvany: 911zf21 ** Pnfr ahzore 5014000017 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZNEPV ZPXRAMVR ba grezvany: 911zf21",
+        "NQQE:3625 SREA INYYRL EQ",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:SENAFVPNA URNYGU PNER",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:05:01:19",
+        "VASB:TRARENY SVER CERZ# 964-3381 ABGV");
+
+    qbGrfg("G69",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1367 TNEQVARE YA JGCX: @PNAQYRJBBQ FHVGRF - TNEQVARE & FPUZVGG GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 01:15:35 Pbzzragf:  TRARENY NYNEZ CERZ# 357-3577 ABGV ** Pnfr ahzore 5014000016 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZNEPV ZPXRAMVR ba grezvany: 911zf21 ** Pnfr ahzore 3714000026 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: ZNEPV ZPXRAMVR ba grezvany: 911zf21 ** Pnfr ahzore 8014000036 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZNEPV ZPXRAMVR ba grezvany: 911zf21",
+        "NQQE:1367 TNEQVARE YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:PNAQYRJBBQ FHVGRF - TNEQVARE & FPUZVGG - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:01:15:35",
+        "VASB:TRARENY NYNEZ CERZ# 357-3577 ABGV");
+
+    qbGrfg("G70",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5708 ERIRER CY YIVY,201 GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 20:27:22 Pbzzragf:  FGBIR BA SVER, ABG SBBQ RINPHNGVAT ** Pnfr ahzore 8014000030 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 ** Pnfr ahzore 5014000015 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 ** Pnfr ahzore 3714000024 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28",
+        "NQQE:5708 ERIRER CY",
+        "NCG:201",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:20:27:22",
+        "VASB:FGBIR BA SVER, ABG SBBQ RINPHNGVAT");
+
+    qbGrfg("G71",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4500 XREEVPX YA YIVY: @CEC1 GLCR PBQR: NFFVFG FHO GLCR: YNC_VA GVZR: 19:13:06 Pbzzragf:  PNZC GNLYBE YNC VAGB CEC FG 1 ** Pnfr ahzore 5014000013 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 5038",
+        "NQQE:4500 XREEVPX YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:CEC1",
+        "PBQR:NFFVFG",
+        "PNYY:YNC_VA",
+        "GVZR:19:13:06",
+        "VASB:PNZC GNLYBE YNC VAGB CEC FG 1");
+
+    qbGrfg("G72",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 6105 THNEQVNA PG YIVY GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 17:57:28 Pbzzragf:  FUBBGVAT CebDN qvfcngpu pbqr: 27O04 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub unf orra fubg/fgnoorq. Gur cngvrag vf n znyr bs haxabja ntr, jubfr pbafpvbhfarff naq oernguvat vf haxabja. Haxabja fgnghf/Bgure pbqrf abg nccyvpnoyr (Thafubg). 3.Gur ybpngvba bs gur nffnvynag vf abg xabja. SRZ PYYRE NQI GUG ZNYR UNF ORRA FUBG CQ2 126 841/ 64 PYYE BAYL NOYR GB NQI FUR URNEQ FBZRBAR LRYYVAT' FHOW GEVRQ GB RAGRE ERF PNYYRE VA #3 NQI URE 17LB FBA FUBG FBZRBAR FUR GUVAXF, HAX JURER FBA VF ABJ \"GUBZNF OVTTREF\" NAQ U/B FUBG ZNYR Qhcyvpngr Rirag:Ybpngvba = 6105 THNEQVNA PG YIVY, 3 :UNYYJNL, Pebff Fgerrg 1 = YNPYRQR YA, Pebff Fgerrg 2 = QRNQ RAQ, Glcr = 1032 GEBHOYR, Fhoglcr = TRARENY TRARENY, Pnyyre Cu Ahzore = (502) 714-4200, Pnyy Fbhepr = 2-Cubar, Nynez Yriry = 1 FBZRBAR CBFF FUBBGVAT NG URE FBA, FGNGRQ FBZRBAR UVG UVZ JONFRONYY ONG Raq bs Qhcyvpngr Rirag qngn PNYYRE HAX JURER URE 17LB FBA VF ABJ NPSF SEBZ NCG #6 ** PBEE # 7 6/ J/Z, YFJ OYX WXG, WRNAF FHOW YNLVAT NG GUR OBGGBZ BS GRU FGNVEF AS C3 GPVF/971 BX PNYYRE LRYYRQ BHG GUNG FBZRBAR UVG URE FBA J/OONYY ONG GURA FBA FUBG GUR CREFBA 971 BA PUNAARY IVP VF HCFGNVEF VA UNYYJNL NPSF 991-3132 PNYYRE URNEQ 1 FUBG, FUR VF UVQVAT VA #3 PYBFRG ***PNYYRE FGNGRQ GUNG FBZRBAR GEVRQ GB EBO URE FBA J/OONYY ONG TRGGVAT QRFP BS CREC BS NGGRZCGRQ EBOOREL CRE PBHFVA CREC=J/Z, HAX PYBGUVAT YNETR NYGREPNGVBA (NPSF SEBZ NCG #7 - 303-8595) PNYYRE UNF AS FUBG VA GUR ONPX CRE PNYYRE CRE 4CP FGVYY PBAFP/OERNGU Puvrs pbzcynvag pbqr bs ynfg erpbasvther: 27 Erpbasvtherq qvfcngpu pbqr: 27Q03 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jub unf orra fubg/fgnoorq. Gur cngvrag vf n 0-zbagu-byq znyr, jubfr pbafpvbhfarff naq oernguvat vf haxabja. PRAGENY jbhaqf (Thafubg). 3.Gur ybpngvba bs gur nffnvynag vf abg xabja. PNYYRE UVQVAT VA PYBFRG PNYYRE VA NCG # 7 - NQI FHOW WHFGVA JNF J/ N JZ, NAQ VG JNF WHFG GUR GJB BS GURZ VA GUR UNYYJNL // PBZC ORYVRIRF FHOW WHFGVA, JZ, 19LB, GNYY, NYY OYH PYBGUVAT, VF JUB FUBG GUR JZ VA GUR UNYYJNL PNYYRE NQI FUR URNEQ URE FBA VF EHAAVAT OHG HAX JURER UR VF 633Q- 30LBOZ HAPBA UBJ ZNAL CGF? FUBG GB YRSG FVQR 1 CG FB SNE 10-42 GNOVGUN VA #3 VF ZBGURE BS \"GUBZNF\" JUB NYYRTRQYL FUBG GUR NGGRZCGRQ EBOORE BX BA 1 CG FB SNE HAX VS OERNGUVAT 1086 SBE RZF 123 SVI 2 QVI 2 633P/2R CBFF FHFC VA NCG 3 PXVAT NCG PYRNE 2 QRGNVARQ FHOW- GUBZNF IVTBEF 2-13-96 JZ 6' 160# YFJ OYX WNPXRG OW CG VF HAPBA ABG OERNGUVAT CBFF 1080, GHEAVAT OYHR FGNEGRQ SVER ** Pnfr ahzore 5014000012 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28",
+        "NQQE:6105 THNEQVNA PG",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:ZRQVPNY",
+        "PNYY:ZRQ_PNYY",
+        "GVZR:17:57:28",
+        "VASB:FUBBGVAT\aLbh ner erfcbaqvat gb n cngvrag jub unf orra fubg/fgnoorq. Gur cngvrag vf n znyr bs haxabja ntr, jubfr pbafpvbhfarff naq oernguvat vf haxabja. Haxabja fgnghf/Bgure pbqrf abg nccyvpnoyr (Thafubg). 3.Gur ybpngvba bs gur nffnvynag vf abg xabja. SRZ PYYRE NQI GUG ZNYR UNF ORRA FUBG CQ2 126 841/ 64 PYYE BAYL NOYR GB NQI FUR URNEQ FBZRBAR LRYYVAT' FHOW GEVRQ GB RAGRE ERF PNYYRE VA #3 NQI URE 17LB FBA FUBG FBZRBAR FUR GUVAXF, HAX JURER FBA VF ABJ \"GUBZNF OVTTREF\" NAQ U/B FUBG ZNYR Qhcyvpngr Rirag:Ybpngvba = 6105 THNEQVNA PG YIVY, 3 :UNYYJNL, Pebff Fgerrg 1 = YNPYRQR YA, Pebff Fgerrg 2 = QRNQ RAQ, Glcr = 1032 GEBHOYR, Fhoglcr = TRARENY TRARENY, Pnyyre Cu Ahzore = (502) 714-4200, Pnyy Fbhepr = 2-Cubar, Nynez Yriry = 1 FBZRBAR CBFF FUBBGVAT NG URE FBA, FGNGRQ FBZRBAR UVG UVZ JONFRONYY ONG Raq bs Qhcyvpngr Rirag qngn PNYYRE HAX JURER URE 17LB FBA VF ABJ NPSF SEBZ NCG #6 ** PBEE # 7 6/ J/Z, YFJ OYX WXG, WRNAF FHOW YNLVAT NG GUR OBGGBZ BS GRU FGNVEF AS C3 GPVF/971 BX PNYYRE LRYYRQ BHG GUNG FBZRBAR UVG URE FBA J/OONYY ONG GURA FBA FUBG GUR CREFBA 971 BA PUNAARY IVP VF HCFGNVEF VA UNYYJNL NPSF 991-3132 PNYYRE URNEQ 1 FUBG, FUR VF UVQVAT VA #3 PYBFRG ***PNYYRE FGNGRQ GUNG FBZRBAR GEVRQ GB EBO URE FBA J/OONYY ONG TRGGVAT QRFP BS CREC BS NGGRZCGRQ EBOOREL CRE PBHFVA CREC=J/Z, HAX PYBGUVAT YNETR NYGREPNGVBA (NPSF SEBZ NCG #7 - 303-8595) PNYYRE UNF AS FUBG VA GUR ONPX CRE PNYYRE CRE 4CP FGVYY PBAFP/OERNGU Puvrs pbzcynvag pbqr bs ynfg erpbasvther: 27\aLbh ner erfcbaqvat gb n cngvrag jub unf orra fubg/fgnoorq. Gur cngvrag vf n 0-zbagu-byq znyr, jubfr pbafpvbhfarff naq oernguvat vf haxabja. PRAGENY jbhaqf (Thafubg). 3.Gur ybpngvba bs gur nffnvynag vf abg xabja. PNYYRE UVQVAT VA PYBFRG PNYYRE VA NCG # 7 - NQI FHOW WHFGVA JNF J/ N JZ, NAQ VG JNF WHFG GUR GJB BS GURZ VA GUR UNYYJNL // PBZC ORYVRIRF FHOW WHFGVA, JZ, 19LB, GNYY, NYY OYH PYBGUVAT, VF JUB FUBG GUR JZ VA GUR UNYYJNL PNYYRE NQI FUR URNEQ URE FBA VF EHAAVAT OHG HAX JURER UR VF 633Q- 30LBOZ HAPBA UBJ ZNAL CGF? FUBG GB YRSG FVQR 1 CG FB SNE 10-42 GNOVGUN VA #3 VF ZBGURE BS \"GUBZNF\" JUB NYYRTRQYL FUBG GUR NGGRZCGRQ EBOORE BX BA 1 CG FB SNE HAX VS OERNGUVAT 1086 SBE RZF 123 SVI 2 QVI 2 633P/2R CBFF FHFC VA NCG 3 PXVAT NCG PYRNE 2 QRGNVARQ FHOW- GUBZNF IVTBEF 2-13-96 JZ 6' 160# YFJ OYX WNPXRG OW CG VF HAPBA ABG OERNGUVAT CBFF 1080, GHEAVAT OYHR FGNEGRQ SVER");
+
+    qbGrfg("G73",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 756 UHAGVATGBA CNEX QE CUVY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 17:32:36 Pbzzragf:  PBZC PNA URNE NYNEZ FBHAQVAT QBRF ABG FRR BE FZRYY NAL FZBXR ** Pnfr ahzore 5014000011 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 ** Pnfr ahzore 8014000027 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 ** Pnfr ahzore 3714000021 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28",
+        "NQQE:756 UHAGVATGBA CNEX QE",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:CUVY",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:17:32:36",
+        "VASB:PBZC PNA URNE NYNEZ FBHAQVAT QBRF ABG FRR BE FZRYY NAL FZBXR");
+
+    qbGrfg("G74",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4857 WRAAVATF YA JGCX:CERZVRE CNPXNTVAT GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 16:41:49 Pbzzragf:  JNGRE SYBJ NYNEZ BA MBAR #05 ** Pnfr ahzore 5014000010 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 ** Pnfr ahzore 8014000026 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28 ** Pnfr ahzore 3714000020 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf28",
+        "NQQE:4857 WRAAVATF YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:CERZVRE CNPXNTVAT - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:16:41:49",
+        "VASB:JNGRE SYBJ NYNEZ BA MBAR #05");
+
+    qbGrfg("G75",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4005 BNXYNJA QE YIVY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 06:31:48 Pbzzragf:  JNGRE SYBJ NYNEZ PNEQVANY NYHZVAHZ AB XU LRG ** Pnfr ahzore 8014000022 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: TREEV TEVQRE ba grezvany: 911zf20 ** Pnfr ahzore 5014000009 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: TREEV TEVQRE ba grezvany: 911zf20",
+        "NQQE:4005 BNXYNJA QE",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:06:31:48",
+        "VASB:JNGRE SYBJ NYNEZ PNEQVANY NYHZVAHZ AB XU LRG");
+
+    qbGrfg("G76",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 1360 QHEERGG YA YIVY:AVYPB GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 02:21:03 Pbzzragf:  MBAR 5 JNGRE SYBJ EVFRE #1 502-368-3331, JVYY AGSL ** Pnfr ahzore 5014000008 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 8014000020 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 3714000016 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21",
+        "NQQE:1360 QHEERGG YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:AVYPB",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:02:21:03",
+        "VASB:MBAR 5 JNGRE SYBJ EVFRE #1 502-368-3331, JVYY AGSL");
+
+    qbGrfg("G77",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4408 OENQFUNJ CY YIVY GLCR PBQR: PURZVPNY FHO GLCR: BQBE_VA_NERN GVZR: 23:14:35 Pbzzragf:  PBZC NQI FGEBAT BQBE, CBFF XREBFRAR ** Pnfr ahzore 5014000007 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21 ** Pnfr ahzore 8014000019 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf21",
+        "NQQE:4408 OENQFUNJ CY",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:PURZVPNY",
+        "PNYY:BQBE_VA_NERN",
+        "GVZR:23:14:35",
+        "VASB:PBZC NQI FGEBAT BQBE, CBFF XREBFRAR");
+
+    qbGrfg("G78",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4913 FUHZNXR PG YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 21:54:07 Pbzzragf:  RINPHNGVAT NQI \"FBZRGUVAT HAQRE GUR UBHFR\" VF BA SVER ** Pnfr ahzore 5014000006 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: CNGEVPX EVBEQNA ba grezvany: 911zf21 ** Pnfr ahzore 3714000009 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: CNGEVPX EVBEQNA ba grezvany: 911zf21 ** Pnfr ahzore 1114000024 unf orra nffvtarq sbe 11:PAGL ** >>>> ol: CNGEVPX EVBEQNA ba grezvany: 911zf21 ** Pnfr ahzore 5514000012 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: CNGEVPX EVBEQNA ba grezvany: 911zf21",
+        "NQQE:4913 FUHZNXR PG",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:21:54:07",
+        "VASB:RINPHNGVAT NQI \"FBZRGUVAT HAQRE GUR UBHFR\" VF BA SVER");
+
+    qbGrfg("G79",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: SBERFG QE/SBERFG CNEX QE YIVY GLCR PBQR: SVER FHO GLCR: GENAFSBEZRE GVZR: 17:35:12 Pbzzragf:  GENAFSBEZRE BA SVER, GRYRCUBAR CBYR YRNAVAT ** Pnfr ahzore 5014000005 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NQEVRAAR ERAARE ba grezvany: 911zf26",
+        "NQQE:SBERFG QE & SBERFG CNEX QE",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:GENAFSBEZRE",
+        "GVZR:17:35:12",
+        "VASB:GENAFSBEZRE BA SVER, GRYRCUBAR CBYR YRNAVAT");
+
+    qbGrfg("G80",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: CBCYNE YRIRY EQ/R VAQVNA GEY YIVY GLCR PBQR: SVER FHO GLCR: GENAFSBEZRE GVZR: 07:54:58 Pbzzragf:  ** Pnfr ahzore 5014000004 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20",
+        "NQQE:CBCYNE YRIRY EQ & R VAQVNA GEY",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:GENAFSBEZRE",
+        "GVZR:07:54:58");
+
+    qbGrfg("G81",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3506 ARYYVR OYL QE YIVY GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 21:55:12 Pbzzragf:  CebDN qvfcngpu pbqr: 13P02 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag jvgu qvnorgvp ceboyrzf. Gur cngvrag vf n 50-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. Noabezny orunivbe. NQI CG UNF QVORGRF, UNF UNQ FVAHF VASRPGVBA, ABG ORRA RNGVAT CEBCREYL 221N BX ERD SVER PBQR 3 YVSG NFFVFG NAQ CNGVRAG PNER ** Pnfr ahzore 5014000003 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: CNGEVPX EVBEQNA ba grezvany: 911zf21",
+        "NQQE:3506 ARYYVR OYL QE",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:ZRQVPNY",
+        "PNYY:ZRQ_PNYY",
+        "GVZR:21:55:12",
+        "VASB:Lbh ner erfcbaqvat gb n cngvrag jvgu qvnorgvp ceboyrzf. Gur cngvrag vf n 50-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. Noabezny orunivbe. NQI CG UNF QVORGRF, UNF UNQ FVAHF VASRPGVBA, ABG ORRA RNGVAT CEBCREYL 221N BX ERD SVER PBQR 3 YVSG NFFVFG NAQ CNGVRAG PNER");
+
+    qbGrfg("G82",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4656 CBCYNE YRIRY EQ CUVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 14:06:41 Pbzzragf:  BXBYBAN SVER EBYYRQ HC BA VG 2AQ IRU WHFG SYRQ WPFB QRCHGL CBFF GELVAT GB PNGPU HC JVGU VG 2AQ IRU UNF PBZR ONPX YZCQ BX PBEERPGVBA 8001 EBYYRQ HC BA VG ** Pnfr ahzore 5014000002 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZRYVFFN UNEYRL ba grezvany: 911zf27",
+        "NQQE:4656 CBCYNE YRIRY EQ",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:CUVY",
+        "PBQR:PURZVPNY",
+        "PNYY:ZVGVTNGVBA",
+        "GVZR:14:06:41",
+        "VASB:BXBYBAN SVER EBYYRQ HC BA VG 2AQ IRU WHFG SYRQ WPFB QRCHGL CBFF GELVAT GB PNGPU HC JVGU VG 2AQ IRU UNF PBZR ONPX YZCQ BX PBEERPGVBA 8001 EBYYRQ HC BA VG");
+
+    qbGrfg("G83",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: TBYQFZVGU YA/ARJOHET EQ YIVY GLCR PBQR: PURZVPNY FHO GLCR: ZVGVTNGVBA GVZR: 04:19:45 Pbzzragf:  VAGREFRPGVBA 2 IRU CBFF. 1 1055 OHET I OYX 198ZFI/XL CebDN qvfcngpu pbqr: 29O01 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb zhygvcyr cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Vawhevrf (Zhygvcyr cngvragf). Zhygvcyr cngvragf vaibyirq: 2. 3.Purzvpnyf be bgure unmneqf ner abg vaibyirq. ** Rirag R14000064 ivrjrq ng: 1/1/2014 4:10:02 NZ   ** >>>>  ol: 27572 ba grezvany : 27572 227N ONEQ.ZRNQBJ ZNYR JVGU YNPF GB URNQ 2AQ CNGVRAG 22 LBZ FWCH;QRE [NVA FUBHYQRE CNVA RZF PNA FYBJ P1 611N ERD SQ SBE ZVGVTNGVBA BS IRUVPYR SYHVQF ** Pnfr ahzore 5014000001 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: GBALN RVQRA ba grezvany: 911zf21",
+        "NQQE:TBYQFZVGU YA & ARJOHET EQ",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:PURZVPNY",
+        "PNYY:ZVGVTNGVBA",
+        "GVZR:04:19:45",
+        "VASB:VAGREFRPGVBA 2 IRU CBFF. 1 1055 OHET I OYX 198ZFI/XL\aLbh ner erfcbaqvat gb zhygvcyr cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Vawhevrf (Zhygvcyr cngvragf). Zhygvcyr cngvragf vaibyirq: 2. 3.Purzvpnyf be bgure unmneqf ner abg vaibyirq. ** Rirag R14000064 ivrjrq ng: 1/1/2014 4:10:02 NZ   ** >>>>  ol: 27572 ba grezvany : 27572 227N ONEQ.ZRNQBJ ZNYR JVGU YNPF GB URNQ 2AQ CNGVRAG 22 LBZ FWCH;QRE [NVA FUBHYQRE CNVA RZF PNA FYBJ P1 611N ERD SQ SBE ZVGVTNGVBA BS IRUVPYR SYHVQF");
+
+    qbGrfg("G84",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 9503 GUBE NIR YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 17:33:54 Pbzzragf:  XVQF UNIR OHVYG SVER VAFVQR TNENTR NQI ABG VA N JBBQ OHEAVAT FGBIR PNYYRE VF ARVTUOBE, PNAABG SHEGURE, TNENTR QBBE PYBFRQ ** Pnfr ahzore 8013002277 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZNEX WRMVBEFXV ba grezvany: 911zf26 ** Pnfr ahzore 9013001091 unf orra nffvtarq sbe 90:PAGL ** >>>> ol: ZNEX WRMVBEFXV ba grezvany: 911zf26 ** Pnfr ahzore 1113000960 unf orra nffvtarq sbe 11:PAGL ** >>>> ol: ZNEX WRMVBEFXV ba grezvany: 911zf26 ** Pnfr ahzore 5013000787 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZNEX WRMVBEFXV ba grezvany: 911zf26",
+        "NQQE:9503 GUBE NIR",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:17:33:54",
+        "VASB:XVQF UNIR OHVYG SVER VAFVQR TNENTR NQI ABG VA N JBBQ OHEAVAT FGBIR PNYYRE VF ARVTUOBE, PNAABG SHEGURE, TNENTR QBBE PYBFRQ");
+
+    qbGrfg("G85",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5505 EBFNEL PG YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 13:30:22 Pbzzragf:  ** Pnfr ahzore 8013002273 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WVZ FUVCC ba grezvany: 911zf20 ** Pnfr ahzore 5013000786 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WVZ FUVCC ba grezvany: 911zf20 ** Pnfr ahzore 3713001030 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: WVZ FUVCC ba grezvany: 911zf20",
+        "NQQE:5505 EBFNEL PG",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:13:30:22");
+
+    qbGrfg("G86",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: CBCYNE YRIRY EQ/R VAQVNA GEY YIVY GLCR PBQR: NPPVQRAG FHO GLCR: ERFPHR GVZR: 10:00:25 Pbzzragf:  ZIN CebDN qvfcngpu pbqr: 29Q04 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Cvaarq (genccrq) ivpgvz (Haxabja ahzore bs cngvragf). Haxabja ahzore bs cngvragf vaibyirq. Cvaarq (genccrq) ivpgvz (Haxabja ahzore bs cngvragf). 3.Vg'f abg xabja vs purzvpnyf be bgure unmneqf ner vaibyirq. NQIVFRQ FHOW VA INA VF GENCCRQ ** Pnfr ahzore 5013000785 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: WVZ FUVCC ba grezvany: 911zf20 ** Pnfr ahzore 8013002270 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: WVZ FUVCC ba grezvany: 911zf20",
+        "NQQE:CBCYNE YRIRY EQ & R VAQVNA GEY",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:NPPVQRAG",
+        "PNYY:ERFPHR",
+        "GVZR:10:00:25",
+        "VASB:ZIN\aLbh ner erfcbaqvat gb cngvragf vaibyirq va n genssvp vapvqrag. (Vs xabja -- erynl cregvarag cngvrag-fcrpvsvp vasbezngvba.) Cvaarq (genccrq) ivpgvz (Haxabja ahzore bs cngvragf). Haxabja ahzore bs cngvragf vaibyirq. Cvaarq (genccrq) ivpgvz (Haxabja ahzore bs cngvragf). 3.Vg'f abg xabja vs purzvpnyf be bgure unmneqf ner vaibyirq. NQIVFRQ FHOW VA INA VF GENCCRQ");
+
+    qbGrfg("G87",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5615 NVYNAGUHF GEY YIVY GLCR PBQR: ZRQVPNY FHO GLCR: ZRQ_PNYY GVZR: 17:40:30 Pbzzragf:  SNYY CebDN qvfcngpu pbqr: 17O01 Erfcbaqre fpevcg: Lbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy. Gur cngvrag vf n 57-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. CBFFVOYL QNATREBHF obql nern (Ba gur tebhaq be sybbe). CBFFVOYL QNATREBHF obql nern (Ba gur tebhaq be sybbe). 57LB SRZ SNYYRA VAW GB YRT NAQ PURFG 126 SP1 PBQR-1 YVSG NFFVFG ** Pnfr ahzore 5013000784 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: NAVGN OVYLRH ba grezvany: 911zf26",
+        "NQQE:5615 NVYNAGUHF GEY",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:ZRQVPNY",
+        "PNYY:ZRQ_PNYY",
+        "GVZR:17:40:30",
+        "VASB:SNYY\aLbh ner erfcbaqvat gb n cngvrag vaibyirq va n snyy. Gur cngvrag vf n 57-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. CBFFVOYL QNATREBHF obql nern (Ba gur tebhaq be sybbe). CBFFVOYL QNATREBHF obql nern (Ba gur tebhaq be sybbe). 57LB SRZ SNYYRA VAW GB YRT NAQ PURFG 126 SP1 PBQR-1 YVSG NFFVFG");
+
+    qbGrfg("G88",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5012 PENSGL QE YIVY GLCR PBQR: NPPVQRAG FHO GLCR: IF_FGEHPGHER GVZR: 21:44:41 Pbzzragf:  5 PHONA FHOWF VA N QEX PBYBERQ GEHPX WHFG UVG OYQT NAQ YRSG FPRAR CRE PBZC, NQI QBRF ABG NCCRNE NALBAR VAWHERQ, IRU SYRQ GBJ DHRFG QE, HAX NSGRE GUNG PBCVRQ SVER AS QRFPEVCF BE VASB ** Pnfr ahzore 5013000783 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZNEL OEBJA ba grezvany: 911zf20 ** Pnfr ahzore 8013002261 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: ZNEL OEBJA ba grezvany: 911zf20",
+        "NQQE:5012 PENSGL QE",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:NPPVQRAG",
+        "PNYY:IF_FGEHPGHER",
+        "GVZR:21:44:41",
+        "VASB:5 PHONA FHOWF VA N QEX PBYBERQ GEHPX WHFG UVG OYQT NAQ YRSG FPRAR CRE PBZC, NQI QBRF ABG NCCRNE NALBAR VAWHERQ, IRU SYRQ GBJ DHRFG QE, HAX NSGRE GUNG PBCVRQ SVER AS QRFPEVCF BE VASB");
+
+    qbGrfg("G89",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5505 EVCCYR YA YIVY GLCR PBQR: TNF_YRNX FHO GLCR: VAFVQR GVZR: 17:13:14 Pbzzragf:  ** Pnfr ahzore 8013002260 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf27 ** Pnfr ahzore 5013000782 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf27 FZRYYF TNF VAFVQR YBP - CBFF PBZVAT SEBZ CVYBG YVTUG NERN ERS RZF RINP ABJ",
+        "NQQE:5505 EVCCYR YA",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:TNF_YRNX",
+        "PNYY:VAFVQR",
+        "GVZR:17:13:14");
+
+    qbGrfg("G90",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5505 EVCCYR YA YIVY GLCR PBQR: TNF_YRNX FHO GLCR: VAFVQR GVZR: 17:13:14 Pbzzragf:  ** Pnfr ahzore 8013002260 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf27 ** Pnfr ahzore 5013000782 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PUNEYRF ZPARVYY ba grezvany: 911zf27",
+        "NQQE:5505 EVCCYR YA",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:TNF_YRNX",
+        "PNYY:VAFVQR",
+        "GVZR:17:13:14");
+
+    qbGrfg("G91",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4914 CBVGVRE PG YIVY GLCR PBQR: PURZVPNY FHO GLCR: FCVYY GVZR: 17:20:38 Pbzzragf:  PYYRE NQI GUG UR FCVYYRQ ZREPHEL VAFVQR YBP ** Pnfr ahzore 5013000781 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: ZRYVFFN UNEYRL ba grezvany: 911zf26",
+        "NQQE:4914 CBVGVRE PG",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:PURZVPNY",
+        "PNYY:FCVYY",
+        "GVZR:17:20:38",
+        "VASB:PYYRE NQI GUG UR FCVYYRQ ZREPHEL VAFVQR YBP");
+
+    qbGrfg("G92",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 6805 CERFGBA UJL YIVY:GUR PNE FGBER GLCR PBQR: SVER FHO GLCR: RYRP_BQBE_VAFVQR GVZR: 13:02:57 Pbzzragf:  RYRPGEVPNY BQBE VAFVQR FREIVPR NERN BS OYQT ** Pnfr ahzore 5013000780 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: IVBYN FHZRENYY ba grezvany: 911zf21",
+        "NQQE:6805 CERFGBA UJL",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:GUR PNE FGBER",
+        "PBQR:SVER",
+        "PNYY:RYRP_BQBE_VAFVQR",
+        "GVZR:13:02:57",
+        "VASB:RYRPGEVPNY BQBE VAFVQR FREIVPR NERN BS OYQT");
+
+    qbGrfg("G93",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3625 SREA INYYRL EQ YIVY: SENAPVFPNA URNYGUPNER GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 02:49:07 Pbzzragf:  TRARENY SVER NYNEZ 502-964-3381, AGSL ** Pnfr ahzore 8013002257 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21 ** Pnfr ahzore 5013000779 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: YVFN XHAGM ba grezvany: 911zf21",
+        "NQQE:3625 SREA INYYRL EQ",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:SENAPVFPNA URNYGUPNER",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:02:49:07",
+        "VASB:TRARENY SVER NYNEZ 502-964-3381, AGSL");
+
+    qbGrfg("G94",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 7702 CERFGBA UJL YIVY:U NAQ E OYBPX GLCR PBQR: SVER FHO GLCR: PBZZREPVNY GVZR: 18:51:03 Pbzzragf:  ARBA FGEVC NEBHAQ GUR OYQT VF NEPVAT ABJ FZNYY SYNZR ** Pnfr ahzore 8013002253 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28 ** Pnfr ahzore 5013000778 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: RZVYL QNIVQ ba grezvany: 911zf28",
+        "NQQE:7702 CERFGBA UJL",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:U NAQ E OYBPX",
+        "PBQR:SVER",
+        "PNYY:PBZZREPVNY",
+        "GVZR:18:51:03",
+        "VASB:ARBA FGEVC NEBHAQ GUR OYQT VF NEPVAT ABJ FZNYY SYNZR");
+
+    qbGrfg("G95",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4903 QR CEVRFG PG YIVY GLCR PBQR: NYNEZ FHO GLCR: ERFVQRAGVNY GVZR: 10:49:50 Pbzzragf:  CERZ ANZR- RQJNEQ BJRAF CERZ CUA 502-819-8461 CREZVG# ABAR XRLCNQ SVER NYNEZ AGSLVAT ** Pnfr ahzore 8013002250 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20 ** Pnfr ahzore 5013000777 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20",
+        "NQQE:4903 QR CEVRFG PG",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:NYNEZ",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:10:49:50",
+        "VASB:CERZ ANZR- RQJNEQ BJRAF CERZ CUA 502-819-8461 CREZVG# ABAR XRLCNQ SVER NYNEZ AGSLVAT");
+
+    qbGrfg("G96",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5509 ERIRER QE YIVY GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 07:59:08 Pbzzragf:  PBZCY ABG NG YBP, FNLF UBHFR VF BA SVER. NAQ ERFQ HANOYR GB TRG BHG 1 SRZNYR VAFVQR UBHFR CRE PBZCY ** Pnfr ahzore 8013002248 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20 ** Pnfr ahzore 5013000776 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20 ** Pnfr ahzore 3713001019 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20 ** Pnfr ahzore 1113000949 unf orra nffvtarq sbe 11:PAGL ** >>>> ol: FGRCUNAVR NFUOL ba grezvany: 911zf20",
+        "NQQE:5509 ERIRER QE",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:07:59:08",
+        "VASB:PBZCY ABG NG YBP, FNLF UBHFR VF BA SVER. NAQ ERFQ HANOYR GB TRG BHG 1 SRZNYR VAFVQR UBHFR CRE PBZCY");
+
+    qbGrfg("G97",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5401 YNTBBAN QE YIVY GLCR PBQR: NYNEZ FHO GLCR: ERFVQRAGVNY GVZR: 13:24:49 Pbzzragf:  ORGURY ERFV SVER NYNEZ UNYYJNL FZBXR ** Pnfr ahzore 8013002243 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: PVPRYL QBHTYNF ba grezvany: 911zf20 ** Pnfr ahzore 5013000775 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PVPRYL QBHTYNF ba grezvany: 911zf20",
+        "NQQE:5401 YNTBBAN QE",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:NYNEZ",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:13:24:49",
+        "VASB:ORGURY ERFV SVER NYNEZ UNYYJNL FZBXR");
+
+    qbGrfg("G98",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 3320 ONEQFGBJA EQ YIVY: @OEBJA FHOHEONA UBGRY GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 16:22:43 Pbzzragf:  8GU SYBBE CHYY FGNGVBA AGSL CREZVG 64315 ** Pnfr ahzore 3713001014 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: PUEVFGBCURE ERRIRF ba grezvany: 911zf20 ** Pnfr ahzore 5013000774 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: PUEVFGBCURE ERRIRF ba grezvany: 911zf20 ** Pnfr ahzore 5513001172 unf orra nffvtarq sbe 55:PAGL ** >>>> ol: PUEVFGBCURE ERRIRF ba grezvany: 911zf20 ** Pnfr ahzore 2613001301 unf orra nffvtarq sbe 26:PAGL ** >>>> ol: PUEVFGBCURE ERRIRF ba grezvany: 911zf20 ** Pnfr ahzore 1113000946 unf orra nffvtarq sbe 11:PAGL ** >>>> ol: PUEVFGBCURE ERRIRF ba grezvany: 911zf20",
+        "NQQE:3320 ONEQFGBJA EQ",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:OEBJA FHOHEONA UBGRY",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:16:22:43",
+        "VASB:8GU SYBBE CHYY FGNGVBA AGSL CREZVG 64315");
+
+    qbGrfg("G99",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 5419 LR BYQ CBFG EQ YIVY,2 GLCR PBQR: SVER FHO GLCR: ERFVQRAGVNY GVZR: 00:18:15 Pbzzragf:  YNETR NZBHAG BS FZBXR VA PUVZARL FZRYYVAT TNF ** Pnfr ahzore 8013002234 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf20 ** Pnfr ahzore 1113000944 unf orra nffvtarq sbe 11:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf20 ** Pnfr ahzore 5013000773 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf20",
+        "NQQE:5419 LR BYQ CBFG EQ",
+        "NCG:2",
+        "PVGL:YBHVFIVYYR",
+        "PBQR:SVER",
+        "PNYY:ERFVQRAGVNY",
+        "GVZR:00:18:15",
+        "VASB:YNETR NZBHAG BS FZBXR VA PUVZARL FZRYYVAT TNF");
+
+    qbGrfg("G100",
+        "(VCF V/Cntr Abgvsvpngvba) Ybpngvba: 4420 OVFUBC YA JGCX: QRNAF SBBQ GLCR PBQR: NYNEZ FHO GLCR: PBZZREPVNY GVZR: 22:04:49 Pbzzragf:  3EQ SYBBE RYRINGBE FZBXR 502-451-9111, AGSL ** Pnfr ahzore 5013000772 unf orra nffvtarq sbe 50:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf20 ** Pnfr ahzore 8013002232 unf orra nffvtarq sbe 80:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf20 ** Pnfr ahzore 3713001009 unf orra nffvtarq sbe 37:PAGL ** >>>> ol: QRNAAN JRGGRE ba grezvany: 911zf20",
+        "NQQE:4420 OVFUBC YA",
+        "PVGL:YBHVFIVYYR",
+        "CYNPR:QRNAF SBBQ - JGCX",
+        "PBQR:NYNEZ",
+        "PNYY:PBZZREPVNY",
+        "GVZR:22:04:49",
+        "VASB:3EQ SYBBE RYRINGBE FZBXR 502-451-9111, AGSL");
 
   }
   
