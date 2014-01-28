@@ -76,6 +76,10 @@ Pbagnpg: fhccbeg@npgvir911.pbz
 [PNQ] Glcr: ERFPHR CVN Pnyyre: IREVMBA Gvzr: 07:12:39\a
 [PNQ] Ybpngvba: 3178 J 148GU FG F ZVGP Glcr: ZRQVPNY  Pnyyre: WBUAFBA,CNZ Gvzr: 08:43:40\a
 
+Pbagnpg: Eba Fpuvccre <eyf3703@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Tevzrf) Ybpngvba: 6405 AJ 98GU FG WBUA Glcr: ERFQSVER NFFVTA Pnyyre: ZREVGG,WHYVR Gvzr: 08:28:52
+
  */
 
 choyvp pynff VNCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -598,6 +602,20 @@ choyvp pynff VNCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:WBUAFBA,CNZ",
         "GVZR:08:43:40");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEbabFpuvccre() {
+
+    qbGrfg("G1",
+        "(Tevzrf) Ybpngvba: 6405 AJ 98GU FG WBUA Glcr: ERFQSVER NFFVTA Pnyyre: ZREVGG,WHYVR Gvzr: 08:28:52",
+        "FEP:Tevzrf",
+        "NQQE:6405 AJ 98GU FG",
+        "PVGL:WBUAFGBA",
+        "PNYY:ERFQSVER NFFVTA",
+        "CYNPR:ZREVGG,WHYVR",
+        "GVZR:08:28:52");
+  
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
