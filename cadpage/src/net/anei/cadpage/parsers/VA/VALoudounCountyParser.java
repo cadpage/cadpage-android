@@ -16,7 +16,7 @@ public class VALoudounCountyParser extends FieldProgramParser {
   private static final Pattern TRAILER_PTN = Pattern.compile(" +(?:(\\d\\d?:\\d\\d? +[AP]M)|\\[\\d*\\]?)$");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm aa");
   public VALoudounCountyParser() {
-    super(CITY_CODES, "LOUDOUN COUNTY", "VA",
+    super("LOUDOUN COUNTY", "VA",
           "CALL:CALL! ADDR/y! APT:APT! X-ST:X! UNIT BOX:BOX% ADC:MAP% FDID:ID");
   }
 
@@ -49,10 +49,18 @@ public class VALoudounCountyParser extends FieldProgramParser {
 
     // Invoke the main parser
     if (! super.parseFields(body.split(","), data)) return false;
+    parseCityCode(data.strCity, data);
     if (data.strCity.length() == 0 && data.strBox.length() >= 2) {
-      String city = convertCodes(data.strBox.substring(0,2), BOX_CODES);
+      parseCityCode(data.strBox, data);
+    }
+    return true;
+  }
+  
+  private void parseCityCode(String code, Data data) {
+    if (code.length() >= 2) {
+      String city = convertCodes(code.substring(0,2), CITY_CODES);
       if (city != null) {
-        pt = city.indexOf('/');
+        int pt = city.indexOf('/');
         if (pt >= 0) {
           data.strState = city.substring(pt+1);
           city = city.substring(0,pt);
@@ -60,7 +68,6 @@ public class VALoudounCountyParser extends FieldProgramParser {
         data.strCity = city;
       }
     }
-    return true;
   }
   
   public String getProgram() {
@@ -120,8 +127,28 @@ public class VALoudounCountyParser extends FieldProgramParser {
       return "X UNIT";
     }
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "AB", "ASHBURN",
+      "AL", "ALDIE",
+      "BL", "BLUEMONT",
+      "CE", "CENTREVILLE",
+      "CH", "CHANTILLY",
+      "HA", "HAMILTON",
+      "LB", "LEESBURG",
+      "LV", "LOVETTSVILLE",
+      "MB", "MIDDLEBURG",
+      "PA", "PARIS",
+      "PS", "PAEONIAN",
+      "PV", "PURCELLVILLE",
+      "SP", "STERLING",
+      "ST", "STERLING",
+      "RH", "ROUND HILL",
+      "UP", "UPPERVILLE",
 
-  private static final Properties BOX_CODES = buildCodeTable(new String[]{
+      "FX19", "FAIRFAX",
+      "FX11", "FAIRFAX",
+      
       "DU", "DULLES AIRPORT",
       "FQ", "FAUQUIER COUNTY",
       "FR", "FREDERICK COUNTY/MD",
@@ -129,29 +156,6 @@ public class VALoudounCountyParser extends FieldProgramParser {
       "JE", "JEFFERSON COUNTY/WV",
       "PW", "PRINCE WILLIAM COUNTY",
       "WA", "WASHINGTON COUNTY/MD"
-    
-  });
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-        "CH", "Chantilly",
-        "LB", "Leesburg",
-        "AL", "Aldie",
-        "ST", "Sterling",
-        "MB", "Middleburg",
-        "AB", "Ashburn",
-        "SP", "Sterling",
-        "BL", "Bluemont",
-        "CE", "Centreville",
-        "HA", "Hamilton",
-        "LV", "Lovettsville",
-        "PA", "Paris",
-        "PV", "Purcellville",
-        "PS", "Paeonian",
-        "RH", "Round Hill",
-        "UP", "Upperville",
-        "FX19", "Fairfax",
-        "FX11", "Fairfax",
-        "FX", "Fairfax",
-        "FQ", "Faquier"
+
    });
 }
