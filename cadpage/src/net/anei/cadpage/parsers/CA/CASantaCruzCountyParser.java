@@ -1,15 +1,17 @@
 package net.anei.cadpage.parsers.CA;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 
 /**
- * Warren County, OH
+ * Santa Cruz County, CA
  */
 public class CASantaCruzCountyParser extends DispatchPrintrakParser {
   
+  private static final Pattern MASTER_FIX1_PTN = Pattern.compile("([^ ]{3}) (\\d) ([A-Z]{3}\\d{12}) ([^ ]+(?: [EF])?) +(.*)");
   private static final Pattern CITY_AREA_PTN = Pattern.compile("BIG REDWOOD PRK|MISSION SPRINGS|PASATIEMPO|ZAYANTE|.* AREA?|.* AR|.* BYPASS|.* CORR?IDOR");
   
   public CASantaCruzCountyParser() {
@@ -29,6 +31,10 @@ public class CASantaCruzCountyParser extends DispatchPrintrakParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    // SOmeone is occasionally truncating the normal labels :(
+    Matcher match = MASTER_FIX1_PTN.matcher(body);
+    if (match.matches()) body = match.group(1) + " PRI: " + match.group(2) + " INC: " + match.group(3) + " TYP:" + match.group(4) + " AD: " + match.group(5);
     if (!super.parseMsg(body, data)) return false;
     data.strSource = "";
     
