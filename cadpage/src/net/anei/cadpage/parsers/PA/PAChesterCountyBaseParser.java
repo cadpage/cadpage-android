@@ -379,6 +379,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
   
   protected static final Properties CITY_CODES = buildCodeTable(new String[]{
       "AVNDAL", "AVONDALE",
+      "BIRMHM", "BIRMINGHAM TWP",
       "DNGTWN", "DOWNINGTOWN",
       "CALN",   "CALN TWP",
       "CHARLS", "CHARLESTOWN TWP",
@@ -416,6 +417,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "SCHYKL", "SCHUYLKILL TWP",
       "SCOATV", "SOUTH COATESVILLE",
       "SPRCTY", "SPRING CITY",
+      "THORNB", "THORNBURY TWP",
       "TREDYF", "TREDYFFRIN TWP",
       "UPUWCH", "UPPER UWCHLAN TWP",
       "UWCHLN", "UWCHLAN TWP",
