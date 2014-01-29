@@ -1391,7 +1391,7 @@ choyvp pynff CNPenjsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "(PF    >PNEQVNP FLZCGBZF) 22674 HF UVTUJNL 6 NAQ 19 KF: RYYVF EQ PNZOEVQTR GJC UHEYRL,EBOREG Znc:P-16 Tevqf:, Pnq: 2014-0000002904",
         "PNYY:PNEQVNP FLZCGBZF",
-        "NQQE:22674 HF UVTUJNL 6 NAQ 19",
+        "NQQE:22674 HF UVTUJNL 6 NAQ 19",  // Abg ernyyl znccvat
         "ZNQQE:22674 HF 6",
         "K:RYYVF EQ",
         "PVGL:PNZOEVQTR GJC",
