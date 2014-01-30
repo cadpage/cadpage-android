@@ -73,6 +73,7 @@ Npgvir911 gvpxrgf
 2014011710000994  PNFbhguYnxrGnubr qbar
 2012120510000169  ZBZbargg qbar
 2014011910000043  PNUnljbbqPbhagl qbar
+2013032210000375  GKZvffbhevPvgl qbar
 *******************************************************************************
 Revr Pbhagl (O), AL
 OAA Nyregf
@@ -7624,21 +7625,6 @@ EhaGvzrf:\aHavg        Fgnghf    Gvzr\a-----------------------------------------
 **********************************************************
 **********************************************************
 **********************************************************
-2013032210000375 (Cngevpx)
-Zvffbhev Pvgl, GK
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Zvffbhev Pvgl Cbyvpr naq Sver Qrcnegzrag
-Ybpngvba: Zvffbhev Pvgl, GK, Havgrq Fgngrf
-Fraqre: <PNQ@zvffbhevpvglgk.tbi>
-
-PNQ:Hcqngr: ;FZRYY BS FZBXR VA OHVYQVAT;3819 ORAQVAT XRL PG;FHT;FGO21 NE ONPX VA FRE
-PNQ:SLV: ;FGEHPGHER SVER;3819 ORAQVAT XRL PG;FHT;AB SYNZRF IVFVOYR/YVTUG UNMR/PBZC N
-PNQ:Hcqngr: ;FGEHPGHER SVER;6000 FU 6;ZVFF;(D31) HCTENQR GB FGEHPGHER SVER [01/12/1
-PNQ:SLV: ;FGEHPGHER SVER;9825 ZPZNUBA PG/ZPZNUBA YA;ZVFF;PBZC NQI GUNG FUR FNJ FZBXR
-PNQ:PNAPRY;1501 NQNZF FG; ZVFF
-PNQ:Hcqngr: ;FGEHPGHER SVER;1501 NQNZF FG;ZVFF;PBZCY NQI VF BA SVER [01/11/14 19:50
-PNQ:Hcqngr: ;FGEHPGHER SVER;1599 NQNZF FG/GRKNF CXJL;ZVFF;SVER [01/11/14 19:48:36 E
 **********************************************************
 2013102310000681 (Cngevpx)
 Cnex Pbhagl, ZG
@@ -7728,7 +7714,7 @@ Fraqre: QVFCNGPU@GCR911.PBZ
 ﻿<UGZY><obql>OX201300069<oe />Erd_Qvfcngpu<oe />745 NYNEZ-SVER<oe />4429 ONLBH OYNPX QE, Ubhzn (OYNAPUNEQ OEVQTR/YVY PG)</obql></UGZY>
 ﻿<UGZY><obql>OX201300068<oe />Erd_Qvfcngpu<oe />324 NPPVQRAG J/B VAWHEL<oe />4074 ONLBH OYNPX QE (UJL 182), UBHZN (QNARPB PG/FNINAAR EQ)</obql></UGZY>
 ﻿**********************************************************
-2014011910000212
+2014011910000212 (Cngevpx)
 Pungunz pbhagl, TN
 
 Pbagnpg: Npgvir911
