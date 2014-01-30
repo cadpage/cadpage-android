@@ -40,6 +40,21 @@ Have a nice day,
 -Ken
 
 ***************************************************************************
+* Registration switched to Active911 app
+***************************************************************************
+
+It looks like you installed and registered the Active911 app on your device.  That redirects alerts away from Cadpage to the Active911 app.  You can restore Cadpage operations by registering it with Active911 servers.  To do that, go into Cadpage Settings and select
+Direct Paging Vendors > Active911.com > Register
+Then enter the same activation code you used to register the Active911 app (50224-AOMH).
+
+Once you register Cadpage with the Active911 servers, you should be able to use both the Cadpage and Active911 apps to process the same calls.  Details on how this works can be found at 
+http://www.cadpage.org/faq/cadpage-and-active911
+
+Good luck,
+-Ken
+
+
+***************************************************************************
 * AUTHENTICATION_FAILURE
 * Cadpage triggered bugreport dump
 ***************************************************************************
