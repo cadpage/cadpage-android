@@ -143,6 +143,7 @@ public class ParserList {
               ,"CAElDoradoCounty"               ,"El Dorado County, CA"
               ,"CAFortIrwin"                    ,"Fort Irwin, CA"
               ,"CAFresnoCounty"                 ,"Fresno County, CA"
+              ,"CAHaywardCounty"                ,"Hayward County, CA"
               ,"CAHumboldtCounty"               ,"Humboldt County, CA"
               ,"CALakeCounty"                   ,"Lake County, CA"
               ,"CALosAngelesCounty"             ,"Los Angeles County, CA"
@@ -162,6 +163,7 @@ public class ParserList {
               ,"CAShastaCounty"                 ,"Shasta County, CA"
               ,"CASiskiyouCounty"               ,"Siskiyou County, CA"
               ,"CASonomaCounty"                 ,"Sonoma County, CA"
+              ,"CASouthLakeTahoe"               ,"South Lake Tahoe, CA"
               ,"CAVenturaCounty"                ,"Ventura County, CA"
               ,"CAYoloCounty"                   ,"Yolo County, CA"
           ),
