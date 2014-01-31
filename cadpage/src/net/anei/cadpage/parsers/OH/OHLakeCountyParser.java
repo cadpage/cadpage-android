@@ -11,7 +11,7 @@ public class OHLakeCountyParser extends FieldProgramParser {
   
   public OHLakeCountyParser() {
     super(CITY_CODES, "LAKE COUNTY", "OH",
-           "Location:ADDR/S? APT:APT? Cross_Streets:X! Type_Code:CALL! Sub_Type:CALL! Time:TIME! Comments:INFO");
+           "Location:ADDR/S? APT:APT? Cross_Streets:X! TYPE_CODE:CALL! Sub_Type:CALL! TIME:TIME! Comments:INFO");
   }
   
   @Override
@@ -22,11 +22,20 @@ public class OHLakeCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (!super.parseMsg(body, data)) return false;
+    if (data.strAddress.startsWith("&")) {
+      data.strPlace = append(data.strAddress.substring(1).trim(), " - ", data.strPlace);
+      data.strAddress = "";
+    }
     if (data.strAddress.length() == 0) {
       parseAddress(data.strCross, data);
       data.strCross = "";
     }
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "PLACE " + super.getProgram();
   }
   
   private class MyCallField extends CallField {
@@ -53,6 +62,7 @@ public class OHLakeCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CO", "CONCORD TWP",
+      "FH", "FAIRPORT HARBOR",
       "LE", "LEROY TWP",
       "MA", "MADISON",
       "MV", "MADISON",
