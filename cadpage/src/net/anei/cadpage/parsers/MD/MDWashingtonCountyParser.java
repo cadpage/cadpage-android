@@ -12,13 +12,14 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class MDWashingtonCountyParser extends FieldProgramParser {
   
-  private static final Pattern CALL_QUAL_PTN = Pattern.compile("^((?:Recall Reason|Completed):.*?)\n");
+  private static final Pattern CALL_QUAL_PTN = Pattern.compile("^((?:Recall Reason|Completed|Cancel Reason):.*?)\n");
   private static final Pattern CROSS_PTN = Pattern.compile("\\[([^\\[\\]]*) - ([^\\[\\]]*)\\]");
   private static final Pattern DELIM = Pattern.compile(" *(?<= )- +|  ,");
  
   public MDWashingtonCountyParser() {
     super(CITY_LIST, "WASHINGTON COUNTY", "MD",
-        "ADDR CITY? X? CALL! CALL+? UNIT UNIT+? INFO+? TRAIL! END");
+        "ADDR/SXP CITY? X? CALL! CALL+? ( TRAIL1! END | UNIT UNIT+? ( TRAIL2! END | INFO+? TRAIL3! END ) )");
+    addExtendedDirections();
   }
   
   @Override
@@ -53,12 +54,28 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     body = CROSS_PTN.matcher(body).replaceFirst("[$1 & $2]");
     
     // Split body into fields separated by  -
-    return parseFields(DELIM.split(body), data);
+    if (!parseFields(DELIM.split(body), data)) return false;
+    String state = CITY_STATE_TABLE.getProperty(data.strCity.toUpperCase());
+    if (state != null) data.strState = state;
+    return true;
   }
   
   @Override
   public String getProgram() {
-    return "SRC " + super.getProgram();
+    return "SRC " + super.getProgram().replace("CITY", "CITY ST");
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("TRAIL1")) return new TrailField(1);
+    if (name.equals("TRAIL2")) return new TrailField(2);
+    if (name.equals("TRAIL3")) return new TrailField(3);
+    return super.getField(name);
   }
   
   private class MyAddressField extends AddressField {
@@ -69,17 +86,10 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
       // First field contains option M/A county, address and optional place name
       Parser p = new Parser(field);
       String maCounty = p.getOptional(" CO, ");
-      if (maCounty.length() > 0) {
-        maCounty = COUNTY_CODES.getProperty(maCounty, maCounty);
-        int pt = maCounty.indexOf(',');
-        if (pt >= 0) {
-          data.strState = maCounty.substring(pt+1);
-          maCounty = maCounty.substring(0,pt);
-        }
-        data.strCity = maCounty;
-      }
+      if (maCounty.length() > 0) maCounty = convertCodes(maCounty, COUNTY_CODES);
       super.parse(p.get(','), data);
-      data.strPlace = p.get();
+      data.strPlace = append(data.strPlace, " - ", p.get());
+      if (data.strCity.length() == 0) data.strCity = maCounty;
     }
     
     @Override
@@ -110,10 +120,11 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
       data.strCall = append(data.strCall, " - ", field);
     }
   }
-  
+
+  private static final Pattern UNIT_PTN = Pattern.compile("(?:[0-9]?[A-Z]+[0-9]+|[0-9]{4})(?:[,\\$][A-Z0-9,\\$]+)?\\b");
   private class MyUnitField extends UnitField {
     public MyUnitField() {
-      super("(?:[0-9]?[A-Z]+[0-9]+|[0-9]{4})(?:[,\\$][A-Z0-9,\\$]+)?", true);
+      setPattern(UNIT_PTN, true);
     }
     @Override
     public void parse(String field, Data data) {
@@ -128,13 +139,36 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     }
   }
   
+  // TrailField always handles the last field in the text string.  It always has a date field
+  //  and may have an ID field.  Depending on the context, there are three possibilities for
+  // a leading unit field
+  //   TRAIL1 - Leading UNIT field is required
+  //   TRAIL2 - Leading UNIT field is optional
+  //   TRAIL3 - Leading UNIT field will not be present
+  
   private static final Pattern TIME_PTN = Pattern.compile("(?<=^| )(\\d\\d:\\d\\d)\\b");
   private static final Pattern TIME2_PTN = Pattern.compile("\\b[\\d:]*$");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{7}$");
   private class TrailField extends Field {
+    
+    private int type;
+    
+    public TrailField(int type) {
+      this.type = type;
+    }
 
     @Override
     public void parse(String field, Data data) {
+      
+      // Check for leading unit field
+      if (type <= 2) {
+        Matcher match = UNIT_PTN.matcher(field);
+        if (match.lookingAt()) {
+          data.strUnit = append(data.strUnit, ",", match.group());
+          field = field.substring(match.end()).trim();
+        } else if (type == 1) abort();
+      }
+      
       Matcher match = TIME_PTN.matcher(field);
       if (match.find()) {
         data.strTime = match.group(1);
@@ -156,19 +190,8 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ID INFO TIME";
+      return "UNIT ID INFO TIME";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("UNIT")) return new MyUnitField();
-    if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("TRAIL")) return new TrailField();
-    return super.getField(name);
   }
   
   private static final String[] CITY_LIST = new String[]{
@@ -182,17 +205,31 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     "SMITHSBURG",
     "WILLIAMSPORT",
     
+    "GREENCASTLE",
     "THURMONT"
   };
   
   private static final Properties COUNTY_CODES = buildCodeTable(new String[]{
       "ALL", "ALLEGANY COUNTY",
-      "BER", "BERKELEY COUNTY,WV",
-      "FRA", "FRANKLIN COUNTY,PA",
+      "BER", "BERKELEY COUNTY",
+      "FRA", "FRANKLIN COUNTY",
       "FRE", "FREDERICK COUNTY",
-      "FUL", "FULTON COUNTY,PA",
-      "JEF", "JEFFERSON COUNTY,WV",
-      "LOU", "LOUDOUN COUNTY,VA",
-      "MOR", "MORGAN COUNTY,WV"
+      "FUL", "FULTON COUNTY",
+      "JEF", "JEFFERSON COUNTY",
+      "LOU", "LOUDOUN COUNTY",
+      "MOR", "MORGAN COUNTY"
+  });
+  
+  private static final Properties CITY_STATE_TABLE = buildCodeTable(new String[]{
+      
+      "GREENCASTLE",      "PA",
+      "FRANKLIN COUNTY",  "PA",
+      "FULTON COUNTY",    "PA",
+      
+      "LOUDOUN COUNTY",   "VA",
+      
+      "BERKELEY COUNTY",  "WV",
+      "JEFFERSON COUNTY", "WV",
+      "MORGAN COUNTY",    "WV"
   });
 }
