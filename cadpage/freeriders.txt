@@ -2087,6 +2087,11 @@ Matt Wiggins		(2529034393)
 Adam Spivey		(2528135040) // added
 Derrick Whitaker    (2524523987) // added 1-21-14
 
+%2014/Tavares // Richard Keith <rkeith@tavares.org> Fire Chief Tavares, FL 352-742-6391
+%%01/30/2014
+company officer one (3525166467)
+company officer two (3525160035)
+
 // Sponsored Districts
 // TXManvel - John Aucoin <johnaucoin@sbcglobal.net> - 09/10/2012
 
