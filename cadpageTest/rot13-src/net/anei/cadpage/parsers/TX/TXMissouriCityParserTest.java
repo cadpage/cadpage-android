@@ -104,17 +104,6 @@ PNQ:SLV: ;ZRQVPNY PNYY;1711 CNGEVPVN YA;ZVFF;82LBZ HAERFCBAFVIR / VF OERNGUVAT [
 PNQ:SLV: ;ZRQVPNY PNYY;4710 YRKVATGBA OYIQ;ZVFF;81 LBS//QVSS OERNGUVAT NAQ PBAPVBHF
 PNQ:SLV: ;ZRQVPNY PNYY;1823 PERFPRAG BNX QE;ZVFF;82 LBS QVSS OERNGUVAT NAQ PBAPVBHF
 
-** ABGRF **
-QvfcngpuBFFVCnenfre fhopynff
-
-Hfr n cnggrea zngpu gb erzbir gheapngrq [qngr gvzr... ].  Cebonoyl erzbir rirelguvat gung 
-fgnegf jvga n [ naq qbrf abg pbagnvaf n ] punenepgre
-
-Cebtenz fgevat: SLV PNYY NQQE PVGL VASB+
-
-Arrq gb ohvyq n gnoyr bs pvgl pbqrf.  V'yy frr vs V pna trg bar sbez gur hfre
-Pvgl yvfg ninvynoyr nf na vzntr svyr.  Gelvat gb trg n grkg svyr
-
 */
 
 choyvp pynff GKZvffbhevPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
