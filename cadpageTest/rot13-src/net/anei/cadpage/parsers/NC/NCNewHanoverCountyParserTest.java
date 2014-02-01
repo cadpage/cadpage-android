@@ -16,6 +16,10 @@ PNQ:FG21;UNMZNG HAPBAGNVARQ;78 ZLEGYR NIR;****GNP2****;frjntr ceboyrz [05/05/12 
 PNQ:FG21;YNETR BHGFVQR SVER;100 SERRZNA CNEX;ABEGU RAQ;pnyyre nqi fur vf ng gur abegu raq ba pnebyvan ornpu...n ynetr tebhc unf n obasver tbvat..... [05/04/12 23:15:17 RRO] *******CER NYERG*******BHGFVQR SVER [05/04/12 23:15:59 RRO]
 PNQ:FG21;ERFVQRAGVNY FVATYR FGEHPGHER;1300 PNANY QE;sver haqre gur ubhfr [05/04/12 19:46:14 ZWY] [Sver Cevbevgl Vasb] ERFCBAFR: Qrygn ERFCBAQRE FPEVCG: Fgehpgher Sver. Erfvqragvny (fvatyr). 1.Gur pnyyre vf ba fprar (1fg cnegl). 2.Fzbxr vf i
 
+Pbagnpg: Wbanguna Jneq <apsver51@tznvy.pbz>
+Fraqre: ep.300@p-zft.arg
+PNQ:FG16;BHGFVQR SVER HAXABJA FVGHNGVBA;7199 ZNEXRG FG/ZVQQYR FBHAQ YBBC EQ;JZ;[Sver Cevbevgl Vasb] ERFCBAFR: Oenib ERFCBAQRE FPEVCG: Bhgfvq
+
 */
 
 choyvp pynff APArjUnabirePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -85,6 +89,20 @@ choyvp pynff APArjUnabirePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:sver haqre gur ubhfr / Fgehpgher Sver. Erfvqragvny (fvatyr). 1.Gur pnyyre vf ba fprar (1fg cnegl). 2.Fzbxr vf i",
         "QNGR:05/04/12",
         "GVZR:19:46:14");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbangunaJneq() {
+
+    qbGrfg("G1",
+        "PNQ:FG16;BHGFVQR SVER HAXABJA FVGHNGVBA;7199 ZNEXRG FG/ZVQQYR FBHAQ YBBC EQ;JZ;[Sver Cevbevgl Vasb] ERFCBAFR: Oenib ERFCBAQRE FPEVCG: Bhgfvq",
+        "FEP:FG16",
+        "PNYY:BHGFVQR SVER HAXABJA FVGHNGVBA",
+        "NQQE:7199 ZNEXRG FG & ZVQQYR FBHAQ YBBC EQ",
+        "ZNQQE:7199 ZNEXRG FG",
+        "PVGL:JVYZVATGBA",
+        "VASB:Bhgfvq");
+
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
