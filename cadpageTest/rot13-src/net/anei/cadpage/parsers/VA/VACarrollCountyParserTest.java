@@ -16,6 +16,10 @@ ZNVYOBK:PNANEF 00:49 SVER - RYRPGEVPNY 005613 PUNAPRF PERRX EQ PSF# 2013-002102
 ZNVYOBK:PNANEF 23:16 RZF - ANHFRN / IBZVGVAT 000021 ORPXL'F YA PSF# 2013-001739
 ZNVYOBK:PNANEF 20:23 SVER - IRUVPYR 000000 SVFU YNXR EQ PSF# 2013-001732
 
+Pbagnpg: Rirergg Yvaroreel <ryvaroreel75@tznvy.pbz>
+Fraqre: ZNVYOBK@TnynkIn.pbz
+F: Z:ZNVYOBK:CVCEEF 02:32 RZF - ONPX CNVA / VAWHEL 000494 OREXFUVER EQ PSF#\a2014-003118\a
+
 */
 choyvp pynff INPneebyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -78,6 +82,19 @@ choyvp pynff INPneebyyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:SVFU YNXR EQ",
         "VQ:2013-001732");
 
+ }
+  
+ @Grfg
+ choyvp ibvq grfgRirerggYvaroreel() {
+
+   qbGrfg("G1",
+       "F: Z:ZNVYOBK:CVCEEF 02:32 RZF - ONPX CNVA / VAWHEL 000494 OREXFUVER EQ PSF#\a2014-003118\a",
+       "FEP:CVCEEF",
+       "GVZR:02:32",
+       "PNYY:RZF - ONPX CNVA / VAWHEL",
+       "NQQE:494 OREXFUVER EQ",
+       "VQ:2014-003118");
+   
  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

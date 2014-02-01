@@ -22,10 +22,12 @@ public class VACarrollCountyParser extends DispatchDAPROParser {
   public boolean parseMsg(String body, Data data) {
     if (!body.startsWith("MAILBOX:")) return false;
     body = body.substring(8).trim();
+    body = body.replace('\n', ' ');
     return super.parseMsg(body, data);
   }
   
   private static final CodeSet CALL_SET = new CodeSet(
+      "EMS - BACK PAIN / INJURY",
       "EMS - BREATHING DIFFICULTY",
       "EMS - DIABETIC",
       "EMS - NAUSEA / VOMITING",
