@@ -18,7 +18,7 @@ public class PAClearfieldCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "alerts@clearfieldalerts.com";
+    return "alerts@clearfieldalerts.com,Clearfield Alerts";
   }
   
   @Override
