@@ -59,6 +59,10 @@ PNQ:SLV: ;ERFVQRAGVNY FGEHPGHER SVER;24213 WBUA PNAR EQ;CNEX;N91;O1;ZPPBZNF QE;O
 PNQ:SLV: ;PBZZREPVNY FGEHPGHER SVER;4116 YNAXSBEQ UJL;RKZB;A10;N6;ORAWNZVA FG;PNGURL NIR;JRAQLF
 PNQ:Hcqngr: ;ERFVQRAGVNY FGEHPGHER SVER;26045 RINAF JUNES EQ;BANA;N108;N1;GNEXVYY EQ;BZRTN EQ
 
+Pbagnpg: Gbz Fpujnegm 757-709-0515 <vpgbbyobk@irevmba.arg>
+Fraqre: PNQ@rfin911.bet
+PNQ:NPPVQRAG JVGU VAWHEL;13265 UNPXFARPX EQ;UNEO;N114;P3;ONPX PERRX EQ;RIRETERRA EQ;201400172
+
 */
 
 choyvp pynff INNppbznpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -271,6 +275,19 @@ choyvp pynff INNppbznpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:N108,N1",
         "K:GNEXVYY EQ & BZRTN EQ");
  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGbzFpujnegm() {
+
+    qbGrfg("G1",
+        "PNQ:NPPVQRAG JVGU VAWHEL;13265 UNPXFARPX EQ;UNEO;N114;P3;ONPX PERRX EQ;RIRETERRA EQ;201400172",
+        "PNYY:NPPVQRAG JVGU VAWHEL",
+        "NQQE:13265 UNPXFARPX EQ",
+        "ZNC:N114,P3",
+        "K:ONPX PERRX EQ & RIRETERRA EQ",
+        "VQ:201400172");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
