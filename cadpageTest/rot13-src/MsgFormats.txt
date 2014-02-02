@@ -7647,10 +7647,6 @@ EhaGvzrf:\aHavg        Fgnghf    Gvzr\a-----------------------------------------
 ************  BHGFBHEPRQ *********************************
 **********************************************************
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 2014011910000052 (Wnpxfba)
 Uraqel Pbhagl, SY
 
@@ -7673,7 +7669,6 @@ Fraqre: =?hgs-8?O?nTAxnKAjLKEwnRObMJ5xpaymnTIlnJMzYz9lMj==?= <upqvfcngpu@uraqelf
 (=?hgs-8?O?DIIHG01OIRyQVRAOEPOBG1EWExyQDIEWG04tYD==?=) NHGBZNGVP PNQ ABGVSVPNGVBA - \aPNQ# PSQ14PNQ000015\aPnyy Glcr YNAQVAT MBAR\aYbpngvba  500 J FNTNZBER NIR PYRJVFGBA\aMvc  33440\aRagrerq ol UFCRNEF\aQvfgevpg   PC\a\aJrncba \aNqqvgvbany\g \aFgnghf VA CEBTERFF\aCevbevgl 6\aErprvirq\g19:09:38\aFuvccrq 19:09:46\a\a\aPbagnpg ba qhgl fhcreivfbe be qvfcngpu sbe shegure vasbezngvba ba guvf pnyy. \aCyrnfr xrrc va zvaq qvfcngpu naq havgf znl or irel ohfl, nyybj gvzr sbe pnyy cebprff vs cbffvoyr.  \aGunax lbh.
 (=?hgs-8?O?DIIHG01OIRyQVRAOEPOBG1EWExyQDIEWG04tYD==?=) NHGBZNGVP PNQ ABGVSVPNGVBA - \aPNQ# YNSQ14PNQ000013\aPnyy Glcr FGEHPGHER SVER\aYbpngvba  7725 PE 78 \aMvc  \aRagrerq ol FXRYYL\aQvfgevpg JRFG\a\aJrncba \aNqqvgvbany\g \aFgnghf VA CEBTERFF\aCevbevgl 4\aErprvirq\g18:01:12\aFuvccrq 18:01:25\a\a\aPbagnpg ba qhgl fhcreivfbe be qvfcngpu sbe shegure vasbezngvba ba guvf pnyy. \aCyrnfr xrrc va zvaq qvfcngpu naq havgf znl or irel ohfl, nyybj gvzr sbe pnyy cebprff vs cbffvoyr.  \aGunax lbh.
 (=?hgs-8?O?DIIHG01OIRyQVRAOEPOBG1EWExyQDIEWG04tYD==?=) NHGBZNGVP PNQ ABGVSVPNGVBA - \aPNQ# UPFB14PNQ001159\aPnyy Glcr OEHFU SVER\aYbpngvba  JURRYRE EQ \aMvc  \aRagrerq ol ZFGRRQ\aQvfgevpg JRFG\a\aJrncba \aNqqvgvbany\g \aFgnghf VA CEBTERFF\aCevbevgl 6\aErprvirq\g17:45:07\aFuvccrq 17:46:27\a\a\aPbagnpg ba qhgl fhcreivfbe be qvfcngpu sbe shegure vasbezngvba ba guvf pnyy. \aCyrnfr xrrc va zvaq qvfcngpu naq havgf znl or irel ohfl, nyybj gvzr sbe pnyy cebprff vs cbffvoyr.  \aGunax lbh.
-**********************************************************
 **********************************************************
 2014011910000089 (Wnpxfba)
 Greerobaar Cnevfu, YN
@@ -7776,6 +7771,36 @@ PNQ:SLV: ;251 LBFRZVGR PVE A;TI;TI-SVER-NYNEZ;TIF2;YBEVAT YA;LBFRZVGR NI A
 PNQ:SLV: ;1375 FXLYVAR QE;TI;TI-ZRQVPNY;TIF3
 PNQ:SLV: ;7505-306 PBHAGEL PYHO QE;TI;TI-ZRQVPNY;TIF1;CRAAFLYINAVN NI A;EUBQR VFYNAQ NI A
 PNQ:Hcqngr: ;5725 QHYHGU FG;TI;TI-SVER-NYNEZ;TIF3;YVYNP QE A;NQNVE NI A
+**********************************************************
+2014012110000048
+Frzvabyr Pbhagl,SY
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Pnffryoreel Sver Qrcnegzrag
+Ybpngvba: Pnffryoreel, Sy, Havgrq Fgngrf
+Fraqre: <pbzpge@frzvabyrpbhaglsy.tbi>
+
+RZQN 210 TBYQRA QNLF QE, PNFFRYOREEL  (CYNMN BINY/FYHZORE YA) (ZncObbx:040;669 727;PNFFRYOREEL) GNP: 9O HAVGF: E21
+HAPBAFPVBHF / SNVAGVAT 920 FNMN EHA, PNFFRYOREEL  (/F YBFG YNXR YA) (ZncObbx:041;686 709;PNFFRYOREEL) GNP: 9O HAVGF: E25 G25
+RZQN 920 FNMN EHA, PNFFRYOREEL  (/F YBFG YNXR YA) (ZncObbx:041;686 709;PNFFRYOREEL) GNP: 9O HAVGF: E25
+QVNORGVP CEBOYRZF &CNGUJNLF GB PNER (CYHZBFN NIR / NAPUBE EQ) #8N  (430 CYHZBFN NIR) (ZncObbx:040;660 721;PNFFRYOREEL), PNFFRYOREEL GNP: 9O HAVGF: R21 E21
+RZQN &CNGUJNLF GB PNER (CYHZBFN NIR / NAPUBE EQ) #8N  (430 CYHZBFN NIR) (ZncObbx:040;660 721;PNFFRYOREEL), PNFFRYOREEL GNP: 9O HAVGF: E21
+HAXABJA CEBOYRZ UBJRYY OENAPU EQ, PNFFRYOREEL/FE 436, JVAGRE CNEX(ZncObbx:043;691 665;PNFFRYOREEL) GNP: 9O HAVGF: E25 G25
+RZQN UBJRYY OENAPU EQ, PNFFRYOREEL/FE 436, JVAGRE CNEX(ZncObbx:043;691 665;PNFFRYOREEL) GNP: 9O HAVGF: E25
+BIREQBFR / CBVFBAVAT 3125 SNVEJBBQ PG, JVAGRE CNEX  (FCEVAT FG/) (ZncObbx:044;699 655;PNFFRYOREEL) GNP: 9O HAVGF: E11 G25
+GENSSVP NPPVQRAG FRZVABYR NIR, JVAGRE CNEX/TEBIR NIR, JVAGRE CNEX(ZncObbx:058;715 657;HAVAPBECBENGRQ) GNP: 9Q HAVGF: E25 G25
+NAVZNY OVGRF 1752 TENAQ EHR QE, PNFFRYOREEL  (CNYZREFGBA CY/FHZZRE OERRMR CY) (ZncObbx:054;703 723;PNFFRYOREEL)#YRTNPL CNEX GNP: 9O HAVGF: R21 E21
+RZQN 1752 TENAQ EHR QE, PNFFRYOREEL  (CNYZREFGBA CY/FHZZRE OERRMR CY) (ZncObbx:054;703 723;PNFFRYOREEL)#YRTNPL CNEX GNP: 9O HAVGF: E21
+VYYRTNY OHEA FRZVABYN OYIQ, PNFFRYOREEL/YRTNPL CNEX QE, PNFFRYOREEL(ZncObbx:054;703 722;PNFFRYOREEL) GNP: 9Q HAVGF: R21
+HAXABJA CEBOYRZ 2609 PUNAHGR GE/ GUHAQRE GE; BPWM.E25.R22  ZC 40-29 SVER 7 GNP: S3 HAVGF: R22 E25
+FVPX CREFBA 531 XRAGVN EQ, PNFFRYOREEL  (F JVAGRE CNEX QE/IVBYRG QRYY QE) (ZncObbx:042;683 698;PNFFRYOREEL) GNP: 9O HAVGF: R21 E25
+RZQN 531 XRAGVN EQ, PNFFRYOREEL  (F JVAGRE CNEX QE/IVBYRG QRYY QE) (ZncObbx:042;683 698;PNFFRYOREEL) GNP: 9O HAVGF: E25
+RZQN 361 YVYNP EQ, PNFFRYOREEL  (CNYZ QE/GHYVC GEY) (ZncObbx:042;679 698;PNFFRYOREEL) GNP: 9O HAVGF: E25
+RZQQ 3208 CNEXFVQR PG, JVAGRE CNEX  (FCEVAT FG/) (ZncObbx:044;698 654;PNFFRYOREEL) GNP: 9O HAVGF: E25 G25
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -7942,5 +7967,3 @@ Fraqre: pmh.rpp@sver.pn.tbi
 **********************************************************
 **********************************************************
 **********************************************************
-Obql:(Tevzrf) Ybpngvba: 6405 AJ 98GU FG WBUA Glcr: ERFQSVER NFFVTA Pnyyre: ZREVGG,WHYVR Gvzr: 08:28:52
-R
