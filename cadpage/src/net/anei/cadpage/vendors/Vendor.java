@@ -375,7 +375,7 @@ abstract class Vendor {
     
     // If already enabled, we don't have to do anything
     if (enabled) {
-      sendReregister(context, ManagePreferences.registrationId());
+      sendReregister(context, ManagePreferences.registrationId(), true);
       return;
     }
 
@@ -396,7 +396,7 @@ abstract class Vendor {
     // gotten stale from long periods of unuse.
     String regId = ManagePreferences.registrationId();
     if (regId != null) {
-      registerC2DMId(context, regId);
+      registerC2DMId(context, regId, true);
       C2DMService.register(context, true);
     }
     
@@ -439,9 +439,10 @@ abstract class Vendor {
    * Called when a new or changed C2DM registration ID is reported
    * @param context current context
    * @param registrationId registration ID
+   * @param userReq true if user requested this action
    * @return true if we actually did anything
    */
-  boolean registerC2DMId(final Context context, String registrationId) {
+  boolean registerC2DMId(final Context context, String registrationId, boolean userReq) {
     
     // If we are in process of registering with server, send the web registration request
     if (inProgress) {
@@ -469,7 +470,7 @@ abstract class Vendor {
     // Otherwise, if we are registered with this server, pass the new registration
     // ID to them
     else if (enabled) {
-      sendReregister(context, registrationId);
+      sendReregister(context, registrationId, userReq);
       return true;
     }
     
@@ -494,8 +495,9 @@ abstract class Vendor {
    * @param context current context
    * @param registrationId registration ID
    */
-  private void sendReregister(final Context context, String registrationId) {
-    Uri uri = buildRequestUri("reregister", registrationId);
+  private void sendReregister(final Context context, String registrationId, boolean userReq) {
+    Uri uri = buildRequestUri("reregister", registrationId, userReq);
+    uri = uri.buildUpon().appendQueryParameter("userReq", (userReq ? "Y" : "N")).build();
     HttpService.addHttpRequest(context, new HttpService.HttpRequest(uri){
       
       @Override

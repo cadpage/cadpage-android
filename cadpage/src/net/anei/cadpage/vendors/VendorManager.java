@@ -189,7 +189,7 @@ public class VendorManager {
     // Pass new reg ID to all vendors and see if any of the respond
     boolean done = false;
     for (Vendor vendor : vendorList) {
-      if (vendor.registerC2DMId(context, registrationId)) done = true;
+      if (vendor.registerC2DMId(context, registrationId, reconect)) done = true;
     }
     
     // If no vendors are currently enabled, send a reg_query to all of them

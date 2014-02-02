@@ -1,0 +1,31 @@
+Cadpage App to App communications
+
+I have been experimenting, and documenting for users, how we can go about running
+Cadpage and Active911 apps on the same device, with the same device authorization 
+code.  Nothing tricky about it, basically we register the Active911 app with your
+servers first.  Then register Cadpage.  The direct page sent from the servers
+goes to Cadpage.  But when Active911 is launched, either manually or from Cadpage,
+Active911 polls your servers for updated information.  This is working pretty
+well with existing software, but there are some things that can be changed to
+make it work better.
+
+The only real problem, which I discovered last week, is that installing a new
+version of the Active911 app reregisters with the server and switch direct 
+paging back to the Active911 app.  This shouldn't have been a surprise, both
+Android apps are required to register and send an updated registration ID to
+the server when a new release is installed.  You had to put in some special server
+logic to ensure that a Cadpage reregister request did not switch the page type 
+when a new Cadpage release is installed.  Now we need something similar to
+prevent a page type switch when a new Active911 release is installed.
+
+The next Cadpage release adds a new parameter to the reregister request.  
+userReq=Y indicates the user specifically requested Cadpage be reconnnected
+to the Active911 servers, and that switching the page type would be an
+appropriate action.
+userReq=N indicates this is an automatically generated request when Google
+sent us an updated registration ID for whatever reason.  If the device page
+type is not currently set for c2dm_cadpage, the request should be ignored.
+
+If there is no userReq parameter, you are getting the request from an older Cadpage 
+release and have no idea why it is being sent.  It would be appropriate to
+default to N processing.    
