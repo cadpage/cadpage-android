@@ -6,15 +6,18 @@ Npgvir911 gvpxrgf
 2013042810000193  ALBabaqntnPbhagl jbexf
 2013090610000242  ZBFgSenapbvfPbhagl jbexf
 2013091610000474  INBenatrPbhagl jbexf
-2013101410000537  PNEbpxyva
-2013112010000194  Abg fraqvat qvfcngpu qngn / Gel ntnva ynggre
+2013101410000537  PNEbpxyva (QvfcngpuN20 fhopynff)
+2013112010000194  Fraqvat rapbqrq UGZY svyr.
 2013120310000036  Arrqf na UGZY cnefre
-2013120310000465  CNPurfgrePbhaglT (svkrq)
+2013120310000465  CNPurfgrePbhaglT jbexf
 2014010910000197  APPyrirynaqPbhagl jbexf
 2014011010000201  GKGenivfPbhagl jbexf
-2014011010000498  ALJnlarPbhaglO
 2014011410000669  GKYrbaPbhaglO
 2014011710000985  NYUbbire qbar
+2014011710000994  PNFbhguYnxrGnubr qbar
+2014011910000043  PNUnljbbqPbhagl qbar
+2014012810000062  XLYbhvfivyyr qbar
+2014012910000721  Arrqf UGZY cnefre (HF/AL/BfjrtbPbhagl)
 2014012710000724  PNFnagnPehmPbhagl qbar
 --------------------------------------
 2014011010000881  Arrqf UGZY Cnefre (HF/SY/UreanaqbFureevss)
@@ -23,7 +26,6 @@ Npgvir911 gvpxrgf
 2014010710000244  TNPungunzPbhagl (HF/TN/FbhgufvqrSver)
 2013072510000586  PBObhyqrePbhagl
 2013102210000441  MPNDPCvapbheg 
-2012120510000169  ZBZbargg va cebterff
 2013011610000336  Ab qngn - jnvgvat
 2013020410000197  Ab qngn - jnvgvat
 2013030410000524  VYQhCntrPbhaglO qbar
@@ -70,9 +72,7 @@ Npgvir911 gvpxrgf
 2014011310000769  BECbegntrPbhaglO qbar
 2014010910000866  BEPbyhzovnPbhagl qbar
 2013080210000395  AZFnaWhnaPbhagl qbar
-2014011710000994  PNFbhguYnxrGnubr qbar
 2012120510000169  ZBZbargg qbar
-2014011910000043  PNUnljbbqPbhagl qbar
 2013032210000375  GKZvffbhevPvgl qbar
 2013102310000681  ZGCnexPbhagl qbar
 2014011910000061  VAYnxrPbhagl qbar
@@ -7718,6 +7718,26 @@ PEA & GVZRF: PEA:140113164 ERPRVIRQ:12:39 QVFCNGPURQ:12:40 RAEBHGR:12:40 NG FPRA
 PBZCYRGR/ERSHFNY: PEA:140113163 ERPRVIRQ:12:21 QVFCNGPURQ:12:22 RAEBHGR:12:23 NG FPRAR:12:33 QRCNEG: NG QRFG: ZVYRNTR:
 Z07 ERFCBAQ GB:Unorefunz Fg / R 54gu Fg NCG:CEV: 1 PBZCYNVAG:ZIP/ CRQRFGEVNA PEA:140113164 Anzr: PBZZRAGF:
 **********************************************************
+2014020110000422 > 2013101410000537 (Fnenu)
+Ebpxyva, PN
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Pvgl bs Ebpxyva Sver Qrcnegzrag
+Ybpngvba: Ebpxyva, PN, Havgrq Fgngrf
+Fraqre: @ebpxyva.pn.hf
+
+QvfcngpuN20Cnefre fhopynff
+
+(Qvfcngpurq Pnyy (R25)) OYHR BNXF OY/FBABEN CNFF, EBPXYVA, PN *  * FBABEN CNFF *  * SYBBQ * P3 T2 * #140119063 * ARNE UBHFVAT PBZCYRK......SVER ULQENAG BCRA\aPryyhy
+(Qvfcngpurq Pnyy (R25)) 2332 PNANEL QE, EBPXYVA, PN *  * UHZZVATOVEQ YA/ZNPNJ YA *  * ZNVQ * P3 U3 * #140119061 * SRZNYR 36LB......UNAQVPNCCRQ, QVSS OERNGUVAT VF PB
+(Qvfcngpurq Pnyy (R23)) 4110 PRQNE FG, EBPXYVA, PN *  * TEBIR FG/ZRLREF FG *  * ZNVQ * Q3 R1 * #140119046 * 37 LB SRZNYR VA YNOBE
+(Qvfcngpurq Pnyy (GE24)) 3201 FNAGN SR JL, EBPXYVA, PN * PNFN QR FNAGN SR * CNEX QE * 61 * ZNVQ * Q3 O4 * #140119038 * 86 LB ZNYR FUBEGARFF BS OERNGU..... VA GUR ZNV
+(Qvfcngpurq Pnyy (R23)) 3551 FHAFRG OY, EBPXYVA, PN * FHAFRG NCGF * FCEVATIVRJ QE/CNPVSVP FG * 42 * ZNVQ * Q2 P8 * #140119036 * 60 LB SRZNYR SNYY.... VAWHERQ NEZ, C
+(Qvfcngpurq Pnyy (R25)) 3830 NGUREGBA EQ, EBPXYVA, PN * TNC VAP (PNYY PRAGRE) * ZRAYB QE (A)/ZRAYB QE (F) * 200 * UMY * P3 S5 * #140119024 * IRU VA GUR CYBG YRNXRQ
+(Qvfcngpurq Pnyy (R23)) FBHGUFVQR ENAPU EQ/FVREEN PBYYRTR OY, EBPXYVA, PN *  * FVREEN PBYYRTR OY *  * INY * Q2 T7 * #140118229 * FVATYR IRU NPPVQRAG.... ENA BSS GUR
+(Qvfcngpurq Pnyy (GE24)) 3040 FHAFRG UVYY EQ, EBPXYVA, PN *  * NFPRAFVBA FG/FHAFRG UVYY PG *  * ZNVQ * Q3 P2 * #140118149 * 75 LB SRZNYR...CBFF FRVMHER...PBAFP/OERNG
+(Qvfcngpurq Pnyy (R23)) 5039 FBHGUFVQR ENAPU EQ, EBPXYVA, PN *  * NCCNYBBFN CY/GUBEBHTUOERQ PG *  * ZNVQ * Q2 T7 * #140118094 * Freivpr Pynff: ERFQ, 76le ZNYR, CBFF
+(Qvfcngpurq Pnyy (R23)) 5305 2AQ FG, EBPXYVA, PN *  * O FG/P FG *  * ZNVQ * Q3 Q1 * #140118063 *
 **********************************************************
 **********************************************************
 **********************************************************

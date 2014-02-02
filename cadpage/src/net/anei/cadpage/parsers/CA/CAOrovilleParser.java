@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.CA;
 import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 
 /**
- * Butte County, CA
+ * Oroville, CA
  */
 public class CAOrovilleParser extends DispatchA20Parser {
   
