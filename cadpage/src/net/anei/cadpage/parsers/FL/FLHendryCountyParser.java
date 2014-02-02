@@ -19,6 +19,11 @@ public class FLHendryCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
   public Field getField(String name) {
     if (name.equals("HEADER")) return new SkipField("AUTOMATIC CAD NOTIFICATION - *", true);
     if (name.equals("ID")) return new IdField("CAD# *([A-Z0-9]+)", true);
