@@ -2,6 +2,7 @@ package net.anei.cadpage.vendors;
 
 import net.anei.cadpage.C2DMService;
 import net.anei.cadpage.CadPageApplication;
+import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.EmailDeveloperActivity;
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.Log;
@@ -17,6 +18,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import net.anei.cadpage.BroadcastBindings;
 
 abstract class Vendor {
 
@@ -243,6 +245,8 @@ abstract class Vendor {
     
     textPage = prefs.getBoolean("textPage", false);
     disableTextPageCheck = prefs.getBoolean("disableTextPageCheck", false);
+    
+    publishAccountInfo(context);
   }
   
   /**
@@ -254,7 +258,7 @@ abstract class Vendor {
   }
   
   /**
-   * Save the critical status members to persistant storage
+   * Save the critical status members to persistent storage
    */
   private void saveStatus() {
     SharedPreferences.Editor editor = prefs.edit();
@@ -555,6 +559,7 @@ abstract class Vendor {
     this.account = account;
     this.token = token;
     saveStatus();
+    if (enabled) publishAccountInfo(context);
     
     if (change) {
       reportStatusChange();
@@ -567,6 +572,16 @@ abstract class Vendor {
       
       if (!register) EmailDeveloperActivity.logSnapshot(context, "Vendor initiated disconnect");
     }
+  }
+  
+  void publishAccountInfo(Context context) {
+    if (!enabled) return;
+    Intent intent = new Intent("net.anei.cadpage.ACCOUNT_INFO." + vendorCode);
+    intent.putExtra("account", account);
+    intent.putExtra("token", token);
+    Log.w("Publish Account Info");
+    ContentQuery.dumpIntent(intent);
+    context.sendBroadcast(intent, BroadcastBindings.PERMISSION);
   }
 
   /**

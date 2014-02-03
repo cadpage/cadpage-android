@@ -8,6 +8,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+
 //import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.BugReportGenerator;
 import net.anei.cadpage.C2DMService;
@@ -19,6 +20,7 @@ import net.anei.cadpage.SmsMsgLogBuffer;
 import net.anei.cadpage.SmsReceiver;
 import net.anei.cadpage.billing.BillingManager;
 import android.content.Context;
+import android.content.Intent;
 import android.preference.ListPreference;
 import android.preference.PreferenceGroup;
 
@@ -77,12 +79,13 @@ public class DeveloperToolsManager {
     "Stat: Roll Last Date",
     "Build Test Message",
     "Status test",
-    "Generate Bug Report"
+    "Generate Bug Report",
+    "Active911 Account Req"
     
   };
   
   private static final String[] valueList = new String[]{
-    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"
+    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"
   };
   
   private class DeveloperListPreference extends ListPreference {
@@ -247,6 +250,10 @@ public class DeveloperToolsManager {
         
       case 16:    // generate bug report
         BugReportGenerator.generate();
+        break;
+        
+      case 17:
+        context.sendBroadcast(new Intent("net.anei.cadpage.REQ_ACCOUNT_INFO.Active911"));
         break;
         
       case 31:    // C2DM Register

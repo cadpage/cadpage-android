@@ -170,6 +170,17 @@ public class SmsMmsMessage implements Serializable {
     return parserCode != null && parserCode.equals("Active911");
   }
   
+  /**
+   * @return Active911 message ID if appropriate, null otherwise
+   */
+  public String getActive911MsgCode() {
+    if (ackURL == null) return null;
+    Matcher match = ACTIVE911_CODE_PTN.matcher(ackURL);
+    if (!match.find()) return null;
+    return match.group(1);
+  }
+  private static final Pattern ACTIVE911_CODE_PTN = Pattern.compile("[&\\?]q=([A-Za-z0-9]+)\\b");
+  
   private void reportDataChange() {
     if (msgId > 0) SmsMessageQueue.getInstance().notifyDataChange();
   }

@@ -484,7 +484,7 @@ public class MsgOptionManager {
       
     case R.id.active911_item:
       String vendor = message.getVendorCode();
-      boolean enabled = vendor != null && vendor.equals("Active911") && launchActive911(activity, false);
+      boolean enabled = vendor != null && vendor.equals("Active911") && launchActive911(activity, false, message);
       item.setEnabled(enabled);
       return enabled;
     }
@@ -569,7 +569,7 @@ public class MsgOptionManager {
       return true;
       
     case R.id.active911_item:
-      launchActive911(activity, true);
+      launchActive911(activity, true, message);
       return true;
       
     case R.id.ack_item:
@@ -713,7 +713,7 @@ public class MsgOptionManager {
    * @param launch true to really launch the app. false to just test to see if it is installed 
    * @return true if Active911 app is installed, false otherwise
    */
-  private static boolean launchActive911(Context context, boolean launch) {
+  private static boolean launchActive911(Context context, boolean launch, SmsMmsMessage msg) {
     Intent intent = new Intent(Intent.ACTION_MAIN);
     intent.addCategory(Intent.CATEGORY_LAUNCHER);
     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK |
@@ -721,11 +721,17 @@ public class MsgOptionManager {
                     Intent.FLAG_ACTIVITY_CLEAR_TOP);
     intent.setClassName("com.active911.app", "com.active911.app.MainActivity");
     
+    // See if we can extract the message ID from the ack URL
+    String code = msg.getActive911MsgCode();
+    if (code != null) intent.putExtra("q", code);
+    
     PackageManager pm = context.getPackageManager();
     List<ResolveInfo> list = pm.queryIntentActivities(intent, 0);
     if (list == null || list.size() == 0) return false;
     
     if (!launch) return true;
+    Log.w("Launching Active911");
+    ContentQuery.dumpIntent(intent);
     try {
       context.startActivity(intent);
     } catch (ActivityNotFoundException ex) {

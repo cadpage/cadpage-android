@@ -294,6 +294,15 @@ public class C2DMService extends IntentService {
     String vendorCode = intent.getStringExtra("vendor");
     if (vendorCode == null) vendorCode = intent.getStringExtra("sponsor");
     
+    // Send receive notice to vendor app running on this device
+    if (vendorCode != null) {
+      String action = "net.anei.cadpage.RECEIVE." + vendorCode;
+      Intent sendIntent = new Intent(action);
+      Log.w("Broadcasting direct page alert");
+      ContentQuery.dumpIntent(sendIntent);
+      this.sendBroadcast(sendIntent);
+    }
+    
     // Get the acknowledge URL and request code
     String ackURL = intent.getStringExtra("ack_url");
     String ackReq = intent.getStringExtra("ack_req");

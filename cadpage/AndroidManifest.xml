@@ -82,17 +82,17 @@
     
     <!-- Only C2DM servers can send messages for the app. If permission is not set - any other app can generate it --> 
     <receiver android:name=".C2DMReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
-        <!-- Receive the actual message -->
-        <intent-filter android:priority="2147483647">
-            <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-            <category android:name="net.anei.cadpage" />
-        </intent-filter>
-        <!-- Receive the registration id -->
-        <intent-filter android:priority="2147483647">
-            <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-            <category android:name="net.anei.cadpage" />
-        </intent-filter>
-        </receiver>
+      <!-- Receive the actual message -->
+      <intent-filter android:priority="2147483647">
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <category android:name="net.anei.cadpage" />
+      </intent-filter>
+      <!-- Receive the registration id -->
+      <intent-filter android:priority="2147483647">
+        <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+        <category android:name="net.anei.cadpage" />
+      </intent-filter>
+    </receiver>
     
     <receiver android:name=".ExternalEventReceiver">
       <intent-filter>
@@ -123,6 +123,15 @@
         <action android:name="com.android.vending.billing.IN_APP_NOTIFY" />
         <action android:name="com.android.vending.billing.RESPONSE_CODE" />
         <action android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED" />
+      </intent-filter>
+    </receiver>
+    
+    <receiver android:name=".vendors.VendorReceiver">
+      <intent-filter>
+        <action android:name="net.anei.cadpage.REQ_ACCOUNT_INFO.Active911" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="net.anei.cadpage.REQ_ACCOUNT_INFO.CodeMessaging" />
       </intent-filter>
     </receiver>
     

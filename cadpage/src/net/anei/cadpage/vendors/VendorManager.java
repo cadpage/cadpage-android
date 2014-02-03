@@ -447,6 +447,17 @@ public class VendorManager {
   }
   
   /**
+   * Process vendor account information request
+   * @param context current context
+   * @param vendorCode vendor code
+   */
+  public void requestAccountInfo(Context context, String vendorCode) {
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor == null) return;
+    vendor.publishAccountInfo(context);
+  }
+  
+  /**
    * Find vendor with matching vendor code
    * @param vendorCode vendor code
    * @return matching vendor object, or null if none found.
