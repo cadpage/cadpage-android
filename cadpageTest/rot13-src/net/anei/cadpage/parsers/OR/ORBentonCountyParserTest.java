@@ -1762,7 +1762,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:VAWHEL ZIN",
         "NQQE:XVATF INYYRL UJL naq ZC 30",
-        "ZNQQE:XVATF INYYRL UJL & ZC 30",
+        "ZNQQE:44.60604062500,-123.42694651300",
         "PVGL:CUVYBZNGU",
         "K:XVATF INYYRL UJL",
         "ZNC:615-435",

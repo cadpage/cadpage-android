@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01262013</string>
-  <string name="release_version">v1.7.05</string>
+  <string name="release_date">02032014</string>
+  <string name="release_version">v1.7.06</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+If you are running both the Cadpage and Active911 apps on the same device, you
+may have found that pages stopped coming to Cadpage after upgrading to the latest
+version of Active911.  You can fix this by unregistering and re-registering
+Cadpage with the Active911 servers.\n
+\n      
 New Locations:\n
-Hoover, AL\n
-Okaloosa County, FL\n
-San Juan County, NM\n
-Alleghany County, NC\n
+Hayward County, CA\n
+South Lake Tahoe, CA\n
+Hendry County, FL\n
+Monett, MO\n
+Park County, MT\n
+Nassau County, NY (alt)\n
+Sundry County, VA\n
 \n
 Location Parsing Fixes:\n
-Richland County, IL\n
-Johnson County, MO\n
-Madison County, NY\n
-Onslow County, NC\n
+Santa Cruz County, CA\n
+Polk County, IA\n
+Louisville, KY\n
+Ingham County, MI\n
+Livingston County, MI\n
+Hanover County, NC\n
+Lake County, OH\n
+Benton County, OR\n
+Clearfield County, PA\n
 Crawford County, PA\n
-Minnehaha County, SD\n
+Carroll County, VA\n
 Loudoun County, VA\n
-New Zealand\n
-\n
-General Fixes:\n
-Updated Swedish language text\n
-
   </string>
 </resources>
   
