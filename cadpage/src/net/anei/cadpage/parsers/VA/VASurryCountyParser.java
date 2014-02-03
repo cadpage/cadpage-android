@@ -18,7 +18,7 @@ public class VASurryCountyParser extends DispatchDAPROParser {
   
   @Override
   public String getFilter() {
-    return "7576189349";
+    return "mailbox@sheriffsoffice.local";
   }
   
   @Override
