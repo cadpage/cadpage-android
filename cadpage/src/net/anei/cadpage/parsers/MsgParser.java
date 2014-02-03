@@ -870,7 +870,7 @@ public abstract class MsgParser {
  }
  
  /**
-  * Perform parser specific converstions to city field before it is used to 
+  * Perform parser specific conversions to city field before it is used to 
   * generate the map address
   * @param city city field
   * @return adjusted city field
@@ -882,6 +882,7 @@ public abstract class MsgParser {
  public String lookupGpsCoordiantes(String address) {
    if (gpsLookupTable == null) return null;
    address = adjustGpsLookupAddress(address);
+   if (address == null) return null;
    return gpsLookupTable.getProperty(address);
  }
 

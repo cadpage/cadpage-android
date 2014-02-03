@@ -1831,7 +1831,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:HAX-VAWHEL ZIN",
         "NQQE:UVTUJNL 34 naq ZC 56",
-        "ZNQQE:UVTUJNL 34 & ZC 56",
+        "ZNQQE:44.51872444900,-123.42534530500",
         "PVGL:CUVYBZNGU",
         "K:UVTUJNL 34",
         "ZNC:525-435",
@@ -1854,7 +1854,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:HAX-VAWHEL ZIN",
         "NQQE:UVTUJNL 34 naq ZC 56",
-        "ZNQQE:UVTUJNL 34 & ZC 56",
+        "ZNQQE:44.51872444900,-123.42534530500",
         "PVGL:CUVYBZNGU",
         "K:UVTUJNL 34",
         "ZNC:525-435",
