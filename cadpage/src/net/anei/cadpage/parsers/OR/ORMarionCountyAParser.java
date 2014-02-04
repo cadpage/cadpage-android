@@ -31,10 +31,15 @@ public class ORMarionCountyAParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     do {
-      if (subject.equals("Incident")) break;
+      if (subject.equals("Incident") || subject.equals("!")) break;
       
       if (body.startsWith("Incident / ")) {
         body = body.substring(11).trim();
+        break;
+      }
+      
+      if (body.startsWith("! / ")) {
+        body = body.substring(4).trim();
         break;
       }
       
