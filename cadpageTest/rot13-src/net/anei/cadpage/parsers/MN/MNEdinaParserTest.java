@@ -301,6 +301,11 @@ V'yy frr vs V pna trg n pvgl pbqr yvfg sebz Npgvir911.  Vs abg, ohvyq bar lbhefr
 
 FEP fubhyq or pbqrq jvgu n inyvqngvba pbqr bs fbzrguvat yvar "(.*?) +CNTRQ")
 
+Sebz Npgvir911... 
+ "TI": "TBYQRA INYYRL",
+ "RQV": "RQVAN",
+ "EPU": "EVPUSVRYQ"
+ 
 */
 
 choyvp pynff ZARqvanCnefreGrfg rkgraqf OnfrCnefreGrfg {
