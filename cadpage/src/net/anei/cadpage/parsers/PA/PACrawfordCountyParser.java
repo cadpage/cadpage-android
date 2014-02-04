@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
 
 public class PACrawfordCountyParser extends DispatchBParser {
-  private static final Pattern MARKER = Pattern.compile("^(?:CRAWFORD COUNTY +911 +)?OESCAD(?:@WINDSTREAM.NET)?:|CRAWFORD COUNTY 911:");
+  private static final Pattern MARKER = Pattern.compile("^(?:CRAWFORD COUNTY +911 +)?OESCAD(?:@WINDSTREAM.NET)?:|CRAWFORD COUNTY +911(?: CRAWFORD_COUNTY_911)?:");
 
   public PACrawfordCountyParser() {
     super(CITY_LIST, "CRAWFORD COUNTY", "PA");
@@ -26,6 +26,9 @@ public class PACrawfordCountyParser extends DispatchBParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    int pt = body.indexOf(" Reply STOP ");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    
     boolean good = subject.contains(">");
     Matcher match = MARKER.matcher(body);
     if (match.find()) {
@@ -38,6 +41,8 @@ public class PACrawfordCountyParser extends DispatchBParser {
     if (data.strCity.toUpperCase().endsWith(" BORO")) {
       data.strCity = data.strCity.substring(0,data.strCity.length()-5).trim();
     }
+    
+    if (data.strCallId.length() == 0) data.expectMore = true;
     return true;
   }
   
