@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 public class CARocklinCountyParser extends DispatchA20Parser {
   
   public CARocklinCountyParser() {
-    super("ROCKLIN COUNTY", "CA");
+    super("ROCKLIN", "CA");
   }
   
   @Override

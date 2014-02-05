@@ -68,7 +68,10 @@ public class ORBentonCountyParser extends FieldProgramParser {
     address = address.toUpperCase();
     if (!address.contains(" MP ")) return null;
     address = address.replace("HIGHWAY", "HWY")
-                     .replace("KINGS VALLEY HWY ", "HWY 223 ")
+                     .replace("EDDYVILLE-BLODGETT HWY ", "HWY 180 ")
+                     .replace("TERRITORIAL RD ",         "HWY 200 ")
+                     .replace("KINGS VALLEY HWY ",       "HWY 223 ")
+                     .replace("ALSEA-DEADWOOOD HWY ",    "HWY 501 ")
                      .replace(" AND MP ", " MP ");
     return super.adjustGpsLookupAddress(address);
   }
@@ -192,6 +195,16 @@ public class ORBentonCountyParser extends FieldProgramParser {
       "MARYS RIVER RD MP 3",          "44.67063604900,-123.57130477800",
       "MARYS RIVER RD MP 4",          "44.68468965600,-123.57073946100",
       "MARYS RIVER RD MP 5",          "44.69912004900,-123.57268637500",
+      
+      "MARYS PEAK RD MP 1",           "44.471537,-123.508819",
+      "MARYS PEAK RD MP 2",           "44.473696,-123.521651",
+      "MARYS PEAK RD MP 3",           "44.472716,-123.536457",
+      "MARYS PEAK RD MP 4",           "44.485530,-123.537272",
+      "MARYS PEAK RD MP 5",           "44.494669,-123.545727",
+      "MARYS PEAK RD MP 6",           "44.498204,-123.554353",
+      "MARYS PEAK RD MP 7",           "44.504800,-123.568085",
+      "MARYS PEAK RD MP 8",           "44.508550,-123.573343",
+      "MARYS PEAK RD MP 9",           "44.512681,-123.555897",
       
       "MAXFIELD CREEK RD MP 1",       "44.69357114100,-123.41201987100",
       "MAXFIELD CREEK RD MP 2",       "44.69882047900,-123.39355055900",
@@ -400,6 +413,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
       "HWY 99W MP 109",               "44.22602410500,-123.20500562700",
       "HWY 99W MP 110",               "44.21157090200,-123.20416139700",
       
+      // EDDYVILLE-BLODGETT HWY
       "HWY 180 MP 8",                 "44.65540654500,-123.67728177700",
       "HWY 180 MP 9",                 "44.64955537100,-123.66062423500",
       "HWY 180 MP 10",                "44.64866932500,-123.64258825100",
@@ -413,6 +427,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
       "HWY 180 MP 18",                "44.61022600800,-123.52863455600",
       "HWY 180 MP 19",                "44.59847108100,-123.52477981100",
       
+      // TERRITORIAL RD
       "HWY 200 MP 1",                 "44.29875482400,-123.29538290400",
       "HWY 200 MP 2",                 "44.28424383800,-123.29540124900",
       "HWY 200 MP 3",                 "44.26923160500,-123.29503857800",
@@ -421,6 +436,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
       "HWY 200 MP 6",                 "44.22662261700,-123.28643029400",
       "HWY 200 MP 7",                 "44.21297414500,-123.28646354100",
       
+      // KINGS VALLEY HWY
       "HWY 223 MP 14",                "44.79455068900,-123.40323560000",
       "HWY 223 MP 15",                "44.78189629400,-123.41036909100",
       "HWY 223 MP 16",                "44.76921417800,-123.41950170400",
@@ -440,6 +456,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
       "HWY 223 MP 30",                "44.60604062500,-123.42694651300",
       "HWY 223 MP 31",                "44.59292907800,-123.42820135200",
       
+      // ALSEA-DEADWOOD HWY
       "HWY 501 MP 1",                 "44.36729491800,-123.59892225000",
       "HWY 501 MP 2",                 "44.35437254900,-123.60877513000",
       "HWY 501 MP 3",                 "44.34063524700,-123.61081012300",
