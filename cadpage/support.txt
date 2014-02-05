@@ -1481,15 +1481,17 @@ Have a nice day,
 
 The bad news is that Cadpage isn't going to work in your district.
 
-Cadpage expects a text message from dispatch that contains all of the address and call information it needs to generate a map location.  Alas, your district looks like one of the old ones that can not or will not generate text messages when a call is dispatched.
+Cadpage expects a text message from dispatch that contains all of the address and call information it needs to generate a map location.  Unfortunately, your dispatch center sounds like one of the old ones that can not or will not generate text messages when a call is dispatched.
 
-The text messages you are getting aren't coming from Dispatch.  They are coming from a messaging service agency which has found a clever way to work around the dispatch center's failings.  They have some radio equipment in your area that listens for dispatch tones on the dispatch frequency, and saves the voice communication the immediately follows it.  This is uploaded to their server, which then generates the text  messages to everyone on the distribution list.  The text message gives users a link that user can click on which downloads the original voice message from the agency server and plays it.  Yours is a bit different in that they actually attach an audio file to the text message that contains the dispatch message.
+The text messages you are getting are not coming from Dispatch.  They are coming from a messaging service agency which has found a clever way to work around the dispatch center's failings.  They have some radio equipment in your area that listens for dispatch tones on the dispatch frequency, and saves the voice communication the immediately follows it.  This is uploaded to their server, which then generates the text  messages to everyone on the distribution list.  The text message gives users a link that user can click on which downloads the original voice message from the agency server and plays it.
 
-It is a clever solution, but unfortunately not one that Cadpage can take advantage of.  To retrieve the call information, we would have to open the audio file ourselves and run it through a speach to text converter, then parse the result.  It would be an enourmous amount of work for what, we hope, will be  very small number of users.
+It is a clever solution, but unfortunately not one that Cadpage can take advantage of.  To retrieve the call information, we would have to open the audio file ourselves and run it through a speech to text converter, then parse the result.  It would be an enormous amount of work for what, we hope, will be  very small number of users.
+
+The only real solution is to convince your dispatch center to upgrade their equipment
 
 Sorry for the bad news,
 -Ken
- 
+
 ***************************************************************************
 
 Google can't find an address of  
