@@ -6,6 +6,7 @@ Npgvir911 gvpxrgf
 2013042810000193  ALBabaqntnPbhagl jbexf
 2013090610000242  ZBFgSenapbvfPbhagl jbexf
 2013091610000474  INBenatrPbhagl jbexf
+2013101410000537  PNEbpxyva Qbar 
 2013112010000194  Fraqvat rapbqrq UGZY svyr.
 2013120310000036  Arrqf na UGZY cnefre
 2013120310000465  CNPurfgrePbhaglT jbexf
@@ -15,9 +16,9 @@ Npgvir911 gvpxrgf
 2014011710000985  NYUbbire qbar
 2014011710000994  PNFbhguYnxrGnubr qbar
 2014011910000043  PNUnljbbqPbhagl qbar
+2014011910000052  SYUraqelPbhagl qbar
 2014012810000062  XLYbhvfivyyr qbar
 2014012910000721  Arrqf UGZY cnefre (HF/AL/BfjrtbPbhagl)
-2014012710000724  PNFnagnPehmPbhagl qbar
 --------------------------------------
 2014020310000428  Arrqf UGZY Cnefre (HF/VA/JnlarPbhagl)
 2014011010000881  Arrqf UGZY Cnefre (HF/SY/UreanaqbFureevss)
@@ -30,7 +31,6 @@ Npgvir911 gvpxrgf
 2013020410000197  Ab qngn - jnvgvat
 2013030410000524  VYQhCntrPbhaglO qbar
 2013031510000281  SYOnlPbhagl
-2013080210000475  ALJnfuvatgbaPbhagl (QvfcngpuN13Cnefre fhopynff)
 2013093010000652  ZFUneevfbaPbhagl va cebterff
 2013102210000405  BUUnzvygbaPbhagl jbexf
 2013102510000552  ZVNyyrtnaPbhagl (QvfcngpuN9Cnefre fhopynff)
@@ -76,7 +76,6 @@ Npgvir911 gvpxrgf
 2013032210000375  GKZvffbhevPvgl qbar
 2013102310000681  ZGCnexPbhagl qbar
 2014011910000061  VAYnxrPbhagl qbar
-2014011910000052  SYUraqelPbhagl qbar
 2014011910000089  YNGreerobarCneevfu qbar
 2014020110000422  PNEbpxyva qbar
 *******************************************************************************
@@ -7770,6 +7769,8 @@ Fraqre: QVFCNGPU@ONLFB.BET<QVFCNGPU@ONLFB.BET>
 (216) \a601 ORPXEVPU EQ , MBAR CPOSQ , TNF YRNX SQ , 01/06/2014 13:14:27 , 2014-000044
 (221) \a178 A UVTUJNL 22N , MBAR F19 , PVGVMRA NFFVG SQ , 01/06/2014 12:50:14 , 2014-000186
 **********************************************************
+2014020410001096
+
 **********************************************************
 **********************************************************
 **********************************************************

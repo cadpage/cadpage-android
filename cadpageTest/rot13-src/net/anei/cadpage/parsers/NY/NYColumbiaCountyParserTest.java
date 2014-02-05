@@ -379,8 +379,7 @@ choyvp pynff ALPbyhzovnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:12",
         "VQ:2013:173",
         "PNYY:SQ-Zvfpryynarbhf Sver",
-        "NQQE:GRFG BAYL",
-        "PVGL:QVFERTNEQ");
+        "NQQE:GRFG BAYL - QVFERTNEQ");
 
     qbGrfg("G2",
         "(Pynirenpx Sver) 12:2013:172\aQvfcngpurq\a17-Snyyf 17O03\a57, EBHGR 9U ;PYNI (ZNCYR NI / BYQ YA)",

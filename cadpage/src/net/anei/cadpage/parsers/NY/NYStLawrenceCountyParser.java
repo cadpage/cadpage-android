@@ -14,6 +14,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA13Parser;
 
 public class NYStLawrenceCountyParser extends DispatchA13Parser {
   
+  private static final Pattern SECTOR_PTN = Pattern.compile(" +- +([A-Z]{1,2} SECTOR) #NY,");
   private static final Pattern ROUTE_PTN = Pattern.compile("\\b[A-Z]+ +(\\d+)");
   
   public NYStLawrenceCountyParser() {
@@ -28,13 +29,19 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.endsWith("911 DISPATCH")) return false;
-    if (! super.parseMsg(body, data)) return false;
     
-    // Sectors should be moved to the MAP field
-    if (data.strPlace.endsWith(" SECTOR")) {
-      data.strMap = data.strPlace;
-      data.strPlace = "";
+    // Pull out sector information
+    Matcher match = SECTOR_PTN.matcher(body);
+    if (match.find()) {
+      data.strMap = match.group(1);
+      body = body.substring(0,match.start()) + ',' + body.substring(match.end()); 
     }
+    
+    // Dump all of the extraneous #NY terms
+    body = body.replace("#NY,", ",");
+    body = body.replace("#NY", "#");
+    
+    if (! super.parseMsg(body, data)) return false;
     
     // If call contains a response code expand it to full description
     // The last part of the code may contain a leading zero which
@@ -48,6 +55,7 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
       }
     }
     
+    
     // More strangeness.  Cities are often followed a dash and something that might be
     // a place name, but is usually a restatement of a previous ROUTE number, this time
     // adding some qualifiers as to what kind of highway it is.
@@ -57,7 +65,7 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
       if (!extra.equals("WINTHROP")) {
         data.strCity = data.strCity.substring(0,pt).trim();
         
-        Matcher match = ROUTE_PTN.matcher(extra);
+        match = ROUTE_PTN.matcher(extra);
         if (match.matches()) {
           String searchRoute = "ROUTE " + match.group(1);
           pt = data.strAddress.indexOf(searchRoute);
@@ -68,12 +76,6 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
         }
       }
       if (extra != null) data.strPlace = extra;
-    }
-    
-    // Dispatch sprinkles a lot of #NY terms after addresses for no apparent reason
-    if (data.strApt.startsWith("NY")) data.strApt = data.strApt.substring(2).trim();
-    if (data.strCity.endsWith("#NY")) {
-      data.strCity = data.strCity.substring(0,data.strCity.length()-3).trim();
     }
     
     // Redundant processing, but extra information is sometimes appended to address
