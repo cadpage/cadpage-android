@@ -37,10 +37,15 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     if (!super.parseMsg(body, data)) return false;
     
     // If out of county mutual aid call, cancel the default county
-    if (data.strCall.equals("MUTUAL")) data.defCity = "";
+    if (data.strSource.startsWith("ALCO")) data.strCity = "ALAMANCE COUNTY";
+    else if (data.strCall.equals("MUTUAL")) data.defCity = "";
     return true;
   }
 
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("SRC", "SRC CITY");
+  }
 
 
   private class Call2Field extends CallField {
