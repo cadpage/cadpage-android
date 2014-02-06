@@ -9,11 +9,20 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class INPorterCountyParser extends FieldProgramParser {
   
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(.*) +- From +(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d:\\d\\d)");
   private static final Pattern MISSING_LF_PTN = Pattern.compile("(?<=[^\n])(?=GRP:)");
   
+  private String select;
+  
   public INPorterCountyParser() {
-    super("PORTER COUNTY", "IN",
-           "ID? CODE ( ADDR1/Z ADDR2 | ADDR3! ) CROSS:X? GRP:UNIT? PRI:PRI comment:INFO");
+    super(CITY_CODES, "PORTER COUNTY", "IN",
+          "( SELECT/1 DISPATCH:CODE! CALL+? ( PLACE  CITY/Z AT CITY | ADDR/Z CITY ) PLACE? ( X1 | INT ) PLACE? SRC MAP MAPPAGE XXXX INFO+ Unit:UNIT! | " +
+           "ID? CODE ( ADDR1/Z ADDR2 | ADDR3! ) CROSS:X2? GRP:UNIT? PRI:PRI comment:INFO )");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "pcdisp@porterco-ps.org";
   }
   
   @Override
@@ -23,26 +32,95 @@ public class INPorterCountyParser extends FieldProgramParser {
 
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    do {
-      if (subject.equals("CAD Page")) break;
-      if (subject.endsWith("FS")) {
-        data.strSource = subject;
-        break;
-      }
-      return false;
-    } while (false);
     
-    body = MISSING_LF_PTN.matcher(body).replaceAll("\n");
-    if (!parseFields(body.split("\n"), 4, data)) return false;
-    String sAddr = data.strAddress;
-    data.strAddress = "";
-    parseAddress(sAddr, data);
+    // Two different formats
+    if (subject.equals("Porter SMTP Provider")) {
+      select = "1";
+      Matcher match = DATE_TIME_PTN.matcher(body);
+      if (match.matches()) {
+        body = match.group(1);
+        data.strDate = match.group(2);
+        data.strTime = match.group(3);
+      } else {
+        int pt = body.lastIndexOf(" - From");
+        if (pt >= 0) body = body.substring(0,pt).trim();
+      }
+      body = body.replace(" Units:", " Unit:");
+      if (!parseFields(body.split(","), data)) return false;
+    }
+    
+    // Second older format is no longer used
+    else {
+      do {
+        if (subject.equals("CAD Page")) break;
+        if (subject.endsWith("FS")) {
+          data.strSource = subject;
+          break;
+        }
+        return false;
+      } while (false);
+      
+      select = "2";
+      
+      body = MISSING_LF_PTN.matcher(body).replaceAll("\n");
+      if (!parseFields(body.split("\n"), 4, data)) return false;
+      String sAddr = data.strAddress;
+      data.strAddress = "";
+      parseAddress(sAddr, data);
+    }
+    
+    // Winfield TWP is in Lake county
+    if (data.strCity.equals("Crown Point") ||
+        data.strCity.equals("Winfield Twp")) data.defCity = "LAKE COUNTY";
     return true;
   }
   
   @Override
   public String getProgram() {
-    return ("SRC " + super.getProgram());
+    if (select.equals("1")) return super.getProgram() + " DATE TIME"; 
+    else return ("SRC " + super.getProgram());
+  }
+  
+  @Override
+  protected String getSelectValue() {
+    return select;
+  }
+
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("AT")) return new AddressField("at +(.*)", true);
+    if (name.equals("X1")) return new CrossField("btwn *(.*)", true);
+    if (name.equals("INT")) return new SkipField("<.*>", true);
+    if (name.equals("SRC")) return new SourceField("[A-Z]{2,3}", true);
+    if (name.equals("MAPPAGE")) return new SkipField("mappage", true);
+    if (name.equals("XXXX")) return new  SkipField("XXXX", true);
+    if (name.equals("INFO")) return new MyInfoField();
+    
+    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("CODE")) return new MyCodeField();
+    if (name.equals("ADDR1")) return new MyAddressField(1);
+    if (name.equals("ADDR2")) return new MyAddressField(2);
+    if (name.equals("ADDR3")) return new MyAddressField(3);
+    if (name.equals("X2")) return new CrossField("btwn *(.*)", false);
+    return super.getField(name);
+  }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCall = append(data.strCall, ",", field);
+    }
+  }
+  
+  private static final String PROQA_DISPATCH = "Medical ProQA recommends dispatch at this time";
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith(PROQA_DISPATCH)) field = field.substring(PROQA_DISPATCH.length()).trim();
+      else if (PROQA_DISPATCH.startsWith(field)) return;
+      super.parse(field, data);
+    }
   }
   
   private static final Pattern ID_PTN = Pattern.compile("#(\\d{9}) -");
@@ -120,7 +198,6 @@ public class INPorterCountyParser extends FieldProgramParser {
         if (data.strCity.length() == 0) {
           pt = sCity.indexOf('-');
           if (pt >= 0) sCity = sCity.substring(0,pt).trim();
-          if (sCity.equals("WNT")) data.defCity = "LAKE COUNTY";
           data.strCity = convertCodes(sCity, CITY_CODES);
         }
       }
@@ -155,25 +232,6 @@ public class INPorterCountyParser extends FieldProgramParser {
     }
   }
   
-  private class MyCrossField extends CrossField {
-    @Override
-    public void parse(String field, Data data) {
-      if (field.startsWith("btwn ")) field = field.substring(5).trim();
-      super.parse(field, data);
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ID")) return new MyIdField();
-    if (name.equals("CODE")) return new MyCodeField();
-    if (name.equals("ADDR1")) return new MyAddressField(1);
-    if (name.equals("ADDR2")) return new MyAddressField(2);
-    if (name.equals("ADDR3")) return new MyAddressField(3);
-    if (name.equals("X")) return new MyCrossField();
-    return super.getField(name);
-  }
-  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BHB", "Burns Harbor",
       "BSH", "Beverly Shores",
@@ -200,6 +258,9 @@ public class INPorterCountyParser extends FieldProgramParser {
       "UNT", "Union Twp",
       "WCT", "Westchester Twp",
       "WGT", "Washington Twp",
-      "WNT", "Winfield Twp",  // Lake County
+      
+      // Lake County
+      "CPT", "Crown Point",
+      "WNT", "Winfield Twp",
   });
 }
