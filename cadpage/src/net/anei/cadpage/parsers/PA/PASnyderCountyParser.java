@@ -42,6 +42,9 @@ public class PASnyderCountyParser extends DispatchBParser {
     if (data.strCity.endsWith(" BORO")) {
       data.strCity = data.strCity.substring(0, data.strCity.length()-5);
     }
+    else if (data.strCity.endsWith(", UC")) {
+      data.strCity =  data.strCity.substring(0,data.strCity.length()-4) + ", UNION COUNTY";
+    }
     return true;
   }
   
@@ -67,6 +70,9 @@ public class PASnyderCountyParser extends DispatchBParser {
     "UNION TWP",
     "WASHINGTON TWP",
     "WEST BEAVER TWP",
-    "WEST PERRY TWP"
+    "WEST PERRY TWP",
+    
+    // Union County
+    "HARTLEY TWP , UC"
  };
 }
