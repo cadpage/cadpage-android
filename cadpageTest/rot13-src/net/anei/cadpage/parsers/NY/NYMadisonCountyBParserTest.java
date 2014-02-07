@@ -34,6 +34,7 @@ Fraqre: r911@znqvfbapbhagl.al.tbi
 SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2013:522\aQvfcngpurq\aNffvfg\a@FGBAL CBAQ
 SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2013:523\aQvfcngpurq\aZIN - Haxabja\aEBPXF EQ \ SRNEBA EQ (, RNGBA)
 SEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2014:32\aQvfcngpurq\aZIN - Haxabja\aF OHGYRE EQ \ SRNEBA EQ (, FZVGUSVRYQ)
+1 bs 2\aSEZ:r911@znqvfbapbhagl.al.tbi\aFHOW:911 Qvfcngpu\aZFT:FRINP:2014:50\aQvfcngpurq\aNyyretvp Ernpgvba\a@BABAQNTN UNYY, 26 FBHGU FGERRG\a(Pba'g) 2 bs 2\a(ZBEEVFIVYYR IVYYNTR-FHAL) (BABAQNTN UNYY )(Raq)
 
 Pbagnpg: zngg terra <z.terra8111@tznvy.pbz>
 Fraqre: r911@obhapr.frpherfreire.arg
@@ -244,6 +245,25 @@ choyvp pynff ALZnqvfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN - Haxabja",
         "NQQE:F OHGYRE EQ & SRNEBA EQ",
         "PVGL:FZVGUSVRYQ");
+
+    qbGrfg("G4",
+        "1 bs 2\a" +
+        "SEZ:r911@znqvfbapbhagl.al.tbi\a" +
+        "FHOW:911 Qvfcngpu\a" +
+        "ZFT:FRINP:2014:50\a" +
+        "Qvfcngpurq\a" +
+        "Nyyretvp Ernpgvba\a" +
+        "@BABAQNTN UNYY, 26 FBHGU FGERRG\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "(ZBEEVFIVYYR IVYYNTR-FHAL) (BABAQNTN UNYY )(Raq)",
+
+        "FEP:FRINP",
+        "VQ:2014:50",
+        "PNYY:Nyyretvp Ernpgvba",
+        "CYNPR:BABAQNTN UNYY",
+        "NQQE:26 FBHGU FGERRG",
+        "PVGL:ZBEEVFIVYYR IVYYNTR-FHAL",
+        "ZPVGL:ZBEEVFIVYYR");
 
   }
   

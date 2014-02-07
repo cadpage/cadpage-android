@@ -15,18 +15,22 @@ public class DispatchA13Parser extends FieldProgramParser {
   private static final String PROGRAM = "SRCID? DISPATCHED CALL! ADDR";
   
   private Properties cityCodes = null;
+  private boolean checkCity;
   
   public DispatchA13Parser(String defCity, String defState) {
     super(defCity, defState, PROGRAM);
+    checkCity = false;
   }
   
   public DispatchA13Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, PROGRAM);
     this.cityCodes = cityCodes;
+    this.checkCity = (cityCodes != null);
   }
   
   public DispatchA13Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState, PROGRAM);
+    this.checkCity = (cityList != null);
   }
 
   @Override
@@ -93,13 +97,21 @@ public class DispatchA13Parser extends FieldProgramParser {
       // and the second part is the address
       // Following parts contain cross streets, city names, or plain info
       if (sPart1.startsWith("@")) {
-        data.strPlace = stripApt(sPart1.substring(1).trim(), data);
-        if (sPart3.length() == 0 && sPart4.length() > 0 && checkAddress(sPart4) > checkAddress(sPart2)) {
-          data.strPlace = data.strPlace + '(' + sPart2 + ')';
-          sPart2 = stripApt(sPart4, data);
-          sPart4 = "";
+        sPart1 = stripApt(sPart1.substring(1).trim(), data);
+        int pt = sPart1.lastIndexOf(',');
+        if (pt >= 0) {
+          data.strPlace = sPart1.substring(0,pt).trim();
+          parseAddress(sPart1.substring(pt+1).trim(), data);
+        } else {
+          data.strPlace = sPart1;
+          if (sPart3.length() == 0 && sPart4.length() > 0 && checkAddress(sPart4) > checkAddress(sPart2)) {
+            data.strPlace = data.strPlace + '(' + sPart2 + ')';
+            sPart2 = stripApt(sPart4, data);
+            sPart4 = "";
+          }
+          parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sPart2, data);
+          sPart2 = "";
         }
-        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sPart2, data);
       }
       
       // Otherwise, first part is the address and city and occasionally
@@ -172,10 +184,11 @@ public class DispatchA13Parser extends FieldProgramParser {
             data.strCross = append(data.strCross, " & ", sPart2);
           }
         }
+        sPart2 = "";
       }
 
       // The rest contains city names, cross streets and/or supp info
-      for (String part : new String[]{sPart3, sPart4, sPart5}) {
+      for (String part : new String[]{sPart2, sPart3, sPart4, sPart5}) {
         if (data.strCity.length() == 0) {
           int pt = part.lastIndexOf(',');
           if (pt >= 0) {
@@ -195,9 +208,10 @@ public class DispatchA13Parser extends FieldProgramParser {
         } else if (part.startsWith("X ")) {
           data.strCross = append(data.strCross, "/", part.substring(2).trim());
         }
-        else if (data.strCity.length() == 0) {
+        else if (data.strCity.length() == 0  &&
+                 (!checkCity || isCity(part))) {
           data.strCity = part;
-        } else {
+        } else if (!part.equals(data.strPlace)) {
           data.strSupp = append(data.strSupp, " / ", part);
         }
       }

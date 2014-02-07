@@ -27,31 +27,49 @@ public class NYMadisonCountyBParser extends DispatchA13Parser {
 
   }
   
+  @Override
+  public String adjustMapCity(String city) {
+    if (city.equalsIgnoreCase("MORRISVILLE VILLAGE-SUNY")) {
+      city = "MORRISVILLE";
+    }
+    return city;
+  }
+
   private static final String[] CITY_LIST = new String[]{
     "BRIDGEPORT",
     "BROOKFIELD",
     "CANASTOTA",
+    "CANASTOTA VIL",
     "CAZENOVIA",
+    "CAZENOVIA VIL",
     "CHITTENANGO",
     "DERUYTER",
     "EARLVILLE",
+    "EARLVILLE VIL",
     "EATON",
     "FENNER",
     "GEORGETOWN",
     "HAMILTON",
+    "HAMILTON VIL",
     "LEBANON",
     "LENOX",
     "LINCOLN",
     "MADISON",
+    "MADISON VIL",
     "MORRISVILLE",
+    "MORRISVILLE VIL",
+    "MORRISVILLE VILLAGE-SUNY",
     "MUNNSVILLE",
+    "MUNNSVILLE VIL",
     "NELSON",
+    "NELSON VIL",
     "ONEIDA",
     "ONEIDA CITY",
     "SMITHFIELD",
     "STOCKBRIDGE",
     "SULLIVAN",
     "WAMPSVILLE",
+    "WAMPSVILLE VIL"
   };
 }
 	
