@@ -45,6 +45,10 @@ public class Parser {
   private BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
   private Parser(String[] args) throws IOException {
+    if (args.length == 1 && args[0].equals("-version")) {
+      displayVersionInfo();
+      return;
+    }
     setup(args);
     if (logStream != null) {
       logStream.print("Startup Args:");
@@ -132,6 +136,11 @@ public class Parser {
       if (sb.length() > 0) sb.append('\n');
       sb.append(line);
     }
+  }
+
+  private void displayVersionInfo() {
+    Package pkg = Package.getPackage("net.anei.cadpage.parsers");
+    System.err.println("version: " + pkg.getImplementationVersion());
   }
 
   public static void main(String[] args) throws IOException {
