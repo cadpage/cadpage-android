@@ -36,6 +36,15 @@ public class CASonomaCountyParser extends FieldProgramParser {
     return true;
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDR2")) return new MyAddress2Field();
+    if (name.equals("TIME")) return new MyTimeField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
   private static final Pattern PLACE_MARKER = Pattern.compile(" *: *@? *");
   private class MyAddressField extends AddressField {
     
@@ -92,11 +101,19 @@ public class CASonomaCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern GPS_PTN = Pattern.compile("^(?:N )?(-\\d{3}.\\d{4,}) (?:T )?(\\d{2}.\\d{4,})(?: METERS \\d+)? *");
   private static final Pattern JUNK_PTN = Pattern.compile(" *(?:Unit ([A-Z0-9]+) (?:requested case number [A-Z0-9]+|.*)|\\*\\* Case number (?:[A-Z0-9]+ has been assigned for [:A-Z0-9]+|.*)|\\*\\* >>>> (?:by: [A-Z ]+ on terminal: [a-z0-9]+|.*)) *");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      Matcher match = JUNK_PTN.matcher(field);
+      
+      Matcher match = GPS_PTN.matcher(field);
+      if (match.find()) {
+        setGPSLoc(match.group(1)+','+match.group(2), data);
+        field = field.substring(match.end());
+      }
+      
+      match = JUNK_PTN.matcher(field);
       if (match.find()) {
         int  last = 0;
         String result = "";
@@ -122,17 +139,8 @@ public class CASonomaCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "INFO UNIT";
+      return "GPS INFO UNIT";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("ADDR2")) return new MyAddress2Field();
-    if (name.equals("TIME")) return new MyTimeField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
