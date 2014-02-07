@@ -356,6 +356,7 @@ public class DispatchBParser extends FieldProgramParser {
         "EMS - CHEST PAINS",
         "EMS - CHF",
         "EMS - CVA",
+        "EMS - DEHYDRATION",
         "EMS - DIABETIC COMPLICATIONS",
         "EMS - DIABETIC PROBLEM",
         "EMS - DIFFICULTY BREATHING",
