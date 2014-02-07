@@ -4561,10 +4561,15 @@ Wbuafba Pbhagl, GK (O) (GKWbuafbaPbhaglOCnefre)
 (WPRFQ ) [Gvzr: 13-21:54:09] FGN79- ZRQ: 501 A FCNEXF FG   , KFge: J. PBYYRTR, Obk: 7900, Zncfpb:1071G [Havgf--FGN79] [Fgngvbaf--79]
 (WPRFQ ) [Gvzr: 13-19:30:34] FGN79- FGE1: 2601  PE 211   , KFge: PE 109, Obk: 7203, Zncfpb:1073G [Havgf--FGN72-FGN75-FGN79] [Fgngvbaf--72-75-79]
 *******************************************************************************
-Yrba Pbhagl, GK (GKYrbaPbhaglCnefre)
+Yrba Pbhagl, GK (GKYrbaPbhaglNCnefre)
 (Qvfcngpu Nyreg) TENFF SVER\a\aZZ 177 FO\aNcg \aOHSSNYB\aAbgr: FO FVQR TENFF SVER
 (Qvfcngpu Nyreg) TENFF SVER\a\aZZ AO 177 178\aNcg \aOHSSNYB
 (Qvfcngpu Nyreg) SVER\a\a430 TBYQRA NPERF \aNcg \aOHSSNYB\aAbgr: fzryyf fbzrguvat oheavat sebz ure n.p.
+*******************************************************************************
+Yrba Pbhagl, GK (GKYrbaPbhaglOCnefre)
+(Qvfcngpu Nyreg) Pnyy Glcr: ZRQVPNY RZRETRAPL Pvgl:  Nqqerff: PVGL UNYY OHSSNYB
+(Qvfcngpu Nyreg) Pnyy Glcr: NPPVQRAG Pvgl: PRAGREIVYYR Nqqerff: UJL 7 1 ZVYR CNFG SZ 811
+(Qvfcngpu Nyreg) Pnyy Glcr: ZRQVPNY RZRETRAPL Pvgl: PRAGREIVYYR Nqqerff: 239 F FHZZRE
 *******************************************************************************
 Yrjvfivyyr, GK (GKYrjvfivyyrCnefre)
 *101 R PBECBENGR QE*****ZNWBE NPP****O160,PUVRS,R163,Z163,G167*316****

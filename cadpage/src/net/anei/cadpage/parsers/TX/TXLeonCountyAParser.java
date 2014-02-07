@@ -6,9 +6,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 /**
  * Leon County, TX
  */
-public class TXLeonCountyParser extends FieldProgramParser{
+public class TXLeonCountyAParser extends FieldProgramParser{
   
-  public TXLeonCountyParser() {
+  public TXLeonCountyAParser() {
     super("LEON COUNTY", "TX",
         "CALL PLACE ADDR APT CITY! Note:INFO+");
   }
