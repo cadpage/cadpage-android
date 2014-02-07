@@ -119,7 +119,7 @@ Fraqre: @ebpxyva.pn.hf
 choyvp pynff PNEbpxyvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp PNEbpxyvaCnefreGrfg() {
-    frgCnefre(arj PNEbpxyvaPbhaglCnefre(), "EBPXYVA", "PN");
+    frgCnefre(arj PNEbpxyvaCnefre(), "EBPXYVA", "PN");
   }
   
   @Grfg

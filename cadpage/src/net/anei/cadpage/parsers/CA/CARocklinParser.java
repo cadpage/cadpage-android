@@ -3,11 +3,11 @@ package net.anei.cadpage.parsers.CA;
 import net.anei.cadpage.parsers.dispatch.DispatchA20Parser;
 
 /**
- * Rocklin County, CA
+ * Rocklin, CA
  */
-public class CARocklinCountyParser extends DispatchA20Parser {
+public class CARocklinParser extends DispatchA20Parser {
   
-  public CARocklinCountyParser() {
+  public CARocklinParser() {
     super("ROCKLIN", "CA");
   }
   
