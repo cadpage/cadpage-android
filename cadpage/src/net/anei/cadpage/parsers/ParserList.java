@@ -715,6 +715,7 @@ public class ParserList {
               ,"ORLinnCounty"                   ,"Linn County, OR"
               ,"ORMarionCounty"                 ,"Marion County, OR"
               ,"ORMultnomahCounty"              ,"Multnomah County, OR"
+              ,"ORTillamookCounty"              ,"Tillamook County, OR"
               ,"ORWashingtonCounty"             ,"Washington County, OR"
               ,"ORYamhillCounty"                ,"Yamhill County, OR"
           ),
