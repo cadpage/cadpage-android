@@ -13,7 +13,7 @@ public class CASanDiegoCountyAParser extends FieldProgramParser {
 
   public CASanDiegoCountyAParser() {
     super("SAN DIEGO COUNTY", "CA",
-           "ALM:PRI! MSTR_INC#:ID! TYP:CALL! ADR:ADDR! LOC:PLACE! SP:APT! TB:MAP! MAP:MAP! XST:X! TG:CH! TIMEDSP:TIME! UNITS:UNIT! TXT:INFO LOC_CMNTS:INFO");
+           "ALM:PRI! MSTR_INC#:ID! TYP:CALL! ADR:ADDR! LOC:PLACE! SP:APT% TB:MAP% MAP:MAP% XST:X% TG:CH% TIMEDSP:TIME% UNITS:UNIT% TXT:INFO LOC_CMNTS:INFO");
   }
 
   @Override

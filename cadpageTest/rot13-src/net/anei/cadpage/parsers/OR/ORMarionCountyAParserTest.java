@@ -17,6 +17,9 @@ Fhowrpg:Vapvqrag\aHAP S:WRSSREFBA ZNEVBA EQ FR@ CYRGMRE EQ FR , ZNEVBA PBHAGL:P6
 Fhowrpg:Vapvqrag\aZIN VAWHEL S:FHAALIVRJ EQ AR@ PNFPNQR UJ AR , ZNEVBA PBHAGL:R61, ZP133, ZP161:YBJ OBL UNHYVAT GENPGBE/SYVCCRQ BIRE/\e
 Fhowrpg:Vapvqrag\aTENFF YBJ EVFX S:33883 OREEL QE, NYONAL:P60, TE60, TE63:HAXABJA GLCR SVER::::\e\a\e
 Fhowrpg:Vapvqrag\aHAP S:38565 FPENIRY UVYY EQ, NYONAL:P60, ZRQ60, E60, E63:76 LBS HAP/O::::\e\a\e
+1 bs 2\aSEZ:Qvfcngpu@pv.jbbqohea.be.hf\aFHOW:!\aZFT:FGNTR ERD S:14822 WRSSREFBA UJ FR, ZNEVBA PBHAGL:R64, ZRQ61, P61, FGN600:FGNTR CBFF FHVP\a(Pba'g) 2 bs 2\aFHOW/ZPFB RAEG:ZNC-4820::WRSSREFBA ZBOVYR NPERF\a(Raq)
+SEZ:Qvfcngpu@pv.jbbqohea.be.hf\aFHOW:!\aZFT:NYET S:14881 NAQL PG FR, ZNEVBA PBHAGL:P60, ZRQ60, E60, FGN600, F2:52 LBS P/QVSS OERNGU/ NYYRETVP EK:ZNC-4819::\a
+1 bs 2\aSEZ:Qvfcngpu@pv.jbbqohea.be.hf\aFHOW:!\aZFT:OERN CEBOYRZ S:14307 QHPXSYNG EQ FR, ZNEVBA PBHAGL:P60, ZRQ60, E60, E83, FGN600, F2:59LBS\a(Pba'g) 2 bs 2\aP/N/FBO IBZVGGVAT/QVNEEURN:ZNC-4823N::\a(Raq)
 
 Pbagnpg: "Trar Qrefurjvgm" <trarqre@jiv.pbz>
 Fraqre: qvfcngpu@pv.jbbqohea.be.hf
@@ -371,7 +374,50 @@ choyvp pynff BEZnevbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:NYONAL",
         "HAVG:P60, ZRQ60, E60, E63",
         "VASB:76 LBS HAP/O");
-   
+
+    qbGrfg("G10",
+        "1 bs 2\a" +
+        "SEZ:Qvfcngpu@pv.jbbqohea.be.hf\a" +
+        "FHOW:!\a" +
+        "ZFT:FGNTR ERD S:14822 WRSSREFBA UJ FR, ZNEVBA PBHAGL:R64, ZRQ61, P61, FGN600:FGNTR CBFF FHVP\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "FHOW/ZPFB RAEG:ZNC-4820::WRSSREFBA ZBOVYR NPERF\a" +
+        "(Raq)",
+
+        "PNYY:FGNTR ERD S",
+        "NQQE:14822 WRSSREFBA UJ FR",
+        "ZNQQE:14822 WRSSREFBA UJL FR",
+        "PVGL:ZNEVBA PBHAGL",
+        "HAVG:R64, ZRQ61, P61",
+        "FEP:FGN600",
+        "VASB:FGNTR CBFF FHVP FHOW/ZPFB RAEG / ZNC-4820 / WRSSREFBA ZBOVYR NPERF");
+
+    qbGrfg("G11",
+        "SEZ:Qvfcngpu@pv.jbbqohea.be.hf\a" +
+        "FHOW:!\a" +
+        "ZFT:NYET S:14881 NAQL PG FR, ZNEVBA PBHAGL:P60, ZRQ60, E60, FGN600, F2:52 LBS P/QVSS OERNGU/ NYYRETVP EK:ZNC-4819::\a",
+
+        "PNYY:NYET S",
+        "NQQE:14881 NAQL PG FR",
+        "PVGL:ZNEVBA PBHAGL",
+        "HAVG:P60, ZRQ60, E60, FGN600, F2",
+        "VASB:52 LBS P/QVSS OERNGU/ NYYRETVP EK / ZNC-4819");
+
+    qbGrfg("G12",
+        "1 bs 2\a" +
+        "SEZ:Qvfcngpu@pv.jbbqohea.be.hf\a" +
+        "FHOW:!\a" +
+        "ZFT:OERN CEBOYRZ S:14307 QHPXSYNG EQ FR, ZNEVBA PBHAGL:P60, ZRQ60, E60, E83, FGN600, F2:59LBS\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "P/N/FBO IBZVGGVAT/QVNEEURN:ZNC-4823N::\a" +
+        "(Raq)",
+
+        "PNYY:OERN CEBOYRZ S",
+        "NQQE:14307 QHPXSYNG EQ FR",
+        "PVGL:ZNEVBA PBHAGL",
+        "HAVG:P60, ZRQ60, E60, E83, FGN600, F2",
+        "VASB:59LBS P/N/FBO IBZVGGVAT/QVNEEURN / ZNC-4823N");
+  
   }
   
   @Grfg
