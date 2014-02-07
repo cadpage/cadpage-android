@@ -14,46 +14,30 @@ Fraqre: <911@ep.zg.tbi>
 
 U2N CDEH PDEH; 511 FURNSZNA PE EQ; UNZVYGBA; 57LBS SNYY IVPGVZ; PEBFF FG NCCVNA JNL
 CSQ U2N; 220 R 12GU FG;CVARFQNYR; CBFF PNEOBA ZBABKVQR; PEBFF FG PRZRGREL YC
-vasbezngvba cntr bayl  zrngvat gbavtug ng 7:00 nggraqrapr vf arrqrq
-vasbezngvba cntr bayl  zrngvat gbavtug ng 7:00 nggraqrapr vf arrqrq
 CSQ/PSQ;SHYY PNAPRYYNGVBA GB CVARFQNYR FPUBBY;SHYY PNAPRYYNGVBA
-PSQ;CVARFQNYR FPUBBY;IRUVPYR BA SVER;JNF ZBIVAT JURA VTAVGRQ
 CSQ;CVARFQNYR FPUBBY;IRUVPYR BA SVER;JNF ZBIVAT JURA VTAVGRQ
 pdeh cdeh ; 1075 pureel bepuneq yc; unzvygba; erqvfcngpu gb nynez - 87 lbz snyyra hax vawhevrf
 u2n pdeh cdeh ; 1075 pureel bepuneq yc; unzvygba; shyy pnapryyngvba cre zrqvp nyreg pbzcnal
-pdeh,cdeh, u2n; 1075 pureel bepuneq ybbc; zrqvpny nynez jvgu ab cngvrag pbagnpg
 U2N, PDEH NAQ CSQ; 409 ZVYY PEX EQ; PEBFF FG OBJZNA EQ; 31 LBS, UNIVAT FRVMHERF
 u2 pbeinyyvf deh cvarfqnyr deh; 358 furnszna perrx eq; 64lbs frirer yrt cnva
 cisq vasbezngvba cntr vasbezngvba cntr bayl ybj natyr erfphr genvavat gbavtug ng gur sver unyy ng 7:00
 CDEH; ERFCBAQ GB 426 DHRRAF JNL UNZVYGBA; SBE N 85 LE BYQ SRZNYR HAPBAFPVBHF OERNGUVAT FUNYYBJ
 U2N & PDEH & CSQ;977 ZNEXRG FG;70 LRNE BYQ SRZNYR CBFF URNEG NGGNPX;FRZV-PBAPVBHF
 cqs; pdeh, u2n, 398 ehzzry ynar; unzvygba; 62lbs pbyyncfrq, vf oernguvat; 2aq cntr
-Zrrgvat gbavtug ng 7:00 arrq nyy ibgvat zrzoref
 U2N ; PDEH ; CDEH ; ERFCBAQ GB 926 FURNSZNA PERRX EQ ; SBE N ZNYY PBQR OYNPX ; PEBFF FGERRG OHYY CVAR QE
 PDEH CDEH  U2N;107 INAGNTR YA PEBFF QHGPU UVYY;54 LB ZNYR HAPBAP HANOYR GB FCRNX BE ZBIR
-CDEH;447 FURNSZNA PEX EQ;UNZVYGBA; 74LBS SNYY IVPGVZ; PEBFF FG TBYQRA CBAQ QE; 2AQ CNTR
 CDEH; 447 FURNSZNA PEX EQ;UNZVYGBA; 74LBS SNYY IVPGVZ; PEBFF FG TBYQRA CBAQ QE
 CSQ;506 DHRRAF JNL;83 LBZ YBJ IVGNYF & BA GUR GBVYRG
 CSQ, ERFCBAQ GB 887 OBJZNA EQ, UNZVYGBA SBE N FVATYR IRU G/N HAX VAWHEVRF
-pbeinyyvf qevyy - pbeinyyvf fpubby - fubgf urenq - pbeinyyvf uvtu fpubby - rzretrapl genssvp ba sver 1
-Erzvaqre Npgvir Fubbgre Qevyy Gbqnl.  Jr arrq gb Or Va Pbeinyyvf Ng 1:00. Nyy Gubfr Jub Ner Tbvat Pbagnpg Jrfgba
 PSQ ; CSQ ; ERFCBAQ GB GUR NERN BS 311 ZVYY PERRQ EQ ; SBE N ERCBEG BS N YNETR OHEA CVYR
-cisq vasbezngvba cntr bayl gurer jvyy or na npgvir fubbgre qevyy arkg jrrx jraqfqnl gur 11gu vs lbhe tbvat gb nggraq pnyy jrfgba 546- 5931  vasbezngvba cntr bayl
 cdeh ;987 ybjre zvyy perrx eq unzvygba;72 lb znyr syh yvxr flzcgbzf cnencnyrtvp
-Nalbar Vagrerfgrq va urycvat ohea qbja fbzr fgehpgherf pnyy jrfgba
 ISQ CSQ; 2356 UNZOL YNAR; IVPGBE; PBASEVZRQ FGEHPGHER SVER;
 ISQ, PSQ, CSQ, 2356 UNZOL YNAR; IVPGBE;PBASVEZRQ FGEHPGHER SVER; FUBC
 PDEH;CDEH;U2;729 FURNSZNA PERRX EQ; 68LBZ PURFG CNVA; PEBFF FGERRG ORNEPNG YA
 PDEH CDEH U2N; 743 FURNSZNA PEX EQ; UNZVYGBA; 68LBZ CBFF FGEBXR; PEBFF FG OHYY CVAR QE
 CDEH; 1182 CNYVFNQRF CY;IVPGBE; 73LBZ SRIRE QRYHFVBANY; PEBFF FG XANCJRRQ YA;
-Zrrgvat gbavtug 7:00 Abzvangvbaf jvgu genvavat gb sbyybj
-vasbezngvba cntr bayl gurer vf ab zrngvat gbavtug zrngvat jvyy erfhzr arkg jrrx
 U2;PDEH;CDEH;PSQ; QHGPU UVYY NAQ PUREEL BEPUNEQ YC; GENSSVP NPPVQRAG
 CDEH , ERFCBAQ GB 398 EHZZRY YNAR - UNZVYGBA; 67 LE BYQ ZNYR JVGU CBFFVOYR URNEG NGGNPX
-Genvaavat Gbavtug 7:00
-Npgvir Fubbgre GENVAAVAT Gbqnl.  Zrrg Ng Gur Sver UNyy Ng 12:15 Gb Or Va Pbeinyyvf Fgngvba 1 Ol 12:45
-Grfg Grfg cntr bayl
-Gurer jvyy or na npgvir Fubbgre GENVAAVAT guvf jrqarfqnl ng 2:00 Va Pbeinyyvf vs lbh ner vagrerfgrq pnyy Jrfgba
 U2 ; PDEH ;  CDEH ; PSQ ; ERFCBAQ GB HF UVTUJNL 93 NAQ JBBQFVQR ; SBE N 4-5 IRU ZIN HAX VAW
 
 
@@ -152,18 +136,37 @@ Ntrapl anzr: Eninyyv Pbhagl
 Ybpngvba: Unzvygba, ZG, Havgrq Fgngrf
 Fraqre: <911@ep.zg.tbi>
 
-QRF1; ZRTN YBNQ VF RAEBHGR ABEGU SEBZ ZZ24
 3 ZVYR SVER QRF ; 517 TENAQIVRJ QE PEBFF FG RNFGFVQR UVTUJNL; TNF BQBE
 QRF;ERQRB EQ & JVYQYVSR JNL;TNF EHCGHER - OYBJVAT TNF
-QRF OR NQIVFRQ N IRUVPYR JRAG VAGB GUR EVIRE NG ZZ 20 BA UJL 93
 FSQ ; QRF ; ERFCBAQ GB 4013 FGRIRAFIVYYR EVIRE EQ ; SBE N IRUVPYR GUNG EBYYRQ VAGB GUR EVIRE
 USQ & U2N;210 F 8GU FG ;TNF BQBE VAFVQR OHVYQVAT
 QRF;4072 RNFGFVQR UJL;TNF BQBE VAFVQR N OHVYQVAT;FRIRENY HAVGF;NAGVDHR ZNYY
 QRF1 QB LBH UNIR GUR RBP BCRA
-pbeinyyvf qevyy - pbeinyyvf fpubby - fubgf urenq - pbeinyyvf uvtu fpubby - rzretrapl genssvp ba sver 1
 QRF ; ERFCBAQ GB GUR FBHGU RAQ BS JNGRE FGERRG VA QNEOL ; SBE N ERCBEG BS SYBBQVAT
-GRFG BAYL 303 pnyy bssvpr cyrnfr
 QRF;ZPIRL EQ & CYRNFNAG IVRJ;ULQEBYVP SYHVQ BA EBNQJNL;SEBZ GENSSVP NPPVQRAG
+
+** ABGRF **
+Bcrengbe ragrerq cntrf :(
+Gurl ner cerggl pbafvfgrag nobhg fgvpxvat gb n fgnaqneq, ohg gur bppnfvbany
+aba-fgnaqneq cntr jvyy guebj rirelguvat bss.
+
+Guvf vf jung V pnzr jvgu, srry serr gb vzcebir ba vg nf arrqrq
+
+Cebtenz fgevat 
+HAVG HAVG2+? NQQE/F PVGL? K+? PNYY K+? VASB+
+
+Perngr n [,;] cnggrea naq hfr vg gb fcyvg gur grkg, gung pnyy cnefrSvryqf() jvgu erfhyg.
+
+HAVG2 cvpxf hc frpbaqnel havg qrfvtangvba.  Tvir vg n inyvqngvba cnggrea gung zngpurf 
+nal frdhrapr bs hccre be ybjre pnfr yrggref naq ahzoref.
+
+Bireevqr NQQE svryq, nqq inyvngvba cnggrea "ERFCBAQ GB +(.*)", snyfr
+
+Bireevqr K svryq nqq inyvqngvba svryq fbzrguvat yvxr "(?:PEBFF FG|PEBFF FGERRG|KFGERRG) +(.*)", gehr
+
+
+Ohvyq n pvgl yvfg sebz Jvxvcrqvn naq cnff vg gb gur pbafgehpgbe
+
 */
 
 choyvp pynff ZGEninyyvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
