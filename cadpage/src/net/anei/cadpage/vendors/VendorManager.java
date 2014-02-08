@@ -456,6 +456,18 @@ public class VendorManager {
     if (vendor == null) return;
     vendor.publishAccountInfo(context);
   }
+
+  /**
+   * Perform and vendor specific location code conversions
+   * @param vendorCode vendor code
+   * @param location received location code
+   * @return converted location code
+   */
+  public String convertLocationCode(String vendorCode, String location) {
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor != null) location = vendor.convertLocationCode(location);
+    return location;
+  }
   
   /**
    * Find vendor with matching vendor code

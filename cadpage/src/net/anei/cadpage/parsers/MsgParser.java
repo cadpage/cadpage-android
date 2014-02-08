@@ -1068,7 +1068,7 @@ public abstract class MsgParser {
   * as a key/value pair to be inserted into the code table
   * @return resulting code table
   */
- protected static Properties buildCodeTable(String[] table) {
+ public static Properties buildCodeTable(String[] table) {
    Properties props = new Properties();
    for (int ndx = 0; ndx < table.length-1; ndx+=2) {
      props.put(table[ndx], table[ndx+1]);

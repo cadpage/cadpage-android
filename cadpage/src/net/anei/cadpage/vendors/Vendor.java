@@ -585,6 +585,15 @@ abstract class Vendor {
   }
 
   /**
+   * Perform any vendor specific location code conversions
+   * @param location location code
+   * @return new location code
+   */
+  String convertLocationCode(String location) {
+    return location;
+  }
+
+  /**
    * Report enabled status change to all interested parties
    */
   private void reportStatusChange() {

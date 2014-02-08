@@ -2,10 +2,12 @@ package net.anei.cadpage.vendors;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Properties;
 import java.util.Set;
 
 import android.net.Uri;
 import net.anei.cadpage.R;
+import net.anei.cadpage.parsers.MsgParser;
 
 class Active911Vendor extends Vendor {
   
@@ -62,6 +64,19 @@ class Active911Vendor extends Vendor {
     return PHONE_SET.contains(address);
   }
   
+  @Override
+  String convertLocationCode(String location) {
+    StringBuilder sb = new StringBuilder();
+    for (String loc : location.split(",")) {
+      loc = loc.trim();
+      String tmp = POLY_CODE_TABLE.getProperty(loc);
+      if (tmp != null) loc = tmp;
+      if (sb.length() > 0) sb.append(',');
+      sb.append(loc);
+    }
+    return sb.toString();
+  }
+
   private static final Set<String> PHONE_SET = new HashSet<String>(Arrays.asList(new String[]{
       "15123376259",
       "19145173586",
@@ -114,4 +129,9 @@ class Active911Vendor extends Vendor {
       "19134989068",
       "19783931289"
   }));
+  
+  private static Properties POLY_CODE_TABLE = MsgParser.buildCodeTable(new String[]{
+      "US/OR/Benton",             "ORBentonCounty",
+      "Utility/General/Default",  "General"
+  });
 }
