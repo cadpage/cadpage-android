@@ -1850,7 +1850,7 @@ Arpith Roongta (arpithroongta@gmail.com) (arpithroongta@yahoo.com) // PayPal 1-2
 
 //Sponsored Districts start here
 
-%2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending) did not respond to email
+%2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment not received?) did not respond to email
 %%03/18/2012
 Tim Smith (2692095808)
 Jeff Bammer (2692093429)
@@ -1894,7 +1894,7 @@ Marshall Bouton (8457502230)
 Brianna Wickman (8455143189)
 Matthew Wickman (8455143187)
 
-%2012/Bloomington Fire Dept // (payment pending)
+%2012/Bloomington Fire Dept // (payment not received?)
 %%05/12/2012
 Ulie Seal (9522926609)
 Jay Forster (9522928336)
@@ -2088,10 +2088,15 @@ Matt Wiggins		(2529034393)
 Adam Spivey		(2528135040) // added
 Derrick Whitaker    (2524523987) // added 1-21-14
 
-%2014/Tavares // Richard Keith <rkeith@tavares.org> Fire Chief Tavares, FL 352-742-6391
-%%01/30/2014
+%2014/Tavares // Richard Keith <rkeith@tavares.org> Fire Chief Tavares, FL 352-742-6391 PAYMENT PENDING $49
+%%02/07/2014
 company officer one (3525166467)
 company officer two (3525160035)
+co three (3525160093)
+co four (3526021569)
+co five (3526021864)
+co six (3525161180)
+co seven (3525164876)
 
 // Sponsored Districts
 // TXManvel - John Aucoin <johnaucoin@sbcglobal.net> - 09/10/2012
@@ -2678,6 +2683,9 @@ lori domiano (jdomiano471@gmail.com) (ldomiano@gmail.com) // PayPal
 Melissa Brock <emsbch@gmail.com> // Surry County, VA
 %%02/06/2014
 Earl Simmons (esimmons1241@gmail.com)  // paid by check 3674 VA
+%%02/07/2014
+Cameron Bates (Cameron.bates@clantonpd.org ) (cameronbates@bellsouth.net) // PayPal
+James Johnson (johnson1937@charter.net) // PayPal
 
 // *** Insert Paid Users here ***
 
@@ -6565,6 +6573,22 @@ Erica Cheezum <sfccjc85@gmail.com>
 ramal45 (dls101881@gmail.com) <ramal45@yahoo.com>
 alexszkotak <alexszkotak@gmail.com>
 Natalia Chiemi <joyflgrl21@gmail.com>
+%%02/06/2014
+Codi Foley <codiff12@gmail.com>
+dsnt99@aol.com (dsnt99@gmail.com) <dsnt99@aol.com>
+Kyle Bruno <kbruno2013@gmail.com>
+Jared Farkas <farkasj16@yahoo.com>
+L.storey (rdps.rn@gmail.com) <tstorey98@yahoo.com>
+Elijah Caldarola (caldarola53@gmail.com) <upper90015@verizon.net>
+Corey McKenna <mckennacoreypatric@gmail.com>
+%%02/07/2014
+Nick Wummer (railer5516@gmail.com) <nickwummer5516@gmail.com>
+Jake (jaketheotter@gmail.com) <jaketheotter@yahoo.com>
+Justin Ritchey <cvfdfirechief2013@gmail.com>
+Trent Forward (hamlakefirepager@gmail.com) <sunsetexteriors@hotmail.com>
+
+
+
 
 
 
