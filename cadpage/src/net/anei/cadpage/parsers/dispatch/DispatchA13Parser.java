@@ -100,9 +100,16 @@ public class DispatchA13Parser extends FieldProgramParser {
         sPart1 = stripApt(sPart1.substring(1).trim(), data);
         int pt = sPart1.lastIndexOf(',');
         if (pt >= 0) {
-          data.strPlace = sPart1.substring(0,pt).trim();
-          parseAddress(sPart1.substring(pt+1).trim(), data);
-        } else {
+          String place = sPart1.substring(0,pt).trim();
+          String addr = sPart1.substring(pt+1).trim();
+          if (checkAddress(addr) > 0) {
+            data.strPlace = place;
+            parseAddress(addr, data);
+          } else {
+            pt = -1;
+          }
+        }
+        if (pt < 0) {
           data.strPlace = sPart1;
           if (sPart3.length() == 0 && sPart4.length() > 0 && checkAddress(sPart4) > checkAddress(sPart2)) {
             data.strPlace = data.strPlace + '(' + sPart2 + ')';
