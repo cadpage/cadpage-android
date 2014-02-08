@@ -278,6 +278,12 @@ Fraqre: <Qvfcngpu@pv.jbbqohea.be.hf>
 (!) PNEQ S:1321 YVGGYROVG PG, FVYIREGBA::ZNC-3132P::Q411, F423, ZRQ24, FISFGNSS, FGN400, A7:21 HAP/HAX OERNGU/ PBYQ:
 (!) GENH S:325 RQTRJBBQ QE, FVYIREGBA::ZNC-3030Q:A7:Q411, F423, ZRQ24, FGN410, A7:91 LBZ P/N/O  YNPRENGVBA  JVGU N TYS:
 
+Pbagnpg: Senax Rueznagenhg <senaxrueznagenhg@tznvy.pbz>
+Fraqre: Qvfcngpu@pv.jbbqohea.be.hf
+FHOW:!\aZFT:FVPX S:510 PBYHZOVN FG, WRSSREFBA:P60, ZRQ60, E60, FGN600, F2:90LBZ P/O/N QVNO/ONQ VASRP BA YRT:ZNC-5020P::\a
+SEZ:Qvfcngpu@pv.jbbqohea.be.hf\aFHOW:!\aZFT:HAP S:4888 FUNQR GERR YA FR, ZNEVBA PBHAGL:P60, ZRQ60, E60, E83, FGN600, F2:54 LBS VA FRVMHER:ZNC-4722:F2:\a
+SEZ:Qvfcngpu@pv.jbbqohea.be.hf\aFHOW:!\aZFT:FVPX S:1864 BNX FG FR, ZNEVBA PBHAGL:ZRQ61, E60, P61, FGN600, F2:78 LBS P/O/N CBFF OYBBQ PYBG:ZNC-4919::\a
+
 */
 
 choyvp pynff BEZnevbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -2060,6 +2066,41 @@ choyvp pynff BEZnevbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:Q411, F423, ZRQ24, FGN410, A7",
         "VASB:91 LBZ P/N/O  YNPRENGVBA  JVGU N TYS");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgSenaxRueznagenhg() {
+
+    qbGrfg("G1",
+        "FHOW:!\aZFT:FVPX S:510 PBYHZOVN FG, WRSSREFBA:P60, ZRQ60, E60, FGN600, F2:90LBZ P/O/N QVNO/ONQ VASRP BA YRT:ZNC-5020P::\a",
+        "PNYY:FVPX S",
+        "NQQE:510 PBYHZOVN FG",
+        "PVGL:WRSSREFBA",
+        "HAVG:P60, ZRQ60, E60, FGN600, F2",
+        "VASB:90LBZ P/O/N QVNO/ONQ VASRP BA YRT / ZNC-5020P");
+
+    qbGrfg("G2",
+        "SEZ:Qvfcngpu@pv.jbbqohea.be.hf\a" +
+        "FHOW:!\a" +
+        "ZFT:HAP S:4888 FUNQR GERR YA FR, ZNEVBA PBHAGL:P60, ZRQ60, E60, E83, FGN600, F2:54 LBS VA FRVMHER:ZNC-4722:F2:\a",
+
+        "PNYY:HAP S",
+        "NQQE:4888 FUNQR GERR YA FR",
+        "PVGL:ZNEVBA PBHAGL",
+        "HAVG:P60, ZRQ60, E60, E83, FGN600, F2",
+        "VASB:54 LBS VA FRVMHER / ZNC-4722 / F2");
+
+    qbGrfg("G3",
+        "SEZ:Qvfcngpu@pv.jbbqohea.be.hf\a" +
+        "FHOW:!\a" +
+        "ZFT:FVPX S:1864 BNX FG FR, ZNEVBA PBHAGL:ZRQ61, E60, P61, FGN600, F2:78 LBS P/O/N CBFF OYBBQ PYBG:ZNC-4919::\a",
+
+        "PNYY:FVPX S",
+        "NQQE:1864 BNX FG FR",
+        "PVGL:ZNEVBA PBHAGL",
+        "HAVG:ZRQ61, E60, P61, FGN600, F2",
+        "VASB:78 LBS P/O/N CBFF OYBBQ PYBG / ZNC-4919");
+  
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

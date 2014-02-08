@@ -9,6 +9,14 @@ choyvp pynff ZrffntrGrfg {
   @Grfg
   choyvp ibvq grfgCnefrVasb() {
     
+    qbCnefrGrfg("BEZnevbaPbhaglN",
+        "xra@pnqcntr.bet",
+        "",
+        "FHOW:!\aZFT:FVPX S:510 PBYHZOVN FG, WRSSREFBA:P60, ZRQ60, E60, FGN600, F2:90LBZ P/O/N QVNO/ONQ VASRP BA YRT:ZNC-5020P::\a",
+        "xra@pnqcntr.bet",
+        "!",
+        "FVPX S:510 PBYHZOVN FG, WRSSREFBA:P60, ZRQ60, E60, FGN600, F2:90LBZ P/O/N QVNO/ONQ VASRP BA YRT:ZNC-5020P::\a");
+    
     qbCnefrGrfg("ALZnqvfbaPbhaglO",
         "xra@pnqcntr.bet",
         "",

@@ -125,6 +125,9 @@ public class Message {
     Pattern.compile("^Fr:<(.*?)>?\nSu:(.*?)\nTxt: "),
     Pattern.compile("^prvs=[0-9a-f]{8,}=[\\w .<>@]*<([\\w.\\-]+@[\\w.]+)> *\\((.*?)\\)")
   };
+  private static final Pattern[] S_M_PATTERNS = new Pattern[]{
+    Pattern.compile("^SUBJ: *(.*)\nMSG:")
+  };
   
   private void preParse(String fromAddress, String subject, String body, boolean insBlank, boolean keepLeadBreak) {
     
@@ -349,6 +352,22 @@ public class Message {
         String from = match.group(1);
         if (from != null) parseAddress = from.trim();
         String sub = match.group(2);
+        if (sub != null) addSubject(sub.trim());
+        body = trimLead(body.substring(match.end()), keepLeadBreak);
+        break;
+      }
+      
+      /* Decode patterns that contain an subject and message
+       */
+      found = false;
+      for (Pattern ptn : S_M_PATTERNS) {
+        match = ptn.matcher(body);
+        found = match.find();
+        if (found) break;
+      }
+      
+      if (found) {
+        String sub = match.group(1);
         if (sub != null) addSubject(sub.trim());
         body = trimLead(body.substring(match.end()), keepLeadBreak);
         break;
