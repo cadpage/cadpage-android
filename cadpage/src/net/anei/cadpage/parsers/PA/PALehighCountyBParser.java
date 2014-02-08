@@ -10,7 +10,7 @@ public class PALehighCountyBParser extends FieldProgramParser {
   
   public PALehighCountyBParser() {
     super("LEHIGH COUNTY", "PA",
-          "CALL ADDR APT! INFO+");
+          "CALL ADDR CITY APT! INFO+? ID");
   }
   
   @Override
@@ -23,5 +23,11 @@ public class PALehighCountyBParser extends FieldProgramParser {
     if (!body.startsWith("RC:")) return false;
     body = body.substring(3).trim();
     return parseFields(body.split("/", -1), data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("Run# *(\\d*)", true);
+    return super.getField(name);
   }
 }

@@ -77,6 +77,13 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 Pbagnpg: Enaql Fpuzblre <nffgpuvrs2404@tznvy.pbz>
 1 bs 2\aSEZ:911@yruvtupbhagl.bet\aZFT:FG2400 GLC: NYNEZ-SVER-UVTU EVFR NQ: 425 XHAGM FG PGL: FYNGVATGBA YBP: TRBETR QVYYVNEQ ZNABE PA: BCRE # 3652\a(Pba'g) 2 bs 2\aPZG1: **SVER NYNEZ - UVTU EVFR PZG2: CERZVFR CUBAR:(Raq)
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: QrFnyrf Havirefvgl RZF
+Ybpngvba: Pragre Inyyrl, CN, Havgrq Fgngrf
+Fraqre: <911@yruvtupbhagl.bet>
+
+FG7400 GLC: SNYY-ABG QNATREBHF NQ: 2755 FGNGVBA NI PGL: HCCRE FNHPBA YBP: QRFNYRF QBBYVAT UNYY PA: FNZ TNYYNA PZG1: **NYCUN SNYY IVPGVZ - ABG QNATREBHF OBQL NERN PZG2: SRZNYR SRYY 43 LRNE BYQ SRZNYR PBAFPVBHF OERNGUVAT SNYYF ABG QNATRE GVZR: 20:52 HAGF: SQ/DE7491 KFG: 6627 UNL FG KFG2: 6497 YNAQVF ZVYY EQ
+
 */
 
 choyvp pynff CNYruvtuPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -511,7 +518,26 @@ choyvp pynff CNYruvtuPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:CERZVFR CUBAR:");
 
   }
-  
+
+  @Grfg
+  choyvp ibvq grfgQrFnyrfHavirefvglRZF() {
+
+    qbGrfg("G1",
+        "FG7400 GLC: SNYY-ABG QNATREBHF NQ: 2755 FGNGVBA NI PGL: HCCRE FNHPBA YBP: QRFNYRF QBBYVAT UNYY PA: FNZ TNYYNA PZG1: **NYCUN SNYY IVPGVZ - ABG QNATREBHF OBQL NERN PZG2: SRZNYR SRYY 43 LRNE BYQ SRZNYR PBAFPVBHF OERNGUVAT SNYYF ABG QNATRE GVZR: 20:52 HAGF: SQ/DE7491 KFG: 6627 UNL FG KFG2: 6497 YNAQVF ZVYY EQ",
+        "FEP:FG7400",
+        "PNYY:NYCUN SNYY IVPGVZ - ABG QNATREBHF OBQL NERN",
+        "NQQE:2755 FGNGVBA NI",
+        "ZNQQE:2755 FGNGVBA NIR",
+        "PVGL:HCCRE FNHPBA GJC",
+        "CYNPR:QRFNYRF QBBYVAT UNYY",
+        "ANZR:FNZ TNYYNA",
+        "VASB:SRZNYR SRYY 43 LRNE BYQ SRZNYR PBAFPVBHF OERNGUVAT SNYYF ABG QNATRE",
+        "GVZR:20:52",
+        "HAVG:DE7491",
+        "K:6627 UNL FG & 6497 YNAQVF ZVYY EQ");
+
+  }
+ 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj CNYruvtuPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }
