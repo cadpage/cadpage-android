@@ -973,6 +973,7 @@ public class ManagePreferences {
         R.string.pref_split_chk_sender_key,
         R.string.pref_split_keep_lead_break_key,
         R.string.pref_suppress_dup_msg_key,
+        R.string.pref_override_vendor_loc_key,
         R.string.pref_activate_scanner_key,
         R.string.pref_scanner_channel_key,
         R.string.pref_scanner_channel_app_node_key,
