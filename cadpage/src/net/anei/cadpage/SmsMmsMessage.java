@@ -494,7 +494,7 @@ public class SmsMmsMessage implements Serializable {
     // If specific location was requested with a C2DM message, use it to get
     // a parser.  This is one of the only times we will ignore a bad location
     // code
-    if (reqLocation != null) {
+    if (reqLocation != null && !ManagePreferences.overrideVendorLoc()) {
       try {
         parser = ManageParsers.getInstance().getParser(reqLocation);
         location = reqLocation;

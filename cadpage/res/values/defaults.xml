@@ -43,9 +43,10 @@
    <string name="pref_split_chk_sender_default">true</string>
    <string name="pref_split_keep_lead_break_default">false</string>
    <string name="pref_suppress_dup_msg_default">true</string>
+   <string name="pref_override_vendor_loc_default">false</string>
    <string name="pref_activate_scanner_default">false</string>
    <string name="pref_publish_pages_default">false</string>
    <string name="pref_history_limit_default">10</string>
    <string name="pref_passthrusms_default">false</string>
-<string name="pref_textsize_default">14</string>
+   <string name="pref_textsize_default">14</string>
 </resources>

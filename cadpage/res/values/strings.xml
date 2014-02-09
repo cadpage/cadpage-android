@@ -343,6 +343,10 @@
   <string name="pref_suppress_dup_msg_summaryon">Duplicate calls will be suppressed</string>
   <string name="pref_suppress_dup_msg_summaryoff">Duplicate calls will be processed</string>
 
+  <string name="pref_override_vendor_loc_title">Override Vendor Location</string>
+  <string name="pref_override_vendor_loc_summaryon">Location setting overrides vendor location</string>
+  <string name="pref_override_vendor_loc_summaryoff">Vendor location overrides your location setting</string>
+  
   <string name="pref_activate_scanner_title">Auto Open Scanner Channel</string>
   <string name="pref_activate_scanner_summaryon">Scanner channel will be auto opened</string>
   <string name="pref_activate_scanner_summaryoff">Scanner channel will not be auto opened</string>

@@ -30,7 +30,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 29;
+  private static final int PREFERENCE_VERSION = 30;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -285,6 +285,10 @@ public class ManagePreferences {
   
   public static boolean suppressDupMsg() {
     return prefs.getBoolean(R.string.pref_suppress_dup_msg_key);
+  }
+  
+  public static boolean overrideVendorLoc() {
+    return prefs.getBoolean(R.string.pref_override_vendor_loc_key);
   }
   
   public static boolean activeScanner() {
