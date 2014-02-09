@@ -1,37 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02032014</string>
-  <string name="release_version">v1.7.06</string>
+  <string name="release_date">02092014</string>
+  <string name="release_version">v1.7.07</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-If you are running both the Cadpage and Active911 apps on the same device, you
-may have found that pages stopped coming to Cadpage after upgrading to the latest
-version of Active911.  You can fix this by unregistering and re-registering
-Cadpage with the Active911 servers.\n
-\n      
 New Locations:\n
-Hayward County, CA\n
-South Lake Tahoe, CA\n
-Hendry County, FL\n
-Monett, MO\n
-Park County, MT\n
-Nassau County, NY (alt)\n
-Sundry County, VA\n
+Rocklin, CA\n
+Tillamook County, OR\n
+Bay County, FL\n
+Chatham County, GA\n
+Pettis County, MO\n
+Terrebone Parrish, LA\n
+Washington County, NY\n
+Leon County, TX (alt)\n
 \n
 Location Parsing Fixes:\n
-Santa Cruz County, CA\n
-Polk County, IA\n
-Louisville, KY\n
-Ingham County, MI\n
-Livingston County, MI\n
-Hanover County, NC\n
-Lake County, OH\n
+Dothan, AL\n
+San Diego County, CA\n
+Sonoma County, CA\n
+Porter County, IN\n
+Columbia County, NY\n
+Madison County, NY\n
+St Lawrence County, NY\n
 Benton County, OR\n
-Clearfield County, PA\n
+Marion County, OR\n
 Crawford County, PA\n
-Carroll County, VA\n
-Loudoun County, VA\n
+Lehigh County, PA\n
+Snyder County, PA\n
+Lincoln County, SD\n
+Prince George County, VA\n
   </string>
 </resources>
   
