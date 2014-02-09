@@ -457,6 +457,7 @@ public class ParserList {
               ,"MOMonett"                       ,"Monett, MO"
               ,"MONewtonCounty"                 ,"Newton County, MO"
               ,"MOOsageCounty"                  ,"Osage County, MO"
+              ,"MOPettisCounty"                 ,"Pettis County, MO"
               ,"MOPhelpsCounty"                 ,"Phelps County, MO"
               ,"MOPolkCounty"                   ,"Polk County, MO"
               ,"MOPulaskiCounty"                ,"Pulaski County, MO"

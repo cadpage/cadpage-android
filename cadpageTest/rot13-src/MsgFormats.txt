@@ -3342,6 +3342,11 @@ GLYRE ORFG;20:36:13; F VATENZ & CVAR; JRNCBA-FUBGF SVERQ
 ;14:0:31; R ZNYBAR & RYZ; NPPVQRAG-W2
 293;22:48:41; R PEBJQRE; SVER-BHG BS GBJA
 ****************************************************************************
+Crggvf Pbhagl, ZB (ZBCrggvfPbhaglCnefre)
+CRGGVF PB FUREVSS: Erfcbaq gb ZpPheql Ebnq nccebkvzngryl 1 zvyr abegu bs Cnexre Ebnq sbe n oehfu sver
+CRGGVF PB FUREVSS: CPSQ erfcbaq 11625 Ujl M sbe fgehpgher sver-ebbs bs ubzr ba sver. Fhowrpgf rinphngvat ubzr abj.
+CRGGVF PB FUREVSS: CPSQ erfcbaq sbe n oehfu sver ng 29726 Ujl UU
+****************************************************************************
 Chynfxv Pbhagl, ZB (ZBChynfxvPbhaglCnefre)
 FGEHPGHER SVER ERFVQRAGVNY  11280 ONGGYR YA  CHYNFXV PBHAGL PebffFgerrgf: Uvtujnl 17 0.42 zv J PSQ1 QSQ2 Z23 GPSQ1 QSQ2 1553 1552 1562 1560 1351 1501 CPFQ1 ERFPHR ZVYYRE G1 JESQ1 FESQ1 1902 1361 1952 G2 1650 USQ1 Pnyy Erprvirq Gvzr: 12/6/2010 20:46:54 Qvfcngpu: 12/6/2010 21:50:29
 FGEHPGHER SVER ERFVQRAGVNY  27465 FVATYR QE HAVG CHYNFXV PBHAGL PebffFgerrgf: Uvtujnl NN 0.30 zv A USQ1 Pnyy Erprvirq Gvzr: 12/13/2010 5:05:49 Qvfcngpu: 12/13/2010 5:07:30
@@ -7299,17 +7304,6 @@ Fraqre: PynexrRPP@pynexrpbhagl.tbi
 PynexrRPP:684 PNYZRF ARPX YA OBLPR, SBK JBBQF YA K EHAAVAT ORNE YA, 16:59:14, NYF YRIRY P, PNAPRE CNGVRAG,QVSSVPHYGL OERNGUVAT\a
 PynexrRPP:PSF: 2014000584, Havg: ZN EPB 6, Fgnghf: ER-QVFCNGPURQ, Abgr: ER-GBARQ
 **********************************************************
-Crggvf Pbhagl, ZB
-Pbagnpg: zppbl pbagenpgvat freivpr <zppblpbagenpgvatfreivpr@tznvy.pbz>
-Fraqre: 888777
-CRGGVF PB FUREVSS: Erfcbaq gb ZpPheql Ebnq nccebkvzngryl 1 zvyr abegu bs Cnexre Ebnq sbe n oehfu sver
-CRGGVF PB FUREVSS: CPSQ erfcbaq 11625 Ujl M sbe fgehpgher sver-ebbs bs ubzr ba sver. Fhowrpgf rinphngvat ubzr abj.
-CRGGVF PB FUREVSS: CPSQ erfcbaq sbe n oehfu sver ng 29726 Ujl UU
-CRGGVF PB FUREVSS: svryq sver pybfr gb n ubhfr36810 ebq & tha pyho ebnq jjj.avkyr.hf/8OGJ3
-CRGGVF PB FUREVSS: Fbhguobhaq HF 65/Abegu bs Prqne PerrxGenpgbe genvyre sevt havg fzbxvat - fgbccrq va gur qevivat ynar bs gur ujl
-CRGGVF PB FUREVSS: 22179 Jrfgzberynaq Ebnq. EC oryvrirf fur fzryyf ryrpgevpny sver ortvaavat.
-CRGGVF PB FUREVSS: ercbeg bs zhygv iruvpyr nppvqrag abegu ujl 65 @ ujl Q & ujl W - ZFUC, CPNQ raebhgr
-CRGGVF PB FUREVSS: ERQ SYNT-SVER JRNGURE JNEAVAT va rssrpg 9n-6C Sev. Jvaqf, ybj uhzvqvgl & 30-40 grzcf jvyy perngr jvyqsver qnatref. jjj.avkyr.hf/8P28M
 **********************************************************
 **********************************************************
 **********************************************************
