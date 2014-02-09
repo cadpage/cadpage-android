@@ -69,6 +69,10 @@ Ybpngvba: Qbguna, NY, Havgrq Fgngrf
 19:02:38/F38O-Zrqvpny Pnyy-Pbqr VVV-Rzretl/210 A FNVAG NAQERJF FG/QBGUNA/PEVZVANY WHFGVPR OHVYQVAT/15439268/33 LBS VAZNGR P/C PC/
 18:18:51/F38O-Zrqvpny Pnyy-Pbqr VVV-Rzretl/1106 A PUREEL FG/QBGUNA/15934682/81 LBZ -- QRP YBP -- HANOYR GB FGNAQ -- JRNXARFF --/
 
+Pbagnpg: pbuzf2 <pbuzf2@tznvy.pbz>
+Fraqre: 777802230001
+PVGL BS QBGUNA 13:12:34/F38N-Zrqvpny Pnyy-Pbqr VVV Pevg-Rzt/901 QBTJBBQ GEY/QBGUNA/14253869/82LBS HAFERFCFBAIR -- FUNYYBJ OERNGUVAT/ fgbc
+
 */
 
 choyvp pynff NYQbgunaCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -538,6 +542,20 @@ choyvp pynff NYQbgunaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:15934682",
         "VASB:81 LBZ -- QRP YBP -- HANOYR GB FGNAQ -- JRNXARFF --");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgPbuzf2() {
+
+    qbGrfg("G1",
+        "PVGL BS QBGUNA 13:12:34/F38N-Zrqvpny Pnyy-Pbqr VVV Pevg-Rzt/901 QBTJBBQ GEY/QBGUNA/14253869/82LBS HAFERFCFBAIR -- FUNYYBJ OERNGUVAT/ fgbc",
+        "GVZR:13:12:34",
+        "PNYY:F38N-Zrqvpny Pnyy-Pbqr VVV Pevg-Rzt",
+        "NQQE:901 QBTJBBQ GEY",
+        "PVGL:QBGUNA",
+        "VQ:14253869",
+        "VASB:82LBS HAFERFCFBAIR -- FUNYYBJ OERNGUVAT / fgbc");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
