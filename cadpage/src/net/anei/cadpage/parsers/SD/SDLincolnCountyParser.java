@@ -32,7 +32,7 @@ public class SDLincolnCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "no-reply@ledsportal.com";
+    return "no-reply@ledsportal.com,leds@lincolncountysd.org";
   }
   
   @Override
