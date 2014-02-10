@@ -137,7 +137,7 @@ choyvp pynff BUJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "(PNQ Cntr) FDHNQ - 78 LBN SRZNYR UNF ORRA VYY, VF ABJ CNFFVAT BHG\a   \a395 JLAAPERFG QE \a   \a12/3/2013    \a16:12:00\a\aJESQ",
         "PNYY:FDHNQ - 78 LBN SRZNYR UNF ORRA VYY, VF ABJ CNFFVAT BHG",
-        "NQQE:395 JLAAPERFG QE",  // Erbvegrq nf Tbbtyr zncvat ceboyrz
+        "NQQE:395 JLAAPERFG QE",  // Erbcbegrq nf Tbbtyr zncvat ceboyrz
         "QNGR:12/3/2013",
         "GVZR:16:12:00",
         "FEP:JESQ");

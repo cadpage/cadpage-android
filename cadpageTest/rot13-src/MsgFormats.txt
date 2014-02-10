@@ -113,6 +113,7 @@ Npgvir911 gvpxrgf
 2014011410000669  GKYrbaPbhaglO qbar
 2014012110000057  SYOnlPbhagl qbar
 2014011910000212  TNPungunzPbhagl qbar
+2014012110000039  ZARqvan qbar
 *******************************************************************************
 Revr Pbhagl (O), AL
 OAA Nyregf
@@ -7720,25 +7721,6 @@ EhaGvzrf:\aHavg        Fgnghf    Gvzr\a-----------------------------------------
 **********************************************************
 **********************************************************
 **********************************************************
-2014012110000039 (Cngevpx)
-Nfx Npgvir911 nobhg pvgl pbqrf
-Rqvan, ZA
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Tbyqra Inyyrl Sver Qrcnegzrag
-Ybpngvba: Tbyqra Inyyrl, ZA, Havgrq Fgngrf
-Fraqre: <PNQ@pv.rqvan.za.hf>
-
-PNQ:SLV: ;6543 TBYQRA INYYRL EQ;TI;TI-SVER-IRUVPYR;TIF1;SYBEVQN NI A;UNZCFUVER NI A
-PNQ:Hcqngr: ;251 LBFRZVGR PVE A;TI;TI-SVER-NYNEZ;TIF2;YBEVAT YA;LBFRZVGR NI A
-PNQ:SLV: ;251 LBFRZVGR PVE;TI;TI-SVER-NYNEZ;TIF2
-PNQ:SLV: ;4309 ORIREYL NI;TI;TI-SVER-NYNEZ;TIF2;NEQZBER QE;JRFGJBBQ QE A
-PNQ:Hcqngr: ;7505-109 PBHAGEL PYHO QE;TI;TI-ZRQVPNY;TIF1;CRAAFLYINAVN NI A;EUBQR VFYNAQ NI A
-PNQ:SLV: ;7505 PBHAGEL PYHO QE;TI;TI-ZRQVPNY;TIF1;CRAAFLYINAVN NI A;EUBQR VFYNAQ NI A
-PNQ:SLV: ;251 LBFRZVGR PVE A;TI;TI-SVER-NYNEZ;TIF2;YBEVAT YA;LBFRZVGR NI A
-PNQ:SLV: ;1375 FXLYVAR QE;TI;TI-ZRQVPNY;TIF3
-PNQ:SLV: ;7505-306 PBHAGEL PYHO QE;TI;TI-ZRQVPNY;TIF1;CRAAFLYINAVN NI A;EUBQR VFYNAQ NI A
-PNQ:Hcqngr: ;5725 QHYHGU FG;TI;TI-SVER-NYNEZ;TIF3;YVYNP QE A;NQNVE NI A
 **********************************************************
 2014012110000048 (Wnpxfba)
 Frzvabyr Pbhagl,SY
