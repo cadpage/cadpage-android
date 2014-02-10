@@ -64,6 +64,12 @@ public class ORBentonCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public String adjustMapCity(String city) {
+    if (city.equalsIgnoreCase("KINGS VAL")) city = "PHILOMATH";
+    return city;
+  }
+
+  @Override
   protected String adjustGpsLookupAddress(String address, String apt) {
     address = address.toUpperCase();
     if (address.contains(" MP ")) {

@@ -267,6 +267,9 @@ Fraqre: "Pbeinyyvf Nyregf" <nyregf@pbeinyyvf.rnyregtbi.pbz>
 (Pbeinyyvf Nyreg) VAP:VAWHEL ZIN\aNQQ:XVATF INYYRL UJL naq ZC 30\aNCG:\aPVGL:CUVYBZNGU\aK:XVATF INYYRL UJL\aZNC:615-435\aPSF:121213-110\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:ORAGBA PB FB\aQVF:CUVYBZNGU SVER\aQVF:PBEINYYVF NZO 2-4-3
 (Pbeinyyvf Nyreg) VAP:HAX-VAWHEL ZIN\aNQQ:UVTUJNL 34 naq ZC 56\aNCG:\aPVGL:CUVYBZNGU\aK:UVTUJNL 34\aZNC:525-435\aPSF:121213-71\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:ORAGBA PB FB\aQVF:CUVYBZNGU SVER\aQVF:PBEINYYVF NZO 2-4-3
 
+Xvatf Inyyrl
+1 bs 3\aSEZ:Pbeinyyvf Nyregf\aFHOW:Pbeinyyvf Nyreg\aZFT:VAP:HAX-VAWHEL ZIN\aNQQ:38105 XVATF INYYRL UJL\aNCG:\aPVGL:XVATF INY\aK:UBFXVAF EQ * ZC\a(Pba'g) 2 bs 3\a25\aZNC:675-435\aPSF:021014-70\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:BQS CEBGRPGRQ YNAQ\aQVF:ORAGBA PB FB\aQVF:XVATF INYYRL SVER\aQVF:PBEINYYVF\a(Pba'g) 3 bs 3\aNZO 2-4-3\a(Raq)
+
 */
 
 choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -5075,6 +5078,42 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   }
  
+  
+  @Grfg
+  choyvp ibvq grfgXvatfInyyrl() {
+
+    qbGrfg("G1",
+        "1 bs 3\a" +
+        "SEZ:Pbeinyyvf Nyregf\a" +
+        "FHOW:Pbeinyyvf Nyreg\a" +
+        "ZFT:VAP:HAX-VAWHEL ZIN\a" +
+        "NQQ:38105 XVATF INYYRL UJL\a" +
+        "NCG:\a" +
+        "PVGL:XVATF INY\a" +
+        "K:UBFXVAF EQ * ZC\a" +
+        "(Pba'g) 2 bs 3\a" +
+        "25\a" +
+        "ZNC:675-435\a" +
+        "PSF:021014-70\a" +
+        "QVF:BQS CEBGRPGRQ YNAQ\a" +
+        "QVF:BQS CEBGRPGRQ YNAQ\a" +
+        "QVF:ORAGBA PB FB\a" +
+        "QVF:XVATF INYYRL SVER\a" +
+        "QVF:PBEINYYVF\a" +
+        "(Pba'g) 3 bs 3\a" +
+        "NZO 2-4-3\a" +
+        "(Raq)",
+
+        "PNYY:HAX-VAWHEL ZIN",
+        "NQQE:38105 XVATF INYYRL UJL",
+        "PVGL:XVATF INY",
+        "ZPVGL:CUVYBZNGU",
+        "K:UBFXVAF EQ * ZC 25",
+        "ZNC:675-435",
+        "VQ:021014-70",
+        "HAVG:BQS CEBGRPGRQ YNAQ,BQS CEBGRPGRQ YNAQ,ORAGBA PB FB,XVATF INYYRL SVER,PBEINYYVF NZO 2-4-3");
+
+  }
   choyvp fgngvp ibvq znva(Fgevat netf[]) {
     arj BEOragbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
