@@ -246,6 +246,7 @@ class Active911Vendor extends Vendor {
       "US/NY/WestchesterCounty",            "NYWestchesterCounty",
       "US/OH/Harveysburg",                  "General",
       "US/OH/HolmesCountySheriff",          "OHHolmesCounty",
+      "US/OK/LoveCounty",                   "OKLoveCounty",
       "US/OR/Benton",                       "ORBentonCounty",
       "US/OR/ClackamasCounty",              "ORClackamasCounty",
       "US/OR/ColumbiaCounty",               "ORColumbiaCounty",
@@ -254,10 +255,12 @@ class Active911Vendor extends Vendor {
       "US/OR/GilliamCounty",                "General",
       "US/OR/GreshamSAR",                   "General",
       "US/OR/HoodRiverCounty",              "ORHoodRiverCounty",
+      "US/OR/Jackson",                      "ORJacksonCounty",
       "US/OR/JeffersonCounty",              "ORJeffersonCounty",
       "US/OR/Klamath",                      "ORKlamathCounty",
       "US/OR/LaneCounty",                   "ORLaneCounty",
       "US/OR/Linn",                         "ORLinnCounty",
+      "US/OK/LoveCounty",                   "OKLoveCounty",
       "US/OR/NewbergFire",                  "ORYamhillCounty",
       "US/OR/PrinevillePD",                 "ORCrookCounty",
       "US/OR/ShermanCounty",                "General",
@@ -286,10 +289,12 @@ class Active911Vendor extends Vendor {
       "US/TX/Katy",                         "General",
       "US/TX/KendallCounty",                "TXKendallCounty",
       "US/TX/NuecesCounty",                 "TXNuecesCounty",
+      "US/TX/RoyseCity",                    "General",
       "US/TX/SanMarcosCounty",              "General",
       "US/TX/VillageFire",                  "Cadpage2",
       "US/TX/West",                         "General",
       "US/TX/WylieFireDispatch",            "TXWylie",
+      "US/VA/Esva911",                      "VANorthamptonCounty",
       "US/VA/GloucesterCounty",             "General",
       "US/VA/Hanover",                      "VAHanoverCounty",
       "US/VA/NewportNews",                  "General",
@@ -308,5 +313,6 @@ class Active911Vendor extends Vendor {
       "Vendor/Enterpol/Default",            "General",
       "Vendor/NewWorldSystems/Default",     "General",
       "Vendor/Phoenix/Default",             "General"
+      
   });
 }

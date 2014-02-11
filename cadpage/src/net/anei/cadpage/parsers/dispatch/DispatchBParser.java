@@ -303,6 +303,7 @@ public class DispatchBParser extends FieldProgramParser {
         "CO DETECTOR / FIRE RESPONSE",
         "COMMERCIAL FIRE ALARM",
         "CONTROL BURN",
+        "CONVULSION/SEIZURE",
         "CONVULSIONS/SEIZURES",
         "CONVULSIONS/SEIZURES DELTA",
         "DIABETIC",
