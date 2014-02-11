@@ -11,7 +11,7 @@ public class NYLivingstonCountyBParser extends DispatchA8Parser {
   
   @Override
   public String getFilter() {
-    return "hemlockfd@rochester.rr.com,hemlockfire@rochester.twcbc.com";
+    return "hemlockfd@rochester.rr.com,hemlockfire@rochester.twcbc.com,@CO.LIVINGSTON.NY.US";
   }
 
   private class MyCrossField extends CrossField  {
