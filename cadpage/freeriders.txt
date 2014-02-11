@@ -2088,16 +2088,17 @@ Matt Wiggins		(2529034393)
 Adam Spivey		(2528135040) // added
 Derrick Whitaker    (2524523987) // added 1-21-14
 
-%2014/Tavares // Richard Keith <rkeith@tavares.org> Fire Chief Tavares, FL 352-742-6391 PAYMENT PENDING $49
-%%02/07/2014
-company officer one (3525166467)
+%2014/Tavares // Richard Keith <rkeith@tavares.org> Fire Chief Tavares, FL 352-742-6391 PAYMENT PENDING $56
+%%02/07/2014 // revised on 2/10/14
+company officer one (3515166469)
 company officer two (3525160035)
-co three (3525160093)
-co four (3526021569)
-co five (3526021864)
-co six (3525161180)
-co seven (3525164876)
-
+Eric Wages (3525160093)
+Alan Gagne (3526021569)
+Jeff Hosterman (3526021864)
+Richard Keith (3525161180)
+Buddy Luckock (3525164876)
+Helen (9545598600)
+ 
 // Sponsored Districts
 // TXManvel - John Aucoin <johnaucoin@sbcglobal.net> - 09/10/2012
 
