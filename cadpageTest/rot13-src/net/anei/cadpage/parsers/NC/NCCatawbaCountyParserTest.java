@@ -28,8 +28,6 @@ Fraqre: R-911@pngnjonpbhaglap.tbi
 2011-021048*3724 EBPX OEVQTR QE AR***PBABIRE**NYNEZ ERF*********
 2011-021037*3983 UBXR FG***PYNERZBAG**GENHZNGVP VA*********
 
- 
-
 Nobir ner fbzr rknzcyr cntrf vs rirelguvat jnf ghearq ba jvgu gur PNQ cntvat. Rnpu svryq vf frcnengrq ol na nfgrevfx * . Orybj vf n yvfg bs rnpu svryq naq vs gurl ner hfrq be abg.
 
 Pnyy Ahzore
