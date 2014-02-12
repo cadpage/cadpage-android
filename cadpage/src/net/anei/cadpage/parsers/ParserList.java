@@ -418,6 +418,7 @@ public class ParserList {
               ,"MNAnokaCounty"                  ,"Anoka County, MN"
               ,"MNCarverCounty"                 ,"Carver County, MN"
               ,"MNDakotaCounty"                 ,"Dakota County, MN"
+              ,"MNEdina"                        ,"Edina, MN"
               ,"MNGoodhueCounty"                ,"Goodhue County, MN"
               ,"MNHennepinCounty"               ,"Hennepin County, MN"
               ,"MNMinneapolisStPaul"            ,"Minneapolis/St Paul, MN"
@@ -782,6 +783,7 @@ public class ParserList {
               ,"SCCharlestonCounty"             ,"Charleston County, SC"
               ,"SCChesterCounty"                ,"Chester County, SC"
               ,"SCFlorenceCounty"               ,"Florence County, SC"
+              ,"SCGeorgetownCounty"             ,"Georgetown County, SC"
               ,"SCGreenvilleCounty"             ,"Greenville County, SC"
               ,"SCKershawCounty"                ,"Kershaw County, SC"
               ,"SCOconeeCounty"                 ,"Oconee County, SC"
@@ -919,6 +921,7 @@ public class ParserList {
           ),
           new ParserCategory("Washington"
               ,"WAClarkCounty"                  ,"Clark County, WA"
+              ,"WAGrantCounty"                  ,"Grant County, WA"
               ,"WAJeffersonCounty"              ,"Jefferson County, WA"
               ,"WAKingCounty"                   ,"King County, WA"
               ,"WALewisCounty"                  ,"Lewis County, WA"
