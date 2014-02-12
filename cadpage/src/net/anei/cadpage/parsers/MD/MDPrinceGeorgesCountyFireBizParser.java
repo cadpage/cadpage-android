@@ -13,6 +13,7 @@ public class MDPrinceGeorgesCountyFireBizParser extends MDPrinceGeorgesCountyBas
   
   public MDPrinceGeorgesCountyFireBizParser() {
     super("MAPCALL! UNIT! ADDR! EXTRA+? URL END");
+    addExtendedDirections();
   }
   
   @Override
@@ -70,6 +71,7 @@ public class MDPrinceGeorgesCountyFireBizParser extends MDPrinceGeorgesCountyBas
   }
   
   private static final Pattern CITY_CODE_PTN = Pattern.compile("-([A-Z]{2})\\b");
+  private static final Pattern APT_PLACE_PTN = Pattern.compile("(?!7 11)([A-Z]\\d*|\\d{1,3}) +(.*)");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -92,17 +94,29 @@ public class MDPrinceGeorgesCountyFireBizParser extends MDPrinceGeorgesCountyBas
       }
       pt1 = sAddress.indexOf(',');
       if (pt1 >= 0) sAddress = sAddress.substring(0, pt1).trim();
+
       Matcher match = CITY_CODE_PTN.matcher(sAddress);
       if (match.find()) {
-        String code = match.group(1);
-        String city = CITY_CODES.getProperty(code);
-        if (city != null) {
-          data.strCity = city;
-          data.strPlace = sAddress.substring(match.end()).trim();
-          sAddress = sAddress.substring(0,match.start()).trim();
+        data.strCity = convertCodes(match.group(1), CITY_CODES);
+        data.strPlace = sAddress.substring(match.end()).trim();
+        sAddress = sAddress.substring(0,match.start()).trim();
+        super.parse(sAddress, data);
+      }
+      
+      else {
+        parseAddress(StartType.START_ADDR, sAddress, data);
+        String left = getLeft();
+        if (left.length() <= 5) {
+          data.strApt = append(data.strApt, "-", left);
+        } else {
+          match = APT_PLACE_PTN.matcher(left);
+          if (match.matches()) {
+            data.strApt = append(data.strApt, "-", match.group(1));
+            left = match.group(2);
+          }
+          data.strPlace = left;
         }
       }
-      super.parse(sAddress, data);
     }
     
     @Override
@@ -150,6 +164,10 @@ public class MDPrinceGeorgesCountyFireBizParser extends MDPrinceGeorgesCountyBas
   });
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "GB", "GLEN BERNIE",
+      "HA", "HANOVER",
+      "LH", "LINTHICUM HEIGHTS",
+      "MV", "MILLERSVILLE",
       "PA", "PASSADENA"
   });
 }
