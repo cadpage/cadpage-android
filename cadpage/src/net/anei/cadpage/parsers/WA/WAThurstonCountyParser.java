@@ -26,6 +26,7 @@ public class WAThurstonCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     addressFld = cityFld = "";
+    body = body.replace(" Unit:", " Units:");
     return parseFields(body.split(","), 8, data);
   }
   
