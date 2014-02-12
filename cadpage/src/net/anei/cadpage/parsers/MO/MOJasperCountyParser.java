@@ -30,7 +30,7 @@ public class MOJasperCountyParser extends DispatchOSSIParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ASBR",   "ASBURY",
       "ALBA",   "ALBA",
-      "ATPD",   "ATPD",
+      "APTD",   "APTD",
       "AVLA",   "AVILLA",
       "BRHT",   "BROOKLYN HEIGHTS",
       "CJCT",   "CARL JUNCTION",
