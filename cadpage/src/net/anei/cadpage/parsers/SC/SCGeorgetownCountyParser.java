@@ -20,6 +20,6 @@ public class SCGeorgetownCountyParser extends DispatchPrintrakParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "GC",          "GEORGETOWN COUNTY",
-      "MI",          "MURRELS INLET"
+      "MI",          "MURRELLS INLET"
   }); 
 }
