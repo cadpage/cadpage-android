@@ -109,6 +109,7 @@ public class ParserList {
           new ParserCategory("Alabama"
               ,"ALBaldwinCounty"                ,"Baldwin County, AL"
               ,"ALBlountCounty"                 ,"Blount County, AL"
+              ,"ALCalhounCounty"                ,"Calhoun County, AL"
               ,"ALChiltonCounty"                ,"Chilton County, AL"
               ,"ALColbertCounty"                ,"Colbert County, AL"
               ,"ALDothan"                       ,"Dothan, AL"
@@ -322,6 +323,7 @@ public class ParserList {
               ,"KSJohnsonCounty"                ,"Johnson County, KS"
               ,"KSMiamiCounty"                  ,"Miami County, KS"
               ,"KSMontgomeryCounty"             ,"Montgonery County, KS"
+              ,"KSRenoCounty"                   ,"Reno County, KS"
               ,"KSSedgwickCounty"               ,"Sedgwick County, KS"
           ),
           new ParserCategory("Kentucky"
