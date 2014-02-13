@@ -3650,6 +3650,7 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:BHGFVQR SVER",
         "CYNPR:ZZ 32.8 JO",
         "NQQE:YY:37 4.628`A, 94 3.205`J",
+        "ZNQQE:+37.077133,-94.053417",
         "VASB:ENZC V44J GB UVTU / TENFF SVER - HAXABJA VS VA GUR QVGPU BE ZRQVNA / 7",
         "QNGR:01/21/14",
         "GVZR:17:35:28");
@@ -5389,10 +5390,9 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G50",
         "PNQ:SLV: ;NPPVQRAG ABA VAWHEL;R SBHAGNVA EQ/A ZNVA FGERRG EQ;NCGQ;EC QVQA`G FGBC [02/04/14 14:55:01 XZ9200] NVEONT QRCYBLRQ [02/04/14 14:54:58 XZ9200] ERQ CNFFR",
         "PNYY:NPPVQRAG ABA VAWHEL",
-        "CYNPR:R SBHAGNVA EQ/A ZNVA FGERRG EQ",
-        "NCG:Q",
-        "PVGL:EC QVQA`G FGBC",
-        "VASB:NVEONT QRCYBLRQ / ERQ CNFFR",
+        "NQQE:R SBHAGNVA EQ & A ZNVA FGERRG EQ",
+        "PVGL:NCGQ",
+        "VASB:EC QVQA`G FGBC / NVEONT QRCYBLRQ / ERQ CNFFR",
         "QNGR:02/04/14",
         "GVZR:14:55:01");
 
@@ -5505,9 +5505,9 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G63",
         "PNQ:SLV: ;ZRQVPNY HAXABJA;25160 ABEGBA QE;NCGQ;A ZNVA FGERRG EQ;ZBGURE PNAG ZNXR FRAFR NAQ PBASHFRQ [02/01/14 12:32:29 XJ9409] WCYA GEAFSRE CNERAGF NQQERFF ZBGU",
         "PNYY:ZRQVPNY HAXABJA",
-        "CYNPR:25160 ABEGBA QE",
-        "NCG:Q",
-        "PVGL:A ZNVA FGERRG EQ",
+        "NQQE:25160 ABEGBA QE",
+        "PVGL:NCGQ",
+        "K:A ZNVA FGERRG EQ",
         "VASB:ZBGURE PNAG ZNXR FRAFR NAQ PBASHFRQ / WCYA GEAFSRE CNERAGF NQQERFF ZBGU",
         "QNGR:02/01/14",
         "GVZR:12:32:29");
@@ -5630,10 +5630,9 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G77",
         "PNQ:SLV: ;NPPVQRAG ABA VAWHEL;GNOBE ZNVA EQ/QRZBGG QE;NCGQ;JRFG BA 171, ABG DHVGR GB UNECF [01/30/14 13:14:59 NXVGPU2] ;51N",
         "PNYY:NPPVQRAG ABA VAWHEL",
-        "CYNPR:GNOBE ZNVA EQ/QRZBGG QE",
-        "NCG:Q",
-        "PVGL:JRFG BA 171, ABG DHVGR GB UNECF",
-        "VASB:51N",
+        "NQQE:GNOBE ZNVA EQ & QRZBGG QE",
+        "PVGL:NCGQ",
+        "VASB:JRFG BA 171, ABG DHVGR GB UNECF / 51N",
         "QNGR:01/30/14",
         "GVZR:13:14:59");
 
@@ -5813,10 +5812,9 @@ choyvp pynff ZBWnfcrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G98",
         "PNQ:SLV: ;ZRQVPNY HAXABJA;25601 EVQTR EQ;NCGQ;JUVGR BNX QE;QRZBGG QE;YVAQN CUBAR 291-2901 [01/28/14 08:30:21 XJ9409] PNYYRE VF ABG BA FPA PNYYVAT SEBZ JBEX [01/",
         "PNYY:ZRQVPNY HAXABJA",
-        "CYNPR:25601 EVQTR EQ",
-        "NCG:Q",
-        "PVGL:JUVGR BNX QE",
-        "K:QRZBGG QE",
+        "NQQE:25601 EVQTR EQ",
+        "PVGL:NCGQ",
+        "K:JUVGR BNX QE & QRZBGG QE",
         "VASB:YVAQN CUBAR 291-2901 / PNYYRE VF ABG BA FPA PNYYVAT SEBZ JBEX",
         "QNGR:01/28/14",
         "GVZR:08:30:21");
