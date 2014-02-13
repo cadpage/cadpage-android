@@ -18,7 +18,7 @@ public class NYOrangeCountyBParser extends DispatchPrintrakParser {
   
   @Override
   public String getFilter() {
-    return "OC911@,messaging@iamresponding.com,@oc911.smartmsg.com";
+    return "OC911@,messaging@iamresponding.com,@oc911.smartmsg.com,@mail.oc911.smartmsg.com";
   }
   
   @Override
