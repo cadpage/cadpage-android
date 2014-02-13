@@ -68,38 +68,6 @@ ZYS O Snyyf        : 2627 J GRKNF FG                        :    :VAS:          
 ZYS Q Fvpx Crefba  : 816 R FUNEBA NIR; #108                 :    :VAS:                    14:22:45 02/04/2014 - Z67 CebD:PC:     ZYSQRZY  ZYSQ            :PAG:r14:21:34 02/04/14  QNEEYL ZBF
 ZYS N Navzny Ovgr  : 701 R 3EQ NIR; GRFG PNYY QB ABG QVFCNGP:BJYR:VAS:  (509)762-1160     GRFG PNYY SBE EHA CNTR. CYRNFR:PC:     ZYSQRZY          ZHYGV NT:PAG:G12:31:47 02/04/14  Z28 XYRVA
 
-** ABGRF **
-Trggvat pbzcvyvpngrq, yrgf znxr guvf jbegu $200
-
-SvryqCebtenzCnefre fhopynff, fcyvg ol pbyba
-PNYY NQQE NCG VAS VASB PC HAVG PAG
-
-Fubbg, gurer ner gjb onfvp sbezngf, bar unf n :C: vqragvsvre.  Fb fbzrguvat yvxr
-( HAVG CEV_PNYY C CEV NQQE CYNPR | HAVG_CEV_PNYY NQQE ) NCG VAS VASB PC HAVG PAG! GVZRQNGR
-
-Lbh ner  tbvat gb unir gb cebgrpg qq:qq:qq gvzrf sebz orvat fcyvg hc fbzrubj.
-Punatvat gubfr pbybaf gb fbzrguvat ryfr orsber gur fcyvg zvtug jbex.  Fb zvtug
-hfvat n  qryvz cnggre bs "(?<!\q\q):(?!\q\q)"
-
-VAS, PC, PAG ner svkrq FXvcSryqf gung zhfg zngpu gung cnegvphyne fgevat inyhr
-
-Bireevqr HAVG gb nccraq svryq inyhr
-
-CEV_PNYY whfg unf gb fcyvg cevbevgl, juvpu vf nyjnlf n yrnqvat N-Q.  Naq vf
-nyzbfg nyjnlf cerfrag
-
-HAVG_CEV_PNYY vf tbvat gb or punyyratvat.  Unir gb vqragvsl gur oernx orgjrra
-havgf naq gur N-Q cevbevgl.  Va guvf pnfr, V oryvrir gur cevbevgl vf nyjnlf cerfrag
-
-NQQE unf gb purpx sbe n frzvpbyba naq zbir jung vf nsgre vg gb cynpr be ncg svryqf.
-
-VASB unf gb cnefr bhg qngr/gvzr vs cerfrag.  Cbffvoyl cubar ahzore naq nalguvat
-ryfr gung ybbxf hfrshy
-
-GVZRQNGR vf n frpbaqnel qngrgvzr, fubhyq fxvc cebprffvat vs gur qngr naq gvzr 
-unir nyernql orra frg (ol VASB)
-
-
 */
 
 choyvp pynff JNTenagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

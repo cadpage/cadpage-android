@@ -893,7 +893,7 @@ public abstract class MsgParser {
   * @return adjusted address field
   */
  protected String adjustGpsLookupAddress(String address) {
-   return adjustGpsLookupAddress(address, "");
+   return address;
  }
 
  /**
@@ -904,7 +904,7 @@ public abstract class MsgParser {
   * @return adjusted address field
   */
  protected String adjustGpsLookupAddress(String address, String apt) {
-   return address;
+   return adjustGpsLookupAddress(address);
  }
  
 /**

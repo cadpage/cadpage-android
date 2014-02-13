@@ -168,6 +168,7 @@ class Active911Vendor extends Vendor {
       "US/IL/DownersGrove",                 "General",
       "US/IL/FairviewHeights",              "Cadpage2",
       "US/IN/Bristol",                      "Cadpage2",
+      "US/IN/EMGSVCS",                      "General",
       "US/IN/JasperCounty",                 "US/IN/JasperCounty",
       "US/IN/LakeCounty",                   "INLakeCounty",
       "US/IN/MadisonCounty",                "Cadpage2",
@@ -202,6 +203,7 @@ class Active911Vendor extends Vendor {
       "US/MN/WrightCounty",                 "General",
       "US/MO/ADSiCad",                      "General",
       "US/MO/CityofFestus",                 "General",
+      "US/MO/ClintonCounty",                "General",
       "US/MO/LincolnCounty",                "MOLincolnCounty",
       "US/MO/LincolnCounty",                "MOLincolnCounty",
       "US/MO/MarshfieldFire",               "MOWebsterCounty",
@@ -235,6 +237,7 @@ class Active911Vendor extends Vendor {
       "US/NV/WinnemuccaCityFD",             "General",
       "US/NY/BCFA",                         "NYSuffolkCounty",
       "US/NY/CentralIslip",                 "NYSuffolkCounty",
+      "US/NY/ChiliFD",                      "NYMonroeCounty",
       "US/NY/CommackFD",                    "General",
       "US/NY/DutchessCounty",               "General",
       "US/NY/MonroeCounty",                 "NYMonroeCountyWebster",
@@ -257,8 +260,10 @@ class Active911Vendor extends Vendor {
       "US/OR/HoodRiverCounty",              "ORHoodRiverCounty",
       "US/OR/Jackson",                      "ORJacksonCounty",
       "US/OR/JeffersonCounty",              "ORJeffersonCounty",
+      "US/OR/Josephine",                    "ORJosephineCounty",
       "US/OR/Klamath",                      "ORKlamathCounty",
       "US/OR/LaneCounty",                   "ORLaneCounty",
+      "US/OR/Lincoln",                      "ORLincolnCounty",
       "US/OR/Linn",                         "ORLinnCounty",
       "US/OK/LoveCounty",                   "OKLoveCounty",
       "US/OR/NewbergFire",                  "ORYamhillCounty",
@@ -284,6 +289,7 @@ class Active911Vendor extends Vendor {
       "US/TN/Overton",                      "TNOvertonCounty",
       "US/TX/AngletonPD",                   "General",
       "US/TX/Austin",                       "TXTravisCounty",
+      "US/TX/HaysUSA",                      "General",
       "US/TX/HaysCounty",                   "TXHaysCounty",
       "US/TX/JohnsonCounty",                "TXJohnsonCountyB",
       "US/TX/Katy",                         "General",
@@ -313,6 +319,7 @@ class Active911Vendor extends Vendor {
       "Vendor/Enterpol/Default",            "General",
       "Vendor/NewWorldSystems/Default",     "General",
       "Vendor/Phoenix/Default",             "General"
+      
       
   });
 }
