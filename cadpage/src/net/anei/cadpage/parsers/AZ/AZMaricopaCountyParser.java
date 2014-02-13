@@ -82,7 +82,7 @@ public class AZMaricopaCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern CODE_PTN = Pattern.compile("\\d+(.*)");
+  private static final Pattern CODE_PTN = Pattern.compile("\\d+?(2N1M|[A-Z]+\\d*)");
   private class MyCodeField extends CodeField {
     @Override
     public void parse(String field, Data data) {
@@ -124,6 +124,7 @@ public class AZMaricopaCountyParser extends FieldProgramParser {
   }
 
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      "2N1M",       "MAJOR MEDICAL INCIDENT",
       "AAID",       "AUTOMATIC AID",
       "AIRMED",     "INBOUND FLIGHT EMERGENCY",
       "ALLCALL",    "ENCODE ALL MRDC STATIONS",
