@@ -839,7 +839,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:IS",
         "ZNC:IS1TP",
         "VASB:OYNPX SBEQ ENATRE EBYY BIRE VA GUR ZRQVNA",
-        "HAVG:ISN1",
+        "HAVG:ISN1 ISR3",
         "QNGR:02/05/2014",
         "GVZR:09:49:29");
 
@@ -882,7 +882,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:IS",
         "ZNC:IS2RP",
         "VASB:PNYYRE ERD URE 3 LBPUVYQ GB OR PURPXRQ BHG.  HAXABJA VS UR VF VAWHERQ. NQI UR VF HANOYR GB TRG BHG BS GUR IRU JUVGR CP  TENL SBEQ",
-        "HAVG:ISN2",
+        "HAVG:ISN2 ISR2",
         "QNGR:02/05/2014",
         "GVZR:07:49:19");
 
@@ -1522,7 +1522,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:PS",
         "ZNC:PU2",
         "VASB:RKCERFF PNER/ YRSG 37 LBZ YRSG FVQR PURFG CNVA",
-        "HAVG:512",
+        "HAVG:512 PS",
         "QNGR:02/06/2014",
         "GVZR:09:30:12");
 
@@ -1536,7 +1536,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:PS",
         "ZNC:PU4",
         "VASB:FBHAQF YVXR CREFBA ZNLOR HFVAT N IBVPR ZNPUVAR / HANOYR GB HAQREFGNAQ NALGUVAT",
-        "HAVG:512",
+        "HAVG:512 PS",
         "QNGR:02/05/2014",
         "GVZR:17:32:57");
 
@@ -1619,7 +1619,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:YBPHFG FG naq A 8GU FG",
         "FEP:PS",
         "ZNC:PU2",
-        "HAVG:512",
+        "HAVG:512 PS",
         "QNGR:02/05/2014",
         "GVZR:03:40:23");
 
@@ -1647,7 +1647,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:F 11GU FG naq F 14GU FG",
         "FEP:PS",
         "ZNC:PU2",
-        "HAVG:512",
+        "HAVG:512 PS",
         "QNGR:02/04/2014",
         "GVZR:21:53:07");
 
@@ -1865,7 +1865,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:SYBJRE naq ZPPNFYNAQ",
         "FEP:CN",
         "ZNC:CE4",
-        "HAVG:CN2",
+        "HAVG:CN2 CR2",
         "QNGR:02/06/2014",
         "GVZR:08:31:31");
 
@@ -1879,7 +1879,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:CN",
         "ZNC:CE5",
         "VASB:Zrqvpny CebDN Xrl Dhrfgvbaf",
-        "HAVG:CN1",
+        "HAVG:CN1 CR2",
         "QNGR:02/05/2014",
         "GVZR:23:57:14");
 
@@ -1892,7 +1892,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:CN",
         "ZNC:CE6",
         "VASB:PBZCY JNF SYNTTRQ QBJA OL PVGVMRA SBE GUR FZRYY BS ANGHENY TNF VA GUR NERN",
-        "HAVG:CN9",
+        "HAVG:CN9 CR3",
         "QNGR:02/05/2014",
         "GVZR:23:29:25");
 
@@ -1905,7 +1905,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:OEVFGBY naq JBEGUVATGBA",
         "FEP:CN",
         "ZNC:CE18",
-        "HAVG:CN8",
+        "HAVG:CN8 CYQE1",
         "QNGR:02/05/2014",
         "GVZR:19:12:40");
 
@@ -1919,7 +1919,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:RAQ naq ZPPNFYNAQ",
         "FEP:CN",
         "ZNC:CE9",
-        "HAVG:CN7",
+        "HAVG:CN7 CR3",
         "QNGR:02/05/2014",
         "GVZR:16:52:25");
 
@@ -1934,7 +1934,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:CN",
         "ZNC:CE4",
         "VASB:10-50 CQ EBYYBIRE. RO YNARF WHFG JRFG BS GUR UNEQRRF/OC. QEVIRE BHG BS IRU/AB VAWHEVRF",
-        "HAVG:C5",
+        "HAVG:C5 CN6 CNQZS3 CR2",
         "QNGR:02/05/2014",
         "GVZR:15:48:18");
 
@@ -1949,7 +1949,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:CN",
         "ZNC:CE11",
         "VASB:FCBXR JVGU ZNEL SRZNYR VF BHGFVQR",
-        "HAVG:CN5",
+        "HAVG:CN5 CR3",
         "QNGR:02/05/2014",
         "GVZR:14:16:39");
 
@@ -1962,7 +1962,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:PBHAGL YVAR naq PBHAGL YVAR",
         "FEP:CN",
         "ZNC:CE17",
-        "HAVG:CN4",
+        "HAVG:CN4 CYQE1",
         "QNGR:02/05/2014",
         "GVZR:12:54:12");
 
@@ -1976,7 +1976,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:CN",
         "ZNC:CE6",
         "VASB:NAXYR VAWHEL SEBZ GUVF ZBEAVAT/ ERFPHR 2 CEVBEVGL 4",
-        "HAVG:CN3",
+        "HAVG:CN3 CR3",
         "QNGR:02/05/2014",
         "GVZR:11:53:11");
 
@@ -1992,7 +1992,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:CN",
         "ZNC:CE94",
         "VASB:FVATYR IRUVPYR EBYYBIRE WHFG RNFG BS 19 RKVG JRFGOBHAQ",
-        "HAVG:CN2",
+        "HAVG:CN2 CNQZS2 CR2",
         "QNGR:02/05/2014",
         "GVZR:10:14:02");
 
@@ -2006,7 +2006,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:NFU naq JVYYBJPERRX",
         "FEP:CN",
         "ZNC:CE15",
-        "HAVG:CN1",
+        "HAVG:CN1 CYQE1",
         "QNGR:02/05/2014",
         "GVZR:10:06:11");
 
@@ -2021,7 +2021,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:NHTHFGN naq FPBGGFQNYR",
         "FEP:CN",
         "ZNC:CE20",
-        "HAVG:CN9",
+        "HAVG:CN9 CYQE1",
         "QNGR:02/05/2014",
         "GVZR:09:30:38");
 
@@ -2035,7 +2035,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:RIRETERRA naq PRAGENY",
         "FEP:CN",
         "ZNC:CE9",
-        "HAVG:CN8",
+        "HAVG:CN8 CR3",
         "QNGR:02/05/2014",
         "GVZR:07:49:09");
 
@@ -2048,7 +2048,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:PBHAGL YVAR naq JLK",
         "FEP:CN",
         "ZNC:CE18",
-        "HAVG:CN7",
+        "HAVG:CN7 CYQE1",
         "QNGR:02/05/2014",
         "GVZR:07:25:44");
 
@@ -2062,7 +2062,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:CN",
         "ZNC:CE15",
         "VASB:CYBJ BA VGF FVQR/QEVIRE PNAG TRG BHG CQ BAYL FBHGU BS 6 BA FJNAFBA",
-        "HAVG:C5",
+        "HAVG:C5 CN6 CNQZS1 CYQE1",
         "QNGR:02/05/2014",
         "GVZR:04:40:07");
 
@@ -2076,7 +2076,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:CN",
         "ZNC:CE18",
         "VASB:Zrqvpny CebDN cebprffvat pbzcyrgr",
-        "HAVG:CN5",
+        "HAVG:CN5 CYQE1",
         "QNGR:02/05/2014",
         "GVZR:03:01:07");
 
@@ -2092,7 +2092,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:JVYYBJPERRX naq PEVFZNA",
         "FEP:CN",
         "ZNC:CE5",
-        "HAVG:CN4",
+        "HAVG:CN4 CR2",
         "QNGR:02/04/2014",
         "GVZR:21:33:23");
 
@@ -2105,7 +2105,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:FNZHRYFBA naq YNAQZNEX",
         "FEP:CN",
         "ZNC:CE8",
-        "HAVG:CN3",
+        "HAVG:CN3 CR2",
         "QNGR:02/04/2014",
         "GVZR:20:42:38");
 
@@ -2120,7 +2120,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:PBCCRF naq FNZHRYFBA",
         "FEP:CN",
         "ZNC:CE5",
-        "HAVG:CN2",
+        "HAVG:CN2 CR2",
         "QNGR:02/04/2014",
         "GVZR:17:47:06");
 
@@ -2133,7 +2133,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:OEBJA naq NFUYNAQ",
         "FEP:CN",
         "ZNC:CE13",
-        "HAVG:CN1",
+        "HAVG:CN1 CYQE1",
         "QNGR:02/04/2014",
         "GVZR:13:13:01");
 
@@ -3504,7 +3504,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:JI",
         "ZNC:JI1",
         "VASB:ONPX VAWHELYNCBEGR PBHAGL BA FPRAR JVYY OR FGNAQVAT OL / EBNQ VF OYBPXRQ OL IRUVPYRF",
-        "HAVG:YS",
+        "HAVG:YS JI",
         "QNGR:02/05/2014",
         "GVZR:08:37:28");
 
@@ -3571,7 +3571,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:YS",
         "ZNC:YO3",
         "VASB:2000 OYNPX PURIL OYNMRE IF N FRPBAQ IRUVPYR",
-        "HAVG:YS",
+        "HAVG:YS FU",
         "QNGR:02/04/2014",
         "GVZR:13:55:21");
 
@@ -4205,7 +4205,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:YS",
         "ZNC:YO3",
         "VASB:2000 OYNPX PURIL OYNMRE IF N FRPBAQ IRUVPYR",
-        "HAVG:YS",
+        "HAVG:YS FU",
         "QNGR:02/04/2014",
         "GVZR:13:55:21");
 

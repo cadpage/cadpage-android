@@ -16,7 +16,7 @@ public class INPorterCountyParser extends FieldProgramParser {
   
   public INPorterCountyParser() {
     super(CITY_CODES, "PORTER COUNTY", "IN",
-          "( SELECT/1 DISPATCH:CODE! CALL+? ( PLACE  CITY/Z AT CITY | ADDR/Z CITY ) PLACE? ( X1 | INT ) PLACE? SRC MAP MAPPAGE XXXX INFO+ Unit:UNIT! | " +
+          "( SELECT/1 DISPATCH:CODE! CALL+? ( PLACE  CITY/Z AT CITY | ADDR/Z CITY ) PLACE? ( X1 | INT ) PLACE? SRC MAP MAPPAGE XXXX INFO+ Unit:UNIT! UNIT+ | " +
            "ID? CODE ( ADDR1/Z ADDR2 | ADDR3! ) CROSS:X2? GRP:UNIT? PRI:PRI comment:INFO )");
   }
   
@@ -96,6 +96,7 @@ public class INPorterCountyParser extends FieldProgramParser {
     if (name.equals("MAPPAGE")) return new SkipField("mappage", true);
     if (name.equals("XXXX")) return new  SkipField("XXXX", true);
     if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("UNIT")) return new MyUnitField();
     
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("CODE")) return new MyCodeField();
@@ -120,6 +121,13 @@ public class INPorterCountyParser extends FieldProgramParser {
       if (field.startsWith(PROQA_DISPATCH)) field = field.substring(PROQA_DISPATCH.length()).trim();
       else if (PROQA_DISPATCH.startsWith(field)) return;
       super.parse(field, data);
+    }
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, " ", field);
     }
   }
   
