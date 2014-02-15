@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,10 +13,17 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchA20Parser extends FieldProgramParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("Dispatched Call \\(([A-Z0-9]+)\\)");
+  
+  private Properties codeLookupTable;
 
   public DispatchA20Parser(String defCity, String defState) {
+    this(null, defCity, defState);
+  }
+
+  public DispatchA20Parser(Properties codeLookupTable, String defCity, String defState) {
     super(defCity, defState,
            "ADDRCITYST PLACE X APT CODE! MAP ID? INFO");
+    this.codeLookupTable = codeLookupTable;
   }
   
   @Override
@@ -32,6 +40,15 @@ public class DispatchA20Parser extends FieldProgramParser {
   @Override
   public String getProgram() {
     return "UNIT " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDRCITYST")) return new MyAddressCityStField();
+    if (name.equals("ID")) return new IdField("#(\\d+)", true);
+    if (name.equals("CODE")) return new MyCodeField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
 
   private class MyAddressCityStField extends AddressField {
@@ -52,6 +69,19 @@ public class DispatchA20Parser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "ADDR CITY ST";
+    }
+  }
+  
+  private class MyCodeField extends CodeField {
+    @Override
+    public void parse(String field, Data data) {
+      super.parse(field, data);
+      if (codeLookupTable != null) data.strCall = convertCodes(field, codeLookupTable);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return (codeLookupTable == null ? "CODE" : "CODE CALL");
     }
   }
   
@@ -89,13 +119,5 @@ public class DispatchA20Parser extends FieldProgramParser {
     public String getFieldNames() {
       return "UNIT APT CALL GPS INFO";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDRCITYST")) return new MyAddressCityStField();
-    if (name.equals("ID")) return new IdField("#(\\d+)", true);
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
 }
