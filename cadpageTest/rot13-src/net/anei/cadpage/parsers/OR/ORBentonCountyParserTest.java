@@ -485,6 +485,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:YVSGVAT NFFVFG",
         "NQQE:1400 NCCYRTNGR FG",
+        "ZNQQE:44.538542,-123.367005",
         "NCG:242",
         "PVGL:CUVYBZNGU",
         "K:F 14GU FG * F 15GU FG",
