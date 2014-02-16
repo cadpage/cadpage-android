@@ -27,6 +27,11 @@ public class TXManvelParser extends FieldProgramParser {
   }
   
   @Override
+  public String getSponsorDateString() {
+    return "02172014";
+  }
+  
+  @Override
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
   }

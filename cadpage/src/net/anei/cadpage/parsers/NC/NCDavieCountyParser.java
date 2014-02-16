@@ -26,6 +26,11 @@ public class NCDavieCountyParser extends DispatchA3Parser {
   }
 
   @Override
+  protected String getSponsorDateString() {
+    return "02172014";
+  }
+
+  @Override
   protected boolean parseMsg(String body, Data data) {
     body = body.replace(" LocCmmt:", " Location:").replace(" Comp:", " Complaint:").replace(" Ph#:", " PH#:");
     body = body.replace("Desc:", "Description:");
