@@ -2,6 +2,7 @@ package net.anei.cadpage;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.donation.DonationManager;
 import android.app.Activity;
@@ -615,9 +616,26 @@ public class MsgOptionManager {
     if (searchStr == null) return;
     
     if (!SmsPopupUtils.haveNet(context)) return;
-
-    searchStr = searchStr.replaceAll(" *& *", " AT ");
-    Uri uri = Uri.parse("geo:0,0?q=" + Uri.encode(searchStr));
+    
+    // We do things differently for GPS coordinates
+    if (GPS_LOC_PTN.matcher(searchStr).matches()) {
+      searchStr = "geo:0,0?q=" + searchStr;
+      
+      // Add real address as title
+      String addr = message.getInfo().getAddress();
+      if (addr.length() > 0) {
+        searchStr = searchStr + '(' + addr + ')';
+      }
+    } 
+    
+    // Regular address parsing
+    else {
+      searchStr = searchStr.replaceAll(" *& *", " AT ");
+      searchStr = "geo:0,0?q=" + Uri.encode(searchStr);
+    }
+    
+    // Build and launch map request
+    Uri uri = Uri.parse(searchStr);
     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
     Log.w("Map Request:");
     ContentQuery.dumpIntent(intent);
@@ -628,6 +646,7 @@ public class MsgOptionManager {
         Log.e("Could not find com.google.android.maps.Maps activity");
     }
   }
+  private static final Pattern GPS_LOC_PTN = Pattern.compile("[+-]?\\d+\\..*");
 
   /**
    * Send SMS response message
