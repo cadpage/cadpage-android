@@ -5,6 +5,7 @@ Npgvir911 gvpxrgf
 2013011410000027  Ab npgvba erdhverq
 2013042810000193  ALBabaqntnPbhagl qbar
 2013090610000242  ZBFgSenapbvfPbhagl qbar
+2013091110000161  Vagreany Npgvir911 srngher
 2013091610000474  INBenatrPbhagl qbar
 2013102310000565  FPCvpxrafPbhagl arrqf UGZY cnefre
 2013112010000194  Fraqvat rapbqrq UGZY svyr.
@@ -19,12 +20,13 @@ Npgvir911 gvpxrgf
 2014011910000052  SYUraqelPbhagl qbar
 2014011910000089  YNGreerobarCneevfu qbar
 2014011910000212  TNPungunzPbhagl qbar
-2014012110000039  ZARqvan jbexf <<
+2014012110000039  ZARqvan qbar
 2014012110000057  SYOnlPbhagl qbar
 2014012310000526  GKOryyPbhagl qbar
 2014012810000062  XLYbhvfivyyr qbar
 2014012910000721  Arrqf UGZY cnefre (HF/AL/BfjrtbPbhagl)
 2014020510000193  GKOenmbevn arrqf UGZY cnefre
+2014020710000788  XFErabPbhagl qbar
 ------------------------------------------------------------
 2012082110000075  Znva gvpxrg pybfrq
 2012092510000075  Znva gvpxrg pybfrq
@@ -60,7 +62,7 @@ Npgvir911 gvpxrgf
 2014011710000458  Nggnpurq rapbqrq svyr
 2014011710000663  XLYbhvfivyyr qbar
 2014011710000691  Ab Qngn
-2014011710000771  
+2014011710000771  PBZrzbevnyFgne (bhgfbhepr)
 -----------------------------------------------------------
 2014020310000428  Arrqf UGZY Cnefre (HF/VA/JnlarPbhagl)
 2014011010000881  Arrqf UGZY Cnefre (HF/SY/UreanaqbFureevss)
@@ -119,7 +121,6 @@ Npgvir911 gvpxrgf
 2014020410001096  ALJnfuvatgbaPbhagl qbar
 2014011410000669  GKYrbaPbhaglO qbar
 2014012110000039  ZARqvan qbar
-2014020710000788  XFErabPbhagl qbar
 *******************************************************************************
 Revr Pbhagl (O), AL
 OAA Nyregf
@@ -7867,6 +7868,33 @@ Fraqre: Cnhy Fgrryr <zbovyr@auyrqf.pbz>
 (Qvfcngpu 35CNTR) GRFG GRFG GRFG\a35 OHEONAX UVYY EQ ,97\a#:\aK:AU EBHGR 49/HCCRE ZNQ EVIRE EQ\a\aMA:35N\a\aPC:  2014-02-02 19:53:33\aZV#:140001666\aERF#:35CNTR
 **********************************************************
 **********************************************************
+Zrzbevny Fgne, PB
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Zrzbevny Fgne
+Ybpngvba: Pbybenqb Fcevatf, PB, Havgrq Fgngrf
+Fraqre: pbzzpragre@zrq-genaf.arg
+
+352-14-5511: Zrzbevny Fgne, A38 57.6, J104 45.0, 7.63 az, 17.79 qrt, Zrzbevny Abegu Ubfcvgny, Gb: Zrzbevny Prageny Ubfcvgny_2 bs 2
+352-14-5510: Zrzbevny Fgne, A38 48.53, J104 43.4, 4.02 az, 116.64 qrt, Pbybenqb Fcevatf Wrg Pragre, Gb: Zrzbevny Prageny Ubfcvgny_2 bs 2
+352-14-5507: Zrzbevny Fgne, A37 58.61, J103 33.0, 78.39 az, 130.96 qrt, Nexnafnf Inyyrl Erty Zrq Pge, Gb: Zrzbevny Prageny Ubfcvgny_2 bs 2
+352-14-5504: Zrzbevny Fgne, A38 57.29, J104 21.63, 21.73 az, 71.13 qrt, Ry cnfb pbhagl_1 bs 1
+352-14-5504: Zrzbevny Fgne, A38 57.29, J104 21.63, 21.73 az, 71.13 qrt, Ry cnfb pbhagl_1 bs 1
+352-14-5504: Zrzbevny Fgne, A38 57.29, J104 21.63, 21.73 az, 71.13 qrt, Ry cnfb pbhagl_1 bs 1
+352-14-5503: Zrzbevny Fgne, A38 50.33, J104 48.0, Zrzbevny Fgne Onfr- Zrzbevny Ubfcvgny, Gb: Pbybenqb Fcevatf Wrg Pragre_2 bs 2
+352-14-5500: Zrzbevny Fgne, A38 16.8, J104 36.6, 34.67 az, 165.05 qrt, Cnexivrj Zrqvpny, Gb: Zrzbevny Prageny Ubfcvgny_1 bs 1
+352-14-5500: Zrzbevny Fgne, A38 16.8, J104 36.6, 34.67 az, 165.05 qrt, Cnexivrj Zrqvpny, Gb: Zrzbevny Prageny Ubfcvgny_1 bs 1
+352-14-5486: Zrzbevny Fgne, A38 50.33, J104 48.0, Zrzbevny Fgne Onfr- Zrzbevny Ubfcvgny, Gb: Zrzbevny Fgne Onfr- Zrzbevny Ubfcvgny_2 bs 2
+352-14-5482: Zrzbevny Fgne, A38 16.8, J104 36.6, 34.67 az, 165.05 qrt, Cnexivrj Zrqvpny, Gb: Zrzbevny Prageny Ubfcvgny_1 bs 1
+352-14-5473: Zrzbevny Fgne, A38 56.94, J105 9.59, 18.1 az, 291.59 qrt, Qvivqr Ibyhagrre Sver Qrcg Fg #1_1 bs 1
+352-14-5472: Zrzbevny Fgne, A39 3.18, J104 17.35, 27.14 az, 61.51 qrt, Pnyuna Nvecbeg, Gb: Zrzbevny Prageny Ubfcvgny_1 bs 1
+352-14-5462: Zrzbevny Fgne, A38 50.33, J104 48.0, Zrzbevny Prageny Ubfcvgny, Gb: Havirefvgl bs Pbybenqb Ubfcvgny_1 bs 1
+352-14-5457: Zrzbevny Fgne, A38 51.91, J104 23.24, 19.41 az, 85.19 qrt, Ry cnfb pbhagl_1 bs 1
+352-14-5456: Zrzbevny Fgne, A38 59.275, J104 32.048, 15.33 az, 54.14 qrt, Ry cnfb pbhagl_1 bs 1
+352-14-5453: Zrzbevny Fgne, A38 4.281, J102 36.579, 113.02 az, 113.42 qrt, Cebjref Zrqvpny Pragre, Gb: Cnexivrj Zrqvpny_2 bs 2
+352-14-5450: Zrzbevny Fgne, A0 0.0, J0 0.0, 6099.1 az, 99.41 qrt, Ry cnfb pbhagl_1 bs 1
+352-14-5448: Zrzbevny Fgne, A38 4.281, J102 36.579, 41.11 az, 111.23 qrt, Cebjref Zrqvpny Pragre, Gb: Cnexivrj Zrqvpny_1 bs 1
+352-14-5448: Zrzbevny Fgne, A38 4.281, J102 36.579, 113.02 az, 113.42 qrt, Cebjref Zrqvpny Pragre, Gb: Cnexivrj Zrqvpny_2 bs 2
 **********************************************************
 **********************************************************
 **********************************************************
