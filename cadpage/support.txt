@@ -1058,12 +1058,13 @@ Good luck,
 ******************************************************************
 * Duplicate pages with Active911
 ******************************************************************
+
 Duplicate messages are fairly common for new Active911 users.   Some time back, you arranged to have text pages sent to your phone.  Those pages don't stop coming when you register with Active911.  As a result you always get two pages for each incident.
 
 You have to talk to someone in your department about stopping the original text pages.  Probably the same person who got them sent to your phone in the first place.
 
 Good luck,
-
+-Ken
 
 ******************************************************************
 

@@ -19,7 +19,7 @@ public class ORJosephineCountyParser extends FieldProgramParser {
   
   public ORJosephineCountyParser() {
     super("JOSEPHINE COUNTY", "OR",
-          "( ID CALL ADDRCITY/SXa PLACE SRC DATETIME UNIT! | DATE_TIME_CALL ADDR_CITY_X/SXa! Units:UNIT! | CALL ADDRCITY/SXa PLACE DATETIME ID UNIT! ) INFO+");
+          "( ID CALL ADDRCITY/SXa PLACE SRC DATETIME! UNIT | DATE_TIME_CALL ADDR_CITY_X/SXa! Units:UNIT | CALL ADDRCITY/SXa PLACE DATETIME ID! UNIT ) INFO+");
   }
   
   @Override
