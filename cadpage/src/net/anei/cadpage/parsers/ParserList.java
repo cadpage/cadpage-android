@@ -512,6 +512,7 @@ public class ParserList {
               ,"NJWayneTownship"                ,"Wayne Township, NJ"
           ),
           new ParserCategory("New Mexico"
+              ,"NMChavesCounty"                 ,"Chaves County, NM"
               ,"NMDonaAnaCounty"                ,"Dona Ana County, NM"
               ,"NMSanJuanCounty"                ,"San Juan County, NM"
           ),

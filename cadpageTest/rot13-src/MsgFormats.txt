@@ -1701,6 +1701,11 @@ PNQ:11000831;06Q02;OERNGUVAT CEBOYRZF;5036 HF 264N R;2P;ENAPU SNEZ PG;UBYQRAF PE
 PNQ:BHGFVQR SVER - FZNYY;5047 FNJQHFG EQ;4P;YNFFVGRE ZVYY EQ;GNEGGF ZVYY EQ
 PNQ:11000827;69Q10;FGEHPGHER SVER 1;4659 RINAFQNYR EQ;5O;BYQ FGNAGBAFOHET EQ;PNFGYRJBBQ YA;403 raebhgr [05/19/11 13:53:19 QCVGGZNA] [Sver Cevbevgl Vasb] Xrl Dhr
 ***************************************************************************
+Punirf Pbhagl, AZ (AZPunirfPbhaglCnefre
+SEZ:PNQ@ebfjryycbyvpr.pbz\aZFT:PNQ:SLV: ;5103 F ZNVA FG;R PUNEYRFGBA EQ;F EBFJRYY ERYVRS EG;ZRQVPY
+SEZ:PNQ@ebfjryycbyvpr.pbz\aZFT:PNQ:SLV: ;110 ZNEX EQ;J PBYYRTR OYIQ;OEVTUG FXL EQ;TESVER
+SEZ:PNQ@ebfjryycbyvpr.pbz\aZFT:PNQ:SLV: ;ELNA FG/YRJVF NIR;FGSVER
+***************************************************************************
 Ybenva Pbhagl, BU (BUYbenvaPbhaglNCnefre)
 PNQ:SLV: ;RZF SVEFG ERFCBAQREF;11401 ZNEGUN QE;PNE
 PNQ:SLV: ;RZF SVEFG ERFCBAQREF;11406 VAQVNA UBYYBJ EQ;PNE
@@ -7353,14 +7358,6 @@ Fraqre: qbabgercyl@wrsspb.hf
 ************  ERNQL GB EBYY ******************************
 **********************************************************
 **********************************************************
-Punirf, AZ
-Pbagnpg: ghpxre.gbqq <ghpxre.gbqq@yvir.pbz>
-Fraqre: PNQ@ebfjryycbyvpr.pbz
-SEZ:PNQ@ebfjryycbyvpr.pbz\aZFT:PNQ:SLV: ;5103 F ZNVA FG;R PUNEYRFGBA EQ;F EBFJRYY ERYVRS EG;ZRQVPY
-SEZ:PNQ@ebfjryycbyvpr.pbz\aZFT:PNQ:SLV: ;110 ZNEX EQ;J PBYYRTR OYIQ;OEVTUG FXL EQ;TESVER
-SEZ:PNQ@ebfjryycbyvpr.pbz\aZFT:PNQ:SLV: ;ELNA FG/YRJVF NIR;FGSVER
-SEZ:PNQ@ebfjryycbyvpr.pbz\aZFT:PNQ:SLV: ;BYQ QRKGRE UJL/R PEBFFEBNQF FG;TESVER
-SEZ:PNQ@ebfjryycbyvpr.pbz\aZFT:PNQ:SLV: ;5103 F ZNVA FG;R PUNEYRFGBA EQ;F EBFJRYY ERYVRS EG;ZRQVPY
 **********************************************************
 **********************************************************
 Punzcnvta-Heonan, VY (nygreangr)
