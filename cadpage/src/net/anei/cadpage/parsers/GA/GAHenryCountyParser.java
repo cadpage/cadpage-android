@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.GA;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -53,6 +55,12 @@ public class GAHenryCountyParser extends FieldProgramParser {
       data.strSupp = append(data.strSupp, "/", field);
     }
   }
+  
+  @Override
+  public String adjustMapAddress(String address) {
+    return DIR_HWY_PTN.matcher(address).replaceAll("$1");
+  }
+  private static final Pattern DIR_HWY_PTN = Pattern.compile("[NSEW] +((?:HIGHWAY|HWY|US) +\\d+)", Pattern.CASE_INSENSITIVE);
   
   @Override
   public Field getField(String name) {
