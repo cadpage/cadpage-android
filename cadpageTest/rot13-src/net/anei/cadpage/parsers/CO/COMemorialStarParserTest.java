@@ -91,7 +91,7 @@ Oernxqbja ol pbzznf
 "A38 45.9, J104 25.8"   TCF pbbeqvangrf, chg va NQQE
 "6099.1 az, 99.41 qrt"  enatr naq nmvzhgu, chg va CYNPR
 "Jrvfoebq Zrzbevny Pbhagl Ubfc, RQ" chg va PNYY
-"Gb: Zrzbevny Prageny Ubfcvgn" chg va VASB
+"Gb: Zrzbevny Prageny Ubfcvgny" chg va VASB
 
  */
 
