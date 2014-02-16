@@ -13,7 +13,7 @@ public class MEYorkCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@sanfordmaine.org.2159700406";
+    return "dispatch@sanfordmaine.org,2159700406,no_reply_paging@sanfordmaine.org";
   }
   
   @Override
