@@ -41,6 +41,9 @@ public class MsgInfo {
   // Suppress conversion of various forms of CR XX to COUNTY ROAD XX
   public static final int MAP_FLG_SUPPR_CR = 0x100;
   
+  // convert CR -> CRES instead of CIR
+  public static final int MAP_FLG_CR_CREEK = 0x200;
+  
 
   private String strCall;
   private String strPlace;
@@ -573,6 +576,12 @@ public class MsgInfo {
       sAddr = CR_PTN.matcher(sAddr).replaceAll("CRES"); 
     }
     
+    // Or sometimes creek
+    if ((parser.getMapFlags() & MAP_FLG_CR_CREEK) != 0) {
+      sAddr = CR_PTN.matcher(sAddr).replaceAll("CREEK"); 
+    }
+    
+    
     // convert CR nn to COUNTY ROAD nn
     // we need to do this before we do the abbreviations converstions that will
     // change CR to CIR.
@@ -689,7 +698,7 @@ public class MsgInfo {
   // This method breaks those up into two separate tokens, also dropping any
   // direction qualifiers
   private static final Pattern ROUTE_PTN =
-    Pattern.compile("\\b(?:(RT|RTE|HW|HWY|US|STH?Y?|SHY?|FM|I|CO|CR|CORD|SRT?|I)|([A-Z]{2}))-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b(?:(RT|RTE|HW|HWY|HIGH|US|STH?Y?|SHY?|FM|I|CO|CR|CORD|SRT?|I)|([A-Z]{2}))-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SRT_PTN = Pattern.compile("\\bS(?:RT?| ?H|TH)\\b", Pattern.CASE_INSENSITIVE);
   
   private String cleanRoutes(String sAddress) {
@@ -739,8 +748,8 @@ public class MsgInfo {
   // If we find a construct like that, remove the middle section
   // When we are done with that, check for addresses ending with 666 HWY and reverse the terms
   private static final Pattern[] DBL_ROUTE_PTNS = new Pattern[]{ 
-    Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY) *(ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGHWAY) +(\\d+[ABNSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
-    Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY|ROUTE) +(\\d+|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY)\\b", Pattern.CASE_INSENSITIVE)
+    Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY) *(ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGH|HIGHWAY) +(\\d+[ABNSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
+    Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY|ROUTE) +(\\d+|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGH)\\b", Pattern.CASE_INSENSITIVE)
   };
   private static final Pattern I_FWY_PTN = Pattern.compile("\\b(I[- ]\\d+) +[FH]WY\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern AND_PTN = Pattern.compile(" and ", Pattern.CASE_INSENSITIVE);
