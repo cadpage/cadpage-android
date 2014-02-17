@@ -166,6 +166,7 @@ public class ParserList {
               ,"CASiskiyouCounty"               ,"Siskiyou County, CA"
               ,"CASonomaCounty"                 ,"Sonoma County, CA"
               ,"CASouthLakeTahoe"               ,"South Lake Tahoe, CA"
+              ,"CATuolumneCounty"               ,"Tuolumne County, CA"
               ,"CAVenturaCounty"                ,"Ventura County, CA"
               ,"CAYoloCounty"                   ,"Yolo County, CA"
           ),
