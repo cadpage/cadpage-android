@@ -4793,7 +4793,7 @@ choyvp pynff MPNOPZvqVfynaqErtvbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sver Qvfcngpu) BLFGRE EVIRE FGEHPGHER SVER 7957 A VFYNAQ UJL , Oynpx Perrx , OP 02/09/2014 19:01:45",
         "FEP:BLFGRE EVIRE",
         "PNYY:FGEHPGHER SVER",
-        "NQQE:7957 A VFYNAQ UJL",
+        "NQQE:7957 A VFYNAQ UJL",  // Sbhaq va Pnzcoryy Evire
         "PVGL:Oynpx Perrx",
         "QNGR:02/09/2014",
         "GVZR:19:01:45");
@@ -4849,7 +4849,7 @@ choyvp pynff MPNOPZvqVfynaqErtvbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZBGBE IRUVPYR NPPVQRAG",
         "NQQE:7800OYX VFYNAQ UJL A",
         "ZNQQE:7800 VFYNAQ UJL A",
-        "PVGL:Oynpx Perrx",
+        "PVGL:Oynpx Perrx",  // Znccf va Ananvzb
         "QNGR:01/29/2014",
         "GVZR:08:06:50");
 
