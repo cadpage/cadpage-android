@@ -485,6 +485,7 @@ public class ParserList {
               ,"NVClarkCounty"                  ,"Clark County, NV"
           ),
           new ParserCategory("New Hampshire"
+              ,"NHGraftonCounty"                ,"Grafton County, NH"
               ,"NHHanover"                      ,"Hanover, NH"
               ,"NHKeeneMutualAid"               ,"Keene Mutual Aid, NH"
               ,"NHMerrimackCounty"              ,"Merrimack County, NH"
@@ -918,6 +919,7 @@ public class ParserList {
               ,"VAShenandoahCounty"             ,"Shenandoah County, VA"
               ,"VASmythCounty"                  ,"Smyth County, VA"
               ,"VASurryCounty"                  ,"Surry County, VA"
+              ,"VAUniversityOfVirginia"         ,"University Of Virginia, VA"
               ,"VAWarrenCounty"                 ,"Warren County, VA"
               ,"VAWashingtonCounty"             ,"Washington County, VA"
               ,"VAWaynesboro"                   ,"Waynesboro, VA"
