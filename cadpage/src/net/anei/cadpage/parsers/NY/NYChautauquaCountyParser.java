@@ -6,13 +6,10 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
-
-
 public class NYChautauquaCountyParser extends FieldProgramParser {
   
   private static final Pattern MARKER1 = Pattern.compile("^CHAUTAUQUA_COUNTY_SHERIFF \\(([A-Z ]+)\\) +");
-  private static final Pattern MARKER2 = Pattern.compile("^(\\d\\d:\\d\\d) +");
+  private static final Pattern MARKER2 = Pattern.compile("^(\\d\\d:\\d\\d)[ ;]+");
   private static final Pattern MASTER1 = Pattern.compile("([ A-Z0-9]+?)  +([A-Z]+\\d+) +(.*) +\\*([ A-Z0-9]+) (\\d{4}-\\d{8})");
   private static final Pattern DELIM = Pattern.compile(" *(?<= ); ");
   private static final Pattern NOT_APT_PTN = Pattern.compile("CSX.*");
@@ -26,6 +23,12 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "911@cattco.org,777,888,messaging@iamresponding.com,dispatch@sheriff.us";
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    return RT_20_PTN.matcher(addr).replaceAll("US 20");
+  }
+  private static final Pattern RT_20_PTN = Pattern.compile("(?<!OLD )\\bRT *20\\b", Pattern.CASE_INSENSITIVE);
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
