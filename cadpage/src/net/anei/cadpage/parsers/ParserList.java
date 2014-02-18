@@ -179,7 +179,7 @@ public class ParserList {
               ,"COGarfieldCounty"               ,"Garfield County, CO"
               ,"COGolden"                       ,"Golden County, CO"
               ,"COJeffersonCounty"              ,"Jefferson County, CO"
-              ,"COKitCarsonCounty"                ,"Kit Carson County, CO"
+              ,"COKitCarsonCounty"              ,"Kit Carson County, CO"
               ,"COLaPlataCounty"                ,"La Plata County, CO"
               ,"COLarimerCounty"                ,"Larimer County, CO"
               ,"CONorthglennEMS"                ,"Northglenn EMS, CO"
