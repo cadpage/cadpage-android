@@ -247,7 +247,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
       // Otherwise, if the place name isn't located in front of the address
       // assume whatever follows it is a place name
       if (!inclPlace) {
-        data.strPlace = sLeft;
+        if (sLeft.startsWith("/")) {
+          data.strAddress = data.strAddress + " & " + sLeft.substring(1).trim();
+        } else {
+          data.strPlace = sLeft;
+        }
       }
   
       // Otherwise assume it is a name followed by an optional phone number

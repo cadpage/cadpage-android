@@ -128,8 +128,7 @@ choyvp pynff APJngnhtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "ONZOBB EQ / QRRESVRYQ NCGF ZQY 10Q01 2012023649 19:08:31 HAXABJA CEBOYRZ (ZNA QBJA) 321F-QRRESVRYQ EQ-EG NVECBEG RAQ BS ONZOBB EQ",
-        "NQQE:ONZOBB EQ",
-        "CYNPR:/ QRRESVRYQ NCGF",
+        "NQQE:ONZOBB EQ & QRRESVRYQ NCGF",
         "PBQR:10Q01",
         "VQ:2012023649",
         "GVZR:19:08:31",
