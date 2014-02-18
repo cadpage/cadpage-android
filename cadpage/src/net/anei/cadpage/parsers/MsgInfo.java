@@ -44,6 +44,9 @@ public class MsgInfo {
   // convert CR -> CRES instead of CIR
   public static final int MAP_FLG_CR_CREEK = 0x200;
   
+  // Suppress TE -> TER translation
+  public static final int MAP_FLG_SUPPR_TE = 0x200;
+  
 
   private String strCall;
   private String strPlace;
@@ -611,13 +614,13 @@ public class MsgInfo {
     sAddr = replace(sAddr, RCH_PTN, "REACH");
     sAddr = replace(sAddr, HT_PTN, "HTS");
     sAddr = replace(sAddr, FM_PTN, "FARM-TO-MARKET");
-    if (countryCode != CountryCode.NZ) sAddr = replace(sAddr, TE_PTN, "TER");
     
     // Some alterations are suppressed by different parsers to meet local
     // requirements
     int mapFlags = parser.getMapFlags();
     if ((mapFlags & MAP_FLG_SUPPR_LA) == 0) sAddr = replace(sAddr, LA_PTN, "LN");
     if ((mapFlags & MAP_FLG_SUPPR_EXT) == 0) sAddr = EXT_PTN.matcher(sAddr).replaceAll("");
+    if ((mapFlags & MAP_FLG_SUPPR_TE) == 0 && countryCode != CountryCode.NZ) sAddr = replace(sAddr, TE_PTN, "TER");
     
     if (!sAddr.contains("CUT OFF")) {
       sAddr = NEAR_PTN.matcher(sAddr).replaceAll("&");

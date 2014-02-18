@@ -552,6 +552,9 @@ public abstract class MsgParser {
    * MAP_FLG_SUPPR_ADD_PLACE suppress logic to add place name to naked streets
    * MAP_FLG_PREFER_GPS recomend GPS coordinates of map address for mapping purposes
    * MAP_FLG_CR_CRES convert CR to CRES instead of CIR 
+   * MAP_FLG_SUPPR_CR supress CR -> CIR adjustment
+   * MAP_FLG_CR_CREEK convert CR to CREEK instead of CIR
+   * MAP_FLG_SUPPR_TE suppress TE -> TER adjustment
    */
   public int getMapFlags() {
     return 0;
@@ -564,6 +567,8 @@ public abstract class MsgParser {
   public static final int MAP_FLG_SUPPR_SR = MsgInfo.MAP_FLG_SUPPR_SR;
   public static final int MAP_FLG_CR_CRES = MsgInfo.MAP_FLG_CR_CRES;
   public static final int MAP_FLG_SUPPR_CR = MsgInfo.MAP_FLG_SUPPR_CR;
+  public static final int MAP_FLG_CR_CREEK = MsgInfo.MAP_FLG_CR_CREEK;
+  public static final int MAP_FLG_SUPPR_TE = MsgInfo.MAP_FLG_SUPPR_TE;
 
 
   /**

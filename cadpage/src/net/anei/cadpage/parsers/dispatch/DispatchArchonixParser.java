@@ -62,20 +62,25 @@ public class DispatchArchonixParser extends FieldProgramParser {
     return "SRC " + super.getProgram();
   }
   
-  private class MyAddressCityField extends AddressField {
+  protected class BaseAddressCityField extends AddressField {
 
     @Override
     public void parse(String field, Data data) {
+      parse(field, data, true);
+    }
+    
+    public void parse(String field, Data data, boolean cityRequired) {
       String place = "";
       int pt = field.lastIndexOf(';');
       if (pt >= 0) {
-        place = field.substring(pt+1).trim();
-        field = field.substring(0,pt).trim();
+        place = field.substring(pt + 1).trim();
+        field = field.substring(0, pt).trim();
       }
       pt = field.lastIndexOf(',');
-      if (pt < 0) abort();
-      data.strCity = convertCodes(field.substring(pt+1).trim(), cityCodes);
-      field = field.substring(0,pt).trim();
+      if (pt >= 0) {
+        data.strCity = convertCodes(field.substring(pt + 1).trim(), cityCodes);
+        field = field.substring(0, pt).trim();
+      } else if (cityRequired) abort();
       super.parse(field, data);
       if (data.strPlace.startsWith("/")) data.strPlace = data.strPlace.substring(1).trim();
       data.strPlace = append(data.strPlace, " - ", place);
@@ -87,7 +92,7 @@ public class DispatchArchonixParser extends FieldProgramParser {
     }
   }
   
-  private class MyCrossField extends CrossField {
+  protected class BaseCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
       if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
@@ -96,7 +101,7 @@ public class DispatchArchonixParser extends FieldProgramParser {
   }
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d{4})-(\\d\\d)-(\\d\\d) (\\d\\d:\\d\\d:\\d\\d)$");
-  private class MyPlaceField extends PlaceField {
+  protected class BasePlaceField extends PlaceField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = DATE_TIME_PTN.matcher(field);
@@ -116,9 +121,9 @@ public class DispatchArchonixParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("ADDRCITY")) return new BaseAddressCityField();
+    if (name.equals("X")) return new BaseCrossField();
+    if (name.equals("PLACE")) return new BasePlaceField();
     return super.getField(name);
   }
 }
