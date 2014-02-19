@@ -986,7 +986,7 @@ choyvp pynff INNhthfgnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G30",
         "PNQ:VAWHEL (GENHZNGVP):JUNES CNEXVAT YBG",
         "PNYY:VAWHEL (GENHZNGVP)",
-        "NQQE:JUNES CNEXVAT");
+        "NQQE:JUNES CNEXVAT YBG");
 
   }
   

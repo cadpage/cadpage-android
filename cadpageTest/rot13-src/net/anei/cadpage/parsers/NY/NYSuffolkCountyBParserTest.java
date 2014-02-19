@@ -535,7 +535,8 @@ choyvp pynff ALFhssbyxPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G28",
         "*** 23 - Zvfpryynarbhf Sver *** 7 ABA-NZOHYNGBEL CGF BA 2AQ SYBBE 15 OEBBXFVQR NIR PF: B  - B QRRE CNEX NIR",
         "PNYY:23 - Zvfpryynarbhf Sver",
-        "NQQE:7 ABA-NZOHYNGBEL CGF BA 2AQ SYBBE 15 OEBBXFVQR NIR",
+        "NQQE:7 ABA-NZOHYNGBEL CGF BA 2AQ",
+        "NCG:SYBBE 15 OEBBXFVQR NIR",
         "K:B  - B QRRE CNEX NIR");
 
     qbGrfg("G29",

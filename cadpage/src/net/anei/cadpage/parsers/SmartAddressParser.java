@@ -206,7 +206,7 @@ public abstract class SmartAddressParser extends MsgParser {
   private static final int ID_INCL_AT_MARKER = 0x1000;
   
   // Bitmask bit indicating token is an apartment selector
-  private static final int ID_APPT = 0x2000;
+  private static final int ID_APT = 0x2000;
   
   // Bitmask bit indicating token is a complete single word token
   // both this and the ID_MULTIWORD flag may be set if a token is both
@@ -259,6 +259,8 @@ public abstract class SmartAddressParser extends MsgParser {
   private static final int ID_BLOCK = 0x20000000;
   
   private static final int ID_AND_CONNECTOR = 0x40000000;
+  
+  private static final int ID_FLOOR = 0x80000000;
   
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
@@ -386,7 +388,8 @@ public abstract class SmartAddressParser extends MsgParser {
     
     setupDictionary(ID_CROSS_STREET, "XS:", "X:", "C/S:", "C/S");
     setupDictionary(ID_NEAR, "NEAR", "ACROSS");
-    setupDictionary(ID_APPT, "APT:", "APT", "APTS", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT");
+    setupDictionary(ID_APT, "APT:", "APT", "APTS", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT");
+    setupDictionary(ID_FLOOR, "FLOOR", "FLR", "FL");
     setupDictionary(ID_STREET_NAME_PREFIX, "LAKE", "MT", "MOUNT", "SUNKEN");
     setupDictionary(ID_NOT_ADDRESS, "YOM", "YOF", "YO");
     setupDictionary(ID_SINGLE_WORD_ROAD, "TURNPIKE");
@@ -1684,10 +1687,11 @@ public abstract class SmartAddressParser extends MsgParser {
           if (aptField == null) {
             tmpNdx = ndx;
             if (isComma(ndx) && ndx+1 < tokens.length) tmpNdx++;
-            if (isType(tmpNdx, ID_APPT)) {
+            if (tmpNdx+1 < tokens.length && isType(tmpNdx, ID_FLOOR | ID_APT)) {
               lastField.end(ndx);
               ndx = tmpNdx;
-              lastField = aptField = new FieldSpec(ndx+1);
+              if (!isType(ndx, ID_FLOOR)) tmpNdx++;
+              lastField = aptField = new FieldSpec(tmpNdx);
             }
             else if (isAptToken(tokens[tmpNdx], false)) {
               aptToken = true;
@@ -1835,7 +1839,7 @@ public abstract class SmartAddressParser extends MsgParser {
         result.endAll++;
         for (int ndx = result.endAll; ndx < tokens.length; ndx++) {
           if (isType(result.endAll, ID_NOT_ADDRESS)) break;
-          if (isType(ndx, ID_APPT | ID_CROSS_STREET) ||
+          if (isType(ndx, ID_APT | ID_CROSS_STREET) ||
               isAptToken(ndx)) {
             result.endAll = ndx;
             break;
@@ -1848,7 +1852,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // First lets look for an apartment
     int ndx = result.endAll;
     if (isComma(ndx)) ndx++;
-    if (isType(ndx, ID_APPT)) {
+    if (isType(ndx, ID_APT)) {
       if (++ndx < tokens.length) {
         result.aptField = new FieldSpec(ndx, ++ndx);
         result.endAll = ndx;
@@ -2130,7 +2134,7 @@ public abstract class SmartAddressParser extends MsgParser {
     boolean pastAddr = false; 
     for (int ndx = 0; ndx < tokens.length; ndx++) {
       setType(ndx, setStart, pastAddr);
-      if (isType(ndx, ID_CROSS_STREET | ID_APPT)) {
+      if (isType(ndx, ID_CROSS_STREET | ID_APT)) {
         pastAddr = true;
         setStart = false;
       }
@@ -2367,7 +2371,7 @@ public abstract class SmartAddressParser extends MsgParser {
     if (pt == 0) return numberOK & token.length()-pt <= 4;
     String prefix = token.substring(0,pt).toUpperCase();
     Integer flags = dictionary.get(prefix);
-    return flags != null && (flags & ID_APPT) != 0;
+    return flags != null && (flags & ID_APT) != 0;
   }
 
   /**
