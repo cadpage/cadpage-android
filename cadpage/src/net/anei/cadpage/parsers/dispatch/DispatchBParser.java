@@ -724,6 +724,7 @@ public class DispatchBParser extends FieldProgramParser {
         "UNCONCIOUS PERSON",
         "UNCONSCIOUS",
         "UNCONSCIOUS CHANGING COLOR",
+        "UNCONSCIOUS EFFECT BREATHING",
         "UNCONSCIOUS/FAINTING",
         "UNCONSCIOUS/FAINTING (NEAR)",
         "UNCONSCIOUS/FAINTING DELTA",
