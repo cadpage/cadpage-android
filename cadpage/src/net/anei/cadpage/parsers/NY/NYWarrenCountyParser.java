@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Albany County, NY (Colonie)
+ * Warren County, NY
  */
 public class NYWarrenCountyParser extends FieldProgramParser {
   public NYWarrenCountyParser() {

@@ -2136,6 +2136,11 @@ UBJNEQF PERRX EQ / FHTNEYBNS EQ SQY 71O01 2011013987 16:02:05 IRUVPYR SVER 421A-
 524 WBARF QE OBBAR ZQY 01N01 2011013875 02:10:09 NOQBZVANY CNVA 194F-PURFGAHG TEI EQ-YG PBOOF PERRX EQ-1FG EG WBARF QE
 131 OVT INYYRL FG OBBAR 2011013813 13:15:57 FGEHPGHER SVER 321F-YG QRRESVRYQ EQ-GENIRY 2.0 ZV-EG OVT INYYRL FG VAGB QRRESVRYQ ZRNQBJF OHFVARFF CNEX
 *******************************************************************************
+Eblfr Pvgl, GK (GKEblfrPvglCnefre)
+524 ZNEGL PVE 2014-003665 15:21:06 ZRQVPNY PNYY
+509 PBBXFGBA YA EBLFR PVGL 2014-003576 15:31:47 NYNEZ
+213 PBHAGL EBNQ 911 2014-003534 01:10:17 NFFVFG
+*******************************************************************************
 Obgrgbheg Pbhagl, IN (APObgrgbhegPbhaglCnefre)
 FZ:167000 VAGREFGNGR 81 OHPUNANA 12001756 02:03:45 NPPVQRAG 10-50 AO FVQR GENPGBE GENVYRE JRAG QBJA BIRE ONAX CBFF SYVCCRQ\a\a\aGur vasbezngvba va guvf r-znvy zrffnt
 OPU:1078 OEHTUF ZVYY EQ SVAPNFGYR 12001840 12:35:42 SYHR SVER PNYYVAT SEBZ URE VA YNJF. UBZR AB VF 992-4197--FUR PURPXRQ VS NALBAR JNF UBZR NAQ AB BAR NAFJRERQ.
@@ -2645,6 +2650,11 @@ Ynevzre Pbhagl, PB (O) (PBYnevzrePbhaglOCnefre)
 00033,FZBXR VAI,228 FGENGGBA CNEX EQ.GRKG:NPEBFF GUR EBNQ BA EVFG PNALBA, NCCK 2 ZVYRF, YVTUG TENL FZBXR ORVAT FRRA, QRSVARQ PBYHZA NG GVZRF NAQ GURA JVFCF BHG. \ANZR:XNGUL PBK \CU:970-472-1972,
 00009,FZBXR VAI,R PE32/F PE9.GRKG:YBBXF YVXR FZBXR PBZVAT SEBZ GNYY TENFF--AB SYNZRF FRRA//FZBXR JNF FRRA ARNE RZVFFVBAF GEX FRG HC ARNE URER--YVXRYL ARNE PE9/PE32 \ANZR:YNSBAQ,JNLAR  E:CNFFREOL \CU:970/690-3807 \FBHEPR:JCU2,
 ***************************************************************************
+Zrzbevny Fgne, PB (PBZrzbevnyFgneCnefre) 
+352-14-5511: Zrzbevny Fgne, A38 57.6, J104 45.0, 7.63 az, 17.79 qrt, Zrzbevny Abegu Ubfcvgny, Gb: Zrzbevny Prageny Ubfcvgny_2 bs 2
+352-14-5510: Zrzbevny Fgne, A38 48.53, J104 43.4, 4.02 az, 116.64 qrt, Pbybenqb Fcevatf Wrg Pragre, Gb: Zrzbevny Prageny Ubfcvgny_2 bs 2
+352-14-5507: Zrzbevny Fgne, A37 58.61, J103 33.0, 78.39 az, 130.96 qrt, Nexnafnf Inyyrl Erty Zrq Pge, Gb: Zrzbevny Prageny Ubfcvgny_2 bs 2
+***************************************************************************
 Cvgxva Pbhagl, PB (PBCvgxvaPbhaglCnefre)
 FSQ \aTRARENY NYNEZ\a32 RYX EVQTR YA,FZI\aFSQ\aFSNYY3\aselref erfq   unyy #2 fzbxr qrgrpgbe  ab thneq   ab pnyy lrg
 CP  \aFNE\a29000 SELVAT CNA EQ,ZRE\aCP\a52\aZVQQYR SBEX BS SELVAT CNA EVIRE SVFUVAT, EC JRAG ONPX GB PURPX SBE SEVRAQ NAQ\aPNA'G SVAQ UVZ. UR UNF ORRA ZVFFVAT SBE BIRE NA UB
@@ -2824,6 +2834,11 @@ Fnenfbgn Pbhagl, SY (SYFnenfbgnPbhaglCnefre)
 FNENFBGN PBHAGL RIRAG GLCR: BQBE-VAFVQR Ybpngvba: 4546 QRRE PERRX OYIQ APGL T225 GVZR: 21:39:20  Qvfc: OA3,R14,R15,E14
 FNENFBGN PBHAGL RIRAG GLCR: FGEHPGHER SVER Ybpngvba: 4681 ZNPRNPURA OYIQ APGL T146 GVZR: 18:23:38  Qvfc: OA3,R11,R12,R8,E2,E7,G18,GEX11
 FNENFBGN PBHAGL RIRAG GLCR: SNYYF Ybpngvba: 1035 A YVZR NIR FNEN T056 GVZR: 14:35:29  Qvfc: OA1,R1,RZF1,E1
+***************************************************************************
+Frzvabyr Pbhagl, SY (SYFrzvabyrPbhaglCnefre)
+RZQN 210 TBYQRA QNLF QE, PNFFRYOREEL  (CYNMN BINY/FYHZORE YA) (ZncObbx:040;669 727;PNFFRYOREEL) GNP: 9O HAVGF: E21
+HAPBAFPVBHF / SNVAGVAT 920 FNMN EHA, PNFFRYOREEL  (/F YBFG YNXR YA) (ZncObbx:041;686 709;PNFFRYOREEL) GNP: 9O HAVGF: E25 G25
+RZQN 920 FNMN EHA, PNFFRYOREEL  (/F YBFG YNXR YA) (ZncObbx:041;686 709;PNFFRYOREEL) GNP: 9O HAVGF: E25
 ***************************************************************************
 Ohyybpu Pbhagl, TN (TNOhyybpuPbhaglNCnefre)
 (FGEHPGHER SVER) FGEHPGHER SVER\aPYLQRF #47\a513 OEBBXYRG RNFG\aOHEAVAT FZRYY SEBZ SHFR OBK
@@ -3792,6 +3807,11 @@ Hyfgre Pbhagl, AL (ALHyfgrePbhaglCnefre)
 ((63937) ZQNI/ ) Havg:RAT6 HavgFgf: Ybp:86 UBSSZNA KFgf:OEBNQJNL/ZNELF  NI Irahr:Xvat Pvgl Vap:Fgehpg Sve Qngr:11/03/2010 Gvzr:21:22 FZBXR PBQVGVBA VA  NERN Nqqgy
 ((59728) FDHV/ )  Havg:RAT6 HavgFgf: Ybp:77 PBEARYY KFgf:GERZCRE NI/FZVGU NI Irahr:Xvat  Pvgl Vap:Unm Zng Qngr:11/02/2010 Gvzr:00:45 HAXABJA BQBE VA OHVYQVAT  Nqqg
 ((2203) OXVA/ ) Havg:RAT6 HavgFgf: Ybp:89 ARJXVEX NI KFgf:UNFOEBHPX NI/ZNCYR  Irahr:Xvat Pvgl Vap:Fgehpg Sve Qngr:11/05/2010 Gvzr:21:39 ONFRZRAG SHYY BS FZBXR ***/
+****************************************************************************
+Jneera Pbhagl (ALJneeraPbhaglCnefre)
+*NYREG TSSQ*\aRZF1/Rzretrapl\a18 lb z fubhyqre vawhel\a600 TYRA FG Tyraf Snyyf(uggc://zncf.tbbtyr.pbz/?d=_600_TYRA_FG_Tyraf_Snyyf,AL)
+*NYREG TSSQ*\aNynez/Sver\aOO Sbjyre ohvyqvat 3eq sybbe sver nynez bc#27\a190 TYRA FG Tyraf Snyyf(uggc://zncf.tbbtyr.pbz/?d=43.309859,-73.644748)
+*NYREG TSSQ*\aRZF1/Rzretrapl\a43Z cbffvoyr bireqbfr  yrgunetvp\a175 OEBNQ FG Tyraf Snyyf(uggc://zncf.tbbtyr.pbz/?d=43.303723,-73.660019)
 ****************************************************************************
 Jnlar Pbhagl, AL (ALJnlarPbhaglCnefre)
 Fhowrpg:Qvfcngpu\aQvfcngpu ** 05:32 ** SNYYF ** 1542 FGROOVAF EQ ** UREZNA, RYNVAR ** FGHNEG NIR * GRYYVRE EQ ** 315-331-6505 ** \a
