@@ -8,32 +8,31 @@ public class COTellerCountyParser extends FieldProgramParser {
   
   public COTellerCountyParser() {
     super("TELLER COUNTY", "CO",
-           "Add:ADDR! Problem:CALL! Loc:PLACE");
+           "( PROB:CALL! ADD:ADDR! APT:APT! LOC:PLACE! | Add:ADDR! Problem:CALL! Loc:PLACE  Code:CODE )");
   }
   
   @Override
   public String getFilter() {
     return "ept@ept911.info";
   }
-
+  
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
-    if (body.length() >= 87 &&
-        body.substring(0,5).equals("PROB:") &&
-        body.substring(40,45).equals("ADD: ") &&
-        body.substring(75,79).equals("APT:") &&
-        body.substring(84,88).equals("LOC:")) { 
-     
-      setFieldList("ADDR CALL APT PLACE");
-      parseAddress(substring(body, 5, 40), data);
-      data.strCall = substring(body, 45, 75);
-      data.strApt = substring(body, 79, 84);
-      data.strPlace = substring(body, 88, 108);
-      return true;
+    body = body.replace("LOC:", " LOC:");
+    return super.parseMsg(body, data);
+  }
+
+  @Override
+  public Field getField(String name) {
+    if (name.equals("PLACE")) return new MyPlaceField();
+    return super.getField(name);
+  }
+  
+  private class MyPlaceField extends PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      field = substring(field, 0, 20);
+      super.parse(field,  data);
     }
-    
-    // Second format is handled by field program parser
-    return super.parseMsg(body,  data);
   }
 }
