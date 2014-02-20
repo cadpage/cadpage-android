@@ -38,7 +38,6 @@
    <string name="pref_about_key">about</string>
    <string name="pref_faq_key">faq</string>
    <string name="pref_releasenotes_key">releasenotes</string>
-   <string name="pref_timeout_key">timeout</string>
    <string name="pref_dimscreen_key">dimscreen</string>
    <string name="pref_privacy_key">privacy</string>
    <string name="pref_show_personal_key">show_personal</string>
@@ -58,7 +57,7 @@
    <string name="pref_flashled_pattern_custom_key">flashled_pattern_custom</string>
    <string name="pref_notif_repeat_key">notif_repeat</string>
    <string name="pref_notif_repeat_interval_key">notif_repeat_interval</string>
-   <string name="pref_notif_repeat_times_key">notif_repeat_num</string>
+   <string name="pref_notif_timeout_key">notif_timeout</string>
    <string name="pref_resp_type_key">resp_type</string>
    <string name="pref_resp_merge_key">resp_merge</string>
    <string name="pref_button1_key">button1</string>

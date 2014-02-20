@@ -35,12 +35,6 @@ public class ManageWakeLock {
     mWakeLock.setReferenceCounted(false);
     mWakeLock.acquire();
     if (Log.DEBUG) Log.v("**Wakelock acquired");
-
-    // Fetch wakelock/screen timeout from preferences
-    int timeout = ManagePreferences.timeout();
-
-    // Set a receiver to remove all locks in "timeout" seconds
-    ClearAllReceiver.setCancel(mContext, timeout);
   }
 
   public static synchronized void releaseFull() {

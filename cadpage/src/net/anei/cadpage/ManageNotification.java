@@ -432,7 +432,7 @@ public class ManageNotification {
     // If the media player is active, we *REALLY* need an acknowledge function
     if (mMediaPlayer != null) return true;
     
-    // Otherwise ask the Reminder Receiver it if has an active reminder out
-    return ReminderReceiver.isAckNeeded();
+    // Otherwise, we need a acknowledge function if reminders are active
+    return ManagePreferences.notifyRepeat();
   }
 }

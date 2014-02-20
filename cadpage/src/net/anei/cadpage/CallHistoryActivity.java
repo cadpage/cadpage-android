@@ -122,7 +122,7 @@ public class CallHistoryActivity extends ListActivity {
         (intent.getFlags() & Intent.FLAG_FROM_BACKGROUND) == 0) {
       
       // First clear any pending notification
-      ManageNotification.clear(this);
+      ClearAllReceiver.clearAll(this);
       
       // Second, launch the release info dialog if it hasn't already been displayed
       String release = getString(R.string.release_version);
@@ -153,6 +153,7 @@ public class CallHistoryActivity extends ListActivity {
         if (intent.getBooleanExtra(EXTRA_NOTIFY, false)) {
           ManageNotification.show(this, msg);
           SmsReceiver.launchScanner(this);
+          ClearAllReceiver.setCancel(this);
         }
      
         // OK, go ahead and open the call display window

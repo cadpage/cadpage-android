@@ -15,12 +15,8 @@ public class ClearAllReceiver extends BroadcastReceiver {
   @Override
   public void onReceive(Context context, Intent intent) {
     if (Log.DEBUG) Log.v("ClearAllReceiver: onReceive()");
-    clearAll();
-
-    // goToSleep() is not supported by the API at this time, this means
-    // the device will stay on for the user selected timeout after the
-    // WakeLock is released :(
-    // ManageWakeLock.goToSleep(context);
+    doClearAll(context);
+    ManageKeyguard.reenableKeyguard();
   }
 
   /*
@@ -29,25 +25,21 @@ public class ClearAllReceiver extends BroadcastReceiver {
    * to exit the Keyguard securely (exitKeyguardSecurely()) to perform an action
    * like "Reply" or "Inbox".
    */
-  public static synchronized void clearAll(boolean reenableKeyguard) {
-    if (Log.DEBUG) Log.v("ClearAllReceiver: clearAll(" + reenableKeyguard + ")");
-    if (reenableKeyguard) {
-      ManageKeyguard.reenableKeyguard();
-    }
-    ManageWakeLock.releaseFull();
+  public static synchronized void clearAll(Context context) {
+    removeCancel(context);
+    doClearAll(context);
   }
 
-  /*
-   * Default to re-enabling Keyguard
-   */
-  public static synchronized void clearAll() {
-    clearAll(true);
+  public static void doClearAll(Context context) {
+    if (Log.DEBUG) Log.v("ClearAllReceiver: clearAll()");
+    ManageWakeLock.releaseFull();
+    ManageNotification.clear(context);
   }
 
   /*
    * Gets the PendingIntent for a Broadcast to this class
    */
-  private static PendingIntent getPendingIntent(Context context) {
+  public static PendingIntent getPendingIntent(Context context) {
     return PendingIntent.getBroadcast(context, 0, new Intent(context, ClearAllReceiver.class), 0);
   }
 
@@ -57,8 +49,9 @@ public class ClearAllReceiver extends BroadcastReceiver {
    * and phone should go back to sleep (turning off screen and locking the
    * keyguard again).
    */
-  public static synchronized void setCancel(Context context, int timeout) {
+  public static synchronized void setCancel(Context context) {
     removeCancel(context);
+    int timeout = ManagePreferences.timeout();
     if (Log.DEBUG) Log.v("ClearAllReceiver: setCancel() for " + timeout + " seconds");
     AlarmManager myAM = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
     myAM.set(AlarmManager.RTC_WAKEUP, System.currentTimeMillis() + (timeout * 1000),
@@ -69,7 +62,7 @@ public class ClearAllReceiver extends BroadcastReceiver {
    * Cancels the scheduled Broadcast to this receiver (the user took some action
    * so the Activity can now react to whatever they are doing).
    */
-  public static synchronized void removeCancel(Context context) {
+  private static synchronized void removeCancel(Context context) {
     if (Log.DEBUG) Log.v("ClearAllReceiver: removeCancel()");
     AlarmManager myAM = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
     myAM.cancel(getPendingIntent(context));

@@ -168,23 +168,14 @@ public class SmsPopupActivity extends Safe40Activity {
       mProgressDialog.dismiss();
     }
 
-    if (wasVisible) {
-      // Cancel the receiver that will clear our locks
-      ClearAllReceiver.removeCancel(getApplicationContext());
-      ClearAllReceiver.clearAll(!exitingKeyguardSecurely);
-    }
+    if (wasVisible) ManageKeyguard.reenableKeyguard();
   }
 
   @Override
   protected void onStop() {
     super.onStop();
     if (Log.DEBUG) Log.v("SMSPopupActivity: onStop()");
-
-    // Cancel the receiver that will clear our locks
-    if (wasVisible) {
-      ClearAllReceiver.removeCancel(getApplicationContext());
-      ClearAllReceiver.clearAll(!exitingKeyguardSecurely);
-    }
+    if (wasVisible) ManageKeyguard.reenableKeyguard();
   }
 
   @Override
@@ -509,8 +500,8 @@ public class SmsPopupActivity extends Safe40Activity {
   public void onBackPressed() {
     super.onBackPressed();
     
-    // Clear any active notification
-    ManageNotification.clear(this);
+    // Clear any active notification and wake locks
+    ClearAllReceiver.clearAll(this);
     
     // Flag message acknowledgement
     message.acknowledge(this);

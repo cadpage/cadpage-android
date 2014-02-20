@@ -31,7 +31,9 @@ public class HistoryMsgTextView extends TextView {
 
       @Override
       public void onClick(View v) {
-        ManageNotification.clear(getContext());
+        
+        // Clear any active notification and wake locks
+        ClearAllReceiver.clearAll(getContext());
         
         if (msg == null) return;
         

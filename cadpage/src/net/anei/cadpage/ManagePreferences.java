@@ -30,7 +30,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 30;
+  private static final int PREFERENCE_VERSION = 32;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -420,10 +420,6 @@ public class ManagePreferences {
     return prefs.getIntValue(R.string.pref_notif_repeat_interval_key);
   }
   
-  public static int repeatTimes() {
-    return prefs.getIntValue(R.string.pref_notif_repeat_times_key);
-  }
-  
   public static boolean popupEnabled() {
     return prefs.getBoolean(R.string.pref_popup_enabled_key);
   }
@@ -448,7 +444,7 @@ public class ManagePreferences {
   }
   
   public static int timeout() {
-    return prefs.getIntValue(R.string.pref_timeout_key);
+    return prefs.getIntValue(R.string.pref_notif_timeout_key);
   }
   
   public static boolean dimScreen() {
@@ -994,8 +990,8 @@ public class ManagePreferences {
         R.string.pref_flashled_pattern_custom_key,
 
         R.string.pref_notif_repeat_key,
-        R.string.pref_notif_repeat_times_key,
         R.string.pref_notif_repeat_interval_key,
+        R.string.pref_notif_timeout_key,
 
         R.string.pref_history_limit_key,
         R.string.pref_delete_unopen_key,
@@ -1008,7 +1004,6 @@ public class ManagePreferences {
         R.string.pref_passthrusms_key,
         
         R.string.pref_screen_on_key,
-        R.string.pref_timeout_key,
         R.string.pref_textsize_key,
         R.string.pref_dimscreen_key,
         R.string.pref_privacy_key,

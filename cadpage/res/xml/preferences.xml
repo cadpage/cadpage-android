@@ -43,6 +43,14 @@
           android:showSilent="true"
           android:dependency="@string/pref_notif_enabled_key"
           android:defaultValue="content://settings/system/notification_sound" />
+        <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_notif_timeout_key"
+          android:title="@string/pref_notif_timeout_title"
+          android:summary="@string/pref_notif_timeout_summary"
+          android:entries="@array/pref_notif_timeout_entries"
+          android:entryValues="@array/pref_notif_timeout_values"
+          android:defaultValue="@string/pref_notif_timeout_default"
+          android:dependency="@string/pref_notif_enabled_key" />
         <net.anei.cadpage.preferences.TestNotificationDialogPreference
           android:key="@string/pref_notif_test_key"
           android:dialogIcon="@drawable/android:ic_dialog_alert"
@@ -106,14 +114,6 @@
           android:summaryOn="@string/pref_notif_repeat_summaryon"
           android:summaryOff="@string/pref_notif_repeat_summaryoff"
           android:defaultValue="@string/pref_notif_repeat_default" />
-        <net.anei.cadpage.preferences.ListPreference
-          android:key="@string/pref_notif_repeat_times_key"
-          android:title="@string/pref_notif_repeat_times_title"
-          android:summary="@string/pref_notif_repeat_times_summary"
-          android:entries="@array/pref_notif_repeat_times_entries"
-          android:entryValues="@array/pref_notif_repeat_times_values"
-          android:defaultValue="@string/pref_notif_repeat_times_default"
-          android:dependency="@string/pref_notif_repeat_key" />
         <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_notif_repeat_interval_key"
           android:title="@string/pref_notif_repeat_interval_title"
@@ -197,12 +197,12 @@
           android:summaryOff="@string/pref_screen_on_summaryoff"
           android:defaultValue="@string/pref_screen_on_default" />
         <net.anei.cadpage.preferences.ListPreference
-          android:key="@string/pref_timeout_key"
-          android:title="@string/pref_timeout_title"
-          android:summary="@string/pref_timeout_summary"
-          android:entries="@array/pref_timeout_entries"
-          android:entryValues="@array/pref_timeout_values"
-          android:defaultValue="@string/pref_timeout_default"
+          android:key="@string/pref_notif_timeout_key"
+          android:title="@string/pref_notif_timeout_title"
+          android:summary="@string/pref_notif_timeout_summary"
+          android:entries="@array/pref_notif_timeout_entries"
+          android:entryValues="@array/pref_notif_timeout_values"
+          android:defaultValue="@string/pref_notif_timeout_default"
           android:dependency="@string/pref_screen_on_key" />
         <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_textsize_key"

@@ -128,23 +128,25 @@
     <item>I</item>
   </string-array>
   
-  <string-array name="pref_timeout_entries">
-    <item>@string/pref_timeout_entries_10s</item>
-    <item>@string/pref_timeout_entries_20s</item>
-    <item>@string/pref_timeout_entries_30s</item>
-    <item>@string/pref_timeout_entries_1m</item>
-    <item>@string/pref_timeout_entries_2m</item>
-    <item>@string/pref_timeout_entries_5m</item>
-    <item>@string/pref_timeout_entries_10m</item>
+  <string-array name="pref_notif_timeout_entries">
+    <item>@string/pref_notif_timeout_entries_30s</item>
+    <item>@string/pref_notif_timeout_entries_1m</item>
+    <item>@string/pref_notif_timeout_entries_2m</item>
+    <item>@string/pref_notif_timeout_entries_3m</item>
+    <item>@string/pref_notif_timeout_entries_4m</item>
+    <item>@string/pref_notif_timeout_entries_5m</item>
+    <item>@string/pref_notif_timeout_entries_7m</item>
+    <item>@string/pref_notif_timeout_entries_10m</item>
   </string-array>
   <string-array
-    name="pref_timeout_values">
-    <item>10</item>
-    <item>20</item>
+    name="pref_notif_timeout_values">
     <item>30</item>
     <item>60</item>
     <item>120</item>
+    <item>180</item>
+    <item>240</item>
     <item>300</item>
+    <item>420</item>
     <item>600</item>
   </string-array>
 
