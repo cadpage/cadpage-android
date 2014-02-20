@@ -181,8 +181,10 @@ public class SmsPopupActivity extends Safe40Activity {
     if (Log.DEBUG) Log.v("SMSPopupActivity: onStop()");
 
     // Cancel the receiver that will clear our locks
-    ClearAllReceiver.removeCancel(getApplicationContext());
-    ClearAllReceiver.clearAll(!exitingKeyguardSecurely);
+    if (wasVisible) {
+      ClearAllReceiver.removeCancel(getApplicationContext());
+      ClearAllReceiver.clearAll(!exitingKeyguardSecurely);
+    }
   }
 
   @Override
