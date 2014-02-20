@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.TX;
 
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
@@ -12,7 +13,21 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
   
   public TXGalvestonCountyParser() {
     super("GALVESTON COUNTY", "TX",
-          "ADDR/aSCI! INFO+");
+          "ADDR/aS8CI! INFO+");
+    setupCallList(CALL_LIST);
+    setupMultiWordStreets(
+        "BOB SMITH",
+        "CAPTAIN BLIGH",
+        "CAPTAIN HOOK",
+        "COVE VIEW",
+        "EDWARD TEACH",
+        "JAMAICA BEACH",
+        "JAMAICA COVE",
+        "JOLLY ROGER",
+        "MOBY DICK",
+        "PONCE DE LEON",
+        "SAN LOUIS PASS",
+        "SPANISH MAIN");
   }
   
   @Override
@@ -52,16 +67,21 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
-  
+
+  private static final Pattern NUMBER_HWY_PTN = Pattern.compile("\\b(\\d+)(US|FT|TX|FM)\\b");
   private static final Pattern AVE_X_ST_PTN = Pattern.compile("\\bAVE ([A-Z]) ST\\b");
   private static final Pattern AVE_X_ST_PTN2 = Pattern.compile("\\bAVE_([A-Z]) ST\\b");
+  private static final Pattern NUMBER_DASH_PTN = Pattern.compile("^(\\d+)-(?![A-Z] |BLK )");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith("FYI:")) field = field.substring(4).trim();
+      else if (field.startsWith("Update:")) field = field.substring(7).trim();
+      field = NUMBER_HWY_PTN.matcher(field).replaceAll("$1 $2");
       field = AVE_X_ST_PTN.matcher(field).replaceAll("AVE_$1 ST");
       super.parse(field, data);
       data.strAddress = AVE_X_ST_PTN2.matcher(data.strAddress).replaceAll("AVE $1");
+      data.strAddress = NUMBER_DASH_PTN.matcher(data.strAddress).replaceFirst("$1 ");
       if (data.strAddress.length() == 0) abort();
     }
     
@@ -70,4 +90,20 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
       return super.getFieldNames() + " X";
     }
   }
+  
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "ASSIST EMS",
+      "ASSIST LAW ENFORCEMENT",
+      "FIRE - NON SPECIFIC",
+      "FIRST RESPONDER WITH EMS",
+      "GAS LEAK",
+      "GRASS FIRE",
+      "LANDING ZONE",
+      "LINE DOWN",
+      "MAJOR ACCIDENT",
+      "MUTUAL AID",
+      "POLE FIRE",
+      "SMOKE INVESTIGATION",
+      "STRUCTURE FIRE"
+  );
 }

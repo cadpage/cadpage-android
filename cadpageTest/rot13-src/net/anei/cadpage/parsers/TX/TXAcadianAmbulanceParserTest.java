@@ -75,7 +75,7 @@ choyvp pynff GKNpnqvnaNzohynaprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:9881442",
         "PNYY:Yvsr Guerngravat Rzretrapl Urneg Ceboyrzf",
         "NQQE:24212 Sz 2100 Eq",
-        "ZNQQE:24212 Snez-gb-znexrg 2100 Eq",
+        "ZNQQE:24212 SNEZ-GB-ZNEXRG 2100",
         "K:Haanzrq Fgerrg/3eq Fg",
         "PVGL:Uhsszna, Uneevf");
 

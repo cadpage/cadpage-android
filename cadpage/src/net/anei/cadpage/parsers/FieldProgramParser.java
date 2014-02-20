@@ -76,6 +76,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *             cross street.  Useful to work around city names that start with N or S
  *         6 - additional checks to detect non-numeric implied apartment fields
  *         7 - There may not be a blank between start field and address :(
+ *         8 - There may not be a street suffix :(:(:(
  *         First field character determines what can come ahead of the address
  *         X - nothing
  *         C - call description (req)
@@ -2105,6 +2106,10 @@ public class FieldProgramParser extends SmartAddressParser {
         
         case 7:
           parseFlags |= FLAG_START_FLD_NO_DELIM;
+          break;
+          
+        case 8:
+          parseFlags |= FLAG_OPT_STREET_SFX;
           break;
         }
           
