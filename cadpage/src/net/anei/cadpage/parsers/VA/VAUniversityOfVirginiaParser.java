@@ -27,6 +27,15 @@ public class VAUniversityOfVirginiaParser extends MsgParser {
     super("CHARLOTTESVILLE", "VA");
     setFieldList("ADDR CALL ID PLACE INFO");
   }
+  
+  
+
+  @Override
+  public String getLocName() {
+    return "University of Virginia, VA";
+  }
+
+
 
   @Override
   protected boolean parseMsg(String body, Data data) {
