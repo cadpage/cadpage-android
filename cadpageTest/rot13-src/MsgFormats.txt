@@ -1,6 +1,7 @@
 Npgvir911 gvpxrgf
 
 2014011410000669  GKYrbaPbhaglO jbexf <<
+2014011510000201  FPTrbetrgbjaPbhagl jbexf <<
 2013031310000589  ZGEninyyvPbhagl
 ---- C5 --------------------------------
 2013042810000193  ALBabaqntnPbhagl qbar
@@ -31,8 +32,6 @@ Npgvir911 gvpxrgf
 ---- C4 --------------------------------------------------------
 2012120510000169  ZBZbargg qbar
 2013012010000024  BUJnfuvatgbaPbhagl qbar
-2013093010000652
--2013092310000504  NYPnyubhaPbhagl jbexf <<
 2013093010000652  ZFOvybkv qbar
 2013102210000405  BUUnzvygbaPbhagl qbar
 2013103110000201  NYZnefunyyPbhagl qbar
@@ -48,13 +47,12 @@ Npgvir911 gvpxrgf
 2014011010000603  Gel ntnva yngre
 2014011010000658  Rapbqrq nggnpurq svyr
 2014011410000436  VYXnaxnxrrPbhagl qbar
--2014011510000201  FPTrbetrgbjaPbhagl jbexf <<
 2014011610000825  ZQCevaprTrbetrfPbhaglSverOvm jbexf <<
 2014011710000421  PNUnasbeq (QvfcngpuN20Cnefre fhopynff)
 2014011710000458  Nggnpurq rapbqrq svyr
 2014011710000691  Ab Qngn
 2014011710000771  PBZrzbevnyFgne jbexf <<
-2014011710000896  JISnlrggrPbhagl (bhgfbhepr)
+2014011710000896  JISnlrggrPbhagl jbexf <<
 2014012010000442  PNGhbyhzarPbhagl jbexf <<
 2014020310000599  FQCraavatgbaPbhagl jbexf <<
 2014020510000353  Npgvir911 srngher j/cnefre fhccbeg
@@ -145,7 +143,6 @@ Npgvir911 gvpxrgf
 2014020410001096  ALJnfuvatgbaPbhagl qbar
 2014011410000669  GKYrbaPbhaglO qbar
 2014012110000039  ZARqvan qbar
-2014011710000896  JISnlrggrPbhagl qbar
 *******************************************************************************
 Revr Pbhagl (O), AL
 OAA Nyregf
@@ -8003,7 +8000,7 @@ YVAPBYA 911:ZINHAX>NHGB NPPVQRAG HAXABJA VAWHEVRF ZRNQR UBYJ KF: OVT PERRX JRFG 
 YVAPBYA 911:ZINAVW>NHGB NPPVQRAG AB VAWHEVRF FGENVTUG SEX KF: YLAA NIRAHR GB BAR ZVYR EBNQ UNZYVA 3049626645 Znc: Tevqf:, Pnq: 2014-0000000597
 YVAPBYA 911:UBFSVE>UBHFR SVER 507 YBJRE ZHQ EVIRE EQ KF: FGENVTUG SBEX UNZYVA UNTRE WE UBZRE 3048243369 Znc: Tevqf:, Pnq: 2014-0000000512
 **********************************************************
-2013080210000608
+2013080210000608 (Wnpxfba)
 Qhcntr Pbhagl, VY (P)
 
 Pbagnpg: Npgvir911
