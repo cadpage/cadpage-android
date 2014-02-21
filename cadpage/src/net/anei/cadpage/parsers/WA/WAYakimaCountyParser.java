@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class WAYakimaCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER = 
-    Pattern.compile("(?:(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d)|\\*\\*\\.\\*\\*\\.\\*\\* \\*\\*/\\*\\*/\\*\\*) (.*?) ([A-Z]{2}FD|AMR|ALS|SCOM)((?: +(?:[A-Z]+\\d+[A-Z]?|AOA|[A-Z]{1,2}DC))+)(?: +(.*))?");
+    Pattern.compile("(?:(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d)|\\*\\*\\.\\*\\*\\.\\*\\* \\*\\*/\\*\\*/\\*\\*) (.*?) ([A-Z]{2}FD|AMR|ALS|SCOM|PRAM)((?: +(?:[A-Z]+\\d+[A-Z]?|AOA|[A-Z]{1,2}DC))+)(?: +(.*))?");
   private static final Pattern APT_MARK_PTN = Pattern.compile(" +(?:APT|ROOM) +", Pattern.CASE_INSENSITIVE);
   
   public WAYakimaCountyParser() {
@@ -57,9 +57,12 @@ public class WAYakimaCountyParser extends SmartAddressParser {
 
   private void setup() {
     setupCallList(
+      "Alarm Business",
+      
       "ACCIDENT HITRUN",
       "ACCIDENT INJURY",
       "ACCIDENT NO INJ",
+      "ACCIDENT UNKNOW",
       "CITIZEN ASSIST",
       "EMR ALARM MED",
       "EMR AMB",
@@ -73,11 +76,14 @@ public class WAYakimaCountyParser extends SmartAddressParser {
       "FIRE AIR LIGHT",
       "FIRE AIR STANDB",
       "FIRE ALARM RES",
+      "FIRE ALARM 1",
       "FIRE ALARM 2",
       "FIRE AUTO ALARM",
+      "FIRE AUTO ALM 1",
       "FIRE AUTO ALM 2",
       "FIRE BRUSH GRAS",
       "FIRE CHIMNEY",
+      "FIRE ELECTRICAL",
       "FIRE EWR",
       "FIRE FW",
       "FIRE HAYSTACK",
