@@ -145,6 +145,7 @@ public class VALoudounCountyParser extends FieldProgramParser {
       "ST", "STERLING",
       "RH", "ROUND HILL",
       "UP", "UPPERVILLE",
+      "WA", "WATERFORD",
 
       "FX19", "FAIRFAX",
       "FX11", "FAIRFAX",
@@ -154,8 +155,7 @@ public class VALoudounCountyParser extends FieldProgramParser {
       "FR", "FREDERICK COUNTY/MD",
       "FX", "FAIRFAX COUNTY",
       "JE", "JEFFERSON COUNTY/WV",
-      "PW", "PRINCE WILLIAM COUNTY",
-      "WA", "WASHINGTON COUNTY/MD"
+      "PW", "PRINCE WILLIAM COUNTY"
 
    });
 }
