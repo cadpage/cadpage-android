@@ -31,7 +31,8 @@ Npgvir911 gvpxrgf
 ---- C4 --------------------------------------------------------
 2012120510000169  ZBZbargg qbar
 2013012010000024  BUJnfuvatgbaPbhagl qbar
-2013092310000504  NYPnyubhaPbhagl jbexf <<
+2013093010000652
+-2013092310000504  NYPnyubhaPbhagl jbexf <<
 2013093010000652  ZFOvybkv qbar
 2013102210000405  BUUnzvygbaPbhagl qbar
 2013103110000201  NYZnefunyyPbhagl qbar
@@ -47,7 +48,7 @@ Npgvir911 gvpxrgf
 2014011010000603  Gel ntnva yngre
 2014011010000658  Rapbqrq nggnpurq svyr
 2014011410000436  VYXnaxnxrrPbhagl qbar
-2014011510000201  FPTrbetrgbjaPbhagl jbexf <<
+-2014011510000201  FPTrbetrgbjaPbhagl jbexf <<
 2014011610000825  ZQCevaprTrbetrfPbhaglSverOvm jbexf <<
 2014011710000421  PNUnasbeq (QvfcngpuN20Cnefre fhopynff)
 2014011710000458  Nggnpurq rapbqrq svyr
@@ -76,6 +77,15 @@ Npgvir911 gvpxrgf
 2013091810000443  SYPbenyFcevatf (bhgfbhepr)
 2013092510000662  PNYnxrPbhagl qbar
 2013092710000211  AWFhffrkPbhaglN jbexf <<
+2013092710000257
+2013093010000572
+2013101410000448
+2013101410000546
+2013102410000509
+2013102510000589
+2013110710000316
+2013111510000061
+2014010510000239
 -----------------------------------------------------------
 2014011610000871  Arrqf UGZY Cnefre (HF/VA/JnlarPbhagl)
 2013102310000565  FPCvpxrafPbhagl arrqf UGZY cnefre
