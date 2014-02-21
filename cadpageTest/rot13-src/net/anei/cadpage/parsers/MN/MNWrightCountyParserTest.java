@@ -272,6 +272,85 @@ Fraqre: <jevtugabercyl@pb.jevtug.za.hf>
 (Fg Zvpunry Sver Rznvy) FZSQ:2013:251\aQvfcngpurq\aZrqvpny - Purfg Cnva ~ 9730\a@Yrtnpl bs Fg Zvpunry, FG ZVPUNRY (4400 YNATR NIR AR )
 (Fg Zvpunry Sver Rznvy) FZSQ:2013:250\aQvfcngpurq\aSver - Bgure ~ 9600\a@Fg Zvpunry Senaxsbeg Sver FZSQ, FG ZVPUNRY (12239 42AQ FG AR )
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Pyrnejngre Sver Qrcg
+Ybpngvba: Pyrnejngre, ZA, Havgrq Fgngrf
+Fraqre: <jevtugabercyl@pb.jevtug.za.hf>
+
+(Pyrnejngre Sver Rznvy) PSQ:2014:37\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a422 155gu Fg, Ylaqba
+(Pyrnejngre Sver Rznvy) PSQ:2014:36\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a22187 3 Nir R, Yvaqra gjc
+(Pyrnejngre Sver Rznvy) PSQ:2014:35\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a@ZZ 183 JO (V94 )
+(Pyrnejngre Sver Rznvy) PSQ:2014:34\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a@ZZ 181 RO (V94 )
+(Pyrnejngre Sver Rznvy) PSQ:2014:33\aQvfcngpurq\aZrqvpny - Haerfcbafvir ~ 9730\a785 VFNORYYN NIR , PYRNEJNGRE ( 9GU FG \ 8GU FG)
+(Pyrnejngre Sver Rznvy) PSQ:2014:32\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a15828 PBHAGL EBNQ 75 AJ , PYRNEJNGRE GJC ( 158GU FG AJ / 159GU FG AJ)
+(Pyrnejngre Sver Rznvy) PSQ:2014:30\aQvfcngpurq\aZrqvpny - Haerfcbafvir ~ 9730\a151 OYHROVEQ YA , PYRNEJNGRE ( TBYQSVAPU YA / RNTYR QE)
+(Pyrnejngre Sver Rznvy) PSQ:2014:29\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a@ZZ 183 RO (V94 )
+(Pyrnejngre Sver Rznvy) PSQ:2014:28\aQvfcngpurq\aZrqvpny - Qvssvphygl Oernguvat ~ 9730\a505 FCEVAT FG , PYRNEJNGRE ( NFU FG \ ZNCYR FG)
+(Pyrnejngre Sver Rznvy) PSQ:2014:27\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a345 ZNVA FG , PYRNEJNGRE ( RYZ FG \ BNX FG)
+(Pyrnejngre Sver Rznvy) PSQ:2014:26\aQvfcngpurq\aSver - Bgure ~ 9600\a15914 TERRE NIR AJ , PYRNEJNGRE GJC ( 159GU FG AJ / TEVSSVGU NIR AJ; Arne: Svfu)
+(Pyrnejngre Sver Rznvy) PSQ:2014:26\aQvfcngpurq\aSver - Bgure ~ 9600\a15914 TERRE NIR AJ , PYRNEJNGRE GJC ( 159GU FG AJ / TEVSSVGU NIR AJ; Arne: Svfu)
+(Pyrnejngre Sver Rznvy) PSQ:2014:25\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a835 NFU FG #108, PYRNEJNGRE ( FZVGU FG \ FGNGR UVTUJNL 24; Arne: Pyrnejngre Evire Ncgf)
+(Pyrnejngre Sver Rznvy) PSQ:2014:24\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a@Nzrevpna Yrtvba, PYRNEJNGRE (505 CVAR FG )
+(Pyrnejngre Sver Rznvy) PSQ:2014:23\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a20427 jbbqivar eq, ylaqra gjc
+(Pyrnejngre Sver Rznvy) PSQ:2014:21\aQvfcngpurq\aSver - Bgure ~ 9600\a2004 qnvfl pve
+(Pyrnejngre Sver Rznvy) PSQ:2014:20\aQvfcngpurq\aSver - Fgehpgher ~ 9600\a2004 Qnvfl Pve
+(Pyrnejngre Sver Rznvy) PSQ:2014:19\aQvfcngpurq\aSver - Bgure ~ 9600\a320 ZNVA FG , PYRNEJNGRE ( RYZ FG \ BNX FG)
+(Pyrnejngre Sver Rznvy) PSQ:2014:17\aQvfcngpurq\aSver - Bgure ~ 9600\a@zz 176 RO
+(Pyrnejngre Sver Rznvy) PSQ:2014:15\aQvfcngpurq\aZrqvpny - Nynez ~ 9730\a7215 160GU FG AJ , PYRNEJNGRE GJC ( URAQEVPXF NIR AJ \ UHORE NIR AJ)
+(Pyrnejngre Sver Rznvy) PSQ:2014:14\aQvfcbfrq\aZrqvpny - Purfg Cnva ~ 9730\a@Ubyvqnl, PYRNEJNGRE (950 FGNGR UVTUJNL 24 )
+(Pyrnejngre Sver Rznvy) PSQ:2014:14\aQvfcngpurq\aZrqvpny - Purfg Cnva ~ 9730\a@Ubyvqnl, PYRNEJNGRE (950 FGNGR UVTUJNL 24 )
+(Pyrnejngre Sver Rznvy) PSQ:2014:13\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a@ZZ 181 RO (V94 )
+(Pyrnejngre Sver Rznvy) PSQ:2014:12\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a@ZZ 178 RO (V94 )
+(Pyrnejngre Sver Rznvy) PSQ:2014:11\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a14451 UHORE NIR AJ , PYRNEJNGRE GJC ( 145GU FG AJ \ TEBIRE NIR AJ)
+(Pyrnejngre Sver Rznvy) PSQ:2014:10\aQvfcngpurq\aSver - Bgure ~ 9600\a1677 pe 143, Ylaqra Gjc
+(Pyrnejngre Sver Rznvy) PSQ:2014:9\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a16777 PBHAGL EBNQ 75 AJ , PYRNEJNGRE GJC ( TEBIRE NIR AJ /)
+(Pyrnejngre Sver Rznvy) PSQ:2014:8\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a933 VFNORYYN NIR , PYRNEJNGRE ( WHYVRG NIR \ VFNORYYN PG)
+(Pyrnejngre Sver Rznvy) PSQ:2014:7\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a@ZZ 181 JO (V94 )
+(Pyrnejngre Sver Rznvy) PSQ:2014:6\aQvfcngpurq\aSver - Bgure ~ 9600\a315 ZNVA FG , PYRNEJNGRE ( RYZ FG \ BNX FG)
+(Pyrnejngre Sver Rznvy) PSQ:2014:5\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a2065 pe 143
+(Pyrnejngre Sver Rznvy) PSQ:2014:3\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a@zz177 V94
+(Pyrnejngre Sver Rznvy) PSQ:2014:2\aQvfcngpurq\aIruvpyr - Sver ~ 9600\a@ZZ 182 JO (V94 )
+(Pyrnejngre Sver Rznvy) PSQ:2014:1\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a3032 Shygba Pv
+(Pyrnejngre Sver Rznvy) PSQ:2013:223\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a810 XRYFRL NIR #101, PYRNEJNGRE ( PBHAGL EBNQ 7 AJ \ 8GU FG; Arne: Prqne Evqtr Ncgf 2)
+(Pyrnejngre Sver Rznvy) PSQ:2013:222\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a@Geniry Cynmn, PYRNEJNGRE (950 FGNGR UVTUJNL 24 )
+(Pyrnejngre Sver Rznvy) PSQ:2013:220\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\aFGNGR UVTUJNL 24 , PYRNEJNGRE
+(Pyrnejngre Sver Rznvy) PSQ:2013:219\aQvfcngpurq\aZrqvpny - Sver Erfphr Arrqrq ~ 9730\a7215 160GU FG AJ , PYRNEJNGRE GJC ( URAQEVPXF NIR AJ / UHORE NIR AJ)
+(Pyrnejngre Sver Rznvy) PSQ:2013:218\aQvfcngpurq\aZrqvpny - Nynez ~ 9730\a7215 160GU FG AJ , PYRNEJNGRE GJC ( URAQEVPXF NIR AJ \ UHORE NIR AJ)
+(Pyrnejngre Sver Rznvy) PSQ:2013:217\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a94 pe 143 jrfgobhaq,fgrneaf pb
+(Pyrnejngre Sver Rznvy) PSQ:2013:216\aQvfcngpurq\aSver - Bgure ~ 9600\a@Ubyvqnl, PYRNEJNGRE (1015 FGNGR UVTUJNL 24 )
+(Pyrnejngre Sver Rznvy) PSQ:2013:215\aQvfcngpurq\aSver - Iruvpyr ~ 9600\a@ZZ 184 JO (V94 )
+(Pyrnejngre Sver Rznvy) PSQ:2013:214\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a@ZZ 183 RO (V94 )
+(Pyrnejngre Sver Rznvy) PSQ:2013:213\aQvfcngpurq\aZrqvpny - Nynez ~ 9730\a17492 PE 44
+(Pyrnejngre Sver Rznvy) PSQ:2013:212\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a@Aryfba Oebguref Erfgnhenag & Onxrel, PYRNEJNGRE (950 FGNGR UVTUJNL 24 )
+(Pyrnejngre Sver Rznvy) PSQ:2013:211\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a1040 CBEGRE FG #3, PYRNEJNGRE ( CBEGRE PVE / XBGUZNA PVE; Arne: Cnex Ivrj Ncgf)
+(Pyrnejngre Sver Rznvy) PSQ:2013:210\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a107 TBYQSVAPU YA , PYRNEJNGRE ( OYHROVEQ YA /)
+(Pyrnejngre Sver Rznvy) PSQ:2013:209\aQvfcngpurq\aSver - Bgure ~ 9600\a7215 160GU FG AJ , PYRNEJNGRE GJC ( URAQEVPXF NIR AJ / UHORE NIR AJ)
+(Pyrnejngre Sver Rznvy) PSQ:2013:208\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a1155 CBEGRE FG , PYRNEJNGRE ( ZNABE QE / ZNVA FG)
+(Pyrnejngre Sver Rznvy) PSQ:2013:207\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\aV 94 zz 174
+(Pyrnejngre Sver Rznvy) PSQ:2013:206\aQvfcngpurq\aFhvpvqr Nggrzcg Srznyr ~ 9703\a640 ZNVA FG , PYRNEJNGRE ( CVAR FG / NFU FG; Arne: G&E Zrng Cebprffvat)
+(Pyrnejngre Sver Rznvy) PSQ:2013:205\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\ape 145\193 fg ar, ylaqra gjc
+(Pyrnejngre Sver Rznvy) PSQ:2013:204\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\aPBHAGL EBNQ 75 \ FGNGR UVTUJNL 24 (, PYRNEJNGRE)
+(Pyrnejngre Sver Rznvy) PSQ:2013:203\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a7215 160GU FG AJ , PYRNEJNGRE GJC ( URAQEVPXF NIR AJ / UHORE NIR AJ)
+(Pyrnejngre Sver Rznvy) PSQ:2013:202\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a520 10GU FG , PYRNEJNGRE ( VFNORYYN NIR \ UHORE NIR AJ)
+(Pyrnejngre Sver Rznvy) PSQ:2013:201\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a950 FGNGR UVTUJNL 24 , PYRNEJNGRE ( ARYFBA QE \ NFU FG; Arne: Geniry Cynmn)
+(Pyrnejngre Sver Rznvy) PSQ:2013:200\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\aFGNGR UVTUJNL 24 AJ \ 127GU FG AJ (, PYRNEJNGRE GJC)
+(Pyrnejngre Sver Rznvy) PSQ:2013:199\aQvfcngpurq\aZrqvpny - Purfg Cnva ~ 9730\a950 FGNGR UVTUJNL 24 , PYRNEJNGRE ( ARYFBA QE / NFU FG; Arne: Geniry Cynmn)
+(Pyrnejngre Sver Rznvy) PSQ:2013:198\aQvfcngpurq\aZrqvpny - Qvssvphygl Oernguvat ~ 9730\a@Yvggyr Qhxrf, PYRNEJNGRE (705 PBHAGL EBNQ 75 )
+(Pyrnejngre Sver Rznvy) PSQ:2013:197\aQvfcngpurq\aZrqvpny - Purfg Cnva ~ 9730\a950 FGNGR UVTUJNL 24 , PYRNEJNGRE ( ARYFBA QE \ NFU FG; Arne: Geniry Cynmn)
+(Pyrnejngre Sver Rznvy) PSQ:2013:196\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a21425 19 NI R
+(Pyrnejngre Sver Rznvy) PSQ:2013:195\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a810 XRYFRL NIR #CG 116, PYRNEJNGRE ( PBHAGL EBNQ 7 AJ / 8GU FG; Arne: Prqne Evqtr Ncgf 2)
+(Pyrnejngre Sver Rznvy) PSQ:2013:194\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a21706 pe 44
+(Pyrnejngre Sver Rznvy) PSQ:2013:193\aQvfcngpurq\aNtrapl Nffvfg ~ 9930\a2702 shygba pvepyr, Ylaqba gjfc
+(Pyrnejngre Sver Rznvy) PSQ:2013:192\aQvfcngpurq\aSver - Bgure ~ 9600\a520 ZNCYR FG , PYRNEJNGRE ( YVZR FG \ PBHAGL EBNQ 75)
+(Pyrnejngre Sver Rznvy) PSQ:2013:191\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a16442 5gu ni, ylaqra gjc
+(Pyrnejngre Sver Rznvy) PSQ:2013:190\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a107 TBYQSVAPU YA , PYRNEJNGRE
+(Pyrnejngre Sver Rznvy) PSQ:2013:189\aQvfcngpurq\aZrqvpny - Qvssvphygl Oernguvat ~ 9730\a13274 PBHAGL EBNQ 7 AJ , PYRNEJNGRE GJC ( 145GU FG AJ / TEBIRE NIR AJ)
+(Pyrnejngre Sver Rznvy) PSQ:2013:187\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\aFGNGR UVTUJNL 24 \ 179GU FG AJ (, PYRNEJNGRE GJC)
+(Pyrnejngre Sver Rznvy) PSQ:2013:186\aQvfcngpurq\aZrqvpny - Bgure ~ 9730\a830 PBHAGL EBNQ 75 , PYRNEJNGRE ( ARYFBA QE \ FGNGR UVTUJNL 24; Arne: G&B Cynfgvpf)
+(Pyrnejngre Sver Rznvy) PSQ:2013:185\aQvfcngpurq\aZrqvpny - Fgebxr ~ 9730\a157 PNEQVANY YA , PYRNEJNGRE ( TBYQSVAPU YA / RNTYR QE)
+(Pyrnejngre Sver Rznvy) PSQ:2013:184\aQvfcngpurq\aZrqvpny - Purfg Cnva ~ 9730\a730 OYHSS FG , PYRNEJNGRE ( JNYAHG FG A / CVAR FG)
+(Pyrnejngre Sver Rznvy) PSQ:2013:183\aQvfcngpurq\aNppvqrag - Iru - Vawhevrf ~ 9400\a160GU FG AJ \ SVYYZBER NIR AJ (, PYRNEJNGRE GJC)
+
 QvfcngpuN13Cnefre fhopynff
 
 */
