@@ -10,7 +10,7 @@ Npgvir911 gvpxrgf
 2013112010000194  Fraqvat rapbqrq UGZY svyr.
 2013120310000036  Arrqf na UGZY cnefre
 2013120310000465  CNPurfgrePbhaglT qbar
-2013122310000267  NETneynaqPbhagl qbar
+-2013122310000267  NETneynaqPbhagl qbar
 2014010910000197  APPyrirynaqPbhagl qbar
 2014011010000201  GKGenivfPbhagl qbar
 2014011710000985  NYUbbire qbar
@@ -55,9 +55,9 @@ Npgvir911 gvpxrgf
 2014011710000896  JISnlrggrPbhagl jbexf <<
 2014012010000442  PNGhbyhzarPbhagl jbexf <<
 2014020310000599  FQCraavatgbaPbhagl jbexf <<
-2014020510000353  Npgvir911 srngher j/cnefre fhccbeg
-2014021210000232  ZBWnfcrePbhagl svkrq
-2014021210000474  Npgvir911 srngher
+-2014020510000353  Npgvir911 srngher j/cnefre fhccbeg
+-2014021210000232  ZBWnfcrePbhagl svkrq
+-2014021210000474  Npgvir911 srngher
 ---- C3 -------------------------------------------------------
 2013022010000335  ALNyonalPbhaglP (Zretr jvgu BUYvpxvatPbhagl)
 2013022010000381  FQGhearePbhagl (Trareny jbexvat - pnyy ibyhzr zvavfphyr)
@@ -7897,7 +7897,7 @@ Fraqre: @sveroyvgm.pbz
 (201410244) 26-12: EQC OERNGUVAT CEBOYRZ\aQngr Gvzr: 02/17 07:12\aQvfcngpu: : N338\aNffvtazrag: CZ26 N338\aYbpngvba: 8003 ABYCNEX PG 102 (ABYCNEX EQ)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/YAri
 (201410236) 26-13: EQC OERNGUVAT CEBOYRZ\aQngr Gvzr: 02/17 05:16\aQvfcngpu: : N338\aNffvtazrag: CZ26 N338\aYbpngvba: 521 WRSSERL EQ LBEXGBJA NG BYQR ZVYY (XRABEN QE & XRABEN QE)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/ob70
 **********************************************************
-2013061210000361 (Fnenu)
+2013061210000361 (Fnenu-qbarvg)
 Tnvarfivyyr, GK (Pbbxr Pbhagl)
 
 Pbagnpg: Npgvir911
