@@ -16,7 +16,7 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
   
   public MDCarrollCountyBParser() {
     super("CARROLL COUNTY", "MD",
-           "CALL ( BOX ( UNIT ADDR! | ADDR! UNIT ) | UNIT BOX ADDR! ) INFO+");
+           "CALL ( BOX ( UNIT ADDR! | ADDR! UNIT ) | UNIT BOX ADDR ) INFO+");
   }
   
   @Override
@@ -83,7 +83,7 @@ public class MDCarrollCountyBParser extends FieldProgramParser {
   private class MyUnitField extends UnitField {
     
     public MyUnitField() {
-      super(MULTI_UNIT_PTN_SPC, true);
+      super(MULTI_UNIT_PTN_SPC);
     }
     
     @Override
