@@ -1597,7 +1597,7 @@ public abstract class MsgParser {
    if (sFilter.length() <= 1) return true;
    
    // Filter can consist of multiple address filters separated by comas
-   for (String tFilter : sFilter.split(",")) {
+   for (String tFilter : FILTER_SPLIT.split(sFilter)) {
      tFilter = tFilter.trim();
      
      // A subfilter with length of 0 or 1 is invalid and is ignored
@@ -1626,5 +1626,6 @@ public abstract class MsgParser {
    }
    return false;
   }
-  private static final Pattern DIGITS = Pattern.compile("\\d+"); 
+  private static final Pattern DIGITS = Pattern.compile("\\d+");
+  private static final Pattern FILTER_SPLIT = Pattern.compile("[\n,]");
 }
