@@ -140,6 +140,7 @@ Npgvir911 gvpxrgf
 2014020410001096  ALJnfuvatgbaPbhagl qbar
 2014011410000669  GKYrbaPbhaglO qbar
 2014012110000039  ZARqvan qbar
+2014021810001051  ZBYnjeraprPbhagl qbar
 *******************************************************************************
 Revr Pbhagl (O), AL
 OAA Nyregf
@@ -7922,28 +7923,6 @@ Fraqre: <npgvir911@ticf.bet>
 (SQ FGEHPGHER SVER VA GUR PVGL) \aSQ FGEHPGHER SVER VA GUR PVGL\a-- 514 A PURFGAHG FG, TNVAFIVYYR\a//\a Sver Obk = \a \a---------------------------------------------------------------------------\a02/11/2014 15:01:09 : CNLGBA, FNENU #430\aJVERYRFF PNYY\aIREVSL PNYYREF AHZORE\a\a(940) 902-4627\afcnlgba: PNYYRE PNA FRR SYNZRF SEBZ ONPX UBHFR [15:02:00]
 **********************************************************
 **********************************************************
-2014021810001051 (Cngevpx)
-Ynjerapr Pbhagl, ZB
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Unyygbja Sver Qrcg
-Ybpngvba: Unyygbja , ZB, Havgrq Fgngrf
-Fraqre: "NQFv PNQ" <pnq@r9.pbz>
-
-(=?hgs-8?D?_?=) PNQ Ahz:36\aNqqe: HAXABJA HX\aVap Glcr:SBGF \a\aGvzrf:\aQ: 14:27:38\aF: 00:00:00\aG: 00:00:00\aNG: 00:00:00\aVF: 14:32:34\aEcg#: 000000-000000 | 00-00000000
-(=?hgs-8?D?_?=) PNQ Ahz:36\aNqqe: HAXABJA HX\aVap Glcr:SBGF \a\aGvzrf:\aQ: 14:27:38\aF: 00:00:00\aG: 00:00:00\aNG: 00:00:00\aVF: 14:32:34\aEcg#: 000000-000000 | 00-00000000
-(=?hgs-8?D?_?=) Qngr:02/18/14 Gvzr:14:27 Ahz:36\aNqqe: HAXABJA HX\aVap Glcr:SBGF\aErznexf:\a >NP< 12125 UVTUJNL GG UL \aF>OBVF Q'NEP NAQ J ERCHOYVP ERDHRFG ZHGHNY NVQ SEBZ UNYYGBJA \aF>SVER. 1426,001\aF>>VP< F.SVER BHGFVQR, OEHFU, RGP. 142637
-(=?hgs-8?D?_?=) Qngr:02/18/14 Gvzr:14:27 Ahz:36\aNqqe: HAXABJA HX\aVap Glcr:SBGF\aErznexf:\a >NP< 12125 UVTUJNL GG UL \aF>OBVF Q'NEP NAQ J ERCHOYVP ERDHRFG ZHGHNY NVQ SEBZ UNYYGBJA \aF>SVER. 1426,001\aF>>VP< F.SVER BHGFVQR, OEHFU, RGP. 142637
-(=?hgs-8?D?_?=) PNQ Ahz:25\aNqqe: HAXABJA HX\aVap Glcr:SBGF \a\aGvzrf:\aQ: 13:06:52\aF: 13:42:10\aG: 00:00:00\aNG: 00:00:00\aVF: 14:14:39\aEcg#: 000000-000000 | 00-00000000
-(=?hgs-8?D?_?=) PNQ Ahz:25\aNqqe: HAXABJA HX\aVap Glcr:SBGF \a\aGvzrf:\aQ: 13:06:52\aF: 13:42:10\aG: 00:00:00\aNG: 00:00:00\aVF: 14:14:39\aEcg#: 000000-000000 | 00-00000000
-(=?hgs-8?D?_?=) Qngr:02/18/14 Gvzr:13:07 Ahz:25\aNqqe: HAXABJA HX\aVap Glcr:SBGF\aErznexf:\a >NP< 330 F SNEZ EBNQ 11 TERRAR PBHAGL \aF>ERXVAQYR BS LRFGREQNLF SVER 1306,002\aF>>VP< F.SVER BHGFVQR, OEHFU, RGP. 130642
-(=?hgs-8?D?_?=) Qngr:02/18/14 Gvzr:13:06 Ahz:25\aNqqe: HAXABJA HX\aVap Glcr:SBGF\aErznexf:\a >NP< 330 F SNEZ EBNQ 11 TERRAR PBHAGL \aF>ERXVAQYR BS LRFGREQNLF SVER 1306,002\aF>>VP< F.SVER BHGFVQR, OEHFU, RGP. 130642
-(=?hgs-8?D?_?=) PNQ Ahz:2\aNqqe: HAXABJA HX\aVap Glcr:SUBH \a\aGvzrf:\aQ: 06:21:02\aF: 06:38:55\aG: 00:00:00\aNG: 00:00:00\aVF: 07:12:31\aEcg#: 000000-000000 | 00-00000000
-(=?hgs-8?D?_?=) PNQ Ahz:2\aNqqe: HAXABJA HX\aVap Glcr:SUBH \a\aGvzrf:\aQ: 06:21:02\aF: 06:38:55\aG: 00:00:00\aNG: 00:00:00\aVF: 07:12:31\aEcg#: 000000-000000 | 00-00000000
-(=?hgs-8?D?_?=) Qngr:02/18/14 Gvzr:06:21 Ahz:2\aNqqe: HAXABJA HX\aVap Glcr:SUBH\aErznexf:\a >NP< UVTUJNL B & 2080 \aF>EC FNVQ GUNG FUR GUVAXF GURER VF N FGEHPGHER SVER OHG VFA'G \aF>DHVGR FHER. FNLF FUR PNA FRR FBZRGUVAT OHEAVAT SEBZ URE 0620,001\aF>UBHFR. 0620,001\aF>>VP< F.FGEHPGHER SVER 062047
-(=?hgs-8?D?_?=) Qngr:02/18/14 Gvzr:06:21 Ahz:2\aNqqe: HAXABJA HX\aVap Glcr:SUBH\aErznexf:\a >NP< UVTUJNL B & 2080 \aF>EC FNVQ GUNG FUR GUVAXF GURER VF N FGEHPGHER SVER OHG VFA'G \aF>DHVGR FHER. FNLF FUR PNA FRR FBZRGUVAT OHEAVAT SEBZ URE 0620,001\aF>UBHFR. 0620,001\aF>>VP< F.FGEHPGHER SVER 062047
-(=?hgs-8?D?_?=) PNQ Ahz:21\aNqqe: HAXABJA HX\aVap Glcr:SUBH \a\aGvzrf:\aQ: 13:43:04\aF: 14:05:09\aG: 00:00:00\aNG: 00:00:00\aVF: 17:53:12\aEcg#: 000000-000000 | 00-00000000
-(=?hgs-8?D?_?=) PNQ Ahz:21\aNqqe: HAXABJA HX\aVap Glcr:SUBH \a\aGvzrf:\aQ: 13:43:04\aF: 14:05:09\aG: 00:00:00\aNG: 00:00:00\aVF: 17:53:12\aEcg#: 000000-000000 | 00-00000000
 **********************************************************
 **********************************************************
 2013102310000663 (Fnenu)

@@ -1647,7 +1647,7 @@ public abstract class SmartAddressParser extends MsgParser {
             result.aptField = aptField;
           }
           if (crossField != null) result.crossField = crossField;
-          if (nearField != null) result.nearField = nearField;
+          if (nearField != null && nearField.fldEnd-nearField.fldStart > 1) result.nearField = nearField;
           result.cityField = new FieldSpec(tmpNdx, endCity);
           result.endAll = endCity;
           if (fldSpec != null) fldSpec.end(startField.fldEnd);

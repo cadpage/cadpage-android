@@ -236,7 +236,6 @@ choyvp pynff JIUneqlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZIN",
         "PNYY:ZBGBE IRUVPYR NPPVQRAG",
         "NQQE:EG 220 F",
-        "CYNPR:ARNE",
         "PVGL:ONXRE",
         "ANZR:EBPX PUHEP 76-71",
         "VQ:2013-0000004188");
