@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Berkeley County, WV
+ * Fayette County, WV
  */
 public class WVFayetteCountyParser extends FieldProgramParser {
 

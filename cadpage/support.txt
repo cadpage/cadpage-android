@@ -3082,7 +3082,7 @@ has instructions on how to install it.  See if that gets you back before
 the expiration date.  If it does not, let us know and I can rebuild an
 old Cadpage release from any date that you need.
 
-******************************************************************************
+***************************************************************************
 map button is grayed out
 
 You need to long press all of the calls that are not mapping and select
@@ -3128,4 +3128,4 @@ version published after that date, Cadpage will start asking you for
 money again.
 
 *****************************************************************************
-on hold -- won't take 6 month reg -
+
