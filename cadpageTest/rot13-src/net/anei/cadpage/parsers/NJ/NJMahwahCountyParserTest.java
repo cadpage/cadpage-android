@@ -3,8 +3,6 @@ cnpxntr arg.narv.pnqcntr.cnefref.AW;
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
-vzcbeg bet.whavg.rkcrevzragny.ehaaref.Rapybfrq;
-vzcbeg bet.whavg.ehaare.EhaJvgu;
 
 
 /*

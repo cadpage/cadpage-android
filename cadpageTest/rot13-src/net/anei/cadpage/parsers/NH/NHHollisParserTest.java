@@ -112,6 +112,8 @@ Fraqre: "UQVFCNGPU@UBYYVFAU.BET" <uqvfcngpu@ubyyvfau.bet>
 (UPP) ZRQVPNY RZRETRAPL\aZPFURN, EBOREG NAQ YBEENVAR\a90 QRCBG EQ \aUbyyvf/  HAQRE PBAGEBY, GK FUBEGYL.
 (UPP) ZRQVPNY RZRETRAPL\aZPFURN, EBOREG NAQ YBEENVAR\a90 QRCBG EQ \aUbyyvf\aQvfgevpg: 001\a1/24/2014 12:12
 
+QvfcngpuN16Cnefre / QvfcngpuN32Cnefre fhopynff
+
 */
 
 choyvp pynff AUUbyyvfCnefreGrfg rkgraqf OnfrCnefreGrfg {
