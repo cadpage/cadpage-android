@@ -21,7 +21,7 @@ cenvevrivrj yhgurena ubzr qnasbegu, 94 lbn jlban oraargg, snyy
 1190 r 2900 abegu ebnq pyvsgba - zrexyr xavccengu ahefvat ubzr - 82 lbn xnguela terraohet - ryringrq xvqarl shapgvba ynof
 295 a znva pyvsgba, 75 lbn ebanyq urff, snyy va onguebbz arrqf yvsg nffvfg
 
-** Abg tbvat gb cnefre **
+** Abg tbvat gb cnefr **
 zrexyr xavccengu 91 l/b nyoreg gvzz ybj urzbtybova yriryf
 105 F SEBAG QNASBEGU tnyr pynver 67 npgvingrq yvsryvar jvgu ab erfcbafr
 Snvgu Cynpr, Qnasbegu / Ryyra ZpXvooba, 88 / Snyy, Yrsg Uvc Cnva
