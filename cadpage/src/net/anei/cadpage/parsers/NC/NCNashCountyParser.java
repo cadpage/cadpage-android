@@ -57,13 +57,6 @@ public class NCNashCountyParser extends SmartAddressParser {
     String left = getLeft();
     if (left.length() == 0) return false;
     
-    // look for cross street information
-    Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT, left);
-    if (res.getStatus() > 0) {
-      res.getData(data);
-      left = res.getLeft();
-    }
-    
     // Last token of what is left is "usually" a unit designation
     // But only if it contains at least one digit
     Parser p =  new Parser(left);
@@ -73,10 +66,23 @@ public class NCNashCountyParser extends SmartAddressParser {
       left = p.get();
     }
     
+    // There may be a  cross street at the start of what is left.  But we
+    // will check for a recognized call description first, lest we get tripped
+    // up by something like STRUCTURE PAUL LANE being misinterpreted as a 
+    // cross street
+    CodeTable.Result cRes = CODE_TABLE.getResult(left);
+    if (cRes == null) {
+      Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT, left);
+      if (res.getStatus() > 0) {
+        res.getData(data);
+        left = res.getLeft();
+        cRes = CODE_TABLE.getResult(left);
+      }
+    }
+    
     // Now things get sticky.
     // What is left is either specific call code (which may be multiple words)
     // followed by a name.  Or is all call description :(
-    CodeTable.Result cRes = CODE_TABLE.getResult(left);
     if (cRes != null) {
       data.strCode = cRes.getCode();
       data.strCall  = cRes.getDescription();
