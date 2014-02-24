@@ -26,6 +26,12 @@ public class LAJeffersonParishParser extends FieldProgramParser {
   }
   
   @Override
+  public String adjustMapAddress(String addr) {
+    return PK_PTN.matcher(addr).replaceAll("PKWY");
+  }
+  private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
+  
+  @Override
   public boolean parseMsg(String body, Data data) {
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
