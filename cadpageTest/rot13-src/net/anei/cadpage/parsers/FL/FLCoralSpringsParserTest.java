@@ -113,24 +113,6 @@ Fraqre: Cntvat <cntvat@pbenyfcevatf.bet>
 (Rznvy Pbcl sebz Rzretva Vagrtengvba Fhvgr) ERFVQRAGVNY FGEHPGHER SVER   (SVER) 7001 AJ 68GU ZAE                                      CNEXYNAQ           PHY-QR-FNP                              70GU GRE                               74OS\a\aGur Pvgl bs Pbeny Fcevatf vf n choyvp ragvgl fhowrpg gb Puncgre 119 bs gur Sybevqn Fgnghgrf pbapreavat choyvp erpbeqf.  Rznvy zrffntrf ner pbirerq haqre Puncgre 119 naq ner guhf fhowrpg gb choyvp erpbeqf qvfpybfher.  Nyy rznvy zrffntrf frag naq erprvirq ner pncgherq ol bhe freire naq ergnvarq nf choyvp erpbeqf.\aGuvf sbbgabgr nyfb pbasvezf gung guvf rznvy zrffntr unf orra fjrcg sbe gur cerfrapr bs pbzchgre ivehfrf, naq vyyrtny be dhrfgvbanoyr pbagrag. Guvf flfgrz vf n cevingr flfgrz naq vf zbavgberq sbe ryrpgebavp gnzcrevat. Ivbyngbef jvyy or cebfrphgrq gb gur shyyrfg rkgrag bs gur ynj.\a**********************************************************************
 (Rznvy Pbcl sebz Rzretva Vagrtengvba Fhvgr) Cre Yg ZpUhtu  Vapvqrag cregnvavat gb Fhowrpg Qribar Orff, xabja sbbgonyy cynlre, unf orra onxre npgrq va yvtug bs zragny pevfvf ng gur Zneevbgg Ubgry va bhe Pvgl. Nal dhrfgvbaf Cyrnfr Pbagnpg Yg. ZpUhtu \a\aGur Pvgl bs Pbeny Fcevatf vf n choyvp ragvgl fhowrpg gb Puncgre 119 bs gur Sybevqn Fgnghgrf pbapreavat choyvp erpbeqf.  Rznvy zrffntrf ner pbirerq haqre Puncgre 119 naq ner guhf fhowrpg gb choyvp erpbeqf qvfpybfher.  Nyy rznvy zrffntrf frag naq erprvirq ner pncgherq ol bhe freire naq ergnvarq nf choyvp erpbeqf.\aGuvf sbbgabgr nyfb pbasvezf gung guvf rznvy zrffntr unf orra fjrcg sbe gur cerfrapr bs pbzchgre ivehfrf, naq vyyrtny be dhrfgvbanoyr pbagrag. Guvf flfgrz vf n cevingr flfgrz naq vf zbavgberq sbe ryrpgebavp gnzcrevat. Ivbyngbef jvyy or cebfrphgrq gb gur shyyrfg rkgrag bs gur ynj.\a**********************************************************************
 
-Vs fhowrpg qbrfa'g zngpu, erghea snyfr
-
-Bgurejvfr frnepu sbe naq fgevc bss gur qvfpynvzre grkg.
-
-Jung yrsg vf n frg bs svkrq yratgu svryqf.  Pbasvez guvf vf grkg cntr ol pbasvezvat
-zrffntr unf gur pbeerpg yratgu, naq unf aba-oynax punenpgref ng gur fgneg bs
-rnpu svryq naq oynax punenpgre va sebag bs rnpu svryq. gura cnefr svryqf.  Gur
-ynfg svryq ybbxf yvxr n znc pbqr, gur bguref ner boivbhf
-
-Ybbxf yvxr nqqerff svryq znl pbagnva n yrnqvat cynpr anzr.  Naq jura vg qbrf
-vg fgnegf bar cynpr rneyvre guna n fgenvg nqqerff svryq.  Gb fcyvg cynpr naq
-nqqerff svryqf pnyy
-cnefrNqqerff(FgnegSvryq.FGNEG_CYNPR, SYNT_FGNEG_SYQ_ERD | SYNT_NAPUBE_RAQ, svryq, qngn)
-
-Vs zrffntr qbrf abg purpx bhg nf n qvfcngpu cntr, erghea n TRARENY NYREG fgnghf.
-Jr qb guvf vafgrnq bs ergheavat snyfr orpnhfr jr nuir pbasvezrq gur zrffntr fhowrpg
-naq pna eryvnoyl qrqhpr guvf vf n qvfcngpu cntr.
-
  */
 
 choyvp pynff SYPbenyFcevatfCnefreGrfg rkgraqf OnfrCnefreGrfg {
