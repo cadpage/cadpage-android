@@ -1,35 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02152014</string>
-  <string name="release_version">v1.7.08</string>
+  <string name="release_date">02242014</string>
+  <string name="release_version">v1.7.09</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+Added timout setting to stop alert notification after too much time has expired.\n
+From: (filter) setting - multiple address can be separated by new lines as well as 
+with commas.\n
+\n      
 New Locations:\n
-Calhoun County, AL\n
-Reno County, KS\n
-Edina, MN\n
-Chaves County, NM\n
-Georgetown County,SC\n
-Grant County, WA\n
+Tuolumne County, CA\n
+Memorial Star, CO\n
+Seminole County, FL\n
+DuPage County, IL (alt)\n
+Iroquois County, IL\n
+Lawrence County, MO\n
+Grafton County, NH\n
+Rensselaer County, NY\n
+Warren County, NY\n
+Flight Vector, TX\n
+Royse City, TX\n
+University of Virginia, VA\n
+Fayette County, WV\n
 \n
 Location Parsing Fixes:\n
-Maricopa County, AZ\n
-Rocklin, CA\n
-Jackson County, GA\n
-Henry County, GA\n
-Porter County, IN\n
-Kenton County, KY\n
-York County, ME\n
-Prince Georges County, MD\n
-Jasper County, MO\n
-Orange County, NY\n
-Benton County, OR\n
-Josephine County, OR\n
-Lancaster County, PA\n
-Bell County, TX\n
-Cy-Fair, TX\n
-Thurston County, WA\n
+Lake County, CA\n
+Teller County, CO\n
+Kankakee County, IL\n
+Jefferson Parish, LA\n
+Carroll County, MD\n
+Sussex County, NJ\n
+Chautauqua County, NY\n
+Erie County, PA\n
+Galveson County, TX\n
+Loudoun County, VA\n
+Yakima County, WA\n
+\n
+Mid Island Region, BC\n
+\n
+Misc fixes:\n
+Problem with screen turning off immediately after alert received.\n
   </string>
 </resources>
   
