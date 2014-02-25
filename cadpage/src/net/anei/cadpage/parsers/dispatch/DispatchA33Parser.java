@@ -9,13 +9,12 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchA33Parser extends FieldProgramParser {
 
   private static final Pattern RUN_REPORT_PATTERN = Pattern.compile("Event No: (\\d{4}-\\d{8}) (Status: ([A-Za-z]+) .*)");
-  private static final Pattern SRC_PLACE_PATTERN = Pattern.compile("(?:SERVICE +)?(\\d+)\\b.* Business\\b *(.*?)(?: Vehicle\\(s\\).*)?");
   
   private String closeStatus;
 
   public DispatchA33Parser(String defCity, String defState, String closeStatus) {
     super(defCity, defState, 
-          "Event_No:ID! Status:SKIP! Disposition:SKIP! Category:CALL! Address:ADDR! Precinct:SKIP! Sector:MAP! GEO:SKIP! Ward:SKIP! Intersection:X? Date_/_Time_Open:DATETIME! Dispatch:DATETIME! Law_Enf.:SKIP! Enroute:SKIP! Fire:SKIP! Arrival:SKIP! EMS:SKIP! Closed:SKIP Source:SRC_PLACE! Incident_Notes:INFO!");
+          "Event_No:ID! Status:SKIP! Disposition:SKIP! Category:CALL! Address:ADDR! Precinct:SKIP! Sector:MAP! GEO:SKIP! Ward:SKIP! Intersection:X? Date_/_Time_Open:DATETIME! Dispatch:DATETIME! Law_Enf.:SKIP! Enroute:SKIP! Fire:SKIP! Arrival:SKIP! EMS:SKIP! Closed:SKIP Source:NAME_PLACE! Incident_Notes:INFO!");
     this.closeStatus =  closeStatus;
   }
 
@@ -46,7 +45,7 @@ public class DispatchA33Parser extends FieldProgramParser {
     if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}", true);
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("ADDR")) return new BaseAddressField();
-    if (name.equals("SRC_PLACE")) { return new BaseSrcPlaceField(); }
+    if (name.equals("NAME_PLACE")) { return new BaseNamePlaceField(); }
     if (name.equals("DATETIME")) { return new BaseDateTimeField(); }
     return super.getField(name);
   }
@@ -87,19 +86,48 @@ public class DispatchA33Parser extends FieldProgramParser {
     }
   }
 
-  private class BaseSrcPlaceField extends Field {
+  private static final Pattern PHONE_PTN = Pattern.compile("(.*?) *(\\(\\d{3}\\) \\d{3}-\\d{4})");
+  private class BaseNamePlaceField extends Field {
     @Override
     public void parse(String field, Data data) {
-      Matcher mat = SRC_PLACE_PATTERN.matcher(field);
-      if (mat.matches()) {
-        data.strSource = mat.group(1);
-        data.strPlace = mat.group(2).trim();
-      } else abort();
+      int pt = field.indexOf(" Vehicle(s)");
+      if (pt >= 0) field = field.substring(0,pt).trim();
+      pt = field.indexOf(" Business");
+      if (pt >= 0) {
+        
+        String place = field.substring(pt+9).trim();
+        field = field.substring(0,pt).trim();
+        
+        Matcher match = PHONE_PTN.matcher(place);
+        if (match.matches()) {
+          data.strPhone = match.group(2);
+          place = match.group(1);
+        }
+        
+        // Place name sometimes contains a duplicate of address, city and zip
+        // which we will try to remove
+        if (data.strAddress.length() > 5) {
+          pt = place.indexOf(data.strAddress);
+          if (pt >= 0) place = place.substring(0,pt).trim();
+        }
+        
+        data.strPlace = cleanWirelessCarrier(place);
+      }
+      pt = field.indexOf(" Name Address Phone ");
+      if (pt >= 0) {
+        field = field.substring(pt+20).trim();
+        Matcher match = PHONE_PTN.matcher(field);
+        if (match.matches()) {
+          data.strPhone = match.group(2);
+          field = match.group(1);
+        }
+        data.strName = field;
+      }
     }
 
     @Override
     public String getFieldNames() {
-      return "SRC PLACE";
+      return "NAME PLACE PHONE";
     }
   }
 }
