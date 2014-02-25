@@ -28,6 +28,7 @@ public class OKGarfieldCountyParser extends DispatchA33Parser {
     body = body.substring(pt+1);
     if (!super.parseMsg(body, data)) return false;
     if (data.strCross.equals("OK")) data.strCross = "";
+    if (data.strPlace.equalsIgnoreCase("PIONEER")) data.strPlace = "";
     Matcher match = INFO_DATE_TIME_PTN.matcher(data.strSupp);
     if (match.find()) data.strSupp = data.strSupp.substring(match.end());
     return true;
