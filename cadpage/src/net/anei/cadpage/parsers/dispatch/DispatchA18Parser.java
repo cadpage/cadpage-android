@@ -39,7 +39,7 @@ public class DispatchA18Parser extends FieldProgramParser {
   private static final Pattern BOX_PTN = Pattern.compile("^BOX *(\\d+)", Pattern.CASE_INSENSITIVE);
   private static final Pattern APT_PTN = Pattern.compile("^(?:APT|LOT|#) *([-A-Z0-9]+)\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern APT2_PTN = Pattern.compile("^(\\d{1,4}[A-D]?)\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern APT3_PTN = Pattern.compile("^([A-Z]) +(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern APT3_PTN = Pattern.compile("^([A-Z](?:&[A-Z])?) +(.*)", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {

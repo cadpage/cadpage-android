@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.TX;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA18Parser;
 
 
@@ -19,6 +20,13 @@ public class TXGainesvilleParser extends DispatchA18Parser {
     return "active911@gvps.org";
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.equalsIgnoreCase("GAINSVILLE")) data.strCity = "GAINESVILLE";
+    return true;
+  }
+
   private static String[] CITY_LIST = new String[]{
     "CALLISBURG",
     "GAINESVILLE",
@@ -44,6 +52,8 @@ public class TXGainesvilleParser extends DispatchA18Parser {
     "PRAIRIE POINT",
     "SIVELLS BEND",
     "WALNUT BEND",
-    "WOODBINE"
+    "WOODBINE",
+    
+    "GAINSVILLE" // Misspelled
   };
 }
