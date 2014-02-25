@@ -9,7 +9,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTLitchfieldCountyAParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*) RESPOND TO (.*?)(?:,|,? +(\\d{1,2}-[A-Z]-\\d{1,2}(?:-[A-Z])?|HOT|ALPHA)) *(?::|--| -)(\\d\\d:\\d\\d)");
+  private static final Pattern MASTER1 = Pattern.compile("(.*) RESPOND TO (.*?)(?:,|,? +(\\d{1,2}-[A-Z]-\\d{1,2}(?:-[A-Z])?|HOT|ALPHA)) *(?::|--| -)(\\d\\d:\\d\\d)");
+  private static final Pattern MASTER2 = Pattern.compile("(.+?)-(.+)-(.*?) *\\*\\*\\* (\\d\\d:\\d\\d)---");
   private static final Pattern MAU_HILL = Pattern.compile("^(.*) MAUWEEHOO H(?:IL)?L (.*)$");
   private static final Pattern START_PAREN_PTN = Pattern.compile("^\\(.*?\\)");
   
@@ -17,6 +18,9 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
     super(CTLitchfieldCountyParser.CITY_LIST, "LITCHFIELD COUNTY", "CT");
     addExtendedDirections();
     setFieldList("SRC ADDR X PLACE APT CITY CALL CODE TIME");
+    setupMultiWordStreets(
+        "LIME ROCK",
+        "SAW MILL HILL");
   }
   
   @Override
@@ -28,19 +32,37 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("LCD") && !subject.equals("LCD Message")) return false;
     
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    data.strSource = match.group(1).trim();
-    String sAddr = match.group(2).trim();
-    data.strCode = getOptGroup(match.group(3));
-    data.strTime = match.group(4);
+    Matcher match = MASTER1.matcher(body);
+    if (match.matches()) {
+      data.strSource = match.group(1).trim();
+      String sAddr = match.group(2).trim();
+      data.strCode = getOptGroup(match.group(3));
+      data.strTime = match.group(4);
+      
+      Parser p = new Parser(sAddr);
+      data.strCall = p.getLast(',');
+      data.strPlace = p.getLast(',');
+      sAddr = p.get();
+      if (sAddr.length() == 0) return false;
+      parseAddressField(sAddr, data);
+      return true;
+    }
     
-    Parser p = new Parser(sAddr);
-    data.strCall = p.getLast(',');
-    data.strPlace = p.getLast(',');
-    sAddr = p.get();
-    if (sAddr.length() == 0) return false;
-    
+    match = MASTER2.matcher(body);
+    if (match.matches()) {
+      
+      data.strCall = match.group(1).trim();
+      parseAddressField(match.group(2).trim(), data);
+      data.strPlace = append(data.strPlace, " - ", match.group(3).trim());
+      data.strTime = match.group(4);
+      
+      return true;
+    }
+    return false;
+  }
+
+  private void parseAddressField(String sAddr, Data data) {
+    Matcher match;
     parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_ANCHOR_END, sAddr, data);
     if (data.strCity.equals("HEMLOCK ROXBURY")) data.strCity = "ROXBURY";
     String sPlace = getPadField();
@@ -83,6 +105,8 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
     data.strPlace = "";
     parseAddress(StartType.START_PLACE, FLAG_ONLY_CROSS | FLAG_ANCHOR_END, chkCross, data);
     
+    if (data.strPlace.endsWith("&")) data.strPlace = data.strPlace.substring(0,data.strPlace.length()-1).trim();
+    
     // Append the extra paren info the the cross street if we found one
     // or to the place name if we did not
     if (extra != null) {
@@ -99,6 +123,5 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
       data.strApt = data.strPlace;
       data.strPlace = savePlace;
     }
-    return true;
   }
 }
