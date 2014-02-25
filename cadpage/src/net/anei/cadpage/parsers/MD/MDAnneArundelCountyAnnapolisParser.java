@@ -26,8 +26,6 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("_subject_")) return false;
-    
     // Check for duplicated page
     Matcher match = MARKER.matcher(body);
     if (!match.find())  return false;
