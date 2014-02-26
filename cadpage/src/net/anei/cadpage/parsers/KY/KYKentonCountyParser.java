@@ -57,7 +57,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
     
     else if ((match = MASTER2.matcher(body)).matches()) {
       setFieldList("UNIT SRC ADDR APT PLACE CITY CALL ID");
-      data.strUnit = match.group(1);
+      data.strUnit = match.group(1).trim();
       data.strSource = match.group(2);
       parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, match.group(3).trim(), data);
       if (data.strCity.length() == 0) return false;
@@ -85,7 +85,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
       
       // This may be followed by one or more dispatched units
       while ((match = DISPATCH_UNIT_PTN.matcher(info)).find()) {
-        data.strUnit = append(data.strUnit, " ", match.group(1));
+        data.strUnit = append(data.strUnit, " ", match.group(1).trim());
         info = info.substring(match.end());
       }
       

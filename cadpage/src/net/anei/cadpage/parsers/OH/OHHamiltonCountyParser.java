@@ -11,6 +11,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class OHHamiltonCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER = Pattern.compile("HC:(.*?)(?: \\*\\*? (.*?) \\*\\*( .*?)??)?(?: (\\d{1,2}:\\d\\d)( .*)?)?");
+  private static final Pattern APT_PTN = Pattern.compile("(.*?) +APT: *([^ ]+) +(.*)");
  
   public OHHamiltonCountyParser() {
     super(CITY_CODES, "HAMILTON COUNTY", "OH");
@@ -58,15 +59,23 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
     
     // New format just has one field with a call description, address, and additional information
     else {
-      parseAddress(StartType.START_CALL, addr, data);
       
-      // occastionaly they put the APT: in front of the address
-      if (data.strCall.endsWith(" APT:")) {
-        data.strCall = data.strCall.substring(0,data.strCall.length()-5).trim();
-        Parser p = new Parser(data.strAddress);
-        data.strApt = p.get(' ');
-        data.strAddress = p.get();
+      // Sometimes the put an APT: label and field between the call and address
+      // which makes things easier
+      StartType st = StartType.START_CALL;
+      int flags = FLAG_START_FLD_REQ;
+      match = APT_PTN.matcher(addr);
+      if (match.matches()) {
+        st = StartType.START_ADDR;
+        flags = 0;
+        data.strCall = match.group(1);
+        data.strApt = match.group(2);
+        addr = match.group(3);
       }
+      
+      // otherwise we have to do this the hard way.
+      
+      parseAddress(st, flags, addr, data);
       info = getLeft();
       if (info.startsWith("LOC:")) {
         info = info.substring(4).trim();

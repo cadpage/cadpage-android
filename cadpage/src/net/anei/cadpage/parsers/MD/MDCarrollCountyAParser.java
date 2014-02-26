@@ -66,7 +66,7 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
     return "SRC " + super.getProgram();
   }
 
-  private static final Pattern MA_PTN = Pattern.compile("^(?:MA|MUTUAL AID ALARM) (?:BOX |[A-Z]{2} )?(?:(\\d{1,2}-\\d{1,2}(?:-\\d{1,2})?) )?");
+  private static final Pattern MA_PTN = Pattern.compile("^(?:MA|MUTUAL AID ALARM) (?:BOX |[A-Z]{2} )?(?:(\\d{1,2}-\\d{1,2}(?:-\\d{1,2})?) )?|^([A-Z]+) +(\\d+-\\d+) +");
   private static final Pattern MA_SEPARATOR_PTN = Pattern.compile(" +- +| */ *| *; *");
   private static final Pattern APT_PTN = Pattern.compile("(?:\\bAPT\\b|#) *([^ ]+)$");
   private static final Pattern CHANNEL_PTN = Pattern.compile("(?:[ \\.]+(CP|TB|TG|FC) *| +)(\\d{1,2}(?:-?[A-Z])?|WEST)$");
@@ -83,7 +83,13 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
       // The rules all change for mutual aid calls
       Matcher match = MA_PTN.matcher(fld);
       if (match.find()) {
-        data.strBox = getOptGroup(match.group(1));
+        String maCall = match.group(2);
+        if (maCall != null) {
+          data.strBox = match.group(3);
+        } else {
+          maCall = "MA";
+          data.strBox = getOptGroup(match.group(1));
+        }
         fld = fld.substring(match.end()).trim();
         
         // Sometimes, the address line is nicely split out with slashes, dashes, or semicolons
@@ -113,7 +119,7 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
               eNdx--;
             }
           }
-          data.strCall = append("MA", " - ", flds[sNdx].replace("L%Z", "L/Z").replace("CP%TB", "CP/TB"));
+          data.strCall = append(maCall, " - ", flds[sNdx].replace("L%Z", "L/Z").replace("CP%TB", "CP/TB"));
           for (int j = sNdx+1; j <= eNdx; j++) {
             data.strCall = append(data.strCall, " / ", flds[j].replace("L%Z", "L/Z").replace("CP%TB", "CP/TB"));
           }
