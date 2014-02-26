@@ -31,6 +31,10 @@ BIREQBFR - OYF * ** 10 J YNAPNFGRE NI ,11 ** -11CQ ** NYPBUBY BQ ** QATGJA **  *
 1 bs 2\aSEZ:cntvat@zvadhnf.bet\aFHOW:21 JVYYVNZF JL ,39\aZFT:RZBGVBANY QVFBEQRE - OYF * ** 21 JVYYVNZF JL ,39 ** - **  ** PNYA ** UHZCGBA SNEZF **\a(Pba'g) 2 bs 2\aYLAA OY & UHZCGBA EQ ** (Raq)
 Sjq:  1 bs 2\aSEZ:cntvat@zvadhnf.bet\aFHOW:517 JNFUVATGBA NI ,11\aZFT:URZBEEUNTVAT - NYF * ** 517 JNFUVATGBA NI ,11 ** - ** 73/Z - OYRRQVATSEBZ\a(Pba'g) 2 bs 2\aERPGHZ\e\aQRGNVYF GB SBYYBJ\e\a** QATGJA **  ** JUVGRYNAQ NI & JNTARE NI ** (Raq)
  1 bs 2\aSEZ:cntvat@zvadhnf.bet\aFHOW:150 R CRAAFLYINAVN NI ,1\aZFT:NOQBZVANY CNVA - NYF * ** 150 R CRAAFLYINAVN NI ,11 ** QBPGBEF RKCERFF-- EBBZ\a(Pba'g) 2 bs 2\a1-OENA ** 60'F/Z\e\aQRGNVYF GB SBYYBJ\e\a** QATGJA **  ** JNYYNPR NI & TERRA FG ** (Raq)
+ 
+Pbagnpg: Xevfgn Oregenaq <xoregenaq24@tznvy.pbz>
+Fraqre: cntvat@zvadhnf.bet
+(101 CYNMN QE ,40) FLAPBCR/SNVAGVAT - NYF * ** 101 CYNMN QE ,40 ** NCG 340-FVZCFBA ZRNQBJF ** 79 LBN/Z/ - NCCNERAGYL XRRCF CNFFVAT BHG ERCRN\aGR ** RPNYA **  **
 
  */
 
@@ -214,6 +218,21 @@ choyvp pynff CNPurfgrePbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:QBJAVATGBJA",
         "VASB:60'F/Z");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXevfgnOregenaq() {
+
+    qbGrfg("G1",
+        "(101 CYNMN QE ,40) FLAPBCR/SNVAGVAT - NYF * ** 101 CYNMN QE ,40 ** NCG 340-FVZCFBA ZRNQBJF ** 79 LBN/Z/ - NCCNERAGYL XRRCF CNFFVAT BHG ERCRN\a" +
+        "GR ** RPNYA **  **",
+
+        "PNYY:FLAPBCR/SNVAGVAT - NYF",
+        "NQQE:101 CYNMN QE",
+        "PVGL:RNFG PNYA GJC",
+        "CYNPR:340-FVZCFBA ZRNQBJF",
+        "VASB:79 LBN/Z/ - NCCNERAGYL XRRCF CNFFVAT BHG ERCRN GR");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
