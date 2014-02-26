@@ -56,7 +56,7 @@ Npgvir911 gvpxrgf
 ---- C3 -------------------------------------------------------
 2013022010000335  ALNyonalPbhaglP (Zretr jvgu BUYvpxvatPbhagl)
 2013022010000381  FQGhearePbhagl (Trareny jbexvat - pnyy ibyhzr zvavfphyr)
-2013022510000513  ZQNaarNehaqryPbhaglSveroyvgm (bhgfbhepr)
+2013022510000513  ZQNaarNehaqryPbhaglSveroyvgm jbexf <<
 2013031910001068  Ab pnyyf fvapr 11/4/13
 2013042410000173  Trareny vf nobhg nf tbbq nf jr pna qb
 2013050910000342  Ab npgvba erdhverq
@@ -7893,28 +7893,6 @@ U2N, PDEH NAQ CSQ; 409 ZVYY PEX EQ; PEBFF FG OBJZNA EQ; 31 LBS, UNIVAT FRVMHERF
 u2 pbeinyyvf deh cvarfqnyr deh; 358 furnszna perrx eq; 64lbs frirer yrt cnva
 cisq vasbezngvba cntr vasbezngvba cntr bayl ybj natyr erfphr genvavat gbavtug ng gur sver unyy ng 7:00
 **********************************************************
-2013022510000513 (Wnpxfba)
-Naar Nehaqry pbhagl, ZQ (Sveroyvgm)
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Tyra Oheavr Ibyhagrre Sver Qrcg
-Ybpngvba: Tyra Oheavr, ZQ, Havgrq Fgngrf
-Fraqre: @sveroyvgm.pbz
-
-(201410381) 33-10: EQC URZBEEUNTR/YNP\aQngr Gvzr: 02/17 20:40\aQvfcngpu: : N338\aNffvtazrag: N338\aYbpngvba: 411 OYBFFBZ YA (CVAR GREENPR EQ & BNXJBBQ EQ)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/LHxO
-(201410371) 33-11: ZIP\aQngr Gvzr: 02/17 19:58\aQvfcngpu: : R331 N338 CZ33\aNffvtazrag: R331 CZ33 N338\aYbpngvba: 5GU NIR FR/PENVA UJL F\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/GlQH
-(201410362) 33-02: EQC URZBEEUNTR/YNP\aQngr Gvzr: 02/17 18:34\aQvfcngpu: : N338\aNffvtazrag: N338\aYbpngvba: EVGPUVR UJL F/ARJ WREFRL NIR AR\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/4yEE
-(201410354) 33-07: EQC FVPX CREFBA\aQngr Gvzr: 02/17 17:54\aQvfcngpu: : N338\aNffvtazrag: N338\aYbpngvba: 913 EBFR NAAR EQ (YNATYRL EQ & ZNEVR NIR)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/bVqk
-(201410339) 26-09: EQC NOQBZVANY CNVA\aQngr Gvzr: 02/17 16:45\aQvfcngpu: : N338\aNffvtazrag: R261 N338\aYbpngvba: 407 TRBETR PYNHFF OYIQ JNYZNEG FHCREPRAGRE (DHNEGRESVRYQ CNEX EQ & DHNEGRESVRYQ\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/V7Uh
-(201410338) 28-06: EQC FVPX CREFBA\aQngr Gvzr: 02/17 16:44\aQvfcngpu: : N338\aNffvtazrag: R281 N338 ZH29\aYbpngvba: 204 NZZHAVGVBA NIR (NEGVYYREL YA & PNAABA EVQTR QE)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/jLlP
-(201410320) 30-16: EQC OERNGUVAT CEBOYRZ\aQngr Gvzr: 02/17 14:42\aQvfcngpu: : N338\aNffvtazrag: CZ30 N338\aYbpngvba: 8071 YBAT UVYY EQ (YBAT UVYY PG)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/AlaK
-(201410280) 33-08: PURFG CNVA\aQngr Gvzr: 02/17 10:31\aQvfcngpu: : N338\aNffvtazrag: R331 CZ18 N349 N338\aYbpngvba: 300 CREFUVAT NIR (RYVMNORGU YA & PENVA UJL F)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/7Pah
-(201410273) 26-27: EQC ONPX CNVA\aQngr Gvzr: 02/17 09:55\aQvfcngpu: : N338\aNffvtazrag: R261 N338\aYbpngvba: 501 ERQ OYHSS PG (EHFGYVAT BNXF QE)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/6YHw
-(201410266) 26-02: HAXABJA ZRQVPNY RZRET\aQngr Gvzr: 02/17 09:23\aQvfcngpu: : N338\aNffvtazrag: CZ26 N338\aYbpngvba: 319 WBUAFBA SNEZ YA (WBANGUNA NIR & UVTUIVRJ NIR)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/GKt4
-(201410254) 26-06: EQC OERNGUVAT CEBOYRZ\aQngr Gvzr: 02/17 08:22\aQvfcngpu: : N338 CZ33\aNffvtazrag: R261 CZ33 N338\aYbpngvba: 279 ZNPXVAGBFU QE (PNFGYR URQTR QRYY & CREGUFUVER CNGU)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/4moj
-(201410248) 31-01: EQC OERNGUVAT CEBOYRZ\aQngr Gvzr: 02/17 08:06\aQvfcngpu: : N338\aNffvtazrag: CZ31 N338\aYbpngvba: 111 9GU NIR (ZNEFUNYY EQ & ZBETNA EQ)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/vUXc
-(201410244) 26-12: EQC OERNGUVAT CEBOYRZ\aQngr Gvzr: 02/17 07:12\aQvfcngpu: : N338\aNffvtazrag: CZ26 N338\aYbpngvba: 8003 ABYCNEX PG 102 (ABYCNEX EQ)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/YAri
-(201410236) 26-13: EQC OERNGUVAT CEBOYRZ\aQngr Gvzr: 02/17 05:16\aQvfcngpu: : N338\aNffvtazrag: CZ26 N338\aYbpngvba: 521 WRSSERL EQ LBEXGBJA NG BYQR ZVYY (XRABEN QE & XRABEN QE)\aCevagbhg: uggc://sveroyvgm.pbz/NN/33/ob70
 **********************************************************
 2013102310000663 (Fnenu-qhavg)
 Yvapbya Pbhagl, JI
@@ -8062,7 +8040,7 @@ Ybpngvba: Unegfivyyr, FP, Havgrq Fgngrf
 948 ARJGBA QE UNEGFIVYYR;750688;00:57:39;SVER 10-70 FGEHPGHER;trb:34.405006, -080.014629
 1 J PNEBYVAN NI UNEGFIVYYR;750585;14:46:08;NPPVQRAG 10-50
 **********************************************************
-2014011610000816
+2014011610000816 (Wnpxfba)
 Bxgvoorun Pbhagl, ZF
 
 Pbagnpg: Npgvir911
