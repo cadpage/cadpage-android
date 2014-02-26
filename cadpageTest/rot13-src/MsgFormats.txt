@@ -77,26 +77,23 @@ Npgvir911 gvpxrgf
 2013102410000509  SYZvnzvQnqrPbhagl jbexf <<
 2013102510000589  AWOretraPbhaglO (bhgfbhepr)
 2013110710000316  CNLbexPbhaglN (vagreany N911 vffhrf)
--2013111510000061  Ab npgvba erdhverq
 2014010510000239  APAnfuPbhagl svkrq
 2014011010000452  YNRnfgSryvpvnanCnevfu (bhgfbhepr)
--2014011010000676  BXTnesvryqPbhagl jbexf <<
--2014011610000781  Ab hfrshy qngn
--2014011610000816  ZFBxgvoorunPbhagl (bhgfbhepr)
--2014011710000547  CNZbaebrPbhagl qbar
--2014011710000716  PGYvgpusvryqPbhaglN jbexf <<
--2014011710000761  Ab qngn
--2014011710000805  PGZvqqyrfrkPbhaglO (bhgfbhepr)
--2014011710000878  JIUneevfbaPbhagl (bhgfbhepr) 
--2014011710000912  Ubyq sbe zber qngn
--2014011710000921  MPNOPCevaprTrbetr (bhgfbhepr)
--2014012010000308  PNSerfabPbhagl qbar
--2014012010000317  INJvfrPbhagl (bhgfbhepr)
--2014012010000335  Ubyq sbe zber qngn
--2014012010000344  Arrqf UGZY cnefre
--2014012010000381  BUNhtynvmrPbhagl (bhgfbhepr)
--2014012410000702  PGOrgury (QvfcngpuN25Cnefre)
--2014020310000562  GKPbzovar (bhgfbhepr)
+2014011610000816  ZFBxgvoorunPbhagl (bhgfbhepr)
+2014011710000716  PGYvgpusvryqPbhaglN jbexf <<
+2014011710000761  Ab qngn
+2014011710000805  PGZvqqyrfrkPbhaglO (bhgfbhepr)
+2014011710000878  JIUneevfbaPbhagl (bhgfbhepr) 
+2014011710000912  Ubyq sbe zber qngn
+2014011710000921  MPNOPCevaprTrbetr (bhgfbhepr)
+2014012010000308  PNSerfabPbhagl qbar
+2014012010000317  INJvfrPbhagl (bhgfbhepr)
+2014012010000335  Ubyq sbe zber qngn
+2014012010000344  Arrqf UGZY cnefre
+2014012010000381  BUNhtynvmrPbhagl (bhgfbhepr)
+2014012410000702  PGOrgury (QvfcngpuN25Cnefre)
+2014020310000562  GKPbzovar (bhgfbhepr)
+2014022610000466  Jnvg n pbhcyr qnlf
 -----------------------------------------------------------
 2013120310000036  Arrqf na UGZY cnefre
 2014022210000017  AUUbyyvf (QvfcngpuN16/QvfcngpuN32) fhopynff
@@ -7925,7 +7922,8 @@ Yvapbya Pbhagl, JI
 Pbagnpg: Npgvir911
 Ntrapl anzr: Yvapbya Pbhagl 911
 Ybpngvba: Yvapbya Pbhagl, JI, Havgrq Fgngrf
-Fraqre: <YVAPBYA911@r911.bet>
+Fraqre: <YVA
+PBYA911@r911.bet>
 
 YVAPBYA 911:FZXVAI>FZBXR VAIRFGVTNGVBA PBHEG NIR KF: GUBZNF YA UNZYVA UNZYVA EVGR NVQ 3045446999 Znc: Tevqf:, Pnq: 2014-0000001113
 YVAPBYA 911:UBFSVE>UBHFR SVER 1594 HCCRE ZHQ EVIRE EQ KF: OVT PERRX FGENVTUG SBEX UNZYVA ZVYYRE, GVYQN E 3047782008 Pnq: 2014-0000001099
