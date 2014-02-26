@@ -17,6 +17,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
   private static final Pattern CASE_BREAK_PTN = Pattern.compile("(.*?) *\\b([^a-z]+)$");
   private static final Pattern DISPATCH_UNIT_PTN = Pattern.compile("^Dispatch received by unit ([^ ]+) *");
   private static final Pattern MISSED_CROSS_ST_PTN = Pattern.compile(" *([^ ]+) */$");
+  private static final Pattern PLACE_DEPT_PTN = Pattern.compile("(.*?) *\\b([A-Z]{2}[FP]D\\b.*)");
   
   public KYKentonCountyParser() {
     super(CITY_LIST, "KENTON COUNTY", "KY");
@@ -34,6 +35,12 @@ public class KYKentonCountyParser extends SmartAddressParser {
   }
   
   @Override
+  public String adjustMapAddress(String addr) {
+    return SCOTT_ST_PTN.matcher(addr).replaceAll("SCOTT BLVD");
+  }
+  private static final Pattern SCOTT_ST_PTN = Pattern.compile("\\bSCOTT +ST\\b", Pattern.CASE_INSENSITIVE);
+  
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("From KCECC")) return false;
@@ -42,7 +49,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
     String addr;
     Matcher match;
     if ((match = MASTER1.matcher(body)).matches()) {
-      setFieldList("CALL PLACE ADDR APT ID INFO");
+      setFieldList("CALL PLACE SRC ADDR APT ID INFO");
       addr = match.group(1).trim();
       data.strCallId = match.group(2);
       data.strSupp = match.group(3);
@@ -58,11 +65,13 @@ public class KYKentonCountyParser extends SmartAddressParser {
       data.strPlace = getPadField();
       data.strCall = getLeft();
       data.strCallId = match.group(4);
+      
+      fixPlaceDept(data);
       return true;
     }
     
     else if ((match = MASTER3.matcher(body)).matches()) {
-      setFieldList("CALL PLACE ADDR APT ID CITY UNIT INFO X");
+      setFieldList("CALL PLACE SRC ADDR APT ID CITY UNIT INFO X");
       addr = match.group(1);
       data.strCallId = match.group(2);
       String info = match.group(3);
@@ -153,12 +162,6 @@ public class KYKentonCountyParser extends SmartAddressParser {
       addr = addr.substring(call.length()).trim();
       
       StartType st = StartType.START_PLACE;
-      int pt = addr.indexOf("  ");
-      if (pt >= 0) {
-        data.strPlace = addr.substring(0,pt);
-        addr = addr.substring(pt+2).trim();
-        st = StartType.START_ADDR;
-      }
       parseAddress(st, FLAG_IMPLIED_INTERSECT, addr, data);
       data.strApt = append(data.strApt, "-", getLeft());
     }
@@ -200,9 +203,22 @@ public class KYKentonCountyParser extends SmartAddressParser {
       parseAddress(st, FLAG_IMPLIED_INTERSECT, addr, data);
       data.strApt = append(data.strApt, "-", getLeft());
     }
+    
+    fixPlaceDept(data);
      
     return true;
 
+  }
+
+  private void fixPlaceDept(Data data) {
+    Matcher match;
+    // Place fields come from all kinds of places, but wherever they come from
+    // they often contain a department code
+    match = PLACE_DEPT_PTN.matcher(data.strPlace);
+    if (match.matches()) {
+      data.strSource = append(data.strSource, " ", match.group(2));
+      data.strPlace = match.group(1);
+    }
   }
   
   @Override
@@ -248,6 +264,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
   
   private static final CodeSet CODE_SET = new CodeSet(
       "Abdominal/Stomach Pain",
+      "Accident-Train Wreck",
       "Accident-w/Injuries",
       "Alarm-Carbon Monoxide Detector",
       "Alarm-Medical Emergency",
@@ -259,6 +276,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
       "Back Pain/Injury",
       "Bleeding/Hemorrhage",
       "Broken/Fractured Bone",
+      "Burn/Scalding",
       "Chest Injury/Pains",
       "Childbirth/Labor/Maternity",
       "Choking",
@@ -274,6 +292,7 @@ public class KYKentonCountyParser extends SmartAddressParser {
       "Fire-Arson Investigation",
       "Fire-Auto/Vehicle",
       "Fire-Brush",
+      "Fire-Setting Fire Outside",
       "Fire-Smoke/Odor/Chemical",
       "Fire-Investigation",
       "Fire-Gas Spill/Leak",
@@ -290,11 +309,13 @@ public class KYKentonCountyParser extends SmartAddressParser {
       "Overdose/Drug",
       "Pump Basement",
       "Seizure",
+      "Shooting/Gunshot Wound",
       "Signal 500 1st Alarm",
       "Signal 500 2nd Alarm",
       "Signal 500 3rd Alarm",
       "Signal 500 4th Alarm",
       "Signal 500 5th Alarm",
+      "Stabbing",
       "Stroke",
       "Wires Down"
   );

@@ -320,6 +320,7 @@ choyvp pynff INFzlguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G30",
         "GTERRE:1 3850 A VAGREFGNGR 81 PUVYUBJVR 408240 03:43:23 NP - GENSSVP NPPVQRAG PNYYRE NQIVFRQ N 1 IRU ZIN VA GUR ZRQVNA",
+        "CYNPR:1",
         "NQQE:3850 A VAGREFGNGR 81",
         "PVGL:PUVYUBJVR",
         "VQ:408240",

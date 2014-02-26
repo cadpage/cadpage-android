@@ -452,8 +452,7 @@ choyvp pynff GKTnyirfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G28",
         "SLV: ZHGHNY NVQ 1014 21 FGNTRF SBE FGEHPGHER SVER [12/24/13 11:30:21 QHINYYZ]",
         "PNYY:ZHGHNY NVQ",
-        "NQQE:1014 21",
-        "VASB:FGNTRF SBE FGEHPGHER SVER",
+        "NQQE:1014 21 FGNTRF SBE FGEHPGHER SVER",
         "QNGR:12/24/13",
         "GVZR:11:30:21");
 

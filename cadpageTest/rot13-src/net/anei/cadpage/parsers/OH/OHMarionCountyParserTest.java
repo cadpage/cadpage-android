@@ -737,8 +737,8 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:4/10/2013",
         "GVZR:17:21:57",
         "VQ:13-009484",
-        "PNYY:SVER NYNEZ - MBAR 41 JNGRESYBJ MBAR",
-        "NQQE:10 2549 VAABINGVBA QE",
+        "PNYY:SVER NYNEZ - MBAR 41 JNGRESYBJ MBAR 10",
+        "NQQE:2549 VAABINGVBA QE",
         "K:CBYR YNAR EQ / QRNQ RAQ RNFG");
 
     qbGrfg("G39",
@@ -900,8 +900,8 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:4/1/2013",
         "GVZR:00:25:43",
         "VQ:13-008438",
-        "PNYY:SVER NYNEZ-TRARENY SVER OHVYQVAT 203 FRPGVBA",
-        "NQQE:2 3007 UNE UJL");
+        "PNYY:SVER NYNEZ-TRARENY SVER OHVYQVAT 203 FRPGVBA 2",
+        "NQQE:3007 UNE UJL");
 
     qbGrfg("G55",
         "(PNQ Cntr) HAVG 105 603  3/31/2013 15:05:52 13-008400 FDHNQ PNYY-89 LBZ VYY 1999 XNHSSZNA EQ PYNEVQBA GJC YVAR ZEA PNEQ",

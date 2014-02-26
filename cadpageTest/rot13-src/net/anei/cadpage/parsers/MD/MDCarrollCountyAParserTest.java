@@ -5254,10 +5254,10 @@ choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G24",
         "PG:NYF 7-29 4895 FXLIVRJ QE/ FRVMHER  OBK:LP QHR:YF7 [12]",
-        "PNYY:NYF",
+        "PNYY:NYF - FRVMHER",
         "OBK:LP",
-        "NQQE:7-29 4895 FXLIVRJ QE & FRVMHER",
-        "ZNQQE:7 4895 FXLIVRJ QE",
+        "NQQE:4895 FXLIVRJ QE",
+        "ZNQQE:4895 FXLIVRJ QE",
         "HAVG:YF7");
 
     qbGrfg("G25",

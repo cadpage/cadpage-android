@@ -260,8 +260,8 @@ choyvp pynff APLnqxvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "(Grkg Zrffntr) 10-100 210 R URZYBPX FG LNQXVAIVYYR;A WNPXFBA FG K A INA OHERA FG;S Sver Bgure;trb:36.135847, -80.657903;Unir nyy SQf naq Erfphr Fdhnq erfcbaq gb gurve fgngvbaf naq fgnaq-ol hagvy shegure abgvpr BPN: 1309024",
-        "NQQE:10-100 210 R URZYBPX FG",
-        "ZNQQE:10 210 R URZYBPX FG",
+        "CYNPR:10-100",
+        "NQQE:210 R URZYBPX FG",
         "PVGL:LNQXVAIVYYR",
         "K:A WNPXFBA FG / A INA OHERA FG",
         "PNYY:S Sver Bgure",
@@ -716,8 +716,8 @@ choyvp pynff APLnqxvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "(Grkg Zrffntr) 10-100 210 R URZYBPX FG LNQXVAIVYYR;A WNPXFBA FG K A INA OHERA FG;S Sver Bgure;trb:36.135847, -80.657903;Unir nyy SQf naq Erfphr Fdhnq erfcbaq gb gurve fgngvbaf naq fgnaq-ol hagvy shegure abgvpr BPN: 1309015",
-        "NQQE:10-100 210 R URZYBPX FG",
-        "ZNQQE:10 210 R URZYBPX FG",
+        "CYNPR:10-100",
+        "NQQE:210 R URZYBPX FG",
         "PVGL:LNQXVAIVYYR",
         "K:A WNPXFBA FG / A INA OHERA FG",
         "PNYY:S Sver Bgure",
@@ -844,7 +844,8 @@ choyvp pynff APLnqxvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G14",
         "(Grkg Zrffntr) 1 421 A OBHAQ LNQXVAIVYYR;ZQY 29Q01-n;29 GENSSVP/GENAFCBEGNGVBA VAPVQRAGF;BA GUR LNQXVA PBHAGL FVQR....QVAXVAF OBGGBZF NERN BPN: 1308024",
-        "NQQE:1 421 A OBHAQ",
+        "CYNPR:1",
+        "NQQE:421 A OBHAQ",
         "PVGL:LNQXVAIVYYR",
         "PBQR:29Q01-n",
         "PNYY:29 GENSSVP/GENAFCBEGNGVBA VAPVQRAGF",
@@ -916,8 +917,8 @@ choyvp pynff APLnqxvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(Grkg Zrffntr) 10-100 210 R URZYBPX FG LNQXVAIVYYR;A WNPXFBA FG K A INA OHERA FG;S Sver Bgure;trb:36.135847, -80.657903;Unir nyy SQf naq Erfphr Fdhnq erfcbaq gb gurve fgngvbaf naq fgnaq-ol hagvy shegure abgvpr BPN: 1309016",
-        "NQQE:10-100 210 R URZYBPX FG",
-        "ZNQQE:10 210 R URZYBPX FG",
+        "CYNPR:10-100",
+        "NQQE:210 R URZYBPX FG",
         "PVGL:LNQXVAIVYYR",
         "K:A WNPXFBA FG / A INA OHERA FG",
         "PNYY:S Sver Bgure",
@@ -1489,8 +1490,8 @@ choyvp pynff APLnqxvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G26",
         "(Grkg Zrffntr) CVAROEBBX ERFVQRAGVNY 2 308 UNEEVFBA NIR LNQXVAIVYYR;UVPXBEL QE K YBPHFG FG;ZQY 12Q02-R;12 PBAIHYFVBAF/FRVMHERF;679-8671 BPN: 13-106198",
-        "CYNPR:CVAROEBBX ERFVQRAGVNY",
-        "NQQE:2 308 UNEEVFBA NIR",
+        "CYNPR:CVAROEBBX ERFVQRAGVNY 2",
+        "NQQE:308 UNEEVFBA NIR",
         "PVGL:LNQXVAIVYYR",
         "K:UVPXBEL QE / YBPHFG FG",
         "PBQR:12Q02-R",

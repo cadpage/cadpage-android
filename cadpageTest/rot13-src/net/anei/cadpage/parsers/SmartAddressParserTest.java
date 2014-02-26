@@ -53,6 +53,10 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
     
+    qbGrfg(CYNPR, "GZSQ 2  4700 JVAFGBA NIR",
+        "CYNPR:GZSQ 2",
+        "NQQE:4700 JVAFGBA NIR");
+    
     qbGrfg(NQQE, SYNT_PEBFF_SBYYBJF, "SZ 529 & FNAQ UVYY TYRA QE",
         "NQQE:SZ 529 & FNAQ UVYY TYRA QE");
     

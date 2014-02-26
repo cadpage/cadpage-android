@@ -191,10 +191,10 @@ choyvp pynff SYPbenyFcevatfCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "**********************************************************************",
 
         "PNYY:PBZZREPVNY SVER FGEHPGHER    (SVER)",
-        "NQQE:15 1411 AJ 91FG NIR",
+        "NQQE:1411 AJ 91FG NIR",
         "PVGL:PBENY FCEVATF",
         "NCG:1524",
-        "CYNPR:FUREJBBQ SBERFG NCGF OYQT",
+        "CYNPR:FUREJBBQ SBERFG NCGF OYQT 15",
         "K:FUNQBJ JBBQ OYI/91FG NIR",
         "ZNC:24QS");
 
@@ -721,9 +721,9 @@ choyvp pynff SYPbenyFcevatfCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "**********************************************************************",
 
         "PNYY:PBZZREPVNY SVER FGEHPGHER    (SVER)",
-        "NQQE:17 8761 JVYRF EQ",
+        "NQQE:8761 JVYRF EQ",
         "PVGL:PBENY FCEVATF",
-        "CYNPR:RQTRJNGRE PBAQBF OYQT",
+        "CYNPR:RQTRJNGRE PBAQBF OYQT 17",
         "K:EVIREFVQR QE/HAVIREFVGL QE",
         "ZNC:54QS");
 
@@ -969,9 +969,9 @@ choyvp pynff SYPbenyFcevatfCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "**********************************************************************",
 
         "PNYY:PBZZREPVNY SVER FGEHPGHER    (SVER)",
-        "NQQE:8 12194 J FNZCYR EQ",
+        "NQQE:12194 J FNZCYR EQ",
         "PVGL:PBENY FCEVATF",
-        "CYNPR:FNONY CBVAGR NCGF OYQT",
+        "CYNPR:FNONY CBVAGR NCGF OYQT 8",
         "K:118GU NIR/PNANY",
         "ZNC:31OS");
 

@@ -957,29 +957,31 @@ public abstract class SmartAddressParser extends MsgParser {
         if (sAddr >= tokens.length) return false;
         if (isType(sAddr, ID_CROSS_STREET)) return false;
         if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_AT_MARKER | ID_INCL_AT_MARKER) && !isConnector(sAddr+1)) {
-          if (sAddr == 0 || ! isType(sAddr-1, ID_RELATION)) {
-            if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX) && 
-                !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
-            if (isType(sAddr+1, ID_NUMBERED_ROAD_SFX)) {
-              if (isType(sAddr+1, ID_ROUTE_PFX)) {
-                if (isType(sAddr+2, ID_ALPHA_ROUTE)) break;
-                if (isType(sAddr+2, ID_ROUTE_PFX_EXT) && isType(sAddr+3, ID_ALPHA_ROUTE)) break;
-                
-                // Well, this certainly looks like it is a numbered street or route
-                // rather than a house number.  But there are districts with streets
-                // named for saints, so if the next token is ST, give it a chance
-                // to be a valid street name
-                if (tokens[sAddr+1].equalsIgnoreCase("ST")) {
-                  if (!isType(sAddr+2, ID_DIRECTION)) {
-                    sEnd = findRoadEnd(sAddr+1, 0);
-                    if (sEnd > 0) break;
+          if (!isHouseNumber(sAddr+1) || isType(sAddr+2, ID_NUMBERED_ROAD_SFX)) {
+            if (sAddr == 0 || ! isType(sAddr-1, ID_RELATION)) {
+              if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX) && 
+                  !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
+              if (isType(sAddr+1, ID_NUMBERED_ROAD_SFX)) {
+                if (isType(sAddr+1, ID_ROUTE_PFX)) {
+                  if (isType(sAddr+2, ID_ALPHA_ROUTE)) break;
+                  if (isType(sAddr+2, ID_ROUTE_PFX_EXT) && isType(sAddr+3, ID_ALPHA_ROUTE)) break;
+                  
+                  // Well, this certainly looks like it is a numbered street or route
+                  // rather than a house number.  But there are districts with streets
+                  // named for saints, so if the next token is ST, give it a chance
+                  // to be a valid street name
+                  if (tokens[sAddr+1].equalsIgnoreCase("ST")) {
+                    if (!isType(sAddr+2, ID_DIRECTION)) {
+                      sEnd = findRoadEnd(sAddr+1, 0);
+                      if (sEnd > 0) break;
+                    }
                   }
+                  return false;
                 }
                 return false;
               }
-              return false;
+              break;
             }
-            break;
           }
         }
         if (startAddress >= 0 || locked) return false;

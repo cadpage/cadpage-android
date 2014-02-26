@@ -196,9 +196,8 @@ choyvp pynff TNQnqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G17",
         "(!) CRZFo JOSQn  3-2 8722 FPRAVP UJL JRFG OEBJ Oernguvat Ceboyrzf 2013-00001296",
-        "PNYY:CRZFo JOSQn",
-        "NQQE:3-2 8722 FPRAVP UJL",
-        "ZNQQE:3 8722 FPRAVP UJL",
+        "PNYY:CRZFo JOSQn  3-2",
+        "NQQE:8722 FPRAVP UJL",
         "CYNPR:JRFG OEBJ",
         "K:Oernguvat Ceboyrzf 2013-00001296");
 
