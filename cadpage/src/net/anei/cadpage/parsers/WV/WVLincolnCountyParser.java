@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 public class WVLincolnCountyParser extends DispatchB2Parser {
   
   public WVLincolnCountyParser() {
-    super(CITY_LIST, "LINCOLN COUNTY", "WV");
+    super("LINCOLN 911:",CITY_LIST, "LINCOLN COUNTY", "WV");
   }
   
   @Override
