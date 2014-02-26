@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Zvnzv-Qnqr Pbhagl
+Zvnzv-Qnqr Pbhagl, SY
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zvnzv-Qnqr Sver Erfphr
@@ -50,7 +50,7 @@ Fraqre: <zqsefgnssvat@zvnzvqnqr.tbi>
 choyvp pynff SYZvnzvQnqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp SYZvnzvQnqrPbhaglCnefreGrfg() {
-    frgCnefre(arj SYZvnzvQnqrPbhaglCnefre(), "ZVNZVQNQR PBHAGL", "SY");
+    frgCnefre(arj SYZvnzvQnqrPbhaglCnefre(), "ZVNZV-QNQR PBHAGL", "SY");
   }
   
   @Grfg
