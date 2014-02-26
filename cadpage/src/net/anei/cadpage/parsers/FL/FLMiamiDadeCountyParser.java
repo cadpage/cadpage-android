@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class FLMiamiDadeCountyParser extends FieldProgramParser {
   
   public FLMiamiDadeCountyParser() {
-    super("MIAMI-DADE COUNTY", "FL",
+    super("MIAMIDADE COUNTY", "FL",
           "SRC_UNIT! SIG:CALL! ADDR:ADDR! RECV:DATETIME! UNIT:SKIP! UNITS:SKIP! REMARKS:INFO!");
   }
   

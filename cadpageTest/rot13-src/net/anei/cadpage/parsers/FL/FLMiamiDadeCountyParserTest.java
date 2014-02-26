@@ -50,7 +50,7 @@ Fraqre: <zqsefgnssvat@zvnzvqnqr.tbi>
 choyvp pynff SYZvnzvQnqrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp SYZvnzvQnqrPbhaglCnefreGrfg() {
-    frgCnefre(arj SYZvnzvQnqrPbhaglCnefre(), "ZVNZV-QNQR PBHAGL", "SY");
+    frgCnefre(arj SYZvnzvQnqrPbhaglCnefre(), "ZVNZVQNQR PBHAGL", "SY");
   }
   
   @Grfg
