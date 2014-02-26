@@ -173,7 +173,8 @@ public class ManageParsers {
         "NCDavieCountyB",     "NCDavieCounty",          // 09/30/2013
         "NJHudsonCounty",     "NJJCMCEMSHudCEN",        // 11/22/2013
         "NJJCMCEMSHudCEN",    "NJJCMCEMSJerseyCity",    // 12/27/2013
-        "CTLitchfieldCountyB","CTNewMilford"            // 12/28/2013
+        "CTLitchfieldCountyB","CTNewMilford",           // 12/28/2013
+        "TXMontgomeryCountyC","TXMontgomeryCountyB"     // 02/26/2014
         
   });
 
