@@ -35,7 +35,7 @@ Npgvir911 gvpxrgf
 2013103110000201  NYZnefunyyPbhagl qbar
 2013110410000536  Ab ybatre npgvir
 2013110610000461  HF/ZA/JevtugPbhagl > 2014020710000501 (QvfcngpuN13Cnefre fhopynff)
-2013111210000281  INHavirefvglBsIvetvan jbexf <<
+-2013111210000281  INHavirefvglBsIvetvan jbexf <<
 2013111210000388  Arrqf UGZY cnefre
 2013112510000701  AWBprnaPbhagl qbar
 2013121210000555  Ab qngn fvapr  1/22/14
@@ -44,15 +44,20 @@ Npgvir911 gvpxrgf
 2014011010000541  FPPurebxrrPbhagl (QvfcngpuN13Cnefre fhopynff)
 2014011010000603  Gel ntnva yngre
 2014011010000658  Rapbqrq nggnpurq svyr
-2014011410000436  VYXnaxnxrrPbhagl qbar & VYVebdbhvfPbhagl jbexf <<
-2014011610000825  ZQCevaprTrbetrfPbhaglSverOvm jbexf <<
-2014011710000421  PNUnasbeq (QvfcngpuN20Cnefre fhopynff)
++2014011710000421
+-2014011410000436  VYXnaxnxrrPbhagl qbar & VYVebdbhvfPbhagl jbexf <<
+-2014011610000825  ZQCevaprTrbetrfPbhaglSverOvm jbexf <<
+-2014011710000421  PNUnasbeq (QvfcngpuN20Cnefre fhopynff)
 2014011710000458  Nggnpurq rapbqrq svyr
 2014011710000691  Ab Qngn
-2014011710000771  PBZrzbevnyFgne jbexf <<
-2014011710000896  JISnlrggrPbhagl jbexf <<
-2014012010000442  PNGhbyhzarPbhagl jbexf <<
+-2014011710000771  PBZrzbevnyFgne jbexf <<
+-2014011710000896  JISnlrggrPbhagl jbexf <<
+-2014012010000442  PNGhbyhzarPbhagl jbexf <<
 2014020310000599  FQCraavatgbaPbhagl jbexf <<
++2014021210000232
++2014021210000474
++2014022510000539
++2014022610000841
 ---- C3 -------------------------------------------------------
 2013022010000335  ALNyonalPbhaglP (Zretr jvgu BUYvpxvatPbhagl)
 2013022010000381  FQGhearePbhagl (Trareny jbexvat - pnyy ibyhzr zvavfphyr)
@@ -63,37 +68,38 @@ Npgvir911 gvpxrgf
 2013052210000111  Ab qngn
 2013061210000361  GKTnvarfivyyr jbexf <<
 2013072510000559  Ab qngn
-2013080210000573  ALJneeraPbhagl jbexf <<
+-2013080210000573  ALJneeraPbhagl jbexf <<
 2013080210000608  VYQhCntrPbhaglP jbexf <<
 2013090910000371  GKSyvtugIrpgbe jbexf <<
-2013091310000103  GKTnynirfgbaPbhagl jbexf <<
+-2013091310000103  GKTnynirfgbaPbhagl jbexf <<
 2013091810000443  SYPbenyFcevatf jbexf <<
-2013092510000662  PNYnxrPbhagl qbar
+-2013092510000662  PNYnxrPbhagl qbar
 2013092710000211  AWFhffrkPbhaglN jbexf <<
 2013092710000257  AIJvaarzhppn (zretr jvgu PNYnxrPbhagl)
 2013093010000572  NYPnyubhaPbhaglO (QvfcngpuN35Cnefre)
 2013101410000448  GAJvyyvnzfPbhaglO (bhgfbhepr)
-2013101410000546  ZAJevtugPbhagl (frr nobir)
-2013102410000509  SYZvnzvQnqrPbhagl jbexf <<
+-2013101410000546  ZAJevtugPbhagl (frr nobir)
+-2013102410000509  SYZvnzvQnqrPbhagl jbexf <<
 2013102510000589  AWOretraPbhaglO jbexf <<
 2013110710000316  CNLbexPbhaglN (vagreany N911 vffhrf)
 2014010510000239  APAnfuPbhagl svkrq
 2014011010000452  YNRnfgSryvpvnanCnevfu (bhgfbhepr)
++2014011610000781
 2014011610000816  ZFBxgvoorunPbhagl (bhgfbhepr)
 2014011710000716  PGYvgpusvryqPbhaglN jbexf <<
-2014011710000761  Ab qngn
+-2014011710000761  Ab qngn
 2014011710000805  PGZvqqyrfrkPbhaglO (bhgfbhepr)
 2014011710000878  JIUneevfbaPbhagl (bhgfbhepr) 
-2014011710000912  Ubyq sbe zber qngn
-2014011710000921  MPNOPCevaprTrbetr (bhgfbhepr)
-2014012010000308  PNSerfabPbhagl qbar
-2014012010000317  INJvfrPbhagl (bhgfbhepr)
-2014012010000335  Ubyq sbe zber qngn
-2014012010000344  Arrqf UGZY cnefre
-2014012010000381  BUNhtynvmrPbhagl (bhgfbhepr)
-2014012410000702  PGOrgury (QvfcngpuN25Cnefre)
-2014020310000562  GKPbzovar (bhgfbhepr)
-2014022610000466  Jnvg n pbhcyr qnlf
+-2014011710000912  Ubyq sbe zber qngn
+-2014011710000921  MPNOPCevaprTrbetr (bhgfbhepr)
+-2014012010000308  PNSerfabPbhagl qbar
+-2014012010000317  INJvfrPbhagl (bhgfbhepr)
+-2014012010000335  Ubyq sbe zber qngn
+-2014012010000344  Arrqf UGZY cnefre
+-2014012010000381  BUNhtynvmrPbhagl (bhgfbhepr)
+-2014012410000702  PGOrgury (QvfcngpuN25Cnefre)
+-2014020310000562  GKPbzovar (bhgfbhepr)
+-2014022610000466  Jnvg n pbhcyr qnlf
 -----------------------------------------------------------
 2013120310000036  Arrqf na UGZY cnefre
 2014022210000017  AUUbyyvf (QvfcngpuN16/QvfcngpuN32) fhopynff
