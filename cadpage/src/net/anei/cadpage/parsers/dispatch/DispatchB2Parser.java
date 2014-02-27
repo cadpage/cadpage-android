@@ -72,7 +72,10 @@ public class DispatchB2Parser extends DispatchBParser {
       if (!body.startsWith(prefix)) return false;
       body = body.substring(prefix.length()).trim();
     }
-    return super.parseMsg(body, data);
+    if (super.parseMsg(body, data)) return true;
+    if (prefix == null) return false;
+    data.parseGeneralAlert(this, body);
+    return true;
   }
   
   
@@ -190,7 +193,7 @@ public class DispatchB2Parser extends DispatchBParser {
       }
     }
     
-    return true;
+    return data.strAddress.length() > 0;
   }
   
   /***

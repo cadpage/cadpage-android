@@ -656,9 +656,8 @@ choyvp pynff BXOelnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G22",
         "0:ARG >ABA RZRET GENAFCBEG QCQ///GRFG Pnq: 2013-0000013128",
-        "PBQR:ARG",
-        "PNYY:ABA RZRET GENAFCBEG QCQ///GRFG",
-        "VQ:2013-0000013128");
+        "PNYY:TRARENY NYREG",
+        "CYNPR:ARG >ABA RZRET GENAFCBEG QCQ///GRFG Pnq: 2013-0000013128");
 
     qbGrfg("G23",
         "0:RIRAG: ARG YBP:PNYREN ZAE Pnq: 2013-0000013125 1097 >09:12:50 RAE >09:20:48 ZPFB 1098 >10:05:12",

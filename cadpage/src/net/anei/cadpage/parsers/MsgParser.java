@@ -1253,6 +1253,27 @@ public abstract class MsgParser {
  }
  private static final Pattern WIRELESS_CARRIER_PTN = Pattern.compile("\\b(?:VERIZON(?: WIRELESS)?(?: INTRADO \\(PSAP\\))?|(?:ATT? ?& ?T|ATT)(?: MOBILITY)?(?: \\(TCS\\))?|ATTMO|CONNEXON|T-MOBILE|SPRINT(?:PCS)?(?: NEXTEL- CDMA)?|US CELLULAR|METRO ?PCS|CORR WIRELESS)\\b.*", Pattern.CASE_INSENSITIVE);
 
+ /**
+  * Strip optional constant string value from beginning of field
+  * @param field field to be adjusted
+  * @param val constant string value
+  * @return adjusted field value
+  */
+ public String stripFieldStart(String field, String val) {
+   if (field.startsWith(val)) field = field.substring(val.length()).trim();
+   return field;
+ }
+
+ /**
+  * Strip optional constant string value from end of field
+  * @param field field to be adjusted
+  * @param val constant string value
+  * @return adjusted field value
+  */
+ public String stripFieldEnd(String field, String val) {
+   if (field.endsWith(val)) field = field.substring(0,field.length()-val.length()).trim();
+   return field;
+ }
  
  /**
   * Worker class that will parse a into consecutive substrings up to the

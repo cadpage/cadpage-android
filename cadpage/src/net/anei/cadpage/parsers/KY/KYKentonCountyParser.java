@@ -35,12 +35,6 @@ public class KYKentonCountyParser extends SmartAddressParser {
   }
   
   @Override
-  public String adjustMapAddress(String addr) {
-    return SCOTT_ST_PTN.matcher(addr).replaceAll("SCOTT BLVD");
-  }
-  private static final Pattern SCOTT_ST_PTN = Pattern.compile("\\bSCOTT +ST\\b", Pattern.CASE_INSENSITIVE);
-  
-  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("From KCECC")) return false;

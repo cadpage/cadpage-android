@@ -906,7 +906,6 @@ choyvp pynff XLXragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:VEF",
         "FEP:PICQ FPBGG",
         "NQQE:333 FPBGG FG",
-        "ZNQQE:333 FPBGG OYIQ",
         "VQ:2014-00001730",
         "VASB:vf urnevat vzcnverq  fhowrpg fghpx va servtug ryringbe");
 
@@ -979,7 +978,6 @@ choyvp pynff XLXragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:YVOENEL",
         "FEP:PICQ",
         "NQQE:502 FPBGG FG",
-        "ZNQQE:502 FPBGG OYIQ",
         "VQ:2014-00001759",
         "VASB:QVSS OERNGUVAT VA OL SEBAG QRFX");
 
@@ -1005,7 +1003,6 @@ choyvp pynff XLXragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:TNGRJNL PBYYRTR",
         "FEP:PICQ FPBGG",
         "NQQE:525 FPBGG FG",
-        "ZNQQE:525 FPBGG OYIQ",
         "VQ:2014-00001756",
         "VASB:45 lb znyr ohf qevire univat qvs oernguvat naq va naq bhg bs pbapvbhfarff");
 
@@ -1041,7 +1038,6 @@ choyvp pynff XLXragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:YVOENEL",
         "FEP:PICQ",
         "NQQE:502 FPBGG FG",
-        "ZNQQE:502 FPBGG OYIQ",
         "VQ:2014-00001752",
         "VASB:ZNYR FHOW ERDHRFGVAT FDHNQ ERS GB PURFG CNVA VAFVQR GUR YVOENEL");
 
@@ -1185,7 +1181,6 @@ choyvp pynff XLXragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz XPRPP) Ohea/Fpnyqvat 634 FPBGG FG -- 2014-00001734  /   pbafp naq oernguvat  srznyr 50 lb ohea sebz pvtneerggr ba ure rlr",
         "PNYY:Ohea/Fpnyqvat",
         "NQQE:634 FPBGG FG",
-        "ZNQQE:634 FPBGG OYIQ",
         "VQ:2014-00001734",
         "VASB:pbafp naq oernguvat  srznyr 50 lb ohea sebz pvtneerggr ba ure rlr");
 
@@ -1245,7 +1240,6 @@ choyvp pynff XLXragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:YVOENEL",
         "FEP:PICQ",
         "NQQE:502 FPBGG FG",
-        "ZNQQE:502 FPBGG OYIQ",
         "VQ:2014-00001725",
         "VASB:ZNYR  CAHRZBAVN  VAFVQR");
 
@@ -1308,7 +1302,6 @@ choyvp pynff XLXragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz XPRPP) Purfg Vawhel/Cnvaf 1347 FPBGG FG 1 -- 2014-00001717  /   80 lb srznyr  uvtu oybbq cerffher",
         "PNYY:Purfg Vawhel/Cnvaf",
         "NQQE:1347 FPBGG FG",
-        "ZNQQE:1347 FPBGG OYIQ",
         "NCG:1",
         "VQ:2014-00001717",
         "VASB:80 lb srznyr  uvtu oybbq cerffher");
@@ -1352,7 +1345,6 @@ choyvp pynff XLXragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:PBYQ FURYGRE",
         "FEP:PICQ",
         "NQQE:634 FPBGG FG",
-        "ZNQQE:634 FPBGG OYIQ",
         "VQ:2014-00001712",
         "VASB:60 lbn znyr frvmher vafvqr - hax vs vagbk");
 
@@ -1374,7 +1366,6 @@ choyvp pynff XLXragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Sebz XPRPP) Qvssvphygl Oernguvat 1835 FPBGG FG -- 2014-00001709  /   8 zb byq unf carhzbavn naq abj vg fbhaqf nfguzn be oebapuvgvgvf",
         "PNYY:Qvssvphygl Oernguvat",
         "NQQE:1835 FPBGG FG",
-        "ZNQQE:1835 FPBGG OYIQ",
         "VQ:2014-00001709",
         "VASB:8 zb byq unf carhzbavn naq abj vg fbhaqf nfguzn be oebapuvgvgvf");
 
@@ -1463,7 +1454,6 @@ choyvp pynff XLXragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:Eragm Znatrzrag",
         "FEP:PICQ",
         "NQQE:421 FPBGG FG",
-        "ZNQQE:421 FPBGG OYIQ",
         "VQ:2014-00001698",
         "VASB:nakvrgl naq ulcregrafvba - znyr fhow purfg cnvaf");
 
