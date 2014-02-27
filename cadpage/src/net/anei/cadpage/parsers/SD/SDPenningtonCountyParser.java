@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.SD;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
@@ -20,6 +21,7 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
   public SDPenningtonCountyParser() {
     super(CITY_LIST, "PENNINGTON COUNTY", "SD");
     setFieldList("UNIT CALL ADDR APT CITY CODE INFO DATE TIME");
+    setupCallList(CALL_LIST);
   }
 
   @Override
@@ -99,6 +101,18 @@ public class SDPenningtonCountyParser extends SmartAddressParser {
     if (data.strCity.equals("PENNCO")) data.strCity = "";
     return true;
   }
+  
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "BREATH",
+      "CARDIAC-E",
+      "CHEST",
+      "CHEST-D",
+      "FALARM DELTA",
+      "FALARM",
+      "SICK",
+      "SMFIRE",
+      "SICK PERSON DELTA LEVEL"
+  );
   
   private static final String[] CITY_LIST = new String[]{
     "PENNCO",

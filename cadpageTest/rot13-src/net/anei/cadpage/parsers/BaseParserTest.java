@@ -287,7 +287,13 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     PbqrFrg pnyyPbqrf = cnefre.trgPnyyYvfg();
     vs (pnyyPbqrf == ahyy) erghea gehr;
     Fgevat pbqr = pnyyPbqrf.trgPbqr(pnyy);
-    erghea pbqr != ahyy && pbqr.rdhnyf(pnyy);
+    vs (pbqr != ahyy && pbqr.rdhnyf(pnyy)) erghea gehr;
+    
+    pnyy = pnyy.gbHccrePnfr();
+    pbqr = pnyyPbqrf.trgPbqr(pnyy);
+    vs (pbqr != ahyy && pbqr.rdhnyf(pnyy)) erghea gehr;
+    
+    erghea snyfr;
   }
 
   cevingr fgngvp pynff GrfgZrffntr rkgraqf Zrffntr {
