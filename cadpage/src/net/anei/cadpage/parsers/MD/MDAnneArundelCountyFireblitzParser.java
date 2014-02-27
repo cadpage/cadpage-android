@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Berkeley County, WV
+ * Anne Arundel County, MD (Fireblitz)
  */
 public class MDAnneArundelCountyFireblitzParser extends FieldProgramParser {
 

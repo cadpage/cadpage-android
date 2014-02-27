@@ -25,4 +25,9 @@ choyvp pynff ZQNaarNehaqryPbhaglCnefreGrfg {
     }
   }
   
+  choyvp fgngvp pynff GrfgSveroyvgm rkgraqf ZQNaarNehaqryPbhaglSveroyvgmCnefreGrfg {
+    choyvp GrfgSveroyvgm() {
+      frgCnefre(arj ZQNaarNehaqryPbhaglCnefre());
+    }
+  }
 }

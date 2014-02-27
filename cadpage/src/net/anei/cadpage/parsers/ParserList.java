@@ -956,6 +956,7 @@ public class ParserList {
               ,"WVHampshireCounty"              ,"Hampshire County, WV"
               ,"WVHardyCounty"                  ,"Hardy County, WV"
               ,"WVKanawhaCounty"                ,"Kanawha County, WV"
+              ,"WVLincolnCounty"                ,"Lincoln County, WV"
               ,"WVMasonCounty"                  ,"Mason County, WV"
               ,"WVMineralCounty"                ,"Mineral County, WV"
               ,"WVMorganCounty"                 ,"Morgan County, WV"
