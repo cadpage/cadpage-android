@@ -351,9 +351,10 @@ public class ParserList {
               ,"KYOldhamCounty"                 ,"Oldham County, KY"
           ),
           new ParserCategory("Louisiana"
+              ,"LAAcadianAmbulance"             ,"Acadian Ambulance, LA"
               ,"LAAscensionParish"              ,"Ascension Parish, LA"
               ,"LABeauregardParish"             ,"Beauregard Parish, LA"
-              ,"LAAcadianAmbulance"             ,"Acadian Ambulance, LA"
+              ,"LAEastFelicianaParish"          ,"East Feliciana Parish, LA"
               ,"LAJeffersonParish"              ,"Jefferson Parish, LA"
               ,"LALafourcheParish"              ,"Lafourche Parish, LA"
               ,"LAStCharlesParish"              ,"St Charles Parish, LA"
