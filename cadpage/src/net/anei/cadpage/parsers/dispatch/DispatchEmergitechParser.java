@@ -24,6 +24,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   private Set<String> specialWordSet = new HashSet<String>(Arrays.asList(new String[]{
       "APPLE",
       "EAST",
+      "ELECTION",
       "MAIN",
       "MARKET",
       "NORTH",
@@ -308,6 +309,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("X")) return new MyCrossField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
@@ -316,6 +318,38 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (field.startsWith("*")) field = field.substring(1).trim();
       super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern INFO_GPS_PTN = Pattern.compile("(\\+\\d{3}\\.\\d{6})(\\-\\d{3}\\.\\d{6})(?:CF=\\d+%)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // What should be a simple pattern check for GPS coordinates gets complicaated
+      // because random blanks get inserted anywhere.  We solve this by squeezing
+      // all blanks out of the field first, then doign our pattern check, then
+      // counting how many non-blank characters need to be removed from the front
+      // of the field :(
+      Matcher match = INFO_GPS_PTN.matcher(field.replace(" ", ""));
+      if (match.lookingAt()) {
+        setGPSLoc(match.group(1)+','+match.group(2), data);
+        data.strPhone = getOptGroup(match.group(3));
+        
+        int pos = 0;
+        for (int ii = 0; ii<match.end(); ii++) {
+          while (field.charAt(pos) == ' ') pos++;
+          pos++;
+        }
+        while (pos < field.length() && field.charAt(pos) == ' ') pos++;
+        field = field.substring(pos);
+      }
+      super.parse(field, data);
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "GPS PHONE INFO";
     }
   }
 }
