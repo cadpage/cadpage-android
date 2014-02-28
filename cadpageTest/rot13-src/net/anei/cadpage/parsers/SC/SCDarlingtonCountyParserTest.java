@@ -45,19 +45,12 @@ Ybpngvba: Unegfivyyr, FP, Havgrq Fgngrf
 
 QvfcngpuFbhgureaCnefre fhopynff
 
-Fbhgurea cnefref ner gevpxl, gurer ner n ybg bs qvssrerag inevnagf, zbfg pbagebyyrq
-ol gur xvaq bs syntf lbh cnff gb gur pbafgehpgbe.  Lbh pna frnepu ZftSbezngf.gkg
-sbe fbzrguvat gung ybbxf fvzvyne naq pbcl vg.  Zl thrff vf gung lbh arrq gb
-cnff n synt cnenzrgre bs mreb.  (Abg cnffvat gur synt qrsnhygf gb gb gheavat ba
-QFSYNT_QVFCNGPU_VQ juvpu vf abg jung lbh jnag.
-
-Jvyy arrq n pvgl yvfg
 */
 
 choyvp pynff FPQneyvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp FPQneyvatgbaPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "QNEYVATGBA PBHAGL", "FP");
+    frgCnefre(arj FPQneyvatgbaPbhaglCnefre(), "QNEYVATGBA PBHAGL", "FP");
   }
   
   @Grfg
