@@ -130,7 +130,7 @@ public class LAEastFelicianaParishParser extends SmartAddressParser {
     
     // If we can identify an address at start of field, use that
     // If we do have an address from the other address field, discard this one
-    Result r = parseAddress(StartType.START_ADDR, FLAG_AT_MEANS_CROSS, field);
+    Result r = parseAddress(StartType.START_ADDR, FLAG_AT_MEANS_CROSS | FLAG_CROSS_FOLLOWS, field);
     if (r.getStatus() > 0) {
       if (addr == null) r.getData(data);
       field = r.getLeft();
