@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.MO;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -48,20 +47,17 @@ public class MOGreeneCountyBParser extends FieldProgramParser {
 
   @Override
   public String adjustMapAddress(String sAddress) {
-    Matcher frMat = FARM_ROAD.matcher(sAddress);
-    if (frMat.matches()) {
-      sAddress = frMat.group(1) + " FARM ROAD " + frMat.group(2);
-    } else { 
-      Matcher shMat = STATE_HWY.matcher(sAddress);
-      if (shMat.matches()) {
-        sAddress = shMat.group(1) + " MISSOURI PP";
-      }
-    }
-
+    sAddress = FARM_ROAD.matcher(sAddress).replaceAll("$1 FARM ROAD $2");
+    sAddress = STATE_HWY.matcher(sAddress).replaceAll("$1 STATE_HIGHWAY $2");
     return sAddress;
   }
 
-  private static Pattern FARM_ROAD = Pattern.compile("(\\d+ [NESW]) FR(\\d+)");
-  private static Pattern STATE_HWY = Pattern.compile("(\\d+ [NESW]) SHPP");
+  private static Pattern FARM_ROAD = Pattern.compile("\\b([NESW]) FR(\\d+)\\b");
+  private static Pattern STATE_HWY = Pattern.compile("\\b([NESW]) SH(([A-Z])(?:\\3)?)\\b");
+  
+  @Override
+  public String postAdjustMapAddress(String sAddress) {
+    return sAddress.replaceAll("STATE_HIGHWAY", "STATE HIGHWAY");
+  }
 
 }
