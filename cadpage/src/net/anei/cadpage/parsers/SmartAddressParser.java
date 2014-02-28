@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
 public abstract class SmartAddressParser extends MsgParser {
 
   /**
-   * Type code indicating what kind of information might preceed the address
+   * Type code indicating what kind of information might precede the address
    * portion of this message
    */
   public  enum StartType {START_ADDR, START_CALL, START_CALL_PLACE, START_PLACE, START_OTHER};
@@ -162,6 +162,11 @@ public abstract class SmartAddressParser extends MsgParser {
    * connecting two street names at an intersection
    */
   public static final int FLAG_AND_NOT_CONNECTOR = 0x400000;
+  
+  /**
+   * Flag indicating that @ and at should be treated as cross street markers
+   */
+  public static final int FLAG_AT_MEANS_CROSS = 0x800000;
   
   public static final int STATUS_TRIVIAL = 4;
   public static final int STATUS_FULL_ADDRESS = 3;
@@ -2192,7 +2197,16 @@ public abstract class SmartAddressParser extends MsgParser {
     // same name as a city
     Integer iType = dictionary.get(token.toUpperCase());
     if (iType != null) {
-      mask |= iType;
+      int iiType = iType;
+      
+      // If @ is being used as a cross street marker, switch any tokens marked
+      // as at signs to connectors
+      if (isFlagSet(FLAG_AT_MEANS_CROSS)) {
+        if ((iiType & ID_AT_MARKER) != 0) {
+          iiType = (iiType & ~ID_AT_MARKER) | ID_CONNECTOR;
+        }
+      }
+      mask |= iiType;
       if (ndx > 0 && isType(ndx-1, ID_CONNECTOR | ID_CROSS_STREET | ID_AT_MARKER) ||
           ndx > 1 && isType(ndx-2, ID_CONNECTOR | ID_CROSS_STREET | ID_AT_MARKER) && isType(ndx-1, ID_DIRECTION)) {
         mask &= ~ID_CITY;
@@ -2848,7 +2862,8 @@ public abstract class SmartAddressParser extends MsgParser {
         if (ndx == insertAmp) {
           sb.append(new String[]{"", "/ ", "& "}[addrCode]);
         }
-        if (addrCode>1 && token.equals("/")) token = "&";
+        if (addrCode>1 && 
+            (token.equals("/") || token.equalsIgnoreCase("AT"))) token = "&";
         sb.append(token);
       }
       return sb.toString();
