@@ -108,6 +108,7 @@ choyvp pynff GKPbzovarCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G7",
         "0 ZNYYBL OEVQTR EQ ARNE 740, 14-10598, 11:42:47, NPPVQRAG, TEVQ 22 FRNTBIVYYR CQ ERD QRCHGL GURL NER BHG BA N NPPVQRAG SRZNYR ENA BSS GUR EBNQ",
         "NQQE:ZNYYBL OEVQTR EQ",
+        "CYNPR:ARNE 740",
         "VQ:14-10598",
         "GVZR:11:42:47",
         "PNYY:NPPVQRAG",
@@ -196,7 +197,7 @@ choyvp pynff GKPbzovarCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G17",
         "1235 SZ 1389 PBZOVAR, 14-07528, 14:49:46, SVER-TENFF, NPEBFF GUR FGERRG VA GUR CNFGHER GURER VF N SVER 200 LEQF SEBZ GUR PBZCYF UBHFR",
         "NQQE:1235 SZ 1389",
-        "ZNQQE:1235 SNEZ-GB-ZNEXRG 1389", //TVIRF N OHOOYR QBG
+        "ZNQQE:1235 SNEZ-GB-ZNEXRG 1389", 
         "PVGL:PBZOVAR",
         "VQ:14-07528",
         "GVZR:14:49:46",
@@ -206,7 +207,7 @@ choyvp pynff GKPbzovarCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G18",
         "1315 A SZ 1389 PBZOVAR, 14-06750, 08:36:02, NPPVQRAG, TEVQ 29 2002 BYQF NYREB UVF ANZR VF FGRIR XNARYNF 1 IRUVPYR NPPVQRAG FCHA NEBHAQ GUR FGERRG NAQ",
         "NQQE:1315 A SZ 1389",
-        "ZNQQE:1315 A SNEZ-GB-ZNEXRG 1389",//VF GUVF FHCCBFR GB OR GJB NQQERFFRF?
+        "ZNQQE:1315 A SNEZ-GB-ZNEXRG 1389",
         "PVGL:PBZOVAR",
         "VQ:14-06750",
         "GVZR:08:36:02",
@@ -216,7 +217,7 @@ choyvp pynff GKPbzovarCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G19",
         "290 F SZ 1389 PBZOVAR, 14-06605, 16:03:43, SVER-HAXABJA GLCR, SRRQ FGBER FGENPUA,PNEYN GUR QHZCFGRE VF BA SVER VA SEBAG BS GUR FGBER",
         "NQQE:290 F SZ 1389",
-        "ZNQQE:290 F SNEZ-GB-ZNEXRG 1389",//GUR GJB AHZOREF NER PBASHFVAT
+        "ZNQQE:290 F SNEZ-GB-ZNEXRG 1389",
         "PVGL:PBZOVAR",
         "VQ:14-06605",
         "GVZR:16:03:43",
@@ -256,6 +257,7 @@ choyvp pynff GKPbzovarCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G23",
         "0 YBERA OBLQ EQ @ PBZOVAR PBZOVAR, 14-05603, 16:24:13, QROEVF VA EBNQJNL,",
         "NQQE:YBERA OBLQ EQ",
+        "CYNPR:PBZOVAR",
         "PVGL:PBZOVAR",
         "VQ:14-05603",
         "GVZR:16:24:13",
@@ -282,6 +284,7 @@ choyvp pynff GKPbzovarCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G26",
         "0 OYVAQFRL PI @ OYVAQFRL, 14-05321, 11:27:12, SVER-ZHGHNY NVQ, JVGU QNYYNF PB ARRQ N OEHFU GEHPX CRE 5807",
         "NQQE:OYVAQFRL PI", //QBRF ABG ZNC
+        "CYNPR:OYVAQFRL",
         "VQ:14-05321",
         "GVZR:11:27:12",
         "PNYY:SVER-ZHGHNY NVQ",
@@ -308,7 +311,7 @@ choyvp pynff GKPbzovarCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G29",
         "690 SZ 1389 PBZOVAR, 14-04845, 07:09:27, SVER-OEHFU, GURER VF N OEHFU CVYR OHEAVAT, PBZCY NQI VG YBBXRQ YVXR N SVER SEBZ YNFG AVTUG OHG VG VF FGVYY OHEAV",
         "NQQE:690 SZ 1389",
-        "ZNQQE:690 SNEZ-GB-ZNEXRG 1389", //TBBTYR AB YVXR
+        "ZNQQE:690 SNEZ-GB-ZNEXRG 1389",
         "PVGL:PBZOVAR",
         "VQ:14-04845",
         "GVZR:07:09:27",

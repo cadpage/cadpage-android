@@ -695,9 +695,7 @@ public abstract class SmartAddressParser extends MsgParser {
     address = address.trim();
     Result result = parseAddressInternal(sType, flags, address);
     
-    result.fallbackAddr = isFlagSet(FLAG_FALLBACK_ADDR);
-    result.startFldNoDelim = isFlagSet(FLAG_START_FLD_NO_DELIM);
-    result.recheckApt = isFlagSet(FLAG_RECHECK_APT);
+    result.flags = flags;
     
     // Now is where we use the result to compute the true prefix and leftover segments
     result.stdPrefix = "";
@@ -747,7 +745,7 @@ public abstract class SmartAddressParser extends MsgParser {
   private Result parseAddressInternal(StartType sType, int flags, String address) {
     this.flags = flags;
     lastCity = -1;
-    Result result = new Result();
+    Result result = new Result(this, flags);
     boolean onlyCity = isFlagSet(FLAG_ONLY_CITY);
 
     // If we have a call dictionary, and address starts with a call, search
@@ -942,7 +940,7 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   private boolean parseSimpleAddress(Result result) {
     
-    result.reset();
+    result.reset(startAddress);
     boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
     
     // Look for a numeric field which we assume is the house number
@@ -1058,7 +1056,7 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   private boolean parseIntersection(Result result) {
     
-    result.reset();
+    result.reset(startAddress);
     boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
     
     // First lets figure out where the address starts
@@ -1232,7 +1230,7 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   private boolean parseNakedRoad(Result result) {
     
-    result.reset();
+    result.reset(startAddress);
     boolean flexAt = isFlagSet(FLAG_AT_BOTH);
     boolean atStart = false;
     boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
@@ -1417,7 +1415,7 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   private void parseFallback(StartType sType, Result result) {
 
-    result.reset();
+    result.reset(startAddress);
     boolean crossOnly = isFlagSet(FLAG_ONLY_CROSS);
     
     // Total failure, assign the entire field to either the call description
@@ -2396,7 +2394,7 @@ public abstract class SmartAddressParser extends MsgParser {
    * @param token token to be checked
    * @return apartment value
    */
-  private String getAptValue(String token) {
+  private static String getAptValue(String token) {
     int pt = getAptBreak(token);
     return token.substring(pt);
   }
@@ -2407,7 +2405,7 @@ public abstract class SmartAddressParser extends MsgParser {
    * @param token Token to be checked
    * @return offset into token of start of apartment value
    */
-  private int getAptBreak(String token) {
+  private static int getAptBreak(String token) {
     if (token.startsWith("#")) return 1;
     Matcher match = DIGIT.matcher(token);
     if (match.find()) return match.start();
@@ -2561,7 +2559,17 @@ public abstract class SmartAddressParser extends MsgParser {
   
   private static final Pattern NO_DELIM_ADDR_PTN1 = Pattern.compile("(?<!\\d)\\d+\\b");  
   private static final Pattern NO_DELIM_ADDR_PTN2 = Pattern.compile("(?<!\\d)\\d+$");  
-  public class Result {
+  public static class Result {
+    
+    // We do need to access our parent object for global configuration settings
+    // and to perform additional calculations.  But we must never refer to any
+    // local variables used in calculating this result that may have been
+    // overridden by a second calculation.  So, we declare Result as static to
+    // avoid accidental references to local members, but save the parent object
+    // so we can use it when we have determined that it is safe to do so.
+    private SmartAddressParser parent;
+    private int flags;
+    
     private String[] tokens;
     private StartType startType;
     private int status = -1;
@@ -2584,11 +2592,13 @@ public abstract class SmartAddressParser extends MsgParser {
     private String left = null;
     private boolean mBlankLeft = false;
     private boolean commaLeft = false;
-    boolean fallbackAddr = false;
-    boolean startFldNoDelim = false;
-    boolean recheckApt = false;
     
-    public void reset() {
+    public Result(SmartAddressParser parent, int flags) {
+      this.parent = parent;
+      this.flags = flags;
+    }
+    
+    public void reset(int startAddress) {
       if (startAddress < 0) startField.end(-1);
       addressField = null;
       placeField = null;
@@ -2635,7 +2645,7 @@ public abstract class SmartAddressParser extends MsgParser {
       if (crossField != null) data.strCross = buildData(crossField, 1);
       if (cityField != null) {
         data.strCity = buildData(cityField, 0);
-        if (cityCodes != null) data.strCity = convertCodes(data.strCity, cityCodes);
+        if (parent.cityCodes != null) data.strCity = convertCodes(data.strCity, parent.cityCodes);
       }
       
       // Before we figure out with to do with the leading start field, see if some of it
@@ -2646,7 +2656,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // to the last word of the start field.  if we find a match for either pattern
       // move the digits and everything following them to the address field
       startFld = stdPrefix;
-      if (startFldNoDelim) {
+      if ((flags & FLAG_START_FLD_NO_DELIM) != 0) {
         Pattern searchPtn = null;
         if (data.strAddress.length() == 0) {
           searchPtn = NO_DELIM_ADDR_PTN1;
@@ -2667,8 +2677,8 @@ public abstract class SmartAddressParser extends MsgParser {
       
       // If no address field has been found, but we have a start field and caller
       // has requested fallback to put everything in the address field, make it so
-      if (data.strAddress.length() == 0 && startFld.length() > 0 && fallbackAddr) {
-        parseAddress(startFld, data);
+      if (data.strAddress.length() == 0 && startFld.length() > 0 && (flags & FLAG_FALLBACK_ADDR) != 0) {
+        parent.parseAddress(startFld, data);
         startFld = "";
       }
       
@@ -2707,7 +2717,7 @@ public abstract class SmartAddressParser extends MsgParser {
           // and we can just call checkAddress to see if the near field is
           // an address or not
           if (data.strCity.length() > 0) {
-            if (checkAddress(field2) > 0) {
+            if (parent.checkAddress(field2) > 0) {
               data.strCross = field2;
               nearPlace = false;
             }
@@ -2719,7 +2729,7 @@ public abstract class SmartAddressParser extends MsgParser {
           // near field looks like an address.  Whatever is left will be saved
           // and returned by a call to our getLeft() method.
           else {
-            Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field2);
+            Result res = parent.parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field2);
             if (res.getStatus() > 0) {
               res.getData(data);
               nearResult = res;
@@ -2731,16 +2741,16 @@ public abstract class SmartAddressParser extends MsgParser {
       }
 
       // See if we should check for non-numeric apartment fields following the address
-      if (recheckApt && data.strApt.length() == 0) {
+      if ((flags & FLAG_RECHECK_APT) != 0 && data.strApt.length() == 0) {
         String addr = data.strAddress;
         String cross = data.strCross;
         data.strAddress = "";
         
-        Result result = parseAddress(StartType.START_ADDR, FLAG_NO_CITY, addr);
+        Result result = parent.parseAddress(StartType.START_ADDR, FLAG_NO_CITY, addr);
         result.getData(data);
         String apt1 = result.getLeft();
         String apt2 = append(data.strApt, " ", apt1);
-        if (apt2.length() == 0 || isNotExtraApt(apt1)) {
+        if (apt2.length() == 0 || parent.isNotExtraApt(apt1)) {
           data.strAddress = addr;
           data.strCross = cross;
           data.strApt = "";
@@ -2845,6 +2855,7 @@ public abstract class SmartAddressParser extends MsgParser {
      */
     private String buildData(int start, int end, int addrCode) {
       
+      boolean atToCross = ((flags & FLAG_AT_MEANS_CROSS) != 0);
       StringBuilder sb = new StringBuilder();
       for (int ndx = start; ndx < end; ndx++) {
         
@@ -2863,7 +2874,8 @@ public abstract class SmartAddressParser extends MsgParser {
           sb.append(new String[]{"", "/ ", "& "}[addrCode]);
         }
         if (addrCode>1 && 
-            (token.equals("/") || token.equalsIgnoreCase("AT"))) token = "&";
+            (token.equals("/") || 
+             (atToCross && token.equalsIgnoreCase("AT")))) token = "&";
         sb.append(token);
       }
       return sb.toString();
