@@ -46,7 +46,7 @@ Npgvir911 gvpxrgf
 2014011710000691  Ab Qngn
 2014021210000232  ZBWnfcrePbhagl svkrq
 2014022510000539  Dhrorp qvfgevpg - arrq zber pnyyf naq ybgf bs uryc
-2014022610000841  JVBmnhxrrPbhagl (bhgfbhepr)
+2014022610000841  JVBmnhxrrPbhagl jbexf <<
 ---- C3 -------------------------------------------------------
 2013022010000335  ALNyonalPbhaglP (Zretr jvgu BUYvpxvatPbhagl)
 2013022010000381  FQGhearePbhagl (Trareny jbexvat - pnyy ibyhzr zvavfphyr)
@@ -7957,31 +7957,6 @@ Fraqre: Bxgvoorun911 <Bxgvoorun@911.pbz>
 (ISQ - SVERNY - 2014020034 - 9612 Ebpxuvyy Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Sver Nynez ercbegrq ng 9612 Ebpxuvyy Eq, Fgnexivyyr, ZF
 (ISQ - ZRQ - 2013120057 - 155 Cengure Ya, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 155 Cengure Ya, Fgnexivyyr, ZF
 **********************************************************
-2014022610000841 (Cngevpx)
-Bmnhxrr Pbhagl, JV
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Zrdhba SQ
-Ybpngvba: Zrdhba, JV, Havgrq Fgngrf
-Fraqre: <Cbyvpr@pv.zrdhba.jv.hf>
-
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/27/2014 2:38:18 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\gJ Zrdhba Eq/A Cbeg Jnfuvatgba Eq;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000255 {2/27/2014 2:38:00 CZ} \g\aYbtva Hfre\g:\gYnag, Qnja Rvyrra\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/27/2014 12:58:25 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g5920 J Yhprear Pg,9;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000254 {2/27/2014 12:58:00 CZ} \g\aYbtva Hfre\g:\gYnag, Qnja Rvyrra\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/27/2014 12:06:19 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g10400 A Ragrecevfr Qe;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000253 {2/27/2014 12:06:00 CZ} \g\aYbtva Hfre\g:\gYnag, Qnja Rvyrra\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gSVER - Sver Pnyy\g\aErdhrfg#\g:\g14-000003\g\aErcbeg Qngr/Gvzr\g:\g2/27/2014 11:05:15 NZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g10600 A Cbeg Jnfuvatgba Eq,100;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000252 {2/27/2014 11:05:00 NZ} \g\aYbtva Hfre\g:\gYnag, Qnja Rvyrra\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gNYNEZS - Sver Nynez\g\aErdhrfg#\g:\g14-000002\g\aErcbeg Qngr/Gvzr\g:\g2/27/2014 3:55:43 NZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g6830 J Jnaqnjrtn Pve;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000251 {2/27/2014 3:55:00 NZ} \g\aYbtva Hfre\g:\gEvrtry, Cnhy R.\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/26/2014 10:47:28 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g2101 J Dhvapl Pg;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000250 {2/26/2014 10:47:00 CZ} \g\aYbtva Hfre\g:\gXahqfba, Wrffvpn Thvz\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/26/2014 9:26:30 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g4413 J Tenpr Nir;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000249 {2/26/2014 9:26:00 CZ} \g\aYbtva Hfre\g:\gXahqfba, Wrffvpn Thvz\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/26/2014 8:28:32 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g10803 A Cbeg Jnfuvatgba Eq;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000248 {2/26/2014 8:28:00 CZ} \g\aYbtva Hfre\g:\gXahqfba, Wrffvpn Thvz\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gSVER - Sver Pnyy\g\aErdhrfg#\g:\g14-000003\g\aErcbeg Qngr/Gvzr\g:\g2/26/2014 2:46:02 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g5404 J Pbhagl Yvar Eq;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000247 {2/26/2014 2:46:00 CZ} \g\aYbtva Hfre\g:\gYnag, Qnja Rvyrra\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/26/2014 3:32:53 NZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g10935 A Cbeg Jnfuvatgba Eq,222;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000246 {2/26/2014 3:32:00 NZ} \g\aYbtva Hfre\g:\gUrvzfpu, Yrnu W.\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/26/2014 2:46:34 NZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g12670 A Cbeg Jnfuvatgba Eq;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000245 {2/26/2014 2:46:00 NZ} \g\aYbtva Hfre\g:\gUrvzfpu, Yrnu W.\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/25/2014 8:00:04 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g10537 A Evireynxr Qe;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000244 {2/25/2014 8:00:00 CZ} \g\aYbtva Hfre\g:\gXahqfba, Wrffvpn Thvz\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/25/2014 12:45:48 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g6140 J Rkrphgvir Qe,OYQT;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000243 {2/25/2014 12:45:00 CZ} \g\aYbtva Hfre\g:\gOnaaba, Greel N.\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/25/2014 11:55:37 NZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g12828 A Jrfg Fuberynaq Qe;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000242 {2/25/2014 11:55:00 NZ} \g\aYbtva Hfre\g:\gYnag, Qnja Rvyrra\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/24/2014 8:18:52 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g12600 A Cbeg Jnfuvatgba Eq;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000241 {2/24/2014 8:18:00 CZ} \g\aYbtva Hfre\g:\gIna Orrx, Urvqv G.\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gNYNEZS - Sver Nynez\g\aErdhrfg#\g:\g14-000002\g\aErcbeg Qngr/Gvzr\g:\g2/24/2014 1:16:47 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g10164 A Prqneohet Eq;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000240 {2/24/2014 1:16:00 CZ} \g\aYbtva Hfre\g:\gXahqfba, Wrffvpn Thvz\g
-(Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gNYNEZS - Sver Nynez\g\aErdhrfg#\g:\g14-000002\g\aErcbeg Qngr/Gvzr\g:\g2/24/2014 1:02:45 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g11300 A Cbeg Jnfuvatgba Eq;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000239 {2/24/2014 1:02:00 CZ} \g\aYbtva Hfre\g:\gXahqfba, Wrffvpn Thvz\g
 **********************************************************
 2014011710000805 (Wnpxfba)
 Zvqqyrfrk Pbhagl, PG
@@ -8040,7 +8015,7 @@ Fraqre: <911@uneepb911.bet>
 (Zrffntr Sbejneqrq ol CntrTngr) 14014541\a PVEPYR QE\a \a \a Dhvrg Qryy\aKFge-Ohpxunaaba Cxr\a  Wnzrf Znqvfba Qe\aZnc:\a \a PneqvnpNeerf\a \a \a \a \aRFA:07102
 (Zrffntr Sbejneqrq ol CntrTngr) 14014366\a 219 Znelynaq Nir\a \a \a Ahggre Sbeg\aKFge-Ohpxunaaba Cvxr\a  \aZnc:\a \a SybbqFgehpg\a \a \a \a \aRFA:07321
 **********************************************************
-2014011710000921
+2014011710000921 (Cngevpx)
 Cevapr Trbetr, OP, Pnanqn
 
 Pbagnpg: Npgvir911
