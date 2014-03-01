@@ -792,7 +792,7 @@ choyvp pynff ZBTerrarPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G80",
         "TEA_Nyreg@fcevatsvryqzb.tbi:YBP:5505 F FGNGR UVTUJNL SS UJL NQ: QRFP:XHZ A TB NCG: PEFGE: GLC:*Z*SRZF - PZG:SRZNYR QVNORGVP JVGU YBJ OYBBQ FHTNE VAP:00000006 GVZR:Sevqnl, Abirzore 15, 2013 3:34",
         "NQQE:5505 F FGNGR UVTUJNL SS UJL",
-        "ZNQQE:5505 F FGNGR SS",
+        "ZNQQE:5505 F FGNGR UVTUJNL SS",
         "PNYY:XHZ A TB",
         "PBQR:*Z*SRZF -",
         "VASB:SRZNYR QVNORGVP JVGU YBJ OYBBQ FHTNE",

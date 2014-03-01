@@ -17,6 +17,11 @@ public class MOGreeneCountyBParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_KEEP_STATE_HIGHWAY;
+  }
+ 
+  @Override
   public Field getField(String name) {
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
@@ -48,16 +53,13 @@ public class MOGreeneCountyBParser extends FieldProgramParser {
   @Override
   public String adjustMapAddress(String sAddress) {
     sAddress = FARM_ROAD.matcher(sAddress).replaceAll("$1 FARM ROAD $2");
-    sAddress = STATE_HWY.matcher(sAddress).replaceAll("$1 STATE_HIGHWAY $2");
+    sAddress = STATE_HWY.matcher(sAddress).replaceAll("$1 STATE HIGHWAY $2");
+    sAddress = STATE_HWY_HWY.matcher(sAddress).replaceAll("$1");
     return sAddress;
   }
 
   private static Pattern FARM_ROAD = Pattern.compile("\\b([NESW]) FR(\\d+)\\b");
   private static Pattern STATE_HWY = Pattern.compile("\\b([NESW]) SH(([A-Z])(?:\\3)?)\\b");
-  
-  @Override
-  public String postAdjustMapAddress(String sAddress) {
-    return sAddress.replaceAll("STATE_HIGHWAY", "STATE HIGHWAY");
-  }
+  private static Pattern STATE_HWY_HWY = Pattern.compile("\\b([NESW] STATE HIGHWAY [^ ]+) HWY\\b");
 
 }

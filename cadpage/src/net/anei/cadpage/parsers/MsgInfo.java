@@ -45,7 +45,10 @@ public class MsgInfo {
   public static final int MAP_FLG_CR_CREEK = 0x200;
   
   // Suppress TE -> TER translation
-  public static final int MAP_FLG_SUPPR_TE = 0x200;
+  public static final int MAP_FLG_SUPPR_TE = 0x400;
+  
+  // Preserver STATE HIGHWAY construct
+  public static final int MAP_FLG_KEEP_STATE_HIGHWAY = 0x800;
   
 
   private String strCall;
@@ -762,6 +765,7 @@ public class MsgInfo {
     String state = getStateCode();
     if (state.length() == 0) state = defState;
     String repState = getRepState(state);
+    boolean keepStateHighway = (parser.getMapFlags() & MAP_FLG_KEEP_STATE_HIGHWAY) != 0;
     for (Pattern ptn : DBL_ROUTE_PTNS) {
       Matcher match = ptn.matcher(sAddress);
       if (!match.find()) continue;
@@ -777,6 +781,7 @@ public class MsgInfo {
           middle = "";
           hwy = match.group(2).toUpperCase();
         }
+        if (keepStateHighway && prefix.equalsIgnoreCase("STATE") && middle.equalsIgnoreCase("HIGHWAY")) continue;
         if (!hwy.equals("TO") && !hwy.equals("OF") && !hwy.equals("OR")) {
           if (prefix.length() != 2 ||
               (prefix.equals(state) ||

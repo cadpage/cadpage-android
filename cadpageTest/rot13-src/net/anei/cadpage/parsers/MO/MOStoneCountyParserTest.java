@@ -50,6 +50,44 @@ Ybpngvba: Oenafba Jrfg, ZB, Havgrq Fgngrf
 911-PRAGRE:RCERT CERTANAPL/PUVYQOVEGU/ZVFPNEE 63 UBEVMBA PG 4175932581
 911-PRAGRE:RGV GENHZNGVP VAWHEVRF (FCRPVSVP) FGNGR UJL BB&JRYPU EQ 6614007669 JRYPU EQ
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Prageny Pebffvat Sver Cebgrpgvba Qvfgevpg
+Ybpngvba: Furyy Xabo, ZB, Havgrq Fgngrf
+
+911-PRAGRE:RCFLP CFLPUVNGEVP/FHVPVQR NGGRZCG 234 PNABCL YA 5736476762 J FGNGR UJL 86 Cflpuvngevp be Fhvpvqr Nggrzcg Prageny Pebffvat Sver
+911-PRAGRE:SOS OEHFU/SBERFG SVER 24 A FHAFRG YA 4178583005 J ONLOREEL FG Oehfu be Sberfg Sver Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver
+911-PRAGRE:SYM YNAQVAT MBAR 9276 J FGNGR UJL 86 FGNGR UJL 39 Ynaqvat Mbar Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver
+911-PRAGRE:ROCEBO OERNGVAT CEBOYRZF 208 ZPPHYYBHTU PUHEPU EQ 4174400496 JVYQJBBQ EQ Oernguvat Ceboyrzf Prageny Pebffvat Sver
+911-PRAGRE:RHS HAPBAFPVBHF/SNVAGVAT ABAGENHZN 234 PNABCL YA 4178586815 J FGNGR UJL 86 Hapbafpvbhf be Snvagvat Prageny Pebffvat Sver
+911-PRAGRE:RS SNYYF/ONPX VAWHEL (GENHZNGVP) 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Snyyf / Onpx Vawhel (GENZNGVP) Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 208 ZPPHYYBHTU PUHEPU EQ 4178207520 JVYQJBBQ EQ Yvsg Nffvfg Prageny Pebffvat Sver
+911-PRAGRE:ROCEBO OERNGVAT CEBOYRZF 208 ZPPHYYBHTU PUHEPU EQ 4174400496 JVYQJBBQ EQ Oernguvat Ceboyrzf Prageny Pebffvat Sver
+911-PRAGRE:RUY URZBENTR/YNPRENGVBAF 177 DHVRG YA 8006388222 PBHAGLYVAR EQ Urzbentr / Ynprengvba Prageny Pebffvat Sver
+911-PRAGRE:SNERF NYNEZ/ERFVQRAPR 336 QEL EHA EQ 8004191730 Nynez - Erfvqragvny Sver Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 234 PNABCL YA 4178586815 J FGNGR UJL 86 Yvsg Nffvfg Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 234 PNABCL YA 4178586815 J FGNGR UJL 86 Yvsg Nffvfg Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 234 PNABCL YA 4178586815 J FGNGR UJL 86 Yvsg Nffvfg Prageny Pebffvat Sver
+911-PRAGRE:RHC HAXABJA CEBOYRZF 200 F YVAQRAJBBQ FG 4178583336 J PUNYRG FG Haxabja Ceboyrzf Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver
+911-PRAGRE:RS SNYYF/ONPX VAWHEL (GENHZNGVP) 500 FJNSSBEQ YA 4178589115 ENZOYVAT EQ Snyyf / Onpx Vawhel (GENZNGVP) Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 208 ZPPHYYBHTU PUHEPU EQ 4178203003 JVYQJBBQ EQ Yvsg Nffvfg Prageny Pebffvat Sver
+911-PRAGRE:ROCEBO OERNGVAT CEBOYRZF 234 PNABCL YA 4178586815 J FGNGR UJL 86 Oernguvat Ceboyrzf Prageny Pebffvat Sver
+911-PRAGRE:SUS UBHFR SVER 149 F UNMRYJBBQ FG 4178581144 J PUNYRG FG Erfvqragvny Fgehgher Sver Prageny Pebffvat Sver
+911-PRAGRE:RHS HAPBAFPVBHF/SNVAGVAT ABAGENHZN 317 ERQOHQ QE 4175380087 Hapbafpvbhf be Snvagvat Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver
+911-PRAGRE:RFC FVPX CREFBA 280 ZPPHYYBHTU PUHEPU EQ 417 JVYQJBBQ EQ Fvpx Crefba Prageny Pebffvat Sver
+911-PRAGRE:RNC NOQBZVANY CNVA/CEBOYRZF 337 JNFUVATGBA EQ 4173935620 J FGNGR UJL 86 Noqbzvany Cnva Prageny Pebffvat Sver
+911-PRAGRE:ROCEBO OERNGVAT CEBOYRZF 208 ZPPHYYBHTU PUHEPU EQ 4174400495 JVYQJBBQ EQ Oernguvat Ceboyrzf Prageny Pebffvat Sver
+911-PRAGRE:RFC FVPX CREFBA 1599 J FGNGR UJL U 4178580403 GNLYBE EQ Fvpx Crefba Prageny Pebffvat Sver
+911-PRAGRE:SPZQ PNEOBA ZBABKVQR QRGRPGBE NPG 19 FCNEEBJ YA 417 OYHROVEQ YA Pneoba Zbabkvqr Qrgrpgbe Prageny Pebffvat Sver
+911-PRAGRE:SOS OEHFU/SBERFG SVER 560 SVFU A SHA EQ 4172480532 TBYQSVAPU YA Oehfu be Sberfg Sver Prageny Pebffvat Sver
+911-PRAGRE:SYN YVSG NFFVFG 234 PNABCL YA 4178586815 J FGNGR UJL 86 Yvsg Nffvfg Prageny Pebffvat Sver
+
 */
 
 choyvp pynff ZBFgbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -324,7 +362,283 @@ choyvp pynff ZBFgbarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:JRYPU EQ");
  
   }
-  
+
+  @Grfg
+  choyvp ibvq grfgPragenyPebffvatSverCebgrpgvbaQvfgevpg() {
+
+    qbGrfg("G1",
+        "911-PRAGRE:RCFLP CFLPUVNGEVP/FHVPVQR NGGRZCG 234 PNABCL YA 5736476762 J FGNGR UJL 86 Cflpuvngevp be Fhvpvqr Nggrzcg Prageny Pebffvat Sver",
+        "PNYY:RCFLP CFLPUVNGEVP/FHVPVQR NGGRZCG",
+        "NQQE:234 PNABCL YA",
+        "CUBAR:5736476762",
+        "K:J FGNGR UJL 86",
+        "VASB:Cflpuvngevp be Fhvpvqr Nggrzcg Prageny Pebffvat Sver");
+
+    qbGrfg("G2",
+        "911-PRAGRE:SOS OEHFU/SBERFG SVER 24 A FHAFRG YA 4178583005 J ONLOREEL FG Oehfu be Sberfg Sver Prageny Pebffvat Sver",
+        "PNYY:SOS OEHFU/SBERFG SVER",
+        "NQQE:24 A FHAFRG YA",
+        "CUBAR:4178583005",
+        "K:J ONLOREEL FG",
+        "VASB:Oehfu be Sberfg Sver Prageny Pebffvat Sver");
+
+    qbGrfg("G3",
+        "911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:3117 J FGNGR UJL U",
+        "ZNQQE:3117 J FGNGR U",
+        "CUBAR:4174892115",
+        "K:ENZOYVAT EQ",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+    qbGrfg("G4",
+        "911-PRAGRE:SYM YNAQVAT MBAR 9276 J FGNGR UJL 86 FGNGR UJL 39 Ynaqvat Mbar Prageny Pebffvat Sver",
+        "PNYY:SYM YNAQVAT MBAR",
+        "NQQE:9276 J FGNGR UJL 86",
+        "ZNQQE:9276 J FGNGR 86",
+        "K:FGNGR UJL 39",
+        "VASB:Ynaqvat Mbar Prageny Pebffvat Sver");
+
+    qbGrfg("G5",
+        "911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:3117 J FGNGR UJL U",
+        "ZNQQE:3117 J FGNGR U",
+        "CUBAR:4174892115",
+        "K:ENZOYVAT EQ",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+    qbGrfg("G6",
+        "911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:3117 J FGNGR UJL U",
+        "ZNQQE:3117 J FGNGR U",
+        "CUBAR:4174892115",
+        "K:ENZOYVAT EQ",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+    qbGrfg("G7",
+        "911-PRAGRE:ROCEBO OERNGVAT CEBOYRZF 208 ZPPHYYBHTU PUHEPU EQ 4174400496 JVYQJBBQ EQ Oernguvat Ceboyrzf Prageny Pebffvat Sver",
+        "PNYY:ROCEBO OERNGVAT CEBOYRZF",
+        "NQQE:208 ZPPHYYBHTU PUHEPU EQ",
+        "CUBAR:4174400496",
+        "K:JVYQJBBQ EQ",
+        "VASB:Oernguvat Ceboyrzf Prageny Pebffvat Sver");
+
+    qbGrfg("G8",
+        "911-PRAGRE:RHS HAPBAFPVBHF/SNVAGVAT ABAGENHZN 234 PNABCL YA 4178586815 J FGNGR UJL 86 Hapbafpvbhf be Snvagvat Prageny Pebffvat Sver",
+        "PNYY:RHS HAPBAFPVBHF/SNVAGVAT ABAGENHZN",
+        "NQQE:234 PNABCL YA",
+        "CUBAR:4178586815",
+        "K:J FGNGR UJL 86",
+        "VASB:Hapbafpvbhf be Snvagvat Prageny Pebffvat Sver");
+
+    qbGrfg("G9",
+        "911-PRAGRE:RS SNYYF/ONPX VAWHEL (GENHZNGVP) 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Snyyf / Onpx Vawhel (GENZNGVP) Prageny Pebffvat Sver",
+        "PNYY:RS SNYYF/ONPX VAWHEL (GENHZNGVP)",
+        "NQQE:3117 J FGNGR UJL U",
+        "ZNQQE:3117 J FGNGR U",
+        "CUBAR:4174892115",
+        "K:ENZOYVAT EQ",
+        "VASB:Snyyf / Onpx Vawhel (GENZNGVP) Prageny Pebffvat Sver");
+
+    qbGrfg("G10",
+        "911-PRAGRE:SYN YVSG NFFVFG 208 ZPPHYYBHTU PUHEPU EQ 4178207520 JVYQJBBQ EQ Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:208 ZPPHYYBHTU PUHEPU EQ",
+        "CUBAR:4178207520",
+        "K:JVYQJBBQ EQ",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+    qbGrfg("G11",
+        "911-PRAGRE:ROCEBO OERNGVAT CEBOYRZF 208 ZPPHYYBHTU PUHEPU EQ 4174400496 JVYQJBBQ EQ Oernguvat Ceboyrzf Prageny Pebffvat Sver",
+        "PNYY:ROCEBO OERNGVAT CEBOYRZF",
+        "NQQE:208 ZPPHYYBHTU PUHEPU EQ",
+        "CUBAR:4174400496",
+        "K:JVYQJBBQ EQ",
+        "VASB:Oernguvat Ceboyrzf Prageny Pebffvat Sver");
+
+    qbGrfg("G12",
+        "911-PRAGRE:RUY URZBENTR/YNPRENGVBAF 177 DHVRG YA 8006388222 PBHAGLYVAR EQ Urzbentr / Ynprengvba Prageny Pebffvat Sver",
+        "PNYY:RUY URZBENTR/YNPRENGVBAF",
+        "NQQE:177 DHVRG YA",
+        "CUBAR:8006388222",
+        "K:PBHAGLYVAR EQ",
+        "VASB:Urzbentr / Ynprengvba Prageny Pebffvat Sver");
+
+    qbGrfg("G13",
+        "911-PRAGRE:SNERF NYNEZ/ERFVQRAPR 336 QEL EHA EQ 8004191730 Nynez - Erfvqragvny Sver Prageny Pebffvat Sver",
+        "PNYY:SNERF NYNEZ/ERFVQRAPR",
+        "NQQE:336 QEL EHA EQ",  // Abg znccvat
+        "CUBAR:8004191730",
+        "VASB:Nynez - Erfvqragvny Sver Prageny Pebffvat Sver");
+
+    qbGrfg("G14",
+        "911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:3117 J FGNGR UJL U",
+        "ZNQQE:3117 J FGNGR U",
+        "CUBAR:4174892115",
+        "K:ENZOYVAT EQ",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+    qbGrfg("G15",
+        "911-PRAGRE:SYN YVSG NFFVFG 234 PNABCL YA 4178586815 J FGNGR UJL 86 Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:234 PNABCL YA",
+        "CUBAR:4178586815",
+        "K:J FGNGR UJL 86",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+    qbGrfg("G16",
+        "911-PRAGRE:SYN YVSG NFFVFG 234 PNABCL YA 4178586815 J FGNGR UJL 86 Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:234 PNABCL YA",
+        "CUBAR:4178586815",
+        "K:J FGNGR UJL 86",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+    qbGrfg("G17",
+        "911-PRAGRE:SYN YVSG NFFVFG 234 PNABCL YA 4178586815 J FGNGR UJL 86 Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:234 PNABCL YA",
+        "CUBAR:4178586815",
+        "K:J FGNGR UJL 86",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+    qbGrfg("G18",
+        "911-PRAGRE:RHC HAXABJA CEBOYRZF 200 F YVAQRAJBBQ FG 4178583336 J PUNYRG FG Haxabja Ceboyrzf Prageny Pebffvat Sver",
+        "PNYY:RHC HAXABJA CEBOYRZF",
+        "NQQE:200 F YVAQRAJBBQ FG",
+        "CUBAR:4178583336",
+        "K:J PUNYRG FG",
+        "VASB:Haxabja Ceboyrzf Prageny Pebffvat Sver");
+
+    qbGrfg("G19",
+        "911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:3117 J FGNGR UJL U",
+        "ZNQQE:3117 J FGNGR U",
+        "CUBAR:4174892115",
+        "K:ENZOYVAT EQ",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+    qbGrfg("G20",
+        "911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:3117 J FGNGR UJL U",
+        "ZNQQE:3117 J FGNGR U",
+        "CUBAR:4174892115",
+        "K:ENZOYVAT EQ",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+    qbGrfg("G21",
+        "911-PRAGRE:RS SNYYF/ONPX VAWHEL (GENHZNGVP) 500 FJNSSBEQ YA 4178589115 ENZOYVAT EQ Snyyf / Onpx Vawhel (GENZNGVP) Prageny Pebffvat Sver",
+        "PNYY:RS SNYYF/ONPX VAWHEL (GENHZNGVP)",
+        "NQQE:500 FJNSSBEQ YA",
+        "CUBAR:4178589115",
+        "K:ENZOYVAT EQ",
+        "VASB:Snyyf / Onpx Vawhel (GENZNGVP) Prageny Pebffvat Sver");
+
+    qbGrfg("G22",
+        "911-PRAGRE:SYN YVSG NFFVFG 208 ZPPHYYBHTU PUHEPU EQ 4178203003 JVYQJBBQ EQ Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:208 ZPPHYYBHTU PUHEPU EQ",
+        "CUBAR:4178203003",
+        "K:JVYQJBBQ EQ",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+    qbGrfg("G23",
+        "911-PRAGRE:ROCEBO OERNGVAT CEBOYRZF 234 PNABCL YA 4178586815 J FGNGR UJL 86 Oernguvat Ceboyrzf Prageny Pebffvat Sver",
+        "PNYY:ROCEBO OERNGVAT CEBOYRZF",
+        "NQQE:234 PNABCL YA",
+        "CUBAR:4178586815",
+        "K:J FGNGR UJL 86",
+        "VASB:Oernguvat Ceboyrzf Prageny Pebffvat Sver");
+
+    qbGrfg("G24",
+        "911-PRAGRE:SUS UBHFR SVER 149 F UNMRYJBBQ FG 4178581144 J PUNYRG FG Erfvqragvny Fgehgher Sver Prageny Pebffvat Sver",
+        "PNYY:SUS UBHFR SVER",
+        "NQQE:149 F UNMRYJBBQ FG",
+        "CUBAR:4178581144",
+        "K:J PUNYRG FG",
+        "VASB:Erfvqragvny Fgehgher Sver Prageny Pebffvat Sver");
+
+    qbGrfg("G25",
+        "911-PRAGRE:RHS HAPBAFPVBHF/SNVAGVAT ABAGENHZN 317 ERQOHQ QE 4175380087 Hapbafpvbhf be Snvagvat Prageny Pebffvat Sver",
+        "PNYY:RHS HAPBAFPVBHF/SNVAGVAT ABAGENHZN",
+        "NQQE:317 ERQOHQ QE",
+        "CUBAR:4175380087",
+        "VASB:Hapbafpvbhf be Snvagvat Prageny Pebffvat Sver");
+
+    qbGrfg("G26",
+        "911-PRAGRE:SYN YVSG NFFVFG 3117 J FGNGR UJL U 4174892115 ENZOYVAT EQ Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:3117 J FGNGR UJL U",
+        "ZNQQE:3117 J FGNGR U",
+        "CUBAR:4174892115",
+        "K:ENZOYVAT EQ",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+    qbGrfg("G27",
+        "911-PRAGRE:RFC FVPX CREFBA 280 ZPPHYYBHTU PUHEPU EQ 417 JVYQJBBQ EQ Fvpx Crefba Prageny Pebffvat Sver",
+        "PNYY:RFC FVPX CREFBA",
+        "NQQE:280 ZPPHYYBHTU PUHEPU EQ",
+        "NCG:417",
+        "K:JVYQJBBQ EQ",
+        "VASB:Fvpx Crefba Prageny Pebffvat Sver");
+
+    qbGrfg("G28",
+        "911-PRAGRE:RNC NOQBZVANY CNVA/CEBOYRZF 337 JNFUVATGBA EQ 4173935620 J FGNGR UJL 86 Noqbzvany Cnva Prageny Pebffvat Sver",
+        "PNYY:RNC NOQBZVANY CNVA/CEBOYRZF",
+        "NQQE:337 JNFUVATGBA EQ",
+        "CUBAR:4173935620",
+        "K:J FGNGR UJL 86",
+        "VASB:Noqbzvany Cnva Prageny Pebffvat Sver");
+
+    qbGrfg("G29",
+        "911-PRAGRE:ROCEBO OERNGVAT CEBOYRZF 208 ZPPHYYBHTU PUHEPU EQ 4174400495 JVYQJBBQ EQ Oernguvat Ceboyrzf Prageny Pebffvat Sver",
+        "PNYY:ROCEBO OERNGVAT CEBOYRZF",
+        "NQQE:208 ZPPHYYBHTU PUHEPU EQ",
+        "CUBAR:4174400495",
+        "K:JVYQJBBQ EQ",
+        "VASB:Oernguvat Ceboyrzf Prageny Pebffvat Sver");
+
+    qbGrfg("G30",
+        "911-PRAGRE:RFC FVPX CREFBA 1599 J FGNGR UJL U 4178580403 GNLYBE EQ Fvpx Crefba Prageny Pebffvat Sver",
+        "PNYY:RFC FVPX CREFBA",
+        "NQQE:1599 J FGNGR UJL U",
+        "ZNQQE:1599 J FGNGR U",
+        "CUBAR:4178580403",
+        "K:GNLYBE EQ",
+        "VASB:Fvpx Crefba Prageny Pebffvat Sver");
+
+    qbGrfg("G31",
+        "911-PRAGRE:SPZQ PNEOBA ZBABKVQR QRGRPGBE NPG 19 FCNEEBJ YA 417 OYHROVEQ YA Pneoba Zbabkvqr Qrgrpgbe Prageny Pebffvat Sver",
+        "PNYY:SPZQ PNEOBA ZBABKVQR QRGRPGBE NPG",
+        "NQQE:19 FCNEEBJ YA",
+        "NCG:417",
+        "K:OYHROVEQ YA",
+        "VASB:Pneoba Zbabkvqr Qrgrpgbe Prageny Pebffvat Sver");
+
+    qbGrfg("G32",
+        "911-PRAGRE:SOS OEHFU/SBERFG SVER 560 SVFU A SHA EQ 4172480532 TBYQSVAPU YA Oehfu be Sberfg Sver Prageny Pebffvat Sver",
+        "PNYY:SOS OEHFU/SBERFG SVER",
+        "NQQE:560 SVFU A SHA EQ",
+        "CUBAR:4172480532",
+        "K:TBYQSVAPU YA",
+        "VASB:Oehfu be Sberfg Sver Prageny Pebffvat Sver");
+
+    qbGrfg("G33",
+        "911-PRAGRE:SYN YVSG NFFVFG 234 PNABCL YA 4178586815 J FGNGR UJL 86 Yvsg Nffvfg Prageny Pebffvat Sver",
+        "PNYY:SYN YVSG NFFVFG",
+        "NQQE:234 PNABCL YA",
+        "CUBAR:4178586815",
+        "K:J FGNGR UJL 86",
+        "VASB:Yvsg Nffvfg Prageny Pebffvat Sver");
+
+  }
+ 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj ZBFgbarPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
