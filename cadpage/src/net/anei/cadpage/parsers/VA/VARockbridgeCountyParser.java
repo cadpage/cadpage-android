@@ -14,6 +14,10 @@ public class VARockbridgeCountyParser extends DispatchDAPROParser {
   public VARockbridgeCountyParser() {
     super(CITY_CODE_TABLE, "ROCKBRIDGE COUNTY", "VA");
     setupCallList(CALL_SET);
+    setupMultiWordStreets(
+        "MAURY RIVER",
+        "MOUNTAIN VIEW",
+        "OLD BUENA VISTA");
   }
   
   @Override
@@ -26,7 +30,6 @@ public class VARockbridgeCountyParser extends DispatchDAPROParser {
     Parser p = new Parser(subject);
     data.strUnit = p.getLast(' ');
     String source = p.get();
-    if (source.length() == 0) return false;
     if (!super.parseMsg(body,  data)) return false;
     data.strBox = data.strSource;
     data.strSource = source;
@@ -39,17 +42,33 @@ public class VARockbridgeCountyParser extends DispatchDAPROParser {
   }
   
   private static final CodeSet CALL_SET = new CodeSet(
+      "ABDOMINAL PAIN",
+      "ACCIDENT NO INJURY",
+      "ACCIDENT WITH INJURY",
+      "BRUSH FIRE GREATER THAN 50' AW",
       "CHEST PAINS/CARDIAC",
+      "CHIMNEY FIRE",
+      "COMMERCIAL NATURAL GAS/PROPANE",
+      "COMMERCIAL VEHICLE FIRE",
+      "DIABETIC",
       "DIZZY, SICK, ETC.",
+      "EMS SERVICE CALL",
       "FALL",
       "FIRE ALARM",
       "FIRE SERVICE CALL",
+      "FLUID LEAK FROM VEHICLE NO INJ",
+      "HAZARDOUS MATERIALS CALL",
       "MEDICAL ALARM/LIFELINE ALARM",
       "PAIN NOT RESULTING FORM AN INJ",
+      "SERVICE CALL",
       "SHORT OF BREATH/DIFF BREATHING",
       "STRUCTURE FIRE",
+      "SWIFT WATER TEAM CALL",
+      "TECHNICAL RESCUE CALL",
       "TEST CALL FOR ECC",
-      "UNKNOWN MEDICAL EMERGENCY"
+      "UNKNOWN MEDICAL EMERGENCY",
+      "UNRESPONSIVE",
+      "VEHICLE FIRE"
       
   );
   
