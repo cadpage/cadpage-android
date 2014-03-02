@@ -203,6 +203,7 @@ public class DispatchBParser extends FieldProgramParser {
         "ABDOMINAL PAINS",
         "ABDOMINAL PAINS CHARLIE",
         "ABDOMINAL/BACK PAIN",
+        "ABDOMINAL / BACK PAIN ALS",
         "ABDOMINAL / BACK PAIN BLS",
         "ABDOMINAL PAIN/PROBLEM",
         "ABNORMAL BEHAVIOR",
