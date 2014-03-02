@@ -12,6 +12,11 @@ Ntrapl anzr: Rnfg Bxgvoorun ISQ
 Ybpngvba: Fgnexivyyr, ZF, Havgrq Fgngrf
 Fraqre: Bxgvoorun911 <Bxgvoorun@911.pbz>
 
+(ISQ - ZRQ - 2014030003 - 173 Tenff Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 173 Tenff Eq, Fgnexivyyr, ZF
+(ISQ - FGEHP - 2014020074 - 240 16gu Frpgvba Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Fgehpgher Sver ercbegrq ng 240 16gu Frpgvba Eq, Fgnexivyyr, ZF
+(ISQ - ZRQ - 2014020073 - 96 Jnfu Ya, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 96 Jnfu Ya, Fgnexivyyr, ZF 31 le byq znyr cbffvoyr flapbcr rcvfbqrf.
+(ISQ - ZRQ - 2014020070 - 450 Pnzoevqtr Qe, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 450 Pnzoevqtr Qe, Fgnexivyyr, ZF
+(ISQ - ZIN - 2014020068 - 1279 Byq Jrfg Cbag Eq, Fgnexivyyr, ZF) ragenczrag bireghea iruvpyr hafher bs vawhevrf
 (ISQ - ZRQ - 2014020062 - 173 Tenff Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 173 Tenff Eq, Fgnexivyyr, ZF
 (ISQ - ZRQ - 2014020056 - 475 Pnaaba Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny - qvss oernguvat - ercbegrq ng 475 Pnaaba Eq, Fgnexivyyr, ZF
 (ISQ - ZRQ - 2014020055 - 209 16gu Frpgvba Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 209 16gu Frpgvba Eq, Fgnexivyyr, ZF, zrqvpny nynez, nyy nzohynaprf bhg ng guvf gvzr
