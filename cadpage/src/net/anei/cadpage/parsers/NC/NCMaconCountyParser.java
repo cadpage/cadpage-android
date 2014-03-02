@@ -12,7 +12,7 @@ public class NCMaconCountyParser extends DispatchBParser {
   
   @Override
   protected boolean isPageMsg(String body) {
-    return body.startsWith("911 CENTER:");
+    return body.startsWith("911 CENTER:") || body.startsWith("MACON911:");
   }
 
   private static final String[] CITY_LIST = new String[]{
