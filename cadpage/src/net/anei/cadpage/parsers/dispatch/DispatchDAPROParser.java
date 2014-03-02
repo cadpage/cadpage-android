@@ -69,18 +69,27 @@ public class DispatchDAPROParser extends FieldProgramParser {
   
   @Override 
   public Field getField(String name) {
-    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("ID")) return new BaseIdField();
+    if (name.equals("X")) return new BaseCrossField();
     return super.getField(name);
   }
   
   private static final Pattern ID_PTN = Pattern.compile("((?:\\d{4}-)?\\d{6}),? *(.*)");
-  private class MyIdField extends IdField {
+  private class BaseIdField extends IdField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = ID_PTN.matcher(field);
       if (!match.matches()) abort();
       data.strCallId = match.group(1);
       data.strSupp = match.group(2);
+    }
+  }
+  
+  private class BaseCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldStart(field, "/");
+      super.parse(field, data);
     }
   }
 }
