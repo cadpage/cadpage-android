@@ -5,6 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
+Penjsbeq Pbhagl, ZB (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Abegu Penjsbeq Pbhagl Nzohynapr Qvfg.
