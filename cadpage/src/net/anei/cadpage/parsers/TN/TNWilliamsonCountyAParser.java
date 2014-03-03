@@ -1,23 +1,29 @@
 package net.anei.cadpage.parsers.TN;
 
 
-import net.anei.cadpage.parsers.dispatch.DispatchBParser;
+import java.util.regex.Pattern;
+
+import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 
-public class TNWilliamsonCountyAParser extends DispatchBParser {
+public class TNWilliamsonCountyAParser extends DispatchB2Parser {
+  
+  private static final Pattern MARKER = Pattern.compile("911-CENTER:[A-Z0-9]+ ?>");
   
   public TNWilliamsonCountyAParser() {
-    super(CITY_LIST, "WILLIAMSON COUNTY", "TN");
+    super("911-CENTER:", CITY_LIST, "WILLIAMSON COUNTY", "TN");
   }
   
   @Override
   public String getFilter() {
     return "911-CENTER@williamson-tn.org";
   }
-  
+
   @Override
-  protected boolean isPageMsg(String body) {
-    return body.startsWith("911-CENTER:");
+  protected boolean parseMsg(String body, Data data) {
+    if (!MARKER.matcher(body).lookingAt()) return false;
+    return super.parseMsg(body, data);
   }
 
   private static final String[] CITY_LIST = new String[]{
