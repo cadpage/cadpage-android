@@ -840,6 +840,7 @@ public class ParserList {
               ,"TXBexarCounty"                  ,"Bexar County, TX"
               ,"TXBrazoriaCounty"               ,"Brazoria County, TX"
               ,"TXCollinCounty"                 ,"Collin County, TX"
+              ,"TXCombine"                      ,"Combine, TX"
               ,"TXCyCreekCommCenter"            ,"Cy Creek Comm Center, TX"
               ,"TXCyFair"                       ,"Cypress-Harris, TX"
               ,"TXDecatur"                      ,"Decatur, TX"
@@ -956,6 +957,7 @@ public class ParserList {
               ,"WVFayetteCounty"                ,"Fayette County, WV"
               ,"WVHampshireCounty"              ,"Hampshire County, WV"
               ,"WVHardyCounty"                  ,"Hardy County, WV"
+              ,"WVHarrisonCounty"               ,"Harrison County, WV"
               ,"WVKanawhaCounty"                ,"Kanawha County, WV"
               ,"WVLincolnCounty"                ,"Lincoln County, WV"
               ,"WVMasonCounty"                  ,"Mason County, WV"
@@ -970,6 +972,7 @@ public class ParserList {
               ,"WIEauClaire"                    ,"Eau Claire, WI"
               ,"WIKenoshaCounty"                ,"Kenosha County, WI"
               ,"WIOutagamieCounty"              ,"Outagamie County, WI"
+              ,"WIOzaukeeCounty"                ,"Ozaukee County, WI"
               ,"WIWaukeshaCounty"               ,"Waukesha County, WI"
               ,"WIWinnebagoCounty"              ,"Winnebago County, WI"
           ),
