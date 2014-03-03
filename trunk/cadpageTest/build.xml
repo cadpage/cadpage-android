@@ -1,0 +1,68 @@
+<project name="Cadpage Test Project" basedir=".">
+	<description>
+		Provides the infrastructure to rot13 protect the java test source code.  This provides a
+		minimal level of privacy protection for citizens referred to in the 911 pages that make up a
+		large part of the test classes while keeping the information readily available for developers
+		that know how to get it
+	</description>
+	
+	<condition property="base" value="cadpageTest" else="."> 
+	  <available file="${basedir}/robots.txt"/>
+	</condition>
+	
+  <property name="src" value="${basedir}/${base}/src"/>
+  <property name="rot13src" value="${basedir}/${base}/rot13-src"/>
+  <property name="libdir" value="${basedir}/${base}/lib"/>
+  <property name="rot13jarfile" value="${libdir}/antRot13.jar"/>  
+	
+	<property name="bin" value="${base}/bin"/>
+	<property name="select" value="net/anei/cadpage/ant/**"/>
+	<property name="filename" value="CadpageParser"/>
+	
+	<condition property="SVNEDITOR" value="notepad" else="kate -n">
+	  <os family="windows"/>
+	</condition>
+  
+  <target name="compile">
+    <javac srcdir="${src}" includes="${select}" destdir="${bin}" 
+      	   source="1.5" target="1.5" debug="yes" includeAntRuntime="false"/>
+  </target>
+	
+	<target name="jarfile" depends="compile">
+		<jar basedir="${bin}" includes="${select}" destfile="${rot13jarfile}"/>
+	</target>
+	
+	<target name="build" depends="jarfile"/>
+  
+  <taskdef name="rot13" classname="net.anei.cadpage.ant.Rot13" classpath="${rot13jarfile}"/>
+  		
+	<target name="export">
+    <rot13 src="${src}" target="${rot13src}"/>
+	</target>
+	
+	<target name="import">
+    <rot13 src="${rot13src}" target="${src}"/>
+	</target>
+	
+	<target name="stat">
+    <antcall target="export"/>
+	  <exec executable="svn">
+	    <arg line="stat"/>
+	  </exec>
+	</target>
+   
+  <target name="update" depends="export">
+    <exec executable="svn">
+      <arg line="update"/>
+    </exec>
+    <antcall target="import"/>
+  </target>
+   
+  <target name="commit" depends="update">
+    <antcall target="export"/>
+    <exec executable="svn">
+      <arg line="commit --editor-cmd='${SVNEDITOR}'"/>
+    </exec>
+  </target>
+  	
+</project>

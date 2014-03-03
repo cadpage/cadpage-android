@@ -1,0 +1,100 @@
+Publishing a Cadpage Parser update
+* Run CadTests and fix any problems
+* Open a command shell and run "ant build" in the Cadpage work directory.
+  This will build a CadpageParser.jar file in the dist directory
+* Open the Cadpage project and switch to the Downloads page
+* There is a file cabinet near the bottom of the page that contains a 
+  CadpageParser.jar file.  Click the Add File button, select the new 
+  CadpageParser.jar file and upload it.
+* Open current issues and display all with a status of "ReadyToRelease"
+* Fire of an email to anyone using the Cadpage Parser describing the changes
+  reported in the ReadyToRelease issues
+* Block change ReadyToRelease issues to give them a status of Beta  
+
+
+Publishing a Cadpage Beta release
+
+* First publish a Cadpage Parser update if you haven't already
+* Update the release version numbers in AndroidManifest.xml
+* Commit changes to AndroidManifest.xml
+* Use Cadpage RMB menu Android Tools > Export signed application package to
+  build a cadpage-beta.apk file
+* Login to https://site.google.com as kencorbin101@gmail
+* Open the Cadpage project and switch to the Downloads page
+* There is a file cabinet near the bottom of the page that contains a 
+  cadpage-beta.apk file.  Click the Add File button, select the new 
+  cadpage-beta.apk file and upload it.
+* Refresh the page display and confirm that the new file is now available.
+  Sometimes it doesn't take and has to be uploaded again.
+
+***************************************************************************
+Publishing a regular Cadpage release
+
+* Publish a Cadpage Parser update if you haven not done so already
+* Upload a backup copy of the previous Android apk
+* Update the release version numbers in AndroidManifest.xml
+* Open current issues and display all with a status of "Beta"
+* open res/values/release_info.xml
+* update release_version item
+* update release_date item
+* Update release_info based on information in issues list
+* Run Cadpage in emulator to make sure release_info look correct
+* Commit all changes
+* use command line svn cp to copy cadpage trunk to tags/<release>
+* Use Cadpage RMB menu Android Tools > Export signed application package to
+  build a cadpage.apk file
+
+* Login to https://market.android.com/publish as market@cadpage.org
+* Click the Cadpage link and switch to the APK files tab
+* Click the Upload APK button and upload the newly constructed cadpage.apk file
+* Confirm that the uploaded .apk file has the expected release version
+* Click the link to activate the new .apk file
+* Switch to the Product details tab
+* Update the Recent Changes information, you can copy the data from the 
+  release_info.xml file
+* Press the save button to save all changes
+* Check to main developer page and confirm that the published version Cadpage 
+  has the new version number.
+  
+* Make copy cadpage.apk to cadpage-beta.apk and upload the beta version to 
+  the Cadpage download site as above
+  
+* Login to the Cadpage page in facebook
+* Create a new post about the new version being released. You can copy most of
+* the information from the Recent Changes section of the Android Market page.
+
+* Go back to the Cadpage issues page, still displaying the list of issues
+  included in this release
+* Select all issues and do a bulk update to give all issues a status of "Released"
+
+******************************************************************************
+Creating a free version of Cadpage
+* Turn off Eclipse auto build
+* Make a copy of the current cadpage project
+* Use svn switch to switch it to desired version of Cadapge
+* Run svn update
+* Confirm AndroidManifest.xml has desired version number.
+* Create an Android project out of the checked out code
+* Rename src/net.anei.cadpage to net.anei.cadpagefree
+* Rename gen/net.anei.cadpage to net.anei.cadpagefree
+* Revert the changes this made to AndroidManifest.xml and make following changes
+  Manifest package to net.anei.cadpagefree
+  Application android:name package to be in cadpagefree
+  SmsReceiver intent filter priority should be reduced by one
+* Open res/values/strings.xml 
+  Change application name to "Cadpage(free)"
+  Change widget_config_name to "Cadpage(free) 1x4"
+* Open res/xml/preferences.xml and bulk change cadpage to cadpagefree
+* Ditto for res/layout/msg_list_item.xml
+* If automatic builds are turned off, turn them back on
+* Install Cadpage-free to emulator and make sure it comes up and functions
+* Use Cadpage RMB menu Android Tools > Export signed application package to
+  build a cadpage-free.apk file
+  
+* Update published version of Cadpage (free) product as above.  Don't bother
+  figuring out what has changed.
+* Publish notice in Cadpage facebook page as above
+
+Next Free release v1.5.06
+Next Free release v1.5.34
+Next Free release v1.5.47

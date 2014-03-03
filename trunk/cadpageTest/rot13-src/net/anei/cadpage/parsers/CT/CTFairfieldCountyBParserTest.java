@@ -1,0 +1,737 @@
+cnpxntr arg.narv.pnqcntr.cnefref.PG;
+
+vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
+
+vzcbeg bet.whavg.Grfg;
+
+/*
+Snvesvryq Pbhagl, PG (O)
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Zbaebr Ibyhagrre RZF
+Ybpngvba: Zbaebr, PG, Havgrq Fgngrf
+Fraqre: fjepp@qzfpg.pbz 
+
+(RZF: 456 ZBAEBR GCXR   ZBAEBR) RZF: 456 ZBAEBR GCXR   ZBAEBR - ZIN --Qvfc @ 19:13
+(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - PURFG CNVA --Qvfc @ 15:35
+(RZF: 112 PHGYREF SNEZ EQ   ZBAEBR) RZF: 112 PHGYREF SNEZ EQ   ZBAEBR - PNEQVNP NEERFG --Qvfc @ 12:31
+(RZF: 205 WBFVRF EVAT EQ   ZBAEBR) RZF: 205 WBFVRF EVAT EQ   ZBAEBR - QVSS OERNGU --Qvfc @ 22:35
+(RZF: 261 RYZ FG   ZBAEBR) RZF: 261 RYZ FG   ZBAEBR - PNEQVNP NEERFG --Qvfc @ 10:09
+(RZF: 11 ANAPL QE   ZBAEBR) RZF: 11 ANAPL QE   ZBAEBR - FRVMHER --Qvfc @ 17:54
+(RZF: 596 SNA UVYY EQ   ZBAEBR) RZF: 596 SNA UVYY EQ   ZBAEBR - SNYY --Qvfc @ 17:01
+(RZF: 692 RYZ FG   ZBAEBR) RZF: 692 RYZ FG   ZBAEBR - OYRRQ --Qvfc @ 07:00
+(RZF: 208 GHEXRL EBBFG EQ   ZBAEBR) RZF: 208 GHEXRL EBBFG EQ   ZBAEBR - CBFF PB --Qvfc @ 02:40
+(RZF: 358 JURRYRE EQ   ZBAEBR) RZF: 358 JURRYRE EQ   ZBAEBR - QVSS OERNGU --Qvfc @ 13:14
+(RZF:  PNCGNVAF UVYY EQ   & FJRAQFRA QE ZBAEBR) RZF:  PNCGNVAF UVYY EQ   & FJRAQFRA QE ZBAEBR - CFLPU --Qvfc @ 02:43
+(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - PURFG CNVA --Qvfc @ 12:25
+(RZF: 160 UNGGREGBJA EQ   ZBAEBR) RZF: 160 UNGGREGBJA EQ   ZBAEBR - ZIN --Qvfc @ 16:13
+(RZF:  EG 25   ZBAEBR) RZF:  EG 25   ZBAEBR - ZIN --Qvfc @ 15:30
+(RZF: 306 GHEXRL EBBFG EQ   ZBAEBR) RZF: 306 GHEXRL EBBFG EQ   ZBAEBR - FVPX PNYY --Qvfc @ 15:11
+(RZF: 999 ZBAEBR GCXR   ZBAEBR) RZF: 999 ZBAEBR GCXR   ZBAEBR - SNYY --Qvfc @ 14:52
+(RZF: 452 RYZ FG   ZBAEBR) RZF: 452 RYZ FG   ZBAEBR - PURFG CNVA --Qvfc @ 12:38
+(RZF:  CHEQL UVYY EQ   & EG 111 ZBAEBR) RZF:  CHEQL UVYY EQ   & EG 111 ZBAEBR - Hapba --Qvfc @ 09:17
+(RZF: 123 PEBFF UVYY EQ   ZBAEBR) RZF: 123 PEBFF UVYY EQ   ZBAEBR - PNEQVNP --Qvfc @ 08:38
+(RZF: 210 JVAQTNGR PVE Q  ZBAEBR) RZF: 210 JVAQTNGR PVE Q  ZBAEBR - QVSS OERNGU --Qvfc @ 17:12
+(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - FVPX PNYY --Qvfc @ 16:39
+(RZF: 301 JROO PVE   ZBAEBR) RZF: 301 JROO PVE   ZBAEBR - FVPX PNYY --Qvfc @ 16:38
+(RZF: 7 IVPGBEVN QE   ZBAEBR) RZF: 7 IVPGBEVN QE   ZBAEBR - PURFG CNVA --Qvfc @ 10:44
+(RZF:  EG 111   & SNA UVYY EQ ZBAEBR) RZF:  EG 111   & SNA UVYY EQ ZBAEBR - ZIN --Qvfc @ 20:08
+(RZF: 43 ZRNQBJ OEBBX QE   ZBAEBR) RZF: 43 ZRNQBJ OEBBX QE   ZBAEBR - SNYY --Qvfc @ 18:29
+(RZF: 27 CNGZNE GREE   ZBAEBR) RZF: 27 CNGZNE GREE   ZBAEBR - CFLPU --Qvfc @ 17:12
+(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - QVSS OERNGU --Qvfc @ 14:41
+(RZF: 276 UNZZREGBJA EQ   ZBAEBR) RZF: 276 UNZZREGBJA EQ   ZBAEBR - FLAPBCR --Qvfc @ 20:07
+(RZF: 28 SNE UBEVMBA QE   ZBAEBR) RZF: 28 SNE UBEVMBA QE   ZBAEBR - SNYY --Qvfc @ 18:00
+(RZF: 18 NEOBE EQ   ZBAEBR) RZF: 18 NEOBE EQ   ZBAEBR - PNEQVNP --Qvfc @ 17:43
+(RZF: 53 PERFPRAG CY   ZBAEBR) RZF: 53 PERFPRAG CY   ZBAEBR - FVPX PNYY --Qvfc @ 11:36
+(RZF: 454 CHEQL UVYY EQ   ZBAEBR) RZF: 454 CHEQL UVYY EQ   ZBAEBR - NYYRET --Qvfc @ 10:18
+(RZF: 46 R QNYR QE   ZBAEBR) RZF: 46 R QNYR QE   ZBAEBR - QVSS OERNGU --Qvfc @ 01:58
+(RZF:  BYQ GNAAREL EQ   & EG 110 ZBAEBR) RZF:  BYQ GNAAREL EQ   & EG 110 ZBAEBR - ZIN --Qvfc @ 00:30
+(RZF: 58 IREAN EQ   ZBAEBR) RZF: 58 IREAN EQ   ZBAEBR - Hapba --Qvfc @ 14:13
+(RZF: 90 UHEQ NIR   ZBAEBR) RZF: 90 UHEQ NIR   ZBAEBR - PUBXVAT --Qvfc @ 13:16
+(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - FLAPBCR --Qvfc @ 18:30
+(RZF: 3 OVEPUJBBQ YA   ZBAEBR) RZF: 3 OVEPUJBBQ YA   ZBAEBR - NOQ CNVA --Qvfc @ 15:38
+(RZF: 42 INYYRL IVRJ EQ (K YA)  ZBAEBR) RZF: 42 INYYRL IVRJ EQ (K YA)  ZBAEBR - FVPX PNYY --Qvfc @ 14:49
+(RZF: 119 WHQQ EQ   ZBAEBR) RZF: 119 WHQQ EQ   ZBAEBR - HAXABJA --Qvfc @ 12:47
+(RZF: 52 XNERA QE   ZBAEBR) RZF: 52 XNERA QE   ZBAEBR - SNYY --Qvfc @ 09:39
+(RZF: 52 XNERA QE   ZBAEBR) RZF: 52 XNERA QE   ZBAEBR - SNYY --Qvfc @ 00:47
+(RZF: 124 RYZ FG   ZBAEBR) RZF: 124 RYZ FG   ZBAEBR - CBFF PIN --Qvfc @ 17:01
+(RZF: 604 RYZ FG   ZBAEBR) RZF: 604 RYZ FG   ZBAEBR - OYRRQVAT --Qvfc @ 16:29
+(RZF: 56 FGNOYR EVQTR EQ   ZBAEBR) RZF: 56 FGNOYR EVQTR EQ   ZBAEBR - PURFG CNVA --Qvfc @ 14:59
+(RZF: 61 CNEGEVQTR QE   ZBAEBR) RZF: 61 CNEGEVQTR QE   ZBAEBR - PURFG CNVA --Qvfc @ 07:48
+(RZF: 8 OEHFUL PG   ZBAEBR) RZF: 8 OEHFUL PG   ZBAEBR - ZRQVPNY NYNEZ --Qvfc @ 22:26
+(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - FVPX PNYY --Qvfc @ 15:13
+(RZF: 358 JURRYRE EQ O2  ZBAEBR) RZF: 358 JURRYRE EQ O2  ZBAEBR - QVSS OERNGU --Qvfc @ 14:53
+(RZF: 104 ZNCYRJBBQ QE   ZBAEBR) RZF: 104 ZNCYRJBBQ QE   ZBAEBR - SNYY --Qvfc @ 01:08
+(RZF: 124 BYQ GNAAREL EQ   ZBAEBR) RZF: 124 BYQ GNAAREL EQ   ZBAEBR - HAXABJA --Qvfc @ 00:17
+(RZF: 39 TRBETRF YA   ZBAEBR) RZF: 39 TRBETRF YA   ZBAEBR - FVPX PNYY --Qvfc @ 23:35
+(RZF: 477 CHEQL UVYY EQ   ZBAEBR) RZF: 477 CHEQL UVYY EQ   ZBAEBR - PNEQVNP NEERFG --Qvfc @ 20:00
+(RZF: 117 JROO PVE   ZBAEBR) RZF: 117 JROO PVE   ZBAEBR - CFLPU --Qvfc @ 10:01
+(RZF: 105 ZNVA FG   ZBAEBR) RZF: 105 ZNVA FG   ZBAEBR - ABG NYREG --Qvfc @ 23:41
+(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - PURFG CNVA --Qvfc @ 20:20
+(RZF: 94 GJVAOEBBX GREE   ZBAEBR) RZF: 94 GJVAOEBBX GREE   ZBAEBR - SNYY --Qvfc @ 16:52
+(RZF: 707 ZNVA FG   ZBAEBR) RZF: 707 ZNVA FG   ZBAEBR - GENHZN --Qvfc @ 13:14
+(RZF: 1 EG 25   ZBAEBR) RZF: 1 EG 25   ZBAEBR - ZIN --Qvfc @ 09:38
+(RZF: 707 RYZ FG   ZBAEBR) RZF: 707 RYZ FG   ZBAEBR - FRVMHER --Qvfc @ 08:16
+(RZF: 21 TENAG EQ   ZBAEBR) RZF: 21 TENAG EQ   ZBAEBR - PUBXVAT --Qvfc @ 22:57
+(RZF: 124 RYZ FG   ZBAEBR) RZF: 124 RYZ FG   ZBAEBR - SNYY --Qvfc @ 05:41
+(RZF: 90 UVQQRA XABYYF PVE   ZBAEBR) RZF: 90 UVQQRA XABYYF PVE   ZBAEBR - QVSS OERNGU --Qvfc @ 21:22
+(RZF: 71 ZVYY OEBBX GREE   ZBAEBR) RZF: 71 ZVYY OEBBX GREE   ZBAEBR - ABG NYREG --Qvfc @ 18:53
+(Zrffntr sebz FJEPP) ZIRZF AVTUGYL GRFG AB NAABHAPRZRAGF BA QHGL PERJ CYRNFR PNYY VA SBE PERJ FGNGHF
+(RZF: 55 UVENZF UVYY EQ   ZBAEBR) RZF: 55 UVENZF UVYY EQ   ZBAEBR - Hapba --Qvfc @ 08:58
+(RZF: 209 SNA UVYY EQ   ZBAEBR) RZF: 209 SNA UVYY EQ   ZBAEBR - QVNORGVP --Qvfc @ 15:02
+(RZF: 188 OHT UVYY EQ   ZBAEBR) RZF: 188 OHT UVYY EQ   ZBAEBR - FVPX PNYY --Qvfc @ 10:03
+(Zrffntr sebz FJEPP) ZIRZF 3EQ GBAR 2AQ PNYY VA GBJA SHYY PERJ ARRQRQ CHEQRL UVYY EQ @ ZBAEBR GCXR ZIN J/ VAWHEVRF PNYY ORVAT CNFFRQ GB ZHGHNY NVQ
+(Zrffntr sebz FJEPP) ZRZF 2AQ GBAR 2AQ PNYY VA GBJA CHEQRL UVYY EQ NG ZBAEBR GCXR ZIN J/ VAWHEVRF
+(RZF:  ZBAEBR GCXR   & CHEQL UVYY EQ ZBAEBR) RZF:  ZBAEBR GCXR   & CHEQL UVYY EQ ZBAEBR - ZIN --Qvfc @ 07:53
+(RZF: 10 ORARQVPG EQ   ZBAEBR) RZF: 10 ORARQVPG EQ   ZBAEBR - NAVZNY OVGR --Qvfc @ 07:30
+(RZF: 130 TERRAJBBQ YA   ZBAEBR) RZF: 130 TERRAJBBQ YA   ZBAEBR - SNYY --Qvfc @ 16:08
+(RZF: 285 PHGYREF SNEZ EQ   ZBAEBR) RZF: 285 PHGYREF SNEZ EQ   ZBAEBR - GENHZN --Qvfc @ 12:59
+(RZF: 15 CRCCRE FG   ZBAEBR) RZF: 15 CRCCRE FG   ZBAEBR - CBFF PIN --Qvfc @ 10:27
+(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - FVPX PNYY --Qvfc @ 09:46
+(RZF: 27 PNZRYBG QE   ZBAEBR) RZF: 27 PNZRYBG QE   ZBAEBR - ABG OERNGUVAT --Qvfc @ 07:31
+(RZF: 35 URNEGUFGBAR EQ   ZBAEBR) RZF: 35 URNEGUFGBAR EQ   ZBAEBR - FVPX PNYY --Qvfc @ 06:23
+(RZF: 57 PBHAGELFVQR QE   ZBAEBR) RZF: 57 PBHAGELFVQR QE   ZBAEBR - SNYY --Qvfc @ 02:59
+(RZF: 7 SNA UVYY EQ   ZBAEBR) RZF: 7 SNA UVYY EQ   ZBAEBR - GENHZN --Qvfc @ 21:50
+(RZF: 7 SNA UVYY EQ   ZBAEBR) RZF: 7 SNA UVYY EQ   ZBAEBR - CRAQVAT FM --Qvfc @ 20:48
+(RZF: 238 ZBAEBR GCXR   ZBAEBR) RZF: 238 ZBAEBR GCXR   ZBAEBR - SYHVQF --Qvfc @ 20:45
+(RZF: 4 URZYBPX YA   ZBAEBR) RZF: 4 URZYBPX YA   ZBAEBR - HAX PNEQVNP --Qvfc @ 02:31
+(RZF: 359 PEBFF UVYY EQ   ZBAEBR) RZF: 359 PEBFF UVYY EQ   ZBAEBR - URNQNPUR --Qvfc @ 02:26
+(RZF: 525 ZNVA FG   ZBAEBR) RZF: 525 ZNVA FG   ZBAEBR - ZIN --Qvfc @ 22:11
+(RZF: 162 CHEQL UVYY EQ   ZBAEBR) RZF: 162 CHEQL UVYY EQ   ZBAEBR - NYYRET --Qvfc @ 18:37
+(RZF: 104 ZNCYRJBBQ QE   ZBAEBR) RZF: 104 ZNCYRJBBQ QE   ZBAEBR - SNYY --Qvfc @ 18:07
+(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - PURFG CNVA --Qvfc @ 12:50
+(RZF: 51 UNAANU YA   ZBAEBR) RZF: 51 UNAANU YA   ZBAEBR - HAX PNEQVNP --Qvfc @ 09:44
+(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - SNYY --Qvfc @ 09:37
+
+*/
+
+choyvp pynff PGSnvesvryqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
+  
+  choyvp PGSnvesvryqPbhaglOCnefreGrfg() {
+    frgCnefre(arj PGSnvesvryqPbhaglOCnefre(), "SNVESVRYQ PBHAGL", "PG");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCnefre() {
+    qbGrfg("G1",
+        "(RZF: 456 ZBAEBR GCXR   ZBAEBR) RZF: 456 ZBAEBR GCXR   ZBAEBR - ZIN --Qvfc @ 19:13",
+        "NQQE:456 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:ZIN",
+        "GVZR:19:13");
+
+    qbGrfg("G2",
+        "(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - PURFG CNVA --Qvfc @ 15:35",
+        "NQQE:401 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:PURFG CNVA",
+        "GVZR:15:35");
+
+    qbGrfg("G3",
+        "(RZF: 112 PHGYREF SNEZ EQ   ZBAEBR) RZF: 112 PHGYREF SNEZ EQ   ZBAEBR - PNEQVNP NEERFG --Qvfc @ 12:31",
+        "NQQE:112 PHGYREF SNEZ EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:PNEQVNP NEERFG",
+        "GVZR:12:31");
+
+    qbGrfg("G4",
+        "(RZF: 205 WBFVRF EVAT EQ   ZBAEBR) RZF: 205 WBFVRF EVAT EQ   ZBAEBR - QVSS OERNGU --Qvfc @ 22:35",
+        "NQQE:205 WBFVRF EVAT EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:QVSS OERNGU",
+        "GVZR:22:35");
+
+    qbGrfg("G5",
+        "(RZF: 261 RYZ FG   ZBAEBR) RZF: 261 RYZ FG   ZBAEBR - PNEQVNP NEERFG --Qvfc @ 10:09",
+        "NQQE:261 RYZ FG",
+        "PVGL:ZBAEBR",
+        "PNYY:PNEQVNP NEERFG",
+        "GVZR:10:09");
+
+    qbGrfg("G6",
+        "(RZF: 11 ANAPL QE   ZBAEBR) RZF: 11 ANAPL QE   ZBAEBR - FRVMHER --Qvfc @ 17:54",
+        "NQQE:11 ANAPL QE",
+        "PVGL:ZBAEBR",
+        "PNYY:FRVMHER",
+        "GVZR:17:54");
+
+    qbGrfg("G7",
+        "(RZF: 596 SNA UVYY EQ   ZBAEBR) RZF: 596 SNA UVYY EQ   ZBAEBR - SNYY --Qvfc @ 17:01",
+        "NQQE:596 SNA UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:17:01");
+
+    qbGrfg("G8",
+        "(RZF: 692 RYZ FG   ZBAEBR) RZF: 692 RYZ FG   ZBAEBR - OYRRQ --Qvfc @ 07:00",
+        "NQQE:692 RYZ FG",
+        "PVGL:ZBAEBR",
+        "PNYY:OYRRQ",
+        "GVZR:07:00");
+
+    qbGrfg("G9",
+        "(RZF: 208 GHEXRL EBBFG EQ   ZBAEBR) RZF: 208 GHEXRL EBBFG EQ   ZBAEBR - CBFF PB --Qvfc @ 02:40",
+        "NQQE:208 GHEXRL EBBFG EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:CBFF PB",
+        "GVZR:02:40");
+
+    qbGrfg("G10",
+        "(RZF: 358 JURRYRE EQ   ZBAEBR) RZF: 358 JURRYRE EQ   ZBAEBR - QVSS OERNGU --Qvfc @ 13:14",
+        "NQQE:358 JURRYRE EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:QVSS OERNGU",
+        "GVZR:13:14");
+
+    qbGrfg("G11",
+        "(RZF:  PNCGNVAF UVYY EQ   & FJRAQFRA QE ZBAEBR) RZF:  PNCGNVAF UVYY EQ   & FJRAQFRA QE ZBAEBR - CFLPU --Qvfc @ 02:43",
+        "NQQE:PNCGNVAF UVYY EQ & FJRAQFRA QE",
+        "PVGL:ZBAEBR",
+        "PNYY:CFLPU",
+        "GVZR:02:43");
+
+    qbGrfg("G12",
+        "(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - PURFG CNVA --Qvfc @ 12:25",
+        "NQQE:401 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:PURFG CNVA",
+        "GVZR:12:25");
+
+    qbGrfg("G13",
+        "(RZF: 160 UNGGREGBJA EQ   ZBAEBR) RZF: 160 UNGGREGBJA EQ   ZBAEBR - ZIN --Qvfc @ 16:13",
+        "NQQE:160 UNGGREGBJA EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:ZIN",
+        "GVZR:16:13");
+
+    qbGrfg("G14",
+        "(RZF:  EG 25   ZBAEBR) RZF:  EG 25   ZBAEBR - ZIN --Qvfc @ 15:30",
+        "NQQE:EG 25",
+        "PVGL:ZBAEBR",
+        "PNYY:ZIN",
+        "GVZR:15:30");
+
+    qbGrfg("G15",
+        "(RZF: 306 GHEXRL EBBFG EQ   ZBAEBR) RZF: 306 GHEXRL EBBFG EQ   ZBAEBR - FVPX PNYY --Qvfc @ 15:11",
+        "NQQE:306 GHEXRL EBBFG EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:FVPX PNYY",
+        "GVZR:15:11");
+
+    qbGrfg("G16",
+        "(RZF: 999 ZBAEBR GCXR   ZBAEBR) RZF: 999 ZBAEBR GCXR   ZBAEBR - SNYY --Qvfc @ 14:52",
+        "NQQE:999 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:14:52");
+
+    qbGrfg("G17",
+        "(RZF: 452 RYZ FG   ZBAEBR) RZF: 452 RYZ FG   ZBAEBR - PURFG CNVA --Qvfc @ 12:38",
+        "NQQE:452 RYZ FG",
+        "PVGL:ZBAEBR",
+        "PNYY:PURFG CNVA",
+        "GVZR:12:38");
+
+    qbGrfg("G18",
+        "(RZF:  CHEQL UVYY EQ   & EG 111 ZBAEBR) RZF:  CHEQL UVYY EQ   & EG 111 ZBAEBR - Hapba --Qvfc @ 09:17",
+        "NQQE:CHEQL UVYY EQ & EG 111",
+        "PVGL:ZBAEBR",
+        "PNYY:Hapba",
+        "GVZR:09:17");
+
+    qbGrfg("G19",
+        "(RZF: 123 PEBFF UVYY EQ   ZBAEBR) RZF: 123 PEBFF UVYY EQ   ZBAEBR - PNEQVNP --Qvfc @ 08:38",
+        "NQQE:123 PEBFF UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:PNEQVNP",
+        "GVZR:08:38");
+
+    qbGrfg("G20",
+        "(RZF: 210 JVAQTNGR PVE Q  ZBAEBR) RZF: 210 JVAQTNGR PVE Q  ZBAEBR - QVSS OERNGU --Qvfc @ 17:12",
+        "NQQE:210 JVAQTNGR PVE Q",
+        "PVGL:ZBAEBR",
+        "PNYY:QVSS OERNGU",
+        "GVZR:17:12");
+
+    qbGrfg("G21",
+        "(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - FVPX PNYY --Qvfc @ 16:39",
+        "NQQE:401 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:FVPX PNYY",
+        "GVZR:16:39");
+
+    qbGrfg("G22",
+        "(RZF: 301 JROO PVE   ZBAEBR) RZF: 301 JROO PVE   ZBAEBR - FVPX PNYY --Qvfc @ 16:38",
+        "NQQE:301 JROO PVE",
+        "PVGL:ZBAEBR",
+        "PNYY:FVPX PNYY",
+        "GVZR:16:38");
+
+    qbGrfg("G23",
+        "(RZF: 7 IVPGBEVN QE   ZBAEBR) RZF: 7 IVPGBEVN QE   ZBAEBR - PURFG CNVA --Qvfc @ 10:44",
+        "NQQE:7 IVPGBEVN QE",
+        "PVGL:ZBAEBR",
+        "PNYY:PURFG CNVA",
+        "GVZR:10:44");
+
+    qbGrfg("G24",
+        "(RZF:  EG 111   & SNA UVYY EQ ZBAEBR) RZF:  EG 111   & SNA UVYY EQ ZBAEBR - ZIN --Qvfc @ 20:08",
+        "NQQE:EG 111 & SNA UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:ZIN",
+        "GVZR:20:08");
+
+    qbGrfg("G25",
+        "(RZF: 43 ZRNQBJ OEBBX QE   ZBAEBR) RZF: 43 ZRNQBJ OEBBX QE   ZBAEBR - SNYY --Qvfc @ 18:29",
+        "NQQE:43 ZRNQBJ OEBBX QE",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:18:29");
+
+    qbGrfg("G26",
+        "(RZF: 27 CNGZNE GREE   ZBAEBR) RZF: 27 CNGZNE GREE   ZBAEBR - CFLPU --Qvfc @ 17:12",
+        "NQQE:27 CNGZNE GREE",
+        "PVGL:ZBAEBR",
+        "PNYY:CFLPU",
+        "GVZR:17:12");
+
+    qbGrfg("G27",
+        "(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - QVSS OERNGU --Qvfc @ 14:41",
+        "NQQE:401 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:QVSS OERNGU",
+        "GVZR:14:41");
+
+    qbGrfg("G28",
+        "(RZF: 276 UNZZREGBJA EQ   ZBAEBR) RZF: 276 UNZZREGBJA EQ   ZBAEBR - FLAPBCR --Qvfc @ 20:07",
+        "NQQE:276 UNZZREGBJA EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:FLAPBCR",
+        "GVZR:20:07");
+
+    qbGrfg("G29",
+        "(RZF: 28 SNE UBEVMBA QE   ZBAEBR) RZF: 28 SNE UBEVMBA QE   ZBAEBR - SNYY --Qvfc @ 18:00",
+        "NQQE:28 SNE UBEVMBA QE",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:18:00");
+
+    qbGrfg("G30",
+        "(RZF: 18 NEOBE EQ   ZBAEBR) RZF: 18 NEOBE EQ   ZBAEBR - PNEQVNP --Qvfc @ 17:43",
+        "NQQE:18 NEOBE EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:PNEQVNP",
+        "GVZR:17:43");
+
+    qbGrfg("G31",
+        "(RZF: 53 PERFPRAG CY   ZBAEBR) RZF: 53 PERFPRAG CY   ZBAEBR - FVPX PNYY --Qvfc @ 11:36",
+        "NQQE:53 PERFPRAG CY",
+        "PVGL:ZBAEBR",
+        "PNYY:FVPX PNYY",
+        "GVZR:11:36");
+
+    qbGrfg("G32",
+        "(RZF: 454 CHEQL UVYY EQ   ZBAEBR) RZF: 454 CHEQL UVYY EQ   ZBAEBR - NYYRET --Qvfc @ 10:18",
+        "NQQE:454 CHEQL UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:NYYRET",
+        "GVZR:10:18");
+
+    qbGrfg("G33",
+        "(RZF: 46 R QNYR QE   ZBAEBR) RZF: 46 R QNYR QE   ZBAEBR - QVSS OERNGU --Qvfc @ 01:58",
+        "NQQE:46 R QNYR QE",
+        "PVGL:ZBAEBR",
+        "PNYY:QVSS OERNGU",
+        "GVZR:01:58");
+
+    qbGrfg("G34",
+        "(RZF:  BYQ GNAAREL EQ   & EG 110 ZBAEBR) RZF:  BYQ GNAAREL EQ   & EG 110 ZBAEBR - ZIN --Qvfc @ 00:30",
+        "NQQE:BYQ GNAAREL EQ & EG 110",
+        "PVGL:ZBAEBR",
+        "PNYY:ZIN",
+        "GVZR:00:30");
+
+    qbGrfg("G35",
+        "(RZF: 58 IREAN EQ   ZBAEBR) RZF: 58 IREAN EQ   ZBAEBR - Hapba --Qvfc @ 14:13",
+        "NQQE:58 IREAN EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:Hapba",
+        "GVZR:14:13");
+
+    qbGrfg("G36",
+        "(RZF: 90 UHEQ NIR   ZBAEBR) RZF: 90 UHEQ NIR   ZBAEBR - PUBXVAT --Qvfc @ 13:16",
+        "NQQE:90 UHEQ NIR",
+        "PVGL:ZBAEBR",
+        "PNYY:PUBXVAT",
+        "GVZR:13:16");
+
+    qbGrfg("G37",
+        "(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - FLAPBCR --Qvfc @ 18:30",
+        "NQQE:401 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:FLAPBCR",
+        "GVZR:18:30");
+
+    qbGrfg("G38",
+        "(RZF: 3 OVEPUJBBQ YA   ZBAEBR) RZF: 3 OVEPUJBBQ YA   ZBAEBR - NOQ CNVA --Qvfc @ 15:38",
+        "NQQE:3 OVEPUJBBQ YA",
+        "PVGL:ZBAEBR",
+        "PNYY:NOQ CNVA",
+        "GVZR:15:38");
+
+    qbGrfg("G39",
+        "(RZF: 42 INYYRL IVRJ EQ (K YA)  ZBAEBR) RZF: 42 INYYRL IVRJ EQ (K YA)  ZBAEBR - FVPX PNYY --Qvfc @ 14:49",
+        "NQQE:42 INYYRL IVRJ EQ",
+        "PNYY:FVPX PNYY",
+        "GVZR:14:49");
+
+    qbGrfg("G40",
+        "(RZF: 119 WHQQ EQ   ZBAEBR) RZF: 119 WHQQ EQ   ZBAEBR - HAXABJA --Qvfc @ 12:47",
+        "NQQE:119 WHQQ EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:HAXABJA",
+        "GVZR:12:47");
+
+    qbGrfg("G41",
+        "(RZF: 52 XNERA QE   ZBAEBR) RZF: 52 XNERA QE   ZBAEBR - SNYY --Qvfc @ 09:39",
+        "NQQE:52 XNERA QE",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:09:39");
+
+    qbGrfg("G42",
+        "(RZF: 52 XNERA QE   ZBAEBR) RZF: 52 XNERA QE   ZBAEBR - SNYY --Qvfc @ 00:47",
+        "NQQE:52 XNERA QE",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:00:47");
+
+    qbGrfg("G43",
+        "(RZF: 124 RYZ FG   ZBAEBR) RZF: 124 RYZ FG   ZBAEBR - CBFF PIN --Qvfc @ 17:01",
+        "NQQE:124 RYZ FG",
+        "PVGL:ZBAEBR",
+        "PNYY:CBFF PIN",
+        "GVZR:17:01");
+
+    qbGrfg("G44",
+        "(RZF: 604 RYZ FG   ZBAEBR) RZF: 604 RYZ FG   ZBAEBR - OYRRQVAT --Qvfc @ 16:29",
+        "NQQE:604 RYZ FG",
+        "PVGL:ZBAEBR",
+        "PNYY:OYRRQVAT",
+        "GVZR:16:29");
+
+    qbGrfg("G45",
+        "(RZF: 56 FGNOYR EVQTR EQ   ZBAEBR) RZF: 56 FGNOYR EVQTR EQ   ZBAEBR - PURFG CNVA --Qvfc @ 14:59",
+        "NQQE:56 FGNOYR EVQTR EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:PURFG CNVA",
+        "GVZR:14:59");
+
+    qbGrfg("G46",
+        "(RZF: 61 CNEGEVQTR QE   ZBAEBR) RZF: 61 CNEGEVQTR QE   ZBAEBR - PURFG CNVA --Qvfc @ 07:48",
+        "NQQE:61 CNEGEVQTR QE",
+        "PVGL:ZBAEBR",
+        "PNYY:PURFG CNVA",
+        "GVZR:07:48");
+
+    qbGrfg("G47",
+        "(RZF: 8 OEHFUL PG   ZBAEBR) RZF: 8 OEHFUL PG   ZBAEBR - ZRQVPNY NYNEZ --Qvfc @ 22:26",
+        "NQQE:8 OEHFUL PG",
+        "PVGL:ZBAEBR",
+        "PNYY:ZRQVPNY NYNEZ",
+        "GVZR:22:26");
+
+    qbGrfg("G48",
+        "(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - FVPX PNYY --Qvfc @ 15:13",
+        "NQQE:401 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:FVPX PNYY",
+        "GVZR:15:13");
+
+    qbGrfg("G49",
+        "(RZF: 358 JURRYRE EQ O2  ZBAEBR) RZF: 358 JURRYRE EQ O2  ZBAEBR - QVSS OERNGU --Qvfc @ 14:53",
+        "NQQE:358 JURRYRE EQ O2",
+        "PVGL:ZBAEBR",
+        "PNYY:QVSS OERNGU",
+        "GVZR:14:53");
+
+    qbGrfg("G50",
+        "(RZF: 104 ZNCYRJBBQ QE   ZBAEBR) RZF: 104 ZNCYRJBBQ QE   ZBAEBR - SNYY --Qvfc @ 01:08",
+        "NQQE:104 ZNCYRJBBQ QE",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:01:08");
+
+    qbGrfg("G51",
+        "(RZF: 124 BYQ GNAAREL EQ   ZBAEBR) RZF: 124 BYQ GNAAREL EQ   ZBAEBR - HAXABJA --Qvfc @ 00:17",
+        "NQQE:124 BYQ GNAAREL EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:HAXABJA",
+        "GVZR:00:17");
+
+    qbGrfg("G52",
+        "(RZF: 39 TRBETRF YA   ZBAEBR) RZF: 39 TRBETRF YA   ZBAEBR - FVPX PNYY --Qvfc @ 23:35",
+        "NQQE:39 TRBETRF YA",
+        "PVGL:ZBAEBR",
+        "PNYY:FVPX PNYY",
+        "GVZR:23:35");
+
+    qbGrfg("G53",
+        "(RZF: 477 CHEQL UVYY EQ   ZBAEBR) RZF: 477 CHEQL UVYY EQ   ZBAEBR - PNEQVNP NEERFG --Qvfc @ 20:00",
+        "NQQE:477 CHEQL UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:PNEQVNP NEERFG",
+        "GVZR:20:00");
+
+    qbGrfg("G54",
+        "(RZF: 117 JROO PVE   ZBAEBR) RZF: 117 JROO PVE   ZBAEBR - CFLPU --Qvfc @ 10:01",
+        "NQQE:117 JROO PVE",
+        "PVGL:ZBAEBR",
+        "PNYY:CFLPU",
+        "GVZR:10:01");
+
+    qbGrfg("G55",
+        "(RZF: 105 ZNVA FG   ZBAEBR) RZF: 105 ZNVA FG   ZBAEBR - ABG NYREG --Qvfc @ 23:41",
+        "NQQE:105 ZNVA FG",
+        "PVGL:ZBAEBR",
+        "PNYY:ABG NYREG",
+        "GVZR:23:41");
+
+    qbGrfg("G56",
+        "(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - PURFG CNVA --Qvfc @ 20:20",
+        "NQQE:401 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:PURFG CNVA",
+        "GVZR:20:20");
+
+    qbGrfg("G57",
+        "(RZF: 94 GJVAOEBBX GREE   ZBAEBR) RZF: 94 GJVAOEBBX GREE   ZBAEBR - SNYY --Qvfc @ 16:52",
+        "NQQE:94 GJVAOEBBX GREE",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:16:52");
+
+    qbGrfg("G58",
+        "(RZF: 707 ZNVA FG   ZBAEBR) RZF: 707 ZNVA FG   ZBAEBR - GENHZN --Qvfc @ 13:14",
+        "NQQE:707 ZNVA FG",
+        "PVGL:ZBAEBR",
+        "PNYY:GENHZN",
+        "GVZR:13:14");
+
+    qbGrfg("G59",
+        "(RZF: 1 EG 25   ZBAEBR) RZF: 1 EG 25   ZBAEBR - ZIN --Qvfc @ 09:38",
+        "NQQE:1 EG 25",
+        "PVGL:ZBAEBR",
+        "PNYY:ZIN",
+        "GVZR:09:38");
+
+    qbGrfg("G60",
+        "(RZF: 707 RYZ FG   ZBAEBR) RZF: 707 RYZ FG   ZBAEBR - FRVMHER --Qvfc @ 08:16",
+        "NQQE:707 RYZ FG",
+        "PVGL:ZBAEBR",
+        "PNYY:FRVMHER",
+        "GVZR:08:16");
+
+    qbGrfg("G61",
+        "(RZF: 21 TENAG EQ   ZBAEBR) RZF: 21 TENAG EQ   ZBAEBR - PUBXVAT --Qvfc @ 22:57",
+        "NQQE:21 TENAG EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:PUBXVAT",
+        "GVZR:22:57");
+
+    qbGrfg("G62",
+        "(RZF: 124 RYZ FG   ZBAEBR) RZF: 124 RYZ FG   ZBAEBR - SNYY --Qvfc @ 05:41",
+        "NQQE:124 RYZ FG",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:05:41");
+
+    qbGrfg("G63",
+        "(RZF: 90 UVQQRA XABYYF PVE   ZBAEBR) RZF: 90 UVQQRA XABYYF PVE   ZBAEBR - QVSS OERNGU --Qvfc @ 21:22",
+        "NQQE:90 UVQQRA XABYYF PVE",
+        "PVGL:ZBAEBR",
+        "PNYY:QVSS OERNGU",
+        "GVZR:21:22");
+
+    qbGrfg("G64",
+        "(RZF: 71 ZVYY OEBBX GREE   ZBAEBR) RZF: 71 ZVYY OEBBX GREE   ZBAEBR - ABG NYREG --Qvfc @ 18:53",
+        "NQQE:71 ZVYY OEBBX GREE",
+        "PVGL:ZBAEBR",
+        "PNYY:ABG NYREG",
+        "GVZR:18:53");
+
+// ************************ CNEFR SNVYHER *****************************
+// (Zrffntr sebz FJEPP) ZIRZF AVTUGYL GRFG AB NAABHAPRZRAGF BA QHGL PERJ CYRNFR PNYY VA SBE PERJ FGNGHF
+
+    qbGrfg("G66",
+        "(RZF: 55 UVENZF UVYY EQ   ZBAEBR) RZF: 55 UVENZF UVYY EQ   ZBAEBR - Hapba --Qvfc @ 08:58",
+        "NQQE:55 UVENZF UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:Hapba",
+        "GVZR:08:58");
+
+    qbGrfg("G67",
+        "(RZF: 209 SNA UVYY EQ   ZBAEBR) RZF: 209 SNA UVYY EQ   ZBAEBR - QVNORGVP --Qvfc @ 15:02",
+        "NQQE:209 SNA UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:QVNORGVP",
+        "GVZR:15:02");
+
+    qbGrfg("G68",
+        "(RZF: 188 OHT UVYY EQ   ZBAEBR) RZF: 188 OHT UVYY EQ   ZBAEBR - FVPX PNYY --Qvfc @ 10:03",
+        "NQQE:188 OHT UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:FVPX PNYY",
+        "GVZR:10:03");
+
+// ************************ CNEFR SNVYHER *****************************
+// (Zrffntr sebz FJEPP) ZIRZF 3EQ GBAR 2AQ PNYY VA GBJA SHYY PERJ ARRQRQ CHEQRL UVYY EQ @ ZBAEBR GCXR ZIN J/ VAWHEVRF PNYY ORVAT CNFFRQ GB ZHGHNY NVQ
+
+// ************************ CNEFR SNVYHER *****************************
+// (Zrffntr sebz FJEPP) ZRZF 2AQ GBAR 2AQ PNYY VA GBJA CHEQRL UVYY EQ NG ZBAEBR GCXR ZIN J/ VAWHEVRF
+
+    qbGrfg("G71",
+        "(RZF:  ZBAEBR GCXR   & CHEQL UVYY EQ ZBAEBR) RZF:  ZBAEBR GCXR   & CHEQL UVYY EQ ZBAEBR - ZIN --Qvfc @ 07:53",
+        "NQQE:ZBAEBR GCXR & CHEQL UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:ZIN",
+        "GVZR:07:53");
+
+    qbGrfg("G72",
+        "(RZF: 10 ORARQVPG EQ   ZBAEBR) RZF: 10 ORARQVPG EQ   ZBAEBR - NAVZNY OVGR --Qvfc @ 07:30",
+        "NQQE:10 ORARQVPG EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:NAVZNY OVGR",
+        "GVZR:07:30");
+
+    qbGrfg("G73",
+        "(RZF: 130 TERRAJBBQ YA   ZBAEBR) RZF: 130 TERRAJBBQ YA   ZBAEBR - SNYY --Qvfc @ 16:08",
+        "NQQE:130 TERRAJBBQ YA",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:16:08");
+
+    qbGrfg("G74",
+        "(RZF: 285 PHGYREF SNEZ EQ   ZBAEBR) RZF: 285 PHGYREF SNEZ EQ   ZBAEBR - GENHZN --Qvfc @ 12:59",
+        "NQQE:285 PHGYREF SNEZ EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:GENHZN",
+        "GVZR:12:59");
+
+    qbGrfg("G75",
+        "(RZF: 15 CRCCRE FG   ZBAEBR) RZF: 15 CRCCRE FG   ZBAEBR - CBFF PIN --Qvfc @ 10:27",
+        "NQQE:15 CRCCRE FG",
+        "PVGL:ZBAEBR",
+        "PNYY:CBFF PIN",
+        "GVZR:10:27");
+
+    qbGrfg("G76",
+        "(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - FVPX PNYY --Qvfc @ 09:46",
+        "NQQE:401 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:FVPX PNYY",
+        "GVZR:09:46");
+
+    qbGrfg("G77",
+        "(RZF: 27 PNZRYBG QE   ZBAEBR) RZF: 27 PNZRYBG QE   ZBAEBR - ABG OERNGUVAT --Qvfc @ 07:31",
+        "NQQE:27 PNZRYBG QE",
+        "PVGL:ZBAEBR",
+        "PNYY:ABG OERNGUVAT",
+        "GVZR:07:31");
+
+    qbGrfg("G78",
+        "(RZF: 35 URNEGUFGBAR EQ   ZBAEBR) RZF: 35 URNEGUFGBAR EQ   ZBAEBR - FVPX PNYY --Qvfc @ 06:23",
+        "NQQE:35 URNEGUFGBAR EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:FVPX PNYY",
+        "GVZR:06:23");
+
+    qbGrfg("G79",
+        "(RZF: 57 PBHAGELFVQR QE   ZBAEBR) RZF: 57 PBHAGELFVQR QE   ZBAEBR - SNYY --Qvfc @ 02:59",
+        "NQQE:57 PBHAGELFVQR QE",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:02:59");
+
+    qbGrfg("G80",
+        "(RZF: 7 SNA UVYY EQ   ZBAEBR) RZF: 7 SNA UVYY EQ   ZBAEBR - GENHZN --Qvfc @ 21:50",
+        "NQQE:7 SNA UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:GENHZN",
+        "GVZR:21:50");
+
+    qbGrfg("G81",
+        "(RZF: 7 SNA UVYY EQ   ZBAEBR) RZF: 7 SNA UVYY EQ   ZBAEBR - CRAQVAT FM --Qvfc @ 20:48",
+        "NQQE:7 SNA UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:CRAQVAT FM",
+        "GVZR:20:48");
+
+    qbGrfg("G82",
+        "(RZF: 238 ZBAEBR GCXR   ZBAEBR) RZF: 238 ZBAEBR GCXR   ZBAEBR - SYHVQF --Qvfc @ 20:45",
+        "NQQE:238 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:SYHVQF",
+        "GVZR:20:45");
+
+    qbGrfg("G83",
+        "(RZF: 4 URZYBPX YA   ZBAEBR) RZF: 4 URZYBPX YA   ZBAEBR - HAX PNEQVNP --Qvfc @ 02:31",
+        "NQQE:4 URZYBPX YA",
+        "PVGL:ZBAEBR",
+        "PNYY:HAX PNEQVNP",
+        "GVZR:02:31");
+
+    qbGrfg("G84",
+        "(RZF: 359 PEBFF UVYY EQ   ZBAEBR) RZF: 359 PEBFF UVYY EQ   ZBAEBR - URNQNPUR --Qvfc @ 02:26",
+        "NQQE:359 PEBFF UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:URNQNPUR",
+        "GVZR:02:26");
+
+    qbGrfg("G85",
+        "(RZF: 525 ZNVA FG   ZBAEBR) RZF: 525 ZNVA FG   ZBAEBR - ZIN --Qvfc @ 22:11",
+        "NQQE:525 ZNVA FG",
+        "PVGL:ZBAEBR",
+        "PNYY:ZIN",
+        "GVZR:22:11");
+
+    qbGrfg("G86",
+        "(RZF: 162 CHEQL UVYY EQ   ZBAEBR) RZF: 162 CHEQL UVYY EQ   ZBAEBR - NYYRET --Qvfc @ 18:37",
+        "NQQE:162 CHEQL UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:NYYRET",
+        "GVZR:18:37");
+
+    qbGrfg("G87",
+        "(RZF: 104 ZNCYRJBBQ QE   ZBAEBR) RZF: 104 ZNCYRJBBQ QE   ZBAEBR - SNYY --Qvfc @ 18:07",
+        "NQQE:104 ZNCYRJBBQ QE",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:18:07");
+
+    qbGrfg("G88",
+        "(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - PURFG CNVA --Qvfc @ 12:50",
+        "NQQE:401 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:PURFG CNVA",
+        "GVZR:12:50");
+
+    qbGrfg("G89",
+        "(RZF: 51 UNAANU YA   ZBAEBR) RZF: 51 UNAANU YA   ZBAEBR - HAX PNEQVNP --Qvfc @ 09:44",
+        "NQQE:51 UNAANU YA",
+        "PVGL:ZBAEBR",
+        "PNYY:HAX PNEQVNP",
+        "GVZR:09:44");
+
+    qbGrfg("G90",
+        "(RZF: 401 ZBAEBR GCXR   ZBAEBR) RZF: 401 ZBAEBR GCXR   ZBAEBR - SNYY --Qvfc @ 09:37",
+        "NQQE:401 ZBAEBR GCXR",
+        "PVGL:ZBAEBR",
+        "PNYY:SNYY",
+        "GVZR:09:37");
+  }
+  
+  choyvp fgngvp ibvq znva(Fgevat[] netf) {
+    arj PGSnvesvryqPbhaglOCnefreGrfg().trarengrGrfgf("G1");
+  }
+}

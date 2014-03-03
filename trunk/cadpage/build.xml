@@ -1,0 +1,57 @@
+<project name="Cadpage Parsing Engine" default="build" basedir=".">
+	<description>
+		Build the Cadpage Parsing Engine library file
+	</description>
+  
+  <target name="update" description="Sync with repository">
+    <ant dir=".." target="update"/>
+  </target>
+  
+  <target name="stat" description="Show workspace status">
+    <ant dir=".." target="stat"/>
+  </target>
+  
+  <target name="gen_patch" description="Generate Patch File">
+    <ant dir=".." target="gen_patch"/>
+  </target>
+  
+  <target name="commit" description="Commit changes to repository">
+    <ant dir=".." target="commit"/>
+  </target>
+  
+  <target name="initialize" description="Initialize new workspace">
+    <ant dir=".." target="import"/>
+  </target>
+  		
+	<property name="src2" value="src"/>
+	<property name="bin" value="bin/classes"/>
+	<property name="dist" value="dist"/>
+	<property name="select" value="net/anei/cadpage/parsers/**"/>
+	<property name="filename" value="CadpageParser"/>
+	<property name="jarfile" value="${dist}/${filename}.jar"/>
+	<property name="zipfile" value="${dist}/${filename}.zip"/>
+	<property name="zipcontent" value="MsgFormats.txt ${zipfile}"/>
+	
+	<target name="clean">
+		<delete dir="${bin}"/>
+		<delete dir="${dist}"/>
+	</target>
+	
+	<target name="setup">
+	   <mkdir dir="${bin}"/>
+	   <mkdir dir="${dist}"/>
+	</target>
+    
+    <target name="compile" depends="setup">
+        <javac srcdir="${src2}" includes="${select}" destdir="${bin}" 
+        	   source="1.5" target="1.5" debug="yes" includeAntRuntime="false"/>
+    </target>
+	
+	<target name="jarfile" depends="compile">
+		<jar basedir="${bin}" includes="${select}" destfile="${jarfile}"
+		     level="9" manifest="MANIFEST.MF"/>
+	</target>
+	
+	<target name="build" depends="jarfile" description="Build Parser Library"/>
+	
+</project>

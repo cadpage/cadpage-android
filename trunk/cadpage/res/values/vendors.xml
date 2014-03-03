@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="code_messaging_title">CodeMessaging.net</string>
+  <string name="code_messaging_summary">
+    Full-featured department messaging platform for routing dispatches
+    anywhere and getting alerts out to responders FAST!
+  </string>
+  <string name="code_messaging_text">
+    Send and display your department"'"s dispatches on any device and
+    monitor responder status in real-time with Response Check. Users can login
+    and send messages within the department as well as manage their own profile
+    to route dispatches to any device (phones, pagers, tablets, computers,
+    televisions, etc). CodeMessaging.net specializes in bringing control of
+    dispatching to the department and responder.
+  </string>
+  
+  <string name="active911_title">Active 911</string>
+  <string name="active911_summary">Live response tracking and mapping</string>
+  <string name="active911_text">
+  Active911 provides a host of services for smartphones, cell phones, and tablets:\n
+   - REAL TIME monitoring of response efforts\n
+   - LIVE mapping of your entire crew as they respond\n
+   - Detailed report generation\n
+   - Works on iPhone, Android, Blackberry, and more\n
+   - 2 way messaging to provide your crew with supplemental information\n
+  </string>
+  
+  <string name="vendor_notice_title">Cadpage Direct Paging</string>
+  
+  <string name="vendor_more_info">Tell me more</string>
+  <string name="vendor_profile">User Profile</string>
+  <string name="vendor_register">Register</string>
+  <string name="vendor_unregister">Unregister</string>
+  
+  <string name="vendor_registered">You are registered for direct paging services</string>
+  <string name="vendor_should_register">You should register for direct paging services</string>
+  
+  <string name="vendor_confirm_unregister">
+    This will block this vendor from sending you direct pages.  Are you
+    sure that you want to do this?
+  </string>
+  
+  <string name="vendor_connect_msg">Direct paging from %s has been activated</string>
+  <string name="vendor_disconnect_msg">Direct paging from %s has been disconnected</string>
+  <string name="vendor_reg_failure_msg">
+     Google C2DM registration Failed.\n
+  </string>
+  <string name="vendor_register_err_msg">
+    Direct paging from %1$s has been disconnected\n
+    Server response: %2$s
+  </string>
+  <string name="vendor_registration_error">
+    Attempt to assign Direct Paging Registration ID has been rejected.  The reported
+    error was\n
+    %s\n
+    Please report this to the Cadpage developers.
+  </string>
+  <string name="vendor_service_not_available_error">
+      The Google servers seem to be busy right now.  Please try again later"
+  </string>
+  <string name="vendor_account_missing_error">
+    A Google account must be registered on this device before you can register
+    with a direct paging vendor
+  </string>
+  <string name="vendor_authentication_failed_error">
+    There was an error authenticating the Google Account used by this device.
+    Please check that the account and password configured for Google Play Store are valid.  
+  </string>
+  <string name="vendor_phone_registration_error_error">
+    Google says that your phone does not currently support push notifications.  And does not
+    give us any hints as just what might be wrong.  More often than not, simply repeating
+    the request a few seconds or few days later will work, so try this a couple times before
+    giving up and using the Email the Developer support feature to ask for help.  
+  </string>
+  <string name="vendor_phone_registration_error_hard_error">
+    Google says that your phone does not currently support push notifications.  And we do not
+    really know why.  Please use the Cadpage Email the Developer setting to ask for additional
+    assistance.
+  </string>
+  <string name="vendor_no_web_viewer_error">
+    The system is rejecting requests to view a web page. It would seem that you do not have any kind of web browser app installed.
+  </string>
+</resources>

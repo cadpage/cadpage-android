@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:minWidth="310dp"
+  android:layout_width="fill_parent">
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left">
+    <ImageView
+      android:src="@drawable/ic_launcher"
+      android:layout_width="wrap_content"
+      android:layout_gravity="center"
+      android:scaleType="center"
+      android:layout_height="wrap_content"
+      android:layout_margin="8dp" />
+    <TextView
+      android:layout_width="fill_parent"
+      android:gravity="center_vertical"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:maxLines="2"
+      android:layout_height="wrap_content"
+      android:text="@string/pref_sendemail_title"
+      android:layout_margin="8dp"
+      />
+  </LinearLayout>  
+  <include
+    layout="@layout/popup_divider" />
+    <TextView
+      android:text="Text here"
+      android:id="@+id/EmailTextView"
+      android:autoLink="none"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textColor="?android:attr/textColorPrimaryDisableOnly"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:gravity="center"
+      android:paddingRight="10dp"
+      android:paddingLeft="10dp" 
+      />
+  <include
+    layout="@layout/popup_divider" />
+  <CheckBox
+    android:text="Include Page Message Information"
+    android:id="@+id/EmailMsgBox"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:checked="true"
+    />
+  <CheckBox
+    android:text="Include Configuration Information"
+    android:id="@+id/EmailConfigBox"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:checked="true"
+    />
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="2dp"
+    android:background="@android:color/darker_gray">
+    <Button
+      android:id="@+id/EmailOKBtn"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="@string/sendemail_btn_ok"
+      android:layout_width="fill_parent" />
+    <Button
+      android:id="@+id/EmailCancelBtn"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="@string/sendemail_btn_cancel"
+      android:layout_width="fill_parent" />
+  </LinearLayout>
+</LinearLayout>
