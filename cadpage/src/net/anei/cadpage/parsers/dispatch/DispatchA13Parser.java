@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchA13Parser extends FieldProgramParser {
   
-  private static final String PROGRAM = "SRCID? DISPATCHED CALL! ADDR";
+  private static final String PROGRAM = "SRCID? DISPATCHED CALL! ADDR X:GPS1 Y:GPS2";
   
   private Properties cityCodes = null;
   private boolean checkCity;
@@ -36,6 +36,16 @@ public class DispatchA13Parser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     return parseFields(body.split("\n"), data);
+  }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("SRCID")) return  new SourceIdField();
+    if (name.equals("DISPATCHED")) return new SkipField("Dispatched|Responding|Req_Dispatch|On Scene|Standing By|Terminated", true);
+    if (name.equals("ADDR")) return new BaseAddressField();
+    if (name.equals("GPS1")) return new MyGPSField(1);
+    if (name.equals("GPS2")) return new MyGPSField(2);
+    return super.getField(name);
   }
   
   // SRCID field contains source and call ID
@@ -259,13 +269,26 @@ public class DispatchA13Parser extends FieldProgramParser {
       return "PLACE ADDR CITY ST APT X INFO";
     }
   }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("SRCID")) return  new SourceIdField();
-    if (name.equals("DISPATCHED")) return new SkipField("Dispatched|Responding|Req_Dispatch|On Scene|Standing By|Terminated", true);
-    if (name.equals("ADDR")) return new BaseAddressField();
-    return super.getField(name);
+  
+  private class MyGPSField extends GPSField {
+    
+    private int type;
+    
+    public MyGPSField(int type) {
+      this.type = type;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (type == 1) {
+        data.strGPSLoc = field;
+      }
+      else if (type == 2) {
+        field = data.strGPSLoc +',' + field;
+        data.strGPSLoc = "";
+        setGPSLoc(field, data);
+      }
+    }
   }
 }
 	
