@@ -3,20 +3,26 @@ package net.anei.cadpage.parsers.PA;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * Armstrong County, PA
  */
-public class PAArmstrongCountyParser extends SmartAddressParser {
+public class PAArmstrongCountyParser extends FieldProgramParser {
 
   // Marker is time and run number at end of message
   private static final Pattern MARKER_PATTERN1 = Pattern.compile(" +(\\d+) +(\\d\\d:\\d\\d)$");
   private static final Pattern MARKER_PATTERN2 = Pattern.compile(" +(\\d{1,6}) (\\d\\d:\\d\\d)(?: (\\d{10}))?(?: +([A-Z0-9]+))?$");
   
   public PAArmstrongCountyParser() {
-    super("ARMSTRONG COUNTY", "PA");
+    super("ARMSTRONG COUNTY", "PA",
+          "CALL ADDR CITY X!");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "911Dispatch@co.armstrong.pa.us";
   }
 
   @Override
@@ -27,10 +33,19 @@ public class PAArmstrongCountyParser extends SmartAddressParser {
     if (subject.equals("Dispatch")) {
       Matcher match = MARKER_PATTERN1.matcher(body);
       if (match.find()) {
-        setFieldList("CALL PLACE ADDR X ID TIME");
         data.strCallId = match.group(1);
         data.strTime = match.group(2);
         body = body.substring(0,match.start());
+        
+        // There are two versions of this format.
+        // Newer one uses // as field delimiters
+        String[] flds = body.split("//");
+        if (flds.length >= 4) {
+          return parseFields(flds, data);
+        }
+        
+        // Older one has same fields parsed by hand
+        setFieldList("CALL PLACE ADDR X");
         
         parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_CROSS_FOLLOWS | FLAG_NO_IMPLIED_APT, body, data);
         data.strCross = getLeft();
@@ -86,7 +101,48 @@ public class PAArmstrongCountyParser extends SmartAddressParser {
       return true;
     }
     
-    // Not luck oneitehr format
+    // Not luck on either format
     return false;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " ID TIME";
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("CITY")) return new MyCityField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern CALL_CH_PLACE_PTN = Pattern.compile("(.*?) *\\b((?:EMS )?TAC ?\\d|EMS ?\\d|ET ?\\d|CW ?\\d|FIRE FT\\d)\\b *(.*?)");
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = CALL_CH_PLACE_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1);
+        data.strChannel = match.group(2);
+        data.strPlace = match.group(3);
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL CH PLACE";
+    }
+  }
+  
+  private static final Pattern CITY_BORO_PTN = Pattern.compile("(.*?) +BORO", Pattern.CASE_INSENSITIVE);
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = CITY_BORO_PTN.matcher(field);
+      if (match.matches()) field = match.group(1);
+      super.parse(field, data);
+    }
   }
 }
