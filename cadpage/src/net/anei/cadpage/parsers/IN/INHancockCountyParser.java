@@ -101,6 +101,12 @@ public class INHancockCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  @Override
+  public String postAdjustMapAddress(String addr) {
+    return DIR_US_40_PTN.matcher(addr).replaceAll("$1");
+  }
+  private static final Pattern DIR_US_40_PTN = Pattern.compile("\\b[NSEW] +(US +40)\\b", Pattern.CASE_INSENSITIVE);
+  
   private static final String[] CITY_LIST = new String[]{
     "FORTVIL",
     "FORTVILLE",
