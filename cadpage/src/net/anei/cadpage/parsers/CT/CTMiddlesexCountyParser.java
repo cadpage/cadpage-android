@@ -14,7 +14,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTMiddlesexCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile(".*CAD Page for CFS (\\d{6,}-\\d+)");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("(?:(.+?) +CALL +)?CAD Page for CFS (\\d{6,}-\\d+)");
   
   public CTMiddlesexCountyParser() {
     super(CITY_CODES, "MIDDLESEX COUNTY", "CT",
@@ -27,16 +27,31 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
+  }
+  
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     Matcher match = SUBJECT_PTN.matcher(subject);
     if (!match.matches()) return false;
-    data.strCallId = match.group(1);
+    data.strSource = getOptGroup(match.group(1));
+    data.strCallId = match.group(2);
     return parseFields(body.split("\n"), 5, data);
   }
   
   @Override
   public String getProgram() {
-    return "ID " + super.getProgram();
+    return "SRC ID " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("GPS")) return new MyGPSField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
   }
   
   private static final Pattern GPS_PATTERN = Pattern.compile("http://maps\\.google\\.com/maps\\?q=([-+]*\\d+\\.\\d+ +[-+]*\\d+\\.\\d+)");
@@ -72,6 +87,13 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      super.parse(field.toUpperCase(), data);
+    }
+  }
+  
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
@@ -80,139 +102,66 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("GPS")) return new MyGPSField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    return super.getField(name);
-  }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_PREFER_GPS;
-  }
-  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "AV", "AVON",
-      "av", "AVON",
       "BA", "BETHANY",
-      "ba", "BETHANY",
       "BE", "BERLIN",
-      "be", "BERLIN",
       "BR", "BRANFORD",
-      "br", "BRANFORD",
       "CH", "CHESTER",
-      "ch", "CHESTER",
       "CL", "CLINTON",
-      "cl", "CLINTON",
       "CO", "COLCHESTER",
-      "co", "COLCHESTER",
       "CR", "CROMWELL",
-      "cr", "CROMWELL",
       "CS", "CHESHIRE",
-      "cs", "CHESHIRE",
       "DH", "DURHAM",
-      "dh", "DURHAM",
       "DR", "DEEP RIVER",
-      "dr", "DEEP RIVER",
       "EF", "EAST HARTFORD",
-      "ef", "EAST HARTFORD",
       "EH", "EAST HADDAM",
-      "eh", "EAST HADDAM",
       "EM", "EAST HAMPTON",
-      "em", "EAST HAMPTON",
       "EV", "EAST HAVEN",
-      "ev", "EAST HAVEN",
       "GL", "GLASTONBURY",
-      "gl", "GLASTONBURY",
       "GR", "GROTON",
-      "gr", "GROTON",
       "GU", "GUILFORD",
-      "gu", "GUILFORD",
       "HD", "HADDAM",
-      "hd", "HADDAM",
       "HE", "HEBRON",
-      "he", "HEBRON",
       "HF", "HARTFORD",
-      "hf", "HARTFORD",
       "HN", "HAMDEN",
-      "hn", "HAMDEN",
       "KW", "KILLINGWORTH",
-      "kw", "KILLINGWORTH",
       "LI", "LONG ISLAND",
-      "li", "LONG ISLAND",
       "LY", "LYME",
-      "ly", "LYME",
       "MA", "MADISON",
-      "ma", "MADISON",
       "MB", "MARLBOROUGH",
-      "mb", "MARLBOROUGH",
       "MD", "MIDDLETOWN",
-      "md", "MIDDLETOWN",
       "ME", "MERIDEN",
-      "me", "MERIDEN",
       "MF", "MIDDLEFIELD",
-      "mf", "MIDDLEFIELD",
       "MI", "MIDDLEBURY",
-      "mi", "MIDDLEBURY",
       "ML", "MILFORD",
-      "ml", "MILFORD",
       "MV", "MONTVILLE",
-      "mv", "MONTVILLE",
       "NB", "NEW BRANFORD",
-      "nb", "NEW BRANFORD",
       "NE", "NEWINGTON",
-      "ne", "NEWINGTON",
       "NH", "NEW HAVEN",
-      "nh", "NEW HAVEN",
       "NK", "NORWALK",
-      "nk", "NORWALK",
       "NL", "NEW LONDON",
-      "nl", "NEW LONDON",
       "NO", "NORWICH",
-      "no", "NORWICH",
       "NV", "NORTH HAVEN",
-      "nv", "NORTH HAVEN",
       "NW", "NEW BRITAIN",
-      "nw", "NEW BRITAIN",
       "NY", "NEW YORK CITY",
-      "ny", "NEW YORK CITY",
       "OL", "OLD LYME",
-      "ol", "OLD LYME",
       "OS", "OLD SAYBROOK",
-      "os", "OLD SAYBROOK",
       "OR", "ORANGE",
-      "or", "ORANGE",
       "PL", "PORTLAND",
-      "pl", "PORTLAND",
       "RH", "ROCKY HILL",
-      "rh", "ROCKY HILL",
       "SA", "SALEM",
-      "sa", "SALEM",
       "SO", "SOUTHINGTON",
-      "so", "SOUTHINGTON",
       "ST", "STONINGTON",
-      "st", "STONINGTON",
       "SX", "ESSEX",
-      "sx", "ESSEX",
       "WA", "WALLINGFORD",
-      "wa", "WALLINGFORD",
       "WB", "WESTBROOK",
-      "wb", "WESTBROOK",
       "WE", "WEATHERSFIELD",
-      "we", "WEATHERSFIELD",
       "WF", "WATERFORD",
-      "wf", "WATERFORD",
       "WH", "WEST HARTFORD",
-      "wh", "WEST HARTFORD",
       "WO", "WOODBRIDGE",
-      "wo", "WOODBRIDGE",
       "WP", "WESTPORT",
-      "wp", "westport",
       "WT", "WATERBURY",
-      "wt", "WATERBURY",
       "WV", "WEST HAVEN",
-      "wv", "WEST HAVEN"
   });
 }

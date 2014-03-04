@@ -174,6 +174,7 @@ choyvp pynff PGZvqqyrfrkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pnyyre: NQG BC LFT\a" +
         "Qvfc Gvzr: 06/13/12 11:36:52",
 
+        "FEP:QHEUNZ SVER",
         "VQ:061312-31",
         "TCF:+41.486180,-72.657190",
         "PNYY:Sver Nynez",
@@ -195,6 +196,7 @@ choyvp pynff PGZvqqyrfrkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pnyyre: \a" +
         "Qvfc Gvzr: 06/13/12 18:03:43",
 
+        "FEP:QHEUNZ SVER",
         "VQ:061312-47",
         "TCF:+41.448520,-72.701190",
         "PNYY:Sver Nynez",
@@ -215,6 +217,7 @@ choyvp pynff PGZvqqyrfrkPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Pnyyre: NGGZB\a" +
         "Qvfc Gvzr: 06/14/12 04:22:21",
 
+        "FEP:QHEUNZ SVER",
         "VQ:061412-5",
         "TCF:+41.480250,-72.663250",
         "PNYY:Hapbapvbhf/Haerfcbafvir NYF",
