@@ -360,6 +360,7 @@ public class ParserList {
               ,"LAStCharlesParish"              ,"St Charles Parish, LA"
               ,"LAStTammanyParish"              ,"St Tammany Parish, LA"
               ,"LATerrebonneParish"             ,"Terrebonne Parish, LA"
+              ,"LAWestBatonRougeParish"         ,"West Baton Rouge Parish, LA"
           ),
           new ParserCategory("Maine"
               ,"MEAndroscogginCounty"           ,"Androscoggin County, ME"
@@ -445,6 +446,7 @@ public class ParserList {
               ,"MSMarionCounty"                 ,"Marion County, MS"
               ,"MSNeshobaCounty"                ,"Neshoba County, MS"
               ,"MSNewtonCounty"                 ,"Newton County, MS"
+              ,"MSOktibbehaCounty"              ,"Oktibbeha County, MS"
           ),
           new ParserCategory("Missouri"
               ,"MOBarryCounty"                  ,"Barry County, MO"
