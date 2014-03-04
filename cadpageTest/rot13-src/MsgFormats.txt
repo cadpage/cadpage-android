@@ -66,7 +66,7 @@ Npgvir911 gvpxrgf
 2014010510000239  APAnfuPbhagl svkrq
 2014011010000452  YNRnfgSryvpvnanCnevfu jbexf <<
 2014011610000781  Ab qngn
-2014011610000816  ZFBxgvoorunPbhagl (bhgfbhepr)
+2014011610000816  ZFBxgvoorunPbhagl jbexf <<<<
 2014011710000716  PGYvgpusvryqPbhaglN jbexf <<
 2014011710000805  PGZvqqyrfrkPbhaglO (bhgfbhepr)
 2014011710000878  JIUneevfbaPbhagl jbexf << 
@@ -7958,24 +7958,6 @@ Ybpngvba: Unegfivyyr, FP, Havgrq Fgngrf
 948 ARJGBA QE UNEGFIVYYR;750688;00:57:39;SVER 10-70 FGEHPGHER;trb:34.405006, -080.014629
 1 J PNEBYVAN NI UNEGFIVYYR;750585;14:46:08;NPPVQRAG 10-50
 **********************************************************
-2014011610000816 (Wnpxfba)
-Bxgvoorun Pbhagl, ZF
-
-Pbagnpg: Npgvir911
-Ntrapl anzr: Rnfg Bxgvoorun ISQ
-Ybpngvba: Fgnexivyyr, ZF, Havgrq Fgngrf
-Fraqre: Bxgvoorun911 <Bxgvoorun@911.pbz>
-
-(ISQ - ZRQ - 2014020062 - 173 Tenff Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 173 Tenff Eq, Fgnexivyyr, ZF
-(ISQ - ZRQ - 2014020056 - 475 Pnaaba Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny - qvss oernguvat - ercbegrq ng 475 Pnaaba Eq, Fgnexivyyr, ZF
-(ISQ - ZRQ - 2014020055 - 209 16gu Frpgvba Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 209 16gu Frpgvba Eq, Fgnexivyyr, ZF, zrqvpny nynez, nyy nzohynaprf bhg ng guvf gvzr
-(ISQ - ZRQ - 2014020050 - 95 Pynl Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 0 95 Pynl Eq, Fgnexivyyr, ZF
-(SRZNYR, CBFFVOYR FRVMHERF - 2014020046 - 9343 Ebpx Uvyy Eq, Fgnexivyyr, ZF) SRZNYR, CBFFVOYR FRVMHERF ercbegrq ng 9343 Ebpx Uvyy Eq, Fgnexivyyr, ZF
-(SVERNY - 2014020042  1543 Oynpxwnpx Eq NCG OYQT 6,nyy fgnvejryy chyy fgngvbaf)  Sver Nynez ercbegrq ng 1543 Oynpxwnpx Eq NCG OYQT 6, nyy fgnvejryy chyy fgngvbaf
-(ISQ - ZRQ - 2014020040 - 212 Xevfgl Ya, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 212 Xevfgl Ya, Fgnexivyyr, ZF
-(ISQ - ZRQ - HAERFCBAFVIR ABG OERNGUVAT 2014020038 - 207 Fna Znepbf Qe, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq HAERFCBAFVIR ABG OERNGUVAT  ng 207 Fna Znepbf Qe, Fgnexivyyr, ZF
-(ISQ - SVERNY - 2014020034 - 9612 Ebpxuvyy Eq, Fgnexivyyr, ZF) Gurer unf orra n(a) Sver Nynez ercbegrq ng 9612 Ebpxuvyy Eq, Fgnexivyyr, ZF
-(ISQ - ZRQ - 2013120057 - 155 Cengure Ya, Fgnexivyyr, ZF) Gurer unf orra n(a) Zrqvpny ercbegrq ng 155 Cengure Ya, Fgnexivyyr, ZF
 **********************************************************
 2014011710000805 (Wnpxfba)
 Zvqqyrfrk Pbhagl, PG
@@ -8061,7 +8043,7 @@ Fraqre: <Fcvyyzna_Cntvat@911.pbz>
 (Zrffntr sebz UvcYvax) FERZ\aFVPXARFF\a11247 QNAGR ZBHAGNVA EQ\a280R\aFERZ\a6lbz, fber guebng naq fjbyyra gbafvyf. gnxvat nzbkvpvyyna  naq vohcebsra.
 (Zrffntr sebz UvcYvax) FERZ\aPNEQVNP NEEFG\a1935 ZPXVAARL SNEZ EQ\a262R\aFERZ\a61 unf unq 2 ceri urneg nggnpxf.\a715, 710, 718 rf
 **********************************************************
-2014012010000381
+2014012010000381 (Wnpxfba)
 Nhtynvmr Pbhagl, BU
 
 Pbagnpg: Npgvir911

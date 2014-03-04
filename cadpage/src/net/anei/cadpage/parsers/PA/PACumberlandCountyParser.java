@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -10,13 +11,20 @@ import net.anei.cadpage.parsers.dispatch.DispatchArchonixParser;
 
 public class PACumberlandCountyParser extends DispatchArchonixParser {
   
+  private static final Pattern CODE_CALL_PTN = Pattern.compile("(\\d{2}[A-Z]\\d{2}) +(.*)");
+  
   public PACumberlandCountyParser() {
     super(CITY_CODES, "CUMBERLAND COUNTY", "PA");
   }
   
   @Override
   public String getFilter() {
-    return "ccpaeoc@comcast.net";
+    return "ccpaeoc@comcast.net,EP911@ccpa.net";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
   
   @Override
@@ -24,6 +32,13 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
     
     if (subject.startsWith("[DISPATCH]")) subject = subject.substring(10).trim();
     if (!super.parseMsg(subject,  body, data)) return false;
+    
+    // Call can contain a code field
+    Matcher match = CODE_CALL_PTN.matcher(data.strCall);
+    if (match.matches()) {
+      data.strCode = match.group(1);
+      data.strCall = match.group(2);
+    }
     
     // The Map (Zone) field contains the CAD zone (which users are not interested in
     // and  a box number
@@ -72,7 +87,7 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
   
   @Override
   public String getProgram() {
-    return super.getProgram().replace("MAP", "BOX");
+    return super.getProgram().replace("CALL", "CODE CALL").replace("MAP", "BOX");
   }
   
   @Override

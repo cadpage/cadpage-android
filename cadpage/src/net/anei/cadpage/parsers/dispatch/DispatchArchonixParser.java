@@ -23,7 +23,7 @@ public class DispatchArchonixParser extends FieldProgramParser {
   
   public DispatchArchonixParser(Properties cityCodes, String defCity, String defState) {
     super(defCity, defState,
-           "CALL ADDRCITY/aSXP! #:APT X:X! BOX:BOX? ZN:MAP? CP:PLACE UNIT MI:ID RES:UNIT");
+           "CALL ADDRCITY/aSXP! #:APT X:X! BOX:BOX? ZN:MAP? CP:PLACE UNIT Time:DATETIME? MI#:ID Lat/Lon:GPS? RES#:UNIT");
     this.cityCodes = cityCodes;
   }
   
@@ -53,13 +53,23 @@ public class DispatchArchonixParser extends FieldProgramParser {
     match = SINGLE_LINE_BRK.matcher(body);
     if (!match.find()) body = body.replace("\n\n", "\n");
     
-    body = body.replace("MI#:", "MI:").replace("RES#:", "RES:");
     return parseFields(body.split("\n"), data) && data.strAddress.length() > 0;
   }
   
   @Override
   public String getProgram() {
     return "SRC " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDRCITY")) return new BaseAddressCityField();
+    if (name.equals("X")) return new BaseCrossField();
+    if (name.equals("PLACE")) return new BasePlaceDateTimeField(true);
+    if (name.equals("DATETIME")) return new BasePlaceDateTimeField(false);
+    if (name.equals("ID")) return new BaseIdField();
+    if (name.equals("GPS")) return new BaseGPSField();
+    return super.getField(name);
   }
   
   protected class BaseAddressCityField extends AddressField {
@@ -100,12 +110,40 @@ public class DispatchArchonixParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d{4})-(\\d\\d)-(\\d\\d) (\\d\\d:\\d\\d:\\d\\d)$");
-  protected class BasePlaceField extends PlaceField {
+  private static final Pattern ID_CH_PTN = Pattern.compile("(.*?) +(OPS *\\d+)");
+  protected class BaseIdField extends IdField {
     @Override
     public void parse(String field, Data data) {
+      Matcher match = ID_CH_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1);
+        data.strChannel = match.group(2);
+      }
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d{4})-(\\d\\d)-(\\d\\d) (\\d\\d:\\d\\d:\\d\\d)$");
+  protected class BasePlaceDateTimeField extends DateTimeField {
+    
+    private boolean allowPlace;
+    
+    public BasePlaceDateTimeField(boolean allowPlace) {
+      this.allowPlace = allowPlace;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() == 0) return;
+      boolean process;
       Matcher match = DATE_TIME_PTN.matcher(field);
-      if (match.find()) {
+      if (allowPlace) {
+        process = match.find();
+      } else {
+        process = match.matches();
+        if (!process) abort();
+      }
+      if (process) {
         data.strDate = match.group(2) + "/" + match.group(3) + "/" + match.group(1);
         data.strTime = match.group(4);
         field = field.substring(0,match.start()).trim(); 
@@ -119,11 +157,11 @@ public class DispatchArchonixParser extends FieldProgramParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDRCITY")) return new BaseAddressCityField();
-    if (name.equals("X")) return new BaseCrossField();
-    if (name.equals("PLACE")) return new BasePlaceField();
-    return super.getField(name);
+  protected class BaseGPSField extends GPSField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("//", ",");
+      super.parse(field, data);
+    }
   }
 }

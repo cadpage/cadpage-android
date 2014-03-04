@@ -10,14 +10,7 @@ Zbeevf Pbhagl, AW
 Pbagnpg: Npgvir911
 Ntrapl anzr: Juvccnal Sver Qrcnegzrag
 Ybpngvba: Unabire Gbjafuvc, AW, Havgrq Fgngrf
-Fraqre: <oxnceny@unabirecbyvpr.pbz>
-Fraqre: <ownagba@unabirecbyvpr.pbz>
-Fraqre: <wpbyyben@unabirecbyvpr.pbz>
-Fraqre: <pbqql@unabirecbyvpr.pbz>
-Fraqre: <cureznaf@unabirecbyvpr.pbz>
-Fraqre: <ZYRTTBHE@unabirecbyvpr.pbz>
-Fraqre: <QXNVFRE@unabirecbyvpr.pbz>
-Fraqre: <rzntyrl@unabirecbyvpr.pbz>
+Fraqre: @unabirecbyvpr.pbz
 
 (JC-2014-000178) ZRQNYF @ 410 EBHGR 10  , JUVCCNAL - ryqreyl znyr jub vf frzv pbafpvbhf naq oernguvat.  ybpngrq va gur cuneznpl qrcg.
 (JC-2014-000177) ZRQNYF @ 95 CNEFVCCNAL EBNQ  , JUVCCNAL - 81 le byq frzv erfcbafvir znyr, qvssvphygl oernguvat.
@@ -119,6 +112,8 @@ Fraqre: <rzntyrl@unabirecbyvpr.pbz>
 (JC-2014-000073) ZRQ @ 135 NYTBADHVA CNEXJNL  , JUVCCNAL - znyr jub vf yvtug urnqrq naq qvmml., encvq oernguvat
 (JC-2014-000072) ZRQ @ 150 ORR ZRNQBJ CNEXJNL  , JUVCCNAL - 76/z erdhrfgvat genafcbegngvba gb gur ubfcvgny.
 (JC-2014-000071) ZINVAW @ 235 EVQTRQNYR NIRAHR  , PRQNE XABYYF - zin jvgu vawhevrf\azin jvgu vawhevrf
+
+Zretr jvgu AWOretraPbhaglO naq AWFhffrkPbhaglN
 
 */
 
