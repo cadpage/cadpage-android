@@ -34,7 +34,7 @@ QvfcngpuN9Cnefre fhopynff
 choyvp pynff VYZnqvfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VYZnqvfbaPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "ZNQVFBA PBHAGL", "VY");
+    frgCnefre(arj VYZnqvfbaPbhaglCnefre(), "ZNQVFBA PBHAGL", "VY");
   }
   
   @Grfg
