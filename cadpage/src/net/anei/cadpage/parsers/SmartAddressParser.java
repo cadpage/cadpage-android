@@ -1417,22 +1417,31 @@ public abstract class SmartAddressParser extends MsgParser {
 
     result.reset(startAddress);
     boolean crossOnly = isFlagSet(FLAG_ONLY_CROSS);
+    boolean padField = isFlagSet(FLAG_ANY_PAD_FIELD);
+    boolean parseToCity = false;
     
     // Total failure, assign the entire field to either the call description
     // or the address
     int endAddr = result.tokens.length;
+    result.endAll = endAddr;
     
     // Check for any invalid tokens.  If we find any they mark the end of any
     // possible address
-    if (!isFlagSet(FLAG_ANCHOR_END)) {
+    if (!isFlagSet(FLAG_ANCHOR_END) || padField) {
       for (int ndx = 0; ndx < endAddr; ndx++) {
         if (isType(ndx, ID_NOT_ADDRESS)) {
           endAddr = ndx;
           break;
         }
       }
+      if (padField && endAddr < result.tokens.length){
+        parsePadToCity(endAddr, result);
+        parseToCity = true;
+      }
+      else {
+        result.endAll = endAddr;
+      }
     }
-    result.endAll = endAddr;
     
     if (!crossOnly) { 
       
@@ -1492,7 +1501,7 @@ public abstract class SmartAddressParser extends MsgParser {
 
     // However we managed to come up with an address, see if we can pick out a city
     // at the end of it
-    if (!crossOnly && result.addressField != null) {
+    if (!crossOnly && !parseToCity && result.addressField != null) {
       int sAddr = result.addressField.fldStart;
       parseAddressToCity(sAddr, sAddr+2, result);
     }
