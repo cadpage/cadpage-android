@@ -423,7 +423,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (name.equals("CODE"))  return new MyCodeField();
     if (name.equals("PARTCODE")) return new SkipField("[MFL]D?");
     if (name.equals("X")) return new MyCrossField();
-    if (name.equals("ID")) return new IdField("\\d\\d(?:\\d\\d)?-?\\d{5,8}", true);
+    if (name.equals("ID")) return new IdField("\\d\\d(?:\\d\\d)?-?\\d{4,8}", true);
     if (name.equals("NAME")) return new MyNameField();
     if (name.equals("PHONE")) return new PhoneField("\\d{10}");
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
