@@ -326,6 +326,7 @@ public class ParserList {
               ,"KSAtchisonCounty"               ,"Atchison County, KS"
               ,"KSBrownCounty"                  ,"Brown County, KS"
               ,"KSButlerCounty"                 ,"Butler County, KS"
+              ,"KSCowleyCounty"                 ,"Cowley County, KS"
               ,"KSJohnsonCounty"                ,"Johnson County, KS"
               ,"KSMiamiCounty"                  ,"Miami County, KS"
               ,"KSMontgomeryCounty"             ,"Montgonery County, KS"
