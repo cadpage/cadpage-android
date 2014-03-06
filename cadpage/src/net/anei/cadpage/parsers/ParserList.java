@@ -913,7 +913,6 @@ public class ParserList {
               ,"VAHenryCounty"                  ,"Henry County, VA"
               ,"VAIsleOfWightCounty"            ,"Isle of Wight County, VA"
               ,"VAKingGeorgeCounty"             ,"King George County, VA"
-              ,"VALexingtonRockbridgeCounty"    ,"Lexington &amp; Rockbridge Counties"
               ,"VALoudounCounty"                ,"Loudoun County, VA"
               ,"VALouisaCounty"                 ,"Louisa County, VA"
               ,"VALunenburgCounty"              ,"Lunenburg County, VA"

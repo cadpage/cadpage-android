@@ -42,14 +42,18 @@ public class VARockbridgeCountyParser extends DispatchDAPROParser {
   }
   
   private static final CodeSet CALL_SET = new CodeSet(
+      "9-1-1 HANGUP WITH NO CONTACT",
       "ABDOMINAL PAIN",
       "ACCIDENT NO INJURY",
       "ACCIDENT WITH INJURY",
+      "ALLERGIC REACTION",
       "BRUSH FIRE GREATER THAN 50' AW",
       "CHEST PAINS/CARDIAC",
       "CHIMNEY FIRE",
+      "CHOKING",
       "COMMERCIAL NATURAL GAS/PROPANE",
       "COMMERCIAL VEHICLE FIRE",
+      "DEBRIS IN ROADWAY",
       "DIABETIC",
       "DIZZY, SICK, ETC.",
       "EMS SERVICE CALL",
@@ -57,18 +61,27 @@ public class VARockbridgeCountyParser extends DispatchDAPROParser {
       "FIRE ALARM",
       "FIRE SERVICE CALL",
       "FLUID LEAK FROM VEHICLE NO INJ",
+      "FRACTURE OR DISLOCATION",
       "HAZARDOUS MATERIALS CALL",
+      "HEMMORHAGING",
       "MEDICAL ALARM/LIFELINE ALARM",
+      "MENTAL HEALTH SUBJECT/TRANSPOR",
+      "OVERDOSE",
       "PAIN NOT RESULTING FORM AN INJ",
+      "POISONING",
+      "PUBLIC WORKS AFTER HOURS CALL",
+      "SEIZURES",
       "SERVICE CALL",
       "SHORT OF BREATH/DIFF BREATHING",
+      "STROKE",
       "STRUCTURE FIRE",
       "SWIFT WATER TEAM CALL",
       "TECHNICAL RESCUE CALL",
       "TEST CALL FOR ECC",
       "UNKNOWN MEDICAL EMERGENCY",
       "UNRESPONSIVE",
-      "VEHICLE FIRE"
+      "VEHICLE FIRE",
+      "WEATHER RELATED CALL W/ NO DIS"
       
   );
   

@@ -83,6 +83,11 @@ public class DispatchDAPROParser extends FieldProgramParser {
       data.strCallId = match.group(1);
       data.strSupp = match.group(2);
     }
+    
+    @Override
+    public String getFieldNames() {
+      return "ID INFO";
+    }
   }
   
   private class BaseCrossField extends CrossField {
