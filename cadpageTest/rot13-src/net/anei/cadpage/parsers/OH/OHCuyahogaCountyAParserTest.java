@@ -226,7 +226,7 @@ choyvp pynff BUPhlnubtnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G4",
         "(Qvfcngpu Zrffntr) ZIN \a ERDHRFGRQ FDHNQ NVE ONT QRCYBLZRAG, \a ",
         "PNYY:ZIN",
-        "NQQE:ERDHRFGRQ FDHNQ NVE ONT QRCYBLZRAG,");
+        "NQQE:ERDHRFGRQ FDHNQ NVE ONT QRCYBLZRAG");
 
     qbGrfg("G5",
         "(Qvfcngpu Zrffntr) ZIN \e  PUVYYVPBGUR EQ    F EHFFRYY \eTPFB NQIVFRQ IRUVPYR ( TEL INA) VA GUR QVGPU, AB VAWHEVRF ",
@@ -538,8 +538,8 @@ choyvp pynff BUPhlnubtnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G49",
         "(Qvfcngpu Zrffntr)  \e49  J BENATR FG   \e27 LBN SRZNYR UNIVAT N FRVMHER ",
-        "PNYY:49  J BENATR FG",
-        "NQQE:27 LBN SRZNYR UNIVAT N FRVMHER");
+        "NQQE:49  J BENATR FG",
+        "PNYY:27 LBN SRZNYR UNIVAT N FRVMHER");
 
     qbGrfg("G50",
         "(Qvfcngpu Zrffntr) FDHNQ PNYY-TRARENY \e111  UNZYRG UVYYF QE  22 \eRYQREYL ZNYR PNGU CEBOYRZF ",
@@ -562,8 +562,8 @@ choyvp pynff BUPhlnubtnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G53",
         "(Qvfcngpu Zrffntr)  \a200  UNZYRG UVYYF QE  \aZRQVPNY RZRETRAPL\aZHGHNY NVQ  SEBZ ONVAOEVQTR SQ ",
-        "PNYY:200  UNZYRG UVYYF QE",
-        "NQQE:ZRQVPNY RZRETRAPL",
+        "NQQE:200  UNZYRG UVYYF QE",
+        "PNYY:ZRQVPNY RZRETRAPL",
         "VASB:ZHGHNY NVQ  SEBZ ONVAOEVQTR SQ");
 
     qbGrfg("G54",
@@ -741,9 +741,8 @@ choyvp pynff BUPhlnubtnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G82",
         "(Qvfcngpu Zrffntr)  \e35550  SNVEZBHAG OYIQ   \e91 LBN ZNYR SRYY UVG URNQ. OYRRQVAT SEBZ URNQ NAQ UNAQ ",
-        "PNYY:35550  SNVEZBHAG OYIQ",
-        "NQQE:91 LBN ZNYR SRYY UVG URNQ OYRRQVAT SEBZ URNQ NAQ UNAQ",
-        "ZNQQE:91 LBN ZNYR SRYY UVG URNQ OYRRQVAT SEBZ URNQ");
+        "NQQE:35550  SNVEZBHAG OYIQ",
+        "PNYY:91 LBN ZNYR SRYY UVG URNQ. OYRRQVAT SEBZ URNQ NAQ UNAQ");
 
     qbGrfg("G83",
         "(Qvfcngpu Zrffntr) PBZCYNVAGF-TRARENY \aORYY FG  ZNVA FG   \aZNYR HAPBA FDHNQ ERDHRFG ",
@@ -1011,9 +1010,8 @@ choyvp pynff BUPhlnubtnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G32",
         "(Qvfcngpu Zrffntr) \a3909  BENATR CYNPR   \a78 LRNE BYQ ZRNY UVTU SRIRE NAQ UNIVAT GEBHOYR OERNGUAT",
-        "PNYY:3909  BENATR CYNPR",
-        "NQQE:78 LRNE BYQ ZRNY UVTU SRIRE NAQ UNIVAT GEBHOYR OERNGUAT",
-        "ZNQQE:78 LRNE BYQ ZRNY UVTU SRIRE");
+        "NQQE:3909  BENATR CYNPR",
+        "PNYY:78 LRNE BYQ ZRNY UVTU SRIRE NAQ UNIVAT GEBHOYR OERNGUAT");
 
     qbGrfg("G33",
         "(Qvfcngpu Zrffntr) FDHNQ PNYY-TRARENY \e3909  BENATR CYNPR   \eQVFBEVRAGRQ SRZNYR VA GUR HETRAG PNER ",

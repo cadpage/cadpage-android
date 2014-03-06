@@ -213,8 +213,8 @@ choyvp pynff BUCbegntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G17",
         "(Qvfcngpu Zrffntr) 6766  INVE EQ   \aNonaqbarq ubhfr cbffvoyl ba sver",
-        "PNYY:6766  INVE EQ",
-        "NQQE:Nonaqbarq ubhfr cbffvoyl ba sver");
+        "NQQE:6766  INVE EQ",
+        "PNYY:Nonaqbarq ubhfr cbffvoyl ba sver");
 
     qbGrfg("G18",
         "(Qvfcngpu Zrffntr) NYNEZF Sver \a10610  SERRQBZ FG  \a Trareny Sver Nynez Npgvingvba",
@@ -315,7 +315,8 @@ choyvp pynff BUCbegntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G33",
         "(Qvfcngpu Zrffntr)  haxabja sver     \a88 gb  RYL ba evtug, haxabja jung glcr",
         "PNYY:haxabja sver",
-        "NQQE:88 gb RYL ba evtug, haxabja jung glcr");
+        "NQQE:88 gb RYL ba evtug",
+        "NCG:haxabja jung glcr");
 
     qbGrfg("G34",
         "(Qvfcngpu Zrffntr) GENSSVP PENFU:VAWHEL \eYVZREVQTR EQ  FGNGR EG 303   \e2 IRUVPYR ZIN",
@@ -345,9 +346,10 @@ choyvp pynff BUCbegntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G38",
         "(Qvfcngpu Zrffntr)  \e8233  CNEX NI  \ejver qbja, abegu bs fpubby ba Cnex Nir",
-        "PNYY:8233  CNEX NI",
-        "NQQE:jver qbja, abegu bs fpubby ba Cnex Nir",
-        "ZNQQE:jver qbja, & fpubby ba Cnex Nir");
+        "NQQE:8233  CNEX NI",
+        "ZNQQE:8233  CNEX NIR",
+        "PNYY:jver qbja",
+        "VASB:abegu bs fpubby ba Cnex Nir");
 
     qbGrfg("G39",
         "(Qvfcngpu Zrffntr) FGBEZ QNZNTR \aNFOHEL & FG EG 700 / BA FGNGR EG 303   \aGERR QBJA NPEBFF JRFGOBHAQ YNAR",
@@ -501,7 +503,8 @@ choyvp pynff BUCbegntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G62",
         "(Qvfcngpu Zrffntr) SVER\aFRG HC YM NG CVKYRL CNEX SBE PBZZHAVGL :-)",
         "PNYY:SVER",
-        "NQQE:FRG HC YM NG CVKYRL CNEX SBE PBZZHAVGL : -)");
+        "NQQE:FRG HC YM NG CVKYRL CNEX SBE PBZZHAVGL :",
+        "NCG:-)");
 
     qbGrfg("G63",
         "(Qvfcngpu Zrffntr) SVER \e  CNEX NIR   \ebcra ohea",

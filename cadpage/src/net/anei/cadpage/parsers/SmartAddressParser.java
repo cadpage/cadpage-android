@@ -1434,12 +1434,10 @@ public abstract class SmartAddressParser extends MsgParser {
           break;
         }
       }
+      result.endAll = endAddr;
       if (padField && endAddr < result.tokens.length){
         parsePadToCity(endAddr, result);
         parseToCity = true;
-      }
-      else {
-        result.endAll = endAddr;
       }
     }
     
@@ -2654,7 +2652,10 @@ public abstract class SmartAddressParser extends MsgParser {
       if (crossField != null) data.strCross = buildData(crossField, 1);
       if (cityField != null) {
         data.strCity = buildData(cityField, 0);
-        if (parent.cityCodes != null) data.strCity = convertCodes(data.strCity, parent.cityCodes);
+        if (parent.cityCodes != null) {
+          String city = parent.cityCodes.getProperty(data.strCity.toUpperCase());
+          if (city != null) data.strCity = city;
+        }
       }
       
       // Before we figure out with to do with the leading start field, see if some of it

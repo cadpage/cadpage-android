@@ -769,9 +769,8 @@ choyvp pynff INCevaprRqjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G78",
         "ZNVYOBK:05 FZBXR VAIRFGVTNGVBA (BHGFVQR) 813 YBATJBBQ NIR .. SNE PSF# 2013-002431",
         "FEP:05",
-        "PNYY:FZBXR VAIRFGVTNGVBA",
-        "NQQE:(BHGFVQR) 813 YBATJBBQ NIR",
-        "ZNQQE:813 YBATJBBQ NIR",
+        "PNYY:FZBXR VAIRFGVTNGVBA (BHGFVQR)",
+        "NQQE:813 YBATJBBQ NIR",
         "PVGL:SNEZIVYYR",
         "VQ:2013-002431");
 
@@ -881,9 +880,8 @@ choyvp pynff INCevaprRqjneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G92",
         "ZNVYOBK:13 FZBXR VAIRFGVTNGVBA (BHGFVQR) 820 YBATJBBQ NIR SNE PSF# 2013-001807",
         "FEP:13",
-        "PNYY:FZBXR VAIRFGVTNGVBA",
-        "NQQE:(BHGFVQR) 820 YBATJBBQ NIR",
-        "ZNQQE:820 YBATJBBQ NIR",
+        "PNYY:FZBXR VAIRFGVTNGVBA (BHGFVQR)",
+        "NQQE:820 YBATJBBQ NIR",
         "PVGL:SNEZIVYYR",
         "VQ:2013-001807");
 
