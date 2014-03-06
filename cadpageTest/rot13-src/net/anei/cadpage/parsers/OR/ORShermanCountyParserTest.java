@@ -1335,7 +1335,7 @@ choyvp pynff BEFureznaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQ - ZRQVPNY",
         "CEV:1",
         "NQQE:58044 UJL 216",
-        "PVGL:TI",
+        "PVGL:TENFF INYYRL",
         "VASB:ZNYR 49 PBAP JRRX ANHFVNGRQ / TNYY FGBARF");
 
     qbGrfg("G58",
@@ -2219,7 +2219,7 @@ choyvp pynff BEFureznaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GRFG - GRFG PNYY",
         "CEV:1",
         "NQQE:TENFF INYYRL",
-        "PVGL:TI",
+        "PVGL:TENFF INYYRL",
         "VASB:GUVF VF N GRFG BAYL");
 
     qbGrfg("G5",
