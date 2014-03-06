@@ -11,6 +11,7 @@ Pbagnpg: Gl Sheeu <glsheeu@tznvy.pbz>
 Fraqre: gevgrpupnq@zpuq-gk.bet
 (PNQ Zrffntr) 14-007823 30166129 95502128 4800 J Cnagure Perrx Qe Nynez - Sver 10OU 2251R SQ2 GX108
 (PNQ Zrffntr) 14-007854 30163109 95507262 4407 F Cnagure Perrx Qe Onpx Cnva 10OU 2250U SQ3 GX108
+(PNQ Zrffntr) 14-008570 30164911 95501613 333 Ubyyl Perrx Pg Cflpuvngevp/Fhvpvqr 10OU 2251R SQ3 GX108
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Evire Cynagngvba Sver Qrcnegzrag
@@ -1952,7 +1953,18 @@ Fraqre: <gevgrpupnq@zpuq-gk.bet>
         "ZNC:2250U",
         "FEP:SQ3",
         "HAVG:GX108");
-  
+
+    qbGrfg("G3",
+        "(PNQ Zrffntr) 14-008570 30164911 95501613 333 Ubyyl Perrx Pg Cflpuvngevp/Fhvpvqr 10OU 2251R SQ3 GX108",
+        "VQ:14-008570",
+        "TCF:+30.164911,-95.501613",
+        "NQQE:333 Ubyyl Perrx Pg",
+        "PNYY:Cflpuvngevp/Fhvpvqr",
+        "OBK:10OU",
+        "ZNC:2251R",
+        "FEP:SQ3",
+        "HAVG:GX108");
+ 
   }
 
   @Grfg

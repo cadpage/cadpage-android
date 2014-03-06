@@ -32,7 +32,7 @@ Unfortunately, a number of third party messaging apps, Handcent and Go SMS in pa
 
 In Android 4.4, the rules all change to eliminate this nonsense.  The user gets to specify one default messaging app, that app always gets the text pages, and only that app has access to the message database and only that app can send SMS messages.  Other apps, such as Cadpage, can continue to receive SMS messages, but will no longer be able to block them from going to any other apps.
 
-The good news is that Cadpage will continue to function under Android 4.4.  The bad news is that we will no longer be able to block dispatch pages from appearing in your default message inbox.  The best you can do is use a blacklisting feature in the default message app to prevent dispatch pages from appearing there.
+The good news is that Cadpage will continue to function under Android 4.4.  And rouge messaging apps will no longer be able to block text messages from getting to Cadpage.  The bad news is that we will no longer be able to block dispatch pages from appearing in your default message inbox.  The best you can do is use a blacklisting feature in the default message app to prevent dispatch pages from appearing there.
 
 The only other alternative is to switch to a message service like CodeMessaging.net or Active911.com that can push direct pages to Cadpage.  Since these do not rely on text messages, they are unaffected by the changes at Android 4.4.
 

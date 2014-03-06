@@ -12,12 +12,13 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class FLCitrusCountyParser extends SmartAddressParser {
   
   private static final Pattern TRUNC_CITY_PTN = Pattern.compile("(?: [A-Z][a-z]+)+(?: [A-Z])?$");
-  private static final Pattern MASTER = Pattern.compile("Unit:([A-Z0-9]+) Status:Dispatched ([A-Z0-9]+) - (.*?) (\\d{2}[A-Z]) (.*)");
+  private static final Pattern MASTER1 = Pattern.compile("Unit:([A-Z0-9]+) Status:Dispatched ([A-Z0-9]+) - (.*?) (\\d{2}[A-Z]) (.*)");
+  private static final Pattern MASTER2 = Pattern.compile("((?:[A-Z]+\\d+ )+) ([A-Z]\\d{1,2}[A-Z]) (.*) ([A-Z0-9]+?) - (.*) (\\d{4}-\\d{8})");
+  private static final Pattern CITY_BRK_PTN = Pattern.compile("(.*? [A-Z]+)(?: - [A-Z]{2})?([A-Z][a-z].*)");
 
   
   public FLCitrusCountyParser() {
     super(CITY_LIST, "CITRUS COUNTY", "FL");
-    setFieldList("UNIT CODE CALL MAP ADDR APT X CITY INFO");
   }
   
   @Override
@@ -50,17 +51,42 @@ public class FLCitrusCountyParser extends SmartAddressParser {
       }
     }
     
-    match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    data.strUnit = match.group(1);
-    data.strCode = match.group(2);
-    data.strCall = match.group(3);
-    data.strMap = match.group(4);
-    String sAddr = match.group(5).trim();
-    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS, sAddr, data);
-    data.strCross = getPadField();
-    data.strSupp = getLeft();
-    return true;
+    match = MASTER1.matcher(body);
+    if (match.matches()) {
+      setFieldList("UNIT CODE CALL MAP ADDR APT X CITY INFO");
+      data.strUnit = match.group(1);
+      data.strCode = match.group(2);
+      data.strCall = match.group(3);
+      data.strMap = match.group(4);
+      String sAddr = match.group(5).trim();
+      parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS, sAddr, data);
+      data.strCross = getPadField();
+      data.strSupp = getLeft();
+      return true;
+    }
+    
+    match = MASTER2.matcher(body);
+    if (match.matches()) {
+      setFieldList("UNIT MAP ADDR APT PLACE CITY CODE CALL ID");
+      data.strUnit = match.group(1).trim();
+      data.strMap = match.group(2);
+      String sAddr = match.group(3).trim();
+      data.strCode = match.group(4);
+      data.strCall = match.group(5);
+      data.strCallId = match.group(6);
+      
+      match = CITY_BRK_PTN.matcher(sAddr);
+      if (match.matches()) {
+        parseAddress(StartType.START_ADDR, FLAG_NO_CITY, match.group(1).trim(), data);
+        data.strPlace = getLeft();
+        data.strCity = match.group(2);
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_ANCHOR_END, sAddr, data);
+        data.strPlace = getPadField();
+      }
+      return true;
+    }
+    return false;
   }
   
   @Override

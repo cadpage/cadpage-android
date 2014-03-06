@@ -25,7 +25,6 @@ Npgvir911 gvpxrgf
 2014021510000156  Arrqf UGZY cnefre
 2014021610000252  AUTensgbaPbhagl qbar
 2014022610000457  Arrqf UGZY cnefre
--2014022610001072  YNJrfgOngbaEbhtrCnevfu jbexf
 ---- C4 --------------------------------------------------------
 2012120510000169  ZBZbargg qbar
 2013012010000024  BUJnfuvatgbaPbhagl qbar
@@ -43,10 +42,9 @@ Npgvir911 gvpxrgf
 2014011010000658  Rapbqrq nggnpurq svyr
 2014011710000421  PNUnasbeq (QvfcngpuN20Cnefre fhopynff)
 2014011710000458  Nggnpurq rapbqrq svyr
-+2014011710000691
+2014011710000691  Ab qngn
 2014021210000232  ZBWnfcrePbhagl svkrq
 2014022510000539  Dhrorp qvfgevpg - arrq zber pnyyf naq ybgf bs uryc
--2014022610000841  JVBmnhxrrPbhagl jbexf <<
 ---- C3 -------------------------------------------------------
 2013022010000335  ALNyonalPbhaglP (Zretr jvgu BUYvpxvatPbhagl)
 2013022010000381  FQGhearePbhagl (Trareny jbexvat - pnyy ibyhzr zvavfphyr)
@@ -60,7 +58,6 @@ Npgvir911 gvpxrgf
 2013110710000316  CNLbexPbhaglN (vagreany N911 vffhrf)
 2014010510000239  APAnfuPbhagl svkrq
 2014011610000781  Ab qngn
--2014011610000816  ZFBxgvoorunPbhagl jbexf <<
 2014011710000805  AWZvqqyrfrkPbhaglO (bhgfbhepr)
 2014011710000878  JIUneevfbaPbhagl jbexf << 
 2014011710000912  Ubyq sbe zber qngn
@@ -71,15 +68,12 @@ Npgvir911 gvpxrgf
 2014012010000344  Arrqf UGZY cnefre
 2014012010000381  BUNhtynvmrPbhagl (bhgfbhepr)
 2014012410000702  PGOrgury (QvfcngpuN25Cnefre)
--2014020310000562  GKPbzovar jbexf <<
 2014022610000466  Jnvg n pbhcyr qnlf
-+2014022610000715
-+2014022610000742
--2014022610000546  BUSnvesvryqPbhagl jbexf <<?
--2014022610000715  ZBOneelPbhagl & ZBFgbarPbhagl jbexf <<
--2014022610000742  XFPbjyrlPbhagl jbexf <<
--2014022610000831  Trareny  jbexf nobhg nf jryy nf nalguvat jr pna qb :(
--2014022710001329  NYGnyynqrtnPbhagl (bhgfbhepr)
+2014022610000715  ZBOneelPbhagl & ZBFgbarPbhagl jbexf <<
+2014022610000742  XFPbjyrlPbhagl jbexf <<
+2014022610000831  Trareny  jbexf nobhg nf jryy nf nalguvat jr pna qb :(
+2014022710001329  NYGnyynqrtnPbhagl (bhgfbhepr)
+2014022410000639  JNJnyynJnyynPbhagl (Fnenu)
 -----------------------------------------------------------
 2013120310000036  Arrqf na UGZY cnefre
 2014022210000017  AUUbyyvf (QvfcngpuN16/QvfcngpuN32) fhopynff
