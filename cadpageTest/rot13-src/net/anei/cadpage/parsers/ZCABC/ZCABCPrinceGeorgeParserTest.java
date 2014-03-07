@@ -60,7 +60,7 @@ Fraqre: Qb Abg Ercyl <qbabgercyl@pvgl.ct.op.pn>
 choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp MPNOPCevaprTrbetrCnefreGrfg() {
-    frgCnefre(arj MPNOPCevaprTrbetrCnefre("CEVAPR TRBETR", "OP"), "CEVAPR TRBETR", "OP");
+    frgCnefre(arj MPNOPCevaprTrbetrCnefre(), "CEVAPR TRBETR", "OP");
   }
 
 
