@@ -9,30 +9,29 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class ILDuPageCountyBParser extends FieldProgramParser {
   
+  private static final Pattern BOX2_PTN = Pattern.compile("/BOX CARD# +- +(\\d+)/(\\d{2}[A-Z]?)/");
+  
 
   public ILDuPageCountyBParser() {
     super(CITY_LIST, "DUPAGE COUNTY", "IL",
         "ID DATE/d TIME ( MUTUAL_AID SKIP MACALL SKIP MAMAP MAINFO MACROSS? "
 +                           "|"
-+                       " CALL ADDR CITY ( BOX X/Z+? MAP! "
-+                                           "|"
++                       " CALL ADDR CITY? ( BOX X/Z+? MAP! "
++                                            "|"
 +                                        " PLACE BOX X/Z+? MAP! "
 +                                            "|"
 +                                        " PLACE X/Z X/Z MAP! "
 +                                            "|"
-+                                        " X/Z X/Z BOX2 MAP2 "
++                                        " X ( X/Z MAP | MAP | ) "
 +                                            "|"
-+                                        " X X/Z? ( MAP "
-+                                                     "|"
-+                                                 " BOX2 MAP2 ) "
++                                        " PLACE X/Z MAP! "
++                                            "|"
++                                        " PLACE MAP! "
 +                                            "|"
 +                                        " MAP! "
 +                                            "|"
-+                                        " PLACE X/Z+? ( MAP! "
-+                                                         "|"
-+                                                      " BOX2 MAP2 ) "
 +                                     " ) "
-+                        " ) "
++                     ")"
 +       " INFO+"
         );
      
@@ -47,6 +46,9 @@ public class ILDuPageCountyBParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     // Remove any \n in text body
     body = body.replace("\n", "");
+    
+    // There is one slash we want to protect as part of the data field
+    body = BOX2_PTN.matcher(body).replaceFirst("/BOX CARD# - $1%$2/");
 
     // Split body on / and call parseFields()
     return parseFields(body.split("/"), data);
@@ -54,18 +56,18 @@ public class ILDuPageCountyBParser extends FieldProgramParser {
 
   @Override
   public Field getField(String name) {
-    if (name.equals("MACALL")) return new MutualAidCallField();
-    if (name.equals("BOX2")) return new BoxField("BOX CARD# +- +(.*)", true);
-    if (name.equals("MAP2")) return new MapField("\\d{2}[A-Z]?", true);
-    if (name.equals("MUTUAL_AID")) return new CallField("MUTUAL AID", true);
-    if (name.equals("MAMAP")) return new MapField("[A-Z]+\\d+", true);
-    if (name.equals("MAINFO")) return new MutualAidInfoField();
-    if (name.equals("MACROSS")) return new CrossField("(?i)CROSS +(.*)", true);
     if (name.equals("ID")) return new IdField("\\d{9}", true);
     if (name.equals("DATE")) return new DateField("\\d\\d?\\-\\d\\d\\-\\d\\d", true);
     if (name.equals("TIME")) return new TimeField("\\d\\d\\:\\d\\d\\:\\d\\d", true);
-    if (name.equals("BOX")) return new BoxField("B\\d{3}", true);
-    if (name.equals("MAP")) return new MapField("F\\d{3}", true);
+    if (name.equals("MACALL")) return new MutualAidCallField();
+    if (name.equals("MUTUAL_AID")) return new CallField("MUTUAL AID", true);
+    if (name.equals("MAMAP")) return new MapField("[A-Z]*\\d+", true);
+    if (name.equals("MAINFO")) return new MutualAidInfoField();
+    if (name.equals("MACROSS")) return new CrossField("(?i)CROSS +(.*)", true);
+    if (name.equals("BOX")) return new BoxField("[AB]\\d{3}", true);
+    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("MAP")) return new MyMapField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
@@ -95,6 +97,66 @@ public class ILDuPageCountyBParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return ("CALL ADDR APT CITY INFO");
+    }
+  }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = stripFieldEnd(addr, " INTERSECTN");
+    return addr;
+  }
+  
+  private static final Pattern PLACE_BOX_PTN = Pattern.compile("(.*?)((?: +[AB]\\d{3})+)");
+  private class MyPlaceField extends PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = PLACE_BOX_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1);
+        data.strBox = append(data.strBox, " ", match.group(2).trim());
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE BOX";
+    }
+  }
+  
+  private static final Pattern X_PTN = Pattern.compile("(?:\\d+ +)?\\b\\d+(?:ST|ND|RD|TH)|T\\d+|.* DN");
+  private class MyCrossField extends CrossField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (X_PTN.matcher(field).matches()) {
+        parse(field, data);
+        return true;
+      }
+      return super.checkParse(field, data);
+    }
+  }
+  
+  private static final Pattern MAP_PTN = Pattern.compile("F\\d{3}|\\d{2}|BOX CARD# +- +(.*)");
+  private class MyMapField extends MapField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = MAP_PTN.matcher(field);
+      if (!match.matches()) return false;
+      String fld = match.group(1);
+      if (fld != null) field = fld.replace('%', '/');
+      super.parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   
