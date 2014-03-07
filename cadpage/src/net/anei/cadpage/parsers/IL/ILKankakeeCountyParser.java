@@ -14,7 +14,7 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
   private static final Pattern HOUSE_SLASH_PTN = Pattern.compile("^\\d+(/)[^ ]");
   
   private static final Pattern MASTER_PTN1 = Pattern.compile("([A-Z0-9 ]+?)  +(.*?)(?: +(\\d{4}-\\d{8}))?");
-  private static final Pattern PLACE_CITY_BRK_PTN = Pattern.compile("\\b([A-Z]+)([A-Z][a-z]+)\\b");
+  private static final Pattern PLACE_CITY_BRK_PTN = Pattern.compile("\\b([A-Z0-9]+)([A-Z][a-z]+)\\b");
   private static final Pattern SRC_PTN = Pattern.compile("(Aroma Fire|Bourbonnais Fire|Herscher Fire|K3 Twp Fire|Manteno Fire|Momence Fire|Saline/Limestone Fire|Otto Fire|Saline/Limestone Fire|St.Anne Fire|Station #\\d+) +(.*)");
   
   public ILKankakeeCountyParser() {
@@ -133,6 +133,21 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
     
     "KANKAKEE COUNTY",
     
-    "WILMINGTON"
+    "WILMINGTON",
+    
+    // Ford County
+    "KEMPTON",
+    
+    // Grundy County
+    "BRACEVILLE",
+    
+    // Iroquois County
+    "BEAVERVILLE",
+    
+    // Kankakee County
+    "CABERY",
+    
+    // Will County
+    "BRAIDWOOD"
   };
 }
