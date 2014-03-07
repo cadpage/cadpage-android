@@ -21,7 +21,7 @@ public class MDGarrettCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "garrettco911@garrettcounty.org";
+    return "garrettco911@garrettcounty.org,garrettcounty911@gc911.org";
   }
   
   @Override
