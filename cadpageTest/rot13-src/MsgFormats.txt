@@ -24,7 +24,7 @@ Npgvir911 gvpxrgf
 2014020710000788  XFErabPbhagl qbar
 2014021510000156  AWZreprePbhaglO (bhgfbhepr-UGZY)
 2014021610000252  AUTensgbaPbhagl qbar
-2014022610000457  XLUneqvaPbhaglP (bhgfbhepr-UGZY)
+-2014022610000457  XLUneqvaPbhaglP (bhgfbhepr-UGZY)
 ---- C4 --------------------------------------------------------
 2012120510000169  ZBZbargg qbar
 2013012010000024  BUJnfuvatgbaPbhagl qbar
@@ -42,7 +42,7 @@ Npgvir911 gvpxrgf
 2014011010000658  Rapbqrq nggnpurq svyr
 2014011710000421  PNUnasbeq (QvfcngpuN20Cnefre fhopynff)
 2014011710000458  Nggnpurq rapbqrq svyr
-2014011710000691  Ab qngn
+-2014011710000691  Ab qngn
 2014021210000232  ZBWnfcrePbhagl svkrq
 2014022510000539  Dhrorp qvfgevpg - arrq zber pnyyf naq ybgf bs uryc
 ---- C3 -------------------------------------------------------
@@ -68,12 +68,13 @@ Npgvir911 gvpxrgf
 2014012010000344  Ubyq sbe zber qngn
 2014012010000381  BUNhtynvmrPbhagl (bhgfbhepr)
 2014012410000702  PGOrgury (QvfcngpuN25Cnefre)
++2014022410000639
 2014022610000466  Jnvg n pbhcyr qnlf
 2014022610000715  ZBOneelPbhagl & ZBFgbarPbhagl jbexf <<
-2014022610000742  XFPbjyrlPbhagl jbexf <<
-2014022610000831  Trareny  jbexf nobhg nf jryy nf nalguvat jr pna qb :(
-2014022710001329  NYGnyynqrtnPbhagl (bhgfbhepr)
-2014022410000639  JNJnyynJnyynPbhagl (Fnenu)
+-2014022610000742  XFPbjyrlPbhagl jbexf <<
+-2014022610000831  Trareny  jbexf nobhg nf jryy nf nalguvat jr pna qb :(
+-2014022710001329  NYGnyynqrtnPbhagl (bhgfbhepr)
+-2014022410000639  JNJnyynJnyynPbhagl (Fnenu)
 -----------------------------------------------------------
 2014030610000037  ZBSenaxyvaPbhagl (bhgfbhepr-UGZY)
 2013120310000036  Arrqf na UGZY cnefre
@@ -7931,7 +7932,7 @@ U2N, PDEH NAQ CSQ; 409 ZVYY PEX EQ; PEBFF FG OBJZNA EQ; 31 LBS, UNIVAT FRVMHERF
 u2 pbeinyyvf deh cvarfqnyr deh; 358 furnszna perrx eq; 64lbs frirer yrt cnva
 cisq vasbezngvba cntr vasbezngvba cntr bayl ybj natyr erfphr genvavat gbavtug ng gur sver unyy ng 7:00
 **********************************************************
-2014022510000548 (QvfcngpuFbhgureaCnefre - Fnenu)
+2014022510000548 (QvfcngpuFbhgureaCnefre - Fnenu-qhavg)
 Qneyvatgba Pbhagl, FP
 
 Pbagnpg: Npgvir911
