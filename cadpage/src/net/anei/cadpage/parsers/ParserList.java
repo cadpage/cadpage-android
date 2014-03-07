@@ -939,6 +939,7 @@ public class ParserList {
               ,"VAWashingtonCounty"             ,"Washington County, VA"
               ,"VAWaynesboro"                   ,"Waynesboro, VA"
               ,"VAWinchester"                   ,"Winchester, VA"
+              ,"VAWiseCounty"                   ,"Wise County, VA"
           ),
           new ParserCategory("Washington"
               ,"WAClarkCounty"                  ,"Clark County, WA"
@@ -989,6 +990,7 @@ public class ParserList {
           ),
           new ParserCategory("British Columbia, CA"
               ,"ZCABCMidIslandRegion"           ,"Mid-Island Region, BC"
+              ,"ZCABCPrinceGeorge"              ,"Prince George, BC"
           ),
           new ParserCategory("Ontario, CA"
               ,"ZCAONMississauga"               ,"Mississauga, ON"

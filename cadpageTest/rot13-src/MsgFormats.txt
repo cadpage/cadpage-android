@@ -4957,6 +4957,11 @@ Qvfcngpu2:ERFCBAQ FRVMHERF 14 SEBAGVRE EVQTR PG, NC1302 FNEF 1
 Qvfcngpu2:ZIP, URNQ BA PBYYVFVBA ZNVA-EBFFRE-OEBNQ
 Qvfcngpu:ERFCBAQ - 2AQ PNYY - PURFG CNVA - 1142 ARJ UBCR EQ, NC3
 ***************************************************************************
+Jvfr Pbhagl, IN (INJvfrPbhaglCnefre) 
+(Zrffntr sebz UvcYvax) FERZ\aURNEG CEBOYRZ\a6915 PNARL EVQTR EQ\a842R\aFEEF\aJVYZN YNETR VF UNIVAT GEBHOYR OERNGUVAT NAQ GHEAVAT JUVGR  UNIRVAT PURFG CNVA
+(Zrffntr sebz UvcYvax) PJRZ\aFRVMHER\a187 G T OVFR QE\a267R\aPJRZF\a58 LBZ CBFF FRVMHER. WNPXVR YYLBQ WBUAFBA. ZNLOR FGEBXR. ARIRE UNQ BAR ORSBER\aUR'F ABG ZBIVAT. ABG ERNYYL PBAFVBHF. UNIVAT N UNEQ GVZR OERNGUVAT. ARIRE UNQ N\aFGEBXR ORSBER RVGURE. UR VF QVNORGVP\aQBA'G UNI
+(Zrffntr sebz UvcYvax) FERZ\aNYGRERQ YBP\a5387 QE ENYCU FGNAYRL UJL\a256R\aFERZ\a33LB SRZNYR UNIVAT NYG YBP NAQ FUR VF GNYXVAT BHG BS URE URNQ NAQ GUNG FUR QBRF\aARRQ ZRAGNY URNYGU ... \a\a\aGuh Sro 20 18 22 53 RFG 2014 PBAGNPGRQ JVFR PBHAGL GB CNTR BHG FE
+***************************************************************************
 Pynex Pbhagl, JN (JNPynexPbhaglCnefre)
 PERFN YBP: 3615 AR RIRERGG FG PNZ ZNC: 1302 BCF:   FRVMHER FHO GLCR: N1 CEV: 4 GVZR: 18:51:00 RI#: 12166142 NYNEZ: 1  Qvfc: R41,R91,Z41
 PERFN YBP: 1315 AR 310GU NIR PYX ZNC: 2430 BCF:   CHOYVP NFFVFG/FREIVPR PNYY FHO GLCR: OH CEV: 4 GVZR: 07:42:36 RI#: 12166548 NYNEZ: 1  Qvfc: FD91
@@ -5093,27 +5098,32 @@ Pnazber, NO, Pnanqn (MPNNOPnazberCnefre)
 (Evc & Eha) 07:55CZ PNYY 31q01 NG 7 nir & 7 fg, pnazber havba unyy pnazber, pnazber
 (Evc & Eha) 10:15NZ PNYY 52o01 NG 908 ynjerapr_tenffv eqtr, pnazber
 ***************************************************************************
-Erq Qrre Pbhagl, NO, PN (MPNNOErqQrrePbhaglCnefre)
+Erq Qrre Pbhagl, NO, Pnanqn (MPNNOErqQrrePbhaglCnefre)
 (Vapvqrag Zrffntr) Qngr: 2012-06-02 13:02:11\aGlcr: TENFF - 2.3 Tenff/ Oehfu/ Sberfg\aYbpngvba: Haxabja Ybpngvba - Pnyy Qvfcngpu\aYngvghqr: 52.38667500\aYbatvghqr: -113.81778000
 (Vapvqrag Zrffntr) Qngr: 2012-06-02 13:02:11\aGlcr: TENFF - 2.3 Tenff/ Oehfu/ Sberfg\aYbpngvba: 1 OYNPXSNYQF, GBJA BS, OYNPXSNYQF\aHavgf Erfcbaqvat: OYXC4, OYXC2, OYXG1, OYXP
 (Vapvqrag Zrffntr) Qngr: 2012-06-04 01:21:42\aGlcr: NYNEZF - 2.6 Nynezf\aYbpngvba: 7 TERLFGBAR QE, OYNPXSNYQF EHENY\aHavgf Erfcbaqvat: OYXC1, OYXC2, OYXE3, OYXP, OYXG1
 ***************************************************************************
-Zvq-Vfynaq Ertvba, OP, PN (MNOPZvqVfynaqErtvbaCnefre)
+Zvq-Vfynaq Ertvba, OP, Pnanqn (MNOPZvqVfynaqErtvbaCnefre)
 (Sver Qvfcngpu) ZBGBE IRUVPYR NPPVQRAG Onpx Eq / Elna Eq , Pbhegranl ,OP 04/04/2013 12:39:52
 (Sver Qvfcngpu) SVEFG NYNEZ - P 1141 Wbfuhn Cy , Pbhegranl ,OP 04/04/2013 10:27:02
 (Sver Qvfcngpu) NYNEZF 4640 Urnqdhnegref Eq , Pbhegranl ,OP 04/03/2013 10:50:32
 ***************************************************************************
-Zvffvffnhtn, BA, PN (MPNBAZvffvffnhtnCnefre)
+Cevapr Trbetr, OP, Pnanqn (MPNOPCevaprTrbetrCnefre) 
+(PNQ Vapvqrag Zrffntr) Qngr: 2014-02-25 13:08:43\aGlcr: SNYEZP\aNqqerff: 610 JNQR NIR, DHRFARY, OP\aYngvghqr: 52.96908\aYbatvghqr: -122.51647\aHavgf Erfcbaqvat: DAYTEC1
+(PNQ Vapvqrag Zrffntr) Qngr: 2014-02-24 05:17:30\aGlcr: FGS2\aNqqerff: 981 XVIV EQ, DHRFARY, OP\aYngvghqr: 52.96184\aYbatvghqr: -122.51911\aHavgf Erfcbaqvat: DAYTEC1
+(PNQ Vapvqrag Zrffntr) Qngr: 2014-02-23 04:37:51\aGlcr: FGS2\aNqqerff: 891 XVIV EQ, DHRFARY, OP\aYngvghqr: 52.96189\aYbatvghqr: -122.51974\aHavgf Erfcbaqvat: DAYTEC1, DAYQHP1
+***************************************************************************
+Zvffvffnhtn, BA, Pnanqn (MPNBAZvffvffnhtnCnefre)
  51-CV NPPVQRAG/\a PBASRQRENGVBA CL-ZT/ENGUOHEA EQ J-ZT  \aZnc:294      Gnp:3 \a C101 F101         \aK1:0 ENGUOHEA EQ J \aK2:0 FDHNER BAR QE \aVap#1232800 19:57:17 
 *YBPNGVBA PUNATR*\a 30 DHRRA FG R-ZT                       K1:28 URYRAR FG A   K2:28 RYVMNORGU FG AZnc:84       Gnp:3   22-PURFG CNVAF/URNEVap:#1232830         
 C116 GB ERCYNPR HAVG N105\aVA FGNGVBA 105\a7101 TBERJNL QE\a2012/09/12  03:42:03 
 ***************************************************************************
-Arj Fbhgu Jnyrf, Nhfgenvyvn (MNHArjFbhguJnyrfCnefre)
+Arj Fbhgu Jnyrf, Nhfgenyvn (MNHArjFbhguJnyrfCnefre)
 FAEJYP, ESN 9071-54, Svefganzr Fheanzr, 65 ZPPYRYYNAQ FG, JVYYBHTUOL, 0433 381 999, YTR OENAPU, 15Z HC GUERNG GB SNYY VA LNEQ.. PNYY 0242516111
 FAEJYP, ESN 9071-17, Svefganzr Fheanzr, 37 VAARF EBNQ TERRAJVPU, 9906 999, GERR SNYYRA & JRQTRQ BA 2 SRAPRF/FCYVG VA 3. PNYY 0242516111
 FAEJYP, ESN 9072-18, Svefganzr Fheanzr, 75 CNEX EBNQ ANERZOHEA, 9439 999, EBBS TNEQRA FURQ PBZR YBBFR NAQ GUERNG SNYY.. PNYY 0242516111
 ***************************************************************************
-Arj Fbhgu Jnyrf, Nhfgenvyvn (MNHArjFbhguJnyrfOCnefre)
+Arj Fbhgu Jnyrf, Nhfgenyvn (MNHArjFbhguJnyrfOCnefre)
 (09 Abirzore 2012 19:20:08 VAPVQRAG PNYY ...) 09 Abirzore 2012 19:20:08 VAPVQRAG PNYY JVAZNYRR - ERFCBAQ GB FGEHPGHER SVER, 74 ZHEH NIR, JVAZNYRR.
 (22 Bpgbore 2012 05:19:47 VAPVQRAG PNYY J...) 22 Bpgbore 2012 05:19:47 VAPVQRAG PNYY JVAZNYRR - ERFCBAQ GB PNE NYVTUG
 (09 Bpgbore 2012 10:20:50 VAPVQRAG PNYY -...) 09 Bpgbore 2012 10:20:50 VAPVQRAG PNYY - ERFCBAQ GB ZIN URNGURE EQ K UNJXRFOHEL EQ JVAZNYRR
