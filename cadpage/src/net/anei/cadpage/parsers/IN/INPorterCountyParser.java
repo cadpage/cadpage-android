@@ -16,7 +16,7 @@ public class INPorterCountyParser extends FieldProgramParser {
   
   public INPorterCountyParser() {
     super(CITY_CODES, "PORTER COUNTY", "IN",
-          "( SELECT/1 DISPATCH:CODE! CALL+? ( PLACE  CITY/Z AT CITY | ADDR/Z CITY ) PLACE? ( X1 | INT ) PLACE? SRC MAP MAPPAGE XXXX INFO+ Unit:UNIT! UNIT+ | " +
+          "( SELECT/1 DISPATCH:CODE! CALL+? ( PLACE  CITY/Z AT CITY | ADDR/Z CITY ) PLACE? ( X1 | INT ) PLACE? SRC MAP MAPPAGE XXXX! INFO+ Unit:UNIT UNIT+ | " +
            "ID? CODE ( ADDR1/Z ADDR2 | ADDR3! ) CROSS:X2? GRP:UNIT? PRI:PRI comment:INFO )");
   }
   

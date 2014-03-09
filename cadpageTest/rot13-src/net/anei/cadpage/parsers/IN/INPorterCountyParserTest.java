@@ -27,10 +27,12 @@ Pbagnpg: sverzrqvp3087 <sverzrqvp3087@tznvy.pbz>
 Fhowrpg:PNQ Cntr\a\a#110120370 - \aS5:\aOEHFU/TENFF SVER @ R RATRY QE / PNVA QE,JTG\a-  < 3900/ 1>\aTEC:JS\aCEV:1\apbzzrag: BCRA OHEA VA NERN/
 Fhowrpg:PNQ Cntr\a\a#110127635 - \aS35:\aZVFP. NFG RZF @ CVYBG GENIRY PRAGRE,JTG\a- ng 4105 R ZBEGUYNAQ QE,JTG\aPEBFF: arne QRNQ RAQ\aTEC:JS\aC
 Fhowrpg:PNQ Cntr\a\a#110137072 - \aS35C1:\aRZF NFG-C1 @ 429 R FG EQ 2,JTG\aPEBFF: ogja A 400 R naq A 450 R\aTEC:JS\aCEV:1\apbzzrag: Zrqvpny CebD
+Fhowrpg:PNQ Cntr\a\a#120110035 - \aS51:\aNYNEZ:FZBXR/SVER/PB @ 463 R HF UJL 30,JTG\aPEBFF: ogja A 450 R naq A 575 R\aTEC:JS\aCEV:1\apbzzrag: NPG\e
 
 Pbagnpg: "Xhegm, Revp [XhegmR@pbzpnfg.arg] " <XhegmR@pbzpnfg.arg>
 Fraqre: cpqvfc@cbegrepb-cf.bet
 Fhowrpg:PNQ Cntr\a\a#110166809 - \aS35C1:\aRZF NFG-C1 @ 53 NFCRA EQ,BTQ\aPEBFF: ogja OVGGREFJRRG YA naq BTQRA EQ\aTEC:BS\aCEV:1\apbzzrag: Zrqvpn
+Fhowrpg:Cbegre FZGC Cebivqre\aQVFCNGPU:SR26, FVPX CRE.(FCRP.QVNT), 18 QRRE GEY, BTQ, ogja QVNAN EQ naq QVNAN EQ, BS, CE2, znccntr,KKKK, Z\a
 
 Pbagnpg: Tertbel Nqnve <sverzrqvp3087@tznvy.pbz>
 Fraqre: cpqvfc@cbegrepb-cf.bet
@@ -43,9 +45,6 @@ Fraqre: cpqvfc@cbegrepb-cf.bet
 Pbagnpg: Zvpunry Mnccvn <zx.mnccvn@tznvy.pbz>
 Fraqre: cpqvfc@cbegrepb-cf.bet
 (PNQ Cntr) #120065003 - \aS35C1:\aRZF NFG-C1 @ 1118 JVAGRE CNEX QE,YOG\aPEBFF: ogja NFCRA QE naq FHA INYYRL QE\aTEC:YS\aCEV:1\apbzzrag: Zrqvpny CebDN erpbzzraqf qv
-
-Pbagnpg: Pbagnpg: sverzrqvp3087 <sverzrqvp3087@tznvy.pbz>
-Fhowrpg:PNQ Cntr\a\a#120110035 - \aS51:\aNYNEZ:FZBXR/SVER/PB @ 463 R HF UJL 30,JTG\aPEBFF: ogja A 450 R naq A 575 R\aTEC:JS\aCEV:1\apbzzrag: NPG\e
 
 Pbagnpg: Puevfgbcure Qvnm <pqvnm@ybsfsver.pbz>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
@@ -565,8 +564,13 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:CZ",
         "CEV:1",
         "VASB:PNE IF CVPXHC, PNE VF VA QVGPU");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgSverZrqvp3087() {
+    
 
-    qbGrfg("G10",
+    qbGrfg("G1",
         "Fhowrpg:PNQ Cntr\a\a#110120370 - \aS5:\aOEHFU/TENFF SVER @ R RATRY QE / PNVA QE,JTG\a-  < 3900/ 1>\aTEC:JS\aCEV:1\apbzzrag: BCRA OHEA VA NERN/",
         "VQ:110120370",
         "PBQR:S5",
@@ -577,7 +581,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "VASB:BCRA OHEA VA NERN/");
 
-    qbGrfg("G11",
+    qbGrfg("G2",
         "Fhowrpg:PNQ Cntr\a\a#110127635 - \aS35:\aZVFP. NFG RZF @ CVYBG GENIRY PRAGRE,JTG\a- ng 4105 R ZBEGUYNAQ QE,JTG\aPEBFF: arne QRNQ RAQ\aTEC:JS\aC",
         "VQ:110127635",
         "PBQR:S35",
@@ -588,7 +592,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:arne QRNQ RAQ",
         "HAVG:JS");
 
-    qbGrfg("G12",
+    qbGrfg("G3",
         "Fhowrpg:PNQ Cntr\a\a#110137072 - \aS35C1:\aRZF NFG-C1 @ 429 R FG EQ 2,JTG\aPEBFF: ogja A 400 R naq A 450 R\aTEC:JS\aCEV:1\apbzzrag: Zrqvpny CebD",
         "VQ:110137072",
         "PBQR:S35",
@@ -600,7 +604,30 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:JS",
         "CEV:1");
 
-    qbGrfg("G13",
+    qbGrfg("G4",
+        "(PNQ Cntr) #120065003 - \a" +
+        "S35C1:\a" +
+        "RZF NFG-C1 @ 1118 JVAGRE CNEX QE,YOG\a" +
+        "PEBFF: ogja NFCRA QE naq FHA INYYRL QE\a" +
+        "TEC:YS\a" +
+        "CEV:1\a" +
+        "pbzzrag: Zrqvpny CebDN erpbzzraqf qv",
+
+        "VQ:120065003",
+        "PBQR:S35",
+        "PNYY:RZF NFG-C1",
+        "NQQE:1118 JVAGRE CNEX QE",
+        "PVGL:Yvoregl Gjc",
+        "K:NFCRA QE naq FHA INYYRL QE",
+        "HAVG:YS",
+        "CEV:1");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRevpXhegm() {
+
+    qbGrfg("G1",
         "Fhowrpg:PNQ Cntr\a\a#110166809 - \aS35C1:\aRZF NFG-C1 @ 53 NFCRA EQ,BTQ\aPEBFF: ogja OVGGREFJRRG YA naq BTQRA EQ\aTEC:BS\aCEV:1\apbzzrag: Zrqvpn ",
         "VQ:110166809",
         "PBQR:S35",
@@ -611,7 +638,24 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:BS",
         "CEV:1");
 
-    qbGrfg("G14",
+    qbGrfg("G2",
+        "Fhowrpg:Cbegre FZGC Cebivqre\a" +
+        "QVFCNGPU:SR26, FVPX CRE.(FCRP.QVNT), 18 QRRE GEY, BTQ, ogja QVNAN EQ naq QVNAN EQ, BS, CE2, znccntr,KKKK, Z\a",
+
+        "PBQR:SR26",
+        "PNYY:FVPX CRE.(FCRP.QVNT)",
+        "NQQE:18 QRRE GEY",
+        "PVGL:Btqra Qharf",
+        "K:QVNAN EQ naq QVNAN EQ",
+        "FEP:BS",
+        "ZNC:CE2");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgTertbelNqnve() {
+
+    qbGrfg("G1",
         "Fhowrpg:PNQ Cntr\a\a" +
         "#120036045 - \a" +
         "S35:\a" +
@@ -631,8 +675,13 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:JS",
         "CEV:1",
         "VASB:PBZCYNVAV");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRZFZrqvp31() {
 
-    qbGrfg("G15",
+    qbGrfg("G1",
         "(PNQ Cntr) #120048030 - \a" +
         "R32:\a" +
         "HAX.CEBO.(ZNA QBJA) @ ZZ22,OUO\a" +
@@ -653,26 +702,13 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:CZ",
         "CEV:1",
         "VASB:V 94 JRFGOBHAQ 22 Z");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZvpunryMncvn() {
 
-    qbGrfg("G16",
-        "(PNQ Cntr) #120065003 - \a" +
-        "S35C1:\a" +
-        "RZF NFG-C1 @ 1118 JVAGRE CNEX QE,YOG\a" +
-        "PEBFF: ogja NFCRA QE naq FHA INYYRL QE\a" +
-        "TEC:YS\a" +
-        "CEV:1\a" +
-        "pbzzrag: Zrqvpny CebDN erpbzzraqf qv",
-
-        "VQ:120065003",
-        "PBQR:S35",
-        "PNYY:RZF NFG-C1",
-        "NQQE:1118 JVAGRE CNEX QE",
-        "PVGL:Yvoregl Gjc",
-        "K:NFCRA QE naq FHA INYYRL QE",
-        "HAVG:YS",
-        "CEV:1");
-
-    qbGrfg("G17",
+    qbGrfg("G1",
         "Fhowrpg:PNQ Cntr\a\a" +
         "#120110035 - \a" +
         "S51:\a" +
@@ -695,7 +731,7 @@ choyvp pynff VACbegrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgYnxrPbhagl() {
+  choyvp ibvq grfgPuevfgbcureQvnm() {
     
     frgQrsnhygf("YNXR PBHAGL", "VA");
 
