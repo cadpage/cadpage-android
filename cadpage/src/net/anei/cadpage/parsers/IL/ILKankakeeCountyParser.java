@@ -12,6 +12,7 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
   private static final Pattern MASTER_PTN2 = 
       Pattern.compile("(.+) Location: (.+) \\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d Incident #: *(.*)");
   private static final Pattern HOUSE_SLASH_PTN = Pattern.compile("^\\d+(/)[^ ]");
+  private static final Pattern ADDR_CALLBK_PTN = Pattern.compile("(.*?)[/ ]+CALLBK.*");
   
   private static final Pattern MASTER_PTN1 = Pattern.compile("([A-Z0-9 ]+?)  +(.*?)(?: +(\\d{4}-\\d{8}))?");
   private static final Pattern PLACE_CITY_BRK_PTN = Pattern.compile("\\b([A-Z0-9]+)([A-Z][a-z]+)\\b");
@@ -41,6 +42,8 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
       String sAddr = match.group(2);
       Matcher match2 = HOUSE_SLASH_PTN.matcher(sAddr);
       if (match2.find()) sAddr = sAddr.substring(0,match2.start(1)) + " " + sAddr.substring(match2.end(1));
+      match2 = ADDR_CALLBK_PTN.matcher(sAddr);
+      if (match2.matches()) sAddr = match2.group(1);
       parseAddress(StartType.START_PLACE, FLAG_START_FLD_NO_DELIM | FLAG_ANCHOR_END, sAddr, data);
       data.strCallId = match.group(3);
       
@@ -148,6 +151,7 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
     "CABERY",
     
     // Will County
-    "BRAIDWOOD"
+    "BRAIDWOOD",
+    "CUSTER PARK"
   };
 }

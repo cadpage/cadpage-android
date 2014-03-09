@@ -7,9 +7,9 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class ZCABCPrinceGeorgeParser extends FieldProgramParser { 
-  public ZCABCPrinceGeorgeParser(String defCity, String defState) {
-    super(CITY_LIST, defCity, defState,
-        "Date:DATETIME! Type:CALL! Address:ADDRCITY/S! Latitude:LAT Longitude:LONG Units_Responding:UNIT!");
+  public ZCABCPrinceGeorgeParser() {
+    super(CITY_LIST,  "PRINCE GEORGE", "BC",
+          "Date:DATETIME! Type:CALL! Address:ADDRCITY/S! Latitude:LAT Longitude:LONG Units_Responding:UNIT!");
   }
   
   @Override
