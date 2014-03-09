@@ -9,12 +9,7 @@ vzcbeg bet.whavg.Grfg;
 Pbagnpg: Npgvir911
 Ntrapl anzr: Eheny Zrgeb Nzohynapr 
 Ybpngvba: Gnpbzn, JN, Havgrq Fgngrf
-Fraqre: FFGVQ@hfnzbovyvgl.arg
-Fraqre: AZBBE@hfnzbovyvgl.arg
-Fraqre: UFXRY@hfnzbovyvgl.arg
-Fraqre: WXHYY@hfnzbovyvgl.arg
-Fraqre: ZWBUA@hfnzbovyvgl.arg
-Fraqre: FFGNAQRE@hfnzbovyvgl.arg
+Fraqre: @hfnzbovyvgl.arg
 
 EP:Wbo# 0042-N/ Eha# 4218/ jnf Pnapryrq: Pnapry ba Fprar/PNYY:05:59/QVFC:06:01/RAE:06:01/NGF:06:10/PKY:06:12  [50]
 EP:Tb gb cbfg Cvrepr Pbhagl Urnqdhnegref  [49]
