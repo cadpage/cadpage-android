@@ -223,7 +223,7 @@ Fraqre: "WOVGGRE@PVGLBSSRFGHF.BET" <WOVGGRE@PVGLBSSRFGHF.BET>
 choyvp pynff ZBSrfghfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZBSrfghfOCnefreGrfg() {
-    frgCnefre(arj ZBSrfghfOCnefre(), "SRGHF", "ZB");
+    frgCnefre(arj ZBSrfghfOCnefre(), "SRFGHF", "ZB");
   }
 
   @Grfg
