@@ -5,6 +5,8 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
+Ivyyntr, GK
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ivyyntr Sver Qrcnegzrag
 Ybpngvba: Ubhfgba, GK, Havgrq Fgngrf
@@ -109,12 +111,7 @@ Fraqre: "=?HGS-8?O?IxMRVRSfMKW0?=" <pbagnpg@ivyyntrsver.bet>
 choyvp pynff GKIvyyntrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp GKIvyyntrCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "IVYYNTR", "GK");
-  }
-  
-  @Grfg
-  choyvp ibvq grfgCnefre() {
-
+    frgCnefre(arj GKIvyyntrCnefre(), "IVYYNTR", "GK");
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
