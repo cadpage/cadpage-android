@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03032014</string>
-  <string name="release_version">v1.7.10</string>
+  <string name="release_date">0312014</string>
+  <string name="release_version">v1.7.11</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
 New Locations:\n
-Coral Springs, FL\n
-Miame-Dade County, FL\n
-Ease Feliciana Parish, LA\n
-Anne Arundel County, MD (alt)\n
-Crawford County, MO (alt)\n
-Bergen County, NJ\n
-Combine, TX\n
-Williamson County, TN (alt)\n
-Gainesville, TX\n
-Harrison County, WV\n
-Lincoln County, WV\n
-OZaukee County, WI\n
+Cowley County, KS\n
+West Baton Rouge Parish, LA\n
+Oktibbeha County, MS\n
+Ravalli County, MT\n
+Middlesex County, NJ\n
+Auglaize County, OH\n
+Giliam County, OR\n
+Sherman County, OR\n
+Elko County, NV\n
+Village, TX\n
+Wise County, VA\n
+Prince George County, BC\n
 \n
 Location Parsing Fixes:\n
-Kenton County, KY\n
-Carroll County, MD\n
-Greene County, MO\n
-Macon County, NC\n
-Nash County, NC\n
-Fairfield County, OH\n
-Hamilton County, OH\n
-Highland County, OH\n
-Lawrence County, OH\n
-Garfield County, OK\n
-Armstrong County, PA\n
-Pennington County, SD\n
-Montgomery County, TX\n
-Rockbridge County, VA\n
+Citrus County, FL\n
+DuPage County, IL\n
+Kannkakee County, IL\n
+Hancock County, IN\n
+Porter County, IN\n
+Garrett County, MD\n
+Hoke County, NC\n
+Cuyahoga County, OH\n
+Portage County, OH\n
+Cumberland County, PA\n
+Lackawanna County, PA\n
+Prince Edward County, VA\n
+Grant County, WA\n
   </string>
 </resources>
   
