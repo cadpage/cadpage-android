@@ -175,7 +175,8 @@ public class ManageParsers {
         "NJJCMCEMSHudCEN",    "NJJCMCEMSJerseyCity",    // 12/27/2013
         "CTLitchfieldCountyB","CTNewMilford",           // 12/28/2013
         "TXMontgomeryCountyC","TXMontgomeryCountyB",    // 02/26/2014
-        "VALexingtonRockbridgeCounty", "VARockbridgeCounty"   //03/05/2014
+        "VALexingtonRockbridgeCounty", "VARockbridgeCounty",   //03/05/2014
+        "MDHarford",          "MDHarfordCounty"         // 03/09/2014
         
   });
 

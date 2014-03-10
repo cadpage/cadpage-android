@@ -4,19 +4,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
 
-public class MDHarfordParser extends DispatchBParser {
-  
-  private static final String DEF_CITY = "HARFORD";
-  private static final String DEF_STATE = "MD";
-  
-  private static final String[] CITY_LIST =new String[]{
-    "ABERDEEN", "BEL AIR", "HAVRE DE GRACE", "JOPPA", "ABINGDON", "BELCAMP",
-    "LEVEL", "CHURCHVILLE", "DARLINGTON", "WHITEFORD", "JARRETTSVILLE", "STREET",
-    "HICKORY", "FALLSTON", "JOPPATOWNE", "FAWN GROVE", "DELTA", "PYLESVILLE", 
-    "WHITE HALL", "FOREST HILL"};
+public class MDHarfordCountyParser extends DispatchBParser {
 
-  public MDHarfordParser() {
-    super(CITY_LIST, DEF_CITY, DEF_STATE);
+  public MDHarfordCountyParser() {
+    super(CITY_LIST, "HARFORD COUNTY", "MD");
   }
   
   public String getFilter() {
@@ -68,4 +59,27 @@ public class MDHarfordParser extends DispatchBParser {
     }
     return true;
   }
+  
+  private static final String[] CITY_LIST =new String[]{
+    "ABERDEEN", 
+    "BEL AIR", 
+    "HAVRE DE GRACE", 
+    "JOPPA", 
+    "ABINGDON", 
+    "BELCAMP",
+    "LEVEL", 
+    "CHURCHVILLE", 
+    "DARLINGTON", 
+    "WHITEFORD", 
+    "JARRETTSVILLE", 
+    "STREET",
+    "HICKORY", 
+    "FALLSTON", 
+    "JOPPATOWNE", 
+    "FAWN GROVE", 
+    "DELTA", 
+    "PYLESVILLE", 
+    "WHITE HALL", 
+    "FOREST HILL"
+  };
 }

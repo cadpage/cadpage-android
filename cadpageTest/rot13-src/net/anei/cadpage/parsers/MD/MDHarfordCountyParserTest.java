@@ -1,7 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.ZQ;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.ZQ.ZQUnesbeqCnefre;
+vzcbeg arg.narv.pnqcntr.cnefref.ZQ.ZQUnesbeqPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -76,10 +76,10 @@ Fraqre: ep.95@p-zft.arg
 
  */
 
-choyvp pynff ZQUnesbeqOCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff ZQUnesbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp ZQUnesbeqOCnefreGrfg() {
-    frgCnefre(arj ZQUnesbeqCnefre(), "UNESBEQ", "ZQ");
+  choyvp ZQUnesbeqPbhaglCnefreGrfg() {
+    frgCnefre(arj ZQUnesbeqPbhaglCnefre(), "UNESBEQ PBHAGL", "ZQ");
   }
   
   @Grfg
@@ -511,6 +511,6 @@ choyvp pynff ZQUnesbeqOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ZQUnesbeqOCnefreGrfg().trarengrGrfgf("G1");
+    arj ZQUnesbeqPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
