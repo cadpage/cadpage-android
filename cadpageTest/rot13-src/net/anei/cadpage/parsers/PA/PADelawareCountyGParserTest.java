@@ -115,14 +115,7 @@ Fraqre: nqzva@fcevatsvryqrzf.pbz
 choyvp pynff CNQrynjnerPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp CNQrynjnerPbhaglTCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "QRYNJNER PBHAGL", "CN");
-  }
-  
-  
-  @Grfg
-  choyvp ibvq grfgCnefre() {
-
- 
+    frgCnefre(arj CNQrynjnerPbhaglTCnefre(), "QRYNJNER PBHAGL", "CN");
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
