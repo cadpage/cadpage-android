@@ -490,6 +490,7 @@ public class ParserList {
               ,"MTFlatheadCounty"               ,"Flathead County, MT"
               ,"MTLewisAndClarkCounty"          ,"Lewis &amp; Clark County, MT"
               ,"MTParkCounty"                   ,"Park County, MT"
+              ,"MTRavalliCounty"                ,"Ravalli County, MT"
           ),
           new ParserCategory("Nevada"
               ,"NVClarkCounty"                  ,"Clark County, NV"
@@ -512,6 +513,7 @@ public class ParserList {
               ,"NJHunterdonCounty"              ,"Hunterdon County, NJ"
               ,"NJMercerCounty"                 ,"Mercer County, NJ"
               ,"NJMICOM"                        ,"MICCOM (Northern NJ), NJ"
+              ,"NJMiddlesexCounty"              ,"Middlesex County, NJ"
               ,"NJMonmouthCounty"               ,"Monmouth County, NJ"
               ,"NJMorrisCounty"                 ,"Morris County, NJ"
               ,"NJNeptune"                      ,"Neptune, NJ"
@@ -660,6 +662,7 @@ public class ParserList {
           new ParserCategory("Ohio"
               ,"OHAshtabulaCounty"              ,"Ashtabula County, OH"
               ,"OHAthensCounty"                 ,"Athens County, OH"
+              ,"OHAuglaizeCounty"               ,"Auglaize County, OH"
               ,"OHBrownCounty"                  ,"Brown County, OH"
               ,"OHButlerCounty"                 ,"Butler County, OH"
               ,"OHCarrollCounty"                ,"Carroll County, OH"
