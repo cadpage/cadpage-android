@@ -5,7 +5,7 @@ import java.util.Properties;
 import net.anei.cadpage.parsers.dispatch.DispatchA22Parser;
 
 /*
-Hood River County, OR
+Sherman County, OR
  */
 
 public class ORShermanCountyParser extends DispatchA22Parser {

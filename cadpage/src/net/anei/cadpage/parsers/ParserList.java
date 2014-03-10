@@ -494,6 +494,7 @@ public class ParserList {
           ),
           new ParserCategory("Nevada"
               ,"NVClarkCounty"                  ,"Clark County, NV"
+              ,"NVElkoCounty"                   ,"Elko County, NV"
           ),
           new ParserCategory("New Hampshire"
               ,"NHGraftonCounty"                ,"Grafton County, NH"
@@ -730,6 +731,7 @@ public class ParserList {
               ,"ORColumbiaCounty"               ,"Columbia County, OR"
               ,"ORCrookCounty"                  ,"Crook County, OR"
               ,"ORDeschutesCounty"              ,"Deschutes County, OR"
+              ,"ORGilliamCounty"                ,"Gilliam County, OR"
               ,"ORHoodRiverCounty"              ,"Hood River County, OR"
               ,"ORJacksonCounty"                ,"Jackson County, OR"
               ,"ORJeffersonCounty"              ,"Jefferson County, OR"
@@ -742,6 +744,7 @@ public class ParserList {
               ,"ORLinnCounty"                   ,"Linn County, OR"
               ,"ORMarionCounty"                 ,"Marion County, OR"
               ,"ORMultnomahCounty"              ,"Multnomah County, OR"
+              ,"ORShermanCounty"                ,"Sherman County, OR"
               ,"ORTillamookCounty"              ,"Tillamook County, OR"
               ,"ORWashingtonCounty"             ,"Washington County, OR"
               ,"ORYamhillCounty"                ,"Yamhill County, OR"
@@ -881,6 +884,7 @@ public class ParserList {
               ,"TXSeguin"                       ,"Seguin, TX"
               ,"TXTarrantCounty"                ,"Tarrent County, TX"
               ,"TXTravisCounty"                 ,"Travis County, TX"
+              ,"TXVillage"                      ,"Village, TX"
               ,"TXWebster"                      ,"Webster, TX"
               ,"TXWilliamsonCounty"             ,"Williamson County, TX"
               ,"TXWylie"                        ,"Wylie, TX"

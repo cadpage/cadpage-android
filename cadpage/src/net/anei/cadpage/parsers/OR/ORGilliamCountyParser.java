@@ -5,7 +5,7 @@ import java.util.Properties;
 import net.anei.cadpage.parsers.dispatch.DispatchA22Parser;
 
 /*
-Hood River County, OR
+Gilliam County, OR
  */
 
 public class ORGilliamCountyParser extends DispatchA22Parser {

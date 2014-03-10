@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.TX;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 /**
- * Bell County, TX
+ * Village, TX
  */
 public class TXVillageParser extends FieldProgramParser {
   
