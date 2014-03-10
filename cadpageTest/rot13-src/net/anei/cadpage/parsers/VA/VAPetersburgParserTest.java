@@ -114,9 +114,9 @@ PNQ:SLV: ;CREFQB;R JLGUR/95 BA ENZC
 
 */
 
-choyvp pynff INFbhgufvqrIRPCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff INCrgrefohetCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp INFbhgufvqrIRPCnefreGrfg() {
+  choyvp INCrgrefohetCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "", "IN");
   }
   
@@ -127,6 +127,6 @@ choyvp pynff INFbhgufvqrIRPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj INFbhgufvqrIRPCnefreGrfg().trarengrGrfgf("G1");
+    arj INCrgrefohetCnefreGrfg().trarengrGrfgf("G1");
   }
 }
