@@ -20,7 +20,7 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "donotreply@annapolis.gov";
+    return "donotreply@annapolis.gov,PrintManager";
   }
   
   @Override
@@ -105,7 +105,7 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern CALL_PTN = Pattern.compile("([A-Z0-9]+)-(.*)");
+  private static final Pattern CALL_PTN = Pattern.compile("([A-Z0-9]+)-(.*)", Pattern.CASE_INSENSITIVE);
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
@@ -227,9 +227,47 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "AN", "ANNAPOLIS",
-      "EP", "ANNAPOLIS",
-      "EW", "EDGEWATER",
-      "SP", "SERVERNA PARK"
+      "AN",   "ANNAPOLIS",
+      "AR",   "ARNOLD",
+      "BB",   "BEVERLY BEACH",
+      "BP",   "BROOKLYN PARK",
+      "CH",   "CHURCHTON",
+      "CM",   "CARROLLTON MANOR",
+      "CP",   "COLONIAL PARK",
+      "CR",   "CROFTON",
+      "CV",   "CROWNSVILLE",
+      "DK",   "DUNKIRK",
+      "DL",   "DEALE",
+      "DV",   "DAVIDSONVILLE",
+      "EP",   "EASTPORT",
+      "EW",   "EDGEWATER",
+      "FM",   "FORT MEADE",
+      "GB",   "GLEN BURNIE",
+      "GI",   "GIBSON ISLAND",
+      "GM",   "GAMBRILLS",
+      "GV",   "GALESVILLE",
+      "HA",   "HANOVER",
+      "HB",   "HIGHLAND BEACH",
+      "HS",   "HILLSMERE SHORES",
+      "HW",   "HARWOOD",
+      "JS",   "JESSUP",
+      "LH",   "LINTHICUM HEIGHTS",
+      "LO",   "LOTHIAN",
+      "LS",   "LAKE SHORE",
+      "MC",   "MARYLAND CITY",
+      "MPB",  "MOUNT PLEASANT BEACH",
+      "MV",   "MILLERSVILLE",
+      "OB",   "ORCHARD BEACH",
+      "OD",   "ODENTON RV RIVA",
+      "PA",   "PASADENA",
+      "RB",   "RIVIERA BEACH",
+      "SF",   "SHERWOOD FOREST",
+      "SP",   "SEVERNA PARK",
+      "SR",   "SOUTH RIVER",
+      "SS",   "SYLVAN SHORES",
+      "SV",   "SEVERN",
+      "TL",   "TRACEYS LANDING",
+      "UMB",  "UPPER MAGOTHY BEACH",
+      "WR",   "WEST RIVER"
   });
 }
