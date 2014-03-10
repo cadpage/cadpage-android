@@ -113,13 +113,7 @@ Fraqre: <PNQ@rugcq.pbz>
 choyvp pynff AWNgynagvpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp AWNgynagvpPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "NGYNAGVP PBHAGL", "AW");
-  }
-  
-  @Grfg
-  choyvp ibvq grfgCnefre() {
-
- 
+    frgCnefre(arj AWNgynagvpPbhaglCnefre(), "NGYNAGVP PBHAGL", "AW");
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
