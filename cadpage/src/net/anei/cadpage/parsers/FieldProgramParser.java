@@ -1394,13 +1394,13 @@ public class FieldProgramParser extends SmartAddressParser {
 
       int ndx = state.getIndex();
       Step lastStep = state.getLastStep();
+      
+      // Save the processed field index
+      fieldIndex = ndx;
 
       // Have we passed the end of the data stream
       //  and are not a select field, which doesn't need data to work
       if (ndx >= flds.length && !(field != null && field instanceof SelectField)) {
-        
-        // Yep, save the processed field index
-        fieldIndex = ndx;
         
         // If this is an END step, take the success link
         if (field instanceof EndField) {

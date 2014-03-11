@@ -12,7 +12,7 @@ public class NCDavieCountyParser extends DispatchA3Parser {
   
   public NCDavieCountyParser() {
     super(Pattern.compile("^911:Call ?#"), "DAVIE COUNTY", "NC",
-           "ID Address:ADDR! APT CH! City:CITY! ( INFO1 Type:CODE! CALL! INFO1 PH#:PHONE Units:UNIT | X/Z+? ( EMPTY Location:INFO1! Complaint:CODE% Description:CALL% Caller:NAME PH#:PHONE Units:UNIT | Type:X! X INFO1+ PH#:CODE% Units:CALL% IRA:NAME PHONE UNIT% INFO+ NARR:INFO ) ) INFO+");
+           "ID Address:ADDR! APT CH! City:CITY! ( INFO1 Type:CODE! CALL! INFO1 PH#:PHONE Units:UNIT | X/Z+? ( SKIP Location:INFO1! Complaint:CODE% Description:CALL% Caller:NAME PH#:PHONE Units:UNIT | Type:X! X INFO1+ PH#:CODE% Units:CALL% IRA:NAME PHONE UNIT% INFO+ NARR:INFO ) ) INFO+");
   }
   
   @Override
