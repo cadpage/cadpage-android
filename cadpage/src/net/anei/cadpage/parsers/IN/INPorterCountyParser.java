@@ -16,7 +16,7 @@ public class INPorterCountyParser extends FieldProgramParser {
   
   public INPorterCountyParser() {
     super(CITY_CODES, "PORTER COUNTY", "IN",
-          "( SELECT/1 DISPATCH:CODE! CALL+? ( PLACE  CITY/Z AT CITY | ADDR/Z CITY ) PLACE? ( X1 | INT ) PLACE? SRC MAP MAPPAGE XXXX! INFO+ Unit:UNIT UNIT+ | " +
+          "( SELECT/1 DISPATCH:CODE! CALL+? ( PLACE  CITY/Z AT CITY | ADDR/Z CITY ) ( SRC/Z MAPPAGE | PLACE? ( X1 | INT ) PLACE? SRC/Z MAP MAPPAGE ) XXXX! INFO+ Unit:UNIT UNIT+ | " +
            "ID? CODE ( ADDR1/Z ADDR2 | ADDR3! ) CROSS:X2? GRP:UNIT? PRI:PRI comment:INFO )");
   }
   
@@ -89,6 +89,7 @@ public class INPorterCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("CITY")) return new MyCityField();
     if (name.equals("AT")) return new AddressField("at +(.*)", true);
     if (name.equals("X1")) return new CrossField("btwn *(.*)", true);
     if (name.equals("INT")) return new SkipField("<.*>", true);
@@ -111,6 +112,23 @@ public class INPorterCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       data.strCall = append(data.strCall, ",", field);
+    }
+  }
+  
+  private class MyCityField extends CityField {
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      int pt = field.indexOf('(');
+      if (pt >= 0) field = field.substring(0,pt).trim();
+      return super.checkParse(field, data);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf('(');
+      if (pt >= 0) field = field.substring(0,pt).trim();
+      super.parse(field, data);
     }
   }
   
