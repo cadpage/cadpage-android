@@ -11,11 +11,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("^INCIDENT (\\d+)\n\n");
-  private static final Pattern DELIM = Pattern.compile("\\n{1,2}");
+  private static final Pattern DELIM = Pattern.compile("\\n+");
   
   public MDAnneArundelCountyAnnapolisParser() {
     super(CITY_CODES, "ANNE ARUNDEL COUNTY", "MD",
-           "CALL1 ADDR/y MAP SKIP! X+? Nature:CALL! Call_back:PHONE? EXTRA+? UNIT UNIT+? INFO+? ( HYDRANTS INFO+? TIMEDATE! | TIMEDATE! )");
+           "CALL1 ADDR/y MAP ZIP! X+? Nature:CALL! Call_back:PHONE? EXTRA+? UNIT UNIT+? INFO+? ( HYDRANTS INFO+? TIMEDATE! | TIMEDATE! )");
   }
   
   @Override
@@ -46,7 +46,8 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
     if (name.equals("CALL1")) return new MyCall1Field();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("MAP")) return new MyMapField();
-    if (name.equals("X")) return new CrossField(".*? cross street - +(.*?)(?:-[A-Z]{2})?", true);
+    if (name.equals("ZIP")) return new MyZipField();
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("EXTRA")) return new MyExtraField();
     if (name.equals("UNIT")) return new MyUnitField();
@@ -102,6 +103,43 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "MAP CH";
+    }
+  }
+  
+  private static final Pattern ZIP_PTN = Pattern.compile("Census Tract .* Zip(?: +(\\d{5})|)");
+  private class MyZipField extends ZipField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ZIP_PTN.matcher(field);
+      if (!match.matches()) abort();
+      String zip = match.group(1);
+      if (zip != null && data.strCity.length() == 0) data.strCity = zip;
+    }
+  }
+  
+  private static final Pattern X_PTN = Pattern.compile(".*? cross street - +(.*?)(?:-([A-Z]{2}))?");
+  private class MyCrossField extends CrossField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = X_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strCross = append(data.strCross, " & ", match.group(1).trim());
+      String city = match.group(2);
+      if (city != null && 
+          (data.strCity.length() == 0 || Character.isDigit(data.strCity.charAt(0)))) {
+        data.strCity = convertCodes(city, CITY_CODES);
+      }
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   
