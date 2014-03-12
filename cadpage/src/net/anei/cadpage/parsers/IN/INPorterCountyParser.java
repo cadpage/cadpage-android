@@ -11,12 +11,13 @@ public class INPorterCountyParser extends FieldProgramParser {
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile("(.*) +- From +(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d:\\d\\d)");
   private static final Pattern MISSING_LF_PTN = Pattern.compile("(?<=[^\n])(?=GRP:)");
+  private static final Pattern MUT_AID_CALL_PTN = Pattern.compile("MUT.AID.*?(?: ([A-Z]{3}))?");
   
   private String select;
   
   public INPorterCountyParser() {
     super(CITY_CODES, "PORTER COUNTY", "IN",
-          "( SELECT/1 DISPATCH:CODE! CALL+? ( PLACE  CITY/Z AT CITY | ADDR/Z CITY ) ( SRC/Z MAPPAGE | PLACE? ( X1 | INT ) PLACE? SRC/Z MAP MAPPAGE ) XXXX! INFO+ Unit:UNIT UNIT+ | " +
+          "( SELECT/1 DISPATCH:CODE! CALL ( PLACE  CITY/Z AT | ADDRCITY/Z ) CITY?  ( SRC/Z MAPPAGE! | PLACE? ( X1 | INT ) PLACE? SRC MAP? MAPPAGE! ) INFO+ Unit:UNIT UNIT+ | " +
            "ID? CODE ( ADDR1/Z ADDR2 | ADDR3! ) CROSS:X2? GRP:UNIT? PRI:PRI comment:INFO )");
   }
   
@@ -46,7 +47,8 @@ public class INPorterCountyParser extends FieldProgramParser {
         if (pt >= 0) body = body.substring(0,pt).trim();
       }
       body = body.replace(" Units:", " Unit:");
-      if (!parseFields(body.split(","), data)) return false;
+      if (body.endsWith(",")) body = body + ' ';
+      if (!parseFields(body.split(",+ "), data)) return false;
     }
     
     // Second older format is no longer used
@@ -72,6 +74,24 @@ public class INPorterCountyParser extends FieldProgramParser {
     // Winfield TWP is in Lake county
     if (data.strCity.equals("Crown Point") ||
         data.strCity.equals("Winfield Twp")) data.defCity = "LAKE COUNTY";
+    else if (data.strCity.equals("OOC")) {
+      data.defCity = "";
+      data.strCity = "";
+    }
+    
+    // If we don't have a city specified, and this is a mutual aid call
+    // Change the default county to match the destination department
+    if (data.strCity.length() == 0) {
+      Matcher match = MUT_AID_CALL_PTN.matcher(data.strCall);
+      if (match.matches()) {
+        data.defCity = "";
+        String dest = match.group(1);
+        if (dest != null) {
+          if (dest.equals("SCN")) data.defCity = "LAKE COUNTY";
+          else if (dest.equals("OWN")) data.defCity = "LAKE COUNTY";
+        }
+      }
+    }
     return true;
   }
   
@@ -88,14 +108,13 @@ public class INPorterCountyParser extends FieldProgramParser {
 
   @Override
   public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("AT")) return new AddressField("at +(.*)", true);
     if (name.equals("X1")) return new CrossField("btwn *(.*)", true);
     if (name.equals("INT")) return new SkipField("<.*>", true);
     if (name.equals("SRC")) return new SourceField("[A-Z]{2,3}", true);
-    if (name.equals("MAPPAGE")) return new SkipField("mappage", true);
-    if (name.equals("XXXX")) return new  SkipField("XXXX", true);
+    if (name.equals("MAPPAGE")) return new SkipField("mappage,XXXX", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("UNIT")) return new MyUnitField();
     
@@ -108,10 +127,14 @@ public class INPorterCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  private class MyCallField extends CallField {
+  private class MyAddressCityField extends AddressCityField {
     @Override
     public void parse(String field, Data data) {
-      data.strCall = append(data.strCall, ",", field);
+      if (field.endsWith(")")) {
+        int pt = field.indexOf('(');
+        if (pt >= 0) field = field.substring(0,pt).trim();
+      }
+      super.parse(field, data);
     }
   }
   
@@ -258,6 +281,12 @@ public class INPorterCountyParser extends FieldProgramParser {
     }
   }
   
+  @Override
+  public String adjustMapAddress(String addr) {
+    return EST_PTN.matcher(addr).replaceAll("ESTATES");
+  }
+  private static final Pattern EST_PTN = Pattern.compile("\\bEST\\b", Pattern.CASE_INSENSITIVE);
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BHB", "Burns Harbor",
       "BSH", "Beverly Shores",
@@ -288,5 +317,8 @@ public class INPorterCountyParser extends FieldProgramParser {
       // Lake County
       "CPT", "Crown Point",
       "WNT", "Winfield Twp",
+      
+      // OUT OF COUNTY
+      "OOC",      "OOC"
   });
 }
