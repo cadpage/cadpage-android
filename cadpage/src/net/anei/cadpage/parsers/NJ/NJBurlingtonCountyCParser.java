@@ -69,6 +69,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
       "Cinnaminsn", "Cinnaminson Twp",
       "MapleShade", "Maple Shade Twp",
       "McGuireAFB", "McGuire AFB",
+      "MedfordTwp", "Medford Twp",
       "NewHanover", "New Hanover",
       "Ocean Co",   "Ocean County",
       "Pembtn Twp", "Pemberton Twp",
