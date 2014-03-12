@@ -16,11 +16,6 @@ public class ALColbertCountyParser extends DispatchGeoconxParser {
   }
   
   @Override
-  public String getProgram() {
-    return "CALL PHONE NAME PLACE ADDR CITY INFO";
-  }
-  
-  @Override
   public String getFilter() {
     return "911alert@comcast.net,dispatch@911email.net";
   }
