@@ -23,7 +23,7 @@ Npgvir911 gvpxrgf
 2014012910000721  ALBfjrtbPbhaglO (bhgfbhepr-UGZY)
 2014020510000193  GKOenmbevnPbhaglP (bhgfbhepr-UGZY)
 2014020710000788  XFErabPbhagl qbar
-2014021510000156  AWZreprePbhaglO (bhgfbhepr-UGZY)
+-2014021510000156  AWZreprePbhaglO (bhgfbhepr-UGZY)
 2014021610000252  AUTensgbaPbhagl qbar
 ---- C4 --------------------------------------------------------
 2012120510000169  ZBZbargg qbar
@@ -64,7 +64,7 @@ Npgvir911 gvpxrgf
 2014011710000912  Ubyq sbe zber qngn
 -2014011710000921  MPNOPCevaprTrbetr jbexf <<
 2014012010000308  PNSerfabPbhagl qbar
-2014012010000317  INJvfrPbhagl jbexf <<
+-2014012010000317  INJvfrPbhagl jbexf <<
 2014012010000335  Ubyq sbe zber qngn
 2014012010000344  Ubyq sbe zber qngn
 -2014012010000381  BUNhtynvmrPbhagl jbexf <<
