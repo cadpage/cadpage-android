@@ -63,7 +63,7 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
   private static final Pattern NAME_PHONE_PTN = Pattern.compile("Name: *(.*?) +CC: .*? +Phone: *(.*?)");
   private static final Pattern ADDR_PTN = Pattern.compile("Addr: *(.*?)");
   
-  private static final Pattern ENTRY_MARK_PTN = Pattern.compile("/\\d++\\?? +(?:\\([A-Z0-9 ]+\\) +)?\\$?([A-Z]+):?(?: {6,}(.*?) *| {1,5}([A-Z0-9]+)\\b.*)?");
+  private static final Pattern ENTRY_MARK_PTN = Pattern.compile("/\\d++\\?? +(?:\\([A-Z0-9 ]+\\) +)?[*$]?([A-Z]+):?(?: {6,}(.*?) *| {1,5}([A-Z0-9]+)\\b.*)?");
   private static final Pattern CONT_MARK_PTN = Pattern.compile(" {30,}(.*?) *"); 
   
   @Override
@@ -75,7 +75,7 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
     // parser
     if (passThrough) return super.parseMsg(body, data);
     
-    setFieldList("ID DATE TIME CODE CALL PRI UNIT BOX MAP GPS ADDR APT CITY ST X PLACE NAME PHONE INFO");
+    setFieldList("SRC ID DATE TIME CODE CALL PRI UNIT BOX MAP GPS ADDR APT CITY ST X PLACE NAME PHONE INFO");
 
     // They insert their own wraparound soft breaks, which we need to remove
     // Except on one very unique page, they don't.  So we check for that as well
