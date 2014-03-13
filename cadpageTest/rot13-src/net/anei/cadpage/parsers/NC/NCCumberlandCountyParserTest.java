@@ -35,6 +35,10 @@ Pbagnpg: Funar Qvfoebj <f_qvfoebj@ubgznvy.pbz>
 Fraqre: PNQ@pb.phzoreynaq.ap.hf
 SEZ:PNQ@pb.phzoreynaq.ap.hf\aZFT:PNQ:QVFG: 1.02 SG;03/28/2012 06:10:51;67Q1 JVYQYNAQ SVER;PPSQ22;2240 A OENTT OYIQ;YHPNF EQ;FURYY FGNGVBA\e\a
 
+Pbagnpg: Zvxr Ohyyneq <zjohyy2002@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Fgngvba 26) PNQ:03/10/2014 14:38:45;67O1 FZNYY BHGFVQR SVER;2631;10075 AP UJL 210 F;EHGU IVAFBA EQ
+
 */
 
 choyvp pynff APPhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -215,6 +219,21 @@ choyvp pynff APPhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:67Q1 JVYQYNAQ SVER",
         "NQQE:2240 A OENTT OYIQ",
         "K:YHPNF EQ");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZvxrOhyyneq() {
+
+    qbGrfg("G1",
+        "(Fgngvba 26) PNQ:03/10/2014 14:38:45;67O1 FZNYY BHGFVQR SVER;2631;10075 AP UJL 210 F;EHGU IVAFBA EQ",
+        "QNGR:03/10/2014",
+        "GVZR:14:38:45",
+        "PNYY:67O1 FZNYY BHGFVQR SVER",
+        "HAVG:2631",
+        "NQQE:10075 AP UJL 210 F",
+        "ZNQQE:10075 FGNGR 210 F",
+        "K:EHGU IVAFBA EQ");
 
   }
   
