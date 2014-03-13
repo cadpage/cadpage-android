@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchGeoconxParser;
 public class TNCampbellCountyParser extends DispatchGeoconxParser {
   
   public TNCampbellCountyParser() {
-    super("CAMPBELL COUNTY", "TN");
+    super("CAMPBELL COUNTY", "TN", GCX_FLG_NAME_PHONE);
   }
   
   @Override
@@ -23,4 +23,11 @@ public class TNCampbellCountyParser extends DispatchGeoconxParser {
   public String getFilter() {
     return "dispatch@911email.net";
   }
+
+  @Override
+  protected boolean isAddress(String field) {
+    if (field.equals("LMCER")) return true;
+    return super.isAddress(field);
+  }
+  
 }

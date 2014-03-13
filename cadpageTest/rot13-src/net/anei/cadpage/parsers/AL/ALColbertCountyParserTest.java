@@ -142,8 +142,9 @@ choyvp pynff NYPbyoregPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G3",
         "[R911] GENVAVAT\a \aFCE NG 6 CZ NG FGNGVBA 1\a",
         "PNYY:GENVAVAT",
-        "CYNPR:FCE NG 6 CZ",
-        "NQQE:FGNGVBA 1");
+        "ANZR:FCE&",
+        "NQQE:6 CZ & FGNGVBA 1",
+        "ZNQQE:6 CZ");
 
     qbGrfg("G4",
         "[R911] ZIP JVGUBHG VAWHEL\aWWF\a",
@@ -455,6 +456,6 @@ choyvp pynff NYPbyoregPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj NYPbyoregPbhaglCnefreGrfg().trarengrGrfgf("G25");
+    arj NYPbyoregPbhaglCnefreGrfg().trarengrGrfgf("G2");
   }
 }
