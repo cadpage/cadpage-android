@@ -43,8 +43,6 @@ Ybpngvba: Unegfivyyr, FP, Havgrq Fgngrf
 500 JVYFBA QE UNEGFIVYYR;749818;17:05:48;SVER 10-70 TENFF;trb:34.364194, -080.085697
 111 F FRIRAGU FG UNEGFIVYYR;748709;14:00:25;;trb:34.372099, -80.076972
 
-QvfcngpuFbhgureaCnefre fhopynff
-
 */
 
 choyvp pynff FPQneyvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
