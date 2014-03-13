@@ -25,10 +25,22 @@ public class ZCABCPrinceGeorgeParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("DATETIME")) return new MyDateTime();
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("LAT")) return new MyLatitudeField();
     if (name.equals("LONG")) return new MyLongitudeField();
     return super.getField(name);
+  }
+  
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d{4})-(\\d\\d)-(\\d\\d) (\\d\\d:\\d\\d:\\d\\d)");
+  private class MyDateTime extends DateTimeField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = DATE_TIME_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strDate = match.group(2)+'/'+match.group(3)+'/'+match.group(1);
+      data.strTime =match.group(4);
+    }
   }
   
   private static final Pattern INITIAL_APT_PATTERN

@@ -75,7 +75,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51647\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-25",
+        "QNGR:02/25/2014",
         "GVZR:13:08:43",
         "PNYY:SNYEZP",
         "NQQE:610 JNQR NIR",
@@ -91,7 +91,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51911\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-24",
+        "QNGR:02/24/2014",
         "GVZR:05:17:30",
         "PNYY:FGS2",
         "NQQE:981 XVIV EQ",
@@ -107,7 +107,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51974\a" +
         "Havgf Erfcbaqvat: DAYTEC1, DAYQHP1",
 
-        "QNGR:2014-02-23",
+        "QNGR:02/23/2014",
         "GVZR:04:37:51",
         "PNYY:FGS2",
         "NQQE:891 XVIV EQ",
@@ -123,7 +123,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51974\a" +
         "Havgf Erfcbaqvat: DAYQHP1, DAYTEC1",
 
-        "QNGR:2014-02-23",
+        "QNGR:02/23/2014",
         "GVZR:04:37:51",
         "PNYY:FGS2",
         "NQQE:891 XVIV EQ",
@@ -139,7 +139,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51974\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-23",
+        "QNGR:02/23/2014",
         "GVZR:04:37:51",
         "PNYY:FGS2",
         "NQQE:891 XVIV EQ",
@@ -155,7 +155,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51894\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-22",
+        "QNGR:02/22/2014",
         "GVZR:19:39:28",
         "PNYY:FGS2",
         "NQQE:895 XVIV EQ",
@@ -171,7 +171,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.47709\a" +
         "Havgf Erfcbaqvat: DAYQHP1",
 
-        "QNGR:2014-02-21",
+        "QNGR:02/21/2014",
         "GVZR:19:46:07",
         "PNYY:NFFVFG",
         "NQQE:1232 WBUAFGBA NIR",
@@ -187,7 +187,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.47406\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-21",
+        "QNGR:02/21/2014",
         "GVZR:15:43:33",
         "PNYY:PNEOZ",
         "NQQE:541 ANFBA FG",
@@ -203,7 +203,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.47406\a" +
         "Havgf Erfcbaqvat: DAYQHP1",
 
-        "QNGR:2014-02-21",
+        "QNGR:02/21/2014",
         "GVZR:15:43:33",
         "PNYY:SNYEZE",
         "NQQE:541 ANFBA FG",
@@ -219,7 +219,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.46000\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-21",
+        "QNGR:02/21/2014",
         "GVZR:09:01:19",
         "PNYY:PNEOZ",
         "NQQE:1714 CBCYNE NIR",
@@ -236,7 +236,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51638\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-18",
+        "QNGR:02/18/2014",
         "GVZR:04:44:24",
         "PNYY:YVSG",
         "NQQE:531 YRJVF QE",
@@ -252,7 +252,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.45191\a" +
         "Havgf Erfcbaqvat: DAYQHP1",
 
-        "QNGR:2014-02-16",
+        "QNGR:02/16/2014",
         "GVZR:18:52:20",
         "PNYY:OHEA",
         "NQQE:ZBHAGNVA NFU EQ & ZNCYR QE",
@@ -269,7 +269,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.45191\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-16",
+        "QNGR:02/16/2014",
         "GVZR:18:52:20",
         "PNYY:BCRA",
         "NQQE:ZBHAGNVA NFU EQ & ZNCYR QE",
@@ -286,7 +286,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.41761\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-16",
+        "QNGR:02/16/2014",
         "GVZR:00:12:39",
         "PNYY:BQBHH",
         "NQQE:3451 TBBX EQ",
@@ -302,7 +302,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51604\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-15",
+        "QNGR:02/15/2014",
         "GVZR:11:16:25",
         "PNYY:ZIV1",
         "NQQE:515 YRJVF QE",
@@ -318,7 +318,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51743\a" +
         "Havgf Erfcbaqvat: DAYTEC1, APETEC1",
 
-        "QNGR:2014-02-13",
+        "QNGR:02/13/2014",
         "GVZR:15:33:42",
         "PNYY:ZIV3",
         "ZNQQE:+52.981240,-122.517430",
@@ -327,7 +327,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G17",
         "(PNQ Vapvqrag Zrffntr) Qngr: 2014-02-13 09:06:40\aGlcr: SNYEZP\aNqqerff: 543 SEBAG FG, DHRFARY, OP\aHavgf Erfcbaqvat: DAYTEC2",
-        "QNGR:2014-02-13",
+        "QNGR:02/13/2014",
         "GVZR:09:06:40",
         "PNYY:SNYEZP",
         "NQQE:543 SEBAG FG",
@@ -340,7 +340,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Nqqerff: #81 - 684 ABEGU SENFRE QE, DHRFARY, OP\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-13",
+        "QNGR:02/13/2014",
         "GVZR:09:06:15",
         "PNYY:FGS2",
         "NQQE:684 ABEGU SENFRE QE",
@@ -356,7 +356,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.49836\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-12",
+        "QNGR:02/12/2014",
         "GVZR:12:35:02",
         "PNYY:ZIV2",
         "NQQE:SEBAG FG & FG YNHERAG NIR",
@@ -372,7 +372,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.50378\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-12",
+        "QNGR:02/12/2014",
         "GVZR:08:27:04",
         "PNYY:SNYEZP",
         "NQQE:100 XRVF NIR",
@@ -383,7 +383,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G21",
         "(PNQ Vapvqrag Zrffntr) Qngr: 2014-02-11 03:32:01\aGlcr: NFFVFG\aNqqerff: 385 JVAQRE FG, DHRFARY, OP\aHavgf Erfcbaqvat: DAYQHP1",
-        "QNGR:2014-02-11",
+        "QNGR:02/11/2014",
         "GVZR:03:32:01",
         "PNYY:NFFVFG",
         "NQQE:385 JVAQRE FG",
@@ -392,7 +392,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G22",
         "(PNQ Vapvqrag Zrffntr) Qngr: 2014-02-10 12:56:53\aGlcr: FGS2\aNqqerff: 1399 ABEGU SENFRE QE, DHRFARY, OP\aHavgf Erfcbaqvat: DAYTEC1",
-        "QNGR:2014-02-10",
+        "QNGR:02/10/2014",
         "GVZR:12:56:53",
         "PNYY:FGS2",
         "NQQE:1399 ABEGU SENFRE QE",
@@ -407,7 +407,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.49202\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-09",
+        "QNGR:02/09/2014",
         "GVZR:09:04:16",
         "PNYY:SNYEZP",
         "NQQE:500 ONEYBJ NIR",
@@ -423,7 +423,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.42894\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-08",
+        "QNGR:02/08/2014",
         "GVZR:12:30:33",
         "PNYY:YVSG",
         "NQQE:3337 QNYR YNXR EQ",
@@ -440,7 +440,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.46761\a" +
         "Havgf Erfcbaqvat: APETEC1, DAYTEC1",
 
-        "QNGR:2014-02-08",
+        "QNGR:02/08/2014",
         "GVZR:03:19:15",
         "PNYY:ZIV3",
         "NQQE:OBEERTNEQ EQ & ZNCYR QE",
@@ -457,7 +457,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.49717\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-07",
+        "QNGR:02/07/2014",
         "GVZR:11:36:40",
         "PNYY:EZRQ",
         "NQQE:445 ERVQ FG",
@@ -467,7 +467,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G27",
         "(PNQ Vapvqrag Zrffntr) Qngr: 2014-02-07 08:57:14\aGlcr: FZXVA\aNqqerff: 365 XVAPUNAG FG, DHRFARY, OP\aHavgf Erfcbaqvat: DAYTEC1",
-        "QNGR:2014-02-07",
+        "QNGR:02/07/2014",
         "GVZR:08:57:14",
         "PNYY:FZXVA",
         "NQQE:365 XVAPUNAG FG",
@@ -482,7 +482,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.50459\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-06",
+        "QNGR:02/06/2014",
         "GVZR:18:38:39",
         "PNYY:YVSG",
         "NQQE:301 RYYVBGG FG",
@@ -498,7 +498,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.50459\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-06",
+        "QNGR:02/06/2014",
         "GVZR:18:38:39",
         "PNYY:ZRQ",
         "NQQE:301 RYYVBGG FG",
@@ -514,7 +514,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.48541\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-05",
+        "QNGR:02/05/2014",
         "GVZR:13:47:40",
         "PNYY:IRUS",
         "NQQE:75 ABEGU FGNE EQ",
@@ -532,7 +532,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.50429\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-02",
+        "QNGR:02/02/2014",
         "GVZR:02:24:19",
         "PNYY:FGS2",
         "NQQE:1920 OEBJAZVYYRE EQ",
@@ -542,7 +542,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G32",
         "(PNQ Vapvqrag Zrffntr) Qngr: 2014-02-01 13:44:13\aGlcr: IRUS\aNqqerff: 300 PNEENQVPR EQ, DHRFARY, OP\aHavgf Erfcbaqvat: DAYTEC1",
-        "QNGR:2014-02-01",
+        "QNGR:02/01/2014",
         "GVZR:13:44:13",
         "PNYY:IRUS",
         "NQQE:300 PNEENQVPR EQ",
@@ -557,7 +557,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51962\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-02-01",
+        "QNGR:02/01/2014",
         "GVZR:11:06:11",
         "PNYY:IRUS",
         "NQQE:610 NYYNEQ FG",
@@ -573,7 +573,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.46875\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-01-28",
+        "QNGR:01/28/2014",
         "GVZR:20:47:40",
         "PNYY:PUVZ",
         "NQQE:2457 ERQ OYHSS EQ",
@@ -590,7 +590,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51898\a" +
         "Havgf Erfcbaqvat: DAYQHP1",
 
-        "QNGR:2014-01-24",
+        "QNGR:01/24/2014",
         "GVZR:14:10:15",
         "PNYY:NFFVFG",
         "NQQE:634 NQNZ FG",
@@ -606,7 +606,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.49474\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-01-23",
+        "QNGR:01/23/2014",
         "GVZR:10:13:11",
         "PNYY:SNYEZP",
         "NQQE:308 ZPYRNA FG",
@@ -622,7 +622,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51544\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-01-22",
+        "QNGR:01/22/2014",
         "GVZR:12:32:13",
         "PNYY:SNYEZP",
         "NQQE:850 NAQREFBA QE",
@@ -638,7 +638,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.49956\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-01-20",
+        "QNGR:01/20/2014",
         "GVZR:11:18:24",
         "PNYY:SNYEZP",
         "NQQE:543 SEBAG FG",
@@ -654,7 +654,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.50792\a" +
         "Havgf Erfcbaqvat: DAYQHP1",
 
-        "QNGR:2014-01-18",
+        "QNGR:01/18/2014",
         "GVZR:16:27:14",
         "PNYY:SBPP",
         "NQQE:402 ONXRE QE",
@@ -670,7 +670,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.50792\a" +
         "Havgf Erfcbaqvat: ABEFC1, DAYQHP1",
 
-        "QNGR:2014-01-18",
+        "QNGR:01/18/2014",
         "GVZR:16:27:14",
         "PNYY:SBPP",
         "NQQE:402 ONXRE QE",
@@ -686,7 +686,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.51196\a" +
         "Havgf Erfcbaqvat: DAYTEC1",
 
-        "QNGR:2014-01-17",
+        "QNGR:01/17/2014",
         "GVZR:18:04:22",
         "PNYY:BQBHH",
         "NQQE:284 NAQREFBA QE",
@@ -702,7 +702,7 @@ choyvp pynff MPNOPCevaprTrbetrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Ybatvghqr: -122.44638\a" +
         "Havgf Erfcbaqvat: DAYQHP1",
 
-        "QNGR:2014-01-16",
+        "QNGR:01/16/2014",
         "GVZR:15:32:41",
         "PNYY:SNYEZE",
         "NQQE:2201 TNFFBSS EQ",
