@@ -13,7 +13,7 @@ public class TXBellCountyParser extends FieldProgramParser {
   
   public TXBellCountyParser() {
     super(CITY_CODES, "BELL COUNTY", "TX",
-        "LOC:ADDR/S TYPE_CODE:CALL! SubType:CALL CALLER_NAME:NAME! CLRNUM:PHONE! TIME:TIME! Comments:INFO");
+        "PRI LOC:ADDR/S TYPE_CODE:CALL! SubType:CALL CALLER_NAME:NAME! CLRNUM:PHONE! TIME:TIME! Comments:INFO");
     setupGpsLookupTable(GPS_TABLE);
   }
   
@@ -28,6 +28,7 @@ public class TXBellCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("PRI")) return new PriorityField("P(\\d)");
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("INFO")) return new MyInfoField();
