@@ -22,7 +22,7 @@ public class TNHumphreysCountyParser extends GeneralParser {
   }
 
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
     if (! subject.equals("E911")) return false;
     return super.parseMsg("", body, data) ||
             data.parseGeneralAlert(this, body);

@@ -127,7 +127,7 @@ public class GeneralParser extends SmartAddressParser {
   }
 
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
     
     if (!isPageMsg(subject, body)) return false;
     
