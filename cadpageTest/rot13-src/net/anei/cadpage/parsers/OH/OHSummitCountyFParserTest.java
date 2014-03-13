@@ -6,6 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Terra, BU (Va Fhzzvg Pbhagl)
+Fhzzvg Pbhagl, BU (S)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pvgl bs Terra Sver Qvivfvba
