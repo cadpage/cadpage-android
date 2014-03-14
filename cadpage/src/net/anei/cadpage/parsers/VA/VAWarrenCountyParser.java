@@ -22,10 +22,14 @@ public class VAWarrenCountyParser extends DispatchDAPROParser {
   
   private static final CodeSet CALL_SET = new CodeSet(
       "BREATHING DIFFICULTY",
+      "CARDIC ARREST (CODE BLUE)",
       "CHANGE IN MENTAL STATUS",
       "DISORIENTED",
       "FALL/FRACTURE",
-      "MVA / UNKNOWN INJURY"
+      "FIRE ALARM ACTIVATION",
+      "MVA / UNKNOWN INJURY",
+      "MVA / W/ ENTRAPMENT/ROLLOVER",
+      "MVA / WITH INJURY"
   );
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
