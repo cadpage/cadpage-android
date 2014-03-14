@@ -13,7 +13,8 @@ public class CAFresnoCountyParser extends FieldProgramParser {
   
   public CAFresnoCountyParser() {
     super("FRESNO COUNTY", "CA",
-           "CALL! For:UNIT! Zone:ADDR! Apt:APT! Between:X! Location_Name:PLACE!");
+          "( Unit:UNIT! Pri:PRI! Loc:ADDR! MapPage:MAP! Apt:APT! City:CITY! Zone:MAP! EMS#:ID! XStreet:X! " +
+           "| CALL! For:UNIT! Zone:MAP_ADDR! Apt:APT! City:CITY? Between:X! Location_Name:PLACE! )");
   }
   
   @Override
@@ -30,23 +31,38 @@ public class CAFresnoCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("VisiCad Email")) return false;
-    body = body.replace("Location Name:", " Location Name:");
-    if (super.parseMsg(body, data)) return true;
+    if (body.startsWith("Unit:")) {
+      if (parseFields(body.split(","), 9, data)) return true;
+    }
+    
+    else {
+      body = body.replace(" Dist:",  " Zone:").replace("Location Name:", " Location Name:");
+      if (super.parseMsg(body, data)) return true;
+    }
     
     data.parseGeneralAlert(this, body);
     return true;
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("MAP_ADDR")) return new MyMapAddressField();
+    if (name.equals("APT")) return new MyAptField();
+    if (name.equals("PLACE")) return new MyPlaceField();
+    return super.getField(name);
+  }
+  
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("*")) field = field.substring(1).trim();
+      field = stripFieldStart(field, "*");
       super.parse(field, data);
     }
   }
   
   private static final Pattern ADDR_MAP_PTN = Pattern.compile("^(?:(\\d{5})|NOT FOUND) +");
-  private class MyAddressField extends AddressField {
+  private class MyMapAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = ADDR_MAP_PTN.matcher(field);
@@ -72,11 +88,12 @@ public class CAFresnoCountyParser extends FieldProgramParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("APT")) return new MyAptField();
-    return super.getField(name);
+  private class MyPlaceField extends PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf('(');
+      if (pt >= 0) field = field.substring(0,pt).trim();
+      super.parse(field, data);
+    }
   }
 }
