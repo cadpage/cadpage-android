@@ -393,7 +393,7 @@ public abstract class SmartAddressParser extends MsgParser {
     
     setupDictionary(ID_CROSS_STREET, "XS:", "X:", "C/S:", "C/S");
     setupDictionary(ID_NEAR, "NEAR", "ACROSS");
-    setupDictionary(ID_APT, "APT:", "APT", "APTS", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT");
+    setupDictionary(ID_APT, "APT:", "APT", "APTS", "#", "SP", "RM", "SUITE", "STE", "SUITE:", "ROOM", "ROOM:", "LOT", "UNIT");
     setupDictionary(ID_FLOOR, "FLOOR", "FLR", "FL");
     setupDictionary(ID_STREET_NAME_PREFIX, "LAKE", "MT", "MOUNT", "SUNKEN");
     setupDictionary(ID_NOT_ADDRESS, "YOM", "YOF", "YO");
@@ -1669,7 +1669,7 @@ public abstract class SmartAddressParser extends MsgParser {
           // ourselves recursively in an attempt to find another city name
           // behind this one
           if (isFlagSet(FLAG_PAD_FIELD) && endCity < tokens.length) {
-            parseToCity(fldSpec, endCity+1, result);
+            parseToCity(fldSpec, endCity, result);
           }
           return true;
         }

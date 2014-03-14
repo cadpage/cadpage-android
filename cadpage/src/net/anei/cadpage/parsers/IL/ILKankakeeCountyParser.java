@@ -3,11 +3,16 @@ package net.anei.cadpage.parsers.IL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class ILKankakeeCountyParser extends SmartAddressParser {
+  
+  private static final Pattern MASTER_PTN3 =
+      Pattern.compile("(.*)(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)(?: +(.*))?");
+  private static final Pattern LEAD_DIR_PTN = Pattern.compile("([NSEW])\\b *(.*)");
   
   private static final Pattern MASTER_PTN2 = 
       Pattern.compile("(.+) Location: (.+) \\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d Incident #: *(.*)");
@@ -20,6 +25,7 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
   
   public ILKankakeeCountyParser() {
     super(CITY_LIST, "KANKAKEE COUNTY", "IL");
+    setupCallList(CALL_LIST);
   }
   
   @Override
@@ -33,10 +39,9 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
     // Check for message signature
     if (!subject.equals("NWS Message")) return false;
     
-    // There are two formats, we have to check the older one first
-    // because the new format pattern also picks up old format pages :(
+    // There are now three formats, Wish they would make up their minds
     Matcher match = MASTER_PTN2.matcher(body);
-    if (match.find()) {
+    if (match.matches()) {
       setFieldList("CALL PLACE ADDR APT CITY ID");
       data.strCall = match.group(1).trim();
       String sAddr = match.group(2);
@@ -64,6 +69,38 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
         data.strApt = append(apt, "-", getLeft());
       }
       
+      return true;
+    }
+    
+    match = MASTER_PTN3.matcher(body);
+    if (match.matches()) {
+      setFieldList("CALL ADDR APT CITY PLACE DATE TIME X");
+      body = match.group(1).trim();
+      data.strDate = match.group(2);
+      data.strTime = match.group(3);
+      data.strCross = getOptGroup(match.group(4));
+      
+      // Sometimes there is no blank separating the place name
+      // from the city name.  We will try to identify these by looking
+      // for multiple upper case letters followed by a lower case leter
+      body = PLACE_CITY_BRK_PTN.matcher(body).replaceFirst("$1 $2");
+      
+      parseAddress(StartType.START_CALL, FLAG_PAD_FIELD_EXCL_CITY | FLAG_CROSS_FOLLOWS, body, data);
+      if (data.strAddress.length() == 0) return false;
+      
+      String pad = getPadField();
+      match = LEAD_DIR_PTN.matcher(pad);
+      if (match.matches()) {
+        data.strAddress = append(data.strAddress, " ", match.group(1));
+        pad = match.group(2);
+      }
+      if (pad.length() < 5) {
+        data.strApt = append(data.strApt, " ", pad);
+      } else {
+        data.strPlace = pad;
+      }
+
+      data.strPlace = append(data.strPlace, " - ", getLeft());
       return true;
     }
     
@@ -106,6 +143,43 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
     return false;
   }
   
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "911:UNKNOWN",
+      "ACCIDENT",
+      "ALARM CALL",
+      "ALARM:AUTOMATIC",
+      "ALARM:AUTOMATIC/SHAPIRO",
+      "ALARM:BOX",
+      "ALARM:CO DET",
+      "ALARM:FIRE",
+      "ALARM:STILL",
+      "AMB:MUTUAL AID",
+      "AMBULANCE",
+      "BATTERY",
+      "CONTROL BURN",
+      "DEATH INVESTIGATION",
+      "DECEASED SUBJ",
+      "DIS CONDUCT",
+      "DOM DIST",
+      "FIGHT",
+      "FIRE:BRUSH",
+      "FIRE:MUTAL AID",
+      "FIRE:STRUCTURE",
+      "FIRE:VEHICLE",
+      "ILLEGAL BURNING",
+      "INDECENT EXPOSURE",
+      "MABAS RADIO DRILL",
+      "MENTAL CASE",
+      "MISSING PERSON",
+      "NEW",
+      "REMOVAL",
+      "RIVERSIDE AMB",
+      "SHOTS FIRED",                                                                                                                                                                                                 
+      "SMOKE/ODOR",
+      "WELFARE CHECK",
+      "WIRES DOWN"
+  );
+  
   private static final String[] CITY_LIST = new String[]{
     "KANKAKEE",
     "MOMENCE",
@@ -145,6 +219,7 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
     "BRACEVILLE",
     
     // Iroquois County
+    "ASHKUM",
     "BEAVERVILLE",
     
     // Kankakee County
