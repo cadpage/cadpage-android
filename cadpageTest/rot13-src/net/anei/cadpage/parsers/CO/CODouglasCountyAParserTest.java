@@ -492,7 +492,7 @@ choyvp pynff PBQbhtynfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:S ZRQ NFFVFG",
         "NQQE:5050 SNPGBEL FUBCF OYIQ",
-        "NCG:HAVG 37",
+        "NCG:37",
         "ZNC:NS29O1",
         "HAVG:R154 ZRQ154 KKK154",
         "K:ARJ ORNYR FG / A PNFGYRGBA QE, ZRNQBJF CXJL",

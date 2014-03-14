@@ -266,7 +266,8 @@ choyvp pynff ZVBnxynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Fbhgu Ylba Zrqvpny) Erfcbaq gb n zrqvpny ng 62292 lbexgbja havg 6 zrqvpny nynez urnq cnva ",
         "PNYY:zrqvpny",
         "NQQE:62292 lbexgbja",
-        "VASB:havg 6 zrqvpny nynez urnq cnva");
+        "NCG:6",
+        "VASB:zrqvpny nynez urnq cnva");
 
     qbGrfg("G35",
         "(Fbhgu Ylba Sver Eha) Erfcbaq gb n nynez ng 1047 pbyg",

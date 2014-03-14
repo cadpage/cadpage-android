@@ -72,7 +72,7 @@ public class PAJeffersonCountyParser extends SmartAddressParser {
       // SNYDER HILL in info section confuses the smart address parer
       body = body.replace("Snyder Hill", "Snyder-Hill");
       body = body.replace(",", " ,");
-      parseAddress(st, flags | FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS, body, data);
+      parseAddress(st, flags | FLAG_PAD_FIELD_EXCL_CITY | FLAG_CROSS_FOLLOWS, body, data);
       String pad = getPadField();
       if (pad.length() > 0 && !pad.contains(" ")) {
         data.strAddress = append(data.strAddress, " ", pad);

@@ -135,7 +135,7 @@ choyvp pynff PGGbyynaqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "G1",
         "(GA Nyreg) 10 PBGGNTR FG / HAVG Q Ireaba NYF Qvssvphygl Oernguvat 21:14 Pebff Fgerrg FG OREANEQF GRE / FPUBBY FG 2011-00001770",
         "NQQE:10 PBGGNTR FG",
-        "NCG:HAVG Q",
+        "NCG:Q",
         "PVGL:Ireaba",
         "PNYY:NYF Qvssvphygl Oernguvat",
         "GVZR:21:14",

@@ -876,7 +876,8 @@ choyvp pynff ZQQbepurfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FGEBXR (PIN)",
         "NQQE:520 TYRAOHEA NIR",
         "PVGL:PNZOEVQTR",
-        "CYNPR:ZNYYNEQ ONL HAVG 200",
+        "CYNPR:ZNYYNEQ ONL",
+        "NCG:200",
         "OBK:1-2",
         "HAVG:C100 C101");
 

@@ -231,7 +231,8 @@ choyvp pynff TrarenyCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY::8 - RZF",
         "NQQE:12040 FE 362",
         "ZNQQE:12040 FGNGR 362",
-        "VASB:HAVG 19 ZVAFGRE ORGJ PNANY #1 EQ & PBHAGL YVAR");
+        "NCG:19",
+        "VASB:ZVAFGRE ORGJ PNANY #1 EQ & PBHAGL YVAR");
     
     qbGrfg("G26",
         "(PIN-PYNFF 1) ZNAURVZ GJC~106 QRYNAPL CY~EHGYRQTR NIR~QRNQ RAQ~DEF204~08:55:30^",

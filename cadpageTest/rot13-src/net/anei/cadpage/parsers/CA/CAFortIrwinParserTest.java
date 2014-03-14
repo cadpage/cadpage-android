@@ -617,7 +617,8 @@ choyvp pynff PNSbegVejvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Zrqvpny Nvq",
         "NQQE:3694 Fnagvntb Fg",
-        "VASB:21 L/B 2 zbagu certanag srznyr unf gnxra n ynetr qbfr bs cbffvoyl zhfpyr erynkref / Havg P.");
+        "VASB:21 L/B 2 zbagu certanag srznyr unf gnxra n ynetr qbfr bs cbffvoyl zhfpyr erynkref",
+        "NCG:P");
 
     qbGrfg("G43",
         "(Qvfcb...) Zrqvp Ratvar 411 genafcbegvat 1 cngvrag gb Jrrq Ubfcvgny sbe sbyybj hc.\a\a\a" +
@@ -1156,7 +1157,8 @@ choyvp pynff PNSbegVejvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Zrqvpny Nvq",
         "NQQE:4087 Qraavat Fcevat Qe",
-        "VASB:33 L/B srznyr univat purfg cnvaf / Havg O.");
+        "VASB:33 L/B srznyr univat purfg cnvaf",
+        "NCG:O");
 
     qbGrfg("G88",
         "(zrqvpny nvq) ZR411 erfcbaqvat gb 322 2aq fg sbe 29 l/b srznyr srryf snvag.\a\a\a" +
@@ -1197,7 +1199,8 @@ choyvp pynff PNSbegVejvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Qvfcb: Pneoba Zbabkvqr",
         "NQQE:5294 Onqtre Ya",
-        "VASB:Erfvqrapr pyrnerq bs pneoba zbabkvqr / Havg N.");
+        "VASB:Erfvqrapr pyrnerq bs pneoba zbabkvqr",
+        "NCG:N");
 
     qbGrfg("G93",
         "(Pneoba Zbabkvqr ) Cvaanpyr Erc. ercbegrq gur qbjafgnvef pneoba zbabkvqr qrgrpgbe vf nynezvat @ 5294 Onqtre Ya. Havg N.\a\a" +
@@ -1206,7 +1209,8 @@ choyvp pynff PNSbegVejvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Pneoba Zbabkvqr",
         "NQQE:5294 Onqtre Ya",
-        "VASB:Cvaanpyr Erc. ercbegrq gur qbjafgnvef pneoba zbabkvqr qrgrpgbe vf nynezvat / Havg N.");
+        "VASB:Cvaanpyr Erc. ercbegrq gur qbjafgnvef pneoba zbabkvqr qrgrpgbe vf nynezvat",
+        "NCG:N");
 
     qbGrfg("G94",
         "(Choyvp Freivpr) Zrqvp Ratvar 411 erfcbaqrq gb 3724 Fvpvyl Qevir Havg N sbe n 1 lrne byq obl jub ybpxrq uvf sngure bhg bs gur ubhfr. Zrqvp Ratvar 411 znqr ragel naq gur puvyq vf bxnl naq abj jvgu uvf qnq.\a\a\a" +
@@ -1215,7 +1219,8 @@ choyvp pynff PNSbegVejvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Choyvp Freivpr",
         "HAVG:Zrqvp Ratvar 411",
         "NQQE:3724 Fvpvyl Qevir",
-        "VASB:Havg N sbe n 1 lrne byq obl jub ybpxrq uvf sngure bhg bs gur ubhfr. Zrqvp Ratvar 411 znqr ragel naq gur puvyq vf bxnl naq abj jvgu uvf qnq.");
+        "NCG:N",
+        "VASB:sbe n 1 lrne byq obl jub ybpxrq uvf sngure bhg bs gur ubhfr. Zrqvp Ratvar 411 znqr ragel naq gur puvyq vf bxnl naq abj jvgu uvf qnq.");
 
     qbGrfg("G95",
         "(Qvfcb...) Zrqvp Ratvar 411 Pncgnva ercbegf gung gur cngvrag fvtarq na (NZN) ntnvafg zrqvpny nqivpr sbez.\a\a\a" +
@@ -1238,7 +1243,8 @@ choyvp pynff PNSbegVejvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny Nvq...",
         "HAVG:Zrqvp Ratvar 411",
         "NQQE:4079 Bjyfurnq Pbheg",
-        "VASB:Havg N sbe n fvpx 11 zbagu byq onol obl.");
+        "NCG:N",
+        "VASB:sbe n fvpx 11 zbagu byq onol obl.");
 
     qbGrfg("G98",
         "(Qvfcb sbe zrqvpny nvq) ZR411 jnf eryrnfrq sebz zrqvpny nvq cnerag fvtarq NZN.\a\a\a" +

@@ -1217,7 +1217,8 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "(Grkg Zrffntr) PRP:601 NGYNAGVP ORNPU PNHFRJNL HAVG 5 NGYNAGVP ORNPU, ZQY, SQY, YQY 131O01, 13-014033, 10:54:09, ZIP ZVABE\e",
-        "NQQE:601 NGYNAGVP ORNPU PNHFRJNL HAVG 5",
+        "NQQE:601 NGYNAGVP ORNPU PNHFRJNL",
+        "NCG:5",
         "PVGL:NGYNAGVP ORNPU",
         "PBQR:131O01",
         "VQ:13-014033",

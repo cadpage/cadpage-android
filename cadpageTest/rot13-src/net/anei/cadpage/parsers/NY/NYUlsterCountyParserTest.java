@@ -227,7 +227,7 @@ choyvp pynff ALHyfgrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Fgnoyr",
         "VASB:88 L/S E/B GUEBZOBFVF / HAVG N EBBZ 10 FBHGU 04/10/2013 15:17",
         "NQQE:1 WNAFRA EQ",
-        "NCG:HAVG N EZ 10 FBHGU",
+        "NCG:N EZ 10 FBHGU",
         "PVGL:Arj Cnygm",
         "K:EBHGR 208/QHOBVF EQ",
         "CYNPR:ZBHAGNVA IVRJ AHEFVA");

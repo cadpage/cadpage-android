@@ -1178,8 +1178,8 @@ choyvp pynff BUZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:11:21:34",
         "VQ:13-006264",
         "PNYY:FDHNQ PNYY VYY CREFBA",
-        "NQQE:6145 PRZRGREL HAVG 009 FE 309 R",
-        "ZNQQE:6145 PRZRGREL HAVG 009 BU 309 R",
+        "NQQE:6145 PRZRGREL",
+        "NCG:009 FE 309 R",
         "PVGL:PNYRQBAVN",
         "K:QRNQ RAQ RNFG");
 
