@@ -1097,6 +1097,51 @@ choyvp pynff PNSerfabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:Jrfg Ynxr Zbovyr Ubzr");
 
   }
+
+  @Grfg
+  choyvp ibvq grfgSerfabPbhaglRZFPbzzhavpngvbafPragre3() {
+
+    qbGrfg("G1",
+        "(IvfvPnq Rznvy) Havg:RZF03,Cev:1, Ybp:335 J Pvaanzba Qe             ,ZncCntr:GO1712/W3 ,Ncg:158       ,Pvgl:Yrzbber        ,Angher:*Nvepensg Qbja (Bss SLV)      ,Mbar:XZ06  ,RZF#:201308140167, KFgerrg:SBK FG/RGBA QE                 ,\e",
+        "HAVG:RZF03",
+        "CEV:1",
+        "NQQE:335 J Pvaanzba Qe",
+        "NCG:158",
+        "ZNC:GO1712/W3-XZ06",
+        "PVGL:Yrzbber",
+        "VQ:201308140167",
+        "K:SBK FG/RGBA QE");
+
+    qbGrfg("G2",
+        "(IvfvPnq Rznvy) Havg:RZF02,Cev:1, Ybp:UJL-99 BA ENZC AO & R ZNAAVAT ,ZncCntr:GO1454/R4 ,Ncg:          ,Pvgl:Sbjyre         ,Angher:*GN-ZnffGenaf(ohf,genva,cynar),Mbar:T02J  ,RZF#:201403120105, KFgerrg:                               ,Ybp Anzr",
+        "HAVG:RZF02",
+        "CEV:1",
+        "NQQE:UJL-99 BA ENZC AO & R ZNAAVAT",
+        "ZNQQE:UJL 99 BA ENZC & R ZNAAVAT",
+        "ZNC:GO1454/R4-T02J",
+        "PVGL:Sbjyre",
+        "VQ:201403120105");
+
+    qbGrfg("G3",
+        "(IvfvPnq Rznvy) Havg:RZF02,Cev:1, Ybp:J Funj Nir & A Znexf Nir      ,ZncCntr:GO1252/O4 ,Ncg:          ,Pvgl:Serfab         ,Angher:*GN-ZnffGenaf(ohf,genva,cynar),Mbar:403   ,RZF#:201403110324, KFgerrg:                               ,Ybp Anzr",
+        "HAVG:RZF02",
+        "CEV:1",
+        "NQQE:J Funj Nir & A Znexf Nir",
+        "ZNC:GO1252/O4-403",
+        "PVGL:Serfab",
+        "VQ:201403110324");
+
+    qbGrfg("G4",
+        "(IvfvPnq Rznvy) Havg:RZF02,Cev:1, Ybp:175 A BEPUNEQ FG              ,ZncCntr:GO1303/N6 ,Ncg:O         ,Pvgl:Serfab         ,Angher:Pneoba Zba/Vaunyr/UnmZng-P1   ,Mbar:605   ,RZF#:201403100219, KFgerrg:                               ,Ybp Anzr",
+        "HAVG:RZF02",
+        "CEV:1",
+        "NQQE:175 A BEPUNEQ FG",
+        "NCG:O",
+        "ZNC:GO1303/N6-605",
+        "PVGL:Serfab",
+        "VQ:201403100219");
+
+  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj PNSerfabPbhaglCnefreGrfg().trarengrGrfgf("G1");

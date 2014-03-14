@@ -10,6 +10,8 @@ public class COLarimerCountyAParser extends FieldProgramParser {
   
   private static final Pattern TEXT_MARKER_PTN = Pattern.compile("([A-Z]+) +\\(([A-Z]+)\\) +(.*)");
   
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile(".{30} *(?:- )?([A-Z0-9]+) +\\(TIMES\\) +(?:Rec'd|Received).* Run ?#[- ]+(\\d+)\\b.*");
+  
   private static final Pattern SEPARATOR = Pattern.compile(" *// *");
 
   public COLarimerCountyAParser() {
@@ -45,6 +47,17 @@ public class COLarimerCountyAParser extends FieldProgramParser {
     // Resume normal processing
     Parser p = new Parser(subject);
     data.strSource = p.getOptional('|');
+    
+    // Check for run report
+    match = RUN_REPORT_PTN.matcher(body);
+    if (match.matches()) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      data.strUnit = match.group(1);
+      data.strCallId = match.group(2);
+      return true;
+    }
+    
     if (!p.get().equals("CFS")) return false;
     if (data.strSource.toLowerCase().startsWith("notifyall")) data.strSource = "";
 
