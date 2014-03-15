@@ -105,12 +105,6 @@ PNYY: 1050H \aNQQE: 97 GBYY EQ \aHAVG: Y1Q, \aPVGL: RYXUNEG \aFG:VA\aVASB: 00000
 PNYY: RZF76 \aNQQE: 16493 PB EQ 8 \aHAVG: Y1Q, \aPVGL: OEVFGBY \aFG:VA\aVASB: 00030P OEVF OEVZRQVNY NYNEZ 83 LBS PBAF / OERNGUVAT TYS YVFG NFFVFG 12/13/2013 2:04:43 CZ
 PNYY: S1NYN \aNQQE: 51560 PB EQ 133 \aHAVG: OEVF1, \aPVGL: OEVFGBY \aFG:VA\aVASB: Pebff fgerrgf: FGNGR YVAR EQ//PB EQ 4 00030P OEVF OEVQVIREFVSVRQ ZNPUVARTRARENY 45 NYNEZ 12/13/2013 1:11:29 CZ
 
-** ABGR **
-Fgevc qngr naq gvzr sebz raq bs zrffntr
-Fgnaqneq SvryqCebtenzCnefre fhopynff
-K svryq punatr // gb /
-HAVG svryq fgevc genvyvat ,
-
 */
 
 choyvp pynff VARyxunegPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

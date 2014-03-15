@@ -1,19 +1,34 @@
 package net.anei.cadpage.parsers.IN;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class INElkhartCountyParser extends FieldProgramParser {
 
+  private static Pattern DATE_TIME_PTN = Pattern.compile("(.*?) (\\d{1,2}/\\d{1,2}/\\d{4}) (\\d{1,2}:\\d{2}:\\d{2} [AP]M)", Pattern.DOTALL);
+  private static SimpleDateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss a");
+
   public INElkhartCountyParser() {
     super("ELKHART COUNTY", "IN", "CALL:CALL! ADDR:ADDR! UNIT:UNIT! CITY:CITY! ST:ST! INFO:INFO!");
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    Matcher mat = DATE_TIME_PTN.matcher(body);
+    if (!mat.matches()) return false;
+    body = mat.group(1).trim();
+    data.strDate = mat.group(2);
+    setTime(TIME_FMT, mat.group(3), data);
+    return super.parseMsg(body, data);
+  }
+
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " DATE TIME";
   }
 
   @Override
@@ -25,11 +40,8 @@ public class INElkhartCountyParser extends FieldProgramParser {
   }
 
   private static Pattern CROSS_INFO = Pattern.compile("(.*?)Cross streets: (.*?)");
-  private static Pattern INFO_DATE_TIME = Pattern.compile("(.*?) (\\d{1,2}/\\d{1,2}/\\d{4}) (\\d{1,2}:\\d{2}:\\d{2} [AP]M)");
-  private static SimpleDateFormat MilitaryFormat = new SimpleDateFormat("HH:mm:ss");
-  private static SimpleDateFormat PageFormat = new SimpleDateFormat("hh:mm:ss a");
 
-  private class MyInfoField extends Field {
+  private class MyInfoField extends InfoField {
 
     @Override
     public void parse(String field, Data data) {
@@ -39,28 +51,12 @@ public class INElkhartCountyParser extends FieldProgramParser {
         parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, mat.group(2).replace("//", "/"), data);
         field = append(mat.group(1), " ", getLeft());
       }
-
-      // parse date and time from info
-      mat = INFO_DATE_TIME.matcher(field);
-      if (!mat.matches()) abort();
-      data.strSupp = mat.group(1); // INFO
-      data.strDate = mat.group(2); // DATE
-      // parse TIME to 24h format real quick
-      Date time = null;
-      try {
-        time = PageFormat.parse(mat.group(3));
-      } catch (ParseException e) {
-        e.printStackTrace();
-      }
-      if (time == null) abort();
-      data.strTime = MilitaryFormat.format(time);
+      super.parse(field, data);
     }
 
     @Override
     public String getFieldNames() {
-      return "X INFO DATE TIME";
+      return "X INFO";
     }
-
   }
-
 }
