@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA27Parser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("Notification from CIS Active ?911:");
+  private static final Pattern MARKER = Pattern.compile("Notification from CIS Active *911:");
   private static final Pattern DELIM_PTN = Pattern.compile("\n{2}");
   
   public DispatchA27Parser(String defCity, String defState) {
