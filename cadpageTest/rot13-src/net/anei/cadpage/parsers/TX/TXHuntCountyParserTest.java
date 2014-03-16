@@ -4258,7 +4258,7 @@ choyvp pynff GKUhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "PNYY:Fvpx Crefba-Fcrpvsvp Qvntabfvf",
         "NQQE:4511 SZ 1395",
-        "ZNQQE:4511 SNEZ-GB-ZNEXRG 1395", //qbrf abg znc
+        "ZNQQE:4511 SNEZ-GB-ZNEXRG 1395",
         "K:UJL 47",
         "PVGL:JVYYF CBVAG",
         "VASB:ZNYR64LE PBAP / OERNGUVAT CBFFVOYR PIN EVGR FVQR BS SNPRQ QEBCCRQ");
