@@ -755,7 +755,7 @@ public abstract class SmartAddressParser extends MsgParser {
     if ((sType == StartType.START_CALL && (isFlagSet(FLAG_AT_PLACE|FLAG_AT_BOTH|FLAG_IGNORE_AT) || !address.contains("@")) ||
          sType == StartType.START_CALL_PLACE) 
          && callDictionary != null) {
-      String call = callDictionary.getCode(address.toUpperCase(), true);
+      String call = callDictionary.getCode(address.toUpperCase(), !isFlagSet(FLAG_START_FLD_NO_DELIM));
       if (call != null) {
         
         // We have a match.  Store the call (without the trailing space)
