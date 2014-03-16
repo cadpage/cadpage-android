@@ -436,6 +436,20 @@ PNQ:GENSSVP/ GENAFCBEGNGVBA NPPVQR;QVFG: 47.59 SG;4310 BYQ YBJREL EQ;GUHAQRE INY
 PNQ:GENSSVP/ GENAFCBEGNGVBA NPPVQR;4080 BYQ YBJREL EQ/GUHAQRE INYYRL QE;14000593;C;PNYYRE FGNGRF YBBXF YVXR FZBXR PBZVAT SEBZ GUR IRUVPYR [01/10/14 17:02:52 TB4270] 29-O-1 [01/10/14 17:02:28 TB4270] ERQ ZHFGNAT [01/10/14 17:02:03 TB4270]
 PNQ:HAPBAFPVBHF/ SNVAGVAT;6677 ERAAREG EQ;YNHQRYY QE;WB OHQ EQ;14000589;1;31Q04;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Qrygn ERFCBAQRE FPEVCG: 50 lrne byq, Znyr, Pbafpvbhfarff haxabja, Oernguvat. Hapbafpvbhf / Snvagvat (Arne). PUNATVAT PBYBE. Pn
 
+** ABGRF **
+QvfcngpuBFFVCnefre fhopynff
+Znva pynff unaqyrf PNQ: cersvk naq qrnyf jvgu fdhner oenpxrg grezf.  Lbh unir
+gb fhccyl cebtenz fgevat
+
+( PNAPRY NQQE VASB | PNYY CYNPR? NQQE K K VQ CEV PBQR VASB+ )
+
+sbe fgnegref.  Inyvqngvba pbqrf naq bgure nqwhfgzragf znl or arprffnel
+
+Gur bcgvbany CYNPR svryq vf tbvat gb or ceboyrzngvp  Erylvat ba NQQE gb qrgrezvar
+vs vg vf cerfrag be abg vf irel ceboyrzngvp.  Yrgf gel gb jevgr n fzneg cynpr 
+svryq gb frr vs jr pna cvpx bhg gur QVFG: naq ncg svryqf.  Vs gung cebirf
+hajbexnoyr, jr jvyy unir gb gel fbzrguvat ryfr.
+
 */
 
 choyvp pynff APEborfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {

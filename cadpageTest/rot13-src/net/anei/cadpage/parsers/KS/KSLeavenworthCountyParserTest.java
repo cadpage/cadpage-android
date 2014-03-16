@@ -1,10 +1,11 @@
-cnpxntr arg.narv.pnqcntr.cnefref.VA;
+cnpxntr arg.narv.pnqcntr.cnefref.XF;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 vzcbeg bet.whavg.Grfg;
 
 /*
+Yrninajbegu Pbhagl, XF
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Yrnirajbegu Pvgl Sver
@@ -112,12 +113,14 @@ Fraqre: <SverQvfcngpu@svefgpvgl.bet>
 (Cubravk Abgvsvpngvba) 2014000028 {01/04/2014 18:40:06}\aRZF      - 311 ZRQVPNY NFFVFG, NFFVFG RZF{1}\a314 Fcehpr FG\aHavgf:\a    R2      \aPbzzragf:\a Havgf Erpbzzraqrq: R2;\aQvfcngpurq: R2 Hcqngr erivrjrq ol qvfcngpure- Yhpnf, Crevqbg Naa-1557       95 le znyr..haerfcbafvir
 (Cubravk Abgvsvpngvba) 2014000029 {01/04/2014 18:35:07}\aRZF      - 311 ZRQVPNY NFFVFG, NFFVFG RZF{1}\a3513 Erzvatgba YA\aHavgf:\a    D1      \aPbzzragf:\a Havgf Erpbzzraqrq: D1;\aQvfcngpurq: D1
 
+QvfcngpuCubravkCnefre fhopynff
+
 */
 
-choyvp pynff VAYrnirajbeguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff XFYrnirajbeguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp VAYrnirajbeguPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "YRNIRAJBEGU PBHAGL", "VA");
+  choyvp XFYrnirajbeguPbhaglCnefreGrfg() {
+    frgCnefre(arj QhzzlCnefre(), "YRNIRAJBEGU PBHAGL", "XF");
   }
   
   @Grfg
@@ -126,6 +129,6 @@ choyvp pynff VAYrnirajbeguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj VAYrnirajbeguPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj XFYrnirajbeguPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
