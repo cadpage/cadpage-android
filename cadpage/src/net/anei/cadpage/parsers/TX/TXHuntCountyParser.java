@@ -130,6 +130,15 @@ public class TXHuntCountyParser extends DispatchProQAParser {
     }
   }
   
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = PRIVATE_PTN.matcher(addr).replaceAll("PVT");
+    addr = PRNNN_PTN.matcher(addr).replaceAll("PVT ROAD $1");
+    return addr;
+  }
+  private static final Pattern PRIVATE_PTN = Pattern.compile("\\bPRIVATE\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern PRNNN_PTN = Pattern.compile("\\bPR *(\\d+)\\b", Pattern.CASE_INSENSITIVE);
+  
   private static final String[] CITY_LIST = new String[]{
     "CADDO MILLS",
     "CAMPBELL",
