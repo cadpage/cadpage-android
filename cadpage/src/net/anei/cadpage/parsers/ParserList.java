@@ -869,6 +869,7 @@ public class ParserList {
               ,"TXHaysCounty"                   ,"Hays County, TX"
               ,"TXHoodCounty"                   ,"Hood County, TX"
               ,"TXHumble"                       ,"Humble, TX"
+              ,"TXHuntCounty"                   ,"Hunt County, TX"
               ,"TXJohnsonCounty"                ,"Johnson County, TX"
               ,"TXKeller"                       ,"Keller, TX"
               ,"TXKendallCounty"                ,"Kendall County, TX"

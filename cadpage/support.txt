@@ -3153,3 +3153,20 @@ Cadpage should process both of them without any difficulty.  If they are
 dispatched from different centers, it may be necessary to specify
 multiple location as the Cadpage current location.  You can do this by
 pressing the Select Multiple Locations item in the Location Settings.
+
+*****************************************************************************
+using Active911 and Cadpage
+
+
+Currently, you have the Active911 Android app registered with Active911
+servers.  When you register the Active911 app, pages will stop coming to
+Cadpage.  When you register Cadpage with Active911, pages will stop
+coming to the Active911 app.  Pages can only be pushed to one app at a time.
+
+It is possible to run both apps together by registering Active911 first,
+then switching to Cadpage.  The alerts are pushed to Cadpage and Cadpage
+only, but when you launch the Active911 app, it will query the Active911
+servers and update its call information.  There are some new Cadpage
+features that make that easier.  One is a new Settings item "Cadpage and
+Active911 apps" explaining how to set that up.
+
