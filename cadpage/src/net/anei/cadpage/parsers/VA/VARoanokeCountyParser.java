@@ -154,6 +154,7 @@ public class VARoanokeCountyParser extends SmartAddressParser {
     
     parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_IGNORE_AT | FLAG_START_FLD_NO_DELIM, body.toUpperCase(), data);
     if (data.strAddress.length() == 0) return false;
+    data.strPlace = stripFieldStart(data.strPlace, "(");
     String left = getLeft();
     if (APT_PHONE_PTN.matcher(left).matches()) {
       data.strPhone = left;

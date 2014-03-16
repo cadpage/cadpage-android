@@ -5,12 +5,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
 
 public class TXWestEMSParser extends DispatchProQAParser {
-  
-  private static final String DEF_STATE = "TX";
-  private static final String DEF_CITY = "WEST";
     
   public TXWestEMSParser() {
-    super(DEF_CITY, DEF_STATE, null);
+    super("WEST", "TX", null);
   }
   
   @Override

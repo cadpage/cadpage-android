@@ -119,7 +119,7 @@ cbffvoyr QvfcngpuCebDNCnefre fhopynff
 choyvp pynff GKJrfgRZFCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp GKJrfgRZFCnefreGrfg() {
-    frgCnefre(arj GKJrfgRZFCnefre(), "JRFG RZF", "GK");
+    frgCnefre(arj GKJrfgRZFCnefre(), "JRFG", "GK");
   }
   
   @Grfg
