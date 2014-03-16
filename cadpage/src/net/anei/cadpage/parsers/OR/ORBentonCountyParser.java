@@ -16,7 +16,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "Corvallis Alerts,alerts@corvallis.ealertgov.com";
+    return "Corvallis Alerts,alerts@corvallis.ealertgov.com,12101";
   }
 
   @Override
