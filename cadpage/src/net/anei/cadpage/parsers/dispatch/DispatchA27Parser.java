@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA27Parser extends FieldProgramParser {
   
-  private static final String PAGE_PREFIX = "Notification from CIS Active 911:";
+  private static final Pattern MARKER = Pattern.compile("Notification from CIS Active ?911:");
   private static final Pattern DELIM_PTN = Pattern.compile("\n{2}");
   
   public DispatchA27Parser(String defCity, String defState) {
@@ -27,9 +27,9 @@ public class DispatchA27Parser extends FieldProgramParser {
   @Override 
   public boolean parseMsg(String subject, String body, Data data) {
     
-    if(!body.startsWith(PAGE_PREFIX)) return false;
-    
-    body = body.substring(PAGE_PREFIX.length()).trim();      // Remove message prefix
+    Matcher match = MARKER.matcher(body);
+    if (!match.lookingAt()) return false;
+    body = body.substring(match.end()).trim();
     
     String[] fields = DELIM_PTN.split(body);
     
