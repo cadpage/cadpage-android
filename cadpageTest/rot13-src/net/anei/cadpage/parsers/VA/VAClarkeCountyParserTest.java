@@ -1,7 +1,6 @@
 cnpxntr arg.narv.pnqcntr.cnefref.IN;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.IN.INNppbznpxPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -39,7 +38,8 @@ choyvp pynff INPynexrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G2",
         "PynexrRPP:19844 OYHR EVQTR ZGA EQ OYHRZBAG, NFUYRL JBBQF YA K *UVTUYNAQ EVQTR YA (Irevsl), 15:35:14, FGNGVBA GENAFSRE, fgngvba svyy",
-        "NQQE:19844 OYHR EVQTR ZGA EQ OYHRZBAG",
+        "NQQE:19844 OYHR EVQTR ZGA EQ",
+        "PVGL:OYHRZBAG",
         "K:NFUYRL JBBQF YA / *UVTUYNAQ EVQTR YA (Irevsl)",
         "GVZR:15:35:14",
         "PNYY:FGNGVBA GENAFSRE",
@@ -47,7 +47,8 @@ choyvp pynff INPynexrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G3",
         "PynexrRPP:20962 OYHR EVQTR ZGA EQ CNEVF, *NFUYRL JBBQF YA (Irevsl) K UVTUYNAQ EVQTR YA, 16:46:27, UNAT HC PNYY 911, BA GUR GENVY. JR",
-        "NQQE:20962 OYHR EVQTR ZGA EQ CNEVF",
+        "NQQE:20962 OYHR EVQTR ZGA EQ",
+        "PVGL:CNEVF",
         "K:*NFUYRL JBBQF YA (Irevsl) / UVTUYNAQ EVQTR YA",
         "GVZR:16:46:27",
         "PNYY:UNAT HC PNYY 911",

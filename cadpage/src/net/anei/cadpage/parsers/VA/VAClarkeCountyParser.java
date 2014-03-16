@@ -84,6 +84,12 @@ public class VAClarkeCountyParser extends FieldProgramParser {
     "WATERLOO",
     "WEBBTOWN",
     "WHITE POST",
-    "WICKLIFFE"
+    "WICKLIFFE",
+    
+    // Fauquier County
+    "PARIS",
+    
+    // Loudoun County
+    "BLUEMONT"
   };
 }
