@@ -71,7 +71,12 @@ public class ManageNotification {
    * The main notify method
    */
   public static boolean show(Context context, SmsMmsMessage message) {
-    return show(context, message, true);
+    boolean result = show(context, message, true);
+    if (result) {
+      ClearAllReceiver.setCancel(context, ManagePreferences.notifyTimeout(), 
+                                 ClearAllReceiver.ClearType.NOTIFY);
+    }
+    return result;
   }
   
   

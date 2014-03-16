@@ -184,7 +184,6 @@ public class SmsReceiver extends BroadcastReceiver {
     else if (notify) {
       ManageNotification.show(context, message);
       launchScanner(context);
-      ClearAllReceiver.setCancel(context);
     }
   }
 

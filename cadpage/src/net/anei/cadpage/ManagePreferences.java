@@ -30,7 +30,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 32;
+  private static final int PREFERENCE_VERSION = 33;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -363,6 +363,10 @@ public class ManagePreferences {
     return prefs.getString(R.string.pref_notif_sound_key);
   }
   
+  public static int notifyTimeout() {
+    return prefs.getIntValue(R.string.pref_notif_timeout_key);
+  }
+  
   public static boolean vibrate() {
     return prefs.getBoolean(R.string.pref_vibrate_key);
   }
@@ -444,7 +448,7 @@ public class ManagePreferences {
   }
   
   public static int timeout() {
-    return prefs.getIntValue(R.string.pref_notif_timeout_key);
+    return prefs.getIntValue(R.string.pref_timeout_key);
   }
   
   public static boolean dimScreen() {
@@ -960,6 +964,7 @@ public class ManagePreferences {
         R.string.pref_defcity_key,
         R.string.pref_defstate_key,
         R.string.pref_enable_msg_type_key,
+        R.string.pref_timeout_key,
         R.string.pref_mms_timeout_key,
         R.string.pref_loglimit_key,
         R.string.pref_msgtimeout_key,

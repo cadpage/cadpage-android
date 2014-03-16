@@ -153,7 +153,6 @@ public class CallHistoryActivity extends ListActivity {
         if (intent.getBooleanExtra(EXTRA_NOTIFY, false)) {
           ManageNotification.show(this, msg);
           SmsReceiver.launchScanner(this);
-          ClearAllReceiver.setCancel(this);
         }
      
         // OK, go ahead and open the call display window

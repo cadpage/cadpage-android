@@ -85,9 +85,12 @@
    <string name="pref_additional_title">Additional Settings</string>
    <string name="pref_additional_summary">Additional Cadpage configuration</string>
 
-   <string name="pref_notif_timeout_title">Alert and Screen Timeout</string>
+   <string name="pref_notif_timeout_title">Alert Timeout</string>
    <string name="pref_notif_timeout_summary">Alerts will stop after this time.  Cur value: %s</string>
-
+   
+   <string name="pref_timeout_title">Screen Timeout</string>
+   <string name="pref_timeout_summary">The screen stay on for this time.  Cur value: %s</string>
+   
    <string name="pref_dimscreen_title">Dim Popup Screen</string>
    <string name="pref_dimscreen_summaryon">Popup screen will be dim (saves battery)</string>
    <string name="pref_dimscreen_summaryoff">Popup screen will be bright</string>
@@ -240,15 +243,18 @@
 
   <string name="pref_notif_repeat_times_entries_keep_repeting">Keep repeating</string>
 
-  <string name="pref_notif_timeout_entries_30s">30 seconds</string>
-  <string name="pref_notif_timeout_entries_1m">1 minute</string>
-  <string name="pref_notif_timeout_entries_2m">2 minutes</string>
-  <string name="pref_notif_timeout_entries_3m">3 minutes</string>
-  <string name="pref_notif_timeout_entries_4m">4 minutes</string>
-  <string name="pref_notif_timeout_entries_5m">5 minutes</string>
-  <string name="pref_notif_timeout_entries_7m">7 minutes</string>
-  <string name="pref_notif_timeout_entries_10m">10 minutes</string>
-
+  <string name="pref_timeout_entries_disabled">Disabled</string>
+  <string name="pref_timeout_entries_10s">10 seconds</string>
+  <string name="pref_timeout_entries_20s">20 seconds</string>
+  <string name="pref_timeout_entries_30s">30 seconds</string>
+  <string name="pref_timeout_entries_1m">1 minute</string>
+  <string name="pref_timeout_entries_2m">2 minutes</string>
+  <string name="pref_timeout_entries_3m">3 minutes</string>
+  <string name="pref_timeout_entries_4m">4 minutes</string>
+  <string name="pref_timeout_entries_5m">5 minutes</string>
+  <string name="pref_timeout_entries_7m">7 minutes</string>
+  <string name="pref_timeout_entries_10m">10 minutes</string>
+  
   <string name="pref_vibrate_pattern_entries_normal">Normal</string>
   <string name="pref_vibrate_pattern_entries_long">Long Vibrate</string>
   <string name="pref_vibrate_pattern_entries_multiple_short">Multiple Short</string>

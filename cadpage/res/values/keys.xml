@@ -38,6 +38,7 @@
    <string name="pref_about_key">about</string>
    <string name="pref_faq_key">faq</string>
    <string name="pref_releasenotes_key">releasenotes</string>
+   <string name="pref_timeout_key">timeout</string>
    <string name="pref_dimscreen_key">dimscreen</string>
    <string name="pref_privacy_key">privacy</string>
    <string name="pref_show_personal_key">show_personal</string>

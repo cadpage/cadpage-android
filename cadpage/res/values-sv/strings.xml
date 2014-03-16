@@ -66,8 +66,10 @@
   <string name="pref_popup_control">Alarm Popup kontroll</string>
   <string name="pref_additional_title">Ytterligare inställningar</string>
   <string name="pref_additional_summary">Ytterligare Cadpage-konfigurering</string>
-  <string name="pref_notif_timeout_title">Alert and Screen Timeout</string>                                      <!-- Translate -->
+  <string name="pref_notif_timeout_title">Alert Timeout</string>                                                 <!-- Translate -->
   <string name="pref_notif_timeout_summary">Alerts will stop after this time.  Cur value: %s</string>            <!-- Translate -->
+  <string name="pref_timeout_title">Screen Timeout</string>                                                      <!--  Translate -->
+  <string name="pref_timeout_summary">The screen stay on for this time.  Cur value: %s</string>                  <!--  Translate -->
   <string name="pref_dimscreen_title">Dimma ner Popup-fönster</string>
   <string name="pref_dimscreen_summaryon">Popup-fönstret kommer att dimmas ner (sparar batteri)</string>
   <string name="pref_dimscreen_summaryoff">Popup-fönstret kommer att vara ljust</string>
@@ -188,14 +190,19 @@
   <string name="pref_screen_on_summaryoff">Skärmen kommer inte att sättas på när popup visas</string>
   <string name="pref_screen_category">Skärm</string>
   <string name="pref_notif_repeat_times_entries_keep_repeting">Fortsätt repetera</string>
-  <string name="pref_notif_timeout_entries_30s">30 sekunder</string>
-  <string name="pref_notif_timeout_entries_1m">1 minut</string>
-  <string name="pref_notif_timeout_entries_2m">2 minuter</string>
-  <string name="pref_notif_timeout_entries_3m">3 minuter</string>
-  <string name="pref_notif_timeout_entries_4m">4 minuter</string>
-  <string name="pref_notif_timeout_entries_5m">5 minuter</string>
-  <string name="pref_notif_timeout_entries_7m">7 minuter</string>
-  <string name="pref_notif_timeout_entries_10m">10 minuter</string>
+
+  <string name="pref_timeout_entries_disabled">Disabled</string>                                         <!-- Translate -->
+  <string name="pref_timeout_entries_10s">10 sekunder</string>
+  <string name="pref_timeout_entries_20s">20 sekunder</string>
+  <string name="pref_timeout_entries_30s">30 sekunder</string>
+  <string name="pref_timeout_entries_1m">1 minut</string>
+  <string name="pref_timeout_entries_2m">2 minut</string>
+  <string name="pref_timeout_entries_3m">3 minut</string>
+  <string name="pref_timeout_entries_4m">4 minut</string>
+  <string name="pref_timeout_entries_5m">5 minut</string>
+  <string name="pref_timeout_entries_7m">7 minut</string>
+  <string name="pref_timeout_entries_10m">10 minut</string>
+  
   <string name="pref_vibrate_pattern_entries_normal">Normal</string>
   <string name="pref_vibrate_pattern_entries_long">Lång vibration</string>
   <string name="pref_vibrate_pattern_entries_multiple_short">Multipla korta</string>
