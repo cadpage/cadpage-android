@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class WAYakimaCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER = 
-    Pattern.compile("(?:(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d)|\\*\\*\\.\\*\\*\\.\\*\\* \\*\\*/\\*\\*/\\*\\*) (.*?) ([A-Z]{2}FD|AMR|ALS|SCOM|PRAM)((?: +(?:[A-Z]+\\d+[A-Z]?|AOA|[A-Z]{1,2}DC))+)(?: +(.*))?");
+    Pattern.compile("(?:(\\d\\d\\.\\d\\d\\.\\d\\d) (\\d\\d/\\d\\d/\\d\\d)|\\*\\*\\.\\*\\*\\.\\*\\* \\*\\*/\\*\\*/\\*\\*) (.*?) ([A-Z]{2}[FP]D|AMR|ALS|SCOM|PRAM)((?: +(?:[A-Z]+\\d+[A-Z]?|AOA|[A-Z]{1,2}DC))+)(?: +(.*))?");
   private static final Pattern APT_MARK_PTN = Pattern.compile(" +(?:APT|ROOM) +", Pattern.CASE_INSENSITIVE);
   
   public WAYakimaCountyParser() {
@@ -63,6 +63,7 @@ public class WAYakimaCountyParser extends SmartAddressParser {
       "ACCIDENT INJURY",
       "ACCIDENT NO INJ",
       "ACCIDENT UNKNOW",
+      "AGENCY ASSIST",
       "CITIZEN ASSIST",
       "EMR ALARM MED",
       "EMR AMB",
@@ -97,7 +98,8 @@ public class WAYakimaCountyParser extends SmartAddressParser {
       "FIRE STRUCTURE",
       "FIRE TRASH GARB",
       "FIRE VEHICLE",
-      "PAGED"
+      "PAGED",
+      "WELFARE CHECK"
     );
   }
 }
