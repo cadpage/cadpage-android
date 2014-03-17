@@ -11,8 +11,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ILKankakeeCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER_PTN3 =
-      Pattern.compile("(.*)(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)(?: +(.*))?");
+      Pattern.compile("(.*)(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)(?: +(\\d{4}-\\d{8}))?(?: +(.*))?");
   private static final Pattern LEAD_DIR_PTN = Pattern.compile("([NSEW])\\b *(.*)");
+  private static final Pattern APT_PTN = Pattern.compile("(.*?) *\\b(?:APT|RM|LOT) +([^ ]+) *(.*)", Pattern.CASE_INSENSITIVE);
   
   private static final Pattern MASTER_PTN2 = 
       Pattern.compile("(.+) Location: (.+) \\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d Incident #: *(.*)");
@@ -74,11 +75,12 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
     
     match = MASTER_PTN3.matcher(body);
     if (match.matches()) {
-      setFieldList("CALL ADDR APT CITY PLACE DATE TIME X");
+      setFieldList("CALL ADDR APT CITY PLACE DATE TIME ID X");
       body = match.group(1).trim();
       data.strDate = match.group(2);
       data.strTime = match.group(3);
-      data.strCross = getOptGroup(match.group(4));
+      data.strCallId = getOptGroup(match.group(4));
+      data.strCross = getOptGroup(match.group(5));
       
       // Sometimes there is no blank separating the place name
       // from the city name.  We will try to identify these by looking
@@ -95,12 +97,24 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
         pad = match.group(2);
       }
       if (pad.length() < 5) {
-        data.strApt = append(data.strApt, " ", pad);
+        data.strApt = append(data.strApt, "-", pad);
       } else {
         data.strPlace = pad;
       }
 
-      data.strPlace = append(data.strPlace, " - ", getLeft());
+      String place = getLeft();
+      match = APT_PTN.matcher(place);
+      if (match.matches()) {
+        data.strApt = append(data.strApt, "-", match.group(2));
+        place = append(match.group(1), " ", match.group(3));
+      }
+      if (checkAddress(place) > 0 && !place.toUpperCase().endsWith(" TERRACE")) {
+        data.strCross = append(data.strCross, " / ", place);
+      } else if (data.strApt.length() == 0 && place.length() < 5) {
+        data.strApt = append(data.strApt, "-", place);
+      } else {
+        data.strPlace = append(data.strPlace, " - ", place);
+      }
       return true;
     }
     
@@ -145,6 +159,7 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
   
   private static final CodeSet CALL_LIST = new CodeSet(
       "911:UNKNOWN",
+      "911:ABANDONED",
       "ACCIDENT",
       "ALARM CALL",
       "ALARM:AUTOMATIC",
@@ -155,11 +170,14 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
       "ALARM:STILL",
       "AMB:MUTUAL AID",
       "AMBULANCE",
+      "AMBULANCE:ASSIST",
       "BATTERY",
       "CONTROL BURN",
       "DEATH INVESTIGATION",
       "DECEASED SUBJ",
       "DIS CONDUCT",
+      "DISABLED VEH",
+      "DISTURBANCE",
       "DOM DIST",
       "FIGHT",
       "FIRE:BRUSH",
@@ -172,10 +190,13 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
       "MENTAL CASE",
       "MISSING PERSON",
       "NEW",
+      "OTHER DUTIES",
       "REMOVAL",
       "RIVERSIDE AMB",
       "SHOTS FIRED",                                                                                                                                                                                                 
       "SMOKE/ODOR",
+      "ABANDONED",
+      "WEAPONS",
       "WELFARE CHECK",
       "WIRES DOWN"
   );
