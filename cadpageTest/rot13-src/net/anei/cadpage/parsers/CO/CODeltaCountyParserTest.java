@@ -6,6 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Qrygn Pbhagl, PB
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Qrygn Pbhagl Nzohynapr Qvfgevpg
 Ybpngvba: Qrygn, PB, Havgrq Fgngrf
@@ -117,7 +118,7 @@ PNYY: GENSSVP\aCYNPR: \aNQQE: 100 R 3EQ FG & ZNVA FG\aPVGL: Qrygn\aVQ: P147131\a
 choyvp pynff PBQrygnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp PBQrygnPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "QRYGN PBHAGL", "PB");
+    frgCnefre(arj PBQrygnPbhaglCnefre(), "QRYGN PBHAGL", "PB");
   }
   
   @Grfg
