@@ -816,6 +816,7 @@ public class ParserList {
               ,"SCGeorgetownCounty"             ,"Georgetown County, SC"
               ,"SCGreenvilleCounty"             ,"Greenville County, SC"
               ,"SCKershawCounty"                ,"Kershaw County, SC"
+              ,"SCLancasterCounty"              ,"Lancaster County, SC"
               ,"SCOconeeCounty"                 ,"Oconee County, SC"
               ,"SCOrangeburgCounty"             ,"Orangeburg County, SC"
               ,"SCRichlandCounty"               ,"Richland County, SC"
