@@ -132,7 +132,6 @@ public class Message {
   private void preParse(String fromAddress, String subject, String body, boolean insBlank, boolean keepLeadBreak) {
     
     // Start by decoding common HTML sequences
-    body = decode(body);
     body = trimLead(body, keepLeadBreak);
     
     // Get rid of any \r characters
@@ -147,7 +146,7 @@ public class Message {
     
     // default address and subject to obvious values
     parseAddress = fromAddress;
-    parseSubject = decode(subject);
+    parseSubject = subject;
     
     // Remove trailing disclaimer(s)
     Matcher match = DISCLAIMER_PTN.matcher(body);
@@ -415,19 +414,6 @@ public class Message {
             (keepLeadBreak ? str.charAt(pt) == ' ' : Character.isWhitespace(str.charAt(pt)))) pt++;
     return str.substring(pt);
   }
-
-  /**
-   * Remove common HTML sequences
-   * @param body
-   * @return
-   */
-  private String decode(String body) {
-    body = HTML_PTN.matcher(body).replaceAll("");
-    body = BR_PTN.matcher(body).replaceAll("\n");
-    return body.replace("&nbsp;",  " ").replace("&amp;",  "&").replace("&gt;", ">").replace("&lt;", "<");
-  }
-  private static final Pattern HTML_PTN = Pattern.compile("^.*<HTML>|<BODY>|</BODY>|</HTML>.*$", Pattern.CASE_INSENSITIVE);
-  private static final Pattern BR_PTN = Pattern.compile("< *br */?>", Pattern.CASE_INSENSITIVE);
   
   /**
    * Perform final message parsing.  This is the last preparse steps that should
@@ -503,6 +489,7 @@ public class Message {
       }
     }
     
+    parseSubject = MsgParser.decodeHtmlSequence(parseSubject);
     return body;
   }
   

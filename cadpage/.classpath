@@ -6,5 +6,6 @@
 	<classpathentry kind="lib" path="libs/TTS_library_stub_2.0_market.jar"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/htmlcleaner-2.7.jar" sourcepath="libs/htmlcleaner-2.7-src.zip"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

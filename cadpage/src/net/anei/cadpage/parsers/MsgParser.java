@@ -386,7 +386,7 @@ public abstract class MsgParser {
     String strMessage = htmlFilter(msg.getMessageBody());
     Data data = new Data(this);
     if (strMessage == null) return data;
-    if (parseUntrimmedMsg(strSubject, strMessage, data)) {
+    if (parseHtmlMsg(strSubject, strMessage, data)) {
       
       // Generally, if the parse was happy with the call, we are happy.  One exception
       // is when individual parser determine a message should be a general alert because
@@ -429,36 +429,39 @@ public abstract class MsgParser {
     return true;
   }
   
-
-  /**
-   * Parse information object from message
-   * @param strSubject message subject to be parsed
-   * @param strMessage message text to be parsed
-   * @param data data object to be constructed
-   * @return true if successful, false otherwise
-   */
-  protected boolean parseUntrimmedMsg(String strSubject, String strMessage, Data data) {
-    return parseMsg(strSubject, strMessage.trim(), data);
+  protected boolean parseHtmlMsg(String subject, String body, Data data) {
+    return parseUntrimmedMsg(subject, decodeHtmlSequence(body), data);
   }
 
   /**
    * Parse information object from message
-   * @param strSubject message subject to be parsed
-   * @param strMessage message text to be parsed
+   * @param subject message subject to be parsed
+   * @param body message text to be parsed
    * @param data data object to be constructed
    * @return true if successful, false otherwise
    */
-  protected boolean parseMsg(String strSubject, String strMessage, Data data) {
-    return parseMsg(strMessage, data);
+  protected boolean parseUntrimmedMsg(String subject, String body, Data data) {
+    return parseMsg(subject, body.trim(), data);
   }
 
   /**
    * Parse information object from message
-   * @param strMessage message text to be parsed
+   * @param subject message subject to be parsed
+   * @param body message text to be parsed
    * @param data data object to be constructed
    * @return true if successful, false otherwise
    */
-  protected boolean parseMsg(String strMessage, Data data) {
+  protected boolean parseMsg(String sbject, String body, Data data) {
+    return parseMsg(body, data);
+  }
+
+  /**
+   * Parse information object from message
+   * @param body message text to be parsed
+   * @param data data object to be constructed
+   * @return true if successful, false otherwise
+   */
+  protected boolean parseMsg(String body, Data data) {
     throw new RuntimeException("parseMsg method was not overridden");
   }
 
@@ -1275,6 +1278,19 @@ public abstract class MsgParser {
    if (field.endsWith(val)) field = field.substring(0,field.length()-val.length()).trim();
    return field;
  }
+
+ /**
+  * Remove common HTML sequences
+  * @param body
+  * @return
+  */
+ public static  String decodeHtmlSequence(String body) {
+   body = HTML_PTN.matcher(body).replaceAll("");
+   body = BR_PTN.matcher(body).replaceAll("\n");
+   return body.replace("&nbsp;",  " ").replace("&amp;",  "&").replace("&gt;", ">").replace("&lt;", "<");
+ }
+ private static final Pattern HTML_PTN = Pattern.compile("^.*<HTML>|<BODY>|</BODY>|</HTML>.*$", Pattern.CASE_INSENSITIVE);
+ private static final Pattern BR_PTN = Pattern.compile("< *br */?>", Pattern.CASE_INSENSITIVE);
  
  /**
   * Worker class that will parse a into consecutive substrings up to the
