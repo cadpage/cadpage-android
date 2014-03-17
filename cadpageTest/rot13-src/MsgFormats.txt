@@ -46,7 +46,6 @@ Npgvir911 gvpxrgf
 2013022010000335  ALNyonalPbhaglP (Zretr jvgu BUYvpxvatPbhagl)
 2013022010000381  FQGhearePbhagl (Trareny jbexvat - pnyy ibyhzr zvavfphyr)
 2013031910001068  Ab pnyyf fvapr 11/4/13
--2013042410000173  Trareny vf nobhg nf tbbq nf jr pna qb
 2013050910000342  Ab npgvba erdhverq
 2013052210000111  Ab qngn
 2013072510000559  Ab qngn
@@ -74,7 +73,7 @@ Npgvir911 gvpxrgf
 2013031510000316  CNPragerPbhagl (bhgfbhepr)
 2013032510000299  Ab qngn
 2013041010000234  ZBFgYbhvfPbhaglS (bhgfbhepr)
-+2014030710000839
+2014030710000839  ubyq sbe zber qngn
 -----------------------------------------------------------
 2014021510000156  AWZreprePbhaglO (bhgfbhepr-UGZY)
 2014022610000457  XLUneqvaPbhaglP (bhgfbhepr-UGZY)
@@ -8224,6 +8223,25 @@ Fraqre: pnqcntr@rgzp.bet
 (- cneg 1 bs 1) EP:C2 Aba Yvsr Rzretrapl (Ubg)/Eha# 12944/18:55//Genssvp / Genafcbegngvba Nppvqragf/<Haxabja>/G Z JRFG CXJL & SBHE PBEAREF EQ/JRFG///////zbgbeplpyr ba sver c\a\a\a\a---------------------------------------------------------------------\aGuvf zrffntr vf pbasvqragvny, vagraqrq bayl\asbe gur anzrq erpvcvrag(f) naq znl pbagnva\avasbezngvba gung vf cevivyrtrq be rkrzcg sebz\aqvfpybfher haqre nccyvpnoyr ynj. Vs lbh ner\aabg gur vagraqrq erpvcvrag(f), lbh ner abgvsvrq\agung gur qvffrzvangvba, qvfgevohgvba be pbclvat\abs guvf zrffntr vf fgevpgyl cebuvovgrq. Vs lbh\aerprvirq guvf zrffntr va reebe, be ner abg gur\aanzrq erpvcvrag(f), cyrnfr abgvsl gur fraqre\anaq qryrgr guvf r-znvy sebz lbhe pbzchgre.\a\aRGZP unf vzcyrzragrq frpher zrffntvat sbe\apregnva glcrf bs zrffntrf. Sbe zber vasbezngvba\anobhg bhe frpher zrffntvat flfgrz, tb gb: \a\a  uggc://jjj.rgzp.bet/znvy/\a\aGunax lbh.\a\a---------------------------------------------------------------------
 (- cneg 1 bs 1) EP:Wbo# 0283-N/ Eha# 12883/ jnf Pnapryrq: Cg Ershfrq Genafcbeg/PNYY:16:23/QVFC:16:25/RAE:16:39/NGF:16:39/PKY:17:25\a\a\a\a---------------------------------------------------------------------\aGuvf zrffntr vf pbasvqragvny, vagraqrq bayl\asbe gur anzrq erpvcvrag(f) naq znl pbagnva\avasbezngvba gung vf cevivyrtrq be rkrzcg sebz\aqvfpybfher haqre nccyvpnoyr ynj. Vs lbh ner\aabg gur vagraqrq erpvcvrag(f), lbh ner abgvsvrq\agung gur qvffrzvangvba, qvfgevohgvba be pbclvat\abs guvf zrffntr vf fgevpgyl cebuvovgrq. Vs lbh\aerprvirq guvf zrffntr va reebe, be ner abg gur\aanzrq erpvcvrag(f), cyrnfr abgvsl gur fraqre\anaq qryrgr guvf r-znvy sebz lbhe pbzchgre.\a\aRGZP unf vzcyrzragrq frpher zrffntvat sbe\apregnva glcrf bs zrffntrf. Sbe zber vasbezngvba\anobhg bhe frpher zrffntvat flfgrz, tb gb: \a\a  uggc://jjj.rgzp.bet/znvy/\a\aGunax lbh.\a\a---------------------------------------------------------------------
 **********************************************************
+2014031410001137
+QrFbgb Pbhagl, ZF
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fbhgunira Sver Qrcnegzrag
+Ybpngvba: Fbhgunira, ZF, Havgrq Fgngrf
+Fraqre: <QVFCNGPU@fbhgunira.bet>
+
+QVFCNGPU:RIRAG: FVPX YBP:8193 JUVGROEBBX QE Pnq: 2014-0000014408 QFC >19:21:23 RAE >19:22:53 BF >19:26:30 REU >19:46:34 BFU >19:50:52 PU >20:17:19 NVD >20:21:38
+QVFCNGPU:CNVA >TRARENY PBZCYNVAG BS CNVA 526 JVAQEVQTR CG KF: ZVYYSBEQ PI FBHGUNIRA QRYRAN Znc:9OP Tevqf:, Pnq: 2014-0000014414
+QVFCNGPU:FVPX >FVPX CNEGL 8193 JUVGROEBBX QE KF: ENFPB EQ J FBHGUNIRA ERLABYQF, ZNETNERG Znc:7T Tevqf:, Pnq: 2014-0000014408
+QVFCNGPU:RIRAG: FVPX YBP:1542 FGNGRYVAR EQ J Pnq: 2014-0000014403 QFC >18:54:12 RAE >18:55:56 BF >18:58:17 RED >19:09:13 NVD >19:12:01
+QVFCNGPU:FVPX >FVPX CNEGL 1542 FGNGRYVAR EQ J KF: JUVGJBEGU FG FBHGUNIRA CEVPR,GNALN Znc: Tevqf:, Pnq: 2014-0000014403
+QVFCNGPU:RIRAG: ZINV YBP:465 TBBQZNA EQ R Pnq: 2014-0000014363 QFC >15:52:25 RAE >15:53:54 BF >15:57:14 REU >16:16:45 BFU >16:24:15 RED >16:51:47 NVD >17:33:32
+QVFCNGPU:RIRAG: SVERTE YBP:NVEJNLF OYIQ&ZVYYRE EQ Pnq: 2014-0000014361 RAE >15:36:23 BF >15:40:25 RED >16:17:35 NVD >16:23:11
+QVFCNGPU:RIRAG: ZINV YBP:465 TBBQZNA EQ R Pnq: 2014-0000014363 QFC >15:52:25 Pnfr: 0000000010 Qvfc: RAE >15:53:07 BF >15:54:42 RED >16:14:35 NVD >16:17:37
+QVFCNGPU:RIRAG: SVERTE YBP:NVEJNLF OYIQ&ZVYYRE EQ Pnq: 2014-0000014361 RAE >15:37:11 BF >15:38:44 RED >15:53:20 NVD >15:58:56
+QVFCNGPU:ZINV >NPPVQRAG J/VAWHEVRF 465 TBBQZNA EQ R KF: TERRAOEVNE QE FBHGUNIRA QBANYQ,ZNEL Znc:9R Tevqf:, Pnq: 2014-0000014363
+QVFCNGPU:RIRAG: SVERTE YBP:NVEJNLF OYIQ&ZVYYRE EQ Pnq: 2014-0000014361 BF >15:39:49 PYE >15:40:21
 **********************************************************
 **********************************************************
 **********************************************************
