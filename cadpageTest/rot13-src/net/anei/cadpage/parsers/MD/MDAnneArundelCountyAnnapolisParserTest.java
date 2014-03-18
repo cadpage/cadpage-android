@@ -10842,7 +10842,7 @@ choyvp pynff ZQNaarNehaqryPbhaglNaancbyvfCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201414832",
         "PNYY:NYF - OYF ZRQVPNY - ZIP:HAXABJA FGNGHF",
         "NQQE:V97 A & EG50 J",
-        "ZNQQE:V 97 A & EG 50 J",
+        "ZNQQE:38.98445298,-76.56910571",
         "PVGL:NAANCBYVF",
         "CYNPR:PBBIRE EQ NERN PBZZHAVGL",
         "ZNC:19-T09-4084",

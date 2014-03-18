@@ -16,6 +16,7 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
   public MDAnneArundelCountyAnnapolisParser() {
     super(CITY_CODES, "ANNE ARUNDEL COUNTY", "MD",
            "CALL1 ADDR/y MAP ZIP! X+? Nature:CALL! Call_back:PHONE? EXTRA+? UNIT UNIT+? INFO+? ( HYDRANTS INFO+? TIMEDATE! | TIMEDATE! )");
+    setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
   @Override
@@ -263,6 +264,53 @@ public class MDAnneArundelCountyAnnapolisParser extends FieldProgramParser {
       data.strSupp = append(data.strSupp, "\n", field);
     }
   }
+  
+  @Override
+  protected String adjustGpsLookupAddress(String address) {
+    address = DIR_PTN.matcher(address).replaceAll("");
+    address = RT_BLANK_PTN.matcher(address).replaceAll("$1$2");
+    address = GENERALS_HWY_PTN.matcher(address).replaceAll("RT178");
+    address = BALTO_ANNAP_BLVD_PTN.matcher(address).replaceAll("RT648");
+    address = NEW_CUT_RD_PTN.matcher(address).replaceAll("CRAIN HWY");
+    address = DORSEY_RD_PTN.matcher(address).replaceAll("RT176");
+    address = QUARTERFIELD_RD_PTN.matcher(address).replaceAll("RT174");
+    return address;
+  }
+  private static final Pattern DIR_PTN = Pattern.compile(" +[NSEW]\\b");
+  private static final Pattern RT_BLANK_PTN = Pattern.compile("(I|RT) +(\\d+)");
+  private static final Pattern GENERALS_HWY_PTN = Pattern.compile("\\bGENERALS HWY\\b");
+  private static final Pattern BALTO_ANNAP_BLVD_PTN = Pattern.compile("\\bBALTO ANNAP BLVD\\b");
+  private static final Pattern NEW_CUT_RD_PTN = Pattern.compile("\\bNEW CUT RD\\b");
+  private static final Pattern DORSEY_RD_PTN = Pattern.compile("\\bDORSEY RD\\b");
+  private static final Pattern QUARTERFIELD_RD_PTN = Pattern.compile("\\bQUARTERFIELD RD\\b");
+
+  private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
+      "I97 & CROWNSVILLE RD",        "38.99683316,-76.58685279",
+      "I97 & DEFENSE HWY",           "38.98939223,-76.57863063",
+      "I97 & FARM RD",               "39.01858781,-76.61416776",
+      "I97 & HAWKINS RD",            "39.00769803,-76.60822717",
+      "I97 & RT50",                  "38.98445298,-76.56910571",
+      "I97 & CROWNSVILLE EXIT",      "39.04721747,-76.62119272",
+      "I97 & RT178",                 "39.04721747,-76.62119272",
+      "I97 & RT32",                  "39.06268206,-76.64011324",
+      "I97 & WATERBURY RD",          "39.04768415,-76.62243167",
+      "I97 & RT648",                 "39.17830710,-76.63466287",
+      "I97 & CRAIN HWY",             "39.12832682,-76.64174212",
+      "I97 & CROMWELL PARK DR",      "39.17261419,-76.63892790",
+      "I97 & RT176",                 "39.16595633,-76.64226694",
+      "I97 & FURNACE BRANCH RD",     "39.19735299,-76.63233282",
+      "I97 & I695",                  "39.20081562,-76.63159823",
+      "I97 & STEWART AVE",           "39.16080315,-76.64433820",
+      "I97 & I895",                  "39.20649600,-76.62699700",
+      "I97 & WELLHAM AVE",           "39.18516057,-76.63232174",
+      "I97 & RT174",                 "39.14462105,-76.64487056",
+      "I97 & RT100",                 "39.15464226,-76.64579945",
+      "I97 & BENFIELD BLVD",         "39.09459880,-76.62947010",
+      "I97 & BRIGHTVIEW DR",         "39.11097321,-76.63255299",
+      "I97 & MILLERSVILLE RD",       "39.05671991,-76.63138975",
+      "I97 & RT3",                   "39.06718618,-76.64020238",
+      "I97 & VETERANS HWY",          "39.12114900,-76.63808700"
+  });
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "AN",   "ANNAPOLIS",
