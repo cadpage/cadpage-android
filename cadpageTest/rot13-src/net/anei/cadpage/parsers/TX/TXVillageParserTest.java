@@ -1,5 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.GK;
 
+vzcbeg bet.whavg.Grfg;
+
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 /* 
@@ -110,6 +112,10 @@ choyvp pynff GKIvyyntrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp GKIvyyntrCnefreGrfg() {
     frgCnefre(arj GKIvyyntrCnefre(), "IVYYNTR", "GK");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgIvyyntr() {
     qbGrfg("G1",
         "(=?HGS-8?O?DHkSHyD=?=) PNYY: Zbgbe Iruvpyr Nppvqrag\a" +
         "CYNPR: \a" +
